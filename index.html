@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quran Explained - phrase by phrase</title>
+
+  <!-- ========== PWA META TAGS ========== -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d9488">
+
+  <!-- Apple / iOS PWA Support -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Al-Quran">
+  <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-192x192.png">
+
+  <!-- Windows PWA Support -->
+  <meta name="msapplication-TileColor" content="#0d9488">
+  <meta name="msapplication-TileImage" content="icons/icon-144x144.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-96x96.png">
+
+  <!-- SEO & Social -->
+  <meta name="description" content="A modern, interactive Quran reader with phrase-by-phrase explanations, bookmarks, reading history, and beautiful themes.">
+  <meta name="keywords" content="Quran,Quran explained, Explained, Al-Quran, Islamic, Reader, Tafsir, Arabic, Interactive, PWA">
+  <meta name="author" content="Quran Explained">
+  <meta property="og:title" content="Quran Explained">
+  <meta property="og:description" content="Explore all 114 chapters with interactive verse-by-verse explanations">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="icons/icon-512x512.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Quran Explained">
+  <meta name="twitter:description" content="A modern Quran reader with phrase-by-phrase explanations">
+
+  <!-- ========== FONTS ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/font.css" rel="stylesheet">
+
+  <!-- ========== MAIN STYLESHEET ========== -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-pattern"></div>
+
+  <!-- ========== STICKY HEADER ========== -->
+  <header class="app-header" id="appHeader">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="header-title">Quran Explained</h1>
+          <p class="header-subtitle">Interactive Reader</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="about-btn" onclick="openAboutModal()" title="About this app" aria-label="About this app">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+        </button>
+        <div class="theme-switcher" id="themeSwitcher">
+          <button class="theme-btn" onclick="cycleTheme()" title="Change theme" aria-label="Change color theme">
+            <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <span id="themeLabel" class="theme-label">Dark</span>
+          </button>
+        </div>
+        <div id="headerAction"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN APPLICATION CONTAINER ========== -->
+  <main id="app" class="app-container"></main>
+
+  <!-- ========== EXPLANATION MODAL ========== -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle" class="modal-title"></h3>
+        <button onclick="closeModal()" class="modal-close" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <p id="modalBody" class="modal-body"></p>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT MODAL ========== -->
+  <div class="modal-overlay" id="aboutModal">
+    <div class="modal-content about-modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="font-size:22px;">About Quran Explained</h3>
+        <button onclick="closeAboutModal()" class="modal-close" aria-label="Close about modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="about-body" id="aboutBody">
+        <div class="about-hero">
+          <div class="about-logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h4 class="about-app-name">Quran Explained</h4>
+          <p class="about-version">Version 1.0</p>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">About</h5>
+          <p class="about-text">A modern, interactive Quran reader designed to help you explore and understand the Noble Quran with phrase-by-phrase explanations. Click on any English phrase to read its detailed commentary.</p>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">Features</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">📖</span><div><strong>All 114 Chapters</strong><span>Complete chapter listing with Arabic names, meanings, and verse counts</span></div></li>
+            <li><span class="about-feature-icon">🔍</span><div><strong>Smart Search</strong><span>Search chapters by name, number, meaning, or search within verse content (English &amp; Arabic)</span></div></li>
+            <li><span class="about-feature-icon">💬</span><div><strong>Interactive Explanations</strong><span>Clickable phrase-by-phrase English translation with detailed tafsir commentary</span></div></li>
+            <li><span class="about-feature-icon">🔖</span><div><strong>Verse Bookmarks</strong><span>Bookmark specific verses for quick access later — saved locally on your device</span></div></li>
+            <li><span class="about-feature-icon">🕐</span><div><strong>Reading History</strong><span>Track which verse explanations you've read — never lose your place</span></div></li>
+            <li><span class="about-feature-icon">🎨</span><div><strong>4 Color Themes</strong><span>Dark, Light, Sepia, and Midnight modes for comfortable reading any time</span></div></li>
+          </ul>
+        </div>
+
+
+
+        <!-- ===== OFFLINE AVAILABILITY NOTICE ===== -->
+        <div class="about-section about-offline-notice" id="offlineSection">
+          <h5 class="about-section-title">Offline Access</h5>
+          <div class="offline-notice-card">
+            <div class="offline-notice-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 6s4-4 11-4 11 4 11 4"/>
+                <path d="M5 10s2.5-2.5 7-2.5 7 2.5 7 2.5"/>
+                <path d="M9 14s1.5-1.5 3-1.5 3 1.5 3 1.5"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="offline-notice-body">
+              <p class="offline-notice-headline">This app works offline</p>
+              <p class="offline-notice-text">Once you've visited a chapter, it's cached on your device and available without an internet connection.</p>
+            </div>
+          </div>
+          <ul class="offline-steps">
+            <li>
+              <span class="offline-step-num">1</span>
+              <div>
+                <strong>Install the app</strong>
+                <span>Tap <em>Add to Home Screen</em> (iOS Safari) or <em>Install App</em> (Android / Chrome) from your browser menu</span>
+              </div>
+            </li>
+            <li>
+              <span class="offline-step-num">2</span>
+              <div>
+                <strong>Browse chapters while online</strong>
+                <span>Open any chapter — it will be silently cached on your device for offline reading</span>
+              </div>
+            </li>
+            <li>
+              <span class="offline-step-num">3</span>
+              <div>
+                <strong>Read anytime, anywhere</strong>
+                <span>Go offline and open the app — all previously visited chapters remain fully accessible</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ===== END OFFLINE AVAILABILITY NOTICE ===== -->
+        	
+        	
+                <div class="about-section">
+          <h5 class="about-section-title">About Developer</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">😎</span><div><strong>Name</strong><span>Abdulrahaman Kehinde</span></div></li>
+            <li><span class="about-feature-icon">🌍</span><div><strong>Nationality</strong><span>Nigeria 🇳🇬</span></div></li>
+            <li><span class="about-feature-icon">🎯</span><div><strong>Mission</strong><span>To make the Islamic faith easy to understand for everyone.</span></div></li>
+            <li><span class="about-feature-icon">✉️</span><div><strong>Email</strong><span>Maxikennexus@gmail.com</span></div></li>
+          </ul>
+        </div>	
+
+        <div class="about-section about-disclaimer">
+          <p class="about-text"><strong>Disclaimer:</strong> The explanations provided are for educational purposes. For authoritative religious guidance, please consult qualified Islamic scholars. May Allah accept this effort and make it beneficial.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== PWA INSTALL PILL ========== -->
+  <div class="pwa-install-pill" id="pwaInstallPill">
+    <div class="pwa-pill-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+    </div>
+    <div class="pwa-pill-text">
+      <span class="pwa-pill-title">Install App</span>
+      <span class="pwa-pill-sub">Read offline, anytime</span>
+    </div>
+    <button class="pwa-pill-btn" id="pwaInstallBtn">Install</button>
+    <button class="pwa-pill-close" id="pwaInstallClose" aria-label="Dismiss">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- ========== SCRIPTS ========== -->
+  <!--
+    LOAD ORDER IS INTENTIONAL:
+    1. chapters-meta.js  — chapter index (tiny, no verse data)
+    2. PWA inline script — MUST run before app.js so window.triggerPWAInstall
+                          exists when app.js renders the home banner
+    3. app.js            — main application logic
+  -->
+  <script src="js/chapters-meta.js"></script>
+
+  <!-- PWA: Service Worker + Install Prompt — intentionally BEFORE app.js -->
+  <script>
+    // ---- Service Worker ----
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(reg) {
+            console.log('[App] SW registered. Scope:', reg.scope);
+            reg.addEventListener('updatefound', function() {
+              var nw = reg.installing;
+              nw.addEventListener('statechange', function() {
+                if (nw.state === 'activated') console.log('[App] SW updated!');
+              });
+            });
+          })
+          .catch(function(e) { console.warn('[App] SW failed:', e); });
+      });
+    }
+
+    // ---- PWA Install Prompt ----
+    var _deferredPrompt = null;
+    var DISMISSED_KEY = 'pwa-pill-dismissed';
+
+    var isStandalone = window.matchMedia('(display-mode: standalone)').matches
+                    || window.navigator.standalone === true;
+
+    if (isStandalone) {
+      document.getElementById('pwaInstallPill').style.display = 'none';
+    }
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      _deferredPrompt = e;
+      if (!localStorage.getItem(DISMISSED_KEY) && !isStandalone) {
+        setTimeout(function() {
+          var pill = document.getElementById('pwaInstallPill');
+          if (pill) pill.classList.add('pwa-pill-visible');
+        }, 1800);
+      }
+    });
+
+    document.getElementById('pwaInstallBtn').addEventListener('click', function() {
+      if (!_deferredPrompt) return;
+      _deferredPrompt.prompt();
+      _deferredPrompt.userChoice.then(function(choice) {
+        if (choice.outcome === 'accepted') {
+          document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+        }
+        _deferredPrompt = null;
+      });
+    });
+
+    document.getElementById('pwaInstallClose').addEventListener('click', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+      localStorage.setItem(DISMISSED_KEY, '1');
+    });
+
+    window.addEventListener('appinstalled', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+    });
+
+    // ---- Public API called by the home banner (app.js) ----
+    // Android/Chrome/Edge: fires native install dialog immediately.
+    // iOS/local server:    no deferred prompt available, so open the About
+    //                      modal and scroll directly to the offline section.
+    window.triggerPWAInstall = function() {
+      if (_deferredPrompt) {
+        // Native install dialog available — use it
+        _deferredPrompt.prompt();
+        _deferredPrompt.userChoice.then(function(choice) {
+          if (choice.outcome === 'accepted') {
+            document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+          }
+          _deferredPrompt = null;
+        });
+      } else {
+        // Fallback: open About modal, then scroll to the offline/install section
+        if (typeof openAboutModal === 'function') {
+          openAboutModal();
+          // Wait for the modal open animation to finish (CSS transition is 0.3s),
+          // then scroll the modal's scrollable body to the offline section.
+          setTimeout(function() {
+            var section = document.getElementById('offlineSection');
+            var scrollContainer = document.getElementById('aboutBody');
+            if (section && scrollContainer) {
+              // scrollIntoView works on the section itself since the modal is scrollable
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 350);
+        }
+      }
+    };
+  </script>
+
+  <!-- app.js loads AFTER the PWA script so triggerPWAInstall is already defined -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>

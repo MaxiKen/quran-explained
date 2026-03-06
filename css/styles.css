@@ -1,0 +1,1845 @@
+/* ================================================
+   AL-QURAN INTERACTIVE READER — MAIN STYLESHEET
+   ================================================
+   Themes: dark, light, sepia, midnight
+   All colors use CSS custom properties for theming.
+================================================ */
+
+/* ---- IMPORTS ---- */
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ---- KFGQPC Hafs Uthmanic Script Font ---- */
+/* Primary Arabic font used for all Quranic text.
+   This is the official font from the King Fahd Quran
+   Printing Complex in Madinah, Saudi Arabia.
+   Falls back to Amiri Quran → system Arabic fonts. */
+@font-face {
+  font-family: 'KFGQPC Hafs';
+  src: url('https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;  /* Show fallback font immediately, swap when loaded */
+}
+
+/* ================================================
+   THEME VARIABLES
+   Each theme defines a complete color palette.
+================================================ */
+
+/* -- DARK THEME (default) -- */
+[data-theme="dark"] {
+  --bg-primary: #0a0f1a;
+  --bg-secondary: #0f172a;
+  --bg-card: rgba(15, 23, 42, 0.6);
+  --bg-card-hover: rgba(15, 23, 42, 0.8);
+  --bg-header: rgba(10, 15, 26, 0.85);
+  --bg-input: rgba(15, 23, 42, 0.8);
+  --bg-modal: linear-gradient(180deg, #0f172a, #0a0f1a);
+  --bg-verse: linear-gradient(135deg, rgba(13, 148, 136, 0.05), rgba(99, 102, 241, 0.03));
+  --bg-theme-section: rgba(15, 23, 42, 0.4);
+  --bg-pattern-1: rgba(13, 148, 136, 0.08);
+  --bg-pattern-2: rgba(99, 102, 241, 0.06);
+  --bg-pattern-3: rgba(13, 148, 136, 0.04);
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-faint: #475569;
+  --text-separator: #334155;
+
+  --accent: #5eead4;
+  --accent-rgb: 94, 234, 212;
+  --accent-dark: #2dd4bf;
+  --accent-darker: #14b8a6;
+  --accent-bg: rgba(94, 234, 212, 0.1);
+  --accent-bg-light: rgba(94, 234, 212, 0.05);
+  --accent-bg-hover: rgba(94, 234, 212, 0.08);
+  --accent-border: rgba(94, 234, 212, 0.15);
+  --accent-border-light: rgba(94, 234, 212, 0.08);
+  --accent-border-hover: rgba(94, 234, 212, 0.25);
+  --accent-border-focus: rgba(94, 234, 212, 0.4);
+  --accent-glow: rgba(94, 234, 212, 0.06);
+  --accent-glow-strong: rgba(94, 234, 212, 0.12);
+
+  --gradient-logo: linear-gradient(135deg, #0d9488, #0f766e);
+  --gradient-card: linear-gradient(135deg, rgba(94, 234, 212, 0.04), rgba(99, 102, 241, 0.03));
+  --gradient-surah-header: linear-gradient(135deg, rgba(94, 234, 212, 0.06), rgba(99, 102, 241, 0.04));
+
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.3);
+  --shadow-modal: 0 25px 60px rgba(0, 0, 0, 0.5);
+
+  --scrollbar-thumb: rgba(94, 234, 212, 0.15);
+  --scrollbar-thumb-hover: rgba(94, 234, 212, 0.3);
+
+  --makkan-color: #f59e0b;
+  --makkan-bg: rgba(245, 158, 11, 0.1);
+  --medinan-color: #3b82f6;
+  --medinan-bg: rgba(59, 130, 246, 0.1);
+
+  --bookmark-color: #f59e0b;
+  --bookmark-bg: rgba(245, 158, 11, 0.1);
+  --history-color: #a78bfa;
+  --history-bg: rgba(167, 139, 250, 0.1);
+  --tab-active-bg: rgba(94, 234, 212, 0.15);
+}
+
+/* -- LIGHT THEME -- */
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --bg-card-hover: rgba(255, 255, 255, 1);
+  --bg-header: rgba(248, 250, 252, 0.9);
+  --bg-input: rgba(255, 255, 255, 0.9);
+  --bg-modal: linear-gradient(180deg, #ffffff, #f1f5f9);
+  --bg-verse: linear-gradient(135deg, rgba(13, 148, 136, 0.06), rgba(99, 102, 241, 0.04));
+  --bg-theme-section: rgba(255, 255, 255, 0.7);
+  --bg-pattern-1: rgba(13, 148, 136, 0.06);
+  --bg-pattern-2: rgba(99, 102, 241, 0.05);
+  --bg-pattern-3: rgba(13, 148, 136, 0.03);
+
+  --text-primary: #0f172a;
+  --text-secondary: #1e293b;
+  --text-muted: #475569;
+  --text-dim: #64748b;
+  --text-faint: #94a3b8;
+  --text-separator: #cbd5e1;
+
+  --accent: #0d9488;
+  --accent-rgb: 13, 148, 136;
+  --accent-dark: #0f766e;
+  --accent-darker: #115e59;
+  --accent-bg: rgba(13, 148, 136, 0.12);
+  --accent-bg-light: rgba(13, 148, 136, 0.05);
+  --accent-bg-hover: rgba(13, 148, 136, 0.08);
+  --accent-border: rgba(13, 148, 136, 0.2);
+  --accent-border-light: rgba(13, 148, 136, 0.1);
+  --accent-border-hover: rgba(13, 148, 136, 0.35);
+  --accent-border-focus: rgba(13, 148, 136, 0.5);
+  --accent-glow: rgba(13, 148, 136, 0.06);
+  --accent-glow-strong: rgba(13, 148, 136, 0.1);
+
+  --gradient-logo: linear-gradient(135deg, #0d9488, #0f766e);
+  --gradient-card: linear-gradient(135deg, rgba(13, 148, 136, 0.04), rgba(99, 102, 241, 0.03));
+  --gradient-surah-header: linear-gradient(135deg, rgba(13, 148, 136, 0.08), rgba(99, 102, 241, 0.05));
+
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-modal: 0 25px 60px rgba(0, 0, 0, 0.15);
+
+  --scrollbar-thumb: rgba(13, 148, 136, 0.25);
+  --scrollbar-thumb-hover: rgba(13, 148, 136, 0.4);
+
+  --makkan-color: #d97706;
+  --makkan-bg: rgba(217, 119, 6, 0.1);
+  --medinan-color: #2563eb;
+  --medinan-bg: rgba(37, 99, 235, 0.1);
+
+  --bookmark-color: #d97706;
+  --bookmark-bg: rgba(217, 119, 6, 0.08);
+  --history-color: #7c3aed;
+  --history-bg: rgba(124, 58, 237, 0.08);
+  --tab-active-bg: rgba(13, 148, 136, 0.12);
+}
+
+/* -- SEPIA THEME (warm, paper-like reading mode) -- */
+[data-theme="sepia"] {
+  --bg-primary: #f5efe0;
+  --bg-secondary: #faf6eb;
+  --bg-card: rgba(250, 246, 235, 0.9);
+  --bg-card-hover: rgba(250, 246, 235, 1);
+  --bg-header: rgba(245, 239, 224, 0.9);
+  --bg-input: rgba(250, 246, 235, 0.9);
+  --bg-modal: linear-gradient(180deg, #faf6eb, #f0e8d5);
+  --bg-verse: linear-gradient(135deg, rgba(139, 92, 46, 0.06), rgba(180, 130, 70, 0.04));
+  --bg-theme-section: rgba(250, 246, 235, 0.7);
+  --bg-pattern-1: rgba(139, 92, 46, 0.06);
+  --bg-pattern-2: rgba(180, 130, 70, 0.04);
+  --bg-pattern-3: rgba(139, 92, 46, 0.03);
+
+  --text-primary: #3c2415;
+  --text-secondary: #5c3d2e;
+  --text-muted: #7a5c4a;
+  --text-dim: #96785e;
+  --text-faint: #b8a08a;
+  --text-separator: #d4c4ae;
+
+  --accent: #8b5c2e;
+  --accent-rgb: 139, 92, 46;
+  --accent-dark: #704a24;
+  --accent-darker: #5a3b1c;
+  --accent-bg: rgba(139, 92, 46, 0.12);
+  --accent-bg-light: rgba(139, 92, 46, 0.05);
+  --accent-bg-hover: rgba(139, 92, 46, 0.08);
+  --accent-border: rgba(139, 92, 46, 0.2);
+  --accent-border-light: rgba(139, 92, 46, 0.1);
+  --accent-border-hover: rgba(139, 92, 46, 0.35);
+  --accent-border-focus: rgba(139, 92, 46, 0.5);
+  --accent-glow: rgba(139, 92, 46, 0.06);
+  --accent-glow-strong: rgba(139, 92, 46, 0.1);
+
+  --gradient-logo: linear-gradient(135deg, #8b5c2e, #704a24);
+  --gradient-card: linear-gradient(135deg, rgba(139, 92, 46, 0.04), rgba(180, 130, 70, 0.03));
+  --gradient-surah-header: linear-gradient(135deg, rgba(139, 92, 46, 0.08), rgba(180, 130, 70, 0.05));
+
+  --shadow-card: 0 4px 20px rgba(139, 92, 46, 0.08);
+  --shadow-modal: 0 25px 60px rgba(0, 0, 0, 0.12);
+
+  --scrollbar-thumb: rgba(139, 92, 46, 0.25);
+  --scrollbar-thumb-hover: rgba(139, 92, 46, 0.4);
+
+  --makkan-color: #b45309;
+  --makkan-bg: rgba(180, 83, 9, 0.1);
+  --medinan-color: #1d4ed8;
+  --medinan-bg: rgba(29, 78, 216, 0.1);
+
+  --bookmark-color: #b45309;
+  --bookmark-bg: rgba(180, 83, 9, 0.08);
+  --history-color: #6d28d9;
+  --history-bg: rgba(109, 40, 217, 0.08);
+  --tab-active-bg: rgba(139, 92, 46, 0.12);
+}
+
+/* -- MIDNIGHT THEME (deep blue-black) -- */
+[data-theme="midnight"] {
+  --bg-primary: #070b1a;
+  --bg-secondary: #0c1229;
+  --bg-card: rgba(12, 18, 41, 0.7);
+  --bg-card-hover: rgba(12, 18, 41, 0.9);
+  --bg-header: rgba(7, 11, 26, 0.88);
+  --bg-input: rgba(12, 18, 41, 0.8);
+  --bg-modal: linear-gradient(180deg, #0c1229, #070b1a);
+  --bg-verse: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.04));
+  --bg-theme-section: rgba(12, 18, 41, 0.5);
+  --bg-pattern-1: rgba(99, 102, 241, 0.1);
+  --bg-pattern-2: rgba(139, 92, 246, 0.08);
+  --bg-pattern-3: rgba(99, 102, 241, 0.05);
+
+  --text-primary: #e8ecf4;
+  --text-secondary: #c8d0e0;
+  --text-muted: #8892a8;
+  --text-dim: #5c6888;
+  --text-faint: #3e4a68;
+  --text-separator: #2a3450;
+
+  --accent: #818cf8;
+  --accent-rgb: 129, 140, 248;
+  --accent-dark: #6366f1;
+  --accent-darker: #4f46e5;
+  --accent-bg: rgba(129, 140, 248, 0.15);
+  --accent-bg-light: rgba(129, 140, 248, 0.05);
+  --accent-bg-hover: rgba(129, 140, 248, 0.1);
+  --accent-border: rgba(129, 140, 248, 0.2);
+  --accent-border-light: rgba(129, 140, 248, 0.08);
+  --accent-border-hover: rgba(129, 140, 248, 0.35);
+  --accent-border-focus: rgba(129, 140, 248, 0.5);
+  --accent-glow: rgba(129, 140, 248, 0.08);
+  --accent-glow-strong: rgba(129, 140, 248, 0.12);
+
+  --gradient-logo: linear-gradient(135deg, #6366f1, #4f46e5);
+  --gradient-card: linear-gradient(135deg, rgba(129, 140, 248, 0.04), rgba(139, 92, 246, 0.03));
+  --gradient-surah-header: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.06));
+
+  --shadow-card: 0 8px 30px rgba(99, 102, 241, 0.08);
+  --shadow-modal: 0 25px 60px rgba(0, 0, 0, 0.5);
+
+  --scrollbar-thumb: rgba(129, 140, 248, 0.2);
+  --scrollbar-thumb-hover: rgba(129, 140, 248, 0.4);
+
+  --makkan-color: #fbbf24;
+  --makkan-bg: rgba(251, 191, 36, 0.1);
+  --medinan-color: #60a5fa;
+  --medinan-bg: rgba(96, 165, 250, 0.1);
+
+  --bookmark-color: #fbbf24;
+  --bookmark-bg: rgba(251, 191, 36, 0.1);
+  --history-color: #c084fc;
+  --history-bg: rgba(192, 132, 252, 0.1);
+  --tab-active-bg: rgba(129, 140, 248, 0.15);
+}
+
+
+/* ================================================
+   BASE RESET & GLOBALS
+================================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background 0.4s ease, color 0.3s ease;
+}
+
+/* Arabic text styling — uses KFGQPC Hafs (Uthmanic Script)
+   with Amiri Quran as first fallback, then system Arabic fonts */
+.arabic-text {
+  font-family: 'KFGQPC Hafs', 'Amiri Quran', 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif;
+  direction: rtl;
+  text-align: center;
+  line-height: 2.2;
+}
+
+/* ================================================
+   BACKGROUND PATTERN (decorative radial gradients)
+================================================ */
+.bg-pattern {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, var(--bg-pattern-1) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, var(--bg-pattern-2) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 80%, var(--bg-pattern-3) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+  transition: background 0.4s ease;
+}
+
+/* ================================================
+   SCROLLBAR CUSTOMIZATION
+================================================ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
+
+/* ================================================
+   HEADER
+================================================ */
+.app-header {
+  background: var(--bg-header);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--accent-border-light);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Logo icon square */
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--gradient-logo);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.header-subtitle {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ================================================
+   THEME SWITCHER BUTTON
+================================================ */
+.theme-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 7px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg-light);
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.2s;
+}
+.theme-btn:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+.theme-label {
+  font-size: 12px;
+}
+
+/* ================================================
+   BACK BUTTON (shown in detail view)
+================================================ */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg-light);
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+.back-btn:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+
+/* ================================================
+   MAIN APP CONTAINER
+================================================ */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ================================================
+   HOME PAGE TABS (Chapters / Bookmarks / History)
+================================================ */
+.home-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 14px;
+  padding: 4px;
+  margin-bottom: 24px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-tab {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.home-tab:hover {
+  color: var(--text-muted);
+  background: var(--accent-bg-light);
+}
+.home-tab.active {
+  background: var(--tab-active-bg);
+  color: var(--accent);
+}
+.home-tab .tab-count {
+  font-size: 11px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 1px 7px;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+/* ================================================
+   SEARCH INPUT
+================================================ */
+.search-container {
+  max-width: 480px;
+  margin: 0 auto 28px;
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-faint);
+}
+.search-input {
+  background: var(--bg-input);
+  border: 1px solid var(--accent-border);
+  border-radius: 14px;
+  padding: 12px 20px 12px 48px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  transition: all 0.3s;
+  outline: none;
+}
+.search-input::placeholder { color: var(--text-faint); }
+.search-input:focus {
+  border-color: var(--accent-border-focus);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Detail view search */
+.detail-search {
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+/* ================================================
+   CHAPTER LIST GRID
+================================================ */
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  padding-bottom: 40px;
+}
+
+/* ================================================
+   CHAPTER CARD
+================================================ */
+.chapter-card {
+  background: var(--bg-card);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 16px;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+/* Hover gradient overlay */
+.chapter-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--gradient-card);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.chapter-card:hover {
+  border-color: var(--accent-border-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+.chapter-card:hover::before { opacity: 1; }
+
+/* Chapter number diamond badge */
+.chapter-number {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, var(--accent-bg), var(--accent-bg-light));
+  border: 1px solid var(--accent-border);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--accent);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+.chapter-number span {
+  transform: rotate(-45deg);
+}
+
+.chapter-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.chapter-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.chapter-name-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chapter-arabic {
+  font-size: 18px;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+.chapter-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.chapter-meaning {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.meta-dot {
+  color: var(--text-separator);
+}
+
+.chapter-verses-count {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+/* Revelation type badge */
+.type-badge {
+  font-size: 11px;
+  padding: 1px 8px;
+  border-radius: 100px;
+  font-weight: 500;
+}
+.type-badge.makkan {
+  color: var(--makkan-color);
+  background: var(--makkan-bg);
+}
+.type-badge.medinan {
+  color: var(--medinan-color);
+  background: var(--medinan-bg);
+}
+
+/* Status badge (Interactive / Coming Soon) */
+.status-badge {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 2;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+.status-badge.interactive {
+  color: var(--accent);
+  background: var(--accent-bg-hover);
+  font-weight: 500;
+}
+.status-badge.coming-soon {
+  color: var(--text-faint);
+  background: rgba(71, 85, 105, 0.15);
+}
+
+/* ================================================
+   BOOKMARKS & HISTORY LIST
+================================================ */
+.bh-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.bh-card {
+  background: var(--bg-card);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 14px;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+.bh-card:hover {
+  border-color: var(--accent-border-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.bh-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.bh-icon.bookmark {
+  background: var(--bookmark-bg);
+  color: var(--bookmark-color);
+}
+.bh-icon.history {
+  background: var(--history-bg);
+  color: var(--history-color);
+}
+
+.bh-info {
+  flex: 1;
+  min-width: 0;
+}
+.bh-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bh-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.bh-remove {
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bh-remove:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-dim);
+}
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.4;
+}
+.empty-state-text {
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.empty-state-sub {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+/* ================================================
+   DETAIL VIEW (Surah reading view)
+================================================ */
+.detail-view {
+  animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Surah header card */
+.surah-header-card {
+  background: var(--gradient-surah-header);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 24px;
+  padding: 40px 32px;
+  text-align: center;
+  margin-bottom: 36px;
+  position: relative;
+  overflow: hidden;
+}
+/* Subtle rotating gradient behind surah header */
+.surah-header-card::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: radial-gradient(circle, rgba(var(--accent-rgb), 0.03) 0%, transparent 70%);
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.surah-header-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.surah-number-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--accent-bg), var(--accent-bg-light));
+  border: 1px solid var(--accent-border);
+  border-radius: 16px;
+  transform: rotate(45deg);
+  margin-bottom: 20px;
+}
+.surah-number-badge span {
+  transform: rotate(-45deg);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.surah-title-ar {
+  font-size: 36px;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.surah-title-en {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.surah-meaning {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.surah-stats {
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.surah-stat {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+/* Bookmark button in surah header */
+.bookmark-surah-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg-light);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.bookmark-surah-btn:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+.bookmark-surah-btn.bookmarked {
+  background: var(--bookmark-bg);
+  color: var(--bookmark-color);
+  border-color: var(--bookmark-color);
+}
+
+/* ================================================
+   VERSE JUMP WIDGET
+   Compact navigation to jump to any verse number.
+   Replaces the old grid of numbered buttons which
+   was unusable for large surahs (286+ verses).
+================================================ */
+.verse-jump-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+/* "Jump to Verse" label text */
+.verse-jump-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Row containing prev arrow, input, next arrow, go button */
+.verse-jump-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Prev/Next arrow buttons */
+.verse-jump-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg-light);
+  color: var(--accent);
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.verse-jump-arrow:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+.verse-jump-arrow:active {
+  transform: scale(0.95);
+}
+
+/* Input wrapper with "/ total" suffix */
+.verse-jump-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-input);
+  border: 1px solid var(--accent-border);
+  border-radius: 10px;
+  padding: 0 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.verse-jump-input-wrap:focus-within {
+  border-color: var(--accent-border-focus);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+/* The number input itself */
+.verse-jump-input {
+  width: 48px;
+  height: 34px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  /* Hide number input spinners for cleaner look */
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.verse-jump-input::-webkit-outer-spin-button,
+.verse-jump-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* "/ 286" total count label */
+.verse-jump-total {
+  font-size: 12px;
+  color: var(--text-faint);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* "Go" button */
+.verse-jump-go {
+  height: 34px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-border);
+  background: linear-gradient(135deg, var(--accent-bg), var(--accent-bg-light));
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.verse-jump-go:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+.verse-jump-go:active {
+  transform: scale(0.96);
+}
+
+/* ================================================
+   BISMILLAH DECORATIVE SEPARATOR
+================================================ */
+.bismillah-decor {
+  text-align: center;
+  margin: 20px 0 30px;
+}
+.bismillah-decor .line {
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(var(--accent-rgb), 0.3), transparent);
+  vertical-align: middle;
+  margin: 0 12px;
+}
+.bismillah-decor .star {
+  color: var(--accent);
+  font-size: 10px;
+}
+
+/* ================================================
+   THEME SECTION (groups verses by theme)
+================================================ */
+.theme-section {
+  background: var(--bg-theme-section);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 28px;
+  position: relative;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+/* Theme badge label */
+.theme-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--accent-bg), var(--accent-bg-light));
+  border: 1px solid var(--accent-border);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.theme-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+/* ================================================
+   ARABIC VERSE CARD
+================================================ */
+.verse-arabic {
+  background: var(--bg-verse);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin: 24px 0;
+  position: relative;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+/* Ayah number circle badge */
+.ayah-number {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gradient-logo);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Verse-level bookmark button (positioned top-right of verse card) */
+.verse-bookmark-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: var(--accent-bg-light);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-dim);
+  transition: all 0.2s;
+  z-index: 2;
+}
+.verse-bookmark-btn:hover {
+  color: var(--bookmark-color);
+  background: var(--bookmark-bg);
+  border-color: var(--bookmark-color);
+}
+/* Active bookmarked state */
+.verse-bookmark-btn.bookmarked {
+  color: var(--bookmark-color);
+  background: var(--bookmark-bg);
+  border-color: var(--bookmark-color);
+}
+
+.verse-arabic-text {
+  font-size: 28px;
+  color: var(--text-secondary);
+}
+
+/* ================================================
+   ENGLISH PHRASE CHIPS (clickable)
+   ================================================
+   Each phrase is styled as a subtle inline pill/chip
+   with a tinted background and soft border, making it
+   visually obvious where one phrase ends and the next
+   begins — even when text wraps across multiple lines.
+   
+   On hover the chip lifts slightly with a glow effect
+   and the accent color intensifies, reinforcing that
+   it is an interactive element.
+   
+   The `display: inline` is kept so phrases flow
+   naturally like regular text within a paragraph.
+   `box-decoration-break: clone` ensures the background
+   and padding render correctly on every wrapped line.
+================================================ */
+.phrase-chip {
+  /* Inline flow — reads like a sentence */
+  display: inline;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 2.4;
+
+  /* Subtle pill background to define boundaries */
+  background: var(--accent-bg-light);
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border-bottom: 2px solid rgba(var(--accent-rgb), 0.2);
+
+  /* Smooth transitions for hover state */
+  transition: all 0.2s ease;
+
+  /* Ensures background + padding wrap correctly on line breaks */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Hover: accent color, stronger background, subtle lift via shadow */
+.phrase-chip:hover {
+  color: var(--accent);
+  background: var(--accent-bg-hover);
+  border-bottom-color: var(--accent);
+  box-shadow: 0 2px 8px var(--accent-glow);
+}
+
+/* Active/pressed: slight scale-down for tactile feedback */
+.phrase-chip:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
+
+/* Comma / period separators between chips */
+.phrase-separator {
+  color: rgba(var(--accent-rgb), 0.3);
+  margin: 0 1px;
+  user-select: none;
+  font-size: 15px;
+}
+
+/* ================================================
+   VERSE SEPARATOR DOTS
+================================================ */
+.verse-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+.verse-separator .dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(var(--accent-rgb), 0.3);
+}
+
+/* ================================================
+   MODAL (explanation popup)
+================================================ */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-content {
+  background: var(--bg-modal);
+  border: 1px solid var(--accent-border);
+  border-radius: 24px;
+  padding: 36px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  transform: scale(0.95) translateY(10px);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-modal);
+}
+.modal-overlay.active .modal-content {
+  transform: scale(1) translateY(0);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.4;
+  flex: 1;
+  padding-right: 16px;
+}
+
+.modal-close {
+  background: var(--accent-bg-hover);
+  border: 1px solid var(--accent-border);
+  border-radius: 10px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+.modal-close:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent-border-hover);
+}
+
+.modal-body {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.9;
+}
+
+/* ================================================
+   END-OF-SURAH FOOTER
+================================================ */
+.surah-end {
+  text-align: center;
+  padding: 40px 0;
+}
+.surah-end-text {
+  color: var(--text-separator);
+  font-size: 14px;
+}
+
+/* ================================================
+   RESPONSIVE BREAKPOINTS
+================================================ */
+@media (max-width: 640px) {
+  .theme-section { padding: 20px 16px; }
+  .verse-arabic { padding: 20px 14px; }
+  .modal-content { padding: 24px 20px; }
+  .surah-header-card { padding: 28px 20px; }
+  .header-inner { padding: 12px 16px; }
+  .app-container { padding: 16px; }
+  .theme-label { display: none; }
+  .home-tabs { max-width: 100%; }
+  .home-tab { font-size: 12px; padding: 8px 10px; }
+  .chapters-grid { grid-template-columns: 1fr; }
+}
+
+/* ================================================
+   SHOW MORE BUTTON (for progressive verse results)
+================================================ */
+.show-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--accent-border);
+  background: linear-gradient(135deg, var(--accent-bg), var(--accent-bg-light));
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 0 4px;
+}
+.show-more-btn:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--accent-glow);
+}
+.show-more-btn:active {
+  transform: translateY(0);
+}
+/* "Show All" variant — slightly different style to distinguish */
+.show-more-btn.show-all-btn {
+  background: transparent;
+  border-style: dashed;
+}
+.show-more-btn.show-all-btn:hover {
+  background: var(--accent-bg-light);
+  border-style: solid;
+}
+
+/* ================================================
+   SKELETON LOADING ANIMATION
+   ================================================
+   Shows a shimmering placeholder while chapter data
+   is being fetched. Mimics the real layout (header
+   card + verse cards + phrase chips) so the transition
+   from skeleton to real content feels seamless.
+   
+   Uses CSS custom properties for theme-aware colors
+   so it looks correct in all 4 themes.
+================================================ */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--accent-bg-light) 0%,
+    var(--accent-bg-hover) 40%,
+    var(--accent-bg-light) 80%
+  );
+  background-size: 300% 100%;
+  animation: skeletonPulse 1.8s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+@keyframes skeletonPulse {
+  0% { background-position: 300% 0; }
+  100% { background-position: -300% 0; }
+}
+
+/* ================================================
+   UTILITY: no-results message
+================================================ */
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-dim);
+  font-size: 15px;
+  grid-column: 1 / -1;
+}
+
+/* ================================================
+   ABOUT BUTTON (header icon button)
+================================================ */
+.about-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg-light);
+  color: var(--accent);
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.about-btn:hover {
+  background: var(--accent-bg-hover);
+  border-color: var(--accent-border-hover);
+}
+
+/* ================================================
+   ABOUT MODAL — Styled content sections
+   A polished informational modal showing app
+   details, features, font info, and credits.
+================================================ */
+.about-modal-content {
+  max-width: 560px;
+}
+
+/* Hero area with logo */
+.about-hero {
+  text-align: center;
+  padding: 20px 0 24px;
+  border-bottom: 1px solid var(--accent-border-light);
+  margin-bottom: 24px;
+}
+
+.about-logo {
+  width: 64px;
+  height: 64px;
+  background: var(--gradient-logo);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  box-shadow: 0 8px 24px rgba(var(--accent-rgb), 0.15);
+}
+
+.about-app-name {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.about-version {
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+/* Sections within the about modal */
+.about-section {
+  margin-bottom: 24px;
+}
+
+.about-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.about-text strong {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* Features list */
+.about-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.about-feature-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-bg-light);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 10px;
+}
+
+.about-features li div {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-features li strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.about-features li span {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* Font sample preview box */
+.about-font-sample {
+  background: var(--accent-bg-light);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Disclaimer section */
+.about-disclaimer {
+  background: var(--accent-bg-light);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 0;
+}
+.about-disclaimer .about-text {
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* ================================================
+   OFFLINE NOTICE — About modal section
+================================================ */
+.about-offline-notice {
+  /* inherits .about-section margin-bottom: 24px */
+}
+
+/* Summary card at the top: icon + headline + description */
+.offline-notice-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.12), rgba(var(--accent-rgb), 0.04));
+  border: 1px solid var(--accent-border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.offline-notice-icon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--gradient-logo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.25);
+}
+
+.offline-notice-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.offline-notice-headline {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.offline-notice-text {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Step-by-step numbered list */
+.offline-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.offline-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.offline-step-num {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.offline-steps li div {
+  flex: 1;
+  min-width: 0;
+}
+
+.offline-steps li strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.offline-steps li span {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.offline-steps li em {
+  font-style: normal;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ================================================
+   PWA INSTALL PILL — floating bottom notification
+   Slides up from bottom, only on installable browsers.
+   Hidden by default; .pwa-pill-visible added by JS.
+================================================ */
+.pwa-install-pill {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(120px);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-modal);
+  border: 1px solid var(--accent-border);
+  border-radius: 20px;
+  padding: 12px 14px 12px 16px;
+  box-shadow: var(--shadow-modal), 0 0 0 1px rgba(var(--accent-rgb), 0.06);
+  max-width: 380px;
+  width: calc(100% - 48px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.45s cubic-bezier(0.34, 1.4, 0.64, 1), opacity 0.35s ease;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+.pwa-install-pill.pwa-pill-visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.pwa-pill-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--gradient-logo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 14px rgba(var(--accent-rgb), 0.28);
+}
+
+.pwa-pill-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.pwa-pill-title {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+  white-space: nowrap;
+}
+
+.pwa-pill-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.pwa-pill-btn {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background: var(--gradient-logo);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.pwa-pill-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(var(--accent-rgb), 0.35);
+}
+.pwa-pill-btn:active { transform: translateY(0); }
+
+.pwa-pill-close {
+  flex-shrink: 0;
+  background: var(--accent-bg-light);
+  border: 1px solid var(--accent-border-light);
+  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-dim);
+  transition: all 0.2s;
+  padding: 0;
+}
+.pwa-pill-close:hover {
+  background: var(--accent-bg-hover);
+  color: var(--text-muted);
+}
+
+@media (max-width: 420px) {
+  .pwa-install-pill { bottom: 16px; padding: 10px 12px 10px 14px; gap: 10px; }
+  .pwa-pill-sub { display: none; }
+  .pwa-pill-icon { width: 34px; height: 34px; border-radius: 10px; }
+}
+
+/* ================================================
+   HOME PAGE INSTALL BANNER
+   Shown above the search bar on the chapters tab.
+   Auto-hidden when running as installed PWA.
+================================================ */
+.home-install-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.1), rgba(var(--accent-rgb), 0.03));
+  border: 1px solid var(--accent-border);
+  border-radius: 16px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+  user-select: none;
+}
+.home-install-banner:hover {
+  border-color: var(--accent-border-hover);
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.14), rgba(var(--accent-rgb), 0.06));
+  transform: translateY(-1px);
+}
+.home-install-banner:active { transform: translateY(0); }
+
+.home-install-banner-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--gradient-logo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.22);
+}
+
+.home-install-banner-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.home-install-banner-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+}
+
+.home-install-banner-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.home-install-banner-cta {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .home-install-banner { padding: 12px 14px; }
+  .home-install-banner-sub { display: none; }
+}

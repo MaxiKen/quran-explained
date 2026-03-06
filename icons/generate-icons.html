@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Quran PWA Icon Generator</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; background: #1a1a2e; color: #eee; padding: 40px; text-align: center; }
+    h1 { color: #5eead4; margin-bottom: 8px; }
+    p { color: #94a3b8; margin-bottom: 32px; }
+    .icons-grid { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; margin-bottom: 40px; }
+    .icon-card { background: #0f172a; border: 1px solid rgba(94,234,212,0.15); border-radius: 16px; padding: 20px; text-align: center; }
+    .icon-card canvas { border-radius: 12px; margin-bottom: 10px; display: block; }
+    .icon-card .label { font-size: 13px; color: #5eead4; font-weight: 600; margin-bottom: 8px; }
+    .icon-card a { display: inline-block; background: #0d9488; color: white; padding: 6px 16px; border-radius: 8px; font-size: 12px; text-decoration: none; font-weight: 600; }
+    .icon-card a:hover { background: #0f766e; }
+    .instructions { max-width: 700px; margin: 40px auto; text-align: left; background: #0f172a; border: 1px solid rgba(94,234,212,0.15); border-radius: 16px; padding: 24px; }
+    .instructions h2 { color: #5eead4; font-size: 18px; margin-bottom: 12px; }
+    .instructions ol { padding-left: 20px; line-height: 2; }
+    .instructions code { background: rgba(94,234,212,0.1); padding: 2px 8px; border-radius: 4px; font-size: 13px; color: #5eead4; }
+    .btn-all { background: linear-gradient(135deg, #0d9488, #0f766e); color: white; border: none; padding: 14px 36px; border-radius: 12px; font-size: 16px; cursor: pointer; font-weight: 700; margin-bottom: 32px; }
+    .btn-all:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <h1>📖 Al-Quran PWA Icon Generator</h1>
+  <p>This page generates all required PWA icon sizes. Click "Download All" or download individually.</p>
+  
+  <button class="btn-all" onclick="downloadAll()">⬇ Download All Icons</button>
+  
+  <div class="icons-grid" id="iconsGrid"></div>
+
+  <div class="instructions">
+    <h2>📋 Instructions</h2>
+    <ol>
+      <li>Click <strong>"Download All"</strong> above to download each icon</li>
+      <li>Place all downloaded PNG files into the <code>icons/</code> folder</li>
+      <li>The files must be named exactly as shown (e.g., <code>icon-192x192.png</code>)</li>
+      <li>The <code>manifest.json</code> already references these filenames</li>
+      <li>After adding the icons, the PWA will be installable on mobile devices</li>
+    </ol>
+    <h2 style="margin-top:20px;">🎨 Customizing the Icon</h2>
+    <ol>
+      <li>Edit the <code>drawIcon()</code> function in this file to change the design</li>
+      <li>Regenerate and re-download the icons</li>
+      <li>Or replace the PNG files with your own custom icons of the same sizes</li>
+    </ol>
+  </div>
+
+  <script>
+    /* ================================================
+       ICON SIZES
+       These are all the sizes required by the manifest.json
+       for full PWA compatibility across platforms.
+    ================================================ */
+    const SIZES = [72, 96, 128, 144, 152, 192, 384, 512];
+    const MASKABLE_SIZES = [192, 512];
+
+    /**
+     * Draw the Al-Quran app icon on a canvas.
+     * This creates a beautiful teal gradient background
+     * with a white book icon and "القرآن" text.
+     * 
+     * @param {CanvasRenderingContext2D} ctx - Canvas context
+     * @param {number} size - Icon size in pixels
+     * @param {boolean} maskable - If true, adds extra padding for maskable icon safe zone
+     */
+    function drawIcon(ctx, size, maskable = false) {
+      const s = size;
+      const padding = maskable ? s * 0.1 : 0; // 10% safe zone padding for maskable
+      const innerSize = s - (padding * 2);
+      
+      // ---- Background ----
+      // Rounded rectangle with teal gradient
+      const radius = s * 0.18;
+      ctx.beginPath();
+      ctx.moveTo(radius, 0);
+      ctx.lineTo(s - radius, 0);
+      ctx.quadraticCurveTo(s, 0, s, radius);
+      ctx.lineTo(s, s - radius);
+      ctx.quadraticCurveTo(s, s, s - radius, s);
+      ctx.lineTo(radius, s);
+      ctx.quadraticCurveTo(0, s, 0, s - radius);
+      ctx.lineTo(0, radius);
+      ctx.quadraticCurveTo(0, 0, radius, 0);
+      ctx.closePath();
+
+      // Gradient fill
+      const grad = ctx.createLinearGradient(0, 0, s, s);
+      grad.addColorStop(0, '#0d9488');
+      grad.addColorStop(0.5, '#0f766e');
+      grad.addColorStop(1, '#115e59');
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // ---- Decorative subtle circle in background ----
+      ctx.save();
+      ctx.globalAlpha = 0.08;
+      ctx.beginPath();
+      ctx.arc(s * 0.75, s * 0.25, s * 0.35, 0, Math.PI * 2);
+      ctx.fillStyle = '#ffffff';
+      ctx.fill();
+      ctx.restore();
+
+      // ---- Book Icon ----
+      const iconScale = innerSize / 512;
+      const offsetX = padding + (innerSize * 0.18);
+      const offsetY = padding + (innerSize * 0.12);
+      
+      ctx.save();
+      ctx.translate(offsetX, offsetY);
+      ctx.scale(iconScale * 0.45, iconScale * 0.45);
+      
+      ctx.strokeStyle = 'rgba(255,255,255,0.95)';
+      ctx.lineWidth = 24;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      ctx.fillStyle = 'none';
+      
+      // Book shape — open book
+      // Left page
+      ctx.beginPath();
+      ctx.moveTo(250, 50);
+      ctx.quadraticCurveTo(50, 50, 50, 100);
+      ctx.lineTo(50, 450);
+      ctx.quadraticCurveTo(50, 500, 250, 500);
+      ctx.stroke();
+      
+      // Right page
+      ctx.beginPath();
+      ctx.moveTo(250, 50);
+      ctx.quadraticCurveTo(450, 50, 450, 100);
+      ctx.lineTo(450, 450);
+      ctx.quadraticCurveTo(450, 500, 250, 500);
+      ctx.stroke();
+      
+      // Spine
+      ctx.beginPath();
+      ctx.moveTo(250, 50);
+      ctx.lineTo(250, 500);
+      ctx.stroke();
+      
+      // Page lines - left
+      ctx.lineWidth = 10;
+      ctx.globalAlpha = 0.4;
+      for (let i = 0; i < 4; i++) {
+        const y = 160 + i * 60;
+        ctx.beginPath();
+        ctx.moveTo(100, y);
+        ctx.lineTo(220, y);
+        ctx.stroke();
+      }
+      // Page lines - right
+      for (let i = 0; i < 4; i++) {
+        const y = 160 + i * 60;
+        ctx.beginPath();
+        ctx.moveTo(280, y);
+        ctx.lineTo(400, y);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+      
+      ctx.restore();
+
+      // ---- Arabic text "القرآن" ----
+      const fontSize = s * 0.2;
+      ctx.font = `bold ${fontSize}px 'Amiri', 'Traditional Arabic', serif`;
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('القرآن', s * 0.55, s * 0.72);
+
+      // ---- Small decorative star ----
+      ctx.font = `${s * 0.06}px sans-serif`;
+      ctx.fillStyle = 'rgba(255,255,255,0.6)';
+      ctx.fillText('✦', s * 0.55, s * 0.88);
+    }
+
+    /**
+     * Generate all icons and display them on the page.
+     */
+    function generateAllIcons() {
+      const grid = document.getElementById('iconsGrid');
+      grid.innerHTML = '';
+
+      // Regular icons
+      SIZES.forEach(size => {
+        const card = createIconCard(size, false);
+        grid.appendChild(card);
+      });
+
+      // Maskable icons
+      MASKABLE_SIZES.forEach(size => {
+        const card = createIconCard(size, true);
+        grid.appendChild(card);
+      });
+    }
+
+    /**
+     * Create a card element with a canvas showing the icon.
+     * @param {number} size - Icon size
+     * @param {boolean} maskable - Whether this is a maskable icon
+     * @returns {HTMLElement}
+     */
+    function createIconCard(size, maskable) {
+      const canvas = document.createElement('canvas');
+      canvas.width = size;
+      canvas.height = size;
+      // Display at max 128px on screen
+      const displaySize = Math.min(size, 128);
+      canvas.style.width = displaySize + 'px';
+      canvas.style.height = displaySize + 'px';
+
+      const ctx = canvas.getContext('2d');
+      drawIcon(ctx, size, maskable);
+
+      const filename = maskable
+        ? `icon-maskable-${size}x${size}.png`
+        : `icon-${size}x${size}.png`;
+
+      const card = document.createElement('div');
+      card.className = 'icon-card';
+      card.innerHTML = `<div class="label">${filename}</div>`;
+      card.insertBefore(canvas, card.firstChild);
+
+      const link = document.createElement('a');
+      link.textContent = '⬇ Download';
+      link.href = canvas.toDataURL('image/png');
+      link.download = filename;
+      card.appendChild(link);
+
+      return card;
+    }
+
+    /**
+     * Download all icons at once.
+     */
+    function downloadAll() {
+      // Regular icons
+      SIZES.forEach(size => downloadIcon(size, false));
+      // Maskable icons (with delay to prevent browser blocking)
+      setTimeout(() => {
+        MASKABLE_SIZES.forEach((size, i) => {
+          setTimeout(() => downloadIcon(size, true), i * 300);
+        });
+      }, SIZES.length * 300);
+    }
+
+    /**
+     * Download a single icon.
+     * @param {number} size - Icon size
+     * @param {boolean} maskable - Whether maskable
+     */
+    function downloadIcon(size, maskable) {
+      const canvas = document.createElement('canvas');
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      drawIcon(ctx, size, maskable);
+
+      const filename = maskable
+        ? `icon-maskable-${size}x${size}.png`
+        : `icon-${size}x${size}.png`;
+
+      const link = document.createElement('a');
+      link.href = canvas.toDataURL('image/png');
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Generate all icons on page load
+    generateAllIcons();
+  </script>
+</body>
+</html>
