@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head><title>Chapter Data — Split Format Guide</title></head>
+<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.8;">
+<h1>📖 Chapter Data — Split Format Guide</h1>
+
+<h2>Architecture: Two Files Per Chapter</h2>
+<p>Each chapter is split into two files for maximum loading speed:</p>
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr style="background: #f0f0f0;">
+    <th>File</th>
+    <th>Contains</th>
+    <th>Size</th>
+    <th>When Loaded</th>
+  </tr>
+  <tr>
+    <td><code>data/chapter_XXX.js</code></td>
+    <td>Theme descriptions, verse numbers, Arabic text, English phrase keys (empty explanation values)</td>
+    <td><strong>Small</strong> (~2-30KB)</td>
+    <td>When user clicks the chapter</td>
+  </tr>
+  <tr>
+    <td><code>data/tafsir_XXX.js</code></td>
+    <td>Explanations/commentary only, keyed by verse number</td>
+    <td><strong>Large</strong> (~50-500KB)</td>
+    <td>Prefetched 300ms after chapter renders, OR on-demand when user clicks a phrase</td>
+  </tr>
+</table>
+
+<h2>File 1: Chapter Structure — <code>data/chapter_XXX.js</code></h2>
+<p>Variable name: <code>var chapterData_X = [...]</code> where X is the chapter number (no padding).</p>
+<pre style="background: #1a1a2e; color: #5eead4; padding: 20px; border-radius: 8px; overflow-x: auto;">
+var chapterData_2 = [
+  {
+    "theme_no": 1,
+    "theme_description": "Guidance for the Righteous",
+    "verses": [
+      {
+        "ayah_no_surah": 1,
+        "ayah_ar": "الم",
+        "ayah_en": {
+          "Alif-Lam-Mim": ""       &lt;-- empty string, explanation is in tafsir file
+        }
+      },
+      {
+        "ayah_no_surah": 2,
+        "ayah_ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+        "ayah_en": {
+          "This is the Book": "",   &lt;-- empty
+          "in which there is no doubt": "",
+          "a guide for the righteous": ""
+        }
+      }
+    ]
+  },
+  {
+    "theme_no": 2,
+    "theme_description": "Characteristics of the Believers",
+    "verses": [ ... ]
+  }
+];
+</pre>
+
+<h2>File 2: Tafsir/Commentary — <code>data/tafsir_XXX.js</code></h2>
+<p>Variable name: <code>var tafsirData_X = {...}</code> where X is the chapter number.</p>
+<p>Structure: Object with <strong>verse numbers as keys</strong>, each containing phrase-explanation pairs.</p>
+<pre style="background: #1a1a2e; color: #5eead4; padding: 20px; border-radius: 8px; overflow-x: auto;">
+var tafsirData_2 = {
+
+  1: {
+    "Alif-Lam-Mim": "These are disconnected letters that appear at the beginning..."
+  },
+
+  2: {
+    "This is the Book": "Allah refers to the Quran as 'the Book' emphasizing...",
+    "in which there is no doubt": "The Quran is absolutely free from any doubt...",
+    "a guide for the righteous": "Guidance is specifically for those who have taqwa..."
+  },
+
+  3: {
+    "phrase here": "explanation here...",
+    "another phrase": "another explanation..."
+  }
+
+};
+</pre>
+
+<h2>⚠️ Important Rules</h2>
+<ul>
+  <li><strong>Phrase keys MUST match exactly</strong> between chapter file and tafsir file (same spelling, same punctuation)</li>
+  <li><strong>Verse numbers must match</strong> — the key in tafsir (e.g., <code>2:</code>) must equal <code>ayah_no_surah</code> in the chapter file</li>
+  <li><strong>Variable naming</strong>: <code>chapterData_1</code> (not <code>chapterData_001</code>), <code>tafsirData_1</code> (not <code>tafsirData_001</code>)</li>
+  <li><strong>File naming</strong>: <code>chapter_001.js</code>, <code>tafsir_001.js</code> (zero-padded to 3 digits)</li>
+  <li><strong>No trailing commas</strong> after the last item in objects/arrays (breaks older browsers)</li>
+</ul>
+
+<h2>Backward Compatibility</h2>
+<p>The app supports BOTH formats simultaneously:</p>
+<ul>
+  <li><strong>Split format</strong> (chapter + tafsir files): Chapter file has empty explanation strings → app loads tafsir file</li>
+  <li><strong>Old format</strong> (single file with inline explanations): Chapter file has non-empty explanation strings → app uses them directly, no tafsir file needed</li>
+  <li><strong>Mixed</strong>: Some chapters can be split, others can use old format. The app handles both.</li>
+</ul>
+<p>This means you can migrate chapters one at a time without breaking anything.</p>
+
+<h2>How Loading Works</h2>
+<ol>
+  <li>User clicks a chapter → <code>chapter_XXX.js</code> is fetched → page renders with Arabic + English phrases</li>
+  <li>300ms later → <code>tafsir_XXX.js</code> starts prefetching in background</li>
+  <li>User clicks a phrase → app checks tafsir cache → if loaded, shows instantly</li>
+  <li>If tafsir not yet loaded → modal shows "Loading..." → fetches tafsir → updates modal</li>
+  <li>Service worker caches both files → works offline next time</li>
+</ol>
+
+<h2>Creating a New Chapter (Step by Step)</h2>
+<ol>
+  <li>Create <code>data/chapter_XXX.js</code> with themes, verses, Arabic text, and English phrase keys (empty values)</li>
+  <li>Create <code>data/tafsir_XXX.js</code> with explanations keyed by verse number</li>
+  <li>Test by opening the chapter in the app — phrases should render, clicking should show explanations</li>
+  <li>Both files are automatically cached by the service worker for offline use</li>
+</ol>
+
+<h2>Complete Example: Chapter 1 (Al-Fatihah)</h2>
+<p>See these files for the full working example:</p>
+<ul>
+  <li><code>data/chapter_001.js</code> — Structure file (~2KB)</li>
+  <li><code>data/tafsir_001.js</code> — Commentary file (~13KB)</li>
+</ul>
+</body>
+</html>
