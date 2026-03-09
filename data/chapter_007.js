@@ -1168,7 +1168,7 @@ var chapterData_7 = [
     "theme_description": "The Children of Israel's Misguided Request for Idols",
     "verses": [
       {
-        "ayah_no_surah": 138,
+        "ayah_no_surah": 103,
         "ayah_ar": "وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ الْبَحْرَ فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ ۚ قَالُوا يَا مُوسَى اجْعَل لَّنَا إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
         "ayah_en": {
           "We brought the Children of Israel across the sea": "",
@@ -1178,7 +1178,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 139,
+        "ayah_no_surah": 104,
         "ayah_ar": "إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَاطِلٌ مَّا كَانُوا يَعْمَلُونَ",
         "ayah_en": {
           "What they follow is certainly doomed to destruction": "",
@@ -1186,7 +1186,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 140,
+        "ayah_no_surah": 105,
         "ayah_ar": "قَالَ أَغَيْرَ اللَّهِ أَبْغِيكُمْ إِلَٰهًا وَهُوَ فَضَّلَكُمْ عَلَى الْعَالَمِينَ",
         "ayah_en": {
           "He added, \"Shall I seek for you a god other than Allah,": "",
@@ -1200,7 +1200,7 @@ var chapterData_7 = [
     "theme_description": "Moses' Appointment with Allah and Instructions to Aaron",
     "verses": [
       {
-        "ayah_no_surah": 142,
+        "ayah_no_surah": 106,
         "ayah_ar": "وَوَاعَدْنَا مُوسَىٰ ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَارُونَ اخْلُفْنِي فِي قَوْمِي وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ الْمُفْسِدِينَ",
         "ayah_en": {
           "We appointed for Moses thirty nights then added another ten—": "",
@@ -1217,7 +1217,7 @@ var chapterData_7 = [
     "theme_description": "Moses' Request to See Allah and the Divine Response",
     "verses": [
       {
-        "ayah_no_surah": 143,
+        "ayah_no_surah": 107,
         "ayah_ar": "وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا وَكَلَّمَهُ رَبُّهُ قَالَ رَبِّ أَرِنِي أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَانِي وَلَٰكِنِ انظُرْ إِلَى الْجَبَلِ فَإِنِ اسْتَقَرَّ مَكَانَهُ فَسَوْفَ تَرَانِي ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّا أَفَاقَ قَالَ سُبْحَانَكَ تُبْتُ إِلَيْكَ وَأَنَا أَوَّلُ الْمُؤْمِنِينَ",
         "ayah_en": {
           "When Moses came at the appointed time and his Lord spoke to him,": "",
@@ -1232,7 +1232,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 144,
+        "ayah_no_surah": 108,
         "ayah_ar": "قَالَ يَا مُوسَىٰ إِنِّي اصْطَفَيْتُكَ عَلَى النَّاسِ بِرِسَالَاتِي وَبِكَلَامِي فَخُذْ مَا آتَيْتُكَ وَكُن مِّنَ الشَّاكِرِينَ",
         "ayah_en": {
           "Allah said, \"O Moses! I have ˹already˺ elevated you above all others by My messages and speech.": "",
@@ -1247,7 +1247,7 @@ var chapterData_7 = [
     "theme_description": "The Divine Tablets and Guidance for the People",
     "verses": [
       {
-        "ayah_no_surah": 145,
+        "ayah_no_surah": 109,
         "ayah_ar": "وَكَتَبْنَا لَهُ فِي الْأَلْوَاحِ مِن كُلِّ شَيْءٍ مَّوْعِظَةً وَتَفْصِيلًا لِّكُلِّ شَيْءٍ فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا بِأَحْسَنِهَا ۚ سَأُرِيكُمْ دَارَ الْفَاسِقِينَ",
         "ayah_en": {
           "We wrote for him on the Tablets ˹the fundamentals˺ of everything; commandments and explanations of all things.": "",
@@ -1257,7 +1257,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 146,
+        "ayah_no_surah": 110,
         "ayah_ar": "سَأَصْرِفُ عَنْ آيَاتِيَ الَّذِينَ يَتَكَبَّرُونَ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ وَإِن يَرَوْا كُلَّ آيَةٍ لَّا يُؤْمِنُوا بِهَا وَإِن يَرَوْا سَبِيلَ الرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا سَبِيلَ الْغَيِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا بِآيَاتِنَا وَكَانُوا عَنْهَا غَافِلِينَ",
         "ayah_en": {
           "I will turn away from My signs those who act unjustly with arrogance in the land.": "",
@@ -1268,7 +1268,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 147,
+        "ayah_no_surah": 111,
         "ayah_ar": "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا وَلِقَاءِ الْآخِرَةِ حَبِطَتْ أَعْمَالُهُمْ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا يَعْمَلُونَ",
         "ayah_en": {
           "The deeds of those who deny Our signs and the meeting ˹with Allah˺ in the Hereafter will be in vain.": "",
@@ -1282,7 +1282,7 @@ var chapterData_7 = [
     "theme_description": "The Sin of the Golden Calf",
     "verses": [
       {
-        "ayah_no_surah": 148,
+        "ayah_no_surah": 112,
         "ayah_ar": "وَاتَّخَذَ قَوْمُ مُوسَىٰ مِن بَعْدِهِ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ ۚ أَلَمْ يَرَوْا أَنَّهُ لَا يُكَلِّمُهُمْ وَلَا يَهْدِيهِمْ سَبِيلًا ۘ اتَّخَذُوهُ وَكَانُوا ظَالِمِينَ",
         "ayah_en": {
           "In the absence of Moses, his people made from their ˹golden˺ jewellery an idol of a calf": "",
@@ -1292,7 +1292,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 149,
+        "ayah_no_surah": 113,
         "ayah_ar": "وَلَمَّا سُقِطَ فِي أَيْدِيهِمْ وَرَأَوْا أَنَّهُمْ قَدْ ضَلُّوا قَالُوا لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
         "ayah_en": {
           "Later, when they were filled with remorse": "",
@@ -1307,7 +1307,7 @@ var chapterData_7 = [
     "theme_description": "Moses' Anger and Aaron's Defense",
     "verses": [
       {
-        "ayah_no_surah": 150,
+        "ayah_no_surah": 114,
         "ayah_ar": "وَلَمَّا رَجَعَ مُوسَىٰ إِلَىٰ قَوْمِهِ غَضْبَانَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِي مِن بَعْدِي ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى الْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ ۚ قَالَ ابْنَ أُمَّ إِنَّ الْقَوْمَ اسْتَضْعَفُونِي وَكَادُوا يَقْتُلُونَنِي فَلَا تُشْمِتْ بِيَ الْأَعْدَاءَ وَلَا تَجْعَلْنِي مَعَ الْقَوْمِ الظَّالِمِينَ",
         "ayah_en": {
           "Upon Moses' return to his people, ˹totally˺ furious and sorrowful,": "",
@@ -1328,7 +1328,7 @@ var chapterData_7 = [
     "theme_description": "Moses Seeks Forgiveness and Divine Consequences",
     "verses": [
       {
-        "ayah_no_surah": 151,
+        "ayah_no_surah": 115,
         "ayah_ar": "قَالَ رَبِّ اغْفِرْ لِي وَلِأَخِي وَأَدْخِلْنَا فِي رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ الرَّاحِمِينَ",
         "ayah_en": {
           "Moses prayed, \"My Lord! Forgive me and my brother!": "",
@@ -1337,7 +1337,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 152,
+        "ayah_no_surah": 116,
         "ayah_ar": "إِنَّ الَّذِينَ اتَّخَذُوا الْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِّن رَّبِّهِمْ وَذِلَّةٌ فِي الْحَيَاةِ الدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِي الْمُفْتَرِينَ",
         "ayah_en": {
           "Those who worshipped the calf will certainly be afflicted with Allah's wrath": "",
@@ -1346,7 +1346,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 153,
+        "ayah_no_surah": 117,
         "ayah_ar": "وَالَّذِينَ عَمِلُوا السَّيِّئَاتِ ثُمَّ تَابُوا مِن بَعْدِهَا وَآمَنُوا إِنَّ رَبَّكَ مِن بَعْدِهَا لَغَفُورٌ رَّحِيمٌ",
         "ayah_en": {
           "But those who commit evil, then repent and become ˹true˺ believers,": "",
@@ -1354,7 +1354,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 154,
+        "ayah_no_surah": 118,
         "ayah_ar": "وَلَمَّا سَكَتَ عَن مُّوسَى الْغَضَبُ أَخَذَ الْأَلْوَاحَ ۖ وَفِي نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
         "ayah_en": {
           "When Moses' anger subsided, he took up the Tablets": "",
@@ -1368,7 +1368,7 @@ var chapterData_7 = [
     "theme_description": "Moses' Supplication for His People",
     "verses": [
       {
-        "ayah_no_surah": 155,
+        "ayah_no_surah": 119,
         "ayah_ar": "وَاخْتَارَ مُوسَىٰ قَوْمَهُ سَبْعِينَ رَجُلًا لِّمِيقَاتِنَا ۖ فَلَمَّا أَخَذَتْهُمُ الرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُم مِّن قَبْلُ وَإِيَّايَ ۖ أَتُهْلِكُنَا بِمَا فَعَلَ السُّفَهَاءُ مِنَّا ۖ إِنْ هِيَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَن تَشَاءُ وَتَهْدِي مَن تَشَاءُ ۖ أَنتَ وَلِيُّنَا فَاغْفِرْ لَنَا وَارْحَمْنَا ۖ وَأَنتَ خَيْرُ الْغَافِرِينَ",
         "ayah_en": {
           "Moses chose seventy men from among his people for Our appointment": "",
@@ -1382,7 +1382,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 156,
+        "ayah_no_surah": 120,
         "ayah_ar": "وَاكْتُبْ لَنَا فِي هَٰذِهِ الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ إِنَّا هُدْنَا إِلَيْكَ ۚ قَالَ عَذَابِي أُصِيبُ بِهِ مَنْ أَشَاءُ ۖ وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ الزَّكَاةَ وَالَّذِينَ هُم بِآيَاتِنَا يُؤْمِنُونَ",
         "ayah_en": {
           "Ordain for us what is good in this life and the next.": "",
@@ -1401,7 +1401,7 @@ var chapterData_7 = [
     "theme_description": "The Description and Mission of the Final Prophet",
     "verses": [
       {
-        "ayah_no_surah": 157,
+        "ayah_no_surah": 121,
         "ayah_ar": "الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ الَّذِي يَجِدُونَهُ مَكْتُوبًا عِندَهُمْ فِي التَّوْرَاةِ وَالْإِنجِيلِ يَأْمُرُهُم بِالْمَعْرُوفِ وَيَنْهَاهُمْ عَنِ الْمُنكَرِ وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَالْأَغْلَالَ الَّتِي كَانَتْ عَلَيْهِمْ ۚ فَالَّذِينَ آمَنُوا بِهِ وَعَزَّرُوهُ وَنَصَرُوهُ وَاتَّبَعُوا النُّورَ الَّذِي أُنزِلَ مَعَهُ ۙ أُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
         "ayah_en": {
           "˹They are˺ the ones who follow the Messenger, the unlettered Prophet,": "",
@@ -1419,7 +1419,7 @@ var chapterData_7 = [
     "theme_description": "The Universal Message of Islam",
     "verses": [
       {
-        "ayah_no_surah": 158,
+        "ayah_no_surah": 122,
         "ayah_ar": "قُلْ يَا أَيُّهَا النَّاسُ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ جَمِيعًا الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ۖ لَا إِلَٰهَ إِلَّا هُوَ يُحْيِي وَيُمِيتُ ۖ فَآمِنُوا بِاللَّهِ وَرَسُولِهِ النَّبِيِّ الْأُمِّيِّ الَّذِي يُؤْمِنُ بِاللَّهِ وَكَلِمَاتِهِ وَاتَّبِعُوهُ لَعَلَّكُمْ تَهْتَدُونَ",
         "ayah_en": {
           "Say, ˹O Prophet,˺ \"O humanity! I am Allah's Messenger to you all.": "",
@@ -1437,7 +1437,7 @@ var chapterData_7 = [
     "theme_description": "The Righteous Among Moses' People and Divine Blessings",
     "verses": [
       {
-        "ayah_no_surah": 159,
+        "ayah_no_surah": 123,
         "ayah_ar": "وَمِن قَوْمِ مُوسَىٰ أُمَّةٌ يَهْدُونَ بِالْحَقِّ وَبِهِ يَعْدِلُونَ",
         "ayah_en": {
           "There are some among the people of Moses who guide with the truth": "",
@@ -1445,7 +1445,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 160,
+        "ayah_no_surah": 124,
         "ayah_ar": "وَقَطَّعْنَاهُمُ اثْنَتَيْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ إِذِ اسْتَسْقَاهُ قَوْمُهُ أَنِ اضْرِب بِّعَصَاكَ الْحَجَرَ ۖ فَانبَجَسَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ الْغَمَامَ وَأَنزَلْنَا عَلَيْهِمُ الْمَنَّ وَالسَّلْوَىٰ ۖ كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوا أَنفُسَهُمْ يَظْلِمُونَ",
         "ayah_en": {
           "We divided them into twelve tribes—each as a community.": "",
@@ -1458,7 +1458,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 161,
+        "ayah_no_surah": 125,
         "ayah_ar": "وَإِذْ قِيلَ لَهُمُ اسْكُنُوا هَٰذِهِ الْقَرْيَةَ وَكُلُوا مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا حِطَّةٌ وَادْخُلُوا الْبَابَ سُجَّدًا نَّغْفِرْ لَكُمْ خَطِيئَاتِكُمْ ۚ سَنَزِيدُ الْمُحْسِنِينَ",
         "ayah_en": {
           "And ˹remember˺ when it was said to them, \"Enter this city ˹of Jerusalem˺": "",
@@ -1470,7 +1470,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 162,
+        "ayah_no_surah": 126,
         "ayah_ar": "فَبَدَّلَ الَّذِينَ ظَلَمُوا مِنْهُمْ قَوْلًا غَيْرَ الَّذِي قِيلَ لَهُمْ فَأَرْسَلْنَا عَلَيْهِمْ رِجْزًا مِّنَ السَّمَاءِ بِمَا كَانُوا يَظْلِمُونَ",
         "ayah_en": {
           "But the wrongdoers among them changed the words they were commanded to say.": "",
@@ -1484,7 +1484,7 @@ var chapterData_7 = [
     "theme_description": "The Story of the Sabbath-Breakers",
     "verses": [
       {
-        "ayah_no_surah": 163,
+        "ayah_no_surah": 127,
         "ayah_ar": "وَاسْأَلْهُمْ عَنِ الْقَرْيَةِ الَّتِي كَانَتْ حَاضِرَةَ الْبَحْرِ إِذْ يَعْدُونَ فِي السَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا يَفْسُقُونَ",
         "ayah_en": {
           "Ask them ˹O Prophet˺ about ˹the people of˺ the town which was by the sea,": "",
@@ -1495,7 +1495,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 164,
+        "ayah_no_surah": 128,
         "ayah_ar": "وَإِذْ قَالَتْ أُمَّةٌ مِّنْهُمْ لِمَ تَعِظُونَ قَوْمًا ۙ اللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا ۖ قَالُوا مَعْذِرَةً إِلَىٰ رَبِّكُمْ وَلَعَلَّهُمْ يَتَّقُونَ",
         "ayah_en": {
           "When some of ˹the righteous among˺ them questioned ˹their fellow Sabbath-keepers˺, \"Why do you ˹bother to˺ warn those ˹Sabbath-breakers˺ who will either be destroyed or severely punished by Allah?\"": "",
@@ -1504,7 +1504,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 165,
+        "ayah_no_surah": 129,
         "ayah_ar": "فَلَمَّا نَسُوا مَا ذُكِّرُوا بِهِ أَنجَيْنَا الَّذِينَ يَنْهَوْنَ عَنِ السُّوءِ وَأَخَذْنَا الَّذِينَ ظَلَمُوا بِعَذَابٍ بَئِيسٍ بِمَا كَانُوا يَفْسُقُونَ",
         "ayah_en": {
           "When they ignored the warning they were given,": "",
@@ -1513,7 +1513,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 166,
+        "ayah_no_surah": 130,
         "ayah_ar": "فَلَمَّا عَتَوْا عَن مَّا نُهُوا عَنْهُ قُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ",
         "ayah_en": {
           "But when they stubbornly persisted in violation,": "",
@@ -1527,7 +1527,7 @@ var chapterData_7 = [
     "theme_description": "Continued Testing and Dispersion of the Israelites",
     "verses": [
       {
-        "ayah_no_surah": 167,
+        "ayah_no_surah": 131,
         "ayah_ar": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ الْقِيَامَةِ مَن يَسُومُهُمْ سُوءَ الْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ الْعِقَابِ ۖ وَإِنَّهُ لَغَفُورٌ رَّحِيمٌ",
         "ayah_en": {
           "And ˹remember, O Prophet,˺ when your Lord declared that He would send against them others who would make them suffer terribly until the Day of Judgment.": "",
@@ -1536,7 +1536,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 168,
+        "ayah_no_surah": 132,
         "ayah_ar": "وَقَطَّعْنَاهُمْ فِي الْأَرْضِ أُمَمًا ۖ مِّنْهُمُ الصَّالِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَاهُم بِالْحَسَنَاتِ وَالسَّيِّئَاتِ لَعَلَّهُمْ يَرْجِعُونَ",
         "ayah_en": {
           "We dispersed them through the land in groups—": "",
@@ -1552,7 +1552,7 @@ var chapterData_7 = [
     "theme_description": "The Corrupt Successors Who Inherited Scripture",
     "verses": [
       {
-        "ayah_no_surah": 169,
+        "ayah_no_surah": 133,
         "ayah_ar": "فَخَلَفَ مِن بَعْدِهِمْ خَلْفٌ وَرِثُوا الْكِتَابَ يَأْخُذُونَ عَرَضَ هَٰذَا الْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌ مِّثْلُهُ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَاقُ الْكِتَابِ أَن لَّا يَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ وَدَرَسُوا مَا فِيهِ ۗ وَالدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
         "ayah_en": {
           "Then they were succeeded by other generations who inherited the Scripture.": "",
@@ -1566,7 +1566,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 170,
+        "ayah_no_surah": 134,
         "ayah_ar": "وَالَّذِينَ يُمَسِّكُونَ بِالْكِتَابِ وَأَقَامُوا الصَّلَاةَ إِنَّا لَا نُضِيعُ أَجْرَ الْمُصْلِحِينَ",
         "ayah_en": {
           "As for those who firmly abide by the Scripture": "",
@@ -1581,7 +1581,7 @@ var chapterData_7 = [
     "theme_description": "The Covenants with the Israelites and All Humanity",
     "verses": [
       {
-        "ayah_no_surah": 171,
+        "ayah_no_surah": 135,
         "ayah_ar": "وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ وَظَنُّوا أَنَّهُ وَاقِعٌ بِهِمْ خُذُوا مَا آتَيْنَاكُم بِقُوَّةٍ وَاذْكُرُوا مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
         "ayah_en": {
           "And ˹remember˺ when We raised the mountain over them as if it were a cloud": "",
@@ -1591,7 +1591,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 172,
+        "ayah_no_surah": 136,
         "ayah_ar": "وَإِذْ أَخَذَ رَبُّكَ مِن بَنِي آدَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا بَلَىٰ ۛ شَهِدْنَا ۛ أَن تَقُولُوا يَوْمَ الْقِيَامَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَافِلِينَ",
         "ayah_en": {
           "And ˹remember˺ when your Lord brought forth from the loins of the children of Adam their descendants": "",
@@ -1602,7 +1602,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 173,
+        "ayah_no_surah": 137,
         "ayah_ar": "أَوْ تَقُولُوا إِنَّمَا أَشْرَكَ آبَاؤُنَا مِن قَبْلُ وَكُنَّا ذُرِّيَّةً مِّن بَعْدِهِمْ ۖ أَفَتُهْلِكُنَا بِمَا فَعَلَ الْمُبْطِلُونَ",
         "ayah_en": {
           "Nor say, 'It was our forefathers who had associated others ˹with Allah in worship˺": "",
@@ -1611,7 +1611,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 174,
+        "ayah_no_surah": 138,
         "ayah_ar": "وَكَذَٰلِكَ نُفَصِّلُ الْآيَاتِ وَلَعَلَّهُمْ يَرْجِعُونَ",
         "ayah_en": {
           "This is how We make Our signs clear,": "",
@@ -1625,7 +1625,7 @@ var chapterData_7 = [
     "theme_description": "The Story of the Deviant Scholar",
     "verses": [
       {
-        "ayah_no_surah": 175,
+        "ayah_no_surah": 139,
         "ayah_ar": "وَاتْلُ عَلَيْهِمْ نَبَأَ الَّذِي آتَيْنَاهُ آيَاتِنَا فَانسَلَخَ مِنْهَا فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ",
         "ayah_en": {
           "And relate to them ˹O Prophet˺ the story of the one to whom We gave Our signs,": "",
@@ -1635,7 +1635,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 176,
+        "ayah_no_surah": 140,
         "ayah_ar": "وَلَوْ شِئْنَا لَرَفَعْنَاهُ بِهَا وَلَٰكِنَّهُ أَخْلَدَ إِلَى الْأَرْضِ وَاتَّبَعَ هَوَاهُ ۚ فَمَثَلُهُ كَمَثَلِ الْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ الْقَوْمِ الَّذِينَ كَذَّبُوا بِآيَاتِنَا ۚ فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
         "ayah_en": {
           "If We had willed, We would have elevated him with Our signs,": "",
@@ -1646,7 +1646,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 177,
+        "ayah_no_surah": 141,
         "ayah_ar": "سَاءَ مَثَلًا الْقَوْمُ الَّذِينَ كَذَّبُوا بِآيَاتِنَا وَأَنفُسَهُمْ كَانُوا يَظْلِمُونَ",
         "ayah_en": {
           "What an evil example of those who denied Our signs!": "",
@@ -1660,7 +1660,7 @@ var chapterData_7 = [
     "theme_description": "Guidance is from Allah Alone",
     "verses": [
       {
-        "ayah_no_surah": 178,
+        "ayah_no_surah": 142,
         "ayah_ar": "مَن يَهْدِ اللَّهُ فَهُوَ الْمُهْتَدِي ۖ وَمَن يُضْلِلْ فَأُولَٰئِكَ هُمُ الْخَاسِرُونَ",
         "ayah_en": {
           "Whoever Allah guides is truly guided.": "",
@@ -1668,7 +1668,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 179,
+        "ayah_no_surah": 143,
         "ayah_ar": "وَلَقَدْ ذَرَأْنَا لِجَهَنَّمَ كَثِيرًا مِّنَ الْجِنِّ وَالْإِنسِ ۖ لَهُمْ قُلُوبٌ لَّا يَفْقَهُونَ بِهَا وَلَهُمْ أَعْيُنٌ لَّا يُبْصِرُونَ بِهَا وَلَهُمْ آذَانٌ لَّا يَسْمَعُونَ بِهَا ۚ أُولَٰئِكَ كَالْأَنْعَامِ بَلْ هُمْ أَضَلُّ ۚ أُولَٰئِكَ هُمُ الْغَافِلُونَ",
         "ayah_en": {
           "Indeed, We have destined many jinn and humans for Hell.": "",
@@ -1687,7 +1687,7 @@ var chapterData_7 = [
     "theme_description": "Allah's Beautiful Names",
     "verses": [
       {
-        "ayah_no_surah": 180,
+        "ayah_no_surah": 144,
         "ayah_ar": "وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا ۖ وَذَرُوا الَّذِينَ يُلْحِدُونَ فِي أَسْمَائِهِ ۚ سَيُجْزَوْنَ مَا كَانُوا يَعْمَلُونَ",
         "ayah_en": {
           "Allah has the Most Beautiful Names.": "",
@@ -1703,7 +1703,7 @@ var chapterData_7 = [
     "theme_description": "The Righteous Guides and the Fate of Deniers",
     "verses": [
       {
-        "ayah_no_surah": 181,
+        "ayah_no_surah": 145,
         "ayah_ar": "وَمِمَّنْ خَلَقْنَا أُمَّةٌ يَهْدُونَ بِالْحَقِّ وَبِهِ يَعْدِلُونَ",
         "ayah_en": {
           "And among those We created is a group that guides with the truth": "",
@@ -1711,7 +1711,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 182,
+        "ayah_no_surah": 146,
         "ayah_ar": "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
         "ayah_en": {
           "As for those who deny Our signs,": "",
@@ -1719,7 +1719,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 183,
+        "ayah_no_surah": 147,
         "ayah_ar": "وَأُمْلِي لَهُمْ ۚ إِنَّ كَيْدِي مَتِينٌ",
         "ayah_en": {
           "I ˹only˺ delay their end for a while,": "",
@@ -1733,7 +1733,7 @@ var chapterData_7 = [
     "theme_description": "Invitation to Reflect on the Prophet and Creation",
     "verses": [
       {
-        "ayah_no_surah": 184,
+        "ayah_no_surah": 148,
         "ayah_ar": "أَوَلَمْ يَتَفَكَّرُوا ۗ مَا بِصَاحِبِهِم مِّن جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌ مُّبِينٌ",
         "ayah_en": {
           "Have they not ever given it a thought?": "",
@@ -1742,7 +1742,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 185,
+        "ayah_no_surah": 149,
         "ayah_ar": "أَوَلَمْ يَنظُرُوا فِي مَلَكُوتِ السَّمَاوَاتِ وَالْأَرْضِ وَمَا خَلَقَ اللَّهُ مِن شَيْءٍ وَأَنْ عَسَىٰ أَن يَكُونَ قَدِ اقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
         "ayah_en": {
           "Have they ever reflected on the wonders of the heavens and the earth,": "",
@@ -1752,7 +1752,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 186,
+        "ayah_no_surah": 150,
         "ayah_ar": "مَن يُضْلِلِ اللَّهُ فَلَا هَادِيَ لَهُ ۚ وَيَذَرُهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ",
         "ayah_en": {
           "Whoever Allah allows to stray, none can guide,": "",
@@ -1766,7 +1766,7 @@ var chapterData_7 = [
     "theme_description": "Knowledge of the Final Hour Belongs to Allah Alone",
     "verses": [
       {
-        "ayah_no_surah": 187,
+        "ayah_no_surah": 151,
         "ayah_ar": "يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّي ۖ لَا يُجَلِّيهَا لِوَقْتِهَا إِلَّا هُوَ ۚ ثَقُلَتْ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْأَلُونَكَ كَأَنَّكَ حَفِيٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ اللَّهِ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
         "ayah_en": {
           "They ask you ˹O Prophet˺ regarding the Hour, \"When will it be?\"": "",
@@ -1779,7 +1779,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 188,
+        "ayah_no_surah": 152,
         "ayah_ar": "قُل لَّا أَمْلِكُ لِنَفْسِي نَفْعًا وَلَا ضَرًّا إِلَّا مَا شَاءَ اللَّهُ ۚ وَلَوْ كُنتُ أَعْلَمُ الْغَيْبَ لَاسْتَكْثَرْتُ مِنَ الْخَيْرِ وَمَا مَسَّنِيَ السُّوءُ ۚ إِنْ أَنَا إِلَّا نَذِيرٌ وَبَشِيرٌ لِّقَوْمٍ يُؤْمِنُونَ",
         "ayah_en": {
           "Say, \"I have no power to benefit or protect myself, except by the Will of Allah.": "",
@@ -1794,7 +1794,7 @@ var chapterData_7 = [
     "theme_description": "Human Origins and the Trap of Ingratitude",
     "verses": [
       {
-        "ayah_no_surah": 189,
+        "ayah_no_surah": 153,
         "ayah_ar": "هُوَ الَّذِي خَلَقَكُم مِّن نَّفْسٍ وَاحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّاهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِ ۖ فَلَمَّا أَثْقَلَت دَّعَوَا اللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَالِحًا لَّنَكُونَنَّ مِنَ الشَّاكِرِينَ",
         "ayah_en": {
           "He is the One Who created you from a single soul,": "",
@@ -1805,7 +1805,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 190,
+        "ayah_no_surah": 154,
         "ayah_ar": "فَلَمَّا آتَاهُمَا صَالِحًا جَعَلَا لَهُ شُرَكَاءَ فِيمَا آتَاهُمَا ۚ فَتَعَالَى اللَّهُ عَمَّا يُشْرِكُونَ",
         "ayah_en": {
           "But when He granted their descendants good offspring,": "",
@@ -1820,7 +1820,7 @@ var chapterData_7 = [
     "theme_description": "The Powerlessness of False Gods",
     "verses": [
       {
-        "ayah_no_surah": 191,
+        "ayah_no_surah": 155,
         "ayah_ar": "أَيُشْرِكُونَ مَا لَا يَخْلُقُ شَيْئًا وَهُمْ يُخْلَقُونَ",
         "ayah_en": {
           "Do they associate ˹with Allah˺ those ˹idols˺ which cannot create anything,": "",
@@ -1828,14 +1828,14 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 192,
+        "ayah_no_surah": 156,
         "ayah_ar": "وَلَا يَسْتَطِيعُونَ لَهُمْ نَصْرًا وَلَا أَنفُسَهُمْ يَنصُرُونَ",
         "ayah_en": {
           "which cannot help them, or even help themselves?": ""
         }
       },
       {
-        "ayah_no_surah": 193,
+        "ayah_no_surah": 157,
         "ayah_ar": "وَإِن تَدْعُوهُمْ إِلَى الْهُدَىٰ لَا يَتَّبِعُوكُمْ ۚ سَوَاءٌ عَلَيْكُمْ أَدَعَوْتُمُوهُمْ أَمْ أَنتُمْ صَامِتُونَ",
         "ayah_en": {
           "And if you ˹idolaters˺ call upon them for guidance, they cannot respond to you.": "",
@@ -1843,7 +1843,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 194,
+        "ayah_no_surah": 158,
         "ayah_ar": "إِنَّ الَّذِينَ تَدْعُونَ مِن دُونِ اللَّهِ عِبَادٌ أَمْثَالُكُمْ ۖ فَادْعُوهُمْ فَلْيَسْتَجِيبُوا لَكُمْ إِن كُنتُمْ صَادِقِينَ",
         "ayah_en": {
           "Those ˹idols˺ you invoke besides Allah are created beings like yourselves.": "",
@@ -1851,7 +1851,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 195,
+        "ayah_no_surah": 159,
         "ayah_ar": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَا ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَا ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَا ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ادْعُوا شُرَكَاءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
         "ayah_en": {
           "Do they have feet to walk with?": "",
@@ -1868,7 +1868,7 @@ var chapterData_7 = [
     "theme_description": "Allah is the Only True Protector",
     "verses": [
       {
-        "ayah_no_surah": 196,
+        "ayah_no_surah": 160,
         "ayah_ar": "إِنَّ وَلِيِّيَ اللَّهُ الَّذِي نَزَّلَ الْكِتَابَ ۖ وَهُوَ يَتَوَلَّى الصَّالِحِينَ",
         "ayah_en": {
           "\"Indeed, my Protector is Allah Who has revealed this Book.": "",
@@ -1876,14 +1876,14 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 197,
+        "ayah_no_surah": 161,
         "ayah_ar": "وَالَّذِينَ تَدْعُونَ مِن دُونِهِ لَا يَسْتَطِيعُونَ نَصْرَكُمْ وَلَا أَنفُسَهُمْ يَنصُرُونَ",
         "ayah_en": {
           "But those ˹false gods˺ you call besides Him can neither help you nor even themselves.\"": ""
         }
       },
       {
-        "ayah_no_surah": 198,
+        "ayah_no_surah": 162,
         "ayah_ar": "وَإِن تَدْعُوهُمْ إِلَى الْهُدَىٰ لَا يَسْمَعُوا ۖ وَتَرَاهُمْ يَنظُرُونَ إِلَيْكَ وَهُمْ لَا يُبْصِرُونَ",
         "ayah_en": {
           "If you ˹idolaters˺ call them to guidance, they cannot hear.": "",
@@ -1897,7 +1897,7 @@ var chapterData_7 = [
     "theme_description": "The Prophet's Noble Character and Conduct",
     "verses": [
       {
-        "ayah_no_surah": 199,
+        "ayah_no_surah": 163,
         "ayah_ar": "خُذِ الْعَفْوَ وَأْمُرْ بِالْعُرْفِ وَأَعْرِضْ عَنِ الْجَاهِلِينَ",
         "ayah_en": {
           "Be gracious,": "",
@@ -1912,7 +1912,7 @@ var chapterData_7 = [
     "theme_description": "Seeking Refuge from Satan's Whispers",
     "verses": [
       {
-        "ayah_no_surah": 200,
+        "ayah_no_surah": 164,
         "ayah_ar": "وَإِمَّا يَنزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللَّهِ ۚ إِنَّهُ سَمِيعٌ عَلِيمٌ",
         "ayah_en": {
           "If you are tempted by Satan,": "",
@@ -1921,7 +1921,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 201,
+        "ayah_no_surah": 165,
         "ayah_ar": "إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ طَائِفٌ مِّنَ الشَّيْطَانِ تَذَكَّرُوا فَإِذَا هُم مُّبْصِرُونَ",
         "ayah_en": {
           "Indeed, when Satan whispers to those mindful ˹of Allah˺,": "",
@@ -1930,7 +1930,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 202,
+        "ayah_no_surah": 166,
         "ayah_ar": "وَإِخْوَانُهُمْ يَمُدُّونَهُمْ فِي الْغَيِّ ثُمَّ لَا يُقْصِرُونَ",
         "ayah_en": {
           "But the devils persistently plunge their ˹human˺ associates deeper into wickedness,": "",
@@ -1944,7 +1944,7 @@ var chapterData_7 = [
     "theme_description": "The Prophet Only Follows Revelation",
     "verses": [
       {
-        "ayah_no_surah": 203,
+        "ayah_no_surah": 167,
         "ayah_ar": "وَإِذَا لَمْ تَأْتِهِم بِآيَةٍ قَالُوا لَوْلَا اجْتَبَيْتَهَا ۚ قُلْ إِنَّمَا أَتَّبِعُ مَا يُوحَىٰ إِلَيَّ مِن رَّبِّي ۚ هَٰذَا بَصَائِرُ مِن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُؤْمِنُونَ",
         "ayah_en": {
           "If you ˹O Prophet˺ do not bring them a sign ˹which they demanded˺,": "",
@@ -1961,7 +1961,7 @@ var chapterData_7 = [
     "theme_description": "The Etiquette of Listening to the Quran",
     "verses": [
       {
-        "ayah_no_surah": 204,
+        "ayah_no_surah": 168,
         "ayah_ar": "وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَأَنصِتُوا لَعَلَّكُمْ تُرْحَمُونَ",
         "ayah_en": {
           "When the Quran is recited, listen to it attentively": "",
@@ -1976,7 +1976,7 @@ var chapterData_7 = [
     "theme_description": "Remembering Allah with Humility",
     "verses": [
       {
-        "ayah_no_surah": 205,
+        "ayah_no_surah": 169,
         "ayah_ar": "وَاذْكُر رَّبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُن مِّنَ الْغَافِلِينَ",
         "ayah_en": {
           "Remember your Lord inwardly": "",
@@ -1987,7 +1987,7 @@ var chapterData_7 = [
         }
       },
       {
-        "ayah_no_surah": 206,
+        "ayah_no_surah": 170,
         "ayah_ar": "إِنَّ الَّذِينَ عِندَ رَبِّكَ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِ وَيُسَبِّحُونَهُ وَلَهُ يَسْجُدُونَ",
         "ayah_en": {
           "Surely those ˹angels˺ nearest to your Lord are not too proud to worship Him.": "",
