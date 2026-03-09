@@ -281,7 +281,7 @@ var chapterData_22 = [
     "theme_description": "The People of Paradise: Eternal Bliss and Divine Reward",
     "verses": [
       {
-        "ayah_no_surah": 101,
+        "ayah_no_surah": 25,
         "ayah_ar": "إِنَّ الَّذِينَ سَبَقَتْ لَهُم مِّنَّا الْحُسْنَىٰ أُولَٰئِكَ عَنْهَا مُبْعَدُونَ",
         "ayah_en": {
           "Surely those for whom We have destined the finest reward": "",
@@ -289,7 +289,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 102,
+        "ayah_no_surah": 26,
         "ayah_ar": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِي مَا اشْتَهَتْ أَنفُسُهُمْ خَالِدُونَ",
         "ayah_en": {
           "not even hearing the slightest hissing from it": "",
@@ -297,7 +297,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 103,
+        "ayah_no_surah": 27,
         "ayah_ar": "لَا يَحْزُنُهُمُ الْفَزَعُ الْأَكْبَرُ وَتَتَلَقَّاهُمُ الْمَلَائِكَةُ هَٰذَا يَوْمُكُمُ الَّذِي كُنتُمْ تُوعَدُونَ",
         "ayah_en": {
           "The Supreme Horror ˹of that Day˺ will not disturb them": "",
@@ -305,7 +305,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 104,
+        "ayah_no_surah": 28,
         "ayah_ar": "يَوْمَ نَطْوِي السَّمَاءَ كَطَيِّ السِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُّعِيدُهُ ۚ وَعْدًا عَلَيْنَا ۚ إِنَّا كُنَّا فَاعِلِينَ",
         "ayah_en": {
           "On that Day We will roll up the heavens like a scroll of writings": "",
@@ -315,7 +315,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 105,
+        "ayah_no_surah": 29,
         "ayah_ar": "وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِن بَعْدِ الذِّكْرِ أَنَّ الْأَرْضَ يَرِثُهَا عِبَادِيَ الصَّالِحُونَ",
         "ayah_en": {
           "Surely, following the ˹heavenly˺ Record, We decreed in the Scriptures": "",
@@ -329,21 +329,21 @@ var chapterData_22 = [
     "theme_description": "Advice for the Prophet: The Quran's Sufficiency and the Prophet as Mercy",
     "verses": [
       {
-        "ayah_no_surah": 106,
+        "ayah_no_surah": 30,
         "ayah_ar": "إِنَّ فِي هَٰذَا لَبَلَاغًا لِّقَوْمٍ عَابِدِينَ",
         "ayah_en": {
           "Surely this ˹Quran˺ is sufficient ˹as a reminder˺ for those devoted to worship": ""
         }
       },
       {
-        "ayah_no_surah": 107,
+        "ayah_no_surah": 31,
         "ayah_ar": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ",
         "ayah_en": {
           "We have sent you ˹O Prophet˺ only as a mercy for the whole world": ""
         }
       },
       {
-        "ayah_no_surah": 108,
+        "ayah_no_surah": 32,
         "ayah_ar": "قُلْ إِنَّمَا يُوحَىٰ إِلَيَّ أَنَّمَا إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ",
         "ayah_en": {
           "Say, \"What has been revealed to me is this: 'Your God is only One God.'": "",
@@ -351,7 +351,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 109,
+        "ayah_no_surah": 33,
         "ayah_ar": "فَإِن تَوَلَّوْا فَقُلْ آذَنتُكُمْ عَلَىٰ سَوَاءٍ ۖ وَإِنْ أَدْرِي أَقَرِيبٌ أَم بَعِيدٌ مَّا تُوعَدُونَ",
         "ayah_en": {
           "If they turn away, then say, \"I have warned you all equally": "",
@@ -359,7 +359,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 110,
+        "ayah_no_surah": 34,
         "ayah_ar": "إِنَّهُ يَعْلَمُ الْجَهْرَ مِنَ الْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ",
         "ayah_en": {
           "Allah surely knows what you say openly": "",
@@ -367,7 +367,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 111,
+        "ayah_no_surah": 35,
         "ayah_ar": "وَإِنْ أَدْرِي لَعَلَّهُ فِتْنَةٌ لَّكُمْ وَمَتَاعٌ إِلَىٰ حِينٍ",
         "ayah_en": {
           "I do not know if this ˹delay˺ is possibly a test for you": "",
@@ -375,7 +375,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 112,
+        "ayah_no_surah": 36,
         "ayah_ar": "قَالَ رَبِّ احْكُم بِالْحَقِّ ۗ وَرَبُّنَا الرَّحْمَٰنُ الْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
         "ayah_en": {
           "˹In the end,˺ the Prophet said, \"My Lord! Judge ˹between us˺ in truth": "",
@@ -390,7 +390,7 @@ var chapterData_22 = [
     "theme_description": "Satan's Interference with Divine Revelation and Allah's Protection",
     "verses": [
       {
-        "ayah_no_surah": 52,
+        "ayah_no_surah": 37,
         "ayah_ar": "وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِيٍّ إِلَّا إِذَا تَمَنَّىٰ أَلْقَى الشَّيْطَانُ فِي أُمْنِيَّتِهِ فَيَنسَخُ اللَّهُ مَا يُلْقِي الشَّيْطَانُ ثُمَّ يُحْكِمُ اللَّهُ آيَاتِهِ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
         "ayah_en": {
           "Whenever We sent a messenger or a prophet before you ˹O Prophet˺ and he recited ˹Our revelations˺": "",
@@ -401,7 +401,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 53,
+        "ayah_no_surah": 38,
         "ayah_ar": "لِّيَجْعَلَ مَا يُلْقِي الشَّيْطَانُ فِتْنَةً لِّلَّذِينَ فِي قُلُوبِهِم مَّرَضٌ وَالْقَاسِيَةِ قُلُوبُهُمْ وَإِنَّ الظَّالِمِينَ لَفِي شِقَاقٍ بَعِيدٍ",
         "ayah_en": {
           "All that so He may make Satan's influence a trial for those ˹hypocrites˺ whose hearts are sick": "",
@@ -410,7 +410,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 54,
+        "ayah_no_surah": 39,
         "ayah_ar": "وَلِيَعْلَمَ الَّذِينَ أُوتُوا الْعِلْمَ أَنَّهُ الْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا بِهِ فَتُخْبِتَ لَهُ قُلُوبُهُمْ وَإِنَّ اللَّهَ لَهَادِ الَّذِينَ آمَنُوا إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ",
         "ayah_en": {
           "˹This is˺ also so that those gifted with knowledge would know that this ˹revelation˺ is the truth from your Lord": "",
@@ -420,7 +420,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 55,
+        "ayah_no_surah": 40,
         "ayah_ar": "وَلَا يَزَالُ الَّذِينَ كَفَرُوا فِي مِرْيَةٍ مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ السَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
         "ayah_en": {
           "Yet the disbelievers will persist in doubt about this ˹revelation˺": "",
@@ -435,7 +435,7 @@ var chapterData_22 = [
     "theme_description": "Allah's Absolute Authority on the Day of Judgment",
     "verses": [
       {
-        "ayah_no_surah": 56,
+        "ayah_no_surah": 41,
         "ayah_ar": "الْمُلْكُ يَوْمَئِذٍ لِّلَّهِ يَحْكُمُ بَيْنَهُمْ فَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فِي جَنَّاتِ النَّعِيمِ",
         "ayah_en": {
           "All authority on that Day is for Allah ˹alone˺": "",
@@ -444,7 +444,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 57,
+        "ayah_no_surah": 42,
         "ayah_ar": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا فَأُولَٰئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
         "ayah_en": {
           "But those who disbelieve and deny Our revelations": "",
@@ -452,7 +452,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 58,
+        "ayah_no_surah": 43,
         "ayah_ar": "وَالَّذِينَ هَاجَرُوا فِي سَبِيلِ اللَّهِ ثُمَّ قُتِلُوا أَوْ مَاتُوا لَيَرْزُقَنَّهُمُ اللَّهُ رِزْقًا حَسَنًا وَإِنَّ اللَّهَ لَهُوَ خَيْرُ الرَّازِقِينَ",
         "ayah_en": {
           "As for those who emigrate in the cause of Allah": "",
@@ -462,7 +462,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 59,
+        "ayah_no_surah": 44,
         "ayah_ar": "لَيُدْخِلَنَّهُم مُّدْخَلًا يَرْضَوْنَهُ وَإِنَّ اللَّهَ لَعَلِيمٌ حَلِيمٌ",
         "ayah_en": {
           "He will certainly admit them into a place they will be pleased with": "",
@@ -476,7 +476,7 @@ var chapterData_22 = [
     "theme_description": "Divine Justice and Support for the Wronged",
     "verses": [
       {
-        "ayah_no_surah": 60,
+        "ayah_no_surah": 45,
         "ayah_ar": "ذَٰلِكَ وَمَنْ عَاقَبَ بِمِثْلِ مَا عُوقِبَ بِهِ ثُمَّ بُغِيَ عَلَيْهِ لَيَنصُرَنَّهُ اللَّهُ إِنَّ اللَّهَ لَعَفُوٌّ غَفُورٌ",
         "ayah_en": {
           "That is so. And whoever retaliates in equivalence to the injury they have received": "",
@@ -492,7 +492,7 @@ var chapterData_22 = [
     "theme_description": "Signs of Allah's Power in Creation",
     "verses": [
       {
-        "ayah_no_surah": 61,
+        "ayah_no_surah": 46,
         "ayah_ar": "ذَٰلِكَ بِأَنَّ اللَّهَ يُولِجُ اللَّيْلَ فِي النَّهَارِ وَيُولِجُ النَّهَارَ فِي اللَّيْلِ وَأَنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
         "ayah_en": {
           "That is because Allah causes the night to merge into the day, and the day into the night": "",
@@ -500,7 +500,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 62,
+        "ayah_no_surah": 47,
         "ayah_ar": "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ هُوَ الْبَاطِلُ وَأَنَّ اللَّهَ هُوَ الْعَلِيُّ الْكَبِيرُ",
         "ayah_en": {
           "That is because Allah ˹alone˺ is the Truth": "",
@@ -509,7 +509,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 63,
+        "ayah_no_surah": 48,
         "ayah_ar": "أَلَمْ تَرَ أَنَّ اللَّهَ أَنزَلَ مِنَ السَّمَاءِ مَاءً فَتُصْبِحُ الْأَرْضُ مُخْضَرَّةً إِنَّ اللَّهَ لَطِيفٌ خَبِيرٌ",
         "ayah_en": {
           "Do you not see that Allah sends down rain from the sky, then the earth becomes green?": "",
@@ -517,7 +517,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 64,
+        "ayah_no_surah": 49,
         "ayah_ar": "لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَإِنَّ اللَّهَ لَهُوَ الْغَنِيُّ الْحَمِيدُ",
         "ayah_en": {
           "To Him belongs whatever is in the heavens and whatever is on the earth": "",
@@ -531,7 +531,7 @@ var chapterData_22 = [
     "theme_description": "Allah's Grace in Subjecting Creation for Human Benefit",
     "verses": [
       {
-        "ayah_no_surah": 65,
+        "ayah_no_surah": 50,
         "ayah_ar": "أَلَمْ تَرَ أَنَّ اللَّهَ سَخَّرَ لَكُم مَّا فِي الْأَرْضِ وَالْفُلْكَ تَجْرِي فِي الْبَحْرِ بِأَمْرِهِ وَيُمْسِكُ السَّمَاءَ أَن تَقَعَ عَلَى الْأَرْضِ إِلَّا بِإِذْنِهِ إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
         "ayah_en": {
           "Do you not see that Allah has subjected to you whatever is in the earth": "",
@@ -541,7 +541,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 66,
+        "ayah_no_surah": 51,
         "ayah_ar": "وَهُوَ الَّذِي أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ إِنَّ الْإِنسَانَ لَكَفُورٌ",
         "ayah_en": {
           "And He is the One Who gave you life": "",
@@ -557,7 +557,7 @@ var chapterData_22 = [
     "theme_description": "Different Religious Laws But One Divine Source",
     "verses": [
       {
-        "ayah_no_surah": 67,
+        "ayah_no_surah": 52,
         "ayah_ar": "لِّكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا هُمْ نَاسِكُوهُ فَلَا يُنَازِعُنَّكَ فِي الْأَمْرِ وَادْعُ إِلَىٰ رَبِّكَ إِنَّكَ لَعَلَىٰ هُدًى مُّسْتَقِيمٍ",
         "ayah_en": {
           "For every community We appointed a code of life to follow": "",
@@ -566,21 +566,21 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 68,
+        "ayah_no_surah": 53,
         "ayah_ar": "وَإِن جَادَلُوكَ فَقُلِ اللَّهُ أَعْلَمُ بِمَا تَعْمَلُونَ",
         "ayah_en": {
           "But if they argue with you, then say, \"Allah knows best what you do.\"": ""
         }
       },
       {
-        "ayah_no_surah": 69,
+        "ayah_no_surah": 54,
         "ayah_ar": "اللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ الْقِيَامَةِ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
         "ayah_en": {
           "Allah will judge between you ˹all˺ on Judgment Day regarding your differences": ""
         }
       },
       {
-        "ayah_no_surah": 70,
+        "ayah_no_surah": 55,
         "ayah_ar": "أَلَمْ تَعْلَمْ أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَاءِ وَالْأَرْضِ إِنَّ ذَٰلِكَ فِي كِتَابٍ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ",
         "ayah_en": {
           "Do you not know that Allah ˹fully˺ knows whatever is in the heavens and the earth?": "",
@@ -595,7 +595,7 @@ var chapterData_22 = [
     "theme_description": "The Futility of Worshipping False Gods",
     "verses": [
       {
-        "ayah_no_surah": 71,
+        "ayah_no_surah": 56,
         "ayah_ar": "وَيَعْبُدُونَ مِن دُونِ اللَّهِ مَا لَمْ يُنَزِّلْ بِهِ سُلْطَانًا وَمَا لَيْسَ لَهُم بِهِ عِلْمٌ وَمَا لِلظَّالِمِينَ مِن نَّصِيرٍ",
         "ayah_en": {
           "Yet they worship besides Allah that for which He has sent down no authority": "",
@@ -604,7 +604,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 72,
+        "ayah_no_surah": 57,
         "ayah_ar": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَاتٍ تَعْرِفُ فِي وُجُوهِ الَّذِينَ كَفَرُوا الْمُنكَرَ يَكَادُونَ يَسْطُونَ بِالَّذِينَ يَتْلُونَ عَلَيْهِمْ آيَاتِنَا قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ النَّارُ وَعَدَهَا اللَّهُ الَّذِينَ كَفَرُوا وَبِئْسَ الْمَصِيرُ",
         "ayah_en": {
           "Whenever Our clear revelations are recited to them, you ˹O Prophet˺ recognize rage on the faces of the disbelievers": "",
@@ -621,7 +621,7 @@ var chapterData_22 = [
     "theme_description": "The Challenge of the Fly: Exposing the Powerlessness of Idols",
     "verses": [
       {
-        "ayah_no_surah": 73,
+        "ayah_no_surah": 58,
         "ayah_ar": "يَا أَيُّهَا النَّاسُ ضُرِبَ مَثَلٌ فَاسْتَمِعُوا لَهُ إِنَّ الَّذِينَ تَدْعُونَ مِن دُونِ اللَّهِ لَن يَخْلُقُوا ذُبَابًا وَلَوِ اجْتَمَعُوا لَهُ وَإِن يَسْلُبْهُمُ الذُّبَابُ شَيْئًا لَّا يَسْتَنقِذُوهُ مِنْهُ ضَعُفَ الطَّالِبُ وَالْمَطْلُوبُ",
         "ayah_en": {
           "O humanity! A lesson is set forth, so listen to it ˹carefully˺": "",
@@ -631,7 +631,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 74,
+        "ayah_no_surah": 59,
         "ayah_ar": "مَا قَدَرُوا اللَّهَ حَقَّ قَدْرِهِ إِنَّ اللَّهَ لَقَوِيٌّ عَزِيزٌ",
         "ayah_en": {
           "They have not shown Allah the reverence He deserves": "",
@@ -645,7 +645,7 @@ var chapterData_22 = [
     "theme_description": "Allah's Selection of Messengers and His Complete Knowledge",
     "verses": [
       {
-        "ayah_no_surah": 75,
+        "ayah_no_surah": 60,
         "ayah_ar": "اللَّهُ يَصْطَفِي مِنَ الْمَلَائِكَةِ رُسُلًا وَمِنَ النَّاسِ إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
         "ayah_en": {
           "Allah selects messengers from both angels and people": "",
@@ -653,7 +653,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 76,
+        "ayah_no_surah": 61,
         "ayah_ar": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
         "ayah_en": {
           "He knows what is ahead of them and what is behind them": "",
@@ -667,7 +667,7 @@ var chapterData_22 = [
     "theme_description": "Final Advice and Encouragement to the Believers",
     "verses": [
       {
-        "ayah_no_surah": 77,
+        "ayah_no_surah": 62,
         "ayah_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ",
         "ayah_en": {
           "O believers! Bow down, prostrate yourselves": "",
@@ -676,7 +676,7 @@ var chapterData_22 = [
         }
       },
       {
-        "ayah_no_surah": 78,
+        "ayah_no_surah": 63,
         "ayah_ar": "وَجَاهِدُوا فِي اللَّهِ حَقَّ جِهَادِهِ هُوَ اجْتَبَاكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِي الدِّينِ مِنْ حَرَجٍ مِّلَّةَ أَبِيكُمْ إِبْرَاهِيمَ هُوَ سَمَّاكُمُ الْمُسْلِمِينَ مِن قَبْلُ وَفِي هَٰذَا لِيَكُونَ الرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا شُهَدَاءَ عَلَى النَّاسِ فَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَاعْتَصِمُوا بِاللَّهِ هُوَ مَوْلَاكُمْ فَنِعْمَ الْمَوْلَىٰ وَنِعْمَ النَّصِيرُ",
         "ayah_en": {
           "Strive for ˹the cause of˺ Allah in the way He deserves": "",
