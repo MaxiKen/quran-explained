@@ -12,7 +12,8 @@ var chapterData_62 = [
           "the Most Holy": "",
           "the Almighty": "",
           "the All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4917.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -23,7 +24,8 @@ var chapterData_62 = [
           "purifying them": "",
           "and teaching them the Book and wisdom": "",
           "for indeed they had previously been clearly astray": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4918.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -31,7 +33,8 @@ var chapterData_62 = [
         "ayah_en": {
           "along with others of them who have not yet joined them in faith": "",
           "For He is the Almighty, All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4919.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -40,7 +43,8 @@ var chapterData_62 = [
           "This is the favour of Allah": "",
           "He grants it to whoever He wills": "",
           "And Allah is the Lord of infinite bounty": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4920.mp3"
       }
     ]
   },
@@ -56,7 +60,8 @@ var chapterData_62 = [
           "is that of a donkey carrying books": "",
           "How evil is the example of those who reject Allah's signs": "",
           "For Allah does not guide the wrongdoing people": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4921.mp3"
       }
     ]
   },
@@ -71,7 +76,8 @@ var chapterData_62 = [
           "Say, O Prophet, \"O Jews!\"": "",
           "If you claim to be Allah's chosen people out of all humanity": "",
           "then wish for death, if what you say is true": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4922.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -80,7 +86,8 @@ var chapterData_62 = [
           "But they will never wish for that": "",
           "because of what their hands have done": "",
           "And Allah has perfect knowledge of the wrongdoers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4923.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -89,7 +96,8 @@ var chapterData_62 = [
           "Say, \"The death you are running away from will inevitably come to you\"": "",
           "Then you will be returned to the Knower of the seen and unseen": "",
           "and He will inform you of what you used to do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4924.mp3"
       }
     ]
   },
@@ -106,7 +114,8 @@ var chapterData_62 = [
           "then proceed diligently to the remembrance of Allah": "",
           "and leave off your business": "",
           "That is best for you, if only you knew": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4925.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -116,7 +125,8 @@ var chapterData_62 = [
           "and seek the bounty of Allah": "",
           "And remember Allah often": "",
           "so you may be successful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4926.mp3"
       }
     ]
   },
@@ -132,7 +142,8 @@ var chapterData_62 = [
           "leaving you, O Prophet, standing on the pulpit": "",
           "Say, \"What is with Allah is far better than amusement and merchandise\"": "",
           "And Allah is the Best Provider": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4927.mp3"
       }
     ]
   }

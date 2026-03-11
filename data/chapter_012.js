@@ -9,7 +9,8 @@ var chapterData_12 = [
         "ayah_en": {
           "Alif-Lãm-Ra": "",
           "These are the verses of the clear Book": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1443.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +18,8 @@ var chapterData_12 = [
         "ayah_en": {
           "Indeed, We have sent it down as an Arabic Quran": "",
           "so that you may understand": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1444.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +28,8 @@ var chapterData_12 = [
           "We relate to you ˹O Prophet˺ the best of stories": "",
           "through Our revelation of this Quran": "",
           "though before this you were totally unaware ˹of them˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1445.mp3"
       }
     ]
   },
@@ -41,7 +44,8 @@ var chapterData_12 = [
           "˹Remember˺ when Joseph said to his father": "",
           "\"O my dear father!": "",
           "Indeed I dreamt of eleven stars, and the sun, and the moon—I saw them prostrating to me!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1446.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -51,7 +55,8 @@ var chapterData_12 = [
           "Do not relate your vision to your brothers": "",
           "or they will devise a plot against you": "",
           "Surely Satan is a sworn enemy to humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1447.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -62,7 +67,8 @@ var chapterData_12 = [
           "and perfect His favour upon you and the descendants of Jacob": "",
           "˹just˺ as He once perfected it upon your forefathers, Abraham and Isaac": "",
           "Surely your Lord is All-Knowing, All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1448.mp3"
       }
     ]
   },
@@ -75,7 +81,8 @@ var chapterData_12 = [
         "ayah_ar": "لَّقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِّلسَّائِلِينَ",
         "ayah_en": {
           "Indeed, in the story of Joseph and his brothers there are lessons for all who ask": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1449.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -84,7 +91,8 @@ var chapterData_12 = [
           "˹Remember˺ when they said ˹to one another˺, \"Surely Joseph and his brother ˹Benjamin˺ are more beloved to our father than we": "",
           "even though we are a group of so many": "",
           "Indeed, our father is clearly mistaken": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1450.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -93,7 +101,8 @@ var chapterData_12 = [
           "Kill Joseph or cast him out to some ˹distant˺ land": "",
           "so that our father's attention will be only ours": "",
           "then after that you may ˹repent and˺ become righteous people!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1451.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -102,7 +111,8 @@ var chapterData_12 = [
           "One of them said, \"Do not kill Joseph": "",
           "But if you must do something, throw him into the bottom of a well": "",
           "so perhaps he may be picked up by some travellers\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1452.mp3"
       }
     ]
   },
@@ -116,7 +126,8 @@ var chapterData_12 = [
         "ayah_en": {
           "They said, \"O our father! Why do you not trust us with Joseph": "",
           "although we truly wish him well?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1453.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -124,7 +135,8 @@ var chapterData_12 = [
         "ayah_en": {
           "Send him out with us tomorrow so that he may enjoy himself and play": "",
           "And we will really watch over him\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1454.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -132,7 +144,8 @@ var chapterData_12 = [
         "ayah_en": {
           "He responded, \"It would truly sadden me if you took him away with you": "",
           "and I fear that a wolf may devour him while you are negligent of him\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1455.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -140,7 +153,8 @@ var chapterData_12 = [
         "ayah_en": {
           "They said, \"If a wolf were to devour him, despite our strong group": "",
           "then we would certainly be losers!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1456.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -148,7 +162,8 @@ var chapterData_12 = [
         "ayah_en": {
           "And so, when they took him away and decided to throw him into the bottom of the well": "",
           "We inspired him: \"˹One day˺ you will remind them of this deed of theirs while they are unaware ˹of who you are˺\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1457.mp3"
       }
     ]
   },
@@ -161,7 +176,8 @@ var chapterData_12 = [
         "ayah_ar": "وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
         "ayah_en": {
           "Then they returned to their father in the evening, weeping": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1458.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -170,7 +186,8 @@ var chapterData_12 = [
           "They cried, \"Our father! We went racing and left Joseph with our belongings": "",
           "and a wolf devoured him!": "",
           "But you will not believe us, no matter how truthful we are\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1459.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -180,7 +197,8 @@ var chapterData_12 = [
           "He responded, \"No! Your souls must have tempted you to do something ˹evil˺": "",
           "So ˹I can only endure with˺ beautiful patience!": "",
           "It is Allah's help that I seek to bear your claims\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1460.mp3"
       }
     ]
   },
@@ -196,7 +214,8 @@ var chapterData_12 = [
           "He cried out, \"Oh, what a great find! Here is a boy!\"": "",
           "And they took him secretly ˹to be sold˺ as merchandise": "",
           "but Allah is All-Knowing of what they did": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1461.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -204,7 +223,8 @@ var chapterData_12 = [
         "ayah_en": {
           "They ˹later˺ sold him for a cheap price, just a few silver coins": "",
           "only wanting to get rid of him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1462.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -215,7 +235,8 @@ var chapterData_12 = [
           "This is how We established Joseph in the land": "",
           "so that We might teach him the interpretation of dreams": "",
           "Allah's Will always prevails, but most people do not know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1463.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -224,7 +245,8 @@ var chapterData_12 = [
           "And when he reached maturity": "",
           "We gave him wisdom and knowledge": "",
           "This is how We reward the good-doers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1464.mp3"
       }
     ]
   },
@@ -241,7 +263,8 @@ var chapterData_12 = [
           "He replied, \"Allah is my refuge!": "",
           "It is ˹not right to betray˺ my master, who has taken good care of me": "",
           "Indeed, the wrongdoers never succeed\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1465.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -250,7 +273,8 @@ var chapterData_12 = [
           "She advanced towards him, and he would have done likewise, had he not seen a sign from his Lord": "",
           "This is how We kept evil and indecency away from him": "",
           "for he was truly one of Our chosen servants": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1466.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -260,7 +284,8 @@ var chapterData_12 = [
           "and she tore his shirt from the back": "",
           "only to find her husband at the door": "",
           "She cried, \"What is the penalty for someone who tried to violate your wife, except imprisonment or a painful punishment?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1467.mp3"
       }
     ]
   },
@@ -274,14 +299,16 @@ var chapterData_12 = [
         "ayah_en": {
           "Joseph responded, \"It was she who tried to seduce me\"": "",
           "And a witness from her own family testified: \"If his shirt is torn from the front, then she has told the truth and he is a liar": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1468.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ",
         "ayah_en": {
           "But if it is torn from the back, then she has lied and he is truthful\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1469.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -290,7 +317,8 @@ var chapterData_12 = [
           "So when her husband saw that Joseph's shirt was torn from the back": "",
           "he said ˹to her˺, \"This must be ˹an example˺ of the cunning of you ˹women˺!": "",
           "Indeed, your cunning is so shrewd!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1470.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -299,7 +327,8 @@ var chapterData_12 = [
           "O Joseph! Forget about this": "",
           "And you ˹O wife˺! Seek forgiveness for your sin": "",
           "It certainly has been your fault\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1471.mp3"
       }
     ]
   }

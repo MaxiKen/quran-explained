@@ -9,28 +9,32 @@ var chapterData_86 = [
         "ayah_en": {
           "By the heaven": "",
           "and the nightly star": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5671.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا الطَّارِقُ",
         "ayah_en": {
           "And what will make you realize what the nightly star is?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5672.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "النَّجْمُ الثَّاقِبُ",
         "ayah_en": {
           "˹It is˺ the star of piercing brightness": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5673.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
         "ayah_en": {
           "There is no soul without a vigilant angel ˹recording everything˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5674.mp3"
       }
     ]
   },
@@ -43,21 +47,24 @@ var chapterData_86 = [
         "ayah_ar": "فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ",
         "ayah_en": {
           "Let people then consider what they were created from!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5675.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "خُلِقَ مِن مَّاءٍ دَافِقٍ",
         "ayah_en": {
           "˹They were˺ created from a spurting fluid": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5676.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "يَخْرُجُ مِن بَيْنِ الصُّلْبِ وَالتَّرَائِبِ",
         "ayah_en": {
           "stemming from between the backbone and the ribcage": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5677.mp3"
       }
     ]
   },
@@ -70,21 +77,24 @@ var chapterData_86 = [
         "ayah_ar": "إِنَّهُ عَلَىٰ رَجْعِهِ لَقَادِرٌ",
         "ayah_en": {
           "Surely He is fully capable of bringing them back ˹to life˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5678.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "يَوْمَ تُبْلَى السَّرَائِرُ",
         "ayah_en": {
           "on the Day all secrets will be disclosed": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5679.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَمَا لَهُ مِن قُوَّةٍ وَلَا نَاصِرٍ",
         "ayah_en": {
           "Then one will have neither power nor ˹any˺ helper": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5680.mp3"
       }
     ]
   },
@@ -97,28 +107,32 @@ var chapterData_86 = [
         "ayah_ar": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ",
         "ayah_en": {
           "By the sky with its recurring cycles": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5681.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَالْأَرْضِ ذَاتِ الصَّدْعِ",
         "ayah_en": {
           "and the earth with its sprouting plants": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5682.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
         "ayah_en": {
           "Surely this ˹Quran˺ is a decisive word": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5683.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَمَا هُوَ بِالْهَزْلِ",
         "ayah_en": {
           "and is not to be taken lightly": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5684.mp3"
       }
     ]
   },
@@ -131,14 +145,16 @@ var chapterData_86 = [
         "ayah_ar": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
         "ayah_en": {
           "They are certainly devising ˹evil˺ plans": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5685.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَأَكِيدُ كَيْدًا",
         "ayah_en": {
           "but I too am planning": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5686.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -146,7 +162,8 @@ var chapterData_86 = [
         "ayah_en": {
           "So bear with the disbelievers ˹O Prophet˺": "",
           "Let them be for ˹just˺ a little while": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5687.mp3"
       }
     ]
   }

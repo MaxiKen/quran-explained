@@ -8,14 +8,16 @@ var chapterData_30 = [
         "ayah_ar": "الم",
         "ayah_en": {
           "Alif-Lãm-Mĩm": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3158.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "غُلِبَتِ الرُّومُ",
         "ayah_en": {
           "The Romans have been defeated": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3159.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -23,7 +25,8 @@ var chapterData_30 = [
         "ayah_en": {
           "in a nearby land": "",
           "Yet following their defeat, they will triumph": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3160.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -32,7 +35,8 @@ var chapterData_30 = [
           "within three to nine years": "",
           "The whole matter rests with Allah before and after victory": "",
           "And on that day the believers will rejoice": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3161.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +45,8 @@ var chapterData_30 = [
           "at the victory willed by Allah": "",
           "He gives victory to whoever He wills": "",
           "For He is the Almighty, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3162.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -50,7 +55,8 @@ var chapterData_30 = [
           "This is the promise of Allah": "",
           "And Allah never fails in His promise": "",
           "But most people do not know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3163.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -58,7 +64,8 @@ var chapterData_30 = [
         "ayah_en": {
           "They only know the worldly affairs of this life": "",
           "but are totally oblivious to the Hereafter": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3164.mp3"
       }
     ]
   },
@@ -74,7 +81,8 @@ var chapterData_30 = [
           "Allah only created the heavens and the earth and everything in between for a purpose": "",
           "and an appointed term": "",
           "Yet most people are truly in denial of the meeting with their Lord!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3165.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -86,7 +94,8 @@ var chapterData_30 = [
           "Their messengers came to them with clear proofs": "",
           "Allah would have never wronged them": "",
           "but it was they who wronged themselves": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3166.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -94,7 +103,8 @@ var chapterData_30 = [
         "ayah_en": {
           "Then most evil was the end of the evildoers": "",
           "for denying and mocking the signs of Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3167.mp3"
       }
     ]
   },
@@ -109,7 +119,8 @@ var chapterData_30 = [
           "It is Allah Who originates the creation": "",
           "and will resurrect it": "",
           "And then to Him you will all be returned": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3168.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -117,7 +128,8 @@ var chapterData_30 = [
         "ayah_en": {
           "On the Day the Hour will arrive": "",
           "the wicked will be dumbstruck": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3169.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -125,7 +137,8 @@ var chapterData_30 = [
         "ayah_en": {
           "There will be no intercessors for them from among their associate-gods": "",
           "and they will totally deny their associate-gods": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3170.mp3"
       }
     ]
   },
@@ -139,7 +152,8 @@ var chapterData_30 = [
         "ayah_en": {
           "And on the Day the Hour will arrive": "",
           "the people will then be split into two groups": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3171.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -147,7 +161,8 @@ var chapterData_30 = [
         "ayah_en": {
           "As for those who believed and did good": "",
           "they will be rejoicing in a Garden": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3172.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -156,7 +171,8 @@ var chapterData_30 = [
           "And as for those who disbelieved": "",
           "and denied Our signs and the meeting with Allah in the Hereafter": "",
           "they will be confined in punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3173.mp3"
       }
     ]
   },
@@ -170,7 +186,8 @@ var chapterData_30 = [
         "ayah_en": {
           "So glorify Allah in the evening": "",
           "and in the morning": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3174.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -179,7 +196,8 @@ var chapterData_30 = [
           "all praise is for Him in the heavens and the earth": "",
           "as well as in the afternoon": "",
           "and at noon": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3175.mp3"
       }
     ]
   },
@@ -195,7 +213,8 @@ var chapterData_30 = [
           "and the dead from the living": "",
           "And He gives life to the earth after its death": "",
           "And so will you be brought forth from the grave": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3176.mp3"
       }
     ]
   },
@@ -209,7 +228,8 @@ var chapterData_30 = [
         "ayah_en": {
           "One of His signs is that He created you from dust": "",
           "then—behold!—you are human beings spreading over the earth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3177.mp3"
       }
     ]
   },
@@ -225,7 +245,8 @@ var chapterData_30 = [
           "so that you may find comfort in them": "",
           "And He has placed between you compassion and mercy": "",
           "Surely in this are signs for people who reflect": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3178.mp3"
       }
     ]
   },
@@ -240,7 +261,8 @@ var chapterData_30 = [
           "And one of His signs is the creation of the heavens and the earth": "",
           "and the diversity of your languages and colours": "",
           "Surely in this are signs for those of sound knowledge": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3179.mp3"
       }
     ]
   },
@@ -255,7 +277,8 @@ var chapterData_30 = [
           "And one of His signs is your sleep by night and by day for rest": "",
           "as well as your seeking His bounty in both": "",
           "Surely in this are signs for people who listen": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3180.mp3"
       }
     ]
   },
@@ -271,7 +294,8 @@ var chapterData_30 = [
           "And He sends down rain from the sky": "",
           "reviving the earth after its death": "",
           "Surely in this are signs for people who understand": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3181.mp3"
       }
     ]
   },
@@ -285,7 +309,8 @@ var chapterData_30 = [
         "ayah_en": {
           "And one of His signs is that the heavens and the earth persist by His command": "",
           "Then when He calls you out of the earth just once, you will instantly come forth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3182.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -293,7 +318,8 @@ var chapterData_30 = [
         "ayah_en": {
           "And to Him belong all those in the heavens and the earth": "",
           "all are subject to His Will": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3183.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -303,7 +329,8 @@ var chapterData_30 = [
           "which is even easier for Him": "",
           "To Him belong the finest attributes in the heavens and the earth": "",
           "And He is the Almighty, All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3184.mp3"
       }
     ]
   },
@@ -319,7 +346,8 @@ var chapterData_30 = [
           "would you allow some of those bondspeople in your possession to be your equal partners in whatever wealth We have provided you": "",
           "keeping them in mind as you are mindful of your peers?": "",
           "This is how We make the signs clear for people who understand": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3185.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -328,7 +356,8 @@ var chapterData_30 = [
           "In fact, the wrongdoers merely follow their desires with no knowledge": "",
           "Who then can guide those Allah has left to stray?": "",
           "They will have no helpers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3186.mp3"
       }
     ]
   },
@@ -344,7 +373,8 @@ var chapterData_30 = [
           "the natural Way of Allah which He has instilled in all people": "",
           "Let there be no change in this creation of Allah": "",
           "That is the Straight Way, but most people do not know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3187.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -354,7 +384,8 @@ var chapterData_30 = [
           "be mindful of Him": "",
           "and establish prayers": "",
           "And do not be polytheists": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3188.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -362,7 +393,8 @@ var chapterData_30 = [
         "ayah_en": {
           "like those who have divided their faith and split into sects": "",
           "each rejoicing in what they have": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3189.mp3"
       }
     ]
   },
@@ -377,7 +409,8 @@ var chapterData_30 = [
           "When people are touched with hardship, they cry out to their Lord, turning to Him alone": "",
           "But as soon as He gives them a taste of His mercy": "",
           "a group of them associates others with their Lord in worship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3190.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -385,14 +418,16 @@ var chapterData_30 = [
         "ayah_en": {
           "becoming ungrateful for whatever favours We have given them": "",
           "So enjoy yourselves, for soon you will know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3191.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "أَمْ أَنزَلْنَا عَلَيْهِمْ سُلْطَانًا فَهُوَ يَتَكَلَّمُ بِمَا كَانُوا بِهِ يُشْرِكُونَ",
         "ayah_en": {
           "Or have We sent down to them an authority which attests to what they associate with Him?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3192.mp3"
       }
     ]
   },
@@ -406,7 +441,8 @@ var chapterData_30 = [
         "ayah_en": {
           "If We give people a taste of mercy, they become prideful because of it": "",
           "But if they are afflicted with an evil for what their hands have done, they instantly fall into despair": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3193.mp3"
       }
     ]
   },
@@ -420,7 +456,8 @@ var chapterData_30 = [
         "ayah_en": {
           "Have they not seen that Allah gives abundant or limited provisions to whoever He wills?": "",
           "Surely in this are signs for people who believe": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3194.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -430,7 +467,8 @@ var chapterData_30 = [
           "as well as the poor and the needy traveller": "",
           "That is best for those who seek the pleasure of Allah": "",
           "and it is they who will be successful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3195.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -438,7 +476,8 @@ var chapterData_30 = [
         "ayah_en": {
           "Whatever loans you give, only seeking interest at the expense of people's wealth will not increase with Allah": "",
           "But whatever charity you give, only seeking the pleasure of Allah—it is they whose reward will be multiplied": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3196.mp3"
       }
     ]
   },
@@ -456,7 +495,8 @@ var chapterData_30 = [
           "and then will bring you back to life": "",
           "Can any of your associate-gods do any of this?": "",
           "Glorified and Exalted is He above what they associate with Him in worship!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3197.mp3"
       }
     ]
   },
@@ -471,7 +511,8 @@ var chapterData_30 = [
           "Corruption has spread on land and sea as a result of what people's hands have done": "",
           "so that Allah may cause them to taste the consequences of some of their deeds": "",
           "and perhaps they might return to the Right Path": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3198.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -479,7 +520,8 @@ var chapterData_30 = [
         "ayah_en": {
           "Say, O Prophet, Travel throughout the land and see what was the end of those destroyed before you": "",
           "most of them were polytheists": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3199.mp3"
       }
     ]
   },
@@ -494,7 +536,8 @@ var chapterData_30 = [
           "So be steadfast in the Upright Faith O Prophet": "",
           "before the coming of a Day from Allah that cannot be averted": "",
           "On that Day the people will be divided": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3200.mp3"
       },
       {
         "ayah_no_surah": 44,
@@ -502,7 +545,8 @@ var chapterData_30 = [
         "ayah_en": {
           "those who disbelieved will bear the burden of their own disbelief": "",
           "and those who did good will have prepared for themselves eternal homes": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3201.mp3"
       },
       {
         "ayah_no_surah": 45,
@@ -510,7 +554,8 @@ var chapterData_30 = [
         "ayah_en": {
           "so that He may generously reward those who believe and do good, out of His grace": "",
           "He truly does not like the disbelievers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3202.mp3"
       }
     ]
   },
@@ -527,7 +572,8 @@ var chapterData_30 = [
           "and that ships may sail by His command": "",
           "and that you may seek His bounty": "",
           "and perhaps you will be grateful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3203.mp3"
       }
     ]
   },
@@ -543,7 +589,8 @@ var chapterData_30 = [
           "and they came to them with clear proofs": "",
           "Then We inflicted punishment upon those who persisted in wickedness": "",
           "For it is Our duty to help the believers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3204.mp3"
       }
     ]
   },
@@ -559,14 +606,16 @@ var chapterData_30 = [
           "which He then spreads out in the sky or piles up into masses as He wills": "",
           "from which you see rain come forth": "",
           "Then as soon as He causes it to fall on whoever He wills of His servants, they rejoice": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3205.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَإِن كَانُوا مِن قَبْلِ أَن يُنَزَّلَ عَلَيْهِم مِّن قَبْلِهِ لَمُبْلِسِينَ",
         "ayah_en": {
           "although they had utterly lost hope just before it was sent down to them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3206.mp3"
       },
       {
         "ayah_no_surah": 50,
@@ -575,14 +624,16 @@ var chapterData_30 = [
           "See then the impact of Allah's mercy: how He gives life to the earth after its death!": "",
           "Surely That same Creator can raise the dead": "",
           "For He is Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3207.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَلَئِنْ أَرْسَلْنَا رِيحًا فَرَأَوْهُ مُصْفَرًّا لَّظَلُّوا مِن بَعْدِهِ يَكْفُرُونَ",
         "ayah_en": {
           "Then if We send a harsh wind which they see withering their crops, they will definitely deny old favours right after": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3208.mp3"
       }
     ]
   }

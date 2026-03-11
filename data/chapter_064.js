@@ -11,7 +11,8 @@ var chapterData_64 = [
           "The kingdom is His": "",
           "and all praise is for Him": "",
           "For He is Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4939.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -20,7 +21,8 @@ var chapterData_64 = [
           "He is the One Who created you": "",
           "yet some of you are disbelievers while some are believers": "",
           "And Allah is All-Seeing of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4940.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -29,7 +31,8 @@ var chapterData_64 = [
           "He created the heavens and the earth for a purpose": "",
           "He shaped you ˹in the womb˺, perfecting your form": "",
           "And to Him is the final return": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4941.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -38,7 +41,8 @@ var chapterData_64 = [
           "He knows whatever is in the heavens and the earth": "",
           "And He knows whatever you conceal and whatever you reveal": "",
           "For Allah knows best what is ˹hidden˺ in the heart": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4942.mp3"
       }
     ]
   },
@@ -53,7 +57,8 @@ var chapterData_64 = [
           "Have the stories of those who disbelieved before not reached you ˹pagans˺?": "",
           "They tasted the evil consequences of their doings": "",
           "and they will suffer a painful punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4943.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -64,7 +69,8 @@ var chapterData_64 = [
           "So they persisted in disbelief and turned away": "",
           "And Allah was not in need ˹of their faith˺": "",
           "For Allah is Self-Sufficient, Praiseworthy": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4944.mp3"
       }
     ]
   },
@@ -80,7 +86,8 @@ var chapterData_64 = [
           "Say, ˹O Prophet,˺ \"Yes, by my Lord, you will surely be resurrected": "",
           "then you will certainly be informed of what you have done": "",
           "And that is easy for Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4945.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -89,7 +96,8 @@ var chapterData_64 = [
           "So believe in Allah and His Messenger": "",
           "and in the Light We have revealed": "",
           "And Allah is All-Aware of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4946.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -102,7 +110,8 @@ var chapterData_64 = [
           "and admit them into Gardens under which rivers flow": "",
           "to stay there for ever and ever": "",
           "That is the ultimate triumph": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4947.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -112,7 +121,8 @@ var chapterData_64 = [
           "they will be the residents of the Fire": "",
           "staying there forever": "",
           "What an evil destination!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4948.mp3"
       }
     ]
   },
@@ -127,7 +137,8 @@ var chapterData_64 = [
           "No calamity befalls ˹anyone˺ except by Allah's Will": "",
           "And whoever has faith in Allah, He will ˹rightly˺ guide their hearts ˹through adversity˺": "",
           "And Allah has ˹perfect˺ knowledge of all things": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4949.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -135,7 +146,8 @@ var chapterData_64 = [
         "ayah_en": {
           "Obey Allah and obey the Messenger!": "",
           "But if you turn away, then Our Messenger's duty is only to deliver ˹the message˺ clearly": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4950.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -143,7 +155,8 @@ var chapterData_64 = [
         "ayah_en": {
           "Allah—there is no god ˹worthy of worship˺ except Him": "",
           "So in Allah let the believers put their trust": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4951.mp3"
       }
     ]
   },
@@ -159,7 +172,8 @@ var chapterData_64 = [
           "so beware of them": "",
           "But if you pardon, overlook, and forgive ˹their faults˺": "",
           "then Allah is truly All-Forgiving, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4952.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -167,7 +181,8 @@ var chapterData_64 = [
         "ayah_en": {
           "Your wealth and children are only a test": "",
           "but Allah ˹alone˺ has a great reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4953.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -177,7 +192,8 @@ var chapterData_64 = [
           "hear and obey": "",
           "and spend in charity—that will be best for you": "",
           "And whoever is saved from the selfishness of their own souls, it is they who are ˹truly˺ successful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4954.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -187,7 +203,8 @@ var chapterData_64 = [
           "He will multiply it for you": "",
           "and forgive you": "",
           "For Allah is Most Appreciative, Most Forbearing": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4955.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -196,7 +213,8 @@ var chapterData_64 = [
           "˹He is the˺ Knower of the seen and unseen": "",
           "the Almighty": "",
           "All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4956.mp3"
       }
     ]
   }

@@ -9,7 +9,8 @@ var chapterData_70 = [
         "ayah_en": {
           "A challenger has demanded": "",
           "a punishment bound to come": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5115.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +18,8 @@ var chapterData_70 = [
         "ayah_en": {
           "for the disbelievers": "",
           "to be averted by none": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5116.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +27,8 @@ var chapterData_70 = [
         "ayah_en": {
           "from Allah": "",
           "Lord of pathways of heavenly ascent": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5117.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,28 +36,32 @@ var chapterData_70 = [
         "ayah_en": {
           "through which the angels and the holy spirit will ascend to Him": "",
           "on a Day fifty thousand years in length": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5118.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَاصْبِرْ صَبْرًا جَمِيلًا",
         "ayah_en": {
           "So endure this denial, O Prophet, with beautiful patience": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5119.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِنَّهُمْ يَرَوْنَهُ بَعِيدًا",
         "ayah_en": {
           "They truly see this Day as impossible": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5120.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَنَرَاهُ قَرِيبًا",
         "ayah_en": {
           "but We see it as inevitable": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5121.mp3"
       }
     ]
   },
@@ -67,21 +74,24 @@ var chapterData_70 = [
         "ayah_ar": "يَوْمَ تَكُونُ السَّمَاءُ كَالْمُهْلِ",
         "ayah_en": {
           "On that Day the sky will be like molten brass": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5122.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ",
         "ayah_en": {
           "and the mountains like tufts of wool": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5123.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَلَا يَسْأَلُ حَمِيمٌ حَمِيمًا",
         "ayah_en": {
           "And no close friend will ask about their friends": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5124.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -89,28 +99,32 @@ var chapterData_70 = [
         "ayah_en": {
           "although they will be made to see each other": "",
           "The wicked will wish to ransom themselves from the punishment of that Day by their children": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5125.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَصَاحِبَتِهِ وَأَخِيهِ",
         "ayah_en": {
           "their spouses, their siblings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5126.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَفَصِيلَتِهِ الَّتِي تُؤْوِيهِ",
         "ayah_en": {
           "their clan that sheltered them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5127.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَمَن فِي الْأَرْضِ جَمِيعًا ثُمَّ يُنجِيهِ",
         "ayah_en": {
           "and everyone on earth altogether, just to save themselves": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5128.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -118,28 +132,32 @@ var chapterData_70 = [
         "ayah_en": {
           "But no!": "",
           "There will certainly be a raging Flame": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5129.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "نَزَّاعَةً لِّلشَّوَىٰ",
         "ayah_en": {
           "ripping off scalps": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5130.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "تَدْعُو مَنْ أَدْبَرَ وَتَوَلَّىٰ",
         "ayah_en": {
           "It will summon whoever turned their backs on Allah and turned away from the truth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5131.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَجَمَعَ فَأَوْعَىٰ",
         "ayah_en": {
           "and gathered and hoarded wealth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5132.mp3"
       }
     ]
   },
@@ -152,119 +170,136 @@ var chapterData_70 = [
         "ayah_ar": "إِنَّ الْإِنسَانَ خُلِقَ هَلُوعًا",
         "ayah_en": {
           "Indeed, humankind was created impatient": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5133.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "إِذَا مَسَّهُ الشَّرُّ جَزُوعًا",
         "ayah_en": {
           "distressed when touched with evil": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5134.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَإِذَا مَسَّهُ الْخَيْرُ مَنُوعًا",
         "ayah_en": {
           "and withholding when touched with good": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5135.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "إِلَّا الْمُصَلِّينَ",
         "ayah_en": {
           "except those who pray": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5136.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "الَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَائِمُونَ",
         "ayah_en": {
           "consistently performing their prayers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5137.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَالَّذِينَ فِي أَمْوَالِهِمْ حَقٌّ مَّعْلُومٌ",
         "ayah_en": {
           "and who give the rightful share of their wealth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5138.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "لِّلسَّائِلِ وَالْمَحْرُومِ",
         "ayah_en": {
           "to the beggar and the poor": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5139.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَالَّذِينَ يُصَدِّقُونَ بِيَوْمِ الدِّينِ",
         "ayah_en": {
           "and who firmly believe in the Day of Judgment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5140.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَالَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
         "ayah_en": {
           "and those who fear the punishment of their Lord": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5141.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍ",
         "ayah_en": {
           "knowing that none should feel secure from their Lord's punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5142.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "وَالَّذِينَ هُمْ لِفُرُوجِهِمْ حَافِظُونَ",
         "ayah_en": {
           "and those who guard their chastity": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5143.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "إِلَّا عَلَىٰ أَزْوَاجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَانُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
         "ayah_en": {
           "except with their wives or those bondwomen in their possession, for then they are free from blame": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5144.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "فَمَنِ ابْتَغَىٰ وَرَاءَ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الْعَادُونَ",
         "ayah_en": {
           "but whoever seeks beyond that are the transgressors": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5145.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "وَالَّذِينَ هُمْ لِأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ",
         "ayah_en": {
           "The faithful are also those who are true to their trusts and covenants": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5146.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "وَالَّذِينَ هُم بِشَهَادَاتِهِمْ قَائِمُونَ",
         "ayah_en": {
           "and who are honest in their testimony": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5147.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَالَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
         "ayah_en": {
           "and who are properly observant of their prayers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5148.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "أُولَٰئِكَ فِي جَنَّاتٍ مُّكْرَمُونَ",
         "ayah_en": {
           "These will be in Gardens, held in honour": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5149.mp3"
       }
     ]
   },
@@ -277,28 +312,32 @@ var chapterData_70 = [
         "ayah_ar": "فَمَالِ الَّذِينَ كَفَرُوا قِبَلَكَ مُهْطِعِينَ",
         "ayah_en": {
           "So what is the matter with the disbelievers that they rush head-long towards you O Prophet": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5150.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "عَنِ الْيَمِينِ وَعَنِ الشِّمَالِ عِزِينَ",
         "ayah_en": {
           "from the right and the left, in groups to mock you": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5151.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "أَيَطْمَعُ كُلُّ امْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
         "ayah_en": {
           "Does every one of them expect to be admitted into a Garden of Bliss": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5152.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "كَلَّا ۖ إِنَّا خَلَقْنَاهُم مِّمَّا يَعْلَمُونَ",
         "ayah_en": {
           "But no! Indeed, they already know what We created them from": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5153.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -306,7 +345,8 @@ var chapterData_70 = [
         "ayah_en": {
           "So, I do swear by the Lord of all the points of sunrise and sunset": "",
           "that We are truly capable": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5154.mp3"
       },
       {
         "ayah_no_surah": 41,
@@ -314,7 +354,8 @@ var chapterData_70 = [
         "ayah_en": {
           "of replacing them with others better than them": "",
           "and We cannot be prevented from doing so": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5155.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -322,7 +363,8 @@ var chapterData_70 = [
         "ayah_en": {
           "So let them indulge in falsehood and amuse themselves": "",
           "until they face their Day, which they have been threatened with": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5156.mp3"
       },
       {
         "ayah_no_surah": 43,
@@ -330,7 +372,8 @@ var chapterData_70 = [
         "ayah_en": {
           "the Day they will come forth from the graves swiftly": "",
           "as if racing to an idol for a blessing": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5157.mp3"
       },
       {
         "ayah_no_surah": 44,
@@ -339,7 +382,8 @@ var chapterData_70 = [
           "with eyes downcast": "",
           "utterly covered with disgrace": "",
           "That is the Day they have always been warned of": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5158.mp3"
       }
     ]
   }

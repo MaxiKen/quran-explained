@@ -10,7 +10,8 @@ var chapterData_59 = [
           "Whatever is in the heavens and whatever is on the earth glorifies Allah": "",
           "For He is the Almighty": "",
           "All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4866.mp3"
       }
     ]
   },
@@ -30,7 +31,8 @@ var chapterData_59 = [
           "And He cast horror into their hearts": "",
           "so they destroyed their houses with their own hands and the hands of the believers": "",
           "So take a lesson ˹from this˺, O people of insight!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4867.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -39,7 +41,8 @@ var chapterData_59 = [
           "Had Allah not decreed exile for them": "",
           "He would have certainly punished them in this world": "",
           "And in the Hereafter they will suffer the punishment of the Fire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4868.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -47,7 +50,8 @@ var chapterData_59 = [
         "ayah_en": {
           "This is because they defied Allah and His Messenger": "",
           "And whoever defies Allah, then Allah is truly severe in punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4869.mp3"
       }
     ]
   },
@@ -62,7 +66,8 @@ var chapterData_59 = [
           "Whatever palm trees you ˹believers˺ cut down or left standing intact": "",
           "it was ˹all˺ by Allah's Will": "",
           "so that He might disgrace the rebellious": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4870.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -72,7 +77,8 @@ var chapterData_59 = [
           "you did not ˹even˺ spur on any horse or camel for such gains": "",
           "But Allah gives authority to His messengers over whoever He wills": "",
           "For Allah is Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4871.mp3"
       }
     ]
   },
@@ -95,7 +101,8 @@ var chapterData_59 = [
           "And whatever he forbids you from, leave it": "",
           "And fear Allah": "",
           "Surely Allah is severe in punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4872.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -106,7 +113,8 @@ var chapterData_59 = [
           "seeking Allah's bounty and pleasure": "",
           "and standing up for Allah and His Messenger": "",
           "They are the ones true in faith": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4873.mp3"
       }
     ]
   },
@@ -123,7 +131,8 @@ var chapterData_59 = [
           "never having a desire in their hearts for whatever ˹of the gains˺ is given to the emigrants": "",
           "They give ˹the emigrants˺ preference over themselves even though they may be in need": "",
           "And whoever is saved from the selfishness of their own souls, it is they who are ˹truly˺ successful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4874.mp3"
       }
     ]
   },
@@ -139,7 +148,8 @@ var chapterData_59 = [
           "Our Lord! Forgive us and our fellow believers who preceded us in faith": "",
           "and do not allow bitterness into our hearts towards those who believe": "",
           "Our Lord! Indeed, You are Ever Gracious, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4875.mp3"
       }
     ]
   },
@@ -157,7 +167,8 @@ var chapterData_59 = [
           "and We will never obey anyone against you": "",
           "And if you are fought against, we will surely help you": "",
           "But Allah bears witness that they are truly liars": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4876.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -167,7 +178,8 @@ var chapterData_59 = [
           "And if they are fought against, the hypocrites will never help them": "",
           "And even if the hypocrites did so, they would certainly flee": "",
           "then the disbelievers would be left with no help": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4877.mp3"
       }
     ]
   },
@@ -181,7 +193,8 @@ var chapterData_59 = [
         "ayah_en": {
           "Indeed, there is more fear in their hearts for you ˹believers˺ than for Allah": "",
           "That is because they are a people who do not comprehend": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4878.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -191,7 +204,8 @@ var chapterData_59 = [
           "Their malice for each other is intense": "",
           "you think they are united, yet their hearts are divided": "",
           "That is because they are a people with no ˹real˺ understanding": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4879.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -200,7 +214,8 @@ var chapterData_59 = [
           "They are ˹both just˺ like those who recently went down before them": "",
           "they tasted the evil consequences of their doings": "",
           "And they will suffer a painful punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4880.mp3"
       }
     ]
   },
@@ -215,7 +230,8 @@ var chapterData_59 = [
           "˹They are˺ like Satan when he lures someone to disbelieve": "",
           "Then after they have done so, he will say ˹on Judgment Day˺, \"I have absolutely nothing to do with you\"": "",
           "I truly fear Allah—the Lord of all worlds": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4881.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -224,7 +240,8 @@ var chapterData_59 = [
           "So they will both end up in the Fire": "",
           "staying there forever": "",
           "That is the reward of the wrongdoers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4882.mp3"
       }
     ]
   },
@@ -240,7 +257,8 @@ var chapterData_59 = [
           "and let every soul look to what ˹deeds˺ it has sent forth for tomorrow": "",
           "And fear Allah": "",
           "˹for˺ certainly Allah is All-Aware of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4883.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -249,7 +267,8 @@ var chapterData_59 = [
           "And do not be like those who forgot Allah": "",
           "so He made them forget themselves": "",
           "It is they who are ˹truly˺ rebellious": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4884.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -257,7 +276,8 @@ var chapterData_59 = [
         "ayah_en": {
           "The residents of the Fire cannot be equal to the residents of Paradise": "",
           "˹Only˺ the residents of Paradise will be successful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4885.mp3"
       }
     ]
   },
@@ -273,7 +293,8 @@ var chapterData_59 = [
           "you would have certainly seen it humbled and torn apart in awe of Allah": "",
           "We set forth such comparisons for people": "",
           "˹so˺ perhaps they may reflect": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4886.mp3"
       }
     ]
   },
@@ -288,7 +309,8 @@ var chapterData_59 = [
           "He is Allah—there is no god ˹worthy of worship˺ except Him": "",
           "Knower of the seen and unseen": "",
           "He is the Most Compassionate, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4887.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -304,7 +326,8 @@ var chapterData_59 = [
           "the Supreme in Might": "",
           "the Majestic": "",
           "Glorified is Allah far above what they associate with Him ˹in worship˺!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4888.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -316,7 +339,8 @@ var chapterData_59 = [
           "He ˹alone˺ has the Most Beautiful Names": "",
           "Whatever is in the heavens and the earth ˹constantly˺ glorifies Him": "",
           "And He is the Almighty, All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4889.mp3"
       }
     ]
   }

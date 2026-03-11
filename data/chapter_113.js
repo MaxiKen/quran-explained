@@ -10,35 +10,40 @@ var chapterData_113 = [
           "Say, ˹O Prophet,˺": "",
           "\"I seek refuge": "",
           "in the Lord of the daybreak": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5965.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مِن شَرِّ مَا خَلَقَ",
         "ayah_en": {
           "from the evil of whatever He has created": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5966.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
         "ayah_en": {
           "and from the evil of the night when it grows dark": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5967.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
         "ayah_en": {
           "and from the evil of those ˹witches casting spells by˺ blowing onto knots": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5968.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
         "ayah_en": {
           "and from the evil of an envier when they envy": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5969.mp3"
       }
     ]
   }

@@ -8,7 +8,8 @@ var chapterData_88 = [
         "ayah_ar": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
         "ayah_en": {
           "Has the news of the Overwhelming Event reached you ˹O Prophet˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5707.mp3"
       }
     ]
   },
@@ -21,42 +22,48 @@ var chapterData_88 = [
         "ayah_ar": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ",
         "ayah_en": {
           "On that Day ˹some˺ faces will be downcast": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5708.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "عَامِلَةٌ نَاصِبَةٌ",
         "ayah_en": {
           "˹totally˺ overburdened, exhausted": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5709.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "تَصْلَىٰ نَارًا حَامِيَةً",
         "ayah_en": {
           "burning in a scorching Fire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5710.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
         "ayah_en": {
           "left to drink from a scalding spring": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5711.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "لَيْسَ لَهُمْ طَعَامٌ إِلَّا مِنْ ضَرِيعٍ",
         "ayah_en": {
           "They will have no food except a foul, thorny shrub": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5712.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "لَا يُسْمِنُ وَلَا يُغْنِي مِنْ جُوعٍ",
         "ayah_en": {
           "neither nourishing nor satisfying hunger": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5713.mp3"
       }
     ]
   },
@@ -69,63 +76,72 @@ var chapterData_88 = [
         "ayah_ar": "وُجُوهٌ يَوْمَئِذٍ نَاعِمَةٌ",
         "ayah_en": {
           "On that Day ˹other˺ faces will be glowing with bliss": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5714.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "لِسَعْيِهَا رَاضِيَةٌ",
         "ayah_en": {
           "˹fully˺ pleased with their striving": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5715.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فِي جَنَّةٍ عَالِيَةٍ",
         "ayah_en": {
           "in an elevated Garden": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5716.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "لَا تَسْمَعُ فِيهَا لَاغِيَةً",
         "ayah_en": {
           "where no idle talk will be heard": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5717.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "فِيهَا عَيْنٌ جَارِيَةٌ",
         "ayah_en": {
           "In it will be a running spring": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5718.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فِيهَا سُرُرٌ مَرْفُوعَةٌ",
         "ayah_en": {
           "along with thrones raised high": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5719.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَأَكْوَابٌ مَوْضُوعَةٌ",
         "ayah_en": {
           "and cups set at hand": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5720.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "وَنَمَارِقُ مَصْفُوفَةٌ",
         "ayah_en": {
           "and ˹fine˺ cushions lined up": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5721.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَزَرَابِيُّ مَبْثُوثَةٌ",
         "ayah_en": {
           "and ˹splendid˺ carpets spread out": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5722.mp3"
       }
     ]
   },
@@ -138,28 +154,32 @@ var chapterData_88 = [
         "ayah_ar": "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ",
         "ayah_en": {
           "Do they not ever reflect on camels—how they were ˹masterfully˺ created": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5723.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ",
         "ayah_en": {
           "and the sky—how it was raised ˹high˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5724.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ",
         "ayah_en": {
           "and the mountains—how they were firmly set up": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5725.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
         "ayah_en": {
           "and the earth—how it was levelled out": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5726.mp3"
       }
     ]
   },
@@ -172,14 +192,16 @@ var chapterData_88 = [
         "ayah_ar": "فَذَكِّرْ إِنَّمَا أَنْتَ مُذَكِّرٌ",
         "ayah_en": {
           "So, ˹continue to˺ remind ˹all, O Prophet˺, for your duty is only to remind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5727.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "لَسْتَ عَلَيْهِمْ بِمُصَيْطِرٍ",
         "ayah_en": {
           "You are not ˹there˺ to compel them ˹to believe˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5728.mp3"
       }
     ]
   },
@@ -192,28 +214,32 @@ var chapterData_88 = [
         "ayah_ar": "إِلَّا مَنْ تَوَلَّىٰ وَكَفَرَ",
         "ayah_en": {
           "But whoever turns away, persisting in disbelief": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5729.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ",
         "ayah_en": {
           "then Allah will inflict upon them the major punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5730.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
         "ayah_en": {
           "Surely to Us is their return": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5731.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
         "ayah_en": {
           "then surely with Us is their reckoning": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5732.mp3"
       }
     ]
   }

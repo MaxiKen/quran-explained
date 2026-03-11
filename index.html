@@ -25,16 +25,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-96x96.png">
 
   <!-- SEO & Social -->
-  <meta name="description" content="A modern, interactive Quran reader with phrase-by-phrase explanations, bookmarks, reading history, and beautiful themes.">
-  <meta name="keywords" content="Quran,Quran explained, Explained, Al-Quran, Islamic, Reader, Tafsir, Arabic, Interactive, PWA">
+  <meta name="description" content="A modern, interactive Quran reader with phrase-by-phrase explanations, audio recitation, bookmarks, reading history, and beautiful themes.">
+  <meta name="keywords" content="Quran,Quran explained, Explained, Al-Quran, Islamic, Reader, Tafsir, Arabic, Interactive, PWA, Audio, Recitation">
   <meta name="author" content="Quran Explained">
   <meta property="og:title" content="Quran Explained">
-  <meta property="og:description" content="Explore all 114 chapters with interactive verse-by-verse explanations">
+  <meta property="og:description" content="Explore all 114 chapters with interactive verse-by-verse explanations and audio recitation">
   <meta property="og:type" content="website">
   <meta property="og:image" content="icons/icon-512x512.png">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Quran Explained">
-  <meta name="twitter:description" content="A modern Quran reader with phrase-by-phrase explanations">
+  <meta name="twitter:description" content="A modern Quran reader with phrase-by-phrase explanations and audio">
 
   <!-- ========== FONTS ========== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -124,12 +124,12 @@
             </svg>
           </div>
           <h4 class="about-app-name">Quran Explained</h4>
-          <p class="about-version">Version 1.0</p>
+          <p class="about-version">Version 2.0</p>
         </div>
 
         <div class="about-section">
           <h5 class="about-section-title">About</h5>
-          <p class="about-text">A modern, interactive Quran reader designed to help you explore and understand the Noble Quran with phrase-by-phrase explanations. Click on any English phrase to read its detailed commentary.</p>
+          <p class="about-text">A modern, interactive Quran reader designed to help you explore and understand the Noble Quran with phrase-by-phrase explanations and beautiful audio recitation. Click on any English phrase to read its detailed commentary.</p>
         </div>
 
         <div class="about-section">
@@ -138,13 +138,23 @@
             <li><span class="about-feature-icon">📖</span><div><strong>All 114 Chapters</strong><span>Complete chapter listing with Arabic names, meanings, and verse counts</span></div></li>
             <li><span class="about-feature-icon">🔍</span><div><strong>Smart Search</strong><span>Search chapters by name, number, meaning, or search within verse content (English &amp; Arabic)</span></div></li>
             <li><span class="about-feature-icon">💬</span><div><strong>Interactive Explanations</strong><span>Clickable phrase-by-phrase English translation with detailed tafsir commentary</span></div></li>
+            <li><span class="about-feature-icon">🎧</span><div><strong>Audio Recitation</strong><span>Listen to individual verses or entire chapters with continuous playback, speed control, and repeat modes</span></div></li>
             <li><span class="about-feature-icon">🔖</span><div><strong>Verse Bookmarks</strong><span>Bookmark specific verses for quick access later — saved locally on your device</span></div></li>
             <li><span class="about-feature-icon">🕐</span><div><strong>Reading History</strong><span>Track which verse explanations you've read — never lose your place</span></div></li>
             <li><span class="about-feature-icon">🎨</span><div><strong>4 Color Themes</strong><span>Dark, Light, Sepia, and Midnight modes for comfortable reading any time</span></div></li>
+            <li><span class="about-feature-icon">⌨️</span><div><strong>Keyboard Shortcuts</strong><span>Space to play/pause, arrow keys to navigate, and more</span></div></li>
           </ul>
         </div>
 
-
+        <div class="about-section">
+          <h5 class="about-section-title">Keyboard Shortcuts</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">⎵</span><div><strong>Space</strong><span>Play / Pause audio</span></div></li>
+            <li><span class="about-feature-icon">⇧←</span><div><strong>Shift + Left Arrow</strong><span>Previous verse</span></div></li>
+            <li><span class="about-feature-icon">⇧→</span><div><strong>Shift + Right Arrow</strong><span>Next verse</span></div></li>
+            <li><span class="about-feature-icon">Esc</span><div><strong>Escape</strong><span>Close modal / Stop audio</span></div></li>
+          </ul>
+        </div>
 
         <!-- ===== OFFLINE AVAILABILITY NOTICE ===== -->
         <div class="about-section about-offline-notice" id="offlineSection">
@@ -160,7 +170,7 @@
             </div>
             <div class="offline-notice-body">
               <p class="offline-notice-headline">This app works offline</p>
-              <p class="offline-notice-text">Once you've visited a chapter, it's cached on your device and available without an internet connection.</p>
+              <p class="offline-notice-text">Once you've visited a chapter, it's cached on your device and available without an internet connection. Audio requires internet on first play but may be cached by your browser.</p>
             </div>
           </div>
           <ul class="offline-steps">
@@ -187,10 +197,8 @@
             </li>
           </ul>
         </div>
-        <!-- ===== END OFFLINE AVAILABILITY NOTICE ===== -->
-        	
-        	
-                <div class="about-section">
+
+        <div class="about-section">
           <h5 class="about-section-title">About Developer</h5>
           <ul class="about-features">
             <li><span class="about-feature-icon">😎</span><div><strong>Name</strong><span>Abdulrahaman Kehinde</span></div></li>
@@ -198,11 +206,48 @@
             <li><span class="about-feature-icon">🎯</span><div><strong>Mission</strong><span>To make the Islamic faith easy to understand for everyone.</span></div></li>
             <li><span class="about-feature-icon">✉️</span><div><strong>Email</strong><span>Maxikennexus@gmail.com</span></div></li>
           </ul>
-        </div>	
+        </div>
 
         <div class="about-section about-disclaimer">
           <p class="about-text"><strong>Disclaimer:</strong> The explanations provided are for educational purposes. For authoritative religious guidance, please consult qualified Islamic scholars. May Allah accept this effort and make it beneficial.</p>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FONT SIZE MODAL ========== -->
+  <div class="modal-overlay" id="fontSizeModal">
+    <div class="modal-content" style="max-width:400px;">
+      <div class="modal-header">
+        <h3 class="modal-title">Text Size</h3>
+        <button onclick="closeFontSizeModal()" class="modal-close" aria-label="Close">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="font-size-controls">
+        <div class="font-size-group">
+          <label class="font-size-label">Arabic Text</label>
+          <div class="font-size-slider-row">
+            <button class="font-size-btn" onclick="adjustFontSize('arabic', -2)">A-</button>
+            <input type="range" class="font-size-range" id="arabicFontRange" min="20" max="48" value="28" oninput="setFontSize('arabic', this.value)">
+            <button class="font-size-btn" onclick="adjustFontSize('arabic', 2)">A+</button>
+            <span class="font-size-value" id="arabicFontValue">28px</span>
+          </div>
+          <p class="arabic-text font-size-preview" id="arabicPreview" style="font-size:28px;">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        </div>
+        <div class="font-size-group">
+          <label class="font-size-label">English Text</label>
+          <div class="font-size-slider-row">
+            <button class="font-size-btn" onclick="adjustFontSize('english', -1)">A-</button>
+            <input type="range" class="font-size-range" id="englishFontRange" min="13" max="24" value="17" oninput="setFontSize('english', this.value)">
+            <button class="font-size-btn" onclick="adjustFontSize('english', 1)">A+</button>
+            <span class="font-size-value" id="englishFontValue">17px</span>
+          </div>
+          <p class="font-size-preview" id="englishPreview" style="font-size:17px; color:var(--text-muted);">In the Name of Allah, the Most Compassionate, Most Merciful.</p>
+        </div>
+        <button class="font-size-reset" onclick="resetFontSizes()">Reset to Default</button>
       </div>
     </div>
   </div>
@@ -228,19 +273,21 @@
     </button>
   </div>
 
+  <!-- ========== TOAST NOTIFICATION ========== -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ========== SCROLL TO TOP BUTTON ========== -->
+  <button class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Scroll to top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
   <!-- ========== SCRIPTS ========== -->
-  <!--
-    LOAD ORDER IS INTENTIONAL:
-    1. chapters-meta.js  — chapter index (tiny, no verse data)
-    2. PWA inline script — MUST run before app.js so window.triggerPWAInstall
-                          exists when app.js renders the home banner
-    3. app.js            — main application logic
-  -->
   <script src="js/chapters-meta.js"></script>
 
-  <!-- PWA: Service Worker + Install Prompt — intentionally BEFORE app.js -->
+  <!-- PWA: Service Worker + Install Prompt -->
   <script>
-    // ---- Service Worker ----
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js', { scope: '/' })
@@ -257,7 +304,6 @@
       });
     }
 
-    // ---- PWA Install Prompt ----
     var _deferredPrompt = null;
     var DISMISSED_KEY = 'pwa-pill-dismissed';
 
@@ -299,13 +345,8 @@
       document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
     });
 
-    // ---- Public API called by the home banner (app.js) ----
-    // Android/Chrome/Edge: fires native install dialog immediately.
-    // iOS/local server:    no deferred prompt available, so open the About
-    //                      modal and scroll directly to the offline section.
     window.triggerPWAInstall = function() {
       if (_deferredPrompt) {
-        // Native install dialog available — use it
         _deferredPrompt.prompt();
         _deferredPrompt.userChoice.then(function(choice) {
           if (choice.outcome === 'accepted') {
@@ -314,26 +355,17 @@
           _deferredPrompt = null;
         });
       } else {
-        // Fallback: open About modal, then scroll to the offline/install section
         if (typeof openAboutModal === 'function') {
           openAboutModal();
-          // Wait for the modal open animation to finish (CSS transition is 0.3s),
-          // then scroll the modal's scrollable body to the offline section.
           setTimeout(function() {
             var section = document.getElementById('offlineSection');
-            var scrollContainer = document.getElementById('aboutBody');
-            if (section && scrollContainer) {
-              // scrollIntoView works on the section itself since the modal is scrollable
-              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
+            if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }, 350);
         }
       }
     };
   </script>
 
-  <!-- app.js loads AFTER the PWA script so triggerPWAInstall is already defined -->
   <script src="js/app.js"></script>
-
 </body>
 </html>

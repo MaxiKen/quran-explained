@@ -9,7 +9,8 @@ var chapterData_99 = [
         "ayah_en": {
           "When the earth is shaken": "",
           "˹in˺ its ultimate quaking": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5878.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +18,8 @@ var chapterData_99 = [
         "ayah_en": {
           "and when the earth throws out": "",
           "˹all˺ its contents": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5879.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +27,8 @@ var chapterData_99 = [
         "ayah_en": {
           "and humanity cries,": "",
           "\"What is wrong with it?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5880.mp3"
       }
     ]
   },
@@ -38,14 +41,16 @@ var chapterData_99 = [
         "ayah_ar": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
         "ayah_en": {
           "on that Day the earth will recount everything,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5881.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
         "ayah_en": {
           "having been inspired by your Lord ˹to do so˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5882.mp3"
       }
     ]
   },
@@ -59,7 +64,8 @@ var chapterData_99 = [
         "ayah_en": {
           "On that Day people will proceed in separate groups": "",
           "to be shown ˹the consequences of˺ their deeds.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5883.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -67,7 +73,8 @@ var chapterData_99 = [
         "ayah_en": {
           "So whoever does an atom's weight of good": "",
           "will see it.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5884.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -75,7 +82,8 @@ var chapterData_99 = [
         "ayah_en": {
           "And whoever does an atom's weight of evil": "",
           "will see it.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5885.mp3"
       }
     ]
   }

@@ -8,14 +8,16 @@ var chapterData_103 = [
         "ayah_ar": "وَالْعَصْرِ",
         "ayah_en": {
           "By the ˹passage of˺ time!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5916.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
         "ayah_en": {
           "Surely humanity is in ˹grave˺ loss": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5917.mp3"
       }
     ]
   },
@@ -31,7 +33,8 @@ var chapterData_103 = [
           "do good": "",
           "and urge each other to the truth": "",
           "and urge each other to perseverance": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5918.mp3"
       }
     ]
   }

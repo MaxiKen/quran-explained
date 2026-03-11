@@ -10,7 +10,8 @@ var chapterData_63 = [
           "When the hypocrites come to you ˹O Prophet˺, they say, \"We bear witness that you are certainly the Messenger of Allah\"": "",
           "—and surely Allah knows that you are His Messenger—": "",
           "—but Allah bears witness that the hypocrites are truly liars": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4928.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +20,8 @@ var chapterData_63 = [
           "They have made their ˹false˺ oaths as a shield": "",
           "hindering ˹others˺ from the Way of Allah": "",
           "Evil indeed is what they do!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4929.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -28,7 +30,8 @@ var chapterData_63 = [
           "This is because they believed and then abandoned faith": "",
           "Therefore, their hearts have been sealed": "",
           "so they do not comprehend": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4930.mp3"
       }
     ]
   },
@@ -46,7 +49,8 @@ var chapterData_63 = [
           "They think every cry is against them": "",
           "They are the enemy, so beware of them": "",
           "May Allah condemn them! How can they be deluded ˹from the truth˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4931.mp3"
       }
     ]
   },
@@ -61,7 +65,8 @@ var chapterData_63 = [
           "When it is said to them, \"Come! The Messenger of Allah will pray for you to be forgiven,\"": "",
           "they turn their heads ˹in disgust˺": "",
           "and you see them ˹O Prophet˺ turn away in arrogance": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4932.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -69,7 +74,8 @@ var chapterData_63 = [
         "ayah_en": {
           "It is the same whether you pray for their forgiveness or not, Allah will not forgive them": "",
           "Surely Allah does not guide the rebellious people": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4933.mp3"
       }
     ]
   },
@@ -84,7 +90,8 @@ var chapterData_63 = [
           "They are the ones who say ˹to one another˺, \"Do not spend ˹anything˺ on those ˹emigrants˺ with the Messenger of Allah so that they will break away ˹from him˺.\"": "",
           "But to Allah ˹alone˺ belong the treasuries of the heavens and the earth": "",
           "yet the hypocrites do not comprehend": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4934.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -93,7 +100,8 @@ var chapterData_63 = [
           "They say, \"If we return to Medina, the honourable will definitely expel the inferior.\"": "",
           "But all honour and power belongs to Allah, His Messenger, and the believers": "",
           "yet the hypocrites do not know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4935.mp3"
       }
     ]
   },
@@ -107,7 +115,8 @@ var chapterData_63 = [
         "ayah_en": {
           "O believers! Do not let your wealth or your children divert you from the remembrance of Allah": "",
           "For whoever does so, it is they who are the ˹true˺ losers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4936.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -116,7 +125,8 @@ var chapterData_63 = [
           "And donate from what We have provided for you": "",
           "before death comes to one of you": "",
           "and you cry, \"My Lord! If only You delayed me for a short while, I would give in charity and be one of the righteous.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4937.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -124,7 +134,8 @@ var chapterData_63 = [
         "ayah_en": {
           "But Allah never delays a soul when its appointed time comes": "",
           "And Allah is All-Aware of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4938.mp3"
       }
     ]
   }

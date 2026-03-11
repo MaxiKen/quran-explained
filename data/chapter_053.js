@@ -8,7 +8,8 @@ var chapterData_53 = [
         "ayah_ar": "وَالنَّجْمِ إِذَا هَوَىٰ",
         "ayah_en": {
           "By the stars when they fade away!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4524.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -16,77 +17,88 @@ var chapterData_53 = [
         "ayah_en": {
           "Your fellow man": "",
           "is neither misguided nor astray": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4525.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ",
         "ayah_en": {
           "Nor does he speak of his own whims": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4526.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
         "ayah_en": {
           "It is only a revelation sent down ˹to him˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4527.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "عَلَّمَهُ شَدِيدُ الْقُوَىٰ",
         "ayah_en": {
           "He has been taught by one ˹angel˺ of mighty power": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4528.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "ذُو مِرَّةٍ فَاسْتَوَىٰ",
         "ayah_en": {
           "and great perfection, who once rose to ˹his˺ true form": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4529.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَهُوَ بِالْأُفُقِ الْأَعْلَىٰ",
         "ayah_en": {
           "while on the highest point above the horizon": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4530.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ دَنَا فَتَدَلَّىٰ",
         "ayah_en": {
           "then he approached ˹the Prophet˺, coming so close": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4531.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
         "ayah_en": {
           "that he was only two arms-lengths away or even less": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4532.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ",
         "ayah_en": {
           "Then Allah revealed to His servant what He revealed ˹through Gabriel˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4533.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ",
         "ayah_en": {
           "The ˹Prophet's˺ heart did not doubt what he saw": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4534.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "أَفَتُمَارُونَهُ عَلَىٰ مَا يَرَىٰ",
         "ayah_en": {
           "How can you ˹O pagans˺ then dispute with him regarding what he saw?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4535.mp3"
       }
     ]
   },
@@ -99,42 +111,48 @@ var chapterData_53 = [
         "ayah_ar": "وَلَقَدْ رَآهُ نَزْلَةً أُخْرَىٰ",
         "ayah_en": {
           "And he certainly saw that ˹angel descend˺ a second time": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4536.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "عِندَ سِدْرَةِ الْمُنتَهَىٰ",
         "ayah_en": {
           "at the Lote Tree of the most extreme limit ˹in the seventh heaven˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4537.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "عِندَهَا جَنَّةُ الْمَأْوَىٰ",
         "ayah_en": {
           "near which is the Garden of ˹Eternal˺ Residence": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4538.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "إِذْ يَغْشَى السِّدْرَةَ مَا يَغْشَىٰ",
         "ayah_en": {
           "while the Lote Tree was overwhelmed with ˹heavenly˺ splendours!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4539.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ",
         "ayah_en": {
           "The ˹Prophet's˺ sight never wandered, nor did it overreach": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4540.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "لَقَدْ رَأَىٰ مِنْ آيَاتِ رَبِّهِ الْكُبْرَىٰ",
         "ayah_en": {
           "He certainly saw some of his Lord's greatest signs": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4541.mp3"
       }
     ]
   },
@@ -147,28 +165,32 @@ var chapterData_53 = [
         "ayah_ar": "أَفَرَأَيْتُمُ اللَّاتَ وَالْعُزَّىٰ",
         "ayah_en": {
           "Now, have you considered ˹the idols of˺ Lât and 'Uzza": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4542.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَمَنَاةَ الثَّالِثَةَ الْأُخْرَىٰ",
         "ayah_en": {
           "and the third one, Manât, as well?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4543.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "أَلَكُمُ الذَّكَرُ وَلَهُ الْأُنثَىٰ",
         "ayah_en": {
           "Do you ˹prefer to˺ have sons while ˹you attribute˺ to Him daughters?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4544.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰ",
         "ayah_en": {
           "Then this is ˹truly˺ a biased distribution!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4545.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -178,21 +200,24 @@ var chapterData_53 = [
           "—a practice Allah has never authorized": "",
           "They follow nothing but ˹inherited˺ assumptions and whatever ˹their˺ souls desire": "",
           "although ˹true˺ guidance has already come to them from their Lord": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4546.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "أَمْ لِلْإِنسَانِ مَا تَمَنَّىٰ",
         "ayah_en": {
           "Or should every person ˹simply˺ have whatever ˹intercessors˺ they desire?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4547.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "فَلِلَّهِ الْآخِرَةُ وَالْأُولَىٰ",
         "ayah_en": {
           "In fact, to Allah ˹alone˺ belongs this world and the next": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4548.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -201,7 +226,8 @@ var chapterData_53 = [
           "˹Imagine˺ how many ˹noble˺ angels are in the heavens!": "",
           "˹Even˺ their intercession would be of no benefit whatsoever": "",
           "until Allah gives permission to whoever He wills and ˹only for the people He˺ approves": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4549.mp3"
       }
     ]
   },
@@ -214,7 +240,8 @@ var chapterData_53 = [
         "ayah_ar": "إِنَّ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ لَيُسَمُّونَ الْمَلَائِكَةَ تَسْمِيَةَ الْأُنثَىٰ",
         "ayah_en": {
           "Indeed, those who do not believe in the Hereafter label angels as female": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4550.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -223,7 +250,8 @@ var chapterData_53 = [
           "although they have no knowledge ˹in support˺ of this": "",
           "They follow nothing but ˹inherited˺ assumptions": "",
           "And surely assumptions can in no way replace the truth": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4551.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -231,7 +259,8 @@ var chapterData_53 = [
         "ayah_en": {
           "So turn away ˹O Prophet˺ from whoever has shunned Our Reminder": "",
           "only seeking the ˹fleeting˺ life of this world": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4552.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -240,7 +269,8 @@ var chapterData_53 = [
           "This is the extent of their knowledge": "",
           "Surely your Lord knows best who has strayed from His Way": "",
           "and who is ˹rightly˺ guided": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4553.mp3"
       }
     ]
   },
@@ -255,7 +285,8 @@ var chapterData_53 = [
           "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth": "",
           "so that He may reward the evildoers according to what they did": "",
           "and reward the good-doers with the finest reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4554.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -267,7 +298,8 @@ var chapterData_53 = [
           "and while you were ˹still˺ fetuses in the wombs of your mothers": "",
           "So do not ˹falsely˺ elevate yourselves": "",
           "He knows best who is ˹truly˺ righteous": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4555.mp3"
       }
     ]
   },
@@ -280,70 +312,80 @@ var chapterData_53 = [
         "ayah_ar": "أَفَرَأَيْتَ الَّذِي تَوَلَّىٰ",
         "ayah_en": {
           "Have you seen the one who turned away ˹from Islam,˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4556.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰ",
         "ayah_en": {
           "and ˹initially˺ paid a little ˹for his salvation˺, and then stopped?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4557.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "أَعِندَهُ عِلْمُ الْغَيْبِ فَهُوَ يَرَىٰ",
         "ayah_en": {
           "Does he have the knowledge of the unseen so that he sees ˹the Hereafter˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4558.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "أَمْ لَمْ يُنَبَّأْ بِمَا فِي صُحُفِ مُوسَىٰ",
         "ayah_en": {
           "Or has he not been informed of what is in the Scripture of Moses": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4559.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "وَإِبْرَاهِيمَ الَّذِي وَفَّىٰ",
         "ayah_en": {
           "and ˹that of˺ Abraham, who ˹perfectly˺ fulfilled ˹his covenant˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4560.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
         "ayah_en": {
           "˹They state˺ that no soul burdened with sin will bear the burden of another": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4561.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ",
         "ayah_en": {
           "and that each person will only have what they endeavoured towards": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4562.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ",
         "ayah_en": {
           "and that ˹the outcome of˺ their endeavours will be seen ˹in their record˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4563.mp3"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "ثُمَّ يُجْزَاهُ الْجَزَاءَ الْأَوْفَىٰ",
         "ayah_en": {
           "then they will be fully rewarded": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4564.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "وَأَنَّ إِلَىٰ رَبِّكَ الْمُنتَهَىٰ",
         "ayah_en": {
           "and that to your Lord ˹alone˺ is the ultimate return ˹of all things˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4565.mp3"
       }
     ]
   },
@@ -356,49 +398,56 @@ var chapterData_53 = [
         "ayah_ar": "وَأَنَّهُ هُوَ أَضْحَكَ وَأَبْكَىٰ",
         "ayah_en": {
           "Moreover, He is the One Who brings about joy and sadness": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4566.mp3"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "وَأَنَّهُ هُوَ أَمَاتَ وَأَحْيَا",
         "ayah_en": {
           "And He is the One Who gives life and causes death": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4567.mp3"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "وَأَنَّهُ خَلَقَ الزَّوْجَيْنِ الذَّكَرَ وَالْأُنثَىٰ",
         "ayah_en": {
           "And He created the pairs—males and females—": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4568.mp3"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
         "ayah_en": {
           "from a sperm-drop when it is emitted": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4569.mp3"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "وَأَنَّ عَلَيْهِ النَّشْأَةَ الْأُخْرَىٰ",
         "ayah_en": {
           "And it is upon Him to bring about re-creation": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4570.mp3"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "وَأَنَّهُ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
         "ayah_en": {
           "And He is the One Who enriches and impoverishes": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4571.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَأَنَّهُ هُوَ رَبُّ الشِّعْرَىٰ",
         "ayah_en": {
           "And He alone is the Lord of Sirius": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4572.mp3"
       }
     ]
   },
@@ -411,14 +460,16 @@ var chapterData_53 = [
         "ayah_ar": "وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَىٰ",
         "ayah_en": {
           "And He destroyed the first ˹people of˺ 'Ȃd": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4573.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَثَمُودَ فَمَا أَبْقَىٰ",
         "ayah_en": {
           "and ˹then˺ Thamûd, sparing no one": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4574.mp3"
       },
       {
         "ayah_no_surah": 52,
@@ -426,28 +477,32 @@ var chapterData_53 = [
         "ayah_en": {
           "And before ˹that He destroyed˺ the people of Noah": "",
           "who were truly far worse in wrongdoing and transgression": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4575.mp3"
       },
       {
         "ayah_no_surah": 53,
         "ayah_ar": "وَالْمُؤْتَفِكَةَ أَهْوَىٰ",
         "ayah_en": {
           "And ˹it was˺ He ˹Who˺ turned the cities ˹of Sodom and Gomorrah˺ upside down": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4576.mp3"
       },
       {
         "ayah_no_surah": 54,
         "ayah_ar": "فَغَشَّاهَا مَا غَشَّىٰ",
         "ayah_en": {
           "How overwhelming was what covered ˹them˺!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4577.mp3"
       },
       {
         "ayah_no_surah": 55,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ",
         "ayah_en": {
           "Now, which of your Lord's favours will you dispute?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4578.mp3"
       }
     ]
   },
@@ -460,49 +515,56 @@ var chapterData_53 = [
         "ayah_ar": "هَٰذَا نَذِيرٌ مِّنَ النُّذُرِ الْأُولَىٰ",
         "ayah_en": {
           "This ˹Prophet˺ is a warner like earlier ones": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4579.mp3"
       },
       {
         "ayah_no_surah": 57,
         "ayah_ar": "أَزِفَتِ الْآزِفَةُ",
         "ayah_en": {
           "The approaching ˹Hour˺ has drawn near": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4580.mp3"
       },
       {
         "ayah_no_surah": 58,
         "ayah_ar": "لَيْسَ لَهَا مِن دُونِ اللَّهِ كَاشِفَةٌ",
         "ayah_en": {
           "None but Allah can disclose it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4581.mp3"
       },
       {
         "ayah_no_surah": 59,
         "ayah_ar": "أَفَمِنْ هَٰذَا الْحَدِيثِ تَعْجَبُونَ",
         "ayah_en": {
           "Do you find this revelation astonishing": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4582.mp3"
       },
       {
         "ayah_no_surah": 60,
         "ayah_ar": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
         "ayah_en": {
           "laughing ˹at it˺ and not weeping ˹in awe˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4583.mp3"
       },
       {
         "ayah_no_surah": 61,
         "ayah_ar": "وَأَنتُمْ سَامِدُونَ",
         "ayah_en": {
           "while persisting in heedlessness?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4584.mp3"
       },
       {
         "ayah_no_surah": 62,
         "ayah_ar": "فَاسْجُدُوا لِلَّهِ وَاعْبُدُوا ۩",
         "ayah_en": {
           "Instead, prostrate to Allah and worship ˹Him alone˺!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4585.mp3"
       }
     ]
   }

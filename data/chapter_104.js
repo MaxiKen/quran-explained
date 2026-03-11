@@ -9,7 +9,8 @@ var chapterData_104 = [
         "ayah_en": {
           "Woe": "",
           "to every backbiter, slanderer": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5919.mp3"
       }
     ]
   },
@@ -23,14 +24,16 @@ var chapterData_104 = [
         "ayah_en": {
           "who amasses wealth ˹greedily˺": "",
           "and counts it ˹repeatedly˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5920.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
         "ayah_en": {
           "thinking that their wealth will make them immortal!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5921.mp3"
       }
     ]
   },
@@ -44,14 +47,16 @@ var chapterData_104 = [
         "ayah_en": {
           "Not at all!": "",
           "Such a person will certainly be tossed into the Crusher": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5922.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
         "ayah_en": {
           "And what will make you realize what the Crusher is?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5923.mp3"
       }
     ]
   },
@@ -64,14 +69,16 @@ var chapterData_104 = [
         "ayah_ar": "نَارُ اللَّهِ الْمُوقَدَةُ",
         "ayah_en": {
           "˹It is˺ Allah's kindled Fire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5924.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ",
         "ayah_en": {
           "which rages over the hearts": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5925.mp3"
       }
     ]
   },
@@ -84,14 +91,16 @@ var chapterData_104 = [
         "ayah_ar": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
         "ayah_en": {
           "It will be sealed over them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5926.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "فِي عَمَدٍ مُّمَدَّدَةٍ",
         "ayah_en": {
           "˹tightly secured˺ with long braces": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5927.mp3"
       }
     ]
   }

@@ -8,28 +8,32 @@ var chapterData_92 = [
         "ayah_ar": "وَاللَّيْلِ إِذَا يَغْشَىٰ",
         "ayah_en": {
           "By the night when it covers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5798.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَالنَّهَارِ إِذَا تَجَلَّىٰ",
         "ayah_en": {
           "and the day when it shines": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5799.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَىٰ",
         "ayah_en": {
           "And by the One Who created male and female": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5800.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
         "ayah_en": {
           "Surely the ends you strive for are diverse": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5801.mp3"
       }
     ]
   },
@@ -43,21 +47,24 @@ var chapterData_92 = [
         "ayah_en": {
           "As for the one who is charitable": "",
           "mindful of Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5802.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَصَدَّقَ بِالْحُسْنَىٰ",
         "ayah_en": {
           "and firmly believes in the finest reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5803.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ",
         "ayah_en": {
           "We will facilitate for them the Way of Ease": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5804.mp3"
       }
     ]
   },
@@ -71,28 +78,32 @@ var chapterData_92 = [
         "ayah_en": {
           "And as for the one who is stingy": "",
           "indifferent to Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5805.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَكَذَّبَ بِالْحُسْنَىٰ",
         "ayah_en": {
           "and staunchly denies the finest reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5806.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ",
         "ayah_en": {
           "We will facilitate for them the path of hardship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5807.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ",
         "ayah_en": {
           "And their wealth will be of no benefit to them when they tumble into Hell": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5808.mp3"
       }
     ]
   },
@@ -105,21 +116,24 @@ var chapterData_92 = [
         "ayah_ar": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
         "ayah_en": {
           "It is certainly upon Us alone to show the way to guidance": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5809.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ",
         "ayah_en": {
           "And surely to Us alone belong this life and the next": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5810.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
         "ayah_en": {
           "And so I have warned you of a raging Fire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5811.mp3"
       }
     ]
   },
@@ -132,14 +146,16 @@ var chapterData_92 = [
         "ayah_ar": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
         "ayah_en": {
           "in which none will burn except the most wretched": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5812.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "الَّذِي كَذَّبَ وَتَوَلَّىٰ",
         "ayah_en": {
           "who deny and turn away": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5813.mp3"
       }
     ]
   },
@@ -152,35 +168,40 @@ var chapterData_92 = [
         "ayah_ar": "وَسَيُجَنَّبُهَا الْأَتْقَى",
         "ayah_en": {
           "But the righteous will be spared from it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5814.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ",
         "ayah_en": {
           "who donate some of their wealth only to purify themselves": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5815.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَىٰ",
         "ayah_en": {
           "not in return for someone's favours": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5816.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ",
         "ayah_en": {
           "but seeking the pleasure of their Lord, the Most High": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5817.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَلَسَوْفَ يَرْضَىٰ",
         "ayah_en": {
           "They will certainly be pleased": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5818.mp3"
       }
     ]
   }

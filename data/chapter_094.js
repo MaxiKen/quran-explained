@@ -8,28 +8,32 @@ var chapterData_94 = [
         "ayah_ar": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
         "ayah_en": {
           "Have We not uplifted your heart for you ˹O Prophet˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5830.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
         "ayah_en": {
           "relieved you of the burden": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5831.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "الَّذِي أَنقَضَ ظَهْرَكَ",
         "ayah_en": {
           "which weighed so heavily on your back": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5832.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
         "ayah_en": {
           "and elevated your renown for you": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5833.mp3"
       }
     ]
   },
@@ -42,14 +46,16 @@ var chapterData_94 = [
         "ayah_ar": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
         "ayah_en": {
           "So, surely with hardship comes ease": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5834.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
         "ayah_en": {
           "Surely with ˹that˺ hardship comes ˹more˺ ease": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5835.mp3"
       }
     ]
   },
@@ -62,14 +68,16 @@ var chapterData_94 = [
         "ayah_ar": "فَإِذَا فَرَغْتَ فَانصَبْ",
         "ayah_en": {
           "So once you have fulfilled ˹your duty˺, strive ˹in devotion˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5836.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَإِلَىٰ رَبِّكَ فَارْغَب",
         "ayah_en": {
           "turning to your Lord ˹alone˺ with hope": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5837.mp3"
       }
     ]
   }

@@ -10,7 +10,8 @@ var chapterData_57 = [
           "Whatever is in the heavens and the earth glorifies Allah": "",
           "for He is the Almighty": "",
           "All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4815.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +20,8 @@ var chapterData_57 = [
           "To Him belongs the kingdom of the heavens and the earth": "",
           "He gives life and causes death": "",
           "And He is Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4816.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -30,7 +32,8 @@ var chapterData_57 = [
           "the Most High": "",
           "and Most Near": "",
           "and He has perfect knowledge of all things": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4817.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -42,7 +45,8 @@ var chapterData_57 = [
           "and whatever descends from the sky and whatever ascends into it": "",
           "And He is with you wherever you are": "",
           "For Allah is All-Seeing of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4818.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -50,7 +54,8 @@ var chapterData_57 = [
         "ayah_en": {
           "To Him belongs the kingdom of the heavens and the earth": "",
           "And to Allah all matters are returned": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4819.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -58,7 +63,8 @@ var chapterData_57 = [
         "ayah_en": {
           "He merges the night into day and the day into night": "",
           "And He knows best what is hidden in the heart": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4820.mp3"
       }
     ]
   },
@@ -73,7 +79,8 @@ var chapterData_57 = [
           "Believe in Allah and His Messenger": "",
           "and donate from what He has entrusted you with": "",
           "So those of you who believe and donate will have a mighty reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4821.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -83,7 +90,8 @@ var chapterData_57 = [
           "while the Messenger is inviting you to have faith in your Lord": "",
           "although He has already taken your covenant": "",
           "if you will ever believe": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4822.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -92,7 +100,8 @@ var chapterData_57 = [
           "He is the One Who sends down clear revelations to His servant": "",
           "to bring you out of darkness and into light": "",
           "For indeed Allah is Ever Gracious and Most Merciful to you": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4823.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -104,7 +113,8 @@ var chapterData_57 = [
           "They are far greater in rank than those who donated and fought afterwards": "",
           "Yet Allah has promised each a fine reward": "",
           "And Allah is All-Aware of what you do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4824.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -113,7 +123,8 @@ var chapterData_57 = [
           "Who is it that will lend to Allah a good loan": "",
           "which Allah will multiply many times over for them": "",
           "and they will have an honourable reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4825.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -123,7 +134,8 @@ var chapterData_57 = [
           "They will be told, 'Today you have good news of Gardens, under which rivers flow'": "",
           "for you to stay in forever": "",
           "This is truly the ultimate triumph": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4826.mp3"
       }
     ]
   },
@@ -139,7 +151,8 @@ var chapterData_57 = [
           "It will be said mockingly, 'Go back to the world and seek a light there!'": "",
           "Then a separating wall with a gate will be erected between them": "",
           "On the near side will be grace and on the far side will be torment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4827.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -152,7 +165,8 @@ var chapterData_57 = [
           "doubted the truth": "",
           "and were deluded by false hopes until Allah's decree of your death came to pass": "",
           "And so the Chief Deceiver deceived you about Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4828.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -162,7 +176,8 @@ var chapterData_57 = [
           "Your home is the Fire": "",
           "it is the only fitting place for you": "",
           "What an evil destination": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4829.mp3"
       }
     ]
   },
@@ -179,7 +194,8 @@ var chapterData_57 = [
           "and not be like those given the Scripture before": "",
           "those who were spoiled for so long that their hearts became hardened": "",
           "And many of them are still rebellious": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4830.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -188,7 +204,8 @@ var chapterData_57 = [
           "Know that Allah revives the earth after its death": "",
           "We have certainly made the signs clear for you": "",
           "so perhaps you will understand": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4831.mp3"
       }
     ]
   },
@@ -204,7 +221,8 @@ var chapterData_57 = [
           "and lend to Allah a good loan": "",
           "will have it multiplied for them": "",
           "and they will have an honourable reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4832.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -213,7 +231,8 @@ var chapterData_57 = [
           "As for those who believe in Allah and His messengers, it is they who are truly the people of truth": "",
           "And the martyrs, with their Lord, will have their reward and their light": "",
           "But as for those who disbelieve and reject Our signs, it is they who will be the residents of the Hellfire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4833.mp3"
       }
     ]
   },
@@ -234,7 +253,8 @@ var chapterData_57 = [
           "But later the plants dry up and you see them wither, then they are reduced to chaff": "",
           "And in the Hereafter there will be either severe punishment or forgiveness and pleasure of Allah": "",
           "whereas the life of this world is no more than the delusion of enjoyment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4834.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -246,7 +266,8 @@ var chapterData_57 = [
           "This is the favour of Allah": "",
           "He grants it to whoever He wills": "",
           "And Allah is the Lord of infinite bounty": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4835.mp3"
       }
     ]
   },
@@ -261,7 +282,8 @@ var chapterData_57 = [
           "No calamity or blessing occurs on earth or in yourselves": "",
           "without being written in a Record before We bring it into being": "",
           "This is certainly easy for Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4836.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -270,7 +292,8 @@ var chapterData_57 = [
           "We let you know this so that you neither grieve over what you have missed": "",
           "nor boast over what He has granted you": "",
           "For Allah does not like whoever is arrogant, boastful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4837.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -280,7 +303,8 @@ var chapterData_57 = [
           "and promote stinginess among people": "",
           "And whoever turns away should know that Allah alone is truly the Self-Sufficient": "",
           "Praiseworthy": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4838.mp3"
       }
     ]
   },
@@ -300,7 +324,8 @@ var chapterData_57 = [
           "benefits for humanity": "",
           "and means for Allah to prove who is willing to stand up for Him and His messengers without seeing Him": "",
           "Surely Allah is All-Powerful, Almighty": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4839.mp3"
       }
     ]
   },
@@ -316,7 +341,8 @@ var chapterData_57 = [
           "and reserved prophethood and revelation for their descendants": "",
           "Some of them are rightly guided": "",
           "while most are rebellious": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4840.mp3"
       }
     ]
   },
@@ -337,7 +363,8 @@ var chapterData_57 = [
           "yet they did not even observe it strictly": "",
           "So We rewarded those of them who were faithful": "",
           "But most of them are rebellious": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4841.mp3"
       }
     ]
   },
@@ -355,7 +382,8 @@ var chapterData_57 = [
           "provide you with a light to walk in on Judgment Day": "",
           "and forgive you": "",
           "For Allah is All-Forgiving, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4842.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -365,7 +393,8 @@ var chapterData_57 = [
           "and that all grace is in Allah's Hands": "",
           "He grants it to whoever He wills": "",
           "For Allah is the Lord of infinite bounty": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4843.mp3"
       }
     ]
   }

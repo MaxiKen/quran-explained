@@ -11,7 +11,8 @@ var chapterData_98 = [
           "and the polytheists": "",
           "were not going to desist ˹from disbelief˺": "",
           "until the clear proof came to them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5870.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,14 +20,16 @@ var chapterData_98 = [
         "ayah_en": {
           "a messenger from Allah": "",
           "reciting scrolls of ˹utmost˺ purity": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5871.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "فِيهَا كُتُبٌ قَيِّمَةٌ",
         "ayah_en": {
           "containing upright commandments": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5872.mp3"
       }
     ]
   },
@@ -40,7 +43,8 @@ var chapterData_98 = [
         "ayah_en": {
           "It was not until this clear proof came to the People of the Book": "",
           "that they became divided ˹about his prophethood˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5873.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -51,7 +55,8 @@ var chapterData_98 = [
           "establish prayer": "",
           "and pay alms-tax": "",
           "That is the upright Way": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5874.mp3"
       }
     ]
   },
@@ -67,7 +72,8 @@ var chapterData_98 = [
           "will be in the Fire of Hell": "",
           "to stay there forever": "",
           "They are the worst of ˹all˺ beings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5875.mp3"
       }
     ]
   },
@@ -82,7 +88,8 @@ var chapterData_98 = [
           "Indeed, those who believe": "",
           "and do good": "",
           "they are the best of ˹all˺ beings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5876.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -95,7 +102,8 @@ var chapterData_98 = [
           "Allah is pleased with them": "",
           "and they are pleased with Him": "",
           "This is ˹only˺ for those in awe of their Lord": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5877.mp3"
       }
     ]
   }

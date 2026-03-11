@@ -10,7 +10,8 @@ var chapterData_71 = [
           "Indeed, We sent Noah to his people": "",
           "˹saying to him˺, \"Warn your people": "",
           "before a painful punishment comes to them.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5159.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +19,8 @@ var chapterData_71 = [
         "ayah_en": {
           "Noah proclaimed, \"O my people!": "",
           "I am truly sent to you with a clear warning:": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5160.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -27,7 +29,8 @@ var chapterData_71 = [
           "worship Allah ˹alone˺,": "",
           "fear Him,": "",
           "and obey me.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5161.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -37,7 +40,8 @@ var chapterData_71 = [
           "and delay your end until the appointed time.": "",
           "Indeed, when the time set by Allah comes, it cannot be delayed,": "",
           "if only you knew!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5162.mp3"
       }
     ]
   },
@@ -51,14 +55,16 @@ var chapterData_71 = [
         "ayah_en": {
           "He cried, \"My Lord!": "",
           "I have surely called my people day and night,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5163.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَلَمْ يَزِدْهُمْ دُعَائِي إِلَّا فِرَارًا",
         "ayah_en": {
           "but my calls only made them run farther away.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5164.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -69,21 +75,24 @@ var chapterData_71 = [
           "cover themselves with their clothes,": "",
           "persist ˹in denial˺,": "",
           "and act very arrogantly.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5165.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ إِنِّي دَعَوْتُهُمْ جِهَارًا",
         "ayah_en": {
           "Then I certainly called them openly,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5166.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "ثُمَّ إِنِّي أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
         "ayah_en": {
           "then I surely preached to them publicly and privately,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5167.mp3"
       }
     ]
   },
@@ -97,14 +106,16 @@ var chapterData_71 = [
         "ayah_en": {
           "saying, 'Seek your Lord's forgiveness,": "",
           "˹for˺ He is truly Most Forgiving.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5168.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا",
         "ayah_en": {
           "He will shower you with abundant rain,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5169.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -112,7 +123,8 @@ var chapterData_71 = [
         "ayah_en": {
           "supply you with wealth and children,": "",
           "and give you gardens as well as rivers.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5170.mp3"
       }
     ]
   },
@@ -125,21 +137,24 @@ var chapterData_71 = [
         "ayah_ar": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
         "ayah_en": {
           "What is the matter with you that you are not in awe of the Majesty of Allah,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5171.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
         "ayah_en": {
           "when He truly created you in stages ˹of development˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5172.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا",
         "ayah_en": {
           "Do you not see how Allah created seven heavens, one above the other,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5173.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -147,14 +162,16 @@ var chapterData_71 = [
         "ayah_en": {
           "placing the moon within them as a ˹reflected˺ light,": "",
           "and the sun as a ˹radiant˺ lamp?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5174.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "وَاللَّهُ أَنبَتَكُم مِّنَ الْأَرْضِ نَبَاتًا",
         "ayah_en": {
           "Allah ˹alone˺ caused you to grow from the earth like a plant.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5175.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -162,21 +179,24 @@ var chapterData_71 = [
         "ayah_en": {
           "Then He will return you to it,": "",
           "and then simply bring you forth ˹again˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5176.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَاللَّهُ جَعَلَ لَكُمُ الْأَرْضَ بِسَاطًا",
         "ayah_en": {
           "And Allah ˹alone˺ spread out the earth for you": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5177.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "لِّتَسْلُكُوا مِنْهَا سُبُلًا فِجَاجًا",
         "ayah_en": {
           "to walk along its spacious pathways.'\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5178.mp3"
       }
     ]
   },
@@ -190,14 +210,16 @@ var chapterData_71 = [
         "ayah_en": {
           "˹Eventually,˺ Noah cried, \"My Lord! They have certainly persisted in disobeying me,": "",
           "and followed ˹instead˺ those ˹elite˺ whose ˹abundant˺ wealth and children only increase them in loss,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5179.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَمَكَرُوا مَكْرًا كُبَّارًا",
         "ayah_en": {
           "and who have devised a tremendous plot,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5180.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -205,7 +227,8 @@ var chapterData_71 = [
         "ayah_en": {
           "urging ˹their followers˺, 'Do not abandon your idols—": "",
           "especially Wadd, Suwâ', Yaghûth, Ya'ûq, and Nasr.'": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5181.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -213,7 +236,8 @@ var chapterData_71 = [
         "ayah_en": {
           "Those ˹elite˺ have already led many astray.": "",
           "So ˹O Lord˺, only allow the wrongdoers to stray farther away.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5182.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -222,7 +246,8 @@ var chapterData_71 = [
           "So because of their sins, they were drowned,": "",
           "then admitted into the Fire.": "",
           "And they found none to help them against Allah.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5183.mp3"
       }
     ]
   },
@@ -235,7 +260,8 @@ var chapterData_71 = [
         "ayah_ar": "وَقَالَ نُوحٌ رَّبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا",
         "ayah_en": {
           "Noah had prayed, \"My Lord! Do not leave a single disbeliever on earth.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5184.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -243,7 +269,8 @@ var chapterData_71 = [
         "ayah_en": {
           "For if You spare ˹any of˺ them, they will certainly mislead Your servants,": "",
           "and give birth only to ˹wicked˺ sinners, staunch disbelievers.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5185.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -253,7 +280,8 @@ var chapterData_71 = [
           "and whoever enters my house in faith,": "",
           "and ˹all˺ believing men and women.": "",
           "And increase the wrongdoers only in destruction.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5186.mp3"
       }
     ]
   }

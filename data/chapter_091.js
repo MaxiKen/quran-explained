@@ -8,56 +8,64 @@ var chapterData_91 = [
         "ayah_ar": "وَالشَّمْسِ وَضُحَاهَا",
         "ayah_en": {
           "By the sun and its brightness": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5783.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَالْقَمَرِ إِذَا تَلَاهَا",
         "ayah_en": {
           "and the moon as it follows it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5784.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَالنَّهَارِ إِذَا جَلَّاهَا",
         "ayah_en": {
           "and the day as it unveils it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5785.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَاللَّيْلِ إِذَا يَغْشَاهَا",
         "ayah_en": {
           "and the night as it conceals it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5786.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَالسَّمَاءِ وَمَا بَنَاهَا",
         "ayah_en": {
           "And by heaven and the One Who built it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5787.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَالْأَرْضِ وَمَا طَحَاهَا",
         "ayah_en": {
           "and the earth and the One Who spread it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5788.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَنَفْسٍ وَمَا سَوَّاهَا",
         "ayah_en": {
           "And by the soul and the One Who fashioned it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5789.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا",
         "ayah_en": {
           "then with the knowledge of right and wrong inspired it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5790.mp3"
       }
     ]
   },
@@ -70,14 +78,16 @@ var chapterData_91 = [
         "ayah_ar": "قَدْ أَفْلَحَ مَن زَكَّاهَا",
         "ayah_en": {
           "Successful indeed is the one who purifies their soul": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5791.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَقَدْ خَابَ مَن دَسَّاهَا",
         "ayah_en": {
           "and doomed is the one who corrupts it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5792.mp3"
       }
     ]
   },
@@ -90,21 +100,24 @@ var chapterData_91 = [
         "ayah_ar": "كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا",
         "ayah_en": {
           "Thamud rejected the truth out of arrogance": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5793.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "إِذِ انبَعَثَ أَشْقَاهَا",
         "ayah_en": {
           "when the most wicked of them was roused to kill the she-camel": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5794.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا",
         "ayah_en": {
           "But the messenger of Allah warned them, 'Do not disturb Allah's camel and her turn to drink!'": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5795.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -112,14 +125,16 @@ var chapterData_91 = [
         "ayah_en": {
           "Still they defied him and slaughtered her": "",
           "So their Lord crushed them for their crime, levelling all to the ground": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5796.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "وَلَا يَخَافُ عُقْبَاهَا",
         "ayah_en": {
           "He has no fear of consequences": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5797.mp3"
       }
     ]
   }

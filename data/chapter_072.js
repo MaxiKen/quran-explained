@@ -10,7 +10,8 @@ var chapterData_72 = [
           "Say, ˹O Prophet,˺ \"It has been revealed to me": "",
           "that a group of jinn listened ˹to the Quran˺": "",
           "and said ˹to their fellow jinn˺: 'Indeed, we have heard a wondrous recitation": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5187.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +20,8 @@ var chapterData_72 = [
           "It leads to Right Guidance": "",
           "so we believed in it": "",
           "and we will never associate anyone with our Lord ˹in worship˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5188.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -27,7 +29,8 @@ var chapterData_72 = [
         "ayah_en": {
           "˹Now, we believe that˺ our Lord—Exalted is His Majesty": "",
           "has neither taken a mate nor offspring": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5189.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -35,14 +38,16 @@ var chapterData_72 = [
         "ayah_en": {
           "and that the foolish of us": "",
           "used to utter ˹outrageous˺ falsehoods about Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5190.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَأَنَّا ظَنَنَّا أَن لَّن تَقُولَ الْإِنسُ وَالْجِنُّ عَلَى اللَّهِ كَذِبًا",
         "ayah_en": {
           "We certainly thought that humans and jinn would never speak lies about Allah": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5191.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -50,14 +55,16 @@ var chapterData_72 = [
         "ayah_en": {
           "And some men used to seek refuge with some jinn": "",
           "so they increased each other in wickedness": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5192.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَأَنَّهُمْ ظَنُّوا كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ اللَّهُ أَحَدًا",
         "ayah_en": {
           "And those ˹humans˺ thought, just like you ˹jinn˺, that Allah would not resurrect anyone ˹for judgment˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5193.mp3"
       }
     ]
   },
@@ -71,7 +78,8 @@ var chapterData_72 = [
         "ayah_en": {
           "˹Earlier˺ we tried to reach heaven ˹for news˺": "",
           "only to find it filled with stern guards and shooting stars": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5194.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -79,7 +87,8 @@ var chapterData_72 = [
         "ayah_en": {
           "We used to take up positions there for eavesdropping": "",
           "but whoever dares eavesdrop now will find a flare lying in wait for them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5195.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +96,8 @@ var chapterData_72 = [
         "ayah_en": {
           "Now, we have no clue whether evil is intended for those on earth": "",
           "or their Lord intends for them what is right": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5196.mp3"
       }
     ]
   },
@@ -102,7 +112,8 @@ var chapterData_72 = [
           "Among us are those who are righteous": "",
           "and those who are less so": "",
           "We have been of different factions": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5197.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -110,7 +121,8 @@ var chapterData_72 = [
         "ayah_en": {
           "˹Now,˺ we truly know that we cannot frustrate Allah on earth": "",
           "nor can we escape from Him ˹into heaven˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5198.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -119,7 +131,8 @@ var chapterData_72 = [
           "When we heard the guidance ˹of the Quran˺, we ˹readily˺ believed in it": "",
           "For whoever believes in their Lord will have no fear of being denied ˹a reward˺": "",
           "or wronged": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5199.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -128,14 +141,16 @@ var chapterData_72 = [
           "And among us are those who have submitted ˹to Allah˺": "",
           "and those who are deviant": "",
           "So ˹as for˺ those who submitted, it is they who have attained Right Guidance": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5200.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "وَأَمَّا الْقَاسِطُونَ فَكَانُوا لِجَهَنَّمَ حَطَبًا",
         "ayah_en": {
           "And as for the deviant, they will be fuel for Hell": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5201.mp3"
       }
     ]
   },
@@ -149,7 +164,8 @@ var chapterData_72 = [
         "ayah_en": {
           "Had the deniers followed the Right Way": "",
           "We would have certainly granted them abundant rain to drink": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5202.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -158,7 +174,8 @@ var chapterData_72 = [
           "as a test for them": "",
           "And whoever turns away from the remembrance of their Lord": "",
           "will be admitted by Him into an overwhelming punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5203.mp3"
       }
     ]
   },
@@ -172,7 +189,8 @@ var chapterData_72 = [
         "ayah_en": {
           "The places of worship are ˹only˺ for Allah": "",
           "so do not invoke anyone besides Him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5204.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -180,7 +198,8 @@ var chapterData_72 = [
         "ayah_en": {
           "Yet when the servant of Allah stood up calling upon Him ˹alone˺": "",
           "the pagans almost swarmed over him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5205.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -188,14 +207,16 @@ var chapterData_72 = [
         "ayah_en": {
           "Say, ˹O Prophet,˺ \"I call only upon my Lord": "",
           "associating none with Him ˹in worship˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5206.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "قُلْ إِنِّي لَا أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
         "ayah_en": {
           "Say, \"It is not in my power to harm or benefit you": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5207.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -203,7 +224,8 @@ var chapterData_72 = [
         "ayah_en": {
           "Say, \"No one can protect me from Allah ˹if I were to disobey Him˺": "",
           "nor can I find any refuge other than Him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5208.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -212,7 +234,8 @@ var chapterData_72 = [
           "˹My duty is˺ only to convey ˹the truth˺ from Allah and ˹deliver˺ His messages": "",
           "And whoever disobeys Allah and His Messenger": "",
           "will certainly be in the Fire of Hell, to stay there for ever and ever": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5209.mp3"
       }
     ]
   },
@@ -227,7 +250,8 @@ var chapterData_72 = [
           "Only when they see what they have been threatened with": "",
           "will they know who is weaker in helpers": "",
           "and inferior in manpower": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5210.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -235,7 +259,8 @@ var chapterData_72 = [
         "ayah_en": {
           "Say, \"I do not know if what you are promised is near": "",
           "or my Lord has set a distant time for it": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5211.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -243,7 +268,8 @@ var chapterData_72 = [
         "ayah_en": {
           "˹He is the˺ Knower of the unseen": "",
           "disclosing none of it to anyone": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5212.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -251,7 +277,8 @@ var chapterData_72 = [
         "ayah_en": {
           "except messengers of His choice": "",
           "Then He appoints angel-guards before and behind them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5213.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -260,7 +287,8 @@ var chapterData_72 = [
           "to ensure that the messengers fully deliver the messages of their Lord": "",
           "though He ˹already˺ knows all about them": "",
           "and keeps account of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5214.mp3"
       }
     ]
   }

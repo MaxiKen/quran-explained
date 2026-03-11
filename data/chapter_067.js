@@ -10,7 +10,8 @@ var chapterData_67 = [
           "Blessed is the One": "",
           "in Whose Hands rests all authority": "",
           "And He is Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4981.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -20,7 +21,8 @@ var chapterData_67 = [
           "in order to test which of you is best in deeds": "",
           "And He is the Almighty": "",
           "All-Forgiving": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4982.mp3"
       }
     ]
   },
@@ -35,7 +37,8 @@ var chapterData_67 = [
           "˹He is the One˺ Who created seven heavens, one above the other": "",
           "You will never see any imperfection in the creation of the Most Compassionate": "",
           "So look again: do you see any flaws?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4983.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -43,7 +46,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Then look again and again": "",
           "your sight will return frustrated and weary": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4984.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -52,7 +56,8 @@ var chapterData_67 = [
           "And indeed, We adorned the lowest heaven with ˹stars like˺ lamps": "",
           "and made them ˹as missiles˺ for stoning ˹eavesdropping˺ devils": "",
           "for whom We have also prepared the torment of the Blaze": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4985.mp3"
       }
     ]
   },
@@ -66,7 +71,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Those who disbelieve in their Lord will suffer the punishment of Hell": "",
           "What an evil destination!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4986.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -74,7 +80,8 @@ var chapterData_67 = [
         "ayah_en": {
           "When they are tossed into it": "",
           "they will hear its roaring as it boils over": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4987.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -83,7 +90,8 @@ var chapterData_67 = [
           "almost bursting in fury": "",
           "Every time a group is cast into it, its keepers will ask them": "",
           "\"Did a warner not come to you?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4988.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -93,7 +101,8 @@ var chapterData_67 = [
           "but we denied": "",
           "and said, 'Allah has revealed nothing": "",
           "You are extremely astray.'\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4989.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -102,7 +111,8 @@ var chapterData_67 = [
           "And they will lament, \"If only we had listened": "",
           "and reasoned": "",
           "we would not be among the residents of the Blaze!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4990.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -110,7 +120,8 @@ var chapterData_67 = [
         "ayah_en": {
           "And so they will confess their sins": "",
           "So away with the residents of the Blaze!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4991.mp3"
       }
     ]
   },
@@ -125,7 +136,8 @@ var chapterData_67 = [
           "Indeed, those in awe of their Lord without seeing Him": "",
           "will have forgiveness": "",
           "and a mighty reward": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4992.mp3"
       }
     ]
   },
@@ -139,7 +151,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Whether you speak secretly or openly": "",
           "He surely knows best what is ˹hidden˺ in the heart": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4993.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -147,7 +160,8 @@ var chapterData_67 = [
         "ayah_en": {
           "How could He not know His Own creation?": "",
           "For He ˹alone˺ is the Most Subtle, All-Aware": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4994.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -157,7 +171,8 @@ var chapterData_67 = [
           "so move about in its regions": "",
           "and eat from His provisions": "",
           "And to Him is the resurrection ˹of all˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4995.mp3"
       }
     ]
   },
@@ -172,7 +187,8 @@ var chapterData_67 = [
           "Do you feel secure that the One Who is in heaven": "",
           "will not cause the earth to swallow you up": "",
           "as it quakes violently?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4996.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -180,7 +196,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Or do you feel secure that the One Who is in heaven will not unleash upon you a storm of stones": "",
           "Only then would you know how ˹serious˺ My warning was!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4997.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -188,7 +205,8 @@ var chapterData_67 = [
         "ayah_en": {
           "And certainly those before them denied ˹as well˺": "",
           "then how severe was My response!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4998.mp3"
       }
     ]
   },
@@ -203,7 +221,8 @@ var chapterData_67 = [
           "Have they not seen the birds above them, spreading and folding their wings?": "",
           "None holds them up except the Most Compassionate": "",
           "Indeed, He is All-Seeing of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4999.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -211,7 +230,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Also, which ˹powerless˺ force will come to your help instead of the Most Compassionate?": "",
           "Indeed, the disbelievers are only ˹lost˺ in delusion": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5000.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -219,7 +239,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Or who is it that will provide for you if He withholds His provision?": "",
           "In fact, they persist in arrogance and aversion ˹to the truth˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5001.mp3"
       }
     ]
   },
@@ -233,7 +254,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Who is ˹rightly˺ guided: the one who crawls facedown": "",
           "or the one who walks upright on the Straight Path?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5002.mp3"
       }
     ]
   },
@@ -248,7 +270,8 @@ var chapterData_67 = [
           "Say, ˹O Prophet,˺ \"He is the One Who brought you into being": "",
           "and gave you hearing, sight, and intellect": "",
           "˹Yet˺ you hardly give any thanks": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5003.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -256,7 +279,8 @@ var chapterData_67 = [
         "ayah_en": {
           "˹Also˺ say, \"He is the One Who has dispersed you ˹all˺ over the earth": "",
           "and to Him you will ˹all˺ be gathered": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5004.mp3"
       }
     ]
   },
@@ -270,7 +294,8 @@ var chapterData_67 = [
         "ayah_en": {
           "˹Still˺ they ask ˹the believers˺, \"When will this threat come to pass": "",
           "if what you say is true?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5005.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -278,7 +303,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Say, ˹O Prophet,˺ \"That knowledge is with Allah alone": "",
           "and I am only sent with a clear warning": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5006.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -287,7 +313,8 @@ var chapterData_67 = [
           "Then when they see the torment drawing near": "",
           "the faces of the disbelievers will become gloomy": "",
           "and it will be said ˹to them˺, \"This is what you claimed would never come\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5007.mp3"
       }
     ]
   },
@@ -302,7 +329,8 @@ var chapterData_67 = [
           "Say, ˹O Prophet,˺ \"Consider this: whether Allah causes me and those with me to die": "",
           "or shows us mercy": "",
           "who will save the disbelievers from a painful punishment?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5008.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -311,7 +339,8 @@ var chapterData_67 = [
           "Say, \"He is the Most Compassionate—in Him ˹alone˺ we believe": "",
           "and in Him ˹alone˺ we trust": "",
           "You will soon know who is clearly astray\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5009.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -319,7 +348,8 @@ var chapterData_67 = [
         "ayah_en": {
           "Say, \"Consider this: if your water were to sink ˹into the earth˺": "",
           "then who ˹else˺ could bring you flowing water?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5010.mp3"
       }
     ]
   }

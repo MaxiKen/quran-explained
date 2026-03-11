@@ -8,21 +8,24 @@ var chapterData_69 = [
         "ayah_ar": "الْحَاقَّةُ",
         "ayah_en": {
           "The Inevitable Hour!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5063.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَا الْحَاقَّةُ",
         "ayah_en": {
           "What is the Inevitable Hour?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5064.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا الْحَاقَّةُ",
         "ayah_en": {
           "And what will make you realize what the Inevitable Hour is?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5065.mp3"
       }
     ]
   },
@@ -35,21 +38,24 @@ var chapterData_69 = [
         "ayah_ar": "كَذَّبَتْ ثَمُودُ وَعَادٌ بِالْقَارِعَةِ",
         "ayah_en": {
           "˹Both˺ Thamûd and 'Ȃd denied the Striking Disaster.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5066.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ",
         "ayah_en": {
           "As for Thamûd, they were destroyed by an overwhelming blast.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5067.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَأَمَّا عَادٌ فَأُهْلِكُوا بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
         "ayah_en": {
           "And as for 'Ȃd, they were destroyed by a furious, bitter wind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5068.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -57,35 +63,40 @@ var chapterData_69 = [
         "ayah_en": {
           "which Allah unleashed on them non-stop for seven nights and eight days,": "",
           "so that you would have seen its people lying dead like trunks of uprooted palm trees.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5069.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَهَلْ تَرَىٰ لَهُم مِّن بَاقِيَةٍ",
         "ayah_en": {
           "Do you see any of them left alive?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5070.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَجَاءَ فِرْعَوْنُ وَمَن قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ",
         "ayah_en": {
           "Also, Pharaoh and those before him, and ˹the people of˺ the overturned cities ˹of Lot˺ indulged in sin,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5071.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
         "ayah_en": {
           "each disobeying their Lord's messenger, so He seized them with a crushing grip.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5072.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ",
         "ayah_en": {
           "Indeed, when the floodwater had overflowed, We carried you in the floating Ark ˹with Noah˺,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5073.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -93,7 +104,8 @@ var chapterData_69 = [
         "ayah_en": {
           "so that We may make this a reminder to you,": "",
           "and that attentive ears may grasp it.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5074.mp3"
       }
     ]
   },
@@ -106,28 +118,32 @@ var chapterData_69 = [
         "ayah_ar": "فَإِذَا نُفِخَ فِي الصُّورِ نَفْخَةٌ وَاحِدَةٌ",
         "ayah_en": {
           "At last, when the Trumpet will be blown with one blast,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5075.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً",
         "ayah_en": {
           "and the earth and mountains will be lifted up and crushed with one blow,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5076.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "فَيَوْمَئِذٍ وَقَعَتِ الْوَاقِعَةُ",
         "ayah_en": {
           "on that Day the Inevitable Event will have come to pass.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5077.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَانشَقَّتِ السَّمَاءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ",
         "ayah_en": {
           "The sky will then be so torn that it will be frail,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5078.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -135,7 +151,8 @@ var chapterData_69 = [
         "ayah_en": {
           "with the angels on its sides.": "",
           "On that Day eight ˹mighty angels˺ will bear the Throne of your Lord above them.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5079.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -143,7 +160,8 @@ var chapterData_69 = [
         "ayah_en": {
           "You will then be presented ˹before Him for judgment˺,": "",
           "and none of your secrets will stay hidden.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5080.mp3"
       }
     ]
   },
@@ -156,42 +174,48 @@ var chapterData_69 = [
         "ayah_ar": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ",
         "ayah_en": {
           "As for those given their records in their right hand, they will cry ˹happily˺, \"Here ˹everyone˺! Read my record!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5081.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "إِنِّي ظَنَنتُ أَنِّي مُلَاقٍ حِسَابِيَهْ",
         "ayah_en": {
           "I surely knew I would face my reckoning.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5082.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ",
         "ayah_en": {
           "They will be in a life of bliss,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5083.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "فِي جَنَّةٍ عَالِيَةٍ",
         "ayah_en": {
           "in an elevated Garden,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5084.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "قُطُوفُهَا دَانِيَةٌ",
         "ayah_en": {
           "whose fruit will hang within reach.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5085.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا أَسْلَفْتُمْ فِي الْأَيَّامِ الْخَالِيَةِ",
         "ayah_en": {
           "˹They will be told,˺ \"Eat and drink joyfully for what you did in the days gone by.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5086.mp3"
       }
     ]
   },
@@ -204,91 +228,104 @@ var chapterData_69 = [
         "ayah_ar": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِشِمَالِهِ فَيَقُولُ يَا لَيْتَنِي لَمْ أُوتَ كِتَابِيَهْ",
         "ayah_en": {
           "And as for those given their record in their left hand, they will cry ˹bitterly˺, \"I wish I had not been given my record,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5087.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
         "ayah_en": {
           "nor known anything of my reckoning!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5088.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "يَا لَيْتَهَا كَانَتِ الْقَاضِيَةَ",
         "ayah_en": {
           "I wish death was the end!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5089.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "مَا أَغْنَىٰ عَنِّي مَالِيَهْ",
         "ayah_en": {
           "My wealth has not benefited me!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5090.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "هَلَكَ عَنِّي سُلْطَانِيَهْ",
         "ayah_en": {
           "My authority has been stripped from me.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5091.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "خُذُوهُ فَغُلُّوهُ",
         "ayah_en": {
           "˹It will be said,˺ \"Seize and shackle them,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5092.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "ثُمَّ الْجَحِيمَ صَلُّوهُ",
         "ayah_en": {
           "then burn them in Hell,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5093.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "ثُمَّ فِي سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَاسْلُكُوهُ",
         "ayah_en": {
           "then tie them up with chains seventy arms long.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5094.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "إِنَّهُ كَانَ لَا يُؤْمِنُ بِاللَّهِ الْعَظِيمِ",
         "ayah_en": {
           "For they never had faith in Allah, the Greatest,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5095.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
         "ayah_en": {
           "nor encouraged the feeding of the poor.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5096.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "فَلَيْسَ لَهُ الْيَوْمَ هَاهُنَا حَمِيمٌ",
         "ayah_en": {
           "So this Day they will have no close friend here,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5097.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
         "ayah_en": {
           "nor any food except ˹oozing˺ pus,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5098.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "لَّا يَأْكُلُهُ إِلَّا الْخَاطِئُونَ",
         "ayah_en": {
           "which none will eat except the evildoers.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5099.mp3"
       }
     ]
   },
@@ -301,42 +338,48 @@ var chapterData_69 = [
         "ayah_ar": "فَلَا أُقْسِمُ بِمَا تُبْصِرُونَ",
         "ayah_en": {
           "Now, I do swear by whatever you see,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5100.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "وَمَا لَا تُبْصِرُونَ",
         "ayah_en": {
           "and whatever you cannot see!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5101.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
         "ayah_en": {
           "Indeed, this ˹Quran˺ is the recitation of a noble Messenger.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5102.mp3"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
         "ayah_en": {
           "It is not the prose of a poet ˹as you claim˺, ˹yet˺ you hardly have any faith.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5103.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "وَلَا بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
         "ayah_en": {
           "Nor is it the mumbling of a fortune-teller, ˹yet˺ you are hardly mindful.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5104.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ",
         "ayah_en": {
           "˹It is˺ a revelation from the Lord of all worlds.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5105.mp3"
       }
     ]
   },
@@ -349,28 +392,32 @@ var chapterData_69 = [
         "ayah_ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ",
         "ayah_en": {
           "Had the Messenger made up something in Our Name,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5106.mp3"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "لَأَخَذْنَا مِنْهُ بِالْيَمِينِ",
         "ayah_en": {
           "We would have certainly seized him by his right hand,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5107.mp3"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
         "ayah_en": {
           "then severed his aorta,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5108.mp3"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَاجِزِينَ",
         "ayah_en": {
           "and none of you could have shielded him ˹from Us˺!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5109.mp3"
       }
     ]
   },
@@ -383,35 +430,40 @@ var chapterData_69 = [
         "ayah_ar": "وَإِنَّهُ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
         "ayah_en": {
           "Indeed, this ˹Quran˺ is a reminder to those mindful ˹of Allah˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5110.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
         "ayah_en": {
           "And We certainly know that some of you will persist in denial,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5111.mp3"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "وَإِنَّهُ لَحَسْرَةٌ عَلَى الْكَافِرِينَ",
         "ayah_en": {
           "and it will surely be a source of regret for the disbelievers.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5112.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَإِنَّهُ لَحَقُّ الْيَقِينِ",
         "ayah_en": {
           "And indeed, this ˹Quran˺ is the absolute truth.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5113.mp3"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
         "ayah_en": {
           "So glorify the Name of your Lord, the Greatest.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5114.mp3"
       }
     ]
   }

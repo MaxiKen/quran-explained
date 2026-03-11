@@ -9,14 +9,16 @@ var chapterData_102 = [
         "ayah_en": {
           "Competition for more ˹gains˺": "",
           "diverts you ˹from Allah˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5908.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
         "ayah_en": {
           "until you end up in ˹your˺ graves": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5909.mp3"
       }
     ]
   },
@@ -30,7 +32,8 @@ var chapterData_102 = [
         "ayah_en": {
           "But no!": "",
           "You will soon come to know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5910.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -38,7 +41,8 @@ var chapterData_102 = [
         "ayah_en": {
           "Again, no!": "",
           "You will soon come to know": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5911.mp3"
       }
     ]
   },
@@ -52,7 +56,8 @@ var chapterData_102 = [
         "ayah_en": {
           "Indeed, if you were to know ˹your fate˺ with certainty": "",
           "˹you would have acted differently˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5912.mp3"
       }
     ]
   },
@@ -65,7 +70,8 @@ var chapterData_102 = [
         "ayah_ar": "لَتَرَوُنَّ الْجَحِيمَ",
         "ayah_en": {
           "˹But˺ you will surely see the Hellfire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5913.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -73,7 +79,8 @@ var chapterData_102 = [
         "ayah_en": {
           "Again, you will surely see it": "",
           "with the eye of certainty": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5914.mp3"
       }
     ]
   },
@@ -88,7 +95,8 @@ var chapterData_102 = [
           "Then, on that Day": "",
           "you will definitely be questioned": "",
           "about ˹your worldly˺ pleasures": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5915.mp3"
       }
     ]
   }

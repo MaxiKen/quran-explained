@@ -9,35 +9,40 @@ var chapterData_109 = [
         "ayah_en": {
           "Say, ˹O Prophet,˺": "",
           "\"O you disbelievers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5947.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
         "ayah_en": {
           "I do not worship what you worship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5948.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
         "ayah_en": {
           "nor do you worship what I worship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5949.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
         "ayah_en": {
           "I will never worship what you worship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5950.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
         "ayah_en": {
           "nor will you ever worship what I worship": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5951.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -45,7 +50,8 @@ var chapterData_109 = [
         "ayah_en": {
           "You have your way": "",
           "and I have my Way": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5952.mp3"
       }
     ]
   }

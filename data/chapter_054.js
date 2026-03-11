@@ -9,7 +9,8 @@ var chapterData_54 = [
         "ayah_en": {
           "The Hour has drawn near": "",
           "and the moon was split in two": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4586.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +18,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Yet, whenever they see a sign, they turn away": "",
           "saying, \"Same old magic!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4587.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +28,8 @@ var chapterData_54 = [
           "They rejected the truth": "",
           "and followed their own desires": "",
           "and every matter will be settled": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4588.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -34,7 +37,8 @@ var chapterData_54 = [
         "ayah_en": {
           "even though the stories of destroyed nations that have already come to them": "",
           "are a sufficient deterrent": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4589.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -42,7 +46,8 @@ var chapterData_54 = [
         "ayah_en": {
           "This Quran is profound in wisdom": "",
           "but warnings are of no benefit to them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4590.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -50,7 +55,8 @@ var chapterData_54 = [
         "ayah_en": {
           "So turn away from them, O Prophet": "",
           "And wait for the Day when the caller will summon them for something horrifying": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4591.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -59,7 +65,8 @@ var chapterData_54 = [
           "With eyes downcast": "",
           "they will come forth from the graves": "",
           "as if they were swarming locusts": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4592.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -67,7 +74,8 @@ var chapterData_54 = [
         "ayah_en": {
           "rushing towards the caller": "",
           "The disbelievers will cry, \"This is a difficult Day!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4593.mp3"
       }
     ]
   },
@@ -83,7 +91,8 @@ var chapterData_54 = [
           "and rejected Our servant": "",
           "calling him insane": "",
           "And he was intimidated": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4594.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -91,14 +100,16 @@ var chapterData_54 = [
         "ayah_en": {
           "So he cried out to his Lord": "",
           "\"I am helpless, so help me!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4595.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ مُّنْهَمِرٍ",
         "ayah_en": {
           "So We opened the gates of the sky with pouring rain": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4596.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -106,14 +117,16 @@ var chapterData_54 = [
         "ayah_en": {
           "and caused the earth to burst with springs": "",
           "so the waters met for a fate already set": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4597.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَحَمَلْنَاهُ عَلَىٰ ذَاتِ أَلْوَاحٍ وَدُسُرٍ",
         "ayah_en": {
           "We carried him on that Ark made of planks and nails": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4598.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -121,7 +134,8 @@ var chapterData_54 = [
         "ayah_en": {
           "sailing under Our watchful Eyes": "",
           "a fair punishment on behalf of the one they denied": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4599.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -129,14 +143,16 @@ var chapterData_54 = [
         "ayah_en": {
           "We certainly left this as a sign": "",
           "So is there anyone who will be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4600.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
         "ayah_en": {
           "Then how dreadful were My punishment and warnings!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4601.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -144,7 +160,8 @@ var chapterData_54 = [
         "ayah_en": {
           "And We have certainly made the Quran easy to remember": "",
           "So is there anyone who will be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4602.mp3"
       }
     ]
   },
@@ -158,7 +175,8 @@ var chapterData_54 = [
         "ayah_en": {
           "'Aad also rejected the truth": "",
           "Then how dreadful were My punishment and warnings!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4603.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -166,7 +184,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Indeed, We sent against them a furious wind": "",
           "on a day of unrelenting misery": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4604.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -174,14 +193,16 @@ var chapterData_54 = [
         "ayah_en": {
           "that snatched people up": "",
           "leaving them like trunks of uprooted palm trees": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4605.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
         "ayah_en": {
           "Then how dreadful were My punishment and warnings!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4606.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -189,7 +210,8 @@ var chapterData_54 = [
         "ayah_en": {
           "And We have certainly made the Quran easy to remember": "",
           "So is there anyone who will be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4607.mp3"
       }
     ]
   },
@@ -202,7 +224,8 @@ var chapterData_54 = [
         "ayah_ar": "كَذَّبَتْ ثَمُودُ بِالنُّذُرِ",
         "ayah_en": {
           "Thamud rejected the warnings as well": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4608.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -210,7 +233,8 @@ var chapterData_54 = [
         "ayah_en": {
           "arguing, \"How can we follow one average human being from among us?": "",
           "We would then truly be misguided and insane.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4609.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -218,14 +242,16 @@ var chapterData_54 = [
         "ayah_en": {
           "\"Has the revelation been sent down only to him out of all of us?": "",
           "In fact, he is a boastful liar.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4610.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "سَيَعْلَمُونَ غَدًا مَّنِ الْكَذَّابُ الْأَشِرُ",
         "ayah_en": {
           "It was revealed to Salih, \"They will soon know who the boastful liar is.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4611.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -233,7 +259,8 @@ var chapterData_54 = [
         "ayah_en": {
           "\"We are sending the she-camel as a test for them.": "",
           "So watch them closely, and have patience.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4612.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -241,7 +268,8 @@ var chapterData_54 = [
         "ayah_en": {
           "\"And tell them that the drinking water must be divided between them and her": "",
           "each taking a turn to drink every other day.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4613.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -249,14 +277,16 @@ var chapterData_54 = [
         "ayah_en": {
           "But they roused a companion of theirs": "",
           "so he dared to kill her": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4614.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
         "ayah_en": {
           "Then how dreadful were My punishment and warnings!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4615.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -264,7 +294,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Indeed, We sent against them only one mighty blast": "",
           "leaving them like the twigs of fence-builders": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4616.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -272,7 +303,8 @@ var chapterData_54 = [
         "ayah_en": {
           "And We have certainly made the Quran easy to remember": "",
           "So is there anyone who will be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4617.mp3"
       }
     ]
   },
@@ -285,7 +317,8 @@ var chapterData_54 = [
         "ayah_ar": "كَذَّبَتْ قَوْمُ لُوطٍ بِالنُّذُرِ",
         "ayah_en": {
           "The people of Lot also rejected the warnings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4618.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -293,7 +326,8 @@ var chapterData_54 = [
         "ayah_en": {
           "We unleashed upon them a storm of stones": "",
           "As for the believers of Lot's family, We delivered them before dawn": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4619.mp3"
       },
       {
         "ayah_no_surah": 35,
@@ -301,7 +335,8 @@ var chapterData_54 = [
         "ayah_en": {
           "as a blessing from Us": "",
           "This is how We reward whoever gives thanks": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4620.mp3"
       },
       {
         "ayah_no_surah": 36,
@@ -309,7 +344,8 @@ var chapterData_54 = [
         "ayah_en": {
           "He had already warned them of Our crushing blow": "",
           "but they disputed the warnings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4621.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -318,21 +354,24 @@ var chapterData_54 = [
           "And they even demanded his angel-guests from him": "",
           "so We blinded their eyes": "",
           "And they were told, \"Taste then My punishment and warnings!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4622.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "وَلَقَدْ صَبَّحَهُم بُكْرَةً عَذَابٌ مُّسْتَقِرٌّ",
         "ayah_en": {
           "And indeed, by the early morning they were overwhelmed by an unrelenting torment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4623.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "فَذُوقُوا عَذَابِي وَنُذُرِ",
         "ayah_en": {
           "Again they were told, \"Taste now My punishment and warnings!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4624.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -340,7 +379,8 @@ var chapterData_54 = [
         "ayah_en": {
           "And We have certainly made the Quran easy to remember": "",
           "So is there anyone who will be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4625.mp3"
       }
     ]
   },
@@ -353,7 +393,8 @@ var chapterData_54 = [
         "ayah_ar": "وَلَقَدْ جَاءَ آلَ فِرْعَوْنَ النُّذُرُ",
         "ayah_en": {
           "And indeed, the warnings also came to the people of Pharaoh": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4626.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -361,7 +402,8 @@ var chapterData_54 = [
         "ayah_en": {
           "But they rejected all of Our signs": "",
           "so We seized them with the crushing grip of the Almighty, Most Powerful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4627.mp3"
       }
     ]
   },
@@ -375,21 +417,24 @@ var chapterData_54 = [
         "ayah_en": {
           "Now, are you Meccan disbelievers superior to those destroyed peoples?": "",
           "Or have you been granted immunity from punishment in divine Books?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4628.mp3"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "أَمْ يَقُولُونَ نَحْنُ جَمِيعٌ مُّنتَصِرٌ",
         "ayah_en": {
           "Or do they say, \"We are all a united front, bound to prevail.\"?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4629.mp3"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "سَيُهْزَمُ الْجَمْعُ وَيُوَلُّونَ الدُّبُرَ",
         "ayah_en": {
           "Soon their united front will be defeated and forced to flee": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4630.mp3"
       },
       {
         "ayah_no_surah": 46,
@@ -397,7 +442,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Better yet, the Hour is their appointed time": "",
           "and the Hour will be most catastrophic and most bitter": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4631.mp3"
       },
       {
         "ayah_no_surah": 47,
@@ -405,7 +451,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Indeed, the wicked are entrenched in misguidance": "",
           "and are bound for blazes": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4632.mp3"
       },
       {
         "ayah_no_surah": 48,
@@ -413,14 +460,16 @@ var chapterData_54 = [
         "ayah_en": {
           "On the Day they will be dragged into the Fire on their faces": "",
           "they will be told, \"Taste the touch of Hell!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4633.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ",
         "ayah_en": {
           "Indeed, We have created everything, perfectly preordained": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4634.mp3"
       },
       {
         "ayah_no_surah": 50,
@@ -428,7 +477,8 @@ var chapterData_54 = [
         "ayah_en": {
           "Our command is but a single word": "",
           "done in the blink of an eye": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4635.mp3"
       },
       {
         "ayah_no_surah": 51,
@@ -436,21 +486,24 @@ var chapterData_54 = [
         "ayah_en": {
           "We have already destroyed the likes of you": "",
           "So will any of you be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4636.mp3"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "وَكُلُّ شَيْءٍ فَعَلُوهُ فِي الزُّبُرِ",
         "ayah_en": {
           "Everything they have done is listed in their records": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4637.mp3"
       },
       {
         "ayah_no_surah": 53,
         "ayah_ar": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُّسْتَطَرٌ",
         "ayah_en": {
           "Every matter, small and large, is written precisely": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4638.mp3"
       }
     ]
   },
@@ -463,7 +516,8 @@ var chapterData_54 = [
         "ayah_ar": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ وَنَهَرٍ",
         "ayah_en": {
           "Indeed, the righteous will be amid Gardens and rivers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4639.mp3"
       },
       {
         "ayah_no_surah": 55,
@@ -471,7 +525,8 @@ var chapterData_54 = [
         "ayah_en": {
           "at the Seat of Honour": "",
           "in the presence of the Most Powerful Sovereign": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4640.mp3"
       }
     ]
   }

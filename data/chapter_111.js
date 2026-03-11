@@ -9,7 +9,8 @@ var chapterData_111 = [
         "ayah_en": {
           "May the hands of Abu Lahab perish": "",
           "and he ˹himself˺ perish": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5956.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +18,8 @@ var chapterData_111 = [
         "ayah_en": {
           "Neither his wealth": "",
           "nor ˹worldly˺ gains will benefit him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5957.mp3"
       }
     ]
   },
@@ -30,7 +32,8 @@ var chapterData_111 = [
         "ayah_ar": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
         "ayah_en": {
           "He will burn in a flaming Fire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5958.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -38,14 +41,16 @@ var chapterData_111 = [
         "ayah_en": {
           "and ˹so will˺ his wife": "",
           "the carrier of ˹thorny˺ kindling": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5959.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
         "ayah_en": {
           "around her neck will be a rope of palm-fibre": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5960.mp3"
       }
     ]
   }

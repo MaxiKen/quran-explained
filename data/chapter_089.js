@@ -8,35 +8,40 @@ var chapterData_89 = [
         "ayah_ar": "وَالْفَجْرِ",
         "ayah_en": {
           "By the dawn": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5733.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَلَيَالٍ عَشْرٍ",
         "ayah_en": {
           "and the ten nights": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5734.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَالشَّفْعِ وَالْوَتْرِ",
         "ayah_en": {
           "and the even and the odd": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5735.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَاللَّيْلِ إِذَا يَسْرِ",
         "ayah_en": {
           "and the night when it passes": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5736.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "هَلْ فِي ذَٰلِكَ قَسَمٌ لِّذِي حِجْرٍ",
         "ayah_en": {
           "Is all this not a sufficient oath for those who have sense": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5737.mp3"
       }
     ]
   },
@@ -49,35 +54,40 @@ var chapterData_89 = [
         "ayah_ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
         "ayah_en": {
           "Did you not see how your Lord dealt with 'Ȃd": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5738.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "إِرَمَ ذَاتِ الْعِمَادِ",
         "ayah_en": {
           "the people of Iram—with their great stature": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5739.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ",
         "ayah_en": {
           "unmatched in any other land": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5740.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ",
         "ayah_en": {
           "and Thamûd who carved their homes into the rocks in the Stone Valley": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5741.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَفِرْعَوْنَ ذِي الْأَوْتَادِ",
         "ayah_en": {
           "and the Pharaoh of mighty structures": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5742.mp3"
       }
     ]
   },
@@ -90,28 +100,32 @@ var chapterData_89 = [
         "ayah_ar": "الَّذِينَ طَغَوْا فِي الْبِلَادِ",
         "ayah_en": {
           "They all transgressed throughout the land": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5743.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "فَأَكْثَرُوا فِيهَا الْفَسَادَ",
         "ayah_en": {
           "spreading much corruption there": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5744.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
         "ayah_en": {
           "So your Lord unleashed on them a scourge of punishment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5745.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
         "ayah_en": {
           "For your Lord is truly vigilant": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5746.mp3"
       }
     ]
   },
@@ -125,7 +139,8 @@ var chapterData_89 = [
         "ayah_en": {
           "Now, whenever a human being is tested by their Lord through His generosity and blessings": "",
           "they boast, \"My Lord has deservedly honoured me!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5747.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -133,7 +148,8 @@ var chapterData_89 = [
         "ayah_en": {
           "But when He tests them by limiting their provision": "",
           "they protest, \"My Lord has undeservedly humiliated me!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5748.mp3"
       }
     ]
   },
@@ -146,28 +162,32 @@ var chapterData_89 = [
         "ayah_ar": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ الْيَتِيمَ",
         "ayah_en": {
           "Absolutely not! In fact, you are not even gracious to the orphan": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5749.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَلَا تَحَاضُّونَ عَلَىٰ طَعَامِ الْمِسْكِينِ",
         "ayah_en": {
           "nor do you urge one another to feed the poor": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5750.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَّمًّا",
         "ayah_en": {
           "And you devour others' inheritance greedily": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5751.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا",
         "ayah_en": {
           "and love wealth fervently": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5752.mp3"
       }
     ]
   },
@@ -180,14 +200,16 @@ var chapterData_89 = [
         "ayah_ar": "كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا",
         "ayah_en": {
           "Enough! When the earth is entirely crushed over and over": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5753.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا",
         "ayah_en": {
           "and your Lord comes to judge with angels, rank upon rank": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5754.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -195,28 +217,32 @@ var chapterData_89 = [
         "ayah_en": {
           "and Hell is brought forth on that Day": "",
           "this is when every disbelieving person will remember their own sins. But what is the use of remembering then": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5755.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي",
         "ayah_en": {
           "They will cry, \"I wish I had sent forth something good for my true life\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5756.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُ أَحَدٌ",
         "ayah_en": {
           "On that Day He will punish them severely, like no other": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5757.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ",
         "ayah_en": {
           "and bind them tightly, like no other": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5758.mp3"
       }
     ]
   },
@@ -229,28 +255,32 @@ var chapterData_89 = [
         "ayah_ar": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
         "ayah_en": {
           "Allah will say to the righteous, \"O tranquil soul!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5759.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
         "ayah_en": {
           "Return to your Lord, well pleased with Him and well pleasing to Him": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5760.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "فَادْخُلِي فِي عِبَادِي",
         "ayah_en": {
           "So join My servants": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5761.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَادْخُلِي جَنَّتِي",
         "ayah_en": {
           "and enter My Paradise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5762.mp3"
       }
     ]
   }

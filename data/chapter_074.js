@@ -8,49 +8,56 @@ var chapterData_74 = [
         "ayah_ar": "يَا أَيُّهَا الْمُدَّثِّرُ",
         "ayah_en": {
           "O you covered up ˹in your clothes˺!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5235.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "قُمْ فَأَنذِرْ",
         "ayah_en": {
           "Arise and warn ˹all˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5236.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَرَبَّكَ فَكَبِّرْ",
         "ayah_en": {
           "Revere your Lord ˹alone˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5237.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَثِيَابَكَ فَطَهِّرْ",
         "ayah_en": {
           "Purify your garments.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5238.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَالرُّجْزَ فَاهْجُرْ",
         "ayah_en": {
           "˹Continue to˺ shun idols.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5239.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَلَا تَمْنُن تَسْتَكْثِرُ",
         "ayah_en": {
           "Do not do a favour expecting more ˹in return˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5240.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَلِرَبِّكَ فَاصْبِرْ",
         "ayah_en": {
           "And persevere for ˹the sake of˺ your Lord.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5241.mp3"
       }
     ]
   },
@@ -63,21 +70,24 @@ var chapterData_74 = [
         "ayah_ar": "فَإِذَا نُقِرَ فِي النَّاقُورِ",
         "ayah_en": {
           "˹For˺ when the Trumpet will be sounded,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5242.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
         "ayah_en": {
           "that will ˹truly˺ be a difficult Day—": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5243.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "عَلَى الْكَافِرِينَ غَيْرُ يَسِيرٍ",
         "ayah_en": {
           "far from easy for the disbelievers.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5244.mp3"
       }
     ]
   },
@@ -90,105 +100,120 @@ var chapterData_74 = [
         "ayah_ar": "ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا",
         "ayah_en": {
           "And leave to me ˹O Prophet˺ the one I created all by Myself,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5245.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَجَعَلْتُ لَهُ مَالًا مَّمْدُودًا",
         "ayah_en": {
           "and granted him abundant wealth,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5246.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَبَنِينَ شُهُودًا",
         "ayah_en": {
           "and children always by his side,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5247.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَمَهَّدتُّ لَهُ تَمْهِيدًا",
         "ayah_en": {
           "and made life very easy for him.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5248.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ",
         "ayah_en": {
           "Yet he is hungry for more.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5249.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "كَلَّا ۖ إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا",
         "ayah_en": {
           "But no! ˹For˺ he has been truly stubborn with Our revelations.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5250.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "سَأُرْهِقُهُ صَعُودًا",
         "ayah_en": {
           "I will make his fate unbearable,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5251.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "إِنَّهُ فَكَّرَ وَقَدَّرَ",
         "ayah_en": {
           "for he contemplated and determined ˹a degrading label for the Quran˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5252.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "فَقُتِلَ كَيْفَ قَدَّرَ",
         "ayah_en": {
           "May he be condemned! How evil was what he determined!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5253.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
         "ayah_en": {
           "May he be condemned even more! How evil was what he determined!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5254.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "ثُمَّ نَظَرَ",
         "ayah_en": {
           "Then he re-contemplated ˹in frustration˺,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5255.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "ثُمَّ عَبَسَ وَبَسَرَ",
         "ayah_en": {
           "then frowned and scowled,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5256.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "ثُمَّ أَدْبَرَ وَاسْتَكْبَرَ",
         "ayah_en": {
           "then turned his back ˹on the truth˺ and acted arrogantly,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5257.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَقَالَ إِنْ هَٰذَا إِلَّا سِحْرٌ يُؤْثَرُ",
         "ayah_en": {
           "saying, \"This ˹Quran˺ is nothing but magic from the ancients.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5258.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "إِنْ هَٰذَا إِلَّا قَوْلُ الْبَشَرِ",
         "ayah_en": {
           "This is no more than the word of a man.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5259.mp3"
       }
     ]
   },
@@ -201,35 +226,40 @@ var chapterData_74 = [
         "ayah_ar": "سَأُصْلِيهِ سَقَرَ",
         "ayah_en": {
           "Soon I will burn him in Hell!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5260.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا سَقَرُ",
         "ayah_en": {
           "And what will make you realize what Hell is?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5261.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "لَا تُبْقِي وَلَا تَذَرُ",
         "ayah_en": {
           "It does not let anyone live or die,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5262.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "لَوَّاحَةٌ لِّلْبَشَرِ",
         "ayah_en": {
           "scorching the skin.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5263.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "عَلَيْهَا تِسْعَةَ عَشَرَ",
         "ayah_en": {
           "It is overseen by nineteen ˹keepers˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5264.mp3"
       }
     ]
   },
@@ -250,7 +280,8 @@ var chapterData_74 = [
           "In this way Allah leaves whoever He wills to stray and guides whoever He wills.": "",
           "And none knows the forces of your Lord except He.": "",
           "And this ˹description of Hell˺ is only a reminder to humanity.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5265.mp3"
       }
     ]
   },
@@ -263,42 +294,48 @@ var chapterData_74 = [
         "ayah_ar": "كَلَّا وَالْقَمَرِ",
         "ayah_en": {
           "But no! By the moon,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5266.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "وَاللَّيْلِ إِذْ أَدْبَرَ",
         "ayah_en": {
           "and the night as it retreats,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5267.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَالصُّبْحِ إِذَا أَسْفَرَ",
         "ayah_en": {
           "and the day as it breaks!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5268.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "إِنَّهَا لَإِحْدَى الْكُبَرِ",
         "ayah_en": {
           "Surely Hell is one of the mightiest catastrophes—": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5269.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "نَذِيرًا لِّلْبَشَرِ",
         "ayah_en": {
           "a warning to humankind,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5270.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "لِمَن شَاءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
         "ayah_en": {
           "to whichever of you chooses to take the lead or lag behind.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5271.mp3"
       }
     ]
   },
@@ -311,77 +348,88 @@ var chapterData_74 = [
         "ayah_ar": "كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ",
         "ayah_en": {
           "Every soul will be detained for what it has done,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5272.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "إِلَّا أَصْحَابَ الْيَمِينِ",
         "ayah_en": {
           "except the people of the right,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5273.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "فِي جَنَّاتٍ يَتَسَاءَلُونَ",
         "ayah_en": {
           "who will be in Gardens, asking one another": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5274.mp3"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "عَنِ الْمُجْرِمِينَ",
         "ayah_en": {
           "about the wicked ˹who will then be asked˺:": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5275.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "مَا سَلَكَكُمْ فِي سَقَرَ",
         "ayah_en": {
           "\"What has landed you in Hell?\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5276.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "قَالُوا لَمْ نَكُ مِنَ الْمُصَلِّينَ",
         "ayah_en": {
           "They will reply, \"We were not of those who prayed,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5277.mp3"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "وَلَمْ نَكُ نُطْعِمُ الْمِسْكِينَ",
         "ayah_en": {
           "nor did we feed the poor.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5278.mp3"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ",
         "ayah_en": {
           "We used to indulge ˹in falsehood˺ along with others,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5279.mp3"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "وَكُنَّا نُكَذِّبُ بِيَوْمِ الدِّينِ",
         "ayah_en": {
           "and deny the Day of Judgment,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5280.mp3"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "حَتَّىٰ أَتَانَا الْيَقِينُ",
         "ayah_en": {
           "until the inevitable came to us.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5281.mp3"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "فَمَا تَنفَعُهُمْ شَفَاعَةُ الشَّافِعِينَ",
         "ayah_en": {
           "So the pleas of intercessors will be of no benefit to them.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5282.mp3"
       }
     ]
   },
@@ -394,35 +442,40 @@ var chapterData_74 = [
         "ayah_ar": "فَمَا لَهُمْ عَنِ التَّذْكِرَةِ مُعْرِضِينَ",
         "ayah_en": {
           "Now, what is the matter with them that they are turning away from the reminder,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5283.mp3"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
         "ayah_en": {
           "as if they were spooked zebras": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5284.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "فَرَّتْ مِن قَسْوَرَةٍ",
         "ayah_en": {
           "fleeing from a lion?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5285.mp3"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "بَلْ يُرِيدُ كُلُّ امْرِئٍ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًا مُّنَشَّرَةً",
         "ayah_en": {
           "In fact, each one of them wishes to be given a ˹personal˺ letter ˹from Allah˺ for all ˹to read˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5286.mp3"
       },
       {
         "ayah_no_surah": 53,
         "ayah_ar": "كَلَّا ۖ بَل لَّا يَخَافُونَ الْآخِرَةَ",
         "ayah_en": {
           "But no! In fact, they do not fear the Hereafter.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5287.mp3"
       }
     ]
   },
@@ -435,14 +488,16 @@ var chapterData_74 = [
         "ayah_ar": "كَلَّا إِنَّهُ تَذْكِرَةٌ",
         "ayah_en": {
           "Enough! Surely this ˹Quran˺ is a reminder.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5288.mp3"
       },
       {
         "ayah_no_surah": 55,
         "ayah_ar": "فَمَن شَاءَ ذَكَرَهُ",
         "ayah_en": {
           "So let whoever wills be mindful of it.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5289.mp3"
       },
       {
         "ayah_no_surah": 56,
@@ -451,7 +506,8 @@ var chapterData_74 = [
           "But they cannot do so unless Allah wills.": "",
           "He ˹alone˺ is worthy to be feared": "",
           "and entitled to forgive.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5290.mp3"
       }
     ]
   }

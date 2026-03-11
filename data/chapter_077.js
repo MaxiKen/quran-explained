@@ -8,49 +8,56 @@ var chapterData_77 = [
         "ayah_ar": "وَالْمُرْسَلَاتِ عُرْفًا",
         "ayah_en": {
           "By those ˹winds˺ sent forth successively": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5362.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَالْعَاصِفَاتِ عَصْفًا",
         "ayah_en": {
           "and those blowing violently": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5363.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَالنَّاشِرَاتِ نَشْرًا",
         "ayah_en": {
           "and those scattering ˹rainclouds˺ widely": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5364.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "فَالْفَارِقَاتِ فَرْقًا",
         "ayah_en": {
           "And ˹by˺ those ˹angels˺ fully distinguishing ˹truth from falsehood˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5365.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَالْمُلْقِيَاتِ ذِكْرًا",
         "ayah_en": {
           "and those delivering revelation": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5366.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "عُذْرًا أَوْ نُذْرًا",
         "ayah_en": {
           "ending excuses and giving warnings": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5367.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
         "ayah_en": {
           "Surely, what you are promised will come to pass": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5368.mp3"
       }
     ]
   },
@@ -63,56 +70,64 @@ var chapterData_77 = [
         "ayah_ar": "فَإِذَا النُّجُومُ طُمِسَتْ",
         "ayah_en": {
           "So when the stars are put out": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5369.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَإِذَا السَّمَاءُ فُرِجَتْ",
         "ayah_en": {
           "and the sky is torn apart": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5370.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَإِذَا الْجِبَالُ نُسِفَتْ",
         "ayah_en": {
           "and the mountains are blown away": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5371.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
         "ayah_en": {
           "and the messengers' time ˹to testify˺ comes up": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5372.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
         "ayah_en": {
           "for which Day has all this been set?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5373.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "لِيَوْمِ الْفَصْلِ",
         "ayah_en": {
           "For the Day of ˹Final˺ Decision!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5374.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
         "ayah_en": {
           "And what will make you realize what the Day of Decision is?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5375.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5376.mp3"
       }
     ]
   },
@@ -125,91 +140,104 @@ var chapterData_77 = [
         "ayah_ar": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
         "ayah_en": {
           "Did We not destroy earlier disbelievers?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5377.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
         "ayah_en": {
           "And We will make the later disbelievers follow them": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5378.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
         "ayah_en": {
           "This is how We deal with the wicked": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5379.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5380.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ",
         "ayah_en": {
           "Did We not create you from a humble fluid": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5381.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ",
         "ayah_en": {
           "placing it in a secure place": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5382.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "إِلَىٰ قَدَرٍ مَعْلُومٍ",
         "ayah_en": {
           "until an appointed time?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5383.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
         "ayah_en": {
           "We ˹perfectly˺ ordained ˹its development˺. How excellent are We in doing so!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5384.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5385.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
         "ayah_en": {
           "Have We not made the earth a lodging": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5386.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "أَحْيَاءً وَأَمْوَاتًا",
         "ayah_en": {
           "for the living and the dead": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5387.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ مَاءً فُرَاتًا",
         "ayah_en": {
           "and placed upon it towering, firm mountains, and given you fresh water to drink?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5388.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5389.mp3"
       }
     ]
   },
@@ -222,84 +250,96 @@ var chapterData_77 = [
         "ayah_ar": "انْطَلِقُوا إِلَىٰ مَا كُنْتُمْ بِهِ تُكَذِّبُونَ",
         "ayah_en": {
           "˹The disbelievers will be told,˺ \"Proceed into that ˹Fire˺ which you used to deny!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5390.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "انْطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
         "ayah_en": {
           "Proceed into the shade ˹of smoke˺ which rises in three columns": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5391.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "لَا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
         "ayah_en": {
           "providing neither coolness nor shelter from the flames": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5392.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
         "ayah_en": {
           "Indeed, it hurls sparks ˹as big˺ as huge castles": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5393.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
         "ayah_en": {
           "and ˹as dark˺ as black camels.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5394.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5395.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "هَٰذَا يَوْمُ لَا يَنْطِقُونَ",
         "ayah_en": {
           "On that Day they will not ˹be in a position to˺ speak": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5396.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
         "ayah_en": {
           "nor will they be permitted to offer excuses": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5397.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5398.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
         "ayah_en": {
           "˹They will be told by Allah,˺ \"This is the Day of ˹Final˺ Decision: We have gathered you along with earlier disbelievers ˹for punishment˺": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5399.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
         "ayah_en": {
           "So if you have a scheme ˹to save yourselves˺, then use it against Me.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5400.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5401.mp3"
       }
     ]
   },
@@ -312,35 +352,40 @@ var chapterData_77 = [
         "ayah_ar": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
         "ayah_en": {
           "Indeed, the righteous will be amid ˹cool˺ shade and springs": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5402.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
         "ayah_en": {
           "and any fruit they desire": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5403.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
         "ayah_en": {
           "˹They will be told,˺ \"Eat and drink happily for what you used to do.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5404.mp3"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
         "ayah_en": {
           "Surely this is how We reward the good-doers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5405.mp3"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "˹But˺ woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5406.mp3"
       }
     ]
   },
@@ -353,35 +398,40 @@ var chapterData_77 = [
         "ayah_ar": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ",
         "ayah_en": {
           "\"Eat and enjoy yourselves for a little while, ˹for˺ you are truly wicked.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5407.mp3"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5408.mp3"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
         "ayah_en": {
           "When it is said to them, \"Bow down ˹before Allah,\" they do not bow": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5409.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
         "ayah_en": {
           "Woe on that Day to the deniers!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5410.mp3"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
         "ayah_en": {
           "So what message after this ˹Quran˺ would they believe in?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5411.mp3"
       }
     ]
   }

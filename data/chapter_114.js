@@ -10,21 +10,24 @@ var chapterData_114 = [
           "Say, ˹O Prophet,˺": "",
           "\"I seek refuge": "",
           "in the Lord of humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5970.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَلِكِ النَّاسِ",
         "ayah_en": {
           "the Master of humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5971.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِلَٰهِ النَّاسِ",
         "ayah_en": {
           "the God of humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5972.mp3"
       }
     ]
   },
@@ -37,21 +40,24 @@ var chapterData_114 = [
         "ayah_ar": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
         "ayah_en": {
           "from the evil of the lurking whisperer": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5973.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
         "ayah_en": {
           "who whispers into the hearts of humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5974.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "مِنَ الْجِنَّةِ وَالنَّاسِ",
         "ayah_en": {
           "from among jinn and humankind": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5975.mp3"
       }
     ]
   }

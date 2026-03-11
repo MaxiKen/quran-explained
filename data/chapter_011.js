@@ -11,7 +11,8 @@ var chapterData_11 = [
           "˹This is˺ a Book whose verses are well perfected": "",
           "and then fully explained.": "",
           "˹It is˺ from the One ˹Who is˺ All-Wise, All-Aware.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1391.mp3"
       }
     ]
   },
@@ -26,7 +27,8 @@ var chapterData_11 = [
           "˹Tell them, O Prophet,˺ \"Worship none but Allah.": "",
           "Surely I am a warner": "",
           "and deliverer of good news to you from Him.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1392.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -37,7 +39,8 @@ var chapterData_11 = [
           "He will grant you a good provision for an appointed term": "",
           "and graciously reward the doers of good.": "",
           "But if you turn away, then I truly fear for you the torment of a formidable Day.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1393.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -45,7 +48,8 @@ var chapterData_11 = [
         "ayah_en": {
           "To Allah is your return.": "",
           "And He is Most Capable of everything.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1394.mp3"
       }
     ]
   },
@@ -60,7 +64,8 @@ var chapterData_11 = [
           "Indeed, they enfold ˹what is in˺ their hearts, ˹trying˺ to hide it from Him!": "",
           "But even when they cover themselves with their clothes, He knows what they conceal and what they reveal.": "",
           "Surely He knows best what is ˹hidden˺ in the heart.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1395.mp3"
       }
     ]
   },
@@ -75,7 +80,8 @@ var chapterData_11 = [
           "There is no moving creature on earth whose provision is not guaranteed by Allah.": "",
           "And He knows where it lives and where it is laid to rest.": "",
           "All is ˹written˺ in a perfect Record.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1396.mp3"
       }
     ]
   },
@@ -92,7 +98,8 @@ var chapterData_11 = [
           "in order to test which of you is best in deeds.": "",
           "And if you ˹O Prophet˺ say, \"Surely you will ˹all˺ be raised up after death,\"": "",
           "the disbelievers will certainly say, \"That is nothing but pure magic!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1397.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -102,7 +109,8 @@ var chapterData_11 = [
           "they will definitely say, \"What is holding it back?\"": "",
           "Indeed, on the Day it overtakes them, it will not be averted from them,": "",
           "and they will be overwhelmed by what they used to ridicule.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1398.mp3"
       }
     ]
   },
@@ -117,7 +125,8 @@ var chapterData_11 = [
           "If We give people a taste of Our mercy": "",
           "then take it away from them,": "",
           "they become utterly desperate, ungrateful.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1399.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -126,7 +135,8 @@ var chapterData_11 = [
           "But if We give them a taste of prosperity after being touched with adversity,": "",
           "they say, \"My ills are gone,\"": "",
           "and become totally prideful and boastful,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1400.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -134,7 +144,8 @@ var chapterData_11 = [
         "ayah_en": {
           "except those who patiently endure and do good.": "",
           "It is they who will have forgiveness and a mighty reward.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1401.mp3"
       }
     ]
   },
@@ -151,7 +162,8 @@ var chapterData_11 = [
           "because they say, \"If only a treasure had been sent down to him, or an angel had come with him!\"": "",
           "You are only a warner,": "",
           "and Allah is the Trustee of All Affairs.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1402.mp3"
       }
     ]
   },
@@ -167,7 +179,8 @@ var chapterData_11 = [
           "Say, ˹O Prophet,˺ \"Produce ten fabricated sûrahs like it": "",
           "and seek help from whoever you can—other than Allah—": "",
           "if what you say is true!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1403.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -177,7 +190,8 @@ var chapterData_11 = [
           "then know that it has been revealed with the knowledge of Allah,": "",
           "and that there is no god ˹worthy of worship˺ except Him!": "",
           "Will you ˹not˺ then submit ˹to Allah˺?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1404.mp3"
       }
     ]
   },
@@ -192,7 +206,8 @@ var chapterData_11 = [
           "Whoever desires ˹only˺ this worldly life and its luxuries,": "",
           "We will pay them in full for their deeds in this life": "",
           "—nothing will be left out.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1405.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -201,7 +216,8 @@ var chapterData_11 = [
           "It is they who will have nothing in the Hereafter except the Fire.": "",
           "Their efforts in this life will be fruitless": "",
           "and their deeds will be useless.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1406.mp3"
       }
     ]
   },
@@ -221,7 +237,8 @@ var chapterData_11 = [
           "So do not be in doubt of it.": "",
           "It is certainly the truth from your Lord,": "",
           "but most people do not believe.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1407.mp3"
       }
     ]
   },
@@ -237,7 +254,8 @@ var chapterData_11 = [
           "They will be brought before their Lord,": "",
           "and the witnesses will say, \"These are the ones who lied against their Lord.\"": "",
           "Surely Allah's condemnation is upon the wrongdoers,": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1408.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -246,7 +264,8 @@ var chapterData_11 = [
           "who hinder ˹others˺ from Allah's Path,": "",
           "striving to make it ˹appear˺ crooked,": "",
           "and disbelieve in the Hereafter.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1409.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -256,7 +275,8 @@ var chapterData_11 = [
           "and they will have no protector besides Allah.": "",
           "Their punishment will be multiplied,": "",
           "for they failed to hear or see ˹the truth˺.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1410.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -264,14 +284,16 @@ var chapterData_11 = [
         "ayah_en": {
           "It is they who have ruined themselves,": "",
           "and whatever ˹gods˺ they fabricated will fail them.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1411.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "لَا جَرَمَ أَنَّهُمْ فِي الْآخِرَةِ هُمُ الْأَخْسَرُونَ",
         "ayah_en": {
           "Without a doubt, they will be the worst losers in the Hereafter.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1412.mp3"
       }
     ]
   },
@@ -288,7 +310,8 @@ var chapterData_11 = [
           "and humble themselves before their Lord": "",
           "will be the residents of Paradise.": "",
           "They will be there forever.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1413.mp3"
       }
     ]
   },
@@ -304,7 +327,8 @@ var chapterData_11 = [
           "compared to the seeing and the hearing.": "",
           "Can the two be equal?": "",
           "Will you not then be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1414.mp3"
       }
     ]
   },
@@ -318,7 +342,8 @@ var chapterData_11 = [
         "ayah_en": {
           "Surely We sent Noah to his people.": "",
           "˹He said,˺ \"Indeed, I am sent to you with a clear warning": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1415.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -326,7 +351,8 @@ var chapterData_11 = [
         "ayah_en": {
           "that you should worship none but Allah.": "",
           "I truly fear for you the torment of a painful Day.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1416.mp3"
       }
     ]
   },
@@ -344,7 +370,8 @@ var chapterData_11 = [
           "who do so ˹hastily˺ without thinking.": "",
           "We do not see anything that makes ˹all of˺ you any better than us.": "",
           "In fact, we think you are liars.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1417.mp3"
       }
     ]
   },
@@ -360,7 +387,8 @@ var chapterData_11 = [
           "and He has blessed me with a mercy from Himself,": "",
           "which you fail to see.": "",
           "Should we ˹then˺ force it on you against your will?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1418.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -371,7 +399,8 @@ var chapterData_11 = [
           "And I will never dismiss the believers,": "",
           "for they will surely meet their Lord.": "",
           "But I can see that you are a people acting ignorantly.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1419.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -379,7 +408,8 @@ var chapterData_11 = [
         "ayah_en": {
           "O my people! Who would protect me from Allah if I were to dismiss them?": "",
           "Will you not then be mindful?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1420.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -391,7 +421,8 @@ var chapterData_11 = [
           "nor do I say that Allah will never grant goodness to those you look down upon.": "",
           "Allah knows best what is ˹hidden˺ within them.": "",
           "˹If I did,˺ then I would truly be one of the wrongdoers.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1421.mp3"
       }
     ]
   },
@@ -406,7 +437,8 @@ var chapterData_11 = [
           "They protested, \"O Noah! You have argued with us far too much,": "",
           "so bring upon us what you threaten us with,": "",
           "if what you say is true.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1422.mp3"
       },
       {
         "ayah_no_surah": 33,
@@ -414,7 +446,8 @@ var chapterData_11 = [
         "ayah_en": {
           "He responded, \"It is Allah Who can bring it upon you if He wills,": "",
           "and then you will have no escape!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1423.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -423,7 +456,8 @@ var chapterData_11 = [
           "My advice will not benefit you—no matter how hard I try—": "",
           "if Allah wills ˹for˺ you to stray.": "",
           "He is your Lord, and to Him you will ˹all˺ be returned.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1424.mp3"
       }
     ]
   },
@@ -438,7 +472,8 @@ var chapterData_11 = [
           "Or do they say, \"He has fabricated this ˹Quran˺!\"?": "",
           "Say, ˹O Prophet,˺ \"If I have done so, then I bear the burden of that sin!": "",
           "But I am free from your sinful accusation.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1425.mp3"
       }
     ]
   },
@@ -452,7 +487,8 @@ var chapterData_11 = [
         "ayah_en": {
           "And it was revealed to Noah, \"None of your people will believe except those who already have.": "",
           "So do not be distressed by what they have been doing.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1426.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -461,7 +497,8 @@ var chapterData_11 = [
           "And build the Ark under Our ˹watchful˺ Eyes and directions,": "",
           "and do not plead with Me for those who have done wrong,": "",
           "for they will surely be drowned.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1427.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -470,7 +507,8 @@ var chapterData_11 = [
           "So he began to build the Ark,": "",
           "and whenever some of the chiefs of his people passed by, they mocked him.": "",
           "He said, \"If you laugh at us, we will ˹soon˺ laugh at you similarly.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1428.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -478,7 +516,8 @@ var chapterData_11 = [
         "ayah_en": {
           "You will soon come to know who will be visited by a humiliating torment ˹in this life˺": "",
           "and overwhelmed by an everlasting punishment ˹in the next˺.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1429.mp3"
       }
     ]
   },
@@ -496,7 +535,8 @@ var chapterData_11 = [
           "along with your family—except those against whom the decree ˹to drown˺ has already been passed—": "",
           "and those who believe.\"": "",
           "But none believed with him except for a few.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1430.mp3"
       },
       {
         "ayah_no_surah": 41,
@@ -505,7 +545,8 @@ var chapterData_11 = [
           "And he said, \"Board it!": "",
           "In the Name of Allah it will sail and cast anchor.": "",
           "Surely my Lord is All-Forgiving, Most Merciful.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1431.mp3"
       }
     ]
   },
@@ -521,7 +562,8 @@ var chapterData_11 = [
           "Noah called out to his son, who stood apart,": "",
           "\"O my dear son! Come aboard with us": "",
           "and do not be with the disbelievers.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1432.mp3"
       },
       {
         "ayah_no_surah": 43,
@@ -531,7 +573,8 @@ var chapterData_11 = [
           "Noah cried, \"Today no one is protected from Allah's decree except those to whom He shows mercy!\"": "",
           "And the waves came between them,": "",
           "and his son was among the drowned.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1433.mp3"
       }
     ]
   },
@@ -549,7 +592,8 @@ var chapterData_11 = [
           "and the decree was carried out.": "",
           "The Ark rested on Mount Judi,": "",
           "and it was said, \"Away with the wrongdoing people!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1434.mp3"
       }
     ]
   },
@@ -565,7 +609,8 @@ var chapterData_11 = [
           "\"My Lord! Certainly my son is ˹also˺ of my family,": "",
           "Your promise is surely true,": "",
           "and You are the most just of all judges!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1435.mp3"
       },
       {
         "ayah_no_surah": 46,
@@ -575,7 +620,8 @@ var chapterData_11 = [
           "—he was entirely of unrighteous conduct.": "",
           "So do not ask Me about what you have no knowledge of!": "",
           "I warn you so you do not fall into ignorance.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1436.mp3"
       },
       {
         "ayah_no_surah": 47,
@@ -584,7 +630,8 @@ var chapterData_11 = [
           "Noah pleaded, \"My Lord, I seek refuge in You from asking You about what I have no knowledge of,": "",
           "and unless You forgive me and have mercy on me,": "",
           "I will be one of the losers.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1437.mp3"
       },
       {
         "ayah_no_surah": 48,
@@ -594,7 +641,8 @@ var chapterData_11 = [
           "and some of the descendants of those with you.": "",
           "As for the others, We will allow them ˹a brief˺ enjoyment,": "",
           "then they will be touched with a painful punishment from Us.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1438.mp3"
       }
     ]
   },
@@ -610,7 +658,8 @@ var chapterData_11 = [
           "Neither you nor your people knew it before this.": "",
           "So be patient!": "",
           "Surely the ultimate outcome belongs ˹only˺ to the righteous.": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1439.mp3"
       }
     ]
   },
@@ -626,7 +675,8 @@ var chapterData_11 = [
           "He said, \"O my people! Worship Allah.": "",
           "You have no god other than Him.": "",
           "You do nothing but fabricate lies ˹against Allah˺.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1440.mp3"
       },
       {
         "ayah_no_surah": 51,
@@ -635,7 +685,8 @@ var chapterData_11 = [
           "O my people! I do not ask you for any reward for this ˹message˺.": "",
           "My reward is only from the One Who created me.": "",
           "Will you not then understand?": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1441.mp3"
       },
       {
         "ayah_no_surah": 52,
@@ -646,7 +697,8 @@ var chapterData_11 = [
           "He will shower you with rain in abundance,": "",
           "and add strength to your strength.": "",
           "So do not turn away, persisting in wickedness.\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1442.mp3"
       }
     ]
   }

@@ -10,7 +10,8 @@ var chapterData_66 = [
           "O Prophet! Why do you prohibit ˹yourself˺ from what Allah has made lawful to you": "",
           "seeking to please your wives": "",
           "And Allah is All-Forgiving, Most Merciful": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4969.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +20,8 @@ var chapterData_66 = [
           "Allah has already ordained for you ˹believers˺ the way to absolve yourselves from your oaths": "",
           "For Allah is your Guardian": "",
           "And He is the All-Knowing, All-Wise": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4970.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -31,7 +33,8 @@ var chapterData_66 = [
           "he presented ˹to her˺ part of what was disclosed and overlooked a part": "",
           "So when he informed her of it, she exclaimed, \"Who told you this?\"": "",
           "He replied, \"I was informed by the All-Knowing, All-Aware\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4971.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -42,7 +45,8 @@ var chapterData_66 = [
           "But if you ˹continue to˺ collaborate against him": "",
           "then ˹know that˺ Allah Himself is his Guardian": "",
           "And Gabriel, the righteous believers, and the angels are ˹all˺ his supporters as well": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4972.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -55,7 +59,8 @@ var chapterData_66 = [
           "repentant": "",
           "dedicated to worship and fasting": "",
           "previously married or virgins": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4973.mp3"
       }
     ]
   },
@@ -71,7 +76,8 @@ var chapterData_66 = [
           "whose fuel is people and stones": "",
           "overseen by formidable and severe angels": "",
           "who never disobey whatever Allah orders—always doing as commanded": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4974.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -79,7 +85,8 @@ var chapterData_66 = [
         "ayah_en": {
           "˹The deniers will then be told,˺ \"O disbelievers! Make no excuses this Day!\"": "",
           "You are only rewarded for what you used to do": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4975.mp3"
       }
     ]
   },
@@ -98,7 +105,8 @@ var chapterData_66 = [
           "Their light will shine ahead of them and on their right": "",
           "They will say, \"Our Lord! Perfect our light for us, and forgive us\"": "",
           "˹For˺ You are truly Most Capable of everything": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4976.mp3"
       }
     ]
   },
@@ -114,7 +122,8 @@ var chapterData_66 = [
           "and be firm with them": "",
           "Hell will be their home": "",
           "What an evil destination!": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4977.mp3"
       }
     ]
   },
@@ -131,7 +140,8 @@ var chapterData_66 = [
           "yet betrayed them": "",
           "So their husbands were of no benefit to them against Allah whatsoever": "",
           "Both were told, \"Enter the Fire, along with the others!\"": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4978.mp3"
       }
     ]
   },
@@ -147,7 +157,8 @@ var chapterData_66 = [
           "who prayed, \"My Lord! Build me a house in Paradise near You\"": "",
           "deliver me from Pharaoh and his ˹evil˺ doing": "",
           "and save me from the wrongdoing people": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4979.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -158,7 +169,8 @@ var chapterData_66 = [
           "so We breathed into her ˹womb˺ through Our angel ˹Gabriel˺": "",
           "She testified to the words of her Lord and His Scriptures": "",
           "and was one of the ˹sincerely˺ devout": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4980.mp3"
       }
     ]
   }

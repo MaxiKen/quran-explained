@@ -9,21 +9,24 @@ var chapterData_107 = [
         "ayah_en": {
           "Have you seen": "",
           "the one who denies the ˹final˺ Judgment": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5937.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
         "ayah_en": {
           "That is the one who repulses the orphan": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5938.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
         "ayah_en": {
           "and does not encourage the feeding of the poor": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5939.mp3"
       }
     ]
   },
@@ -37,28 +40,32 @@ var chapterData_107 = [
         "ayah_en": {
           "So woe": "",
           "to those ˹hypocrites˺ who pray": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5940.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
         "ayah_en": {
           "yet are unmindful of their prayers": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5941.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "الَّذِينَ هُمْ يُرَاءُونَ",
         "ayah_en": {
           "those who ˹only˺ show off": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5942.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَيَمْنَعُونَ الْمَاعُونَ",
         "ayah_en": {
           "and refuse to give ˹even the simplest˺ aid": ""
-        }
+        },
+        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5943.mp3"
       }
     ]
   }
