@@ -10,7 +10,7 @@ var chapterData_112 = [
           "Say, ˹O Prophet,˺": "",
           "\"He is Allah—One ˹and Indivisible˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5961.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6208.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_112 = [
         "ayah_en": {
           "Allah—the Sustainer ˹needed by all˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5962.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6209.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -27,7 +27,7 @@ var chapterData_112 = [
           "He has never had offspring": "",
           "nor was He born": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5963.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6210.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -35,7 +35,7 @@ var chapterData_112 = [
         "ayah_en": {
           "And there is none comparable to Him.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5964.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6211.mp3"
       }
     ]
   }

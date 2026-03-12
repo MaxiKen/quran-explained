@@ -9,7 +9,7 @@ var chapterData_82 = [
         "ayah_en": {
           "When the sky splits open": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5569.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5816.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_82 = [
         "ayah_en": {
           "and when the stars fall away": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5570.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5817.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_82 = [
         "ayah_en": {
           "and when the seas burst forth": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5571.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5818.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_82 = [
         "ayah_en": {
           "and when the graves spill out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5572.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5819.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_82 = [
         "ayah_en": {
           "˹then˺ each soul will know what it has sent forth or left behind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5573.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5820.mp3"
       }
     ]
   },
@@ -55,7 +55,7 @@ var chapterData_82 = [
         "ayah_en": {
           "O humanity! What has emboldened you against your Lord, the Most Generous": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5574.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5821.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -63,7 +63,7 @@ var chapterData_82 = [
         "ayah_en": {
           "Who created you, fashioned you, and perfected your design": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5575.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5822.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -71,7 +71,7 @@ var chapterData_82 = [
         "ayah_en": {
           "moulding you in whatever form He willed": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5576.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5823.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -79,7 +79,7 @@ var chapterData_82 = [
         "ayah_en": {
           "But no! In fact, you deny the ˹final˺ Judgment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5577.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5824.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +87,7 @@ var chapterData_82 = [
         "ayah_en": {
           "while you are certainly observed by vigilant": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5578.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5825.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -95,7 +95,7 @@ var chapterData_82 = [
         "ayah_en": {
           "honourable angels, recording ˹everything˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5579.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5826.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -103,7 +103,7 @@ var chapterData_82 = [
         "ayah_en": {
           "They know whatever you do": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5580.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5827.mp3"
       }
     ]
   },
@@ -117,7 +117,7 @@ var chapterData_82 = [
         "ayah_en": {
           "Indeed, the virtuous will be in bliss": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5581.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5828.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -125,7 +125,7 @@ var chapterData_82 = [
         "ayah_en": {
           "and the wicked will be in Hell": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5582.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5829.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -133,7 +133,7 @@ var chapterData_82 = [
         "ayah_en": {
           "burning in it on Judgment Day": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5583.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5830.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -141,7 +141,7 @@ var chapterData_82 = [
         "ayah_en": {
           "and they will have no escape from it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5584.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5831.mp3"
       }
     ]
   },
@@ -155,7 +155,7 @@ var chapterData_82 = [
         "ayah_en": {
           "What will make you realize what Judgment Day is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5585.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5832.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -163,7 +163,7 @@ var chapterData_82 = [
         "ayah_en": {
           "Again, what will make you realize what Judgment Day is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5586.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5833.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -172,7 +172,7 @@ var chapterData_82 = [
           "˹It is˺ the Day no soul will be of ˹any˺ benefit to another whatsoever": "",
           "for all authority on that Day belongs to Allah ˹entirely˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5587.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5834.mp3"
       }
     ]
   }

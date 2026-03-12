@@ -10,7 +10,7 @@ var chapterData_61 = [
           "Whatever is in the heavens and whatever is on the earth glorifies Allah.": "",
           "For He ˹alone˺ is the Almighty, All-Wise.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4903.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5150.mp3"
       }
     ]
   },
@@ -25,7 +25,7 @@ var chapterData_61 = [
           "O believers!": "",
           "Why do you say what you do not do?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4904.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5151.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -34,7 +34,7 @@ var chapterData_61 = [
           "How despicable it is in the sight of Allah": "",
           "that you say what you do not do!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4905.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5152.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -43,7 +43,7 @@ var chapterData_61 = [
           "Surely Allah loves those who fight in His cause": "",
           "in ˹solid˺ ranks as if they were one concrete structure.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4906.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5153.mp3"
       }
     ]
   },
@@ -60,7 +60,7 @@ var chapterData_61 = [
           "So when they ˹persistently˺ deviated, Allah caused their hearts to deviate.": "",
           "For Allah does not guide the rebellious people.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4907.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5154.mp3"
       }
     ]
   },
@@ -78,7 +78,7 @@ var chapterData_61 = [
           "and giving good news of a messenger after me whose name will be Aḥmad.\"": "",
           "Yet when the Prophet came to them with clear proofs, they said, \"This is pure magic.\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4908.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5155.mp3"
       }
     ]
   },
@@ -94,7 +94,7 @@ var chapterData_61 = [
           "when invited to submit ˹to Him˺?": "",
           "For Allah does not guide the wrongdoing people.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4909.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5156.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -104,7 +104,7 @@ var chapterData_61 = [
           "but Allah will ˹certainly˺ perfect His light,": "",
           "even to the dismay of the disbelievers.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4910.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5157.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -115,7 +115,7 @@ var chapterData_61 = [
           "making it prevail over all others,": "",
           "even to the dismay of the polytheists.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4911.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5158.mp3"
       }
     ]
   },
@@ -130,7 +130,7 @@ var chapterData_61 = [
           "O believers!": "",
           "Shall I guide you to an exchange that will save you from a painful punishment?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4912.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5159.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -140,7 +140,7 @@ var chapterData_61 = [
           "and strive in the cause of Allah with your wealth and your lives.": "",
           "That is best for you, if only you knew.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4913.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5160.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -151,7 +151,7 @@ var chapterData_61 = [
           "and ˹house you in˺ splendid homes in the Gardens of Eternity.": "",
           "That is the ultimate triumph.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4914.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5161.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -161,7 +161,7 @@ var chapterData_61 = [
           "help from Allah and an imminent victory.": "",
           "˹So˺ give good news ˹O Prophet˺ to the believers.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4915.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5162.mp3"
       }
     ]
   },
@@ -179,7 +179,7 @@ var chapterData_61 = [
           "Then a group from the Children of Israel believed while another disbelieved.": "",
           "We then supported the believers against their enemies, so they prevailed.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4916.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5163.mp3"
       }
     ]
   }

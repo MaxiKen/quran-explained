@@ -10,7 +10,7 @@ var chapterData_96 = [
           "Read, ˹O Prophet,˺ in the Name of your Lord": "",
           "Who created": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5846.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6093.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_96 = [
         "ayah_en": {
           "created humans from a clinging clot": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5847.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6094.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_96 = [
         "ayah_en": {
           "Read! And your Lord is the Most Generous": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5848.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6095.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -34,7 +34,7 @@ var chapterData_96 = [
         "ayah_en": {
           "Who taught by the pen": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5849.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6096.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -42,7 +42,7 @@ var chapterData_96 = [
         "ayah_en": {
           "taught humanity what they knew not": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5850.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6097.mp3"
       }
     ]
   },
@@ -56,7 +56,7 @@ var chapterData_96 = [
         "ayah_en": {
           "Most certainly, one exceeds all bounds": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5851.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6098.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -64,7 +64,7 @@ var chapterData_96 = [
         "ayah_en": {
           "once they think they are self-sufficient": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5852.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6099.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -72,7 +72,7 @@ var chapterData_96 = [
         "ayah_en": {
           "˹But˺ surely to your Lord is the return ˹of all˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5853.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6100.mp3"
       }
     ]
   },
@@ -86,7 +86,7 @@ var chapterData_96 = [
         "ayah_en": {
           "Have you seen the man who prevents": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5854.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6101.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -94,7 +94,7 @@ var chapterData_96 = [
         "ayah_en": {
           "a servant ˹of Ours˺ from praying?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5855.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6102.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -102,7 +102,7 @@ var chapterData_96 = [
         "ayah_en": {
           "What if this ˹servant˺ is ˹rightly˺ guided": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5856.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6103.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -110,7 +110,7 @@ var chapterData_96 = [
         "ayah_en": {
           "or encourages righteousness?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5857.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6104.mp3"
       }
     ]
   },
@@ -124,7 +124,7 @@ var chapterData_96 = [
         "ayah_en": {
           "What if that ˹man˺ persists in denial and turns away?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5858.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6105.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -132,7 +132,7 @@ var chapterData_96 = [
         "ayah_en": {
           "Does he not know that Allah sees ˹all˺?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5859.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6106.mp3"
       }
     ]
   },
@@ -146,7 +146,7 @@ var chapterData_96 = [
         "ayah_en": {
           "But no! If he does not desist, We will certainly drag him by the forelock": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5860.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6107.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -154,7 +154,7 @@ var chapterData_96 = [
         "ayah_en": {
           "a lying, sinful forelock": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5861.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6108.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -162,7 +162,7 @@ var chapterData_96 = [
         "ayah_en": {
           "So let him call his associates": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5862.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6109.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -170,7 +170,7 @@ var chapterData_96 = [
         "ayah_en": {
           "We will call the wardens of Hell": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5863.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6110.mp3"
       }
     ]
   },
@@ -185,7 +185,7 @@ var chapterData_96 = [
           "Again, no! Never obey him ˹O Prophet˺!": "",
           "Rather, ˹continue to˺ prostrate and draw near ˹to Allah˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5864.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6111.mp3"
       }
     ]
   }

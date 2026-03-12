@@ -10,7 +10,7 @@ var chapterData_87 = [
           "Glorify the Name of your Lord": "",
           "the Most High": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5688.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5935.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +19,7 @@ var chapterData_87 = [
           "Who created": "",
           "and perfectly fashioned all": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5689.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5936.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -28,7 +28,7 @@ var chapterData_87 = [
           "and Who ordained precisely": "",
           "and inspired accordingly": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5690.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5937.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -36,7 +36,7 @@ var chapterData_87 = [
         "ayah_en": {
           "and Who brings forth green pasture": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5691.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5938.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -44,7 +44,7 @@ var chapterData_87 = [
         "ayah_en": {
           "then reduces it to withered chaff": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5692.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5939.mp3"
       }
     ]
   },
@@ -59,7 +59,7 @@ var chapterData_87 = [
           "We will have you recite the Quran, O Prophet": "",
           "so you will not forget any of it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5693.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5940.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -68,7 +68,7 @@ var chapterData_87 = [
           "unless Allah wills otherwise": "",
           "He surely knows what is open and what is hidden": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5694.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5941.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -76,7 +76,7 @@ var chapterData_87 = [
         "ayah_en": {
           "We will facilitate for you the Way of Ease": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5695.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5942.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -85,7 +85,7 @@ var chapterData_87 = [
           "So always remind with the Quran": "",
           "even if the reminder is beneficial only to some": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5696.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5943.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -93,7 +93,7 @@ var chapterData_87 = [
         "ayah_en": {
           "Those in awe of Allah will be mindful of it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5697.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5944.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -101,7 +101,7 @@ var chapterData_87 = [
         "ayah_en": {
           "But it will be shunned by the most wretched": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5698.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5945.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -109,7 +109,7 @@ var chapterData_87 = [
         "ayah_en": {
           "who will burn in the greatest Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5699.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5946.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -117,7 +117,7 @@ var chapterData_87 = [
         "ayah_en": {
           "where they will not be able to live or die": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5700.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5947.mp3"
       }
     ]
   },
@@ -131,7 +131,7 @@ var chapterData_87 = [
         "ayah_en": {
           "Successful indeed are those who purify themselves": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5701.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5948.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -140,7 +140,7 @@ var chapterData_87 = [
           "remember the Name of their Lord": "",
           "and pray": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5702.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5949.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -148,7 +148,7 @@ var chapterData_87 = [
         "ayah_en": {
           "But you deniers only prefer the life of this world": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5703.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5950.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -156,7 +156,7 @@ var chapterData_87 = [
         "ayah_en": {
           "even though the Hereafter is far better and more lasting": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5704.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5951.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -164,7 +164,7 @@ var chapterData_87 = [
         "ayah_en": {
           "This is certainly mentioned in the earlier Scriptures": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5705.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5952.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -172,7 +172,7 @@ var chapterData_87 = [
         "ayah_en": {
           "the Scriptures of Abraham and Moses": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5706.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5953.mp3"
       }
     ]
   }

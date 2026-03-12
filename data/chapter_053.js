@@ -9,7 +9,7 @@ var chapterData_53 = [
         "ayah_en": {
           "By the stars when they fade away!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4524.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4771.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_53 = [
           "Your fellow man": "",
           "is neither misguided nor astray": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4525.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4772.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Nor does he speak of his own whims": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4526.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4773.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -34,7 +34,7 @@ var chapterData_53 = [
         "ayah_en": {
           "It is only a revelation sent down ˹to him˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4527.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4774.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -42,7 +42,7 @@ var chapterData_53 = [
         "ayah_en": {
           "He has been taught by one ˹angel˺ of mighty power": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4528.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4775.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -50,7 +50,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and great perfection, who once rose to ˹his˺ true form": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4529.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4776.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -58,7 +58,7 @@ var chapterData_53 = [
         "ayah_en": {
           "while on the highest point above the horizon": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4530.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4777.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -66,7 +66,7 @@ var chapterData_53 = [
         "ayah_en": {
           "then he approached ˹the Prophet˺, coming so close": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4531.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4778.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -74,7 +74,7 @@ var chapterData_53 = [
         "ayah_en": {
           "that he was only two arms-lengths away or even less": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4532.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4779.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -82,7 +82,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Then Allah revealed to His servant what He revealed ˹through Gabriel˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4533.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4780.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -90,7 +90,7 @@ var chapterData_53 = [
         "ayah_en": {
           "The ˹Prophet's˺ heart did not doubt what he saw": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4534.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4781.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -98,7 +98,7 @@ var chapterData_53 = [
         "ayah_en": {
           "How can you ˹O pagans˺ then dispute with him regarding what he saw?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4535.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4782.mp3"
       }
     ]
   },
@@ -112,7 +112,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And he certainly saw that ˹angel descend˺ a second time": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4536.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4783.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -120,7 +120,7 @@ var chapterData_53 = [
         "ayah_en": {
           "at the Lote Tree of the most extreme limit ˹in the seventh heaven˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4537.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4784.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -128,7 +128,7 @@ var chapterData_53 = [
         "ayah_en": {
           "near which is the Garden of ˹Eternal˺ Residence": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4538.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4785.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -136,7 +136,7 @@ var chapterData_53 = [
         "ayah_en": {
           "while the Lote Tree was overwhelmed with ˹heavenly˺ splendours!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4539.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4786.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -144,7 +144,7 @@ var chapterData_53 = [
         "ayah_en": {
           "The ˹Prophet's˺ sight never wandered, nor did it overreach": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4540.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4787.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -152,7 +152,7 @@ var chapterData_53 = [
         "ayah_en": {
           "He certainly saw some of his Lord's greatest signs": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4541.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4788.mp3"
       }
     ]
   },
@@ -166,7 +166,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Now, have you considered ˹the idols of˺ Lât and 'Uzza": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4542.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4789.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -174,7 +174,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and the third one, Manât, as well?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4543.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4790.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -182,7 +182,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Do you ˹prefer to˺ have sons while ˹you attribute˺ to Him daughters?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4544.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4791.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -190,7 +190,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Then this is ˹truly˺ a biased distribution!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4545.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4792.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -201,7 +201,7 @@ var chapterData_53 = [
           "They follow nothing but ˹inherited˺ assumptions and whatever ˹their˺ souls desire": "",
           "although ˹true˺ guidance has already come to them from their Lord": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4546.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4793.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -209,7 +209,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Or should every person ˹simply˺ have whatever ˹intercessors˺ they desire?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4547.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4794.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -217,7 +217,7 @@ var chapterData_53 = [
         "ayah_en": {
           "In fact, to Allah ˹alone˺ belongs this world and the next": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4548.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4795.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -227,7 +227,7 @@ var chapterData_53 = [
           "˹Even˺ their intercession would be of no benefit whatsoever": "",
           "until Allah gives permission to whoever He wills and ˹only for the people He˺ approves": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4549.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4796.mp3"
       }
     ]
   },
@@ -241,7 +241,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Indeed, those who do not believe in the Hereafter label angels as female": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4550.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4797.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -251,7 +251,7 @@ var chapterData_53 = [
           "They follow nothing but ˹inherited˺ assumptions": "",
           "And surely assumptions can in no way replace the truth": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4551.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4798.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -260,7 +260,7 @@ var chapterData_53 = [
           "So turn away ˹O Prophet˺ from whoever has shunned Our Reminder": "",
           "only seeking the ˹fleeting˺ life of this world": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4552.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4799.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -270,7 +270,7 @@ var chapterData_53 = [
           "Surely your Lord knows best who has strayed from His Way": "",
           "and who is ˹rightly˺ guided": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4553.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4800.mp3"
       }
     ]
   },
@@ -286,7 +286,7 @@ var chapterData_53 = [
           "so that He may reward the evildoers according to what they did": "",
           "and reward the good-doers with the finest reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4554.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4801.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -299,7 +299,7 @@ var chapterData_53 = [
           "So do not ˹falsely˺ elevate yourselves": "",
           "He knows best who is ˹truly˺ righteous": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4555.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4802.mp3"
       }
     ]
   },
@@ -313,7 +313,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Have you seen the one who turned away ˹from Islam,˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4556.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4803.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -321,7 +321,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and ˹initially˺ paid a little ˹for his salvation˺, and then stopped?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4557.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4804.mp3"
       },
       {
         "ayah_no_surah": 35,
@@ -329,7 +329,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Does he have the knowledge of the unseen so that he sees ˹the Hereafter˺?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4558.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4805.mp3"
       },
       {
         "ayah_no_surah": 36,
@@ -337,7 +337,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Or has he not been informed of what is in the Scripture of Moses": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4559.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4806.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -345,7 +345,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and ˹that of˺ Abraham, who ˹perfectly˺ fulfilled ˹his covenant˺?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4560.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4807.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -353,7 +353,7 @@ var chapterData_53 = [
         "ayah_en": {
           "˹They state˺ that no soul burdened with sin will bear the burden of another": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4561.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4808.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -361,7 +361,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and that each person will only have what they endeavoured towards": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4562.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4809.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -369,7 +369,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and that ˹the outcome of˺ their endeavours will be seen ˹in their record˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4563.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4810.mp3"
       },
       {
         "ayah_no_surah": 41,
@@ -377,7 +377,7 @@ var chapterData_53 = [
         "ayah_en": {
           "then they will be fully rewarded": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4564.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4811.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -385,7 +385,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and that to your Lord ˹alone˺ is the ultimate return ˹of all things˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4565.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4812.mp3"
       }
     ]
   },
@@ -399,7 +399,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Moreover, He is the One Who brings about joy and sadness": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4566.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4813.mp3"
       },
       {
         "ayah_no_surah": 44,
@@ -407,7 +407,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And He is the One Who gives life and causes death": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4567.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4814.mp3"
       },
       {
         "ayah_no_surah": 45,
@@ -415,7 +415,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And He created the pairs—males and females—": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4568.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4815.mp3"
       },
       {
         "ayah_no_surah": 46,
@@ -423,7 +423,7 @@ var chapterData_53 = [
         "ayah_en": {
           "from a sperm-drop when it is emitted": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4569.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4816.mp3"
       },
       {
         "ayah_no_surah": 47,
@@ -431,7 +431,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And it is upon Him to bring about re-creation": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4570.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4817.mp3"
       },
       {
         "ayah_no_surah": 48,
@@ -439,7 +439,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And He is the One Who enriches and impoverishes": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4571.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4818.mp3"
       },
       {
         "ayah_no_surah": 49,
@@ -447,7 +447,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And He alone is the Lord of Sirius": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4572.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4819.mp3"
       }
     ]
   },
@@ -461,7 +461,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And He destroyed the first ˹people of˺ 'Ȃd": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4573.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4820.mp3"
       },
       {
         "ayah_no_surah": 51,
@@ -469,7 +469,7 @@ var chapterData_53 = [
         "ayah_en": {
           "and ˹then˺ Thamûd, sparing no one": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4574.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4821.mp3"
       },
       {
         "ayah_no_surah": 52,
@@ -478,7 +478,7 @@ var chapterData_53 = [
           "And before ˹that He destroyed˺ the people of Noah": "",
           "who were truly far worse in wrongdoing and transgression": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4575.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4822.mp3"
       },
       {
         "ayah_no_surah": 53,
@@ -486,7 +486,7 @@ var chapterData_53 = [
         "ayah_en": {
           "And ˹it was˺ He ˹Who˺ turned the cities ˹of Sodom and Gomorrah˺ upside down": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4576.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4823.mp3"
       },
       {
         "ayah_no_surah": 54,
@@ -494,7 +494,7 @@ var chapterData_53 = [
         "ayah_en": {
           "How overwhelming was what covered ˹them˺!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4577.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4824.mp3"
       },
       {
         "ayah_no_surah": 55,
@@ -502,7 +502,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Now, which of your Lord's favours will you dispute?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4578.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4825.mp3"
       }
     ]
   },
@@ -516,7 +516,7 @@ var chapterData_53 = [
         "ayah_en": {
           "This ˹Prophet˺ is a warner like earlier ones": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4579.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4826.mp3"
       },
       {
         "ayah_no_surah": 57,
@@ -524,7 +524,7 @@ var chapterData_53 = [
         "ayah_en": {
           "The approaching ˹Hour˺ has drawn near": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4580.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4827.mp3"
       },
       {
         "ayah_no_surah": 58,
@@ -532,7 +532,7 @@ var chapterData_53 = [
         "ayah_en": {
           "None but Allah can disclose it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4581.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4828.mp3"
       },
       {
         "ayah_no_surah": 59,
@@ -540,7 +540,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Do you find this revelation astonishing": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4582.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4829.mp3"
       },
       {
         "ayah_no_surah": 60,
@@ -548,7 +548,7 @@ var chapterData_53 = [
         "ayah_en": {
           "laughing ˹at it˺ and not weeping ˹in awe˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4583.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4830.mp3"
       },
       {
         "ayah_no_surah": 61,
@@ -556,7 +556,7 @@ var chapterData_53 = [
         "ayah_en": {
           "while persisting in heedlessness?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4584.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4831.mp3"
       },
       {
         "ayah_no_surah": 62,
@@ -564,7 +564,7 @@ var chapterData_53 = [
         "ayah_en": {
           "Instead, prostrate to Allah and worship ˹Him alone˺!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4585.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4832.mp3"
       }
     ]
   }

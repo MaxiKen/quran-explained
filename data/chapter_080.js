@@ -10,7 +10,7 @@ var chapterData_80 = [
           "He frowned": "",
           "and turned ˹his attention˺ away": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5498.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5745.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_80 = [
         "ayah_en": {
           "˹simply˺ because the blind man came to him ˹interrupting˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5499.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5746.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_80 = [
         "ayah_en": {
           "You never know ˹O Prophet˺, perhaps he may be purified": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5500.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5747.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -34,7 +34,7 @@ var chapterData_80 = [
         "ayah_en": {
           "or he may be mindful, benefitting from the reminder": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5501.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5748.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -42,7 +42,7 @@ var chapterData_80 = [
         "ayah_en": {
           "As for the one who was indifferent": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5502.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5749.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -50,7 +50,7 @@ var chapterData_80 = [
         "ayah_en": {
           "you gave him your ˹undivided˺ attention": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5503.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5750.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -58,7 +58,7 @@ var chapterData_80 = [
         "ayah_en": {
           "even though you are not to blame if he would not be purified": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5504.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5751.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -66,7 +66,7 @@ var chapterData_80 = [
         "ayah_en": {
           "But as for the one who came to you, eager ˹to learn˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5505.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5752.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -74,7 +74,7 @@ var chapterData_80 = [
         "ayah_en": {
           "being in awe ˹of Allah˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5506.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5753.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -82,7 +82,7 @@ var chapterData_80 = [
         "ayah_en": {
           "you were inattentive to him": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5507.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5754.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -90,7 +90,7 @@ var chapterData_80 = [
         "ayah_en": {
           "But no! This ˹revelation˺ is truly a reminder": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5508.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5755.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -98,7 +98,7 @@ var chapterData_80 = [
         "ayah_en": {
           "So let whoever wills be mindful of it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5509.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5756.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -106,7 +106,7 @@ var chapterData_80 = [
         "ayah_en": {
           "It is ˹written˺ on pages held in honour": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5510.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5757.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -114,7 +114,7 @@ var chapterData_80 = [
         "ayah_en": {
           "highly esteemed, purified": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5511.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5758.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -122,7 +122,7 @@ var chapterData_80 = [
         "ayah_en": {
           "by the hands of angel-scribes": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5512.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5759.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -130,7 +130,7 @@ var chapterData_80 = [
         "ayah_en": {
           "honourable and virtuous": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5513.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5760.mp3"
       }
     ]
   },
@@ -144,7 +144,7 @@ var chapterData_80 = [
         "ayah_en": {
           "Condemned are ˹disbelieving˺ humans! How ungrateful they are ˹to Allah˺!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5514.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5761.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -152,7 +152,7 @@ var chapterData_80 = [
         "ayah_en": {
           "From what substance did He create them?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5515.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5762.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -160,7 +160,7 @@ var chapterData_80 = [
         "ayah_en": {
           "He created them from a sperm-drop, and ordained their development": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5516.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5763.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -168,7 +168,7 @@ var chapterData_80 = [
         "ayah_en": {
           "Then He makes the way easy for them": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5517.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5764.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -176,7 +176,7 @@ var chapterData_80 = [
         "ayah_en": {
           "then causes them to die and be buried": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5518.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5765.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -184,7 +184,7 @@ var chapterData_80 = [
         "ayah_en": {
           "Then when He wills, He will resurrect them": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5519.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5766.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -192,7 +192,7 @@ var chapterData_80 = [
         "ayah_en": {
           "But no! They have failed to comply with what He ordered": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5520.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5767.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -200,7 +200,7 @@ var chapterData_80 = [
         "ayah_en": {
           "Let people then consider their food": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5521.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5768.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -208,7 +208,7 @@ var chapterData_80 = [
         "ayah_en": {
           "how We pour down rain in abundance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5522.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5769.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -216,7 +216,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and meticulously split the earth open ˹for sprouts˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5523.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5770.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -224,7 +224,7 @@ var chapterData_80 = [
         "ayah_en": {
           "causing grain to grow in it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5524.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5771.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -232,7 +232,7 @@ var chapterData_80 = [
         "ayah_en": {
           "as well as grapes and greens": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5525.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5772.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -240,7 +240,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and olives and palm trees": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5526.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5773.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -248,7 +248,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and dense orchards": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5527.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5774.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -256,7 +256,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and fruit and fodder": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5528.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5775.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -264,7 +264,7 @@ var chapterData_80 = [
         "ayah_en": {
           "all as ˹a means of˺ sustenance for you and your animals": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5529.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5776.mp3"
       }
     ]
   },
@@ -278,7 +278,7 @@ var chapterData_80 = [
         "ayah_en": {
           "Then, when the Deafening Blast comes to pass": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5530.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5777.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -286,7 +286,7 @@ var chapterData_80 = [
         "ayah_en": {
           "on that Day every person will flee from their own siblings": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5531.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5778.mp3"
       },
       {
         "ayah_no_surah": 35,
@@ -294,7 +294,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and ˹even˺ their mother and father": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5532.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5779.mp3"
       },
       {
         "ayah_no_surah": 36,
@@ -302,7 +302,7 @@ var chapterData_80 = [
         "ayah_en": {
           "and ˹even˺ their spouse and children": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5533.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5780.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -310,7 +310,7 @@ var chapterData_80 = [
         "ayah_en": {
           "For then everyone will have enough concern of their own": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5534.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5781.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -318,7 +318,7 @@ var chapterData_80 = [
         "ayah_en": {
           "On that Day ˹some˺ faces will be bright": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5535.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5782.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -326,7 +326,7 @@ var chapterData_80 = [
         "ayah_en": {
           "laughing and rejoicing": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5536.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5783.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -334,7 +334,7 @@ var chapterData_80 = [
         "ayah_en": {
           "while ˹other˺ faces will be dusty": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5537.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5784.mp3"
       },
       {
         "ayah_no_surah": 41,
@@ -342,7 +342,7 @@ var chapterData_80 = [
         "ayah_en": {
           "cast in gloom": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5538.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5785.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -350,7 +350,7 @@ var chapterData_80 = [
         "ayah_en": {
           "those are the disbelievers, the ˹wicked˺ sinners": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5539.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5786.mp3"
       }
     ]
   }

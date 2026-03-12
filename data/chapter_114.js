@@ -11,7 +11,7 @@ var chapterData_114 = [
           "\"I seek refuge": "",
           "in the Lord of humankind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5970.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6217.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +19,7 @@ var chapterData_114 = [
         "ayah_en": {
           "the Master of humankind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5971.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6218.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -27,7 +27,7 @@ var chapterData_114 = [
         "ayah_en": {
           "the God of humankind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5972.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6219.mp3"
       }
     ]
   },
@@ -41,7 +41,7 @@ var chapterData_114 = [
         "ayah_en": {
           "from the evil of the lurking whisperer": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5973.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6220.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -49,7 +49,7 @@ var chapterData_114 = [
         "ayah_en": {
           "who whispers into the hearts of humankind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5974.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6221.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -57,7 +57,7 @@ var chapterData_114 = [
         "ayah_en": {
           "from among jinn and humankind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5975.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6222.mp3"
       }
     ]
   }

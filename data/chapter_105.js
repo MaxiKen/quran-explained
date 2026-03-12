@@ -11,7 +11,7 @@ var chapterData_105 = [
           "how your Lord dealt with": "",
           "the Army of the Elephant": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5928.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6175.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +19,7 @@ var chapterData_105 = [
         "ayah_en": {
           "Did He not frustrate their scheme": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5929.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6176.mp3"
       }
     ]
   },
@@ -34,7 +34,7 @@ var chapterData_105 = [
           "For He sent against them": "",
           "flocks of birds": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5930.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6177.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -43,7 +43,7 @@ var chapterData_105 = [
           "that pelted them": "",
           "with stones of baked clay": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5931.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6178.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -51,7 +51,7 @@ var chapterData_105 = [
         "ayah_en": {
           "leaving them like chewed up straw": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5932.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6179.mp3"
       }
     ]
   }

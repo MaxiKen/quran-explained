@@ -9,7 +9,7 @@ var chapterData_95 = [
         "ayah_en": {
           "By the fig and the olive ˹of Jerusalem˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5838.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6085.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_95 = [
         "ayah_en": {
           "and Mount Sinai": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5839.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6086.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_95 = [
         "ayah_en": {
           "and this secure city ˹of Mecca˺!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5840.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6087.mp3"
       }
     ]
   },
@@ -39,7 +39,7 @@ var chapterData_95 = [
         "ayah_en": {
           "Indeed, We created humans in the best form": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5841.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6088.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -47,7 +47,7 @@ var chapterData_95 = [
         "ayah_en": {
           "But We will reduce them to the lowest of the low ˹in Hell˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5842.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6089.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -56,7 +56,7 @@ var chapterData_95 = [
           "except those who believe and do good": "",
           "they will have a never-ending reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5843.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6090.mp3"
       }
     ]
   },
@@ -70,7 +70,7 @@ var chapterData_95 = [
         "ayah_en": {
           "Now, what makes you deny the ˹final˺ Judgment?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5844.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6091.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -78,7 +78,7 @@ var chapterData_95 = [
         "ayah_en": {
           "Is Allah not the most just of all judges?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5845.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6092.mp3"
       }
     ]
   }

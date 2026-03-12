@@ -12,7 +12,7 @@ var chapterData_49 = [
           "And fear Allah": "",
           "Surely Allah is All-Hearing, All-Knowing": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4352.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4599.mp3"
       }
     ]
   },
@@ -29,7 +29,7 @@ var chapterData_49 = [
           "nor speak loudly to him as you do to one another": "",
           "or your deeds will become void while you are unaware": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4353.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4600.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -39,7 +39,7 @@ var chapterData_49 = [
           "are the ones whose hearts Allah has refined for righteousness": "",
           "They will have forgiveness and a great reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4354.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4601.mp3"
       }
     ]
   },
@@ -54,7 +54,7 @@ var chapterData_49 = [
           "Indeed, most of those who call out to you ˹O Prophet˺ from outside ˹your˺ private quarters": "",
           "have no understanding ˹of manners˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4355.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4602.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -64,7 +64,7 @@ var chapterData_49 = [
           "it would have certainly been better for them": "",
           "And Allah is All-Forgiving, Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4356.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4603.mp3"
       }
     ]
   },
@@ -80,7 +80,7 @@ var chapterData_49 = [
           "so you do not harm people unknowingly": "",
           "becoming regretful for what you have done": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4357.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4604.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -92,7 +92,7 @@ var chapterData_49 = [
           "And He has made disbelief, rebelliousness, and disobedience detestable to you": "",
           "Those are the ones rightly guided": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4358.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4605.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -101,7 +101,7 @@ var chapterData_49 = [
           "˹This is˺ a bounty and a blessing from Allah": "",
           "And Allah is All-Knowing, All-Wise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4359.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4606.mp3"
       }
     ]
   },
@@ -119,7 +119,7 @@ var chapterData_49 = [
           "If they do so, then make peace between both ˹groups˺ in all fairness and act justly": "",
           "Surely Allah loves those who uphold justice": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4360.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4607.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -129,7 +129,7 @@ var chapterData_49 = [
           "so make peace between your brothers": "",
           "And be mindful of Allah so you may be shown mercy": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4361.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4608.mp3"
       }
     ]
   },
@@ -148,7 +148,7 @@ var chapterData_49 = [
           "How evil it is to act rebelliously after having faith!": "",
           "And whoever does not repent, it is they who are the ˹true˺ wrongdoers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4362.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4609.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -162,7 +162,7 @@ var chapterData_49 = [
           "And fear Allah": "",
           "Surely Allah is ˹the˺ Accepter of Repentance, Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4363.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4610.mp3"
       }
     ]
   },
@@ -180,7 +180,7 @@ var chapterData_49 = [
           "Surely the most noble of you in the sight of Allah is the most righteous among you": "",
           "Allah is truly All-Knowing, All-Aware": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4364.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4611.mp3"
       }
     ]
   },
@@ -199,7 +199,7 @@ var chapterData_49 = [
           "But if you obey Allah and His Messenger ˹wholeheartedly˺, He will not discount anything from ˹the reward of˺ your deeds": "",
           "Allah is truly All-Forgiving, Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4365.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4612.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -210,7 +210,7 @@ var chapterData_49 = [
           "and strive with their wealth and their lives in the cause of Allah": "",
           "They are the ones true in faith": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4366.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4613.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -220,7 +220,7 @@ var chapterData_49 = [
           "when Allah ˹already˺ knows whatever is in the heavens and whatever is on the earth?": "",
           "And Allah has ˹perfect˺ knowledge of all things": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4367.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4614.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -231,7 +231,7 @@ var chapterData_49 = [
           "Rather, it is Allah Who has done you a favour by guiding you to the faith": "",
           "if ˹indeed˺ you are faithful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4368.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4615.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -240,7 +240,7 @@ var chapterData_49 = [
           "Surely Allah knows the unseen of the heavens and earth": "",
           "And Allah is All-Seeing of what you do": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4369.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4616.mp3"
       }
     ]
   }

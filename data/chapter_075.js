@@ -9,7 +9,7 @@ var chapterData_75 = [
         "ayah_en": {
           "I do swear by the Day of Judgment!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5291.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5538.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_75 = [
         "ayah_en": {
           "And I do swear by the self-reproaching soul!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5292.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5539.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Do people think We cannot reassemble their bones?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5293.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5540.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Yes ˹indeed˺! We are ˹most˺ capable of restoring ˹even˺ their very fingertips.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5294.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5541.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Still people want to deny what is yet to come,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5295.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5542.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -49,7 +49,7 @@ var chapterData_75 = [
         "ayah_en": {
           "asking ˹mockingly˺, \"When is this Day of Judgment?\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5296.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5543.mp3"
       }
     ]
   },
@@ -63,7 +63,7 @@ var chapterData_75 = [
         "ayah_en": {
           "But when the sight is stunned,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5297.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5544.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -71,7 +71,7 @@ var chapterData_75 = [
         "ayah_en": {
           "and the moon is dimmed,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5298.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5545.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -79,7 +79,7 @@ var chapterData_75 = [
         "ayah_en": {
           "and the sun and the moon are brought together,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5299.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5546.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +87,7 @@ var chapterData_75 = [
         "ayah_en": {
           "on that Day one will cry, \"Where is the escape?\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5300.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5547.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -95,7 +95,7 @@ var chapterData_75 = [
         "ayah_en": {
           "But no! There will be no refuge.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5301.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5548.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -103,7 +103,7 @@ var chapterData_75 = [
         "ayah_en": {
           "On that Day all will end up before your Lord.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5302.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5549.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -111,7 +111,7 @@ var chapterData_75 = [
         "ayah_en": {
           "All will then be informed of what they have sent forth and left behind.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5303.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5550.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -119,7 +119,7 @@ var chapterData_75 = [
         "ayah_en": {
           "In fact, people will testify against their own souls,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5304.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5551.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -127,7 +127,7 @@ var chapterData_75 = [
         "ayah_en": {
           "despite the excuses they come up with.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5305.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5552.mp3"
       }
     ]
   },
@@ -141,7 +141,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Do not rush your tongue trying to memorize ˹a revelation of˺ the Quran.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5306.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5553.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -149,7 +149,7 @@ var chapterData_75 = [
         "ayah_en": {
           "It is certainly upon Us to ˹make you˺ memorize and recite it.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5307.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5554.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -157,7 +157,7 @@ var chapterData_75 = [
         "ayah_en": {
           "So once We have recited a revelation ˹through Gabriel˺, follow its recitation ˹closely˺.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5308.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5555.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -165,7 +165,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Then it is surely upon Us to make it clear ˹to you˺.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5309.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5556.mp3"
       }
     ]
   },
@@ -179,7 +179,7 @@ var chapterData_75 = [
         "ayah_en": {
           "But no! In fact, you love this fleeting world,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5310.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5557.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -187,7 +187,7 @@ var chapterData_75 = [
         "ayah_en": {
           "and neglect the Hereafter.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5311.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5558.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -195,7 +195,7 @@ var chapterData_75 = [
         "ayah_en": {
           "On that Day ˹some˺ faces will be bright,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5312.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5559.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -203,7 +203,7 @@ var chapterData_75 = [
         "ayah_en": {
           "looking at their Lord.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5313.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5560.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -211,7 +211,7 @@ var chapterData_75 = [
         "ayah_en": {
           "And ˹other˺ faces will be gloomy,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5314.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5561.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -219,7 +219,7 @@ var chapterData_75 = [
         "ayah_en": {
           "anticipating something devastating to befall them.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5315.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5562.mp3"
       }
     ]
   },
@@ -233,7 +233,7 @@ var chapterData_75 = [
         "ayah_en": {
           "But no! ˹Beware of the day˺ when the soul reaches the collar bone ˹as it leaves˺,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5316.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5563.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -241,7 +241,7 @@ var chapterData_75 = [
         "ayah_en": {
           "and it will be said, \"Is there any healer ˹who can save this life˺?\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5317.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5564.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -249,7 +249,7 @@ var chapterData_75 = [
         "ayah_en": {
           "And the dying person realizes it is ˹their˺ time to depart,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5318.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5565.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -257,7 +257,7 @@ var chapterData_75 = [
         "ayah_en": {
           "and ˹then˺ their feet are tied together ˹in a shroud˺.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5319.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5566.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -265,7 +265,7 @@ var chapterData_75 = [
         "ayah_en": {
           "On that day they will be driven to your Lord ˹alone˺.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5320.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5567.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -273,7 +273,7 @@ var chapterData_75 = [
         "ayah_en": {
           "This denier neither believed nor prayed,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5321.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5568.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -281,7 +281,7 @@ var chapterData_75 = [
         "ayah_en": {
           "but persisted in denial and turned away,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5322.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5569.mp3"
       },
       {
         "ayah_no_surah": 33,
@@ -289,7 +289,7 @@ var chapterData_75 = [
         "ayah_en": {
           "then went to their own people, walking boastfully.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5323.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5570.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -297,7 +297,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Woe to you, and more woe!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5324.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5571.mp3"
       },
       {
         "ayah_no_surah": 35,
@@ -305,7 +305,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Again, woe to you, and even more woe!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5325.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5572.mp3"
       }
     ]
   },
@@ -319,7 +319,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Do people think they will be left without purpose?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5326.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5573.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -327,7 +327,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Were they not ˹once˺ a sperm-drop emitted?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5327.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5574.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -335,7 +335,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Then they became a clinging clot ˹of blood˺, then He developed and perfected their form,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5328.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5575.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -343,7 +343,7 @@ var chapterData_75 = [
         "ayah_en": {
           "producing from it both sexes, male and female.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5329.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5576.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -351,7 +351,7 @@ var chapterData_75 = [
         "ayah_en": {
           "Is such ˹a Creator˺ unable to bring the dead back to life?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5330.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5577.mp3"
       }
     ]
   }

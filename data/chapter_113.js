@@ -11,7 +11,7 @@ var chapterData_113 = [
           "\"I seek refuge": "",
           "in the Lord of the daybreak": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5965.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6212.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -19,7 +19,7 @@ var chapterData_113 = [
         "ayah_en": {
           "from the evil of whatever He has created": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5966.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6213.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -27,7 +27,7 @@ var chapterData_113 = [
         "ayah_en": {
           "and from the evil of the night when it grows dark": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5967.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6214.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -35,7 +35,7 @@ var chapterData_113 = [
         "ayah_en": {
           "and from the evil of those ˹witches casting spells by˺ blowing onto knots": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5968.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6215.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -43,7 +43,7 @@ var chapterData_113 = [
         "ayah_en": {
           "and from the evil of an envier when they envy": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5969.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6216.mp3"
       }
     ]
   }

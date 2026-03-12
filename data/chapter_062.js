@@ -13,7 +13,7 @@ var chapterData_62 = [
           "the Almighty": "",
           "the All-Wise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4917.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5164.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -25,7 +25,7 @@ var chapterData_62 = [
           "and teaching them the Book and wisdom": "",
           "for indeed they had previously been clearly astray": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4918.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5165.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -34,7 +34,7 @@ var chapterData_62 = [
           "along with others of them who have not yet joined them in faith": "",
           "For He is the Almighty, All-Wise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4919.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5166.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -44,7 +44,7 @@ var chapterData_62 = [
           "He grants it to whoever He wills": "",
           "And Allah is the Lord of infinite bounty": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4920.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5167.mp3"
       }
     ]
   },
@@ -61,7 +61,7 @@ var chapterData_62 = [
           "How evil is the example of those who reject Allah's signs": "",
           "For Allah does not guide the wrongdoing people": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4921.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5168.mp3"
       }
     ]
   },
@@ -77,7 +77,7 @@ var chapterData_62 = [
           "If you claim to be Allah's chosen people out of all humanity": "",
           "then wish for death, if what you say is true": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4922.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5169.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -87,7 +87,7 @@ var chapterData_62 = [
           "because of what their hands have done": "",
           "And Allah has perfect knowledge of the wrongdoers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4923.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5170.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -97,7 +97,7 @@ var chapterData_62 = [
           "Then you will be returned to the Knower of the seen and unseen": "",
           "and He will inform you of what you used to do": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4924.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5171.mp3"
       }
     ]
   },
@@ -115,7 +115,7 @@ var chapterData_62 = [
           "and leave off your business": "",
           "That is best for you, if only you knew": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4925.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5172.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -126,7 +126,7 @@ var chapterData_62 = [
           "And remember Allah often": "",
           "so you may be successful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4926.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5173.mp3"
       }
     ]
   },
@@ -143,7 +143,7 @@ var chapterData_62 = [
           "Say, \"What is with Allah is far better than amusement and merchandise\"": "",
           "And Allah is the Best Provider": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4927.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5174.mp3"
       }
     ]
   }

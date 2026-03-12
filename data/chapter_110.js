@@ -10,7 +10,7 @@ var chapterData_110 = [
           "When Allah's ˹ultimate˺ help comes": "",
           "and the victory ˹over Mecca is achieved˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5953.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6200.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -20,7 +20,7 @@ var chapterData_110 = [
           "embracing Allah's Way": "",
           "in crowds": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5954.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6201.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -30,7 +30,7 @@ var chapterData_110 = [
           "and seek His forgiveness": "",
           "for certainly He is ever Accepting of Repentance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5955.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6202.mp3"
       }
     ]
   }
