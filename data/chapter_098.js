@@ -12,7 +12,7 @@ var chapterData_98 = [
           "were not going to desist ˹from disbelief˺": "",
           "until the clear proof came to them": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6117.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6134.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -21,7 +21,7 @@ var chapterData_98 = [
           "a messenger from Allah": "",
           "reciting scrolls of ˹utmost˺ purity": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6118.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6135.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -29,7 +29,7 @@ var chapterData_98 = [
         "ayah_en": {
           "containing upright commandments": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6119.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6136.mp3"
       }
     ]
   },
@@ -44,7 +44,7 @@ var chapterData_98 = [
           "It was not until this clear proof came to the People of the Book": "",
           "that they became divided ˹about his prophethood˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6120.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6137.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -56,7 +56,7 @@ var chapterData_98 = [
           "and pay alms-tax": "",
           "That is the upright Way": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6121.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6138.mp3"
       }
     ]
   },
@@ -73,7 +73,7 @@ var chapterData_98 = [
           "to stay there forever": "",
           "They are the worst of ˹all˺ beings": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6122.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6139.mp3"
       }
     ]
   },
@@ -89,7 +89,7 @@ var chapterData_98 = [
           "and do good": "",
           "they are the best of ˹all˺ beings": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6123.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6140.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -103,7 +103,7 @@ var chapterData_98 = [
           "and they are pleased with Him": "",
           "This is ˹only˺ for those in awe of their Lord": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6124.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6141.mp3"
       }
     ]
   }

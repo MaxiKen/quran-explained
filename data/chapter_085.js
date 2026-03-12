@@ -9,7 +9,7 @@ var chapterData_85 = [
         "ayah_en": {
           "By the sky full of constellations": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5896.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5913.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_85 = [
         "ayah_en": {
           "and the promised Day ˹of Judgment˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5897.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5914.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_85 = [
         "ayah_en": {
           "and the witness and what is witnessed": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5898.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5915.mp3"
       }
     ]
   },
@@ -39,7 +39,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Condemned are the makers of the ditch": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5899.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5916.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -47,7 +47,7 @@ var chapterData_85 = [
         "ayah_en": {
           "the fire ˹pit˺, filled with fuel": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5900.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5917.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -55,7 +55,7 @@ var chapterData_85 = [
         "ayah_en": {
           "when they sat around it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5901.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5918.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -63,7 +63,7 @@ var chapterData_85 = [
         "ayah_en": {
           "watching what they had ˹ordered to be˺ done to the believers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5902.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5919.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -72,7 +72,7 @@ var chapterData_85 = [
           "who they resented for no reason other than belief in Allah": "",
           "the Almighty, the Praiseworthy": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5903.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5920.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -81,7 +81,7 @@ var chapterData_85 = [
           "˹the One˺ to Whom belongs the kingdom of the heavens and earth": "",
           "And Allah is a Witness over all things": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5904.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5921.mp3"
       }
     ]
   },
@@ -97,7 +97,7 @@ var chapterData_85 = [
           "and then do not repent": "",
           "will certainly suffer the punishment of Hell and the torment of burning": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5905.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5922.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -107,7 +107,7 @@ var chapterData_85 = [
           "will have Gardens under which rivers flow": "",
           "That is the greatest triumph": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5906.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5923.mp3"
       }
     ]
   },
@@ -121,7 +121,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Indeed, the ˹crushing˺ grip of your Lord is severe": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5907.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5924.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -129,7 +129,7 @@ var chapterData_85 = [
         "ayah_en": {
           "˹For˺ He is certainly the One Who originates and resurrects ˹all˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5908.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5925.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -137,7 +137,7 @@ var chapterData_85 = [
         "ayah_en": {
           "And He is the All-Forgiving, All-Loving": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5909.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5926.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -145,7 +145,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Lord of the Throne, the All-Glorious": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5910.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5927.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -153,7 +153,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Doer of whatever He wills": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5911.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5928.mp3"
       }
     ]
   },
@@ -167,7 +167,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Has the story of the ˹destroyed˺ forces reached you ˹O Prophet˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5912.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5929.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -175,7 +175,7 @@ var chapterData_85 = [
         "ayah_en": {
           "˹the forces of˺ Pharaoh and Thamûd": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5913.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5930.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -183,7 +183,7 @@ var chapterData_85 = [
         "ayah_en": {
           "Yet the disbelievers ˹still˺ persist in denial": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5914.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5931.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -191,7 +191,7 @@ var chapterData_85 = [
         "ayah_en": {
           "But Allah encompasses them from all sides": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5915.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5932.mp3"
       }
     ]
   },
@@ -205,7 +205,7 @@ var chapterData_85 = [
         "ayah_en": {
           "In fact, this is a glorious Quran": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5916.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5933.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -213,7 +213,7 @@ var chapterData_85 = [
         "ayah_en": {
           "˹recorded˺ in a Preserved Tablet": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5917.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5934.mp3"
       }
     ]
   }

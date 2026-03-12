@@ -9,7 +9,7 @@ var chapterData_94 = [
         "ayah_en": {
           "Have We not uplifted your heart for you ˹O Prophet˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6077.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6094.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_94 = [
         "ayah_en": {
           "relieved you of the burden": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6078.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6095.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_94 = [
         "ayah_en": {
           "which weighed so heavily on your back": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6079.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6096.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_94 = [
         "ayah_en": {
           "and elevated your renown for you": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6080.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6097.mp3"
       }
     ]
   },
@@ -47,7 +47,7 @@ var chapterData_94 = [
         "ayah_en": {
           "So, surely with hardship comes ease": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6081.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6098.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -55,7 +55,7 @@ var chapterData_94 = [
         "ayah_en": {
           "Surely with ˹that˺ hardship comes ˹more˺ ease": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6082.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6099.mp3"
       }
     ]
   },
@@ -69,7 +69,7 @@ var chapterData_94 = [
         "ayah_en": {
           "So once you have fulfilled ˹your duty˺, strive ˹in devotion˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6083.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6100.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -77,7 +77,7 @@ var chapterData_94 = [
         "ayah_en": {
           "turning to your Lord ˹alone˺ with hope": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6084.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6101.mp3"
       }
     ]
   }

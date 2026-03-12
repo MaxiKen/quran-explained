@@ -10,7 +10,7 @@ var chapterData_108 = [
           "Indeed, We have granted you": "",
           "˹O Prophet˺ abundant goodness": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6191.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6208.mp3"
       }
     ]
   },
@@ -25,7 +25,7 @@ var chapterData_108 = [
           "So pray": "",
           "and sacrifice to your Lord ˹alone˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6192.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6209.mp3"
       }
     ]
   },
@@ -40,7 +40,7 @@ var chapterData_108 = [
           "Only the one who hates you": "",
           "is truly cut off ˹from any goodness˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6193.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6210.mp3"
       }
     ]
   }

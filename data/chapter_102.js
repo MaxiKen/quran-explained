@@ -10,7 +10,7 @@ var chapterData_102 = [
           "Competition for more ˹gains˺": "",
           "diverts you ˹from Allah˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6155.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6172.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_102 = [
         "ayah_en": {
           "until you end up in ˹your˺ graves": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6156.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6173.mp3"
       }
     ]
   },
@@ -33,7 +33,7 @@ var chapterData_102 = [
           "But no!": "",
           "You will soon come to know": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6157.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6174.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -42,7 +42,7 @@ var chapterData_102 = [
           "Again, no!": "",
           "You will soon come to know": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6158.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6175.mp3"
       }
     ]
   },
@@ -57,7 +57,7 @@ var chapterData_102 = [
           "Indeed, if you were to know ˹your fate˺ with certainty": "",
           "˹you would have acted differently˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6159.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6176.mp3"
       }
     ]
   },
@@ -71,7 +71,7 @@ var chapterData_102 = [
         "ayah_en": {
           "˹But˺ you will surely see the Hellfire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6160.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6177.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -80,7 +80,7 @@ var chapterData_102 = [
           "Again, you will surely see it": "",
           "with the eye of certainty": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6161.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6178.mp3"
       }
     ]
   },
@@ -96,7 +96,7 @@ var chapterData_102 = [
           "you will definitely be questioned": "",
           "about ˹your worldly˺ pleasures": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6162.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6179.mp3"
       }
     ]
   }

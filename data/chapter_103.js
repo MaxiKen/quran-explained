@@ -9,7 +9,7 @@ var chapterData_103 = [
         "ayah_en": {
           "By the ˹passage of˺ time!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6163.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6180.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_103 = [
         "ayah_en": {
           "Surely humanity is in ˹grave˺ loss": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6164.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6181.mp3"
       }
     ]
   },
@@ -34,7 +34,7 @@ var chapterData_103 = [
           "and urge each other to the truth": "",
           "and urge each other to perseverance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6165.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6182.mp3"
       }
     ]
   }

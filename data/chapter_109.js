@@ -10,7 +10,7 @@ var chapterData_109 = [
           "Say, ˹O Prophet,˺": "",
           "\"O you disbelievers!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6194.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6211.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_109 = [
         "ayah_en": {
           "I do not worship what you worship": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6195.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6212.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_109 = [
         "ayah_en": {
           "nor do you worship what I worship": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6196.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6213.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -34,7 +34,7 @@ var chapterData_109 = [
         "ayah_en": {
           "I will never worship what you worship": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6197.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6214.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -42,7 +42,7 @@ var chapterData_109 = [
         "ayah_en": {
           "nor will you ever worship what I worship": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6198.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6215.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -51,7 +51,7 @@ var chapterData_109 = [
           "You have your way": "",
           "and I have my Way": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6199.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6216.mp3"
       }
     ]
   }

@@ -9,7 +9,7 @@ var chapterData_89 = [
         "ayah_en": {
           "By the dawn": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5980.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5997.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and the ten nights": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5981.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5998.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and the even and the odd": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5982.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5999.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and the night when it passes": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5983.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6000.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Is all this not a sufficient oath for those who have sense": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5984.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6001.mp3"
       }
     ]
   },
@@ -55,7 +55,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Did you not see how your Lord dealt with 'Ȃd": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5985.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6002.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -63,7 +63,7 @@ var chapterData_89 = [
         "ayah_en": {
           "the people of Iram—with their great stature": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5986.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6003.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -71,7 +71,7 @@ var chapterData_89 = [
         "ayah_en": {
           "unmatched in any other land": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5987.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6004.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -79,7 +79,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and Thamûd who carved their homes into the rocks in the Stone Valley": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5988.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6005.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +87,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and the Pharaoh of mighty structures": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5989.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6006.mp3"
       }
     ]
   },
@@ -101,7 +101,7 @@ var chapterData_89 = [
         "ayah_en": {
           "They all transgressed throughout the land": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5990.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6007.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -109,7 +109,7 @@ var chapterData_89 = [
         "ayah_en": {
           "spreading much corruption there": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5991.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6008.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -117,7 +117,7 @@ var chapterData_89 = [
         "ayah_en": {
           "So your Lord unleashed on them a scourge of punishment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5992.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6009.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -125,7 +125,7 @@ var chapterData_89 = [
         "ayah_en": {
           "For your Lord is truly vigilant": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5993.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6010.mp3"
       }
     ]
   },
@@ -140,7 +140,7 @@ var chapterData_89 = [
           "Now, whenever a human being is tested by their Lord through His generosity and blessings": "",
           "they boast, \"My Lord has deservedly honoured me!\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5994.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6011.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -149,7 +149,7 @@ var chapterData_89 = [
           "But when He tests them by limiting their provision": "",
           "they protest, \"My Lord has undeservedly humiliated me!\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5995.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6012.mp3"
       }
     ]
   },
@@ -163,7 +163,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Absolutely not! In fact, you are not even gracious to the orphan": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5996.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6013.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -171,7 +171,7 @@ var chapterData_89 = [
         "ayah_en": {
           "nor do you urge one another to feed the poor": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5997.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6014.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -179,7 +179,7 @@ var chapterData_89 = [
         "ayah_en": {
           "And you devour others' inheritance greedily": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5998.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6015.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -187,7 +187,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and love wealth fervently": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5999.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6016.mp3"
       }
     ]
   },
@@ -201,7 +201,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Enough! When the earth is entirely crushed over and over": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6000.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6017.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -209,7 +209,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and your Lord comes to judge with angels, rank upon rank": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6001.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6018.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -218,7 +218,7 @@ var chapterData_89 = [
           "and Hell is brought forth on that Day": "",
           "this is when every disbelieving person will remember their own sins. But what is the use of remembering then": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6002.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6019.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -226,7 +226,7 @@ var chapterData_89 = [
         "ayah_en": {
           "They will cry, \"I wish I had sent forth something good for my true life\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6003.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6020.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -234,7 +234,7 @@ var chapterData_89 = [
         "ayah_en": {
           "On that Day He will punish them severely, like no other": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6004.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6021.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -242,7 +242,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and bind them tightly, like no other": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6005.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6022.mp3"
       }
     ]
   },
@@ -256,7 +256,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Allah will say to the righteous, \"O tranquil soul!\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6006.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6023.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -264,7 +264,7 @@ var chapterData_89 = [
         "ayah_en": {
           "Return to your Lord, well pleased with Him and well pleasing to Him": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6007.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6024.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -272,7 +272,7 @@ var chapterData_89 = [
         "ayah_en": {
           "So join My servants": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6008.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6025.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -280,7 +280,7 @@ var chapterData_89 = [
         "ayah_en": {
           "and enter My Paradise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6009.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6026.mp3"
       }
     ]
   }

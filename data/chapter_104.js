@@ -10,7 +10,7 @@ var chapterData_104 = [
           "Woe": "",
           "to every backbiter, slanderer": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6166.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6183.mp3"
       }
     ]
   },
@@ -25,7 +25,7 @@ var chapterData_104 = [
           "who amasses wealth ˹greedily˺": "",
           "and counts it ˹repeatedly˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6167.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6184.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -33,7 +33,7 @@ var chapterData_104 = [
         "ayah_en": {
           "thinking that their wealth will make them immortal!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6168.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6185.mp3"
       }
     ]
   },
@@ -48,7 +48,7 @@ var chapterData_104 = [
           "Not at all!": "",
           "Such a person will certainly be tossed into the Crusher": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6169.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6186.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -56,7 +56,7 @@ var chapterData_104 = [
         "ayah_en": {
           "And what will make you realize what the Crusher is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6170.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6187.mp3"
       }
     ]
   },
@@ -70,7 +70,7 @@ var chapterData_104 = [
         "ayah_en": {
           "˹It is˺ Allah's kindled Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6171.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6188.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -78,7 +78,7 @@ var chapterData_104 = [
         "ayah_en": {
           "which rages over the hearts": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6172.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6189.mp3"
       }
     ]
   },
@@ -92,7 +92,7 @@ var chapterData_104 = [
         "ayah_en": {
           "It will be sealed over them": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6173.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6190.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -100,7 +100,7 @@ var chapterData_104 = [
         "ayah_en": {
           "˹tightly secured˺ with long braces": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6174.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6191.mp3"
       }
     ]
   }

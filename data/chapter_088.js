@@ -9,7 +9,7 @@ var chapterData_88 = [
         "ayah_en": {
           "Has the news of the Overwhelming Event reached you ˹O Prophet˺?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5954.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5971.mp3"
       }
     ]
   },
@@ -23,7 +23,7 @@ var chapterData_88 = [
         "ayah_en": {
           "On that Day ˹some˺ faces will be downcast": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5955.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5972.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -31,7 +31,7 @@ var chapterData_88 = [
         "ayah_en": {
           "˹totally˺ overburdened, exhausted": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5956.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5973.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -39,7 +39,7 @@ var chapterData_88 = [
         "ayah_en": {
           "burning in a scorching Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5957.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5974.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -47,7 +47,7 @@ var chapterData_88 = [
         "ayah_en": {
           "left to drink from a scalding spring": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5958.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5975.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -55,7 +55,7 @@ var chapterData_88 = [
         "ayah_en": {
           "They will have no food except a foul, thorny shrub": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5959.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5976.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -63,7 +63,7 @@ var chapterData_88 = [
         "ayah_en": {
           "neither nourishing nor satisfying hunger": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5960.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5977.mp3"
       }
     ]
   },
@@ -77,7 +77,7 @@ var chapterData_88 = [
         "ayah_en": {
           "On that Day ˹other˺ faces will be glowing with bliss": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5961.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5978.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -85,7 +85,7 @@ var chapterData_88 = [
         "ayah_en": {
           "˹fully˺ pleased with their striving": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5962.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5979.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -93,7 +93,7 @@ var chapterData_88 = [
         "ayah_en": {
           "in an elevated Garden": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5963.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5980.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -101,7 +101,7 @@ var chapterData_88 = [
         "ayah_en": {
           "where no idle talk will be heard": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5964.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5981.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -109,7 +109,7 @@ var chapterData_88 = [
         "ayah_en": {
           "In it will be a running spring": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5965.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5982.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -117,7 +117,7 @@ var chapterData_88 = [
         "ayah_en": {
           "along with thrones raised high": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5966.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5983.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -125,7 +125,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and cups set at hand": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5967.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5984.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -133,7 +133,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and ˹fine˺ cushions lined up": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5968.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5985.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -141,7 +141,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and ˹splendid˺ carpets spread out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5969.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5986.mp3"
       }
     ]
   },
@@ -155,7 +155,7 @@ var chapterData_88 = [
         "ayah_en": {
           "Do they not ever reflect on camels—how they were ˹masterfully˺ created": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5970.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5987.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -163,7 +163,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and the sky—how it was raised ˹high˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5971.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5988.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -171,7 +171,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and the mountains—how they were firmly set up": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5972.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5989.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -179,7 +179,7 @@ var chapterData_88 = [
         "ayah_en": {
           "and the earth—how it was levelled out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5973.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5990.mp3"
       }
     ]
   },
@@ -193,7 +193,7 @@ var chapterData_88 = [
         "ayah_en": {
           "So, ˹continue to˺ remind ˹all, O Prophet˺, for your duty is only to remind": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5974.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5991.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -201,7 +201,7 @@ var chapterData_88 = [
         "ayah_en": {
           "You are not ˹there˺ to compel them ˹to believe˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5975.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5992.mp3"
       }
     ]
   },
@@ -215,7 +215,7 @@ var chapterData_88 = [
         "ayah_en": {
           "But whoever turns away, persisting in disbelief": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5976.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5993.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -223,7 +223,7 @@ var chapterData_88 = [
         "ayah_en": {
           "then Allah will inflict upon them the major punishment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5977.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5994.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -231,7 +231,7 @@ var chapterData_88 = [
         "ayah_en": {
           "Surely to Us is their return": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5978.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5995.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -239,7 +239,7 @@ var chapterData_88 = [
         "ayah_en": {
           "then surely with Us is their reckoning": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5979.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5996.mp3"
       }
     ]
   }

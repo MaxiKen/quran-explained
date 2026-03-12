@@ -9,7 +9,7 @@ var chapterData_101 = [
         "ayah_en": {
           "The Striking Disaster!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6144.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6161.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_101 = [
         "ayah_en": {
           "What is the Striking Disaster?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6145.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6162.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_101 = [
         "ayah_en": {
           "And what will make you realize what the Striking Disaster is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6146.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6163.mp3"
       }
     ]
   },
@@ -39,7 +39,7 @@ var chapterData_101 = [
         "ayah_en": {
           "˹It is˺ the Day people will be like scattered moths": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6147.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6164.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -47,7 +47,7 @@ var chapterData_101 = [
         "ayah_en": {
           "and the mountains will be like carded wool": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6148.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6165.mp3"
       }
     ]
   },
@@ -61,7 +61,7 @@ var chapterData_101 = [
         "ayah_en": {
           "So as for those whose scale is heavy ˹with good deeds˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6149.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6166.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -69,7 +69,7 @@ var chapterData_101 = [
         "ayah_en": {
           "they will be in a life of bliss": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6150.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6167.mp3"
       }
     ]
   },
@@ -83,7 +83,7 @@ var chapterData_101 = [
         "ayah_en": {
           "And as for those whose scale is light": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6151.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6168.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -91,7 +91,7 @@ var chapterData_101 = [
         "ayah_en": {
           "their home will be the abyss": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6152.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6169.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -99,7 +99,7 @@ var chapterData_101 = [
         "ayah_en": {
           "And what will make you realize what that is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6153.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6170.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -107,7 +107,7 @@ var chapterData_101 = [
         "ayah_en": {
           "˹It is˺ a scorching Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6154.mp3"
+        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6171.mp3"
       }
     ]
   }
