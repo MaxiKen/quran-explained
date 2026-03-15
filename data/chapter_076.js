@@ -10,7 +10,7 @@ var chapterData_76 = [
           "Is there not a period of time": "",
           "when each human is nothing yet worth mentioning?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5595.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -20,7 +20,7 @@ var chapterData_76 = [
           "˹in order˺ to test them,": "",
           "so We made them hear and see.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5596.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -29,7 +29,7 @@ var chapterData_76 = [
           "We already showed them the Way,": "",
           "whether they ˹choose to˺ be grateful or ungrateful.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5597.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076003.mp3"
       }
     ]
   },
@@ -44,7 +44,7 @@ var chapterData_76 = [
           "Indeed, We have prepared for the disbelievers": "",
           "chains, shackles, and a blazing Fire.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5598.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076004.mp3"
       }
     ]
   },
@@ -59,7 +59,7 @@ var chapterData_76 = [
           "Indeed, the virtuous will have a drink ˹of pure wine˺—": "",
           "flavoured with camphor—": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5599.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -68,7 +68,7 @@ var chapterData_76 = [
           "˹from˺ a spring where Allah's servants will drink,": "",
           "flowing at their will.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5600.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -77,7 +77,7 @@ var chapterData_76 = [
           "They ˹are those who˺ fulfil ˹their˺ vows": "",
           "and fear a Day of sweeping horror,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5601.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -86,7 +86,7 @@ var chapterData_76 = [
           "and give food—despite their desire for it—": "",
           "to the poor, the orphan, and the captive,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5602.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -95,7 +95,7 @@ var chapterData_76 = [
           "˹saying to themselves,˺ \"We feed you only for the sake of Allah,": "",
           "seeking neither reward nor thanks from you.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5603.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -103,7 +103,7 @@ var chapterData_76 = [
         "ayah_en": {
           "We fear from our Lord a horribly distressful Day.\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5604.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -112,7 +112,7 @@ var chapterData_76 = [
           "So Allah will deliver them from the horror of that Day,": "",
           "and grant them radiance and joy,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5605.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076011.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -121,7 +121,7 @@ var chapterData_76 = [
           "and reward them for their perseverance": "",
           "with a Garden ˹in Paradise˺ and ˹garments of˺ silk.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5606.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076012.mp3"
       }
     ]
   },
@@ -136,7 +136,7 @@ var chapterData_76 = [
           "There they will be reclining on ˹canopied˺ couches,": "",
           "never seeing scorching heat or bitter cold.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5607.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076013.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -145,7 +145,7 @@ var chapterData_76 = [
           "The Garden's shade will be right above them,": "",
           "and its fruit will be made very easy to reach.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5608.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076014.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -153,7 +153,7 @@ var chapterData_76 = [
         "ayah_en": {
           "They will be waited on with silver vessels and cups of crystal—": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5609.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076015.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -161,7 +161,7 @@ var chapterData_76 = [
         "ayah_en": {
           "crystalline silver, filled precisely as desired.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5610.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076016.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -169,7 +169,7 @@ var chapterData_76 = [
         "ayah_en": {
           "And they will be given a drink ˹of pure wine˺ flavoured with ginger": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5611.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076017.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -177,7 +177,7 @@ var chapterData_76 = [
         "ayah_en": {
           "from a spring there, called Salsabîl.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5612.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076018.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -186,7 +186,7 @@ var chapterData_76 = [
           "They will be waited on by eternal youths.": "",
           "If you saw them, you would think they were scattered pearls.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5613.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076019.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -194,7 +194,7 @@ var chapterData_76 = [
         "ayah_en": {
           "And if you looked around, you would see ˹indescribable˺ bliss and a vast kingdom.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5614.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076020.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -204,7 +204,7 @@ var chapterData_76 = [
           "and adorned with bracelets of silver,": "",
           "and their Lord will give them a purifying drink.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5615.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076021.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -213,7 +213,7 @@ var chapterData_76 = [
           "˹And they will be told,˺ \"All this is surely a reward for you.": "",
           "Your striving has been appreciated.\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5616.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076022.mp3"
       }
     ]
   },
@@ -227,7 +227,7 @@ var chapterData_76 = [
         "ayah_en": {
           "Indeed, it is We Who have revealed the Quran to you ˹O Prophet˺ in stages.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5617.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076023.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -236,7 +236,7 @@ var chapterData_76 = [
           "So be patient with your Lord's decree,": "",
           "and do not yield to any evildoer or ˹staunch˺ disbeliever from among them.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5618.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076024.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -244,7 +244,7 @@ var chapterData_76 = [
         "ayah_en": {
           "˹Always˺ remember the Name of your Lord morning and evening,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5619.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076025.mp3"
       },
       {
         "ayah_no_surah": 26,
@@ -253,7 +253,7 @@ var chapterData_76 = [
           "and prostrate before Him during part of the night,": "",
           "and glorify Him long at night.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5620.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076026.mp3"
       }
     ]
   },
@@ -268,7 +268,7 @@ var chapterData_76 = [
           "Surely those ˹pagans˺ love this fleeting world,": "",
           "˹totally˺ neglecting a weighty Day ahead of them.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5621.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076027.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -277,7 +277,7 @@ var chapterData_76 = [
           "It is We Who created them and perfected their ˹physical˺ form.": "",
           "But if We will, We can easily replace them with others.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5622.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076028.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -286,7 +286,7 @@ var chapterData_76 = [
           "Surely this is a reminder.": "",
           "So let whoever wills take the ˹Right˺ Way to their Lord.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5623.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076029.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -295,7 +295,7 @@ var chapterData_76 = [
           "But you cannot will ˹to do so˺ unless Allah wills.": "",
           "Indeed, Allah is All-Knowing, All-Wise.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5624.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076030.mp3"
       },
       {
         "ayah_no_surah": 31,
@@ -304,7 +304,7 @@ var chapterData_76 = [
           "He admits whoever He wills into His mercy.": "",
           "As for the wrongdoers, He has prepared for them a painful punishment.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5625.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/076031.mp3"
       }
     ]
   }

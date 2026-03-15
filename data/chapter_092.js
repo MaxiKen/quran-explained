@@ -9,7 +9,7 @@ var chapterData_92 = [
         "ayah_en": {
           "By the night when it covers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6062.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_92 = [
         "ayah_en": {
           "and the day when it shines": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6063.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_92 = [
         "ayah_en": {
           "And by the One Who created male and female": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6064.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_92 = [
         "ayah_en": {
           "Surely the ends you strive for are diverse": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6065.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092004.mp3"
       }
     ]
   },
@@ -48,7 +48,7 @@ var chapterData_92 = [
           "As for the one who is charitable": "",
           "mindful of Allah": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6066.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -56,7 +56,7 @@ var chapterData_92 = [
         "ayah_en": {
           "and firmly believes in the finest reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6067.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -64,7 +64,7 @@ var chapterData_92 = [
         "ayah_en": {
           "We will facilitate for them the Way of Ease": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6068.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092007.mp3"
       }
     ]
   },
@@ -79,7 +79,7 @@ var chapterData_92 = [
           "And as for the one who is stingy": "",
           "indifferent to Allah": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6069.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -87,7 +87,7 @@ var chapterData_92 = [
         "ayah_en": {
           "and staunchly denies the finest reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6070.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -95,7 +95,7 @@ var chapterData_92 = [
         "ayah_en": {
           "We will facilitate for them the path of hardship": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6071.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -103,7 +103,7 @@ var chapterData_92 = [
         "ayah_en": {
           "And their wealth will be of no benefit to them when they tumble into Hell": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6072.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092011.mp3"
       }
     ]
   },
@@ -117,7 +117,7 @@ var chapterData_92 = [
         "ayah_en": {
           "It is certainly upon Us alone to show the way to guidance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6073.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092012.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -125,7 +125,7 @@ var chapterData_92 = [
         "ayah_en": {
           "And surely to Us alone belong this life and the next": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6074.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092013.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -133,7 +133,7 @@ var chapterData_92 = [
         "ayah_en": {
           "And so I have warned you of a raging Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6075.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092014.mp3"
       }
     ]
   },
@@ -147,7 +147,7 @@ var chapterData_92 = [
         "ayah_en": {
           "in which none will burn except the most wretched": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6076.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092015.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -155,7 +155,7 @@ var chapterData_92 = [
         "ayah_en": {
           "who deny and turn away": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6077.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092016.mp3"
       }
     ]
   },
@@ -169,7 +169,7 @@ var chapterData_92 = [
         "ayah_en": {
           "But the righteous will be spared from it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6078.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092017.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -177,7 +177,7 @@ var chapterData_92 = [
         "ayah_en": {
           "who donate some of their wealth only to purify themselves": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6079.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092018.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -185,7 +185,7 @@ var chapterData_92 = [
         "ayah_en": {
           "not in return for someone's favours": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6080.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092019.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -193,7 +193,7 @@ var chapterData_92 = [
         "ayah_en": {
           "but seeking the pleasure of their Lord, the Most High": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6081.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092020.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -201,7 +201,7 @@ var chapterData_92 = [
         "ayah_en": {
           "They will certainly be pleased": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6082.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/092021.mp3"
       }
     ]
   }

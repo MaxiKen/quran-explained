@@ -9,7 +9,7 @@ var chapterData_106 = [
         "ayah_en": {
           "˹At least˺ for ˹the favour of˺ making Quraysh habitually secure—": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6197.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/106001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_106 = [
         "ayah_en": {
           "secure in their trading caravan ˹to Yemen˺ in the winter and ˹Syria˺ in the summer—": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6198.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/106002.mp3"
       }
     ]
   },
@@ -31,7 +31,7 @@ var chapterData_106 = [
         "ayah_en": {
           "let them worship the Lord of this ˹Sacred˺ House,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6199.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/106003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -40,7 +40,7 @@ var chapterData_106 = [
           "Who has fed them against hunger": "",
           "and made them secure against fear.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6200.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/106004.mp3"
       }
     ]
   }

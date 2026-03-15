@@ -10,7 +10,7 @@ var chapterData_107 = [
           "Have you seen": "",
           "the one who denies the ˹final˺ Judgment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6201.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_107 = [
         "ayah_en": {
           "That is the one who repulses the orphan": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6202.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_107 = [
         "ayah_en": {
           "and does not encourage the feeding of the poor": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6203.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107003.mp3"
       }
     ]
   },
@@ -41,7 +41,7 @@ var chapterData_107 = [
           "So woe": "",
           "to those ˹hypocrites˺ who pray": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6204.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -49,7 +49,7 @@ var chapterData_107 = [
         "ayah_en": {
           "yet are unmindful of their prayers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6205.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -57,7 +57,7 @@ var chapterData_107 = [
         "ayah_en": {
           "those who ˹only˺ show off": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6206.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -65,7 +65,7 @@ var chapterData_107 = [
         "ayah_en": {
           "and refuse to give ˹even the simplest˺ aid": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6207.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/107007.mp3"
       }
     ]
   }

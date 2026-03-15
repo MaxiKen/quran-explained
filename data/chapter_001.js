@@ -11,7 +11,7 @@ var chapterData_1 = [
           "the Most Compassionate": "",
           "Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001001.mp3"
       }
     ]
   },
@@ -26,7 +26,7 @@ var chapterData_1 = [
           "All praise is for Allah": "",
           "Lord of all worlds": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/2.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001002.mp3"
       }
     ]
   },
@@ -41,7 +41,7 @@ var chapterData_1 = [
           "the Most Compassionate": "",
           "Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/3.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -49,7 +49,7 @@ var chapterData_1 = [
         "ayah_en": {
           "Master of the Day of Judgment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001004.mp3"
       }
     ]
   },
@@ -64,7 +64,7 @@ var chapterData_1 = [
           "You alone we worship": "",
           "and You alone we ask for help": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001005.mp3"
       }
     ]
   },
@@ -79,7 +79,7 @@ var chapterData_1 = [
           "Guide us": "",
           "along the Straight Path": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001006.mp3"
       }
     ]
   },
@@ -95,7 +95,7 @@ var chapterData_1 = [
           "not those You are displeased with": "",
           "or those who are astray": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/7.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001007.mp3"
       }
     ]
   }

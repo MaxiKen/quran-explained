@@ -9,7 +9,7 @@ var chapterData_55 = [
         "ayah_en": {
           "The Most Compassionate": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4905.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_55 = [
         "ayah_en": {
           "taught the Quran": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4906.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_55 = [
         "ayah_en": {
           "created humanity": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4907.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹and˺ taught them speech": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4908.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055004.mp3"
       }
     ]
   },
@@ -47,7 +47,7 @@ var chapterData_55 = [
         "ayah_en": {
           "The sun and the moon ˹travel˺ with precision": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4909.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -55,7 +55,7 @@ var chapterData_55 = [
         "ayah_en": {
           "The stars and the trees bow down ˹in submission˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4910.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -64,7 +64,7 @@ var chapterData_55 = [
           "As for the sky, He raised it ˹high˺": "",
           "and set the balance ˹of justice˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4911.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -72,7 +72,7 @@ var chapterData_55 = [
         "ayah_en": {
           "so that you do not defraud the scales": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4912.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -81,7 +81,7 @@ var chapterData_55 = [
           "Weigh with justice": "",
           "and do not give short measure": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4913.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055009.mp3"
       }
     ]
   },
@@ -95,7 +95,7 @@ var chapterData_55 = [
         "ayah_en": {
           "He laid out the earth for all beings": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4914.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -104,7 +104,7 @@ var chapterData_55 = [
           "In it are fruit": "",
           "palm trees with date stalks": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4915.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055011.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -113,7 +113,7 @@ var chapterData_55 = [
           "and grain with husks": "",
           "and aromatic plants": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4916.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055012.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -121,7 +121,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you ˹humans and jinn˺ both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4917.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055013.mp3"
       }
     ]
   },
@@ -135,7 +135,7 @@ var chapterData_55 = [
         "ayah_en": {
           "He created humankind from ˹sounding˺ clay like pottery": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4918.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055014.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -143,7 +143,7 @@ var chapterData_55 = [
         "ayah_en": {
           "and created jinn from a ˹smokeless˺ flame of fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4919.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055015.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -151,7 +151,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4920.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055016.mp3"
       }
     ]
   },
@@ -165,7 +165,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹He is˺ Lord of the two easts and the two wests": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4921.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055017.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -173,7 +173,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4922.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055018.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -181,7 +181,7 @@ var chapterData_55 = [
         "ayah_en": {
           "He merges the two bodies of ˹fresh and salt˺ water": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4923.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055019.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -189,7 +189,7 @@ var chapterData_55 = [
         "ayah_en": {
           "yet between them is a barrier they never cross": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4924.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055020.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -197,7 +197,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4925.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055021.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -205,7 +205,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Out of both ˹waters˺ come forth pearls and coral": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4926.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055022.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -213,7 +213,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4927.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055023.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -221,7 +221,7 @@ var chapterData_55 = [
         "ayah_en": {
           "To Him belong the ships with raised sails, sailing through the seas like mountains": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4928.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055024.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -229,7 +229,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4929.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055025.mp3"
       }
     ]
   },
@@ -243,7 +243,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Every being on earth is bound to perish": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4930.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055026.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -252,7 +252,7 @@ var chapterData_55 = [
           "Only your Lord Himself,": "",
           "full of Majesty and Honour, will remain ˹forever˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4931.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055027.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -260,7 +260,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4932.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055028.mp3"
       }
     ]
   },
@@ -275,7 +275,7 @@ var chapterData_55 = [
           "All those in the heavens and the earth are dependent on Him": "",
           "Day in and day out He has something to bring about": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4933.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055029.mp3"
       },
       {
         "ayah_no_surah": 30,
@@ -283,7 +283,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4934.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055030.mp3"
       }
     ]
   },
@@ -297,7 +297,7 @@ var chapterData_55 = [
         "ayah_en": {
           "We will soon attend to you ˹for judgment˺, O two multitudes ˹of jinn and humans˺!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4935.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055031.mp3"
       },
       {
         "ayah_no_surah": 32,
@@ -305,7 +305,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4936.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055032.mp3"
       },
       {
         "ayah_no_surah": 33,
@@ -314,7 +314,7 @@ var chapterData_55 = [
           "O assembly of jinn and humans! If you can penetrate beyond the realms of the heavens and the earth, then do so": "",
           "˹But˺ you cannot do that without ˹Our˺ authority": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4937.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055033.mp3"
       },
       {
         "ayah_no_surah": 34,
@@ -322,7 +322,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4938.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055034.mp3"
       }
     ]
   },
@@ -337,7 +337,7 @@ var chapterData_55 = [
           "Flames of fire and ˹molten˺ copper will be sent against you": "",
           "and you will not be able to defend one another": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4939.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055035.mp3"
       },
       {
         "ayah_no_surah": 36,
@@ -345,7 +345,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4940.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055036.mp3"
       },
       {
         "ayah_no_surah": 37,
@@ -353,7 +353,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹How horrible will it be˺ when the heavens will split apart, becoming rose-red like ˹burnt˺ oil!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4941.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055037.mp3"
       },
       {
         "ayah_no_surah": 38,
@@ -361,7 +361,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4942.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055038.mp3"
       },
       {
         "ayah_no_surah": 39,
@@ -369,7 +369,7 @@ var chapterData_55 = [
         "ayah_en": {
           "On that Day there will be no need for any human or jinn to be asked about their sins": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4943.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055039.mp3"
       },
       {
         "ayah_no_surah": 40,
@@ -377,7 +377,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4944.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055040.mp3"
       },
       {
         "ayah_no_surah": 41,
@@ -386,7 +386,7 @@ var chapterData_55 = [
           "The wicked will be recognized by their appearance": "",
           "then will be seized by ˹their˺ forelocks and feet": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4945.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055041.mp3"
       },
       {
         "ayah_no_surah": 42,
@@ -394,7 +394,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4946.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055042.mp3"
       },
       {
         "ayah_no_surah": 43,
@@ -402,7 +402,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹They will be told,˺ \"This is the Hell which the wicked denied.\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4947.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055043.mp3"
       },
       {
         "ayah_no_surah": 44,
@@ -410,7 +410,7 @@ var chapterData_55 = [
         "ayah_en": {
           "They will alternate between its flames and scalding water": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4948.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055044.mp3"
       },
       {
         "ayah_no_surah": 45,
@@ -418,7 +418,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4949.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055045.mp3"
       }
     ]
   },
@@ -432,7 +432,7 @@ var chapterData_55 = [
         "ayah_en": {
           "And whoever is in awe of standing before their Lord will have two Gardens": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4950.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055046.mp3"
       },
       {
         "ayah_no_surah": 47,
@@ -440,7 +440,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4951.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055047.mp3"
       },
       {
         "ayah_no_surah": 48,
@@ -448,7 +448,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹Both will be˺ with lush branches": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4952.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055048.mp3"
       },
       {
         "ayah_no_surah": 49,
@@ -456,7 +456,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4953.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055049.mp3"
       },
       {
         "ayah_no_surah": 50,
@@ -464,7 +464,7 @@ var chapterData_55 = [
         "ayah_en": {
           "In each ˹Garden˺ will be two flowing springs": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4954.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055050.mp3"
       },
       {
         "ayah_no_surah": 51,
@@ -472,7 +472,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4955.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055051.mp3"
       },
       {
         "ayah_no_surah": 52,
@@ -480,7 +480,7 @@ var chapterData_55 = [
         "ayah_en": {
           "In each will be two types of every fruit": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4956.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055052.mp3"
       },
       {
         "ayah_no_surah": 53,
@@ -488,7 +488,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4957.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055053.mp3"
       },
       {
         "ayah_no_surah": 54,
@@ -497,7 +497,7 @@ var chapterData_55 = [
           "Those ˹believers˺ will recline on furnishings lined with rich brocade": "",
           "And the fruit of both Gardens will hang within reach": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4958.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055054.mp3"
       },
       {
         "ayah_no_surah": 55,
@@ -505,7 +505,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4959.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055055.mp3"
       },
       {
         "ayah_no_surah": 56,
@@ -514,7 +514,7 @@ var chapterData_55 = [
           "In both ˹Gardens˺ will be maidens of modest gaze": "",
           "who no human or jinn has ever touched before": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4960.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055056.mp3"
       },
       {
         "ayah_no_surah": 57,
@@ -522,7 +522,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4961.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055057.mp3"
       },
       {
         "ayah_no_surah": 58,
@@ -530,7 +530,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Those ˹maidens˺ will be ˹as elegant˺ as rubies and coral": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4962.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055058.mp3"
       },
       {
         "ayah_no_surah": 59,
@@ -538,7 +538,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4963.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055059.mp3"
       },
       {
         "ayah_no_surah": 60,
@@ -546,7 +546,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Is there any reward for goodness except goodness?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4964.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055060.mp3"
       },
       {
         "ayah_no_surah": 61,
@@ -554,7 +554,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4965.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055061.mp3"
       }
     ]
   },
@@ -568,7 +568,7 @@ var chapterData_55 = [
         "ayah_en": {
           "And below these two ˹Gardens˺ will be two others": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4966.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055062.mp3"
       },
       {
         "ayah_no_surah": 63,
@@ -576,7 +576,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4967.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055063.mp3"
       },
       {
         "ayah_no_surah": 64,
@@ -584,7 +584,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Both will be dark green": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4968.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055064.mp3"
       },
       {
         "ayah_no_surah": 65,
@@ -592,7 +592,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4969.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055065.mp3"
       },
       {
         "ayah_no_surah": 66,
@@ -600,7 +600,7 @@ var chapterData_55 = [
         "ayah_en": {
           "In each will be two gushing springs": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4970.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055066.mp3"
       },
       {
         "ayah_no_surah": 67,
@@ -608,7 +608,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4971.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055067.mp3"
       },
       {
         "ayah_no_surah": 68,
@@ -616,7 +616,7 @@ var chapterData_55 = [
         "ayah_en": {
           "In both will be fruit, palm trees, and pomegranates": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4972.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055068.mp3"
       },
       {
         "ayah_no_surah": 69,
@@ -624,7 +624,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4973.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055069.mp3"
       },
       {
         "ayah_no_surah": 70,
@@ -632,7 +632,7 @@ var chapterData_55 = [
         "ayah_en": {
           "In all Gardens will be noble, pleasant mates": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4974.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055070.mp3"
       },
       {
         "ayah_no_surah": 71,
@@ -640,7 +640,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4975.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055071.mp3"
       },
       {
         "ayah_no_surah": 72,
@@ -648,7 +648,7 @@ var chapterData_55 = [
         "ayah_en": {
           "˹They will be˺ maidens with gorgeous eyes, reserved in pavilions": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4976.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055072.mp3"
       },
       {
         "ayah_no_surah": 73,
@@ -656,7 +656,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4977.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055073.mp3"
       },
       {
         "ayah_no_surah": 74,
@@ -664,7 +664,7 @@ var chapterData_55 = [
         "ayah_en": {
           "No human or jinn has ever touched these ˹maidens˺ before": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4978.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055074.mp3"
       },
       {
         "ayah_no_surah": 75,
@@ -672,7 +672,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4979.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055075.mp3"
       },
       {
         "ayah_no_surah": 76,
@@ -680,7 +680,7 @@ var chapterData_55 = [
         "ayah_en": {
           "All ˹believers˺ will be reclining on green cushions and splendid carpets": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4980.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055076.mp3"
       },
       {
         "ayah_no_surah": 77,
@@ -688,7 +688,7 @@ var chapterData_55 = [
         "ayah_en": {
           "Then which of your Lord's favours will you both deny?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4981.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055077.mp3"
       }
     ]
   },
@@ -703,7 +703,7 @@ var chapterData_55 = [
           "Blessed is the Name of your Lord": "",
           "full of Majesty and Honour": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4982.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/055078.mp3"
       }
     ]
   }

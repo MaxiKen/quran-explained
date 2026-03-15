@@ -9,7 +9,7 @@ var chapterData_91 = [
         "ayah_en": {
           "By the sun and its brightness": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6047.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_91 = [
         "ayah_en": {
           "and the moon as it follows it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6048.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_91 = [
         "ayah_en": {
           "and the day as it unveils it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6049.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_91 = [
         "ayah_en": {
           "and the night as it conceals it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6050.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_91 = [
         "ayah_en": {
           "And by heaven and the One Who built it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6051.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -49,7 +49,7 @@ var chapterData_91 = [
         "ayah_en": {
           "and the earth and the One Who spread it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6052.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -57,7 +57,7 @@ var chapterData_91 = [
         "ayah_en": {
           "And by the soul and the One Who fashioned it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6053.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -65,7 +65,7 @@ var chapterData_91 = [
         "ayah_en": {
           "then with the knowledge of right and wrong inspired it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6054.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091008.mp3"
       }
     ]
   },
@@ -79,7 +79,7 @@ var chapterData_91 = [
         "ayah_en": {
           "Successful indeed is the one who purifies their soul": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6055.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +87,7 @@ var chapterData_91 = [
         "ayah_en": {
           "and doomed is the one who corrupts it": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6056.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091010.mp3"
       }
     ]
   },
@@ -101,7 +101,7 @@ var chapterData_91 = [
         "ayah_en": {
           "Thamud rejected the truth out of arrogance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6057.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091011.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -109,7 +109,7 @@ var chapterData_91 = [
         "ayah_en": {
           "when the most wicked of them was roused to kill the she-camel": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6058.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091012.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -117,7 +117,7 @@ var chapterData_91 = [
         "ayah_en": {
           "But the messenger of Allah warned them, 'Do not disturb Allah's camel and her turn to drink!'": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6059.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091013.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -126,7 +126,7 @@ var chapterData_91 = [
           "Still they defied him and slaughtered her": "",
           "So their Lord crushed them for their crime, levelling all to the ground": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6060.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091014.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -134,7 +134,7 @@ var chapterData_91 = [
         "ayah_en": {
           "He has no fear of consequences": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6061.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/091015.mp3"
       }
     ]
   }

@@ -9,7 +9,7 @@ var chapterData_84 = [
         "ayah_en": {
           "When the sky bursts open": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5888.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -18,7 +18,7 @@ var chapterData_84 = [
           "obeying its Lord": "",
           "as it must": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5889.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -26,7 +26,7 @@ var chapterData_84 = [
         "ayah_en": {
           "and when the earth is flattened out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5890.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -35,7 +35,7 @@ var chapterData_84 = [
           "and ejects ˹all˺ its contents": "",
           "and becomes empty": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5891.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -44,7 +44,7 @@ var chapterData_84 = [
           "obeying its Lord": "",
           "as it must": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5892.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084005.mp3"
       }
     ]
   },
@@ -60,7 +60,7 @@ var chapterData_84 = [
           "Indeed, you are labouring restlessly towards your Lord": "",
           "and will ˹eventually˺ meet the consequences": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5893.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -68,7 +68,7 @@ var chapterData_84 = [
         "ayah_en": {
           "As for those who are given their record in their right hand": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5894.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -76,7 +76,7 @@ var chapterData_84 = [
         "ayah_en": {
           "they will have an easy reckoning": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5895.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -84,7 +84,7 @@ var chapterData_84 = [
         "ayah_en": {
           "and will return to their people joyfully": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5896.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084009.mp3"
       }
     ]
   },
@@ -98,7 +98,7 @@ var chapterData_84 = [
         "ayah_en": {
           "And as for those who are given their record ˹in their left hand˺ from behind their backs": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5897.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -106,7 +106,7 @@ var chapterData_84 = [
         "ayah_en": {
           "they will cry for ˹instant˺ destruction": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5898.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084011.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -114,7 +114,7 @@ var chapterData_84 = [
         "ayah_en": {
           "and will burn in the blazing Fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5899.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084012.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -122,7 +122,7 @@ var chapterData_84 = [
         "ayah_en": {
           "For they used to be prideful among their people": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5900.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084013.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -130,7 +130,7 @@ var chapterData_84 = [
         "ayah_en": {
           "thinking they would never return ˹to Allah˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5901.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084014.mp3"
       },
       {
         "ayah_no_surah": 15,
@@ -139,7 +139,7 @@ var chapterData_84 = [
           "Yes ˹they would˺!": "",
           "Surely their Lord has always been All-Seeing of them": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5902.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084015.mp3"
       }
     ]
   },
@@ -153,7 +153,7 @@ var chapterData_84 = [
         "ayah_en": {
           "So, I do swear by the twilight!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5903.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084016.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -161,7 +161,7 @@ var chapterData_84 = [
         "ayah_en": {
           "And by the night and whatever it envelops!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5904.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084017.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -169,7 +169,7 @@ var chapterData_84 = [
         "ayah_en": {
           "And by the moon when it waxes full!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5905.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084018.mp3"
       },
       {
         "ayah_no_surah": 19,
@@ -177,7 +177,7 @@ var chapterData_84 = [
         "ayah_en": {
           "You will certainly pass from one state to another": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5906.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084019.mp3"
       }
     ]
   },
@@ -191,7 +191,7 @@ var chapterData_84 = [
         "ayah_en": {
           "So what is the matter with them that they do not believe": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5907.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084020.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -199,7 +199,7 @@ var chapterData_84 = [
         "ayah_en": {
           "and when the Quran is recited to them, they do not bow down ˹in submission˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5908.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084021.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -207,7 +207,7 @@ var chapterData_84 = [
         "ayah_en": {
           "In fact, the disbelievers persist in denial": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5909.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084022.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -215,7 +215,7 @@ var chapterData_84 = [
         "ayah_en": {
           "But Allah knows best whatever they hide": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5910.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084023.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -223,7 +223,7 @@ var chapterData_84 = [
         "ayah_en": {
           "So give them good news of a painful punishment": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5911.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084024.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -232,7 +232,7 @@ var chapterData_84 = [
           "But those who believe and do good": "",
           "will have a never-ending reward": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5912.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/084025.mp3"
       }
     ]
   }

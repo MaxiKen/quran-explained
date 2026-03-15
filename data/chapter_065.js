@@ -16,7 +16,7 @@ var chapterData_65 = [
           "And whoever transgresses Allah's limits has truly wronged his own soul.": "",
           "You never know, perhaps Allah will bring about a change ˹of heart˺ later.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5221.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065001.mp3"
       }
     ]
   },
@@ -36,7 +36,7 @@ var chapterData_65 = [
           "This is enjoined on whoever has faith in Allah and the Last Day.": "",
           "And whoever is mindful of Allah, He will make a way out for them,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5222.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -47,7 +47,7 @@ var chapterData_65 = [
           "Certainly Allah achieves His Will.": "",
           "Allah has already set a destiny for everything.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5223.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065003.mp3"
       }
     ]
   },
@@ -64,7 +64,7 @@ var chapterData_65 = [
           "As for those who are pregnant, their waiting period ends with delivery.": "",
           "And whoever is mindful of Allah, He will make their matters easy for them.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5224.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -74,7 +74,7 @@ var chapterData_65 = [
           "And whoever is mindful of Allah, He will absolve them of their sins": "",
           "and reward them immensely.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5225.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065005.mp3"
       }
     ]
   },
@@ -93,7 +93,7 @@ var chapterData_65 = [
           "and consult together courteously.": "",
           "But if you fail to reach an agreement, then another woman will nurse ˹the child˺ for the father.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5226.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -104,7 +104,7 @@ var chapterData_65 = [
           "Allah does not require of any soul beyond what He has given it.": "",
           "After hardship, Allah will bring about ease.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5227.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065007.mp3"
       }
     ]
   },
@@ -120,7 +120,7 @@ var chapterData_65 = [
           "so We called each ˹society˺ to a severe account": "",
           "and subjected them to a horrible punishment.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5228.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -129,7 +129,7 @@ var chapterData_65 = [
           "So they tasted the evil consequences of their doings,": "",
           "and the outcome of their doings was ˹total˺ loss.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5229.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -139,7 +139,7 @@ var chapterData_65 = [
           "So fear Allah, O people of reason and faith.": "",
           "Allah has indeed revealed to you a Reminder,": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5230.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065010.mp3"
       }
     ]
   },
@@ -157,7 +157,7 @@ var chapterData_65 = [
           "to stay there for ever and ever.": "",
           "Allah will have indeed granted them an excellent provision.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5231.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065011.mp3"
       }
     ]
   },
@@ -175,7 +175,7 @@ var chapterData_65 = [
           "so you may know that Allah is Most Capable of everything": "",
           "and that Allah certainly encompasses all things in ˹His˺ knowledge.": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5232.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/065012.mp3"
       }
     ]
   }

@@ -10,7 +10,7 @@ var chapterData_97 = [
           "Indeed, it is We Who sent this Quran down": "",
           "on the Night of Glory": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6129.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097001.mp3"
       }
     ]
   },
@@ -24,7 +24,7 @@ var chapterData_97 = [
         "ayah_en": {
           "And what will make you realize what the Night of Glory is?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6130.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -32,7 +32,7 @@ var chapterData_97 = [
         "ayah_en": {
           "The Night of Glory is better than a thousand months": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6131.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097003.mp3"
       }
     ]
   },
@@ -48,7 +48,7 @@ var chapterData_97 = [
           "by the permission of their Lord": "",
           "for every decreed matter": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6132.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097004.mp3"
       }
     ]
   },
@@ -63,7 +63,7 @@ var chapterData_97 = [
           "It is all peace": "",
           "until the break of dawn": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6133.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097005.mp3"
       }
     ]
   }

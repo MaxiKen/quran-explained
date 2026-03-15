@@ -11,7 +11,7 @@ var chapterData_63 = [
           "—and surely Allah knows that you are His Messenger—": "",
           "—but Allah bears witness that the hypocrites are truly liars": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5192.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -21,7 +21,7 @@ var chapterData_63 = [
           "hindering ˹others˺ from the Way of Allah": "",
           "Evil indeed is what they do!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5193.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -31,7 +31,7 @@ var chapterData_63 = [
           "Therefore, their hearts have been sealed": "",
           "so they do not comprehend": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5194.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063003.mp3"
       }
     ]
   },
@@ -50,7 +50,7 @@ var chapterData_63 = [
           "They are the enemy, so beware of them": "",
           "May Allah condemn them! How can they be deluded ˹from the truth˺?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5195.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063004.mp3"
       }
     ]
   },
@@ -66,7 +66,7 @@ var chapterData_63 = [
           "they turn their heads ˹in disgust˺": "",
           "and you see them ˹O Prophet˺ turn away in arrogance": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5196.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -75,7 +75,7 @@ var chapterData_63 = [
           "It is the same whether you pray for their forgiveness or not, Allah will not forgive them": "",
           "Surely Allah does not guide the rebellious people": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5197.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063006.mp3"
       }
     ]
   },
@@ -91,7 +91,7 @@ var chapterData_63 = [
           "But to Allah ˹alone˺ belong the treasuries of the heavens and the earth": "",
           "yet the hypocrites do not comprehend": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5198.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -101,7 +101,7 @@ var chapterData_63 = [
           "But all honour and power belongs to Allah, His Messenger, and the believers": "",
           "yet the hypocrites do not know": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5199.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063008.mp3"
       }
     ]
   },
@@ -116,7 +116,7 @@ var chapterData_63 = [
           "O believers! Do not let your wealth or your children divert you from the remembrance of Allah": "",
           "For whoever does so, it is they who are the ˹true˺ losers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5200.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -126,7 +126,7 @@ var chapterData_63 = [
           "before death comes to one of you": "",
           "and you cry, \"My Lord! If only You delayed me for a short while, I would give in charity and be one of the righteous.\"": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5201.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -135,7 +135,7 @@ var chapterData_63 = [
           "But Allah never delays a soul when its appointed time comes": "",
           "And Allah is All-Aware of what you do": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5202.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/063011.mp3"
       }
     ]
   }

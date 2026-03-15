@@ -15,7 +15,7 @@ var chapterData_60 = [
           "when I know best whatever you conceal and whatever you reveal": "",
           "And whoever of you does this has truly strayed from the Right Way": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5154.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -25,7 +25,7 @@ var chapterData_60 = [
           "unleashing their hands and tongues to harm you": "",
           "and wishing that you would abandon faith": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5155.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -35,7 +35,7 @@ var chapterData_60 = [
           "He will decide between you all": "",
           "For Allah is All-Seeing of what you do": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5156.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060003.mp3"
       }
     ]
   },
@@ -55,7 +55,7 @@ var chapterData_60 = [
           "And to You we always turn": "",
           "And to You is the final return": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5157.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -65,7 +65,7 @@ var chapterData_60 = [
           "Forgive us, our Lord": "",
           "You alone are truly the Almighty, All-Wise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5158.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -74,7 +74,7 @@ var chapterData_60 = [
           "You certainly have an excellent example in them for whoever has hope in Allah and the Last Day": "",
           "But whoever turns away, then surely Allah alone is the Self-Sufficient, Praiseworthy": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5159.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060006.mp3"
       }
     ]
   },
@@ -90,7 +90,7 @@ var chapterData_60 = [
           "For Allah is Most Capable": "",
           "And Allah is All-Forgiving, Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5160.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060007.mp3"
       }
     ]
   },
@@ -105,7 +105,7 @@ var chapterData_60 = [
           "Allah does not forbid you from dealing kindly and fairly with those who have neither fought nor driven you out of your homes": "",
           "Surely Allah loves those who are fair": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5161.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -114,7 +114,7 @@ var chapterData_60 = [
           "Allah only forbids you from befriending those who have fought you for your faith, driven you out of your homes, or supported others in doing so": "",
           "And whoever takes them as friends, then it is they who are the true wrongdoers": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5162.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060009.mp3"
       }
     ]
   },
@@ -137,7 +137,7 @@ var chapterData_60 = [
           "That is the judgment of Allah—He judges between you": "",
           "And Allah is All-Knowing, All-Wise": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5163.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -148,7 +148,7 @@ var chapterData_60 = [
           "then pay those whose wives have gone, the equivalent of whatever dowry they had paid": "",
           "And be mindful of Allah, in Whom you believe": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5164.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060011.mp3"
       }
     ]
   },
@@ -171,7 +171,7 @@ var chapterData_60 = [
           "and ask Allah to forgive them": "",
           "Surely Allah is All-Forgiving, Most Merciful": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5165.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060012.mp3"
       }
     ]
   },
@@ -187,7 +187,7 @@ var chapterData_60 = [
           "They already have no hope for the Hereafter": "",
           "just like the disbelievers lying in their graves": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5166.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/060013.mp3"
       }
     ]
   }

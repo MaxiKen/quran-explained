@@ -9,7 +9,7 @@ var chapterData_81 = [
         "ayah_en": {
           "When the sun is put out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5804.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the stars fall down": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5805.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the mountains are blown away": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5806.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when pregnant camels are left untended": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5807.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when wild beasts are gathered together": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5808.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081005.mp3"
       },
       {
         "ayah_no_surah": 6,
@@ -49,7 +49,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the seas are set on fire": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5809.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081006.mp3"
       }
     ]
   },
@@ -63,7 +63,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the souls ˹and their bodies˺ are paired ˹once more˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5810.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -71,7 +71,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when baby girls, buried alive, are asked": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5811.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081008.mp3"
       },
       {
         "ayah_no_surah": 9,
@@ -79,7 +79,7 @@ var chapterData_81 = [
         "ayah_en": {
           "for what crime they were put to death": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5812.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -87,7 +87,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the records ˹of deeds˺ are laid open": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5813.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -95,7 +95,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the sky is stripped away": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5814.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081011.mp3"
       },
       {
         "ayah_no_surah": 12,
@@ -103,7 +103,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when the Hellfire is fiercely flared up": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5815.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081012.mp3"
       },
       {
         "ayah_no_surah": 13,
@@ -111,7 +111,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and when Paradise is brought near": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5816.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081013.mp3"
       },
       {
         "ayah_no_surah": 14,
@@ -119,7 +119,7 @@ var chapterData_81 = [
         "ayah_en": {
           "˹on that Day˺ each soul will know what ˹deeds˺ it has brought along": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5817.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081014.mp3"
       }
     ]
   },
@@ -133,7 +133,7 @@ var chapterData_81 = [
         "ayah_en": {
           "I do swear by the receding stars": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5818.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081015.mp3"
       },
       {
         "ayah_no_surah": 16,
@@ -141,7 +141,7 @@ var chapterData_81 = [
         "ayah_en": {
           "which travel and hide": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5819.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081016.mp3"
       },
       {
         "ayah_no_surah": 17,
@@ -149,7 +149,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and the night as it falls": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5820.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081017.mp3"
       },
       {
         "ayah_no_surah": 18,
@@ -157,7 +157,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and the day as it breaks": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5821.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081018.mp3"
       }
     ]
   },
@@ -171,7 +171,7 @@ var chapterData_81 = [
         "ayah_en": {
           "Indeed, this ˹Quran˺ is the Word of ˹Allah delivered by Gabriel,˺ a noble messenger-angel": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5822.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081019.mp3"
       },
       {
         "ayah_no_surah": 20,
@@ -179,7 +179,7 @@ var chapterData_81 = [
         "ayah_en": {
           "full of power, held in honour by the Lord of the Throne": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5823.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081020.mp3"
       },
       {
         "ayah_no_surah": 21,
@@ -187,7 +187,7 @@ var chapterData_81 = [
         "ayah_en": {
           "obeyed there ˹in heaven˺, and trustworthy": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5824.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081021.mp3"
       },
       {
         "ayah_no_surah": 22,
@@ -195,7 +195,7 @@ var chapterData_81 = [
         "ayah_en": {
           "And your fellow man is not insane": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5825.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081022.mp3"
       },
       {
         "ayah_no_surah": 23,
@@ -203,7 +203,7 @@ var chapterData_81 = [
         "ayah_en": {
           "And he did see that ˹angel˺ on the clear horizon": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5826.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081023.mp3"
       },
       {
         "ayah_no_surah": 24,
@@ -211,7 +211,7 @@ var chapterData_81 = [
         "ayah_en": {
           "and he does not withhold ˹what is revealed to him of˺ the unseen": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5827.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081024.mp3"
       },
       {
         "ayah_no_surah": 25,
@@ -219,7 +219,7 @@ var chapterData_81 = [
         "ayah_en": {
           "And this ˹Quran˺ is not the word of an outcast devil": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5828.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081025.mp3"
       }
     ]
   },
@@ -233,7 +233,7 @@ var chapterData_81 = [
         "ayah_en": {
           "So what ˹other˺ path would you take?": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5829.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081026.mp3"
       },
       {
         "ayah_no_surah": 27,
@@ -241,7 +241,7 @@ var chapterData_81 = [
         "ayah_en": {
           "Surely this ˹Quran˺ is only a reminder to the whole world": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5830.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081027.mp3"
       },
       {
         "ayah_no_surah": 28,
@@ -249,7 +249,7 @@ var chapterData_81 = [
         "ayah_en": {
           "to whoever of you wills to take the Straight Way": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5831.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081028.mp3"
       },
       {
         "ayah_no_surah": 29,
@@ -257,7 +257,7 @@ var chapterData_81 = [
         "ayah_en": {
           "But you cannot will ˹to do so˺, except by the Will of Allah, the Lord of all worlds": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5832.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/081029.mp3"
       }
     ]
   }

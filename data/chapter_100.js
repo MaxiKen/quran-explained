@@ -9,7 +9,7 @@ var chapterData_100 = [
         "ayah_en": {
           "By the galloping, panting horses": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6150.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100001.mp3"
       },
       {
         "ayah_no_surah": 2,
@@ -17,7 +17,7 @@ var chapterData_100 = [
         "ayah_en": {
           "striking sparks of fire ˹with their hoofs˺": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6151.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100002.mp3"
       },
       {
         "ayah_no_surah": 3,
@@ -25,7 +25,7 @@ var chapterData_100 = [
         "ayah_en": {
           "launching raids at dawn": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6152.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100003.mp3"
       },
       {
         "ayah_no_surah": 4,
@@ -33,7 +33,7 @@ var chapterData_100 = [
         "ayah_en": {
           "stirring up ˹clouds of˺ dust": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6153.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100004.mp3"
       },
       {
         "ayah_no_surah": 5,
@@ -41,7 +41,7 @@ var chapterData_100 = [
         "ayah_en": {
           "and penetrating into the heart of enemy lines!": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6154.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100005.mp3"
       }
     ]
   },
@@ -55,7 +55,7 @@ var chapterData_100 = [
         "ayah_en": {
           "Surely humankind is ungrateful to their Lord": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6155.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100006.mp3"
       },
       {
         "ayah_no_surah": 7,
@@ -63,7 +63,7 @@ var chapterData_100 = [
         "ayah_en": {
           "and they certainly attest to this": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6156.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100007.mp3"
       },
       {
         "ayah_no_surah": 8,
@@ -71,7 +71,7 @@ var chapterData_100 = [
         "ayah_en": {
           "and they are truly extreme in their love of ˹worldly˺ gains": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6157.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100008.mp3"
       }
     ]
   },
@@ -85,7 +85,7 @@ var chapterData_100 = [
         "ayah_en": {
           "Do they not know that when the contents of the graves will be spilled out": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6158.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100009.mp3"
       },
       {
         "ayah_no_surah": 10,
@@ -93,7 +93,7 @@ var chapterData_100 = [
         "ayah_en": {
           "and the secrets of the hearts will be laid bare": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6159.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100010.mp3"
       },
       {
         "ayah_no_surah": 11,
@@ -101,7 +101,7 @@ var chapterData_100 = [
         "ayah_en": {
           "surely their Lord is All-Aware of them on that Day": ""
         },
-        "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6160.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/100011.mp3"
       }
     ]
   }
