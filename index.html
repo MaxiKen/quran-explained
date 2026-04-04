@@ -290,17 +290,35 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        // Use relative path for SW registration
+        navigator.serviceWorker.register('./sw.js')
           .then(function(reg) {
             console.log('[App] SW registered. Scope:', reg.scope);
+            
+            // Check for updates
             reg.addEventListener('updatefound', function() {
-              var nw = reg.installing;
-              nw.addEventListener('statechange', function() {
-                if (nw.state === 'activated') console.log('[App] SW updated!');
+              var newWorker = reg.installing;
+              console.log('[App] New service worker installing...');
+              
+              newWorker.addEventListener('statechange', function() {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New SW available - show update notification
+                  console.log('[App] New version available! Refresh to update.');
+                  if (typeof showToast === 'function') {
+                    showToast('New version available! Refresh to update.', 'info');
+                  }
+                }
               });
             });
+            
+            // Check for updates every hour
+            setInterval(function() { 
+              reg.update(); 
+            }, 3600000);
           })
-          .catch(function(e) { console.warn('[App] SW failed:', e); });
+          .catch(function(e) { 
+            console.warn('[App] SW registration failed:', e); 
+          });
       });
     }
 
@@ -343,6 +361,7 @@
 
     window.addEventListener('appinstalled', function() {
       document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+      console.log('[App] PWA installed successfully');
     });
 
     window.triggerPWAInstall = function() {
