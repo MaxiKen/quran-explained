@@ -2,8 +2,8 @@
   "name": "Quran Explained - phrase by phrase",
   "short_name": "Quran Explained",
   "description": "A modern, interactive Quran reader with phrase-by-phrase explanations, bookmarks, reading history, and 4 beautiful themes.",
-  "start_url": "/index.html",
-  "scope": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0a0f1a",
@@ -78,14 +78,14 @@
       "name": "Al-Fatihah",
       "short_name": "Fatihah",
       "description": "Read Surah Al-Fatihah",
-      "url": "/index.html#surah-1",
+      "url": "./index.html#surah-1",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     },
     {
       "name": "Bookmarks",
       "short_name": "Bookmarks",
       "description": "View your bookmarked verses",
-      "url": "/index.html#bookmarks",
+      "url": "./index.html#bookmarks",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     }
   ]
