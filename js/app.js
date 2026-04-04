@@ -681,7 +681,6 @@ function renderSurahDetail(container) {
             <span class="surah-stat" style="color:${typeLower === 'makkan' ? 'var(--makkan-color)' : 'var(--medinan-color)'};">${ch.type}</span>
           </div>
 
-          <!-- CHAPTER AUDIO PLAYER -->
           <div class="chapter-player-card">
             <div class="chapter-player-header">
               <div class="chapter-player-title">
@@ -723,7 +722,6 @@ function renderSurahDetail(container) {
             </div>
           </div>
 
-          <!-- VERSE JUMP -->
           <div class="verse-jump-widget">
             <label class="verse-jump-label">Jump to Verse</label>
             <div class="verse-jump-controls">
@@ -803,7 +801,6 @@ function renderSurahDetail(container) {
 
   container.innerHTML = html;
 
-  // Build audio list and restore state
   AudioPlayer.buildVerseAudioList(AppState.currentSurah);
   if (AudioPlayer.currentSurah === AppState.currentSurah && AudioPlayer.isPlaying) {
     AudioPlayer._setVerseActive(true);
@@ -855,7 +852,7 @@ function closeAboutModal() { document.getElementById('aboutModal').classList.rem
    13. UTILITY FUNCTIONS
 ================================================ */
 function escapeHtml(str) { const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
-function escapeAttr(str) { return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function escapeAttr(str) { return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
 function getTimeAgo(timestamp) {
   const now = new Date(); const then = new Date(timestamp); const diffMs = now - then;
@@ -1014,7 +1011,6 @@ const AudioPlayer = {
       </div>`;
     document.body.appendChild(bar);
 
-    // Progress seeking
     const pc = document.getElementById('audioProgressContainer');
     let dragging = false;
     pc.addEventListener('click', (e) => this._seekFromEvent(e, pc));
@@ -1033,7 +1029,6 @@ const AudioPlayer = {
     this._updateProgress();
   },
 
-  /* -- Audio list -- */
   buildVerseAudioList(surahNum) {
     this._verseAudioList = [];
     const data = loadedChapters[surahNum] || AppState.currentSurahData;
@@ -1046,7 +1041,6 @@ const AudioPlayer = {
     this._verseAudioList.sort((a, b) => a.ayah - b.ayah);
   },
 
-  /* -- Prefetching next audio for gapless playback -- */
   _prefetchNext() {
     const next = this._getAdjacentVerse(1);
     if (next && !this._prefetchedAudios[next.url]) {
@@ -1055,7 +1049,6 @@ const AudioPlayer = {
       prefetchAudio.src = next.url;
       this._prefetchedAudios[next.url] = prefetchAudio;
     }
-    // Also prefetch +2
     const next2 = this._getAdjacentVerseByOffset(2);
     if (next2 && !this._prefetchedAudios[next2.url]) {
       const pf2 = new Audio();
@@ -1074,7 +1067,6 @@ const AudioPlayer = {
     return this._verseAudioList[newIdx];
   },
 
-  /* -- Core playback -- */
   playVerse(surahNum, ayahNum, audioUrl) {
     if (!audioUrl) return;
     if (this.currentSurah === surahNum && this.currentAyah === ayahNum && this.currentAudioUrl === audioUrl) {
@@ -1090,16 +1082,12 @@ const AudioPlayer = {
 
     if (this._verseAudioList.length === 0) this.buildVerseAudioList(surahNum);
 
-    // Use prefetched audio if available
-    if (this._prefetchedAudios[audioUrl]) {
-      this.audio.src = audioUrl;
-    } else {
-      this.audio.src = audioUrl;
-    }
+    this.audio.src = audioUrl;
     this.audio.load();
     this.audio.playbackRate = this.speed;
-    this.audio.play().catch(err => {
-      this.isPlaying = false; this._updateUI();
+    this.audio.play().catch(() => {
+      this.isPlaying = false;
+      this._updateUI();
     });
 
     this._showPlayerBar();
@@ -1229,7 +1217,6 @@ const AudioPlayer = {
 
   scrollToCurrentVerse() { if (this.currentAyah) scrollToVerse(this.currentAyah); },
 
-  /* -- UI updates -- */
   _showPlayerBar() { const b = document.getElementById('audioPlayerBar'); if (b) b.classList.add('visible'); updateScrollTopBtn(); },
   _hidePlayerBar() {
     const b = document.getElementById('audioPlayerBar'); if (b) b.classList.remove('visible');
@@ -1255,7 +1242,6 @@ const AudioPlayer = {
     }
     if (timeDisplay) timeDisplay.textContent = `${this._formatTime(this.currentTime)} / ${this._formatTime(this.duration)}`;
 
-    // Update play/pause icon in player bar
     const existing = document.getElementById('audioPlayIcon');
     if (existing) {
       if (this.isLoading) {
@@ -1361,12 +1347,13 @@ window.addEventListener('popstate', function(e) {
       const ayah = getTopVisibleVerseNum();
       if (ayah) addToHistory(AppState.currentSurah, ayah);
     }
-    AppState.currentView = 'list'; AppState.currentSurah = null; AppState.currentSurahData = null;
+    AppState.currentView = 'list';
+    AppState.currentSurah = null;
+    AppState.currentSurahData = null;
     renderApp();
   }
 });
 
-// Scroll events: progress bar + scroll-to-top
 window.addEventListener('scroll', function() {
   updateReadingProgress();
   updateScrollTopBtn();
@@ -1374,10 +1361,27 @@ window.addEventListener('scroll', function() {
 
 function handleInitialHash() {
   const hash = window.location.hash;
+
+  if (hash === '#bookmarks') {
+    AppState.homeTab = 'bookmarks';
+    renderApp();
+    return;
+  }
+
+  if (hash === '#history') {
+    AppState.homeTab = 'history';
+    renderApp();
+    return;
+  }
+
   if (hash && hash.startsWith('#surah-')) {
     const num = parseInt(hash.replace('#surah-', ''));
-    if (num >= 1 && num <= 114) { openSurah(num); return; }
+    if (num >= 1 && num <= 114) {
+      openSurah(num);
+      return;
+    }
   }
+
   renderApp();
 }
 
