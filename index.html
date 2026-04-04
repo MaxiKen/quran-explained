@@ -156,7 +156,6 @@
           </ul>
         </div>
 
-        <!-- ===== OFFLINE AVAILABILITY NOTICE ===== -->
         <div class="about-section about-offline-notice" id="offlineSection">
           <h5 class="about-section-title">Offline Access</h5>
           <div class="offline-notice-card">
@@ -286,178 +285,88 @@
   <!-- ========== SCRIPTS ========== -->
   <script src="js/chapters-meta.js"></script>
 
-<!-- PWA: Service Worker + Install Prompt -->
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('./sw.js')
-        .then(function(reg) {
-          console.log('[App] SW registered. Scope:', reg.scope);
-          
-          reg.addEventListener('updatefound', function() {
-            var newWorker = reg.installing;
-            console.log('[App] New service worker installing...');
-            
-            newWorker.addEventListener('statechange', function() {
-              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                console.log('[App] New version available! Refresh to update.');
-                if (typeof showToast === 'function') {
-                  showToast('New version available! Refresh to update.', 'info');
-                }
-              }
+  <!-- PWA: Service Worker + Install Prompt -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js')
+          .then(function(reg) {
+            console.log('[App] SW registered. Scope:', reg.scope);
+            reg.addEventListener('updatefound', function() {
+              var nw = reg.installing;
+              if (!nw) return;
+              nw.addEventListener('statechange', function() {
+                if (nw.state === 'activated') console.log('[App] SW updated!');
+              });
             });
-          });
-          
-          setInterval(function() { reg.update(); }, 3600000);
-        })
-        .catch(function(e) { 
-          console.warn('[App] SW registration failed:', e); 
-        });
-    });
-  }
-
-  var _deferredPrompt = null;
-  var _installAttempted = false;
-  var DISMISSED_KEY = 'pwa-pill-dismissed';
-
-  // Check if already installed
-  var isStandalone = window.matchMedia('(display-mode: standalone)').matches
-                  || window.navigator.standalone === true
-                  || document.referrer.includes('android-app://');
-
-  if (isStandalone) {
-    document.getElementById('pwaInstallPill').style.display = 'none';
-  }
-
-  // Capture the install prompt event
-  window.addEventListener('beforeinstallprompt', function(e) {
-    e.preventDefault();
-    _deferredPrompt = e;
-    console.log('[App] Install prompt available');
-    
-    if (!localStorage.getItem(DISMISSED_KEY) && !isStandalone) {
-      setTimeout(function() {
-        var pill = document.getElementById('pwaInstallPill');
-        if (pill) {
-          pill.classList.add('pwa-pill-visible');
-          console.log('[App] Showing install pill');
-        }
-      }, 1800);
+          })
+          .catch(function(e) { console.warn('[App] SW failed:', e); });
+      });
     }
-  });
 
-  // Install button click
-  document.getElementById('pwaInstallBtn').addEventListener('click', function() {
-    console.log('[App] Install button clicked');
-    
-    if (!_deferredPrompt) {
-      console.log('[App] No install prompt available');
-      // Show manual instructions instead
-      if (typeof showToast === 'function') {
-        showToast('Use your browser menu to install this app', 'info');
-      }
-      // Open about modal with instructions
-      if (typeof openAboutModal === 'function') {
-        openAboutModal();
+    var _deferredPrompt = null;
+    var DISMISSED_KEY = 'pwa-pill-dismissed';
+
+    var isStandalone = window.matchMedia('(display-mode: standalone)').matches
+                    || window.navigator.standalone === true;
+
+    if (isStandalone) {
+      var standalonePill = document.getElementById('pwaInstallPill');
+      if (standalonePill) standalonePill.style.display = 'none';
+    }
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      _deferredPrompt = e;
+      if (!localStorage.getItem(DISMISSED_KEY) && !isStandalone) {
         setTimeout(function() {
-          var section = document.getElementById('offlineSection');
-          if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 350);
+          var pill = document.getElementById('pwaInstallPill');
+          if (pill) pill.classList.add('pwa-pill-visible');
+        }, 1800);
       }
-      return;
-    }
-    
-    _installAttempted = true;
-    _deferredPrompt.prompt();
-    
-    _deferredPrompt.userChoice.then(function(choice) {
-      console.log('[App] Install choice:', choice.outcome);
-      if (choice.outcome === 'accepted') {
-        console.log('[App] User accepted install');
-        document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
-      } else {
-        console.log('[App] User dismissed install');
-      }
-      _deferredPrompt = null;
-    }).catch(function(err) {
-      console.error('[App] Install prompt error:', err);
     });
-  });
 
-  // Close button
-  document.getElementById('pwaInstallClose').addEventListener('click', function() {
-    console.log('[App] Install pill dismissed');
-    document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
-    localStorage.setItem(DISMISSED_KEY, '1');
-  });
-
-  // App installed event
-  window.addEventListener('appinstalled', function() {
-    console.log('[App] PWA installed successfully');
-    document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
-    if (typeof showToast === 'function') {
-      showToast('App installed successfully!', 'success');
-    }
-  });
-
-  // Global install trigger (used by home install banner)
-  window.triggerPWAInstall = function() {
-    console.log('[App] triggerPWAInstall called');
-    
-    if (_deferredPrompt) {
-      console.log('[App] Using deferred prompt');
+    document.getElementById('pwaInstallBtn').addEventListener('click', function() {
+      if (!_deferredPrompt) return;
       _deferredPrompt.prompt();
-      
       _deferredPrompt.userChoice.then(function(choice) {
-        console.log('[App] Install choice:', choice.outcome);
         if (choice.outcome === 'accepted') {
           document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
-          if (typeof showToast === 'function') {
-            showToast('App installed successfully!', 'success');
-          }
         }
         _deferredPrompt = null;
-      }).catch(function(err) {
-        console.error('[App] Install error:', err);
       });
-    } else {
-      console.log('[App] No deferred prompt - showing instructions');
-      // Show toast with manual installation instructions
-      if (typeof showToast === 'function') {
-        var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-        var isAndroid = /Android/.test(navigator.userAgent);
-        
-        if (isIOS) {
-          showToast('Tap Share button, then "Add to Home Screen"', 'info');
-        } else if (isAndroid) {
-          showToast('Tap menu (⋮) then "Install app" or "Add to Home screen"', 'info');
-        } else {
-          showToast('Use your browser menu to install this app', 'info');
+    });
+
+    document.getElementById('pwaInstallClose').addEventListener('click', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+      localStorage.setItem(DISMISSED_KEY, '1');
+    });
+
+    window.addEventListener('appinstalled', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+    });
+
+    window.triggerPWAInstall = function() {
+      if (_deferredPrompt) {
+        _deferredPrompt.prompt();
+        _deferredPrompt.userChoice.then(function(choice) {
+          if (choice.outcome === 'accepted') {
+            document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+          }
+          _deferredPrompt = null;
+        });
+      } else {
+        if (typeof openAboutModal === 'function') {
+          openAboutModal();
+          setTimeout(function() {
+            var section = document.getElementById('offlineSection');
+            if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 350);
         }
       }
-      
-      // Still open about modal with full instructions
-      if (typeof openAboutModal === 'function') {
-        openAboutModal();
-        setTimeout(function() {
-          var section = document.getElementById('offlineSection');
-          if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 350);
-      }
-    }
-  };
+    };
+  </script>
 
-  // Debug helper - check install availability
-  window.checkPWAStatus = function() {
-    console.log('=== PWA Status ===');
-    console.log('Deferred prompt available:', !!_deferredPrompt);
-    console.log('Is standalone:', isStandalone);
-    console.log('Install dismissed:', !!localStorage.getItem(DISMISSED_KEY));
-    console.log('User agent:', navigator.userAgent);
-  };
-</script>
-
-  
   <script src="js/app.js"></script>
 </body>
 </html>
