@@ -1,2 +1,2 @@
 # quran-explained
-Quran explained phrase by phrase 
+Quran explained verse by verse 

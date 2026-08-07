@@ -6,25 +6,19 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "الْقَارِعَةُ",
-        "ayah_en": {
-          "The Striking Disaster!": ""
-        },
+        "ayah_en": "The Striking Disaster!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَا الْقَارِعَةُ",
-        "ayah_en": {
-          "What is the Striking Disaster?": ""
-        },
+        "ayah_en": "What is the Striking Disaster?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
-        "ayah_en": {
-          "And what will make you realize what the Striking Disaster is?": ""
-        },
+        "ayah_en": "And what will make you realize what the Striking Disaster is?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101003.mp3"
       }
     ]
@@ -36,17 +30,13 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
-        "ayah_en": {
-          "˹It is˺ the Day people will be like scattered moths": ""
-        },
+        "ayah_en": "˹It is˺ the Day people will be like scattered moths.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنفُوشِ",
-        "ayah_en": {
-          "and the mountains will be like carded wool": ""
-        },
+        "ayah_en": "and the mountains will be like carded wool.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101005.mp3"
       }
     ]
@@ -58,17 +48,13 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ",
-        "ayah_en": {
-          "So as for those whose scale is heavy ˹with good deeds˺": ""
-        },
+        "ayah_en": "So as for those whose scale is heavy ˹with good deeds˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ",
-        "ayah_en": {
-          "they will be in a life of bliss": ""
-        },
+        "ayah_en": "they will be in a life of bliss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101007.mp3"
       }
     ]
@@ -80,33 +66,25 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
-        "ayah_en": {
-          "And as for those whose scale is light": ""
-        },
+        "ayah_en": "And as for those whose scale is light.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "فَأُمُّهُ هَاوِيَةٌ",
-        "ayah_en": {
-          "their home will be the abyss": ""
-        },
+        "ayah_en": "their home will be the abyss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَمَا أَدْرَاكَ مَا هِيَهْ",
-        "ayah_en": {
-          "And what will make you realize what that is?": ""
-        },
+        "ayah_en": "And what will make you realize what that is?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "نَارٌ حَامِيَةٌ",
-        "ayah_en": {
-          "˹It is˺ a scorching Fire": ""
-        },
+        "ayah_en": "˹It is˺ a scorching Fire.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101011.mp3"
       }
     ]

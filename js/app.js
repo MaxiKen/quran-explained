@@ -161,10 +161,9 @@ function getEnglishSnippet(surahNum, ayahNum) {
   for (const theme of data) {
     for (const verse of theme.verses) {
       if (verse.ayah_no_surah === ayahNum) {
-        const phrases = Object.keys(verse.ayah_en);
-        if (phrases.length === 0) return '';
-        const joined = phrases.join(', ');
-        return joined.length > 80 ? joined.substring(0, 80) + '…' : joined;
+        const text = typeof verse.ayah_en === 'string' ? verse.ayah_en : Object.keys(verse.ayah_en || {}).join(', ');
+        if (!text) return '';
+        return text.length > 80 ? text.substring(0, 80) + '…' : text;
       }
     }
   }
@@ -458,6 +457,14 @@ function matchesArabicWordStart(text, term) {
   return words.some(word => word.startsWith(term));
 }
 
+/* Get the full English translation of a verse as a single string
+   (supports both the new string format and the legacy phrase-object format) */
+function getVerseEnglish(verse) {
+  if (typeof verse.ayah_en === 'string') return verse.ayah_en;
+  if (verse.ayah_en && typeof verse.ayah_en === 'object') return Object.keys(verse.ayah_en).join(', ');
+  return '';
+}
+
 function searchLoadedVerses(term) {
   const results = [];
   if (!term || term.length < 2) return results;
@@ -468,11 +475,11 @@ function searchLoadedVerses(term) {
     for (const theme of data) {
       for (const verse of theme.verses) {
         let matched = false;
-        for (const phrase of Object.keys(verse.ayah_en)) {
-          if (matchesWordStart(phrase.toLowerCase(), s)) {
-            results.push({ surah: parseInt(chNum), ayah: verse.ayah_no_surah, matchText: phrase, chapterName: ch.name_en });
-            matched = true; break;
-          }
+        const enText = getVerseEnglish(verse);
+        if (enText && matchesWordStart(enText.toLowerCase(), s)) {
+          const snippet = enText.length > 60 ? enText.substring(0, 60) + '…' : enText;
+          results.push({ surah: parseInt(chNum), ayah: verse.ayah_no_surah, matchText: snippet, chapterName: ch.name_en });
+          matched = true;
         }
         if (!matched && matchesArabicWordStart(verse.ayah_ar, term)) {
           results.push({
@@ -655,7 +662,7 @@ function renderSurahDetail(container) {
       const mv = theme.verses.filter(v => {
         if (v.ayah_no_surah.toString() === AppState.detailSearchTerm.trim()) return true;
         if (matchesArabicWordStart(v.ayah_ar, AppState.detailSearchTerm)) return true;
-        for (const phrase of Object.keys(v.ayah_en)) { if (matchesWordStart(phrase.toLowerCase(), s)) return true; }
+        if (matchesWordStart(getVerseEnglish(v).toLowerCase(), s)) return true;
         return false;
       });
       if (mv.length > 0) filteredData.push({ ...theme, verses: mv });
@@ -781,14 +788,10 @@ function renderSurahDetail(container) {
           <p class="arabic-text verse-arabic-text">${verse.ayah_ar}</p>
         </div>`;
 
-      const phrases = Object.keys(verse.ayah_en);
-      html += `<div style="padding:8px 0 16px;line-height:2.2;">`;
-      phrases.forEach((phrase, pIdx) => {
-        html += `<span class="phrase-chip" data-surah="${AppState.currentSurah}" data-ayah="${verse.ayah_no_surah}" data-phrase="${encodeURIComponent(phrase)}">${phrase}</span>`;
-        if (pIdx < phrases.length - 1) html += `<span class="phrase-separator">, </span>`;
-        else html += `<span style="color:var(--text-dim);">.</span>`;
-      });
-      html += `</div>`;
+      const enText = getVerseEnglish(verse);
+      html += `<div style="padding:8px 0 16px;">
+        <span class="verse-translation phrase-chip" data-surah="${AppState.currentSurah}" data-ayah="${verse.ayah_no_surah}" title="Tap to read the commentary for verse ${verse.ayah_no_surah}">${escapeHtml(enText)}</span>
+      </div>`;
 
       if (vIdx < theme.verses.length - 1) {
         html += `<div class="verse-separator"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
@@ -816,31 +819,29 @@ function renderSurahDetail(container) {
 /* ================================================
    12. MODALS
 ================================================ */
-function showExplanation(phrase, surahNum, ayahNum) {
-  let explanation = '';
-  const tafsir = loadedTafsir[surahNum];
-  if (tafsir && tafsir[ayahNum] && tafsir[ayahNum][phrase]) explanation = tafsir[ayahNum][phrase];
-  if (!explanation) {
-    const data = loadedChapters[surahNum] || AppState.currentSurahData;
-    if (data) {
-      for (const theme of data) {
-        for (const verse of theme.verses) {
-          const val = verse.ayah_en[phrase];
-          if (val) { explanation = val; break; }
-        }
-        if (explanation) break;
-      }
-    }
-  }
-  document.getElementById('modalTitle').textContent = phrase;
-  document.getElementById('modalBody').textContent = explanation || 'Loading explanation...';
+/* Get the merged commentary for a verse — supports both the new
+   string format and the legacy per-phrase object format */
+function getVerseCommentary(tafsir, ayahNum) {
+  if (!tafsir || !tafsir[ayahNum]) return '';
+  const entry = tafsir[ayahNum];
+  if (typeof entry === 'string') return entry;
+  if (typeof entry === 'object') return Object.values(entry).join('\n\n');
+  return '';
+}
+
+function showExplanation(surahNum, ayahNum) {
+  let explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
+  const ch = chaptersData.find(c => c.number === surahNum);
+  const title = `${ch ? ch.name_en : 'Surah ' + surahNum} — Verse ${ayahNum}`;
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalBody').textContent = explanation || 'Loading commentary...';
   document.getElementById('modal').classList.add('active');
   document.body.style.overflow = 'hidden';
   if (!explanation) {
     loadTafsirData(surahNum).then(() => {
-      const t = loadedTafsir[surahNum];
-      document.getElementById('modalBody').textContent = (t && t[ayahNum] && t[ayahNum][phrase]) ? t[ayahNum][phrase] : 'Detailed explanation coming soon, in sha Allah.';
-    }).catch(() => { document.getElementById('modalBody').textContent = 'Explanation not available. Please check your connection.'; });
+      const text = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
+      document.getElementById('modalBody').textContent = text || 'Detailed commentary coming soon, in sha Allah.';
+    }).catch(() => { document.getElementById('modalBody').textContent = 'Commentary not available. Please check your connection.'; });
   }
 }
 
@@ -1335,7 +1336,7 @@ document.addEventListener('keydown', function(e) {
 document.addEventListener('click', function(e) {
   if (e.target && e.target.classList.contains('phrase-chip')) {
     const dataset = e.target.dataset;
-    showExplanation(decodeURIComponent(dataset.phrase), parseInt(dataset.surah), parseInt(dataset.ayah));
+    showExplanation(parseInt(dataset.surah), parseInt(dataset.ayah));
   }
 });
 
