@@ -6,19 +6,13 @@ var chapterData_105 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
-        "ayah_en": {
-          "Have you not seen": "",
-          "how your Lord dealt with": "",
-          "the Army of the Elephant": ""
-        },
+        "ayah_en": "Have you not seen, how your Lord dealt with, the Army of the Elephant.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/105001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
-        "ayah_en": {
-          "Did He not frustrate their scheme": ""
-        },
+        "ayah_en": "Did He not frustrate their scheme.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/105002.mp3"
       }
     ]
@@ -30,27 +24,19 @@ var chapterData_105 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
-        "ayah_en": {
-          "For He sent against them": "",
-          "flocks of birds": ""
-        },
+        "ayah_en": "For He sent against them, flocks of birds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/105003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
-        "ayah_en": {
-          "that pelted them": "",
-          "with stones of baked clay": ""
-        },
+        "ayah_en": "that pelted them, with stones of baked clay.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/105004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
-        "ayah_en": {
-          "leaving them like chewed up straw": ""
-        },
+        "ayah_en": "leaving them like chewed up straw.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/105005.mp3"
       }
     ]

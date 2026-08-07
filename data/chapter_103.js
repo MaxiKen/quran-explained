@@ -6,17 +6,13 @@ var chapterData_103 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالْعَصْرِ",
-        "ayah_en": {
-          "By the ˹passage of˺ time!": ""
-        },
+        "ayah_en": "By the ˹passage of˺ time!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/103001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
-        "ayah_en": {
-          "Surely humanity is in ˹grave˺ loss": ""
-        },
+        "ayah_en": "Surely humanity is in ˹grave˺ loss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/103002.mp3"
       }
     ]
@@ -28,12 +24,7 @@ var chapterData_103 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
-        "ayah_en": {
-          "except those who have faith": "",
-          "do good": "",
-          "and urge each other to the truth": "",
-          "and urge each other to perseverance": ""
-        },
+        "ayah_en": "except those who have faith, do good, and urge each other to the truth, and urge each other to perseverance.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/103003.mp3"
       }
     ]

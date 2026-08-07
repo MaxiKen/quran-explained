@@ -6,43 +6,31 @@ var chapterData_113 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
-        "ayah_en": {
-          "Say, ˹O Prophet,˺": "",
-          "\"I seek refuge": "",
-          "in the Lord of the daybreak": ""
-        },
+        "ayah_en": "Say, ˹O Prophet,˺ \"I seek refuge, in the Lord of the daybreak.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/113001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مِن شَرِّ مَا خَلَقَ",
-        "ayah_en": {
-          "from the evil of whatever He has created": ""
-        },
+        "ayah_en": "from the evil of whatever He has created.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/113002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
-        "ayah_en": {
-          "and from the evil of the night when it grows dark": ""
-        },
+        "ayah_en": "and from the evil of the night when it grows dark.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/113003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
-        "ayah_en": {
-          "and from the evil of those ˹witches casting spells by˺ blowing onto knots": ""
-        },
+        "ayah_en": "and from the evil of those ˹witches casting spells by˺ blowing onto knots.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/113004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
-        "ayah_en": {
-          "and from the evil of an envier when they envy": ""
-        },
+        "ayah_en": "and from the evil of an envier when they envy.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/113005.mp3"
       }
     ]

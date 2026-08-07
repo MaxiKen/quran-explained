@@ -12,7 +12,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.1.1';
+const CACHE_VERSION = 'quran-reader-v1.2.0';
 
 // ---- Core app shell — only the files needed for the homepage ----
 const CORE_ASSETS = [

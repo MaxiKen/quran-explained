@@ -675,10 +675,10 @@ body {
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ================================================
-   ENGLISH PHRASE CHIPS
+   ENGLISH VERSE TRANSLATION (click for commentary)
 ================================================ */
 .phrase-chip {
-  display: inline; cursor: pointer; font-size: var(--english-font-size, 17px); line-height: 2.4;
+  display: inline; cursor: pointer; font-size: var(--english-font-size, 17px); line-height: 2.2;
   background: var(--accent-bg-light); color: var(--text-muted); padding: 4px 10px;
   border-radius: 6px; border-bottom: 2px solid rgba(var(--accent-rgb), 0.2);
   transition: all 0.2s ease; -webkit-box-decoration-break: clone; box-decoration-break: clone;
@@ -718,7 +718,7 @@ body {
   cursor: pointer; color: var(--accent); flex-shrink: 0; transition: all 0.2s;
 }
 .modal-close:hover { background: var(--accent-bg); border-color: var(--accent-border-hover); }
-.modal-body { font-size: 15px; color: var(--text-muted); line-height: 1.9; }
+.modal-body { font-size: 15px; color: var(--text-muted); line-height: 1.9; white-space: pre-line; }
 
 /* ================================================
    SURAH END

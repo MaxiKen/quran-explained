@@ -20,10 +20,7 @@ function _makeDummy(num, nameEn, nameAr) {
         {
           "ayah_no_surah": 1,
           "ayah_ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-          "ayah_en": {
-            "In the Name of Allah": "This is a placeholder explanation for " + nameEn + ". The full interactive content for this chapter will be added soon. Each verse will have detailed phrase-by-phrase explanations that you can click to read.",
-            "the Most Compassionate, Most Merciful": "Allah begins this surah with His names of mercy, reminding us that all of the Quran is a mercy to mankind. This placeholder will be replaced with the complete tafsir and explanation for " + nameEn + "."
-          }
+          "ayah_en": "In the Name of Allah, the Most Compassionate, Most Merciful."
         }
       ]
     }
