@@ -12,7 +12,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
-        "ayah_en": "Your fellow man, is neither misguided nor astray.",
+        "ayah_en": "Your fellow man is neither misguided nor astray.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053002.mp3"
       },
       {
@@ -24,31 +24,31 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-        "ayah_en": "It is only a revelation sent down ˹to him˺",
+        "ayah_en": "It is only a revelation sent down ˹to him˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "عَلَّمَهُ شَدِيدُ الْقُوَىٰ",
-        "ayah_en": "He has been taught by one ˹angel˺ of mighty power.",
+        "ayah_en": "He has been taught by one ˹angel˺ of mighty power",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "ذُو مِرَّةٍ فَاسْتَوَىٰ",
-        "ayah_en": "and great perfection, who once rose to ˹his˺ true form.",
+        "ayah_en": "and great perfection, who once rose to ˹his˺ true form",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَهُوَ بِالْأُفُقِ الْأَعْلَىٰ",
-        "ayah_en": "while on the highest point above the horizon.",
+        "ayah_en": "while on the highest point above the horizon,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ دَنَا فَتَدَلَّىٰ",
-        "ayah_en": "then he approached ˹the Prophet˺, coming so close.",
+        "ayah_en": "then he approached ˹the Prophet˺, coming so close",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053008.mp3"
       },
       {
@@ -60,13 +60,13 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ",
-        "ayah_en": "Then Allah revealed to His servant what He revealed ˹through Gabriel˺",
+        "ayah_en": "Then Allah revealed to His servant what He revealed ˹through Gabriel˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ",
-        "ayah_en": "The ˹Prophet's˺ heart did not doubt what he saw.",
+        "ayah_en": "The ˹Prophet’s˺ heart did not doubt what he saw.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053011.mp3"
       },
       {
@@ -84,19 +84,19 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَلَقَدْ رَآهُ نَزْلَةً أُخْرَىٰ",
-        "ayah_en": "And he certainly saw that ˹angel descend˺ a second time.",
+        "ayah_en": "And he certainly saw that ˹angel descend˺ a second time",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "عِندَ سِدْرَةِ الْمُنتَهَىٰ",
-        "ayah_en": "at the Lote Tree of the most extreme limit ˹in the seventh heaven˺",
+        "ayah_en": "at the Lote Tree of the most extreme limit ˹in the seventh heaven˺—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053014.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "عِندَهَا جَنَّةُ الْمَأْوَىٰ",
-        "ayah_en": "near which is the Garden of ˹Eternal˺ Residence.",
+        "ayah_en": "near which is the Garden of ˹Eternal˺ Residence—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053015.mp3"
       },
       {
@@ -108,13 +108,13 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ",
-        "ayah_en": "The ˹Prophet's˺ sight never wandered, nor did it overreach.",
+        "ayah_en": "The ˹Prophet’s˺ sight never wandered, nor did it overreach.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053017.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "لَقَدْ رَأَىٰ مِنْ آيَاتِ رَبِّهِ الْكُبْرَىٰ",
-        "ayah_en": "He certainly saw some of his Lord's greatest signs.",
+        "ayah_en": "He certainly saw some of his Lord’s greatest signs.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053018.mp3"
       }
     ]
@@ -126,7 +126,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "أَفَرَأَيْتُمُ اللَّاتَ وَالْعُزَّىٰ",
-        "ayah_en": "Now, have you considered ˹the idols of˺ Lât and 'Uzza.",
+        "ayah_en": "Now, have you considered ˹the idols of˺ Lât and ’Uzza,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053019.mp3"
       },
       {
@@ -150,7 +150,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "إِنْ هِيَ إِلَّا أَسْمَاءٌ سَمَّيْتُمُوهَا أَنتُمْ وَآبَاؤُكُم مَّا أَنزَلَ اللَّهُ بِهَا مِن سُلْطَانٍ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنفُسُ ۖ وَلَقَدْ جَاءَهُم مِّن رَّبِّهِمُ الْهُدَىٰ",
-        "ayah_en": "These ˹idols˺ are mere names that you and your forefathers have made up—a practice Allah has never authorized, They follow nothing but ˹inherited˺ assumptions and whatever ˹their˺ souls desire, although ˹true˺ guidance has already come to them from their Lord.",
+        "ayah_en": "These ˹idols˺ are mere names that you and your forefathers have made up—a practice Allah has never authorized. They follow nothing but ˹inherited˺ assumptions and whatever ˹their˺ souls desire, although ˹true˺ guidance has already come to them from their Lord.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053023.mp3"
       },
       {
@@ -180,13 +180,13 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "إِنَّ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ لَيُسَمُّونَ الْمَلَائِكَةَ تَسْمِيَةَ الْأُنثَىٰ",
-        "ayah_en": "Indeed, those who do not believe in the Hereafter label angels as female.",
+        "ayah_en": "Indeed, those who do not believe in the Hereafter label angels as female,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "وَمَا لَهُم بِهِ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ ۖ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا",
-        "ayah_en": "although they have no knowledge ˹in support˺ of this, They follow nothing but ˹inherited˺ assumptions, And surely assumptions can in no way replace the truth.",
+        "ayah_en": "although they have no knowledge ˹in support˺ of this. They follow nothing but ˹inherited˺ assumptions. And surely assumptions can in no way replace the truth.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053028.mp3"
       },
       {
@@ -198,7 +198,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 30,
         "ayah_ar": "ذَٰلِكَ مَبْلَغُهُم مِّنَ الْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِ وَهُوَ أَعْلَمُ بِمَنِ اهْتَدَىٰ",
-        "ayah_en": "This is the extent of their knowledge, Surely your Lord knows best who has strayed from His Way, and who is ˹rightly˺ guided.",
+        "ayah_en": "This is the extent of their knowledge. Surely your Lord knows best who has strayed from His Way and who is ˹rightly˺ guided.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053030.mp3"
       }
     ]
@@ -210,13 +210,13 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 31,
         "ayah_ar": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ لِيَجْزِيَ الَّذِينَ أَسَاءُوا بِمَا عَمِلُوا وَيَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى",
-        "ayah_en": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth, so that He may reward the evildoers according to what they did, and reward the good-doers with the finest reward.",
+        "ayah_en": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth so that He may reward the evildoers according to what they did, and reward the good-doers with the finest reward—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "الَّذِينَ يَجْتَنِبُونَ كَبَائِرَ الْإِثْمِ وَالْفَوَاحِشَ إِلَّا اللَّمَمَ ۚ إِنَّ رَبَّكَ وَاسِعُ الْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ الْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِي بُطُونِ أُمَّهَاتِكُمْ ۖ فَلَا تُزَكُّوا أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ اتَّقَىٰ",
-        "ayah_en": "those who avoid major sins and shameful deeds, despite ˹stumbling on˺ minor sins, Surely your Lord is infinite in forgiveness, He knew well what would become of you as He created you from the earth, and while you were ˹still˺ fetuses in the wombs of your mothers, So do not ˹falsely˺ elevate yourselves, He knows best who is ˹truly˺ righteous.",
+        "ayah_en": "those who avoid major sins and shameful deeds, despite ˹stumbling on˺ minor sins. Surely your Lord is infinite in forgiveness. He knew well what would become of you as He created you from the earth and while you were ˹still˺ fetuses in the wombs of your mothers. So do not ˹falsely˺ elevate yourselves. He knows best who is ˹truly˺ righteous.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053032.mp3"
       }
     ]
@@ -246,7 +246,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 36,
         "ayah_ar": "أَمْ لَمْ يُنَبَّأْ بِمَا فِي صُحُفِ مُوسَىٰ",
-        "ayah_en": "Or has he not been informed of what is in the Scripture of Moses.",
+        "ayah_en": "Or has he not been informed of what is in the Scripture of Moses,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053036.mp3"
       },
       {
@@ -258,31 +258,31 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
-        "ayah_en": "˹They state˺ that no soul burdened with sin will bear the burden of another.",
+        "ayah_en": "˹They state˺ that no soul burdened with sin will bear the burden of another,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ",
-        "ayah_en": "and that each person will only have what they endeavoured towards.",
+        "ayah_en": "and that each person will only have what they endeavoured towards,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ",
-        "ayah_en": "and that ˹the outcome of˺ their endeavours will be seen ˹in their record˺",
+        "ayah_en": "and that ˹the outcome of˺ their endeavours will be seen ˹in their record˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053040.mp3"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "ثُمَّ يُجْزَاهُ الْجَزَاءَ الْأَوْفَىٰ",
-        "ayah_en": "then they will be fully rewarded.",
+        "ayah_en": "then they will be fully rewarded,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053041.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "وَأَنَّ إِلَىٰ رَبِّكَ الْمُنتَهَىٰ",
-        "ayah_en": "and that to your Lord ˹alone˺ is the ultimate return ˹of all things˺",
+        "ayah_en": "and that to your Lord ˹alone˺ is the ultimate return ˹of all things˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053042.mp3"
       }
     ]
@@ -342,7 +342,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 50,
         "ayah_ar": "وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَىٰ",
-        "ayah_en": "And He destroyed the first ˹people of˺ 'Ȃd.",
+        "ayah_en": "And He destroyed the first ˹people of˺ ’Âd,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053050.mp3"
       },
       {
@@ -372,7 +372,7 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 55,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ",
-        "ayah_en": "Now, which of your Lord's favours will you dispute?",
+        "ayah_en": "Now, which of your Lord’s favours will you dispute?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053055.mp3"
       }
     ]
@@ -402,13 +402,13 @@ var chapterData_53 = [
       {
         "ayah_no_surah": 59,
         "ayah_ar": "أَفَمِنْ هَٰذَا الْحَدِيثِ تَعْجَبُونَ",
-        "ayah_en": "Do you find this revelation astonishing.",
+        "ayah_en": "Do you find this revelation astonishing,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053059.mp3"
       },
       {
         "ayah_no_surah": 60,
         "ayah_ar": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
-        "ayah_en": "laughing ˹at it˺ and not weeping ˹in awe˺",
+        "ayah_en": "laughing ˹at it˺ and not weeping ˹in awe˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/053060.mp3"
       },
       {

@@ -6,19 +6,19 @@ var chapterData_110 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
-        "ayah_en": "When Allah’s ˹ultimate˺ help comes and the victory ˹over Mecca is achieved˺,",
+        "ayah_en": "When Allah's ˹ultimate˺ help comes, and the victory ˹over Mecca is achieved˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/110001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
-        "ayah_en": "and you ˹O Prophet˺ see the people embracing Allah’s Way in crowds,",
+        "ayah_en": "and you ˹O Prophet˺ see the people, embracing Allah's Way, in crowds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/110002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
-        "ayah_en": "then glorify the praises of your Lord and seek His forgiveness, for certainly He is ever Accepting of Repentance.",
+        "ayah_en": "then glorify the praises of your Lord, and seek His forgiveness, for certainly He is ever Accepting of Repentance.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/110003.mp3"
       }
     ]

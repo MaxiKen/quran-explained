@@ -6,37 +6,37 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِذَا الشَّمْسُ كُوِّرَتْ",
-        "ayah_en": "When the sun is put out.",
+        "ayah_en": "When the sun is put out,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَإِذَا النُّجُومُ انكَدَرَتْ",
-        "ayah_en": "and when the stars fall down.",
+        "ayah_en": "and when the stars fall down,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
-        "ayah_en": "and when the mountains are blown away.",
+        "ayah_en": "and when the mountains are blown away,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
-        "ayah_en": "and when pregnant camels are left untended.",
+        "ayah_en": "and when pregnant camels are left untended,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
-        "ayah_en": "and when wild beasts are gathered together.",
+        "ayah_en": "and when wild beasts are gathered together,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَإِذَا الْبِحَارُ سُجِّرَتْ",
-        "ayah_en": "and when the seas are set on fire.",
+        "ayah_en": "and when the seas are set on fire,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081006.mp3"
       }
     ]
@@ -48,43 +48,43 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَإِذَا النُّفُوسُ زُوِّجَتْ",
-        "ayah_en": "and when the souls ˹and their bodies˺ are paired ˹once more˺",
+        "ayah_en": "and when the souls ˹and their bodies˺ are paired ˹once more˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَإِذَا الْمَوْءُودَةُ سُئِلَتْ",
-        "ayah_en": "and when baby girls, buried alive, are asked.",
+        "ayah_en": "and when baby girls, buried alive, are asked",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "بِأَيِّ ذَنبٍ قُتِلَتْ",
-        "ayah_en": "for what crime they were put to death.",
+        "ayah_en": "for what crime they were put to death,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَإِذَا الصُّحُفُ نُشِرَتْ",
-        "ayah_en": "and when the records ˹of deeds˺ are laid open.",
+        "ayah_en": "and when the records ˹of deeds˺ are laid open,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَإِذَا السَّمَاءُ كُشِطَتْ",
-        "ayah_en": "and when the sky is stripped away.",
+        "ayah_en": "and when the sky is stripped away,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَإِذَا الْجَحِيمُ سُعِّرَتْ",
-        "ayah_en": "and when the Hellfire is fiercely flared up.",
+        "ayah_en": "and when the Hellfire is fiercely flared up,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَإِذَا الْجَنَّةُ أُزْلِفَتْ",
-        "ayah_en": "and when Paradise is brought near.",
+        "ayah_en": "and when Paradise is brought near—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081013.mp3"
       },
       {
@@ -102,25 +102,25 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "فَلَا أُقْسِمُ بِالْخُنَّسِ",
-        "ayah_en": "I do swear by the receding stars.",
+        "ayah_en": "I do swear by the receding stars",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081015.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "الْجَوَارِ الْكُنَّسِ",
-        "ayah_en": "which travel and hide.",
+        "ayah_en": "which travel and hide,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081016.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "وَاللَّيْلِ إِذَا عَسْعَسَ",
-        "ayah_en": "and the night as it falls.",
+        "ayah_en": "and the night as it falls",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081017.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَالصُّبْحِ إِذَا تَنَفَّسَ",
-        "ayah_en": "and the day as it breaks.",
+        "ayah_en": "and the day as it breaks!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081018.mp3"
       }
     ]
@@ -132,13 +132,13 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
-        "ayah_en": "Indeed, this ˹Quran˺ is the Word of ˹Allah delivered by Gabriel,˺ a noble messenger-angel.",
+        "ayah_en": "Indeed, this ˹Quran˺ is the Word of ˹Allah delivered by Gabriel,˺ a noble messenger-angel,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081019.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ",
-        "ayah_en": "full of power, held in honour by the Lord of the Throne.",
+        "ayah_en": "full of power, held in honour by the Lord of the Throne,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081020.mp3"
       },
       {
@@ -156,7 +156,7 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
-        "ayah_en": "And he did see that ˹angel˺ on the clear horizon.",
+        "ayah_en": "And he did see that ˹angel˺ on the clear horizon,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081023.mp3"
       },
       {
@@ -186,7 +186,7 @@ var chapterData_81 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ",
-        "ayah_en": "Surely this ˹Quran˺ is only a reminder to the whole world.",
+        "ayah_en": "Surely this ˹Quran˺ is only a reminder to the whole world—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/081027.mp3"
       },
       {

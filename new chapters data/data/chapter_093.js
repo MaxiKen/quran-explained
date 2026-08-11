@@ -6,13 +6,13 @@ var chapterData_93 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالضُّحَىٰ",
-        "ayah_en": "By the morning sunlight,",
+        "ayah_en": "By the morning sunlight.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَاللَّيْلِ إِذَا سَجَىٰ",
-        "ayah_en": "and the night when it falls still!",
+        "ayah_en": "and the night when it falls still.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093002.mp3"
       }
     ]
@@ -24,7 +24,7 @@ var chapterData_93 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
-        "ayah_en": "Your Lord ˹O Prophet˺ has not abandoned you, nor has He become hateful ˹of you˺.",
+        "ayah_en": "Your Lord ˹O Prophet˺ has not abandoned you, nor has He become hateful ˹of you˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093003.mp3"
       },
       {
@@ -48,19 +48,19 @@ var chapterData_93 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ",
-        "ayah_en": "Did He not find you as an orphan then sheltered you?",
+        "ayah_en": "Did He not find you as an orphan then sheltered you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ",
-        "ayah_en": "Did He not find you unguided then guided you?",
+        "ayah_en": "Did He not find you unguided then guided you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ",
-        "ayah_en": "And did He not find you needy then satisfied your needs?",
+        "ayah_en": "And did He not find you needy then satisfied your needs.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093008.mp3"
       }
     ]
@@ -72,7 +72,7 @@ var chapterData_93 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
-        "ayah_en": "So do not oppress the orphan,",
+        "ayah_en": "So do not oppress the orphan.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/093009.mp3"
       },
       {

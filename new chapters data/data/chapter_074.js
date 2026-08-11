@@ -54,7 +54,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَإِذَا نُقِرَ فِي النَّاقُورِ",
-        "ayah_en": "˹For˺ when the Trumpet will be sounded,",
+        "ayah_en": "˹For˺ when the Trumpet will be sounded.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074008.mp3"
       },
       {
@@ -78,19 +78,19 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا",
-        "ayah_en": "And leave to me ˹O Prophet˺ the one I created all by Myself,",
+        "ayah_en": "And leave to me ˹O Prophet˺ the one I created all by Myself.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَجَعَلْتُ لَهُ مَالًا مَّمْدُودًا",
-        "ayah_en": "and granted him abundant wealth,",
+        "ayah_en": "and granted him abundant wealth.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَبَنِينَ شُهُودًا",
-        "ayah_en": "and children always by his side,",
+        "ayah_en": "and children always by his side.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074013.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "سَأُرْهِقُهُ صَعُودًا",
-        "ayah_en": "I will make his fate unbearable,",
+        "ayah_en": "I will make his fate unbearable.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074017.mp3"
       },
       {
@@ -138,31 +138,31 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "ثُمَّ نَظَرَ",
-        "ayah_en": "Then he re-contemplated ˹in frustration˺,",
+        "ayah_en": "Then he re-contemplated ˹in frustration˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "ثُمَّ عَبَسَ وَبَسَرَ",
-        "ayah_en": "then frowned and scowled,",
+        "ayah_en": "then frowned and scowled.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "ثُمَّ أَدْبَرَ وَاسْتَكْبَرَ",
-        "ayah_en": "then turned his back ˹on the truth˺ and acted arrogantly,",
+        "ayah_en": "then turned his back ˹on the truth˺ and acted arrogantly.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074023.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَقَالَ إِنْ هَٰذَا إِلَّا سِحْرٌ يُؤْثَرُ",
-        "ayah_en": "saying, “This ˹Quran˺ is nothing but magic from the ancients.",
+        "ayah_en": "saying, \"This ˹Quran˺ is nothing but magic from the ancients.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "إِنْ هَٰذَا إِلَّا قَوْلُ الْبَشَرِ",
-        "ayah_en": "This is no more than the word of a man.”",
+        "ayah_en": "This is no more than the word of a man.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074025.mp3"
       }
     ]
@@ -186,7 +186,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 28,
         "ayah_ar": "لَا تُبْقِي وَلَا تَذَرُ",
-        "ayah_en": "It does not let anyone live or die,",
+        "ayah_en": "It does not let anyone live or die.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074028.mp3"
       },
       {
@@ -210,7 +210,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 31,
         "ayah_ar": "وَمَا جَعَلْنَا أَصْحَابَ النَّارِ إِلَّا مَلَائِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا لِيَسْتَيْقِنَ الَّذِينَ أُوتُوا الْكِتَابَ وَيَزْدَادَ الَّذِينَ آمَنُوا إِيمَانًا ۙ وَلَا يَرْتَابَ الَّذِينَ أُوتُوا الْكِتَابَ وَالْمُؤْمِنُونَ ۙ وَلِيَقُولَ الَّذِينَ فِي قُلُوبِهِم مَّرَضٌ وَالْكَافِرُونَ مَاذَا أَرَادَ اللَّهُ بِهَٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ اللَّهُ مَن يَشَاءُ وَيَهْدِي مَن يَشَاءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِيَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
-        "ayah_en": "We have appointed only ˹stern˺ angels as wardens of the Fire. And We have made their number only as a test for the disbelievers, so that the People of the Book will be certain, and the believers will increase in faith, and neither the People of the Book nor the believers will have any doubts, and so that those ˹hypocrites˺ with sickness in their hearts and the disbelievers will argue, “What does Allah mean by such a number?” In this way Allah leaves whoever He wills to stray and guides whoever He wills. And none knows the forces of your Lord except He. And this ˹description of Hell˺ is only a reminder to humanity.",
+        "ayah_en": "We have appointed only ˹stern˺ angels as wardens of the Fire. And We have made their number only as a test for the disbelievers, so that the People of the Book will be certain, and the believers will increase in faith, and neither the People of the Book nor the believers will have any doubts, and so that those ˹hypocrites˺ with sickness in their hearts and the disbelievers will argue, \"What does Allah mean by such a number?\"In this way Allah leaves whoever He wills to stray and guides whoever He wills. And none knows the forces of your Lord except He. And this ˹description of Hell˺ is only a reminder to humanity.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074031.mp3"
       }
     ]
@@ -222,13 +222,13 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 32,
         "ayah_ar": "كَلَّا وَالْقَمَرِ",
-        "ayah_en": "But no! By the moon,",
+        "ayah_en": "But no! By the moon.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074032.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "وَاللَّيْلِ إِذْ أَدْبَرَ",
-        "ayah_en": "and the night as it retreats,",
+        "ayah_en": "and the night as it retreats.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074033.mp3"
       },
       {
@@ -246,7 +246,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 36,
         "ayah_ar": "نَذِيرًا لِّلْبَشَرِ",
-        "ayah_en": "a warning to humankind,",
+        "ayah_en": "a warning to humankind.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074036.mp3"
       },
       {
@@ -264,19 +264,19 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ",
-        "ayah_en": "Every soul will be detained for what it has done,",
+        "ayah_en": "Every soul will be detained for what it has done.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "إِلَّا أَصْحَابَ الْيَمِينِ",
-        "ayah_en": "except the people of the right,",
+        "ayah_en": "except the people of the right.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "فِي جَنَّاتٍ يَتَسَاءَلُونَ",
-        "ayah_en": "who will be in Gardens, asking one another",
+        "ayah_en": "who will be in Gardens, asking one another.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074040.mp3"
       },
       {
@@ -288,13 +288,13 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 42,
         "ayah_ar": "مَا سَلَكَكُمْ فِي سَقَرَ",
-        "ayah_en": "“What has landed you in Hell?”",
+        "ayah_en": "\"What has landed you in Hell?\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074042.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "قَالُوا لَمْ نَكُ مِنَ الْمُصَلِّينَ",
-        "ayah_en": "They will reply, “We were not of those who prayed,",
+        "ayah_en": "They will reply, \"We were not of those who prayed.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074043.mp3"
       },
       {
@@ -306,19 +306,19 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 45,
         "ayah_ar": "وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ",
-        "ayah_en": "We used to indulge ˹in falsehood˺ along with others,",
+        "ayah_en": "We used to indulge ˹in falsehood˺ along with others.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074045.mp3"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "وَكُنَّا نُكَذِّبُ بِيَوْمِ الدِّينِ",
-        "ayah_en": "and deny the Day of Judgment,",
+        "ayah_en": "and deny the Day of Judgment.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074046.mp3"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "حَتَّىٰ أَتَانَا الْيَقِينُ",
-        "ayah_en": "until the inevitable came to us.”",
+        "ayah_en": "until the inevitable came to us.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074047.mp3"
       },
       {
@@ -336,13 +336,13 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 49,
         "ayah_ar": "فَمَا لَهُمْ عَنِ التَّذْكِرَةِ مُعْرِضِينَ",
-        "ayah_en": "Now, what is the matter with them that they are turning away from the reminder,",
+        "ayah_en": "Now, what is the matter with them that they are turning away from the reminder.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074049.mp3"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
-        "ayah_en": "as if they were spooked zebras",
+        "ayah_en": "as if they were spooked zebras.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074050.mp3"
       },
       {
@@ -384,7 +384,7 @@ var chapterData_74 = [
       {
         "ayah_no_surah": 56,
         "ayah_ar": "وَمَا يَذْكُرُونَ إِلَّا أَن يَشَاءَ اللَّهُ ۚ هُوَ أَهْلُ التَّقْوَىٰ وَأَهْلُ الْمَغْفِرَةِ",
-        "ayah_en": "But they cannot do so unless Allah wills. He ˹alone˺ is worthy to be feared and entitled to forgive.",
+        "ayah_en": "But they cannot do so unless Allah wills. He ˹alone˺ is worthy to be feared, and entitled to forgive.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/074056.mp3"
       }
     ]

@@ -6,7 +6,7 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
-        "ayah_en": "Indeed, We have granted you, ˹O Prophet˺ abundant goodness.",
+        "ayah_en": "Indeed, We have granted you ˹O Prophet˺ abundant goodness.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/108001.mp3"
       }
     ]
@@ -18,7 +18,7 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
-        "ayah_en": "So pray, and sacrifice to your Lord ˹alone˺",
+        "ayah_en": "So pray and sacrifice to your Lord ˹alone˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/108002.mp3"
       }
     ]
@@ -30,7 +30,7 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
-        "ayah_en": "Only the one who hates you, is truly cut off ˹from any goodness˺",
+        "ayah_en": "Only the one who hates you is truly cut off ˹from any goodness˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/108003.mp3"
       }
     ]

@@ -6,19 +6,19 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "عَبَسَ وَتَوَلَّىٰ",
-        "ayah_en": "He frowned, and turned ˹his attention˺ away.",
+        "ayah_en": "He frowned and turned ˹his attention˺ away,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "أَن جَاءَهُ الْأَعْمَىٰ",
-        "ayah_en": "˹simply˺ because the blind man came to him ˹interrupting˺",
+        "ayah_en": "˹simply˺ because the blind man came to him ˹interrupting˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ",
-        "ayah_en": "You never know ˹O Prophet˺, perhaps he may be purified.",
+        "ayah_en": "You never know ˹O Prophet˺, perhaps he may be purified,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080003.mp3"
       },
       {
@@ -30,13 +30,13 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "أَمَّا مَنِ اسْتَغْنَىٰ",
-        "ayah_en": "As for the one who was indifferent.",
+        "ayah_en": "As for the one who was indifferent,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَأَنتَ لَهُ تَصَدَّىٰ",
-        "ayah_en": "you gave him your ˹undivided˺ attention.",
+        "ayah_en": "you gave him your ˹undivided˺ attention,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080006.mp3"
       },
       {
@@ -48,13 +48,13 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَأَمَّا مَن جَاءَكَ يَسْعَىٰ",
-        "ayah_en": "But as for the one who came to you, eager ˹to learn˺",
+        "ayah_en": "But as for the one who came to you, eager ˹to learn˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَهُوَ يَخْشَىٰ",
-        "ayah_en": "being in awe ˹of Allah˺",
+        "ayah_en": "being in awe ˹of Allah˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080009.mp3"
       },
       {
@@ -78,19 +78,19 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فِي صُحُفٍ مُّكَرَّمَةٍ",
-        "ayah_en": "It is ˹written˺ on pages held in honour.",
+        "ayah_en": "It is ˹written˺ on pages held in honour—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "مَّرْفُوعَةٍ مُّطَهَّرَةٍ",
-        "ayah_en": "highly esteemed, purified.",
+        "ayah_en": "highly esteemed, purified—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080014.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "بِأَيْدِي سَفَرَةٍ",
-        "ayah_en": "by the hands of angel-scribes.",
+        "ayah_en": "by the hands of angel-scribes,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080015.mp3"
       },
       {
@@ -126,7 +126,7 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "ثُمَّ السَّبِيلَ يَسَّرَهُ",
-        "ayah_en": "Then He makes the way easy for them.",
+        "ayah_en": "Then He makes the way easy for them,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080020.mp3"
       },
       {
@@ -150,49 +150,49 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَلْيَنظُرِ الْإِنسَانُ إِلَىٰ طَعَامِهِ",
-        "ayah_en": "Let people then consider their food.",
+        "ayah_en": "Let people then consider their food:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "أَنَّا صَبَبْنَا الْمَاءَ صَبًّا",
-        "ayah_en": "how We pour down rain in abundance.",
+        "ayah_en": "how We pour down rain in abundance",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا",
-        "ayah_en": "and meticulously split the earth open ˹for sprouts˺",
+        "ayah_en": "and meticulously split the earth open ˹for sprouts˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "فَأَنبَتْنَا فِيهَا حَبًّا",
-        "ayah_en": "causing grain to grow in it.",
+        "ayah_en": "causing grain to grow in it,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "وَعِنَبًا وَقَضْبًا",
-        "ayah_en": "as well as grapes and greens.",
+        "ayah_en": "as well as grapes and greens,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "وَزَيْتُونًا وَنَخْلًا",
-        "ayah_en": "and olives and palm trees.",
+        "ayah_en": "and olives and palm trees,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَحَدَائِقَ غُلْبًا",
-        "ayah_en": "and dense orchards.",
+        "ayah_en": "and dense orchards,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080030.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "وَفَاكِهَةً وَأَبًّا",
-        "ayah_en": "and fruit and fodder.",
+        "ayah_en": "and fruit and fodder—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080031.mp3"
       },
       {
@@ -210,19 +210,19 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 33,
         "ayah_ar": "فَإِذَا جَاءَتِ الصَّاخَّةُ",
-        "ayah_en": "Then, when the Deafening Blast comes to pass.",
+        "ayah_en": "Then, when the Deafening Blast comes to pass—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080033.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ",
-        "ayah_en": "on that Day every person will flee from their own siblings.",
+        "ayah_en": "on that Day every person will flee from their own siblings,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080034.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "وَأُمِّهِ وَأَبِيهِ",
-        "ayah_en": "and ˹even˺ their mother and father.",
+        "ayah_en": "and ˹even˺ their mother and father,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080035.mp3"
       },
       {
@@ -240,25 +240,25 @@ var chapterData_80 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
-        "ayah_en": "On that Day ˹some˺ faces will be bright.",
+        "ayah_en": "On that Day ˹some˺ faces will be bright,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
-        "ayah_en": "laughing and rejoicing.",
+        "ayah_en": "laughing and rejoicing,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
-        "ayah_en": "while ˹other˺ faces will be dusty.",
+        "ayah_en": "while ˹other˺ faces will be dusty,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080040.mp3"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "تَرْهَقُهَا قَتَرَةٌ",
-        "ayah_en": "cast in gloom.",
+        "ayah_en": "cast in gloom—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/080041.mp3"
       },
       {

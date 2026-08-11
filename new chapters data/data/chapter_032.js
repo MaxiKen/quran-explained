@@ -12,13 +12,13 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "تَنزِيلُ الْكِتَابِ لَا رَيْبَ فِيهِ مِن رَّبِّ الْعَالَمِينَ",
-        "ayah_en": "The revelation of this Book is—beyond doubt—from the Lord of all worlds.",
+        "ayah_en": "The revelation of this Book, is—beyond doubt—from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "أَمْ يَقُولُونَ افْتَرَاهُ ۚ بَلْ هُوَ الْحَقُّ مِن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّا أَتَاهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَهْتَدُونَ",
-        "ayah_en": "Or do they say, “He has fabricated it!”? No! It is the truth from your Lord in order for you to warn a people to whom no warner has come before you, so they may be ˹rightly˺ guided.",
+        "ayah_en": "Or do they say, \"He has fabricated it!\"? No! It is the truth from your Lord, in order for you to warn a people to whom no warner has come before you, so they may be ˹rightly˺ guided.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032003.mp3"
       }
     ]
@@ -30,7 +30,7 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ وَمَا بَيْنَهُمَا فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَىٰ عَلَى الْعَرْشِ ۖ مَا لَكُم مِّن دُونِهِ مِن وَلِيٍّ وَلَا شَفِيعٍ ۚ أَفَلَا تَتَذَكَّرُونَ",
-        "ayah_en": "It is Allah Who has created the heavens and the earth and everything in between in six Days, then established Himself on the Throne. You have no protector or intercessor besides Him. Will you not then be mindful?",
+        "ayah_en": "It is Allah Who has created the heavens and the earth and everything in between in six Days, then established Himself on the Throne, You have no protector or intercessor besides Him, Will you not then be mindful?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032004.mp3"
       },
       {
@@ -42,25 +42,25 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "ذَٰلِكَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْعَزِيزُ الرَّحِيمُ",
-        "ayah_en": "That is the Knower of the seen and unseen—the Almighty, Most Merciful,",
+        "ayah_en": "That is the Knower of the seen and unseen—the Almighty, Most Merciful.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ ۖ وَبَدَأَ خَلْقَ الْإِنسَانِ مِن طِينٍ",
-        "ayah_en": "Who has perfected everything He created. And He originated the creation of humankind from clay.",
+        "ayah_en": "Who has perfected everything He created, And He originated the creation of humankind from clay.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ جَعَلَ نَسْلَهُ مِن سُلَالَةٍ مِّن مَّاءٍ مَّهِينٍ",
-        "ayah_en": "Then He made his descendants from an extract of a humble fluid,",
+        "ayah_en": "Then He made his descendants from an extract of a humble fluid.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "ثُمَّ سَوَّاهُ وَنَفَخَ فِيهِ مِن رُّوحِهِ ۖ وَجَعَلَ لَكُمُ السَّمْعَ وَالْأَبْصَارَ وَالْأَفْئِدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
-        "ayah_en": "then He fashioned them and had a spirit of His Own ˹creation˺ breathed into them. And He gave you hearing, sight, and intellect. ˹Yet˺ you hardly give any thanks.",
+        "ayah_en": "then He fashioned them and had a spirit of His Own ˹creation˺ breathed into them, And He gave you hearing, sight, and intellect, ˹Yet˺ you hardly give any thanks.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032009.mp3"
       }
     ]
@@ -72,31 +72,31 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَقَالُوا أَإِذَا ضَلَلْنَا فِي الْأَرْضِ أَإِنَّا لَفِي خَلْقٍ جَدِيدٍ ۚ بَلْ هُم بِلِقَاءِ رَبِّهِمْ كَافِرُونَ",
-        "ayah_en": "˹Still˺ they ask ˹mockingly˺, “When we are disintegrated into the earth, will we really be raised as a new creation?” In fact, they are in denial of the meeting with their Lord.",
+        "ayah_en": "˹Still˺ they ask ˹mockingly˺, \"When we are disintegrated into the earth, will we really be raised as a new creation?\"In fact, they are in denial of the meeting with their Lord.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "قُلْ يَتَوَفَّاكُم مَّلَكُ الْمَوْتِ الَّذِي وُكِّلَ بِكُمْ ثُمَّ إِلَىٰ رَبِّكُمْ تُرْجَعُونَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “Your soul will be taken by the Angel of Death, who is in charge of you. Then to your Lord you will ˹all˺ be returned.”",
+        "ayah_en": "Say, ˹O Prophet,˺ \"Your soul will be taken by the Angel of Death, who is in charge of you, Then to your Lord you will ˹all˺ be returned.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَلَوْ تَرَىٰ إِذِ الْمُجْرِمُونَ نَاكِسُو رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَا أَبْصَرْنَا وَسَمِعْنَا فَارْجِعْنَا نَعْمَلْ صَالِحًا إِنَّا مُوقِنُونَ",
-        "ayah_en": "If only you could see the wicked hanging their heads ˹in shame˺ before their Lord, ˹crying:˺ “Our Lord! We have now seen and heard, so send us back and we will do good. We truly have sure faith ˹now˺!”",
+        "ayah_en": "If only you could see the wicked hanging their heads ˹in shame˺ before their Lord, ˹crying:˺ \"Our Lord! We have now seen and heard, so send us back and we will do good, We truly have sure faith ˹now˺!\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَلَوْ شِئْنَا لَآتَيْنَا كُلَّ نَفْسٍ هُدَاهَا وَلَٰكِنْ حَقَّ الْقَوْلُ مِنِّي لَأَمْلَأَنَّ جَهَنَّمَ مِنَ الْجِنَّةِ وَالنَّاسِ أَجْمَعِينَ",
-        "ayah_en": "Had We willed, We could have easily imposed guidance on every soul. But My Word will come to pass: I will surely fill up Hell with jinn and humans all together.",
+        "ayah_en": "Had We willed, We could have easily imposed guidance on every soul, But My Word will come to pass: I will surely fill up Hell with jinn and humans all together.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "فَذُوقُوا بِمَا نَسِيتُمْ لِقَاءَ يَوْمِكُمْ هَٰذَا إِنَّا نَسِينَاكُمْ ۖ وَذُوقُوا عَذَابَ الْخُلْدِ بِمَا كُنتُمْ تَعْمَلُونَ",
-        "ayah_en": "So taste ˹the punishment˺ for neglecting the meeting of this Day of yours. We ˹too˺ will certainly neglect you. And taste the torment of eternity for what you used to do!",
+        "ayah_en": "So taste ˹the punishment˺ for neglecting the meeting of this Day of yours, We ˹too˺ will certainly neglect you, And taste the torment of eternity for what you used to do!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032014.mp3"
       }
     ]
@@ -108,7 +108,7 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِنَّمَا يُؤْمِنُ بِآيَاتِنَا الَّذِينَ إِذَا ذُكِّرُوا بِهَا خَرُّوا سُجَّدًا وَسَبَّحُوا بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ",
-        "ayah_en": "The only ˹true˺ believers in Our revelation are those who—when it is recited to them—fall into prostration and glorify the praises of their Lord and are not too proud.",
+        "ayah_en": "The only ˹true˺ believers in Our revelation are those who—when it is recited to them—fall into prostration, and glorify the praises of their Lord, and are not too proud.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032015.mp3"
       },
       {
@@ -120,7 +120,7 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "فَلَا تَعْلَمُ نَفْسٌ مَّا أُخْفِيَ لَهُم مِّن قُرَّةِ أَعْيُنٍ جَزَاءً بِمَا كَانُوا يَعْمَلُونَ",
-        "ayah_en": "No soul can imagine what delights are kept in store for them as a reward for what they used to do.",
+        "ayah_en": "No soul can imagine what delights are kept in store for them, as a reward for what they used to do.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032017.mp3"
       }
     ]
@@ -144,19 +144,19 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَأَمَّا الَّذِينَ فَسَقُوا فَمَأْوَاهُمُ النَّارُ ۖ كُلَّمَا أَرَادُوا أَن يَخْرُجُوا مِنْهَا أُعِيدُوا فِيهَا وَقِيلَ لَهُمْ ذُوقُوا عَذَابَ النَّارِ الَّذِي كُنتُم بِهِ تُكَذِّبُونَ",
-        "ayah_en": "But as for those who are rebellious, the Fire will be their home. Whenever they try to escape from it, they will be forced back into it, and will be told, “Taste the Fire’s torment, which you used to deny.”",
+        "ayah_en": "But as for those who are rebellious, the Fire will be their home, Whenever they try to escape from it, they will be forced back into it, and will be told, \"Taste the Fire's torment, which you used to deny\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَلَنُذِيقَنَّهُم مِّنَ الْعَذَابِ الْأَدْنَىٰ دُونَ الْعَذَابِ الْأَكْبَرِ لَعَلَّهُمْ يَرْجِعُونَ",
-        "ayah_en": "We will certainly make them taste some of the minor torment ˹in this life˺ before the major torment ˹of the Hereafter˺, so perhaps they will return ˹to the Right Path˺.",
+        "ayah_en": "We will certainly make them taste some of the minor torment ˹in this life˺ before the major torment ˹of the Hereafter˺ so perhaps they will return ˹to the Right Path˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِآيَاتِ رَبِّهِ ثُمَّ أَعْرَضَ عَنْهَا ۚ إِنَّا مِنَ الْمُجْرِمِينَ مُنتَقِمُونَ",
-        "ayah_en": "And who does more wrong than the one who is reminded of Allah’s revelations then turns away from them? We will surely inflict punishment upon the wicked.",
+        "ayah_en": "And who does more wrong than the one who is reminded of Allah's revelations then turns away from them? We will surely inflict punishment upon the wicked.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032022.mp3"
       }
     ]
@@ -174,7 +174,7 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا ۖ وَكَانُوا بِآيَاتِنَا يُوقِنُونَ",
-        "ayah_en": "We raised from among them leaders, guiding by Our command, when they patiently endured and firmly believed in Our signs.",
+        "ayah_en": "We raised from among them leaders, guiding by Our command, when they patiently endured, and firmly believed in Our signs.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032024.mp3"
       },
       {
@@ -192,7 +192,7 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ الْقُرُونِ يَمْشُونَ فِي مَسَاكِنِهِمْ ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ ۖ أَفَلَا يَسْمَعُونَ",
-        "ayah_en": "Is it not yet clear to them how many peoples We destroyed before them, whose ruins they still pass by? Surely in this are signs. Will they not then listen?",
+        "ayah_en": "Is it not yet clear to them how many peoples We destroyed before them, whose ruins they still pass by? Surely in this are signs, Will they not then listen?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032026.mp3"
       },
       {
@@ -210,13 +210,13 @@ var chapterData_32 = [
       {
         "ayah_no_surah": 28,
         "ayah_ar": "وَيَقُولُونَ مَتَىٰ هَٰذَا الْفَتْحُ إِن كُنتُمْ صَادِقِينَ",
-        "ayah_en": "They ask ˹mockingly˺, “When is this ˹Day of final˺ Decision, if what you say is true?”",
+        "ayah_en": "They ask ˹mockingly˺, \"When is this ˹Day of final˺ Decision, if what you say is true?\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "قُلْ يَوْمَ الْفَتْحِ لَا يَنفَعُ الَّذِينَ كَفَرُوا إِيمَانُهُمْ وَلَا هُمْ يُنظَرُونَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “On the Day of Decision it will not benefit the disbelievers to believe then, nor will they be delayed ˹from punishment˺.”",
+        "ayah_en": "Say, ˹O Prophet,˺ \"On the Day of Decision it will not benefit the disbelievers to believe then, nor will they be delayed ˹from punishment˺\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/032029.mp3"
       },
       {

@@ -6,13 +6,13 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ",
-        "ayah_en": "Indeed, We sent Noah to his people ˹saying to him˺, “Warn your people before a painful punishment comes to them.”",
+        "ayah_en": "Indeed, We sent Noah to his people, ˹saying to him˺, \"Warn your people, before a painful punishment comes to them.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُّبِينٌ",
-        "ayah_en": "Noah proclaimed, “O my people! I am truly sent to you with a clear warning:",
+        "ayah_en": "Noah proclaimed, \"O my people! I am truly sent to you with a clear warning:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071002.mp3"
       },
       {
@@ -24,7 +24,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰ أَجَلٍ مُّسَمًّى ۚ إِنَّ أَجَلَ اللَّهِ إِذَا جَاءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ",
-        "ayah_en": "He will forgive your sins, and delay your end until the appointed time. Indeed, when the time set by Allah comes, it cannot be delayed, if only you knew!”",
+        "ayah_en": "He will forgive your sins, and delay your end until the appointed time. Indeed, when the time set by Allah comes, it cannot be delayed, if only you knew!\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071004.mp3"
       }
     ]
@@ -36,7 +36,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "قَالَ رَبِّ إِنِّي دَعَوْتُ قَوْمِي لَيْلًا وَنَهَارًا",
-        "ayah_en": "He cried, “My Lord! I have surely called my people day and night,",
+        "ayah_en": "He cried, \"My Lord! I have surely called my people day and night.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071005.mp3"
       },
       {
@@ -54,13 +54,13 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ إِنِّي دَعَوْتُهُمْ جِهَارًا",
-        "ayah_en": "Then I certainly called them openly,",
+        "ayah_en": "Then I certainly called them openly.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "ثُمَّ إِنِّي أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
-        "ayah_en": "then I surely preached to them publicly and privately,",
+        "ayah_en": "then I surely preached to them publicly and privately.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071009.mp3"
       }
     ]
@@ -72,13 +72,13 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا",
-        "ayah_en": "saying, ‘Seek your Lord’s forgiveness, ˹for˺ He is truly Most Forgiving.",
+        "ayah_en": "saying, 'Seek your Lord's forgiveness, ˹for˺ He is truly Most Forgiving.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا",
-        "ayah_en": "He will shower you with abundant rain,",
+        "ayah_en": "He will shower you with abundant rain.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071011.mp3"
       },
       {
@@ -96,7 +96,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
-        "ayah_en": "What is the matter with you that you are not in awe of the Majesty of Allah,",
+        "ayah_en": "What is the matter with you that you are not in awe of the Majesty of Allah.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071013.mp3"
       },
       {
@@ -108,7 +108,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا",
-        "ayah_en": "Do you not see how Allah created seven heavens, one above the other,",
+        "ayah_en": "Do you not see how Allah created seven heavens, one above the other.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071015.mp3"
       },
       {
@@ -132,13 +132,13 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَاللَّهُ جَعَلَ لَكُمُ الْأَرْضَ بِسَاطًا",
-        "ayah_en": "And Allah ˹alone˺ spread out the earth for you",
+        "ayah_en": "And Allah ˹alone˺ spread out the earth for you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071019.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "لِّتَسْلُكُوا مِنْهَا سُبُلًا فِجَاجًا",
-        "ayah_en": "to walk along its spacious pathways.’”",
+        "ayah_en": "to walk along its spacious pathways.'\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071020.mp3"
       }
     ]
@@ -150,25 +150,25 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "قَالَ نُوحٌ رَّبِّ إِنَّهُمْ عَصَوْنِي وَاتَّبَعُوا مَن لَّمْ يَزِدْهُ مَالُهُ وَوَلَدُهُ إِلَّا خَسَارًا",
-        "ayah_en": "˹Eventually,˺ Noah cried, “My Lord! They have certainly persisted in disobeying me, and followed ˹instead˺ those ˹elite˺ whose ˹abundant˺ wealth and children only increase them in loss,",
+        "ayah_en": "˹Eventually,˺ Noah cried, \"My Lord! They have certainly persisted in disobeying me, and followed ˹instead˺ those ˹elite˺ whose ˹abundant˺ wealth and children only increase them in loss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَمَكَرُوا مَكْرًا كُبَّارًا",
-        "ayah_en": "and who have devised a tremendous plot,",
+        "ayah_en": "and who have devised a tremendous plot.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "وَقَالُوا لَا تَذَرُنَّ آلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا",
-        "ayah_en": "urging ˹their followers˺, ‘Do not abandon your idols— especially Wadd, Suwâ’, Yaghûth, Ya’ûq, and Nasr.’",
+        "ayah_en": "urging ˹their followers˺, 'Do not abandon your idols—especially Wadd, Suwâ', Yaghûth, Ya'ûq, and Nasr.'",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071023.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَقَدْ أَضَلُّوا كَثِيرًا ۖ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا ضَلَالًا",
-        "ayah_en": "Those ˹elite˺ have already led many astray. So ˹O Lord˺, only allow the wrongdoers to stray farther away.”",
+        "ayah_en": "Those ˹elite˺ have already led many astray. So ˹O Lord˺, only allow the wrongdoers to stray farther away.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071024.mp3"
       },
       {
@@ -186,7 +186,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَقَالَ نُوحٌ رَّبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا",
-        "ayah_en": "Noah had prayed, “My Lord! Do not leave a single disbeliever on earth.",
+        "ayah_en": "Noah had prayed, \"My Lord! Do not leave a single disbeliever on earth.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071026.mp3"
       },
       {
@@ -198,7 +198,7 @@ var chapterData_71 = [
       {
         "ayah_no_surah": 28,
         "ayah_ar": "رَّبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا",
-        "ayah_en": "My Lord! Forgive me, my parents, and whoever enters my house in faith, and ˹all˺ believing men and women. And increase the wrongdoers only in destruction.”",
+        "ayah_en": "My Lord! Forgive me, my parents, and whoever enters my house in faith, and ˹all˺ believing men and women. And increase the wrongdoers only in destruction.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/071028.mp3"
       }
     ]

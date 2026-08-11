@@ -12,7 +12,7 @@ var chapterData_103 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
-        "ayah_en": "Surely humanity is in ˹grave˺ loss.",
+        "ayah_en": "Surely humanity is in ˹grave˺ loss,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/103002.mp3"
       }
     ]

@@ -6,7 +6,7 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالسَّمَاءِ وَالطَّارِقِ",
-        "ayah_en": "By the heaven and the nightly star!",
+        "ayah_en": "By the heaven, and the nightly star.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086001.mp3"
       },
       {
@@ -24,7 +24,7 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
-        "ayah_en": "There is no soul without a vigilant angel ˹recording everything˺.",
+        "ayah_en": "There is no soul without a vigilant angel ˹recording everything˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086004.mp3"
       }
     ]
@@ -42,7 +42,7 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "خُلِقَ مِن مَّاءٍ دَافِقٍ",
-        "ayah_en": "˹They were˺ created from a spurting fluid,",
+        "ayah_en": "˹They were˺ created from a spurting fluid.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086006.mp3"
       },
       {
@@ -84,19 +84,19 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ",
-        "ayah_en": "By the sky with its recurring cycles,",
+        "ayah_en": "By the sky with its recurring cycles.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَالْأَرْضِ ذَاتِ الصَّدْعِ",
-        "ayah_en": "and the earth with its sprouting plants!",
+        "ayah_en": "and the earth with its sprouting plants.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
-        "ayah_en": "Surely this ˹Quran˺ is a decisive word,",
+        "ayah_en": "Surely this ˹Quran˺ is a decisive word.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086013.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
-        "ayah_en": "They are certainly devising ˹evil˺ plans,",
+        "ayah_en": "They are certainly devising ˹evil˺ plans.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086015.mp3"
       },
       {
@@ -126,7 +126,7 @@ var chapterData_86 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا",
-        "ayah_en": "So bear with the disbelievers ˹O Prophet˺. Let them be for ˹just˺ a little while.",
+        "ayah_en": "So bear with the disbelievers ˹O Prophet˺ Let them be for ˹just˺ a little while.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/086017.mp3"
       }
     ]

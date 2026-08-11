@@ -6,7 +6,7 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "هَلْ أَتَىٰ عَلَى الْإِنسَانِ حِينٌ مِّنَ الدَّهْرِ لَمْ يَكُن شَيْئًا مَّذْكُورًا",
-        "ayah_en": "Is there not a period of time when each human is nothing yet worth mentioning?",
+        "ayah_en": "Is there not a period of time, when each human is nothing yet worth mentioning?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076001.mp3"
       },
       {
@@ -30,7 +30,7 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنَّا أَعْتَدْنَا لِلْكَافِرِينَ سَلَاسِلَ وَأَغْلَالًا وَسَعِيرًا",
-        "ayah_en": "Indeed, We have prepared for the disbelievers chains, shackles, and a blazing Fire.",
+        "ayah_en": "Indeed, We have prepared for the disbelievers, chains, shackles, and a blazing Fire.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076004.mp3"
       }
     ]
@@ -48,43 +48,43 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ اللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا",
-        "ayah_en": "˹from˺ a spring where Allah’s servants will drink, flowing at their will.",
+        "ayah_en": "˹from˺ a spring where Allah's servants will drink, flowing at their will.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "يُوفُونَ بِالنَّذْرِ وَيَخَافُونَ يَوْمًا كَانَ شَرُّهُ مُسْتَطِيرًا",
-        "ayah_en": "They ˹are those who˺ fulfil ˹their˺ vows and fear a Day of sweeping horror,",
+        "ayah_en": "They ˹are those who˺ fulfil ˹their˺ vows, and fear a Day of sweeping horror.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
-        "ayah_en": "and give food—despite their desire for it—to the poor, the orphan, and the captive,",
+        "ayah_en": "and give food—despite their desire for it—to the poor, the orphan, and the captive.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا",
-        "ayah_en": "˹saying to themselves,˺ “We feed you only for the sake of Allah, seeking neither reward nor thanks from you.",
+        "ayah_en": "˹saying to themselves,˺ \"We feed you only for the sake of Allah, seeking neither reward nor thanks from you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًا قَمْطَرِيرًا",
-        "ayah_en": "We fear from our Lord a horribly distressful Day.”",
+        "ayah_en": "We fear from our Lord a horribly distressful Day.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "فَوَقَاهُمُ اللَّهُ شَرَّ ذَٰلِكَ الْيَوْمِ وَلَقَّاهُمْ نَضْرَةً وَسُرُورًا",
-        "ayah_en": "So Allah will deliver them from the horror of that Day, and grant them radiance and joy,",
+        "ayah_en": "So Allah will deliver them from the horror of that Day, and grant them radiance and joy.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَجَزَاهُم بِمَا صَبَرُوا جَنَّةً وَحَرِيرًا",
-        "ayah_en": "and reward them for their perseverance with a Garden ˹in Paradise˺ and ˹garments of˺ silk.",
+        "ayah_en": "and reward them for their perseverance, with a Garden ˹in Paradise˺ and ˹garments of˺ silk.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076012.mp3"
       }
     ]
@@ -102,7 +102,7 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَدَانِيَةً عَلَيْهِمْ ظِلَالُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
-        "ayah_en": "The Garden’s shade will be right above them, and its fruit will be made very easy to reach.",
+        "ayah_en": "The Garden's shade will be right above them, and its fruit will be made very easy to reach.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076014.mp3"
       },
       {
@@ -120,7 +120,7 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "وَيُسْقَوْنَ فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
-        "ayah_en": "And they will be given a drink ˹of pure wine˺ flavoured with ginger",
+        "ayah_en": "And they will be given a drink ˹of pure wine˺ flavoured with ginger.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076017.mp3"
       },
       {
@@ -150,7 +150,7 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 22,
         "ayah_ar": "إِنَّ هَٰذَا كَانَ لَكُمْ جَزَاءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
-        "ayah_en": "˹And they will be told,˺ “All this is surely a reward for you. Your striving has been appreciated.”",
+        "ayah_en": "˹And they will be told,˺ \"All this is surely a reward for you. Your striving has been appreciated.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076022.mp3"
       }
     ]
@@ -168,13 +168,13 @@ var chapterData_76 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَاصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ آثِمًا أَوْ كَفُورًا",
-        "ayah_en": "So be patient with your Lord’s decree, and do not yield to any evildoer or ˹staunch˺ disbeliever from among them.",
+        "ayah_en": "So be patient with your Lord's decree, and do not yield to any evildoer or ˹staunch˺ disbeliever from among them.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "وَاذْكُرِ اسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
-        "ayah_en": "˹Always˺ remember the Name of your Lord morning and evening,",
+        "ayah_en": "˹Always˺ remember the Name of your Lord morning and evening.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/076025.mp3"
       },
       {

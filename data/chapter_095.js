@@ -6,13 +6,13 @@ var chapterData_95 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالتِّينِ وَالزَّيْتُونِ",
-        "ayah_en": "By the fig and the olive ˹of Jerusalem˺",
+        "ayah_en": "By the fig and the olive ˹of Jerusalem˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/095001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَطُورِ سِينِينَ",
-        "ayah_en": "and Mount Sinai.",
+        "ayah_en": "and Mount Sinai,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/095002.mp3"
       },
       {
@@ -36,13 +36,13 @@ var chapterData_95 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
-        "ayah_en": "But We will reduce them to the lowest of the low ˹in Hell˺",
+        "ayah_en": "But We will reduce them to the lowest of the low ˹in Hell˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/095005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
-        "ayah_en": "except those who believe and do good, they will have a never-ending reward.",
+        "ayah_en": "except those who believe and do good—they will have a never-ending reward.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/095006.mp3"
       }
     ]

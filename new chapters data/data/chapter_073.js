@@ -18,7 +18,7 @@ var chapterData_73 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "نِّصْفَهُ أَوِ انقُصْ مِنْهُ قَلِيلًا",
-        "ayah_en": "˹pray˺ half the night, or a little less,",
+        "ayah_en": "˹pray˺ half the night, or a little less.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/073003.mp3"
       },
       {
@@ -36,7 +36,7 @@ var chapterData_73 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطْئًا وَأَقْوَمُ قِيلًا",
-        "ayah_en": "Indeed, worship in the night is more impactful and suitable for recitation.",
+        "ayah_en": "Indeed, worship in the night is more impactful, and suitable for recitation.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/073006.mp3"
       },
       {
@@ -78,7 +78,7 @@ var chapterData_73 = [
       {
         "ayah_no_surah": 12,
         "ayah_ar": "إِنَّ لَدَيْنَا أَنكَالًا وَجَحِيمًا",
-        "ayah_en": "˹For˺ We certainly have shackles, a ˹raging˺ Fire,",
+        "ayah_en": "˹For˺ We certainly have shackles, a ˹raging˺ Fire.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/073012.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_73 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "فَكَيْفَ تَتَّقُونَ إِن كَفَرْتُمْ يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا",
-        "ayah_en": "If you ˹pagans˺ persist in disbelief, then how will you guard yourselves against ˹the horrors of˺ a Day which will turn children’s hair grey?",
+        "ayah_en": "If you ˹pagans˺ persist in disbelief, then how will you guard yourselves against ˹the horrors of˺ a Day, which will turn children's hair grey?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/073017.mp3"
       },
       {
@@ -138,7 +138,7 @@ var chapterData_73 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِّنَ الَّذِينَ مَعَكَ ۚ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِن فَضْلِ اللَّهِ ۙ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَاسْتَغْفِرُوا اللَّهَ ۖ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
-        "ayah_en": "Surely your Lord knows that you ˹O Prophet˺ stand ˹in prayer˺ for nearly two-thirds of the night, or ˹sometimes˺ half of it, or a third, as do some of those with you. Allah ˹alone˺ keeps a ˹precise˺ measure of the day and night. He knows that you ˹believers˺ are unable to endure this, and has turned to you in mercy. So recite ˹in prayer˺ whatever you can from the Quran. He knows that some of you will be sick, some will be travelling throughout the land seeking Allah’s bounty, and some fighting in the cause of Allah. So recite whatever you can from it. And ˹continue to˺ perform ˹regular˺ prayers, pay alms-tax, and lend to Allah a good loan. Whatever good you send forth for yourselves, you will find it with Allah far better and more rewarding. And seek Allah’s forgiveness. Surely Allah is All-Forgiving, Most Merciful.",
+        "ayah_en": "Surely your Lord knows that you ˹O Prophet˺ stand ˹in prayer˺ for nearly two-thirds of the night, or ˹sometimes˺ half of it, or a third, as do some of those with you. Allah ˹alone˺ keeps a ˹precise˺ measure of the day and night. He knows that you ˹believers˺ are unable to endure this, and has turned to you in mercy. So recite ˹in prayer˺ whatever you can from the Quran. He knows that some of you will be sick, some will be travelling throughout the land seeking Allah's bounty, and some fighting in the cause of Allah. So recite whatever you can from it. And ˹continue to˺ perform ˹regular˺ prayers, pay alms-tax, and lend to Allah a good loan. Whatever good you send forth for yourselves, you will find it with Allah far better and more rewarding. And seek Allah's forgiveness. Surely Allah is All-Forgiving, Most Merciful.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/073020.mp3"
       }
     ]

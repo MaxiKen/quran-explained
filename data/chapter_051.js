@@ -6,25 +6,25 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالذَّارِيَاتِ ذَرْوًا",
-        "ayah_en": "By the winds scattering ˹dust˺",
+        "ayah_en": "By the winds scattering ˹dust˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَالْحَامِلَاتِ وِقْرًا",
-        "ayah_en": "and ˹the clouds˺ loaded with rain.",
+        "ayah_en": "and ˹the clouds˺ loaded with rain,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "فَالْجَارِيَاتِ يُسْرًا",
-        "ayah_en": "and ˹the ships˺ gliding with ease.",
+        "ayah_en": "and ˹the ships˺ gliding with ease,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "فَالْمُقَسِّمَاتِ أَمْرًا",
-        "ayah_en": "and ˹the angels˺ administering affairs by ˹Allah's˺ command.",
+        "ayah_en": "and ˹the angels˺ administering affairs by ˹Allah’s˺ command!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051004.mp3"
       },
       {
@@ -48,13 +48,13 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَالسَّمَاءِ ذَاتِ الْحُبُكِ",
-        "ayah_en": "˹And˺ by the heavens in their marvellous design.",
+        "ayah_en": "˹And˺ by the heavens in their marvellous design!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "إِنَّكُمْ لَفِي قَوْلٍ مُّخْتَلِفٍ",
-        "ayah_en": "Surely you are ˹lost˺ in conflicting views ˹regarding the truth˺",
+        "ayah_en": "Surely you are ˹lost˺ in conflicting views ˹regarding the truth˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051008.mp3"
       },
       {
@@ -66,7 +66,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "قُتِلَ الْخَرَّاصُونَ",
-        "ayah_en": "Condemned are the liars.",
+        "ayah_en": "Condemned are the liars—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051010.mp3"
       },
       {
@@ -78,7 +78,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 12,
         "ayah_ar": "يَسْأَلُونَ أَيَّانَ يَوْمُ الدِّينِ",
-        "ayah_en": "They ask ˹mockingly˺, \"When is this Day of Judgment?\"",
+        "ayah_en": "They ask ˹mockingly˺, “When is this Day of Judgment?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051012.mp3"
       },
       {
@@ -90,7 +90,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "ذُوقُوا فِتْنَتَكُمْ هَـٰذَا الَّذِي كُنتُم بِهِ تَسْتَعْجِلُونَ",
-        "ayah_en": "˹They will be told,˺ \"Taste your torment! This is what you sought to hasten.\"",
+        "ayah_en": "˹They will be told,˺ “Taste your torment! This is what you sought to hasten.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051014.mp3"
       }
     ]
@@ -102,19 +102,19 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ وَعُيُونٍ",
-        "ayah_en": "Indeed, the righteous will be amid Gardens and springs.",
+        "ayah_en": "Indeed, the righteous will be amid Gardens and springs,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051015.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "آخِذِينَ مَا آتَاهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا قَبْلَ ذَٰلِكَ مُحْسِنِينَ",
-        "ayah_en": "˹joyfully˺ receiving what their Lord will grant them, Before this ˹reward˺ they were truly good-doers ˹in the world˺",
+        "ayah_en": "˹joyfully˺ receiving what their Lord will grant them. Before this ˹reward˺ they were truly good-doers ˹in the world˺:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051016.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "كَانُوا قَلِيلًا مِّنَ اللَّيْلِ مَا يَهْجَعُونَ",
-        "ayah_en": "they used to sleep only little in the night.",
+        "ayah_en": "they used to sleep only little in the night,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051017.mp3"
       },
       {
@@ -138,7 +138,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَفِي الْأَرْضِ آيَاتٌ لِّلْمُوقِنِينَ",
-        "ayah_en": "There are ˹countless˺ signs on earth for those with sure faith.",
+        "ayah_en": "There are ˹countless˺ signs on earth for those with sure faith,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051020.mp3"
       },
       {
@@ -168,43 +168,43 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "هَلْ أَتَاكَ حَدِيثُ ضَيْفِ إِبْرَاهِيمَ الْمُكْرَمِينَ",
-        "ayah_en": "Has the story of Abraham's honoured guests reached you ˹O Prophet˺?",
+        "ayah_en": "Has the story of Abraham’s honoured guests reached you ˹O Prophet˺?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "إِذْ دَخَلُوا عَلَيْهِ فَقَالُوا سَلَامًا ۖ قَالَ سَلَامٌ قَوْمٌ مُّنكَرُونَ",
-        "ayah_en": "˹Remember˺ when they entered his presence and greeted ˹him with˺, \"Peace!\" He replied, \"Peace ˹be upon you˺!\"˹Then he said to himself,˺ \"˹These are˺ an unfamiliar people.\"",
+        "ayah_en": "˹Remember˺ when they entered his presence and greeted ˹him with˺, “Peace!” He replied, “Peace ˹be upon you˺!” ˹Then he said to himself,˺ “˹These are˺ an unfamiliar people.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "فَرَاغَ إِلَىٰ أَهْلِهِ فَجَاءَ بِعِجْلٍ سَمِينٍ",
-        "ayah_en": "Then he slipped off to his family and brought a fat ˹roasted˺ calf.",
+        "ayah_en": "Then he slipped off to his family and brought a fat ˹roasted˺ calf,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "فَقَرَّبَهُ إِلَيْهِمْ قَالَ أَلَا تَأْكُلُونَ",
-        "ayah_en": "and placed it before them, asking, \"Will you not eat?\"",
+        "ayah_en": "and placed it before them, asking, “Will you not eat?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "فَأَوْجَسَ مِنْهُمْ خِيفَةً ۖ قَالُوا لَا تَخَفْ ۖ وَبَشَّرُوهُ بِغُلَامٍ عَلِيمٍ",
-        "ayah_en": "˹They did not eat,˺ so he grew fearful of them. They reassured ˹him˺, \"Do not be afraid,\"and gave him good news of a knowledgeable son.",
+        "ayah_en": "˹They did not eat,˺ so he grew fearful of them. They reassured ˹him˺, “Do not be afraid,” and gave him good news of a knowledgeable son.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "فَأَقْبَلَتِ امْرَأَتُهُ فِي صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
-        "ayah_en": "Then his wife came forward with a cry, clasping her forehead ˹in astonishment˺, exclaiming, \"˹A baby from˺ a barren, old woman!\"",
+        "ayah_en": "Then his wife came forward with a cry, clasping her forehead ˹in astonishment˺, exclaiming, “˹A baby from˺ a barren, old woman!”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "قَالُوا كَذَٰلِكِ قَالَ رَبُّكِ ۖ إِنَّهُ هُوَ الْحَكِيمُ الْعَلِيمُ",
-        "ayah_en": "They replied, \"Such has your Lord decreed. He is truly the All-Wise, All-Knowing.\"",
+        "ayah_en": "They replied, “Such has your Lord decreed. He is truly the All-Wise, All-Knowing.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051030.mp3"
       }
     ]
@@ -216,25 +216,25 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 31,
         "ayah_ar": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا الْمُرْسَلُونَ",
-        "ayah_en": "˹Later,˺ Abraham asked, \"What is your mission, O messengers?\"",
+        "ayah_en": "˹Later,˺ Abraham asked, “What is your mission, O messengers?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "قَالُوا إِنَّا أُرْسِلْنَا إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
-        "ayah_en": "They replied, \"We have actually been sent to a wicked people.",
+        "ayah_en": "They replied, “We have actually been sent to a wicked people,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051032.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِّن طِينٍ",
-        "ayah_en": "to send upon them stones of ˹baked˺ clay.",
+        "ayah_en": "to send upon them stones of ˹baked˺ clay,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051033.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
-        "ayah_en": "marked by your Lord for the transgressors.\"",
+        "ayah_en": "marked by your Lord for the transgressors.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051034.mp3"
       },
       {
@@ -264,19 +264,19 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "وَفِي مُوسَىٰ إِذْ أَرْسَلْنَاهُ إِلَىٰ فِرْعَوْنَ بِسُلْطَانٍ مُّبِينٍ",
-        "ayah_en": "And in ˹the story of˺ Moses ˹was another lesson,˺ when We sent him to Pharaoh with compelling proof.",
+        "ayah_en": "And in ˹the story of˺ Moses ˹was another lesson,˺ when We sent him to Pharaoh with compelling proof,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "فَتَوَلَّىٰ بِرُكْنِهِ وَقَالَ سَاحِرٌ أَوْ مَجْنُونٌ",
-        "ayah_en": "but Pharaoh was carried away by his power, saying ˹of Moses˺, \"A magician or a madman!\"",
+        "ayah_en": "but Pharaoh was carried away by his power, saying ˹of Moses˺, “A magician or a madman!”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "فَأَخَذْنَاهُ وَجُنُودَهُ فَنَبَذْنَاهُمْ فِي الْيَمِّ وَهُوَ مُلِيمٌ",
-        "ayah_en": "So We seized him and his soldiers, casting them into the sea, while he was blameworthy.",
+        "ayah_en": "So We seized him and his soldiers, casting them into the sea while he was blameworthy.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051040.mp3"
       }
     ]
@@ -288,7 +288,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 41,
         "ayah_ar": "وَفِي عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ الرِّيحَ الْعَقِيمَ",
-        "ayah_en": "And in ˹the story of˺ 'Âd ˹was another lesson,˺ when We sent against them the devastating wind.",
+        "ayah_en": "And in ˹the story of˺ ’Âd ˹was another lesson,˺ when We sent against them the devastating wind.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051041.mp3"
       },
       {
@@ -306,7 +306,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 43,
         "ayah_ar": "وَفِي ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا حَتَّىٰ حِينٍ",
-        "ayah_en": "And in ˹the story of˺ Thamûd ˹was another lesson,˺ when they were told, \"Enjoy yourselves ˹only˺ for a ˹short˺ while.\"",
+        "ayah_en": "And in ˹the story of˺ Thamûd ˹was another lesson,˺ when they were told, “Enjoy yourselves ˹only˺ for a ˹short˺ while.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051043.mp3"
       },
       {
@@ -354,7 +354,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَمِن كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
-        "ayah_en": "And We created pairs of all things, so perhaps you would be mindful.",
+        "ayah_en": "And We created pairs of all things so perhaps you would be mindful.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051049.mp3"
       }
     ]
@@ -366,13 +366,13 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 50,
         "ayah_ar": "فَفِرُّوا إِلَى اللَّهِ ۖ إِنِّي لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
-        "ayah_en": "So ˹proclaim, O Prophet˺: \"Flee to Allah! I am truly sent by Him with a clear warning to you.",
+        "ayah_en": "So ˹proclaim, O Prophet˺: “Flee to Allah! I am truly sent by Him with a clear warning to you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051050.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَلَا تَجْعَلُوا مَعَ اللَّهِ إِلَـٰهًا آخَرَ ۖ إِنِّي لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
-        "ayah_en": "And do not set up another god with Allah. I am truly sent by Him with a clear warning to you.",
+        "ayah_en": "And do not set up another god with Allah. I am truly sent by Him with a clear warning to you.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051051.mp3"
       }
     ]
@@ -384,7 +384,7 @@ var chapterData_51 = [
       {
         "ayah_no_surah": 52,
         "ayah_ar": "كَذَٰلِكَ مَا أَتَى الَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا سَاحِرٌ أَوْ مَجْنُونٌ",
-        "ayah_en": "Similarly, no messenger came to those before them without being told: \"A magician or a madman!\"",
+        "ayah_en": "Similarly, no messenger came to those before them without being told: “A magician or a madman!”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/051052.mp3"
       },
       {

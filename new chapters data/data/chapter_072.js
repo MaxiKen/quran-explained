@@ -6,25 +6,25 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا",
-        "ayah_en": "Say, ˹O Prophet,˺ “It has been revealed to me that a group of jinn listened ˹to the Quran,˺ and said ˹to their fellow jinn˺: ‘Indeed, we have heard a wondrous recitation.",
+        "ayah_en": "Say, ˹O Prophet,˺ \"It has been revealed to me, that a group of jinn listened ˹to the Quran˺ and said ˹to their fellow jinn˺: 'Indeed, we have heard a wondrous recitation.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "يَهْدِي إِلَى الرُّشْدِ فَآمَنَّا بِهِ ۖ وَلَن نُّشْرِكَ بِرَبِّنَا أَحَدًا",
-        "ayah_en": "It leads to Right Guidance so we believed in it, and we will never associate anyone with our Lord ˹in worship˺.",
+        "ayah_en": "It leads to Right Guidance, so we believed in it, and we will never associate anyone with our Lord ˹in worship˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَأَنَّهُ تَعَالَىٰ جَدُّ رَبِّنَا مَا اتَّخَذَ صَاحِبَةً وَلَا وَلَدًا",
-        "ayah_en": "˹Now, we believe that˺ our Lord—Exalted is His Majesty—has neither taken a mate nor offspring,",
+        "ayah_en": "˹Now, we believe that˺ our Lord—Exalted is His Majesty, has neither taken a mate nor offspring.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَأَنَّهُ كَانَ يَقُولُ سَفِيهُنَا عَلَى اللَّهِ شَطَطًا",
-        "ayah_en": "and that the foolish of us used to utter ˹outrageous˺ falsehoods about Allah.",
+        "ayah_en": "and that the foolish of us, used to utter ˹outrageous˺ falsehoods about Allah.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072004.mp3"
       },
       {
@@ -36,13 +36,13 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَأَنَّهُ كَانَ رِجَالٌ مِّنَ الْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ الْجِنِّ فَزَادُوهُمْ رَهَقًا",
-        "ayah_en": "And some men used to seek refuge with some jinn—so they increased each other in wickedness.",
+        "ayah_en": "And some men used to seek refuge with some jinn, so they increased each other in wickedness.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَأَنَّهُمْ ظَنُّوا كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ اللَّهُ أَحَدًا",
-        "ayah_en": "And those ˹humans˺ thought, just like you ˹jinn˺, that Allah would not resurrect anyone ˹for judgment˺.",
+        "ayah_en": "And those ˹humans˺ thought, just like you ˹jinn˺, that Allah would not resurrect anyone ˹for judgment˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072007.mp3"
       }
     ]
@@ -54,7 +54,7 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَأَنَّا لَمَسْنَا السَّمَاءَ فَوَجَدْنَاهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا",
-        "ayah_en": "˹Earlier˺ we tried to reach heaven ˹for news˺, only to find it filled with stern guards and shooting stars.",
+        "ayah_en": "˹Earlier˺ we tried to reach heaven ˹for news˺ only to find it filled with stern guards and shooting stars.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072008.mp3"
       },
       {
@@ -78,31 +78,31 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَأَنَّا مِنَّا الصَّالِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَائِقَ قِدَدًا",
-        "ayah_en": "Among us are those who are righteous and those who are less so. We have been of different factions.",
+        "ayah_en": "Among us are those who are righteous, and those who are less so, We have been of different factions.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "وَأَنَّا ظَنَنَّا أَن لَّن نُّعْجِزَ اللَّهَ فِي الْأَرْضِ وَلَن نُّعْجِزَهُ هَرَبًا",
-        "ayah_en": "˹Now,˺ we truly know that we cannot frustrate Allah on earth, nor can we escape from Him ˹into heaven˺.",
+        "ayah_en": "˹Now,˺ we truly know that we cannot frustrate Allah on earth, nor can we escape from Him ˹into heaven˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَأَنَّا لَمَّا سَمِعْنَا الْهُدَىٰ آمَنَّا بِهِ ۖ فَمَن يُؤْمِن بِرَبِّهِ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا",
-        "ayah_en": "When we heard the guidance ˹of the Quran˺, we ˹readily˺ believed in it. For whoever believes in their Lord will have no fear of being denied ˹a reward˺ or wronged.",
+        "ayah_en": "When we heard the guidance ˹of the Quran˺, we ˹readily˺ believed in it, For whoever believes in their Lord will have no fear of being denied ˹a reward˺ or wronged.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُولَٰئِكَ تَحَرَّوْا رَشَدًا",
-        "ayah_en": "And among us are those who have submitted ˹to Allah˺ and those who are deviant. So ˹as for˺ those who submitted, it is they who have attained Right Guidance.",
+        "ayah_en": "And among us are those who have submitted ˹to Allah˺ and those who are deviant, So ˹as for˺ those who submitted, it is they who have attained Right Guidance.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072014.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "وَأَمَّا الْقَاسِطُونَ فَكَانُوا لِجَهَنَّمَ حَطَبًا",
-        "ayah_en": "And as for the deviant, they will be fuel for Hell.”",
+        "ayah_en": "And as for the deviant, they will be fuel for Hell.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072015.mp3"
       }
     ]
@@ -114,13 +114,13 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَأَن لَّوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لَأَسْقَيْنَاهُم مَّاءً غَدَقًا",
-        "ayah_en": "Had the deniers followed the Right Way, We would have certainly granted them abundant rain to drink—",
+        "ayah_en": "Had the deniers followed the Right Way, We would have certainly granted them abundant rain to drink.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072016.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِ يَسْلُكْهُ عَذَابًا صَعَدًا",
-        "ayah_en": "as a test for them. And whoever turns away from the remembrance of their Lord will be admitted by Him into an overwhelming punishment.",
+        "ayah_en": "as a test for them, And whoever turns away from the remembrance of their Lord, will be admitted by Him into an overwhelming punishment.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072017.mp3"
       }
     ]
@@ -138,31 +138,31 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَأَنَّهُ لَمَّا قَامَ عَبْدُ اللَّهِ يَدْعُوهُ كَادُوا يَكُونُونَ عَلَيْهِ لِبَدًا",
-        "ayah_en": "Yet when the servant of Allah stood up calling upon Him ˹alone˺, the pagans almost swarmed over him.",
+        "ayah_en": "Yet when the servant of Allah stood up calling upon Him ˹alone˺ the pagans almost swarmed over him.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072019.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "قُلْ إِنَّمَا أَدْعُو رَبِّي وَلَا أُشْرِكُ بِهِ أَحَدًا",
-        "ayah_en": "Say, ˹O Prophet,˺ “I call only upon my Lord, associating none with Him ˹in worship˺.”",
+        "ayah_en": "Say, ˹O Prophet,˺ \"I call only upon my Lord, associating none with Him ˹in worship˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "قُلْ إِنِّي لَا أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
-        "ayah_en": "Say, “It is not in my power to harm or benefit you.”",
+        "ayah_en": "Say, \"It is not in my power to harm or benefit you.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "قُلْ إِنِّي لَن يُجِيرَنِي مِنَ اللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِ مُلْتَحَدًا",
-        "ayah_en": "Say, “No one can protect me from Allah ˹if I were to disobey Him˺, nor can I find any refuge other than Him.",
+        "ayah_en": "Say, \"No one can protect me from Allah ˹if I were to disobey Him˺ nor can I find any refuge other than Him.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "إِلَّا بَلَاغًا مِّنَ اللَّهِ وَرِسَالَاتِهِ ۚ وَمَن يَعْصِ اللَّهَ وَرَسُولَهُ فَإِنَّ لَهُ نَارَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا",
-        "ayah_en": "˹My duty is˺ only to convey ˹the truth˺ from Allah and ˹deliver˺ His messages.” And whoever disobeys Allah and His Messenger will certainly be in the Fire of Hell, to stay there for ever and ever.",
+        "ayah_en": "˹My duty is˺ only to convey ˹the truth˺ from Allah and ˹deliver˺ His messages, And whoever disobeys Allah and His Messenger, will certainly be in the Fire of Hell, to stay there for ever and ever.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072023.mp3"
       }
     ]
@@ -174,31 +174,31 @@ var chapterData_72 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "حَتَّىٰ إِذَا رَأَوْا مَا يُوعَدُونَ فَسَيَعْلَمُونَ مَنْ أَضْعَفُ نَاصِرًا وَأَقَلُّ عَدَدًا",
-        "ayah_en": "Only when they see what they have been threatened with will they know who is weaker in helpers and inferior in manpower.",
+        "ayah_en": "Only when they see what they have been threatened with, will they know who is weaker in helpers, and inferior in manpower.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "قُلْ إِنْ أَدْرِي أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُ رَبِّي أَمَدًا",
-        "ayah_en": "Say, “I do not know if what you are promised is near or my Lord has set a distant time for it.",
+        "ayah_en": "Say, \"I do not know if what you are promised is near, or my Lord has set a distant time for it.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "عَالِمُ الْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِ أَحَدًا",
-        "ayah_en": "˹He is the˺ Knower of the unseen, disclosing none of it to anyone,",
+        "ayah_en": "˹He is the˺ Knower of the unseen, disclosing none of it to anyone.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "إِلَّا مَنِ ارْتَضَىٰ مِن رَّسُولٍ فَإِنَّهُ يَسْلُكُ مِن بَيْنِ يَدَيْهِ وَمِن خَلْفِهِ رَصَدًا",
-        "ayah_en": "except messengers of His choice. Then He appoints angel-guards before and behind them",
+        "ayah_en": "except messengers of His choice, Then He appoints angel-guards before and behind them.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ ۚ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَيْءٍ عَدَدًا",
-        "ayah_en": "to ensure that the messengers fully deliver the messages of their Lord—though He ˹already˺ knows all about them, and keeps account of everything.”",
+        "ayah_en": "to ensure that the messengers fully deliver the messages of their Lord, though He ˹already˺ knows all about them, and keeps account of everything.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/072028.mp3"
       }
     ]

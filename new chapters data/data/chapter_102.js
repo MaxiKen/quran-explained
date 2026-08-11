@@ -6,7 +6,7 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "أَلْهَاكُمُ التَّكَاثُرُ",
-        "ayah_en": "Competition for more ˹gains˺ diverts you ˹from Allah˺,",
+        "ayah_en": "Competition for more ˹gains˺ diverts you ˹from Allah˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/102001.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
-        "ayah_en": "Indeed, if you were to know ˹your fate˺ with certainty, ˹you would have acted differently˺.",
+        "ayah_en": "Indeed, if you were to know ˹your fate˺ with certainty, ˹you would have acted differently˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/102005.mp3"
       }
     ]
@@ -60,7 +60,7 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
-        "ayah_en": "Again, you will surely see it with the eye of certainty.",
+        "ayah_en": "Again, you will surely see it, with the eye of certainty.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/102007.mp3"
       }
     ]
@@ -72,7 +72,7 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
-        "ayah_en": "Then, on that Day, you will definitely be questioned about ˹your worldly˺ pleasures.",
+        "ayah_en": "Then, on that Day, you will definitely be questioned, about ˹your worldly˺ pleasures.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/102008.mp3"
       }
     ]

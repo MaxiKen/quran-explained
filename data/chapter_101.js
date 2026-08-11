@@ -30,7 +30,7 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
-        "ayah_en": "˹It is˺ the Day people will be like scattered moths.",
+        "ayah_en": "˹It is˺ the Day people will be like scattered moths,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101004.mp3"
       },
       {
@@ -48,7 +48,7 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ",
-        "ayah_en": "So as for those whose scale is heavy ˹with good deeds˺",
+        "ayah_en": "So as for those whose scale is heavy ˹with good deeds˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101006.mp3"
       },
       {
@@ -66,7 +66,7 @@ var chapterData_101 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
-        "ayah_en": "And as for those whose scale is light.",
+        "ayah_en": "And as for those whose scale is light,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/101008.mp3"
       },
       {

@@ -6,7 +6,7 @@ var chapterData_104 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
-        "ayah_en": "Woe to every backbiter, slanderer,",
+        "ayah_en": "Woe, to every backbiter, slanderer.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/104001.mp3"
       }
     ]
@@ -18,7 +18,7 @@ var chapterData_104 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
-        "ayah_en": "who amasses wealth ˹greedily˺ and counts it ˹repeatedly˺,",
+        "ayah_en": "who amasses wealth ˹greedily˺ and counts it ˹repeatedly˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/104002.mp3"
       },
       {
@@ -54,7 +54,7 @@ var chapterData_104 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "نَارُ اللَّهِ الْمُوقَدَةُ",
-        "ayah_en": "˹It is˺ Allah’s kindled Fire,",
+        "ayah_en": "˹It is˺ Allah's kindled Fire.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/104006.mp3"
       },
       {
@@ -72,7 +72,7 @@ var chapterData_104 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
-        "ayah_en": "It will be sealed over them,",
+        "ayah_en": "It will be sealed over them.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/104008.mp3"
       },
       {

@@ -6,7 +6,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "يَا أَيُّهَا النَّبِيُّ إِذَا طَلَّقْتُمُ النِّسَاءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا الْعِدَّةَ وَاتَّقُوا اللَّهَ رَبَّكُمْ لَا تُخْرِجُوهُنَّ مِن بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّا أَن يَأْتِينَ بِفَاحِشَةٍ مُّبَيِّنَةٍ وَتِلْكَ حُدُودُ اللَّهِ وَمَن يَتَعَدَّ حُدُودَ اللَّهِ فَقَدْ ظَلَمَ نَفْسَهُ لَا تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
-        "ayah_en": "O Prophet! ˹Instruct the believers:˺ When you ˹intend to˺ divorce women, then divorce them with concern for their waiting period, and count it accurately. And fear Allah, your Lord. Do not force them out of their homes ˹during the waiting period˺, nor should they leave—unless they commit a blatant misconduct. These are the limits set by Allah. And whoever transgresses Allah’s limits has truly wronged his own soul. You never know, perhaps Allah will bring about a change ˹of heart˺ later.",
+        "ayah_en": "O Prophet! ˹Instruct the believers:˺ When you ˹intend to˺ divorce women, then divorce them with concern for their waiting period, and count it accurately. And fear Allah, your Lord. Do not force them out of their homes ˹during the waiting period˺, nor should they leave—unless they commit a blatant misconduct. These are the limits set by Allah. And whoever transgresses Allah's limits has truly wronged his own soul. You never know, perhaps Allah will bring about a change ˹of heart˺ later.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065001.mp3"
       }
     ]
@@ -18,7 +18,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا ذَوَيْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا الشَّهَادَةَ لِلَّهِ ذَٰلِكُمْ يُوعَظُ بِهِ مَن كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا",
-        "ayah_en": "Then when they have ˹almost˺ reached the end of their waiting period, either retain them honourably or separate from them honourably. And call two of your reliable men to witness ˹either way˺—and ˹let the witnesses˺ bear true testimony for ˹the sake of˺ Allah. This is enjoined on whoever has faith in Allah and the Last Day. And whoever is mindful of Allah, He will make a way out for them,",
+        "ayah_en": "Then when they have ˹almost˺ reached the end of their waiting period, either retain them honourably, or separate from them honourably. And call two of your reliable men to witness ˹either way˺—and ˹let the witnesses˺ bear true testimony for ˹the sake of˺ Allah. This is enjoined on whoever has faith in Allah and the Last Day. And whoever is mindful of Allah, He will make a way out for them.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065002.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "ذَٰلِكَ أَمْرُ اللَّهِ أَنزَلَهُ إِلَيْكُمْ وَمَن يَتَّقِ اللَّهَ يُكَفِّرْ عَنْهُ سَيِّئَاتِهِ وَيُعْظِمْ لَهُ أَجْرًا",
-        "ayah_en": "This is the commandment of Allah, which He has revealed to you. And whoever is mindful of Allah, He will absolve them of their sins and reward them immensely.",
+        "ayah_en": "This is the commandment of Allah, which He has revealed to you. And whoever is mindful of Allah, He will absolve them of their sins, and reward them immensely.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065005.mp3"
       }
     ]
@@ -72,7 +72,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِ فَحَاسَبْنَاهَا حِسَابًا شَدِيدًا وَعَذَّبْنَاهَا عَذَابًا نُّكْرًا",
-        "ayah_en": "˹Imagine˺ how many societies rebelled against the commandments of their Lord and His messengers, so We called each ˹society˺ to a severe account and subjected them to a horrible punishment.",
+        "ayah_en": "˹Imagine˺ how many societies rebelled against the commandments of their Lord and His messengers, so We called each ˹society˺ to a severe account, and subjected them to a horrible punishment.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065008.mp3"
       },
       {
@@ -84,7 +84,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "أَعَدَّ اللَّهُ لَهُمْ عَذَابًا شَدِيدًا فَاتَّقُوا اللَّهَ يَا أُولِي الْأَلْبَابِ الَّذِينَ آمَنُوا قَدْ أَنزَلَ اللَّهُ إِلَيْكُمْ ذِكْرًا",
-        "ayah_en": "Allah has ˹also˺ prepared for them a severe punishment. So fear Allah, O people of reason and faith. Allah has indeed revealed to you a Reminder,",
+        "ayah_en": "Allah has ˹also˺ prepared for them a severe punishment. So fear Allah, O people of reason and faith. Allah has indeed revealed to you a Reminder.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065010.mp3"
       }
     ]
@@ -96,7 +96,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "رَّسُولًا يَتْلُو عَلَيْكُمْ آيَاتِ اللَّهِ مُبَيِّنَاتٍ لِّيُخْرِجَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ مِنَ الظُّلُمَاتِ إِلَى النُّورِ وَمَن يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا يُدْخِلْهُ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا قَدْ أَحْسَنَ اللَّهُ لَهُ رِزْقًا",
-        "ayah_en": "˹and sent˺ a messenger reciting to you Allah’s revelations, making things clear so that He may bring those who believe and do good out of darkness and into light. And whoever believes in Allah and does good will be admitted by Him into Gardens under which rivers flow, to stay there for ever and ever. Allah will have indeed granted them an excellent provision.",
+        "ayah_en": "˹and sent˺ a messenger reciting to you Allah's revelations, making things clear, so that He may bring those who believe and do good out of darkness and into light. And whoever believes in Allah and does good will be admitted by Him into Gardens under which rivers flow, to stay there for ever and ever. Allah will have indeed granted them an excellent provision.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065011.mp3"
       }
     ]
@@ -108,7 +108,7 @@ var chapterData_65 = [
       {
         "ayah_no_surah": 12,
         "ayah_ar": "اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ الْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوا أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا",
-        "ayah_en": "Allah is the One Who created seven heavens ˹in layers˺, and likewise for the earth. The ˹divine˺ command descends between them so you may know that Allah is Most Capable of everything and that Allah certainly encompasses all things in ˹His˺ knowledge.",
+        "ayah_en": "Allah is the One Who created seven heavens ˹in layers˺, and likewise for the earth. The ˹divine˺ command descends between them, so you may know that Allah is Most Capable of everything, and that Allah certainly encompasses all things in ˹His˺ knowledge.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/065012.mp3"
       }
     ]

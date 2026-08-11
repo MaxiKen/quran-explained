@@ -12,7 +12,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَكِتَابٍ مَّسْطُورٍ",
-        "ayah_en": "And by the Book written",
+        "ayah_en": "And by the Book written.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052002.mp3"
       },
       {
@@ -54,7 +54,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "يَوْمَ تَمُورُ السَّمَاءُ مَوْرًا",
-        "ayah_en": "on the Day the heavens will be shaken violently,",
+        "ayah_en": "on the Day the heavens will be shaken violently.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052009.mp3"
       },
       {
@@ -90,7 +90,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "هَٰذِهِ النَّارُ الَّتِي كُنتُم بِهَا تُكَذِّبُونَ",
-        "ayah_en": "˹They will be told,˺ “This is the Fire which you used to deny.",
+        "ayah_en": "˹They will be told,˺ \"This is the Fire which you used to deny.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052014.mp3"
       },
       {
@@ -102,7 +102,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 16,
         "ayah_ar": "اصْلَوْهَا فَاصْبِرُوا أَوْ لَا تَصْبِرُوا سَوَاءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
-        "ayah_en": "Burn in it! It is the same whether you endure ˹it˺ patiently or not. You are only rewarded for what you used to do.”",
+        "ayah_en": "Burn in it! It is the same whether you endure ˹it˺ patiently or not. You are only rewarded for what you used to do.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052016.mp3"
       }
     ]
@@ -114,7 +114,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ وَنَعِيمٍ",
-        "ayah_en": "Indeed, the righteous will be in Gardens and bliss,",
+        "ayah_en": "Indeed, the righteous will be in Gardens and bliss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052017.mp3"
       },
       {
@@ -126,7 +126,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنتُمْ تَعْمَلُونَ",
-        "ayah_en": "˹They will be told,˺ “Eat and drink happily for what you used to do.”",
+        "ayah_en": "˹They will be told,˺ \"Eat and drink happily for what you used to do.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052019.mp3"
       },
       {
@@ -174,19 +174,19 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ",
-        "ayah_en": "They will say, “Before ˹this reward˺ we used to be in awe ˹of Allah˺ in the midst of our people.",
+        "ayah_en": "They will say, \"Before ˹this reward˺ we used to be in awe ˹of Allah˺ in the midst of our people.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "فَمَنَّ اللَّهُ عَلَيْنَا وَوَقَانَا عَذَابَ السَّمُومِ",
-        "ayah_en": "So Allah has graced us and protected us from the torment of ˹Hell’s˺ scorching heat.",
+        "ayah_en": "So Allah has graced us and protected us from the torment of ˹Hell's˺ scorching heat.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُ هُوَ الْبَرُّ الرَّحِيمُ",
-        "ayah_en": "Indeed, we used to call upon Him ˹alone˺ before. He is truly the Most Kind, Most Merciful.”",
+        "ayah_en": "Indeed, we used to call upon Him ˹alone˺ before. He is truly the Most Kind, Most Merciful.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052028.mp3"
       }
     ]
@@ -204,13 +204,13 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 30,
         "ayah_ar": "أَمْ يَقُولُونَ شَاعِرٌ نَّتَرَبَّصُ بِهِ رَيْبَ الْمَنُونِ",
-        "ayah_en": "Or do they say, “˹He is˺ a poet, for whom we ˹eagerly˺ await an ill-fate!”?",
+        "ayah_en": "Or do they say, \"˹He is˺ a poet, for whom we ˹eagerly˺ await an ill-fate!\"?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052030.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "قُلْ تَرَبَّصُوا فَإِنِّي مَعَكُم مِّنَ الْمُتَرَبِّصِينَ",
-        "ayah_en": "Say, “Keep waiting! I too am waiting with you.”",
+        "ayah_en": "Say, \"Keep waiting! I too am waiting with you.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052031.mp3"
       },
       {
@@ -222,7 +222,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 33,
         "ayah_ar": "أَمْ يَقُولُونَ تَقَوَّلَهُ ۚ بَل لَّا يُؤْمِنُونَ",
-        "ayah_en": "Or do they say, “He made this ˹Quran˺ up!”? In fact, they have no faith.",
+        "ayah_en": "Or do they say, \"He made this ˹Quran˺ up!\"? In fact, they have no faith.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052033.mp3"
       },
       {
@@ -300,7 +300,7 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 44,
         "ayah_ar": "وَإِن يَرَوْا كِسْفًا مِّنَ السَّمَاءِ سَاقِطًا يَقُولُوا سَحَابٌ مَّرْكُومٌ",
-        "ayah_en": "If they were to see a ˹deadly˺ piece of the sky fall down ˹upon them˺, still they would say, “˹This is just˺ a pile of clouds.”",
+        "ayah_en": "If they were to see a ˹deadly˺ piece of the sky fall down ˹upon them˺, still they would say, \"˹This is just˺ a pile of clouds.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052044.mp3"
       },
       {
@@ -324,13 +324,13 @@ var chapterData_52 = [
       {
         "ayah_no_surah": 48,
         "ayah_ar": "وَاصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ",
-        "ayah_en": "So be patient with your Lord’s decree, for you are truly under Our ˹watchful˺ Eyes. And glorify the praises of your Lord when you rise.",
+        "ayah_en": "So be patient with your Lord's decree, for you are truly under Our ˹watchful˺ Eyes. And glorify the praises of your Lord when you rise.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052048.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَمِنَ اللَّيْلِ فَسَبِّحْهُ وَإِدْبَارَ النُّجُومِ",
-        "ayah_en": "And glorify Him during part of the night and at the fading of the stars.",
+        "ayah_en": "And glorify Him during part of the night, and at the fading of the stars.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/052049.mp3"
       }
     ]

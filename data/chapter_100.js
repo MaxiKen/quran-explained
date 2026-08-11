@@ -6,25 +6,25 @@ var chapterData_100 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالْعَادِيَاتِ ضَبْحًا",
-        "ayah_en": "By the galloping, panting horses.",
+        "ayah_en": "By the galloping, panting horses,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَالْمُورِيَاتِ قَدْحًا",
-        "ayah_en": "striking sparks of fire ˹with their hoofs˺",
+        "ayah_en": "striking sparks of fire ˹with their hoofs˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "فَالْمُغِيرَاتِ صُبْحًا",
-        "ayah_en": "launching raids at dawn.",
+        "ayah_en": "launching raids at dawn,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "فَأَثَرْنَ بِهِ نَقْعًا",
-        "ayah_en": "stirring up ˹clouds of˺ dust.",
+        "ayah_en": "stirring up ˹clouds of˺ dust,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100004.mp3"
       },
       {
@@ -42,13 +42,13 @@ var chapterData_100 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِنَّ الْإِنسَانَ لِرَبِّهِ لَكَنُودٌ",
-        "ayah_en": "Surely humankind is ungrateful to their Lord.",
+        "ayah_en": "Surely humankind is ungrateful to their Lord—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَإِنَّهُ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
-        "ayah_en": "and they certainly attest to this.",
+        "ayah_en": "and they certainly attest to this—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100007.mp3"
       },
       {
@@ -66,13 +66,13 @@ var chapterData_100 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
-        "ayah_en": "Do they not know that when the contents of the graves will be spilled out.",
+        "ayah_en": "Do they not know that when the contents of the graves will be spilled out,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَحُصِّلَ مَا فِي الصُّدُورِ",
-        "ayah_en": "and the secrets of the hearts will be laid bare.",
+        "ayah_en": "and the secrets of the hearts will be laid bare—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100010.mp3"
       },
       {

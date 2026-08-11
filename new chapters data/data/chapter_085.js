@@ -6,19 +6,19 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
-        "ayah_en": "By the sky full of constellations,",
+        "ayah_en": "By the sky full of constellations.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَالْيَوْمِ الْمَوْعُودِ",
-        "ayah_en": "and the promised Day ˹of Judgment˺,",
+        "ayah_en": "and the promised Day ˹of Judgment˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَشَاهِدٍ وَمَشْهُودٍ",
-        "ayah_en": "and the witness and what is witnessed!",
+        "ayah_en": "and the witness and what is witnessed.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085003.mp3"
       }
     ]
@@ -30,37 +30,37 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
-        "ayah_en": "Condemned are the makers of the ditch—",
+        "ayah_en": "Condemned are the makers of the ditch.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "النَّارِ ذَاتِ الْوَقُودِ",
-        "ayah_en": "the fire ˹pit˺, filled with fuel—",
+        "ayah_en": "the fire ˹pit˺, filled with fuel.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
-        "ayah_en": "when they sat around it,",
+        "ayah_en": "when they sat around it.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ",
-        "ayah_en": "watching what they had ˹ordered to be˺ done to the believers,",
+        "ayah_en": "watching what they had ˹ordered to be˺ done to the believers.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَن يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ",
-        "ayah_en": "who they resented for no reason other than belief in Allah—the Almighty, the Praiseworthy—",
+        "ayah_en": "who they resented for no reason other than belief in Allah, the Almighty, the Praiseworthy.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
-        "ayah_en": "˹the One˺ to Whom belongs the kingdom of the heavens and earth. And Allah is a Witness over all things.",
+        "ayah_en": "˹the One˺ to Whom belongs the kingdom of the heavens and earth, And Allah is a Witness over all things.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085009.mp3"
       }
     ]
@@ -72,13 +72,13 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ",
-        "ayah_en": "Those who persecute the believing men and women and then do not repent will certainly suffer the punishment of Hell and the torment of burning.",
+        "ayah_en": "Those who persecute the believing men and women, and then do not repent, will certainly suffer the punishment of Hell and the torment of burning.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ذَٰلِكَ الْفَوْزُ الْكَبِيرُ",
-        "ayah_en": "Surely those who believe and do good will have Gardens under which rivers flow. That is the greatest triumph.",
+        "ayah_en": "Surely those who believe and do good, will have Gardens under which rivers flow, That is the greatest triumph.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085011.mp3"
       }
     ]
@@ -96,19 +96,19 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
-        "ayah_en": "˹For˺ He is certainly the One Who originates and resurrects ˹all˺.",
+        "ayah_en": "˹For˺ He is certainly the One Who originates and resurrects ˹all˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَهُوَ الْغَفُورُ الْوَدُودُ",
-        "ayah_en": "And He is the All-Forgiving, All-Loving—",
+        "ayah_en": "And He is the All-Forgiving, All-Loving.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085014.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "ذُو الْعَرْشِ الْمَجِيدُ",
-        "ayah_en": "Lord of the Throne, the All-Glorious,",
+        "ayah_en": "Lord of the Throne, the All-Glorious.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085015.mp3"
       },
       {
@@ -126,13 +126,13 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ",
-        "ayah_en": "Has the story of the ˹destroyed˺ forces reached you ˹O Prophet˺—",
+        "ayah_en": "Has the story of the ˹destroyed˺ forces reached you ˹O Prophet˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085017.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "فِرْعَوْنَ وَثَمُودَ",
-        "ayah_en": "˹the forces of˺ Pharaoh and Thamûd?",
+        "ayah_en": "˹the forces of˺ Pharaoh and Thamûd.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085018.mp3"
       },
       {
@@ -156,7 +156,7 @@ var chapterData_85 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "بَلْ هُوَ قُرْآنٌ مَّجِيدٌ",
-        "ayah_en": "In fact, this is a glorious Quran,",
+        "ayah_en": "In fact, this is a glorious Quran.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/085021.mp3"
       },
       {

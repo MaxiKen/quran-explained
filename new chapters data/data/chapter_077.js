@@ -6,31 +6,31 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَالْمُرْسَلَاتِ عُرْفًا",
-        "ayah_en": "By those ˹winds˺ sent forth successively,",
+        "ayah_en": "By those ˹winds˺ sent forth successively.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَالْعَاصِفَاتِ عَصْفًا",
-        "ayah_en": "and those blowing violently,",
+        "ayah_en": "and those blowing violently.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَالنَّاشِرَاتِ نَشْرًا",
-        "ayah_en": "and those scattering ˹rainclouds˺ widely!",
+        "ayah_en": "and those scattering ˹rainclouds˺ widely.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "فَالْفَارِقَاتِ فَرْقًا",
-        "ayah_en": "And ˹by˺ those ˹angels˺ fully distinguishing ˹truth from falsehood˺,",
+        "ayah_en": "And ˹by˺ those ˹angels˺ fully distinguishing ˹truth from falsehood˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَالْمُلْقِيَاتِ ذِكْرًا",
-        "ayah_en": "and those delivering revelation,",
+        "ayah_en": "and those delivering revelation.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077005.mp3"
       },
       {
@@ -54,25 +54,25 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَإِذَا النُّجُومُ طُمِسَتْ",
-        "ayah_en": "So when the stars are put out,",
+        "ayah_en": "So when the stars are put out.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَإِذَا السَّمَاءُ فُرِجَتْ",
-        "ayah_en": "and the sky is torn apart,",
+        "ayah_en": "and the sky is torn apart.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَإِذَا الْجِبَالُ نُسِفَتْ",
-        "ayah_en": "and the mountains are blown away,",
+        "ayah_en": "and the mountains are blown away.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
-        "ayah_en": "and the messengers’ time ˹to testify˺ comes up—",
+        "ayah_en": "and the messengers' time ˹to testify˺ comes up.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077011.mp3"
       },
       {
@@ -132,13 +132,13 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ",
-        "ayah_en": "Did We not create you from a humble fluid,",
+        "ayah_en": "Did We not create you from a humble fluid.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ",
-        "ayah_en": "placing it in a secure place",
+        "ayah_en": "placing it in a secure place.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077021.mp3"
       },
       {
@@ -162,13 +162,13 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 25,
         "ayah_ar": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
-        "ayah_en": "Have We not made the earth a lodging",
+        "ayah_en": "Have We not made the earth a lodging.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "أَحْيَاءً وَأَمْوَاتًا",
-        "ayah_en": "for the living and the dead,",
+        "ayah_en": "for the living and the dead.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077026.mp3"
       },
       {
@@ -192,13 +192,13 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 29,
         "ayah_ar": "انْطَلِقُوا إِلَىٰ مَا كُنْتُمْ بِهِ تُكَذِّبُونَ",
-        "ayah_en": "˹The disbelievers will be told,˺ “Proceed into that ˹Fire˺ which you used to deny!",
+        "ayah_en": "˹The disbelievers will be told,˺ \"Proceed into that ˹Fire˺ which you used to deny!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "انْطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
-        "ayah_en": "Proceed into the shade ˹of smoke˺ which rises in three columns,",
+        "ayah_en": "Proceed into the shade ˹of smoke˺ which rises in three columns.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077030.mp3"
       },
       {
@@ -210,7 +210,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 32,
         "ayah_ar": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
-        "ayah_en": "Indeed, it hurls sparks ˹as big˺ as huge castles,",
+        "ayah_en": "Indeed, it hurls sparks ˹as big˺ as huge castles.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077032.mp3"
       },
       {
@@ -228,7 +228,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 35,
         "ayah_ar": "هَٰذَا يَوْمُ لَا يَنْطِقُونَ",
-        "ayah_en": "On that Day they will not ˹be in a position to˺ speak,",
+        "ayah_en": "On that Day they will not ˹be in a position to˺ speak.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077035.mp3"
       },
       {
@@ -246,13 +246,13 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
-        "ayah_en": "˹They will be told by Allah,˺ “This is the Day of ˹Final˺ Decision: We have gathered you along with earlier disbelievers ˹for punishment˺.",
+        "ayah_en": "˹They will be told by Allah,˺ \"This is the Day of ˹Final˺ Decision: We have gathered you along with earlier disbelievers ˹for punishment˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
-        "ayah_en": "So if you have a scheme ˹to save yourselves˺, then use it against Me.”",
+        "ayah_en": "So if you have a scheme ˹to save yourselves˺, then use it against Me.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077039.mp3"
       },
       {
@@ -270,7 +270,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 41,
         "ayah_ar": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
-        "ayah_en": "Indeed, the righteous will be amid ˹cool˺ shade and springs",
+        "ayah_en": "Indeed, the righteous will be amid ˹cool˺ shade and springs.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077041.mp3"
       },
       {
@@ -282,7 +282,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 43,
         "ayah_ar": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
-        "ayah_en": "˹They will be told,˺ “Eat and drink happily for what you used to do.”",
+        "ayah_en": "˹They will be told,˺ \"Eat and drink happily for what you used to do.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077043.mp3"
       },
       {
@@ -306,7 +306,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 46,
         "ayah_ar": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ",
-        "ayah_en": "“Eat and enjoy yourselves for a little while, ˹for˺ you are truly wicked.”",
+        "ayah_en": "\"Eat and enjoy yourselves for a little while, ˹for˺ you are truly wicked.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077046.mp3"
       },
       {
@@ -318,7 +318,7 @@ var chapterData_77 = [
       {
         "ayah_no_surah": 48,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
-        "ayah_en": "When it is said to them, “Bow down ˹before Allah,” they do not bow.",
+        "ayah_en": "When it is said to them, \"Bow down ˹before Allah,\" they do not bow.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/077048.mp3"
       },
       {

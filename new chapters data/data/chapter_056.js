@@ -6,7 +6,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِذَا وَقَعَتِ الْوَاقِعَةُ",
-        "ayah_en": "When the Inevitable Event takes place,",
+        "ayah_en": "When the Inevitable Event takes place.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056001.mp3"
       },
       {
@@ -18,25 +18,25 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "خَافِضَةٌ رَافِعَةٌ",
-        "ayah_en": "It will debase ˹some˺ and elevate ˹others˺.",
+        "ayah_en": "It will debase ˹some˺ and elevate ˹others˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِذَا رُجَّتِ الْأَرْضُ رَجًّا",
-        "ayah_en": "When the earth will be violently shaken,",
+        "ayah_en": "When the earth will be violently shaken.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَبُسَّتِ الْجِبَالُ بَسًّا",
-        "ayah_en": "and the mountains will be crushed to pieces,",
+        "ayah_en": "and the mountains will be crushed to pieces.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَكَانَتْ هَبَاءً مُنْبَثًّا",
-        "ayah_en": "becoming scattered ˹particles of˺ dust,",
+        "ayah_en": "becoming scattered ˹particles of˺ dust.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056006.mp3"
       }
     ]
@@ -48,25 +48,25 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَكُنْتُمْ أَزْوَاجًا ثَلَاثَةً",
-        "ayah_en": "you will ˹all˺ be ˹divided into˺ three groups:",
+        "ayah_en": "you will ˹all˺ be ˹divided into˺ three groups.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ",
-        "ayah_en": "the people of the right, how ˹blessed˺ will they be;",
+        "ayah_en": "the people of the right, how ˹blessed˺ will they be.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ",
-        "ayah_en": "the people of the left, how ˹miserable˺ will they be;",
+        "ayah_en": "the people of the left, how ˹miserable˺ will they be.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَالسَّابِقُونَ السَّابِقُونَ",
-        "ayah_en": "and the foremost ˹in faith˺ will be the foremost ˹in Paradise˺.",
+        "ayah_en": "and the foremost ˹in faith˺ will be the foremost ˹in Paradise˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056010.mp3"
       }
     ]
@@ -78,7 +78,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "أُولَٰئِكَ الْمُقَرَّبُونَ",
-        "ayah_en": "They are the ones nearest ˹to Allah˺,",
+        "ayah_en": "They are the ones nearest ˹to Allah˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056011.mp3"
       },
       {
@@ -90,7 +90,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "ثُلَّةٌ مِنَ الْأَوَّلِينَ",
-        "ayah_en": "˹They will be˺ a multitude from earlier generations",
+        "ayah_en": "˹They will be˺ a multitude from earlier generations.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056013.mp3"
       },
       {
@@ -108,7 +108,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "عَلَىٰ سُرُرٍ مَوْضُونَةٍ",
-        "ayah_en": "˹All will be˺ on jewelled thrones,",
+        "ayah_en": "˹All will be˺ on jewelled thrones.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056015.mp3"
       },
       {
@@ -120,13 +120,13 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُخَلَّدُونَ",
-        "ayah_en": "They will be waited on by eternal youths",
+        "ayah_en": "They will be waited on by eternal youths.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056017.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِنْ مَعِينٍ",
-        "ayah_en": "with cups, pitchers, and a drink ˹of pure wine˺ from a flowing stream,",
+        "ayah_en": "with cups, pitchers, and a drink ˹of pure wine˺ from a flowing stream.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056018.mp3"
       },
       {
@@ -144,7 +144,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَفَاكِهَةٍ مِمَّا يَتَخَيَّرُونَ",
-        "ayah_en": "˹They will also be served˺ any fruit they choose",
+        "ayah_en": "˹They will also be served˺ any fruit they choose.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056020.mp3"
       },
       {
@@ -156,13 +156,13 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَحُورٌ عِينٌ",
-        "ayah_en": "And ˹they will have˺ maidens with gorgeous eyes,",
+        "ayah_en": "And ˹they will have˺ maidens with gorgeous eyes.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ",
-        "ayah_en": "like pristine pearls,",
+        "ayah_en": "like pristine pearls.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056023.mp3"
       },
       {
@@ -180,7 +180,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 25,
         "ayah_ar": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
-        "ayah_en": "There they will never hear any idle or sinful talk —",
+        "ayah_en": "There they will never hear any idle or sinful talk.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056025.mp3"
       },
       {
@@ -204,37 +204,37 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 28,
         "ayah_ar": "فِي سِدْرٍ مَخْضُودٍ",
-        "ayah_en": "˹They will be˺ amid thornless lote trees,",
+        "ayah_en": "˹They will be˺ amid thornless lote trees.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "وَطَلْحٍ مَنْضُودٍ",
-        "ayah_en": "clusters of bananas,",
+        "ayah_en": "clusters of bananas.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَظِلٍّ مَمْدُودٍ",
-        "ayah_en": "extended shade,",
+        "ayah_en": "extended shade.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056030.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "وَمَاءٍ مَسْكُوبٍ",
-        "ayah_en": "flowing water,",
+        "ayah_en": "flowing water.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "وَفَاكِهَةٍ كَثِيرَةٍ",
-        "ayah_en": "abundant fruit—",
+        "ayah_en": "abundant fruit.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056032.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "لَا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
-        "ayah_en": "never out of season nor forbidden—",
+        "ayah_en": "never out of season nor forbidden.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056033.mp3"
       },
       {
@@ -252,31 +252,31 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 35,
         "ayah_ar": "إِنَّا أَنْشَأْنَاهُنَّ إِنْشَاءً",
-        "ayah_en": "Indeed, We will have perfectly created their mates,",
+        "ayah_en": "Indeed, We will have perfectly created their mates.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056035.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "فَجَعَلْنَاهُنَّ أَبْكَارًا",
-        "ayah_en": "making them virgins,",
+        "ayah_en": "making them virgins.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056036.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "عُرُبًا أَتْرَابًا",
-        "ayah_en": "loving and of equal age,",
+        "ayah_en": "loving and of equal age.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056037.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "لِأَصْحَابِ الْيَمِينِ",
-        "ayah_en": "for the people of the right,",
+        "ayah_en": "for the people of the right.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "ثُلَّةٌ مِنَ الْأَوَّلِينَ",
-        "ayah_en": "˹who will be˺ a multitude from earlier generations",
+        "ayah_en": "˹who will be˺ a multitude from earlier generations.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056039.mp3"
       },
       {
@@ -300,13 +300,13 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 42,
         "ayah_ar": "فِي سَمُومٍ وَحَمِيمٍ",
-        "ayah_en": "˹They will be˺ in scorching heat and boiling water,",
+        "ayah_en": "˹They will be˺ in scorching heat and boiling water.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056042.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "وَظِلٍّ مِنْ يَحْمُومٍ",
-        "ayah_en": "in the shade of black smoke,",
+        "ayah_en": "in the shade of black smoke.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056043.mp3"
       },
       {
@@ -324,7 +324,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 45,
         "ayah_ar": "إِنَّهُمْ كَانُوا قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
-        "ayah_en": "Indeed, before this ˹torment˺ they were spoiled by luxury,",
+        "ayah_en": "Indeed, before this ˹torment˺ they were spoiled by luxury.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056045.mp3"
       },
       {
@@ -336,13 +336,13 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 47,
         "ayah_ar": "وَكَانُوا يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَإِنَّا لَمَبْعُوثُونَ",
-        "ayah_en": "They used to ask ˹mockingly˺, “When we are dead and reduced to dust and bones, will we really be resurrected?",
+        "ayah_en": "They used to ask ˹mockingly˺, \"When we are dead and reduced to dust and bones, will we really be resurrected?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056047.mp3"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "أَوَآبَاؤُنَا الْأَوَّلُونَ",
-        "ayah_en": "And our forefathers as well?”",
+        "ayah_en": "And our forefathers as well?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056048.mp3"
       }
     ]
@@ -354,7 +354,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 49,
         "ayah_ar": "قُلْ إِنَّ الْأَوَّلِينَ وَالْآخِرِينَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “Most certainly, earlier and later generations",
+        "ayah_en": "Say, ˹O Prophet,˺ \"Most certainly, earlier and later generations.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056049.mp3"
       },
       {
@@ -372,13 +372,13 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 51,
         "ayah_ar": "ثُمَّ إِنَّكُمْ أَيُّهَا الضَّالُّونَ الْمُكَذِّبُونَ",
-        "ayah_en": "Then you, O misguided deniers,",
+        "ayah_en": "Then you, O misguided deniers.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056051.mp3"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "لَآكِلُونَ مِنْ شَجَرٍ مِنْ زَقُّومٍ",
-        "ayah_en": "will certainly eat from ˹the fruit of˺ the trees of Zaqqûm,",
+        "ayah_en": "will certainly eat from ˹the fruit of˺ the trees of Zaqqûm.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056052.mp3"
       },
       {
@@ -390,7 +390,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 54,
         "ayah_ar": "فَشَارِبُونَ عَلَيْهِ مِنَ الْحَمِيمِ",
-        "ayah_en": "Then on top of that you will drink boiling water—",
+        "ayah_en": "Then on top of that you will drink boiling water.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056054.mp3"
       },
       {
@@ -432,7 +432,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 60,
         "ayah_ar": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
-        "ayah_en": "We have ordained death for ˹all of˺ you, and We cannot be prevented",
+        "ayah_en": "We have ordained death for ˹all of˺ you, and We cannot be prevented.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056060.mp3"
       },
       {
@@ -468,19 +468,19 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 65,
         "ayah_ar": "لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ",
-        "ayah_en": "If We willed, We could simply reduce this ˹harvest˺ to chaff, leaving you to lament,",
+        "ayah_en": "If We willed, We could simply reduce this ˹harvest˺ to chaff, leaving you to lament.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056065.mp3"
       },
       {
         "ayah_no_surah": 66,
         "ayah_ar": "إِنَّا لَمُغْرَمُونَ",
-        "ayah_en": "“We have truly suffered a ˹great˺ loss.",
+        "ayah_en": "\"We have truly suffered a ˹great˺ loss.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056066.mp3"
       },
       {
         "ayah_no_surah": 67,
         "ayah_ar": "بَلْ نَحْنُ مَحْرُومُونَ",
-        "ayah_en": "In fact, we have been deprived ˹of our livelihood˺.”",
+        "ayah_en": "In fact, we have been deprived ˹of our livelihood˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056067.mp3"
       }
     ]
@@ -546,31 +546,31 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 75,
         "ayah_ar": "فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ",
-        "ayah_en": "So I do swear by the positions of the stars—",
+        "ayah_en": "So I do swear by the positions of the stars.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056075.mp3"
       },
       {
         "ayah_no_surah": 76,
         "ayah_ar": "وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ",
-        "ayah_en": "and this, if only you knew, is indeed a great oath—",
+        "ayah_en": "and this, if only you knew, is indeed a great oath.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056076.mp3"
       },
       {
         "ayah_no_surah": 77,
         "ayah_ar": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
-        "ayah_en": "that this is truly a noble Quran,",
+        "ayah_en": "that this is truly a noble Quran.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056077.mp3"
       },
       {
         "ayah_no_surah": 78,
         "ayah_ar": "فِي كِتَابٍ مَكْنُونٍ",
-        "ayah_en": "in a well-preserved Record,",
+        "ayah_en": "in a well-preserved Record.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056078.mp3"
       },
       {
         "ayah_no_surah": 79,
         "ayah_ar": "لَا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ",
-        "ayah_en": "touched by none except the purified ˹angels˺.",
+        "ayah_en": "touched by none except the purified ˹angels˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056079.mp3"
       },
       {
@@ -588,7 +588,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 81,
         "ayah_ar": "أَفَبِهَٰذَا الْحَدِيثِ أَنْتُمْ مُدْهِنُونَ",
-        "ayah_en": "How can you then take this message lightly,",
+        "ayah_en": "How can you then take this message lightly.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056081.mp3"
       },
       {
@@ -606,7 +606,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 83,
         "ayah_ar": "فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ",
-        "ayah_en": "Why then ˹are you helpless˺ when the soul ˹of a dying person˺ reaches ˹their˺ throat,",
+        "ayah_en": "Why then ˹are you helpless˺ when the soul ˹of a dying person˺ reaches ˹their˺ throat.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056083.mp3"
       },
       {
@@ -624,7 +624,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 86,
         "ayah_ar": "فَلَوْلَا إِنْ كُنْتُمْ غَيْرَ مَدِينِينَ",
-        "ayah_en": "Now, if you are not subject to Our Will ˹as you claim˺,",
+        "ayah_en": "Now, if you are not subject to Our Will ˹as you claim˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056086.mp3"
       },
       {
@@ -642,7 +642,7 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 88,
         "ayah_ar": "فَأَمَّا إِنْ كَانَ مِنَ الْمُقَرَّبِينَ",
-        "ayah_en": "So, if the deceased is one of those brought near ˹to Us˺,",
+        "ayah_en": "So, if the deceased is one of those brought near ˹to Us˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056088.mp3"
       },
       {
@@ -654,19 +654,19 @@ var chapterData_56 = [
       {
         "ayah_no_surah": 90,
         "ayah_ar": "وَأَمَّا إِنْ كَانَ مِنْ أَصْحَابِ الْيَمِينِ",
-        "ayah_en": "And if the deceased is one of the people of the right,",
+        "ayah_en": "And if the deceased is one of the people of the right.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056090.mp3"
       },
       {
         "ayah_no_surah": 91,
         "ayah_ar": "فَسَلَامٌ لَكَ مِنْ أَصْحَابِ الْيَمِينِ",
-        "ayah_en": "then ˹they will be told,˺ “Greetings to you from the people of the right.”",
+        "ayah_en": "then ˹they will be told,˺ \"Greetings to you from the people of the right.\"",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056091.mp3"
       },
       {
         "ayah_no_surah": 92,
         "ayah_ar": "وَأَمَّا إِنْ كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ",
-        "ayah_en": "But if such person is one of the misguided deniers,",
+        "ayah_en": "But if such person is one of the misguided deniers.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/056092.mp3"
       },
       {
