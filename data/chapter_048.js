@@ -12,7 +12,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "لِّيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُّسْتَقِيمًا",
-        "ayah_en": "so that Allah may forgive you for your past and future shortcomings, perfect His favour upon you, guide you along the Straight Path.",
+        "ayah_en": "so that Allah may forgive you for your past and future shortcomings, perfect His favour upon you, guide you along the Straight Path,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048002.mp3"
       },
       {
@@ -24,7 +24,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "هُوَ الَّذِي أَنزَلَ السَّكِينَةَ فِي قُلُوبِ الْمُؤْمِنِينَ لِيَزْدَادُوا إِيمَانًا مَّعَ إِيمَانِهِمْ ۗ وَلِلَّهِ جُنُودُ السَّمَاوَاتِ وَالْأَرْضِ ۚ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
-        "ayah_en": "He is the One Who sent down serenity upon the hearts of the believers, so that they may increase even more in their faith. To Allah ˹alone˺ belong the forces of the heavens and the earth. And Allah is All-Knowing, All-Wise.",
+        "ayah_en": "He is the One Who sent down serenity upon the hearts of the believers so that they may increase even more in their faith. To Allah ˹alone˺ belong the forces of the heavens and the earth. And Allah is All-Knowing, All-Wise.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048004.mp3"
       }
     ]
@@ -42,7 +42,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَيُعَذِّبَ الْمُنَافِقِينَ وَالْمُنَافِقَاتِ وَالْمُشْرِكِينَ وَالْمُشْرِكَاتِ الظَّانِّينَ بِاللَّهِ ظَنَّ السَّوْءِ ۚ عَلَيْهِمْ دَائِرَةُ السَّوْءِ ۖ وَغَضِبَ اللَّهُ عَلَيْهِمْ وَلَعَنَهُمْ وَأَعَدَّ لَهُمْ جَهَنَّمَ ۖ وَسَاءَتْ مَصِيرًا",
-        "ayah_en": "Also ˹so that˺ He may punish hypocrite men and women and polytheistic men and women, who harbour evil thoughts of Allah. May ill-fate befall them! Allah is displeased with them. He has condemned them, and prepared for them Hell. What an evil destination!",
+        "ayah_en": "Also ˹so that˺ He may punish hypocrite men and women and polytheistic men and women, who harbour evil thoughts of Allah. May ill-fate befall them! Allah is displeased with them. He has condemned them and prepared for them Hell. What an evil destination!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048006.mp3"
       },
       {
@@ -60,7 +60,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "إِنَّا أَرْسَلْنَاكَ شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا",
-        "ayah_en": "Indeed, ˹O Prophet,˺ We have sent you as a witness, a deliverer of good news, and a warner.",
+        "ayah_en": "Indeed, ˹O Prophet,˺ We have sent you as a witness, a deliverer of good news, and a warner,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048008.mp3"
       },
       {
@@ -72,7 +72,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "إِنَّ الَّذِينَ يُبَايِعُونَكَ إِنَّمَا يُبَايِعُونَ اللَّهَ يَدُ اللَّهِ فَوْقَ أَيْدِيهِمْ ۚ فَمَن نَّكَثَ فَإِنَّمَا يَنكُثُ عَلَىٰ نَفْسِهِ ۖ وَمَنْ أَوْفَىٰ بِمَا عَاهَدَ عَلَيْهُ اللَّهَ فَسَيُؤْتِيهِ أَجْرًا عَظِيمًا",
-        "ayah_en": "Surely those who pledge allegiance to you ˹O Prophet˺ are actually pledging allegiance to Allah. Allah's Hand is over theirs. Whoever breaks their pledge, it will only be to their own loss. And whoever fulfils their pledge to Allah, He will grant them a great reward.",
+        "ayah_en": "Surely those who pledge allegiance to you ˹O Prophet˺ are actually pledging allegiance to Allah. Allah’s Hand is over theirs. Whoever breaks their pledge, it will only be to their own loss. And whoever fulfils their pledge to Allah, He will grant them a great reward.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048010.mp3"
       }
     ]
@@ -84,13 +84,13 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "سَيَقُولُ لَكَ الْمُخَلَّفُونَ مِنَ الْأَعْرَابِ شَغَلَتْنَا أَمْوَالُنَا وَأَهْلُونَا فَاسْتَغْفِرْ لَنَا ۚ يَقُولُونَ بِأَلْسِنَتِهِم مَّا لَيْسَ فِي قُلُوبِهِمْ ۚ قُلْ فَمَن يَمْلِكُ لَكُم مِّنَ اللَّهِ شَيْئًا إِنْ أَرَادَ بِكُمْ ضَرًّا أَوْ أَرَادَ بِكُمْ نَفْعًا ۚ بَلْ كَانَ اللَّهُ بِمَا تَعْمَلُونَ خَبِيرًا",
-        "ayah_en": "The nomadic Arabs, who stayed behind, will say to you ˹O Prophet˺, \"We were preoccupied with our wealth and families, so ask for forgiveness for us.\"They say with their tongues what is not in their hearts. Say, \"Who then can stand between you and Allah in any way, if He intends harm or benefit for you? In fact, Allah is All-Aware of what you do.",
+        "ayah_en": "The nomadic Arabs, who stayed behind, will say to you ˹O Prophet˺, \"We were preoccupied with our wealth and families, so ask for forgiveness for us.\" They say with their tongues what is not in their hearts. Say, \"Who then can stand between you and Allah in any way, if He intends harm or benefit for you? In fact, Allah is All-Aware of what you do.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ الرَّسُولُ وَالْمُؤْمِنُونَ إِلَىٰ أَهْلِيهِمْ أَبَدًا وَزُيِّنَ ذَٰلِكَ فِي قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ السَّوْءِ وَكُنتُمْ قَوْمًا بُورًا",
-        "ayah_en": "The truth is: you thought that the Messenger and the believers would never return to their families again. And that was made appealing in your hearts. You harboured evil thoughts ˹about Allah˺, and ˹so˺ became a doomed people.\"",
+        "ayah_en": "The truth is: you thought that the Messenger and the believers would never return to their families again. And that was made appealing in your hearts. You harboured evil thoughts ˹about Allah˺, and ˹so˺ became a doomed people.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048012.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "سَيَقُولُ الْمُخَلَّفُونَ إِذَا انطَلَقْتُمْ إِلَىٰ مَغَانِمَ لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا كَلَامَ اللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ اللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ تَحْسُدُونَنَا ۚ بَلْ كَانُوا لَا يَفْقَهُونَ إِلَّا قَلِيلًا",
-        "ayah_en": "Those who stayed behind will say, when you ˹believers˺ set out to take the spoils of war, \"Let us accompany you.\"They wish to change Allah's promise. Say, ˹O Prophet,˺ \"You will not accompany us. This is what Allah has said before.\"They will then say, \"In fact, you are driven by jealousy against us!\"The truth is: they can hardly comprehend.",
+        "ayah_en": "Those who stayed behind will say, when you ˹believers˺ set out to take the spoils of war, \"Let us accompany you.\" They wish to change Allah’s promise. Say, ˹O Prophet,˺ \"You will not accompany us. This is what Allah has said before.\" They will then say, \"In fact, you are driven by jealousy against us!\" The truth is: they can hardly comprehend.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048015.mp3"
       },
       {
@@ -144,7 +144,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 18,
         "ayah_ar": "لَّقَدْ رَضِيَ اللَّهُ عَنِ الْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ الشَّجَرَةِ فَعَلِمَ مَا فِي قُلُوبِهِمْ فَأَنزَلَ السَّكِينَةَ عَلَيْهِمْ وَأَثَابَهُمْ فَتْحًا قَرِيبًا",
-        "ayah_en": "Indeed, Allah was pleased with the believers when they pledged allegiance to you ˹O Prophet˺ under the tree. He knew what was in their hearts, so He sent down serenity upon them, and rewarded them with a victory at hand.",
+        "ayah_en": "Indeed, Allah was pleased with the believers when they pledged allegiance to you ˹O Prophet˺ under the tree. He knew what was in their hearts, so He sent down serenity upon them and rewarded them with a victory at hand,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048018.mp3"
       },
       {
@@ -156,13 +156,13 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَعَدَكُمُ اللَّهُ مَغَانِمَ كَثِيرَةً تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِ وَكَفَّ أَيْدِيَ النَّاسِ عَنكُمْ وَلِتَكُونَ آيَةً لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَاطًا مُّسْتَقِيمًا",
-        "ayah_en": "Allah has promised you ˹believers˺ abundant spoils, which you will gain, so He hastened this ˹truce˺ for you. And He has held people's hands back from ˹harming˺ you, so it may be a sign for the believers, and so He may guide you along the Straight Path.",
+        "ayah_en": "Allah has promised you ˹believers˺ abundant spoils, which you will gain, so He hastened this ˹truce˺ for you. And He has held people’s hands back from ˹harming˺ you, so it may be a sign for the believers, and so He may guide you along the Straight Path.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَأُخْرَىٰ لَمْ تَقْدِرُوا عَلَيْهَا قَدْ أَحَاطَ اللَّهُ بِهَا ۚ وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرًا",
-        "ayah_en": "And ˹there are˺ other gains which are beyond your reach that Allah is keeping in store ˹for you˺. For Allah is Most Capable of everything.",
+        "ayah_en": "And there are other gains which are beyond your reach that Allah is keeping in store for you. For Allah is Most Capable of everything.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048021.mp3"
       }
     ]
@@ -180,7 +180,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "سُنَّةَ اللَّهِ الَّتِي قَدْ خَلَتْ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ اللَّهِ تَبْدِيلًا",
-        "ayah_en": "˹This is˺ Allah's way, already long established ˹in the past˺. And you will find no change in Allah's way.",
+        "ayah_en": "˹This is˺ Allah’s way, already long established ˹in the past˺. And you will find no change in Allah’s way.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048023.mp3"
       }
     ]
@@ -222,7 +222,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "لَّقَدْ صَدَقَ اللَّهُ رَسُولَهُ الرُّؤْيَا بِالْحَقِّ ۖ لَتَدْخُلُنَّ الْمَسْجِدَ الْحَرَامَ إِن شَاءَ اللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًا قَرِيبًا",
-        "ayah_en": "Indeed, Allah will fulfil His Messenger's vision in all truth: Allah willing, you will surely enter the Sacred Mosque, in security—˹some with˺ heads shaved and ˹others with˺ hair shortened—without fear. He knew what you did not know, so He first granted you the triumph at hand.",
+        "ayah_en": "Indeed, Allah will fulfil His Messenger’s vision in all truth: Allah willing, you will surely enter the Sacred Mosque, in security—˹some with˺ heads shaved and ˹others with˺ hair shortened—without fear. He knew what you did not know, so He first granted you the triumph at hand.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048027.mp3"
       },
       {
@@ -240,7 +240,7 @@ var chapterData_48 = [
       {
         "ayah_no_surah": 29,
         "ayah_ar": "مُّحَمَّدٌ رَّسُولُ اللَّهِ ۚ وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ رُحَمَاءُ بَيْنَهُمْ ۖ تَرَاهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا ۖ سِيمَاهُمْ فِي وُجُوهِهِم مِّنْ أَثَرِ السُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِي التَّوْرَاةِ ۚ وَمَثَلُهُمْ فِي الْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْأَهُ فَآزَرَهُ فَاسْتَغْلَظَ فَاسْتَوَىٰ عَلَىٰ سُوقِهِ يُعْجِبُ الزُّرَّاعَ لِيَغِيظَ بِهِمُ الْكُفَّارَ ۗ وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
-        "ayah_en": "Muḥammad is the Messenger of Allah. And those with him are firm with the disbelievers, and compassionate with one another. You see them bowing and prostrating ˹in prayer˺, seeking Allah's bounty and pleasure. The sign ˹of brightness can be seen˺ on their faces from the trace of prostrating ˹in prayer˺. This is their description in the Torah. And their parable in the Gospel is that of a seed that sprouts its ˹tiny˺ branches, making it strong. Then it becomes thick, standing firmly on its stem, to the delight of the planters—in this way Allah makes the believers a source of dismay for the disbelievers. To those of them who believe and do good, Allah has promised forgiveness and a great reward.",
+        "ayah_en": "Muḥammad is the Messenger of Allah. And those with him are firm with the disbelievers and compassionate with one another. You see them bowing and prostrating ˹in prayer˺, seeking Allah’s bounty and pleasure. The sign ˹of brightness can be seen˺ on their faces from the trace of prostrating ˹in prayer˺. This is their description in the Torah. And their parable in the Gospel is that of a seed that sprouts its ˹tiny˺ branches, making it strong. Then it becomes thick, standing firmly on its stem, to the delight of the planters—in this way Allah makes the believers a source of dismay for the disbelievers. To those of them who believe and do good, Allah has promised forgiveness and a great reward.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/048029.mp3"
       }
     ]

@@ -24,13 +24,13 @@ var chapterData_61 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "كَبُرَ مَقْتًا عِندَ اللَّهِ أَن تَقُولُوا مَا لَا تَفْعَلُونَ",
-        "ayah_en": "How despicable it is in the sight of Allah, that you say what you do not do!",
+        "ayah_en": "How despicable it is in the sight of Allah that you say what you do not do!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِي سَبِيلِهِ صَفًّا كَأَنَّهُم بُنْيَانٌ مَّرْصُوصٌ",
-        "ayah_en": "Surely Allah loves those who fight in His cause, in ˹solid˺ ranks as if they were one concrete structure.",
+        "ayah_en": "Surely Allah loves those who fight in His cause in ˹solid˺ ranks as if they were one concrete structure.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061004.mp3"
       }
     ]
@@ -42,7 +42,7 @@ var chapterData_61 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَا قَوْمِ لِمَ تُؤْذُونَنِي وَقَد تَّعْلَمُونَ أَنِّي رَسُولُ اللَّهِ إِلَيْكُمْ ۖ فَلَمَّا زَاغُوا أَزَاغَ اللَّهُ قُلُوبَهُمْ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
-        "ayah_en": "˹Remember, O Prophet,˺ when Moses said to his people, \"O my people! Why do you hurt me when you already know I am Allah's messenger to you?\"So when they ˹persistently˺ deviated, Allah caused their hearts to deviate. For Allah does not guide the rebellious people.",
+        "ayah_en": "˹Remember, O Prophet,˺ when Moses said to his people, “O my people! Why do you hurt me when you already know I am Allah’s messenger to you?” So when they ˹persistently˺ deviated, Allah caused their hearts to deviate. For Allah does not guide the rebellious people.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061005.mp3"
       }
     ]
@@ -54,7 +54,7 @@ var chapterData_61 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَإِذْ قَالَ عِيسَى ابْنُ مَرْيَمَ يَا بَنِي إِسْرَائِيلَ إِنِّي رَسُولُ اللَّهِ إِلَيْكُم مُّصَدِّقًا لِّمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَمُبَشِّرًا بِرَسُولٍ يَأْتِي مِن بَعْدِي اسْمُهُ أَحْمَدُ ۖ فَلَمَّا جَاءَهُم بِالْبَيِّنَاتِ قَالُوا هَٰذَا سِحْرٌ مُّبِينٌ",
-        "ayah_en": "And ˹remember˺ when Jesus, son of Mary, said, \"O children of Israel! I am truly Allah's messenger to you, confirming the Torah which came before me, and giving good news of a messenger after me whose name will be Aḥmad.\"Yet when the Prophet came to them with clear proofs, they said, \"This is pure magic.\"",
+        "ayah_en": "And ˹remember˺ when Jesus, son of Mary, said, “O children of Israel! I am truly Allah’s messenger to you, confirming the Torah which came before me, and giving good news of a messenger after me whose name will be Aḥmad.” Yet when the Prophet came to them with clear proofs, they said, “This is pure magic.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061006.mp3"
       }
     ]
@@ -66,19 +66,19 @@ var chapterData_61 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ الْكَذِبَ وَهُوَ يُدْعَىٰ إِلَى الْإِسْلَامِ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
-        "ayah_en": "Who does more wrong than the one who fabricates lies about Allah, when invited to submit ˹to Him˺? For Allah does not guide the wrongdoing people.",
+        "ayah_en": "Who does more wrong than the one who fabricates lies about Allah when invited to submit ˹to Him˺? For Allah does not guide the wrongdoing people.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "يُرِيدُونَ لِيُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ وَاللَّهُ مُتِمُّ نُورِهِ وَلَوْ كَرِهَ الْكَافِرُونَ",
-        "ayah_en": "They wish to extinguish Allah's light with their mouths, but Allah will ˹certainly˺ perfect His light, even to the dismay of the disbelievers.",
+        "ayah_en": "They wish to extinguish Allah’s light with their mouths, but Allah will ˹certainly˺ perfect His light, even to the dismay of the disbelievers.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "هُوَ الَّذِي أَرْسَلَ رَسُولَهُ بِالْهُدَىٰ وَدِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَلَوْ كَرِهَ الْمُشْرِكُونَ",
-        "ayah_en": "He is the One Who has sent His Messenger with ˹true˺ guidance, and the religion of truth, making it prevail over all others, even to the dismay of the polytheists.",
+        "ayah_en": "He is the One Who has sent His Messenger with ˹true˺ guidance and the religion of truth, making it prevail over all others, even to the dismay of the polytheists.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061009.mp3"
       }
     ]
@@ -120,7 +120,7 @@ var chapterData_61 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا أَنصَارَ اللَّهِ كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّينَ مَنْ أَنصَارِي إِلَى اللَّهِ ۖ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنصَارُ اللَّهِ ۖ فَآمَنَت طَّائِفَةٌ مِّن بَنِي إِسْرَائِيلَ وَكَفَرَت طَّائِفَةٌ ۖ فَأَيَّدْنَا الَّذِينَ آمَنُوا عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا ظَاهِرِينَ",
-        "ayah_en": "O believers! Stand up for Allah, as Jesus, son of Mary, asked the disciples, \"Who will stand up with me for Allah?\"The disciples replied, \"We will stand up for Allah.\"Then a group from the Children of Israel believed while another disbelieved. We then supported the believers against their enemies, so they prevailed.",
+        "ayah_en": "O believers! Stand up for Allah, as Jesus, son of Mary, asked the disciples, “Who will stand up with me for Allah?” The disciples replied, “We will stand up for Allah.” Then a group from the Children of Israel believed while another disbelieved. We then supported the believers against their enemies, so they prevailed.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/061014.mp3"
       }
     ]

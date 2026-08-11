@@ -6,7 +6,7 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
-        "ayah_en": "Indeed, it is We Who sent this Quran down, on the Night of Glory.",
+        "ayah_en": "Indeed, ˹it is˺ We ˹Who˺ sent this ˹Quran˺ down on the Night of Glory.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/097001.mp3"
       }
     ]
@@ -36,7 +36,7 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
-        "ayah_en": "That night the angels and the holy spirit descend, by the permission of their Lord, for every decreed matter.",
+        "ayah_en": "That night the angels and the ˹holy˺ spirit descend, by the permission of their Lord, for every ˹decreed˺ matter.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/097004.mp3"
       }
     ]
@@ -48,7 +48,7 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
-        "ayah_en": "It is all peace, until the break of dawn.",
+        "ayah_en": "It is all peace until the break of dawn.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/097005.mp3"
       }
     ]

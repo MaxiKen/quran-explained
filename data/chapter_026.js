@@ -18,7 +18,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "لَعَلَّكَ بَاخِعٌ نَّفْسَكَ أَلَّا يَكُونُوا مُؤْمِنِينَ",
-        "ayah_en": "Perhaps you ˹O Prophet˺ will grieve yourself to death, over their disbelief.",
+        "ayah_en": "Perhaps you ˹O Prophet˺ will grieve yourself to death over their disbelief.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026003.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "فَقَدْ كَذَّبُوا فَسَيَأْتِيهِمْ أَنبَاءُ مَا كَانُوا بِهِ يَسْتَهْزِئُونَ",
-        "ayah_en": "They have certainly denied ˹the truth˺ so they will soon face the consequences of their ridicule.",
+        "ayah_en": "They have certainly denied ˹the truth˺, so they will soon face the consequences of their ridicule.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026006.mp3"
       }
     ]
@@ -54,13 +54,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "أَوَلَمْ يَرَوْا إِلَى الْأَرْضِ كَمْ أَنبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
-        "ayah_en": "Have they failed to look at the earth, ˹to see˺ how many types of fine plants We have caused to grow in it.",
+        "ayah_en": "Have they failed to look at the earth, ˹to see˺ how many types of fine plants We have caused to grow in it?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026008.mp3"
       },
       {
@@ -78,25 +78,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰ أَنِ ائْتِ الْقَوْمَ الظَّالِمِينَ",
-        "ayah_en": "˹Remember˺ when your Lord called out to Moses, \"Go to the wrongdoing people—",
+        "ayah_en": "˹Remember˺ when your Lord called out to Moses, “Go to the wrongdoing people—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "قَوْمَ فِرْعَوْنَ ۚ أَلَا يَتَّقُونَ",
-        "ayah_en": "the people of Pharaoh, Will they not fear ˹Allah˺?",
+        "ayah_en": "the people of Pharaoh. Will they not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "قَالَ رَبِّ إِنِّي أَخَافُ أَن يُكَذِّبُونِ",
-        "ayah_en": "He replied, \"My Lord! I fear that they will reject me.",
+        "ayah_en": "He replied, “My Lord! I fear that they will reject me.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026012.mp3"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَيَضِيقُ صَدْرِي وَلَا يَنطَلِقُ لِسَانِي فَأَرْسِلْ إِلَىٰ هَارُونَ",
-        "ayah_en": "And ˹so˺ my heart will be broken, and my tongue will be tied, So send Aaron along ˹as a messenger˺",
+        "ayah_en": "And ˹so˺ my heart will be broken and my tongue will be tied. So send Aaron along ˹as a messenger˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026013.mp3"
       },
       {
@@ -108,19 +108,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "قَالَ كَلَّا ۖ فَاذْهَبَا بِآيَاتِنَا ۖ إِنَّا مَعَكُم مُّسْتَمِعُونَ",
-        "ayah_en": "Allah responded, \"Certainly not! So go, both of you, with Our signs, We will be with you, listening.",
+        "ayah_en": "Allah responded, “Certainly not! So go, both of you, with Our signs. We will be with you, listening.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026015.mp3"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "فَأْتِيَا فِرْعَوْنَ فَقُولَا إِنَّا رَسُولُ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "Go to Pharaoh and say, 'We are messengers from the Lord of all worlds.",
+        "ayah_en": "Go to Pharaoh and say, ‘We are messengers from the Lord of all worlds,’",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026016.mp3"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "أَنْ أَرْسِلْ مَعَنَا بَنِي إِسْرَائِيلَ",
-        "ayah_en": "˹commanded to say:˺ 'Let the Children of Israel go with us.'\"",
+        "ayah_en": "˹commanded to say:˺ ‘Let the Children of Israel go with us.’”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026017.mp3"
       }
     ]
@@ -132,67 +132,67 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 18,
         "ayah_ar": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
-        "ayah_en": "Pharaoh protested, \"Did we not raise you among us as a child, and you stayed several years of your life in our care?",
+        "ayah_en": "Pharaoh protested, “Did we not raise you among us as a child, and you stayed several years of your life in our care?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026018.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَفَعَلْتَ فَعْلَتَكَ الَّتِي فَعَلْتَ وَأَنتَ مِنَ الْكَافِرِينَ",
-        "ayah_en": "Then you did what you did, being ˹utterly˺ ungrateful!",
+        "ayah_en": "Then you did what you did, being ˹utterly˺ ungrateful!”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026019.mp3"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "قَالَ فَعَلْتُهَا إِذًا وَأَنَا مِنَ الضَّالِّينَ",
-        "ayah_en": "Moses replied, \"I did it then, lacking guidance.",
+        "ayah_en": "Moses replied, “I did it then, lacking guidance.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَفَرَرْتُ مِنكُمْ لَمَّا خِفْتُكُمْ فَوَهَبَ لِي رَبِّي حُكْمًا وَجَعَلَنِي مِنَ الْمُرْسَلِينَ",
-        "ayah_en": "So I fled from you when I feared you, Then my Lord granted me wisdom, and made me one of the messengers.",
+        "ayah_en": "So I fled from you when I feared you. Then my Lord granted me wisdom and made me one of the messengers.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَتِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَيَّ أَنْ عَبَّدتَّ بَنِي إِسْرَائِيلَ",
-        "ayah_en": "How can that be a 'favour,' of which you remind me, when ˹it was only because˺ you ˹have˺ enslaved the Children of Israel?",
+        "ayah_en": "How can that be a ‘favour,’ of which you remind me, when ˹it was only because˺ you ˹have˺ enslaved the Children of Israel?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "قَالَ فِرْعَوْنُ وَمَا رَبُّ الْعَالَمِينَ",
-        "ayah_en": "Pharaoh asked, \"And what is 'the Lord of all worlds'?\"",
+        "ayah_en": "Pharaoh asked, “And what is ‘the Lord of all worlds’?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026023.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "قَالَ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا ۖ إِن كُنتُم مُّوقِنِينَ",
-        "ayah_en": "Moses replied, \"˹He is˺ the Lord of the heavens and the earth and everything in between, if only you had sure faith.",
+        "ayah_en": "Moses replied, “˹He is˺ the Lord of the heavens and the earth and everything in between, if only you had sure faith.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "قَالَ لِمَنْ حَوْلَهُ أَلَا تَسْتَمِعُونَ",
-        "ayah_en": "Pharaoh said to those around him, \"Did you hear ˹what he said˺?\"",
+        "ayah_en": "Pharaoh said to those around him, “Did you hear ˹what he said˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "قَالَ رَبُّكُمْ وَرَبُّ آبَائِكُمُ الْأَوَّلِينَ",
-        "ayah_en": "Moses added, \"˹He is˺ your Lord and the Lord of your forefathers\"",
+        "ayah_en": "Moses added, “˹He is˺ your Lord and the Lord of your forefathers.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "قَالَ إِنَّ رَسُولَكُمُ الَّذِي أُرْسِلَ إِلَيْكُمْ لَمَجْنُونٌ",
-        "ayah_en": "Pharaoh said ˹mockingly˺, \"Your messenger, who has been sent to you, must be insane\"",
+        "ayah_en": "Pharaoh said ˹mockingly˺, “Your messenger, who has been sent to you, must be insane.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "قَالَ رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ وَمَا بَيْنَهُمَا ۖ إِن كُنتُمْ تَعْقِلُونَ",
-        "ayah_en": "Moses responded: \"˹He is˺ the Lord of the east and west, and everything in between, if only you had any sense\"",
+        "ayah_en": "Moses responded: “˹He is˺ the Lord of the east and west, and everything in between, if only you had any sense.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026028.mp3"
       }
     ]
@@ -204,25 +204,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 29,
         "ayah_ar": "قَالَ لَئِنِ اتَّخَذْتَ إِلَٰهًا غَيْرِي لَأَجْعَلَنَّكَ مِنَ الْمَسْجُونِينَ",
-        "ayah_en": "Pharaoh threatened, \"If you take any other god besides me, I will certainly have you imprisoned\"",
+        "ayah_en": "Pharaoh threatened, “If you take any other god besides me, I will certainly have you imprisoned.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "قَالَ أَوَلَوْ جِئْتُكَ بِشَيْءٍ مُّبِينٍ",
-        "ayah_en": "Moses responded, \"Even if I bring you a clear proof?\"",
+        "ayah_en": "Moses responded, “Even if I bring you a clear proof?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026030.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "قَالَ فَأْتِ بِهِ إِن كُنتَ مِنَ الصَّادِقِينَ",
-        "ayah_en": "Pharaoh demanded, \"Bring it then, if what you say is true\"",
+        "ayah_en": "Pharaoh demanded, “Bring it then, if what you say is true.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ",
-        "ayah_en": "So he threw down his staff, and—behold!—it became a real snake.",
+        "ayah_en": "So he threw down his staff and—behold!—it became a real snake.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026032.mp3"
       },
       {
@@ -240,25 +240,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 34,
         "ayah_ar": "قَالَ لِلْمَلَإِ حَوْلَهُ إِنَّ هَٰذَا لَسَاحِرٌ عَلِيمٌ",
-        "ayah_en": "Pharaoh said to the chiefs around him, \"He is indeed a skilled magician.",
+        "ayah_en": "Pharaoh said to the chiefs around him, “He is indeed a skilled magician,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026034.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "يُرِيدُ أَن يُخْرِجَكُم مِّنْ أَرْضِكُم بِسِحْرِهِ فَمَاذَا تَأْمُرُونَ",
-        "ayah_en": "who seeks to drive you from your land by his magic, So what do you propose?",
+        "ayah_en": "who seeks to drive you from your land by his magic. So what do you propose?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026035.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "قَالُوا أَرْجِهْ وَأَخَاهُ وَابْعَثْ فِي الْمَدَائِنِ حَاشِرِينَ",
-        "ayah_en": "They replied, \"Let him and his brother wait, and dispatch mobilizers to all cities.",
+        "ayah_en": "They replied, “Let him and his brother wait and dispatch mobilizers to all cities,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026036.mp3"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "يَأْتُوكَ بِكُلِّ سَحَّارٍ عَلِيمٍ",
-        "ayah_en": "to bring you every skilled magician.",
+        "ayah_en": "to bring you every skilled magician.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026037.mp3"
       }
     ]
@@ -276,13 +276,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 39,
         "ayah_ar": "وَقِيلَ لِلنَّاسِ هَلْ أَنتُم مُّجْتَمِعُونَ",
-        "ayah_en": "And the people were asked, \"Will you join the gathering.",
+        "ayah_en": "And the people were asked, “Will you join the gathering,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "لَعَلَّنَا نَتَّبِعُ السَّحَرَةَ إِن كَانُوا هُمُ الْغَالِبِينَ",
-        "ayah_en": "so that we may follow the magicians if they prevail?\"",
+        "ayah_en": "so that we may follow the magicians if they prevail?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026040.mp3"
       }
     ]
@@ -294,25 +294,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 41,
         "ayah_ar": "فَلَمَّا جَاءَ السَّحَرَةُ قَالُوا لِفِرْعَوْنَ أَئِنَّ لَنَا لَأَجْرًا إِن كُنَّا نَحْنُ الْغَالِبِينَ",
-        "ayah_en": "When the magicians came, they asked Pharaoh, \"Shall we have a ˹suitable˺ reward if we prevail?\"",
+        "ayah_en": "When the magicians came, they asked Pharaoh, “Shall we have a ˹suitable˺ reward if we prevail?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026041.mp3"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "قَالَ نَعَمْ وَإِنَّكُمْ إِذًا لَّمِنَ الْمُقَرَّبِينَ",
-        "ayah_en": "He replied, \"Yes, and you will then certainly be among those closest to me\"",
+        "ayah_en": "He replied, “Yes, and you will then certainly be among those closest to me.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026042.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "قَالَ لَهُم مُّوسَىٰ أَلْقُوا مَا أَنتُم مُّلْقُونَ",
-        "ayah_en": "Moses said to them, \"Cast whatever you wish to cast\"",
+        "ayah_en": "Moses said to them, “Cast whatever you wish to cast.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026043.mp3"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "فَأَلْقَوْا حِبَالَهُمْ وَعِصِيَّهُمْ وَقَالُوا بِعِزَّةِ فِرْعَوْنَ إِنَّا لَنَحْنُ الْغَالِبُونَ",
-        "ayah_en": "So they cast down their ropes and staffs, saying, \"By Pharaoh's might, it is we who will surely prevail\"",
+        "ayah_en": "So they cast down their ropes and staffs, saying, “By Pharaoh’s might, it is we who will surely prevail.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026044.mp3"
       },
       {
@@ -336,31 +336,31 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 47,
         "ayah_ar": "قَالُوا آمَنَّا بِرَبِّ الْعَالَمِينَ",
-        "ayah_en": "They declared, \"We ˹now˺ believe in the Lord of all worlds—",
+        "ayah_en": "They declared, “We ˹now˺ believe in the Lord of all worlds—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026047.mp3"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "رَبِّ مُوسَىٰ وَهَارُونَ",
-        "ayah_en": "the Lord of Moses and Aaron\"",
+        "ayah_en": "the Lord of Moses and Aaron.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026048.mp3"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "قَالَ آمَنتُمْ لَهُ قَبْلَ أَنْ آذَنَ لَكُمْ إِنَّهُ لَكَبِيرُكُمُ الَّذِي عَلَّمَكُمُ السِّحْرَ فَلَسَوْفَ تَعْلَمُونَ",
-        "ayah_en": "Pharaoh threatened, How dare you believe in him before I give you permission? He must be your master who taught you magic, but soon you will see.",
+        "ayah_en": "Pharaoh threatened, “How dare you believe in him before I give you permission? He must be your master who taught you magic, but soon you will see. I will certainly cut off your hands and feet on opposite sides, then crucify you all.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026049.mp3"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "قَالُوا لَا ضَيْرَ ۖ إِنَّا إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
-        "ayah_en": "They responded, \"˹That would be˺ no harm! Surely to our Lord we will ˹all˺ return.",
+        "ayah_en": "They responded, “˹That would be˺ no harm! Surely to our Lord we will ˹all˺ return.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026050.mp3"
       },
       {
         "ayah_no_surah": 51,
         "ayah_ar": "إِنَّا نَطْمَعُ أَن يَغْفِرَ لَنَا رَبُّنَا خَطَايَانَا أَن كُنَّا أَوَّلَ الْمُؤْمِنِينَ",
-        "ayah_en": "We really hope that our Lord will forgive our sins, as we are the first to believe.",
+        "ayah_en": "We really hope that our Lord will forgive our sins, as we are the first to believe.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026051.mp3"
       }
     ]
@@ -372,37 +372,37 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 52,
         "ayah_ar": "وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ أَسْرِ بِعِبَادِي إِنَّكُم مُّتَّبَعُونَ",
-        "ayah_en": "And We inspired Moses, ˹saying,˺ \"Leave with My servants at night, for you will surely be pursued\"",
+        "ayah_en": "And We inspired Moses, ˹saying,˺ “Leave with My servants at night, for you will surely be pursued.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026052.mp3"
       },
       {
         "ayah_no_surah": 53,
         "ayah_ar": "فَأَرْسَلَ فِرْعَوْنُ فِي الْمَدَائِنِ حَاشِرِينَ",
-        "ayah_en": "Then Pharaoh sent mobilizers to all cities.",
+        "ayah_en": "Then Pharaoh sent mobilizers to all cities,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026053.mp3"
       },
       {
         "ayah_no_surah": 54,
         "ayah_ar": "إِنَّ هَٰؤُلَاءِ لَشِرْذِمَةٌ قَلِيلُونَ",
-        "ayah_en": "˹and said,˺ \"These ˹outcasts˺ are just a handful of people.",
+        "ayah_en": "˹and said,˺ “These ˹outcasts˺ are just a handful of people,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026054.mp3"
       },
       {
         "ayah_no_surah": 55,
         "ayah_ar": "وَإِنَّهُمْ لَنَا لَغَائِظُونَ",
-        "ayah_en": "who have really enraged us.",
+        "ayah_en": "who have really enraged us,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026055.mp3"
       },
       {
         "ayah_no_surah": 56,
         "ayah_ar": "وَإِنَّا لَجَمِيعٌ حَاذِرُونَ",
-        "ayah_en": "but we are all on the alert\"",
+        "ayah_en": "but we are all on the alert.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026056.mp3"
       },
       {
         "ayah_no_surah": 57,
         "ayah_ar": "فَأَخْرَجْنَاهُم مِّن جَنَّاتٍ وَعُيُونٍ",
-        "ayah_en": "So We lured the tyrants out of ˹their˺ gardens, springs.",
+        "ayah_en": "So We lured the tyrants out of ˹their˺ gardens, springs,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026057.mp3"
       },
       {
@@ -432,25 +432,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 61,
         "ayah_ar": "فَلَمَّا تَرَاءَى الْجَمْعَانِ قَالَ أَصْحَابُ مُوسَىٰ إِنَّا لَمُدْرَكُونَ",
-        "ayah_en": "When the two groups came face to face, the companions of Moses cried out, \"We are overtaken for sure\"",
+        "ayah_en": "When the two groups came face to face, the companions of Moses cried out, “We are overtaken for sure.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026061.mp3"
       },
       {
         "ayah_no_surah": 62,
         "ayah_ar": "قَالَ كَلَّا ۖ إِنَّ مَعِيَ رَبِّي سَيَهْدِينِ",
-        "ayah_en": "Moses reassured ˹them˺, \"Absolutely not! My Lord is certainly with me—He will guide me\"",
+        "ayah_en": "Moses reassured ˹them˺, “Absolutely not! My Lord is certainly with me—He will guide me.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026062.mp3"
       },
       {
         "ayah_no_surah": 63,
         "ayah_ar": "فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب بِّعَصَاكَ الْبَحْرَ ۖ فَانفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ",
-        "ayah_en": "So We inspired Moses: \"Strike the sea with your staff,\"and the sea was split, each part was like a huge mountain.",
+        "ayah_en": "So We inspired Moses: “Strike the sea with your staff,” and the sea was split, each part was like a huge mountain.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026063.mp3"
       },
       {
         "ayah_no_surah": 64,
         "ayah_ar": "وَأَزْلَفْنَا ثَمَّ الْآخَرِينَ",
-        "ayah_en": "We drew the pursuers to that place.",
+        "ayah_en": "We drew the pursuers to that place,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026064.mp3"
       },
       {
@@ -468,7 +468,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 67,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026067.mp3"
       },
       {
@@ -486,49 +486,49 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 69,
         "ayah_ar": "وَاتْلُ عَلَيْهِمْ نَبَأَ إِبْرَاهِيمَ",
-        "ayah_en": "Relate to them ˹O Prophet˺ the story of Abraham.",
+        "ayah_en": "Relate to them ˹O Prophet˺ the story of Abraham,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026069.mp3"
       },
       {
         "ayah_no_surah": 70,
         "ayah_ar": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِ مَا تَعْبُدُونَ",
-        "ayah_en": "when he questioned his father and his people, \"What is that you worship ˹besides Allah˺?\"",
+        "ayah_en": "when he questioned his father and his people, “What is that you worship ˹besides Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026070.mp3"
       },
       {
         "ayah_no_surah": 71,
         "ayah_ar": "قَالُوا نَعْبُدُ أَصْنَامًا فَنَظَلُّ لَهَا عَاكِفِينَ",
-        "ayah_en": "They replied, \"We worship idols, to which we are fully devoted\"",
+        "ayah_en": "They replied, “We worship idols, to which we are fully devoted.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026071.mp3"
       },
       {
         "ayah_no_surah": 72,
         "ayah_ar": "قَالَ هَلْ يَسْمَعُونَكُمْ إِذْ تَدْعُونَ",
-        "ayah_en": "Abraham asked, \"Can they hear you when you call upon them?",
+        "ayah_en": "Abraham asked, “Can they hear you when you call upon them?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026072.mp3"
       },
       {
         "ayah_no_surah": 73,
         "ayah_ar": "أَوْ يَنفَعُونَكُمْ أَوْ يَضُرُّونَ",
-        "ayah_en": "Or can they benefit or harm you?\"",
+        "ayah_en": "Or can they benefit or harm you?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026073.mp3"
       },
       {
         "ayah_no_surah": 74,
         "ayah_ar": "قَالُوا بَلْ وَجَدْنَا آبَاءَنَا كَذَٰلِكَ يَفْعَلُونَ",
-        "ayah_en": "They replied, \"No! But we found our forefathers doing the same\"",
+        "ayah_en": "They replied, “No! But we found our forefathers doing the same.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026074.mp3"
       },
       {
         "ayah_no_surah": 75,
         "ayah_ar": "قَالَ أَفَرَأَيْتُم مَّا كُنتُمْ تَعْبُدُونَ",
-        "ayah_en": "Abraham responded, \"Have you ˹really˺ considered what you have been worshipping—",
+        "ayah_en": "Abraham responded, “Have you ˹really˺ considered what you have been worshipping—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026075.mp3"
       },
       {
         "ayah_no_surah": 76,
         "ayah_ar": "أَنتُمْ وَآبَاؤُكُمُ الْأَقْدَمُونَ",
-        "ayah_en": "you and your ancestors?",
+        "ayah_en": "you and your ancestors?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026076.mp3"
       },
       {
@@ -570,7 +570,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 82,
         "ayah_ar": "وَالَّذِي أَطْمَعُ أَن يَغْفِرَ لِي خَطِيئَتِي يَوْمَ الدِّينِ",
-        "ayah_en": "And He is ˹the One˺ Who, I hope, will forgive my flaws on Judgment Day\"",
+        "ayah_en": "And He is ˹the One˺ Who, I hope, will forgive my flaws on Judgment Day.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026082.mp3"
       }
     ]
@@ -582,7 +582,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 83,
         "ayah_ar": "رَبِّ هَبْ لِي حُكْمًا وَأَلْحِقْنِي بِالصَّالِحِينَ",
-        "ayah_en": "\"My Lord! Grant me wisdom, and join me with the righteous.",
+        "ayah_en": "“My Lord! Grant me wisdom, and join me with the righteous.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026083.mp3"
       },
       {
@@ -618,7 +618,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 89,
         "ayah_ar": "إِلَّا مَنْ أَتَى اللَّهَ بِقَلْبٍ سَلِيمٍ",
-        "ayah_en": "Only those who come before Allah with a pure heart ˹will be saved˺\"",
+        "ayah_en": "Only those who come before Allah with a pure heart ˹will be saved˺.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026089.mp3"
       }
     ]
@@ -630,7 +630,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 90,
         "ayah_ar": "وَأُزْلِفَتِ الْجَنَّةُ لِلْمُتَّقِينَ",
-        "ayah_en": "˹On that Day˺ Paradise will be brought near to the God-fearing.",
+        "ayah_en": "˹On that Day˺ Paradise will be brought near to the God-fearing,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026090.mp3"
       },
       {
@@ -642,19 +642,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 92,
         "ayah_ar": "وَقِيلَ لَهُمْ أَيْنَ مَا كُنتُمْ تَعْبُدُونَ",
-        "ayah_en": "And it will be said to them, \"Where are those you used to worship.",
+        "ayah_en": "And it will be said to them, “Where are those you used to worship",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026092.mp3"
       },
       {
         "ayah_no_surah": 93,
         "ayah_ar": "مِن دُونِ اللَّهِ هَلْ يَنصُرُونَكُمْ أَوْ يَنتَصِرُونَ",
-        "ayah_en": "besides Allah? Can they help you or even help themselves?\"",
+        "ayah_en": "besides Allah? Can they help you or even help themselves?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026093.mp3"
       },
       {
         "ayah_no_surah": 94,
         "ayah_ar": "فَكُبْكِبُوا فِيهَا هُمْ وَالْغَاوُونَ",
-        "ayah_en": "Then the idols will be hurled headlong into Hell, along with the deviant.",
+        "ayah_en": "Then the idols will be hurled headlong into Hell, along with the deviant",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026094.mp3"
       },
       {
@@ -672,31 +672,31 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 96,
         "ayah_ar": "قَالُوا وَهُمْ فِيهَا يَخْتَصِمُونَ",
-        "ayah_en": "There the deviant will cry while disputing with their idols.",
+        "ayah_en": "There the deviant will cry while disputing with their idols,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026096.mp3"
       },
       {
         "ayah_no_surah": 97,
         "ayah_ar": "تَاللَّهِ إِن كُنَّا لَفِي ضَلَالٍ مُّبِينٍ",
-        "ayah_en": "\"By Allah! We were clearly mistaken.",
+        "ayah_en": "“By Allah! We were clearly mistaken,”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026097.mp3"
       },
       {
         "ayah_no_surah": 98,
         "ayah_ar": "إِذْ نُسَوِّيكُم بِرَبِّ الْعَالَمِينَ",
-        "ayah_en": "when we made you equal to the Lord of all worlds.",
+        "ayah_en": "when we made you equal to the Lord of all worlds.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026098.mp3"
       },
       {
         "ayah_no_surah": 99,
         "ayah_ar": "وَمَا أَضَلَّنَا إِلَّا الْمُجْرِمُونَ",
-        "ayah_en": "And none led us astray other than the wicked.",
+        "ayah_en": "And none led us astray other than the wicked.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026099.mp3"
       },
       {
         "ayah_no_surah": 100,
         "ayah_ar": "فَمَا لَنَا مِن شَافِعِينَ",
-        "ayah_en": "Now we have none to intercede for us.",
+        "ayah_en": "Now we have none to intercede for us,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026100.mp3"
       },
       {
@@ -708,13 +708,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 102,
         "ayah_ar": "فَلَوْ أَنَّ لَنَا كَرَّةً فَنَكُونَ مِنَ الْمُؤْمِنِينَ",
-        "ayah_en": "If only we could have a second chance, then we would be believers\"",
+        "ayah_en": "If only we could have a second chance, then we would be believers.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026102.mp3"
       },
       {
         "ayah_no_surah": 103,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026103.mp3"
       },
       {
@@ -732,13 +732,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 105,
         "ayah_ar": "كَذَّبَتْ قَوْمُ نُوحٍ الْمُرْسَلِينَ",
-        "ayah_en": "The people of Noah rejected the messengers.",
+        "ayah_en": "The people of Noah rejected the messengers",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026105.mp3"
       },
       {
         "ayah_no_surah": 106,
         "ayah_ar": "إِذْ قَالَ لَهُمْ أَخُوهُمْ نُوحٌ أَلَا تَتَّقُونَ",
-        "ayah_en": "when their brother Noah said to them, \"Will you not fear ˹Allah˺?\"",
+        "ayah_en": "when their brother Noah said to them, “Will you not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026106.mp3"
       },
       {
@@ -756,13 +756,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 109,
         "ayah_ar": "وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِيَ إِلَّا عَلَىٰ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "I do not ask you for any reward for this ˹message˺ My reward is only from the Lord of all worlds.",
+        "ayah_en": "I do not ask you for any reward for this ˹message˺. My reward is only from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026109.mp3"
       },
       {
         "ayah_no_surah": 110,
         "ayah_ar": "فَاتَّقُوا اللَّهَ وَأَطِيعُونِ",
-        "ayah_en": "So fear Allah, and obey me\"",
+        "ayah_en": "So fear Allah, and obey me.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026110.mp3"
       }
     ]
@@ -774,13 +774,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 111,
         "ayah_ar": "قَالُوا أَنُؤْمِنُ لَكَ وَاتَّبَعَكَ الْأَرْذَلُونَ",
-        "ayah_en": "They argued, \"How can we believe in you, when you are followed ˹only˺ by the lowest of the low?\"",
+        "ayah_en": "They argued, “How can we believe in you, when you are followed ˹only˺ by the lowest of the low?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026111.mp3"
       },
       {
         "ayah_no_surah": 112,
         "ayah_ar": "قَالَ وَمَا عِلْمِي بِمَا كَانُوا يَعْمَلُونَ",
-        "ayah_en": "He responded, \"And what knowledge do I have of what they do?",
+        "ayah_en": "He responded, “And what knowledge do I have of what they do?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026112.mp3"
       },
       {
@@ -798,7 +798,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 115,
         "ayah_ar": "إِنْ أَنَا إِلَّا نَذِيرٌ مُّبِينٌ",
-        "ayah_en": "I am only sent with a clear warning\"",
+        "ayah_en": "I am only sent with a clear warning.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026115.mp3"
       }
     ]
@@ -810,19 +810,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 116,
         "ayah_ar": "قَالُوا لَئِن لَّمْ تَنتَهِ يَا نُوحُ لَتَكُونَنَّ مِنَ الْمَرْجُومِينَ",
-        "ayah_en": "They threatened, \"If you do not desist, O Noah, you will surely be stoned ˹to death˺\"",
+        "ayah_en": "They threatened, “If you do not desist, O Noah, you will surely be stoned ˹to death˺.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026116.mp3"
       },
       {
         "ayah_no_surah": 117,
         "ayah_ar": "قَالَ رَبِّ إِنَّ قَوْمِي كَذَّبُونِ",
-        "ayah_en": "Noah prayed, \"My Lord! My people have truly rejected me.",
+        "ayah_en": "Noah prayed, “My Lord! My people have truly rejected me.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026117.mp3"
       },
       {
         "ayah_no_surah": 118,
         "ayah_ar": "فَافْتَحْ بَيْنِي وَبَيْنَهُمْ فَتْحًا وَنَجِّنِي وَمَن مَّعِيَ مِنَ الْمُؤْمِنِينَ",
-        "ayah_en": "So judge between me and them decisively, and save me and the believers with me\"",
+        "ayah_en": "So judge between me and them decisively, and save me and the believers with me.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026118.mp3"
       },
       {
@@ -840,7 +840,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 121,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026121.mp3"
       },
       {
@@ -858,13 +858,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 123,
         "ayah_ar": "كَذَّبَتْ عَادٌ الْمُرْسَلِينَ",
-        "ayah_en": "The people of 'Âd rejected the messengers.",
+        "ayah_en": "The people of ’Âd rejected the messengers",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026123.mp3"
       },
       {
         "ayah_no_surah": 124,
         "ayah_ar": "إِذْ قَالَ لَهُمْ أَخُوهُمْ هُودٌ أَلَا تَتَّقُونَ",
-        "ayah_en": "when their brother Hûd said to them, \"Will you not fear ˹Allah˺?\"",
+        "ayah_en": "when their brother Hûd said to them, “Will you not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026124.mp3"
       },
       {
@@ -882,7 +882,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 127,
         "ayah_ar": "وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِيَ إِلَّا عَلَىٰ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "I do not ask you for any reward for this ˹message˺ My reward is only from the Lord of all worlds.",
+        "ayah_en": "I do not ask you for any reward for this ˹message˺. My reward is only from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026127.mp3"
       }
     ]
@@ -894,13 +894,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 128,
         "ayah_ar": "أَتَبْنُونَ بِكُلِّ رِيعٍ آيَةً تَعْبَثُونَ",
-        "ayah_en": "˹Why˺ do you build a landmark on every high place in vanity.",
+        "ayah_en": "˹Why˺ do you build a landmark on every high place in vanity,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026128.mp3"
       },
       {
         "ayah_no_surah": 129,
         "ayah_ar": "وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ",
-        "ayah_en": "and construct castles, as if you are going to live forever.",
+        "ayah_en": "and construct castles, as if you are going to live forever,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026129.mp3"
       },
       {
@@ -924,13 +924,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 132,
         "ayah_ar": "وَاتَّقُوا الَّذِي أَمَدَّكُم بِمَا تَعْلَمُونَ",
-        "ayah_en": "Fear the One Who has provided you with ˹the good˺ things you know.",
+        "ayah_en": "Fear the One Who has provided you with ˹the good˺ things you know:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026132.mp3"
       },
       {
         "ayah_no_surah": 133,
         "ayah_ar": "أَمَدَّكُم بِأَنْعَامٍ وَبَنِينَ",
-        "ayah_en": "He provided you with cattle, and children.",
+        "ayah_en": "He provided you with cattle, and children,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026133.mp3"
       },
       {
@@ -942,7 +942,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 135,
         "ayah_ar": "إِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
-        "ayah_en": "I truly fear for you the torment of a tremendous day\"",
+        "ayah_en": "I truly fear for you the torment of a tremendous day.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026135.mp3"
       }
     ]
@@ -954,7 +954,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 136,
         "ayah_ar": "قَالُوا سَوَاءٌ عَلَيْنَا أَوَعَظْتَ أَمْ لَمْ تَكُن مِّنَ الْوَاعِظِينَ",
-        "ayah_en": "They responded, \"It is all the same to us whether you warn ˹us˺ or not.",
+        "ayah_en": "They responded, “It is all the same to us whether you warn ˹us˺ or not.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026136.mp3"
       },
       {
@@ -966,13 +966,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 138,
         "ayah_ar": "وَمَا نَحْنُ بِمُعَذَّبِينَ",
-        "ayah_en": "And we will never be punished\"",
+        "ayah_en": "And we will never be punished.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026138.mp3"
       },
       {
         "ayah_no_surah": 139,
         "ayah_ar": "فَكَذَّبُوهُ فَأَهْلَكْنَاهُمْ ۗ إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "So they rejected him, and ˹so˺ We destroyed them, Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "So they rejected him, and ˹so˺ We destroyed them. Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026139.mp3"
       },
       {
@@ -990,13 +990,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 141,
         "ayah_ar": "كَذَّبَتْ ثَمُودُ الْمُرْسَلِينَ",
-        "ayah_en": "The people of Thamûd rejected the messengers.",
+        "ayah_en": "The people of Thamûd rejected the messengers",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026141.mp3"
       },
       {
         "ayah_no_surah": 142,
         "ayah_ar": "إِذْ قَالَ لَهُمْ أَخُوهُمْ صَالِحٌ أَلَا تَتَّقُونَ",
-        "ayah_en": "when their brother Ṣâliḥ said to them, \"Will you not fear ˹Allah˺?\"",
+        "ayah_en": "when their brother Ṣâliḥ said to them, “Will you not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026142.mp3"
       },
       {
@@ -1014,7 +1014,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 145,
         "ayah_ar": "وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِيَ إِلَّا عَلَىٰ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "I do not ask you for any reward for this ˹message˺ My reward is only from the Lord of all worlds.",
+        "ayah_en": "I do not ask you for any reward for this ˹message˺. My reward is only from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026145.mp3"
       }
     ]
@@ -1026,19 +1026,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 146,
         "ayah_ar": "أَتُتْرَكُونَ فِي مَا هَاهُنَا آمِنِينَ",
-        "ayah_en": "Do you think you will be ˹forever˺ left secure in what you have here.",
+        "ayah_en": "Do you think you will be ˹forever˺ left secure in what you have here:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026146.mp3"
       },
       {
         "ayah_no_surah": 147,
         "ayah_ar": "فِي جَنَّاتٍ وَعُيُونٍ",
-        "ayah_en": "amid gardens and springs.",
+        "ayah_en": "amid gardens and springs,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026147.mp3"
       },
       {
         "ayah_no_surah": 148,
         "ayah_ar": "وَزُرُوعٍ وَنَخْلٍ طَلْعُهَا هَضِيمٌ",
-        "ayah_en": "and ˹various˺ crops, and palm trees ˹loaded˺ with tender fruit.",
+        "ayah_en": "and ˹various˺ crops, and palm trees ˹loaded˺ with tender fruit;",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026148.mp3"
       },
       {
@@ -1056,13 +1056,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 151,
         "ayah_ar": "وَلَا تُطِيعُوا أَمْرَ الْمُسْرِفِينَ",
-        "ayah_en": "And do not follow the command of the transgressors.",
+        "ayah_en": "And do not follow the command of the transgressors,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026151.mp3"
       },
       {
         "ayah_no_surah": 152,
         "ayah_ar": "الَّذِينَ يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ",
-        "ayah_en": "who spread corruption throughout the land, never setting things right\"",
+        "ayah_en": "who spread corruption throughout the land, never setting things right.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026152.mp3"
       }
     ]
@@ -1074,25 +1074,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 153,
         "ayah_ar": "قَالُوا إِنَّمَا أَنتَ مِنَ الْمُسَحَّرِينَ",
-        "ayah_en": "They replied, \"You are simply bewitched!",
+        "ayah_en": "They replied, “You are simply bewitched!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026153.mp3"
       },
       {
         "ayah_no_surah": 154,
         "ayah_ar": "مَا أَنتَ إِلَّا بَشَرٌ مِّثْلُنَا فَأْتِ بِآيَةٍ إِن كُنتَ مِنَ الصَّادِقِينَ",
-        "ayah_en": "You are only a human being like us, so bring forth a sign if what you say is true\"",
+        "ayah_en": "You are only a human being like us, so bring forth a sign if what you say is true.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026154.mp3"
       },
       {
         "ayah_no_surah": 155,
         "ayah_ar": "قَالَ هَٰذِهِ نَاقَةٌ لَّهَا شِرْبٌ وَلَكُمْ شِرْبُ يَوْمٍ مَّعْلُومٍ",
-        "ayah_en": "Ṣâliḥ said, \"Here is a camel, She will have her turn to drink as you have yours, each on an appointed day.",
+        "ayah_en": "Ṣâliḥ said, “Here is a camel. She will have her turn to drink as you have yours, each on an appointed day.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026155.mp3"
       },
       {
         "ayah_no_surah": 156,
         "ayah_ar": "وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍ",
-        "ayah_en": "And do not ever touch her with harm, or you will be overtaken by the torment of a tremendous day\"",
+        "ayah_en": "And do not ever touch her with harm, or you will be overtaken by the torment of a tremendous day.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026156.mp3"
       }
     ]
@@ -1110,7 +1110,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 158,
         "ayah_ar": "فَأَخَذَهُمُ الْعَذَابُ ۗ إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "So the punishment overtook them, Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "So the punishment overtook them. Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026158.mp3"
       },
       {
@@ -1128,13 +1128,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 160,
         "ayah_ar": "كَذَّبَتْ قَوْمُ لُوطٍ الْمُرْسَلِينَ",
-        "ayah_en": "The people of Lot rejected the messengers.",
+        "ayah_en": "The people of Lot rejected the messengers",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026160.mp3"
       },
       {
         "ayah_no_surah": 161,
         "ayah_ar": "إِذْ قَالَ لَهُمْ أَخُوهُمْ لُوطٌ أَلَا تَتَّقُونَ",
-        "ayah_en": "when their brother Lot said to them, \"Will you not fear ˹Allah˺?\"",
+        "ayah_en": "when their brother Lot said to them, “Will you not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026161.mp3"
       },
       {
@@ -1152,7 +1152,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 164,
         "ayah_ar": "وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِيَ إِلَّا عَلَىٰ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "I do not ask you for any reward for this ˹message˺ My reward is only from the Lord of all worlds.",
+        "ayah_en": "I do not ask you for any reward for this ˹message˺. My reward is only from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026164.mp3"
       }
     ]
@@ -1164,13 +1164,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 165,
         "ayah_ar": "أَتَأْتُونَ الذُّكْرَانَ مِنَ الْعَالَمِينَ",
-        "ayah_en": "Why do you ˹men˺ lust after fellow men.",
+        "ayah_en": "Why do you ˹men˺ lust after fellow men,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026165.mp3"
       },
       {
         "ayah_no_surah": 166,
         "ayah_ar": "وَتَذَرُونَ مَا خَلَقَ لَكُمْ رَبُّكُم مِّنْ أَزْوَاجِكُم ۚ بَلْ أَنتُمْ قَوْمٌ عَادُونَ",
-        "ayah_en": "leaving the wives that your Lord has created for you? In fact, you are a transgressing people\"",
+        "ayah_en": "leaving the wives that your Lord has created for you? In fact, you are a transgressing people.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026166.mp3"
       }
     ]
@@ -1182,19 +1182,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 167,
         "ayah_ar": "قَالُوا لَئِن لَّمْ تَنتَهِ يَا لُوطُ لَتَكُونَنَّ مِنَ الْمُخْرَجِينَ",
-        "ayah_en": "They threatened, \"If you do not desist, O Lot, you will surely be expelled\"",
+        "ayah_en": "They threatened, “If you do not desist, O Lot, you will surely be expelled.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026167.mp3"
       },
       {
         "ayah_no_surah": 168,
         "ayah_ar": "قَالَ إِنِّي لِعَمَلِكُم مِّنَ الْقَالِينَ",
-        "ayah_en": "Lot responded, \"I am truly one of those who despise your ˹shameful˺ practice.",
+        "ayah_en": "Lot responded, “I am truly one of those who despise your ˹shameful˺ practice.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026168.mp3"
       },
       {
         "ayah_no_surah": 169,
         "ayah_ar": "رَبِّ نَجِّنِي وَأَهْلِي مِمَّا يَعْمَلُونَ",
-        "ayah_en": "My Lord! Save me and my family from ˹the consequences of˺ what they do\"",
+        "ayah_en": "My Lord! Save me and my family from ˹the consequences of˺ what they do.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026169.mp3"
       }
     ]
@@ -1206,7 +1206,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 170,
         "ayah_ar": "فَنَجَّيْنَاهُ وَأَهْلَهُ أَجْمَعِينَ",
-        "ayah_en": "So We saved him and all of his family.",
+        "ayah_en": "So We saved him and all of his family,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026170.mp3"
       },
       {
@@ -1218,19 +1218,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 172,
         "ayah_ar": "ثُمَّ دَمَّرْنَا الْآخَرِينَ",
-        "ayah_en": "Then We utterly destroyed the rest.",
+        "ayah_en": "Then We utterly destroyed the rest,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026172.mp3"
       },
       {
         "ayah_no_surah": 173,
         "ayah_ar": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَسَاءَ مَطَرُ الْمُنذَرِينَ",
-        "ayah_en": "pouring upon them a rain ˹of brimstone˺ How evil was the rain of those who had been warned!",
+        "ayah_en": "pouring upon them a rain ˹of brimstone˺. How evil was the rain of those who had been warned!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026173.mp3"
       },
       {
         "ayah_no_surah": 174,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026174.mp3"
       },
       {
@@ -1248,13 +1248,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 176,
         "ayah_ar": "كَذَّبَ أَصْحَابُ الْأَيْكَةِ الْمُرْسَلِينَ",
-        "ayah_en": "The residents of the Forest rejected the messengers.",
+        "ayah_en": "The residents of the Forest rejected the messengers",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026176.mp3"
       },
       {
         "ayah_no_surah": 177,
         "ayah_ar": "إِذْ قَالَ لَهُمْ شُعَيْبٌ أَلَا تَتَّقُونَ",
-        "ayah_en": "when Shu'aib said to them, \"Will you not fear ˹Allah˺?\"",
+        "ayah_en": "when Shu’aib said to them, “Will you not fear ˹Allah˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026177.mp3"
       },
       {
@@ -1272,7 +1272,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 180,
         "ayah_ar": "وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِيَ إِلَّا عَلَىٰ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "I do not ask you for any reward for this ˹message˺ My reward is only from the Lord of all worlds.",
+        "ayah_en": "I do not ask you for any reward for this ˹message˺. My reward is only from the Lord of all worlds.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026180.mp3"
       }
     ]
@@ -1284,25 +1284,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 181,
         "ayah_ar": "أَوْفُوا الْكَيْلَ وَلَا تَكُونُوا مِنَ الْمُخْسِرِينَ",
-        "ayah_en": "Give full measure, and cause no loss ˹to others˺",
+        "ayah_en": "Give full measure, and cause no loss ˹to others˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026181.mp3"
       },
       {
         "ayah_no_surah": 182,
         "ayah_ar": "وَزِنُوا بِالْقِسْطَاسِ الْمُسْتَقِيمِ",
-        "ayah_en": "Weigh with an even balance.",
+        "ayah_en": "Weigh with an even balance,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026182.mp3"
       },
       {
         "ayah_no_surah": 183,
         "ayah_ar": "وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ",
-        "ayah_en": "and do not defraud people of their property, Nor go about spreading corruption in the land.",
+        "ayah_en": "and do not defraud people of their property. Nor go about spreading corruption in the land.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026183.mp3"
       },
       {
         "ayah_no_surah": 184,
         "ayah_ar": "وَاتَّقُوا الَّذِي خَلَقَكُمْ وَالْجِبِلَّةَ الْأَوَّلِينَ",
-        "ayah_en": "And fear the One Who created you and ˹all˺ earlier peoples\"",
+        "ayah_en": "And fear the One Who created you and ˹all˺ earlier peoples.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026184.mp3"
       }
     ]
@@ -1314,7 +1314,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 185,
         "ayah_ar": "قَالُوا إِنَّمَا أَنتَ مِنَ الْمُسَحَّرِينَ",
-        "ayah_en": "They replied, \"You are simply bewitched!",
+        "ayah_en": "They replied, “You are simply bewitched!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026185.mp3"
       },
       {
@@ -1326,25 +1326,25 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 187,
         "ayah_ar": "فَأَسْقِطْ عَلَيْنَا كِسَفًا مِّنَ السَّمَاءِ إِن كُنتَ مِنَ الصَّادِقِينَ",
-        "ayah_en": "So cause ˹deadly˺ pieces of the sky to fall upon us, if what you say is true\"",
+        "ayah_en": "So cause ˹deadly˺ pieces of the sky to fall upon us, if what you say is true.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026187.mp3"
       },
       {
         "ayah_no_surah": 188,
         "ayah_ar": "قَالَ رَبِّي أَعْلَمُ بِمَا تَعْمَلُونَ",
-        "ayah_en": "Shu'aib responded, \"My Lord knows best whatever you do\"",
+        "ayah_en": "Shu’aib responded, “My Lord knows best whatever you do.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026188.mp3"
       },
       {
         "ayah_no_surah": 189,
         "ayah_ar": "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ الظُّلَّةِ ۚ إِنَّهُ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ",
-        "ayah_en": "So they rejected him, and ˹so˺ were overtaken by the torment of the day of the ˹deadly˺ cloud, That was really a torment of a tremendous day.",
+        "ayah_en": "So they rejected him, and ˹so˺ were overtaken by the torment of the day of the ˹deadly˺ cloud. That was really a torment of a tremendous day.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026189.mp3"
       },
       {
         "ayah_no_surah": 190,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَآيَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
-        "ayah_en": "Surely in this is a sign, Yet most of them would not believe.",
+        "ayah_en": "Surely in this is a sign. Yet most of them would not believe.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026190.mp3"
       },
       {
@@ -1362,13 +1362,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 192,
         "ayah_ar": "وَإِنَّهُ لَتَنزِيلُ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "This is certainly a revelation from the Lord of all worlds.",
+        "ayah_en": "This is certainly a revelation from the Lord of all worlds,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026192.mp3"
       },
       {
         "ayah_no_surah": 193,
         "ayah_ar": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ",
-        "ayah_en": "which the trustworthy spirit ˹Gabriel˺ brought down.",
+        "ayah_en": "which the trustworthy spirit ˹Gabriel˺ brought down",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026193.mp3"
       },
       {
@@ -1404,7 +1404,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 198,
         "ayah_ar": "وَلَوْ نَزَّلْنَاهُ عَلَىٰ بَعْضِ الْأَعْجَمِينَ",
-        "ayah_en": "Had We revealed it to a non-Arab.",
+        "ayah_en": "Had We revealed it to a non-Arab,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026198.mp3"
       },
       {
@@ -1422,19 +1422,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 201,
         "ayah_ar": "لَا يُؤْمِنُونَ بِهِ حَتَّىٰ يَرَوُا الْعَذَابَ الْأَلِيمَ",
-        "ayah_en": "They will not believe in it until they see the painful punishment.",
+        "ayah_en": "They will not believe in it until they see the painful punishment,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026201.mp3"
       },
       {
         "ayah_no_surah": 202,
         "ayah_ar": "فَيَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
-        "ayah_en": "which will take them by surprise when they least expect ˹it˺",
+        "ayah_en": "which will take them by surprise when they least expect ˹it˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026202.mp3"
       },
       {
         "ayah_no_surah": 203,
         "ayah_ar": "فَيَقُولُوا هَلْ نَحْنُ مُنظَرُونَ",
-        "ayah_en": "Then they will cry, \"Can we be allowed more time?\"",
+        "ayah_en": "Then they will cry, “Can we be allowed more time?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026203.mp3"
       }
     ]
@@ -1452,13 +1452,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 205,
         "ayah_ar": "أَفَرَأَيْتَ إِن مَّتَّعْنَاهُمْ سِنِينَ",
-        "ayah_en": "Imagine ˹O Prophet˺ if We allowed them enjoyment for years.",
+        "ayah_en": "Imagine ˹O Prophet˺ if We allowed them enjoyment for years,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026205.mp3"
       },
       {
         "ayah_no_surah": 206,
         "ayah_ar": "ثُمَّ جَاءَهُم مَّا كَانُوا يُوعَدُونَ",
-        "ayah_en": "then there came to them what they had been threatened with.",
+        "ayah_en": "then there came to them what they had been threatened with:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026206.mp3"
       },
       {
@@ -1470,13 +1470,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 208,
         "ayah_ar": "وَمَا أَهْلَكْنَا مِن قَرْيَةٍ إِلَّا لَهَا مُنذِرُونَ",
-        "ayah_en": "We have never destroyed a society without warners.",
+        "ayah_en": "We have never destroyed a society without warners",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026208.mp3"
       },
       {
         "ayah_no_surah": 209,
         "ayah_ar": "ذِكْرَىٰ وَمَا كُنَّا ظَالِمِينَ",
-        "ayah_en": "to remind ˹them˺ for We would never wrong ˹anyone˺",
+        "ayah_en": "to remind ˹them˺, for We would never wrong ˹anyone˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026209.mp3"
       }
     ]
@@ -1488,19 +1488,19 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 210,
         "ayah_ar": "وَمَا تَنَزَّلَتْ بِهِ الشَّيَاطِينُ",
-        "ayah_en": "It was not the devils who brought this ˹Quran˺ down.",
+        "ayah_en": "It was not the devils who brought this ˹Quran˺ down:",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026210.mp3"
       },
       {
         "ayah_no_surah": 211,
         "ayah_ar": "وَمَا يَنبَغِي لَهُمْ وَمَا يَسْتَطِيعُونَ",
-        "ayah_en": "it is not for them ˹to do so˺, nor can they.",
+        "ayah_en": "it is not for them ˹to do so˺, nor can they,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026211.mp3"
       },
       {
         "ayah_no_surah": 212,
         "ayah_ar": "إِنَّهُمْ عَنِ السَّمْعِ لَمَعْزُولُونَ",
-        "ayah_en": "for they are strictly barred from ˹even˺ overhearing ˹it˺",
+        "ayah_en": "for they are strictly barred from ˹even˺ overhearing ˹it˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026212.mp3"
       }
     ]
@@ -1518,7 +1518,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 214,
         "ayah_ar": "وَأَنذِرْ عَشِيرَتَكَ الْأَقْرَبِينَ",
-        "ayah_en": "And warn ˹all, starting with˺ your closest relatives.",
+        "ayah_en": "And warn ˹all, starting with˺ your closest relatives,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026214.mp3"
       },
       {
@@ -1530,7 +1530,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 216,
         "ayah_ar": "فَإِنْ عَصَوْكَ فَقُلْ إِنِّي بَرِيءٌ مِّمَّا تَعْمَلُونَ",
-        "ayah_en": "But if they disobey you, say, \"I am certainly free of what you do\"",
+        "ayah_en": "But if they disobey you, say, “I am certainly free of what you do.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026216.mp3"
       }
     ]
@@ -1542,13 +1542,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 217,
         "ayah_ar": "وَتَوَكَّلْ عَلَى الْعَزِيزِ الرَّحِيمِ",
-        "ayah_en": "Put your trust in the Almighty, Most Merciful.",
+        "ayah_en": "Put your trust in the Almighty, Most Merciful,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026217.mp3"
       },
       {
         "ayah_no_surah": 218,
         "ayah_ar": "الَّذِي يَرَاكَ حِينَ تَقُومُ",
-        "ayah_en": "Who sees you when you rise ˹for prayer at night˺",
+        "ayah_en": "Who sees you when you rise ˹for prayer at night˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026218.mp3"
       },
       {
@@ -1578,13 +1578,13 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 222,
         "ayah_ar": "تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍ",
-        "ayah_en": "They descend upon every sinful liar.",
+        "ayah_en": "They descend upon every sinful liar,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026222.mp3"
       },
       {
         "ayah_no_surah": 223,
         "ayah_ar": "يُلْقُونَ السَّمْعَ وَأَكْثَرُهُمْ كَاذِبُونَ",
-        "ayah_en": "who gives an ˹attentive˺ ear ˹to half-truths˺ mostly passing on sheer lies.",
+        "ayah_en": "who gives an ˹attentive˺ ear ˹to half-truths˺, mostly passing on sheer lies.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026223.mp3"
       }
     ]
@@ -1602,7 +1602,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 225,
         "ayah_ar": "أَلَمْ تَرَ أَنَّهُمْ فِي كُلِّ وَادٍ يَهِيمُونَ",
-        "ayah_en": "Do you not see how they rant in every field.",
+        "ayah_en": "Do you not see how they rant in every field,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026225.mp3"
       },
       {
@@ -1614,7 +1614,7 @@ var chapterData_26 = [
       {
         "ayah_no_surah": 227,
         "ayah_ar": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَذَكَرُوا اللَّهَ كَثِيرًا وَانتَصَرُوا مِن بَعْدِ مَا ظُلِمُوا ۗ وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أَيَّ مُنقَلَبٍ يَنقَلِبُونَ",
-        "ayah_en": "Except those who believe, do good, remember Allah often, and ˹poetically˺ avenge ˹the believers˺ after being wrongfully slandered, The wrongdoers will come to know what ˹evil˺ end they will meet.",
+        "ayah_en": "Except those who believe, do good, remember Allah often, and ˹poetically˺ avenge ˹the believers˺ after being wrongfully slandered. The wrongdoers will come to know what ˹evil˺ end they will meet.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/026227.mp3"
       }
     ]

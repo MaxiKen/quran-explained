@@ -6,7 +6,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "ن ۚ وَالْقَلَمِ وَمَا يَسْطُرُونَ",
-        "ayah_en": "Nũn. By the pen, and what everyone writes!",
+        "ayah_en": "Nũn. By the pen and what everyone writes!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068001.mp3"
       },
       {
@@ -30,7 +30,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَسَتُبْصِرُ وَيُبْصِرُونَ",
-        "ayah_en": "Soon you and the pagans will see.",
+        "ayah_en": "Soon you and the pagans will see,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068005.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِ وَهُوَ أَعْلَمُ بِالْمُهْتَدِينَ",
-        "ayah_en": "Surely your Lord ˹alone˺ knows best who has strayed from His Way, and who is ˹rightly˺ guided.",
+        "ayah_en": "Surely your Lord ˹alone˺ knows best who has strayed from His Way and who is ˹rightly˺ guided.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068007.mp3"
       }
     ]
@@ -66,19 +66,19 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَّهِينٍ",
-        "ayah_en": "And do not obey the despicable, vain oath-taker.",
+        "ayah_en": "And do not obey the despicable, vain oath-taker,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "هَمَّازٍ مَّشَّاءٍ بِنَمِيمٍ",
-        "ayah_en": "slanderer, gossip-monger.",
+        "ayah_en": "slanderer, gossip-monger,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068011.mp3"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
-        "ayah_en": "withholder of good, transgressor, evildoer.",
+        "ayah_en": "withholder of good, transgressor, evildoer,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068012.mp3"
       },
       {
@@ -90,13 +90,13 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "أَن كَانَ ذَا مَالٍ وَبَنِينَ",
-        "ayah_en": "Now, ˹simply˺ because he has been blessed with ˹abundant˺ wealth and children.",
+        "ayah_en": "Now, ˹simply˺ because he has been blessed with ˹abundant˺ wealth and children,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068014.mp3"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ أَسَاطِيرُ الْأَوَّلِينَ",
-        "ayah_en": "whenever Our revelations are recited to him, he says, \"Ancient fables!\"",
+        "ayah_en": "whenever Our revelations are recited to him, he says, “Ancient fables!”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068015.mp3"
       },
       {
@@ -114,19 +114,19 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "إِنَّا بَلَوْنَاهُمْ كَمَا بَلَوْنَا أَصْحَابَ الْجَنَّةِ إِذْ أَقْسَمُوا لَيَصْرِمُنَّهَا مُصْبِحِينَ",
-        "ayah_en": "Indeed, We have tested those ˹Meccans˺ as We tested the owners of the garden—when they swore they would surely harvest ˹all˺ its fruit in the early morning.",
+        "ayah_en": "Indeed, We have tested those ˹Meccans˺ as We tested the owners of the garden—when they swore they would surely harvest ˹all˺ its fruit in the early morning,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068017.mp3"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَلَا يَسْتَثْنُونَ",
-        "ayah_en": "leaving no thought for Allah's Will.",
+        "ayah_en": "leaving no thought for Allah’s Will.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068018.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "فَطَافَ عَلَيْهَا طَائِفٌ مِّن رَّبِّكَ وَهُمْ نَائِمُونَ",
-        "ayah_en": "Then it was struck by a torment from your Lord while they slept.",
+        "ayah_en": "Then it was struck by a torment from your Lord while they slept,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068019.mp3"
       },
       {
@@ -138,25 +138,25 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَتَنَادَوْا مُصْبِحِينَ",
-        "ayah_en": "Then by daybreak they called out to each other.",
+        "ayah_en": "Then by daybreak they called out to each other,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "أَنِ اغْدُوا عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَارِمِينَ",
-        "ayah_en": "˹saying,˺ \"Go early to your harvest, if you want to pick ˹all˺ the fruit.\"",
+        "ayah_en": "˹saying,˺ “Go early to your harvest, if you want to pick ˹all˺ the fruit.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "فَانطَلَقُوا وَهُمْ يَتَخَافَتُونَ",
-        "ayah_en": "So they went off, whispering to one another.",
+        "ayah_en": "So they went off, whispering to one another,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068023.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "أَن لَّا يَدْخُلَنَّهَا الْيَوْمَ عَلَيْكُم مِّسْكِينٌ",
-        "ayah_en": "\"Do not let any poor person enter your garden today.\"",
+        "ayah_en": "“Do not let any poor person enter your garden today.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068024.mp3"
       },
       {
@@ -168,25 +168,25 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "فَلَمَّا رَأَوْهَا قَالُوا إِنَّا لَضَالُّونَ",
-        "ayah_en": "But when they saw it ˹devastated˺, they cried, \"We must have lost ˹our˺ way!",
+        "ayah_en": "But when they saw it ˹devastated˺, they cried, “We must have lost ˹our˺ way!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "بَلْ نَحْنُ مَحْرُومُونَ",
-        "ayah_en": "In fact, we have been deprived ˹of our livelihood˺.\"",
+        "ayah_en": "In fact, we have been deprived ˹of our livelihood˺.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
-        "ayah_en": "The most sensible of them said, \"Did I not urge you to say, 'Allah willing.'?\"",
+        "ayah_en": "The most sensible of them said, “Did I not urge you to say, ‘Allah willing.’?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "قَالُوا سُبْحَانَ رَبِّنَا إِنَّا كُنَّا ظَالِمِينَ",
-        "ayah_en": "They replied, \"Glory be to our Lord! We have truly been wrongdoers.\"",
+        "ayah_en": "They replied, “Glory be to our Lord! We have truly been wrongdoers.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068029.mp3"
       },
       {
@@ -198,13 +198,13 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 31,
         "ayah_ar": "قَالُوا يَا وَيْلَنَا إِنَّا كُنَّا طَاغِينَ",
-        "ayah_en": "They said, \"Woe to us! We have certainly been transgressors.",
+        "ayah_en": "They said, “Woe to us! We have certainly been transgressors.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "عَسَىٰ رَبُّنَا أَن يُبْدِلَنَا خَيْرًا مِّنْهَا إِنَّا إِلَىٰ رَبِّنَا رَاغِبُونَ",
-        "ayah_en": "We trust our Lord will give us a better garden than this, ˹for˺ we are indeed turning to our Lord with hope.",
+        "ayah_en": "We trust our Lord will give us a better garden than this, ˹for˺ we are indeed turning to our Lord with hope.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068032.mp3"
       },
       {
@@ -240,7 +240,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 37,
         "ayah_ar": "أَمْ لَكُمْ كِتَابٌ فِيهِ تَدْرُسُونَ",
-        "ayah_en": "Or do you have a scripture, in which you read.",
+        "ayah_en": "Or do you have a scripture, in which you read",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068037.mp3"
       },
       {
@@ -276,7 +276,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 42,
         "ayah_ar": "يَوْمَ يُكْشَفُ عَن سَاقٍ وَيُدْعَوْنَ إِلَى السُّجُودِ فَلَا يَسْتَطِيعُونَ",
-        "ayah_en": "˹Beware of˺ the Day the Shin ˹of Allah˺ will be bared, and the wicked will be asked to prostrate, but they will not be able to do so.",
+        "ayah_en": "˹Beware of˺ the Day the Shin ˹of Allah˺ will be bared, and the wicked will be asked to prostrate, but they will not be able to do so,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068042.mp3"
       },
       {
@@ -318,7 +318,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 48,
         "ayah_ar": "فَاصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ الْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌ",
-        "ayah_en": "So be patient with your Lord's decree, and do not be like ˹Jonah,˺ the Man of the Whale, who cried out ˹to Allah˺, in total distress.",
+        "ayah_en": "So be patient with your Lord’s decree, and do not be like ˹Jonah,˺ the Man of the Whale, who cried out ˹to Allah˺, in total distress.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068048.mp3"
       },
       {
@@ -336,7 +336,7 @@ var chapterData_68 = [
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَإِن يَكَادُ الَّذِينَ كَفَرُوا لَيُزْلِقُونَكَ بِأَبْصَارِهِمْ لَمَّا سَمِعُوا الذِّكْرَ وَيَقُولُونَ إِنَّهُ لَمَجْنُونٌ",
-        "ayah_en": "The disbelievers would almost cut you down with their eyes when they hear ˹you recite˺ the Reminder, and say, \"He is certainly a madman.\"",
+        "ayah_en": "The disbelievers would almost cut you down with their eyes when they hear ˹you recite˺ the Reminder, and say, “He is certainly a madman.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/068051.mp3"
       },
       {

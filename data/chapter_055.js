@@ -6,19 +6,19 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "الرَّحْمَٰنُ",
-        "ayah_en": "The Most Compassionate.",
+        "ayah_en": "The Most Compassionate",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "عَلَّمَ الْقُرْآنَ",
-        "ayah_en": "taught the Quran.",
+        "ayah_en": "taught the Quran,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "خَلَقَ الْإِنسَانَ",
-        "ayah_en": "created humanity.",
+        "ayah_en": "created humanity,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055003.mp3"
       },
       {
@@ -42,13 +42,13 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
-        "ayah_en": "The stars and the trees bow down ˹in submission˺",
+        "ayah_en": "The stars and the trees bow down ˹in submission˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055006.mp3"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
-        "ayah_en": "As for the sky, He raised it ˹high˺ and set the balance ˹of justice˺",
+        "ayah_en": "As for the sky, He raised it ˹high˺, and set the balance ˹of justice˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055007.mp3"
       },
       {
@@ -78,7 +78,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
-        "ayah_en": "In it are fruit, palm trees with date stalks.",
+        "ayah_en": "In it are fruit, palm trees with date stalks,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055011.mp3"
       },
       {
@@ -90,7 +90,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you ˹humans and jinn˺ both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you ˹humans and jinn˺ both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055013.mp3"
       }
     ]
@@ -102,7 +102,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "خَلَقَ الْإِنسَانَ مِن صَلْصَالٍ كَالْفَخَّارِ",
-        "ayah_en": "He created humankind from ˹sounding˺ clay like pottery.",
+        "ayah_en": "He created humankind from ˹sounding˺ clay like pottery,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055014.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 16,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055016.mp3"
       }
     ]
@@ -132,13 +132,13 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 18,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055018.mp3"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
-        "ayah_en": "He merges the two bodies of ˹fresh and salt˺ water.",
+        "ayah_en": "He merges the two bodies of ˹fresh and salt˺ water,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055019.mp3"
       },
       {
@@ -150,7 +150,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055021.mp3"
       },
       {
@@ -162,7 +162,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055023.mp3"
       },
       {
@@ -174,7 +174,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 25,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055025.mp3"
       }
     ]
@@ -192,13 +192,13 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
-        "ayah_en": "Only your Lord Himself, full of Majesty and Honour, will remain ˹forever˺",
+        "ayah_en": "Only your Lord Himself, full of Majesty and Honour, will remain ˹forever˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055028.mp3"
       }
     ]
@@ -210,13 +210,13 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 29,
         "ayah_ar": "يَسْأَلُهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
-        "ayah_en": "All those in the heavens and the earth are dependent on Him, Day in and day out He has something to bring about.",
+        "ayah_en": "All those in the heavens and the earth are dependent on Him. Day in and day out He has something to bring about.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055030.mp3"
       }
     ]
@@ -234,19 +234,19 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 32,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055032.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَانٍ",
-        "ayah_en": "O assembly of jinn and humans! If you can penetrate beyond the realms of the heavens and the earth, then do so, ˹But˺ you cannot do that without ˹Our˺ authority.",
+        "ayah_en": "O assembly of jinn and humans! If you can penetrate beyond the realms of the heavens and the earth, then do so. ˹But˺ you cannot do that without ˹Our˺ authority.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055033.mp3"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055034.mp3"
       }
     ]
@@ -264,7 +264,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 36,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055036.mp3"
       },
       {
@@ -276,7 +276,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055038.mp3"
       },
       {
@@ -288,7 +288,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 40,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055040.mp3"
       },
       {
@@ -300,13 +300,13 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 42,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055042.mp3"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "هَٰذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
-        "ayah_en": "˹They will be told,˺ \"This is the Hell which the wicked denied.\"",
+        "ayah_en": "˹They will be told,˺ “This is the Hell which the wicked denied.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055043.mp3"
       },
       {
@@ -318,7 +318,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 45,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055045.mp3"
       }
     ]
@@ -336,7 +336,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 47,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055047.mp3"
       },
       {
@@ -348,7 +348,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 49,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055049.mp3"
       },
       {
@@ -360,7 +360,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 51,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055051.mp3"
       },
       {
@@ -372,19 +372,19 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 53,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055053.mp3"
       },
       {
         "ayah_no_surah": 54,
         "ayah_ar": "مُتَّكِئِينَ عَلَىٰ فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى الْجَنَّتَيْنِ دَانٍ",
-        "ayah_en": "Those ˹believers˺ will recline on furnishings lined with rich brocade, And the fruit of both Gardens will hang within reach.",
+        "ayah_en": "Those ˹believers˺ will recline on furnishings lined with rich brocade. And the fruit of both Gardens will hang within reach.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055054.mp3"
       },
       {
         "ayah_no_surah": 55,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055055.mp3"
       },
       {
@@ -396,7 +396,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 57,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055057.mp3"
       },
       {
@@ -408,7 +408,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 59,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055059.mp3"
       },
       {
@@ -420,7 +420,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 61,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055061.mp3"
       }
     ]
@@ -438,7 +438,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 63,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055063.mp3"
       },
       {
@@ -450,7 +450,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 65,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055065.mp3"
       },
       {
@@ -462,7 +462,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 67,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055067.mp3"
       },
       {
@@ -474,7 +474,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 69,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055069.mp3"
       },
       {
@@ -486,7 +486,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 71,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055071.mp3"
       },
       {
@@ -498,7 +498,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 73,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055073.mp3"
       },
       {
@@ -510,7 +510,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 75,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055075.mp3"
       },
       {
@@ -522,7 +522,7 @@ var chapterData_55 = [
       {
         "ayah_no_surah": 77,
         "ayah_ar": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
-        "ayah_en": "Then which of your Lord's favours will you both deny?",
+        "ayah_en": "Then which of your Lord’s favours will you both deny?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/055077.mp3"
       }
     ]

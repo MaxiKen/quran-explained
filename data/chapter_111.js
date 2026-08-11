@@ -6,13 +6,13 @@ var chapterData_111 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
-        "ayah_en": "May the hands of Abu Lahab perish, and he ˹himself˺ perish.",
+        "ayah_en": "May the hands of Abu Lahab perish, and he ˹himself˺ perish!",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/111001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
-        "ayah_en": "Neither his wealth, nor ˹worldly˺ gains will benefit him.",
+        "ayah_en": "Neither his wealth nor ˹worldly˺ gains will benefit him.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/111002.mp3"
       }
     ]
@@ -30,7 +30,7 @@ var chapterData_111 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
-        "ayah_en": "and ˹so will˺ his wife, the carrier of ˹thorny˺ kindling.",
+        "ayah_en": "and ˹so will˺ his wife, the carrier of ˹thorny˺ kindling,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/111004.mp3"
       },
       {

@@ -30,7 +30,7 @@ var chapterData_69 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "كَذَّبَتْ ثَمُودُ وَعَادٌ بِالْقَارِعَةِ",
-        "ayah_en": "˹Both˺ Thamûd and 'Ȃd denied the Striking Disaster.",
+        "ayah_en": "˹Both˺ Thamûd and ’Ȃd denied the Striking Disaster.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069004.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_69 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "وَأَمَّا عَادٌ فَأُهْلِكُوا بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
-        "ayah_en": "And as for 'Ȃd, they were destroyed by a furious, bitter wind.",
+        "ayah_en": "And as for ’Ȃd, they were destroyed by a furious, bitter wind",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069006.mp3"
       },
       {
@@ -60,19 +60,19 @@ var chapterData_69 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَجَاءَ فِرْعَوْنُ وَمَن قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ",
-        "ayah_en": "Also, Pharaoh and those before him, and ˹the people of˺ the overturned cities ˹of Lot˺ indulged in sin.",
+        "ayah_en": "Also, Pharaoh and those before him, and ˹the people of˺ the overturned cities ˹of Lot˺ indulged in sin,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
-        "ayah_en": "each disobeying their Lord's messenger, so He seized them with a crushing grip.",
+        "ayah_en": "each disobeying their Lord’s messenger, so He seized them with a crushing grip.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ",
-        "ayah_en": "Indeed, when the floodwater had overflowed, We carried you in the floating Ark ˹with Noah˺.",
+        "ayah_en": "Indeed, when the floodwater had overflowed, We carried you in the floating Ark ˹with Noah˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069011.mp3"
       },
       {
@@ -90,13 +90,13 @@ var chapterData_69 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فَإِذَا نُفِخَ فِي الصُّورِ نَفْخَةٌ وَاحِدَةٌ",
-        "ayah_en": "At last, when the Trumpet will be blown with one blast.",
+        "ayah_en": "At last, when the Trumpet will be blown with one blast,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً",
-        "ayah_en": "and the earth and mountains will be lifted up and crushed with one blow.",
+        "ayah_en": "and the earth and mountains will be lifted up and crushed with one blow,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069014.mp3"
       },
       {
@@ -108,7 +108,7 @@ var chapterData_69 = [
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَانشَقَّتِ السَّمَاءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ",
-        "ayah_en": "The sky will then be so torn that it will be frail.",
+        "ayah_en": "The sky will then be so torn that it will be frail,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/069016.mp3"
       },
       {

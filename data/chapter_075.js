@@ -30,13 +30,13 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "بَلْ يُرِيدُ الْإِنسَانُ لِيَفْجُرَ أَمَامَهُ",
-        "ayah_en": "Still people want to deny what is yet to come.",
+        "ayah_en": "Still people want to deny what is yet to come,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075005.mp3"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "يَسْأَلُ أَيَّانَ يَوْمُ الْقِيَامَةِ",
-        "ayah_en": "asking ˹mockingly˺, \"When is this Day of Judgment?\"",
+        "ayah_en": "asking ˹mockingly˺, “When is this Day of Judgment?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075006.mp3"
       }
     ]
@@ -48,25 +48,25 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "فَإِذَا بَرِقَ الْبَصَرُ",
-        "ayah_en": "But when the sight is stunned.",
+        "ayah_en": "But when the sight is stunned,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَخَسَفَ الْقَمَرُ",
-        "ayah_en": "and the moon is dimmed.",
+        "ayah_en": "and the moon is dimmed,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075008.mp3"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ",
-        "ayah_en": "and the sun and the moon are brought together.",
+        "ayah_en": "and the sun and the moon are brought together,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075009.mp3"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "يَقُولُ الْإِنسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ",
-        "ayah_en": "on that Day one will cry, \"Where is the escape?\"",
+        "ayah_en": "on that Day one will cry, “Where is the escape?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075010.mp3"
       },
       {
@@ -90,7 +90,7 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "بَلِ الْإِنسَانُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ",
-        "ayah_en": "In fact, people will testify against their own souls.",
+        "ayah_en": "In fact, people will testify against their own souls,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075014.mp3"
       },
       {
@@ -138,7 +138,7 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "كَلَّا بَلْ تُحِبُّونَ الْعَاجِلَةَ",
-        "ayah_en": "But no! In fact, you love this fleeting world.",
+        "ayah_en": "But no! In fact, you love this fleeting world,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075020.mp3"
       },
       {
@@ -150,7 +150,7 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
-        "ayah_en": "On that Day ˹some˺ faces will be bright.",
+        "ayah_en": "On that Day ˹some˺ faces will be bright,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075022.mp3"
       },
       {
@@ -162,7 +162,7 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَوُجُوهٌ يَوْمَئِذٍ بَاسِرَةٌ",
-        "ayah_en": "And ˹other˺ faces will be gloomy.",
+        "ayah_en": "And ˹other˺ faces will be gloomy,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075024.mp3"
       },
       {
@@ -180,19 +180,19 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "كَلَّا إِذَا بَلَغَتِ التَّرَاقِيَ",
-        "ayah_en": "But no! ˹Beware of the day˺ when the soul reaches the collar bone ˹as it leaves˺.",
+        "ayah_en": "But no! ˹Beware of the day˺ when the soul reaches the collar bone ˹as it leaves˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075026.mp3"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَقِيلَ مَنْ ۜ رَاقٍ",
-        "ayah_en": "and it will be said, \"Is there any healer ˹who can save this life˺?\"",
+        "ayah_en": "and it will be said, “Is there any healer ˹who can save this life˺?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "وَظَنَّ أَنَّهُ الْفِرَاقُ",
-        "ayah_en": "And the dying person realizes it is ˹their˺ time to depart.",
+        "ayah_en": "And the dying person realizes it is ˹their˺ time to depart,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075028.mp3"
       },
       {
@@ -210,13 +210,13 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 31,
         "ayah_ar": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
-        "ayah_en": "This denier neither believed nor prayed.",
+        "ayah_en": "This denier neither believed nor prayed,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
-        "ayah_en": "but persisted in denial and turned away.",
+        "ayah_en": "but persisted in denial and turned away,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075032.mp3"
       },
       {
@@ -258,7 +258,7 @@ var chapterData_75 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
-        "ayah_en": "Then they became a clinging clot ˹of blood˺, then He developed and perfected their form.",
+        "ayah_en": "Then they became a clinging clot ˹of blood˺, then He developed and perfected their form,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/075038.mp3"
       },
       {

@@ -6,31 +6,31 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِذَا السَّمَاءُ انشَقَّتْ",
-        "ayah_en": "When the sky bursts open.",
+        "ayah_en": "When the sky bursts open,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
-        "ayah_en": "obeying its Lord, as it must.",
+        "ayah_en": "obeying its Lord as it must,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَإِذَا الْأَرْضُ مُدَّتْ",
-        "ayah_en": "and when the earth is flattened out.",
+        "ayah_en": "and when the earth is flattened out,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
-        "ayah_en": "and ejects ˹all˺ its contents, and becomes empty.",
+        "ayah_en": "and ejects ˹all˺ its contents and becomes empty,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
-        "ayah_en": "obeying its Lord, as it must.",
+        "ayah_en": "obeying its Lord as it must, ˹surely you will all be judged˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084005.mp3"
       }
     ]
@@ -48,13 +48,13 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ",
-        "ayah_en": "As for those who are given their record in their right hand.",
+        "ayah_en": "As for those who are given their record in their right hand,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084007.mp3"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
-        "ayah_en": "they will have an easy reckoning.",
+        "ayah_en": "they will have an easy reckoning,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084008.mp3"
       },
       {
@@ -72,13 +72,13 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ",
-        "ayah_en": "And as for those who are given their record ˹in their left hand˺ from behind their backs.",
+        "ayah_en": "And as for those who are given their record ˹in their left hand˺ from behind their backs,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084010.mp3"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "فَسَوْفَ يَدْعُو ثُبُورًا",
-        "ayah_en": "they will cry for ˹instant˺ destruction.",
+        "ayah_en": "they will cry for ˹instant˺ destruction,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084011.mp3"
       },
       {
@@ -90,13 +90,13 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا",
-        "ayah_en": "For they used to be prideful among their people.",
+        "ayah_en": "For they used to be prideful among their people,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084013.mp3"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "إِنَّهُ ظَنَّ أَن لَّن يَحُورَ",
-        "ayah_en": "thinking they would never return ˹to Allah˺",
+        "ayah_en": "thinking they would never return ˹to Allah˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084014.mp3"
       },
       {
@@ -144,13 +144,13 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 20,
         "ayah_ar": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
-        "ayah_en": "So what is the matter with them that they do not believe.",
+        "ayah_en": "So what is the matter with them that they do not believe,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084020.mp3"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَإِذَا قُرِئَ عَلَيْهِمُ الْقُرْآنُ لَا يَسْجُدُونَ",
-        "ayah_en": "and when the Quran is recited to them, they do not bow down ˹in submission˺",
+        "ayah_en": "and when the Quran is recited to them, they do not bow down ˹in submission˺?",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084021.mp3"
       },
       {
@@ -174,7 +174,7 @@ var chapterData_84 = [
       {
         "ayah_no_surah": 25,
         "ayah_ar": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
-        "ayah_en": "But those who believe and do good, will have a never-ending reward.",
+        "ayah_en": "But those who believe and do good will have a never-ending reward.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/084025.mp3"
       }
     ]

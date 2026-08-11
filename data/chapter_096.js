@@ -6,7 +6,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
-        "ayah_en": "Read, ˹O Prophet,˺ in the Name of your Lord, Who created.",
+        "ayah_en": "Read, ˹O Prophet,˺ in the Name of your Lord Who created—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096001.mp3"
       },
       {
@@ -18,13 +18,13 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
-        "ayah_en": "Read! And your Lord is the Most Generous.",
+        "ayah_en": "Read! And your Lord is the Most Generous,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096003.mp3"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "الَّذِي عَلَّمَ بِالْقَلَمِ",
-        "ayah_en": "Who taught by the pen.",
+        "ayah_en": "Who taught by the pen—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096004.mp3"
       },
       {
@@ -42,7 +42,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ",
-        "ayah_en": "Most certainly, one exceeds all bounds.",
+        "ayah_en": "Most certainly, one exceeds all bounds",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096006.mp3"
       },
       {
@@ -54,7 +54,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "إِنَّ إِلَىٰ رَبِّكَ الرُّجْعَىٰ",
-        "ayah_en": "˹But˺ surely to your Lord is the return ˹of all˺",
+        "ayah_en": "˹But˺ surely to your Lord is the return ˹of all˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096008.mp3"
       }
     ]
@@ -66,7 +66,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "أَرَأَيْتَ الَّذِي يَنْهَىٰ",
-        "ayah_en": "Have you seen the man who prevents.",
+        "ayah_en": "Have you seen the man who prevents",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096009.mp3"
       },
       {
@@ -78,7 +78,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَىٰ",
-        "ayah_en": "What if this ˹servant˺ is ˹rightly˺ guided.",
+        "ayah_en": "What if this ˹servant˺ is ˹rightly˺ guided,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096011.mp3"
       },
       {
@@ -114,7 +114,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
-        "ayah_en": "But no! If he does not desist, We will certainly drag him by the forelock.",
+        "ayah_en": "But no! If he does not desist, We will certainly drag him by the forelock—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096015.mp3"
       },
       {
@@ -144,7 +144,7 @@ var chapterData_96 = [
       {
         "ayah_no_surah": 19,
         "ayah_ar": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِب ۩",
-        "ayah_en": "Again, no! Never obey him ˹O Prophet˺! Rather, ˹continue to˺ prostrate and draw near ˹to Allah˺",
+        "ayah_en": "Again, no! Never obey him ˹O Prophet˺! Rather, ˹continue to˺ prostrate and draw near ˹to Allah˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/096019.mp3"
       }
     ]

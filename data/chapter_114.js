@@ -6,19 +6,19 @@ var chapterData_114 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
-        "ayah_en": "Say, ˹O Prophet,˺ \"I seek refuge, in the Lord of humankind.",
+        "ayah_en": "Say, ˹O Prophet,˺ “I seek refuge in the Lord of humankind,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/114001.mp3"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "مَلِكِ النَّاسِ",
-        "ayah_en": "the Master of humankind.",
+        "ayah_en": "the Master of humankind,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/114002.mp3"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِلَٰهِ النَّاسِ",
-        "ayah_en": "the God of humankind.",
+        "ayah_en": "the God of humankind,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/114003.mp3"
       }
     ]
@@ -30,13 +30,13 @@ var chapterData_114 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
-        "ayah_en": "from the evil of the lurking whisperer.",
+        "ayah_en": "from the evil of the lurking whisperer—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/114004.mp3"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
-        "ayah_en": "who whispers into the hearts of humankind.",
+        "ayah_en": "who whispers into the hearts of humankind—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/114005.mp3"
       },
       {

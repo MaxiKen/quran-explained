@@ -1,0 +1,170 @@
+var chapterData_85 = [
+  {
+    "theme_no": 1,
+    "theme_description": "Divine Oaths Affirming the Certainty of Judgment",
+    "verses": [
+      {
+        "ayah_no_surah": 1,
+        "ayah_ar": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
+        "ayah_en": "By the sky full of constellations.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085001.mp3"
+      },
+      {
+        "ayah_no_surah": 2,
+        "ayah_ar": "وَالْيَوْمِ الْمَوْعُودِ",
+        "ayah_en": "and the promised Day ˹of Judgment˺",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085002.mp3"
+      },
+      {
+        "ayah_no_surah": 3,
+        "ayah_ar": "وَشَاهِدٍ وَمَشْهُودٍ",
+        "ayah_en": "and the witness and what is witnessed.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085003.mp3"
+      }
+    ]
+  },
+  {
+    "theme_no": 2,
+    "theme_description": "The Condemnation of the Persecutors of the Believers",
+    "verses": [
+      {
+        "ayah_no_surah": 4,
+        "ayah_ar": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
+        "ayah_en": "Condemned are the makers of the ditch.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085004.mp3"
+      },
+      {
+        "ayah_no_surah": 5,
+        "ayah_ar": "النَّارِ ذَاتِ الْوَقُودِ",
+        "ayah_en": "the fire ˹pit˺, filled with fuel.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085005.mp3"
+      },
+      {
+        "ayah_no_surah": 6,
+        "ayah_ar": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+        "ayah_en": "when they sat around it.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085006.mp3"
+      },
+      {
+        "ayah_no_surah": 7,
+        "ayah_ar": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ",
+        "ayah_en": "watching what they had ˹ordered to be˺ done to the believers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085007.mp3"
+      },
+      {
+        "ayah_no_surah": 8,
+        "ayah_ar": "وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَن يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ",
+        "ayah_en": "who they resented for no reason other than belief in Allah, the Almighty, the Praiseworthy.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085008.mp3"
+      },
+      {
+        "ayah_no_surah": 9,
+        "ayah_ar": "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
+        "ayah_en": "˹the One˺ to Whom belongs the kingdom of the heavens and earth, And Allah is a Witness over all things.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085009.mp3"
+      }
+    ]
+  },
+  {
+    "theme_no": 3,
+    "theme_description": "The Fate of the Oppressors and the Reward of the Believers",
+    "verses": [
+      {
+        "ayah_no_surah": 10,
+        "ayah_ar": "إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ",
+        "ayah_en": "Those who persecute the believing men and women, and then do not repent, will certainly suffer the punishment of Hell and the torment of burning.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085010.mp3"
+      },
+      {
+        "ayah_no_surah": 11,
+        "ayah_ar": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ذَٰلِكَ الْفَوْزُ الْكَبِيرُ",
+        "ayah_en": "Surely those who believe and do good, will have Gardens under which rivers flow, That is the greatest triumph.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085011.mp3"
+      }
+    ]
+  },
+  {
+    "theme_no": 4,
+    "theme_description": "Allah's Supreme Power and Attributes",
+    "verses": [
+      {
+        "ayah_no_surah": 12,
+        "ayah_ar": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+        "ayah_en": "Indeed, the ˹crushing˺ grip of your Lord is severe.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085012.mp3"
+      },
+      {
+        "ayah_no_surah": 13,
+        "ayah_ar": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
+        "ayah_en": "˹For˺ He is certainly the One Who originates and resurrects ˹all˺",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085013.mp3"
+      },
+      {
+        "ayah_no_surah": 14,
+        "ayah_ar": "وَهُوَ الْغَفُورُ الْوَدُودُ",
+        "ayah_en": "And He is the All-Forgiving, All-Loving.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085014.mp3"
+      },
+      {
+        "ayah_no_surah": 15,
+        "ayah_ar": "ذُو الْعَرْشِ الْمَجِيدُ",
+        "ayah_en": "Lord of the Throne, the All-Glorious.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085015.mp3"
+      },
+      {
+        "ayah_no_surah": 16,
+        "ayah_ar": "فَعَّالٌ لِّمَا يُرِيدُ",
+        "ayah_en": "Doer of whatever He wills.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085016.mp3"
+      }
+    ]
+  },
+  {
+    "theme_no": 5,
+    "theme_description": "Historical Lessons from Destroyed Nations",
+    "verses": [
+      {
+        "ayah_no_surah": 17,
+        "ayah_ar": "هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ",
+        "ayah_en": "Has the story of the ˹destroyed˺ forces reached you ˹O Prophet˺",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085017.mp3"
+      },
+      {
+        "ayah_no_surah": 18,
+        "ayah_ar": "فِرْعَوْنَ وَثَمُودَ",
+        "ayah_en": "˹the forces of˺ Pharaoh and Thamûd.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085018.mp3"
+      },
+      {
+        "ayah_no_surah": 19,
+        "ayah_ar": "بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ",
+        "ayah_en": "Yet the disbelievers ˹still˺ persist in denial.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085019.mp3"
+      },
+      {
+        "ayah_no_surah": 20,
+        "ayah_ar": "وَاللَّهُ مِن وَرَائِهِم مُّحِيطٌ",
+        "ayah_en": "But Allah encompasses them from all sides.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085020.mp3"
+      }
+    ]
+  },
+  {
+    "theme_no": 6,
+    "theme_description": "The Divine Origin and Preservation of the Quran",
+    "verses": [
+      {
+        "ayah_no_surah": 21,
+        "ayah_ar": "بَلْ هُوَ قُرْآنٌ مَّجِيدٌ",
+        "ayah_en": "In fact, this is a glorious Quran.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085021.mp3"
+      },
+      {
+        "ayah_no_surah": 22,
+        "ayah_ar": "فِي لَوْحٍ مَّحْفُوظٍ",
+        "ayah_en": "˹recorded˺ in a Preserved Tablet.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/085022.mp3"
+      }
+    ]
+  }
+];

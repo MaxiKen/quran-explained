@@ -150,37 +150,37 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "فَكَذَّبَ وَعَصَىٰ",
-        "ayah_en": "but he denied and disobeyed ˹Allah˺",
+        "ayah_en": "Indeed, Hell is lying in ambush",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079021.mp3"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
-        "ayah_en": "then turned his back, striving ˹against the truth˺",
+        "ayah_en": "as a home for the transgressors,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079022.mp3"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "فَحَشَرَ فَنَادَىٰ",
-        "ayah_en": "Then he summoned ˹his people˺ and called out.",
+        "ayah_en": "where they will remain for ˹endless˺ ages.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079023.mp3"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَقَالَ أَنَا رَبُّكُمُ الْأَعْلَىٰ",
-        "ayah_en": "saying, \"I am your lord, the most high!\"",
+        "ayah_en": "There they will not taste any coolness or drink,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079024.mp3"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "فَأَخَذَهُ اللَّهُ نَكَالَ الْآخِرَةِ وَالْأُولَىٰ",
-        "ayah_en": "So Allah overtook him, making him an example in this life and the next.",
+        "ayah_en": "except boiling water and ˹oozing˺ pus—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079025.mp3"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰ",
-        "ayah_en": "Surely in this is a lesson for whoever stands in awe of ˹Allah˺",
+        "ayah_en": "a fitting reward.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079026.mp3"
       }
     ]
@@ -192,43 +192,43 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ ۚ بَنَاهَا",
-        "ayah_en": "Which is harder to create: you or the sky? He built it.",
+        "ayah_en": "For they never expected any reckoning,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079027.mp3"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "رَفَعَ سَمْكَهَا فَسَوَّاهَا",
-        "ayah_en": "raising it high and forming it flawlessly.",
+        "ayah_en": "and totally rejected Our signs.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079028.mp3"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا",
-        "ayah_en": "He dimmed its night, and brought forth its daylight.",
+        "ayah_en": "And We have everything recorded precisely.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079029.mp3"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَالْأَرْضَ بَعْدَ ذَٰلِكَ دَحَاهَا",
-        "ayah_en": "As for the earth, He spread it out as well.",
+        "ayah_en": "˹So the deniers will be told,˺ “Taste ˹the punishment˺, for all you will get from Us is more torment.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079030.mp3"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "أَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا",
-        "ayah_en": "bringing forth its water and pastures.",
+        "ayah_en": "Indeed, the righteous will have salvation—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079031.mp3"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "وَالْجِبَالَ أَرْسَاهَا",
-        "ayah_en": "and setting the mountains firmly ˹upon it˺",
+        "ayah_en": "Gardens, vineyards,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079032.mp3"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "مَتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ",
-        "ayah_en": "all as ˹a means of˺ sustenance for you and your animals.",
+        "ayah_en": "and full-bosomed maidens of equal age,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079033.mp3"
       }
     ]
@@ -240,19 +240,19 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 34,
         "ayah_ar": "فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَىٰ",
-        "ayah_en": "But, when the Supreme Disaster comes to pass.",
+        "ayah_en": "and full cups ˹of pure wine˺,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079034.mp3"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "يَوْمَ يَتَذَكَّرُ الْإِنسَانُ مَا سَعَىٰ",
-        "ayah_en": "the Day every person will remember all ˹their˺ striving.",
+        "ayah_en": "never to hear any idle talk or lying therein—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079035.mp3"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "وَبُرِّزَتِ الْجَحِيمُ لِمَن يَرَىٰ",
-        "ayah_en": "and the Hellfire will be displayed for all to see.",
+        "ayah_en": "a ˹fitting˺ reward as a generous gift from your Lord,",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079036.mp3"
       }
     ]
@@ -264,25 +264,25 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 37,
         "ayah_ar": "فَأَمَّا مَن طَغَىٰ",
-        "ayah_en": "then as for those who transgressed.",
+        "ayah_en": "the Lord of the heavens and the earth and everything in between, the Most Compassionate. No one will dare speak to Him",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079037.mp3"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "وَآثَرَ الْحَيَاةَ الدُّنْيَا",
-        "ayah_en": "and preferred the ˹fleeting˺ life of this world.",
+        "ayah_en": "on the Day the ˹holy˺ spirit and the angels will stand in ranks. None will talk, except those granted permission by the Most Compassionate and whose words are true.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079038.mp3"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَىٰ",
-        "ayah_en": "the Hellfire will certainly be ˹their˺ home.",
+        "ayah_en": "That Day is the ˹ultimate˺ truth. So let whoever wills take the path leading back to their Lord.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079039.mp3"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ",
-        "ayah_en": "And as for those who were in awe of standing before their Lord and restrained themselves from ˹evil˺ desires.",
+        "ayah_en": "Indeed, We have warned you of an imminent punishment—the Day every person will see ˹the consequences of˺ what their hands have done, and the disbelievers will cry, “I wish I were dust.”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079040.mp3"
       },
       {
@@ -300,7 +300,7 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 42,
         "ayah_ar": "يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا",
-        "ayah_en": "They ask you ˹O Prophet˺ regarding the Hour, \"When will it be?\"",
+        "ayah_en": "They ask you ˹O Prophet˺ regarding the Hour, “When will it be?”",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079042.mp3"
       },
       {
@@ -312,7 +312,7 @@ var chapterData_79 = [
       {
         "ayah_no_surah": 44,
         "ayah_ar": "إِلَىٰ رَبِّكَ مُنتَهَاهَا",
-        "ayah_en": "That knowledge rests with your Lord ˹alone˺",
+        "ayah_en": "That knowledge rests with your Lord ˹alone˺.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/079044.mp3"
       },
       {
