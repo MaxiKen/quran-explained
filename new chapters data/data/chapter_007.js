@@ -846,7 +846,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 27,
+    "theme_no": 40,
     "theme_description": "The Mission of Moses to Pharaoh",
     "verses": [
       {
@@ -888,7 +888,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 28,
+    "theme_no": 41,
     "theme_description": "The Contest Between Moses and Pharaoh's Magicians",
     "verses": [
       {
@@ -954,7 +954,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 29,
+    "theme_no": 42,
     "theme_description": "The Magicians' Conversion and Pharaoh's Threat",
     "verses": [
       {
@@ -1008,7 +1008,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 30,
+    "theme_no": 43,
     "theme_description": "Moses Counsels His People and Allah's Promise",
     "verses": [
       {
@@ -1032,7 +1032,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 31,
+    "theme_no": 44,
     "theme_description": "The Plagues Upon Egypt",
     "verses": [
       {
@@ -1086,7 +1086,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 32,
+    "theme_no": 45,
     "theme_description": "The Israelites' Request for an Idol",
     "verses": [
       {
@@ -1116,31 +1116,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 40,
-    "theme_description": "The Children of Israel's Misguided Request for Idols",
-    "verses": [
-      {
-        "ayah_no_surah": 138,
-        "ayah_ar": "وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ الْبَحْرَ فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ ۚ قَالُوا يَا مُوسَى اجْعَل لَّنَا إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
-        "ayah_en": "We brought the Children of Israel across the sea, and they came upon a people devoted to idols. They demanded, \"O Moses! Make for us a god like their gods.\"He replied, \"Indeed, you are a people acting ignorantly!",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/007138.mp3"
-      },
-      {
-        "ayah_no_surah": 139,
-        "ayah_ar": "إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَاطِلٌ مَّا كَانُوا يَعْمَلُونَ",
-        "ayah_en": "What they follow is certainly doomed to destruction, and their deeds are in vain.",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/007139.mp3"
-      },
-      {
-        "ayah_no_surah": 140,
-        "ayah_ar": "قَالَ أَغَيْرَ اللَّهِ أَبْغِيكُمْ إِلَٰهًا وَهُوَ فَضَّلَكُمْ عَلَى الْعَالَمِينَ",
-        "ayah_en": "He added, \"Shall I seek for you a god other than Allah, while He has honoured you above the others?\"",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/007140.mp3"
-      }
-    ]
-  },
-  {
-    "theme_no": 41,
+    "theme_no": 46,
     "theme_description": "Moses' Appointment with Allah and Instructions to Aaron",
     "verses": [
       {
@@ -1152,7 +1128,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 42,
+    "theme_no": 47,
     "theme_description": "Moses' Request to See Allah and the Divine Response",
     "verses": [
       {
@@ -1170,7 +1146,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 43,
+    "theme_no": 48,
     "theme_description": "The Divine Tablets and Guidance for the People",
     "verses": [
       {
@@ -1194,7 +1170,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 44,
+    "theme_no": 49,
     "theme_description": "The Sin of the Golden Calf",
     "verses": [
       {
@@ -1212,7 +1188,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 45,
+    "theme_no": 50,
     "theme_description": "Moses' Anger and Aaron's Defense",
     "verses": [
       {
@@ -1224,7 +1200,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 46,
+    "theme_no": 51,
     "theme_description": "Moses Seeks Forgiveness and Divine Consequences",
     "verses": [
       {
@@ -1254,7 +1230,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 47,
+    "theme_no": 52,
     "theme_description": "Moses' Supplication for His People",
     "verses": [
       {
@@ -1272,7 +1248,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 48,
+    "theme_no": 53,
     "theme_description": "The Description and Mission of the Final Prophet",
     "verses": [
       {
@@ -1284,7 +1260,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 49,
+    "theme_no": 54,
     "theme_description": "The Universal Message of Islam",
     "verses": [
       {
@@ -1296,7 +1272,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 50,
+    "theme_no": 55,
     "theme_description": "The Righteous Among Moses' People and Divine Blessings",
     "verses": [
       {
@@ -1326,7 +1302,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 51,
+    "theme_no": 56,
     "theme_description": "The Story of the Sabbath-Breakers",
     "verses": [
       {
@@ -1356,7 +1332,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 52,
+    "theme_no": 57,
     "theme_description": "Continued Testing and Dispersion of the Israelites",
     "verses": [
       {
@@ -1374,7 +1350,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 53,
+    "theme_no": 58,
     "theme_description": "The Corrupt Successors Who Inherited Scripture",
     "verses": [
       {
@@ -1392,7 +1368,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 54,
+    "theme_no": 59,
     "theme_description": "The Covenants with the Israelites and All Humanity",
     "verses": [
       {
@@ -1422,7 +1398,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 55,
+    "theme_no": 60,
     "theme_description": "The Story of the Deviant Scholar",
     "verses": [
       {
@@ -1446,7 +1422,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 56,
+    "theme_no": 61,
     "theme_description": "Guidance is from Allah Alone",
     "verses": [
       {
@@ -1464,7 +1440,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 57,
+    "theme_no": 62,
     "theme_description": "Allah's Beautiful Names",
     "verses": [
       {
@@ -1476,7 +1452,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 58,
+    "theme_no": 63,
     "theme_description": "The Righteous Guides and the Fate of Deniers",
     "verses": [
       {
@@ -1500,7 +1476,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 59,
+    "theme_no": 64,
     "theme_description": "Invitation to Reflect on the Prophet and Creation",
     "verses": [
       {
@@ -1524,7 +1500,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 60,
+    "theme_no": 65,
     "theme_description": "Knowledge of the Final Hour Belongs to Allah Alone",
     "verses": [
       {
@@ -1542,7 +1518,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 61,
+    "theme_no": 66,
     "theme_description": "Human Origins and the Trap of Ingratitude",
     "verses": [
       {
@@ -1560,7 +1536,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 62,
+    "theme_no": 67,
     "theme_description": "The Powerlessness of False Gods",
     "verses": [
       {
@@ -1596,7 +1572,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 63,
+    "theme_no": 68,
     "theme_description": "Allah is the Only True Protector",
     "verses": [
       {
@@ -1620,7 +1596,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 64,
+    "theme_no": 69,
     "theme_description": "The Prophet's Noble Character and Conduct",
     "verses": [
       {
@@ -1632,7 +1608,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 65,
+    "theme_no": 70,
     "theme_description": "Seeking Refuge from Satan's Whispers",
     "verses": [
       {
@@ -1656,7 +1632,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 66,
+    "theme_no": 71,
     "theme_description": "The Prophet Only Follows Revelation",
     "verses": [
       {
@@ -1668,7 +1644,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 67,
+    "theme_no": 72,
     "theme_description": "The Etiquette of Listening to the Quran",
     "verses": [
       {
@@ -1680,7 +1656,7 @@ var chapterData_7 = [
     ]
   },
   {
-    "theme_no": 68,
+    "theme_no": 73,
     "theme_description": "Remembering Allah with Humility",
     "verses": [
       {

@@ -462,7 +462,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 1,
+    "theme_no": 26,
     "theme_description": "Prophet Hud's Confrontation with His People",
     "verses": [
       {
@@ -498,7 +498,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 2,
+    "theme_no": 27,
     "theme_description": "The Destruction of 'Ad and Salvation of the Believers",
     "verses": [
       {
@@ -522,7 +522,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 3,
+    "theme_no": 28,
     "theme_description": "Prophet Salih's Call to Thamud",
     "verses": [
       {
@@ -534,7 +534,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 4,
+    "theme_no": 29,
     "theme_description": "Thamud's Argument Against Salih",
     "verses": [
       {
@@ -546,7 +546,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 5,
+    "theme_no": 30,
     "theme_description": "Salih's Response and the Sign of the She-Camel",
     "verses": [
       {
@@ -570,7 +570,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 6,
+    "theme_no": 31,
     "theme_description": "The Destruction of Thamud and Salvation of the Believers",
     "verses": [
       {
@@ -594,7 +594,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 7,
+    "theme_no": 32,
     "theme_description": "Prophet Ibrahim Visited by Angels",
     "verses": [
       {
@@ -612,7 +612,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 8,
+    "theme_no": 33,
     "theme_description": "Good News of Isaac and Jacob",
     "verses": [
       {
@@ -636,7 +636,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 9,
+    "theme_no": 34,
     "theme_description": "Ibrahim Pleads for the People of Lot",
     "verses": [
       {
@@ -660,7 +660,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 10,
+    "theme_no": 35,
     "theme_description": "The Angels Visit Prophet Lot",
     "verses": [
       {
@@ -690,7 +690,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 11,
+    "theme_no": 36,
     "theme_description": "The Angels Reassure Lot and Announce the Punishment",
     "verses": [
       {
@@ -702,7 +702,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 12,
+    "theme_no": 37,
     "theme_description": "The Destruction of Lot's People",
     "verses": [
       {
@@ -720,7 +720,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 13,
+    "theme_no": 38,
     "theme_description": "Prophet Shu'aib's Call to Midian",
     "verses": [
       {
@@ -744,7 +744,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 14,
+    "theme_no": 39,
     "theme_description": "Midian's Sarcastic Response to Shu'aib",
     "verses": [
       {
@@ -756,7 +756,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 15,
+    "theme_no": 40,
     "theme_description": "Shu'aib's Response and Warning",
     "verses": [
       {
@@ -780,7 +780,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 16,
+    "theme_no": 41,
     "theme_description": "Midian's Threat Against Shu'aib",
     "verses": [
       {
@@ -792,7 +792,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 17,
+    "theme_no": 42,
     "theme_description": "Shu'aib's Final Response",
     "verses": [
       {
@@ -810,7 +810,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 18,
+    "theme_no": 43,
     "theme_description": "The Destruction of Midian",
     "verses": [
       {
@@ -828,7 +828,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 19,
+    "theme_no": 44,
     "theme_description": "Prophet Musa and Pharaoh's Fate",
     "verses": [
       {
@@ -858,7 +858,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 20,
+    "theme_no": 45,
     "theme_description": "Lessons from the Destroyed Nations",
     "verses": [
       {
@@ -882,7 +882,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 21,
+    "theme_no": 46,
     "theme_description": "Warning of the Day of Judgment",
     "verses": [
       {
@@ -906,7 +906,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 22,
+    "theme_no": 47,
     "theme_description": "The Fate of the Miserable in Hellfire",
     "verses": [
       {
@@ -924,7 +924,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 23,
+    "theme_no": 48,
     "theme_description": "The Fate of the Joyful in Paradise",
     "verses": [
       {
@@ -936,7 +936,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 24,
+    "theme_no": 49,
     "theme_description": "Warning Against Blind Following",
     "verses": [
       {
@@ -948,7 +948,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 25,
+    "theme_no": 50,
     "theme_description": "Lessons from the Torah and Accountability",
     "verses": [
       {
@@ -966,7 +966,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 26,
+    "theme_no": 51,
     "theme_description": "Advice to the Believers",
     "verses": [
       {
@@ -996,7 +996,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 27,
+    "theme_no": 52,
     "theme_description": "The Importance of Forbidding Evil",
     "verses": [
       {
@@ -1014,7 +1014,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 28,
+    "theme_no": 53,
     "theme_description": "Divine Wisdom in Human Free Choice",
     "verses": [
       {
@@ -1032,7 +1032,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 29,
+    "theme_no": 54,
     "theme_description": "The Purpose of Prophetic Stories",
     "verses": [
       {
@@ -1056,7 +1056,7 @@ var chapterData_11 = [
     ]
   },
   {
-    "theme_no": 30,
+    "theme_no": 55,
     "theme_description": "Conclusion: Allah's Absolute Knowledge and Authority",
     "verses": [
       {

@@ -222,7 +222,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 1,
+    "theme_no": 9,
     "theme_description": "The Women's Gossip and the Banquet",
     "verses": [
       {
@@ -246,7 +246,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 2,
+    "theme_no": 10,
     "theme_description": "The Lesser of Two Evils",
     "verses": [
       {
@@ -270,7 +270,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 3,
+    "theme_no": 11,
     "theme_description": "Dreams of the Two Inmates",
     "verses": [
       {
@@ -306,7 +306,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 4,
+    "theme_no": 12,
     "theme_description": "Joseph Interprets the Dreams",
     "verses": [
       {
@@ -324,7 +324,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 5,
+    "theme_no": 13,
     "theme_description": "The King's Dream",
     "verses": [
       {
@@ -348,7 +348,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 6,
+    "theme_no": 14,
     "theme_description": "Interpretation of the King's Dream",
     "verses": [
       {
@@ -378,7 +378,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 7,
+    "theme_no": 15,
     "theme_description": "Joseph's Innocence Proven",
     "verses": [
       {
@@ -408,7 +408,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 8,
+    "theme_no": 16,
     "theme_description": "Joseph's Appointment as Minister",
     "verses": [
       {
@@ -438,7 +438,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 9,
+    "theme_no": 17,
     "theme_description": "Joseph's Brothers Visit Egypt",
     "verses": [
       {
@@ -474,7 +474,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 10,
+    "theme_no": 18,
     "theme_description": "The Brothers Return Home",
     "verses": [
       {
@@ -516,7 +516,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 11,
+    "theme_no": 19,
     "theme_description": "The Royal Cup",
     "verses": [
       {
@@ -588,7 +588,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 12,
+    "theme_no": 20,
     "theme_description": "The Eldest Brother Stays Behind",
     "verses": [
       {
@@ -612,7 +612,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 13,
+    "theme_no": 21,
     "theme_description": "Jacob's Grief",
     "verses": [
       {
@@ -648,7 +648,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 14,
+    "theme_no": 22,
     "theme_description": "Joseph Reveals His Identity",
     "verses": [
       {
@@ -672,7 +672,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 15,
+    "theme_no": 23,
     "theme_description": "Brothers' Apology Accepted",
     "verses": [
       {
@@ -696,7 +696,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 16,
+    "theme_no": 24,
     "theme_description": "Jacob Regains His Sight",
     "verses": [
       {
@@ -732,7 +732,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 17,
+    "theme_no": 25,
     "theme_description": "The Family Reunited in Egypt",
     "verses": [
       {
@@ -750,7 +750,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 18,
+    "theme_no": 26,
     "theme_description": "Joseph's Prayer",
     "verses": [
       {
@@ -762,7 +762,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 19,
+    "theme_no": 27,
     "theme_description": "Lessons from the Story",
     "verses": [
       {
@@ -804,7 +804,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 20,
+    "theme_no": 28,
     "theme_description": "Invitation with Knowledge and Wisdom",
     "verses": [
       {
@@ -816,7 +816,7 @@ var chapterData_12 = [
     ]
   },
   {
-    "theme_no": 21,
+    "theme_no": 29,
     "theme_description": "Allah's Messengers",
     "verses": [
       {
@@ -830,6 +830,12 @@ var chapterData_12 = [
         "ayah_ar": "حَتَّىٰ إِذَا اسْتَيْأَسَ الرُّسُلُ وَظَنُّوا أَنَّهُمْ قَدْ كُذِبُوا جَاءَهُمْ نَصْرُنَا فَنُجِّيَ مَن نَّشَاءُ وَلَا يُرَدُّ بَأْسُنَا عَنِ الْقَوْمِ الْمُجْرِمِينَ",
         "ayah_en": "And when the messengers despaired, and their people thought the messengers had been denied help, Our help came to them at last. We then saved whoever We willed, and Our punishment is never averted from the wicked people.",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/012110.mp3"
+      },
+      {
+        "ayah_no_surah": 111,
+        "ayah_ar": "لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِّأُولِي الْأَلْبَابِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+        "ayah_en": "In their stories there is truly a lesson for people of reason. This message cannot be a fabrication, rather ˹it is˺ a confirmation of previous revelation, a detailed explanation of all things, a guide, and a mercy for people of faith.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/012111.mp3"
       }
     ]
   }

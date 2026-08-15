@@ -444,7 +444,7 @@ var chapterData_30 = [
     ]
   },
   {
-    "theme_no": 1,
+    "theme_no": 24,
     "theme_description": "The Limits of the Prophet's Role in Guidance",
     "verses": [
       {
@@ -462,7 +462,7 @@ var chapterData_30 = [
     ]
   },
   {
-    "theme_no": 2,
+    "theme_no": 25,
     "theme_description": "Allah's Power Over Creation and Life Stages",
     "verses": [
       {
@@ -474,7 +474,7 @@ var chapterData_30 = [
     ]
   },
   {
-    "theme_no": 3,
+    "theme_no": 26,
     "theme_description": "The Day of Judgment: Disbelief and Realization",
     "verses": [
       {
@@ -498,7 +498,7 @@ var chapterData_30 = [
     ]
   },
   {
-    "theme_no": 4,
+    "theme_no": 27,
     "theme_description": "Final Advice to the Prophet: Patience and Truth",
     "verses": [
       {

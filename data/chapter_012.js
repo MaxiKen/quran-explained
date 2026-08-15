@@ -833,8 +833,9 @@ var chapterData_12 = [
       },
       {
         "ayah_no_surah": 111,
-        "ayah_ar": "",
-        "ayah_en": "In their stories there is truly a lesson for people of reason. This message cannot be a fabrication, rather ˹it is˺ a confirmation of previous revelation, a detailed explanation of all things, a guide, and a mercy for people of faith."
+        "ayah_ar": "لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِّأُولِي الْأَلْبَابِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+        "ayah_en": "In their stories there is truly a lesson for people of reason. This message cannot be a fabrication, rather ˹it is˺ a confirmation of previous revelation, a detailed explanation of all things, a guide, and a mercy for people of faith.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/012111.mp3"
       }
     ]
   }

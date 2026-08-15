@@ -750,7 +750,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 23,
+    "theme_no": 39,
     "theme_description": "Division Over the Hypocrites and Divine Misguidance",
     "verses": [
       {
@@ -780,7 +780,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 24,
+    "theme_no": 40,
     "theme_description": "Laws Regarding Killing a Believer",
     "verses": [
       {
@@ -798,7 +798,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 25,
+    "theme_no": 41,
     "theme_description": "Caution in Identifying the Enemy",
     "verses": [
       {
@@ -810,7 +810,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 26,
+    "theme_no": 42,
     "theme_description": "The Merit of Striving in Allah's Cause",
     "verses": [
       {
@@ -828,7 +828,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 39,
+    "theme_no": 43,
     "theme_description": "The Fate of Those Who Refused to Emigrate from Oppression",
     "verses": [
       {
@@ -852,7 +852,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 40,
+    "theme_no": 44,
     "theme_description": "The Blessings and Rewards of Emigrating for Allah's Cause",
     "verses": [
       {
@@ -864,7 +864,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 41,
+    "theme_no": 45,
     "theme_description": "Prayer Concessions During Travel and Danger",
     "verses": [
       {
@@ -888,7 +888,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 42,
+    "theme_no": 46,
     "theme_description": "Perseverance in Pursuing the Enemy",
     "verses": [
       {
@@ -900,7 +900,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 43,
+    "theme_no": 47,
     "theme_description": "Just Judgment and Warning Against Advocating for the Deceitful",
     "verses": [
       {
@@ -936,7 +936,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 44,
+    "theme_no": 48,
     "theme_description": "The Door of Repentance and Personal Accountability for Sin",
     "verses": [
       {
@@ -960,7 +960,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 45,
+    "theme_no": 49,
     "theme_description": "Allah's Protection of the Prophet from Deception",
     "verses": [
       {
@@ -972,7 +972,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 46,
+    "theme_no": 50,
     "theme_description": "The Value of Good Speech and Private Counsel",
     "verses": [
       {
@@ -984,7 +984,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 47,
+    "theme_no": 51,
     "theme_description": "The Severe Consequence of Opposing the Messenger",
     "verses": [
       {
@@ -996,7 +996,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 48,
+    "theme_no": 52,
     "theme_description": "Shirk: The Unforgivable Sin and Satan's Deceptions",
     "verses": [
       {
@@ -1038,7 +1038,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 49,
+    "theme_no": 53,
     "theme_description": "The Believers' Reward: Allah's True Promise",
     "verses": [
       {
@@ -1050,7 +1050,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 50,
+    "theme_no": 54,
     "theme_description": "Salvation Through Deeds, Not Wishful Thinking",
     "verses": [
       {
@@ -1068,7 +1068,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 51,
+    "theme_no": 55,
     "theme_description": "The Way of Abraham: True Submission to Allah",
     "verses": [
       {
@@ -1086,7 +1086,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 52,
+    "theme_no": 56,
     "theme_description": "Rights of Women and Orphans in Marriage",
     "verses": [
       {
@@ -1098,7 +1098,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 53,
+    "theme_no": 57,
     "theme_description": "Marital Disputes, Reconciliation, and Justice Between Wives",
     "verses": [
       {
@@ -1122,7 +1122,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 54,
+    "theme_no": 58,
     "theme_description": "Allah's Sovereignty and the Command to Be Mindful",
     "verses": [
       {
@@ -1152,7 +1152,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 55,
+    "theme_no": 59,
     "theme_description": "The Command to Stand Firm for Justice",
     "verses": [
       {
@@ -1164,7 +1164,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 56,
+    "theme_no": 60,
     "theme_description": "The Pillars of True Faith",
     "verses": [
       {
@@ -1176,7 +1176,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 57,
+    "theme_no": 61,
     "theme_description": "The Fate of Those Who Waver in Faith and the Hypocrites",
     "verses": [
       {
@@ -1200,7 +1200,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 58,
+    "theme_no": 62,
     "theme_description": "Avoiding Gatherings Where Allah's Signs Are Mocked",
     "verses": [
       {
@@ -1212,7 +1212,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 59,
+    "theme_no": 63,
     "theme_description": "The Opportunistic Nature of Hypocrites",
     "verses": [
       {
@@ -1224,7 +1224,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 60,
+    "theme_no": 64,
     "theme_description": "The Defining Characteristics of Hypocrites",
     "verses": [
       {
@@ -1242,7 +1242,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 61,
+    "theme_no": 65,
     "theme_description": "Warning Against Taking Disbelievers as Allies",
     "verses": [
       {
@@ -1254,7 +1254,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 62,
+    "theme_no": 66,
     "theme_description": "The Destination of Hypocrites and the Path to Salvation",
     "verses": [
       {
@@ -1278,7 +1278,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 63,
+    "theme_no": 67,
     "theme_description": "Ethics of Speech: When Negative Talk is Permitted",
     "verses": [
       {
@@ -1296,7 +1296,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 64,
+    "theme_no": 68,
     "theme_description": "The Requirement to Believe in All Prophets",
     "verses": [
       {
@@ -1320,7 +1320,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 65,
+    "theme_no": 69,
     "theme_description": "The Demands and Transgressions of the Children of Israel",
     "verses": [
       {
@@ -1338,7 +1338,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 66,
+    "theme_no": 70,
     "theme_description": "The Sins of the Children of Israel and the Truth About Jesus",
     "verses": [
       {
@@ -1374,7 +1374,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 67,
+    "theme_no": 71,
     "theme_description": "Punishments for Transgressions and Reward for the Righteous Among Them",
     "verses": [
       {
@@ -1398,7 +1398,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 68,
+    "theme_no": 72,
     "theme_description": "The Prophetic Tradition and Muhammad's Place Among the Messengers",
     "verses": [
       {
@@ -1422,7 +1422,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 69,
+    "theme_no": 73,
     "theme_description": "Divine Testimony to Muhammad's Prophethood",
     "verses": [
       {
@@ -1434,7 +1434,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 70,
+    "theme_no": 74,
     "theme_description": "The Fate of Those Who Reject and Obstruct Truth",
     "verses": [
       {
@@ -1458,7 +1458,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 71,
+    "theme_no": 75,
     "theme_description": "A Universal Call to Believe in the Messenger",
     "verses": [
       {
@@ -1470,7 +1470,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 72,
+    "theme_no": 76,
     "theme_description": "Warning Against Religious Extremism and the Truth About Jesus",
     "verses": [
       {
@@ -1488,7 +1488,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 73,
+    "theme_no": 77,
     "theme_description": "The Reward for the Humble and Punishment for the Arrogant",
     "verses": [
       {
@@ -1500,7 +1500,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 74,
+    "theme_no": 78,
     "theme_description": "Conclusive Proof and the Light of Guidance",
     "verses": [
       {
@@ -1518,7 +1518,7 @@ var chapterData_4 = [
     ]
   },
   {
-    "theme_no": 75,
+    "theme_no": 79,
     "theme_description": "Inheritance Law: Ruling on Full Siblings (Kalalah)",
     "verses": [
       {

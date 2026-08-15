@@ -828,7 +828,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 27,
+    "theme_no": 36,
     "theme_description": "Proper Manners of Addressing the Prophet",
     "verses": [
       {
@@ -846,7 +846,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 28,
+    "theme_no": 37,
     "theme_description": "Abrogation in Divine Revelation",
     "verses": [
       {
@@ -870,7 +870,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 29,
+    "theme_no": 38,
     "theme_description": "Envy of the People of the Book and Patience",
     "verses": [
       {
@@ -888,7 +888,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 30,
+    "theme_no": 39,
     "theme_description": "False Claims About Paradise",
     "verses": [
       {
@@ -912,7 +912,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 31,
+    "theme_no": 40,
     "theme_description": "Prohibition of Preventing Worship in Sacred Places",
     "verses": [
       {
@@ -930,7 +930,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 32,
+    "theme_no": 41,
     "theme_description": "Refutation of the Claim that Allah Has Offspring",
     "verses": [
       {
@@ -948,7 +948,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 25,
+    "theme_no": 42,
     "theme_description": "True Guidance",
     "verses": [
       {
@@ -978,7 +978,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 26,
+    "theme_no": 43,
     "theme_description": "Reminder of Favours upon the Israelites",
     "verses": [
       {
@@ -996,7 +996,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 27,
+    "theme_no": 44,
     "theme_description": "Abraham's Test and Covenant",
     "verses": [
       {
@@ -1008,7 +1008,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 28,
+    "theme_no": 45,
     "theme_description": "The Sacred House and Its Purpose",
     "verses": [
       {
@@ -1020,7 +1020,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 29,
+    "theme_no": 46,
     "theme_description": "Abraham's Prayers",
     "verses": [
       {
@@ -1050,7 +1050,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 30,
+    "theme_no": 47,
     "theme_description": "One God - The Religion of Abraham",
     "verses": [
       {
@@ -1086,7 +1086,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 36,
+    "theme_no": 48,
     "theme_description": "The True Faith of Abraham: Beyond Sectarian Claims",
     "verses": [
       {
@@ -1110,7 +1110,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 37,
+    "theme_no": 49,
     "theme_description": "Allah's Way and the Unity of Divine Message",
     "verses": [
       {
@@ -1140,7 +1140,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 38,
+    "theme_no": 50,
     "theme_description": "The Change of Prayer Direction (Qiblah)",
     "verses": [
       {
@@ -1170,7 +1170,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 39,
+    "theme_no": 51,
     "theme_description": "Recognition of the Prophet and the Final Command on Qiblah",
     "verses": [
       {
@@ -1206,7 +1206,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 40,
+    "theme_no": 52,
     "theme_description": "The Blessing of the Messenger and the Call to Remember Allah",
     "verses": [
       {
@@ -1224,7 +1224,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 41,
+    "theme_no": 53,
     "theme_description": "Patience, Prayer, and Perseverance Through Trials",
     "verses": [
       {
@@ -1260,7 +1260,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 42,
+    "theme_no": 54,
     "theme_description": "The Ritual of Sa'i: Walking Between Safa and Marwah",
     "verses": [
       {
@@ -1272,7 +1272,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 43,
+    "theme_no": 55,
     "theme_description": "Consequences of Hiding Divine Guidance",
     "verses": [
       {
@@ -1302,7 +1302,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 44,
+    "theme_no": 56,
     "theme_description": "The Oneness of Allah and Signs in Creation",
     "verses": [
       {
@@ -1320,7 +1320,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 45,
+    "theme_no": 57,
     "theme_description": "False Love and the Day of Reckoning",
     "verses": [
       {
@@ -1344,7 +1344,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 46,
+    "theme_no": 58,
     "theme_description": "Warning Against Satan and Blind Following",
     "verses": [
       {
@@ -1374,7 +1374,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 47,
+    "theme_no": 59,
     "theme_description": "Lawful and Forbidden Foods",
     "verses": [
       {
@@ -1392,7 +1392,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 48,
+    "theme_no": 60,
     "theme_description": "Consequences of Trading Truth for Profit",
     "verses": [
       {
@@ -1416,7 +1416,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 49,
+    "theme_no": 61,
     "theme_description": "True Righteousness: Comprehensive Faith and Action",
     "verses": [
       {
@@ -1428,7 +1428,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 50,
+    "theme_no": 62,
     "theme_description": "The Law of Retaliation (Qisas) in Murder Cases",
     "verses": [
       {
@@ -1446,7 +1446,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 51,
+    "theme_no": 63,
     "theme_description": "Bequests and Final Wills",
     "verses": [
       {
@@ -1470,7 +1470,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 52,
+    "theme_no": 64,
     "theme_description": "The Obligation of Fasting in Ramadan",
     "verses": [
       {
@@ -1494,7 +1494,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 53,
+    "theme_no": 65,
     "theme_description": "The Nearness of Allah and Response to Supplication",
     "verses": [
       {
@@ -1506,7 +1506,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 54,
+    "theme_no": 66,
     "theme_description": "Permissions and Limits During Ramadan Nights",
     "verses": [
       {
@@ -1518,7 +1518,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 55,
+    "theme_no": 67,
     "theme_description": "Prohibition of Consuming Wealth Unjustly",
     "verses": [
       {
@@ -1530,7 +1530,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 56,
+    "theme_no": 68,
     "theme_description": "Lunar Phases and True Righteousness",
     "verses": [
       {
@@ -1542,7 +1542,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 26,
+    "theme_no": 69,
     "theme_description": "Regulations of Fighting in the Path of Allah",
     "verses": [
       {
@@ -1566,7 +1566,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 57,
+    "theme_no": 70,
     "theme_description": "Fighting Persecution and Spending in Allah's Cause",
     "verses": [
       {
@@ -1590,7 +1590,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 58,
+    "theme_no": 71,
     "theme_description": "Completing Hajj and Umrah with Proper Rituals",
     "verses": [
       {
@@ -1620,7 +1620,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 59,
+    "theme_no": 72,
     "theme_description": "Praying for Both Worlds and Completing Hajj Rites",
     "verses": [
       {
@@ -1650,7 +1650,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 60,
+    "theme_no": 73,
     "theme_description": "The Hypocrites and the Sincere Believers",
     "verses": [
       {
@@ -1680,7 +1680,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 61,
+    "theme_no": 74,
     "theme_description": "Complete Submission to Islam and Warning Against Satan",
     "verses": [
       {
@@ -1698,7 +1698,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 62,
+    "theme_no": 75,
     "theme_description": "The Day of Judgment and the Test of Worldly Life",
     "verses": [
       {
@@ -1722,7 +1722,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 63,
+    "theme_no": 76,
     "theme_description": "The Purpose of Prophets and the Test of Faith",
     "verses": [
       {
@@ -1740,7 +1740,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 64,
+    "theme_no": 77,
     "theme_description": "Charity and the Obligation of Fighting",
     "verses": [
       {
@@ -1758,7 +1758,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 65,
+    "theme_no": 78,
     "theme_description": "Fighting in Sacred Months and the Reward of Believers",
     "verses": [
       {
@@ -1776,7 +1776,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 66,
+    "theme_no": 79,
     "theme_description": "Rulings on Intoxicants, Gambling, and Orphans",
     "verses": [
       {
@@ -1794,7 +1794,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 67,
+    "theme_no": 80,
     "theme_description": "Prohibition of Marriage to Polytheists",
     "verses": [
       {
@@ -1806,7 +1806,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 68,
+    "theme_no": 81,
     "theme_description": "Rulings on Menstruation and Marital Relations",
     "verses": [
       {
@@ -1824,7 +1824,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 69,
+    "theme_no": 82,
     "theme_description": "Proper Use of Oaths and Vows",
     "verses": [
       {
@@ -1854,7 +1854,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 70,
+    "theme_no": 83,
     "theme_description": "Waiting Period After Divorce and Women's Rights",
     "verses": [
       {
@@ -1866,7 +1866,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 71,
+    "theme_no": 84,
     "theme_description": "Regulations on Revocable and Final Divorce",
     "verses": [
       {
@@ -1884,7 +1884,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 72,
+    "theme_no": 85,
     "theme_description": "Etiquette and Justice in Divorce Proceedings",
     "verses": [
       {
@@ -1902,7 +1902,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 73,
+    "theme_no": 86,
     "theme_description": "Nursing, Waiting Periods, and Fair Compensation",
     "verses": [
       {
@@ -1938,7 +1938,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 74,
+    "theme_no": 87,
     "theme_description": "Guarding Prayers and Provisions for Widows",
     "verses": [
       {
@@ -1974,7 +1974,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 75,
+    "theme_no": 88,
     "theme_description": "Lessons from the Children of Israel: Prophet Samuel and King Saul",
     "verses": [
       {
@@ -2040,7 +2040,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 76,
+    "theme_no": 89,
     "theme_description": "Distinction Among Messengers and Human Free Will",
     "verses": [
       {
@@ -2052,7 +2052,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 77,
+    "theme_no": 90,
     "theme_description": "The Urgency of Charity Before the Day of Judgment",
     "verses": [
       {
@@ -2064,7 +2064,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 78,
+    "theme_no": 91,
     "theme_description": "Ayat al-Kursi: The Greatest Verse",
     "verses": [
       {
@@ -2076,7 +2076,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 79,
+    "theme_no": 92,
     "theme_description": "No Compulsion in Religion and Allah as the Guardian",
     "verses": [
       {
@@ -2094,7 +2094,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 80,
+    "theme_no": 93,
     "theme_description": "Stories of Faith: Abraham, Ezra, and Abraham Again",
     "verses": [
       {
@@ -2118,7 +2118,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 81,
+    "theme_no": 94,
     "theme_description": "The Virtues and Etiquette of Charity",
     "verses": [
       {
@@ -2208,7 +2208,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 82,
+    "theme_no": 95,
     "theme_description": "The Severe Prohibition of Interest (Riba)",
     "verses": [
       {
@@ -2244,7 +2244,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 83,
+    "theme_no": 96,
     "theme_description": "Mercy Toward Debtors and Accountability",
     "verses": [
       {
@@ -2262,7 +2262,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 84,
+    "theme_no": 97,
     "theme_description": "The Longest Verse: Detailed Rules for Recording Debts",
     "verses": [
       {
@@ -2274,7 +2274,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 85,
+    "theme_no": 98,
     "theme_description": "Collateral and Trust in Transactions",
     "verses": [
       {
@@ -2286,7 +2286,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 86,
+    "theme_no": 99,
     "theme_description": "Allah's Sovereignty and Accountability",
     "verses": [
       {
@@ -2298,7 +2298,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 87,
+    "theme_no": 100,
     "theme_description": "The Perfect Declaration of Faith",
     "verses": [
       {
@@ -2310,7 +2310,7 @@ var chapterData_2 = [
     ]
   },
   {
-    "theme_no": 88,
+    "theme_no": 101,
     "theme_description": "The Closing Prayer: A Du'a of Mercy and Victory",
     "verses": [
       {
