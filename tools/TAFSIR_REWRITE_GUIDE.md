@@ -194,11 +194,13 @@ node -e "eval(require('fs').readFileSync('data/tafsir_004.js','utf8')); console.
 | 4 an-Nisa | 176 | done | 224 / 343 / 262 |
 | 5 al-Ma'idah | 120 | done | 211 / 312 / 254 |
 | 6 al-An'am | 165 | done | 228 / 293 / 252 |
-| 7–114 | 5,282 remaining | not started | — |
+| 7 al-A'raf | 206 | done | 206 / 306 / 253 |
+| 8 al-Anfal | 75 | done | 213 / 290 / 248 |
+| 9–114 | 5,001 remaining | not started | — |
 
-Largest remaining chapters: 26 (227), 7 (206), 37 (182), 20 (135), 9 (129), 11 (123).
+Largest remaining chapters: 26 (227), 37 (182), 20 (135), 9 (129), 11 (123), 10 (109).
 
-All six completed chapters pass `qa_tafsir.js` clean.
+All eight completed chapters pass `qa_tafsir.js` clean.
 
 ---
 
