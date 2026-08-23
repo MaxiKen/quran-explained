@@ -5,13 +5,13 @@ var chapterData_106 = [
     "verses": [
       {
         "ayah_no_surah": 1,
-        "ayah_ar": "لِإِيلَافِ قُرَيْشٍ",
+        "ayah_ar": "لِإِيلَٰفِ قُرَيۡشٍ",
         "ayah_en": "˹At least˺ for ˹the favour of˺ making Quraysh habitually secure—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/106001.mp3"
       },
       {
         "ayah_no_surah": 2,
-        "ayah_ar": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+        "ayah_ar": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
         "ayah_en": "secure in their trading caravan ˹to Yemen˺ in the winter and ˹Syria˺ in the summer—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/106002.mp3"
       }
@@ -23,14 +23,14 @@ var chapterData_106 = [
     "verses": [
       {
         "ayah_no_surah": 3,
-        "ayah_ar": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
-        "ayah_en": "let them worship the Lord of this ˹Sacred˺ House,",
+        "ayah_ar": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+        "ayah_en": "let them worship the Lord of this ˹Sacred˺ House",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/106003.mp3"
       },
       {
         "ayah_no_surah": 4,
-        "ayah_ar": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
-        "ayah_en": "Who has fed them against hunger and made them secure against fear.",
+        "ayah_ar": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+        "ayah_en": "Who has fed them against hunger and made them secure against fear",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/106004.mp3"
       }
     ]

@@ -5,32 +5,32 @@ var chapterData_87 = [
     "verses": [
       {
         "ayah_no_surah": 1,
-        "ayah_ar": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
-        "ayah_en": "Glorify the Name of your Lord, the Most High,",
+        "ayah_ar": "سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى",
+        "ayah_en": "Glorify the Name of your Lord, the Most High",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087001.mp3"
       },
       {
         "ayah_no_surah": 2,
-        "ayah_ar": "الَّذِي خَلَقَ فَسَوَّىٰ",
-        "ayah_en": "Who created and ˹perfectly˺ fashioned ˹all˺,",
+        "ayah_ar": "ٱلَّذِي خَلَقَ فَسَوَّىٰ",
+        "ayah_en": "Who created and ˹perfectly˺ fashioned ˹all˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087002.mp3"
       },
       {
         "ayah_no_surah": 3,
-        "ayah_ar": "وَالَّذِي قَدَّرَ فَهَدَىٰ",
-        "ayah_en": "and Who ordained precisely and inspired accordingly,",
+        "ayah_ar": "وَٱلَّذِي قَدَّرَ فَهَدَىٰ",
+        "ayah_en": "and Who ordained precisely and inspired accordingly",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087003.mp3"
       },
       {
         "ayah_no_surah": 4,
-        "ayah_ar": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ",
-        "ayah_en": "and Who brings forth ˹green˺ pasture,",
+        "ayah_ar": "وَٱلَّذِيٓ أَخۡرَجَ ٱلۡمَرۡعَىٰ",
+        "ayah_en": "and Who brings forth ˹green˺ pasture",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087004.mp3"
       },
       {
         "ayah_no_surah": 5,
-        "ayah_ar": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ",
-        "ayah_en": "then reduces it to withered chaff.",
+        "ayah_ar": "فَجَعَلَهُۥ غُثَآءً أَحۡوَىٰ",
+        "ayah_en": "then reduces it to withered chaff",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087005.mp3"
       }
     ]
@@ -41,50 +41,50 @@ var chapterData_87 = [
     "verses": [
       {
         "ayah_no_surah": 6,
-        "ayah_ar": "سَنُقْرِئُكَ فَلَا تَنسَىٰ",
-        "ayah_en": "We will have you recite ˹the Quran, O Prophet,˺ so you will not forget ˹any of it˺,",
+        "ayah_ar": "سَنُقۡرِئُكَ فَلَا تَنسَىٰٓ",
+        "ayah_en": "We will have you recite ˹the Quran, O Prophet,˺ so you will not forget ˹any of it˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087006.mp3"
       },
       {
         "ayah_no_surah": 7,
-        "ayah_ar": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ",
-        "ayah_en": "unless Allah wills otherwise. He surely knows what is open and what is hidden.",
+        "ayah_ar": "إِلَّا مَا شَآءَ ٱللَّهُۚ إِنَّهُۥ يَعۡلَمُ ٱلۡجَهۡرَ وَمَا يَخۡفَىٰ",
+        "ayah_en": "unless Allah wills otherwise. He surely knows what is open and what is hidden",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087007.mp3"
       },
       {
         "ayah_no_surah": 8,
-        "ayah_ar": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
-        "ayah_en": "We will facilitate for you the Way of Ease.",
+        "ayah_ar": "وَنُيَسِّرُكَ لِلۡيُسۡرَىٰ",
+        "ayah_en": "We will facilitate for you the Way of Ease",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087008.mp3"
       },
       {
         "ayah_no_surah": 9,
-        "ayah_ar": "فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَىٰ",
-        "ayah_en": "So ˹always˺ remind ˹with the Quran˺—˹even˺ if the reminder is beneficial ˹only to some˺.",
+        "ayah_ar": "فَذَكِّرۡ إِن نَّفَعَتِ ٱلذِّكۡرَىٰ",
+        "ayah_en": "So ˹always˺ remind ˹with the Quran˺—˹even˺ if the reminder is beneficial ˹only to some˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087009.mp3"
       },
       {
         "ayah_no_surah": 10,
-        "ayah_ar": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
-        "ayah_en": "Those in awe ˹of Allah˺ will be mindful ˹of it˺.",
+        "ayah_ar": "سَيَذَّكَّرُ مَن يَخۡشَىٰ",
+        "ayah_en": "Those in awe ˹of Allah˺ will be mindful ˹of it˺",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087010.mp3"
       },
       {
         "ayah_no_surah": 11,
-        "ayah_ar": "وَيَتَجَنَّبُهَا الْأَشْقَى",
-        "ayah_en": "But it will be shunned by the most wretched,",
+        "ayah_ar": "وَيَتَجَنَّبُهَا ٱلۡأَشۡقَى",
+        "ayah_en": "But it will be shunned by the most wretched",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087011.mp3"
       },
       {
         "ayah_no_surah": 12,
-        "ayah_ar": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ",
-        "ayah_en": "who will burn in the greatest Fire,",
+        "ayah_ar": "ٱلَّذِي يَصۡلَى ٱلنَّارَ ٱلۡكُبۡرَىٰ",
+        "ayah_en": "who will burn in the greatest Fire",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087012.mp3"
       },
       {
         "ayah_no_surah": 13,
-        "ayah_ar": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
-        "ayah_en": "where they will not ˹be able to˺ live or die.",
+        "ayah_ar": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحۡيَىٰ",
+        "ayah_en": "where they will not ˹be able to˺ live or die",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087013.mp3"
       }
     ]
@@ -95,38 +95,38 @@ var chapterData_87 = [
     "verses": [
       {
         "ayah_no_surah": 14,
-        "ayah_ar": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
-        "ayah_en": "Successful indeed are those who purify themselves,",
+        "ayah_ar": "قَدۡ أَفۡلَحَ مَن تَزَكَّىٰ",
+        "ayah_en": "Successful indeed are those who purify themselves",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087014.mp3"
       },
       {
         "ayah_no_surah": 15,
-        "ayah_ar": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ",
-        "ayah_en": "remember the Name of their Lord, and pray.",
+        "ayah_ar": "وَذَكَرَ ٱسۡمَ رَبِّهِۦ فَصَلَّىٰ",
+        "ayah_en": "remember the Name of their Lord, and pray",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087015.mp3"
       },
       {
         "ayah_no_surah": 16,
-        "ayah_ar": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
-        "ayah_en": "But you ˹deniers only˺ prefer the life of this world,",
+        "ayah_ar": "بَلۡ تُؤۡثِرُونَ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا",
+        "ayah_en": "But you ˹deniers only˺ prefer the life of this world",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087016.mp3"
       },
       {
         "ayah_no_surah": 17,
-        "ayah_ar": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ",
-        "ayah_en": "even though the Hereafter is far better and more lasting.",
+        "ayah_ar": "وَٱلۡأٓخِرَةُ خَيۡرٞ وَأَبۡقَىٰٓ",
+        "ayah_en": "even though the Hereafter is far better and more lasting",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087017.mp3"
       },
       {
         "ayah_no_surah": 18,
-        "ayah_ar": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ",
+        "ayah_ar": "إِنَّ هَٰذَا لَفِي ٱلصُّحُفِ ٱلۡأُولَىٰ",
         "ayah_en": "This is certainly ˹mentioned˺ in the earlier Scriptures—",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087018.mp3"
       },
       {
         "ayah_no_surah": 19,
-        "ayah_ar": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ",
-        "ayah_en": "the Scriptures of Abraham and Moses.",
+        "ayah_ar": "صُحُفِ إِبۡرَٰهِيمَ وَمُوسَىٰ",
+        "ayah_en": "the Scriptures of Abraham and Moses",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/087019.mp3"
       }
     ]

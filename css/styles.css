@@ -2,13 +2,37 @@
    AL-QURAN INTERACTIVE READER — MAIN STYLESHEET
    ================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* ================================================
+   LOCAL FONTS — bundled in ../fonts, works 100% offline
+   (no external font requests are made by this app)
+================================================ */
 
+/* KFGQPC Uthmanic Script HAFS (hafs v18) — official King Fahd Glorious
+   Quran Printing Complex font, version-matched to the KFGQPC Unicode
+   Uthmani Arabic text used in the chapter data files */
 @font-face {
   font-family: 'KFGQPC Hafs';
-  src: url('https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff') format('woff');
+  src: url('../fonts/hafs.18.woff2') format('woff2'),
+       url('../fonts/hafs.18.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Amiri Quran — fallback for Quranic Arabic (SIL Open Font License) */
+@font-face {
+  font-family: 'Amiri Quran';
+  src: url('../fonts/AmiriQuran-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter (variable font, weights 100–900) — UI font (SIL Open Font License) */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Variable.ttf') format('truetype-variations');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
