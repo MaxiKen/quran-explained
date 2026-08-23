@@ -2,9 +2,10 @@
    AL-QURAN INTERACTIVE READER — SERVICE WORKER
    ================================================
    Strategy:
-   - Pre-cache ONLY core app shell (HTML, CSS, JS, icons)
+   - Pre-cache core app shell (HTML, CSS, JS, icons) + locally bundled fonts
    - Chapter data files are cached ON FIRST USE (when user opens a chapter)
-   - External fonts are cached during install (non-blocking)
+   - All fonts are bundled locally in /fonts — the app makes NO external
+     font requests and renders fully offline
 
    FIXES:
    - Use relative paths so app works both at domain root and in subfolders
@@ -12,9 +13,9 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.2.0';
+const CACHE_VERSION = 'quran-reader-v1.3.0';
 
-// ---- Core app shell — only the files needed for the homepage ----
+// ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -23,16 +24,15 @@ const CORE_ASSETS = [
   './js/app.js',
   './icons/icon-192x192.png',
   './icons/icon-512x512.png',
-  './manifest.json'
+  './manifest.json',
+  './fonts/hafs.18.woff2',
+  './fonts/hafs.18.ttf',
+  './fonts/AmiriQuran-Regular.ttf',
+  './fonts/Inter-Variable.ttf'
 ];
 
-// ---- External fonts — cached during install (non-blocking) ----
-const EXTERNAL_ASSETS = [
-  'https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@300;400;500;600;700;800&display=swap',
-  'https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/font.css',
-  'https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff2',
-  'https://cdn.jsdelivr.net/gh/nickcisco/kfgqpc-hafs@1.0/UthmanicHafs_v2-1.woff'
-];
+// ---- External assets — none: fonts and all static assets are local ----
+const EXTERNAL_ASSETS = [];
 
 /* ================================================
    INSTALL — cache core shell + fonts
@@ -54,13 +54,13 @@ self.addEventListener('install', (event) => {
         }
       }
 
-      // Cache fonts (non-blocking)
+      // Cache any optional external assets (currently none) — non-blocking
       await Promise.allSettled(
         EXTERNAL_ASSETS.map(async (url) => {
           try {
             await cache.add(url);
           } catch (err) {
-            console.warn('[SW] Font cache skip:', url.substring(0, 80), err.message);
+            console.warn('[SW] Optional asset cache skip:', String(url).substring(0, 80), err.message);
           }
         })
       );

@@ -5,8 +5,8 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 1,
-        "ayah_ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-        "ayah_en": "In the Name of Allah—the Most Compassionate, Most Merciful.",
+        "ayah_ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+        "ayah_en": "In the Name of Allah—the Most Compassionate, Most Merciful",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001001.mp3"
       }
     ]
@@ -17,8 +17,8 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 2,
-        "ayah_ar": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-        "ayah_en": "All praise is for Allah—Lord of all worlds,",
+        "ayah_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+        "ayah_en": "All praise is for Allah—Lord of all worlds",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001002.mp3"
       }
     ]
@@ -29,14 +29,14 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 3,
-        "ayah_ar": "الرَّحْمَٰنِ الرَّحِيمِ",
-        "ayah_en": "the Most Compassionate, Most Merciful,",
+        "ayah_ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+        "ayah_en": "the Most Compassionate, Most Merciful",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001003.mp3"
       },
       {
         "ayah_no_surah": 4,
-        "ayah_ar": "مَالِكِ يَوْمِ الدِّينِ",
-        "ayah_en": "Master of the Day of Judgment.",
+        "ayah_ar": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+        "ayah_en": "Master of the Day of Judgment",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001004.mp3"
       }
     ]
@@ -47,8 +47,8 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 5,
-        "ayah_ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-        "ayah_en": "You ˹alone˺ we worship and You ˹alone˺ we ask for help.",
+        "ayah_ar": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
+        "ayah_en": "You ˹alone˺ we worship and You ˹alone˺ we ask for help",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001005.mp3"
       }
     ]
@@ -59,8 +59,8 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 6,
-        "ayah_ar": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
-        "ayah_en": "Guide us along the Straight Path,",
+        "ayah_ar": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+        "ayah_en": "Guide us along the Straight Path",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001006.mp3"
       }
     ]
@@ -71,8 +71,8 @@ var chapterData_1 = [
     "verses": [
       {
         "ayah_no_surah": 7,
-        "ayah_ar": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
-        "ayah_en": "the Path of those You have blessed—not those You are displeased with, or those who are astray.",
+        "ayah_ar": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
+        "ayah_en": "the Path of those You have blessed—not those You are displeased with, or those who are astray",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/001007.mp3"
       }
     ]
