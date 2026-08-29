@@ -594,4 +594,7 @@ Do **not** rewrite §1–§6 or §10.1–§10.2; those are stable. Keep the file
 
 ---
 
+## IMPORTANT NOTE
+It is important that you read through about 6 randomly selected tafsir files already existing ( this include the last one) after understanding the prompt to to learn the general structure. Define don't have any expected words everything. Learn from the existing files. 
+
 *End of handoff document.*
