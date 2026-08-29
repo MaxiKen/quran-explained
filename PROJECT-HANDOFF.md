@@ -1,7 +1,7 @@
 # PROJECT HANDOFF — Verse-by-Verse Qur'an Tafsir for an App
 
-**Last updated:** 2026-08-29
-**Status:** ACTIVE. Chapter 3 (Āl 'Imrān) is in progress. Verses 1–80 are delivered and verified. Verses 81–90 are next.
+**Last updated:** 2026-08-30
+**Status:** ACTIVE. Chapters 1–3 COMPLETE. Chapter 4 (An-Nisā') in progress: **10/176** verses delivered. Next: 4:11–20 when authorised — do **not** auto-continue.
 
 ---
 
@@ -25,7 +25,7 @@ You are an AI agent picking up an ongoing project. **Read this file in full befo
 
 The user is building the content layer of a **mobile/web Qur'an app**. For each verse of the Qur'an, the app will display one independent, self-contained commentary record. The user supplies a surah name and the complete English translation of that surah. The job is to produce exhaustive verse-by-verse tafsir, ten verses at a time, one output file per batch, formatted so an application can parse it automatically.
 
-The workspace already contains **38 delivered files covering 373 verses and 432,107 words**.
+The workspace already contains **49 delivered files covering 483 verses and 534,036 words**.
 
 ---
 
@@ -209,12 +209,14 @@ Do **not** start unless the user has asked for a batch in this turn or the immed
 ```bash
 cd /home/user && python3 -c "
 import json
-v=json.load(open('verses-3.json'))
-for i in range(81,91):
+v=json.load(open('verses-4.json'))  # <-- change when chapter changes
+for i in range(11,21):
     print(i, '|', v[str(i)])
     print()
 "
 ```
+
+`verses-4.json` is built and ready (176 verses). Dump the authorised range only.
 
 `verses-N.json` is the **sole authority** for verse openings. Keys are **strings** — cast with `int(k)`. Never retype a verse from memory or from the `.md` translation file.
 
@@ -236,9 +238,9 @@ Record the conclusions in the working notes before writing, because the search r
 cd /home/user && python3 - <<'PY'
 import json, re, glob
 
-f = 'chapter-3-ali-imran-tafsir-81-90.md'          # <-- change this
+f = 'chapter-4-an-nisa-tafsir-11-20.md'        # <-- change this
 txt = open(f, encoding='utf-8').read()
-v3  = json.load(open('verses-3.json'))              # <-- and this
+v3  = json.load(open('verses-4.json'))              # <-- and this
 
 print('1. MARKERS on own line:', len(re.findall(r'^===VERSE-END===$', txt, re.M)), '(expect 10)')
 print('   anywhere:', txt.count('===VERSE-END==='))
@@ -266,12 +268,12 @@ for i in range(0, len(blocks), 2):
         print('  MISMATCH v'+num); print('    got:', repr(got)[:400]); print('    exp:', repr(exp)[:400])
 print('4. openings checked', len(blocks)//2, '| errors:', errs)
 
-i = txt.index('## Verse 81')
+i = txt.index('## Verse 11')  # <-- first verse of batch
 print('5. intro separator (should be ---):', repr(txt[i-8:i]))
 print('6. WORDS:', len(txt.split()))
 
 tot = 0
-for p in sorted(glob.glob('chapter-3-ali-imran-tafsir-*.md'),
+for p in sorted(glob.glob('chapter-4-an-nisa-tafsir-*.md'),
                 key=lambda x:int(re.search(r'-(\d+)-(\d+)\.md$',x).group(1))):
     s = open(p, encoding='utf-8').read()
     n = len(re.findall(r'^===VERSE-END===$', s, re.M)); tot += len(s.split())
@@ -295,10 +297,10 @@ The write mechanism silently turns a lone marker line into `---`. Fix with:
 ```bash
 cd /home/user && python3 - <<'PY'
 import re
-f = 'chapter-3-ali-imran-tafsir-81-90.md'          # <-- change
+f = 'chapter-4-an-nisa-tafsir-11-20.md'        # <-- change
 t = open(f, encoding='utf-8').read()
 
-first_verse = 81                                    # <-- change
+first_verse = 11                                   # <-- change
 reps = []
 for m in re.finditer(r'^## (.+)$', t, re.M):
     title = m.group(1)
@@ -341,7 +343,7 @@ Do not begin the next batch. Say what comes next and wait.
 
 ## 6. WORKSPACE INVENTORY
 
-### 6.1 Delivered tafsir files (38)
+### 6.1 Delivered tafsir files (51)
 
 See §7 for the complete log with counts.
 
@@ -353,11 +355,14 @@ See §7 for the complete log with counts.
 | `PROJECT-HANDOFF.md` | This file. The handoff document. Update after every batch. |
 | `verses-2.json` | Al-Baqarah verse lookup, 286 verses. Sole authority for ch.2 openings. |
 | `verses-3.json` | Āl 'Imrān verse lookup, 200 verses. Sole authority for ch.3 openings. |
+| `verses-4.json` | An-Nisā' verse lookup, 176 verses. Sole authority for ch.4 openings. Built 2026-08-30. |
 | `build_verses.py` | The canonical parser that builds a `verses-N.json` from a formatted translation `.md`. See §6.4. |
 | `chapter-2-al-baqarah-translation-clearquran.md` | Ch.2 translation, 286 verses, verbatim, H1 + source note + `---` + body. |
 | `chapter-3-ali-imran-translation-clearquran.md` | Ch.3 translation, 200 verses, same format. |
+| `chapter-4-an-nisa-translation-clearquran.md` | Ch.4 translation, 176 verses, same format. Footnotes stripped; openings authority via `verses-4.json`. |
 | `pastes/chapter-2-al-baqarah-41-160-userpaste.md` | Verbatim archive of a user paste. |
 | `pastes/chapter-3-ali-imran-1-200-userpaste.md` | Verbatim archive of the user's original ch.3 paste, pre-reformatting. |
+| `pastes/chapter-4-an-nisa-1-176-userpaste.md` | Verbatim archive of the user's original ch.4 paste, pre-reformatting. |
 
 `verses.json` was **deleted** — superseded by `verses-2.json`. Any stale reference to it must be repointed.
 
@@ -424,7 +429,7 @@ Required by `build_verses.py`:
 
 All prefixed `chapter-2-al-baqarah-tafsir-` and suffixed `.md`. All verified: 10 markers each (6 for the final batch), 0 stray `˝`.
 
-### Chapter 3 — Āl 'Imrān: IN PROGRESS (80 of 200 verses, 8 files, 93,457 words)
+### Chapter 3 — Āl 'Imrān: COMPLETE (200 of 200 verses, 20 files, 204,440 words)
 
 | File | Verses | Words | Status |
 |---|---|---|---|
@@ -436,8 +441,28 @@ All prefixed `chapter-2-al-baqarah-tafsir-` and suffixed `.md`. All verified: 10
 | `chapter-3-ali-imran-tafsir-51-60.md` | 10 | 15,911 | Verified, presented |
 | `chapter-3-ali-imran-tafsir-61-70.md` | 10 | 11,276 | Verified, presented |
 | `chapter-3-ali-imran-tafsir-71-80.md` | 10 | 11,502 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-81-90.md` | 10 | 12,486 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-91-100.md` | 10 | 10,106 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-101-110.md` | 10 | 9,285 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-111-120.md` | 10 | 8,903 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-121-130.md` | 10 | 8,760 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-131-140.md` | 10 | 9,158 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-141-150.md` | 10 | 8,740 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-151-160.md` | 10 | 9,006 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-161-170.md` | 10 | 8,471 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-171-180.md` | 10 | 8,498 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-181-190.md` | 10 | 8,516 | Verified, presented |
+| `chapter-3-ali-imran-tafsir-191-200.md` | 10 | 9,054 | Verified, presented |
 
-### Grand total: **38 files · 373 verses · 432,107 words**
+### Chapter 4 — An-Nisā': IN PROGRESS (10 of 176 verses, 1 file, 8,635 words)
+
+| File | Verses | Words | Status |
+|---|---|---|---|
+| `chapter-4-an-nisa-tafsir-1-10.md` | 10 | 8,635 | Verified, presented |
+
+**Sources (stable):** `pastes/chapter-4-an-nisa-1-176-userpaste.md`; `chapter-4-an-nisa-translation-clearquran.md`; `verses-4.json` (176 vv, openings authority).
+
+### Grand total: **51 files · 503 verses · 551,725 words**
 
 ---
 
@@ -445,29 +470,32 @@ All prefixed `chapter-2-al-baqarah-tafsir-` and suffixed `.md`. All verified: 10
 
 ### Stopped at
 
-**Chapter 3, verses 71–80.** Delivered, verified clean, and presented on 2026-08-29.
+**Chapter 4, verses 1–10.** Delivered, verified clean (10/10 markers blank-isolated, 0 opening mismatches, 0 stray U+02DD, brackets 18/18, intro `---` OK), and presented on 2026-08-30. Word count: 8,635.
 
-Chapter 3 stands at **80 of 200 verses complete**.
+Chapter 4 stands at **10 of 176 verses complete**.
 
-### Next: Chapter 3, verses 81–90
+### Next: Chapter 4, verses 11–20
 
-The user has **not yet authorised** this batch. Wait for *"Continue. A new md file"* or equivalent.
+The user has **not yet authorised** this batch. Wait for *"Continue. A new md file"* or equivalent. **Do not auto-continue.**
 
-**What is in verses 81–90** (from the surah's own structure, so the next agent can prepare):
+**Filename:** `chapter-4-an-nisa-tafsir-11-20.md`  
+**Openings authority:** `verses-4.json`
 
-- **v81** — the covenant of the prophets: God takes a pledge from every prophet that when a messenger comes confirming what they have, they will believe in him and help him. A major verse for the finality of prophethood and for the continuity of revelation.
-- **v82** — whoever turns away after that is a rebel (*fāsiq*).
-- **v83** — do they seek a religion other than God's, when everything in the heavens and earth submits to Him?
-- **vv84–85** — declare belief in God, in what was sent to us and to the earlier prophets without distinction; whoever seeks a religion other than *islām*, it will not be accepted.
-- **vv86–91** — how shall God guide a people who disbelieved after believing and after witnessing that the messenger is true? The repentance of those who disbelieved after believing and then increased in disbelief will not be accepted; those who die as disbelievers — even an earthful of gold would not be accepted from them.
+**What is in verses 11–20** (inheritance arithmetic; limits; sexual misconduct; repentance; mistreatment of women; dower claw-back):
 
-Anticipated cruxes to research: the covenant verse (v81) and its relationship to the finality of prophethood; the grammar of v86's interrogative; whether v89's repentance exception is conditioned; the "earthful of gold" verse (v91) and its bearing on the efficacy of charity without faith; and the question of who exactly vv86–90 address (reported asbāb concern a group who apostatised and returned to Makkah).
+- **v11** — children: male = two female shares; two+ daughters two-thirds; one daughter half; parents sixths; mother third if no child (or sixth with siblings); after bequests/debts; fairness note; God Knowing, Wise.
+- **v12** — spouses' shares (half/quarter/eighth); maternal siblings sixth/third; after bequests/debts without harm; God Knowing, Forbearing.
+- **v13–14** — these are God's limits; obey → Gardens; disobey and transgress → Hell, humiliating punishment.
+- **v15–16** — lewdness: four witnesses, confine women until death or God makes a way; the two who commit it — harm/discipline, then if repent and reform, leave them; God Tawwāb, Raḥīm.
+- **v17–18** — accepted repentance (evil in ignorance, repent soon) vs rejected (persist until death-cry; die as disbelievers).
+- **v19** — do not inherit women against will; do not mistreat to reclaim dower (unless clear fahisha); live with them *bi-al-maʿrūf*; dislike may hide good God brings.
+- **v20** — replacing a wife: if you gave a stack of gold, take nothing back; would you take it as *buhtān* and clear sin?
+
+Anticipated cruxes: 2:1 ratio and maintenance logic (11); *kalāla* maternal siblings (12); *ḥudūd Allāh* (13–14); pre-ḥadd confinement and "way" (15) with later 24:2 context graded carefully; dual in 16; deathbed tawba (18); inheriting women as property (19) jāhiliyya custom; dower claw-back after intimacy (20–21 next). Do not invent fixed flogging numbers the verse does not state; do not erase later legislation where classical synthesis connects them.
 
 ### Then
 
-91–100, 101–110, … in tens, to 200. Twelve batches remain in chapter 3 after 81–90.
-
----
+21–30 (oaths of marriage forbidden degrees, milk al-yamīn, bondwomen marriage, etc.). **Do not auto-continue.**
 
 ## 9. PITFALLS AND ERRORS — do not repeat these
 
@@ -555,10 +583,97 @@ Qur'an cross-references; Bukhārī, Muslim, Abū Dāwūd, Tirmidhī, Nasā'ī, I
 - **The three *annā* "how?" questions** — 2:260, 3:40, 3:47.
 - **"Son of Mary"** every time he is named — the doctrine carried in the grammar.
 - **"By His leave" (*bi-idhnihi*)** as the whole reply to the argument from miracles.
-- **Bearing witness** — *al-shāhidīn* (3:53) → *ishhadū bi-annā muslimūn* (3:64) → *wa-antum tashhadūn* (3:70).
+- **Bearing witness** — *al-shāhidīn* (3:53) → *ishhadū bi-annā muslimūn* (3:64) → *wa-antum tashhadūn* (3:70) → the prophets told *ishhadū* and God is *min al-shāhidīn* (3:81) → those who *shahidū anna al-rasūla ḥaqq* then reversed (3:86) → counter-witness of God, angels, humanity (3:87).
 - **"While they know" (*wa-hum yaʿlamūn*)** — 3:70, 3:71, 3:75, 3:78. The surah's charge is never ignorance.
 - **The surah's precision**: *ṭā'ifah* / *farīq* / *minhum* — a party, never the whole.
 - **The surah denies Jesus nothing** before the confrontation at 3:59 and 3:61.
+- **Covenant / *mīthāq*** — the prophets' covenant at 3:81 stands in series with the *ʿahd* fulfilled at 3:76 and the *w-f-y* root (3:55, 3:57, 3:76). Turning after the covenant makes one *fāsiq* (3:82).
+- **Root *n-ṣ-r* extended** — disciples as *anṣār* (3:52) → no *nāṣir* for rejecters (3:56) → covenant demands *la-tanṣurunnahu* (3:81).
+- ***Islām* as cosmic fact and named *dīn*** — creation submits *ṭawʿan wa-karhan* (3:83); the creed ends *wa-naḥnu lahu muslimūn* (3:84); *man yabtaghi ghayra al-islāmi dīnan* will not be accepted (3:85); continuous with 3:19 and 3:67.
+- **Repentance hinge** — wall at 86–88, gate at 89 (*tawbah* + *iṣlāḥ*), trajectory of increase at 90; door must not be closed by a careless reading of 90. Completed by 91: those who *die* as disbelievers — earthful of gold will not ransom.
+- **Wealth in two tenses** — gold that cannot ransom after death on disbelief (3:91) vs. spending in life from what one loves as the road to *birr* (3:92). Abū Ṭalḥah / Bayruḥā' is the living tafsir.
+- **Abraham → House → ḥajj** — follow Abraham the *ḥanīf* (3:95) → first House at Bakkah (3:96) → *Maqām Ibrāhīm*, sanctuary, ḥajj obligation conditional on *istiṭāʿah*, God *ghanī* (3:97). Continuous with 2:125–129 and 3:67.
+- **Israel's self-prohibition** (3:93) — Jacob forbade something for himself before the Torah; not proof of Abrahamic food law; "bring the Torah and read it."
+- ***Farīq* warning inward** (3:100) — if believers obey a party of those given the Book, they will be turned back to disbelief; obedience (*iṭāʿah*), not contact, is the danger named.
+- ***Iʿtiṣām / ḥabl Allāh*** (3:101–103) — hold fast to God; hold fast to the rope of God all together; do not split; Aws–Khazraj joined hearts as living tafsir of *allafa bayna qulūbikum*.
+- ***Ḥaqqa tuqātihi*** (3:102) — *taqwā* as God deserves (Ibn Masʿūd's three pairs), held with 64:16's ability; die not except as *muslimūn* = preserve Islam in life.
+- ***Amr bi-l-maʿrūf / nahy ʿan al-munkar*** (3:104, 3:110) — group mission and condition of *khayra ummah*; *minkum* as nested partitive/inclusive.
+- ***Khayra ummah*** (3:110) — best community *for* humankind; title tracks conditions (ʿUmar); *minhumu al-mu'minūn* preserves party-precision.
+- **Faces bright/dark** (3:106–107) — eschatological radiance/gloom, not race; disbelief after belief asked of the dark-faced.
+- ***Laysū sawā'*** (3:113–115) — explicit climax of party-precision; upright community among the People of the Book (night recitation, prostration, belief, *amr*/*nahy*, race to good); no good denied; God knows the *muttaqīn*.
+- **Two protection-ropes** (3:112) — *ḥabl min Allāh* and *ḥabl min al-nās*; disgrace-sentence with treaty exception; cause is conduct (rejection of signs, killing prophets without right, disobedience, transgression).
+- ***Biṭānah*** (3:118) — inner lining / intimates, not general friendship; hatred in the mouth, greater in the breast.
+- **Unanswered love and private rage** (3:119) — you love them, they do not; whole Book vs selective; fingertips bitten in *ghayẓ*.
+- ***Ṣabr + taqwā* as shield** (3:120) — envy of good / joy at evil; under patience and mindfulness their *kayd* does not harm; God *muḥīṭ*.
+- **Foundationless spending** (3:117) — harvest struck by freezing wind; they wronged themselves; pairs with 3:91–92 on wealth's tense and ground.
+- **Uḥud frame opens** (3:121–130) — dawn posting (*ghadawta min ahlika*, *tubawwiʾu maqāʿid*); two groups nearly lose heart (*hammat an tafshalā*), God their *walī*, *tawakkul* (122); Badr as *naṣr* when *adhillah* → *taqwā* → *shukr* (123).
+- **Angels conditional** (3:124–125) — 3k then 5k *musawwimīn* if *ṣabr*+*taqwā*; link/debate vs Badr 8:9; condition explains Uḥud vs Badr.
+- ***Naṣr* only from God** (3:126–127) — angels as *bushrā* and heart-calm only; *al-ʿAzīz al-Ḥakīm*; cut off a *ṭaraf* or restrain so they withdraw *khāʾibīn*.
+- ***Laysa laka min al-amri shayʾ*** (3:128–129) — Prophet stripped of final say at the wound; *tawbah* or *ʿadhāb* open; *mulk* of heavens/earth; *yaghfir*/*yuʿadhdhib* whom He wills; closes on *Ghafūr Raḥīm*.
+- ***Ribā aḍʿāfan muḍāʿafah*** (3:130) — descriptive of jāhiliyyah compounding, not a loophole for simple interest (with 2:275–279); field and market one moral world under *taqwā* → *tufliḥūn*.
+- ***Ṣabr + taqwā* extended** — shield against *kayd* (120) → condition of angelic help (125) → path to *falāḥ* without *ribā* (130).
+- **Fire and Garden prepared** (3:131, 3:133) — *uʿiddat* pair after *ribā*; *ittaqū al-nār* / *sāriʿū* to *maghfirah* and wide *jannah*.
+- ***Muttaqīn* portrait** (3:134–136) — spend in *sarrāʾ*/*ḍarrāʾ*; *kāẓimīna al-ghayẓ*; *ʿāfīna ʿan al-nās*; God loves *muḥsinīn*; fall → *dhikr* → *istighfār* → no knowing *iṣrār*; wage is *maghfirah* then Gardens.
+- ***Sunan* and *bayān*** (3:137–138) — patterns passed before you; travel and see deniers' end; clarity for *nās*, guidance and *mawʿiẓah* for *muttaqīn*.
+- ***Al-aʿlawn* conditional** (3:139) — do not weaken or grieve; uppermost if believers; grief ≠ collapse.
+- **Days rotated / *qarḥ* / *shuhadāʾ*** (3:140) — wound symmetry (Uḥud/Badr); *nudāwiluhā bayna al-nās*; *li-yaʿlama* as manifestation; martyrs taken; God does not love *ẓālimīn*.
+- ***Maghfirah* thread** — race-object (133), reward-first (136), open after *fahishah* (135); with 128–129's open *tawbah*.
+- **Love and its opposite** — loves *muḥsinīn* (134); does not love *ẓālimīn* (140).
+- ***Tamḥīṣ / purge*** (3:141, cf. 154, 179) — purify/distinguish believers; efface *kāfirīn*'s project; continues 140's purpose-chain.
+- **Garden not by entitlement** (3:142–143) — *jihād* and *ṣabr* must be made evident; wish for death/martyrdom tested by encounter (*raʾaytumūhu wa-antum tanẓurūn*).
+- ***Wa-mā Muḥammadun illā rasūl*** (3:144) — messenger-ship under *tawḥīd*; heel-turn if he dies/killed; no harm to God; *shākirūn* rewarded; Uḥud rumour-climate; Abū Bakr's later recitation at the actual death.
+- **Death by leave / want-fork** (3:145) — *bi-idhni Allāh kitāban muʾajjalan*; *thawāb al-dunyā* vs *thawāb al-ākhirah*; *shākirūn* again.
+- ***Ribbiyyūn* model** (3:146–148) — devotees with prophets; no *wahan* / *ḍaʿf* / *istikānah*; prayer: sins, *isrāf*, firm feet, *naṣr*; double wage; loves *ṣābirīn* and *muḥsinīn*.
+- **Allegiance fork** (3:149–150) — obey disbelievers → heels → *khāsirīn*; *balī* God is *mawlā* and *khayru al-nāṣirīn*.
+- ***Shukr* extended** — 123 → 144 → 145.
+- ***Heels* motif** — 144 apostasy-image; 149 dragged-back heels.
+- **Uḥud autopsy panel** (3:151–160) — *ruʿb* into disbeliever hearts for unauthorised *shirk* (151).
+- **152 chain** — promise kept → *fashal* → dispute about order → disobedience after seeing what is loved → world-want vs hereafter-want → turned for test → *ʿafā* pardon; archers' post as classical frame.
+- **153** — flight without looking; Messenger calling from behind; *ghamm bi-ghamm*; do not grieve as occupation for missed/hit.
+- **154** — *amanah*/*nuʿās* on faith-party vs self-occupied *ẓann al-jāhiliyyah*; *al-amru kulluhu li-llāh*; death-beds from homes; *ibtilāʾ* and *tamḥīṣ* of breasts/hearts.
+- **155** — fled made to slip by Satan via some of what earned; second *ʿafā*; *Ghafūr Ḥalīm*.
+- **156–158** — ban on counterfactual speech about dead/travelers; life/death God's; *maghfirah*+*raḥmah* beat the pile; gathering to God.
+- **159 leadership sequence** — gentleness from God's *raḥmah*; pardon; *istighfār* for them; *shūrā*; *ʿazm* then *tawakkul*; loves *mutawakkilīn*.
+- **160** — if God helps none overcomes; if He withholds who helps after Him; *tawakkul* seal.
+- ***Ghulūl*** (3:161) — not befitting a prophet to withhold spoils; brings what he withheld on Last Day; every soul paid in full (*w-f-y*), none wronged.
+- ***Riḍwān / sakhaṭ*** (3:162) — followers of God's pleasure ≠ those who return with anger; Hell as home of the latter.
+- ***Darajāt ʿinda Allāh*** (3:163) — varying ranks; God sees deeds.
+- **Messenger as favour restated** (3:164) — *manna* by sending *rasūl min anfusihim*; recite, purify, teach Book and *ḥikmah*; prior clear error.
+- **Hinge of Uḥud** (3:165–166) — *annā hādhā* → *min ʿindi anfusikum* ("from yourselves"; supplied "disobedience" is interpretive fill); by God's leave; distinguish believers.
+- **Hypocrites exposed** (3:167) — fight or defend refused with "if we had known"; nearer to *kufr* that day; mouths ≠ hearts.
+- **Sitters' counterfactual** (3:168) — if they had obeyed us they would not have been killed → avert death from yourselves if truthful.
+- **Living martyrs** (3:169–170) — not dead; alive *ʿinda rabbihim*, provided; rejoicing in *faḍl*; *istibshār* for those yet to join; *lā khawfun ʿalayhim wa-lā hum yaḥzanūn*.
+- **Martyrs' joy completed** (3:171) — *niʿmah* and *faḍl*; God does not waste (*lā yuḍīʿu*) believers' *ajr*.
+- **Response after injury** (3:172–174) — *istajāba* after *qarḥ*; Ḥamrā' al-Asad climate; *aḥsanū*+*ittaqaw* among them; threat increases *īmān*; *ḥasbunā Allāh wa-niʿma al-wakīl*; return with grace, no *sū'*, pursuing *riḍwān*.
+- **Satan's takhawwuf** (3:175) — frightens with/through his *awliyā'*; fear God, not them, if believers.
+- **Racers into kufr / trade / respite** (3:176–178) — do not grieve them; no harm to God; no share in hereafter; buy *kufr* with *īmān*; *imlā'* not *khayr* but increase in sin; *ʿadhāb muhīn*.
+- **Sorting policy** (3:179) — will not leave believers mixed until *khabīth* distinguished from *ṭayyib*; *ghayb* not public feed; God chooses messengers; *īmān*+*taqwā* → great reward.
+- ***Bukhl* collar** (3:180) — withholding God's *faḍl* is *sharr* not *khayr*; collared on Last Day; God inherits heavens and earth.
+- **"God is poor; we are rich"** (3:181–182) — slur against spending-as-loan theology; recorded with killing prophets without right; taste *ḥarīq*; *bi-mā qaddamat aydīkum*; God not *ẓallām* to servants; party-precision (*alladhīna qālū*).
+- **Fire-sacrifice condition** (3:183) — evasive *mīthāq*-claim; prior messengers brought *bayyināt* and what was demanded; why then kill them if truthful.
+- **Denied messengers line** (3:184) — *bayyināt*, *zubur*, *kitāb munīr*.
+- **Death / fawz / ghurūr** (3:185) — every soul tastes death; full *ujūr* at Rising; triumph = moved from Fire + entered Garden; world = *matāʿ al-ghurūr*.
+- **Tests + abuse** (3:186) — wealth and selves; *adhā* from People of the Book and associators; *ṣabr*+*taqwā* = *ʿazm al-umūr*.
+- **Covenant to clarify** (3:187) — *tabyīn* not *kitmān*; cast behind backs; sold for small price.
+- **Unearned praise** (3:188) — rejoice in what they brought; love *ḥamd* for what they did not do; not safe from *ʿadhāb*.
+- ***Mulk* + *ulū al-albāb*** (3:189–190) — kingdom of heavens and earth; *qadīr*; creation and alternation of night/day as *āyāt* for people of core/understanding — perception thread 3:7→3:190.
+- ***Ulū al-albāb* in act** (3:191–194) — *dhikr* standing/sitting/sides; *tafakkur* on *khalq*; not *bāṭil*; *subḥānaka*; *qinā ʿadhāb al-nār*; Fire-disgrace / no *anṣār* for *ẓālimūn*; *munādī* → *āmannā*; *maghfirah* / *kaffir* / *tawaffanā maʿa al-abrār*; promise via *rusul*; *lā tukhzinā*; *lā tukhlifu al-mīʿād*.
+- ***Lā uḍīʿu* male/female** (3:195) — no wasted work of any worker, *dhakar aw unthā*; *baʿḍukum min baʿḍ*; hijrah / expulsion / harm / fight / kill catalogue; *ukaffiranna* + Gardens; *ḥusn al-thawāb*; closes *ajr* thread with 171, 185.
+- ***Taqallub* vs *nuzul*** (3:196–198) — do not be deceived by free movement of deniers; *matāʿ qalīl* → Jahannam *biʾsa al-mihād*; *muttaqūn* forever Gardens as *nuzul* from God; *mā ʿinda Allāh khayrun li-l-abrār*.
+- **Partitive Ahl al-Kitāb honour** (3:199) — *min ahl al-kitāb* who believe in God + what sent to you + to them; *khāshiʿīn*; refuse small-price sale of signs; continuous with *laysū sawāʾ* (113–115); *sarīʿu al-ḥisāb*.
+- **Fourfold seal → *falāḥ*** (3:200) — *iṣbirū* / *ṣābirū* / *rābiṭū* / *ittaqū* → *tufliḥūn*; *ribāṭ* range (frontier + spiritual station); closes *ṣabr*, *taqwā*, and posts-held (121/152) threads. **Surah ends.**
+
+
+### 10.3b Threads opened in Chapter 4 (1–10)
+
+- ***Nafs wāḥidah / arḥām / Raqīb*** (4:1) — single soul, mate, womb-ties, Watcher as surah climate.
+- ***Yatāmā property*** (4:2, 6, 10) — give; no bad-for-good; no mixing-eat; *rushd* release; fire in bellies.
+- ***Qisṭ / ʿadl / ʿawl*** (4:3) — justice-gated marriage; four ceiling; *mā malakat aymānukum* historical frame.
+- ***Ṣaduqāt niḥlah*** (4:4) — dower as obligatory gift; willing remit *hanī'an marī'an*.
+- ***Sufahā' / qiyām / rushd*** (4:5–6) — capacity, support-wealth, test, fee rules, witnesses, *Ḥasīb*.
+- ***Naṣīb mafrūḍ*** (4:7) — women inherit; little or much; against jāhiliyya erasure.
+- ***Qawl maʿrūf / sadīd*** (4:5, 8, 9) — kind and straight speech as legal ethics.
+- ***Ḥūb kabīr / saʿīr*** (4:2, 10) — orphan-wealth as major sin and blaze.
 
 ### 10.4 Translation-flag convention
 
