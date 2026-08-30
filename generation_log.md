@@ -967,3 +967,12 @@ Filename: `chapter_2_verse_281_286.md`; verses 281–286; Markdown; created and 
 6. Stop after each batch and await the user's request.
 
 IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
+
+## RUN 17 — CHAPTER 3, VERSES 1–20 (BATCH 1)
+
+- Delivery file: `chapter_3_verse_1_20.md` (8,856 words; 20 verses 1–20; RUN 17).
+- Pipeline: `work/chapter3_raw.txt` (user-supplied translation, 3:1–200) → `work/build_chapter3_json.py` → `chapter_3_translation.json` (200 verses, schema identical to chapter 2; section headings stripped, footnote markers [120]–[169] retained in translation as supplied).
+- Stage files: `work/group_1_5.md`, `work/group_6_10.md`, `work/group_11_15.md`, `work/group_16_20.md` → `work/merge17.py` (PASS on first successful run).
+- References: `work/references_1_20.md` (14 dash bullets; Ibn Kathir, Al-Jalalayn, Ma'arif, Tanwir/Ibn 'Abbas, Tafhim/Maududi; quran.com + surahquran.com + alim.org + islamicstudies.info).
+- QC: 20 sequential headings 1–20; 20 line-isolated `===VERSE-END===`; each translation verbatim exactly once (curly quotes preserved from user edition); references last; no banned strings; 20 unquoted "In simple terms". VERBATIM NOTE: handwritten stage-file quotes matched JSON on second pass after replacing each "Verse N says" line with the exact JSON string.
+- Content highlights: 3:1 detached letters; 3:2–4 Tawhid, revelation confirming Torah/Gospel, Furqan; 3:6 womb-shaping and hadith of creation stages; 3:7 muhkam/mutashabih, A'ishah hadith ("beware of them"), four types of tafsir; 3:13 Badr (313 vs ~950; the enemy saw the Muslims as twice their number); 3:14–17 the mindful's reward and five marks; 3:18–20 divine witness, Islam as the only religion, submission vs. delivery.
