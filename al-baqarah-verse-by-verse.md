@@ -1,23 +1,3 @@
-# Man Is Created for an Important Role
-
-## Sūrah al-Baqarah 2:30–2:67 — Verse-by-Verse English Translation and Commentary
-
-This file presents the content of `example.md` re-organized into individual verse entries. Each entry carries: (1) the verse reference — chapter and verse number; (2) the English translation of the verse on the next line; and (3) a commentary on that individual verse. All of the original commentary material has been retained and distributed to the verse it explains, and each entry has been further expanded (linguistic notes on the Arabic, cross-references within the Qur'an, reports from the classical tafsīr tradition, and the thematic lessons of each āyah) so that the whole is more comprehensive and extensive than the source document.
-
-**Coverage:** Sūrah al-Baqarah, verses 30–67 (the creation of Ādam, the first kāfir, the address to the Children of Israel, the favors and failures of Banū Isrāʾīl, and the opening of the narrative of the cow).
-
----
-
-## Overview of This Cluster of Āyāt
-
-This cluster of āyāt, an independent lesson, could be considered a timely follow-up to the eternal classification of people: the muttaqīs, the kufr crowd, and the nebulous and nefarious mobs of munāfiqūn. It is important to note that Allah (الله), the Magnanimous and the Majestic, chose to tell us humans of this pre-human conversation. Besides Himself, the exchange included the angels, Iblīs, and then Adam and Eve (عليهما السلام) after they were brought about and effected as Allah's (الله) beneficiaries of the earth.
-
-Obviously, Allah (الله) did not give us this information so that we close our minds and lock our brains. He had enough confidence in our ability to reason and think that He divulged to us a part of history and existence, to which we would otherwise have no access. It is Allah (الله) who is nurturing our confidence in ourselves and our ability to think and reason when some of us have no confidence whatsoever in our human abilities, our range of understanding pertinent information, our reasoning, our analyzing, and our making sense out of events. Had this type of information been out of intellectual bounds, Allah (الله) would not have advanced it for our faculty of thought. And to ease the meanings into our realm of understanding this whole narration has been couched in a "short story" form.
-
-With enough confidence in our mental capacity and knowing that the Qur'an is for people who think, we who read the Qur'an for guidance should realize that there is a caveat pertaining to this particular lesson about Allah (الله), the angels, Iblis, and our common father and mother — Adam and Eve (عليهما السلام). We are cautioned that these āyāt are mutashābihāt (allegorical or suggestive and evocative). This means that the surface meanings of the āyāt are not exhaustive of the core-to-detail facts. Let us now enter into the realm of these āyāt and behave as rational subjects of Allah (الله).
-
----
-
 ## Sūrah al-Baqarah 2:30
 
 > And Lo! Your Sustainer said unto the angels, "Behold, I am about to render on earth a khalifah (successor)." They said, "Will You place on it such as will spread corruption thereon and shed blood; whereas it is we who extol Your limitless glory, and praise You, and hallow Your name?" [Allah] answered, "Verily, I know that which you do not know."
@@ -344,9 +324,6 @@ What remains is to say where the passage is heading. The risks implicit in this 
 
 ---
 
-*Batch 2 (verses 2:49–2:67) begins.*
-
----
 
 ## Sūrah al-Baqarah 2:49
 
