@@ -852,3 +852,68 @@ Filename: `chapter_2_verse_241_260.md`; verses 241–260; Markdown; created and 
 7. Use 5-verse stages; merge with Python into `chapter_2_verse_261_280.md`; keep `===VERSE-END===`; update this log; stop after batch; await user's request.
 
 IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
+
+---
+
+## RUN 15 — CHAPTER 2, VERSES 261–280
+
+Run Date: 2026-08-30
+Chapter: 2
+Surah: Al-Baqarah
+Requested Range: Verses 261–280
+Actual Range: Verses 261–280
+Run Status: COMPLETED
+
+### USER REQUEST
+"Continue" — the continuation instruction from Run 14's log. Fourteenth 20-verse batch (261–280): four 5-verse stages, Python merge, validate, update log, stop.
+
+### PRE-GENERATION CHECK
+example.md: Re-inspected. Previous output: `chapter_2_verse_241_260.md` (complete). JSON: `chapter_2_translation.json` (reused). Log: inspected; last completed verse = 260. `work/merge13.py` pattern reused as `work/merge14.py` (RANGE 261–280).
+
+### STARTING VERSE
+261 (per Run 14 log).
+
+### GENERATION STAGES
+Stage 1: 261–265 — COMPLETED. Stage 2: 266–270 — COMPLETED. Stage 3: 271–275 — COMPLETED. Stage 4: 276–280 — COMPLETED.
+
+### KEY INTERPRETIVE POINTS (verified)
+- 2:261: the parable of the grain — seven ears, each with a hundred grains; the multiplication ten to seven hundred times (Ibn Kathir); the increase to whom He wills.
+- 2:262: the charity followed by the reminder (mann) and the injury (adha) annuls it; the reward is with the Lord; no fear, no grief; the hadith (Muslim, Abu Dharr): the three Allah will not speak to — the one who reminds of his gift, the one who drags his garment, the one who sells with a false oath.
+- 2:263: kind words and forgiveness better than charity followed by injury; Allah Rich, Most Forbearing; Maududi — the kind excuse and the forgiveness of the asker.
+- 2:264: the nullification by reminder and injury; the show-off's riya'; the smooth rock (safwan) with the thin soil washed by the rain; ad-Dahhak: the example fits the remembrancer; Allah does not guide the disbelieving people.
+- 2:265: the garden on the height (rabwah); the heavy rain (wabil) doubling the yield; the drizzle (tall) sufficient (ad-Dahhak); Ibn 'Abbas (Tanwir): the believer's spending, small or great, multiplied.
+- 2:266: the whirlwind garden parable — al-'Awfi from Ibn 'Abbas (Ibn Abi Hatim): the disbeliever's condition on the Day of Resurrection; the garden lost when most needed; no strength to replant, no help from the offspring; Ibn Kathir's heading: "The Example of Evil Deeds Nullifying Good Deeds."
+- 2:267: giving from the good (tayyibat) of the earnings and the earth's produce; not the bad (khabith) you would only accept with closed eyes; Allah Self-Sufficient, Praiseworthy.
+- 2:268: the Shaytan's threat of poverty and the command of the fahsha'; Allah's promise of forgiveness and bounty; at-Tirmidhi and An-Nasa'i recorded the narration.
+- 2:269: hikmah granted to whom He wills; the great good of the wisdom; only the people of reason take heed; Maududi — sound perception and judgment; the folly behind the saving-only mindset.
+- 2:270: charity and vows known to Allah; rewards for the ones seeking His Face; the wrongdoers have no helpers.
+- 2:271: public charity good, concealment better (protection from riya'); the expiation of sins; Ma'arif — the secrecy's merits; Maududi — obligatory charity preferably open, supererogatory preferably secret; principle vs. expiation's confinement.
+- 2:272: the guidance is not on the Prophet — Allah guides whom He wills; the spending is for the self's good seeking Allah's face; paid back in full, no wrong; Maududi — the rejection of the hesitation to help non-Muslim relatives.
+- 2:273: the needy confined in the cause, unable to travel; unknowable by the stranger because they do not beg; known by the appearance; they do not ask people persistently (Qurtubi via Ma'arif — the consensus: they totally refrain).
+- 2:274: the spenders day and night, secretly and openly — the reward with the Lord; no fear, no grief.
+- 2:275: the riba consumers rise like the maddened by Satan's touch; "trade is just like riba" — the defiance of the command (Ibn Kathir; Ma'arif); the permitted trade and the forbidden riba (Al-Jalalayn's definition); the admonition and the desisting — the past gains, the case to Allah; the persistence — the dwellers of the Fire; Abu Dawud from Jabir — the occasion.
+- 2:276: Allah blights the riba and raises the sadaqat; the hadith of the spenders of a date from honest resources raised by Allah's Hand until like a mountain; 30:39; the seven disasters (riba among them — Bukhari/Muslim); Muslim — the curse on the consumer, payer, writer and witness.
+- 2:277: the believers' four signs — belief, good deeds, prayer, zakat — and the reward with the Lord; no fear, no grief.
+- 2:278: fear Allah and give up the outstanding interest — the true believers' proof.
+- 2:279: the war with Allah and His Messenger for the persistence (Ibn Kathir's heading); the repentance — the principal retained; "neither wronging nor being wronged"; the Farewell Pilgrimage announcement — the riba of the Jahiliyyah abolished, the first: the riba of al-'Abbas ibn 'Abd al-Muttalib; Ibn 'Abbas — the summons "Take your weapon."
+- 2:280: the debtor in difficulty — the postponement to the ease; the waiver as charity — better for you; the hadith of the merciful creditor (al-Bukhari, Muslim, Abu Hurayrah).
+
+### SOURCES CONSULTED
+Qur'an 2:261–280 plus cross-references (2:245, 2:276, 30:39). Classical: Ibn Kathir (main), Al-Jalalayn, Ibn 'Abbas (Tanwir al-Miqbas), ad-Dahhak, Qatadah, Ma'arif al-Qur'an (Mufti Muhammad Shafi; Qurtubi's notes), Tafhim al-Qur'an (Maududi). Hadith: al-Bukhari, Muslim (Abu Dharr — the three; the seven disasters; the merciful creditor; the curse on the consumer/payer/writer/witness), Abu Dawud (Jabir — the occasion of 2:275), Ibn Abi Hatim (al-'Awfi from Ibn 'Abbas on 2:266), At-Tirmidhi and An-Nasa'i (the narration of 2:268). Web references preserved in `work/references_261_280.md` (22 entries, all with verified URLs).
+
+### QUALITY CONTROL
+20 sequential headings (261–280); 20 markers on own lines; translations verbatim exactly once; references after final verse; no metadata. First merge PASSED (no failures — all summaries written as unquoted paraphrases from the start). Normalized repeat audit (marker-stripped, case-insensitive): PASS. Banned-string audit: PASS. URL audit: all reference bullets carry real URLs, none placeholder. Spot-checks: 2:264, 2:266, 2:275, 2:279 verified accurate. Word count ≈ 10,921.
+
+### OUTPUT
+Filename: `chapter_2_verse_261_280.md`; verses 261–280; Markdown; created and validated.
+
+### NEXT RUN INSTRUCTIONS (for verses 281–286)
+1. Check `example.md` again.
+2. Check latest file: `chapter_2_verse_261_280.md` — complete; do NOT regenerate.
+3. Check this log.
+4. Last completed verse: 280 → next run starts at verse 281. NOTE: Chapter 2 has 286 verses total; the final unit (281–286) is SIX verses and may be smaller than 20 per `prompt.md`.
+5. Read translations from `chapter_2_translation.json`.
+6. Never regenerate completed verses unless explicitly requested.
+7. Use 5-verse stages and the final partial stage (281–285, 286); merge with Python into `chapter_2_verse_281_286.md`; keep `===VERSE-END===`; update this log; stop after batch; await user's request.
+
+IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
