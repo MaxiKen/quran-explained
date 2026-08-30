@@ -1,9 +1,3 @@
-# Surah Al-Baqarah (2): Individual Verses — Expanded Commentary
-
-This file presents verses 30 through 66 of Surah Al-Baqarah as individual units. Each entry contains the verse reference, its English translation, and an expanded, comprehensive commentary. The content is expanded extensively beyond the original clustered commentary, incorporating linguistic reflections, theological depth, historical context, modern relevance, and cross-references.
-
----
-
 
 ## 2:30
 
@@ -479,5 +473,3 @@ This verse concludes the narrative by emphasizing the pedagogical purpose of the
 The verse also specifies that the warning is “an admonition to all who are conscious of Allah” (*wa-maw‘iẓatan li-l-muttaqīn*). Only those who possess *taqwā* — awareness of divine presence — can learn from historical punishment. Those who lack this awareness will either deny the event or fail to apply its lessons. Thus, the verse connects historical narrative to spiritual practice: the stories of past communities are not entertainment but tools for moral development, provided the reader approaches them with a conscious, seeking heart.
 
 ---
-
-*This file covers Surah Al-Baqarah, verses 30 through 66, presented as individual verse entries with expanded translation, commentary, linguistic notes, theological reflection, historical context, and modern application. The commentary is substantially expanded and more comprehensive than the original clustered format found in `example.md`.*
