@@ -788,3 +788,67 @@ Filename: `chapter_2_verse_221_240.md`; verses 221–240; Markdown; created and 
 7. Use 5-verse stages; merge with Python into `chapter_2_verse_241_260.md`; keep `===VERSE-END===`; update this log; stop after batch; await user's request.
 
 IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
+
+---
+
+## RUN 14 — CHAPTER 2, VERSES 241–260
+
+Run Date: 2026-08-30
+Chapter: 2
+Surah: Al-Baqarah
+Requested Range: Verses 241–260
+Actual Range: Verses 241–260
+Run Status: COMPLETED
+
+### USER REQUEST
+"Continue" — the continuation instruction from Run 13's log. Thirteenth 20-verse batch (241–260): four 5-verse stages, Python merge, validate, update log, stop.
+
+### PRE-GENERATION CHECK
+example.md: Re-inspected. Previous output: `chapter_2_verse_221_240.md` (complete). JSON: `chapter_2_translation.json` (reused). Log: inspected; last completed verse = 240. `work/merge12.py` pattern reused as `work/merge13.py` (RANGE 241–260).
+
+### STARTING VERSE
+241 (per Run 13 log).
+
+### GENERATION STAGES
+Stage 1: 241–245 — COMPLETED. Stage 2: 246–250 — COMPLETED. Stage 3: 251–255 — COMPLETED. Stage 4: 256–260 — COMPLETED.
+
+### KEY INTERPRETIVE POINTS (verified)
+- 2:241: the mut'ah at divorce — "a provision according to what is acceptable — a duty on the pious"; Ibn Kathir: the scholars who ruled the gift required for every divorced woman (with or without an appointed dowry, consummated or not) relied on this ayah; the man who divorced without the gift ("If I want, I will be excellent"); Al-Jalalayn: "haqqan" — the obligation on those who fear Allah.
+- 2:242: the clarification of the rulings — "so that you may understand."
+- 2:243: the flight from the plague (Ibn 'Abbas via Waki' ibn Jarrah: four thousand; "a land free of death"; the "Die!" and the revival by a prophet's supplication; the Salaf: the two angels and the valley); the lesson — no caution averts destiny, no refuge from Allah but to Him; Al-Jalalayn's variants (4/8/10/30/40/70 thousand).
+- 2:244–245: the fight in the cause after the story of the dead — no fleeing; the qard hasan — "Who would give a loan to He Who is neither poor nor unjust?" — the multiply like 2:261; qabdh/bast — spend and do not be anxious; "unto Him you shall return."
+- 2:246: the chiefs after Moses asked Samuel (Shamwil — Al-Jalalayn, Tanwir; Ibn Kathir — the prophethood's line preserved through the woman of the offspring of Levi) for a king; "driven out of our homes and separated from our children"; the turning away except a few (those who crossed the river with Saul).
+- 2:247: the protest — "not blessed with vast riches"; the answer — knowledge and stature; "Allah grants kingship to whom He wills."
+- 2:248: the Ark's sign — Sakinah (mercy/grace — ar-Rabi'; Ibn 'Abbas via al-'Awfi); the relics of Moses and Aaron (the staff, the Tablets — Qatadah, As-Suddi, ar-Rabi', 'Ikrimah; plus the Torah; others — the pot of manna and the two shoes, cf. 20:12); carried by the angels — the sign for the believers.
+- 2:249: the river test — the Shari'ah river (Ibn 'Abbas), between Jordan and Palestine; the army of eighty thousand (As-Suddi); the sip from the hollow of the hand; "We have no power this day"; "How often has a small group overcome a mighty host by Allah's leave?"; "Allah is with as-Sabirin."
+- 2:250: the believers' prayer — "Pour forth on us patience, make our steps firm, give us victory over the disbelieving people."
+- 2:251: the routing by Allah's leave; David's slingshot; Talut's promise (his daughter and a share of the kingship) kept; the kingdom and the wisdom transferred after Talut and Samuel; the check of one people by another — corruption's prevention; the Bounty to all.
+- 2:252: the signs recited in truth; "you are truly one of the messengers."
+- 2:253: the preference — Allah spoke directly to Musa and Muhammad (and Adam per Sahih Ibn Hibban from Abu Dharr); 'Isa's clear proofs (reviving the dead, healing the blind and the lepers, the clay bird) and the holy Spirit (Jibril); the differing and fighting after the proofs by Allah's will; "Allah does what He wills."
+- 2:254: the spending before the Day of no bargaining, friendship, or intercession; the intercession only by Allah's permission (20:109); the disbelievers as the wrongdoers — placing things in the wrong places.
+- 2:255: the Ayat al-Kursi — the greatest verse (Ubayy ibn Ka'b: "O Abu Mundhir…"); the Ever-Living, the All-Sustaining; no drowsiness or sleep; intercession only by permission; the encompassed knowledge; the Kursi — the footstool of the 'Arsh (Ibn 'Abbas and the Salaf; the ring in the desert); the preservation without fatigue; the Most High, the Greatest.
+- 2:256: no compulsion in religion — Ibn Kathir: "Do not force anyone to become Muslim"; the occasion (Ibn Jarir from Ibn 'Abbas) — the Ansar woman's vow and the children raised among Banu an-Nadir; Sa'id ibn Jubayr: those who wished to leave left, those who wished to embrace Islam did; the renunciation of taghut and the firmest handhold that never breaks.
+- 2:257: Allah the Wali of the believers — darknesses (plural) to light (singular): truth is one, disbelief is many (Ma'arif); the disbelievers' guardians — the taghut; the dwellers of the Fire.
+- 2:258: the debate with Nimrod (Ibn Kathir — two genealogies, Mujahid: the four kings — Sulayman and Dhul-Qarnayn believers; Nimrod and Nebuchadnezzar disbelievers); "I give life and cause death" (pardoning and killing per the classical notes); Fir'awn's imitation (28:38); the sun from the west; the dumbstruck; As-Suddi: the debate occurred after Ibrahim was thrown into the fire.
+- 2:259: the one who passed by the ruined city (identified by most commentators as 'Uzayr); the hundred years; the preserved food and drink; the donkey's bones gathered and clothed with flesh; the sign for humanity; "I know that Allah is Most Capable of everything."
+- 2:260: Ibrahim's request — "so my heart can be reassured" (Ibn Kathir: "to be stronger in faith"); the four birds (species: not fixed by the Qur'an — Al-Jalalayn: peacock, eagle, raven, cock; the Ibn 'Abbas tradition: peacock, rooster, pigeon, crow); "fasarhunna" — cut to pieces (Ibn 'Abbas, 'Ikrimah, Sa'id ibn Jubayr, Abu Malik, Abu al-Aswad ad-Dili, Wahb ibn Munabbih, al-Hasan, As-Suddi); the heads kept in the hand; each bird refusing the wrong head; the Almighty, the All-Wise.
+
+### SOURCES CONSULTED
+Qur'an 2:241–260 plus cross-references (2:261, 4:164, 20:12, 20:109, 28:38). Classical: Ibn Kathir (main), Al-Jalalayn, Ibn 'Abbas (Tanwir al-Miqbas), Mujahid, Qatadah, As-Suddi, ar-Rabi' ibn Anas, 'Ikrimah, Sa'id ibn Jubayr, Abu Malik, Abu al-Aswad ad-Dili, Wahb ibn Munabbih, al-Hasan, Ma'arif al-Qur'an (Mufti Muhammad Shafi), Tafhim al-Qur'an (Maududi), Al-Mizan. Hadith: al-Bukhari and Muslim (Ubayy ibn Ka'b — the greatest verse; the "do not prefer among the prophets"), Sahih Ibn Hibban (Abu Dharr — Adam spoken to), Ibn Jarir (Ibn 'Abbas — the no-compulsion occasion), Waki' ibn Jarrah (Ibn 'Abbas — the four thousand). Web references preserved in `work/references_241_260.md` (33 entries, all with verified URLs).
+
+### QUALITY CONTROL
+20 sequential headings (241–260); 20 markers on own lines; translations verbatim exactly once; references after final verse; no metadata. First merge PASSED (one initial SyntaxError in the flag list — fixed quoting; no content failures). Normalized repeat audit (marker-stripped, case-insensitive): PASS — no full-translation re-quotes in "In simple terms" (wrote all summaries as unquoted paraphrases from the start). Banned-string audit: PASS. URL audit: all reference bullets carry real URLs, none placeholder. Per-verse paragraphs: 6–12 each. Word count ≈ 11,953.
+
+### OUTPUT
+Filename: `chapter_2_verse_241_260.md`; verses 241–260; Markdown; created and validated.
+
+### NEXT RUN INSTRUCTIONS (for verses 261–280)
+1. Check `example.md` again.
+2. Check latest file: `chapter_2_verse_241_260.md` — complete; do NOT regenerate.
+3. Check this log.
+4. Last completed verse: 260 → next run starts at verse 261 (Stage 1: 261–265; Stage 2: 266–270; Stage 3: 271–275; Stage 4: 276–280).
+5. Read translations from `chapter_2_translation.json`.
+6. Never regenerate completed verses unless explicitly requested.
+7. Use 5-verse stages; merge with Python into `chapter_2_verse_261_280.md`; keep `===VERSE-END===`; update this log; stop after batch; await user's request.
+
+IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
