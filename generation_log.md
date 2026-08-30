@@ -917,3 +917,53 @@ Filename: `chapter_2_verse_261_280.md`; verses 261–280; Markdown; created and 
 7. Use 5-verse stages and the final partial stage (281–285, 286); merge with Python into `chapter_2_verse_281_286.md`; keep `===VERSE-END===`; update this log; stop after batch; await user's request.
 
 IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
+
+---
+
+## RUN 16 — CHAPTER 2, VERSES 281–286 (FINAL UNIT — CHAPTER 2 COMPLETE)
+
+Run Date: 2026-08-30
+Chapter: 2
+Surah: Al-Baqarah
+Requested Range: Verses 281–286
+Actual Range: Verses 281–286
+Run Status: COMPLETED — CHAPTER 2 COMPLETE (286/286)
+
+### USER REQUEST
+"Continue" — the continuation instruction from Run 15's log. Fifteenth and FINAL batch (281–286, six verses — final unit may be smaller per `prompt.md`): one 5-verse stage (281–285) + one 1-verse final stage (286), Python merge, validate, update log, stop.
+
+### PRE-GENERATION CHECK
+example.md: Re-inspected. Previous output: `chapter_2_verse_261_280.md` (complete). JSON: `chapter_2_translation.json` (reused). Log: inspected; last completed verse = 280. `work/merge14.py` pattern reused as `work/merge15.py` (RANGE 281–286).
+
+### STARTING VERSE
+281 (per Run 15 log).
+
+### GENERATION STAGES
+Stage 1: 281–285 — COMPLETED. Stage 2 (final partial): 286 — COMPLETED.
+
+### KEY INTERPRETIVE POINTS (verified)
+- 2:281: the mindfulness of the Day of the return to Allah; every soul paid in full; none wronged (cross-reference 3:25).
+- 2:282: the Ayat al-Dayn — the longest verse of the Qur'an (128 Arabic words, ~ one page); the command to write the fixed-term loan; the just scribe (Mujahid and 'Ata': required to record); the debtor's dictated terms with taqwa and no defrauding; the guardian's dictation for the incompetent/weak; two men or one man and two women — "so that if one errs the other reminds her" (the verse's own stated wisdom: the mutual corroboration; Al-Jalalayn: the "reminding" clause is the reason for the two women; classical context: the financial domain and the lesser experiential familiarity); the witnesses must not refuse; the writing small or great; "more just, stronger as evidence, prevents doubt"; the immediate trade's exception with witnesses; "Let neither scribe nor witness suffer (or cause) any harm" (writing other than dictated, testifying other than heard, concealing testimony — Ibn Kathir; Ma'arif: the scribe's wages and the witness's conveyance allowance are rights — not paying is harming).
+- 2:283: the journey and the missing scribe (Ibn 'Abbas: no paper, ink, or pen); the pledge in hand (rahn maqbuda); the trust's alternative — the trusted debtor fulfils the trust and fears Allah; the false testimony the worst of the major sins and hiding the true testimony likewise (As-Suddi: "a sinner in his heart"; Ma'arif: the heart named because the decision was made there first; 5:106 cross-reference).
+- 2:284: the kingship of the heavens and the earth; the perfect watch; the accountability for what the hearts conceal; the Companions' distress; the abrogation by 2:286 per the narration recorded by Muslim (and the Group) — pardoned for what happens in the hearts, accountable for the actions; the classical exposition: the accountability is based on what appears through the limbs in actions and words; the passing hidden whisper is the pardoned.
+- 2:285: the Messenger believes in what was revealed to him and the believers with him; the four articles — Allah, the angels, the Books, the messengers; "We make no distinction between any of His messengers"; "We hear and obey" (Ibn Kathir: we heard, comprehended, implemented, adhered) vs. the disbelievers' "we hear and disobey" (2:93); "Your forgiveness" — the plea; "to You is the final return."
+- 2:286: "Allah burdens not a person beyond his scope"; the good earned for it and the evil earned against it; the believers' triple plea — forgetfulness/error, the burden of those before (the Children of Israel's heavy obligations), the not-loading beyond the capacity — answered per the hadith in Muslim ("I have done so"); the pardon, forgiveness, mercy; "You are our Guardian" (cf. 2:257); "grant us victory over the disbelieving people"; the virtue of the last two verses (al-Bukhari, Muslim, Abu Mas'ud al-Ansari: whoever recites them at night, they will suffice him).
+
+### SOURCES CONSULTED
+Qur'an 2:281–286 plus cross-references (2:93, 2:257, 3:25, 5:106). Classical: Ibn Kathir (main), Al-Jalalayn, Ibn 'Abbas (Tanwir al-Miqbas), Mujahid, 'Ata', As-Suddi, Ma'arif al-Qur'an (Mufti Muhammad Shafi; Qurtubi's notes), Tafhim al-Qur'an (Maududi), Almuntakhab, ar-Razi and Ibn Taymiyyah (contextual notes on the two-women witness, per the traditional discussion), Hizb ut-Tahrir's exposition of the 2:284/2:286 relationship. Hadith: al-Bukhari and Muslim (Abu Mas'ud al-Ansari — the last two verses suffice at night; Abu Hurayrah/the Group — the abrogation narration). Web references preserved in `work/references_281_286.md` (14 entries, all with verified URLs).
+
+### QUALITY CONTROL
+6 sequential headings (281–286); 6 markers on own lines; translations verbatim exactly once; references after final verse; no metadata. First merge PASSED (no failures). Normalized repeat audit (marker-stripped, case-insensitive): PASS. Banned-string audit: PASS. URL audit: all reference bullets carry real URLs, none placeholder. Spot-checks: 2:282 and 2:286 verified accurate. Word count ≈ 5,969 (final unit).
+
+### OUTPUT
+Filename: `chapter_2_verse_281_286.md`; verses 281–286; Markdown; created and validated. CHAPTER 2 IS NOW COMPLETE (verses 1–286, 15 files, RUN 1–16).
+
+### NEXT RUN INSTRUCTIONS (for Chapter 3 — Al 'Imran, on explicit user request)
+1. Check `example.md` again.
+2. Check the last generated file: `chapter_2_verse_281_286.md` — complete; do NOT regenerate.
+3. Check this log. Chapter 2 is complete — await the user's explicit request before starting Chapter 3.
+4. If the user requests Chapter 3, extract verses from `chapter_3_translation.json` (if supplied) following the same 20-verse unit / 5-verse stage pipeline (`work/merge16.py` NEXT).
+5. Never regenerate completed verses unless explicitly requested.
+6. Stop after each batch and await the user's request.
+
+IMPORTANT: Before generating the next batch, check `example.md` and the last generated Markdown file.
