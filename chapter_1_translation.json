@@ -1,0 +1,34 @@
+{
+  "chapter": 1,
+  "name": "Al-Fatihah",
+  "verses": [
+    {
+      "verse": 1,
+      "translation": "In the Name of Allah—the Most Compassionate, Most Merciful."
+    },
+    {
+      "verse": 2,
+      "translation": "All praise is for Allah—Lord of all worlds,"
+    },
+    {
+      "verse": 3,
+      "translation": "the Most Compassionate, Most Merciful,"
+    },
+    {
+      "verse": 4,
+      "translation": "Master of the Day of Judgment."
+    },
+    {
+      "verse": 5,
+      "translation": "You ˹alone˺ we worship and You ˹alone˺ we ask for help."
+    },
+    {
+      "verse": 6,
+      "translation": "Guide us along the Straight Path,"
+    },
+    {
+      "verse": 7,
+      "translation": "the Path of those You have blessed—not those You are displeased with, or those who are astray."
+    }
+  ]
+}
