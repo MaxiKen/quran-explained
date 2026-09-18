@@ -259,19 +259,32 @@ function injectScript(url) {
   });
 }
 
+const tafsirLoadPromises = {};
+
 function loadTafsirData(num) {
-  return new Promise((resolve, reject) => {
-    if (loadedTafsir[num]) { resolve(loadedTafsir[num]); return; }
-    const pad = String(num).padStart(3, '0');
-    const url = `data/tafsir_${pad}.js`;
-    const varName = `tafsirData_${num}`;
-    injectScript(url)
-      .then(() => {
-        if (window[varName]) { loadedTafsir[num] = window[varName]; resolve(window[varName]); }
-        else reject(new Error(`Tafsir ${num}: variable ${varName} not found`));
-      })
-      .catch(err => reject(err));
-  });
+  if (loadedTafsir[num]) return Promise.resolve(loadedTafsir[num]);
+  if (tafsirLoadPromises[num]) return tafsirLoadPromises[num];
+
+  const pad = String(num).padStart(3, '0');
+  const url = `data/tafsir_${pad}.json`;
+
+  tafsirLoadPromises[num] = fetch(url)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
+      return res.json();
+    })
+    .then(data => {
+      loadedTafsir[num] = data;
+      delete tafsirLoadPromises[num];
+      return data;
+    })
+    .catch(err => {
+      delete tafsirLoadPromises[num];
+      console.error(`Failed to load tafsir for Surah ${num}:`, err);
+      throw err;
+    });
+
+  return tafsirLoadPromises[num];
 }
 
 function loadChapterData(num) {
@@ -677,15 +690,26 @@ function renderSurahDetail(container) {
       <div class="surah-header-card">
         <div class="surah-header-inner">
           <div class="surah-number-badge"><span>${ch.number}</span></div>
-          <h2 class="arabic-text surah-title-ar">${ch.name_ar}</h2>
-          <h3 class="surah-title-en">${ch.name_en}</h3>
-          <p class="surah-meaning">${ch.meaning}</p>
+          <div class="surah-title-interactive" onclick="showSurahNotes(${ch.number})" title="Click to view Sūrah Overview &amp; Notes" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')showSurahNotes(${ch.number})">
+            <h2 class="arabic-text surah-title-ar">${ch.name_ar}</h2>
+            <h3 class="surah-title-en">${ch.name_en}</h3>
+            <p class="surah-meaning">${ch.meaning}</p>
+          </div>
           <div class="surah-stats">
             <span class="surah-stat">${ch.verses} Verses</span>
             <span style="color:var(--text-separator);">•</span>
             <span class="surah-stat">${themeCount} Themes</span>
             <span style="color:var(--text-separator);">•</span>
             <span class="surah-stat" style="color:${typeLower === 'makkan' ? 'var(--makkan-color)' : 'var(--medinan-color)'};">${ch.type}</span>
+          </div>
+          <div>
+            <button class="surah-intro-badge-btn" onclick="showSurahNotes(${ch.number})" title="Read Sūrah Introduction &amp; Notes">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+              <span>Read Sūrah Notes</span>
+            </button>
           </div>
 
           <div class="chapter-player-card">
@@ -817,32 +841,163 @@ function renderSurahDetail(container) {
 }
 
 /* ================================================
-   12. MODALS
+   12. MODALS & MARKDOWN COMMENTARY
 ================================================ */
-/* Get the merged commentary for a verse — supports both the new
-   string format and the legacy per-phrase object format */
+/* Get the merged commentary for a verse */
 function getVerseCommentary(tafsir, ayahNum) {
-  if (!tafsir || !tafsir[ayahNum]) return '';
-  const entry = tafsir[ayahNum];
+  if (!tafsir) return '';
+  const verses = tafsir.verses || tafsir;
+  const key = String(ayahNum);
+  const entry = verses[key] !== undefined ? verses[key] : verses[ayahNum];
   if (typeof entry === 'string') return entry;
-  if (typeof entry === 'object') return Object.values(entry).join('\n\n');
+  if (typeof entry === 'object' && entry !== null) return Object.values(entry).join('\n\n');
   return '';
 }
 
+/* Get the Sūrah introduction / overview notes */
+function getSurahIntro(tafsir) {
+  if (!tafsir) return '';
+  return tafsir.intro || '';
+}
+
 function showExplanation(surahNum, ayahNum) {
-  let explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
   const ch = chaptersData.find(c => c.number === surahNum);
   const title = `${ch ? ch.name_en : 'Surah ' + surahNum} — Verse ${ayahNum}`;
   document.getElementById('modalTitle').textContent = title;
-  document.getElementById('modalBody').textContent = explanation || 'Loading commentary...';
   document.getElementById('modal').classList.add('active');
   document.body.style.overflow = 'hidden';
-  if (!explanation) {
-    loadTafsirData(surahNum).then(() => {
-      const text = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
-      document.getElementById('modalBody').textContent = text || 'Detailed commentary coming soon, in sha Allah.';
-    }).catch(() => { document.getElementById('modalBody').textContent = 'Commentary not available. Please check your connection.'; });
+
+  const explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
+  if (explanation) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(explanation);
+  } else {
+    document.getElementById('modalBody').innerHTML = `
+      <div class="modal-loading-state">
+        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
+        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
+      </div>`;
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        const text = getVerseCommentary(tafsir, ayahNum);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Commentary not available. Please check your connection.</p>';
+      });
   }
+}
+
+function showSurahNotes(surahNum) {
+  const ch = chaptersData.find(c => c.number === surahNum);
+  const title = `${ch ? ch.name_en : 'Surah ' + surahNum} (${ch ? ch.name_ar : ''}) — Sūrah Overview & Notes`;
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  const intro = getSurahIntro(loadedTafsir[surahNum]);
+  if (intro) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(intro);
+  } else {
+    document.getElementById('modalBody').innerHTML = `
+      <div class="modal-loading-state">
+        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
+        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
+      </div>`;
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        const text = getSurahIntro(tafsir);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed overview and notes for this chapter are coming soon.</p>';
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Sūrah notes not available. Please check your connection.</p>';
+      });
+  }
+}
+
+/* ================================================
+   MARKDOWN PARSER & RENDERER (Zero-Dependency)
+================================================ */
+function renderMarkdown(md) {
+  if (!md) return '';
+  let text = md.trim().replace(/\r\n/g, '\n');
+  const blocks = text.split(/\n\s*\n/);
+  const htmlBlocks = [];
+
+  for (let block of blocks) {
+    block = block.trim();
+    if (!block) continue;
+
+    if (/^(\-{3,}|\*{3,}|_{3,})$/.test(block)) {
+      htmlBlocks.push('<hr class="modal-hr">');
+      continue;
+    }
+
+    const headingMatch = block.match(/^(#{1,6})\s+(.+)$/);
+    if (headingMatch) {
+      const level = headingMatch[1].length;
+      const content = parseInline(headingMatch[2]);
+      htmlBlocks.push(`<h${Math.min(level + 1, 6)} class="modal-h${level + 1}">${content}</h${Math.min(level + 1, 6)}>`);
+      continue;
+    }
+
+    const boldHeadingMatch = block.match(/^\*\*([^*]+)\*\*$/);
+    if (boldHeadingMatch) {
+      htmlBlocks.push(`<h4 class="modal-section-title">${parseInline(boldHeadingMatch[1])}</h4>`);
+      continue;
+    }
+
+    if (block.startsWith('>')) {
+      const quoteText = block.split('\n')
+        .map(line => line.replace(/^>\s?/, ''))
+        .join(' ');
+      htmlBlocks.push(`<blockquote class="modal-blockquote"><p>${parseInline(quoteText)}</p></blockquote>`);
+      continue;
+    }
+
+    if (/^[\*\-]\s+/.test(block)) {
+      const items = block.split('\n')
+        .filter(line => /^[\*\-]\s+/.test(line))
+        .map(line => line.replace(/^[\*\-]\s+/, '').trim());
+      const listHtml = items.map(item => `<li>${parseInline(item)}</li>`).join('');
+      htmlBlocks.push(`<ul class="modal-list">${listHtml}</ul>`);
+      continue;
+    }
+
+    if (/^\d+\.\s+/.test(block)) {
+      const items = block.split('\n')
+        .filter(line => /^\d+\.\s+/.test(line))
+        .map(line => line.replace(/^\d+\.\s+/, '').trim());
+      const listHtml = items.map(item => `<li>${parseInline(item)}</li>`).join('');
+      htmlBlocks.push(`<ol class="modal-ordered-list">${listHtml}</ol>`);
+      continue;
+    }
+
+    const pContent = parseInline(block.replace(/\n/g, ' '));
+    htmlBlocks.push(`<p class="modal-p">${pContent}</p>`);
+  }
+
+  return htmlBlocks.join('\n');
+}
+
+function parseInline(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
 function closeModal() { document.getElementById('modal').classList.remove('active'); document.body.style.overflow = ''; }
