@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fefaf0"/>
+      <stop offset="100%" stop-color="#e8d5a3"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="90" fill="url(#bg)"/>
+
+  <text x="256" y="240" font-family="Georgia,serif"
+    font-size="108" font-weight="900" fill="#1a1208"
+    text-anchor="middle" letter-spacing="-2">Quran</text>
+
+  <line x1="80" y1="270" x2="432" y2="270" stroke="#1a7a5a" stroke-width="3"/>
+
+  <text x="256" y="360" font-family="Georgia,serif"
+    font-size="88" font-weight="700" fill="#1a7a5a"
+    text-anchor="middle" letter-spacing="1">Explained</text>
+</svg>
