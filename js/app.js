@@ -259,19 +259,32 @@ function injectScript(url) {
   });
 }
 
+const tafsirLoadPromises = {};
+
 function loadTafsirData(num) {
-  return new Promise((resolve, reject) => {
-    if (loadedTafsir[num]) { resolve(loadedTafsir[num]); return; }
-    const pad = String(num).padStart(3, '0');
-    const url = `data/tafsir_${pad}.js`;
-    const varName = `tafsirData_${num}`;
-    injectScript(url)
-      .then(() => {
-        if (window[varName]) { loadedTafsir[num] = window[varName]; resolve(window[varName]); }
-        else reject(new Error(`Tafsir ${num}: variable ${varName} not found`));
-      })
-      .catch(err => reject(err));
-  });
+  if (loadedTafsir[num]) return Promise.resolve(loadedTafsir[num]);
+  if (tafsirLoadPromises[num]) return tafsirLoadPromises[num];
+
+  const pad = String(num).padStart(3, '0');
+  const url = `data/tafsir_${pad}.json`;
+
+  tafsirLoadPromises[num] = fetch(url)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
+      return res.json();
+    })
+    .then(data => {
+      loadedTafsir[num] = data;
+      delete tafsirLoadPromises[num];
+      return data;
+    })
+    .catch(err => {
+      delete tafsirLoadPromises[num];
+      console.error(`Failed to load tafsir for Surah ${num}:`, err);
+      throw err;
+    });
+
+  return tafsirLoadPromises[num];
 }
 
 function loadChapterData(num) {
@@ -677,15 +690,34 @@ function renderSurahDetail(container) {
       <div class="surah-header-card">
         <div class="surah-header-inner">
           <div class="surah-number-badge"><span>${ch.number}</span></div>
-          <h2 class="arabic-text surah-title-ar">${ch.name_ar}</h2>
-          <h3 class="surah-title-en">${ch.name_en}</h3>
-          <p class="surah-meaning">${ch.meaning}</p>
+          <div class="surah-title-interactive" onclick="showSurahNotes(${ch.number})" title="Click to view Sūrah Overview &amp; Notes" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')showSurahNotes(${ch.number})">
+            <h2 class="arabic-text surah-title-ar">${ch.name_ar}</h2>
+            <h3 class="surah-title-en">${ch.name_en}</h3>
+            <p class="surah-meaning">${ch.meaning}</p>
+          </div>
           <div class="surah-stats">
             <span class="surah-stat">${ch.verses} Verses</span>
             <span style="color:var(--text-separator);">•</span>
             <span class="surah-stat">${themeCount} Themes</span>
             <span style="color:var(--text-separator);">•</span>
             <span class="surah-stat" style="color:${typeLower === 'makkan' ? 'var(--makkan-color)' : 'var(--medinan-color)'};">${ch.type}</span>
+          </div>
+          <div class="surah-action-buttons-wrap">
+            <button class="surah-intro-badge-btn" onclick="showSurahNotes(${ch.number})" title="Read Sūrah Introduction &amp; Notes">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+              <span>Read Sūrah Notes</span>
+            </button>
+            <button class="surah-offline-btn ${OfflineManager.isChapterCached(ch.number) ? 'cached' : ''}" id="surahOfflineBtn" onclick="OfflineManager.toggleChapterFromDetail(${ch.number})" title="${OfflineManager.isChapterCached(ch.number) ? 'Chapter saved offline (click to remove)' : 'Save chapter for offline reading'}">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                ${OfflineManager.isChapterCached(ch.number)
+                  ? '<polyline points="20 6 9 17 4 12"/>'
+                  : '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>'}
+              </svg>
+              <span>${OfflineManager.isChapterCached(ch.number) ? 'Saved Offline' : 'Save Offline'}</span>
+            </button>
           </div>
 
           <div class="chapter-player-card">
@@ -817,37 +849,180 @@ function renderSurahDetail(container) {
 }
 
 /* ================================================
-   12. MODALS
+   12. MODALS & MARKDOWN COMMENTARY
 ================================================ */
-/* Get the merged commentary for a verse — supports both the new
-   string format and the legacy per-phrase object format */
+/* Get the merged commentary for a verse */
 function getVerseCommentary(tafsir, ayahNum) {
-  if (!tafsir || !tafsir[ayahNum]) return '';
-  const entry = tafsir[ayahNum];
+  if (!tafsir) return '';
+  const verses = tafsir.verses || tafsir;
+  const key = String(ayahNum);
+  const entry = verses[key] !== undefined ? verses[key] : verses[ayahNum];
   if (typeof entry === 'string') return entry;
-  if (typeof entry === 'object') return Object.values(entry).join('\n\n');
+  if (typeof entry === 'object' && entry !== null) return Object.values(entry).join('\n\n');
   return '';
 }
 
+/* Get the Sūrah introduction / overview notes */
+function getSurahIntro(tafsir) {
+  if (!tafsir) return '';
+  return tafsir.intro || '';
+}
+
 function showExplanation(surahNum, ayahNum) {
-  let explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
   const ch = chaptersData.find(c => c.number === surahNum);
   const title = `${ch ? ch.name_en : 'Surah ' + surahNum} — Verse ${ayahNum}`;
   document.getElementById('modalTitle').textContent = title;
-  document.getElementById('modalBody').textContent = explanation || 'Loading commentary...';
   document.getElementById('modal').classList.add('active');
   document.body.style.overflow = 'hidden';
-  if (!explanation) {
-    loadTafsirData(surahNum).then(() => {
-      const text = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
-      document.getElementById('modalBody').textContent = text || 'Detailed commentary coming soon, in sha Allah.';
-    }).catch(() => { document.getElementById('modalBody').textContent = 'Commentary not available. Please check your connection.'; });
+
+  const explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
+  if (explanation) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(explanation);
+  } else {
+    document.getElementById('modalBody').innerHTML = `
+      <div class="modal-loading-state">
+        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
+        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
+      </div>`;
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        const text = getVerseCommentary(tafsir, ayahNum);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Commentary not available. Please check your connection.</p>';
+      });
   }
+}
+
+function showSurahNotes(surahNum) {
+  const ch = chaptersData.find(c => c.number === surahNum);
+  const title = `${ch ? ch.name_en : 'Surah ' + surahNum} (${ch ? ch.name_ar : ''}) — Sūrah Overview & Notes`;
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  const intro = getSurahIntro(loadedTafsir[surahNum]);
+  if (intro) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(intro);
+  } else {
+    document.getElementById('modalBody').innerHTML = `
+      <div class="modal-loading-state">
+        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
+        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
+        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
+      </div>`;
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        const text = getSurahIntro(tafsir);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed overview and notes for this chapter are coming soon.</p>';
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Sūrah notes not available. Please check your connection.</p>';
+      });
+  }
+}
+
+/* ================================================
+   MARKDOWN PARSER & RENDERER (Zero-Dependency)
+================================================ */
+function renderMarkdown(md) {
+  if (!md) return '';
+  let text = md.trim().replace(/\r\n/g, '\n');
+  const blocks = text.split(/\n\s*\n/);
+  const htmlBlocks = [];
+
+  for (let block of blocks) {
+    block = block.trim();
+    if (!block) continue;
+
+    if (/^(\-{3,}|\*{3,}|_{3,})$/.test(block)) {
+      htmlBlocks.push('<hr class="modal-hr">');
+      continue;
+    }
+
+    const headingMatch = block.match(/^(#{1,6})\s+(.+)$/);
+    if (headingMatch) {
+      const level = headingMatch[1].length;
+      const content = parseInline(headingMatch[2]);
+      htmlBlocks.push(`<h${Math.min(level + 1, 6)} class="modal-h${level + 1}">${content}</h${Math.min(level + 1, 6)}>`);
+      continue;
+    }
+
+    const boldHeadingMatch = block.match(/^\*\*([^*]+)\*\*$/);
+    if (boldHeadingMatch) {
+      htmlBlocks.push(`<h4 class="modal-section-title">${parseInline(boldHeadingMatch[1])}</h4>`);
+      continue;
+    }
+
+    if (block.startsWith('>')) {
+      const quoteText = block.split('\n')
+        .map(line => line.replace(/^>\s?/, ''))
+        .join(' ');
+      htmlBlocks.push(`<blockquote class="modal-blockquote"><p>${parseInline(quoteText)}</p></blockquote>`);
+      continue;
+    }
+
+    if (/^[\*\-]\s+/.test(block)) {
+      const items = block.split('\n')
+        .filter(line => /^[\*\-]\s+/.test(line))
+        .map(line => line.replace(/^[\*\-]\s+/, '').trim());
+      const listHtml = items.map(item => `<li>${parseInline(item)}</li>`).join('');
+      htmlBlocks.push(`<ul class="modal-list">${listHtml}</ul>`);
+      continue;
+    }
+
+    if (/^\d+\.\s+/.test(block)) {
+      const items = block.split('\n')
+        .filter(line => /^\d+\.\s+/.test(line))
+        .map(line => line.replace(/^\d+\.\s+/, '').trim());
+      const listHtml = items.map(item => `<li>${parseInline(item)}</li>`).join('');
+      htmlBlocks.push(`<ol class="modal-ordered-list">${listHtml}</ol>`);
+      continue;
+    }
+
+    const pContent = parseInline(block.replace(/\n/g, ' '));
+    htmlBlocks.push(`<p class="modal-p">${pContent}</p>`);
+  }
+
+  return htmlBlocks.join('\n');
+}
+
+function parseInline(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
 function closeModal() { document.getElementById('modal').classList.remove('active'); document.body.style.overflow = ''; }
 function openAboutModal() { document.getElementById('aboutModal').classList.add('active'); document.body.style.overflow = 'hidden'; }
 function closeAboutModal() { document.getElementById('aboutModal').classList.remove('active'); document.body.style.overflow = ''; }
+
+function openDownloadsModal() {
+  document.getElementById('downloadsModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+  OfflineManager.scanCachedChapters().then(() => {
+    OfflineManager.renderDownloadsList();
+  });
+}
+function closeDownloadsModal() {
+  document.getElementById('downloadsModal').classList.remove('active');
+  document.body.style.overflow = '';
+}
 
 /* ================================================
    13. UTILITY FUNCTIONS
@@ -1323,14 +1498,377 @@ const AudioPlayer = {
 };
 
 /* ================================================
+   16. OFFLINE STORAGE & DOWNLOAD MANAGER
+================================================ */
+const CHAPTER_SIZES_KB = {"1":53,"2":2376,"3":1367,"4":1324,"5":924,"6":1088,"7":1750,"8":566,"9":870,"10":691,"11":798,"12":823,"13":290,"14":325,"15":616,"16":919,"17":804,"18":715,"19":644,"20":1086,"21":804,"22":678,"23":746,"24":485,"25":518,"26":1435,"27":602,"28":568,"29":550,"30":458,"31":224,"32":196,"33":476,"34":365,"35":298,"36":556,"37":1744,"38":569,"39":545,"40":616,"41":377,"42":359,"43":575,"44":421,"45":236,"46":232,"47":252,"48":193,"49":119,"50":286,"51":382,"52":319,"53":420,"54":314,"55":478,"56":613,"57":206,"58":180,"59":196,"60":99,"61":95,"62":72,"63":81,"64":117,"65":84,"66":82,"67":199,"68":328,"69":392,"70":328,"71":190,"72":189,"73":138,"74":377,"75":240,"76":192,"77":317,"78":272,"79":329,"80":261,"81":175,"82":122,"83":236,"84":160,"85":131,"86":98,"87":110,"88":149,"89":169,"90":144,"91":111,"92":181,"93":86,"94":64,"95":51,"96":124,"97":35,"98":57,"99":54,"100":83,"101":73,"102":54,"103":24,"104":57,"105":32,"106":27,"107":42,"108":21,"109":39,"110":30,"111":44,"112":38,"113":43,"114":50};
+
+const OfflineManager = {
+  CACHE_NAME: 'quran-reader-v2.0.0',
+  cachedChapters: new Set(),
+  isDownloadingAll: false,
+  shouldCancelDownloadAll: false,
+  activeFilter: 'all',
+  searchQuery: '',
+
+  async init() {
+    await this.scanCachedChapters();
+    this.updateHeaderBadge();
+  },
+
+  async getCache() {
+    if (!('caches' in window)) return null;
+    try {
+      return await caches.open(this.CACHE_NAME);
+    } catch (e) {
+      console.warn('[OfflineManager] Cache API error:', e);
+      return null;
+    }
+  },
+
+  async scanCachedChapters() {
+    const cache = await this.getCache();
+    if (!cache) return;
+    this.cachedChapters.clear();
+    try {
+      const keys = await cache.keys();
+      for (const req of keys) {
+        const url = req.url || '';
+        const match = url.match(/data\/tafsir_(\d{3})\.json/);
+        if (match) {
+          this.cachedChapters.add(parseInt(match[1], 10));
+        }
+      }
+    } catch (e) {
+      console.warn('[OfflineManager] scan keys error:', e);
+    }
+    this.updateHeaderBadge();
+    this.updateSummaryStats();
+  },
+
+  isChapterCached(num) {
+    return this.cachedChapters.has(num);
+  },
+
+  updateHeaderBadge() {
+    const badge = document.getElementById('offlineHeaderBadge');
+    if (!badge) return;
+    const count = this.cachedChapters.size;
+    badge.textContent = count > 0 ? `${count}` : '0';
+    badge.title = `${count} of 114 chapters downloaded for offline reading`;
+    if (count > 0) {
+      badge.style.background = 'var(--accent)';
+      badge.style.color = '#fff';
+    } else {
+      badge.style.background = 'var(--accent-bg)';
+      badge.style.color = 'var(--accent)';
+    }
+  },
+
+  updateSummaryStats() {
+    const countEl = document.getElementById('dlCountText');
+    const sizeEl = document.getElementById('dlSizeText');
+    const savedCountEl = document.getElementById('dlTabSavedCount');
+    const count = this.cachedChapters.size;
+    if (countEl) countEl.textContent = `${count} / 114`;
+    if (savedCountEl) savedCountEl.textContent = `${count}`;
+
+    let totalKb = 0;
+    this.cachedChapters.forEach(num => {
+      totalKb += CHAPTER_SIZES_KB[num] || 150;
+    });
+
+    if (sizeEl) {
+      if (totalKb >= 1024) {
+        sizeEl.textContent = `${(totalKb / 1024).toFixed(1)} MB`;
+      } else {
+        sizeEl.textContent = `${totalKb} KB`;
+      }
+    }
+  },
+
+  async downloadChapter(num) {
+    const cache = await this.getCache();
+    if (!cache) {
+      showToast('Offline cache is not supported in this browser.', 'info');
+      return false;
+    }
+    const pad = String(num).padStart(3, '0');
+    const tafsirUrl = `data/tafsir_${pad}.json`;
+    const chapterUrl = `data/chapter_${pad}.js`;
+
+    const rowBtn = document.getElementById(`dlBtn_${num}`);
+    if (rowBtn) {
+      rowBtn.disabled = true;
+      rowBtn.innerHTML = '<span class="skeleton" style="display:inline-block;width:60px;height:16px;"></span>';
+    }
+
+    try {
+      const [tRes, cRes] = await Promise.all([
+        fetch(tafsirUrl),
+        fetch(chapterUrl)
+      ]);
+      if (!tRes.ok || !cRes.ok) throw new Error('Fetch failed');
+
+      await Promise.all([
+        cache.put(tafsirUrl, tRes),
+        cache.put(chapterUrl, cRes)
+      ]);
+
+      this.cachedChapters.add(num);
+      this.updateHeaderBadge();
+      this.updateSummaryStats();
+      this.renderDownloadsList();
+      this.updateSurahDetailButton(num);
+
+      const ch = chaptersData.find(c => c.number === num);
+      showToast(`Surah ${ch ? ch.name_en : num} saved offline!`, 'success');
+      return true;
+    } catch (err) {
+      console.error(`Download failed for Surah ${num}:`, err);
+      showToast(`Download failed for Surah ${num}. Check connection.`, 'info');
+      if (rowBtn) {
+        rowBtn.disabled = false;
+        rowBtn.innerHTML = '📥 Download';
+      }
+      return false;
+    }
+  },
+
+  async deleteChapter(num) {
+    const cache = await this.getCache();
+    if (!cache) return;
+    const pad = String(num).padStart(3, '0');
+    try {
+      await Promise.all([
+        cache.delete(`data/tafsir_${pad}.json`),
+        cache.delete(`data/chapter_${pad}.js`)
+      ]);
+      this.cachedChapters.delete(num);
+      this.updateHeaderBadge();
+      this.updateSummaryStats();
+      this.renderDownloadsList();
+      this.updateSurahDetailButton(num);
+
+      const ch = chaptersData.find(c => c.number === num);
+      showToast(`Removed Surah ${ch ? ch.name_en : num} from offline storage.`, 'info');
+    } catch (err) {
+      console.error(`Delete failed for Surah ${num}:`, err);
+    }
+  },
+
+  async toggleChapterFromDetail(num) {
+    if (this.isChapterCached(num)) {
+      if (confirm(`Remove Surah ${num} from offline storage?`)) {
+        await this.deleteChapter(num);
+      }
+    } else {
+      await this.downloadChapter(num);
+    }
+  },
+
+  updateSurahDetailButton(num) {
+    if (AppState.currentSurah !== num) return;
+    const btn = document.getElementById('surahOfflineBtn');
+    if (!btn) return;
+    const isCached = this.isChapterCached(num);
+    btn.className = `surah-offline-btn ${isCached ? 'cached' : ''}`;
+    btn.title = isCached ? 'Chapter saved offline (click to remove)' : 'Save chapter for offline reading';
+    btn.innerHTML = `
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        ${isCached
+          ? '<polyline points="20 6 9 17 4 12"/>'
+          : '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>'}
+      </svg>
+      <span>${isCached ? 'Saved Offline' : 'Save Offline'}</span>
+    `;
+  },
+
+  async toggleDownloadAll() {
+    if (this.isDownloadingAll) {
+      this.shouldCancelDownloadAll = true;
+      const btnText = document.getElementById('dlAllBtnText');
+      if (btnText) btnText.textContent = 'Cancelling...';
+      return;
+    }
+
+    const unCached = [];
+    for (let i = 1; i <= 114; i++) {
+      if (!this.cachedChapters.has(i)) unCached.push(i);
+    }
+
+    if (unCached.length === 0) {
+      showToast('All 114 chapters are already saved offline!', 'success');
+      return;
+    }
+
+    if (!confirm(`Download ${unCached.length} remaining chapters (~${(unCached.length * 0.35).toFixed(1)} MB)? This will make the entire Quran available offline.`)) {
+      return;
+    }
+
+    this.isDownloadingAll = true;
+    this.shouldCancelDownloadAll = false;
+
+    const progressWrap = document.getElementById('dlProgressWrap');
+    const progressFill = document.getElementById('dlProgressFill');
+    const progressLabel = document.getElementById('dlProgressLabel');
+    const progressPercent = document.getElementById('dlProgressPercent');
+    const dlAllBtn = document.getElementById('dlAllBtn');
+    const dlAllBtnText = document.getElementById('dlAllBtnText');
+
+    if (progressWrap) progressWrap.style.display = 'block';
+    if (dlAllBtnText) dlAllBtnText.textContent = 'Cancel Download';
+    if (dlAllBtn) dlAllBtn.classList.add('danger');
+
+    let completed = 0;
+    const total = unCached.length;
+
+    for (const num of unCached) {
+      if (this.shouldCancelDownloadAll) {
+        showToast('Download cancelled.', 'info');
+        break;
+      }
+
+      const ch = chaptersData.find(c => c.number === num);
+      if (progressLabel) progressLabel.textContent = `Downloading ${num}/114: ${ch ? ch.name_en : ''}...`;
+
+      await this.downloadChapter(num);
+      completed++;
+
+      const pct = Math.round((completed / total) * 100);
+      if (progressFill) progressFill.style.width = `${pct}%`;
+      if (progressPercent) progressPercent.textContent = `${pct}%`;
+    }
+
+    this.isDownloadingAll = false;
+    this.shouldCancelDownloadAll = false;
+
+    if (progressWrap) setTimeout(() => { progressWrap.style.display = 'none'; }, 1500);
+    if (dlAllBtn) dlAllBtn.classList.remove('danger');
+    if (dlAllBtnText) dlAllBtnText.textContent = this.cachedChapters.size === 114 ? '✓ All Chapters Saved' : 'Download All Chapters (~40 MB)';
+
+    if (this.cachedChapters.size === 114) {
+      showToast('All 114 chapters downloaded for offline reading!', 'success');
+    }
+  },
+
+  async confirmClearAll() {
+    if (this.cachedChapters.size === 0) {
+      showToast('No offline chapters to clear.', 'info');
+      return;
+    }
+    if (!confirm(`Remove all ${this.cachedChapters.size} downloaded chapters from offline storage? You will need an internet connection to read them again.`)) {
+      return;
+    }
+    const cache = await this.getCache();
+    if (!cache) return;
+    try {
+      const keys = await cache.keys();
+      for (const req of keys) {
+        if (req.url.includes('/data/tafsir_') || req.url.includes('/data/chapter_')) {
+          await cache.delete(req);
+        }
+      }
+      this.cachedChapters.clear();
+      this.updateHeaderBadge();
+      this.updateSummaryStats();
+      this.renderDownloadsList();
+      if (AppState.currentSurah) this.updateSurahDetailButton(AppState.currentSurah);
+      showToast('All offline downloads cleared.', 'info');
+    } catch (e) {
+      console.error('Clear failed:', e);
+    }
+  },
+
+  handleSearch(query) {
+    this.searchQuery = (query || '').trim().toLowerCase();
+    this.renderDownloadsList();
+  },
+
+  setFilter(filter) {
+    this.activeFilter = filter;
+    document.querySelectorAll('.dl-tab-btn').forEach(btn => btn.classList.remove('active'));
+    if (filter === 'all') document.getElementById('dlTabAll')?.classList.add('active');
+    if (filter === 'saved') document.getElementById('dlTabSaved')?.classList.add('active');
+    if (filter === 'pending') document.getElementById('dlTabPending')?.classList.add('active');
+    this.renderDownloadsList();
+  },
+
+  renderDownloadsList() {
+    const listEl = document.getElementById('downloadsList');
+    if (!listEl) return;
+
+    let chapters = chaptersData || [];
+
+    if (this.activeFilter === 'saved') {
+      chapters = chapters.filter(c => this.cachedChapters.has(c.number));
+    } else if (this.activeFilter === 'pending') {
+      chapters = chapters.filter(c => !this.cachedChapters.has(c.number));
+    }
+
+    if (this.searchQuery) {
+      const q = this.searchQuery;
+      chapters = chapters.filter(c =>
+        c.number.toString().includes(q) ||
+        (c.name_en && c.name_en.toLowerCase().includes(q)) ||
+        (c.meaning && c.meaning.toLowerCase().includes(q)) ||
+        (c.name_ar && c.name_ar.includes(q))
+      );
+    }
+
+    if (chapters.length === 0) {
+      listEl.innerHTML = `<div style="text-align:center;padding:32px 16px;color:var(--text-dim);font-size:14px;">No chapters found.</div>`;
+      return;
+    }
+
+    let html = '';
+    for (const ch of chapters) {
+      const isCached = this.cachedChapters.has(ch.number);
+      const sizeKb = CHAPTER_SIZES_KB[ch.number] || 100;
+      const sizeStr = sizeKb >= 1000 ? `${(sizeKb / 1024).toFixed(1)} MB` : `${sizeKb} KB`;
+
+      html += `
+        <div class="dl-chapter-row" id="dlRow_${ch.number}">
+          <div class="dl-chapter-left">
+            <div class="dl-chapter-num">${ch.number}</div>
+            <div class="dl-chapter-info">
+              <div class="dl-chapter-name">
+                ${escapeHtml(ch.name_en)} <span class="arabic-text dl-chapter-ar">${escapeHtml(ch.name_ar)}</span>
+              </div>
+              <div class="dl-chapter-meta">${ch.verses} verses • ${sizeStr} • ${ch.type}</div>
+            </div>
+          </div>
+          <div class="dl-chapter-actions">
+            ${isCached
+              ? `<span class="dl-btn saved">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Downloaded
+                </span>
+                <button class="dl-btn delete" onclick="OfflineManager.deleteChapter(${ch.number})" title="Remove from offline storage" aria-label="Delete download">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+                </button>`
+              : `<button class="dl-btn download" id="dlBtn_${ch.number}" onclick="OfflineManager.downloadChapter(${ch.number})">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Download
+                </button>`}
+          </div>
+        </div>
+      `;
+    }
+
+    listEl.innerHTML = html;
+  }
+};
+
+/* ================================================
    17. EVENT LISTENERS
 ================================================ */
 document.getElementById('modal').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
 document.getElementById('aboutModal').addEventListener('click', function(e) { if (e.target === this) closeAboutModal(); });
 document.getElementById('fontSizeModal').addEventListener('click', function(e) { if (e.target === this) closeFontSizeModal(); });
+document.getElementById('downloadsModal').addEventListener('click', function(e) { if (e.target === this) closeDownloadsModal(); });
 
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') { closeModal(); closeAboutModal(); closeFontSizeModal(); }
+  if (e.key === 'Escape') { closeModal(); closeAboutModal(); closeFontSizeModal(); closeDownloadsModal(); }
 });
 
 document.addEventListener('click', function(e) {
@@ -1407,6 +1945,7 @@ function prefetchPopularChapters() {
 AudioPlayer.init();
 initTheme();
 initFontSizes();
+OfflineManager.init();
 handleInitialHash();
 
 if ('requestIdleCallback' in window) requestIdleCallback(prefetchPopularChapters);
