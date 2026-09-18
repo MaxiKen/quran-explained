@@ -1,4 +1,4 @@
-# Reading Experience Updates — v2.1
+# Reading Experience Updates — v2.2
 
 This release prioritizes a calmer chapter-reading experience, better mobile support, and clearer offline behavior.
 
@@ -13,10 +13,11 @@ This release prioritizes a calmer chapter-reading experience, better mobile supp
 - It opens a dedicated, distraction-free continuous reading view with the chapter introduction, each verse’s English context, and the complete commentary.
 - The eBook includes jump-to-verse, text-size, share-link, and **Save PDF** tools.
 
-### 3. Phone offline text-to-speech
-- The eBook has a **Listen offline** control that uses the browser’s Web Speech API and an English voice installed on the reader’s phone.
-- Readers can select an available device voice, pause/resume, or stop narration.
-- Commentary text is not sent by this app to an audio service. For a fully offline experience, readers should save the chapter in the app and install/download an English text-to-speech voice in phone settings. Availability is browser and device dependent.
+### 3. Built-in commentary read aloud
+- The eBook now has a full **Read aloud** player that starts immediately with the browser’s built-in voice—no sign-in, app installation, audio download, or voice selection is required.
+- The player includes play/pause/resume, stop, previous/next verse controls, and a verse slider. It starts at the selected verse and continues through the remaining commentary.
+- The **Verse navigator** lists every verse in the surah. Selecting a verse scrolls to its commentary and, during playback, immediately continues narration from that verse.
+- Commentary text is not sent by this app to an audio service. Where a browser uses an installed local system voice, it also works offline after the chapter is loaded.
 
 ### 4. Five directly selectable reading themes
 The old cycling control was replaced by a direct theme picker, so readers do not have to tap repeatedly to reach a preferred appearance.

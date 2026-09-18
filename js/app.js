@@ -1120,7 +1120,7 @@ function jumpToCommentaryVerse() {
     setTimeout(() => input.classList.remove('input-error'), 900);
     return;
   }
-  scrollToCommentaryVerse(ayah);
+  DeviceSpeech.selectVerse(AppState.currentSurah, ayah);
 }
 
 function renderCompleteCommentary(container) {
@@ -1134,9 +1134,9 @@ function renderCompleteCommentary(container) {
 
   const readingMinutes = getCommentaryReadingMinutes(data, tafsir);
   const intro = getSurahIntro(tafsir);
-  const isSavedOffline = OfflineManager.isChapterCached(ch.number);
   const speechSupported = DeviceSpeech.isSupported();
-  const voiceOptions = DeviceSpeech.getVoiceOptionsHtml();
+  const selectedVerse = DeviceSpeech.getSelectedVerse(ch.number, ch.verses);
+  const chapterVerses = getChapterVerses(data);
 
   let html = `
     <article class="ebook-view">
@@ -1174,27 +1174,42 @@ function renderCompleteCommentary(container) {
         </div>
       </section>
 
-      <section class="device-speech-card" aria-labelledby="deviceSpeechTitle">
-        <div class="device-speech-icon" aria-hidden="true">
-          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line><line x1="8" y1="22" x2="16" y2="22"></line></svg>
+      <section class="commentary-player" aria-labelledby="deviceSpeechTitle">
+        <div class="commentary-player-heading">
+          <div class="device-speech-icon" aria-hidden="true">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line><line x1="8" y1="22" x2="16" y2="22"></line></svg>
+          </div>
+          <div class="device-speech-copy">
+            <h2 id="deviceSpeechTitle">Commentary read aloud</h2>
+            <p id="deviceSpeechStatus">${speechSupported ? 'Ready to read aloud with your browser’s built-in voice. No sign-in, download, or setup is needed.' : 'Read aloud is unavailable because this browser has not exposed its built-in speech feature.'}</p>
+          </div>
+          <output class="commentary-player-verse" id="commentaryPlayerVerse">Verse ${selectedVerse} of ${ch.verses}</output>
         </div>
-        <div class="device-speech-copy">
-          <h2 id="deviceSpeechTitle">Listen with your phone voice</h2>
-          <p id="deviceSpeechStatus">${isSavedOffline ? 'This chapter is saved. A voice installed on your phone can read it without app audio.' : 'Uses your phone’s text-to-speech voice. Save this chapter first for offline reading.'}</p>
-        </div>
-        <div class="device-speech-controls">
-          <label class="sr-only" for="deviceVoiceSelect">Device voice</label>
-          <select id="deviceVoiceSelect" class="device-voice-select" onchange="DeviceSpeech.selectVoice(this.value)" ${speechSupported ? '' : 'disabled'}>${voiceOptions}</select>
+        <div class="commentary-player-controls" aria-label="Commentary player controls">
+          <button class="commentary-skip-btn" id="commentaryPlayerPrevious" onclick="DeviceSpeech.previous(${ch.number})" ${selectedVerse <= 1 ? 'disabled' : ''} aria-label="Previous verse commentary" title="Previous verse commentary">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg>
+          </button>
           <button class="device-speech-btn" id="deviceTtsBtn" onclick="DeviceSpeech.toggle(${ch.number})" ${speechSupported ? '' : 'disabled'}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-            ${speechSupported ? 'Listen offline' : 'Voice unavailable'}
+            ${speechSupported ? 'Read aloud' : 'Read aloud unavailable'}
           </button>
-          <button class="device-speech-stop" id="deviceTtsStop" onclick="DeviceSpeech.stop()" hidden aria-label="Stop phone voice reading" title="Stop reading">
+          <button class="commentary-skip-btn" id="commentaryPlayerNext" onclick="DeviceSpeech.next(${ch.number})" ${selectedVerse >= ch.verses ? 'disabled' : ''} aria-label="Next verse commentary" title="Next verse commentary">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="6 17 11 12 6 7"></polyline><polyline points="13 17 18 12 13 7"></polyline></svg>
+          </button>
+          <button class="device-speech-stop" id="deviceTtsStop" onclick="DeviceSpeech.stop()" hidden aria-label="Stop read aloud" title="Stop read aloud">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="6" width="12" height="12" rx="1"></rect></svg>
           </button>
         </div>
+        <label class="commentary-player-range-label" for="commentaryPlayerRange"><span>Choose a starting verse</span><span>Move the slider, then release to navigate</span></label>
+        <input class="commentary-player-range" id="commentaryPlayerRange" type="range" min="1" max="${ch.verses}" value="${selectedVerse}" oninput="DeviceSpeech.previewVerse(${ch.number}, this.value)" onchange="DeviceSpeech.seek(${ch.number}, this.value)" aria-label="Choose commentary verse">
       </section>
-      <p class="device-speech-note">For offline voice reading, download an English text-to-speech voice in your phone settings. The app sends no commentary text to an audio service.</p>
+      <details class="commentary-navigator">
+        <summary><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Verse navigator</span><small>Choose any commentary verse</small></summary>
+        <p>Tap a verse to move there. If Read aloud is playing, it immediately continues from your choice.</p>
+        <div class="commentary-navigator-grid" role="navigation" aria-label="Select verse commentary">
+          ${chapterVerses.map(verse => `<button class="commentary-navigator-item ${verse.ayah_no_surah === selectedVerse ? 'selected' : ''}" data-commentary-verse="${verse.ayah_no_surah}" onclick="DeviceSpeech.selectVerse(${ch.number}, ${verse.ayah_no_surah})" aria-current="${verse.ayah_no_surah === selectedVerse ? 'true' : 'false'}" aria-label="Go to verse ${verse.ayah_no_surah} commentary">${verse.ayah_no_surah}</button>`).join('')}
+        </div>
+      </details>
 
       ${intro ? `<section class="ebook-introduction"><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderMarkdown(intro)}</div></section>` : ''}
       <div class="ebook-content">`;
@@ -1882,16 +1897,14 @@ const DeviceSpeech = {
   isPaused: false,
   activeSurah: null,
   activeAyah: null,
+  selectedSurah: null,
+  selectedAyah: 1,
   session: 0,
   voices: [],
-  VOICE_KEY: 'quran-reader-device-voice',
 
   init() {
     if (!this.isSupported()) return;
-    const refreshVoices = () => {
-      this.voices = window.speechSynthesis.getVoices();
-      this.refreshVoiceSelect();
-    };
+    const refreshVoices = () => { this.voices = window.speechSynthesis.getVoices(); };
     refreshVoices();
     window.speechSynthesis.onvoiceschanged = refreshVoices;
   },
@@ -1902,61 +1915,38 @@ const DeviceSpeech = {
       && typeof window.SpeechSynthesisUtterance === 'function';
   },
 
-  voiceKey(voice) {
-    return `${voice.name}__${voice.lang}`;
-  },
-
-  getEnglishVoices() {
+  getNarrationVoice() {
     const voices = this.voices.length ? this.voices : (this.isSupported() ? window.speechSynthesis.getVoices() : []);
     const english = voices.filter(voice => /^en(?:[-_]|$)/i.test(voice.lang));
     const localEnglish = english.filter(voice => voice.localService);
-    return (localEnglish.length ? localEnglish : english).sort((a, b) => {
-      if (a.default) return -1;
-      if (b.default) return 1;
-      return a.name.localeCompare(b.name);
-    });
+    // Prefer an installed English voice for offline use, but immediately fall
+    // back to the browser's default voice. Readers never have to configure one.
+    return localEnglish.find(voice => voice.default) || localEnglish[0]
+      || english.find(voice => voice.default) || english[0]
+      || voices.find(voice => voice.default) || voices[0] || null;
   },
 
-  getVoiceOptionsHtml() {
-    const voices = this.getEnglishVoices();
-    const selected = localStorage.getItem(this.VOICE_KEY) || '';
-    if (!voices.length) return '<option value="">System English voice</option>';
-    return voices.map(voice => {
-      const key = this.voiceKey(voice);
-      const label = `${voice.name}${voice.localService ? '' : ' (system)'}`;
-      return `<option value="${escapeAttr(key)}" ${key === selected ? 'selected' : ''}>${escapeHtml(label)}</option>`;
-    }).join('');
+  getSelectedVerse(surahNum, maxVerse) {
+    if (this.selectedSurah !== surahNum) {
+      this.selectedSurah = surahNum;
+      this.selectedAyah = 1;
+    }
+    this.selectedAyah = Math.max(1, Math.min(maxVerse, parseInt(this.selectedAyah, 10) || 1));
+    return this.selectedAyah;
   },
 
-  refreshVoiceSelect() {
-    const select = document.getElementById('deviceVoiceSelect');
-    if (!select || this.isSpeaking || this.isPaused) return;
-    const saved = select.value || localStorage.getItem(this.VOICE_KEY) || '';
-    select.innerHTML = this.getVoiceOptionsHtml();
-    if ([...select.options].some(option => option.value === saved)) select.value = saved;
-  },
-
-  selectVoice(key) {
-    if (key) localStorage.setItem(this.VOICE_KEY, key);
-    else localStorage.removeItem(this.VOICE_KEY);
-    showToast('Phone voice updated', 'info');
-  },
-
-  getSelectedVoice() {
-    const saved = localStorage.getItem(this.VOICE_KEY);
-    const voices = this.getEnglishVoices();
-    return voices.find(voice => this.voiceKey(voice) === saved) || voices.find(voice => voice.default) || voices[0] || null;
-  },
-
-  getSpeechUnits(surahNum) {
+  getSpeechUnits(surahNum, startVerse = 1) {
     const data = loadedChapters[surahNum] || AppState.currentSurahData;
     const tafsir = loadedTafsir[surahNum];
     const ch = chaptersData.find(chapter => chapter.number === surahNum);
     if (!data || !tafsir || !ch) return [];
     const units = [];
     const intro = getSurahIntro(tafsir);
-    if (intro) units.push({ ayah: null, text: `Surah ${ch.name_en}. Introduction. ${markdownToSpeechText(intro)}` });
+    if (startVerse === 1 && intro) {
+      units.push({ ayah: null, text: `Surah ${ch.name_en}. Introduction. ${markdownToSpeechText(intro)}` });
+    }
     getChapterVerses(data).forEach(verse => {
+      if (verse.ayah_no_surah < startVerse) return;
       const commentary = getVerseCommentary(tafsir, verse.ayah_no_surah);
       if (!commentary) return;
       const translation = getVerseEnglish(verse);
@@ -1968,13 +1958,14 @@ const DeviceSpeech = {
     return units;
   },
 
-  makeQueue(surahNum) {
-    return this.getSpeechUnits(surahNum).flatMap(unit => splitSpeechText(unit.text).map(text => ({ ...unit, text })));
+  makeQueue(surahNum, startVerse) {
+    return this.getSpeechUnits(surahNum, startVerse)
+      .flatMap(unit => splitSpeechText(unit.text).map(text => ({ ...unit, text })));
   },
 
   toggle(surahNum) {
     if (!this.isSupported()) {
-      showToast('Text-to-speech is not available in this browser.', 'info');
+      showToast('Read aloud is not available in this browser.', 'info');
       return;
     }
     if (this.activeSurah === surahNum && this.isSpeaking) {
@@ -1985,16 +1976,25 @@ const DeviceSpeech = {
       this.resume();
       return;
     }
-    this.start(surahNum);
+    this.start(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)));
   },
 
-  start(surahNum) {
-    const queue = this.makeQueue(surahNum);
+  getVerseCount(surahNum) {
+    return chaptersData.find(chapter => chapter.number === surahNum)?.verses || 1;
+  },
+
+  start(surahNum, startVerse = 1) {
+    if (!this.isSupported()) return;
+    const maxVerse = this.getVerseCount(surahNum);
+    const verse = Math.max(1, Math.min(maxVerse, parseInt(startVerse, 10) || 1));
+    const queue = this.makeQueue(surahNum, verse);
     if (!queue.length) {
       showToast('Commentary is still loading. Please try again in a moment.', 'info');
       return;
     }
     this.stop(true);
+    this.selectedSurah = surahNum;
+    this.selectedAyah = verse;
     this.queue = queue;
     this.index = 0;
     this.activeSurah = surahNum;
@@ -2003,6 +2003,35 @@ const DeviceSpeech = {
     this.session += 1;
     this._speakCurrent(this.session);
     this.updateUI();
+  },
+
+  selectVerse(surahNum, ayahNum) {
+    const maxVerse = this.getVerseCount(surahNum);
+    const verse = Math.max(1, Math.min(maxVerse, parseInt(ayahNum, 10) || 1));
+    const wasActive = this.activeSurah === surahNum && (this.isSpeaking || this.isPaused);
+    this.selectedSurah = surahNum;
+    this.selectedAyah = verse;
+    scrollToCommentaryVerse(verse);
+    if (wasActive) this.start(surahNum, verse);
+    else this.updateUI();
+  },
+
+  previewVerse(surahNum, ayahNum) {
+    this.selectedSurah = surahNum;
+    this.selectedAyah = Math.max(1, Math.min(this.getVerseCount(surahNum), parseInt(ayahNum, 10) || 1));
+    this.updateUI();
+  },
+
+  seek(surahNum, ayahNum) {
+    this.selectVerse(surahNum, ayahNum);
+  },
+
+  previous(surahNum) {
+    this.selectVerse(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)) - 1);
+  },
+
+  next(surahNum) {
+    this.selectVerse(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)) + 1);
   },
 
   pause() {
@@ -2033,7 +2062,7 @@ const DeviceSpeech = {
     this.activeSurah = null;
     this.setActiveVerse(null);
     this.updateUI();
-    if (wasActive && !quiet) showToast('Phone voice reading stopped', 'info');
+    if (wasActive && !quiet) showToast('Read aloud stopped', 'info');
   },
 
   _speakCurrent(session) {
@@ -2042,10 +2071,13 @@ const DeviceSpeech = {
       return;
     }
     const unit = this.queue[this.index];
-    this.activeAyah = unit.ayah;
+    if (unit.ayah) {
+      this.selectedSurah = this.activeSurah;
+      this.selectedAyah = unit.ayah;
+    }
     this.setActiveVerse(unit.ayah);
     const utterance = new SpeechSynthesisUtterance(unit.text);
-    const voice = this.getSelectedVoice();
+    const voice = this.getNarrationVoice();
     if (voice) utterance.voice = voice;
     utterance.lang = voice?.lang || 'en-US';
     utterance.rate = 0.92;
@@ -2058,7 +2090,7 @@ const DeviceSpeech = {
     utterance.onerror = (event) => {
       if (session !== this.session || event.error === 'interrupted' || event.error === 'canceled') return;
       console.warn('Speech synthesis error:', event.error);
-      showToast('Phone voice could not continue. Try another installed voice.', 'info');
+      showToast('Read aloud could not continue on this device.', 'info');
       this.finish();
     };
     this.utterance = utterance;
@@ -2076,7 +2108,7 @@ const DeviceSpeech = {
     this.activeSurah = null;
     this.setActiveVerse(null);
     this.updateUI();
-    if (completed) showToast('Commentary voice reading complete', 'success');
+    if (completed) showToast('Commentary read aloud complete', 'success');
   },
 
   setActiveVerse(ayah) {
@@ -2088,32 +2120,45 @@ const DeviceSpeech = {
   updateUI() {
     const button = document.getElementById('deviceTtsBtn');
     const stopButton = document.getElementById('deviceTtsStop');
+    const previousButton = document.getElementById('commentaryPlayerPrevious');
+    const nextButton = document.getElementById('commentaryPlayerNext');
     const status = document.getElementById('deviceSpeechStatus');
+    const verseLabel = document.getElementById('commentaryPlayerVerse');
+    const range = document.getElementById('commentaryPlayerRange');
     const supported = this.isSupported();
+    const maxVerse = this.getVerseCount(AppState.currentSurah);
+    const selectedVerse = this.getSelectedVerse(AppState.currentSurah, maxVerse);
+
     if (button) {
       button.classList.toggle('is-active', this.isSpeaking || this.isPaused);
       button.disabled = !supported;
       button.innerHTML = !supported
-        ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12.01" y2="8"></line><line x1="12" y1="12" x2="12" y2="16"></line></svg> Voice unavailable'
+        ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12.01" y2="8"></line><line x1="12" y1="12" x2="12" y2="16"></line></svg> Read aloud unavailable'
         : this.isSpeaking
-          ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"></rect><rect x="14" y="4" width="4" height="16" rx="1"></rect></svg> Pause reading'
+          ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"></rect><rect x="14" y="4" width="4" height="16" rx="1"></rect></svg> Pause'
           : this.isPaused
-            ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Resume reading'
-            : '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Listen offline';
+            ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Resume'
+            : '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Read aloud';
     }
     if (stopButton) stopButton.hidden = !(this.isSpeaking || this.isPaused);
+    if (previousButton) previousButton.disabled = selectedVerse <= 1;
+    if (nextButton) nextButton.disabled = selectedVerse >= maxVerse;
+    if (range) range.value = selectedVerse;
+    if (verseLabel) verseLabel.textContent = `Verse ${selectedVerse} of ${maxVerse}`;
+    document.querySelectorAll('[data-commentary-verse]').forEach(item => {
+      const isSelected = parseInt(item.dataset.commentaryVerse, 10) === selectedVerse;
+      item.classList.toggle('selected', isSelected);
+      item.setAttribute('aria-current', isSelected ? 'true' : 'false');
+    });
     if (status) {
       if (this.isSpeaking || this.isPaused) {
         status.textContent = this.activeAyah
-          ? `${this.isPaused ? 'Paused' : 'Reading'} commentary for verse ${this.activeAyah} with your phone voice.`
-          : `${this.isPaused ? 'Paused' : 'Reading'} the surah introduction with your phone voice.`;
+          ? `${this.isPaused ? 'Paused at' : 'Reading'} verse ${this.activeAyah}. Use Previous, Next, the slider, or the verse navigator to move.`
+          : `${this.isPaused ? 'Paused during' : 'Reading'} the surah introduction.`;
       } else if (!supported) {
-        status.textContent = 'Your browser does not provide a text-to-speech voice for this reading view.';
+        status.textContent = 'Read aloud is unavailable because this browser has not exposed its built-in speech feature.';
       } else {
-        const current = chaptersData.find(chapter => chapter.number === AppState.currentSurah);
-        status.textContent = OfflineManager.isChapterCached(AppState.currentSurah)
-          ? 'This chapter is saved. A voice installed on your phone can read it without app audio.'
-          : `Uses your phone’s text-to-speech voice. Save ${current ? current.name_en : 'this chapter'} first for offline reading.`;
+        status.textContent = 'Ready to read aloud with your browser’s built-in voice. No sign-in, download, or setup is needed.';
       }
     }
   }
@@ -2161,7 +2206,7 @@ function splitSpeechText(text, maxLength = 220) {
 const CHAPTER_SIZES_KB = {"1":53,"2":2376,"3":1367,"4":1324,"5":924,"6":1088,"7":1750,"8":566,"9":870,"10":691,"11":798,"12":823,"13":290,"14":325,"15":616,"16":919,"17":804,"18":715,"19":644,"20":1086,"21":804,"22":678,"23":746,"24":485,"25":518,"26":1435,"27":602,"28":568,"29":550,"30":458,"31":224,"32":196,"33":476,"34":365,"35":298,"36":556,"37":1744,"38":569,"39":545,"40":616,"41":377,"42":359,"43":575,"44":421,"45":236,"46":232,"47":252,"48":193,"49":119,"50":286,"51":382,"52":319,"53":420,"54":314,"55":478,"56":613,"57":206,"58":180,"59":196,"60":99,"61":95,"62":72,"63":81,"64":117,"65":84,"66":82,"67":199,"68":328,"69":392,"70":328,"71":190,"72":189,"73":138,"74":377,"75":240,"76":192,"77":317,"78":272,"79":329,"80":261,"81":175,"82":122,"83":236,"84":160,"85":131,"86":98,"87":110,"88":149,"89":169,"90":144,"91":111,"92":181,"93":86,"94":64,"95":51,"96":124,"97":35,"98":57,"99":54,"100":83,"101":73,"102":54,"103":24,"104":57,"105":32,"106":27,"107":42,"108":21,"109":39,"110":30,"111":44,"112":38,"113":43,"114":50};
 
 const OfflineManager = {
-  CACHE_NAME: 'quran-reader-v2.1.0',
+  CACHE_NAME: 'quran-reader-v2.2.0',
   cachedChapters: new Set(),
   isDownloadingAll: false,
   shouldCancelDownloadAll: false,
