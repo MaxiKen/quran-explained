@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.0.0';
+const CACHE_VERSION = 'quran-reader-v2.1.0';
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -78,11 +78,28 @@ self.addEventListener('install', (event) => {
 ================================================ */
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys()
-      .then((names) => Promise.all(
-        names.map((name) => name !== CACHE_VERSION ? caches.delete(name) : undefined)
-      ))
-      .then(() => self.clients.claim())
+    (async () => {
+      const names = await caches.keys();
+      const currentCache = await caches.open(CACHE_VERSION);
+
+      // Keep chapter downloads when the app shell cache is upgraded. The old
+      // implementation removed the whole cache on each release, forcing users
+      // to download their saved commentary again.
+      for (const name of names) {
+        if (name === CACHE_VERSION) continue;
+        const oldCache = await caches.open(name);
+        const requests = await oldCache.keys();
+        for (const request of requests) {
+          const url = request.url || '';
+          if (!/\/data\/(?:tafsir_|chapter_)/.test(url)) continue;
+          const response = await oldCache.match(request);
+          if (response) await currentCache.put(request, response.clone());
+        }
+        await caches.delete(name);
+      }
+
+      await self.clients.claim();
+    })()
   );
 });
 
