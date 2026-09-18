@@ -6,7 +6,7 @@ var chapterData_100 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
-        "ayah_en": "’ By the galloping, panting horses",
+        "ayah_en": "By the galloping, panting horses",
         "audio": "https://everyayah.com/data/Alafasy_64kbps/100001.mp3"
       },
       {
