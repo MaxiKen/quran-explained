@@ -959,7 +959,6 @@ function renderContinueReadingCard() {
     </button>
     <div class="continue-reading-actions">
       <button type="button" onclick="openCompleteCommentary(${ch.number})">Commentary</button>
-      <button type="button" onclick="ReadAloud.start(${ch.number}, ${latest.ayah})">${listening && ReadAloud.isSpeaking ? 'Pause reading' : 'Read aloud'}</button>
       <span class="continue-reading-pct">${pct}% read</span>
     </div>
   </div>`;
@@ -1126,10 +1125,7 @@ function renderSurahDetail(container) {
               </svg>
               <span>Complete Commentary</span>
             </button>
-            <button class="surah-listen-btn" onclick="ReadAloud.start(${ch.number}, 1)" title="Listen to this chapter's commentary">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-              <span>${ReadAloud.hasSession && ReadAloud.activeSurah === ch.number ? (ReadAloud.isSpeaking ? 'Reading…' : 'Resume reading') : 'Read Commentary'}</span>
-            </button>
+
             <button class="surah-offline-btn ${OfflineManager.isChapterCached(ch.number) ? 'cached' : ''}" id="surahOfflineBtn" onclick="OfflineManager.toggleChapterFromDetail(${ch.number})" title="${OfflineManager.isChapterCached(ch.number) ? 'Chapter saved offline (click to remove)' : 'Save chapter for offline reading'}">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 ${OfflineManager.isChapterCached(ch.number)
@@ -2459,7 +2455,15 @@ document.addEventListener('keydown', function (e) {
   if (e.altKey && e.key === 'ArrowRight') { e.preventDefault(); if (!Router.forward()) showToast('No screen ahead — tap forward is at its end', 'info'); return; }
   if (e.key === 'h' || e.key === 'H') { e.preventDefault(); goHome(); return; }
   if ((e.key === 'c' || e.key === 'C') && AppState.currentView === 'detail' && AppState.currentSurah) { e.preventDefault(); openCompleteCommentary(AppState.currentSurah); return; }
-  if (e.key === 'l' || e.key === 'L') { e.preventDefault(); if (AppState.currentSurah) ReadAloud.toggle(AppState.currentSurah); else showToast('Open a chapter first', 'info'); return; }
+  if (e.key === 'l' || e.key === 'L') {
+    e.preventDefault();
+    if (AppState.currentView !== 'commentary') {
+      if (AppState.currentSurah) openCompleteCommentary(AppState.currentSurah);
+      else showToast('Open the complete commentary to use read aloud', 'info');
+      return;
+    }
+    if (AppState.currentSurah) ReadAloud.toggle(AppState.currentSurah); else showToast('Open a chapter first', 'info'); return;
+  }
   if (e.key === 'm' || e.key === 'M') { e.preventDefault(); ReadAloud.setMode(ReadAloud.mode === 'full' ? 'mini' : 'full'); return; }
 });
 
@@ -2597,10 +2601,6 @@ function updateModalFooter() {
       </button>
     </div>
     <div class="modal-foot-row modal-foot-actions">
-      <button type="button" class="modal-tool ${listening ? 'is-active' : ''}" onclick="modalListen()">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-        ${listening ? 'Pause reading' : 'Read aloud'}
-      </button>
       <button type="button" class="modal-tool ${bookmarked ? 'is-on' : ''}" onclick="modalBookmark()">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         ${bookmarked ? 'Saved' : 'Save'}
@@ -2652,10 +2652,11 @@ function modalStep(delta) {
 }
 
 function modalListen() {
+  /* read aloud now lives only in the full commentary page */
   if (!ModalState.surah) return;
-  if (ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah) { ReadAloud.togglePlay(); updateModalFooter(); return; }
-  ReadAloud.start(ModalState.surah, ModalState.ayah);
   closeModal();
+  openCompleteCommentary(ModalState.surah);
+  setTimeout(() => ReadAloud.start(ModalState.surah, ModalState.ayah), 700);
 }
 
 function modalBookmark() {

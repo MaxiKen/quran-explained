@@ -72,6 +72,7 @@ const ReadAloud = {
     this.initVoices();
     this.wireMediaHandlers();
 
+    this._syncViewClass();
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'visible' && this.isSpeaking) this._requestWakeLock();
       else if (document.visibilityState === 'hidden') this._releaseWakeLock();
@@ -79,6 +80,10 @@ const ReadAloud = {
     window.addEventListener('pagehide', () => this.persist());
     window.addEventListener('beforeunload', () => this.persist());
     window.addEventListener('resize', () => { this._measureLines(); });
+  },
+
+  _syncViewClass() {
+    document.body.classList.toggle('view-commentary', AppState.currentView === 'commentary');
   },
 
   isSupported() {
@@ -163,8 +168,6 @@ const ReadAloud = {
             <span class="ra-cancel-label">Cancel</span>
           </button>
         </header>
-
-        <div class="ra-lyrics" id="raLyrics" role="list" aria-label="Spoken lines"></div>
 
         <div class="ra-scrub">
           <span class="ra-scrub-time" id="raElapsed">0:00</span>
@@ -446,6 +449,16 @@ const ReadAloud = {
       if (typeof showToast === 'function') showToast('This browser has no built-in read aloud voice.', 'info');
       return false;
     }
+    /* Read aloud lives only inside the full commentary page — steer there first */
+    if (AppState.currentView !== 'commentary' || AppState.currentSurah !== surahNum) {
+      if (typeof openCompleteCommentary === 'function') {
+        openCompleteCommentary(surahNum);
+        const target = Math.max(1, Math.min(this.verseCount(surahNum), parseInt(verse, 10) || 1));
+        setTimeout(() => this.start(surahNum, target, options), 700);
+        if (typeof showToast === 'function') showToast('Opening commentary — reading will start there', 'info');
+        return true;
+      }
+    }
     const total = this.verseCount(surahNum);
     const targetVerse = Math.max(1, Math.min(total, parseInt(verse, 10) || 1));
     if (!options.skipDataCheck) {
@@ -607,7 +620,7 @@ const ReadAloud = {
 
   _onUnitChange() {
     this._cacheUnitEls();
-    this._renderLyrics();
+    this._setActiveLine();
     this.updateUI();
   },
 
@@ -688,16 +701,18 @@ const ReadAloud = {
   },
 
   setMode(mode) {
+    this._syncViewClass();
     this.mode = mode;
     if (mode === 'full') this._renderNavigator();
+    const onCommentary = AppState.currentView === 'commentary';
     const dock = document.getElementById('raDock');
-    if (dock) dock.setAttribute('data-mode', this.hasSession ? mode : 'off');
-    document.body.classList.toggle('ra-mini-open', this.hasSession && mode === 'mini');
-    document.body.classList.toggle('ra-full-open', this.hasSession && mode === 'full');
+    const effective = onCommentary && this.hasSession ? mode : 'off';
+    if (dock) dock.setAttribute('data-mode', effective);
+    document.body.classList.toggle('ra-mini-open', onCommentary && this.hasSession && mode === 'mini');
+    document.body.classList.toggle('ra-full-open', onCommentary && this.hasSession && mode === 'full');
     this.updateOrb();
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
     if (typeof updateChromeSpacing === 'function') updateChromeSpacing();
-    if (this.mode === 'full') this._renderLyrics(true);
   },
 
   openCommentary() {
@@ -988,11 +1003,6 @@ const ReadAloud = {
     if (fill) fill.style.width = `${Math.round(Math.max(0, Math.min(1, fraction)) * 100)}%`;
     const bar = document.getElementById('raScrubBar');
     if (bar) bar.setAttribute('aria-valuenow', String(Math.round(fraction * 100)));
-    const active = this._lineEls[this.lineIndex];
-    if (active) {
-      const line = document.getElementById('raLyricsActiveFill');
-      if (line) line.style.width = `${Math.round(fraction * 100)}%`;
-    }
   },
 
   /** rAF scroller — smooth, interruptible, dock-aware. */
@@ -1020,56 +1030,17 @@ const ReadAloud = {
   },
 
   /* =========================================================
-     LYRICS PANEL
+     COMMENTARY PAGE IS THE LYRICS — no duplicated panel
      ========================================================= */
-  _renderLyrics(force) {
-    const box = document.getElementById('raLyrics');
-    if (!box) return;
-    if (this.mode !== 'full' && !force) return;
-    if (!this.hasSession) { box.innerHTML = ''; return; }
-    const lines = this.lines.length ? this.lines : [{ show: 'Ready to read this commentary aloud.', label: '' }];
-    const surah = this.activeSurah;
-    const verse = this.ayah;
-    box.innerHTML = lines.map((line, index) => {
-      const state = index === this.lineIndex ? ' active' : index < this.lineIndex ? ' done' : '';
-      const fill = index === this.lineIndex ? '<span class="ra-line-fill" id="raLyricsActiveFill"></span>' : '';
-      const tafsir = loadedTafsir[surah];
-      const has = verse != null && tafsir && getVerseCommentary(tafsir, verse);
-      return `<button type="button" class="ra-line${state}" role="listitem" data-line="${index}"${index === this.lineIndex ? ' aria-current="true"' : ''}>
-        ${index === 0 ? `<span class="ra-line-tag">${escapeHtml(line.label || '')}</span>` : ''}
-        <span class="ra-line-text">${escapeHtml(line.show)}${line.isTranslation && has ? '<span class="ra-line-note">translation</span>' : ''}</span>
-        ${fill}
-      </button>`;
-    }).join('');
-    box.querySelectorAll('[data-line]').forEach((node) => {
-      node.addEventListener('click', () => {
-        const index = parseInt(node.getAttribute('data-line'), 10);
-        if (index === this.lineIndex) { this.replayLine(); return; }
-        this.lineIndex = index;
-        this._onUnitChange();
-        if (this.isSpeaking || this.isPaused) { this.session += 1; window.speechSynthesis.cancel(); this.isPaused = false; this.isSpeaking = true; this._speakCurrent(); }
-        else this._setActiveLine();
-      });
-    });
-    this._setActiveLine();
-  },
+  _renderLyrics() { /* intentionally no-op: page itself is the lyrics */ },
 
   _setActiveLine(cleared) {
-    const box = document.getElementById('raLyrics');
-    if (!box) return;
-    box.querySelectorAll('.ra-line.active').forEach((node) => node.classList.remove('active'));
+    document.querySelectorAll('.ebook-verse .tts-line-active, .ebook-introduction .tts-line-active, .tts-line-active').forEach((node) => node.classList.remove('tts-line-active'));
     if (cleared) return;
-    const active = box.querySelector(`[data-line="${this.lineIndex}"]`);
-    if (active) {
-      active.classList.add('active');
-      const top = Math.max(0, active.offsetTop - (box.clientHeight / 2) + (active.offsetHeight / 2));
-      if (typeof box.scrollTo === 'function') box.scrollTo({ top, behavior: 'smooth' });
-      else box.scrollTop = top;
-    }
-    /* page highlight follows the same line */
-    document.querySelectorAll('.ebook-verse .tts-line-active').forEach((node) => node.classList.remove('tts-line-active'));
     const lineEl = this._lineEls[this.lineIndex];
     if (lineEl) lineEl.classList.add('tts-line-active');
+    const verseEl = this.ayah == null ? document.querySelector('.ebook-introduction') : document.getElementById(`commentary-verse-${this.ayah}`);
+    if (verseEl) verseEl.classList.add('tts-active');
   },
 
   _paintLineProgress(fraction) {
@@ -1097,17 +1068,23 @@ const ReadAloud = {
   },
 
   /* =========================================================
-     UI SYNC
+     UI SYNC — dock only lives on the commentary page
      ========================================================= */
   updateUI() {
+    this._syncViewClass();
     const dock = document.getElementById('raDock');
     if (!dock) return;
-    dock.setAttribute('data-mode', this.hasSession ? this.mode : 'off');
-    document.body.classList.toggle('ra-mini-open', this.hasSession && this.mode === 'mini');
-    document.body.classList.toggle('ra-full-open', this.hasSession && this.mode === 'full');
-    document.body.classList.toggle('ra-focus', this.focus && this.isSpeaking);
+    const onCommentary = AppState.currentView === 'commentary';
+    /* hide the dock entirely when not on the commentary page — page itself is the lyrics */
+    const effectiveMode = onCommentary && this.hasSession ? this.mode : 'off';
+    dock.setAttribute('data-mode', effectiveMode);
+    document.body.classList.toggle('ra-mini-open', onCommentary && this.hasSession && this.mode === 'mini');
+    document.body.classList.toggle('ra-full-open', onCommentary && this.hasSession && this.mode === 'full');
+    document.body.classList.toggle('ra-focus', this.focus && this.isSpeaking && onCommentary);
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
     if (typeof updateChromeSpacing === 'function') updateChromeSpacing();
+    /* orb can still surface the session when the dock is hidden */
+    if (!onCommentary) { this.updateOrb(); return; }
 
     const playing = this.isSpeaking;
     const playIcon = (label) => playing
@@ -1236,18 +1213,24 @@ const ReadAloud = {
 
   /** Called after the commentary view (re)renders so the player re-attaches. */
   rebind() {
+    this._syncViewClass();
     this._unitCache = {};
     if (!this.hasSession) { this.updateUI(); return; }
     this.lines = this.unitFor(this.activeSurah, this.ayah) || this.lines;
     this._cacheUnitEls();
-    this._renderLyrics(true);
     this._renderNavigator();
     this.updateUI();
+    this._setActiveLine();
   },
 
   onRouteRendered() {
+    this._syncViewClass();
     if (AppState.currentView === 'commentary') this.rebind();
-    else { this._lineEls = []; this._lineTops = []; this.updateUI(); }
+    else {
+      this._lineEls = []; this._lineTops = [];
+      document.querySelectorAll('.ebook-verse.tts-active, .tts-line-active').forEach((n) => n.classList.remove('tts-active', 'tts-line-active'));
+      this.updateUI();
+    }
   },
 
   /* =========================================================
