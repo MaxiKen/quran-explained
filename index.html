@@ -2,7 +2,7 @@
 <html lang="en" data-theme="night">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Quran Explained - verse by verse</title>
 
   <!-- ========== PWA META TAGS ========== -->
@@ -50,13 +50,25 @@
   <header class="app-header" id="appHeader">
     <div class="header-inner">
       <div class="header-left">
-        <div class="logo-icon">
+        <nav class="header-nav" id="headerNav" aria-label="Screen navigation">
+          <button class="nav-pill" id="navBack" type="button" onclick="goBack()" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            <span>Back</span>
+          </button>
+          <button class="nav-pill nav-pill-icon" id="navForward" type="button" onclick="goForward()" title="Forward" aria-label="Forward" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <button class="nav-pill nav-pill-icon" id="navHome" type="button" onclick="goHome()" title="Chapter list" aria-label="Chapter list" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20h14V9.5"/><path d="M10 20v-5h4v5"/></svg>
+          </button>
+        </nav>
+        <div class="logo-icon logo-home" role="button" tabindex="0" onclick="goHome()" onkeydown="if(event.key==='Enter')goHome()" title="Chapter list" aria-label="Chapter list">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
             <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
           </svg>
         </div>
-        <div>
+        <div class="header-titles">
           <h1 class="header-title">Quran Explained</h1>
           <p class="header-subtitle">Interactive Reader</p>
         </div>
@@ -91,7 +103,7 @@
             <button class="theme-option" data-theme-option="dusk" onclick="setTheme('dusk')" role="menuitemradio"><span class="theme-swatch dusk"></span><span><strong>Dusk</strong><small>Soft indigo night</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
           </div>
         </div>
-        <div id="headerAction"></div>
+        <output class="nav-position" id="navPosition" hidden></output>
       </div>
     </div>
   </header>
@@ -99,18 +111,30 @@
   <!-- ========== MAIN APPLICATION CONTAINER ========== -->
   <main id="app" class="app-container"></main>
 
-  <!-- ========== EXPLANATION MODAL ========== -->
+  <!-- ========== TAFSIR / COMMENTARY POP-UP ========== -->
   <div class="modal-overlay" id="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 id="modalTitle" class="modal-title"></h3>
-        <button onclick="closeModal()" class="modal-close" aria-label="Close modal">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
+    <div class="modal-content tafsir-sheet" id="tafsirSheet" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="tafsir-progress" aria-hidden="true"><span id="modalProgressFill"></span></div>
+      <div class="tafsir-head">
+        <span class="tafsir-grabber" aria-hidden="true"></span>
+        <div class="tafsir-head-row">
+          <div class="tafsir-head-text">
+            <p class="tafsir-eyebrow"><span id="modalEyebrow">Commentary</span><span class="tafsir-verse-chip" id="modalVerseChip" hidden></span></p>
+            <h3 id="modalTitle" class="modal-title"></h3>
+          </div>
+          <button onclick="closeModal()" class="modal-close tafsir-close" type="button" aria-label="Close commentary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+            <span>Close</span>
+          </button>
+        </div>
       </div>
-      <div id="modalBody" class="modal-body"></div>
+      <div class="tafsir-scroll" id="tafsirScroll">
+        <div id="modalVerseCard" class="tafsir-verse-card" hidden></div>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+      <div class="tafsir-footer" id="modalFooter" hidden></div>
     </div>
   </div>
 
@@ -134,7 +158,7 @@
             </svg>
           </div>
           <h4 class="about-app-name">Quran Explained</h4>
-          <p class="about-version">Version 2.2</p>
+          <p class="about-version">Version 2.3</p>
         </div>
 
         <div class="about-section">
@@ -149,7 +173,9 @@
             <li><span class="about-feature-icon">🔍</span><div><strong>Smart Search</strong><span>Search chapters by name, number, meaning, or search within verse content (English &amp; Arabic)</span></div></li>
             <li><span class="about-feature-icon">💬</span><div><strong>Interactive Explanations</strong><span>Clickable verse-by-verse English translation with detailed tafsir commentary</span></div></li>
             <li><span class="about-feature-icon">📚</span><div><strong>Complete Commentary eBook</strong><span>Read an entire surah's commentary in a calm, continuous reading view and save it as a PDF</span></div></li>
-            <li><span class="about-feature-icon">🗣️</span><div><strong>Commentary Read Aloud</strong><span>Listen with your browser’s built-in voice player, with verse-by-verse navigation</span></div></li>
+            <li><span class="about-feature-icon">🗣️</span><div><strong>Read Aloud Player</strong><span>A music-player style dock with lyrics-style line following, verse skipping, sleep timer and a floating orb so you can bring it back anytime</span></div></li>
+            <li><span class="about-feature-icon">🧭</span><div><strong>Continue Exactly Where You Stopped</strong><span>Going back — or re-entering the same chapter, commentary or list — resumes your place; a new chapter opens at the top</span></div></li>
+            <li><span class="about-feature-icon">👆</span><div><strong>Everything By Tap</strong><span>Back, forward and home live in the header, edge swipes work on touch screens, and the browser back button no longer drops you out of the reader</span></div></li>
             <li><span class="about-feature-icon">🎧</span><div><strong>Audio Recitation</strong><span>Listen to individual verses or entire chapters with continuous playback, speed control, and repeat modes</span></div></li>
             <li><span class="about-feature-icon">🔖</span><div><strong>Verse Bookmarks</strong><span>Bookmark specific verses for quick access later — saved locally on your device</span></div></li>
             <li><span class="about-feature-icon">🕐</span><div><strong>Reading History</strong><span>Track which verse explanations you've read — never lose your place</span></div></li>
@@ -164,7 +190,13 @@
             <li><span class="about-feature-icon">⎵</span><div><strong>Space</strong><span>Play / Pause audio</span></div></li>
             <li><span class="about-feature-icon">⇧←</span><div><strong>Shift + Left Arrow</strong><span>Previous verse</span></div></li>
             <li><span class="about-feature-icon">⇧→</span><div><strong>Shift + Right Arrow</strong><span>Next verse</span></div></li>
-            <li><span class="about-feature-icon">Esc</span><div><strong>Escape</strong><span>Close modal / Stop audio</span></div></li>
+            <li><span class="about-feature-icon">Esc</span><div><strong>Escape</strong><span>Close the commentary pop-up / stop audio</span></div></li>
+            <li><span class="about-feature-icon">⇧Alt←</span><div><strong>Alt + Left Arrow</strong><span>Previous screen in the reader</span></div></li>
+            <li><span class="about-feature-icon">⇧Alt→</span><div><strong>Alt + Right Arrow</strong><span>Next screen in the reader</span></div></li>
+            <li><span class="about-feature-icon">H</span><div><strong>H</strong><span>Chapter list</span></div></li>
+            <li><span class="about-feature-icon">C</span><div><strong>C</strong><span>Open the surah’s complete commentary</span></div></li>
+            <li><span class="about-feature-icon">L</span><div><strong>L</strong><span>Start or pause read aloud</span></div></li>
+            <li><span class="about-feature-icon">M</span><div><strong>M</strong><span>Expand or shrink the read aloud player</span></div></li>
           </ul>
         </div>
 
@@ -455,6 +487,10 @@
     };
   </script>
 
+  <!-- Reading modules: remembered places, screen stack, read aloud player -->
+  <script src="js/reading-memory.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/read-aloud.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

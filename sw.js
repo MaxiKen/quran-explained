@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.2.0';
+const CACHE_VERSION = 'quran-reader-v2.3.0';
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -21,6 +21,9 @@ const CORE_ASSETS = [
   './index.html',
   './css/styles.css',
   './js/chapters-meta.js',
+  './js/reading-memory.js',
+  './js/router.js',
+  './js/read-aloud.js',
   './js/app.js',
   './icons/icon-192x192.png',
   './icons/icon-512x512.png',

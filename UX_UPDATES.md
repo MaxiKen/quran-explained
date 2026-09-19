@@ -1,4 +1,55 @@
-# Reading Experience Updates — v2.2
+# Reading Experience Updates — v2.3
+
+This release gives the reader continuity: where you left off is where you come back to, navigation is driven by the screen instead of the browser's back button, and read-aloud becomes a proper music-player dock that follows the text like lyrics.
+
+## 1. Reading continuity (resume exactly where you stopped)
+
+- Every place you stop in is remembered per screen: the **home list** (including the open tab and search text), each **chapter page**, and each chapter's **complete commentary**.
+- Returning to the *same* place — via the on-screen back pill, a browser back gesture, or opening the chapter again — restores the exact verse or commentary block you were reading, not a pixel guess. Positions are stored as verse anchors (`ch-N`, `v-N`, `c-N`) so they survive text-size changes, theme changes and re-renders.
+- Returning to a *different* chapter or page always starts fresh at the top — remembering is deliberately scoped to the place you actually left.
+- When a remembered place exists but you land at the top (e.g. after a bookmark jump), a **Continue at Surah · verse N** chip offers the way back, with a *Start over* action that clears the saved place.
+- Leaving a screen at the very top clears its saved place, so "continue reading" never nags you with a page you already finished.
+- A **position read-out** in the header shows `verse N / total` while you read, and a small dot tells you when read-aloud or recitation is running.
+- Places are also flushed on `pagehide`/tab-hide, so closing the app mid-read does not lose the position.
+
+## 2. Read-aloud is now a bottom player dock (commentary + chapter)
+
+- Reading aloud no longer opens a card inside the page. It opens a **fixed bottom dock**, like a music player, on the commentary eBook and the chapter page.
+- Full dock: play/pause, previous/next verse, **go-to-verse scrubber**, verse-range jump list (navigator), a seek bar, speed, voice picker, follow toggle, and a **sleep timer** (5–60 min).
+- **Lyrics-style follow**: the verse being spoken is highlighted in the dock and the page scrolls so the current verse sits in the middle of the screen; the active sentence is tinted in the commentary itself. Follow can be switched off, and any manual scroll pauses auto-follow for a moment so you never fight the player.
+- **Cancel** sits at the top-right of the dock section and stops the session immediately.
+- Collapsing, cancelling, or finishing leaves a **small circular orb fixed on screen** (drag it to a comfortable edge; its position is remembered). Tapping the orb reopens the player exactly where it left off.
+- Navigating within the same chapter keeps playback alive; moving to another chapter suspends it (the orb keeps the place, and the mini bar reads *Ready to resume at verse N*) rather than silently starting to read the wrong surah.
+- Lock-screen / headset controls are wired through the Media Session API, and a wake lock is held while speaking.
+- The recitation audio bar and the read-aloud dock never play over each other — starting one suspends the other.
+
+## 3. Tafsir popup: explicit way out
+
+- The popup is now a proper **tafsir sheet**: sticky header with the verse chip and a **Close (Esc)** button, its own scroll region, and a sticky footer with **Prev / Next verse**, **Read aloud**, **Bookmark**, **Open commentary** and **Done**.
+- Clicking outside still closes it; you can also **drag the sheet down** to dismiss, or swipe sideways on the handle strip to step verses. A progress rail at the top shows how far through the chapter's tafsir you are.
+- Opening the sheet always starts at the top of its own scroll area, and the reading position behind it is untouched.
+
+## 4. Back/forward is driven by the screen, not the browser
+
+- The header now carries a navigation cluster: **‹ Back** (labelled with the screen you'll land on, e.g. *‹ Al-Baqarah*), a forward pill when a forward step exists, and **Home**. The logo is also a tappable home button.
+- A lightweight in-app router owns the history: it pushes a single guard entry so a browser/OS back press is intercepted and turned into an *in-app* step (close the sheet → leave the commentary → leave the chapter). Only a second, deliberate press at the very top level leaves the reader, and it shows a "press back again to exit" toast instead of vanishing.
+- Overscroll and swipe gestures are handled in-app: **edge-swipe** from the left goes back one screen with a live rubber-band hint, and the same gesture is mirrored on the sheet header.
+- `history.scrollRestoration` is set to manual so the browser cannot jump the page mid-render; the app decides where a screen opens.
+- Keyboard shortcuts stay available for desktop: **H / C / L**, `Alt + ←/→`, `Esc` (closes the sheet first, then leaves the screen).
+
+## Other improvements in this release
+
+- Page content now reserves space for whatever is docked at the bottom (`--bottom-chrome`), so the player never covers the last verse, and the scroll-top button lifts itself above the dock or orb.
+- **Chapter progress** is shown on home: a per-chapter rail, and the last verse reached, on the continue card and chapter list.
+- The chapter header gained a one-tap **Listen** button; the eBook toolbar's read-aloud button now reflects live state (*Reading · verse N*, *Paused at verse N*).
+- Per-verse **play** affordances in the eBook start the dock at that verse; verse anchors in the chapter view accept the same deep links as before.
+- Unavailable screens (a chapter with no data, a missing commentary) get a real "screen unavailable" state with a way back instead of an empty page.
+- Toasts can carry an action button (*Start over*, *Undo*).
+- Service worker cache bumped to `v2.3.0` and now precaches the three new modules (`reading-memory`, `router`, `read-aloud`); previously downloaded chapters are carried over untouched.
+
+---
+
+# Previous release — v2.2
 
 This release prioritizes a calmer chapter-reading experience, better mobile support, and clearer offline behavior.
 

@@ -13,7 +13,16 @@ const AppState = {
   detailSearchTerm: '',
   homeTab: 'chapters',
   _verseResultsLimit: 20,
+  /* remembered place on the screen we just opened at the top (resume chip) */
+  resumable: null,
 };
+
+/* the screen the reader is on, in router vocabulary */
+function currentRoute() {
+  if (AppState.currentView === 'detail') return { view: 'detail', surah: AppState.currentSurah };
+  if (AppState.currentView === 'commentary') return { view: 'commentary', surah: AppState.currentSurah };
+  return { view: 'list' };
+}
 
 /* ================================================
    2. THEME MANAGEMENT
@@ -161,17 +170,26 @@ function closeFontSizeModal() {
 /* ================================================
    4. TOAST NOTIFICATIONS
 ================================================ */
-function showToast(message, type = 'info') {
+function showToast(message, type = 'info', action) {
   const container = document.getElementById('toastContainer');
   if (!container) return;
   const toast = document.createElement('div');
-  toast.className = `toast ${type}`;
+  toast.className = `toast ${type}${action && action.label ? ' has-action' : ''}`;
   const iconSvg = type === 'success'
     ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>'
     : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>';
-  toast.innerHTML = `<span class="toast-icon">${iconSvg}</span>${escapeHtml(message)}`;
+  toast.innerHTML = `<span class="toast-icon">${iconSvg}</span><span class="toast-message">${escapeHtml(message)}</span>`
+    + (action && action.label ? `<button type="button" class="toast-action">${escapeHtml(action.label)}</button>` : '');
   container.appendChild(toast);
-  setTimeout(() => { if (toast.parentNode) toast.parentNode.removeChild(toast); }, 3200);
+  if (action && action.label) {
+    const button = toast.querySelector('.toast-action');
+    button.addEventListener('click', () => {
+      if (toast.parentNode) toast.parentNode.removeChild(toast);
+      try { action.onClick(); } catch (err) { console.warn(err); }
+    });
+  }
+  const life = action && action.label ? 6500 : 3200;
+  setTimeout(() => { if (toast.parentNode) toast.parentNode.removeChild(toast); }, life);
 }
 
 /* ================================================
@@ -243,7 +261,7 @@ function addToHistory(surahNum, ayahNum) {
 
 function getTopVisibleVerseNum() {
   const headerHeight = (document.getElementById('appHeader') || {}).offsetHeight || 60;
-  const verseEls = document.querySelectorAll('[id^="verse-"]');
+  const verseEls = document.querySelectorAll('#app [id^="verse-"]');
   for (const el of verseEls) {
     const rect = el.getBoundingClientRect();
     if (rect.bottom > headerHeight + 10) return parseInt(el.id.replace('verse-', ''), 10);
@@ -253,7 +271,7 @@ function getTopVisibleVerseNum() {
 
 function getTopVisibleCommentaryVerseNum() {
   const headerHeight = (document.getElementById('appHeader') || {}).offsetHeight || 60;
-  const sections = document.querySelectorAll('[id^="commentary-verse-"]');
+  const sections = document.querySelectorAll('#app [id^="commentary-verse-"]');
   for (const section of sections) {
     const rect = section.getBoundingClientRect();
     if (rect.bottom > headerHeight + 10) return parseInt(section.id.replace('commentary-verse-', ''), 10);
@@ -261,12 +279,19 @@ function getTopVisibleCommentaryVerseNum() {
   return null;
 }
 
+/** Remember the verse the reader stopped on, so history + "continue" stay true. */
+function recordReadingPlace(view, surahNum) {
+  const targetView = view || AppState.currentView;
+  const num = surahNum || AppState.currentSurah;
+  if (!num) return null;
+  const ayah = targetView === 'commentary' ? getTopVisibleCommentaryVerseNum() : getTopVisibleVerseNum();
+  if (ayah) addToHistory(num, ayah);
+  return ayah;
+}
+
+/** kept so older bookmarks/links keep working — now routed through the reader stack */
 function savePositionAndGoBack() {
-  if (AppState.currentView === 'detail' && AppState.currentSurah) {
-    const ayah = getTopVisibleVerseNum();
-    if (ayah) addToHistory(AppState.currentSurah, ayah);
-  }
-  goBack();
+  if (!Router.back()) Router.go({ view: 'list' }, { resume: true });
 }
 
 function removeHistoryByIndex(index) {
@@ -343,121 +368,289 @@ function loadChapterData(num) {
 }
 
 /* ================================================
-   7. NAVIGATION
+   7. NAVIGATION — the reader owns its screen stack
+   ------------------------------------------------
+   * taps move through Router.go / back / forward
+   * remembered places (ReadingMemory) make "the same screen
+     again" continue and "a different screen" start at the top
+   * the browser back gesture is trapped by the Router so it
+     steps through the reader instead of leaving it
 ================================================ */
 function updateHeaderDownloadVisibility() {
   const downloadButton = document.getElementById('offlineHeaderButton');
   if (downloadButton) downloadButton.hidden = AppState.currentView !== 'list';
+  if (typeof renderHeaderNav === 'function') renderHeaderNav();
+}
+
+/** how much room the fixed players at the bottom of the screen need */
+function updateChromeSpacing() {
+  let space = 0;
+  const dock = document.getElementById('raDock');
+  const mode = dock ? dock.getAttribute('data-mode') : 'off';
+  const measured = (node, fallback) => {
+    const rect = node && node.getBoundingClientRect ? node.getBoundingClientRect() : null;
+    return rect && rect.height > 1 ? Math.round(rect.height) : fallback;
+  };
+  if (mode === 'mini') space = measured(dock, 86) + 8;
+  else if (mode === 'full') space = measured(dock, 232) + 8;
+  const bar = document.getElementById('audioPlayerBar');
+  if (bar && bar.classList.contains('visible')) space = Math.max(space, measured(bar, 76) + 8);
+  const cap = Math.round((window.innerHeight || 760) * 0.7);
+  document.documentElement.style.setProperty('--bottom-chrome', `${Math.min(space, cap)}px`);
 }
 
 function getChapterHash(num, ayahNum) {
   return `#surah-${num}${ayahNum ? `-verse-${ayahNum}` : ''}`;
 }
 
-async function openSurah(num, options = {}) {
+/* ---- tap-driven entry points (used from inline markup) ---- */
+function openSurah(num, options = {}) { return Router.go({ view: 'detail', surah: num }, options); }
+function openCompleteCommentary(num, options = {}) { return Router.go({ view: 'commentary', surah: num }, options); }
+function openSurahAtVerse(surahNum, ayahNum) { return Router.openVerse(surahNum, ayahNum); }
+function backToSurah() { return Router.backToChapter(); }
+function goBack() { if (!Router.back()) Router.go({ view: 'list' }, { resume: true, force: true }); }
+function goForward() { return Router.forward(); }
+function goHome() { return Router.goHome(); }
+
+/* A player follows the reader around: moving to another screen of the same
+   surah keeps it running, opening a *different* surah ends the session. */
+function stopPlaybackForNavigation(nextSurah) {
+  if (nextSurah == null) return;
+  if (AudioPlayer.currentSurah !== nextSurah) AudioPlayer.stop();
+  if (ReadAloud.activeSurah !== nextSurah) ReadAloud.suspendForNavigation(nextSurah);
+}
+
+
+
+/* ---- skeleton chrome ---- */
+function surahSkeletonHtml() {
+  return `<div class="detail-view">
+    <div class="surah-header-card">
+      <div class="surah-header-inner" style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+        <div class="skeleton" style="width:56px;height:56px;border-radius:16px;transform:rotate(45deg);"></div>
+        <div class="skeleton" style="width:140px;height:36px;border-radius:8px;"></div>
+        <div class="skeleton" style="width:200px;height:24px;border-radius:8px;"></div>
+        <div class="skeleton" style="width:120px;height:16px;border-radius:8px;"></div>
+        <div class="skeleton" style="width:220px;height:14px;border-radius:8px;"></div>
+      </div>
+    </div>
+    <div style="margin-top:32px;">
+      <div class="skeleton" style="width:120px;height:30px;border-radius:100px;margin-bottom:12px;"></div>
+      <div class="skeleton" style="width:60%;height:22px;border-radius:8px;margin-bottom:24px;"></div>
+      <div class="verse-arabic" style="margin:20px 0;padding:28px 24px;">
+        <div class="skeleton" style="width:80%;height:28px;border-radius:8px;margin:0 auto 10px;"></div>
+        <div class="skeleton" style="width:55%;height:28px;border-radius:8px;margin:0 auto;"></div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;padding:8px 0;">
+        <div class="skeleton" style="width:110px;height:34px;border-radius:6px;"></div>
+        <div class="skeleton" style="width:150px;height:34px;border-radius:6px;"></div>
+        <div class="skeleton" style="width:90px;height:34px;border-radius:6px;"></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function ebookLoadingHtml(title, note) {
+  return `<div class="ebook-loading" role="status" aria-live="polite">
+    <div class="ebook-loading-book">📚</div>
+    <h2>${escapeHtml(title)}</h2>
+    <p>${escapeHtml(note)}</p>
+    <div class="ebook-loading-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>`;
+}
+
+/* ---- the three screens ---- */
+async function renderSurahView(num, options = {}) {
+  if (num < 1 || num > 114) return;
+  const app = document.getElementById('app');
+  stopPlaybackForNavigation(num);
+  AppState.currentView = 'detail';
+  AppState.currentSurah = num;
+  AppState.currentSurahData = loadedChapters[num] || null;
+  AppState.detailSearchTerm = '';
+  AppState.resumable = null;
+  updateHeaderDownloadVisibility();
+  if (!loadedChapters[num]) app.innerHTML = surahSkeletonHtml();
+
   try {
-    const { fromHistory = false } = options;
-    if (num < 1 || num > 114) return;
-    // A reader should never have an old chapter recitation or eBook voice
-    // continue after navigating to a chapter view.
-    AudioPlayer.stop();
-    DeviceSpeech.stop(true);
-    AppState.currentView = 'detail';
-    updateHeaderDownloadVisibility();
-    const app = document.getElementById('app');
-    app.innerHTML = `<div class="detail-view">
-      <div class="surah-header-card">
-        <div class="surah-header-inner" style="display:flex;flex-direction:column;align-items:center;gap:16px;">
-          <div class="skeleton" style="width:56px;height:56px;border-radius:16px;transform:rotate(45deg);"></div>
-          <div class="skeleton" style="width:140px;height:36px;border-radius:8px;"></div>
-          <div class="skeleton" style="width:200px;height:24px;border-radius:8px;"></div>
-          <div class="skeleton" style="width:120px;height:16px;border-radius:8px;"></div>
-          <div class="skeleton" style="width:220px;height:14px;border-radius:8px;"></div>
-        </div>
-      </div>
-      <div style="margin-top:32px;">
-        <div class="skeleton" style="width:120px;height:30px;border-radius:100px;margin-bottom:12px;"></div>
-        <div class="skeleton" style="width:60%;height:22px;border-radius:8px;margin-bottom:24px;"></div>
-        <div class="verse-arabic" style="margin:20px 0;padding:28px 24px;">
-          <div class="skeleton" style="width:80%;height:28px;border-radius:8px;margin:0 auto 10px;"></div>
-          <div class="skeleton" style="width:55%;height:28px;border-radius:8px;margin:0 auto;"></div>
-        </div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap;padding:8px 0;">
-          <div class="skeleton" style="width:110px;height:34px;border-radius:6px;"></div>
-          <div class="skeleton" style="width:150px;height:34px;border-radius:6px;"></div>
-          <div class="skeleton" style="width:90px;height:34px;border-radius:6px;"></div>
-        </div>
-      </div>
-    </div>`;
-
-    document.getElementById('headerAction').innerHTML = `<button class="back-btn" onclick="savePositionAndGoBack()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-      Back
-    </button>`;
-
-    const data = await loadChapterData(num);
-    AppState.currentSurah = num;
+    const data = loadedChapters[num] || await loadChapterData(num);
+    if (AppState.currentView !== 'detail' || AppState.currentSurah !== num) return;
     AppState.currentSurahData = data;
-    AppState.currentView = 'detail';
-    AppState.detailSearchTerm = '';
-    AppState._scrollToTopOnRender = true;
-
-    const detailHash = getChapterHash(num);
-    if (fromHistory) history.replaceState({ view: 'detail', surah: num }, '', detailHash);
-    else history.pushState({ view: 'detail', surah: num }, '', detailHash);
     renderApp();
-
-    setTimeout(() => { loadTafsirData(num).catch(() => {}); }, 300);
+    applyReadingPlace('detail', num, options);
+    setTimeout(() => { loadTafsirData(num).catch(() => {}); }, 260);
     setTimeout(() => {
       if (num < 114) prefetchChapter(num + 1);
       if (num > 1) prefetchChapter(num - 1);
     }, 1500);
   } catch (err) {
     console.error(`Failed to open Surah ${num}:`, err);
-    AppState.currentView = 'list';
-    AppState.currentSurah = null;
-    AppState.currentSurahData = null;
-    updateHeaderDownloadVisibility();
-    const app = document.getElementById('app');
-    app.innerHTML = `<div style="text-align:center; padding:80px 20px;">
-      <div style="font-size:48px; margin-bottom:16px; opacity:0.3;">📖</div>
-      <div style="color:var(--text-muted); font-size:16px; font-weight:600;">Chapter data not available yet</div>
-      <p style="color:var(--text-dim); margin-top:8px; font-size:14px;">This chapter's interactive content is coming soon.</p>
-      <button class="back-btn" onclick="goBack()" style="margin-top:24px;">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-        Back to Chapters
-      </button>
+    app.innerHTML = `<div class="screen-unavailable">
+      <div class="screen-unavailable-glyph">📖</div>
+      <h2>Chapter data is not available yet</h2>
+      <p>This chapter’s interactive content could not be loaded. Check your connection, or save the chapter for offline reading and try again.</p>
+      <div class="screen-unavailable-actions">
+        <button class="back-btn" onclick="Router.go({view:'list'},{resume:false})">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          All chapters
+        </button>
+        <button class="back-btn" onclick="Router.go({view:'detail',surah:${num}},{force:true,resume:false})">Try again</button>
+      </div>
     </div>`;
   }
 }
 
-async function openSurahAtVerse(surahNum, ayahNum) {
-  if (AppState.currentView === 'detail' && AppState.currentSurah === surahNum) {
-    scrollToVerse(ayahNum);
+async function renderCommentaryView(num, options = {}) {
+  const ch = chaptersData.find((chapter) => chapter.number === num);
+  if (!ch) return;
+  const app = document.getElementById('app');
+  stopPlaybackForNavigation(num);
+  AppState.currentView = 'commentary';
+  AppState.currentSurah = num;
+  AppState.detailSearchTerm = '';
+  AppState.resumable = null;
+  updateHeaderDownloadVisibility();
+
+  if (!(loadedChapters[num] && loadedTafsir[num])) {
+    app.innerHTML = ebookLoadingHtml(`Preparing ${ch.name_en} commentary`, 'Loading the complete chapter into a distraction-free reading view…');
+  }
+  try {
+    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num)]);
+    if (AppState.currentView !== 'commentary' || AppState.currentSurah !== num) return;
+    AppState.currentSurahData = data;
+    renderApp();
+    applyReadingPlace('commentary', num, options);
+    ReadAloud.onRouteRendered();
+  } catch (err) {
+    console.error(`Failed to load commentary for Surah ${num}:`, err);
+    app.innerHTML = `<div class="ebook-loading ebook-load-error" role="alert">
+      <div class="ebook-loading-book">📖</div>
+      <h2>Commentary is unavailable right now</h2>
+      <p>Check your connection or save this chapter for offline reading before trying again.</p>
+      <div class="screen-unavailable-actions">
+        <button class="back-btn" onclick="Router.backToChapter()">Return to chapter</button>
+        <button class="back-btn" onclick="Router.go({view:'commentary',surah:${num}},{force:true,resume:false})">Try again</button>
+      </div>
+    </div>`;
+  }
+}
+
+async function renderHomeRoute(options = {}) {
+  AppState.currentView = 'list';
+  AppState.currentSurah = null;
+  AppState.currentSurahData = null;
+  AppState.detailSearchTerm = '';
+  AppState.resumable = null;
+  const remembered = ReadingMemory.get('home');
+  if (options.tab) AppState.homeTab = options.tab;
+  if (options.resume && remembered && remembered.meta) {
+    AppState.homeTab = remembered.meta.tab || AppState.homeTab;
+    AppState.searchTerm = remembered.meta.search || '';
+  } else if (!options.keepSearch) {
+    AppState.searchTerm = '';
+    AppState._verseResultsLimit = 20;
+  }
+  renderApp();
+  if (options.resume && remembered) ReadingMemory.restore('home');
+  else window.scrollTo(0, 0);
+}
+
+/**
+ * Decide where a freshly rendered screen starts:
+ *  • an explicit verse (bookmark / shared link / continue card) → that verse
+ *  • returning to the screen you just left → its remembered place
+ *  • anything else → the top, with a one-tap chip back to the old place
+ */
+function applyReadingPlace(view, surahNum, options = {}) {
+  const key = ReadingMemory.key(view, surahNum);
+  const remembered = ReadingMemory.get(key);
+  AppState.resumable = null;
+
+  if (options.verse) {
+    const verse = parseInt(options.verse, 10);
+    if (view === 'commentary') setTimeout(() => scrollToCommentaryVerse(verse), 40);
+    else setTimeout(() => scrollToVerse(verse), 40);
+    addToHistory(surahNum, verse);
     return;
   }
-  await openSurah(surahNum);
-  setTimeout(() => { scrollToVerse(ayahNum); }, 150);
+  if (options.resume && remembered) {
+    const applied = ReadingMemory.restore(key);
+    if (applied) {
+      if (applied.verse) addToHistory(surahNum, applied.verse);
+      if (applied.verse && applied.verse > 1) {
+        showToast(`Continued at ${ReadingMemory.labelFor(surahNum, applied.verse)}`, 'info', {
+          label: 'Start over',
+          onClick: () => {
+            ReadingMemory.remove(key);
+            AppState.resumable = null;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          },
+        });
+      }
+      return;
+    }
+  }
+  window.scrollTo(0, 0);
+  if (remembered && remembered.verse && remembered.verse > 1) AppState.resumable = remembered;
+}
+
+/* ---- header screen controls (back / forward / where you are) ---- */
+function renderHeaderNav() {
+  const cluster = document.getElementById('headerNav');
+  if (!cluster) return;
+  const atHome = AppState.currentView === 'list';
+  const back = document.getElementById('navBack');
+  const forward = document.getElementById('navForward');
+  const home = document.getElementById('navHome');
+  const chevron = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>';
+  if (back) {
+    const label = atHome ? 'Chapters' : (Router.canGoBack() ? Router.backLabel() : 'Chapters');
+    back.innerHTML = `${chevron}<span>${escapeHtml(label)}</span>`;
+    back.hidden = atHome;
+    back.title = atHome ? 'You are at the chapter list' : 'Back to the previous screen';
+  }
+  if (forward) {
+    forward.hidden = !Router.canGoForward();
+    forward.setAttribute('aria-disabled', Router.canGoForward() ? 'false' : 'true');
+  }
+  if (home) home.hidden = atHome;
+  cluster.classList.toggle('is-active', !atHome);
+  document.body.classList.toggle('screen-deep', !atHome);
+  updateHeaderPosition();
+}
+
+function updateHeaderPosition() {
+  const pill = document.getElementById('navPosition');
+  if (!pill) return;
+  if (AppState.currentView === 'list' || !AppState.currentSurah) { pill.hidden = true; return; }
+  const ch = chaptersData.find((chapter) => chapter.number === AppState.currentSurah);
+  if (!ch) { pill.hidden = true; return; }
+  const verse = AppState.currentView === 'commentary' ? getTopVisibleCommentaryVerseNum() : getTopVisibleVerseNum();
+  const read = ReadAloud.activeSurah === AppState.currentSurah && ReadAloud.hasSession;
+  const audio = AudioPlayer.currentSurah === AppState.currentSurah;
+  pill.hidden = false;
+  pill.innerHTML = `<span>${verse ? `verse ${verse} / ${ch.verses}` : `surah ${ch.number}`}</span>`
+    + (audio ? '<span class="nav-position-dot" title="Recitation playing">•</span>' : '')
+    + (read ? '<span class="nav-position-dot tts" title="Read aloud playing">•</span>' : '');
 }
 
 function scrollToVerse(ayahNum) {
   const el = document.getElementById('verse-' + ayahNum);
-  if (el) {
-    const headerHeight = document.getElementById('appHeader').offsetHeight;
-    const elTop = el.getBoundingClientRect().top + window.pageYOffset;
-    window.scrollTo({ top: elTop - headerHeight - 20, behavior: 'smooth' });
-    el.style.transition = 'box-shadow 0.3s, border-color 0.3s';
-    el.style.boxShadow = '0 0 20px rgba(var(--accent-rgb), 0.3)';
-    el.style.borderColor = 'var(--accent-border-hover)';
-    setTimeout(() => { el.style.boxShadow = ''; el.style.borderColor = ''; }, 2000);
-  }
+  if (!el) return;
+  const headerHeight = (document.getElementById('appHeader') || {}).offsetHeight || 60;
+  const elTop = el.getBoundingClientRect().top + window.pageYOffset;
+  window.scrollTo({ top: elTop - headerHeight - 20, behavior: 'smooth' });
+  el.style.transition = 'box-shadow 0.3s, border-color 0.3s';
+  el.style.boxShadow = '0 0 20px rgba(var(--accent-rgb), 0.3)';
+  el.style.borderColor = 'var(--accent-border-hover)';
+  setTimeout(() => { el.style.boxShadow = ''; el.style.borderColor = ''; }, 2000);
 }
 
 function jumpToVerseFromInput() {
   const input = document.getElementById('verseJumpInput');
   if (!input) return;
   const num = parseInt(input.value);
-  const ch = chaptersData.find(c => c.number === AppState.currentSurah);
+  const ch = chaptersData.find((chapter) => chapter.number === AppState.currentSurah);
   if (!ch) return;
   if (isNaN(num) || num < 1 || num > ch.verses) {
     input.style.borderColor = '#ef4444';
@@ -470,7 +663,7 @@ function jumpToVerseFromInput() {
 function jumpVerseBy(delta) {
   const input = document.getElementById('verseJumpInput');
   if (!input) return;
-  const ch = chaptersData.find(c => c.number === AppState.currentSurah);
+  const ch = chaptersData.find((chapter) => chapter.number === AppState.currentSurah);
   if (!ch) return;
   let num = parseInt(input.value) || 1;
   num += delta;
@@ -480,76 +673,45 @@ function jumpVerseBy(delta) {
   scrollToVerse(num);
 }
 
-async function openCompleteCommentary(num, options = {}) {
-  const ch = chaptersData.find(chapter => chapter.number === num);
-  if (!ch) return;
+/** one-tap return to a remembered place (resume chip) */
+function resumeScreen() {
+  const remembered = AppState.resumable;
+  if (!remembered) return;
+  const key = ReadingMemory.key(AppState.currentView, AppState.currentSurah);
+  const entry = ReadingMemory.get(key) || remembered;
+  const applied = ReadingMemory.restore(key);
+  if (!applied) {
+    if (entry.verse) {
+      if (AppState.currentView === 'commentary') scrollToCommentaryVerse(entry.verse);
+      else scrollToVerse(entry.verse);
+    }
+  }
+  AppState.resumable = null;
+  renderApp();
+}
 
-  const { fromHistory = false } = options;
-  AudioPlayer.stop();
-  DeviceSpeech.stop(true);
-  AppState.currentView = 'commentary';
-  AppState.currentSurah = num;
-  AppState.detailSearchTerm = '';
-  updateHeaderDownloadVisibility();
+function dismissResumeChip() {
+  AppState.resumable = null;
+  ReadingMemory.remove(ReadingMemory.key(AppState.currentView, AppState.currentSurah));
+  renderApp();
+}
 
-  const app = document.getElementById('app');
-  app.innerHTML = `<div class="ebook-loading" role="status" aria-live="polite">
-    <div class="ebook-loading-book">📚</div>
-    <h2>Preparing ${escapeHtml(ch.name_en)} commentary</h2>
-    <p>Loading the complete chapter into a distraction-free reading view…</p>
-    <div class="ebook-loading-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+function renderResumeChip() {
+  const remembered = AppState.resumable;
+  if (!remembered) return '';
+  const label = ReadingMemory.labelFor(AppState.currentSurah, remembered.verse);
+  if (!label) return '';
+  const isCommentary = AppState.currentView === 'commentary';
+  return `<div class="resume-chip" role="note">
+    <button type="button" class="resume-chip-main" onclick="resumeScreen()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+      <span>Continue where you stopped · <strong>${escapeHtml(label)}</strong></span>
+    </button>
+    <button type="button" class="resume-chip-x" onclick="dismissResumeChip()" aria-label="Forget this place">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    ${isCommentary ? '' : `<button type="button" class="resume-chip-alt" onclick="openCompleteCommentary(${AppState.currentSurah}, {resume:true})">Commentary</button>`}
   </div>`;
-  document.getElementById('headerAction').innerHTML = `<button class="back-btn" onclick="backToSurah()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-    Chapter
-  </button>`;
-
-  try {
-    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num)]);
-    if (AppState.currentView !== 'commentary' || AppState.currentSurah !== num) return;
-    AppState.currentSurahData = data;
-    AppState._scrollToTopOnRender = true;
-    const commentaryHash = `#surah-${num}-commentary`;
-    if (fromHistory) history.replaceState({ view: 'commentary', surah: num }, '', commentaryHash);
-    else history.pushState({ view: 'commentary', surah: num }, '', commentaryHash);
-    renderApp();
-  } catch (err) {
-    console.error(`Failed to load commentary for Surah ${num}:`, err);
-    app.innerHTML = `<div class="ebook-loading ebook-load-error" role="alert">
-      <div class="ebook-loading-book">📖</div>
-      <h2>Commentary is unavailable right now</h2>
-      <p>Check your connection or save this chapter for offline reading before trying again.</p>
-      <button class="back-btn" onclick="backToSurah()">Return to chapter</button>
-    </div>`;
-  }
-}
-
-function backToSurah() {
-  const num = AppState.currentSurah;
-  if (!num) { goBack(); return; }
-  if (!AppState.currentSurahData) {
-    openSurah(num, { fromHistory: true });
-    return;
-  }
-  const ayah = getTopVisibleCommentaryVerseNum();
-  if (ayah) addToHistory(num, ayah);
-  DeviceSpeech.stop(true);
-  AppState.currentView = 'detail';
-  AppState._scrollToTopOnRender = false;
-  history.replaceState({ view: 'detail', surah: num }, '', getChapterHash(num));
-  renderApp();
-  if (ayah) setTimeout(() => scrollToVerse(ayah), 80);
-}
-
-function goBack() {
-  AudioPlayer.stop();
-  DeviceSpeech.stop(true);
-  AppState.currentView = 'list';
-  AppState.currentSurah = null;
-  AppState.currentSurahData = null;
-  AppState.detailSearchTerm = '';
-  history.replaceState({ view: 'list' }, '', `${window.location.pathname}${window.location.search}`);
-  renderApp();
 }
 
 function switchTab(tab) {
@@ -557,6 +719,7 @@ function switchTab(tab) {
   AppState.searchTerm = '';
   AppState._verseResultsLimit = 20;
   renderApp();
+  if (window.history && history.replaceState) history.replaceState(history.state, '', Router.urlFor({ view: 'list' }));
 }
 
 /* ================================================
@@ -711,27 +874,30 @@ function searchLoadedVerses(term) {
 ================================================ */
 function renderApp() {
   const app = document.getElementById('app');
-  const headerAction = document.getElementById('headerAction');
   updateHeaderDownloadVisibility();
+  updateChromeSpacing();
 
   if (AppState.currentView === 'list') {
-    headerAction.innerHTML = '';
     renderHomeView(app);
     removeReadingProgress();
   } else if (AppState.currentView === 'detail') {
-    headerAction.innerHTML = `<button class="back-btn" onclick="savePositionAndGoBack()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-      Back
-    </button>`;
     renderSurahDetail(app);
     initReadingProgress();
   } else if (AppState.currentView === 'commentary') {
-    headerAction.innerHTML = `<button class="back-btn" onclick="backToSurah()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-      Chapter
-    </button>`;
     renderCompleteCommentary(app);
     initReadingProgress();
+  }
+  if (typeof renderHeaderNav === 'function') renderHeaderNav();
+}
+
+/** Router hook — fired once a screen is on screen. */
+function afterRouteRender(route) {
+  renderHeaderNav();
+  if (ReadAloud.hasSession || ReadAloud.resumePoint) ReadAloud.onRouteRendered();
+  else ReadAloud.updateUI();
+  if (AudioPlayer.currentSurah) {
+    AudioPlayer.buildVerseAudioList(AudioPlayer.currentSurah);
+    AudioPlayer._updateUI();
   }
 }
 
@@ -768,6 +934,10 @@ function renderHomeView(container) {
   else if (AppState.homeTab === 'history') html += renderHistoryTab(historyItems);
 
   container.innerHTML = html;
+  if (AppState.resumable && AppState.resumable.anchor) {
+    const target = document.querySelector(`[data-scroll-anchor="${CSS.escape(AppState.resumable.anchor)}"]`);
+    if (target) target.classList.add('anchor-flag');
+  }
 }
 
 function renderContinueReadingCard() {
@@ -775,11 +945,24 @@ function renderContinueReadingCard() {
   if (!latest) return '';
   const ch = chaptersData.find(chapter => chapter.number === latest.surah);
   if (!ch) return '';
-  return `<button class="continue-reading-card" onclick="openSurahAtVerse(${ch.number}, ${latest.ayah})">
-    <span class="continue-reading-icon" aria-hidden="true">↺</span>
-    <span class="continue-reading-copy"><strong>Continue reading</strong><small>${escapeHtml(ch.name_en)} · Verse ${latest.ayah}${latest.snippet ? ` · ${escapeHtml(latest.snippet)}` : ''}</small></span>
-    <svg class="continue-reading-arrow" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-  </button>`;
+  const pct = Math.max(3, Math.min(100, Math.round((latest.ayah / ch.verses) * 100)));
+  const listening = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number;
+  return `<div class="continue-reading-card">
+    <button type="button" class="continue-reading-main" onclick="openSurahAtVerse(${ch.number}, ${latest.ayah})">
+      <span class="continue-reading-icon" aria-hidden="true">↺</span>
+      <span class="continue-reading-copy">
+        <strong>${listening ? 'Continue reading &amp; listening' : 'Continue reading'}</strong>
+        <small>${escapeHtml(ch.name_en)} · verse ${latest.ayah} of ${ch.verses}${latest.snippet ? ` · ${escapeHtml(latest.snippet)}` : ''}</small>
+        <span class="continue-reading-track" aria-hidden="true"><span style="width:${pct}%"></span></span>
+      </span>
+      <svg class="continue-reading-arrow" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="continue-reading-actions">
+      <button type="button" onclick="openCompleteCommentary(${ch.number})">Commentary</button>
+      <button type="button" onclick="ReadAloud.start(${ch.number}, ${latest.ayah})">${listening && ReadAloud.isSpeaking ? 'Pause reading' : 'Read aloud'}</button>
+      <span class="continue-reading-pct">${pct}% read</span>
+    </div>
+  </div>`;
 }
 
 function renderChaptersTab() {
@@ -823,7 +1006,7 @@ function renderChaptersTab() {
     const remaining = verseResults.length - currentLimit;
     html += `<div style="margin-bottom:24px;"><h3 style="font-size:14px;font-weight:600;color:var(--accent);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.05em;">Verse Results (${verseResults.length} found${hasMore ? ', showing ' + currentLimit : ''})</h3><div class="bh-list">`;
     for (const r of visibleResults) {
-      html += `<div class="bh-card" onclick="openSurahAtVerse(${r.surah}, ${r.ayah})"><div class="bh-icon history">📖</div><div class="bh-info"><div class="bh-title">${r.chapterName} — Verse ${r.ayah}</div><div class="bh-sub">"${escapeHtml(r.matchText)}"</div></div></div>`;
+      html += `<div class="bh-card" data-scroll-anchor="vr-${r.surah}-${r.ayah}" onclick="openSurahAtVerse(${r.surah}, ${r.ayah})"><div class="bh-icon history">📖</div><div class="bh-info"><div class="bh-title">${r.chapterName} — Verse ${r.ayah}</div><div class="bh-sub">"${escapeHtml(r.matchText)}"</div></div></div>`;
     }
     html += `</div>`;
     if (hasMore) {
@@ -837,17 +1020,23 @@ function renderChaptersTab() {
   if (filtered.length === 0) {
     html += `<div class="no-results">No chapters found matching "${escapeHtml(AppState.searchTerm)}"</div>`;
   } else {
+    const places = ReadingMemory.all();
+    const progressOf = getHistory();
     for (const ch of filtered) {
       const typeLower = ch.type.toLowerCase();
-      html += `<div class="chapter-card" onclick="openSurah(${ch.number})">
+      const place = places[`surah-${ch.number}`] || places[`surah-${ch.number}-commentary`];
+      const last = progressOf.find((item) => item.surah === ch.number);
+      const at = place && place.verse ? place.verse : (last ? last.verse || last.ayah : null);
+      html += `<div class="chapter-card${at ? ' has-progress' : ''}" data-scroll-anchor="ch-${ch.number}" onclick="openSurah(${ch.number})">
         <div class="chapter-card-inner">
           <div class="chapter-number"><span>${ch.number}</span></div>
           <div style="flex:1;min-width:0;">
             <div class="chapter-name-row"><h3 class="chapter-name">${ch.name_en}</h3><span class="arabic-text chapter-arabic">${ch.name_ar}</span></div>
             <div class="chapter-meta"><span class="chapter-meaning">${ch.meaning}</span><span class="meta-dot">•</span><span class="chapter-verses-count">${ch.verses} verses</span><span class="meta-dot">•</span><span class="type-badge ${typeLower}">${ch.type}</span></div>
+            ${at ? `<div class="chapter-progress-row"><span class="chapter-progress-track"><span class="chapter-progress-fill" style="width:${Math.min(100, Math.round((at / ch.verses) * 100))}%"></span></span><span class="chapter-progress-label">you stopped at verse ${at}</span></div>` : ''}
           </div>
         </div>
-        <span class="status-badge interactive">✦ Interactive</span>
+        <span class="status-badge interactive">${at ? '✦ Continue' : '✦ Interactive'}</span>
       </div>`;
     }
   }
@@ -858,11 +1047,11 @@ function renderChaptersTab() {
 function renderBookmarksTab(bookmarks) {
   if (bookmarks.length === 0) return `<div class="empty-state"><div class="empty-state-icon">🔖</div><div class="empty-state-text">No bookmarks yet</div><div class="empty-state-sub">Bookmark specific verses while reading for quick access later</div></div>`;
   let html = `<div class="bh-list">`;
-  for (const bm of bookmarks) {
+  bookmarks.forEach((bm, index) => {
     const ch = chaptersData.find(c => c.number === bm.surah);
-    if (!ch) continue;
-    html += `<div class="bh-card"><div class="bh-icon bookmark" onclick="openSurahAtVerse(${ch.number},${bm.ayah})">🔖</div><div class="bh-info" onclick="openSurahAtVerse(${ch.number},${bm.ayah})"><div class="bh-title">${ch.name_en} — Verse ${bm.ayah}</div><div class="bh-sub">${bm.snippet ? escapeHtml(bm.snippet) + ' • ' : ''}Bookmarked ${getTimeAgo(bm.timestamp)}</div></div><button class="bh-remove" onclick="event.stopPropagation();removeBookmark(${ch.number},${bm.ayah})" title="Remove"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>`;
-  }
+    if (!ch) return;
+    html += `<div class="bh-card" data-scroll-anchor="bm-${index}"><div class="bh-icon bookmark" onclick="openSurahAtVerse(${ch.number},${bm.ayah})">🔖</div><div class="bh-info" onclick="openSurahAtVerse(${ch.number},${bm.ayah})"><div class="bh-title">${ch.name_en} — Verse ${bm.ayah}</div><div class="bh-sub">${bm.snippet ? escapeHtml(bm.snippet) + ' • ' : ''}Bookmarked ${getTimeAgo(bm.timestamp)}</div></div><button class="bh-remove" onclick="event.stopPropagation();removeBookmark(${ch.number},${bm.ayah})" title="Remove"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>`;
+  });
   return html + `</div>`;
 }
 
@@ -872,7 +1061,7 @@ function renderHistoryTab(historyItems) {
   historyItems.forEach((hi, index) => {
     const ch = chaptersData.find(c => c.number === hi.surah);
     if (!ch) return;
-    html += `<div class="bh-card"><div class="bh-icon history" onclick="openSurahAtVerse(${ch.number},${hi.ayah})">🕐</div><div class="bh-info" onclick="openSurahAtVerse(${ch.number},${hi.ayah})"><div class="bh-title">${ch.name_en} — Verse ${hi.ayah}</div><div class="bh-sub">${hi.snippet ? escapeHtml(hi.snippet) + ' • ' : ''}Read ${getTimeAgo(hi.timestamp)}</div></div><button class="bh-remove" onclick="event.stopPropagation();removeHistoryByIndex(${index})" title="Remove"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>`;
+    html += `<div class="bh-card" data-scroll-anchor="hs-${index}"><div class="bh-icon history" onclick="openSurahAtVerse(${ch.number},${hi.ayah})">🕐</div><div class="bh-info" onclick="openSurahAtVerse(${ch.number},${hi.ayah})"><div class="bh-title">${ch.name_en} — Verse ${hi.ayah}</div><div class="bh-sub">${hi.snippet ? escapeHtml(hi.snippet) + ' • ' : ''}Read ${getTimeAgo(hi.timestamp)}</div></div><button class="bh-remove" onclick="event.stopPropagation();removeHistoryByIndex(${index})" title="Remove"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>`;
   });
   return html + `</div>`;
 }
@@ -936,6 +1125,10 @@ function renderSurahDetail(container) {
                 <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
               </svg>
               <span>Complete Commentary</span>
+            </button>
+            <button class="surah-listen-btn" onclick="ReadAloud.start(${ch.number}, 1)" title="Listen to this chapter's commentary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>${ReadAloud.hasSession && ReadAloud.activeSurah === ch.number ? (ReadAloud.isSpeaking ? 'Reading…' : 'Resume reading') : 'Read Commentary'}</span>
             </button>
             <button class="surah-offline-btn ${OfflineManager.isChapterCached(ch.number) ? 'cached' : ''}" id="surahOfflineBtn" onclick="OfflineManager.toggleChapterFromDetail(${ch.number})" title="${OfflineManager.isChapterCached(ch.number) ? 'Chapter saved offline (click to remove)' : 'Save chapter for offline reading'}">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1003,6 +1196,8 @@ function renderSurahDetail(container) {
         </div>
       </div>
 
+      ${renderResumeChip()}
+
       <div class="search-container detail-search">
         <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" class="search-input detail-search-input" placeholder="Search verses by number or content..." value="${escapeAttr(AppState.detailSearchTerm)}" oninput="handleDetailSearch(this.value)">
@@ -1027,7 +1222,7 @@ function renderSurahDetail(container) {
       const audioActiveClass = (isThisPlaying || isThisLoading) ? ' audio-active' : '';
 
       html += `
-        <div class="verse-arabic${audioActiveClass}" id="verse-${verse.ayah_no_surah}">
+        <div class="verse-arabic${audioActiveClass}" id="verse-${verse.ayah_no_surah}" data-scroll-anchor="v-${verse.ayah_no_surah}">
           <div class="ayah-number">${verse.ayah_no_surah}</div>
           <div class="verse-actions">
             ${hasAudio ? `<button class="verse-action-btn play-btn ${isThisPlaying || isThisLoading ? 'playing' : ''}" 
@@ -1077,11 +1272,6 @@ function renderSurahDetail(container) {
     AudioPlayer._setVerseActive(true);
     document.querySelector('.app-container')?.classList.add('audio-playing');
   }
-
-  if (AppState._scrollToTopOnRender) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    AppState._scrollToTopOnRender = false;
-  }
 }
 
 /* ================================================
@@ -1120,7 +1310,8 @@ function jumpToCommentaryVerse() {
     setTimeout(() => input.classList.remove('input-error'), 900);
     return;
   }
-  DeviceSpeech.selectVerse(AppState.currentSurah, ayah);
+  if (ReadAloud.hasSession && ReadAloud.activeSurah === AppState.currentSurah) ReadAloud.seekVerse(AppState.currentSurah, ayah);
+  else { ReadAloud.selectedSurah = AppState.currentSurah; ReadAloud.selectedAyah = ayah; scrollToCommentaryVerse(ayah); }
 }
 
 function renderCompleteCommentary(container) {
@@ -1128,15 +1319,19 @@ function renderCompleteCommentary(container) {
   const data = AppState.currentSurahData;
   const tafsir = loadedTafsir[AppState.currentSurah];
   if (!ch || !data || !tafsir) {
-    container.innerHTML = `<div class="ebook-loading" role="status"><div class="ebook-loading-book">📚</div><h2>Preparing commentary…</h2><div class="ebook-loading-lines" aria-hidden="true"><span></span><span></span><span></span></div></div>`;
+    container.innerHTML = ebookLoadingHtml('Preparing commentary…', 'Building the reading edition for this chapter.');
     return;
   }
 
   const readingMinutes = getCommentaryReadingMinutes(data, tafsir);
   const intro = getSurahIntro(tafsir);
-  const speechSupported = DeviceSpeech.isSupported();
-  const selectedVerse = DeviceSpeech.getSelectedVerse(ch.number, ch.verses);
   const chapterVerses = getChapterVerses(data);
+  const speechSupported = ReadAloud.isSupported();
+  const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number;
+  const readingLabel = !speechSupported ? 'Read aloud unavailable'
+    : reading && ReadAloud.isSpeaking ? 'Reading aloud…'
+    : reading ? (ReadAloud.ayah == null ? 'Resume introduction' : `Resume verse ${ReadAloud.ayah}`)
+    : 'Read aloud';
 
   let html = `
     <article class="ebook-view">
@@ -1150,8 +1345,10 @@ function renderCompleteCommentary(container) {
           <span class="ebook-number" aria-label="Surah ${ch.number}">${ch.number}</span>
         </div>
         <p class="ebook-subtitle">${escapeHtml(ch.meaning)} · A focused commentary for the complete chapter.</p>
-        <div class="ebook-meta" aria-label="Reading details"><span>${ch.verses} verses</span><span aria-hidden="true">·</span><span>About ${readingMinutes} min read</span><span aria-hidden="true">·</span><span>${escapeHtml(ch.type)}</span></div>
+        <div class="ebook-meta" aria-label="Reading details"><span>${ch.verses} verses</span><span aria-hidden="true">·</span><span>About ${readingMinutes} min read</span><span aria-hidden="true">·</span><span>${escapeHtml(ch.type)}</span>${reading ? '<span aria-hidden="true">·</span><span class="ebook-meta-live">read aloud ready</span>' : ''}</div>
       </header>
+
+      ${renderResumeChip()}
 
       <section class="ebook-toolbar" aria-label="Commentary reading tools">
         <div class="ebook-tool-group ebook-jump-group">
@@ -1162,6 +1359,10 @@ function renderCompleteCommentary(container) {
           </div>
         </div>
         <div class="ebook-toolbar-actions">
+          <button class="ebook-read-btn ${reading ? 'is-active' : ''}" id="raTrigger" onclick="ReadAloud.toggle(${ch.number})" title="Listen to this commentary with your device's own voice" ${speechSupported ? '' : 'disabled'}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+            <span id="raTriggerLabel">${readingLabel}</span>
+          </button>
           <button class="ebook-secondary-btn" onclick="openFontSizeModal()" title="Adjust text size">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg> Text size
           </button>
@@ -1174,52 +1375,25 @@ function renderCompleteCommentary(container) {
         </div>
       </section>
 
-      <section class="commentary-player" aria-labelledby="deviceSpeechTitle">
-        <div class="commentary-player-heading">
-          <div class="device-speech-icon" aria-hidden="true">
-            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line><line x1="8" y1="22" x2="16" y2="22"></line></svg>
-          </div>
-          <div class="device-speech-copy">
-            <h2 id="deviceSpeechTitle">Commentary read aloud</h2>
-            <p id="deviceSpeechStatus">${speechSupported ? 'Ready to read aloud with your browser’s built-in voice. No sign-in, download, or setup is needed.' : 'Read aloud is unavailable because this browser has not exposed its built-in speech feature.'}</p>
-          </div>
-          <output class="commentary-player-verse" id="commentaryPlayerVerse">Verse ${selectedVerse} of ${ch.verses}</output>
-        </div>
-        <div class="commentary-player-controls" aria-label="Commentary player controls">
-          <button class="commentary-skip-btn" id="commentaryPlayerPrevious" onclick="DeviceSpeech.previous(${ch.number})" ${selectedVerse <= 1 ? 'disabled' : ''} aria-label="Previous verse commentary" title="Previous verse commentary">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg>
-          </button>
-          <button class="device-speech-btn" id="deviceTtsBtn" onclick="DeviceSpeech.toggle(${ch.number})" ${speechSupported ? '' : 'disabled'}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-            ${speechSupported ? 'Read aloud' : 'Read aloud unavailable'}
-          </button>
-          <button class="commentary-skip-btn" id="commentaryPlayerNext" onclick="DeviceSpeech.next(${ch.number})" ${selectedVerse >= ch.verses ? 'disabled' : ''} aria-label="Next verse commentary" title="Next verse commentary">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="6 17 11 12 6 7"></polyline><polyline points="13 17 18 12 13 7"></polyline></svg>
-          </button>
-          <button class="device-speech-stop" id="deviceTtsStop" onclick="DeviceSpeech.stop()" hidden aria-label="Stop read aloud" title="Stop read aloud">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="6" width="12" height="12" rx="1"></rect></svg>
-          </button>
-        </div>
-        <label class="commentary-player-range-label" for="commentaryPlayerRange"><span>Choose a starting verse</span><span>Move the slider, then release to navigate</span></label>
-        <input class="commentary-player-range" id="commentaryPlayerRange" type="range" min="1" max="${ch.verses}" value="${selectedVerse}" oninput="DeviceSpeech.previewVerse(${ch.number}, this.value)" onchange="DeviceSpeech.seek(${ch.number}, this.value)" aria-label="Choose commentary verse">
-      </section>
-      <details class="commentary-navigator">
-        <summary><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Verse navigator</span><small>Choose any commentary verse</small></summary>
-        <p>Tap a verse to move there. If Read aloud is playing, it immediately continues from your choice.</p>
-        <div class="commentary-navigator-grid" role="navigation" aria-label="Select verse commentary">
-          ${chapterVerses.map(verse => `<button class="commentary-navigator-item ${verse.ayah_no_surah === selectedVerse ? 'selected' : ''}" data-commentary-verse="${verse.ayah_no_surah}" onclick="DeviceSpeech.selectVerse(${ch.number}, ${verse.ayah_no_surah})" aria-current="${verse.ayah_no_surah === selectedVerse ? 'true' : 'false'}" aria-label="Go to verse ${verse.ayah_no_surah} commentary">${verse.ayah_no_surah}</button>`).join('')}
-        </div>
-      </details>
+      ${!speechSupported ? '<p class="device-speech-note">Read aloud is unavailable because this browser has not exposed its built-in speech feature. The full text stays readable.</p>' : ''}
 
-      ${intro ? `<section class="ebook-introduction"><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderMarkdown(intro)}</div></section>` : ''}
+      ${intro ? `<section class="ebook-introduction" id="commentary-intro"><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderMarkdown(intro)}</div></section>` : ''}
       <div class="ebook-content">`;
 
   for (const theme of data) {
     html += `<section class="ebook-theme-group"><p class="ebook-theme-label">Theme ${theme.theme_no} · ${escapeHtml(theme.theme_description)}</p>`;
     for (const verse of theme.verses || []) {
       const commentary = getVerseCommentary(tafsir, verse.ayah_no_surah);
-      html += `<article class="ebook-verse" id="commentary-verse-${verse.ayah_no_surah}">
-        <header class="ebook-verse-header"><span>Verse ${verse.ayah_no_surah}</span><button class="ebook-verse-share" onclick="shareVerse(${ch.number}, ${verse.ayah_no_surah})" title="Share verse ${verse.ayah_no_surah}" aria-label="Share verse ${verse.ayah_no_surah}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button></header>
+      const active = reading && ReadAloud.ayah === verse.ayah_no_surah;
+      html += `<article class="ebook-verse${active ? ' tts-active' : ''}" id="commentary-verse-${verse.ayah_no_surah}" data-scroll-anchor="c-${verse.ayah_no_surah}">
+        <header class="ebook-verse-header"><span>Verse ${verse.ayah_no_surah}</span>
+          <span class="ebook-verse-tools">
+            <button class="ebook-verse-play" onclick="ReadAloud.start(${ch.number}, ${verse.ayah_no_surah})" title="Read verse ${verse.ayah_no_surah} aloud" aria-label="Read verse ${verse.ayah_no_surah} aloud">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            </button>
+            <button class="ebook-verse-share" onclick="shareVerse(${ch.number}, ${verse.ayah_no_surah})" title="Share verse ${verse.ayah_no_surah}" aria-label="Share verse ${verse.ayah_no_surah}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+          </span>
+        </header>
         <p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>
         <div class="ebook-commentary">${commentary ? renderMarkdown(commentary) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
       </article>`;
@@ -1227,14 +1401,15 @@ function renderCompleteCommentary(container) {
     html += `</section>`;
   }
 
+  const previousChapter = ch.number > 1 ? chaptersData.find((chapter) => chapter.number === ch.number - 1) : null;
+  const nextChapter = ch.number < 114 ? chaptersData.find((chapter) => chapter.number === ch.number + 1) : null;
+  html += `<nav class="chapter-navigation ebook-nav" aria-label="Commentary navigation">
+    ${previousChapter ? `<button class="chapter-nav-btn previous" onclick="openCompleteCommentary(${previousChapter.number})"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg><span><small>Previous commentary</small><strong>${escapeHtml(previousChapter.name_en)}</strong></span></button>` : '<span></span>'}
+    ${nextChapter ? `<button class="chapter-nav-btn next" onclick="openCompleteCommentary(${nextChapter.number})"><span><small>Next commentary</small><strong>${escapeHtml(nextChapter.name_en)}</strong></span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>` : '<span></span>'}
+  </nav>`;
   html += `<footer class="ebook-footer"><span>End of the commentary for Surah ${escapeHtml(ch.name_en)}</span><button class="ebook-secondary-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top</button></footer></div></article>`;
   container.innerHTML = html;
-  DeviceSpeech.updateUI();
-
-  if (AppState._scrollToTopOnRender) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    AppState._scrollToTopOnRender = false;
-  }
+  ReadAloud.onRouteRendered();
 }
 
 /* ================================================
@@ -1255,68 +1430,6 @@ function getVerseCommentary(tafsir, ayahNum) {
 function getSurahIntro(tafsir) {
   if (!tafsir) return '';
   return tafsir.intro || '';
-}
-
-function showExplanation(surahNum, ayahNum) {
-  const ch = chaptersData.find(c => c.number === surahNum);
-  const title = `${ch ? ch.name_en : 'Surah ' + surahNum} — Verse ${ayahNum}`;
-  document.getElementById('modalTitle').textContent = title;
-  document.getElementById('modal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-
-  const explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
-  if (explanation) {
-    document.getElementById('modalBody').innerHTML = renderMarkdown(explanation);
-  } else {
-    document.getElementById('modalBody').innerHTML = `
-      <div class="modal-loading-state">
-        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
-        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
-        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
-        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
-      </div>`;
-    loadTafsirData(surahNum)
-      .then(tafsir => {
-        const text = getVerseCommentary(tafsir, ayahNum);
-        document.getElementById('modalBody').innerHTML = text
-          ? renderMarkdown(text)
-          : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
-      })
-      .catch(() => {
-        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Commentary not available. Please check your connection.</p>';
-      });
-  }
-}
-
-function showSurahNotes(surahNum) {
-  const ch = chaptersData.find(c => c.number === surahNum);
-  const title = `${ch ? ch.name_en : 'Surah ' + surahNum} (${ch ? ch.name_ar : ''}) — Sūrah Overview & Notes`;
-  document.getElementById('modalTitle').textContent = title;
-  document.getElementById('modal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-
-  const intro = getSurahIntro(loadedTafsir[surahNum]);
-  if (intro) {
-    document.getElementById('modalBody').innerHTML = renderMarkdown(intro);
-  } else {
-    document.getElementById('modalBody').innerHTML = `
-      <div class="modal-loading-state">
-        <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
-        <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
-        <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
-        <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
-      </div>`;
-    loadTafsirData(surahNum)
-      .then(tafsir => {
-        const text = getSurahIntro(tafsir);
-        document.getElementById('modalBody').innerHTML = text
-          ? renderMarkdown(text)
-          : '<p class="modal-p">Detailed overview and notes for this chapter are coming soon.</p>';
-      })
-      .catch(() => {
-        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Sūrah notes not available. Please check your connection.</p>';
-      });
-  }
 }
 
 /* ================================================
@@ -1397,22 +1510,6 @@ function parseInline(str) {
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
-function closeModal() { document.getElementById('modal').classList.remove('active'); document.body.style.overflow = ''; }
-function openAboutModal() { document.getElementById('aboutModal').classList.add('active'); document.body.style.overflow = 'hidden'; }
-function closeAboutModal() { document.getElementById('aboutModal').classList.remove('active'); document.body.style.overflow = ''; }
-
-function openDownloadsModal() {
-  document.getElementById('downloadsModal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-  OfflineManager.scanCachedChapters().then(() => {
-    OfflineManager.renderDownloadsList();
-  });
-}
-function closeDownloadsModal() {
-  document.getElementById('downloadsModal').classList.remove('active');
-  document.body.style.overflow = '';
-}
-
 /* ================================================
    13. UTILITY FUNCTIONS
 ================================================ */
@@ -1462,11 +1559,17 @@ function updateScrollTopBtn() {
   const btn = document.getElementById('scrollTopBtn');
   if (!btn) return;
   const hasPlayer = document.querySelector('.audio-player-bar.visible');
+  const dockOpen = document.body.classList.contains('ra-mini-open') || document.body.classList.contains('ra-full-open');
+  const orb = document.getElementById('playerOrb');
+  const hasOrb = !!orb && orb.classList.contains('visible');
+  let offset = (hasPlayer || dockOpen) ? 92 : 24;
+  if (hasOrb) offset = Math.max(offset, window.innerWidth <= 720 ? 132 : 148);
   if (window.pageYOffset > 400) {
     btn.classList.add('visible');
-    btn.style.bottom = hasPlayer ? '90px' : '24px';
+    btn.style.bottom = `${offset}px`;
   } else {
     btn.classList.remove('visible');
+    btn.style.bottom = '';
   }
 }
 
@@ -1570,7 +1673,10 @@ const AudioPlayer = {
             <span class="autoplay-dot"></span><span class="autoplay-label">Auto</span>
           </button>
         </div>
-        <button class="audio-close-btn" onclick="AudioPlayer.stop()" title="Close player">
+        <button class="audio-ctrl-btn" id="audioMinimizeBtn" onclick="AudioPlayer.minimize()" title="Collapse to the floating button" aria-label="Collapse player">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="audio-close-btn" onclick="AudioPlayer.stop()" title="Stop and close the player" aria-label="Stop recitation">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>`;
@@ -1637,6 +1743,10 @@ const AudioPlayer = {
     if (this.currentSurah === surahNum && this.currentAyah === ayahNum && this.currentAudioUrl === audioUrl) {
       this.togglePlayPause();
       return;
+    }
+    if (window.ReadAloud && ReadAloud.hasSession) {
+      if (ReadAloud.activeSurah !== surahNum) ReadAloud.endSession({ silent: true });
+      else { ReadAloud.pause(); ReadAloud.setMode('off'); }
     }
     this._setVerseActive(false);
     this.currentSurah = surahNum;
@@ -1711,6 +1821,37 @@ const AudioPlayer = {
     this._updateChapterBtn();
     document.querySelector('.app-container')?.classList.remove('audio-playing');
     this._prefetchedAudios = {};
+    if (window.PlayerOrb) PlayerOrb.hide('recitation');
+  },
+
+  /** Fold the recitation bar into the floating orb instead of killing playback. */
+  minimize() {
+    const bar = document.getElementById('audioPlayerBar');
+    if (bar) bar.classList.remove('visible');
+    this._minimized = true;
+    this._paintOrb();
+  },
+
+  restoreFromOrb() {
+    this._minimized = false;
+    if (window.PlayerOrb) PlayerOrb.hide('recitation');
+    const bar = document.getElementById('audioPlayerBar');
+    if (bar && (this.isPlaying || this.currentAudioUrl)) bar.classList.add('visible');
+    if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
+  },
+
+  _paintOrb() {
+    if (!window.PlayerOrb || !this.currentAyah) return;
+    const total = this._verseAudioList.length || 1;
+    const index = this._verseAudioList.findIndex((item) => item.ayah === this.currentAyah);
+    PlayerOrb.show({
+      owner: 'recitation',
+      onClick: () => this.restoreFromOrb(),
+      badge: this.currentAyah,
+      progress: index >= 0 ? (index + 1) / total : 0,
+      speaking: this.isPlaying,
+      title: 'Back to the recitation player',
+    });
   },
 
   playNext() {
@@ -1782,11 +1923,20 @@ const AudioPlayer = {
 
   scrollToCurrentVerse() { if (this.currentAyah) scrollToVerse(this.currentAyah); },
 
-  _showPlayerBar() { const b = document.getElementById('audioPlayerBar'); if (b) b.classList.add('visible'); updateScrollTopBtn(); },
-  _hidePlayerBar() {
-    const b = document.getElementById('audioPlayerBar'); if (b) b.classList.remove('visible');
-    document.querySelector('.app-container')?.classList.remove('audio-playing');
+  _showPlayerBar() {
+    this._minimized = false;
+    const b = document.getElementById('audioPlayerBar');
+    if (b) b.classList.add('visible');
+    if (window.PlayerOrb) PlayerOrb.hide('recitation');
     updateScrollTopBtn();
+    if (typeof updateChromeSpacing === 'function') updateChromeSpacing();
+  },
+  _hidePlayerBar() {
+    const b = document.getElementById('audioPlayerBar');
+    if (b && !this._minimized) b.classList.remove('visible');
+    document.querySelector('.app-container')?.classList.remove('audio-playing');
+    if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
+    if (typeof updateChromeSpacing === 'function') updateChromeSpacing();
   },
 
   _updateUI() {
@@ -1803,7 +1953,9 @@ const AudioPlayer = {
     if (badge && this.currentAyah) badge.textContent = this.currentAyah;
     if (title && this.currentSurah && this.currentAyah) {
       const ch = chaptersData.find(c => c.number === this.currentSurah);
-      title.textContent = ch ? `${ch.name_en} — Verse ${this.currentAyah}` : `Verse ${this.currentAyah}`;
+      const total = this._verseAudioList.length;
+      const position = total ? ` · ${this._verseAudioList.findIndex(v => v.ayah === this.currentAyah) + 1} of ${total}` : '';
+      title.textContent = (ch ? `${ch.name_en} — verse ${this.currentAyah}` : `Verse ${this.currentAyah}`) + position;
     }
     if (timeDisplay) timeDisplay.textContent = `${this._formatTime(this.currentTime)} / ${this._formatTime(this.duration)}`;
 
@@ -1870,6 +2022,7 @@ const AudioPlayer = {
   _stopProgressLoop() { if (this._rafId) { cancelAnimationFrame(this._rafId); this._rafId = null; } },
 
   _updateProgress() {
+    if (this._minimized && this.isPlaying) this._paintOrb();
     const fill = document.getElementById('audioProgressFill');
     const timeDisplay = document.getElementById('audioTimeDisplay');
     if (!fill) return;
@@ -1883,284 +2036,6 @@ const AudioPlayer = {
     if (!seconds || isNaN(seconds)) return '0:00';
     const m = Math.floor(seconds / 60); const s = Math.floor(seconds % 60);
     return `${m}:${s < 10 ? '0' : ''}${s}`;
-  }
-};
-
-/* ================================================
-   16. DEVICE SPEECH (OFFLINE PHONE TTS)
-================================================ */
-const DeviceSpeech = {
-  queue: [],
-  index: 0,
-  utterance: null,
-  isSpeaking: false,
-  isPaused: false,
-  activeSurah: null,
-  activeAyah: null,
-  selectedSurah: null,
-  selectedAyah: 1,
-  session: 0,
-  voices: [],
-
-  init() {
-    if (!this.isSupported()) return;
-    const refreshVoices = () => { this.voices = window.speechSynthesis.getVoices(); };
-    refreshVoices();
-    window.speechSynthesis.onvoiceschanged = refreshVoices;
-  },
-
-  isSupported() {
-    return typeof window !== 'undefined'
-      && typeof window.speechSynthesis !== 'undefined'
-      && typeof window.SpeechSynthesisUtterance === 'function';
-  },
-
-  getNarrationVoice() {
-    const voices = this.voices.length ? this.voices : (this.isSupported() ? window.speechSynthesis.getVoices() : []);
-    const english = voices.filter(voice => /^en(?:[-_]|$)/i.test(voice.lang));
-    const localEnglish = english.filter(voice => voice.localService);
-    // Prefer an installed English voice for offline use, but immediately fall
-    // back to the browser's default voice. Readers never have to configure one.
-    return localEnglish.find(voice => voice.default) || localEnglish[0]
-      || english.find(voice => voice.default) || english[0]
-      || voices.find(voice => voice.default) || voices[0] || null;
-  },
-
-  getSelectedVerse(surahNum, maxVerse) {
-    if (this.selectedSurah !== surahNum) {
-      this.selectedSurah = surahNum;
-      this.selectedAyah = 1;
-    }
-    this.selectedAyah = Math.max(1, Math.min(maxVerse, parseInt(this.selectedAyah, 10) || 1));
-    return this.selectedAyah;
-  },
-
-  getSpeechUnits(surahNum, startVerse = 1) {
-    const data = loadedChapters[surahNum] || AppState.currentSurahData;
-    const tafsir = loadedTafsir[surahNum];
-    const ch = chaptersData.find(chapter => chapter.number === surahNum);
-    if (!data || !tafsir || !ch) return [];
-    const units = [];
-    const intro = getSurahIntro(tafsir);
-    if (startVerse === 1 && intro) {
-      units.push({ ayah: null, text: `Surah ${ch.name_en}. Introduction. ${markdownToSpeechText(intro)}` });
-    }
-    getChapterVerses(data).forEach(verse => {
-      if (verse.ayah_no_surah < startVerse) return;
-      const commentary = getVerseCommentary(tafsir, verse.ayah_no_surah);
-      if (!commentary) return;
-      const translation = getVerseEnglish(verse);
-      units.push({
-        ayah: verse.ayah_no_surah,
-        text: `Verse ${verse.ayah_no_surah}. ${translation}. Commentary. ${markdownToSpeechText(commentary)}`
-      });
-    });
-    return units;
-  },
-
-  makeQueue(surahNum, startVerse) {
-    return this.getSpeechUnits(surahNum, startVerse)
-      .flatMap(unit => splitSpeechText(unit.text).map(text => ({ ...unit, text })));
-  },
-
-  toggle(surahNum) {
-    if (!this.isSupported()) {
-      showToast('Read aloud is not available in this browser.', 'info');
-      return;
-    }
-    if (this.activeSurah === surahNum && this.isSpeaking) {
-      this.pause();
-      return;
-    }
-    if (this.activeSurah === surahNum && this.isPaused) {
-      this.resume();
-      return;
-    }
-    this.start(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)));
-  },
-
-  getVerseCount(surahNum) {
-    return chaptersData.find(chapter => chapter.number === surahNum)?.verses || 1;
-  },
-
-  start(surahNum, startVerse = 1) {
-    if (!this.isSupported()) return;
-    const maxVerse = this.getVerseCount(surahNum);
-    const verse = Math.max(1, Math.min(maxVerse, parseInt(startVerse, 10) || 1));
-    const queue = this.makeQueue(surahNum, verse);
-    if (!queue.length) {
-      showToast('Commentary is still loading. Please try again in a moment.', 'info');
-      return;
-    }
-    this.stop(true);
-    this.selectedSurah = surahNum;
-    this.selectedAyah = verse;
-    this.queue = queue;
-    this.index = 0;
-    this.activeSurah = surahNum;
-    this.isSpeaking = true;
-    this.isPaused = false;
-    this.session += 1;
-    this._speakCurrent(this.session);
-    this.updateUI();
-  },
-
-  selectVerse(surahNum, ayahNum) {
-    const maxVerse = this.getVerseCount(surahNum);
-    const verse = Math.max(1, Math.min(maxVerse, parseInt(ayahNum, 10) || 1));
-    const wasActive = this.activeSurah === surahNum && (this.isSpeaking || this.isPaused);
-    this.selectedSurah = surahNum;
-    this.selectedAyah = verse;
-    scrollToCommentaryVerse(verse);
-    if (wasActive) this.start(surahNum, verse);
-    else this.updateUI();
-  },
-
-  previewVerse(surahNum, ayahNum) {
-    this.selectedSurah = surahNum;
-    this.selectedAyah = Math.max(1, Math.min(this.getVerseCount(surahNum), parseInt(ayahNum, 10) || 1));
-    this.updateUI();
-  },
-
-  seek(surahNum, ayahNum) {
-    this.selectVerse(surahNum, ayahNum);
-  },
-
-  previous(surahNum) {
-    this.selectVerse(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)) - 1);
-  },
-
-  next(surahNum) {
-    this.selectVerse(surahNum, this.getSelectedVerse(surahNum, this.getVerseCount(surahNum)) + 1);
-  },
-
-  pause() {
-    if (!this.isSupported() || !this.isSpeaking) return;
-    window.speechSynthesis.pause();
-    this.isSpeaking = false;
-    this.isPaused = true;
-    this.updateUI();
-  },
-
-  resume() {
-    if (!this.isSupported() || !this.isPaused) return;
-    window.speechSynthesis.resume();
-    this.isPaused = false;
-    this.isSpeaking = true;
-    this.updateUI();
-  },
-
-  stop(quiet = false) {
-    const wasActive = this.isSpeaking || this.isPaused;
-    this.session += 1;
-    if (this.isSupported()) window.speechSynthesis.cancel();
-    this.queue = [];
-    this.index = 0;
-    this.utterance = null;
-    this.isSpeaking = false;
-    this.isPaused = false;
-    this.activeSurah = null;
-    this.setActiveVerse(null);
-    this.updateUI();
-    if (wasActive && !quiet) showToast('Read aloud stopped', 'info');
-  },
-
-  _speakCurrent(session) {
-    if (session !== this.session || !this.queue[this.index]) {
-      this.finish();
-      return;
-    }
-    const unit = this.queue[this.index];
-    if (unit.ayah) {
-      this.selectedSurah = this.activeSurah;
-      this.selectedAyah = unit.ayah;
-    }
-    this.setActiveVerse(unit.ayah);
-    const utterance = new SpeechSynthesisUtterance(unit.text);
-    const voice = this.getNarrationVoice();
-    if (voice) utterance.voice = voice;
-    utterance.lang = voice?.lang || 'en-US';
-    utterance.rate = 0.92;
-    utterance.pitch = 1;
-    utterance.onend = () => {
-      if (session !== this.session || this.isPaused) return;
-      this.index += 1;
-      this._speakCurrent(session);
-    };
-    utterance.onerror = (event) => {
-      if (session !== this.session || event.error === 'interrupted' || event.error === 'canceled') return;
-      console.warn('Speech synthesis error:', event.error);
-      showToast('Read aloud could not continue on this device.', 'info');
-      this.finish();
-    };
-    this.utterance = utterance;
-    window.speechSynthesis.speak(utterance);
-    this.updateUI();
-  },
-
-  finish() {
-    const completed = this.queue.length > 0 && this.index >= this.queue.length;
-    this.queue = [];
-    this.index = 0;
-    this.utterance = null;
-    this.isSpeaking = false;
-    this.isPaused = false;
-    this.activeSurah = null;
-    this.setActiveVerse(null);
-    this.updateUI();
-    if (completed) showToast('Commentary read aloud complete', 'success');
-  },
-
-  setActiveVerse(ayah) {
-    this.activeAyah = ayah;
-    document.querySelectorAll('.ebook-verse.tts-active').forEach(element => element.classList.remove('tts-active'));
-    if (ayah) document.getElementById(`commentary-verse-${ayah}`)?.classList.add('tts-active');
-  },
-
-  updateUI() {
-    const button = document.getElementById('deviceTtsBtn');
-    const stopButton = document.getElementById('deviceTtsStop');
-    const previousButton = document.getElementById('commentaryPlayerPrevious');
-    const nextButton = document.getElementById('commentaryPlayerNext');
-    const status = document.getElementById('deviceSpeechStatus');
-    const verseLabel = document.getElementById('commentaryPlayerVerse');
-    const range = document.getElementById('commentaryPlayerRange');
-    const supported = this.isSupported();
-    const maxVerse = this.getVerseCount(AppState.currentSurah);
-    const selectedVerse = this.getSelectedVerse(AppState.currentSurah, maxVerse);
-
-    if (button) {
-      button.classList.toggle('is-active', this.isSpeaking || this.isPaused);
-      button.disabled = !supported;
-      button.innerHTML = !supported
-        ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12.01" y2="8"></line><line x1="12" y1="12" x2="12" y2="16"></line></svg> Read aloud unavailable'
-        : this.isSpeaking
-          ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"></rect><rect x="14" y="4" width="4" height="16" rx="1"></rect></svg> Pause'
-          : this.isPaused
-            ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Resume'
-            : '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Read aloud';
-    }
-    if (stopButton) stopButton.hidden = !(this.isSpeaking || this.isPaused);
-    if (previousButton) previousButton.disabled = selectedVerse <= 1;
-    if (nextButton) nextButton.disabled = selectedVerse >= maxVerse;
-    if (range) range.value = selectedVerse;
-    if (verseLabel) verseLabel.textContent = `Verse ${selectedVerse} of ${maxVerse}`;
-    document.querySelectorAll('[data-commentary-verse]').forEach(item => {
-      const isSelected = parseInt(item.dataset.commentaryVerse, 10) === selectedVerse;
-      item.classList.toggle('selected', isSelected);
-      item.setAttribute('aria-current', isSelected ? 'true' : 'false');
-    });
-    if (status) {
-      if (this.isSpeaking || this.isPaused) {
-        status.textContent = this.activeAyah
-          ? `${this.isPaused ? 'Paused at' : 'Reading'} verse ${this.activeAyah}. Use Previous, Next, the slider, or the verse navigator to move.`
-          : `${this.isPaused ? 'Paused during' : 'Reading'} the surah introduction.`;
-      } else if (!supported) {
-        status.textContent = 'Read aloud is unavailable because this browser has not exposed its built-in speech feature.';
-      } else {
-        status.textContent = 'Ready to read aloud with your browser’s built-in voice. No sign-in, download, or setup is needed.';
-      }
-    }
   }
 };
 
@@ -2570,83 +2445,315 @@ document.getElementById('aboutModal').addEventListener('click', function(e) { if
 document.getElementById('fontSizeModal').addEventListener('click', function(e) { if (e.target === this) closeFontSizeModal(); });
 document.getElementById('downloadsModal').addEventListener('click', function(e) { if (e.target === this) closeDownloadsModal(); });
 
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') { closeModal(); closeAboutModal(); closeFontSizeModal(); closeDownloadsModal(); closeThemeMenu(); }
+document.addEventListener('keydown', function (e) {
+  const typing = ['INPUT', 'TEXTAREA', 'SELECT'].indexOf((e.target || {}).tagName) !== -1;
+  if (e.key === 'Escape') {
+    if (document.getElementById('modal').classList.contains('active')) { closeModal(); return; }
+    closeAboutModal(); closeFontSizeModal(); closeDownloadsModal(); closeThemeMenu();
+    if (document.body.classList.contains('ra-full-open')) ReadAloud.setMode('mini');
+    return;
+  }
+  if (typing) return;
+  /* screen workflow — no browser chrome needed */
+  if (e.altKey && e.key === 'ArrowLeft') { e.preventDefault(); if (!Router.back()) showToast('You are at the first screen', 'info'); return; }
+  if (e.altKey && e.key === 'ArrowRight') { e.preventDefault(); if (!Router.forward()) showToast('No screen ahead — tap forward is at its end', 'info'); return; }
+  if (e.key === 'h' || e.key === 'H') { e.preventDefault(); goHome(); return; }
+  if ((e.key === 'c' || e.key === 'C') && AppState.currentView === 'detail' && AppState.currentSurah) { e.preventDefault(); openCompleteCommentary(AppState.currentSurah); return; }
+  if (e.key === 'l' || e.key === 'L') { e.preventDefault(); if (AppState.currentSurah) ReadAloud.toggle(AppState.currentSurah); else showToast('Open a chapter first', 'info'); return; }
+  if (e.key === 'm' || e.key === 'M') { e.preventDefault(); ReadAloud.setMode(ReadAloud.mode === 'full' ? 'mini' : 'full'); return; }
 });
 
 document.addEventListener('click', function(e) {
   const switcher = document.getElementById('themeSwitcher');
   if (switcher && !switcher.contains(e.target)) closeThemeMenu();
-  if (e.target && e.target.classList.contains('phrase-chip')) {
-    const dataset = e.target.dataset;
+  if (e.target && e.target.closest && e.target.closest('.phrase-chip')) {
+    const chip = e.target.closest('.phrase-chip');
+    const dataset = chip.dataset;
     showExplanation(parseInt(dataset.surah), parseInt(dataset.ayah));
-  }
-});
-
-window.addEventListener('popstate', function(e) {
-  if (e.state && e.state.view === 'commentary' && e.state.surah) {
-    openCompleteCommentary(e.state.surah, { fromHistory: true });
-  } else if (e.state && e.state.view === 'detail' && e.state.surah) {
-    openSurah(e.state.surah, { fromHistory: true });
-  } else {
-    if (AppState.currentView === 'detail' && AppState.currentSurah) {
-      const ayah = getTopVisibleVerseNum();
-      if (ayah) addToHistory(AppState.currentSurah, ayah);
-    } else if (AppState.currentView === 'commentary' && AppState.currentSurah) {
-      const ayah = getTopVisibleCommentaryVerseNum();
-      if (ayah) addToHistory(AppState.currentSurah, ayah);
-    }
-    DeviceSpeech.stop(true);
-    AudioPlayer.stop();
-    AppState.currentView = 'list';
-    AppState.currentSurah = null;
-    AppState.currentSurahData = null;
-    renderApp();
   }
 });
 
 window.addEventListener('scroll', function() {
   updateReadingProgress();
   updateScrollTopBtn();
+  ReadingMemory.scheduleCapture();
+  scheduleHeaderPosition();
 }, { passive: true });
 
-function handleInitialHash() {
-  const hash = window.location.hash;
+let _headerPositionFrame = null;
+function scheduleHeaderPosition() {
+  if (_headerPositionFrame) return;
+  _headerPositionFrame = requestAnimationFrame(() => {
+    _headerPositionFrame = null;
+    updateHeaderPosition();
+  });
+}
 
-  if (hash === '#bookmarks') {
-    AppState.homeTab = 'bookmarks';
-    renderApp();
-    return;
+/* leaving the app for a moment is the last reliable chance to remember the place */
+window.addEventListener('pagehide', () => { ReadingMemory.capture(); ReadingMemory.persist(true); });
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') { ReadingMemory.capture(); ReadingMemory.persist(true); }
+});
+
+/* ================================================
+   17b. TAFSIR POP-UP — tap-through workflow
+   ------------------------------------------------
+   A close button is always on screen, and the reader can walk
+   verse by verse without the back gesture at all.
+================================================ */
+const ModalState = { mode: 'verse', surah: null, ayah: null };
+
+function showExplanation(surahNum, ayahNum) {
+  ModalState.mode = 'verse';
+  ModalState.surah = surahNum;
+  ModalState.ayah = ayahNum;
+  const ch = chaptersData.find(c => c.number === surahNum);
+  setModalHeading(`${ch ? ch.name_en : 'Surah ' + surahNum} · verse ${ayahNum}`,
+    ch ? `${ch.meaning} · verse ${ayahNum} of ${ch.verses}` : 'Commentary');
+  openModalShell(true);
+
+  const verse = getVerseData(surahNum, ayahNum);
+  const card = document.getElementById('modalVerseCard');
+  if (card && verse) {
+    card.hidden = false;
+    card.innerHTML = `<p class="arabic-text modal-verse-arabic">${verse.ayah_ar}</p>
+      <p class="modal-verse-translation">${escapeHtml(getVerseEnglish(verse))}</p>`;
+  } else if (card) {
+    card.hidden = true;
   }
 
-  if (hash === '#history') {
-    AppState.homeTab = 'history';
-    renderApp();
-    return;
-  }
-
-  const commentaryMatch = hash.match(/^#surah-(\d+)-commentary$/);
-  if (commentaryMatch) {
-    const num = parseInt(commentaryMatch[1], 10);
-    if (num >= 1 && num <= 114) {
-      openCompleteCommentary(num, { fromHistory: true });
-      return;
-    }
-  }
-
-  const surahMatch = hash.match(/^#surah-(\d+)(?:-verse-(\d+))?$/);
-  if (surahMatch) {
-    const num = parseInt(surahMatch[1], 10);
-    const ayah = surahMatch[2] ? parseInt(surahMatch[2], 10) : null;
-    if (num >= 1 && num <= 114) {
-      openSurah(num, { fromHistory: true }).then(() => {
-        if (ayah) setTimeout(() => scrollToVerse(ayah), 120);
+  const explanation = getVerseCommentary(loadedTafsir[surahNum], ayahNum);
+  if (explanation) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(explanation);
+    afterModalBodyRender();
+  } else {
+    showModalSkeleton();
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
+        const text = getVerseCommentary(tafsir, ayahNum);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
+        afterModalBodyRender();
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Commentary not available. Please check your connection.</p>';
       });
-      return;
-    }
   }
+}
 
-  renderApp();
+function showModalSkeleton() {
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-loading-state">
+      <div class="skeleton" style="height:22px;width:60%;margin-bottom:16px;border-radius:6px;"></div>
+      <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;border-radius:4px;"></div>
+      <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;border-radius:4px;"></div>
+      <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;border-radius:4px;"></div>
+    </div>`;
+}
+
+function setModalHeading(title, eyebrow) {
+  const titleEl = document.getElementById('modalTitle');
+  if (titleEl) titleEl.textContent = title;
+  const eyebrowEl = document.getElementById('modalEyebrow');
+  if (eyebrowEl) eyebrowEl.textContent = eyebrow || '';
+}
+
+function openModalShell(withFooter) {
+  const modal = document.getElementById('modal');
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  const footer = document.getElementById('modalFooter');
+  if (footer) {
+    footer.hidden = !withFooter;
+    if (withFooter) updateModalFooter();
+  }
+  const scroller = document.getElementById('tafsirScroll');
+  if (scroller) scroller.scrollTop = 0;
+  updateModalProgress();
+  const sheet = document.getElementById('tafsirSheet');
+  if (sheet) sheet.classList.remove('dismissing');
+}
+
+function updateModalFooter() {
+  const footer = document.getElementById('modalFooter');
+  if (!footer || ModalState.mode !== 'verse') return;
+  const ch = chaptersData.find((chapter) => chapter.number === ModalState.surah);
+  const total = ch ? ch.verses : 0;
+  const first = ModalState.ayah <= 1;
+  const last = total ? ModalState.ayah >= total : false;
+  const bookmarked = isVerseBookmarked(ModalState.surah, ModalState.ayah);
+  const listening = ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah && ReadAloud.isSpeaking;
+  footer.innerHTML = `
+    <div class="modal-foot-row">
+      <button type="button" class="modal-step" onclick="modalStep(-1)" ${first ? 'disabled' : ''} title="Previous verse">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        <span>${first ? 'Start' : 'Verse ' + (ModalState.ayah - 1)}</span>
+      </button>
+      <button type="button" class="modal-step modal-step-next" onclick="modalStep(1)" ${last ? 'disabled' : ''} title="Next verse">
+        <span>${last ? 'End' : 'Verse ' + (ModalState.ayah + 1)}</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+    <div class="modal-foot-row modal-foot-actions">
+      <button type="button" class="modal-tool ${listening ? 'is-active' : ''}" onclick="modalListen()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        ${listening ? 'Pause reading' : 'Read aloud'}
+      </button>
+      <button type="button" class="modal-tool ${bookmarked ? 'is-on' : ''}" onclick="modalBookmark()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        ${bookmarked ? 'Saved' : 'Save'}
+      </button>
+      <button type="button" class="modal-tool" onclick="shareVerse(${ModalState.surah}, ${ModalState.ayah})">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        Share
+      </button>
+      <button type="button" class="modal-tool" onclick="modalOpenCommentary()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        In eBook
+      </button>
+    </div>
+    <button type="button" class="modal-done" onclick="closeModal()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      Close
+    </button>`;
+  updateModalProgress();
+}
+
+function updateModalProgress() {
+  const fill = document.getElementById('modalProgressFill');
+  const chip = document.getElementById('modalVerseChip');
+  if (ModalState.mode !== 'verse') {
+    if (fill) fill.style.width = '0%';
+    if (chip) chip.hidden = true;
+    return;
+  }
+  const ch = chaptersData.find((chapter) => chapter.number === ModalState.surah);
+  if (!ch) return;
+  if (fill) fill.style.width = `${Math.round((ModalState.ayah / ch.verses) * 100)}%`;
+  if (chip) { chip.hidden = false; chip.textContent = `${ModalState.ayah} / ${ch.verses}`; }
+}
+
+function afterModalBodyRender() {
+  updateModalFooter();
+  const scroller = document.getElementById('tafsirScroll');
+  if (scroller) scroller.scrollTop = 0;
+}
+
+function modalStep(delta) {
+  const ch = chaptersData.find((chapter) => chapter.number === ModalState.surah);
+  if (!ch) return;
+  const next = ModalState.ayah + delta;
+  if (next < 1 || next > ch.verses) { showToast(next < 1 ? 'First verse of this surah' : 'Last verse of this surah', 'info'); return; }
+  const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number && ReadAloud.isSpeaking;
+  showExplanation(ch.number, next);
+  if (reading) ReadAloud.seekVerse(ch.number, next);
+}
+
+function modalListen() {
+  if (!ModalState.surah) return;
+  if (ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah) { ReadAloud.togglePlay(); updateModalFooter(); return; }
+  ReadAloud.start(ModalState.surah, ModalState.ayah);
+  closeModal();
+}
+
+function modalBookmark() {
+  toggleBookmark(ModalState.surah, ModalState.ayah);
+  updateModalFooter();
+}
+
+function modalOpenCommentary() {
+  const surah = ModalState.surah;
+  const ayah = ModalState.ayah;
+  closeModal();
+  Router.go({ view: 'commentary', surah, verse: ayah }, { force: true, resume: false });
+}
+
+/** swipe the sheet: down = close, sideways = previous / next verse */
+function initModalGestures() {
+  const sheet = document.getElementById('tafsirSheet');
+  if (!sheet) return;
+  let start = null;
+  sheet.addEventListener('touchstart', (event) => {
+    const touch = event.touches[0];
+    const inHeader = !!event.target.closest('.tafsir-head');
+    start = { x: touch.clientX, y: touch.clientY, header: inHeader, fired: false };
+    if (inHeader) sheet.classList.add('grabbing');
+  }, { passive: true });
+  sheet.addEventListener('touchmove', (event) => {
+    if (!start || start.fired) return;
+    const touch = event.touches[0];
+    const dy = touch.clientY - start.y;
+    const dx = touch.clientX - start.x;
+    if (start.header && dy > 8 && Math.abs(dy) > Math.abs(dx)) sheet.style.transform = `translateY(${Math.min(180, dy * 0.7)}px)`;
+    if (Math.abs(dx) > 90 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+      start.fired = true;
+      sheet.style.transform = '';
+      const direction = dx < 0 ? 1 : -1;
+      modalStep(direction);
+    }
+  }, { passive: true });
+  sheet.addEventListener('touchend', () => {
+    sheet.classList.remove('grabbing');
+    const dragged = sheet.style.transform;
+    sheet.style.transform = '';
+    if (start && start.header && !start.fired) {
+      const dy = parseFloat((dragged.match(/translateY\(([\d.]+)px\)/) || [0, 0])[1]) || 0;
+      if (dy > 60) { closeModal(); }
+    }
+    start = null;
+  }, { passive: true });
+}
+
+function showSurahNotes(surahNum) {
+  ModalState.mode = 'notes';
+  ModalState.surah = surahNum;
+  ModalState.ayah = null;
+  const ch = chaptersData.find(c => c.number === surahNum);
+  setModalHeading(`${ch ? ch.name_en : 'Surah ' + surahNum} · overview`, 'Sūrah Overview & Notes');
+  openModalShell(false);
+  const card = document.getElementById('modalVerseCard');
+  if (card) card.hidden = true;
+
+  const intro = getSurahIntro(loadedTafsir[surahNum]);
+  if (intro) {
+    document.getElementById('modalBody').innerHTML = renderMarkdown(intro);
+  } else {
+    showModalSkeleton();
+    loadTafsirData(surahNum)
+      .then(tafsir => {
+        if (ModalState.surah !== surahNum || ModalState.mode !== 'notes') return;
+        const text = getSurahIntro(tafsir);
+        document.getElementById('modalBody').innerHTML = text
+          ? renderMarkdown(text)
+          : '<p class="modal-p">Detailed overview and notes for this chapter are coming soon.</p>';
+      })
+      .catch(() => {
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Sūrah notes not available. Please check your connection.</p>';
+      });
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+  ModalState.mode = 'verse';
+}
+function openAboutModal() { document.getElementById('aboutModal').classList.add('active'); document.body.style.overflow = 'hidden'; }
+function closeAboutModal() { document.getElementById('aboutModal').classList.remove('active'); document.body.style.overflow = ''; }
+
+function openDownloadsModal() {
+  document.getElementById('downloadsModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+  OfflineManager.scanCachedChapters().then(() => {
+    OfflineManager.renderDownloadsList();
+  });
+}
+function closeDownloadsModal() {
+  document.getElementById('downloadsModal').classList.remove('active');
+  document.body.style.overflow = '';
 }
 
 /* ================================================
@@ -2667,12 +2774,30 @@ function prefetchPopularChapters() {
 /* ================================================
    19. INITIALIZATION
 ================================================ */
-AudioPlayer.init();
-DeviceSpeech.init();
-initTheme();
-initFontSizes();
-OfflineManager.init();
-handleInitialHash();
+function bootApp() {
+  ReadingMemory.load();
+  AudioPlayer.init();
+  ReadAloud.init();
+  initTheme();
+  initFontSizes();
+  OfflineManager.init();
+  PlayerOrb.init();
 
-if ('requestIdleCallback' in window) requestIdleCallback(prefetchPopularChapters);
-else setTimeout(prefetchPopularChapters, 5000);
+  /* the remembered reading place and the remembered player position are
+     both offered, never auto-played */
+  ReadAloud.restoreSavedPlace();
+  Router.boot();
+
+  ScreenGestures.init();
+  initModalGestures();
+
+  window.addEventListener('resize', () => {
+    if (ReadAloud.hasSession) ReadAloud.rebind();
+  });
+
+  if ('requestIdleCallback' in window) requestIdleCallback(prefetchPopularChapters);
+  else setTimeout(prefetchPopularChapters, 5000);
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bootApp);
+else bootApp();
