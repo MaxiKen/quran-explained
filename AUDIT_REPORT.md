@@ -7,7 +7,7 @@ Generated from the corpus itself: every one of the 6,236 verse sections was meas
 | measure | value |
 |---|---|
 | verse sections | 6,236 |
-| commentary words | 2,506,972 |
+| commentary words | 2,508,704 |
 | words per verse commentary | min 92, median 399, mean 402 |
 | chapter intros | 114, min 238 words, median 541 |
 | readability (Flesch) | min 11, 10th percentile 35, median 54 |
@@ -18,15 +18,15 @@ Element coverage across the corpus, in the share of sections that carry it:
 | element | sections | share |
 |---|---|---|
 | meaning | 6,236 | 100% |
-| lexical | 5,962 | 96% |
+| lexical | 5,967 | 96% |
 | context | 1,136 | 18% |
 | hadith | 1,557 | 25% |
-| ruling | 2,259 | 36% |
+| ruling | 2,260 | 36% |
 | crossref | 5,302 | 85% |
 | story | 1,692 | 27% |
-| theology | 3,898 | 63% |
-| application | 2,909 | 47% |
-| variant | 1,096 | 18% |
+| theology | 3,900 | 63% |
+| application | 2,911 | 47% |
+| variant | 1,095 | 18% |
 | flow | 5,978 | 96% |
 | parable | 1,660 | 27% |
 
@@ -62,9 +62,9 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 13 | 43 | 602 | 17.4x | 100% | 44% | 33% | 21% | 2 |
 | 14 | 52 | 411 | 15.4x | 100% | 35% | 13% | 12% | 3 |
 | 15 | 99 | 571 | 41.5x | 100% | 9% | 39% | 30% | 0 |
-| 16 | 128 | 249 | 9.0x | 100% | 13% | 31% | 17% | 21 |
+| 16 | 128 | 255 | 9.2x | 100% | 14% | 31% | 17% | 18 |
 | 17 | 111 | 496 | 18.1x | 100% | 38% | 50% | 29% | 35 |
-| 18 | 110 | 316 | 12.2x | 100% | 45% | 25% | 13% | 13 |
+| 18 | 110 | 317 | 12.2x | 100% | 45% | 25% | 13% | 12 |
 | 19 | 98 | 493 | 23.6x | 100% | 33% | 42% | 35% | 4 |
 | 20 | 135 | 268 | 14.8x | 100% | 10% | 20% | 9% | 58 |
 | 21 | 112 | 381 | 19.6x | 100% | 5% | 13% | 6% | 7 |
@@ -104,8 +104,8 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 55 | 78 | 274 | 27.3x | 100% | 29% | 13% | 8% | 1 |
 | 56 | 96 | 353 | 44.8x | 100% | 24% | 24% | 21% | 14 |
 | 57 | 29 | 325 | 7.5x | 100% | 31% | 38% | 3% | 8 |
-| 58 | 22 | 282 | 7.6x | 100% | 41% | 59% | 9% | 6 |
-| 59 | 24 | 284 | 9.1x | 100% | 46% | 38% | 33% | 3 |
+| 58 | 22 | 282 | 7.6x | 100% | 36% | 59% | 9% | 6 |
+| 59 | 24 | 282 | 9.0x | 100% | 46% | 38% | 33% | 3 |
 | 60 | 13 | 533 | 8.9x | 100% | 38% | 54% | 92% | 1 |
 | 61 | 14 | 484 | 14.2x | 100% | 36% | 64% | 21% | 3 |
 | 62 | 11 | 492 | 18.6x | 100% | 18% | 55% | 36% | 0 |
@@ -119,7 +119,7 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 70 | 44 | 188 | 21.3x | 100% | 7% | 32% | 9% | 7 |
 | 71 | 28 | 537 | 36.1x | 100% | 32% | 25% | 25% | 4 |
 | 72 | 28 | 505 | 27.6x | 100% | 46% | 21% | 39% | 0 |
-| 73 | 20 | 241 | 16.1x | 100% | 45% | 35% | 10% | 3 |
+| 73 | 20 | 302 | 16.1x | 100% | 45% | 35% | 10% | 2 |
 | 74 | 56 | 234 | 33.0x | 100% | 21% | 25% | 7% | 3 |
 | 75 | 40 | 548 | 60.7x | 100% | 20% | 45% | 12% | 2 |
 | 76 | 31 | 510 | 32.9x | 100% | 13% | 26% | 16% | 2 |
