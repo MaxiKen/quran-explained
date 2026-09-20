@@ -1,7 +1,7 @@
 # Commentary audit
 
 * Sections: **6,236**
-* Words: **2,601,944**
+* Words: **2,601,634**
 * Length: min 105 / median 423 words per section
 * Readability: Flesch min 21.5 / p10 40 / median 56
 * Sections below their length floor: **0**
@@ -13,11 +13,11 @@
 |---|---:|---:|
 | crossref | 5,407 | 86% |
 | theology | 5,096 | 81% |
-| meaning | 2,822 | 45% |
+| meaning | 2,820 | 45% |
 | story | 2,671 | 42% |
 | parable | 2,405 | 38% |
 | flow | 2,126 | 34% |
-| application | 1,935 | 31% |
+| application | 1,936 | 31% |
 | variant | 1,879 | 30% |
 | lexical | 1,878 | 30% |
 | sirah | 1,664 | 26% |
