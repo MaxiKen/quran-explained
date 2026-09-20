@@ -172,3 +172,36 @@ Then regenerate the app payload:
 | 112 | 6,036 | 3,413 | 57% |
 | 113 | 6,873 | 4,203 | 61% |
 | 114 | 7,811 | 4,535 | 58% |
+
+## Second pass (natural-length rewrite)
+
+A second pass re-cut the corpus again, this time to remove the generator's
+"chain" habit — short sentences that only hand a word to the next one — and to
+let every verse take the length its content actually needs.
+
+**Result: 3,682,471 words to 2,723,558 words.** Verse commentary median 398
+words (range 83 to 1,032) instead of a flat target; the shortest sections are the
+short verses of the closing surahs and the narrative verses of Sūrah al-Ṣāffāt,
+which were rewritten by hand.
+
+Tools added for this pass:
+
+* `scripts/chain_cleanup.py` — removes echo-link ("chain") sentences, never
+  touching a citation, a hadith reference, a Qur'an reference or a quotation;
+  reports a `chain_density` metric per file.
+* `scripts/edit_sections.py` — the section-level editorial pass: scores each
+  paragraph for substance, drops repeated points, trims the tail of sections
+  that run past what the verse needs, and always keeps citations, hadith and
+  quoted scripture.
+
+Notes on what the second pass found:
+
+* Sūrahs 37, 69 and 70 were machine filler even in the first draft (over 60
+  percent of their sentences were chain residue). Their verse commentaries were
+  written from scratch: 66 sections.
+* Sixteen hadith reports that the first pass had dropped were restored from the
+  draft, with their collection references intact (4:100, 4:102, 4:105, 4:125,
+  5:30, 5:36, 5:67, 7:6, 7:7, 7:10, 7:16, 7:20, 7:21, 7:39, 7:94, 50:17).
+* Every verse blockquote was checked against `data/chapter_NNN.js`; the corpus
+  now matches the canonical verse text exactly (6,236 sections, 6,241 quoted
+  lines, zero mismatches).
