@@ -179,10 +179,8 @@ A second pass re-cut the corpus again, this time to remove the generator's
 "chain" habit — short sentences that only hand a word to the next one — and to
 let every verse take the length its content actually needs.
 
-**Result: 3,682,471 words to 2,723,558 words.** Verse commentary median 398
-words (range 83 to 1,032) instead of a flat target; the shortest sections are the
-short verses of the closing surahs and the narrative verses of Sūrah al-Ṣāffāt,
-which were rewritten by hand.
+**Result: 3,682,471 words to 2,724,601 words.** Verse commentary median 398
+words (range 92 to 1,032) instead of a flat target.
 
 Tools added for this pass:
 
@@ -205,3 +203,26 @@ Notes on what the second pass found:
 * Every verse blockquote was checked against `data/chapter_NNN.js`; the corpus
   now matches the canonical verse text exactly (6,236 sections, 6,241 quoted
   lines, zero mismatches).
+
+## Deepening pass
+
+A third pass went back over every section that the earlier passes had left thin
+or filler-driven, because cutting is not the same as writing:
+
+* **Sūrah al-Ṣāffāt (37)** — 56 verse commentaries rewritten from filler,
+  including the whole quarrel of the Fire (37:22–40) and the prophets' stories
+  (37:75–146).
+* **Sūrah al-Ḥāqqah (69) and al-Maʿārij (70)** — 46 sections rewritten; every
+  verse of both chapters now carries verse-specific commentary (minimum 92 and
+  95 words, previously 9 and 10).
+* **Sūrah al-Naḥl (16)** — 68 sections replaced. The draft had generated 59 of
+  them from a template that described the wrong verse entirely (16:90's
+  commentary discussed the Sabbath, 16:125's discussed oaths), plus nine more
+  with the same boilerplate. All 128 sections of the chapter now address their
+  own verse.
+* **Sūrahs 2, 12, 20, 28, 48, 49, 86** — 46 short sections extended with their
+  parallel passages, occasions of revelation, or classical readings.
+
+Corpus floor: 92 words (was 83), median unchanged at 398. `scripts/factcheck.py`
+on the finished corpus reports no citation, quotation or reference problems, and
+every chapter's section count still matches its `data/chapter_NNN.js`.
