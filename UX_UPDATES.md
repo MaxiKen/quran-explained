@@ -12,20 +12,20 @@ This release gives the reader continuity: where you left off is where you come b
 - A **position read-out** in the header shows `verse N / total` while you read, and a small dot tells you when read-aloud or recitation is running.
 - Places are also flushed on `pagehide`/tab-hide, so closing the app mid-read does not lose the position.
 
-## 2. Read-aloud is now a bottom player dock (commentary + chapter)
+## 2. Read-aloud belongs strictly to the complete commentary page
 
-- Reading aloud no longer opens a card inside the page. It opens a **fixed bottom dock**, like a music player, on the commentary eBook and the chapter page.
+- Read-aloud is exclusively part of the complete commentary eBook view. Standalone read-aloud buttons outside of commentary (home continue card, chapter detail header, tafsir sheet modal) have been removed.
+- The player opens as a **fixed bottom dock**, pinned flush to the viewport bottom across all screen sizes (mobile, tablet, desktop) without any floating gap, margin offset, or horizontal translation shifts.
 - Full dock: play/pause, previous/next verse, **go-to-verse scrubber**, verse-range jump list (navigator), a seek bar, speed, voice picker, follow toggle, and a **sleep timer** (5–60 min).
-- **Lyrics-style follow**: the verse being spoken is highlighted in the dock and the page scrolls so the current verse sits in the middle of the screen; the active sentence is tinted in the commentary itself. Follow can be switched off, and any manual scroll pauses auto-follow for a moment so you never fight the player.
-- **Cancel** sits at the top-right of the dock section and stops the session immediately.
-- Collapsing, cancelling, or finishing leaves a **small circular orb fixed on screen** (drag it to a comfortable edge; its position is remembered). Tapping the orb reopens the player exactly where it left off.
-- Navigating within the same chapter keeps playback alive; moving to another chapter suspends it (the orb keeps the place, and the mini bar reads *Ready to resume at verse N*) rather than silently starting to read the wrong surah.
+- **Line following**: the commentary page itself serves as the reading display, scrolling smoothly and highlighting the active verse and sentence as it is spoken.
+- **Cancel / End** stops speech synthesis immediately and closes the dock.
+- Leaving the commentary page terminates the read-aloud session immediately. Floating orbs outside commentary are disabled.
 - Lock-screen / headset controls are wired through the Media Session API, and a wake lock is held while speaking.
 - The recitation audio bar and the read-aloud dock never play over each other — starting one suspends the other.
 
 ## 3. Tafsir popup: explicit way out
 
-- The popup is now a proper **tafsir sheet**: sticky header with the verse chip and a **Close (Esc)** button, its own scroll region, and a sticky footer with **Prev / Next verse**, **Read aloud**, **Bookmark**, **Open commentary** and **Done**.
+- The popup is now a proper **tafsir sheet**: sticky header with the verse chip and a **Close (Esc)** button, its own scroll region, and a sticky footer with **Prev / Next verse**, **Bookmark**, **Open commentary** and **Done**.
 - Clicking outside still closes it; you can also **drag the sheet down** to dismiss, or swipe sideways on the handle strip to step verses. A progress rail at the top shows how far through the chapter's tafsir you are.
 - Opening the sheet always starts at the top of its own scroll area, and the reading position behind it is untouched.
 
@@ -39,9 +39,9 @@ This release gives the reader continuity: where you left off is where you come b
 
 ## Other improvements in this release
 
-- Page content now reserves space for whatever is docked at the bottom (`--bottom-chrome`), so the player never covers the last verse, and the scroll-top button lifts itself above the dock or orb.
+- Page content now reserves space for whatever is docked at the bottom (`--bottom-chrome`), so the player never covers the last verse, and the scroll-top button lifts itself above the player bar.
 - **Chapter progress** is shown on home: a per-chapter rail, and the last verse reached, on the continue card and chapter list.
-- The chapter header gained a one-tap **Listen** button; the eBook toolbar's read-aloud button now reflects live state (*Reading · verse N*, *Paused at verse N*).
+- The eBook toolbar's read-aloud button reflects live state (*Reading · verse N*, *Paused at verse N*).
 - Per-verse **play** affordances in the eBook start the dock at that verse; verse anchors in the chapter view accept the same deep links as before.
 - Unavailable screens (a chapter with no data, a missing commentary) get a real "screen unavailable" state with a way back instead of an empty page.
 - Toasts can carry an action button (*Start over*, *Undo*).

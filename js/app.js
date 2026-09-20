@@ -412,12 +412,19 @@ function goBack() { if (!Router.back()) Router.go({ view: 'list' }, { resume: tr
 function goForward() { return Router.forward(); }
 function goHome() { return Router.goHome(); }
 
-/* A player follows the reader around: moving to another screen of the same
-   surah keeps it running, opening a *different* surah ends the session. */
+/* Read aloud is strictly part of the complete commentary page.
+   Leaving commentary terminates the read aloud session. */
 function stopPlaybackForNavigation(nextSurah) {
-  if (nextSurah == null) return;
+  if (nextSurah == null) {
+    if (typeof ReadAloud !== 'undefined') ReadAloud.endSession({ silent: true });
+    return;
+  }
   if (AudioPlayer.currentSurah !== nextSurah) AudioPlayer.stop();
-  if (ReadAloud.activeSurah !== nextSurah) ReadAloud.suspendForNavigation(nextSurah);
+  if (typeof ReadAloud !== 'undefined') {
+    if (AppState.currentView !== 'commentary' || ReadAloud.activeSurah !== nextSurah) {
+      ReadAloud.endSession({ silent: true });
+    }
+  }
 }
 
 
@@ -536,6 +543,7 @@ async function renderCommentaryView(num, options = {}) {
 }
 
 async function renderHomeRoute(options = {}) {
+  stopPlaybackForNavigation(null);
   AppState.currentView = 'list';
   AppState.currentSurah = null;
   AppState.currentSurahData = null;
@@ -1556,10 +1564,7 @@ function updateScrollTopBtn() {
   if (!btn) return;
   const hasPlayer = document.querySelector('.audio-player-bar.visible');
   const dockOpen = document.body.classList.contains('ra-mini-open') || document.body.classList.contains('ra-full-open');
-  const orb = document.getElementById('playerOrb');
-  const hasOrb = !!orb && orb.classList.contains('visible');
-  let offset = (hasPlayer || dockOpen) ? 92 : 24;
-  if (hasOrb) offset = Math.max(offset, window.innerWidth <= 720 ? 132 : 148);
+  const offset = (hasPlayer || dockOpen) ? 92 : 24;
   if (window.pageYOffset > 400) {
     btn.classList.add('visible');
     btn.style.bottom = `${offset}px`;
@@ -1820,35 +1825,21 @@ const AudioPlayer = {
     if (window.PlayerOrb) PlayerOrb.hide('recitation');
   },
 
-  /** Fold the recitation bar into the floating orb instead of killing playback. */
   minimize() {
     const bar = document.getElementById('audioPlayerBar');
     if (bar) bar.classList.remove('visible');
     this._minimized = true;
-    this._paintOrb();
+    if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
   },
 
   restoreFromOrb() {
     this._minimized = false;
-    if (window.PlayerOrb) PlayerOrb.hide('recitation');
     const bar = document.getElementById('audioPlayerBar');
     if (bar && (this.isPlaying || this.currentAudioUrl)) bar.classList.add('visible');
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
   },
 
-  _paintOrb() {
-    if (!window.PlayerOrb || !this.currentAyah) return;
-    const total = this._verseAudioList.length || 1;
-    const index = this._verseAudioList.findIndex((item) => item.ayah === this.currentAyah);
-    PlayerOrb.show({
-      owner: 'recitation',
-      onClick: () => this.restoreFromOrb(),
-      badge: this.currentAyah,
-      progress: index >= 0 ? (index + 1) / total : 0,
-      speaking: this.isPlaying,
-      title: 'Back to the recitation player',
-    });
-  },
+  _paintOrb() {},
 
   playNext() {
     const next = this._getAdjacentVerse(1);
@@ -2588,7 +2579,6 @@ function updateModalFooter() {
   const first = ModalState.ayah <= 1;
   const last = total ? ModalState.ayah >= total : false;
   const bookmarked = isVerseBookmarked(ModalState.surah, ModalState.ayah);
-  const listening = ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah && ReadAloud.isSpeaking;
   footer.innerHTML = `
     <div class="modal-foot-row">
       <button type="button" class="modal-step" onclick="modalStep(-1)" ${first ? 'disabled' : ''} title="Previous verse">
@@ -2646,18 +2636,10 @@ function modalStep(delta) {
   if (!ch) return;
   const next = ModalState.ayah + delta;
   if (next < 1 || next > ch.verses) { showToast(next < 1 ? 'First verse of this surah' : 'Last verse of this surah', 'info'); return; }
-  const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number && ReadAloud.isSpeaking;
   showExplanation(ch.number, next);
-  if (reading) ReadAloud.seekVerse(ch.number, next);
 }
 
-function modalListen() {
-  /* read aloud now lives only in the full commentary page */
-  if (!ModalState.surah) return;
-  closeModal();
-  openCompleteCommentary(ModalState.surah);
-  setTimeout(() => ReadAloud.start(ModalState.surah, ModalState.ayah), 700);
-}
+
 
 function modalBookmark() {
   toggleBookmark(ModalState.surah, ModalState.ayah);

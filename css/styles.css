@@ -1670,12 +1670,46 @@ html.app-routed body { overscroll-behavior-x: contain; }
 
 /* =========================================================
    READ ALOUD DOCK (mini bar + full player)
-   Fixed to the viewport bottom — part of the full commentary
-   page only, no horizontal offset on any screen size.
+   Fixed flush to viewport bottom — complete commentary page only,
+   never offset on any screen size.
    ========================================================= */
-.ra-dock { position: fixed; z-index: 130; left: 0; right: 0; bottom: 0; width: 100%; padding: 0; padding-bottom: env(safe-area-inset-bottom); transform: translateY(150%); opacity: 0; pointer-events: none; transition: transform .42s cubic-bezier(.4, 0, .2, 1), opacity .28s ease; }
-.ra-dock[data-mode="mini"], .ra-dock[data-mode="full"] { transform: translateY(0); opacity: 1; pointer-events: auto; }
-.ra-mini, .ra-full { pointer-events: auto; border: 1px solid var(--accent-border); border-left: 0; border-right: 0; border-bottom: 0; border-radius: 0; background: var(--bg-header); backdrop-filter: blur(26px); -webkit-backdrop-filter: blur(26px); box-shadow: var(--shadow-modal); overflow: hidden; }
+.ra-dock {
+  position: fixed;
+  z-index: 130;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: var(--bg-header);
+  backdrop-filter: blur(26px);
+  -webkit-backdrop-filter: blur(26px);
+  border-top: 1px solid var(--accent-border);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, .16);
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .35s cubic-bezier(.4, 0, .2, 1), opacity .25s ease;
+}
+.ra-dock[data-mode="mini"], .ra-dock[data-mode="full"] {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.ra-mini, .ra-full {
+  pointer-events: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: hidden;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 /* Read aloud lives only on the commentary page — hide everywhere else */
 body:not(.view-commentary) .ra-dock { display: none !important; }
 /* No lyrics panel — the commentary page itself is the lyrics */
@@ -1780,29 +1814,9 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 .tts-line-active { position: relative; background: linear-gradient(90deg, var(--accent-bg), transparent 85%); border-radius: 8px; box-shadow: inset 2px 0 0 var(--accent); padding-left: 12px; margin-left: -12px; transition: background .3s ease; }
 
 /* =========================================================
-   PLAYER ORB — the small floating button that brings back
-   whatever player you cancelled
+   PLAYER ORB — disabled (read aloud lives only in commentary)
    ========================================================= */
-.player-orb { position: fixed; z-index: 128; right: max(14px, env(safe-area-inset-right)); bottom: calc(84px + env(safe-area-inset-bottom)); width: 54px; height: 54px; padding: 0; border: 0; border-radius: 50%; background: var(--gradient-logo); color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 26px rgba(0, 0, 0, .34), 0 0 0 1px var(--accent-border); opacity: 0; transform: scale(.6); pointer-events: none; transition: opacity .28s ease, transform .32s cubic-bezier(.34, 1.56, .64, 1), box-shadow .28s; touch-action: none; }
-.player-orb.visible { opacity: 1; transform: scale(1); pointer-events: auto; }
-.player-orb:hover { box-shadow: 0 12px 32px rgba(0, 0, 0, .4), 0 0 0 1px var(--accent-border-hover); }
-.player-orb:active { transform: scale(.94); }
-.player-orb.is-speaking { animation: orbBreath 3.4s ease-in-out infinite; }
-@keyframes orbBreath { 0%, 100% { box-shadow: 0 10px 26px rgba(0, 0, 0, .34), 0 0 0 1px var(--accent-border); } 50% { box-shadow: 0 10px 26px rgba(0, 0, 0, .34), 0 0 0 1px var(--accent-border), 0 0 22px rgba(var(--accent-rgb), .45); } }
-.orb-ring { position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px); transform: rotate(-90deg); pointer-events: none; }
-.orb-ring-track { fill: none; stroke: rgba(0, 0, 0, .28); stroke-width: 5; }
-.orb-ring-value { fill: none; stroke: var(--accent-light); stroke-width: 5; stroke-linecap: round; transition: stroke-dashoffset .5s ease; }
-.orb-logo { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
-.orb-badge { position: absolute; z-index: 2; right: -3px; bottom: -3px; min-width: 21px; height: 21px; padding: 0 5px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: var(--bg-secondary); border: 1px solid var(--accent-border); color: var(--accent); font: 800 10px 'Inter', sans-serif; font-variant-numeric: tabular-nums; box-shadow: 0 2px 8px rgba(0, 0, 0, .3); }
-.orb-bars { position: absolute; inset: auto; display: none; }
-.player-orb.is-speaking .orb-bars { display: flex; position: absolute; left: 50%; transform: translateX(-50%); bottom: 9px; gap: 2px; align-items: flex-end; height: 8px; z-index: 2; }
-.orb-bars i { display: block; width: 2px; height: 4px; border-radius: 1px; background: rgba(255, 255, 255, .85); animation: orbBar .9s ease-in-out infinite; }
-.orb-bars i:nth-child(2) { animation-delay: .18s; height: 7px; }
-.orb-bars i:nth-child(3) { animation-delay: .36s; height: 5px; }
-@keyframes orbBar { 0%, 100% { transform: scaleY(.5); } 50% { transform: scaleY(1.15); } }
-.player-orb.is-speaking .orb-logo { opacity: .35; }
-.player-orb.is-done .orb-badge { color: #fff; background: var(--success-color); border-color: transparent; }
-body.has-orb .scroll-top-btn { bottom: 148px; }
+.player-orb { display: none !important; }
 
 /* ---- recitation bar shares the same language ---- */
 .audio-player-bar { box-shadow: 0 -8px 26px rgba(0, 0, 0, .22); }
@@ -1816,9 +1830,8 @@ body.has-orb .scroll-top-btn { bottom: 148px; }
 
 /* ---- mobile ---- */
 @media (max-width: 720px) {
-  .ra-dock { padding: 0; width: 100%; left: 0; right: 0; }
-  .ra-mini, .ra-full { border-radius: 0; border-left: 0; border-right: 0; border-bottom: 0; padding-bottom: env(safe-area-inset-bottom); }
-  .ra-dock { transform: translateY(150%); }
+  .ra-dock { padding: 0; padding-bottom: env(safe-area-inset-bottom, 0px); width: 100%; left: 0; right: 0; bottom: 0; margin: 0; transform: translateY(100%); }
+  .ra-mini, .ra-full { border: 0; border-radius: 0; padding-bottom: 0; width: 100%; }
   .ra-dock[data-mode="mini"], .ra-dock[data-mode="full"] { transform: translateY(0); }
   .ra-full { max-height: min(80vh, 560px); }
   .ra-lyrics { display: none !important; }
@@ -1832,8 +1845,6 @@ body.has-orb .scroll-top-btn { bottom: 148px; }
   .modal-foot-row { flex: 1 1 100%; }
   .modal-step { flex: 1; justify-content: center; }
   .modal-done { margin-left: 0; flex: 1 1 100%; justify-content: center; }
-  .player-orb { width: 48px; height: 48px; right: 12px; bottom: calc(76px + env(safe-area-inset-bottom)); }
-  body.has-orb .scroll-top-btn { bottom: 132px; }
   .chapter-progress-track { max-width: 110px; }
 }
 @media (max-width: 420px) {

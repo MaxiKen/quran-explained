@@ -83,7 +83,8 @@ const ReadAloud = {
   },
 
   _syncViewClass() {
-    document.body.classList.toggle('view-commentary', AppState.currentView === 'commentary');
+    const onCommentary = (typeof AppState !== 'undefined' && AppState.currentView === 'commentary');
+    document.body.classList.toggle('view-commentary', onCommentary);
   },
 
   isSupported() {
@@ -236,10 +237,10 @@ const ReadAloud = {
   },
 
   _injectOrb() {
-    PlayerOrb.init({ owner: 'tts', onClick: () => this.openFromOrb() });
+    /* floating orb disabled — read aloud is part of full commentary only */
   },
 
-  _saveOrbPosition() { PlayerOrb.persistPosition(); },
+  _saveOrbPosition() {},
 
   _wireChrome() {
     const on = (id, handler) => {
@@ -342,13 +343,19 @@ const ReadAloud = {
     this.selectedSurah = saved.surah;
     this.selectedAyah = Math.max(1, parseInt(saved.ayah, 10) || 1);
     this.resumePoint = { surah: saved.surah, ayah: this.selectedAyah, lineIndex: saved.lineIndex || 0 };
-    this.hasSession = true;
-    this.activeSurah = saved.surah;
-    this.ayah = this.selectedAyah;
-    this.kind = 'verse';
-    this.lineIndex = saved.lineIndex || 0;
-    this.mode = saved.mode === 'full' ? 'full' : 'mini';
-    this.updateUI();
+    const onCommentary = (typeof AppState !== 'undefined' && AppState.currentView === 'commentary');
+    if (onCommentary) {
+      this.hasSession = true;
+      this.activeSurah = saved.surah;
+      this.ayah = this.selectedAyah;
+      this.kind = 'verse';
+      this.lineIndex = saved.lineIndex || 0;
+      this.mode = saved.mode === 'full' ? 'full' : 'mini';
+      this.updateUI();
+    } else {
+      this.hasSession = false;
+      this.mode = 'off';
+    }
     return this.resumePoint;
   },
 
@@ -450,7 +457,7 @@ const ReadAloud = {
       return false;
     }
     /* Read aloud lives only inside the full commentary page — steer there first */
-    if (AppState.currentView !== 'commentary' || AppState.currentSurah !== surahNum) {
+    if (typeof AppState === 'undefined' || AppState.currentView !== 'commentary' || AppState.currentSurah !== surahNum) {
       if (typeof openCompleteCommentary === 'function') {
         openCompleteCommentary(surahNum);
         const target = Math.max(1, Math.min(this.verseCount(surahNum), parseInt(verse, 10) || 1));
@@ -644,14 +651,9 @@ const ReadAloud = {
     this.updateUI();
   },
 
-  /** ✕ — stop talking, keep the place, hand control back to the orb. */
+  /** ✕ — stop talking, end session, close player dock. */
   cancel() {
-    if (this.isSpeaking) this.pause();
-    this.setMode('off');
-    this.updateOrb();
-    this.persist();
-    this.updateUI();
-    if (typeof showToast === 'function') showToast('Player collapsed — tap the button to reopen', 'info');
+    this.endSession();
   },
 
   endSession(options = {}) {
@@ -704,7 +706,7 @@ const ReadAloud = {
     this._syncViewClass();
     this.mode = mode;
     if (mode === 'full') this._renderNavigator();
-    const onCommentary = AppState.currentView === 'commentary';
+    const onCommentary = typeof AppState !== 'undefined' && AppState.currentView === 'commentary';
     const dock = document.getElementById('raDock');
     const effective = onCommentary && this.hasSession ? mode : 'off';
     if (dock) dock.setAttribute('data-mode', effective);
@@ -1074,8 +1076,8 @@ const ReadAloud = {
     this._syncViewClass();
     const dock = document.getElementById('raDock');
     if (!dock) return;
-    const onCommentary = AppState.currentView === 'commentary';
-    /* hide the dock entirely when not on the commentary page — page itself is the lyrics */
+    const onCommentary = typeof AppState !== 'undefined' && AppState.currentView === 'commentary';
+    /* hide the dock entirely when not on the commentary page */
     const effectiveMode = onCommentary && this.hasSession ? this.mode : 'off';
     dock.setAttribute('data-mode', effectiveMode);
     document.body.classList.toggle('ra-mini-open', onCommentary && this.hasSession && this.mode === 'mini');
@@ -1083,7 +1085,6 @@ const ReadAloud = {
     document.body.classList.toggle('ra-focus', this.focus && this.isSpeaking && onCommentary);
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
     if (typeof updateChromeSpacing === 'function') updateChromeSpacing();
-    /* orb can still surface the session when the dock is hidden */
     if (!onCommentary) { this.updateOrb(); return; }
 
     const playing = this.isSpeaking;
@@ -1186,18 +1187,7 @@ const ReadAloud = {
   },
 
   updateOrb() {
-    if (this.hasSession && this.mode === 'off') {
-      const total = this.activeSurah ? this.verseCount(this.activeSurah) : 1;
-      const verse = this.ayah == null ? 1 : (this.ayah || 1);
-      PlayerOrb.show({
-        owner: 'tts',
-        onClick: () => this.openFromOrb(),
-        badge: this.completed ? '↻' : (this.ayah == null ? '✦' : String(verse)),
-        progress: this.completed ? 1 : Math.max(0, Math.min(1, verse / Math.max(1, total))),
-        speaking: this.isSpeaking,
-        title: this.completed ? 'Read this commentary again' : 'Open the read aloud player',
-      });
-    } else {
+    if (typeof PlayerOrb !== 'undefined' && PlayerOrb && PlayerOrb.hide) {
       PlayerOrb.hide('tts');
     }
   },
@@ -1225,9 +1215,15 @@ const ReadAloud = {
 
   onRouteRendered() {
     this._syncViewClass();
-    if (AppState.currentView === 'commentary') this.rebind();
-    else {
-      this._lineEls = []; this._lineTops = [];
+    const onCommentary = (typeof AppState !== 'undefined' && AppState.currentView === 'commentary');
+    if (onCommentary) {
+      this.rebind();
+    } else {
+      if (this.isSpeaking || this.isPaused || this.hasSession) {
+        this.endSession({ silent: true });
+      }
+      this._lineEls = [];
+      this._lineTops = [];
       document.querySelectorAll('.ebook-verse.tts-active, .tts-line-active').forEach((n) => n.classList.remove('tts-active', 'tts-line-active'));
       this.updateUI();
     }
@@ -1328,110 +1324,28 @@ const PlayerOrb = {
   _drag: null,
 
   init(config) {
-    if (document.getElementById('playerOrb')) { this.el = document.getElementById('playerOrb'); return; }
-    const orb = document.createElement('button');
-    orb.className = 'player-orb';
-    orb.id = 'playerOrb';
-    orb.type = 'button';
-    orb.setAttribute('aria-hidden', 'true');
-    orb.innerHTML = `
-      <svg class="orb-ring" viewBox="0 0 100 100" aria-hidden="true">
-        <circle class="orb-ring-track" cx="50" cy="50" r="45"></circle>
-        <circle class="orb-ring-value" cx="50" cy="50" r="45" stroke-dasharray="283" stroke-dashoffset="283"></circle>
-      </svg>
-      <span class="orb-logo" aria-hidden="true">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-        </svg>
-      </span>
-      <span class="orb-badge"></span>
-      <span class="orb-bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
-    document.body.appendChild(orb);
-    this.el = orb;
-    this._bindDrag(orb);
-    orb.addEventListener('click', () => {
-      if (this._moved) { this._moved = false; return; }
-      if (typeof this.onClick === 'function') this.onClick();
-    });
-    this.applyPosition(this._readPosition());
+    /* PlayerOrb disabled — read aloud is part of full commentary only */
+    return;
   },
 
-  _readPosition() {
-    try { return (JSON.parse(localStorage.getItem(READ_ALOUD_STORE) || '{}') || {}).orbY || null; } catch (err) { return null; }
-  },
+  _readPosition() { return null; },
 
-  persistPosition() {
-    if (!this._y) return;
-    try {
-      const store = JSON.parse(localStorage.getItem(READ_ALOUD_STORE) || '{}') || {};
-      store.orbY = this._y;
-      localStorage.setItem(READ_ALOUD_STORE, JSON.stringify(store));
-    } catch (err) { /* no-op */ }
-  },
+  persistPosition() {},
 
-  applyPosition(y) {
-    if (!this.el) this.init({});
-    if (!this.el || !y) return;
-    const max = window.innerHeight - 96;
-    const clamped = Math.max(70, Math.min(max, y));
-    this.el.style.top = `${clamped}px`;
-    this.el.style.bottom = 'auto';
-    this._y = clamped;
-  },
+  applyPosition(y) {},
 
-  _bindDrag(orb) {
-    let start = null;
-    orb.addEventListener('pointerdown', (event) => {
-      start = { y: event.clientY, top: orb.getBoundingClientRect().top, moved: 0 };
-      this._moved = false;
-      try { orb.setPointerCapture(event.pointerId); } catch (err) { /* no-op */ }
-    });
-    orb.addEventListener('pointermove', (event) => {
-      if (!start) return;
-      const dy = event.clientY - start.y;
-      if (Math.abs(dy) < 7) return;
-      start.moved = Math.abs(dy);
-      this._moved = true;
-      const max = window.innerHeight - 96;
-      const next = Math.max(70, Math.min(max, start.top + dy));
-      orb.style.top = `${next}px`;
-      orb.style.bottom = 'auto';
-      this._y = next;
-    });
-    const finish = () => { if (start && start.moved > 8) this.persistPosition(); start = null; };
-    orb.addEventListener('pointerup', finish);
-    orb.addEventListener('pointercancel', finish);
-  },
+  _bindDrag(orb) {},
 
   show(config) {
-    if (!this.el) this.init({});
-    if (!this.el) return;
-    this.owner = config.owner;
-    this.onClick = config.onClick;
-    this.el.classList.add('visible', `owner-${config.owner}`);
-    if (config.speaking) this.el.classList.add('is-speaking'); else this.el.classList.remove('is-speaking');
-    this.el.classList.toggle('is-done', !!config.done);
-    const badge = this.el.querySelector('.orb-badge');
-    if (badge) badge.textContent = config.badge != null ? String(config.badge) : '';
-    const ring = this.el.querySelector('.orb-ring-value');
-    if (ring) {
-      const fraction = Math.max(0, Math.min(1, config.progress || 0));
-      ring.style.strokeDashoffset = String(Math.round(283 * (1 - fraction)));
-    }
-    this.el.title = config.title || 'Open the player';
-    this.el.setAttribute('aria-label', config.title || 'Open the player');
-    this.el.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('has-orb');
-    if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
+    /* PlayerOrb disabled */
+    return;
   },
 
   hide(owner) {
-    if (owner && this.owner !== owner) return;
-    this.owner = null;
-    this.onClick = null;
-    if (!this.el) return;
-    this.el.classList.remove('visible', 'is-speaking', 'is-done', 'owner-tts', 'owner-recitation');
-    this.el.setAttribute('aria-hidden', 'true');
+    if (this.el) {
+      this.el.classList.remove('visible', 'is-speaking', 'is-done', 'owner-tts', 'owner-recitation');
+      this.el.setAttribute('aria-hidden', 'true');
+    }
     document.body.classList.remove('has-orb');
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
   },
