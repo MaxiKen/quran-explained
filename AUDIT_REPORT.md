@@ -1,10 +1,10 @@
 # Commentary Audit Report
 
 - Sections: 6,236
-- Words: 2,611,104
+- Words: 2,610,815
 - Flesch: min 21.8 | p10 41 | median 56 | p90 67
 - Sections below floor: 0
-- Long verses (30+ words) still explained in under six times their own length: 34
+- Long verses (30+ words) still explained in under six times their own length: 35
 
 ## Thinnest explanations (verse words vs commentary words)
 
@@ -19,6 +19,7 @@
 | 48:25 | 86 | 486 | 5.65 |
 | 3:154 | 133 | 752 | 5.65 |
 | 6:19 | 76 | 431 | 5.67 |
+| 42:15 | 80 | 455 | 5.69 |
 | 2:26 | 67 | 383 | 5.72 |
 | 57:20 | 82 | 471 | 5.74 |
 | 2:229 | 104 | 607 | 5.84 |
