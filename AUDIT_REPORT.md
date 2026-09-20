@@ -7,10 +7,10 @@ Generated from the corpus itself: every one of the 6,236 verse sections was meas
 | measure | value |
 |---|---|
 | verse sections | 6,236 |
-| commentary words | 2,504,295 |
+| commentary words | 2,504,931 |
 | words per verse commentary | min 92, median 398, mean 401 |
 | chapter intros | 114, min 238 words, median 541 |
-| readability (Flesch) | min -13, 10th percentile 34, median 54 |
+| readability (Flesch) | min 8, 10th percentile 35, median 54 |
 | quoted verse lines matching canon | 6,241 of 6,241 |
 
 Element coverage across the corpus, in the share of sections that carry it:
@@ -19,25 +19,25 @@ Element coverage across the corpus, in the share of sections that carry it:
 |---|---|---|
 | meaning | 6,236 | 100% |
 | lexical | 5,958 | 96% |
-| context | 1,129 | 18% |
-| hadith | 1,560 | 25% |
-| ruling | 2,260 | 36% |
-| crossref | 5,299 | 85% |
-| story | 1,692 | 27% |
-| theology | 3,905 | 63% |
-| application | 2,891 | 46% |
-| variant | 1,102 | 18% |
-| flow | 5,973 | 96% |
-| parable | 1,659 | 27% |
+| context | 1,132 | 18% |
+| hadith | 1,558 | 25% |
+| ruling | 2,261 | 36% |
+| crossref | 5,302 | 85% |
+| story | 1,693 | 27% |
+| theology | 3,897 | 62% |
+| application | 2,903 | 47% |
+| variant | 1,101 | 18% |
+| flow | 5,978 | 96% |
+| parable | 1,661 | 27% |
 
 Objective readability measures, before and after this session's repairs:
 
 | measure | before | after |
 |---|---|---|
 | sections with a 60-word sentence (3 or more) | 126 | 23 |
-| sections dense by Flesch (<25) and over 150 words | 354 | 277 |
-| sections with Flesch under 20 | 211 | 129 |
-| Flesch 10th percentile | 31 | 34 |
+| sections dense by Flesch (<25) and over 150 words | 354 | 255 |
+| sections with Flesch under 20 | 211 | 106 |
+| Flesch 10th percentile | 31 | 35 |
 
 The flag columns below are keyword-based prompts to inspect, not verdicts. Sampled sections flagged `under-depth` or `legal-not-explained` (3:7, 3:97, 3:144 among them) read as complete commentaries and were left alone, and rewriting a section can raise a depth flag simply by making the prose tighter. What the flags identified reliably, on inspection, were the telegraphic note-style sections, story verses that never tell the story, and legal verses with no ruling discussion. Those are queued in chapter order at the end of this report.
 
@@ -48,7 +48,7 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | ch | verses | med words | depth | elems | hadith | ruling | context | open |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 7 | 519 | 55.6x | 100% | 100% | 29% | 14% | 0 |
-| 2 | 286 | 539 | 15.1x | 100% | 43% | 64% | 18% | 22 |
+| 2 | 286 | 539 | 15.1x | 100% | 43% | 64% | 18% | 20 |
 | 3 | 200 | 328 | 10.7x | 100% | 20% | 28% | 39% | 10 |
 | 4 | 176 | 653 | 20.4x | 100% | 39% | 81% | 28% | 25 |
 | 5 | 120 | 492 | 12.9x | 100% | 51% | 75% | 27% | 20 |
@@ -66,17 +66,17 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 17 | 111 | 500 | 18.1x | 100% | 38% | 51% | 29% | 37 |
 | 18 | 110 | 316 | 12.2x | 100% | 45% | 25% | 13% | 13 |
 | 19 | 98 | 493 | 23.6x | 100% | 33% | 42% | 35% | 4 |
-| 20 | 135 | 269 | 14.5x | 100% | 10% | 20% | 10% | 64 |
+| 20 | 135 | 270 | 14.8x | 100% | 10% | 20% | 9% | 60 |
 | 21 | 112 | 381 | 19.6x | 100% | 5% | 13% | 6% | 7 |
 | 22 | 78 | 546 | 19.5x | 100% | 21% | 42% | 18% | 4 |
 | 23 | 118 | 261 | 16.8x | 100% | 7% | 18% | 6% | 7 |
-| 24 | 64 | 246 | 8.1x | 100% | 52% | 55% | 19% | 50 |
+| 24 | 64 | 258 | 8.8x | 100% | 50% | 56% | 22% | 45 |
 | 25 | 77 | 524 | 21.8x | 100% | 29% | 26% | 27% | 1 |
 | 26 | 227 | 203 | 19.2x | 100% | 5% | 20% | 4% | 18 |
 | 27 | 93 | 228 | 10.5x | 100% | 14% | 20% | 5% | 10 |
 | 28 | 88 | 291 | 9.8x | 100% | 15% | 28% | 22% | 18 |
 | 29 | 69 | 515 | 18.8x | 100% | 14% | 39% | 36% | 10 |
-| 30 | 60 | 273 | 10.5x | 100% | 38% | 32% | 10% | 27 |
+| 30 | 60 | 283 | 10.5x | 100% | 38% | 32% | 12% | 25 |
 | 31 | 34 | 519 | 18.4x | 100% | 50% | 32% | 24% | 3 |
 | 32 | 30 | 426 | 16.5x | 100% | 23% | 37% | 10% | 1 |
 | 33 | 73 | 292 | 11.2x | 100% | 19% | 55% | 25% | 10 |
@@ -86,12 +86,12 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 37 | 182 | 161 | 18.7x | 100% | 20% | 18% | 13% | 19 |
 | 38 | 88 | 427 | 26.3x | 100% | 10% | 33% | 19% | 12 |
 | 39 | 75 | 466 | 15.8x | 100% | 80% | 33% | 27% | 13 |
-| 40 | 85 | 392 | 15.2x | 100% | 48% | 41% | 18% | 64 |
+| 40 | 85 | 386 | 15.0x | 100% | 46% | 41% | 19% | 60 |
 | 41 | 54 | 644 | 23.4x | 100% | 26% | 48% | 17% | 3 |
 | 42 | 53 | 287 | 9.0x | 100% | 6% | 19% | 0% | 11 |
 | 43 | 89 | 276 | 12.4x | 100% | 1% | 15% | 4% | 10 |
 | 44 | 59 | 309 | 27.5x | 100% | 64% | 25% | 44% | 18 |
-| 45 | 37 | 437 | 15.1x | 100% | 5% | 32% | 22% | 4 |
+| 45 | 37 | 437 | 15.2x | 100% | 5% | 32% | 22% | 4 |
 | 46 | 35 | 400 | 11.7x | 100% | 17% | 37% | 20% | 3 |
 | 47 | 38 | 374 | 14.4x | 100% | 29% | 21% | 34% | 2 |
 | 48 | 29 | 258 | 7.5x | 100% | 17% | 14% | 38% | 9 |
@@ -117,7 +117,7 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 68 | 52 | 467 | 41.8x | 100% | 48% | 48% | 31% | 5 |
 | 69 | 52 | 258 | 20.3x | 100% | 6% | 25% | 4% | 1 |
 | 70 | 44 | 188 | 21.3x | 100% | 7% | 32% | 9% | 7 |
-| 71 | 28 | 538 | 36.1x | 100% | 32% | 25% | 25% | 4 |
+| 71 | 28 | 537 | 36.1x | 100% | 32% | 25% | 25% | 4 |
 | 72 | 28 | 505 | 27.6x | 100% | 46% | 21% | 39% | 0 |
 | 73 | 20 | 241 | 16.1x | 100% | 45% | 35% | 10% | 3 |
 | 74 | 56 | 234 | 33.0x | 100% | 21% | 25% | 7% | 3 |
@@ -178,5 +178,5 @@ The largest single patch was Surah al-Tawbah, whose 51 short sections were read 
 ## Still open (queued, in chapter order)
 
 1. **Telegraphic sections**: none known to be left. The last batch — 37:54, 69:16 and 70:28 — was rewritten in the same way as 8:74 and 21:63. Six sections that the same heuristic picked out (25:62, 25:67, 25:72, 65:5, 65:11, 101:6) were read and left alone: they are connected prose, and only the sentence-length measure flagged them.
-2. **Hard-to-read sections**: 129 with Flesch under 20 and more than 140 words — 4:140, 5:110, 5:113, 5:119, 17:2, 17:6, 17:17, 17:27, 17:32, 17:38, 17:64, 17:76, 17:88, 17:99, 17:101, 17:104, 17:111, 20:6, 20:8, 20:9, 20:29, 20:30, 20:32, 20:43, … (worst first, chapter order).
-3. **Content gaps to verify one by one**: 376 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
+2. **Hard-to-read sections**: 106 with Flesch under 20 and more than 140 words — 4:140, 5:110, 5:113, 5:119, 17:2, 17:6, 17:17, 17:27, 17:32, 17:38, 17:64, 17:76, 17:88, 17:99, 17:101, 17:104, 17:111, 20:8, 20:9, 20:30, 20:32, 20:51, 20:53, 20:56, … (worst first, chapter order).
+3. **Content gaps to verify one by one**: 375 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
