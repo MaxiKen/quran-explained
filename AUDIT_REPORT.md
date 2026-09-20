@@ -1,35 +1,34 @@
 # Commentary audit
 
 * Sections: **6,236**
-* Words: **2,519,428**
-* Length: min 92 / median 405 words per section
-* Readability: Flesch min 14.5 / p10 36 / median 54
-* Sections below their length floor: **69**
-* Sections reading heavily (Flesch < 20 and over 140 words): **65**
+* Words: **2,519,784**
+* Length: min 92 / median 406 words per section
+* Readability: Flesch min 15.1 / p10 36 / median 54
+* Sections below their length floor: **68**
+* Sections reading heavily (Flesch < 20 and over 140 words): **62**
 
 ## Element coverage
 
 | Element | Sections | Share |
 |---|---:|---:|
-| crossref | 5,317 | 85% |
+| crossref | 5,318 | 85% |
 | theology | 5,057 | 81% |
 | meaning | 3,059 | 49% |
-| story | 2,574 | 41% |
-| lexical | 2,407 | 38% |
+| story | 2,576 | 41% |
+| lexical | 2,405 | 38% |
 | parable | 2,346 | 37% |
-| flow | 1,920 | 30% |
-| application | 1,915 | 30% |
+| flow | 1,922 | 30% |
+| application | 1,914 | 30% |
 | variant | 1,826 | 29% |
 | sirah | 1,565 | 25% |
 | hadith | 1,127 | 18% |
-| ruling | 969 | 15% |
+| ruling | 968 | 15% |
 | context | 797 | 12% |
 
 ## Sections below their length floor (worst 40)
 
 | Verse | Words | Floor | Flesch |
 |---|---:|---:|---:|
-| 9:93 | 176 | 250 | 52.3 |
 | 9:129 | 183 | 250 | 54.8 |
 | 24:22 | 218 | 280 | 21.3 |
 | 9:58 | 193 | 250 | 56.8 |
@@ -69,14 +68,12 @@
 | 70:44 | 95 | 110 | 58.4 |
 | 30:54 | 197 | 210 | 31.7 |
 | 16:64 | 138 | 150 | 54.1 |
+| 18:86 | 188 | 200 | 60.2 |
 
 ## Sections reading heavily, Flesch under 20 (worst 40)
 
 | Verse | Flesch | Words | Avg sentence |
 |---|---:|---:|---:|
-| 40:40 | 14.5 | 553 | 25.0 |
-| 24:20 | 14.8 | 250 | 22.2 |
-| 20:32 | 14.9 | 266 | 13.9 |
 | 17:32 | 15.1 | 545 | 23.5 |
 | 20:76 | 15.6 | 282 | 17.5 |
 | 30:11 | 15.6 | 185 | 26.3 |
@@ -114,6 +111,9 @@
 | 24:21 | 18.6 | 215 | 24.1 |
 | 40:23 | 18.6 | 484 | 30.2 |
 | 40:75 | 18.6 | 433 | 27.1 |
+| 17:64 | 18.7 | 563 | 25.4 |
+| 5:113 | 18.8 | 176 | 43.5 |
+| 17:76 | 18.8 | 414 | 27.7 |
 
 ## Chapters
 
