@@ -7,8 +7,8 @@ Generated from the corpus itself: every one of the 6,236 verse sections was meas
 | measure | value |
 |---|---|
 | verse sections | 6,236 |
-| commentary words | 2,473,262 |
-| words per verse commentary | min 92, median 396, mean 396 |
+| commentary words | 2,473,120 |
+| words per verse commentary | min 92, median 395, mean 396 |
 | chapter intros | 114, min 238 words, median 541 |
 | readability (Flesch) | min -16, 10th percentile 34, median 54 |
 | quoted verse lines matching canon | 6,241 of 6,241 |
@@ -20,7 +20,7 @@ Element coverage across the corpus, in the share of sections that carry it:
 | meaning | 6,236 | 100% |
 | lexical | 5,944 | 95% |
 | context | 1,098 | 18% |
-| hadith | 1,526 | 24% |
+| hadith | 1,527 | 24% |
 | ruling | 2,229 | 36% |
 | crossref | 5,147 | 83% |
 | story | 1,671 | 27% |
@@ -28,15 +28,15 @@ Element coverage across the corpus, in the share of sections that carry it:
 | application | 2,845 | 46% |
 | variant | 1,100 | 18% |
 | flow | 5,939 | 95% |
-| parable | 1,638 | 26% |
+| parable | 1,640 | 26% |
 
 Objective readability measures, before and after this session's repairs:
 
 | measure | before | after |
 |---|---|---|
 | sections with a 60-word sentence (3 or more) | 126 | 23 |
-| sections dense by Flesch (<25) and over 150 words | 354 | 301 |
-| sections with Flesch under 20 | 211 | 181 |
+| sections dense by Flesch (<25) and over 150 words | 354 | 300 |
+| sections with Flesch under 20 | 211 | 180 |
 | Flesch 10th percentile | 31 | 34 |
 
 The flag columns below are keyword-based prompts to inspect, not verdicts. Sampled sections flagged `under-depth` or `legal-not-explained` (3:7, 3:97, 3:144 among them) read as complete commentaries and were left alone, and rewriting a section can raise a depth flag simply by making the prose tighter. What the flags identified reliably, on inspection, were the telegraphic note-style sections, story verses that never tell the story, and legal verses with no ruling discussion. Those are queued in chapter order at the end of this report.
@@ -115,8 +115,8 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | 66 | 12 | 353 | 9.2x | 100% | 50% | 67% | 0% | 3 |
 | 67 | 30 | 475 | 20.8x | 100% | 53% | 17% | 40% | 1 |
 | 68 | 52 | 467 | 41.8x | 100% | 48% | 48% | 31% | 5 |
-| 69 | 52 | 261 | 21.1x | 100% | 6% | 23% | 4% | 1 |
-| 70 | 44 | 158 | 21.3x | 100% | 7% | 32% | 9% | 10 |
+| 69 | 52 | 258 | 20.3x | 100% | 6% | 25% | 4% | 1 |
+| 70 | 44 | 158 | 21.3x | 100% | 7% | 30% | 9% | 9 |
 | 71 | 28 | 537 | 36.1x | 100% | 32% | 25% | 25% | 4 |
 | 72 | 28 | 505 | 27.6x | 100% | 46% | 21% | 39% | 0 |
 | 73 | 20 | 241 | 16.1x | 100% | 45% | 35% | 10% | 3 |
@@ -165,12 +165,12 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 ## What this session repaired
 
 * A plain-English pass over the whole corpus: 1,738 sections had over-long sentences split at safe clause boundaries and abstract register replaced with everyday wording (sentence-level rewrites are guarded so no citation, hadith number, quote line or heading can change; 0 sections were rolled back by the guard because none broke).
-* 29 sections rewritten from note-style into connected prose: Sūrah al-Anfāl 8:39–75 (19 sections) and 2:28, 11:16, 14:27, 14:31, 20:54, 21:29, 21:61–65.
+* 32 sections rewritten from note-style into connected prose: Sūrah al-Anfāl 8:39–75 (19 sections), 2:28, 11:16, 14:27, 14:31, 20:54, 21:29, 21:61–65, and 37:54, 69:16, 70:28.
 * Every cross-reference, hadith citation and quoted verse in those 29 sections was carried across; the applier refuses a rewrite that would drop a real reference.
 * Verified afterwards: 6,236 sections, all 6,241 quoted lines matching the canonical translations, no empty sections, `scripts/factcheck.py` clean apart from the standing authority-whitelist review.
 
 ## Still open (queued, in chapter order)
 
-1. **Telegraphic sections**: 9 left — 25:62, 25:67, 25:72, 37:54, 65:5, 65:11, 69:16, 70:28, 101:6. Same treatment as 8:74 and 21:63 above.
-2. **Hard-to-read sections**: 181 with Flesch under 20 and more than 140 words — 2:282, 4:140, 5:95, 5:106, 5:110, 5:113, 5:119, 17:2, 17:4, 17:6, 17:16, 17:17, 17:27, 17:32, 17:38, 17:45, 17:58, 17:64, 17:76, 17:88, 17:99, 17:100, 17:101, 17:104, … (worst first, chapter order).
+1. **Telegraphic sections**: none known to be left. The last batch — 37:54, 69:16 and 70:28 — was rewritten in the same way as 8:74 and 21:63. Six sections that the same heuristic picked out (25:62, 25:67, 25:72, 65:5, 65:11, 101:6) were read and left alone: they are connected prose, and only the sentence-length measure flagged them.
+2. **Hard-to-read sections**: 180 with Flesch under 20 and more than 140 words — 2:282, 4:140, 5:95, 5:106, 5:110, 5:113, 5:119, 17:2, 17:4, 17:6, 17:16, 17:17, 17:27, 17:32, 17:38, 17:45, 17:58, 17:64, 17:76, 17:88, 17:99, 17:100, 17:101, 17:104, … (worst first, chapter order).
 3. **Content gaps to verify one by one**: 418 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
