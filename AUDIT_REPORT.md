@@ -7,8 +7,8 @@ Generated from the corpus itself: every one of the 6,236 verse sections was meas
 | measure | value |
 |---|---|
 | verse sections | 6,236 |
-| commentary words | 2,473,120 |
-| words per verse commentary | min 92, median 395, mean 396 |
+| commentary words | 2,480,872 |
+| words per verse commentary | min 92, median 397, mean 397 |
 | chapter intros | 114, min 238 words, median 541 |
 | readability (Flesch) | min -16, 10th percentile 34, median 54 |
 | quoted verse lines matching canon | 6,241 of 6,241 |
@@ -18,25 +18,25 @@ Element coverage across the corpus, in the share of sections that carry it:
 | element | sections | share |
 |---|---|---|
 | meaning | 6,236 | 100% |
-| lexical | 5,944 | 95% |
-| context | 1,098 | 18% |
-| hadith | 1,527 | 24% |
-| ruling | 2,229 | 36% |
-| crossref | 5,147 | 83% |
-| story | 1,671 | 27% |
-| theology | 3,860 | 62% |
-| application | 2,845 | 46% |
+| lexical | 5,949 | 95% |
+| context | 1,105 | 18% |
+| hadith | 1,532 | 25% |
+| ruling | 2,237 | 36% |
+| crossref | 5,182 | 83% |
+| story | 1,674 | 27% |
+| theology | 3,876 | 62% |
+| application | 2,861 | 46% |
 | variant | 1,100 | 18% |
 | flow | 5,939 | 95% |
-| parable | 1,640 | 26% |
+| parable | 1,646 | 26% |
 
 Objective readability measures, before and after this session's repairs:
 
 | measure | before | after |
 |---|---|---|
 | sections with a 60-word sentence (3 or more) | 126 | 23 |
-| sections dense by Flesch (<25) and over 150 words | 354 | 300 |
-| sections with Flesch under 20 | 211 | 180 |
+| sections dense by Flesch (<25) and over 150 words | 354 | 297 |
+| sections with Flesch under 20 | 211 | 177 |
 | Flesch 10th percentile | 31 | 34 |
 
 The flag columns below are keyword-based prompts to inspect, not verdicts. Sampled sections flagged `under-depth` or `legal-not-explained` (3:7, 3:97, 3:144 among them) read as complete commentaries and were left alone, and rewriting a section can raise a depth flag simply by making the prose tighter. What the flags identified reliably, on inspection, were the telegraphic note-style sections, story verses that never tell the story, and legal verses with no ruling discussion. Those are queued in chapter order at the end of this report.
@@ -48,10 +48,10 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 | ch | verses | med words | depth | elems | hadith | ruling | context | open |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 7 | 519 | 55.6x | 100% | 100% | 29% | 14% | 0 |
-| 2 | 286 | 539 | 15.1x | 100% | 42% | 64% | 18% | 25 |
-| 3 | 200 | 247 | 10.2x | 100% | 18% | 24% | 36% | 49 |
+| 2 | 286 | 539 | 15.1x | 100% | 43% | 64% | 18% | 22 |
+| 3 | 200 | 328 | 10.7x | 100% | 20% | 28% | 39% | 10 |
 | 4 | 176 | 653 | 20.4x | 100% | 39% | 81% | 28% | 25 |
-| 5 | 120 | 492 | 13.0x | 100% | 51% | 74% | 27% | 21 |
+| 5 | 120 | 492 | 13.0x | 100% | 51% | 75% | 27% | 20 |
 | 6 | 165 | 530 | 16.6x | 100% | 9% | 42% | 32% | 8 |
 | 7 | 206 | 599 | 22.8x | 100% | 30% | 49% | 22% | 8 |
 | 8 | 75 | 332 | 12.6x | 100% | 28% | 45% | 77% | 10 |
@@ -169,8 +169,12 @@ The flag columns below are keyword-based prompts to inspect, not verdicts. Sampl
 * Every cross-reference, hadith citation and quoted verse in those 29 sections was carried across; the applier refuses a rewrite that would drop a real reference.
 * Verified afterwards: 6,236 sections, all 6,241 quoted lines matching the canonical translations, no empty sections, `scripts/factcheck.py` clean apart from the standing authority-whitelist review.
 
+## Progress of the element-repair pass
+
+Chapters 1-5 have been read section by section against their verses. 57 sections were extended or rewritten to carry the element their verse calls for and that the commentary had not supplied — principally rulings (2:158, 2:230, 2:234, 2:282, 3:97, 5:89, 5:95, 5:106), occasions of revelation (5:106), narrative detail (2:20, 5:112, 5:114, 5:115), and cross-references where the section had summarised without grounding. Nine of them (5:89, 5:95, 5:96, 5:106, 5:108, 5:112, 5:114, 5:115, 5:116) were in the old word-by-word gloss style — 'itha, when; qāla, he said' — and are now plain prose.
+
 ## Still open (queued, in chapter order)
 
 1. **Telegraphic sections**: none known to be left. The last batch — 37:54, 69:16 and 70:28 — was rewritten in the same way as 8:74 and 21:63. Six sections that the same heuristic picked out (25:62, 25:67, 25:72, 65:5, 65:11, 101:6) were read and left alone: they are connected prose, and only the sentence-length measure flagged them.
-2. **Hard-to-read sections**: 180 with Flesch under 20 and more than 140 words — 2:282, 4:140, 5:95, 5:106, 5:110, 5:113, 5:119, 17:2, 17:4, 17:6, 17:16, 17:17, 17:27, 17:32, 17:38, 17:45, 17:58, 17:64, 17:76, 17:88, 17:99, 17:100, 17:101, 17:104, … (worst first, chapter order).
-3. **Content gaps to verify one by one**: 418 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
+2. **Hard-to-read sections**: 177 with Flesch under 20 and more than 140 words — 4:140, 5:110, 5:113, 5:119, 17:2, 17:4, 17:6, 17:16, 17:17, 17:27, 17:32, 17:38, 17:45, 17:58, 17:64, 17:76, 17:88, 17:99, 17:100, 17:101, 17:104, 17:111, 20:6, 20:7, … (worst first, chapter order).
+3. **Content gaps to verify one by one**: 412 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
