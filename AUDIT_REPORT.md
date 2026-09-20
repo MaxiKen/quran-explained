@@ -1,7 +1,7 @@
 # Commentary Audit Report
 
 - Sections: 6,236
-- Words: 2,613,117
+- Words: 2,613,690
 - Flesch: min 21.8 | p10 41 | median 56 | p90 67
 - Sections below floor: 0
 - Long verses (30+ words) still explained in under six times their own length: 35
