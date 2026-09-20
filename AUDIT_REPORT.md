@@ -1,56 +1,47 @@
-# Commentary audit
+# Commentary Audit Report
 
-* Sections: **6,236**
-* Words: **2,614,164**
-* Length: min 105 / median 426 words per section
-* Readability: Flesch min 21.5 / p10 40 / median 56
-* Sections below their length floor: **0**
-* Sections reading heavily (Flesch < 20 and over 140 words): **0**
+- Sections: 6,236
+- Words: 2,609,908
+- Flesch: min 21.8 | p10 41 | median 56 | p90 67
+- Sections below floor: 0
+- Long verses (30+ words) still explained in under six times their own length: 34
 
-## Element coverage
+## Thinnest explanations (verse words vs commentary words)
 
-| Element | Sections | Share |
-|---|---:|---:|
-| crossref | 5,418 | 86% |
-| theology | 5,101 | 81% |
-| meaning | 2,824 | 45% |
-| story | 2,685 | 43% |
-| parable | 2,410 | 38% |
-| flow | 2,139 | 34% |
-| application | 1,938 | 31% |
-| variant | 1,883 | 30% |
-| lexical | 1,878 | 30% |
-| sirah | 1,672 | 26% |
-| hadith | 1,172 | 18% |
-| ruling | 1,005 | 16% |
-| context | 808 | 12% |
+| Verse | Verse words | Commentary words | Ratio |
+|---|---|---|---|
+| 2:282 | 222 | 842 | 3.79 |
+| 2:187 | 129 | 494 | 3.83 |
+| 48:29 | 121 | 479 | 3.96 |
+| 74:31 | 114 | 459 | 4.03 |
+| 2:259 | 144 | 655 | 4.55 |
+| 10:22 | 77 | 435 | 5.65 |
+| 48:25 | 86 | 486 | 5.65 |
+| 3:154 | 133 | 752 | 5.65 |
+| 6:19 | 76 | 431 | 5.67 |
+| 2:26 | 67 | 383 | 5.72 |
+| 57:20 | 82 | 471 | 5.74 |
+| 2:229 | 104 | 607 | 5.84 |
+| 59:8 | 38 | 222 | 5.84 |
+| 30:33 | 39 | 228 | 5.85 |
+| 28:77 | 51 | 299 | 5.86 |
+| 2:123 | 30 | 176 | 5.87 |
+| 58:7 | 67 | 394 | 5.88 |
+| 33:32 | 44 | 259 | 5.89 |
+| 8:70 | 36 | 212 | 5.89 |
+| 9:121 | 36 | 212 | 5.89 |
+| 5:93 | 53 | 313 | 5.91 |
+| 46:26 | 54 | 319 | 5.91 |
+| 33:37 | 99 | 586 | 5.92 |
+| 12:65 | 62 | 367 | 5.92 |
+| 9:80 | 50 | 296 | 5.92 |
+| 2:260 | 79 | 469 | 5.94 |
+| 49:12 | 48 | 285 | 5.94 |
+| 3:112 | 56 | 333 | 5.95 |
+| 9:30 | 44 | 262 | 5.95 |
+| 2:144 | 68 | 405 | 5.96 |
+| 16:41 | 38 | 227 | 5.97 |
+| 27:61 | 48 | 287 | 5.98 |
+| 39:9 | 54 | 323 | 5.98 |
+| 38:26 | 55 | 329 | 5.98 |
 
-## Deep-coverage watch (commentary under 6x the verse's own words)
-
-* Sections: **30**
-
-* 2:282 — verse 222w, commentary 842w
-* 2:187 — verse 129w, commentary 494w
-* 48:29 — verse 121w, commentary 479w
-* 74:31 — verse 114w, commentary 459w
-* 2:259 — verse 144w, commentary 655w
-* 3:154 — verse 133w, commentary 752w
-* 10:22 — verse 77w, commentary 436w
-* 48:25 — verse 86w, commentary 487w
-* 6:19 — verse 76w, commentary 432w
-* 2:26 — verse 67w, commentary 384w
-* 57:20 — verse 82w, commentary 472w
-* 2:229 — verse 104w, commentary 608w
-* 59:8 — verse 38w, commentary 223w
-* 30:33 — verse 39w, commentary 229w
-* 28:77 — verse 51w, commentary 300w
-* 8:70 — verse 36w, commentary 212w
-* 58:7 — verse 67w, commentary 395w
-* 2:123 — verse 30w, commentary 177w
-* 33:32 — verse 44w, commentary 260w
-* 9:121 — verse 36w, commentary 213w
-* 33:37 — verse 99w, commentary 586w
-* 5:93 — verse 53w, commentary 314w
-* 46:26 — verse 54w, commentary 320w
-* 12:65 — verse 62w, commentary 368w
-* 9:80 — verse 50w, commentary 297w
