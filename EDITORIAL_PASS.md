@@ -226,3 +226,31 @@ or filler-driven, because cutting is not the same as writing:
 Corpus floor: 92 words (was 83), median unchanged at 398. `scripts/factcheck.py`
 on the finished corpus reports no citation, quotation or reference problems, and
 every chapter's section count still matches its `data/chapter_NNN.js`.
+
+
+## Audit pass (all 114 chapters)
+
+A fourth pass went through every chapter again and measured the commentary against the
+verse it explains, rather than against a word target. The measurements and the per-chapter
+table are in `AUDIT_REPORT.md`; the scripts are `audit.py`, `make_report.py` and
+`plainify2.py` under `/home/user/.work/`.
+
+Two repairs came out of it, both verified by guard checks that refuse an edit which would
+drop a citation, a hadith number, a quoted verse line or a heading:
+
+* **A plain-English pass over the whole corpus.** 1,738 sections had over-long sentences
+  split at safe clause boundaries and abstract register replaced with everyday wording.
+  Sections with three or more 60-word sentences fell from 126 to 23.
+* **29 sections rewritten out of note-style into connected prose**: Sūrah al-Anfāl
+  8:39–75, and 2:28, 11:16, 14:27, 14:31, 20:54, 21:29, 21:61–65. These read as clipped
+  fragments ("Exclusivity's formula. *Ḥaqqan*: truly, really, fully.") and are now plain
+  paragraphs. Every cross-reference the originals carried was kept; the applier refuses a
+  rewrite that would lose a real reference.
+
+The audit also confirmed what is sound: chapter introductions run 238–713 words (median
+541); 95 per cent of sections explain vocabulary; 83 per cent cross-reference other
+passages; every one of the 6,241 quoted verse lines still matches the canonical
+translation, and `scripts/factcheck.py` reports no citation, quotation or reference
+problems. The remaining queue — nine telegraphic sections, the sections that still read
+heavily, and the content-gap candidates that must be read individually before anything is
+added — is listed at the end of `AUDIT_REPORT.md`.
