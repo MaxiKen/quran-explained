@@ -1,38 +1,35 @@
 # Commentary audit
 
 * Sections: **6,236**
-* Words: **2,521,767**
+* Words: **2,522,621**
 * Length: min 92 / median 406 words per section
-* Readability: Flesch min 16.2 / p10 36 / median 54
-* Sections below their length floor: **62**
-* Sections reading heavily (Flesch < 20 and over 140 words): **58**
+* Readability: Flesch min 16.8 / p10 36 / median 54
+* Sections below their length floor: **59**
+* Sections reading heavily (Flesch < 20 and over 140 words): **55**
 
 ## Element coverage
 
 | Element | Sections | Share |
 |---|---:|---:|
 | crossref | 5,321 | 85% |
-| theology | 5,058 | 81% |
+| theology | 5,059 | 81% |
 | meaning | 3,057 | 49% |
-| story | 2,581 | 41% |
-| lexical | 2,404 | 38% |
+| story | 2,582 | 41% |
+| lexical | 2,402 | 38% |
 | parable | 2,348 | 37% |
-| flow | 1,926 | 30% |
+| flow | 1,929 | 30% |
 | application | 1,915 | 30% |
 | variant | 1,827 | 29% |
 | sirah | 1,568 | 25% |
 | hadith | 1,129 | 18% |
-| ruling | 968 | 15% |
-| context | 797 | 12% |
+| ruling | 966 | 15% |
+| context | 798 | 12% |
 
 ## Sections below their length floor (worst 40)
 
 | Verse | Words | Floor | Flesch |
 |---|---:|---:|---:|
 | 16:71 | 129 | 170 | 66.5 |
-| 9:41 | 170 | 210 | 57.1 |
-| 5:96 | 211 | 250 | 37.7 |
-| 33:51 | 261 | 300 | 47.4 |
 | 30:55 | 176 | 210 | 37.1 |
 | 8:74 | 167 | 200 | 48.4 |
 | 16:103 | 138 | 170 | 52.9 |
@@ -69,14 +66,14 @@
 | 20:127 | 230 | 240 | 20.6 |
 | 16:101 | 141 | 150 | 59.2 |
 | 16:118 | 141 | 150 | 51.1 |
+| 23:95 | 171 | 180 | 69.1 |
+| 70:43 | 101 | 110 | 62.2 |
+| 28:61 | 162 | 170 | 44.5 |
 
 ## Sections reading heavily, Flesch under 20 (worst 40)
 
 | Verse | Flesch | Words | Avg sentence |
 |---|---:|---:|---:|
-| 40:4 | 16.2 | 551 | 23.7 |
-| 40:79 | 16.2 | 378 | 31.5 |
-| 17:2 | 16.4 | 349 | 23.3 |
 | 44:34 | 16.8 | 190 | 26.4 |
 | 44:40 | 16.8 | 196 | 24.8 |
 | 20:116 | 16.9 | 546 | 17.5 |
@@ -114,6 +111,9 @@
 | 20:9 | 18.9 | 436 | 24.3 |
 | 20:129 | 18.9 | 496 | 21.3 |
 | 40:61 | 18.9 | 297 | 37.4 |
+| 17:17 | 19.0 | 367 | 24.7 |
+| 20:106 | 19.0 | 152 | 18.9 |
+| 40:35 | 19.0 | 535 | 26.6 |
 
 ## Chapters
 
