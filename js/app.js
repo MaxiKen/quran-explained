@@ -412,12 +412,19 @@ function goBack() { if (!Router.back()) Router.go({ view: 'list' }, { resume: tr
 function goForward() { return Router.forward(); }
 function goHome() { return Router.goHome(); }
 
-/* A player follows the reader around: moving to another screen of the same
-   surah keeps it running, opening a *different* surah ends the session. */
+/* Read aloud is strictly part of the complete commentary page.
+   Leaving commentary terminates the read aloud session. */
 function stopPlaybackForNavigation(nextSurah) {
-  if (nextSurah == null) return;
+  if (nextSurah == null) {
+    if (typeof ReadAloud !== 'undefined') ReadAloud.endSession({ silent: true });
+    return;
+  }
   if (AudioPlayer.currentSurah !== nextSurah) AudioPlayer.stop();
-  if (ReadAloud.activeSurah !== nextSurah) ReadAloud.suspendForNavigation(nextSurah);
+  if (typeof ReadAloud !== 'undefined') {
+    if (AppState.currentView !== 'commentary' || ReadAloud.activeSurah !== nextSurah) {
+      ReadAloud.endSession({ silent: true });
+    }
+  }
 }
 
 
@@ -536,6 +543,7 @@ async function renderCommentaryView(num, options = {}) {
 }
 
 async function renderHomeRoute(options = {}) {
+  stopPlaybackForNavigation(null);
   AppState.currentView = 'list';
   AppState.currentSurah = null;
   AppState.currentSurahData = null;
@@ -959,7 +967,6 @@ function renderContinueReadingCard() {
     </button>
     <div class="continue-reading-actions">
       <button type="button" onclick="openCompleteCommentary(${ch.number})">Commentary</button>
-      <button type="button" onclick="ReadAloud.start(${ch.number}, ${latest.ayah})">${listening && ReadAloud.isSpeaking ? 'Pause reading' : 'Read aloud'}</button>
       <span class="continue-reading-pct">${pct}% read</span>
     </div>
   </div>`;
@@ -1126,10 +1133,7 @@ function renderSurahDetail(container) {
               </svg>
               <span>Complete Commentary</span>
             </button>
-            <button class="surah-listen-btn" onclick="ReadAloud.start(${ch.number}, 1)" title="Listen to this chapter's commentary">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-              <span>${ReadAloud.hasSession && ReadAloud.activeSurah === ch.number ? (ReadAloud.isSpeaking ? 'Reading…' : 'Resume reading') : 'Read Commentary'}</span>
-            </button>
+
             <button class="surah-offline-btn ${OfflineManager.isChapterCached(ch.number) ? 'cached' : ''}" id="surahOfflineBtn" onclick="OfflineManager.toggleChapterFromDetail(${ch.number})" title="${OfflineManager.isChapterCached(ch.number) ? 'Chapter saved offline (click to remove)' : 'Save chapter for offline reading'}">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 ${OfflineManager.isChapterCached(ch.number)
@@ -1560,10 +1564,7 @@ function updateScrollTopBtn() {
   if (!btn) return;
   const hasPlayer = document.querySelector('.audio-player-bar.visible');
   const dockOpen = document.body.classList.contains('ra-mini-open') || document.body.classList.contains('ra-full-open');
-  const orb = document.getElementById('playerOrb');
-  const hasOrb = !!orb && orb.classList.contains('visible');
-  let offset = (hasPlayer || dockOpen) ? 92 : 24;
-  if (hasOrb) offset = Math.max(offset, window.innerWidth <= 720 ? 132 : 148);
+  const offset = (hasPlayer || dockOpen) ? 92 : 24;
   if (window.pageYOffset > 400) {
     btn.classList.add('visible');
     btn.style.bottom = `${offset}px`;
@@ -1824,35 +1825,21 @@ const AudioPlayer = {
     if (window.PlayerOrb) PlayerOrb.hide('recitation');
   },
 
-  /** Fold the recitation bar into the floating orb instead of killing playback. */
   minimize() {
     const bar = document.getElementById('audioPlayerBar');
     if (bar) bar.classList.remove('visible');
     this._minimized = true;
-    this._paintOrb();
+    if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
   },
 
   restoreFromOrb() {
     this._minimized = false;
-    if (window.PlayerOrb) PlayerOrb.hide('recitation');
     const bar = document.getElementById('audioPlayerBar');
     if (bar && (this.isPlaying || this.currentAudioUrl)) bar.classList.add('visible');
     if (typeof updateScrollTopBtn === 'function') updateScrollTopBtn();
   },
 
-  _paintOrb() {
-    if (!window.PlayerOrb || !this.currentAyah) return;
-    const total = this._verseAudioList.length || 1;
-    const index = this._verseAudioList.findIndex((item) => item.ayah === this.currentAyah);
-    PlayerOrb.show({
-      owner: 'recitation',
-      onClick: () => this.restoreFromOrb(),
-      badge: this.currentAyah,
-      progress: index >= 0 ? (index + 1) / total : 0,
-      speaking: this.isPlaying,
-      title: 'Back to the recitation player',
-    });
-  },
+  _paintOrb() {},
 
   playNext() {
     const next = this._getAdjacentVerse(1);
@@ -2459,7 +2446,15 @@ document.addEventListener('keydown', function (e) {
   if (e.altKey && e.key === 'ArrowRight') { e.preventDefault(); if (!Router.forward()) showToast('No screen ahead — tap forward is at its end', 'info'); return; }
   if (e.key === 'h' || e.key === 'H') { e.preventDefault(); goHome(); return; }
   if ((e.key === 'c' || e.key === 'C') && AppState.currentView === 'detail' && AppState.currentSurah) { e.preventDefault(); openCompleteCommentary(AppState.currentSurah); return; }
-  if (e.key === 'l' || e.key === 'L') { e.preventDefault(); if (AppState.currentSurah) ReadAloud.toggle(AppState.currentSurah); else showToast('Open a chapter first', 'info'); return; }
+  if (e.key === 'l' || e.key === 'L') {
+    e.preventDefault();
+    if (AppState.currentView !== 'commentary') {
+      if (AppState.currentSurah) openCompleteCommentary(AppState.currentSurah);
+      else showToast('Open the complete commentary to use read aloud', 'info');
+      return;
+    }
+    if (AppState.currentSurah) ReadAloud.toggle(AppState.currentSurah); else showToast('Open a chapter first', 'info'); return;
+  }
   if (e.key === 'm' || e.key === 'M') { e.preventDefault(); ReadAloud.setMode(ReadAloud.mode === 'full' ? 'mini' : 'full'); return; }
 });
 
@@ -2584,7 +2579,6 @@ function updateModalFooter() {
   const first = ModalState.ayah <= 1;
   const last = total ? ModalState.ayah >= total : false;
   const bookmarked = isVerseBookmarked(ModalState.surah, ModalState.ayah);
-  const listening = ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah && ReadAloud.isSpeaking;
   footer.innerHTML = `
     <div class="modal-foot-row">
       <button type="button" class="modal-step" onclick="modalStep(-1)" ${first ? 'disabled' : ''} title="Previous verse">
@@ -2597,10 +2591,6 @@ function updateModalFooter() {
       </button>
     </div>
     <div class="modal-foot-row modal-foot-actions">
-      <button type="button" class="modal-tool ${listening ? 'is-active' : ''}" onclick="modalListen()">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-        ${listening ? 'Pause reading' : 'Read aloud'}
-      </button>
       <button type="button" class="modal-tool ${bookmarked ? 'is-on' : ''}" onclick="modalBookmark()">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         ${bookmarked ? 'Saved' : 'Save'}
@@ -2646,17 +2636,10 @@ function modalStep(delta) {
   if (!ch) return;
   const next = ModalState.ayah + delta;
   if (next < 1 || next > ch.verses) { showToast(next < 1 ? 'First verse of this surah' : 'Last verse of this surah', 'info'); return; }
-  const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number && ReadAloud.isSpeaking;
   showExplanation(ch.number, next);
-  if (reading) ReadAloud.seekVerse(ch.number, next);
 }
 
-function modalListen() {
-  if (!ModalState.surah) return;
-  if (ReadAloud.hasSession && ReadAloud.activeSurah === ModalState.surah && ReadAloud.ayah === ModalState.ayah) { ReadAloud.togglePlay(); updateModalFooter(); return; }
-  ReadAloud.start(ModalState.surah, ModalState.ayah);
-  closeModal();
-}
+
 
 function modalBookmark() {
   toggleBookmark(ModalState.surah, ModalState.ayah);
