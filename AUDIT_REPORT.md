@@ -1,9 +1,9 @@
 # Commentary audit
 
 * Sections: **6,236**
-* Words: **2,539,157**
-* Length: min 104 / median 410 words per section
-* Readability: Flesch min 20.0 / p10 37 / median 54
+* Words: **2,548,647**
+* Length: min 105 / median 412 words per section
+* Readability: Flesch min 21.5 / p10 40 / median 56
 * Sections below their length floor: **0**
 * Sections reading heavily (Flesch < 20 and over 140 words): **0**
 
@@ -11,145 +11,46 @@
 
 | Element | Sections | Share |
 |---|---:|---:|
-| crossref | 5,350 | 85% |
-| theology | 5,067 | 81% |
-| meaning | 3,066 | 49% |
-| story | 2,607 | 41% |
-| lexical | 2,379 | 38% |
-| parable | 2,373 | 38% |
-| flow | 1,984 | 31% |
+| crossref | 5,353 | 85% |
+| theology | 5,069 | 81% |
+| meaning | 2,816 | 45% |
+| story | 2,608 | 41% |
+| parable | 2,374 | 38% |
+| flow | 1,990 | 31% |
 | application | 1,916 | 30% |
-| variant | 1,840 | 29% |
-| sirah | 1,589 | 25% |
+| lexical | 1,884 | 30% |
+| variant | 1,842 | 29% |
+| sirah | 1,592 | 25% |
 | hadith | 1,137 | 18% |
 | ruling | 965 | 15% |
-| context | 794 | 12% |
+| context | 796 | 12% |
 
-## Sections below their length floor (worst 40)
+## Deep-coverage watch (commentary under 6x the verse's own words)
 
-| Verse | Words | Floor | Flesch |
-|---|---:|---:|---:|
+* Sections: **232**
 
-## Sections reading heavily, Flesch under 20 (worst 40)
-
-| Verse | Flesch | Words | Avg sentence |
-|---|---:|---:|---:|
-
-## Chapters
-
-| Ch | Sections | Intro words | Intro elements |
-|---|---:|---:|---|
-| 1 | 7 | 0 |  |
-| 2 | 286 | 0 |  |
-| 3 | 200 | 0 |  |
-| 4 | 176 | 0 |  |
-| 5 | 120 | 0 |  |
-| 6 | 165 | 0 |  |
-| 7 | 206 | 0 |  |
-| 8 | 75 | 0 |  |
-| 9 | 129 | 0 |  |
-| 10 | 109 | 0 |  |
-| 11 | 123 | 0 |  |
-| 12 | 111 | 0 |  |
-| 13 | 43 | 0 |  |
-| 14 | 52 | 0 |  |
-| 15 | 99 | 0 |  |
-| 16 | 128 | 0 |  |
-| 17 | 111 | 0 |  |
-| 18 | 110 | 0 |  |
-| 19 | 98 | 0 |  |
-| 20 | 135 | 0 |  |
-| 21 | 112 | 0 |  |
-| 22 | 78 | 0 |  |
-| 23 | 118 | 0 |  |
-| 24 | 64 | 0 |  |
-| 25 | 77 | 0 |  |
-| 26 | 227 | 0 |  |
-| 27 | 93 | 0 |  |
-| 28 | 88 | 0 |  |
-| 29 | 69 | 0 |  |
-| 30 | 60 | 0 |  |
-| 31 | 34 | 0 |  |
-| 32 | 30 | 0 |  |
-| 33 | 73 | 0 |  |
-| 34 | 54 | 0 |  |
-| 35 | 45 | 0 |  |
-| 36 | 83 | 0 |  |
-| 37 | 182 | 0 |  |
-| 38 | 88 | 0 |  |
-| 39 | 75 | 0 |  |
-| 40 | 85 | 0 |  |
-| 41 | 54 | 0 |  |
-| 42 | 53 | 0 |  |
-| 43 | 89 | 0 |  |
-| 44 | 59 | 0 |  |
-| 45 | 37 | 0 |  |
-| 46 | 35 | 0 |  |
-| 47 | 38 | 0 |  |
-| 48 | 29 | 0 |  |
-| 49 | 18 | 0 |  |
-| 50 | 45 | 0 |  |
-| 51 | 60 | 0 |  |
-| 52 | 49 | 0 |  |
-| 53 | 62 | 0 |  |
-| 54 | 55 | 0 |  |
-| 55 | 78 | 0 |  |
-| 56 | 96 | 0 |  |
-| 57 | 29 | 0 |  |
-| 58 | 22 | 0 |  |
-| 59 | 24 | 0 |  |
-| 60 | 13 | 0 |  |
-| 61 | 14 | 0 |  |
-| 62 | 11 | 0 |  |
-| 63 | 11 | 0 |  |
-| 64 | 18 | 0 |  |
-| 65 | 12 | 0 |  |
-| 66 | 12 | 0 |  |
-| 67 | 30 | 0 |  |
-| 68 | 52 | 0 |  |
-| 69 | 52 | 0 |  |
-| 70 | 44 | 0 |  |
-| 71 | 28 | 0 |  |
-| 72 | 28 | 0 |  |
-| 73 | 20 | 0 |  |
-| 74 | 56 | 0 |  |
-| 75 | 40 | 0 |  |
-| 76 | 31 | 0 |  |
-| 77 | 50 | 0 |  |
-| 78 | 40 | 0 |  |
-| 79 | 46 | 0 |  |
-| 80 | 42 | 0 |  |
-| 81 | 29 | 0 |  |
-| 82 | 19 | 0 |  |
-| 83 | 36 | 0 |  |
-| 84 | 25 | 0 |  |
-| 85 | 22 | 0 |  |
-| 86 | 17 | 0 |  |
-| 87 | 19 | 0 |  |
-| 88 | 26 | 0 |  |
-| 89 | 30 | 0 |  |
-| 90 | 20 | 0 |  |
-| 91 | 15 | 0 |  |
-| 92 | 21 | 0 |  |
-| 93 | 11 | 0 |  |
-| 94 | 8 | 0 |  |
-| 95 | 8 | 0 |  |
-| 96 | 19 | 0 |  |
-| 97 | 5 | 0 |  |
-| 98 | 8 | 0 |  |
-| 99 | 8 | 0 |  |
-| 100 | 11 | 0 |  |
-| 101 | 11 | 0 |  |
-| 102 | 8 | 0 |  |
-| 103 | 3 | 0 |  |
-| 104 | 9 | 0 |  |
-| 105 | 5 | 0 |  |
-| 106 | 4 | 0 |  |
-| 107 | 7 | 0 |  |
-| 108 | 3 | 0 |  |
-| 109 | 6 | 0 |  |
-| 110 | 3 | 0 |  |
-| 111 | 5 | 0 |  |
-| 112 | 4 | 0 |  |
-| 113 | 5 | 0 |  |
-| 114 | 6 | 0 |  |
+* 2:282 — verse 222w, commentary 550w
+* 3:154 — verse 133w, commentary 398w
+* 5:110 — verse 118w, commentary 368w
+* 2:249 — verse 110w, commentary 402w
+* 33:53 — verse 136w, commentary 505w
+* 73:20 — verse 147w, commentary 546w
+* 18:19 — verse 89w, commentary 336w
+* 5:48 — verse 114w, commentary 431w
+* 9:40 — verse 90w, commentary 341w
+* 58:22 — verse 91w, commentary 346w
+* 2:187 — verse 129w, commentary 494w
+* 9:47 — verse 46w, commentary 177w
+* 9:83 — verse 49w, commentary 191w
+* 42:15 — verse 80w, commentary 312w
+* 42:22 — verse 50w, commentary 197w
+* 2:102 — verse 128w, commentary 505w
+* 48:29 — verse 121w, commentary 479w
+* 8:60 — verse 52w, commentary 209w
+* 74:31 — verse 114w, commentary 459w
+* 9:94 — verse 70w, commentary 282w
+* 48:15 — verse 62w, commentary 251w
+* 57:19 — verse 54w, commentary 219w
+* 24:55 — verse 72w, commentary 293w
+* 9:91 — verse 42w, commentary 171w
+* 11:88 — verse 64w, commentary 262w
