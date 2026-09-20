@@ -1,8 +1,8 @@
 # Commentary audit
 
 * Sections: **6,236**
-* Words: **2,602,448**
-* Length: min 105 / median 424 words per section
+* Words: **2,601,944**
+* Length: min 105 / median 423 words per section
 * Readability: Flesch min 21.5 / p10 40 / median 56
 * Sections below their length floor: **0**
 * Sections reading heavily (Flesch < 20 and over 140 words): **0**
@@ -13,21 +13,21 @@
 |---|---:|---:|
 | crossref | 5,407 | 86% |
 | theology | 5,096 | 81% |
-| meaning | 2,826 | 45% |
-| story | 2,669 | 42% |
-| parable | 2,403 | 38% |
-| flow | 2,122 | 34% |
-| application | 1,936 | 31% |
+| meaning | 2,822 | 45% |
+| story | 2,671 | 42% |
+| parable | 2,405 | 38% |
+| flow | 2,126 | 34% |
+| application | 1,935 | 31% |
 | variant | 1,879 | 30% |
-| lexical | 1,879 | 30% |
-| sirah | 1,662 | 26% |
-| hadith | 1,168 | 18% |
+| lexical | 1,878 | 30% |
+| sirah | 1,664 | 26% |
+| hadith | 1,167 | 18% |
 | ruling | 995 | 15% |
-| context | 804 | 12% |
+| context | 805 | 12% |
 
 ## Deep-coverage watch (commentary under 6x the verse's own words)
 
-* Sections: **72**
+* Sections: **73**
 
 * 33:50 — verse 130w, commentary 444w
 * 2:282 — verse 222w, commentary 842w
@@ -51,6 +51,6 @@
 * 5:89 — verse 91w, commentary 509w
 * 40:5 — verse 45w, commentary 252w
 * 3:73 — verse 64w, commentary 359w
+* 5:49 — verse 64w, commentary 359w
 * 8:63 — verse 31w, commentary 174w
 * 57:13 — verse 65w, commentary 365w
-* 18:45 — verse 48w, commentary 270w
