@@ -1,3 +1,18 @@
+# Commentary editorial pass — v2.4
+
+The verse commentary was written to a fixed word target, which made every verse — a two-word oath and the Verse of the Throne alike — run to about a thousand words. The whole corpus has been re-cut so that length follows substance.
+
+- **Shorter where there was less to say, longer where there was more.** Corpus total 6.32M words to 3.38M (53.5%). Median verse section 1,019 words to 554; the shortest sections are 303 words and the longest 1,139.
+- **Nothing factual was lost.** Every Qur'an citation and hadith reference in the draft is still there (verified per surah, zero losses), as are the quoted scripture lines, the classical authorities, the stories and the historical accounts. Where a citation existed only inside a line that was otherwise cut, that line was restored.
+- **Repetition removed.** Sentences that only re-stated a point already made in the same section, and points already made earlier in the same surah, are gone. Three boilerplate blocks that repeated word-for-word under every verse of surahs 100–104 were removed, keeping the verse-specific cross-reference each of them carried.
+- **Reading structure simplified.** Verse sections now read as 2–5 paragraphs instead of 6–9 fragments; weak sub-headings were retired where they added nothing.
+- **Plainer English.** Inflated connectives and wordy phrasing were replaced throughout; quoted and italicised matter is untouched.
+- Service worker cache bumped to `quran-reader-v2.3.2` so returning readers receive the new commentary instead of the cached draft.
+
+Details and the per-surah before/after table: [EDITORIAL_PASS.md](EDITORIAL_PASS.md).
+
+---
+
 # Reading Experience Updates — v2.3
 
 This release gives the reader continuity: where you left off is where you come back to, navigation is driven by the screen instead of the browser's back button, and read-aloud becomes a proper music-player dock that follows the text like lyrics.
