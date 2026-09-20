@@ -36,6 +36,11 @@ scripted transformations.
 
 Remaining: 110 chapters (002–102, 104–107, 109–113).
 
+Chapter 002 is partially done: the introduction and verses 2:1–2:4 were refined in an earlier pass
+and are kept; the rest of the chapter (2:5–2:286) still carries the padded text. Chapter 002 is
+about 2.2 MB on its own, so it is worked through in verse ranges over several passes rather than in
+one go.
+
 ## Order of work
 
 Sequential from Sūrah 001, as agreed. Note on pacing: the seven largest chapters — 002, 003, 004,
