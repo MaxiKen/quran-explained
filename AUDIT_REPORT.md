@@ -1,182 +1,235 @@
-# Commentary audit — all 114 chapters
+# Commentary audit
 
-Generated from the corpus itself: every one of the 6,236 verse sections was measured against its own verse in `data/chapter_NNN.js`, not against a fixed word target.
+* Sections: **6,236**
+* Words: **2,519,428**
+* Length: min 92 / median 405 words per section
+* Readability: Flesch min 14.5 / p10 36 / median 54
+* Sections below their length floor: **69**
+* Sections reading heavily (Flesch < 20 and over 140 words): **65**
 
-## Overall
+## Element coverage
 
-| measure | value |
-|---|---|
-| verse sections | 6,236 |
-| commentary words | 2,518,345 |
-| words per verse commentary | min 92, median 405, mean 403 |
-| chapter intros | 114, min 238 words, median 541 |
-| readability (Flesch) | min 14, 10th percentile 36, median 54 |
-| quoted verse lines matching canon | 6,241 of 6,241 |
+| Element | Sections | Share |
+|---|---:|---:|
+| crossref | 5,317 | 85% |
+| theology | 5,057 | 81% |
+| meaning | 3,059 | 49% |
+| story | 2,574 | 41% |
+| lexical | 2,407 | 38% |
+| parable | 2,346 | 37% |
+| flow | 1,920 | 30% |
+| application | 1,915 | 30% |
+| variant | 1,826 | 29% |
+| sirah | 1,565 | 25% |
+| hadith | 1,127 | 18% |
+| ruling | 969 | 15% |
+| context | 797 | 12% |
 
-Element coverage across the corpus, in the share of sections that carry it:
+## Sections below their length floor (worst 40)
 
-| element | sections | share |
-|---|---|---|
-| meaning | 6,236 | 100% |
-| lexical | 5,969 | 96% |
-| context | 1,145 | 18% |
-| hadith | 1,557 | 25% |
-| ruling | 2,257 | 36% |
-| crossref | 5,316 | 85% |
-| story | 1,695 | 27% |
-| theology | 3,906 | 63% |
-| application | 2,923 | 47% |
-| variant | 1,092 | 18% |
-| flow | 5,987 | 96% |
-| parable | 1,669 | 27% |
+| Verse | Words | Floor | Flesch |
+|---|---:|---:|---:|
+| 9:93 | 176 | 250 | 52.3 |
+| 9:129 | 183 | 250 | 54.8 |
+| 24:22 | 218 | 280 | 21.3 |
+| 9:58 | 193 | 250 | 56.8 |
+| 5:115 | 195 | 250 | 55.3 |
+| 16:124 | 126 | 180 | 46.4 |
+| 33:37 | 258 | 300 | 51.8 |
+| 16:71 | 129 | 170 | 66.5 |
+| 9:41 | 170 | 210 | 57.1 |
+| 5:96 | 211 | 250 | 37.7 |
+| 33:51 | 261 | 300 | 47.4 |
+| 30:55 | 176 | 210 | 37.1 |
+| 8:74 | 167 | 200 | 48.4 |
+| 16:103 | 138 | 170 | 52.9 |
+| 5:108 | 220 | 250 | 61.1 |
+| 38:44 | 251 | 280 | 57.1 |
+| 35:12 | 222 | 250 | 52.1 |
+| 16:122 | 113 | 140 | 62.1 |
+| 28:43 | 154 | 180 | 40.5 |
+| 16:110 | 115 | 140 | 50.1 |
+| 16:62 | 146 | 170 | 61.3 |
+| 27:64 | 186 | 210 | 66.7 |
+| 16:74 | 127 | 150 | 57.4 |
+| 39:23 | 237 | 260 | 31.2 |
+| 3:120 | 178 | 200 | 52.1 |
+| 16:90 | 128 | 150 | 54.6 |
+| 16:67 | 129 | 150 | 58.7 |
+| 16:117 | 129 | 150 | 48.6 |
+| 16:121 | 119 | 140 | 64.4 |
+| 57:10 | 279 | 300 | 40.9 |
+| 9:29 | 191 | 210 | 45.9 |
+| 9:120 | 311 | 330 | 48.4 |
+| 11:62 | 261 | 280 | 51.7 |
+| 24:33 | 281 | 300 | 21.7 |
+| 9:28 | 234 | 250 | 43.2 |
+| 9:117 | 184 | 200 | 56.1 |
+| 33:50 | 284 | 300 | 42.8 |
+| 70:44 | 95 | 110 | 58.4 |
+| 30:54 | 197 | 210 | 31.7 |
+| 16:64 | 138 | 150 | 54.1 |
 
-Objective readability measures, before and after this session's repairs:
+## Sections reading heavily, Flesch under 20 (worst 40)
 
-| measure | before | after |
-|---|---|---|
-| sections with a 60-word sentence (3 or more) | 126 | 23 |
-| sections dense by Flesch (<25) and over 150 words | 354 | 216 |
-| sections with Flesch under 20 | 211 | 68 |
-| Flesch 10th percentile | 31 | 36 |
+| Verse | Flesch | Words | Avg sentence |
+|---|---:|---:|---:|
+| 40:40 | 14.5 | 553 | 25.0 |
+| 24:20 | 14.8 | 250 | 22.2 |
+| 20:32 | 14.9 | 266 | 13.9 |
+| 17:32 | 15.1 | 545 | 23.5 |
+| 20:76 | 15.6 | 282 | 17.5 |
+| 30:11 | 15.6 | 185 | 26.3 |
+| 24:57 | 16.1 | 165 | 23.3 |
+| 40:4 | 16.2 | 551 | 23.7 |
+| 40:79 | 16.2 | 378 | 31.5 |
+| 17:2 | 16.4 | 349 | 23.3 |
+| 44:34 | 16.8 | 190 | 26.4 |
+| 44:40 | 16.8 | 196 | 24.8 |
+| 20:116 | 16.9 | 546 | 17.5 |
+| 24:23 | 16.9 | 218 | 24.2 |
+| 20:56 | 17.0 | 259 | 14.6 |
+| 30:5 | 17.2 | 320 | 26.2 |
+| 40:12 | 17.2 | 307 | 25.8 |
+| 40:10 | 17.4 | 434 | 28.9 |
+| 24:5 | 17.5 | 230 | 29.1 |
+| 24:10 | 17.5 | 220 | 22.4 |
+| 40:30 | 17.5 | 419 | 30.0 |
+| 40:74 | 17.5 | 373 | 31.2 |
+| 17:6 | 17.7 | 374 | 20.8 |
+| 17:111 | 17.8 | 542 | 29.6 |
+| 20:118 | 17.8 | 285 | 19.0 |
+| 30:10 | 17.8 | 170 | 28.3 |
+| 40:45 | 17.8 | 337 | 26.0 |
+| 24:13 | 17.9 | 228 | 25.0 |
+| 40:9 | 17.9 | 427 | 28.5 |
+| 40:55 | 17.9 | 405 | 27.3 |
+| 5:119 | 18.1 | 179 | 43.0 |
+| 20:115 | 18.1 | 376 | 18.9 |
+| 30:26 | 18.3 | 259 | 25.8 |
+| 17:38 | 18.4 | 367 | 28.2 |
+| 20:79 | 18.4 | 300 | 18.7 |
+| 20:64 | 18.5 | 364 | 18.2 |
+| 17:27 | 18.6 | 392 | 22.8 |
+| 24:21 | 18.6 | 215 | 24.1 |
+| 40:23 | 18.6 | 484 | 30.2 |
+| 40:75 | 18.6 | 433 | 27.1 |
 
-The flag columns below are keyword-based prompts to inspect, not verdicts. Sampled sections flagged `under-depth` or `legal-not-explained` (3:7, 3:97, 3:144 among them) read as complete commentaries and were left alone, and rewriting a section can raise a depth flag simply by making the prose tighter. What the flags identified reliably, on inspection, were the telegraphic note-style sections, story verses that never tell the story, and legal verses with no ruling discussion. Those are queued in chapter order at the end of this report.
+## Chapters
 
-## Per chapter
-
-`depth` = median commentary words as a multiple of the verse's own length; `elems` = share of the chapter's sections carrying at least one grounded element (lexicology, context, hadith, ruling, cross-reference, story, variant reading or parable); `open` = sections still carrying a content or readability flag.
-
-| ch | verses | med words | depth | elems | hadith | ruling | context | open |
-|---|---|---|---|---|---|---|---|---|
-| 1 | 7 | 519 | 55.6x | 100% | 100% | 29% | 14% | 0 |
-| 2 | 286 | 539 | 15.1x | 100% | 43% | 64% | 18% | 20 |
-| 3 | 200 | 328 | 10.6x | 100% | 20% | 28% | 38% | 10 |
-| 4 | 176 | 653 | 20.4x | 100% | 39% | 81% | 28% | 25 |
-| 5 | 120 | 502 | 12.9x | 100% | 52% | 75% | 27% | 18 |
-| 6 | 165 | 530 | 16.6x | 100% | 9% | 42% | 32% | 8 |
-| 7 | 206 | 599 | 22.8x | 100% | 30% | 49% | 22% | 8 |
-| 8 | 75 | 404 | 12.7x | 100% | 29% | 47% | 79% | 5 |
-| 9 | 129 | 262 | 7.0x | 100% | 19% | 50% | 26% | 20 |
-| 10 | 109 | 414 | 13.1x | 100% | 18% | 29% | 13% | 13 |
-| 11 | 123 | 293 | 10.9x | 100% | 15% | 20% | 6% | 9 |
-| 12 | 111 | 427 | 14.4x | 100% | 19% | 45% | 18% | 44 |
-| 13 | 43 | 602 | 17.4x | 100% | 44% | 33% | 21% | 2 |
-| 14 | 52 | 411 | 15.4x | 100% | 35% | 13% | 12% | 3 |
-| 15 | 99 | 571 | 41.5x | 100% | 9% | 39% | 30% | 0 |
-| 16 | 128 | 255 | 9.2x | 100% | 14% | 31% | 17% | 18 |
-| 17 | 111 | 490 | 18.1x | 100% | 37% | 50% | 30% | 34 |
-| 18 | 110 | 317 | 12.2x | 100% | 45% | 25% | 13% | 11 |
-| 19 | 98 | 493 | 23.6x | 100% | 33% | 42% | 35% | 4 |
-| 20 | 135 | 271 | 14.9x | 100% | 10% | 19% | 11% | 50 |
-| 21 | 112 | 381 | 19.6x | 100% | 5% | 13% | 6% | 7 |
-| 22 | 78 | 546 | 19.5x | 100% | 21% | 42% | 18% | 4 |
-| 23 | 118 | 261 | 16.8x | 100% | 7% | 18% | 6% | 7 |
-| 24 | 64 | 290 | 9.6x | 100% | 50% | 59% | 25% | 35 |
-| 25 | 77 | 524 | 21.8x | 100% | 29% | 26% | 27% | 1 |
-| 26 | 227 | 203 | 19.2x | 100% | 5% | 20% | 4% | 18 |
-| 27 | 93 | 229 | 10.5x | 100% | 14% | 20% | 5% | 9 |
-| 28 | 88 | 295 | 9.9x | 100% | 15% | 28% | 22% | 17 |
-| 29 | 69 | 515 | 18.8x | 100% | 14% | 39% | 36% | 10 |
-| 30 | 60 | 286 | 11.0x | 100% | 38% | 28% | 13% | 22 |
-| 31 | 34 | 519 | 18.4x | 100% | 50% | 32% | 24% | 3 |
-| 32 | 30 | 426 | 16.5x | 100% | 23% | 37% | 10% | 1 |
-| 33 | 73 | 292 | 11.2x | 100% | 19% | 55% | 25% | 10 |
-| 34 | 54 | 569 | 19.9x | 100% | 15% | 31% | 7% | 4 |
-| 35 | 45 | 273 | 9.1x | 100% | 7% | 27% | 9% | 6 |
-| 36 | 83 | 628 | 35.2x | 100% | 16% | 16% | 5% | 2 |
-| 37 | 182 | 161 | 18.7x | 100% | 20% | 18% | 13% | 19 |
-| 38 | 88 | 427 | 26.3x | 100% | 10% | 33% | 19% | 12 |
-| 39 | 75 | 466 | 15.8x | 100% | 80% | 33% | 27% | 13 |
-| 40 | 85 | 380 | 15.0x | 100% | 41% | 38% | 20% | 49 |
-| 41 | 54 | 644 | 23.4x | 100% | 26% | 48% | 17% | 3 |
-| 42 | 53 | 287 | 9.0x | 100% | 8% | 19% | 0% | 10 |
-| 43 | 89 | 276 | 12.5x | 100% | 1% | 15% | 4% | 9 |
-| 44 | 59 | 309 | 27.5x | 100% | 64% | 25% | 44% | 18 |
-| 45 | 37 | 437 | 15.2x | 100% | 5% | 32% | 22% | 4 |
-| 46 | 35 | 400 | 11.7x | 100% | 17% | 37% | 20% | 3 |
-| 47 | 38 | 374 | 14.4x | 100% | 29% | 21% | 34% | 2 |
-| 48 | 29 | 293 | 9.8x | 100% | 17% | 14% | 45% | 7 |
-| 49 | 18 | 230 | 7.6x | 100% | 33% | 39% | 28% | 1 |
-| 50 | 45 | 591 | 32.9x | 100% | 49% | 44% | 4% | 0 |
-| 51 | 60 | 582 | 47.0x | 100% | 38% | 55% | 5% | 5 |
-| 52 | 49 | 539 | 35.7x | 100% | 55% | 43% | 20% | 0 |
-| 53 | 62 | 363 | 32.0x | 100% | 29% | 27% | 11% | 4 |
-| 54 | 55 | 312 | 23.4x | 100% | 11% | 11% | 4% | 4 |
-| 55 | 78 | 274 | 27.3x | 100% | 29% | 13% | 8% | 1 |
-| 56 | 96 | 353 | 44.8x | 100% | 24% | 24% | 21% | 14 |
-| 57 | 29 | 325 | 7.5x | 100% | 31% | 38% | 3% | 8 |
-| 58 | 22 | 285 | 8.2x | 100% | 36% | 59% | 9% | 3 |
-| 59 | 24 | 289 | 9.0x | 100% | 46% | 38% | 33% | 1 |
-| 60 | 13 | 533 | 8.9x | 100% | 38% | 54% | 92% | 1 |
-| 61 | 14 | 484 | 14.2x | 100% | 36% | 64% | 21% | 3 |
-| 62 | 11 | 492 | 18.6x | 100% | 18% | 55% | 36% | 0 |
-| 63 | 11 | 528 | 13.9x | 100% | 73% | 55% | 36% | 2 |
-| 64 | 18 | 452 | 15.9x | 100% | 50% | 33% | 6% | 1 |
-| 65 | 12 | 379 | 8.5x | 100% | 17% | 100% | 8% | 2 |
-| 66 | 12 | 353 | 9.2x | 100% | 50% | 67% | 0% | 3 |
-| 67 | 30 | 475 | 20.8x | 100% | 50% | 17% | 40% | 1 |
-| 68 | 52 | 467 | 41.8x | 100% | 48% | 48% | 31% | 5 |
-| 69 | 52 | 258 | 20.3x | 100% | 6% | 25% | 4% | 1 |
-| 70 | 44 | 188 | 21.3x | 100% | 7% | 32% | 9% | 7 |
-| 71 | 28 | 537 | 36.1x | 100% | 32% | 25% | 25% | 4 |
-| 72 | 28 | 505 | 27.6x | 100% | 46% | 21% | 39% | 0 |
-| 73 | 20 | 302 | 16.1x | 100% | 45% | 35% | 10% | 2 |
-| 74 | 56 | 234 | 33.0x | 100% | 21% | 25% | 7% | 3 |
-| 75 | 40 | 548 | 60.7x | 100% | 20% | 45% | 12% | 2 |
-| 76 | 31 | 510 | 32.9x | 100% | 13% | 26% | 16% | 2 |
-| 77 | 50 | 529 | 67.2x | 100% | 6% | 56% | 6% | 0 |
-| 78 | 40 | 484 | 64.4x | 100% | 20% | 25% | 10% | 0 |
-| 79 | 46 | 422 | 43.9x | 100% | 15% | 54% | 4% | 0 |
-| 80 | 42 | 445 | 65.0x | 100% | 21% | 31% | 2% | 1 |
-| 81 | 29 | 313 | 44.7x | 100% | 21% | 48% | 3% | 0 |
-| 82 | 19 | 463 | 62.4x | 100% | 5% | 26% | 5% | 0 |
-| 83 | 36 | 273 | 30.9x | 100% | 6% | 31% | 0% | 3 |
-| 84 | 25 | 271 | 33.1x | 100% | 4% | 28% | 0% | 0 |
-| 85 | 22 | 373 | 41.8x | 100% | 27% | 36% | 0% | 3 |
-| 86 | 17 | 310 | 36.3x | 100% | 6% | 53% | 6% | 0 |
-| 87 | 19 | 288 | 37.1x | 100% | 26% | 5% | 5% | 5 |
-| 88 | 26 | 284 | 42.1x | 100% | 15% | 0% | 4% | 3 |
-| 89 | 30 | 273 | 38.4x | 100% | 7% | 40% | 0% | 2 |
-| 90 | 20 | 491 | 57.6x | 100% | 25% | 60% | 10% | 2 |
-| 91 | 15 | 481 | 52.7x | 100% | 20% | 73% | 13% | 0 |
-| 92 | 21 | 307 | 37.0x | 100% | 14% | 38% | 0% | 1 |
-| 93 | 11 | 488 | 52.3x | 100% | 27% | 64% | 36% | 0 |
-| 94 | 8 | 312 | 46.4x | 100% | 12% | 38% | 25% | 0 |
-| 95 | 8 | 592 | 74.8x | 100% | 62% | 88% | 12% | 0 |
-| 96 | 19 | 443 | 54.1x | 100% | 42% | 26% | 11% | 1 |
-| 97 | 5 | 578 | 47.8x | 100% | 60% | 20% | 60% | 0 |
-| 98 | 8 | 506 | 20.5x | 100% | 62% | 12% | 12% | 0 |
-| 99 | 8 | 440 | 48.8x | 100% | 62% | 38% | 12% | 0 |
-| 100 | 11 | 374 | 43.2x | 100% | 9% | 73% | 9% | 0 |
-| 101 | 11 | 294 | 43.0x | 100% | 9% | 27% | 0% | 1 |
-| 102 | 8 | 264 | 28.8x | 100% | 38% | 38% | 0% | 0 |
-| 103 | 3 | 470 | 78.3x | 100% | 33% | 100% | 0% | 0 |
-| 104 | 9 | 266 | 40.7x | 100% | 11% | 56% | 22% | 0 |
-| 105 | 5 | 300 | 37.5x | 100% | 0% | 0% | 40% | 0 |
-| 106 | 4 | 295 | 25.7x | 100% | 25% | 0% | 50% | 0 |
-| 107 | 7 | 354 | 47.7x | 100% | 14% | 43% | 14% | 1 |
-| 108 | 3 | 307 | 34.3x | 100% | 33% | 0% | 0% | 1 |
-| 109 | 6 | 265 | 36.9x | 100% | 17% | 0% | 17% | 0 |
-| 110 | 3 | 668 | 47.4x | 100% | 100% | 33% | 100% | 0 |
-| 111 | 5 | 529 | 51.7x | 100% | 60% | 20% | 40% | 0 |
-| 112 | 4 | 558 | 76.4x | 100% | 75% | 25% | 25% | 0 |
-| 113 | 5 | 514 | 46.7x | 100% | 80% | 0% | 20% | 0 |
-| 114 | 6 | 548 | 77.1x | 100% | 50% | 50% | 17% | 0 |
-
-## What this session repaired
-
-* A plain-English pass over the whole corpus: 1,738 sections had over-long sentences split at safe clause boundaries and abstract register replaced with everyday wording (sentence-level rewrites are guarded so no citation, hadith number, quote line or heading can change; 0 sections were rolled back by the guard because none broke).
-* 32 sections rewritten from note-style into connected prose: Sūrah al-Anfāl 8:39–75 (19 sections), 2:28, 11:16, 14:27, 14:31, 20:54, 21:29, 21:61–65, and 37:54, 69:16, 70:28.
-* Every cross-reference, hadith citation and quoted verse in those 29 sections was carried across; the applier refuses a rewrite that would drop a real reference.
-* Verified afterwards: 6,236 sections, all 6,241 quoted lines matching the canonical translations, no empty sections, `scripts/factcheck.py` clean apart from the standing authority-whitelist review.
-
-## Progress of the element-repair pass
-
-Chapters 1-28 have been read section by section against their verses. 288 sections were extended or rewritten to carry the element their verse calls for and that the commentary had not supplied — principally rulings (2:158, 2:230, 2:234, 2:282, 3:97, 5:89, 5:95, 5:106), occasions of revelation (5:106), narrative detail (2:20, 5:112, 5:114, 5:115), and cross-references where the section had summarised without grounding. Nine of them (5:89, 5:95, 5:96, 5:106, 5:108, 5:112, 5:114, 5:115, 5:116) were in the old word-by-word gloss style — 'itha, when; qāla, he said' — and are now plain prose.
-
-The largest single patch was Surah al-Tawbah, whose 51 short sections were read against their verses and extended with the Tabūk setting, the hadith of ʿAdī ibn Ḥātim on taking rabbis as lords, the Prophet's farewell-sermon statement of the sacred months, the eight categories of alms, the mosque of Ḍirār, the pledge of ʿAqabah behind 9:111, and Kaʿb ibn Mālik's account of the three who stayed behind. Surah al-Nahl's thirty short sections gained the milk and bee passages with the hadith on honey, the two parables read against the associate-gods, the report of ʿAmmār ibn Yāsir behind 16:106, and the method of invitation in 16:125. Surahs 10-14, 18-28 and 16 gained their missing cross-references, rulings and occasions of revelation in the same way.
-
-## Still open (queued, in chapter order)
-
-1. **Telegraphic sections**: none known to be left. The last batch — 37:54, 69:16 and 70:28 — was rewritten in the same way as 8:74 and 21:63. Six sections that the same heuristic picked out (25:62, 25:67, 25:72, 65:5, 65:11, 101:6) were read and left alone: they are connected prose, and only the sentence-length measure flagged them.
-2. **Hard-to-read sections**: 68 with Flesch under 20 and more than 140 words — 4:140, 5:110, 5:113, 5:119, 17:2, 17:6, 17:17, 17:27, 17:32, 17:38, 17:64, 17:76, 17:104, 17:111, 20:9, 20:32, 20:53, 20:56, 20:64, 20:76, 20:79, 20:83, 20:85, 20:87, … (worst first, chapter order).
-3. **Content gaps to verify one by one**: 371 sections flagged as a story verse without story content, a legal verse without a ruling, or nothing but paraphrase. Each needs to be read against its verse before adding anything, because the flag can be a false positive (it fires on keyword absence, not on absence of substance).
+| Ch | Sections | Intro words | Intro elements |
+|---|---:|---:|---|
+| 1 | 7 | 0 |  |
+| 2 | 286 | 0 |  |
+| 3 | 200 | 0 |  |
+| 4 | 176 | 0 |  |
+| 5 | 120 | 0 |  |
+| 6 | 165 | 0 |  |
+| 7 | 206 | 0 |  |
+| 8 | 75 | 0 |  |
+| 9 | 129 | 0 |  |
+| 10 | 109 | 0 |  |
+| 11 | 123 | 0 |  |
+| 12 | 111 | 0 |  |
+| 13 | 43 | 0 |  |
+| 14 | 52 | 0 |  |
+| 15 | 99 | 0 |  |
+| 16 | 128 | 0 |  |
+| 17 | 111 | 0 |  |
+| 18 | 110 | 0 |  |
+| 19 | 98 | 0 |  |
+| 20 | 135 | 0 |  |
+| 21 | 112 | 0 |  |
+| 22 | 78 | 0 |  |
+| 23 | 118 | 0 |  |
+| 24 | 64 | 0 |  |
+| 25 | 77 | 0 |  |
+| 26 | 227 | 0 |  |
+| 27 | 93 | 0 |  |
+| 28 | 88 | 0 |  |
+| 29 | 69 | 0 |  |
+| 30 | 60 | 0 |  |
+| 31 | 34 | 0 |  |
+| 32 | 30 | 0 |  |
+| 33 | 73 | 0 |  |
+| 34 | 54 | 0 |  |
+| 35 | 45 | 0 |  |
+| 36 | 83 | 0 |  |
+| 37 | 182 | 0 |  |
+| 38 | 88 | 0 |  |
+| 39 | 75 | 0 |  |
+| 40 | 85 | 0 |  |
+| 41 | 54 | 0 |  |
+| 42 | 53 | 0 |  |
+| 43 | 89 | 0 |  |
+| 44 | 59 | 0 |  |
+| 45 | 37 | 0 |  |
+| 46 | 35 | 0 |  |
+| 47 | 38 | 0 |  |
+| 48 | 29 | 0 |  |
+| 49 | 18 | 0 |  |
+| 50 | 45 | 0 |  |
+| 51 | 60 | 0 |  |
+| 52 | 49 | 0 |  |
+| 53 | 62 | 0 |  |
+| 54 | 55 | 0 |  |
+| 55 | 78 | 0 |  |
+| 56 | 96 | 0 |  |
+| 57 | 29 | 0 |  |
+| 58 | 22 | 0 |  |
+| 59 | 24 | 0 |  |
+| 60 | 13 | 0 |  |
+| 61 | 14 | 0 |  |
+| 62 | 11 | 0 |  |
+| 63 | 11 | 0 |  |
+| 64 | 18 | 0 |  |
+| 65 | 12 | 0 |  |
+| 66 | 12 | 0 |  |
+| 67 | 30 | 0 |  |
+| 68 | 52 | 0 |  |
+| 69 | 52 | 0 |  |
+| 70 | 44 | 0 |  |
+| 71 | 28 | 0 |  |
+| 72 | 28 | 0 |  |
+| 73 | 20 | 0 |  |
+| 74 | 56 | 0 |  |
+| 75 | 40 | 0 |  |
+| 76 | 31 | 0 |  |
+| 77 | 50 | 0 |  |
+| 78 | 40 | 0 |  |
+| 79 | 46 | 0 |  |
+| 80 | 42 | 0 |  |
+| 81 | 29 | 0 |  |
+| 82 | 19 | 0 |  |
+| 83 | 36 | 0 |  |
+| 84 | 25 | 0 |  |
+| 85 | 22 | 0 |  |
+| 86 | 17 | 0 |  |
+| 87 | 19 | 0 |  |
+| 88 | 26 | 0 |  |
+| 89 | 30 | 0 |  |
+| 90 | 20 | 0 |  |
+| 91 | 15 | 0 |  |
+| 92 | 21 | 0 |  |
+| 93 | 11 | 0 |  |
+| 94 | 8 | 0 |  |
+| 95 | 8 | 0 |  |
+| 96 | 19 | 0 |  |
+| 97 | 5 | 0 |  |
+| 98 | 8 | 0 |  |
+| 99 | 8 | 0 |  |
+| 100 | 11 | 0 |  |
+| 101 | 11 | 0 |  |
+| 102 | 8 | 0 |  |
+| 103 | 3 | 0 |  |
+| 104 | 9 | 0 |  |
+| 105 | 5 | 0 |  |
+| 106 | 4 | 0 |  |
+| 107 | 7 | 0 |  |
+| 108 | 3 | 0 |  |
+| 109 | 6 | 0 |  |
+| 110 | 3 | 0 |  |
+| 111 | 5 | 0 |  |
+| 112 | 4 | 0 |  |
+| 113 | 5 | 0 |  |
+| 114 | 6 | 0 |  |
