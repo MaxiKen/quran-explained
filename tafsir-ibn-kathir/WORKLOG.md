@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–46 done (50 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–47 done (51 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -137,10 +137,11 @@ in.
 | 44:11 | Ibn Masʿūd correcting the smoke reading; the famine years | `8a84f85` |
 | 45:34 | What "We will neglect you" actually says | `719b62e` |
 | 46:29 | The jinn were troubleshooting, not seeking a prophet | `0fb0b3a` |
+| 47:23 | The sequence that produced the deafness — asking, receiving, refusing | `5c7dc9c` |
 
 ### Chapters remaining
 
-47 → 114.
+48 → 114.
 
 ### What the automation attempts produced
 
