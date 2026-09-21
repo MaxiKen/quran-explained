@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–45 done (49 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–46 done (50 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -136,10 +136,11 @@ in.
 | 43:58 | Ibn az-Zibaʿrā's devised argument, from Ibn Isḥāq's *Sīrah* | `d1a2d1e` |
 | 44:11 | Ibn Masʿūd correcting the smoke reading; the famine years | `8a84f85` |
 | 45:34 | What "We will neglect you" actually says | `719b62e` |
+| 46:29 | The jinn were troubleshooting, not seeking a prophet | `0fb0b3a` |
 
 ### Chapters remaining
 
-46 → 114.
+47 → 114.
 
 ### What the automation attempts produced
 
