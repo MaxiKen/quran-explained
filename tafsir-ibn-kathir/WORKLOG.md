@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–41 done (45 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–43 done (47 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -132,10 +132,12 @@ in.
 | 39:56 | The man who killed ninety-nine; al-Ḥasan al-Baṣrī on the open call | `f235d48` |
 | 40:43 | Qatādah vs as-Suddī on the idols; ʿĀʾishah and the grave | `4e000ae` |
 | 41:23 | The three men under the Kaʿbah covering | `75f57e2` |
+| 42:8 | The two books — names, fathers and tribes, closed to change | `69ca31f` |
+| 43:58 | Ibn az-Zibaʿrā's devised argument, from Ibn Isḥāq's *Sīrah* | `d1a2d1e` |
 
 ### Chapters remaining
 
-42 → 114.
+44 → 114.
 
 ### What the automation attempts produced
 
