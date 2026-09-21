@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–50 done** | ascending order | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–55 done** | ascending order, one hand-written insertion per chapter |
 
 ### Insertions completed
 
