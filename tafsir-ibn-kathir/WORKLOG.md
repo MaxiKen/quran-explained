@@ -78,24 +78,70 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **not started** | next step, ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–3 done** | ascending order |
 
 ### Insertions completed
 
-_None yet._
+| Verse | Evidence added | Commit |
+|---|---|---|
+| 1:4 | The silence of the Day (78:38, 20:108, 11:105) + Ad-Ḍaḥḥāk from Ibn ʿAbbās | `18613a3` |
+| 1:6 | Aṭ-Ṭabarī on *ṣirāṭ*, the poet Jarīr ibn ʿAṭiyyah, 90:10, 7:43 | `18613a3` |
+| 2:1 | "Do not turn your houses into graves" (Muslim, Aḥmad, at-Tirmidhī, an-Nasāʾī) + Ibn Masʿūd | `1f2ef71` |
+| 2:7 | As-Suddī, Qatādah, Mujāhid via Ibn Jurayj, al-Aʿmash's hand demonstration | `1f2ef71` |
+| 2:8 | *Asbāb an-nuzūl*: no hypocrites in Makkah; the pattern begins after Badr under Ibn Ubayy | `1f2ef71` |
+| 3:2 | The Greatest Name report, Asmāʾ bint Yazīd, graded ḥasan ṣaḥīḥ | `c20deb3` |
+| 3:4 | Najrān delegation, 9 AH — why the sūrah argues with Christians | `c20deb3` |
 
 ### Chapters remaining
 
-1 → 114 (all).
+4 → 114.
+
+### What the automation attempts produced
+
+Four separate automated extractors were written and **all four were rejected**.
+The last one rendered a witness account ("I saw the Messenger of Allah…") as a
+prophetic saying, and a commentator's gloss the same way. Every attempt also
+truncated quotations mid-word, because this edition places the English gloss
+inside parentheses after the Arabic, so quote boundaries cannot be found
+reliably.
+
+The yield numbers were also misleading at first. A filter requiring
+Arabic-free input matched only **64 of 6,236 verses (1.0%)**; stripping Arabic
+before matching raised that to **1,252 (20.1%)**. The low figure was the
+filter's bug, not the source's poverty.
+
+Insertion is therefore done by hand, with `ik_review.py` as a reading aid.
+
+### Real size of the remaining work
+
+Measured on non-Qur'an evidence (hadith, named scholar, or revelation history) —
+not on Qur'an cross-references, which nearly every section already carries:
+
+```
+sections with no non-Qur'an evidence : 4,940 of 6,236  (79.2%)
+largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
+                                       ch 6 (153), ch 3 (152), ch 7 (149)
+```
 
 ## 6. Verification log
 
 | Run | Command | Result |
 |---|---|---|
-| — | `scripts/editorial/integrity.py` | 6,236 sections, 0 quote mismatches |
-| — | `scripts/build_tafsir_json.py` | 6,236 verses, 19.70 MB |
-| — | `scripts/editorial/verify_quotes.py` | RESULT: PASS |
-| — | `scripts/factcheck.py` | `{'AUTH-REVIEW': 1830}` (known informational baseline) |
+| ch 1 (`18613a3`) | `integrity.py` | 6,236 sections, 0 quote mismatches |
+| ch 1 (`18613a3`) | `verify_quotes.py` | **RESULT: PASS** — 0 not-verbatim, 0 lost, 0 added, 0 Bible-given-Qur'an-quote |
+| ch 1 (`18613a3`) | `factcheck.py` | `AUTH-REVIEW: 1831`, traced to the new `Ḍaḥḥāk's report` phrase |
+| ch 2 (`1f2ef71`) | `integrity.py` / `build_tafsir_json.py` | 6,236 / 0 mismatches · 19.71 MB |
+| ch 2 (`1f2ef71`) | `factcheck.py` | `AUTH-REVIEW: 1832`, traced to `al-Aʿmash reported` |
+| ch 3 (`c20deb3`) | `integrity.py` / `build_tafsir_json.py` | 6,236 / 0 mismatches · 19.71 MB |
+| ch 3 (`c20deb3`) | `factcheck.py` | `AUTH-REVIEW: 1833`, traced to `Asmāʾ … said` |
 
-These are the results from before insertion work began. Re-run and re-record
-after every batch.
+**Note on `verify_quotes.py`.** Its check 2 is "no citation added versus the last
+commit", so a batch that deliberately adds references reports FAIL until the
+batch is committed. Re-run after committing to get the true PASS. This is the
+guard working, not a defect.
+
+**Note on `AUTH-REVIEW`.** It fires on any `<Name> <verb>` pattern, so it
+matches `the Qur'an describes` and `Lord said` as readily as a real scholar
+citation — chapter 2 alone has 64 such hits. The counter moving by one per
+insertion is expected. Always diff `/tmp/factcheck_issues.json` to confirm the
+new entry is your own sentence rather than a genuine problem.
