@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–27 done (31 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–32 done (36 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -118,10 +118,15 @@ in.
 | 25:70 | The old man asking whether every evil deed can be repented | `118d2b1` |
 | 26:224 | Kaʿb ibn Mālik asking how the poets verse applies to him | `aea9339` |
 | 27:23 | Bilqīs; the palace built to frame the sun twice daily | `9c73908` |
+| 28:52 | The seventy priests of an-Najāshī; Abū Umāmah at the Conquest | `cb482e6` |
+| 29:8 | Why dutifulness follows tawḥīd; the gathering with the righteous | `be815db` |
+| 30:4 | Abū Bakr's five-year wager, and why the verse says "three to nine" | `ad2109c` |
+| 31:14 | Three glosses on "weakness upon weakness"; the 6:82 distress | `64b856f` |
+| 32:16 | Muʿādh's question — the verse recited as one of the gates of goodness | `12605ca` |
 
 ### Chapters remaining
 
-28 → 114.
+33 → 114.
 
 ### What the automation attempts produced
 
