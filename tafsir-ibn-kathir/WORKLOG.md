@@ -78,7 +78,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–19 done (24 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–23 done (28 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -108,10 +108,14 @@ in.
 | 17:1 | The Miʿrāj: fifty prayers reduced to five, Mūsā's counsel | `47df9af` |
 | 18:1 | Al-Barāʾ on the tranquillity that descended; the ten verses against Dajjāl | `a01aa52` |
 | 19:96 | How affection reaches the ground — Ibn Abī Ḥātim's report citing this verse | `d9e436d` |
+| 20:115 | Mūsā arguing with Ādam — decree against consequence | `8c78af0` |
+| 21:96 | Yaʾjūj and Maʾjūj — the spear thrown at the sky as a trial | `ab6ec93` |
+| 22:2 | ʿImrān ibn Ḥuṣayn on how these verses landed; the 999-in-1000 report | `821afc0` |
+| 23:4 | Zakāt's chronology — Meccan principle, Madinan *nuṣub* | `8fd3be8`, fixed `8449a5a` |
 
 ### Chapters remaining
 
-20 → 114.
+24 → 114.
 
 ### What the automation attempts produced
 
@@ -167,6 +171,28 @@ Several verses share one Ibn Kathir record (e.g. 14:47 and 14:48 are byte-identi
 as are 15:94–99). **Place the evidence once**, at the verse the report actually
 concerns — not at every verse in the range. `ik_targets.py` shows identical
 `chars` columns for these; treat that as the signal.
+
+### CRITICAL: never quote Ibn Kathir's English as the verse wording
+
+Found at 23:4 and fixed in `8449a5a`. Three quotations I inserted were taken from
+**Ibn Kathir's** English (the Darussalam translation) rather than from the
+translation this app ships (`ayah_en` in `data/chapter_NNN.js`). All three read
+correctly and all three failed:
+
+| ref | what I wrote | what `ayah_en` says |
+|---|---|---|
+| 6:141 | "but pay the due thereof on the day of their harvest" | "Eat of the fruit they bear and pay the dues at harvest" |
+| 91:9 | "he succeeds who purifies himself" | "Successful indeed is the one who purifies their soul" |
+| 91:10 | "he fails who corrupts himself" | "and doomed is the one who corrupts it" |
+
+These are two translations of the same Arabic, so quoting Ibn Kathir produces
+plausible text that is **not** the wording this app ships. Ibn Kathir's own
+paraphrase of a verse is *evidence about* the verse; it is never a substitute
+for the verse.
+
+**Rule: when Ibn Kathir cites a verse, quote that verse from `ayah_en` — never
+copy his rendering.** Then run `verify_quotes.py`, which checks every wording
+against its verse and will catch this. It reported PASS after the fix.
 
 ### One editing trap worth recording
 
