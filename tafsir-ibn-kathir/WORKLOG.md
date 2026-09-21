@@ -78,7 +78,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–3 done** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–8 done** | ascending order |
 
 ### Insertions completed
 
@@ -91,10 +91,16 @@ in.
 | 2:8 | *Asbāb an-nuzūl*: no hypocrites in Makkah; the pattern begins after Badr under Ibn Ubayy | `1f2ef71` |
 | 3:2 | The Greatest Name report, Asmāʾ bint Yazīd, graded ḥasan ṣaḥīḥ | `c20deb3` |
 | 3:4 | Najrān delegation, 9 AH — why the sūrah argues with Christians | `c20deb3` |
+| 4:1 | Madinan provenance; Ibn Masʿūd's five verses he'd trade the world for | `65d128b` |
+| 4:2 | As-Suddī on the "sheep for a sheep" fraud; eleven who called it a major sin | `65d128b` |
+| 5:12 | The twelve leaders, and the twelve Anṣār at al-ʿAqabah | `0ffcfdf` |
+| 6:2 | Al-Anʿām revealed whole at night with seventy thousand angels | `519ac70` |
+| 7:2 | Mujāhid/Qatādah/as-Suddī on "do not let your breast be narrow" | `4ddba0e` |
+| 8:1 | *Asbāb*: the Badr spoils dispute, ʿUbādah via Abū Umāmah (Imām Aḥmad) | `e01f088` |
 
 ### Chapters remaining
 
-4 → 114.
+9 → 114.
 
 ### What the automation attempts produced
 
@@ -134,6 +140,11 @@ largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
 | ch 2 (`1f2ef71`) | `factcheck.py` | `AUTH-REVIEW: 1832`, traced to `al-Aʿmash reported` |
 | ch 3 (`c20deb3`) | `integrity.py` / `build_tafsir_json.py` | 6,236 / 0 mismatches · 19.71 MB |
 | ch 3 (`c20deb3`) | `factcheck.py` | `AUTH-REVIEW: 1833`, traced to `Asmāʾ … said` |
+| ch 4 (`65d128b`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.71 MB · `AUTH-REVIEW: 1835` |
+| ch 5 (`0ffcfdf`) | `integrity.py` / build | 6,236 / 0 · 19.71 MB |
+| ch 6 (`519ac70`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
+| ch 7 (`4ddba0e`) | `integrity.py` / build / `add_verse_quotes.py` | 6,236 / 0 · new 46:35 wording attached |
+| ch 8 (`e01f088`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1835` |
 
 **Note on `verify_quotes.py`.** Its check 2 is "no citation added versus the last
 commit", so a batch that deliberately adds references reports FAIL until the
