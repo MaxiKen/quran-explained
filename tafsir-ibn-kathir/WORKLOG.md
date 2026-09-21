@@ -261,3 +261,18 @@ matches `the Qur'an describes` and `Lord said` as readily as a real scholar
 citation — chapter 2 alone has 64 such hits. The counter moving by one per
 insertion is expected. Always diff `/tmp/factcheck_issues.json` to confirm the
 new entry is your own sentence rather than a genuine problem.
+
+---
+
+## 7. Pass two — full-verse integration (rules: `SECOND_PASS_RULES.md`)
+
+Pass one inserted ~1 evidence per chapter (ch 1–50 done). Pass two re-reads
+**every verse from 001 → 114** and adds whatever verse-aligned Ibn Kathir
+evidence the section still lacks, restructures each section to **≥2 headings**,
+and leaves the whole file coherent. Progress tracked here, separately from §5.
+
+### Pass-two insertions completed
+
+| Chapter | Verses touched | Evidence added | Commit |
+|---|---|---|---|
+| 1 | 1:1–1:7 + intro | Names (Tirmidhi Sahih Umm al-Qur'an, Bukhari, Ibn Jarir umm), two lights (Muslim/Nasa'i Ibn Abbas), prayer incomplete + behind-imam (Muslim Abu Hurayrah); basmalah opinions map + aloud reports (Umm Salamah, Mu'awiyah, A'ishah) + Bismillah virtues (Ahmad rider, Nasa'i Usamah, wudu Hasan, Muslim eating) + 99 Names (Two Sahihs); Jarir on hamd + Umar/Ali + Ibn Abbas + 4 hamd virtues; Rabb/Alamin map (Farra, Zayd, Qatadah, Qurtubi, 26:23-24, alamah); womb hadith (Tirmidhi Sahih) + 33:43 + Qurtubi warning/encouragement (15:49-50, 6:165, Muslim); Owner/King (59:23, king-of-kings, 2:247, 18:79, 5:20) + Yawm ad-Din (Ibn Abbas) + reckoning (37:53, wise, Umar, 69:18, Two Sahihs proclamation); kaf speech-change + Ubadah + Salaf secret + ibadah + 11:123/67:29/73:9 + Dahhak/Qatadah + objective/tool + Abd missions (18:1); firmness (4:136, 3:8) + Tabari sirat usage + 16:121/37:23 + parable chain (Ahmad/Nawwas); 4:70 + Adi bin Hatim chain (Ahmad/Tirmidhi Hasan Gharib) + 5:60 + Zayd bin Amr + surah summary. Fixed 2 pre-existing non-verbatim quotes (40:16, 6:153). 3 headings × 7 verses. | `50d7e2a` |
