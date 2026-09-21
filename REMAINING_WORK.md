@@ -141,7 +141,8 @@ zero references to fill) and the verifier fails the build if any quote is not ve
 own verse, any citation moved, or any Bible citation was touched.
 
 Current metrics: **6,236 sections · 0 quote mismatches · 23,844 wordings verified against their
-verse · 17 of 53 Bible citations quoted · 0 suspect parentheticals · payload ≈19.71 MB.**
+verse · 32 of 53 Bible citations quoted (18 passages still to fetch) · 0 suspect
+parentheticals · payload ≈19.71 MB.**
 (The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 
