@@ -307,6 +307,18 @@ def pick_phrase(tr, surah, start, end, context, wide_context=None, limit=170):
     return clauses(whole, limit)[0], 0.0
 
 
+def strip_own_marks(q):
+    """The wrapper supplies the quotation marks; a verse that opens or closes
+    with them would otherwise give *““…””*.  norm() ignores quote characters,
+    so this cannot change how a wording is verified."""
+    q = q.strip()
+    if q.startswith("“"):
+        q = q[1:].lstrip()
+    if q.endswith("”"):
+        q = q[:-1].rstrip()
+    return q
+
+
 def clean_quote(q):
     """Make a snippet safe to sit inside `*"…"*` markdown."""
     q = q.strip()
@@ -320,4 +332,4 @@ def clean_quote(q):
     if q.startswith("˺"):
         q = q.lstrip("˺").lstrip()
     q = re.sub(r'([.!?])["”]{2,}$', r'\1”', q)   # no doubled closing marks
-    return q
+    return strip_own_marks(q)

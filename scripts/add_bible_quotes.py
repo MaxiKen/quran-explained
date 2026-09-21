@@ -20,7 +20,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from verse_quotes import CORPUS, clean_quote, norm, pick_phrase  # noqa: E402
+from verse_quotes import (  # noqa: E402
+    CORPUS, clean_quote, load_translation, norm, pick_phrase,
+)
 
 BOOKS = (r"Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|"
          r"Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Isaiah|"
@@ -38,6 +40,9 @@ PRE_QUOTED = re.compile(r"[”\"’]\*{0,2}\s*[–—-]?\s*$")
 ALREADY = re.compile(r"^\s*[’']?\s*(?:—|–)\s*\*“")
 
 
+QURAN = ()
+
+
 class Report:
     def __init__(self):
         self.filled = self.skipped = self.no_text = self.whole = 0
@@ -52,6 +57,39 @@ class Report:
         for k in sorted(set(self.missing)):
             print(f"    missing: {k}")
         print(f"applied: {applied}")
+
+
+STOP = {"the","a","an","of","to","and","in","is","are","was","were","that","this","it",
+        "for","on","with","be","he","she","they","i","you","his","her","their","my","your",
+        "not","but","as","at","by","from","we","us","them","him","all","who","what","will"}
+
+
+def content_words(text):
+    return {w for w in norm(text).split() if w.isalpha() and len(w) > 2} - STOP
+
+
+def quran_index(tr):
+    """Every ayah wording, as content words, for telling a Qur'an quote from a Bible one."""
+    return [content_words(v) for surah in tr.values() for v in surah.values()]
+
+
+def overlap(q, words):
+    """Fraction of the quote's own content words the candidate also has."""
+    if not q:
+        return 0.0
+    return len(q & words) / len(q)
+
+
+def is_bible_wording(q, verse):
+    """True when the wording ahead of the parenthetical already IS this passage.
+
+    Substring matching is not enough: the corpus also writes Qur'an verses by
+    hand in its own words (“We drowned Pharaoh and his hosts”), and those must
+    not be mistaken for the Bible passage and left without one.
+    """
+    best_q = max((overlap(q, ayah) for ayah in QURAN), default=0.0)
+    best_b = overlap(q, content_words(verse)) if verse else 0.0
+    return best_b >= best_q and best_b > 0.5
 
 
 def key_of(book, chap, a, b):
@@ -89,11 +127,17 @@ def process(text, data, tr, report, preview=0):
         # the wording ahead of the parenthetical really is this passage.
         head = text[max(0, st - 320):st] if st != -1 else ""
         prior = PRE_QUOTED.search(head)
-        if prior and verse:
+        if prior:
             said = re.findall(r"\*?“([^”]{8,})”\*?", head)
-            if said and norm(said[-1]).strip() in norm(verse):
-                report.skipped += 1
-                continue
+            if said:
+                q = content_words(said[-1])
+                # The wording ahead of the parenthetical is either this Bible
+                # passage in another translation, or a Qur'an verse the sentence
+                # happens to quote on the way to the Bible citation. Only the
+                # second still needs the passage inserted.
+                if q and is_bible_wording(q, verse):
+                    report.skipped += 1
+                    continue
         after = text[m.end():m.end() + 6]
         if ALREADY.match(after):
             report.skipped += 1
@@ -121,6 +165,12 @@ def process(text, data, tr, report, preview=0):
             if len(cand) > len(q) and len(cand) <= 300:
                 q = cand
                 sc = 0
+        # the wrapper supplies the quotation marks; a passage that already
+        # opens or closes with them would give *“…””*
+        if q.startswith("“"):
+            q = q[1:].lstrip()
+        if q.endswith("”"):
+            q = q[:-1].rstrip()
         edits.append((m.end(), f' — *“{q}”*'))
         report.filled += 1
         if sc == 0:
@@ -146,6 +196,8 @@ def main():
     data = json.loads((CORPUS.parent / "data" / "bible_web.json")
                       .read_text(encoding="utf-8"))
     tr = pseudo_translation(data)
+    global QURAN
+    QURAN = quran_index(load_translation())
     report = Report()
     changed = 0
     for ch in ([args.chapter] if args.chapter else range(1, 115)):

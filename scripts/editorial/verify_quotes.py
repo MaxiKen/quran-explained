@@ -122,6 +122,23 @@ def attributions(text):
         yield tuple(dict.fromkeys(toks)), qm.group(1)
 
 
+def bible_markers(text):
+    """Count of wordings that belong to a Bible citation.
+
+    They are checked against the Bible passage rather than a surah, so they
+    must not be counted as unaccounted. A citation may be parenthetical
+    ("(Genesis 1:1–5 — *“…”*)") or in running prose ("Deuteronomy 14:1 — *“…”*"),
+    so both the enclosing parenthetical and the text just ahead are checked.
+    """
+    n = 0
+    for m in re.finditer(re.escape(MARKER), text):
+        inner = enclosing_paren(text, m.start())
+        if (inner and BOOK_REF.search(inner)) or \
+                BOOK_REF.search(text[max(0, m.start() - 60):m.start()]):
+            n += 1
+    return n
+
+
 def verse_text(tr, tok):
     s, a, b = parse(tok)
     if s not in tr:
@@ -199,8 +216,10 @@ def main():
             if not any(said in src for src in BIBLE_NORM):
                 bible.append((ch, m.group(0)))
 
-        total += new.count(MARKER)
-        old_total += old.count(MARKER)
+        # a wording inside a Bible parenthetical is checked against the Bible
+        # passage, not against a surah, so it is not "unaccounted" here
+        total += new.count(MARKER) - bible_markers(new)
+        old_total += old.count(MARKER) - bible_markers(old)
         ob, om, osig, _ = audit(old, tr, ch)
         old_matched += om
         old_sigs |= {(tuple(ts), norm(q)) for ts, q in attributions(old)}
