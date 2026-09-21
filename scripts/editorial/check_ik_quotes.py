@@ -59,20 +59,28 @@ def pre_existing_quotes():
     """(ch, verse, quote) triples already non-verbatim at the baseline commit."""
     import subprocess
     out = set()
-    try:
-        # -z: the directory is "markdown commentry" - it contains a SPACE, so
-        # whitespace-splitting ls-tree output breaks every path in half and the
-        # baseline silently comes back empty. NUL-separate instead.
-        raw = subprocess.run(
-            ["git", "ls-tree", "-r", "-z", "--name-only", BASELINE,
+    # -z: the directory is "markdown commentry" - it contains a SPACE, so
+    # whitespace-splitting ls-tree output breaks every path in half and the
+    # baseline silently comes back empty. NUL-separate instead.
+    # If the baseline commit is not present in this history (e.g. a squashed
+    # clone), an empty baseline set would make every pre-existing defect fail
+    # the check forever. Fall back to HEAD - the same last-commit semantics
+    # verify_quotes.py already uses - and say so.
+    ref, raw = BASELINE, None
+    for cand in (BASELINE, "HEAD"):
+        r = subprocess.run(
+            ["git", "ls-tree", "-r", "-z", "--name-only", cand,
              "markdown commentry"],
-            capture_output=True, text=True, cwd=ROOT).stdout
-        names = [n for n in raw.split("\0") if n]
-    except Exception:
-        return out
+            capture_output=True, text=True, cwd=ROOT)
+        if r.returncode == 0:
+            ref, raw = cand, r.stdout
+            break
+    if ref == "HEAD":
+        print(f"note: baseline {BASELINE} not in this history; using HEAD")
+    names = [n for n in raw.split("\0") if n] if raw is not None else []
     for name in names:
         try:
-            text = subprocess.run(["git", "show", f"{BASELINE}:{name}"],
+            text = subprocess.run(["git", "show", f"{ref}:{name}"],
                                   capture_output=True, text=True, cwd=ROOT).stdout
         except Exception:
             continue
