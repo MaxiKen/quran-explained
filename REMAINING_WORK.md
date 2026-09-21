@@ -94,12 +94,15 @@ Third pass — self-references and Bible citations:
   pieces against the surrounding commentary. 50 of the 949 needed the whole verse because the
   verse is itself short. `--full-self` switches back to the sentence-level picker.
 - **Bible citations are handled by `scripts/add_bible_quotes.py`**, reading
-  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). **17 of the 53
-  citations now carry their verse; 36 passages still need their text** — the tool prints them by
-  name (`missing: Genesis 41:8` …) and leaves those citations untouched. Add the entry to the
-  JSON and re-run; nothing else has to change. There is no network in the sandbox, so each
-  passage has to be fetched with the `fetch_page` tool, one reference per call — batching with
-  commas returns `not found`.
+  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). **All 53
+  citations now carry their verse — 51 passages on disk, and the tool reports 0 with no text.**
+  To add one later: put the entry in the JSON and re-run; nothing else has to change.
+  There is no network in the sandbox, so each passage has to be fetched with the `fetch_page`
+  tool — **type the literal `https://bible-api.com/Genesis%2042:6-42:8` URL**, one reference per
+  call (comma batches return `not found`). Ranges do work, with the chapter repeated on both
+  ends. Never hand-construct the OSS proxy URL that appears in the echoed `url` field: it is
+  always signed for a different request and returns `SignatureDoesNotMatch`. Two parallel
+  literal calls are reliable; four or more fail.
   A citation that already quotes its passage in another translation is detected by content-word
   overlap against both the Bible passage and every ayah, and skipped. Substring matching is not
   enough here: the corpus also writes Qur'an verses by hand in its own words, and
@@ -141,8 +144,8 @@ zero references to fill) and the verifier fails the build if any quote is not ve
 own verse, any citation moved, or any Bible citation was touched.
 
 Current metrics: **6,236 sections · 0 quote mismatches · 23,844 wordings verified against their
-verse · 32 of 53 Bible citations quoted (18 passages still to fetch) · 0 suspect
-parentheticals · payload ≈19.71 MB.**
+verse · all 53 Bible citations quoted (51 passages in `data/bible_web.json`, `add_bible_quotes.py`
+reports 0 with no text) · 0 suspect parentheticals · payload ≈19.71 MB.**
 (The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 
