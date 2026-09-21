@@ -33,7 +33,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from verse_quotes import (
-    pick_phrase,BOOK_REF, CORPUS, clean_quote, expand_abbrev,
+    pick_phrase, BOOK_REF, CORPUS, clean_quote, expand_abbrev,
                           expand_end,
                           load_translation, norm, pick_quote)
 
