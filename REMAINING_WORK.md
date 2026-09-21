@@ -67,15 +67,37 @@ before a narrow pick is trusted, whole verse only as a last resort). Three shape
     (4:94 gives the rule)           → (4:94 gives the rule — *“…verify it…”*)
     …the command at 7:31            → …the command at 7:31 — *“…”*
 
-Result: **21,764 references given wording**, on top of the 10,449 that already carried one.
-Median quote is 117 characters, the longest 479. Deliberately left alone:
+Result: **22,895 references given wording** (21,764 in the first pass, 1,131 in the second), on top
+of the 10,449 that already carried one. Median quote is 117 characters, the longest 479.
 
-- **1,046 references to the verse being commented on** — its wording is in the blockquote three
-  lines above. Pass `--include-self` if that is ever wanted.
-- **51 Bible citations** (`Mark 12:29`, `Genesis 1:1`, `John 20:17` …). These look exactly like
+The second pass closed three shapes the first one left bare:
+
+- **Parentheticals that are sentences holding several references** —
+  `(3:71 gives the command again, and 3:187 recalls the covenant)`. Each reference gets its own
+  wording beside it, after the possessive when there is one, so `(2:64's renewals, 2:160's
+  openings)` cannot be read as one verse saying both.
+- **Multi-reference parentheticals behind one house-style quote** — `*“…”* (2:86; 3:77)` covered
+  2:86 only. The rest are filled.
+- **Abbreviated verse lists** — `(5:17, 18, 40)` meant 5:17, 5:18 and 5:40 but only the first
+  could carry wording. They are now written out in full.
+
+Rule this established: **a parenthetical with more than one reference always gets one wording per
+reference, each beside its own.** Appending a single quote at the end put 3:130's wording where it
+read as 5:90's.
+
+Deliberately left alone:
+
+- **The 100 remaining bare parenthetical references, and ~880 in-prose ones, all point at the
+  verse being commented on** — its wording is in the blockquote three lines above. Pass
+  `--include-self` if that is ever wanted.
+- **49 Bible citations** (`Mark 12:29`, `Genesis 1:1`, `John 20:17` …). These look exactly like
   Qur'an references and several point at verses that exist, so they are matched by book name and
   skipped. Never remove that guard.
-- **479 parentheticals too tangled to touch** — long asides holding two or more references.
+
+**Separate finding, not fixed:** 17 wordings the corpus already had before this work do not match
+the verse they are attached to — e.g. `(2:269, 3:74 in the tradition's citation — *“Allah grants
+wisdom to whoever He wills.”*)`, where the wording is 2:269's. `verify_quotes.py` lists them;
+`factcheck.py`'s fuzzy QUOTE-MATCH tolerates them. Worth a look, but it is older work.
 
 Two bad citations were corrected while scanning: `6:176` → `3:176` (25:193 quotes 3:176's
 wording; Sūrah 6 has 165 verses) and `27:99` → `15:99` (27:1064, "serve this Lord until
