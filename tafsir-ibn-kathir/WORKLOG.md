@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–47 done (51 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–48 done (52 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -138,10 +138,11 @@ in.
 | 45:34 | What "We will neglect you" actually says | `719b62e` |
 | 46:29 | The jinn were troubleshooting, not seeking a prophet | `0fb0b3a` |
 | 47:23 | The sequence that produced the deafness — asking, receiving, refusing | `5c7dc9c` |
+| 48:26 | The pride of ignorance was two phrases in a contract | `6184d66` |
 
 ### Chapters remaining
 
-48 → 114.
+49 → 114.
 
 ### What the automation attempts produced
 
