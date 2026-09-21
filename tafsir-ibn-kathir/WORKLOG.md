@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–48 done (52 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–50 done** | ascending order | ascending order |
 
 ### Insertions completed
 
@@ -142,7 +142,7 @@ in.
 
 ### Chapters remaining
 
-49 → 114.
+51 → 114.
 
 ### What the automation attempts produced
 
