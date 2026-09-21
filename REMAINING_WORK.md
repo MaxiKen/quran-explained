@@ -85,30 +85,49 @@ Rule this established: **a parenthetical with more than one reference always get
 reference, each beside its own.** Appending a single quote at the end put 3:130's wording where it
 read as 5:90's.
 
-Deliberately left alone:
+Third pass — self-references and Bible citations:
 
-- **The 100 remaining bare parenthetical references, and ~880 in-prose ones, all point at the
-  verse being commented on** — its wording is in the blockquote three lines above. Pass
-  `--include-self` if that is ever wanted.
-- **49 Bible citations** (`Mark 12:29`, `Genesis 1:1`, `John 20:17` …). These look exactly like
-  Qur'an references and several point at verses that exist, so they are matched by book name and
-  skipped. Never remove that guard.
+- **Self-references are now quoted too: 949 more.** A self-reference points at the verse the
+  commentary is already sitting on, so its whole wording is in the blockquote three lines above.
+  They therefore get only the *clause* under discussion, not a sentence: `pick_phrase()` in
+  `scripts/verse_quotes.py` splits the verse on sentence and clause boundaries and scores the
+  pieces against the surrounding commentary. 50 of the 949 needed the whole verse because the
+  verse is itself short. `--full-self` switches back to the sentence-level picker.
+- **Bible citations are handled by `scripts/add_bible_quotes.py`**, reading
+  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). 13 of the 53
+  citations now carry their verse. The tool lists the 40 passages it has no text for and leaves
+  those citations untouched — add the missing entries to the JSON and re-run to finish the job.
+  Adding a passage is the only step; nothing else needs to change.
 
-**Separate finding, not fixed:** 17 wordings the corpus already had before this work do not match
-the verse they are attached to — e.g. `(2:269, 3:74 in the tradition's citation — *“Allah grants
-wisdom to whoever He wills.”*)`, where the wording is 2:269's. `verify_quotes.py` lists them;
-`factcheck.py`'s fuzzy QUOTE-MATCH tolerates them. Worth a look, but it is older work.
+The Bible guard in `add_verse_quotes.py` protects a whole parenthetical, not just the
+`Book c:v` span: `(Judges 6:21; 13:20)` has a bare `13:20` that is Judges, not a surah, and
+an earlier version of the guard gave it Qur'an wording. Two such corruptions were reverted.
+Never narrow that guard again.
+
+**Retracted finding.** An earlier pass reported "17 wordings the corpus already had do not match
+the verse they are attached to". That was wrong, and no reference was removed. All 17 were bugs
+in `verify_quotes.py`, which credited each wording to the *nearest preceding* reference — in a
+multi-reference parenthetical that is the last one, while the house style puts a single trailing
+quote after the whole list, usually explaining the first. Sixteen of the 17 matched another
+reference in their own parenthetical; the seventeenth (`007.md`, 14:34) failed only because
+`norm()` turns a closing full stop into a trailing space. Three further artifacts were found
+while confirming this: wording belonging to a hadith cited to its own collector, a parenthetical
+window that reached back across a sentence break, and a wording that introduces the reference
+*following* it. The verifier now handles all four cases and reports **0 mismatches over 23,844
+wordings**. Do not trust a mismatch report from this tool until it has been checked against
+every reference in the same parenthetical.
 
 Two bad citations were corrected while scanning: `6:176` → `3:176` (25:193 quotes 3:176's
 wording; Sūrah 6 has 165 verses) and `27:99` → `15:99` (27:1064, "serve this Lord until
 certainty comes"; Sūrah 27 has 93 verses).
 
 Re-run order is always: `scripts/add_verse_quotes.py --apply` → `scripts/build_tafsir_json.py`
-→ `scripts/editorial/verify_quotes.py`. The inserter is idempotent (a second `--apply` reports
+→ `scripts/add_bible_quotes.py --apply` → `scripts/editorial/verify_quotes.py`. The inserters are idempotent (a second `--apply` reports
 zero references to fill) and the verifier fails the build if any quote is not verbatim in its
 own verse, any citation moved, or any Bible citation was touched.
 
-Current metrics: **6,236 sections · 0 quote mismatches · 0 suspect parentheticals · payload ≈19.46 MB.**
+Current metrics: **6,236 sections · 0 quote mismatches · 24,116 references carrying verse wording ·
+0 suspect parentheticals · payload ≈19.72 MB.**
 (The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 

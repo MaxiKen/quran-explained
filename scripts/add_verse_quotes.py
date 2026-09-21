@@ -32,7 +32,8 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from verse_quotes import (BOOK_REF, CORPUS, clean_quote, expand_abbrev,
+from verse_quotes import (
+    pick_phrase,BOOK_REF, CORPUS, clean_quote, expand_abbrev,
                           expand_end,
                           load_translation, norm, pick_quote)
 
@@ -160,12 +161,17 @@ def fill_tangled(text, m, tr, cur, include_self, report, fmt="inside",
         if skip_first and first:
             first = False
             continue
-        if not include_self and cur and s == cur[0] and a <= cur[1] <= (b or a):
+        self_ref = bool(cur and s == cur[0] and a <= cur[1] <= (b or a))
+        if self_ref:
             report.self_ref += 1
-            continue
         # the clause after the reference says what that reference is doing here
         clause = re.split(r"[,;()\n]", rest[pm.end() if pm else 0:])[0]
-        q, sc, _, _ = pick_quote(tr, s, a, b, f"{tight} {clause}", wide)
+        if self_ref:
+            # the whole verse is already on screen above the commentary, so only
+            # the phrase actually under discussion is worth repeating
+            q, sc = pick_phrase(tr, s, a, b, f"{tight} {clause}", wide)
+        else:
+            q, sc, _, _ = pick_quote(tr, s, a, b, f"{tight} {clause}", wide)
         q = clean_quote(q or "")
         if not q or (norm(q)[:40] and norm(q)[:40] in norm(tight)):
             continue
@@ -182,7 +188,14 @@ def fill_tangled(text, m, tr, cur, include_self, report, fmt="inside",
 def process(text, tr, fmt, include_self, include_naked, report, preview=0):
     edits = []
     off_limits = []
+    # A parenthetical that names a Bible book is off-limits in its entirety:
+    # "(Judges 6:21; 13:20)" — the trailing 13:20 is Judges too, not a surah.
     for m in BOOK_REF.finditer(text):
+        st = text.rfind("(", 0, m.start())
+        en = text.find(")", m.end())
+        if st != -1 and en != -1:
+            off_limits.append((st, en + 1))
+            continue
         s = m.group(0)
         off_limits.append((m.end() - len(s.split()[-1]), m.end()))
     line_starts, o = [], 0
@@ -264,11 +277,13 @@ def process(text, tr, fmt, include_self, include_naked, report, preview=0):
                 report.invalid += 1
                 parts.append((tok, None))
                 continue
-            if not include_self and cur and s == cur[0] and a <= cur[1] <= (b or a):
+            self_ref = bool(cur and s == cur[0] and a <= cur[1] <= (b or a))
+            if self_ref:
                 report.self_ref += 1
-                parts.append((tok, None))
-                continue
-            q, sc, _, _ = pick_quote(tr, s, a, b, tight, wide)
+            if self_ref:
+                q, sc = pick_phrase(tr, s, a, b, tight, wide)
+            else:
+                q, sc, _, _ = pick_quote(tr, s, a, b, tight, wide)
             q = clean_quote(q or "")
             if not q:
                 parts.append((tok, None))
@@ -321,10 +336,13 @@ def process(text, tr, fmt, include_self, include_naked, report, preview=0):
                 report.invalid += 1
                 continue
             cur = cur_verse(m.start())
-            if not include_self and cur and s == cur[0] and a <= cur[1] <= (b or a):
+            self_ref = bool(cur and s == cur[0] and a <= cur[1] <= (b or a))
+            if self_ref:
                 report.self_ref += 1
-                continue
-            q, sc, _, _ = pick_quote(tr, s, a, b, tight, wide)
+            if self_ref:
+                q, sc = pick_phrase(tr, s, a, b, tight, wide)
+            else:
+                q, sc, _, _ = pick_quote(tr, s, a, b, tight, wide)
             q = clean_quote(q or "")
             if not q or (norm(q)[:40] and norm(q)[:40] in norm(tight)):
                 continue
@@ -352,7 +370,7 @@ def main():
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--preview", type=int, default=0)
     ap.add_argument("--format", choices=["inside", "before"], default="inside")
-    ap.add_argument("--include-self", action="store_true")
+    ap.add_argument("--full-self", action="store_true")
     ap.add_argument("--no-prose-refs", action="store_true",
                     help="only touch parenthetical citations")
     ap.add_argument("--chapter", type=int, default=0)
@@ -364,7 +382,7 @@ def main():
     for ch in ([args.chapter] if args.chapter else range(1, 115)):
         path = CORPUS / f"{ch:03d}.md"
         src = path.read_text(encoding="utf-8")
-        new, show = process(src, tr, args.format, args.include_self,
+        new, show = process(src, tr, args.format, args.full_self,
                             not args.no_prose_refs, rep, args.preview)
         for ctx, r in show:
             print(f"\n--- {ch:03d} ---\n  …{ctx}\n  → {r}")

@@ -11,6 +11,7 @@ Check what add_verse_quotes.py wrote.
 """
 import collections
 import pathlib
+import json
 import re
 import subprocess
 import sys
@@ -23,9 +24,14 @@ from verse_quotes import (BOOK_REF, CORPUS, expand_abbrev,  # noqa: E402
 TOKEN = r"\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?"
 ALL_TOK = re.compile(TOKEN)
 ONE_TOK = re.compile(TOKEN)
+PAREN = re.compile(r"\(([^()]*)\)")
 MARKER = "— *“"
 # a wording, wherever it sits
 QUOTE = re.compile(r"— \*“(.*?)”\*", re.S)
+BIBLE_Q = re.compile(r"\s*—\s*\*“(.*?)”\*", re.S)
+# the Bible passages this project is allowed to quote beside a Bible citation
+_BIBLE = json.loads((CORPUS.parent / "data" / "bible_web.json").read_text(encoding="utf-8"))
+BIBLE_NORM = [norm(v) for k, v in _BIBLE.items() if not k.startswith("_")]
 # the corpus's own older style puts the reference *after* the wording:
 #   … a sufficiency — *“And Allah ˹alone˺ is sufficient as a Witness.”* (4:166)
 # factcheck.py already validates those; they are not this tool's business
@@ -52,24 +58,68 @@ def parse(tok):
     return int(a), x, (expand_end(x, int(m.group(2))) if m.group(2) else None)
 
 
+def enclosing_paren(text, pos):
+    """The parenthetical that really contains `pos`, matched by depth — not the
+    last `(` anywhere before it, which may have closed a sentence earlier."""
+    st = text.rfind("(", 0, pos)
+    if st == -1:
+        return None
+    depth, i = 0, st
+    while i < len(text):
+        c = text[i]
+        if c == "(":
+            depth += 1
+        elif c == ")":
+            depth -= 1
+            if depth == 0:
+                return text[st + 1:i] if st < pos < i else None
+        i += 1
+    return None
+
+
+# a wording cited to a hadith collector is not a claim about a Qur'an verse
+HADITH = re.compile(r"\s*\((?:al-|Musnad\s|Ṣaḥīḥ\s)?(?:Tirmidhī|Bukhārī|Muslim|Aḥmad|"
+                    r"Ibn\s+Mājah|Abū\s+Dāwūd|Nasāʾī|Ḥākim|Bayhaqī|Dārimī)", re.I)
+SENT_END = re.compile(r"[.!?”]\s")
+
+
 def attributions(text):
     """
-    Every (reference, wording) pair, the wording credited to the reference it
-    actually follows — `(3:20; see also 2:112 — *“…”*)` belongs to 2:112.
-    A wording with no reference ahead of it in the same parenthetical is the
-    corpus's own hand-written prose and is left out.
+    Every (references, wording) pair. A wording sitting inside a parenthetical
+    may belong to any reference in that parenthetical — the house style puts one
+    trailing quote after a list, and it usually explains the first of them — so
+    the whole list is returned and the wording counts as verified if it matches
+    any member. Wordings in running prose are credited to the nearest reference
+    ahead of them in the same sentence, and are dropped when they belong to a
+    hadith or when a sentence break separates them from that reference.
     """
     for qm in QUOTE.finditer(text):
         if REF_AFTER.match(text, qm.end()):
             continue          # reference follows the wording: hand-written style
-        pre = text[:qm.start()]
-        toks = list(ONE_TOK.finditer(pre))
-        if not toks:
+        if HADITH.match(text, qm.end()):
+            continue          # hadith, cited to its own collector
+        # anything near a named Bible book belongs to that book, not to a surah:
+        # in "(Exodus 32:27 — *“…”*)" the 32:27 is Exodus, not surah 32
+        if BOOK_REF.search(text[max(0, qm.start() - 70):qm.end() + 90]):
             continue
-        last = toks[-1]
-        if ")" in pre[last.end():]:
-            continue          # that reference closed its parenthetical already
-        yield last.group(0), qm.group(1)
+        inner = enclosing_paren(text, qm.start())
+        # a Bible parenthetical: "Exodus 32:27" is not surah 32 verse 27
+        if inner and BOOK_REF.search(inner):
+            continue
+        toks = [m.group(0) for m in ONE_TOK.finditer(inner)] if inner else []
+        if not toks:            # wording in running prose, e.g. "at 7:31 — *“…”*"
+            pre = text[:qm.start()]
+            cand = list(ONE_TOK.finditer(pre))
+            if not cand or SENT_END.search(pre[cand[-1].end():]):
+                continue
+            toks = [cand[-1].group(0)]
+            # the house style also lets a wording introduce the reference that
+            # follows it: — *“the warner's question…”* — and the answer (43:23–24)
+            tail = text[qm.end():]
+            cut = SENT_END.search(tail)
+            for pm in PAREN.finditer(tail[:cut.start()] if cut else tail):
+                toks += [m.group(0) for m in ONE_TOK.finditer(pm.group(1))]
+        yield tuple(dict.fromkeys(toks)), qm.group(1)
 
 
 def verse_text(tr, tok):
@@ -83,15 +133,25 @@ def audit(text, tr, ch, inherited_sigs=()):
     """inherited_sigs: wordings HEAD already had, in the corpus's own looser
     style — reported separately, never as a failure of this change."""
     bad, matched, lens, old_bad = [], 0, [], []
-    for tok, raw in attributions(text):
+    for toks, raw in attributions(text):
         matched += 1
         quote = re.sub(r"\s+", " ", raw).strip()
         lens.append(len(quote))
-        src = verse_text(tr, tok)
-        if src is not None and norm(quote) in src:
+        # norm() maps punctuation to spaces, so a closing full stop in the
+        # commentary leaves a trailing space behind — drop it before comparing
+        q = norm(re.sub(r"[.,;:!?”\"']+$", "", quote.strip())).strip()
+        hit = None
+        for tok in toks:
+            src = verse_text(tr, tok)
+            if src is not None and q and q in src.strip():
+                hit = tok
+                break
+        if hit:
             continue
-        item = (ch, tok, quote[:90] if src else "no such surah")
-        if (tok, norm(raw)) in inherited_sigs:
+        tok = toks[-1]
+        src = verse_text(tr, tok)
+        item = (ch, " + ".join(toks), quote[:90] if src else "no such surah")
+        if (toks, norm(raw)) in inherited_sigs:
             old_bad.append(item)
         else:
             bad.append(item)
@@ -129,15 +189,21 @@ def main():
                     ch == c and tok == nn for c, _, nn in INTENTIONAL):
                 gained.append((ch, tok, oldc[tok], n))
 
+        # a wording next to a Bible citation must be that Bible passage, not a
+        # Qur'an verse — the shape of the two citations is identical
         for m in BOOK_REF.finditer(new):
-            if MARKER in new[m.end():m.end() + 8]:
+            qm = BIBLE_Q.match(new, m.end())
+            if not qm:
+                continue
+            said = norm(qm.group(1)).strip()
+            if not any(said in src for src in BIBLE_NORM):
                 bible.append((ch, m.group(0)))
 
         total += new.count(MARKER)
         old_total += old.count(MARKER)
         ob, om, osig, _ = audit(old, tr, ch)
         old_matched += om
-        old_sigs |= {(t_, norm(q)) for t_, q in attributions(old)}
+        old_sigs |= {(tuple(ts), norm(q)) for ts, q in attributions(old)}
         b, mt, ln, _ = audit(new, tr, ch, old_sigs)
         bad_quote += b
         inherited_bad += ob

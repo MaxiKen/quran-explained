@@ -252,6 +252,61 @@ def expand_end(a, b):
     return int(s[: len(s) - len(u)] + u)
 
 
+_CLAUSE_SPLIT = re.compile(r"(?<=[.?!”;])\s+|(?<=\w),(?=\s+(?:and|but|or|so|for|yet|then|that|who|when|which)\b)")
+
+
+def clauses(verse, limit=170):
+    """Phrase-level pieces of a verse, for quoting a part rather than the whole."""
+    verse = verse.strip()
+    if len(verse) <= limit:
+        return [verse]
+    parts = []
+    for sent in sentences(verse):
+        if len(sent) <= limit:
+            parts.append(sent)
+        else:
+            bits = [b.strip() for b in _CLAUSE_SPLIT.split(sent) if b.strip()]
+            parts.extend(bits or [sent])
+    return parts
+
+
+def pick_phrase(tr, surah, start, end, context, wide_context=None, limit=170):
+    """Like pick_quote, but narrows to a clause — used when the verse itself is
+    already on screen above the commentary, so only the phrase matters."""
+    verses = tr.get(surah, {})
+    if not verses:
+        return None, 0.0
+    run = list(range(start, min(end or start, start + MAX_SPAN) + 1))
+    cands = []
+    for a in run:
+        if a in verses:
+            cands.extend(clauses(verses[a], limit))
+    if not cands:
+        return None, 0.0
+    for ctx in (context, wide_context):
+        if not ctx:
+            continue
+        qw = set(words(ctx)[-70:])
+        scored = []
+        for text in cands:
+            sw = set(words(text))
+            n = len(qw & sw)
+            if n < 1 or len(text) > limit:
+                continue
+            scored.append((n / len(sw), n, -len(text), text))
+        strong = [x for x in scored if x[1] >= 2]
+        if strong:
+            strong.sort(key=lambda x: (-x[0], -x[2]))
+            return strong[0][3], strong[0][0]
+        if scored:
+            scored.sort(key=lambda x: (-x[0], -x[2]))
+            return scored[0][3], scored[0][0]
+    whole = verses.get(start, "")
+    if len(whole) <= limit:
+        return whole, 0.0
+    return clauses(whole, limit)[0], 0.0
+
+
 def clean_quote(q):
     """Make a snippet safe to sit inside `*"…"*` markdown."""
     q = q.strip()
