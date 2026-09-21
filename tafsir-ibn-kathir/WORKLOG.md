@@ -78,7 +78,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–8 done** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–12 done (17 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -97,10 +97,14 @@ in.
 | 6:2 | Al-Anʿām revealed whole at night with seventy thousand angels | `519ac70` |
 | 7:2 | Mujāhid/Qatādah/as-Suddī on "do not let your breast be narrow" | `4ddba0e` |
 | 8:1 | *Asbāb*: the Badr spoils dispute, ʿUbādah via Abū Umāmah (Imām Aḥmad) | `e01f088` |
+| 9:2 | Post-Tabūk proclamation; Abū Bakr then ʿAlī sent; the missing *basmalah* | `746af56` |
+| 10:2 | Aḍ-Ḍaḥḥāk from Ibn ʿAbbās on the objection to a human messenger; three readings of "rewards" | `f6dc8c7` |
+| 11:1 | At-Tirmidhī: Hūd and its sisters turned the Prophet's ﷺ hair gray | `e306727` |
+| 12:3 | Why a story was asked for; ʿUmar reading a borrowed book (Imām Aḥmad) | `301641a` |
 
 ### Chapters remaining
 
-9 → 114.
+13 → 114.
 
 ### What the automation attempts produced
 
@@ -145,6 +149,16 @@ largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
 | ch 6 (`519ac70`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
 | ch 7 (`4ddba0e`) | `integrity.py` / build / `add_verse_quotes.py` | 6,236 / 0 · new 46:35 wording attached |
 | ch 8 (`e01f088`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1835` |
+| ch 9 (`746af56`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
+| ch 10 (`f6dc8c7`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1837` |
+| ch 11 (`e306727`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
+| ch 12 (`301641a`) | `integrity.py` / build | 6,236 / 0 · 19.73 MB |
+
+### One editing trap worth recording
+
+`markdown commentry/` uses **straight** quotes (`"`), not curly ones. An
+`edit_file` whose `old_text` used curly quotes silently failed to match. Always
+`repr()` the target span before editing.
 
 **Note on `verify_quotes.py`.** Its check 2 is "no citation added versus the last
 commit", so a batch that deliberately adds references reports FAIL until the
