@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–50 done** | ascending order | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–51 done** | ascending order |
 
 ### Insertions completed
 
@@ -139,10 +139,20 @@ in.
 | 46:29 | The jinn were troubleshooting, not seeking a prophet | `0fb0b3a` |
 | 47:23 | The sequence that produced the deafness — asking, receiving, refusing | `5c7dc9c` |
 | 48:26 | The pride of ignorance was two phrases in a contract | `6184d66` |
+| 51:17 | Ibn ʿAbbās and Mujāhid on the measure of "little sleep" | `e39fa0c` |
+| 51:29 | Eight named readers on Sarah's cry; Ibn ʿAbbās on the face-strike | `e39fa0c` |
+| 51:41 | Sābaʿ/Dabūr wind report (Ṣaḥīḥ, from Ibn ʿAbbās); aḍ-Ḍaḥḥāk/Qatādah; Saʿīd ibn al-Musayyib | `e39fa0c` |
+| 51:47 | *bi-ayd* as strength — the named reading (Ibn ʿAbbās, Mujāhid, Qatādah, ath-Thawrī) | `e39fa0c` |
+| 51:56 | Second Ibn ʿAbbās rendering via ʿAlī ibn Abī Ṭalḥah; "O son of Adam" report (Aḥmad, Tirmidhī, Ibn Mājah) | `e39fa0c` |
+| 51:58 | Ibn Masʿūd — the three names of the verse were taught (Aḥmad, Abū Dāwūd, Tirmidhī, Nasāʾī) | `e39fa0c` |
 
 ### Chapters remaining
 
-51 → 114.
+52 → 114.
+
+Ch 51 skipped by design: 51:18 and 51:19 already carry the descent and
+misḳīn reports, and the lofty-rooms report in the shared 15–23 record is
+placed at 34:37 — not repeated at 51:17.
 
 ### What the automation attempts produced
 
@@ -191,6 +201,19 @@ largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
 | ch 10 (`f6dc8c7`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1837` |
 | ch 11 (`e306727`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
 | ch 12 (`301641a`) | `integrity.py` / build | 6,236 / 0 · 19.73 MB |
+| ch 51 (`e39fa0c`) | `integrity.py` / `build_tafsir_json.py` | 6,236 / 0 mismatches · 19.81 MB |
+| ch 51 (`e39fa0c`) | `verify_quotes.py` | **RESULT: PASS** — 0 not-verbatim, 0 lost, 0 added (re-run after commit) |
+| ch 51 (`e39fa0c`) | `check_ik_quotes.py` | **RESULT: PASS** — 0 new non-verbatim (baseline note below) |
+| ch 51 (`e39fa0c`) | `factcheck.py` | `AUTH-REVIEW: 1858` (was 1857) — diff of `/tmp/factcheck_issues.json` confirms the one new entry is `Exalted said`, my own 51:56 sentence |
+
+**Note on `check_ik_quotes.py` in squashed history.** The baseline
+`1a3067d` is absent from this clone's history, and `pre_existing_quotes()`
+silently returned an empty set — so the two pre-existing non-verbatim
+quotations in 001.md (40:16, 6:153) would fail the check on every batch
+regardless of what the batch does. Fixed in `e39fa0c`: when the baseline
+commit is missing the script falls back to `HEAD` (the same last-commit
+semantics `verify_quotes.py` already uses) and prints a note. Behaviour is
+unchanged where the baseline exists.
 
 ### A pattern worth repeating: record what the source refuses
 
