@@ -52,7 +52,42 @@ Hadith, rulings, cross-references, story), written in **simple terms a general r
   Do not re-open these to pad them.
 - **The long-sentence queue was cancelled by the user** (covered by rule 1).
 
-Current metrics: **6,236 sections · 0 quote mismatches · 0 suspect parentheticals · payload ≈16.44 MB.**
+### 2.1 Every cross-reference now carries its verse wording
+
+The user asked that every Qur'an reference in the commentary show *why it is there*: the actual
+wording of the verse, quoted from the translation the app itself ships (`ayah_en` in
+`data/chapter_NNN.js`, all 6,236 verses), not from anywhere else. A long verse is not dumped
+whole — only the sentence the commentary is actually talking about.
+
+`scripts/add_verse_quotes.py` did this. It picks the wording by matching the words around the
+citation against the sentences of the cited verse (light stemming, two shared words required
+before a narrow pick is trusted, whole verse only as a last resort). Three shapes were handled:
+
+    (4:51)                          → (4:51 — *“…yet believe in idols and false gods…”*)
+    (4:94 gives the rule)           → (4:94 gives the rule — *“…verify it…”*)
+    …the command at 7:31            → …the command at 7:31 — *“…”*
+
+Result: **21,764 references given wording**, on top of the 10,449 that already carried one.
+Median quote is 117 characters, the longest 479. Deliberately left alone:
+
+- **1,046 references to the verse being commented on** — its wording is in the blockquote three
+  lines above. Pass `--include-self` if that is ever wanted.
+- **51 Bible citations** (`Mark 12:29`, `Genesis 1:1`, `John 20:17` …). These look exactly like
+  Qur'an references and several point at verses that exist, so they are matched by book name and
+  skipped. Never remove that guard.
+- **479 parentheticals too tangled to touch** — long asides holding two or more references.
+
+Two bad citations were corrected while scanning: `6:176` → `3:176` (25:193 quotes 3:176's
+wording; Sūrah 6 has 165 verses) and `27:99` → `15:99` (27:1064, "serve this Lord until
+certainty comes"; Sūrah 27 has 93 verses).
+
+Re-run order is always: `scripts/add_verse_quotes.py --apply` → `scripts/build_tafsir_json.py`
+→ `scripts/editorial/verify_quotes.py`. The inserter is idempotent (a second `--apply` reports
+zero references to fill) and the verifier fails the build if any quote is not verbatim in its
+own verse, any citation moved, or any Bible citation was touched.
+
+Current metrics: **6,236 sections · 0 quote mismatches · 0 suspect parentheticals · payload ≈19.46 MB.**
+(The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 
 ---
