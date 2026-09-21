@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–36 done (40 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–39 done (43 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -127,10 +127,13 @@ in.
 | 34:37 | Two reports on the upper rooms; what the answer leaves out | `6524bb0` |
 | 35:37 | Sixty years; grey hair as the warner | `9bd355c` |
 | 36:9 | Mujāhid and Qatādah on the enclosure; Ibn ʿAbbās's variant reading | `1e93c54` |
+| 37:100 | Ibrāhīm's prayer as compensation for the people he left | `7c29d53` |
+| 38:22 | What Ibn Kathir **declines** to tell — refusing unauthenticated Isrāʾīliyyāt | `e6a4048` |
+| 39:56 | The man who killed ninety-nine; al-Ḥasan al-Baṣrī on the open call | `f235d48` |
 
 ### Chapters remaining
 
-37 → 114.
+40 → 114.
 
 ### What the automation attempts produced
 
@@ -179,6 +182,14 @@ largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
 | ch 10 (`f6dc8c7`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1837` |
 | ch 11 (`e306727`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
 | ch 12 (`301641a`) | `integrity.py` / build | 6,236 / 0 · 19.73 MB |
+
+### A pattern worth repeating: record what the source refuses
+
+At 38:22 the most valuable thing Ibn Kathir offers is a **refusal** — he declines
+to repeat the widely-told story of the two litigants because nothing
+authenticated supports it, and says so plainly rather than retelling it with a
+disclaimer. Where the source declines, record the decline. It teaches the reader
+something about evidence that a paraphrase cannot.
 
 ### Shared Ibn Kathir blocks
 
