@@ -1,56 +1,63 @@
 #!/usr/bin/env python3
-"""Render an Ibn Kathir hadith report as ONE clean sentence in house style.
+"""Render ONE Ibn Kathir report as a clean sentence in house style.
 
-CONSERVATIVE BY DESIGN. The source edition has no hadith numbers, so
-attribution is by collection and narrator. Misattributing words to the
-Prophet (s) is the worst failure mode here, so a report is accepted ONLY
-when the prophetic-speech formula directly governs the quote and the quote
-is clean. Everything ambiguous is rejected rather than guessed.
+CONSERVATIVE BY DESIGN. Misattributing words to the Prophet (s) is the worst
+failure available here, so a report is accepted only when the prophetic-speech
+formula directly governs the quote and the quote is clean. This edition has no
+hadith numbers, so attribution is by collection and narrator only -- a number is
+never invented.
+
+Arabic is stripped before matching: Ibn Kathir interleaves Arabic with its
+English gloss, and requiring Arabic-free input discarded ~99% of usable reports.
 """
 import re, sys
 sys.path.insert(0, "/home/user/quran-explained/scripts/editorial")
 from ik_extract import reports
 
-# The subject of "said" must be the Prophet, and the quote must follow at once.
-PROPH_SAYS = re.compile(
-    r"(?:the Messenger of Allah \u066a|the Messenger of God \u066a|the Prophet \u066a|"
-    r"the Messenger of Allah|the Messenger of God|the Prophet)\s+"
-    r"(?:\ufdfa\s*)?said\s*:\s*[\"\u201c]?(?P<say>.{30,340}?)[\"\u201d]?\s*(?:\.|,\s|\u201d|$)",
-    re.I)
+ARABIC = re.compile(r"[\u0600-\u06ff]+")
 
-# Reject if the quote is a first-person witness account or carries a chain.
-BAD_INSIDE = re.compile(
-    r"\b(I saw|I said|we said|I asked|he told me|from Abu al-|from Nafi|the same as|"
-    r"chain|narrated it|I bear witness|Ugh)\b", re.I)
+def strip_ar(t):
+    t = ARABIC.sub(" ", t)
+    t = re.sub(r"\(\s*\)", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+PROPH = re.compile(
+    r"(?:the Messenger of Allah|Allah's Messenger|the Messenger of God|"
+    r"the Prophet)\s*ﷺ?\s*said\s*[,:]\s*[\"“']?(?P<say>.{30,340}?)[\"”']?\s*(?:\.\s|$)")
+
+# Reject quotes that are witness accounts, rulings or commentary rather than the
+# Prophet's own words.
+BAD = re.compile(
+    r"\b(I saw|I said|we said|I asked|he told me|I bear witness|the same as|"
+    r"chain|narrated it|means|meaning|this Ayah|His statement|explains|"
+    r"Ugh|liar)\b", re.I)
 
 NARR = re.compile(
-    r"from (Ab[ūu] Hurayrah|Abu Hurayrah|\u02bf\u0100\u02bEishah|A'ishah|"
-    r"Ibn \u02bfAbb\u0101s|Ibn Abbas|Anas ibn M\u0101lik|Anas bin Malik|"
-    r"Ab[ūu] Sa\u02bf\u012bd|Abu Sa'id|J\u0101bir|Ubayy ibn Ka\u02bfb|"
-    r"\u02bfUb\u0101dah ibn al-\u1e62\u0101mit|Ubadah ibn al-Samit|Ab[ūu] Dharr|"
-    r"Ibn \u02bfUmar|Ibn Umar|\u02bfAl\u012b|\u02bfUmar|Mu\u02bf\u0101dh ibn Jabal|"
-    r"Ab[ūu] M[ūu]s[āa]|Salm\u0101n|Bil\u0101l|Umm Salamah|Ab[ūu] Um\u0101mah|"
-    r"\u02bfAbdull\u0101h ibn Mas\u02bf[ūu]d|Ibn Mas'ud|Zayd ibn Th\u0101bit|Ab[ūu] Bakr)",
-    re.I)
+    r"\b(?:that|from)\s+(Abu Hurayrah|A'ishah|Ibn 'Abbas|Anas bin Malik|Anas|"
+    r"Abu Sa'id Al-Khudri|Abu Sa'id|Jabir|Ubayy bin Ka'b|Ubadah bin As-Samit|"
+    r"Abu Dharr|Ibn 'Umar|Ibn Umar|'Ali|'Umar|Mu'adh bin Jabal|Abu Musa|"
+    r"Salman|Bilal|Umm Salamah|Abu Umamah|Abdullah bin Mas'ud|Ibn Mas'ud|"
+    r"Zayd bin Thabit|Abu Bakr|Abdullah bin 'Amr|Abu Ad-Darda|Thawban)\b")
 
-def render(ch, v, max_len=430):
+def render(ch, v, max_len=420):
     for colls, frag in reports(ch, v):
-        m = PROPH_SAYS.search(frag)
+        e = strip_ar(frag)
+        m = PROPH.search(e)
         if not m:
             continue
-        say = re.sub(r"\s+", " ", m.group("say")).strip().strip('.,"\u201d')
-        if not (30 <= len(say) <= 300):
+        say = m.group("say").strip().strip('.",\'”“')
+        if not (30 <= len(say) <= 280):
             continue
-        if BAD_INSIDE.search(say):
+        if BAD.search(say):
             continue
-        if say.count('"') or say.count('\u201c') or say.count('\u201d'):
-            continue                      # nested quote -> boundary unsafe
-        narr = NARR.search(frag[:m.start()+40])
+        if any(q in say for q in '"“”'):
+            continue                      # nested quote -> unsafe boundary
+        narr = NARR.search(e[:m.start()+40])
         coll = " and ".join(colls[:2])
         who = f", narrated by {narr.group(1)}," if narr else ""
         out = re.sub(r"\s+", " ",
-            f"Ibn Kathir records{who} that the Prophet \u066a said: "
-            f"\u201c{say}\u201d (reported by {coll}).").strip()
+            f"Ibn Kathir records{who} that the Prophet ﷺ said: “{say}” "
+            f"(reported by {coll}).").strip()
         if len(out) <= max_len:
             return out, colls, (narr.group(1) if narr else None)
     return None, None, None
@@ -60,4 +67,4 @@ if __name__ == "__main__":
         ch, v = map(int, a.split(":"))
         s, c, n = render(ch, v)
         print(f"--- {ch}:{v}")
-        print(f"    {s}\n" if s else "    (rejected - no clean prophetic saying)")
+        print(f"    {s}\n" if s else "    (rejected — no clean prophetic saying)")
