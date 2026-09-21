@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–39 done (43 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–41 done (45 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -130,10 +130,12 @@ in.
 | 37:100 | Ibrāhīm's prayer as compensation for the people he left | `7c29d53` |
 | 38:22 | What Ibn Kathir **declines** to tell — refusing unauthenticated Isrāʾīliyyāt | `e6a4048` |
 | 39:56 | The man who killed ninety-nine; al-Ḥasan al-Baṣrī on the open call | `f235d48` |
+| 40:43 | Qatādah vs as-Suddī on the idols; ʿĀʾishah and the grave | `4e000ae` |
+| 41:23 | The three men under the Kaʿbah covering | `75f57e2` |
 
 ### Chapters remaining
 
-40 → 114.
+42 → 114.
 
 ### What the automation attempts produced
 
