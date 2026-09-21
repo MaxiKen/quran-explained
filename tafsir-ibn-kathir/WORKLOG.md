@@ -78,7 +78,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–15 done (20 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–19 done (24 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -104,10 +104,14 @@ in.
 | 13:13 | Abū al-Jald on *al-barq*; Qatādah on fear and hope; the Ghifār man's report | `2147868` |
 | 14:47 | ʿĀʾishah and Thawbān on where people will be when the earth is changed | `777bac0` |
 | 15:95 | Ibn Isḥāq names the five mockers; the supplication against Ibn al-Muṭṭalib | `89e38aa` |
+| 16:69 | The honey report — al-Bukhārī and Muslim, from Abū Saʿīd al-Khudrī | `dd3a367` |
+| 17:1 | The Miʿrāj: fifty prayers reduced to five, Mūsā's counsel | `47df9af` |
+| 18:1 | Al-Barāʾ on the tranquillity that descended; the ten verses against Dajjāl | `a01aa52` |
+| 19:96 | How affection reaches the ground — Ibn Abī Ḥātim's report citing this verse | `d9e436d` |
 
 ### Chapters remaining
 
-16 → 114.
+20 → 114.
 
 ### What the automation attempts produced
 
