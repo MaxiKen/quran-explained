@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–43 done (47 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–45 done (49 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -134,10 +134,12 @@ in.
 | 41:23 | The three men under the Kaʿbah covering | `75f57e2` |
 | 42:8 | The two books — names, fathers and tribes, closed to change | `69ca31f` |
 | 43:58 | Ibn az-Zibaʿrā's devised argument, from Ibn Isḥāq's *Sīrah* | `d1a2d1e` |
+| 44:11 | Ibn Masʿūd correcting the smoke reading; the famine years | `8a84f85` |
+| 45:34 | What "We will neglect you" actually says | `719b62e` |
 
 ### Chapters remaining
 
-44 → 114.
+46 → 114.
 
 ### What the automation attempts produced
 
