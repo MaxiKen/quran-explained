@@ -94,15 +94,29 @@ Third pass — self-references and Bible citations:
   pieces against the surrounding commentary. 50 of the 949 needed the whole verse because the
   verse is itself short. `--full-self` switches back to the sentence-level picker.
 - **Bible citations are handled by `scripts/add_bible_quotes.py`**, reading
-  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). 13 of the 53
-  citations now carry their verse. The tool lists the 40 passages it has no text for and leaves
-  those citations untouched — add the missing entries to the JSON and re-run to finish the job.
-  Adding a passage is the only step; nothing else needs to change.
+  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). **17 of the 53
+  citations now carry their verse; 36 passages still need their text** — the tool prints them by
+  name (`missing: Genesis 41:8` …) and leaves those citations untouched. Add the entry to the
+  JSON and re-run; nothing else has to change. There is no network in the sandbox, so each
+  passage has to be fetched with the `fetch_page` tool, one reference per call — batching with
+  commas returns `not found`.
+  A citation that already quotes its passage in another translation is detected by content-word
+  overlap against both the Bible passage and every ayah, and skipped. Substring matching is not
+  enough here: the corpus also writes Qur'an verses by hand in its own words, and
+  *“We drowned Pharaoh and his hosts”* sitting before `Numbers 13:33` is a Qur'an quote, not the
+  Bible passage.
 
 The Bible guard in `add_verse_quotes.py` protects a whole parenthetical, not just the
 `Book c:v` span: `(Judges 6:21; 13:20)` has a bare `13:20` that is Judges, not a surah, and
 an earlier version of the guard gave it Qur'an wording. Two such corruptions were reverted.
 Never narrow that guard again.
+
+**Doubled quotation marks (found and fixed).** Many ayahs open or close with their own
+quotation mark — `Each ˹warner˺ asked, “Even if what I brought you…”` — and wrapping one in
+`*“…”*` gave `*““…””*`. 83 doubled openings and 3,779 doubled closings had accumulated. They are
+removed, and `clean_quote()` now strips an outer pair at the source. `norm()` ignores quote
+characters, so no wording's verification changed. When wrapping quoted text, always check whether
+it already carries the marks.
 
 **Retracted finding.** An earlier pass reported "17 wordings the corpus already had do not match
 the verse they are attached to". That was wrong, and no reference was removed. All 17 were bugs
@@ -126,8 +140,8 @@ Re-run order is always: `scripts/add_verse_quotes.py --apply` → `scripts/build
 zero references to fill) and the verifier fails the build if any quote is not verbatim in its
 own verse, any citation moved, or any Bible citation was touched.
 
-Current metrics: **6,236 sections · 0 quote mismatches · 24,116 references carrying verse wording ·
-0 suspect parentheticals · payload ≈19.72 MB.**
+Current metrics: **6,236 sections · 0 quote mismatches · 23,844 wordings verified against their
+verse · 17 of 53 Bible citations quoted · 0 suspect parentheticals · payload ≈19.71 MB.**
 (The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 
