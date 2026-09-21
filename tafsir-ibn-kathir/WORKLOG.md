@@ -49,8 +49,9 @@ machine-generated, and it carries no hadith numbers. It is not used here.
 5. **Quote the phrase, not the verse.** Long verses are trimmed to the clause
    being discussed.
 6. **Verify after every batch.** `integrity.py`, `build_tafsir_json.py`,
-   `verify_quotes.py`, `factcheck.py` must all come back clean, and
-   `sw.js` `CACHE_VERSION` must be bumped whenever the tafsir payload changes.
+   `verify_quotes.py`, `check_ik_quotes.py`, `factcheck.py` must all come back
+   clean, and `sw.js` `CACHE_VERSION` must be bumped whenever the tafsir
+   payload changes.
 
 ## 4. Why the work is not automated end-to-end
 
@@ -78,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–23 done (28 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–27 done (31 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -112,10 +113,15 @@ in.
 | 21:96 | Yaʾjūj and Maʾjūj — the spear thrown at the sky as a trial | `ab6ec93` |
 | 22:2 | ʿImrān ibn Ḥuṣayn on how these verses landed; the 999-in-1000 report | `821afc0` |
 | 23:4 | Zakāt's chronology — Meccan principle, Madinan *nuṣub* | `8fd3be8`, fixed `8449a5a` |
+| 24:37 | Ibn ʿUmar in the market when the *iqāmah* was called | `4e69d68` |
+| 25:68 | Which sin is most serious — Ibn Masʿūd's three | `118d2b1` |
+| 25:70 | The old man asking whether every evil deed can be repented | `118d2b1` |
+| 26:224 | Kaʿb ibn Mālik asking how the poets verse applies to him | `aea9339` |
+| 27:23 | Bilqīs; the palace built to frame the sun twice daily | `9c73908` |
 
 ### Chapters remaining
 
-24 → 114.
+28 → 114.
 
 ### What the automation attempts produced
 
@@ -171,6 +177,22 @@ Several verses share one Ibn Kathir record (e.g. 14:47 and 14:48 are byte-identi
 as are 15:94–99). **Place the evidence once**, at the verse the report actually
 concerns — not at every verse in the range. `ik_targets.py` shows identical
 `chars` columns for these; treat that as the signal.
+
+### AUTOMATED: `scripts/editorial/check_ik_quotes.py`
+
+The defect below happened **four times** (23:4, 25:70, 27:23, 3:2) before it was
+automated. It is now a check, not a habit to remember:
+
+    python3 scripts/editorial/check_ik_quotes.py      # RESULT: PASS
+
+It scans every paragraph mentioning Ibn Kathir and verifies each quotation
+against `ayah_en`. Quotations that were already non-verbatim at the pre-work
+baseline `1a3067d` are reported separately and do not fail the check — churning
+pre-existing content is against the standing rule.
+
+**Run this after every batch.** `verify_quotes.py` does *not* catch this class:
+it only checks wordings that `add_verse_quotes.py` attached, not ones written by
+hand into a new paragraph.
 
 ### CRITICAL: never quote Ibn Kathir's English as the verse wording
 
