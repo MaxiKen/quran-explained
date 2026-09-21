@@ -52,7 +52,101 @@ Hadith, rulings, cross-references, story), written in **simple terms a general r
   Do not re-open these to pad them.
 - **The long-sentence queue was cancelled by the user** (covered by rule 1).
 
-Current metrics: **6,236 sections · 0 quote mismatches · 0 suspect parentheticals · payload ≈16.44 MB.**
+### 2.1 Every cross-reference now carries its verse wording
+
+The user asked that every Qur'an reference in the commentary show *why it is there*: the actual
+wording of the verse, quoted from the translation the app itself ships (`ayah_en` in
+`data/chapter_NNN.js`, all 6,236 verses), not from anywhere else. A long verse is not dumped
+whole — only the sentence the commentary is actually talking about.
+
+`scripts/add_verse_quotes.py` did this. It picks the wording by matching the words around the
+citation against the sentences of the cited verse (light stemming, two shared words required
+before a narrow pick is trusted, whole verse only as a last resort). Three shapes were handled:
+
+    (4:51)                          → (4:51 — *“…yet believe in idols and false gods…”*)
+    (4:94 gives the rule)           → (4:94 gives the rule — *“…verify it…”*)
+    …the command at 7:31            → …the command at 7:31 — *“…”*
+
+Result: **22,895 references given wording** (21,764 in the first pass, 1,131 in the second), on top
+of the 10,449 that already carried one. Median quote is 117 characters, the longest 479.
+
+The second pass closed three shapes the first one left bare:
+
+- **Parentheticals that are sentences holding several references** —
+  `(3:71 gives the command again, and 3:187 recalls the covenant)`. Each reference gets its own
+  wording beside it, after the possessive when there is one, so `(2:64's renewals, 2:160's
+  openings)` cannot be read as one verse saying both.
+- **Multi-reference parentheticals behind one house-style quote** — `*“…”* (2:86; 3:77)` covered
+  2:86 only. The rest are filled.
+- **Abbreviated verse lists** — `(5:17, 18, 40)` meant 5:17, 5:18 and 5:40 but only the first
+  could carry wording. They are now written out in full.
+
+Rule this established: **a parenthetical with more than one reference always gets one wording per
+reference, each beside its own.** Appending a single quote at the end put 3:130's wording where it
+read as 5:90's.
+
+Third pass — self-references and Bible citations:
+
+- **Self-references are now quoted too: 949 more.** A self-reference points at the verse the
+  commentary is already sitting on, so its whole wording is in the blockquote three lines above.
+  They therefore get only the *clause* under discussion, not a sentence: `pick_phrase()` in
+  `scripts/verse_quotes.py` splits the verse on sentence and clause boundaries and scores the
+  pieces against the surrounding commentary. 50 of the 949 needed the whole verse because the
+  verse is itself short. `--full-self` switches back to the sentence-level picker.
+- **Bible citations are handled by `scripts/add_bible_quotes.py`**, reading
+  `data/bible_web.json` (World English Bible, public domain, via bible-api.com). **All 53
+  citations now carry their verse — 51 passages on disk, and the tool reports 0 with no text.**
+  To add one later: put the entry in the JSON and re-run; nothing else has to change.
+  There is no network in the sandbox, so each passage has to be fetched with the `fetch_page`
+  tool — **type the literal `https://bible-api.com/Genesis%2042:6-42:8` URL**, one reference per
+  call (comma batches return `not found`). Ranges do work, with the chapter repeated on both
+  ends. Never hand-construct the OSS proxy URL that appears in the echoed `url` field: it is
+  always signed for a different request and returns `SignatureDoesNotMatch`. Two parallel
+  literal calls are reliable; four or more fail.
+  A citation that already quotes its passage in another translation is detected by content-word
+  overlap against both the Bible passage and every ayah, and skipped. Substring matching is not
+  enough here: the corpus also writes Qur'an verses by hand in its own words, and
+  *“We drowned Pharaoh and his hosts”* sitting before `Numbers 13:33` is a Qur'an quote, not the
+  Bible passage.
+
+The Bible guard in `add_verse_quotes.py` protects a whole parenthetical, not just the
+`Book c:v` span: `(Judges 6:21; 13:20)` has a bare `13:20` that is Judges, not a surah, and
+an earlier version of the guard gave it Qur'an wording. Two such corruptions were reverted.
+Never narrow that guard again.
+
+**Doubled quotation marks (found and fixed).** Many ayahs open or close with their own
+quotation mark — `Each ˹warner˺ asked, “Even if what I brought you…”` — and wrapping one in
+`*“…”*` gave `*““…””*`. 83 doubled openings and 3,779 doubled closings had accumulated. They are
+removed, and `clean_quote()` now strips an outer pair at the source. `norm()` ignores quote
+characters, so no wording's verification changed. When wrapping quoted text, always check whether
+it already carries the marks.
+
+**Retracted finding.** An earlier pass reported "17 wordings the corpus already had do not match
+the verse they are attached to". That was wrong, and no reference was removed. All 17 were bugs
+in `verify_quotes.py`, which credited each wording to the *nearest preceding* reference — in a
+multi-reference parenthetical that is the last one, while the house style puts a single trailing
+quote after the whole list, usually explaining the first. Sixteen of the 17 matched another
+reference in their own parenthetical; the seventeenth (`007.md`, 14:34) failed only because
+`norm()` turns a closing full stop into a trailing space. Three further artifacts were found
+while confirming this: wording belonging to a hadith cited to its own collector, a parenthetical
+window that reached back across a sentence break, and a wording that introduces the reference
+*following* it. The verifier now handles all four cases and reports **0 mismatches over 23,844
+wordings**. Do not trust a mismatch report from this tool until it has been checked against
+every reference in the same parenthetical.
+
+Two bad citations were corrected while scanning: `6:176` → `3:176` (25:193 quotes 3:176's
+wording; Sūrah 6 has 165 verses) and `27:99` → `15:99` (27:1064, "serve this Lord until
+certainty comes"; Sūrah 27 has 93 verses).
+
+Re-run order is always: `scripts/add_verse_quotes.py --apply` → `scripts/build_tafsir_json.py`
+→ `scripts/add_bible_quotes.py --apply` → `scripts/editorial/verify_quotes.py`. The inserters are idempotent (a second `--apply` reports
+zero references to fill) and the verifier fails the build if any quote is not verbatim in its
+own verse, any citation moved, or any Bible citation was touched.
+
+Current metrics: **6,236 sections · 0 quote mismatches · 23,844 wordings verified against their
+verse · all 53 Bible citations quoted (51 passages in `data/bible_web.json`, `add_bible_quotes.py`
+reports 0 with no text) · 0 suspect parentheticals · payload ≈19.71 MB.**
+(The payload grew from ≈16.44 MB when every bare cross-reference was given its verse wording — see §2.1.)
 Fully rewritten chapters: 42 and 43. Sūrah 36 (Yāsīn) and chapter 4 have had the most individual work.
 
 ---

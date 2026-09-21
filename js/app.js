@@ -1419,14 +1419,34 @@ function renderCompleteCommentary(container) {
 /* ================================================
    13. MODALS & MARKDOWN COMMENTARY
 ================================================ */
+/* Every commentary section opens with the verse itself as a markdown blockquote,
+   because that is how the source files are written and how the editorial tools
+   (scripts/editorial/integrity.py, the quote pickers) locate the verse wording.
+   Both render surfaces already show the translation on their own — the modal
+   from verse.ayah_en via getVerseEnglish(), the ebook view from the same field —
+   so the leading blockquote is a duplicate on screen. Drop only the FIRST
+   contiguous run of '>' lines; any blockquote further down is a real quotation
+   inside the commentary and must survive. */
+function stripLeadingVerseQuote(md) {
+  if (!md) return '';
+  const lines = md.split('\n');
+  let i = 0;
+  while (i < lines.length && !lines[i].startsWith('>') && !lines[i].trim()) i++;
+  if (i >= lines.length || !lines[i].startsWith('>')) return md;
+  while (i < lines.length && lines[i].startsWith('>')) i++;
+  return lines.slice(i).join('\n').replace(/^\s+/, '');
+}
+
 /* Get the merged commentary for a verse */
 function getVerseCommentary(tafsir, ayahNum) {
   if (!tafsir) return '';
   const verses = tafsir.verses || tafsir;
   const key = String(ayahNum);
   const entry = verses[key] !== undefined ? verses[key] : verses[ayahNum];
-  if (typeof entry === 'string') return entry;
-  if (typeof entry === 'object' && entry !== null) return Object.values(entry).join('\n\n');
+  if (typeof entry === 'string') return stripLeadingVerseQuote(entry);
+  if (typeof entry === 'object' && entry !== null) {
+    return stripLeadingVerseQuote(Object.values(entry).join('\n\n'));
+  }
   return '';
 }
 
