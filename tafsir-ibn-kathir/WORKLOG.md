@@ -78,7 +78,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–12 done (17 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–15 done (20 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -101,10 +101,13 @@ in.
 | 10:2 | Aḍ-Ḍaḥḥāk from Ibn ʿAbbās on the objection to a human messenger; three readings of "rewards" | `f6dc8c7` |
 | 11:1 | At-Tirmidhī: Hūd and its sisters turned the Prophet's ﷺ hair gray | `e306727` |
 | 12:3 | Why a story was asked for; ʿUmar reading a borrowed book (Imām Aḥmad) | `301641a` |
+| 13:13 | Abū al-Jald on *al-barq*; Qatādah on fear and hope; the Ghifār man's report | `2147868` |
+| 14:47 | ʿĀʾishah and Thawbān on where people will be when the earth is changed | `777bac0` |
+| 15:95 | Ibn Isḥāq names the five mockers; the supplication against Ibn al-Muṭṭalib | `89e38aa` |
 
 ### Chapters remaining
 
-13 → 114.
+16 → 114.
 
 ### What the automation attempts produced
 
@@ -153,6 +156,13 @@ largest gaps                         : ch 26 (226), ch 2 (179), ch 37 (161),
 | ch 10 (`f6dc8c7`) | `integrity.py` / build / `factcheck.py` | 6,236 / 0 · 19.72 MB · `AUTH-REVIEW: 1837` |
 | ch 11 (`e306727`) | `integrity.py` / build | 6,236 / 0 · 19.72 MB |
 | ch 12 (`301641a`) | `integrity.py` / build | 6,236 / 0 · 19.73 MB |
+
+### Shared Ibn Kathir blocks
+
+Several verses share one Ibn Kathir record (e.g. 14:47 and 14:48 are byte-identical,
+as are 15:94–99). **Place the evidence once**, at the verse the report actually
+concerns — not at every verse in the range. `ik_targets.py` shows identical
+`chars` columns for these; treat that as the signal.
 
 ### One editing trap worth recording
 
