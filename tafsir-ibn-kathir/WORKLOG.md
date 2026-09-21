@@ -79,7 +79,7 @@ in.
 | Commit source + log | done | this folder |
 | Extractor (`ik_extract.py`) | done | pulls collection-attributed reports per verse |
 | Formatter (`ik_format.py`) | done, conservative | rejects anything not a clean prophetic saying |
-| **Insertion, ch 1 → 114** | **in progress — ch 1–32 done (36 insertions)** | ascending order |
+| **Insertion, ch 1 → 114** | **in progress — ch 1–36 done (40 insertions)** | ascending order |
 
 ### Insertions completed
 
@@ -123,10 +123,14 @@ in.
 | 30:4 | Abū Bakr's five-year wager, and why the verse says "three to nine" | `ad2109c` |
 | 31:14 | Three glosses on "weakness upon weakness"; the 6:82 distress | `64b856f` |
 | 32:16 | Muʿādh's question — the verse recited as one of the gates of goodness | `12605ca` |
+| 33:39 | The task of conveying inherited by the community | `836da09` |
+| 34:37 | Two reports on the upper rooms; what the answer leaves out | `6524bb0` |
+| 35:37 | Sixty years; grey hair as the warner | `9bd355c` |
+| 36:9 | Mujāhid and Qatādah on the enclosure; Ibn ʿAbbās's variant reading | `1e93c54` |
 
 ### Chapters remaining
 
-33 → 114.
+37 → 114.
 
 ### What the automation attempts produced
 
