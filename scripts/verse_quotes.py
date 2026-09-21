@@ -218,6 +218,30 @@ def pick_quote(tr, surah, start, end, context, wide_context=None):
     return sentences(first)[0], 0.0, run[0], run[0]
 
 
+
+
+
+BARE_NUM = re.compile(r"(?<=[\d:]),\s*(\d{1,3})(?![\d:])")
+
+
+def expand_abbrev(inner):
+    """`(5:17, 18, 40)` means 5:17, 5:18 and 5:40 — say so in full."""
+    surah = None
+    out, pos = [], 0
+    for m in re.finditer(r"(\d{1,3}):(\d{1,3})", inner):
+        out.append(inner[pos:m.start()])
+        surah = m.group(1)
+        out.append(m.group(0))
+        pos = m.end()
+        nxt = BARE_NUM.match(inner, pos)
+        while nxt:
+            out.append(f", {surah}:{nxt.group(1)}")
+            pos = nxt.end()
+            nxt = BARE_NUM.match(inner, pos)
+    out.append(inner[pos:])
+    return "".join(out)
+
+
 def expand_end(a, b):
     """`7:148-55` means 148-155; `3:106-7` means 106-107."""
     if b is None:

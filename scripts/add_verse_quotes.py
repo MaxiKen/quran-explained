@@ -32,7 +32,8 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from verse_quotes import (BOOK_REF, CORPUS, clean_quote, expand_end,
+from verse_quotes import (BOOK_REF, CORPUS, clean_quote, expand_abbrev,
+                          expand_end,
                           load_translation, norm, pick_quote)
 
 TOKEN = r"\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?"
@@ -107,6 +108,77 @@ def render_paren(inner, parts, fmt):
     return "(" + re.sub(TOKEN, sub, inner) + ")"
 
 
+POSSESSIVE = re.compile(r"[’']s\b")
+POSSESSIVE = re.compile(r"[’']s\b")
+BARE_NUM = re.compile(r"(?<=[\d:]),\s*(\d{1,3})(?![\d:])")
+
+
+def expand_abbrev(inner):
+    """`(5:17, 18, 40)` means 5:17, 5:18 and 5:40 — say so in full."""
+    surah = None
+    out, pos = [], 0
+    for m in re.finditer(r"(\d{1,3}):(\d{1,3})", inner):
+        out.append(inner[pos:m.start()])
+        surah = m.group(1)
+        out.append(m.group(0))
+        pos = m.end()
+        nxt = BARE_NUM.match(inner, pos)
+        while nxt:
+            out.append(f", {surah}:{nxt.group(1)}")
+            pos = nxt.end()
+            nxt = BARE_NUM.match(inner, pos)
+    out.append(inner[pos:])
+    return "".join(out)
+
+
+def fill_tangled(text, m, tr, cur, include_self, report, fmt="inside",
+                 expand=False, skip_first=False):
+    """
+    A parenthetical that is a sentence holding two or more references:
+
+        (3:71 gives the command again, and 3:187 recalls the covenant)
+        (2:64's renewals, 2:160's openings)
+
+    Each reference gets its wording beside it, after the possessive when there
+    is one, so nothing is read as belonging to the wrong verse.
+    """
+    inner = m.group(1) + m.group(2)
+    if expand:
+        inner = expand_abbrev(inner)
+    tight, wide = contexts(text, m.start())
+    out, pos, touched, first = [], 0, False, True
+    for tm in re.finditer(TOKEN, inner):
+        out.append(inner[pos:tm.start()])
+        tok, rest = tm.group(0), inner[tm.end():]
+        pm = POSSESSIVE.match(rest)
+        out.append(tok + (pm.group(0) if pm else ""))
+        pos = tm.end() + (pm.end() if pm else 0)
+        s, a, b = parse_ref(tok)
+        if s not in tr or a not in tr[s]:
+            report.invalid += 1
+            continue
+        if skip_first and first:
+            first = False
+            continue
+        if not include_self and cur and s == cur[0] and a <= cur[1] <= (b or a):
+            report.self_ref += 1
+            continue
+        # the clause after the reference says what that reference is doing here
+        clause = re.split(r"[,;()\n]", rest[pm.end() if pm else 0:])[0]
+        q, sc, _, _ = pick_quote(tr, s, a, b, f"{tight} {clause}", wide)
+        q = clean_quote(q or "")
+        if not q or (norm(q)[:40] and norm(q)[:40] in norm(tight)):
+            continue
+        out.append(f' — *“{q}”*' if fmt == "inside" else f' *“{q}”*')
+        report.filled += 1
+        if sc == 0:
+            report.whole_verse += 1
+        touched = True
+    out.append(inner[pos:])
+    return ("(" + "".join(out) + ")") if touched else None
+
+
+
 def process(text, tr, fmt, include_self, include_naked, report, preview=0):
     edits = []
     off_limits = []
@@ -142,21 +214,51 @@ def process(text, tr, fmt, include_self, include_naked, report, preview=0):
         if any(a <= m.start(1) < b for a, b in off_limits):
             report.bible += 1
             continue
-        if "“" in trailing or '"' in trailing or PRE_QUOTED.search(
-                text[max(0, m.start() - 4):m.start()]):
+        if "“" in trailing or '"' in trailing:
             report.already += 1
             continue
         prose_tail = trailing.strip()
+        # *“…”* (2:86; 3:77) — a quote in front covers the first reference only
+        inner_full = expand_abbrev(m.group(1) + m.group(2))
+        expanded = inner_full != m.group(1) + m.group(2)
+        pre_quoted = bool(PRE_QUOTED.search(text[max(0, m.start() - 4):m.start()]))
+        skip_first = pre_quoted and len(re.findall(TOKEN, inner_full)) > 1
+        if pre_quoted and not skip_first:
+            report.already += 1
+            continue
+        if expanded or len(re.findall(TOKEN, inner_full)) > 1:
+            # one wording per reference, each beside its own — appending a single
+            # quote at the end of "(2:189, 3:130, 5:90 etc.)" would read as
+            # belonging to 5:90
+            rep = fill_tangled(text, m, tr, cur_verse(m.start()),
+                               include_self, report, fmt, expand=expanded,
+                               skip_first=skip_first)
+            if rep:
+                edits.append((m.start(), m.end(), rep))
+            else:
+                report.complex_paren += 1
+            continue
         if prose_tail and (len(prose_tail) > SHORT_TRAILING
                            or re.search(TOKEN, prose_tail)):
-            # "(9:80 is this verse, and … at 9:81's own verses)" — leave it
-            report.complex_paren += 1
+            rep = fill_tangled(text, m, tr, cur_verse(m.start()),
+                               include_self, report, fmt,
+                               skip_first=skip_first)
+            if rep:
+                edits.append((m.start(), m.end(), rep))
+            else:
+                report.complex_paren += 1
             continue
         tight, wide = contexts(text, m.start())
         cur = cur_verse(m.start())
         parts = []
         touched = False
+        first = True
         for tok in refs_in_group(tokens):
+            if skip_first and first:
+                first = False
+                parts.append((tok, None))
+                continue
+            first = False
             s, a, b = parse_ref(tok)
             if s not in tr or a not in tr[s]:
                 report.invalid += 1
