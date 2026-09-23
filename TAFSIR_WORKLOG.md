@@ -91,19 +91,23 @@ added the source-level material listed below.
 * Digest built for the whole chapter: `tmp/sources/002.txt` (13.8 MB) and `002.json` (85 MB, uncapped
   for writing; `sources.py` now takes `--cap-json` when a smaller digest is enough). All 286 verses
   have source material. The scaffold is in place with 1,362 phrase headings.
-* **Written so far: the introduction and verses 2:1–2:5** — the three letters, "This is the Book",
-  the unseen and the first portrait of the believers. Per-verse words 622–868 against floors of 550;
-  phrase coverage 97–100%; five analogies; mean sentence 21.2 words, 7% over 40 words, Flesch 71.
-* Batch gate for 2:1–2:5: `batch.py 2 --through 5` → **PASS** (0 FAIL, one advisory `GRD-TOKENS`
-  warning). `audit.py --all` reports the chapter as `in progress: 5/286 verses written, next 2:6`
-  rather than as a failing chapter, and `build_data.py 2` refuses to publish it while scaffolds
+* **Written so far: the introduction and verses 2:1–2:94** (94/286) — the letters, the portrait of
+  the believers and the hypocrites, the parable of the fire, the creation of Adam, the covenant with
+  Israel, the manna, the rock, the cow, the murdered man and the raised dead, the broken covenants,
+  the distortion of scripture and the claim to an exclusive hereafter, up to "wish for death" and the
+  answer given in the next verse. Every verse carries its own analogy (89/89 in the 2:6–2:94 range);
+  phrase coverage 97–99% a verse; per-verse words run from 560 to 2,164 against floors of 550–735.
+* Batch gate for 2:6–2:94: `batch.py 2 --from 6 --to 94` → **PASS** (0 FAIL, 33 advisory `GRD-TOKENS`
+  warnings about source-name tokens). Batch style for the range: mean sentence 21.5 words, 5% over 40
+  words, Flesch 68, long words 0.47% — inside every threshold. `audit.py --all` reports the chapter as
+  `in progress: 94/286 written, next 2:95`, and `build_data.py 2` refuses to publish it while scaffolds
   remain — so the app can never receive a half-written sūrah.
 * The chapter is written batch by batch and the writer does not stop between batches
   (`TAFSIR_PROMPT.md` §10). Batch tooling: `batch.py N --from A --to B`, `batch.py N --progress`.
 * No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
   app keeps showing "coming soon" for al-Baqarah.
-* Next batches: 2:6–2:7 (those who reject the message), then 2:8–2:20 (the hypocrites), then the
-  call to humanity from 2:21.
+* Next batches: 2:95–2:103 (the claim of an exclusive hereafter answered, then Gabriel and the
+  accusation against Solomon), continuing in batches of four to six verses until `audit.py 2` passes.
 
 ## Conventions
 
