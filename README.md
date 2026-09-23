@@ -33,7 +33,7 @@ Excerpts worth knowing:
 * the **only** source of Qur'an wording is `data/chapter_NNN.js`; every quoted clause is checked
   verbatim against it;
 * every verse is split into its phrases, and each phrase is quoted as a heading and explained;
-* every verse carries at least 500 words, rising to six times the verse's own length for long
+* every verse carries at least 550 words, rising to seven times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
 * prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a

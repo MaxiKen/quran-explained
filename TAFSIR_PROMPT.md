@@ -130,10 +130,12 @@ Rules the auditor enforces:
    after another in verse order. Descriptive `**bold headings**` may be added inside a phrase's
    block for a story, a ruling or a list; they must not be generic (`Commentary`, `Explanation`,
    `Summary`, `Note`) and must each be followed by prose.
-6. **Length follows substance, and the floor is high.** Every verse carries at least **500
-   words**, and the floor rises with the verse: `max(500, 6 × the verse's own word count)`, up to
-   3,000. A ninety-word verse therefore needs 540+ words; a two-hundred-word verse needs 1,200+.
-   The soft ceiling is 4,000 words — above that, check for padding.
+6. **Length follows substance, and the floor is high.** Every verse carries at least **550
+   words**, and the floor rises with the verse: `max(550, 7 × the verse's own word count)`, up to
+   3,500. A ninety-word verse therefore needs 630+ words; a two-hundred-word verse needs 1,400+.
+   The soft ceiling is 4,500 words — above that, check for padding. These numbers live in
+   `audit.py` (`MIN_VERSE_WORDS`, `SCALE_FACTOR`, `SCALE_CAP`) and `scaffold.py` restates them in
+   each TODO line, so a writer always sees the floor for the verse in front of them.
 7. **One `---`** between sections. No trailing separator after the last verse.
 8. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
 9. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
@@ -232,7 +234,8 @@ under it fails the gate.
 Write for a reader who has no Arabic and no seminary training: a shopkeeper, a student, a nurse
 reading on a phone between tasks. Every sentence should be understandable on one reading.
 
-**The numbers the gate measures** (chapter-wide, on prose only):
+**The numbers the gate measures** (on prose only; `batch.py` reports them for the batch while the
+chapter is still being written, and `audit.py` for the whole chapter at the end):
 
 | Measure | Target | Warn | Fail |
 |---|---|---|---|
