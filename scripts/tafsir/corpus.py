@@ -400,3 +400,160 @@ def norm_key(text: str) -> str:
 def shingles(text: str, size: int = 8):
     words = norm_key(text).split()
     return {" ".join(words[i:i + size]) for i in range(max(0, len(words) - size + 1))}
+
+
+ORNAMENT = "\u02f9\u02fa"          # ˹ ˺ — the brackets the translation uses for supplied words
+
+
+def loose_norm(text: str) -> str:
+    """Comparison form for verse phrases: quotes, dashes and ˹ ˺ brackets gone.
+
+    Strict quotation (REF-QUOTE) keeps the brackets exactly as stored; this
+    looser form exists so that a phrase heading written as "You alone we
+    worship" still lines up with the stored "You ˹alone˺ we worship" when the
+    auditor measures phrase coverage.
+    """
+    text = text.replace(NBSP, " ")
+    text = re.sub("[" + ORNAMENT + "]", " ", text)
+    text = re.sub(r"[\u2018\u2019\u201c\u201d'\"]", " ", text)
+    text = re.sub(r"[\u2013\u2014\-]+", " ", text)
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9 ]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def words(text: str):
+    return re.findall(r"[A-Za-z0-9\u2019'\-]+", text or "")
+
+
+def word_count(text: str) -> int:
+    return len(words(text))
+
+
+# ------------------------------------------------------------ phrase splitting
+
+# A phrase boundary is offered at strong punctuation, or before a conjunction
+# once the phrase already has enough words to be worth explaining on its own.
+_STRONG = re.compile(r"[\u2014;:?!]")
+_CONNECTORS = re.compile(
+    r"^(and|or|but|nor|then|yet|so|for|when|whenever|if|that|which|who|whom|whose|"
+    r"where|because|as|while|until|unless|though|although|indeed|verily)\b", re.I)
+
+MIN_PHRASE_WORDS = 3
+PREFERRED_PHRASE_WORDS = 5
+
+
+def split_phrases(text: str, min_words: int = MIN_PHRASE_WORDS,
+                  preferred: int = 4, max_phrases: int = 24):
+    """Cut a verse's translation into contiguous, meaningful phrases.
+
+    Every word of the verse lands in exactly one phrase, in order: the function
+    chooses boundary points, it never rewrites a word. A boundary is taken after
+    strong punctuation (— ; : ? !) once the phrase has ``min_words`` words, and
+    before a conjunction once it has ``preferred`` words. Scraps are merged into
+    their neighbour, very long verses are kept to ``max_phrases``, and a dash
+    that joins two clauses (``Allah—the Most Compassionate``) is itself a
+    boundary, so the dash disappears between the two phrases.
+    """
+    text = re.sub(r"\s+", " ", (text or "").replace(NBSP, " ")).strip()
+    if not text:
+        return []
+
+    # keep dashes as their own tokens so a boundary can fall on them
+    tokens = [t for t in re.findall(r"[^\s\u2014]+|\u2014", text)]
+    n = len(tokens)
+
+    def phrase_words(a, b):
+        return sum(1 for t in tokens[a:b] if t != "\u2014")
+
+    boundaries, start = [], 0
+    for i in range(1, n):
+        prev = tokens[i - 1]
+        run = phrase_words(start, i)
+        if run < min_words:
+            continue
+        if prev == "\u2014" or _STRONG.search(prev):
+            boundaries.append(i)
+            start = i
+            continue
+        if run >= preferred and _CONNECTORS.match(tokens[i]):
+            back = " ".join(tokens[max(0, i - 3):i]).lower()
+            if re.search(r"\b(neither|either|whether|both|not only|only)\b", back):
+                continue                     # neither drowsiness / nor sleep — keep together
+            if sum(t.count(ORNAMENT[0]) - t.count(ORNAMENT[1]) for t in tokens[start:i]) > 0:
+                continue                     # we are inside a ˹supplied˺ aside
+            if tokens[i].count(ORNAMENT[1]) > tokens[i].count(ORNAMENT[0]):
+                continue                     # the next word closes an aside
+            boundaries.append(i)
+            start = i
+
+    def build(bounds):
+        out, a = [], 0
+        for b in list(bounds) + [n]:
+            chunk = " ".join(t for t in tokens[a:b] if t != "\u2014").strip()
+            chunk = chunk.strip(" ,;:")
+            if chunk:
+                out.append(chunk)
+            a = b
+        return out
+
+    phrases = build(boundaries)
+    while len(phrases) > 1 and len(words(phrases[-1])) < min_words:
+        phrases[-2] = phrases[-2] + " " + phrases[-1]
+        phrases.pop()
+    for i in range(len(phrases) - 1, 0, -1):
+        if len(words(phrases[i])) < min_words:
+            phrases[i - 1] = phrases[i - 1] + " " + phrases[i]
+            phrases.pop(i)
+    while len(phrases) > max_phrases:
+        sizes = [len(words(p)) for p in phrases]
+        i = min(range(len(phrases) - 1), key=lambda k: sizes[k] + sizes[k + 1])
+        phrases[i] = phrases[i] + " " + phrases[i + 1]
+        phrases.pop(i + 1)
+    return phrases
+
+
+# ------------------------------------------------------------- style measures
+
+_VOWELS = "aeiouy"
+
+
+def syllables(word: str) -> int:
+    word = re.sub(r"[^a-z]", "", word.lower())
+    if not word:
+        return 0
+    count, prev = 0, False
+    for ch in word:
+        is_v = ch in _VOWELS
+        if is_v and not prev:
+            count += 1
+        prev = is_v
+    if word.endswith("e") and count > 1 and not word.endswith(("le", "ee", "ye")):
+        count -= 1
+    return max(1, count)
+
+
+def flesch(text: str) -> float:
+    """Flesch reading ease; higher is easier. 60+ is plain English."""
+    sents = sentence_split(text)
+    w = words(text)
+    if not sents or not w:
+        return 0.0
+    syl = sum(syllables(x) for x in w)
+    return 206.835 - 1.015 * (len(w) / len(sents)) - 84.6 * (syl / len(w))
+
+
+def style_metrics(text: str):
+    sents = sentence_split(text)
+    w = words(text)
+    lengths = [len(words(s)) for s in sents]
+    return {
+        "sentences": len(sents),
+        "words": len(w),
+        "mean_sentence": (sum(lengths) / len(lengths)) if lengths else 0.0,
+        "long_sentences": sum(1 for n in lengths if n > 40),
+        "long_sentence_share": (sum(1 for n in lengths if n > 40) / len(lengths)) if lengths else 0.0,
+        "long_words": sum(1 for x in w if len(x) >= 12),
+        "long_word_share": (sum(1 for x in w if len(x) >= 12) / len(w)) if w else 0.0,
+        "flesch": flesch(text),
+    }

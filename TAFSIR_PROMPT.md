@@ -32,8 +32,14 @@ cd /home/user/quran-explained
 
 python3 scripts/tafsir/sources.py N --stats        # where the material is, before reading
 python3 scripts/tafsir/sources.py N                # writes tmp/sources/NNN.txt + NNN.json
-python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md, quotes already exact
+python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md: exact quotes + phrase headings
 ```
+
+The scaffold hands you two free wins. The verse quote is copied byte-for-byte from
+`data/chapter_NNN.js`, so it cannot fail the verbatim check. And the verse is already cut into
+phrase headings by `corpus.split_phrases`, in verse order, covering every word — so the
+phrase-coverage rule passes from the first line you write. Re-cut a proposal when you can see a
+better unit, and check your cut with `python3 scripts/tafsir/scaffold.py N --stdout | head -40`.
 
 For a single verse or a single source, read the digest directly:
 
@@ -75,14 +81,15 @@ When two sources say the same thing, that is one witness, not two.
 ## 4. Write it in the chapter format
 
 The file is parsed by `scripts/tafsir/build_data.py` and checked by `audit.py`, so the shape is
-fixed. `scaffold.py N` writes this skeleton with the verse quotes already byte-exact.
+fixed. `scaffold.py N` writes this skeleton with the verse quotes *and* the phrase headings
+already cut for you.
 
 ```markdown
 # Sūrah <Name> (Chapter N) — Verse-by-Verse Tafsir
 
 ## Introduction to the Sūrah
 
-Introduction prose in plain paragraphs, 200–900 words, no headings, no separators.
+Introduction prose in plain paragraphs, 250–1,500 words, no headings, no separators.
 
 ---
 
@@ -90,13 +97,13 @@ Introduction prose in plain paragraphs, 200–900 words, no headings, no separat
 
 > <the canonical translation, exactly as it stands in data/chapter_NNN.js>
 
-**A Heading That Says Something**
+**“first phrase of the verse”**
 
-Prose under the heading.
+Prose explaining that phrase.
 
-**Another Heading That Says Something**
+**“second phrase of the verse”**
 
-More prose.
+Prose explaining that phrase.
 
 ---
 
@@ -107,23 +114,77 @@ More prose.
 Rules the auditor enforces:
 
 1. **Title line** exactly `# Sūrah <name_en> (Chapter N) — Verse-by-Verse Tafsir`.
-2. **Introduction** under `## Introduction to the Sūrah` on line 3: 200–900 words, plain
+2. **Introduction** under `## Introduction to the Sūrah` on line 3: 250–1,500 words, plain
    paragraphs, no bold headings inside it, one `---` after it.
 3. **Every verse** appears once, ascending, as `## Verse N:V`, and every verse of the chapter
    must be present. No skipped verses, no combined verses, no invented verse numbers.
 4. **Verse quote**: one line, starting `> `, byte-identical to that verse's `ayah_en` in
    `data/chapter_NNN.js`, with one blank line above and below.
-5. **At least two `**bold headings**` per verse** (soft maximum six), each alone on its line
-   with blank lines around it, each followed by prose. No generic headings (`Commentary`,
-   `Explanation`, `Summary`, `Note`); say what the paragraph says.
-6. **Length follows substance**: 150–650 words of body per verse. Simple verses end near the
-   floor. A verse the sources discuss for pages may run to the soft ceiling; never past it, and
-   never padded to reach it.
+5. **Every phrase of the verse is quoted and explained** (see §5). Phrase headings are written
+   `**“phrase”**` with curly quotes, alone on their line, blank line before and after, and one
+   after another in verse order. Descriptive `**bold headings**` may be added inside a phrase's
+   block for a story, a ruling or a list; they must not be generic (`Commentary`, `Explanation`,
+   `Summary`, `Note`) and must each be followed by prose.
+6. **Length follows substance, and the floor is high.** Every verse carries at least **500
+   words**, and the floor rises with the verse: `max(500, 6 × the verse's own word count)`, up to
+   3,000. A ninety-word verse therefore needs 540+ words; a two-hundred-word verse needs 1,200+.
+   The soft ceiling is 4,000 words — above that, check for padding.
 7. **One `---`** between sections. No trailing separator after the last verse.
 8. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
 9. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
 
-## 5. Quoting law
+### 4.1 Where the length comes from
+
+Length is not padding. It comes from the material this corpus now has:
+
+* the phrase-by-phrase explanation itself, which quotes each phrase and then unpacks its words;
+* the stories and occasions of revelation the sources carry for that verse;
+* the hadith and athar, told in full, with narrator and collection;
+* the rulings and disagreements, with the scholars named;
+* the cross-references that let the Qur'an explain the verse;
+* one relatable analogy, and the practical lesson the verse asks of the reader.
+
+If a section is under the floor, the answer is never repetition or vague exhortation. Go back to
+the digest and use material you have not used yet — the Arabic sources usually carry more for
+that verse than the English ones do.
+
+## 5. Splitting a verse into phrases, and quoting each one
+
+Every verse is read as a series of meaningful units, and each unit is quoted as a heading and then
+explained. This is the backbone of the chapter format.
+
+**How to cut a verse.** `scaffold.py N` proposes the cut with `corpus.split_phrases`, which breaks
+at strong punctuation (— ; : ? !) and before conjunctions, keeps every word of the verse, and
+never leaves a fragment. Re-cut the proposal whenever you can see a more meaningful unit, as long
+as two things stay true:
+
+* the phrases run in verse order and together account for the whole verse;
+* each heading is the verse's own wording, copied, not paraphrased.
+
+Good cuts for `1:1`: `“In the Name of Allah”` and `“the Most Compassionate, Most Merciful”`.
+Good cuts for `2:255` include `“Allah! There is no god ˹worthy of worship˺ except Him, the
+Ever-Living, All-Sustaining.”` and `“Who could possibly intercede with Him without His
+permission?”`. A cut that separates a phrase from the word it leans on ("Neither drowsiness" /
+"nor sleep overtakes Him") is a bad cut; merge it back.
+
+**How to write each phrase.** Take the phrase apart in order: what the words mean, what the
+grammar does (a definite article, a word placed first, a pronoun that shifts), what the early
+authorities said about it, what it implies for how a person lives. Then move to the next phrase.
+Each phrase should normally carry one to four paragraphs, and a phrase heading without real prose
+under it fails the gate.
+
+**What the auditor checks** (`FMT-PHRASE-*`, `REF-PHRASE*`):
+
+| Check | Rule |
+|---|---|
+| Phrase headings exist | at least one, or `FMT-PHRASE-NONE` |
+| Every heading is a phrase of the verse | compared with the stored translation, punctuation and the ˹…˺ brackets ignored; otherwise `REF-PHRASE` |
+| Headings stand in verse order | otherwise `REF-PHRASE-ORDER` |
+| The headings cover the verse | at least 90% of the verse's words, or `FMT-PHRASE-COVERAGE` |
+| No phrase is skipped over | any unquoted run longer than 8 words fails (`FMT-PHRASE-GAP`) |
+| Nothing is dropped at the edges | the first or last 3 words unquoted fails (`FMT-PHRASE-EDGE`) |
+
+## 6. Quoting law
 
 * Qur'an wordings come **only** from `data/chapter_NNN.js`. Never from a tafsir's paraphrase,
    never from memory, never retyped if you can copy it.
@@ -135,7 +196,7 @@ Rules the auditor enforces:
 * Never re-quote a verse already quoted in the same section; cite it.
 * Every citation must point to a real verse: `(2:300)` fails the gate.
 
-## 6. Attribution law — non-negotiable
+## 7. Attribution law — non-negotiable
 
 1. **Never invent a hadith number.** Give collection and narrator as the source gives them
    (`Ṣaḥīḥ al-Bukhārī 756`, `Muslim records Abū Hurayrah saying…`). If the source carries no
@@ -149,41 +210,82 @@ Rules the auditor enforces:
    where it comes from, leave it out.
 5. **Never attribute a point to a source that does not make it.**
 
-## 7. Style law
+## 8. Style law — plain words, short sentences, one good analogy
 
-Write plain English. Short sentences. Ordinary words. Explain an Arabic term the first time it
-appears in the chapter, then use it freely.
+Write for a reader who has no Arabic and no seminary training: a shopkeeper, a student, a nurse
+reading on a phone between tasks. Every sentence should be understandable on one reading.
 
-Do not write:
+**The numbers the gate measures** (chapter-wide, on prose only):
+
+| Measure | Target | Warn | Fail |
+|---|---|---|---|
+| Mean sentence length | under 22 words | above 26 | above 32 |
+| Sentences over 40 words | under 8% | above 12% | above 25% |
+| Reading ease (Flesch) | 60+ | below 55 | below 45 |
+| Words of 12+ letters | under 1% | above 2% | — |
+
+Short sentences are not childish. They are the difference between a reader who keeps going and one
+who puts the phone down.
+
+**Diction.** Say "so" not "subsequently", "show" not "demonstrate", "start" not "commence",
+"use" not "utilise", "about" not "with regard to", "but" not "notwithstanding". The auditor fails
+a chapter that leans on formal vocabulary (`STY-DICTION`). Arabic terms are welcome — *raḥmah*,
+*ṣirāṭ*, *tawḥīd* — as long as each is explained the first time in the chapter and used naturally
+after that.
+
+**Analogy.** Every verse should carry one simple comparison that a reader can picture, drawn from
+ordinary life: a market, a road, a garden, a workshop, rain, a boat, a letter, a journey. The
+comparison must fit the verse's own point, not decorate it. At least half of a chapter's verses
+must carry one, or the chapter fails (`STY-ANALOGY`); leave a verse out only when no honest
+comparison exists.
+
+Worked examples from chapter 1:
+
+* the basmalah as a traveller who names the owner of the river before his first stroke;
+* "All praise is for Allah" as streams that all lead back to one spring;
+* al-Raḥmān as rain that falls on good ground and on rock alike, and al-Raḥīm as the same rain
+  turned into a harvest;
+* the Day of Judgement as a market that trades all year and then closes for one final audit;
+* "You alone we ask for help" as a new worker who accepts the foreman's orders before asking for
+  the tools;
+* the two ways of going astray as one traveller who refuses to board the train he has studied and
+  another who never reads the timetable.
+
+**Do not write:**
 
 * process or meta prose ("this section", "we will now examine", "as mentioned above", "in
   conclusion") — the reader wants the verse, not the writing process;
-* filler openers and closers;
-* machine clichés ("rich tapestry", "stands as a testament to", "navigate the complexities",
-  "underscores the importance");
+* filler openers, closers and clichés ("rich tapestry", "stands as a testament to", "navigate the
+  complexities", "it is worth noting");
 * the same sentence twice anywhere in the chapter (the auditor compares every sentence), or two
   verse sections built from the same phrasing;
 * generic exhortation that would fit any verse — if a paragraph could be pasted under another
   verse unchanged, it is not commentary.
 
-Do write:
+**Do write:**
 
 * verse-specific detail: the word being explained, the person in the story, the ruling at stake;
 * transitions that carry the reader from one paragraph to the next;
-* the "so what" sentence when a verse has a practical demand on the reader — once, briefly, in
+* the "so what" sentence when the verse has a practical demand on the reader — once, briefly, in
   plain words.
 
-## 8. Self-check before calling a chapter done
+## 9. Self-check before calling a chapter done
 
 ```bash
 python3 scripts/tafsir/audit.py N              # must end in RESULT: PASS
+python3 scripts/tafsir/status.py N             # words per verse against its floor, gate verdict
 python3 scripts/tafsir/build_data.py N         # writes data/tafsir_NNN.json
-python3 scripts/tafsir/status.py N             # words per verse, gate verdict
+python3 scripts/tafsir/build_data.py N --check # the payload matches the markdown
 ```
 
+`status.py` prints each verse's words beside its floor (`min/med/max`), which is the fastest way
+to find the sections that are still thin before the auditor tells you.
+
 Every FAIL must be fixed by changing the writing, not the rule. Warnings must be read; fix the
-ones that are real. `FMT-*` and `REF-*` failures mean the file is malformed or a quote is wrong;
-`WRD-*`, `EVD-*`, `REP-*` failures mean the writing is thin, unevidenced or repetitive.
+ones that are real. The code groups mean: `FMT-*` and `REF-*` — the file is malformed, a quote is
+wrong, or a phrase of the verse is missing; `WRD-*` — the section is under its floor; `EVD-*` — a
+claim has no evidence or a report has no collection; `REP-*` — the chapter repeats itself;
+`STY-*` — the prose is long-winded, formal, or carries no analogy.
 
 When the gate is clean:
 
@@ -194,18 +296,19 @@ When the gate is clean:
    `Tafsir ch N (<Name>): verse-by-verse from all <k> sources`,
    then push — never to another branch.
 
-## 9. Batch discipline for long chapters
+## 10. Batch discipline for long chapters
 
 One file per chapter, but a chapter may be written in batches of verses (for example 50 verses at
 a time). A batch is not finished until its verses pass the gate *and* the file's structure is
 intact — a half-written chapter is a failing chapter, so keep the file complete at every commit
 or keep batches on a scratch copy and splice them in one by one, auditing after each splice.
 
-## 10. What this pass deliberately does not do
+## 11. What this pass deliberately does not do
 
 * It does not mirror any single tafsir. It learns from all of them and writes one clear account.
 * It does not transliterate long Arabic passages, quote poetry at length, or reproduce the
   academic apparatus of the sources.
 * It does not argue theology, or adjudicate between schools on matters the verse does not settle.
-* It does not fill silence. Where the sources have little, the section is short and says what is
-  known.
+* It does not fill silence. Where a phrase has little material, the prose under it stays honest
+  and brief rather than padded — the verse's floor is met from the material the sources do carry:
+  its context, its cross-references, its rulings, and the reports attached to it.

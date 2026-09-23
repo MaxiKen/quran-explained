@@ -12,13 +12,16 @@ no WARN either). The rule set is written out in TAFSIR_PROMPT.md; the codes
 below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
-          headings per verse, placeholders
-  WRD-*   length: verse and introduction word floors/ceilings
-  EVD-*   evidence: every verse carries at least one checkable anchor, and every
-          prophetic attribution names its collection
+          phrase headings and their coverage of the verse, placeholders
+  WRD-*   length: verse floor (500 words, rising with the verse), introduction
+  EVD-*   evidence: every verse carries checkable anchors, and every prophetic
+          attribution names its collection
   REF-*   references: citations resolve to real verses, every quoted Qur'an
-          clause is verbatim from data/chapter_NNN.js, quoting style is kept
+          clause is verbatim from data/chapter_NNN.js, every phrase heading is
+          a phrase of that verse and stands in order, quoting style is kept
   REP-*   repetition: duplicate sentences, templated sections, filler/meta prose
+  STY-*   style: simple diction, sentence length and readability, and the
+          relatable analogy the prompt asks each verse to carry
   GRD-*   grounding (advisory): distinctive names in a section should appear in
           that verse's source digest (tmp/sources/NNN.json, built by sources.py)
 
@@ -31,7 +34,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
+import statistics
 import sys
 import unicodedata
 from collections import defaultdict
@@ -44,17 +49,33 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 150
-MAX_VERSE_WORDS = 650          # soft: points at a section that has drifted long
-MIN_HEADINGS = 2
-MAX_HEADINGS = 6               # soft
-MIN_INTRO_WORDS = 200
-MAX_INTRO_WORDS = 900
+MIN_VERSE_WORDS = 500          # hard floor for every verse, however short
+SCALE_FACTOR = 6.0             # ... and the floor climbs with the verse
+SCALE_CAP = 3000               # ... up to here
+MAX_VERSE_WORDS = 4000         # soft: above this, check for padding
+MAX_HEADINGS = 30              # soft
+MIN_INTRO_WORDS = 250
+MAX_INTRO_WORDS = 1500         # soft
 MIN_SENTENCE_WORDS = 10        # shortest sentence that counts as a duplicate
 TEMPLATE_FAIL = 0.30           # 8-gram overlap between two verse sections
 TEMPLATE_WARN = 0.18
 GROUNDING_MIN_TOKENS = 5
 GROUNDING_MISS_RATIO = 0.50    # advisory only
+
+PHRASE_COVERAGE_MIN = 0.90     # share of the verse's words that headings must carry
+PHRASE_GAP_MAX = 8             # words a single uncovered gap may run to
+PHRASE_EDGE_MAX = 3            # words left uncovered at the start or end
+
+ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
+ANALOGY_WARN_SHARE = 0.60
+
+MEAN_SENTENCE_FAIL = 32.0
+MEAN_SENTENCE_WARN = 26.0
+LONG_SENTENCE_FAIL = 0.25
+LONG_SENTENCE_WARN = 0.12
+FLESCH_FAIL = 45.0
+FLESCH_WARN = 55.0
+LONG_WORD_WARN = 0.02
 
 # --------------------------------------------------------------- rule patterns
 
@@ -83,6 +104,21 @@ LANGUAGE = re.compile(
     r"\bpronoun\b|\bpreposition\b|\btranslated\b|\btranslation\b|\bmeans\b)",
     re.I)
 
+ANALOGY = re.compile(
+    r"(\bimagine\b|\bthink of\b|\bpicture\b|\bis like\b|\blike a\b|\blike the\b|\bas if\b|\bas though\b|"
+    r"\bcompare (?:it|this|them|that)\b|\bin the same way\b|\bthe way a\b|\bsimilar to\b|\bmuch like\b|"
+    r"\bjust as a\b|\bit is as though\b|\ba good comparison\b|\bthink about\b|\bsuppose you\b)",
+    re.I)
+
+DICTION = re.compile(
+    r"\b(utilis?e[ds]?|utiliz\w+|endeavour\w*|endeavor\w*|commence[sd]?|commencing|subsequent\w*|"
+    r"notwithstanding|aforementioned|heretofore|thereof|wherein|thereby|whereby|elucidat\w+|explicat\w+|"
+    r"paradigm\w*|juxtapos\w+|myriad\w*|plethora|facilitat\w+|cognizant|requisite|henceforth|"
+    r"peruse[sd]?|ascertain\w*|albeit|hitherto|dichotom\w+|instantiate\w*|delineat\w+|promulgat\w+|"
+    r"expound\w*|propound\w*|eschew\w*|imbue[sd]?|engender\w*|encapsulat\w+|vis-[\u00e0a]-vis|"
+    r"inter alia|prima facie|de facto|a priori|ipso facto|erstwhile|veritable|multifaceted)\b",
+    re.I)
+
 QURAN_QUOTE = re.compile(
     r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?"
     r"(?:\s*,\s*(\d{1,3}):(\d{1,3}))?"
@@ -93,6 +129,8 @@ BARE_REF = re.compile(r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?
 
 CURLY_ONLY_QUOTE = re.compile(r"\*[\u201c]([^\u201d]{8,})[\u201d]\*")
 STRAIGHT_IN_ITALIC = re.compile(r"\*\"([^\"]{8,})\"\*")
+
+PHRASE_HEADING = re.compile(r"^\*\*[\u201c\"](.+?)[\u201d\"]\*\*[ \t]*$")
 
 FILLER = [
     (FAIL, r"\bthis (section|file|document|draft|commentary|payload)\b", "process leakage: write about the verse, not the document"),
@@ -110,15 +148,18 @@ FILLER = [
     (WARN, r"\bthroughout history\b|\bsince time immemorial\b|\bcountless generations\b", "vague generality"),
 ]
 
-PROPHET_REF = re.compile(
-    r"(\bthe Prophet\b(?!s)|\uFDFA|\bthe Messenger of (?:Allah|God)\b|\bAllah[\u2019']s Messenger\b)")
-
 GENERIC_HEADINGS = {
     "commentary", "explanation", "introduction", "overview", "summary",
     "lesson", "lessons", "note", "notes", "conclusion", "reflection",
     "reflections", "analysis", "discussion", "context", "background", "the verse",
 }
 
+PROPHET_REPORT = re.compile(
+    r"(?:\bthe Prophet\b(?!s)|\uFDFA|\bthe Messenger of (?:Allah|God)\b|\bAllah[\u2019']s Messenger\b)"
+    r"[^.!?]{0,70}?\b(?:said|says|reported|narrated|stated|declared|told|instructed|warned)\b", re.I)
+
+PROPHET_REF = re.compile(
+    r"(\bthe Prophet\b(?!s)|\uFDFA|\bthe Messenger of (?:Allah|God)\b|\bAllah[\u2019']s Messenger\b)")
 
 
 class Finding:
@@ -126,6 +167,11 @@ class Finding:
 
     def __init__(self, level, code, ref, line, message):
         self.level, self.code, self.ref, self.line, self.message = level, code, ref, line, message
+
+
+def verse_floor(verse_words: int) -> int:
+    """Words a verse section must carry: 500, rising 6x with the verse."""
+    return max(MIN_VERSE_WORDS, min(SCALE_CAP, int(math.ceil(SCALE_FACTOR * verse_words))))
 
 
 def _strip_marks(text: str) -> str:
@@ -142,6 +188,19 @@ def _canon(text: str) -> str:
     return re.sub(r"\s+", " ", _strip_marks(text)).strip().lower()
 
 
+def _prose_only(body: str) -> str:
+    """Body text without the phrase headings' quoted verse wording."""
+    out = []
+    for line in body.split("\n"):
+        m = PHRASE_HEADING.match(line)
+        if m:
+            continue
+        if line.startswith("**") and line.endswith("**"):
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 # ------------------------------------------------------------------- the checks
 
 
@@ -154,9 +213,6 @@ def audit_chapter(chapter: int, opts) -> list:
 
     def warn(code, ref, line, msg):
         findings.append(Finding(WARN, code, ref, line, msg))
-
-    def info(code, ref, line, msg):
-        findings.append(Finding(INFO, code, ref, line, msg))
 
     if not path.exists():
         fail("FMT-FILE", "%d" % chapter, 0, "tafsir/%s.md does not exist" % C.pad3(chapter))
@@ -193,7 +249,6 @@ def audit_chapter(chapter: int, opts) -> list:
             fail("FMT-INTRO-SEP", "%d" % chapter, doc.intro_heading_line,
                  "a '---' separator appears inside the introduction")
 
-    # every verse present exactly once, in order
     expected = [v["ayah_no_surah"] for v in C.verses(chapter)]
     found = [s.verse for s in doc.sections]
     if found != expected:
@@ -212,15 +267,15 @@ def audit_chapter(chapter: int, opts) -> list:
         fail("FMT-VERSES", "%d" % chapter, 0,
              "verse headings must run 1..%d, ascending, one each (%s)" % (len(expected), "; ".join(detail)))
 
-    # per-section checks
-    all_sentences = defaultdict(list)          # normalised sentence -> [(ref, line, text)]
-    quotes_seen = defaultdict(list)            # canonical wording -> refs
+    all_sentences = defaultdict(list)
+    quotes_seen = defaultdict(list)
+    analogy_sections = 0
+    prose_chunks = []
 
     for section in doc.sections:
         ref = section.ref
         anchor = section.start
 
-        # heading line, quote line, spacing
         after_heading = section.lines[1] if len(section.lines) > 1 else ""
         if after_heading.strip() != "":
             fail("FMT-SPACING", ref, anchor + 1, "blank line required after the verse heading")
@@ -246,81 +301,86 @@ def audit_chapter(chapter: int, opts) -> list:
 
         body = section.body()
         body_words = doc.words(body)
-        if body_words < MIN_VERSE_WORDS:
-            fail("WRD-FLOOR", ref, anchor, "verse tafsir is %d words (floor %d)" % (body_words, MIN_VERSE_WORDS))
+        verse_words = len(C.words(C.ayah_en(chapter, section.verse)))
+        floor = verse_floor(verse_words)
+        if body_words < floor:
+            fail("WRD-FLOOR", ref, anchor,
+                 "verse tafsir is %d words; this verse needs at least %d (floor = 500, scaled 6x the verse's %d words)"
+                 % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
-            warn("WRD-CEILING", ref, anchor, "verse tafsir is %d words (soft ceiling %d)" % (body_words, MAX_VERSE_WORDS))
+            warn("WRD-CEILING", ref, anchor,
+                 "verse tafsir is %d words (soft ceiling %d \u2014 check for padding)" % (body_words, MAX_VERSE_WORDS))
         if re.search(r"\bTODO\b|\bTBD\b|PLACEHOLDER", body):
             fail("FMT-PLACEHOLDER", ref, anchor, "placeholder text left in the section")
 
         paragraphs = C.split_paragraphs(body)
         if len(paragraphs) < 2:
-            fail("FMT-PARAGRAPHS", ref, anchor, "a verse section is at least 2 paragraphs under at least 2 headings")
+            fail("FMT-PARAGRAPHS", ref, anchor, "a verse section is at least 2 paragraphs")
 
-        # headings
         heads = section.headings()
-        if len(heads) < MIN_HEADINGS:
-            fail("FMT-HEADINGS", ref, anchor,
-                 "%d **heading(s)**: every verse carries at least %d" % (len(heads), MIN_HEADINGS))
+        if not heads:
+            fail("FMT-HEADINGS", ref, anchor, "no **headings**: each phrase of the verse gets one")
         elif len(heads) > MAX_HEADINGS:
             warn("FMT-HEADINGS-COUNT", ref, anchor, "%d headings (soft maximum %d)" % (len(heads), MAX_HEADINGS))
 
-        for idx, (line_no, title) in enumerate(heads):
-            i = line_no - 1                                  # 0-based in file
+        for line_no, title in heads:
+            i = line_no - 1
             if i > 0 and lines[i - 1].strip() != "":
-                fail("FMT-HEADING-SHAPE", ref, line_no, "blank line required before '%s'" % title)
+                fail("FMT-HEADING-SHAPE", ref, line_no, "blank line required before the heading")
             if i + 1 < len(lines) and lines[i + 1].strip() != "":
                 fail("FMT-HEADING-SHAPE", ref, line_no,
-                     "blank line required after '%s' (a heading is its own paragraph)" % title)
+                     "blank line required after the heading (a heading is its own paragraph)")
             nxt = next((h for h in heads if h[0] > line_no), None)
             end = (nxt[0] - 1) if nxt else section.end
             chunk = "\n".join(lines[line_no:end])
             if not re.search(r"[A-Za-z]", chunk):
                 fail("FMT-ORPHAN-HEADING", ref, line_no, "'%s' has no prose under it" % title)
-            if title.strip().strip("*").lower() in GENERIC_HEADINGS:
+            if not PHRASE_HEADING.match(lines[i]) and title.strip().lower() in GENERIC_HEADINGS:
                 fail("FMT-HEADING-GENERIC", ref, line_no,
-                     "'%s' is a generic heading; make it say what the paragraph says" % title)
+                     "'%s' is a generic heading; say what the paragraph says" % title)
         titles = [t.lower() for _, t in heads]
         dupes = sorted({t for t in titles if titles.count(t) > 1})
         if dupes:
             warn("FMT-HEADING-DUP", ref, anchor, "heading repeated in the same section: %s" % ", ".join(dupes))
 
-        # separators: exactly one '---' between sections, never a double blank
-        body_lines = section.lines
-        sep_count = sum(1 for l in body_lines if l.strip() == "---")
+        # phrase coverage: every phrase of the verse quoted, in order, explaining all of it
+        _phrase_coverage(section, chapter, lines, fail, warn)
+
+        # separators
+        sep_count = sum(1 for l in section.lines if l.strip() == "---")
         is_last = section is doc.sections[-1]
         if is_last and sep_count:
             warn("FMT-SEP", ref, anchor, "trailing '---' after the final verse")
         if not is_last and sep_count != 1:
             fail("FMT-SEP", ref, anchor, "expected exactly one '---' before the next verse (found %d)" % sep_count)
 
-        # references and quotations
-        for m in QURAN_QUOTE.finditer(body):
+        # references and quotations (heading lines are the verse's own phrases, not citations)
+        checkable = "\n".join(l for l in body.split("\n") if not PHRASE_HEADING.match(l))
+        for m in QURAN_QUOTE.finditer(checkable):
             s_ch, s_v = int(m.group(1)), int(m.group(2))
             inner = m.group(5)
             if not _ref_ok(s_ch, s_v):
                 fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
                 continue
-            canonical = _canon(C.ayah_en(s_ch, s_v))
-            if _canon(inner) not in canonical:
+            if _canon(inner) not in _canon(C.ayah_en(s_ch, s_v)):
                 fail("REF-QUOTE", ref, anchor,
-                     "quot(e) from %d:%d is not verbatim: %r" % (s_ch, s_v, inner[:70]))
+                     "quote from %d:%d is not verbatim: %r" % (s_ch, s_v, inner[:70]))
             if s_ch == chapter and s_v == section.verse:
                 warn("REF-SELF-QUOTE", ref, anchor,
                      "the verse's own wording is already in the line above; cite it without re-quoting")
 
-        for m in BARE_REF.finditer(body):
+        for m in BARE_REF.finditer(checkable):
             s_ch, s_v = int(m.group(1)), int(m.group(2))
             if not _ref_ok(s_ch, s_v):
                 fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
 
-        for m in CURLY_ONLY_QUOTE.finditer(body):
-            before = body[max(0, m.start() - 45):m.start()]
+        for m in CURLY_ONLY_QUOTE.finditer(checkable):
+            before = checkable[max(0, m.start() - 45):m.start()]
             if not re.search(r"\d{1,3}:\d{1,3}\s*\u2014\s*$", before):
                 warn("REF-UNANCHORED", ref, anchor,
                      "quoted Qur'an clause without its reference beside it: %r" % m.group(1)[:50])
 
-        for m in STRAIGHT_IN_ITALIC.finditer(body):
+        for m in STRAIGHT_IN_ITALIC.finditer(checkable):
             inner = _canon(m.group(1))
             if len(inner) > 18 and any(inner in _canon(v["ayah_en"]) for v in C.verses(chapter)):
                 fail("REF-STRAIGHT-QUOTE", ref, anchor,
@@ -342,17 +402,22 @@ def audit_chapter(chapter: int, opts) -> list:
         elif len(kinds) < 2:
             warn("EVD-THIN", ref, anchor, "only one kind of evidence (%s)" % kinds[0])
 
-        # attribution honesty: a prophetic saying must name its collection
         for para in paragraphs:
             for sentence in C.sentence_split(para):
-                if PROPHET_REF.search(sentence) \
-                        and re.search(r"\b(said|says|reported|narrated|stated|declared|told)\b", sentence, re.I):
+                if PROPHET_REPORT.search(sentence):
                     if not COLLECTIONS.search(sentence) and not COLLECTIONS.search(para):
                         fail("EVD-ATTRIBUTION", ref, anchor,
                              "prophetic report without its collection: %r" % sentence[:90])
                         break
 
-        # grounding: distinctive names should exist in this verse's sources
+        # analogy, and its absence
+        if ANALOGY.search(body):
+            analogy_sections += 1
+        else:
+            warn("STY-ANALOGY", ref, anchor,
+                 "no relatable analogy in this verse (the prompt asks for one where it fits)")
+
+        # grounding
         if not opts.no_grounding:
             missing = _ungrounded(body, chapter, section.verse, opts)
             if missing:
@@ -360,7 +425,8 @@ def audit_chapter(chapter: int, opts) -> list:
                      "%d named/foreign terms not found in this verse's sources (check them): %s"
                      % (len(missing), ", ".join(sorted(missing)[:8])))
 
-        # repetition inside the chapter
+        prose_chunks.append(_prose_only(body))
+
         for para in paragraphs:
             for sentence in C.sentence_split(para):
                 key = C.norm_key(sentence)
@@ -373,7 +439,6 @@ def audit_chapter(chapter: int, opts) -> list:
             fail("REP-SENTENCE", hits[1][0], hits[1][1],
                  "the same sentence appears in %s: %r" % (refs, hits[0][2][:80]))
 
-    # templated sections: shared 8-gram shingles between two verse sections
     shing = [(s.ref, s.start, C.shingles(s.body())) for s in doc.sections]
     for i in range(len(shing)):
         for j in range(i + 1, len(shing)):
@@ -388,37 +453,161 @@ def audit_chapter(chapter: int, opts) -> list:
                 warn("REP-TEMPLATE", shing[j][0], shing[j][1],
                      "%.0f%% overlap with %s" % (overlap * 100, shing[i][0]))
 
-    # filler / meta vocabulary, file-wide (so it is caught even in the intro)
-    body_text = "\n".join(s.body() for s in doc.sections)
+    # -------- chapter-level style ---------------------------------------------
+    if doc.sections:
+        share = analogy_sections / len(doc.sections)
+        if share < ANALOGY_MIN_SHARE:
+            fail("STY-ANALOGY", "%d" % chapter, 0,
+                 "only %d of %d verses carry a relatable analogy (at least %.0f%% should)"
+                 % (analogy_sections, len(doc.sections), ANALOGY_MIN_SHARE * 100))
+        elif share < ANALOGY_WARN_SHARE:
+            warn("STY-ANALOGY", "%d" % chapter, 0,
+                 "%d of %d verses carry a relatable analogy" % (analogy_sections, len(doc.sections)))
+
+    prose = "\n".join(prose_chunks)
+    metrics = C.style_metrics(prose)
+    if metrics["sentences"] >= 20 and metrics["words"] >= 800:
+        if metrics["mean_sentence"] > MEAN_SENTENCE_FAIL:
+            fail("STY-SENTENCE", "%d" % chapter, 0,
+                 "mean sentence is %.1f words (keep it under %.0f): split the long ones"
+                 % (metrics["mean_sentence"], MEAN_SENTENCE_WARN))
+        elif metrics["mean_sentence"] > MEAN_SENTENCE_WARN:
+            warn("STY-SENTENCE", "%d" % chapter, 0,
+                 "mean sentence is %.1f words (target under %.0f)" % (metrics["mean_sentence"], MEAN_SENTENCE_WARN))
+        if metrics["long_sentence_share"] > LONG_SENTENCE_FAIL:
+            fail("STY-SENTENCE-LONG", "%d" % chapter, 0,
+                 "%.0f%% of sentences run past 40 words (keep it under %.0f%%)"
+                 % (metrics["long_sentence_share"] * 100, LONG_SENTENCE_WARN * 100))
+        elif metrics["long_sentence_share"] > LONG_SENTENCE_WARN:
+            warn("STY-SENTENCE-LONG", "%d" % chapter, 0,
+                 "%.0f%% of sentences run past 40 words" % (metrics["long_sentence_share"] * 100))
+        if metrics["flesch"] < FLESCH_FAIL:
+            fail("STY-READABILITY", "%d" % chapter, 0,
+                 "reading ease %.0f (plain English is 60+; %.0f is the floor)"
+                 % (metrics["flesch"], FLESCH_WARN))
+        elif metrics["flesch"] < FLESCH_WARN:
+            warn("STY-READABILITY", "%d" % chapter, 0,
+                 "reading ease %.0f (target 60+): shorter sentences, plainer words" % metrics["flesch"])
+        if metrics["long_word_share"] > LONG_WORD_WARN:
+            warn("STY-LONGWORDS", "%d" % chapter, 0,
+                 "%.1f%% of words are 12+ letters (target under %.0f%%)"
+                 % (metrics["long_word_share"] * 100, LONG_WORD_WARN * 100))
+
+    hits = list(DICTION.finditer(prose))
+    if hits:
+        words = sorted({h.group(0).lower() for h in hits})
+        level = fail if len(hits) >= 6 else warn
+        level("STY-DICTION", "%d" % chapter, raw[:hits[0].start()].count("\n") + 1,
+              "%d formal word(s) where plain English does: %s" % (len(hits), ", ".join(words[:8])))
+
+    # -------- filler, whitespace, hygiene -------------------------------------
     for level, pattern, why in FILLER:
         for m in re.finditer(pattern, raw, re.I):
             line_no = raw[:m.start()].count("\n") + 1
-            text = m.group(0)
-            (fail if level == FAIL else warn)("REP-FILLER", str(chapter), line_no,
-                                              "%s: %r" % (why, text))
-            break            # one report per pattern is enough
+            (fail if level == FAIL else warn)("REP-FILLER", "%d" % chapter, line_no,
+                                              "%s: %r" % (why, m.group(0)))
+            break
 
-    # whitespace and file hygiene
     if "\t" in raw:
-        fail("FMT-WHITESPACE", str(chapter), raw[:raw.index("\t")].count("\n") + 1, "tab character")
+        fail("FMT-WHITESPACE", "%d" % chapter, raw[:raw.index("\t")].count("\n") + 1, "tab character")
     for i, line in enumerate(lines):
         if line != line.rstrip():
-            fail("FMT-WHITESPACE", str(chapter), i + 1, "trailing whitespace")
+            fail("FMT-WHITESPACE", "%d" % chapter, i + 1, "trailing whitespace")
             break
     m = re.search(r"\n{3,}", raw)
     if m:
-        fail("FMT-WHITESPACE", str(chapter), raw[:m.start()].count("\n") + 2, "more than one blank line in a row")
+        fail("FMT-WHITESPACE", "%d" % chapter, raw[:m.start()].count("\n") + 2, "more than one blank line in a row")
     if not raw.endswith("\n"):
-        fail("FMT-WHITESPACE", str(chapter), len(lines), "file must end with a single newline")
+        fail("FMT-WHITESPACE", "%d" % chapter, len(lines), "file must end with a single newline")
     elif raw.endswith("\n\n"):
-        fail("FMT-WHITESPACE", str(chapter), len(lines), "file ends with a blank line")
+        fail("FMT-WHITESPACE", "%d" % chapter, len(lines), "file ends with a blank line")
 
-    # a quote repeated many times is a sign of padding
     for wording, refs in quotes_seen.items():
         if len(refs) > 4:
             warn("REP-QUOTE", refs[4], 0, "the same wording is quoted %d times (%s)" % (len(refs), ", ".join(refs[:6])))
 
     return findings
+
+
+def _phrase_coverage(section, chapter, lines, fail, warn):
+    """Every phrase of the verse is quoted as a heading, in order, and explained.
+
+    Coverage is measured on the verse's own translation: the phrase headings,
+    joined, must account for at least 90% of its words, no single skipped run
+    may exceed eight words, and nothing may be skipped at either end.
+    """
+    ref = section.ref
+    verse_text = C.ayah_en(chapter, section.verse)
+    verse_norm = C.loose_norm(verse_text)
+    word_spans = [(m.start(), m.end()) for m in re.finditer(r"[a-z0-9]+", verse_norm)]
+    total = len(word_spans)
+    if not total:
+        return
+
+    headings = [(ln, t) for ln, t in section.headings() if lines[ln - 1].startswith("**\u201c")]
+    if not headings:
+        fail("FMT-PHRASE-NONE", ref, section.start,
+             "no phrase headings: split the verse into its phrases and quote each as **\u201cphrase\u201d**")
+        return
+
+    covered = [False] * total
+    pos = 0
+    for line_no, title in headings:
+        phrase = C.loose_norm(title)
+        if not phrase:
+            fail("FMT-PHRASE-EMPTY", ref, line_no, "empty phrase heading")
+            continue
+        idx = verse_norm.find(phrase, pos)
+        if idx < 0:
+            if verse_norm.find(phrase) >= 0:
+                fail("REF-PHRASE-ORDER", ref, line_no,
+                     "phrase heading is out of verse order: \u201c%s\u201d" % title[:60])
+            else:
+                fail("REF-PHRASE", ref, line_no,
+                     "phrase heading is not a phrase of this verse: \u201c%s\u201d" % title[:60])
+            continue
+        end = idx + len(phrase)
+        for k, (a, b) in enumerate(word_spans):
+            if a >= idx and b <= end:
+                covered[k] = True
+        pos = end
+
+    gaps, run_start = [], None
+    for k in range(total + 1):
+        if k < total and not covered[k]:
+            if run_start is None:
+                run_start = k
+        elif run_start is not None:
+            gaps.append((run_start, k))
+            run_start = None
+
+    uncovered = total - sum(covered)
+    if uncovered:
+        skipped = " ".join(verse_norm.split()[a:b] for a, b in gaps[:1])
+        share = 1 - uncovered / total
+        if share < PHRASE_COVERAGE_MIN:
+            fail("FMT-PHRASE-COVERAGE", ref, section.start,
+                 "phrase headings cover %.0f%% of the verse (floor %.0f%%); not covered: %s"
+                 % (share * 100, PHRASE_COVERAGE_MIN * 100,
+                    " / ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:4])[:160]))
+        elif 1 - uncovered / total < 1.0:
+            warn("FMT-PHRASE-COVERAGE", ref, section.start,
+                 "phrase headings cover %.0f%% of the verse; not covered: %s"
+                 % (share * 100, " / ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:4])[:160]))
+        for a, b in gaps:
+            if b - a > PHRASE_GAP_MAX:
+                fail("FMT-PHRASE-GAP", ref, section.start,
+                     "%d words of the verse sit between phrase headings and are never quoted: \u201c%s\u201d"
+                     % (b - a, " ".join(verse_norm.split()[a:b])[:120]))
+        if gaps:
+            if gaps[0][0] > PHRASE_EDGE_MAX:
+                fail("FMT-PHRASE-EDGE", ref, section.start,
+                     "the verse's first %d words are never quoted: \u201c%s\u201d"
+                     % (gaps[0][0], " ".join(verse_norm.split()[:gaps[0][0]])[:80]))
+            if total - gaps[-1][1] > PHRASE_EDGE_MAX:
+                fail("FMT-PHRASE-EDGE", ref, section.start,
+                     "the verse's last %d words are never quoted: \u201c%s\u201d"
+                     % (total - gaps[-1][1], " ".join(verse_norm.split()[gaps[-1][1]:])[:80]))
 
 
 def _ref_ok(chapter: int, verse: int) -> bool:
@@ -559,7 +748,7 @@ def main(argv=None):
     else:
         counts = report(args.chapter, findings, args.show_info)
         if counts[FAIL] == 0:
-            print("RESULT: PASS \u2014 chapter %s meets the format and evidence rules" % C.pad3(args.chapter))
+            print("RESULT: PASS \u2014 chapter %s meets the format, evidence and style rules" % C.pad3(args.chapter))
             if counts[WARN]:
                 print("        (%d warnings to read before committing)" % counts[WARN])
     bad = sum(1 for f in findings if f.level == FAIL or (args.strict and f.level == WARN))

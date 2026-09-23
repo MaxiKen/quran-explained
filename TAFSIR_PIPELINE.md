@@ -19,7 +19,7 @@ or padded.
 | `tafsir/` | the generated corpus — `001.md` … `114.md` (currently `001.md`) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
-| `scripts/tafsir/` | the pipeline: source digest, scaffold, audit, payload build, status |
+| `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, audit, payload build, status |
 | `tafsir-*/NNN.txt` | 27 imported tafsir works (11 English, 16 Arabic), one `## C:V` section per ayah |
 | `tafsir_initial/NNN.md` | the study-Quran-style verse draft (`initial/` renamed), verses marked `**V**` |
 | `js/`, `css/`, `index.html`, `sw.js` | the reader app; unchanged except that a missing payload no longer breaks a chapter |
@@ -71,8 +71,9 @@ python3 scripts/tafsir/sources.py 2 --stats
 python3 scripts/tafsir/sources.py 2                     # tmp/sources/002.txt + 002.json
 python3 scripts/tafsir/sources.py 2 --verse 255 --cap-ar 4000 --stdout
 
-# 2. scaffold the chapter file (verse quotes copied byte-exact from data/)
+# 2. scaffold the chapter file: byte-exact verse quotes + phrase headings
 python3 scripts/tafsir/scaffold.py 2
+python3 scripts/tafsir/scaffold.py 2 --stdout | head -40   # preview the phrase cut
 
 # 3. write the prose, then run the gate
 python3 scripts/tafsir/audit.py 2                       # exit 0 only on PASS
@@ -90,12 +91,25 @@ python3 scripts/tafsir/status.py --md                   # table for the worklog
 
 | Code | Meaning |
 |---|---|
-| `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, headings, separators, spacing, placeholders |
-| `WRD-*` | length: verse body under 150 words or over the soft 650; introduction outside 200–900 |
+| `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, headings, separators, spacing, placeholders, and the phrase headings that must cover the verse |
+| `REF-PHRASE*` | a phrase heading that is not the verse's own wording, or is out of verse order |
+| `WRD-*` | length: a verse under its floor (500 words, or 6× the verse's own length, capped at 3,000) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
+| `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
+
+The thresholds that keep chapters honest as they grow:
+
+| Rule | Value |
+|---|---|
+| Words per verse | floor `max(500, 6 × verse words)`, capped 3,000; soft ceiling 4,000 |
+| Introduction | 250–1,500 words |
+| Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
+| Analogy | at least half the chapter's verses carry one |
+| Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
+| Reading ease | Flesch 60+ (warn 55, fail 45) |
 
 The grounding check reads `tmp/sources/NNN.json`, so run `sources.py N` before `audit.py N` for
 the full picture (`--no-grounding` skips it).
@@ -113,8 +127,9 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. A chapter is done when `audit.py N` ends `RESULT: PASS`, `build_data.py N --check` reports no
-   stale payload, the worklog row exists, and `sw.js` has been bumped.
+2. A chapter is done when `audit.py N` ends `RESULT: PASS`, every verse clears its own word floor
+   (`status.py N` shows them side by side), `build_data.py N --check` reports no stale payload, the
+   worklog row exists, and `sw.js` has been bumped.
 3. Commit per chapter on the session branch
    (`Tafsir ch N (<Name>): verse-by-verse from all <k> sources`); push only to that branch.
 4. Long chapters may be written in batches, but each commit leaves a chapter that passes the
