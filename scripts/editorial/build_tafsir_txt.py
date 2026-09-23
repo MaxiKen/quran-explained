@@ -43,6 +43,10 @@ Arabic set — the top-10 greats and the modern heavyweights, Arabic editions
     tafsir-ibn-uthaymeen        tafsir-ibn-uthaymeen             3,456 records
     tafsir-tadabbur-wa-amal     tadabbur-wa-amal                 6,236 records (full)
     tafsir-abu-bakr-al-jazairi  abu-bakr-jabir-al-jazairi        6,236 records (full)
+    tafsir-as-saadi             ar-tafsir-as-saadi               6,236 records (full)
+
+(ar-tafseer-al-saddi is a separate condensed Arabic as-Sa'di abridgment from
+quran.com - 6,177 records, ~6x shorter - and is deliberately not built here.)
 
 The modern heavyweights Fi Zilal al-Quran, Maarif-ul-Quran, Bayan ul-Quran and
 Tazkirul Quran have no Arabic edition upstream (Urdu/English only), so there is
@@ -96,6 +100,7 @@ AR_SET = {
     "tafsir-ibn-uthaymeen":       ("TAFSIR IBN UTHAYMEEN (Arabic)",        "tafsir-ibn-uthaymeen"),
     "tafsir-tadabbur-wa-amal":    ("TADABBUR WA AMAL (Arabic)",            "tadabbur-wa-amal"),
     "tafsir-abu-bakr-al-jazairi": ("ABU BAKR JABIR AL-JAZAIRI (Arabic)",   "abu-bakr-jabir-al-jazairi"),
+    "tafsir-as-saadi":            ("TAFSIR AS-SAADI (Arabic)",             "ar-tafsir-as-saadi"),
 }
 
 CHECK_IK = ("TAFSIR IBN KATHIR (English)", "en-tafisr-ibn-kathir")
