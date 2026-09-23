@@ -337,3 +337,8 @@ and leaves the whole file coherent. Progress tracked here, separately from §5.
 | 97 (batch AW) | 97:1–97:5 | 5 insertions + 5 repairs (5 after-header blanks); 6 refs touched (44:3, 97:1, 97:3, 97:4, 44:4, 97:5) + 1 bare (2:185), all verbatim. All 5 verses ≥2 H2. Closes sūrah 97. | `d63bb13` |
 | 98 (batch AX) | 98:1–98:8 + intro | 9 insertions (intro + 8 verses) + 8 repairs (8 after-header blanks); 11 refs touched (98:2, 80:13, 80:14, 80:15, 80:16, 98:3, 3:105, 21:25, 16:36, 98:6, 98:7), all verbatim. All 8 verses ≥2 H2. Closes sūrah 98. | `b897e3f` |
 | 99 (batch AY) | 99:1–99:8 + intro | 9 insertions (intro + 8 verses) + 8 repairs (8 after-header blanks); 2 refs touched (22:1, 84:3), all verbatim. All 8 verses ≥2 H2. Closes sūrah 99. | `7858326` |
+| 80 (batch AU) | 80:1–80:42 | 23 insertions + 43 repairs (42 after-header blanks, 1 typo repair); 1 ref touched (71:27), all verbatim. All 42 verses ≥2 H2. Closes sūrah 80. | `3c88c59` |
+| 81 (batch AV) | 81:1–81:29 | 20 insertions + 29 repairs (29 after-header blanks); 6 refs touched (81:1, 82:1, 84:1, 37:22, 56:7, 3:30), all verbatim. All 29 verses ≥2 H2. Closes sūrah 81. | `4e70d98` |
+| 82 (batch AW) | 82:1–82:19 | 11 insertions + 17 repairs (17 after-header blanks); 4 refs touched (73:18, 40:16, 25:26, 1:4), all verbatim. All 19 verses ≥2 H2. Closes sūrah 82. | `d38d9a1` |
+| 83 (batch AX) | 83:1–83:36 | 14 insertions + 35 repairs (35 after-header blanks); 4 refs touched (17:35, 55:9, 25:13, 37:61), all verbatim. All 36 verses ≥2 H2. Closes sūrah 83. | `76f1688` |
+| 84 (batch AY) | 84:1–84:25 | 13 insertions + 25 repairs (25 after-header blanks); 1 ref touched (11:108), all verbatim. All 25 verses ≥2 H2. Closes sūrah 84. | `a882cad` |
