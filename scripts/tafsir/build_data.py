@@ -29,10 +29,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
 
+def unfinished(n: int):
+    """How many of the chapter's verses are still scaffolds, and the first one. (0, None) if none."""
+    doc = C.load_chapter_doc(n)
+    if doc is None:
+        return None
+    pending = [s.verse for s in doc.sections if "TODO" in s.body()]
+    return (len(pending), len(doc.sections), pending[0]) if pending else (0, len(doc.sections), None)
+
+
 def build(n: int):
     doc = C.load_chapter_doc(n)
     if doc is None:
         return None
+    # a chapter still written in batches must never reach the app: refuse to publish a scaffold
+    pending, total, first = unfinished(n)
+    if pending:
+        raise SystemExit(
+            "tafsir/%s.md is still being written: %d of %d verses are TODO scaffolds "
+            "(first: %d:%d). Finish the chapter, then build the payload."
+            % (C.pad3(n), pending, total, n, first))
     verses = {}
     for section in doc.sections:
         body = section.body()
@@ -63,10 +79,19 @@ def main(argv=None):
     if not args.all and not args.chapter:
         ap.error("give a chapter number or --all")
 
-    written = unchanged = skipped = stale = 0
+    written = unchanged = skipped = stale = progress = 0
     for n in chapters:
         if not C.output_path(n).exists():
             skipped += 1
+            continue
+        pending, total, first = unfinished(n)
+        if pending:
+            progress += 1
+            if not args.all:
+                print("tafsir/%s.md is still being written: %d of %d verses are TODO scaffolds "
+                      "(first: %d:%d). Finish the chapter, then build the payload."
+                      % (C.pad3(n), pending, total, n, first), file=sys.stderr)
+                return 1
             continue
         text = payload(n)
         target = C.DATA_DIR / ("tafsir_%s.json" % C.pad3(n))
@@ -91,12 +116,12 @@ def main(argv=None):
               % (C.pad3(n), len(build(n)["verses"]), len(text)))
 
     if args.check:
-        print("check: %d up to date, %d stale, %d chapters not written yet"
-              % (unchanged, stale, skipped))
+        print("check: %d up to date, %d stale, %d chapters not written yet, %d still being written"
+              % (unchanged, stale, skipped, progress))
         return 1 if stale else 0
     if not args.stdout:
-        print("build: %d written, %d already current, %d chapters not written yet"
-              % (written, unchanged, skipped))
+        print("build: %d written, %d already current, %d chapters not written yet, %d still being written"
+              % (written, unchanged, skipped, progress))
     return 0
 
 

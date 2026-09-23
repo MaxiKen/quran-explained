@@ -710,7 +710,14 @@ def main(argv=None):
                 rows.append((n, None, None))
                 continue
             findings = audit_chapter(n, args)
+            # a chapter still written in batches carries TODO scaffolds: report progress, not failure
+            doc = C.load_chapter_doc(n)
+            pending = [s.verse for s in doc.sections if "TODO" in s.body()]
             c = defaultdict(int)
+            if pending:
+                done = len(doc.sections) - len(pending)
+                rows.append((n, None, None, (done, len(doc.sections), pending[0])))
+                continue
             for f in findings:
                 c[f.level] += 1
             for k, v in c.items():
@@ -718,19 +725,32 @@ def main(argv=None):
             rows.append((n, c, findings))
         if args.json:
             out = []
-            for n, c, findings in rows:
+            for row in rows:
+                n, c, findings = row[0], row[1], row[2]
                 if findings is None:
-                    out.append({"chapter": n, "present": False})
+                    prog = row[3] if len(row) > 3 else None
+                    out.append({"chapter": n, "present": bool(prog) or prog is None,
+                                "in_progress": bool(prog),
+                                "written_verses": prog[0] if prog else 0,
+                                "total_verses": prog[1] if prog else 0})
                     continue
                 out.append({"chapter": n, "present": True,
                             "fail": c[FAIL], "warn": c[WARN],
                             "findings": [f.__dict__ for f in findings]})
             print(json.dumps(out, ensure_ascii=False, indent=2))
         else:
-            done = sum(1 for _, c, _ in rows if c is not None)
-            for n, c, findings in rows:
+            done = sum(1 for row in rows if row[1] is not None)
+            in_progress = 0
+            for row in rows:
+                n, c, findings = row[0], row[1], row[2]
                 if c is None:
-                    print("%s  \u2014 not written" % C.pad3(n))
+                    if len(row) > 3:                      # unfinished chapter, written in batches
+                        in_progress += 1
+                        wrote, total_v, nxt = row[3]
+                        print("%s  \u2014 in progress: %d/%d verses written, next %d:%d"
+                              % (C.pad3(n), wrote, total_v, n, nxt))
+                    else:
+                        print("%s  \u2014 not written" % C.pad3(n))
                     continue
                 marks = [f for f in findings if f.level == FAIL or (args.strict and f.level == WARN)]
                 status = "PASS" if not marks else "FAIL"
@@ -739,7 +759,8 @@ def main(argv=None):
                          "" if not marks else "; ".join(sorted({f.code for f in marks})[:6])))
                 bad.extend(marks)
             print("")
-            print("chapters written: %d/114 | FAIL %d | WARN %d" % (done, total[FAIL], total[WARN]))
+            print("chapters written: %d/114 | in progress: %d | FAIL %d | WARN %d"
+                  % (done, in_progress, total[FAIL], total[WARN]))
         failing = total[FAIL] + (total[WARN] if args.strict else 0)
         return 1 if failing else 0
 

@@ -38,8 +38,10 @@ Excerpts worth knowing:
   collection, a named authority, or a language point;
 * prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a
   relatable analogy where one fits;
-* a chapter is finished when the auditor is clean, every verse clears its word floor, the payload
-  is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
+* long chapters are written in batches, gated with `scripts/tafsir/batch.py N` as they land, and
+  the writer keeps going batch after batch until the chapter is finished;
+* a chapter is finished when the whole-file auditor is clean, every verse clears its word floor,
+  the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 
 ## App structure
 

@@ -94,9 +94,12 @@ added the source-level material listed below.
 * **Written so far: the introduction and verses 2:1–2:5** — the three letters, "This is the Book",
   the unseen and the first portrait of the believers. Per-verse words 622–868 against floors of 550;
   phrase coverage 97–100%; five analogies; mean sentence 21.2 words, 7% over 40 words, Flesch 71.
-* Batch gate (`audit.py` findings filtered to the written verses): no findings for 2:1–2:5. The
-  remaining FAIL/WARN counts belong to the 281 scaffolded verses still carrying TODO text, which is
-  by design — `scaffold.py` writes a deliberately invalid skeleton.
+* Batch gate for 2:1–2:5: `batch.py 2 --through 5` → **PASS** (0 FAIL, one advisory `GRD-TOKENS`
+  warning). `audit.py --all` reports the chapter as `in progress: 5/286 verses written, next 2:6`
+  rather than as a failing chapter, and `build_data.py 2` refuses to publish it while scaffolds
+  remain — so the app can never receive a half-written sūrah.
+* The chapter is written batch by batch and the writer does not stop between batches
+  (`TAFSIR_PROMPT.md` §10). Batch tooling: `batch.py N --from A --to B`, `batch.py N --progress`.
 * No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
   app keeps showing "coming soon" for al-Baqarah.
 * Next batches: 2:6–2:7 (those who reject the message), then 2:8–2:20 (the hypocrites), then the

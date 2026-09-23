@@ -25,6 +25,10 @@ Everything you write about a verse must be traceable to a source that discusses 
 the Qur'an's own text, or to a report the sources carry. No invention, no padding, no
 paraphrase of the translation dressed up as commentary.
 
+**One standing instruction:** a chapter is written in batches of verses (§10), and you do not
+stop between them. Write a batch, run the batch gate, fix what fails, start the next batch, and
+continue on your own until every verse of the chapter is written and `audit.py N` passes.
+
 ## 2. Build the inputs first
 
 ```bash
@@ -285,6 +289,11 @@ Worked examples from chapter 1:
 ## 9. Self-check before calling a chapter done
 
 ```bash
+# while the chapter is being written, gate each batch (see §10)
+python3 scripts/tafsir/batch.py N --from A --to B   # only the verses written so far
+python3 scripts/tafsir/batch.py N --progress        # how far the chapter has come
+
+# when the last verse is written, the whole chapter must pass
 python3 scripts/tafsir/audit.py N              # must end in RESULT: PASS
 python3 scripts/tafsir/status.py N             # words per verse against its floor, gate verdict
 python3 scripts/tafsir/build_data.py N         # writes data/tafsir_NNN.json
@@ -309,12 +318,67 @@ When the gate is clean:
    `Tafsir ch N (<Name>): verse-by-verse from all <k> sources`,
    then push — never to another branch.
 
-## 10. Batch discipline for long chapters
+## 10. Batch discipline — and keep going until the chapter is finished
 
-One file per chapter, but a chapter may be written in batches of verses (for example 50 verses at
-a time). A batch is not finished until its verses pass the gate *and* the file's structure is
-intact — a half-written chapter is a failing chapter, so keep the file complete at every commit
-or keep batches on a scratch copy and splice them in one by one, auditing after each splice.
+A chapter is written one file (`tafsir/NNN.md`), but a long chapter is written in **batches of
+verses**. The batch is the unit of work; the chapter is the unit of delivery. What matters is the
+standing instruction:
+
+> **Write a batch, gate the batch, fix what fails, then start the next batch immediately.
+> Do not stop between batches to ask for permission or confirmation. Keep going on your own
+> until every verse of the chapter is written and the whole chapter passes `audit.py N`.**
+
+Stopping mid-chapter is only justified when a verse has a genuine problem — a source that cannot
+be located, a contradiction between sources that needs a decision — or when the file would be left
+in a state that cannot be repaired by the next batch. Wanting a check-in is not a reason to stop.
+
+### The batch loop
+
+```bash
+# once per chapter (see §2)
+python3 scripts/tafsir/sources.py N
+python3 scripts/tafsir/scaffold.py N
+
+# then, for each batch of verses (say 5-20, sized so it can be finished in one sitting)
+python3 scripts/tafsir/batch.py N --from 6 --to 20     # gate just this batch
+python3 scripts/tafsir/batch.py N --progress           # how far the chapter has come
+
+# when the last verse is written:
+python3 scripts/tafsir/audit.py N                      # the whole chapter must pass
+python3 scripts/tafsir/build_data.py N
+python3 scripts/tafsir/build_data.py N --check
+```
+
+`batch.py` runs the same rule set as `audit.py` but reports only the verses that are written, so a
+finished batch is judged on its own. It prints per-verse words against floors, phrase coverage,
+whether the verse carries an analogy, and the batch's sentence-length and reading-ease numbers —
+then tells you the next verse to write. Run it, fix every FAIL, and go straight on to the next
+batch.
+
+### Rules that hold at every commit
+
+1. **Never leave a half-written verse.** A verse's section is either the scaffold's `TODO` text or
+   finished prose. Drafts live in the scratch area, not in the chapter file.
+2. **Re-read §4 to §8 before each batch.** The standard is the same for verse 200 as for verse 1.
+   Batch gates drift when the writer stops looking at the rule book.
+3. **A batch is done when it is clean.** No FAIL, and every warning read. Do not carry a known
+   problem forward into the next batch; it gets harder to see later.
+4. **Commit per batch** (or per two batches) on the session branch, with the message
+   `Tafsir ch N (<Name>): verses A-B`. The chapter is unfinished at this point: the payload is not
+   built, `sw.js` is not bumped, and the worklog row is not added.
+5. **The chapter is done** when `audit.py N` passes in full, `status.py N` shows every verse above
+   its floor, `build_data.py N --check` reports no stale payload, `sw.js` `CACHE_VERSION` is
+   bumped, and `TAFSIR_WORKLOG.md` has the row. Then commit and push, and move to the next chapter
+   in the same way.
+6. **Progress is visible between batches** through `batch.py N --progress` and the worklog's "in
+   progress" section; nobody has to ask how far the chapter has come.
+
+### Choosing a batch size
+
+Sized to finish, not to look impressive: 5-20 verses for an ordinary stretch, fewer when verses are
+long (one or two verses can be a batch in the legal passages of al-Baqarah, where a single verse
+can carry a whole page of law), more for short consecutive verses such as the closing sūrahs.
+Whatever the size, the loop is the same: write, gate, fix, continue.
 
 ## 11. What this pass deliberately does not do
 

@@ -19,7 +19,7 @@ or padded.
 | `tafsir/` | the generated corpus — `001.md` … `114.md` (currently `001.md`) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
-| `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, audit, payload build, status |
+| `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
 | `tafsir-*/NNN.txt` | 27 imported tafsir works (11 English, 16 Arabic), one `## C:V` section per ayah |
 | `tafsir_initial/NNN.md` | the study-Quran-style verse draft (`initial/` renamed), verses marked `**V**` |
 | `js/`, `css/`, `index.html`, `sw.js` | the reader app; unchanged except that a missing payload no longer breaks a chapter |
@@ -80,8 +80,10 @@ python3 scripts/tafsir/scaffold.py 2
 python3 scripts/tafsir/scaffold.py 2 --stdout | head -40   # preview the phrase cut
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 
-# 3. write the prose, then run the gate
-python3 scripts/tafsir/audit.py 2                       # exit 0 only on PASS
+# 3. write the prose in batches, gating each batch before the next one starts
+python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
+python3 scripts/tafsir/batch.py 2 --progress            # how far the chapter has come
+python3 scripts/tafsir/audit.py 2                       # whole chapter: exit 0 only on PASS
 python3 scripts/tafsir/audit.py 2 --json > findings.json
 python3 scripts/tafsir/audit.py --all                   # corpus overview
 
@@ -92,7 +94,9 @@ python3 scripts/tafsir/status.py 2
 python3 scripts/tafsir/status.py --md                   # table for the worklog
 ```
 
-`audit.py` is the contract, not a suggestion. Codes and what they mean:
+`audit.py` is the contract, not a suggestion; `batch.py` applies the same contract to the verses
+written so far, so a batch can be judged while the rest of the chapter is still scaffold. Codes and
+what they mean:
 
 | Code | Meaning |
 |---|---|
@@ -132,13 +136,17 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. A chapter is done when `audit.py N` ends `RESULT: PASS`, every verse clears its own word floor
+2. A long chapter is written in batches and the writer does not stop between them: write a batch,
+   gate it with `batch.py N`, fix every FAIL, start the next batch, and continue on until the last
+   verse is written. Stopping mid-chapter is for a real blockage (a source that cannot be located,
+   a contradiction that needs a decision), never for a check-in.
+3. Never leave a half-written verse: a section is either the scaffold's `TODO` text or finished
+   prose. Batches are committed as they land, with the payload, `sw.js` bump and worklog row left
+   for the end of the chapter.
+4. A chapter is done when `audit.py N` ends `RESULT: PASS`, every verse clears its own word floor
    (`status.py N` shows them side by side), `build_data.py N --check` reports no stale payload, the
-   worklog row exists, and `sw.js` has been bumped.
-3. Commit per chapter on the session branch
+   worklog row exists, and `sw.js` has been bumped. Commit per chapter on the session branch
    (`Tafsir ch N (<Name>): verse-by-verse from all <k> sources`); push only to that branch.
-4. Long chapters may be written in batches, but each commit leaves a chapter that passes the
-   gate, or (if a batch is mid-flight) leaves the file untouched and keeps the batch as a patch.
 5. Parallel work splits by chapter, never by verse within one file: two writers on one file
    will overwrite each other.
 
