@@ -103,6 +103,9 @@ def main(argv=None):
     ap.add_argument("--stats", action="store_true", help="print sizes, write nothing")
     ap.add_argument("--stdout", action="store_true", help="print the digest, write no files")
     ap.add_argument("--out", help="override the digest path")
+    ap.add_argument("--cap-json", type=int, default=0,
+                    help="cap each source's text in the .json digest too (0 = uncapped). "
+                         "Use on long chapters: the grounding check reads names, not length.")
     args = ap.parse_args(argv)
 
     catalog, data = build(args.chapter, args.slugs, args.verses, args.lang)
@@ -132,6 +135,13 @@ def main(argv=None):
 
     txt_path = Path(args.out) if args.out else out_dir / ("%s.txt" % C.pad3(args.chapter))
     json_path = out_dir / ("%s.json" % C.pad3(args.chapter))
+    if args.cap_json:
+        for per_source in data.values():
+            for slug, text in list(per_source.items()):
+                lang = (C.source_by_slug(slug) or {}).get("lang")
+                cap = args.cap_json if lang == "en" else max(600, args.cap_json // 3)
+                if len(text) > cap:
+                    per_source[slug] = text[:cap]
     txt_path.write_text(digest_text(args.chapter, catalog, data, args.cap_en, args.cap_ar),
                         encoding="utf-8")
     json_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")

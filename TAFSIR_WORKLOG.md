@@ -84,6 +84,24 @@ added the source-level material listed below.
   do not appear literally in the Arabic digests — expected; the check is advisory by design).
 * Phrase coverage 97–100% on every verse; no phrase of the chapter is left unexplained.
 
+## In progress
+
+### Chapter 2 — Al-Baqarah (286 verses)
+
+* Digest built for the whole chapter: `tmp/sources/002.txt` (13.8 MB) and `002.json` (85 MB, uncapped
+  for writing; `sources.py` now takes `--cap-json` when a smaller digest is enough). All 286 verses
+  have source material. The scaffold is in place with 1,362 phrase headings.
+* **Written so far: the introduction and verses 2:1–2:5** — the three letters, "This is the Book",
+  the unseen and the first portrait of the believers. Per-verse words 622–868 against floors of 550;
+  phrase coverage 97–100%; five analogies; mean sentence 21.2 words, 7% over 40 words, Flesch 71.
+* Batch gate (`audit.py` findings filtered to the written verses): no findings for 2:1–2:5. The
+  remaining FAIL/WARN counts belong to the 281 scaffolded verses still carrying TODO text, which is
+  by design — `scaffold.py` writes a deliberately invalid skeleton.
+* No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
+  app keeps showing "coming soon" for al-Baqarah.
+* Next batches: 2:6–2:7 (those who reject the message), then 2:8–2:20 (the hypocrites), then the
+  call to humanity from 2:21.
+
 ## Conventions
 
 * Chapter file: `tafsir/NNN.md`; payload: `data/tafsir_NNN.json`; digest: `tmp/sources/NNN.*`.
