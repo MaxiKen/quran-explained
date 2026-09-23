@@ -429,6 +429,8 @@ def audit_chapter(chapter: int, opts) -> list:
         prose_chunks.append(_prose_only(body))
 
         for para in paragraphs:
+            if para.strip().startswith("**") and para.strip().endswith("**"):
+                continue  # phrase headings are required to repeat across verses
             for sentence in C.sentence_split(para):
                 key = C.norm_key(sentence)
                 if len(key.split()) >= MIN_SENTENCE_WORDS:
@@ -584,7 +586,7 @@ def _phrase_coverage(section, chapter, lines, fail, warn):
 
     uncovered = total - sum(covered)
     if uncovered:
-        skipped = " ".join(verse_norm.split()[a:b] for a, b in gaps[:1])
+        skipped = " ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:1])
         share = 1 - uncovered / total
         if share < PHRASE_COVERAGE_MIN:
             fail("FMT-PHRASE-COVERAGE", ref, section.start,
