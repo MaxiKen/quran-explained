@@ -518,11 +518,14 @@ async function renderCommentaryView(num, options = {}) {
   AppState.resumable = null;
   updateHeaderDownloadVisibility();
 
-  if (!(loadedChapters[num] && loadedTafsir[num])) {
+  if (!loadedChapters[num]) {
     app.innerHTML = ebookLoadingHtml(`Preparing ${ch.name_en} commentary`, 'Loading the complete chapter into a distraction-free reading view…');
   }
   try {
-    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num)]);
+    /* The tafsir payload is written chapter by chapter as the corpus is
+       generated; a chapter without one still opens, with its translation and
+       a short note where the commentary will stand. */
+    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num).catch(() => null)]);
     if (AppState.currentView !== 'commentary' || AppState.currentSurah !== num) return;
     AppState.currentSurahData = data;
     renderApp();
@@ -1321,8 +1324,8 @@ function jumpToCommentaryVerse() {
 function renderCompleteCommentary(container) {
   const ch = chaptersData.find(chapter => chapter.number === AppState.currentSurah);
   const data = AppState.currentSurahData;
-  const tafsir = loadedTafsir[AppState.currentSurah];
-  if (!ch || !data || !tafsir) {
+  const tafsir = loadedTafsir[AppState.currentSurah] || {};
+  if (!ch || !data) {
     container.innerHTML = ebookLoadingHtml('Preparing commentary…', 'Building the reading edition for this chapter.');
     return;
   }
@@ -2553,7 +2556,7 @@ function showExplanation(surahNum, ayahNum) {
         afterModalBodyRender();
       })
       .catch(() => {
-        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Commentary not available. Please check your connection.</p>';
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p">Detailed commentary is coming soon, in sha Allah. If you are offline, check your connection.</p>';
       });
   }
 }
@@ -2733,7 +2736,7 @@ function showSurahNotes(surahNum) {
           : '<p class="modal-p">Detailed overview and notes for this chapter are coming soon.</p>';
       })
       .catch(() => {
-        document.getElementById('modalBody').innerHTML = '<p class="modal-p" style="color:var(--text-dim);">Sūrah notes not available. Please check your connection.</p>';
+        document.getElementById('modalBody').innerHTML = '<p class="modal-p">Sūrah notes are coming soon, in sha Allah. If you are offline, check your connection.</p>';
       });
   }
 }
