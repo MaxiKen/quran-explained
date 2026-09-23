@@ -6,9 +6,9 @@ typing them from memory.
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Gate | Payload |
 |---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 3,629 | 427/516/617 | PASS | 25 KB |
+| 1 | `tafsir/001.md` | 7/7 | 3,637 | 433/516/617 | PASS | 25 KB |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 3,629 words.**
+Totals: **1 of 114 chapters written, 7 of 6,236 verses, 3,637 words.**
 
 ## Chapter notes
 
