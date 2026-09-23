@@ -11,7 +11,7 @@ line of it:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(500, 6 × the verse's own words)`, capped 3,000; soft ceiling 4,000 |
+| Words per verse | floor `max(550, 7 × the verse's own words)`, capped 3,500; soft ceiling 4,500 |
 | Introduction | 250–1,500 words |
 | Phrase splitting | every phrase of the verse quoted as `**“phrase”**`, in verse order, ≥90% coverage, no gap over 8 words |
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
@@ -22,11 +22,15 @@ line of it:
 
 ## Progress
 
-| Ch | File | Verses | Words | Min/Med/Max per verse | Phrase headings | Gate | Payload |
+| Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 4,108 | 502/594/729 | 14 | PASS | 30 KB |
+| 1 | `tafsir/001.md` | 7/7 | 6,290 | 748/845/1,140 | 7/7 | PASS | 47 KB |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 4,108 words.**
+Totals: **1 of 114 chapters written, 7 of 6,236 verses, 6,290 words.**
+
+Standard version: **v2** (floor 550 / 7×, phrase coverage gate, analogy rule, plain-diction checks).
+Chapter 1 was taken through v2 twice: 4,108 words at first pass, 6,290 after the second, which
+added the source-level material listed below.
 
 ## Chapter notes
 
@@ -53,8 +57,32 @@ Totals: **1 of 114 chapters written, 7 of 6,236 verses, 4,108 words.**
 * Disagreements reported rather than flattened: the basmalah as verse or divider; mālik/malik.
 * Duplicate records in the English sources (four files carrying one Sufi passage at 1:1) were
   treated as a single witness and are not leaned on.
-* Style at the gate: mean sentence 18.9 words, 5% over 40 words, Flesch 72, long words 0.4%.
-* Audit: `0 FAIL, 0 WARN`. Payload built, `sw.js` bumped to `quran-reader-v2.5.28`.
+* Source quirks met while writing: al-Baghawī and as-Saʿdī repeat whole-sūrah material under every
+  verse, and Ibn ʿUthaymīn's 1:1 section opens with a transcribed lecture, so sections were read,
+  not trusted by position.
+* Second pass (6,290 words, verses 748–1,140, floors 550): added the basmalah-as-verse reports
+  (Ibn Sīrīn on Ubayy, Ibn Masʿūd and ʿUthmān; al-Dāraquṭnī's sound chain from Abū Hurayrah; Umm
+  Salamah), its private names (al-Wāfiyah, al-Kāfiyah, asās al-Qurʾān, miftāḥ kull kitāb), Saʿīd
+  ibn Jubayr's account of why it was recited aloud in Makkah and then quietly, Ibn Sīrīn's caution
+  over the name Umm al-Kitāb against (13:39); the ḥamd/shukr distinction; the faʿlān/faʿīl grammar
+  of al-Raḥmān and al-Raḥīm with the polytheists' confusion at (25:60); the full list of readings
+  of mālik/malik from al-Baḥr al-Muḥīt; al-Saʿdī's picture of ranks dissolving on the Day; the
+  iyyāka placement rule with al-Saʿdī's hasr note; al-Ṭabarī's reading of "guide us" as a request
+  for firmness, with his ʿAbd Allāh ibn ʿAbbās report and its chain; the ʿUmar, Ibn al-Zubayr,
+  ʿIkrimah and al-Aswad reading *ghayr al-maghḍūb ʿalayhim wa ghayr al-ḍāllīn*; the Wādī al-Qurā
+  report of ʿAbdullāh ibn Shaqīq al-ʿUqaylī and Abū Dharr's question; ʿAdī ibn Ḥātim's report with
+  its collections (Aḥmad, al-Ṭabarī, Ibn Ḥibbān, At-Tirmidhī ḥasan); and the Āmīn material from
+  Wāʾil ibn Ḥujr, Abū Mūsā al-Ashʿarī, Abū Zuhayr an-Numayrī and ʿĀʾishah.
+* **Mis-attribution removed in the second pass.** The first pass credited a saying on the three
+  kinds of worship to al-Ṭabarī's report from Jaʿfar al-Ṣādiq. `scripts/tafsir/verify.py` shows
+  the passage exists only in `tafsir_initial` (the Study Quran draft), with no chain, and not in
+  al-Ṭabarī at all. It was deleted rather than re-worded. This is the failure mode the
+  attribution law and `verify.py` exist to prevent: a claim that borrows authority it does not
+  have.
+* Style at the gate: mean sentence 20.7 words, 8% over 40 words, Flesch 70, long words 0.3%.
+* Gate: `0 FAIL`, one advisory `GRD-TOKENS` warning (English source names such as "Al-Mukhtaṣar"
+  do not appear literally in the Arabic digests — expected; the check is advisory by design).
+* Phrase coverage 97–100% on every verse; no phrase of the chapter is left unexplained.
 
 ## Conventions
 

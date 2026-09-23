@@ -33,6 +33,7 @@ cd /home/user/quran-explained
 python3 scripts/tafsir/sources.py N --stats        # where the material is, before reading
 python3 scripts/tafsir/sources.py N                # writes tmp/sources/NNN.txt + NNN.json
 python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md: exact quotes + phrase headings
+python3 scripts/tafsir/verify.py "<claim>" --chapter N   # confirm a source really makes a point
 ```
 
 The scaffold hands you two free wins. The verse quote is copied byte-for-byte from
@@ -208,7 +209,19 @@ under it fails the gate.
    Prophet ﷺ.
 4. **A prophetic saying always names its collection** in the same section. If you cannot say
    where it comes from, leave it out.
-5. **Never attribute a point to a source that does not make it.**
+5. **Never attribute a point to a source that does not make it.** Before a sentence credits
+   anyone — a commentator, a collection, a Companion — find the passage. The digest is the first
+   place to look; when the digest is thin, search the raw sources:
+
+   ```bash
+   python3 scripts/tafsir/verify.py "Musaylimah" --chapter 1     # does any source carry this?
+   python3 scripts/tafsir/verify.py "مالك" --verse 1:4            # Arabic works too
+   ```
+
+   The tool prints every hit as `source chapter:verse snippet`. No hit means no credit: drop the
+   claim, or state it without a name. A sentence that borrows authority from a source that never
+   made the point is the worst failure this corpus can have, because it is invisible on re-reading.
+   This check is not optional, and it is the reason `verify.py` exists.
 
 ## 8. Style law — plain words, short sentences, one good analogy
 

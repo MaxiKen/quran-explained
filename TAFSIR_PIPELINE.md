@@ -56,6 +56,10 @@ Known quirks, worth knowing before reading:
 * Some upstream records are duplicated across names. In Sūrah 1, for example,
   `tafsir-al-qushairi`, `tafsir-kashani`, `tafsir-kashf-al-asrar` and `tafsir-asbab-al-nuzul`
   all carry the same Sufi passage for 1:1. Treat duplicated text as one witness.
+* Verse alignment is by the file's own `## C:V` markers, so it is reliable. What is not reliable
+  is assuming the whole of a section belongs to that verse: several sources open a verse's
+  section with sūrah-level material, or transcribe a lecture that drifts. Read the opening lines
+  of a section before quoting it as that verse's opinion.
 * Several sources attach whole-sūrah material to every verse (al-Baghawī's Sūrah 1 record is
   28,669 characters repeated under each of the seven verses; as-Saʿdī and Tazkirul Qur'an do the
   same). That material belongs in the chapter introduction or at the verse it actually concerns —
@@ -74,6 +78,7 @@ python3 scripts/tafsir/sources.py 2 --verse 255 --cap-ar 4000 --stdout
 # 2. scaffold the chapter file: byte-exact verse quotes + phrase headings
 python3 scripts/tafsir/scaffold.py 2
 python3 scripts/tafsir/scaffold.py 2 --stdout | head -40   # preview the phrase cut
+python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 
 # 3. write the prose, then run the gate
 python3 scripts/tafsir/audit.py 2                       # exit 0 only on PASS
@@ -93,7 +98,7 @@ python3 scripts/tafsir/status.py --md                   # table for the worklog
 |---|---|
 | `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, headings, separators, spacing, placeholders, and the phrase headings that must cover the verse |
 | `REF-PHRASE*` | a phrase heading that is not the verse's own wording, or is out of verse order |
-| `WRD-*` | length: a verse under its floor (500 words, or 6× the verse's own length, capped at 3,000) or an introduction outside 250–1,500 |
+| `WRD-*` | length: a verse under its floor (550 words, or 7× the verse's own length, capped at 3,500) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
@@ -104,7 +109,7 @@ The thresholds that keep chapters honest as they grow:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(500, 6 × verse words)`, capped 3,000; soft ceiling 4,000 |
+| Words per verse | floor `max(550, 7 × verse words)`, capped 3,500; soft ceiling 4,500 |
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy | at least half the chapter's verses carry one |

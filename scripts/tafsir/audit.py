@@ -49,10 +49,10 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 500          # hard floor for every verse, however short
-SCALE_FACTOR = 6.0             # ... and the floor climbs with the verse
-SCALE_CAP = 3000               # ... up to here
-MAX_VERSE_WORDS = 4000         # soft: above this, check for padding
+MIN_VERSE_WORDS = 550          # hard floor for every verse, however short
+SCALE_FACTOR = 7.0             # ... and the floor climbs with the verse
+SCALE_CAP = 3500               # ... up to here
+MAX_VERSE_WORDS = 4500         # soft: above this, check for padding
 MAX_HEADINGS = 30              # soft
 MIN_INTRO_WORDS = 250
 MAX_INTRO_WORDS = 1500         # soft
@@ -83,7 +83,8 @@ COLLECTIONS = re.compile(
     r"(Bukh[\u0101a]r[\u012bi]|Muslim|Tirmidh[\u012bi]|Nas[\u0101a][\u02be']?[\u012bi]|"
     r"Ab[\u016b] D[\u0101a]w[\u016b]d|Ibn M[\u0101a]jah|A[\u1e25h]mad|Muwa[\u1e6d\u1e6d]a|"
     r"D[\u0101a]rim[\u012bi]|Bayhaq[\u012bi]|[\u1e6cT]abar[\u0101a]n[\u012bi]|Ibn H[\u1e25i]bb[\u0101a]n|"
-    r"Ibn Khuzaymah|[\u1e24H][\u0101a]kim|Ab[\u016b] Nu[\u02bf']aym|Sunan|Musnad|\u1e62a\u1e25\u012b\u1e25)",
+    r"Ibn Khuzaymah|[\u1e24H][\u0101a]kim|Ab[\u016b] Nu[\u02bf']aym|Sunan|Musnad|\u1e62a\u1e25\u012b\u1e25|"
+    r"Forty Hadith|al-Arba[\u02bf']\u016bn|J[\u0101a]mi[\u02bf']|Mu[\u02bf']jam|Kanz)",
     re.I)
 
 SCHOLARS = re.compile(
@@ -156,7 +157,7 @@ GENERIC_HEADINGS = {
 
 PROPHET_REPORT = re.compile(
     r"(?:\bthe Prophet\b(?!s)|\uFDFA|\bthe Messenger of (?:Allah|God)\b|\bAllah[\u2019']s Messenger\b)"
-    r"[^.!?]{0,70}?\b(?:said|says|reported|narrated|stated|declared|told|instructed|warned)\b", re.I)
+    r"[^.!?]{0,70}?\b(?:said|says|reported|narrated|stated|declared|instructed|warned|told(?! to\b))\b", re.I)
 
 PROPHET_REF = re.compile(
     r"(\bthe Prophet\b(?!s)|\uFDFA|\bthe Messenger of (?:Allah|God)\b|\bAllah[\u2019']s Messenger\b)")
@@ -305,7 +306,7 @@ def audit_chapter(chapter: int, opts) -> list:
         floor = verse_floor(verse_words)
         if body_words < floor:
             fail("WRD-FLOOR", ref, anchor,
-                 "verse tafsir is %d words; this verse needs at least %d (floor = 500, scaled 6x the verse's %d words)"
+                 "verse tafsir is %d words; this verse needs at least %d (floor = 550, scaled 7x the verse's %d words)"
                  % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
             warn("WRD-CEILING", ref, anchor,

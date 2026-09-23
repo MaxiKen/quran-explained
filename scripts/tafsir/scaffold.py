@@ -31,9 +31,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
-MIN_VERSE_WORDS = 500
-SCALE_FACTOR = 6.0
-SCALE_CAP = 3000
+MIN_VERSE_WORDS = 550
+SCALE_FACTOR = 7.0
+SCALE_CAP = 3500
 
 
 def floor_for(chapter: int, verse: int) -> int:
