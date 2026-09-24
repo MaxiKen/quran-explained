@@ -31,13 +31,30 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
+| 1 | `tafsir/001.md` | 7/7 | 7,471 | 848/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,257 bytes) |
 
-Totals: **0 of 114 chapters written, 0 of 6,236 verses.** `tafsir/` holds only `tafsir/.gitkeep`,
-and `data/` holds no `tafsir_*.json` payload at all: chapters 1 and 2 were cleared on 2026-09-24
-(see the note below) and are written again from the ten works under the standard above. The empty
-row is what `python3 scripts/tafsir/status.py --md` prints for an empty corpus, not a row typed by
-hand.
+Totals: **1 of 114 chapters written, 7 of 6,236 verses.** Chapter 1 is the first chapter written
+under standard **v6.1**, and the row above is what `python3 scripts/tafsir/status.py --md` and
+`python3 scripts/tafsir/status.py 1` print for it (7,471 words, every verse over the 500-word
+floor, 848 words at the shortest). Chapters 2–114 are still unwritten: `tafsir/` holds
+`001.md` and `.gitkeep`, and `data/` holds the single payload.
+
+**Chapter 1 written again under v6.1, 2026-09-24.** The seven verses of Al-Fātiḥah were written
+from the ten works pulled for the chapter (`sources.py 1 --stats` covers all seven verses in all
+ten), with the phrase cut of `scaffold.py 1 --phrases` quoted inside the prose in verse order and
+each phrase anchored beside its explanation. `batch.py 1 --ranges 1-2,3-4,5-6,7` → **PASS** for
+every stretch; `audit.py 1 --show-info` → **0 FAIL, 0 WARN, 0 INFO**, `RESULT: PASS`;
+`status.py 1` → **848/1002/1546** words against the 500-word floor; `build_data.py 1` →
+`data/tafsir_001.json` (7 verses, 44,257 bytes) and `build_data.py 1 --check` → **1 up to date**;
+`sw.js` `CACHE_VERSION` bumped to `quran-reader-v2.5.40` so a reader who had the deleted chapter
+cached gets the new one. `selftest.py` → **50 cases, 0 uncaught rules, 0 false alarms**;
+`audit.py --all` → **1/114 written, 0 in progress, FAIL 0, WARN 0**. What the chapter carries:
+the sūrah's three names and the count that excludes the basmalah; the missing verb in the Name and
+the act it puts under God; the two names of mercy as breadth and arrival; the division of the
+sūrah into praise, address and request; *mālik* and *malik* as the two handed-down readings and
+the day that silences every claim of ownership; worship as lowliness out of love, with the request
+for help placed after it; guidance asked for by people already walking, and the two ways of losing
+the road named at the end.
 
 **Commentary cleared; word floor lowered to 500, 2026-09-24.** On the instruction "Remove all the
 commentary content in the project", the two generated chapters were deleted — `tafsir/001.md`
@@ -273,13 +290,13 @@ the sources that carried the weight, and the mis-attributions to keep out.
 * Chapter order is ascending, 001 → 114.
 * The app shows "coming soon, in sha Allah" under verses whose chapter has no payload yet; with the
   corpus cleared this is currently every chapter, and payloads return as each chapter passes the gate.
-* No chapter is currently the reference for the standard; the revised rule will be the reference once
-  it is agreed, and the first chapter written under it becomes the worked example.
+* Chapter 1 is the worked example of standard v6.1, the synonym law included: it is the chapter to read
+  beside the rules, and it carries one analogy in each of its seven verses.
 * The per-verse floor is 500 words as of 2026-09-24 (`max(500, 8 × the verse's own words)`, capped
-  4,000). The next chapter written is the first measured against it, and the first chance to see
-  whether the shorter floor is met from real material rather than padding.
-* The standard is **v6** (bold reserved to the three markers; the prose explains only wording the
-  verse's translation carries). No chapter has been written under it yet — the first chapter
-  regenerated becomes the worked example for it.
-* Next steps: chapter 1 again under the 500-word floor and v6, then chapter 2 in batches with
-  `batch.py 2 --ranges` after each stretch.
+  4,000). Chapter 1 is the first chapter measured against it, and the shortest of its seven sections
+  (1:3) runs to 848 words, so the floor was met from the material rather than from padding.
+* The standard is **v6.1** (bold reserved to the three markers; the prose explains only wording the
+  verse's translation carries; a synonym, word or phrase, is adjusted to the verse's own wording and
+  the section carries on). Chapter 1 is written under it and is its worked example.
+* Next steps: chapter 2 in batches, gated with `batch.py 2 --ranges` after each stretch and closed
+  with `audit.py 2`, under v6.1.
