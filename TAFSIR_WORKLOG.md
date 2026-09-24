@@ -27,9 +27,9 @@ line of it:
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,557 | 736/874/1,210 | 7/7 | PASS | 43 KB |
-| 2 | `tafsir/002.md` | 0/286 | — | — | — | scaffold | — |
+| 2 | `tafsir/002.md` | 286/286 | 234,301 | 551/742/2306 | 285/286 | PASS | 1.3 MB |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 6,557 words.** Stdout for the row and the
+Totals: **2 of 114 chapters written, 293 of 6,236 verses, 240,858 words.** Stdout for the row and the
 numbers: `python3 scripts/tafsir/status.py --md`.
 
 **Format change, 2026-09-24 (v3).** Chapter 1 was cleared and the written part of chapter 2 with it,
@@ -41,7 +41,7 @@ phrase: context, history, reports and rulings are headings of their own. `audit.
 mechanically (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`, `PHR-*`, `PHR-EVIDENCE`), batches are
 produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writer keeps several
 stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
-first; chapter 2 is next, from verse 1.
+first; chapter 2 was written to the same standard in one continuous run and passed the gate on 2026-09-24 (2:1–2:286).
 
 Standard version: **v3** (descriptive headings; phrases quoted in the prose and evidenced there;
 floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
@@ -151,6 +151,29 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 * No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
   app keeps showing "coming soon" for al-Baqarah.
 
+### Chapter 2 — Al-Baqarah
+
+* All 286 verses written from the 28-source digest, gated by the whole-file auditor:
+  `audit.py 2` → **0 FAIL, 139 WARN**, `RESULT: PASS`; word range 551/742/2,306, total 234,301
+  words. Analogies 285/286 (2:217 has none that fits); the remaining warnings are the advisory
+  `EVD-THIN` (a single kind of evidence in some verses), `GRD-TOKENS` (source-token checks) and
+  `FMT-HEADING-VERSE` headings.
+* Written in stretches of three to six verses in one continuous run: 2:1–2:8 first, then batches up
+  to 2:286 with `batch.py 2 --from A --to B` after each stretch, and inline patches to
+  `tafsir/002.md` (never re-running a wave script over an already-patched section) to clear the
+  word floors and the `REP-SENTENCE`, `PHR-*` and `FMT-HEADING-VERSE` findings.
+* Verse splits follow `audit.py`'s own phrase cutter, and every phrase of every verse is quoted
+  inside the prose in bold italics and backed beside the quote by a cross-reference, a hadith with
+  its collection, a named authority or a language point.
+* Landmark verses: 2:255 (Ayat al-Kursi — the greatest verse of the Qur'an, recited at night,
+  "sufficient for him" in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim), 2:282 (the longest verse: debts on
+  paper, the scribe, the witnesses, small and great sums), 2:256 (no compulsion in religion),
+  2:275–281 (interest, the debtor's respite, the warning of war), 2:285–286 (the two verses sent
+  out of the treasures of Paradise and the prayer that closes the sūrah).
+* Payload `data/tafsir_002.json` (1.3 MB, 286 verses) built with `build_data.py 2`;
+  `build_data.py --all --check` → **2 up to date, 0 stale**; `sw.js` `CACHE_VERSION` bumped to
+  `quran-reader-v2.5.34`.
+
 ## Conventions
 
 * Chapter file: `tafsir/NNN.md`; payload: `data/tafsir_NNN.json`; digest: `tmp/sources/NNN.*`.
@@ -165,3 +188,6 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   rebuilt when chapter 1 passes the gate again.
 * Chapter 1 is the reference for the standard. When a rule and chapter 1 disagree, the rule wins
   and chapter 1 is fixed.
+* Chapter 2 is finished and its payload published; the next chapter to write is chapter 3
+  (`Aal-Imran`), after the quotation markers and the money-law passages of al-Baqarah are re-read
+  as the model for the next file.
