@@ -136,9 +136,13 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 * Digest built for the whole chapter: `tmp/sources/002.txt` (13.8 MB) and `002.json` (85 MB, uncapped
   for writing; `sources.py` takes `--cap-json` when a smaller digest is enough). All 286 verses have
   source material.
-* Cleared on 2026-09-24 (2:1–2:141 had been written in the old phrase-heading format); the file is
-  back to a full scaffold, 0/286 written, and the payload was never built. The old text is in the
-  git history of this branch.
+* Cleared on 2026-09-24 (2:1–2:141 had been written in the old phrase-heading format); the old text
+  is in this branch's history. The v3 rewrite restarted with the introduction and **2:1–2:4** in a
+  single pass (831/932/786/704 words against floors of 550; phrase coverage 100% on each; analogies
+  4/4; descriptions of the cut letters, the Book that leaves no room for doubt, the faith that trusts
+  what the eye cannot see, and the community that owns every scripture). Batch gate: `batch.py 2
+  --from 1 --to 4` → **PASS** (0 FAIL, 1 advisory `GRD-TOKENS` on 2:4); batch style mean sentence
+  21.5 words, 8% over 40, Flesch 71. The chapter continues from 2:5.
 * The chapter is written batch by batch, with several batches in flight at once, and the writer does
   not stop between batches (`TAFSIR_PROMPT.md` §1, §10). Batch tooling: `batch.py N --from A --to B`,
   `batch.py N --ranges A-B,C-D,E-F` (in parallel), `batch.py N --progress`.

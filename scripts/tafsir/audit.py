@@ -791,11 +791,13 @@ def _phrase_rules(section, chapter, fail, warn) -> dict:
 
     run_share = _longest_run_share(quotes, verse_norm.split())
     stats["run_share"] = run_share
-    if total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_FAIL:
+    longest_phrase = max((len(C.loose_norm(p).split()) for p in phrases), default=0)
+    merged = run_share * total > longest_phrase + 2      # a quote that spans phrases, not one phrase
+    if total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_FAIL and merged:
         fail("PHR-CHUNK", ref, section.start,
              "one quoted stretch carries %.0f%% of the verse: read the verse as phrases and quote "
              "each one where you explain it" % (run_share * 100))
-    elif total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_WARN:
+    elif total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_WARN and merged:
         warn("PHR-CHUNK", ref, section.start,
              "one quoted stretch carries %.0f%% of the verse (aim for smaller phrases)" % (run_share * 100))
 
