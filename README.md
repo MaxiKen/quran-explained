@@ -3,7 +3,7 @@
 Quran explained verse by verse.
 
 The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
-time, out of the 28 tafsir works in this repository. Each chapter is generated against a fixed
+time, out of the ten tafsir works this repository is written from (`corpus.SOURCE_ALLOWLIST`). Each chapter is generated against a fixed
 format and gated by an auditor before it is published to the app.
 
 ## Start here
@@ -19,7 +19,7 @@ format and gated by an auditor before it is published to the app.
 ## Pipeline in one screen
 
 ```bash
-python3 scripts/tafsir/sources.py 2 --stats      # what the 28 sources have for Sūrah 2
+python3 scripts/tafsir/sources.py 2 --stats      # what the ten have for Sūrah 2
 python3 scripts/tafsir/sources.py 2              # digest → tmp/sources/002.txt
 python3 scripts/tafsir/scaffold.py 2             # skeleton → tafsir/002.md (quotes byte-exact)
 #   ... write the prose from the digest ...

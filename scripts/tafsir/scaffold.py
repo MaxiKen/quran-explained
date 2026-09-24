@@ -32,9 +32,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
-MIN_VERSE_WORDS = 550
-SCALE_FACTOR = 7.0
-SCALE_CAP = 3500
+MIN_VERSE_WORDS = 600          # keep in step with audit.py
+SCALE_FACTOR = 8.0
+SCALE_CAP = 4000
 
 
 def floor_for(chapter: int, verse: int) -> int:
@@ -53,15 +53,19 @@ INTRO_TODO = (
 
 def todo_for(chapter: int, verse: int) -> str:
     return (
-        "TODO: write this verse from the source digest \u2014 at least %d words in all. Plan the "
-        "section as a set of descriptive headings (the setting, the story or report, the ruling, "
-        "the phrases being explained); never use the verse's own words as a heading. Quote every "
-        "phrase of the verse inside the prose as \u201cits own words\u201d, explain it, and back each "
-        "quoted phrase with evidence beside it \u2014 a cross-reference like (C:V \u2014 *\u201cclause\u201d*) "
-        "from data/chapter_%s.js, a report with its collection, or a named authority. Give one "
-        "relatable analogy where one fits, in short sentences and everyday words. See "
-        "TAFSIR_PROMPT.md, then run scripts/tafsir/audit.py %d."
-        % (floor_for(chapter, verse), C.pad3(chapter), chapter)
+        "TODO: write this verse from the source digest \u2014 at least %d words in all. Read all "
+        "ten works for this verse first (python3 scripts/tafsir/sources.py %d --verse %d), and "
+        "name at least five of them in the prose, never a work outside the ten. Plan the section "
+        "as a set of descriptive headings (the setting, the story or report, the ruling, the "
+        "phrases being explained); never use the verse's own words as a heading. Quote every "
+        "phrase of the verse inside the prose in bold italics, explain it, and back each quoted "
+        "phrase with evidence beside it \u2014 a cross-reference like (C:V \u2014 **\u201cclause\u201d**) "
+        "from data/chapter_%s.js, a report with its collection, or a named authority. Aim for "
+        "content that carries history, occasions, reports, cross-references, life application "
+        "and one relatable analogy by itself; never label those elements (no \u201cLesson:\u201d, no "
+        "\u201cModern application:\u201d) \u2014 write them into the flow. Short sentences and everyday "
+        "words. See TAFSIR_PROMPT.md, then run scripts/tafsir/audit.py %d."
+        % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )
 
 

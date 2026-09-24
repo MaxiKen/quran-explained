@@ -14,8 +14,23 @@ the format below, and it is not finished until `scripts/tafsir/audit.py N` print
 ## 1. The job
 
 Write the verse-by-verse tafsir for **one chapter** of the Qur'an, in simple English, from the
-28 tafsir works in this repository (`tafsir-*/NNN.txt`, plus the study-Quran draft in
-`tafsir_initial/NNN.md`). One file per chapter: `tafsir/NNN.md`.
+**ten** tafsir works this corpus is written from (`tafsir-*/NNN.txt`; the list is
+`corpus.SOURCE_ALLOWLIST` and nothing outside it is a source):
+
+| Work | In the repo | What it is for |
+|---|---|---|
+| `tafsir-al-tabari` | Arabic | the maʾthūr root: reports, chains, the first generations |
+| `tafsir-al-qurtubi` | Arabic | rulings, occasions, disagreements |
+| `tafsir-al-baghawi` | Arabic | the maʾthūr tradition, concisely |
+| `tafsir-ibn-kathir` | English | reports with grading; the one a reader can quote back |
+| `tafsir-al-alusi` | Arabic | language, grammar, the later scholarly debate |
+| `tafsir-al-jalalayn` | English | the plain running sense |
+| `tafsir-ibn-abbas` | English | the earliest gloss |
+| `tafsir-as-saadi` | Arabic | the modern meaning-first reading |
+| `tafsir-ibn-uthaymeen` | Arabic | the modern teaching tafsir (partial coverage — see §7) |
+| `tafsir-maarif-ul-quran` | English | the modern reading, fiqh and contemporary questions |
+
+One file per chapter: `tafsir/NNN.md`.
 
 The reader is a general Muslim reader with no Arabic and no seminary training. The text must
 answer: what does this verse say, what does it mean, what does it ask of me, and what is the
@@ -32,7 +47,15 @@ paraphrase of the translation dressed up as commentary.
    stopping to ask, and without waiting to be told — until every verse of the chapter is written
    and `audit.py N` passes. A chapter is a marathon, not a lap: the only reasons to pause are a
    source that cannot be located or a contradiction that needs a decision (§10).
-2. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
+2. **All ten are read for every verse before a word of it is written — and at least five are
+   named in its prose.** Run the digest for the verse, read what each of the ten says about it
+   (Arabic sources included: read them and put the substance into English), then write. The gate
+   proves this mechanically: `sources.py` must have pulled the verse's text for all ten
+   (`SRC-NOTCHECKED`), and the section must name at least five of the ten, with at least one
+   classical and at least one modern (`SRC-SPREAD`, `SRC-FAMILY`). Naming a work outside the ten
+   fails (`SRC-BANNED`). Reading is not the same as listing: a work is named where its point is
+   used, never as a roll-call.
+3. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
    **speed** and for **scale**: batches do not depend on one another, so several are written and
    gated at once, and a single pass should cover a very long list of verses — **the whole chapter
    where the material allows it**, not a handful at a time. Draft the next range while the last is
@@ -79,7 +102,8 @@ Work through the digest verse by verse, and for each verse collect **evidence**,
 | A Companion's or Successor's gloss (Ibn ʿAbbās, Qatādah, Mujāhid, al-Suddī, ʿIkrimah) | shows how the first generations read the words |
 | A lexical or grammatical point that changes meaning (root, pronoun, word order, the definite article) | explains the verse rather than describing it |
 | Variant readings (qirāʾāt) and **why** the difference matters | shows the text's depth without disputing it |
-| A named classical authority's ruling or reading (al-Ṭabarī, al-Qurṭubī, Ibn Kathīr, al-Shāfiʿī, Abū Ḥanīfah, Mālik, al-Zamakhsharī, al-Rāzī) | the reader can follow the disagreement |
+| A named classical authority's ruling or reading (al-Ṭabarī, al-Qurṭubī, Ibn Kathīr, al-Shāfiʿī, Abū Ḥanīfah, Mālik) | the reader can follow the disagreement |
+| A modern reading — al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān — on what the verse asks of a reader now | ties the verse to the life being lived today |
 | A cross-reference that lets the Qur'an explain itself | the standard of evidence in this corpus |
 | A refusal — where a source declines unauthenticated material | equally worth recording, honestly |
 
@@ -163,12 +187,14 @@ Rules the auditor enforces:
 6. **Every phrase of the verse is quoted inside the prose and explained, in verse order, with
    evidence** (see §5). Not every heading carries a phrase: a paragraph of context, history or
    ruling may quote none.
-7. **Length follows substance, and the floor is high.** Every verse carries at least **550
-   words**, and the floor rises with the verse: `max(550, 7 × the verse's own word count)`, up to
-   3,500. A ninety-word verse therefore needs 630+ words; a two-hundred-word verse needs 1,400+.
-   The soft ceiling is 4,500 words — above that, check for padding. These numbers live in
+7. **Length follows substance, and the floor is high.** Every verse carries at least **600
+   words**, and the floor rises steeply with the verse: `max(600, 8 × the verse's own word count)`,
+   up to 4,000. A ninety-word verse therefore needs 720+; a two-hundred-word verse needs 1,600+.
+   The soft ceiling is 5,000 words — above that, check for padding. These numbers live in
    `audit.py` (`MIN_VERSE_WORDS`, `SCALE_FACTOR`, `SCALE_CAP`) and `scaffold.py` restates them in
-   each TODO line, so a writer always sees the floor for the verse in front of them.
+   each TODO line, so a writer always sees the floor for the verse in front of them. Go up when
+   the material is there, never sideways: a verse with a long discussion in al-Ṭabarī and al-Alūsī
+   should be written long because the material is long.
 8. **One `---`** between sections. No trailing separator after the last verse.
 9. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
 10. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
@@ -182,7 +208,25 @@ Length is not padding. It comes from the material this corpus now has:
 * the hadith and athar, told in full, with narrator and collection;
 * the rulings and disagreements, with the scholars named;
 * the cross-references that let the Qur'an explain the verse;
-* one relatable analogy, and the practical lesson the verse asks of the reader.
+* one relatable analogy, and the practical lesson the verse asks of the reader;
+* the history the sources carry: what was happening when the verse came, who it was spoken to,
+  what happened next;
+* where the verse meets the present: a modern reading of it (al-Saʿdī, Ibn ʿUthaymīn, Maʿārif
+  al-Qurʾān), the working of the natural world a reader can see for himself, and the plain
+  application to a household, a wage, a neighbour, a grief.
+
+### 4.2 The elements are shown, never labelled
+
+A verse is expected to carry, as the material allows: its historical setting and what followed
+it; reports with their collections; cross-references that let the Qur'an explain itself; rulings
+where a ruling is in view; a lesson; a plain explanation a beginner can follow without the
+vocabulary of the seminary; one simple analogy; and the point at which the verse touches life
+today. These are the substance of the section — and they are **never announced**. No `Lesson:`,
+no `Modern application:`, no `History:`, no `Cross-reference:`, no `Explanation:`, no
+`Takeaway:`. The reader should meet the history as narrative, the lesson as a conclusion the
+paragraph arrives at, the application as something he recognises in his own week. `STY-LABELS`
+fails a chapter that labels any of them. The test is simple: if a heading or a sentence exists
+only to announce what kind of content follows, delete it and let the content speak.
 
 If a section is under the floor, the answer is never repetition or vague exhortation. Go back to
 the digest and use material you have not used yet — the Arabic sources usually carry more for
@@ -227,10 +271,10 @@ carry everything else the sources hold for that verse.
 **Evidence beside every quote.** A quoted phrase is never left to stand on its own. The paragraph
 holding it — or the paragraph straight after it — must carry one of:
 
-* a Qur'an cross-reference, the standard of evidence here: `(C:V — *“clause”*)`;
+* a Qur'an cross-reference, the standard of evidence here: `(C:V — **“clause”**)`;
 * a prophetic report with its collection, narrator and grade when the source gives one;
-* a named authority (al-Ṭabarī, al-Qurṭubī, Ibn Kathīr, al-Saʿdī, Ibn ʿAbbās, al-Baghawī, Mujāhid,
-  Qatādah …) whose reading is being reported;
+* a named authority — one of the ten above, or a Companion or Successor (Mujāhid, Qatādah, al-Suddī,
+  ʿIkrimah) as the ten report him — whose reading is being reported;
 * a lexical or grammatical point that changes the meaning.
 
 **What the auditor checks** (`PHR-*`, `FMT-HEADING-*`):
@@ -375,7 +419,9 @@ the verse's own wording, a missing quote line, bad spacing); `PHR-*` — a phras
 quoted, is quoted out of order, is swallowed by one long quote, or is quoted without evidence
 beside it; `REF-*` — a citation or a quote from another verse is wrong; `WRD-*` — the section is
 under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
-chapter repeats itself; `STY-*` — the prose is long-winded, formal, or carries no analogy.
+chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or
+announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the ten is cited, fewer than
+five of the ten are named, or the digest for a verse was never built.
 
 When the gate is clean:
 

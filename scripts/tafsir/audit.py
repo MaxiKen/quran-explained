@@ -13,7 +13,7 @@ below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
           UPPERCASE descriptive headings (never the verse's own phrases), placeholders
-  WRD-*   length: verse floor (550 words, rising with the verse), introduction
+  WRD-*   length: verse floor (max(600, 8x the verse's words), capped 4,000), introduction
   PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
           verse order, covering the whole verse, in workable units, and each
           quoted phrase is backed by evidence (a cross-reference, a hadith, a
@@ -23,8 +23,15 @@ below are the same rules, mechanised:
   REF-*   references: citations resolve to real verses and every quoted Qur'an
           clause is verbatim from data/chapter_NNN.js
   REP-*   repetition: duplicate sentences, templated sections, filler/meta prose
-  STY-*   style: simple diction, sentence length and readability, and the
-          relatable analogy the prompt asks each verse to carry
+  STY-*   style: simple diction, sentence length and readability, the relatable
+          analogy the prompt asks each verse to carry, and no labelled
+          scaffolding (STY-LABELS: "Lesson:", "Modern application:", ...)
+  SRC-*   sources: the ten works of corpus.SOURCE_ALLOWLIST — the digest must
+          hold every one of them for the verse before it is written
+          (SRC-NOTCHECKED, SRC-NODIGEST), the prose must name at least five of
+          the ten with at least one classical and one modern (SRC-SPREAD,
+          SRC-FAMILY), no work outside the ten may be cited (SRC-BANNED), and a
+          chapter that never names one of the ten is flagged (SRC-UNUSED)
   GRD-*   grounding (advisory): distinctive names in a section should appear in
           that verse's source digest (tmp/sources/NNN.json, built by sources.py)
 
@@ -52,10 +59,10 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 550          # hard floor for every verse, however short
-SCALE_FACTOR = 7.0             # ... and the floor climbs with the verse
-SCALE_CAP = 3500               # ... up to here
-MAX_VERSE_WORDS = 4500         # soft: above this, check for padding
+MIN_VERSE_WORDS = 600          # hard floor for every verse, however short
+SCALE_FACTOR = 8.0             # ... and the floor climbs with the verse
+SCALE_CAP = 4000               # ... up to here (a long verse floors at four thousand)
+MAX_VERSE_WORDS = 5000         # soft: above this, check for padding
 MAX_HEADINGS = 30              # soft
 MIN_INTRO_WORDS = 250
 MAX_INTRO_WORDS = 1500         # soft
@@ -115,6 +122,47 @@ LANGUAGE = re.compile(
     r"(\broot\b|\bthe word\b|\bArabic\b|\bliterally\b|\bgrammatically\b|\bgrammar\b|"
     r"\bthe (verb|noun|participle|plural|singular|dual)\b|\breading\b|\brecitation\b|"
     r"\bpronoun\b|\bpreposition\b|\btranslated\b|\btranslation\b|\bmeans\b)",
+    re.I)
+
+# ---- the ten sources (corpus.SOURCE_ALLOWLIST) ------------------------------
+# Which name in the prose proves which work was consulted. The prose says
+# "al-Tabari states", not "the source", and names are the only checkable trace.
+AUTHORITY = {
+    "tafsir-al-tabari": re.compile(r"(\b[T\u1e6c]abar[\u012bi]\b|\bTabari\b|J[\u0101a]mi[\u02bf'] al-Bay[\u0101a]n)", re.I),
+    "tafsir-al-qurtubi": re.compile(r"(Qur[\u1e6d]ub[\u012bi]|Qurtubi)", re.I),
+    "tafsir-al-baghawi": re.compile(r"(Baghaw[\u012bi]|Baghawi|Ma[\u02bf']\u0101lim al-Tanz[\u012bi]l)", re.I),
+    "tafsir-ibn-kathir": re.compile(r"(Ibn Kath[\u012bi]r|Ibn Kathir)", re.I),
+    "tafsir-al-alusi": re.compile(r"(al-[\u02be']?Al[\u016bs]i|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi])", re.I),
+    "tafsir-al-jalalayn": re.compile(r"(al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Ma[\u1e25h]all[\u012bi] and al-Suy[\u016b][\u1e6d][\u012bi])", re.I),
+    "tafsir-ibn-abbas": re.compile(r"(Ibn [\u02bf']Abb[\u0101a]s|Ibn Abbas)", re.I),
+    "tafsir-as-saadi": re.compile(r"(al-Sa[\u02bf']d[\u012bi]|Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m)", re.I),
+    "tafsir-ibn-uthaymeen": re.compile(r"(Ibn [\u02bf']Uthaym[\u012bi]n|Ibn Uthaymeen|Ibn 'Uthaymin)", re.I),
+    "tafsir-maarif-ul-quran": re.compile(r"(Ma[\u02bf']\u0101rif al-Qur[\u02be']?[\u0101a]n|Maarif-ul-Quran|Ma[\u02bf']\u0101rif)", re.I),
+}
+
+# Works that are no longer part of the corpus: naming one means the writer is
+# quoting outside the ten.
+BANNED_WORKS = re.compile(
+    r"(al-Mukhta[\u1e63]ar|Mukhta[\u1e63]ar|Mukhtasar|al-Was[\u012bi][\u1e6d]|Wasit al-Qur|"
+    r"al-Bay[\u1e0d][\u0101a]w[\u012bi]|Baydawi|al-Shawk[\u0101a]n[\u012bi]|Shawkani|"
+    r"Fat[\u1e25] al-Qad[\u012bi]r|Ab[\u016b] [\u1e24h]ayy[\u0101a]n|Bahr al-Mu[\u1e25]i[\u1e6d]|"
+    r"Durr al-Manth[\u016b]r|al-Jaz[\u0101a][\u02be']ir[\u012bi]|Aysar al-Taf[\u0101a]s[\u012bi]r|"
+    r"al-Qushayr[\u012bi]|Qushayri|al-Tustar[\u012bi]|Tustari|K[\u0101a]sh[\u0101a]n[\u012bi]|Kashani|"
+    r"Kashf al-Asr[\u0101a]r|Tadabbur wa Amal|Tazkirul Qur[\u02be']?[\u0101a]n|Tazkir al-Qur[\u02be']?[\u0101a]n|"
+    r"al-W[\u0101a][\u1e25h]id[\u012bi])",
+    re.I)
+
+SRC_MIN_CITED = 5              # distinct works of the ten a verse must name
+SRC_MIN_CLASSICAL = 1          # ... of which at least one classical
+SRC_MIN_MODERN = 1             # ... and at least one modern
+
+# Reader-facing scaffolding: the elements are shown, never labelled.
+LABELS = re.compile(
+    r"(?:(?<=^)|(?<=[.!?]\s)|(?<=\*\*)|(?<=\n))\s*\**"
+    r"(lesson[s]?|application[s]?|analog(?:y|ies)|histor(?:y|ical context|ical background)|"
+    r"modern life|modern application|modern discovery|modern science|"
+    r"cross[- ]reference[s]?|explanation|simple explanation|takeaway[s]?|"
+    r"context|background|ruling[s]?|moral|insight[s]?|note[s]?|element[s]?)\**\s*:",
     re.I)
 
 ANALOGY = re.compile(
@@ -319,6 +367,8 @@ def audit_chapter(chapter: int, opts) -> list:
     quotes_seen = defaultdict(list)
     analogy_sections = 0
     prose_chunks = []
+    _spread_checked = set()
+    _cited_by_verse = {}
 
     for section in doc.sections:
         ref = section.ref
@@ -353,13 +403,62 @@ def audit_chapter(chapter: int, opts) -> list:
         floor = verse_floor(verse_words)
         if body_words < floor:
             fail("WRD-FLOOR", ref, anchor,
-                 "verse tafsir is %d words; this verse needs at least %d (floor = 550, scaled 7x the verse's %d words)"
+                 "verse tafsir is %d words; this verse needs at least %d (floor = max(600, 8x the verse's %d words))"
                  % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
             warn("WRD-CEILING", ref, anchor,
                  "verse tafsir is %d words (soft ceiling %d \u2014 check for padding)" % (body_words, MAX_VERSE_WORDS))
         if re.search(r"\bTODO\b|\bTBD\b|PLACEHOLDER", body):
             fail("FMT-PLACEHOLDER", ref, anchor, "placeholder text left in the section")
+
+        # ---- the ten sources: consulted (digest), named (prose), not exceeded
+        prose = _prose_only(body)
+        labelled = LABELS.search(prose)
+        if labelled:
+            fail("STY-LABELS", ref, anchor,
+                 "the element is labelled instead of shown: %r \u2014 the history, the hadith, the lesson, "
+                 "the cross-reference and the modern application are carried by the prose, never announced"
+                 % labelled.group(0).strip()[:40])
+        banned = BANNED_WORKS.search(prose)
+        if banned:
+            fail("SRC-BANNED", ref, anchor,
+                 "cites a work outside the ten: %r \u2014 write from corpus.SOURCE_ALLOWLIST only"
+                 % banned.group(0))
+
+        cited = {slug for slug, rx in AUTHORITY.items() if rx.search(prose)}
+        if section.verse not in _spread_checked:
+            _spread_checked.add(section.verse)
+            digest = _digest(chapter)
+            if digest is None:
+                fail("SRC-NODIGEST", ref, anchor,
+                     "tmp/sources/%s.json is missing: every one of the ten must be pulled for this chapter "
+                     "before a verse is written (python3 scripts/tafsir/sources.py %d)" % (C.pad3(chapter), chapter))
+            else:
+                held = digest.get(str(section.verse)) or {}
+                unchecked = [s for s in C.SOURCE_ALLOWLIST
+                             if s not in held and C.source_covers(s, chapter, section.verse)]
+                if unchecked:
+                    fail("SRC-NOTCHECKED", ref, anchor,
+                         "%d of the ten were never pulled for this verse: %s"
+                         % (len(unchecked), ", ".join(unchecked)))
+                absent = [s for s in C.SOURCE_ALLOWLIST
+                          if s not in held and not C.source_covers(s, chapter, section.verse)]
+                if absent:
+                    warn("SRC-ABSENT", ref, anchor,
+                         "no text for this verse in the repo: %s (coverage gap upstream)" % ", ".join(absent))
+
+        if len(cited) < SRC_MIN_CITED:
+            fail("SRC-SPREAD", ref, anchor,
+                 "only %d of the ten named (%s); a verse is written from at least %d, not from the two or three "
+                 "that are easiest to read" % (len(cited), ", ".join(sorted(cited)) or "none", SRC_MIN_CITED))
+        else:
+            if not (cited & set(C.CLASSICAL_SLUGS)):
+                fail("SRC-FAMILY", ref, anchor,
+                     "no classical authority named (al-Tabari, al-Qurtubi, al-Baghawi, Ibn Kathir, al-Alusi)")
+            if not (cited & set(C.MODERN_SLUGS)):
+                warn("SRC-FAMILY", ref, anchor,
+                     "no modern authority named (al-Sa'di, Ibn 'Uthaymin, Ma'arif al-Qur'an)")
+        _cited_by_verse[section.verse] = cited
 
         paragraphs = C.split_paragraphs(body)
         if len(paragraphs) < 2:
@@ -557,6 +656,15 @@ def audit_chapter(chapter: int, opts) -> list:
         elif share < ANALOGY_WARN_SHARE:
             warn("STY-ANALOGY", "%d" % chapter, 0,
                  "%d of %d verses carry a relatable analogy" % (analogy_sections, len(doc.sections)))
+
+    # -------- which of the ten this chapter actually used ----------------------
+    if _cited_by_verse:
+        used = set().union(*_cited_by_verse.values())
+        unused = [s for s in C.SOURCE_ALLOWLIST if s not in used]
+        if unused:
+            warn("SRC-UNUSED", "%d" % chapter, 0,
+                 "%d of the ten are never named in this chapter: %s"
+                 % (len(unused), ", ".join(unused)))
 
     prose = "\n".join(prose_chunks)
     metrics = C.style_metrics(prose)

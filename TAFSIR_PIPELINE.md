@@ -3,7 +3,7 @@
 The old commentary corpus (`markdown commentry/`, 114 files written against a word target and
 then edited down over many passes) was deleted in commit `b600667`, together with its payloads
 (`data/tafsir_*.json`), its process documents and its generator scripts. What replaces it is a
-small, strict pipeline: one chapter file at a time, written from the 28 tafsir sources in this
+small, strict pipeline: one chapter file at a time, written from the ten tafsir works in this
 repository, gated by an auditor that will not pass anything malformed, unevidenced, repetitive
 or padded.
 
@@ -61,7 +61,7 @@ Known quirks, worth knowing before reading:
   section with sūrah-level material, or transcribe a lecture that drifts. Read the opening lines
   of a section before quoting it as that verse's opinion.
 * Several sources attach whole-sūrah material to every verse (al-Baghawī's Sūrah 1 record is
-  28,669 characters repeated under each of the seven verses; as-Saʿdī and Tazkirul Qur'an do the
+  28,669 characters repeated under each of the seven verses; as-Saʿdī repeats whole-sūrah material
   same). That material belongs in the chapter introduction or at the verse it actually concerns —
   once.
 * `tafsir-al-tustari` has no record for some verses (4 of 7 in Sūrah 1). Coverage gaps are

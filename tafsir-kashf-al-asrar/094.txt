@@ -1,6 +1,0 @@
-KASHF AL-ASRAR TAFSIR (English) — Surah 94: Ash-Sharh
-Source: spa5k/tafsir_api · tafsir/en-kashf-al-asrar-tafsir/94.json
-Verses: 0
-============================================================
-
-[No entry: the upstream source has no file for this surah (en-kashf-al-asrar-tafsir/94.json).]

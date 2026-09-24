@@ -11,7 +11,8 @@ line of it:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(550, 7 × the verse's own words)`, capped 3,500; soft ceiling 4,500 |
+| Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān); all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`); at least five named in the prose, one classical + one modern (`SRC-SPREAD`, `SRC-FAMILY`); nothing outside the ten (`SRC-BANNED`) |
+| Words per verse | floor `max(600, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000 |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |
@@ -19,6 +20,7 @@ line of it:
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
+| Elements | history, reports with collections, cross-references, rulings, lesson, plain explanation, analogy and present-day application are carried by the prose and **never labelled** (`STY-LABELS`: no `Lesson:`, `Modern application:`, `History:`, …) |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% above 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
 
@@ -48,7 +50,15 @@ produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writ
 stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
 first; chapter 2 was written to the same standard in one continuous run and passed the gate on 2026-09-24 (2:1–2:286).
 
-Standard version: **v3** (descriptive headings; phrases quoted in the prose and evidenced there;
+Standard version: **v4** (2026-09-24: the corpus is the ten works of `corpus.SOURCE_ALLOWLIST` and
+nothing else — the other seventeen `tafsir-*` folders, including the Arabic duplicates of al-Jalālayn
+and Ibn Kathīr, were deleted; all ten must be pulled for a verse before it is written and at least
+five named in its prose; floor 600 / 8×, cap 4,000, soft ceiling 5,000; the named elements —
+history, reports, cross-references, rulings, lesson, plain explanation, analogy, present-day
+application — must be shown in the flow and never labelled, with the corpus cleared to v3's
+files and re-written from scratch).
+
+Earlier: **v3** (descriptive headings; phrases quoted in the prose and evidenced there;
 floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 
 ## Chapter notes

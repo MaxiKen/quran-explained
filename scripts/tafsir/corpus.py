@@ -30,6 +30,29 @@ TMP_DIR = REPO / "tmp"
 NBSP = "\u00a0"          # some stored translations use a non-breaking space
 INITIAL_SLUG = "tafsir_initial"
 
+# The works this corpus is written from. Set on 2026-09-24: the ten sources
+# below, and nothing else. Deleting a folder from the repo is the only way to
+# remove a work; the allowlist keeps a stray folder from quietly re-entering the
+# pipeline, and audit.py fails a chapter that names a work outside the list.
+SOURCE_ALLOWLIST = (
+    "tafsir-al-tabari",       # Jami' al-Bayan — the ma'thür root (d. 310)
+    "tafsir-al-qurtubi",      # al-Jami' li-Ahkam al-Qur'an — rulings (d. 671)
+    "tafsir-al-baghawi",      # Ma'alim al-Tanzil — concise ma'thür (d. 516)
+    "tafsir-ibn-kathir",      # Tafsir al-Qur'an al-'Azim, English (d. 774)
+    "tafsir-al-alusi",        # Ruh al-Ma'ani — language and reports (d. 1270)
+    "tafsir-al-jalalayn",     # Tafsir al-Jalalayn, English (d. 911/911)
+    "tafsir-ibn-abbas",       # the gloss attributed to Ibn 'Abbas
+    "tafsir-as-saadi",        # Taysir al-Karim al-Rahman (d. 1956)
+    "tafsir-ibn-uthaymeen",   # Tafsir Ibn 'Uthaymin (d. 2001; partial coverage)
+    "tafsir-maarif-ul-quran",  # Ma'arif al-Qur'an, English (d. 1976)
+)
+
+# Works with real discussion of the earlier chapters (the rest are glosses and
+# the three modern teaching tafsirs above).
+CLASSICAL_SLUGS = ("tafsir-al-tabari", "tafsir-al-qurtubi", "tafsir-al-baghawi",
+                   "tafsir-ibn-kathir", "tafsir-al-alusi")
+MODERN_SLUGS = ("tafsir-as-saadi", "tafsir-ibn-uthaymeen", "tafsir-maarif-ul-quran")
+
 # --------------------------------------------------------------------- basics
 
 
@@ -168,14 +191,9 @@ def source_catalog():
         for d in sorted(REPO.glob("tafsir-*")) + sorted(REPO.glob("tafsir_*")):
             if not d.is_dir():
                 continue
+            if d.name not in SOURCE_ALLOWLIST:
+                continue          # the ten; the study draft in tafsir_initial/ is not a source
             slug = d.name
-            if slug == INITIAL_SLUG:
-                out.append({
-                    "slug": slug, "kind": "study", "lang": "en",
-                    "title": "THE STUDY QURAN (initial draft; source initial/ -> tafsir_initial/)",
-                    "upstream": "in-repo draft", "path": d,
-                })
-                continue
             head_file = d / "001.txt"
             if not head_file.exists():
                 continue
@@ -196,6 +214,17 @@ def source_catalog():
         out.sort(key=lambda s: (s["lang"] != "en", s["slug"]))
         _SOURCES = out
     return _SOURCES
+
+
+def stray_sources():
+    """Source folders present in the repo that the allowlist excludes."""
+    names = {d.name for d in REPO.glob("tafsir-*") if d.is_dir()}
+    return sorted(names - set(SOURCE_ALLOWLIST) - {INITIAL_SLUG})
+
+
+def source_covers(slug: str, chapter: int, verse: int) -> bool:
+    """True if this work's file for the chapter holds that verse at all."""
+    return bool(source_verse(slug, chapter, verse))
 
 
 def source_slugs():

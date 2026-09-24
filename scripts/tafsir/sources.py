@@ -5,7 +5,7 @@ The generation prompt (TAFSIR_PROMPT.md) says: write each verse from the
 tafsir sources that discuss *that* verse, never from memory. This script
 produces the material that makes that possible:
 
-    python3 scripts/tafsir/sources.py 1                 # all 28 sources, all verses
+    python3 scripts/tafsir/sources.py 1                 # the ten works, all verses
     python3 scripts/tafsir/sources.py 1 --stats         # sizes first, read second
     python3 scripts/tafsir/sources.py 1 --verse 3       # one verse
     python3 scripts/tafsir/sources.py 1 --slug tafsir-ibn-kathir --slug tafsir-al-tabari
@@ -15,6 +15,9 @@ It writes two files:
 
     tmp/sources/NNN.txt    human-readable digest, capped per source per verse
     tmp/sources/NNN.json   {verse: {slug: text}} — uncapped, for audit --grounding
+
+The ten works are ``corpus.SOURCE_ALLOWLIST``; the study draft in
+``tafsir_initial/`` is not one of them and is never digested.
 
 Caps exist because a single Arabic source can run to tens of thousands of
 characters for one ayah. The cap keeps the digest readable; raise it with
