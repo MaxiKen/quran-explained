@@ -31,12 +31,12 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 7,471 | 848/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,257 bytes) |
+| 1 | `tafsir/001.md` | 7/7 | 7,473 | 850/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,264 bytes) |
 
 Totals: **1 of 114 chapters written, 7 of 6,236 verses.** Chapter 1 is the first chapter written
 under standard **v6.1**, and the row above is what `python3 scripts/tafsir/status.py --md` and
-`python3 scripts/tafsir/status.py 1` print for it (7,471 words, every verse over the 500-word
-floor, 848 words at the shortest). Chapters 2–114 are still unwritten: `tafsir/` holds
+`python3 scripts/tafsir/status.py 1` print for it (7,473 words, every verse over the 500-word
+floor, 850 words at the shortest). Chapters 2–114 are still unwritten: `tafsir/` holds
 `001.md` and `.gitkeep`, and `data/` holds the single payload.
 
 **Chapter 1 written again under v6.1, 2026-09-24.** The seven verses of Al-Fātiḥah were written
@@ -44,8 +44,8 @@ from the ten works pulled for the chapter (`sources.py 1 --stats` covers all sev
 ten), with the phrase cut of `scaffold.py 1 --phrases` quoted inside the prose in verse order and
 each phrase anchored beside its explanation. `batch.py 1 --ranges 1-2,3-4,5-6,7` → **PASS** for
 every stretch; `audit.py 1 --show-info` → **0 FAIL, 0 WARN, 0 INFO**, `RESULT: PASS`;
-`status.py 1` → **848/1002/1546** words against the 500-word floor; `build_data.py 1` →
-`data/tafsir_001.json` (7 verses, 44,257 bytes) and `build_data.py 1 --check` → **1 up to date**;
+`status.py 1` → **850/1002/1546** words against the 500-word floor; `build_data.py 1` →
+`data/tafsir_001.json` (7 verses, 44,264 bytes) and `build_data.py 1 --check` → **1 up to date**;
 `sw.js` `CACHE_VERSION` bumped to `quran-reader-v2.5.40` so a reader who had the deleted chapter
 cached gets the new one. `selftest.py` → **50 cases, 0 uncaught rules, 0 false alarms**;
 `audit.py --all` → **1/114 written, 0 in progress, FAIL 0, WARN 0**. What the chapter carries:
@@ -294,7 +294,7 @@ the sources that carried the weight, and the mis-attributions to keep out.
   beside the rules, and it carries one analogy in each of its seven verses.
 * The per-verse floor is 500 words as of 2026-09-24 (`max(500, 8 × the verse's own words)`, capped
   4,000). Chapter 1 is the first chapter measured against it, and the shortest of its seven sections
-  (1:3) runs to 848 words, so the floor was met from the material rather than from padding.
+  (1:3) runs to 850 words, so the floor was met from the material rather than from padding.
 * The standard is **v6.1** (bold reserved to the three markers; the prose explains only wording the
   verse's translation carries; a synonym, word or phrase, is adjusted to the verse's own wording and
   the section carries on). Chapter 1 is written under it and is its worked example.
