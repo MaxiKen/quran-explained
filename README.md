@@ -37,7 +37,11 @@ Excerpts worth knowing:
 * the headings are UPPERCASE descriptive titles (never the verse's own words), while every phrase
   of the verse is quoted *inside* the prose in **bold italics**, explained in verse order, and
   backed beside the quote by a cross-reference, a report with its collection, or a named
-  authority; quotations from other verses are bold only, inside their reference;
+  authority; quotations from other verses are bold only, inside their reference — and those three
+  are the **only** things bold in a chapter file (reports are italic `*"…"*`, the prose itself is
+  plain);
+* the commentary explains the verse as it is quoted: every explained word, English or Arabic, is
+  wording the reader can see in the verse translation above the section;
 * every verse carries at least 500 words, rising to eight times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;

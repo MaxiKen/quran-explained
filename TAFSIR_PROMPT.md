@@ -161,13 +161,19 @@ paragraph does — much as the old commentary on this site titled its paragraphs
 *inside* the paragraphs, and not every paragraph carries one: context, history, reports and rulings
 are headings of their own.
 
-Three markers carry the quoting:
+Three markers carry the quoting — **and they are the only three things in the whole file that may be
+bold**:
 
 | What is quoted | How it is written |
 |---|---|
 | A phrase of the verse being explained | **bold italics**: `***“the phrase of this verse”***` |
 | A clause of any other verse (a cross-reference) | **bold only**: `(C:V — **“the clause”**)` |
-| A heading | **UPPERCASE**, no quotes, never the verse's words |
+| A heading | **UPPERCASE**, **bold**, no quotes, never the verse's words |
+| A report, an athar, a scholar's words | *italics with straight quotes*: `*"what was said"*` — never bold |
+
+Anything else in bold — a name emphasised, a term of art, a phrase the writer wants the reader to
+notice — fails `MTCH-BOLD`. The commentary's own voice carries no emphasis at all: **bold is the
+Qur'an's, italics are the report's, plain text is the writer's.**
 
 Rules the auditor enforces:
 
@@ -199,6 +205,10 @@ Rules the auditor enforces:
 8. **One `---`** between sections. No trailing separator after the last verse.
 9. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
 10. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
+11. **Bold is reserved, and the prose explains the verse as quoted** (see §5.1). Nothing is bold
+    except the three markers above; and no sentence explains a word — English or Arabic — that the
+    verse's translation does not carry. A word-study of a word the reader cannot see in the verse
+    line fails (`MTCH-BOLD`, `MTCH-WORD`, `MTCH-TERM`).
 
 ### 4.1 Where the length comes from
 
@@ -287,8 +297,27 @@ a bad cut; merge it back.
 **Marking the quotes.** This verse's own phrase, wherever it appears in the prose, is written in
 bold italics: ***“the phrase of this verse”***. A clause quoted from any other verse is written in
 bold only, inside its reference: (C:V — **“the clause”**). A phrase of this verse quoted plainly, or
-in bold only, fails (`PHR-QUOTE-STYLE`); an italic cross-reference quote fails
-(`REF-QUOTE-STYLE`). Headings carry no quotes at all, and they are UPPERCASE.
+in bold only, fails (`PHR-QUOTE-STYLE`); anything else in bold fails (`MTCH-BOLD`); an italic
+cross-reference quote fails (`REF-QUOTE-STYLE`). Headings carry no quotes at all, and they are
+UPPERCASE. A bold-italic quote is **always this verse's own words**: wording in that style that the
+verse does not contain fails (`PHR-QUOTE-FOREIGN`).
+
+### 5.1 The prose matches the verse it quotes
+
+The reader's verse line is the translation above the section — that text, and no other, is what the
+commentary explains. Every phrase quoted is a phrase of that translation, and every word explained
+is a word the reader can see in it. Two things fail:
+
+* **a word-study of a word the verse does not carry** (`MTCH-WORD`): *"the word X means …"*,
+  *"literally X"*, *"from the root X"*, *"the plural X"* — where X is English and not in the verse,
+  or Arabic at all, because the verse line the reader has does not carry it. The Arabic behind the
+  translation may be named in passing, but it may not be the thing being explained;
+* **Arabic offered as the verse's own wording** (`MTCH-TERM`): *"the verse says *kāfir*"*, when the
+  reader's verse line says "the disbelievers". The verse's wording is the translation quoted above
+  the section.
+
+Arabic wording carried as a free-standing language point warns (`MTCH-TERM`): tie it to the verse's
+own quoted phrase — the words the reader can actually see — or drop it.
 
 **How to write each phrase.** Take it apart in order: what the words mean, what the grammar does
 (a definite article, a word placed first, a pronoun that shifts), what the early authorities said
@@ -312,7 +341,11 @@ holding it — or the paragraph straight after it — must carry one of:
 | Headings are UPPERCASE | any lower-case letter in a heading fails `FMT-HEADING-CASE` |
 | Heading is a title, not a quote | a heading that is the verse's own phrase fails `FMT-HEADING-QUOTED` |
 | This verse's phrases are bold italics | a phrase of the verse quoted plainly, or in bold only, fails `PHR-QUOTE-STYLE` |
+| A bold-italic quote is this verse's wording | wording in that style that the verse does not contain fails `PHR-QUOTE-FOREIGN` |
 | Other references are bold only | an italic cross-reference quote fails `REF-QUOTE-STYLE` |
+| Nothing else is bold | any other bold fails `MTCH-BOLD` |
+| Explained words are in the verse | a word-study of a word the translation does not carry fails `MTCH-WORD` |
+| Arabic is not the verse's wording | Arabic offered as the verse's wording fails `MTCH-TERM` |
 | Heading is not a copy | six or more words of the verse verbatim in a heading fails `FMT-HEADING-VERSE` (four or more warns) |
 | Headings are real titles | generic labels and headings over twelve words warn; two or more per verse |
 | The verse is quoted in the prose | at least 90% of its words, or `PHR-PHRASE-COVERAGE` |
@@ -335,7 +368,9 @@ holding it — or the paragraph straight after it — must carry one of:
    be a substring of this verse's `ayah_en` (the gate reports a foreign quote in that style).
 * Quote the clause under discussion, not a whole long verse.
 * A bare citation without a quote is fine and encouraged: `(2:255)`, `(3:8)`.
-* Hadith and athar are quoted inside emphasis with straight quotes: `*"..."*`.
+* Hadith and athar are quoted inside emphasis with straight quotes: `*"..."*` — italic, never
+  bold. Bold belongs to Qur'anic wording alone: this verse's phrase in bold italics, another verse's
+  clause in bold only. Nothing else in the file is bold (`MTCH-BOLD`).
 * Never re-quote a verse already quoted in the same section; cite it.
 * Quotations from reports, athar and scholars are marked `*"..."*` (emphasis, straight quotes). A
   passage left in curly quotes outside a Qur'an reference is flagged: `EVD-QUOTE-STYLE` fails at 25
@@ -391,9 +426,11 @@ who puts the phone down.
 
 **Diction.** Say "so" not "subsequently", "show" not "demonstrate", "start" not "commence",
 "use" not "utilise", "about" not "with regard to", "but" not "notwithstanding". The auditor fails
-a chapter that leans on formal vocabulary (`STY-DICTION`). Arabic terms are welcome — *raḥmah*,
-*ṣirāṭ*, *tawḥīd* — as long as each is explained the first time in the chapter and used naturally
-after that.
+a chapter that leans on formal vocabulary (`STY-DICTION`). An Arabic term may be named where the
+verse's own quoted phrase carries the point — *raḥmah* beside "the Most Compassionate" — but the
+prose explains the wording the reader can see, not the Arabic behind it: a term the verse line does
+not carry may not be the thing being explained (`MTCH-WORD`), and Arabic may never stand in for the
+verse's wording (`MTCH-TERM`).
 
 **Analogy.** Every verse should carry one simple comparison that a reader can picture, drawn from
 ordinary life: a market, a road, a garden, a workshop, rain, a boat, a letter, a journey. The
@@ -453,7 +490,10 @@ Every FAIL must be fixed by changing the writing, not the rule. Warnings must be
 ones that are real. The code groups mean: `FMT-*` — the file's shape is wrong (a heading that is
 the verse's own wording, a missing quote line, bad spacing); `PHR-*` — a phrase of the verse is not
 quoted, is quoted out of order, is swallowed by one long quote, or is quoted without evidence
-beside it; `REF-*` — a citation or a quote from another verse is wrong; `WRD-*` — the section is
+beside it; `MTCH-*` — the file's emphasis, or the words the prose explains, do not match the verse
+it quotes (bold used outside the three markers, a word-study of a word the translation does not
+carry, Arabic offered as the verse's own wording); `REF-*` — a citation or a quote from another
+verse is wrong; `WRD-*` — the section is
 under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
 chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or
 announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the ten is cited, fewer than
@@ -568,3 +608,6 @@ the size, the loop is the same: write, gate, fix, continue — and keep several 
 * It does not fill silence. Where a phrase has little material, the prose under it stays honest
   and brief rather than padded — the verse's floor is met from the material the sources do carry:
   its context, its cross-references, its rulings, and the reports attached to it.
+* It does not write about words the reader cannot see. The commentary explains the verse as it is
+  translated and quoted above the section; the Arabic behind a rendering is named only where it
+  serves that explanation, never studied in place of it (`MTCH-WORD`, `MTCH-TERM`).

@@ -338,6 +338,46 @@ def mut_diction(text, ch):
                       "**THE POINT**\n\nNotwithstanding the aforementioned, the verse obtains.", 1)
 
 
+def mut_bold_elsewhere(text, ch):
+    """Bold on a word that is none of the three markers (rule: bold is reserved)."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The **plain** emphasis is not allowed." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_word_offverse(text, ch):
+    """A word-study of a word the verse's translation does not carry."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para
+                + " The word *quernstone* means a mill, which the verse does not say." + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_term_as_verse(text, ch):
+    """Arabic offered as the verse's own wording."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The verse says *k\u0101fir* of them." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
 def mut_parade(text, ch):
     def fn(block):
         run = ("Al-Qur\u1e6dub\u012b notes that the verse settles the question. "
@@ -399,6 +439,8 @@ def mut_ref_repeat(text, ch):
 ALIASES = {
     "PHR-PHRASE-MISSING": {"PHR-PHRASE-MISSING", "PHR-PHRASE-NONE", "PHR-PHRASE-COVERAGE"},
     "PHR-QUOTE-STYLE": {"PHR-QUOTE-STYLE", "PHR-PHRASE-NONE", "PHR-PHRASE-COVERAGE"},
+    "MTCH-WORD": {"MTCH-WORD", "MTCH-TERM"},
+    "MTCH-TERM": {"MTCH-TERM", "MTCH-WORD"},
 }
 
 CASES = [
@@ -446,6 +488,9 @@ CASES = [
     ("\u00a78 plain diction", "STY-DICTION", mut_diction),
     ("v5 the reading is interwoven, not per source", "STY-SOURCE-PARADE", mut_parade),
     ("v5 the reading analyses, not reports", "STY-ANALYSIS-FLOOR", mut_no_analysis),
+    ("\u00a74.11 nothing is bold but the three markers", "MTCH-BOLD", mut_bold_elsewhere),
+    ("\u00a75.1 words explained exist in the verse", "MTCH-WORD", mut_word_offverse),
+    ("\u00a75.1 no Arabic as the verse's own wording", "MTCH-TERM", mut_term_as_verse),
 ]
 
 

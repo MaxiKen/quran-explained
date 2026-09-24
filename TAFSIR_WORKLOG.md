@@ -17,6 +17,8 @@ line of it:
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |
+| Bold | **reserved**: only the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) may be bold — anything else fails `MTCH-BOLD`; reports and athar are italic `*"…"*` (`EVD-QUOTE-STYLE`) |
+| Matching the verse | the prose explains the wording the verse's translation carries: a word-study of a word the translation does not carry fails (`MTCH-WORD`, Arabic included), Arabic offered as the verse's own wording fails (`MTCH-TERM`), and a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
@@ -69,7 +71,7 @@ by name. `audit.py 1` → **PASS**; `batch.py 1 --ranges 1-7` → **PASS**; payl
 `TAFSIR_PROMPT.md` §4–§8 once on a scratch copy of a written chapter — a lower-case heading, a
 mis-quoted verse, a citation with no anchor, a labelled paragraph, a section written source by
 source, a report out of straight quotes, a hadith number that exists nowhere — and fails when the
-gate does not report the promised code: 44 cases, 0 uncaught, 0 unexercised. Two rules were found
+gate does not report the promised code: 47 cases, 0 uncaught, 0 unexercised. Two rules were found
 unenforced while building it: `REF-QUOTE` had never checked anything (it read an empty capture
 group), and `PHR-QUOTE-STYLE` sat behind an early return, so a plainly quoted phrase reported the
 wrong code.
@@ -94,6 +96,14 @@ mechanically (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`, `PHR-*`, `PHR-EVIDENCE`
 produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writer keeps several
 stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
 first; chapter 2 was written to the same standard in one continuous run and passed the gate on 2026-09-24 (2:1–2:286).
+
+Standard version: **v6** (2026-09-24: bold is reserved to the three markers — the UPPERCASE
+headings, this verse's phrases in bold italics, other verses' clauses in bold only — and every
+report stays italic `*"…"*`, so that bold reads as the Qur'an, italics as a report and plain text as
+the commentary; and the prose explains the verse as it is quoted, so a word-study of a word the
+translation does not carry — Arabic extracted from a source but absent from the reader's verse line
+— fails rather than ships. Mechanised as `MTCH-BOLD`, `MTCH-WORD` and `MTCH-TERM`, with
+`PHR-QUOTE-FOREIGN` raised from warn to fail; three selftest cases added for them).
 
 Standard version: **v5** (2026-09-24: the ten works are witnesses inside one reading, not ten
 speakers taking turns — paragraphs open with the point being made, not with a work's name, and
@@ -268,5 +278,8 @@ the sources that carried the weight, and the mis-attributions to keep out.
 * The per-verse floor is 500 words as of 2026-09-24 (`max(500, 8 × the verse's own words)`, capped
   4,000). The next chapter written is the first measured against it, and the first chance to see
   whether the shorter floor is met from real material rather than padding.
-* Next steps: chapter 1 again under the 500-word floor, then chapter 2 in batches with
+* The standard is **v6** (bold reserved to the three markers; the prose explains only wording the
+  verse's translation carries). No chapter has been written under it yet — the first chapter
+  regenerated becomes the worked example for it.
+* Next steps: chapter 1 again under the 500-word floor and v6, then chapter 2 in batches with
   `batch.py 2 --ranges` after each stretch.

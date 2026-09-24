@@ -10,7 +10,7 @@ Where each rule lives:
 | Where | What it is |
 |---|---|
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
-| `scripts/tafsir/audit.py` | the same rules mechanised — **71 codes**; the authority on *what actually blocks a chapter* |
+| `scripts/tafsir/audit.py` | the same rules mechanised — **74 codes**; the authority on *what actually blocks a chapter* |
 | `scripts/tafsir/batch.py` | the same rule set applied to the verses written so far, so a batch can be judged while the chapter is unfinished |
 | `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy and fails if the gate does not report it |
 | [`TAFSIR_PIPELINE.md`](TAFSIR_PIPELINE.md) §5 | the working agreement (who writes what, when a chapter is done) |
@@ -49,7 +49,7 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
    "<claim>" --chapter N` (or `--verse C:V`). No hit means no credit — drop the claim or state it
    without a name. This check is not optional (§7 of the prompt).
 
-## 2. Qur'an quoting law (`FMT-QUOTE-*`, `PHR-QUOTE-*`, `REF-*`)
+## 2. Qur'an quoting law (`FMT-QUOTE-*`, `PHR-QUOTE-*`, `REF-*`, `MTCH-*`)
 
 1. **The only source of Qur'an wording is `data/chapter_NNN.js`.** Never from a tafsir's paraphrase,
    never from memory, never retyped if it can be copied.
@@ -59,7 +59,7 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
    `FMT-QUOTE-LINES`; different wording → `FMT-QUOTE-VERBATIM` (all fail).
 3. **A phrase of this verse** is written in **bold italics**: `***“the phrase of this verse”***`
    (`***` — curly quotes — `***`). A phrase quoted plainly, or in bold only, **fails**
-   (`PHR-QUOTE-STYLE`); wording in that style that is *not* this verse's warns
+   (`PHR-QUOTE-STYLE`); wording in that style that is *not* this verse's wording **fails**
    (`PHR-QUOTE-FOREIGN`).
 4. **A clause of another verse** is written in **bold only, inside its reference**:
    `(C:V — **“the clause”**)` — em dash, curly quotes. An italic cross-reference quote **fails**
@@ -76,6 +76,33 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
    left in curly quotes outside a Qur'an reference warns from 12 words and **fails** at 25
    (`EVD-QUOTE-STYLE`); Qur'an wording put in straight-quote style **fails** (`REF-STRAIGHT-QUOTE`).
 9. A Qur'an clause quoted in curly quotes with no reference beside it warns (`REF-UNANCHORED`).
+10. **Bold is reserved.** Nothing in a chapter file is bold except three things: an UPPERCASE
+    heading (`**TITLE**`), a phrase of this verse (bold italics, `***“…”***`) and a clause quoted
+    from another verse (bold only, inside its reference). Any other bold — a name, a term, a word
+    the writer wants noticed — **fails** (`MTCH-BOLD`). The reader's key is then unambiguous:
+    **bold = Qur'an, italic = report, plain = the commentary.** Reports, athar and scholars' words
+    stay `*"…"*` (italic, straight quotes), never bold.
+11. **The prose matches the verse it quotes** (`MTCH-WORD`, `MTCH-TERM`) — see §2.1.
+
+## 2.1 The prose explains the verse as it is quoted
+
+The verse line above the section is the translation, and that text is what the commentary explains.
+Every quoted phrase is a phrase of it (verbatim, in the right style), and every word explained is a
+word the reader can see in it.
+
+1. **A word-study of a word the verse does not carry fails** (`MTCH-WORD`). A word-study is the
+   prose explaining what a word means or how it works: *"the word X means …"*, *"literally X"*,
+   *"from the root X"*, *"the plural X"*. X must be in the verse's translation; if X is English and
+   absent from it, or X is Arabic (which the English line never carries), the study fails. The
+   Arabic behind a rendering may be named in passing; it may not be the thing being explained.
+2. **Arabic offered as the verse's own wording fails** (`MTCH-TERM`): *"the verse says *kāfir*"*,
+   when the verse line says "the disbelievers". The verse's wording is the translation quoted above
+   the section.
+3. **Arabic carried as a free-standing language point warns** (`MTCH-TERM`): tie the term to the
+   verse's own quoted phrase, or drop it. Corpus vocabulary (sūrah, āyah, ḥadīth, tafsīr, isnād)
+   and proper names (al-Ṭabarī, al-Qurṭubī) are not flagged.
+4. **A bold-italic quote that is not this verse's wording fails** (`PHR-QUOTE-FOREIGN`), the same
+   rule the phrase-coverage checks apply from the other side.
 
 ## 3. The shape of a chapter file (`FMT-*`)
 
@@ -296,7 +323,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
    * commit `Tafsir ch N (<Name>): verse-by-verse from all <k> sources` and push to the session
      branch only.
 9. **`python3 scripts/tafsir/selftest.py`** must show every rule caught whenever `audit.py` changes
-   (44 cases; a `MISS` is a rule the gate does not enforce).
+   (47 cases; a `MISS` is a rule the gate does not enforce).
 
 **Working agreement (pipeline §5):**
 
@@ -355,7 +382,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `WRD-INTRO` | fail/warn | introduction under 250 words / over 1,500 |
 | `PHR-PHRASE-NONE` | fail | no phrase of the verse quoted in the prose |
 | `PHR-QUOTE-STYLE` | fail | this verse's phrase not in bold italics (or non-own wording in that style) |
-| `PHR-QUOTE-FOREIGN` | warn | bold-italic quote that is not this verse's wording |
+| `PHR-QUOTE-FOREIGN` | fail | bold-italic quote that is not this verse's wording |
 | `PHR-PHRASE-COVERAGE` | fail/warn | under 90% of the verse's words quoted / incomplete |
 | `PHR-PHRASE-GAP` | fail | more than 8 words passed over unquoted |
 | `PHR-PHRASE-EDGE` | fail | first or last 3 words never quoted |
@@ -395,10 +422,13 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `SRC-SPREAD` | fail | fewer than five of the ten named in the verse's prose |
 | `SRC-FAMILY` | fail/warn | no classical authority named / no modern authority named |
 | `SRC-UNUSED` | warn | a work of the ten never named in the whole chapter |
+| `MTCH-BOLD` | fail | bold used outside the three markers (heading, this verse's phrase, another verse's clause) |
+| `MTCH-WORD` | fail | a word-study of a word the verse's translation does not carry (Arabic included) |
+| `MTCH-TERM` | fail/warn | Arabic offered as the verse's own wording (fail) / Arabic carried as a language point (warn) |
 | `GRD-TOKENS` | warn | named/foreign terms not found in the verse's sources (advisory) |
 
-**The codes number 71 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 8 `REF-*`,
-3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 1 `GRD-*`.
+**The codes number 74 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 8 `REF-*`,
+3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 3 `MTCH-*`, 1 `GRD-*`.
 
 ## Appendix B — the numbers, in one table
 
@@ -424,6 +454,9 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Duplicate sentence | 10+ words, anywhere in the chapter |
 | Section template overlap | warn > 18%, fail > 30% (8-grams) |
 | Headings per verse | ≥ 1 (fail 0, warn 1), soft maximum 30; ≤ 12 words |
+| Bold | only the UPPERCASE headings, this verse's phrases (bold italics), other verses' clauses (bold only) |
+| Explained words | must be present in the verse's translation (4-letter stem match, both directions) |
+| Reports | italic `*"…"*`, never bold |
 
 ## Appendix C — the commands
 

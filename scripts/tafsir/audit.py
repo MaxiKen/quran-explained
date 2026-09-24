@@ -18,6 +18,12 @@ below are the same rules, mechanised:
           verse order, covering the whole verse, in workable units, and each
           quoted phrase is backed by evidence (a cross-reference, a hadith, a
           named authority) in its own paragraph
+  MTCH-*  match: nothing in the file is bold except the three markers — the UPPERCASE
+          headings, this verse's own phrases (bold italics) and the clauses quoted
+          from other verses (bold only); and the prose explains the verse as it is
+          quoted: a word-study of a word the translation does not carry fails
+          (MTCH-WORD), Arabic offered as the verse's own wording fails (MTCH-TERM),
+          and Arabic carried as a free-standing language point warns
   EVD-*   evidence: every verse carries checkable anchors, every prophetic attribution
           names its collection, a hadith number exists in the sources for the verse
           (EVD-NUMBER), and quotations use the corpus's markers (EVD-QUOTE-STYLE), and
@@ -237,6 +243,41 @@ QURAN_QUOTE_ITALIC = re.compile(
 PHRASE_QUOTE = re.compile(r"\*\*\*[\u201c](.+?)[\u201d]\*\*\*", re.S)
 BOLD_ONLY_QUOTE = re.compile(r"(?<!\*)\*\*[\u201c](.+?)[\u201d]\*\*(?!\*)", re.S)
 
+# ---- bold is reserved (MTCH-BOLD) -------------------------------------------
+# Three things may be bold in a chapter file, and nothing else: an UPPERCASE
+# heading, a phrase of the verse being explained (bold italics), and a clause
+# quoted from another verse (bold only, inside its reference). A report, an
+# athar or a scholar's words are quoted *"...\"* (italics, straight quotes);
+# the commentary itself carries no emphasis at all.
+BOLD_ANY = re.compile(r"\*\*[^\n]+?\*\*")
+HEADING_BOLD = re.compile(r"(?m)^\*\*[^*\n]+\*\*[ \t]*$")
+REF_GROUP = re.compile(r"\([^()\n]*\d{1,3}:\d{1,3}[^()\n]*\)")
+
+# ---- the prose explains the verse as it is quoted (MTCH-WORD, MTCH-TERM) -----
+# A word-study — the prose explaining what a word means, what its root is, what
+# it literally says — may only be about wording the quoted translation carries.
+WORD_STUDY = re.compile(
+    r"(\bthe (?:word|term|phrase|name|noun|verb|root|plural|dual|participle)\b"
+    r"|\bliterally\b|\bfrom the root\b|\bthe Arabic (?:word|term|for)\b"
+    r"|\bthe (?:word|term|phrase) .{0,30}\bin (?:the|this) verse\b)", re.I)
+STUDY_VERB = re.compile(
+    r"(\bmeans\b|\bmeaning\b|\bliterally\b|\bfrom the root\b|\bcalled\b|\bcomes from\b"
+    r"|\broot\b|\bplural\b|\bdual\b|\bsingular\b|\bverb\b|\bnoun\b|\bgrammar\b)", re.I)
+# "the verse says *kafir*" — Arabic offered as the verse's own wording.
+AS_VERSE_TERM = re.compile(
+    r"\b(?:the (?:verse|Qur[\u2019']?an)|\bit)\s+(?:says|uses|reads|calls|names|has|refers to)"
+    r"\s+(?:the (?:word|term|name)\s+)?[*\u201c\"]?([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
+    r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})[*\u201d\"]?", re.I)
+# A Latin token carrying the diacritics of a transliteration (raḥmah, ṣirāṭ ...).
+TRANSLIT = re.compile(
+    r"\b[A-Za-z'\u2019]*[\u0100-\u024f\u1e00-\u1eff\u02bf\u02be]"
+    r"[A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]*\b")
+# Corpus vocabulary, not the verse's wording: naming these is not a word-study.
+TRANSLIT_OK = {
+    "hadith", "surah", "ayah", "ayat", "tafsir", "isnad", "sanad", "sunnah", "juz",
+    "mushaf", "quran", "surahs", "ayas", "ayat", "hadiths", "islam",
+}
+
 BARE_REF = re.compile(r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?(?:\s*,\s*\d{1,3}:\d{1,3})*\)")
 
 CURLY_ONLY_QUOTE = re.compile(r"(?<!\*)\*[\u201c]([^\u201d]{8,})[\u201d]\*(?!\*)")
@@ -286,7 +327,7 @@ class Finding:
 
 
 def verse_floor(verse_words: int) -> int:
-    """Words a verse section must carry: 500, rising 6x with the verse."""
+    """Words a verse section must carry: 500, rising 8x with the verse."""
     return max(MIN_VERSE_WORDS, min(SCALE_CAP, int(math.ceil(SCALE_FACTOR * verse_words))))
 
 
@@ -334,6 +375,83 @@ def _verse_run(title: str, verse_tokens: list) -> int:
                 best = k
                 break
     return best
+
+
+def _bold_violations(raw: str) -> list:
+    """``[(line, snippet)]`` for every bold span that is not one of the three markers.
+
+    Scaffold lines (the ``TODO`` text ``scaffold.py`` writes) are skipped: they are
+    caught by ``FMT-PLACEHOLDER``, and their worked example would report a bold
+    violation on every unwritten verse of a chapter still being written.
+    """
+    allowed = [m.span() for m in PHRASE_QUOTE.finditer(raw)]      # this verse's phrase
+    allowed += [m.span() for m in REF_GROUP.finditer(raw)]        # a clause inside its reference
+    allowed += [m.span() for m in HEADING_BOLD.finditer(raw)]     # an UPPERCASE heading
+    bad = []
+    for m in BOLD_ANY.finditer(raw):
+        a, b = m.span()
+        if any(x <= a and b <= y for x, y in allowed):
+            continue
+        line_no = raw[:a].count("\n") + 1
+        line = raw.split("\n")[line_no - 1]
+        if re.search(r"\bTODO\b|\bTBD\b|PLACEHOLDER", line):
+            continue
+        bad.append((line_no, m.group(0)))
+    return bad
+
+
+def _is_translit(word: str) -> bool:
+    """Does this word carry the diacritics of a transliterated Arabic term?"""
+    return bool(re.search(r"[\u0100-\u024f\u1e00-\u1eff\u02bf\u02be]", word or ""))
+
+
+def _wording_in_verse(head: str, verse_text: str) -> bool:
+    """Does the verse's own translation carry this word (allowing for inflection)?"""
+    head = C.loose_norm(head or "").strip("'\u2019- ")
+    if not head:
+        return True
+    words = C.loose_norm(verse_text).split()
+    if head in words:
+        return True
+    stem = head[:4]
+    return any(len(w) >= 4 and (w.startswith(stem) or head.startswith(w[:4])) for w in words)
+
+
+STOP_HEAD = {
+    "used", "here", "there", "for", "in", "of", "to", "and", "or", "but", "is", "are", "was",
+    "were", "be", "being", "been", "the", "a", "an", "that", "this", "these", "those", "it",
+    "its", "they", "them", "their", "he", "she", "his", "her", "which", "who", "whom", "whose",
+    "when", "where", "why", "how", "not", "no", "so", "as", "at", "by", "from", "with",
+    "without", "into", "onto", "than", "then", "also", "means", "meaning", "literally",
+    "called", "comes", "come", "same", "one", "two", "order", "form", "sense", "point",
+    "word", "verse", "chapter", "surah", "root", "plural", "singular", "dual", "verb", "noun",
+    "name", "phrase", "term", "participle", "him", "you", "we", "us", "our", "your", "my",
+}
+
+
+def _study_words(sentence: str) -> list:
+    """The words a sentence explains: an emphasised single word, or the word after a study phrase."""
+    found = []
+    for m in re.finditer(r"\*{1,3}([^*\n]+?)\*{1,3}", sentence):
+        inner = m.group(1).strip()
+        if not inner or " " in inner or inner[0] in "\u201c\u201d\"'":
+            continue                      # *"a report in quotes"* is a quotation, not a headword
+        inner = inner.strip("'\u2019- ") 
+        if inner and inner.lower() not in STOP_HEAD:
+            found.append(inner)
+    m = WORD_STUDY.search(sentence)
+    if m:
+        nxt = re.match(r"[^A-Za-z\u00c0-\u024f\u1e00-\u1eff]*([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
+                       r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})",
+                       sentence[m.end():])
+        if nxt and nxt.group(1).lower() not in STOP_HEAD:
+            found.append(nxt.group(1))
+    out, seen = [], set()
+    for head in found:                       # one finding per word, not one per pattern
+        if head.lower() not in seen:
+            seen.add(head.lower())
+            out.append(head)
+    return out
 
 
 # ------------------------------------------------------------------- the checks
@@ -559,6 +677,9 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         # phrases: each one quoted inside the prose, in order, explained, and evidenced
         _phrase_rules(section, chapter, fail, warn)
 
+        # the prose explains the verse as it is quoted, and nothing else
+        _match_rules(section, chapter, fail, warn)
+
         # separators
         for i, line in enumerate(section.lines):
             if line.strip() == "---" and i and section.lines[i - 1].strip():
@@ -618,9 +739,10 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
             if any(a <= m.start() and m.end() <= b for a, b in cross):
                 continue                     # inside a cross-reference: that is a reference quote
             if _canon(m.group(1)) not in own_canon:
-                warn("PHR-QUOTE-FOREIGN", ref, anchor,
-                     "quoted in this verse's bold italics but it is not this verse's wording: %r"
-                     % m.group(1)[:60])
+                fail("PHR-QUOTE-FOREIGN", ref, anchor,
+                     "quoted in this verse's bold italics but it is not this verse's wording: %r \u2014 a "
+                     "bold-italic quote is always this verse's own words, copied from data/chapter_%s.js"
+                     % (m.group(1)[:60], C.pad3(chapter)))
 
         for m in CURLY_ONLY_QUOTE.finditer(checkable):
             if _canon(m.group(1)) in own_canon:
@@ -846,6 +968,12 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
               "%d formal word(s) where plain English does: %s" % (len(hits), ", ".join(words[:8])))
 
     # -------- filler, whitespace, hygiene -------------------------------------
+    for line_no, snippet in _bold_violations(raw):
+        fail("MTCH-BOLD", "%d" % chapter, line_no,
+             "bold is reserved for the three markers \u2014 the UPPERCASE headings, this verse's own "
+             "phrases (bold italics), clauses quoted from other verses (bold only): %r is none of the "
+             "three" % snippet[:60])
+
     for level, pattern, why in FILLER:
         for m in re.finditer(pattern, raw, re.I):
             line_no = raw[:m.start()].count("\n") + 1
@@ -948,6 +1076,67 @@ def _quote_style_rules(section, chapter, fail):
                  "bold italics (***\u201c%s\u201d***), bold is for other references"
                  % m.group(1)[:60])
             break
+
+
+def _match_rules(section, chapter, fail, warn) -> None:
+    """The prose explains the verse as it is quoted — not the Arabic behind it.
+
+    A word-study may only be about wording the quoted translation carries: a
+    study of an English word the verse does not have fails (MTCH-WORD), and a
+    study of an Arabic word fails for the same reason, because the reader's
+    verse line does not carry it. Arabic presented as the verse's own wording
+    fails (MTCH-TERM); Arabic carried as a free-standing language point warns,
+    because a language point belongs beside the phrase it explains.
+    """
+    ref = section.ref
+    verse_text = C.ayah_en(chapter, section.verse)
+    prose = _prose_only(section.body())
+    seen = set()
+    for para in C.split_paragraphs(prose):
+        for sentence in C.sentence_split(para):
+            sentence = sentence.strip()
+            if not sentence:
+                continue
+            m = AS_VERSE_TERM.search(sentence)
+            verse_term = m.group(1) if (m and _is_translit(m.group(1))) else None
+            study = WORD_STUDY.search(sentence)
+            if not (verse_term or study or STUDY_VERB.search(sentence)):
+                continue
+            heads = [h for h in _study_words(sentence) if h.lower() not in seen]
+            seen.update(h.lower() for h in heads)
+            if verse_term:
+                fail("MTCH-TERM", ref, section.start,
+                     "Arabic \u201c%s\u201d is offered as the verse's own wording: the verse's own "
+                     "wording is the translation quoted above this section" % verse_term)
+                heads = [h for h in heads if h.lower() != verse_term.lower()]
+            failed = 0
+            for head in heads:
+                if _is_translit(head):
+                    fail("MTCH-WORD", ref, section.start,
+                         "the section explains the Arabic \u201c%s\u201d, which this verse's translation "
+                         "does not carry: explain the wording the reader can see in the verse line above, "
+                         "not the Arabic behind it" % head)
+                    failed += 1
+                elif not _wording_in_verse(head, verse_text):
+                    fail("MTCH-WORD", ref, section.start,
+                         "the section explains \u201c%s\u201d, which does not appear in this verse's "
+                         "translation: the commentary matches the verse it quotes" % head)
+                    failed += 1
+                if failed >= 3:
+                    break
+            if verse_term or failed:
+                continue          # already reported; do not report the same term twice
+            for t in TRANSLIT.finditer(sentence):
+                term = t.group(0).strip("'\u2019-")
+                if _canon(term) in TRANSLIT_OK or term[:1].isupper():
+                    continue          # corpus vocabulary, or a proper name (al-Tabarī, al-Qurṭubī)
+                if (any(rx.search(term) for rx in AUTHORITY.values())
+                        or COLLECTIONS.search(term) or FIRST_GEN.search(term)):
+                    continue
+                warn("MTCH-TERM", ref, section.start,
+                     "\u201c%s\u201d is Arabic wording carried as a language point; tie it to the "
+                     "verse's own quoted phrase, or drop it" % term)
+                break
 
 
 def _phrase_rules(section, chapter, fail, warn) -> dict:

@@ -107,6 +107,7 @@ what they mean:
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
 | `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
+| `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a word-study of a word the verse's translation does not carry, Arabic included (`MTCH-WORD`); Arabic offered as the verse's own wording (`MTCH-TERM`, fail) or carried as a free-standing language point (warn) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
 
 The thresholds that keep chapters honest as they grow:
@@ -119,6 +120,8 @@ The thresholds that keep chapters honest as they grow:
 | Analogy | at least half the chapter's verses carry one |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
+| Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
+| Explained words | word-studies may only be about wording the verse's translation carries (Arabic terms included) |
 
 The grounding check reads `tmp/sources/NNN.json`, so run `sources.py N` before `audit.py N` for
 the full picture (`--no-grounding` skips it).

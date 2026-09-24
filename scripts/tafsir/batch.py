@@ -99,10 +99,15 @@ def run_range(chapter, start, end, opts):
             continue
         if f.code in WHOLE_CHAPTER and not f.line:
             continue                           # measured across the unfinished chapter: skip
-        if f.line and f.code.startswith(("REP-", "DICTION")):
+        if f.line and f.code.startswith(("REP-", "STY-DICTION", "MTCH-")):
             verse = owner.get(f.line)
             if verse is not None and verse not in written:
                 continue                       # the scaffold of an unwritten verse
+            if verse is not None:              # a line inside a written verse: report it with its batch
+                key = (f.code, f.ref, f.line, f.message)
+                if key not in seen:
+                    kept.append(f); seen.add(key)
+                continue
         if f.code.startswith(("WRD-INTRO", "FMT-INTRO")) or (f.line and f.line <= intro_end):
             key = (f.code, f.ref, f.line, f.message)
             if key not in seen:

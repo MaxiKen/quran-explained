@@ -59,12 +59,17 @@ def todo_for(chapter: int, verse: int) -> str:
         "as a set of descriptive headings (the setting, the story or report, the ruling, the "
         "phrases being explained); never use the verse's own words as a heading. Quote every "
         "phrase of the verse inside the prose in bold italics, explain it, and back each quoted "
-        "phrase with evidence beside it \u2014 a cross-reference like (C:V \u2014 **\u201cclause\u201d**) "
-        "from data/chapter_%s.js, a report with its collection, or a named authority. Aim for "
-        "content that carries history, occasions, reports, cross-references, life application "
-        "and one relatable analogy by itself; never label those elements (no \u201cLesson:\u201d, no "
-        "\u201cModern application:\u201d) \u2014 write them into the flow. Short sentences and everyday "
-        "words. See TAFSIR_PROMPT.md, then run scripts/tafsir/audit.py %d."
+        "phrase with evidence beside it \u2014 a cross-reference to another verse (the clause in "
+        "bold with curly quotes, the reference in the parentheses) from data/chapter_%s.js, a "
+        "report quoted in italics with its collection, or a named authority. Bold is reserved: "
+        "the UPPERCASE headings, this "
+        "verse's own phrases (bold italics) and the clauses of other verses (bold only) \u2014 "
+        "nothing else in the file is bold, and no sentence explains a word, English or Arabic, "
+        "that the verse line above does not carry. Aim for content that carries history, "
+        "occasions, reports, cross-references, life application and one relatable analogy by "
+        "itself; never label those elements (no \u201cLesson:\u201d, no \u201cModern application:\u201d) "
+        "\u2014 write them into the flow. Short sentences and everyday words. See TAFSIR_PROMPT.md, "
+        "then run scripts/tafsir/audit.py %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )
 
