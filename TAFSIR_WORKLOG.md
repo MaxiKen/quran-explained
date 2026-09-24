@@ -234,3 +234,4 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   it is agreed, and the first chapter written under it becomes the worked example.
 * Next step: agree the revised standard, encode it in `scripts/tafsir/audit.py`, then write chapter 1
   as the first file under it.
+| 001 | Al-Fātiḥah | 7/7 | 9,742 | regenerated from scratch under rule v5 (interwoven); `audit.py 1` PASS, `batch.py 1 --ranges 1-7` PASS |

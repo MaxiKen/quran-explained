@@ -279,7 +279,18 @@ def mut_labels(text, ch):
 
 
 def mut_analogy(text, ch):
-    return re.sub(r"Imagine[^.]*\.", "The point is clear.", text)
+    """Remove every analogy cue from the target verse, whatever word carries it."""
+    def fn(block):
+        lines = []
+        for line in block.split("\n"):
+            if not line.strip() or line.startswith("#") or line.strip().startswith("**") or line.startswith("> "):
+                lines.append(line)
+                continue
+            kept = [s for s in C.sentence_split(line) if s.strip() and not audit.ANALOGY.search(s)]
+            lines.append(" ".join(s.strip() for s in kept))
+        return "\n".join(lines)
+
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_spread(text, ch):
