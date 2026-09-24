@@ -22,8 +22,12 @@ below are the same rules, mechanised:
           headings, this verse's own phrases (bold italics) and the clauses quoted
           from other verses (bold only); and the prose explains the verse as it is
           quoted: a word-study of a word the translation does not carry fails
-          (MTCH-WORD), Arabic offered as the verse's own wording fails (MTCH-TERM),
-          and Arabic carried as a free-standing language point warns
+          (MTCH-WORD) unless it is a synonym of one the verse has, which is adjusted
+          to the verse's own word and carried on with (MTCH-SYNONYM, informational);
+          Arabic offered as the verse's own wording fails (MTCH-TERM) even when the
+          meaning is right, because the claim is about the quoted line; and Arabic
+          carried as a free-standing language point warns when no meaning of it
+          appears in the verse
   EVD-*   evidence: every verse carries checkable anchors, every prophetic attribution
           names its collection, a hadith number exists in the sources for the verse
           (EVD-NUMBER), and quotations use the corpus's markers (EVD-QUOTE-STYLE), and
@@ -66,6 +70,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
+import lexicon as LEX  # noqa: E402
 
 FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
@@ -272,11 +277,7 @@ AS_VERSE_TERM = re.compile(
 TRANSLIT = re.compile(
     r"\b[A-Za-z'\u2019]*[\u0100-\u024f\u1e00-\u1eff\u02bf\u02be]"
     r"[A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]*\b")
-# Corpus vocabulary, not the verse's wording: naming these is not a word-study.
-TRANSLIT_OK = {
-    "hadith", "surah", "ayah", "ayat", "tafsir", "isnad", "sanad", "sunnah", "juz",
-    "mushaf", "quran", "surahs", "ayas", "ayat", "hadiths", "islam",
-}
+# Corpus vocabulary lives in lexicon.CORPUS_TERMS (`LEX.CORPUS_TERMS`).
 
 BARE_REF = re.compile(r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?(?:\s*,\s*\d{1,3}:\d{1,3})*\)")
 
@@ -400,23 +401,6 @@ def _bold_violations(raw: str) -> list:
     return bad
 
 
-def _is_translit(word: str) -> bool:
-    """Does this word carry the diacritics of a transliterated Arabic term?"""
-    return bool(re.search(r"[\u0100-\u024f\u1e00-\u1eff\u02bf\u02be]", word or ""))
-
-
-def _wording_in_verse(head: str, verse_text: str) -> bool:
-    """Does the verse's own translation carry this word (allowing for inflection)?"""
-    head = C.loose_norm(head or "").strip("'\u2019- ")
-    if not head:
-        return True
-    words = C.loose_norm(verse_text).split()
-    if head in words:
-        return True
-    stem = head[:4]
-    return any(len(w) >= 4 and (w.startswith(stem) or head.startswith(w[:4])) for w in words)
-
-
 STOP_HEAD = {
     "used", "here", "there", "for", "in", "of", "to", "and", "or", "but", "is", "are", "was",
     "were", "be", "being", "been", "the", "a", "an", "that", "this", "these", "those", "it",
@@ -430,28 +414,49 @@ STOP_HEAD = {
 
 
 def _study_words(sentence: str) -> list:
-    """The words a sentence explains: an emphasised single word, or the word after a study phrase."""
+    """The words a sentence explains: an emphasised single word, or the word after a study phrase.
+
+    Returns ``(raw, cleaned)`` pairs — the raw form keeps its capitalisation, so a
+    proper name can be told from a headword.
+    """
     found = []
     for m in re.finditer(r"\*{1,3}([^*\n]+?)\*{1,3}", sentence):
-        inner = m.group(1).strip()
-        if not inner or " " in inner or inner[0] in "\u201c\u201d\"'":
+        inner = m.group(1).strip().strip("*")
+        if not inner or inner[0] in "\u201c\u201d\"'":
             continue                      # *"a report in quotes"* is a quotation, not a headword
-        inner = inner.strip("'\u2019- ") 
+        inner = inner.strip("'\u2019- ")
         if inner and inner.lower() not in STOP_HEAD:
-            found.append(inner)
+            found.append((m.group(1).strip(), inner))    # a phrase is judged as a phrase
     m = WORD_STUDY.search(sentence)
     if m:
         nxt = re.match(r"[^A-Za-z\u00c0-\u024f\u1e00-\u1eff]*([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
                        r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})",
                        sentence[m.end():])
         if nxt and nxt.group(1).lower() not in STOP_HEAD:
-            found.append(nxt.group(1))
+            found.append((nxt.group(1), nxt.group(1)))
     out, seen = [], set()
-    for head in found:                       # one finding per word, not one per pattern
-        if head.lower() not in seen:
-            seen.add(head.lower())
-            out.append(head)
+    for raw, clean in found:                  # one finding per word, not one per pattern
+        if clean.lower() not in seen:
+            seen.add(clean.lower())
+            out.append((raw, clean))
     return out
+
+
+def _skip_head(raw: str, term: str) -> bool:
+    """Heads the match rule does not judge: proper names, the pipeline's words, the ten works.
+
+    Capitalisation alone is not an exemption: a sūrah's name and a known place, person
+    or month are, and so is the name of a work of the ten — but a heading word the
+    verse does not carry is a failure whether the writer capitalised it or not.
+    """
+    key = LEX.norm(term)
+    if LEX.is_name(term) or key in LEX.CORPUS_TERMS or key in LEX.NAMEY:
+        return True
+    if any(rx.search(term) for rx in AUTHORITY.values()):
+        return True
+    if COLLECTIONS.search(term) or FIRST_GEN.search(term) or BANNED_WORKS.search(term):
+        return True
+    return False
 
 
 # ------------------------------------------------------------------- the checks
@@ -466,6 +471,9 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
 
     def warn(code, ref, line, msg):
         findings.append(Finding(WARN, code, ref, line, msg))
+
+    def info(code, ref, line, msg):
+        findings.append(Finding(INFO, code, ref, line, msg))
 
     if not path.exists():
         fail("FMT-FILE", "%d" % chapter, 0, "tafsir/%s.md does not exist" % C.pad3(chapter))
@@ -678,7 +686,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         _phrase_rules(section, chapter, fail, warn)
 
         # the prose explains the verse as it is quoted, and nothing else
-        _match_rules(section, chapter, fail, warn)
+        _match_rules(section, chapter, fail, warn, info)
 
         # separators
         for i, line in enumerate(section.lines):
@@ -1078,64 +1086,101 @@ def _quote_style_rules(section, chapter, fail):
             break
 
 
-def _match_rules(section, chapter, fail, warn) -> None:
+def _match_rules(section, chapter, fail, warn, info) -> None:
     """The prose explains the verse as it is quoted — not the Arabic behind it.
 
-    A word-study may only be about wording the quoted translation carries: a
-    study of an English word the verse does not have fails (MTCH-WORD), and a
-    study of an Arabic word fails for the same reason, because the reader's
-    verse line does not carry it. Arabic presented as the verse's own wording
-    fails (MTCH-TERM); Arabic carried as a free-standing language point warns,
-    because a language point belongs beside the phrase it explains.
+    Three judgements, deliberately not the same one:
+
+    * **explaining a word** — *"the word X means …"*. X may be the verse's own
+      wording, or a synonym of it: a synonym is adjusted to the verse's word and
+      recorded as information (``MTCH-SYNONYM``), anything else fails
+      (``MTCH-WORD``). Arabic terms resolve through their glosses, so *raḥmah*
+      beside the verse's "Merciful" is the same meaning and passes.
+    * **claiming the verse's wording** — *"the verse says X"*. A claim about the
+      quoted line must be true of the line, so X has to be the verse's own word,
+      not a synonym of it (``MTCH-TERM``, fail).
+    * **mentioning a term** — Arabic carried as a language point. Tied to wording
+      the verse carries it is information; a term whose meaning is nowhere in the
+      verse warns, twice per section at most, so the report stays readable.
     """
     ref = section.ref
     verse_text = C.ayah_en(chapter, section.verse)
+    index = LEX.verse_index(verse_text)
     prose = _prose_only(section.body())
-    seen = set()
+    seen, mention_warns, mention_infos = set(), 0, 0
+
     for para in C.split_paragraphs(prose):
         for sentence in C.sentence_split(para):
             sentence = sentence.strip()
             if not sentence:
                 continue
-            m = AS_VERSE_TERM.search(sentence)
-            verse_term = m.group(1) if (m and _is_translit(m.group(1))) else None
-            study = WORD_STUDY.search(sentence)
-            if not (verse_term or study or STUDY_VERB.search(sentence)):
-                continue
-            heads = [h for h in _study_words(sentence) if h.lower() not in seen]
-            seen.update(h.lower() for h in heads)
-            if verse_term:
-                fail("MTCH-TERM", ref, section.start,
-                     "Arabic \u201c%s\u201d is offered as the verse's own wording: the verse's own "
-                     "wording is the translation quoted above this section" % verse_term)
-                heads = [h for h in heads if h.lower() != verse_term.lower()]
-            failed = 0
-            for head in heads:
-                if _is_translit(head):
-                    fail("MTCH-WORD", ref, section.start,
-                         "the section explains the Arabic \u201c%s\u201d, which this verse's translation "
-                         "does not carry: explain the wording the reader can see in the verse line above, "
-                         "not the Arabic behind it" % head)
-                    failed += 1
-                elif not _wording_in_verse(head, verse_text):
-                    fail("MTCH-WORD", ref, section.start,
-                         "the section explains \u201c%s\u201d, which does not appear in this verse's "
-                         "translation: the commentary matches the verse it quotes" % head)
-                    failed += 1
-                if failed >= 3:
-                    break
-            if verse_term or failed:
-                continue          # already reported; do not report the same term twice
-            for t in TRANSLIT.finditer(sentence):
-                term = t.group(0).strip("'\u2019-")
-                if _canon(term) in TRANSLIT_OK or term[:1].isupper():
-                    continue          # corpus vocabulary, or a proper name (al-Tabarī, al-Qurṭubī)
-                if (any(rx.search(term) for rx in AUTHORITY.values())
-                        or COLLECTIONS.search(term) or FIRST_GEN.search(term)):
+
+            # ---- what the sentence explains, and what it claims the verse says
+            claim = AS_VERSE_TERM.search(sentence)
+            claimed = claim.group(1) if claim else None
+            studying = bool(WORD_STUDY.search(sentence) or STUDY_VERB.search(sentence))
+            heads = []
+            if studying:
+                heads = [(raw, clean) for raw, clean in _study_words(sentence)
+                         if clean.lower() not in seen and not _skip_head(raw, clean)]
+                seen.update(clean.lower() for _, clean in heads)
+
+            reported = False
+            if claimed and not _skip_head(claimed, claimed):
+                kind, verse_word = LEX.lookup(claimed, index)
+                if kind != "word":
+                    if kind == "synonym":
+                        detail = ("\u201c%s\u201d is the same meaning, but the verse's own "
+                                  "wording is \u201c%s\u201d" % (claimed, verse_word))
+                    else:
+                        detail = "the verse does not carry \u201c%s\u201d at all" % claimed
+                    fail("MTCH-TERM", ref, section.start,
+                         "the section says the verse says \u201c%s\u201d: %s \u2014 a claim about "
+                         "the quoted line has to be true of the line" % (claimed, detail))
+                    reported = True
+                    heads = [(r, c) for r, c in heads if LEX.norm(c) != LEX.norm(claimed)]
+
+            for _raw, clean in heads:
+                kind, wording, phrase = LEX.match_head(clean, verse_text, index)
+                if kind == "word":
                     continue
-                warn("MTCH-TERM", ref, section.start,
-                     "\u201c%s\u201d is Arabic wording carried as a language point; tie it to the "
-                     "verse's own quoted phrase, or drop it" % term)
+                if kind == "synonym":
+                    tail = (" (in \u201c%s\u201d)" % phrase) if phrase and phrase != wording else ""
+                    info("MTCH-SYNONYM", ref, section.start,
+                         "\u201c%s\u201d means what the verse says \u2014 \u201c%s\u201d%s: the same "
+                         "thing in other words, so the comparison is adjusted and the section carries "
+                         "on; line the sentence up with the verse's own wording"
+                         % (clean, wording, tail))
+                    continue
+                fail("MTCH-WORD", ref, section.start,
+                     "the section explains \u201c%s\u201d, which this verse's translation does not "
+                     "carry and which is no synonym \u2014 no way of saying the same thing \u2014 of "
+                     "anything it carries: the commentary explains the wording of the verse it quotes"
+                     % clean)
+                reported = True
+
+            # ---- Arabic carried as a language point, whether or not it is studied
+            for m in TRANSLIT.finditer(sentence):
+                term = m.group(0).strip("'\u2019-")
+                before = sentence[max(0, m.start() - 14):m.start()].lower()
+                if re.search(r"(ibn|bin|bint|abu|abd|al|bin)\s*-?\s*$", before):
+                    continue                  # part of a name: Ibn Kathīr, al-Alūsī, Abū Hurayrah
+                if _skip_head(term, term) or LEX.norm(term) in seen:
+                    continue
+                kind, verse_word = LEX.lookup(term, index)
+                if kind:
+                    if mention_infos < 1:
+                        mention_infos += 1
+                        info("MTCH-SYNONYM", ref, section.start,
+                             "\u201c%s\u201d is carried as a language point and the verse's own "
+                             "reading is \u201c%s\u201d: tie the term to that phrase in the sentence"
+                             % (term, verse_word))
+                elif mention_warns < 2 and not reported:
+                    mention_warns += 1
+                    warn("MTCH-TERM", ref, section.start,
+                         "\u201c%s\u201d is Arabic wording the verse's translation does not carry and "
+                         "no meaning of it appears there: tie the point to the verse's own quoted "
+                         "phrase, or drop it" % term)
                 break
 
 

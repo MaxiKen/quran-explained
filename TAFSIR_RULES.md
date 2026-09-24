@@ -10,9 +10,11 @@ Where each rule lives:
 | Where | What it is |
 |---|---|
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
-| `scripts/tafsir/audit.py` | the same rules mechanised — **74 codes**; the authority on *what actually blocks a chapter* |
+| `scripts/tafsir/audit.py` | the same rules mechanised — **75 codes**; the authority on *what actually blocks a chapter* |
 | `scripts/tafsir/batch.py` | the same rule set applied to the verses written so far, so a batch can be judged while the chapter is unfinished |
-| `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy and fails if the gate does not report it |
+| `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy, and checks that the match rules stay silent on the verse's own wording and on synonyms of it |
+| `scripts/tafsir/lexicon.py` | the tables the match rule judges by: the synonym groups and the glosses of the Arabic terms |
+| `scripts/tafsir/match.py` | is this word or phrase the verse's own wording, a synonym of it, or neither? |
 | [`TAFSIR_PIPELINE.md`](TAFSIR_PIPELINE.md) §5 | the working agreement (who writes what, when a chapter is done) |
 | this file | the whole list, in order, with every threshold |
 
@@ -90,19 +92,37 @@ The verse line above the section is the translation, and that text is what the c
 Every quoted phrase is a phrase of it (verbatim, in the right style), and every word explained is a
 word the reader can see in it.
 
-1. **A word-study of a word the verse does not carry fails** (`MTCH-WORD`). A word-study is the
-   prose explaining what a word means or how it works: *"the word X means …"*, *"literally X"*,
-   *"from the root X"*, *"the plural X"*. X must be in the verse's translation; if X is English and
-   absent from it, or X is Arabic (which the English line never carries), the study fails. The
-   Arabic behind a rendering may be named in passing; it may not be the thing being explained.
-2. **Arabic offered as the verse's own wording fails** (`MTCH-TERM`): *"the verse says *kāfir*"*,
-   when the verse line says "the disbelievers". The verse's wording is the translation quoted above
-   the section.
-3. **Arabic carried as a free-standing language point warns** (`MTCH-TERM`): tie the term to the
-   verse's own quoted phrase, or drop it. Corpus vocabulary (sūrah, āyah, ḥadīth, tafsīr, isnād)
-   and proper names (al-Ṭabarī, al-Qurṭubī) are not flagged.
-4. **A bold-italic quote that is not this verse's wording fails** (`PHR-QUOTE-FOREIGN`), the same
+A **synonym** here is exactly that: a word *or a whole phrase* the verse does not use but that
+**means the same thing** — *"the day of reckoning"* for the verse's "the Day of Judgment", *raḥmah*
+for "the Most Merciful", *"the right way"* for "the Straight Path". The judgement is by meaning, not
+by spelling.
+
+1. **A synonym is adjusted, and the section carries on** (`MTCH-SYNONYM`, informational). When a
+   headword — one word or a phrase — means what the verse says, the gate resolves it to the verse's
+   own wording (*"the day of reckoning"* → the verse's **day**, within "Master of the Day of
+   Judgment") and records the adjustment, so the sentence can be lined up with what the reader sees.
+   Informational findings do not fail the gate and are shown only under `audit.py N --show-info`.
+2. **A headword that means something else fails** (`MTCH-WORD`): *"the word X means …"*,
+   *"literally X"*, *"from the root X"*, *"the plural X"*, where X — English or Arabic — says
+   something the verse's translation does not. Arabic resolves through its glosses, so *raḥmah*
+   passes beside "the Most Merciful" and fails in a verse where nothing there means mercy.
+3. **Arabic offered as the verse's own wording fails** (`MTCH-TERM`) even when the meaning is right:
+   *"the verse says *kāfir*"* is a claim about the quoted line, and the line says "the disbelievers".
+4. **Arabic carried as a free-standing language point warns** (`MTCH-TERM`) when no meaning of it
+   appears in the verse, at most twice per section. Proper names are never flagged: a sūrah's name, a
+   place, a person, a month, a scholar's surname after *Ibn / al- / Abū*, and the pipeline's own
+   words (sūrah, āyah, ḥadīth, tafsīr, isnād).
+5. **A bold-italic quote that is not this verse's wording fails** (`PHR-QUOTE-FOREIGN`), the same
    rule the phrase-coverage checks apply from the other side.
+
+The tables behind the judgement live in `scripts/tafsir/lexicon.py`: `SYNONYM_GROUPS` (the English
+the translations use for one meaning) and `TRANSLIT_GLOSSES` (the Qur'anic terms the ten works
+transliterate, with the English for each). `scripts/tafsir/match.py` answers the question for a word
+or a phrase before it is written:
+
+```bash
+python3 scripts/tafsir/match.py 1:4 "the day of reckoning" "the day of the harvest"
+```
 
 ## 3. The shape of a chapter file (`FMT-*`)
 
@@ -323,7 +343,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
    * commit `Tafsir ch N (<Name>): verse-by-verse from all <k> sources` and push to the session
      branch only.
 9. **`python3 scripts/tafsir/selftest.py`** must show every rule caught whenever `audit.py` changes
-   (47 cases; a `MISS` is a rule the gate does not enforce).
+   (50 cases: 47 that must fire, 3 that must not — a `MISS` is a rule the gate does not enforce, a `FIRE` a rule firing where it must not).
 
 **Working agreement (pipeline §5):**
 
@@ -423,12 +443,13 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `SRC-FAMILY` | fail/warn | no classical authority named / no modern authority named |
 | `SRC-UNUSED` | warn | a work of the ten never named in the whole chapter |
 | `MTCH-BOLD` | fail | bold used outside the three markers (heading, this verse's phrase, another verse's clause) |
-| `MTCH-WORD` | fail | a word-study of a word the verse's translation does not carry (Arabic included) |
-| `MTCH-TERM` | fail/warn | Arabic offered as the verse's own wording (fail) / Arabic carried as a language point (warn) |
+| `MTCH-WORD` | fail | a headword that neither is the verse's wording nor means the same thing as anything in it |
+| `MTCH-TERM` | fail/warn | Arabic offered as the verse's own wording (fail) / Arabic carried as a language point with no meaning in the verse (warn) |
+| `MTCH-SYNONYM` | info | the headword means what the verse says in other words: the comparison is adjusted to the verse's own wording |
 | `GRD-TOKENS` | warn | named/foreign terms not found in the verse's sources (advisory) |
 
-**The codes number 74 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 8 `REF-*`,
-3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 3 `MTCH-*`, 1 `GRD-*`.
+**The codes number 75 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 8 `REF-*`,
+3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 4 `MTCH-*`, 1 `GRD-*`.
 
 ## Appendix B — the numbers, in one table
 
@@ -455,7 +476,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Section template overlap | warn > 18%, fail > 30% (8-grams) |
 | Headings per verse | ≥ 1 (fail 0, warn 1), soft maximum 30; ≤ 12 words |
 | Bold | only the UPPERCASE headings, this verse's phrases (bold italics), other verses' clauses (bold only) |
-| Explained words | must be present in the verse's translation (4-letter stem match, both directions) |
+| Explained words | must be the verse's wording, or mean the same thing — one word or a whole phrase; a synonym is adjusted to the verse's own word (`MTCH-SYNONYM`) |
 | Reports | italic `*"…"*`, never bold |
 
 ## Appendix C — the commands

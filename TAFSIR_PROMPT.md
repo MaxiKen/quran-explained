@@ -305,19 +305,28 @@ verse does not contain fails (`PHR-QUOTE-FOREIGN`).
 ### 5.1 The prose matches the verse it quotes
 
 The reader's verse line is the translation above the section — that text, and no other, is what the
-commentary explains. Every phrase quoted is a phrase of that translation, and every word explained
-is a word the reader can see in it. Two things fail:
+commentary explains. Every phrase quoted is a phrase of that translation, and everything the prose
+holds up to explain **means the same thing as something in it**. A synonym here is exactly that: a
+word *or a phrase* the verse does not use but that says what it says — *"the day of reckoning"* for
+the verse's "the Day of Judgment", *raḥmah* for "the Most Merciful", *"the right way"* for "the
+Straight Path".
 
-* **a word-study of a word the verse does not carry** (`MTCH-WORD`): *"the word X means …"*,
-  *"literally X"*, *"from the root X"*, *"the plural X"* — where X is English and not in the verse,
-  or Arabic at all, because the verse line the reader has does not carry it. The Arabic behind the
-  translation may be named in passing, but it may not be the thing being explained;
-* **Arabic offered as the verse's own wording** (`MTCH-TERM`): *"the verse says *kāfir*"*, when the
-  reader's verse line says "the disbelievers". The verse's wording is the translation quoted above
-  the section.
+* a headword that **means the same as** the verse's wording passes: the gate adjusts the comparison
+  to the verse's own words and records it (`MTCH-SYNONYM`, informational), so the writer can line
+  the sentence up with what the reader sees;
+* a headword that means **something else** fails (`MTCH-WORD`): *"the word X means …"*,
+  *"literally X"*, *"from the root X"*, *"the plural X"*, where X — English or Arabic — says
+  something the verse's translation does not;
+* **Arabic offered as the verse's own wording** fails (`MTCH-TERM`) even when the meaning is right:
+  *"the verse says *kāfir*"* is a claim about the quoted line, and the line says "the disbelievers";
+* Arabic carried as a free-standing language point warns (`MTCH-TERM`) when no meaning of it appears
+  in the verse; when it does, the gate records the adjustment (`MTCH-SYNONYM`, informational).
 
-Arabic wording carried as a free-standing language point warns (`MTCH-TERM`): tie it to the verse's
-own quoted phrase — the words the reader can actually see — or drop it.
+When in doubt about a word before writing it:
+
+```bash
+python3 scripts/tafsir/match.py 1:4 "the day of reckoning" "the day of the harvest"
+```
 
 **How to write each phrase.** Take it apart in order: what the words mean, what the grammar does
 (a definite article, a word placed first, a pronoun that shifts), what the early authorities said
@@ -344,7 +353,7 @@ holding it — or the paragraph straight after it — must carry one of:
 | A bold-italic quote is this verse's wording | wording in that style that the verse does not contain fails `PHR-QUOTE-FOREIGN` |
 | Other references are bold only | an italic cross-reference quote fails `REF-QUOTE-STYLE` |
 | Nothing else is bold | any other bold fails `MTCH-BOLD` |
-| Explained words are in the verse | a word-study of a word the translation does not carry fails `MTCH-WORD` |
+| Explained words mean the verse's | a headword that means the same as the verse's wording is adjusted to it (`MTCH-SYNONYM`, info); one that means something else fails (`MTCH-WORD`) |
 | Arabic is not the verse's wording | Arabic offered as the verse's wording fails `MTCH-TERM` |
 | Heading is not a copy | six or more words of the verse verbatim in a heading fails `FMT-HEADING-VERSE` (four or more warns) |
 | Headings are real titles | generic labels and headings over twelve words warn; two or more per verse |
@@ -491,8 +500,9 @@ ones that are real. The code groups mean: `FMT-*` — the file's shape is wrong 
 the verse's own wording, a missing quote line, bad spacing); `PHR-*` — a phrase of the verse is not
 quoted, is quoted out of order, is swallowed by one long quote, or is quoted without evidence
 beside it; `MTCH-*` — the file's emphasis, or the words the prose explains, do not match the verse
-it quotes (bold used outside the three markers, a word-study of a word the translation does not
-carry, Arabic offered as the verse's own wording); `REF-*` — a citation or a quote from another
+it quotes (bold used outside the three markers, a headword that neither is the verse's wording nor
+means the same thing, Arabic offered as the verse's own wording — while an honest synonym is
+adjusted to the verse's own words and recorded as information, `MTCH-SYNONYM`); `REF-*` — a citation or a quote from another
 verse is wrong; `WRD-*` — the section is
 under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
 chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or

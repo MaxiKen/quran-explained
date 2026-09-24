@@ -75,6 +75,7 @@ python3 scripts/tafsir/sources.py 2 --verse 255 --cap-ar 4000 --stdout
 python3 scripts/tafsir/scaffold.py 2
 python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut every verse is measured against
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
+python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse's wording, a synonym, or neither?
 
 # 3. write the prose in long stretches (the whole chapter where it allows), gating as they land
 python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
@@ -107,7 +108,7 @@ what they mean:
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
 | `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
-| `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a word-study of a word the verse's translation does not carry, Arabic included (`MTCH-WORD`); Arabic offered as the verse's own wording (`MTCH-TERM`, fail) or carried as a free-standing language point (warn) |
+| `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a headword that neither is the verse's wording nor *means the same thing* — one word or a whole phrase (`MTCH-WORD`, fail), or Arabic offered as the verse's own wording (`MTCH-TERM`, fail); a synonym, or an Arabic term whose meaning the verse carries, is adjusted to the verse's own wording and recorded as information (`MTCH-SYNONYM`) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
 
 The thresholds that keep chapters honest as they grow:

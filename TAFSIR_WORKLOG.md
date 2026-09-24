@@ -18,7 +18,7 @@ line of it:
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |
 | Bold | **reserved**: only the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) may be bold — anything else fails `MTCH-BOLD`; reports and athar are italic `*"…"*` (`EVD-QUOTE-STYLE`) |
-| Matching the verse | the prose explains the wording the verse's translation carries: a word-study of a word the translation does not carry fails (`MTCH-WORD`, Arabic included), Arabic offered as the verse's own wording fails (`MTCH-TERM`), and a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
+| Matching the verse | the prose explains what the verse's translation carries: a word or phrase that *means the same thing* — English or Arabic — is adjusted to the verse's own wording (`MTCH-SYNONYM`, informational), anything else fails (`MTCH-WORD`); Arabic offered as the verse's own wording fails (`MTCH-TERM`); a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
@@ -71,7 +71,7 @@ by name. `audit.py 1` → **PASS**; `batch.py 1 --ranges 1-7` → **PASS**; payl
 `TAFSIR_PROMPT.md` §4–§8 once on a scratch copy of a written chapter — a lower-case heading, a
 mis-quoted verse, a citation with no anchor, a labelled paragraph, a section written source by
 source, a report out of straight quotes, a hadith number that exists nowhere — and fails when the
-gate does not report the promised code: 47 cases, 0 uncaught, 0 unexercised. Two rules were found
+gate does not report the promised code: 50 cases (47 that must fire, 3 that must stay silent), 0 uncaught, 0 unexercised, 0 false alarms. Two rules were found
 unenforced while building it: `REF-QUOTE` had never checked anything (it read an empty capture
 group), and `PHR-QUOTE-STYLE` sat behind an early return, so a plainly quoted phrase reported the
 wrong code.
@@ -97,7 +97,7 @@ produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writ
 stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
 first; chapter 2 was written to the same standard in one continuous run and passed the gate on 2026-09-24 (2:1–2:286).
 
-Standard version: **v6** (2026-09-24: bold is reserved to the three markers — the UPPERCASE
+Standard version: **v6.1** (2026-09-24: the match rule judges by meaning — a synonym, one word or a whole phrase, is adjusted to the verse's own wording and the section carries on (`MTCH-SYNONYM`, informational), and only what means something else fails (`MTCH-WORD`); the synonym tables and the glosses of the Arabic terms live in `scripts/tafsir/lexicon.py`, and `scripts/tafsir/match.py` answers the question for a word or phrase before it is written). Standard version: **v6** (2026-09-24: bold is reserved to the three markers — the UPPERCASE
 headings, this verse's phrases in bold italics, other verses' clauses in bold only — and every
 report stays italic `*"…"*`, so that bold reads as the Qur'an, italics as a report and plain text as
 the commentary; and the prose explains the verse as it is quoted, so a word-study of a word the

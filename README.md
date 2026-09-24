@@ -40,8 +40,9 @@ Excerpts worth knowing:
   authority; quotations from other verses are bold only, inside their reference — and those three
   are the **only** things bold in a chapter file (reports are italic `*"…"*`, the prose itself is
   plain);
-* the commentary explains the verse as it is quoted: every explained word, English or Arabic, is
-  wording the reader can see in the verse translation above the section;
+* the commentary explains the verse as it is quoted: everything it holds up to explain is the
+  verse's own wording or a synonym of it — one word or a whole phrase — and a synonym is adjusted to
+  the verse's words while anything else fails;
 * every verse carries at least 500 words, rising to eight times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
