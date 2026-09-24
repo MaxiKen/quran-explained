@@ -32,12 +32,27 @@ line of it:
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 7,473 | 850/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,264 bytes) |
+| 2 | `tafsir/002.md` | 286/286 | 206,745 | 518/698/1848 | 286/286 | PASS | `data/tafsir_002.json` (1,196,396 bytes) |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses.** Chapter 1 is the first chapter written
-under standard **v6.1**, and the row above is what `python3 scripts/tafsir/status.py --md` and
-`python3 scripts/tafsir/status.py 1` print for it (7,473 words, every verse over the 500-word
-floor, 850 words at the shortest). Chapters 2–114 are still unwritten: `tafsir/` holds
-`001.md` and `.gitkeep`, and `data/` holds the single payload.
+Totals: **2 of 114 chapters written, 293 of 6,236 verses.** Chapter 1 is the first chapter written
+under standard **v6.1**; chapter 2 was written in gated stretches of ten to twenty verses, one
+commit per stretch, and closed with `audit.py 2` — **0 FAIL, 20 WARN, 2 INFO — RESULT: PASS**
+(206,745 words, floor `max(500, 8 × the verse's own words)` met by every verse, 518 words at the
+shortest and 1,848 at the longest; `data/tafsir_002.json`, 1,196,396 bytes, 286 verses; `sw.js`
+bumped to `quran-reader-v2.5.41`). The two warnings that stand are upstream gaps — `SRC-ABSENT`
+for 2:254 and 2:276 reports that `tafsir-ibn-uthaymeen` holds no text for those verses in the repo
+— and the rest are the advisory `GRD-TOKENS`/`STY-SOURCE-PARADE` notes.
+
+**Chapter 2 closing pass (2026-09-24).** After the last stretch (2:257–286) was committed, the
+chapter-level audit was cleared. Two mechanical passes were run over `tafsir/002.md`:
+
+* a whitespace normaliser (runs of blank lines collapsed, no blank line at EOF) — `FMT-WHITESPACE`;
+* a sentence splitter over 2:227–2:286 that breaks over-long sentences at safe boundaries only —
+  never inside a quoted run, a parenthesis or a cross-reference — keeps the connecting word
+  (`And`/`But`/`So`/`Yet`) or prefixes a short opener when the new sentence would otherwise open
+  with a work's name, so that no run of three source-led sentences is created (`STY-SENTENCE`,
+  `STY-SOURCE-PARADE`). The pass took the chapter mean from 33.5 to 31.2 words and the long-sentence
+  share from 22% to 17%.
 
 **Chapter 1 written again under v6.1, 2026-09-24.** The seven verses of Al-Fātiḥah were written
 from the ten works pulled for the chapter (`sources.py 1 --stats` covers all seven verses in all
