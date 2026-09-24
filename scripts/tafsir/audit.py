@@ -91,7 +91,7 @@ HEADING_MAX_WORDS = 12
 # Interwoven analysis (rule v5): the ten works are witnesses inside one argument,
 # not ten speakers taking turns. A section written source-by-source — paragraphs
 # that open with a work's name and paraphrase it — fails, however well attributed.
-SOURCE_LED_WORDS = 4           # words at the head of a sentence in which a work may be named
+SOURCE_LED_WORDS = 3           # words at the head of a sentence in which a work may be named
 SOURCE_LED_RUN_FAIL = 3        # consecutive source-led sentences that read as a roll-call
 SOURCE_LED_SHARE_FAIL = 0.30   # share of a section's sentences that may open with a work
 SOURCE_LED_SHARE_WARN = 0.18
