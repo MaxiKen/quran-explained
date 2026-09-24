@@ -196,6 +196,13 @@ def mut_sep_dup(text, ch):
     return _sub_verse(text, TARGET, r"(?m)^---$", "---\n\n---", 1)
 
 
+def mut_sep_tight(text, ch):
+    def fn(block):
+        return re.sub(r"(?m)\n\n---[ \t]*$", "\n---", block, count=1)
+
+    return _edit_verse(text, TARGET, fn)
+
+
 def mut_sep_trailing(text, ch):
     return text.rstrip("\n") + "\n\n---\n"
 
@@ -413,6 +420,7 @@ CASES = [
     ("\u00a74.5 a verse is several paragraphs", "FMT-PARAGRAPHS", mut_paragraphs),
     ("\u00a74.8 one separator between verses", "FMT-SEP", mut_sep_dup),
     ("\u00a74.8 no separator at the end", "FMT-SEP", mut_sep_trailing),
+    ("\u00a74.8 separator is its own paragraph", "FMT-SEP", mut_sep_tight),
     ("\u00a74.9 no tabs", "FMT-WHITESPACE", mut_whitespace_tab),
     ("\u00a74.9 no trailing spaces", "FMT-WHITESPACE", mut_whitespace_trailing),
     ("\u00a74.9 no double blank lines", "FMT-WHITESPACE", mut_whitespace_double_blank),

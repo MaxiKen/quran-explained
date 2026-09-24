@@ -560,6 +560,11 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         _phrase_rules(section, chapter, fail, warn)
 
         # separators
+        for i, line in enumerate(section.lines):
+            if line.strip() == "---" and i and section.lines[i - 1].strip():
+                fail("FMT-SEP", ref, anchor,
+                     "'---' directly under a paragraph is a setext heading in markdown: the "
+                     "separator needs a blank line above it")
         sep_count = sum(1 for l in section.lines if l.strip() == "---")
         is_last = section is doc.sections[-1]
         if is_last and sep_count:
