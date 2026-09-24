@@ -28,10 +28,27 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
+| 1 | `tafsir/001.md` | 7/7 | 8,559 | 1057/1249/1319 | 7/7 | PASS | `data/tafsir_001.json` |
 
-Totals: **0 of 114 chapters written, 0 of 6,236 verses, 0 words.** Stdout for the row and the
+Totals: **1 of 114 chapters written, 7 of 6,236 verses, 8,559 words.** Stdout for the row and the
 numbers: `python3 scripts/tafsir/status.py --md`.
+
+**Chapter 1 written to v4, 2026-09-24.** `tafsir/001.md` (7 verses, 8,559 words, 1,057–1,319 words a
+verse against a floor of 600) plus `data/tafsir_001.json`, built by `build_data.py 1`. Written in two
+stretches with the batch gate between them (`batch.py 1 --ranges 1-2`, then `batch.py 1`), each of the
+ten works pulled into the per-verse digest first (`sources.py 1`) and at least six of the ten named in
+each verse's prose. `audit.py 1` is clean: 0 FAIL, 0 WARN.
+
+Two gate defects surfaced by this chapter and fixed in the same commit. `SRC-UNUSED` reported
+al-Alūsī as never named although the chapter names him in five verses: the `AUTHORITY` pattern for
+`tafsir-al-alusi` was written as `Al[ūs]i`, which cannot match the name's two letters (`ū` then `s`
+before the `ī`), so the fix is `Alū? sī`. `GRD-TOKENS`, the advisory grounding check, treated the
+names of the ten works, the hadith collections and ordinary capitalised English words (*the Book*,
+*the Mother of the Book*, *Muslim*) as unverified named entities, which is a script artefact: nine of
+the ten works for these verses are in Arabic, so a Latin transliteration can never be found in the
+haystack. The check now skips the name-parts of the ten, the collections they cite and a short list of
+ordinary capitalised vocabulary; a probe with invented authorities (*Zamakhshari of the Mu'tazila*,
+*the University of Whitfield*, *the manuscript of Tabriz*) still reports every one of them.
 
 **Corpus cleared, 2026-09-24.** `tafsir/001.md`, `tafsir/002.md` and `tafsir/003.md` were deleted
 with the payloads `data/tafsir_001.json` and `data/tafsir_002.json`, and `tafsir/` was left empty

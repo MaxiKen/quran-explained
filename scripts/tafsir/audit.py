@@ -132,7 +132,7 @@ AUTHORITY = {
     "tafsir-al-qurtubi": re.compile(r"(Qur[\u1e6d]ub[\u012bi]|Qurtubi)", re.I),
     "tafsir-al-baghawi": re.compile(r"(Baghaw[\u012bi]|Baghawi|Ma[\u02bf']\u0101lim al-Tanz[\u012bi]l)", re.I),
     "tafsir-ibn-kathir": re.compile(r"(Ibn Kath[\u012bi]r|Ibn Kathir)", re.I),
-    "tafsir-al-alusi": re.compile(r"(al-[\u02be']?Al[\u016bs]i|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi])", re.I),
+    "tafsir-al-alusi": re.compile(r"(al-[\u02be']?[A\u0101]l[\u016b]?s[\u012bi]|al-Alusi|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi])", re.I),
     "tafsir-al-jalalayn": re.compile(r"(al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Ma[\u1e25h]all[\u012bi] and al-Suy[\u016b][\u1e6d][\u012bi])", re.I),
     "tafsir-ibn-abbas": re.compile(r"(Ibn [\u02bf']Abb[\u0101a]s|Ibn Abbas)", re.I),
     "tafsir-as-saadi": re.compile(r"(al-Sa[\u02bf']d[\u012bi]|Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m)", re.I),
@@ -967,6 +967,137 @@ def _digest(chapter: int):
     return _DIGESTS[chapter]
 
 
+# Name-parts of the ten works and of the hadith collections they cite: naming a
+# source is grounded by the SRC-* checks (all ten are held for the verse) and the
+# collections by EVD-ATTRIBUTION, so they are not factual claims about the verse.
+# Name-parts of the ten works and of the hadith collections they cite: naming a
+# source is grounded by the SRC-* checks (all ten are held for the verse) and the
+# collections by EVD-ATTRIBUTION, so they are not factual claims about the verse.
+_GROUNDED_NAMES = {
+    "ibn",
+    "kathir",
+    "qurtubi",
+    "tabari",
+    "baghawi",
+    "alusi",
+    "jalalayn",
+    "abbas",
+    "saadi",
+    "uthaymeen",
+    "uthaymin",
+    "maarif",
+    "maani",
+    "suyuti",
+    "mahalli",
+    "bukhari",
+    "muslim",
+    "tirmidhi",
+    "dawud",
+    "nasai",
+    "majah",
+    "sahih",
+    "sunan",
+    "muwatta",
+    "hurayrah",
+    "bakr",
+    "umar",
+    "kathīr",
+    "qurṭubīi",
+    "ṭabarī",
+    "baghawīi",
+    "alūsīi",
+    "jalālayn",
+    "abbās",
+    "saʿdīi",
+    "uthaymīn",
+    "maʿārif",
+    "maʿānīi",
+    "suyūṭīi",
+    "maḥallīi",
+    "bukhārīi",
+    "tirmidhīi",
+    "dāwūd",
+    "nasāʾīi",
+    "mājah",
+    "ṣaḥīḥ",
+    "muwaṭṭa",
+}
+
+
+
+_ORDINARY_CAPS = {
+    "book",
+    "books",
+    "maker",
+    "creator",
+    "mother",
+    "opener",
+    "repeated",
+    "seven",
+    "arabic",
+    "arabs",
+    "arab",
+    "god's",
+    "allah's",
+    "lord",
+    "lord's",
+    "king",
+    "master",
+    "owner",
+    "keeper",
+    "servant",
+    "messenger",
+    "prophet",
+    "angel",
+    "angels",
+    "mercy",
+    "judgment",
+    "prayer",
+    "prayers",
+    "verse",
+    "verses",
+    "path",
+    "road",
+    "guidance",
+    "worship",
+    "merciful",
+    "compassionate",
+    "forgiving",
+    "truth",
+    "light",
+    "name",
+    "names",
+    "word",
+    "words",
+    "days",
+    "night",
+    "life",
+    "death",
+    "hand",
+    "heart",
+    "nation",
+    "garden",
+    "fire",
+    "earth",
+    "heaven",
+    "heavens",
+    "city",
+    "house",
+    "gate",
+    "door",
+    "water",
+    "rain",
+    "muslims",
+    "christians",
+    "jews",
+    "first",
+    "last",
+    "one",
+    "two",
+    "day",
+    "people",
+}
+
 _STOP = {"the", "a", "an", "and", "but", "for", "with", "this", "that", "these", "those",
          "god", "allah", "quran", "qur'an", "verse", "surah", "surahs", "chapter", "he",
          "she", "they", "it", "his", "her", "their", "its", "who", "which", "when", "then",
@@ -990,6 +1121,13 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
             if para[max(0, m.start() - 2):m.start()].endswith((". ", "? ", "! ")):
                 continue
             if token.lower() in _STOP:
+                continue
+            if any(rx.search(token) for rx in AUTHORITY.values()):
+                continue      # naming one of the ten is grounded by SRC-NOTCHECKED
+            key = _canon(token)
+            if key.endswith("'s"):
+                key = key[:-2]
+            if key in _GROUNDED_NAMES or key in _ORDINARY_CAPS:
                 continue
             tokens.add(token)
         for m in re.finditer(r"\*([A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf-]{4,})\*", para):
