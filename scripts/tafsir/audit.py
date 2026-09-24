@@ -1488,7 +1488,7 @@ _STOP = {"the", "a", "an", "and", "but", "for", "with", "this", "that", "these",
 
 _NUMBERED = re.compile(
     r"(Bukh[\u0101a]r[\u012bi]|Muslim|Tirmidh[\u012bi]|Nas[\u0101a][\u02be']?[\u012bi]|Ab[\u016b] D[\u0101a]w[\u016b]d|"
-    r"Ibn M[\u0101a]jah|A[\u1e25h]mad|D[\u0101rim[\u012bi]|Bayhaq[\u012bi]|[\u1e6cT]abar[\u0101a]n[\u012bi]|"
+    r"Ibn M[\u0101a]jah|A[\u1e25h]mad|D[\u0101a]rim[\u012bi]|Bayhaq[\u012bi]|[\u1e6cT]abar[\u0101a]n[\u012bi]|"
     r"Ibn [\u1e24h]ibb[\u0101a]n|Ibn Khuzaymah|[\u1e24H][\u0101a]kim|M[\u0101a]lik)"
     r"[^\n]{0,40}?\b(\d{1,6})\b", re.I)
 
