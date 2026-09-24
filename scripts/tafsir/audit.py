@@ -206,13 +206,19 @@ def _strip_marks(text: str) -> str:
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     for a, b in (("\u02bf", "'"), ("\u02be", "'"), ("\u2019", "'"), ("\u2018", "'"),
                  ("\u201c", '"'), ("\u201d", '"'), ("\u1e6d", "t"), ("\u1e63", "s"),
-                 ("\u1e25", "h"), ("\u1e0d", "d"), ("\u1e93", "z")):
+                 ("\u1e25", "h"), ("\u1e0d", "d"), ("\u1e93", "z"),
+                 ("\u2013", " "), ("\u2014", " ")):
         text = text.replace(a, b)
     return text
 
 
 def _canon(text: str) -> str:
     return re.sub(r"\s+", " ", _strip_marks(text)).strip().lower()
+
+
+def _loose(text: str) -> str:
+    """Canonical form that also ignores the ˹…˺ brackets the translation supplies."""
+    return C.loose_norm(text).strip()
 
 
 def _prose_only(body: str) -> str:
