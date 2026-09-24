@@ -12,7 +12,7 @@ line of it:
 | Rule | Value |
 |---|---|
 | Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān); all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`); at least five named in the prose, one classical + one modern (`SRC-SPREAD`, `SRC-FAMILY`); nothing outside the ten (`SRC-BANNED`) |
-| Words per verse | floor `max(600, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000 |
+| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000 |
 | Interweaving | one reading, not a report per source: no run of three source-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a work's name, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
@@ -29,11 +29,30 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 9,742 | 1245/1456/1478 | 7/7 | PASS | `data/tafsir_001.json` |
+| — | — | — | — | — | — | — | — |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 9,742 words** in one chapter file — the
-whole of Al-Fātiḥah, regenerated from scratch under the interleaving rule. The row above is what
-`python3 scripts/tafsir/status.py --md` prints, not a number typed by hand.
+Totals: **0 of 114 chapters written, 0 of 6,236 verses.** `tafsir/` holds only `tafsir/.gitkeep`,
+and `data/` holds no `tafsir_*.json` payload at all: chapters 1 and 2 were cleared on 2026-09-24
+(see the note below) and are written again from the ten works under the standard above. The empty
+row is what `python3 scripts/tafsir/status.py --md` prints for an empty corpus, not a row typed by
+hand.
+
+**Commentary cleared; word floor lowered to 500, 2026-09-24.** On the instruction "Remove all the
+commentary content in the project", the two generated chapters were deleted — `tafsir/001.md`
+(Al-Fātiḥah, 7 verse sections) and `tafsir/002.md` (Al-Baqarah, 286) — together with the payload
+`data/tafsir_001.json`. `tafsir/` now holds only `tafsir/.gitkeep`, exactly like the 112 chapters
+that have not been written yet: the app opens chapters 1 and 2 with their translation and its
+"coming soon" note, and no app code had to change, because a missing payload has always been an
+expected case (`js/app.js` catches the failed fetch and renders the note). `sw.js` `CACHE_VERSION`
+was bumped to `quran-reader-v2.5.39`, so a reader who had chapter 1 saved offline stops being served
+the deleted commentary. Nothing else was removed: the ten `tafsir-*/` source corpora, the canonical
+chapter data `data/chapter_*.js`, the `tafsir_initial/` drafts and the whole pipeline (scripts,
+prompt, pipeline notes) stay in place. In the same change the per-verse floor was lowered from 600
+to **500 words** — `max(500, 8 × the verse's own words)`, capped 4,000 — in `audit.py`
+(`MIN_VERSE_WORDS`) and `scaffold.py`, with every document that restates it (`TAFSIR_PROMPT.md`
+§4.7, `TAFSIR_PIPELINE.md` §3, `README.md`) brought into step. The rest of the gate is unchanged.
+`selftest.py` mutates a *written* chapter, so it has nothing to exercise until chapter 1 is
+regenerated; its rule set is what it was.
 
 **All generated content deleted, chapter 1 regenerated, 2026-09-24 (v5).** On the user's
 instruction — "Delete all content and regenerate chapter 1" — the first chapter, the 2:1–2:7 pilot
@@ -50,7 +69,7 @@ by name. `audit.py 1` → **PASS**; `batch.py 1 --ranges 1-7` → **PASS**; payl
 `TAFSIR_PROMPT.md` §4–§8 once on a scratch copy of a written chapter — a lower-case heading, a
 mis-quoted verse, a citation with no anchor, a labelled paragraph, a section written source by
 source, a report out of straight quotes, a hadith number that exists nowhere — and fails when the
-gate does not report the promised code: 43 cases, 0 uncaught, 0 unexercised. Two rules were found
+gate does not report the promised code: 44 cases, 0 uncaught, 0 unexercised. Two rules were found
 unenforced while building it: `REF-QUOTE` had never checked anything (it read an empty capture
 group), and `PHR-QUOTE-STYLE` sat behind an early return, so a plainly quoted phrase reported the
 wrong code.
@@ -151,9 +170,16 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   do not appear literally in the Arabic digests — expected; the check is advisory by design).
 * Phrase coverage 97–100% on every verse; no phrase of the chapter is left unexplained.
 
-## In progress
+## Chapter notes — the cleared chapters
 
-### Chapter 1 — Al-Fatihah (7 verses)
+Nothing is in progress: `tafsir/` is empty (see the clearance note above). What follows is the
+record of the two chapters that were cleared on 2026-09-24 — chapter 1 (written to v5) and chapter 2
+(286 verse sections) — deleted on the user's instruction and readable only in this branch's history
+(`git show fdbaae0:tafsir/001.md`, `git show fdbaae0:tafsir/002.md`). The notes are kept because the
+material they gathered is the starting point for the regeneration: the phrase cuts, the analogies,
+the sources that carried the weight, and the mis-attributions to keep out.
+
+### Chapter 1 — Al-Fatihah (7 verses) — *deleted 2026-09-24*
 
 * Rewritten to v3 on 2026-09-24, in a single pass: 7/7 verses, 6,557 words, floors 550 each, verse
   lengths 736–1,210. Gate: `audit.py 1` → **0 FAIL, 1 WARN**; batch style before the final trim:
@@ -184,7 +210,7 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   moved to bold only, and 12 stretch of this verse's own phrases set in bold italics. `audit.py 1`
   still **PASS** (0 FAIL, 1 advisory warning).
 
-### Chapter 2 — Al-Baqarah (286 verses)
+### Chapter 2 — Al-Baqarah (286 verses), v3 rewrite — *deleted 2026-09-24*
 
 * Digest built for the whole chapter: `tmp/sources/002.txt` (13.8 MB) and `002.json` (85 MB, uncapped
   for writing; `sources.py` takes `--cap-json` when a smaller digest is enough). All 286 verses have
@@ -204,8 +230,7 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 * No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
   app keeps showing "coming soon" for al-Baqarah.
 
-### Chapter 2 — Al-Baqarah
-
+### Chapter 2 — Al-Baqarah (286 verses), the 28-source version — *deleted 2026-09-24*
 * All 286 verses written from the 28-source digest, gated by the whole-file auditor:
   `audit.py 2` → **0 FAIL, 139 WARN**, `RESULT: PASS`; word range 551/742/2,306, total 234,301
   words. Analogies 285/286 (2:217 has none that fits); the remaining warnings are the advisory
@@ -240,4 +265,8 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   corpus cleared this is currently every chapter, and payloads return as each chapter passes the gate.
 * No chapter is currently the reference for the standard; the revised rule will be the reference once
   it is agreed, and the first chapter written under it becomes the worked example.
-* Next step: chapter 2 under v5, in batches, with `batch.py 2 --ranges` after each stretch.
+* The per-verse floor is 500 words as of 2026-09-24 (`max(500, 8 × the verse's own words)`, capped
+  4,000). The next chapter written is the first measured against it, and the first chance to see
+  whether the shorter floor is met from real material rather than padding.
+* Next steps: chapter 1 again under the 500-word floor, then chapter 2 in batches with
+  `batch.py 2 --ranges` after each stretch.

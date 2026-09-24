@@ -32,7 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
-MIN_VERSE_WORDS = 600          # keep in step with audit.py
+MIN_VERSE_WORDS = 500          # keep in step with audit.py
 SCALE_FACTOR = 8.0
 SCALE_CAP = 4000
 

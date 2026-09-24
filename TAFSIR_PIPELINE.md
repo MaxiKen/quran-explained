@@ -8,6 +8,8 @@ repository, gated by an auditor that will not pass anything malformed, unevidenc
 or padded.
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
+* **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
+  with the `audit.py` code that enforces it and its threshold
 * **How far the work has got:** [`TAFSIR_WORKLOG.md`](TAFSIR_WORKLOG.md)
 * **The output:** `tafsir/NNN.md`, one file per chapter, 114 in all
 * **The app payload:** `data/tafsir_NNN.json`, built from the markdown, read by `js/app.js`
@@ -16,7 +18,7 @@ or padded.
 
 | Path | What it is |
 |---|---|
-| `tafsir/` | the generated corpus — `001.md` … `114.md` (currently `001.md`) |
+| `tafsir/` | the generated corpus — `001.md` … `114.md` (empty at present: `001.md` and `002.md` were cleared on 2026-09-24, `tafsir/.gitkeep` remains) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
@@ -100,7 +102,7 @@ what they mean:
 |---|---|
 | `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, separators, spacing, placeholders — and a heading that is not UPPERCASE (`FMT-HEADING-CASE`), is the verse's own wording (`FMT-HEADING-QUOTED`), repeats it (`FMT-HEADING-VERSE`), or is generic |
 | `PHR-*` | phrases: quoting style (`PHR-QUOTE-STYLE` — this verse's phrases are bold italics `***“…***`, other references bold only), the verse is not quoted in the prose (`PHR-PHRASE-NONE`), a phrase is never quoted (`PHR-PHRASE-MISSING`), the quoted share is under 90%, an unquoted gap runs past 8 words, the edges are dropped, one quote swallows the verse (`PHR-CHUNK`), or a quoted phrase has no evidence beside it (`PHR-EVIDENCE`) |
-| `WRD-*` | length: a verse under its floor (550 words, or 7× the verse's own length, capped at 3,500) or an introduction outside 250–1,500 |
+| `WRD-*` | length: a verse under its floor (500 words, or 8× the verse's own length, capped at 4,000) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
@@ -111,7 +113,7 @@ The thresholds that keep chapters honest as they grow:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(550, 7 × verse words)`, capped 3,500; soft ceiling 4,500 |
+| Words per verse | floor `max(500, 8 × verse words)`, capped 4,000; soft ceiling 5,000 |
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy | at least half the chapter's verses carry one |

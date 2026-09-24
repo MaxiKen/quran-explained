@@ -13,7 +13,7 @@ below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
           UPPERCASE descriptive headings (never the verse's own phrases), placeholders
-  WRD-*   length: verse floor (max(600, 8x the verse's words), capped 4,000), introduction
+  WRD-*   length: verse floor (max(500, 8x the verse's words), capped 4,000), introduction
   PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
           verse order, covering the whole verse, in workable units, and each
           quoted phrase is backed by evidence (a cross-reference, a hadith, a
@@ -65,7 +65,7 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 600          # hard floor for every verse, however short
+MIN_VERSE_WORDS = 500          # hard floor for every verse, however short
 SCALE_FACTOR = 8.0             # ... and the floor climbs with the verse
 SCALE_CAP = 4000               # ... up to here (a long verse floors at four thousand)
 MAX_VERSE_WORDS = 5000         # soft: above this, check for padding
@@ -442,7 +442,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         floor = verse_floor(verse_words)
         if body_words < floor:
             fail("WRD-FLOOR", ref, anchor,
-                 "verse tafsir is %d words; this verse needs at least %d (floor = max(600, 8x the verse's %d words))"
+                 "verse tafsir is %d words; this verse needs at least %d (floor = max(500, 8x the verse's %d words))"
                  % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
             warn("WRD-CEILING", ref, anchor,

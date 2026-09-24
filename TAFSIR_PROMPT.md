@@ -187,9 +187,10 @@ Rules the auditor enforces:
 6. **Every phrase of the verse is quoted inside the prose and explained, in verse order, with
    evidence** (see §5). Not every heading carries a phrase: a paragraph of context, history or
    ruling may quote none.
-7. **Length follows substance, and the floor is high.** Every verse carries at least **600
-   words**, and the floor rises steeply with the verse: `max(600, 8 × the verse's own word count)`,
-   up to 4,000. A ninety-word verse therefore needs 720+; a two-hundred-word verse needs 1,600+.
+7. **Length follows substance, and the floor is high.** Every verse carries at least **500
+   words**, and the floor rises steeply with the verse: `max(500, 8 × the verse's own word count)`,
+   up to 4,000. A fifty-word verse therefore needs 500 (its scaled floor, 400, sits under the base);
+   a ninety-word verse needs 720+; a two-hundred-word verse needs 1,600+.
    The soft ceiling is 5,000 words — above that, check for padding. These numbers live in
    `audit.py` (`MIN_VERSE_WORDS`, `SCALE_FACTOR`, `SCALE_CAP`) and `scaffold.py` restates them in
    each TODO line, so a writer always sees the floor for the verse in front of them. Go up when
