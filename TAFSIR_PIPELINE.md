@@ -20,7 +20,7 @@ or padded.
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
-| `tafsir-*/NNN.txt` | 27 imported tafsir works (11 English, 16 Arabic), one `## C:V` section per ayah |
+| `tafsir-*/NNN.txt` | the ten tafsir works (`corpus.SOURCE_ALLOWLIST`; 4 English, 6 Arabic), one `## C:V` section per ayah |
 | `tafsir_initial/NNN.md` | the study-Quran-style verse draft (`initial/` renamed), verses marked `**V**` |
 | `js/`, `css/`, `index.html`, `sw.js` | the reader app; unchanged except that a missing payload no longer breaks a chapter |
 | `tmp/` | scratch: source digests (`tmp/sources/NNN.{txt,json}`), git-ignored |
@@ -37,35 +37,29 @@ git show f50425f:data/tafsir_001.json | head -c 300
 
 ## 2. The sources
 
-All 27 `tafsir-*` folders were exported from `spa5k/tafsir_api`; each file header carries its
-upstream path (`Source: spa5k/tafsir_api · tafsir/en-tafisr-ibn-kathir/1.json`). They are
-cleaned copies: one `## C:V` section per ayah, no other edits.
+The corpus is **ten** works, fixed on 2026-09-24 (`corpus.SOURCE_ALLOWLIST`). The other seventeen
+`tafsir-*` folders, including the Arabic duplicates of al-Jalālayn and Ibn Kathīr and the gloss
+collections (al-Qushayrī, al-Tustarī, Kashānī, Kashf al-Asrār, Asbāb al-Nuzūl), were deleted: the
+chapter is written from these ten and from nothing else, and the gate refuses a work outside the
+list (`SRC-BANNED`). The exports came from `spa5k/tafsir_api`; each file header carries its
+upstream path (`Source: spa5k/tafsir_api · tafsir/en-tafisr-ibn-kathir/1.json`). They are cleaned
+copies: one `## C:V` section per ayah, no other edits.
 
-**English (11):** `tafsir-ibn-kathir`, `tafsir-al-jalalayn`, `tafsir-al-mukhtasar`,
-`tafsir-maarif-ul-quran`, `tafsir-tazkirul-quran`, `tafsir-asbab-al-nuzul`, `tafsir-ibn-abbas`,
-`tafsir-al-qushairi`, `tafsir-al-tustari`, `tafsir-kashani`, `tafsir-kashf-al-asrar`
+| # | Folder | Language | Author (d. AH) | Use |
+|---|---|---|---|---|
+| 1 | `tafsir-al-tabari` | Arabic | al-Ṭabarī (310) | reports and chains, the first generations |
+| 2 | `tafsir-al-qurtubi` | Arabic | al-Qurṭubī (671) | rulings, occasions, disagreements |
+| 3 | `tafsir-al-baghawi` | Arabic | al-Baghawī (516) | the maʾthūr tradition, concisely |
+| 4 | `tafsir-ibn-kathir` | English | Ibn Kathīr (774) | reports with grading |
+| 5 | `tafsir-al-alusi` | Arabic | al-Alūsī (1270) | language, grammar, later debate |
+| 6 | `tafsir-al-jalalayn` | English | al-Maḥallī & al-Suyūṭī (911) | the plain running sense |
+| 7 | `tafsir-ibn-abbas` | English | attributed to Ibn ʿAbbās | the earliest gloss |
+| 8 | `tafsir-as-saadi` | Arabic | al-Saʿdī (1956) | the modern meaning-first reading |
+| 9 | `tafsir-ibn-uthaymeen` | Arabic | Ibn ʿUthaymīn (2001) | modern teaching tafsir (partial coverage) |
+| 10 | `tafsir-maarif-ul-quran` | English | Muftī Shafīʿ (1976) | modern reading, fiqh, contemporary questions |
 
-**Arabic (16):** al-Ṭabarī, al-Qurṭubī, al-Baghawī, al-Bayḍāwī, al-Alūsī, al-Kashshāf,
-Fath al-Qadīr, al-Baḥr al-Muḥīt, As-Saʿdī, Ibn ʿUthaymīn, Abu Bakr al-Jazāʾirī, al-Wasīṭ,
-Ad-Durr al-Manthūr, Tadabbur wa ʿAmal, Ibn Kathīr (Arabic), al-Jalālayn (Arabic)
-
-**Plus** `tafsir_initial/` — the earlier verse draft kept as a 28th voice.
-
-Known quirks, worth knowing before reading:
-
-* Some upstream records are duplicated across names. In Sūrah 1, for example,
-  `tafsir-al-qushairi`, `tafsir-kashani`, `tafsir-kashf-al-asrar` and `tafsir-asbab-al-nuzul`
-  all carry the same Sufi passage for 1:1. Treat duplicated text as one witness.
-* Verse alignment is by the file's own `## C:V` markers, so it is reliable. What is not reliable
-  is assuming the whole of a section belongs to that verse: several sources open a verse's
-  section with sūrah-level material, or transcribe a lecture that drifts. Read the opening lines
-  of a section before quoting it as that verse's opinion.
-* Several sources attach whole-sūrah material to every verse (al-Baghawī's Sūrah 1 record is
-  28,669 characters repeated under each of the seven verses; as-Saʿdī repeats whole-sūrah material
-  same). That material belongs in the chapter introduction or at the verse it actually concerns —
-  once.
-* `tafsir-al-tustari` has no record for some verses (4 of 7 in Sūrah 1). Coverage gaps are
-  normal; the digest reports them and the writer uses the other 27.
+`tafsir_initial/` (the earlier verse draft) is kept on disk as reference but is **not** a source:
+it is not digested and nothing may be cited from it.
 
 ## 3. Tools
 
