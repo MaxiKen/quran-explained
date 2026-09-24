@@ -106,7 +106,9 @@ SCHOLARS = re.compile(
     r"K[\u0101a]sh[\u0101a]n[\u012bi]|Ibn [\u02bf']Uthaym[\u012bn]n|Shawk[\u0101a]n[\u012bi]|W[\u0101a][\u1e25h]id[\u012bi]|"
     r"[\u1e24H]asan al-Ba[\u1e63]r[\u012bi]|M[\u0101a]lik|Ibn Taymiyyah|Ibn al-Qayyim|R[\u0101a]ghib|"
     r"the commentators|the exegetes|the scholars|commentators|"
-    r"al-Mukhta[\u1e63]ar|Mukhta[\u1e63]ar|Mukhtasar|Kash[\u0101a]n[\u012bi]|Kashani)",
+    r"al-Mukhta[\u1e63]ar|Mukhta[\u1e63]ar|Mukhtasar|Kash[\u0101a]n[\u012bi]|Kashani|"
+    r"Ma[\u02bf']\u0101rif|Ma[\u02bf']arif|Tazkirul|Tazkir|tafsir_initial|Qushayr[\u012bi]|"
+    r"Tustar[\u012bi]|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi])",
     re.I)
 
 LANGUAGE = re.compile(
