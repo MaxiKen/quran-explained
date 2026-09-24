@@ -445,7 +445,10 @@ TRANSLIT_GLOSSES = {
 # The pipeline's own vocabulary: naming one of these is not a word-study of the verse.
 CORPUS_TERMS = {"tafsir", "surah", "surahs", "ayah", "ayahs", "ayat", "hadith", "hadiths",
                 "athar", "isnad", "sanad", "mushaf", "juz", "asbab", "nuzul",
-                "qiraat", "islam", "muslim", "muslims"}
+                "qiraat", "islam", "muslim", "muslims",
+                # the disjoint letters that open some sūrahs (Alif-Lãm-Mĩm and the like)
+                # are the verses' own wording, not Arabic carried beside an English verse
+                "aliflammim", "alif", "lam", "mim"}
 
 # Proper names a chapter's prose is full of: places, people, months, festivals. Naming
 # one of these is never a word-study of the verse, so the match rule does not judge it.
