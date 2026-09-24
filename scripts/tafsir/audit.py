@@ -18,12 +18,18 @@ below are the same rules, mechanised:
           verse order, covering the whole verse, in workable units, and each
           quoted phrase is backed by evidence (a cross-reference, a hadith, a
           named authority) in its own paragraph
-  EVD-*   evidence: every verse carries checkable anchors, and every prophetic
+  EVD-*   evidence: every verse carries checkable anchors, every prophetic attribution
+          names its collection, a hadith number exists in the sources for the verse
+          (EVD-NUMBER), and quotations use the corpus's markers (EVD-QUOTE-STYLE), and
           attribution names its collection
-  REF-*   references: citations resolve to real verses and every quoted Qur'an
+  REF-*   references: citations resolve to real verses, every quoted Qur'an clause is
+          verbatim (REF-QUOTE), a clause is a clause and not a whole verse (REF-LONG),
+          and a verse quoted twice in one section is flagged (REF-QUOTE-REPEAT);
           clause is verbatim from data/chapter_NNN.js
   REP-*   repetition: duplicate sentences, templated sections, filler/meta prose
-  STY-*   style: simple diction, sentence length and readability, the relatable
+  STY-*   style: simple diction, sentence length and readability, one interwoven
+          reading (STY-SOURCE-PARADE fails a section written source by source,
+          STY-ANALYSIS-FLOOR fails one that reports without reasoning), the relatable
           analogy the prompt asks each verse to carry, and no labelled
           scaffolding (STY-LABELS: "Lesson:", "Modern application:", ...)
   SRC-*   sources: the ten works of corpus.SOURCE_ALLOWLIST — the digest must
@@ -82,6 +88,23 @@ HEADING_VERSE_RUN_FAIL = 6     # words a heading may repeat from the verse befor
 HEADING_VERSE_RUN_WARN = 4
 HEADING_MAX_WORDS = 12
 
+# Interwoven analysis (rule v5): the ten works are witnesses inside one argument,
+# not ten speakers taking turns. A section written source-by-source — paragraphs
+# that open with a work's name and paraphrase it — fails, however well attributed.
+SOURCE_LED_WORDS = 4           # words at the head of a sentence in which a work may be named
+SOURCE_LED_RUN_FAIL = 3        # consecutive source-led sentences that read as a roll-call
+SOURCE_LED_SHARE_FAIL = 0.30   # share of a section's sentences that may open with a work
+SOURCE_LED_SHARE_WARN = 0.18
+PARA_LED_FAIL = 0.45           # share of paragraphs that may open with a work
+PARA_LED_WARN = 0.30
+REF_QUOTE_WARN = 22           # words a cross-reference quote may run to
+REF_QUOTE_FAIL = 34
+QUOTE_STYLE_WARN = 12          # words of curly-quoted text outside a Qur'an reference
+QUOTE_STYLE_FAIL = 25
+
+ANALYSIS_MIN_FAIL = 4          # sentences that reason (because, so that, which means ...)
+ANALYSIS_MIN_WARN = 8
+
 ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
 ANALOGY_WARN_SHARE = 0.60
 
@@ -122,6 +145,22 @@ LANGUAGE = re.compile(
     r"(\broot\b|\bthe word\b|\bArabic\b|\bliterally\b|\bgrammatically\b|\bgrammar\b|"
     r"\bthe (verb|noun|participle|plural|singular|dual)\b|\breading\b|\brecitation\b|"
     r"\bpronoun\b|\bpreposition\b|\btranslated\b|\btranslation\b|\bmeans\b)",
+    re.I)
+
+# A work named inside the first words of a sentence is "carrying" that sentence.
+FIRST_GEN = re.compile(
+    r"(Ibn [\u02bf']Abb[\u0101a]s|Ibn Abbas|Muj[\u0101a]hid|Qat[\u0101a]dah|Sudd[\u012bi]|"
+    r"[\u02bf']Ikrimah|Ibn Mas[\u02bf']\u016bd|Ab[\u016b] Hurayrah|Sha[\u02bf']b[\u012bi]|"
+    r"Ibn Jurayj|J[\u0101a]bir|Anas b\.|Sa[\u02bf'][\u012bi]d b\.|al-[\u1e24H]asan al-Ba[\u1e63]r[\u012bi]|"
+    r"Ibn [\u02bf']A[\u1e6d]iyya|Zirr|Ibn [\u02bf']Umar|Ab[\u016b] M[\u0101a]lik|"
+    r"al-Rab[\u012bi][\u02bf'] b\. Anas|Muq[\u0101a]til|al-[\u1e0ca[\u1e25h][\u1e25][\u0101a]k)",
+    re.I)
+
+# Language that reasons rather than reports: the analysis half of the rule.
+ANALYSIS = re.compile(
+    r"(\bbecause\b|\bsince\b|\bso that\b|\bwhich means\b|\bwhich is why\b|\bthat is why\b|"
+    r"\bthe reason\b|\bthe point\b|\bwhat follows\b|\btherefore\b|\bhence\b|\bin other words\b|"
+    r"\bit follows\b|\bthis is why\b|\bthe effect\b|\bwhat turns on\b|\bthe difference\b)",
     re.I)
 
 # ---- the ten sources (corpus.SOURCE_ALLOWLIST) ------------------------------
@@ -183,9 +222,9 @@ DICTION = re.compile(
 # A cross-reference quotes the other verse's clause in bold only:
 #     (C:V — **“the clause”**)
 QURAN_QUOTE = re.compile(
-    r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?"
-    r"(?:\s*,\s*(\d{1,3}):(\d{1,3}))?"
-    r"\s*\u2014\s*\*\*[\u201c](.+?)[\u201d]\*\*\)",
+    r"\((?P<ch>\d{1,3}):(?P<v>\d{1,3})(?:\s*[\u2013\u2014-]\s*(?P<v2>\d{1,3}))?"
+    r"(?:\s*,\s*\d{1,3}:\d{1,3})?"
+    r"\s*\u2014\s*\*\*[\u201c](?P<clause>.+?)[\u201d]\*\*\)",
     re.S)
 
 # ... and the older italic-only marker, kept so the gate can name the mistake.
@@ -300,9 +339,9 @@ def _verse_run(title: str, verse_tokens: list) -> int:
 # ------------------------------------------------------------------- the checks
 
 
-def audit_chapter(chapter: int, opts) -> list:
+def audit_chapter(chapter: int, opts, path=None) -> list:
     findings = []
-    path = C.output_path(chapter)
+    path = path or C.output_path(chapter)
 
     def fail(code, ref, line, msg):
         findings.append(Finding(FAIL, code, ref, line, msg))
@@ -461,8 +500,10 @@ def audit_chapter(chapter: int, opts) -> list:
         _cited_by_verse[section.verse] = cited
 
         paragraphs = C.split_paragraphs(body)
-        if len(paragraphs) < 2:
-            fail("FMT-PARAGRAPHS", ref, anchor, "a verse section is at least 2 paragraphs")
+        prose_paras = [p for p in C.split_paragraphs(_prose_only(body)) if p.strip()]
+        if len(paragraphs) < 2 or len(prose_paras) < 2:
+            fail("FMT-PARAGRAPHS", ref, anchor,
+                 "a verse section is at least 2 paragraphs of prose (found %d)" % len(prose_paras))
 
         heads = section.headings()
         verse_tokens = C.loose_norm(C.ayah_en(chapter, section.verse)).split()
@@ -529,9 +570,18 @@ def audit_chapter(chapter: int, opts) -> list:
         # references and quotations (heading lines are titles, not citations)
         checkable = _prose_only(body)
         own_canon = _canon(C.ayah_en(chapter, section.verse))
+        section_refs = defaultdict(int)
         for m in QURAN_QUOTE.finditer(checkable):
-            s_ch, s_v = int(m.group(1)), int(m.group(2))
-            inner = m.group(5)
+            s_ch, s_v = int(m.group("ch")), int(m.group("v"))
+            inner = m.group("clause")
+            section_refs[(s_ch, s_v)] += 1
+            if len(inner.split()) > REF_QUOTE_FAIL:
+                fail("REF-LONG", ref, anchor,
+                     "the clause quoted from %d:%d runs %d words: quote the part under discussion "
+                     "(a short clause), not the whole verse" % (s_ch, s_v, len(inner.split())))
+            elif len(inner.split()) > REF_QUOTE_WARN:
+                warn("REF-LONG", ref, anchor,
+                     "the clause quoted from %d:%d is %d words long" % (s_ch, s_v, len(inner.split())))
             if not _ref_ok(s_ch, s_v):
                 fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
                 continue
@@ -541,6 +591,12 @@ def audit_chapter(chapter: int, opts) -> list:
             if s_ch == chapter and s_v == section.verse:
                 warn("REF-SELF-QUOTE", ref, anchor,
                      "the verse's own wording is already in the line above; cite it without re-quoting")
+
+        for (s_ch, s_v), n in sorted(section_refs.items()):
+            if n > 1:
+                warn("REF-QUOTE-REPEAT", ref, anchor,
+                     "%d:%d is quoted %d times in this verse: quote the clause once and cite it "
+                     "after that" % (s_ch, s_v, n))
 
         for m in BARE_REF.finditer(checkable):
             s_ch, s_v = int(m.group(1)), int(m.group(2))
@@ -569,6 +625,25 @@ def audit_chapter(chapter: int, opts) -> list:
                 warn("REF-UNANCHORED", ref, anchor,
                      "quoted Qur'an clause without its reference beside it: %r" % m.group(1)[:50])
 
+        for m in CURLY_QUOTE.finditer(checkable):
+            inner_s = m.group(1)
+            if m.start() < 400 and "\u201c" not in checkable[:m.start()]:
+                pass
+            if any(a <= m.start() and m.end() <= b for a, b in cross):
+                continue                     # inside a cross-reference: quoting the Qur'an
+            if _canon(inner_s) in own_canon:
+                continue                     # this verse's own wording, quoted to be explained
+            words_n = len(inner_s.split())
+            if words_n >= QUOTE_STYLE_FAIL:
+                fail("EVD-QUOTE-STYLE", ref, anchor,
+                     "a passage is quoted in curly quotes outside a Qur'an reference: reports and "
+                     "athar are quoted in emphasis with straight quotes, *\"%s\"*" % inner_s[:60])
+                break
+            if words_n >= QUOTE_STYLE_WARN:
+                warn("EVD-QUOTE-STYLE", ref, anchor,
+                     "is \u201c%s\u201d a quotation? reports, athar and scholars' words are quoted "
+                     "*\"...\"*, not in curly quotes" % inner_s[:60])
+
         for m in STRAIGHT_IN_ITALIC.finditer(checkable):
             inner = _canon(m.group(1))
             if inner in own_canon:
@@ -576,6 +651,12 @@ def audit_chapter(chapter: int, opts) -> list:
             if len(inner) > 18 and any(inner in _canon(v["ayah_en"]) for v in C.verses(chapter)):
                 fail("REF-STRAIGHT-QUOTE", ref, anchor,
                      "Qur'an wording in hadith-style straight quotes: %r" % m.group(1)[:60])
+
+        unknown = _unknown_numbers(checkable, chapter, section.verse)
+        if unknown:
+                fail("EVD-NUMBER", ref, anchor,
+                     "a hadith number that appears in no source for this verse: %s (numbers come "
+                     "from the source or not at all)" % ", ".join(unknown[:4]))
 
         # evidence anchors
         kinds = []
@@ -600,6 +681,63 @@ def audit_chapter(chapter: int, opts) -> list:
                         fail("EVD-ATTRIBUTION", ref, anchor,
                              "prophetic report without its collection: %r" % sentence[:90])
                         break
+
+        # interwoven analysis: witnesses inside an argument, not a roll-call
+        prop_paras = C.split_paragraphs(_prose_only(body))
+        s_led = s_all = s_run = s_worst = 0
+        p_led = p_all = 0
+        marked = 0
+        for para in prop_paras:
+            sents = [s.strip() for s in C.sentence_split(para) if s.strip()]
+            if not sents:
+                continue
+            p_all += 1
+            if _source_led(sents[0]):
+                p_led += 1
+            for sentence in sents:
+                s_all += 1
+                if ANALYSIS.search(sentence):
+                    marked += 1
+                if _source_led(sentence):
+                    s_led += 1
+                    s_run += 1
+                    s_worst = max(s_worst, s_run)
+                else:
+                    s_run = 0
+        if s_all:
+            share = s_led / s_all
+            if s_worst >= SOURCE_LED_RUN_FAIL:
+                fail("STY-SOURCE-PARADE", ref, anchor,
+                     "%d sentences in a row open with a work's name: the material is reported "
+                     "source by source, not woven into the reading (name the work where its point "
+                     "is used, and let the argument carry the paragraph)" % s_worst)
+            elif share > SOURCE_LED_SHARE_FAIL:
+                fail("STY-SOURCE-PARADE", ref, anchor,
+                     "%.0f%% of this verse's sentences open with a work's name (limit %.0f%%): "
+                     "the ten are witnesses in one reading, not a set of separate reports"
+                     % (share * 100, SOURCE_LED_SHARE_FAIL * 100))
+            elif share > SOURCE_LED_SHARE_WARN:
+                warn("STY-SOURCE-PARADE", ref, anchor,
+                     "%.0f%% of this verse's sentences open with a work's name: lean further into "
+                     "the argument and let more of the sources support it from inside the sentence"
+                     % (share * 100))
+        if p_all and p_led / p_all > PARA_LED_FAIL:
+            fail("STY-SOURCE-PARADE", ref, anchor,
+                 "%d of %d paragraphs open with a work's name (limit %.0f%%): that is a "
+                 "report per source rather than one interwoven reading"
+                 % (p_led, p_all, PARA_LED_FAIL * 100))
+        elif p_all and p_led / p_all > PARA_LED_WARN:
+            warn("STY-SOURCE-PARADE", ref, anchor,
+                 "%d of %d paragraphs open with a work's name: let the argument open more of them"
+                 % (p_led, p_all))
+        if marked < ANALYSIS_MIN_FAIL:
+            fail("STY-ANALYSIS-FLOOR", ref, anchor,
+                 "only %d sentences in this verse reason about what it means (a floor of %d): "
+                 "the section needs analysis — what follows, why it matters, which reading is "
+                 "stronger and what turns on it — not reporting alone" % (marked, ANALYSIS_MIN_FAIL))
+        elif marked < ANALYSIS_MIN_WARN:
+            warn("STY-ANALYSIS-FLOOR", ref, anchor,
+                 "%d sentences reason about the verse (aim for %d or more)" % (marked, ANALYSIS_MIN_WARN))
 
         # analogy, and its absence
         if ANALOGY.search(body):
@@ -784,6 +922,29 @@ def _longest_run_share(quotes: list, verse_tokens: list) -> float:
     return best / len(verse_tokens)
 
 
+def _quote_style_rules(section, chapter, fail):
+    """This verse's phrases are bold italics; nothing of this verse is quoted plainly."""
+    verse_text = C.ayah_en(chapter, section.verse)
+    text = _prose_only(section.body())
+    stripped = QURAN_QUOTE.sub(" ", HTML_COMMENT.sub(" ", text))
+    stripped = PHRASE_QUOTE.sub(" ", stripped)
+    for m in CURLY_QUOTE.finditer(stripped):
+        inner = _canon(m.group(1))
+        if len(inner) > 8 and inner in _canon(verse_text):
+            fail("PHR-QUOTE-STYLE", section.ref, section.start,
+                 "a phrase of this verse is quoted without bold italics: write it "
+                 "***\u201c%s\u201d***" % m.group(1)[:60])
+            break
+    for m in BOLD_ONLY_QUOTE.finditer(stripped):
+        inner = _canon(m.group(1))
+        if len(inner) > 8 and inner in _canon(verse_text):
+            fail("PHR-QUOTE-STYLE", section.ref, section.start,
+                 "a phrase of this verse is quoted in bold only: this verse's own wording is "
+                 "bold italics (***\u201c%s\u201d***), bold is for other references"
+                 % m.group(1)[:60])
+            break
+
+
 def _phrase_rules(section, chapter, fail, warn) -> dict:
     """Every phrase of the verse is quoted in the prose, in order, and backed by evidence.
 
@@ -803,6 +964,7 @@ def _phrase_rules(section, chapter, fail, warn) -> dict:
         return stats
 
     body = HTML_COMMENT.sub(" ", _prose_only(section.body()))
+    _quote_style_rules(section, chapter, fail)     # before the early return below
     quotes = _quoted_runs(body)
     stats["quotes"] = len(quotes)
     pool = " ".join(C.loose_norm(q) for q in quotes)
@@ -876,26 +1038,6 @@ def _phrase_rules(section, chapter, fail, warn) -> dict:
                 fail("PHR-PHRASE-EDGE", ref, section.start,
                      "the verse's last %d words are never quoted: \u201c%s\u201d"
                      % (total - gaps[-1][1], " ".join(verse_norm.split()[gaps[-1][1]:])[:80]))
-
-    # quoting style: this verse's phrases bold+italic, other references bold only
-    text = _prose_only(body)
-    stripped = QURAN_QUOTE.sub(" ", HTML_COMMENT.sub(" ", text))
-    stripped = PHRASE_QUOTE.sub(" ", stripped)
-    for m in CURLY_QUOTE.finditer(stripped):
-        inner = _canon(m.group(1))
-        if len(inner) > 8 and inner in _canon(verse_text):
-            fail("PHR-QUOTE-STYLE", ref, section.start,
-                 "a phrase of this verse is quoted without bold italics: write it "
-                 "***\u201c%s\u201d***" % m.group(1)[:60])
-            break
-    for m in BOLD_ONLY_QUOTE.finditer(stripped):
-        inner = _canon(m.group(1))
-        if len(inner) > 8 and inner in _canon(verse_text):
-            fail("PHR-QUOTE-STYLE", ref, section.start,
-                 "a phrase of this verse is quoted in bold only: this verse's own wording is "
-                 "bold italics (***\u201c%s\u201d***), bold is for other references"
-                 % m.group(1)[:60])
-            break
 
     stats["missing"] = len(unquoted)
     if unquoted:
@@ -1103,6 +1245,41 @@ _STOP = {"the", "a", "an", "and", "but", "for", "with", "this", "that", "these",
          "god", "allah", "quran", "qur'an", "verse", "surah", "surahs", "chapter", "he",
          "she", "they", "it", "his", "her", "their", "its", "who", "which", "when", "then",
          "so", "not", "no", "all", "one", "two", "day", "people"}
+
+
+_NUMBERED = re.compile(
+    r"(Bukh[\u0101a]r[\u012bi]|Muslim|Tirmidh[\u012bi]|Nas[\u0101a][\u02be']?[\u012bi]|Ab[\u016b] D[\u0101a]w[\u016b]d|"
+    r"Ibn M[\u0101a]jah|A[\u1e25h]mad|D[\u0101rim[\u012bi]|Bayhaq[\u012bi]|[\u1e6cT]abar[\u0101a]n[\u012bi]|"
+    r"Ibn [\u1e24h]ibb[\u0101a]n|Ibn Khuzaymah|[\u1e24H][\u0101a]kim|M[\u0101a]lik)"
+    r"[^\n]{0,40}?\b(\d{1,6})\b", re.I)
+
+_ARABIC_DIGITS = str.maketrans("\u0660\u0661\u0662\u0663\u0664\u0665\u0666\u0667\u0668\u0669",
+                               "0123456789")
+
+
+def _unknown_numbers(text: str, chapter: int, verse: int):
+    """Hadith numbers that appear in no source for this verse.
+
+    The rule is that a number comes from the source or not at all. Numerals are
+    matched in both scripts, because the Arabic works print them as \u0667\u0665\u0666.
+    """
+    hits = _NUMBERED.findall(text)
+    if not hits:
+        return []
+    known = " ".join(C.source_verse(slug, chapter, verse) for slug in C.SOURCE_ALLOWLIST)
+    digest = _digest(chapter) or {}
+    known += " " + " ".join((digest.get(str(verse)) or {}).values())
+    known = known.translate(_ARABIC_DIGITS)
+    return ["%s %s" % (collection, number) for collection, number in hits if number not in known]
+
+
+def _source_led(sentence: str) -> bool:
+    """Does the sentence hand itself to a named work in its first words?"""
+    s = sentence.strip().lstrip("*_ ").strip()
+    head = " ".join(s.split()[:SOURCE_LED_WORDS])
+    if not head:
+        return False
+    return any(rx.search(head) for rx in AUTHORITY.values()) or bool(FIRST_GEN.search(head))
 
 
 def _ungrounded(body: str, chapter: int, verse: int, opts):

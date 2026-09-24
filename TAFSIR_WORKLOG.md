@@ -13,6 +13,7 @@ line of it:
 |---|---|
 | Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān); all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`); at least five named in the prose, one classical + one modern (`SRC-SPREAD`, `SRC-FAMILY`); nothing outside the ten (`SRC-BANNED`) |
 | Words per verse | floor `max(600, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000 |
+| Interweaving | one reading, not a report per source: no run of three source-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a work's name, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |

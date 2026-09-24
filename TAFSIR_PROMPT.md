@@ -228,6 +228,33 @@ paragraph arrives at, the application as something he recognises in his own week
 fails a chapter that labels any of them. The test is simple: if a heading or a sentence exists
 only to announce what kind of content follows, delete it and let the content speak.
 
+### 4.3 One reading, many witnesses — interweave, never report per source
+
+The ten works are **witnesses inside one reading**, not ten speakers taking turns. A section is an
+argument about what the verse says and asks; the sources are the evidence that carries it. Name a
+work where its point is used, inside the sentence that needs it — *"the pairing is deliberate, which
+is why al-Qurṭubī reads the two names of mercy as a softening of the warning that a Lord carries"* —
+and let the next sentence draw the conclusion. What fails is the other shape: a paragraph that opens
+with a work's name and paraphrases it, then another paragraph for the next work, and so on. That is a
+report on a library, not tafsir, however accurate each paragraph is.
+
+Write so that a reader follows **the verse**, not the bibliography:
+
+* open paragraphs with the point being made, not with an authority's name;
+* weigh the sources against each other where they differ — say which reading is stronger and what
+  turns on it; where they agree, say so once and move on (two sources saying the same thing are one
+  witness, not two);
+* keep an argument running across the paragraphs of a section: the phrase, what it means, what the
+  grammar does, what follows for the reader;
+* use the Qur'an and the report to settle questions, not just to decorate a paragraph;
+* analyse — say why a reading is right, what it implies, what changes if it is not.
+
+The gate counts it. In every verse section, `STY-SOURCE-PARADE` fails when three sentences in a row
+open with a work's name, when more than 30% of the section's sentences do, or when more than 45% of
+its paragraphs do (warns from 18% / 30%); `STY-ANALYSIS-FLOOR` fails a section with fewer than four
+sentences that reason about the verse (*because*, *so that*, *which means*, *the point*, *what
+follows*) and warns below eight.
+
 If a section is under the floor, the answer is never repetition or vague exhortation. Go back to
 the digest and use material you have not used yet — the Arabic sources usually carry more for
 that verse than the English ones do.
@@ -293,6 +320,8 @@ holding it — or the paragraph straight after it — must carry one of:
 | Nothing is dropped at the edges | the first or last 3 words unquoted fails (`PHR-PHRASE-EDGE`) |
 | The verse is split, not quoted whole | one quoted stretch carrying over half of a 12-word-plus verse fails `PHR-CHUNK` |
 | Every quoted phrase is evidenced | a quote with no cross-reference, report, authority or language note beside it fails `PHR-EVIDENCE` |
+| A clause is a clause | a cross-reference quote over 34 words fails `REF-LONG` (over 22 warns) |
+| A verse is quoted once per section | the same verse quoted twice in one section warns (`REF-QUOTE-REPEAT`) |
 
 ## 6. Quoting law
 
@@ -307,6 +336,9 @@ holding it — or the paragraph straight after it — must carry one of:
 * A bare citation without a quote is fine and encouraged: `(2:255)`, `(3:8)`.
 * Hadith and athar are quoted inside emphasis with straight quotes: `*"..."*`.
 * Never re-quote a verse already quoted in the same section; cite it.
+* Quotations from reports, athar and scholars are marked `*"..."*` (emphasis, straight quotes). A
+  passage left in curly quotes outside a Qur'an reference is flagged: `EVD-QUOTE-STYLE` fails at 25
+  words, warns at 12.
 * Every citation must point to a real verse: `(2:300)` fails the gate.
 
 ## 7. Attribution law — non-negotiable
@@ -314,6 +346,9 @@ holding it — or the paragraph straight after it — must carry one of:
 1. **Never invent a hadith number.** Give collection and narrator as the source gives them
    (`Ṣaḥīḥ al-Bukhārī 756`, `Muslim records Abū Hurayrah saying…`). If the source carries no
    number, the commentary carries no number.
+2. **A number comes from the source or not at all.** `audit.py` reads every `Collection number`
+   in the prose and fails (`EVD-NUMBER`) when that number appears in no source for the verse, in
+   either script.
 2. **Grade only what the source grades** (`At-Tirmidhī said ḥasan gharīb`, `a report whose chain
    al-Ṭabarī grades weak`).
 3. **Never promote a witness account, a Companion's ruling, or a commentator's gloss to a
@@ -431,6 +466,13 @@ When the gate is clean:
 4. commit on the session branch with the message
    `Tafsir ch N (<Name>): verse-by-verse from all <k> sources`,
    then push — never to another branch.
+
+### The rules are tested, not assumed
+
+`python3 scripts/tafsir/selftest.py` breaks each rule of §4-§8 on a scratch copy of a written chapter —
+a lowercase heading, a mis-quoted verse, a bad citation, a labelled paragraph, a source-by-source
+section — and checks that the gate reports the code the rule promises. It prints one row per rule and
+exits non-zero if any rule is not enforced. Run it whenever `audit.py` changes.
 
 ## 10. Batch discipline — and keep going until the chapter is finished
 

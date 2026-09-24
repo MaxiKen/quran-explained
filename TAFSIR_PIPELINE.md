@@ -87,9 +87,12 @@ python3 scripts/tafsir/build_data.py 2                  # data/tafsir_002.json
 python3 scripts/tafsir/build_data.py --all --check      # is the payload in sync?
 python3 scripts/tafsir/status.py 2
 python3 scripts/tafsir/status.py --md                   # table for the worklog
+python3 scripts/tafsir/selftest.py                     # break each rule on a scratch copy: does the gate catch it?
 ```
 
-`audit.py` is the contract, not a suggestion; `batch.py` applies the same contract to the verses
+`selftest.py` proves the contract is real: it mutates a written chapter once per rule (lower-case
+heading, mis-quoted verse, unanchored citation, a section written source by source) and fails if
+`audit.py` does not report the rule's code. `audit.py` is the contract, not a suggestion; `batch.py` applies the same contract to the verses
 written so far, so a batch can be judged while the rest of the chapter is still scaffold. Codes and
 what they mean:
 
