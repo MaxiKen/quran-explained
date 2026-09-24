@@ -32,9 +32,10 @@ Excerpts worth knowing:
 
 * the **only** source of Qur'an wording is `data/chapter_NNN.js`; every quoted clause is checked
   verbatim against it;
-* the headings are descriptive titles (never the verse's own words), while every phrase of the
-  verse is quoted *inside* the prose, explained in verse order, and backed beside the quote by a
-  cross-reference, a report with its collection, or a named authority;
+* the headings are UPPERCASE descriptive titles (never the verse's own words), while every phrase
+  of the verse is quoted *inside* the prose in **bold italics**, explained in verse order, and
+  backed beside the quote by a cross-reference, a report with its collection, or a named
+  authority; quotations from other verses are bold only, inside their reference;
 * every verse carries at least 550 words, rising to seven times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;

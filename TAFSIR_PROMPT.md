@@ -113,13 +113,13 @@ Introduction prose in plain paragraphs, 250–1,500 words, no headings, no separ
 
 > <the canonical translation, exactly as it stands in data/chapter_NNN.js>
 
-**A descriptive title: the setting, the story, or what this paragraph settles**
+**A DESCRIPTIVE TITLE: THE SETTING, THE STORY, OR WHAT THIS PARAGRAPH SETTLES**
 
-Prose. The verse's own words are quoted *inside* the paragraph — “the first phrase of the verse”
-— and explained here, with the evidence for it beside the quote: a cross-reference
-(C:V — *“clause”*), a hadith with its collection, or a named authority.
+Prose. The verse's own words are quoted *inside* the paragraph in **bold italics** —
+***“the first phrase of the verse”*** — and explained here, with the evidence for it beside the
+quote: a cross-reference (C:V — **“clause”**), a hadith with its collection, or a named authority.
 
-**Another descriptive title**
+**ANOTHER DESCRIPTIVE TITLE**
 
 Prose. Whatever the verse still needs: the history behind it, the ruling it carries, the next
 phrase quoted and explained, the analogy.
@@ -130,9 +130,18 @@ phrase quoted and explained, the analogy.
 ...
 ```
 
-The heading is never the verse's phrase. It names what the paragraph does — much as the old
-commentary on this site titled its paragraphs. The phrases live *inside* the paragraphs, and not
-every paragraph carries one: context, history, reports and rulings are headings of their own.
+The heading is never the verse's phrase, and it is written in **UPPERCASE**. It names what the
+paragraph does — much as the old commentary on this site titled its paragraphs. The phrases live
+*inside* the paragraphs, and not every paragraph carries one: context, history, reports and rulings
+are headings of their own.
+
+Three markers carry the quoting:
+
+| What is quoted | How it is written |
+|---|---|
+| A phrase of the verse being explained | **bold italics**: `***“the phrase of this verse”***` |
+| A clause of any other verse (a cross-reference) | **bold only**: `(C:V — **“the clause”**)` |
+| A heading | **UPPERCASE**, no quotes, never the verse's words |
 
 Rules the auditor enforces:
 
@@ -143,12 +152,12 @@ Rules the auditor enforces:
    must be present. No skipped verses, no combined verses, no invented verse numbers.
 4. **Verse quote**: one line, starting `> `, byte-identical to that verse's `ayah_en` in
    `data/chapter_NNN.js`, with one blank line above and below.
-5. **Headings are descriptive titles, never the verse's own phrases** (see §5). A heading is a
-   short title of its own — `**The setting at Mount Safa**`, `**Why the direction changed**`,
-   `**What the middle community means**` — alone on its line, blank line before and after, and
-   answered by prose. `**“phrase of the verse”**` is not a heading any more; it fails
-   `FMT-HEADING-QUOTED`. Titles must not be generic (`Commentary`, `Explanation`, `Summary`,
-   `Note`) and each must be followed by real prose.
+5. **Headings are UPPERCASE descriptive titles, never the verse's own phrases** (see §5). A heading
+   is a short title of its own — `**THE SETTING AT MOUNT SAFA**`, `**WHY THE DIRECTION CHANGED**`,
+   `**WHAT THE MIDDLE COMMUNITY MEANS**` — alone on its line, blank line before and after, and
+   answered by prose. A heading with a lower-case letter fails `FMT-HEADING-CASE`, and
+   `**“phrase of the verse”**` fails `FMT-HEADING-QUOTED`. Titles must not be generic
+   (`COMMENTARY`, `EXPLANATION`, `SUMMARY`, `NOTE`) and each must be followed by real prose.
 6. **Every phrase of the verse is quoted inside the prose and explained, in verse order, with
    evidence** (see §5). Not every heading carries a phrase: a paragraph of context, history or
    ruling may quote none.
@@ -201,6 +210,12 @@ All-Sustaining.”` and `“Who could possibly intercede with Him without His pe
 separates a phrase from the word it leans on ("Neither drowsiness" / "nor sleep overtakes Him") is
 a bad cut; merge it back.
 
+**Marking the quotes.** This verse's own phrase, wherever it appears in the prose, is written in
+bold italics: ***“the phrase of this verse”***. A clause quoted from any other verse is written in
+bold only, inside its reference: (C:V — **“the clause”**). A phrase of this verse quoted plainly, or
+in bold only, fails (`PHR-QUOTE-STYLE`); an italic cross-reference quote fails
+(`REF-QUOTE-STYLE`). Headings carry no quotes at all, and they are UPPERCASE.
+
 **How to write each phrase.** Take it apart in order: what the words mean, what the grammar does
 (a definite article, a word placed first, a pronoun that shifts), what the early authorities said
 about it, what it implies for how a person lives. Each phrase should normally carry one to four
@@ -220,7 +235,10 @@ holding it — or the paragraph straight after it — must carry one of:
 
 | Check | Rule |
 |---|---|
+| Headings are UPPERCASE | any lower-case letter in a heading fails `FMT-HEADING-CASE` |
 | Heading is a title, not a quote | a heading that is the verse's own phrase fails `FMT-HEADING-QUOTED` |
+| This verse's phrases are bold italics | a phrase of the verse quoted plainly, or in bold only, fails `PHR-QUOTE-STYLE` |
+| Other references are bold only | an italic cross-reference quote fails `REF-QUOTE-STYLE` |
 | Heading is not a copy | six or more words of the verse verbatim in a heading fails `FMT-HEADING-VERSE` (four or more warns) |
 | Headings are real titles | generic labels and headings over twelve words warn; two or more per verse |
 | The verse is quoted in the prose | at least 90% of its words, or `PHR-PHRASE-COVERAGE` |
@@ -234,8 +252,11 @@ holding it — or the paragraph straight after it — must carry one of:
 
 * Qur'an wordings come **only** from `data/chapter_NNN.js`. Never from a tafsir's paraphrase,
    never from memory, never retyped if you can copy it.
-* A Qur'an quotation is written `(C:V — *“the clause under discussion”*)` with an em dash and
-   curly quotes, and the clause must be a verbatim substring of that verse's `ayah_en`.
+* A quotation from **another** verse is written `(C:V — **“the clause under discussion”**)` — em
+   dash, curly quotes, bold only — and the clause must be a verbatim substring of that verse's
+   `ayah_en`.
+* A phrase of **this** verse is written `***“the phrase of this verse”***` — bold italics — and must
+   be a substring of this verse's `ayah_en` (the gate reports a foreign quote in that style).
 * Quote the clause under discussion, not a whole long verse.
 * A bare citation without a quote is fine and encouraged: `(2:255)`, `(3:8)`.
 * Hadith and athar are quoted inside emphasis with straight quotes: `*"..."*`.

@@ -12,7 +12,7 @@ no WARN either). The rule set is written out in TAFSIR_PROMPT.md; the codes
 below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
-          descriptive headings (never the verse's own phrases), placeholders
+          UPPERCASE descriptive headings (never the verse's own phrases), placeholders
   WRD-*   length: verse floor (550 words, rising with the verse), introduction
   PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
           verse order, covering the whole verse, in workable units, and each
@@ -129,16 +129,28 @@ DICTION = re.compile(
     r"inter alia|prima facie|de facto|a priori|ipso facto|erstwhile|veritable|multifaceted)\b",
     re.I)
 
+# A cross-reference quotes the other verse's clause in bold only:
+#     (C:V — **“the clause”**)
 QURAN_QUOTE = re.compile(
     r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?"
     r"(?:\s*,\s*(\d{1,3}):(\d{1,3}))?"
-    r"\s*\u2014\s*\*[\u201c](.+?)[\u201d]\*\)",
+    r"\s*\u2014\s*\*\*[\u201c](.+?)[\u201d]\*\*\)",
     re.S)
+
+# ... and the older italic-only marker, kept so the gate can name the mistake.
+QURAN_QUOTE_ITALIC = re.compile(
+    r"\(\d{1,3}:\d{1,3}(?:\s*[\u2013\u2014-]\s*\d{1,3})?"
+    r"\s*\u2014\s*\*(?!\*)[\u201c][^\u201d]+[\u201d]\*\)")
+
+# The verse being explained quotes its own phrase in bold italics:
+#     ***“the phrase of this verse”***
+PHRASE_QUOTE = re.compile(r"\*\*\*[\u201c](.+?)[\u201d]\*\*\*", re.S)
+BOLD_ONLY_QUOTE = re.compile(r"(?<!\*)\*\*[\u201c](.+?)[\u201d]\*\*(?!\*)", re.S)
 
 BARE_REF = re.compile(r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?(?:\s*,\s*\d{1,3}:\d{1,3})*\)")
 
-CURLY_ONLY_QUOTE = re.compile(r"\*[\u201c]([^\u201d]{8,})[\u201d]\*")
-STRAIGHT_IN_ITALIC = re.compile(r"\*\"([^\"]{8,})\"\*")
+CURLY_ONLY_QUOTE = re.compile(r"(?<!\*)\*[\u201c]([^\u201d]{8,})[\u201d]\*(?!\*)")
+STRAIGHT_IN_ITALIC = re.compile(r"\*+\"([^\"]{8,})\"\*+")
 
 PHRASE_HEADING = re.compile(r"^\*\*[\u201c\"](.+?)[\u201d\"]\*\*[ \t]*$")
 
@@ -373,6 +385,9 @@ def audit_chapter(chapter: int, opts) -> list:
                      "'%s' is the verse's own wording: headings are descriptive titles \u2014 quote the "
                      "phrase inside the paragraph and explain it there" % title[:60])
                 continue
+            if re.search(r"[a-z]", title):
+                fail("FMT-HEADING-CASE", ref, line_no,
+                     "headings are written in UPPERCASE: '%s'" % title[:60])
             if title.strip().lower() in GENERIC_HEADINGS:
                 fail("FMT-HEADING-GENERIC", ref, line_no,
                      "'%s' is a generic heading; say what the paragraph says" % title)
@@ -423,6 +438,20 @@ def audit_chapter(chapter: int, opts) -> list:
             s_ch, s_v = int(m.group(1)), int(m.group(2))
             if not _ref_ok(s_ch, s_v):
                 fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
+
+        for m in QURAN_QUOTE_ITALIC.finditer(checkable):
+            fail("REF-QUOTE-STYLE", ref, anchor,
+                 "a cross-reference quote is italic: other references are quoted in bold only, "
+                 "(C:V \u2014 **\u201cthe clause\u201d**)")
+
+        cross = [m.span() for m in QURAN_QUOTE.finditer(checkable)]
+        for m in PHRASE_QUOTE.finditer(checkable):
+            if any(a <= m.start() and m.end() <= b for a, b in cross):
+                continue                     # inside a cross-reference: that is a reference quote
+            if _canon(m.group(1)) not in own_canon:
+                warn("PHR-QUOTE-FOREIGN", ref, anchor,
+                     "quoted in this verse's bold italics but it is not this verse's wording: %r"
+                     % m.group(1)[:60])
 
         for m in CURLY_ONLY_QUOTE.finditer(checkable):
             if _canon(m.group(1)) in own_canon:
@@ -586,10 +615,10 @@ def audit_chapter(chapter: int, opts) -> list:
 
 
 def _quoted_runs(body: str) -> list:
-    """The verse-wording quoted in the prose, in document order.
+    """The verse's own wording quoted in the prose: the bold-italic ``***\u201cphrase\u201d***`` runs.
 
-    Cross-reference citations (``(C:V \u2014 *\u201cclause\u201d*)``) are removed first, so what
-    is left is the wording a writer quoted in order to explain it.
+    Cross-reference citations (``(C:V \u2014 **\u201cclause\u201d**``) are other verses and are
+    removed first, so what is left is the wording quoted to explain this verse.
     """
     text = HTML_COMMENT.sub(" ", body)
     kept, last = [], 0
@@ -597,7 +626,7 @@ def _quoted_runs(body: str) -> list:
         kept.append(text[last:m.start()])
         last = m.end()
     kept.append(text[last:])
-    return [m.group(1).strip() for m in CURLY_QUOTE.finditer(" ".join(kept))]
+    return [m.group(1).strip() for m in PHRASE_QUOTE.finditer(" ".join(kept))]
 
 
 def _find_phrase(pool: str, phrase: str, pos: int):
@@ -731,6 +760,26 @@ def _phrase_rules(section, chapter, fail, warn) -> dict:
                      "the verse's last %d words are never quoted: \u201c%s\u201d"
                      % (total - gaps[-1][1], " ".join(verse_norm.split()[gaps[-1][1]:])[:80]))
 
+    # quoting style: this verse's phrases bold+italic, other references bold only
+    text = _prose_only(body)
+    stripped = QURAN_QUOTE.sub(" ", HTML_COMMENT.sub(" ", text))
+    stripped = PHRASE_QUOTE.sub(" ", stripped)
+    for m in CURLY_QUOTE.finditer(stripped):
+        inner = _canon(m.group(1))
+        if len(inner) > 8 and inner in _canon(verse_text):
+            fail("PHR-QUOTE-STYLE", ref, section.start,
+                 "a phrase of this verse is quoted without bold italics: write it "
+                 "***\u201c%s\u201d***" % m.group(1)[:60])
+            break
+    for m in BOLD_ONLY_QUOTE.finditer(stripped):
+        inner = _canon(m.group(1))
+        if len(inner) > 8 and inner in _canon(verse_text):
+            fail("PHR-QUOTE-STYLE", ref, section.start,
+                 "a phrase of this verse is quoted in bold only: this verse's own wording is "
+                 "bold italics (***\u201c%s\u201d***), bold is for other references"
+                 % m.group(1)[:60])
+            break
+
     stats["missing"] = len(unquoted)
     if unquoted:
         for phrase in unquoted[:3]:
@@ -815,7 +864,8 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
     haystack = _canon("\n".join(sources.values()))
 
     tokens = set()
-    for para in C.split_paragraphs(body):
+    for para in C.split_paragraphs(_prose_only(body)):   # headings are titles, not claims
+
         for m in re.finditer(r"\b[A-Z][A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf-]{2,}\b", para):
             token = m.group(0)
             if para[max(0, m.start() - 2):m.start()].endswith((". ", "? ", "! ")):

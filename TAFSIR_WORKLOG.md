@@ -13,7 +13,8 @@ line of it:
 |---|---|
 | Words per verse | floor `max(550, 7 × the verse's own words)`, capped 3,500; soft ceiling 4,500 |
 | Introduction | 250–1,500 words |
-| Headings | descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
+| Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
+| Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
@@ -125,7 +126,10 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   Ḥibbān, At-Tirmidhī ḥasan), and the Āmīn material (Wāʾil ibn Ḥujr, Abū Mūsā, Abū Zuhayr, ʿĀʾishah).
 * Mis-attribution to keep out: the saying on three kinds of worship exists only in `tafsir_initial`,
   with no chain — it is not in al-Ṭabarī, and it is not in this chapter.
-* Payload `data/tafsir_001.json` rebuilt (43 KB); `sw.js` `CACHE_VERSION` = `quran-reader-v2.5.32`.
+* Payload `data/tafsir_001.json` rebuilt (43 KB); `sw.js` `CACHE_VERSION` = `quran-reader-v2.5.33`.
+* Quoting style applied to the chapter on 2026-09-24: headings uppercased, 31 cross-reference quotes
+  moved to bold only, and 12 stretch of this verse's own phrases set in bold italics. `audit.py 1`
+  still **PASS** (0 FAIL, 1 advisory warning).
 
 ### Chapter 2 — Al-Baqarah (286 verses)
 
