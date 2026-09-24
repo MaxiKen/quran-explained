@@ -75,13 +75,14 @@ python3 scripts/tafsir/sources.py 2 --stats
 python3 scripts/tafsir/sources.py 2                     # tmp/sources/002.txt + 002.json
 python3 scripts/tafsir/sources.py 2 --verse 255 --cap-ar 4000 --stdout
 
-# 2. scaffold the chapter file: byte-exact verse quotes + phrase headings
+# 2. scaffold the chapter file: byte-exact verse quotes, headings left to the writer
 python3 scripts/tafsir/scaffold.py 2
-python3 scripts/tafsir/scaffold.py 2 --stdout | head -40   # preview the phrase cut
+python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut every verse is measured against
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 
 # 3. write the prose in batches, gating each batch before the next one starts
 python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
+python3 scripts/tafsir/batch.py 2 --ranges 6-20,21-35,36-50   # several batches at once, in parallel
 python3 scripts/tafsir/batch.py 2 --progress            # how far the chapter has come
 python3 scripts/tafsir/audit.py 2                       # whole chapter: exit 0 only on PASS
 python3 scripts/tafsir/audit.py 2 --json > findings.json
@@ -100,8 +101,8 @@ what they mean:
 
 | Code | Meaning |
 |---|---|
-| `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, headings, separators, spacing, placeholders, and the phrase headings that must cover the verse |
-| `REF-PHRASE*` | a phrase heading that is not the verse's own wording, or is out of verse order |
+| `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, separators, spacing, placeholders — and a heading that is the verse's own wording (`FMT-HEADING-QUOTED`), repeats it (`FMT-HEADING-VERSE`), or is generic |
+| `PHR-*` | phrases: the verse is not quoted in the prose (`PHR-PHRASE-NONE`), a phrase is never quoted (`PHR-PHRASE-MISSING`), the quoted share is under 90%, an unquoted gap runs past 8 words, the edges are dropped, one quote swallows the verse (`PHR-CHUNK`), or a quoted phrase has no evidence beside it (`PHR-EVIDENCE`) |
 | `WRD-*` | length: a verse under its floor (550 words, or 7× the verse's own length, capped at 3,500) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |

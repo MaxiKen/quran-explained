@@ -13,7 +13,8 @@ line of it:
 |---|---|
 | Words per verse | floor `max(550, 7 × the verse's own words)`, capped 3,500; soft ceiling 4,500 |
 | Introduction | 250–1,500 words |
-| Phrase splitting | every phrase of the verse quoted as `**“phrase”**`, in verse order, ≥90% coverage, no gap over 8 words |
+| Headings | descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
+| Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
 | Evidence | every verse carries checkable anchors; every prophetic report names its collection |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
@@ -24,13 +25,20 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 6,290 | 748/845/1,140 | 7/7 | PASS | 47 KB |
+| 1 | `tafsir/001.md` | 0/7 | — | — | — | scaffold | — |
+| 2 | `tafsir/002.md` | 0/286 | — | — | — | scaffold | — |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 6,290 words.**
+Totals: **0 of 114 chapters written, 0 of 6,236 verses.**
 
-Standard version: **v2** (floor 550 / 7×, phrase coverage gate, analogy rule, plain-diction checks).
-Chapter 1 was taken through v2 twice: 4,108 words at first pass, 6,290 after the second, which
-added the source-level material listed below.
+**Reset, 2026-09-24.** Chapter 1 and the written part of chapter 2 were cleared and their payload
+deleted. The format changed: the bold headings are descriptive titles again (as in the old
+commentary on this site), not the verse's phrases. Each phrase of the verse is quoted *inside* the
+paragraph that explains it, in verse order, and each quoted phrase is backed beside it by evidence —
+a Qur'an cross-reference, a hadith with its collection, or a named authority. Not every heading
+carries a phrase: context, history, reports and rulings are headings of their own. `audit.py`
+enforces this mechanically (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`, `PHR-*`, `PHR-EVIDENCE`), and
+batches are now produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`). Chapter 1 is
+rewritten first, then chapter 2.
 
 ## Chapter notes
 
@@ -86,28 +94,24 @@ added the source-level material listed below.
 
 ## In progress
 
+### Chapter 1 — Al-Fatihah (7 verses)
+
+* Cleared and scaffolded under the new format on 2026-09-24. To be rewritten first — the earlier
+  6,290-word version in the old phrase-heading format is in the git history, not in the file.
+
 ### Chapter 2 — Al-Baqarah (286 verses)
 
 * Digest built for the whole chapter: `tmp/sources/002.txt` (13.8 MB) and `002.json` (85 MB, uncapped
-  for writing; `sources.py` now takes `--cap-json` when a smaller digest is enough). All 286 verses
-  have source material. The scaffold is in place with 1,362 phrase headings.
-* **Written so far: the introduction and verses 2:1–2:94** (94/286) — the letters, the portrait of
-  the believers and the hypocrites, the parable of the fire, the creation of Adam, the covenant with
-  Israel, the manna, the rock, the cow, the murdered man and the raised dead, the broken covenants,
-  the distortion of scripture and the claim to an exclusive hereafter, up to "wish for death" and the
-  answer given in the next verse. Every verse carries its own analogy (89/89 in the 2:6–2:94 range);
-  phrase coverage 97–99% a verse; per-verse words run from 560 to 2,164 against floors of 550–735.
-* Batch gate for 2:6–2:94: `batch.py 2 --from 6 --to 94` → **PASS** (0 FAIL, 33 advisory `GRD-TOKENS`
-  warnings about source-name tokens). Batch style for the range: mean sentence 21.5 words, 5% over 40
-  words, Flesch 68, long words 0.47% — inside every threshold. `audit.py --all` reports the chapter as
-  `in progress: 94/286 written, next 2:95`, and `build_data.py 2` refuses to publish it while scaffolds
-  remain — so the app can never receive a half-written sūrah.
-* The chapter is written batch by batch and the writer does not stop between batches
-  (`TAFSIR_PROMPT.md` §10). Batch tooling: `batch.py N --from A --to B`, `batch.py N --progress`.
+  for writing; `sources.py` takes `--cap-json` when a smaller digest is enough). All 286 verses have
+  source material.
+* Cleared on 2026-09-24 (2:1–2:141 had been written in the old phrase-heading format); the file is
+  back to a full scaffold, 0/286 written, and the payload was never built. The old text is in the
+  git history of this branch.
+* The chapter is written batch by batch, with several batches in flight at once, and the writer does
+  not stop between batches (`TAFSIR_PROMPT.md` §1, §10). Batch tooling: `batch.py N --from A --to B`,
+  `batch.py N --ranges A-B,C-D,E-F` (in parallel), `batch.py N --progress`.
 * No payload, no worklog row and no `sw.js` bump until the chapter passes the gate in full, so the
   app keeps showing "coming soon" for al-Baqarah.
-* Next batches: 2:95–2:103 (the claim of an exclusive hereafter answered, then Gabriel and the
-  accusation against Solomon), continuing in batches of four to six verses until `audit.py 2` passes.
 
 ## Conventions
 
@@ -117,8 +121,9 @@ added the source-level material listed below.
 
 ## Open items
 
-* Chapter order is ascending, 001 → 114.
+* Chapter order is ascending, 001 → 114. Chapter 1 first, then chapter 2 from verse 1.
 * The app shows "coming soon, in sha Allah" under verses whose chapter has no payload yet; this
-  is expected until a chapter is written.
-* Chapter 1 is the reference for the new standard. When a rule and chapter 1 disagree, the rule
-  wins and chapter 1 is fixed.
+  is expected until a chapter is written. `data/tafsir_001.json` was deleted with the reset and is
+  rebuilt when chapter 1 passes the gate again.
+* Chapter 1 is the reference for the standard. When a rule and chapter 1 disagree, the rule wins
+  and chapter 1 is fixed.

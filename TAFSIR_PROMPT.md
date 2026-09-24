@@ -25,9 +25,15 @@ Everything you write about a verse must be traceable to a source that discusses 
 the Qur'an's own text, or to a report the sources carry. No invention, no padding, no
 paraphrase of the translation dressed up as commentary.
 
-**One standing instruction:** a chapter is written in batches of verses (§10), and you do not
-stop between them. Write a batch, run the batch gate, fix what fails, start the next batch, and
-continue on your own until every verse of the chapter is written and `audit.py N` passes.
+**Two standing instructions:**
+
+1. **A chapter is written in batches of verses (§10), and you do not stop between them.** Write a
+   batch, run the batch gate, fix what fails, start the next batch, and continue on your own until
+   every verse of the chapter is written and `audit.py N` passes.
+2. **Spread the work.** Batches do not depend on one another, so keep several in flight at once:
+   draft batch B while batch A is being gated, and audit several finished batches in a single call
+   with `batch.py N --ranges A-B,C-D,E-F` (the ranges run in parallel). Nothing that has no
+   dependency on unfinished work may be done one step at a time.
 
 ## 2. Build the inputs first
 
@@ -36,15 +42,15 @@ cd /home/user/quran-explained
 
 python3 scripts/tafsir/sources.py N --stats        # where the material is, before reading
 python3 scripts/tafsir/sources.py N                # writes tmp/sources/NNN.txt + NNN.json
-python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md: exact quotes + phrase headings
+python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md with byte-exact verse quotes
+python3 scripts/tafsir/scaffold.py N --phrases     # the phrase cut each verse is measured against
 python3 scripts/tafsir/verify.py "<claim>" --chapter N   # confirm a source really makes a point
 ```
 
-The scaffold hands you two free wins. The verse quote is copied byte-for-byte from
-`data/chapter_NNN.js`, so it cannot fail the verbatim check. And the verse is already cut into
-phrase headings by `corpus.split_phrases`, in verse order, covering every word — so the
-phrase-coverage rule passes from the first line you write. Re-cut a proposal when you can see a
-better unit, and check your cut with `python3 scripts/tafsir/scaffold.py N --stdout | head -40`.
+The scaffold hands you one free win: the verse quote is copied byte-for-byte from
+`data/chapter_NNN.js`, so it cannot fail the verbatim check. The headings are yours to write, and
+so is the phrase-by-phrase reading: `scaffold.py N --phrases` prints, for every verse, the units
+`corpus.split_phrases` proposes — a plan to work from, not headings to paste.
 
 For a single verse or a single source, read the digest directly:
 
@@ -86,8 +92,9 @@ When two sources say the same thing, that is one witness, not two.
 ## 4. Write it in the chapter format
 
 The file is parsed by `scripts/tafsir/build_data.py` and checked by `audit.py`, so the shape is
-fixed. `scaffold.py N` writes this skeleton with the verse quotes *and* the phrase headings
-already cut for you.
+fixed. `scaffold.py N` writes this skeleton with the verse quotes already in place; the headings
+and the prose are yours, and `scaffold.py N --phrases` shows the phrase cut each verse is
+measured against.
 
 ```markdown
 # Sūrah <Name> (Chapter N) — Verse-by-Verse Tafsir
@@ -102,19 +109,26 @@ Introduction prose in plain paragraphs, 250–1,500 words, no headings, no separ
 
 > <the canonical translation, exactly as it stands in data/chapter_NNN.js>
 
-**“first phrase of the verse”**
+**A descriptive title: the setting, the story, or what this paragraph settles**
 
-Prose explaining that phrase.
+Prose. The verse's own words are quoted *inside* the paragraph — “the first phrase of the verse”
+— and explained here, with the evidence for it beside the quote: a cross-reference
+(C:V — *“clause”*), a hadith with its collection, or a named authority.
 
-**“second phrase of the verse”**
+**Another descriptive title**
 
-Prose explaining that phrase.
+Prose. Whatever the verse still needs: the history behind it, the ruling it carries, the next
+phrase quoted and explained, the analogy.
 
 ---
 
 ## Verse N:2
 ...
 ```
+
+The heading is never the verse's phrase. It names what the paragraph does — much as the old
+commentary on this site titled its paragraphs. The phrases live *inside* the paragraphs, and not
+every paragraph carries one: context, history, reports and rulings are headings of their own.
 
 Rules the auditor enforces:
 
@@ -125,20 +139,24 @@ Rules the auditor enforces:
    must be present. No skipped verses, no combined verses, no invented verse numbers.
 4. **Verse quote**: one line, starting `> `, byte-identical to that verse's `ayah_en` in
    `data/chapter_NNN.js`, with one blank line above and below.
-5. **Every phrase of the verse is quoted and explained** (see §5). Phrase headings are written
-   `**“phrase”**` with curly quotes, alone on their line, blank line before and after, and one
-   after another in verse order. Descriptive `**bold headings**` may be added inside a phrase's
-   block for a story, a ruling or a list; they must not be generic (`Commentary`, `Explanation`,
-   `Summary`, `Note`) and must each be followed by prose.
-6. **Length follows substance, and the floor is high.** Every verse carries at least **550
+5. **Headings are descriptive titles, never the verse's own phrases** (see §5). A heading is a
+   short title of its own — `**The setting at Mount Safa**`, `**Why the direction changed**`,
+   `**What the middle community means**` — alone on its line, blank line before and after, and
+   answered by prose. `**“phrase of the verse”**` is not a heading any more; it fails
+   `FMT-HEADING-QUOTED`. Titles must not be generic (`Commentary`, `Explanation`, `Summary`,
+   `Note`) and each must be followed by real prose.
+6. **Every phrase of the verse is quoted inside the prose and explained, in verse order, with
+   evidence** (see §5). Not every heading carries a phrase: a paragraph of context, history or
+   ruling may quote none.
+7. **Length follows substance, and the floor is high.** Every verse carries at least **550
    words**, and the floor rises with the verse: `max(550, 7 × the verse's own word count)`, up to
    3,500. A ninety-word verse therefore needs 630+ words; a two-hundred-word verse needs 1,400+.
    The soft ceiling is 4,500 words — above that, check for padding. These numbers live in
    `audit.py` (`MIN_VERSE_WORDS`, `SCALE_FACTOR`, `SCALE_CAP`) and `scaffold.py` restates them in
    each TODO line, so a writer always sees the floor for the verse in front of them.
-7. **One `---`** between sections. No trailing separator after the last verse.
-8. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
-9. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
+8. **One `---`** between sections. No trailing separator after the last verse.
+9. **Hygiene**: no tabs, no trailing spaces, no double blank lines, single newline at the end.
+10. **No placeholder** text (`TODO`, `TBD`) may survive into the file.
 
 ### 4.1 Where the length comes from
 
@@ -155,41 +173,58 @@ If a section is under the floor, the answer is never repetition or vague exhorta
 the digest and use material you have not used yet — the Arabic sources usually carry more for
 that verse than the English ones do.
 
-## 5. Splitting a verse into phrases, and quoting each one
+## 5. The verse's phrases live in the prose — and every one is backed by evidence
 
-Every verse is read as a series of meaningful units, and each unit is quoted as a heading and then
-explained. This is the backbone of the chapter format.
+The verse is read as a series of meaningful units, and each unit is quoted **inside the
+paragraph** that explains it. This is the backbone of the chapter, and it is not the same thing as
+the headings. A heading names the paragraph; the phrase is quoted *in* the paragraph, explained
+there, and supported there by evidence. Several paragraphs in a verse may carry no phrase at all —
+they carry the setting, the story, the ruling, the disagreement, the analogy.
 
-**How to cut a verse.** `scaffold.py N` proposes the cut with `corpus.split_phrases`, which breaks
-at strong punctuation (— ; : ? !) and before conjunctions, keeps every word of the verse, and
-never leaves a fragment. Re-cut the proposal whenever you can see a more meaningful unit, as long
-as two things stay true:
+**How to cut a verse.** `scaffold.py N --phrases` prints the cut `corpus.split_phrases` proposes,
+which breaks at strong punctuation (— ; : ? !) and before conjunctions, keeps every word of the
+verse and never leaves a fragment. Re-cut it whenever you can see a more meaningful unit, as long
+as three things stay true:
 
-* the phrases run in verse order and together account for the whole verse;
-* each heading is the verse's own wording, copied, not paraphrased.
+* the quoted phrases run in verse order and together account for the whole verse;
+* each phrase is the verse's own wording, copied — not paraphrased;
+* no single quote swallows the verse: a stretch longer than about half of a verse of twelve words
+  or more is a sign that the verse is being quoted instead of explained.
 
-Good cuts for `1:1`: `“In the Name of Allah”` and `“the Most Compassionate, Most Merciful”`.
-Good cuts for `2:255` include `“Allah! There is no god ˹worthy of worship˺ except Him, the
-Ever-Living, All-Sustaining.”` and `“Who could possibly intercede with Him without His
-permission?”`. A cut that separates a phrase from the word it leans on ("Neither drowsiness" /
-"nor sleep overtakes Him") is a bad cut; merge it back.
+Good cuts for `1:1`: `“In the Name of Allah”` and `“the Most Compassionate, Most Merciful”`. Good
+cuts for `2:255` include `“Allah! There is no god ˹worthy of worship˺ except Him, the Ever-Living,
+All-Sustaining.”` and `“Who could possibly intercede with Him without His permission?”`. A cut that
+separates a phrase from the word it leans on ("Neither drowsiness" / "nor sleep overtakes Him") is
+a bad cut; merge it back.
 
-**How to write each phrase.** Take the phrase apart in order: what the words mean, what the
-grammar does (a definite article, a word placed first, a pronoun that shifts), what the early
-authorities said about it, what it implies for how a person lives. Then move to the next phrase.
-Each phrase should normally carry one to four paragraphs, and a phrase heading without real prose
-under it fails the gate.
+**How to write each phrase.** Take it apart in order: what the words mean, what the grammar does
+(a definite article, a word placed first, a pronoun that shifts), what the early authorities said
+about it, what it implies for how a person lives. Each phrase should normally carry one to four
+paragraphs. Moving through the verse this way is the spine of the section; the headings around it
+carry everything else the sources hold for that verse.
 
-**What the auditor checks** (`FMT-PHRASE-*`, `REF-PHRASE*`):
+**Evidence beside every quote.** A quoted phrase is never left to stand on its own. The paragraph
+holding it — or the paragraph straight after it — must carry one of:
+
+* a Qur'an cross-reference, the standard of evidence here: `(C:V — *“clause”*)`;
+* a prophetic report with its collection, narrator and grade when the source gives one;
+* a named authority (al-Ṭabarī, al-Qurṭubī, Ibn Kathīr, al-Saʿdī, Ibn ʿAbbās, al-Baghawī, Mujāhid,
+  Qatādah …) whose reading is being reported;
+* a lexical or grammatical point that changes the meaning.
+
+**What the auditor checks** (`PHR-*`, `FMT-HEADING-*`):
 
 | Check | Rule |
 |---|---|
-| Phrase headings exist | at least one, or `FMT-PHRASE-NONE` |
-| Every heading is a phrase of the verse | compared with the stored translation, punctuation and the ˹…˺ brackets ignored; otherwise `REF-PHRASE` |
-| Headings stand in verse order | otherwise `REF-PHRASE-ORDER` |
-| The headings cover the verse | at least 90% of the verse's words, or `FMT-PHRASE-COVERAGE` |
-| No phrase is skipped over | any unquoted run longer than 8 words fails (`FMT-PHRASE-GAP`) |
-| Nothing is dropped at the edges | the first or last 3 words unquoted fails (`FMT-PHRASE-EDGE`) |
+| Heading is a title, not a quote | a heading that is the verse's own phrase fails `FMT-HEADING-QUOTED` |
+| Heading is not a copy | six or more words of the verse verbatim in a heading fails `FMT-HEADING-VERSE` (four or more warns) |
+| Headings are real titles | generic labels and headings over twelve words warn; two or more per verse |
+| The verse is quoted in the prose | at least 90% of its words, or `PHR-PHRASE-COVERAGE` |
+| Every phrase is quoted somewhere | an unquoted phrase fails `PHR-PHRASE-MISSING` |
+| Nothing is skipped | any unquoted run longer than 8 words fails (`PHR-PHRASE-GAP`) |
+| Nothing is dropped at the edges | the first or last 3 words unquoted fails (`PHR-PHRASE-EDGE`) |
+| The verse is split, not quoted whole | one quoted stretch carrying over half of a 12-word-plus verse fails `PHR-CHUNK` |
+| Every quoted phrase is evidenced | a quote with no cross-reference, report, authority or language note beside it fails `PHR-EVIDENCE` |
 
 ## 6. Quoting law
 
@@ -294,6 +329,7 @@ Worked examples from chapter 1:
 ```bash
 # while the chapter is being written, gate each batch (see §10)
 python3 scripts/tafsir/batch.py N --from A --to B   # only the verses written so far
+python3 scripts/tafsir/batch.py N --ranges A-B,C-D,E-F   # several batches at once, in parallel
 python3 scripts/tafsir/batch.py N --progress        # how far the chapter has come
 
 # when the last verse is written, the whole chapter must pass
@@ -307,10 +343,12 @@ python3 scripts/tafsir/build_data.py N --check # the payload matches the markdow
 to find the sections that are still thin before the auditor tells you.
 
 Every FAIL must be fixed by changing the writing, not the rule. Warnings must be read; fix the
-ones that are real. The code groups mean: `FMT-*` and `REF-*` — the file is malformed, a quote is
-wrong, or a phrase of the verse is missing; `WRD-*` — the section is under its floor; `EVD-*` — a
-claim has no evidence or a report has no collection; `REP-*` — the chapter repeats itself;
-`STY-*` — the prose is long-winded, formal, or carries no analogy.
+ones that are real. The code groups mean: `FMT-*` — the file's shape is wrong (a heading that is
+the verse's own wording, a missing quote line, bad spacing); `PHR-*` — a phrase of the verse is not
+quoted, is quoted out of order, is swallowed by one long quote, or is quoted without evidence
+beside it; `REF-*` — a citation or a quote from another verse is wrong; `WRD-*` — the section is
+under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
+chapter repeats itself; `STY-*` — the prose is long-winded, formal, or carries no analogy.
 
 When the gate is clean:
 
@@ -344,6 +382,7 @@ python3 scripts/tafsir/scaffold.py N
 
 # then, for each batch of verses (say 5-20, sized so it can be finished in one sitting)
 python3 scripts/tafsir/batch.py N --from 6 --to 20     # gate just this batch
+python3 scripts/tafsir/batch.py N --ranges 6-20,21-35,36-50   # three batches at once, in parallel
 python3 scripts/tafsir/batch.py N --progress           # how far the chapter has come
 
 # when the last verse is written:
@@ -357,6 +396,19 @@ finished batch is judged on its own. It prints per-verse words against floors, p
 whether the verse carries an analogy, and the batch's sentence-length and reading-ease numbers —
 then tells you the next verse to write. Run it, fix every FAIL, and go straight on to the next
 batch.
+
+### Spreading the work
+
+Batches are independent of each other, so they are produced and checked in parallel, not one at a
+time:
+
+* **Keep several batches in flight.** While one range is being gated, the next is being drafted;
+  independent steps belong in the same pass, not in a queue.
+* **Gate in parallel.** `batch.py N --ranges A-B,C-D,E-F` audits every range at once (`--jobs`
+  controls how many run together) and prints one report per range plus a combined verdict, so a
+  whole chapter's worth of finished batches can be checked in a single call.
+* **Only real dependencies serialise.** A batch depends on the scaffold and the source digest, not
+  on the batch before it. Do not wait for one batch to pass before drafting the next.
 
 ### Rules that hold at every commit
 

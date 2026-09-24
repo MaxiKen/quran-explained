@@ -4,18 +4,19 @@
     python3 scripts/tafsir/scaffold.py 1            # create tafsir/001.md
     python3 scripts/tafsir/scaffold.py 2 --force    # overwrite
     python3 scripts/tafsir/scaffold.py 1 --stdout   # print instead of writing
+    python3 scripts/tafsir/scaffold.py 1 --phrases  # show each verse's phrase cut
 
-Two things are copied rather than typed:
+The verse quote line is copied byte-for-byte from ``data/chapter_NNN.js`` — the
+single most common way a chapter fails the audit is a quote that does not
+compare verbatim (a paraphrase slip, a plain space where the stored text has a
+non-breaking one).
 
-* the verse quote line, byte-for-byte from ``data/chapter_NNN.js`` — the single
-  most common way a chapter fails the audit is a quote that does not compare
-  verbatim (a paraphrase slip, a plain space where the stored text has a
-  non-breaking one);
-* the phrase headings, cut from the verse's own translation by
-  ``corpus.split_phrases``, each one wrapped in quotes and already in verse
-  order — so the phrase-coverage rule passes by construction. Re-cut them if a
-  better phrasing boundary exists, as long as every phrase is still quoted and
-  in order.
+The headings are **not** written for you, because they are not the verse's
+phrases: a section heading is a descriptive title of its own (the setting, a
+story, a ruling, the phrase being explained). What the auditor does demand is
+that every phrase of the verse is *quoted in the prose* and explained with
+evidence beside it, so ``--phrases`` prints the cut that ``corpus.split_phrases``
+proposes for each verse, as a worked plan rather than as headings.
 
 The skeleton it writes is deliberately invalid: every block carries a ``TODO``
 marker, which the auditor fails. Fill the prose in, then run the audit.
@@ -52,13 +53,14 @@ INTRO_TODO = (
 
 def todo_for(chapter: int, verse: int) -> str:
     return (
-        "TODO: explain this phrase from the source digest \u2014 this verse needs at least "
-        "%d words in all. Say what the phrase means, what its words carry, the story or "
-        "report behind it, the rule or lesson it holds, how it fits the verses around it, "
-        "and give one relatable analogy where one fits. Short sentences, everyday words. "
-        "Quote the Qur'an only as (C:V \u2014 *\u201cclause\u201d*) from data/chapter_%s.js; name the "
-        "collection for every hadith. See TAFSIR_PROMPT.md, then run "
-        "scripts/tafsir/audit.py %d."
+        "TODO: write this verse from the source digest \u2014 at least %d words in all. Plan the "
+        "section as a set of descriptive headings (the setting, the story or report, the ruling, "
+        "the phrases being explained); never use the verse's own words as a heading. Quote every "
+        "phrase of the verse inside the prose as \u201cits own words\u201d, explain it, and back each "
+        "quoted phrase with evidence beside it \u2014 a cross-reference like (C:V \u2014 *\u201cclause\u201d*) "
+        "from data/chapter_%s.js, a report with its collection, or a named authority. Give one "
+        "relatable analogy where one fits, in short sentences and everyday words. See "
+        "TAFSIR_PROMPT.md, then run scripts/tafsir/audit.py %d."
         % (floor_for(chapter, verse), C.pad3(chapter), chapter)
     )
 
@@ -71,12 +73,14 @@ def scaffold_text(chapter: int) -> str:
         parts.append("")
         parts.append("> %s" % v["ayah_en"])
         parts.append("")
-        phrases = C.split_phrases(v["ayah_en"]) or [v["ayah_en"]]
-        for phrase in phrases:
-            parts.append("**\u201c%s\u201d**" % phrase)
-            parts.append("")
-            parts.append(todo_for(chapter, num))
-            parts.append("")
+        parts.append("**TODO: descriptive heading \u2014 the setting, the story, or the phrase being explained**")
+        parts.append("")
+        parts.append(todo_for(chapter, num))
+        parts.append("")
+        parts.append("**TODO: descriptive heading \u2014 the next thing this verse needs said**")
+        parts.append("")
+        parts.append(todo_for(chapter, num))
+        parts.append("")
         parts.append("---")
         parts.append("")
     while parts and parts[-1] == "":
@@ -89,7 +93,18 @@ def main(argv=None):
     ap.add_argument("chapter", type=int)
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--stdout", action="store_true")
+    ap.add_argument("--phrases", action="store_true",
+                    help="print the phrase cut the auditor measures every verse against")
     args = ap.parse_args(argv)
+
+    if args.phrases:
+        for v in C.verses(args.chapter):
+            num = v["ayah_no_surah"]
+            print("%d:%d  %s" % (args.chapter, num, v["ayah_en"]))
+            for phrase in C.split_phrases(v["ayah_en"]) or [v["ayah_en"]]:
+                print("    \u201c%s\u201d" % phrase)
+            print("")
+        return 0
 
     path = C.output_path(args.chapter)
     text = scaffold_text(args.chapter)
@@ -100,11 +115,11 @@ def main(argv=None):
         raise SystemExit("%s already exists (use --force to overwrite)" % path.relative_to(C.REPO))
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
-    phrases = sum(len(C.split_phrases(v["ayah_en"]) or [1]) for v in C.verses(args.chapter))
-    print("wrote %s \u2014 %d verses, %d phrase headings"
-          % (path.relative_to(C.REPO), C.verse_count(args.chapter), phrases))
-    print("fill the prose (each verse has its own word floor), then: "
-          "python3 scripts/tafsir/audit.py %d" % args.chapter)
+    print("wrote %s \u2014 %d verses, each with its own word floor and its own headings to write"
+          % (path.relative_to(C.REPO), C.verse_count(args.chapter)))
+    print("the phrase cut each verse is measured against: python3 scripts/tafsir/scaffold.py %d --phrases | head -40"
+          % args.chapter)
+    print("fill the prose, then: python3 scripts/tafsir/audit.py %d" % args.chapter)
     return 0
 
 

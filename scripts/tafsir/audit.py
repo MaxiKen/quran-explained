@@ -12,13 +12,16 @@ no WARN either). The rule set is written out in TAFSIR_PROMPT.md; the codes
 below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
-          phrase headings and their coverage of the verse, placeholders
-  WRD-*   length: verse floor (500 words, rising with the verse), introduction
+          descriptive headings (never the verse's own phrases), placeholders
+  WRD-*   length: verse floor (550 words, rising with the verse), introduction
+  PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
+          verse order, covering the whole verse, in workable units, and each
+          quoted phrase is backed by evidence (a cross-reference, a hadith, a
+          named authority) in its own paragraph
   EVD-*   evidence: every verse carries checkable anchors, and every prophetic
           attribution names its collection
-  REF-*   references: citations resolve to real verses, every quoted Qur'an
-          clause is verbatim from data/chapter_NNN.js, every phrase heading is
-          a phrase of that verse and stands in order, quoting style is kept
+  REF-*   references: citations resolve to real verses and every quoted Qur'an
+          clause is verbatim from data/chapter_NNN.js
   REP-*   repetition: duplicate sentences, templated sections, filler/meta prose
   STY-*   style: simple diction, sentence length and readability, and the
           relatable analogy the prompt asks each verse to carry
@@ -62,9 +65,15 @@ TEMPLATE_WARN = 0.18
 GROUNDING_MIN_TOKENS = 5
 GROUNDING_MISS_RATIO = 0.50    # advisory only
 
-PHRASE_COVERAGE_MIN = 0.90     # share of the verse's words that headings must carry
-PHRASE_GAP_MAX = 8             # words a single uncovered gap may run to
-PHRASE_EDGE_MAX = 3            # words left uncovered at the start or end
+PHRASE_COVERAGE_MIN = 0.90     # share of the verse's words the prose must quote
+PHRASE_GAP_MAX = 8             # words a single unquoted gap may run to
+PHRASE_EDGE_MAX = 3            # words left unquoted at the start or end
+PHRASE_RUN_FAIL = 0.65         # share of a >=12-word verse one quoted run may swallow
+PHRASE_RUN_WARN = 0.40
+PHRASE_RUN_MIN_WORDS = 12
+HEADING_VERSE_RUN_FAIL = 6     # words a heading may repeat from the verse before it is a copy
+HEADING_VERSE_RUN_WARN = 4
+HEADING_MAX_WORDS = 12
 
 ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
 ANALOGY_WARN_SHARE = 0.60
@@ -133,6 +142,10 @@ STRAIGHT_IN_ITALIC = re.compile(r"\*\"([^\"]{8,})\"\*")
 
 PHRASE_HEADING = re.compile(r"^\*\*[\u201c\"](.+?)[\u201d\"]\*\*[ \t]*$")
 
+HEADING_LINE = re.compile(r"^\*\*.+\*\*[ \t]*$")
+CURLY_QUOTE = re.compile(r"\u201c([^\u201d]{2,})\u201d", re.S)
+HTML_COMMENT = re.compile(r"<!--.*?-->", re.S)
+
 FILLER = [
     (FAIL, r"\bthis (section|file|document|draft|commentary|payload)\b", "process leakage: write about the verse, not the document"),
     (FAIL, r"\bin this chapter we\b", "process leakage"),
@@ -152,7 +165,7 @@ FILLER = [
 GENERIC_HEADINGS = {
     "commentary", "explanation", "introduction", "overview", "summary",
     "lesson", "lessons", "note", "notes", "conclusion", "reflection",
-    "reflections", "analysis", "discussion", "context", "background", "the verse",
+    "reflections", "analysis", "discussion", "the verse",
 }
 
 PROPHET_REPORT = re.compile(
@@ -190,16 +203,29 @@ def _canon(text: str) -> str:
 
 
 def _prose_only(body: str) -> str:
-    """Body text without the phrase headings' quoted verse wording."""
-    out = []
-    for line in body.split("\n"):
-        m = PHRASE_HEADING.match(line)
-        if m:
-            continue
-        if line.startswith("**") and line.endswith("**"):
-            continue
-        out.append(line)
-    return "\n".join(out)
+    """Body text without the headings: headings are titles, not commentary."""
+    return "\n".join(l for l in body.split("\n") if not HEADING_LINE.match(l))
+
+
+def _has_anchor(text: str) -> bool:
+    """Is there a checkable source anchor in this text?"""
+    return bool(BARE_REF.search(text) or COLLECTIONS.search(text)
+                or SCHOLARS.search(text) or LANGUAGE.search(text))
+
+
+def _verse_run(title: str, verse_tokens: list) -> int:
+    """Longest run of words a heading shares verbatim with the verse."""
+    lt = C.loose_norm(title).split()
+    grams = {" ".join(verse_tokens[i:i + k])
+             for k in range(1, len(verse_tokens) + 1)
+             for i in range(len(verse_tokens) - k + 1)}
+    best = 0
+    for i in range(len(lt)):
+        for k in range(min(len(lt) - i, len(verse_tokens)), best, -1):
+            if " ".join(lt[i:i + k]) in grams:
+                best = k
+                break
+    return best
 
 
 # ------------------------------------------------------------------- the checks
@@ -319,8 +345,14 @@ def audit_chapter(chapter: int, opts) -> list:
             fail("FMT-PARAGRAPHS", ref, anchor, "a verse section is at least 2 paragraphs")
 
         heads = section.headings()
+        verse_tokens = C.loose_norm(C.ayah_en(chapter, section.verse)).split()
         if not heads:
-            fail("FMT-HEADINGS", ref, anchor, "no **headings**: each phrase of the verse gets one")
+            fail("FMT-HEADINGS", ref, anchor,
+                 "no **headings**: a verse is a set of titled paragraphs (context, history, the "
+                 "phrase-by-phrase explanation, the ruling it carries)")
+        elif len(heads) < 2:
+            warn("FMT-HEADINGS-FEW", ref, anchor,
+                 "one heading only: a verse usually needs several titled paragraphs")
         elif len(heads) > MAX_HEADINGS:
             warn("FMT-HEADINGS-COUNT", ref, anchor, "%d headings (soft maximum %d)" % (len(heads), MAX_HEADINGS))
 
@@ -336,16 +368,32 @@ def audit_chapter(chapter: int, opts) -> list:
             chunk = "\n".join(lines[line_no:end])
             if not re.search(r"[A-Za-z]", chunk):
                 fail("FMT-ORPHAN-HEADING", ref, line_no, "'%s' has no prose under it" % title)
-            if not PHRASE_HEADING.match(lines[i]) and title.strip().lower() in GENERIC_HEADINGS:
+            if PHRASE_HEADING.match(lines[i]) or title.strip().startswith("\u201c"):
+                fail("FMT-HEADING-QUOTED", ref, line_no,
+                     "'%s' is the verse's own wording: headings are descriptive titles \u2014 quote the "
+                     "phrase inside the paragraph and explain it there" % title[:60])
+                continue
+            if title.strip().lower() in GENERIC_HEADINGS:
                 fail("FMT-HEADING-GENERIC", ref, line_no,
                      "'%s' is a generic heading; say what the paragraph says" % title)
+            run = _verse_run(title, verse_tokens)
+            if run >= HEADING_VERSE_RUN_FAIL:
+                fail("FMT-HEADING-VERSE", ref, line_no,
+                     "heading repeats %d words of the verse verbatim: a heading names the paragraph, "
+                     "the verse's own wording is quoted in the prose" % run)
+            elif run >= HEADING_VERSE_RUN_WARN:
+                warn("FMT-HEADING-VERSE", ref, line_no,
+                     "heading repeats %d words of the verse: keep titles descriptive" % run)
+            if len(C.words(title)) > HEADING_MAX_WORDS:
+                warn("FMT-HEADING-LONG", ref, line_no,
+                     "heading is %d words (keep titles under %d)" % (len(C.words(title)), HEADING_MAX_WORDS))
         titles = [t.lower() for _, t in heads]
         dupes = sorted({t for t in titles if titles.count(t) > 1})
         if dupes:
             warn("FMT-HEADING-DUP", ref, anchor, "heading repeated in the same section: %s" % ", ".join(dupes))
 
-        # phrase coverage: every phrase of the verse quoted, in order, explaining all of it
-        _phrase_coverage(section, chapter, lines, fail, warn)
+        # phrases: each one quoted inside the prose, in order, explained, and evidenced
+        _phrase_rules(section, chapter, fail, warn)
 
         # separators
         sep_count = sum(1 for l in section.lines if l.strip() == "---")
@@ -355,8 +403,9 @@ def audit_chapter(chapter: int, opts) -> list:
         if not is_last and sep_count != 1:
             fail("FMT-SEP", ref, anchor, "expected exactly one '---' before the next verse (found %d)" % sep_count)
 
-        # references and quotations (heading lines are the verse's own phrases, not citations)
-        checkable = "\n".join(l for l in body.split("\n") if not PHRASE_HEADING.match(l))
+        # references and quotations (heading lines are titles, not citations)
+        checkable = _prose_only(body)
+        own_canon = _canon(C.ayah_en(chapter, section.verse))
         for m in QURAN_QUOTE.finditer(checkable):
             s_ch, s_v = int(m.group(1)), int(m.group(2))
             inner = m.group(5)
@@ -376,6 +425,8 @@ def audit_chapter(chapter: int, opts) -> list:
                 fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
 
         for m in CURLY_ONLY_QUOTE.finditer(checkable):
+            if _canon(m.group(1)) in own_canon:
+                continue                     # a phrase of this verse, quoted to be explained
             before = checkable[max(0, m.start() - 45):m.start()]
             if not re.search(r"\d{1,3}:\d{1,3}\s*\u2014\s*$", before):
                 warn("REF-UNANCHORED", ref, anchor,
@@ -383,6 +434,8 @@ def audit_chapter(chapter: int, opts) -> list:
 
         for m in STRAIGHT_IN_ITALIC.finditer(checkable):
             inner = _canon(m.group(1))
+            if inner in own_canon:
+                continue                     # a phrase of this verse, quoted to be explained
             if len(inner) > 18 and any(inner in _canon(v["ayah_en"]) for v in C.verses(chapter)):
                 fail("REF-STRAIGHT-QUOTE", ref, anchor,
                      "Qur'an wording in hadith-style straight quotes: %r" % m.group(1)[:60])
@@ -430,7 +483,7 @@ def audit_chapter(chapter: int, opts) -> list:
 
         for para in paragraphs:
             if para.strip().startswith("**") and para.strip().endswith("**"):
-                continue  # phrase headings are required to repeat across verses
+                continue  # headings are titles; a repeated title is reported at section level
             for sentence in C.sentence_split(para):
                 key = C.norm_key(sentence)
                 if len(key.split()) >= MIN_SENTENCE_WORDS:
@@ -532,48 +585,114 @@ def audit_chapter(chapter: int, opts) -> list:
     return findings
 
 
-def _phrase_coverage(section, chapter, lines, fail, warn):
-    """Every phrase of the verse is quoted as a heading, in order, and explained.
+def _quoted_runs(body: str) -> list:
+    """The verse-wording quoted in the prose, in document order.
 
-    Coverage is measured on the verse's own translation: the phrase headings,
-    joined, must account for at least 90% of its words, no single skipped run
-    may exceed eight words, and nothing may be skipped at either end.
+    Cross-reference citations (``(C:V \u2014 *\u201cclause\u201d*)``) are removed first, so what
+    is left is the wording a writer quoted in order to explain it.
+    """
+    text = HTML_COMMENT.sub(" ", body)
+    kept, last = [], 0
+    for m in QURAN_QUOTE.finditer(text):
+        kept.append(text[last:m.start()])
+        last = m.end()
+    kept.append(text[last:])
+    return [m.group(1).strip() for m in CURLY_QUOTE.finditer(" ".join(kept))]
+
+
+def _find_phrase(pool: str, phrase: str, pos: int):
+    """Locate a phrase, or its leading words, at or after ``pos`` in the quoted pool."""
+    if not phrase:
+        return None
+    i = pool.find(phrase, pos)
+    if i >= 0:
+        return i, i + len(phrase)
+    words = phrase.split()
+    for take in range(len(words) - 1, 2, -1):        # tolerate a different phrase boundary
+        head = " ".join(words[:take])
+        i = pool.find(head, pos)
+        if i >= 0:
+            return i, i + len(head)
+    return None
+
+
+def _longest_run_share(quotes: list, verse_tokens: list) -> float:
+    """The most of the verse a single quoted stretch carries, as a share of its words.
+
+    A writer who quotes a whole verse in one block and then writes around it fails this;
+    a writer who quotes it phrase by phrase, each in the paragraph that explains it, does not.
+    """
+    if not verse_tokens:
+        return 0.0
+    best = 0
+    for quote in quotes:
+        qn = " ".join(C.loose_norm(quote).split())
+        if not qn:
+            continue
+        for i in range(len(verse_tokens)):
+            k = 0
+            while (i + k < len(verse_tokens)
+                   and " ".join(verse_tokens[i:i + k + 1]) in qn):
+                k += 1
+            best = max(best, k)
+    return best / len(verse_tokens)
+
+
+def _phrase_rules(section, chapter, fail, warn) -> dict:
+    """Every phrase of the verse is quoted in the prose, in order, and backed by evidence.
+
+    The verse's own wording is quoted inside the paragraphs (never as a heading), each
+    quoted phrase is explained, and the paragraph carrying it\u2014or the one after it\u2014must
+    hold a checkable anchor: a Qur'an cross-reference, a hadith collection, or a named
+    authority. Coverage, gaps and edges are measured on those quotes; one quote may not
+    swallow most of a long verse, because the verse is read as phrases.
     """
     ref = section.ref
     verse_text = C.ayah_en(chapter, section.verse)
     verse_norm = C.loose_norm(verse_text)
     word_spans = [(m.start(), m.end()) for m in re.finditer(r"[a-z0-9]+", verse_norm)]
     total = len(word_spans)
+    stats = {"coverage": 0.0, "quotes": 0, "missing": 0, "evidence_missing": 0, "run_share": 0.0}
     if not total:
-        return
+        return stats
 
-    headings = [(ln, t) for ln, t in section.headings() if lines[ln - 1].startswith("**\u201c")]
-    if not headings:
-        fail("FMT-PHRASE-NONE", ref, section.start,
-             "no phrase headings: split the verse into its phrases and quote each as **\u201cphrase\u201d**")
-        return
+    body = HTML_COMMENT.sub(" ", _prose_only(section.body()))
+    quotes = _quoted_runs(body)
+    stats["quotes"] = len(quotes)
+    pool = " ".join(C.loose_norm(q) for q in quotes)
+    if not pool.strip():
+        fail("PHR-PHRASE-NONE", ref, section.start,
+             "no phrase of the verse is quoted in the prose: quote each phrase as "
+             "\u201cits words\u201d under a descriptive heading, then explain it")
+        return stats
 
+    phrases = C.split_phrases(verse_text) or [verse_text]
     covered = [False] * total
-    pos = 0
-    for line_no, title in headings:
-        phrase = C.loose_norm(title)
-        if not phrase:
-            fail("FMT-PHRASE-EMPTY", ref, line_no, "empty phrase heading")
+    quoted, unquoted = [], []
+    pool_pos, verse_pos = 0, 0
+    for phrase in phrases:
+        pnorm = C.loose_norm(phrase)
+        if not pnorm or _find_phrase(pool, pnorm, pool_pos) is None:
+            unquoted.append(phrase)                 # never quoted in the prose
             continue
-        idx = verse_norm.find(phrase, pos)
+        quoted.append(phrase)
+        pool_pos = _find_phrase(pool, pnorm, pool_pos)[1]
+        # ... and mark the words of that phrase in the verse itself
+        idx = verse_norm.find(pnorm, verse_pos)
         if idx < 0:
-            if verse_norm.find(phrase) >= 0:
-                fail("REF-PHRASE-ORDER", ref, line_no,
-                     "phrase heading is out of verse order: \u201c%s\u201d" % title[:60])
-            else:
-                fail("REF-PHRASE", ref, line_no,
-                     "phrase heading is not a phrase of this verse: \u201c%s\u201d" % title[:60])
+            words_ = pnorm.split()
+            for take in range(len(words_) - 1, 2, -1):
+                idx = verse_norm.find(" ".join(words_[:take]), verse_pos)
+                if idx >= 0:
+                    pnorm = " ".join(words_[:take])
+                    break
+        if idx < 0:
             continue
-        end = idx + len(phrase)
-        for k, (a, b) in enumerate(word_spans):
-            if a >= idx and b <= end:
+        end = idx + len(pnorm)
+        for k, (wa, wb) in enumerate(word_spans):
+            if wa >= idx and wb <= end:
                 covered[k] = True
-        pos = end
+        verse_pos = end
 
     gaps, run_start = [], None
     for k in range(total + 1):
@@ -585,32 +704,80 @@ def _phrase_coverage(section, chapter, lines, fail, warn):
             run_start = None
 
     uncovered = total - sum(covered)
+    share = 1 - uncovered / total
+    stats["coverage"] = share
     if uncovered:
-        skipped = " ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:1])
-        share = 1 - uncovered / total
+        where = " / ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:4])[:160]
         if share < PHRASE_COVERAGE_MIN:
-            fail("FMT-PHRASE-COVERAGE", ref, section.start,
-                 "phrase headings cover %.0f%% of the verse (floor %.0f%%); not covered: %s"
-                 % (share * 100, PHRASE_COVERAGE_MIN * 100,
-                    " / ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:4])[:160]))
-        elif 1 - uncovered / total < 1.0:
-            warn("FMT-PHRASE-COVERAGE", ref, section.start,
-                 "phrase headings cover %.0f%% of the verse; not covered: %s"
-                 % (share * 100, " / ".join(" ".join(verse_norm.split()[a:b]) for a, b in gaps[:4])[:160]))
+            fail("PHR-PHRASE-COVERAGE", ref, section.start,
+                 "the prose quotes %.0f%% of the verse (floor %.0f%%); never quoted: %s"
+                 % (share * 100, PHRASE_COVERAGE_MIN * 100, where))
+        else:
+            warn("PHR-PHRASE-COVERAGE", ref, section.start,
+                 "the prose quotes %.0f%% of the verse; never quoted: %s" % (share * 100, where))
         for a, b in gaps:
             if b - a > PHRASE_GAP_MAX:
-                fail("FMT-PHRASE-GAP", ref, section.start,
-                     "%d words of the verse sit between phrase headings and are never quoted: \u201c%s\u201d"
+                fail("PHR-PHRASE-GAP", ref, section.start,
+                     "%d words of the verse are passed over without being quoted: \u201c%s\u201d"
                      % (b - a, " ".join(verse_norm.split()[a:b])[:120]))
+                break
         if gaps:
             if gaps[0][0] > PHRASE_EDGE_MAX:
-                fail("FMT-PHRASE-EDGE", ref, section.start,
+                fail("PHR-PHRASE-EDGE", ref, section.start,
                      "the verse's first %d words are never quoted: \u201c%s\u201d"
                      % (gaps[0][0], " ".join(verse_norm.split()[:gaps[0][0]])[:80]))
             if total - gaps[-1][1] > PHRASE_EDGE_MAX:
-                fail("FMT-PHRASE-EDGE", ref, section.start,
+                fail("PHR-PHRASE-EDGE", ref, section.start,
                      "the verse's last %d words are never quoted: \u201c%s\u201d"
                      % (total - gaps[-1][1], " ".join(verse_norm.split()[gaps[-1][1]:])[:80]))
+
+    stats["missing"] = len(unquoted)
+    if unquoted:
+        for phrase in unquoted[:3]:
+            fail("PHR-PHRASE-MISSING", ref, section.start,
+                 "this phrase is never quoted in the prose: \u201c%s\u201d" % phrase[:110])
+        if len(unquoted) > 3:
+            fail("PHR-PHRASE-MISSING", ref, section.start,
+                 "%d further phrases are never quoted" % (len(unquoted) - 3))
+
+    run_share = _longest_run_share(quotes, verse_norm.split())
+    stats["run_share"] = run_share
+    if total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_FAIL:
+        fail("PHR-CHUNK", ref, section.start,
+             "one quoted stretch carries %.0f%% of the verse: read the verse as phrases and quote "
+             "each one where you explain it" % (run_share * 100))
+    elif total >= PHRASE_RUN_MIN_WORDS and run_share >= PHRASE_RUN_WARN:
+        warn("PHR-CHUNK", ref, section.start,
+             "one quoted stretch carries %.0f%% of the verse (aim for smaller phrases)" % (run_share * 100))
+
+    # evidence: the paragraph holding a quoted phrase, or the one after it, carries an anchor
+    paras = C.split_paragraphs(body)
+    para_norms = [C.loose_norm(p) for p in paras]
+    missing_ev = []
+    for phrase in quoted:
+        pnorm = C.loose_norm(phrase)
+        j = next((i for i, pn in enumerate(para_norms) if pnorm and pnorm in pn), None)
+        if j is None:
+            continue                       # quoted across a boundary: nothing to anchor
+        if not (_has_anchor(paras[j]) or (j + 1 < len(paras) and _has_anchor(paras[j + 1]))):
+            missing_ev.append(phrase)
+    stats["evidence_missing"] = len(missing_ev)
+    for phrase in missing_ev[:3]:
+        fail("PHR-EVIDENCE", ref, section.start,
+             "the quoted phrase \u201c%s\u201d is explained with no evidence beside it: give the "
+             "paragraph a cross-reference, a report with its collection, or a named authority" % phrase[:100])
+    if len(missing_ev) > 3:
+        fail("PHR-EVIDENCE", ref, section.start,
+             "%d further quoted phrases carry no evidence" % (len(missing_ev) - 3))
+    return stats
+
+
+def phrase_stats(chapter: int, section) -> dict:
+    """Quoting numbers for one verse, for batch.py's table (same rules, no output)."""
+    bucket = []
+    stats = _phrase_rules(section, chapter, lambda *a: bucket.append(a), lambda *a: bucket.append(a))
+    stats["findings"] = len(bucket)
+    return stats
 
 
 def _ref_ok(chapter: int, verse: int) -> bool:

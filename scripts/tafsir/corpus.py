@@ -409,7 +409,7 @@ def loose_norm(text: str) -> str:
     """Comparison form for verse phrases: quotes, dashes and ˹ ˺ brackets gone.
 
     Strict quotation (REF-QUOTE) keeps the brackets exactly as stored; this
-    looser form exists so that a phrase heading written as "You alone we
+    looser form exists so that a quoted phrase written as "You alone we
     worship" still lines up with the stored "You ˹alone˺ we worship" when the
     auditor measures phrase coverage.
     """
