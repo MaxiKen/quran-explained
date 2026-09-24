@@ -25,6 +25,11 @@ import corpus as C
 
 MD_DIR = Path("tafsir")
 
+# The verse the mutations are applied to. run() picks the first verse that is fully
+# written (headings, phrase quotes and a cross-reference); the fixed default only
+# applies if the picker finds nothing.
+TARGET = 3
+
 
 # ------------------------------------------------------------------ utilities
 
@@ -76,6 +81,20 @@ def _sub_verse(text, verse, pattern, repl, count=1):
     return _edit_verse(text, verse, fn)
 
 
+def _written_verse(text, chapter):
+    """Number of the first verse with a real reading in it (else the last verse)."""
+    blocks = list(re.finditer(r"(?m)^## Verse %d:(\d+)[ \t]*$" % chapter, text))
+    last = 1
+    for i, m in enumerate(blocks):
+        last = int(m.group(1))
+        end = blocks[i + 1].start() if i + 1 < len(blocks) else len(text)
+        block = text[m.start():end]
+        if (block.count("***\u201c") and _first_ref(block)
+                and len(re.findall(r"(?m)^\*\*[^\n]+\*\*$", block)) >= 2):
+            return last
+    return last
+
+
 # ------------------------------------------------------------------ mutations
 # Each entry: (rule in the prompt, expected code, mutation).
 
@@ -105,12 +124,12 @@ def mut_intro_sep(text, ch):
 
 
 def mut_verse_drop(text, ch):
-    span = _find_verse(text, 3)
+    span = _find_verse(text, TARGET)
     return text[:span[0]] + text[span[1]:]
 
 
 def mut_quote_verbatim(text, ch):
-    verse = C.ayah_en(ch, 3)
+    verse = C.ayah_en(ch, TARGET)
     words = verse.split()
     broken = " ".join(words[:3] + ["WRONGWORD"] + words[4:]) if len(words) > 4 else verse + " WRONGWORD"
     return text.replace("> " + verse, "> " + broken, 1)
@@ -120,11 +139,11 @@ def mut_quote_lines(text, ch):
     def fn(block):
         return re.sub(r"(?m)^> (.{6,}?) (.+)$", r"> \1\n> \2", block, count=1)
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_quote_missing(text, ch):
-    return _sub_verse(text, 3, r"^> .+$", "", 1)
+    return _sub_verse(text, TARGET, r"^> .+$", "", 1)
 
 
 def mut_heading_shape(text, ch):
@@ -132,16 +151,16 @@ def mut_heading_shape(text, ch):
         m = _first_heading(block)
         return block[:m.end() + 1] + block[m.end() + 2:]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_heading_case(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*(.+?)\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*(.+?)\*\*$",
                       lambda m: "**%s**" % m.group(1).lower(), 1)
 
 
 def mut_heading_generic(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$", "**COMMENTARY**", 1)
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$", "**COMMENTARY**", 1)
 
 
 def mut_heading_quoted(text, ch):
@@ -149,7 +168,7 @@ def mut_heading_quoted(text, ch):
         q = re.search(r"(?m)^> (.+)$", block).group(1)
         return re.sub(r"(?m)^\*\*.+?\*\*$", '**\u201c%s\u201d**' % q.split(",")[0], block, count=1)
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_heading_verse(text, ch):
@@ -158,11 +177,11 @@ def mut_heading_verse(text, ch):
         words = re.sub(r"[\u0300-\u06ff\u02f9\u02fa]", "", q).split()
         return re.sub(r"(?m)^\*\*.+?\*\*$", ("**%s**" % " ".join(words[:7])).upper(), block, count=1)
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_heading_orphan(text, ch):
-    return _sub_verse(text, 3, r"(?m)^---$", "**AN EMPTY TITLE**\n\n---", 1)
+    return _sub_verse(text, TARGET, r"(?m)^---$", "**AN EMPTY TITLE**\n\n---", 1)
 
 
 def mut_paragraphs(text, ch):
@@ -170,11 +189,11 @@ def mut_paragraphs(text, ch):
         q = re.search(r"(?m)^> .+$", block)
         return block[:q.end()] + "\n\n**A SINGLE POINT**\n\nOne paragraph only, and no more.\n\n"
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_sep_dup(text, ch):
-    return _sub_verse(text, 3, r"(?m)^---$", "---\n\n---", 1)
+    return _sub_verse(text, TARGET, r"(?m)^---$", "---\n\n---", 1)
 
 
 def mut_sep_trailing(text, ch):
@@ -194,7 +213,7 @@ def mut_whitespace_double_blank(text, ch):
 
 
 def mut_placeholder(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$", "**TODO: WRITE THIS**", 1)
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$", "**TODO: WRITE THIS**", 1)
 
 
 def mut_floor(text, ch):
@@ -202,7 +221,7 @@ def mut_floor(text, ch):
         q = re.search(r"(?m)^> .+$", block)
         return block[:q.end()] + "\n\n**A TITLE**\n\nA short paragraph only.\n\n---\n"
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_phrase_missing(text, ch):
@@ -210,7 +229,7 @@ def mut_phrase_missing(text, ch):
         m = _first_phrase_quote(block)
         return block[:m.start()] + m.group(0).strip("*") + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_phrase_style(text, ch):
@@ -219,11 +238,11 @@ def mut_phrase_style(text, ch):
         inner = m.group(0).strip("*")
         return block[:m.start()] + inner + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_ref_range(text, ch):
-    return _sub_verse(text, 3, r"\(\d{1,3}:\d{1,3} \u2014", "(2:300 \u2014", 1)
+    return _sub_verse(text, TARGET, r"\(\d{1,3}:\d{1,3} \u2014", "(2:300 \u2014", 1)
 
 
 def mut_ref_quote(text, ch):
@@ -234,7 +253,7 @@ def mut_ref_quote(text, ch):
         bad = m.group(0).replace("the", "teh", 1)
         return block[:m.start()] + bad + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_ref_style(text, ch):
@@ -245,17 +264,17 @@ def mut_ref_style(text, ch):
         return block[:m.start()] + "(%s \u2014 *\u201c%s\u201d*)" % (
             m.group(0).split(" \u2014")[0].lstrip("("), m.group(1)) + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_straight_quote(text, ch):
     # a clause of another verse, in hadith-style straight quotes
-    return _sub_verse(text, 3, r"(?m)^(\*\*[^\n]+\*\*)$",
+    return _sub_verse(text, TARGET, r"(?m)^(\*\*[^\n]+\*\*)$",
                       '\\1\n\nThe report says that the Book calls it *"guide us along the straight path"*.', 1)
 
 
 def mut_labels(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**LESSON FOR TODAY**\n\nLesson: patience is required of every reader.", 1)
 
 
@@ -269,16 +288,16 @@ def mut_spread(text, ch):
             block = rx.sub("a commentator", block)
         return audit.FIRST_GEN.sub("a commentator", block)
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_banned(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**THE READING OF AL-SHAWK\u0100N\u012a**\n\nThe reading follows al-Shawk\u0101n\u012b here.", 1)
 
 
 def mut_attribution(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**A REPORT**\n\nThe Prophet \u2e3a said that the road of the mindful is short.", 1)
 
 
@@ -288,29 +307,27 @@ def mut_rep_sentence(text, ch):
         sentence = C.sentence_split(block[para[0]:para[1]])[0].strip()
         return block + "\n\n" + sentence + "\n\n"
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_filler(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**THE SECTION**\n\nThis section has been written from the source digest for the audit.", 1)
 
 
 def mut_diction(text, ch):
-    return _sub_verse(text, 3, r"(?m)^\*\*.+?\*\*$",
+    return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**THE POINT**\n\nNotwithstanding the aforementioned, the verse obtains.", 1)
 
 
 def mut_parade(text, ch):
     def fn(block):
-        def make(sentence):
-            return "Al-Qur\u1e6dub\u012b notes that %s" % sentence[0].lower() + sentence[1:]
+        run = ("Al-Qur\u1e6dub\u012b notes that the verse settles the question. "
+               "Al-Baghaw\u012b notes that the wording carries the weight. "
+               "Al-Sa\u02bfd\u012b notes that the meaning is plain.")
+        return block.rstrip("\n") + "\n\n" + run + "\n\n"
 
-        return C.sentence_split(block)[0] if False else re.sub(
-            r"(?m)(^|\s)([A-Z][^.!?]{40,}\.)",
-            lambda m: m.group(1) + make(m.group(2)), block[:600] + block[600:], count=3)
-
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_no_analysis(text, ch):
@@ -320,7 +337,7 @@ def mut_no_analysis(text, ch):
             block = block.replace(word, " and ")
         return block
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 
@@ -331,20 +348,21 @@ def mut_ref_long(text, ch):
             return block
         ch_, v_ = m.group(0).split(" \u2014")[0].lstrip("(").split(":")
         whole = C.ayah_en(int(ch_), int(v_)).split()
-        long_clause = "(%s:%s \u2014 **\u201c%s\u201d**)" % (ch_, v_, " ".join(whole[:40]))
+        words = (whole * 8)[:40]                    # longer than the 34-word ceiling
+        long_clause = "(%s:%s \u2014 **\u201c%s\u201d**)" % (ch_, v_, " ".join(words))
         return block[:m.start()] + long_clause + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_quote_style_hadith(text, ch):
-    return _sub_verse(text, 3, r"(?m)^(\*\*[^\n]+\*\*)$",
+    return _sub_verse(text, TARGET, r"(?m)^(\*\*[^\n]+\*\*)$",
                       '\\1\n\nAn-Nasa\u02bei records in his collection that the Prophet \u2e3a said '
                       '\u201cthe believer who reads this s\u016brah in his house is protected from harm\u201d.', 1)
 
 
 def mut_number(text, ch):
-    return _sub_verse(text, 3, r"(?m)^(\*\*[^\n]+\*\*)$",
+    return _sub_verse(text, TARGET, r"(?m)^(\*\*[^\n]+\*\*)$",
                       '\\1\n\n\u1e62a\u1e25\u012b\u1e25 al-Bukh\u0101r\u012b 987654 records the same point.', 1)
 
 
@@ -355,7 +373,7 @@ def mut_ref_repeat(text, ch):
             return block
         return block[:m.end()] + " The same clause is quoted again " + m.group(0) + block[m.end():]
 
-    return _edit_verse(text, 3, fn)
+    return _edit_verse(text, TARGET, fn)
 
 
 # A failure can be reported under a neighbouring code (a plainly quoted phrase is
@@ -413,8 +431,10 @@ CASES = [
 
 
 def run(chapter):
+    global TARGET
     src = MD_DIR / ("%s.md" % C.pad3(chapter))
     text = src.read_text(encoding="utf-8")
+    TARGET = _written_verse(text, chapter)
     opts = argparse.Namespace(no_grounding=True)
     rows = []
     with tempfile.TemporaryDirectory() as tmp:
@@ -444,6 +464,7 @@ def main(argv=None):
     args = ap.parse_args(argv)
     chapters = args.chapters or [n for n in C.chapter_numbers() if (MD_DIR / ("%s.md" % C.pad3(n))).exists()]
     missed = 0
+    skipped = 0
     for chapter in chapters:
         print("=" * 78)
         print("chapter %s" % C.pad3(chapter))
@@ -452,9 +473,14 @@ def main(argv=None):
             print("  %-4s %-34s %-18s %s" % (mark, name, code, note))
             if status == "MISSED":
                 missed += 1
+            elif status == "SKIP":
+                skipped += 1
     print()
-    print("uncaught rules: %d" % missed)
-    return 1 if missed else 0
+    print("uncaught rules: %d | rules not exercised: %d" % (missed, skipped))
+    if skipped:
+        print("a skip means the rule was never tested: write the chapter, or point the "
+              "selftest at a chapter with a written verse")
+    return 1 if (missed or skipped) else 0
 
 
 if __name__ == "__main__":
