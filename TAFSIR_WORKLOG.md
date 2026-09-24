@@ -26,11 +26,16 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 6,557 | 736/874/1,210 | 7/7 | PASS | 43 KB |
-| 2 | `tafsir/002.md` | 286/286 | 234,301 | 551/742/2306 | 285/286 | PASS | 1.3 MB |
+| — | — | — | — | — | — | — | — |
 
-Totals: **2 of 114 chapters written, 293 of 6,236 verses, 240,858 words.** Stdout for the row and the
+Totals: **0 of 114 chapters written, 0 of 6,236 verses, 0 words.** Stdout for the row and the
 numbers: `python3 scripts/tafsir/status.py --md`.
+
+**Corpus cleared, 2026-09-24.** `tafsir/001.md`, `tafsir/002.md` and `tafsir/003.md` were deleted
+with the payloads `data/tafsir_001.json` and `data/tafsir_002.json`, and `tafsir/` was left empty
+(`tafsir/.gitkeep`) ahead of a revision of the standard. Chapters 1, 2 and 3 are therefore unwritten
+again and are re-generated to the revised rule when it is agreed. The scripts, the source corpus
+(`tafsir-*/`), the chapter data (`data/chapter_*.js`), the helpers and the notes below are retained.
 
 **Format change, 2026-09-24 (v3).** Chapter 1 was cleared and the written part of chapter 2 with it,
 and their payload deleted. The bold headings are descriptive titles again (as in the old commentary
@@ -182,12 +187,10 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 
 ## Open items
 
-* Chapter order is ascending, 001 → 114. Chapter 1 first, then chapter 2 from verse 1.
-* The app shows "coming soon, in sha Allah" under verses whose chapter has no payload yet; this
-  is expected until a chapter is written. `data/tafsir_001.json` was deleted with the reset and is
-  rebuilt when chapter 1 passes the gate again.
-* Chapter 1 is the reference for the standard. When a rule and chapter 1 disagree, the rule wins
-  and chapter 1 is fixed.
-* Chapter 2 is finished and its payload published; the next chapter to write is chapter 3
-  (`Aal-Imran`), after the quotation markers and the money-law passages of al-Baqarah are re-read
-  as the model for the next file.
+* Chapter order is ascending, 001 → 114.
+* The app shows "coming soon, in sha Allah" under verses whose chapter has no payload yet; with the
+  corpus cleared this is currently every chapter, and payloads return as each chapter passes the gate.
+* No chapter is currently the reference for the standard; the revised rule will be the reference once
+  it is agreed, and the first chapter written under it becomes the worked example.
+* Next step: agree the revised standard, encode it in `scripts/tafsir/audit.py`, then write chapter 1
+  as the first file under it.
