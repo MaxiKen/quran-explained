@@ -228,8 +228,8 @@ def _prose_only(body: str) -> str:
 
 def _has_anchor(text: str) -> bool:
     """Is there a checkable source anchor in this text?"""
-    return bool(BARE_REF.search(text) or COLLECTIONS.search(text)
-                or SCHOLARS.search(text) or LANGUAGE.search(text))
+    return bool(BARE_REF.search(text) or QURAN_QUOTE.search(text)
+                or COLLECTIONS.search(text) or SCHOLARS.search(text) or LANGUAGE.search(text))
 
 
 def _verse_run(title: str, verse_tokens: list) -> int:
