@@ -138,11 +138,13 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   source material.
 * Cleared on 2026-09-24 (2:1–2:141 had been written in the old phrase-heading format); the old text
   is in this branch's history. The v3 rewrite restarted with the introduction and **2:1–2:4** in a
-  single pass (831/932/786/704 words against floors of 550; phrase coverage 100% on each; analogies
-  4/4; descriptions of the cut letters, the Book that leaves no room for doubt, the faith that trusts
-  what the eye cannot see, and the community that owns every scripture). Batch gate: `batch.py 2
-  --from 1 --to 4` → **PASS** (0 FAIL, 1 advisory `GRD-TOKENS` on 2:4); batch style mean sentence
-  21.5 words, 8% over 40, Flesch 71. The chapter continues from 2:5.
+  single pass, then continued straight on: **2:1–2:8** (831/932/786/704/636/789/677/860 words against
+  floors of 550; phrase coverage 100% on each; analogies 8/8). Batch gate: `batch.py 2 --from 1
+  --to 8` → **PASS** (0 FAIL, 4 advisory `GRD-TOKENS`); batch style mean sentence 21.6 words, 8% over
+  40, Flesch 70. So far: the cut letters, the Book that leaves no room for doubt, the faith that
+  trusts what the eye cannot see, the community that owns every scripture, the harvest behind the
+  word for success, the two groups that follow the measuring line, and the hypocrites' half-truth.
+  The chapter continues from 2:9.
 * The chapter is written batch by batch, with several batches in flight at once, and the writer does
   not stop between batches (`TAFSIR_PROMPT.md` §1, §10). Batch tooling: `batch.py N --from A --to B`,
   `batch.py N --ranges A-B,C-D,E-F` (in parallel), `batch.py N --progress`.
