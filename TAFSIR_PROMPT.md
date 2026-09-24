@@ -27,9 +27,11 @@ paraphrase of the translation dressed up as commentary.
 
 **Two standing instructions:**
 
-1. **A chapter is written in batches of verses (§10), and you do not stop between them.** Write a
-   batch, run the batch gate, fix what fails, start the next batch, and continue on your own until
-   every verse of the chapter is written and `audit.py N` passes.
+1. **The chapter is generated in batches, and you continue on your own until the end.** Write a
+   batch, run the batch gate, fix what fails, start the next batch, and keep going — without
+   stopping to ask, and without waiting to be told — until every verse of the chapter is written
+   and `audit.py N` passes. A chapter is a marathon, not a lap: the only reasons to pause are a
+   source that cannot be located or a contradiction that needs a decision (§10).
 2. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
    **speed** and for **scale**: batches do not depend on one another, so several are written and
    gated at once, and a single pass should cover a very long list of verses — **the whole chapter
@@ -396,7 +398,9 @@ standing instruction:
 
 Stopping mid-chapter is only justified when a verse has a genuine problem — a source that cannot
 be located, a contradiction between sources that needs a decision — or when the file would be left
-in a state that cannot be repaired by the next batch. Wanting a check-in is not a reason to stop.
+in a state that cannot be repaired by the next batch. Wanting a check-in is not a reason to stop,
+and neither is the size of the chapter. A 286-verse sūrah is finished by the same instruction that
+finishes a 7-verse one: generate the batch, gate it, continue to the end.
 
 ### The batch loop
 
