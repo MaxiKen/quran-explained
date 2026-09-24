@@ -29,39 +29,35 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 8,577 | 1057/1249/1337 | 7/7 | PASS | `data/tafsir_001.json` |
-| 2 | `tafsir/002.md` | 7/286 | 8,891 | 1205/1251/1416 | 7/7 | in progress | — |
+| 1 | `tafsir/001.md` | 7/7 | 9,742 | 1245/1456/1478 | 7/7 | PASS | `data/tafsir_001.json` |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses (plus the 2:1-2:7 pilot), 17,468 words in the
-two chapter files.** Stdout for the row and the
-numbers: `python3 scripts/tafsir/status.py --md`.
+Totals: **1 of 114 chapters written, 7 of 6,236 verses, 9,742 words** in one chapter file — the
+whole of Al-Fātiḥah, regenerated from scratch under the interleaving rule. The row above is what
+`python3 scripts/tafsir/status.py --md` prints, not a number typed by hand.
 
-**Chapter 2 pilot delivered, 2026-09-24.** `tafsir/002.md` carries the introduction (567 words) and
-2:1-2:7 written to v4, 1,205-1,416 words a verse against a floor of 600, all ten works read for every
-verse (the digest cap of `sources.py` hides al-Baqarah's text for the Arabic works, so
-`tmp/full.py C V --slug …` reads the uncapped per-verse slice from `tafsir-*/002.txt`), and six to
-nine of the ten named in each verse. `batch.py 2 --ranges 1-7` passes with 0 FAIL; the two remaining
-GRD-TOKENS advisories on 2:6 and 2:7 are the known transliteration artefact (the verse digests spell
-*Badr*, *Makkah*, *Madīnah*, *Mujāhid*, *Moses* and *Israel* in Arabic script, so the Latin forms in
-the prose cannot be found in the haystack; each was traced to its source by hand). The chapter payload
-is not built yet, because `build_data.py` refuses a chapter with 279 verses still scaffold.
+**All generated content deleted, chapter 1 regenerated, 2026-09-24 (v5).** On the user's
+instruction — "Delete all content and regenerate chapter 1" — the first chapter, the 2:1–2:7 pilot
+and the payload `data/tafsir_001.json` were deleted, and the chapter was written again from the ten
+works with the sources interwoven into one reading per verse instead of reported one after another:
+the omitted verb in the basmalah and what a speaker supplies for it; the two names of mercy as the
+answer to the warning inside "Lord of all worlds"; the Day of Judgement as a claim about ownership,
+with the middle of the sūrah where the voice turns; "You alone" as the claim that puts help-seeking
+inside worship; guidance asked for by people already on the road; and the two roads beside it closed
+by name. `audit.py 1` → **PASS**; `batch.py 1 --ranges 1-7` → **PASS**; payload rebuilt
+(`data/tafsir_001.json`, 7 verses, 55,773 bytes); `sw.js` bumped to `quran-reader-v2.5.37`.
 
-**Chapter 1 written to v4, 2026-09-24.** `tafsir/001.md` (7 verses, 8,559 words, 1,057–1,319 words a
-verse against a floor of 600) plus `data/tafsir_001.json`, built by `build_data.py 1`. Written in two
-stretches with the batch gate between them (`batch.py 1 --ranges 1-2`, then `batch.py 1`), each of the
-ten works pulled into the per-verse digest first (`sources.py 1`) and at least six of the ten named in
-each verse's prose. `audit.py 1` is clean: 0 FAIL, 0 WARN.
+**The rules are tested, not assumed.** `python3 scripts/tafsir/selftest.py` breaks every rule of
+`TAFSIR_PROMPT.md` §4–§8 once on a scratch copy of a written chapter — a lower-case heading, a
+mis-quoted verse, a citation with no anchor, a labelled paragraph, a section written source by
+source, a report out of straight quotes, a hadith number that exists nowhere — and fails when the
+gate does not report the promised code: 43 cases, 0 uncaught, 0 unexercised. Two rules were found
+unenforced while building it: `REF-QUOTE` had never checked anything (it read an empty capture
+group), and `PHR-QUOTE-STYLE` sat behind an early return, so a plainly quoted phrase reported the
+wrong code.
 
-Two gate defects surfaced by this chapter and fixed in the same commit. `SRC-UNUSED` reported
-al-Alūsī as never named although the chapter names him in five verses: the `AUTHORITY` pattern for
-`tafsir-al-alusi` was written as `Al[ūs]i`, which cannot match the name's two letters (`ū` then `s`
-before the `ī`), so the fix is `Alū? sī`. `GRD-TOKENS`, the advisory grounding check, treated the
-names of the ten works, the hadith collections and ordinary capitalised English words (*the Book*,
-*the Mother of the Book*, *Muslim*) as unverified named entities, which is a script artefact: nine of
-the ten works for these verses are in Arabic, so a Latin transliteration can never be found in the
-haystack. The check now skips the name-parts of the ten, the collections they cite and a short list of
-ordinary capitalised vocabulary; a probe with invented authorities (*Zamakhshari of the Mu'tazila*,
-*the University of Whitfield*, *the manuscript of Tabriz*) still reports every one of them.
+**Chapter 2 pilot (superseded, content deleted).** An earlier 2:1–2:7 pilot was written
+to v4 and passed `batch.py 2 --ranges 1-7`; it was deleted with the rest of the generated
+content ahead of the v5 rewrite, and chapter 2 will be written again under the new rule.
 
 **Corpus cleared, 2026-09-24.** `tafsir/001.md`, `tafsir/002.md` and `tafsir/003.md` were deleted
 with the payloads `data/tafsir_001.json` and `data/tafsir_002.json`, and `tafsir/` was left empty
@@ -80,6 +76,13 @@ produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writ
 stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
 first; chapter 2 was written to the same standard in one continuous run and passed the gate on 2026-09-24 (2:1–2:286).
 
+Standard version: **v5** (2026-09-24: the ten works are witnesses inside one reading, not ten
+speakers taking turns — paragraphs open with the point being made, not with a work's name, and
+disagreement is weighed rather than relayed. Mechanised as `STY-SOURCE-PARADE` (three source-led
+sentences in a row, or more than 30% of a section's sentences / 45% of its paragraphs opening with
+a work's name) and `STY-ANALYSIS-FLOOR` (fewer than four sentences of reasoning about the verse).
+The chapter 1 written under v4 failed both checks, which is why it was cleared and rewritten).
+
 Standard version: **v4** (2026-09-24: the corpus is the ten works of `corpus.SOURCE_ALLOWLIST` and
 nothing else — the other seventeen `tafsir-*` folders, including the Arabic duplicates of al-Jalālayn
 and Ibn Kathīr, were deleted; all ten must be pulled for a verse before it is written and at least
@@ -95,6 +98,11 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 
 ### Chapter 1 — Al-Fatihah
 
+* **Regenerated to v5 on 2026-09-24** (see the v5 note above): one reading per verse with the ten
+  works supporting it from inside the sentence. 9,742 words, 1,245–1,478 a verse, analogies in 7/7,
+  `audit.py 1` PASS.
+* The bullets below are the pre-v4 record of the same chapter (28 sources at the time, cleared
+  later). They are kept as history and no longer describe the file on disk.
 * Written from all 28 sources; every verse carries at least two kinds of evidence (Qur'an
   cross-reference, hadith with collection, named authority, language point).
 * Phrase cuts: 1:1 into "In the Name of Allah" / "the Most Compassionate, Most Merciful"; 1:5 into
@@ -232,6 +240,4 @@ floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
   corpus cleared this is currently every chapter, and payloads return as each chapter passes the gate.
 * No chapter is currently the reference for the standard; the revised rule will be the reference once
   it is agreed, and the first chapter written under it becomes the worked example.
-* Next step: agree the revised standard, encode it in `scripts/tafsir/audit.py`, then write chapter 1
-  as the first file under it.
-| 001 | Al-Fātiḥah | 7/7 | 9,742 | regenerated from scratch under rule v5 (interwoven); `audit.py 1` PASS, `batch.py 1 --ranges 1-7` PASS |
+* Next step: chapter 2 under v5, in batches, with `batch.py 2 --ranges` after each stretch.
