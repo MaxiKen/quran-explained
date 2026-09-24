@@ -1026,6 +1026,7 @@ _GROUNDED_NAMES = {
 
 
 _ORDINARY_CAPS = {
+    "imagine",
     "book",
     "books",
     "maker",

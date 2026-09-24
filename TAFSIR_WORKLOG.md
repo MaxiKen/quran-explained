@@ -28,10 +28,22 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 8,559 | 1057/1249/1319 | 7/7 | PASS | `data/tafsir_001.json` |
+| 1 | `tafsir/001.md` | 7/7 | 8,577 | 1057/1249/1337 | 7/7 | PASS | `data/tafsir_001.json` |
+| 2 | `tafsir/002.md` | 7/286 | 8,891 | 1205/1251/1416 | 7/7 | in progress | — |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses, 8,559 words.** Stdout for the row and the
+Totals: **1 of 114 chapters written, 7 of 6,236 verses (plus the 2:1-2:7 pilot), 17,468 words in the
+two chapter files.** Stdout for the row and the
 numbers: `python3 scripts/tafsir/status.py --md`.
+
+**Chapter 2 pilot delivered, 2026-09-24.** `tafsir/002.md` carries the introduction (567 words) and
+2:1-2:7 written to v4, 1,205-1,416 words a verse against a floor of 600, all ten works read for every
+verse (the digest cap of `sources.py` hides al-Baqarah's text for the Arabic works, so
+`tmp/full.py C V --slug …` reads the uncapped per-verse slice from `tafsir-*/002.txt`), and six to
+nine of the ten named in each verse. `batch.py 2 --ranges 1-7` passes with 0 FAIL; the two remaining
+GRD-TOKENS advisories on 2:6 and 2:7 are the known transliteration artefact (the verse digests spell
+*Badr*, *Makkah*, *Madīnah*, *Mujāhid*, *Moses* and *Israel* in Arabic script, so the Latin forms in
+the prose cannot be found in the haystack; each was traced to its source by hand). The chapter payload
+is not built yet, because `build_data.py` refuses a chapter with 279 verses still scaffold.
 
 **Chapter 1 written to v4, 2026-09-24.** `tafsir/001.md` (7 verses, 8,559 words, 1,057–1,319 words a
 verse against a floor of 600) plus `data/tafsir_001.json`, built by `build_data.py 1`. Written in two
