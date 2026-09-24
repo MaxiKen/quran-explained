@@ -30,10 +30,14 @@ paraphrase of the translation dressed up as commentary.
 1. **A chapter is written in batches of verses (§10), and you do not stop between them.** Write a
    batch, run the batch gate, fix what fails, start the next batch, and continue on your own until
    every verse of the chapter is written and `audit.py N` passes.
-2. **Spread the work.** Batches do not depend on one another, so keep several in flight at once:
-   draft batch B while batch A is being gated, and audit several finished batches in a single call
-   with `batch.py N --ranges A-B,C-D,E-F` (the ranges run in parallel). Nothing that has no
-   dependency on unfinished work may be done one step at a time.
+2. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
+   **speed** and for **scale**: batches do not depend on one another, so several are written and
+   gated at once, and a single pass should cover a very long list of verses — **the whole chapter
+   where the material allows it**, not a handful at a time. Draft the next range while the last is
+   being gated, and audit many finished ranges in one call with `batch.py N --ranges A-B,C-D,E-F`
+   (the ranges run in parallel). A chapter is never produced one small batch at a time just because
+   that was the earlier habit: cover as much of the chapter in one pass as you can hold at the
+   standard, and go straight on to the rest.
 
 ## 2. Build the inputs first
 
@@ -380,7 +384,8 @@ in a state that cannot be repaired by the next batch. Wanting a check-in is not 
 python3 scripts/tafsir/sources.py N
 python3 scripts/tafsir/scaffold.py N
 
-# then, for each batch of verses (say 5-20, sized so it can be finished in one sitting)
+# then, for each stretch of verses (as long as the chapter allows: a short chapter is one pass,
+# a long one is taken in the largest stretches the material supports)
 python3 scripts/tafsir/batch.py N --from 6 --to 20     # gate just this batch
 python3 scripts/tafsir/batch.py N --ranges 6-20,21-35,36-50   # three batches at once, in parallel
 python3 scripts/tafsir/batch.py N --progress           # how far the chapter has come
@@ -402,8 +407,10 @@ batch.
 Batches are independent of each other, so they are produced and checked in parallel, not one at a
 time:
 
-* **Keep several batches in flight.** While one range is being gated, the next is being drafted;
-  independent steps belong in the same pass, not in a queue.
+* **Keep several batches in flight, and make each one long.** While one range is being gated, the
+  next (and the next) is being drafted; independent steps belong in the same pass, not in a queue.
+  The point of the rule is throughput: a 286-verse chapter should move in tens of verses at a time,
+  and a 7-verse chapter should be finished in a single pass.
 * **Gate in parallel.** `batch.py N --ranges A-B,C-D,E-F` audits every range at once (`--jobs`
   controls how many run together) and prints one report per range plus a combined verdict, so a
   whole chapter's worth of finished batches can be checked in a single call.
@@ -428,12 +435,15 @@ time:
 6. **Progress is visible between batches** through `batch.py N --progress` and the worklog's "in
    progress" section; nobody has to ask how far the chapter has come.
 
-### Choosing a batch size
+### Choosing how much to write in one pass
 
-Sized to finish, not to look impressive: 5-20 verses for an ordinary stretch, fewer when verses are
-long (one or two verses can be a batch in the legal passages of al-Baqarah, where a single verse
-can carry a whole page of law), more for short consecutive verses such as the closing sūrahs.
-Whatever the size, the loop is the same: write, gate, fix, continue.
+**As much as the chapter allows, and the whole chapter wherever possible.** The range is a unit of
+work, not a ration: a short chapter of six or seven verses is written in one pass, and a long
+chapter is taken in the largest stretches the material supports — several tens of verses at once,
+or the rest of the chapter, when the verses are short and the digest is in hand. Verses that carry a
+whole page of law each (the legal passages of al-Baqarah, the inheritance verses of al-Nisāʾ) are
+handled in smaller groups, but still several at a time and in parallel with the next group. Whatever
+the size, the loop is the same: write, gate, fix, continue — and keep several groups in flight.
 
 ## 11. What this pass deliberately does not do
 

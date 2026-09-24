@@ -30,12 +30,16 @@ def chapter_stats(n: int):
     findings = A.audit_chapter(n, _Opts())
     fails = [f for f in findings if f.level == A.FAIL]
     warns = [f for f in findings if f.level == A.WARN]
-    words = [doc.words(s.body()) for s in doc.sections]
+    # a scaffold is not "written": sections still carrying TODO are reported as pending
+    written = [s for s in doc.sections if "TODO" not in s.body()]
+    todo = [s for s in doc.sections if "TODO" in s.body()]
+    words = [doc.words(s.body()) for s in written]
     payload = C.DATA_DIR / ("tafsir_%s.json" % C.pad3(n))
     return {
         "chapter": n,
         "name": C.chapter_name(n),
-        "verses": len(doc.sections),
+        "verses": len(written),
+        "scaffolded": len(todo),
         "expected": C.verse_count(n),
         "intro_words": doc.words(doc.intro),
         "words": sum(words),
@@ -44,7 +48,8 @@ def chapter_stats(n: int):
         "max_words": max(words) if words else 0,
         "fail": len(fails),
         "warn": len(warns),
-        "codes": sorted({f.code for f in fails}),
+        "codes": sorted({f.code for f in fails}) if not todo else ["unwritten verses"],
+        "in_progress": bool(todo),
         "payload": payload.exists(),
         "payload_bytes": payload.stat().st_size if payload.exists() else 0,
     }
@@ -74,13 +79,17 @@ def main(argv=None):
         print("| Ch | File | Verses | Words | Range (min/med/max) | Gate |")
         print("|---|---|---|---|---|---|")
         for r in done:
-            gate = "PASS" if r["fail"] == 0 else "FAIL (%s)" % ", ".join(r["codes"])
+            if r["in_progress"]:
+                gate = "in progress (%d verses still scaffold)" % r["scaffolded"]
+            else:
+                gate = "PASS" if r["fail"] == 0 else "FAIL (%s)" % ", ".join(r["codes"])
             print("| %d | `tafsir/%s.md` | %d/%d | %s | %d/%d/%d | %s |"
                   % (r["chapter"], C.pad3(r["chapter"]), r["verses"], r["expected"],
                      format(r["words"], ","), r["min_words"], r["median_words"], r["max_words"], gate))
+        finished = [r for r in done if not r["in_progress"]]
         print("")
         print("| | | %d/114 | %s | | |"
-              % (len(done), format(sum(r["words"] for r in done), ",")))
+              % (len(finished), format(sum(r["words"] for r in finished), ",")))
         return 0
 
     for r in done:
@@ -90,10 +99,11 @@ def main(argv=None):
                  format(r["words"], ","), r["min_words"], r["median_words"], r["max_words"],
                  gate, ("  " + ", ".join(r["codes"])) if r["codes"] else ""))
     if len(done) > 1:
+        finished = [r for r in done if not r["in_progress"]]
         print("")
         print("chapters written: %d/114 | words: %s | passing: %d"
-              % (len(done), format(sum(r["words"] for r in done), ","),
-                 sum(1 for r in done if r["fail"] == 0)))
+              % (len(finished), format(sum(r["words"] for r in finished), ","),
+                 sum(1 for r in finished if r["fail"] == 0)))
     return 0
 
 

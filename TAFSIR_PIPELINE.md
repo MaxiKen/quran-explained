@@ -80,7 +80,7 @@ python3 scripts/tafsir/scaffold.py 2
 python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut every verse is measured against
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 
-# 3. write the prose in batches, gating each batch before the next one starts
+# 3. write the prose in long stretches (the whole chapter where it allows), gating as they land
 python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
 python3 scripts/tafsir/batch.py 2 --ranges 6-20,21-35,36-50   # several batches at once, in parallel
 python3 scripts/tafsir/batch.py 2 --progress            # how far the chapter has come

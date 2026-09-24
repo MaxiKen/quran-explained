@@ -25,20 +25,25 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 0/7 | — | — | — | scaffold | — |
+| 1 | `tafsir/001.md` | 7/7 | 6,557 | 736/874/1,210 | 7/7 | PASS | 43 KB |
 | 2 | `tafsir/002.md` | 0/286 | — | — | — | scaffold | — |
 
-Totals: **0 of 114 chapters written, 0 of 6,236 verses.**
+Totals: **1 of 114 chapters written, 7 of 6,236 verses, 6,557 words.** Stdout for the row and the
+numbers: `python3 scripts/tafsir/status.py --md`.
 
-**Reset, 2026-09-24.** Chapter 1 and the written part of chapter 2 were cleared and their payload
-deleted. The format changed: the bold headings are descriptive titles again (as in the old
-commentary on this site), not the verse's phrases. Each phrase of the verse is quoted *inside* the
-paragraph that explains it, in verse order, and each quoted phrase is backed beside it by evidence —
-a Qur'an cross-reference, a hadith with its collection, or a named authority. Not every heading
-carries a phrase: context, history, reports and rulings are headings of their own. `audit.py`
-enforces this mechanically (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`, `PHR-*`, `PHR-EVIDENCE`), and
-batches are now produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`). Chapter 1 is
-rewritten first, then chapter 2.
+**Format change, 2026-09-24 (v3).** Chapter 1 was cleared and the written part of chapter 2 with it,
+and their payload deleted. The bold headings are descriptive titles again (as in the old commentary
+on this site), not the verse's phrases. Each phrase of the verse is quoted *inside* the paragraph
+that explains it, in verse order, and each quoted phrase is backed beside it by evidence — a Qur'an
+cross-reference, a hadith with its collection, or a named authority. Not every heading carries a
+phrase: context, history, reports and rulings are headings of their own. `audit.py` enforces this
+mechanically (`FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`, `PHR-*`, `PHR-EVIDENCE`), batches are
+produced and gated in parallel (`batch.py N --ranges A-B,C-D,E-F`), and the writer keeps several
+stretches in flight — a short chapter is finished in a single pass. Chapter 1 was rewritten to v3
+first; chapter 2 is next, from verse 1.
+
+Standard version: **v3** (descriptive headings; phrases quoted in the prose and evidenced there;
+floor 550 / 7×; analogy rule; plain-diction and sentence-length checks).
 
 ## Chapter notes
 
@@ -96,8 +101,31 @@ rewritten first, then chapter 2.
 
 ### Chapter 1 — Al-Fatihah (7 verses)
 
-* Cleared and scaffolded under the new format on 2026-09-24. To be rewritten first — the earlier
-  6,290-word version in the old phrase-heading format is in the git history, not in the file.
+* Rewritten to v3 on 2026-09-24, in a single pass: 7/7 verses, 6,557 words, floors 550 each, verse
+  lengths 736–1,210. Gate: `audit.py 1` → **0 FAIL, 1 WARN**; batch style before the final trim:
+  mean sentence 20.1 words, 7% over 40 words, Flesch 71, long words 0.36%; analogies 7/7.
+* Headings are descriptive throughout (the line that opens the Book; is the basmalah a verse of the
+  chapter; praise is a wider word than thanks; the readings behind the word; the turn from speaking
+  about God to speaking to Him; the road that has no branches; the road named by the people who walk
+  it; Āmīn, the seal the chapter ends on). The verse's own wording is quoted inside those
+  paragraphs, and every quoted phrase is answered by evidence in the same paragraph or the next.
+* The one warning is advisory: `GRD-TOKENS` on 1:4 flags Companion and reciter names (Ubayy ibn
+  Kaʿb, Ibn Masʿūd, Muʿādh, Khalaf) that the verse's own slice of the digest does not spell out —
+  they come from al-Baḥr al-Muḥīṭ's list of the readings, which the section names.
+* Phrase coverage 100% on every verse (2/2, 2/2, 1/1, 1/1, 2/2, 1/1, 3/3), every quoted phrase
+  evidenced, no verse quoted whole.
+* Material carried over from the earlier version and restructured: the basmalah reports
+  (al-Dāraquṭnī, Ibn Sīrīn, Uthmān and Ibn Masʿūd, Umm Salamah), the names of the line (al-Wāfiyah,
+  al-Kāfiyah, asās al-Qurʾān, miftāḥ kull kitāb), Saʿīd ibn Jubayr on reciting it aloud, Ibn Mughaffal
+  in the two Ṣaḥīḥs, al-Ṭabarī's explanation of ḥamd, the ḥamd/shukr distinction from al-Rāghib, the
+  iyyāka rule with al-Zamakhsharī and al-Saʿdī, al-Ṭabarī's definition of worship as humility, the
+  ḥadīth qudsī that divides the prayer, al-Ṭabarī on guidance as firmness with the Jibrīl report,
+  al-Rāghib's degrees of guidance, an-Nawwās ibn Samʿān's parable of the path (Aḥmad), the ghayr
+  al-maghḍūb recitation of ʿUmar and the Successors, ʿAdī ibn Ḥātim's report (Aḥmad, al-Ṭabarī, Ibn
+  Ḥibbān, At-Tirmidhī ḥasan), and the Āmīn material (Wāʾil ibn Ḥujr, Abū Mūsā, Abū Zuhayr, ʿĀʾishah).
+* Mis-attribution to keep out: the saying on three kinds of worship exists only in `tafsir_initial`,
+  with no chain — it is not in al-Ṭabarī, and it is not in this chapter.
+* Payload `data/tafsir_001.json` rebuilt (43 KB); `sw.js` `CACHE_VERSION` = `quran-reader-v2.5.32`.
 
 ### Chapter 2 — Al-Baqarah (286 verses)
 
