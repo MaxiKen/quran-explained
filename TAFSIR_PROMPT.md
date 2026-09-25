@@ -47,14 +47,16 @@ paraphrase of the translation dressed up as commentary.
    stopping to ask, and without waiting to be told — until every verse of the chapter is written
    and `audit.py N` passes. A chapter is a marathon, not a lap: the only reasons to pause are a
    source that cannot be located or a contradiction that needs a decision (§10).
-2. **All ten are read for every verse before a word of it is written — and at least five are
-   named in its prose.** Run the digest for the verse, read what each of the ten says about it
-   (Arabic sources included: read them and put the substance into English), then write. The gate
-   proves this mechanically: `sources.py` must have pulled the verse's text for all ten
-   (`SRC-NOTCHECKED`), and the section must name at least five of the ten, with at least one
-   classical and at least one modern (`SRC-SPREAD`, `SRC-FAMILY`). Naming a work outside the ten
-   fails (`SRC-BANNED`). Reading is not the same as listing: a work is named where its point is
-   used, never as a roll-call.
+2. **All ten are read for every verse before a word of it is written — and none of them is
+   relayed, compared or quoted.** Run the digest for the verse, read what each of the ten says
+   about it (Arabic sources included: read them and put the substance into English), then write
+   **the book's own reading** from what you learned. The gate proves the reading mechanically:
+   `sources.py` must have pulled the verse's text for all ten (`SRC-NOTCHECKED`); a sentence that
+   hands the point to a work (`STY-PARAPHRASE`) or quotes one (`SRC-QUOTED`) fails; naming a work
+   outside the ten fails (`SRC-BANNED`). Their contents are authenticated, so they are taken as
+   they stand — no fact-checking them, no grading their chains, no survey of who said what: the
+   evidence the reader checks is the Qur'an, the reports with their collections, and the early
+   authorities as the reports carry them.
 3. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
    **speed** and for **scale**: batches do not depend on one another, so several are written and
    gated at once, and a single pass should cover a very long list of verses — **the whole chapter
@@ -107,12 +109,19 @@ Work through the digest verse by verse, and for each verse collect **evidence**,
 | A cross-reference that lets the Qur'an explain itself | the standard of evidence in this corpus |
 | A refusal — where a source declines unauthenticated material | equally worth recording, honestly |
 
-Arabic sources are first-class material here. Read them, translate the substance accurately, and
-attribute the point to the work it came from. Do not machine-translate a paragraph and paste it
-in; that produces prose no reader wants.
+Arabic sources are first-class material here. Read them and translate the substance accurately
+into the book's own English. Do not machine-translate a paragraph and paste it in; that produces
+prose no reader wants.
 
-If sources disagree, say so, name the sides, and state what turns on it. Do not smooth a real
-disagreement into a single silent voice.
+**What you do with the research (v7).** The ten are what the book was learned from — they are not
+its voices. Nothing you write relays a work's opinion, compares the works, or quotes one of them:
+*"al-Ṭabarī records that…"*, *"according to al-Saʿdī"*, *"the commentators say"* all fail
+(`STY-PARAPHRASE`), and a quotation beside a work's name fails (`SRC-QUOTED`). Their contents are
+authenticated: take them as they stand, without fact-checking them, grading their chains, or
+surveying who said what. Where the material holds two readings that matter, state the readings as
+facts about the verse — which one the wording supports, and what turns on it — not as a dispute
+between books. What survives from the research as a *name* is evidence: a Companion or Successor as
+the reports carry him, a hadith with its collection, held to what it actually says.
 
 **Watch for duplicated source records.** Some upstream files repeat the same text across
 different tafsir names (for example, several English sources carry an identical Sufi passage for
@@ -217,14 +226,19 @@ Length is not padding. It comes from the material this corpus now has:
 * the phrase-by-phrase explanation itself, which quotes each phrase and then unpacks its words;
 * the stories and occasions of revelation the sources carry for that verse;
 * the hadith and athar, told in full, with narrator and collection;
-* the rulings and disagreements, with the scholars named;
+* the rulings the verse settles, stated as the reading — and where two readings genuinely differ,
+  the difference and what turns on it;
 * the cross-references that let the Qur'an explain the verse;
 * one relatable analogy, and the practical lesson the verse asks of the reader;
 * the history the sources carry: what was happening when the verse came, who it was spoken to,
   what happened next;
-* where the verse meets the present: a modern reading of it (al-Saʿdī, Ibn ʿUthaymīn, Maʿārif
-  al-Qurʾān), the working of the natural world a reader can see for himself, and the plain
-  application to a household, a wage, a neighbour, a grief.
+* where the verse meets the present: the working of the natural world a reader can see for
+  himself, and the plain application to a household, a wage, a neighbour, a grief — the book is
+  written for a reader now, and every verse reaches him at least once (`STY-APPLICATION`).
+
+And every paragraph of it — here and in the introduction — runs past 120 words (`WRD-PARA-FLOOR`):
+a paragraph is a complete movement of thought, so a thought too small to reach 121 words belongs
+with the paragraph beside it.
 
 ### 4.2 The elements are shown, never labelled
 
@@ -239,32 +253,36 @@ paragraph arrives at, the application as something he recognises in his own week
 fails a chapter that labels any of them. The test is simple: if a heading or a sentence exists
 only to announce what kind of content follows, delete it and let the content speak.
 
-### 4.3 One reading, many witnesses — interweave, never report per source
+### 4.3 One reading — the book's own, with the research behind it
 
-The ten works are **witnesses inside one reading**, not ten speakers taking turns. A section is an
-argument about what the verse says and asks; the sources are the evidence that carries it. Name a
-work where its point is used, inside the sentence that needs it — *"the pairing is deliberate, which
-is why al-Qurṭubī reads the two names of mercy as a softening of the warning that a Lord carries"* —
-and let the next sentence draw the conclusion. What fails is the other shape: a paragraph that opens
-with a work's name and paraphrases it, then another paragraph for the next work, and so on. That is a
-report on a library, not tafsir, however accurate each paragraph is.
+The ten works are what the book was **learned from**, not what it speaks about. A section is an
+argument about what the verse says and asks, written in the book's own voice; what the reader can
+check — cross-references, reports with their collections, early authorities — is the evidence
+carrying it. A sentence that hands the point to a work (*"al-Ṭabarī records that…"*, *"according to
+al-Saʿdī"*, *"the commentators say"*) fails (`STY-PARAPHRASE`), and quoting one fails
+(`SRC-QUOTED`). What fails just as surely is the other old shape: a paragraph that opens with a
+work's name and paraphrases it, then another paragraph for the next work — a report on a library,
+not tafsir.
 
-Write so that a reader follows **the verse**, not the bibliography:
+Write so that a reader follows **the verse**, and nothing else:
 
-* open paragraphs with the point being made, not with an authority's name;
-* weigh the sources against each other where they differ — say which reading is stronger and what
-  turns on it; where they agree, say so once and move on (two sources saying the same thing are one
-  witness, not two);
+* open paragraphs with the point being made — never with a work's name;
+* where the material holds two readings that matter, state the readings themselves, which one the
+  wording supports, and what turns on it — the reader is reading the verse, not a dispute between
+  books;
+* a Companion or Successor may be named as evidence for a reading (Ibn ʿAbbās, Mujāhid, Qatādah, as
+  the reports carry them) — one mention, where the reading needs it, never a roll-call;
 * keep an argument running across the paragraphs of a section: the phrase, what it means, what the
   grammar does, what follows for the reader;
 * use the Qur'an and the report to settle questions, not just to decorate a paragraph;
 * analyse — say why a reading is right, what it implies, what changes if it is not.
 
-The gate counts it. In every verse section, `STY-SOURCE-PARADE` fails when three sentences in a row
-open with a work's name, when more than 30% of the section's sentences do, or when more than 45% of
-its paragraphs do (warns from 18% / 30%); `STY-ANALYSIS-FLOOR` fails a section with fewer than four
-sentences that reason about the verse (*because*, *so that*, *which means*, *the point*, *what
-follows*) and warns below eight.
+The gate counts it. In every verse section, `STY-PARAPHRASE` fails the first sentence that hands a
+point to a work, `SRC-QUOTED` fails a quotation beside a work's name, and `STY-SOURCE-PARADE` still
+fails a run of three sentences opening with a named authority (or more than 30% of the section's
+sentences, or 45% of its paragraphs — warns from 18% / 30%); `STY-ANALYSIS-FLOOR` fails a section
+with fewer than four sentences that reason about the verse (*because*, *so that*, *which means*,
+*the point*, *what follows*) and warns below eight.
 
 If a section is under the floor, the answer is never repetition or vague exhortation. Go back to
 the digest and use material you have not used yet — the Arabic sources usually carry more for
@@ -401,9 +419,10 @@ holding it — or the paragraph straight after it — must carry one of:
    Prophet ﷺ.
 4. **A prophetic saying always names its collection** in the same section. If you cannot say
    where it comes from, leave it out.
-5. **Never attribute a point to a source that does not make it.** Before a sentence credits
-   anyone — a commentator, a collection, a Companion — find the passage. The digest is the first
-   place to look; when the digest is thin, search the raw sources:
+5. **Never attribute a point to a source that does not make it.** Under v7 few sentences carry a
+   work's name at all (§3); the ones that name an early authority or a collection must be true to
+   what the reports carry. Before a sentence credits anyone, find the passage. The digest is the
+   first place to look; when the digest is thin, search the raw sources:
 
    ```bash
    python3 scripts/tafsir/verify.py "Musaylimah" --chapter 1     # does any source carry this?
@@ -506,8 +525,8 @@ adjusted to the verse's own words and recorded as information, `MTCH-SYNONYM`); 
 verse is wrong; `WRD-*` — the section is
 under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
 chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or
-announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the ten is cited, fewer than
-five of the ten are named, or the digest for a verse was never built.
+announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the ten is cited, a work of the ten is
+summarised or quoted instead of written from, or the digest for a verse was never built.
 
 When the gate is clean:
 
@@ -515,7 +534,7 @@ When the gate is clean:
 2. bump `CACHE_VERSION` in `sw.js`;
 3. add the chapter's row to `TAFSIR_WORKLOG.md`;
 4. commit on the session branch with the message
-   `Tafsir ch N (<Name>): verse-by-verse from all <k> sources`,
+   `Tafsir ch N (<Name>): verse-by-verse, written from the ten works`,
    then push — never to another branch.
 
 ### The rules are tested, not assumed

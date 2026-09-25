@@ -301,11 +301,54 @@ def mut_analogy(text, ch):
     return _edit_verse(text, TARGET, fn)
 
 
-def mut_spread(text, ch):
+def mut_para_short(text, ch):
+    """v7: a paragraph under the 120-word floor."""
     def fn(block):
-        for rx in list(audit.AUTHORITY.values()):
-            block = rx.sub("a commentator", block)
-        return audit.FIRST_GEN.sub("a commentator", block)
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        return block[:b] + "\n\nOne short line only, standing where a paragraph belongs." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_paraphrase(text, ch):
+    """v7: the prose hands the point to a named work."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para + " Al-\u1e6cabari records that the reading here turns on the "
+                "second clause, and the commentators say it is a warning." + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_source_quote(text, ch):
+    """v7: a work of the ten is quoted."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para + ' The words of al-Jal\u0101layn stand beside it: *"a brief '
+                'enjoyment it is, and then it is gone."*' + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_no_application(text, ch):
+    """v7: the verse never reaches the reader's own world (warning)."""
+    def fn(block):
+        for rx, repl in ((r"\btoday\b", "then"), (r"\bnowadays\b", "then"),
+                         (r"\bthese days\b", "at that time"),
+                         (r"\bin our own time\b", "in that time")):
+            block = re.sub(rx, repl, block, flags=re.I)
+        return block
 
     return _edit_verse(text, TARGET, fn)
 
@@ -583,7 +626,10 @@ CASES = [
     ("\u00a77 a hadith number exists in the sources", "EVD-NUMBER", mut_number),
     ("\u00a76 a verse is quoted once per section", "REF-QUOTE-REPEAT", mut_ref_repeat),
     ("\u00a78 every verse carries an analogy", "STY-ANALOGY", mut_analogy),
-    ("\u00a71 at least five of the ten are named", "SRC-SPREAD", mut_spread),
+    ("v7 every paragraph runs past 120 words", "WRD-PARA-FLOOR", mut_para_short),
+    ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
+    ("v7 the ten are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
     ("\u00a71 nothing outside the ten is cited", "SRC-BANNED", mut_banned),
     ("\u00a77 a prophetic report names its collection", "EVD-ATTRIBUTION", mut_attribution),
     ("\u00a78 no duplicated sentences", "REP-SENTENCE", mut_rep_sentence),

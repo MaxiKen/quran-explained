@@ -11,21 +11,32 @@ line of it:
 
 | Rule | Value |
 |---|---|
-| Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān); all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`); at least five named in the prose, one classical + one modern (`SRC-SPREAD`, `SRC-FAMILY`); nothing outside the ten (`SRC-BANNED`) |
-| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000 |
-| Interweaving | one reading, not a report per source: no run of three source-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a work's name, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
+| Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān) as **research**: all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the ten cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
+| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) |
+| Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) |
 | Bold | **reserved**: only the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) may be bold — anything else fails `MTCH-BOLD`; reports and athar are italic `*"…"*` (`EVD-QUOTE-STYLE`) |
 | Matching the verse | the prose explains what the verse's translation carries: a word or phrase that *means the same thing* — English or Arabic — is adjusted to the verse's own wording (`MTCH-SYNONYM`, informational), anything else fails (`MTCH-WORD`); Arabic offered as the verse's own wording fails (`MTCH-TERM`); a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
-| Evidence | every verse carries checkable anchors; every prophetic report names its collection |
+| Evidence | every verse carries checkable anchors (Qur'an cross-reference, hadith with its collection, a named early authority, a language point); every prophetic report names its collection; each verse reaches the reader's own world (`STY-APPLICATION`) |
 | Analogy | at least half the chapter's verses carry a simple, relatable comparison |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
 | Elements | history, reports with collections, cross-references, rulings, lesson, plain explanation, analogy and present-day application are carried by the prose and **never labelled** (`STY-LABELS`: no `Lesson:`, `Modern application:`, `History:`, …) |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% above 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
+
+**Standard v7.0 (2026-09-25) — the author's own book.** The chapters are not a survey of the ten
+works: they are one author's commentary, learned from those works and written new. A sentence that
+relays a work's opinion, compares the works, or quotes one of them fails (`STY-PARAPHRASE`,
+`SRC-QUOTED`); the old naming quotas (`SRC-SPREAD`, `SRC-FAMILY`, `SRC-UNUSED`) are retired. The
+sources' contents are taken as authenticated, so the writer neither fact-checks them nor grades
+their chains. Every paragraph — in the introduction and in every verse — runs past 120 words
+(`WRD-PARA-FLOOR`), and every verse reaches the reader's own world at least once
+(`STY-APPLICATION`, warn). The evidence a reader checks is unchanged: Qur'an cross-references,
+reports with their collections, named early authorities, language points. Full statement:
+`TAFSIR_RULES.md` §0.
 
 ## Progress
 
