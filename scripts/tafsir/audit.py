@@ -344,9 +344,15 @@ STUDY_VERB = re.compile(
     r"(\bmeans\b|\bmeaning\b|\bliterally\b|\bfrom the root\b|\bcalled\b|\bcomes from\b"
     r"|\broot\b|\bplural\b|\bdual\b|\bsingular\b|\bverb\b|\bnoun\b|\bgrammar\b)", re.I)
 # "the verse says *kafir*" — Arabic offered as the verse's own wording.
+# "the verse says/uses/names X" (a claim about the quoted line) — and the bare "it
+# says X" when the pronoun is the verse. The bare branch omits "has": "it has been
+# worn flat" is English, not a claim that the verse carries "been".
 AS_VERSE_TERM = re.compile(
-    r"\b(?:the (?:verse|Qur[\u2019']?an)|\bit)\s+(?:says|uses|reads|calls|names|has|refers to)"
-    r"\s+(?:the (?:word|term|name)\s+)?[*\u201c\"]?([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
+    r"\b(?:the (?:verse|Qur[\u2019']?an)\s+(?:says|uses|reads|calls|names|has|refers to)"
+    r"|\bit\s+(?:says|uses|reads|calls|names|refers to))"
+    r"\s+(?:the (?:word|term|name)\s+)?(?!the\b|a\b|an\b|this\b|that\b|these\b|those\b"
+    r"|its\b|his\b|her\b|their\b|all\b|one\b|two\b|no\b|not\b|any\b|each\b|every\b)"
+    r"[*\u201c\"]?([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
     r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})[*\u201d\"]?", re.I)
 # A Latin token carrying the diacritics of a transliteration (raḥmah, ṣirāṭ ...).
 TRANSLIT = re.compile(

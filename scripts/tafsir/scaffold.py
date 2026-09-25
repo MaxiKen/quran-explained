@@ -99,8 +99,9 @@ def scaffold_text(chapter: int) -> str:
         parts.append("")
         parts.append(todo_for(chapter, num))
         parts.append("")
-        parts.append("---")
-        parts.append("")
+        if num != C.verses(chapter)[-1]["ayah_no_surah"]:
+            parts.append("---")          # no separator after the final verse (FMT-SEP)
+            parts.append("")
     while parts and parts[-1] == "":
         parts.pop()
     return "\n".join(parts) + "\n"
