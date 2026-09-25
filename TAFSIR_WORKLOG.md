@@ -31,18 +31,18 @@ line of it:
 
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 7,473 | 850/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,264 bytes) |
-| 2 | `tafsir/002.md` | 286/286 | 206,745 | 518/698/1848 | 286/286 | PASS | `data/tafsir_002.json` (1,196,396 bytes) |
-| 3 | `tafsir/003.md` | 200/200 | 115,466 | 501/553/1104 | 175/200 | PASS | `data/tafsir_003.json` (682,990 bytes) |
 
-Totals: **3 of 114 chapters written, 493 of 6,236 verses.** Chapter 1 is the first chapter written
-under standard **v6.1**; chapter 2 was written in gated stretches of ten to twenty verses, one
-commit per stretch, and closed with `audit.py 2` — **0 FAIL, 20 WARN, 2 INFO — RESULT: PASS**
-(206,745 words, floor `max(500, 8 × the verse's own words)` met by every verse, 518 words at the
-shortest and 1,848 at the longest; `data/tafsir_002.json`, 1,196,396 bytes, 286 verses; `sw.js`
-bumped to `quran-reader-v2.5.41`). The two warnings that stand are upstream gaps — `SRC-ABSENT`
-for 2:254 and 2:276 reports that `tafsir-ibn-uthaymeen` holds no text for those verses in the repo
-— and the rest are the advisory `GRD-TOKENS`/`STY-SOURCE-PARADE` notes.
+Totals: **0 of 114 chapters written, 0 of 6,236 verses.**
+
+**Corpus cleared, 2026-09-25.** The generated commentary of chapters 1–3 was not right, and it has
+been deleted at the author's direction: `tafsir/001.md`, `tafsir/002.md`, `tafsir/003.md` and their
+payloads `data/tafsir_001.json`, `tafsir_002.json`, `tafsir_003.json` are gone, and the cached app
+entry is dropped (`sw.js` → `quran-reader-v2.5.43`). The deleted files are kept in git history for
+the record — chapter 1 was 7,473 words, chapter 2 was 206,745, chapter 3 was 115,466, each passing
+the gate it was written to — but they are not the standard any longer. A new rule set is being
+added to `TAFSIR_RULES.md` and, where it can be checked mechanically, to `scripts/tafsir/audit.py`
+before any chapter is written again. The ten source corpora, `tafsir_initial/` and the tooling are
+untouched.
 
 **Chapter 2 closing pass (2026-09-24).** After the last stretch (2:257–286) was committed, the
 chapter-level audit was cleared. Two mechanical passes were run over `tafsir/002.md`:
