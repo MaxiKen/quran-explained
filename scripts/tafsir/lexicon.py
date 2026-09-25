@@ -30,7 +30,7 @@ Two tables carry the judgement:
     gate, which is the failure this rule exists to catch.
 
 ``TRANSLIT_GLOSSES``
-    The Qur'anic terms the ten works transliterate, with the English the
+    The Qur'anic terms the eleven works transliterate, with the English the
     translations use for them — *raḥmah* → mercy, compassion, grace; *ṣirāṭ* →
     path, way, road. A language point about an Arabic term is honest only when
     its meaning is in the verse, so the term resolves through its gloss.
@@ -296,7 +296,7 @@ SYNONYM_GROUPS = (
     ("mercy", "compassion", "grace", "kindness", "gentleness", "benevolence", "goodwill"),
 )
 
-# The Arabic the ten works transliterate, with the English the translations use.
+# The Arabic the eleven works transliterate, with the English the translations use.
 TRANSLIT_GLOSSES = {
     "allah": {"allah", "god"},
     "rabb": {"lord", "master", "sustainer", "owner"},
@@ -654,7 +654,7 @@ def analyse(head: str, verse_text: str, index: dict = None, skip=None):
     the failures. ``adjusted`` — ``(word used, the verse's own word)``: the same
     meaning written differently, which the prose should line up with the verse.
     ``skip`` is an optional predicate for words the caller does not want judged
-    (proper names, the works of the ten).
+    (proper names, the works of the eleven).
     """
     index = verse_index(verse_text) if index is None else index
     unmatched, adjusted = [], []

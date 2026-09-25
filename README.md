@@ -3,8 +3,11 @@
 Quran explained verse by verse.
 
 The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
-time, out of the ten tafsir works this repository is written from (`corpus.SOURCE_ALLOWLIST`). Each chapter is generated against a fixed
-format and gated by an auditor before it is published to the app.
+time, out of the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the
+ten tafsirs plus the study draft `tafsir_initial/`, v7.2). Each chapter is generated against a fixed
+format and gated by an auditor before it is published to the app. Work moves in **runs of fifty
+verses** (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and finished before the
+writer pauses.
 
 ## Start here
 
@@ -21,10 +24,12 @@ format and gated by an auditor before it is published to the app.
 ## Pipeline in one screen
 
 ```bash
-python3 scripts/tafsir/sources.py 2 --stats      # what the ten have for Sūrah 2
-python3 scripts/tafsir/sources.py 2              # digest → tmp/sources/002.txt
-python3 scripts/tafsir/scaffold.py 2             # skeleton → tafsir/002.md (quotes byte-exact)
-#   ... write the prose from the digest ...
+python3 scripts/tafsir/run.py --plan             # the next fifty verses (may span chapters)
+python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
+python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
+python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
+#   ... write the prose from the map, splice with scripts/tafsir/assemble.py ...
+python3 scripts/tafsir/run.py --check            # RUN COMPLETE when all fifty are written and clean
 python3 scripts/tafsir/audit.py 2                # the gate: must print RESULT: PASS
 python3 scripts/tafsir/build_data.py 2           # publish → data/tafsir_002.json
 python3 scripts/tafsir/status.py 2               # words per verse, gate verdict
@@ -48,8 +53,12 @@ Excerpts worth knowing:
   collection, a named authority, or a language point;
 * prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a
   relatable analogy where one fits;
-* long chapters are written in batches, gated with `scripts/tafsir/batch.py N` as they land, and
-  the writer keeps going batch after batch until the chapter is finished;
+* every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
+  `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
+  prints the expansion;
+* work moves in **runs of fifty verses**, mapped out of all eleven works in one pass
+  (`scripts/tafsir/run.py --build`), gated with `scripts/tafsir/batch.py N` as the stretches land,
+  and finished — all fifty written and clean (`run.py --check`) — before the writer pauses;
 * a chapter is finished when the whole-file auditor is clean, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 
@@ -65,7 +74,7 @@ Excerpts worth knowing:
 * `data/chapter_NNN.js` — canonical Arabic, translation and audio per verse.
 * `data/tafsir_NNN.json` — per-chapter commentary payload, built from `tafsir/NNN.md`. Chapters
   that have not been written yet show a short "coming soon" note rather than breaking the view.
-* `tafsir-*/`, `tafsir_initial/` — the source corpora the commentary is written from.
+* `tafsir-*/`, `tafsir_initial/` — the eleven source corpora the commentary is written from.
 
 Serve the folder statically (`python3 -m http.server`) — the service worker and the `data/`
 fetches need an origin, not `file://`.

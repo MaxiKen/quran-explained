@@ -46,7 +46,7 @@ def floor_for(chapter: int, verse: int) -> int:
 INTRO_TODO = (
     "TODO: write the introduction from the source digest. What the s\u016brah is, where and "
     "when it was revealed, its names, its structure, its place in the Qur'an and what it "
-    "carries as a whole \u2014 learned from the ten works and written in the book's own "
+    "carries as a whole \u2014 learned from the eleven works and written in the book's own "
     "voice, 250\u20131,500 words, paragraphs of more than 120 words each, no headings. "
     "See TAFSIR_PROMPT.md."
 )
@@ -55,10 +55,10 @@ INTRO_TODO = (
 def todo_for(chapter: int, verse: int) -> str:
     return (
         "TODO: write this verse from the source digest \u2014 at least %d words in all, in "
-        "paragraphs of more than 120 words each. Read all ten works for this verse first "
+        "paragraphs of more than 120 words each. Read all eleven works for this verse first "
         "(python3 scripts/tafsir/sources.py %d --verse %d), learn from them, and write the "
         "book's own reading: never relay, compare or quote one of them, and never a work "
-        "outside the ten. Present this verse on its own terms — nothing about the way it is "
+        "outside the eleven. Present this verse on its own terms — nothing about the way it is "
         "built may repeat another verse's way (a different opening, a different arrangement, "
         "headings no other verse uses), and a heading may carry one paragraph or several, each "
         "past 120 words. Plan the section "
@@ -67,7 +67,9 @@ def todo_for(chapter: int, verse: int) -> str:
         "phrase of the verse inside the prose in bold italics, explain it, and back each quoted "
         "phrase with evidence beside it \u2014 a cross-reference to another verse (the clause in "
         "bold with curly quotes, the reference in the parentheses) from data/chapter_%s.js, a "
-        "report quoted in italics with its collection, or a named early authority. Bold is reserved: "
+        "report quoted in italics with its collection, or a named early authority. Every "
+        "cross-reference carries the clause it points to (python3 scripts/tafsir/reference.py C:V "
+        "prints them). Bold is reserved: "
         "the UPPERCASE headings, this "
         "verse's own phrases (bold italics) and the clauses of other verses (bold only) \u2014 "
         "nothing else in the file is bold, and no sentence explains a word, English or Arabic, "

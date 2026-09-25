@@ -14,8 +14,8 @@ the format below, and it is not finished until `scripts/tafsir/audit.py N` print
 ## 1. The job
 
 Write the verse-by-verse tafsir for **one chapter** of the Qur'an, in simple English, from the
-**ten** tafsir works this corpus is written from (`tafsir-*/NNN.txt`; the list is
-`corpus.SOURCE_ALLOWLIST` and nothing outside it is a source):
+**eleven** works this corpus is written from (`tafsir-*/NNN.txt` and `tafsir_initial/NNN.md`; the
+list is `corpus.SOURCE_ALLOWLIST` and nothing outside it is a source):
 
 | Work | In the repo | What it is for |
 |---|---|---|
@@ -29,6 +29,7 @@ Write the verse-by-verse tafsir for **one chapter** of the Qur'an, in simple Eng
 | `tafsir-as-saadi` | Arabic | the modern meaning-first reading |
 | `tafsir-ibn-uthaymeen` | Arabic | the modern teaching tafsir (partial coverage — see §7) |
 | `tafsir-maarif-ul-quran` | English | the modern reading, fiqh and contemporary questions |
+| `tafsir_initial` | English | the study-Quran-style draft, **the eleventh work (v7.2)** — read for its material like the rest, partial coverage, never relayed or quoted |
 
 One file per chapter: `tafsir/NNN.md`.
 
@@ -40,20 +41,22 @@ Everything you write about a verse must be traceable to a source that discusses 
 the Qur'an's own text, or to a report the sources carry. No invention, no padding, no
 paraphrase of the translation dressed up as commentary.
 
-**Two standing instructions:**
+**Four standing instructions:**
 
-1. **The chapter is generated in batches, and you continue on your own until the end.** Write a
-   batch, run the batch gate, fix what fails, start the next batch, and keep going — without
-   stopping to ask, and without waiting to be told — until every verse of the chapter is written
-   and `audit.py N` passes. A chapter is a marathon, not a lap: the only reasons to pause are a
-   source that cannot be located or a contradiction that needs a decision (§10).
-2. **All ten are read for every verse before a word of it is written — and none of them is
-   relayed, compared or quoted.** Run the digest for the verse, read what each of the ten says
+1. **You continue on your own until the run is finished.** Write the run in stretches, gate each
+   stretch with `batch.py N --from A --to B` as it lands, fix what fails, start the next stretch,
+   and keep going — without stopping to ask, and without waiting to be told — until all fifty
+   verses of the run are written and clean (`run.py --check` prints RUN COMPLETE), and the chapter
+   gate `audit.py N` passes for any chapter finished on the way. A run is a marathon, not a lap:
+   the only reasons to pause are a source that cannot be located or a contradiction that needs a
+   decision (§10).
+2. **All eleven are read for every verse before a word of it is written — and none of them is
+   relayed, compared or quoted.** Run the digest for the verse, read what each of the eleven says
    about it (Arabic sources included: read them and put the substance into English), then write
    **the book's own reading** from what you learned. The gate proves the reading mechanically:
-   `sources.py` must have pulled the verse's text for all ten (`SRC-NOTCHECKED`); a sentence that
+   `sources.py` must have pulled the verse's text for all eleven (`SRC-NOTCHECKED`); a sentence that
    hands the point to a work (`STY-PARAPHRASE`) or quotes one (`SRC-QUOTED`) fails; naming a work
-   outside the ten fails (`SRC-BANNED`). Their contents are authenticated, so they are taken as
+   outside the eleven fails (`SRC-BANNED`). Their contents are authenticated, so they are taken as
    they stand — no fact-checking them, no grading their chains, no survey of who said what: the
    evidence the reader checks is the Qur'an, the reports with their collections, and the early
    authorities as the reports carry them.
@@ -66,24 +69,32 @@ paraphrase of the translation dressed up as commentary.
    verses, a heading reused or templated, and (in chapters of ten verses or more) one arrangement
    used by most verses (`STY-UNIQUE-VERSE`). Only quoted matter — the verse's own phrases, cited
    clauses, a report's words — is allowed to come again.
-4. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
-   **speed** and for **scale**: batches do not depend on one another, so several are written and
-   gated at once, and a single pass should cover a very long list of verses — **the whole chapter
-   where the material allows it**, not a handful at a time. Draft the next range while the last is
-   being gated, and audit many finished ranges in one call with `batch.py N --ranges A-B,C-D,E-F`
-   (the ranges run in parallel). A chapter is never produced one small batch at a time just because
-   that was the earlier habit: cover as much of the chapter in one pass as you can hold at the
-   standard, and go straight on to the rest.
+4. **Work in runs of fifty verses, mapped once and finished before you pause (v7.2).** The run is
+   the unit of work and it may span chapters — the first run is 1:1–1:7 plus 2:1–2:43. Begin it with
+   `run.py --plan` and `run.py --build`: the whole run is pulled out of all eleven works in one
+   pass, so the sources are opened once for fifty verses instead of once per verse, and the map is
+   then read in slices. Write, gate and fix until **every one of the fifty is written and clean**
+   (`run.py --check` prints RUN COMPLETE); that is what "the run is finished" means. Speed comes
+   from the map being in hand and from working several stretches of the run in parallel —
+   `batch.py N --ranges A-B,C-D,E-F` gates them at once — never from lowering the standard.
 
 ## 2. Build the inputs first
 
 ```bash
 cd /home/user/quran-explained
 
+python3 scripts/tafsir/run.py --plan               # the next fifty verses (may span chapters)
+python3 scripts/tafsir/run.py --build              # all eleven works for the run, mapped in one pass
+python3 scripts/tafsir/run.py --slice 2:1 2:5      # read the map a stretch at a time
+python3 scripts/tafsir/run.py --check              # RUN COMPLETE only when all fifty are clean
+
 python3 scripts/tafsir/sources.py N --stats        # where the material is, before reading
 python3 scripts/tafsir/sources.py N                # writes tmp/sources/NNN.txt + NNN.json
 python3 scripts/tafsir/scaffold.py N               # writes tafsir/NNN.md with byte-exact verse quotes
 python3 scripts/tafsir/scaffold.py N --phrases     # the phrase cut each verse is measured against
+python3 scripts/tafsir/reference.py 2:255          # ready-made citations for a cross-reference
+python3 scripts/tafsir/reference.py --scan N       # every bare citation in tafsir/NNN.md + its expansion
+python3 scripts/tafsir/assemble.py N               # splice tmp/work/cN_v*.md drafts into the chapter
 python3 scripts/tafsir/verify.py "<claim>" --chapter N   # confirm a source really makes a point
 ```
 
@@ -122,7 +133,7 @@ Arabic sources are first-class material here. Read them and translate the substa
 into the book's own English. Do not machine-translate a paragraph and paste it in; that produces
 prose no reader wants.
 
-**What you do with the research (v7).** The ten are what the book was learned from — they are not
+**What you do with the research (v7).** The eleven are what the book was learned from — they are not
 its voices. Nothing you write relays a work's opinion, compares the works, or quotes one of them:
 *"al-Ṭabarī records that…"*, *"according to al-Saʿdī"*, *"the commentators say"* all fail
 (`STY-PARAPHRASE`), and a quotation beside a work's name fails (`SRC-QUOTED`). Their contents are
@@ -191,7 +202,15 @@ bold**:
 
 Anything else in bold — a name emphasised, a term of art, a phrase the writer wants the reader to
 notice — fails `MTCH-BOLD`. The commentary's own voice carries no emphasis at all: **bold is the
-Qur'an's, italics are the report's, plain text is the writer's.**
+Qur'an's, italics are the report's, plain text is the writer's**.
+
+A cross-reference is **always expanded** (v7.2): the citation carries the clause under discussion,
+copied from `data/chapter_NNN.js` — `(2:255 — **“Allah! There is no god ˹worthy of worship˺ except
+Him”**)`. A bare `(2:255)`, or a list like `(2:156, 245, 281)`, is a number the reader cannot read:
+one or two in a section warn (`REF-BARE`) and three in one section fail. `scripts/tafsir/reference.py
+2:255` prints the clauses ready to paste, and `--scan N` finds every bare citation in a chapter and
+prints its replacement (`--write` applies them). Never type a clause by hand — a typed clause is how
+`REF-QUOTE` failures happen.
 
 Rules the auditor enforces:
 
@@ -269,7 +288,7 @@ only to announce what kind of content follows, delete it and let the content spe
 
 ### 4.3 One reading — the book's own, with the research behind it
 
-The ten works are what the book was **learned from**, not what it speaks about. A section is an
+The eleven works are what the book was **learned from**, not what it speaks about. A section is an
 argument about what the verse says and asks, written in the book's own voice; what the reader can
 check — cross-references, reports with their collections, early authorities — is the evidence
 carrying it. A sentence that hands the point to a work (*"al-Ṭabarī records that…"*, *"according to
@@ -371,8 +390,8 @@ holding it — or the paragraph straight after it — must carry one of:
 
 * a Qur'an cross-reference, the standard of evidence here: `(C:V — **“clause”**)`;
 * a prophetic report with its collection, narrator and grade when the source gives one;
-* a named authority — one of the ten above, or a Companion or Successor (Mujāhid, Qatādah, al-Suddī,
-  ʿIkrimah) as the ten report him — whose reading is being reported;
+* a named authority — a Companion or Successor (Mujāhid, Qatādah, al-Suddī,
+  ʿIkrimah) as the works report him — whose reading is being reported;
 * a lexical or grammatical point that changes the meaning.
 
 **What the auditor checks** (`PHR-*`, `FMT-HEADING-*`):
@@ -404,11 +423,14 @@ holding it — or the paragraph straight after it — must carry one of:
    never from memory, never retyped if you can copy it.
 * A quotation from **another** verse is written `(C:V — **“the clause under discussion”**)` — em
    dash, curly quotes, bold only — and the clause must be a verbatim substring of that verse's
-   `ayah_en`.
+   `ayah_en`. **Every** reference is written this way (v7.2): a bare citation, or a bare list of
+   citations, is `REF-BARE` — a warning at one or two in a section, a failure from three.
 * A phrase of **this** verse is written `***“the phrase of this verse”***` — bold italics — and must
    be a substring of this verse's `ayah_en` (the gate reports a foreign quote in that style).
 * Quote the clause under discussion, not a whole long verse.
-* A bare citation without a quote is fine and encouraged: `(2:255)`, `(3:8)`.
+* A citation without its wording is **not** a cross-reference (v7.2). `scripts/tafsir/reference.py
+   --find "<wording>"` finds the verse that carries a phrase, and `reference.py C:V` prints the
+   clauses of a verse ready to paste.
 * Hadith and athar are quoted inside emphasis with straight quotes: `*"..."*` — italic, never
   bold. Bold belongs to Qur'anic wording alone: this verse's phrase in bold italics, another verse's
   clause in bold only. Nothing else in the file is bold (`MTCH-BOLD`).
@@ -453,8 +475,8 @@ holding it — or the paragraph straight after it — must carry one of:
 Write for a reader who has no Arabic and no seminary training: a shopkeeper, a student, a nurse
 reading on a phone between tasks. Every sentence should be understandable on one reading.
 
-**The numbers the gate measures** (on prose only; `batch.py` reports them for the batch while the
-chapter is still being written, and `audit.py` for the whole chapter at the end):
+**The numbers the gate measures** (on prose only; `batch.py` reports them for the stretch being
+gated while the chapter is still being written, and `audit.py` for the whole chapter at the end):
 
 | Measure | Target | Warn | Fail |
 |---|---|---|---|
@@ -513,9 +535,11 @@ Worked examples from chapter 1:
 ## 9. Self-check before calling a chapter done
 
 ```bash
-# while the chapter is being written, gate each batch (see §10)
+# while the run is being written, gate each stretch (see §10)
+python3 scripts/tafsir/run.py --status              # how much of the fifty-verse run is written
+python3 scripts/tafsir/run.py --check               # RUN COMPLETE only when all fifty are clean
 python3 scripts/tafsir/batch.py N --from A --to B   # only the verses written so far
-python3 scripts/tafsir/batch.py N --ranges A-B,C-D,E-F   # several batches at once, in parallel
+python3 scripts/tafsir/batch.py N --ranges A-B,C-D,E-F   # several stretches at once, in parallel
 python3 scripts/tafsir/batch.py N --progress        # how far the chapter has come
 
 # when the last verse is written, the whole chapter must pass
@@ -539,7 +563,7 @@ adjusted to the verse's own words and recorded as information, `MTCH-SYNONYM`); 
 verse is wrong; `WRD-*` — the section is
 under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
 chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or
-announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the ten is cited, a work of the ten is
+announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the eleven is cited, a work of the eleven is
 summarised or quoted instead of written from, or the digest for a verse was never built.
 
 When the gate is clean:
@@ -548,7 +572,7 @@ When the gate is clean:
 2. bump `CACHE_VERSION` in `sw.js`;
 3. add the chapter's row to `TAFSIR_WORKLOG.md`;
 4. commit on the session branch with the message
-   `Tafsir ch N (<Name>): verse-by-verse, written from the ten works`,
+   `Tafsir ch N (<Name>): verse-by-verse, written from the eleven works`,
    then push — never to another branch.
 
 ### The rules are tested, not assumed
@@ -558,89 +582,89 @@ a lowercase heading, a mis-quoted verse, a bad citation, a labelled paragraph, a
 section — and checks that the gate reports the code the rule promises. It prints one row per rule and
 exits non-zero if any rule is not enforced. Run it whenever `audit.py` changes.
 
-## 10. Batch discipline — and keep going until the chapter is finished
+## 10. Run discipline — fifty verses, mapped once, finished before you pause
 
-A chapter is written one file (`tafsir/NNN.md`), but a long chapter is written in **batches of
-verses**. The batch is the unit of work; the chapter is the unit of delivery. What matters is the
-standing instruction:
+The **run of fifty verses** is the unit of work (v7.2); the chapter is the unit of delivery, and a
+run may span chapters. What matters is the standing instruction:
 
-> **Write a batch, gate the batch, fix what fails, then start the next batch immediately.
-> Do not stop between batches to ask for permission or confirmation. Keep going on your own
-> until every verse of the chapter is written and the whole chapter passes `audit.py N`.**
+> **Map the run, write it, gate it, fix what fails — and do not pause or stop until all fifty
+> verses of the run are written and clean (`run.py --check` prints RUN COMPLETE). Do not stop to ask
+> for permission or confirmation. Keep going on your own until every verse of the chapter is written
+> and the whole chapter passes `audit.py N`.**
 
-Stopping mid-chapter is only justified when a verse has a genuine problem — a source that cannot
-be located, a contradiction between sources that needs a decision — or when the file would be left
-in a state that cannot be repaired by the next batch. Wanting a check-in is not a reason to stop,
-and neither is the size of the chapter. A 286-verse sūrah is finished by the same instruction that
-finishes a 7-verse one: generate the batch, gate it, continue to the end.
+Stopping mid-run is only justified when a verse has a genuine problem — a source that cannot be
+located, a contradiction between sources that needs a decision — or when the file would be left in a
+state that cannot be repaired by the next stretch. Wanting a check-in is not a reason to stop, and
+neither is the size of the chapter. A 286-verse sūrah is finished by the same instruction that
+finishes a 7-verse one: map the run, write it, gate it, continue to the end of the fifty.
 
-### The batch loop
+### The run loop
 
 ```bash
-# once per chapter (see §2)
-python3 scripts/tafsir/sources.py N
-python3 scripts/tafsir/scaffold.py N
+# once per run of fifty verses (see §2) — the sources are opened once, not per verse
+python3 scripts/tafsir/run.py --plan
+python3 scripts/tafsir/run.py --build
+python3 scripts/tafsir/run.py --slice 1:1 1:7    # read the map a stretch at a time
 
-# then, for each stretch of verses (as long as the chapter allows: a short chapter is one pass,
-# a long one is taken in the largest stretches the material supports)
-python3 scripts/tafsir/batch.py N --from 6 --to 20     # gate just this batch
-python3 scripts/tafsir/batch.py N --ranges 6-20,21-35,36-50   # three batches at once, in parallel
-python3 scripts/tafsir/batch.py N --progress           # how far the chapter has come
+# then, for each stretch of the run (the material decides the size of a stretch: verses that carry
+# a whole page of law each move a few at a time, short verses move in tens)
+python3 scripts/tafsir/batch.py N --from 6 --to 20     # gate just this stretch
+python3 scripts/tafsir/batch.py N --ranges 6-20,21-35,36-50   # three stretches at once, in parallel
+python3 scripts/tafsir/run.py --status                 # the run's fifty: written, failing, pending
 
-# when the last verse is written:
+# when the last verse of the run is written:
+python3 scripts/tafsir/run.py --check                  # RUN COMPLETE — the fifty are done
 python3 scripts/tafsir/audit.py N                      # the whole chapter must pass
 python3 scripts/tafsir/build_data.py N
 python3 scripts/tafsir/build_data.py N --check
 ```
 
 `batch.py` runs the same rule set as `audit.py` but reports only the verses that are written, so a
-finished batch is judged on its own. It prints per-verse words against floors, phrase coverage,
-whether the verse carries an analogy, and the batch's sentence-length and reading-ease numbers —
-then tells you the next verse to write. Run it, fix every FAIL, and go straight on to the next
-batch.
+finished stretch is judged on its own. It prints per-verse words against floors, phrase coverage,
+whether the verse carries an analogy, and the stretch's sentence-length and reading-ease numbers —
+then tells you the next verse to write. Run it, fix every FAIL, and go straight on.
 
 ### Spreading the work
 
-Batches are independent of each other, so they are produced and checked in parallel, not one at a
-time:
+The stretches of a run are independent of each other, so they are produced and checked in parallel,
+not one at a time:
 
-* **Keep several batches in flight, and make each one long.** While one range is being gated, the
-  next (and the next) is being drafted; independent steps belong in the same pass, not in a queue.
-  The point of the rule is throughput: a 286-verse chapter should move in tens of verses at a time,
-  and a 7-verse chapter should be finished in a single pass.
+* **Keep several stretches in flight.** While one range is being gated, the next (and the next) is
+  being drafted; independent steps belong in the same pass, not in a queue. The map is already in
+  hand — that is what makes the parallel drafting cheap.
 * **Gate in parallel.** `batch.py N --ranges A-B,C-D,E-F` audits every range at once (`--jobs`
   controls how many run together) and prints one report per range plus a combined verdict, so a
-  whole chapter's worth of finished batches can be checked in a single call.
-* **Only real dependencies serialise.** A batch depends on the scaffold and the source digest, not
-  on the batch before it. Do not wait for one batch to pass before drafting the next.
+  whole run's worth of finished stretches can be checked in a single call.
+* **Only real dependencies serialise.** A stretch depends on the map and the chapter file, not on
+  the stretch before it. Do not wait for one stretch to pass before drafting the next.
+* **The run does not stop at a stretch boundary.** Fifty verses are finished before the writer
+  pauses: `run.py --check` is the test, and it is run before any pause.
 
 ### Rules that hold at every commit
 
 1. **Never leave a half-written verse.** A verse's section is either the scaffold's `TODO` text or
-   finished prose. Drafts live in the scratch area, not in the chapter file.
-2. **Re-read §4 to §8 before each batch.** The standard is the same for verse 200 as for verse 1.
-   Batch gates drift when the writer stops looking at the rule book.
-3. **A batch is done when it is clean.** No FAIL, and every warning read. Do not carry a known
-   problem forward into the next batch; it gets harder to see later.
-4. **Commit per batch** (or per two batches) on the session branch, with the message
+   finished prose. Drafts live in the scratch area (`tmp/work/`), spliced in with `assemble.py`.
+2. **Re-read §4 to §8 before each stretch.** The standard is the same for verse 200 as for verse 1.
+   Gate drift starts when the writer stops looking at the rule book.
+3. **A stretch is done when it is clean.** No FAIL, and every warning read. Do not carry a known
+   problem forward into the next stretch; it gets harder to see later.
+4. **Commit per stretch** (or per run) on the session branch, with the message
    `Tafsir ch N (<Name>): verses A-B`. The chapter is unfinished at this point: the payload is not
    built, `sw.js` is not bumped, and the worklog row is not added.
 5. **The chapter is done** when `audit.py N` passes in full, `status.py N` shows every verse above
    its floor, `build_data.py N --check` reports no stale payload, `sw.js` `CACHE_VERSION` is
    bumped, and `TAFSIR_WORKLOG.md` has the row. Then commit and push, and move to the next chapter
    in the same way.
-6. **Progress is visible between batches** through `batch.py N --progress` and the worklog's "in
-   progress" section; nobody has to ask how far the chapter has come.
+6. **Progress is visible** through `run.py --status`, `batch.py N --progress` and the worklog's
+   "in progress" section; nobody has to ask how far the run has come.
 
 ### Choosing how much to write in one pass
 
-**As much as the chapter allows, and the whole chapter wherever possible.** The range is a unit of
-work, not a ration: a short chapter of six or seven verses is written in one pass, and a long
-chapter is taken in the largest stretches the material supports — several tens of verses at once,
-or the rest of the chapter, when the verses are short and the digest is in hand. Verses that carry a
-whole page of law each (the legal passages of al-Baqarah, the inheritance verses of al-Nisāʾ) are
-handled in smaller groups, but still several at a time and in parallel with the next group. Whatever
-the size, the loop is the same: write, gate, fix, continue — and keep several groups in flight.
+**A stretch is as long as the material allows, and the run always reaches fifty.** The stretch is a
+unit of the work, not a ration: short verses move in tens, and verses that carry a whole page of law
+each (the legal passages of al-Baqarah, the inheritance verses of al-Nisāʾ) are handled a few at a
+time — but still several stretches in flight, and always until the fifty are done. Whatever the
+size, the loop is the same: read the map, write, gate, fix, continue.
 
 ## 11. What this pass deliberately does not do
 

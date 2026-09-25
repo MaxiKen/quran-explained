@@ -82,18 +82,21 @@ def _sub_verse(text, verse, pattern, repl, count=1):
     return _edit_verse(text, verse, fn)
 
 
-def _written_verse(text, chapter):
-    """Number of the first verse with a real reading in it (else the last verse)."""
+def _first_written(text, chapter):
+    """The first verse with a real reading in it, or None while the chapter is scaffold."""
     blocks = list(re.finditer(r"(?m)^## Verse %d:(\d+)[ \t]*$" % chapter, text))
-    last = 1
     for i, m in enumerate(blocks):
-        last = int(m.group(1))
         end = blocks[i + 1].start() if i + 1 < len(blocks) else len(text)
         block = text[m.start():end]
         if (block.count("***\u201c") and _first_ref(block)
                 and len(re.findall(r"(?m)^\*\*[^\n]+\*\*$", block)) >= 2):
-            return last
-    return last
+            return int(m.group(1))
+    return None
+
+
+def _written_verse(text, chapter):
+    """Number of the first verse with a real reading in it (else the last verse)."""
+    return _first_written(text, chapter) or 1
 
 
 # ------------------------------------------------------------------ mutations
@@ -328,7 +331,7 @@ def mut_paraphrase(text, ch):
 
 
 def mut_source_quote(text, ch):
-    """v7: a work of the ten is quoted."""
+    """v7: a work of the eleven is quoted."""
     def fn(block):
         span = _first_para(block)
         if not span:
@@ -677,11 +680,11 @@ CASES = [
     ("\u00a78 every verse carries an analogy", "STY-ANALOGY", mut_analogy),
     ("v7 every paragraph runs past 120 words", "WRD-PARA-FLOOR", mut_para_short),
     ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
-    ("v7 the ten are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("v7 the eleven are never quoted", "SRC-QUOTED", mut_source_quote),
     ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
     ("v7.1 no heading reused across verses", "STY-UNIQUE-VERSE", mut_heading_reuse),
     ("v7.1 no house frame across verses", "STY-UNIQUE-VERSE", mut_house_frame),
-    ("\u00a71 nothing outside the ten is cited", "SRC-BANNED", mut_banned),
+    ("\u00a71 nothing outside the eleven is cited", "SRC-BANNED", mut_banned),
     ("\u00a77 a prophetic report names its collection", "EVD-ATTRIBUTION", mut_attribution),
     ("\u00a78 no duplicated sentences", "REP-SENTENCE", mut_rep_sentence),
     ("\u00a78 no pipeline vocabulary", "REP-FILLER", mut_filler),
@@ -699,6 +702,10 @@ def run(chapter):
     global TARGET
     src = MD_DIR / ("%s.md" % C.pad3(chapter))
     text = src.read_text(encoding="utf-8")
+    if _first_written(text, chapter) is None:
+        # nothing is written yet: every case would mutate scaffold text and prove nothing,
+        # and a 286-verse scaffold makes each audit run expensive
+        return [("the whole chapter", "\u2014", "SKIP", "no written verse yet")]
     TARGET = _written_verse(text, chapter)
     opts = argparse.Namespace(no_grounding=True)
     rows = []

@@ -14,11 +14,14 @@ It checks that
 * ``STY-PARAPHRASE`` fails a point handed to a named work — reported, framed
   ("according to …", "the reading of …"), or led by the work's name — and passes
   an early authority cited as evidence (Ibn ʿAbbās), a report with its collection,
-  and a plain mention of the ten with no claim attached;
+  and a plain mention of the eleven with no claim attached;
 * ``SRC-QUOTED`` fails a quotation standing beside a work's name, and passes a
   hadith quoted with its collection;
 * ``STY-APPLICATION`` sees the reader's own world only when the phrasing actually
-  reaches it.
+  reaches it;
+* v7.2: ``REF-BARE`` counts cross-references that carry no wording — one or two in a
+  section warn, three in one section fail — and passes a citation expanded with the
+  clause it points to.
 
 Exit status is 0 when every expectation holds.
 """
@@ -65,9 +68,11 @@ AUTHORSHIP_CASES = [
     ("an early authority as evidence", "Ibn ʿAbbās said the word means the covenant itself.", []),
     ("a report with its collection",
      'Al-Bukhārī records that the Prophet ﷺ said, *"actions are by intentions."*', []),
-    ("the ten named as what was read",
-     "This commentary was learned from al-Ṭabarī, al-Qurṭubī, al-Baghawī and the rest of the ten.",
+    ("the eleven named as what was read",
+     "This commentary was learned from al-Ṭabarī, al-Qurṭubī, al-Baghawī and the rest of the eleven.",
      []),
+    ("the study draft relayed",
+     "The study draft reads the verse as a warning to the heedless.", ["STY-PARAPHRASE"]),
 ]
 
 PARA_CASES = [
@@ -131,6 +136,35 @@ UNIQUENESS_CASES = [
      ["STY-UNIQUE-VERSE"]),
 ]
 
+REF_CASES = [
+    ("no citation at all", long_para(), []),
+    ("one bare citation", long_para("The same promise stands elsewhere (2:255)."), ["WARN"]),
+    ("two bare citations in one section",
+     long_para("It answers (2:255) and it returns (2:256)."), ["WARN"]),
+    ("three bare citations in one section",
+     long_para("It answers (2:255), returns (2:256) and closes (2:257)."), ["FAIL"]),
+    ("a list of citations",
+     long_para("The Qur'an returns to the theme (2:156, 245, 281)."), ["WARN"]),
+    ("an expanded citation",
+     long_para("The Throne verse says (2:255 \u2014 **\u201cAllah! There is no god\u201d**) and "
+               "the point stands."), []),
+]
+
+
+def bare_refs(text):
+    """Run the v7.2 cross-reference rule over synthetic prose; return the levels raised."""
+    out = []
+
+    def fail(code, ref, line, msg):
+        out.append("FAIL")
+
+    def warn(code, ref, line, msg):
+        out.append("WARN")
+
+    A._bare_ref_findings(text, "3:1", 1, fail, warn)
+    return out
+
+
 APPLICATION_CASES = [
     ("reaching the reader today", long_para("And the same choice faces him today."), True),
     ("never reaching him", long_para(), False),
@@ -164,6 +198,14 @@ def main() -> int:
     for name, secs, want in UNIQUENESS_CASES:
         got = sorted(set(uniqueness(secs)["FAIL"] + uniqueness(secs)["WARN"]))
         ok = got == sorted(set(want))
+        bad += not ok
+        print("  %-4s %-34s want=%-28s got=%s"
+              % ("ok" if ok else "FAIL", name, ",".join(want) or "-", ",".join(got) or "-"))
+
+    print("v7.2 — every cross-reference carries the wording it points to (§2.5)")
+    for name, text, want in REF_CASES:
+        got = bare_refs(text)
+        ok = bool(got) == bool(want)
         bad += not ok
         print("  %-4s %-34s want=%-28s got=%s"
               % ("ok" if ok else "FAIL", name, ",".join(want) or "-", ",".join(got) or "-"))

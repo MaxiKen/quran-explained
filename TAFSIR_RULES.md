@@ -1,9 +1,10 @@
 # The rules — every one of them, in one list
 
-This is the complete rule set the verse-by-verse corpus is held to: the ten works it may be written
-from, the shape of a chapter file, the quoting law, the length floors, the evidence and attribution
-law, the phrasing rules, the style rules, the repetition rules, the advisory grounding check, and
-the process rules for writing a chapter in batches.
+This is the complete rule set the verse-by-verse corpus is held to: the eleven works it may be
+written from, the shape of a chapter file, the quoting law, the expansion of every cross-reference,
+the length floors, the evidence and attribution law, the phrasing rules, the style rules, the
+repetition rules, the advisory grounding check, and the process rules for writing a chapter in runs
+of fifty verses.
 
 Where each rule lives:
 
@@ -11,7 +12,9 @@ Where each rule lives:
 |---|---|
 | §0 below | **what this book is** — the standard the whole rule set serves |
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
-| `scripts/tafsir/audit.py` | the same rules mechanised — **76 codes**; the authority on *what actually blocks a chapter* |
+| `scripts/tafsir/audit.py` | the same rules mechanised — **77 codes**; the authority on *what actually blocks a chapter* |
+| `scripts/tafsir/run.py` | the fifty-verse run: the next fifty verses, mapped from all eleven in one pass, and the check that the run is finished |
+| `scripts/tafsir/reference.py` | every cross-reference expanded with the wording it points to, ready to paste |
 | `scripts/tafsir/batch.py` | the same rule set applied to the verses written so far, so a batch can be judged while the chapter is unfinished |
 | `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy, and checks that the match rules stay silent on the verse's own wording and on synonyms of it |
 | `scripts/tafsir/lexicon.py` | the tables the match rule judges by: the synonym groups and the glosses of the Arabic terms |
@@ -28,28 +31,28 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
 
 ---
 
-## 0. What this book is (standard v7.1, set 2026-09-25)
+## 0. What this book is (standard v7.2, set 2026-09-25)
 
-The chapters are **one author's own commentary book**. The ten works are the research behind it,
+The chapters are **one author's own commentary book**. The eleven works are the research behind it,
 not the content of it. The writer reads them, learns what the verse carries and how it has been
 read, and then writes **new prose of his own** — his reading, his explanations, his history, his
 rulings, his analogies, his application to the reader's life — backed by evidence the reader can
 check. What was learned from a source is written as the book's own statement; it is not re-told as
 that source's opinion, not compared work by work, and not quoted.
 
-1. **Original writing, learned from the ten.** Every paragraph is the book's own voice. A sentence
+1. **Original writing, learned from the eleven.** Every paragraph is the book's own voice. A sentence
    that hands a point to a named work — *"al-Ṭabarī records that…"*, *"according to al-Saʿdī"*,
    *"the words of al-Jalālayn stand beside it"*, *"the commentators say"* — is a summary of a
    source, and **fails** (`STY-PARAPHRASE`), in the introduction and in every verse section. Write
    the reading itself: *"the sentence turns on the second clause, because…"*.
-2. **The ten are never quoted.** A quotation beside a work's name **fails** (`SRC-QUOTED`).
+2. **The eleven are never quoted.** A quotation beside a work's name **fails** (`SRC-QUOTED`).
    Reporting may quote a *report* in the corpus's straight-quote style — `*"…"*` — when the report
    is itself the evidence and is cited with its collection (a hadith, an athar); the commentarial
    works are used, not quoted.
 3. **The sources' contents are taken as they stand.** They are authenticated works. The writer
    does not fact-check them, does not grade their reports (beyond a grade a source itself gives,
    §6.4), does not adjudicate between their chains, and does not need to attribute a point to a
-   work for the point to stand. Research is required — **all ten are read for every verse**
+   work for the point to stand. Research is required — **all eleven are read for every verse**
    (`SRC-NODIGEST`, `SRC-NOTCHECKED`) — but the reading that comes out is the book's own.
 4. **Backed by evidence.** Original does not mean unsupported: every verse still carries checkable
    anchors — Qur'an cross-references, hadith with their collections, named early authorities
@@ -81,34 +84,54 @@ that source's opinion, not compared work by work, and not quoted.
    verses opening a heading with the same two words warn and three fail; and in a chapter of ten
    verses or more, one arrangement of headings and paragraphs shared by 70% of verses warns and by
    90% fails.
+8. **A cross-reference carries the words it points to (v7.2).** The reader is never handed a bare
+   number: every citation of another verse is expanded with the clause under discussion, copied
+   verbatim from `data/chapter_NNN.js` — `(C:V — **“the clause”**)`. One or two bare citations in a
+   section warn (`REF-BARE`); three in one section fail. `scripts/tafsir/reference.py` prints the
+   expansion, so a clause is never typed by hand.
+9. **The work moves in runs of fifty verses (v7.2).** A run is the unit of work and may span
+   chapters. It is mapped out of all eleven works in one pass at the start (the sources are opened
+   once for fifty verses, not once per verse), and **it is finished before the writer pauses or
+   stops**: fifty verses written, gated and clean (`scripts/tafsir/run.py --check`).
 
 The codes v7 retired with this standard: `SRC-SPREAD`, `SRC-FAMILY` (the quotas that *required*
 five works to be named in each verse) and `SRC-UNUSED` (which asked for works to be named at
-chapter level). Naming the ten was the old trade; writing from them is the new one.
+chapter level). Naming the works was the old trade; writing from them is the new one.
 
 v7.1 added one law to the same spirit: **no verse repeats another verse's presentation** (§0.7),
 and settled the question of paragraphs — a heading may carry as many paragraphs as the thought
 needs, each past 120 words (§0.6).
 
+**v7.2 (2026-09-25)** adds two more, both about how the work is done and read: the eleventh work
+(`tafsir_initial`, §1.1–§1.2), and **every cross-reference expanded with the wording it points to**
+(§0.8, §2.5) — plus the process law that the writing moves in **runs of fifty verses**, mapped from
+all eleven in one pass and finished before the writer pauses (§0.9, §11.4).
+
 ## 1. Sources — what may be written from (`SRC-*`)
 
-1. **The corpus is ten works, and nothing else.** `corpus.SOURCE_ALLOWLIST`:
+1. **The corpus is eleven works, and nothing else (v7.2).** `corpus.SOURCE_ALLOWLIST`:
    `tafsir-al-tabari`, `tafsir-al-qurtubi`, `tafsir-al-baghawi`, `tafsir-ibn-kathir`,
    `tafsir-al-alusi`, `tafsir-al-jalalayn`, `tafsir-ibn-abbas`, `tafsir-as-saadi`,
-   `tafsir-ibn-uthaymeen`, `tafsir-maarif-ul-quran`. Naming any other tafsir — al-Bayḍāwī,
-   al-Shawkānī, al-Qushayrī, al-Tustarī, Kashānī, al-Mukhṭaṣar, al-Wāḥidī, *Bahr al-Muḥīṭ*,
-   *Tazkir al-Qurʾān* and the rest of the deleted folders — **fails** (`SRC-BANNED`). Deleting the
-   folder is the only way a work leaves the corpus; a stray folder cannot re-enter quietly.
-2. **`tafsir_initial/` is not a source.** It is the old study-Quran-style draft, kept on disk for
-   reference only: nothing may be digested from it or cited.
-3. **All ten are read for every verse before a word of it is written.** If the source digest has not
-   been built, the gate **fails** (`SRC-NODIGEST` → run `sources.py N`); if a work that covers the
+   `tafsir-ibn-uthaymeen`, `tafsir-maarif-ul-quran`, `tafsir_initial` (the study-Quran-style draft,
+   added 2026-09-25 as the eleventh). Naming any other tafsir — al-Bayḍāwī, al-Shawkānī,
+   al-Qushayrī, al-Tustarī, Kashānī, al-Mukhṭaṣar, al-Wāḥidī, *Bahr al-Muḥīṭ*, *Tazkir al-Qurʾān*
+   and the rest of the deleted folders — **fails** (`SRC-BANNED`). Deleting the folder is the only
+   way a work leaves the corpus; a stray folder cannot re-enter quietly.
+2. **The eleventh is read like the ten.** `tafsir_initial/NNN.md` is a study-style draft with one
+   `**V**` block per verse and `***` between them; it is digested with the rest (`sources.py`), read
+   for what it carries, and — like the ten — never relayed, compared or quoted. Its coverage is
+   partial (some verses have no block), and a verse it does not cover is only a coverage gap for
+   that verse.
+3. **All eleven are read for every verse before a word of it is written.** If the source digest has
+   not been built, the gate **fails** (`SRC-NODIGEST` → run `sources.py N`); if a work that covers the
    verse was never pulled into it, the gate **fails** (`SRC-NOTCHECKED`). A work with no text for
-   that verse anywhere in the repo is a coverage gap and only warns (`SRC-ABSENT`).
-4. **The ten are research, and the prose is the book's own** (§0). No work of the ten is relayed,
-   compared or quoted in a verse section or the introduction: relaying **fails** (`STY-PARAPHRASE`),
-   quoting **fails** (`SRC-QUOTED`). There is no quota of names to hit; naming a work in a summary
-   is now a failure, not a duty.
+   that verse anywhere in the repo is a coverage gap and only warns (`SRC-ABSENT`). For a run of
+   fifty verses the whole run is pulled in one pass (`run.py --build`), which is how the eleven are
+   opened once instead of once per verse (§11.4).
+4. **The eleven are research, and the prose is the book's own** (§0). No work of the eleven is
+   relayed, compared or quoted in a verse section or the introduction: relaying **fails**
+   (`STY-PARAPHRASE`), quoting **fails** (`SRC-QUOTED`). There is no quota of names to hit; naming a
+   work in a summary is now a failure, not a duty.
 5. **A named authority may still be evidence** — a Companion or Successor as the reports carry him
    (*"Ibn ʿAbbās said the word means the covenant itself"*), a hadith with its collection — where
    the authority *is* the proof. The line is simple: an authority may support the reading; a work
@@ -132,16 +155,22 @@ needs, each past 120 words (§0.6).
 4. **A clause of another verse** is written in **bold only, inside its reference**:
    `(C:V — **“the clause”**)` — em dash, curly quotes. An italic cross-reference quote **fails**
    (`REF-QUOTE-STYLE`).
-5. **A quoted cross-reference clause must be verbatim** from that verse's `ayah_en` (whitespace
-   normalised) — else `REF-QUOTE` (fail). A citation must point to a real verse: `(2:300)` **fails**
-   (`REF-RANGE`). A bare citation with no quote — `(2:255)`, `(3:8)` — is fine and encouraged.
+5. **Every cross-reference is expanded with its translation (v7.2).** A citation carries the
+   clause it points to, verbatim from that verse's `ayah_en` (whitespace normalised) — else
+   `REF-QUOTE` (fail) — and the citation must point to a real verse: `(2:300)` **fails**
+   (`REF-RANGE`). A bare citation with no wording — `(2:255)` — and a parenthesised list of them —
+   `(2:156, 245, 281)` — no longer count as cross-references: one or two in a section **warn**
+   (`REF-BARE`), three or more in one section **fail**. The clause is never typed by hand:
+   `python3 scripts/tafsir/reference.py 2:255` prints ready-made citations, and
+   `python3 scripts/tafsir/reference.py --scan N` lists every bare citation in a chapter with its
+   expansion (`--write` applies them).
 6. **A clause is a clause, not a verse**: over 34 words **fails** (`REF-LONG`), over 22 warns.
 7. **Never re-quote a verse already quoted in the same section** — cite it after that
    (`REF-QUOTE-REPEAT`, warn); re-quoting this verse's own line in reference style warns
    (`REF-SELF-QUOTE`). Chapter-wide, the same wording quoted more than four times warns
    (`REP-QUOTE`).
 8. **Reports, athar and the words of a named early authority are quoted `*"…"*`** (emphasis,
-   straight quotes) — the ten works themselves are never quoted (`SRC-QUOTED`, §0). A passage left
+   straight quotes) — the eleven works themselves are never quoted (`SRC-QUOTED`, §0). A passage left
    in curly quotes outside a Qur'an reference warns from 12 words and **fails** at 25
    (`EVD-QUOTE-STYLE`); Qur'an wording put in straight-quote style **fails** (`REF-STRAIGHT-QUOTE`).
 9. A Qur'an clause quoted in curly quotes with no reference beside it warns (`REF-UNANCHORED`).
@@ -183,7 +212,7 @@ by spelling.
    rule the phrase-coverage checks apply from the other side.
 
 The tables behind the judgement live in `scripts/tafsir/lexicon.py`: `SYNONYM_GROUPS` (the English
-the translations use for one meaning) and `TRANSLIT_GLOSSES` (the Qur'anic terms the ten works
+the translations use for one meaning) and `TRANSLIT_GLOSSES` (the Qur'anic terms the eleven works
 transliterate, with the English for each). `scripts/tafsir/match.py` answers the question for a word
 or a phrase before it is written:
 
@@ -271,7 +300,7 @@ yet used — usually the Arabic sources — never repetition or vague exhortatio
 7. **Every quoted phrase carries evidence beside it** — in its own paragraph, or the paragraph
    straight after it: a Qur'an cross-reference, a report with its collection, a named authority
    (a Companion or Successor as the reports carry him), or a language point that changes
-   the meaning. Otherwise `PHR-EVIDENCE` (fail). A work of the ten is not an anchor: naming one is
+   the meaning. Otherwise `PHR-EVIDENCE` (fail). A work of the eleven is not an anchor: naming one is
    a summary, and a summary fails (`STY-PARAPHRASE`, §0).
 
 ## 6. Evidence and attribution (`EVD-*`)
@@ -296,7 +325,7 @@ yet used — usually the Arabic sources — never repetition or vague exhortatio
 
 ## 7. One reading, in the book's own voice (`STY-SOURCE-PARADE`)
 
-The ten works are **witnesses inside one argument**, not ten speakers taking turns — and since
+The eleven works are **witnesses inside one argument**, not eleven speakers taking turns — and since
 v7 they are not speakers at all: they are research, and the book says the reading itself (§0). What
 remains checkable is the shape of the prose, in every verse section:
 
@@ -386,30 +415,40 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 
 **Standing instructions (prompt §1):**
 
-1. A chapter is **generated in batches and the writer continues on his own until the end**: write a
-   batch, run the batch gate, fix what fails, start the next batch, keep going — without stopping to
-   ask, and without waiting to be told. Stopping mid-chapter is only for a real blockage (a source
-   that cannot be located, a contradiction that needs a decision), never for a check-in.
-2. **All ten works are read for every verse before a word of it is written.** Reading is research,
+1. A chapter is **generated in runs of fifty verses and the writer continues on his own until the
+   run is finished**: map the run, write, gate, fix what fails, keep going — without stopping to ask,
+   and without waiting to be told. **The fifty verses of the run are completed before the writer
+   pauses or stops** (`run.py --check` must print RUN COMPLETE); stopping mid-run is only for a real
+   blockage (a source that cannot be located, a contradiction that needs a decision), never for a
+   check-in and never because the run was long.
+2. **All eleven works are read for every verse before a word of it is written.** Reading is research,
    not relay: what is learned is written as the book's own reading (§0), backed by evidence — the
-   ten are never summarised or quoted (`STY-PARAPHRASE`, `SRC-QUOTED`), and their contents are
+   eleven are never summarised or quoted (`STY-PARAPHRASE`, `SRC-QUOTED`), and their contents are
    taken as they stand rather than fact-checked.
-3. **Spread the work, and write a long list of verses at a time** — several batches in flight at
+3. **Spread the work, and write a long list of verses at a time** — several stretches in flight at
    once, the largest stretches the material supports, and a short chapter in a single pass. Gate in
    parallel with `batch.py N --ranges A-B,C-D,E-F`.
+4. **The run is planned and mapped before it is written (v7.2).** `run.py --plan` names the next
+   fifty verses (they may span two chapters or more); `run.py --build` pulls all eleven works for the
+   whole run in one pass and writes the map, so the sources are opened once for fifty verses; the
+   writer then reads the map in slices (`run.py --slice C:V C:V`) and writes. `run.py --status` shows
+   what is written, `run.py --check` says whether the run is finished. The run's floor is about
+   25,000 words of commentary; the run is the unit of work, and a run is not left half-written.
 
-**Batch discipline (prompt §10):**
+**Stretch discipline (prompt §10):**
 
-4. Each batch: `batch.py N --from A --to B` (or `--ranges`), fix every FAIL, read every warning, then
-   go straight on to the next batch. `batch.py N --progress` shows how far the chapter has come.
-5. **Never leave a half-written verse**: a section is either the scaffold's `TODO` text or finished
-   prose; drafts live in the scratch area, never in the chapter file.
-6. **Re-read §4–§8 of the prompt before each batch** — the standard is the same for verse 200 as for
-   verse 1.
-7. **A batch is done when it is clean**, with no known problem carried forward. Commit per batch (or
-   per two), on the session branch, with `Tafsir ch N (<Name>): verses A-B`; the payload, the
-   `sw.js` bump and the worklog row wait for the end of the chapter.
-8. **A chapter is done** when all of these hold:
+5. Each stretch: `batch.py N --from A --to B` (or `--ranges`), fix every FAIL, read every warning,
+   then go straight on to the next stretch. `batch.py N --progress` shows how far the chapter has
+   come.
+6. **Never leave a half-written verse**: a section is either the scaffold's `TODO` text or finished
+   prose; drafts live in the scratch area (`tmp/work/`), spliced in with `assemble.py`, never in the
+   chapter file.
+7. **Re-read §4–§8 of the prompt before each stretch** — the standard is the same for verse 200 as
+   for verse 1.
+8. **A stretch is done when it is clean**, with no known problem carried forward. Commit per
+   stretch (or per run), on the session branch, with `Tafsir ch N (<Name>): verses A-B`; the payload,
+   the `sw.js` bump and the worklog row wait for the end of the chapter.
+9. **A chapter is done** when all of these hold:
    * `python3 scripts/tafsir/audit.py N` ends `RESULT: PASS` (no FAIL);
    * `python3 scripts/tafsir/status.py N` shows every verse above its own floor;
    * `python3 scripts/tafsir/build_data.py N` writes `data/tafsir_NNN.json` and `--check` reports no
@@ -419,22 +458,22 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
    * `TAFSIR_WORKLOG.md` has the chapter's row (generated with `status.py --md`, not typed by hand);
    * commit `Tafsir ch N (<Name>): verse-by-verse from all <k> sources` and push to the session
      branch only.
-9. **`python3 scripts/tafsir/selftest.py`** must show every rule caught whenever `audit.py` changes
+10. **`python3 scripts/tafsir/selftest.py`** must show every rule caught whenever `audit.py` changes
    (a `MISS` is a rule the gate does not enforce, a `FIRE` a rule firing where it must not); the
    cases for the v7 rules (§0) are also in **`python3 scripts/tafsir/ruletest.py`**, which runs on
    synthetic prose and therefore works while no chapter is on disk.
 
 **Working agreement (pipeline §5):**
 
-10. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-11. Parallel work splits **by chapter**, never by verse within one file — two writers on one file
+11. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
+12. Parallel work splits **by chapter**, never by verse within one file — two writers on one file
     overwrite each other.
-12. Only chapters that pass `audit.py` get a payload, a worklog row and a commit.
-13. Chapter order is ascending, 001 → 114.
+13. Only chapters that pass `audit.py` get a payload, a worklog row and a commit.
+14. Chapter order is ascending, 001 → 114.
 
 ## 12. What the pass deliberately does not do (prompt §11)
 
-1. It does not mirror, summarise or quote any of the ten: it learns from all of them and writes
+1. It does not mirror, summarise or quote any of the eleven: it learns from all of them and writes
    one clear account in the book's own voice (§0) — and no verse of it is presented in the shape or
    the diction of the one before (§0.7).
 2. It does not transliterate long Arabic passages, quote poetry at length, or reproduce the academic
@@ -492,6 +531,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `PHR-PHRASE-MISSING` | fail | a phrase of the verse is never quoted in the prose |
 | `PHR-CHUNK` | fail/warn | one quoted stretch swallows 65%+ / 40%+ of a 12+-word verse |
 | `PHR-EVIDENCE` | fail | a quoted phrase has no evidence beside it |
+| `REF-BARE` | fail/warn | a cross-reference carries no wording: one or two bare citations `(2:255)` / `(2:156, 245, 281)` in a section warn, three or more fail (v7.2) |
 | `REF-RANGE` | fail | citation is not a real verse of the Qur'an |
 | `REF-QUOTE` | fail | cross-reference quote is not verbatim |
 | `REF-QUOTE-STYLE` | fail | cross-reference quote is italic instead of bold only |
@@ -519,12 +559,12 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `REP-TEMPLATE` | fail/warn | 8-gram overlap with another section above 30% / above 18% |
 | `REP-QUOTE` | warn | the same wording quoted more than 4 times in the chapter |
 | `REP-FILLER` | fail/warn | filler, meta prose, machine voice or cliché (§9) |
-| `SRC-BANNED` | fail | a work outside the ten is cited |
-| `SRC-NODIGEST` | fail | `tmp/sources/NNN.json` missing: the ten were never pulled |
+| `SRC-BANNED` | fail | a work outside the eleven is cited (v7.2) |
+| `SRC-NODIGEST` | fail | `tmp/sources/NNN.json` missing: the eleven were never pulled |
 | `SRC-NOTCHECKED` | fail | a work that covers the verse was never pulled for it |
 | `SRC-ABSENT` | warn | no text for this verse anywhere in the repo (upstream gap) |
 | `STY-PARAPHRASE` | fail | the prose relays a point to a named work (§0; v7) |
-| `SRC-QUOTED` | fail | a work of the ten is quoted beside its name (v7) |
+| `SRC-QUOTED` | fail | a work of the eleven is quoted beside its name (v7) |
 | ~~`SRC-SPREAD`~~, ~~`SRC-FAMILY`~~, ~~`SRC-UNUSED`~~ | retired | the old naming quotas; naming a work to summarise it is now a failure (v7) |
 | `MTCH-BOLD` | fail | bold used outside the three markers (heading, this verse's phrase, another verse's clause) |
 | `MTCH-WORD` | fail | a headword that neither is the verse's wording nor means the same thing as anything in it |
@@ -532,14 +572,15 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `MTCH-SYNONYM` | info | the headword means what the verse says in other words: the comparison is adjusted to the verse's own wording |
 | `GRD-TOKENS` | warn | named/foreign terms not found in the verse's sources (advisory) |
 
-**The codes number 75 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 8 `REF-*`,
-3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 4 `MTCH-*`, 1 `GRD-*`.
+**The codes number 77 in all**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 9 `REF-*`,
+3 `REP-*`, 8 `STY-*`, 7 `SRC-*`, 4 `MTCH-*`, 1 `GRD-*`, plus the v7.2 `REF-BARE` counted inside the
+`REF-*` group (the earlier total of 75 predates v7.2's cross-reference and run law).
 
 ## Appendix B — the numbers, in one table
 
 | Rule | Value |
 |---|---|
-| Sources allowed | the 10 of `corpus.SOURCE_ALLOWLIST`, nothing else |
+| Sources allowed | the **11** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs + `tafsir_initial`, v7.2), nothing else |
 | Works named per verse | none required; a named work in a summary fails (`STY-PARAPHRASE`, v7) |
 | Verse floor | `max(500, 8 × verse words)`, capped 4,000 |
 | Verse soft ceiling | 5,000 |
@@ -550,6 +591,8 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | One quoted run | ≤ 40% of a 12+-word verse (warn), ≤ 65% (fail) |
 | Cross-reference clause | ≤ 22 words (warn), ≤ 34 (fail) |
 | Report quotes | straight quotes; curly-quoted passages warn at 12 words, fail at 25 |
+| Cross-references (v7.2) | every citation expanded with its clause `(C:V — **“clause”**)`, verbatim from `data/`; bare citations warn at 1–2 per section, fail from 3 |
+| Run length (v7.2) | **50 verses** per run (`run.py`, `RUN_VERSE_TARGET`), may span chapters; mapped from all eleven in one pass; the run is finished before the writer pauses (`run.py --check`) |
 | Source-led sentences | warn above 18%, fail above 30%; 3 in a row fails |
 | Source-led paragraphs | warn above 30%, fail above 45% |
 | Reasoning sentences per verse | ≥ 4 (fail below), ≥ 8 preferred |
@@ -569,6 +612,23 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 ## Appendix C — the commands
 
 ```bash
+# the run (v7.2): fifty verses, mapped once
+python3 scripts/tafsir/run.py --plan                 # the next fifty verses, in chapter order
+python3 scripts/tafsir/run.py --build                # map them from all eleven works → tmp/runs/
+python3 scripts/tafsir/run.py --slice 2:1 2:5        # read part of the map
+python3 scripts/tafsir/run.py --status               # words, floors, gate state of the run
+python3 scripts/tafsir/run.py --check                # RUN COMPLETE only when all fifty are clean
+
+# cross-references (v7.2): never type a clause
+python3 scripts/tafsir/reference.py 2:255            # ready-made citations for a verse
+python3 scripts/tafsir/reference.py --find "and fear a Day" --chapter 2
+python3 scripts/tafsir/reference.py --scan 2         # every bare citation in tafsir/002.md
+python3 scripts/tafsir/reference.py --scan 2 --write # ... expanded in place
+
+# drafts and splicing
+python3 scripts/tafsir/assemble.py 1                 # splice tmp/work/c1_v*.md into tafsir/001.md
+python3 scripts/tafsir/assemble.py 1 --check         # what is drafted and what is not
+
 # inputs
 python3 scripts/tafsir/sources.py N --stats          # where the material is
 python3 scripts/tafsir/sources.py N                  # digest → tmp/sources/NNN.{txt,json}

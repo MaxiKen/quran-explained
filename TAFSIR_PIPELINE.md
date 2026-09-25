@@ -3,9 +3,11 @@
 The old commentary corpus (`markdown commentry/`, 114 files written against a word target and
 then edited down over many passes) was deleted in commit `b600667`, together with its payloads
 (`data/tafsir_*.json`), its process documents and its generator scripts. What replaces it is a
-small, strict pipeline: one chapter file at a time, written from the ten tafsir works in this
-repository, gated by an auditor that will not pass anything malformed, unevidenced, repetitive
-or padded.
+small, strict pipeline: one chapter file at a time, written from the **eleven** works in this
+repository (v7.2: the ten tafsirs plus the study draft `tafsir_initial/`), gated by an auditor that
+will not pass anything malformed, unevidenced, repetitive or padded. Work moves in **runs of fifty
+verses** (`run.py`), each mapped out of all eleven works in one pass and finished before the writer
+pauses.
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
 * **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
@@ -22,10 +24,12 @@ or padded.
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
-| `tafsir-*/NNN.txt` | the ten tafsir works (`corpus.SOURCE_ALLOWLIST`; 4 English, 6 Arabic), one `## C:V` section per ayah |
-| `tafsir_initial/NNN.md` | the study-Quran-style verse draft (`initial/` renamed), verses marked `**V**` |
+| `tafsir-*/NNN.txt` | the ten tafsir works of `corpus.SOURCE_ALLOWLIST` (4 English, 6 Arabic), one `## C:V` section per ayah |
+| `tafsir_initial/NNN.md` | the study-Quran-style verse draft, verses marked `**V**` — since v7.2 the **eleventh source** of `corpus.SOURCE_ALLOWLIST` (partial coverage; read, never cited) |
 | `js/`, `css/`, `index.html`, `sw.js` | the reader app; unchanged except that a missing payload no longer breaks a chapter |
-| `tmp/` | scratch: source digests (`tmp/sources/NNN.{txt,json}`), git-ignored |
+| `tmp/sources/NNN.{txt,json}` | the per-chapter source digests (all eleven), rebuildable, git-ignored |
+| `tmp/runs/run-NNN.{txt,json}` | a run's map — the fifty verses with all eleven works beneath them — and its manifest, git-ignored |
+| `tmp/work/cN_v*.md` | the verse drafts for the chapter being written; tracked, so a wiped sandbox cannot take them |
 
 History is not gone. The deleted corpus and its rule documents are readable at the previous
 commit, e.g.
@@ -39,11 +43,12 @@ git show f50425f:data/tafsir_001.json | head -c 300
 
 ## 2. The sources
 
-The corpus is **ten** works, fixed on 2026-09-24 (`corpus.SOURCE_ALLOWLIST`). The other seventeen
-`tafsir-*` folders, including the Arabic duplicates of al-Jalālayn and Ibn Kathīr and the gloss
-collections (al-Qushayrī, al-Tustarī, Kashānī, Kashf al-Asrār, Asbāb al-Nuzūl), were deleted: the
-chapter is written from these ten and from nothing else, and the gate refuses a work outside the
-list (`SRC-BANNED`). The exports came from `spa5k/tafsir_api`; each file header carries its
+The corpus is **eleven** works: the ten fixed on 2026-09-24 and the study draft of
+`tafsir_initial/`, added as the eleventh on 2026-09-25 (v7.2) — `corpus.SOURCE_ALLOWLIST`. The
+other seventeen `tafsir-*` folders, including the Arabic duplicates of al-Jalālayn and Ibn Kathīr and
+the gloss collections (al-Qushayrī, al-Tustarī, Kashānī, Kashf al-Asrār, Asbāb al-Nuzūl), were
+deleted: the chapter is written from these eleven and from nothing else, and the gate refuses a work
+outside the list (`SRC-BANNED`). The exports came from `spa5k/tafsir_api`; each file header carries its
 upstream path (`Source: spa5k/tafsir_api · tafsir/en-tafisr-ibn-kathir/1.json`). They are cleaned
 copies: one `## C:V` section per ayah, no other edits.
 
@@ -59,13 +64,27 @@ copies: one `## C:V` section per ayah, no other edits.
 | 8 | `tafsir-as-saadi` | Arabic | al-Saʿdī (1956) | the modern meaning-first reading |
 | 9 | `tafsir-ibn-uthaymeen` | Arabic | Ibn ʿUthaymīn (2001) | modern teaching tafsir (partial coverage) |
 | 10 | `tafsir-maarif-ul-quran` | English | Muftī Shafīʿ (1976) | modern reading, fiqh, contemporary questions |
+| 11 | `tafsir_initial` | English | the study-Quran-style draft | the **eleventh work (v7.2)**: digested and read like the rest, partial coverage, never relayed, compared or quoted |
 
-`tafsir_initial/` (the earlier verse draft) is kept on disk as reference but is **not** a source:
-it is not digested and nothing may be cited from it.
+`tafsir_initial/` was reference material until v7.2; it is now a source — digested by `sources.py`
+with the ten, read for every verse it covers before the verse is written, and held to the same law
+as the others (research, never quoted).
 
 ## 3. Tools
 
 ```bash
+# 0. the run: fifty verses, planned and mapped from all eleven in one pass (v7.2)
+python3 scripts/tafsir/run.py --plan                   # the next fifty verses, chapter order
+python3 scripts/tafsir/run.py --build                  # map them (tmp/runs/) + per-chapter digests
+python3 scripts/tafsir/run.py --slice 2:1 2:5          # read the map a stretch at a time
+python3 scripts/tafsir/run.py --status                 # the run's words, floors and gate state
+python3 scripts/tafsir/run.py --check                  # RUN COMPLETE only when all fifty are clean
+
+# cross-references are expanded, never typed (v7.2)
+python3 scripts/tafsir/reference.py 2:255              # ready-made citations for a verse
+python3 scripts/tafsir/reference.py --find "<wording>" # which verse carries this phrase?
+python3 scripts/tafsir/reference.py --scan 2           # every bare citation in tafsir/002.md + the fix
+
 # 1. see where the material is for a chapter, then build the digest
 python3 scripts/tafsir/sources.py 2 --stats
 python3 scripts/tafsir/sources.py 2                     # tmp/sources/002.txt + 002.json
@@ -77,7 +96,8 @@ python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut eve
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse's wording, a synonym, or neither?
 
-# 3. write the prose in long stretches (the whole chapter where it allows), gating as they land
+# 3. write the prose in long stretches (a run is fifty verses), gating as they land
+python3 scripts/tafsir/assemble.py 2                   # splice tmp/work drafts into tafsir/002.md
 python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
 python3 scripts/tafsir/batch.py 2 --ranges 6-20,21-35,36-50   # several batches at once, in parallel
 python3 scripts/tafsir/batch.py 2 --progress            # how far the chapter has come
@@ -96,7 +116,7 @@ python3 scripts/tafsir/selftest.py                     # break each rule on a sc
 `selftest.py` proves the contract is real: it mutates a written chapter once per rule (lower-case
 heading, mis-quoted verse, unanchored citation, a section written source by source) and fails if
 `audit.py` does not report the rule's code. `audit.py` is the contract, not a suggestion; `batch.py` applies the same contract to the verses
-written so far, so a batch can be judged while the rest of the chapter is still scaffold. Codes and
+written so far, so a stretch can be judged while the rest of the chapter is still scaffold. Codes and
 what they mean:
 
 | Code | Meaning |
@@ -110,6 +130,10 @@ what they mean:
 | `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
 | `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a headword that neither is the verse's wording nor *means the same thing* — one word or a whole phrase (`MTCH-WORD`, fail), or Arabic offered as the verse's own wording (`MTCH-TERM`, fail); a synonym, or an Arabic term whose meaning the verse carries, is adjusted to the verse's own wording and recorded as information (`MTCH-SYNONYM`) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
+
+v7.2 adds `REF-BARE`: a cross-reference with no wording — `(2:255)`, or a list such as
+`(2:156, 245, 281)` — warns once or twice in a section and fails from three; `reference.py --scan`
+prints the expansion for every one of them.
 
 The thresholds that keep chapters honest as they grow:
 
@@ -140,10 +164,12 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. A long chapter is written in batches and the writer does not stop between them: write a batch,
-   gate it with `batch.py N`, fix every FAIL, start the next batch, and continue on until the last
-   verse is written. Stopping mid-chapter is for a real blockage (a source that cannot be located,
-   a contradiction that needs a decision), never for a check-in.
+2. Work moves in **runs of fifty verses** (v7.2), which may span chapters. A run is planned and
+   mapped first (`run.py --plan`, `run.py --build`) so the eleven works are opened once for fifty
+   verses, then written, gated with `batch.py N`, and fixed until `run.py --check` prints RUN
+   COMPLETE. The run is not left half-written, and the writer does not stop between its stretches.
+   Stopping mid-run is for a real blockage (a source that cannot be located, a contradiction that
+   needs a decision), never for a check-in.
 3. Never leave a half-written verse: a section is either the scaffold's `TODO` text or finished
    prose. Batches are committed as they land, with the payload, `sw.js` bump and worklog row left
    for the end of the chapter.
