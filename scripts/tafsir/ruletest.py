@@ -75,6 +75,62 @@ PARA_CASES = [
     ("a full paragraph", long_para(), []),
 ]
 
+class _Section:
+    """The little a section needs to be judged for v7.1: a ref, a body, headings."""
+
+    def __init__(self, ref, body, headings):
+        self.ref, self._body, self._headings = ref, body, headings
+
+    def body(self):
+        return self._body
+
+    def headings(self):
+        return list(enumerate(self._headings, start=1))
+
+
+def uniqueness(secs):
+    """Run the v7.1 check over stub sections; return {level: [codes]}."""
+    out = {"FAIL": [], "WARN": []}
+
+    def fail(code, ref, line, msg):
+        out["FAIL"].append(code)
+
+    def warn(code, ref, line, msg):
+        out["WARN"].append(code)
+
+    A._uniqueness_findings(secs, fail, warn)
+    return out
+
+
+def _prose(n, tail=""):
+    return ("Verse %d carries its own reading and its own way of saying it, with nothing "
+            "borrowed from the verse beside it. " % n * 3) + tail
+
+
+UNIQUENESS_CASES = [
+    ("distinct verses stay clear",
+     [_Section("1:1", "The opening names the owner of every act that follows, and the naming is "
+                       "the first deed of the day. A worker who says it hands the hours over "
+                       "before he spends them, which is why the line stands first.",
+               ["THE OPENING WORD"]),
+      _Section("1:2", "Praise arrives next, and it does not wait for a pleasant morning. The "
+                       "verdict about who God is holds when the news is bad, and holding it is "
+                       "the whole discipline the sentence asks of the tongue.",
+               ["PRAISE AND ITS GROUND"])], []),
+    ("one heading reused",
+     [_Section("1:1", _prose(1), ["THE TWO NAMES"]),
+      _Section("1:2", _prose(2), ["THE TWO NAMES"])], ["STY-UNIQUE-VERSE"]),
+    ("one heading template",
+     [_Section("1:%d" % i, _prose(i), ["THE RISE OF THINGS %d" % i]) for i in (1, 2, 3)],
+     ["STY-UNIQUE-VERSE"]),
+    ("one house opening",
+     [_Section("1:%d" % i, "The point of the verse is that mercy answers fear. " * 3,
+               ["TITLE %d" % i]) for i in (1, 2, 3)], ["STY-UNIQUE-VERSE"]),
+    ("one arrangement, twelve verses",
+     [_Section("1:%d" % i, _prose(i), ["A %d" % i, "B %d" % i, "C %d" % i]) for i in range(1, 13)],
+     ["STY-UNIQUE-VERSE"]),
+]
+
 APPLICATION_CASES = [
     ("reaching the reader today", long_para("And the same choice faces him today."), True),
     ("never reaching him", long_para(), False),
@@ -103,6 +159,14 @@ def main() -> int:
         bad += not ok
         print("  %-4s %-34s want=%-28s got=%s"
               % ("ok" if ok else "FAIL", name, ",".join(want) or "-", ",".join(out) or "-"))
+
+    print("v7.1 — no verse presented in another verse's shape or diction (§0.7)")
+    for name, secs, want in UNIQUENESS_CASES:
+        got = sorted(set(uniqueness(secs)["FAIL"] + uniqueness(secs)["WARN"]))
+        ok = got == sorted(set(want))
+        bad += not ok
+        print("  %-4s %-34s want=%-28s got=%s"
+              % ("ok" if ok else "FAIL", name, ",".join(want) or "-", ",".join(got) or "-"))
 
     print("application — the verse reaches the reader's own world (§8, v7)")
     for name, text, want in APPLICATION_CASES:

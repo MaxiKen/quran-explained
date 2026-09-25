@@ -12,7 +12,8 @@ line of it:
 | Rule | Value |
 |---|---|
 | Sources | the **ten** of `corpus.SOURCE_ALLOWLIST` (al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Alūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān) as **research**: all ten pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the ten cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
-| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) |
+| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
+| Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
@@ -39,6 +40,13 @@ reports with their collections, named early authorities, language points. Full s
 `TAFSIR_RULES.md` §0.
 
 ## Progress
+
+**Standard v7.1 (2026-09-25).** Added on the author's instruction: every verse is presented on
+its own terms — no standard diction, no phrased introduction, no arrangement copied from verse to
+verse — and a heading may carry any number of paragraphs, with the 120-word floor on each
+paragraph rather than on the heading. Mechanised as `STY-UNIQUE-VERSE` and proved by
+`ruletest.py` plus two `selftest.py` cases. Chapter 1 was written before this rule and the author
+has confirmed it stands as it is.
 
 **Chapter 1 written under v7.0 (2026-09-25).** Al-Fātiḥah was written from scratch to the new standard: the book's own reading, learned from the ten and never relaying, comparing or quoting them, every paragraph past 120 words, every verse reaching the reader's own world. `audit.py 1` — **0 FAIL, 0 WARN, 1 INFO — RESULT: PASS**; `batch.py 1 --from 1 --to 7` — 0 FAIL, 0 WARN. Style at the gate: mean sentence 25.3 words, 10% over 40 words, Flesch 69, long words 0.17%, analogies in 7 of 7 verses. 4,339 words over seven verses (579 at the shortest, 691 at the longest); payload `data/tafsir_001.json` (25,857 B); `sw.js` → `quran-reader-v2.5.44`. The four v7 checks are proved by `scripts/tafsir/ruletest.py` and the new `selftest.py` cases: `WRD-PARA-FLOOR`, `STY-PARAPHRASE`, `SRC-QUOTED`, `STY-APPLICATION`.
 

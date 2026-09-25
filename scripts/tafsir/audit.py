@@ -37,7 +37,11 @@ below are the same rules, mechanised:
           verbatim (REF-QUOTE), a clause is a clause and not a whole verse (REF-LONG),
           and a verse quoted twice in one section is flagged (REF-QUOTE-REPEAT);
           clause is verbatim from data/chapter_NNN.js
-  REP-*   repetition: duplicate sentences, templated sections, filler/meta prose
+  REP-*   repetition: duplicate sentences, templated sections, filler/meta prose,
+          and — v7.1 — no verse presented in another verse's shape or diction
+          (STY-UNIQUE-VERSE: a shared opening frame, a recurring run of unquoted
+          prose, a reused or templated heading, one arrangement of headings and
+          paragraphs used by nearly every verse of a long chapter)
   STY-*   style: simple diction, sentence length and readability, one interwoven
           voice (STY-SOURCE-PARADE fails a section written source by source,
           STY-ANALYSIS-FLOOR fails one that reports without reasoning), the relatable
@@ -90,6 +94,28 @@ MAX_INTRO_WORDS = 1500         # soft
 MIN_SENTENCE_WORDS = 10        # shortest sentence that counts as a duplicate
 TEMPLATE_FAIL = 0.30           # 8-gram overlap between two verse sections
 TEMPLATE_WARN = 0.18
+
+# ---- v7.1: no house style across verses --------------------------------------
+# Each verse is presented on its own terms. Nothing that belongs to the *writing*
+# may become a signature: no opening frame repeated from verse to verse, no run of
+# unquoted prose recurring in section after section, no heading reused or reduced
+# to a template, and no single arrangement of headings and paragraphs repeated
+# through a long chapter. The check runs on free prose — every quotation, this
+# verse's phrases, cited clauses and report quotes are stripped first, because the
+# wording of the Qur'an and of a cited report is meant to come again.
+STOCK_FRAME_WORDS = 4          # words at the head of a sentence that make a frame
+STOCK_FRAME_WARN = 2           # verse sections sharing a frame before it warns
+STOCK_FRAME_FAIL = 3           # ... and fails outright
+STOCK_RUN_WORDS = 6            # words of free prose that may not recur
+STOCK_RUN_WARN = 2             # verses sharing such a run ...
+STOCK_RUN_FAIL = 3             # ... and the point at which it fails
+STOCK_RUN_WARN_COUNT = 6       # two-verse runs a chapter may carry before warning
+HEAD_PREFIX_WORDS = 2          # heading words that make a template
+HEAD_PREFIX_WARN = 2
+HEAD_PREFIX_FAIL = 3
+SHAPE_SHARE_WARN = 0.70        # one arrangement (headings, paragraphs) across the chapter
+SHAPE_SHARE_FAIL = 0.90
+SHAPE_MIN_SECTIONS = 10        # the arrangement rule is checked on chapters this long
 GROUNDING_MIN_TOKENS = 5
 GROUNDING_MISS_RATIO = 0.50    # advisory only
 
@@ -461,6 +487,124 @@ def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True)
                              "itself with its collection" % sentence[:80])
                         quoted = True
                         break
+
+
+def _free_prose(body: str) -> str:
+    """The chapter's own words: everything quoted is stripped out.
+
+    The verse's phrases, the clauses cited from other verses, reports quoted in
+    italics and any other quotation are not the writer's diction — they are meant
+    to recur — so the uniqueness check looks only at what is left.
+    """
+    t = HTML_COMMENT.sub(" ", _prose_only(body))
+    t = QURAN_QUOTE.sub(" ", t)                 # (C:V — **“a cited clause”**)
+    t = PHRASE_QUOTE.sub(" ", t)                # ***“this verse's own phrase”***
+    t = STRAIGHT_IN_ITALIC.sub(" ", t)          # *"a quoted report"*
+    t = BOLD_ANY.sub(" ", t)
+    t = re.sub(r"\(\d{1,3}:\d{1,3}(?:\s*[\u2013\u2014-]\s*\d{1,3})?"
+               r"(?:\s*,\s*\d{1,3}:\d{1,3})*\)", " ", t)
+    t = re.sub(r"[\u201c\u201d\u2018\u2019]", "", t)
+    t = re.sub(r"[^A-Za-z\u0100-\u024f\u1e00-\u1eff' ]+", " ", t.lower())
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _uniqueness_findings(sections, fail, warn) -> None:
+    """v7.1: no verse is presented in the shape or the diction of another.
+
+    ``sections`` is the list of verse sections of one chapter. Four traces are
+    checked, all on free prose (see ``_free_prose``): a sentence-opening frame
+    shared by two or more verses (a house opening), a six-word run recurring in
+    another verse's prose, a heading reused verbatim or reduced to a repeated
+    template, and — in chapters long enough for it to mean something — one single
+    arrangement of headings and paragraphs used by nearly every verse.
+    """
+    if not sections:
+        return
+
+    frames, runs = {}, {}
+    heads, prefixes, shapes = {}, {}, {}
+    for s in sections:
+        free = _free_prose(s.body())
+        for sent in C.sentence_split(free):
+            w = sent.split()
+            if len(w) >= STOCK_FRAME_WORDS:
+                frames.setdefault(" ".join(w[:STOCK_FRAME_WORDS]), []).append(s.ref)
+        w = free.split()
+        for i in range(len(w) - STOCK_RUN_WORDS + 1):
+            runs.setdefault(" ".join(w[i:i + STOCK_RUN_WORDS]), []).append(s.ref)
+        for _line, title in s.headings():
+            key = C.loose_norm(title).upper()
+            heads.setdefault(key, []).append(s.ref)
+            pw = key.split()[:HEAD_PREFIX_WORDS]
+            if len(pw) == HEAD_PREFIX_WORDS:
+                prefixes.setdefault(" ".join(pw), []).append(s.ref)
+        shapes.setdefault((len(s.headings()), len(C.split_paragraphs(_prose_only(s.body())))), []).append(s.ref)
+
+    def shared(d):
+        return {k: v for k, v in d.items() if len(set(v)) >= 2}
+
+    frame_hits = sorted(shared(frames).items(), key=lambda kv: -len(set(kv[1])))
+    for key, refs in frame_hits[:3]:
+        refs = sorted(set(refs))
+        level = fail if len(refs) >= STOCK_FRAME_FAIL else warn
+        level("STY-UNIQUE-VERSE", refs[-1], 0,
+              "the same sentence frame opens prose in %s: %r — that is a house opening, and each "
+              "verse is presented on its own terms (vary how a verse begins, not only what it "
+              "says)" % (", ".join(refs), key))
+
+    run_hits = sorted(shared(runs).items(), key=lambda kv: -len(set(kv[1])))
+    reported, taken = 0, []
+    for key, refs in run_hits:
+        refs = sorted(set(refs))
+        if len(refs) < STOCK_RUN_FAIL or reported >= 3:
+            continue
+        if any(key in prev or prev in key for prev in taken):
+            continue                      # one report per recurring stretch, not per window
+        taken.append(key)
+        reported += 1
+        fail("STY-UNIQUE-VERSE", refs[-1], 0,
+             "the same six words of unquoted prose stand in %s: %r — diction and phrasing are "
+             "not a house style; each verse is written in its own words (quoted matter may "
+             "recur, the commentary's own wording may not)" % (", ".join(refs), key))
+    two_verse_runs = [kv for kv in run_hits if len(set(kv[1])) == STOCK_RUN_WARN]
+    if two_verse_runs and len(two_verse_runs) > STOCK_RUN_WARN_COUNT:
+        k, v = two_verse_runs[0]
+        warn("STY-UNIQUE-VERSE", sorted(set(v))[-1], 0,
+             "%d phrases of unquoted prose recur in one other verse (e.g. %r in %s): keep the "
+             "commentary's own wording from becoming a habit"
+             % (len(two_verse_runs), k, ", ".join(sorted(set(v)))))
+
+    for key, refs in sorted(shared(heads).items(), key=lambda kv: -len(set(kv[1]))):
+        refs = sorted(set(refs))
+        fail("STY-UNIQUE-VERSE", refs[-1], 0,
+             "the same heading is used in %s: %r — a heading names what one verse's paragraph "
+             "carries, and no verse repeats another's presentation" % (", ".join(refs), key))
+
+    for key, refs in sorted(shared(prefixes).items(), key=lambda kv: -len(set(kv[1]))):
+        refs = sorted(set(refs))
+        if len(refs) >= HEAD_PREFIX_FAIL:
+            fail("STY-UNIQUE-VERSE", refs[-1], 0,
+                 "%d verses open a heading with %r: that is a heading template, not a title for "
+                 "what this verse carries — give each verse's headings their own wording"
+                 % (len(refs), key))
+        elif len(refs) >= HEAD_PREFIX_WARN:
+            warn("STY-UNIQUE-VERSE", refs[-1], 0,
+                 "two verses open a heading with %r: keep the chapter's titles from falling into "
+                 "a template" % key)
+
+    if len(sections) >= SHAPE_MIN_SECTIONS:
+        (shape, refs), = sorted(shapes.items(), key=lambda kv: -len(set(kv[1])))[:1]
+        most = sorted(set(refs))
+        share = len(most) / len(sections)
+        if share >= SHAPE_SHARE_FAIL:
+            fail("STY-UNIQUE-VERSE", most[-1], 0,
+                 "%d of %d verses share one arrangement (%d headings, %d paragraphs): the chapter "
+                 "is following a mould — vary the shape verse by verse"
+                 % (len(most), len(sections), shape[0], shape[1]))
+        elif share >= SHAPE_SHARE_WARN:
+            warn("STY-UNIQUE-VERSE", most[-1], 0,
+                 "%d of %d verses share one arrangement (%d headings, %d paragraphs): break the "
+                 "pattern so no verse is presented like the last" % (len(most), len(sections), shape[0], shape[1]))
 
 
 def _has_anchor(text: str) -> bool:
@@ -1010,6 +1154,9 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
             refs = ", ".join(sorted({h[0] for h in hits}, key=lambda r: (r.split(":")[0], r.split(":")[1])))
             fail("REP-SENTENCE", hits[1][0], hits[1][1],
                  "the same sentence appears in %s: %r" % (refs, hits[0][2][:80]))
+
+    # v7.1: no verse presented in the shape or diction of another
+    _uniqueness_findings(doc.sections, fail, warn)
 
     shing = [(s.ref, s.start, C.shingles(s.body())) for s in doc.sections]
     for i in range(len(shing)):

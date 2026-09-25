@@ -28,7 +28,7 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
 
 ---
 
-## 0. What this book is (standard v7.0, set 2026-09-25)
+## 0. What this book is (standard v7.1, set 2026-09-25)
 
 The chapters are **one author's own commentary book**. The ten works are the research behind it,
 not the content of it. The writer reads them, learns what the verse carries and how it has been
@@ -63,11 +63,32 @@ that source's opinion, not compared work by work, and not quoted.
 6. **Paragraphs are full.** Every paragraph of the commentary — the introduction's and every
    verse's — runs **past 120 words** (`WRD-PARA-FLOOR`). A paragraph is a complete movement of
    thought, not a handful of lines; a thought too small to reach 121 words belongs with the
-   paragraph beside it.
+   paragraph beside it. **A heading may carry one paragraph or several** — nothing here says one
+   paragraph per heading, and a long thought under one title is free to run in two, three or more
+   paragraphs, each of them past 120 words.
+7. **Every verse is presented on its own terms (v7.1).** There is no house style: no standard
+   diction, no stock opening, no heading template, no fixed arrangement of the section. The
+   chapter is a book of 7, 286 or 200 separate readings, and a reader who has read one verse should
+   not be able to predict the shape of the next. Concretely, nothing of the *writing* may repeat
+   from verse to verse: not a sentence frame that opens paragraphs the same way, not a run of the
+   commentary's own wording, not a heading reused or built on a repeated pattern, not the same
+   count of headings and paragraphs down every verse of a long chapter. What **may** repeat is what
+   is quoted — the verse's own phrases, cited clauses, a report's words — because that is the
+   Qur'an and the evidence, not the author's voice.
+   The gate proves it (`STY-UNIQUE-VERSE`, fail): the same four-word sentence opening in two verses
+   warns and in three fails; the same six words of unquoted prose in two verses warns (and in six
+   such phrases fails the chapter) and in three verses fails; a heading reused verbatim fails, two
+   verses opening a heading with the same two words warn and three fail; and in a chapter of ten
+   verses or more, one arrangement of headings and paragraphs shared by 70% of verses warns and by
+   90% fails.
 
 The codes v7 retired with this standard: `SRC-SPREAD`, `SRC-FAMILY` (the quotas that *required*
 five works to be named in each verse) and `SRC-UNUSED` (which asked for works to be named at
 chapter level). Naming the ten was the old trade; writing from them is the new one.
+
+v7.1 added one law to the same spirit: **no verse repeats another verse's presentation** (§0.7),
+and settled the question of paragraphs — a heading may carry as many paragraphs as the thought
+needs, each past 120 words (§0.6).
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
@@ -198,7 +219,9 @@ python3 scripts/tafsir/match.py 1:4 "the day of reckoning" "the day of the harve
      (`FMT-HEADING-DUP`);
    * every heading must be followed by prose — an orphan heading fails (`FMT-ORPHAN-HEADING`).
 6. **Headings in a section**: at least one (`FMT-HEADINGS`, fail); one only warns
-   (`FMT-HEADINGS-FEW`); more than 30 warns (`FMT-HEADINGS-COUNT`).
+   (`FMT-HEADINGS-FEW`); more than 30 warns (`FMT-HEADINGS-COUNT`). A heading carries **one
+   paragraph or several** — the 120-word floor is on each paragraph, never on the heading — and no
+   heading is reused or templated from another verse (§0.7, `STY-UNIQUE-VERSE`).
 7. **Separators**: exactly one `---` before the next verse (`FMT-SEP`, fail); none after the final
    verse (warn); a `---` with no blank line above it is a markdown setext heading and fails
    (`FMT-SEP`).
@@ -412,7 +435,8 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 ## 12. What the pass deliberately does not do (prompt §11)
 
 1. It does not mirror, summarise or quote any of the ten: it learns from all of them and writes
-   one clear account in the book's own voice (§0).
+   one clear account in the book's own voice (§0) — and no verse of it is presented in the shape or
+   the diction of the one before (§0.7).
 2. It does not transliterate long Arabic passages, quote poetry at length, or reproduce the academic
    apparatus of the sources.
 3. It does not argue theology, or adjudicate between schools on matters the verse does not settle.
@@ -457,6 +481,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `WRD-FLOOR` | fail | verse below `max(500, 8 × verse words)`, capped 4,000 |
 | `WRD-CEILING` | warn | verse above 5,000 words (check for padding) |
 | `WRD-PARA-FLOOR` | fail | a paragraph of the commentary (introduction or verse) is 120 words or fewer |
+| `STY-UNIQUE-VERSE` | fail/warn | a verse repeats another verse's presentation (v7.1): a shared opening frame, a recurring run of unquoted prose, a reused or templated heading, one arrangement used by most verses of a long chapter |
 | `WRD-INTRO` | fail/warn | introduction under 250 words / over 1,500 |
 | `PHR-PHRASE-NONE` | fail | no phrase of the verse quoted in the prose |
 | `PHR-QUOTE-STYLE` | fail | this verse's phrase not in bold italics (or non-own wording in that style) |
@@ -518,7 +543,8 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Works named per verse | none required; a named work in a summary fails (`STY-PARAPHRASE`, v7) |
 | Verse floor | `max(500, 8 × verse words)`, capped 4,000 |
 | Verse soft ceiling | 5,000 |
-| Paragraph floor | past 120 words, introduction and verses alike (`WRD-PARA-FLOOR`) |
+| Paragraph floor | past 120 words, introduction and verses alike; a heading may carry several paragraphs (`WRD-PARA-FLOOR`) |
+| No house style across verses | 4-word opening frame in 2 verses: warn / 3: fail; 6-word free-prose run in 2: warn / 3: fail; reused heading: fail; 2-word heading opening in 2: warn / 3: fail; one arrangement at 70% of a 10+-verse chapter: warn / 90%: fail (`STY-UNIQUE-VERSE`) |
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥ 90%, no unquoted gap over 8 words, edges within 3 words |
 | One quoted run | ≤ 40% of a 12+-word verse (warn), ≤ 65% (fail) |
@@ -534,6 +560,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Words of 12+ letters | target < 1%, warn > 2% |
 | Duplicate sentence | 10+ words, anywhere in the chapter |
 | Section template overlap | warn > 18%, fail > 30% (8-grams) |
+| **v7.1 — no house style** | same 4-word sentence opening in 2 verses: warn; 3: fail. Same 6 words of unquoted prose in 2 verses: warn (>6 such phrases: chapter warn); 3: fail. Heading reused verbatim: fail. Same 2-word heading opening in 2 verses: warn; 3: fail. One arrangement (headings × paragraphs) in a chapter of 10+ verses: warn at 70% of verses, fail at 90% (`STY-UNIQUE-VERSE`) |
 | Headings per verse | ≥ 1 (fail 0, warn 1), soft maximum 30; ≤ 12 words |
 | Bold | only the UPPERCASE headings, this verse's phrases (bold italics), other verses' clauses (bold only) |
 | Explained words | must be the verse's wording, or mean the same thing — one word or a whole phrase; a synonym is adjusted to the verse's own word (`MTCH-SYNONYM`) |

@@ -341,6 +341,55 @@ def mut_source_quote(text, ch):
     return _edit_verse(text, TARGET, fn)
 
 
+def _edit_many(text, verses, fn):
+    for v in sorted(set(verses), reverse=True):
+        text = _edit_verse(text, v, fn)
+    return text
+
+
+def _verse_numbers(text):
+    return [int(m.group(1)) for m in re.finditer(r"(?m)^## Verse \d+:(\d+)[ \t]*$", text)]
+
+
+def mut_heading_reuse(text, ch):
+    """v7.1: a heading of one verse used again in another verse."""
+    nums = _verse_numbers(text)
+    if len(nums) < 2:
+        return text
+    first = text.split("\n")[0]
+    block = text[_find_verse(text, TARGET)[0]:_find_verse(text, TARGET)[1]]
+    m = _first_heading(block)
+    if not m:
+        return text
+    title = m.group(0)
+
+    def fn(other):
+        span = _first_heading(other)
+        if not span:
+            return other
+        return other[:span.start()] + title + other[span.end():]
+
+    return _edit_many(text, [nums[0], nums[1]], fn)
+
+
+def mut_house_frame(text, ch):
+    """v7.1: the same sentence frame and wording recurring in three verses."""
+    nums = _verse_numbers(text)
+    if len(nums) < 3:
+        return text
+    frame = (" The verse teaches the reader that mercy arrives on its own schedule, and the "
+             "sentence is worth repeating here for the sake of the test.")
+
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, _b = span
+        return block[:a] + block[a:].rstrip("\n") + frame + "\n"
+
+    return _edit_many(text, nums[:3], fn)
+
+
 def mut_no_application(text, ch):
     """v7: the verse never reaches the reader's own world (warning)."""
     def fn(block):
@@ -630,6 +679,8 @@ CASES = [
     ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
     ("v7 the ten are never quoted", "SRC-QUOTED", mut_source_quote),
     ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
+    ("v7.1 no heading reused across verses", "STY-UNIQUE-VERSE", mut_heading_reuse),
+    ("v7.1 no house frame across verses", "STY-UNIQUE-VERSE", mut_house_frame),
     ("\u00a71 nothing outside the ten is cited", "SRC-BANNED", mut_banned),
     ("\u00a77 a prophetic report names its collection", "EVD-ATTRIBUTION", mut_attribution),
     ("\u00a78 no duplicated sentences", "REP-SENTENCE", mut_rep_sentence),

@@ -57,7 +57,16 @@ paraphrase of the translation dressed up as commentary.
    they stand — no fact-checking them, no grading their chains, no survey of who said what: the
    evidence the reader checks is the Qur'an, the reports with their collections, and the early
    authorities as the reports carry them.
-3. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
+3. **No verse is presented like the last (v7.1).** There is no house style in this book: no
+   standard diction, no stock way to open a paragraph, no heading template, no fixed arrangement.
+   Before writing a verse, look at how the previous three were built and build this one
+   differently — two movements instead of three, a heading carrying three paragraphs instead of
+   one, a verse that opens on the history where the last opened on the phrase. The gate fails a
+   repeated sentence frame (three verses), a run of six words of unquoted prose recurring in three
+   verses, a heading reused or templated, and (in chapters of ten verses or more) one arrangement
+   used by most verses (`STY-UNIQUE-VERSE`). Only quoted matter — the verse's own phrases, cited
+   clauses, a report's words — is allowed to come again.
+4. **Spread the work, and write a long list of verses at a time.** The parallel rule exists for
    **speed** and for **scale**: batches do not depend on one another, so several are written and
    gated at once, and a single pass should cover a very long list of verses — **the whole chapter
    where the material allows it**, not a handful at a time. Draft the next range while the last is
@@ -239,6 +248,11 @@ Length is not padding. It comes from the material this corpus now has:
 And every paragraph of it — here and in the introduction — runs past 120 words (`WRD-PARA-FLOOR`):
 a paragraph is a complete movement of thought, so a thought too small to reach 121 words belongs
 with the paragraph beside it.
+
+**Paragraphs under a heading.** Nothing requires one paragraph per heading. A heading introduces a
+movement of thought, and that movement may run in two paragraphs or five; what the gate checks
+(`WRD-PARA-FLOOR`) is that **every paragraph runs past 120 words**, wherever it sits. Use the
+freedom: a long explanation reads better split where the thought turns than crammed into one block.
 
 ### 4.2 The elements are shown, never labelled
 
