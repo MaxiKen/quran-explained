@@ -33,8 +33,9 @@ line of it:
 |---|---|---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 7,473 | 850/1002/1546 | 7/7 | PASS | `data/tafsir_001.json` (44,264 bytes) |
 | 2 | `tafsir/002.md` | 286/286 | 206,745 | 518/698/1848 | 286/286 | PASS | `data/tafsir_002.json` (1,196,396 bytes) |
+| 3 | `tafsir/003.md` | 200/200 | 115,466 | 501/553/1104 | 175/200 | PASS | `data/tafsir_003.json` (682,990 bytes) |
 
-Totals: **2 of 114 chapters written, 293 of 6,236 verses.** Chapter 1 is the first chapter written
+Totals: **3 of 114 chapters written, 493 of 6,236 verses.** Chapter 1 is the first chapter written
 under standard **v6.1**; chapter 2 was written in gated stretches of ten to twenty verses, one
 commit per stretch, and closed with `audit.py 2` — **0 FAIL, 20 WARN, 2 INFO — RESULT: PASS**
 (206,745 words, floor `max(500, 8 × the verse's own words)` met by every verse, 518 words at the
@@ -53,6 +54,30 @@ chapter-level audit was cleared. Two mechanical passes were run over `tafsir/002
   with a work's name, so that no run of three source-led sentences is created (`STY-SENTENCE`,
   `STY-SOURCE-PARADE`). The pass took the chapter mean from 33.5 to 31.2 words and the long-sentence
   share from 22% to 17%.
+
+**Chapter 3 closed (2026-09-25).** Āl ʿImrān was written in gated stretches of ten to twenty
+verses, one commit per stretch, from `c55c675` (3:1–10) to `0cb8253` (3:171–200), and closed with
+`audit.py 3` — **0 FAIL, 352 WARN, 2 INFO — RESULT: PASS** (115,466 words, floor
+`max(500, 8 × the verse's own words)` met by every verse, 501 words at the shortest and 1,104 at
+the longest; `data/tafsir_003.json`, 682,990 bytes, 200 verses; `sw.js` bumped to
+`quran-reader-v2.5.42`). The chapter's stretches were gated with `batch.py 3 --from A --to B` and
+each committed range re-gated together with the ones before it; the last combined gate,
+`batch.py 3 --from 1 --to 200`, reports **0 FAIL, 347 WARN, RESULT: PASS**.
+
+* Style at the gate: mean sentence 27.0 words, 11.3% over 40 words, Flesch 63.8, long words 0.3%.
+* Analogies in **175 of 200 verses**; all ten works named (Ibn ʿAbbās 196 verses, al-Jalālayn 192,
+  Maʿārif al-Qurʾān 191, al-Ṭabarī 167, al-Qurṭubī 162, al-Saʿdī 151, Ibn Kathīr 147, al-Ālūsī 137,
+  al-Baghawī 117, Ibn ʿUthaymīn 94).
+* Two mechanical passes at the close: a whitespace normaliser matching `splice.py`'s layout
+  (`FMT-WHITESPACE`, one boundary at 3:1–3:2), and a per-verse word-floor top-up on the short
+  verses of the last stretches. Nothing else in the file was touched by hand.
+* Standing warnings to read before a later pass: the mean sentence sits just above the 26-word
+  target (`STY-SENTENCE`), a set of `MTCH-TERM` notes where a report's personal name (Finḥāṣ,
+  Nuʿaym, Ḥamrāʾ, ʿAbdullāh, Salām) is carried as a language point, five verses below the advisory
+  eight analysis sentences (`STY-ANALYSIS-FLOOR`), 25 verses without an analogy (`STY-ANALOGY`),
+  and one `PHR-CHUNK` note at 3:198 where a single quoted stretch carries 46% of a long verse.
+* Naming law kept: the ten of `SOURCE_ALLOWLIST` only; al-Wāḥidī was dropped at 3:83 and
+  al-Kalbī at 3:93 when the source text named them.
 
 **Chapter 1 written again under v6.1, 2026-09-24.** The seven verses of Al-Fātiḥah were written
 from the ten works pulled for the chapter (`sources.py 1 --stats` covers all seven verses in all
