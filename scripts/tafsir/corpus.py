@@ -35,6 +35,7 @@ INITIAL_SLUG = "tafsir_initial"
 # remove a work; the allowlist keeps a stray folder from quietly re-entering the
 # pipeline, and audit.py fails a chapter that names a work outside the list.
 SOURCE_ALLOWLIST = (
+    "tafsir_initial",         # Super source: main tafsir, others are additions (d. varies)
     "tafsir-al-tabari",       # Jami' al-Bayan — the ma'thür root (d. 310)
     "tafsir-al-qurtubi",      # al-Jami' li-Ahkam al-Qur'an — rulings (d. 671)
     "tafsir-al-baghawi",      # Ma'alim al-Tanzil — concise ma'thür (d. 516)
@@ -194,7 +195,11 @@ def source_catalog():
             if d.name not in SOURCE_ALLOWLIST:
                 continue          # the ten; the study draft in tafsir_initial/ is not a source
             slug = d.name
-            head_file = d / "001.txt"
+            # Determine the file extension: .txt for tafsir-*/, .md for tafsir_initial/
+            if d.name == "tafsir_initial":
+                head_file = d / "001.md"
+            else:
+                head_file = d / "001.txt"
             if not head_file.exists():
                 continue
             head = head_file.read_text(encoding="utf-8", errors="replace").split("\n")[:4]
@@ -203,9 +208,10 @@ def source_catalog():
             for line in head:
                 if line.startswith("Source:"):
                     upstream = line.split("\u00b7", 1)[-1].strip()
+            kind = "study" if d.name == "tafsir_initial" else "txt"
             out.append({
                 "slug": slug,
-                "kind": "txt",
+                "kind": kind,
                 "lang": "ar" if "(Arabic)" in head[0] else "en",
                 "title": title,
                 "upstream": upstream,

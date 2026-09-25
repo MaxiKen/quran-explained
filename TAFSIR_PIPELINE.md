@@ -49,19 +49,18 @@ copies: one `## C:V` section per ayah, no other edits.
 
 | # | Folder | Language | Author (d. AH) | Use |
 |---|---|---|---|---|
-| 1 | `tafsir-al-tabari` | Arabic | al-Ṭabarī (310) | reports and chains, the first generations |
-| 2 | `tafsir-al-qurtubi` | Arabic | al-Qurṭubī (671) | rulings, occasions, disagreements |
-| 3 | `tafsir-al-baghawi` | Arabic | al-Baghawī (516) | the maʾthūr tradition, concisely |
-| 4 | `tafsir-ibn-kathir` | English | Ibn Kathīr (774) | reports with grading |
-| 5 | `tafsir-al-alusi` | Arabic | al-Alūsī (1270) | language, grammar, later debate |
-| 6 | `tafsir-al-jalalayn` | English | al-Maḥallī & al-Suyūṭī (911) | the plain running sense |
-| 7 | `tafsir-ibn-abbas` | English | attributed to Ibn ʿAbbās | the earliest gloss |
-| 8 | `tafsir-as-saadi` | Arabic | al-Saʿdī (1956) | the modern meaning-first reading |
-| 9 | `tafsir-ibn-uthaymeen` | Arabic | Ibn ʿUthaymīn (2001) | modern teaching tafsir (partial coverage) |
-| 10 | `tafsir-maarif-ul-quran` | English | Muftī Shafīʿ (1976) | modern reading, fiqh, contemporary questions |
+| 1 | `tafsir_initial` | Mixed | Contemporary | Super source: main foundation; others are additions |
+| 2 | `tafsir-al-tabari` | Arabic | al-Ṭabarī (310) | reports and chains, the first generations |
+| 3 | `tafsir-al-qurtubi` | Arabic | al-Qurṭubī (671) | rulings, occasions, disagreements |
+| 4 | `tafsir-al-baghawi` | Arabic | al-Baghawī (516) | the ma'thūr tradition, concisely |
+| 5 | `tafsir-ibn-kathir` | English | Ibn Kathīr (774) | reports with grading |
+| 6 | `tafsir-al-alusi` | Arabic | al-Alūsī (1270) | language, grammar, later debate |
+| 7 | `tafsir-al-jalalayn` | English | al-Maḥallī & al-Suyūṭī (911) | the plain running sense |
+| 8 | `tafsir-ibn-abbas` | English | attributed to Ibn ʿAbbās | the earliest gloss |
+| 9 | `tafsir-as-saadi` | Arabic | al-Saʿdī (1956) | the modern meaning-first reading |
+| 10 | `tafsir-ibn-uthaymeen` | Arabic | Ibn ʿUthaymīn (2001) | modern teaching tafsir (partial coverage) |
+| 11 | `tafsir-maarif-ul-quran` | English | Muftī Shafīʿ (1976) | modern reading, fiqh, contemporary questions |
 
-`tafsir_initial/` (the earlier verse draft) is kept on disk as reference but is **not** a source:
-it is not digested and nothing may be cited from it.
 
 ## 3. Tools
 

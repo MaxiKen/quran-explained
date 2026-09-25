@@ -92,19 +92,36 @@ needs, each past 120 words (§0.6).
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
-1. **The corpus is ten works, and nothing else.** `corpus.SOURCE_ALLOWLIST`:
-   `tafsir-al-tabari`, `tafsir-al-qurtubi`, `tafsir-al-baghawi`, `tafsir-ibn-kathir`,
+1. **The corpus is eleven works, with one super source.** `corpus.SOURCE_ALLOWLIST`:
+   `tafsir_initial`, `tafsir-al-tabari`, `tafsir-al-qurtubi`, `tafsir-al-baghawi`, `tafsir-ibn-kathir`,
    `tafsir-al-alusi`, `tafsir-al-jalalayn`, `tafsir-ibn-abbas`, `tafsir-as-saadi`,
-   `tafsir-ibn-uthaymeen`, `tafsir-maarif-ul-quran`. Naming any other tafsir — al-Bayḍāwī,
-   al-Shawkānī, al-Qushayrī, al-Tustarī, Kashānī, al-Mukhṭaṣar, al-Wāḥidī, *Bahr al-Muḥīṭ*,
-   *Tazkir al-Qurʾān* and the rest of the deleted folders — **fails** (`SRC-BANNED`). Deleting the
-   folder is the only way a work leaves the corpus; a stray folder cannot re-enter quietly.
-2. **`tafsir_initial/` is not a source.** It is the old study-Quran-style draft, kept on disk for
-   reference only: nothing may be digested from it or cited.
-3. **All ten are read for every verse before a word of it is written.** If the source digest has not
+   `tafsir-ibn-uthaymeen`, `tafsir-maarif-ul-quran`. `tafsir_initial/` is the super source — the
+   main tafsir intended as the primary foundation, with the other ten as supplementary additions.
+   Naming any other tafsir — al-Bayḍāwī, al-Shawkānī, al-Qushayrī, al-Tustarī, Kashānī,
+   al-Mukhṭaṣar, al-Wāḥidī, *Bahr al-Muḥīṭ*, *Tazkir al-Qurʾān* and the rest of the deleted folders —
+   **fails** (`SRC-BANNED`). Deleting the folder is the only way a work leaves the corpus; a stray folder
+   cannot re-enter quietly.
+2. **`tafsir_initial/` is now the super source (source #11).** It is the main tafsit, meant to be the
+   primary foundation upon which the other ten sources add nuance, detail, and alternative readings.
+   Content from `tafsir_initial` should be the starting point; the other ten sources provide
+   additions, cross-checks, and supplementary material. Nothing may be cited from `tafsir_initial`
+   alone without also consulting the other ten, and conversely, the other ten are meaningless in
+   isolation — they all feed into the `tafsir_initial` framework.
+3. **All eleven are read for every verse before a word of it is written.** If the source digest has not
    been built, the gate **fails** (`SRC-NODIGEST` → run `sources.py N`); if a work that covers the
    verse was never pulled into it, the gate **fails** (`SRC-NOTCHECKED`). A work with no text for
    that verse anywhere in the repo is a coverage gap and only warns (`SRC-ABSENT`).
+4. **The eleven are research, and the prose is the book's own** (§0). No work of the eleven is relayed,
+   compared or quoted in a verse section or the introduction: relaying **fails** (`STY-PARAPHRASE`),
+   quoting **fails** (`SRC-QUOTED`). There is no quota of names to hit; naming a work in a summary is
+   now a failure, not a duty.
+5. **A named authority may still be evidence** — a Companion or Successor as the reports carry him
+   (*"Ibn ʿAbbās said the word means the covenant itself"*), a hadith with its collection — where
+   the authority *is* the proof. The line is simple: an authority may support the reading; a work
+   may not speak it.
+6. **Before a sentence credits anyone, find the passage**: `python3 scripts/tafsir/verify.py
+   "<claim>" --chapter N` (or `--verse C:V`). No hit means no credit — drop the claim or state it
+   without a name. This check is not optional (§7 of the prompt).
 4. **The ten are research, and the prose is the book's own** (§0). No work of the ten is relayed,
    compared or quoted in a verse section or the introduction: relaying **fails** (`STY-PARAPHRASE`),
    quoting **fails** (`SRC-QUOTED`). There is no quota of names to hit; naming a work in a summary
