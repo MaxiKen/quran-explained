@@ -249,7 +249,7 @@ WORK_RELAY = re.compile(
     r"al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m|"
     r"Ibn [\u02bf']Uthaym[\u012bi]n|Ibn Uthaymeen|"
     r"Ma[\u02bf']\u0101rif al-Qur[\u02be']?[\u0101a]n|Maarif-ul-Quran|Ma[\u02bf']\u0101rif|"
-    r"the (?:commentaries|commentators|exegetes|tafs[\u012bi]rs?|tafs[\u012bi]r works?|sources|books))",
+    r"the (?:commentaries|commentators|exegetes|tafs[\u012bi]rs?|tafs[\u012bi]r works?|sources))",
     re.I)
 
 # A work is "speaking" when its name carries a reporting or vantage verb — that
@@ -524,6 +524,8 @@ def _uniqueness_findings(sections, fail, warn) -> None:
     frames, runs = {}, {}
     heads, prefixes, shapes = {}, {}, {}
     for s in sections:
+        if re.search(r"\bTODO\b|\bTBD\b|PLACEHOLDER", s.body()):
+            continue                       # an unwritten verse is gated by its own scaffold TODO
         free = _free_prose(s.body())
         for sent in C.sentence_split(free):
             w = sent.split()
@@ -1775,10 +1777,16 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
     haystack = _canon("\n".join(sources.values()))
 
     tokens = set()
-    for para in C.split_paragraphs(_prose_only(body)):   # headings are titles, not claims
+    prose = _prose_only(body)
+    prose = QURAN_QUOTE.sub(" ", prose)          # a cited clause is the Qur'an, not a claim
+    prose = PHRASE_QUOTE.sub(" ", prose)         # this verse's own quoted phrase
+    prose = STRAIGHT_IN_ITALIC.sub(" ", prose)   # a report's words
+    for para in C.split_paragraphs(prose):       # headings are titles, not claims
 
         for m in re.finditer(r"\b[A-Z][A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf-]{2,}\b", para):
             token = m.group(0)
+            if m.start() == 0:                  # the first word of a paragraph opens it
+                continue
             if para[max(0, m.start() - 2):m.start()].endswith((". ", "? ", "! ")):
                 continue
             if token.lower() in _STOP:
