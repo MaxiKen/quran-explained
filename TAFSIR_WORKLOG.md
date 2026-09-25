@@ -42,17 +42,26 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**The next run is planned and mapped.** Run 1 of the v7.2 standard is **1:1–1:7 (all of al-Fātiḥah)
-followed by 2:1–2:43** — fifty verses across two chapters, floors totalling about 25,000 words of
-commentary. All eleven works are already digested for chapters 1 and 2 (`python3 scripts/tafsir/run.py
---build`, ~22 seconds for 293 verses) and the map is `tmp/runs/run-001.txt`; the chapter files are
-scaffolded with byte-exact verse quotes. The run is not started.
+**Run 1 is delivered; run 2 is open.** Run 1 of the v7.2 standard — **1:1–1:7 (all of al-Fātiḥah)
+followed by 2:1–2:43** — is finished: every one of the fifty verses is written and gate-clean
+(`run.py --check` reported RUN COMPLETE and the next fifty were pinned). The writing has carried on
+past the run boundary without pausing: **2:44–2:59** are written, spliced and clean, and the open
+run's remaining verses are being filled from 2:60. All eleven works are digested for chapters 1 and 2
+(`python3 scripts/tafsir/run.py --build`); the chapter files hold byte-exact verse quotes.
 
-| Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
-|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
+| Ch | File | Verses | Words | Range (min/med/max) | Gate |
+|---|---|---|---|---|---|
+| 1 | `tafsir/001.md` | 7/7 | 6,380 | 836/880/1038 | PASS |
+| 2 | `tafsir/002.md` | 59/286 | 43,787 | 625/715/1172 | in progress (227 verses still scaffold) |
 
-Totals: **0 of 114 chapters written, 0 of 6,236 verses.** The next run covers 50 of them.
+Totals: **1 of 114 chapters written, 66 of 6,236 verses.** Gate clean: 1:1–1:7 and 2:1–2:59.
+
+**Chapter 2 in progress (2026-09-25).** The chapter's introduction (772 words, six paragraphs) and
+verses 2:1–2:59 are written and spliced; each stretch was gated with `batch.py 2 --from A --to B` and
+also against the whole chapter from 1, so cross-verse repeats were caught as they appeared. What the
+gates taught is in `TAFSIR_HANDOFF.md` (“Gate lessons that cost time”). The remaining verses of the
+chapter — 2:60 to 2:286 — are still `TODO` scaffolds in `tafsir/002.md`, which is why `audit.py 2`
+fails by design until the chapter is finished.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

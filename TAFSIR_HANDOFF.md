@@ -10,8 +10,8 @@ gated, and the gate findings that cost time to learn the first time.
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, session branch `arena/01a0da50-quran-explained` |
-| Written | **nothing** — the chapter 1 and chapter 2 commentary was cleared for v7.2 (`tafsir/` holds `.gitkeep`; the deleted work is in git history) |
-| Next | **run 1 is planned and mapped**: 1:1–1:7 (all of al-Fātiḥah) then 2:1–2:43 — 50 verses across two chapters, floors ≈ 25,000 words |
+| Written | **chapter 1 complete** (7/7 verses, `batch.py 1 --from 1 --to 7` PASS) and **chapter 2 through 2:59** (introduction + verses 2:1–2:59 spliced into `tafsir/002.md`, each stretch gate-clean; 2:60 onward still `TODO` scaffolds) |
+| Next | **run 2** is the active run: 2:44–2:59 of it are written and clean, and writing continues at **2:60**; run 1 (1:1–1:7 + 2:1–2:43) is finished |
 | Standard | **v7.2**: eleven works read for every verse, every cross-reference expanded with its translation, no verse presented like the last, every paragraph past 120 words, fifty verses finished per run |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** (the study-style draft, v7.2) — research only, never relayed, compared or quoted |
 
@@ -19,10 +19,23 @@ The chapter files are already scaffolded (`tafsir/001.md`, `tafsir/002.md`), wit
 byte-exact verse quotes in place and `TODO` bodies, and the map for the run is built:
 
 ```
-python3 scripts/tafsir/run.py --plan        # run 1: 1:1–1:7 + 2:1–2:43, 50 verses
-python3 scripts/tafsir/run.py --status      # 0/50 written
-python3 scripts/tafsir/run.py --check       # RUN INCOMPLETE — the run is not started
+python3 scripts/tafsir/run.py --plan        # run 1: 1:1–1:7 + 2:1–2:43 (pinned)
+python3 scripts/tafsir/run.py --status      # written-verses count for the active run
+python3 scripts/tafsir/run.py --check       # run 1 complete; reports run 2 as the open run
 ```
+
+Chapter 2 is written as bench files under `tmp/work/` (`c2_intro.md`, `c2_vNNN.md`) and
+spliced by `assemble.py 2` (verses back to front, introduction last). Measured state:
+
+```
+python3 scripts/tafsir/audit.py 1                       # chapter 1: PASS
+python3 scripts/tafsir/batch.py 2 --from 55 --to 59     # 0 FAIL
+python3 scripts/tafsir/batch.py 2 --from 1 --to 30      # 0 FAIL
+```
+
+Chapter-level rules (analogy share, sentence length, heading templates) are judged when the
+chapter is finished, so `audit.py 2` keeps failing on the remaining `TODO` scaffolds until
+2:286 is written. That is expected, not a regression: gate stretches with `batch.py`.
 
 ## The law this book is written to
 
@@ -221,3 +234,28 @@ Push policy for this branch: `git push origin arena/01a0da50-quran-explained`
 * The run map is capped: `--cap-en 2400`, `--cap-ar 700` per work per verse, and the
   per-chapter digest JSON is capped hard (1600/533) because grounding reads names, not
   length. Raise the caps for a verse that needs the full discussion.
+
+## Gate lessons that cost time (v7.2 chapters 1–2)
+
+* `WRD-PARA-FLOOR` is strict: 120 words fails, 121 passes. Measure every paragraph with
+  `len(C.words(p))` over `C.split_paragraphs` **after** each edit — fixing one paragraph
+  can push its neighbour under the line.
+* `PHR-EVIDENCE`: every paragraph that explains a quoted phrase needs its own anchor —
+  a cross-reference, a report with its collection, or a named early authority. One anchor
+  at the end of a quote-heavy section leaves EVD-NONE + several PHR-EVIDENCE open.
+* House phrases are caught as repeated six-word runs across verses (`STY-UNIQUE-VERSE`):
+  "the book does not describe the", "at the end of the line", "the practical content of the
+  verse is", "for a reader today the verse" all had to be varied. `tmp/phrase_lint.py`
+  (bench helper) lists them before the gate does.
+* Headings repeat as well: three verses opening a heading with the same two words fail
+  ("WHY THE" ×5 at one point). Check every new heading against the chapter's existing
+  openings.
+* Never write "the verse says plainly X" or "the verse names X" unless X is literally in
+  the verse translation — `MTCH-TERM` fires, and so does `MTCH-WORD` on ordinary verbs
+  read as glosses.
+* Only `reference.py candidates()` text may be quoted (`REF-QUOTE`), and a cross-reference
+  must be the full `(C:V — **“…”**)` expansion (`REF-BARE` fails on a bare number).
+* Gate the wide range, not just the new verses: `batch.py 2 --from 1 --to N` before every
+  commit, because cross-verse repeats only show up against the earlier work.
+* Run the gate as its own command and read "0 FAIL" before committing; `grep -E "FAIL|RESULT"`
+  exits 0 on matches, so `&& git commit` chains have committed with failures still open.
