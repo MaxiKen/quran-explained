@@ -40,10 +40,13 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
+**Chapter 1 written under v7.0 (2026-09-25).** Al-Fātiḥah was written from scratch to the new standard: the book's own reading, learned from the ten and never relaying, comparing or quoting them, every paragraph past 120 words, every verse reaching the reader's own world. `audit.py 1` — **0 FAIL, 0 WARN, 1 INFO — RESULT: PASS**; `batch.py 1 --from 1 --to 7` — 0 FAIL, 0 WARN. Style at the gate: mean sentence 25.3 words, 10% over 40 words, Flesch 69, long words 0.17%, analogies in 7 of 7 verses. 4,339 words over seven verses (579 at the shortest, 691 at the longest); payload `data/tafsir_001.json` (25,857 B); `sw.js` → `quran-reader-v2.5.44`. The four v7 checks are proved by `scripts/tafsir/ruletest.py` and the new `selftest.py` cases: `WRD-PARA-FLOOR`, `STY-PARAPHRASE`, `SRC-QUOTED`, `STY-APPLICATION`.
+
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
+| 1 | `tafsir/001.md` | 7 | 4,339 | 579 / 613 / 691 | 7/7 | PASS (0F/0W/1I) | `data/tafsir_001.json` (25,857 B) |
 
-Totals: **0 of 114 chapters written, 0 of 6,236 verses.**
+Totals: **1 of 114 chapters written, 7 of 6,236 verses.**
 
 **Corpus cleared, 2026-09-25.** The generated commentary of chapters 1–3 was not right, and it has
 been deleted at the author's direction: `tafsir/001.md`, `tafsir/002.md`, `tafsir/003.md` and their
