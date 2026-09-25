@@ -13,6 +13,8 @@ format and gated by an auditor before it is published to the app.
 * [`TAFSIR_PIPELINE.md`](TAFSIR_PIPELINE.md) — the repository layout, the sources, the tools and
   the working agreement.
 * [`TAFSIR_WORKLOG.md`](TAFSIR_WORKLOG.md) — what is written so far.
+* [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — every rule the corpus is held to in one place (format,
+  quoting, length, sourcing, attribution, style), each with the `audit.py` code that enforces it.
 * [`UX_UPDATES.md`](UX_UPDATES.md) — the reader app's v2.3 reading-continuity, navigation,
   read-aloud and tafsir-sheet work, plus the v2.2 eBook, themes and accessibility passes.
 
@@ -35,8 +37,13 @@ Excerpts worth knowing:
 * the headings are UPPERCASE descriptive titles (never the verse's own words), while every phrase
   of the verse is quoted *inside* the prose in **bold italics**, explained in verse order, and
   backed beside the quote by a cross-reference, a report with its collection, or a named
-  authority; quotations from other verses are bold only, inside their reference;
-* every verse carries at least 550 words, rising to seven times the verse's own length for long
+  authority; quotations from other verses are bold only, inside their reference — and those three
+  are the **only** things bold in a chapter file (reports are italic `*"…"*`, the prose itself is
+  plain);
+* the commentary explains the verse as it is quoted: everything it holds up to explain is the
+  verse's own wording or a synonym of it — one word or a whole phrase — and a synonym is adjusted to
+  the verse's words while anything else fails;
+* every verse carries at least 500 words, rising to eight times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
 * prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a

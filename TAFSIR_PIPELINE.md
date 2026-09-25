@@ -8,6 +8,8 @@ repository, gated by an auditor that will not pass anything malformed, unevidenc
 or padded.
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
+* **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
+  with the `audit.py` code that enforces it and its threshold
 * **How far the work has got:** [`TAFSIR_WORKLOG.md`](TAFSIR_WORKLOG.md)
 * **The output:** `tafsir/NNN.md`, one file per chapter, 114 in all
 * **The app payload:** `data/tafsir_NNN.json`, built from the markdown, read by `js/app.js`
@@ -16,7 +18,7 @@ or padded.
 
 | Path | What it is |
 |---|---|
-| `tafsir/` | the generated corpus — `001.md` … `114.md` (currently `001.md`) |
+| `tafsir/` | the generated corpus — `001.md` … `114.md` (empty at present: `001.md` and `002.md` were cleared on 2026-09-24, `tafsir/.gitkeep` remains) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
@@ -73,6 +75,7 @@ python3 scripts/tafsir/sources.py 2 --verse 255 --cap-ar 4000 --stdout
 python3 scripts/tafsir/scaffold.py 2
 python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut every verse is measured against
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
+python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse's wording, a synonym, or neither?
 
 # 3. write the prose in long stretches (the whole chapter where it allows), gating as they land
 python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
@@ -100,23 +103,26 @@ what they mean:
 |---|---|
 | `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, separators, spacing, placeholders — and a heading that is not UPPERCASE (`FMT-HEADING-CASE`), is the verse's own wording (`FMT-HEADING-QUOTED`), repeats it (`FMT-HEADING-VERSE`), or is generic |
 | `PHR-*` | phrases: quoting style (`PHR-QUOTE-STYLE` — this verse's phrases are bold italics `***“…***`, other references bold only), the verse is not quoted in the prose (`PHR-PHRASE-NONE`), a phrase is never quoted (`PHR-PHRASE-MISSING`), the quoted share is under 90%, an unquoted gap runs past 8 words, the edges are dropped, one quote swallows the verse (`PHR-CHUNK`), or a quoted phrase has no evidence beside it (`PHR-EVIDENCE`) |
-| `WRD-*` | length: a verse under its floor (550 words, or 7× the verse's own length, capped at 3,500) or an introduction outside 250–1,500 |
+| `WRD-*` | length: a verse under its floor (500 words, or 8× the verse's own length, capped at 4,000) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
 | `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
+| `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a headword that neither is the verse's wording nor *means the same thing* — one word or a whole phrase (`MTCH-WORD`, fail), or Arabic offered as the verse's own wording (`MTCH-TERM`, fail); a synonym, or an Arabic term whose meaning the verse carries, is adjusted to the verse's own wording and recorded as information (`MTCH-SYNONYM`) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
 
 The thresholds that keep chapters honest as they grow:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(550, 7 × verse words)`, capped 3,500; soft ceiling 4,500 |
+| Words per verse | floor `max(500, 8 × verse words)`, capped 4,000; soft ceiling 5,000 |
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy | at least half the chapter's verses carry one |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
+| Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
+| Explained words | word-studies may only be about wording the verse's translation carries (Arabic terms included) |
 
 The grounding check reads `tmp/sources/NNN.json`, so run `sources.py N` before `audit.py N` for
 the full picture (`--no-grounding` skips it).

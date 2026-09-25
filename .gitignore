@@ -1,4 +1,22 @@
 __pycache__/
 *.pyc
 __pycache__/
-tmp/
+
+# The chapter-2 drafting bench is tracked: part files, the splice/inject helpers and
+# the style probes are the working state of the writing, and a wiped scratch dir used
+# to lose them. Everything else under tmp/ (source digests, extraction caches) stays out.
+tmp/*
+!tmp/work/
+tmp/work/*
+!tmp/work/*.md
+!tmp/work/*.py
+!tmp/work/*.txt
+
+# Scratch. The chapter-2 drafting bench under tmp/work is the live state of the
+# writing and is tracked; every other scratch path (source digests, caches) stays out.
+tmp/*
+!tmp/work/
+tmp/work/*
+!tmp/work/*.md
+!tmp/work/*.py
+!tmp/work/*.txt

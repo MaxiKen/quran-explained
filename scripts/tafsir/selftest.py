@@ -22,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit
 import corpus as C
+import lexicon as LEX
 
 MD_DIR = Path("tafsir")
 
@@ -300,11 +301,103 @@ def mut_analogy(text, ch):
     return _edit_verse(text, TARGET, fn)
 
 
-def mut_spread(text, ch):
+def mut_para_short(text, ch):
+    """v7: a paragraph under the 120-word floor."""
     def fn(block):
-        for rx in list(audit.AUTHORITY.values()):
-            block = rx.sub("a commentator", block)
-        return audit.FIRST_GEN.sub("a commentator", block)
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        return block[:b] + "\n\nOne short line only, standing where a paragraph belongs." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_paraphrase(text, ch):
+    """v7: the prose hands the point to a named work."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para + " Al-\u1e6cabari records that the reading here turns on the "
+                "second clause, and the commentators say it is a warning." + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_source_quote(text, ch):
+    """v7: a work of the ten is quoted."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para + ' The words of al-Jal\u0101layn stand beside it: *"a brief '
+                'enjoyment it is, and then it is gone."*' + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def _edit_many(text, verses, fn):
+    for v in sorted(set(verses), reverse=True):
+        text = _edit_verse(text, v, fn)
+    return text
+
+
+def _verse_numbers(text):
+    return [int(m.group(1)) for m in re.finditer(r"(?m)^## Verse \d+:(\d+)[ \t]*$", text)]
+
+
+def mut_heading_reuse(text, ch):
+    """v7.1: a heading of one verse used again in another verse."""
+    nums = _verse_numbers(text)
+    if len(nums) < 2:
+        return text
+    first = text.split("\n")[0]
+    block = text[_find_verse(text, TARGET)[0]:_find_verse(text, TARGET)[1]]
+    m = _first_heading(block)
+    if not m:
+        return text
+    title = m.group(0)
+
+    def fn(other):
+        span = _first_heading(other)
+        if not span:
+            return other
+        return other[:span.start()] + title + other[span.end():]
+
+    return _edit_many(text, [nums[0], nums[1]], fn)
+
+
+def mut_house_frame(text, ch):
+    """v7.1: the same sentence frame and wording recurring in three verses."""
+    nums = _verse_numbers(text)
+    if len(nums) < 3:
+        return text
+    frame = (" The verse teaches the reader that mercy arrives on its own schedule, and the "
+             "sentence is worth repeating here for the sake of the test.")
+
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, _b = span
+        return block[:a] + block[a:].rstrip("\n") + frame + "\n"
+
+    return _edit_many(text, nums[:3], fn)
+
+
+def mut_no_application(text, ch):
+    """v7: the verse never reaches the reader's own world (warning)."""
+    def fn(block):
+        for rx, repl in ((r"\btoday\b", "then"), (r"\bnowadays\b", "then"),
+                         (r"\bthese days\b", "at that time"),
+                         (r"\bin our own time\b", "in that time")):
+            block = re.sub(rx, repl, block, flags=re.I)
+        return block
 
     return _edit_verse(text, TARGET, fn)
 
@@ -336,6 +429,59 @@ def mut_filler(text, ch):
 def mut_diction(text, ch):
     return _sub_verse(text, TARGET, r"(?m)^\*\*.+?\*\*$",
                       "**THE POINT**\n\nNotwithstanding the aforementioned, the verse obtains.", 1)
+
+
+def mut_bold_elsewhere(text, ch):
+    """Bold on a word that is none of the three markers (rule: bold is reserved)."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The **plain** emphasis is not allowed." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_word_offverse(text, ch):
+    """A word-study of a word the verse's translation does not carry."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return (block[:a] + para
+                + " The word *quernstone* means a mill, which the verse does not say." + block[b:])
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_synonym(text, ch):
+    """A word the verse does not carry, but which means one it does (adjust and continue)."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The word *salvation* means the rescue the verse names." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_term_as_verse(text, ch):
+    """Arabic offered as the verse's own wording."""
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The verse says *k\u0101fir* of them." + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
 
 
 def mut_parade(text, ch):
@@ -394,11 +540,102 @@ def mut_ref_repeat(text, ch):
     return _edit_verse(text, TARGET, fn)
 
 
+# ------------------------------------------------- cases that must stay clean
+# A rule that fires on the verse's own wording, or on a synonym of it, is a false
+# alarm: these mutations must produce no match finding at all (an informational
+# adjustment counts as a finding, which is why it is reported and not a failure).
+
+def clean_own_word(text, ch, chapter):
+    """Explain a word the verse's own translation carries."""
+    verse = C.ayah_en(chapter, TARGET)
+    words = [w for w in re.findall(r"[A-Za-z]{4,}", verse) if LEX.norm(w) not in LEX.STOP]
+    if not words:
+        raise RuntimeError("no usable word in the verse")
+    word = words[0]
+
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The word *%s* carries the point here." % word + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def clean_synonym(text, ch, chapter):
+    """Explain a synonym of a word the verse carries: adjusted, not failed."""
+    verse = C.ayah_en(chapter, TARGET)
+    index = LEX.verse_index(verse)
+    pick = None
+    for word in re.findall(r"[A-Za-z]{4,}", verse):
+        for syn in sorted(LEX.synonyms(word)):
+            if syn and syn not in LEX.STOP and LEX.lookup(syn, index)[0] == "synonym":
+                pick = syn
+                break
+        if pick:
+            break
+    if not pick:
+        raise RuntimeError("no synonym in the tables for this verse")
+
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The word *%s* says the same thing." % pick + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def clean_phrase_synonym(text, ch, chapter):
+    """Hold up a *phrase* that means what a phrase of the verse means: adjusted, not failed."""
+    verse = C.ayah_en(chapter, TARGET)
+    index = LEX.verse_index(verse)
+    variant = None
+    for phrase in C.split_phrases(verse):
+        words = LEX.content_words(phrase)
+        if not words:
+            continue
+        for word in words:
+            for syn in sorted(LEX.synonyms(word)):
+                if syn and syn not in LEX.STOP and LEX.lookup(syn, index)[0] == "synonym":
+                    variant = " ".join(syn if w == word else w for w in words)
+                    break
+            if variant:
+                break
+        if variant:
+            break
+    if not variant:
+        raise RuntimeError("no phrase-level synonym for this verse")
+
+    def fn(block):
+        span = _first_para(block)
+        if not span:
+            return block
+        a, b = span
+        para = block[a:b].rstrip("\n")
+        return block[:a] + para + " The phrase *%s* says it in other words." % variant + block[b:]
+
+    return _edit_verse(text, TARGET, fn)
+
+
+CLEAN_CASES = [
+    ("\u00a75.1 the verse's own word may be explained", clean_own_word),
+    ("\u00a75.1 a synonym is adjusted, not failed", clean_synonym),
+    ("\u00a75.1 a phrase synonym is adjusted too", clean_phrase_synonym),
+]
+
+
 # A failure can be reported under a neighbouring code (a plainly quoted phrase is
 # also "no phrase quoted"); the rule is enforced either way.
 ALIASES = {
     "PHR-PHRASE-MISSING": {"PHR-PHRASE-MISSING", "PHR-PHRASE-NONE", "PHR-PHRASE-COVERAGE"},
     "PHR-QUOTE-STYLE": {"PHR-QUOTE-STYLE", "PHR-PHRASE-NONE", "PHR-PHRASE-COVERAGE"},
+    "MTCH-WORD": {"MTCH-WORD", "MTCH-TERM"},
+    "MTCH-TERM": {"MTCH-TERM", "MTCH-WORD"},
 }
 
 CASES = [
@@ -438,7 +675,12 @@ CASES = [
     ("\u00a77 a hadith number exists in the sources", "EVD-NUMBER", mut_number),
     ("\u00a76 a verse is quoted once per section", "REF-QUOTE-REPEAT", mut_ref_repeat),
     ("\u00a78 every verse carries an analogy", "STY-ANALOGY", mut_analogy),
-    ("\u00a71 at least five of the ten are named", "SRC-SPREAD", mut_spread),
+    ("v7 every paragraph runs past 120 words", "WRD-PARA-FLOOR", mut_para_short),
+    ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
+    ("v7 the ten are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
+    ("v7.1 no heading reused across verses", "STY-UNIQUE-VERSE", mut_heading_reuse),
+    ("v7.1 no house frame across verses", "STY-UNIQUE-VERSE", mut_house_frame),
     ("\u00a71 nothing outside the ten is cited", "SRC-BANNED", mut_banned),
     ("\u00a77 a prophetic report names its collection", "EVD-ATTRIBUTION", mut_attribution),
     ("\u00a78 no duplicated sentences", "REP-SENTENCE", mut_rep_sentence),
@@ -446,6 +688,10 @@ CASES = [
     ("\u00a78 plain diction", "STY-DICTION", mut_diction),
     ("v5 the reading is interwoven, not per source", "STY-SOURCE-PARADE", mut_parade),
     ("v5 the reading analyses, not reports", "STY-ANALYSIS-FLOOR", mut_no_analysis),
+    ("\u00a74.11 nothing is bold but the three markers", "MTCH-BOLD", mut_bold_elsewhere),
+    ("\u00a75.1 words explained exist in the verse", "MTCH-WORD", mut_word_offverse),
+    ("\u00a75.1 no Arabic as the verse's own wording", "MTCH-TERM", mut_term_as_verse),
+    ("\u00a75.1 a synonym is not the verse's wording", "MTCH-TERM", mut_synonym),
 ]
 
 
@@ -458,6 +704,9 @@ def run(chapter):
     rows = []
     with tempfile.TemporaryDirectory() as tmp:
         scratch = Path(tmp) / src.name
+        # what the untouched chapter already reports: a clean case may only add nothing
+        baseline = {f.code for f in audit.audit_chapter(chapter, opts, path=src)
+                    if f.code.startswith("MTCH-") and f.level != audit.INFO}
         for name, code, fn in CASES:
             try:
                 mutated = fn(text, chapter)
@@ -474,6 +723,22 @@ def run(chapter):
             hit = bool(codes & want)
             rows.append((name, code, "caught" if hit else "MISSED",
                          "" if hit else ", ".join(sorted(codes))[:70]))
+
+        for name, fn in CLEAN_CASES:                 # rules that must NOT fire
+            try:
+                mutated = fn(text, chapter, chapter)
+            except Exception as exc:                 # not applicable to this verse
+                rows.append((name, "MTCH-*", "n/a", str(exc)[:60]))
+                continue
+            if mutated == text:
+                rows.append((name, "MTCH-*", "n/a", "mutation did not change the file"))
+                continue
+            scratch.write_text(mutated, encoding="utf-8")
+            findings = audit.audit_chapter(chapter, opts, path=scratch)
+            fired = sorted({f.code for f in findings
+                            if f.code.startswith("MTCH-") and f.level != audit.INFO
+                            and f.code not in baseline})
+            rows.append((name, "MTCH-*", "FIRED" if fired else "ok", ", ".join(fired)[:70]))
     return rows
 
 
@@ -484,22 +749,30 @@ def main(argv=None):
     chapters = args.chapters or [n for n in C.chapter_numbers() if (MD_DIR / ("%s.md" % C.pad3(n))).exists()]
     missed = 0
     skipped = 0
+    false_alarms = 0
     for chapter in chapters:
         print("=" * 78)
         print("chapter %s" % C.pad3(chapter))
         for name, code, status, note in run(chapter):
-            mark = {"caught": "ok  ", "MISSED": "MISS", "SKIP": "skip"}[status]
-            print("  %-4s %-34s %-18s %s" % (mark, name, code, note))
+            mark = {"caught": "ok  ", "MISSED": "MISS", "SKIP": "skip",
+                    "ok": "ok  ", "FIRED": "FIRE", "n/a": "n/a "}[status]
+            print("  %-4s %-40s %-18s %s" % (mark, name, code, note))
             if status == "MISSED":
                 missed += 1
             elif status == "SKIP":
                 skipped += 1
+            elif status == "FIRED":
+                false_alarms += 1
     print()
-    print("uncaught rules: %d | rules not exercised: %d" % (missed, skipped))
+    print("uncaught rules: %d | rules not exercised: %d | false alarms: %d"
+          % (missed, skipped, false_alarms))
     if skipped:
         print("a skip means the rule was never tested: write the chapter, or point the "
               "selftest at a chapter with a written verse")
-    return 1 if (missed or skipped) else 0
+    if false_alarms:
+        print("a false alarm means the rule fired where it must not: the verse's own wording, "
+              "or a synonym of it, was reported")
+    return 1 if (missed or skipped or false_alarms) else 0
 
 
 if __name__ == "__main__":
