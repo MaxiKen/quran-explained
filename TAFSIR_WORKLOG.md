@@ -41,6 +41,20 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
+**Chapter 2 opened under v7.1 (2026-09-25).** The introduction and verses 2:1–2:13 are written
+and gated (`batch.py 2 --from 1 --to 13` — **0 FAIL, 0 WARN — RESULT: PASS**; style at the gate:
+mean sentence 27.0 words, 10% over 40 words, Flesch 63, analogies 13/13). Every verse carries an
+analogy and a line reaching the reader's own world, 100% phrase coverage, and no two verses share an
+opening frame, a six-word run of unquoted prose or a heading prefix — the v7.1 check was exercised
+against real prose for the first time and found four such runs across 2:1–2:13, all rewritten.
+Verses 2:14–2:19 are drafted and injected but not yet passing; the chapter file deliberately stands
+at the last clean stretch, and the next writer resumes from `tmp/work/c2_v14.md` … `c2_v19.md`.
+A handoff for that work is `TAFSIR_HANDOFF.md`, and the drafting bench under `tmp/work/` is now
+tracked so a wiped sandbox cannot take the part files with it.
+
+**Chapter 1 closed and frozen (2026-09-25).** The author confirmed it meets the conditions: it is
+not to be edited again. `audit.py 1` → **0 FAIL, 0 WARN, 1 INFO — RESULT: PASS**.
+
 **Standard v7.1 (2026-09-25).** Added on the author's instruction: every verse is presented on
 its own terms — no standard diction, no phrased introduction, no arrangement copied from verse to
 verse — and a heading may carry any number of paragraphs, with the 120-word floor on each
@@ -53,8 +67,9 @@ has confirmed it stands as it is.
 | Ch | File | Verses | Words | Min/Med/Max per verse | Analogy | Gate | Payload |
 |---|---|---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7 | 4,339 | 579 / 613 / 691 | 7/7 | PASS (0F/0W/1I) | `data/tafsir_001.json` (25,857 B) |
+| 2 | `tafsir/002.md` | 13/286 | 9,561 | 532 / 721 / 887 | 13/13 | PASS on 2:1–13 (`batch.py 2 --from 1 --to 13` — 0F/0W); 2:14–19 drafted, gate 12F/7W, punch list in `tmp/work/gate_2_14-19.txt` | — (payload waits for the finished chapter) |
 
-Totals: **1 of 114 chapters written, 7 of 6,236 verses.**
+Totals: **1 of 114 chapters written, 7 of 6,236 verses; chapter 2 in progress at 13 of 286.**
 
 **Corpus cleared, 2026-09-25.** The generated commentary of chapters 1–3 was not right, and it has
 been deleted at the author's direction: `tafsir/001.md`, `tafsir/002.md`, `tafsir/003.md` and their
@@ -346,14 +361,18 @@ the sources that carried the weight, and the mis-attributions to keep out.
 * Chapter file: `tafsir/NNN.md`; payload: `data/tafsir_NNN.json`; digest: `tmp/sources/NNN.*`.
 * Commit subject: `Tafsir ch N (<Name>): verse-by-verse from all <k> sources`.
 * Only chapters that pass `scripts/tafsir/audit.py` get a row here and a commit.
+* Chapter 2 is written in gated stretches (~15–20 verses): part files in `tmp/work/c2_vNN.md`, `tmp/work/splice2.py` into `tafsir/002.md`, `tmp/work/inject.py` for byte-exact phrases and clauses, `batch.py 2 --from A --to B` before each commit. `TAFSIR_HANDOFF.md` is the working state and the place to resume from.
 
 ## Open items
 
 * Chapter order is ascending, 001 → 114.
 * The app shows "coming soon, in sha Allah" under verses whose chapter has no payload yet; with the
   corpus cleared this is currently every chapter, and payloads return as each chapter passes the gate.
-* Chapter 1 is the worked example of standard v6.1, the synonym law included: it is the chapter to read
-  beside the rules, and it carries one analogy in each of its seven verses.
+* Chapter 1 is closed and frozen: it is the worked example to read beside the rules, and it carries one
+  analogy in each of its seven verses.
+* Chapter 2 is the live chapter: resume at 2:14 from `TAFSIR_HANDOFF.md` (the six drafts are in
+  `tmp/work/`, the punch list in `tmp/work/gate_2_14-19.txt`), then continue in stretches; the payload
+  is built when the chapter is finished.
 * The per-verse floor is 500 words as of 2026-09-24 (`max(500, 8 × the verse's own words)`, capped
   4,000). Chapter 1 is the first chapter measured against it, and the shortest of its seven sections
   (1:3) runs to 850 words, so the floor was met from the material rather than from padding.
