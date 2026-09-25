@@ -271,7 +271,7 @@ yet used — usually the Arabic sources — never repetition or vague exhortatio
    name at all (§0); the ones that name an early authority must still be true to what the reports
    carry.
 
-## 7. One reading, many witnesses (`STY-SOURCE-PARADE`)
+## 7. One reading, in the book's own voice (`STY-SOURCE-PARADE`)
 
 The ten works are **witnesses inside one argument**, not ten speakers taking turns — and since
 v7 they are not speakers at all: they are research, and the book says the reading itself (§0). What
@@ -279,9 +279,9 @@ remains checkable is the shape of the prose, in every verse section:
 
 | Check | Warn | Fail |
 |---|---|---|
-| Sentences in a row that open with a work's name | — | 3 (`STY-SOURCE-PARADE`) |
-| Share of a section's sentences opening with a work's name | above 18% | above 30% |
-| Share of a section's paragraphs opening with a work's name | above 30% | above 45% |
+| Sentences in a row that open with a named authority | — | 3 (`STY-SOURCE-PARADE`) |
+| Share of a section's sentences opening with a named authority | above 18% | above 30% |
+| Share of a section's paragraphs opening with a named authority | above 30% | above 45% |
 
 A "source-led" sentence is one whose first three words name a work (or a first-generation figure).
 Under v7 there is no reason for one to appear at all: the reading is the book's own (§0), a named
