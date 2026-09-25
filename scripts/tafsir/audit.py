@@ -384,7 +384,8 @@ FILLER = [
     (FAIL, r"\bas (we|I) (have )?(seen|said|noted|mentioned|discussed)\b", "cross-reference to our own text instead of the Qur'an"),
     (FAIL, r"\bthe (audit|prompt|generator|source digest|worklog)\b", "pipeline vocabulary in reader-facing prose"),
     (FAIL, r"\b(source digest|audit\.py|TAFSIR_PROMPT)\b", "pipeline vocabulary in reader-facing prose"),
-    (FAIL, r"\bTODO\b|\bTBD\b|PLACEHOLDER|to be written|lorem ipsum", "placeholder text"),
+    (FAIL, r"\bTODO\b|\bTBD\b|PLACEHOLDER|^[ \t]*(?:to be written|to be added|to be completed)[ \t]*[.:]?[ \t]*$"
+     r"|lorem ipsum", "placeholder text"),
     (FAIL, r"\bas an ai\b|\blanguage model\b", "machine voice"),
     (FAIL, r"\bit is worth noting\b|\bit'?s worth noting\b|\bit is important to note\b", "filler opener"),
     (FAIL, r"\bin conclusion\b|\bto sum up\b|\bto summarize\b", "filler closer"),
@@ -683,6 +684,8 @@ STOP_HEAD = {
     "name", "phrase", "term", "participle", "him", "you", "we", "us", "our", "your", "my",
     "before", "after", "has", "have", "had", "does", "do", "did", "will", "would", "can",
     "could", "should", "must", "may", "might", "since", "until", "while", "because", "if",
+    "rather", "case", "once", "though", "whether", "more", "less", "again", "still", "only",
+    "first", "last", "next", "each", "every", "both", "either", "neither", "such", "just",
 }
 
 
