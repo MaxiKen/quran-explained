@@ -11,7 +11,7 @@ gated, and the gate findings that cost time to learn the first time.
 one branch: the corpus, the eleven sources, the scripts, the scaffolds and the chapter-1 and
 chapter-2 payloads are all in the repository, so read them from wherever you are checked out. Work on the branch the session
 gave you and push there. PR #70 brought chapter 1 and v7.5 into `main`; chapter 2 was completed and
-published, and chapter 3 was begun through 3:14, on `arena/01a0dd66-quran-explained`.
+published, and chapter 3 was carried through 3:64, on `arena/01a0dd66-quran-explained`.
 
 **First act: ask where to start.** The author names the start of every run, and it is the one thing
 you do not choose. If the instruction is only "continue", reply by asking whether the run should
@@ -20,9 +20,9 @@ first. A chapter alone (`2`) means that chapter's first unwritten verse; a chapt
 means exactly that verse. When the answer comes, take it as the run's first verse:
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 3:15  # example only: pin after the author names 3:15
+python3 scripts/tafsir/run.py --plan --start 3:65  # example only: pin after the author names 3:65
 python3 scripts/tafsir/run.py --build              # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 3:15 3:19    # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 3:65 3:69    # read the map a stretch at a time
 ```
 
 Then write the fifty from that start — stretches gated with `batch.py N --from A --to B` as they land,
@@ -47,36 +47,39 @@ Before any of that, two housekeeping steps:
 
 State to expect on arrival (2026-09-26): `audit.py 2` and `batch.py 2 --from 1 --to 286` both
 pass with 0 FAIL; `build_data.py 2 --check` reports the chapter-2 payload current; `batch.py 3
---from 1 --to 14` passes with 0 FAIL; and `run.py --check` for the pinned cross-chapter run
-2:251–2:286 plus 3:1–3:14 prints **RUN COMPLETE — 50/50 written, 0 failing**. Chapter 3 still has
-186 scaffolds from 3:15 onward, so it remains in progress and has no payload.
+--from 15 --to 64` passes with 0 FAIL and 89 advisories; the growing `batch.py 3 --from 1 --to 64`
+passes with 0 FAIL and 120 advisories; and `run.py --check` for the pinned run 3:15–3:64 prints
+**RUN COMPLETE — 50/50 written, 0 failing**. Chapter 3 still has 136 scaffolds from 3:65 onward,
+so it remains in progress and has no payload.
 
 ## Where things stand (2026-09-26)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **chapters 1 and 2 complete and published**; **chapter 3 introduction + 3:1–3:14 written**. Chapter 2 has 266,252 verse words (703/867/2,029 min/median/max), passes its whole-chapter gate, and is live in `data/tafsir_002.json`. Chapter 3 has 11,508 verse words (707/781/1,087) and its written 3:1–3:14 range passes. |
-| Next | Chapter 3 remains scaffolded at 3:15–3:200 and is deliberately unpublished. **The author names the next run's start**; naming chapter 3 now resolves to 3:15, but when the instruction is only "continue", ask and wait rather than assuming it. |
+| Written | **chapters 1 and 2 complete and published**; **chapter 3 introduction + 3:1–3:64 written**. Chapter 2 has 266,252 verse words (703/867/2,029 min/median/max), passes its whole-chapter gate, and is live in `data/tafsir_002.json`. Chapter 3 has 50,950 verse words (707/777/1,087), and its written 3:1–3:64 range passes. |
+| Next | Chapter 3 remains scaffolded at 3:65–3:200 and is deliberately unpublished. **The author names the next run's start**; naming chapter 3 now resolves to 3:65, but when the instruction is only "continue", ask and wait rather than assuming it. |
 | Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
 `tmp/work/c2_intro.md` and `c2_v001.md`–`c2_v286.md`; chapter 3 adds `c3_intro.md` and
-`c3_v001.md`–`c3_v014.md`. These are the source of the assembled prose and must not be overwritten.
-The sixth run contributes 41,257 words in 2:251–2:286 (738/1,100/2,029 min/median/max) and 11,508
-words in 3:1–3:14 (707/775/1,087 by the part-file count). Measured state:
+`c3_v001.md`–`c3_v064.md`. These are the source of the assembled prose and must not be overwritten.
+The seventh run contributes 39,442 words in 3:15–3:64 (741/777/902 min/median/max). Together with
+the sixth run's opening chapter-3 stretch, the written part now holds 50,950 verse words through
+3:64. Measured state:
 
 ```
 python3 scripts/tafsir/audit.py 2                     # whole chapter: PASS, 0 FAIL
 python3 scripts/tafsir/status.py 2                    # 286/286; 266,252 verse words; PASS
 python3 scripts/tafsir/build_data.py 2 --check        # chapter-2 payload is current
-python3 scripts/tafsir/batch.py 3 --from 1 --to 14    # PASS, 0 FAIL
-python3 scripts/tafsir/run.py --check                 # RUN COMPLETE, 50/50 (2:251–2:286 + 3:1–3:14)
+python3 scripts/tafsir/batch.py 3 --from 15 --to 64   # run 7: PASS, 0 FAIL, 89 WARN
+python3 scripts/tafsir/batch.py 3 --from 1 --to 64    # growing range: PASS, 0 FAIL, 120 WARN
+python3 scripts/tafsir/run.py --check                 # RUN COMPLETE, 50/50 (3:15–3:64)
 ```
 
 `data/tafsir_002.json` publishes the completed chapter and `sw.js` is at
-`quran-reader-v2.5.48`. Chapter 3 intentionally has no `data/tafsir_003.json`: its 3:15–3:200
+`quran-reader-v2.5.48`. Chapter 3 intentionally has no `data/tafsir_003.json`: its 3:65–3:200
 scaffolds remain until later author-named runs complete them.
 
 ## The law this book is written to
@@ -205,8 +208,8 @@ Each of these is a real failure the gate raised; the cure is the one that worked
 * **`EVD-ATTRIBUTION`** — the collection must stand **inside the sentence that carries
   the report** ("The Prophet ﷺ said, *\"…\"* as al-Bukhārī carries it"), not in the next
   sentence.
-* **`STY-ANALYSIS-FLOOR`** — at least 4 sentences per verse must reason about the verse
-  (cure words: because, since, which means, which is why, that is why); 8 is the
+* **`STY-ANALYSIS-FLOOR`** — at least 5 sentences per verse must reason about the verse
+  (cure words: because, since, which means, which is why, that is why); 9 is the
   comfortable target. Adding a sentence can trip `MTCH-WORD`, so re-gate after every
   addition.
 * **`STY-ANALOGY`** — one relatable comparison per verse, woven in, and the gate has to

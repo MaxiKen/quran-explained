@@ -12,7 +12,7 @@ line of it:
 | Rule | Value |
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
-| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
+| Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
 | Runs | **fifty verses per run** (v7.2), mapped from all eleven in one pass at the start (`run.py --plan/--build`), read in slices, and finished — every one of the fifty written and clean — before the writer pauses or stops (`run.py --check`) |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
@@ -67,26 +67,33 @@ advisories; the growing 2:1–2:250 gate reports 0 FAIL and 425 advisories. `run
 
 The author then named **2:251**, so the sixth run crossed a chapter boundary: **2:251–2:286 plus
 3:1–3:14**. The chapter-2 portion adds 41,257 words, with 738/1,100/2,029 as its minimum, median and
-maximum; the chapter-3 portion adds 11,508 words, with 707/775/1,087 by the part-file count. The
+maximum; the chapter-3 portion adds 11,508 words, with 707/777/1,087 by the part-file count. The
 exact 2:251–2:286 gate, exact 3:1–3:14 gate, growing chapter-2 gate, and `run.py --check` all pass
 with 0 FAIL. Every verse in the run has complete canonical phrase coverage, transmitted evidence,
 an expanded cross-reference, present-day application and a relatable analogy.
 
 Completing 2:286 also completed Al-Baqarah. Its whole-file audit passes with 0 FAIL, the chapter has
 266,252 verse words, and `data/tafsir_002.json` was built from the markdown and checked current.
-`sw.js` moved to `quran-reader-v2.5.48`. Chapter 3 remains deliberately unpublished because
-3:15–3:200 are still scaffolds.
+`sw.js` moved to `quran-reader-v2.5.48`.
+
+The author next named **3:15**, pinning the seventh run at **3:15–3:64**. All fifty drafts were
+written from the eleven-work run map. They add 39,442 words, with 741/777/902 as the minimum,
+median and maximum. The exact run gate passes at 0 FAIL and 89 advisories; the growing 3:1–3:64
+gate passes at 0 FAIL and 120 advisories; `run.py --check` reports **RUN COMPLETE — 50/50 written,
+0 failing**. Every verse has full canonical phrase coverage, an expanded cross-reference,
+transmitted evidence, present-day application and a relatable analogy. Chapter 3 remains
+unpublished because 3:65–3:200 are still scaffolds.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
 | 2 | `tafsir/002.md` | 286/286 | 266,252 | 703/867/2,029 | PASS; published |
-| 3 | `tafsir/003.md` | 14/200 | 11,508 | 707/781/1,087 | 3:1–3:14 PASS; 186 verses still scaffold |
+| 3 | `tafsir/003.md` | 64/200 | 50,950 | 707/777/1,087 | 3:1–3:64 PASS; 136 verses still scaffold |
 
-Totals: **2 of 114 chapters complete, 307 of 6,236 verses written.** Chapters 1 and 2 have current
-payloads. Chapter 3 has a 617-word introduction and clean prose through 3:14 but no payload. A
+Totals: **2 of 114 chapters complete, 357 of 6,236 verses written.** Chapters 1 and 2 have current
+payloads. Chapter 3 has a 617-word introduction and clean prose through 3:64 but no payload. A
 completed run does not choose its successor: the author must name the next chapter or chapter:verse;
-naming chapter 3 now would resolve to 3:15.
+naming chapter 3 now would resolve to 3:65.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
