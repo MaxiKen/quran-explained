@@ -132,3 +132,11 @@ ruling text lives in `TAFSIR_RULES.md` §0.11–§0.12 with the codes in Appendi
 * `audit.py 1` → **0 FAIL, 10 WARN, 3 INFO — RESULT: PASS**;
 * chapter 2 remains a scaffold at the author's instruction; the chapter-2 drafting bench is
   removed.
+
+**Chapter 1 published (2026-09-26).** `build_data.py 1` built `data/tafsir_001.json` from
+`tafsir/001.md` (7 verses, 862-word introduction, 7,774 words in all, 42,803 bytes) and `--check`
+confirms it still matches the markdown. `sw.js` moves to `quran-reader-v2.5.47` with
+`RETIRED_PAYLOADS` emptied again: chapter 1 is current text now, so the URL must be kept rather
+than purged from a device's cache. The app fetches `data/tafsir_NNN.json` by chapter number, so
+publication is the payload plus that cache-version bump and nothing else. Chapter 2 stays
+unpublished — `build_data.py` refuses to build while any verse is still a `TODO` scaffold.

@@ -1,41 +1,34 @@
 # Tafsir handoff — how to pick this work up
 
-Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v7.2**) and
+Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v7.4**) and
 `TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. This file is the
 working state: where the writing stands, how a run of fifty verses is produced and
 gated, and the gate findings that cost time to learn the first time.
 
-## Where things stand (2026-09-25)
+## Where things stand (2026-09-26)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, session branch `arena/01a0da50-quran-explained` |
-| Written | **chapter 1 complete** (7/7 verses, `batch.py 1 --from 1 --to 7` PASS) and **chapter 2 through 2:59** (introduction + verses 2:1–2:59 spliced into `tafsir/002.md`, each stretch gate-clean; 2:60 onward still `TODO` scaffolds) |
-| Next | **run 2** is the active run: 2:44–2:59 of it are written and clean, and writing continues at **2:60**; run 1 (1:1–1:7 + 2:1–2:43) is finished |
-| Standard | **v7.2**: eleven works read for every verse, every cross-reference expanded with its translation, no verse presented like the last, every paragraph past 120 words, fifty verses finished per run |
-| Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** (the study-style draft, v7.2) — research only, never relayed, compared or quoted |
+| Written | **chapter 1 complete and published** — `tafsir/001.md` (introduction + al-Fatihah 1:1–1:7, 7,646 words; `audit.py 1` → 0 FAIL, 10 WARN, 3 INFO: PASS), payload `data/tafsir_001.json` live in the app (7 verses, 42,803 bytes) |
+| Next | chapter 2 is a scaffold: `tafsir/002.md` is `TODO` from the introduction on. Plan the next run (`run.py --plan`), map it from all eleven (`run.py --build`), and write **2:1** onward, fifty verses to a run |
+| Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
+| Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
-The chapter files are already scaffolded (`tafsir/001.md`, `tafsir/002.md`), with the
-byte-exact verse quotes in place and `TODO` bodies, and the map for the run is built:
-
-```
-python3 scripts/tafsir/run.py --plan        # run 1: 1:1–1:7 + 2:1–2:43 (pinned)
-python3 scripts/tafsir/run.py --status      # written-verses count for the active run
-python3 scripts/tafsir/run.py --check       # run 1 complete; reports run 2 as the open run
-```
-
-Chapter 2 is written as bench files under `tmp/work/` (`c2_intro.md`, `c2_vNNN.md`) and
-spliced by `assemble.py 2` (verses back to front, introduction last). Measured state:
+The chapter files are scaffolded, with the byte-exact verse quotes in place and `TODO` bodies; the
+drafting bench (`tmp/work/c1_*.md`) holds the chapter-1 text the payload was built from. Measured
+state:
 
 ```
-python3 scripts/tafsir/audit.py 1                       # chapter 1: PASS
-python3 scripts/tafsir/batch.py 2 --from 55 --to 59     # 0 FAIL
-python3 scripts/tafsir/batch.py 2 --from 1 --to 30      # 0 FAIL
+python3 scripts/tafsir/audit.py 1                  # chapter 1: PASS
+python3 scripts/tafsir/status.py 1                 # words per verse, gate verdict
+python3 scripts/tafsir/build_data.py 1 --check     # the payload still matches the markdown
+python3 scripts/tafsir/audit.py 2                  # chapter 2: fails on its TODO scaffolds (expected)
 ```
 
-Chapter-level rules (analogy share, sentence length, heading templates) are judged when the
-chapter is finished, so `audit.py 2` keeps failing on the remaining `TODO` scaffolds until
-2:286 is written. That is expected, not a regression: gate stretches with `batch.py`.
+Chapter 2 fails the chapter gate until it is written, and that is expected rather than a
+regression: gate stretches with `batch.py 2 --from A --to B` as they land, and run the chapter
+audit when the last verse is in.
 
 ## The law this book is written to
 
