@@ -20,9 +20,9 @@ first. A chapter alone (`2`) means that chapter's first unwritten verse; a chapt
 means exactly that verse. When the answer comes, take it as the run's first verse:
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:151 # pins the fifty: 2:151–2:200 (a chapter alone works too)
+python3 scripts/tafsir/run.py --plan --start 2:201 # pins the fifty: 2:201–2:250 (a chapter alone works too)
 python3 scripts/tafsir/run.py --build              # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 2:151 2:155  # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 2:201 2:205  # read the map a stretch at a time
 ```
 
 Then write the fifty from that start — stretches gated with `batch.py N --from A --to B` as they land,
@@ -46,30 +46,33 @@ Before any of that, two housekeeping steps:
    sessions are present and must not be overwritten.
 
 State to expect on arrival (2026-09-26): `audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO —
-known and accepted); `build_data.py 1 --check` → `1 up to date`; `batch.py 2 --from 1 --to 150` →
-0 FAIL, 178 WARN, PASS; `run.py --check` for the pinned 2:101–2:150 run → **RUN COMPLETE**. `audit.py 2`
-still fails on the 136 scaffolds from 2:151 onward, as expected until 2:286 is written.
+known and accepted); `build_data.py 1 --check` → `1 up to date`; `batch.py 2 --from 151 --to 200` →
+0 FAIL, 81 WARN, PASS; `batch.py 2 --from 1 --to 200` → 0 FAIL, 279 WARN, PASS; and `run.py
+--check` for the pinned 2:151–2:200 run → **RUN COMPLETE**. `audit.py 2` still fails on the 86
+scaffolds from 2:201 onward, as expected until 2:286 is written.
 
 ## Where things stand (2026-09-26)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **chapter 1 complete and published**; **chapter 2 introduction + 2:1–2:150 written** (122,847 verse words, 703/805/1,427 min/median/max, 100% phrase coverage, 150/150 analogies). The growing-range gate has 0 FAIL and `run.py --check` reports RUN COMPLETE for 2:101–2:150. |
-| Next | Chapter 2 remains a scaffold at 2:151–2:286. **The author names the next run's start**; if the answer is chapter 2, it now resolves to 2:151 and pins 2:151–2:200. Ask and wait when the instruction is only "continue". |
+| Written | **chapter 1 complete and published**; **chapter 2 introduction + 2:1–2:200 written** (168,976 verse words, 703/823/1,427 min/median/max). The 2:151–2:200 gate and the growing 2:1–2:200 gate both have 0 FAIL, and `run.py --check` reports RUN COMPLETE for 2:151–2:200. |
+| Next | Chapter 2 remains a scaffold at 2:201–2:286. **The author names the next run's start**; if the answer is chapter 2, it now resolves to 2:201 and pins 2:201–2:250. Ask and wait when the instruction is only "continue". |
 | Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench now holds
-`tmp/work/c2_intro.md` and `c2_v001.md`–`c2_v150.md`; those files are the source of the assembled
-prose and must not be overwritten. Measured state:
+`tmp/work/c2_intro.md` and `c2_v001.md`–`c2_v200.md`; those files are the source of the assembled
+prose and must not be overwritten. The fourth run contributes 46,129 words, with 724/882/1,307 as
+its minimum, median and maximum. Measured state:
 
 ```
-python3 scripts/tafsir/audit.py 1                   # chapter 1: PASS
-python3 scripts/tafsir/build_data.py 1 --check      # the chapter-1 payload still matches
-python3 scripts/tafsir/batch.py 2 --from 1 --to 150 # 0 FAIL, PASS
-python3 scripts/tafsir/run.py --check               # RUN COMPLETE, 50/50 (2:101–2:150)
-python3 scripts/tafsir/audit.py 2                   # fails on TODO 2:151–2:286 (expected)
+python3 scripts/tafsir/audit.py 1                     # chapter 1: PASS
+python3 scripts/tafsir/build_data.py 1 --check        # the chapter-1 payload still matches
+python3 scripts/tafsir/batch.py 2 --from 151 --to 200 # 0 FAIL, 81 WARN, PASS
+python3 scripts/tafsir/batch.py 2 --from 1 --to 200   # 0 FAIL, 279 WARN, PASS
+python3 scripts/tafsir/run.py --check                 # RUN COMPLETE, 50/50 (2:151–2:200)
+python3 scripts/tafsir/audit.py 2                     # fails on TODO 2:201–2:286 (expected)
 ```
 
 Chapter 2 fails the chapter gate until all 286 verses are written. That is expected rather than a
