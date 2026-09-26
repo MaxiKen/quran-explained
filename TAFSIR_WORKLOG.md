@@ -42,25 +42,28 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**The author-named run from chapter 2 is delivered (2026-09-26).** The chapter-only start resolved
-to its first unwritten verse, 2:1, and pinned **2:1–2:50**. All eleven works were mapped in one pass;
-the introduction and fifty verse drafts were written, spliced and gated against the whole range.
-`run.py --check` reports **RUN COMPLETE — 50/50 written, 0 failing**. The wide batch gate reports
-0 FAIL and 53 advisories: 41 reasoning-floor preferences, four upstream `tafsir_initial` coverage
-gaps, four grounding checks, three Arabic-name match notices and one paired-phrase recurrence. None
-is a publication blocker; every verse has 100% phrase coverage, a transmitted reading, an expanded
-cross-reference, present-day application and a relatable analogy.
+**Two author-named chapter-2 runs are delivered (2026-09-26).** The first chapter-only start resolved
+to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
+verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
+
+The author then named **2:51** exactly, pinning **2:51–2:100**. The second fifty add 43,365 words,
+with 730/859/1,062 as the minimum, median and maximum. Its own gate reports 0 FAIL and 51
+advisories: 38 reasoning-floor preferences and 13 upstream `tafsir_initial` coverage gaps. The
+growing 2:1–2:100 gate also passes at 0 FAIL and 105 advisories. `run.py --check` reports **RUN
+COMPLETE — 50/50 written, 0 failing** for the pinned second run. Every written verse has 100% phrase
+coverage, a named transmitted reading, an expanded cross-reference, present-day application and a
+relatable analogy.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
-| 2 | `tafsir/002.md` | 50/286 | 38,545 | 703/769/905 | 2:1–2:50 PASS; 236 verses still scaffold |
+| 2 | `tafsir/002.md` | 100/286 | 81,910 | 703/801/1,062 | 2:1–2:100 PASS; 186 verses still scaffold |
 
-Totals: **1 of 114 chapters complete, 57 of 6,236 verses written.** Chapter 2 has a 677-word
-introduction and clean prose through 2:50. Its remaining verses, 2:51–2:286, stay as `TODO`
+Totals: **1 of 114 chapters complete, 107 of 6,236 verses written.** Chapter 2 has a 677-word
+introduction and clean prose through 2:100. Its remaining verses, 2:101–2:286, stay as `TODO`
 scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
 run does not choose its successor: the author must name the next chapter or chapter:verse; naming
-chapter 2 now would resolve to 2:51.
+chapter 2 now would resolve to 2:101.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
