@@ -32,8 +32,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
-MIN_VERSE_WORDS = 500          # keep in step with audit.py
-SCALE_FACTOR = 8.0
+MIN_VERSE_WORDS = 700          # keep in step with audit.py (v7.3)
+SCALE_FACTOR = 9.0
 SCALE_CAP = 4000
 
 
@@ -77,7 +77,15 @@ def todo_for(chapter: int, verse: int) -> str:
         "occasions, reports, cross-references, life application and one relatable analogy by "
         "itself, bring it home to the reader once (today, these days), and never label those "
         "elements (no \u201cLesson:\u201d, no \u201cModern application:\u201d) "
-        "\u2014 write them into the flow. Short sentences and everyday words. See TAFSIR_PROMPT.md, "
+        "\u2014 write them into the flow. Write it as a tafsir and not as talk (v7.3, rules "
+        "\u00a70.10): the wording explained, what has been transmitted (the occasion of "
+        "revelation, the reports, the early authority the reading comes from), the language "
+        "the verse carries, what it settles in creed, law and conduct, where the Book says the "
+        "same thing elsewhere with the clause, and what it asks of the reader; at least one "
+        "cross-reference and at least one transmitted reading per verse are required "
+        "(REF-NONE, EVD-TAFSIR). Simple English means plain sentences, not thin substance: "
+        "no general reflection that would fit any verse, no address to the reader, no praise "
+        "of the text in place of its explanation. See TAFSIR_PROMPT.md, "
         "then run scripts/tafsir/audit.py %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )

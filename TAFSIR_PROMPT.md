@@ -77,6 +77,21 @@ paraphrase of the translation dressed up as commentary.
    (`run.py --check` prints RUN COMPLETE); that is what "the run is finished" means. Speed comes
    from the map being in hand and from working several stretches of the run in parallel —
    `batch.py N --ranges A-B,C-D,E-F` gates them at once — never from lowering the standard.
+5. **A tafsir, not talk (v7.3).** What is written is an exposition that teaches the verse, in simple
+   English and with real substance: the wording explained phrase by phrase; what has been
+   transmitted about it — the occasion of revelation, the reports, and the early authority the
+   reading comes from (a Companion, a Successor, one of the first imams), named where it carries the
+   point; the language the verse turns on — the term, its root, the grammar or the reading that
+   changes the sense, explained in the sentence that uses it; what the verse settles in creed, law
+   and conduct, stated as the reading rather than as a survey of opinions; where the Book says the
+   same thing elsewhere, every citation with its clause; and the reasoning — why the words carry
+   the reading given, and what turns on it. Two floors are mechanical: every verse carries a
+   cross-reference with its clause (`REF-NONE`) and a transmitted reading, an early authority named
+   or a report with its collection (`EVD-TAFSIR`). Simple English is the sentence, not the
+   substance: the terms a tafsir needs (*tawḥīd*, *naskh*, *qirāʾah*, *sabab al-nuzūl*) are
+   explained once and then used. A general reflection that would fit any verse, an address to the
+   reader, a rhetorical question, and praise of the text in place of its explanation are not the
+   commentary.
 
 ## 2. Build the inputs first
 
@@ -254,6 +269,10 @@ Length is not padding. It comes from the material this corpus now has:
 * the phrase-by-phrase explanation itself, which quotes each phrase and then unpacks its words;
 * the stories and occasions of revelation the sources carry for that verse;
 * the hadith and athar, told in full, with narrator and collection;
+* what the early authorities carried — the Companion or Successor the reading is learned from,
+  named where it carries the point (`EVD-TAFSIR`);
+* the language the verse turns on — the term and its root, the grammar or the reading that changes
+  the sense, explained in the sentence that uses it;
 * the rulings the verse settles, stated as the reading — and where two readings genuinely differ,
   the difference and what turns on it;
 * the cross-references that let the Qur'an explain the verse;
@@ -267,6 +286,16 @@ Length is not padding. It comes from the material this corpus now has:
 And every paragraph of it — here and in the introduction — runs past 120 words (`WRD-PARA-FLOOR`):
 a paragraph is a complete movement of thought, so a thought too small to reach 121 words belongs
 with the paragraph beside it.
+
+**The register: plain sentences, full substance (v7.3).** Simple English governs the sentence — short
+clauses, everyday words — and not the content. The reader is entitled to the transmitted reading,
+the language point, the ruling, the cross-reference and the reasoning, and the prose delivers them
+without the vocabulary of the seminary standing unexplained. What it never does is replace that
+substance with general reflection: a paragraph that could sit under any verse unchanged, an address
+to the reader, a rhetorical question, or praise of the text ("what a beautiful verse") is talk, not
+tafsir, and the gate warns for it (see the filler list). If a paragraph is under the verse's floor
+and there is nothing more to say about the verse, the answer is to go back to the digest and find
+the material that has not been used — never to widen the sentence.
 
 **Paragraphs under a heading.** Nothing requires one paragraph per heading. A heading introduces a
 movement of thought, and that movement may run in two paragraphs or five; what the gate checks
@@ -328,6 +357,14 @@ paragraph** that explains it. This is the backbone of the chapter, and it is not
 the headings. A heading names the paragraph; the phrase is quoted *in* the paragraph, explained
 there, and supported there by evidence. Several paragraphs in a verse may carry no phrase at all —
 they carry the setting, the story, the ruling, the disagreement, the analogy.
+
+**Two floors per verse (v7.3).** Every verse carries at least one cross-reference to another verse,
+expanded with the clause it points to — without one the gate fails (`REF-NONE`) — and at least one
+transmitted reading: an early authority named (a Companion, a Successor, one of the first imams) or a
+report with its collection, without which it also fails (`EVD-TAFSIR`). The cross-reference belongs
+in the paragraph it explains, beside the phrase it illuminates, not in a list at the end; the
+transmitted reading is named where it carries the point, in the book's own sentence, never as a
+work-by-work survey.
 
 **How to cut a verse.** `scaffold.py N --phrases` prints the cut `corpus.split_phrases` proposes,
 which breaks at strong punctuation (— ; : ? !) and before conjunctions, keeps every word of the
@@ -561,7 +598,8 @@ it quotes (bold used outside the three markers, a headword that neither is the v
 means the same thing, Arabic offered as the verse's own wording — while an honest synonym is
 adjusted to the verse's own words and recorded as information, `MTCH-SYNONYM`); `REF-*` — a citation or a quote from another
 verse is wrong; `WRD-*` — the section is
-under its floor; `EVD-*` — a claim has no evidence or a report has no collection; `REP-*` — the
+under its floor; `EVD-*` — a claim has no evidence, a report has no collection, or the verse carries no transmitted
+reading at all (`EVD-TAFSIR`); `REF-NONE` — the verse carries no cross-reference to another verse; `REP-*` — the
 chapter repeats itself; `STY-*` — the prose is long-winded, formal, carries no analogy, or
 announces its own elements (`STY-LABELS`); `SRC-*` — a work outside the eleven is cited, a work of the eleven is
 summarised or quoted instead of written from, or the digest for a verse was never built.

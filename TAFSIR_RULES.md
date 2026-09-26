@@ -31,7 +31,7 @@ must be read, and fixed when it is real. `GRD-TOKENS` is advisory by design.
 
 ---
 
-## 0. What this book is (standard v7.2, set 2026-09-25)
+## 0. What this book is (standard v7.3, set 2026-09-26)
 
 The chapters are **one author's own commentary book**. The eleven works are the research behind it,
 not the content of it. The writer reads them, learns what the verse carries and how it has been
@@ -93,6 +93,26 @@ that source's opinion, not compared work by work, and not quoted.
    chapters. It is mapped out of all eleven works in one pass at the start (the sources are opened
    once for fifty verses, not once per verse), and **it is finished before the writer pauses or
    stops**: fifty verses written, gated and clean (`scripts/tafsir/run.py --check`).
+10. **A tafsir, not talk (v7.3).** What is published is a tafsir: an exposition that teaches the
+    verse. Each section carries, in the book's own voice and with the anchors of §6: the wording of
+    the verse explained phrase by phrase; **what has been transmitted** about it — the occasion of
+    revelation, the reports, and the early authority the reading comes from (a Companion, a
+    Successor, the first imams), named where it carries the point; **the language** the verse
+    carries — the term, its root, the grammar or the reading that changes the sense, explained in
+    the sentence that uses it; **what the verse settles** in creed, law and conduct, stated as the
+    reading rather than as a survey of opinions; **where the Book says the same thing elsewhere**,
+    every citation with the clause it points to (§0.8); and **the reasoning** — why the words carry
+    the reading given, what turns on it, and what it asks of the reader now.
+    *Simple English is the sentence, not the substance.* The vocabulary a tafsir needs — *tawḥīd*,
+    *naskh*, *qirāʾah*, *sabab al-nuzūl*, the terms of worship, law and creed — is explained once
+    in the chapter and then used, not avoided. What is not the commentary: a general reflection
+    that would fit any verse, an address to the reader, rhetorical questions, and praise of the
+    text in place of its explanation.
+    Two floors are mechanical, so that no verse can fall back into talk: every verse carries at
+    least one cross-reference with the clause it points to (`REF-NONE`, fail) and at least one
+    transmitted reading — an early authority named, or a report with its collection (`EVD-TAFSIR`,
+    fail). The verse floor rises with the standard: `max(700, 9 × the verse's words)`, capped 4,000
+    (§4), and the reasoning floor to five sentences (§7).
 
 The codes v7 retired with this standard: `SRC-SPREAD`, `SRC-FAMILY` (the quotas that *required*
 five works to be named in each verse) and `SRC-UNUSED` (which asked for works to be named at
@@ -106,6 +126,15 @@ needs, each past 120 words (§0.6).
 (`tafsir_initial`, §1.1–§1.2), and **every cross-reference expanded with the wording it points to**
 (§0.8, §2.5) — plus the process law that the writing moves in **runs of fifty verses**, mapped from
 all eleven in one pass and finished before the writer pauses (§0.9, §11.4).
+
+**v7.3 (2026-09-26)** settles what the commentary *is*: **a tafsir, not talk** (§0.10). Every verse
+is an exposition that teaches the verse — the wording explained, what has been transmitted about it,
+the language it carries, what it settles in creed, law and conduct, where the Book says the same
+thing elsewhere with the clause, and the reasoning that shows why the words carry the reading given
+— with two floors made mechanical so that no verse can fall back into general reflection: a
+cross-reference with its clause (`REF-NONE`) and a transmitted reading named (`EVD-TAFSIR`). The
+verse floor rises with it: `max(700, 9 × the verse's words)` (§4), and the reasoning floor to five
+sentences (§7). The whole of the previous standard (v7.2) stays in force.
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
@@ -263,21 +292,22 @@ python3 scripts/tafsir/match.py 1:4 "the day of reckoning" "the day of the harve
 
 | Rule | Value | Level |
 |---|---|---|
-| Words per verse | `max(500, 8 × the verse's own word count)`, capped at **4,000** | under the floor: `WRD-FLOOR` **fail** |
+| Words per verse (v7.3) | `max(700, 9 × the verse's own word count)`, capped at **4,000** | under the floor: `WRD-FLOOR` **fail** |
 | Soft ceiling per verse | 5,000 words — above it, check for padding | `WRD-CEILING` warn |
 | **Every paragraph** | **past 120 words** (a paragraph is a movement of thought) | `WRD-PARA-FLOOR` **fail** |
 | Introduction | 250 words minimum, 1,500 soft ceiling | `WRD-INTRO` fail / warn |
 
-The numbers live in `audit.py` (`MIN_VERSE_WORDS = 500`, `SCALE_FACTOR = 8.0`,
+The numbers live in `audit.py` (`MIN_VERSE_WORDS = 700`, `SCALE_FACTOR = 9.0`,
 `SCALE_CAP = 4000`, `MAX_VERSE_WORDS = 5000`) and `scaffold.py` restates the floor in each `TODO`
 line, so the writer always sees the floor for the verse in front of him. A fifty-word verse
-therefore needs 500 (its scaled floor, 400, sits under the base); a ninety-word verse needs 720+; a
-two-hundred-word verse needs 1,600+.
+therefore needs 700 (its scaled floor, 450, sits under the base); a ninety-word verse needs 810+; a
+two-hundred-word verse needs 1,800+.
 
 **Length comes from material, never padding**: the phrase-by-phrase reading, the stories and
-occasions of revelation, the hadith and athar with narrator and collection, the rulings the verse
-settles (stated as the reading, not as a survey of opinions), the cross-references, one analogy, the
-history, and where the verse meets the present — all of it in the book's own voice (§0). If a section is under its floor, go back to the digest and use material not
+occasions of revelation, the hadith and athar with narrator and collection, the early authorities
+who carried the reading, the language the verse turns on, the rulings the verse settles (stated as
+the reading, not as a survey of opinions), the cross-references, one analogy, the history, and where
+the verse meets the present — all of it in the book's own voice (§0). If a section is under its floor, go back to the digest and use material not
 yet used — usually the Arabic sources — never repetition or vague exhortation.
 
 ## 5. The phrase-by-phrase reading (`PHR-*`)
@@ -317,6 +347,12 @@ yet used — usually the Arabic sources — never repetition or vague exhortatio
    weak`).
 5. **Never promote a witness account, a Companion's ruling or a commentator's gloss to a prophetic
    saying.** Speaker → speaker: Companion → Companion, scholar → scholar, Prophet ﷺ → Prophet ﷺ.
+7. **A tafsir cites what has been transmitted, and shows where the Book speaks again (v7.3,
+   §0.10).** Every verse carries at least one named early authority (a Companion, a Successor, or
+   one of the first imams) or a report with its collection — otherwise `EVD-TAFSIR` (fail); and at
+   least one cross-reference to another verse, expanded with the clause it points to — otherwise
+   `REF-NONE` (fail). Neither is optional because a verse is short: a short verse is where the
+   transmitted reading and the cross-reference carry most of the weight.
 6. **Never attribute a point to a source that does not make it.** Find the passage first
    (`verify.py`); a sentence that borrows authority it does not have is the worst failure this
    corpus can have, because it is invisible on re-reading. Under v7 few sentences carry a work's
@@ -342,9 +378,11 @@ evidence — a Companion or Successor as the reports carry him. Cite such an aut
 proof, inside a sentence that is already making the point, not as a roll-call; where several carry
 the same reading, one mention covers them all, and duplicated source records count as one witness.
 
-**And the section must reason, not just report**: at least **4 sentences per verse** must analyse
+**And the section must reason, not just report**: at least **5 sentences per verse** must analyse
 (*because*, *since*, *so that*, *which means*, *the point*, *what follows*, *therefore*,
-*the difference*, *what turns on*) — fewer than 4 fails (`STY-ANALYSIS-FLOOR`), fewer than 8 warns.
+*the difference*, *what turns on*) — fewer than 5 fails (`STY-ANALYSIS-FLOOR`), fewer than 9 warns.
+Reporting what has been transmitted without showing what it means is not a tafsir either (§0.10):
+the reader is owed the reading, the reason for it, and what turns on it.
 
 ## 8. Plain English, and one analogy (`STY-*`)
 
@@ -517,7 +555,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `FMT-ORPHAN-HEADING` | fail | heading with no prose under it |
 | `FMT-SEP` | fail/warn | separator wrong: none/two between verses, tight above, trailing at the end |
 | `FMT-WHITESPACE` | fail | tab, trailing space, double blank line, wrong final newline |
-| `WRD-FLOOR` | fail | verse below `max(500, 8 × verse words)`, capped 4,000 |
+| `WRD-FLOOR` | fail | verse below `max(700, 9 × verse words)`, capped 4,000 (v7.3) |
 | `WRD-CEILING` | warn | verse above 5,000 words (check for padding) |
 | `WRD-PARA-FLOOR` | fail | a paragraph of the commentary (introduction or verse) is 120 words or fewer |
 | `STY-UNIQUE-VERSE` | fail/warn | a verse repeats another verse's presentation (v7.1): a shared opening frame, a recurring run of unquoted prose, a reused or templated heading, one arrangement used by most verses of a long chapter |
@@ -536,18 +574,20 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `REF-QUOTE` | fail | cross-reference quote is not verbatim |
 | `REF-QUOTE-STYLE` | fail | cross-reference quote is italic instead of bold only |
 | `REF-LONG` | fail/warn | cross-reference clause over 34 words / over 22 |
+| `REF-NONE` | fail | no cross-reference to another verse in the section (v7.3, §0.10) |
 | `REF-QUOTE-REPEAT` | warn | the same verse quoted twice in one section |
 | `REF-SELF-QUOTE` | warn | this verse's own wording re-quoted in reference style |
 | `REF-UNANCHORED` | warn | Qur'an clause in curly quotes with no reference beside it |
 | `REF-STRAIGHT-QUOTE` | fail | Qur'an wording in hadith-style straight quotes |
 | `EVD-NONE` | fail | no checkable anchor in the section |
+| `EVD-TAFSIR` | fail | no transmitted reading in the section: no early authority named and no report with its collection (v7.3, §0.10) |
 | `EVD-THIN` | warn | only one kind of evidence |
 | `EVD-ATTRIBUTION` | fail | prophetic report without its collection |
 | `EVD-NUMBER` | fail | a hadith number that appears in no source for the verse |
 | `EVD-QUOTE-STYLE` | fail/warn | report/athar in curly quotes (25+ words / 12+) |
 | `STY-LABELS` | fail | an element is labelled instead of shown |
 | `STY-SOURCE-PARADE` | fail/warn | section written source by source (§7 thresholds) |
-| `STY-ANALYSIS-FLOOR` | fail/warn | fewer than 4 / fewer than 8 sentences that reason |
+| `STY-ANALYSIS-FLOOR` | fail/warn | fewer than 5 / fewer than 9 sentences that reason (v7.3) |
 | `STY-ANALOGY` | fail/warn | no analogy in this verse / chapter share below 60% / below 40% |
 | `STY-APPLICATION` | warn | the verse never reaches the reader's own world (v7) |
 | `STY-DICTION` | fail/warn | 6+ formal words / 1–5 formal words |
@@ -582,7 +622,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 |---|---|
 | Sources allowed | the **11** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs + `tafsir_initial`, v7.2), nothing else |
 | Works named per verse | none required; a named work in a summary fails (`STY-PARAPHRASE`, v7) |
-| Verse floor | `max(500, 8 × verse words)`, capped 4,000 |
+| Verse floor (v7.3) | `max(700, 9 × verse words)`, capped 4,000 |
 | Verse soft ceiling | 5,000 |
 | Paragraph floor | past 120 words, introduction and verses alike; a heading may carry several paragraphs (`WRD-PARA-FLOOR`) |
 | No house style across verses | 4-word opening frame in 2 verses: warn / 3: fail; 6-word free-prose run in 2: warn / 3: fail; reused heading: fail; 2-word heading opening in 2: warn / 3: fail; one arrangement at 70% of a 10+-verse chapter: warn / 90%: fail (`STY-UNIQUE-VERSE`) |
@@ -592,10 +632,11 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Cross-reference clause | ≤ 22 words (warn), ≤ 34 (fail) |
 | Report quotes | straight quotes; curly-quoted passages warn at 12 words, fail at 25 |
 | Cross-references (v7.2) | every citation expanded with its clause `(C:V — **“clause”**)`, verbatim from `data/`; bare citations warn at 1–2 per section, fail from 3 |
+| **v7.3 — a tafsir, not talk** (§0.10) | every verse: a cross-reference with its clause (`REF-NONE`) and a transmitted reading — an early authority named or a report with its collection (`EVD-TAFSIR`); both fail. Register: plain sentences, full substance — no general reflection that fits any verse, no address to the reader, no rhetorical question, no praise of the text in place of its explanation |
 | Run length (v7.2) | **50 verses** per run (`run.py`, `RUN_VERSE_TARGET`), may span chapters; mapped from all eleven in one pass; the run is finished before the writer pauses (`run.py --check`) |
 | Source-led sentences | warn above 18%, fail above 30%; 3 in a row fails |
 | Source-led paragraphs | warn above 30%, fail above 45% |
-| Reasoning sentences per verse | ≥ 4 (fail below), ≥ 8 preferred |
+| Reasoning sentences per verse (v7.3) | ≥ 5 (fail below), ≥ 9 preferred |
 | Analogy | warn if a verse has none; fail if under 40% of verses have one |
 | Mean sentence | target < 22, warn > 26, fail > 32 words |
 | Sentences over 40 words | target < 8%, warn > 12%, fail > 25% |

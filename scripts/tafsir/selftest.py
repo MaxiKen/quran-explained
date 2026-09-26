@@ -625,6 +625,23 @@ def clean_phrase_synonym(text, ch, chapter):
     return _edit_verse(text, TARGET, fn)
 
 
+def mut_ref_none(text, ch):
+    """§0.10 take every cross-reference out of the verse: REF-NONE (v7.3) must fire."""
+    def fn(block):
+        return re.sub(r"\(\d{1,3}:\d{1,3} \u2014 \*\*\u201c[^\u201d]+\u201d\*\*\)", "", block)
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_evd_tafsir(text, ch):
+    """§0.10 take the transmitted reading out of the verse: EVD-TAFSIR (v7.3) must fire."""
+    def fn(block):
+        out = audit.FIRST_GEN.sub("the first readers", block)
+        return audit.COLLECTIONS.sub("the report", out)
+
+    return _edit_verse(text, TARGET, fn)
+
+
 CLEAN_CASES = [
     ("\u00a75.1 the verse's own word may be explained", clean_own_word),
     ("\u00a75.1 a synonym is adjusted, not failed", clean_synonym),
@@ -695,6 +712,8 @@ CASES = [
     ("\u00a75.1 words explained exist in the verse", "MTCH-WORD", mut_word_offverse),
     ("\u00a75.1 no Arabic as the verse's own wording", "MTCH-TERM", mut_term_as_verse),
     ("\u00a75.1 a synonym is not the verse's wording", "MTCH-TERM", mut_synonym),
+    ("v7.3 every verse cites another verse", "REF-NONE", mut_ref_none),
+    ("v7.3 every verse carries a transmitted reading", "EVD-TAFSIR", mut_evd_tafsir),
 ]
 
 

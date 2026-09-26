@@ -13,7 +13,7 @@ below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
           UPPERCASE descriptive headings (never the verse's own phrases), placeholders
-  WRD-*   length: verse floor (max(500, 8x the verse's words), capped 4,000), introduction,
+  WRD-*   length: verse floor (max(700, 9x the verse's words), capped 4,000), introduction,
           and every paragraph of the commentary running past 120 words (WRD-PARA-FLOOR)
   PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
           verse order, covering the whole verse, in workable units, and each
@@ -32,7 +32,10 @@ below are the same rules, mechanised:
   EVD-*   evidence: every verse carries checkable anchors, every prophetic attribution
           names its collection, a hadith number exists in the sources for the verse
           (EVD-NUMBER), and quotations use the corpus's markers (EVD-QUOTE-STYLE), and
-          attribution names its collection
+          attribution names its collection. v7.3 §0.10: every verse names the early
+          authority it learned the reading from, or gives the report with its collection
+          (EVD-TAFSIR), and carries at least one cross-reference to another verse with the
+          clause it points to (REF-NONE) — a tafsir cites what has been handed down
   REF-*   references: citations resolve to real verses, every cross-reference is
           expanded with the wording it points to (REF-BARE), every quoted Qur'an
           clause is verbatim (REF-QUOTE), a clause is a clause and not a whole
@@ -85,8 +88,8 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 500          # hard floor for every verse, however short
-SCALE_FACTOR = 8.0             # ... and the floor climbs with the verse
+MIN_VERSE_WORDS = 700          # hard floor for every verse, however short (v7.3)
+SCALE_FACTOR = 9.0             # ... and the floor climbs with the verse
 SCALE_CAP = 4000               # ... up to here (a long verse floors at four thousand)
 MAX_VERSE_WORDS = 5000         # soft: above this, check for padding
 PARA_MIN_WORDS = 120           # every paragraph of the commentary runs past this (v7)
@@ -147,8 +150,8 @@ BARE_REF_FAIL = 3             # v7.2: one or two citations without wording warn;
 QUOTE_STYLE_WARN = 12          # words of curly-quoted text outside a Qur'an reference
 QUOTE_STYLE_FAIL = 25
 
-ANALYSIS_MIN_FAIL = 4          # sentences that reason (because, so that, which means ...)
-ANALYSIS_MIN_WARN = 8
+ANALYSIS_MIN_FAIL = 5          # sentences that reason (because, so that, which means ...) (v7.3)
+ANALYSIS_MIN_WARN = 9
 
 ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
 ANALOGY_WARN_SHARE = 0.60
@@ -393,6 +396,11 @@ FILLER = [
     (WARN, r"\bdelve[sd]? into\b|\brich tapestry\b|\bstands as a testament\b|\btestament to\b", "cliche"),
     (WARN, r"\bnavigate the complexities\b|\bunderscores the importance\b|\bplays a (crucial|vital) role\b", "cliche"),
     (WARN, r"\bthroughout history\b|\bsince time immemorial\b|\bcountless generations\b", "vague generality"),
+    (WARN, r"\b(dear|beloved) reader\b", "an address to the reader where the verse's own teaching goes (\u00a70.10)"),
+    (WARN, r"\balways remember\b|\bnever forget that\b|\bwe must (always|never)\b",
+     "generic exhortation: say what this verse teaches, not that one should remember it (\u00a70.10)"),
+    (WARN, r"\bwhat a (beautiful|wonderful|lovely|powerful) (verse|sentence|reminder|passage)\b|\bhow beautiful\b",
+     "praise of the text where its explanation goes (\u00a70.10)"),
 ]
 
 GENERIC_HEADINGS = {
@@ -417,7 +425,7 @@ class Finding:
 
 
 def verse_floor(verse_words: int) -> int:
-    """Words a verse section must carry: 500, rising 8x with the verse."""
+    """Words a verse section must carry: 700, rising 9x with the verse (v7.3)."""
     return max(MIN_VERSE_WORDS, min(SCALE_CAP, int(math.ceil(SCALE_FACTOR * verse_words))))
 
 
@@ -853,7 +861,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         floor = verse_floor(verse_words)
         if body_words < floor:
             fail("WRD-FLOOR", ref, anchor,
-                 "verse tafsir is %d words; this verse needs at least %d (floor = max(500, 8x the verse's %d words))"
+                 "verse tafsir is %d words; this verse needs at least %d (floor = max(700, 9x the verse's %d words))"
                  % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
             warn("WRD-CEILING", ref, anchor,
@@ -1080,6 +1088,20 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                  "no checkable anchor in the section (no Qur'an cross-reference, hadith, named authority or language note)")
         elif len(kinds) < 2:
             warn("EVD-THIN", ref, anchor, "only one kind of evidence (%s)" % kinds[0])
+
+        # v7.3 §0.10: a tafsir cites what has been transmitted, and shows where the
+        # Book says the same thing elsewhere. Neither is optional, however short the verse.
+        if not (FIRST_GEN.search(body) or COLLECTIONS.search(body)):
+            fail("EVD-TAFSIR", ref, anchor,
+                 "nothing in this verse's commentary comes from what has been handed down: name "
+                 "the early authority the reading is learned from (a Companion, a Successor, the "
+                 "first imams), or give the report with its collection \u2014 a tafsir carries the "
+                 "transmitted reading and not only its author's reasoning")
+        if not (QURAN_QUOTE.search(body) or BARE_REF.search(body)):
+            fail("REF-NONE", ref, anchor,
+                 "no cross-reference to another verse: show where the Book says the same thing "
+                 "elsewhere, in bold with the clause it points to \u2014 (C:V \u2014 **\u201cthe clause\u201d**) \u2014 "
+                 "as scripts/tafsir/reference.py prints it")
 
         for para in paragraphs:
             for sentence in C.sentence_split(para):
