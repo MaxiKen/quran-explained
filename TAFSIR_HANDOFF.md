@@ -5,48 +5,51 @@ Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v7.4**) 
 working state: where the writing stands, how a run of fifty verses is produced and
 gated, and the gate findings that cost time to learn the first time.
 
-## If you are told to continue (start here)
+## When the author says "continue" (start here)
 
-The work lives on the branch **`arena/01a0da50-quran-explained`**. `main` is behind it by the whole
-v7.x corpus and the published chapter 1, so before anything else make sure you are on this branch
-(or on whatever branch carries it): if `git log --oneline -1` shows a commit older than the ones in
-the table below, fetch the branch rather than starting from `main`.
+**The call may come on any branch.** Nothing in the rules, the tools or the working state is tied to
+one branch: the corpus, the eleven sources, the scripts, the scaffold and the chapter-1 payload are
+all in the repository, so read them from wherever you are checked out. Work on the branch the session
+gave you and push there. (This work was carried on `arena/01a0da50-quran-explained`, and PR #70 —
+that branch into `main` — is open; if you are on `main` and chapter 1 is missing, fetch that branch
+or ask for the merge rather than starting over.)
 
-Then, in order:
+**First act: ask where to start.** The author names the start of every run, and it is the one thing
+you do not choose. If the instruction is only "continue", reply by asking whether the run should
+begin at a chapter or at a chapter and verse, and **wait** — do not plan, map or write anything
+first. A chapter alone (`2`) means that chapter's first unwritten verse; a chapter and verse (`2:1`)
+means exactly that verse. When the answer comes, take it as the run's first verse:
 
-1. **Read the rules before you read the state.** `TAFSIR_RULES.md` (**v7.4** — §0.11 the register,
-   §0.12 the independence law) is normative; `TAFSIR_PROMPT.md` is the generation prompt built on
-   it; this file is the working state; `TAFSIR_WORKLOG.md` is the ledger.
-2. **Rebuild the scratch that is not in git.** `tmp/sources/` and `tmp/runs/` are ignored by
-   design, so a fresh clone (and, in practice, a fresh session) has neither and the auditor reports
+```bash
+python3 scripts/tafsir/run.py --plan --start 2:1   # pins the fifty: 2:1–2:50 (a chapter alone works too)
+python3 scripts/tafsir/run.py --build              # all eleven works for the run, opened once
+python3 scripts/tafsir/run.py --slice 2:1 2:5      # read the map a stretch at a time
+```
+
+Then write the fifty from that start — stretches gated with `batch.py N --from A --to B` as they land,
+fixed as they fail — and do not stop until `python3 scripts/tafsir/run.py --check` prints **RUN
+COMPLETE** (50/50 written and clean). Naming a different start later re-cuts the run from there;
+naming the same one returns the pinned run in hand. A chapter that is already complete is a stop, not
+a guess: report it and wait for the next start.
+
+Before any of that, two housekeeping steps:
+
+1. **Read the rules first.** `TAFSIR_RULES.md` (**v7.4** — §0.11 the register, §0.12 the independence
+   law) is normative; `TAFSIR_PROMPT.md` is the generation prompt built on it; this file is the
+   working state; `TAFSIR_WORKLOG.md` is the ledger.
+2. **Rebuild the scratch that is not in git.** `tmp/sources/` and `tmp/runs/` are ignored by design,
+   so a fresh clone (and, in practice, a fresh session) has neither and the auditor reports
    `SRC-NODIGEST` on every verse until they are rebuilt. One pass does it:
    `python3 scripts/tafsir/run.py --build` (the run's chapters, all eleven works, per-chapter digests
    for the grounding check); a chapter outside the current run needs its own digest back —
-   `python3 scripts/tafsir/sources.py 1`, which is why `audit.py 1` shows `SRC-NODIGEST` on a clone
-   until it is run. **`SRC-NODIGEST` is a missing scratch file, never a defect in the prose.** The
-   drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier sessions are present
-   and must not be overwritten.
-3. **Confirm the state you inherited** (these are the lines to expect, 2026-09-26):
-   `python3 scripts/tafsir/audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO — the ten warnings
-   are known and accepted: seven `STY-ANALYSIS-FLOOR` advisories, one `STY-UNIQUE-VERSE`, two
-   `MTCH-TERM` on 1:7; they are not a defect to repair, and no rule was waived by them);
-   `python3 scripts/tafsir/build_data.py 1 --check` → `1 up to date`; `python3 scripts/tafsir/audit.py 2`
-   → FAIL on the scaffolds of chapter 2, which is expected until 2:286 is written.
-4. **Then write, exactly as the gait below describes.** The frontier is **chapter 2**: `tafsir/002.md`
-   is a scaffold from its introduction on, and the run in force is the fifty verses the planner names —
-   `run.py --plan` re-anchors at the first unwritten verse, which is `2:1`, so run 1 is now
-   **2:1–2:50** (50 verses, floor 700 words each, 35,000 words of new prose; `run.py --status`
-   lists them). Write it stretch by stretch with `batch.py 2 --from A --to B` after each, and do not
-   stop until `run.py --check` prints RUN COMPLETE.
-5. **Publish only a finished chapter.** `build_data.py N` refuses a chapter with any `TODO`
-   scaffold, so chapter 2 gets its payload when its last verse lands: `audit.py 2` PASS →
-   `status.py 2` → `build_data.py 2` → bump `sw.js` `CACHE_VERSION` (and only add a URL to
-   `RETIRED_PAYLOADS` when a chapter is *withdrawn*; a rewritten chapter that is republished must
-   not be retired) → worklog row → commit and push to this branch.
+   `python3 scripts/tafsir/sources.py 1`. **`SRC-NODIGEST` is a missing scratch file, never a defect
+   in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier
+   sessions are present and must not be overwritten.
 
-Nothing else is needed: every source text (the eleven works), every script, the rules, the
-scaffolds and the chapter-1 payload are in the repository. Nothing outside it is required, and no
-source may be fetched from outside the eleven (§1).
+State to expect on arrival (2026-09-26): `audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO —
+seven `STY-ANALYSIS-FLOOR` advisories, one `STY-UNIQUE-VERSE`, two `MTCH-TERM` on 1:7; known and
+accepted, not a defect); `build_data.py 1 --check` → `1 up to date`; `audit.py 2` → FAIL on the
+scaffolds of chapter 2, expected until 2:286 is written.
 
 ## Where things stand (2026-09-26)
 
@@ -54,7 +57,7 @@ source may be fetched from outside the eleven (§1).
 |---|---|
 | Repo | `MaxiKen/quran-explained`, session branch `arena/01a0da50-quran-explained` |
 | Written | **chapter 1 complete and published** — `tafsir/001.md` (introduction + al-Fatihah 1:1–1:7, 7,646 words; `audit.py 1` → 0 FAIL, 10 WARN, 3 INFO: PASS), payload `data/tafsir_001.json` live in the app (7 verses, 42,803 bytes) |
-| Next | chapter 2 is a scaffold: `tafsir/002.md` is `TODO` from the introduction on. Plan the next run (`run.py --plan`), map it from all eleven (`run.py --build`), and write **2:1** onward, fifty verses to a run |
+| Next | chapter 2 is a scaffold: `tafsir/002.md` is `TODO` from the introduction on. **The author names the run's start** — the ordinary case here is chapter 2 (`run.py --plan --start 2` → 2:1–2:50); ask when the instruction is only "continue" |
 | Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
@@ -122,7 +125,9 @@ false alarms: 0` after any change to the gate.
 
 ## The gait for one run (50 verses)
 
-1. **Plan and map once.** `python3 scripts/tafsir/run.py --plan` names the fifty;
+1. **Plan and map once, from the author's start.** `python3 scripts/tafsir/run.py --plan --start 2:1`
+   cuts and pins the fifty from the verse the author named (ask for it when the instruction is only
+   "continue");
    `python3 scripts/tafsir/run.py --build` pulls all eleven works for the run's chapters
    in one pass (~22 s for chapters 1–2) and writes `tmp/runs/run-001.txt` plus the
    per-chapter digests the auditor's grounding check reads (`tmp/sources/NNN.json`).

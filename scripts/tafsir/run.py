@@ -89,6 +89,17 @@ def read_manifest(index: int):
     return verses or None
 
 
+def manifest_meta(index: int):
+    """The pinned run's record (``start``, ``end``, ``target``), or ``{}``."""
+    path = RUNS_DIR / ("run-%03d.json" % index)
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def save_manifest(verses, index: int):
     """Pin the run: once it is planned, its fifty verses do not shift under the writer."""
     RUNS_DIR.mkdir(parents=True, exist_ok=True)
@@ -102,35 +113,119 @@ def save_manifest(verses, index: int):
     old.update({
         "index": index,
         "target": len(verses),
+        "start": "%d:%d" % verses[0] if verses else None,
+        "end": "%d:%d" % verses[-1] if verses else None,
         "chapters": sorted({c for c, _ in verses}),
         "verses": ["%d:%d" % (c, v) for c, v in verses],
     })
     path.write_text(json.dumps(old, indent=2), encoding="utf-8")
+    (RUNS_DIR / CURRENT).write_text(str(index), encoding="utf-8")   # the run in flight
     return old
 
 
-def plan(target: int = RUN_VERSE_TARGET):
-    """The run in flight: the pinned fifty if one is planned, else the next fifty.
+def resolve_start(start=None):
+    """Turn what the author said into a verse reference.
+
+    * ``None`` — the frontier: the first verse of the Book that is still unwritten.
+    * ``"N"`` — that chapter's first verse that is still unwritten (verse 1 when the
+      chapter has not been started). A complete chapter is a stop, not a guess: the
+      author names the next chapter or a chapter:verse.
+    * ``"N:M"`` — exactly that verse, written or not.
+
+    The author's start is authoritative: it is never quietly moved to the frontier.
+    """
+    if start is None:
+        return first_unwritten()
+    chapter, _, verse = str(start).partition(":")
+    chapter = int(chapter)
+    if not 1 <= chapter <= 114:
+        raise SystemExit("chapter out of range: %s" % start)
+    if verse:
+        verse = int(verse)
+        if not 1 <= verse <= C.verse_count(chapter):
+            raise SystemExit("verse out of range: %s" % start)
+        return (chapter, verse)
+    if not C.output_path(chapter).exists():
+        return (chapter, 1)
+    smap = C.load_chapter_doc(chapter).section_map()
+    for v in range(1, C.verse_count(chapter) + 1):
+        section = smap.get(v)
+        if section is None or "TODO" in section.body():
+            return (chapter, v)
+    raise SystemExit(
+        "chapter %d is already complete \u2014 name a chapter:verse, or the chapter you want next"
+        % chapter)
+
+
+CURRENT = "current"
+
+
+def current_index():
+    """The index of the run in flight — the one the author pinned last."""
+    path = RUNS_DIR / CURRENT
+    if not path.exists():
+        return None
+    try:
+        return int(path.read_text(encoding="utf-8").strip())
+    except Exception:
+        return None
+
+
+def pinned_run(target: int = RUN_VERSE_TARGET):
+    """The run in flight: the run the author pinned last, while it has verses left.
+
+    This is what ``--check``, ``--status`` and ``--slice`` read when the author has
+    not named a start in the same breath: the fifty in hand are the fifty to finish,
+    whatever verse in the Book the frontier happens to be at.
+    """
+    index = current_index()
+    verses = read_manifest(index) if index else None
+    if verses and not all(v in written_verses() for v in verses):
+        return verses, index
+    return None, 0
+
+
+def read_manifest_file(path):
+    """The verses pinned in one manifest file, or ``None``."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return [tuple(int(x) for x in str(ref).split(":")) for ref in data.get("verses", [])] or None
+    except Exception:
+        return None
+
+
+def plan(target: int = RUN_VERSE_TARGET, start=None):
+    """The run in flight: the pinned fifty if one is planned, else the fifty from ``start``.
 
     A run is fixed when it is planned (``--plan`` pins it, ``--build`` fills its
     map). Writing verses inside it does not move its goalposts: the fifty are
     finished before the writer pauses, and only then does the next run begin.
+
+    ``start`` is what the author named. Naming a start that differs from the pinned
+    run re-cuts it from there; naming the same one returns the run already in hand.
     """
-    start = first_unwritten()
-    if start is None:
+    given = start is not None
+    if not given:
+        verses, index = pinned_run(target)
+        if verses:
+            return verses, index          # the author's pinned run is the run in flight
+    anchor = resolve_start(start)
+    if anchor is None:
         return [], 0
-    index = 1 + global_index(*start) // target
+    index = 1 + global_index(*anchor) // target
     pinned = read_manifest(index)
-    if pinned and start in pinned:
-        return pinned, index
-    verses, chapter = [], start[0]
+    if pinned and manifest_meta(index).get("start") == "%d:%d" % anchor:
+        return pinned, index              # the author named this run again
+    verses, chapter = [], anchor[0]
     while len(verses) < target and chapter <= 114:
-        first = start[1] if chapter == start[0] else 1
+        first = anchor[1] if chapter == anchor[0] else 1
         for verse in range(first, C.verse_count(chapter) + 1):
             if len(verses) >= target:
                 break
             verses.append((chapter, verse))
         chapter += 1
+    if given:
+        save_manifest(verses, index)      # naming a start pins it, even outside --plan
     return verses, index
 
 
@@ -150,12 +245,13 @@ def floor_of(chapter, verse):
     return A.verse_floor(len(C.words(C.ayah_en(chapter, verse))))
 
 
-def show_plan(verses, index, target: int) -> None:
+def show_plan(verses, index, target: int, start=None) -> None:
     if not verses:
         print("corpus complete — every verse of every chapter is written")
         return
-    print("run %d \u2014 %d verses in chapter order, %d chapter(s)"
-          % (index, len(verses), len({c for c, _ in verses})))
+    print("run %d \u2014 %d verses in chapter order, %d chapter(s)%s"
+          % (index, len(verses), len({c for c, _ in verses}),
+             " \u2014 from %d:%d (the author's start)" % verses[0] if start else ""))
     total = 0
     for chapter, first, last, count in ranges(verses):
         floors = [floor_of(chapter, v) for v in range(first, last + 1)]
@@ -416,6 +512,9 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--target", type=int, default=RUN_VERSE_TARGET,
                     help="verses in the run (default %d)" % RUN_VERSE_TARGET)
+    ap.add_argument("--start", metavar="REF",
+                    help="where the run starts, as the author named it: a chapter (\"2\", meaning "
+                         "that chapter's first unwritten verse) or a chapter:verse (\"2:1\")")
     ap.add_argument("--plan", action="store_true", help="print the next run and exit")
     ap.add_argument("--build", action="store_true", help="map the run from all eleven works")
     ap.add_argument("--slice", nargs=2, metavar=("FROM", "TO"),
@@ -431,14 +530,17 @@ def main(argv=None):
     ap.add_argument("--no-grounding", action="store_true")
     args = ap.parse_args(argv)
 
-    verses, index = plan(args.target)
+    verses, index = plan(args.target, args.start)
 
     if args.plan or (not (args.build or args.slice or args.status or args.check or args.scaffold)):
-        show_plan(verses, index, args.target)
+        show_plan(verses, index, args.target, args.start)
         if verses:
             save_manifest(verses, index)
             print("  run %d pinned: tmp/runs/run-%03d.json \u2014 the same fifty are finished before "
                   "the writer pauses" % (index, index))
+            print("  verify it: python3 scripts/tafsir/run.py --check \u2014 RUN COMPLETE only when "
+                  "all %d are written and clean: a call is not finished at %d/50"
+                  % (len(verses), max(0, len(verses) - 1)))
         return 0
 
     if args.scaffold:

@@ -74,7 +74,7 @@ as the others (research, never quoted).
 
 ```bash
 # 0. the run: fifty verses, planned and mapped from all eleven in one pass (v7.2)
-python3 scripts/tafsir/run.py --plan                   # the next fifty verses, chapter order
+python3 scripts/tafsir/run.py --plan --start 2:1         # fifty from the author's start (2 or 2:1)
 python3 scripts/tafsir/run.py --build                  # map them (tmp/runs/) + per-chapter digests
 python3 scripts/tafsir/run.py --slice 2:1 2:5          # read the map a stretch at a time
 python3 scripts/tafsir/run.py --status                 # the run's words, floors and gate state
@@ -164,8 +164,11 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. Work moves in **runs of fifty verses** (v7.2), which may span chapters. A run is planned and
-   mapped first (`run.py --plan`, `run.py --build`) so the eleven works are opened once for fifty
+2. Work moves in **runs of fifty verses** (v7.2), cut from the start **the author names** (v7.5):
+   a chapter (`2`) or a chapter:verse (`2:1`), given to `run.py --plan --start`, which pins the
+   fifty. The writer never picks the first verse, and when the instruction is only "continue" the
+   first act is to ask where to start and wait for it. A run may span chapters. It is planned and
+   mapped first (`run.py --plan --start …`, `run.py --build`) so the eleven works are opened once for fifty
    verses, then written, gated with `batch.py N`, and fixed until `run.py --check` prints RUN
    COMPLETE. The run is not left half-written, and the writer does not stop between its stretches.
    Stopping mid-run is for a real blockage (a source that cannot be located, a contradiction that

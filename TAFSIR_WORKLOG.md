@@ -150,3 +150,21 @@ first unwritten verse now that chapter 1 is complete), and the publish sequence 
 author's v7.4 instruction is quoted verbatim in the law list beside the earlier ones, the code count
 is corrected to 88, and `README.md` / `TAFSIR_PIPELINE.md` name v7.4 as the standard in force. No
 rule, chapter or payload changed in this pass.
+
+**The run law, v7.5 (2026-09-26).** On the author's instruction, the run of fifty verses is now cut
+from a start **the author names** and verified as fifty before a call is finished:
+
+* `run.py --plan --start N[:M]` — a chapter (`2`, meaning that chapter's first unwritten verse) or a
+  chapter:verse (`2:1`) — cuts the fifty from there and pins them; `--build`, `--slice`, `--status`
+  and `--check` all read that same pinned run, so a run in flight is never re-cut to the frontier.
+  Naming a different start re-cuts the run from there; naming the same one returns the fifty in hand.
+* a completed chapter is a stop rather than a guess: the planner reports it and waits for the next
+  start.
+* `run.py --check` prints RUN COMPLETE only at **50/50** written and clean, and says so in the plan
+  output: a call that stops at 49/50 has not finished the run.
+* **when the instruction is only "continue", the first act is to ask where the run starts and to
+  wait for the answer** — no verse is planned, mapped or written before it comes. The law is written
+  into `TAFSIR_RULES.md` §0.9, `TAFSIR_PROMPT.md` (instructions 1 and 4), `TAFSIR_PIPELINE.md` §5,
+  `README.md` and `TAFSIR_HANDOFF.md` ("When the author says continue"), and proved mechanically by
+  `scripts/tafsir/ruletest.py`, which now runs seven expectations over the planner's own code
+  (`v7.5 — a run is fifty verses, cut from the start the author named`).

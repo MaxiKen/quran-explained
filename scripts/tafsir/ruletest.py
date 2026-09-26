@@ -22,6 +22,11 @@ It checks that
 * v7.2: ``REF-BARE`` counts cross-references that carry no wording — one or two in a
   section warn, three in one section fail — and passes a citation expanded with the
   clause it points to.
+* v7.5: the run law — a run is exactly fifty verses, cut from the start **the author
+  named** (``--start N`` or ``N:M``), the author's start is authoritative over the
+  frontier, a chapter-only start resolves to that chapter's first unwritten verse, a
+  completed chapter is a stop and not a guess, and the run in flight is the pinned
+  fifty rather than whatever the frontier would re-cut.
 
 Exit status is 0 when every expectation holds.
 """
@@ -171,6 +176,96 @@ APPLICATION_CASES = [
 ]
 
 
+
+def run_law_rows() -> int:
+    """The run law (§0.9, v7.5) on the planner's own code, in a private scratch dir.
+
+    Nothing here writes to ``tmp/runs/``: the planner is pointed at a temporary
+    directory and at stubbed corpus state, so the test is about the law and not
+    about the chapter the repository happens to be on.
+    """
+    import json
+    import tempfile
+    import run as R
+
+    bad = 0
+
+    def row(name, ok, want, got):
+        nonlocal bad
+        bad += not ok
+        print("  %-4s %-44s want=%-18s got=%s"
+              % ("ok" if ok else "FAIL", name, want, got))
+
+    real_runs, real_written, real_chapter_numbers = R.RUNS_DIR, R.written_verses, None
+
+    def fifty(start):
+        verses, _ = R.plan(50, start)
+        return verses
+
+    try:
+        tmp = Path(tempfile.mkdtemp(prefix="runlaw-"))
+        R.RUNS_DIR = tmp
+        R.written_verses = lambda: set()            # nothing written anywhere
+
+        verses = fifty("2:1")
+        row("a chapter:verse start cuts fifty from there",
+            len(verses) == 50 and verses[0] == (2, 1) and verses[-1] == (2, 50),
+            "50, 2:1..2:50", "%d, %s..%s" % (len(verses), "%d:%d" % verses[0], "%d:%d" % verses[-1]))
+
+        verses = fifty("2:280")
+        row("a run that starts near a chapter's end keeps its fifty",
+            len(verses) == 50 and verses[0] == (2, 280) and verses[-1][0] == 3,
+            "50, 2:280 -> ch.3", "%d, %s..%s" % (len(verses), "%d:%d" % verses[0], "%d:%d" % verses[-1]))
+
+        R.plan(50, "2:280")
+        verses = fifty("2:30")
+        row("the author's newest start re-cuts the run",
+            verses[0] == (2, 30) and len(verses) == 50,
+            "50 from 2:30", "%d from %s" % (len(verses), "%d:%d" % verses[0]))
+
+        verses = fifty("2:30")
+        row("naming the same start returns the same fifty",
+            verses[0] == (2, 30) and len(verses) == 50,
+            "50 from 2:30", "%d from %s" % (len(verses), "%d:%d" % verses[0]))
+
+        verses, _ = R.plan(50)                       # no start: the pinned run in flight
+        row("without a start, the run in flight is the pinned one",
+            verses and verses[0] == (2, 30),
+            "the pinned 2:30 run", "%s..%s" % ("%d:%d" % verses[0], "%d:%d" % verses[-1]))
+
+        C = R.C
+        open_chapter = next((n for n in range(3, 115)
+                             if not C.output_path(n).exists()), None)
+        if open_chapter:
+            R.plan(1, None)
+            start = R.resolve_start(str(open_chapter))
+            row("a chapter alone means its first unwritten verse",
+                start == (open_chapter, 1), "%d:1" % open_chapter, "%d:%d" % start)
+        else:
+            print("  skip %-44s (every chapter file exists)" % "a chapter alone means its first verse")
+
+        done = None
+        for n in C.chapter_numbers():
+            if not C.output_path(n).exists():
+                continue
+            doc = C.load_chapter_doc(n)
+            if doc and all("TODO" not in s.body() for s in doc.sections):
+                done = n
+                break
+        if done:
+            stopped = False
+            try:
+                R.resolve_start(str(done))
+            except SystemExit:
+                stopped = True
+            row("a completed chapter is a stop, not a guess", stopped, "stop", "wrote" if not stopped else "stop")
+        else:
+            print("  skip %-44s (no completed chapter)" % "a completed chapter is a stop")
+    finally:
+        R.RUNS_DIR, R.written_verses = real_runs, real_written
+    return bad
+
+
 def main() -> int:
     bad = 0
     print("authorship — the book is the author's own (§0, v7)")
@@ -217,6 +312,9 @@ def main() -> int:
         bad += not ok
         print("  %-4s %-34s want=%-28s got=%s"
               % ("ok" if ok else "FAIL", name, want, got))
+
+    print("v7.5 — a run is fifty verses, cut from the start the author named (§0.9)")
+    bad += run_law_rows()
 
     print()
     print("v7 rule test: %s" % ("all expectations hold" if not bad else "%d FAILED" % bad))

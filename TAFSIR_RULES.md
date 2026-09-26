@@ -90,10 +90,22 @@ that source's opinion, not compared work by work, and not quoted.
    verbatim from `data/chapter_NNN.js` — `(C:V — **“the clause”**)`. One or two bare citations in a
    section warn (`REF-BARE`); three in one section fail. `scripts/tafsir/reference.py` prints the
    expansion, so a clause is never typed by hand.
-9. **The work moves in runs of fifty verses (v7.2).** A run is the unit of work and may span
-   chapters. It is mapped out of all eleven works in one pass at the start (the sources are opened
-   once for fifty verses, not once per verse), and **it is finished before the writer pauses or
-   stops**: fifty verses written, gated and clean (`scripts/tafsir/run.py --check`).
+9. **The work moves in runs of fifty verses (v7.2), cut from the start the author names (v7.5).**
+   A run is the unit of work and may span chapters. It is mapped out of all eleven works in one
+   pass at the start (the sources are opened once for fifty verses, not once per verse), and **it is
+   finished before the writer pauses or stops**: fifty verses written, gated and clean
+   (`scripts/tafsir/run.py --check` prints RUN COMPLETE only at 50/50 — a stretch that stops at
+   forty-nine has not finished the run).
+
+   **Where a run begins is the author's to say, never the writer's to choose (v7.5).** The author
+   names it as a chapter (`2`, meaning that chapter's first unwritten verse) or a chapter:verse
+   (`2:1`); the run is cut from exactly there with `run.py --plan --start N[:M]`, which pins the
+   fifty, and `run.py --check` then verifies *those* fifty. Naming a different start re-cuts the run
+   from there; naming the same one returns the run in hand. A completed chapter is a stop, not a
+   guess: the writer reports it and waits for the next start. **When the author says "continue" and
+   nothing more, the first act is to ask where the run should start, and then to wait for the
+   answer** — no verse is planned, mapped or written before the start is in hand. Once it is, the
+   fifty are worked to the end without further check-ins.
 10. **A tafsir, not talk (v7.3).** What is published is a tafsir: an exposition that teaches the
     verse. Each section carries, in the book's own voice and with the anchors of §6: the wording of
     the verse explained phrase by phrase; **what has been transmitted** about it — the occasion of

@@ -43,13 +43,18 @@ paraphrase of the translation dressed up as commentary.
 
 **Six standing instructions:**
 
-1. **You continue on your own until the run is finished.** Write the run in stretches, gate each
-   stretch with `batch.py N --from A --to B` as it lands, fix what fails, start the next stretch,
-   and keep going — without stopping to ask, and without waiting to be told — until all fifty
-   verses of the run are written and clean (`run.py --check` prints RUN COMPLETE), and the chapter
-   gate `audit.py N` passes for any chapter finished on the way. A run is a marathon, not a lap:
-   the only reasons to pause are a source that cannot be located or a contradiction that needs a
-   decision (§10).
+1. **The start is the author's to give; the run is yours to finish.** When the author says
+   "continue" and nothing more, the first act is to ask where the run should begin — a chapter, or a
+   chapter and verse — and to wait for the answer (v7.5, §0.9). No verse is planned, mapped or
+   written before it comes. Once it is in hand, take it as the run's first verse
+   (`run.py --plan --start N[:M]`, which pins the fifty; a chapter alone means that chapter's first
+   unwritten verse), then write the run in stretches, gate each stretch with `batch.py N --from A
+   --to B` as it lands, fix what fails, and start the next stretch — **without stopping to ask, and
+   without waiting to be told** — until all fifty verses of the run are written and clean
+   (`run.py --check` prints RUN COMPLETE at 50/50; a run left at forty-nine is not finished), and
+   the chapter gate `audit.py N` passes for any chapter finished on the way. A run is a marathon,
+   not a lap: after the start, the only reasons to pause are a source that cannot be located or a
+   contradiction that needs a decision (§10).
 2. **All eleven are read for every verse before a word of it is written — and none of them is
    relayed, compared or quoted.** Run the digest for the verse, read what each of the eleven says
    about it (Arabic sources included: read them and put the substance into English), then write
@@ -68,14 +73,18 @@ paraphrase of the translation dressed up as commentary.
    verses, a heading reused or templated, and (in chapters of ten verses or more) one arrangement
    used by most verses (`STY-UNIQUE-VERSE`). Only quoted matter — the verse's own phrases, cited
    clauses, a report's words — is allowed to come again.
-4. **Work in runs of fifty verses, mapped once and finished before you pause (v7.2).** The run is
-   the unit of work and it may span chapters — the first run is 1:1–1:7 plus 2:1–2:43. Begin it with
-   `run.py --plan` and `run.py --build`: the whole run is pulled out of all eleven works in one
-   pass, so the sources are opened once for fifty verses instead of once per verse, and the map is
-   then read in slices. Write, gate and fix until **every one of the fifty is written and clean**
-   (`run.py --check` prints RUN COMPLETE); that is what "the run is finished" means. Speed comes
-   from the map being in hand and from working several stretches of the run in parallel —
-   `batch.py N --ranges A-B,C-D,E-F` gates them at once — never from lowering the standard.
+4. **Work in runs of fifty verses, mapped once and finished before you pause (v7.2), cut from the
+   author's start (v7.5).** The run is the unit of work and it may span chapters: the writer never
+   picks its first verse, and never moves it to the frontier. It begins where the author said —
+   `run.py --plan --start N[:M]` (a chapter alone means that chapter's first unwritten verse) — and
+   that call pins the fifty; every later `--check`, `--status` and `--slice` reads the same pinned
+   run. Then `run.py --build`: the whole run is pulled out of all eleven works in one pass, so the
+   sources are opened once for fifty verses instead of once per verse, and the map is then read in
+   slices. Write, gate and fix until **every one of the fifty is written and clean** (`run.py
+   --check` prints RUN COMPLETE at 50/50); that is what "the run is finished" means. Speed comes
+   from the map being in hand and from working several stretches of the run in parallel — `batch.py
+   N --ranges A-B,C-D,E-F` gates them at once — never from lowering the standard.
+
 5. **A tafsir, not talk (v7.3).** What is written is an exposition that teaches the verse, in simple
    English and with real substance: the wording explained phrase by phrase; what has been
    transmitted about it — the occasion of revelation, the reports, and the early authority the
@@ -118,7 +127,8 @@ paraphrase of the translation dressed up as commentary.
 ```bash
 cd /home/user/quran-explained
 
-python3 scripts/tafsir/run.py --plan               # the next fifty verses (may span chapters)
+python3 scripts/tafsir/run.py --plan --start 2:1   # the fifty from the author's start: a chapter (2)
+                                                   # or a chapter:verse (2:1); ask for it, never pick it
 python3 scripts/tafsir/run.py --build              # all eleven works for the run, mapped in one pass
 python3 scripts/tafsir/run.py --slice 2:1 2:5      # read the map a stretch at a time
 python3 scripts/tafsir/run.py --check              # RUN COMPLETE only when all fifty are clean
@@ -659,10 +669,12 @@ finishes a 7-verse one: map the run, write it, gate it, continue to the end of t
 ### The run loop
 
 ```bash
-# once per run of fifty verses (see §2) — the sources are opened once, not per verse
-python3 scripts/tafsir/run.py --plan
+# once per run of fifty verses (see §2) — the sources are opened once, not per verse.
+# The start comes from the author (ask when the instruction is only "continue"); --plan pins the
+# fifty, and every later --check/--status/--slice reads that same pinned run.
+python3 scripts/tafsir/run.py --plan --start 2:1
 python3 scripts/tafsir/run.py --build
-python3 scripts/tafsir/run.py --slice 1:1 1:7    # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
 
 # then, for each stretch of the run (the material decides the size of a stretch: verses that carry
 # a whole page of law each move a few at a time, short verses move in tens)

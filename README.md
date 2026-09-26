@@ -28,7 +28,7 @@ writer pauses.
 ## Pipeline in one screen
 
 ```bash
-python3 scripts/tafsir/run.py --plan             # the next fifty verses (may span chapters)
+python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the author names (2 or 2:1)
 python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
 python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
