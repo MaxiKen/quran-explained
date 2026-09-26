@@ -13,7 +13,15 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.5.45';
+const CACHE_VERSION = 'quran-reader-v2.5.46';
+
+// ---- Commentary payloads withdrawn from the server --------------------------
+// A cleared or rewritten chapter must not be served to a device from an old
+// cache, so these URLs are dropped from every cache when this version activates
+// (the chapter downloads themselves are still carried across versions below).
+const RETIRED_PAYLOADS = [
+  './data/tafsir_001.json'
+];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -99,6 +107,13 @@ self.addEventListener('activate', (event) => {
           if (response) await currentCache.put(request, response.clone());
         }
         await caches.delete(name);
+      }
+
+      // withdrawn commentary: the copy loop above has already carried anything
+      // an old cache held into the current cache, so dropping the URL here is
+      // enough to stop a rewritten chapter being served from a stale payload.
+      for (const url of RETIRED_PAYLOADS) {
+        await currentCache.delete(new URL(url, self.location).toString());
       }
 
       await self.clients.claim();
