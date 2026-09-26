@@ -8,10 +8,10 @@ gated, and the gate findings that cost time to learn the first time.
 ## When the author says "continue" (start here)
 
 **The call may come on any branch.** Nothing in the rules, the tools or the working state is tied to
-one branch: the corpus, the eleven sources, the scripts, the scaffold and the chapter-1 payload are
-all in the repository, so read them from wherever you are checked out. Work on the branch the session
-gave you and push there. PR #70 brought chapter 1 and v7.5 into `main`; the chapter-2 writing through
-2:150 was carried on `arena/01a0dd66-quran-explained`.
+one branch: the corpus, the eleven sources, the scripts, the scaffolds and the chapter-1 and
+chapter-2 payloads are all in the repository, so read them from wherever you are checked out. Work on the branch the session
+gave you and push there. PR #70 brought chapter 1 and v7.5 into `main`; chapter 2 was completed and
+published, and chapter 3 was begun through 3:14, on `arena/01a0dd66-quran-explained`.
 
 **First act: ask where to start.** The author names the start of every run, and it is the one thing
 you do not choose. If the instruction is only "continue", reply by asking whether the run should
@@ -20,9 +20,9 @@ first. A chapter alone (`2`) means that chapter's first unwritten verse; a chapt
 means exactly that verse. When the answer comes, take it as the run's first verse:
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:251 # pins 2:251–2:286 plus 3:1–3:14
+python3 scripts/tafsir/run.py --plan --start 3:15  # example only: pin after the author names 3:15
 python3 scripts/tafsir/run.py --build              # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 2:251 2:255  # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 3:15 3:19    # read the map a stretch at a time
 ```
 
 Then write the fifty from that start — stretches gated with `batch.py N --from A --to B` as they land,
@@ -45,39 +45,39 @@ Before any of that, two housekeeping steps:
    in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier
    sessions are present and must not be overwritten.
 
-State to expect on arrival (2026-09-26): `audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO —
-known and accepted); `build_data.py 1 --check` → `1 up to date`; `batch.py 2 --from 201 --to 250` →
-0 FAIL, 141 WARN, PASS; `batch.py 2 --from 1 --to 250` → 0 FAIL, 425 WARN, PASS; and `run.py
---check` for the pinned 2:201–2:250 run → **RUN COMPLETE**. `audit.py 2` still fails on the 36
-scaffolds from 2:251 onward, as expected until 2:286 is written.
+State to expect on arrival (2026-09-26): `audit.py 2` and `batch.py 2 --from 1 --to 286` both
+pass with 0 FAIL; `build_data.py 2 --check` reports the chapter-2 payload current; `batch.py 3
+--from 1 --to 14` passes with 0 FAIL; and `run.py --check` for the pinned cross-chapter run
+2:251–2:286 plus 3:1–3:14 prints **RUN COMPLETE — 50/50 written, 0 failing**. Chapter 3 still has
+186 scaffolds from 3:15 onward, so it remains in progress and has no payload.
 
 ## Where things stand (2026-09-26)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **chapter 1 complete and published**; **chapter 2 introduction + 2:1–2:250 written** (224,995 verse words, 703/843/1,438 min/median/max). The 2:201–2:250 gate and the growing 2:1–2:250 gate both have 0 FAIL, and `run.py --check` reports RUN COMPLETE for 2:201–2:250. |
-| Next | Chapter 2 remains a scaffold at 2:251–2:286. **The author names the next run's start**; if the answer is chapter 2, it now resolves to 2:251 and pins 2:251–2:286 plus 3:1–3:14. Ask and wait when the instruction is only "continue". |
+| Written | **chapters 1 and 2 complete and published**; **chapter 3 introduction + 3:1–3:14 written**. Chapter 2 has 266,252 verse words (703/867/2,029 min/median/max), passes its whole-chapter gate, and is live in `data/tafsir_002.json`. Chapter 3 has 11,508 verse words (707/781/1,087) and its written 3:1–3:14 range passes. |
+| Next | Chapter 3 remains scaffolded at 3:15–3:200 and is deliberately unpublished. **The author names the next run's start**; naming chapter 3 now resolves to 3:15, but when the instruction is only "continue", ask and wait rather than assuming it. |
 | Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
-Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench now holds
-`tmp/work/c2_intro.md` and `c2_v001.md`–`c2_v250.md`; those files are the source of the assembled
-prose and must not be overwritten. The fifth run contributes 56,019 words, with 901/1,123/1,438 as
-its minimum, median and maximum. Measured state:
+Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
+`tmp/work/c2_intro.md` and `c2_v001.md`–`c2_v286.md`; chapter 3 adds `c3_intro.md` and
+`c3_v001.md`–`c3_v014.md`. These are the source of the assembled prose and must not be overwritten.
+The sixth run contributes 41,257 words in 2:251–2:286 (738/1,100/2,029 min/median/max) and 11,508
+words in 3:1–3:14 (707/775/1,087 by the part-file count). Measured state:
 
 ```
-python3 scripts/tafsir/audit.py 1                     # chapter 1: PASS
-python3 scripts/tafsir/build_data.py 1 --check        # the chapter-1 payload still matches
-python3 scripts/tafsir/batch.py 2 --from 201 --to 250 # 0 FAIL, 141 WARN, PASS
-python3 scripts/tafsir/batch.py 2 --from 1 --to 250   # 0 FAIL, 425 WARN, PASS
-python3 scripts/tafsir/run.py --check                 # RUN COMPLETE, 50/50 (2:201–2:250)
-python3 scripts/tafsir/audit.py 2                     # fails on TODO 2:251–2:286 (expected)
+python3 scripts/tafsir/audit.py 2                     # whole chapter: PASS, 0 FAIL
+python3 scripts/tafsir/status.py 2                    # 286/286; 266,252 verse words; PASS
+python3 scripts/tafsir/build_data.py 2 --check        # chapter-2 payload is current
+python3 scripts/tafsir/batch.py 3 --from 1 --to 14    # PASS, 0 FAIL
+python3 scripts/tafsir/run.py --check                 # RUN COMPLETE, 50/50 (2:251–2:286 + 3:1–3:14)
 ```
 
-Chapter 2 fails the chapter gate until all 286 verses are written. That is expected rather than a
-regression: gate every new stretch against the growing range from verse 1 so cross-verse repeats are
-caught, and run the whole chapter audit when the last verse lands.
+`data/tafsir_002.json` publishes the completed chapter and `sw.js` is at
+`quran-reader-v2.5.48`. Chapter 3 intentionally has no `data/tafsir_003.json`: its 3:15–3:200
+scaffolds remain until later author-named runs complete them.
 
 ## The law this book is written to
 
@@ -256,12 +256,12 @@ The session opens with HEAD at an old commit and `tmp/` gone while the *files* s
 latest work. The branch is the source of truth.
 
 ```
-git fetch origin refs/heads/arena/01a0da50-quran-explained:refs/remotes/origin/arena/01a0da50-quran-explained
-git log --oneline -3 origin/arena/01a0da50-quran-explained
-for f in tafsir/002.md TAFSIR_RULES.md scripts/tafsir/audit.py sw.js; do \
-  a=$(git show origin/arena/01a0da50-quran-explained:$f | sha1sum); b=$(sha1sum $f); \
+git fetch origin refs/heads/arena/01a0dd66-quran-explained:refs/remotes/origin/arena/01a0dd66-quran-explained
+git log --oneline -3 origin/arena/01a0dd66-quran-explained
+for f in tafsir/002.md tafsir/003.md data/tafsir_002.json sw.js; do \
+  a=$(git show origin/arena/01a0dd66-quran-explained:$f | sha1sum); b=$(sha1sum $f); \
   [ "$a" = "$b" ] && echo "same $f" || echo "DIFF $f"; done
-git reset --hard origin/arena/01a0da50-quran-explained
+git reset --hard origin/arena/01a0dd66-quran-explained
 python3 scripts/tafsir/run.py --build            # rebuilds the digests and the run map
 ```
 
@@ -272,7 +272,7 @@ digests (`tmp/sources/…`) and the run maps (`tmp/runs/…`) do not, and `run.p
 rebuilds both in one pass.
 
 Push policy: push to the session branch you were given and to no other — this work was carried on
-`arena/01a0da50-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
+`arena/01a0dd66-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
 A single writer holds a branch, so `--force` is acceptable if a lease goes stale, but never push to
 `main` from a session branch: `main` is brought up to date by merging the branch's pull request.
 

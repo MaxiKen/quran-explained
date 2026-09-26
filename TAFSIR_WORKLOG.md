@@ -42,7 +42,7 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Five author-named chapter-2 runs are delivered (2026-09-26).** The first chapter-only start resolved
+**Six author-named fifty-verse runs are delivered (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
 
@@ -63,20 +63,30 @@ reports 0 FAIL and 81 advisories; the growing 2:1–2:200 gate reports 0 FAIL an
 The author then continued from **2:201**, pinning **2:201–2:250**. The fifth run adds 56,019 words,
 with 901/1,123/1,438 as its minimum, median and maximum. Its exact gate reports 0 FAIL and 141
 advisories; the growing 2:1–2:250 gate reports 0 FAIL and 425 advisories. `run.py --check` reports
-**RUN COMPLETE — 50/50 written, 0 failing** for the pinned fifth run. Every written verse has
-complete canonical phrase coverage, transmitted evidence, an expanded cross-reference,
-present-day application and a relatable analogy.
+**RUN COMPLETE — 50/50 written, 0 failing** for the pinned fifth run.
+
+The author then named **2:251**, so the sixth run crossed a chapter boundary: **2:251–2:286 plus
+3:1–3:14**. The chapter-2 portion adds 41,257 words, with 738/1,100/2,029 as its minimum, median and
+maximum; the chapter-3 portion adds 11,508 words, with 707/775/1,087 by the part-file count. The
+exact 2:251–2:286 gate, exact 3:1–3:14 gate, growing chapter-2 gate, and `run.py --check` all pass
+with 0 FAIL. Every verse in the run has complete canonical phrase coverage, transmitted evidence,
+an expanded cross-reference, present-day application and a relatable analogy.
+
+Completing 2:286 also completed Al-Baqarah. Its whole-file audit passes with 0 FAIL, the chapter has
+266,252 verse words, and `data/tafsir_002.json` was built from the markdown and checked current.
+`sw.js` moved to `quran-reader-v2.5.48`. Chapter 3 remains deliberately unpublished because
+3:15–3:200 are still scaffolds.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
-| 2 | `tafsir/002.md` | 250/286 | 224,995 | 703/843/1,438 | 2:1–2:250 PASS; 36 verses still scaffold |
+| 2 | `tafsir/002.md` | 286/286 | 266,252 | 703/867/2,029 | PASS; published |
+| 3 | `tafsir/003.md` | 14/200 | 11,508 | 707/781/1,087 | 3:1–3:14 PASS; 186 verses still scaffold |
 
-Totals: **1 of 114 chapters complete, 257 of 6,236 verses written.** Chapter 2 has a 677-word
-introduction and clean prose through 2:250. Its remaining verses, 2:251–2:286, stay as `TODO`
-scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
-run does not choose its successor: the author must name the next chapter or chapter:verse; naming
-chapter 2 now would resolve to 2:251 and make the fifty-verse run continue through 3:14.
+Totals: **2 of 114 chapters complete, 307 of 6,236 verses written.** Chapters 1 and 2 have current
+payloads. Chapter 3 has a 617-word introduction and clean prose through 3:14 but no payload. A
+completed run does not choose its successor: the author must name the next chapter or chapter:verse;
+naming chapter 3 now would resolve to 3:15.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
