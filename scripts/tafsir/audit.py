@@ -52,6 +52,11 @@ below are the same rules, mechanised:
           analogy the prompt asks each verse to carry, a line that reaches the
           reader's own world (STY-APPLICATION), and no labelled
           scaffolding (STY-LABELS: "Lesson:", "Modern application:", ...)
+  IND-*   independence: the book names and quotes no book — only the references those books
+          cite (the Qur'an, a report with its collection, an early authority); a quotation
+          that hangs on no reference fails (IND-QUOTE, v7.4 §0.12), as does naming a work
+          (IND-WORK), and the register itself is enforced on the book's own words
+          (STY-CONTRACTION, STY-EXCLAIM, STY-HYPE, STY-QUESTION; v7.4 §0.11)
   SRC-*   sources: the eleven works of corpus.SOURCE_ALLOWLIST are research
           material — the digest must hold every one of them for the verse before
           it is written (SRC-NOTCHECKED, SRC-NODIGEST), their contents are taken as
@@ -258,6 +263,50 @@ WORK_RELAY = re.compile(
     r"the (?:commentaries|commentators|exegetes|tafs[\u012bi]rs?|tafs[\u012bi]r works?|sources)|"
     r"tafsir_initial|Study Qur[\u2019']?an|study[- ]draft)",
     re.I)
+
+# ---- v7.4: the book quotes no book (the independence law, §0.12) -------------
+# The commentary is an independent book. It names, summarises, paraphrases and
+# quotes no work at all — neither the eleven behind it nor any other. What it may
+# quote is what those works themselves quote as evidence: the Qur'an (in the
+# citation form of §2), a report in the *"..."* style with its collection named, or
+# a transmitted reading attributed to an early authority by name.
+WORK_NAMES = re.compile(
+    r"(\b[T\u1e6c]abar[\u012bi]\b|\bTabari\b|J[\u0101a]mi[\u02bf'] al-Bay[\u0101a]n|"
+    r"Qur[\u1e6d]ub[\u012bi]|Qurtubi|Baghaw[\u012bi]|Baghawi|Ma[\u02bf']\u0101lim al-Tanz[\u012bi]l|"
+    r"Ibn Kath[\u012bi]r|Ibn Kathir|al-[\u02be']?[A\u0101]l[\u016b]?s[\u012bi]|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi]|"
+    r"al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m|"
+    r"Ibn [\u02bf']Uthaym[\u012bi]n|Ibn Uthaymeen|Ma[\u02bf']\u0101rif al-Qur[\u2019']?[\u0101a]n|"
+    r"Maarif-ul-Quran|Ma[\u02bf']\u0101rif|tafsir_initial|Study Qur[\u2019']?an)", re.I)
+
+# Any other book a commentary might be tempted to cite: named titles only, so
+# that the genre words ("a tafsir", "the commentators") stay free.
+IND_TITLES = re.compile(
+    r"(al-Itq[\u0101a]n|\bItq[\u0101a]n\b|Ma[\u02bf']\u0101limut Tanz[\u012bi]l|"
+    r"Durr al-Manth[\u016b]r|Durrul Manth[\u016b]r|Durrul Manthur|"
+    r"Hisnul Has[\u012bi]n|Hisn al-Has[\u012bi]n|Mirq[\u0101a]t|Mishk[\u0101a]t al-Mas[\u0101a]b[\u012bi][\u1e25h]|"
+    r"Fat[\u1e25h] al-B[\u0101a]r[\u012bi]|Riy[\u0101a][\u1e0d] al-[\u1e62s]\u0101li[\u1e25h][\u012bi]n|"
+    r"al-Bid[\u0101a]ya wa|Tazkirat|Kashf al-Asr[\u0101a]r|"
+    r"\bthe (?:tafs[\u012bi]r|commentary|exegesis) (?:of|by|entitled|named|known as)\b|"
+    r"\btafs[\u012bi]r [A-Z])", re.I)
+
+# A quoted stretch measured in words, for the independence quote law.
+QUOTED_ANY = re.compile(r"[\u201c\"]([^\u201d\"\n]{10,})[\u201d\"]")
+
+# ---- v7.4: the house register (§0.11) ---------------------------------------
+CONTRACTION = re.compile(
+    r"\b(don[\u2019']t|doesn[\u2019']t|didn[\u2019']t|isn[\u2019']t|aren[\u2019']t|wasn[\u2019']t|"
+    r"weren[\u2019']t|can[\u2019']t|won[\u2019']t|wouldn[\u2019']t|shouldn[\u2019']t|couldn[\u2019']t|"
+    r"hasn[\u2019']t|haven[\u2019']t|hadn[\u2019']t|it[\u2019']s|that[\u2019']s|there[\u2019']s|"
+    r"here[\u2019']s|what[\u2019']s|who[\u2019']s|let[\u2019']s|we[\u2019']re|they[\u2019']re|"
+    r"you[\u2019']re|I[\u2019']m|I[\u2019']ve|we[\u2019']ve|they[\u2019']ve|you[\u2019']ve)\b", re.I)
+
+HYPE = re.compile(
+    r"\b(amazing|incredible|awesome|fantastic|stunning|mind[- ]blowing|unbelievable|"
+    r"superb|wonderful|marvellous|marvelous|brilliant)\b", re.I)
+
+QUESTION_WARN = 1               # a question put to the reader (warn)
+QUESTION_FAIL = 3               # a section arguing by questions (fail)
+
 
 # A work is "speaking" when its name carries a reporting or vantage verb — that
 # sentence is a summary of a source, whatever its attribution.
@@ -513,6 +562,93 @@ def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True)
                              "itself with its collection" % sentence[:80])
                         quoted = True
                         break
+
+
+def _strip_quoted(text: str) -> str:
+    """The writer's own voice: every quotation is taken out first.
+
+    Contractions, exclamations, hype and questions are judged on the commentary's
+    own words, never on what it quotes — a report may carry the Prophet's "I" and
+    a cited clause may carry anything it carries.
+    """
+    t = HTML_COMMENT.sub(" ", text)
+    for rx in (QURAN_QUOTE, PHRASE_QUOTE, BOLD_ONLY_QUOTE, STRAIGHT_IN_ITALIC,
+               CURLY_ONLY_QUOTE, CURLY_QUOTE):
+        t = rx.sub(" ", t)
+    return re.sub(r'"[^"\n]*"', " ", t)
+
+
+def _quote_anchor(sentence: str) -> bool:
+    """Does the sentence carrying a quotation name what the quotation is from?"""
+    if COLLECTIONS.search(sentence) or FIRST_GEN.search(sentence):
+        return True
+    return bool(re.search(r"\b(the Prophet|the Messenger of God|the Book says|"
+                          r"reports?|narrat\w+|he said|she said|they said|answered|replied)\b",
+                          sentence, re.I))
+
+
+def _independence_rules(text, ref, anchor, fail) -> None:
+    """v7.4 §0.12: the book names and quotes no book.
+
+    Everything quoted in the commentary has to be one of three things: a phrase of
+    the verse (bold italics), a clause of another verse (inside its reference), or
+    a report/saying anchored to where the reader can find it. A quotation that
+    hangs on nothing is a book being quoted, and the book quotes no book.
+    """
+    prose = _prose_only(text) if "\n" in text else text
+    named = WORK_NAMES.search(prose) or IND_TITLES.search(prose)
+    if named:
+        fail("IND-WORK", ref, anchor,
+             "names a work: %r \u2014 this is an independent book, and it cites the reference "
+             "itself (the verse, the report with its collection, the early authority), never a "
+             "work (\u00a70.12)" % named.group(0)[:60])
+
+    allowed = []
+    for rx in (QURAN_QUOTE, PHRASE_QUOTE, BOLD_ONLY_QUOTE):
+        allowed += [m.span() for m in rx.finditer(prose)]
+    for m in QUOTED_ANY.finditer(prose):
+        inner = m.group(1)
+        if len(C.words(inner)) < 6:
+            continue
+        if any(a <= m.start() and m.end() <= b for a, b in allowed):
+            continue
+        prev = prose[:m.start()].rstrip()
+        window = prev[prev.rfind(".", 0, -1) + 1:] + " " + inner + " " + prose[m.end():][:220]
+        if _quote_anchor(window):
+            continue
+        fail("IND-QUOTE", ref, anchor,
+             "quotes matter that hangs on no reference: \u201c%s\u201d \u2014 quote the verse's "
+             "own phrase, a cross-referenced clause, or a report with its collection; never a "
+             "book (\u00a70.12)" % inner[:60])
+        break
+
+
+def _register_rules(text, ref, anchor, fail, warn) -> None:
+    """v7.4 §0.11: the house register — the book's own professional plain English."""
+    prose = _strip_quoted(_prose_only(text) if "\n" in text else text)
+    m = CONTRACTION.search(prose)
+    if m:
+        fail("STY-CONTRACTION", ref, anchor,
+             "contraction in the commentary's own voice: %r \u2014 the register writes the words "
+             "out (\u00a70.11)" % m.group(0))
+    if "!" in prose:
+        fail("STY-EXCLAIM", ref, anchor,
+             "an exclamation mark in the commentary: the register states, it does not exclaim "
+             "(\u00a70.11)")
+    m = HYPE.search(prose)
+    if m:
+        fail("STY-HYPE", ref, anchor,
+             "hype word in the commentary: %r \u2014 the register is restrained; show what the "
+             "verse does instead of praising it (\u00a70.11)" % m.group(0))
+    qs = prose.count("?")
+    if qs >= QUESTION_FAIL:
+        fail("STY-QUESTION", ref, anchor,
+             "%d questions in one %s: a tafsir states the reading rather than arguing by "
+             "questions (\u00a70.11)" % (qs, "introduction" if not text.startswith("**") and "Verse" not in ref else "verse"))
+    elif qs >= QUESTION_WARN:
+        warn("STY-QUESTION", ref, anchor,
+             "a question is put in the commentary's own voice: answer it inside the sentence, or "
+             "state the reading instead (\u00a70.11)")
 
 
 def _free_prose(body: str) -> str:
@@ -803,6 +939,8 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                          kind="introduction")
         _authorship_findings(doc.intro, None, "%d" % chapter, doc.intro_heading_line, fail,
                              curly=False)
+        _independence_rules(doc.intro, "%d" % chapter, doc.intro_heading_line, fail)
+        _register_rules(doc.intro, "%d" % chapter, doc.intro_heading_line, fail, warn)
 
     expected = [v["ayah_no_surah"] for v in C.verses(chapter)]
     found = [s.verse for s in doc.sections]
@@ -987,6 +1125,9 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
 
         # the book is the author's own: no work is relayed, compared or quoted
         _authorship_findings(body, own_canon, ref, anchor, fail)
+        # v7.4: the book is independent (§0.12), and it keeps the house register (§0.11)
+        _independence_rules(body, ref, anchor, fail)
+        _register_rules(body, ref, anchor, fail, warn)
         section_refs = defaultdict(int)
         for m in QURAN_QUOTE.finditer(checkable):
             s_ch, s_v = int(m.group("ch")), int(m.group("v"))

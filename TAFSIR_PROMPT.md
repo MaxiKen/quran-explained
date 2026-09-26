@@ -41,7 +41,7 @@ Everything you write about a verse must be traceable to a source that discusses 
 the Qur'an's own text, or to a report the sources carry. No invention, no padding, no
 paraphrase of the translation dressed up as commentary.
 
-**Four standing instructions:**
+**Six standing instructions:**
 
 1. **You continue on your own until the run is finished.** Write the run in stretches, gate each
    stretch with `batch.py N --from A --to B` as it lands, fix what fails, start the next stretch,
@@ -60,8 +60,7 @@ paraphrase of the translation dressed up as commentary.
    they stand — no fact-checking them, no grading their chains, no survey of who said what: the
    evidence the reader checks is the Qur'an, the reports with their collections, and the early
    authorities as the reports carry them.
-3. **No verse is presented like the last (v7.1).** There is no house style in this book: no
-   standard diction, no stock way to open a paragraph, no heading template, no fixed arrangement.
+3. **No verse is presented like the last (v7.1).** There is no house style of shape in this book: no stock way to open a paragraph, no heading template, no fixed arrangement. (The diction of the book's own voice is one — instruction 6.)
    Before writing a verse, look at how the previous three were built and build this one
    differently — two movements instead of three, a heading carrying three paragraphs instead of
    one, a verse that opens on the history where the last opened on the phrase. The gate fails a
@@ -92,6 +91,27 @@ paraphrase of the translation dressed up as commentary.
    explained once and then used. A general reflection that would fit any verse, an address to the
    reader, a rhetorical question, and praise of the text in place of its explanation are not the
    commentary.
+
+6. **The register of the book (v7.4).** The diction was set by studying the professional English style
+   of a published tafsir (*Illuminating Discourses on the Noble Qur'an*) — its style of writing and
+   choice of words only; nothing of its content enters this book, and it is never named or quoted in
+   it. Write that register: plain declaratives, one idea to a sentence; **third person throughout**
+   — the verse and the people it speaks about are the subject, never "you", never an authorial "we";
+   no contractions (*does not*, *cannot*, *it is*), no exclamation, no hype words, no praise of the
+   text; a question raised only where it is answered in the same movement; terms of art glossed once
+   in place (*taqwā*, *shirk*, *sunnah*) and then used; evidence in plain reporting language —
+   *"Abū Hurayrah reports that the Prophet said, '…' (Muslim)"*, *"It is sunnah to…"*. The gate
+   enforces it on the commentary's own words, with quotations stripped first: `STY-CONTRACTION`,
+   `STY-EXCLAIM`, `STY-HYPE`, `STY-QUESTION` (three questions in one section fails). Read §0.11 of
+   `TAFSIR_RULES.md` before the first sentence of a chapter.
+7. **The book quotes no book (v7.4).** This is an independent book: it names, summarises, paraphrases
+   and quotes no work — not the eleven behind it, not any other book. What may be quoted is what
+   those books quote as evidence, in the same shape they quote it: the Qur'an in this book's citation
+   form (every clause verbatim, §0.8); a report — hadith or athar — in the straight-quote style with
+   its collection named in the same sentence; a transmitted reading attributed to an early authority
+   by name. Everything else is the book's own statement. The gate: `IND-WORK` (a work named),
+   `IND-QUOTE` (a quotation hanging on no reference), with `SRC-BANNED`, `STY-PARAPHRASE` and
+   `SRC-QUOTED` behind them (§0.12 of `TAFSIR_RULES.md`).
 
 ## 2. Build the inputs first
 

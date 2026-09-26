@@ -642,6 +642,52 @@ def mut_evd_tafsir(text, ch):
     return _edit_verse(text, TARGET, fn)
 
 
+def _append_to_first_para(block, sentence):
+    span = _first_para(block)
+    if not span:
+        return block
+    a, b = span
+    para = block[a:b].rstrip("\n")
+    return block[:a] + para + " " + sentence + block[b:]
+
+
+def mut_ind_work(text, ch):
+    """\u00a70.12 a work is named: IND-WORK must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The reading is set out at length in al-Itqan."))
+
+
+def mut_ind_quote(text, ch):
+    """\u00a70.12 a quotation with no reference: IND-QUOTE must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, 'The old writers put it this way, "the mercy of God has no limit that a '
+           'creature can measure".'))
+
+
+def mut_contraction(text, ch):
+    """\u00a70.11 a contraction: STY-CONTRACTION must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "It doesn't matter how small the phrase looks."))
+
+
+def mut_exclaim(text, ch):
+    """\u00a70.11 an exclamation mark: STY-EXCLAIM must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The reach of that mercy is one of the plainest facts in the sūrah!"))
+
+
+def mut_hype(text, ch):
+    """\u00a70.11 a hype word: STY-HYPE must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The arrangement of the sentence is amazing in its detail."))
+
+
+def mut_question(text, ch):
+    """\u00a70.11 stacked questions: STY-QUESTION must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "Why would a person say that? What would he gain from it? How would he answer for it?"))
+
+
 CLEAN_CASES = [
     ("\u00a75.1 the verse's own word may be explained", clean_own_word),
     ("\u00a75.1 a synonym is adjusted, not failed", clean_synonym),
@@ -698,6 +744,12 @@ CASES = [
     ("v7 every paragraph runs past 120 words", "WRD-PARA-FLOOR", mut_para_short),
     ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
     ("v7 the eleven are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("\u00a70.12 the book names no work", "IND-WORK", mut_ind_work),
+    ("\u00a70.12 the book quotes no book", "IND-QUOTE", mut_ind_quote),
+    ("\u00a70.11 no contractions in the register", "STY-CONTRACTION", mut_contraction),
+    ("\u00a70.11 no exclamation marks", "STY-EXCLAIM", mut_exclaim),
+    ("\u00a70.11 no hype words", "STY-HYPE", mut_hype),
+    ("\u00a70.11 no stacked questions", "STY-QUESTION", mut_question),
     ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
     ("v7.1 no heading reused across verses", "STY-UNIQUE-VERSE", mut_heading_reuse),
     ("v7.1 no house frame across verses", "STY-UNIQUE-VERSE", mut_house_frame),

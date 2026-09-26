@@ -85,7 +85,11 @@ def todo_for(chapter: int, verse: int) -> str:
         "cross-reference and at least one transmitted reading per verse are required "
         "(REF-NONE, EVD-TAFSIR). Simple English means plain sentences, not thin substance: "
         "no general reflection that would fit any verse, no address to the reader, no praise "
-        "of the text in place of its explanation. See TAFSIR_PROMPT.md, "
+        "of the text in place of its explanation. Keep the register of rules \u00a70.11 "
+        "(v7.4): third person, no contractions, no exclamation, no hype words, no stacked "
+        "questions. And keep \u00a70.12: this is an independent book \u2014 quote only the "
+        "verse, a cross-referenced clause, or a report with its collection; name no work "
+        "and quote no book (IND-WORK, IND-QUOTE). See TAFSIR_PROMPT.md, "
         "then run scripts/tafsir/audit.py %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )

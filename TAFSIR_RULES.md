@@ -69,8 +69,9 @@ that source's opinion, not compared work by work, and not quoted.
    paragraph beside it. **A heading may carry one paragraph or several** — nothing here says one
    paragraph per heading, and a long thought under one title is free to run in two, three or more
    paragraphs, each of them past 120 words.
-7. **Every verse is presented on its own terms (v7.1).** There is no house style: no standard
-   diction, no stock opening, no heading template, no fixed arrangement of the section. The
+7. **Every verse is presented on its own terms (v7.1).** There is no house style of *shape*: no
+   stock opening, no heading template, no fixed arrangement of the section. (The register — the
+   diction of the book's own voice — is one, and §0.11 sets it.) The
    chapter is a book of 7, 286 or 200 separate readings, and a reader who has read one verse should
    not be able to predict the shape of the next. Concretely, nothing of the *writing* may repeat
    from verse to verse: not a sentence frame that opens paragraphs the same way, not a run of the
@@ -114,6 +115,66 @@ that source's opinion, not compared work by work, and not quoted.
     fail). The verse floor rises with the standard: `max(700, 9 × the verse's words)`, capped 4,000
     (§4), and the reasoning floor to five sentences (§7).
 
+11. **The register of the book (v7.4).** The diction was set by studying the professional English of
+    a published tafsir — *Illuminating Discourses on the Noble Qur'an* (*Anwar-ul-Bayān*, vol. 1) —
+    **for its style of writing and choice of words only**: nothing of its content, arrangement or
+    wording is carried into this book. What that register is, and what it is not:
+
+    * **Plain declaratives, one idea to a sentence.** State the fact, then the reason for it:
+      *"This refers to the Day of Judgement, when a person receives what his deeds have earned."*
+      Connectives are ordinary — *because*, *therefore*, *however*, *and it is for this reason that*,
+      *the reply to this is that*.
+    * **Third person throughout.** The commentary speaks about the verse and about people; it does
+      not address the reader. A person is *"a person"*, *"the reader"*, *"the one who"* — never
+      *"you"*. There is no authorial *"we"*, no *"let us"*, no *"dear reader"*.
+    * **No exclamation and no hype.** The register is restrained and instructional: it shows what
+      the verse does instead of praising it. Hype adjectives (*amazing*, *wonderful*, *incredible*)
+      are not the vocabulary of a tafsir.
+    * **No contractions.** *Does not*, *cannot*, *it is* — written out, in the book's own voice.
+      (What a report says inside its quotation is the report's, and is untouched.)
+    * **A question is answered, not stacked.** Where the reader's objection belongs in the reading,
+      it is raised and settled in the same movement — *"A person may ask why a believer should still
+      ask for guidance; the reply is that guidance is asked for as steadfastness."* A section that
+      argues by questions fails (`STY-QUESTION`).
+    * **Terms of art glossed once, in place.** *Taqwā* (God-consciousness), *shirk* (associating
+      partners with God), *sunnah* (the Prophet's practice) — glossed where they first appear in the
+      chapter, then used as the vocabulary of the discussion.
+    * **Evidence in plain reporting language.** *"Abū Hurayrah reports that the Prophet said, '…'
+      (Muslim)."* *"It is sunnah to…"* *"The correct position is that…"* The report is quoted in the
+      book's straight-quote style with its collection; the reading around it is the book's own.
+
+    The mechanical side of the register (`STY-CONTRACTION`, `STY-EXCLAIM`, `STY-HYPE`,
+    `STY-QUESTION`) is enforced on the commentary's own words only — quotations are stripped before
+    it is measured, so a report may carry whatever it carries. **This does not contradict §0.7.**
+    §0.7 forbids a shared *shape* (a repeated opening frame, a heading template, one arrangement
+    used by every verse); §0.11 requires a shared *register*. One voice, and seven or 286 separate
+    presentations.
+
+12. **The book quotes no book (v7.4).** This commentary is an independent book. It names no work,
+    quotes no work, summarises no work and paraphrases no work — not the eleven it is researched
+    from, and not any other book, old or modern. What it may quote is what those books themselves
+    quote as evidence, in the same shape they quote it:
+
+    * **the Qur'an**, in this book's citation form — `(C:V — **"the clause"**)`, every clause copied
+      verbatim (§0.8), and the verse under discussion in bold italics;
+    * **a report** — a hadith or an athar — quoted in the book's straight-quote style with its
+      collection named in the same sentence (*Bukhārī*, *Muslim*, *Abū Dāwūd*, *al-Tirmidhī*,
+      *al-Nasāʾī*, *Ibn Mājah*, *Musnad Aḥmad*, *al-Muwaṭṭaʾ*, *al-Dārimī*, *al-Ḥākim*,
+      *al-Ṭabarānī*, *al-Bayhaqī*);
+    * **a transmitted reading** attributed to an early authority by name — a Companion, a Successor,
+      one of the first imams.
+
+    Never written: *"Ibn Kathīr says"*, *"al-Ṭabarī records"*, *"Maʿārif al-Qurʾān explains"*,
+    *"al-Jalālayn notes"*, *"the tafsir says"*, *"al-Itqan reports"*, *"Maʿālim al-Tanzīl"*,
+    *"Durr al-Manthūr"*, *"the commentators say"*, and every other form of handing a point to a
+    work. The gate names the failures: `IND-WORK` (a work is named), `IND-QUOTE` (quotation that
+    hangs on no reference), with `SRC-BANNED`, `STY-PARAPHRASE` and `SRC-QUOTED` behind them.
+
+    **The point written is the book's own.** A reading learned from the eleven is stated as this
+    book's reading and then backed with the reference the reader can check — the verse, the report
+    with its collection, the early authority. If a point cannot be carried by a reference of that
+    kind, it is not written at all.
+
 The codes v7 retired with this standard: `SRC-SPREAD`, `SRC-FAMILY` (the quotas that *required*
 five works to be named in each verse) and `SRC-UNUSED` (which asked for works to be named at
 chapter level). Naming the works was the old trade; writing from them is the new one.
@@ -135,6 +196,13 @@ thing elsewhere with the clause, and the reasoning that shows why the words carr
 cross-reference with its clause (`REF-NONE`) and a transmitted reading named (`EVD-TAFSIR`). The
 verse floor rises with it: `max(700, 9 × the verse's words)` (§4), and the reasoning floor to five
 sentences (§7). The whole of the previous standard (v7.2) stays in force.
+
+**v7.4 (2026-09-26)** adds two laws, and every earlier rule remains in force with them: **the
+register of the book** (§0.11) — the professional, restrained, third-person diction studied from a
+published tafsir's style, enforced mechanically (`STY-CONTRACTION`, `STY-EXCLAIM`, `STY-HYPE`,
+`STY-QUESTION`) — and **the independence law** (§0.12): the commentary is an independent book that
+quotes no book, citing only the references those books cite (the Qur'an, the reports with their
+collections, the early authorities), and making its own point (`IND-WORK`, `IND-QUOTE`).
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
@@ -590,6 +658,12 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `STY-ANALYSIS-FLOOR` | fail/warn | fewer than 5 / fewer than 9 sentences that reason (v7.3) |
 | `STY-ANALOGY` | fail/warn | no analogy in this verse / chapter share below 60% / below 40% |
 | `STY-APPLICATION` | warn | the verse never reaches the reader's own world (v7) |
+| `IND-WORK` | fail | a work is named in the prose: this is an independent book (v7.4, §0.12) |
+| `IND-QUOTE` | fail | a quotation (6+ words) that is neither the verse's phrase, a cited clause, nor a report/saying anchored to its collection or authority (v7.4, §0.12) |
+| `STY-CONTRACTION` | fail | a contraction in the commentary's own voice (v7.4, §0.11) |
+| `STY-EXCLAIM` | fail | an exclamation mark in the commentary (v7.4, §0.11) |
+| `STY-HYPE` | fail | a hype word (*amazing*, *wonderful*, …) where the explanation goes (v7.4, §0.11) |
+| `STY-QUESTION` | fail/warn | 3+ questions in one section / one question put in the commentary's own voice (v7.4, §0.11) |
 | `STY-DICTION` | fail/warn | 6+ formal words / 1–5 formal words |
 | `STY-SENTENCE` | fail/warn | mean sentence over 32 / over 26 words |
 | `STY-SENTENCE-LONG` | fail/warn | over 25% / over 12% of sentences past 40 words |

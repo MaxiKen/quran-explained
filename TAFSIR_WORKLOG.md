@@ -94,3 +94,41 @@ record but are not the standard any longer: chapters are written again from vers
 (`audit.py 1` → 0F/0W/1I, 4,339 words, payload 25,857 B), and chapter 2 had reached 2:1–2:13 clean
 plus 2:14–2:19 drafted. An earlier corpus (chapters 1–3, 329,000 words) had been cleared the same
 way on 2026-09-25. All of it is readable in git history and none of it is the standard any longer.
+
+**Standard v7.4 (2026-09-26).** Two laws added on the author's instruction, after studying the
+professional English diction of a published tafsir (*Illuminating Discourses on the Noble Qur'an*,
+vol. 1) **for its style of writing and choice of words only** — nothing of its content, arrangement
+or wording is carried into this book, and it is never named or quoted in it. Every earlier rule
+remains in force.
+
+1. **The register of the book** (§0.11). The book has one voice: plain declarative sentences, one
+   idea to a sentence; third person throughout (never "you", never an authorial "we"); no
+   contractions, no exclamation marks, no hype words, no praise of the text in place of its
+   explanation; a question raised only where it is settled in the same movement; terms of art
+   glossed once in place and then used; evidence in plain reporting language. This is a register,
+   not a shape: §0.7 still forbids a stock opening, a heading template or one arrangement used by
+   most verses.
+2. **The independence law** (§0.12). The commentary is an independent book: it names, summarises,
+   paraphrases and quotes no work — neither the eleven behind it nor any other. What it may quote
+   is what those books themselves quote as evidence: the Qur'an in the book's own citation form
+   (every clause verbatim), a report (hadith or athar) in the straight-quote style with its
+   collection named in the same sentence, or a transmitted reading attributed to an early authority
+   by name. The point written is the book's own.
+
+Enforcement: `audit.py` gains `IND-WORK` and `IND-QUOTE` (a work named in the prose; a quotation of
+six words or more that hangs on no reference) and `STY-CONTRACTION`, `STY-EXCLAIM`, `STY-HYPE`,
+`STY-QUESTION` — the register codes measured on the book's own words only, with quotations stripped
+first so a quoted report may carry whatever it carries. `selftest.py` carries a firing mutation for
+each (uncaught rules 0 / rules not exercised 0 / false alarms 0), `ruletest.py` green, and the
+ruling text lives in `TAFSIR_RULES.md` §0.11–§0.12 with the codes in Appendix A.
+
+**Chapter 1 generated under v7.4.** `tafsir/001.md`: the introduction (862 words) and al-Fatihah
+1:1–1:7 written from all eleven works, 7,646 words in all, mean sentence 25 words.
+
+* every verse carries an expanded cross-reference with its clause and a transmitted reading — a
+  named early authority or a report with its collection — and a relatable analogy;
+* no work is named anywhere in the chapter, and nothing is quoted that does not hang on a reference
+  (`IND-WORK`, `IND-QUOTE` clean);
+* `audit.py 1` → **0 FAIL, 10 WARN, 3 INFO — RESULT: PASS**;
+* chapter 2 remains a scaffold at the author's instruction; the chapter-2 drafting bench is
+  removed.
