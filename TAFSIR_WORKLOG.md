@@ -42,26 +42,25 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Run 1 is delivered; run 2 is open.** Run 1 of the v7.2 standard — **1:1–1:7 (all of al-Fātiḥah)
-followed by 2:1–2:43** — is finished: every one of the fifty verses is written and gate-clean
-(`run.py --check` reported RUN COMPLETE and the next fifty were pinned). The writing has carried on
-past the run boundary without pausing: **2:44–2:59** are written, spliced and clean, and the open
-run's remaining verses are being filled from 2:60. All eleven works are digested for chapters 1 and 2
-(`python3 scripts/tafsir/run.py --build`); the chapter files hold byte-exact verse quotes.
+**The author-named run from chapter 2 is delivered (2026-09-26).** The chapter-only start resolved
+to its first unwritten verse, 2:1, and pinned **2:1–2:50**. All eleven works were mapped in one pass;
+the introduction and fifty verse drafts were written, spliced and gated against the whole range.
+`run.py --check` reports **RUN COMPLETE — 50/50 written, 0 failing**. The wide batch gate reports
+0 FAIL and 53 advisories: 41 reasoning-floor preferences, four upstream `tafsir_initial` coverage
+gaps, four grounding checks, three Arabic-name match notices and one paired-phrase recurrence. None
+is a publication blocker; every verse has 100% phrase coverage, a transmitted reading, an expanded
+cross-reference, present-day application and a relatable analogy.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 6,380 | 836/880/1038 | PASS |
-| 2 | `tafsir/002.md` | 59/286 | 43,787 | 625/715/1172 | in progress (227 verses still scaffold) |
+| 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
+| 2 | `tafsir/002.md` | 50/286 | 38,545 | 703/769/905 | 2:1–2:50 PASS; 236 verses still scaffold |
 
-Totals: **1 of 114 chapters written, 66 of 6,236 verses.** Gate clean: 1:1–1:7 and 2:1–2:59.
-
-**Chapter 2 in progress (2026-09-25).** The chapter's introduction (772 words, six paragraphs) and
-verses 2:1–2:59 are written and spliced; each stretch was gated with `batch.py 2 --from A --to B` and
-also against the whole chapter from 1, so cross-verse repeats were caught as they appeared. What the
-gates taught is in `TAFSIR_HANDOFF.md` (“Gate lessons that cost time”). The remaining verses of the
-chapter — 2:60 to 2:286 — are still `TODO` scaffolds in `tafsir/002.md`, which is why `audit.py 2`
-fails by design until the chapter is finished.
+Totals: **1 of 114 chapters complete, 57 of 6,236 verses written.** Chapter 2 has a 677-word
+introduction and clean prose through 2:50. Its remaining verses, 2:51–2:286, stay as `TODO`
+scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
+run does not choose its successor: the author must name the next chapter or chapter:verse; naming
+chapter 2 now would resolve to 2:51.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
@@ -166,5 +165,14 @@ from a start **the author names** and verified as fifty before a call is finishe
   wait for the answer** — no verse is planned, mapped or written before it comes. The law is written
   into `TAFSIR_RULES.md` §0.9, `TAFSIR_PROMPT.md` (instructions 1 and 4), `TAFSIR_PIPELINE.md` §5,
   `README.md` and `TAFSIR_HANDOFF.md` ("When the author says continue"), and proved mechanically by
-  `scripts/tafsir/ruletest.py`, which now runs seven expectations over the planner's own code
+  `scripts/tafsir/ruletest.py`, which exercises the planner's own code
   (`v7.5 — a run is fifty verses, cut from the start the author named`).
+
+**Pinned-run completion fix (2026-09-26).** Writing the fiftieth draft used to make the planner
+release the current manifest before `--check` could judge it, because “written” was mistaken for
+“written and clean.” The pin now remains authoritative until the author names another start.
+`--status`, `--slice` and `--check` therefore keep reading the same fifty even after all fifty hold
+prose; `--check` reports RUN COMPLETE and waits for the author's next start. The added eighth v7.5
+planner expectation sets all fifty to written and proves that the pin still does not move. The default
+mutation self-test now selects only complete chapters, so a partly written chapter's expected
+scaffold failures cannot hide the finding introduced by a test mutation.

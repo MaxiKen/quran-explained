@@ -172,15 +172,16 @@ def current_index():
 
 
 def pinned_run(target: int = RUN_VERSE_TARGET):
-    """The run in flight: the run the author pinned last, while it has verses left.
+    """Return the run the author pinned last, until another start is named.
 
     This is what ``--check``, ``--status`` and ``--slice`` read when the author has
-    not named a start in the same breath: the fifty in hand are the fifty to finish,
-    whatever verse in the Book the frontier happens to be at.
+    not named a start in the same breath. Merely writing the fiftieth verse must not
+    release the pin: the run can still have gate failures, and ``--check`` must judge
+    these same fifty. A later explicit ``--start`` is what replaces the run in hand.
     """
     index = current_index()
     verses = read_manifest(index) if index else None
-    if verses and not all(v in written_verses() for v in verses):
+    if verses:
         return verses, index
     return None, 0
 
@@ -501,8 +502,8 @@ def check_run(verses, index, no_grounding=False) -> int:
     if complete_chapters and any(f.level == A.FAIL for f in chapter_level):
         print("RUN INCOMPLETE \u2014 the chapter gate still fails on the finished chapter")
         return 1
-    print("RUN COMPLETE \u2014 all %d verses written and clean; the next run starts at %s"
-          % (len(verses), "%d:%d" % (plan()[0][0], plan()[0][1]) if plan()[0] else "\u2014"))
+    print("RUN COMPLETE \u2014 all %d verses written and clean; wait for the author's next start"
+          % len(verses))
     return 0
 
 
