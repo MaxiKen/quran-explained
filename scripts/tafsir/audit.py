@@ -13,7 +13,7 @@ below are the same rules, mechanised:
 
   FMT-*   shape: title, intro, verse headings, quote line, separators, spacing,
           UPPERCASE descriptive headings (never the verse's own phrases), placeholders
-  WRD-*   length: verse floor (max(500, 8x the verse's words), capped 4,000), introduction,
+  WRD-*   length: verse floor (max(700, 9x the verse's words), capped 4,000), introduction,
           and every paragraph of the commentary running past 120 words (WRD-PARA-FLOOR)
   PHR-*   phrases: every phrase of the verse is quoted inside the prose, in
           verse order, covering the whole verse, in workable units, and each
@@ -32,11 +32,15 @@ below are the same rules, mechanised:
   EVD-*   evidence: every verse carries checkable anchors, every prophetic attribution
           names its collection, a hadith number exists in the sources for the verse
           (EVD-NUMBER), and quotations use the corpus's markers (EVD-QUOTE-STYLE), and
-          attribution names its collection
-  REF-*   references: citations resolve to real verses, every quoted Qur'an clause is
-          verbatim (REF-QUOTE), a clause is a clause and not a whole verse (REF-LONG),
-          and a verse quoted twice in one section is flagged (REF-QUOTE-REPEAT);
-          clause is verbatim from data/chapter_NNN.js
+          attribution names its collection. v7.3 §0.10: every verse names the early
+          authority it learned the reading from, or gives the report with its collection
+          (EVD-TAFSIR), and carries at least one cross-reference to another verse with the
+          clause it points to (REF-NONE) — a tafsir cites what has been handed down
+  REF-*   references: citations resolve to real verses, every cross-reference is
+          expanded with the wording it points to (REF-BARE), every quoted Qur'an
+          clause is verbatim (REF-QUOTE), a clause is a clause and not a whole
+          verse (REF-LONG), and a verse quoted twice in one section is flagged
+          (REF-QUOTE-REPEAT); every clause is verbatim from data/chapter_NNN.js
   REP-*   repetition: duplicate sentences, templated sections, filler/meta prose,
           and — v7.1 — no verse presented in another verse's shape or diction
           (STY-UNIQUE-VERSE: a shared opening frame, a recurring run of unquoted
@@ -48,13 +52,19 @@ below are the same rules, mechanised:
           analogy the prompt asks each verse to carry, a line that reaches the
           reader's own world (STY-APPLICATION), and no labelled
           scaffolding (STY-LABELS: "Lesson:", "Modern application:", ...)
-  SRC-*   sources: the ten works of corpus.SOURCE_ALLOWLIST are research material — the
-          digest must hold every one of them for the verse before it is written
-          (SRC-NOTCHECKED, SRC-NODIGEST), their contents are taken as they stand
-          (no fact-checking of them is required or wanted), no work outside the
-          ten may be cited (SRC-BANNED), and the prose never relays, compares or
-          quotes one of them: the book is the author's own reading, written from
-          what was learned in them (STY-PARAPHRASE, SRC-QUOTED)
+  IND-*   independence: the book names and quotes no book — only the references those books
+          cite (the Qur'an, a report with its collection, an early authority); a quotation
+          that hangs on no reference fails (IND-QUOTE, v7.4 §0.12), as does naming a work
+          (IND-WORK), and the register itself is enforced on the book's own words
+          (STY-CONTRACTION, STY-EXCLAIM, STY-HYPE, STY-QUESTION; v7.4 §0.11)
+  SRC-*   sources: the eleven works of corpus.SOURCE_ALLOWLIST are research
+          material — the digest must hold every one of them for the verse before
+          it is written (SRC-NOTCHECKED, SRC-NODIGEST), their contents are taken as
+          they stand (no fact-checking of them is required or wanted), no work
+          outside the eleven may be cited (SRC-BANNED), and the prose never
+          relays, compares or quotes one of them: the book is the author's own
+          reading, written from what was learned in them (STY-PARAPHRASE,
+          SRC-QUOTED)
   GRD-*   grounding (advisory): distinctive names in a section should appear in
           that verse's source digest (tmp/sources/NNN.json, built by sources.py)
 
@@ -83,8 +93,8 @@ FAIL, WARN, INFO = "FAIL", "WARN", "INFO"
 
 # ------------------------------------------------------------------ thresholds
 
-MIN_VERSE_WORDS = 500          # hard floor for every verse, however short
-SCALE_FACTOR = 8.0             # ... and the floor climbs with the verse
+MIN_VERSE_WORDS = 700          # hard floor for every verse, however short (v7.3)
+SCALE_FACTOR = 9.0             # ... and the floor climbs with the verse
 SCALE_CAP = 4000               # ... up to here (a long verse floors at four thousand)
 MAX_VERSE_WORDS = 5000         # soft: above this, check for padding
 PARA_MIN_WORDS = 120           # every paragraph of the commentary runs past this (v7)
@@ -131,7 +141,7 @@ HEADING_MAX_WORDS = 12
 
 # One reading, in the book's own voice (v5, tightened by v7): a section written
 # name by name — paragraphs that open with a named authority and report it — fails,
-# however well attributed; and since v7 a work of the ten inside a summary fails
+# however well attributed; and since v7 a work of the eleven inside a summary fails
 # outright (STY-PARAPHRASE).
 SOURCE_LED_WORDS = 3           # words at the head of a sentence in which a work may be named
 SOURCE_LED_RUN_FAIL = 3        # consecutive source-led sentences that read as a roll-call
@@ -141,11 +151,12 @@ PARA_LED_FAIL = 0.45           # share of paragraphs that may open with a work
 PARA_LED_WARN = 0.30
 REF_QUOTE_WARN = 22           # words a cross-reference quote may run to
 REF_QUOTE_FAIL = 34
+BARE_REF_FAIL = 3             # v7.2: one or two citations without wording warn; three fail
 QUOTE_STYLE_WARN = 12          # words of curly-quoted text outside a Qur'an reference
 QUOTE_STYLE_FAIL = 25
 
-ANALYSIS_MIN_FAIL = 4          # sentences that reason (because, so that, which means ...)
-ANALYSIS_MIN_WARN = 8
+ANALYSIS_MIN_FAIL = 5          # sentences that reason (because, so that, which means ...) (v7.3)
+ANALYSIS_MIN_WARN = 9
 
 ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
 ANALOGY_WARN_SHARE = 0.60
@@ -179,7 +190,7 @@ SCHOLARS = re.compile(
     r"[\u1e24H]asan al-Ba[\u1e63]r[\u012bi]|M[\u0101a]lik|Ibn Taymiyyah|Ibn al-Qayyim|R[\u0101a]ghib|"
     r"the commentators|the exegetes|the scholars|commentators|"
     r"al-Mukhta[\u1e63]ar|Mukhta[\u1e63]ar|Mukhtasar|Kash[\u0101a]n[\u012bi]|Kashani|"
-    r"Ma[\u02bf']\u0101rif|Ma[\u02bf']arif|Tazkirul|Tazkir|tafsir_initial|Qushayr[\u012bi]|"
+    r"Ma[\u02bf']\u0101rif|Ma[\u02bf']arif|Tazkirul|Tazkir|Qushayr[\u012bi]|"
     r"Tustar[\u012bi]|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi])",
     re.I)
 
@@ -205,7 +216,7 @@ ANALYSIS = re.compile(
     r"\bit follows\b|\bthis is why\b|\bthe effect\b|\bwhat turns on\b|\bthe difference\b)",
     re.I)
 
-# ---- the ten sources (corpus.SOURCE_ALLOWLIST) ------------------------------
+# ---- the eleven sources (corpus.SOURCE_ALLOWLIST) ---------------------------
 # Which name in the prose proves which work was consulted. The prose says
 # "al-Tabari states", not "the source", and names are the only checkable trace.
 AUTHORITY = {
@@ -222,7 +233,7 @@ AUTHORITY = {
 }
 
 # Works that are no longer part of the corpus: naming one means the writer is
-# quoting outside the ten.
+# quoting outside the eleven.
 BANNED_WORKS = re.compile(
     r"(al-Mukhta[\u1e63]ar|Mukhta[\u1e63]ar|Mukhtasar|al-Was[\u012bi][\u1e6d]|Wasit al-Qur|"
     r"al-Bay[\u1e0d][\u0101a]w[\u012bi]|Baydawi|al-Shawk[\u0101a]n[\u012bi]|Shawkani|"
@@ -234,7 +245,7 @@ BANNED_WORKS = re.compile(
     re.I)
 
 # ---- v7: the book is the author's own ---------------------------------------
-# The ten works are research material. Their contents are taken as they stand
+# The eleven works are research material. Their contents are taken as they stand
 # (they are authenticated; the writer neither fact-checks nor adjudicates them),
 # and nothing written from them relays, compares or quotes them: the commentary
 # states the reading as its own, and backs it with evidence the reader can check
@@ -249,8 +260,53 @@ WORK_RELAY = re.compile(
     r"al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m|"
     r"Ibn [\u02bf']Uthaym[\u012bi]n|Ibn Uthaymeen|"
     r"Ma[\u02bf']\u0101rif al-Qur[\u02be']?[\u0101a]n|Maarif-ul-Quran|Ma[\u02bf']\u0101rif|"
-    r"the (?:commentaries|commentators|exegetes|tafs[\u012bi]rs?|tafs[\u012bi]r works?|sources))",
+    r"the (?:commentaries|commentators|exegetes|tafs[\u012bi]rs?|tafs[\u012bi]r works?|sources)|"
+    r"tafsir_initial|Study Qur[\u2019']?an|study[- ]draft)",
     re.I)
+
+# ---- v7.4: the book quotes no book (the independence law, §0.12) -------------
+# The commentary is an independent book. It names, summarises, paraphrases and
+# quotes no work at all — neither the eleven behind it nor any other. What it may
+# quote is what those works themselves quote as evidence: the Qur'an (in the
+# citation form of §2), a report in the *"..."* style with its collection named, or
+# a transmitted reading attributed to an early authority by name.
+WORK_NAMES = re.compile(
+    r"(\b[T\u1e6c]abar[\u012bi]\b|\bTabari\b|J[\u0101a]mi[\u02bf'] al-Bay[\u0101a]n|"
+    r"Qur[\u1e6d]ub[\u012bi]|Qurtubi|Baghaw[\u012bi]|Baghawi|Ma[\u02bf']\u0101lim al-Tanz[\u012bi]l|"
+    r"Ibn Kath[\u012bi]r|Ibn Kathir|al-[\u02be']?[A\u0101]l[\u016b]?s[\u012bi]|R[\u016b]h al-Ma[\u02bf']\u0101n[\u012bi]|"
+    r"al-Jal[\u0101a]layn|Jal[\u0101a]layn|al-Sa[\u02bf']d[\u012bi]|Tays[\u012bi]r al-Kar[\u012bi]m|"
+    r"Ibn [\u02bf']Uthaym[\u012bi]n|Ibn Uthaymeen|Ma[\u02bf']\u0101rif al-Qur[\u2019']?[\u0101a]n|"
+    r"Maarif-ul-Quran|Ma[\u02bf']\u0101rif|tafsir_initial|Study Qur[\u2019']?an)", re.I)
+
+# Any other book a commentary might be tempted to cite: named titles only, so
+# that the genre words ("a tafsir", "the commentators") stay free.
+IND_TITLES = re.compile(
+    r"(al-Itq[\u0101a]n|\bItq[\u0101a]n\b|Ma[\u02bf']\u0101limut Tanz[\u012bi]l|"
+    r"Durr al-Manth[\u016b]r|Durrul Manth[\u016b]r|Durrul Manthur|"
+    r"Hisnul Has[\u012bi]n|Hisn al-Has[\u012bi]n|Mirq[\u0101a]t|Mishk[\u0101a]t al-Mas[\u0101a]b[\u012bi][\u1e25h]|"
+    r"Fat[\u1e25h] al-B[\u0101a]r[\u012bi]|Riy[\u0101a][\u1e0d] al-[\u1e62s]\u0101li[\u1e25h][\u012bi]n|"
+    r"al-Bid[\u0101a]ya wa|Tazkirat|Kashf al-Asr[\u0101a]r|"
+    r"\bthe (?:tafs[\u012bi]r|commentary|exegesis) (?:of|by|entitled|named|known as)\b|"
+    r"\btafs[\u012bi]r [A-Z])", re.I)
+
+# A quoted stretch measured in words, for the independence quote law.
+QUOTED_ANY = re.compile(r"[\u201c\"]([^\u201d\"\n]{10,})[\u201d\"]")
+
+# ---- v7.4: the house register (§0.11) ---------------------------------------
+CONTRACTION = re.compile(
+    r"\b(don[\u2019']t|doesn[\u2019']t|didn[\u2019']t|isn[\u2019']t|aren[\u2019']t|wasn[\u2019']t|"
+    r"weren[\u2019']t|can[\u2019']t|won[\u2019']t|wouldn[\u2019']t|shouldn[\u2019']t|couldn[\u2019']t|"
+    r"hasn[\u2019']t|haven[\u2019']t|hadn[\u2019']t|it[\u2019']s|that[\u2019']s|there[\u2019']s|"
+    r"here[\u2019']s|what[\u2019']s|who[\u2019']s|let[\u2019']s|we[\u2019']re|they[\u2019']re|"
+    r"you[\u2019']re|I[\u2019']m|I[\u2019']ve|we[\u2019']ve|they[\u2019']ve|you[\u2019']ve)\b", re.I)
+
+HYPE = re.compile(
+    r"\b(amazing|incredible|awesome|fantastic|stunning|mind[- ]blowing|unbelievable|"
+    r"superb|wonderful|marvellous|marvelous|brilliant)\b", re.I)
+
+QUESTION_WARN = 1               # a question put to the reader (warn)
+QUESTION_FAIL = 3               # a section arguing by questions (fail)
+
 
 # A work is "speaking" when its name carries a reporting or vantage verb — that
 # sentence is a summary of a source, whatever its attribution.
@@ -340,9 +396,15 @@ STUDY_VERB = re.compile(
     r"(\bmeans\b|\bmeaning\b|\bliterally\b|\bfrom the root\b|\bcalled\b|\bcomes from\b"
     r"|\broot\b|\bplural\b|\bdual\b|\bsingular\b|\bverb\b|\bnoun\b|\bgrammar\b)", re.I)
 # "the verse says *kafir*" — Arabic offered as the verse's own wording.
+# "the verse says/uses/names X" (a claim about the quoted line) — and the bare "it
+# says X" when the pronoun is the verse. The bare branch omits "has": "it has been
+# worn flat" is English, not a claim that the verse carries "been".
 AS_VERSE_TERM = re.compile(
-    r"\b(?:the (?:verse|Qur[\u2019']?an)|\bit)\s+(?:says|uses|reads|calls|names|has|refers to)"
-    r"\s+(?:the (?:word|term|name)\s+)?[*\u201c\"]?([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
+    r"\b(?:the (?:verse|Qur[\u2019']?an)\s+(?:says|uses|reads|calls|names|has|refers to)"
+    r"|\bit\s+(?:says|uses|reads|calls|names|refers to))"
+    r"\s+(?:the (?:word|term|name)\s+)?(?!the\b|a\b|an\b|this\b|that\b|these\b|those\b"
+    r"|its\b|his\b|her\b|their\b|all\b|one\b|two\b|no\b|not\b|any\b|each\b|every\b)"
+    r"[*\u201c\"]?([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
     r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})[*\u201d\"]?", re.I)
 # A Latin token carrying the diacritics of a transliteration (raḥmah, ṣirāṭ ...).
 TRANSLIT = re.compile(
@@ -350,6 +412,13 @@ TRANSLIT = re.compile(
     r"[A-Za-z\u0100-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]*\b")
 # Corpus vocabulary lives in lexicon.CORPUS_TERMS (`LEX.CORPUS_TERMS`).
 
+# v7.2: every cross-reference is expanded with the wording it points to. A bare
+BARE_REF_LIST = re.compile(
+    r"\(\s*(?:see(?: also)?|cf\.?)?\s*\d{1,3}:\d{1,3}(?:\s*[\u2013\u2014-]\s*\d{1,3})?"
+    r"(?:\s*[,;]\s*\d{1,3}(?:\s*[\u2013\u2014-]\s*\d{1,3})?)+\s*\)")
+# citation — "(2:255)" — is a number the reader cannot read; a parenthesised list
+# of them — "(2:156, 245, 281)" — is the same number with company. Both are
+# counted, reported as REF-BARE, and the writer expands them with reference.py.
 BARE_REF = re.compile(r"\((\d{1,3}):(\d{1,3})(?:\s*[\u2013\u2014-]\s*(\d{1,3}))?(?:\s*,\s*\d{1,3}:\d{1,3})*\)")
 
 CURLY_ONLY_QUOTE = re.compile(r"(?<!\*)\*[\u201c]([^\u201d]{8,})[\u201d]\*(?!\*)")
@@ -367,7 +436,8 @@ FILLER = [
     (FAIL, r"\bas (we|I) (have )?(seen|said|noted|mentioned|discussed)\b", "cross-reference to our own text instead of the Qur'an"),
     (FAIL, r"\bthe (audit|prompt|generator|source digest|worklog)\b", "pipeline vocabulary in reader-facing prose"),
     (FAIL, r"\b(source digest|audit\.py|TAFSIR_PROMPT)\b", "pipeline vocabulary in reader-facing prose"),
-    (FAIL, r"\bTODO\b|\bTBD\b|PLACEHOLDER|to be written|lorem ipsum", "placeholder text"),
+    (FAIL, r"\bTODO\b|\bTBD\b|PLACEHOLDER|^[ \t]*(?:to be written|to be added|to be completed)[ \t]*[.:]?[ \t]*$"
+     r"|lorem ipsum", "placeholder text"),
     (FAIL, r"\bas an ai\b|\blanguage model\b", "machine voice"),
     (FAIL, r"\bit is worth noting\b|\bit'?s worth noting\b|\bit is important to note\b", "filler opener"),
     (FAIL, r"\bin conclusion\b|\bto sum up\b|\bto summarize\b", "filler closer"),
@@ -375,6 +445,11 @@ FILLER = [
     (WARN, r"\bdelve[sd]? into\b|\brich tapestry\b|\bstands as a testament\b|\btestament to\b", "cliche"),
     (WARN, r"\bnavigate the complexities\b|\bunderscores the importance\b|\bplays a (crucial|vital) role\b", "cliche"),
     (WARN, r"\bthroughout history\b|\bsince time immemorial\b|\bcountless generations\b", "vague generality"),
+    (WARN, r"\b(dear|beloved) reader\b", "an address to the reader where the verse's own teaching goes (\u00a70.10)"),
+    (WARN, r"\balways remember\b|\bnever forget that\b|\bwe must (always|never)\b",
+     "generic exhortation: say what this verse teaches, not that one should remember it (\u00a70.10)"),
+    (WARN, r"\bwhat a (beautiful|wonderful|lovely|powerful) (verse|sentence|reminder|passage)\b|\bhow beautiful\b",
+     "praise of the text where its explanation goes (\u00a70.10)"),
 ]
 
 GENERIC_HEADINGS = {
@@ -399,7 +474,7 @@ class Finding:
 
 
 def verse_floor(verse_words: int) -> int:
-    """Words a verse section must carry: 500, rising 8x with the verse."""
+    """Words a verse section must carry: 700, rising 9x with the verse (v7.3)."""
     return max(MIN_VERSE_WORDS, min(SCALE_CAP, int(math.ceil(SCALE_FACTOR * verse_words))))
 
 
@@ -450,7 +525,7 @@ def _paragraph_floor(paras, ref, anchor, fail, kind: str = "verse") -> None:
 
 
 def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True) -> None:
-    """v7: nothing in the prose relays, compares or quotes a work of the ten."""
+    """v7: nothing in the prose relays, compares or quotes a work of the eleven."""
     relayed = quoted = False
     for para in C.split_paragraphs(text):
         para = para.strip()
@@ -465,7 +540,7 @@ def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True)
                                           or ATTRIB_FRAME.search(sentence)
                                           or _work_led(sentence)):
                 fail("STY-PARAPHRASE", ref, anchor,
-                     "the prose hands the point to a named work: %r \u2014 the ten are what the "
+                     "the prose hands the point to a named work: %r \u2014 the eleven are what the "
                      "commentary was learned from, not voices it summarises; state the reading "
                      "as its own, and keep the evidence beside it (a cross-reference, a hadith "
                      "with its collection, a named early authority)" % sentence[:80])
@@ -474,7 +549,7 @@ def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True)
                 continue
             if STRAIGHT_IN_ITALIC.search(sentence):
                 fail("SRC-QUOTED", ref, anchor,
-                     "a quoted passage stands beside a work's name: %r \u2014 the ten are not "
+                     "a quoted passage stands beside a work's name: %r \u2014 the eleven are not "
                      "quoted; say it in the book's own words, or cite the report itself with "
                      "its collection" % sentence[:80])
                 quoted = True
@@ -482,11 +557,98 @@ def _authorship_findings(text, own_canon, ref, anchor, fail, curly: bool = True)
                 for m in CURLY_QUOTE.finditer(sentence):
                     if _canon(m.group(1)) not in own_canon:
                         fail("SRC-QUOTED", ref, anchor,
-                             "a quoted passage stands beside a work's name: %r \u2014 the ten are "
+                             "a quoted passage stands beside a work's name: %r \u2014 the eleven are "
                              "not quoted; say it in the book's own words, or cite the report "
                              "itself with its collection" % sentence[:80])
                         quoted = True
                         break
+
+
+def _strip_quoted(text: str) -> str:
+    """The writer's own voice: every quotation is taken out first.
+
+    Contractions, exclamations, hype and questions are judged on the commentary's
+    own words, never on what it quotes — a report may carry the Prophet's "I" and
+    a cited clause may carry anything it carries.
+    """
+    t = HTML_COMMENT.sub(" ", text)
+    for rx in (QURAN_QUOTE, PHRASE_QUOTE, BOLD_ONLY_QUOTE, STRAIGHT_IN_ITALIC,
+               CURLY_ONLY_QUOTE, CURLY_QUOTE):
+        t = rx.sub(" ", t)
+    return re.sub(r'"[^"\n]*"', " ", t)
+
+
+def _quote_anchor(sentence: str) -> bool:
+    """Does the sentence carrying a quotation name what the quotation is from?"""
+    if COLLECTIONS.search(sentence) or FIRST_GEN.search(sentence):
+        return True
+    return bool(re.search(r"\b(the Prophet|the Messenger of God|the Book says|"
+                          r"reports?|narrat\w+|he said|she said|they said|answered|replied)\b",
+                          sentence, re.I))
+
+
+def _independence_rules(text, ref, anchor, fail) -> None:
+    """v7.4 §0.12: the book names and quotes no book.
+
+    Everything quoted in the commentary has to be one of three things: a phrase of
+    the verse (bold italics), a clause of another verse (inside its reference), or
+    a report/saying anchored to where the reader can find it. A quotation that
+    hangs on nothing is a book being quoted, and the book quotes no book.
+    """
+    prose = _prose_only(text) if "\n" in text else text
+    named = WORK_NAMES.search(prose) or IND_TITLES.search(prose)
+    if named:
+        fail("IND-WORK", ref, anchor,
+             "names a work: %r \u2014 this is an independent book, and it cites the reference "
+             "itself (the verse, the report with its collection, the early authority), never a "
+             "work (\u00a70.12)" % named.group(0)[:60])
+
+    allowed = []
+    for rx in (QURAN_QUOTE, PHRASE_QUOTE, BOLD_ONLY_QUOTE):
+        allowed += [m.span() for m in rx.finditer(prose)]
+    for m in QUOTED_ANY.finditer(prose):
+        inner = m.group(1)
+        if len(C.words(inner)) < 6:
+            continue
+        if any(a <= m.start() and m.end() <= b for a, b in allowed):
+            continue
+        prev = prose[:m.start()].rstrip()
+        window = prev[prev.rfind(".", 0, -1) + 1:] + " " + inner + " " + prose[m.end():][:220]
+        if _quote_anchor(window):
+            continue
+        fail("IND-QUOTE", ref, anchor,
+             "quotes matter that hangs on no reference: \u201c%s\u201d \u2014 quote the verse's "
+             "own phrase, a cross-referenced clause, or a report with its collection; never a "
+             "book (\u00a70.12)" % inner[:60])
+        break
+
+
+def _register_rules(text, ref, anchor, fail, warn) -> None:
+    """v7.4 §0.11: the house register — the book's own professional plain English."""
+    prose = _strip_quoted(_prose_only(text) if "\n" in text else text)
+    m = CONTRACTION.search(prose)
+    if m:
+        fail("STY-CONTRACTION", ref, anchor,
+             "contraction in the commentary's own voice: %r \u2014 the register writes the words "
+             "out (\u00a70.11)" % m.group(0))
+    if "!" in prose:
+        fail("STY-EXCLAIM", ref, anchor,
+             "an exclamation mark in the commentary: the register states, it does not exclaim "
+             "(\u00a70.11)")
+    m = HYPE.search(prose)
+    if m:
+        fail("STY-HYPE", ref, anchor,
+             "hype word in the commentary: %r \u2014 the register is restrained; show what the "
+             "verse does instead of praising it (\u00a70.11)" % m.group(0))
+    qs = prose.count("?")
+    if qs >= QUESTION_FAIL:
+        fail("STY-QUESTION", ref, anchor,
+             "%d questions in one %s: a tafsir states the reading rather than arguing by "
+             "questions (\u00a70.11)" % (qs, "introduction" if not text.startswith("**") and "Verse" not in ref else "verse"))
+    elif qs >= QUESTION_WARN:
+        warn("STY-QUESTION", ref, anchor,
+             "a question is put in the commentary's own voice: answer it inside the sentence, or "
+             "state the reading instead (\u00a70.11)")
 
 
 def _free_prose(body: str) -> str:
@@ -594,7 +756,9 @@ def _uniqueness_findings(sections, fail, warn) -> None:
                  "two verses open a heading with %r: keep the chapter's titles from falling into "
                  "a template" % key)
 
-    if len(sections) >= SHAPE_MIN_SECTIONS:
+    if len(sections) >= SHAPE_MIN_SECTIONS and shapes:
+        # (a chapter whose verses are all still scaffold has no shapes to compare —
+        #  the TODO check reports those verses, and this one has nothing to judge)
         (shape, refs), = sorted(shapes.items(), key=lambda kv: -len(set(kv[1])))[:1]
         most = sorted(set(refs))
         share = len(most) / len(sections)
@@ -662,6 +826,10 @@ STOP_HEAD = {
     "called", "comes", "come", "same", "one", "two", "order", "form", "sense", "point",
     "word", "verse", "chapter", "surah", "root", "plural", "singular", "dual", "verb", "noun",
     "name", "phrase", "term", "participle", "him", "you", "we", "us", "our", "your", "my",
+    "before", "after", "has", "have", "had", "does", "do", "did", "will", "would", "can",
+    "could", "should", "must", "may", "might", "since", "until", "while", "because", "if",
+    "rather", "case", "once", "though", "whether", "more", "less", "again", "still", "only",
+    "first", "last", "next", "each", "every", "both", "either", "neither", "such", "just",
 }
 
 
@@ -680,7 +848,12 @@ def _study_words(sentence: str) -> list:
         if inner and inner.lower() not in STOP_HEAD:
             found.append((m.group(1).strip(), inner))    # a phrase is judged as a phrase
     m = WORD_STUDY.search(sentence)
-    if m:
+    if m and STUDY_VERB.search(sentence):
+        # The word after "the word/name/term ..." is a headword only when the
+        # sentence is actually studying it ("means", "literally", "from the
+        # root"); ordinary prose — "with the name before he wrote" — is not a
+        # word-study, and the word it happens to put there is not a claim about
+        # the verse.
         nxt = re.match(r"[^A-Za-z\u00c0-\u024f\u1e00-\u1eff]*([A-Za-z\u00c0-\u024f\u1e00-\u1eff]"
                        r"[A-Za-z\u00c0-\u024f\u1e00-\u1eff'\u02bf\u02be\u2019-]{2,})",
                        sentence[m.end():])
@@ -695,10 +868,10 @@ def _study_words(sentence: str) -> list:
 
 
 def _skip_head(raw: str, term: str) -> bool:
-    """Heads the match rule does not judge: proper names, the pipeline's words, the ten works.
+    """Heads the match rule does not judge: proper names, the pipeline's words, the eleven works.
 
     Capitalisation alone is not an exemption: a sūrah's name and a known place, person
-    or month are, and so is the name of a work of the ten — but a heading word the
+    or month are, and so is the name of a work of the eleven — but a heading word the
     verse does not carry is a failure whether the writer capitalised it or not.
     """
     key = LEX.norm(term)
@@ -766,6 +939,8 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                          kind="introduction")
         _authorship_findings(doc.intro, None, "%d" % chapter, doc.intro_heading_line, fail,
                              curly=False)
+        _independence_rules(doc.intro, "%d" % chapter, doc.intro_heading_line, fail)
+        _register_rules(doc.intro, "%d" % chapter, doc.intro_heading_line, fail, warn)
 
     expected = [v["ayah_no_surah"] for v in C.verses(chapter)]
     found = [s.verse for s in doc.sections]
@@ -824,7 +999,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         floor = verse_floor(verse_words)
         if body_words < floor:
             fail("WRD-FLOOR", ref, anchor,
-                 "verse tafsir is %d words; this verse needs at least %d (floor = max(500, 8x the verse's %d words))"
+                 "verse tafsir is %d words; this verse needs at least %d (floor = max(700, 9x the verse's %d words))"
                  % (body_words, floor, verse_words))
         elif body_words > MAX_VERSE_WORDS:
             warn("WRD-CEILING", ref, anchor,
@@ -832,7 +1007,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         if re.search(r"\bTODO\b|\bTBD\b|PLACEHOLDER", body):
             fail("FMT-PLACEHOLDER", ref, anchor, "placeholder text left in the section")
 
-        # ---- the ten sources: consulted (digest), named (prose), not exceeded
+        # ---- the eleven sources: consulted (digest), named (prose), not exceeded
         prose = _prose_only(body)
         labelled = LABELS.search(prose)
         if labelled:
@@ -843,7 +1018,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
         banned = BANNED_WORKS.search(prose)
         if banned:
             fail("SRC-BANNED", ref, anchor,
-                 "cites a work outside the ten: %r \u2014 write from corpus.SOURCE_ALLOWLIST only"
+                 "cites a work outside the eleven: %r \u2014 write from corpus.SOURCE_ALLOWLIST only"
                  % banned.group(0))
 
         if section.verse not in _spread_checked:
@@ -851,7 +1026,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
             digest = _digest(chapter)
             if digest is None:
                 fail("SRC-NODIGEST", ref, anchor,
-                     "tmp/sources/%s.json is missing: every one of the ten must be pulled for this chapter "
+                     "tmp/sources/%s.json is missing: every one of the eleven must be pulled for this chapter "
                      "before a verse is written (python3 scripts/tafsir/sources.py %d)" % (C.pad3(chapter), chapter))
             else:
                 held = digest.get(str(section.verse)) or {}
@@ -859,7 +1034,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                              if s not in held and C.source_covers(s, chapter, section.verse)]
                 if unchecked:
                     fail("SRC-NOTCHECKED", ref, anchor,
-                         "%d of the ten were never pulled for this verse: %s"
+                         "%d of the eleven were never pulled for this verse: %s"
                          % (len(unchecked), ", ".join(unchecked)))
                 absent = [s for s in C.SOURCE_ALLOWLIST
                           if s not in held and not C.source_covers(s, chapter, section.verse)]
@@ -950,6 +1125,9 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
 
         # the book is the author's own: no work is relayed, compared or quoted
         _authorship_findings(body, own_canon, ref, anchor, fail)
+        # v7.4: the book is independent (§0.12), and it keeps the house register (§0.11)
+        _independence_rules(body, ref, anchor, fail)
+        _register_rules(body, ref, anchor, fail, warn)
         section_refs = defaultdict(int)
         for m in QURAN_QUOTE.finditer(checkable):
             s_ch, s_v = int(m.group("ch")), int(m.group("v"))
@@ -978,10 +1156,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                      "%d:%d is quoted %d times in this verse: quote the clause once and cite it "
                      "after that" % (s_ch, s_v, n))
 
-        for m in BARE_REF.finditer(checkable):
-            s_ch, s_v = int(m.group(1)), int(m.group(2))
-            if not _ref_ok(s_ch, s_v):
-                fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
+        _bare_ref_findings(checkable, ref, anchor, fail, warn)
 
         for m in QURAN_QUOTE_ITALIC.finditer(checkable):
             fail("REF-QUOTE-STYLE", ref, anchor,
@@ -1041,7 +1216,7 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
 
         # evidence anchors
         kinds = []
-        if BARE_REF.search(body):
+        if QURAN_QUOTE.search(body) or BARE_REF.search(body):
             kinds.append("quran")
         if COLLECTIONS.search(body):
             kinds.append("hadith")
@@ -1054,6 +1229,20 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                  "no checkable anchor in the section (no Qur'an cross-reference, hadith, named authority or language note)")
         elif len(kinds) < 2:
             warn("EVD-THIN", ref, anchor, "only one kind of evidence (%s)" % kinds[0])
+
+        # v7.3 §0.10: a tafsir cites what has been transmitted, and shows where the
+        # Book says the same thing elsewhere. Neither is optional, however short the verse.
+        if not (FIRST_GEN.search(body) or COLLECTIONS.search(body)):
+            fail("EVD-TAFSIR", ref, anchor,
+                 "nothing in this verse's commentary comes from what has been handed down: name "
+                 "the early authority the reading is learned from (a Companion, a Successor, the "
+                 "first imams), or give the report with its collection \u2014 a tafsir carries the "
+                 "transmitted reading and not only its author's reasoning")
+        if not (QURAN_QUOTE.search(body) or BARE_REF.search(body)):
+            fail("REF-NONE", ref, anchor,
+                 "no cross-reference to another verse: show where the Book says the same thing "
+                 "elsewhere, in bold with the clause it points to \u2014 (C:V \u2014 **\u201cthe clause\u201d**) \u2014 "
+                 "as scripts/tafsir/reference.py prints it")
 
         for para in paragraphs:
             for sentence in C.sentence_split(para):
@@ -1575,6 +1764,33 @@ def phrase_stats(chapter: int, section) -> dict:
     return stats
 
 
+def _bare_ref_findings(checkable, ref, anchor, fail, warn) -> int:
+    """v7.2: every Qur'an cross-reference carries the wording it points to.
+
+    A citation without its clause \u2014 "(2:255)" \u2014 is a number the reader cannot
+    read, and a parenthesised list of them is the same number with company. One or
+    two in a section warn (they are expanded); three mean the section cites numbers
+    instead of verses and fail. Returns how many such citations the section carries.
+    """
+    bare = []
+    for m in BARE_REF.finditer(checkable):
+        s_ch, s_v = int(m.group(1)), int(m.group(2))
+        if not _ref_ok(s_ch, s_v):
+            fail("REF-RANGE", ref, anchor, "(%d:%d) is not a verse of the Qur'an" % (s_ch, s_v))
+        bare.append(m.group(0))
+    bare += [m.group(0) for m in BARE_REF_LIST.finditer(checkable)]
+    if bare:
+        note = ("%d citation(s) carry no wording: %s \u2014 a cross-reference is expanded with "
+                "the clause it points to, copied from data/chapter_NNN.js: "
+                "(C:V \u2014 **\u201cthe clause\u201d**); scripts/tafsir/reference.py prints the "
+                "expansion" % (len(bare), ", ".join(bare[:4])))
+        if len(bare) >= BARE_REF_FAIL:
+            fail("REF-BARE", ref, anchor, note)
+        else:
+            warn("REF-BARE", ref, anchor, note)
+    return len(bare)
+
+
 def _ref_ok(chapter: int, verse: int) -> bool:
     if not (1 <= chapter <= 114) or verse < 1:
         return False
@@ -1594,12 +1810,14 @@ def _digest(chapter: int):
     return _DIGESTS[chapter]
 
 
-# Name-parts of the ten works and of the hadith collections they cite: naming a
-# source is grounded by the SRC-* checks (all ten are held for the verse) and the
-# collections by EVD-ATTRIBUTION, so they are not factual claims about the verse.
-# Name-parts of the ten works and of the hadith collections they cite: naming a
-# source is grounded by the SRC-* checks (all ten are held for the verse) and the
-# collections by EVD-ATTRIBUTION, so they are not factual claims about the verse.
+# Name-parts of the eleven works and of the hadith collections they cite: naming
+# a source is grounded by the SRC-* checks (all eleven are held for the verse) and
+# the collections by EVD-ATTRIBUTION, so they are not factual claims about the
+# verse.
+# Name-parts of the eleven works and of the hadith collections they cite: naming
+# a source is grounded by the SRC-* checks (all eleven are held for the verse) and
+# the collections by EVD-ATTRIBUTION, so they are not factual claims about the
+# verse.
 _GROUNDED_NAMES = {
     "ibn",
     "kathir",
@@ -1792,7 +2010,7 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
             if token.lower() in _STOP:
                 continue
             if any(rx.search(token) for rx in AUTHORITY.values()):
-                continue      # naming one of the ten is grounded by SRC-NOTCHECKED
+                continue      # naming one of the eleven is grounded by SRC-NOTCHECKED
             key = _canon(token)
             if key.endswith("'s"):
                 key = key[:-2]

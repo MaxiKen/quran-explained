@@ -32,8 +32,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 
-MIN_VERSE_WORDS = 500          # keep in step with audit.py
-SCALE_FACTOR = 8.0
+MIN_VERSE_WORDS = 700          # keep in step with audit.py (v7.3)
+SCALE_FACTOR = 9.0
 SCALE_CAP = 4000
 
 
@@ -46,7 +46,7 @@ def floor_for(chapter: int, verse: int) -> int:
 INTRO_TODO = (
     "TODO: write the introduction from the source digest. What the s\u016brah is, where and "
     "when it was revealed, its names, its structure, its place in the Qur'an and what it "
-    "carries as a whole \u2014 learned from the ten works and written in the book's own "
+    "carries as a whole \u2014 learned from the eleven works and written in the book's own "
     "voice, 250\u20131,500 words, paragraphs of more than 120 words each, no headings. "
     "See TAFSIR_PROMPT.md."
 )
@@ -55,10 +55,10 @@ INTRO_TODO = (
 def todo_for(chapter: int, verse: int) -> str:
     return (
         "TODO: write this verse from the source digest \u2014 at least %d words in all, in "
-        "paragraphs of more than 120 words each. Read all ten works for this verse first "
+        "paragraphs of more than 120 words each. Read all eleven works for this verse first "
         "(python3 scripts/tafsir/sources.py %d --verse %d), learn from them, and write the "
         "book's own reading: never relay, compare or quote one of them, and never a work "
-        "outside the ten. Present this verse on its own terms — nothing about the way it is "
+        "outside the eleven. Present this verse on its own terms — nothing about the way it is "
         "built may repeat another verse's way (a different opening, a different arrangement, "
         "headings no other verse uses), and a heading may carry one paragraph or several, each "
         "past 120 words. Plan the section "
@@ -67,7 +67,9 @@ def todo_for(chapter: int, verse: int) -> str:
         "phrase of the verse inside the prose in bold italics, explain it, and back each quoted "
         "phrase with evidence beside it \u2014 a cross-reference to another verse (the clause in "
         "bold with curly quotes, the reference in the parentheses) from data/chapter_%s.js, a "
-        "report quoted in italics with its collection, or a named early authority. Bold is reserved: "
+        "report quoted in italics with its collection, or a named early authority. Every "
+        "cross-reference carries the clause it points to (python3 scripts/tafsir/reference.py C:V "
+        "prints them). Bold is reserved: "
         "the UPPERCASE headings, this "
         "verse's own phrases (bold italics) and the clauses of other verses (bold only) \u2014 "
         "nothing else in the file is bold, and no sentence explains a word, English or Arabic, "
@@ -75,7 +77,19 @@ def todo_for(chapter: int, verse: int) -> str:
         "occasions, reports, cross-references, life application and one relatable analogy by "
         "itself, bring it home to the reader once (today, these days), and never label those "
         "elements (no \u201cLesson:\u201d, no \u201cModern application:\u201d) "
-        "\u2014 write them into the flow. Short sentences and everyday words. See TAFSIR_PROMPT.md, "
+        "\u2014 write them into the flow. Write it as a tafsir and not as talk (v7.3, rules "
+        "\u00a70.10): the wording explained, what has been transmitted (the occasion of "
+        "revelation, the reports, the early authority the reading comes from), the language "
+        "the verse carries, what it settles in creed, law and conduct, where the Book says the "
+        "same thing elsewhere with the clause, and what it asks of the reader; at least one "
+        "cross-reference and at least one transmitted reading per verse are required "
+        "(REF-NONE, EVD-TAFSIR). Simple English means plain sentences, not thin substance: "
+        "no general reflection that would fit any verse, no address to the reader, no praise "
+        "of the text in place of its explanation. Keep the register of rules \u00a70.11 "
+        "(v7.4): third person, no contractions, no exclamation, no hype words, no stacked "
+        "questions. And keep \u00a70.12: this is an independent book \u2014 quote only the "
+        "verse, a cross-referenced clause, or a report with its collection; name no work "
+        "and quote no book (IND-WORK, IND-QUOTE). See TAFSIR_PROMPT.md, "
         "then run scripts/tafsir/audit.py %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )
@@ -97,8 +111,9 @@ def scaffold_text(chapter: int) -> str:
         parts.append("")
         parts.append(todo_for(chapter, num))
         parts.append("")
-        parts.append("---")
-        parts.append("")
+        if num != C.verses(chapter)[-1]["ayah_no_surah"]:
+            parts.append("---")          # no separator after the final verse (FMT-SEP)
+            parts.append("")
     while parts and parts[-1] == "":
         parts.pop()
     return "\n".join(parts) + "\n"

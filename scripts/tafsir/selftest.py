@@ -82,18 +82,21 @@ def _sub_verse(text, verse, pattern, repl, count=1):
     return _edit_verse(text, verse, fn)
 
 
-def _written_verse(text, chapter):
-    """Number of the first verse with a real reading in it (else the last verse)."""
+def _first_written(text, chapter):
+    """The first verse with a real reading in it, or None while the chapter is scaffold."""
     blocks = list(re.finditer(r"(?m)^## Verse %d:(\d+)[ \t]*$" % chapter, text))
-    last = 1
     for i, m in enumerate(blocks):
-        last = int(m.group(1))
         end = blocks[i + 1].start() if i + 1 < len(blocks) else len(text)
         block = text[m.start():end]
         if (block.count("***\u201c") and _first_ref(block)
                 and len(re.findall(r"(?m)^\*\*[^\n]+\*\*$", block)) >= 2):
-            return last
-    return last
+            return int(m.group(1))
+    return None
+
+
+def _written_verse(text, chapter):
+    """Number of the first verse with a real reading in it (else the last verse)."""
+    return _first_written(text, chapter) or 1
 
 
 # ------------------------------------------------------------------ mutations
@@ -328,7 +331,7 @@ def mut_paraphrase(text, ch):
 
 
 def mut_source_quote(text, ch):
-    """v7: a work of the ten is quoted."""
+    """v7: a work of the eleven is quoted."""
     def fn(block):
         span = _first_para(block)
         if not span:
@@ -622,6 +625,69 @@ def clean_phrase_synonym(text, ch, chapter):
     return _edit_verse(text, TARGET, fn)
 
 
+def mut_ref_none(text, ch):
+    """§0.10 take every cross-reference out of the verse: REF-NONE (v7.3) must fire."""
+    def fn(block):
+        return re.sub(r"\(\d{1,3}:\d{1,3} \u2014 \*\*\u201c[^\u201d]+\u201d\*\*\)", "", block)
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def mut_evd_tafsir(text, ch):
+    """§0.10 take the transmitted reading out of the verse: EVD-TAFSIR (v7.3) must fire."""
+    def fn(block):
+        out = audit.FIRST_GEN.sub("the first readers", block)
+        return audit.COLLECTIONS.sub("the report", out)
+
+    return _edit_verse(text, TARGET, fn)
+
+
+def _append_to_first_para(block, sentence):
+    span = _first_para(block)
+    if not span:
+        return block
+    a, b = span
+    para = block[a:b].rstrip("\n")
+    return block[:a] + para + " " + sentence + block[b:]
+
+
+def mut_ind_work(text, ch):
+    """\u00a70.12 a work is named: IND-WORK must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The reading is set out at length in al-Itqan."))
+
+
+def mut_ind_quote(text, ch):
+    """\u00a70.12 a quotation with no reference: IND-QUOTE must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, 'The old writers put it this way, "the mercy of God has no limit that a '
+           'creature can measure".'))
+
+
+def mut_contraction(text, ch):
+    """\u00a70.11 a contraction: STY-CONTRACTION must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "It doesn't matter how small the phrase looks."))
+
+
+def mut_exclaim(text, ch):
+    """\u00a70.11 an exclamation mark: STY-EXCLAIM must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The reach of that mercy is one of the plainest facts in the sūrah!"))
+
+
+def mut_hype(text, ch):
+    """\u00a70.11 a hype word: STY-HYPE must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "The arrangement of the sentence is amazing in its detail."))
+
+
+def mut_question(text, ch):
+    """\u00a70.11 stacked questions: STY-QUESTION must fire."""
+    return _edit_verse(text, TARGET, lambda b: _append_to_first_para(
+        b, "Why would a person say that? What would he gain from it? How would he answer for it?"))
+
+
 CLEAN_CASES = [
     ("\u00a75.1 the verse's own word may be explained", clean_own_word),
     ("\u00a75.1 a synonym is adjusted, not failed", clean_synonym),
@@ -677,11 +743,17 @@ CASES = [
     ("\u00a78 every verse carries an analogy", "STY-ANALOGY", mut_analogy),
     ("v7 every paragraph runs past 120 words", "WRD-PARA-FLOOR", mut_para_short),
     ("v7 the prose never summarises a work", "STY-PARAPHRASE", mut_paraphrase),
-    ("v7 the ten are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("v7 the eleven are never quoted", "SRC-QUOTED", mut_source_quote),
+    ("\u00a70.12 the book names no work", "IND-WORK", mut_ind_work),
+    ("\u00a70.12 the book quotes no book", "IND-QUOTE", mut_ind_quote),
+    ("\u00a70.11 no contractions in the register", "STY-CONTRACTION", mut_contraction),
+    ("\u00a70.11 no exclamation marks", "STY-EXCLAIM", mut_exclaim),
+    ("\u00a70.11 no hype words", "STY-HYPE", mut_hype),
+    ("\u00a70.11 no stacked questions", "STY-QUESTION", mut_question),
     ("v7 the verse reaches the reader's world", "STY-APPLICATION", mut_no_application),
     ("v7.1 no heading reused across verses", "STY-UNIQUE-VERSE", mut_heading_reuse),
     ("v7.1 no house frame across verses", "STY-UNIQUE-VERSE", mut_house_frame),
-    ("\u00a71 nothing outside the ten is cited", "SRC-BANNED", mut_banned),
+    ("\u00a71 nothing outside the eleven is cited", "SRC-BANNED", mut_banned),
     ("\u00a77 a prophetic report names its collection", "EVD-ATTRIBUTION", mut_attribution),
     ("\u00a78 no duplicated sentences", "REP-SENTENCE", mut_rep_sentence),
     ("\u00a78 no pipeline vocabulary", "REP-FILLER", mut_filler),
@@ -692,6 +764,8 @@ CASES = [
     ("\u00a75.1 words explained exist in the verse", "MTCH-WORD", mut_word_offverse),
     ("\u00a75.1 no Arabic as the verse's own wording", "MTCH-TERM", mut_term_as_verse),
     ("\u00a75.1 a synonym is not the verse's wording", "MTCH-TERM", mut_synonym),
+    ("v7.3 every verse cites another verse", "REF-NONE", mut_ref_none),
+    ("v7.3 every verse carries a transmitted reading", "EVD-TAFSIR", mut_evd_tafsir),
 ]
 
 
@@ -699,6 +773,10 @@ def run(chapter):
     global TARGET
     src = MD_DIR / ("%s.md" % C.pad3(chapter))
     text = src.read_text(encoding="utf-8")
+    if _first_written(text, chapter) is None:
+        # nothing is written yet: every case would mutate scaffold text and prove nothing,
+        # and a 286-verse scaffold makes each audit run expensive
+        return [("the whole chapter", "\u2014", "SKIP", "no written verse yet")]
     TARGET = _written_verse(text, chapter)
     opts = argparse.Namespace(no_grounding=True)
     rows = []

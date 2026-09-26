@@ -30,10 +30,12 @@ TMP_DIR = REPO / "tmp"
 NBSP = "\u00a0"          # some stored translations use a non-breaking space
 INITIAL_SLUG = "tafsir_initial"
 
-# The works this corpus is written from. Set on 2026-09-24: the ten sources
-# below, and nothing else. Deleting a folder from the repo is the only way to
-# remove a work; the allowlist keeps a stray folder from quietly re-entering the
-# pipeline, and audit.py fails a chapter that names a work outside the list.
+# The works this corpus is written from. Set on 2026-09-24 as ten sources; the
+# study draft in ``tafsir_initial/`` was added as the eleventh on 2026-09-25 (v7.2),
+# so the list below is now the eleven, and nothing else. Deleting a folder from the
+# repo is the only way to remove a work; the allowlist keeps a stray folder from
+# quietly re-entering the pipeline, and audit.py fails a chapter that names a work
+# outside the list.
 SOURCE_ALLOWLIST = (
     "tafsir-al-tabari",       # Jami' al-Bayan — the ma'thür root (d. 310)
     "tafsir-al-qurtubi",      # al-Jami' li-Ahkam al-Qur'an — rulings (d. 671)
@@ -45,7 +47,11 @@ SOURCE_ALLOWLIST = (
     "tafsir-as-saadi",        # Taysir al-Karim al-Rahman (d. 1956)
     "tafsir-ibn-uthaymeen",   # Tafsir Ibn 'Uthaymin (d. 2001; partial coverage)
     "tafsir-maarif-ul-quran",  # Ma'arif al-Qur'an, English (d. 1976)
+    "tafsir_initial",         # the study-Quran-style draft, English (v7.2: the eleventh)
 )
+
+# The eleven, stated once so the prose and the tools can name the count.
+SOURCE_COUNT = len(SOURCE_ALLOWLIST)
 
 # Works with real discussion of the earlier chapters (the rest are glosses and
 # the three modern teaching tafsirs above).
@@ -179,11 +185,14 @@ def source_catalog():
 
     * ``tafsir-*/NNN.txt`` — spa5k/tafsir_api exports, one ``## C:V`` section
       per ayah, Arabic or English (declared in the file header).
-    * ``tafsir_initial/NNN.md`` — the Study-Quran-style draft, verses marked
-      by ``**V**`` paragraphs separated by ``***``.
+    * ``tafsir_initial/NNN.md`` — the study-Quran-style draft, verses marked
+      by ``**V**`` paragraphs separated by ``***``. Since v7.2 it is the
+      eleventh work of the corpus (``SOURCE_ALLOWLIST``), so it is digested and
+      read like the other ten — and, like them, never relayed or quoted.
 
     English sources are listed first: they are the ones a person can read
-    straight, and the prompt's source ladder leans on them.
+    straight, and the prompt's source ladder leans on them. The study draft is
+    listed last (it is the one to read after the ten).
     """
     global _SOURCES
     if _SOURCES is None:
@@ -192,9 +201,24 @@ def source_catalog():
             if not d.is_dir():
                 continue
             if d.name not in SOURCE_ALLOWLIST:
-                continue          # the ten; the study draft in tafsir_initial/ is not a source
+                continue          # nothing outside the eleven is a source
             slug = d.name
-            head_file = d / "001.txt"
+            if slug == INITIAL_SLUG:
+                head_file = d / ("%s.md" % pad3(1))
+                if not head_file.exists():
+                    continue
+                head = head_file.read_text(encoding="utf-8", errors="replace").split("\n")[:4]
+                title = head[0].strip().lstrip("#").strip()
+                out.append({
+                    "slug": slug,
+                    "kind": "study",
+                    "lang": "en",
+                    "title": title,
+                    "upstream": "%s/NNN.md" % INITIAL_SLUG,
+                    "path": d,
+                })
+                continue
+            head_file = d / ("%s.txt" % pad3(1))
             if not head_file.exists():
                 continue
             head = head_file.read_text(encoding="utf-8", errors="replace").split("\n")[:4]
@@ -211,7 +235,8 @@ def source_catalog():
                 "upstream": upstream,
                 "path": d,
             })
-        out.sort(key=lambda s: (s["lang"] != "en", s["slug"]))
+        # English first; the study draft is read last of all.
+        out.sort(key=lambda s: (s["slug"] == INITIAL_SLUG, s["lang"] != "en", s["slug"]))
         _SOURCES = out
     return _SOURCES
 
