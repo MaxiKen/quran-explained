@@ -5,6 +5,49 @@ Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v7.4**) 
 working state: where the writing stands, how a run of fifty verses is produced and
 gated, and the gate findings that cost time to learn the first time.
 
+## If you are told to continue (start here)
+
+The work lives on the branch **`arena/01a0da50-quran-explained`**. `main` is behind it by the whole
+v7.x corpus and the published chapter 1, so before anything else make sure you are on this branch
+(or on whatever branch carries it): if `git log --oneline -1` shows a commit older than the ones in
+the table below, fetch the branch rather than starting from `main`.
+
+Then, in order:
+
+1. **Read the rules before you read the state.** `TAFSIR_RULES.md` (**v7.4** — §0.11 the register,
+   §0.12 the independence law) is normative; `TAFSIR_PROMPT.md` is the generation prompt built on
+   it; this file is the working state; `TAFSIR_WORKLOG.md` is the ledger.
+2. **Rebuild the scratch that is not in git.** `tmp/sources/` and `tmp/runs/` are ignored by
+   design, so a fresh clone (and, in practice, a fresh session) has neither and the auditor reports
+   `SRC-NODIGEST` on every verse until they are rebuilt. One pass does it:
+   `python3 scripts/tafsir/run.py --build` (the run's chapters, all eleven works, per-chapter digests
+   for the grounding check); a chapter outside the current run needs its own digest back —
+   `python3 scripts/tafsir/sources.py 1`, which is why `audit.py 1` shows `SRC-NODIGEST` on a clone
+   until it is run. **`SRC-NODIGEST` is a missing scratch file, never a defect in the prose.** The
+   drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier sessions are present
+   and must not be overwritten.
+3. **Confirm the state you inherited** (these are the lines to expect, 2026-09-26):
+   `python3 scripts/tafsir/audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO — the ten warnings
+   are known and accepted: seven `STY-ANALYSIS-FLOOR` advisories, one `STY-UNIQUE-VERSE`, two
+   `MTCH-TERM` on 1:7; they are not a defect to repair, and no rule was waived by them);
+   `python3 scripts/tafsir/build_data.py 1 --check` → `1 up to date`; `python3 scripts/tafsir/audit.py 2`
+   → FAIL on the scaffolds of chapter 2, which is expected until 2:286 is written.
+4. **Then write, exactly as the gait below describes.** The frontier is **chapter 2**: `tafsir/002.md`
+   is a scaffold from its introduction on, and the run in force is the fifty verses the planner names —
+   `run.py --plan` re-anchors at the first unwritten verse, which is `2:1`, so run 1 is now
+   **2:1–2:50** (50 verses, floor 700 words each, 35,000 words of new prose; `run.py --status`
+   lists them). Write it stretch by stretch with `batch.py 2 --from A --to B` after each, and do not
+   stop until `run.py --check` prints RUN COMPLETE.
+5. **Publish only a finished chapter.** `build_data.py N` refuses a chapter with any `TODO`
+   scaffold, so chapter 2 gets its payload when its last verse lands: `audit.py 2` PASS →
+   `status.py 2` → `build_data.py 2` → bump `sw.js` `CACHE_VERSION` (and only add a URL to
+   `RETIRED_PAYLOADS` when a chapter is *withdrawn*; a rewritten chapter that is republished must
+   not be retired) → worklog row → commit and push to this branch.
+
+Nothing else is needed: every source text (the eleven works), every script, the rules, the
+scaffolds and the chapter-1 payload are in the repository. Nothing outside it is required, and no
+source may be fetched from outside the eleven (§1).
+
 ## Where things stand (2026-09-26)
 
 | | |
@@ -42,6 +85,16 @@ The author's instructions, verbatim, in force:
 * "tafsir_initial should be added as one of the sources now making 11. All the 11
   sources are to be looked into before anything is generated. All Quran cross
   reference should be expanded with their translation content etc."
+* "I want you to only study is for your choice of diction and professionalism. You're not
+  copying it's contents. Its style of writing and choice of words is what I want you to study.
+  Write that style etc to replicate something like that into the rule. The additional rule to also
+  be documented is You're not to qoute any book since this is to be an independent book, you can
+  only quote the references in those books like those books do and make original point. Every other
+  rule remains. Add and enforce the rules." — in force since 2026-09-26 as **§0.11** (the register:
+  the diction studied from a published tafsir's style and choice of words only, never its content)
+  and **§0.12** (the independence law: no work is named, relayed or quoted anywhere; the book cites
+  the reference itself and makes its own point), mechanised as `IND-WORK`, `IND-QUOTE`,
+  `STY-CONTRACTION`, `STY-EXCLAIM`, `STY-HYPE`, `STY-QUESTION`.
 * "I want you to be generating content for 50 verses in every badge. And I want the
   total generation process to be fast. An approach you can take is to at the start
   map out 50 verses (it might be across 2 chapters o more) from all sources (this is
@@ -59,10 +112,13 @@ The author's instructions, verbatim, in force:
   it; every cross-reference is **expanded with the clause it points to**, copied from
   `data/chapter_NNN.js`; the commentary's own voice carries no emphasis.
 
-`scripts/tafsir/audit.py` mechanises all of it (77 codes). `scripts/tafsir/ruletest.py`
+`scripts/tafsir/audit.py` mechanises all of it (88 codes). `scripts/tafsir/ruletest.py`
 proves the v7/v7.2 checks with no chapter on disk (they are the only proof that runs
-while the corpus is empty); `scripts/tafsir/selftest.py` mutates a *written* chapter,
-so it starts working again the moment verse 1 is in the file.
+while the corpus is empty); `scripts/tafsir/selftest.py` mutates a *written* chapter, so it
+is live again now that chapter 1 is written — it carries a firing mutation for every code,
+including the v7.4 ones (`IND-WORK`, `IND-QUOTE`, `STY-CONTRACTION`, `STY-EXCLAIM`,
+`STY-HYPE`, `STY-QUESTION`), and must print `uncaught rules: 0 | rules not exercised: 0 |
+false alarms: 0` after any change to the gate.
 
 ## The gait for one run (50 verses)
 
@@ -108,6 +164,7 @@ python3 scripts/tafsir/reference.py --find "the Most Compassionate" --chapter 2
 python3 scripts/tafsir/match.py 1:4 "the day of reckoning"   # is this the verse's wording?
 python3 scripts/tafsir/verify.py "<claim>" --chapter 2       # do the sources carry this?
 python3 scripts/tafsir/assemble.py 1 --check    # drafted / not drafted, verse by verse
+python3 tmp/work/dig.py 2 2500 900            # bench helper: one verse, all eleven, capped
 ```
 
 ## Gate findings learned while writing the cleared chapters
@@ -206,16 +263,18 @@ are tracked through a `.gitignore` exception, so they survive a wipe; the source
 digests (`tmp/sources/…`) and the run maps (`tmp/runs/…`) do not, and `run.py --build`
 rebuilds both in one pass.
 
-Push policy for this branch: `git push origin arena/01a0da50-quran-explained`
-(a single writer, so `--force` is acceptable if a lease goes stale).
+Push policy: push to the session branch you were given and to no other — this work was carried on
+`arena/01a0da50-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
+A single writer holds a branch, so `--force` is acceptable if a lease goes stale, but never push to
+`main` from a session branch: `main` is brought up to date by merging the branch's pull request.
 
 ## House facts worth not rediscovering
 
 * `audit.py --json` is broken; use the text runs. `audit_chapter(chapter, opts, path=None)`
   wants an argparse Namespace; there is no `--file` flag. `audit.py N` on a chapter with
   scaffolding fails by design (`TODO`) — gate a stretch with `batch.py N --from A --to B`.
-* `audit.py N` counts 77 codes now; `selftest.py` needs a **written** chapter, so it is
-  skipped until verse 1 of the run lands. `ruletest.py` is the proof that runs with an
+* `audit.py N` counts 88 codes now; `selftest.py` needs a **written** chapter, so it is
+  skipped until verse 1 of the run lands (chapter 1 is written, so it runs). `ruletest.py` is the proof that runs with an
   empty corpus.
 * Intros are `## Introduction to the Sūrah`, plain paragraphs, no `**` inside.
 * A verse section is: `## Verse 2:N`, a blank line, the `> verse line` exactly as the
@@ -228,7 +287,7 @@ Push policy for this branch: `git push origin arena/01a0da50-quran-explained`
   per-chapter digest JSON is capped hard (1600/533) because grounding reads names, not
   length. Raise the caps for a verse that needs the full discussion.
 
-## Gate lessons that cost time (v7.2 chapters 1–2)
+## Gate lessons that cost time (v7.2–v7.4, chapters 1–2)
 
 * `WRD-PARA-FLOOR` is strict: 120 words fails, 121 passes. Measure every paragraph with
   `len(C.words(p))` over `C.split_paragraphs` **after** each edit — fixing one paragraph

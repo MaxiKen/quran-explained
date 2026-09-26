@@ -4,8 +4,12 @@ Quran explained verse by verse.
 
 The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
 time, out of the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the
-ten tafsirs plus the study draft `tafsir_initial/`, v7.2). Each chapter is generated against a fixed
-format and gated by an auditor before it is published to the app. Work moves in **runs of fifty
+ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed
+format and gated by an auditor before it is published to the app. The standard in force is
+**v7.4**: the eleven works researched for every verse and named nowhere in the text, each verse
+presented on its own terms, every cross-reference expanded with its clause, the register of
+§0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapter 1 is written and
+published (`tafsir/001.md`, `data/tafsir_001.json`); chapter 2 is the frontier. Work moves in **runs of fifty
 verses** (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and finished before the
 writer pauses.
 

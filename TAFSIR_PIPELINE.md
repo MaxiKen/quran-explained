@@ -4,7 +4,7 @@ The old commentary corpus (`markdown commentry/`, 114 files written against a wo
 then edited down over many passes) was deleted in commit `b600667`, together with its payloads
 (`data/tafsir_*.json`), its process documents and its generator scripts. What replaces it is a
 small, strict pipeline: one chapter file at a time, written from the **eleven** works in this
-repository (v7.2: the ten tafsirs plus the study draft `tafsir_initial/`), gated by an auditor that
+repository (v7.4: the ten tafsirs plus the study draft `tafsir_initial/`), gated by an auditor that
 will not pass anything malformed, unevidenced, repetitive or padded. Work moves in **runs of fifty
 verses** (`run.py`), each mapped out of all eleven works in one pass and finished before the writer
 pauses.

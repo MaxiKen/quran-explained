@@ -140,3 +140,13 @@ confirms it still matches the markdown. `sw.js` moves to `quran-reader-v2.5.47` 
 than purged from a device's cache. The app fetches `data/tafsir_NNN.json` by chapter number, so
 publication is the payload plus that cache-version bump and nothing else. Chapter 2 stays
 unpublished — `build_data.py` refuses to build while any verse is still a `TODO` scaffold.
+
+**Continuity pass (2026-09-26).** `TAFSIR_HANDOFF.md` now opens with an *If you are told to
+continue* section: the branch the work lives on, the reading order, the scratch that is not in git
+(`tmp/sources/`, `tmp/runs/` — `run.py --build`, or `sources.py N` for a chapter outside the current
+run; `SRC-NODIGEST` means a missing scratch file, never a defect in the prose), the lines to expect
+from the gate on the inherited state, the run in force (**2:1–2:50** — the planner re-anchors at the
+first unwritten verse now that chapter 1 is complete), and the publish sequence for chapter 2. The
+author's v7.4 instruction is quoted verbatim in the law list beside the earlier ones, the code count
+is corrected to 88, and `README.md` / `TAFSIR_PIPELINE.md` name v7.4 as the standard in force. No
+rule, chapter or payload changed in this pass.
