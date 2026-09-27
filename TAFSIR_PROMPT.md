@@ -687,19 +687,19 @@ review the exact candidate that was pushed.
 # research map: fifty verses, all eleven works, opened once
 python3 scripts/tafsir/run.py --plan --start 2:1
 python3 scripts/tafsir/run.py --build
-python3 scripts/tafsir/run.py --slice 2:6 2:10
+python3 scripts/tafsir/run.py --slice 2:7 2:10
 
 # draft in order and fix every mechanical failure
 python3 scripts/tafsir/assemble.py 2
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --draft
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --draft
 
 # at this generation stop, create the tracked pending review and validate it
-python3 scripts/tafsir/quality.py --template 2 --from 6 --to 10 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --push-check
+python3 scripts/tafsir/quality.py --template 2 --from 7 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --push-check
 # Commit and push now. A different reviewer inspects the GitHub candidate and completes
-# quality/reviews/002/006-010.json; only then run full acceptance.
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10
-python3 scripts/tafsir/quality.py 2 --from 6 --to 10
+# quality/reviews/002/007-010.json; only then run full acceptance.
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10
+python3 scripts/tafsir/quality.py 2 --from 7 --to 10
 
 python3 scripts/tafsir/run.py --status
 python3 scripts/tafsir/run.py --check   # all fifty written, clean and independently accepted

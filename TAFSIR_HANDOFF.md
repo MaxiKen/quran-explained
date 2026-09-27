@@ -19,13 +19,14 @@ or copy the purged Chapter 2 draft from history.
 **Resume a pinned run; otherwise ask where to start.** The author names the start of every new run,
 and it is not chosen by the writing agent. If `run.py --plan` shows an existing pinned run, “continue”
 resumes its next unwritten verse. Only when no run is pinned should a bare “continue” trigger a
-question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1; after
-the accepted 2:1–2:5 checkpoint its next verse is 2:6:
+question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1.
+Verses 2:1–2:5 are accepted; fresh 2:6 is pushed with owner review pending, so the next draft begins
+at 2:7 without exceeding the fifty-verse unaccepted limit:
 
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # pins 2:1–2:50
 python3 scripts/tafsir/run.py --build            # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 2:6 2:10   # read the next stretch of the map
+python3 scripts/tafsir/run.py --slice 2:7 2:10   # read the next stretch of the map
 ```
 
 Then write in verse order. Gate each verse mechanically with `batch.py ... --draft`. At every
@@ -59,30 +60,34 @@ frozen as the raised quality floor, and published. Its accepted source/claim/evi
 `quality/chapter-001-baseline-approval.json`. The old Chapter 2 commentary was purged from current
 state without rewriting history. A fresh introduction and 2:1–2:5 were generated from all eleven
 works and independently accepted by the project owner in `quality/reviews/002/001-005.json`.
-Verses 2:6–2:286 remain scaffolds. The pinned run remains 2:1–2:50, so the next verse is 2:6.
+Fresh 2:6 passes its draft and push gates and is tracked in the pending
+`quality/reviews/002/006-006.json`; it has been pushed for owner inspection but is not accepted.
+Verses 2:7–2:286 remain scaffolds. The pinned run remains 2:1–2:50.
 
 ## Where things stand (2026-09-27)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; fresh Chapter 2 introduction + 2:1–2:5 are independently accepted. 2:6–2:286 are scaffolds. |
-| Next | Continue the pinned 2:1–2:50 run at **2:6**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
+| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; fresh Chapter 2 introduction + 2:1–2:5 are accepted; 2:6 is push-clean and pending owner review; 2:7–2:286 are scaffolds. |
+| Next | Continue the pinned 2:1–2:50 run at **2:7**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
 | Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, five-verse automatic drift windows, and immediate stop/push notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
-`tmp/work/c2_intro.md` and the fresh `c2_v001.md`–`c2_v005.md`; the purged old `c2_v006.md`–
-`c2_v100.md` must not be restored or copied. Measured state:
+`tmp/work/c2_intro.md` and the fresh `c2_v001.md`–`c2_v006.md`. The purged old prose formerly in
+`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current `c2_v006.md` is a new draft
+from the eleven-source map. Measured state:
 
 ```
 python3 scripts/tafsir/audit.py 1                    # raised Chapter 1: mechanical PASS
 python3 scripts/tafsir/build_data.py 1 --check       # accepted payload matches
 python3 scripts/tafsir/quality.py --baseline         # validates raised frozen hash and floor
 python3 scripts/tafsir/batch.py 2 --from 1 --to 5    # accepted Chapter-1 parity checkpoint
+python3 scripts/tafsir/batch.py 2 --from 6 --to 6 --push-check # pending owner review
 python3 scripts/tafsir/quality.py --all --push-check # all current review candidates are push-clean
 python3 scripts/tafsir/qualitytest.py                # parity gate regression suite
-python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:6–2:286 (expected)
+python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:7–2:286 (expected)
 ```
 
 The full Chapter 2 gate fails only because the chapter is intentionally incomplete. No

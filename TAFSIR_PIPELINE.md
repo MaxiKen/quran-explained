@@ -102,16 +102,16 @@ python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse'
 
 # 3. write in order: mechanical check per verse, review checkpoint at most fifty
 python3 scripts/tafsir/assemble.py 2
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --draft
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --draft
 # at every generation stop, create/refresh a pending scaffold and push the candidate first
-python3 scripts/tafsir/quality.py --template 2 --from 6 --to 10 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --push-check
+python3 scripts/tafsir/quality.py --template 2 --from 7 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --push-check
 # commit and push here, although the chapter and independent review are still incomplete
-# a different reviewer then completes quality/reviews/002/006-010.json on the GitHub candidate:
+# a different reviewer then completes quality/reviews/002/007-010.json on the GitHub candidate:
 # all-source comparison + omissions, rubric, substantive-claim ledger, Qur'an ledger,
 # and transmitted-evidence ledger
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10
-python3 scripts/tafsir/quality.py 2 --from 6 --to 10
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10
+python3 scripts/tafsir/quality.py 2 --from 7 --to 10
 python3 scripts/tafsir/batch.py 2 --progress
 python3 scripts/tafsir/audit.py 2                       # whole chapter mechanical gate
 python3 scripts/tafsir/quality.py 2                     # whole chapter parity gate

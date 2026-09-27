@@ -10,8 +10,9 @@ source, register and independence laws remain, and Chapter 1 is now the frozen q
 than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
 published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
 all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
-cleared and restarted from the sources; its new introduction and 2:1–2:5 are independently accepted,
-while 2:6–2:286 remain scaffolds. Fifty verses are mapped from the eleven works in one pass, prose is
+cleared and restarted from the sources; its new introduction and 2:1–2:5 are independently accepted.
+Verse 2:6 is a pushed, mechanically clean review candidate whose owner review is pending, while
+2:7–2:286 remain scaffolds. Fifty verses are mapped from the eleven works in one pass, prose is
 mechanically checked per verse, automatic drift alarms run in five-verse windows, and independent
 review checkpoints contain at most fifty verses.
 
@@ -32,17 +33,17 @@ review checkpoints contain at most fifty verses.
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the author names (2 or 2:1)
 python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
-python3 scripts/tafsir/run.py --slice 2:6 2:10   # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 2:7 2:10   # read the map a stretch at a time
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
 #   ... write in order, splice, and run mechanical draft checks ...
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --draft
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --draft
 #   ... whenever generation stops, scaffold the written candidate (maximum fifty),
 #       pre-push check it, commit it, and push it before owner confirmation ...
-python3 scripts/tafsir/quality.py --template 2 --from 6 --to 10 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --push-check
+python3 scripts/tafsir/quality.py --template 2 --from 7 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --push-check
 # git add ... && git commit ... && git push origin YOUR_WORKING_BRANCH
 #   ... after the independent owner completes/approves the ledgers on the GitHub candidate ...
-python3 scripts/tafsir/batch.py 2 --from 6 --to 10  # mechanical + Chapter-1 parity acceptance
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10  # mechanical + Chapter-1 parity acceptance
 python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
 python3 scripts/tafsir/audit.py 2                # mechanical chapter gate
 python3 scripts/tafsir/quality.py 2              # semantic Chapter-1 parity gate

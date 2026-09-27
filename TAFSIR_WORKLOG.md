@@ -79,7 +79,11 @@ pinned 2:1–2:50 run. A fresh introduction and fresh 2:1–2:5 now pass the mec
 phrase coverage. Their commentary prose measures 3,489 words, Flesch 75.63, zero sentences over 40
 words, and 11.75 checkable evidence mentions per 1,000 words—above every frozen Chapter-1 alarm.
 The project owner independently approved `quality/reviews/002/001-005.json`, including the all-source,
-claim, citation and transmitted-evidence ledgers. Accepted frontier: 2:5. Next verse: 2:6.
+claim, citation and transmitted-evidence ledgers. Fresh 2:6 was then written from the same eleven-work
+map. It passes the mechanical gate at 805 words and 100% phrase coverage; its prose measures Flesch
+79.60, mean sentence 12.31, no long sentences, and 14.06 evidence mentions per 1,000 words. Its
+pending `quality/reviews/002/006-006.json` scaffold is push-clean and committed for owner inspection.
+Accepted frontier remains 2:5; next draft: 2:7.
 
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
@@ -94,12 +98,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 5/286 written and accepted | 4,149 | 739/768/966 | fresh checkpoint PASS; 281 verses still scaffold |
+| 2 | `tafsir/002.md` | 6/286 written; 5 accepted, 1 pending review | 4,954 | 739/805/966 | review candidate PASS; 280 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 12 accepted verses across Chapters 1–2, but only complete Chapter 1
-has an app payload. Chapter 2 is intentionally partial, so `audit.py 2` fails on its 281 `TODO`
-scaffolds and `data/tafsir_002.json` does not exist. The current pinned run continues at 2:6.
+hash. The working corpus contains 12 accepted verses plus one pending review candidate across
+Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
+`audit.py 2` fails on its 280 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned run continues at 2:7.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
