@@ -180,6 +180,29 @@ negative, and the sentence introducing the angels’ intercession quote needs a 
 bridge. These should be copy-edited before independent acceptance. The owner-approved snapshot has
 not been silently changed; any such revision must be reflected in its review and applicable approval.
 
+**Continued drafting: 2:57–2:76 (2026-09-27).** On the owner instruction “Continue generating.
+Generate 20 verses now,” twenty verses were researched from every mapped source in the pinned
+**2:51–2:100** run (full digest reads including the Arabic passages), assembled and individually
+draft-gated. Each verse quotes its scaffold phrase cut in order, carries at least one expanded
+cross-reference with a verbatim clause and at least one transmitted reading from a named early
+authority or collection, and keeps every paragraph over 120 words. Nine verses required repair
+loops against the gate (quote-wrapper forms, word-study and verse-term traps, one chain-identity
+correction at 2:62, one six-word phrasing collision across 2:69/2:71/2:72, one heading that quoted
+the verse at 2:71, and paragraph-floor extensions); every repair re-gated clean. The stretch totals
+**17,977 words** by the batch counter, 705 to 1,249 per verse, with 100% phrase coverage throughout.
+
+Created `quality/reviews/002/057-076.json` as a synchronized pending review scaffold with all
+decisions and scores pending. `batch.py 2 --from 57 --to 76 --push-check` reports **0 mechanical
+FAIL, 0 quality BLOCK, 31 WARN — PASS**. These are draft checks, not independent acceptance. The
+pinned run now holds **36/50 written** (2:51–2:76); **2:77** is next, with 24 verses left in this
+pin. The drafting frontier is **2:50** owner-approved plus this authorized continuation; the
+independent frontier remains **2:5**.
+
+Chapter 2 now has **76/286 written, 23 independently accepted and 53 pending**. All earlier prose,
+review records, source corpora, Chapter-1 text/payload and frozen baseline are unchanged. The
+checkpoint commit could not be pushed in-session because the GitHub token had expired; it is
+committed locally and awaits a working connection.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -193,13 +216,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 56/286 written; 23 accepted, 33 pending review | 53,557 | 739/929/1,270 | review candidate PASS; 230 verses still scaffold |
+| 2 | `tafsir/002.md` | 76/286 written; 23 accepted, 53 pending review | 71,534 | 705/925/1,270 | review candidate PASS; 210 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 30 accepted verses plus 33 pending review candidates across
+hash. The working corpus contains 30 accepted verses plus 53 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
-`audit.py 2` fails on its 230 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:51–2:100 run continues at 2:57 under the separate owner approval of the first draft run.
+`audit.py 2` fails on its 210 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned 2:51–2:100 run continues at 2:77 under the separate owner approval of the first draft run.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

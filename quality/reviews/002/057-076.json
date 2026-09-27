@@ -1,0 +1,2466 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 57,
+  "to": 76,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "57": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "75910ecc311fc441394b47463637f475695f3a0a8029d881f3b19e9f0488992f",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The construction deserves notice, since the cloud is not the thing shaded but the shade made theirs.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:57",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Food was made easy to gather; storage was forbidden; gratitude was to govern both the taking and the eating.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:57",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:160",
+          "quoted_clause": "twelve springs gushed out. Each tribe knew its drinking place. We shaded them with clouds and sent down to them manna and",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:81",
+          "quoted_clause": "˹saying,˺ “Eat from the good things We have provided for you, but do not transgress in them,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "11:101",
+          "quoted_clause": "We did not wrong them, rather they wronged themselves. The gods they invoked beside Allah were of no help at all",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:80",
+          "quoted_clause": "and made an appointment with you on the right side of Mount Ṭûr, and sent down to you manna and quails",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās states that God shaded the Children of Israel with clouds throughout those years (al-Nasāʾī), and the same reading is transmitted from Ibn ʿUmar, al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Anas, al-Ḍaḥḥāk and al-Suddī.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Ḥasan and Qatādah place the shielding in the desert itself, where the sun’s heat was the daily hardship.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Two features of it are transmitted from Qatādah.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās adds that the manna descended on the trees and they ate of it as they wished.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The desert truffle is tied to the same provision by the Prophet’s words, \"Kam'ah (truffles) is a type of manna, and its liquid is a remedy for the eyes\" (al-Bukhārī), reported by Saʿd b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "What gathered around them was a bird resembling the common quail, a reading transmitted from Ibn ʿAbbās and repeated by Mujāhid, al-Shaʿbī, al-Ḍaḥḥāk, al-Ḥasan and ʿIkrimah.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Qatādah records that the birds gathered around them in such numbers that each person took what served him for the day, since meat kept beyond it spoiled.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:57",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "58": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "026e02f67f366e8d623ce7d30445c9e3d31ee9faabe4b55d958555fd23b1b37e",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "What was refused at the border of the land is now permitted at its centre, because the wandering had run its appointed length and a generation raised in the desert had come of age to enter.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:58",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Bread without command would have suited a people already trained to gather only what the day required; the entry is ordered so that remembrance of the Giver enters along with the gift.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:58",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:161",
+          "quoted_clause": "And ˹remember˺ when it was said to them, “Enter this city ˹of Jerusalem˺ and eat from wherever you please. Say, ‘Absolve us,’",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:21",
+          "quoted_clause": "O my people! Enter the Holy Land which Allah has destined for you ˹to enter˺. And do not turn back",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:35",
+          "quoted_clause": "We cautioned, “O Adam! Live with your wife in Paradise and eat as freely as you please,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Qatādah, al-Suddī and al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:58",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Anas take it as the Holy House of Jerusalem, while Ibn ʿAbbās names Jericho; al-Ḍaḥḥāk and Muqātil name other towns of the same region.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:58",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās glosses it as \"forgive our sins\", and another early gloss takes it as an acknowledgement that there is no god but God.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:58",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet relates that God said to the Children of Israel, \"Enter the gate prostrating and say, 'Absolve us,' and We will forgive your sins\" (Muslim).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:58",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "59": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "aacf1d45991dfa8eb547405efa77b0d492995b4e9fd82dc4b68d0e534b120d0c",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The ruling this event carries concerns wording as such.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:59",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "A formula taught by revelation carries its ruling in its own letters, and the one who alters it places his own sense where only the revealed sense was ordered.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:59",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Their transgression here was not in the food but in the speech ordered beside it, and the same law answered both.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:59",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:162",
+          "quoted_clause": "But the wrongdoers among them changed the words they were commanded to say.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:81",
+          "quoted_clause": "˹saying,˺ “Eat from the good things We have provided for you, but do not transgress in them,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Abū Hurayrah reports that the Prophet described what followed the change: \"they changed it and entered the gate crawling on their backsides\" (Muslim).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:59",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "60": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "dd32b944de9ebbe6f6bb520f63613a9adc62ee896e5c84f1e848cacaa422ff2c",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic verb for bursting forth marks the water at its full force, where the parallel account describes the same springs at their first flow.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:60",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Seeking rain by humble prayer is established practice in the law, since the essential element in it is the prayer itself, offered by a servant who owns nothing of the cloud or the spring.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:60",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:56",
+          "quoted_clause": "Do not spread corruption in the land after it has been set in order. And call upon Him with hope",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:74",
+          "quoted_clause": "Even then your hearts became hardened like a rock or even harder, for some rocks gush rivers; others split, spilling water;",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās describes the stone as square, with three springs opening on each of its sides, and he reports that each tribe kept its own spring wherever the camp moved, finding the same provision in each new stopping place (al-Nasāʾī).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:60",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "61": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "3bd2dd3e5ba2d73d80820c8748641932069ad4782fc97a274117fb01070457d7",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The meal they call one was in fact two things, and the phrasing is a known Arabic usage in which the dual is spoken of as one; another account gives the reason as their habit of eating each with the other until the two behaved as a single dish.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:61",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The question of the rebuke is grammatical as well as moral, since the form of it in Arabic is built for reproach rather than for information.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:61",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The verb for going down covers entering a place and need not describe a change of elevation, and the town named in the order is indefinite in its grammar, so the reading that takes it as the proper name of Egypt is held back by the shape of the word itself.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:61",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:155",
+          "quoted_clause": "rejecting Allah’s signs, killing the prophets unjustly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:167",
+          "quoted_clause": "And ˹remember, O Prophet,˺ when your Lord declared that He would send against them others who would make them suffer terribly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Al-Ḥasan al-Baṣrī describes them as bored and impatient with the food they had been given, remembering the diet of their old life in Egypt and longing to return to it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:61",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The herbs named are plants that grow without a standing stalk, and the fifth item of the list has been read most often as garlic; Ibn ʿAbbās gives that gloss, and the transmitted reading of Ibn Masʿūd pronounces the same word in the form that means garlic outright.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:61",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Ḥasan al-Baṣrī adds that they remembered the food of their forebears and the pull of old habits moved them more than any need.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:61",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās reports two senses for the order: a return to where they had come from, or entry into whatever town would take them.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:61",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "62": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "22a9bbb368ccd14d9ef86d65b963672b2e67379ae8b6854551493d6313afb8d6",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The name of the second group carries its own history, since the form of it in Arabic is traced to the eldest son of Jacob and to the turning the name records.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:62",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The condition is spoken in the singular and answered in the plural, a grammar that lets one person and a whole people hear themselves addressed by the same sentence.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:62",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "5:69",
+          "quoted_clause": "Indeed, the believers, Jews, Sabians and Christians—whoever ˹truly˺ believes in Allah and the Last Day and does good,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:85",
+          "quoted_clause": "Whoever seeks a way other than Islam, it will never be accepted from them,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "10:62",
+          "quoted_clause": "There will certainly be no fear for the close servants of Allah, nor will they grieve",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "41:30",
+          "quoted_clause": "Surely those who say, “Our Lord is Allah,” and then remain steadfast, the angels descend upon them, ˹saying,˺ “Do not fear,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Descriptions of them run from a sect that shaves the middle of the head and reads the Gospel while worshipping the angels — Ibn ʿAbbās gives that picture — to people with no scripture or rite at all, and the sounder placement among the transmitted views keeps them inside the Christian fold rather than outside every religion.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:62",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ali ibn Abi Talhah transmits from Ibn ʿAbbās that this later verse was revealed after the one under discussion, and the conclusion carried by that sequence is that no deed is accepted from anyone after the final message except on its terms; before it, every people was answered on the terms their own message brought.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:62",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "63": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "b94d714ff5ba61a2f69b148719a2105e990b04c3d39fe88182eac99001eedadd",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic form behind the covenant here carries the sense of a firm assurance, a binding that holds by oath or by pact, and the noun is spoken of in the singular because the same pledge was taken from each person there.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:63",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "They had already believed in their prophet and already covenanted to act on the Book, and the raising of the mountain is the enforcement of a pledge against a party on the edge of breaking it, which is how every legal order treats the rebel under its own pact.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:63",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "A law secured by awe produces a people who govern themselves when no mountain is visible.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:63",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:83",
+          "quoted_clause": "And ˹remember˺ when We took a covenant from the children of Israel ˹stating˺, “Worship none but Allah; be kind to parents, relatives,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:171",
+          "quoted_clause": "And ˹remember˺ when We raised the mountain over them as if it were a cloud",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:256",
+          "quoted_clause": "Let there be no compulsion in religion, for the truth stands out clearly from falsehood. So whoever renounces false gods",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:93",
+          "quoted_clause": "they answered, “We hear and disobey.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās gives the scene its plain shape: the mountain was pulled out and raised above them for the taking of the covenant.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:63",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Ḥasan takes the object as the Torah itself; Mujāhid takes the command as strict adherence to it; Abū al-ʿĀliyah and al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:63",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "64": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "dbb38b8ee62da3f9daf4c4d5936732dadd3f4efae5a8a0730ef7ea14b759855e",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The word it spends on their conduct is the word for turning one’s back, and its plain root is physical; the language extended it to anyone who abandons an order he has been given, so that walking away from a duty is named with the same word as walking away from a person.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:64",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The terms of their covenant had been itemised elsewhere, from worship of God alone to kindness to parents, and the same covenant is sealed in the Book with its twelve leaders named: (5:12 — “Allah made a covenant with the Children of Israel and appointed twelve leaders from among them and ˹then˺ said,”).",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:64",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "9:76",
+          "quoted_clause": "But when He gave them out of His bounty, they withheld it and turned away indifferently",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:12",
+          "quoted_clause": "Allah made a covenant with the Children of Israel and appointed twelve leaders from among them and ˹then˺ said,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "33:72",
+          "quoted_clause": "Indeed, We offered the trust to the heavens and the earth and the mountains, but they ˹all˺ declined to bear it,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "In the other, given by Ibn ʿAbbās, the grace and mercy are the sending of the final Messenger and their living to see him, since faith in him is itself part of the covenant they had been given.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:64",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "65": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "ffe8d51e9933995e3ba63a80eb2078c1ecb4db782ba4e9b470482f349efb2b4a",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Fishing was forbidden to them on that day, and the sea answered the law with its own sign.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:65",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "They set nets and ropes and channels before the day began, let the fish collect themselves against the devices while the law stood, and gathered the catch after the day had passed.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:65",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "One reading takes the command as its words stand, so that the people were changed in form, and it rests on the reports just described: the kinship recognition, the weeping, the death within days, and the Prophet’s own ruling that such a people leave no progeny behind.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:65",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:163",
+          "quoted_clause": "Ask them ˹O Prophet˺ about ˹the people of˺ the town which was by the sea, who broke the Sabbath. During the Sabbath,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:165",
+          "quoted_clause": "When they ignored the warning they were given, We rescued those who used to warn against evil",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:60",
+          "quoted_clause": "It is those who earned Allah’s condemnation and displeasure—some being reduced to apes and",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "62:5",
+          "quoted_clause": "The example of those who were entrusted with ˹observing˺ the Torah but failed to do so,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:50",
+          "quoted_clause": "Say, ˹O Prophet,˺ “˹Yes, even if˺ you become stones, or iron",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The young among them were changed into apes, and one account from Ibn ʿAbbās divides the fate by age, the young becoming apes and the old becoming swine.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:65",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Qatādah describes the apes as howling creatures with tails who still recognised their families and approached them weeping, since the humanity they had debased was not yet out of memory, and the accounts agree that the transformed died within three days.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:65",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet was asked about the apes and swine that people see, and Ibn Masʿūd reports his answer: \"when Allah sends down this particular kind of punishment on a people, the race comes to an end with this, and there is no further breeding\" (Muslim).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:65",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The other reading, transmitted from Mujāhid, takes the change as one of the heart, comparing the case to the parable of the bearers of the Torah: (62:5 — “The example of those who were entrusted with ˹observing˺ the Torah but failed to do so,”).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:65",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "66": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "80f782640b3f4ed5cc96bc1defa2d66ac195567903b4d910d9d85be9e04a4de0",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Its root family belongs to the fetter and the restraint, and the verbal form means to do to one party what holds others back from the same act.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:66",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The purpose clause that governs the whole arrangement is therefore complete: the event is kept in view so that the fear of it works in advance, restraining a person before he reaches the device that would make a sacred law into a technicality.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:66",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:166",
+          "quoted_clause": "But when they stubbornly persisted in violation, We said to them, “Be disgraced apes!”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "11:120",
+          "quoted_clause": "And We relate to you ˹O Prophet˺ the stories of the messengers to reassure your heart.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "What the pronoun refers to has been settled two ways by the earliest glosses, and both routes run through Ibn ʿAbbās.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:66",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās gives the closing phrase a face rather than a category: the God-fearing named here are the Prophet and his Companions, the generation standing at the example’s far edge and reading it as instruction.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:66",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "67": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "09abafea9bda16f8106904e633148320f7dabfd757c145cfd0bdd57f29bfb8e6",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic noun in their question — are you making us a target of mockery — carries play and mockery alike in its earliest glosses, and that union explains their state of mind.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:67",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Moses answers the suspicion at its root.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:67",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Prophet's own gloss on the line settles the reading: Ibn ʿAbbās reports the sense as \"God forbid that I ever mock the believers\", a report that turns the grammatical subject of folly into a moral impossibility.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:67",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The reason the refusal matters is that a mystery invites ridicule of sacred law precisely when it is least understood, and for that situation the exchange leaves a standing instruction: the tongue that serves revelation refuses the joke before it answers the question.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:67",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:72",
+          "quoted_clause": "˹This is˺ when a man was killed and you disputed who the killer was, but Allah revealed what you concealed",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:68",
+          "quoted_clause": "They said, “Call upon your Lord to clarify for us what type ˹of cow˺ it should be!” He replied, “Allah says,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "11:46",
+          "quoted_clause": "do not ask Me about what you have no knowledge of! I warn you so you do not fall into ignorance.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The command that answered him was deliberately plain, and Ibn ʿAbbās reads its plainness as the point: any cow would have answered.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:67",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet's own gloss on the line settles the reading: Ibn ʿAbbās reports the sense as \"God forbid that I ever mock the believers\", a report that turns the grammatical subject of folly into a moral impossibility.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:67",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "68": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "3aabfa13cc4e680df252106d817e5b789e816f5a8cd73fe563155ee059618f06",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Behind the description stands the ruling principle of the whole episode, and the early commentators state it in one line: had they slaughtered any cow, that would have been enough; they imposed hardship on themselves, so hardship was imposed on them.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:68",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:69",
+          "quoted_clause": "They said, “Call upon your Lord to specify for us its colour.” He replied, “Allah says,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:71",
+          "quoted_clause": "wholesome and without blemish.’” They said, “Now you have come with the truth.” Yet they still slaughtered it hesitantly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Slaughter a cow — any cow, as Ibn ʿAbbās reads the command's bare form — and the answer stood ready.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Their own gloss in the same dialogue confirms the reading, since Ibn ʿAbbās takes the question as asking whether the animal should be large or small.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The closing command carries its own gloss from Ibn ʿAbbās as \"and ask no further questions\", and the effect of their bargaining is already visible in the direction of the text.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Abū al-ʿĀliyah, Mujāhid, Qatādah, al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Anas, and Ibn ʿAbbās stand with al-Suddi, Ikrimah, and al-Dahhak in the wider body of opinion that takes the span as the age when breeding has begun but not yet failed — neither old nor below the age of bearing.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "On the tightest gloss in the list, al-Dahhak reports from Ibn ʿAbbās that the middle age means \"the age when the cow is strongest and fittest\", and that report turns an ordinary market category into a search for the animal at the height of its value.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās and Abū al-ʿĀliyah report the substance in those terms, and al-Ḥasan al-Baṣrī relates the same balance in a prophetic report — the open command closes exactly as far as the objectors push it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:68",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "69": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "43ac6320851d3d85a5bcbe926e3c18c1f512a4ea64d4635349d616c1ade1f3c2",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "This is the same construction the language uses in its most emphatic colour phrases — whitest bright, blackest deep, reddest blazing — where the second word exists to press the first to its limit.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:69",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:70",
+          "quoted_clause": "for all cows look the same to us. Then, Allah willing, we will be guided ˹to the right one˺.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:71",
+          "quoted_clause": "He replied, “Allah says, ‘It should have been used neither to till the soil nor water the fields;",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās describes the actual animal as yellow in its hoofs and horns while its body was black, and al-Awfi transmits from him a second gloss in which the brightness is a deep yellowish white; the shared centre of the two reports is an intensity of colour that strikes the eye at a distance.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:69",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Suddī reads the closing phrase as the animal pleasing those who look at it, and the same reading stands with Abū al-ʿĀliyah, Qatādah, and al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:69",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "70": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "6c9d3877258e2cc27550d264646cdfe3f69acc84c7b55922fe01cb9368ddf782",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of their complaint keeps the whole species in view: the collective form stands for the entire kind, so that what has become confused is cattle as such and not one stray animal.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:70",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:71",
+          "quoted_clause": "He replied, “Allah says, ‘It should have been used neither to till the soil nor water the fields;",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:73",
+          "quoted_clause": "showing you His signs so that you may understand",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās takes it as guidance to the fitting description of the cow, and a second view in the same transmission takes the guidance as guidance to the exposure of the murderer himself, so that the right one named at the end of their sentence may be the victim's answer rather than the animal.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:70",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A transmitted reading in this line keeps the confusion open rather than closed: al-Ḥasan al-Baṣrī and al-Araj are reported with a form that turns the likeness into something still arriving, as though the herd would go on losing its faces until the command was obeyed.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:70",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Abū Hurayrah transmits the saying in this form: \"By God, had they not made the proviso, it would never have been clarified for them until the end of time\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:70",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "71": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "ed4bd05b062986f6fbbc860534697b7c3ce05933da2cf0ac95b3917a5c2c9d7c",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of the negation then drew the grammarians into a clean division, and the division is worth recording as evidence of how carefully the line was read.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:71",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:67",
+          "quoted_clause": "Moses responded, “I seek refuge in Allah from acting foolishly!”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:73",
+          "quoted_clause": "“Strike the dead body with a piece of the cow.” This is how ˹easily˺ Allah brings the dead to life,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās gives the pair in its plainest terms: the cow is unyoked and unfettered, not subjugated for the ploughing of the soil, nor for carrying water to irrigate it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:71",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās renders their words as now we know the cow's right description; the short sense circulating in the glosses is that the Prophet has now explained the matter clearly.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:71",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās takes the hesitation as their first impulse, the drawing back before the act; and as it is also said, the hesitation was the price, because the cow had become hugely expensive.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:71",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "72": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "cb2d6add81c95dac63f5869b5464b0abf68bb8f1b8d32e317e02964769030f64",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The verse addresses the crime to the plural you, and the idiom has its logic.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "What the plural you adds is the climate of the crime rather than its fingers, and the narrations about the aftermath confirm the climate directly.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The contested verb belongs to the family of deflection and pushing away, its opening sound absorbed into the letter that follows, and the picture inside that root family is the picture of the dispute: each side shoving the charge away from its own chest.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "In other words, the revelation that broke the concealment was a resurrection borrowed for a day, which means the trial of the murder was folded inside a demonstration of the returning life.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The command that will follow in the next clause is therefore the hinge between a criminal case and a creed, since the instrument of justice is also the proof of the afterlife.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The law does not oblige the servant to discover the rationale behind each divine act, and the One whose wisdom encompasses the act needs no one's permission to choose its form.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:72",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:111",
+          "quoted_clause": "And whoever commits a sin—it is only to their own loss. Allah is All-Knowing, All-Wise",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:73",
+          "quoted_clause": "Allah brings the dead to life",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Al-Bukhārī's explanation of the disputed form is the single word disputed, and Mujāhid gives the same; Ata al-Khurasani and al-Ḍaḥḥāk add the plain specification that the disagreement was about this matter.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:72",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn Jurayj transmits the shape of the shouting across the street: one party said, you killed him, and the other answered, no, you killed him.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:72",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid takes the closing phrase as simply what you were hiding, and the gloss from Ibn ʿAbbās presses it against the crime with full force: \"demonstrating what you hid with regard to his murder\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:72",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "73": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e87adf821dcd69ed51fed172470721a9d7cc2f14f6b0a138ff98eb623976d9f5",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The revived man's sentence — my blood is with so-and-so, so-and-so killed me — entered the legal tradition as an argument, and the argument divided the schools.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:73",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The rejection came from al-Shafi and the majority of the scholars, who held their own position correct and refused the probative analogy; (2:178 — “O believers! ˹The law of˺ retaliation is set for you in cases of murder—a free man for a free man,”) marks how tightly the standing law of murder is drawn, and a miracle-bound declaration sits outside its ordinary evidence.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:73",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "What follows for the legal mind is therefore a caution in both directions: the event may illuminate the moral gravity with which the dying man's words were treated, and it may not be pressed into a rule of proof the standing law never drew from it.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:73",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The closing clause does the work of a creed: “so that you may understand”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:73",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The understand here is glossed from one direction as believing in the resurrection after death, and from another as the reasoning that follows from a single example: the One capable of reviving one soul is capable of reviving every soul, and the reader is asked to pass from the witnessed case to the promised one.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:73",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:178",
+          "quoted_clause": "O believers! ˹The law of˺ retaliation is set for you in cases of murder—a free man for a free man,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:260",
+          "quoted_clause": "And ˹remember˺ when Abraham said, “My Lord! Show me how you give life to the dead.” Allah responded, “Do you not believe?”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmission of Mujāhid fixes the moment in one line of narrative: \"he struck him with the cow's thigh and he rose alive and said that so-and-so had killed him, then he returned to his death\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:73",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "74": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "db7072ca3ef8f6ff51e8de0331761911d1b0918dbc5c049d4ea25b95fd4b3a16",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The hardening itself is named with a verb whose root family carries dryness and the withered state, and the glosses gather its senses like wounds on one body.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:74",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "59:21",
+          "quoted_clause": "Had We sent down this Quran upon a mountain, you would have certainly seen it humbled",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:143",
+          "quoted_clause": "If it remains firm in its place, only then will you see Me.” When his Lord appeared to the mountain,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:44",
+          "quoted_clause": "that does not glorify His praises—but you ˹simply˺ cannot comprehend their glorification. He is indeed Most Forbearing, All-Forgiving",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās takes the hearts as the hearts of the slain man's heirs, and the narrative gives that reading its force: when their kinsman rose and named them, they answered with a denial made in full knowledge.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:74",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Awfi transmits from Ibn ʿAbbās the scene in these terms: \"when he was asked who had killed him, he said that his nephews had killed him; then he died again, and they denied the truth while they knew it\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:74",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The other reading, standing with Abū al-ʿĀliyah, Qatādah, and the body of interpreters, takes the address to the Children of Israel entire — the community whose character the whole section has been prosecuting.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:74",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet's own words about the greeting stone — \"I know a stone in Makkah that used to greet me before I was made a prophet, and I know it even now\" — are transmitted in Muslim; the mountain that answered affection — \"This is a mountain that loves us, and we love it\" — stands in the two Ṣaḥīḥ collections; and the palm-stump that wept beside the pulpit, answered with the Prophet's embrace and his words \"It weeps for the remembrance it used to hear\", is transmitted by Tirmidhī and Nasāʾī.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:74",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās takes it as the assurance that God will not leave the transgressions unpunished, and he also reports the sense that the what you do includes what is hidden, the denials spoken in the heart while the tongue answers the questioner.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:74",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "75": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "dd6a21bae07601bdf38be6e33e02964155a239da07ffc39c0936f76a1007ca33",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The transmitted view from Ibn ʿAbbās and Muqātil places the group at the mountain, as the seventy men chosen by Moses for the appointment of his Lord, and the distortion charged to them is precise: they returned to their people declaring that their Lord had promised forgiveness where the commandments could not be borne, a softening of the law pronounced in the very presence of its descent.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:75",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Book traces the same behaviour to its root in the covenant's own ledger — (5:13 — “But for breaking their covenant We condemned them and hardened their hearts.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:75",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "5:13",
+          "quoted_clause": "But for breaking their covenant We condemned them and hardened their hearts. They distorted the words of the Scripture",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:76",
+          "quoted_clause": "When they meet the believers they say, “We believe.” But in private they say ˹to each other˺,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The received views run from the Prophet and the believers together, to the believers alone, to the Ansar in particular, whose alliance and neighbourhood with the Jewish tribes had made them eager for their conversion; the transmitted view from Ibn ʿAbbās and Muqātil takes the line as directed to the Prophet alone, carrying the comfort of do not grieve at their belying you.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:75",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid, Qatādah, ʿIkrimah, and al-Suddī take the group as the scholars of the community in its later generations — the class who heard the revelation recited and then altered what it carried.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:75",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The transmitted view from Ibn ʿAbbās and Muqātil places the group at the mountain, as the seventy men chosen by Moses for the appointment of his Lord, and the distortion charged to them is precise: they returned to their people declaring that their Lord had promised forgiveness where the commandments could not be borne, a softening of the law pronounced in the very presence of its descent.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:75",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The report of Qatādah keeps the whole sequence in one line: \"they are the ones who used to hear the words of God and then alter them after they had understood and grasped them\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:75",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "76": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "9ae8fad642dd880bdbf92e4677b7100c1d9e0d80a1e9d0131c8bd20e0c64c97d",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "What the juxtaposition teaches is the shape of the disease itself, because the same mouth that sells a creed by the verse keeps the verse priced for the next bargain.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:76",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:14",
+          "quoted_clause": "“We are definitely with you; we were only mocking.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:119",
+          "quoted_clause": "˹O Prophet,˺ “˹May you˺ die of your rage!” Surely Allah knows best what is ˹hidden˺ in the heart",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The converts turned hypocrites used to tell the believing Arabs about the punishments their forefathers had suffered, and the community's reprimand fell on them in these terms: \"Do you tell them what God has opened against you, so that they say: we are nobler before God than you?\" — Ibn ʿAbbās and al-Suddi transmit the report, and the fear inside it is the fear of an argument lost.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:76",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}
