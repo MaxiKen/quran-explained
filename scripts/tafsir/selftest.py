@@ -6,7 +6,7 @@ mechanise them. This script proves the claim: it takes a written chapter, breaks
 one rule at a time on a scratch copy, runs the auditor over it, and checks that
 the code the rule promises is among the findings.
 
-    python3 scripts/tafsir/selftest.py          # chapters that are written
+    python3 scripts/tafsir/selftest.py          # complete written chapters
     python3 scripts/tafsir/selftest.py 1        # one chapter
 
 Every row is a rule from TAFSIR_PROMPT.md §4-§8 (and the v5 interweaving rule).
@@ -824,7 +824,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[1])
     ap.add_argument("chapters", nargs="*", type=int)
     args = ap.parse_args(argv)
-    chapters = args.chapters or [n for n in C.chapter_numbers() if (MD_DIR / ("%s.md" % C.pad3(n))).exists()]
+    # A partially drafted chapter still contains scaffold failures. Running every
+    # mutation against that baseline can hide the code a mutation is meant to
+    # exercise, so the no-argument suite uses only finished chapter files.
+    chapters = args.chapters or [
+        n for n in C.chapter_numbers()
+        if (MD_DIR / ("%s.md" % C.pad3(n))).exists()
+        and "TODO" not in (MD_DIR / ("%s.md" % C.pad3(n))).read_text(encoding="utf-8")
+    ]
     missed = 0
     skipped = 0
     false_alarms = 0

@@ -1,41 +1,49 @@
 # Tafsir handoff — how to pick this work up
 
-Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v7.4**) and
-`TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. This file is the
-working state: where the writing stands, how a run of fifty verses is produced and
-gated, and the gate findings that cost time to learn the first time.
+Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v8**) and
+`TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. Fifty verses are both the source-map
+unit and the maximum independent-review checkpoint: write in order and mechanically check each verse,
+while automatic drift alarms still run every fifty verses. Whenever generation stops, make the written
+range a clean review candidate, commit it, and push it to GitHub before owner confirmation—even when
+the chapter or review is incomplete. Independent acceptance still gates publication and the next
+fifty-verse run. Review covers the complete source map, material omissions, Qur'an citations, every
+named transmitted report, and language or consequential legal/theological claims—not only metrics.
+`QUALITY DRIFT` is a mandatory stop, notification, and checkpoint push.
 
 ## When the author says "continue" (start here)
 
-**The call may come on any branch.** Nothing in the rules, the tools or the working state is tied to
-one branch: the corpus, the eleven sources, the scripts, the scaffold and the chapter-1 payload are
-all in the repository, so read them from wherever you are checked out. Work on the branch the session
-gave you and push there. (This work was carried on `arena/01a0da50-quran-explained`, and PR #70 —
-that branch into `main` — is open; if you are on `main` and chapter 1 is missing, fetch that branch
-or ask for the merge rather than starting over.)
+**The call may come on any branch.** Nothing in the rules or tools assumes a branch name. Read the
+actual repository state, stay on the branch assigned to the session, and push there. Never restore
+or copy the purged Chapter 2 draft from history.
 
-**First act: ask where to start.** The author names the start of every run, and it is the one thing
-you do not choose. If the instruction is only "continue", reply by asking whether the run should
-begin at a chapter or at a chapter and verse, and **wait** — do not plan, map or write anything
-first. A chapter alone (`2`) means that chapter's first unwritten verse; a chapter and verse (`2:1`)
-means exactly that verse. When the answer comes, take it as the run's first verse:
+**Resume a pinned run; otherwise ask where to start.** The author names the start of every new run,
+and it is not chosen by the writing agent. If `run.py --plan` shows an existing pinned run, “continue”
+resumes its next unwritten verse. Only when no run is pinned should a bare “continue” trigger a
+question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1.
+Verses 2:1–2:5 are accepted; fresh 2:6 is pushed with owner review pending, so the next draft begins
+at 2:7 without exceeding the fifty-verse unaccepted limit:
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:1   # pins the fifty: 2:1–2:50 (a chapter alone works too)
-python3 scripts/tafsir/run.py --build              # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 2:1 2:5      # read the map a stretch at a time
+python3 scripts/tafsir/run.py --plan --start 2:1 # pins 2:1–2:50
+python3 scripts/tafsir/run.py --build            # all eleven works for the run, opened once
+python3 scripts/tafsir/run.py --slice 2:7 2:10   # read the next stretch of the map
 ```
 
-Then write the fifty from that start — stretches gated with `batch.py N --from A --to B` as they land,
-fixed as they fail — and do not stop until `python3 scripts/tafsir/run.py --check` prints **RUN
-COMPLETE** (50/50 written and clean). Naming a different start later re-cuts the run from there;
-naming the same one returns the pinned run in hand. A chapter that is already complete is a stop, not
-a guess: report it and wait for the next start.
+Then write in verse order. Gate each verse mechanically with `batch.py ... --draft`. At every
+actual generation stop, create or refresh `quality.py --template` for the written candidate (never
+more than fifty unaccepted verses), run `batch.py ... --push-check`, commit, and push. This happens
+before owner confirmation and does not wait for chapter completion. A different reviewer then
+compares every fingerprinted source passage with the prose, groups duplicate works into distinct
+material points, accounts for omissions, completes the rubric and claim ledger, judges every Qur'an
+citation, and locates every named report or early authority in an allowlisted source before
+`batch.py` may grant acceptance. Do not open a fifty-first unaccepted verse. `QUALITY DRIFT` stops
+generation, is reported immediately, and triggers a push of the clean checkpoint. `run.py --check`
+reaches RUN COMPLETE only when all fifty are mechanically clean and independently accepted.
 
 Before any of that, two housekeeping steps:
 
-1. **Read the rules first.** `TAFSIR_RULES.md` (**v7.4** — §0.11 the register, §0.12 the independence
-   law) is normative; `TAFSIR_PROMPT.md` is the generation prompt built on it; this file is the
+1. **Read the rules first.** `TAFSIR_RULES.md` (**v8** — §0.11 the register, §0.12 independence,
+   §0.13 Chapter-1 parity) is normative; `TAFSIR_PROMPT.md` is the generation prompt built on it; this file is the
    working state; `TAFSIR_WORKLOG.md` is the ledger.
 2. **Rebuild the scratch that is not in git.** `tmp/sources/` and `tmp/runs/` are ignored by design,
    so a fresh clone (and, in practice, a fresh session) has neither and the auditor reports
@@ -46,35 +54,44 @@ Before any of that, two housekeeping steps:
    in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier
    sessions are present and must not be overwritten.
 
-State to expect on arrival (2026-09-26): `audit.py 1` → `RESULT: PASS` (0 FAIL, 10 WARN, 3 INFO —
-seven `STY-ANALYSIS-FLOOR` advisories, one `STY-UNIQUE-VERSE`, two `MTCH-TERM` on 1:7; known and
-accepted, not a defect); `build_data.py 1 --check` → `1 up to date`; `audit.py 2` → FAIL on the
-scaffolds of chapter 2, expected until 2:286 is written.
+State to expect on arrival (2026-09-27): the source-enriched Chapter 1 is independently approved,
+frozen as the raised quality floor, and published. Its accepted source/claim/evidence reviews are in
+`quality/reviews/001/001-005.json` and `006-007.json`, with owner approval in
+`quality/chapter-001-baseline-approval.json`. The old Chapter 2 commentary was purged from current
+state without rewriting history. A fresh introduction and 2:1–2:5 were generated from all eleven
+works and independently accepted by the project owner in `quality/reviews/002/001-005.json`.
+Fresh 2:6 passes its draft and push gates and is tracked in the pending
+`quality/reviews/002/006-006.json`; it has been pushed for owner inspection but is not accepted.
+Verses 2:7–2:286 remain scaffolds. The pinned run remains 2:1–2:50.
 
-## Where things stand (2026-09-26)
+## Where things stand (2026-09-27)
 
 | | |
 |---|---|
-| Repo | `MaxiKen/quran-explained`, session branch `arena/01a0da50-quran-explained` |
-| Written | **chapter 1 complete and published** — `tafsir/001.md` (introduction + al-Fatihah 1:1–1:7, 7,646 words; `audit.py 1` → 0 FAIL, 10 WARN, 3 INFO: PASS), payload `data/tafsir_001.json` live in the app (7 verses, 42,803 bytes) |
-| Next | chapter 2 is a scaffold: `tafsir/002.md` is `TODO` from the introduction on. **The author names the run's start** — the ordinary case here is chapter 2 (`run.py --plan --start 2` → 2:1–2:50); ask when the instruction is only "continue" |
-| Standard | **v7.4**: the eleven works read for every verse; every cross-reference expanded with its translation; no verse presented like the last; every paragraph past 120 words; the register of §0.11 (third person, no contractions, no exclamation mark, no hype) and the independence law of §0.12 (the book quotes no book — it cites the reference itself) |
+| Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
+| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; fresh Chapter 2 introduction + 2:1–2:5 are accepted; 2:6 is push-clean and pending owner review; 2:7–2:286 are scaffolds. |
+| Next | Continue the pinned 2:1–2:50 run at **2:7**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
+| Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, fifty-verse automatic drift windows, and immediate stop/push notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
-The chapter files are scaffolded, with the byte-exact verse quotes in place and `TODO` bodies; the
-drafting bench (`tmp/work/c1_*.md`) holds the chapter-1 text the payload was built from. Measured
-state:
+Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
+`tmp/work/c2_intro.md` and the fresh `c2_v001.md`–`c2_v006.md`. The purged old prose formerly in
+`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current `c2_v006.md` is a new draft
+from the eleven-source map. Measured state:
 
 ```
-python3 scripts/tafsir/audit.py 1                  # chapter 1: PASS
-python3 scripts/tafsir/status.py 1                 # words per verse, gate verdict
-python3 scripts/tafsir/build_data.py 1 --check     # the payload still matches the markdown
-python3 scripts/tafsir/audit.py 2                  # chapter 2: fails on its TODO scaffolds (expected)
+python3 scripts/tafsir/audit.py 1                    # raised Chapter 1: mechanical PASS
+python3 scripts/tafsir/build_data.py 1 --check       # accepted payload matches
+python3 scripts/tafsir/quality.py --baseline         # validates raised frozen hash and floor
+python3 scripts/tafsir/batch.py 2 --from 1 --to 5    # accepted Chapter-1 parity checkpoint
+python3 scripts/tafsir/batch.py 2 --from 6 --to 6 --push-check # pending owner review
+python3 scripts/tafsir/quality.py --all --push-check # all current review candidates are push-clean
+python3 scripts/tafsir/qualitytest.py                # parity gate regression suite
+python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:7–2:286 (expected)
 ```
 
-Chapter 2 fails the chapter gate until it is written, and that is expected rather than a
-regression: gate stretches with `batch.py 2 --from A --to B` as they land, and run the chapter
-audit when the last verse is in.
+The full Chapter 2 gate fails only because the chapter is intentionally incomplete. No
+`data/tafsir_002.json` is published from this partial state.
 
 ## The law this book is written to
 
@@ -102,11 +119,20 @@ The author's instructions, verbatim, in force:
   total generation process to be fast. An approach you can take is to at the start
   map out 50 verses (it might be across 2 chapters o more) from all sources (this is
   to avoid opening 11 sources Everytime to get content). After, you can start
-  processing and writing but that 50 result must be completed before you pause or stop."
+  processing and writing but that 50 result must be completed before you pause or stop." Later
+  instructions qualify this: fifty is also the maximum unaccepted review candidate, automatic
+  degeneration alarms still run every fifty verses, and any actual generation stop triggers an
+  immediate clean checkpoint commit and push before confirmation.
 * The book is **the author's own unique and modern commentary, backed by evidence**.
   The eleven works are research: learn from them, then write the book's own reading —
   never relay, compare, summarise or quote them, and never cite a work outside the
   eleven.
+* "Add every other rule you feel is necessary for generation of the best of contents backed by
+  evidences from sources and that is later generations doesn't lose content quality. Make them go
+  round." This is enforced by source fingerprints, full-map synthesis review, material-omission
+  decisions, Qur'an and transmitted-evidence relevance ledgers, explicit language/legal/theological
+  claim verification, and the same
+  complete review before Chapter 1 itself may be raised.
 * Their authenticated contents are taken as they stand: **no fact-checking** is
   required or wanted.
 * **Each paragraph must be greater than 120 words** (`WRD-PARA-FLOOR`). A heading may
@@ -141,30 +167,36 @@ false alarms: 0` after any change to the gate.
    al-Suddī, ʿIkrimah), the language point that changes the meaning, the ruling, and
    the cross-references that let the Qur'an explain itself. Arabic works are first-class:
    read them and put the substance into the book's own English.
-4. **Write the section into a part file**, `tmp/work/cN_vVVV.md` (three digits keep them
-   sorted), holding the body only — UPPERCASE headings and prose. Splice with
-   `python3 scripts/tafsir/assemble.py N`; gate with `python3 scripts/tafsir/batch.py N
-   --from A --to B`. Never edit `tafsir/NNN.md` by hand: it is generated from the
-   scaffold plus the part files, and the next splice overwrites hand edits.
+4. **Write one section into a part file**, `tmp/work/cN_vVVV.md`, splice with `assemble.py`,
+   and run `batch.py N --from V --to V --draft`. Never edit the assembled chapter by hand. Do not
+   open a fifty-first unaccepted verse; automatic fifty-verse metrics remain early alarms.
 5. **Expand every cross-reference with the tool, never by hand**:
    `python3 scripts/tafsir/reference.py 2:255` prints ready-made citations;
    `--scan N` lists every bare citation in a chapter with its replacement (`--write`
    applies them). A typed clause is where `REF-QUOTE` failures come from.
-6. **Work the findings** in the part file, re-splice, re-gate. When the stretch is clean,
-   go straight on to the next stretch. Commit per stretch with
-   `Tafsir ch N (<Name>): verses A-B`.
-7. **The run is finished before pausing.** `python3 scripts/tafsir/run.py --check` must
-   print RUN COMPLETE (all fifty written, no FAIL anywhere in them) before the writer
-   stops for anything but a real blockage.
-8. **When a chapter is finished**: `python3 scripts/tafsir/audit.py N` (whole file PASS),
-   `python3 scripts/tafsir/status.py N`, `python3 scripts/tafsir/build_data.py N`,
-   bump `sw.js` `CACHE_VERSION`, add the worklog row (`status.py --md`), commit and push.
+6. **At every generation stop, push before confirmation.** Create or refresh the quality review
+   template for the written range (maximum fifty), run `batch.py ... --push-check`, then commit and
+   push the incomplete/pending candidate. The project owner reviews that GitHub state. A different
+   reviewer compares all fingerprinted source passages with the draft, records omissions, scores
+   every rubric dimension, verifies every Qur'an citation, and gives every named transmitted
+   statement a matching fingerprinted allowlisted passage reference, excerpt and relevance decision.
+   After approval is recorded, run `batch.py` without either draft flag for `QUALITY PARITY PASS`.
+7. **Quality drift is the stop and push point.** Report the trigger, blocked range and last accepted
+   verse immediately, preserve the clean state, and push it. `run.py --check` completes only when all
+   fifty have passed both gates; pending review never authorizes the next run or publication.
+8. **When a chapter is finished**: `audit.py N` and `quality.py N` must both pass, then run
+   `status.py N`, `build_data.py N`, bump `sw.js` `CACHE_VERSION`, add the worklog row
+   (`status.py --md`), and push the publication commit. Chapter completion is not a prerequisite for
+   earlier review-candidate pushes.
 
 Useful while writing:
 
 ```
 python3 scripts/tafsir/run.py --status          # the fifty: words vs floors, failing verses
 python3 scripts/tafsir/batch.py 2 --progress    # how far one chapter has come
+python3 scripts/tafsir/quality.py --baseline    # verify frozen Chapter-1 floor
+python3 scripts/tafsir/quality.py 2 --from A --to B
+python3 scripts/tafsir/qualitytest.py
 python3 scripts/tafsir/reference.py --find "the Most Compassionate" --chapter 2
 python3 scripts/tafsir/match.py 1:4 "the day of reckoning"   # is this the verse's wording?
 python3 scripts/tafsir/verify.py "<claim>" --chapter 2       # do the sources carry this?
@@ -202,8 +234,8 @@ Each of these is a real failure the gate raised; the cure is the one that worked
 * **`EVD-ATTRIBUTION`** — the collection must stand **inside the sentence that carries
   the report** ("The Prophet ﷺ said, *\"…\"* as al-Bukhārī carries it"), not in the next
   sentence.
-* **`STY-ANALYSIS-FLOOR`** — at least 4 sentences per verse must reason about the verse
-  (cure words: because, since, which means, which is why, that is why); 8 is the
+* **`STY-ANALYSIS-FLOOR`** — at least 5 sentences per verse must reason about the verse
+  (cure words: because, since, which means, which is why, that is why); 9 is the
   comfortable target. Adding a sentence can trip `MTCH-WORD`, so re-gate after every
   addition.
 * **`STY-ANALOGY`** — one relatable comparison per verse, woven in, and the gate has to
@@ -253,12 +285,12 @@ The session opens with HEAD at an old commit and `tmp/` gone while the *files* s
 latest work. The branch is the source of truth.
 
 ```
-git fetch origin refs/heads/arena/01a0da50-quran-explained:refs/remotes/origin/arena/01a0da50-quran-explained
-git log --oneline -3 origin/arena/01a0da50-quran-explained
+git fetch origin refs/heads/arena/01a0dd66-quran-explained:refs/remotes/origin/arena/01a0dd66-quran-explained
+git log --oneline -3 origin/arena/01a0dd66-quran-explained
 for f in tafsir/002.md TAFSIR_RULES.md scripts/tafsir/audit.py sw.js; do \
-  a=$(git show origin/arena/01a0da50-quran-explained:$f | sha1sum); b=$(sha1sum $f); \
+  a=$(git show origin/arena/01a0dd66-quran-explained:$f | sha1sum); b=$(sha1sum $f); \
   [ "$a" = "$b" ] && echo "same $f" || echo "DIFF $f"; done
-git reset --hard origin/arena/01a0da50-quran-explained
+git reset --hard origin/arena/01a0dd66-quran-explained
 python3 scripts/tafsir/run.py --build            # rebuilds the digests and the run map
 ```
 
@@ -269,7 +301,7 @@ digests (`tmp/sources/…`) and the run maps (`tmp/runs/…`) do not, and `run.p
 rebuilds both in one pass.
 
 Push policy: push to the session branch you were given and to no other — this work was carried on
-`arena/01a0da50-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
+`arena/01a0dd66-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
 A single writer holds a branch, so `--force` is acceptable if a lease goes stale, but never push to
 `main` from a session branch: `main` is brought up to date by merging the branch's pull request.
 

@@ -5,13 +5,16 @@ Quran explained verse by verse.
 The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
 time, out of the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the
 ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed
-format and gated by an auditor before it is published to the app. The standard in force is
-**v7.4**: the eleven works researched for every verse and named nowhere in the text, each verse
-presented on its own terms, every cross-reference expanded with its clause, the register of
-§0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapter 1 is written and
-published (`tafsir/001.md`, `data/tafsir_001.json`); chapter 2 is the frontier. Work moves in **runs of fifty
-verses** (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and finished before the
-writer pauses.
+format and two gates before it is published to the app. The standard in force is **v8**: the v7.4
+source, register and independence laws remain, and Chapter 1 is now the frozen quality floor rather
+than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
+published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
+all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
+cleared and restarted from the sources; its new introduction and 2:1–2:5 are independently accepted.
+Verse 2:6 is a pushed, mechanically clean review candidate whose owner review is pending, while
+2:7–2:286 remain scaffolds. Fifty verses are mapped from the eleven works in one pass, prose is
+mechanically checked per verse, automatic drift alarms run in fifty-verse windows, and independent
+review checkpoints contain at most fifty verses.
 
 ## Start here
 
@@ -30,12 +33,21 @@ writer pauses.
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the author names (2 or 2:1)
 python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
-python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 2:7 2:10   # read the map a stretch at a time
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
-#   ... write the prose from the map, splice with scripts/tafsir/assemble.py ...
-python3 scripts/tafsir/run.py --check            # RUN COMPLETE when all fifty are written and clean
-python3 scripts/tafsir/audit.py 2                # the gate: must print RESULT: PASS
-python3 scripts/tafsir/build_data.py 2           # publish → data/tafsir_002.json
+#   ... write in order, splice, and run mechanical draft checks ...
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --draft
+#   ... whenever generation stops, scaffold the written candidate (maximum fifty),
+#       pre-push check it, commit it, and push it before owner confirmation ...
+python3 scripts/tafsir/quality.py --template 2 --from 7 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10 --push-check
+# git add ... && git commit ... && git push origin YOUR_WORKING_BRANCH
+#   ... after the independent owner completes/approves the ledgers on the GitHub candidate ...
+python3 scripts/tafsir/batch.py 2 --from 7 --to 10  # mechanical + Chapter-1 parity acceptance
+python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
+python3 scripts/tafsir/audit.py 2                # mechanical chapter gate
+python3 scripts/tafsir/quality.py 2              # semantic Chapter-1 parity gate
+python3 scripts/tafsir/build_data.py 2           # refuses unreviewed prose
 python3 scripts/tafsir/status.py 2               # words per verse, gate verdict
 ```
 
@@ -52,18 +64,27 @@ Excerpts worth knowing:
 * the commentary explains the verse as it is quoted: everything it holds up to explain is the
   verse's own wording or a synonym of it — one word or a whole phrase — and a synonym is adjusted to
   the verse's words while anything else fails;
-* every verse carries at least 500 words, rising to eight times the verse's own length for long
+* every verse carries at least 700 words, rising to nine times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
-* prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a
-  relatable analogy where one fits;
+* prose is plain English and is compared with the frozen Chapter-1 sentence, readability and
+  evidence baseline; analogy and application are optional and must add verse-specific clarity;
+* every acceptance review fingerprints all available passages from the eleven works, compares the
+  full source map with the prose, groups duplicate witnesses into distinct material points, and marks
+  each point included or omitted with a reason; changed source
+  material invalidates stale approval rather than passing under an old review;
+* every named hadith, collection, Companion and Successor statement is located in an allowlisted
+  source and relevance-reviewed, just as every Qur'an cross-reference is relevance-reviewed;
+* language claims and consequential legal/theological claims receive their own source-backed ledger;
+  the reviewer checks the full prose and adds material claims that the conservative detector misses;
 * every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
   `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
   prints the expansion;
-* work moves in **runs of fifty verses**, mapped out of all eleven works in one pass
-  (`scripts/tafsir/run.py --build`), gated with `scripts/tafsir/batch.py N` as the stretches land,
-  and finished — all fifty written and clean (`run.py --check`) — before the writer pauses;
-* a chapter is finished when the whole-file auditor is clean, every verse clears its word floor,
+* fifty verses are mapped for research speed and form the maximum unaccepted review checkpoint;
+  prose is written in order and mechanically checked per verse, while quantitative drift is still
+  tested every fifty verses; every generation stop is committed and pushed as a clean review
+  candidate, even when incomplete or pending, and acceptance remains mandatory for publication;
+* a chapter is finished when the mechanical auditor and Chapter-1 parity gate pass, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 
 ## App structure

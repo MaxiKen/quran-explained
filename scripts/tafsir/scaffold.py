@@ -73,10 +73,11 @@ def todo_for(chapter: int, verse: int) -> str:
         "the UPPERCASE headings, this "
         "verse's own phrases (bold italics) and the clauses of other verses (bold only) \u2014 "
         "nothing else in the file is bold, and no sentence explains a word, English or Arabic, "
-        "that the verse line above does not carry. Aim for content that carries history, "
-        "occasions, reports, cross-references, life application and one relatable analogy by "
-        "itself, bring it home to the reader once (today, these days), and never label those "
-        "elements (no \u201cLesson:\u201d, no \u201cModern application:\u201d) "
+        "that the verse line above does not carry. Carry the history, occasions, reports and "
+        "cross-references this verse actually needs. Analogy and present application are optional: "
+        "include either only when it adds verse-specific clarity, with no detector phrase or fixed "
+        "paragraph position, and never label those elements (no \u201cLesson:\u201d, no \u201cModern "
+        "application:\u201d) "
         "\u2014 write them into the flow. Write it as a tafsir and not as talk (v7.3, rules "
         "\u00a70.10): the wording explained, what has been transmitted (the occasion of "
         "revelation, the reports, the early authority the reading comes from), the language "
@@ -89,8 +90,10 @@ def todo_for(chapter: int, verse: int) -> str:
         "(v7.4): third person, no contractions, no exclamation, no hype words, no stacked "
         "questions. And keep \u00a70.12: this is an independent book \u2014 quote only the "
         "verse, a cross-referenced clause, or a report with its collection; name no work "
-        "and quote no book (IND-WORK, IND-QUOTE). See TAFSIR_PROMPT.md, "
-        "then run scripts/tafsir/audit.py %d."
+        "and quote no book (IND-WORK, IND-QUOTE). Chapter 1 is the quality floor (v8): the verse "
+        "is not accepted until a different reviewer completes its all-source synthesis, rubric, "
+        "substantive-claim, Qur'an and transmitted-evidence ledgers. See TAFSIR_PROMPT.md, then run the "
+        "draft gate for chapter %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )
 

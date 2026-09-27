@@ -233,6 +233,16 @@ def run_law_rows() -> int:
             verses and verses[0] == (2, 30),
             "the pinned 2:30 run", "%s..%s" % ("%d:%d" % verses[0], "%d:%d" % verses[-1]))
 
+        # Written is not yet clean. The fiftieth draft must not move --check to the
+        # frontier before the gate has judged the author's pinned run.
+        R.written_verses = lambda: set(verses)
+        still_pinned, _ = R.plan(50)
+        row("writing verse fifty does not release the pin",
+            still_pinned and still_pinned[0] == (2, 30),
+            "the pinned 2:30 run", "%s..%s" % ("%d:%d" % still_pinned[0],
+                                                "%d:%d" % still_pinned[-1]))
+        R.written_verses = lambda: set()
+
         C = R.C
         open_chapter = next((n for n in range(3, 115)
                              if not C.output_path(n).exists()), None)

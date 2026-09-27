@@ -1,0 +1,79 @@
+name: Tafsir quality parity
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "tafsir/**"
+      - "quality/**"
+      - "TAFSIR_*.md"
+      - "scripts/tafsir/**"
+      - ".github/workflows/tafsir-quality.yml"
+  push:
+    paths:
+      - "tafsir/**"
+      - "quality/**"
+      - "TAFSIR_*.md"
+      - "scripts/tafsir/**"
+      - ".github/workflows/tafsir-quality.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    name: Chapter 1 floor and review-candidate integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile quality tooling
+        run: >-
+          python3 -m py_compile
+          scripts/tafsir/quality.py
+          scripts/tafsir/qualitytest.py
+          scripts/tafsir/batch.py
+          scripts/tafsir/run.py
+          scripts/tafsir/build_data.py
+
+      - name: Verify frozen Chapter 1 baseline
+        run: python3 scripts/tafsir/quality.py --baseline
+
+      - name: Run quality regression tests
+        run: python3 scripts/tafsir/qualitytest.py
+
+      - name: Check every review candidate
+        id: parity
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/tafsir/quality.py --all --push-check 2>&1 | tee quality-drift-report.txt
+          status=${PIPESTATUS[0]}
+          {
+            echo "## Tafsir review-candidate check"
+            if [ "$status" -eq 0 ]; then
+              echo "✅ Written commentary is mechanically and quantitatively clean, and every review scaffold is synchronized."
+              echo "Independent acceptance may still be pending; this check never authorizes publication."
+            else
+              echo "❌ The draft or review scaffold is stale or below the frozen Chapter 1 floor. This checkpoint push must be repaired."
+            fi
+            echo
+            echo '```text'
+            sed -n '1,200p' quality-drift-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit "$status"
+
+      - name: Upload quality drift report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tafsir-quality-drift-report
+          path: quality-drift-report.txt
+          if-no-files-found: ignore

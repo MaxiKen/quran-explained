@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 6,
+  "to": 6,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "6": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "718a0ff21b3485b65c13b0df0b1ad833388fbc06a9eb5fdae050346317e2e1e0",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic term for this denial comes from a root for covering or hiding.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:6",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Arabs used the same root for night because its dark veil covers things.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:6",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Yet the Messenger cannot make faith take root in one he loves, (28:56 — “You surely cannot guide whoever you like ˹O Prophet˺, but it is Allah Who guides whoever He wills, and He knows best”).",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:6",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "10:96",
+          "quoted_clause": "Indeed, those against whom Allah’s decree ˹of torment˺ is justified will not believe—",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "88:21",
+          "quoted_clause": "So, ˹continue to˺ remind ˹all, O Prophet˺, for your duty is only to remind",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "88:22",
+          "quoted_clause": "You are not ˹there˺ to compel them ˹to believe˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:99",
+          "quoted_clause": "The Messenger’s duty is only to deliver ˹the message˺. And Allah ˹fully˺ knows what you reveal and what you conceal",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "36:10",
+          "quoted_clause": "It is the same whether you warn them or not—they will never believe",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "18:29",
+          "quoted_clause": "And say, ˹O Prophet,˺ “˹This is˺ the truth from your Lord. Whoever wills let them believe,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "28:56",
+          "quoted_clause": "You surely cannot guide whoever you like ˹O Prophet˺, but it is Allah Who guides whoever He wills, and He knows best",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās linked the verse to people who rejected what came from the Lord while claiming faith in earlier books.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:6",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās reported that the Messenger longed for all people to believe and follow the right road.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:6",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}

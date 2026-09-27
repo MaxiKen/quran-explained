@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "chapter": 1,
+  "file": "tafsir/001.md",
+  "sha256": "3567804b442f88fd8a56c6fa4e0ec46dbadae91f8c5533539c8f1ae00aa2e4a8",
+  "metrics": {
+    "verses": 7,
+    "words": 7575,
+    "sentences": 361,
+    "mean_sentence": 20.98337950138504,
+    "long_sentence_share": 0.036011080332409975,
+    "flesch": 63.17679059817341,
+    "quran_references": 51,
+    "authority_mentions": 45,
+    "quran_references_per_1000": 6.732673267326732,
+    "authority_mentions_per_1000": 5.9405940594059405,
+    "evidence_mentions_per_1000": 12.673267326732672
+  },
+  "checkpoint_size": 50,
+  "rubric": [
+    "textual_attention",
+    "source_synthesis",
+    "citation_support",
+    "reasoning",
+    "theological_precision",
+    "coherence",
+    "prose",
+    "editorial_finish"
+  ],
+  "minimum_score": 4,
+  "thresholds": {
+    "mean_sentence_max": 22.98337950138504,
+    "long_sentence_share_max": 0.1,
+    "flesch_min": 62.418624717396256,
+    "evidence_density_min": 8.237623762376238,
+    "authority_concentration_max": 0.7,
+    "shape_concentration_max": 0.6,
+    "final_application_share_max": 0.8
+  }
+}

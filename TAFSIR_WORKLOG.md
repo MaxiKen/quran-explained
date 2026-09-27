@@ -12,18 +12,20 @@ line of it:
 | Rule | Value |
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
-| Words per verse | floor `max(500, 8 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Runs | **fifty verses per run** (v7.2), mapped from all eleven in one pass at the start (`run.py --plan/--build`), read in slices, and finished — every one of the fifty written and clean — before the writer pauses or stops (`run.py --check`) |
+| Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
+| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, and at most fifty unaccepted verses per independent all-source/Chapter-1 parity review; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
-| Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
+| Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) — **every** cross-reference expanded with the clause it points to, bare citations warn at 1–2 and fail from 3 in a section (`REF-BARE`, v7.2; `reference.py` prints them) |
 | Bold | **reserved**: only the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) may be bold — anything else fails `MTCH-BOLD`; reports and athar are italic `*"…"*` (`EVD-QUOTE-STYLE`) |
 | Matching the verse | the prose explains what the verse's translation carries: a word or phrase that *means the same thing* — English or Arabic — is adjusted to the verse's own wording (`MTCH-SYNONYM`, informational), anything else fails (`MTCH-WORD`); Arabic offered as the verse's own wording fails (`MTCH-TERM`); a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
-| Evidence | every verse carries checkable anchors (a Qur'an cross-reference **with the clause it points to**, a hadith with its collection, a named early authority, a language point); every prophetic report names its collection; each verse reaches the reader's own world (`STY-APPLICATION`) |
-| Analogy | at least half the chapter's verses carry a simple, relatable comparison |
+| Evidence | every verse carries checkable anchors; the reviewer checks every Qur'an cross-reference, named report/early authority, language claim and consequential legal/theological claim for source location and relevance |
+| Source retention | every review fingerprints all available passages from the eleven, compares the complete source map with the prose, groups duplicate witnesses into distinct material points, records included anchors or omitted reasons, and adds material claims a conservative detector missed; corpus or prose changes invalidate stale review |
+| Analogy/application | optional; retained only where it adds verse-specific clarity, with no fixed marker or paragraph position |
+| Quality (v8) | Chapter 1 is frozen as the floor; a raised baseline undergoes the same complete independent review; writer and reviewer differ and all eight dimensions score ≥4/5; `quality.py` blocks drift and `build_data.py` refuses unreviewed prose |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
 | Elements | history, reports with collections, cross-references, rulings, lesson, plain explanation, analogy and present-day application are carried by the prose and **never labelled** (`STY-LABELS`: no `Lesson:`, `Modern application:`, `History:`, …) |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% above 40 words |
@@ -42,26 +44,67 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Run 1 is delivered; run 2 is open.** Run 1 of the v7.2 standard — **1:1–1:7 (all of al-Fātiḥah)
-followed by 2:1–2:43** — is finished: every one of the fifty verses is written and gate-clean
-(`run.py --check` reported RUN COMPLETE and the next fifty were pinned). The writing has carried on
-past the run boundary without pausing: **2:44–2:59** are written, spliced and clean, and the open
-run's remaining verses are being filled from 2:60. All eleven works are digested for chapters 1 and 2
-(`python3 scripts/tafsir/run.py --build`); the chapter files hold byte-exact verse quotes.
+**Standard v8 workflow updated (2026-09-27).** Chapter 1 is the frozen quality floor. Passing
+`audit.py` does not establish acceptance. `quality.py` keeps fifty-verse metric alarms, independent
+eight-dimension scoring, and semantic review of every citation, while fifty is now both the source
+map and maximum unaccepted review checkpoint. Every generation stop must be push-checked, committed,
+and pushed before owner confirmation—even with an incomplete chapter or pending review. A pending
+GitHub candidate is never publication approval; the full parity gate still controls the accepted
+frontier and payloads.
+
+**Raised Chapter-1 floor accepted and published (2026-09-27).** All eleven source passages were
+rebuilt and read for all seven verses. The revision expands the baseline's source evidence, replaces
+formulaic closing analogies with transmitted or Qur'anic evidence, and passes the mechanical gate
+with zero failures. Measured prose rises from 6,133 to 7,575 words; Qur'an references rise from 30
+to 51; authority/collection mentions rise from 30 to 45; combined evidence density rises from 9.8
+to 12.7 mentions per 1,000 words. Mean sentence length improves from 22.9 to 21.0 words and the
+share over 40 words falls from 5.2% to 3.6%. The project owner independently approved both schema-v2
+reviews (`quality/reviews/001/001-005.json` and `006-007.json`). Baseline hash
+`3567804b442f88fd8a56c6fa4e0ec46dbadae91f8c5533539c8f1ae00aa2e4a8` and the app payload are current.
+
+**Source-retention review added (2026-09-27).** Acceptance now fingerprints every available source
+passage per verse and invalidates review when the corpus changes. The reviewer must compare all
+available works with the prose, group duplicate works under distinct material points, explain each
+included anchor or omission, relevance-review every Qur'an citation, locate every named report or
+early authority, and verify each detected language or consequential legal/theological claim against
+a fingerprinted allowlisted passage. The accepted Chapter-1 ledgers contain 51 Qur'an citations,
+26 transmitted statements and 31 substantive claims. A raised Chapter 1 must pass the same complete
+review (now at most fifty verses per checkpoint) before its baseline hash can move. These are
+semantic controls, not quotas requiring source names in the published prose.
+
+**Chapter 2 purged and restarted under the raised floor (2026-09-27).** The old introduction and
+2:1–2:100 draft were removed from current state without rewriting history; the old drafting-bench
+files for 2:6–2:100 remain deleted and must not be restored. All eleven works were remapped for the
+pinned 2:1–2:50 run. A fresh introduction and fresh 2:1–2:5 now pass the mechanical gate with 100%
+phrase coverage. Their commentary prose measures 3,489 words, Flesch 75.63, zero sentences over 40
+words, and 11.75 checkable evidence mentions per 1,000 words—above every frozen Chapter-1 alarm.
+The project owner independently approved `quality/reviews/002/001-005.json`, including the all-source,
+claim, citation and transmitted-evidence ledgers. Fresh 2:6 was then written from the same eleven-work
+map. It passes the mechanical gate at 805 words and 100% phrase coverage; its prose measures Flesch
+79.60, mean sentence 12.31, no long sentences, and 14.06 evidence mentions per 1,000 words. Its
+pending `quality/reviews/002/006-006.json` scaffold is push-clean and committed for owner inspection.
+Accepted frontier remains 2:5; next draft: 2:7.
+
+**Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
+to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
+verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
+
+The author then named **2:51** exactly, pinning **2:51–2:100**. The second fifty added 43,365 words,
+with 730/859/1,062 as the minimum, median and maximum. Its own gate reported 0 FAIL and 51
+advisories under v7.4. The growing 2:1–2:100 mechanical gate also passed under that older standard.
+Those files were later purged because the range lacked v8 review and exhibited measured quality
+regressions; they remain history, not reusable draft material.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 6,380 | 836/880/1038 | PASS |
-| 2 | `tafsir/002.md` | 59/286 | 43,787 | 625/715/1172 | in progress (227 verses still scaffold) |
+| 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
+| 2 | `tafsir/002.md` | 6/286 written; 5 accepted, 1 pending review | 4,954 | 739/805/966 | review candidate PASS; 280 verses still scaffold |
 
-Totals: **1 of 114 chapters written, 66 of 6,236 verses.** Gate clean: 1:1–1:7 and 2:1–2:59.
-
-**Chapter 2 in progress (2026-09-25).** The chapter's introduction (772 words, six paragraphs) and
-verses 2:1–2:59 are written and spliced; each stretch was gated with `batch.py 2 --from A --to B` and
-also against the whole chapter from 1, so cross-verse repeats were caught as they appeared. What the
-gates taught is in `TAFSIR_HANDOFF.md` (“Gate lessons that cost time”). The remaining verses of the
-chapter — 2:60 to 2:286 — are still `TODO` scaffolds in `tafsir/002.md`, which is why `audit.py 2`
-fails by design until the chapter is finished.
+Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
+hash. The working corpus contains 12 accepted verses plus one pending review candidate across
+Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
+`audit.py 2` fails on its 280 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned run continues at 2:7.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
@@ -166,5 +209,14 @@ from a start **the author names** and verified as fifty before a call is finishe
   wait for the answer** — no verse is planned, mapped or written before it comes. The law is written
   into `TAFSIR_RULES.md` §0.9, `TAFSIR_PROMPT.md` (instructions 1 and 4), `TAFSIR_PIPELINE.md` §5,
   `README.md` and `TAFSIR_HANDOFF.md` ("When the author says continue"), and proved mechanically by
-  `scripts/tafsir/ruletest.py`, which now runs seven expectations over the planner's own code
+  `scripts/tafsir/ruletest.py`, which exercises the planner's own code
   (`v7.5 — a run is fifty verses, cut from the start the author named`).
+
+**Pinned-run completion fix (2026-09-26).** Writing the fiftieth draft used to make the planner
+release the current manifest before `--check` could judge it, because “written” was mistaken for
+“written and clean.” The pin now remains authoritative until the author names another start.
+`--status`, `--slice` and `--check` therefore keep reading the same fifty even after all fifty hold
+prose; `--check` reports RUN COMPLETE and waits for the author's next start. The added eighth v7.5
+planner expectation sets all fifty to written and proves that the pin still does not move. The default
+mutation self-test now selects only complete chapters, so a partly written chapter's expected
+scaffold failures cannot hide the finding introduced by a test mutation.

@@ -27,6 +27,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
+import quality as Q  # noqa: E402
 
 
 def unfinished(n: int):
@@ -49,6 +50,14 @@ def build(n: int):
             "tafsir/%s.md is still being written: %d of %d verses are TODO scaffolds "
             "(first: %d:%d). Finish the chapter, then build the payload."
             % (C.pad3(n), pending, total, n, first))
+    quality_findings, _metrics = Q.evaluate(
+        n, [section.verse for section in doc.sections], require_reviews=True)
+    if quality_findings:
+        sample = "; ".join("%s %s" % (f.code, f.ref) for f in quality_findings[:8])
+        raise SystemExit(
+            "QUALITY DRIFT — refusing to publish tafsir/%s.md: %d Chapter-1 parity "
+            "blocker(s): %s. Run scripts/tafsir/quality.py %d for the full report."
+            % (C.pad3(n), len(quality_findings), sample, n))
     verses = {}
     for section in doc.sections:
         body = section.body()

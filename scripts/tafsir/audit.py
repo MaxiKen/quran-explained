@@ -48,10 +48,10 @@ below are the same rules, mechanised:
           paragraphs used by nearly every verse of a long chapter)
   STY-*   style: simple diction, sentence length and readability, one interwoven
           voice (STY-SOURCE-PARADE fails a section written source by source,
-          STY-ANALYSIS-FLOOR fails one that reports without reasoning), the relatable
-          analogy the prompt asks each verse to carry, a line that reaches the
-          reader's own world (STY-APPLICATION), and no labelled
-          scaffolding (STY-LABELS: "Lesson:", "Modern application:", ...)
+          STY-ANALYSIS-FLOOR fails one that reports without reasoning), diagnostic
+          analogy/application markers (v8 makes both optional and reviews repeated
+          placement separately), and no labelled scaffolding
+          (STY-LABELS: "Lesson:", "Modern application:", ...)
   IND-*   independence: the book names and quotes no book — only the references those books
           cite (the Qur'an, a report with its collection, an early authority); a quotation
           that hangs on no reference fails (IND-QUOTE, v7.4 §0.12), as does naming a work
@@ -158,8 +158,8 @@ QUOTE_STYLE_FAIL = 25
 ANALYSIS_MIN_FAIL = 5          # sentences that reason (because, so that, which means ...) (v7.3)
 ANALYSIS_MIN_WARN = 9
 
-ANALOGY_MIN_SHARE = 0.40       # chapter FAIL below this share of verses
-ANALOGY_WARN_SHARE = 0.60
+ANALOGY_MIN_SHARE = 0.40       # retained for reports; v8 removed the hard analogy quota
+ANALOGY_WARN_SHARE = 0.60       # diagnostic only: comparison must earn its place
 
 MEAN_SENTENCE_FAIL = 32.0
 MEAN_SENTENCE_WARN = 26.0
@@ -1314,13 +1314,14 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
             analogy_sections += 1
         else:
             warn("STY-ANALOGY", ref, anchor,
-                 "no relatable analogy in this verse (the prompt asks for one where it fits)")
+                 "no analogy language detected (v8 diagnostic only; add none unless it clarifies "
+                 "a point this verse actually needs explained)")
 
         # the reading reaches the reader's own world at least once a verse (v7)
         if not APPLICATION.search(body):
             warn("STY-APPLICATION", ref, anchor,
-                 "the verse never reaches the reader's own world: bring it home once, plainly "
-                 "(today, these days, the week he is living), without labelling it")
+                 "no present-world application marker detected (v8 diagnostic only; add none "
+                 "unless the verse supplies a real practical demand or present parallel)")
 
         # grounding
         if not opts.no_grounding:
@@ -1366,13 +1367,12 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
     # -------- chapter-level style ---------------------------------------------
     if doc.sections:
         share = analogy_sections / len(doc.sections)
-        if share < ANALOGY_MIN_SHARE:
-            fail("STY-ANALOGY", "%d" % chapter, 0,
-                 "only %d of %d verses carry a relatable analogy (at least %.0f%% should)"
-                 % (analogy_sections, len(doc.sections), ANALOGY_MIN_SHARE * 100))
-        elif share < ANALOGY_WARN_SHARE:
+        if share < ANALOGY_WARN_SHARE:
+            # v8: analogy is never a quota. Keep the old signal as a diagnostic,
+            # while the parity reviewer judges whether each comparison earns its place.
             warn("STY-ANALOGY", "%d" % chapter, 0,
-                 "%d of %d verses carry a relatable analogy" % (analogy_sections, len(doc.sections)))
+                 "%d of %d verses carry analogy language (v8: diagnostic only; do not add one "
+                 "unless it clarifies this verse)" % (analogy_sections, len(doc.sections)))
 
     prose = "\n".join(prose_chunks)
     metrics = C.style_metrics(prose)
