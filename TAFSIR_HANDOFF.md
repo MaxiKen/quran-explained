@@ -20,6 +20,12 @@ or copy the purged Chapter 2 draft from history.
 and it is not chosen by the writing agent. If `run.py --plan` shows an existing pinned run, “continue”
 resumes its next unwritten verse. Only when no run is pinned should a bare “continue” trigger a
 question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1.
+**Owner approval has been received.** The author explicitly approved checkpoint `06ec1c6`
+and requested further generation. That approval is recorded in `TAFSIR_WORKLOG.md`; do not ask
+for the same general approval again. The detailed review records below are still pending, and no
+scores or independent-review attestations have been fabricated. The next start and whether author
+approval should authorize drafting before the detailed records are complete await clarification.
+
 **All fifty verses of the pinned 2:1–2:50 run now have prose.** Verses 2:1–2:5 and 2:16–2:33
 are accepted; 2:6–2:15 and 2:34–2:50 remain pending review. The contiguous accepted frontier is
 still **2:5**. There is no unwritten verse left inside this pin. The next task is independent

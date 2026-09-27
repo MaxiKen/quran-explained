@@ -136,6 +136,14 @@ accepted frontier still **2:5**. Pending review covers 2:6–2:15 and 2:34–2:5
 run stays **2:1–2:50** until independent acceptance. No next run is selected automatically, and
 2:51–2:286 remain scaffolds. Chapter 2 is incomplete and unpublished.
 
+**Owner approval received (2026-09-27).** The author approved the pushed 2:1–2:50 draft
+checkpoint `06ec1c67e130f1c7509a585fd03bafe5d828bbb0` in this session, saying “I approve it.”
+and requesting continued generation. This records the approval actually supplied. No per-verse
+rubric scores or detailed source/claim/citation review decisions were supplied with it, so the
+writer has not invented those decisions or relabelled pending manifests as independently complete.
+The approved prose, existing reviews and frozen baseline remain unchanged. The next run’s start
+and the treatment of author approval at the draft-continuation gate require confirmation.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
