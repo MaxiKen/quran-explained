@@ -1,0 +1,1097 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 25,
+  "to": 33,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "25": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "68ddbfb7cacc5da25b26bfeff7333959c9ea1a37f457880fafe66a7ec4ac2898",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The plural presents plenty rather than one small plot.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:25",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Its fruit is also (56:33 — “never out of season nor forbidden—”).",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:25",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "18:107",
+          "quoted_clause": "Indeed, those who believe and do good will have the Gardens of Paradise as an accommodation",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "47:15",
+          "quoted_clause": "that never changes in taste, rivers of wine delicious to drink,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "56:33",
+          "quoted_clause": "never out of season nor forbidden—",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "13:23",
+          "quoted_clause": "the Gardens of Eternity, which they will enter along with the righteous among their parents, spouses,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "15:48",
+          "quoted_clause": "No fatigue will touch them there, nor will they ever be asked to leave",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās reads the good works as acts of obedience that bind servants to their Lord.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:25",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās names rivers of water, milk, honey, and wine.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:25",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains the likeness through the same appearance with a different taste.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:25",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains that its people neither die nor face exile.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:25",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "26": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "2e788417af9b649e905f9074e11d72ff235dbb0c559dfa3ac019143e14ec962b",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "22:73",
+          "quoted_clause": "those ˹idols˺ you invoke besides Allah can never create ˹so much as˺ a fly, even if they ˹all˺ were to come together",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "29:41",
+          "quoted_clause": "And the flimsiest of all shelters is certainly that of a spider, if only they knew",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:7",
+          "quoted_clause": "our Lord.” But none will be mindful ˹of this˺ except people of reason",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:82",
+          "quoted_clause": "a healing and mercy for the believers, but it only increases the wrongdoers in loss",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "61:5",
+          "quoted_clause": "when you already know I am Allah’s messenger to you?” So when they ˹persistently˺ deviated, Allah caused their hearts to deviate.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Qatādah says that God does not hold back from truth when He gives a parable, whether its subject seems great or small.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:26",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās presses this point: all created beings could join forces and still fail to create what the objector calls low.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:26",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "27": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e751c11b5975bdd3137befc229e1631235c6307198b8d49b32532298c5b62230",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "These senses share one root: God has made His right known, and the rebel answers a settled claim with breach.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:27",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:172",
+          "quoted_clause": "and had them testify regarding themselves. ˹Allah asked,˺ “Am I not your Lord?” They replied, “Yes, You are!",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:81",
+          "quoted_clause": "if there comes to you a messenger confirming what you have, you must believe in him and support him.” He added,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "13:20",
+          "quoted_clause": "who honour Allah’s covenant, never breaking the pledge",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "13:21",
+          "quoted_clause": "and those who maintain whatever ˹ties˺ Allah has ordered to be maintained, stand in awe of their Lord, and fear strict judgment",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "47:22",
+          "quoted_clause": "Now if you ˹hypocrites˺ turn away, perhaps you would then spread corruption throughout the land and sever your ˹ties of˺ kinship",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "103:2",
+          "quoted_clause": "Surely humanity is in ˹grave˺ loss",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās applies the verse to the pledge concerning the Prophet: people had confirmed what bound them, then resisted the messenger named by that duty.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:27",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās includes sworn bonds and family ties, as well as the bond of faith with the Messenger.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:27",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās calls them cheated of both worlds.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:27",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "28": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e36f8e785c69a85899235064350090a16e7baac1889eaec39a9c77117f3eeace",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "Resurrection is a new life for judgment, and the first creation is evidence that the second is within the same power.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:28",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "Ibn ʿAbbās reads the sequence as nonexistence, creation, death, and life on the Day of Resurrection.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:28",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "Life is from God, death occurs by His decree, resurrection answers His promise, and return places every secret and public act before Him.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:28",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "52:35",
+          "quoted_clause": "Or were they created by nothing, or are they ˹their own˺ creators",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "76:1",
+          "quoted_clause": "nothing yet worth mentioning",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "23:15",
+          "quoted_clause": "After that you will surely die",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "23:16",
+          "quoted_clause": "then on the Day of Judgment you will be resurrected",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "36:79",
+          "quoted_clause": "Say, ˹O Prophet,˺ “They will be revived by the One Who produced them the first time,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "40:11",
+          "quoted_clause": "They will plead, “Our Lord! You made us lifeless twice, and gave us life twice. Now we confess our sins.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās speaks of drops held in the bodies of fathers and then given life in the wombs of mothers.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:28",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās reads the sequence as nonexistence, creation, death, and life on the Day of Resurrection.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:28",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "29": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "2fcd6e8950e16c4631fedf5dab4c3740a982b04336f4442036e6d259eb0fd143",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Early legal reflection drew from this gift a broad starting rule of permitted and pure use, while excluding what God forbids and what causes harm.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:29",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The singular “heaven” is then formed into seven heavens, a complete ordered creation rather than an unshaped mass.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:29",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "This is why resurrection is no strain upon Him.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:29",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "16:13",
+          "quoted_clause": "for those who are mindful",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "55:10",
+          "quoted_clause": "He laid out the earth for all beings",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "45:13",
+          "quoted_clause": "by His grace. Surely in this are signs for people who reflect",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "41:12",
+          "quoted_clause": "So He formed the heaven into seven heavens in two Days, assigning to each its mandate.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "67:14",
+          "quoted_clause": "How could He not know His Own creation? For He ˹alone˺ is the Most Subtle, All-Aware",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās points to beasts, plants, and other things as blessings made ready for benefit.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:29",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid describes the heavens as one above another, and another passage states that God formed them while assigning each its order: (41:12 — “So He formed the heaven into seven heavens in two Days, assigning to each its mandate.”).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:29",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "30": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "ecb293ee36ebbafa439369d9d74eb7812c3c027fef4c070ed495bae58397a448",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Therefore, care for land, life, law, and future people is not an optional kindness added to the human role.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:30",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Corruption can enter worship, law, wealth, family, land, and public trust.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:30",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "This answer teaches humility whenever a divine decree exceeds present sight.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:30",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "6:165",
+          "quoted_clause": "He is the One Who has placed you as successors on earth and elevated some of you in rank over others,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "38:26",
+          "quoted_clause": "˹We instructed him:˺ “O David! We have surely made you an authority in the land, so judge between people with truth.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "21:27",
+          "quoted_clause": "who do not speak until He has spoken, ˹only˺ acting at His command",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:32",
+          "quoted_clause": "murder or mischief in the land—it will be as if they killed all of humanity; and whoever saves a life,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:31",
+          "quoted_clause": "He taught Adam the names of all things, then He presented them to the angels and said,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās applies the authority first to Adam, created from the earth.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:30",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "31": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "94cf99b64b637be8b9127b8082a8678636726839589673f9768b396e2c84b773",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "No creature grasps divine knowledge except what God grants: (2:255 — “but no one can grasp any of His knowledge—except what He wills ˹to reveal˺.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:31",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "55:4",
+          "quoted_clause": "˹and˺ taught them speech",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "96:5",
+          "quoted_clause": "taught humanity what they knew not",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:78",
+          "quoted_clause": "And Allah brought you out of the wombs of your mothers while you knew nothing, and gave you hearing, sight,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:255",
+          "quoted_clause": "but no one can grasp any of His knowledge—except what He wills ˹to reveal˺. His Seat encompasses the heavens and the earth,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:114",
+          "quoted_clause": "“My Lord! Increase me in knowledge.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās includes the words people use for human beings, animals, sky, earth, land, sea, and even common vessels.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:31",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Another report from him applies them to Adam’s descendants, while Mujāhid takes them as the names of all things.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:31",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "32": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "57c2892e2c847d90cc807657fc07b62b27fa64e268bf11d3ffc347317d7f0e53",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "In matters of faith, law, safety, medicine, family, or public duty, such false confidence can also harm others.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:32",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The two divine names close the reply.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:32",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "66:6",
+          "quoted_clause": "who never disobey whatever Allah orders—always doing as commanded",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:85",
+          "quoted_clause": "been given but little knowledge.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:66",
+          "quoted_clause": "but why do you now argue about what you have no knowledge of? Allah knows and you do not know",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "24:18",
+          "quoted_clause": "And Allah makes ˹His˺ commandments clear to you, for Allah is All-Knowing, All-Wise",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās reads the response as a return from what they had said, which gives it the shape of repentance as well as praise.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:32",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "33": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "0caf9d7c6415e6133486f99ed1e08153c01d4b1a48e550617859db57ce734cb8",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "In this scene, divine knowledge closes the gap between appearance and reality before the command to prostrate makes each inward stance visible through action.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:33",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "35:38",
+          "quoted_clause": "Indeed, Allah is the Knower of the unseen of the heavens",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:29",
+          "quoted_clause": "Say, ˹O Prophet,˺ “Whether you conceal what is in your hearts or reveal it, it is known to Allah.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās also relates the words to what would be shown and withheld in the coming act of obedience.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:33",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}
