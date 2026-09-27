@@ -1,0 +1,964 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 16,
+  "to": 24,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "16": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "fe4e29f897b23f94cbe04c5db854b393b11f11a9a02dd8179e116592a9f62b3e",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "41:17",
+          "quoted_clause": "but they preferred blindness over guidance. So the blast of a disgracing punishment overtook them",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:86",
+          "quoted_clause": "trade the Hereafter for the life of this world. So their punishment will not be reduced,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:175",
+          "quoted_clause": "They are the ones who trade guidance for misguidance and forgiveness for punishment.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "9:111",
+          "quoted_clause": "So rejoice in the exchange you have made with Him. That is ˹truly˺ the ultimate triumph",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "39:18",
+          "quoted_clause": "those who listen to what is said and follow the best of it. These are the ones ˹rightly˺ guided by Allah,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās and Ibn Masʿūd describe them as pursuing error and leaving guidance, while Qatādah stresses their preference for the wrong path.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:16",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid applied it to people who believed and then disbelieved.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:16",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "17": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "83a503e715502adac3a6f8945ab70dc35ae9d732d879e32ae97deeee5868f786",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "6:122",
+          "quoted_clause": "a light with which they can walk among people",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "57:12",
+          "quoted_clause": "their light shining ahead of them and on their right",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "24:40",
+          "quoted_clause": "Darkness upon darkness! If one stretches out their hand, they can hardly see it.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "66:8",
+          "quoted_clause": "Perfect our light for us, and forgive us. ˹For˺ You are truly Most Capable of everything.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās reads the worldly side through the safety their public claim gave to person, family, and wealth.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:17",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās also places the full loss at death, when an outward claim can no longer supply what only true faith gives.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:17",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "They hear the Qur’an, see the Prophet’s life, join the Muslim group, and receive the public rights tied to their claim.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:17",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "18": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "122e4e3e524e47981a25afeca7bbe7ec270753ce5fdcab8c3a1bd7187ff30a44",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "8:22",
+          "quoted_clause": "the ˹wilfully˺ deaf and dumb, who do not understand",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "24:51",
+          "quoted_clause": "is to say, “We hear and obey.” It is they who will ˹truly˺ succeed",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "22:46",
+          "quoted_clause": "it is not the eyes that are blind, but it is the hearts in the chests that grow blind",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "46:26",
+          "quoted_clause": "But neither their hearing, sight, nor intellect were of any benefit to them whatsoever,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "50:37",
+          "quoted_clause": "a reminder for whoever has a ˹mindful˺ heart and lends an attentive ear",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās says they behaved as though deaf, mute, and blind.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:18",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās’s description of their pretended muteness therefore reaches the core: they have words for disguise but none for return.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:18",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "19": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "f6aa92d2b3a1c1201d7a86e24c19ba7ce0a46a20e33399744763628451d30de5",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "13:12",
+          "quoted_clause": "shows you lightning, inspiring ˹you with˺ hope and fear, and produces heavy clouds",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "62:8",
+          "quoted_clause": "The death you are running away from will inevitably come to you.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "85:20",
+          "quoted_clause": "But Allah encompasses them from all sides",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās, Ibn Masʿūd, Mujāhid, and Qatādah all understood the central image as pouring rain.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:19",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās reads the darkness as the trials and confusion disclosed in the Qur’an, the thunder as its rebuke and threats, and the lightning as its clear teaching and promise.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:19",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās says they feared being drawn to the Qur’an, for true response would end the false stance by which they served both sides.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:19",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās joins God’s full knowledge to the certainty that He will gather them for judgment.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:19",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "20": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "afccb6e805c57af2a9cf84ccb944fe696d52ac2a5fe56524866f4c7f0be84f85",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "24:43",
+          "quoted_clause": "The flash of the clouds’ lightning nearly takes away eyesight",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:141",
+          "quoted_clause": "˹The hypocrites are˺ those who wait to see what happens to you. So if Allah grants you victory, they say ˹to you˺,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "22:11",
+          "quoted_clause": "if they are afflicted with a trial, they relapse ˹into disbelief˺, losing this world and the Hereafter.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "6:46",
+          "quoted_clause": "Imagine if Allah were to take away your hearing or sight, or seal your hearts—who",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "67:23",
+          "quoted_clause": "He is the One Who brought you into being and gave you hearing, sight, and intellect.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās reads the flash as the Qur’an’s clear disclosure, which comes close to tearing away their error.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:20",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "21": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "2c59069a70a5602be19cbfea8a9247ef34e0dcdf72cbafefb184a537856038b3",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:1",
+          "quoted_clause": "O humanity! Be mindful of your Lord Who created you from a single soul, and from it He created its mate,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "51:57",
+          "quoted_clause": "I seek no provision from them, nor do I need them to feed Me",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "51:56",
+          "quoted_clause": "I did not create jinn and humans except to worship Me",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "6:102",
+          "quoted_clause": "˹He is˺ the Creator of all things, so worship Him ˹alone˺. And He is the Maintainer of everything",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:102",
+          "quoted_clause": "Be mindful of Allah in the way He deserves, and do not die except in ˹a state of full˺ submission ˹to Him˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās applied the first hearing to the people of Makkah, and another early application included Jews who heard the call.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:21",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās places the oneness of God at the heart of the command.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:21",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās connects the result to guarding oneself from divine anger through obedience.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:21",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "22": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "1d20d372757918c45cc2278a1b7a1dbdec236a2f2382869c28fae7af492b8e81",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "40:64",
+          "quoted_clause": "It is Allah Who made the earth a place of settlement for you and the sky a canopy.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "21:32",
+          "quoted_clause": "a well-protected canopy, still they turn away from its signs",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:11",
+          "quoted_clause": "With it He produces for you ˹various˺ crops, olives, palm trees, grapevines, and every type of fruit.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "29:63",
+          "quoted_clause": "they will surely say, “Allah!” Say, “Praise be to Allah!” In fact, most of them do not understand",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās reads these gifts as provision not only for the hearers but for created beings around them.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:22",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains the first image through dwelling and rest.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:22",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains the rivals as peers or equals assigned to God.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:22",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "23": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "a72070eacf7b638b859b9bdef4953222e404282fa036a81168372bc43d42bfb8",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Honest questions are not condemned merely for arising; they are required to follow evidence and accept what the test shows.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:23",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Then a sustained recitation came through him with its own voice, law, stories, warnings, prayers, and vision of God and the world.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:23",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Since the Qur’an declares itself (26:195 — “in a clear Arabic tongue”), its full verbal challenge concerns the Arabic recitation, not an English rendering.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:23",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:82",
+          "quoted_clause": "Had it been from anyone other than Allah, they would have certainly found in it many inconsistencies",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "29:48",
+          "quoted_clause": "You ˹O Prophet˺ could not read any writing ˹even˺ before this ˹revelation˺, nor could you write at all.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "11:13",
+          "quoted_clause": "Produce ten fabricated sûrahs like it and seek help from whoever you can—other than Allah—if what you say is true!”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "10:38",
+          "quoted_clause": "Produce one sûrah like it then, and seek help from whoever you can—other than Allah—if what you say is true!”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:88",
+          "quoted_clause": "they could not produce its equal, no matter how they supported each other.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "26:195",
+          "quoted_clause": "in a clear Arabic tongue",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās identifies the servant here with the Prophet whom the opponents charged with fabrication.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:23",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās reads the helpers as aids and also relates the phrase to the gods the challengers served.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:23",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A report transmitted by al-Suddī includes partners and other people; Mujāhid points to skilled speakers who might support the claim.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:23",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "24": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "1d0d749de235b2c29d90d03d1ccb4b71aa231b213ac67647221efbb516841413",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "52:34",
+          "quoted_clause": "Let them then produce something like it, if what they say is true",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:131",
+          "quoted_clause": "Guard yourselves against the Fire prepared for the disbelievers",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "21:98",
+          "quoted_clause": "Certainly you ˹disbelievers˺ and whatever you worship instead of Allah will be the fuel of Hell.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "21:99",
+          "quoted_clause": "Had those idols been ˹true˺ gods, they would not have entered it.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "66:6",
+          "quoted_clause": "a Fire whose fuel is people and stones, overseen by formidable and severe angels",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Qatādah reads this as a lack of power to meet the challenge, while Ibn ʿAbbās says that any attempt will fail.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:24",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās understood the stones as sulphur, which stresses the terror and heat of the fuel.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:24",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}
