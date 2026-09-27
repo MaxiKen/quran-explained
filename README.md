@@ -9,8 +9,8 @@ format and gated by an auditor before it is published to the app. The standard i
 **v7.4**: the eleven works researched for every verse and named nowhere in the text, each verse
 presented on its own terms, every cross-reference expanded with its clause, the register of
 §0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapters 1 and 2 are written and
-published (`data/tafsir_001.json`, `data/tafsir_002.json`); chapter 3 is written through 3:114 and
-remains unpublished while its later verses are scaffolds. Work moves in **runs of fifty verses**
+published (`data/tafsir_001.json`, `data/tafsir_002.json`); chapter 3 is written through 3:164 and
+remains unpublished while 3:165–3:200 are scaffolds. Work moves in **runs of fifty verses**
 (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and finished before the writer
 pauses.
 

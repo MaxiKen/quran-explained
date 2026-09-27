@@ -42,7 +42,7 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Eight author-named fifty-verse runs are delivered (2026-09-26).** The first chapter-only start resolved
+**Nine author-named fifty-verse runs are delivered (2026-09-27).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
 
@@ -89,19 +89,27 @@ gates. They add 45,719 words, with 798/917/1,002 as the minimum, median and maxi
 run gate passes at 0 FAIL and 90 advisories; the growing 3:1–3:114 gate passes at 0 FAIL and 212
 advisories; `run.py --check` reports **RUN COMPLETE — 50/50 written, 0 failing**. Every verse has
 complete phrase coverage, verse-specific transmitted evidence, an expanded cross-reference,
-present-day application and a relatable analogy. Chapter 3 remains unpublished because
-3:115–3:200 are still scaffolds.
+present-day application and a relatable analogy. At that point 3:115–3:200 remained scaffolds.
+
+The author next named **3:115**, pinning the ninth run at **3:115–3:164**. Its fifty verse drafts
+were written from the pinned eleven-work map and revised to remove repeated analysis frames and
+inherited relay-like stage directions before the final gates. They add 37,548 words, with
+702/734/1,242 as the minimum, median and maximum. The exact run gate passes at 0 FAIL and 86
+advisories; the growing 3:1–3:164 gate passes at 0 FAIL and 312 advisories; `run.py --check`
+reports **RUN COMPLETE — 50/50 written, 0 failing**. Every verse has complete phrase coverage,
+verse-specific transmitted evidence, an expanded cross-reference, present-day application and a
+relatable analogy. Chapter 3 remains unpublished because 3:165–3:200 are still scaffolds.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
 | 2 | `tafsir/002.md` | 286/286 | 266,252 | 703/867/2,029 | PASS; published |
-| 3 | `tafsir/003.md` | 114/200 | 96,671 | 707/837/1,087 | 3:1–3:114 PASS; 86 verses still scaffold |
+| 3 | `tafsir/003.md` | 164/200 | 134,219 | 702/783/1,242 | 3:1–3:164 PASS; 36 verses still scaffold |
 
-Totals: **2 of 114 chapters complete, 407 of 6,236 verses written.** Chapters 1 and 2 have current
-payloads. Chapter 3 has a 617-word introduction and clean prose through 3:114 but no payload. A
+Totals: **2 of 114 chapters complete, 457 of 6,236 verses written.** Chapters 1 and 2 have current
+payloads. Chapter 3 has a 617-word introduction and clean prose through 3:164 but no payload. A
 completed run does not choose its successor: the author must name the next chapter or chapter:verse;
-naming chapter 3 now would resolve to 3:115.
+naming chapter 3 now would resolve to 3:165.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
