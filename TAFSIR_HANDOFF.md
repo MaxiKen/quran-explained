@@ -20,13 +20,15 @@ or copy the purged Chapter 2 draft from history.
 and it is not chosen by the writing agent. If `run.py --plan` shows an existing pinned run, “continue”
 resumes its next unwritten verse. Only when no run is pinned should a bare “continue” trigger a
 question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1.
-Verses 2:1–2:5 are accepted; fresh 2:6 is pushed with owner review pending, so the next draft begins
-at 2:7 without exceeding the fifty-verse unaccepted limit:
+Prose now reaches **2:42**. Verses 2:1–2:5 and 2:16–2:33 are accepted; 2:6–2:15 and
+2:34–2:42 remain pending review. The contiguous accepted frontier is still **2:5**. The next
+draft is **2:43**, with eight unwritten verses left in the pinned 2:1–2:50 run. If ignored
+scratch has disappeared, restore this documented pin rather than starting a new run at 2:43:
 
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # pins 2:1–2:50
-python3 scripts/tafsir/run.py --build            # all eleven works for the run, opened once
-python3 scripts/tafsir/run.py --slice 2:7 2:10   # read the next stretch of the map
+python3 scripts/tafsir/run.py --build --cap-json 0 # full eleven-source digest; display caps are separate
+python3 scripts/tafsir/run.py --slice 2:43 2:46   # read the next stretch of the map
 ```
 
 Then write in verse order. Gate each verse mechanically with `batch.py ... --draft`. At every
@@ -48,7 +50,7 @@ Before any of that, two housekeeping steps:
 2. **Rebuild the scratch that is not in git.** `tmp/sources/` and `tmp/runs/` are ignored by design,
    so a fresh clone (and, in practice, a fresh session) has neither and the auditor reports
    `SRC-NODIGEST` on every verse until they are rebuilt. One pass does it:
-   `python3 scripts/tafsir/run.py --build` (the run's chapters, all eleven works, per-chapter digests
+   `python3 scripts/tafsir/run.py --build --cap-json 0` (the run's chapters, all eleven works, uncapped digests
    for the grounding check); a chapter outside the current run needs its own digest back —
    `python3 scripts/tafsir/sources.py 1`. **`SRC-NODIGEST` is a missing scratch file, never a defect
    in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier
@@ -60,34 +62,40 @@ frozen as the raised quality floor, and published. Its accepted source/claim/evi
 `quality/chapter-001-baseline-approval.json`. The old Chapter 2 commentary was purged from current
 state without rewriting history. A fresh introduction and 2:1–2:5 were generated from all eleven
 works and independently accepted by the project owner in `quality/reviews/002/001-005.json`.
-Fresh 2:6 passes its draft and push gates and is tracked in the pending
-`quality/reviews/002/006-006.json`; it has been pushed for owner inspection but is not accepted.
-Verses 2:7–2:286 remain scaffolds. The pinned run remains 2:1–2:50.
+The accepted `016-024.json` and `025-033.json` bring the Chapter-2 accepted count to 23.
+The pending manifests are `006-006.json`, `007-015.json` and the new `034-042.json` (19 verses).
+Only the pending 2:11–2:12 entries in `007-015.json` were refreshed for small prose/heading fixes;
+no acceptance decisions changed. All written verses, 2:1–2:42, pass the mechanical and
+review-candidate push gates. Verses 2:43–2:286 remain scaffolds. The pin remains 2:1–2:50.
 
 ## Where things stand (2026-09-27)
 
 | | |
 |---|---|
-| Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; fresh Chapter 2 introduction + 2:1–2:5 are accepted; 2:6 is push-clean and pending owner review; 2:7–2:286 are scaffolds. |
-| Next | Continue the pinned 2:1–2:50 run at **2:7**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
+| Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0e398-quran-explained` |
+| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**. Chapter 2 has 42/286 verses written: 23 accepted (1–5, 16–33), 19 pending (6–15, 34–42), 244 scaffolds. |
+| Next | Continue the pinned 2:1–2:50 run at **2:43**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
 | Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, fifty-verse automatic drift windows, and immediate stop/push notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
-`tmp/work/c2_intro.md` and the fresh `c2_v001.md`–`c2_v006.md`. The purged old prose formerly in
-`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current `c2_v006.md` is a new draft
-from the eleven-source map. Measured state:
+`tmp/work/c2_intro.md` and fresh `c2_v001.md`–`c2_v042.md`. The purged old prose formerly in
+`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current parts through 042 are
+replacement drafts from the eleven-source map. New 2:34–2:42 has 100% phrase coverage and
+passes the mechanical gate; its independent source-synthesis, claim and evidence review is pending.
+Writer reading of the remaining Arabic tails for that new range was completed during final revision.
+`tafsir_initial` has no mapped passage at 2:38–2:39; this is an upstream coverage gap, not a reason
+to use an outside source. Measured state:
 
 ```
 python3 scripts/tafsir/audit.py 1                    # raised Chapter 1: mechanical PASS
 python3 scripts/tafsir/build_data.py 1 --check       # accepted payload matches
 python3 scripts/tafsir/quality.py --baseline         # validates raised frozen hash and floor
 python3 scripts/tafsir/batch.py 2 --from 1 --to 5    # accepted Chapter-1 parity checkpoint
-python3 scripts/tafsir/batch.py 2 --from 6 --to 6 --push-check # pending owner review
+python3 scripts/tafsir/batch.py 2 --from 1 --to 42 --push-check # PASS; pending reviews remain
 python3 scripts/tafsir/quality.py --all --push-check # all current review candidates are push-clean
 python3 scripts/tafsir/qualitytest.py                # parity gate regression suite
-python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:7–2:286 (expected)
+python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:43–2:286 (expected)
 ```
 
 The full Chapter 2 gate fails only because the chapter is intentionally incomplete. No
@@ -281,29 +289,21 @@ Each of these is a real failure the gate raised; the cure is the one that worked
 
 ## If the sandbox wipes the scratch directory
 
-The session opens with HEAD at an old commit and `tmp/` gone while the *files* still hold the
-latest work. The branch is the source of truth.
+Ignored source digests and run maps can be rebuilt without resetting the checkout. The tracked
+chapter and `tmp/work/` parts are the prose record; preserve any local changes and remain on the
+branch assigned to the session. Do not reset to a branch named in an older handoff.
 
-```
-git fetch origin refs/heads/arena/01a0dd66-quran-explained:refs/remotes/origin/arena/01a0dd66-quran-explained
-git log --oneline -3 origin/arena/01a0dd66-quran-explained
-for f in tafsir/002.md TAFSIR_RULES.md scripts/tafsir/audit.py sw.js; do \
-  a=$(git show origin/arena/01a0dd66-quran-explained:$f | sha1sum); b=$(sha1sum $f); \
-  [ "$a" = "$b" ] && echo "same $f" || echo "DIFF $f"; done
-git reset --hard origin/arena/01a0dd66-quran-explained
-python3 scripts/tafsir/run.py --build            # rebuilds the digests and the run map
+```bash
+git status --short
+git log --oneline -3
+python3 scripts/tafsir/run.py --plan --start 2:1  # restore the documented 2:1–2:50 pin
+python3 scripts/tafsir/run.py --build --cap-json 0 # full passages, not a truncated research digest
 ```
 
-Hash-compare before resetting: if a file differs from the remote tip, it is newer work
-and must be committed before the reset, not after. The verse drafts under `tmp/work/`
-are tracked through a `.gitignore` exception, so they survive a wipe; the source
-digests (`tmp/sources/…`) and the run maps (`tmp/runs/…`) do not, and `run.py --build`
-rebuilds both in one pass.
-
-Push policy: push to the session branch you were given and to no other — this work was carried on
-`arena/01a0dd66-quran-explained`, and a later session will have its own `arena/<id>-quran-explained`.
-A single writer holds a branch, so `--force` is acceptable if a lease goes stale, but never push to
-`main` from a session branch: `main` is brought up to date by merging the branch's pull request.
+The current continuation branch is `arena/01a0e398-quran-explained`. Push only to the branch
+assigned to the current session, never to `main`. An incomplete or pending review candidate still
+needs its ordinary checkpoint commit and push; it does not authorize a force-push or the loss of
+another session’s work.
 
 ## House facts worth not rediscovering
 
@@ -320,9 +320,10 @@ A single writer holds a branch, so `--force` is acceptable if a lease goes stale
   with `data/tafsir_NNN.json` and reports stale payloads.
 * `tafsir_initial/002.md` does not carry 2:285–2:286 (it stops at 284); missing verses
   there are `SRC-ABSENT` warnings, not failures.
-* The run map is capped: `--cap-en 2400`, `--cap-ar 700` per work per verse, and the
-  per-chapter digest JSON is capped hard (1600/533) because grounding reads names, not
-  length. Raise the caps for a verse that needs the full discussion.
+* The run-map display is capped (`--cap-en 2400`, `--cap-ar 700`), separately from the
+  per-chapter JSON. For drafting, use `run.py --build --cap-json 0` once to retain the full
+  source passages in `tmp/sources/NNN.json`. Raising a display cap cannot recover text already
+  truncated in the JSON. Read long passages in slices small enough to avoid tool-output truncation.
 
 ## Gate lessons that cost time (v7.2–v7.4, chapters 1–2)
 

@@ -85,6 +85,32 @@ map. It passes the mechanical gate at 805 words and 100% phrase coverage; its pr
 pending `quality/reviews/002/006-006.json` scaffold is push-clean and committed for owner inspection.
 Accepted frontier remains 2:5; next draft: 2:7.
 
+**Chapter 2 continued through 2:42 (2026-09-27).** Resumed the existing 2:1–2:50 pin at
+2:34 without restoring any purged prose. Nine new parts, `tmp/work/c2_v034.md`–`c2_v042.md`,
+were assembled one verse at a time and immediately draft-gated. They contain 8,775 words by the
+batch counter; every verse clears its floor and has 100% phrase coverage. All eleven mappings
+were consulted using an uncapped digest. Remaining Arabic source tails for the new range were
+read during final revision; `tafsir_initial` has no mapped coverage for 2:38–2:39.
+
+The whole-written-range check exposed inherited repetition of an authority-name sequence and
+three headings beginning “THE VERDICT.” Small edits in the still-pending 2:11–2:12 remove those
+failures, and 2:12 now states the earlier speakers’ claim as all their efforts being reform, rather
+than their being the only reformers. The relevant mapped readings were consulted. Only their two
+pending entries in `007-015.json` were refreshed. Accepted prose, accepted reviews, the frozen
+Chapter-1 baseline, source corpora and generation rules remain unchanged.
+
+`batch.py 2 --from 1 --to 42 --push-check` reports **0 mechanical FAIL, 0 quality BLOCK,
+84 WARN — PASS**; `quality.py --all --push-check` also passes. The new 2:34–2:42 prose measures
+7,574 words after quote/heading stripping, mean sentence 13.43 words, Flesch 68.97, no sentences
+over 40 words, and 13.07 evidence mentions per 1,000 words. These are writer diagnostics, not
+independent acceptance. `quality/reviews/002/034-042.json` is a synchronized pending scaffold:
+no scores, source-synthesis decisions, claim decisions or citation/transmission approvals were
+filled by the writer. The pending review and all remaining advisories await independent review.
+
+Chapter 2 now has **42/286 written, 23 accepted and 19 pending**. The accepted verses are
+2:1–2:5 and 2:16–2:33; the contiguous accepted frontier stays **2:5**. The next draft is **2:43**;
+eight verses remain unwritten in the pinned run. Chapter 2 remains incomplete and unpublished.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -98,13 +124,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 6/286 written; 5 accepted, 1 pending review | 4,954 | 739/805/966 | review candidate PASS; 280 verses still scaffold |
+| 2 | `tafsir/002.md` | 42/286 written; 23 accepted, 19 pending review | 39,556 | 739/927/1,145 | review candidate PASS; 244 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 12 accepted verses plus one pending review candidate across
+hash. The working corpus contains 30 accepted verses plus 19 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
-`audit.py 2` fails on its 280 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned run continues at 2:7.
+`audit.py 2` fails on its 244 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned 2:1–2:50 run continues at 2:43.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
