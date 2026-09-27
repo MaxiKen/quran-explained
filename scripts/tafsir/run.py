@@ -10,8 +10,10 @@ The point of the run is speed and coverage:
 * **map once, at the start.** ``--build`` pulls all eleven works for the whole run
   in one pass — the sources are opened once for fifty verses, not once per verse —
   and writes the run's map plus the per-chapter digests the auditor reads.
-* **finish before pausing.** ``--check`` exits 0 only when every verse of the run
-  is written and clean. The run is the unit of work: it is not left half-done.
+* **review before continuing.** Fifty verses are the source-mapping unit, not the
+  acceptance unit. Each verse receives a draft check; every five-verse checkpoint
+  needs an independent Chapter-1 parity and citation-relevance review. ``--check``
+  exits 0 only when all fifty have passed both the mechanical and quality gates.
 
     python3 scripts/tafsir/run.py --plan                 # the next fifty verses
     python3 scripts/tafsir/run.py --build                # map them from the eleven
@@ -34,6 +36,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit as A  # noqa: E402
 import corpus as C  # noqa: E402
+import quality as Q  # noqa: E402
 import scaffold as S  # noqa: E402
 import sources as SRC  # noqa: E402
 
@@ -199,8 +202,8 @@ def plan(target: int = RUN_VERSE_TARGET, start=None):
     """The run in flight: the pinned fifty if one is planned, else the fifty from ``start``.
 
     A run is fixed when it is planned (``--plan`` pins it, ``--build`` fills its
-    map). Writing verses inside it does not move its goalposts: the fifty are
-    finished before the writer pauses, and only then does the next run begin.
+    map). Writing verses inside it does not move its goalposts. The map still holds
+    fifty, while acceptance stops at every five-verse quality checkpoint.
 
     ``start`` is what the author named. Naming a start that differs from the pinned
     run re-cuts it from there; naming the same one returns the run already in hand.
@@ -383,8 +386,31 @@ def slice_map(verses, index, start, end, cap_en, cap_ar) -> int:
 
 # ------------------------------------------------------------------- status
 
+def run_quality_findings(verses):
+    """Chapter-1 parity findings for the written verses in this run."""
+    findings = []
+    for chapter in sorted({c for c, _ in verses}):
+        if not C.output_path(chapter).exists():
+            continue
+        smap = C.load_chapter_doc(chapter).section_map()
+        planned = [v for c, v in verses if c == chapter]
+        written = [v for v in planned if v in smap and "TODO" not in smap[v].body()]
+        if written:
+            chapter_findings, _metrics = Q.evaluate(chapter, written, require_reviews=True)
+            findings.extend(chapter_findings)
+        elif planned and min(planned) > 1:
+            frontier = Q.accepted_frontier(chapter)
+            if frontier < min(planned) - 1:
+                findings.append(Q.Finding(
+                    "QTY-PRIOR-FRONTIER", "%d:%d" % (chapter, min(planned) - 1),
+                    "the run may be source-mapped, but no prose may be written while the "
+                    "independently accepted frontier is %d:%d" % (chapter, frontier),
+                    tuple(planned)))
+    return findings
+
+
 def run_findings(verses, no_grounding=False):
-    """Findings for the run's verses, keyed by ref, plus chapter-level ones."""
+    """Mechanical findings for the run's verses, keyed by ref, plus chapter-level ones."""
     opts = argparse.Namespace(no_grounding=no_grounding, strict=False)
     per_verse, chapter_level = {}, []
     for chapter in sorted({c for c, _ in verses}):
@@ -452,9 +478,18 @@ def show_status(verses, index, no_grounding=False) -> int:
     fails = sum(1 for ref in written_refs for f in per_verse.get(ref, []) if f.level == A.FAIL)
     warns = sum(1 for ref in written_refs for f in per_verse.get(ref, []) if f.level == A.WARN)
     chapter_fails = [f for f in chapter_level if f.level == A.FAIL]
+    quality_findings = run_quality_findings(verses)
     print("")
-    print("run %d: %d written, %d pending | %d FAIL, %d WARN on written verses"
-          % (index, len(done), len(verses) - len(done), fails, warns))
+    print("run %d: %d written, %d pending | %d mechanical FAIL, %d quality BLOCK, "
+          "%d mechanical WARN on written verses"
+          % (index, len(done), len(verses) - len(done), fails, len(quality_findings), warns))
+    if quality_findings:
+        print("QUALITY DRIFT — generation stops at the last accepted frontier")
+        for finding in quality_findings[:12]:
+            print("  BLOCK %-28s %-12s %s" %
+                  (finding.code, finding.ref, finding.message))
+        if len(quality_findings) > 12:
+            print("  ... %d more quality blockers" % (len(quality_findings) - 12))
     if chapter_fails and done:
         print("chapter-level findings (judged when the chapter is complete): %s"
               % ", ".join(sorted({f.code for f in chapter_fails})))
@@ -462,8 +497,9 @@ def show_status(verses, index, no_grounding=False) -> int:
         if not row:
             print("next verse to write: %d:%d" % (chapter, verse))
             break
-    print("gate a written stretch with: python3 scripts/tafsir/batch.py <chapter> --from A --to B")
-    return 1 if (fails or len(done) < len(verses)) else 0
+    print("draft check: batch.py <chapter> --from A --to B --draft")
+    print("acceptance check (maximum five verses): batch.py <chapter> --from A --to B")
+    return 1 if (fails or quality_findings or len(done) < len(verses)) else 0
 
 
 def check_run(verses, index, no_grounding=False) -> int:
@@ -484,26 +520,36 @@ def check_run(verses, index, no_grounding=False) -> int:
     fails = {ref: [f for f in per_verse[ref] if f.level == A.FAIL] for ref in per_verse}
     failing = sorted(ref for ref, fs in fails.items()
                      if fs and ref not in pending_set)   # a scaffold verse is pending, not failing
+    quality_findings = run_quality_findings(verses)
     print("run %d \u2014 %d verses" % (index, len(verses)))
     print("  written:   %d/%d" % (len(verses) - len(pending), len(verses)))
-    print("  failing:   %d verse(s)%s" % (len(failing), (": " + ", ".join(failing[:8])) if failing else ""))
+    print("  failing:   %d mechanically failing verse(s)%s" %
+          (len(failing), (": " + ", ".join(failing[:8])) if failing else ""))
+    print("  quality:   %d blocking finding(s)" % len(quality_findings))
     if pending:
         print("  pending:   %s" % ", ".join(pending[:8]))
+    if quality_findings:
+        print("QUALITY DRIFT \u2014 GENERATION STOPPED")
+        for finding in quality_findings[:20]:
+            print("  BLOCK %-28s %-12s %s" %
+                  (finding.code, finding.ref, finding.message))
+        if len(quality_findings) > 20:
+            print("  ... %d more quality blockers" % (len(quality_findings) - 20))
     complete_chapters = all(
         len([v for c, v in verses if c == chapter]) == C.verse_count(chapter)
         for chapter in {c for c, _ in verses})
     if complete_chapters:
         for f in chapter_level:
             print("  %-4s %-18s %s" % (f.level, f.code, f.message[:90]))
-    if pending or failing:
-        print("RUN INCOMPLETE \u2014 the run is finished before the writer pauses: write the rest, "
-              "fix the failures, then re-run --check")
+    if pending or failing or quality_findings:
+        print("RUN INCOMPLETE \u2014 map fifty for speed, but stop after each five-verse checkpoint "
+              "until mechanical and independent Chapter-1 parity review both pass")
         return 1
     if complete_chapters and any(f.level == A.FAIL for f in chapter_level):
         print("RUN INCOMPLETE \u2014 the chapter gate still fails on the finished chapter")
         return 1
-    print("RUN COMPLETE \u2014 all %d verses written and clean; wait for the author's next start"
-          % len(verses))
+    print("RUN COMPLETE \u2014 all %d verses are written, mechanically clean and independently "
+          "accepted against chapter 1; wait for the author's next start" % len(verses))
     return 0
 
 
@@ -537,11 +583,11 @@ def main(argv=None):
         show_plan(verses, index, args.target, args.start)
         if verses:
             save_manifest(verses, index)
-            print("  run %d pinned: tmp/runs/run-%03d.json \u2014 the same fifty are finished before "
-                  "the writer pauses" % (index, index))
-            print("  verify it: python3 scripts/tafsir/run.py --check \u2014 RUN COMPLETE only when "
-                  "all %d are written and clean: a call is not finished at %d/50"
-                  % (len(verses), max(0, len(verses) - 1)))
+            print("  run %d pinned: tmp/runs/run-%03d.json \u2014 fifty are mapped for source speed; "
+                  "writing is accepted in checkpoints of five" % (index, index))
+            print("  verify it: run batch.py --draft per verse, then the full parity gate for each "
+                  "five; --check completes only when all %d are independently accepted"
+                  % len(verses))
         return 0
 
     if args.scaffold:

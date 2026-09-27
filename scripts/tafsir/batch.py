@@ -20,8 +20,10 @@ floor, the share of the verse quoted in the prose, how many of its phrases are
 quoted, how many quoted phrases are still missing evidence beside them, and
 whether the verse carries a relatable analogy.
 
-Exit status is 0 when no finding in the selected range is a FAIL (no WARN
-either, under ``--strict``).
+By default, exit status is 0 only when the mechanical gate and the independent
+Chapter-1 parity gate both pass. ``--draft`` runs the mechanical checks alone so a
+new verse can be assembled for review; it is never acceptance. Checkpoints contain
+no more than five newly written verses.
 """
 
 from __future__ import annotations
@@ -35,6 +37,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
 import audit as A  # noqa: E402
+import quality as Q  # noqa: E402
 
 
 def verse_stats(doc, chapter, verses):
@@ -118,7 +121,29 @@ def run_range(chapter, start, end, opts):
         line = "L%-5d" % f.line if f.line else "      "
         lines.append("%-4s %-20s %-7s %s %s" % (f.level, f.code, f.ref, line, f.message))
     if not kept:
-        lines.append("clean")
+        lines.append("mechanical gate clean")
+
+    quality_findings = []
+    if opts.draft:
+        lines.append("DRAFT ONLY — Chapter-1 parity and citation-relevance review not yet applied")
+    else:
+        if chapter != Q.BASELINE_CHAPTER and len(written) > Q.CHECKPOINT_SIZE:
+            quality_findings.append(Q.Finding(
+                "QTY-CHECKPOINT-SIZE", "%d:%d-%d" % (chapter, min(written), max(written)),
+                "acceptance checkpoints contain at most %d verses; review them in order" %
+                Q.CHECKPOINT_SIZE, tuple(written)))
+        checked_findings, _quality_metrics = Q.evaluate(chapter, written, require_reviews=True)
+        quality_findings.extend(checked_findings)
+        if quality_findings:
+            lines.append("")
+            lines.append("QUALITY DRIFT — GENERATION STOPPED")
+            lines.append("last independently accepted verse: %d:%d" %
+                         (chapter, Q.accepted_frontier(chapter)))
+            for finding in quality_findings:
+                lines.append("BLOCK %-28s %-12s %s" %
+                             (finding.code, finding.ref, finding.message))
+        else:
+            lines.append("QUALITY PARITY PASS — independently reviewed against chapter 1")
 
     stats = verse_stats(doc, chapter, written)
     lines.append("")
@@ -137,13 +162,16 @@ def run_range(chapter, start, end, opts):
                  % (m["mean_sentence"], 100 * m["long_sentence_share"], m["flesch"],
                     100 * m["long_word_share"], sum(1 for r in stats if r["analogy"]), len(stats)))
 
-    fails = sum(1 for f in kept if f.level == A.FAIL)
+    mechanical_fails = sum(1 for f in kept if f.level == A.FAIL)
     warns = sum(1 for f in kept if f.level == A.WARN)
+    quality_blocks = len(quality_findings)
+    fails = mechanical_fails + quality_blocks
     bad = fails + (warns if opts.strict else 0)
     lines.append("")
-    lines.append("batch %d:%d-%d — %d verses written, %d pending | %d FAIL, %d WARN | RESULT: %s"
-                 % (chapter, start, end, len(written), len(pending), fails, warns,
-                    "PASS" if not bad else "FAIL"))
+    lines.append("batch %d:%d-%d — %d verses written, %d pending | %d mechanical FAIL, "
+                 "%d quality BLOCK, %d WARN | RESULT: %s"
+                 % (chapter, start, end, len(written), len(pending), mechanical_fails,
+                    quality_blocks, warns, "PASS" if not bad else "FAIL"))
     if pending:
         lines.append("keep going: write %d:%d next, then re-run this gate" % (chapter, pending[0]))
     else:
@@ -179,7 +207,9 @@ def main(argv=None):
     ap.add_argument("--ranges", help="several independent batches at once, e.g. 21-40,41-60,61-80")
     ap.add_argument("--jobs", type=int, default=4, help="how many ranges to audit in parallel (default 4)")
     ap.add_argument("--progress", action="store_true", help="print where the chapter stands and exit")
-    ap.add_argument("--strict", action="store_true", help="warnings fail the batch too")
+    ap.add_argument("--strict", action="store_true", help="mechanical warnings fail the batch too")
+    ap.add_argument("--draft", action="store_true",
+                    help="run mechanical checks only while drafting; never counts as quality acceptance")
     ap.add_argument("--no-grounding", action="store_true")
     args = ap.parse_args(argv)
 
@@ -202,7 +232,8 @@ def main(argv=None):
         return 0
 
     ranges = parse_ranges(args.ranges, args.chapter) if args.ranges else [(args.start, args.end)]
-    opts = types.SimpleNamespace(no_grounding=args.no_grounding, strict=args.strict)
+    opts = types.SimpleNamespace(no_grounding=args.no_grounding, strict=args.strict,
+                                 draft=args.draft)
 
     if len(ranges) == 1:
         report = run_range(args.chapter, ranges[0][0], ranges[0][1], opts)

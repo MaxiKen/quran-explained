@@ -5,14 +5,13 @@ Quran explained verse by verse.
 The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
 time, out of the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the
 ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed
-format and gated by an auditor before it is published to the app. The standard in force is
-**v7.4**: the eleven works researched for every verse and named nowhere in the text, each verse
-presented on its own terms, every cross-reference expanded with its clause, the register of
-§0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapter 1 is written and
-published (`tafsir/001.md`, `data/tafsir_001.json`). Chapter 2 has an introduction and commentary
-through 2:100; verses 2:101–2:286 remain scaffolds, so the chapter is not published. Work moves in
-**runs of fifty verses** (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and
-finished before the writer pauses.
+format and two gates before it is published to the app. The standard in force is **v8**: the v7.4
+source, register and independence laws remain, and Chapter 1 is now the frozen quality floor rather
+than merely an example. Chapter 1 is written and published (`tafsir/001.md`,
+`data/tafsir_001.json`). Chapter 2 has an introduction and commentary through 2:100, but that prose
+is not independently accepted by the v8 parity gate; verses 2:101–2:286 remain scaffolds. Fifty
+verses are mapped from the eleven works in one pass, while prose is mechanically checked per verse
+and independently accepted in checkpoints of no more than five.
 
 ## Start here
 
@@ -33,10 +32,15 @@ python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the 
 python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
 python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
-#   ... write the prose from the map, splice with scripts/tafsir/assemble.py ...
-python3 scripts/tafsir/run.py --check            # RUN COMPLETE when all fifty are written and clean
-python3 scripts/tafsir/audit.py 2                # the gate: must print RESULT: PASS
-python3 scripts/tafsir/build_data.py 2           # publish → data/tafsir_002.json
+#   ... write one verse, splice it, and run its mechanical draft check ...
+python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
+#   ... after no more than five, a different reviewer completes the parity review ...
+python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 101 --to 105  # mechanical + Chapter-1 parity acceptance
+python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
+python3 scripts/tafsir/audit.py 2                # mechanical chapter gate
+python3 scripts/tafsir/quality.py 2              # semantic Chapter-1 parity gate
+python3 scripts/tafsir/build_data.py 2           # refuses unreviewed prose
 python3 scripts/tafsir/status.py 2               # words per verse, gate verdict
 ```
 
@@ -56,15 +60,14 @@ Excerpts worth knowing:
 * every verse carries at least 700 words, rising to nine times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
-* prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a
-  relatable analogy where one fits;
+* prose is plain English and is compared with the frozen Chapter-1 sentence, readability and
+  evidence baseline; analogy and application are optional and must add verse-specific clarity;
 * every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
   `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
   prints the expansion;
-* work moves in **runs of fifty verses**, mapped out of all eleven works in one pass
-  (`scripts/tafsir/run.py --build`), gated with `scripts/tafsir/batch.py N` as the stretches land,
-  and finished — all fifty written and clean (`run.py --check`) — before the writer pauses;
-* a chapter is finished when the whole-file auditor is clean, every verse clears its word floor,
+* fifty verses are mapped for research speed, but prose is written in order, mechanically checked
+  one verse at a time and independently reviewed every five; `QUALITY DRIFT` stops and notifies;
+* a chapter is finished when the mechanical auditor and Chapter-1 parity gate pass, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 
 ## App structure

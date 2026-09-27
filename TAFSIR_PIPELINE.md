@@ -5,9 +5,10 @@ then edited down over many passes) was deleted in commit `b600667`, together wit
 (`data/tafsir_*.json`), its process documents and its generator scripts. What replaces it is a
 small, strict pipeline: one chapter file at a time, written from the **eleven** works in this
 repository (v7.4: the ten tafsirs plus the study draft `tafsir_initial/`), gated by an auditor that
-will not pass anything malformed, unevidenced, repetitive or padded. Work moves in **runs of fifty
-verses** (`run.py`), each mapped out of all eleven works in one pass and finished before the writer
-pauses.
+will not pass anything malformed, unevidenced, repetitive or padded. Fifty verses are mapped from
+all eleven works in one pass for research speed. Prose is checked one verse at a time and accepted
+in independently reviewed checkpoints of no more than five; quality drift stops and notifies before
+it can spread through the source map.
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
 * **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
@@ -29,7 +30,9 @@ pauses.
 | `js/`, `css/`, `index.html`, `sw.js` | the reader app; unchanged except that a missing payload no longer breaks a chapter |
 | `tmp/sources/NNN.{txt,json}` | the per-chapter source digests (all eleven), rebuildable, git-ignored |
 | `tmp/runs/run-NNN.{txt,json}` | a run's map — the fifty verses with all eleven works beneath them — and its manifest, git-ignored |
-| `tmp/work/cN_v*.md` | the verse drafts for the chapter being written; tracked, so a wiped sandbox cannot take them |
+| `tmp/work/cN_v*.md` | verse drafts; assembly makes them readable but does not make them accepted |
+| `quality/chapter-001-baseline.json` | frozen Chapter-1 hash, measurements and v8 drift thresholds |
+| `quality/reviews/NNN/AAA-BBB.json` | tracked independent rubric and citation-relevance review for at most five verses |
 
 History is not gone. The deleted corpus and its rule documents are readable at the previous
 commit, e.g.
@@ -78,7 +81,7 @@ python3 scripts/tafsir/run.py --plan --start 2:1         # fifty from the author
 python3 scripts/tafsir/run.py --build                  # map them (tmp/runs/) + per-chapter digests
 python3 scripts/tafsir/run.py --slice 2:1 2:5          # read the map a stretch at a time
 python3 scripts/tafsir/run.py --status                 # the run's words, floors and gate state
-python3 scripts/tafsir/run.py --check                  # RUN COMPLETE only when all fifty are clean
+python3 scripts/tafsir/run.py --check                  # all fifty clean and independently accepted
 
 # cross-references are expanded, never typed (v7.2)
 python3 scripts/tafsir/reference.py 2:255              # ready-made citations for a verse
@@ -96,12 +99,16 @@ python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut eve
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse's wording, a synonym, or neither?
 
-# 3. write the prose in long stretches (a run is fifty verses), gating as they land
-python3 scripts/tafsir/assemble.py 2                   # splice tmp/work drafts into tafsir/002.md
-python3 scripts/tafsir/batch.py 2 --from 6 --to 20      # gate an unfinished chapter's batch
-python3 scripts/tafsir/batch.py 2 --ranges 6-20,21-35,36-50   # several batches at once, in parallel
-python3 scripts/tafsir/batch.py 2 --progress            # how far the chapter has come
-python3 scripts/tafsir/audit.py 2                       # whole chapter: exit 0 only on PASS
+# 3. write in order: mechanical check per verse, independent acceptance per five
+python3 scripts/tafsir/assemble.py 2
+python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
+python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
+# a different reviewer completes quality/reviews/002/101-105.json
+python3 scripts/tafsir/batch.py 2 --from 101 --to 105
+python3 scripts/tafsir/quality.py 2 --from 101 --to 105
+python3 scripts/tafsir/batch.py 2 --progress
+python3 scripts/tafsir/audit.py 2                       # whole chapter mechanical gate
+python3 scripts/tafsir/quality.py 2                     # whole chapter parity gate
 python3 scripts/tafsir/audit.py 2 --json > findings.json
 python3 scripts/tafsir/audit.py --all                   # corpus overview
 
@@ -110,7 +117,8 @@ python3 scripts/tafsir/build_data.py 2                  # data/tafsir_002.json
 python3 scripts/tafsir/build_data.py --all --check      # is the payload in sync?
 python3 scripts/tafsir/status.py 2
 python3 scripts/tafsir/status.py --md                   # table for the worklog
-python3 scripts/tafsir/selftest.py                     # break each rule on a scratch copy: does the gate catch it?
+python3 scripts/tafsir/selftest.py                     # mechanical mutation tests
+python3 scripts/tafsir/qualitytest.py                  # Chapter-1 parity regression tests
 ```
 
 `selftest.py` proves the contract is real: it mutates a written chapter once per rule (lower-case
@@ -123,11 +131,11 @@ what they mean:
 |---|---|
 | `FMT-*` | wrong shape: title, introduction, verse set/order, quote line, separators, spacing, placeholders — and a heading that is not UPPERCASE (`FMT-HEADING-CASE`), is the verse's own wording (`FMT-HEADING-QUOTED`), repeats it (`FMT-HEADING-VERSE`), or is generic |
 | `PHR-*` | phrases: quoting style (`PHR-QUOTE-STYLE` — this verse's phrases are bold italics `***“…***`, other references bold only), the verse is not quoted in the prose (`PHR-PHRASE-NONE`), a phrase is never quoted (`PHR-PHRASE-MISSING`), the quoted share is under 90%, an unquoted gap runs past 8 words, the edges are dropped, one quote swallows the verse (`PHR-CHUNK`), or a quoted phrase has no evidence beside it (`PHR-EVIDENCE`) |
-| `WRD-*` | length: a verse under its floor (500 words, or 8× the verse's own length, capped at 4,000) or an introduction outside 250–1,500 |
+| `WRD-*` | length: a verse under its floor (700 words, or 9× the verse's own length, capped at 4,000) or an introduction outside 250–1,500 |
 | `EVD-*` | evidence: a verse with no checkable anchor, or a prophetic report that never names its collection |
 | `REF-*` | references: a citation to a non-existent verse, a quote that is not verbatim from `data/`, quoting style broken |
 | `REP-*` | repetition: a duplicated sentence, two verse sections sharing phrasing, filler or machine prose |
-| `STY-*` | style: formal diction instead of plain English, sentences too long, reading ease too low, or no relatable analogy in the verse |
+| `STY-*` | mechanical style diagnostics: diction, sentence length, reading ease, and analogy/application marker presence; v8 semantic acceptance is separate |
 | `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a headword that neither is the verse's wording nor *means the same thing* — one word or a whole phrase (`MTCH-WORD`, fail), or Arabic offered as the verse's own wording (`MTCH-TERM`, fail); a synonym, or an Arabic term whose meaning the verse carries, is adjusted to the verse's own wording and recorded as information (`MTCH-SYNONYM`) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
 
@@ -139,10 +147,11 @@ The thresholds that keep chapters honest as they grow:
 
 | Rule | Value |
 |---|---|
-| Words per verse | floor `max(500, 8 × verse words)`, capped 4,000; soft ceiling 5,000 |
+| Words per verse | floor `max(700, 9 × verse words)`, capped 4,000; soft ceiling 5,000 |
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
-| Analogy | at least half the chapter's verses carry one |
+| Analogy/application | optional; must add verse-specific clarity and may not occupy a repeated production slot |
+| V8 checkpoint | at most 5 verses; independent rubric scores all ≥4 and every citation relevance-reviewed |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
 | Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
@@ -164,19 +173,13 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. Work moves in **runs of fifty verses** (v7.2), cut from the start **the author names** (v7.5):
-   a chapter (`2`) or a chapter:verse (`2:1`), given to `run.py --plan --start`, which pins the
-   fifty. The writer never picks the first verse, and when the instruction is only "continue" the
-   first act is to ask where to start and wait for it. A run may span chapters. It is planned and
-   mapped first (`run.py --plan --start …`, `run.py --build`) so the eleven works are opened once for fifty
-   verses, then written, gated with `batch.py N`, and fixed until `run.py --check` prints RUN
-   COMPLETE. The run is not left half-written, and the writer does not stop between its stretches.
-   Stopping mid-run is for a real blockage (a source that cannot be located, a contradiction that
-   needs a decision), never for a check-in.
-3. Never leave a half-written verse: a section is either the scaffold's `TODO` text or finished
-   prose. Batches are committed as they land, with the payload, `sw.js` bump and worklog row left
-   for the end of the chapter.
-4. A chapter is done when `audit.py N` ends `RESULT: PASS`, every verse clears its own word floor
+2. The author names the start. Fifty verses are then mapped from all eleven works in one pass, but
+   prose is written in order, mechanically checked per verse and independently accepted per five.
+   No sixth unaccepted verse is opened. `QUALITY DRIFT` is a mandatory stop and notification;
+   `run.py --check` completes only after all fifty are independently accepted.
+3. Never leave a half-written verse. Assembled prose remains a draft until its independent review
+   passes. Only accepted checkpoints are committed; payload and worklog changes wait for the chapter.
+4. A chapter is done when `audit.py N` ends `RESULT: PASS`, `quality.py N` ends `QUALITY PARITY PASS`, every verse clears its own word floor
    (`status.py N` shows them side by side), `build_data.py N --check` reports no stale payload, the
    worklog row exists, and `sw.js` has been bumped. Commit per chapter on the session branch
    (`Tafsir ch N (<Name>): verse-by-verse from all <k> sources`); push only to that branch.
