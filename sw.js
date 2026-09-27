@@ -13,15 +13,14 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.5.48';
+const CACHE_VERSION = 'quran-reader-v2.5.49';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
 // cache, so these URLs are dropped from every cache when this version activates
 // (the chapter downloads themselves are still carried across versions below).
-// Empty again since chapter 1 was rewritten and republished under v7.4: the
-// payload on the server is the current text and must be kept, not purged.
-const RETIRED_PAYLOADS = [];
+// Chapter 2 is incomplete and has no current commentary payload.
+const RETIRED_PAYLOADS = ['./data/tafsir_002.json'];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [

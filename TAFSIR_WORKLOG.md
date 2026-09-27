@@ -15,7 +15,7 @@ line of it:
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
 | Runs | **fifty verses per run** (v7.2), mapped from all eleven in one pass at the start (`run.py --plan/--build`), read in slices, and finished — every one of the fifty written and clean — before the writer pauses or stops (`run.py --check`) |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
-| Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least four sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
+| Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
 | Headings | **UPPERCASE** descriptive titles of the writer's own (context, history, story, ruling, explanation) — never the verse's own wording (`FMT-HEADING-CASE`, `FMT-HEADING-QUOTED`, `FMT-HEADING-VERSE`) |
 | Quoting style | this verse's own phrases in **bold italics** (`***“phrase”***`, enforced by `PHR-QUOTE-STYLE`); clauses of other verses in **bold only** inside their reference (`(C:V — **“clause”**)`, enforced by `REF-QUOTE-STYLE`) — **every** cross-reference expanded with the clause it points to, bare citations warn at 1–2 and fail from 3 in a section (`REF-BARE`, v7.2; `reference.py` prints them) |
@@ -42,74 +42,28 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Nine author-named fifty-verse runs are delivered (2026-09-27).** The first chapter-only start resolved
+**Two author-named chapter-2 runs are delivered (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
 
 The author then named **2:51** exactly, pinning **2:51–2:100**. The second fifty add 43,365 words,
 with 730/859/1,062 as the minimum, median and maximum. Its own gate reports 0 FAIL and 51
 advisories: 38 reasoning-floor preferences and 13 upstream `tafsir_initial` coverage gaps. The
-growing 2:1–2:100 gate also passes at 0 FAIL and 105 advisories.
-
-The author next chose chapter 2, which resolved to its first unwritten verse and pinned
-**2:101–2:150**. This third run adds 40,937 words, with 718/808/1,427 as the minimum, median and
-maximum. Its gate reports 0 FAIL and 45 advisories: 39 reasoning-floor preferences and six upstream
-`tafsir_initial` coverage gaps. The growing 2:1–2:150 gate passes at 0 FAIL and 178 advisories.
-
-After that delivery, the author said to continue and named **2:151**, pinning **2:151–2:200**. The
-fourth run adds 46,129 words, with 724/882/1,307 as its minimum, median and maximum. Its exact gate
-reports 0 FAIL and 81 advisories; the growing 2:1–2:200 gate reports 0 FAIL and 279 advisories.
-
-The author then continued from **2:201**, pinning **2:201–2:250**. The fifth run adds 56,019 words,
-with 901/1,123/1,438 as its minimum, median and maximum. Its exact gate reports 0 FAIL and 141
-advisories; the growing 2:1–2:250 gate reports 0 FAIL and 425 advisories. `run.py --check` reports
-**RUN COMPLETE — 50/50 written, 0 failing** for the pinned fifth run.
-
-The author then named **2:251**, so the sixth run crossed a chapter boundary: **2:251–2:286 plus
-3:1–3:14**. The chapter-2 portion adds 41,257 words, with 738/1,100/2,029 as its minimum, median and
-maximum; the chapter-3 portion adds 11,508 words, with 707/777/1,087 by the part-file count. The
-exact 2:251–2:286 gate, exact 3:1–3:14 gate, growing chapter-2 gate, and `run.py --check` all pass
-with 0 FAIL. Every verse in the run has complete canonical phrase coverage, transmitted evidence,
-an expanded cross-reference, present-day application and a relatable analogy.
-
-Completing 2:286 also completed Al-Baqarah. Its whole-file audit passes with 0 FAIL, the chapter has
-266,252 verse words, and `data/tafsir_002.json` was built from the markdown and checked current.
-`sw.js` moved to `quran-reader-v2.5.48`.
-
-The author next named **3:15**, pinning the seventh run at **3:15–3:64**. All fifty drafts were
-written from the eleven-work run map. They add 39,442 words, with 741/777/902 as the minimum,
-median and maximum. The exact run gate passes at 0 FAIL and 89 advisories; the growing 3:1–3:64
-gate passes at 0 FAIL and 120 advisories; `run.py --check` reports **RUN COMPLETE — 50/50 written,
-0 failing**. Every verse has full canonical phrase coverage, an expanded cross-reference,
-transmitted evidence, present-day application and a relatable analogy.
-
-The author then named **3:65**, pinning the eighth run at **3:65–3:114**. The fifty verses were
-mapped from all eleven works, written, spliced and repaired through both the exact and growing
-gates. They add 45,719 words, with 798/917/1,002 as the minimum, median and maximum. The exact
-run gate passes at 0 FAIL and 90 advisories; the growing 3:1–3:114 gate passes at 0 FAIL and 212
-advisories; `run.py --check` reports **RUN COMPLETE — 50/50 written, 0 failing**. Every verse has
-complete phrase coverage, verse-specific transmitted evidence, an expanded cross-reference,
-present-day application and a relatable analogy. At that point 3:115–3:200 remained scaffolds.
-
-The author next named **3:115**, pinning the ninth run at **3:115–3:164**. Its fifty verse drafts
-were written from the pinned eleven-work map and revised to remove repeated analysis frames and
-inherited relay-like stage directions before the final gates. They add 37,548 words, with
-702/734/1,242 as the minimum, median and maximum. The exact run gate passes at 0 FAIL and 86
-advisories; the growing 3:1–3:164 gate passes at 0 FAIL and 312 advisories; `run.py --check`
-reports **RUN COMPLETE — 50/50 written, 0 failing**. Every verse has complete phrase coverage,
-verse-specific transmitted evidence, an expanded cross-reference, present-day application and a
-relatable analogy. Chapter 3 remains unpublished because 3:165–3:200 are still scaffolds.
+growing 2:1–2:100 gate also passes at 0 FAIL and 105 advisories. `run.py --check` reports **RUN
+COMPLETE — 50/50 written, 0 failing** for the pinned second run. Every written verse has 100% phrase
+coverage, a named transmitted reading, an expanded cross-reference, present-day application and a
+relatable analogy.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | PASS; published |
-| 2 | `tafsir/002.md` | 286/286 | 266,252 | 703/867/2,029 | PASS; published |
-| 3 | `tafsir/003.md` | 164/200 | 134,219 | 702/783/1,242 | 3:1–3:164 PASS; 36 verses still scaffold |
+| 2 | `tafsir/002.md` | 100/286 | 81,910 | 703/802/1,062 | 2:1–2:100 PASS; 186 verses still scaffold |
 
-Totals: **2 of 114 chapters complete, 457 of 6,236 verses written.** Chapters 1 and 2 have current
-payloads. Chapter 3 has a 617-word introduction and clean prose through 3:164 but no payload. A
-completed run does not choose its successor: the author must name the next chapter or chapter:verse;
-naming chapter 3 now would resolve to 3:165.
+Totals: **1 of 114 chapters complete, 107 of 6,236 verses written.** Chapter 2 has a 677-word
+introduction and clean prose through 2:100. Its remaining verses, 2:101–2:286, stay as `TODO`
+scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
+run does not choose its successor: the author must name the next chapter or chapter:verse; naming
+chapter 2 now would resolve to 2:101.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

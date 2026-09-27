@@ -8,11 +8,11 @@ ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is gener
 format and gated by an auditor before it is published to the app. The standard in force is
 **v7.4**: the eleven works researched for every verse and named nowhere in the text, each verse
 presented on its own terms, every cross-reference expanded with its clause, the register of
-§0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapters 1 and 2 are written and
-published (`data/tafsir_001.json`, `data/tafsir_002.json`); chapter 3 is written through 3:164 and
-remains unpublished while 3:165–3:200 are scaffolds. Work moves in **runs of fifty verses**
-(`scripts/tafsir/run.py`), mapped from all eleven works in one pass and finished before the writer
-pauses.
+§0.11 and the independence law of §0.12 of `TAFSIR_RULES.md`. Chapter 1 is written and
+published (`tafsir/001.md`, `data/tafsir_001.json`). Chapter 2 has an introduction and commentary
+through 2:100; verses 2:101–2:286 remain scaffolds, so the chapter is not published. Work moves in
+**runs of fifty verses** (`scripts/tafsir/run.py`), mapped from all eleven works in one pass and
+finished before the writer pauses.
 
 ## Start here
 
@@ -53,7 +53,7 @@ Excerpts worth knowing:
 * the commentary explains the verse as it is quoted: everything it holds up to explain is the
   verse's own wording or a synonym of it — one word or a whole phrase — and a synonym is adjusted to
   the verse's words while anything else fails;
-* every verse carries at least 500 words, rising to eight times the verse's own length for long
+* every verse carries at least 700 words, rising to nine times the verse's own length for long
   verses, and every verse needs checkable evidence — a Qur'an cross-reference, a report with its
   collection, a named authority, or a language point;
 * prose is plain English (mean sentence under 22 words, reading ease 60+) and each verse carries a
