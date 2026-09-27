@@ -1,20 +1,20 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "chapter": 1,
   "file": "tafsir/001.md",
-  "sha256": "73031f0107399d6ba65a59647dc7ed578d7cf738e0fc50e67d1d895318e2be0f",
+  "sha256": "3567804b442f88fd8a56c6fa4e0ec46dbadae91f8c5533539c8f1ae00aa2e4a8",
   "metrics": {
     "verses": 7,
-    "words": 6133,
-    "sentences": 268,
-    "mean_sentence": 22.884328358208954,
-    "long_sentence_share": 0.05223880597014925,
-    "flesch": 67.41862471739626,
-    "quran_references": 30,
-    "authority_mentions": 30,
-    "quran_references_per_1000": 4.891570194032284,
-    "authority_mentions_per_1000": 4.891570194032284,
-    "evidence_mentions_per_1000": 9.783140388064568
+    "words": 7575,
+    "sentences": 361,
+    "mean_sentence": 20.98337950138504,
+    "long_sentence_share": 0.036011080332409975,
+    "flesch": 63.17679059817341,
+    "quran_references": 51,
+    "authority_mentions": 45,
+    "quran_references_per_1000": 6.732673267326732,
+    "authority_mentions_per_1000": 5.9405940594059405,
+    "evidence_mentions_per_1000": 12.673267326732672
   },
   "checkpoint_size": 5,
   "rubric": [
@@ -29,10 +29,10 @@
   ],
   "minimum_score": 4,
   "thresholds": {
-    "mean_sentence_max": 24.884328358208954,
+    "mean_sentence_max": 22.98337950138504,
     "long_sentence_share_max": 0.1,
     "flesch_min": 62.418624717396256,
-    "evidence_density_min": 6.35904125224197,
+    "evidence_density_min": 8.237623762376238,
     "authority_concentration_max": 0.7,
     "shape_concentration_max": 0.6,
     "final_application_share_max": 0.8

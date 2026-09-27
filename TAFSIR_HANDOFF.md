@@ -3,8 +3,10 @@
 Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v8**) and
 `TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. Fifty verses are a source-map unit,
 not an acceptance unit: write in order, mechanically check each verse, and obtain independent
-Chapter-1 parity and citation-relevance review after no more than five. `QUALITY DRIFT` is a
-mandatory stop and notification.
+Chapter-1 parity review after no more than five. That review covers the complete source map,
+material omissions, Qur'an citations, every named transmitted report, and language or consequential
+legal/theological claims—not only surface metrics.
+`QUALITY DRIFT` is a mandatory stop and notification.
 
 ## When the author says "continue" (start here)
 
@@ -27,8 +29,11 @@ python3 scripts/tafsir/run.py --slice 2:101 2:105  # read the map a stretch at a
 ```
 
 Then write in verse order. Gate each verse mechanically with `batch.py ... --draft`. After no more
-than five, create `quality.py --template`, have a different reviewer complete the tracked rubric and
-citation ledger, and run `batch.py` without `--draft`. Do not open a sixth unaccepted verse.
+than five, create `quality.py --template`. A different reviewer must compare every fingerprinted
+source passage with the prose, group duplicate works into distinct material points, account for any
+omission, complete the rubric and claim ledger, judge every Qur'an citation, and locate every named report or early authority in an
+allowlisted source before
+`batch.py` may run without `--draft`. Do not open a sixth unaccepted verse.
 `QUALITY DRIFT` stops the run and must be reported immediately. `run.py --check` reaches RUN
 COMPLETE only when all fifty are mechanically clean and independently accepted.
 
@@ -46,8 +51,10 @@ Before any of that, two housekeeping steps:
    in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so part files from earlier
    sessions are present and must not be overwritten.
 
-State to expect on arrival (2026-09-27): Chapter 1 is the frozen accepted baseline and its payload
-is current. Chapter 2:1–100 passes the old mechanical minimum but has **no v8 independent reviews**
+State to expect on arrival (2026-09-27): the source-enriched Chapter 1 is independently approved,
+frozen as the raised quality floor, and published. Its accepted source/claim/evidence reviews are in
+`quality/reviews/001/001-005.json` and `006-007.json`, with the owner approval recorded in
+`quality/chapter-001-baseline-approval.json`. Chapter 2:1–100 passes the old mechanical minimum but has **no v8 independent reviews**
 and is therefore not accepted; `quality.py 2 --from 1 --to 100` deliberately reports QUALITY DRIFT,
 including the 2:95 triple paste, prose/evidence decline, authority concentration, repeated shape and
 fixed application placement. No 2:101 writing begins until the earlier accepted frontier is resolved.
@@ -57,9 +64,9 @@ fixed application placement. No 2:101 writing begins until the earlier accepted 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
-| Written | **chapter 1 complete, published and frozen as the quality floor**; chapter 2 introduction + 2:1–2:100 are drafted but **not v8 accepted**. Written is not accepted. |
-| Next | Resolve and independently review Chapter 2 from verse 1 in checkpoints of at most five. No 2:101 writing while the accepted frontier remains 2:0. |
-| Standard | **v8**: all v7.4 source/register/independence rules plus §0.13—Chapter-1 parity, independent rubric and citation-relevance review, one-verse draft checks, five-verse acceptance, immediate quality-stop notification. |
+| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; chapter 2 introduction + 2:1–2:100 are drafted but **not v8 accepted**. Written is not accepted. |
+| Next | Resolve Chapter 2 from verse 1 in independently reviewed checkpoints of at most five. No 2:101 writing while the accepted frontier remains 2:0. |
+| Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, one-verse draft checks, five-verse acceptance, and immediate quality-stop notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench now holds
@@ -67,9 +74,9 @@ Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench n
 prose and must not be overwritten. Measured state:
 
 ```
-python3 scripts/tafsir/audit.py 1                   # chapter 1: PASS
-python3 scripts/tafsir/build_data.py 1 --check      # the chapter-1 payload still matches
-python3 scripts/tafsir/quality.py --baseline        # validates frozen Chapter-1 hash and floor
+python3 scripts/tafsir/audit.py 1                   # raised Chapter 1: mechanical PASS
+python3 scripts/tafsir/build_data.py 1 --check      # accepted payload matches
+python3 scripts/tafsir/quality.py --baseline        # validates raised frozen hash and floor
 python3 scripts/tafsir/quality.py 2 --from 1 --to 100 # QUALITY DRIFT until repaired/reviewed
 python3 scripts/tafsir/qualitytest.py               # parity gate regression suite
 python3 scripts/tafsir/audit.py 2                   # mechanical failure on TODO 2:101–2:286 (expected)
@@ -112,6 +119,12 @@ The author's instructions, verbatim, in force:
   The eleven works are research: learn from them, then write the book's own reading —
   never relay, compare, summarise or quote them, and never cite a work outside the
   eleven.
+* "Add every other rule you feel is necessary for generation of the best of contents backed by
+  evidences from sources and that is later generations doesn't lose content quality. Make them go
+  round." This is enforced by source fingerprints, full-map synthesis review, material-omission
+  decisions, Qur'an and transmitted-evidence relevance ledgers, explicit language/legal/theological
+  claim verification, and the same
+  complete review before Chapter 1 itself may be raised.
 * Their authenticated contents are taken as they stand: **no fact-checking** is
   required or wanted.
 * **Each paragraph must be greater than 120 words** (`WRD-PARA-FLOOR`). A heading may
@@ -153,9 +166,11 @@ false alarms: 0` after any change to the gate.
    `python3 scripts/tafsir/reference.py 2:255` prints ready-made citations;
    `--scan N` lists every bare citation in a chapter with its replacement (`--write`
    applies them). A typed clause is where `REF-QUOTE` failures come from.
-6. **After no more than five**, create the quality review template. A different reviewer scores
-   every rubric dimension and verifies every citation's relevance. Run `batch.py` without
-   `--draft`; commit only after `QUALITY PARITY PASS`.
+6. **After no more than five**, create the quality review template. A different reviewer compares
+   all fingerprinted source passages with the draft, records any substantive omission, scores every
+   rubric dimension, verifies every Qur'an citation, and gives every named transmitted statement a
+   matching fingerprinted allowlisted passage reference, excerpt and relevance decision. Run `batch.py` without `--draft`;
+   commit only after `QUALITY PARITY PASS`.
 7. **Quality drift is the stop.** Report the trigger, blocked range and last independently accepted
    verse immediately. `run.py --check` completes only when all fifty have passed both gates.
 8. **When a chapter is finished**: `audit.py N` and `quality.py N` must both pass, then run

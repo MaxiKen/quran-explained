@@ -32,7 +32,7 @@ it can spread through the source map.
 | `tmp/runs/run-NNN.{txt,json}` | a run's map — the fifty verses with all eleven works beneath them — and its manifest, git-ignored |
 | `tmp/work/cN_v*.md` | verse drafts; assembly makes them readable but does not make them accepted |
 | `quality/chapter-001-baseline.json` | frozen Chapter-1 hash, measurements and v8 drift thresholds |
-| `quality/reviews/NNN/AAA-BBB.json` | tracked independent rubric and citation-relevance review for at most five verses |
+| `quality/reviews/NNN/AAA-BBB.json` | tracked review for at most five verses: rubric, all-source fingerprint/synthesis, substantive-claim verification, Qur'an relevance, and transmitted-evidence source/relevance ledgers |
 
 History is not gone. The deleted corpus and its rule documents are readable at the previous
 commit, e.g.
@@ -103,7 +103,9 @@ python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse'
 python3 scripts/tafsir/assemble.py 2
 python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
 python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
-# a different reviewer completes quality/reviews/002/101-105.json
+# a different reviewer completes quality/reviews/002/101-105.json:
+# all-source comparison + omissions, rubric, substantive-claim ledger, Qur'an ledger,
+# and transmitted-evidence ledger
 python3 scripts/tafsir/batch.py 2 --from 101 --to 105
 python3 scripts/tafsir/quality.py 2 --from 101 --to 105
 python3 scripts/tafsir/batch.py 2 --progress
@@ -138,6 +140,9 @@ what they mean:
 | `STY-*` | mechanical style diagnostics: diction, sentence length, reading ease, and analogy/application marker presence; v8 semantic acceptance is separate |
 | `MTCH-*` | match: bold used outside the three markers — the UPPERCASE headings, this verse's phrases (bold italics `***“…***`), clauses of other verses quoted in bold only inside their reference (`MTCH-BOLD`); a headword that neither is the verse's wording nor *means the same thing* — one word or a whole phrase (`MTCH-WORD`, fail), or Arabic offered as the verse's own wording (`MTCH-TERM`, fail); a synonym, or an Arabic term whose meaning the verse carries, is adjusted to the verse's own wording and recorded as information (`MTCH-SYNONYM`) |
 | `GRD-*` | grounding (advisory): names or terms in a section that do not appear in that verse's sources |
+| `QTY-SOURCE-*` | acceptance blocker: source fingerprint changed, all available works were not compared with the prose, or a material omission lacks a decision |
+| `QTY-CITATION-*` | acceptance blocker: a Qur'an quote is mismatched, unsupported or not relevance-reviewed |
+| `QTY-TRANSMITTED-*` | acceptance blocker: a named report/early authority lacks an allowlisted matching excerpt or relevance decision |
 
 v7.2 adds `REF-BARE`: a cross-reference with no wording — `(2:255)`, or a list such as
 `(2:156, 245, 281)` — warns once or twice in a section and fails from three; `reference.py --scan`
@@ -151,7 +156,7 @@ The thresholds that keep chapters honest as they grow:
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy/application | optional; must add verse-specific clarity and may not occupy a repeated production slot |
-| V8 checkpoint | at most 5 verses; independent rubric scores all ≥4 and every citation relevance-reviewed |
+| V8 checkpoint | at most 5 verses; all-source comparison complete; rubric scores all ≥4; every scaffolded/additional substantive claim, Qur'an citation and transmitted statement source/relevance-reviewed |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
 | Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
@@ -178,7 +183,10 @@ payload is (re)generated, so returning readers get the new file instead of the c
    No sixth unaccepted verse is opened. `QUALITY DRIFT` is a mandatory stop and notification;
    `run.py --check` completes only after all fifty are independently accepted.
 3. Never leave a half-written verse. Assembled prose remains a draft until its independent review
-   passes. Only accepted checkpoints are committed; payload and worklog changes wait for the chapter.
+   compares every available source passage, accounts for material omissions, validates every Qur'an
+   citation, locates every named transmitted statement in the corpus, and passes the rubric. Source
+   fingerprints invalidate stale reviews automatically. Only accepted checkpoints are committed;
+   payload and worklog changes wait for the chapter.
 4. A chapter is done when `audit.py N` ends `RESULT: PASS`, `quality.py N` ends `QUALITY PARITY PASS`, every verse clears its own word floor
    (`status.py N` shows them side by side), `build_data.py N --check` reports no stale payload, the
    worklog row exists, and `sw.js` has been bumped. Commit per chapter on the session branch

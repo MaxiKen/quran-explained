@@ -2,14 +2,17 @@
 """Regression tests for the v8 Chapter-1 parity gate.
 
 The fixtures are synthetic so repairing Chapter 2 cannot make the tests fail. They
-represent the defects that motivated v8: a triple-pasted clause, unreviewed citation
-relevance, long and difficult prose, token authority use, fixed shape, and a fixed
-final application slot.
+represent the defects that motivated v8 and the raised baseline: a triple-pasted
+clause, unreviewed Qur'an or transmitted evidence, unverified source synthesis,
+long and difficult prose, token authority use, fixed shape, and a fixed final
+application slot.
 """
 
 from __future__ import annotations
 
+import json
 import sys
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -43,6 +46,48 @@ def main() -> int:
     except SystemExit:
         pass
 
+    weaker = {"thresholds": {
+        "mean_sentence_max": 30.0, "flesch_min": 50.0,
+        "evidence_density_min": 4.0,
+    }}
+    previous = {"thresholds": {
+        "mean_sentence_max": 24.0, "flesch_min": 62.0,
+        "evidence_density_min": 7.0,
+    }}
+    preserved = Q.preserve_stronger_thresholds(weaker, previous)["thresholds"]
+    if preserved != {"mean_sentence_max": 24.0, "flesch_min": 62.0,
+                      "evidence_density_min": 7.0}:
+        failures.append("raising the baseline weakened an existing drift threshold")
+
+    if baseline:
+        original_baseline_path, original_reviews_dir = Q.BASELINE_PATH, Q.REVIEWS_DIR
+        try:
+            with tempfile.TemporaryDirectory() as temp_dir:
+                temp = Path(temp_dir)
+                Q.BASELINE_PATH = temp / "baseline.json"
+                Q.REVIEWS_DIR = temp / "reviews"
+                Q.REVIEWS_DIR.mkdir()
+                Q.BASELINE_PATH.write_text(json.dumps(baseline) + "\n")
+                approval_path = temp / "approval.json"
+                approval_path.write_text(json.dumps({
+                    "schema_version": Q.SCHEMA_VERSION,
+                    "writer": "writer-test",
+                    "reviewer": "reviewer-test",
+                    "independent": True,
+                    "approved": True,
+                    "old_sha256": baseline["sha256"],
+                    "new_sha256": Q._sha256(C.output_path(1)),
+                    "reason": "This candidate adds stronger evidence without lowering any established quality floor.",
+                }) + "\n")
+                try:
+                    Q.validate_baseline_approval(str(approval_path))
+                    failures.append("baseline approval without complete verse reviews was accepted")
+                except SystemExit as exc:
+                    if "baseline semantic review is incomplete" not in str(exc):
+                        failures.append("baseline review guard failed for the wrong reason: %s" % exc)
+        finally:
+            Q.BASELINE_PATH, Q.REVIEWS_DIR = original_baseline_path, original_reviews_dir
+
     triple = FakeSection(
         1,
         "What the challenge produces is a refusal: What the challenge produces is a refusal: "
@@ -62,9 +107,47 @@ def main() -> int:
         failures.append("chapter 1 review fixture is missing")
     else:
         refs = Q.cross_references(section)
+        test_chapter, test_verse = 2, 1
+        sources = Q.available_sources(test_chapter, test_verse)
+        source_slug = sources[0]
+        source_text = C.source_verse(source_slug, test_chapter, test_verse)
+        source_excerpt = " ".join(source_text.split()[:12])
         row = {
             "status": "accepted",
             "scores": {dimension: 4 for dimension in Q.RUBRIC},
+            "source_synthesis": {
+                "source_fingerprint": Q.source_fingerprint(test_chapter, test_verse),
+                "available_sources": sources,
+                "coverage": "complete",
+                "notes": "Every available source passage was compared with the finished commentary.",
+                "distinct_material_evidence": [{
+                    "point": "The opening names carry mercy into each lawful beginning.",
+                    "sources": [source_slug],
+                    "decision": "included",
+                    "commentary_anchor": " ".join(section.body().split()[:12]),
+                    "reason": "",
+                }],
+            },
+            "claim_verification": {
+                "coverage": "complete",
+                "notes": "Every language, legal, and theological claim was checked against sources.",
+                "detected_claims": [
+                    {
+                        "categories": categories,
+                        "statement": statement,
+                        "proposition": "This source evidence supports the substantive claim being reviewed.",
+                        "source": source_slug,
+                        "source_reference": "%d:%d" % (test_chapter, test_verse),
+                        "source_fingerprint": Q.source_passage_fingerprint(
+                            source_slug, test_chapter, test_verse),
+                        "source_excerpt": source_excerpt,
+                        "support": "direct",
+                        "rationale": "",
+                    }
+                    for categories, statement in Q.substantive_claims(section)
+                ],
+                "additional_material_claims": [],
+            },
             "citations": [
                 {
                     "reference": ref,
@@ -74,6 +157,20 @@ def main() -> int:
                     "rationale": "",
                 }
                 for ref, quote in refs
+            ],
+            "transmitted_evidence": [
+                {
+                    "statement": statement,
+                    "proposition": "This transmitted evidence supports the adjacent interpretive claim.",
+                    "source": source_slug,
+                    "source_reference": "%d:%d" % (test_chapter, test_verse),
+                    "source_fingerprint": Q.source_passage_fingerprint(
+                        source_slug, test_chapter, test_verse),
+                    "source_excerpt": source_excerpt,
+                    "support": "direct",
+                    "rationale": "",
+                }
+                for statement in Q.transmitted_evidence(section)
             ],
         }
         review = {
@@ -94,6 +191,74 @@ def main() -> int:
             errors = Q._review_errors(2, section, review, row, test_path)
             if "QTY-CITATION-RELEVANCE" not in {e.code for e in errors}:
                 failures.append("an unapproved citation relevance decision was accepted")
+            row["citations"][0]["support"] = "direct"
+        row["source_synthesis"]["coverage"] = "pending"
+        errors = Q._review_errors(2, section, review, row, test_path)
+        if "QTY-SOURCE-SYNTHESIS" not in {e.code for e in errors}:
+            failures.append("an incomplete all-source comparison was accepted")
+        row["source_synthesis"]["coverage"] = "complete"
+        mapped_point = row["source_synthesis"]["distinct_material_evidence"][0]
+        mapped_point["decision"] = "omitted"
+        mapped_point["reason"] = "too brief"
+        errors = Q._review_errors(2, section, review, row, test_path)
+        if "QTY-SOURCE-OMISSION" not in {e.code for e in errors}:
+            failures.append("a material omission without a substantive reason was accepted")
+        mapped_point["decision"], mapped_point["reason"] = "included", ""
+        mapped_point["sources"] = [source_slug, source_slug]
+        errors = Q._review_errors(2, section, review, row, test_path)
+        if "QTY-SOURCE-SYNTHESIS" not in {e.code for e in errors}:
+            failures.append("duplicate works were counted as distinct material evidence")
+        mapped_point["sources"] = [source_slug]
+        fingerprint = row["source_synthesis"]["source_fingerprint"]
+        row["source_synthesis"]["source_fingerprint"] = "stale-source-map"
+        errors = Q._review_errors(2, section, review, row, test_path)
+        if "QTY-SOURCE-FINGERPRINT" not in {e.code for e in errors}:
+            failures.append("a stale source-map review was accepted")
+        row["source_synthesis"]["source_fingerprint"] = fingerprint
+        row["claim_verification"]["coverage"] = "pending"
+        errors = Q._review_errors(2, section, review, row, test_path)
+        if "QTY-CLAIM-REVIEW" not in {e.code for e in errors}:
+            failures.append("incomplete language/legal/theological claim review was accepted")
+        row["claim_verification"]["coverage"] = "complete"
+        if row["claim_verification"]["detected_claims"]:
+            claim = row["claim_verification"]["detected_claims"][0]
+            statement = claim["statement"]
+            claim["statement"] = "A stale substantive claim no longer present in the prose."
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-CLAIM-REVIEW" not in {e.code for e in errors}:
+                failures.append("a changed substantive claim retained stale approval")
+            claim["statement"] = statement
+            claim_fingerprint = claim["source_fingerprint"]
+            claim["source_fingerprint"] = "stale-supporting-passage"
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-CLAIM-SOURCE" not in {e.code for e in errors}:
+                failures.append("a stale substantive-claim source fingerprint was accepted")
+            claim["source_fingerprint"] = claim_fingerprint
+        if row["transmitted_evidence"]:
+            item = row["transmitted_evidence"][0]
+            item["support"] = "pending"
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-TRANSMITTED-RELEVANCE" not in {e.code for e in errors}:
+                failures.append("unreviewed transmitted evidence was accepted")
+            item["support"] = "direct"
+            transmitted_statement = item["statement"]
+            item["statement"] = "A changed report no longer present in the commentary."
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-TRANSMITTED-REVIEW" not in {e.code for e in errors}:
+                failures.append("a changed transmitted statement retained stale approval")
+            item["statement"] = transmitted_statement
+            transmitted_fingerprint = item["source_fingerprint"]
+            item["source_fingerprint"] = "stale-supporting-passage"
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-TRANSMITTED-SOURCE" not in {e.code for e in errors}:
+                failures.append("a stale transmitted-evidence source fingerprint was accepted")
+            item["source_fingerprint"] = transmitted_fingerprint
+            excerpt = item["source_excerpt"]
+            item["source_excerpt"] = "words absent from every mapped source passage"
+            errors = Q._review_errors(2, section, review, row, test_path)
+            if "QTY-TRANSMITTED-SOURCE" not in {e.code for e in errors}:
+                failures.append("transmitted evidence without a source match was accepted")
+            item["source_excerpt"] = excerpt
 
     difficult = (
         "Ibn ʿAbbās transmitted this reading. Today, the contemporary institutional arrangement "

@@ -6,9 +6,13 @@ separate question the old gate could not answer: does a newly written range stil
 match the accepted quality of chapter 1?
 
 Fifty verses may be mapped at once, but quality is judged in checkpoints of no
-more than five verses.  Every non-baseline verse needs an independent semantic
-review in ``quality/reviews/``.  A review scores the prose against chapter 1 and
-verifies every Qur'an cross-reference for relevance, not merely verbatim copying.
+more than five verses. Every non-baseline verse needs an independent semantic
+review in ``quality/reviews/``. A review scores the prose against chapter 1,
+fingerprints and compares every available source passage, groups duplicate witnesses
+into distinct material points, accounts for omissions, and verifies Qur'an citations,
+named transmitted evidence, language
+claims, and consequential legal/theological claims for source support and
+relevance—not merely verbal presence.
 
 Examples:
 
@@ -30,6 +34,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
@@ -43,7 +48,7 @@ CHECKPOINT_SIZE = 5
 MIN_SCORE = 4
 BASELINE_PATH = C.REPO / "quality" / "chapter-001-baseline.json"
 REVIEWS_DIR = C.REPO / "quality" / "reviews"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 RUBRIC = (
     "textual_attention",
@@ -105,6 +110,183 @@ def prose_text(section) -> str:
 def cross_references(section) -> List[Tuple[str, str]]:
     return [(m.group(1), re.sub(r"\s+", " ", m.group(2)).strip())
             for m in REF_RE.finditer(section.body())]
+
+
+def source_fingerprint(chapter: int, verse: int) -> str:
+    """Fingerprint every allowlisted source passage available for one verse.
+
+    Review manifests become stale when the corpus changes, so accepted synthesis
+    cannot silently survive the arrival or correction of source material.
+    """
+    digest = hashlib.sha256()
+    for slug in C.SOURCE_ALLOWLIST:
+        digest.update(slug.encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(C.source_verse(slug, chapter, verse).encode("utf-8"))
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def available_sources(chapter: int, verse: int) -> List[str]:
+    return [slug for slug in C.SOURCE_ALLOWLIST if C.source_verse(slug, chapter, verse).strip()]
+
+
+def _standalone_search(pattern, text: str) -> bool:
+    """Reject collection-name substrings such as ``Muslim`` in ``Muslims``."""
+    for match in pattern.finditer(text):
+        before = text[match.start() - 1] if match.start() else ""
+        after = text[match.end()] if match.end() < len(text) else ""
+        prefix = text[:match.start()]
+        # ``Muslim`` is both a collection name and an ordinary noun. An article
+        # marks the latter; continue searching in case the sentence later names
+        # another collection (for example, Musnad Ahmad).
+        if match.group(0).casefold() == "muslim" and re.search(r"\ba\s+$", prefix, re.I):
+            continue
+        if not before.isalnum() and not after.isalnum():
+            return True
+    return False
+
+
+def transmitted_evidence(section) -> List[str]:
+    """Statements that invoke a report, collection, Companion or Successor.
+
+    These are scaffolded into the review ledger just like Qur'an references. The
+    reviewer must locate each one in an allowlisted source and judge whether that
+    transmitted evidence really supports the adjacent proposition.
+    """
+    text = A._prose_only(section.body())
+    text = re.sub(r"[*_]+", "", text)
+    statements = []
+    for sentence in C.sentence_split(text):
+        statement = re.sub(r"\s+", " ", sentence).strip()
+        if statement and (A.FIRST_GEN.search(statement)
+                          or _standalone_search(A.COLLECTIONS, statement)):
+            statements.append(statement)
+    return statements
+
+
+SUBSTANTIVE_CLAIM_PATTERNS = {
+    "language": re.compile(
+        r"\b(?:Arabic|root|grammar|grammatical|singular|plural|construction|linguist|"
+        r"teachers? of the language|scholars? of the language|"
+        r"word (?:means|carries|names|describes)|term (?:means|carries|for)|"
+        r"form can (?:mean|carry)|rendered .{0,30}(?:means|names))\b", re.I),
+    "legal": re.compile(
+        r"\b(?:law|legal|ruling|obligatory|required|requirement|permitted|forbidden|"
+        r"schools? of law|counts? as|invalid|valid|cannot make .{0,20} lawful)\b", re.I),
+    "theological": re.compile(
+        r"\b(?:creed|theolog|divine (?:name|names|attribute|attributes|sovereignty|will|"
+        r"decree|knowledge)|resurrection|foreknowledge|God alone|belongs? to God alone|"
+        r"worship(?:ped|s)? (?:God )?alone|attribute of God|"
+        r"God(?:’s|'s) (?:sovereignty|foreknowledge|decree))\b", re.I),
+}
+
+
+def substantive_claims(section) -> List[Tuple[List[str], str]]:
+    """Conservative inventory of language and consequential legal/theological claims.
+
+    Regex detection supplies a minimum ledger; the reviewer separately attests that
+    the complete prose was checked and may add important claims the detector missed.
+    """
+    text = re.sub(r"[*_]+", "", A._prose_only(section.body()))
+    claims = []
+    for sentence in C.sentence_split(text):
+        statement = re.sub(r"\s+", " ", sentence).strip()
+        categories = [name for name, pattern in SUBSTANTIVE_CLAIM_PATTERNS.items()
+                      if pattern.search(statement)]
+        if statement and categories:
+            claims.append((categories, statement))
+    return claims
+
+
+def _source_norm(text: str) -> str:
+    """Search-normalise Latin or Arabic without discarding either script."""
+    text = unicodedata.normalize("NFKD", text).casefold()
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = "".join(ch if unicodedata.category(ch)[0] in ("L", "N") else " " for ch in text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def source_passage_fingerprint(slug: str, chapter: int, verse: int) -> str:
+    if slug not in C.SOURCE_ALLOWLIST:
+        return ""
+    payload = "%s\0%d:%d\0%s" % (slug, chapter, verse,
+                                  C.source_verse(slug, chapter, verse))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def _source_locator(item: dict, default_chapter: int, default_verse: int) -> Tuple[int, int]:
+    value = str(item.get("source_reference", "%d:%d" %
+                         (default_chapter, default_verse))).strip()
+    match = re.fullmatch(r"(\d+):(\d+)", value)
+    if not match:
+        return 0, 0
+    chapter, verse = map(int, match.groups())
+    metadata = C.meta().get(chapter, {})
+    if not metadata or not 1 <= verse <= metadata.get("verses", 0):
+        return 0, 0
+    return chapter, verse
+
+
+def _source_excerpt_matches(slug: str, chapter: int, verse: int, excerpt: str) -> bool:
+    if slug not in C.SOURCE_ALLOWLIST or not chapter or not verse or not excerpt.strip():
+        return False
+    needle = _source_norm(excerpt)
+    haystack = _source_norm(C.source_verse(slug, chapter, verse))
+    return len(needle) >= 12 and needle in haystack
+
+
+def _claim_item_errors(chapter: int, verse: int, ref: str, item: object, number: int,
+                       expected: Optional[Tuple[List[str], str]] = None,
+                       additional: bool = False) -> List[Finding]:
+    label = "additional claim" if additional else "substantive claim"
+    if not isinstance(item, dict):
+        return [Finding("QTY-CLAIM-REVIEW", ref,
+                        "%s %d has no review object" % (label, number))]
+    errors = []
+    statement = re.sub(r"\s+", " ", str(item.get("statement", ""))).strip()
+    categories = item.get("categories")
+    if expected:
+        expected_categories, expected_statement = expected
+        if statement != expected_statement or categories != expected_categories:
+            errors.append(Finding(
+                "QTY-CLAIM-REVIEW", ref,
+                "%s %d no longer matches the commentary" % (label, number)))
+    elif (len(statement.split()) < 4 or not isinstance(categories, list)
+          or not categories or any(category not in SUBSTANTIVE_CLAIM_PATTERNS
+                                    for category in categories)):
+        errors.append(Finding(
+            "QTY-CLAIM-REVIEW", ref,
+            "%s %d needs a statement and valid language/legal/theological category" %
+            (label, number)))
+    if len(str(item.get("proposition", "")).strip().split()) < 4:
+        errors.append(Finding(
+            "QTY-CLAIM-REVIEW", ref,
+            "%s %d does not state the proposition being verified" % (label, number)))
+    source_slug = str(item.get("source", "")).strip()
+    source_excerpt = str(item.get("source_excerpt", "")).strip()
+    source_chapter, source_verse = _source_locator(item, chapter, verse)
+    expected_fingerprint = source_passage_fingerprint(
+        source_slug, source_chapter, source_verse)
+    if (not _source_excerpt_matches(
+            source_slug, source_chapter, source_verse, source_excerpt)
+            or not expected_fingerprint
+            or item.get("source_fingerprint") != expected_fingerprint):
+        errors.append(Finding(
+            "QTY-CLAIM-SOURCE", ref,
+            "%s %d lacks a matching fingerprinted excerpt from an allowlisted source" %
+            (label, number)))
+    support = item.get("support")
+    rationale = str(item.get("rationale", "")).strip()
+    if support not in ("direct", "contextual"):
+        errors.append(Finding(
+            "QTY-CLAIM-RELEVANCE", ref,
+            "%s %d is not approved as direct or contextual support" % (label, number)))
+    if support == "contextual" and len(rationale.split()) < 6:
+        errors.append(Finding(
+            "QTY-CLAIM-RELEVANCE", ref,
+            "%s %d needs a substantive contextual rationale" % (label, number)))
+    return errors
 
 
 def _authority_mentions(text: str) -> List[str]:
@@ -178,6 +360,25 @@ def baseline_payload() -> dict:
     return result
 
 
+def preserve_stronger_thresholds(candidate: dict, previous: Optional[dict]) -> dict:
+    """A raised floor may tighten an alarm but can never weaken an old one."""
+    if not isinstance(previous, dict):
+        return candidate
+    old = previous.get("thresholds")
+    new = candidate.get("thresholds")
+    if not isinstance(old, dict) or not isinstance(new, dict):
+        return candidate
+    for key in ("mean_sentence_max", "long_sentence_share_max",
+                "authority_concentration_max", "shape_concentration_max",
+                "final_application_share_max"):
+        if isinstance(old.get(key), (int, float)) and isinstance(new.get(key), (int, float)):
+            new[key] = min(old[key], new[key])
+    for key in ("flesch_min", "evidence_density_min"):
+        if isinstance(old.get(key), (int, float)) and isinstance(new.get(key), (int, float)):
+            new[key] = max(old[key], new[key])
+    return candidate
+
+
 def validate_baseline_approval(path: Optional[str]) -> None:
     """Require a tracked independent decision before changing a frozen floor."""
     if not BASELINE_PATH.exists():
@@ -192,14 +393,48 @@ def validate_baseline_approval(path: Optional[str]) -> None:
         raise SystemExit("cannot read baseline approval: %s" % exc)
     actual = _sha256(C.output_path(BASELINE_CHAPTER))
     reason = str(approval.get("reason", "")).strip()
-    if (approval.get("approved") is not True
-            or not str(approval.get("reviewer", "")).strip()
+    writer = str(approval.get("writer", "")).strip()
+    reviewer = str(approval.get("reviewer", "")).strip()
+    if (approval.get("schema_version") != SCHEMA_VERSION
+            or approval.get("approved") is not True
+            or approval.get("independent") is not True
+            or not writer or not reviewer or writer == reviewer
             or approval.get("old_sha256") != current.get("sha256")
             or approval.get("new_sha256") != actual
             or len(reason.split()) < 8):
         raise SystemExit(
-            "baseline approval must name an independent reviewer, approve the change, match the "
-            "old and new hashes, and give a substantive reason")
+            "baseline approval must name different writer and reviewer identities, mark the "
+            "review independent, approve the change, match the old and new hashes, and give a "
+            "substantive reason")
+
+    # Raising the yardstick requires the same semantic and citation-relevance
+    # review that the yardstick will demand from later chapters.  A signed hash
+    # alone cannot certify that every new claim and cross-reference was read.
+    reviews, load_findings = load_reviews()
+    doc = C.load_chapter_doc(BASELINE_CHAPTER)
+    review_findings = list(load_findings)
+    if doc is None:
+        review_findings.append(Finding(
+            "QTY-NO-CHAPTER", "1", "chapter 1 does not exist for baseline review"))
+    else:
+        for section in doc.sections:
+            item = reviews.get((BASELINE_CHAPTER, section.verse))
+            if not item:
+                review_findings.append(Finding(
+                    "QTY-REVIEW-MISSING", section.ref,
+                    "the revised baseline needs independent rubric and citation review"))
+                continue
+            review, row, path = item
+            if (str(review.get("writer", "")).strip() != writer
+                    or str(review.get("reviewer", "")).strip() != reviewer):
+                review_findings.append(Finding(
+                    "QTY-INDEPENDENCE", section.ref,
+                    "baseline approval identities must match every Chapter-1 review manifest"))
+            review_findings.extend(_review_errors(BASELINE_CHAPTER, section, review, row, path))
+    if review_findings:
+        first = review_findings[0]
+        raise SystemExit(
+            "baseline semantic review is incomplete: %s %s" % (first.code, first.message))
 
 
 def load_baseline() -> Tuple[Optional[dict], List[Finding]]:
@@ -308,6 +543,163 @@ def _review_errors(chapter: int, section, review: dict, row: dict, path: Path) -
                 errors.append(Finding("QTY-BELOW-CHAPTER-1", ref,
                                       "%s scored %d; 4 is the Chapter-1 quality floor" %
                                       (dimension, score)))
+
+    synthesis = row.get("source_synthesis") if isinstance(row, dict) else None
+    expected_sources = available_sources(chapter, verse)
+    expected_fingerprint = source_fingerprint(chapter, verse)
+    if not isinstance(synthesis, dict):
+        errors.append(Finding(
+            "QTY-SOURCE-SYNTHESIS", ref,
+            "the reviewer must compare the prose with every available allowlisted source"))
+    else:
+        reviewed_sources = synthesis.get("available_sources")
+        if reviewed_sources != expected_sources:
+            errors.append(Finding(
+                "QTY-SOURCE-FINGERPRINT", ref,
+                "the reviewed source list does not match the available corpus passages"))
+        if synthesis.get("source_fingerprint") != expected_fingerprint:
+            errors.append(Finding(
+                "QTY-SOURCE-FINGERPRINT", ref,
+                "the source corpus changed after this synthesis review was prepared"))
+        if synthesis.get("coverage") != "complete":
+            errors.append(Finding(
+                "QTY-SOURCE-SYNTHESIS", ref,
+                "source coverage is not marked complete after comparison with the draft"))
+        notes = str(synthesis.get("notes", "")).strip()
+        if len(notes.split()) < 8:
+            errors.append(Finding(
+                "QTY-SOURCE-SYNTHESIS", ref,
+                "the reviewer must explain how the source map was compared with the prose"))
+        evidence_map = synthesis.get("distinct_material_evidence")
+        if (not isinstance(evidence_map, list)
+                or (expected_sources and not evidence_map)):
+            errors.append(Finding(
+                "QTY-SOURCE-SYNTHESIS", ref,
+                "distinct_material_evidence must map material points rather than count works"))
+        else:
+            prose_norm = _source_norm(section.body())
+            for number, item in enumerate(evidence_map, 1):
+                if not isinstance(item, dict):
+                    errors.append(Finding(
+                        "QTY-SOURCE-SYNTHESIS", ref,
+                        "material evidence point %d has no review object" % number))
+                    continue
+                point = str(item.get("point", "")).strip()
+                sources = item.get("sources")
+                decision = item.get("decision")
+                anchor = _source_norm(str(item.get("commentary_anchor", "")))
+                reason = str(item.get("reason", "")).strip()
+                if (len(point.split()) < 4 or not isinstance(sources, list) or not sources
+                        or len(set(sources)) != len(sources)
+                        or any(source not in expected_sources for source in sources)):
+                    errors.append(Finding(
+                        "QTY-SOURCE-SYNTHESIS", ref,
+                        "material evidence point %d needs a substantive point and its unique "
+                        "available sources" % number))
+                if decision == "included":
+                    if len(anchor) < 12 or anchor not in prose_norm:
+                        errors.append(Finding(
+                            "QTY-SOURCE-SYNTHESIS", ref,
+                            "included evidence point %d needs an excerpt found in the commentary" %
+                            number))
+                elif decision == "omitted":
+                    if len(reason.split()) < 8:
+                        errors.append(Finding(
+                            "QTY-SOURCE-OMISSION", ref,
+                            "omitted evidence point %d needs a substantive editorial reason" %
+                            number))
+                else:
+                    errors.append(Finding(
+                        "QTY-SOURCE-SYNTHESIS", ref,
+                        "material evidence point %d must be marked included or omitted" % number))
+
+    actual_claims = substantive_claims(section)
+    claim_review = row.get("claim_verification") if isinstance(row, dict) else None
+    if not isinstance(claim_review, dict):
+        errors.append(Finding(
+            "QTY-CLAIM-REVIEW", ref,
+            "language and consequential legal/theological claims need source review"))
+    else:
+        if claim_review.get("coverage") != "complete":
+            errors.append(Finding(
+                "QTY-CLAIM-REVIEW", ref,
+                "claim coverage is not marked complete after review of the full prose"))
+        if len(str(claim_review.get("notes", "")).strip().split()) < 8:
+            errors.append(Finding(
+                "QTY-CLAIM-REVIEW", ref,
+                "the reviewer must explain the language/legal/theological claim check"))
+        detected = claim_review.get("detected_claims")
+        if not isinstance(detected, list) or len(detected) != len(actual_claims):
+            errors.append(Finding(
+                "QTY-CLAIM-REVIEW", ref,
+                "review records %d detected claims but the commentary contains %d" %
+                (len(detected) if isinstance(detected, list) else 0, len(actual_claims))))
+        else:
+            for number, (expected, item) in enumerate(zip(actual_claims, detected), 1):
+                errors.extend(_claim_item_errors(
+                    chapter, verse, ref, item, number, expected=expected))
+        additional = claim_review.get("additional_material_claims")
+        if not isinstance(additional, list):
+            errors.append(Finding(
+                "QTY-CLAIM-REVIEW", ref,
+                "additional_material_claims must be a list after full-prose review"))
+        else:
+            for number, item in enumerate(additional, 1):
+                errors.extend(_claim_item_errors(
+                    chapter, verse, ref, item, number, additional=True))
+
+    actual_transmitted = transmitted_evidence(section)
+    transmitted_ledger = row.get("transmitted_evidence") if isinstance(row, dict) else None
+    if not isinstance(transmitted_ledger, list):
+        errors.append(Finding(
+            "QTY-TRANSMITTED-REVIEW", ref,
+            "every named report and early-authority statement needs source and relevance review"))
+    elif len(transmitted_ledger) != len(actual_transmitted):
+        errors.append(Finding(
+            "QTY-TRANSMITTED-REVIEW", ref,
+            "review records %d transmitted statements but the commentary contains %d" %
+            (len(transmitted_ledger), len(actual_transmitted))))
+    else:
+        for number, (actual_statement, item) in enumerate(
+                zip(actual_transmitted, transmitted_ledger), 1):
+            if not isinstance(item, dict):
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-REVIEW", ref,
+                    "transmitted statement %d has no review object" % number))
+                continue
+            if re.sub(r"\s+", " ", str(item.get("statement", ""))).strip() != actual_statement:
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-REVIEW", ref,
+                    "transmitted statement %d no longer matches the commentary" % number))
+            proposition = str(item.get("proposition", "")).strip()
+            source_slug = str(item.get("source", "")).strip()
+            source_excerpt = str(item.get("source_excerpt", "")).strip()
+            support = item.get("support")
+            rationale = str(item.get("rationale", "")).strip()
+            if len(proposition.split()) < 4:
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-REVIEW", ref,
+                    "transmitted statement %d does not state its supported proposition" % number))
+            source_chapter, source_verse = _source_locator(item, chapter, verse)
+            expected_source_fingerprint = source_passage_fingerprint(
+                source_slug, source_chapter, source_verse)
+            if (not _source_excerpt_matches(
+                    source_slug, source_chapter, source_verse, source_excerpt)
+                    or not expected_source_fingerprint
+                    or item.get("source_fingerprint") != expected_source_fingerprint):
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-SOURCE", ref,
+                    "transmitted statement %d lacks a matching fingerprinted excerpt from an "
+                    "allowlisted source" % number))
+            if support not in ("direct", "contextual"):
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-RELEVANCE", ref,
+                    "transmitted statement %d is not approved as direct or contextual support" %
+                    number))
+            if support == "contextual" and len(rationale.split()) < 6:
+                errors.append(Finding(
+                    "QTY-TRANSMITTED-RELEVANCE", ref,
+                    "transmitted statement %d needs a substantive contextual rationale" % number))
 
     actual_refs = cross_references(section)
     ledger = row.get("citations") if isinstance(row, dict) else None
@@ -495,7 +887,7 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True) 
             if not item:
                 findings.append(Finding(
                     "QTY-REVIEW-MISSING", section.ref,
-                    "no independent Chapter-1 parity and citation-relevance review exists",
+                    "no independent all-source, Chapter-1 parity and evidence-relevance review exists",
                     (section.verse,)))
             else:
                 findings.extend(_review_errors(chapter, section, *item))
@@ -588,10 +980,51 @@ def template(chapter: int, start: int, end: int, writer: str) -> Path:
             }
             for reference, quote in cross_references(section)
         ]
+        transmitted = [
+            {
+                "statement": statement,
+                "proposition": "",
+                "source": "",
+                "source_reference": "%d:%d" % (chapter, verse),
+                "source_fingerprint": "",
+                "source_excerpt": "",
+                "support": "pending",
+                "rationale": "",
+            }
+            for statement in transmitted_evidence(section)
+        ]
+        claims = [
+            {
+                "categories": categories,
+                "statement": statement,
+                "proposition": "",
+                "source": "",
+                "source_reference": "%d:%d" % (chapter, verse),
+                "source_fingerprint": "",
+                "source_excerpt": "",
+                "support": "pending",
+                "rationale": "",
+            }
+            for categories, statement in substantive_claims(section)
+        ]
         rows[str(verse)] = {
             "status": "pending",
             "scores": {dimension: None for dimension in RUBRIC},
+            "source_synthesis": {
+                "source_fingerprint": source_fingerprint(chapter, verse),
+                "available_sources": available_sources(chapter, verse),
+                "coverage": "pending",
+                "notes": "",
+                "distinct_material_evidence": [],
+            },
+            "claim_verification": {
+                "coverage": "pending",
+                "notes": "",
+                "detected_claims": claims,
+                "additional_material_claims": [],
+            },
             "citations": citations,
+            "transmitted_evidence": transmitted,
             "notes": "",
         }
     payload = {
@@ -678,9 +1111,12 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     if args.freeze_baseline:
+        previous = None
+        if BASELINE_PATH.exists():
+            previous = json.loads(BASELINE_PATH.read_text(encoding="utf-8"))
         validate_baseline_approval(args.approval)
         BASELINE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        data = baseline_payload()
+        data = preserve_stronger_thresholds(baseline_payload(), previous)
         BASELINE_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print("wrote %s" % BASELINE_PATH.relative_to(C.REPO))
         _print_baseline(data)
@@ -699,7 +1135,7 @@ def main(argv=None) -> int:
             ap.error("--template needs chapter, --from, --to and --writer")
         path = template(args.chapter, args.start, args.end, args.writer)
         print("wrote %s" % path.relative_to(C.REPO))
-        print("A different reviewer must complete every score and citation decision before acceptance.")
+        print("A different reviewer must complete all-source synthesis, claim/evidence ledgers, and scores before acceptance.")
         return 0
 
     if args.all:

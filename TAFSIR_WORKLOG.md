@@ -13,7 +13,7 @@ line of it:
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Workflow (v8) | **50 mapped / 1 drafted / 5 accepted**: fifty verses researched from all eleven in one pass, each verse mechanically checked, no more than five before independent Chapter-1 parity and citation-relevance review; quality drift stops and notifies |
+| Workflow (v8) | **50 mapped / 1 drafted / 5 accepted**: fifty verses researched from all eleven in one pass, each verse mechanically checked, no more than five before independent all-source synthesis, Chapter-1 parity, Qur'an-citation and transmitted-evidence review; quality drift stops and notifies |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
@@ -22,9 +22,10 @@ line of it:
 | Bold | **reserved**: only the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) may be bold — anything else fails `MTCH-BOLD`; reports and athar are italic `*"…"*` (`EVD-QUOTE-STYLE`) |
 | Matching the verse | the prose explains what the verse's translation carries: a word or phrase that *means the same thing* — English or Arabic — is adjusted to the verse's own wording (`MTCH-SYNONYM`, informational), anything else fails (`MTCH-WORD`); Arabic offered as the verse's own wording fails (`MTCH-TERM`); a bold-italic quote that is not this verse's wording fails (`PHR-QUOTE-FOREIGN`) |
 | Phrases | every phrase of the verse quoted **inside the prose**, in verse order, ≥90% coverage, no gap over 8 words, no single quote swallowing a verse (`PHR-*`); every quoted phrase backed beside it by a cross-reference, a hadith with its collection, or a named authority (`PHR-EVIDENCE`) |
-| Evidence | every verse carries checkable anchors; v8 separately reviews whether every cross-reference actually supports the adjacent proposition |
+| Evidence | every verse carries checkable anchors; the reviewer checks every Qur'an cross-reference, named report/early authority, language claim and consequential legal/theological claim for source location and relevance |
+| Source retention | every review fingerprints all available passages from the eleven, compares the complete source map with the prose, groups duplicate witnesses into distinct material points, records included anchors or omitted reasons, and adds material claims a conservative detector missed; corpus or prose changes invalidate stale review |
 | Analogy/application | optional; retained only where it adds verse-specific clarity, with no fixed marker or paragraph position |
-| Quality (v8) | Chapter 1 is frozen as the floor; independent reviewer differs from writer and scores eight dimensions ≥4/5; `quality.py` blocks drift and `build_data.py` refuses unreviewed prose |
+| Quality (v8) | Chapter 1 is frozen as the floor; a raised baseline undergoes the same complete independent review; writer and reviewer differ and all eight dimensions score ≥4/5; `quality.py` blocks drift and `build_data.py` refuses unreviewed prose |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
 | Elements | history, reports with collections, cross-references, rulings, lesson, plain explanation, analogy and present-day application are carried by the prose and **never labelled** (`STY-LABELS`: no `Lesson:`, `Modern application:`, `History:`, …) |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% above 40 words |
@@ -50,6 +51,25 @@ the source-map unit; one verse is the mechanical draft unit and five the maximum
 The retained Chapter 2:1–100 prose has no v8 reviews and fails the new regression gate, so its
 accepted frontier is 2:0. No later generation proceeds until that frontier is repaired and reviewed.
 
+**Raised Chapter-1 floor accepted and published (2026-09-27).** All eleven source passages were
+rebuilt and read for all seven verses. The revision expands the baseline's source evidence, replaces
+formulaic closing analogies with transmitted or Qur'anic evidence, and passes the mechanical gate
+with zero failures. Measured prose rises from 6,133 to 7,575 words; Qur'an references rise from 30
+to 51; authority/collection mentions rise from 30 to 45; combined evidence density rises from 9.8
+to 12.7 mentions per 1,000 words. Mean sentence length improves from 22.9 to 21.0 words and the
+share over 40 words falls from 5.2% to 3.6%. The project owner independently approved both schema-v2
+reviews (`quality/reviews/001/001-005.json` and `006-007.json`). Baseline hash
+`3567804b442f88fd8a56c6fa4e0ec46dbadae91f8c5533539c8f1ae00aa2e4a8` and the app payload are current.
+
+**Source-retention review added (2026-09-27).** Acceptance now fingerprints every available source
+passage per verse and invalidates review when the corpus changes. The reviewer must compare all
+available works with the prose, group duplicate works under distinct material points, explain each
+included anchor or omission, relevance-review every Qur'an citation, locate every named report or
+early authority, and verify each detected language or consequential legal/theological claim against
+a fingerprinted allowlisted passage. The accepted Chapter-1 ledgers contain 51 Qur'an citations,
+26 transmitted statements and 31 substantive claims. A raised Chapter 1 must pass the same two-checkpoint review before its baseline hash
+can move. These are semantic controls, not quotas requiring source names in the published prose.
+
 **Two author-named chapter-2 runs were mechanically delivered under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -63,11 +83,12 @@ measured drift alarms.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
-| 1 | `tafsir/001.md` | 7/7 | 6,896 | 833/961/1,094 | v8 baseline PASS; published |
+| 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
 | 2 | `tafsir/002.md` | 100/286 drafted; 0 v8 accepted | 81,910 | 703/802/1,062 | QUALITY DRIFT; 186 verses still scaffold |
 
-Totals: **1 of 114 chapters complete, 107 of 6,236 verses written, 7 verses v8 accepted.** Chapter 2 has a 677-word
-introduction and drafted prose through 2:100. Its remaining verses, 2:101–2:286, stay as `TODO`
+Published totals are **1 of 114 chapters and 7 accepted verses** under the raised Chapter-1 hash.
+The working corpus contains 107 of 6,236 written verses across Chapters 1–2, but Chapter 2 remains
+outside the accepted frontier. Chapter 2 has a 677-word introduction and drafted prose through 2:100. Its remaining verses, 2:101–2:286, stay as `TODO`
 scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
 run does not choose its successor: the author must name the next chapter or chapter:verse; naming
 chapter 2 now would resolve to 2:101.

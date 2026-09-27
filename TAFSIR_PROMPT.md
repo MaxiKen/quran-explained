@@ -115,11 +115,15 @@ paraphrase of the translation dressed up as commentary.
 8. **Chapter 1 is the quality floor, not a shape to copy (v8).** Every new verse needs an independent
    1–5 review of textual attention, source synthesis, citation support, reasoning, theological
    precision, coherence, prose and editorial finish; every score must be at least 4. The writer
-   cannot be the reviewer. Every Qur'an cross-reference is separately checked for whether its quoted
-   words support the adjacent proposition. Passing `audit.py` is necessary and insufficient.
-   Analogies and applications have no quota or fixed location: keep one only when it adds
-   verse-specific clarity. The frozen baseline and drift alarms live in `quality.py`; do not alter
-   them to make later prose pass.
+   cannot be the reviewer. The review fingerprints and compares every available passage from all
+   eleven works with the prose; any material omission is named and justified rather than hidden.
+   Every Qur'an cross-reference is separately checked for whether its quoted words support the
+   adjacent proposition. Every sentence invoking a hadith collection, Companion or Successor is
+   separately located in an allowlisted source and checked for relevance. A name or authentic report
+   is not proof of an unrelated claim. Passing `audit.py` is necessary and insufficient. Analogies
+   and applications have no quota or fixed location: keep one only when it adds verse-specific
+   clarity. The frozen baseline and drift alarms live in `quality.py`; do not alter them to make
+   later prose pass, and do not move the baseline without full independent review of Chapter 1.
 
 ## 2. Build the inputs first
 
@@ -662,9 +666,9 @@ works are opened once. It is not permission to write fifty verses before quality
 loop is mandatory:
 
 > **Map fifty. Write one verse in order and run its mechanical draft gate. After no more than five
-> verses, stop for independent Chapter-1 parity and citation-relevance review. Continue only after
-> `QUALITY PARITY PASS`. If the gate reports `QUALITY DRIFT`, stop immediately and notify the author
-> of the trigger, blocked range and last accepted verse.**
+> verses, stop for independent all-source synthesis, Chapter-1 parity, and Qur'an/transmitted-
+> evidence review. Continue only after `QUALITY PARITY PASS`. If the gate reports `QUALITY DRIFT`,
+> stop immediately and notify the author of the trigger, blocked range and last accepted verse.**
 
 A quality stop is not an optional check-in. It is the mechanism that prevents a weak production
 pattern from spreading through a fifty-verse run. The writer never self-certifies source synthesis,
@@ -701,15 +705,25 @@ gate. `build_data.py` repeats the parity gate and refuses to publish an unreview
 
 For every verse, the reviewer scores textual attention, source synthesis, citation support,
 reasoning, theological precision, coherence, prose and editorial finish. Every score must be at
-least 4/5. Every Qur'an cross-reference is matched to the proposition beside it and marked direct or
-contextual; contextual support needs a written rationale. A correctly copied but irrelevant clause
-does not pass.
+least 4/5. The reviewer first compares the prose with every available passage listed under the
+source fingerprint, marks the synthesis complete, and maps every distinct material point. Works
+that repeat one point are grouped, not counted as new evidence. Each point is marked included with a
+commentary excerpt or omitted with its sources and a substantive reason; none is left at a default.
+The reviewer also checks the full prose for language and consequential legal or theological claims,
+completes the scaffolded claim ledger against fingerprinted allowlisted passages, and adds any
+material claim the conservative detector missed. Every Qur'an cross-reference is matched to the
+proposition beside it and marked direct or contextual; contextual support needs a written rationale.
+Every sentence invoking a collection, Companion or Successor must also name an allowlisted source,
+record the supporting passage's verse reference and fingerprint, carry a matching excerpt, and
+receive the same relevance decision. A correctly copied
+but irrelevant clause or authentic report does not pass.
 
 The automated part compares each five-verse checkpoint with the frozen Chapter-1 floor. It alarms
 on sentence and readability drift and on evidence contraction. Ten-verse windows detect one-authority
 tokenism, repeated heading/paragraph shape and fixed final applications. Those are alarms rather
 than incentives to add filler: an independent reviewer may record a substantive metric exception,
-but cannot waive missing review, citation relevance or hard editorial defects.
+but cannot waive missing review, source-synthesis/fingerprint failure, substantive-claim, Qur'an or
+transmitted-evidence relevance, or hard editorial defects.
 
 ### Rules that hold at every checkpoint
 

@@ -14,9 +14,9 @@ Where each rule lives:
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
 | `scripts/tafsir/audit.py` | the same rules mechanised — **77 codes**; the authority on *what actually blocks a chapter* |
 | `scripts/tafsir/run.py` | the fifty-verse source map, the five-verse acceptance checkpoints, and the check that all fifty are independently accepted |
-| `scripts/tafsir/quality.py` | the v8 Chapter-1 parity gate: frozen baseline, drift alarms, independent rubric, and citation-relevance review |
+| `scripts/tafsir/quality.py` | the v8 Chapter-1 parity gate: frozen baseline, drift alarms, source fingerprints/synthesis, independent rubric, substantive-claim verification, and Qur'an/transmitted-evidence review |
 | `quality/chapter-001-baseline.json` | the frozen Chapter-1 measurements and hash; it cannot move when later prose deteriorates |
-| `quality/reviews/` | tracked independent semantic reviews, no more than five verses per review |
+| `quality/reviews/` | tracked independent all-source, rubric and evidence reviews, no more than five verses per review |
 | `scripts/tafsir/reference.py` | every cross-reference expanded with the wording it points to, ready to paste |
 | `scripts/tafsir/batch.py` | the same rule set applied to the verses written so far, so a batch can be judged while the chapter is unfinished |
 | `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy, and checks that the match rules stay silent on the verse's own wording and on synonyms of it |
@@ -101,8 +101,9 @@ that source's opinion, not compared work by work, and not quoted.
    or acceptance unit. Each verse receives the mechanical draft gate immediately
    (`batch.py ... --draft`). No more than five new verses may accumulate before a full acceptance
    check. Each five-verse checkpoint must pass `batch.py` without `--draft`, which includes the
-   frozen Chapter-1 parity gate and an independent semantic review of every verse and citation.
-   Any blocker prints **QUALITY DRIFT — GENERATION STOPPED**; the writer stops, reports the last
+   frozen Chapter-1 parity gate and an independent review of the complete source map, every verse,
+   every Qur'an citation and every named transmitted statement. Any blocker prints
+   **QUALITY DRIFT — GENERATION STOPPED**; the writer stops, reports the last
    accepted frontier to the author, and writes no later verse until the checkpoint is repaired and
    accepted. `run.py --check` prints RUN COMPLETE only when all fifty are written, mechanically
    clean and independently accepted.
@@ -207,23 +208,52 @@ that source's opinion, not compared work by work, and not quoted.
     Every Qur'an cross-reference receives a semantic ledger entry stating the proposition it is
     meant to support, the reference, the quoted clause and whether support is direct or contextual.
     Verbatim quotation is not relevance. `pending`, `insufficient`, a mismatched ledger, or a
-    contextual citation without a substantive rationale blocks acceptance (`QTY-CITATION-*`). A
-    consequential disagreement in creed or law names the readings and their evidence, states which
-    reading the commentary adopts and why, or stops for a decision; anonymous phrases such as
-    *"serious people hold both"* are not adjudication.
+    contextual citation without a substantive rationale blocks acceptance (`QTY-CITATION-*`).
+
+    **The whole source map is reviewed, not merely sampled.** Each verse review fingerprints the
+    passages available from all eleven works. A changed source passage invalidates the old review.
+    The independent reviewer compares the map with the finished prose, marks coverage complete, and
+    builds a map of distinct material points. Works carrying the same point are grouped rather than
+    counted as separate evidence. Each point is marked included with an excerpt from the commentary,
+    or omitted with its sources and a substantive reason. This is not a quota requiring eleven
+    opinions in the prose: duplicated, tangential and immaterial points may be omitted, but
+    substantive evidence cannot disappear without a recorded editorial decision
+    (`QTY-SOURCE-SYNTHESIS`, `QTY-SOURCE-OMISSION`, `QTY-SOURCE-FINGERPRINT`).
+
+    Named transmitted evidence is reviewed as strictly as Qur'an evidence. Every sentence invoking
+    a hadith collection, Companion or Successor is scaffolded into the ledger. The reviewer must
+    identify the allowlisted source passage containing it, record that passage's verse reference
+    and fingerprint, paste a matching excerpt, state the proposition it supports, and decide whether
+    the support is direct or contextual. A source name,
+    a collection name or a true report does not by itself prove the adjacent interpretation
+    (`QTY-TRANSMITTED-*`). A consequential disagreement in creed or law names the readings and their
+    evidence, states which reading the commentary adopts and why, or stops for a decision; anonymous
+    phrases such as *"serious people hold both"* are not adjudication.
+
+    **Language and consequential legal/theological claims receive explicit verification.** A
+    conservative detector scaffolds likely claims, but detection is not the boundary of the duty:
+    the reviewer reads the full prose, adds any material claim it missed, identifies a matching
+    fingerprinted allowlisted passage (including its verse reference), states the proposition and
+    decides direct or contextual support.
+    Changed statements invalidate their entries. Mere plausibility or a passing theological-
+    precision score cannot replace claim-level support (`QTY-CLAIM-*`).
 
     `quality/chapter-001-baseline.json` freezes the Chapter-1 hash and measurements. A quiet change
-    to Chapter 1 blocks the parity gate rather than moving the floor. Five-verse alarms compare
-    sentence control, readability and evidence density; ten-verse alarms detect authority
-    monoculture, repeated section shape and fixed application placement. Metrics are drift alarms,
+    to Chapter 1 blocks the parity gate rather than moving the floor. Raising the floor requires two
+    Chapter-1 review checkpoints (1:1–1:5 and 1:6–1:7), the complete source, substantive-claim,
+    citation and transmission ledgers, and an independent approval whose writer, reviewer and hashes
+    match those reviews. A new floor may tighten an old drift threshold but may never weaken one
+    merely because another dimension improved. Five-verse alarms compare sentence control,
+    readability and evidence density; ten-verse alarms detect authority monoculture, repeated
+    section shape and fixed application placement. Metrics are drift alarms,
     not quotas: a genuinely source-sparse or technically difficult checkpoint may carry a written
     exception only when the independent reviewer records the same substantive rationale for every
-    affected verse. Missing review, citation-relevance failure and hard editorial defects cannot be
-    waived.
+    affected verse. Missing review, source-fingerprint/synthesis failure, substantive-claim, Qur'an
+    or transmitted-evidence relevance failure, and hard editorial defects cannot be waived.
 
     The writer cannot certify his own semantic quality. The mechanical gate is automatic; citation
-    relevance, source synthesis and theological precision require the separate review. Assembly may
-    hold drafts, but `run.py --check` and `build_data.py` refuse completion or publication beyond
+    relevance, source synthesis, claim verification and theological precision require the separate
+    review. Assembly may hold drafts, but `run.py --check` and `build_data.py` refuse completion or publication beyond
     the independently accepted frontier. The alert itself is the required notification to the
     author and must name the blocked range, trigger and last accepted verse.
 
@@ -258,9 +288,13 @@ collections, the early authorities), and making its own point (`IND-WORK`, `IND-
 
 **v8 (2026-09-27)** makes Chapter 1 the frozen quality floor (§0.13). Fifty remains the source-map
 unit, while one verse is the draft unit and five verses are the maximum acceptance checkpoint. A
-new range needs independent rubric and citation-relevance review, and measurable drift stops and
+new range needs independent all-source synthesis, rubric and evidence-relevance review, and measurable drift stops and
 notifies instead of being hidden inside a mechanically passing fifty-verse run. Analogies and
-applications cease to be detector tokens: they remain only where they earn their place.
+applications cease to be detector tokens: they remain only where they earn their place. A raised
+baseline now carries the same independent review it imposes. Every accepted verse also carries an
+all-source fingerprint and synthesis decision, plus source-location and relevance review for named
+hadith, early-authority evidence, language claims, and consequential legal/theological claims; later
+work cannot lose source material behind a passing average.
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
@@ -778,7 +812,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Cross-references (v7.2) | every citation expanded with its clause `(C:V — **“clause”**)`, verbatim from `data/`; bare citations warn at 1–2 per section, fail from 3 |
 | **v7.3 — a tafsir, not talk** (§0.10) | every verse: a cross-reference with its clause (`REF-NONE`) and a transmitted reading — an early authority named or a report with its collection (`EVD-TAFSIR`); both fail. Register: plain sentences, full substance — no general reflection that fits any verse, no address to the reader, no rhetorical question, no praise of the text in place of its explanation |
 | Source-map length | **50 verses**, may span chapters; all eleven mapped in one pass |
-| Draft / acceptance unit (v8) | one verse mechanically checked at once; no more than **5** verses before independent parity review |
+| Draft / acceptance unit (v8) | one verse mechanically checked at once; no more than **5** verses before independent all-source, parity and evidence review |
 | Quality rubric | eight dimensions, 1–5; every score ≥4 to match Chapter 1; writer and reviewer different |
 | Source-led sentences | warn above 18%, fail above 30%; 3 in a row fails |
 | Source-led paragraphs | warn above 30%, fail above 45% |

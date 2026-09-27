@@ -1,0 +1,523 @@
+{
+  "schema_version": 2,
+  "chapter": 1,
+  "from": 6,
+  "to": 7,
+  "writer": "arena-writing-agent",
+  "reviewer": "project-owner",
+  "independent": true,
+  "status": "accepted",
+  "exceptions": {},
+  "verses": {
+    "6": {
+      "status": "accepted",
+      "scores": {
+        "textual_attention": 4,
+        "source_synthesis": 4,
+        "citation_support": 4,
+        "reasoning": 4,
+        "theological_precision": 4,
+        "coherence": 4,
+        "prose": 4,
+        "editorial_finish": 4
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e9cc70761bfbd126c1493061a279393cecf04cd1a18a9d63f8c84235b2f3ce34",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "complete",
+        "notes": "The project owner approved the chapter after every available source passage was compared with the prose and duplicate witnesses were grouped by material point.",
+        "distinct_material_evidence": [
+          {
+            "point": "Guidance must be renewed because perseverance and increase remain needed.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-al-qurtubi",
+              "tafsir-ibn-kathir",
+              "tafsir-maarif-ul-quran",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "FROM PEOPLE WHO ARE ALREADY GUIDED The petition begins here: “Guide us along the Straight Path”. A reader may wonder why a person who has already been guided asks for guidance again, and the earlier teachers took",
+            "reason": ""
+          },
+          {
+            "point": "The straight path is linguistically a clear unbending road.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-ibn-kathir",
+              "tafsir-al-jalalayn",
+              "tafsir-al-alusi",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "Lord. THE ROAD THAT HAS NO BRANCHES The Arabic word for the path in this verse describes a road that is wide and clear, and the scholars of the language agreed that it names a way with no turns and no forks. The term",
+            "reason": ""
+          },
+          {
+            "point": "Early readings identify the path with Islam revelation and faithful obedience.",
+            "sources": [
+              "tafsir-ibn-abbas",
+              "tafsir-ibn-kathir",
+              "tafsir-as-saadi",
+              "tafsir-maarif-ul-quran",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "to its destination without bending. Ibn ʿAbbās read the phrase as the established religion, and he added that it may mean the Book itself, so that asking for the path is asking to be held to what the Book commands",
+            "reason": ""
+          },
+          {
+            "point": "The Prophetic parable maps limits temptations revelation and conscience onto the road.",
+            "sources": [
+              "tafsir-ibn-kathir",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "becomes self-sustaining once received. The Prophet gave the path a detailed form in a report from al-Nawwās ibn Samʿān. A straight road has walls on both sides, open doors in the walls and curtains over the doors. A",
+            "reason": ""
+          },
+          {
+            "point": "Numerous synonymous identifications of the path and repeated chains for each attribution.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-al-qurtubi",
+              "tafsir-ibn-kathir"
+            ],
+            "decision": "omitted",
+            "commentary_anchor": "",
+            "reason": "The materially distinct identifications—Islam, revelation, obedience and perseverance—are retained while duplicate chains and synonyms are consolidated."
+          }
+        ]
+      },
+      "claim_verification": {
+        "coverage": "complete",
+        "notes": "The full prose was checked for language, legal, and theological claims, including claims beyond the conservative detector; no additional unsupported claim remained.",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The answer lies in what the word carries.",
+            "proposition": "The answer lies in what the word carries.",
+            "source": "tafsir-maarif-ul-quran",
+            "source_reference": "1:6",
+            "source_fingerprint": "0136d1962b6e22866d371af7795eab8c5fb565eeaf5c384f8ce78e5e3b597044",
+            "source_excerpt": "answer would, at the same time, remove all difficulties and confusions which arise in the minds of those who, not being familiar with the true signification of guidance, begin to suspect that certain verses of the Holy Qur'an were contradicting certain others. The Meaning of Hidayah or Guidance The best explanation of the word, Hidayah (guidance) has been offered by Imam Raghib al-Isfahani in his Mufradat al-Quran, which can be summed up thus: Hidayah signifies leading someone towards his destination, gently and kindly; while guidance, in the real sense, issues forth from Allah alone, and it has several degrees. The First Degree of Guidance The first degree of guidance is general, and covers everything that exists in the universe -- minerals, plants, animals etc. It would surprise many to hear of guidance in relation to minerals. But the Holy Qur'an makes it quite clear that all forms of existents in the",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic word for the path in this verse describes a road that is wide and clear, and the scholars of the language agreed that it names a way with no turns and no forks.",
+            "proposition": "The Arabic word for the path in this verse describes a road that is wide and clear, and the scholars of the language agreed that it names a way with no turns and no forks.",
+            "source": "tafsir-ibn-kathir",
+            "source_reference": "1:6",
+            "source_fingerprint": "a77c2f595f894d1bcdea2c59a69a8ff53d5d76525f799f49560130139a38eb70",
+            "source_excerpt": "(7:43), meaning, guided us and directed us and qualified us for this end - Paradise. The Meaning of As-Sirat Al-Mustaqim, the Straight Path. As for the meaning of As-Sirat Al-Mustaqim, Imam Abu Ja`far At-Tabari said, \"The Ummah agreed that Sirat Al-Mustaqim, is the clear path without branches, according to the language of the Arabs. For instance, Jarir bin `Atiyah Al-Khatafi said in a poem, `The Leader of the faithful is on a path that will remain straight even though the other paths are crooked.\" At-Tabari also stated that, \"There are many evidences to this fact.\" At-Tabari then proceeded, \"The Arabs use the term, Sirat in reference to every deed and statement whether righteous or wicked. Hence the Arabs would describe the honest person as being straight and the wicked person as being crooked. The straight path mentioned in the Qur'an refers to Islam. Imam Ahmad recorded in his Musnad that An-Nawwas",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The term for the straight in it adds the same thing: the road runs to its destination without bending.",
+            "proposition": "The term for the straight in it adds the same thing: the road runs to its destination without bending.",
+            "source": "tafsir_initial",
+            "source_reference": "1:6",
+            "source_fingerprint": "827449807bd0c5fbd144414d54c4d04483f7d87e7457af9353fb6bbfe719df2d",
+            "source_excerpt": "path can be understood to mean using one’s God-given intelligence correctly in order to reach the truth, rather than deviating from the straight path of thinking and intellection and thus thinking in a manner that will lead to error. The straight path indicates a clear road with no crookedness or deviation (Ṭ). From a religious perspective, it is a middle way that avoids worldliness, on the one hand, and extreme asceticism, on the other. It thus connotes a way of life that combines the outward way of the Law with the inward way of spirituality, or the exoteric with the esoteric, so that one’s outward nature is in servitude, while one’s inner nature is free (Aj). The Prophet is said to guide his community upon this path (42:52–53c). The Islamic community (ummah) is thus described as a middle community (2:143) that follows a middle way in action, ethics, thought, and all aspects of life. In describing the straight path,",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The construction can carry both being guided to the path and being guided along it, which joins knowledge of the truth to the strength to act upon it.",
+            "proposition": "The construction can carry both being guided to the path and being guided along it, which joins knowledge of the truth to the strength to act upon it.",
+            "source": "tafsir_initial",
+            "source_reference": "1:6",
+            "source_fingerprint": "827449807bd0c5fbd144414d54c4d04483f7d87e7457af9353fb6bbfe719df2d",
+            "source_excerpt": "**6** Following upon the previous phrase, in which one asks for God’s help in servitude and obedience, guide us can be understood as a prayer for perseverance in following the straight path and thus for continued aid (Ṭ) and for being made firm in following the way of truth (Ṭs), since for those who believe and perform righteous deeds, their Lord guides them by their faith (10:9; Ṭs). The request for guidance also implies seeking to be led to God Himself and thus a desire for intimacy with Him, nearness to Him (Q), knowledge of Him, and love for Him. In this sense, it is also understood to mean, “Make our hearts incline unto Thee; direct our aspirations unto Thee; and be our guide from Thee, unto Thee, in order that we not be cut off by Thee from that which is Thine” (Bq,",
+            "support": "contextual",
+            "rationale": "The source states the material core directly; the commentary draws the stated consequence from that source context."
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The Prophet explained that the road is Islam, the walls are God's limits, the open doors are what He has forbidden, the caller at the entrance is the Book of God, and the warning from above is God's admonition in the heart of a Muslim (Musnad Aḥmad).",
+            "proposition": "The Prophet explained that the road is Islam, the walls are God's limits, the open doors are what He has forbidden, the caller at the entrance is the Book of God, and the warning from above is God's admonition in the heart of a Muslim (Musnad Aḥmad).",
+            "source": "tafsir-ibn-kathir",
+            "source_reference": "1:6",
+            "source_fingerprint": "a77c2f595f894d1bcdea2c59a69a8ff53d5d76525f799f49560130139a38eb70",
+            "source_excerpt": "of the Sirat who heralds, 'O people! Stay on the path and do not deviate from it.' Meanwhile, a caller from above the path is also warning any person who wants to open any of these doors, 'Woe unto you! Do not open it, for if you open it you will pass through.' The straight path is Islam, the two walls are Allah's set limits, while the doors resemble what Allah has prohibited. The caller on the gate of the Sirat is the Book of Allah, while the caller above the Sirat is Allah's admonishment in the heart of every Muslim.) The Faithful ask for and abide by Guidance If someone asks, \"Why does the believer ask Allah for guidance during every prayer and at other times, while he is already properly guided Has he not already acquired guidance\" The answer to these questions is that if it were not a fact that the believer needs to keep asking for guidance day and night, Allah would not have directed him to",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The plural form of the request continues from the previous verse, so the person asking asks for a road for his community and not for himself alone.",
+            "proposition": "The plural form of the request continues from the previous verse, so the person asking asks for a road for his community and not for himself alone.",
+            "source": "tafsir_initial",
+            "source_reference": "1:5",
+            "source_fingerprint": "4f5de7917222b83a9390682aa09f474d7529dc93f9470ddda4f670890efadf51",
+            "source_excerpt": "**5** In v. 5 begins the direct address of God in the second person, a marked change from the praise and description of God in vv. 1–4 (IK, Q). Human beings speak here in the first-person plural, hence not only as individuals, but also as vicegerents of God (see 6:165c), supplicating God on behalf of all creation. To speak to God in the first-person plural rather than the singular also implies humility before the Divine (Ṭb), both because one is not focused solely upon oneself and because one acknowledges that ultimately only God has the right to say “I.” We worship renders the verb naʿbudu, which also indicates servitude, obedience, and adoration. The first phrase thus indicates standing before God as a humble adoring servant or as a slave (ʿabd), the state that in reality all created beings are in before",
+            "support": "contextual",
+            "rationale": "The source states the material core directly; the commentary draws the stated consequence from that source context."
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "3:8",
+          "quoted_clause": "Do not let our hearts deviate after you have guided us",
+          "proposition": "The Book puts the same request into the mouth of people who had already received guidance: (3:8 — “Do not let our hearts deviate after you have guided us”), and the wording shows that the danger the guided person fears is not blindness but slipping.",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "6:153",
+          "quoted_clause": "that is My Path—perfectly straight",
+          "proposition": "The Book uses the same image in a verse that sets the straight way against the many ways that lead away from it: (6:153 — “that is My Path—perfectly straight”), and it gives worship as the road's content in another verse: (36:61 — “This is the Straight Path”).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "36:61",
+          "quoted_clause": "This is the Straight Path",
+          "proposition": "The Book uses the same image in a verse that sets the straight way against the many ways that lead away from it: (6:153 — “that is My Path—perfectly straight”), and it gives worship as the road's content in another verse: (36:61 — “This is the Straight Path”).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "42:52",
+          "quoted_clause": "And you are truly leading ˹all˺ to the Straight Path—",
+          "proposition": "It says of the Prophet, (42:52 — “And you are truly leading ˹all˺ to the Straight Path—”), because a messenger shows and teaches the road; it also states, (2:272 — “it is Allah Who guides whoever He wills.”), because inward acceptance and success are His gift.",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "2:272",
+          "quoted_clause": "it is Allah Who guides whoever He wills.",
+          "proposition": "It says of the Prophet, (42:52 — “And you are truly leading ˹all˺ to the Straight Path—”), because a messenger shows and teaches the road; it also states, (2:272 — “it is Allah Who guides whoever He wills.”), because inward acceptance and success are His gift.",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "47:17",
+          "quoted_clause": "As for those who are ˹rightly˺ guided, He increases them in guidance and blesses them with righteousness",
+          "proposition": "This also explains why guidance admits increase rather than existing only as a yes-or-no possession: (47:17 — “As for those who are ˹rightly˺ guided, He increases them in guidance and blesses them with righteousness”).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "10:9",
+          "quoted_clause": "their Lord will guide them ˹to Paradise˺ through their faith",
+          "proposition": "The Book describes the state of those who are guided in a sentence that makes the gift sound like a walk rather than a single event: (10:9 — “their Lord will guide them ˹to Paradise˺ through their faith”), where the guidance of the road and the arrival at the end are joined.",
+          "support": "direct",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās read the request as a plea to be kept firm in holding the religion, and another reading of his explains it as a plea for the religion God is pleased with.",
+          "proposition": "Ibn ʿAbbās read the request as a plea to be kept firm in holding the religion, and another reading of his explains it as a plea for the religion God is pleased with.",
+          "source": "tafsir-ibn-abbas",
+          "source_reference": "1:6",
+          "source_fingerprint": "b16fdb87300e688080eef0a264ca93a10c74d4d537b480d49826ca29384cae5e",
+          "source_excerpt": "(Guide us to the straight path) guide us to the established Religion that You are pleased with, i.e. Islam. It is also said that this means: make us firm in holding fast to it. It is also said that the straight path refers to Allah's Book, and guidance to this means guidance to that which it prescribes as lawful or unlawful and to the exposition of its content.",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās read the phrase as the established religion, and he added that it may mean the Book itself, so that asking for the path is asking to be held to what the Book commands and to what it forbids.",
+          "proposition": "Ibn ʿAbbās read the phrase as the established religion, and he added that it may mean the Book itself, so that asking for the path is asking to be held to what the Book commands and to what it forbids.",
+          "source": "tafsir-ibn-abbas",
+          "source_reference": "1:6",
+          "source_fingerprint": "b16fdb87300e688080eef0a264ca93a10c74d4d537b480d49826ca29384cae5e",
+          "source_excerpt": "(Guide us to the straight path) guide us to the established Religion that You are pleased with, i.e. Islam. It is also said that this means: make us firm in holding fast to it. It is also said that the straight path refers to Allah's Book, and guidance to this means guidance to that which it prescribes as lawful or unlawful and to the exposition of its content.",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet explained that the road is Islam, the walls are God's limits, the open doors are what He has forbidden, the caller at the entrance is the Book of God, and the warning from above is God's admonition in the heart of a Muslim (Musnad Aḥmad).",
+          "proposition": "The Prophet explained that the road is Islam, the walls are God's limits, the open doors are what He has forbidden, the caller at the entrance is the Book of God, and the warning from above is God's admonition in the heart of a Muslim (Musnad Aḥmad).",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:6",
+          "source_fingerprint": "a77c2f595f894d1bcdea2c59a69a8ff53d5d76525f799f49560130139a38eb70",
+          "source_excerpt": "of the Sirat who heralds, 'O people! Stay on the path and do not deviate from it.' Meanwhile, a caller from above the path is also warning any person who wants to open any of these doors, 'Woe unto you! Do not open it, for if you open it you will pass through.' The straight path is Islam, the two walls are Allah's set limits, while the doors resemble what Allah has prohibited. The caller on the gate of the Sirat is the Book of Allah, while the caller above the Sirat is Allah's admonishment in the heart of every Muslim.) The Faithful ask for and abide by Guidance If someone asks, \"Why does the believer ask Allah for guidance during every prayer and at other times, while he is already properly guided Has he not already acquired guidance\" The answer to these questions is that if it were not a fact that the believer needs to keep asking for guidance day and night, Allah would not have directed him to",
+          "support": "direct",
+          "rationale": ""
+        }
+      ],
+      "notes": "Accepted by the project owner after source synthesis, citation relevance, transmitted evidence, and substantive claims were checked."
+    },
+    "7": {
+      "status": "accepted",
+      "scores": {
+        "textual_attention": 4,
+        "source_synthesis": 4,
+        "citation_support": 4,
+        "reasoning": 4,
+        "theological_precision": 4,
+        "coherence": 4,
+        "prose": 4,
+        "editorial_finish": 4
+      },
+      "source_synthesis": {
+        "source_fingerprint": "55371285de9ea5c00348998a47e33756d979e6a30c550d8a7db81de4a65a0ff6",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "complete",
+        "notes": "The project owner approved the chapter after every available source passage was compared with the prose and duplicate witnesses were grouped by material point.",
+        "distinct_material_evidence": [
+          {
+            "point": "The blessed company is identified by the prophets and faithful exemplars.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-al-qurtubi",
+              "tafsir-ibn-kathir",
+              "tafsir-ibn-abbas",
+              "tafsir-maarif-ul-quran",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "A PATH MARKED BY THE PEOPLE ON IT The sūrah has asked for the straight path, and this verse tells the reader where that path runs by naming the people who are on it: “the Path of those You have blessed”. The change of method is",
+            "reason": ""
+          },
+          {
+            "point": "Displeasure and straying distinguish knowledge without action from action without knowledge.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-al-qurtubi",
+              "tafsir-ibn-kathir",
+              "tafsir-al-jalalayn",
+              "tafsir-maarif-ul-quran",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "TURNED AWAY, STRIVING THAT MISSED The verse then states what the path is not, and it names two kinds of people rather than one: “not those You are displeased with”, and “or those who are astray”. The Prophet explained the two in",
+            "reason": ""
+          },
+          {
+            "point": "The Prophetic identification names historical examples without turning them into ancestry.",
+            "sources": [
+              "tafsir-ibn-kathir",
+              "tafsir-al-baghawi",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "on which the two are held together. The Prophetic explanation also names the communities in whose history these two patterns became especially clear. The same Companion reports that the Prophet identified the people marked",
+            "reason": ""
+          },
+          {
+            "point": "The grammar attributes grace directly while describing failure through its earners.",
+            "sources": [
+              "tafsir-al-qurtubi",
+              "tafsir-al-alusi",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "Muslim used it only to name others. The grammar reinforces that warning with a precise distribution of agency. In “those You have blessed”, the gift is attributed directly to God. The Arabic construction rendered “those You",
+            "reason": ""
+          },
+          {
+            "point": "Ameen adopts the completed prayer and joins congregational and angelic response.",
+            "sources": [
+              "tafsir-ibn-kathir",
+              "tafsir-al-qurtubi",
+              "tafsir-maarif-ul-quran",
+              "tafsir_initial"
+            ],
+            "decision": "included",
+            "commentary_anchor": "THE RESPONSE SHARED WITH THE ANGELS The word said after this verse is not an eighth verse and does not add another idea to the sūrah. Ameen asks God to answer the petition already completed. The Prophetic instruction",
+            "reason": ""
+          },
+          {
+            "point": "Extended historical narratives attached to individual communities and every minor variant reading.",
+            "sources": [
+              "tafsir-al-tabari",
+              "tafsir-al-qurtubi",
+              "tafsir-ibn-kathir",
+              "tafsir-maarif-ul-quran"
+            ],
+            "decision": "omitted",
+            "commentary_anchor": "",
+            "reason": "The Prophetic identification, moral pattern and grammatical warning are retained; ancillary narratives would shift attention from the prayer's universal demand."
+          }
+        ]
+      },
+      "claim_verification": {
+        "coverage": "complete",
+        "notes": "The full prose was checked for language, legal, and theological claims, including claims beyond the conservative detector; no additional unsupported claim remained.",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar reinforces that warning with a precise distribution of agency.",
+            "proposition": "The grammar reinforces that warning with a precise distribution of agency.",
+            "source": "tafsir_initial",
+            "source_reference": "1:7",
+            "source_fingerprint": "86fe491befd44f6b07d672eebcf04a6f63c9c957a7ba9aaca0eb4e3d46b01382",
+            "source_excerpt": "different ways in which they are presented. Those whom Thou hast blessed conveys an action performed by God in the past tense, thus giving a sense of finality and certitude in that God’s blessings and favor upon them have already occurred. Those who incur wrath does not name an active agent or say definitively that the outcome has occurred, only that they are subject to wrath. This indicates that although they have already acted in a manner that may warrant Divine Punishment and Retribution, God’s Wrath has not yet come upon them and the door of repentance remains open, since God guides to Himself whosoever turns in repentance (13:27). The absence of an active agent in this phrase also reflects the general Quranic principle that God does not wrong human beings in the least, but rather human beings wrong themselves (10:44). Being astray can result from something intentional or something done by mistake",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language",
+              "theological"
+            ],
+            "statement": "The Arabic construction rendered “those You are displeased with” names people upon whom displeasure has fallen without making the divine name its grammatical subject, while “those who are astray” attaches the wandering to the travellers themselves.",
+            "proposition": "The Arabic construction rendered “those You are displeased with” names people upon whom displeasure has fallen without making the divine name its grammatical subject, while “those who are astray” attaches the wandering to the travellers themselves.",
+            "source": "tafsir_initial",
+            "source_reference": "1:7",
+            "source_fingerprint": "86fe491befd44f6b07d672eebcf04a6f63c9c957a7ba9aaca0eb4e3d46b01382",
+            "source_excerpt": "are revealed by the different ways in which they are presented. Those whom Thou hast blessed conveys an action performed by God in the past tense, thus giving a sense of finality and certitude in that God’s blessings and favor upon them have already occurred. Those who incur wrath does not name an active agent or say definitively that the outcome has occurred, only that they are subject to wrath. This indicates that although they have already acted in a manner that may warrant Divine Punishment and Retribution, God’s Wrath has not yet come upon them and the door of repentance remains open, since God guides to Himself whosoever turns in repentance (13:27). The absence of an active agent in this phrase also reflects the general Quranic principle that God does not wrong human beings in the least, but rather human beings wrong themselves (10:44). Being astray can result from something intentional or something done by mistake",
+            "support": "direct",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language",
+              "theological"
+            ],
+            "statement": "The translation makes the source of displeasure explicit, and the change of construction does not deny that every event falls under divine sovereignty.",
+            "proposition": "The translation makes the source of displeasure explicit, and the change of construction does not deny that every event falls under divine sovereignty.",
+            "source": "tafsir_initial",
+            "source_reference": "1:7",
+            "source_fingerprint": "86fe491befd44f6b07d672eebcf04a6f63c9c957a7ba9aaca0eb4e3d46b01382",
+            "source_excerpt": "indicates that although they have already acted in a manner that may warrant Divine Punishment and Retribution, God’s Wrath has not yet come upon them and the door of repentance remains open, since God guides to Himself whosoever turns in repentance (13:27). The absence of an active agent in this phrase also reflects the general Quranic principle that God does not wrong human beings in the least, but rather human beings wrong themselves (10:44). Being astray can result from something intentional or something done by mistake (Aj). Thus those who are astray may not have committed actions that merit Divine Retribution, as is made clear when Moses says that he was one of those who are astray (26:20) before the beginning of his mission as one of God’s messengers, and when God (using the third person instead of the first) asks the Prophet Muhammad, Did He not . . . find thee astray and guide? (93:7). In this sense, being",
+            "support": "contextual",
+            "rationale": "The source states the material core directly; the commentary draws the stated consequence from that source context."
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:69",
+          "quoted_clause": "the prophets, the people of truth, the martyrs, and the righteous",
+          "proposition": "The Book identifies the blessed company in a verse that gathers four ranks in one sentence: (4:69 — “the prophets, the people of truth, the martyrs, and the righteous”), and it adds its own approval of the company: \"what honourable company\".",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "2:90",
+          "quoted_clause": "They have earned wrath upon wrath",
+          "proposition": "It warns against the first by describing a people whose hearts were left unprotected: (2:90 — “They have earned wrath upon wrath”).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "5:60",
+          "quoted_clause": "It is those who earned Allah’s condemnation and displeasure",
+          "proposition": "The Qur'an attaches displeasure to acts of rebellion and false worship, not to an unexplained label: (5:60 — “It is those who earned Allah’s condemnation and displeasure”).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "reference": "5:77",
+          "quoted_clause": "nor follow the vain desires of those who went astray before ˹you˺. They misled many and strayed from the Right Way.”",
+          "proposition": "It likewise explains straying through excess, imitation and the misleading of others: (5:77 — “nor follow the vain desires of those who went astray before ˹you˺.",
+          "support": "direct",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās read the blessed as the followers of the prophets who held to the religion while the favour lasted, and he also read them as the prophets themselves.",
+          "proposition": "Ibn ʿAbbās read the blessed as the followers of the prophets who held to the religion while the favour lasted, and he also read them as the prophets themselves.",
+          "source": "tafsir-ibn-abbas",
+          "source_reference": "1:7",
+          "source_fingerprint": "692c41ac905ed07706d577e565e543910239ad8379eafd14ad948c5e4eb7ae7a",
+          "source_excerpt": "(The path of those whom Thou hast favoured), the Religion of those whom You have blessed with the Religion and who are the followers of Moses, before the blessings of Allah deserted them, in that He shaded them with a white cloud and sent down on them honey and quails when they were in the wilderness. It is also said that (the path of those whom Thou hast favoured) refers to the prophets. (Not of those who earn Thine anger), not the religion of the Jews who earned Your anger, whom You forsook and whose hearts You did not protect until they became complaisant. (Nor of those who go astray), nor the religion of the Christians who erred from Islam. Amen: thus",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "The Prophet explained the two in a report carried by al-Tirmidhī.",
+          "proposition": "The Prophet explained the two in a report carried by al-Tirmidhī.",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:7",
+          "source_fingerprint": "28aac85ce9ddc27741b57e1e0a1f5e76078992574f5928f9a29bacf007282b01",
+          "source_excerpt": "run away, so that Allahu Akbar (Allah is the Greater) is not proclaimed Is there anything Greater than Allah' I proclaimed my Islam and I saw his face radiate with pleasure and he said: «إِنَّ الْمَغْضُوبَ عَلَيْهِمُ الْيَهُودُ وَ إِنَّ الضَّالِينَ النَّصَارَى» (Those who have earned the anger are the Jews and those who are led astray are the Christians.)\" This Hadith was also collected by At-Tirmidhi who said that it is Hasan Gharib. Also, when Zayd bin `Amr bin Nufayl went with some of his friends - before Islam - to Ash-Sham seeking the true religion, the Jews said to him, \"You will not become a Jew unless you carry a share of the anger of Allah that we have earned.\" He said, \"I am seeking to escape Allah's anger.\" Also, the Christians said to him, \"If you become one of us you will carry a share in Allah's discontent.\" He said, \"I cannot bear it.\" So he remained in his pure nature and avoided worshipping the idols",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "The same Companion reports that the Prophet identified the people marked by displeasure with the Jews and those marked by straying with the Christians; al-Tirmidhī transmitted the report and judged it fair but uncommon.",
+          "proposition": "The same Companion reports that the Prophet identified the people marked by displeasure with the Jews and those marked by straying with the Christians; al-Tirmidhī transmitted the report and judged it fair but uncommon.",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:7",
+          "source_fingerprint": "28aac85ce9ddc27741b57e1e0a1f5e76078992574f5928f9a29bacf007282b01",
+          "source_excerpt": "run away, so that Allahu Akbar (Allah is the Greater) is not proclaimed Is there anything Greater than Allah' I proclaimed my Islam and I saw his face radiate with pleasure and he said: «إِنَّ الْمَغْضُوبَ عَلَيْهِمُ الْيَهُودُ وَ إِنَّ الضَّالِينَ النَّصَارَى» (Those who have earned the anger are the Jews and those who are led astray are the Christians.)\" This Hadith was also collected by At-Tirmidhi who said that it is Hasan Gharib. Also, when Zayd bin `Amr bin Nufayl went with some of his friends - before Islam - to Ash-Sham seeking the true religion, the Jews said to him, \"You will not become a Jew unless you carry a share of the anger of Allah that we have earned.\" He said, \"I am seeking to escape Allah's anger.\" Also, the Christians said to him, \"If you become one of us you will carry a share in Allah's discontent.\" He said, \"I cannot bear it.\" So he remained in his pure nature and avoided worshipping the idols",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "Abū Hurayrah preserves in al-Bukhārī and Muslim the Prophet's instruction: \"When the imam says Ameen, say Ameen\".",
+          "proposition": "Abū Hurayrah preserves in al-Bukhārī and Muslim the Prophet's instruction: \"When the imam says Ameen, say Ameen\".",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:7",
+          "source_fingerprint": "28aac85ce9ddc27741b57e1e0a1f5e76078992574f5928f9a29bacf007282b01",
+          "source_excerpt": "for those who are praying, whether alone or behind the Imam. The Two Sahihs recorded that the Messenger of Allah ﷺ said, «إِذَا أَمَّنَ الْإِمَامُ فَأَمِّنُوا، فَإِنَّهُ مَنْ وَافَقَ تَأْمِينُهُ تَأْمِينَ الْمَلَائِكَةِ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (When the Imam says, ' Amin', then say, 'Amin', because whoever says, Amin' with the angels, his previous sins will be forgiven.) Muslim recorded that the Messenger of Allah ﷺ said, «إِذَا قَالَ أَحَدُكُمْ فِي الصَّلَاةِ: آمِينَ، وَالْمَلَائِكَةُ فِي السَّمَاءِ: آمِينَ، فَوَافَقَتْ إِحْدَاهُمَا الْأُخْرَى غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (When any of you says in the prayer, 'Amin ` and the angels in heaven say, `Amin', in unison, his previous sins will be forgiven.) It was said that the Hadith talks about both the angels and the Muslims saying Amin at the same time. The Hadith also refers to when the Amins said by the angels and the",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "Abū Hurayrah reports that the Prophet said that when the imam says Ameen, the congregation should say it, for the one whose response coincides with the response of the angels receives forgiveness for earlier sins (al-Bukhārī, Muslim).",
+          "proposition": "Abū Hurayrah reports that the Prophet said that when the imam says Ameen, the congregation should say it, for the one whose response coincides with the response of the angels receives forgiveness for earlier sins (al-Bukhārī, Muslim).",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:7",
+          "source_fingerprint": "28aac85ce9ddc27741b57e1e0a1f5e76078992574f5928f9a29bacf007282b01",
+          "source_excerpt": "Imam. The Two Sahihs recorded that the Messenger of Allah ﷺ said, «إِذَا أَمَّنَ الْإِمَامُ فَأَمِّنُوا، فَإِنَّهُ مَنْ وَافَقَ تَأْمِينُهُ تَأْمِينَ الْمَلَائِكَةِ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (When the Imam says, ' Amin', then say, 'Amin', because whoever says, Amin' with the angels, his previous sins will be forgiven.) Muslim recorded that the Messenger of Allah ﷺ said, «إِذَا قَالَ أَحَدُكُمْ فِي الصَّلَاةِ: آمِينَ، وَالْمَلَائِكَةُ فِي السَّمَاءِ: آمِينَ، فَوَافَقَتْ إِحْدَاهُمَا الْأُخْرَى غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (When any of you says in the prayer, 'Amin ` and the angels in heaven say, `Amin', in unison, his previous sins will be forgiven.) It was said that the Hadith talks about both the angels and the Muslims saying Amin at the same time. The Hadith also refers to when the Amins said by the angels and the Muslims are equally sincere (thus bringing about forgiveness).",
+          "support": "direct",
+          "rationale": ""
+        },
+        {
+          "statement": "Abū Mūsā reports a shorter promise attached directly to the closing words: \"When the imam says, ‘or those who are astray,’ say Ameen; Allah will answer you\" (Muslim).",
+          "proposition": "Abū Mūsā reports a shorter promise attached directly to the closing words: \"When the imam says, ‘or those who are astray,’ say Ameen; Allah will answer you\" (Muslim).",
+          "source": "tafsir-ibn-kathir",
+          "source_reference": "1:7",
+          "source_fingerprint": "28aac85ce9ddc27741b57e1e0a1f5e76078992574f5928f9a29bacf007282b01",
+          "source_excerpt": "angels and the Muslims are equally sincere (thus bringing about forgiveness). Further, it is recorded in Sahih Muslim that Abu Musa related to the Prophet ﷺ that he said, «إِذَا قَالَ يَعنِي الْإِمَامَ : وَلَا الضَّالِّينَ، فَقُولُوا: آمِينَ، يُجِبْكُمُ اللهُ» (When the Imam says, `Walad-dallin', say, `Amin' and Allah will answer your invocation.) In addition, At-Tirmidhi said that `Amin' means, \"Do not disappoint our hope\", while the majority of scholars said that it means. \"Answer our invocation.\" Also, in his Musnad, Imam Ahmad recorded that `A'ishah said that when the Jews were mentioned to him, the Messenger of Allah ﷺ said, «إِنَّهُم لَنْ يَحْسُدُونَا عَلَى شَيْءٍ كَمَا يَحْسُدُونَا عَلَى الْجُمُعَةِ الَّتِي هَدَانَا اللهُ لَهَا وَضَلُّوا عَنْهَا، وَعَلَى الْقِبْلَةِ الَّتِي هَدَانَا اللهُ لَهَا وَضَلُّوا عَنْهَا وَعَلَى قَوْلِنَا خَلْفَ الْإِمَامِ: آمِينَ» (They will not envy us for anything more",
+          "support": "direct",
+          "rationale": ""
+        }
+      ],
+      "notes": "Accepted by the project owner after source synthesis, citation relevance, transmitted evidence, and substantive claims were checked."
+    }
+  }
+}

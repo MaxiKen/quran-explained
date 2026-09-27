@@ -7,8 +7,9 @@ time, out of the **eleven** works this repository is written from (`corpus.SOURC
 ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed
 format and two gates before it is published to the app. The standard in force is **v8**: the v7.4
 source, register and independence laws remain, and Chapter 1 is now the frozen quality floor rather
-than merely an example. Chapter 1 is written and published (`tafsir/001.md`,
-`data/tafsir_001.json`). Chapter 2 has an introduction and commentary through 2:100, but that prose
+than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
+published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
+all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 has an introduction and commentary through 2:100, but that prose
 is not independently accepted by the v8 parity gate; verses 2:101–2:286 remain scaffolds. Fifty
 verses are mapped from the eleven works in one pass, while prose is mechanically checked per verse
 and independently accepted in checkpoints of no more than five.
@@ -34,7 +35,8 @@ python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a t
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
 #   ... write one verse, splice it, and run its mechanical draft check ...
 python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
-#   ... after no more than five, a different reviewer completes the parity review ...
+#   ... after no more than five, a different reviewer compares every source, fills
+#       the substantive-claim, Qur'an and transmitted-evidence ledgers, then the rubric ...
 python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
 python3 scripts/tafsir/batch.py 2 --from 101 --to 105  # mechanical + Chapter-1 parity acceptance
 python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
@@ -62,6 +64,14 @@ Excerpts worth knowing:
   collection, a named authority, or a language point;
 * prose is plain English and is compared with the frozen Chapter-1 sentence, readability and
   evidence baseline; analogy and application are optional and must add verse-specific clarity;
+* every acceptance review fingerprints all available passages from the eleven works, compares the
+  full source map with the prose, groups duplicate witnesses into distinct material points, and marks
+  each point included or omitted with a reason; changed source
+  material invalidates stale approval rather than passing under an old review;
+* every named hadith, collection, Companion and Successor statement is located in an allowlisted
+  source and relevance-reviewed, just as every Qur'an cross-reference is relevance-reviewed;
+* language claims and consequential legal/theological claims receive their own source-backed ledger;
+  the reviewer checks the full prose and adds material claims that the conservative detector misses;
 * every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
   `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
   prints the expansion;

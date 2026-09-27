@@ -21,9 +21,12 @@ quoted, how many quoted phrases are still missing evidence beside them, and
 whether the verse carries a relatable analogy.
 
 By default, exit status is 0 only when the mechanical gate and the independent
-Chapter-1 parity gate both pass. ``--draft`` runs the mechanical checks alone so a
-new verse can be assembled for review; it is never acceptance. Checkpoints contain
-no more than five newly written verses.
+Chapter-1 parity gate both pass. That semantic gate compares every available source,
+groups duplicate witnesses into distinct points, accounts for omissions, and checks
+substantive claims, Qur'an citations,
+and transmitted evidence for support and relevance. ``--draft`` runs the mechanical checks alone so a new verse
+can be assembled for review; it is never acceptance. Checkpoints contain no more
+than five newly written verses.
 """
 
 from __future__ import annotations
@@ -125,7 +128,7 @@ def run_range(chapter, start, end, opts):
 
     quality_findings = []
     if opts.draft:
-        lines.append("DRAFT ONLY — Chapter-1 parity and citation-relevance review not yet applied")
+        lines.append("DRAFT ONLY — all-source synthesis, Chapter-1 parity, claim and evidence review not yet applied")
     else:
         if chapter != Q.BASELINE_CHAPTER and len(written) > Q.CHECKPOINT_SIZE:
             quality_findings.append(Q.Finding(

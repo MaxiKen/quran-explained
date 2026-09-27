@@ -91,8 +91,9 @@ def todo_for(chapter: int, verse: int) -> str:
         "questions. And keep \u00a70.12: this is an independent book \u2014 quote only the "
         "verse, a cross-referenced clause, or a report with its collection; name no work "
         "and quote no book (IND-WORK, IND-QUOTE). Chapter 1 is the quality floor (v8): the verse "
-        "is not accepted until a different reviewer completes its rubric and citation-relevance "
-        "ledger. See TAFSIR_PROMPT.md, then run the draft gate for chapter %d."
+        "is not accepted until a different reviewer completes its all-source synthesis, rubric, "
+        "substantive-claim, Qur'an and transmitted-evidence ledgers. See TAFSIR_PROMPT.md, then run the "
+        "draft gate for chapter %d."
         % (floor_for(chapter, verse), chapter, verse, C.pad3(chapter), chapter)
     )
 

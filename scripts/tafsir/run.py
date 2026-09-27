@@ -12,7 +12,7 @@ The point of the run is speed and coverage:
   and writes the run's map plus the per-chapter digests the auditor reads.
 * **review before continuing.** Fifty verses are the source-mapping unit, not the
   acceptance unit. Each verse receives a draft check; every five-verse checkpoint
-  needs an independent Chapter-1 parity and citation-relevance review. ``--check``
+  needs independent all-source synthesis, Chapter-1 parity, substantive-claim, and Qur'an/transmitted-evidence review. ``--check``
   exits 0 only when all fifty have passed both the mechanical and quality gates.
 
     python3 scripts/tafsir/run.py --plan                 # the next fifty verses
@@ -543,7 +543,7 @@ def check_run(verses, index, no_grounding=False) -> int:
             print("  %-4s %-18s %s" % (f.level, f.code, f.message[:90]))
     if pending or failing or quality_findings:
         print("RUN INCOMPLETE \u2014 map fifty for speed, but stop after each five-verse checkpoint "
-              "until mechanical and independent Chapter-1 parity review both pass")
+              "until mechanical and complete independent source/evidence parity review both pass")
         return 1
     if complete_chapters and any(f.level == A.FAIL for f in chapter_level):
         print("RUN INCOMPLETE \u2014 the chapter gate still fails on the finished chapter")
