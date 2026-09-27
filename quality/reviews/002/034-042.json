@@ -1,0 +1,1321 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 34,
+  "to": 42,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "34": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "858acc2e0ccdeed6f0203352cadcd04a87dcd029b3023f9da9915f8eeb4c994c",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The law now bars this bow to a human being, even as a mark of respect.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:34",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "15:30",
+          "quoted_clause": "So the angels prostrated all together—",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "12:100",
+          "quoted_clause": "and they all fell down in prostration to Joseph,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "41:37",
+          "quoted_clause": "but prostrate to Allah, Who created them ˹all˺, if you ˹truly˺ worship Him ˹alone˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "18:50",
+          "quoted_clause": "who was one of the jinn, but he rebelled against the command of his Lord.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:12",
+          "quoted_clause": "“I am better than he is: You created me from fire and him from clay.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:13",
+          "quoted_clause": "You are truly one of the disgraced.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:49",
+          "quoted_clause": "as do the angels—who are not too proud ˹to do so˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Qatādah makes the point clear: they obeyed God and bowed before Adam.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In the account of Muʿādh’s return from Syria carried by Ibn Mājah, the Prophet forbade him to bow in this way.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A report from Ibn ʿAbbās places him in a group of angels called jinn.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In Muslim, ʿĀʾishah reports that the Prophet described angels as made from light and jinn from smokeless fire.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Qatādah connects this pride with envy of Adam’s honour.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains the end as his becoming a disbeliever through that rejection; another transmitted explanation relates it to what God had already known of him.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In Muslim, Abū Hurayrah relates the Prophet’s description of Satan’s tears when a person recites a verse of prostration and bows down.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:34",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "35": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "80c0c81f9b2273a64d541445d6e65bea1b5137d8f0ee9f95c9cdcfd4c46983e7",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Since the allowed food is so plentiful, need cannot make the forbidden tree their only means of life.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:35",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:1",
+          "quoted_clause": "and from it He created its mate, and through both He spread countless men and women.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "15:48",
+          "quoted_clause": "nor will they ever be asked to leave",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:118",
+          "quoted_clause": "Here it is guaranteed that you will never go hungry or unclothed",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:119",
+          "quoted_clause": "nor will you ˹ever˺ suffer from thirst or ˹the sun’s˺ heat.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:23",
+          "quoted_clause": "“Our Lord! We have wronged ourselves.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "In Muslim and al-Nasāʾī, Abū Hurayrah reports that the Prophet named Friday as the day Adam was created, admitted to Paradise, and taken out of it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:35",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains this as ample living, with room to eat where and when they wished.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:35",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid’s gloss of food taken without account also belongs within this broad grant.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:35",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains the harm as harm done to themselves.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:35",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "36": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "14e0e0504e41a293a20d4288ede824c68a82ec722cf9e64ad15676af2ad90c3d",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "A pledge of goodwill could not change what God had forbidden.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:36",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The address is plural.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:36",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "Al-Suddī takes the end of enjoyment as death; Mujāhid relates the term to the Resurrection, when the world’s course ends.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:36",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "20:120",
+          "quoted_clause": "Shall I show you the Tree of Immortality and a kingdom that does not fade away?”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:21",
+          "quoted_clause": "And he swore to them, “I am truly your sincere advisor.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:22",
+          "quoted_clause": "their nakedness was exposed to them, prompting them to cover themselves with leaves from Paradise.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "14:22",
+          "quoted_clause": "I only called you, and you responded to me. So do not blame me; blame yourselves.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "35:6",
+          "quoted_clause": "Surely Satan is an enemy to you, so take him as an enemy.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:25",
+          "quoted_clause": "“There you will live, there you will die, and from there you will be resurrected.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "6:164",
+          "quoted_clause": "No soul burdened with sin will bear the burden of another.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:122",
+          "quoted_clause": "Then his Lord chose him ˹for His grace˺, accepted his repentance, and guided him ˹rightly˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās explains the act as leading the pair astray.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:36",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid explains the enmity as that between Adam and his offspring, and Iblīs and his offspring.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:36",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Another transmitted reading, from al-Suddī, includes the graves in which people will lie.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:36",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Suddī takes the end of enjoyment as death; Mujāhid relates the term to the Resurrection, when the world’s course ends.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:36",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "37": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "dfe79e91c00ab1dfb41c53f71273f7142827941194c1b6ad5a1923c3f4ba208e",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The prayer speaks in the plural, which also prevents the mention of Adam alone here from excluding his wife from repentance.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:37",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic expression behind repentance concerns a return.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:37",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "9:118",
+          "quoted_clause": "Then He turned to them in mercy so that they might repent.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:23",
+          "quoted_clause": "“Our Lord! We have wronged ourselves. If You do not forgive us and have mercy on us, we will certainly be losers.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "28:16",
+          "quoted_clause": "“My Lord! I have definitely wronged my soul, so forgive me.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "21:87",
+          "quoted_clause": "Glory be to You! I have certainly done wrong.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "25:71",
+          "quoted_clause": "And whoever repents and does good has truly turned to Allah properly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:110",
+          "quoted_clause": "Whoever commits evil or wrongs themselves then seeks Allah’s forgiveness will certainly find Allah All-Forgiving, Most Merciful",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "42:25",
+          "quoted_clause": "He is the One Who accepts repentance from His servants and pardons ˹their˺ sins. And He knows whatever you do",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The prayer identified by Mujāhid and Saʿīd ibn Jubayr gives the words their clearest Quranic form: (7:23 — ““Our Lord!",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:37",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In an account from Ibn ʿAbbās carried by al-Ḥākim, Adam asks whether repenting and putting matters right will lead to his return to Paradise.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:37",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "38": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "a30bb4c2a073e6730532211d28de3706e080ebe6256dd97f07685e3035b4e381",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:30",
+          "quoted_clause": "“I am going to place a successive ˹human˺ authority on earth.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:36",
+          "quoted_clause": "We surely sent a messenger to every community, saying, “Worship Allah and shun false gods.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:165",
+          "quoted_clause": "so humanity should have no excuse before Allah after ˹the coming of˺ the messengers.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:123",
+          "quoted_clause": "whoever follows My guidance will neither go astray ˹in this life˺ nor suffer ˹in the next˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "20:67",
+          "quoted_clause": "So Moses concealed fear within himself",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "35:34",
+          "quoted_clause": "“Praise be to Allah, Who has kept away from us all ˹causes of˺ sorrow.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "12:86",
+          "quoted_clause": "“I complain of my anguish and sorrow only to Allah,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Al-Suddī points to God’s revealed Book.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:38",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās explains that promise as freedom from being led astray in this life and from misery in the Hereafter.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:38",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "39": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "5a8abe6a56da1d2eb2a61863b4e906b913c41049607a855e18d07da16a445a54",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "27:14",
+          "quoted_clause": "And, although their hearts were convinced the signs were true, they still denied them wrongfully and arrogantly.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "17:15",
+          "quoted_clause": "And We would never punish ˹a people˺ until We have sent a messenger ˹to warn them˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "39:53",
+          "quoted_clause": "Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:169",
+          "quoted_clause": "to stay there for ever and ever.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "35:36",
+          "quoted_clause": "where they will not be ˹allowed to be˺ finished by death, nor will its torment be lightened for them.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās connects the denial with the scripture and the messenger sent with it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:39",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Muslim carries Abū Saʿīd al-Khudrī’s report that the Prophet spoke of two groups: the Fire’s abiding people and others punished for their sins.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:39",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "40": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "758acfa1af5f133483f817eea84cc0183949eded1bb7b146dc7a598d693d8cba",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The language of covenant therefore gives hope a clear direction: attend to what has been required and trust the One who has promised.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:40",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "17:3",
+          "quoted_clause": "He was indeed a grateful servant.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:20",
+          "quoted_clause": "Remember Allah’s favours upon you when He raised prophets from among you, made you sovereign,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:12",
+          "quoted_clause": "If you establish prayer, pay alms-tax, believe in My messengers, support them, and lend to Allah a good loan,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "9:111",
+          "quoted_clause": "And whose promise is truer than Allah’s?",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:44",
+          "quoted_clause": "So do not fear the people; fear Me!",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās explains the name through the sense of being God’s servant.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid includes the water brought from rock, the manna and quails, and rescue from Pharaoh’s rule.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Qatādah and Mujāhid connect it with the covenant whose terms include (5:12 — “If you establish prayer, pay alms-tax, believe in My messengers, support them, and lend to Allah a good loan,”).",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "This is why Ibn ʿAbbās applies the covenant here to belief in Muhammad and obedience to his message.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Suddī explains the promised fulfilment as admission to Paradise for those who obey.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A report carried by Muslim describes a flag raised beside each betrayer on the Day of Judgement, its size marking the extent of the betrayal.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:40",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "41": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "af76505fd693874a15ce3634186e7305854e28f2e93bbd03d4a09be0b93191b0",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "A change in a particular law need not make the two messages false to one another.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "God may prescribe a rule for one time and replace it when He sends a later law.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The unity lies in their divine source and truth, not in making every ruling timeless.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Abū Ḥanīfah’s earlier ruling disallowed such wages because teaching was treated as a duty of worship.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The ruling that allows pay is adopted here.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The point is not that every gift to a teacher is forbidden; the preceding distinction would rule out that reading.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:41",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "3:3",
+          "quoted_clause": "the Book in truth, confirming what came before it, as He revealed the Torah and the Gospel",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "7:157",
+          "quoted_clause": "whose description they find in their Torah and the Gospel.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:25",
+          "quoted_clause": "as well as some of the burdens of those they mislead without knowledge.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:95",
+          "quoted_clause": "What is with Allah is certainly far better for you, if only you knew",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:187",
+          "quoted_clause": "to make it known to people and not hide it,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās stresses that they possessed knowledge others did not have.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:41",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mālik, al-Shāfiʿī, and Aḥmad allowed teaching wages, since pay for sound teaching is not a payment to sell or hide the truth.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:41",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Its evidence includes the report from Ibn ʿAbbās in al-Bukhārī, in which the Prophet approves payment for Quranic recitation used in healing.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:41",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Al-Dārimī records Abū Ḥāzim telling the ruler Sulaymān that just speech is truth spoken before someone whose power is feared or whose favour is sought.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:41",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "42": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "6f4140ef63a7853a5da9d30d9490e84d709c7bca5f84b3bbcfc55190c4c1386a",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar here can join two separate prohibitions, or describe the combining of distortion with concealment.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:42",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:158",
+          "quoted_clause": "I am Allah’s Messenger to you all.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:146",
+          "quoted_clause": "Yet a group of them hides the truth knowingly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:71",
+          "quoted_clause": "Why do you mix the truth with falsehood and hide the truth knowingly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:160",
+          "quoted_clause": "repent, mend their ways, and let the truth be known,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās explains it as mixing facts with lies.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:42",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Ibn ʿAbbās relates this concealment to knowledge of the Messenger and what he brought, already found in the scriptures held by those addressed.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:42",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In a report carried by al-Bukhārī, ʿAlī urges teaching people what they can understand, lest the way it is presented lead them to deny God and His Messenger.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:42",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "In Muslim’s introduction, Ibn Masʿūd likewise warns that a report beyond a people’s understanding may become a trial for some of them.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:42",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}

@@ -10,11 +10,12 @@ The point of the run is speed and coverage:
 * **map once, at the start.** ``--build`` pulls all eleven works for the whole run
   in one pass — the sources are opened once for fifty verses, not once per verse —
   and writes the run's map plus the per-chapter digests the auditor reads.
-* **push every stop; review before the next run.** Fifty verses are both the source
+* **push every stop; obtain owner permission before the next run.** Fifty verses are the source
   run and the maximum independent-review checkpoint. Each verse receives a draft
   check, every completed fifty-verse window receives automatic drift checks, and
   every generation stop is committed and pushed with synchronized review scaffolds.
-  Owner acceptance may follow on GitHub, but ``--check`` exits 0 only when all fifty
+  Explicit, fingerprinted owner draft approval may permit the next run without
+  supplying missing semantic review. ``--check`` still exits 0 only when all fifty
   have passed the mechanical and independent semantic gates.
 
     python3 scripts/tafsir/run.py --plan                 # the next fifty verses
@@ -23,9 +24,9 @@ The point of the run is speed and coverage:
     python3 scripts/tafsir/run.py --status               # words, floors, gate state
     python3 scripts/tafsir/run.py --check                # is the run finished?
 
-The plan is derived from the chapter files themselves, so nothing is lost if
-``tmp/`` is wiped: the run is always "the next fifty verses", and ``--build``
-rebuilds the map.
+The plan is pinned under ``tmp/runs``. If ignored scratch is lost, restore the
+start documented in the handoff before rebuilding the map. Do not silently shift
+an in-progress run to its next unwritten verse.
 """
 
 from __future__ import annotations
@@ -506,7 +507,13 @@ def show_status(verses, index, no_grounding=False) -> int:
         for chapter in {c for c, _ in verses}
         if all(row for c, v, row in rows if c == chapter))
     if len(done) == len(verses) and acceptance_pending and not quality_findings:
-        print("REVIEW PENDING — push this complete review candidate and wait for owner acceptance before the next run")
+        owner_approved = all(
+            Q.draft_approval_frontier(chapter)[0] >= max(v for c, v in verses if c == chapter)
+            for chapter in {c for c, _ in verses})
+        if owner_approved:
+            print("OWNER-APPROVED DRAFT — the next authorized run may proceed; independent review and publication remain pending")
+        else:
+            print("REVIEW PENDING — push this complete candidate and obtain owner draft approval or full acceptance before the next run")
     print("draft check: batch.py <chapter> --from A --to B --draft")
     print("pre-push check: batch.py <chapter> --from A --to B --push-check")
     print("acceptance check (maximum fifty verses): batch.py <chapter> --from A --to B")
@@ -541,7 +548,7 @@ def check_run(verses, index, no_grounding=False) -> int:
     if pending:
         print("  pending:   %s" % ", ".join(pending[:8]))
     if quality_findings:
-        print("QUALITY DRIFT \u2014 GENERATION STOPPED")
+        print("QUALITY DRIFT \u2014 ACCEPTANCE AND PUBLICATION STOPPED")
         for finding in quality_findings[:20]:
             print("  BLOCK %-28s %-12s %s" %
                   (finding.code, finding.ref, finding.message))
@@ -554,8 +561,9 @@ def check_run(verses, index, no_grounding=False) -> int:
         for f in chapter_level:
             print("  %-4s %-18s %s" % (f.level, f.code, f.message[:90]))
     if pending or failing or quality_findings:
-        print("RUN INCOMPLETE \u2014 map and review at most fifty; push every clean generation "
-              "stop, then require complete independent source/evidence parity review before the next run")
+        print("RUN NOT INDEPENDENTLY ACCEPTED \u2014 push each clean drafting stop; "
+              "explicit owner draft approval may authorize a later run, but complete source/evidence "
+              "parity review remains mandatory for acceptance and publication")
         return 1
     if complete_chapters and any(f.level == A.FAIL for f in chapter_level):
         print("RUN INCOMPLETE \u2014 the chapter gate still fails on the finished chapter")

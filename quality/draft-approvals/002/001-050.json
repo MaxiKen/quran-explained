@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "draft_continuation",
+  "chapter": 2,
+  "from": 1,
+  "to": 50,
+  "approved": true,
+  "writer": "arena-writing-agent",
+  "owner": "project-owner",
+  "approval_statement": "I approve it. Continue generating.",
+  "candidate_commit": "06ec1c67e130f1c7509a585fd03bafe5d828bbb0",
+  "content_sha256": "b1e3a41182da35431b384753968dc809ac3535435cf26e22cabda45fc16994bd",
+  "sources_sha256": "0f7f47fba23dbf87768fa4fa47eae28b3193fb4903e67643c80f92d59b496d9e"
+}

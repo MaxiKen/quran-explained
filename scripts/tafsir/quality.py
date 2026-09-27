@@ -15,9 +15,11 @@ verifies Qur'an citations, named transmitted evidence, language claims, and
 consequential legal/theological claims for source support and relevance—not merely
 verbal presence.
 
-A synchronized pending review template is enough for a review-candidate push. The
-push check never grants acceptance; owner confirmation and the full gate remain
-mandatory before publication or before writing beyond fifty unaccepted verses.
+A synchronized pending review template is enough for a review-candidate push. An
+explicit, fingerprinted owner approval may advance the draft-continuation frontier
+without fabricating semantic reviews. At most fifty new drafts may follow that
+frontier. The push check and owner draft approval never grant independent acceptance;
+the full source/claim/citation/rubric gate remains mandatory before publication.
 
 Examples:
 
@@ -41,6 +43,7 @@ import json
 import os
 import re
 import sys
+import subprocess
 import unicodedata
 from dataclasses import dataclass, asdict
 from pathlib import Path
@@ -56,6 +59,8 @@ METRIC_CHECKPOINT_SIZE = 50
 MIN_SCORE = 4
 BASELINE_PATH = C.REPO / "quality" / "chapter-001-baseline.json"
 REVIEWS_DIR = C.REPO / "quality" / "reviews"
+DRAFT_APPROVALS_DIR = C.REPO / "quality" / "draft-approvals"
+DRAFT_APPROVAL_SCHEMA = 1
 SCHEMA_VERSION = 2
 
 RUBRIC = (
@@ -1021,7 +1026,8 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True,
             else:
                 findings.extend(_review_errors(chapter, section, *item))
     elif push_check:
-        frontier = accepted_frontier(chapter)
+        frontier, approval_findings = draft_approval_frontier(chapter)
+        findings.extend(approval_findings)
         all_written = sorted(s.verse for s in smap.values() if _written(s))
         unaccepted = [verse for verse in all_written if verse > frontier]
         if unaccepted:
@@ -1029,14 +1035,14 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True,
             if unaccepted != expected:
                 findings.append(Finding(
                     "QTY-UNACCEPTED-FRONTIER", "%d:%d" % (chapter, frontier),
-                    "review candidates must extend the independently accepted frontier "
+                    "review candidates must extend the accepted or owner-approved draft frontier "
                     "without skipping verses", tuple(unaccepted)))
             if len(unaccepted) > REVIEW_CHECKPOINT_SIZE:
                 findings.append(Finding(
                     "QTY-UNACCEPTED-LIMIT", "%d:%d-%d" %
                     (chapter, unaccepted[0], unaccepted[-1]),
-                    "no more than %d verses may remain without independent acceptance" %
-                    REVIEW_CHECKPOINT_SIZE, tuple(unaccepted)))
+                    "no more than %d new drafts may follow the last independent acceptance "
+                    "or recorded owner draft approval" % REVIEW_CHECKPOINT_SIZE, tuple(unaccepted)))
         for section in sections:
             item = reviews.get((chapter, section.verse))
             if not item:
@@ -1111,6 +1117,152 @@ def accepted_frontier(chapter: int) -> int:
         if not _exception_allowed(finding.code, finding.verses, chapter, reviews):
             frontier = min(frontier, min(finding.verses) - 1)
     return max(0, frontier)
+
+
+def _draft_approval_hashes(chapter: int, start: int, end: int, doc) -> dict:
+    """Bind an owner's drafting permission to exactly the prose and source map seen.
+
+    Later verses are deliberately excluded, so continuing the draft cannot make
+    the previous approval stale. Changes within the approved scope do invalidate it.
+    """
+    smap = doc.section_map()
+    verses = list(range(start, end + 1))
+    if any(v not in smap or not _written(smap[v]) for v in verses):
+        raise ValueError("draft approval requires complete prose throughout its range")
+    content = {
+        "chapter": chapter,
+        "introduction": doc.intro if start == 1 else None,
+        "verses": [(v, smap[v].quote(), smap[v].body()) for v in verses],
+    }
+    sources = [(v, source_fingerprint(chapter, v)) for v in verses]
+    return {
+        key: hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()
+        for key, value in (("content_sha256", content), ("sources_sha256", sources))
+    }
+
+
+def draft_approval_frontier(chapter: int) -> Tuple[int, List[Finding]]:
+    """Draft-continuation permission only; NEVER independent acceptance.
+
+    This function is used only by push/status checks. Acceptance, baseline changes
+    and publication continue to use accepted_frontier and the complete reviews.
+    """
+    frontier = accepted_frontier(chapter)
+    independent_frontier = frontier
+    doc = C.load_chapter_doc(chapter)
+    findings = []
+    approved = []
+    for path in sorted((DRAFT_APPROVALS_DIR / C.pad3(chapter)).glob("*.json")):
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(record, dict):
+                raise ValueError("approval must be a JSON object")
+            start, end = record.get("from"), record.get("to")
+            writer, owner = record.get("writer"), record.get("owner")
+            if (record.get("schema_version") != DRAFT_APPROVAL_SCHEMA
+                    or record.get("chapter") != chapter
+                    or record.get("scope") != "draft_continuation"
+                    or record.get("approved") is not True
+                    or type(start) is not int or type(end) is not int
+                    or not 1 <= start <= end <= C.verse_count(chapter)
+                    or end - start + 1 > REVIEW_CHECKPOINT_SIZE
+                    or not isinstance(writer, str) or not writer.strip()
+                    or not isinstance(owner, str) or not owner.strip()
+                    or writer.strip() == owner.strip()
+                    or not isinstance(record.get("approval_statement"), str)
+                    or len(record["approval_statement"].split()) < 5
+                    or not isinstance(record.get("candidate_commit"), str)
+                    or not re.fullmatch(r"[0-9a-f]{40}", record["candidate_commit"])):
+                raise ValueError("approval needs a bounded range, distinct owner/writer, explicit statement and candidate commit")
+            # Complete independent acceptance supersedes an older drafting receipt.
+            if end <= independent_frontier:
+                continue
+            if doc is None:
+                raise ValueError("approved chapter no longer exists")
+            hashes = _draft_approval_hashes(chapter, start, end, doc)
+            if any(record.get(key) != value for key, value in hashes.items()):
+                findings.append(Finding(
+                    "QTY-DRAFT-APPROVAL-STALE", "%d:%d-%d" % (chapter, start, end),
+                    "approved prose or sources changed; renewed owner approval is required in %s" % path.name,
+                    tuple(range(start, end + 1))))
+                continue
+            approved.append((start, end))
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            findings.append(Finding("QTY-DRAFT-APPROVAL-INVALID", str(chapter),
+                                    "%s: %s" % (path.name, exc)))
+    for start, end in sorted(approved):
+        if start > frontier + 1:
+            findings.append(Finding(
+                "QTY-DRAFT-APPROVAL-GAP", "%d:%d-%d" % (chapter, start, end),
+                "owner draft approvals must extend the existing frontier without gaps",
+                tuple(range(start, end + 1))))
+        else:
+            frontier = max(frontier, end)
+    return frontier, findings
+
+
+def _verify_draft_snapshot(chapter: int, start: int, end: int, doc, commit: str) -> None:
+    """At recording time, verify the cited Git candidate, not just its hash syntax.
+
+    Validation of stored receipts uses fingerprints and needs no historical Git
+    objects, so ordinary push checks work in a shallow CI checkout as well.
+    """
+    try:
+        text = subprocess.check_output(
+            ["git", "show", "%s:tafsir/%s.md" % (commit, C.pad3(chapter))],
+            cwd=C.REPO, text=True, stderr=subprocess.PIPE)
+        snapshot = C.ChapterDoc(chapter, C.output_path(chapter), text)
+        if (_draft_approval_hashes(chapter, start, end, snapshot)["content_sha256"] !=
+                _draft_approval_hashes(chapter, start, end, doc)["content_sha256"]):
+            raise ValueError("current prose differs from the candidate the owner approved")
+        paths = ["%s/%s.%s" % (slug, C.pad3(chapter), "md" if slug == C.INITIAL_SLUG else "txt")
+                 for slug in C.SOURCE_ALLOWLIST]
+        subprocess.check_output(["git", "diff", "--exit-code", commit, "--", *paths],
+                                cwd=C.REPO, stderr=subprocess.PIPE)
+        if subprocess.check_output(["git", "status", "--porcelain", "--untracked-files=all", "--", *paths],
+                                   cwd=C.REPO, stderr=subprocess.PIPE).strip():
+            raise ValueError("source files must be committed and match the approved candidate")
+    except subprocess.CalledProcessError as exc:
+        raise ValueError("approved Git candidate is unavailable or its source files differ") from exc
+
+
+def approve_draft(chapter: int, start: int, end: int, writer: str, owner: str,
+                  statement: str, candidate_commit: str) -> Path:
+    """Record an approval actually supplied by the owner, not a writer's review."""
+    if (chapter == BASELINE_CHAPTER or not 1 <= chapter <= 114
+            or not 1 <= start <= end <= C.verse_count(chapter)
+            or end - start + 1 > REVIEW_CHECKPOINT_SIZE
+            or not writer.strip() or not owner.strip() or writer.strip() == owner.strip()
+            or len(statement.split()) < 5 or not re.fullmatch(r"[0-9a-f]{40}", candidate_commit)):
+        raise SystemExit("draft approval needs 1–50 verses, distinct owner/writer, the owner's statement and a full commit hash")
+    doc = C.load_chapter_doc(chapter)
+    if doc is None:
+        raise SystemExit("chapter does not exist")
+    try:
+        hashes = _draft_approval_hashes(chapter, start, end, doc)
+        _verify_draft_snapshot(chapter, start, end, doc, candidate_commit)
+    except ValueError as exc:
+        raise SystemExit(str(exc))
+    findings, _metrics = evaluate(chapter, list(range(start, end + 1)),
+                                 require_reviews=False, push_check=True)
+    if findings:
+        raise SystemExit("repair the candidate before recording approval: " +
+                         "; ".join(f.code for f in findings))
+    frontier, _errors = draft_approval_frontier(chapter)
+    if start > frontier + 1:
+        raise SystemExit("draft approval must extend the existing frontier without gaps")
+    path = DRAFT_APPROVALS_DIR / C.pad3(chapter) / ("%03d-%03d.json" % (start, end))
+    if path.exists():
+        raise SystemExit("draft approval already exists: %s" % path)
+    payload = {
+        "schema_version": DRAFT_APPROVAL_SCHEMA, "scope": "draft_continuation",
+        "chapter": chapter, "from": start, "to": end, "approved": True,
+        "writer": writer, "owner": owner, "approval_statement": statement,
+        "candidate_commit": candidate_commit, **hashes,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
 
 
 def template(chapter: int, start: int, end: int, writer: str) -> Path:
@@ -1263,6 +1415,9 @@ def _emit(chapter: int, verses: Sequence[int], findings: Sequence[Finding], rang
         print("QUALITY PARITY PASS — %d:%d-%d independently reviewed against chapter 1" %
               (chapter, min(verses), max(verses)))
     print("last independently accepted verse: %d:%d" % (chapter, accepted_frontier(chapter)))
+    if mode == "push" and chapter != BASELINE_CHAPTER:
+        draft_frontier, _approval_findings = draft_approval_frontier(chapter)
+        print("draft-continuation frontier: %d:%d (not publication approval)" % (chapter, draft_frontier))
     return 0
 
 
@@ -1278,7 +1433,12 @@ def main(argv=None) -> int:
     ap.add_argument("--approval", help="JSON approval required when changing an existing baseline")
     ap.add_argument("--template", action="store_true",
                     help="create an independent review template (maximum 50 verses)")
-    ap.add_argument("--writer", help="writer identity recorded in a new review template")
+    ap.add_argument("--writer", help="writer identity recorded in a review template or draft approval")
+    ap.add_argument("--approve-draft", action="store_true",
+                    help="record explicit owner permission to continue drafting; NOT semantic acceptance")
+    ap.add_argument("--owner", help="owner identity, distinct from the writer, for --approve-draft")
+    ap.add_argument("--approval-statement", help="the actual owner statement authorizing continued drafting")
+    ap.add_argument("--candidate-commit", help="full commit hash of the draft the owner approved")
     ap.add_argument("--push-check", action="store_true",
                     help="validate a review-candidate push; pending review is allowed but must be synchronized")
     ap.add_argument("--metrics-only", action="store_true",
@@ -1287,6 +1447,18 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     if args.push_check and args.metrics_only:
         ap.error("--push-check and --metrics-only are mutually exclusive")
+
+    if args.approve_draft:
+        if (not args.chapter or args.start is None or args.end is None or not args.writer
+                or not args.owner or not args.approval_statement or not args.candidate_commit):
+            ap.error("--approve-draft needs chapter, --from, --to, --writer, --owner, --approval-statement and --candidate-commit")
+        if args.freeze_baseline or args.baseline or args.template or args.all or args.push_check or args.metrics_only:
+            ap.error("--approve-draft cannot be combined with another action")
+        path = approve_draft(args.chapter, args.start, args.end, args.writer, args.owner,
+                             args.approval_statement, args.candidate_commit)
+        print("wrote %s" % path.relative_to(C.REPO))
+        print("Owner permission advances drafting only. Independent review and publication gates are unchanged.")
+        return 0
 
     if args.freeze_baseline:
         previous = None

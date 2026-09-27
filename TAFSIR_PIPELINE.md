@@ -160,7 +160,7 @@ The thresholds that keep chapters honest as they grow:
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy/application | optional; must add verse-specific clarity and may not occupy a repeated production slot |
-| V8 review checkpoint | at most 50 unaccepted verses; fifty-verse automatic metric windows; every generation stop push-checked/committed/pushed; acceptance requires complete all-source comparison, rubric scores all ≥4, and source/relevance review of every scaffolded/additional substantive claim, Qur'an citation and transmitted statement |
+| V8 review checkpoint | at most 50 new drafts beyond accepted/owner-approved prose and at most 50 verses per semantic review; fifty-verse metric windows; every generation stop push-checked/committed/pushed; acceptance requires complete all-source comparison, rubric scores all ≥4, and source/relevance review of every scaffolded/additional substantive claim, Qur'an citation and transmitted statement |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
 | Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
@@ -183,9 +183,10 @@ payload is (re)generated, so returning readers get the new file instead of the c
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
 2. The author names the start of a new run. Fifty verses are mapped from all eleven works in one
-   pass and form the maximum unaccepted review checkpoint. Prose is written in order and mechanically
-   checked per verse; fifty-verse metric windows catch early drift. No fifty-first unaccepted verse is
-   opened. `QUALITY DRIFT` is a mandatory stop, notification and clean checkpoint push; `run.py
+   pass. Each semantic review covers at most fifty verses. Prose is written in order and mechanically
+   checked per verse; fifty-verse metric windows catch early drift. Explicit, fingerprinted owner
+   approval may authorize another draft run while detailed reviews remain pending. No fifty-first
+   new draft beyond the accepted/owner-approved drafting frontier is opened. `QUALITY DRIFT` is a mandatory stop, notification and clean checkpoint push; `run.py
    --check` completes only after all fifty are independently accepted.
 3. Never leave a half-written verse. Whenever generation stops, create or refresh the pending review
    scaffold, run `--push-check`, commit, and push before confirmation—even if incomplete. Assembled
