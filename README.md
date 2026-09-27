@@ -10,12 +10,13 @@ source, register and independence laws remain, and Chapter 1 is now the frozen q
 than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
 published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
 all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
-cleared and restarted from the sources; prose now reaches **2:50**, completing the drafting of the
-pinned **2:1–2:50** run. Its introduction, 2:1–2:5 and 2:16–2:33 are independently accepted;
-2:6–2:15 and 2:34–2:50 remain pending review. The contiguous accepted frontier is 2:5.
-All fifty drafts pass the mechanical and review-candidate push gates. Verses 2:51–2:286 remain
-scaffolds, and Chapter 2 is not published. Independent acceptance of the current run and the
-author’s next start are required before another run is opened. Fifty verses are mapped from the eleven works in one pass, prose is
+cleared and restarted from the sources; prose now reaches **2:56**. After the owner approved
+2:1–2:50 for continued drafting, the next run was pinned at **2:51–2:100** and resumes at **2:57**.
+Its introduction, 2:1–2:5 and 2:16–2:33 are independently accepted; 2:6–2:15 and 2:34–2:56
+remain pending detailed review. The independently accepted frontier is still 2:5. A separate
+fingerprinted owner-approval record advances only the drafting frontier to 2:50; it does not
+invent review scores or authorize publication. All written verses pass their mechanical and
+review-candidate push checks. Verses 2:57–2:286 remain scaffolds, and Chapter 2 is unpublished. Fifty verses are mapped from the eleven works in one pass; prose is
 mechanically checked per verse, automatic drift alarms run in fifty-verse windows, and independent
 review checkpoints contain at most fifty verses.
 
@@ -33,21 +34,21 @@ review checkpoints contain at most fifty verses.
 
 ## Pipeline in one screen
 
-The current run is **draft-complete, review-pending**. Existing prose must not be regenerated.
+The current run is **2:51–2:100**, with prose through **2:56**. Existing prose must not be regenerated.
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:1 # restore the same pin if ignored scratch is absent
+python3 scripts/tafsir/run.py --plan --start 2:51 # restore the current pin if ignored scratch is absent
 python3 scripts/tafsir/run.py --build --cap-json 0 # uncapped eleven-source digest + run map
-python3 scripts/tafsir/run.py --slice 2:43 2:50   # source map for the final review checkpoint
-python3 scripts/tafsir/batch.py 2 --from 1 --to 50 --push-check
+python3 scripts/tafsir/run.py --slice 2:57 2:60   # next source-reading stretch
+python3 scripts/tafsir/batch.py 2 --from 1 --to 56 --push-check
 python3 scripts/tafsir/quality.py --all --push-check
 # Pending candidates are committed and pushed before owner acceptance.
 # A different reviewer completes the pending source/claim/evidence ledgers and rubric.
-python3 scripts/tafsir/run.py --status          # REVIEW PENDING until independent acceptance
+python3 scripts/tafsir/run.py --status          # next draft 2:57; independent review remains pending
 # After all pending reviews are independently completed and approved:
-python3 scripts/tafsir/batch.py 2 --from 1 --to 50
+python3 scripts/tafsir/batch.py 2 --from 1 --to 56
 python3 scripts/tafsir/run.py --check           # RUN COMPLETE requires all fifty accepted
-# Only then may the author choose the next run’s start.
+# Explicit owner draft approval can authorize the next run without semantic acceptance.
 
 # Whole-chapter publication remains blocked until all 286 verses are finished and accepted:
 python3 scripts/tafsir/audit.py 2
@@ -85,7 +86,8 @@ Excerpts worth knowing:
 * every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
   `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
   prints the expansion;
-* fifty verses are mapped for research speed and form the maximum unaccepted review checkpoint;
+* fifty verses are mapped for research speed; no more than fifty new drafts follow
+  accepted/owner-approved prose, and each semantic review covers at most fifty verses;
   prose is written in order and mechanically checked per verse, while quantitative drift is still
   tested every fifty verses; every generation stop is committed and pushed as a clean review
   candidate, even when incomplete or pending, and acceptance remains mandatory for publication;

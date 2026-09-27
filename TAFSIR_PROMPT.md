@@ -47,11 +47,11 @@ paraphrase of the translation dressed up as commentary.
 1. **The start is the author's to give; every stop is yours to push.** Resume an already pinned run
    at its next unwritten verse. If no run is pinned and the author says “continue” without a start,
    ask where the new run should begin and wait. The named start pins fifty verses, which are also the
-   maximum unaccepted review candidate. Write in verse order, mechanically check each verse, and run
+   maximum new draft checkpoint after independent acceptance or recorded owner draft approval. Write in verse order, mechanically check each verse, and run
    automatic drift alarms every fifty. Whenever generation actually stops, scaffold the written
    range, run the pre-push gate, commit, and push before owner confirmation—even when incomplete.
    Any quality blocker is a mandatory stop: report the trigger, blocked range and last accepted
-   verse, then push the clean checkpoint. Acceptance still gates publication and the next run.
+   verse, then push the clean checkpoint. Independent acceptance still gates publication; explicit owner draft approval may authorize the next run.
 2. **All eleven are read for every verse before a word of it is written — and none of them is
    relayed, compared or quoted.** Run the digest for the verse, read what each of the eleven says
    about it (Arabic sources included: read them and put the substance into English), then write
@@ -75,8 +75,9 @@ paraphrase of the translation dressed up as commentary.
    drafting unit: run `batch.py N --from V --to V --draft` as soon as it lands. Fifty verses are the
    maximum independent-review unit. At every generation stop, create or refresh its pending review
    template, run `batch.py N --from A --to B --push-check`, commit, and push. The owner can then
-   inspect the exact GitHub candidate and approve its semantic review. Do not generate parallel prose
-   stretches or open a fifty-first unaccepted verse. `run.py --check` completes only after all fifty
+   inspect the exact GitHub candidate and grant draft-continuation permission, or later approve its
+   completed independent semantic review. Do not generate parallel prose
+   stretches or open a fifty-first new draft beyond the accepted/owner-approved drafting frontier. `run.py --check` completes only after all fifty
    pass both the mechanical and Chapter-1 parity gates.
 
 5. **A tafsir, not talk (v7.3).** What is written is an exposition that teaches the verse, in simple
@@ -672,10 +673,11 @@ point where drift begins. The v8 loop is mandatory:
 
 > **Map fifty. Write one verse in order and run its mechanical draft gate. Whenever generation
 > stops, create or refresh the pending review scaffold, pass `--push-check`, commit, and push before
-> confirmation—even if the range or chapter is incomplete. Do not open a fifty-first unaccepted
-> verse. The owner’s independent all-source, Chapter-1 parity, and Qur'an/transmitted-evidence review
-> remains mandatory before publication or the next run. If any gate reports drift, stop immediately,
-> notify the author, and push the clean checkpoint.**
+> confirmation—even if the range or chapter is incomplete. Explicit owner approval, bound to the
+> candidate prose and source fingerprints, may authorize the next draft run. No fifty-first new
+> draft may follow the last accepted/owner-approved drafting frontier. Independent all-source,
+> Chapter-1 parity and evidence review remains mandatory before acceptance or publication. If any
+> gate reports drift, stop immediately, notify the author, and push the clean checkpoint.**
 
 A quality stop is not an optional check-in. The writer never self-certifies source synthesis,
 citation relevance or theological precision. GitHub visibility is not acceptance; it lets the owner
@@ -711,6 +713,22 @@ pushed for owner inspection without a false approval. The normal `batch.py` comm
 mechanical auditor and the full parity gate. `build_data.py` repeats that gate and refuses to publish
 an unreviewed chapter.
 
+### Recording owner permission to continue drafting
+
+An explicit owner approval can be recorded without pretending that pending semantic review is done:
+
+```bash
+python3 scripts/tafsir/quality.py --approve-draft N --from A --to B \
+  --writer WRITER_ID --owner OWNER_ID \
+  --approval-statement "THE ACTUAL OWNER APPROVAL AND CONTINUATION REQUEST" \
+  --candidate-commit FULL_APPROVED_COMMIT_HASH
+```
+
+This is a separate, scoped draft approval, not a review manifest. Its prose/source fingerprints
+must remain current. It permits another authorized run of at most fifty new drafts; it never
+assigns rubric scores, supplies missing evidence decisions, permits a drift exception, changes
+`accepted_frontier`, or allows publication. The writer must not fabricate an owner's approval.
+
 ### What the independent review decides
 
 For every verse, the reviewer scores textual attention, source synthesis, citation support,
@@ -738,7 +756,7 @@ transmitted-evidence relevance, or hard editorial defects.
 ### Rules that hold at every checkpoint
 
 1. A verse is either a scaffold or complete prose; no half-written published section.
-2. No fifty-first unaccepted verse is opened.
+2. No fifty-first new draft beyond the accepted/owner-approved drafting frontier is opened.
 3. Prose is written in verse order. `--ranges` may diagnose existing prose but does not authorize
    parallel unreviewed generation.
 4. Every generation stop is made push-clean, committed, and pushed before owner confirmation.

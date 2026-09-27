@@ -13,7 +13,7 @@ line of it:
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, and at most fifty unaccepted verses per independent all-source/Chapter-1 parity review; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
+| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, at most fifty verses per independent review, and at most fifty new drafts beyond the accepted/owner-approved drafting frontier; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
@@ -144,6 +144,42 @@ writer has not invented those decisions or relabelled pending manifests as indep
 The approved prose, existing reviews and frozen baseline remain unchanged. The next run’s start
 and the treatment of author approval at the draft-continuation gate require confirmation.
 
+**Owner-authorized continuation and fresh 2:51–2:56 (2026-09-27).** After approving the
+pushed first run and being offered the next sequential start, the author again instructed
+“Continue.” Resumed at **2:51** and pinned **2:51–2:100**, mapping the eleven works once with an
+uncapped digest. Six new parts were researched from every available source before drafting,
+including full Arabic readings and verified reuse of identical shared passages. All were assembled
+and immediately draft-gated. Prose now reaches **2:56**; **2:57** is next, with 44 verses left in
+this pin. No purged prose was recovered and no earlier section was changed.
+
+Recorded the actual approval of `06ec1c6` in `quality/draft-approvals/002/001-050.json`. The
+continuation policy now distinguishes owner-approved drafting from independent semantic acceptance.
+The receipt names different owner/writer identities, preserves the approval statement and candidate
+commit, and fingerprints the covered prose and source map. Creation checks the cited Git snapshot.
+Push checks reject invalid, stale or gapped permissions and a fifty-first new draft beyond the last
+accepted/owner-approved drafting frontier. A complete independent review can supersede an old
+receipt. Owner approval never fills scores or evidence decisions, changes `accepted_frontier`,
+waives manuscript/metric defects, weakens the frozen floor, or permits publication. The regression
+suite tests these separations, candidate binding, stale prose/quotes/sources, gaps, and the renewed
+fifty-draft cap; all expectations hold.
+
+New review `quality/reviews/002/051-056.json` remains pending. The new stretch contains **5,621
+words** by the batch counter, with 100% phrase coverage and every paragraph over 120 words. Its
+prose-only metrics are 4,873 words, mean sentence 14.72 words, Flesch 63.18, no sentences over 40
+words, and 10.06 evidence mentions per 1,000 words. `batch.py 2 --from 1 --to 56 --push-check`
+reports **0 mechanical FAIL, 0 quality BLOCK, 131 WARN — PASS**. These are draft checks, not
+independent acceptance. The drafting frontier is **2:50**; the independent frontier remains **2:5**.
+
+Chapter 2 has **56/286 written, 23 independently accepted and 33 pending**. All earlier prose,
+review records, source corpora, Chapter-1 text/payload and frozen baseline are unchanged.
+The policy/tooling changes concern continuation permission only; source consultation, prose floors,
+format checks, metric thresholds and the full publication gate remain in force.
+
+Editorial flag for the pending review of 2:48: the ransom paragraph opens with an awkward double
+negative, and the sentence introducing the angels’ intercession quote needs a complete grammatical
+bridge. These should be copy-edited before independent acceptance. The owner-approved snapshot has
+not been silently changed; any such revision must be reflected in its review and applicable approval.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -157,13 +193,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 50/286 written; 23 accepted, 27 pending review | 47,936 | 739/929/1,270 | review candidate PASS; 236 verses still scaffold |
+| 2 | `tafsir/002.md` | 56/286 written; 23 accepted, 33 pending review | 53,557 | 739/929/1,270 | review candidate PASS; 230 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 30 accepted verses plus 27 pending review candidates across
+hash. The working corpus contains 30 accepted verses plus 33 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
-`audit.py 2` fails on its 236 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:1–2:50 run has all fifty drafts and awaits independent acceptance before the next run.
+`audit.py 2` fails on its 230 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned 2:51–2:100 run continues at 2:57 under the separate owner approval of the first draft run.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

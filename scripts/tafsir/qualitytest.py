@@ -14,6 +14,7 @@ import json
 import sys
 import tempfile
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus as C  # noqa: E402
@@ -34,8 +35,141 @@ class FakeSection:
         return [(1, self._body.split("**", 2)[1])]
 
 
-def main() -> int:
+def draft_approval_tests() -> list:
+    """Owner permission advances drafting, never semantic review or publication."""
+    import build_data as B
+
     failures = []
+    text = "# Synthetic chapter\n\n## Introduction to the Sūrah\n\nTest introduction.\n\n---\n\n"
+    text += "\n\n---\n\n".join(
+        "## Verse 2:%d\n\n> %s\n\n**DISTINCT TEST TITLE %d**\n\n"
+        "This small account describes a road beside a field. The path stays open to the people."
+        % (v, C.ayah_en(2, v), v) for v in range(1, 102))
+    doc = C.ChapterDoc(2, C.REPO / "tmp/approval-test.md", text)
+    smap = doc.section_map()
+    review = {"schema_version": Q.SCHEMA_VERSION, "chapter": 2,
+              "writer": "writer-test", "reviewer": "", "independent": False, "status": "pending"}
+    rows = {(2, v): (review, {
+        "status": "pending", "scores": {},
+        "source_synthesis": {"source_fingerprint": "source-%d" % v, "available_sources": []},
+        "claim_verification": {"detected_claims": [], "additional_material_claims": []},
+        "citations": [], "transmitted_evidence": [],
+    }, C.REPO / "quality/reviews/002/synthetic.json") for v in range(1, 102)}
+    original_loader = C.load_chapter_doc
+    loader = lambda n, path=None: doc if n == 2 else original_loader(n, path)
+    with tempfile.TemporaryDirectory(dir=C.REPO / "tmp") as tmp, \
+            patch.object(Q, "DRAFT_APPROVALS_DIR", Path(tmp)), \
+            patch.object(C, "load_chapter_doc", loader), \
+            patch.object(Q, "source_fingerprint", lambda c, v: "source-%d" % v), \
+            patch.object(Q, "available_sources", lambda c, v: []), \
+            patch.object(Q, "load_reviews", lambda: (rows, [])), \
+            patch.object(Q, "review_valid", lambda c, s, r: s.verse <= 5):
+        directory = Path(tmp) / "002"
+        directory.mkdir()
+        path = directory / "001-050.json"
+        good = {
+            "schema_version": Q.DRAFT_APPROVAL_SCHEMA, "scope": "draft_continuation",
+            "chapter": 2, "from": 1, "to": 50, "approved": True,
+            "writer": "writer-test", "owner": "owner-test",
+            "approval_statement": "I approve this draft and authorize continued drafting.",
+            "candidate_commit": "a" * 40,
+            **Q._draft_approval_hashes(2, 1, 50, doc),
+        }
+
+        def save(record):
+            path.write_text(json.dumps(record), encoding="utf-8")
+
+        def codes(through):
+            # Push checks inspect the whole written chapter, not just the selected range.
+            later = {v: smap[v].lines for v in smap if v > through}
+            try:
+                for v in later:
+                    smap[v].lines = ["## Verse 2:%d" % v, "", "> " + C.ayah_en(2, v), "", "TODO"]
+                return {f.code for f in Q.evaluate(2, list(range(1, through + 1)),
+                                                  require_reviews=False, push_check=True)[0]}
+            finally:
+                for v, lines in later.items():
+                    smap[v].lines = lines
+
+        if "QTY-UNACCEPTED-LIMIT" not in codes(56):
+            failures.append("draft limit did not block verse 56 beyond the accepted frontier 5")
+        save(good)
+        frontier, errors = Q.draft_approval_frontier(2)
+        if frontier != 50 or errors or Q.accepted_frontier(2) != 5:
+            failures.append("owner draft approval must advance only the drafting frontier")
+        hundred_codes = codes(100)
+        if "QTY-UNACCEPTED-LIMIT" in hundred_codes:
+            failures.append("owner-approved fifty did not allow the next fifty drafts")
+        if "QTY-EVIDENCE-DRIFT" not in hundred_codes:
+            failures.append("owner draft approval bypassed the evidence-density alarm")
+        if "QTY-UNACCEPTED-LIMIT" not in codes(101):
+            failures.append("owner draft approval allowed a fifty-first new draft")
+        full_codes = {f.code for f in Q.evaluate(2, [51], require_reviews=True)[0]}
+        if not {"QTY-PRIOR-FRONTIER", "QTY-INDEPENDENCE"}.issubset(full_codes):
+            failures.append("owner draft approval bypassed independent semantic acceptance")
+        with patch.object(B, "unfinished", lambda n: (0, 101, None)):
+            try:
+                B.build(2)
+                failures.append("owner draft approval permitted publication of unreviewed prose")
+            except SystemExit as exc:
+                if "refusing to publish" not in str(exc):
+                    failures.append("publication failed for a reason other than missing semantic review")
+
+        for key, value in (("owner", "writer-test"), ("owner", ""), ("approved", False),
+                           ("scope", "publication"), ("approval_statement", ""),
+                           ("candidate_commit", "bad"), ("from", 0), ("to", 51),
+                           ("to", True), ("schema_version", -1), ("chapter", 3)):
+            save({**good, key: value})
+            frontier, errors = Q.draft_approval_frontier(2)
+            if frontier != 5 or "QTY-DRAFT-APPROVAL-INVALID" not in {f.code for f in errors}:
+                failures.append("malformed draft approval accepted for %s=%r" % (key, value))
+        save(good)
+        original_lines = smap[3].lines[:]
+        smap[3].lines.append("Changed prose in the approved scope.")
+        if "QTY-DRAFT-APPROVAL-STALE" not in {f.code for f in Q.draft_approval_frontier(2)[1]}:
+            failures.append("changed approved prose retained draft approval")
+        with patch.object(Q, "accepted_frontier", lambda c: 50):
+            if Q.draft_approval_frontier(2) != (50, []):
+                failures.append("completed independent review did not supersede an old draft receipt")
+        with patch.object(Q.subprocess, "check_output", return_value=text):
+            try:
+                Q._verify_draft_snapshot(2, 1, 50, doc, "a" * 40)
+                failures.append("recording draft approval for prose that differs from the cited Git candidate")
+            except ValueError as exc:
+                if "current prose differs" not in str(exc):
+                    failures.append("candidate binding failed for the wrong reason")
+        smap[3].lines = original_lines[:]
+        smap[3].lines = ["> A changed verse quote" if l.startswith(">") else l for l in smap[3].lines]
+        if "QTY-DRAFT-APPROVAL-STALE" not in {f.code for f in Q.draft_approval_frontier(2)[1]}:
+            failures.append("changed canonical quote retained draft approval")
+        smap[3].lines = original_lines[:]
+        with patch.object(Q, "source_fingerprint", lambda c, v: "changed-source"):
+            if "QTY-DRAFT-APPROVAL-STALE" not in {f.code for f in Q.draft_approval_frontier(2)[1]}:
+                failures.append("changed source map retained draft approval")
+        doc.intro += " Changed introduction."
+        if "QTY-DRAFT-APPROVAL-STALE" not in {f.code for f in Q.draft_approval_frontier(2)[1]}:
+            failures.append("changed introduction retained first-range draft approval")
+        doc.intro = "Test introduction."
+        later_lines = smap[51].lines[:]
+        smap[51].lines.append("New prose outside the approved scope.")
+        if Q.draft_approval_frontier(2) != (50, []):
+            failures.append("later drafting invalidated a correctly scoped earlier approval")
+        smap[51].lines = [smap[51].lines[0], "", "> " + C.ayah_en(2, 51), "", "TODO"]
+        if "QTY-UNACCEPTED-FRONTIER" not in codes(52):
+            failures.append("owner approval allowed skipped verses in the new draft")
+        smap[51].lines = later_lines
+        save({**good, "from": 8, "to": 12, **Q._draft_approval_hashes(2, 8, 12, doc)})
+        frontier, errors = Q.draft_approval_frontier(2)
+        if frontier != 5 or "QTY-DRAFT-APPROVAL-GAP" not in {f.code for f in errors}:
+            failures.append("a detached approval skipped a gap after the accepted frontier")
+        path.write_text("{not json")
+        if "QTY-DRAFT-APPROVAL-INVALID" not in {f.code for f in Q.draft_approval_frontier(2)[1]}:
+            failures.append("unreadable owner draft approval was silently ignored")
+    return failures
+
+
+def main() -> int:
+    failures = draft_approval_tests()
 
     if Q.REVIEW_CHECKPOINT_SIZE != 50 or Q.METRIC_CHECKPOINT_SIZE != 50:
         failures.append("review checkpoints must allow fifty verses and metric windows must both hold fifty verses")

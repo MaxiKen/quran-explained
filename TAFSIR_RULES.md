@@ -96,18 +96,26 @@ that source's opinion, not compared work by work, and not quoted.
    verbatim from `data/chapter_NNN.js` — `(C:V — **“the clause”**)`. One or two bare citations in a
    section warn (`REF-BARE`); three in one section fail. `scripts/tafsir/reference.py` prints the
    expansion, so a clause is never typed by hand.
-9. **Map fifty; write one; push every stop; accept at most fifty (v8).** The author names the start,
-   and fifty verses are mapped from all eleven works in one pass for research speed. Fifty is also
-   the maximum unaccepted independent-review checkpoint. Each verse receives the mechanical draft
-   gate immediately (`batch.py ... --draft`), while quantitative drift alarms still run in completed
-   fifty-verse windows. Whenever generation actually stops, the writer creates or refreshes a pending
-   review scaffold, runs `batch.py ... --push-check`, commits, and pushes the candidate before owner
-   confirmation—even if the range or chapter is incomplete. No fifty-first unaccepted verse may be
-   opened. Full `batch.py` acceptance includes the frozen Chapter-1 parity gate and an independent
-   review of the complete source map, every verse, every Qur'an citation and every named transmitted
-   statement. Drift stops generation, is reported immediately, and triggers a push of the clean
-   checkpoint. Pending review never authorizes publication or the next run. `run.py --check` prints
-   RUN COMPLETE only when all fifty are written, mechanically clean and independently accepted.
+9. **Map fifty; write one; push every stop; separate draft approval from acceptance.** The author
+   names the start, and fifty verses are mapped from all eleven works in one pass. Each verse is
+   mechanically checked immediately, and every generation stop has synchronized pending review
+   scaffolds, a push check, a commit and a push. Independent review checkpoints remain at most fifty.
+
+   **Owner-authorized continuation (2026-09-27).** Explicit owner approval of a pushed candidate
+   may authorize the next drafting run without inventing detailed review scores or decisions.
+   Record only approval actually supplied, in `quality/draft-approvals/NNN/AAA-BBB.json`, naming
+   distinct owner/writer identities, the owner's statement and candidate commit, and fingerprints
+   of the exact approved prose and source map. The record covers at most fifty consecutive verses
+   and extends the prior frontier without gaps. Changed approved prose or sources invalidate it.
+   At most fifty new drafts may follow the last independent acceptance or valid owner draft
+   approval. This is a drafting frontier, not the independently accepted frontier.
+
+   No manuscript rule, mechanical check, drift threshold, review-scaffold requirement or publication
+   safeguard is waived. Full acceptance still requires the separate all-source, claim, citation,
+   transmitted-evidence and eight-dimension review. Owner draft approval does not fill those records,
+   raise the baseline, or authorize a payload. `run.py --check` reports RUN COMPLETE only when all
+   fifty are written, mechanically clean and independently accepted. A real mechanical/metric
+   blocker still stops generation, is reported, and triggers the clean checkpoint push.
 
    **Where a new run begins is the author's to say, never the writer's to choose (v7.5).** The author
    names it as a chapter (`2`, meaning that chapter's first unwritten verse) or a chapter:verse
@@ -629,7 +637,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
    taken as they stand rather than fact-checked.
 3. **Do not generate parallel stretches.** Source mapping may be parallel and may cover fifty, but
    prose is written in verse order so degeneration can be located at its beginning. No writer opens
-   a fifty-first unaccepted verse. `batch.py --ranges` remains a diagnostic for existing prose, not
+   a fifty-first new draft after the last accepted or owner-approved draft frontier. `batch.py --ranges` remains a diagnostic for existing prose, not
    a licence to create several unreviewed stretches at once.
 4. **The run is planned and mapped before it is written.** `run.py --plan` pins the fifty and
    `run.py --build` pulls the eleven works once. The map is read in slices. `run.py --status` reports
@@ -650,9 +658,10 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 7. **Re-read §4–§8 of the prompt before each stretch** — the standard is the same for verse 200 as
    for verse 1.
 8. **A review candidate is pushed before it is independently accepted.** Drafted, mechanically
-   clean, pushable-pending, and quality-accepted are four different states. Every generation stop
+   clean, pushable-pending, owner-approved for continued drafting, and independently accepted are different states. Every generation stop
    must reach the third state and be committed/pushed; only independent acceptance advances the
-   frontier. The payload, `sw.js` bump and completion worklog row still wait for the chapter.
+   independent frontier. Recorded owner draft approval advances only the drafting frontier. The payload,
+   `sw.js` bump and completion worklog row still wait for the accepted chapter.
 9. **A chapter is done** when all of these hold:
    * `python3 scripts/tafsir/audit.py N` ends `RESULT: PASS` (no mechanical FAIL);
    * `python3 scripts/tafsir/quality.py N` ends `QUALITY PARITY PASS`, with every verse reviewed;
@@ -787,7 +796,8 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `GRD-TOKENS` | warn | named/foreign terms not found in the verse's sources (advisory) |
 | `QTY-BASELINE-*` | block | frozen Chapter-1 baseline missing, invalid or changed without explicit review |
 | `QTY-REVIEW-*`, `QTY-INDEPENDENCE` | block | semantic review missing/invalid, or writer attempting to certify his own work |
-| `QTY-PUSH-REVIEW-*`, `QTY-UNACCEPTED-*` | block | pending push scaffold missing/stale, a gap after the accepted frontier, or more than fifty unaccepted verses |
+| `QTY-PUSH-REVIEW-*`, `QTY-UNACCEPTED-*` | block | pending push scaffold missing/stale, a gap after the drafting frontier, or more than fifty new drafts beyond accepted/owner-approved prose |
+| `QTY-DRAFT-APPROVAL-*` | block | owner draft approval invalid, stale, or separated from the prior frontier by a gap; never semantic acceptance |
 | `QTY-RUBRIC-MISSING`, `QTY-BELOW-CHAPTER-1` | block | a required quality dimension is unscored or below 4/5 |
 | `QTY-CITATION-*` | block | citation ledger missing/mismatched, proposition unstated, or relevance not established |
 | `QTY-HARD-*` | block | unwaivable editorial defect such as a clause pasted three times |
@@ -817,7 +827,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | Cross-references (v7.2) | every citation expanded with its clause `(C:V — **“clause”**)`, verbatim from `data/`; bare citations warn at 1–2 per section, fail from 3 |
 | **v7.3 — a tafsir, not talk** (§0.10) | every verse: a cross-reference with its clause (`REF-NONE`) and a transmitted reading — an early authority named or a report with its collection (`EVD-TAFSIR`); both fail. Register: plain sentences, full substance — no general reflection that fits any verse, no address to the reader, no rhetorical question, no praise of the text in place of its explanation |
 | Source-map length | **50 verses**, may span chapters; all eleven mapped in one pass |
-| Draft / review unit (v8) | one verse mechanically checked at once; at most **50** unaccepted verses per independent all-source/parity review; automatic drift windows remain **5** verses; every generation stop is push-checked, committed and pushed |
+| Draft / review unit (v8) | one verse checked at once; at most **50** new drafts beyond accepted or owner-approved prose; independent review records cover at most **50** verses; metric windows remain **50** verses; every stop is push-checked, committed and pushed |
 | Quality rubric | eight dimensions, 1–5; every score ≥4 to match Chapter 1; writer and reviewer different |
 | Source-led sentences | warn above 18%, fail above 30%; 3 in a row fails |
 | Source-led paragraphs | warn above 30%, fail above 45% |
