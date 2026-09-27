@@ -60,3 +60,10 @@ a rubric score below 4, or a hard editorial defect.
 
 `QUALITY DRIFT` means generation stops immediately. The report names the last accepted frontier;
 no later verse is written or published until the blocked checkpoint passes.
+
+## GitHub notification
+
+`.github/workflows/tafsir-quality.yml` runs the frozen-baseline check, regression tests and
+`quality.py --all` on commentary/rule changes. Drift produces a failed GitHub check, a job-summary
+report and a downloadable `tafsir-quality-drift-report` artifact. The workflow may also be started
+manually with **Run workflow**.
