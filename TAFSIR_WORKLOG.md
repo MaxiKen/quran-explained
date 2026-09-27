@@ -111,6 +111,31 @@ Chapter 2 now has **42/286 written, 23 accepted and 19 pending**. The accepted v
 2:1–2:5 and 2:16–2:33; the contiguous accepted frontier stays **2:5**. The next draft is **2:43**;
 eight verses remain unwritten in the pinned run. Chapter 2 remains incomplete and unpublished.
 
+**Pinned 2:1–2:50 run fully drafted (2026-09-27).** On the instruction to complete the run,
+wrote the remaining eight verses, **2:43–2:50**, from the existing uncapped eleven-source map.
+All eleven mapped entries were consulted before each new draft, including the Arabic passages;
+byte-identical shared passages already read were reused. The eight tracked parts were assembled
+individually and immediately draft-gated. No verse beyond 2:50 was opened, no earlier prose was
+changed, and no rule, corpus, accepted review or frozen baseline was changed.
+
+The new stretch totals **8,380 words** by the batch counter, ranging from 802 to 1,270 per verse,
+with 100% phrase coverage. The prose-only metrics for 2:43–2:50 are 7,367 words, mean sentence
+14.45 words, Flesch 65.11, no sentences over 40 words, and 14.52 evidence mentions per 1,000 words.
+The first complete fifty-verse metric window also clears the frozen alarms: mean sentence 14.11,
+Flesch 71.99, no sentences over 40 words, and 11.77 evidence mentions per 1,000 prose words.
+These measurements are diagnostics, not an independent editorial or theological acceptance.
+
+Created `quality/reviews/002/043-050.json` with all decisions and scores pending.
+`batch.py 2 --from 1 --to 50 --push-check` reports **0 mechanical FAIL, 0 quality BLOCK,
+113 WARN — PASS**. `quality.py --all --push-check` also passes. `run.py --status` correctly
+reports **50 written, 0 unwritten, REVIEW PENDING** rather than RUN COMPLETE; the nonzero
+status reflects outstanding independent acceptance, not a failed candidate push check.
+
+Current Chapter-2 status is **50/286 written, 23 accepted, 27 pending**, with the contiguous
+accepted frontier still **2:5**. Pending review covers 2:6–2:15 and 2:34–2:50. The author-pinned
+run stays **2:1–2:50** until independent acceptance. No next run is selected automatically, and
+2:51–2:286 remain scaffolds. Chapter 2 is incomplete and unpublished.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -124,13 +149,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 42/286 written; 23 accepted, 19 pending review | 39,556 | 739/927/1,145 | review candidate PASS; 244 verses still scaffold |
+| 2 | `tafsir/002.md` | 50/286 written; 23 accepted, 27 pending review | 47,936 | 739/929/1,270 | review candidate PASS; 236 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 30 accepted verses plus 19 pending review candidates across
+hash. The working corpus contains 30 accepted verses plus 27 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
-`audit.py 2` fails on its 244 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:1–2:50 run continues at 2:43.
+`audit.py 2` fails on its 236 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
+pinned 2:1–2:50 run has all fifty drafts and awaits independent acceptance before the next run.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

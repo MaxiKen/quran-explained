@@ -20,18 +20,20 @@ or copy the purged Chapter 2 draft from history.
 and it is not chosen by the writing agent. If `run.py --plan` shows an existing pinned run, “continue”
 resumes its next unwritten verse. Only when no run is pinned should a bare “continue” trigger a
 question asking for a chapter or chapter:verse. The current run was explicitly pinned at 2:1.
-Prose now reaches **2:42**. Verses 2:1–2:5 and 2:16–2:33 are accepted; 2:6–2:15 and
-2:34–2:42 remain pending review. The contiguous accepted frontier is still **2:5**. The next
-draft is **2:43**, with eight unwritten verses left in the pinned 2:1–2:50 run. If ignored
-scratch has disappeared, restore this documented pin rather than starting a new run at 2:43:
+**All fifty verses of the pinned 2:1–2:50 run now have prose.** Verses 2:1–2:5 and 2:16–2:33
+are accepted; 2:6–2:15 and 2:34–2:50 remain pending review. The contiguous accepted frontier is
+still **2:5**. There is no unwritten verse left inside this pin. The next task is independent
+review, not generation or regeneration. Do not open 2:51 or re-plan a run until the current run
+is independently accepted and the author names the next start. If ignored scratch has disappeared,
+restore the documented pin:
 
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # pins 2:1–2:50
 python3 scripts/tafsir/run.py --build --cap-json 0 # full eleven-source digest; display caps are separate
-python3 scripts/tafsir/run.py --slice 2:43 2:46   # read the next stretch of the map
+python3 scripts/tafsir/run.py --slice 2:43 2:50   # read the map for the final pending checkpoint
 ```
 
-Then write in verse order. Gate each verse mechanically with `batch.py ... --draft`. At every
+During an authorized drafting run, write in verse order and gate each verse with `batch.py ... --draft`. At every
 actual generation stop, create or refresh `quality.py --template` for the written candidate (never
 more than fifty unaccepted verses), run `batch.py ... --push-check`, commit, and push. This happens
 before owner confirmation and does not wait for chapter completion. A different reviewer then
@@ -63,27 +65,31 @@ frozen as the raised quality floor, and published. Its accepted source/claim/evi
 state without rewriting history. A fresh introduction and 2:1–2:5 were generated from all eleven
 works and independently accepted by the project owner in `quality/reviews/002/001-005.json`.
 The accepted `016-024.json` and `025-033.json` bring the Chapter-2 accepted count to 23.
-The pending manifests are `006-006.json`, `007-015.json` and the new `034-042.json` (19 verses).
-Only the pending 2:11–2:12 entries in `007-015.json` were refreshed for small prose/heading fixes;
-no acceptance decisions changed. All written verses, 2:1–2:42, pass the mechanical and
-review-candidate push gates. Verses 2:43–2:286 remain scaffolds. The pin remains 2:1–2:50.
+The pending manifests are `006-006.json`, `007-015.json`, `034-042.json` and the new
+`043-050.json` (27 verses). The earlier checkpoint refreshed only the pending 2:11–2:12 entries
+for small prose/heading fixes. Completing 2:43–2:50 changed no inherited prose or review decision.
+All written verses, 2:1–2:50, pass the mechanical, fifty-verse quantitative and review-candidate
+push gates. Verses 2:51–2:286 remain scaffolds. The pin remains 2:1–2:50, **REVIEW PENDING**;
+`run.py --status` exits nonzero in that state even though the push check passes.
 
 ## Where things stand (2026-09-27)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0e398-quran-explained` |
-| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**. Chapter 2 has 42/286 verses written: 23 accepted (1–5, 16–33), 19 pending (6–15, 34–42), 244 scaffolds. |
-| Next | Continue the pinned 2:1–2:50 run at **2:43**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
+| Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**. Chapter 2 has 50/286 verses written: 23 accepted (1–5, 16–33), 27 pending (6–15, 34–50), 236 scaffolds. |
+| Next | Independent review of **2:6–2:15 and 2:34–2:50**. No new run until acceptance and an author-named start; 2:51 is still scaffold. |
 | Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, fifty-verse automatic drift windows, and immediate stop/push notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
-`tmp/work/c2_intro.md` and fresh `c2_v001.md`–`c2_v042.md`. The purged old prose formerly in
-`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current parts through 042 are
-replacement drafts from the eleven-source map. New 2:34–2:42 has 100% phrase coverage and
-passes the mechanical gate; its independent source-synthesis, claim and evidence review is pending.
-Writer reading of the remaining Arabic tails for that new range was completed during final revision.
+`tmp/work/c2_intro.md` and fresh `c2_v001.md`–`c2_v050.md`. The purged old prose formerly in
+`c2_v006.md`–`c2_v100.md` must not be restored or copied; the current parts through 050 are
+replacement drafts from the eleven-source map. New 2:43–2:50 has 100% phrase coverage and clears
+all word floors; each verse was spliced and immediately draft-gated. All eleven mapped source
+entries were checked before drafting each of those verses, with full Arabic readings and reuse of
+already-read, byte-identical shared passages. Independent source-synthesis, claim, evidence and
+rubric decisions remain for the reviewer. No Chapter-1 text, payload, baseline, rule or script changed.
 `tafsir_initial` has no mapped passage at 2:38–2:39; this is an upstream coverage gap, not a reason
 to use an outside source. Measured state:
 
@@ -92,10 +98,10 @@ python3 scripts/tafsir/audit.py 1                    # raised Chapter 1: mechani
 python3 scripts/tafsir/build_data.py 1 --check       # accepted payload matches
 python3 scripts/tafsir/quality.py --baseline         # validates raised frozen hash and floor
 python3 scripts/tafsir/batch.py 2 --from 1 --to 5    # accepted Chapter-1 parity checkpoint
-python3 scripts/tafsir/batch.py 2 --from 1 --to 42 --push-check # PASS; pending reviews remain
+python3 scripts/tafsir/batch.py 2 --from 1 --to 50 --push-check # PASS; pending reviews remain
 python3 scripts/tafsir/quality.py --all --push-check # all current review candidates are push-clean
 python3 scripts/tafsir/qualitytest.py                # parity gate regression suite
-python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:43–2:286 (expected)
+python3 scripts/tafsir/audit.py 2                    # TODO failure on 2:51–2:286 (expected)
 ```
 
 The full Chapter 2 gate fails only because the chapter is intentionally incomplete. No

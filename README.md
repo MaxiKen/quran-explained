@@ -10,11 +10,12 @@ source, register and independence laws remain, and Chapter 1 is now the frozen q
 than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
 published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
 all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
-cleared and restarted from the sources; prose now reaches **2:42**. Its introduction, 2:1–2:5 and
-2:16–2:33 are independently accepted; 2:6–2:15 and the new 2:34–2:42 remain pending review.
-The contiguous accepted frontier is 2:5. Verses 2:43–2:286 remain scaffolds, and the pinned
-2:1–2:50 run resumes at **2:43**. The written range passes the review-candidate push gate;
-Chapter 2 is not published. Fifty verses are mapped from the eleven works in one pass, prose is
+cleared and restarted from the sources; prose now reaches **2:50**, completing the drafting of the
+pinned **2:1–2:50** run. Its introduction, 2:1–2:5 and 2:16–2:33 are independently accepted;
+2:6–2:15 and 2:34–2:50 remain pending review. The contiguous accepted frontier is 2:5.
+All fifty drafts pass the mechanical and review-candidate push gates. Verses 2:51–2:286 remain
+scaffolds, and Chapter 2 is not published. Independent acceptance of the current run and the
+author’s next start are required before another run is opened. Fifty verses are mapped from the eleven works in one pass, prose is
 mechanically checked per verse, automatic drift alarms run in fifty-verse windows, and independent
 review checkpoints contain at most fifty verses.
 
@@ -32,25 +33,27 @@ review checkpoints contain at most fifty verses.
 
 ## Pipeline in one screen
 
+The current run is **draft-complete, review-pending**. Existing prose must not be regenerated.
+
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the author names (2 or 2:1)
+python3 scripts/tafsir/run.py --plan --start 2:1 # restore the same pin if ignored scratch is absent
 python3 scripts/tafsir/run.py --build --cap-json 0 # uncapped eleven-source digest + run map
-python3 scripts/tafsir/run.py --slice 2:43 2:46   # read the map a stretch at a time
-python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
-#   ... write in order, splice, and run mechanical draft checks ...
-python3 scripts/tafsir/batch.py 2 --from 43 --to 46 --draft
-#   ... whenever generation stops, scaffold the written candidate (maximum fifty),
-#       pre-push check it, commit it, and push it before owner confirmation ...
-python3 scripts/tafsir/quality.py --template 2 --from 43 --to 46 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 43 --to 46 --push-check
-# git add ... && git commit ... && git push origin YOUR_WORKING_BRANCH
-#   ... after the independent owner completes/approves the ledgers on the GitHub candidate ...
-python3 scripts/tafsir/batch.py 2 --from 43 --to 46  # mechanical + Chapter-1 parity acceptance
-python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
-python3 scripts/tafsir/audit.py 2                # mechanical chapter gate
-python3 scripts/tafsir/quality.py 2              # semantic Chapter-1 parity gate
-python3 scripts/tafsir/build_data.py 2           # refuses unreviewed prose
-python3 scripts/tafsir/status.py 2               # words per verse, gate verdict
+python3 scripts/tafsir/run.py --slice 2:43 2:50   # source map for the final review checkpoint
+python3 scripts/tafsir/batch.py 2 --from 1 --to 50 --push-check
+python3 scripts/tafsir/quality.py --all --push-check
+# Pending candidates are committed and pushed before owner acceptance.
+# A different reviewer completes the pending source/claim/evidence ledgers and rubric.
+python3 scripts/tafsir/run.py --status          # REVIEW PENDING until independent acceptance
+# After all pending reviews are independently completed and approved:
+python3 scripts/tafsir/batch.py 2 --from 1 --to 50
+python3 scripts/tafsir/run.py --check           # RUN COMPLETE requires all fifty accepted
+# Only then may the author choose the next run’s start.
+
+# Whole-chapter publication remains blocked until all 286 verses are finished and accepted:
+python3 scripts/tafsir/audit.py 2
+python3 scripts/tafsir/quality.py 2
+python3 scripts/tafsir/build_data.py 2
+python3 scripts/tafsir/status.py 2
 ```
 
 Excerpts worth knowing:
