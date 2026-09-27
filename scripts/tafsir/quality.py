@@ -5,24 +5,31 @@ The ordinary auditor proves format and minimum evidence.  This gate answers the
 separate question the old gate could not answer: does a newly written range still
 match the accepted quality of chapter 1?
 
-Fifty verses may be mapped at once, but quality is judged in checkpoints of no
-more than five verses. Every non-baseline verse needs an independent semantic
-review in ``quality/reviews/``. A review scores the prose against chapter 1,
-fingerprints and compares every available source passage, groups duplicate witnesses
-into distinct material points, accounts for omissions, and verifies Qur'an citations,
-named transmitted evidence, language
-claims, and consequential legal/theological claims for source support and
-relevance—not merely verbal presence.
+Fifty verses may be source-mapped and written in one review checkpoint. Automatic
+prose and evidence alarms still run every five verses so degeneration is caught
+early. Every non-baseline verse needs an independent semantic review in
+``quality/reviews/`` before acceptance or publication. A review scores the prose
+against chapter 1, fingerprints and compares every available source passage, groups
+duplicate witnesses into distinct material points, accounts for omissions, and
+verifies Qur'an citations, named transmitted evidence, language claims, and
+consequential legal/theological claims for source support and relevance—not merely
+verbal presence.
+
+A synchronized pending review template is enough for a review-candidate push. The
+push check never grants acceptance; owner confirmation and the full gate remain
+mandatory before publication or before writing beyond fifty unaccepted verses.
 
 Examples:
 
     python3 scripts/tafsir/quality.py --baseline
-    python3 scripts/tafsir/quality.py 2 --from 101 --to 105
-    python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer writer-id
+    python3 scripts/tafsir/quality.py 2 --from 101 --to 150
+    python3 scripts/tafsir/quality.py --template 2 --from 101 --to 150 --writer writer-id
+    python3 scripts/tafsir/quality.py --all --push-check
     python3 scripts/tafsir/quality.py --all
 
-A non-zero exit means ``QUALITY DRIFT``.  Generation, acceptance and publication
-must stop at that point; the output reports the last independently accepted verse.
+A non-zero full-gate exit means ``QUALITY DRIFT``. Acceptance and publication must
+stop at that point; the output reports the last independently accepted verse. A
+push-check failure blocks the checkpoint push until its draft/template is repaired.
 """
 
 from __future__ import annotations
@@ -44,7 +51,8 @@ import audit as A  # noqa: E402
 import corpus as C  # noqa: E402
 
 BASELINE_CHAPTER = 1
-CHECKPOINT_SIZE = 5
+REVIEW_CHECKPOINT_SIZE = 50
+METRIC_CHECKPOINT_SIZE = 5
 MIN_SCORE = 4
 BASELINE_PATH = C.REPO / "quality" / "chapter-001-baseline.json"
 REVIEWS_DIR = C.REPO / "quality" / "reviews"
@@ -342,7 +350,7 @@ def baseline_payload() -> dict:
         "file": "tafsir/001.md",
         "sha256": _sha256(C.output_path(BASELINE_CHAPTER)),
         "metrics": metrics(doc.sections),
-        "checkpoint_size": CHECKPOINT_SIZE,
+        "checkpoint_size": METRIC_CHECKPOINT_SIZE,
         "rubric": list(RUBRIC),
         "minimum_score": MIN_SCORE,
         "thresholds": {
@@ -490,11 +498,11 @@ def load_reviews() -> Tuple[Dict[Tuple[int, int], Tuple[dict, dict, Path]], List
                                     "review needs numeric from/to bounds and verse keys"))
             continue
         expected = set(range(start, end + 1))
-        if end < start or end - start + 1 > CHECKPOINT_SIZE or keys != expected:
+        if end < start or end - start + 1 > REVIEW_CHECKPOINT_SIZE or keys != expected:
             findings.append(Finding(
                 "QTY-CHECKPOINT-SIZE", str(path.relative_to(C.REPO)),
                 "one review must contain exactly its consecutive from/to range and no more than "
-                "%d verses" % CHECKPOINT_SIZE))
+                "%d verses" % REVIEW_CHECKPOINT_SIZE))
             continue
         for raw_verse, row in verse_rows.items():
             try:
@@ -737,6 +745,114 @@ def _review_errors(chapter: int, section, review: dict, row: dict, path: Path) -
     return errors
 
 
+def _review_scaffold_errors(chapter: int, section, review: dict, row: dict,
+                            path: Path) -> List[Finding]:
+    """Validate a review candidate without pretending that it is accepted.
+
+    This is the GitHub-push gate.  A pending template must remain synchronized
+    with source availability and every machine-detectable claim/evidence ledger.
+    If the owner has already accepted the row, the complete semantic gate applies.
+    """
+    if (review.get("status") == "accepted" and isinstance(row, dict)
+            and row.get("status") == "accepted"):
+        return _review_errors(chapter, section, review, row, path)
+
+    verse = section.verse
+    ref = "%d:%d" % (chapter, verse)
+    location = str(path.relative_to(C.REPO))
+    errors = []
+    if review.get("schema_version") != SCHEMA_VERSION:
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-SCHEMA", ref,
+            "%s does not use review schema %d" % (location, SCHEMA_VERSION)))
+    if not str(review.get("writer", "")).strip():
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-WRITER", ref,
+            "%s must identify the writer before it is pushed for review" % location))
+    if review.get("status") not in ("pending", "accepted"):
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STATUS", ref,
+            "%s must remain pending or record complete acceptance" % location))
+    if not isinstance(row, dict):
+        return errors + [Finding(
+            "QTY-PUSH-REVIEW-STALE", ref,
+            "%s has no verse review object" % location)]
+    if row.get("status") not in ("pending", "accepted"):
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STATUS", ref,
+            "%s has an invalid verse status" % location))
+
+    synthesis = row.get("source_synthesis")
+    if not isinstance(synthesis, dict):
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STALE", ref,
+            "the pending review has no source-synthesis scaffold"))
+    else:
+        if synthesis.get("available_sources") != available_sources(chapter, verse):
+            errors.append(Finding(
+                "QTY-PUSH-REVIEW-STALE", ref,
+                "the pending review source list no longer matches the corpus"))
+        if synthesis.get("source_fingerprint") != source_fingerprint(chapter, verse):
+            errors.append(Finding(
+                "QTY-PUSH-REVIEW-STALE", ref,
+                "the pending review source fingerprint no longer matches the corpus"))
+
+    claim_review = row.get("claim_verification")
+    actual_claims = substantive_claims(section)
+    if not isinstance(claim_review, dict):
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STALE", ref,
+            "the pending review has no substantive-claim scaffold"))
+    else:
+        detected = claim_review.get("detected_claims")
+        scaffolded = []
+        if isinstance(detected, list):
+            for item in detected:
+                if isinstance(item, dict):
+                    scaffolded.append((item.get("categories"), re.sub(
+                        r"\s+", " ", str(item.get("statement", ""))).strip()))
+                else:
+                    scaffolded.append((None, ""))
+        expected = [(categories, statement) for categories, statement in actual_claims]
+        if scaffolded != expected:
+            errors.append(Finding(
+                "QTY-PUSH-REVIEW-STALE", ref,
+                "the pending substantive-claim ledger no longer matches the commentary"))
+        if not isinstance(claim_review.get("additional_material_claims"), list):
+            errors.append(Finding(
+                "QTY-PUSH-REVIEW-STALE", ref,
+                "additional_material_claims must remain a list in the review candidate"))
+
+    actual_refs = cross_references(section)
+    ledger = row.get("citations")
+    scaffolded_refs = []
+    if isinstance(ledger, list):
+        for item in ledger:
+            if isinstance(item, dict):
+                scaffolded_refs.append((item.get("reference"), re.sub(
+                    r"\s+", " ", str(item.get("quoted_clause", ""))).strip()))
+            else:
+                scaffolded_refs.append((None, ""))
+    if scaffolded_refs != actual_refs:
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STALE", ref,
+            "the pending Qur'an-citation ledger no longer matches the commentary"))
+
+    actual_transmitted = transmitted_evidence(section)
+    transmitted = row.get("transmitted_evidence")
+    scaffolded_transmitted = []
+    if isinstance(transmitted, list):
+        for item in transmitted:
+            scaffolded_transmitted.append(
+                re.sub(r"\s+", " ", str(item.get("statement", ""))).strip()
+                if isinstance(item, dict) else "")
+    if scaffolded_transmitted != actual_transmitted:
+        errors.append(Finding(
+            "QTY-PUSH-REVIEW-STALE", ref,
+            "the pending transmitted-evidence ledger no longer matches the commentary"))
+    return errors
+
+
 def _repeated_clause(section) -> Optional[str]:
     """Return a 5+-word clause pasted three times inside one sentence, if present.
 
@@ -775,7 +891,11 @@ def _exception_allowed(code: str, verses: Sequence[int], chapter: int,
         item = reviews.get((chapter, verse))
         if not item:
             return False
-        review = item[0]
+        review, row, _path = item
+        if (review.get("status") != "accepted" or not isinstance(row, dict)
+                or row.get("status") != "accepted"
+                or review.get("independent") is not True):
+            return False
         rationale = (review.get("exceptions") or {}).get(code, "")
         if len(str(rationale).split()) < 8:
             return False
@@ -788,8 +908,8 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
     thresholds = baseline["thresholds"]
     verses = sorted(by_verse)
 
-    # Five-verse checkpoints catch prose and evidence drift near its beginning.
-    for chunk in _chunks(verses, CHECKPOINT_SIZE):
+    # Five-verse metric windows catch prose and evidence drift near its beginning.
+    for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE):
         group = [by_verse[v] for v in chunk]
         m = metrics(group)
         ref = "%d:%d-%d" % (chapter, chunk[0], chunk[-1])
@@ -819,7 +939,7 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
                 affected, False))
 
     # Ten verses are enough to reveal a production mould or token authority floor.
-    for chunk in _chunks(verses, CHECKPOINT_SIZE * 2):
+    for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE * 2):
         group = [by_verse[v] for v in chunk]
         ref = "%d:%d-%d" % (chapter, chunk[0], chunk[-1])
         affected = tuple(chunk)
@@ -852,7 +972,16 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
     return findings
 
 
-def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True) -> Tuple[List[Finding], dict]:
+def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True,
+             push_check: bool = False) -> Tuple[List[Finding], dict]:
+    """Evaluate acceptance, a review-candidate push, or metrics-only prose.
+
+    ``push_check`` deliberately accepts synchronized pending templates but never
+    advances the independently accepted frontier.  It cannot be combined with a
+    full acceptance check.
+    """
+    if require_reviews and push_check:
+        raise ValueError("push_check and require_reviews are mutually exclusive")
     baseline, findings = load_baseline()
     doc = C.load_chapter_doc(chapter)
     if doc is None:
@@ -891,6 +1020,32 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True) 
                     (section.verse,)))
             else:
                 findings.extend(_review_errors(chapter, section, *item))
+    elif push_check:
+        frontier = accepted_frontier(chapter)
+        all_written = sorted(s.verse for s in smap.values() if _written(s))
+        unaccepted = [verse for verse in all_written if verse > frontier]
+        if unaccepted:
+            expected = list(range(frontier + 1, max(unaccepted) + 1))
+            if unaccepted != expected:
+                findings.append(Finding(
+                    "QTY-UNACCEPTED-FRONTIER", "%d:%d" % (chapter, frontier),
+                    "review candidates must extend the independently accepted frontier "
+                    "without skipping verses", tuple(unaccepted)))
+            if len(unaccepted) > REVIEW_CHECKPOINT_SIZE:
+                findings.append(Finding(
+                    "QTY-UNACCEPTED-LIMIT", "%d:%d-%d" %
+                    (chapter, unaccepted[0], unaccepted[-1]),
+                    "no more than %d verses may remain without independent acceptance" %
+                    REVIEW_CHECKPOINT_SIZE, tuple(unaccepted)))
+        for section in sections:
+            item = reviews.get((chapter, section.verse))
+            if not item:
+                findings.append(Finding(
+                    "QTY-PUSH-REVIEW-MISSING", section.ref,
+                    "a synchronized pending review template is required before this draft is pushed",
+                    (section.verse,)))
+            else:
+                findings.extend(_review_scaffold_errors(chapter, section, *item))
 
     for section in sections:
         repeated = _repeated_clause(section)
@@ -902,15 +1057,15 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True) 
 
     if baseline and sections:
         metric_sections = list(sections)
-        # A five-verse acceptance check also sees the five verses immediately
-        # before it, so authority/shape/application degeneration is detected in
-        # a rolling ten rather than only when somebody later audits the chapter.
+        # A review checkpoint also sees the five verses immediately before it,
+        # so authority/shape/application degeneration is detected in a rolling
+        # ten rather than only when somebody later audits the chapter.
         requested = {s.verse for s in sections}
-        if len(sections) <= CHECKPOINT_SIZE:
+        if len(sections) <= REVIEW_CHECKPOINT_SIZE:
             first = min(requested)
-            previous = [smap[v] for v in range(max(1, first - CHECKPOINT_SIZE), first)
+            previous = [smap[v] for v in range(max(1, first - METRIC_CHECKPOINT_SIZE), first)
                         if v in smap and _written(smap[v])]
-            if len(previous) == CHECKPOINT_SIZE:
+            if len(previous) == METRIC_CHECKPOINT_SIZE:
                 metric_sections = previous + metric_sections
         for finding in _metric_findings(chapter, metric_sections, baseline):
             if not requested.intersection(finding.verses):
@@ -959,8 +1114,8 @@ def accepted_frontier(chapter: int) -> int:
 
 
 def template(chapter: int, start: int, end: int, writer: str) -> Path:
-    if end < start or end - start + 1 > CHECKPOINT_SIZE:
-        raise SystemExit("one independent review checkpoint contains 1-%d verses" % CHECKPOINT_SIZE)
+    if end < start or end - start + 1 > REVIEW_CHECKPOINT_SIZE:
+        raise SystemExit("one independent review checkpoint contains 1-%d verses" % REVIEW_CHECKPOINT_SIZE)
     doc = C.load_chapter_doc(chapter)
     if doc is None:
         raise SystemExit("tafsir/%s.md does not exist" % C.pad3(chapter))
@@ -1062,11 +1217,12 @@ def _print_baseline(data: dict) -> None:
 
 
 def _emit(chapter: int, verses: Sequence[int], findings: Sequence[Finding], range_metrics: dict,
-          json_output: bool = False) -> int:
+          json_output: bool = False, mode: str = "acceptance") -> int:
     if json_output:
         print(json.dumps({
             "chapter": chapter,
             "verses": list(verses),
+            "mode": mode,
             "ok": not findings,
             "last_accepted_verse": accepted_frontier(chapter),
             "metrics": range_metrics,
@@ -1074,10 +1230,20 @@ def _emit(chapter: int, verses: Sequence[int], findings: Sequence[Finding], rang
         }, ensure_ascii=False, indent=2))
         return 1 if findings else 0
     if findings:
-        print("QUALITY DRIFT — GENERATION STOPPED")
+        if mode == "push":
+            print("PUSH CHECK FAILED — CHECKPOINT NOT READY")
+        elif mode == "metrics":
+            print("QUALITY DIAGNOSTIC FAILED")
+        else:
+            print("QUALITY DRIFT — ACCEPTANCE AND PUBLICATION STOPPED")
         print("chapter %d | last independently accepted verse: %d:%d" %
               (chapter, chapter, accepted_frontier(chapter)))
-        print("No later verse may be accepted, published or used as the quality baseline.\n")
+        if mode == "acceptance":
+            print("No later verse may be accepted, published or used as the quality baseline.\n")
+        elif mode == "push":
+            print("Repair the draft/template before committing and pushing this generation stop.\n")
+        else:
+            print("This diagnostic never grants semantic acceptance.\n")
         for finding in findings:
             print("BLOCK %-28s %-12s %s" % (finding.code, finding.ref, finding.message))
             if os.environ.get("GITHUB_ACTIONS"):
@@ -1086,6 +1252,13 @@ def _emit(chapter: int, verses: Sequence[int], findings: Sequence[Finding], rang
         return 1
     if chapter == BASELINE_CHAPTER:
         print("QUALITY BASELINE PASS — chapter 1 matches its frozen hash and measurements")
+    elif mode == "push":
+        print("PUSH CHECK PASS — %d:%d-%d is ready for a review-candidate push" %
+              (chapter, min(verses), max(verses)))
+        print("independent acceptance may remain pending; publication is still blocked")
+    elif mode == "metrics":
+        print("QUALITY DIAGNOSTIC PASS — no mechanical quantitative drift was detected")
+        print("this result is not semantic acceptance")
     else:
         print("QUALITY PARITY PASS — %d:%d-%d independently reviewed against chapter 1" %
               (chapter, min(verses), max(verses)))
@@ -1103,12 +1276,17 @@ def main(argv=None) -> int:
     ap.add_argument("--freeze-baseline", action="store_true",
                     help="rewrite the frozen baseline only with an independent approval record")
     ap.add_argument("--approval", help="JSON approval required when changing an existing baseline")
-    ap.add_argument("--template", action="store_true", help="create an independent review template (maximum five verses)")
+    ap.add_argument("--template", action="store_true",
+                    help="create an independent review template (maximum 50 verses)")
     ap.add_argument("--writer", help="writer identity recorded in a new review template")
+    ap.add_argument("--push-check", action="store_true",
+                    help="validate a review-candidate push; pending review is allowed but must be synchronized")
     ap.add_argument("--metrics-only", action="store_true",
                     help="diagnostic only: skip review manifests; never counts as acceptance")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
+    if args.push_check and args.metrics_only:
+        ap.error("--push-check and --metrics-only are mutually exclusive")
 
     if args.freeze_baseline:
         previous = None
@@ -1149,8 +1327,12 @@ def main(argv=None) -> int:
             if not verses:
                 continue
             any_written = True
-            findings, m = evaluate(chapter, verses, require_reviews=not args.metrics_only)
-            overall |= _emit(chapter, verses, findings, m, args.json)
+            findings, m = evaluate(
+                chapter, verses,
+                require_reviews=not args.metrics_only and not args.push_check,
+                push_check=args.push_check)
+            mode = "push" if args.push_check else ("metrics" if args.metrics_only else "acceptance")
+            overall |= _emit(chapter, verses, findings, m, args.json, mode)
         if not any_written:
             print("no non-baseline commentary is written")
         return overall
@@ -1164,8 +1346,12 @@ def main(argv=None) -> int:
     start = args.start if args.start is not None else (min(written) if written else 1)
     end = args.end if args.end is not None else (max(written) if written else start)
     verses = list(range(start, end + 1))
-    findings, m = evaluate(args.chapter, verses, require_reviews=not args.metrics_only)
-    return _emit(args.chapter, verses, findings, m, args.json)
+    findings, m = evaluate(
+        args.chapter, verses,
+        require_reviews=not args.metrics_only and not args.push_check,
+        push_check=args.push_check)
+    mode = "push" if args.push_check else ("metrics" if args.metrics_only else "acceptance")
+    return _emit(args.chapter, verses, findings, m, args.json, mode)
 
 
 if __name__ == "__main__":

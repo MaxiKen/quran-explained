@@ -23,10 +23,12 @@ whether the verse carries a relatable analogy.
 By default, exit status is 0 only when the mechanical gate and the independent
 Chapter-1 parity gate both pass. That semantic gate compares every available source,
 groups duplicate witnesses into distinct points, accounts for omissions, and checks
-substantive claims, Qur'an citations,
-and transmitted evidence for support and relevance. ``--draft`` runs the mechanical checks alone so a new verse
-can be assembled for review; it is never acceptance. Checkpoints contain no more
-than five newly written verses.
+substantive claims, Qur'an citations, and transmitted evidence for support and
+relevance. ``--draft`` runs the mechanical checks alone while prose is being assembled.
+``--push-check`` additionally requires synchronized pending review scaffolds and is
+used immediately before every review-candidate commit and push. Neither mode grants
+acceptance. Independent review checkpoints contain no more than fifty newly written
+verses; automatic quality alarms still use five-verse windows.
 """
 
 from __future__ import annotations
@@ -129,17 +131,31 @@ def run_range(chapter, start, end, opts):
     quality_findings = []
     if opts.draft:
         lines.append("DRAFT ONLY — all-source synthesis, Chapter-1 parity, claim and evidence review not yet applied")
+    elif opts.push_check:
+        checked_findings, _quality_metrics = Q.evaluate(
+            chapter, written, require_reviews=False, push_check=True)
+        quality_findings.extend(checked_findings)
+        if quality_findings:
+            lines.append("")
+            lines.append("PUSH CHECK FAILED — REPAIR BEFORE COMMIT AND PUSH")
+            lines.append("last independently accepted verse: %d:%d" %
+                         (chapter, Q.accepted_frontier(chapter)))
+            for finding in quality_findings:
+                lines.append("BLOCK %-28s %-12s %s" %
+                             (finding.code, finding.ref, finding.message))
+        else:
+            lines.append("PUSH CHECK PASS — pending review is allowed; this is not acceptance")
     else:
-        if chapter != Q.BASELINE_CHAPTER and len(written) > Q.CHECKPOINT_SIZE:
+        if chapter != Q.BASELINE_CHAPTER and len(written) > Q.REVIEW_CHECKPOINT_SIZE:
             quality_findings.append(Q.Finding(
                 "QTY-CHECKPOINT-SIZE", "%d:%d-%d" % (chapter, min(written), max(written)),
                 "acceptance checkpoints contain at most %d verses; review them in order" %
-                Q.CHECKPOINT_SIZE, tuple(written)))
+                Q.REVIEW_CHECKPOINT_SIZE, tuple(written)))
         checked_findings, _quality_metrics = Q.evaluate(chapter, written, require_reviews=True)
         quality_findings.extend(checked_findings)
         if quality_findings:
             lines.append("")
-            lines.append("QUALITY DRIFT — GENERATION STOPPED")
+            lines.append("QUALITY DRIFT — ACCEPTANCE AND PUBLICATION STOPPED")
             lines.append("last independently accepted verse: %d:%d" %
                          (chapter, Q.accepted_frontier(chapter)))
             for finding in quality_findings:
@@ -177,8 +193,14 @@ def run_range(chapter, start, end, opts):
                     quality_blocks, warns, "PASS" if not bad else "FAIL"))
     if pending:
         lines.append("keep going: write %d:%d next, then re-run this gate" % (chapter, pending[0]))
+    elif opts.draft:
+        lines.append("draft range complete — create or refresh its review template, then run --push-check")
+    elif opts.push_check:
+        lines.append("checkpoint ready — commit and push now; owner acceptance may follow on GitHub")
     else:
-        lines.append("batch complete — run the chapter gate: python3 scripts/tafsir/audit.py %d" % chapter)
+        lines.append("accepted range complete — run the chapter gate only when the whole chapter is written")
+    if opts.draft:
+        lines.append("if generation stops here, do not leave it local: scaffold review, push-check, commit, and push")
     return {"lines": lines, "fails": fails, "warns": warns, "pending": pending,
             "ok": not bad, "range": (start, end), "written": written}
 
@@ -211,8 +233,11 @@ def main(argv=None):
     ap.add_argument("--jobs", type=int, default=4, help="how many ranges to audit in parallel (default 4)")
     ap.add_argument("--progress", action="store_true", help="print where the chapter stands and exit")
     ap.add_argument("--strict", action="store_true", help="mechanical warnings fail the batch too")
-    ap.add_argument("--draft", action="store_true",
-                    help="run mechanical checks only while drafting; never counts as quality acceptance")
+    modes = ap.add_mutually_exclusive_group()
+    modes.add_argument("--draft", action="store_true",
+                       help="run mechanical checks only while drafting; never counts as quality acceptance")
+    modes.add_argument("--push-check", action="store_true",
+                       help="validate synchronized pending review scaffolds before a required checkpoint push")
     ap.add_argument("--no-grounding", action="store_true")
     args = ap.parse_args(argv)
 
@@ -236,7 +261,7 @@ def main(argv=None):
 
     ranges = parse_ranges(args.ranges, args.chapter) if args.ranges else [(args.start, args.end)]
     opts = types.SimpleNamespace(no_grounding=args.no_grounding, strict=args.strict,
-                                 draft=args.draft)
+                                 draft=args.draft, push_check=args.push_check)
 
     if len(ranges) == 1:
         report = run_range(args.chapter, ranges[0][0], ranges[0][1], opts)

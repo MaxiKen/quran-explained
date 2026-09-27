@@ -13,7 +13,7 @@ line of it:
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Workflow (v8) | **50 mapped / 1 drafted / 5 accepted**: fifty verses researched from all eleven in one pass, each verse mechanically checked, no more than five before independent all-source synthesis, Chapter-1 parity, Qur'an-citation and transmitted-evidence review; quality drift stops and notifies |
+| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, five-verse automatic drift windows retained, and at most fifty unaccepted verses per independent all-source/Chapter-1 parity review; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
@@ -44,12 +44,13 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
-**Standard v8 enforced (2026-09-27).** Chapter 1 is now a frozen quality floor rather than a style
-example. Passing `audit.py` no longer establishes acceptance. `quality.py` adds five-verse drift
-alarms, independent eight-dimension scoring, and semantic review of every citation. Fifty remains
-the source-map unit; one verse is the mechanical draft unit and five the maximum acceptance unit.
-The retained Chapter 2:1–100 prose has no v8 reviews and fails the new regression gate, so its
-accepted frontier is 2:0. No later generation proceeds until that frontier is repaired and reviewed.
+**Standard v8 workflow updated (2026-09-27).** Chapter 1 is the frozen quality floor. Passing
+`audit.py` does not establish acceptance. `quality.py` keeps five-verse metric alarms, independent
+eight-dimension scoring, and semantic review of every citation, while fifty is now both the source
+map and maximum unaccepted review checkpoint. Every generation stop must be push-checked, committed,
+and pushed before owner confirmation—even with an incomplete chapter or pending review. A pending
+GitHub candidate is never publication approval; the full parity gate still controls the accepted
+frontier and payloads.
 
 **Raised Chapter-1 floor accepted and published (2026-09-27).** All eleven source passages were
 rebuilt and read for all seven verses. The revision expands the baseline's source evidence, replaces
@@ -67,31 +68,38 @@ available works with the prose, group duplicate works under distinct material po
 included anchor or omission, relevance-review every Qur'an citation, locate every named report or
 early authority, and verify each detected language or consequential legal/theological claim against
 a fingerprinted allowlisted passage. The accepted Chapter-1 ledgers contain 51 Qur'an citations,
-26 transmitted statements and 31 substantive claims. A raised Chapter 1 must pass the same two-checkpoint review before its baseline hash
-can move. These are semantic controls, not quotas requiring source names in the published prose.
+26 transmitted statements and 31 substantive claims. A raised Chapter 1 must pass the same complete
+review (now at most fifty verses per checkpoint) before its baseline hash can move. These are
+semantic controls, not quotas requiring source names in the published prose.
 
-**Two author-named chapter-2 runs were mechanically delivered under v7.4 (2026-09-26).** The first chapter-only start resolved
+**Chapter 2 purged and restarted under the raised floor (2026-09-27).** The old introduction and
+2:1–2:100 draft were removed from current state without rewriting history; the old drafting-bench
+files for 2:6–2:100 remain deleted and must not be restored. All eleven works were remapped for the
+pinned 2:1–2:50 run. A fresh introduction and fresh 2:1–2:5 now pass the mechanical gate with 100%
+phrase coverage. Their commentary prose measures 3,489 words, Flesch 75.63, zero sentences over 40
+words, and 11.75 checkable evidence mentions per 1,000 words—above every frozen Chapter-1 alarm.
+The project owner independently approved `quality/reviews/002/001-005.json`, including the all-source,
+claim, citation and transmitted-evidence ledgers. Accepted frontier: 2:5. Next verse: 2:6.
+
+**Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
 
-The author then named **2:51** exactly, pinning **2:51–2:100**. The second fifty add 43,365 words,
-with 730/859/1,062 as the minimum, median and maximum. Its own gate reports 0 FAIL and 51
-advisories: 38 reasoning-floor preferences and 13 upstream `tafsir_initial` coverage gaps. The
-growing 2:1–2:100 mechanical gate also passed at 0 FAIL and 105 advisories under v7.4. That
-historical PASS is not v8 acceptance: the range now stops on missing independent review and multiple
-measured drift alarms.
+The author then named **2:51** exactly, pinning **2:51–2:100**. The second fifty added 43,365 words,
+with 730/859/1,062 as the minimum, median and maximum. Its own gate reported 0 FAIL and 51
+advisories under v7.4. The growing 2:1–2:100 mechanical gate also passed under that older standard.
+Those files were later purged because the range lacked v8 review and exhibited measured quality
+regressions; they remain history, not reusable draft material.
 
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 100/286 drafted; 0 v8 accepted | 81,910 | 703/802/1,062 | QUALITY DRIFT; 186 verses still scaffold |
+| 2 | `tafsir/002.md` | 5/286 written and accepted | 4,149 | 739/768/966 | fresh checkpoint PASS; 281 verses still scaffold |
 
-Published totals are **1 of 114 chapters and 7 accepted verses** under the raised Chapter-1 hash.
-The working corpus contains 107 of 6,236 written verses across Chapters 1–2, but Chapter 2 remains
-outside the accepted frontier. Chapter 2 has a 677-word introduction and drafted prose through 2:100. Its remaining verses, 2:101–2:286, stay as `TODO`
-scaffolds, so `audit.py 2` still fails by design and no chapter-2 payload is built yet. The completed
-run does not choose its successor: the author must name the next chapter or chapter:verse; naming
-chapter 2 now would resolve to 2:101.
+Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
+hash. The working corpus contains 12 accepted verses across Chapters 1–2, but only complete Chapter 1
+has an app payload. Chapter 2 is intentionally partial, so `audit.py 2` fails on its 281 `TODO`
+scaffolds and `data/tafsir_002.json` does not exist. The current pinned run continues at 2:6.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

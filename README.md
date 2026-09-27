@@ -9,10 +9,11 @@ format and two gates before it is published to the app. The standard in force is
 source, register and independence laws remain, and Chapter 1 is now the frozen quality floor rather
 than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
 published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
-all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 has an introduction and commentary through 2:100, but that prose
-is not independently accepted by the v8 parity gate; verses 2:101–2:286 remain scaffolds. Fifty
-verses are mapped from the eleven works in one pass, while prose is mechanically checked per verse
-and independently accepted in checkpoints of no more than five.
+all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
+cleared and restarted from the sources; its new introduction and 2:1–2:5 are independently accepted,
+while 2:6–2:286 remain scaffolds. Fifty verses are mapped from the eleven works in one pass, prose is
+mechanically checked per verse, automatic drift alarms run in five-verse windows, and independent
+review checkpoints contain at most fifty verses.
 
 ## Start here
 
@@ -31,14 +32,17 @@ and independently accepted in checkpoints of no more than five.
 ```bash
 python3 scripts/tafsir/run.py --plan --start 2:1 # the fifty from the start the author names (2 or 2:1)
 python3 scripts/tafsir/run.py --build            # map them from all eleven → tmp/runs/
-python3 scripts/tafsir/run.py --slice 2:1 2:5    # read the map a stretch at a time
+python3 scripts/tafsir/run.py --slice 2:6 2:10   # read the map a stretch at a time
 python3 scripts/tafsir/reference.py 2:255        # every cross-reference expanded, ready to paste
-#   ... write one verse, splice it, and run its mechanical draft check ...
-python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
-#   ... after no more than five, a different reviewer compares every source, fills
-#       the substantive-claim, Qur'an and transmitted-evidence ledgers, then the rubric ...
-python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 101 --to 105  # mechanical + Chapter-1 parity acceptance
+#   ... write in order, splice, and run mechanical draft checks ...
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --draft
+#   ... whenever generation stops, scaffold the written candidate (maximum fifty),
+#       pre-push check it, commit it, and push it before owner confirmation ...
+python3 scripts/tafsir/quality.py --template 2 --from 6 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --push-check
+# git add ... && git commit ... && git push origin YOUR_WORKING_BRANCH
+#   ... after the independent owner completes/approves the ledgers on the GitHub candidate ...
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10  # mechanical + Chapter-1 parity acceptance
 python3 scripts/tafsir/run.py --check            # all fifty clean and independently accepted
 python3 scripts/tafsir/audit.py 2                # mechanical chapter gate
 python3 scripts/tafsir/quality.py 2              # semantic Chapter-1 parity gate
@@ -75,8 +79,10 @@ Excerpts worth knowing:
 * every cross-reference is **expanded with the clause it points to**, copied from `data/`: a bare
   `(2:255)` warns and three in one section fail (`REF-BARE`), and `scripts/tafsir/reference.py`
   prints the expansion;
-* fifty verses are mapped for research speed, but prose is written in order, mechanically checked
-  one verse at a time and independently reviewed every five; `QUALITY DRIFT` stops and notifies;
+* fifty verses are mapped for research speed and form the maximum unaccepted review checkpoint;
+  prose is written in order and mechanically checked per verse, while quantitative drift is still
+  tested every five verses; every generation stop is committed and pushed as a clean review
+  candidate, even when incomplete or pending, and acceptance remains mandatory for publication;
 * a chapter is finished when the mechanical auditor and Chapter-1 parity gate pass, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 

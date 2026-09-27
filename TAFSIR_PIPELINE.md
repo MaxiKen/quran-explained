@@ -6,9 +6,10 @@ then edited down over many passes) was deleted in commit `b600667`, together wit
 small, strict pipeline: one chapter file at a time, written from the **eleven** works in this
 repository (v7.4: the ten tafsirs plus the study draft `tafsir_initial/`), gated by an auditor that
 will not pass anything malformed, unevidenced, repetitive or padded. Fifty verses are mapped from
-all eleven works in one pass for research speed. Prose is checked one verse at a time and accepted
-in independently reviewed checkpoints of no more than five; quality drift stops and notifies before
-it can spread through the source map.
+all eleven works in one pass for research speed. Prose is checked one verse at a time, automatic
+quality alarms still run in five-verse windows, and independent review checkpoints contain at most
+fifty verses. Every generation stop is committed and pushed as a clean review candidate before owner
+confirmation, even when the range or chapter is incomplete; publication still requires acceptance.
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
 * **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
@@ -32,7 +33,7 @@ it can spread through the source map.
 | `tmp/runs/run-NNN.{txt,json}` | a run's map — the fifty verses with all eleven works beneath them — and its manifest, git-ignored |
 | `tmp/work/cN_v*.md` | verse drafts; assembly makes them readable but does not make them accepted |
 | `quality/chapter-001-baseline.json` | frozen Chapter-1 hash, measurements and v8 drift thresholds |
-| `quality/reviews/NNN/AAA-BBB.json` | tracked review for at most five verses: rubric, all-source fingerprint/synthesis, substantive-claim verification, Qur'an relevance, and transmitted-evidence source/relevance ledgers |
+| `quality/reviews/NNN/AAA-BBB.json` | tracked pending or accepted review for at most fifty verses: rubric, all-source fingerprint/synthesis, substantive-claim verification, Qur'an relevance, and transmitted-evidence source/relevance ledgers |
 
 History is not gone. The deleted corpus and its rule documents are readable at the previous
 commit, e.g.
@@ -99,15 +100,18 @@ python3 scripts/tafsir/scaffold.py 2 --phrases | head -40   # the phrase cut eve
 python3 scripts/tafsir/verify.py "Musaylimah" --chapter 2   # before crediting any source
 python3 scripts/tafsir/match.py 1:4 "the day of reckoning"  # is this the verse's wording, a synonym, or neither?
 
-# 3. write in order: mechanical check per verse, independent acceptance per five
+# 3. write in order: mechanical check per verse, review checkpoint at most fifty
 python3 scripts/tafsir/assemble.py 2
-python3 scripts/tafsir/batch.py 2 --from 101 --to 101 --draft
-python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
-# a different reviewer completes quality/reviews/002/101-105.json:
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --draft
+# at every generation stop, create/refresh a pending scaffold and push the candidate first
+python3 scripts/tafsir/quality.py --template 2 --from 6 --to 10 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10 --push-check
+# commit and push here, although the chapter and independent review are still incomplete
+# a different reviewer then completes quality/reviews/002/006-010.json on the GitHub candidate:
 # all-source comparison + omissions, rubric, substantive-claim ledger, Qur'an ledger,
 # and transmitted-evidence ledger
-python3 scripts/tafsir/batch.py 2 --from 101 --to 105
-python3 scripts/tafsir/quality.py 2 --from 101 --to 105
+python3 scripts/tafsir/batch.py 2 --from 6 --to 10
+python3 scripts/tafsir/quality.py 2 --from 6 --to 10
 python3 scripts/tafsir/batch.py 2 --progress
 python3 scripts/tafsir/audit.py 2                       # whole chapter mechanical gate
 python3 scripts/tafsir/quality.py 2                     # whole chapter parity gate
@@ -156,7 +160,7 @@ The thresholds that keep chapters honest as they grow:
 | Introduction | 250–1,500 words |
 | Phrase coverage | ≥90% of the verse's words, no gap over 8 words, edges within 3 words |
 | Analogy/application | optional; must add verse-specific clarity and may not occupy a repeated production slot |
-| V8 checkpoint | at most 5 verses; all-source comparison complete; rubric scores all ≥4; every scaffolded/additional substantive claim, Qur'an citation and transmitted statement source/relevance-reviewed |
+| V8 review checkpoint | at most 50 unaccepted verses; five-verse automatic metric windows; every generation stop push-checked/committed/pushed; acceptance requires complete all-source comparison, rubric scores all ≥4, and source/relevance review of every scaffolded/additional substantive claim, Qur'an citation and transmitted statement |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% over 40 words |
 | Reading ease | Flesch 60+ (warn 55, fail 45) |
 | Bold | the UPPERCASE headings, this verse's phrases (bold italics) and other verses' clauses (bold only) — nothing else |
@@ -178,15 +182,17 @@ payload is (re)generated, so returning readers get the new file instead of the c
 ## 5. Working agreement
 
 1. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
-2. The author names the start. Fifty verses are then mapped from all eleven works in one pass, but
-   prose is written in order, mechanically checked per verse and independently accepted per five.
-   No sixth unaccepted verse is opened. `QUALITY DRIFT` is a mandatory stop and notification;
-   `run.py --check` completes only after all fifty are independently accepted.
-3. Never leave a half-written verse. Assembled prose remains a draft until its independent review
-   compares every available source passage, accounts for material omissions, validates every Qur'an
-   citation, locates every named transmitted statement in the corpus, and passes the rubric. Source
-   fingerprints invalidate stale reviews automatically. Only accepted checkpoints are committed;
-   payload and worklog changes wait for the chapter.
+2. The author names the start of a new run. Fifty verses are mapped from all eleven works in one
+   pass and form the maximum unaccepted review checkpoint. Prose is written in order and mechanically
+   checked per verse; five-verse metric windows catch early drift. No fifty-first unaccepted verse is
+   opened. `QUALITY DRIFT` is a mandatory stop, notification and clean checkpoint push; `run.py
+   --check` completes only after all fifty are independently accepted.
+3. Never leave a half-written verse. Whenever generation stops, create or refresh the pending review
+   scaffold, run `--push-check`, commit, and push before confirmation—even if incomplete. Assembled
+   prose remains unaccepted until independent review compares every source passage, accounts for
+   omissions, validates every Qur'an citation, locates named transmitted statements, and passes the
+   rubric. Source fingerprints invalidate stale reviews automatically. Payload and completion-worklog
+   changes wait for the accepted, finished chapter.
 4. A chapter is done when `audit.py N` ends `RESULT: PASS`, `quality.py N` ends `QUALITY PARITY PASS`, every verse clears its own word floor
    (`status.py N` shows them side by side), `build_data.py N --check` reports no stale payload, the
    worklog row exists, and `sw.js` has been bumped. Commit per chapter on the session branch

@@ -37,6 +37,63 @@ class FakeSection:
 def main() -> int:
     failures = []
 
+    if Q.REVIEW_CHECKPOINT_SIZE != 50 or Q.METRIC_CHECKPOINT_SIZE != 5:
+        failures.append("review checkpoints must allow fifty verses while drift metrics stay five-verse")
+
+    original_reviews_dir = Q.REVIEWS_DIR
+    try:
+        with tempfile.TemporaryDirectory(dir=C.REPO / "tmp") as temp_dir:
+            Q.REVIEWS_DIR = Path(temp_dir)
+            fifty = {
+                "chapter": 2, "from": 1, "to": 50,
+                "verses": {str(verse): {} for verse in range(1, 51)},
+            }
+            (Q.REVIEWS_DIR / "fifty.json").write_text(json.dumps(fifty))
+            _reviews, errors = Q.load_reviews()
+            if errors:
+                failures.append("a fifty-verse review checkpoint was rejected")
+            (Q.REVIEWS_DIR / "fifty.json").unlink()
+            fifty_one = {
+                "chapter": 2, "from": 1, "to": 51,
+                "verses": {str(verse): {} for verse in range(1, 52)},
+            }
+            (Q.REVIEWS_DIR / "fifty-one.json").write_text(json.dumps(fifty_one))
+            _reviews, errors = Q.load_reviews()
+            if "QTY-CHECKPOINT-SIZE" not in {error.code for error in errors}:
+                failures.append("a fifty-one-verse review checkpoint was not rejected")
+    finally:
+        Q.REVIEWS_DIR = original_reviews_dir
+
+    pending_section = FakeSection(1, "A clean review candidate remains pending for its owner.")
+    pending_review = {
+        "schema_version": Q.SCHEMA_VERSION,
+        "chapter": 2,
+        "writer": "writer-test",
+        "reviewer": "",
+        "independent": False,
+        "status": "pending",
+    }
+    pending_row = {
+        "status": "pending",
+        "source_synthesis": {
+            "source_fingerprint": Q.source_fingerprint(2, 1),
+            "available_sources": Q.available_sources(2, 1),
+        },
+        "claim_verification": {
+            "detected_claims": [],
+            "additional_material_claims": [],
+        },
+        "citations": [],
+        "transmitted_evidence": [],
+    }
+    candidate_path = C.REPO / "quality/reviews/002/pending-test.json"
+    if Q._review_scaffold_errors(2, pending_section, pending_review, pending_row, candidate_path):
+        failures.append("a synchronized pending review candidate did not pass its push check")
+    pending_section._body += " The Arabic word means a binding legal rule."
+    stale = Q._review_scaffold_errors(2, pending_section, pending_review, pending_row, candidate_path)
+    if "QTY-PUSH-REVIEW-STALE" not in {error.code for error in stale}:
+        failures.append("a stale pending claim ledger was accepted for push")
+
     baseline, baseline_findings = Q.load_baseline()
     if not baseline or baseline_findings:
         failures.append("frozen chapter-1 baseline must validate")

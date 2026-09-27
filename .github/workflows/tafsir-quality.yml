@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   parity:
-    name: Chapter 1 parity and independent review
+    name: Chapter 1 floor and review-candidate integrity
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -48,19 +48,20 @@ jobs:
       - name: Run quality regression tests
         run: python3 scripts/tafsir/qualitytest.py
 
-      - name: Check all written commentary
+      - name: Check every review candidate
         id: parity
         shell: bash
         run: |
           set +e
-          python3 scripts/tafsir/quality.py --all 2>&1 | tee quality-drift-report.txt
+          python3 scripts/tafsir/quality.py --all --push-check 2>&1 | tee quality-drift-report.txt
           status=${PIPESTATUS[0]}
           {
-            echo "## Tafsir quality parity"
+            echo "## Tafsir review-candidate check"
             if [ "$status" -eq 0 ]; then
-              echo "✅ All written commentary matches the frozen Chapter 1 quality floor."
+              echo "✅ Written commentary is mechanically and quantitatively clean, and every review scaffold is synchronized."
+              echo "Independent acceptance may still be pending; this check never authorizes publication."
             else
-              echo "❌ Quality drift detected. Generation and publication are blocked."
+              echo "❌ The draft or review scaffold is stale or below the frozen Chapter 1 floor. This checkpoint push must be repaired."
             fi
             echo
             echo '```text'

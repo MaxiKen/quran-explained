@@ -8,11 +8,11 @@ different writer and reviewer identities, mark the review independent, contain `
 match `old_sha256` and `new_sha256`, and explain the reason in at least eight words.
 
 A raised Chapter 1 must itself receive the complete all-source, claim/evidence, rubric and relevance
-review in checkpoints of no more than five verses. Create `1:1–1:5` and `1:6–1:7` templates with the commands
-below, have the same independent reviewer complete both, then freeze the approved baseline. A hash
-approval without accepted semantic review is rejected. Freezing a richer chapter may tighten drift
-thresholds, but `quality.py` preserves every stronger threshold from the previous floor; raising one
-dimension can never quietly lower another.
+review in checkpoints of no more than fifty verses. The present Chapter 1 was historically reviewed
+as `1:1–1:5` and `1:6–1:7`; both accepted files remain valid under the larger limit. A hash approval
+without accepted semantic review is rejected. Freezing a richer chapter may tighten drift thresholds,
+but `quality.py` preserves every stronger threshold from the previous floor; raising one dimension
+can never quietly lower another.
 
 ```bash
 python3 scripts/tafsir/quality.py --template 1 --from 1 --to 5 --writer WRITER_ID
@@ -25,20 +25,26 @@ python3 scripts/tafsir/quality.py --freeze-baseline \
 
 - **Drafted:** prose exists in `tmp/work/` or the assembled chapter.
 - **Mechanically clean:** `batch.py ... --draft` finds no format/evidence failure.
+- **Pushable review candidate:** a synchronized pending review scaffold exists and `batch.py ...
+  --push-check` passes. This state must be committed and pushed whenever generation stops, but it is
+  not semantic acceptance.
 - **Accepted:** a different reviewer has completed the source synthesis, claim/evidence ledgers and
-  Chapter-1 rubric, and `batch.py` without `--draft` reports `QUALITY PARITY PASS`.
+  Chapter-1 rubric, and `batch.py` without either draft flag reports `QUALITY PARITY PASS`.
 
-Only accepted prose may advance the frontier, be committed as commentary, or enter an app payload.
+A clean review candidate may and must be committed/pushed before confirmation. Only accepted prose
+may advance the independent frontier or enter an app payload.
 
 ## One checkpoint
 
-A checkpoint contains one to five consecutive verses:
+A checkpoint contains one to fifty consecutive verses:
 
 ```bash
-python3 scripts/tafsir/quality.py --template 2 --from 101 --to 105 --writer WRITER_ID
+python3 scripts/tafsir/quality.py --template 2 --from 101 --to 150 --writer WRITER_ID
+python3 scripts/tafsir/batch.py 2 --from 101 --to 150 --push-check
+# commit and push the pending candidate here for owner inspection
 ```
 
-This creates `reviews/002/101-105.json`. The writer does not fill the reviewer decision. A different
+This creates `reviews/002/101-150.json`. The writer does not fill the reviewer decision. A different
 reviewer must:
 
 1. identify himself or herself in `reviewer` and set `independent` to `true`;
@@ -69,8 +75,8 @@ substance rather than by how many works are named in the commentary.
 Then run:
 
 ```bash
-python3 scripts/tafsir/batch.py 2 --from 101 --to 105
-python3 scripts/tafsir/quality.py 2 --from 101 --to 105
+python3 scripts/tafsir/batch.py 2 --from 101 --to 150
+python3 scripts/tafsir/quality.py 2 --from 101 --to 150
 ```
 
 ## Metric exceptions
@@ -91,12 +97,15 @@ alarmed verses. Exceptions cannot waive missing review, source-fingerprint or sy
 Qur'an/transmitted-evidence or substantive-claim relevance, reviewer independence, a rubric score
 below 4, or a hard editorial defect.
 
-`QUALITY DRIFT` means generation stops immediately. The report names the last accepted frontier;
-no later verse is written or published until the blocked checkpoint passes.
+`QUALITY DRIFT` means generation stops immediately and the current clean state is pushed for owner
+inspection. The report names the last accepted frontier. A range may continue only until fifty verses
+remain unaccepted; no unaccepted prose is published or used as a baseline.
 
 ## GitHub notification
 
 `.github/workflows/tafsir-quality.yml` runs the frozen-baseline check, regression tests and
-`quality.py --all` on commentary/rule changes. Drift produces a failed GitHub check, a job-summary
-report and a downloadable `tafsir-quality-drift-report` artifact. The workflow may also be started
-manually with **Run workflow**.
+`quality.py --all --push-check` on commentary/rule changes. This accepts synchronized pending review
+candidates without claiming semantic approval. Mechanical/metric drift, stale scaffolds, or more than
+fifty unaccepted verses produce a failed GitHub check, a job-summary report and a downloadable
+`tafsir-quality-drift-report` artifact. Accepted rows still receive the full semantic validation. The
+workflow may also be started manually with **Run workflow**.
