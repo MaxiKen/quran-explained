@@ -200,8 +200,36 @@ independent frontier remains **2:5**.
 
 Chapter 2 now has **76/286 written, 23 independently accepted and 53 pending**. All earlier prose,
 review records, source corpora, Chapter-1 text/payload and frozen baseline are unchanged. The
-checkpoint commit could not be pushed in-session because the GitHub token had expired; it is
-committed locally and awaits a working connection.
+checkpoint commit could not be pushed in-session because the GitHub token had expired; it was
+committed locally and pushed as **c117bfe** once the connection returned.
+
+**Continued drafting: 2:77–2:80 (2026-09-27).** On the owner instruction “Send the verses to reach
+2:100,” the pin continued from **2:77**. Four verses were researched from every mapped source in the
+pinned run (full digest reads including the Arabic passages), assembled and individually draft-gated.
+2:77 carries the woe of secret counsel with a first-generation gloss; 2:78 adjudicates the
+unlettered-class label against its minority lexical reading and enumerates the three faces of the
+wishful claim; 2:79 works the doubled woe against the doubled crime with the lexicon of the cry of
+woe; 2:80 opens the counted-days claim, its inventories, and the two-horned demand for a pledge.
+Each verse quotes its scaffold phrase cut in order, carries an expanded cross-reference with a
+verbatim clause and a transmitted reading from a named early authority or collection, and keeps
+every paragraph over 120 words. Repair loops covered quote-wrapper forms, a word-study trigger
+collision at 2:78, a six-word phrasing collision carried into 2:79, two heading-prefix collisions,
+and one cross-reference whose clause was misremembered and replaced with the verified pick (2:84).
+The stretch totals **3,640 words** by the batch counter, 709 to 1,088 per verse, 100% phrase
+coverage.
+
+Created `quality/reviews/002/077-080.json` as a synchronized pending review scaffold. `batch.py 2
+--from 57 --to 80 --push-check` reports **0 mechanical FAIL, 0 quality BLOCK, 33 WARN — PASS** with
+batch style mean sentence 28.1 words, 16% over 40 words, Flesch 55, long words 0.73%, analogies
+13/24. These are draft checks, not independent acceptance. The pinned run now holds **40/50
+written** (2:51–2:80); **2:81** is next, with 20 verses left in this pin. The drafting frontier is
+2:50 owner-approved plus these authorized continuations; the independent frontier remains **2:5**.
+The owner’s statement approving `quality/reviews/002/057-076.json` is recorded in this ledger; the
+draft-approval receipt covering 051–076 remains blocked at the tooling frontier (the existing
+receipt covers 001–050 and a receipt cannot bridge the unapproved 051–056 gap).
+
+Chapter 2 now has **80/286 written, 23 independently accepted and 57 pending**, 75,174 words,
+range 705/927/1,270.
 
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
@@ -216,13 +244,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 76/286 written; 23 accepted, 53 pending review | 71,534 | 705/925/1,270 | review candidate PASS; 210 verses still scaffold |
+| 2 | `tafsir/002.md` | 80/286 | 75,174 | 705/927/1,270 | review candidate PASS; 206 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
 hash. The working corpus contains 30 accepted verses plus 53 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
 `audit.py 2` fails on its 210 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:51–2:100 run continues at 2:77 under the separate owner approval of the first draft run.
+pinned 2:51–2:100 run continues at 2:81 under the separate owner approval of the first draft run.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

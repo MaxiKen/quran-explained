@@ -1,0 +1,387 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 77,
+  "to": 80,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "77": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "fea1dc653fb7e86cf18dfea588ce07c525e1669dff453cbc32905641290f8464",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The content of the divine knowledge is then stated without a gap: “that Allah is aware of what they conceal”, “and what they reveal”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:77",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The reading of the clause as a deterrent carries its own purpose attached: the verse speaks as it does so that the actors may desist, which means the disclosure of divine knowledge here is itself offered as a door before it stands as a charge.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:77",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "9:78",
+          "quoted_clause": "Do they not know that Allah ˹fully˺ knows their ˹evil˺ thoughts and secret talks, and",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The glosses fix the referent of they with care — Ibn ʿAbbās takes the reproach as falling on the leaders, the men who rebuked their weaker fellows for disclosing the tidings — and the two halves of the knowledge in view are exactly the two halves of their operation.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:77",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "78": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "1ce377df3f9dec4708a9b3529ef150681180544f58df3fe0ca8f29230d03624c",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "3:78",
+          "quoted_clause": "There are some among them who distort the Book with their tongues to make you think this ˹distortion˺ is from the Book—but",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The same designation was worn by the Prophet himself, and the report of the description is transmitted in Bukhārī and Muslim: \"we are an unlettered nation: we do not write and we do not calculate the months\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:78",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A minority reading attached to Ibn ʿAbbās takes the class in a harder direction — a people who accept no prophet and no revealed book, and who write a book of their own and say it is from God, named unlettered for their standing opposition to the Books, which means the label in that reading is earned by stance rather than by schooling — and the majority of the learned hold that reading remote, since in the tongue of the region the designation marks the man who cannot write.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:78",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "79": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "9216199e5a58b8fdfacd8689429dee54b598029f89772c5c5c62b2ac67872536",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:157",
+          "quoted_clause": "“˹They are˺ the ones who follow the Messenger, the unlettered Prophet, whose description they find in their Torah",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:78",
+          "quoted_clause": "it is not what the Book says. They say, “It is from Allah”—but it is not from Allah. And ˹so˺",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmitted glosses from the early generations keep to the plain sense: al-Dahhak transmits from Ibn ʿAbbās the definition of the term here as simply \"the chastisement is upon them\", and a second line of transmission from the same authority renders the woe as a valley of the Fire.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:79",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "80": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "62ed920dbb7566ed48cfb1f14306b205466972e1dcb1b65111aa9b28a5a785bd",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The clause of counted days in the verse then plays its own grammatical trick: the number is left unnamed because the claimants themselves had fixed it, and the text declines to repeat their arithmetic as though it were worth the ink.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:80",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The claimants reasoned that the law of Moses had not been abrogated, that they were therefore believers, and that a believer's stay in the Fire is a term certain before release.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:80",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The first assumption is the load-bearing one, and it fails in two places at once: their own book never declared its law eternal, and their denial of the prophets after Moses places them outside the category their argument requires.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:80",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The parallel statement of the same claim elsewhere in the Book labels its psychology without ceremony — (3:24 — “for a few days.” They have been deceived in their faith by their wishful lying”) — and the counterweight of the general law stands where the law states it: (4:93 — “And whoever kills a believer intentionally, their reward will be Hell—where they will stay indefinitely.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:80",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "Religious promises of automatic amnesty are claims about the afterlife's contract law, and the verse teaches the only admissible procedure: produce the pledge in its text, or withdraw the claim and return to hope joined to works.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:80",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "3:24",
+          "quoted_clause": "for a few days.” They have been deceived in their faith by their wishful lying",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:93",
+          "quoted_clause": "And whoever kills a believer intentionally, their reward will be Hell—where they will stay indefinitely. Allah will be displeased with them,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:84",
+          "quoted_clause": "And ˹remember˺ when We took your covenant that you would neither shed each other’s blood nor expel each other from their homes,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "One account takes the number as forty, the tally of the days their forefathers worshipped the calf, after which the Fire was promised to cease — Ibn ʿAbbās, Qatādah, and others give the figure, and the counting is transparent: forty days of punishment for forty days of apostasy.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:80",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Another account takes the number as seven, one day for each thousand years of the world's seven thousand, the reckoning reported from Ibn ʿAbbās and Mujāhid in the same shape: the world is seven thousand years, and the torment is one day of the last for each thousand of the first.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:80",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}
