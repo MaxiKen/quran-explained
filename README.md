@@ -13,7 +13,7 @@ all-source synthesis, substantive-claim, citation and transmitted-evidence decis
 cleared and restarted from the sources; its new introduction and 2:1–2:5 are independently accepted.
 Verse 2:6 is a pushed, mechanically clean review candidate whose owner review is pending, while
 2:7–2:286 remain scaffolds. Fifty verses are mapped from the eleven works in one pass, prose is
-mechanically checked per verse, automatic drift alarms run in five-verse windows, and independent
+mechanically checked per verse, automatic drift alarms run in fifty-verse windows, and independent
 review checkpoints contain at most fifty verses.
 
 ## Start here
@@ -82,7 +82,7 @@ Excerpts worth knowing:
   prints the expansion;
 * fifty verses are mapped for research speed and form the maximum unaccepted review checkpoint;
   prose is written in order and mechanically checked per verse, while quantitative drift is still
-  tested every five verses; every generation stop is committed and pushed as a clean review
+  tested every fifty verses; every generation stop is committed and pushed as a clean review
   candidate, even when incomplete or pending, and acceptance remains mandatory for publication;
 * a chapter is finished when the mechanical auditor and Chapter-1 parity gate pass, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.

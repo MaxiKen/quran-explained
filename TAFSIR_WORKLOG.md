@@ -13,7 +13,7 @@ line of it:
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, five-verse automatic drift windows retained, and at most fifty unaccepted verses per independent all-source/Chapter-1 parity review; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
+| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, and at most fifty unaccepted verses per independent all-source/Chapter-1 parity review; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
@@ -45,7 +45,7 @@ reports with their collections, named early authorities, language points. Full s
 ## Progress
 
 **Standard v8 workflow updated (2026-09-27).** Chapter 1 is the frozen quality floor. Passing
-`audit.py` does not establish acceptance. `quality.py` keeps five-verse metric alarms, independent
+`audit.py` does not establish acceptance. `quality.py` keeps fifty-verse metric alarms, independent
 eight-dimension scoring, and semantic review of every citation, while fifty is now both the source
 map and maximum unaccepted review checkpoint. Every generation stop must be push-checked, committed,
 and pushed before owner confirmation—even with an incomplete chapter or pending review. A pending

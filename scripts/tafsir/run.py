@@ -12,7 +12,7 @@ The point of the run is speed and coverage:
   and writes the run's map plus the per-chapter digests the auditor reads.
 * **push every stop; review before the next run.** Fifty verses are both the source
   run and the maximum independent-review checkpoint. Each verse receives a draft
-  check, every completed five-verse window receives automatic drift checks, and
+  check, every completed fifty-verse window receives automatic drift checks, and
   every generation stop is committed and pushed with synchronized review scaffolds.
   Owner acceptance may follow on GitHub, but ``--check`` exits 0 only when all fifty
   have passed the mechanical and independent semantic gates.
@@ -206,7 +206,7 @@ def plan(target: int = RUN_VERSE_TARGET, start=None):
     A run is fixed when it is planned (``--plan`` pins it, ``--build`` fills its
     map). Writing verses inside it does not move its goalposts. The map and maximum
     independent-review checkpoint both hold fifty; automatic drift alarms still
-    inspect each completed five-verse window.
+    inspect each completed fifty-verse window.
 
     ``start`` is what the author named. Naming a start that differs from the pinned
     run re-cuts it from there; naming the same one returns the run already in hand.

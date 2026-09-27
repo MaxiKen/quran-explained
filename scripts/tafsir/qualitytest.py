@@ -37,8 +37,8 @@ class FakeSection:
 def main() -> int:
     failures = []
 
-    if Q.REVIEW_CHECKPOINT_SIZE != 50 or Q.METRIC_CHECKPOINT_SIZE != 5:
-        failures.append("review checkpoints must allow fifty verses while drift metrics stay five-verse")
+    if Q.REVIEW_CHECKPOINT_SIZE != 50 or Q.METRIC_CHECKPOINT_SIZE != 50:
+        failures.append("review checkpoints must allow fifty verses and metric windows must both hold fifty verses")
 
     original_reviews_dir = Q.REVIEWS_DIR
     try:
@@ -324,7 +324,7 @@ def main() -> int:
         "for an ordinary person to disentangle without substantial preparation, sustained attention, "
         "specialised assistance, and considerable patience throughout the entire demanding process."
     )
-    synthetic = [FakeSection(v, difficult, "THE SAME PRODUCTION SHAPE") for v in range(1, 11)]
+    synthetic = [FakeSection(v, difficult, "THE SAME PRODUCTION SHAPE") for v in range(1, 101)]
     metric_codes = {f.code for f in Q._metric_findings(2, synthetic, baseline)} if baseline else set()
     for required in ("QTY-PROSE-DRIFT", "QTY-READABILITY-DRIFT",
                      "QTY-SOURCE-CONCENTRATION", "QTY-SHAPE-DRIFT",

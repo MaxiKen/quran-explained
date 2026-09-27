@@ -3,7 +3,7 @@
 Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v8**) and
 `TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. Fifty verses are both the source-map
 unit and the maximum independent-review checkpoint: write in order and mechanically check each verse,
-while automatic drift alarms still run every five verses. Whenever generation stops, make the written
+while automatic drift alarms still run every fifty verses. Whenever generation stops, make the written
 range a clean review candidate, commit it, and push it to GitHub before owner confirmation—even when
 the chapter or review is incomplete. Independent acceptance still gates publication and the next
 fifty-verse run. Review covers the complete source map, material omissions, Qur'an citations, every
@@ -71,7 +71,7 @@ Verses 2:7–2:286 remain scaffolds. The pinned run remains 2:1–2:50.
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0dd66-quran-explained` |
 | Written | **Chapter 1 is independently accepted, published and frozen as the raised quality floor**; fresh Chapter 2 introduction + 2:1–2:5 are accepted; 2:6 is push-clean and pending owner review; 2:7–2:286 are scaffolds. |
 | Next | Continue the pinned 2:1–2:50 run at **2:7**. Every generation stop is push-checked, committed, and pushed before owner confirmation. |
-| Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, five-verse automatic drift windows, and immediate stop/push notification. |
+| Standard | **v8 raised**: all v7.4 laws plus Chapter-1 parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric, maximum fifty-verse review candidates, fifty-verse automatic drift windows, and immediate stop/push notification. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
 
 Chapter 2 keeps byte-exact verse quotes throughout. The tracked drafting bench holds
@@ -121,7 +121,7 @@ The author's instructions, verbatim, in force:
   to avoid opening 11 sources Everytime to get content). After, you can start
   processing and writing but that 50 result must be completed before you pause or stop." Later
   instructions qualify this: fifty is also the maximum unaccepted review candidate, automatic
-  degeneration alarms still run every five verses, and any actual generation stop triggers an
+  degeneration alarms still run every fifty verses, and any actual generation stop triggers an
   immediate clean checkpoint commit and push before confirmation.
 * The book is **the author's own unique and modern commentary, backed by evidence**.
   The eleven works are research: learn from them, then write the book's own reading —
@@ -169,7 +169,7 @@ false alarms: 0` after any change to the gate.
    read them and put the substance into the book's own English.
 4. **Write one section into a part file**, `tmp/work/cN_vVVV.md`, splice with `assemble.py`,
    and run `batch.py N --from V --to V --draft`. Never edit the assembled chapter by hand. Do not
-   open a fifty-first unaccepted verse; automatic five-verse metrics remain early alarms.
+   open a fifty-first unaccepted verse; automatic fifty-verse metrics remain early alarms.
 5. **Expand every cross-reference with the tool, never by hand**:
    `python3 scripts/tafsir/reference.py 2:255` prints ready-made citations;
    `--scan N` lists every bare citation in a chapter with its replacement (`--write`

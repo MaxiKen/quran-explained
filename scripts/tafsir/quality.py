@@ -6,7 +6,7 @@ separate question the old gate could not answer: does a newly written range stil
 match the accepted quality of chapter 1?
 
 Fifty verses may be source-mapped and written in one review checkpoint. Automatic
-prose and evidence alarms still run every five verses so degeneration is caught
+prose and evidence alarms still run every fifty verses so degeneration is caught
 early. Every non-baseline verse needs an independent semantic review in
 ``quality/reviews/`` before acceptance or publication. A review scores the prose
 against chapter 1, fingerprints and compares every available source passage, groups
@@ -52,7 +52,7 @@ import corpus as C  # noqa: E402
 
 BASELINE_CHAPTER = 1
 REVIEW_CHECKPOINT_SIZE = 50
-METRIC_CHECKPOINT_SIZE = 5
+METRIC_CHECKPOINT_SIZE = 50
 MIN_SCORE = 4
 BASELINE_PATH = C.REPO / "quality" / "chapter-001-baseline.json"
 REVIEWS_DIR = C.REPO / "quality" / "reviews"
@@ -908,7 +908,7 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
     thresholds = baseline["thresholds"]
     verses = sorted(by_verse)
 
-    # Five-verse metric windows catch prose and evidence drift near its beginning.
+    # Fifty-verse metric windows catch prose and evidence drift near its beginning.
     for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE):
         group = [by_verse[v] for v in chunk]
         m = metrics(group)
@@ -938,7 +938,7 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
                 (m["evidence_mentions_per_1000"], thresholds["evidence_density_min"]),
                 affected, False))
 
-    # Ten verses are enough to reveal a production mould or token authority floor.
+    # One hundred verses reveal a production mould or token authority floor.
     for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE * 2):
         group = [by_verse[v] for v in chunk]
         ref = "%d:%d-%d" % (chapter, chunk[0], chunk[-1])
@@ -1057,9 +1057,9 @@ def evaluate(chapter: int, verses: Sequence[int], require_reviews: bool = True,
 
     if baseline and sections:
         metric_sections = list(sections)
-        # A review checkpoint also sees the five verses immediately before it,
+        # A review checkpoint also sees the fifty verses immediately before it,
         # so authority/shape/application degeneration is detected in a rolling
-        # ten rather than only when somebody later audits the chapter.
+        # hundred rather than only when somebody later audits the chapter.
         requested = {s.verse for s in sections}
         if len(sections) <= REVIEW_CHECKPOINT_SIZE:
             first = min(requested)

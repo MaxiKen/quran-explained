@@ -48,7 +48,7 @@ paraphrase of the translation dressed up as commentary.
    at its next unwritten verse. If no run is pinned and the author says “continue” without a start,
    ask where the new run should begin and wait. The named start pins fifty verses, which are also the
    maximum unaccepted review candidate. Write in verse order, mechanically check each verse, and run
-   automatic drift alarms every five. Whenever generation actually stops, scaffold the written
+   automatic drift alarms every fifty. Whenever generation actually stops, scaffold the written
    range, run the pre-push gate, commit, and push before owner confirmation—even when incomplete.
    Any quality blocker is a mandatory stop: report the trigger, blocked range and last accepted
    verse, then push the clean checkpoint. Acceptance still gates publication and the next run.
@@ -667,7 +667,7 @@ Chapter 1 and reject the known retained Chapter 2 regression fixtures.
 ## 10. Run discipline — map fifty, push every stop, accept at most fifty
 
 The fifty-verse run is the **source-mapping and maximum review unit**. It keeps research efficient
-because all eleven works are opened once. Automatic five-verse windows still judge quality near the
+because all eleven works are opened once. Automatic fifty-verse windows still judge quality near the
 point where drift begins. The v8 loop is mandatory:
 
 > **Map fifty. Write one verse in order and run its mechanical draft gate. Whenever generation
@@ -728,7 +728,7 @@ record the supporting passage's verse reference and fingerprint, carry a matchin
 receive the same relevance decision. A correctly copied
 but irrelevant clause or authentic report does not pass.
 
-The automated part compares each completed five-verse metric window with the frozen Chapter-1
+The automated part compares each completed fifty-verse metric window with the frozen Chapter-1
 floor. It alarms on sentence and readability drift and on evidence contraction. Ten-verse windows detect one-authority
 tokenism, repeated heading/paragraph shape and fixed final applications. Those are alarms rather
 than incentives to add filler: an independent reviewer may record a substantive metric exception,

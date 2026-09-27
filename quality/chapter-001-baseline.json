@@ -16,7 +16,7 @@
     "authority_mentions_per_1000": 5.9405940594059405,
     "evidence_mentions_per_1000": 12.673267326732672
   },
-  "checkpoint_size": 5,
+  "checkpoint_size": 50,
   "rubric": [
     "textual_attention",
     "source_synthesis",

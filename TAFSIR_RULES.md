@@ -14,7 +14,7 @@ Where each rule lives:
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
 | `scripts/tafsir/audit.py` | the same rules mechanised — **77 codes**; the authority on *what actually blocks a chapter* |
 | `scripts/tafsir/run.py` | the fifty-verse source/review run, required push-at-every-stop status, and the check that all fifty are independently accepted |
-| `scripts/tafsir/quality.py` | the v8 Chapter-1 parity gate: frozen baseline, five-verse drift alarms, pending-candidate push validation, source fingerprints/synthesis, independent rubric, substantive-claim verification, and Qur'an/transmitted-evidence review |
+| `scripts/tafsir/quality.py` | the v8 Chapter-1 parity gate: frozen baseline, fifty-verse drift alarms, pending-candidate push validation, source fingerprints/synthesis, independent rubric, substantive-claim verification, and Qur'an/transmitted-evidence review |
 | `quality/chapter-001-baseline.json` | the frozen Chapter-1 measurements and hash; it cannot move when later prose deteriorates |
 | `quality/reviews/` | tracked pending or accepted all-source, rubric and evidence reviews, no more than fifty verses per review |
 | `scripts/tafsir/reference.py` | every cross-reference expanded with the wording it points to, ready to paste |
@@ -100,7 +100,7 @@ that source's opinion, not compared work by work, and not quoted.
    and fifty verses are mapped from all eleven works in one pass for research speed. Fifty is also
    the maximum unaccepted independent-review checkpoint. Each verse receives the mechanical draft
    gate immediately (`batch.py ... --draft`), while quantitative drift alarms still run in completed
-   five-verse windows. Whenever generation actually stops, the writer creates or refreshes a pending
+   fifty-verse windows. Whenever generation actually stops, the writer creates or refreshes a pending
    review scaffold, runs `batch.py ... --push-check`, commits, and pushes the candidate before owner
    confirmation—even if the range or chapter is incomplete. No fifty-first unaccepted verse may be
    opened. Full `batch.py` acceptance includes the frozen Chapter-1 parity gate and an independent
@@ -243,7 +243,7 @@ that source's opinion, not compared work by work, and not quoted.
     uses 1:1–1:5 and 1:6–1:7), full source, substantive-claim, citation and transmission ledgers, and
     an independent approval whose writer, reviewer and hashes match those reviews. A new floor may
     tighten an old drift threshold but may never weaken one
-    merely because another dimension improved. Five-verse alarms compare sentence control,
+    merely because another dimension improved. Fifty-verse alarms compare sentence control,
     readability and evidence density; ten-verse alarms detect authority monoculture, repeated
     section shape and fixed application placement. Metrics are drift alarms,
     not quotas: a genuinely source-sparse or technically difficult checkpoint may carry a written
@@ -289,7 +289,7 @@ collections, the early authorities), and making its own point (`IND-WORK`, `IND-
 
 **v8 (2026-09-27)** makes Chapter 1 the frozen quality floor (§0.13). Fifty is the source-map and
 maximum independent-review unit, one verse is the draft unit, and automatic drift remains measured
-in five-verse windows. Every generation stop is push-checked, committed, and pushed before owner
+in fifty-verse windows. Every generation stop is push-checked, committed, and pushed before owner
 confirmation; pending review is visible on GitHub but does not authorize publication. A new range
 still needs independent all-source synthesis, rubric and evidence-relevance review, and measurable
 drift stops and notifies instead of being hidden inside a mechanically passing run. Analogies and
@@ -619,7 +619,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 **Standing instructions (prompt §1):**
 
 1. A chapter is **researched and independently reviewed in checkpoints of at most fifty**. After
-   each verse, run the mechanical draft check; every five completed verses receive automatic drift
+   each verse, run the mechanical draft check; every fifty completed verses receive automatic drift
    alarms. Every generation stop is push-checked, committed, and pushed before owner confirmation,
    even if the checkpoint or chapter is incomplete. A quality blocker stops generation, is reported
    immediately with the blocked range and last accepted verse, and triggers the current clean push.
@@ -791,7 +791,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `QTY-RUBRIC-MISSING`, `QTY-BELOW-CHAPTER-1` | block | a required quality dimension is unscored or below 4/5 |
 | `QTY-CITATION-*` | block | citation ledger missing/mismatched, proposition unstated, or relevance not established |
 | `QTY-HARD-*` | block | unwaivable editorial defect such as a clause pasted three times |
-| `QTY-PROSE-DRIFT`, `QTY-READABILITY-DRIFT` | block/exception | a five-verse metric window has moved below the Chapter-1 prose alarm |
+| `QTY-PROSE-DRIFT`, `QTY-READABILITY-DRIFT` | block/exception | a fifty-verse metric window has moved below the Chapter-1 prose alarm |
 | `QTY-EVIDENCE-DRIFT`, `QTY-SOURCE-CONCENTRATION` | block/exception | evidence has contracted or become a token-authority pattern |
 | `QTY-SHAPE-DRIFT`, `QTY-APPLICATION-TEMPLATE` | block/exception | a rolling range has fallen into a repeated production mould |
 

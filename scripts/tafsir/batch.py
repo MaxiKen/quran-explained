@@ -28,7 +28,7 @@ relevance. ``--draft`` runs the mechanical checks alone while prose is being ass
 ``--push-check`` additionally requires synchronized pending review scaffolds and is
 used immediately before every review-candidate commit and push. Neither mode grants
 acceptance. Independent review checkpoints contain no more than fifty newly written
-verses; automatic quality alarms still use five-verse windows.
+verses; automatic quality alarms still use fifty-verse windows.
 """
 
 from __future__ import annotations
