@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "draft_continuation",
+  "chapter": 2,
+  "from": 51,
+  "to": 100,
+  "approved": true,
+  "writer": "arena-writing-agent",
+  "owner": "project-owner",
+  "approval_statement": "I approve everything. Join them with the earlier. Verse 1 to 100 is clear now",
+  "candidate_commit": "08e7c392df2acbfa5b27f54dae519d03f492c299",
+  "content_sha256": "e6bcbed25b157b6be6a2375b678304c90118072fe87cea881742d2daab6f36bb",
+  "sources_sha256": "ceb7b5f17e11655a8ae372acf1d1a1bb2a35ecfd2d8d4e0ad3f450d9128e9443"
+}
