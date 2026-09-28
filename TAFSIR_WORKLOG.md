@@ -439,3 +439,40 @@ gapless chain over the repaired candidate.
 
 Chapter 2 remains **100/286 written, 95,273 words**, range 705/927/1,363; the accepted frontier
 stays at **2:5** and the owner-approved drafting frontier is **2:100**.
+
+**Pace protocol — standing process from 2026-09-28 (owner-directed).** The owner directed that
+the process be reformed to cut wall-clock time while content quality and length stay unchanged
+and verification stays fully armed. The protocol is binding for every session that follows:
+(1) **Register-first drafting** — short sentences, plain words, 3–5 verbatim cross-reference
+clauses and 2–4 named early authorities per verse, woven from the digest — so the Chapter-1
+metric alarms pass on first draft instead of in repair passes; the alarms still run and still
+block. (2) **Block gating** — verses are written in 20-verse blocks with research batched per
+block (one run slice, one phrase listing, reference picks fetched in groups) and 5–8 verse files
+written per turn; one `batch.py --draft` gate runs over the whole block at its end and a fix
+sweep brings it to 0 FAIL. (3) **Checkpoint ceremony at 100-verse boundaries only** — review
+scaffolds are generated once, against the block's final prose, at push time (they are empty
+reviewer checklists until the independent reviewer fills them, so end-of-block sync is exactly
+as protective); `--push-check`, the four metric alarms, the scaffold-sync check, the owner's
+approval statement and the hash-bound draft-approval receipt all run then, unchanged and
+still blocking. Per-verse gating, mid-flight scaffold re-syncs and metric repair passes are
+abolished. Every content rule — verbatim phrase cuts, verbatim reference clauses, named-source
+traceability, claim and term accuracy, style linting, word floors, metric targets — is
+unchanged. Work order: finish chapter 2, then chapters 3→14 in order (owner delegated the
+order). Observed baseline 4.5 verses/hour; protocol target 15–20 verses/hour.
+
+## 2026-09-28 — Block 2:101–2:120 complete (pace protocol, first full block)
+
+Twenty verses drafted under the pace protocol and gated in one `batch.py 2 --from 101
+--to 120 --draft` pass. Fix sweep drove the mechanical failures 148 → 0 in this run.
+Batch style: mean sentence 14.2 words | 1% over 40 words | Flesch 70 | analogies 5/20.
+All verse floors met (2:102 at 133 ayah words carries the 1197 floor). RESULT: PASS with
+72 non-blocking warns. No scaffold ceremony — that belongs at the 100-verse boundary
+(2:101–2:150 window). Next block: 2:121–2:140.
+
+Fix-sweep lessons filed for the drafting register: bold-italic verse quotes must be copied
+verbatim from data/chapter_002.js and quoted in verse order (the phrase matcher advances a
+cursor through the quote pool); reference parens must be pasted from `reference.py` picks
+only; the eleven works are never named in prose (only early authorities and collections);
+analysis-marker sentences must clear the floor of 5 per verse in the first draft; paragraphs
+run past 120 words; no sentence may repeat chapter-wide at 2 uses when it is a full quoted
+sentence; 'WHY THE' is banned as a heading opener.
