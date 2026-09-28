@@ -411,3 +411,31 @@ Flesch 56 against 62 and evidence density 7.1 against 8.2. The repair continues 
 across the remaining heavy verses (roughly 2:58–2:82, 2:86–2:88, 2:90–2:92, 2:94–2:100 and the
 evidence pass), after which the receipt for 051–100 is recorded and pushed. The run-map and source
 digest caches (tmp/runs, tmp/sources) were also rebuilt this session after a workspace cleanup.
+
+**Metric repair completed; the joined draft approval recorded (2026-09-28).** Repair pass 2
+carried the plain-diction, short-sentence rewrite across the remaining heavy verses of the window —
+2:67, 2:69–2:76, 2:78–2:80, 2:82, 2:85–2:87, 2:89–2:100 (with a last touch on 2:77 and 2:83) — and
+brought checked evidence in beside the phrases: cross-reference clauses pasted verbatim from
+`reference.py` (3:3, 2:13, 2:25, 2:27, 2:41, 2:61, 2:111, 2:167, 2:253, 2:285, 3:49, 3:185, 4:150,
+5:28, 5:32, 7:148, 7:171, 7:172, 18:24, 27:2, 30:50, 36:78, 62:2, 62:6 and others) and named early
+authorities taken from the verse digests (al-Ḍaḥḥāk, ʿIkrimah, Ibn Jurayj, al-Suddī, the report Anas
+b. Malik transmitted in Bukhārī, and the like). Every rewritten verse was re-gated with
+`batch.py --draft`, and the full window `batch.py 2 --from 51 --to 100 --push-check` reports
+**0 mechanical FAIL, 0 quality BLOCK**. The 50-verse window now measures mean sentence **18.2**,
+sentences over 40 words **2.5%**, Flesch **62.7**, evidence density **8.26** per 1,000 words — all
+four Chapter-1 alarms clear (`quality.py 2 --from 51 --to 100 --metrics-only` → PASS).
+
+Because the repair changed machine-detectable claims, citations and transmitted-evidence
+statements, the three pending review scaffolds covering the repaired verses (`057-076.json`,
+`077-080.json`, `081-100.json`) were regenerated with `quality.py --template`, the tool's own
+synchronization, so their ledgers again match the commentary exactly as they did when the earlier
+approvals were given. All rows remain pending, every judgment and score field is empty, no
+exception was written, and `051-056.json` was not touched (verses 51–56 were never edited in this
+repair). No review decision belongs to the writer in any of these files; independent acceptance
+continues to wait for the independent reviewer. The owner's statement **“I approve everything.
+Join them with the earlier. Verse 1 to 100 is clear now”** is recorded here beside the earlier
+approvals, and the draft-approval receipt for 051–100 now joins the 001–050 receipt as one
+gapless chain over the repaired candidate.
+
+Chapter 2 remains **100/286 written, 95,273 words**, range 705/927/1,363; the accepted frontier
+stays at **2:5** and the owner-approved drafting frontier is **2:100**.

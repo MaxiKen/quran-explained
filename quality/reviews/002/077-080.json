@@ -46,9 +46,9 @@
         "detected_claims": [
           {
             "categories": [
-              "theological"
+              "language"
             ],
-            "statement": "The content of the divine knowledge is then stated without a gap: “that Allah is aware of what they conceal”, “and what they reveal”.",
+            "statement": "The grammar of the negative interrogative here is the grammar of an affirmation, and the glosses press it: they know, and the knowing is the point.",
             "proposition": "",
             "source": "",
             "source_reference": "2:77",
@@ -59,9 +59,22 @@
           },
           {
             "categories": [
-              "theological"
+              "legal"
             ],
-            "statement": "The reading of the clause as a deterrent carries its own purpose attached: the verse speaks as it does so that the actors may desist, which means the disclosure of divine knowledge here is itself offered as a door before it stands as a charge.",
+            "statement": "The secret talk recorded in the scene before this one was itself a piece of legal strategy.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:77",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The twin statement of the same law in the revelation keeps its doors open on both sides: (3:29 — “Say, ˹O Prophet,˺ “Whether you conceal what is in your hearts or reveal it, it is known to Allah.”).",
             "proposition": "",
             "source": "",
             "source_reference": "2:77",
@@ -80,11 +93,38 @@
           "proposition": "",
           "support": "pending",
           "rationale": ""
+        },
+        {
+          "reference": "3:29",
+          "quoted_clause": "Say, ˹O Prophet,˺ “Whether you conceal what is in your hearts or reveal it, it is known to Allah.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
         }
       ],
       "transmitted_evidence": [
         {
-          "statement": "The glosses fix the referent of they with care — Ibn ʿAbbās takes the reproach as falling on the leaders, the men who rebuked their weaker fellows for disclosing the tidings — and the two halves of the knowledge in view are exactly the two halves of their operation.",
+          "statement": "Ibn ʿAbbās fixes the two parties of the scene in a single line.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:77",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Qatādah reads the preceding charge on the men who heard the word and then altered it after understanding it as the men who heard, comprehended, and changed.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:77",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Mujāhid goes to the heart of the matter in one sentence: those who used to alter it and conceal its truths were their scholars.",
           "proposition": "",
           "source": "",
           "source_reference": "2:77",
@@ -135,6 +175,20 @@
       },
       "citations": [
         {
+          "reference": "62:2",
+          "quoted_clause": "He is the One Who raised for the illiterate ˹people˺ a messenger from among themselves—reciting to them His revelations, purifying them, and",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:80",
+          "quoted_clause": "˹Some of˺ the Jews claim, “The Fire will not touch us except for a number of days.” Say,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
           "reference": "3:78",
           "quoted_clause": "There are some among them who distort the Book with their tongues to make you think this ˹distortion˺ is from the Book—but",
           "proposition": "",
@@ -144,7 +198,7 @@
       ],
       "transmitted_evidence": [
         {
-          "statement": "The same designation was worn by the Prophet himself, and the report of the description is transmitted in Bukhārī and Muslim: \"we are an unlettered nation: we do not write and we do not calculate the months\".",
+          "statement": "The same designation was worn by the Prophet himself, and the report of the description is transmitted in Bukhārī and Muslim: \\\"we are an unlettered nation: we do not write and we do not calculate the months\\\".",
           "proposition": "",
           "source": "",
           "source_reference": "2:78",
@@ -154,7 +208,7 @@
           "rationale": ""
         },
         {
-          "statement": "A minority reading attached to Ibn ʿAbbās takes the class in a harder direction — a people who accept no prophet and no revealed book, and who write a book of their own and say it is from God, named unlettered for their standing opposition to the Books, which means the label in that reading is earned by stance rather than by schooling — and the majority of the learned hold that reading remote, since in the tongue of the region the designation marks the man who cannot write.",
+          "statement": "A minority reading attached to Ibn ʿAbbās takes the class in a harder direction.",
           "proposition": "",
           "source": "",
           "source_reference": "2:78",
@@ -200,7 +254,21 @@
       "claim_verification": {
         "coverage": "pending",
         "notes": "",
-        "detected_claims": [],
+        "detected_claims": [
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "For any age that has watched holy writ cut to fit the market, the verse sets the two ledgers side by side and audits both: the creed that was bent and the coins the bending pulled in.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:79",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
         "additional_material_claims": []
       },
       "citations": [
@@ -221,7 +289,7 @@
       ],
       "transmitted_evidence": [
         {
-          "statement": "The transmitted glosses from the early generations keep to the plain sense: al-Dahhak transmits from Ibn ʿAbbās the definition of the term here as simply \"the chastisement is upon them\", and a second line of transmission from the same authority renders the woe as a valley of the Fire.",
+          "statement": "Al-Dahhak hands down from Ibn ʿAbbās a flat form of the gloss in this place: \\\"the chastisement is upon them\\\", and a second chain from the same voice renders the woe as a dell of the Fire.",
           "proposition": "",
           "source": "",
           "source_reference": "2:79",
@@ -272,7 +340,7 @@
             "categories": [
               "language"
             ],
-            "statement": "The clause of counted days in the verse then plays its own grammatical trick: the number is left unnamed because the claimants themselves had fixed it, and the text declines to repeat their arithmetic as though it were worth the ink.",
+            "statement": "The clause of counted days in the verse then plays its own grammatical trick.",
             "proposition": "",
             "source": "",
             "source_reference": "2:80",
@@ -298,7 +366,7 @@
             "categories": [
               "legal"
             ],
-            "statement": "The first assumption is the load-bearing one, and it fails in two places at once: their own book never declared its law eternal, and their denial of the prophets after Moses places them outside the category their argument requires.",
+            "statement": "Their own book never declared its law eternal.",
             "proposition": "",
             "source": "",
             "source_reference": "2:80",
@@ -311,7 +379,7 @@
             "categories": [
               "legal"
             ],
-            "statement": "The parallel statement of the same claim elsewhere in the Book labels its psychology without ceremony — (3:24 — “for a few days.” They have been deceived in their faith by their wishful lying”) — and the counterweight of the general law stands where the law states it: (4:93 — “And whoever kills a believer intentionally, their reward will be Hell—where they will stay indefinitely.",
+            "statement": "The counterweight of the general law stands where the law states it: (4:93 — “And whoever kills a believer intentionally, their reward will be Hell—where they will stay indefinitely.",
             "proposition": "",
             "source": "",
             "source_reference": "2:80",
@@ -352,6 +420,13 @@
           "rationale": ""
         },
         {
+          "reference": "2:111",
+          "quoted_clause": "˹O Prophet,˺ “Show ˹me˺ your proof if what you say is true.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
           "reference": "2:84",
           "quoted_clause": "And ˹remember˺ when We took your covenant that you would neither shed each other’s blood nor expel each other from their homes,",
           "proposition": "",
@@ -361,7 +436,7 @@
       ],
       "transmitted_evidence": [
         {
-          "statement": "One account takes the number as forty, the tally of the days their forefathers worshipped the calf, after which the Fire was promised to cease — Ibn ʿAbbās, Qatādah, and others give the figure, and the counting is transparent: forty days of punishment for forty days of apostasy.",
+          "statement": "Ibn ʿAbbās, Qatādah, and others give the figure, and the counting is transparent: forty days of punishment for forty days of apostasy.",
           "proposition": "",
           "source": "",
           "source_reference": "2:80",
@@ -371,7 +446,7 @@
           "rationale": ""
         },
         {
-          "statement": "Another account takes the number as seven, one day for each thousand years of the world's seven thousand, the reckoning reported from Ibn ʿAbbās and Mujāhid in the same shape: the world is seven thousand years, and the torment is one day of the last for each thousand of the first.",
+          "statement": "The reckoning is reported from Ibn ʿAbbās and Mujāhid in the same shape: the world is seven thousand years, and the torment is one day of the last for each thousand of the first.",
           "proposition": "",
           "source": "",
           "source_reference": "2:80",
