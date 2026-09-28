@@ -1,0 +1,143 @@
+== 33:64 ==
+  [0]  (13 words) (33:64 — **“Surely Allah condemns the disbelievers, and has prepared for them a blazing Fire”**) <- pick 0
+== 33:65 ==
+  [0]  (14 words) (33:65 — **“to stay there for ever and ever—never will they find any protector or helper”**) <- pick 0
+== 3:12 ==
+  [0]  (19 words) (3:12 — **“˹O Prophet!˺ Tell the disbelievers, “Soon you will be overpowered and driven to Hell—what an evil place to rest!””**) <- pick 0
+== 4:56 ==
+  [0]  (19 words) (4:56 — **“Surely those who reject Our signs, We will cast them into the Fire. Whenever their skin is burnt completely,”**) <- pick 0
+  [1]  (16 words) (4:56 — **“We will replace it so they will ˹constantly˺ taste the punishment. Indeed, Allah is Almighty, All-Wise”**)
+== 59:22 ==
+  [0]  (22 words) (59:22 — **“He is Allah—there is no god ˹worthy of worship˺ except Him: Knower of the seen and unseen. He is the Most Compassionate,”**) <- pick 0
+  [1]  (2 words) (59:22 — **“Most Merciful”**)
+== 112:1 ==
+  [0]  (8 words) (112:1 — **“Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺”**) <- pick 0
+== 3:190 ==
+  [0]  (21 words) (3:190 — **“Indeed, in the creation of the heavens and the earth and the alternation of the day and night there are signs”**) <- pick 0
+  [1]  (4 words) (3:190 — **“for people of reason”**)
+== 30:21 ==
+  [0]  (15 words) (30:21 — **“And one of His signs is that He created for you spouses from among yourselves”**) <- pick 0
+  [1]  (22 words) (30:21 — **“so that you may find comfort in them. And He has placed between you compassion and mercy. Surely in this are signs”**)
+  [2]  (4 words) (30:21 — **“for people who reflect”**)
+== 9:24 ==
+  [0]  (21 words) (9:24 — **“Say, ˹O Prophet,˺ “If your parents and children and siblings and spouses and extended family and the wealth you have acquired”**) <- pick 0
+  [1]  (22 words) (9:24 — **“and the trade you fear will decline and the homes you cherish—˹if all these˺ are more beloved to you than Allah and”**)
+  [2]  (22 words) (9:24 — **“His Messenger and struggling in His Way, then wait until Allah brings about His Will. Allah does not guide the rebellious people.””**)
+== 3:31 ==
+  [0]  (19 words) (3:31 — **“Say, ˹O Prophet,˺ “If you ˹sincerely˺ love Allah, then follow me; Allah will love you and forgive your sins.”**) <- pick 0
+  [1]  (6 words) (3:31 — **“For Allah is All-Forgiving, Most Merciful.””**)
+== 33:67 ==
+  [0]  (21 words) (33:67 — **“And they will say, “Our Lord! We obeyed our leaders and elite, but they led us astray from the ˹Right˺ Way”**) <- pick 0
+== 10:28 ==
+  [0]  (20 words) (10:28 — **“˹Consider˺ the Day We will gather them all together then say to those who associated others ˹with Allah in worship˺,”**) <- pick 0
+  [1]  (19 words) (10:28 — **““Stay in your places—you and your associate-gods.” We will separate them from each other, and their associate-gods will say,”**)
+  [2]  (7 words) (10:28 — **““It was not us that you worshipped”**)
+== 58:2 ==
+  [0]  (22 words) (58:2 — **“Those of you who ˹sinfully˺ divorce their wives by comparing them to their mothers ˹should know that˺ their wives are in no”**) <- pick 0
+  [1]  (19 words) (58:2 — **“who gave birth to them. What they say is certainly detestable and false. Yet Allah is truly Ever-Pardoning, All-Forgiving”**)
+== 14:7 ==
+  [0]  (21 words) (14:7 — **“And ˹remember˺ when your Lord proclaimed, ‘If you are grateful, I will certainly give you more. But if you are ungrateful,”**) <- pick 0
+  [1]  (5 words) (14:7 — **“surely My punishment is severe.’””**)
+== 34:31 ==
+  [0]  (21 words) (34:31 — **“The disbelievers vow, “We will never believe in this Quran, nor in those ˹Scriptures˺ before it.” If only you could see”**) <- pick 0
+  [1]  (14 words) (34:31 — **“when the wrongdoers will be detained before their Lord, throwing blame at each other!”**)
+  [2]  (21 words) (34:31 — **“The lowly ˹followers˺ will say to the arrogant ˹leaders˺, “Had it not been for you, we would certainly have been believers.””**)
+== 2:167 ==
+  [0]  (21 words) (2:167 — **“The ˹misled˺ followers will cry, “If only we could have a second chance, we would disown them as they disowned us.””**) <- pick 0
+  [1]  (20 words) (2:167 — **“And so Allah will make them remorseful of their misdeeds. And they will never ˹be able to˺ leave the Fire”**)
+== 78:30 ==
+  [0]  (19 words) (78:30 — **“˹So the deniers will be told,˺ “Taste ˹the punishment˺, for all you will get from Us is more torment.””**) <- pick 0
+== 25:13 ==
+  [0]  (20 words) (25:13 — **“And when they are tossed into a narrow place inside ˹Hell˺, chained together, then and there they will cry out”**) <- pick 0
+  [1]  (3 words) (25:13 — **“for ˹instant˺ destruction”**)
+== 39:22 ==
+  [0]  (20 words) (39:22 — **“Can ˹the misguided be like˺ those whose hearts Allah has opened to Islam, so they are enlightened by their Lord?”**) <- pick 0
+  [1]  (20 words) (39:22 — **“So woe to those whose hearts are hardened at the remembrance of Allah! It is they who are clearly astray”**)
+== 9:67 ==
+  [0]  (18 words) (9:67 — **“The hypocrites, both men and women, are all alike: they encourage what is evil, forbid what is good,”**) <- pick 0
+  [1]  (20 words) (9:67 — **“and withhold ˹what is in˺ their hands. They neglected Allah, so He neglected them. Surely the hypocrites are the rebellious”**)
+== 20:8 ==
+  [0]  (15 words) (20:8 — **“Allah—there is no god ˹worthy of worship˺ except Him. He has the Most Beautiful Names”**) <- pick 0
+== 16:51 ==
+  [0]  (21 words) (16:51 — **“And Allah has said, “Do not take two gods. There is only One God. So be in awe of Me ˹alone˺.””**) <- pick 0
+== 23:59 ==
+  [0]  (7 words) (23:59 — **“and who associate none with their Lord”**) <- pick 0
+== 25:63 ==
+  [0]  (22 words) (25:63 — **“The ˹true˺ servants of the Most Compassionate are those who walk on the earth humbly, and when the foolish address them ˹improperly˺,”**) <- pick 0
+  [1]  (5 words) (25:63 — **“they only respond with peace”**)
+== 5:103 ==
+  [0]  (20 words) (5:103 — **“Allah has never ordained the ˹so-called˺ baḥîrah, sâ'ibah, waṣîlah, and ḥâm camels. But the disbelievers just fabricate lies about Allah,”**) <- pick 0
+  [1]  (6 words) (5:103 — **“and most of them lack understanding”**)
+== 17:110 ==
+  [0]  (14 words) (17:110 — **“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call,”**) <- pick 0
+  [1]  (20 words) (17:110 — **“He has the Most Beautiful Names.” Do not recite your prayers too loudly or silently, but seek a way between”**)
+== 57:19 ==
+  [0]  (20 words) (57:19 — **“˹As for˺ those who believe in Allah and His messengers, it is they who are ˹truly˺ the people of truth.”**) <- pick 0
+  [1]  (17 words) (57:19 — **“And the martyrs, with their Lord, will have their reward and their light. But ˹as for˺ those”**)
+  [2]  (17 words) (57:19 — **“who disbelieve and reject Our signs, it is they who will be the residents of the Hellfire”**)
+== 2:156 ==
+  [0]  (19 words) (2:156 — **“who, when faced with a disaster, say, “Surely to Allah we belong and to Him we will ˹all˺ return.””**) <- pick 0
+== 39:53 ==
+  [0]  (17 words) (39:53 — **“Say, ˹O Prophet, that Allah says,˺ “O My servants who have exceeded the limits against their souls!”**) <- pick 0
+  [1]  (20 words) (39:53 — **“Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins. He is indeed the All-Forgiving, Most Merciful”**)
+== 30:22 ==
+  [0]  (20 words) (30:22 — **“And one of His signs is the creation of the heavens and the earth, and the diversity of your languages”**) <- pick 0
+  [1]  (12 words) (30:22 — **“and colours. Surely in this are signs for those of ˹sound˺ knowledge”**)
+== 42:13 ==
+  [0]  (22 words) (42:13 — **“He has ordained for you ˹believers˺ the Way which He decreed for Noah, and what We have revealed to you ˹O Prophet˺”**) <- pick 0
+  [1]  (13 words) (42:13 — **“and what We decreed for Abraham, Moses, and Jesus, ˹commanding:˺ “Uphold the faith,”**)
+  [2]  (18 words) (42:13 — **“and make no divisions in it.” What you call the polytheists to is unbearable for them. Allah chooses”**)
+  [3]  (13 words) (42:13 — **“for Himself whoever He wills, and guides to Himself whoever turns ˹to Him˺”**)
+== 26:192 ==
+  [0]  (11 words) (26:192 — **“This is certainly a revelation from the Lord of all worlds”**) <- pick 0
+== 38:29 ==
+  [0]  (20 words) (38:29 — **“˹This is˺ a blessed Book which We have revealed to you ˹O Prophet˺ so that they may contemplate its verses,”**) <- pick 0
+  [1]  (7 words) (38:29 — **“and people of reason may be mindful”**)
+== 6:91 ==
+  [0]  (21 words) (6:91 — **“And they have not shown Allah His proper reverence when they said, “Allah has revealed nothing to any human being.” Say,”**) <- pick 0
+  [1]  (18 words) (6:91 — **“˹O Prophet,˺ “Who then revealed the Book brought forth by Moses as a light and guidance for people,”**)
+  [2]  (11 words) (6:91 — **“which you split into separate sheets—revealing some and hiding much? You”**)
+  [3]  (20 words) (6:91 — **“have been taught ˹through this Quran˺ what neither you nor your forefathers knew.” Say, ˹O Prophet,˺ “Allah ˹revealed it˺!” Then”**)
+  [4]  (7 words) (6:91 — **“leave them to amuse themselves with falsehood”**)
+== 2:101 ==
+  [0]  (14 words) (2:101 — **“Now, when a messenger from Allah has come to them—confirming their own Scriptures—some of”**) <- pick 0
+  [1]  (19 words) (2:101 — **“the People of the Book cast the Book of Allah behind their backs as if they did not know”**)
+== 3:23 ==
+  [0]  (13 words) (3:23 — **“Have you not seen those who were given a portion of the Scriptures?”**) <- pick 0
+  [1]  (20 words) (3:23 — **“Yet when they are invited to the Book of Allah to settle their disputes, some of them turn away heedlessly”**)
+== 4:46 ==
+  [0]  (19 words) (4:46 — **“Some Jews take words out of context and say, “We listen and we disobey,” “Hear! May you never hear,””**) <- pick 0
+  [1]  (22 words) (4:46 — **“and “Râ’ina!” [Herd us!]—playing with words and discrediting the faith. Had they said ˹courteously˺, “We hear and obey,” “Listen to us,” and”**)
+  [2]  (21 words) (4:46 — **““Unẓurna,” [Tend to us!] it would have been better for them and more proper. Allah has condemned them for their disbelief,”**)
+  [3]  (9 words) (4:46 — **“so they do not believe except for a few”**)
+== 4:160 ==
+  [0]  (16 words) (4:160 — **“We forbade the Jews certain foods that had been lawful to them for their wrongdoing, and”**) <- pick 0
+  [1]  (8 words) (4:160 — **“for hindering many from the Way of Allah”**)
+== 3:187 ==
+  [0]  (21 words) (3:187 — **“˹Remember, O Prophet,˺ when Allah took the covenant of those who were given the Scripture to make it known to people”**) <- pick 0
+  [1]  (22 words) (3:187 — **“and not hide it, yet they cast it behind their backs and traded it for a fleeting gain. What a miserable profit”**)
+== 2:115 ==
+  [0]  (22 words) (2:115 — **“To Allah belong the east and the west, so wherever you turn you are facing ˹towards˺ Allah. Surely Allah is All-Encompassing, All-Knowing”**) <- pick 0
+== 22:77 ==
+  [0]  (20 words) (22:77 — **“O believers! Bow down, prostrate yourselves, worship your Lord, and do ˹what is˺ good so that you may be successful”**) <- pick 0
+== 53:39 ==
+  [0]  (11 words) (53:39 — **“and that each person will only have what they endeavoured towards”**) <- pick 0
+== 29:56 ==
+  [0]  (13 words) (29:56 — **“O My believing servants! My earth is truly spacious, so worship Me ˹alone˺”**) <- pick 0
+== 44:18 ==
+  [0]  (17 words) (44:18 — **“˹proclaiming,˺ “Hand over the servants of Allah to me. I am truly a trustworthy messenger to you”**) <- pick 0
+== 85:11 ==
+  [0]  (19 words) (85:11 — **“Surely those who believe and do good will have Gardens under which rivers flow. That is the greatest triumph”**) <- pick 0
+== 103:2 ==
+  [0]  (6 words) (103:2 — **“Surely humanity is in ˹grave˺ loss”**) <- pick 0
+== 11:114 ==
+  [0]  (10 words) (11:114 — **“Establish prayer ˹O Prophet˺ at both ends of the day”**) <- pick 0
+  [1]  (22 words) (11:114 — **“and in the early part of the night. Surely good deeds wipe out evil deeds. That is a reminder for the mindful”**)
+== 2:277 ==
+  [0]  (18 words) (2:277 — **“Indeed, those who believe, do good, establish prayer, and pay alms-tax will receive their reward from their Lord,”**) <- pick 0
+  [1]  (12 words) (2:277 — **“and there will be no fear for them, nor will they grieve”**)
+== 23:96 ==
+  [0]  (13 words) (23:96 — **“Respond to evil with what is best. We know well what they claim”**) <- pick 0
+== 29:45 ==
+  [0]  (21 words) (29:45 — **“Recite what has been revealed to you of the Book and establish prayer. Indeed, ˹genuine˺ prayer should deter ˹one˺ from indecency”**) <- pick 0
+  [1]  (19 words) (29:45 — **“and wickedness. The remembrance of Allah is ˹an˺ even greater ˹deterrent˺. And Allah ˹fully˺ knows what you ˹all˺ do”**)

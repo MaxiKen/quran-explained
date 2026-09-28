@@ -1,0 +1,40 @@
+== 39:4 ==
+  [0]  (22 words) (39:4 — **“Had it been Allah’s Will to have offspring, He could have chosen whatever He willed of His creation. Glory be to Him!”**) <- pick 0
+  [1]  (6 words) (39:4 — **“He is Allah—the One, the Supreme”**)
+== 30:22 ==
+  [0]  (20 words) (30:22 — **“And one of His signs is the creation of the heavens and the earth, and the diversity of your languages”**) <- pick 0
+  [1]  (12 words) (30:22 — **“and colours. Surely in this are signs for those of ˹sound˺ knowledge”**)
+== 30:24 ==
+  [0]  (15 words) (30:24 — **“And one of His signs is that He shows you lightning, inspiring ˹you with˺ hope”**) <- pick 0
+  [1]  (21 words) (30:24 — **“and fear. And He sends down rain from the sky, reviving the earth after its death. Surely in this are signs”**)
+  [2]  (4 words) (30:24 — **“for people who understand”**)
+== 31:31 ==
+  [0]  (17 words) (31:31 — **“Do you not see that the ships sail ˹smoothly˺ through the sea by the grace of Allah”**) <- pick 0
+  [1]  (20 words) (31:31 — **“so that He may show you some of His signs? Surely in this are signs for whoever is steadfast, grateful”**)
+== 36:33 ==
+  [0]  (22 words) (36:33 — **“There is a sign for them in the dead earth: We give it life, producing grain from it for them to eat”**) <- pick 0
+== 6:27 ==
+  [0]  (17 words) (6:27 — **“If only you could see when they will be detained before the Fire! They will cry, “Oh!”**) <- pick 0
+  [1]  (16 words) (6:27 — **“If only we could be sent back, we would never deny the signs of our Lord”**)
+  [2]  (8 words) (6:27 — **“and we would ˹surely˺ be of the believers.””**)
+== 6:28 ==
+  [0]  (21 words) (6:28 — **“But no! ˹They only say this˺ because the truth they used to hide will become all too clear to them. Even”**) <- pick 0
+  [1]  (20 words) (6:28 — **“if they were to be sent back, they would certainly revert to what they were forbidden. Indeed they are liars”**)
+== 3:105 ==
+  [0]  (22 words) (3:105 — **“And do not be like those who split ˹into sects˺ and differed after clear proofs had come to them. It is they”**) <- pick 0
+  [1]  (6 words) (3:105 — **“who will suffer a tremendous punishment”**)
+== 5:103 ==
+  [0]  (20 words) (5:103 — **“Allah has never ordained the ˹so-called˺ baḥîrah, sâ'ibah, waṣîlah, and ḥâm camels. But the disbelievers just fabricate lies about Allah,”**) <- pick 0
+  [1]  (6 words) (5:103 — **“and most of them lack understanding”**)
+== 16:116 ==
+  [0]  (20 words) (16:116 — **“Do not falsely declare with your tongues, “This is lawful, and that is unlawful,” ˹only˺ fabricating lies against Allah. Indeed,”**) <- pick 0
+  [1]  (9 words) (16:116 — **“those who fabricate lies against Allah will never succeed”**)
+== 7:32 ==
+  [0]  (19 words) (7:32 — **“Ask, ˹O Prophet,˺ “Who has forbidden the adornments and lawful provisions Allah has brought forth for His servants?” Say,”**) <- pick 0
+  [1]  (12 words) (7:32 — **““They are for the enjoyment of the believers in this worldly life,”**)
+  [2]  (19 words) (7:32 — **“but they will be exclusively theirs on the Day of Judgment. This is how We make Our revelations clear”**)
+  [3]  (4 words) (7:32 — **“for people of knowledge.””**)
+== 2:180 ==
+  [0]  (16 words) (2:180 — **“It is prescribed that when death approaches any of you—if they leave something of value—a will”**) <- pick 0
+  [1]  (20 words) (2:180 — **“should be made in favour of parents and immediate family with fairness. ˹This is˺ an obligation on those who are”**)
+  [2]  (3 words) (2:180 — **“mindful ˹of Allah˺”**)

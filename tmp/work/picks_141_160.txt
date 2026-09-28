@@ -1,0 +1,103 @@
+==== 99:6 ====
+[0]  (17 words) (99:6 — **“On that Day people will proceed in separate groups to be shown ˹the consequences of˺ their deeds”**) <- pick 0
+==== 99:7 ====
+[0]  (11 words) (99:7 — **“So whoever does an atom’s weight of good will see it”**) <- pick 0
+==== 22:47 ====
+[0]  (17 words) (22:47 — **“They challenge you ˹O Prophet˺ to hasten the torment. And Allah will never fail in His promise.”**) <- pick 0
+[1]  (15 words) (22:47 — **“But a day with your Lord is indeed like a thousand years by your counting”**)
+==== 2:120 ====
+[0]  (16 words) (2:120 — **“Never will the Jews or Christians be pleased with you, until you follow their faith. Say,”**) <- pick 0
+[1]  (19 words) (2:120 — **““Allah’s guidance is the only ˹true˺ guidance.” And if you were to follow their desires after ˹all˺ the knowledge”**)
+[2]  (16 words) (2:120 — **“that has come to you, there would be none to protect or help you against Allah”**)
+==== 3:110 ====
+[0]  (14 words) (3:110 — **“You are the best community ever raised for humanity—you encourage good, forbid evil, and”**) <- pick 0
+[1]  (22 words) (3:110 — **“believe in Allah. Had the People of the Book believed, it would have been better for them. Some of them are faithful,”**)
+[2]  (4 words) (3:110 — **“but most are rebellious”**)
+==== 4:41 ====
+[0]  (18 words) (4:41 — **“So how will it be when We bring a witness from every faith-community and bring you ˹O Prophet˺”**) <- pick 0
+[1]  (5 words) (4:41 — **“as a witness against yours”**)
+==== 2:125 ====
+[0]  (17 words) (2:125 — **“And ˹remember˺ when We made the Sacred House a centre and a sanctuary for the people ˹saying˺,”**) <- pick 0
+[1]  (22 words) (2:125 — **““˹You may˺ take the standing-place of Abraham as a site of prayer.” And We entrusted Abraham and Ishmael to purify My House”**)
+[2]  (17 words) (2:125 — **“for those who circle it, who meditate in it, and who bow and prostrate themselves ˹in prayer˺”**)
+==== 2:144 ====
+[0]  (22 words) (2:144 — **“Indeed, We see you ˹O Prophet˺ turning your face towards heaven. Now We will make you turn towards a direction ˹of prayer˺”**) <- pick 0
+[1]  (16 words) (2:144 — **“that will please you. So turn your face towards the Sacred Mosque ˹in Mecca˺—wherever you are,”**)
+[2]  (22 words) (2:144 — **“turn your faces towards it. Those who were given the Scripture certainly know this to be the truth from their Lord. And”**)
+[3]  (8 words) (2:144 — **“Allah is never unaware of what they do”**)
+==== 6:20 ====
+[0]  (21 words) (6:20 — **“Those to whom We gave the Scripture recognize him ˹to be a true prophet˺ as they recognize their own children. Those”**) <- pick 0
+[1]  (7 words) (6:20 — **“who have ruined themselves will never believe”**)
+==== 26:197 ====
+[0]  (21 words) (26:197 — **“Was it not sufficient proof for the deniers that it has been recognized by the knowledgeable among the Children of Israel”**) <- pick 0
+==== 3:60 ====
+[0]  (16 words) (3:60 — **“This is the truth from your Lord, so do not be one of those who doubt”**) <- pick 0
+==== 3:133 ====
+[0]  (19 words) (3:133 — **“And hasten towards forgiveness from your Lord and a Paradise as vast as the heavens and the earth, prepared”**) <- pick 0
+[1]  (5 words) (3:133 — **“for those mindful ˹of Allah˺”**)
+==== 23:61 ====
+[0]  (13 words) (23:61 — **“it is they who race to do good deeds, always taking the lead”**) <- pick 0
+==== 59:19 ====
+[0]  (22 words) (59:19 — **“And do not be like those who forgot Allah, so He made them forget themselves. It is they who are ˹truly˺ rebellious”**) <- pick 0
+==== 3:175 ====
+[0]  (19 words) (3:175 — **“That ˹warning˺ was only ˹from˺ Satan, trying to prompt you to fear his followers. So do not fear them;”**) <- pick 0
+[1]  (7 words) (3:175 — **“fear Me if you are ˹true˺ believers”**)
+==== 62:2 ====
+[0]  (22 words) (62:2 — **“He is the One Who raised for the illiterate ˹people˺ a messenger from among themselves—reciting to them His revelations, purifying them, and”**) <- pick 0
+[1]  (14 words) (62:2 — **“teaching them the Book and wisdom, for indeed they had previously been clearly astray—”**)
+==== 3:164 ====
+[0]  (22 words) (3:164 — **“Indeed, Allah has done the believers a ˹great˺ favour by raising a messenger from among them—reciting to them His revelations, purifying them,”**) <- pick 0
+[1]  (15 words) (3:164 — **“and teaching them the Book and wisdom. For indeed they had previously been clearly astray”**)
+==== 14:7 ====
+[0]  (21 words) (14:7 — **“And ˹remember˺ when your Lord proclaimed, ‘If you are grateful, I will certainly give you more. But if you are ungrateful,”**) <- pick 0
+[1]  (5 words) (14:7 — **“surely My punishment is severe.’””**)
+==== 13:28 ====
+[0]  (4 words) (13:28 — **“those who believe and”**) <- pick 0
+[1]  (19 words) (13:28 — **“whose hearts find comfort in the remembrance of Allah. Surely in the remembrance of Allah do hearts find comfort”**)
+==== 2:45 ====
+[0]  (16 words) (2:45 — **“And seek help through patience and prayer. Indeed, it is a burden except for the humble—”**) <- pick 0
+==== 3:200 ====
+[0]  (18 words) (3:200 — **“O believers! Patiently endure, persevere, stand on guard, and be mindful of Allah, so you may be successful”**) <- pick 0
+==== 3:169 ====
+[0]  (20 words) (3:169 — **“Never think of those martyred in the cause of Allah as dead. In fact, they are alive with their Lord,”**) <- pick 0
+[1]  (3 words) (3:169 — **“well provided for—”**)
+==== 22:58 ====
+[0]  (18 words) (22:58 — **“As for those who emigrate in the cause of Allah and then are martyred or die, Allah will”**) <- pick 0
+[1]  (12 words) (22:58 — **“indeed grant them a good provision. Surely Allah is the Best Provider”**)
+==== 29:2 ====
+[0]  (19 words) (29:2 — **“Do people think once they say, “We believe,” that they will be left without being put to the test”**) <- pick 0
+==== 2:214 ====
+[0]  (21 words) (2:214 — **“Do you think you will be admitted into Paradise without being tested like those before you? They were afflicted with suffering”**) <- pick 0
+[1]  (18 words) (2:214 — **“and adversity and were so ˹violently˺ shaken that ˹even˺ the Messenger and the believers with him cried out,”**)
+[2]  (11 words) (2:214 — **““When will Allah’s help come?” Indeed, Allah’s help is ˹always˺ near”**)
+==== 3:185 ====
+[0]  (5 words) (3:185 — **“Every soul will taste death.”**) <- pick 0
+[1]  (19 words) (3:185 — **“And you will only receive your full reward on the Day of Judgment. Whoever is spared from the Fire”**)
+[2]  (22 words) (3:185 — **“and is admitted into Paradise will ˹indeed˺ triumph, whereas the life of this world is no more than the delusion of enjoyment”**)
+==== 39:53 ====
+[0]  (17 words) (39:53 — **“Say, ˹O Prophet, that Allah says,˺ “O My servants who have exceeded the limits against their souls!”**) <- pick 0
+[1]  (20 words) (39:53 — **“Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins. He is indeed the All-Forgiving, Most Merciful”**)
+==== 110:3 ====
+[0]  (19 words) (110:3 — **“then glorify the praises of your Lord and seek His forgiveness, for certainly He is ever Accepting of Repentance”**) <- pick 0
+==== 2:174 ====
+[0]  (14 words) (2:174 — **“Indeed, those who hide Allah’s revelations, trading them for a fleeting gain consume nothing”**) <- pick 0
+[1]  (21 words) (2:174 — **“but fire into their bellies. Allah will neither speak to them on the Day of Judgment, nor will He purify them.”**)
+[2]  (7 words) (2:174 — **“And they will suffer a painful punishment”**)
+==== 3:187 ====
+[0]  (21 words) (3:187 — **“˹Remember, O Prophet,˺ when Allah took the covenant of those who were given the Scripture to make it known to people”**) <- pick 0
+[1]  (22 words) (3:187 — **“and not hide it, yet they cast it behind their backs and traded it for a fleeting gain. What a miserable profit”**)
+==== 22:29 ====
+[0]  (13 words) (22:29 — **“Then let them groom themselves, fulfil their vows, and circle the Ancient House.””**) <- pick 0
+==== 39:10
+  [0]  (17 words) (39:10 — **“Say ˹O Prophet, that Allah says˺, “O My servants who believe! Be mindful of your Lord. Those”**) <- pick 0
+  [1]  (11 words) (39:10 — **“who do good in this world will have a good reward.”**)
+  [2]  (17 words) (39:10 — **“And Allah’s earth is spacious. Only those who endure patiently will be given their reward without limit.””**)
+==== 1:5
+  [0]  (11 words) (1:5 — **“You ˹alone˺ we worship and You ˹alone˺ we ask for help”**) <- pick 0
+==== 2:197
+  [0]  (22 words) (2:197 — **“˹Commitment to˺ pilgrimage is made in appointed months. Whoever commits to ˹performing˺ pilgrimage, let them stay away from intimate relations, foul language,”**) <- pick 0
+  [1]  (19 words) (2:197 — **“and arguments during pilgrimage. Whatever good you do, Allah ˹fully˺ knows of it. Take ˹necessary˺ provisions ˹for the journey˺—surely”**)
+  [2]  (14 words) (2:197 — **“the best provision is righteousness. And be mindful of Me, O people of reason”**)
+==== 12:18
+  [0]  (22 words) (12:18 — **“And they brought his shirt, stained with false blood. He responded, “No! Your souls must have tempted you to do something ˹evil˺.”**) <- pick 0
+  [1]  (19 words) (12:18 — **“So ˹I can only endure with˺ beautiful patience! It is Allah’s help that I seek to bear your claims.””**)

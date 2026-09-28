@@ -1,0 +1,107 @@
+== 16:114 ==
+  [0]  (19 words) (16:114 — **“So eat from the good, lawful things which Allah has provided for you, and be grateful for Allah’s favours,”**) <- pick 0
+  [1]  (6 words) (16:114 — **“if you ˹truly˺ worship Him ˹alone˺”**)
+== 23:51 ==
+  [0]  (19 words) (23:51 — **“O messengers! Eat from what is good and lawful, and act righteously. Indeed, I fully know what you do”**) <- pick 0
+== 4:119 ==
+  [0]  (16 words) (4:119 — **“I will certainly mislead them and delude them with empty hopes. Also, I will order them”**) <- pick 0
+  [1]  (16 words) (4:119 — **“and they will slit the ears of cattle and alter Allah’s creation.” And whoever takes Satan”**)
+  [2]  (12 words) (4:119 — **“as a guardian instead of Allah has certainly suffered a tremendous loss”**)
+== 24:21 ==
+  [0]  (13 words) (24:21 — **“O believers! Do not follow the footsteps of Satan. Whoever follows Satan’s footsteps,”**) <- pick 0
+  [1]  (17 words) (24:21 — **“then ˹let them know that˺ he surely bids ˹all to˺ immorality and wickedness. Had it not been”**)
+  [2]  (21 words) (24:21 — **“for Allah’s grace and mercy upon you, none of you would have ever been purified. But Allah purifies whoever He wills.”**)
+  [3]  (5 words) (24:21 — **“And Allah is All-Hearing, All-Knowing”**)
+== 35:6 ==
+  [0]  (7 words) (35:6 — **“Surely Satan is an enemy to you,”**) <- pick 0
+  [1]  (17 words) (35:6 — **“so take him as an enemy. He only invites his followers to become inmates of the Blaze”**)
+== 26:75 ==
+  [0]  (11 words) (26:75 — **“Abraham responded, “Have you ˹really˺ considered what you have been worshipping—”**) <- pick 0
+== 7:28 ==
+  [0]  (14 words) (7:28 — **“Whenever they commit a shameful deed, they say, “We found our forefathers doing it”**) <- pick 0
+  [1]  (10 words) (7:28 — **“and Allah has commanded us to do it.” Say, “No!”**)
+  [2]  (17 words) (7:28 — **“Allah never commands what is shameful. How can you attribute to Allah what you do not know?””**)
+== 7:179 ==
+  [0]  (18 words) (7:179 — **“Indeed, We have destined many jinn and humans for Hell. They have hearts they do not understand with,”**) <- pick 0
+  [1]  (19 words) (7:179 — **“eyes they do not see with, and ears they do not hear with. They are like cattle. In fact,”**)
+  [2]  (10 words) (7:179 — **“they are even less guided! Such ˹people˺ are ˹entirely˺ heedless”**)
+== 25:44 ==
+  [0]  (19 words) (25:44 — **“Or do you think that most of them listen or understand? They are only like cattle—no, more than that,”**) <- pick 0
+  [1]  (7 words) (25:44 — **“they are astray from the ˹Right˺ Way”**)
+== 5:3 ==
+  [0]  (19 words) (5:3 — **“Forbidden to you are carrion, blood, and swine; what is slaughtered in the name of any other than Allah;”**) <- pick 0
+  [1]  (21 words) (5:3 — **“what is killed by strangling, beating, a fall, or by being gored to death; what is partly eaten by a predator”**)
+  [2]  (17 words) (5:3 — **“unless you slaughter it; and what is sacrificed on altars. You are also forbidden to draw lots”**)
+  [3]  (18 words) (5:3 — **“for decisions. This is all evil. Today the disbelievers have given up all hope of ˹undermining˺ your faith.”**)
+  [4]  (20 words) (5:3 — **“So do not fear them; fear Me! Today I have perfected your faith for you, completed My favour upon you,”**)
+  [5]  (22 words) (5:3 — **“and chosen Islam as your way. But whoever is compelled by extreme hunger—not intending to sin—then surely Allah is All-Forgiving, Most Merciful”**)
+== 16:115 ==
+  [0]  (22 words) (16:115 — **“He has only forbidden you ˹to eat˺ carrion, blood, swine, and what is slaughtered in the name of any other than Allah.”**) <- pick 0
+  [1]  (20 words) (16:115 — **“But if someone is compelled by necessity—neither driven by desire nor exceeding immediate need—then surely Allah is All-Forgiving, Most Merciful”**)
+== 6:145 ==
+  [0]  (22 words) (6:145 — **“Say, ˹O Prophet,˺ “I do not find in what has been revealed to me anything forbidden to eat except carrion, running blood,”**) <- pick 0
+  [1]  (16 words) (6:145 — **“swine—which is impure—or a sinful offering in the name of any other than Allah. But if”**)
+  [2]  (19 words) (6:145 — **“someone is compelled by necessity—neither driven by desire nor exceeding immediate need—then surely your Lord is All-Forgiving, Most Merciful.””**)
+== 2:41 ==
+  [0]  (16 words) (2:41 — **“Believe in My revelations which confirm your Scriptures. Do not be the first to deny them”**) <- pick 0
+  [1]  (12 words) (2:41 — **“or trade them for a fleeting gain. And be mindful of Me”**)
+== 3:77 ==
+  [0]  (6 words) (3:77 — **“Indeed, those who trade Allah’s covenant”**) <- pick 0
+  [1]  (20 words) (3:77 — **“and their oaths for a fleeting gain will have no share in the Hereafter. Allah will neither speak to them,”**)
+  [2]  (19 words) (3:77 — **“nor look at them, nor purify them on the Day of Judgment. And they will suffer a painful punishment”**)
+== 2:90 ==
+  [0]  (13 words) (2:90 — **“Miserable is the price they have sold their souls for—denying Allah’s revelation and”**) <- pick 0
+  [1]  (20 words) (2:90 — **“resenting Allah for granting His grace to whoever He wills of His servants! They have earned wrath upon wrath. And”**)
+  [2]  (7 words) (2:90 — **“such disbelievers will suffer a humiliating punishment”**)
+== 4:44 ==
+  [0]  (20 words) (4:44 — **“Have you ˹O Prophet˺ not seen those who were given a portion of the Scriptures yet trade it for misguidance”**) <- pick 0
+  [1]  (10 words) (4:44 — **“and wish to see you deviate from the ˹Right˺ Path”**)
+== 4:46 ==
+  [0]  (19 words) (4:46 — **“Some Jews take words out of context and say, “We listen and we disobey,” “Hear! May you never hear,””**) <- pick 0
+  [1]  (22 words) (4:46 — **“and “Râ’ina!” [Herd us!]—playing with words and discrediting the faith. Had they said ˹courteously˺, “We hear and obey,” “Listen to us,” and”**)
+  [2]  (21 words) (4:46 — **““Unẓurna,” [Tend to us!] it would have been better for them and more proper. Allah has condemned them for their disbelief,”**)
+  [3]  (9 words) (4:46 — **“so they do not believe except for a few”**)
+== 3:105 ==
+  [0]  (22 words) (3:105 — **“And do not be like those who split ˹into sects˺ and differed after clear proofs had come to them. It is they”**) <- pick 0
+  [1]  (6 words) (3:105 — **“who will suffer a tremendous punishment”**)
+== 42:13 ==
+  [0]  (22 words) (42:13 — **“He has ordained for you ˹believers˺ the Way which He decreed for Noah, and what We have revealed to you ˹O Prophet˺”**) <- pick 0
+  [1]  (13 words) (42:13 — **“and what We decreed for Abraham, Moses, and Jesus, ˹commanding:˺ “Uphold the faith,”**)
+  [2]  (18 words) (42:13 — **“and make no divisions in it.” What you call the polytheists to is unbearable for them. Allah chooses”**)
+  [3]  (13 words) (42:13 — **“for Himself whoever He wills, and guides to Himself whoever turns ˹to Him˺”**)
+== 3:92 ==
+  [0]  (13 words) (3:92 — **“You will never achieve righteousness until you donate some of what you cherish.”**) <- pick 0
+  [1]  (10 words) (3:92 — **“And whatever you give is certainly well known to Allah”**)
+== 76:8 ==
+  [0]  (14 words) (76:8 — **“and give food—despite their desire for it—to the poor, the orphan, and the captive”**) <- pick 0
+== 5:45 ==
+  [0]  (22 words) (5:45 — **“We ordained for them in the Torah, “A life for a life, an eye for an eye, a nose for a nose,”**) <- pick 0
+  [1]  (19 words) (5:45 — **“an ear for an ear, a tooth for a tooth—and for wounds equal retaliation.” But whoever waives it charitably,”**)
+  [2]  (21 words) (5:45 — **“it will be atonement for them. And those who do not judge by what Allah has revealed are ˹truly˺ the wrongdoers”**)
+== 4:92 ==
+  [0]  (13 words) (4:92 — **“It is not lawful for a believer to kill another except by mistake.”**) <- pick 0
+  [1]  (18 words) (4:92 — **“And whoever kills a believer unintentionally must free a believing slave and pay blood-money to the victim’s family—unless”**)
+  [2]  (16 words) (4:92 — **“they waive it charitably. But if the victim is a believer from a hostile people, then”**)
+  [3]  (21 words) (4:92 — **“a believing slave must be freed. And if the victim is from a people bound with you in a treaty, then”**)
+  [4]  (17 words) (4:92 — **“blood-money must be paid to the family along with freeing a believing slave. Those who are unable,”**)
+  [5]  (17 words) (4:92 — **“let them fast two consecutive months—as a means of repentance to Allah. And Allah is All-Knowing, All-Wise”**)
+== 17:33 ==
+  [0]  (17 words) (17:33 — **“Do not take a ˹human˺ life—made sacred by Allah—except with ˹legal˺ right. If anyone is killed unjustly,”**) <- pick 0
+  [1]  (18 words) (17:33 — **“We have given their heirs the authority, but do not let them exceed limits in retaliation, for they”**)
+  [2]  (5 words) (17:33 — **“are already supported ˹by law˺”**)
+== 5:32 ==
+  [0]  (19 words) (5:32 — **“That is why We ordained for the Children of Israel that whoever takes a life—unless as a punishment for”**) <- pick 0
+  [1]  (20 words) (5:32 — **“murder or mischief in the land—it will be as if they killed all of humanity; and whoever saves a life,”**)
+  [2]  (20 words) (5:32 — **“it will be as if they saved all of humanity. ˹Although˺ Our messengers already came to them with clear proofs,”**)
+  [3]  (9 words) (5:32 — **“many of them still transgressed afterwards through the land”**)
+== 63:10 ==
+  [0]  (21 words) (63:10 — **“And donate from what We have provided for you before death comes to one of you, and you cry, “My Lord!”**) <- pick 0
+  [1]  (20 words) (63:10 — **“If only You delayed me for a short while, I would give in charity and be one of the righteous.””**)
+== 4:11 ==
+  [0]  (18 words) (4:11 — **“Allah commands you regarding your children: the share of the male will be twice that of the female.”**) <- pick 0
+  [1]  (22 words) (4:11 — **“If you leave only two ˹or more˺ females, their share is two-thirds of the estate. But if there is only one female,”**)
+  [2]  (20 words) (4:11 — **“her share will be one-half. Each parent is entitled to one-sixth if you leave offspring. But if you are childless”**)
+  [3]  (18 words) (4:11 — **“and your parents are the only heirs, then your mother will receive one-third. But if you leave siblings,”**)
+  [4]  (19 words) (4:11 — **“then your mother will receive one-sixth—after the fulfilment of bequests and debts. ˹Be fair to˺ your parents and children,”**)
+  [5]  (22 words) (4:11 — **“as you do not ˹fully˺ know who is more beneficial to you. ˹This is˺ an obligation from Allah. Surely Allah is All-Knowing,”**)
+  [6]  (1 words) (4:11 — **“All-Wise”**)

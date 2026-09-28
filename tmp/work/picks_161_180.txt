@@ -1,0 +1,61 @@
+REF picks 2:161-180 (byte-exact parens; used-check vs all c1/c2 + tafsir/001-002):
+--2:161--
+ (33:64 — **“Surely Allah condemns the disbelievers, and has prepared for them a blazing Fire”**)
+ (3:12 — **“˹O Prophet!˺ Tell the disbelievers, “Soon you will be overpowered and driven to Hell—what an evil place to rest!””**)
+--2:162--
+ (33:65 — **“to stay there for ever and ever—never will they find any protector or helper”**)
+ (4:56 — **“Surely those who reject Our signs, We will cast them into the Fire. Whenever their skin is burnt completely,”**)
+--2:163--
+ (112:1 — **“Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺”**)
+ (39:4 — **“He is Allah—the One, the Supreme”**)
+--2:164--
+ (31:31 — **“Do you not see that the ships sail ˹smoothly˺ through the sea by the grace of Allah”**)
+ (36:33 — **“There is a sign for them in the dead earth: We give it life, producing grain from it for them to eat”**)
+--2:165--
+ (9:24 — **“Say, ˹O Prophet,˺ “If your parents and children and siblings and spouses and extended family and the wealth you have acquired”**)
+ (3:31 — **“Say, ˹O Prophet,˺ “If you ˹sincerely˺ love Allah, then follow me; Allah will love you and forgive your sins.”**)
+--2:166--
+ (33:67 — **“And they will say, “Our Lord! We obeyed our leaders and elite, but they led us astray from the ˹Right˺ Way”**)
+ (34:31 — **“The lowly ˹followers˺ will say to the arrogant ˹leaders˺, “Had it not been for you, we would certainly have been believers.””**)
+--2:167--
+ (6:27 — **“If only we could be sent back, we would never deny the signs of our Lord”**)
+ (34:31 — **“when the wrongdoers will be detained before their Lord, throwing blame at each other!”**)
+--2:168--
+ (16:114 — **“So eat from the good, lawful things which Allah has provided for you, and be grateful for Allah’s favours,”**)
+ (35:6 — **“so take him as an enemy. He only invites his followers to become inmates of the Blaze”**)
+--2:169--
+ (4:119 — **“I will certainly mislead them and delude them with empty hopes. Also, I will order them”**)
+ (24:21 — **“then ˹let them know that˺ he surely bids ˹all to˺ immorality and wickedness. Had it not been”**)
+--2:170--
+ (7:28 — **“Whenever they commit a shameful deed, they say, “We found our forefathers doing it”**)
+ (26:75 — **“Abraham responded, “Have you ˹really˺ considered what you have been worshipping—”**)
+--2:171--
+ (7:179 — **“Indeed, We have destined many jinn and humans for Hell. They have hearts they do not understand with,”**)
+ (25:44 — **“Or do you think that most of them listen or understand? They are only like cattle—no, more than that,”**)
+--2:172--
+ (23:51 — **“O messengers! Eat from what is good and lawful, and act righteously. Indeed, I fully know what you do”**)
+ (31:12 — **“And whoever is ungrateful, then surely Allah is Self-Sufficient, Praiseworthy.””**)
+--2:173--
+ (5:103 — **“Allah has never ordained the ˹so-called˺ baḥîrah, sâ'ibah, waṣîlah, and ḥâm camels. But the disbelievers just fabricate lies about Allah,”**)
+ (16:116 — **“Do not falsely declare with your tongues, “This is lawful, and that is unlawful,” ˹only˺ fabricating lies against Allah. Indeed,”**)
+--2:174--
+ (3:71 — **“O People of the Book! Why do you mix the truth with falsehood and hide the truth knowingly”**)
+ (3:77 — **“Indeed, those who trade Allah’s covenant”**)
+--2:175--
+ (4:44 — **“Have you ˹O Prophet˺ not seen those who were given a portion of the Scriptures yet trade it for misguidance”**)
+ (78:30 — **“˹So the deniers will be told,˺ “Taste ˹the punishment˺, for all you will get from Us is more torment.””**)
+--2:176--
+ (3:105 — **“And do not be like those who split ˹into sects˺ and differed after clear proofs had come to them. It is they”**)
+ (42:13 — **“and make no divisions in it.” What you call the polytheists to is unbearable for them. Allah chooses”**)
+--2:177--
+ (3:92 — **“You will never achieve righteousness until you donate some of what you cherish.”**)
+ (76:8 — **“and give food—despite their desire for it—to the poor, the orphan, and the captive”**)
+--2:178--
+ (5:45 — **“We ordained for them in the Torah, “A life for a life, an eye for an eye, a nose for a nose,”**)
+ (17:33 — **“Do not take a ˹human˺ life—made sacred by Allah—except with ˹legal˺ right. If anyone is killed unjustly,”**)
+--2:179--
+ (4:92 — **“It is not lawful for a believer to kill another except by mistake.”**)
+ (5:32 — **“it will be as if they saved all of humanity. ˹Although˺ Our messengers already came to them with clear proofs,”**)
+--2:180--
+ (63:10 — **“And donate from what We have provided for you before death comes to one of you, and you cry, “My Lord!”**)
+ (4:11 — **“then your mother will receive one-sixth—after the fulfilment of bequests and debts. ˹Be fair to˺ your parents and children,”**)
