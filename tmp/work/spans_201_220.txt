@@ -1,0 +1,124 @@
+2:201 units:
+  1. 'Yet there are others'
+  2. 'who say, “Our Lord!'
+  3. 'Grant us the good of this world'
+  4. 'and the Hereafter, and protect us from the torment of the Fire.”'
+
+2:202 units:
+  1. 'It is they who will receive a ˹heavenly˺ reward'
+  2. 'for the good they have done. Surely Allah is swift in reckoning'
+
+2:203 units:
+  1. 'And remember Allah during ˹these˺ appointed days. Whoever departs swiftly on the second day is not sinful, neither are those who stay behind ˹till the third'
+  2. 'seeking additional reward˺, so long'
+  3. 'as they are mindful ˹of their Lord˺.'
+  4. 'And be mindful of Allah'
+  5. 'and know that to Him you will ˹all˺ be gathered'
+
+2:204 units:
+  1. 'There are some ˹hypocrites˺'
+  2. 'who impress you with their views regarding worldly affairs'
+  3. 'and openly call upon Allah to witness what is in their hearts'
+  4. 'yet they are your worst adversaries'
+
+2:205 units:
+  1. 'And when they leave ˹you˺, they strive throughout the land to spread mischief in it'
+  2. 'and destroy crops and cattle. Allah does not like mischief'
+
+2:206 units:
+  1. 'When it is said to them, “Fear Allah,” pride carries them off to sin. Hell will be their proper place. What an evil place to rest'
+
+2:207 units:
+  1. 'And there are those'
+  2. 'who would dedicate their lives to Allah’s pleasure.'
+  3. 'And Allah is Ever Gracious to ˹His˺ servants'
+
+2:208 units:
+  1. 'O believers! Enter into Islam wholeheartedly'
+  2. 'and do not follow Satan’s footsteps. Surely he is your sworn enemy'
+
+2:209 units:
+  1. 'If you falter after receiving the clear proofs'
+  2. 'then know that Allah is'
+  3. 'indeed Almighty, All-Wise'
+
+2:210 units:
+  1. 'Are they waiting for Allah ˹Himself˺ to come to them in the shade of clouds, along with the angels?'
+  2. '˹If He did˺, then the matter would be settled ˹at once˺.'
+  3. 'And to Allah ˹all˺ matters will be returned ˹for judgment˺'
+
+2:211 units:
+  1. 'Ask the Children of Israel how many clear signs We have given them.'
+  2. 'And whoever trades Allah’s favour'
+  3. 'after receiving it'
+  4. '˹for disbelief˺ should know'
+  5. 'that Allah is indeed severe in punishment'
+
+2:212 units:
+  1. 'The life of this world has been made appealing to the disbelievers'
+  2. 'and they mock the believers. Those'
+  3. 'who are mindful ˹of Allah˺ will rank above them on the Day of Judgment.'
+  4. 'And Allah provides for whoever He wills without limit'
+
+2:213 units:
+  1. 'Humanity had once been one community ˹of believers before they lost faith˺.'
+  2. 'Then Allah raised prophets'
+  3. 'as deliverers of good news'
+  4. 'and as warners, and revealed to them the Scriptures in truth to judge among people regarding their disputes.'
+  5. 'And no one disputed the Scriptures except the very people'
+  6. 'who received them after clear proofs had come to them'
+  7. 'out of jealousy. Then Allah, by His grace, has guided the believers to the truth regarding those disputes.'
+  8. 'And Allah guides whoever He wills to the Straight Path'
+
+2:214 units:
+  1. 'Do you think you will be admitted into Paradise without being tested like those before you?'
+  2. 'They were afflicted with suffering'
+  3. 'and adversity and were'
+  4. 'so ˹violently˺ shaken that ˹even˺ the Messenger'
+  5. 'and the believers with him cried out, “When will Allah’s help come?”'
+  6. 'Indeed, Allah’s help is ˹always˺ near'
+
+2:215 units:
+  1. 'They ask you ˹O Prophet in˺ what ˹way˺ they should donate. Say, “Whatever donations you give are'
+  2. 'for parents, relatives, orphans, the poor'
+  3. 'and ˹needy˺ travellers. Whatever good you do is certainly well known to Allah.”'
+
+2:216 units:
+  1. 'Fighting has been made obligatory upon you ˹believers˺'
+  2. 'though you dislike it. Perhaps you dislike something'
+  3. 'which is good for you'
+  4. 'and like something which is bad'
+  5. 'for you. Allah knows'
+  6. 'and you do not know'
+
+2:217 units:
+  1. 'They ask you ˹O Prophet˺ about fighting in the sacred months. Say, “Fighting during these months is a great sin.'
+  2. 'But hindering ˹others˺ from the Path of Allah, rejecting Him'
+  3. 'and expelling the worshippers from the Sacred Mosque is ˹a˺ greater ˹sin˺ in the sight of Allah.'
+  4. 'For persecution is far worse than killing.'
+  5. 'And they will not stop fighting you'
+  6. 'until they turn you away from your faith'
+  7. 'if they can. And whoever among you renounces their own faith'
+  8. 'and dies a disbeliever, their deeds will become void in this life'
+  9. 'and in the Hereafter. It is they'
+  10. 'who will be the residents of the Fire. They will be there forever.”'
+
+2:218 units:
+  1. 'Surely those who have believed, emigrated'
+  2. 'and struggled in the Way of Allah'
+  3. 'they can hope for Allah’s mercy.'
+  4. 'And Allah is All-Forgiving, Most Merciful'
+
+2:219 units:
+  1. 'They ask you ˹O Prophet˺ about intoxicants'
+  2. 'and gambling. Say, “There is great evil in both, as well as some benefit'
+  3. 'for people but the evil outweighs the benefit.” They ˹also˺ ask you ˹O Prophet˺ what they should donate. Say, “Whatever you can spare.” This is how Allah makes His revelations clear to you ˹believers˺'
+  4. 'so perhaps you may reflect'
+
+2:220 units:
+  1. 'upon this world and the Hereafter.'
+  2. 'And they ask you ˹O Prophet˺ concerning orphans. Say, “Improving their condition is best.'
+  3. 'And if you partner with them, they are bonded with you ˹in faith˺.'
+  4. 'And Allah knows who intends harm'
+  5. 'and who intends good. Had Allah willed, He could have made it difficult'
+  6. 'for you. Surely Allah is Almighty, All-Wise.”'
