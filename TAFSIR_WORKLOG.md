@@ -231,6 +231,34 @@ receipt covers 001–050 and a receipt cannot bridge the unapproved 051–056 ga
 Chapter 2 now has **80/286 written, 23 independently accepted and 57 pending**, 75,174 words,
 range 705/927/1,270.
 
+**Run 2:51–2:100 completed (2026-09-28).** On the owner instruction “Your target is writing till
+2:100 in this run,” the remaining twenty verses (2:81–2:100) were researched from every mapped
+source in the rebuilt run map, assembled and individually draft-gated. The run map cache had been
+lost between sessions and was re-pinned with `run.py --start 2:51 --target 50 --build --cap-json 0`;
+the earlier per-verse phrase cuts in the session notes proved stale and were re-derived from
+`scaffold.py 2 --phrases`. The stretch closes the long dispute-passage: the verdict on the
+counted-days claim (2:81–82), the covenant recitals and their breach (2:83–85), the trade of the
+hereafter and the chain of messengers (2:86–87), the sheathed-hearts excuse and the recognition
+that convicts (2:88–91), the calf and the mountain covenant (2:92–93), the wish-for-death
+experiment and the avarice for life (2:94–96), the trial of Gabriel's reputation (2:97–98), the
+nothing-new charge answered (2:99), and the covenant-casting census (2:100). Repair loops covered
+house-style collisions discovered only at batch scope (“for any congregation today that…”, “is
+preserved in the transmission from…”, three heading-prefix families), two work-name relays, one
+word-study trigger pair, one missing-verbatim cross-reference, paragraph floors, and the
+evidence-floor insertions; every repair re-gated clean.
+
+The owner’s statement **“I approve quality/reviews/002/077-080.json”** is recorded here beside the
+earlier approval of 057–076. Created `quality/reviews/002/081-100.json` as a synchronized pending
+review scaffold. `batch.py 2 --from 57 --to 100 --push-check` reports **0 mechanical FAIL, 0 quality
+BLOCK, 63 WARN — PASS** (batch style: mean sentence 29.6 words, 20% over 40 words, Flesch 50, long
+words 1.05%, analogies 21/44). The pinned run is **50/50 written**; drafting pauses at the natural
+boundary 2:100 pending the author’s next start instruction. The drafting frontier is 2:50
+owner-approved plus the authorized continuations; the independent frontier remains **2:5**. The
+draft-approval receipt for 051–076 remains blocked at the tooling frontier (gap at 051–056).
+
+Chapter 2 now has **100/286 written, 23 independently accepted and 77 pending**, 93,741 words,
+range 705/927/1,300.
+
 **Historical, now-purged Chapter 2 runs under v7.4 (2026-09-26).** The first chapter-only start resolved
 to 2:1 and pinned **2:1–2:50**. All eleven works were mapped in one pass; the introduction and fifty
 verse drafts were written, spliced and gated. Its gate reported 0 FAIL and 53 advisories.
@@ -244,13 +272,13 @@ regressions; they remain history, not reusable draft material.
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
-| 2 | `tafsir/002.md` | 80/286 | 75,174 | 705/927/1,270 | review candidate PASS; 206 verses still scaffold |
+| 2 | `tafsir/002.md` | 100/286 | 93,741 | 705/927/1,300 | review candidate PASS; 186 verses still scaffold |
 
 Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
 hash. The working corpus contains 30 accepted verses plus 53 pending review candidates across
 Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
 `audit.py 2` fails on its 210 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:51–2:100 run continues at 2:81 under the separate owner approval of the first draft run.
+pinned 2:51–2:100 run is complete at 2:100 under the separate owner approval of the first draft run.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13
@@ -366,3 +394,20 @@ prose; `--check` reports RUN COMPLETE and waits for the author's next start. The
 planner expectation sets all fifty to written and proves that the pin still does not move. The default
 mutation self-test now selects only complete chapters, so a partly written chapter's expected
 scaffold failures cannot hide the finding introduced by a test mutation.
+
+**Metric repair for the joined approval (2026-09-28, in progress).** The owner's statement “I
+approve everything. Join them with the earlier. Verse 1 to 100 is clear now” authorizes the
+draft-approval receipt for 051–100 as one chain with the existing 001–050 receipt. The tooling
+refuses to record it while the 50-verse window 2:51–100 drifts from the frozen Chapter-1 alarms
+(mean sentence 23.0, sentences over 40 words 10.0%, Flesch 62, evidence density 8.2 per 1,000), and
+only an independent accepted review may waive a metric finding. A repair of the candidate prose is
+therefore underway, verse by verse: long sentences split, Latinate diction brought to plain words,
+padding pruned, and unused checked evidence (verified cross-reference clauses and named early
+authorities) brought in beside the phrases. Repaired and re-gated clean this pass: 2:77 (rewritten
+against the correct phrase cut after a bad overwrite), 2:83, 2:84, 2:85, 2:89, 2:98. Window metrics
+moved from 25.0 / 14.1% / Flesch 53 / 7.0 to **23.4 / 10.7% / Flesch 56 / 7.1** at the last measure;
+the mean-sentence and long-sentence alarms now clear. Remaining blockers at this checkpoint:
+Flesch 56 against 62 and evidence density 7.1 against 8.2. The repair continues in the next session
+across the remaining heavy verses (roughly 2:58–2:82, 2:86–2:88, 2:90–2:92, 2:94–2:100 and the
+evidence pass), after which the receipt for 051–100 is recorded and pushed. The run-map and source
+digest caches (tmp/runs, tmp/sources) were also rebuilt this session after a workspace cleanup.

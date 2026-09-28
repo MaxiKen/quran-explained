@@ -1,0 +1,2264 @@
+{
+  "schema_version": 2,
+  "chapter": 2,
+  "from": 81,
+  "to": 100,
+  "writer": "arena-writing-agent",
+  "reviewer": "",
+  "independent": false,
+  "status": "pending",
+  "exceptions": {},
+  "verses": {
+    "81": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "1d2aa1482dbb2ba4d512d177c6c7ad10a197853425bdf4e967bb8adcc5a90adb",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The point of the construction is that a claim about time is answered with a claim about character, since days can be granted by concession but character cannot be granted at all.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:81",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "What follows is therefore not a competing arithmetic of days but a law of persons, and the law states itself once for everyone in the same sentence.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:81",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic verb itself can mean to encircle, to enclose, or to comprehend, and the picture the glosses share is spatial: sin becomes the outer wall of the self, so that whatever good remains is inside the wrong rather than the wrong inside the good.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:81",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "This is why the verse can close with a single word: the word carries the weight of a whole calendar.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:81",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "98:6",
+          "quoted_clause": "Indeed, those who disbelieve from the People of the Book and the polytheists will be in the Fire of Hell,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "11:108",
+          "quoted_clause": "and the earth will endure, except what your Lord wills—a ˹generous˺ giving, without end",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "One reading, transmitted by Abū Hurayrah and others, takes the surrounding as associationism itself: the idolatry wraps the person as a wrapper encloses its content.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:81",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Khuthaym through the teachers of Kufah and shared by al-Suddī, takes it as the state of one who dies without repenting, the wrongs closing over the record before it is opened.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:81",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A third, held by Mujāhid, Qatādah, al-Hasan, and al-Rabīʿ b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:81",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A line of transmission from Ibn ʿAbbās through one of his students puts the whole reading in one report: \"whoever does what you did and disbelieves as you disbelieved until his unbelief surrounds whatever good he had — those are the companions of the Fire, they will abide therein forever\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:81",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The companion report about accumulation, transmitted by Ibn Masʿūd with the collection of Aḥmad, agrees: when small sins gather, they bring about destruction.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:81",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "82": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "d3b9dd9bf8f28627573a42342918e125b4a0131d8a828d4936dd2f8f6badb6a5",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of the pair drew the language specialists more than once, because the second clause is coordinated onto the first rather than absorbed into it.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:82",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The glosses make the same point functionally — belief in God and His Messenger, then the deeds that conform to the revealed law — and the tradition of the doctrine adds the reason the unrepentant cannot claim the first term without the second.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:82",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "98:7",
+          "quoted_clause": "Indeed, those who believe and do good—they are the best of ˹all˺ beings",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:123",
+          "quoted_clause": "˹Divine grace is˺ neither by your wishes nor those of the People of the Book! Whoever commits evil will be rewarded accordingly,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās glosses the first clause as belief in the Messenger and the revelation, and the second as acts of obedience between the servant and his Lord; the closing words he reads as perpetuity without death and without exit, the exact mirror of the Fire's own perpetuity.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:82",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "83": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e8c7fcaa7e5b4e9be94b1f8c3a15b5365a77fe6b1af97821a820b2b48c9088a2",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The Arabic phrase for the second term is strikingly spare — literally \"and toward parents virtue,\" with the verb left to the hearer — and the grammar of the ellipsis was noted by the language specialists as an understood command rather than a missing word.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "What follows in the list walks outward in circles: the kin whose name in Arabic means the possessors of nearness, then the orphans whose definition in the juridical handbooks is the minor who lost the father who provided, then the needy who are named in almost every passage where relatives and orphans are named.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The doctrine that emerges from the list is a doctrine of permanence: these ordinances are the principles of religion that every revealed law has commanded, since they answer the general interests of every time and place, and the means to a favor is itself a favor.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language",
+              "legal"
+            ],
+            "statement": "One grammatical detail from the legal language of the covenant deserves recording, because it shows how seriously the form was argued.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "A covenant here is a mif'al form from the root of binding with an oath, the kind of assurance that secures a promise against the promiser's temper; the transmission from Ibn ʿAbbās through his students keeps the same definition: the pledge taken is a pledge secured by oath.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The hardness that required such forms was itself noted in the tradition: a people who resisted every plain command until they were met with fearful oaths and secured covenants have revealed, by the manner of their binding, the manner of their turning.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:83",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "17:23",
+          "quoted_clause": "For your Lord has decreed that you worship none but Him. And honour your parents.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The ranking of deeds inside the covenant was demonstrated in the report the two major collections record from Ibn Masʿūd: \"I asked the Messenger of Allah which action is best.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:83",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A covenant here is a mif'al form from the root of binding with an oath, the kind of assurance that secures a promise against the promiser's temper; the transmission from Ibn ʿAbbās through his students keeps the same definition: the pledge taken is a pledge secured by oath.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:83",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "84": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "122c633a268e7dc3d60abb3c1ea08938a2daa611196b1d427dde56c606b15045",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The glosses fix the range of the clause at once: the forbidden shedding is the spilling of one another's blood, kinsman and ally alike, and the first named witnesses of the tradition point to the two clans whose houses the later fighting emptied as the standing examples the sentence had in view.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:84",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The prohibition is not a courtesy of the sanctuary but the first law of the commonwealth.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:84",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "What turns on the witness-language is the legal position of the community at the bar: the covenant is not being alleged, it is being produced with the defendant's own signature on it.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:84",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The doctrine that the faithful are like a single body, each member answering for the rest, is the anthropology this grammar assumes, and it is why the verse can address a whole nation as one witness who perjured himself.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:84",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language",
+              "legal"
+            ],
+            "statement": "The reason the grammar matters is that it converts a moral appeal into a legal fact: a body cannot un-own its limb, and a nation cannot un-sign its charter.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:84",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "5:32",
+          "quoted_clause": "That is why We ordained for the Children of Israel that whoever takes a life—unless as a punishment for",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:187",
+          "quoted_clause": "and not hide it, yet they cast it behind their backs and traded it for a fleeting gain. What a miserable profit",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The expulsion clause widened the civil protection: it forbade the harassment that drives a household out without an exile decree, and the line of transmission from Ibn ʿAbbās names the houses whose doors the practice emptied before the sentence arrived.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:84",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "85": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "c95982e1737776834b5d76f7ed7f13fd3472313f32f1f13ea1e1b94710485bbf",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The opening pronoun of reproach was analyzed for its own grammar, because the shape of the address carries the accusation: “But here you are, killing each other”, “and expelling some of your people from their homes, aiding one another in sin”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:85",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The middle of the verse is built like a legal instrument, and the language specialists found its joints worth mapping: “and aggression; and when those ˹expelled˺ come to you”, “as captives, you still ransom them”, “though expelling them was unlawful”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:85",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The forbidden-expulsion clause is then tied grammatically back to the expulsion verb, with the ransoming statement sitting between them as a parenthesis: the statute forbade the expulsion in exactly the same way it forbade abandoning the ransom.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:85",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The structure of the accusation is the same one the final revelation states as a creed, where the faithful are made to define themselves by refusing the selection altogether: (2:285 — “and His messengers. ˹They proclaim,˺ “We make no distinction between any of His messengers.” And they say, “We hear”).",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:85",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The assurance of the verse withdraws the theory at its root, and the transmission from Ibn ʿAbbās states the refusal of the discount plainly: \"He is not reducing your punishment because of what you do\" — and the same authority adds the second register, that the accounting also covers what was concealed.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:85",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:46",
+          "quoted_clause": "Some Jews take words out of context and say, “We listen and we disobey,” “Hear! May you never hear,”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:285",
+          "quoted_clause": "and His messengers. ˹They proclaim,˺ “We make no distinction between any of His messengers.” And they say, “We hear",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The assurance of the verse withdraws the theory at its root, and the transmission from Ibn ʿAbbās states the refusal of the discount plainly: \"He is not reducing your punishment because of what you do\" — and the same authority adds the second register, that the accounting also covers what was concealed.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:85",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "86": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "061bc90aedcf9808d42af4f70531755ba31388a669e4678cee169fcacc0318b8",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "4:74",
+          "quoted_clause": "Let those who would sacrifice this life for the Hereafter fight in the cause of Allah. And whoever fights in Allah’s cause—whether",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "16:95",
+          "quoted_clause": "And do not trade Allah’s covenant for a fleeting gain. What is with Allah is certainly far better for you,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmission from Ibn ʿAbbās pairs the columns by kind — this lower world in place of the world to come, and disbelief in place of belief.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:86",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "87": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "79c284b4657e2ac677b0583c04caca9939cf6442a6b9421d5e3721584e183e37",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The support named in the verse is the subject of its own grammar — an annexation that binds the noun of spirit to the adjective of holiness — and the identification the glosses give is the great bearer himself, named for the sanctity of the one he served, who accompanied the Messiah wherever he went.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:87",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The charge then arrives, and its grammar was dissected as carefully as the gifts: “that every time a messenger comes to you ˹Israelites˺ with something you do not like, you become arrogant, rejecting some”, “and killing others”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:87",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The repeated-time construction carries its own rebuke — the arrogance is the standing response to every arrival, and the interrogative form is not a question but an indictment.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:87",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The recurring construction that introduces the clause makes the behavior a constant rather than an event: every time, with what you do not like — the discomfort of the message, not the weakness of the messenger, is named as the trigger.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:87",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "5:110",
+          "quoted_clause": "how I supported you with the holy spirit so you spoke to people in ˹your˺ infancy",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:81",
+          "quoted_clause": "if there comes to you a messenger confirming what you have, you must believe in him and support him.” He added,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The first gift is the Torah, and one transmitted reading from Ibn ʿAbbās magnifies the scene of its descent: the book came down as a single whole, and when Moses was commanded to carry it he could not bear its weight; an angel was appointed for each letter of it, and they could not bear it either; then the weight was lightened for Moses and he carried it.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:87",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "88": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "8f8d3db2222a3ff89c953cb2e965324dbf3e233c2bf4d43549465206060b1271",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "In the common reading it is the plural of a form meaning sheathed — hearts in their covers, as a sword sits in its scabbard and an uncircumcised man is called by the same adjective — hearts screened from understanding and discernment.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:88",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "A second reading thickens the vowel of the plural and hears a different plural pattern, and on that reading the line becomes a boast rather than a shrug: our hearts are filled with knowledge and need nothing you bring.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:88",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The passage that recorded the cry of the sheathed hearts in another assembly makes the sequence explicit in its own grammar — (4:155 — “˹They were condemned˺ for breaking their covenant, rejecting Allah’s signs, killing the prophets unjustly, and for saying, “Our hearts are unreceptive!”—it”) — note where the saying sits in the list: last, after the deeds.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:88",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The emphatic particle in the Arabic intensifies the smallness — little indeed is what they believe — and the analysts split on the unit of the littleness.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:88",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The doctrine of faith in the tradition distinguishes the two senses carefully: lexically the word can name certitude about anything at all, while legally it names the assent that affirms everything the law requires to be affirmed.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:88",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "17:46",
+          "quoted_clause": "We have cast veils over their hearts—leaving them unable to comprehend it—and deafness in their ears. And when",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:155",
+          "quoted_clause": "˹They were condemned˺ for breaking their covenant, rejecting Allah’s signs, killing the prophets unjustly, and for saying, “Our hearts are unreceptive!”—it",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmitted glosses keep the range visible: a covering over the heart (Mujāhid), a stamp upon it (ʿIkrimah), a heart that does not comprehend (Abū al-ʿĀliyah), and the mockers' own intent — the claim of satiety, that the vessel is full and the message is surplus — as the reading Qatādah and Ibn ʿAbbās transmit when they render the cry as: our hearts are filled with knowledge and need nothing you bring.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:88",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "89": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "ad02c93b11d03598e30e76df4f06f2a73693341eeeedc7a43f0511080cf82743",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of confirmation is itself pointed: the volume is described as confirming their book rather than needing confirmation by it, a direction of authority the glosses were careful to note.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:89",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The passage's anthropology of faith is therefore starker than a court of evidence: knowledge of the truth is not the assent the law requires, since if knowledge alone counted, even the adversary would stand among the faithful, and the depth of his knowing would only deepen his case.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:89",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:146",
+          "quoted_clause": "Those We have given the Scripture recognize this ˹Prophet˺ as they recognize their own children.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:155",
+          "quoted_clause": "is Allah Who has sealed their hearts for their disbelief, so they do not believe except for a few—",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The account transmitted from Ibn ʿAbbās records two helpers of the early community — Muadh b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:89",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "90": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "e5ef903629e6abcc8c2be00100a1135700e0f2e33f91b3064929afe7b45634ff",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of the exclamation was dissected as well: the indefinite noun inside the formula of blame is a specification that singles out the very thing for criticism, as though the verse were pointing the finger at the item on the counter.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:90",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The resentful particle in the Arabic is the same word for grudge and for envy, and the glosses read it as the reason-object of the disbelief itself — the denial happened because the gift was given where it was given.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:90",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:16",
+          "quoted_clause": "They are the ones who trade guidance for misguidance. But this trade is profitless, and they are not ˹rightly˺ guided",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "3:112",
+          "quoted_clause": "for rejecting Allah’s revelations and murdering ˹His˺ prophets unjustly. This is ˹a fair reward˺ for their disobedience and violations",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Mujāhid records it as the sale of truth for falsehood together with the concealment of the truth about the awaited prophet; al-Suddī records it as the sale of the self itself, the worst purchase being what the buyers chose in place of belief, aid, and support; the inherited reading takes the sold asset as the share of reward in the world to come, so that the transaction is priced in the only currency that matters.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:90",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "A third, transmitted from Ibn ʿAbbās in flatter currency, reads the pair as curse upon curse.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:90",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "91": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "a1da5bfebc8702963ebf897b2ef0bd24e0dcc1427e787c02981fc6b17e077ef5",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The tradition notes the motive inside the grammar of the answer: they denied the other books for the very reason that they were not addressed to them, a piece of reasoning that treats prophecy as mail rather than truth.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:91",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The circumstantial construction is doubled in the Arabic — it is the truth, confirming what is with them — and the emphasis was marked by the grammar specialists as deliberate: the confirming sits as a witness standing inside the defendants' own evidence.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:91",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "First the fact: the prophets who were killed came affirming the Torah's own law, and the Torah itself forbade the killing — so the deed contradicts the very book the reply had claimed as its exclusive faith.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:91",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The address of the question to the living generation about the deeds of their forefathers is itself a legal doctrine the tradition draws out carefully: those present are addressed because they approve the deeds of the absent, and the second person is earned by endorsement rather than by ancestry.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:91",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:146",
+          "quoted_clause": "Yet a group of them hides the truth knowingly",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "5:70",
+          "quoted_clause": "Whenever a messenger came to them with what they did not desire, they denied some and killed others",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "4:155",
+          "quoted_clause": "˹They were condemned˺ for breaking their covenant, rejecting Allah’s signs, killing the prophets unjustly, and for saying, “Our hearts are unreceptive!”—it",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The reply of the defendants is preserved in the transmission from Ibn ʿAbbās, who records them saying that their forefathers were believers, and his gloss of the question's final conditional is the flattest available: if your claims are truthful.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:91",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "92": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "d5580f4aee052bf554ed81e286d23bb5c007aa4ffd7431329cd4598063d3d227",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "Ibn ʿAbbās glosses the plural in the plainest register he has: commands, prohibitions, and signs.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:92",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The fall is then dated by its own grammar: “then you worshipped the calf in his absence, acting wrongfully”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:92",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The verse's legal afterlife concerns the second generation, and the tradition states the transfer of liability without embarrassment.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:92",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "20:91",
+          "quoted_clause": "They replied, “We will not cease to worship it until Moses returns to us.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:54",
+          "quoted_clause": "And ˹remember˺ when Moses said to his people, “O my people! Surely you have wronged yourselves by worshipping the calf,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "Ibn ʿAbbās glosses the plural in the plainest register he has: commands, prohibitions, and signs.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:92",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "93": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "6aba968ce47bf5a7e220ca2e73a93396ad4b0be9c11cb1edb03e58731077a167",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The response clause in this telling is one of the most quoted lines in the whole history, and the tradition of meaning records a subtlety about it: the words are attributed to the community as speech though they were never voiced in the camp, because the people received the covenant with their conduct, and conduct that answers a command with defiance is speech in the grammar of judgment.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The causality named in the clause is the passage's recurring causality, and it runs in the direction the excuse-merchants always reverse: the disbelief is the root and the calf-love is the fruit.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The difference between the covenant's two responses across the two tellings is therefore not verbal but horticultural: one community heard and became mindful; this one heard and let the old root keep its plot.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The doctrinal generalization beneath the challenge was stated flatly in the tradition's reading of the earlier reply: the faith that divides the messengers and the books into accepted and rejected parcels is not a lesser faith but the very unbelief the creed names, and the faith that works is the faith that believes in every revelation on the same terms.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "If the calf-affection is a root rather than a residue, then the repair is gardening rather than sweeping: the stock has to be dug at, the graft cut, the soil turned — which is the work the covenant's own formula of turning and mindfulness prescribes.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language",
+              "legal"
+            ],
+            "statement": "The reason the verse ends with the Torah's own trial rather than a new law is that the passage never needed a new law; it needed the old one read without the root in the way.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:93",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "7:171",
+          "quoted_clause": "And ˹remember˺ when We raised the mountain over them as if it were a cloud",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:63",
+          "quoted_clause": "that ˹Scripture˺ which We have given you and observe its teachings so perhaps you will become mindful ˹of Allah˺.”",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "A second transmitted line of commentary reads the figure as drinking rather than planting: the calf's love was poured into the hearts until they had drunk it, and the trial-report of the hearts, transmitted in Muslim, keeps the same metaphor in its own mouth: \"Any heart that is made to drink of them has a black spot placed upon it, and any heart that denies them has a white spot placed upon it\".",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:93",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "94": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "bafba3436c9c9b3db807f9ece6e92a6bbdc2930b77bd10550542e98a9e7d978f",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "In other words, the test is one-sided by construction: sincerity would say the word, and the silence is scored.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:94",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "62:6",
+          "quoted_clause": "Say, ˹O Prophet,˺ “O Jews! If you claim to be Allah’s chosen ˹people˺ out of all humanity, then wish for death,",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmission through the chain of Ibn ʿAbbās states the outcome three ways, and the statements are recorded with their authentic chains: if the community had invoked for death they would have perished; had they asked for it, the asker would have choked on his own saliva; and the saying of the Prophet transmitted in the same lines confirms that wishing would have brought the death and shown the seats of the wishers.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:94",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "95": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "44b7ebf1ed73c37b8823319050be9ebcf4ee64ad74b05bc0f77b20382454b5e8",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The structure of the refusal is therefore an admission in the grammar of self-preservation.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:95",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The name of the knowing here is the name of the knowledge that holds its objects in full — the elative form in the Arabic does the work of the superlative, a knowledge complete in its grasp of who the wrongdoers are and what the wrongdoers did.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:95",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "17:18",
+          "quoted_clause": "Whoever desires this fleeting world ˹alone˺, We hasten in it whatever We please to whoever We will; then We destine them",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The negation carries the absoluteness of the original — never at all, under any terms — and the gloss transmitted from Ibn ʿAbbās through the Prophet's first biographer gives the refuseniks their reason in a single line of courtroom logic: they recognize the prophet they are addressing and disbelieve in him regardless.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:95",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "96": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "2f9bdf5f09ea51d960a71598783e5e79fd454f56b0445f59221ee81c39b30f26",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The grammar of the conditional was mapped precisely: the if-only particle leans on the verbal noun, and the wish's object is the being-given-life itself, a thousand years of it.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:96",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The difference between the two populations of the first clause is therefore not faith but foreknowledge: one group fears the fire it believes in, the other ignores the fire it denies.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:96",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "theological"
+            ],
+            "statement": "The close attaches the divine attribute to the scene with its own precision: “And Allah is All-Seeing of what they do”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:96",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "3:14",
+          "quoted_clause": "made appealing to people. These are the pleasures of this worldly life, but with Allah is the finest destination",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The tradition's portrait of this exact psychology is preserved in the report from al-Ḥasan al-Baṣrī: \"A hypocrite is more covetous of the world than an idolater\" — and the reason offered for the paradox is the same gnawing awareness of the consequences of one's own hands.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:96",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "97": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "0bfe6cad63ec5c6d271fefec0af9df1de1116627c49fa12e13cc137c827bf231",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The permissive word in the Arabic is read by the glosses as command rather than mere allowance — the descent was commissioned, not tolerated — and the destination is named without ornament: the heart of the prophet.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:97",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The legal afterlife of the verse is a rule about trying celestial reputations.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:97",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "16:102",
+          "quoted_clause": "Say, “The holy spirit has brought it down from your Lord with the truth to reassure the believers, and as a guide",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The verse arrives as the answer to a courtroom maneuver, and the account of its trigger is preserved in the transmission from Ibn ʿAbbās.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:97",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The transmission from Ibn ʿAbbās fixes the second term with its destination: the good news is the news that Paradise is theirs.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:97",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "98": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "fab064c10309c7f214f8e876e70ed6eb1ce2e1c50d87c61ffab55e613875e5ce",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The summons of the last verse widens into a list, and the list's construction was read as rhetoric rather than redundancy: “Whoever is an enemy of Allah, His angels, His messengers, Gabriel”.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:98",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The bringer is a messenger, acting only as a messenger, under a command he did not author; the hostility owed to the commission is therefore owed to the commissioner, and the summons of the verse names that transfer as its legal effect.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:98",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "A caution recorded in the later tradition guards the doctrine's other flank: the descent upon the heart is not to be read as a delivery of meanings without words, since the revelation's own verses name the Arabic tongue as its form.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:98",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "58:20",
+          "quoted_clause": "˹As for˺ those who defy Allah and His Messenger, they will definitely be among the most debased",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The names themselves were mapped across the consonantal tradition in several sound-forms each, and the theophoric etymology was offered by ʿIkrimah in the form the old lexica loved: the first syllables of both names mean servant, and the last means God.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:98",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "The scene that produced the verse was itself preserved with its full dialogue by the report Anas b.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:98",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "statement": "Malik transmitted, recorded in the collection of Bukhārī: \"I am going to ask you about three things which nobody knows except a Prophet\" — the first portent of the Hour, the first meal of the people of Paradise, and the mystery of paternal and avuncular resemblance — and when the prophet answered that Gabriel had just told him, the rabbi said: \"He, among all the angels, is the enemy of the Jews.\" The prophet recited the summons of the verse in reply.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:98",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "99": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "493f72de8b9cdff282ada99c9c7bab036d7a8f41e1996cbac1d0f3dfcff00c12",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The earliest glosses fix the class-noun on the deniers of the scene — the unbelievers among the scripture-bearers — and the tradition's doctrinal gloss widens it into a law: the denial of recognized evidence is not an intellectual event but a moral posture, the habitual disobedience of the willful and the stubborn.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:99",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "legal"
+            ],
+            "statement": "The parallel statement of the law in the final book keeps the same anatomy of the sentence — the clear revelations preserved in the hearts of those gifted with knowledge, and the denial reserved for the wrongdoers: (29:49 — “But this ˹Quran˺ is ˹a set of˺ clear revelations ˹preserved˺ in the hearts of those gifted with knowledge.”).",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:99",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The claim that the proof never arrived is the claim the verse revokes by inventory; the claim that the proof arrived but was not clear is the claim the adjective revokes at its root.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:99",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "29:49",
+          "quoted_clause": "But this ˹Quran˺ is ˹a set of˺ clear revelations ˹preserved˺ in the hearts of those gifted with knowledge.",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The clause is handed down from Ibn ʿAbbās as the reply to the rabbi's parting shot — the charge that nothing recognizable had been brought, no clear sign that would justify following — and the reply answers the charge of emptiness with a list of what the descent actually carried.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:99",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    },
+    "100": {
+      "status": "pending",
+      "scores": {
+        "textual_attention": null,
+        "source_synthesis": null,
+        "citation_support": null,
+        "reasoning": null,
+        "theological_precision": null,
+        "coherence": null,
+        "prose": null,
+        "editorial_finish": null
+      },
+      "source_synthesis": {
+        "source_fingerprint": "b445d0dcc7f9456e0156adf3172ce6fd598d499cc7da3d9a6f6433c5b5be393a",
+        "available_sources": [
+          "tafsir-al-tabari",
+          "tafsir-al-qurtubi",
+          "tafsir-al-baghawi",
+          "tafsir-ibn-kathir",
+          "tafsir-al-alusi",
+          "tafsir-al-jalalayn",
+          "tafsir-ibn-abbas",
+          "tafsir-as-saadi",
+          "tafsir-ibn-uthaymeen",
+          "tafsir-maarif-ul-quran",
+          "tafsir_initial"
+        ],
+        "coverage": "pending",
+        "notes": "",
+        "distinct_material_evidence": []
+      },
+      "claim_verification": {
+        "coverage": "pending",
+        "notes": "",
+        "detected_claims": [
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The repeated-time construction returns the passage to its oldest rhythm — every time — and the answer hidden inside the question is that the casting-aside is not an incident but a department.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:100",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The plural of the un-named covenants is therefore the section's own archive, and the casting-verse is the archive's index.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:100",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          },
+          {
+            "categories": [
+              "language"
+            ],
+            "statement": "The claim of the claimants throughout the section has been a claim about belief — we believe in what was sent to us, we are the beloved, the fire is limited for us — and the section's last word withdraws the claim at its root with the majority-verb.",
+            "proposition": "",
+            "source": "",
+            "source_reference": "2:100",
+            "source_fingerprint": "",
+            "source_excerpt": "",
+            "support": "pending",
+            "rationale": ""
+          }
+        ],
+        "additional_material_claims": []
+      },
+      "citations": [
+        {
+          "reference": "2:83",
+          "quoted_clause": "orphans and the needy; speak kindly to people; establish prayer; and pay alms-tax.” But you ˹Israelites˺ turned away—except",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        },
+        {
+          "reference": "2:84",
+          "quoted_clause": "you gave your pledge and bore witness",
+          "proposition": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "transmitted_evidence": [
+        {
+          "statement": "The transmission from Ibn ʿAbbās keeps the pledge's terms in their plainest form — shed not the blood of your people, nor turn your people out of their dwellings — with the two clans whose houses the later fighting emptied named as the clause's first witnesses.",
+          "proposition": "",
+          "source": "",
+          "source_reference": "2:100",
+          "source_fingerprint": "",
+          "source_excerpt": "",
+          "support": "pending",
+          "rationale": ""
+        }
+      ],
+      "notes": ""
+    }
+  }
+}
