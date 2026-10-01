@@ -6,6 +6,10 @@ represent the defects that motivated v8 and the raised baseline: a triple-pasted
 clause, unreviewed Qur'an or transmitted evidence, unverified source synthesis,
 long and difficult prose, token authority use, fixed shape, and a fixed final
 application slot.
+
+Since 2026-10-01 chapter 1 is a writing-style yardstick only, so the tests also prove
+the other half: plain prose that carries no cross-reference and no named authority
+raises no metric alarm (the amount of evidence is information, never an alarm).
 """
 
 from __future__ import annotations
@@ -100,8 +104,10 @@ def draft_approval_tests() -> list:
         hundred_codes = codes(100)
         if "QTY-UNACCEPTED-LIMIT" in hundred_codes:
             failures.append("owner-approved fifty did not allow the next fifty drafts")
-        if "QTY-EVIDENCE-DRIFT" not in hundred_codes:
-            failures.append("owner draft approval bypassed the evidence-density alarm")
+        if "QTY-SHAPE-DRIFT" not in hundred_codes:
+            failures.append("owner draft approval bypassed the fixed-shape alarm")
+        if "QTY-EVIDENCE-DRIFT" in hundred_codes:
+            failures.append("the amount of evidence is information only: chapter 1 is a style yardstick")
         if "QTY-UNACCEPTED-LIMIT" not in codes(101):
             failures.append("owner draft approval allowed a fifty-first new draft")
         full_codes = {f.code for f in Q.evaluate(2, [51], require_reviews=True)[0]}
@@ -239,15 +245,12 @@ def main() -> int:
 
     weaker = {"thresholds": {
         "mean_sentence_max": 30.0, "flesch_min": 50.0,
-        "evidence_density_min": 4.0,
     }}
     previous = {"thresholds": {
         "mean_sentence_max": 24.0, "flesch_min": 62.0,
-        "evidence_density_min": 7.0,
     }}
     preserved = Q.preserve_stronger_thresholds(weaker, previous)["thresholds"]
-    if preserved != {"mean_sentence_max": 24.0, "flesch_min": 62.0,
-                      "evidence_density_min": 7.0}:
+    if preserved != {"mean_sentence_max": 24.0, "flesch_min": 62.0}:
         failures.append("raising the baseline weakened an existing drift threshold")
 
     if baseline:
@@ -465,6 +468,20 @@ def main() -> int:
                      "QTY-APPLICATION-TEMPLATE"):
         if required not in metric_codes:
             failures.append("synthetic degeneration did not exercise %s" % required)
+
+    # Chapter 1 is a writing-style yardstick only (owner, 2026-10-01): plain prose with no
+    # cross-reference and no named authority at all raises no metric alarm -- above all no
+    # evidence-density alarm -- while degenerate style still does (the block above).
+    if baseline:
+        plain = ("The road runs beside a quiet field. People walk it at dawn and at dusk. "
+                 "Nobody asks them where they are going.")
+        plain_sections = [FakeSection(v, "\n\n".join([plain] * (1 + v % 4))) for v in range(1, 101)]
+        plain_codes = sorted({f.code for f in Q._metric_findings(2, plain_sections, baseline)})
+        if plain_codes:
+            failures.append("plain prose with no evidence raised %s; chapter 1 is a style yardstick only"
+                            % ", ".join(plain_codes))
+        if "evidence_density_min" in Q.baseline_payload()["thresholds"]:
+            failures.append("a new freeze would record an evidence threshold again")
 
     if failures:
         for failure in failures:

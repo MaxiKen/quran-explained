@@ -10,13 +10,15 @@ The point of the run is speed and coverage:
 * **map once, at the start.** ``--build`` pulls all eleven works for the whole run
   in one pass — the sources are opened once for fifty verses, not once per verse —
   and writes the run's map plus the per-chapter digests the auditor reads.
-* **push every stop; obtain owner permission before the next run.** Fifty verses are the source
-  run and the maximum independent-review checkpoint. Each verse receives a draft
-  check, every completed fifty-verse window receives automatic drift checks, and
-  every generation stop is committed and pushed with synchronized review scaffolds.
-  Explicit, fingerprinted owner draft approval may permit the next run without
-  supplying missing semantic review. ``--check`` still exits 0 only when all fifty
-  have passed the mechanical and independent semantic gates.
+* **review, post, push every stop; no waiting for permission.** Fifty verses are the
+  source run and the maximum independent-review checkpoint. Each verse receives a draft
+  check, every completed fifty-verse window receives automatic drift checks, and every
+  generation stop is reviewed (a separate pass), has its statistics posted
+  (``stats.py``) and is committed and pushed — then the next run begins without
+  waiting (the author's standing order, 2026-10-01). An explicit, fingerprinted owner
+  draft approval, if the owner gives one, may still permit a run without supplying
+  missing semantic review. ``--check`` still exits 0 only when all fifty have passed
+  the mechanical and independent semantic gates.
 
     python3 scripts/tafsir/run.py --plan                 # the next fifty verses
     python3 scripts/tafsir/run.py --build                # map them from the eleven
@@ -513,11 +515,12 @@ def show_status(verses, index, no_grounding=False) -> int:
         if owner_approved:
             print("OWNER-APPROVED DRAFT — the next authorized run may proceed; independent review and publication remain pending")
         else:
-            print("REVIEW PENDING — push this complete candidate and obtain owner draft approval or full acceptance before the next run")
+            print("REVIEW PENDING — complete the independent review pass and run the full gate before the next run; "
+                  "if it cannot be finished now, push this complete candidate (--push-check) and finish it first")
     print("draft check: batch.py <chapter> --from A --to B --draft")
     print("pre-push check: batch.py <chapter> --from A --to B --push-check")
     print("acceptance check (maximum fifty verses): batch.py <chapter> --from A --to B")
-    print("every generation stop: commit and push the clean review candidate, even if incomplete or pending")
+    print("every generation stop: review, post the statistics (stats.py --write), commit and push, then go on")
     return 1 if (fails or quality_findings or len(done) < len(verses) or acceptance_pending) else 0
 
 
@@ -561,15 +564,16 @@ def check_run(verses, index, no_grounding=False) -> int:
         for f in chapter_level:
             print("  %-4s %-18s %s" % (f.level, f.code, f.message[:90]))
     if pending or failing or quality_findings:
-        print("RUN NOT INDEPENDENTLY ACCEPTED \u2014 push each clean drafting stop; "
-              "explicit owner draft approval may authorize a later run, but complete source/evidence "
+        print("RUN NOT INDEPENDENTLY ACCEPTED \u2014 complete the independent review pass and push each clean stop; "
+              "an owner draft approval, if given, may authorize a later run, but complete source/evidence "
               "parity review remains mandatory for acceptance and publication")
         return 1
     if complete_chapters and any(f.level == A.FAIL for f in chapter_level):
         print("RUN INCOMPLETE \u2014 the chapter gate still fails on the finished chapter")
         return 1
     print("RUN COMPLETE \u2014 all %d verses are written, mechanically clean and independently "
-          "accepted against chapter 1; wait for the author's next start" % len(verses))
+          "accepted against chapter 1; post the statistics (stats.py --write), push, and pin the next run "
+          "(run.py --plan)" % len(verses))
     return 0
 
 

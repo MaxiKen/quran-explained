@@ -1323,8 +1323,10 @@ def audit_chapter(chapter: int, opts, path=None) -> list:
                  "no present-world application marker detected (v8 diagnostic only; add none "
                  "unless the verse supplies a real practical demand or present parallel)")
 
-        # grounding
-        if not opts.no_grounding:
+        # grounding (advisory). ``opts.only_verses``, when a caller sets it, limits the work to the
+        # verses it will report; without it every verse is grounded, as before.
+        only = getattr(opts, "only_verses", None)
+        if not opts.no_grounding and (only is None or section.verse in only):
             missing = _ungrounded(body, chapter, section.verse, opts)
             if missing:
                 warn("GRD-TOKENS", ref, anchor,
@@ -1992,7 +1994,6 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
     sources = digest.get(str(verse)) or {}
     if not sources:
         return set()
-    haystack = _canon("\n".join(sources.values()))
 
     tokens = set()
     prose = _prose_only(body)
@@ -2021,6 +2022,7 @@ def _ungrounded(body: str, chapter: int, verse: int, opts):
             tokens.add(m.group(1))
     if len(tokens) < GROUNDING_MIN_TOKENS:
         return set()
+    haystack = _canon("\n".join(sources.values()))   # only now: it is the costly step
     absent = {t for t in tokens if _canon(t) not in haystack}
     if len(absent) / len(tokens) >= GROUNDING_MISS_RATIO:
         return absent

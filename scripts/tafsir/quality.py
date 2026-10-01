@@ -3,21 +3,29 @@
 
 The ordinary auditor proves format and minimum evidence.  This gate answers the
 separate question the old gate could not answer: does a newly written range still
-match the accepted quality of chapter 1?
+read like chapter 1?
+
+Chapter 1 is a WRITING-STYLE yardstick only (the owner's instruction, 2026-10-01):
+sentence length, the share of very long sentences and readability are measured
+against it.  How much content or evidence a verse carries is never compared with
+chapter 1; that follows what the verse's own sources hold (the auditor's per-verse
+floors and anchors, and the reviewer's material-point ledger).  Evidence density is
+still measured and reported, as information, never as an alarm.
 
 Fifty verses may be source-mapped and written in one review checkpoint. Automatic
-prose and evidence alarms still run every fifty verses so degeneration is caught
+prose alarms still run every fifty verses so degeneration is caught
 early. Every non-baseline verse needs an independent semantic review in
 ``quality/reviews/`` before acceptance or publication. A review scores the prose
-against chapter 1, fingerprints and compares every available source passage, groups
+style against chapter 1, fingerprints and compares every available source passage, groups
 duplicate witnesses into distinct material points, accounts for omissions, and
 verifies Qur'an citations, named transmitted evidence, language claims, and
 consequential legal/theological claims for source support and relevance—not merely
 verbal presence.
 
-A synchronized pending review template is enough for a review-candidate push. An
-explicit, fingerprinted owner approval may advance the draft-continuation frontier
-without fabricating semantic reviews. At most fifty new drafts may follow that
+A synchronized pending review template is enough for a review-candidate push. The
+independent review pass normally advances the frontier; an explicit, fingerprinted
+owner approval, if the owner gives one, may also advance the draft-continuation
+frontier without fabricating semantic reviews. At most fifty new drafts may follow that
 frontier. The push check and owner draft approval never grant independent acceptance;
 the full source/claim/citation/rubric gate remains mandatory before publication.
 
@@ -75,12 +83,19 @@ RUBRIC = (
 )
 
 # The baseline is an alarm floor, not a quota.  An independent reviewer may
-# approve a source-sparse or technically difficult checkpoint by documenting a
-# metric exception.  Hard defects and missing semantic review cannot be waived.
+# approve a technically difficult checkpoint by documenting a metric exception.
+# Hard defects and missing semantic review cannot be waived.
+#
+# Chapter 1 is a WRITING-STYLE yardstick only (owner, 2026-10-01).  The alarms
+# below measure how the prose reads: sentence length, the share of very long
+# sentences, readability, and the production-mould checks (one authority
+# supplying nearly every mention, one fixed section shape, one fixed application
+# slot).  How much content or evidence a verse carries is NOT compared with
+# chapter 1.  ``metrics()`` still reports the evidence density; it is
+# information, not an alarm.
 MEAN_SENTENCE_MARGIN = 2.0
 FLESCH_MARGIN = 5.0
 LONG_SENTENCE_MARGIN = 0.02
-EVIDENCE_DENSITY_RATIO = 0.65
 AUTHORITY_CONCENTRATION_LIMIT = 0.70
 SHAPE_CONCENTRATION_LIMIT = 0.60
 FINAL_APPLICATION_LIMIT = 0.80
@@ -363,8 +378,6 @@ def baseline_payload() -> dict:
             "long_sentence_share_max": max(
                 0.10, metrics(doc.sections)["long_sentence_share"] + LONG_SENTENCE_MARGIN),
             "flesch_min": metrics(doc.sections)["flesch"] - FLESCH_MARGIN,
-            "evidence_density_min": (
-                metrics(doc.sections)["evidence_mentions_per_1000"] * EVIDENCE_DENSITY_RATIO),
             "authority_concentration_max": AUTHORITY_CONCENTRATION_LIMIT,
             "shape_concentration_max": SHAPE_CONCENTRATION_LIMIT,
             "final_application_share_max": FINAL_APPLICATION_LIMIT,
@@ -386,7 +399,7 @@ def preserve_stronger_thresholds(candidate: dict, previous: Optional[dict]) -> d
                 "final_application_share_max"):
         if isinstance(old.get(key), (int, float)) and isinstance(new.get(key), (int, float)):
             new[key] = min(old[key], new[key])
-    for key in ("flesch_min", "evidence_density_min"):
+    for key in ("flesch_min",):
         if isinstance(old.get(key), (int, float)) and isinstance(new.get(key), (int, float)):
             new[key] = max(old[key], new[key])
     return candidate
@@ -554,7 +567,8 @@ def _review_errors(chapter: int, section, review: dict, row: dict, path: Path) -
                                       "%s needs an integer score from 1 to 5" % dimension))
             elif score < MIN_SCORE:
                 errors.append(Finding("QTY-BELOW-CHAPTER-1", ref,
-                                      "%s scored %d; 4 is the Chapter-1 quality floor" %
+                                      "%s scored %d; 4 is the minimum (prose and finish match Chapter 1's style; "
+                                      "the rest must be sound for what the sources carry)" %
                                       (dimension, score)))
 
     synthesis = row.get("source_synthesis") if isinstance(row, dict) else None
@@ -913,7 +927,8 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
     thresholds = baseline["thresholds"]
     verses = sorted(by_verse)
 
-    # Fifty-verse metric windows catch prose and evidence drift near its beginning.
+    # Fifty-verse metric windows catch prose drift near its beginning.  Style only:
+    # the amount of evidence is reported by ``metrics()`` but is never an alarm.
     for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE):
         group = [by_verse[v] for v in chunk]
         m = metrics(group)
@@ -935,13 +950,6 @@ def _metric_findings(chapter: int, sections: Sequence, baseline: dict) -> List[F
                 "QTY-READABILITY-DRIFT", ref,
                 "Flesch %.0f is below the Chapter-1 alarm %.0f" %
                 (m["flesch"], thresholds["flesch_min"]), affected, False))
-        if m["evidence_mentions_per_1000"] < thresholds["evidence_density_min"]:
-            findings.append(Finding(
-                "QTY-EVIDENCE-DRIFT", ref,
-                "checkable Qur'an/authority evidence density %.1f per 1,000 words is below the "
-                "Chapter-1 alarm %.1f; do not add token citations—review the unused source material" %
-                (m["evidence_mentions_per_1000"], thresholds["evidence_density_min"]),
-                affected, False))
 
     # One hundred verses reveal a production mould or token authority floor.
     for chunk in _chunks(verses, METRIC_CHECKPOINT_SIZE * 2):
@@ -1358,14 +1366,14 @@ def template(chapter: int, start: int, end: int, writer: str) -> Path:
 def _print_baseline(data: dict) -> None:
     m = data["metrics"]
     t = data["thresholds"]
-    print("CHAPTER 1 — FROZEN QUALITY FLOOR")
+    print("CHAPTER 1 — FROZEN WRITING-STYLE YARDSTICK")
     print("  sha256: %s" % data["sha256"])
     print("  words: %d | mean sentence %.1f | >40 words %.1f%% | Flesch %.0f" %
           (m["words"], m["mean_sentence"], 100 * m["long_sentence_share"], m["flesch"]))
-    print("  evidence mentions: %.1f per 1,000 prose words" % m["evidence_mentions_per_1000"])
-    print("  drift alarms: mean > %.1f | >40 words > %.1f%% | Flesch < %.0f | evidence < %.1f/1k" %
-          (t["mean_sentence_max"], 100 * t["long_sentence_share_max"], t["flesch_min"],
-           t["evidence_density_min"]))
+    print("  evidence mentions: %.1f per 1,000 prose words (information only, never an alarm)" %
+          m["evidence_mentions_per_1000"])
+    print("  style alarms: mean > %.1f | >40 words > %.1f%% | Flesch < %.0f" %
+          (t["mean_sentence_max"], 100 * t["long_sentence_share_max"], t["flesch_min"]))
 
 
 def _emit(chapter: int, verses: Sequence[int], findings: Sequence[Finding], range_metrics: dict,
