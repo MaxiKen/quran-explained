@@ -1,0 +1,6 @@
+### WHAT THE PROPHET SAID OF ITS WORTH
+
+- `1:0.0` · hadith · Ubayy ibn Kaʿb: the Prophet called him while he prayed; Ubayy hurried his prayer, then came; asked why he had not answered, given 8:24, Ubayy said he would answer from then on even when praying. The Prophet offered to teach him a sūrah the like of which was not sent down in the Torah, the Gospel, the Psalms or the Qurʾān; at the mosque door Ubayy reminded him; he asked how Ubayy recited in prayer, Ubayy recited Umm al-Qurʾān, and the Prophet swore that nothing like it was sent down — "it is the seven oft-repeated that God gave me". [baghawi¶35]
+- `1:0.0` · hadith · Baghawī gives this report from al-Tirmidhī (faḍāʾil al-Qurʾān) and Aḥmad, from Ubayy; Ibn Khuzaymah, Ibn Ḥibbān and al-Ḥākim have it from Abū Hurayrah from Ubayy; al-Bukhārī has a like report from Abū Saʿīd ibn al-Muʿallā. Baghawī: ḥasan ṣaḥīḥ. [baghawi¶35]
+- `1:0.0` · hadith · Ibn ʿAbbās: Jibrīl was with the Prophet when they heard a creaking from above; Jibrīl said a door had opened in heaven that never opened before; an angel came down: "Rejoice in two lights given to you and to no prophet before you — Fātiḥat al-Kitāb and the closing verses of al-Baqarah; you will not recite a letter of them but you will be given it." Muslim (806) and al-Nasāʾī; Baghawī: ṣaḥīḥ. [baghawi¶36]
+

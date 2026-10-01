@@ -1,0 +1,13 @@
+### THE BASMALAH AS A VERSE: WHAT THE SCHOOLS HOLD
+
+- `1:1.0` · ruling · Baghawī: the qurrāʾ of Madīnah and Baṣrah and the jurists of Kūfah hold that it is not part of al-Fātiḥah or of any other sūrah, and that it is said at the start for blessing and good omen. [baghawi¶12]
+- `1:1.0` · ruling · The qurrāʾ of Makkah and Kūfah and most Ḥijāzī jurists: part of al-Fātiḥah but not of the other sūrahs, written to separate them. [baghawi¶12]
+- `1:1.0` · ruling · A group — al-Thawrī, Ibn al-Mubārak, al-Shāfiʿī: part of al-Fātiḥah and of every sūrah except al-Tawbah, because it is written in the codex in the script of the Qurʾān. [baghawi¶12]
+- `1:1.0` · lesson · All agree that al-Fātiḥah has seven verses; for those who count the basmalah it is the first and the last begins "ṣirāṭa alladhīna"; for those who do not, the first is "al-ḥamdu li-llāhi rabbi l-ʿālamīn" and the last begins "ghayri l-maghḍūbi ʿalayhim" (Baghawī). [baghawi¶13]
+- `1:1.0` · athar · For counting it: Saʿīd ibn Jubayr recited al-Fātiḥah to Ibn Jurayj's father and counted "bismillāh…" as the seventh verse, saying he had recited it so to Ibn ʿAbbās; Ibn ʿAbbās added "so He stored it up for you and brought it out to no one before you". Baghawī's chain runs through al-Shāfiʿī, ʿAbd al-Majīd and Ibn Jurayj; his note cites al-Shāfiʿī's Musnad and his own Sharḥ al-Sunnah. [baghawi¶13]
+- `1:1.0` · hadith · Against counting it: Anas ibn Mālik — "I stood behind Abū Bakr, ʿUmar and ʿUthmān and none of them recited 'bismillāhi l-raḥmāni l-raḥīm' when he opened the prayer" (Mālik in the Muwaṭṭaʾ; Muslim 399). [baghawi¶14]
+
+- `1:1.0` · ruling · Maʿārif: the Muslims agree that the basmalah is a verse of the Qurʾān as part of al-Naml and that it is written at the head of every sūrah but al-Tawbah; they differ whether it is an integral part of al-Fātiḥah or of all sūrahs. [maarif¶2]
+- `1:1.0` · ruling · Abū Ḥanīfah: it is an integral part of no sūrah except al-Naml; it is an independent verse revealed to be placed at the beginning of each sūrah to separate and distinguish it from the next (Maʿārif). [maarif¶2]
+- `1:1.0` · ruling · The study draft: all but one of the 114 sūrahs begin with it (it is also in 27:30), and there is a debate whether it is a verse of each sūrah or a sign that a new sūrah begins. [initial¶1]
+- `1:1.0` · athar · Jaʿfar al-Ṣādiq, in the study draft: the basmalah is "the greatest verse in the Book of God"; on this Shiite scholars all hold it a verse of the Fātiḥah and of every sūrah that begins with it (Ṭb, Ṭs); others say it is a verse, though separate from the sūrahs it begins (IK). [initial¶1]
