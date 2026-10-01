@@ -336,8 +336,8 @@ pilot below.
 **Pending — evidence first, commentary later (2026-10-01).** The author is piloting a two-phase
 approach (`TAFSIR_EVIDENCE_MAP.md`): an evidence map for every verse first (`evidence/NNN.md`, checked by
 `scripts/tafsir/evidencemap.py`), commentary built from the maps later on his prompt, its length decided
-by the evidence rather than a fixed word range. **Commentary writing is paused until that prompt; this
-file is unchanged by the pilot.** If it is adopted, the verse and paragraph floors of §4 (`WRD-FLOOR`,
+by the evidence rather than a fixed word range. He has chosen full depth for the maps ("103 style", with more evidence than the first map held); **commentary
+writing is paused until his Phase 2 prompt, and this file is unchanged by the pilot.** If it is adopted, the verse and paragraph floors of §4 (`WRD-FLOOR`,
 `WRD-PARA-FLOOR`) and the Chapter-1 style record will have to be revisited together (see §7 of that file).
 
 ## 1. Sources — what may be written from (`SRC-*`)

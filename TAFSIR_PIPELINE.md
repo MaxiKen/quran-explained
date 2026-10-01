@@ -27,7 +27,7 @@ per chapter first, commentary built from it later, its length decided by the evi
 | Path | What it is |
 |---|---|
 | `tafsir/` | the generated corpus — `001.md` … `114.md` (empty at present: all generated commentary was cleared on 2026-10-01 and `tafsir/.gitkeep` remains) |
-| `evidence/NNN.md` | the evidence map of the two-phase pilot: per verse, heads with a short summary of the evidence the eleven works carry under each, every item naming its works; written and validated with `scripts/tafsir/evidencemap.py` (pilots: 103 at full depth, 108 at survey depth) |
+| `evidence/NNN.md` | the evidence map of the two-phase pilot: per verse, heads with one item for each distinct claim the eleven works carry, each citing the works and paragraphs (`tabari¶5`); in a full map every paragraph of every work is cited or set aside with a reason; written and validated with `scripts/tafsir/evidencemap.py` (103 rebuilt at full depth, the author's choice; 108 still a survey map) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |

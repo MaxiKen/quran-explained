@@ -22,27 +22,34 @@ recorded as one. Independent acceptance still gates publication.
 repository state, stay on the branch assigned to the session, and push there. Never restore or copy cleared
 commentary from history: it was cleared on 2026-10-01 and the book is written again from the sources.
 
-**Now, “continue” means Phase 1 — the evidence maps — once the author has accepted the pilot.** The pilot
-maps are `evidence/103.md` (full depth) and `evidence/108.md` (survey depth). If the author's words show he
-has not yet judged them, say the pilot awaits his verdict; do not start commentary and do not map further
-chapters at scale. Once he has accepted the format, “continue” means: map the next chapters in order from the
-first chapter that has no map, at the depth he named (**survey** unless told otherwise), one
-`evidence/NNN.md` per chapter:
+**Now, “continue” means Phase 1 — the evidence maps, at full depth — once the author has seen the rebuilt 103.**
+On 2026-10-01 the author chose the **103 style (full depth)** and said he expects it to carry *more evidence
+than the first 103 map held*. `evidence/103.md` was rebuilt to that — 160 items, 6,080 summary words, every
+paragraph of the eleven works cited or set aside with a reason (`TAFSIR_EVIDENCE_MAP.md` §3) — and awaits his
+word on the density and its cost (about 14–15 M words and 500–700 one-AI hours for the Qurʾān). If his words
+show he has not seen it, say it awaits him; do not start commentary and do not map further chapters at scale.
+Once he says “continue”, map the chapters in order from the first chapter without a full map (Chapter 1;
+`evidence/108.md` is still a survey map and is rebuilt at full depth in its turn), one `evidence/NNN.md` per
+chapter:
 
 ```bash
 python3 scripts/tafsir/sources.py N --cap-json 0                       # the chapter's digest (git-ignored scratch)
-python3 scripts/tafsir/evidencemap.py read N V --cap-en 2000 --cap-ar 1000   # survey a verse, all eleven works
+python3 scripts/tafsir/evidencemap.py read N V --full                  # every paragraph of every work, numbered from 1
 python3 scripts/tafsir/evidencemap.py read N V --find TEXT --only tabari     # locate a verse in a long passage
-python3 scripts/tafsir/evidencemap.py read N V --para tabari:62,64           # drill into paragraphs
-python3 scripts/tafsir/evidencemap.py check N                                # must say PASS (0 errors)
+python3 scripts/tafsir/evidencemap.py read N V --para tabari:62,64           # re-read chosen paragraphs
+python3 scripts/tafsir/evidencemap.py check N [--gaps]                 # must say PASS (0 errors); --gaps lists what is unaccounted
 ```
 
-Write a head per theme and under it the evidence found, each item naming the works that carry it; account for
-all eleven works under every verse (cite each, or list it under "Nothing further from" — and only if it was
-really read); take attributions only from what the passages themselves say, and say so where a hadith's
-collection is not named. Commit and push each finished chapter. Several chapters may be mapped at once by
-separate sessions (one file per chapter). Phase 2 — building commentary from a map, beginning with a
-deepening pass — starts only on the author's prompt.
+Read each verse's passages through. Write a head per theme and under it **one item for each distinct claim**,
+each citing the works *and the paragraphs* that carry it (`tabari¶5`, `qurtubi¶10-11`, `alusi@3¶9`); give the
+chain or wording, the ground offered and the verdict wherever the source gives them, and split an item rather
+than squeeze it. Account for all eleven works under every verse; list any paragraph you do not use on a
+`**Set aside:**` line with its reason (headings, formulae, closings — never evidence); take attributions only
+from what the passages say (the study draft's initials stay as written) and say where a hadith's collection is
+not named. The paragraph rule is enforced once the last verse is in, so for a long chapter map in order and run
+`check N --gaps` to see what is left. Commit and push each finished chapter and do not stop to ask whether to
+continue. Several chapters may be mapped at once by separate sessions (one file per chapter, one writer to a
+chapter). Phase 2 — building commentary from a map — starts only on the author's prompt.
 
 **What the 2026-10-01 clear removed.** `tafsir/001.md` and `tafsir/002.md`; the payload
 `data/tafsir_001.json` (no `data/tafsir_NNN.json` exists now); the tracked drafting bench `tmp/work/c1_*.md`
@@ -129,8 +136,8 @@ recorded in `TAFSIR_WORKLOG.md` and is readable in git history, nothing more.
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0f50f-quran-explained` (the previous one was `arena/01a0e398-quran-explained`) |
 | Commentary | **None written; writing paused** until the author's Phase 2 prompt. All generated commentary was cleared on 2026-10-01. |
-| Evidence maps | **Pilot:** `evidence/103.md` (full depth, 70 items) and `evidence/108.md` (survey depth, 41 items); both pass `evidencemap.py check`. Awaiting the author's verdict on the format and depth. |
-| Next | The author judges the pilot; then Phase 1 across the chapters (survey depth), then Phase 2 on his prompt. |
+| Evidence maps | **Depth chosen: full (“103 style”).** `evidence/103.md` rebuilt (160 items, 6,080 words, 133 paragraphs cited + 15 set aside + 0 missing); `evidence/108.md` is still a survey map (41 items) and warns. Awaiting the author's word on the density and its cost. |
+| Next | The author confirms the density; then Phase 1 across the chapters at full depth (from Chapter 1), then Phase 2 on his prompt. |
 | Standard | **v8 raised** for commentary, unchanged and not applied while it is paused; narrowed on 2026-10-01 so Chapter 1 is a writing-style yardstick only. |
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named in the book, relayed, compared or quoted |
 
@@ -140,7 +147,7 @@ mapped passage at 2:38–2:39; this is an upstream coverage gap, not a reason to
 Measured on the final tree:
 
 ```
-python3 scripts/tafsir/evidencemap.py check --all    # 103 PASS (4 warnings: reports with no collection named); 108 PASS
+python3 scripts/tafsir/evidencemap.py check --all    # 103 PASS (5 warnings: reports with no collection named); 108 PASS (1 warning: survey depth)
 python3 scripts/tafsir/audit.py --all                # 0/114 chapters written
 python3 scripts/tafsir/build_data.py --all --check   # 0 up to date, 0 stale, 114 not written yet
 python3 scripts/tafsir/quality.py --all --push-check # no non-baseline commentary is written

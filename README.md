@@ -45,12 +45,12 @@ is re-frozen or retired ([`quality/README.md`](quality/README.md)).
 ## Pipeline in one screen
 
 **Commentary is paused**, so a bare “continue” does not start it. Phase 1 — the evidence maps — is
-piloted (`TAFSIR_EVIDENCE_MAP.md`):
+piloted at full depth, the author's choice (`TAFSIR_EVIDENCE_MAP.md`; `evidence/103.md` is the model):
 
 ```bash
 python3 scripts/tafsir/sources.py N --cap-json 0           # the digest for chapter N (git-ignored scratch)
-python3 scripts/tafsir/evidencemap.py read N V             # survey one verse across the eleven works
-python3 scripts/tafsir/evidencemap.py check N              # validate evidence/NNN.md
+python3 scripts/tafsir/evidencemap.py read N V --full      # every paragraph of every work, numbered
+python3 scripts/tafsir/evidencemap.py check N              # validate evidence/NNN.md (--gaps: what is unaccounted)
 ```
 
 When commentary resumes, a bare “continue” pins the first unwritten verse and goes — the author's

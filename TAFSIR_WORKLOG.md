@@ -44,6 +44,29 @@ reports with their collections, named early authorities, language points. Full s
 
 ## Progress
 
+**The pilot rebuilt at full depth, with paragraph pointers (2026-10-01, later).** The author read the two
+pilot maps and wrote: "I will go for 103 style and I expect it to have more evidence than what's present."
+
+* *Decided by the author:* full depth (“103 style”), carrying more evidence than the first 103 map. Whether
+  the new density is what he meant, and its cost, await his word; Phase 2 still starts only on his prompt.
+* *Built:* `evidencemap.py` now numbers paragraphs from 1 (`read --full` prints them all); a full map's
+  citations name paragraphs (`tabari¶5`, `alusi@3¶9`); `check` proves that once the last verse is mapped
+  **every paragraph of every work's passage is cited or set aside with a reason** (headings and separators
+  exempt; a map that sets aside over 20 % is warned) and prints a per-work table; `--gaps` lists what is
+  unaccounted; item limit for full maps 100 words; a survey map now warns that it is not the chosen depth.
+* *Rebuilt:* `evidence/103.md` — 160 items (was 70), 6,080 summary words (was 2,937), 33 heads (was 27),
+  all 160 items pointing at paragraphs (was none); 148 real paragraphs: 133 cited, 15 set aside (2.9 % of the
+  text: headings, greetings, quoted copies), 0 missing. Seven things the first map lacked were added (Ādam's
+  creation as a reason for the oath, the al-ḍuḥā comparison, an oath by one of two unspecified, the
+  spearhead-and-blossom answer, al-Māturīdī's note, Ṭabarī's chain details, the Jarīr line);
+  the first map's unsupported expansion of the study draft's "R" to al-Rāzī was removed.
+  `check`: PASS, 0 errors, 5 warnings (reports whose collection the sources do not name).
+* *Measured:* at this density a map is about 124 words per 1,000 characters of source — scaled to the Qurʾān
+  (125 M characters, 342,338 real paragraphs) about 14–15 M words and 370,000 items, twice the first density;
+  the rebuild took about 17 minutes of sandbox clock, so of the order of 500–700 one-AI hours (rough, from one
+  short chapter).
+* *Not changed:* `evidence/108.md` (still survey, now warned), the rules, the audit and quality gates, the app.
+
 **Chapter 1 deleted again; commentary paused; the two-phase approach piloted (2026-10-01).** The author
 said he was "thinking of a new approach" and asked to be heard out (his words are in `TAFSIR_HANDOFF.md`):
 first an evidence map for every verse — heads, with a short summary of the evidence the eleven works carry

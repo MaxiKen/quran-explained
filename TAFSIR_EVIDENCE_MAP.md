@@ -1,10 +1,11 @@
 # Evidence first, commentary later — the two-phase approach
 
-> **Status: a pilot, proposed by the author on 2026-10-01 and not yet adopted as a rule.** The
-> author said he does not yet know whether it will work and asked to be heard out. This file records
-> the idea, what was built to try it, what the pilot measured, and what would have to change if it is
-> adopted. Nothing here alters `TAFSIR_RULES.md`; commentary writing is **paused** until the author's
-> Phase 2 prompt (see `TAFSIR_HANDOFF.md`).
+> **Status: a pilot, proposed by the author on 2026-10-01; the depth is chosen, the rest is not yet a
+> rule.** The author read the two pilot maps and chose the **103 style (full depth)**, adding that he
+> expects it to carry *more evidence than the first 103 map held*. `evidence/103.md` was rebuilt to that
+> (§3) and awaits his word on the new density and its cost (§3, §7). Nothing here alters
+> `TAFSIR_RULES.md`; commentary writing is **paused** until the author's Phase 2 prompt (see
+> `TAFSIR_HANDOFF.md`).
 
 ## 1. The idea, in the author's words
 
@@ -28,45 +29,67 @@ it was (with the rest of the generated commentary), so no commentary exists in t
 
 * **`evidence/NNN.md`** — one map per chapter. A `## Introduction` block (the sūrah-level evidence:
   where and why it came, its merit) and a `## Verse C:V` block per verse. Under each verse: the
-  `**Sources with text:**` line, then `### HEADS` (UPPERCASE descriptive titles, unique in the
-  chapter) and under each head numbered items:
-  `` - `103:1.2` · athar · summary [tabari, qurtubi@2] ``. The *kind* is one of quran, hadith, athar,
-  language, occasion, ruling, history, lesson; the bracket names the works that carry the point
-  (`@V` = the passage sits under verse V).
-* **`scripts/tafsir/evidencemap.py`** — `read` (a survey reader: each work's passage up to a cap, a
-  table of contents for the rest, whole-sūrah passages shown once, `--para` to drill into a
-  paragraph, `--find` to locate a verse inside a long passage) and `check` (validates a map).
+  `**Sources with text:**` line, optionally `**Nothing further from:**` and `**Set aside:**` lines, then
+  `### HEADS` (UPPERCASE descriptive titles, unique in the chapter) and under each head numbered items:
+  `` - `103:1.7` · athar · summary [tabari¶5, qurtubi¶10, baghawi¶3] ``. The *kind* is one of quran,
+  hadith, athar, language, occasion, ruling, history, lesson; the bracket names the works **and the
+  paragraphs** that carry the point (`work¶3-5`, `work¶3+7`; `work@2¶4` = paragraph 4 of the passage
+  under verse 2).
+* **`scripts/tafsir/evidencemap.py`** — `read` (each work's passage with its paragraphs numbered from 1;
+  `--full` prints every paragraph; without it a passage is cut at a cap and the rest listed in a table of
+  contents; whole-sūrah passages shown once; `--para` and `--find` to drill and to locate) and `check`
+  (validates a map; `--gaps` lists the paragraphs not yet accounted for).
 * **`check` proves, mechanically:** the quoted line is the verse's own translation; the sources line
-  matches what the digest holds; **every one of the eleven works is cited or explicitly marked
-  "Nothing further from"** (so none can be silently skipped); every cited passage exists; item
-  numbers run 1..n; heads are UPPERCASE and unique; every cross-reference is a real verse; a hadith
-  without a named collection and an athar without a named authority are flagged. Summaries are held
-  to a limit by *depth* (below). It does **not** prove an item is *true* — see §6.
-* **Depth is declared** in the map's first comment. **Survey** (the quick pass): at most 12 items a
-  verse (8 in the introduction), 35 words each, read from the capped passages and their tables of
-  contents. **Full**: the passages read through, everything found listed (up to 60 words an item).
+  matches what the digest holds; every one of the eleven works is cited or marked "Nothing further
+  from" under each verse; every cited passage **and paragraph** exists; item numbers run 1..n; heads
+  are UPPERCASE and unique and do not fall into a template; every cross-reference is a real verse; a
+  hadith without a named collection and an athar without a named authority are flagged.
+  **In a full map, every citation names paragraphs, and once the last verse is mapped every paragraph of
+  every work's passage — a passage repeated under several verses counts once — is either cited by an
+  item or listed on a `Set aside` line with its reason.** Headings and separators (under 20 letters) are
+  exempt; a map that sets aside more than 20 % of the source text is warned. The check prints, per work,
+  the paragraphs cited, set aside and missing. It does **not** prove an item is *true* — see §6.
+* **Depth is declared** in the map's first comment. **Full** — the author's choice (2026-10-01): one item
+  for each distinct claim (up to 100 words, split rather than squeeze), every paragraph accounted for.
+  **Survey**, kept for quick looks: at most 12 items a verse (8 in the introduction), 35 words each; the
+  checker warns that a survey map is not the chosen depth.
 
 ## 3. The pilot, measured
 
-| | Chapter 103 (al-ʿAṣr) | Chapter 108 (al-Kawthar) |
-|---|---|---|
-| Depth | **full** — passages read almost through | **survey** — caps, tables of contents, about a dozen drill-downs |
-| Distinct source text (11 works) | 49,712 chars | 109,411 chars |
-| Items (heads) | 70 (27) — introduction 7, then 17 / 16 / 30 | 41 (16) — introduction 5, then 12 / 12 / 12 |
-| Summary words | 2,937 | 1,219 |
-| Per verse | ≈ 980 words | ≈ 406 words |
-| Map size against the source it summarises | **40 %** | **8 %** |
-| `check` | PASS — 0 errors, 4 warnings | PASS — 0 errors, 0 warnings |
+| | 103, first map | **103, rebuilt** | 108, survey |
+|---|---|---|---|
+| Depth | full, no pointers | **full, pointers, paragraph rule** | survey |
+| Distinct source text (11 works) | 49,712 chars | 49,712 chars (148 real paragraphs) | 109,411 chars |
+| Items (heads) | 70 (27) | **160 (33)** — introduction 17, then 48 / 31 / 64 | 41 (16) |
+| Summary words | 2,937 | **6,080** | 1,219 |
+| Items that point at paragraphs | 0 of 70 | **160 of 160** | optional |
+| Paragraphs cited / set aside / missing | not measurable | **133 / 15 / 0** | not measured |
+| Source text set aside | — | **2.9 %** (headings, greetings, quoted copies) | — |
+| `check` | PASS, 4 warnings | **PASS, 0 errors, 5 warnings** | PASS, 1 warning (survey depth) |
 
-The four warnings in 103 are real flags, not noise: four reports whose **collection the sources
-themselves do not name** (103:1.6, 103:1.7, 103:2.12, 103:3.4). The map says so on each item; the
-commentary may not use such a report with a collection it cannot show.
+*What the rebuild added.* The first map held most claims, squeezed: several scholars' views to one line,
+no chain, no poem, no objection. The rebuild splits them (items citing Ṭabarī 7 → 15, Qurṭubī 23 → 35,
+Baghawī 11 → 17, Alūsī 26 → 41, Ibn ʿUthaymīn 21 → 33, Maʿārif 11 → 18, the study draft 6 → 14; athar
+items 9 → 31) and adds what was absent — Ādam's creation on a Friday as a reason for the oath, the oath by
+al-ḍuḥā as a comparison, the oath being by one of two things unspecified, the
+spearhead-and-blossom answer to "it came late", al-Māturīdī's note on the Muʿtazilah argument, Ṭabarī's
+chain details, the Jarīr line. It also corrected one thing: the first map expanded the study draft's
+initial "R" to al-Rāzī with nothing in the sources to say so; the rebuilt map keeps the initials as the
+draft writes them (the repository holds no key to them).
 
-Reading it honestly: the verses of 103 came out with 17, 16 and 30 items and those of 108 hit the
-survey cap of 12 on all three — length followed evidence, not a word target. And **full depth is not
-quick**: a full-depth map is about 40 % of the size of its source, which scaled to the whole Qurʾān is
-roughly 8 M words — longer than the commentary itself. At survey depth (8 %) the same scaling gives
-about **1.6 M words**, about a quarter of the commentary volume under the old floors.
+*The five warnings are real flags*: reports attributed to the Prophet whose **collection the sources
+themselves do not name** (103:1.19, 1.20, 1.24, 2.22, 3.8). The map says so on each item; the commentary
+may not use such a report with a collection it cannot show.
+
+*What it costs.* At the rebuilt density the map is about 124 words per 1,000 characters of source — 41
+words and 1.08 items per real paragraph. Scaled to the Qurʾān (125 M characters, 342,338 real paragraphs of
+410,270): about **14–15 M words and ≈ 370,000 items** — twice the 7.4 M words of the first density, and
+about twice the commentary under the old floors. The rebuild took about 17 minutes of sandbox clock, tool
+changes included; at that rate the Qurʾān is of the order of **500–700 one-AI hours** (3–4 weeks
+non-stop; two to three days across ten sessions), Chapter 2 alone (13 % of the corpus, 54,361 paragraphs)
+about 100 hours and, with one writer to a chapter (§0.9 R2), not splittable. These are rough figures from
+one short chapter. So **full depth is not quick** — it is complete — and a leaner density (shorter items,
+the same paragraph rule) is a dial the author can turn.
 
 ## 4. What the whole Qurʾān's material says about "evidence decides the length"
 
@@ -98,46 +121,46 @@ their material needs.
   opening" rules (`STY-UNIQUE-VERSE`) are checked up front; the checker already caught two verses
   opening a head with the same two words.
 * **The author can steer cheaply.** A chapter's map is minutes to read; its commentary is not.
-* **Phase 2 need not re-read everything**: each item says which works and which passage carry it.
-* **Nothing is skipped silently**: the all-eleven accounting is enforced per verse.
+* **Phase 2 need not re-read everything**: each item says which works and which paragraphs carry it, so the writer opens exactly those.
+* **Nothing is skipped silently**: the all-eleven accounting is enforced per verse, and in a full map every paragraph is cited or set aside with a reason.
 
 ## 6. What it does not yet solve
 
-* **Depth decides what Phase 2 can build.** A survey map holds highlights; items beyond the cap are
-  not recorded. So Phase 2 must begin each chapter with a *deepening* pass — drill into the cited
-  passages and the paragraphs the survey skipped, extend the map — and only then write.
-* **Summaries lose nuance.** Items point to a work and a verse's passage, not yet to a paragraph;
-  adding a paragraph pointer (the `--para` index) to each item would let Phase 2 jump straight to it.
-* **A map can be wrong.** The checker proves traceability and completeness, not truth. The closed-world
-  check (every named collection or authority really occurs in the cited passage) is not built; the
-  Latin-script names in a summary do not match Arabic passages without a transliteration table.
-* **One AI reads about 127 M characters** (≈ 40 M tokens) either way; the map does not reduce
-  Phase 1 reading, only what Phase 2 must re-read.
+* **Completeness is per paragraph, not per point.** A long paragraph can hold several points; the check
+  proves no paragraph was passed over, not that every point inside one was itemised. In 103 the long
+  paragraphs were audited by hand against the items; that audit is the writer's, not the machine's.
+* **A map can be wrong.** The checker proves traceability and completeness of coverage, not truth. The
+  closed-world check (every named collection or authority really occurs in the cited paragraph) is not
+  built; the Latin-script names in a summary do not match Arabic passages without a transliteration table.
+  The pointer is what lets a reviewer open the paragraph and check.
+* **One AI reads about 125 M characters** (≈ 40 M tokens) and writes the map either way; the map does not
+  reduce Phase 1 reading, only what Phase 2 must re-read (§3 gives the cost).
 * **Two rules will collide with evidence-led length** when Phase 2 starts: the 700-word verse floor
   (`WRD-FLOOR`, `TAFSIR_RULES.md` §4) and the 120-word paragraph floor (`WRD-PARA-FLOOR`). A verse with
   little evidence cannot honestly reach either. They are not changed now (the maps do not touch them).
+* **`evidence/108.md` is still a survey map** and does not meet the chosen depth; it is rebuilt at full
+  depth in its turn (the checker warns until then).
 
 ## 7. What would change for Phase 2 (for the author to decide)
 
-1. **Length from evidence.** Replace the word floors with a coverage rule: every item of the (deepened)
-   map is built into the commentary, or struck from the map with a recorded reason; no padding; length
-   is whatever that takes. The review ledger's included/omitted decisions already express this.
+1. **Length from evidence.** Replace the word floors with a coverage rule: every item of the map is built
+   into the commentary, or struck from the map with a recorded reason; no padding; length is whatever that
+   takes. The review ledger's included/omitted decisions already express this.
 2. **The 120-word paragraph floor** — keep it (a paragraph combines several items) or drop it.
 3. **The Chapter-1 style record.** `quality/chapter-001-baseline.json` still holds the style thresholds
    (mean sentence ≤ 23.0, readability ≥ 62) but Chapter 1 is deleted, so `quality.py --baseline` blocks
    until a chapter is built and frozen or the record is retired. Settle it when Phase 2 starts.
-4. **Where reading depth goes.** Survey for every chapter now, deepen per chapter in Phase 2
-   (recommended), or full depth throughout.
+4. **Density.** *Decided:* full depth (2026-10-01). *Open:* how dense — the rebuilt 103 (§3), or leaner.
 
 ## 8. How to try it
 
 ```bash
-python3 scripts/tafsir/sources.py N --cap-json 0            # the digest for chapter N (git-ignored scratch)
-python3 scripts/tafsir/evidencemap.py read N V --cap-en 2000 --cap-ar 1000   # survey one verse
-python3 scripts/tafsir/evidencemap.py read N V --find TEXT --only tabari      # locate a verse in a long passage
-python3 scripts/tafsir/evidencemap.py read N V --para tabari:62,64            # read chosen paragraphs
-python3 scripts/tafsir/evidencemap.py check N                                  # validate evidence/NNN.md
+python3 scripts/tafsir/sources.py N --cap-json 0                  # the digest for chapter N (git-ignored scratch)
+python3 scripts/tafsir/evidencemap.py read N V --full             # every paragraph of every work, numbered
+python3 scripts/tafsir/evidencemap.py read N V --find TEXT --only tabari     # locate a verse in a long passage
+python3 scripts/tafsir/evidencemap.py read N V --para tabari:62,64           # read chosen paragraphs (from 1)
+python3 scripts/tafsir/evidencemap.py check N                     # validate evidence/NNN.md (--gaps lists what is unaccounted)
 ```
 
-The pilot maps are `evidence/103.md` (full) and `evidence/108.md` (survey); reading them side by side
-is the quickest way to judge the format and the depth.
+`evidence/103.md` is the full-depth map to judge by; `evidence/108.md` is the survey sample it replaces as
+the standard.

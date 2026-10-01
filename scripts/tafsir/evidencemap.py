@@ -2,58 +2,67 @@
 """evidencemap.py — Phase 1 of the two-phase approach: evidence first, commentary later.
 
 The author's idea (2026-10-01): before any commentary is built, every verse gets its
-*heads* and, under each head, a short summary of the evidence the eleven works carry for
-it.  Nothing is written as commentary yet; the map says what will be built upon.  Later,
-on the author's prompt, a chapter is built up from its map, and the length of each verse's
+*heads* and, under each head, a summary of the evidence the eleven works carry for it.
+Nothing is written as commentary yet; the map says what will be built upon.  Later, on the
+author's prompt, a chapter is built up from its map, and the length of each verse's
 commentary is whatever its evidence needs — not a fixed range of words.
 
-    python3 scripts/tafsir/evidencemap.py read 103 1            # survey one verse, all eleven works
-    python3 scripts/tafsir/evidencemap.py read 103 1 --para tabari:3,4 qurtubi:7   # drill in
+    python3 scripts/tafsir/evidencemap.py read 103 1 --full     # every paragraph of every work, numbered
+    python3 scripts/tafsir/evidencemap.py read 103 1 --para tabari:3,4 qurtubi:7   # chosen paragraphs
     python3 scripts/tafsir/evidencemap.py read 108 2 --find وانحر --only tabari,kathir   # where is it?
     python3 scripts/tafsir/evidencemap.py check 103             # validate evidence/103.md
+    python3 scripts/tafsir/evidencemap.py check 103 --gaps      # list the paragraphs not yet accounted for
     python3 scripts/tafsir/evidencemap.py check --all
 
-A map declares its depth in its first comment, ``<!-- depth: survey -->`` or ``depth: full``.
-*Survey* is the quick pass — highlights: at most 12 items a verse (8 in the introduction), each
-at most 35 words — read from the capped passages and their tables of contents; the work it
-leaves is the writer's to deepen when a chapter is built.  *Full* reads the passages through and
-lists everything found (summaries up to 60 words).  The checker applies the limits of the depth
-a map declares, and prints each verse's evidence weight (the distinct source text under it) beside
-its item count.
+**Depth.**  A map declares its depth in its first comment, ``<!-- depth: full -->`` or
+``depth: survey``.  The owner chose *full* on 2026-10-01 ("103 style … more evidence than what's
+present"), so full is the standard; *survey* is kept for quick looks and is not accepted as a
+finished map.  A full map reads every passage through and records everything found:
 
-``read`` is the reading method.  A passage can run to tens of thousands of characters, so it
-prints each work's passage up to a cap, then a table of contents (paragraph sizes and
-openings) for the rest, and says when a work attaches the same whole-sūrah text under every
-verse.  ``--para`` prints chosen paragraphs in full.  What was read, and how deep, is the
-writer's to judge; what was *found* is what the map records.
+* one item for each distinct report, view, reading, ruling or argument, with every name that
+  carries it, the chain or wording the source gives, the ground offered, and the verdict if the
+  source passes one (summaries up to 100 words — split rather than squeeze);
+* every citation points at paragraphs — ``tabari¶3-5``, ``qurtubi¶7+9``, ``alusi@2¶4`` (the
+  passage under verse 2) — so the claim can be opened and the writer can go straight to it;
+* **no paragraph is left behind**: once the last verse is mapped, each paragraph of each work's
+  passage (a passage repeated under several verses counts once) is either cited by an item or
+  listed on a ``**Set aside:**`` line with the reason in brackets.  Headings and separators
+  (under 20 letters) are exempt.  The check prints, per work, how many paragraphs are cited, set
+  aside and missing, so how much of the evidence the map carries is a number, not an impression.
+
+``read`` is the reading method.  It prints each work's passage with its paragraphs numbered
+from 1.  ``--full`` prints every paragraph; without it a passage is cut at a cap and the rest is
+listed in a table of contents (paragraph sizes and openings).  It says when a work attaches the
+same whole-sūrah text under every verse.  ``--para`` prints chosen paragraphs in full.
 
 ``check`` validates the map file ``evidence/NNN.md`` mechanically.  Format of a verse block::
 
     ## Verse 103:1
 
-    > By the declining day!
+    > By the ˹passage of˺ time
 
     **Sources with text:** tabari, qurtubi, ...        (must equal what the digest holds)
-    **Nothing further from:** jalalayn, abbas          (considered; nothing beyond what is above)
+    **Nothing further from:** jalalayn, abbas          (considered here; every paragraph is already cited)
+    **Set aside:** tabari¶7 (chain only), alusi¶4 (repeats ¶3)
 
     ### A DESCRIPTIVE UPPERCASE HEAD                    (the future heading; unique in the chapter)
 
-    - `103:1.1` · language · One-sentence summary of the evidence. [tabari, qurtubi@2]
+    - `103:1.1` · language · Summary of the evidence. [tabari¶3-5, qurtubi¶7, alusi@2¶4]
 
 A sūrah-level block comes first, headed ``## Introduction`` (items numbered ``N:0.k``): what the
 works say about the whole sūrah — where and why it came, its merit, what it gathers — which is
 the material of the commentary's introduction.  Its items cite the passages under verse 1 unless
-they say ``@V``; it has no quoted line and no coverage requirement.
+they say ``@V``; it has no quoted line and no "Sources with text" line.
 
-``kind`` is one of quran, hadith, athar, language, occasion, ruling, history, lesson.  The
-bracket names the works that carry the point; ``@V`` says the passage sits under verse V of
-the same sūrah.  Rules (ERROR fails, WARN is read): every one of the eleven works with text is
-either cited or listed under "Nothing further from"; every cited passage exists in the
-digest; item numbers run 1..n; heads are UPPERCASE and not reused; a cross-reference must be
-a real verse; a hadith should name its collection and an athar its authority.  The map is a
-working document, not the book: it may name the works (the independence law governs the
-commentary built from it).  The digest it is checked against is ``tmp/sources/NNN.json``
-(``sources.py N --cap-json 0``).
+``kind`` is one of quran, hadith, athar, language, occasion, ruling, history, lesson.  Rules
+(ERROR fails, WARN is read): every one of the eleven works with text is either cited or listed
+under "Nothing further from"; every cited passage and paragraph exists in the digest; a full map
+points at paragraphs and leaves none unaccounted; item numbers run 1..n; heads are UPPERCASE and
+not reused; a cross-reference must be a real verse; a hadith should name its collection and an
+athar its authority.  The map is a working document, not the book: it may name the works (the
+independence law governs the commentary built from it).  The digest it is checked against is
+``tmp/sources/NNN.json`` (``sources.py N --cap-json 0``).  While some verses are still unmapped the
+paragraph count is reported but not enforced.
 """
 
 from __future__ import annotations
@@ -77,7 +86,10 @@ ALIASES = {
 }
 SLUG_ALIAS = {slug: alias for alias, slug in ALIASES.items()}
 KINDS = ("quran", "hadith", "athar", "language", "occasion", "ruling", "history", "lesson")
-SUMMARY_WARN_WORDS = {"full": 60, "survey": 35}
+SUMMARY_WARN_WORDS = {"full": 100, "survey": 35}
+SUMMARY_MIN_WORDS = {"full": 8, "survey": 0}
+TRIVIAL_LETTERS = 20      # a paragraph of fewer letters is a heading or a separator, exempt from coverage
+ASIDE_SHARE_WARN = 0.20   # a full map that sets aside more than this share of the source text is not carrying it
 ITEMS_WARN = {"full": None, "survey": 12}
 INTRO_ITEMS_WARN = {"full": None, "survey": 8}
 DEPTH_RE = re.compile(r"depth:\s*(survey|full)")
@@ -88,8 +100,14 @@ HEAD_RE = re.compile(r"^### (.+?)\s*$")
 ITEM_RE = re.compile(r"^- `(\d+):(\d+)\.(\d+)` · (\w+) · (.+) \[([^\[\]]+)\]\s*$")
 WITH_RE = re.compile(r"^\*\*Sources with text:\*\*\s*(.*?)\s*$")
 NOTHING_RE = re.compile(r"^\*\*Nothing further from:\*\*\s*(.*?)\s*$")
+ASIDE_RE = re.compile(r"^\*\*Set aside:\*\*\s*(.*?)\s*$")
+CITE_RE = re.compile(r"^([A-Za-z]+)(?:@(\d+))?(?:¶([0-9+\-]+))?$")
+ASIDE_TOKEN_RE = re.compile(r"([A-Za-z]+)(?:@(\d+))?¶([0-9+\-]+)(?:\s*\(([^()]*)\))?")
 XREF_RE = re.compile(r"\b(\d{1,3}):(\d{1,3})\b")
 ARABIC_RE = re.compile(r"[\u0600-\u06FF]")
+# an athar names whom it comes from; beyond the audit's list, the Companions and Successors the maps meet
+ATHAR_AUTHORITY = re.compile(r"(Compan|Successor|Ṣaḥābī|Tābiʿ|ʿAlī|Abū Bakr|ʿUmar|ʿUthmān|ʿĀʾishah|Ubayy|Ḥafṣah|Abū Ḥudhayfah|"
+                             r"al-Ḥasan|Ibrāhīm|Maymūn|Zayd ibn Aslam|Ibn al-Zubayr|Ibn Zayd|al-Ḍaḥḥāk|Ibn Kaysān|Ibn ʿAwn)")
 
 
 def _digest(chapter: int):
@@ -123,6 +141,38 @@ def paragraphs(text: str):
     return [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
 
 
+def is_trivial(paragraph: str) -> bool:
+    """A heading, a separator or a bare verse quotation: too short to carry evidence."""
+    return sum(1 for ch in paragraph if ch.isalpha()) < TRIVIAL_LETTERS
+
+
+def expand_spec(spec: str):
+    """``3-5+9`` -> {3, 4, 5, 9}; ``None`` if it cannot be read.  Paragraphs count from 1."""
+    out = set()
+    for part in spec.split("+"):
+        lo, dash, hi = part.partition("-")
+        if not lo.isdigit() or (dash and not hi.isdigit()):
+            return None
+        lo_n, hi_n = int(lo), int(hi) if dash else int(lo)
+        if lo_n < 1 or hi_n < lo_n or hi_n - lo_n > 5000:
+            return None
+        out.update(range(lo_n, hi_n + 1))
+    return out
+
+
+def compress(numbers) -> str:
+    """{1,2,3,7,9,10} -> '¶1-3, ¶7, ¶9-10'."""
+    nums, parts = sorted(numbers), []
+    i = 0
+    while i < len(nums):
+        j = i
+        while j + 1 < len(nums) and nums[j + 1] == nums[j] + 1:
+            j += 1
+        parts.append("¶%d" % nums[i] if i == j else "¶%d-%d" % (nums[i], nums[j]))
+        i = j + 1
+    return ", ".join(parts)
+
+
 # ------------------------------------------------------------------------------ read
 
 def cmd_read(args) -> int:
@@ -139,9 +189,10 @@ def cmd_read(args) -> int:
                 print("[%s] no passage under %d:%d" % (alias, chapter, verse))
                 continue
             paras = paragraphs(entry[slug])
-            for i in [int(x) for x in idx.split(",") if x.strip().isdigit()]:
-                if 0 <= i < len(paras):
-                    print("\n[%s ¶%d of %d · %d chars]\n%s" % (alias, i, len(paras), len(paras[i]), paras[i]))
+            wanted = expand_spec(idx.replace(",", "+")) or set()
+            for i in sorted(wanted):
+                if 1 <= i <= len(paras):
+                    print("\n[%s ¶%d of %d · %d chars]\n%s" % (alias, i, len(paras), len(paras[i - 1]), paras[i - 1]))
         return 0
     only = {s.strip() for s in args.only.split(",")} if args.only else None
     if args.find:
@@ -149,7 +200,7 @@ def cmd_read(args) -> int:
             alias, text = SLUG_ALIAS[slug], (entry.get(slug) or "").strip()
             if (only and alias not in only) or not text:
                 continue
-            hits = [(i, p) for i, p in enumerate(paragraphs(text)) if args.find in p]
+            hits = [(i, p) for i, p in enumerate(paragraphs(text), start=1) if args.find in p]
             print("\n[%s] %d of %d paragraphs contain %r" % (alias, len(hits), len(paragraphs(text)), args.find))
             for i, p in hits[: args.toc_lines]:
                 at = p.index(args.find)
@@ -169,16 +220,17 @@ def cmd_read(args) -> int:
             print("\n%s  same text as %d:%d — a whole-sūrah passage attached to every verse; read there" %
                   (head, chapter, verse - 1))
             continue
-        cap = args.cap_ar if lang == "ar" else args.cap_en
+        cap = 10 ** 9 if args.full else (args.cap_ar if lang == "ar" else args.cap_en)
+        rendered = "\n\n".join("¶%d %s" % (i, p) for i, p in enumerate(paras, start=1))
         print("\n" + head)
-        print(text[:cap] + (" …" if len(text) > cap else ""))
-        if len(text) > cap:
+        print(rendered[:cap] + (" …" if len(rendered) > cap else ""))
+        if len(rendered) > cap:
             pos, rows = 0, []
-            for i, p in enumerate(paras):
+            for i, p in enumerate(paras, start=1):
                 if pos >= cap and len(p) >= 150:
                     rows.append("  ¶%d (%s c) %s" % (i, "{:,}".format(len(p)), p[:80].replace("\n", " ")))
-                pos += len(p) + 2
-            print("  — beyond the cap: %d paragraphs of 150+ chars (--para %s:IDX to read one):" % (len(rows), alias))
+                pos += len("¶%d " % i) + len(p) + 2
+            print("  — beyond the cap: %d paragraphs of 150+ chars (--para %s:N to read one, or --full):" % (len(rows), alias))
             print("\n".join(rows[: args.toc_lines]))
             if len(rows) > args.toc_lines:
                 print("  … %d more" % (len(rows) - args.toc_lines))
@@ -198,7 +250,7 @@ def parse(text: str, chapter: int):
         if INTRO_RE.match(line):
             if verses:
                 problems.append(("ERROR", "%d:0" % chapter, n, "the introduction block comes first"))
-            cur = verses[0] = {"line": n, "quote": None, "with": None, "nothing": [], "heads": []}
+            cur = verses[0] = {"line": n, "quote": None, "with": None, "nothing": [], "aside": [], "heads": []}
             head = None
             continue
         m = VERSE_RE.match(line)
@@ -211,7 +263,7 @@ def parse(text: str, chapter: int):
             expected = max(verses) + 1 if verses else 1
             if v != expected:
                 problems.append(("ERROR", "%d:%d" % (c, v), n, "verses must run in order: %d comes next" % expected))
-            cur = verses[v] = {"line": n, "quote": None, "with": None, "nothing": [], "heads": []}
+            cur = verses[v] = {"line": n, "quote": None, "with": None, "nothing": [], "aside": [], "heads": []}
             head = None
             continue
         if cur is None:
@@ -228,6 +280,18 @@ def parse(text: str, chapter: int):
         if m:
             cur["nothing"] = [s.strip() for s in m.group(1).split(",") if s.strip() and s.strip() not in "—-"]
             continue
+        m = ASIDE_RE.match(line)
+        if m:
+            for alias, loc, spec, reason in ASIDE_TOKEN_RE.findall(m.group(1)):
+                paras = expand_spec(spec)
+                if paras is None:
+                    problems.append(("ERROR", "-", n, "cannot read the paragraphs %r in 'Set aside'" % spec))
+                    continue
+                cur["aside"].append({"alias": alias, "loc": int(loc) if loc else None, "paras": paras,
+                                     "reason": reason.strip(), "line": n})
+            if not ASIDE_TOKEN_RE.search(m.group(1)):
+                problems.append(("ERROR", "-", n, "'Set aside' names no paragraphs (write tabari¶7 (reason), …)"))
+            continue
         m = HEAD_RE.match(line)
         if m:
             head = {"title": m.group(1), "line": n, "items": []}
@@ -241,8 +305,14 @@ def parse(text: str, chapter: int):
             srcs = []
             for tok in m.group(6).split(","):
                 tok = tok.strip()
-                alias, _, loc = tok.partition("@")
-                srcs.append((alias.strip(), int(loc) if loc.strip().isdigit() else (None if not loc.strip() else -1)))
+                cm = CITE_RE.match(tok)
+                if not cm:
+                    srcs.append({"alias": tok, "loc": None, "paras": None, "raw": tok, "bad": True})
+                    continue
+                alias, loc, spec = cm.groups()
+                paras = expand_spec(spec) if spec else None
+                srcs.append({"alias": alias, "loc": int(loc) if loc else None, "paras": paras, "raw": tok,
+                             "bad": bool(spec) and paras is None})
             head["items"].append({"id": (int(m.group(1)), int(m.group(2)), int(m.group(3))), "kind": m.group(4),
                                   "summary": m.group(5).strip(), "sources": srcs, "line": n})
             continue
@@ -261,6 +331,9 @@ def check_chapter(chapter: int):
     verses, problems = parse(raw, chapter)
     depth_match = DEPTH_RE.search(raw[:1500])
     depth = depth_match.group(1) if depth_match else "full"
+    if depth == "survey":
+        problems.append(("WARN", str(chapter), 0, "a survey map is not the chosen depth: the owner chose full depth on 2026-10-01 — "
+                         "rebuild this chapter at full depth (pointers, every paragraph accounted for) before Phase 2"))
     digest = _digest(chapter)
     weights = material_weights(chapter, digest) if digest else {}
     if digest is None:
@@ -275,6 +348,17 @@ def check_chapter(chapter: int):
             "%d:%d" % (chapter, v) for v in pending[:8]) + (" …" if len(pending) > 8 else "")))
     heads_seen, prefixes = {}, {}
     stats = {"verses": {}, "kinds": {}, "sources": {}, "depth": depth}
+    cited, aside = {}, {}          # (work, passage text) -> paragraph numbers cited / set aside
+
+    def passage(alias, target):
+        return ((digest.get(str(target)) or {}).get(ALIASES[alias]) or "").strip() if digest else ""
+
+    def note(bucket, alias, text, paras, ref, line):
+        total = len(paragraphs(text))
+        beyond = sorted(x for x in paras if x > total)
+        if beyond:
+            problems.append(("ERROR", ref, line, "%s%s: that passage has only %d paragraphs" % (alias, compress(beyond), total)))
+        bucket.setdefault((alias, text), set()).update(x for x in paras if x <= total)
     for v in sorted(verses):
         block = verses[v]
         ref = "%d:%d" % (chapter, v)
@@ -323,9 +407,16 @@ def check_chapter(chapter: int):
                 nwords = len(C.words(it["summary"]))
                 words += nwords
                 if nwords > SUMMARY_WARN_WORDS[depth]:
-                    problems.append(("WARN", ref, it["line"], "%s is %d words: over the %d-word limit of a %s map" %
+                    problems.append(("WARN", ref, it["line"], "%s is %d words: over the %d-word limit of a %s map — split it into one item for each claim" %
                                      (it["kind"], nwords, SUMMARY_WARN_WORDS[depth], depth)))
-                for alias, loc in it["sources"]:
+                elif nwords < SUMMARY_MIN_WORDS[depth]:
+                    problems.append(("WARN", ref, it["line"], "%s is only %d words: an item says who, what, and on what ground" % (it["kind"], nwords)))
+                unpointed = []
+                for cite in it["sources"]:
+                    alias, loc = cite["alias"], cite["loc"]
+                    if cite["bad"]:
+                        problems.append(("ERROR", ref, it["line"], "cannot read the citation %r (write work¶3-5, or work@V¶3-5 for the passage under verse V)" % cite["raw"]))
+                        continue
                     if alias not in ALIASES:
                         problems.append(("ERROR", ref, it["line"], "unknown work %r in the item's brackets" % alias))
                         continue
@@ -334,8 +425,16 @@ def check_chapter(chapter: int):
                     target = (v or 1) if loc is None else loc
                     if target < 1 or target > count:
                         problems.append(("ERROR", ref, it["line"], "%s@%s: no such verse in this sūrah" % (alias, loc)))
-                    elif digest is not None and not ((digest.get(str(target)) or {}).get(ALIASES[alias]) or "").strip():
+                        continue
+                    text = passage(alias, target)
+                    if digest is not None and not text:
                         problems.append(("ERROR", ref, it["line"], "%s cites a passage under %d:%d, but that work has no text there" % (alias, chapter, target)))
+                    elif text and cite["paras"]:
+                        note(cited, alias, text, cite["paras"], ref, it["line"])
+                    if not cite["paras"]:
+                        unpointed.append(cite["raw"])
+                if unpointed and depth == "full":
+                    problems.append(("ERROR", ref, it["line"], "a full map cites paragraphs — add ¶ to: %s" % ", ".join(unpointed)))
                 for c2, v2 in XREF_RE.findall(it["summary"]):
                     c2, v2 = int(c2), int(v2)
                     if not 1 <= c2 <= 114 or not 1 <= v2 <= C.verse_count(c2):
@@ -344,8 +443,24 @@ def check_chapter(chapter: int):
                     problems.append(("WARN", ref, it["line"], "a quran item should give the verse it cross-refers to (C:V)"))
                 if it["kind"] == "hadith" and not A.COLLECTIONS.search(it["summary"]):
                     problems.append(("WARN", ref, it["line"], "a hadith names its collection (the commentary must) — none found; is it an athar or a lesson?"))
-                if it["kind"] == "athar" and not (A.FIRST_GEN.search(it["summary"]) or A.SCHOLARS.search(it["summary"])):
+                if it["kind"] == "athar" and not (A.FIRST_GEN.search(it["summary"]) or A.SCHOLARS.search(it["summary"]) or ATHAR_AUTHORITY.search(it["summary"])):
                     problems.append(("WARN", ref, it["line"], "an athar names its authority — none found"))
+        for entry in block["aside"]:
+            alias, loc = entry["alias"], entry["loc"]
+            if alias not in ALIASES:
+                problems.append(("ERROR", ref, entry["line"], "unknown work %r in 'Set aside'" % alias))
+                continue
+            target = (v or 1) if loc is None else loc
+            if target < 1 or target > count:
+                problems.append(("ERROR", ref, entry["line"], "%s@%s: no such verse in this sūrah" % (alias, loc)))
+                continue
+            text = passage(alias, target)
+            if digest is not None and not text:
+                problems.append(("ERROR", ref, entry["line"], "%s is set aside under %d:%d, but that work has no text there" % (alias, chapter, target)))
+            elif text:
+                note(aside, alias, text, entry["paras"], ref, entry["line"])
+            if not entry["reason"]:
+                problems.append(("WARN", ref, entry["line"], "%s%s is set aside without a reason — say why in brackets" % (alias, compress(entry["paras"]))))
         limit = (INTRO_ITEMS_WARN if v == 0 else ITEMS_WARN)[depth]
         if limit and n_items > limit:
             problems.append(("WARN", ref, block["line"], "%d items: a %s map keeps at most %d %s" %
@@ -361,6 +476,54 @@ def check_chapter(chapter: int):
                 problems.append(("ERROR", ref, block["line"], "not accounted for: %s — cite each in an item, or list it under 'Nothing further from'" % ", ".join(loose)))
         stats["verses"][v] = {"heads": len(block["heads"]), "items": n_items, "words": words, "works": len(used),
                               "material": weights.get(v)}
+    if digest is not None:
+        cov = {}
+        seen = set()
+        for v in range(1, count + 1):
+            for slug, text in (digest.get(str(v)) or {}).items():
+                alias, text = SLUG_ALIAS.get(slug), (text or "").strip()
+                if not alias or not text or (alias, text) in seen:
+                    continue
+                seen.add((alias, text))
+                row = cov.setdefault(alias, {"paras": 0, "trivial": 0, "cited": 0, "aside": 0, "missing": 0, "chars": 0,
+                                             "cited_chars": 0, "aside_chars": 0, "gaps": []})
+                got, put = cited.get((alias, text), set()), aside.get((alias, text), set())
+                for i, para in enumerate(paragraphs(text), start=1):
+                    if is_trivial(para):
+                        row["trivial"] += 1
+                        continue
+                    row["paras"] += 1
+                    row["chars"] += len(para)
+                    if i in got:
+                        row["cited"] += 1
+                        row["cited_chars"] += len(para)
+                        if i in put:
+                            problems.append(("WARN", str(chapter), 0, "%s¶%d (the passage under %d:%d) is both cited and set aside" % (alias, i, chapter, v)))
+                    elif i in put:
+                        row["aside"] += 1
+                        row["aside_chars"] += len(para)
+                    else:
+                        row["missing"] += 1
+                        row["gaps"].append((v, i, para))
+        stats["coverage"] = cov
+        missing = sum(r["missing"] for r in cov.values())
+        all_chars = sum(r["chars"] for r in cov.values())
+        aside_chars = sum(r["aside_chars"] for r in cov.values())
+        if missing and depth == "full" and not pending:
+            for alias in sorted(cov):
+                gaps = cov[alias]["gaps"]
+                if gaps:
+                    where = {}
+                    for v0, i, _ in gaps:
+                        where.setdefault(v0, set()).add(i)
+                    problems.append(("ERROR", str(chapter), 0, "%s: %d paragraph(s) not accounted for — %s (cite them, or list them under 'Set aside' with a reason)" % (
+                        alias, len(gaps), "; ".join("%s%s" % (("under %d:%d " % (chapter, v0)) if len(where) > 1 else "", compress(nums)) for v0, nums in sorted(where.items())))))
+        elif missing:
+            problems.append(("INFO", str(chapter), 0, "%d paragraph(s) are not yet accounted for%s" % (
+                missing, " (the chapter is still being mapped; the paragraph rule applies once the last verse is in)" if pending else " (a survey map does not carry the paragraph rule)")))
+        if depth == "full" and all_chars and aside_chars / all_chars > ASIDE_SHARE_WARN:
+            problems.append(("WARN", str(chapter), 0, "%.0f%% of the source text is set aside (limit %.0f%%): a full map carries the evidence, it does not shelve it" % (
+                100 * aside_chars / all_chars, 100 * ASIDE_SHARE_WARN)))
     for prefix, by_verse in prefixes.items():
         if len(by_verse) >= 2:
             level = "ERROR" if len(by_verse) >= 3 else "WARN"
@@ -394,6 +557,27 @@ def cmd_check(args) -> int:
             print("  total   %5d %6d %6d      — kinds: %s" % (
                 sum(r["heads"] for r in rows.values()), tot_i, sum(r["words"] for r in rows.values()),
                 ", ".join("%s %d" % kv for kv in sorted(stats["kinds"].items(), key=lambda kv: -kv[1]))))
+        cov = (stats or {}).get("coverage")
+        if cov:
+            print("\n  coverage — each work's distinct passages, paragraph by paragraph (under %d letters = heading, exempt)" % TRIVIAL_LETTERS)
+            print("  %-10s %6s %6s %6s %8s %9s %8s" % ("work", "paras", "cited", "aside", "missing", "chars", "cited%"))
+            tot = {"paras": 0, "cited": 0, "aside": 0, "missing": 0, "chars": 0, "cited_chars": 0, "aside_chars": 0}
+            for alias in ALIASES:
+                r = cov.get(alias)
+                if not r:
+                    continue
+                for k in tot:
+                    tot[k] += r[k]
+                print("  %-10s %6d %6d %6d %8d %9s %7.0f%%" % (alias, r["paras"], r["cited"], r["aside"], r["missing"],
+                                                              "{:,}".format(r["chars"]), 100.0 * r["cited_chars"] / r["chars"] if r["chars"] else 0))
+            print("  %-10s %6d %6d %6d %8d %9s %7.0f%%   (set aside: %.1f%% of the text)" % (
+                "all", tot["paras"], tot["cited"], tot["aside"], tot["missing"], "{:,}".format(tot["chars"]),
+                100.0 * tot["cited_chars"] / tot["chars"] if tot["chars"] else 0,
+                100.0 * tot["aside_chars"] / tot["chars"] if tot["chars"] else 0))
+            if args.gaps:
+                for alias in ALIASES:
+                    for v0, i, para in (cov.get(alias) or {}).get("gaps", []):
+                        print("    %s¶%d (under %d:%d, %d c) %s" % (alias, i, n, v0, len(para), para[:90].replace("\n", " ")))
         print("  RESULT: %s — %d error(s), %d warning(s)\n" % ("FAIL" if errors else "PASS", len(errors), len(warns)))
         bad += bool(errors) or (args.strict and bool(warns))
     return 1 if bad else 0
@@ -408,6 +592,7 @@ def main(argv=None) -> int:
     r.add_argument("--cap-en", type=int, default=3000)
     r.add_argument("--cap-ar", type=int, default=1500)
     r.add_argument("--toc-lines", type=int, default=40)
+    r.add_argument("--full", action="store_true", help="every paragraph of every work, no cap (paragraphs are numbered from 1)")
     r.add_argument("--force", action="store_true", help="print a whole-sūrah passage again under every verse")
     r.add_argument("--only", help="only these works, e.g. kathir,maarif")
     r.add_argument("--find", metavar="TEXT", help="list the paragraphs that contain TEXT (to locate a verse inside a whole-sūrah passage)")
@@ -416,6 +601,7 @@ def main(argv=None) -> int:
     c.add_argument("chapter", type=int, nargs="?")
     c.add_argument("--all", action="store_true")
     c.add_argument("--strict", action="store_true", help="warnings fail too")
+    c.add_argument("--gaps", action="store_true", help="list each paragraph not yet accounted for, with its opening")
     args = ap.parse_args(argv)
     if args.cmd == "check" and not args.all and not args.chapter:
         ap.error("name a chapter or use --all")
