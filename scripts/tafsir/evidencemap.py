@@ -23,15 +23,21 @@ finished map.  A full map reads every passage through and records everything fou
   carries it, the chain or wording the source gives, the ground offered, and the verdict if the
   source passes one (summaries up to 100 words — split rather than squeeze);
 * every citation points at paragraphs — ``tabari¶3-5``, ``qurtubi¶7+9``, ``alusi@2¶4`` (the
-  passage under verse 2) — so the claim can be opened and the writer can go straight to it;
-* **no paragraph is left behind**: once the last verse is mapped, each paragraph of each work's
-  passage (a passage repeated under several verses counts once) is either cited by an item or
-  listed on a ``**Set aside:**`` line with the reason in brackets.  Headings and separators
-  (under 20 letters) are exempt.  The check prints, per work, how many paragraphs are cited, set
-  aside and missing, so how much of the evidence the map carries is a number, not an impression.
+  passage under verse 2) — so the claim can be opened and the writer can go straight to it.  A paragraph
+  longer than 2,500 characters (some run to 50,000: one discussion in one block) is pointed at in
+  **chunks** of about 1,200 characters, numbered from 1 inside it: ``kathir¶1.17-1.19``, ``qurtubi¶12.3``.
+  A long paragraph is never cited by its bare number, and a range may not run across one, so a pointer
+  always says *where* in it; an item that points at more than 6,000 characters is warned;
+* **no paragraph is left behind**: once the last verse is mapped, each unit — a paragraph, or a chunk
+  of a long one — of each work's passage (a passage repeated under several verses counts once) is
+  either cited by an item or listed on a ``**Set aside:**`` line with the reason in brackets.  Headings
+  and separators (under 20 letters) are exempt.  The check prints, per work, how many units are cited,
+  set aside and missing, so how much of the evidence the map carries is a number, not an impression.
+  The chunking rule (``chunks()``) is part of the format: changing it renumbers every pointer into a
+  long paragraph.
 
 ``read`` is the reading method.  It prints each work's passage with its paragraphs numbered
-from 1.  ``--full`` prints every paragraph; without it a passage is cut at a cap and the rest is
+from 1 (``¶4.2`` is the second chunk of long paragraph 4).  ``--full`` prints every paragraph; without it a passage is cut at a cap and the rest is
 listed in a table of contents (paragraph sizes and openings).  It says when a work attaches the
 same whole-sūrah text under every verse.  ``--para`` prints chosen paragraphs in full.
 
@@ -90,6 +96,10 @@ SUMMARY_WARN_WORDS = {"full": 100, "survey": 35}
 SUMMARY_MIN_WORDS = {"full": 8, "survey": 0}
 TRIVIAL_LETTERS = 20      # a paragraph of fewer letters is a heading or a separator, exempt from coverage
 ASIDE_SHARE_WARN = 0.20   # a full map that sets aside more than this share of the source text is not carrying it
+SPLIT_OVER = 2500         # a paragraph longer than this is pointed at in chunks (¶4.1, ¶4.2, …)
+CHUNK_TARGET = 1200       # a chunk runs to about this many characters
+CHUNK_MIN = 300           # …and is not cut shorter than this unless the paragraph ends
+CITE_WARN_CHARS = 6000    # one item that cites more source text than this is not pointing at anything
 ITEMS_WARN = {"full": None, "survey": 12}
 INTRO_ITEMS_WARN = {"full": None, "survey": 8}
 DEPTH_RE = re.compile(r"depth:\s*(survey|full)")
@@ -101,8 +111,11 @@ ITEM_RE = re.compile(r"^- `(\d+):(\d+)\.(\d+)` · (\w+) · (.+) \[([^\[\]]+)\]\s
 WITH_RE = re.compile(r"^\*\*Sources with text:\*\*\s*(.*?)\s*$")
 NOTHING_RE = re.compile(r"^\*\*Nothing further from:\*\*\s*(.*?)\s*$")
 ASIDE_RE = re.compile(r"^\*\*Set aside:\*\*\s*(.*?)\s*$")
-CITE_RE = re.compile(r"^([A-Za-z]+)(?:@(\d+))?(?:¶([0-9+\-]+))?$")
-ASIDE_TOKEN_RE = re.compile(r"([A-Za-z]+)(?:@(\d+))?¶([0-9+\-]+)(?:\s*\(([^()]*)\))?")
+_REF = r"\d+(?:\.\d+)?"                      # a paragraph (4) or a chunk of a long paragraph (4.2)
+_SPEC = _REF + r"(?:-" + _REF + r")?(?:\+" + _REF + r"(?:-" + _REF + r")?)*"
+CITE_RE = re.compile(r"^([A-Za-z]+)(?:@(\d+))?(?:¶(" + _SPEC + r"))?$")
+ASIDE_TOKEN_RE = re.compile(r"([A-Za-z]+)(?:@(\d+))?¶(" + _SPEC + r")(?:\s*\(([^()]*)\))?")
+REF_RE = re.compile(r"^(\d+)(?:\.(\d+))?$")
 XREF_RE = re.compile(r"\b(\d{1,3}):(\d{1,3})\b")
 ARABIC_RE = re.compile(r"[\u0600-\u06FF]")
 # an athar names whom it comes from; beyond the audit's list, the Companions and Successors the maps meet
@@ -146,29 +159,131 @@ def is_trivial(paragraph: str) -> bool:
     return sum(1 for ch in paragraph if ch.isalpha()) < TRIVIAL_LETTERS
 
 
-def expand_spec(spec: str):
-    """``3-5+9`` -> {3, 4, 5, 9}; ``None`` if it cannot be read.  Paragraphs count from 1."""
-    out = set()
-    for part in spec.split("+"):
-        lo, dash, hi = part.partition("-")
-        if not lo.isdigit() or (dash and not hi.isdigit()):
-            return None
-        lo_n, hi_n = int(lo), int(hi) if dash else int(lo)
-        if lo_n < 1 or hi_n < lo_n or hi_n - lo_n > 5000:
-            return None
-        out.update(range(lo_n, hi_n + 1))
+def chunks(paragraph: str):
+    """The pieces a long paragraph is pointed at in: packed to about CHUNK_TARGET characters, cut at line
+    breaks where it can, else at sentence ends, else at spaces.  The rule is part of the format — changing
+    it renumbers every pointer into a long paragraph."""
+    pieces = []
+    for line in paragraph.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        if len(line) <= CHUNK_TARGET:
+            pieces.append(line)
+            continue
+        for sentence in re.split(r"(?<=[.!?؟])\s+", line):
+            while len(sentence) > CHUNK_TARGET:
+                cut = sentence.rfind(" ", 0, CHUNK_TARGET)
+                cut = cut if cut > CHUNK_MIN else CHUNK_TARGET
+                pieces.append(sentence[:cut])
+                sentence = sentence[cut:].lstrip()
+            if sentence:
+                pieces.append(sentence)
+    out, cur = [], ""
+    for piece in pieces:
+        if cur and len(cur) + 1 + len(piece) > CHUNK_TARGET and len(cur) >= CHUNK_MIN:
+            out.append(cur)
+            cur = piece
+        else:
+            cur = (cur + "\n" + piece) if cur else piece
+    if cur:
+        if out and len(cur) < CHUNK_MIN:
+            out[-1] += "\n" + cur
+        else:
+            out.append(cur)
     return out
 
 
-def compress(numbers) -> str:
-    """{1,2,3,7,9,10} -> '¶1-3, ¶7, ¶9-10'."""
-    nums, parts = sorted(numbers), []
-    i = 0
-    while i < len(nums):
+def units(text: str):
+    """The passage as the units pointers name: ``[(paragraph, chunk, text)]``.  A paragraph of up to SPLIT_OVER
+    characters is one unit (chunk 0); a longer one is several, numbered from 1."""
+    out = []
+    for n, para in enumerate(paragraphs(text), start=1):
+        if len(para) > SPLIT_OVER:
+            out.extend((n, k, piece) for k, piece in enumerate(chunks(para), start=1))
+        else:
+            out.append((n, 0, para))
+    return out
+
+
+def label(unit) -> str:
+    """4 for a paragraph, 4.2 for the second chunk of a long one."""
+    return "%d" % unit[0] if not unit[1] else "%d.%d" % (unit[0], unit[1])
+
+
+def parse_spec(spec: str):
+    """``3-5+9`` or ``4.2-4.5`` -> a list of ((paragraph, chunk), (paragraph, chunk)) ranges; ``None`` if it
+    cannot be read.  Paragraphs and chunks count from 1; chunk 0 means a bare paragraph."""
+    parts = []
+    for part in spec.split("+"):
+        ends = part.split("-")
+        if len(ends) > 2 or not all(ends):
+            return None
+        refs = []
+        for e in ends:
+            m = REF_RE.match(e)
+            if not m or int(m.group(1)) < 1 or (m.group(2) is not None and int(m.group(2)) < 1):
+                return None
+            refs.append((int(m.group(1)), int(m.group(2) or 0)))
+        parts.append((refs[0], refs[-1]))
+    return parts
+
+
+def resolve(parts, us, strict=True):
+    """``(unit indices, problems)``: what a parsed spec covers in the units ``us`` of one passage.  Strictly (in
+    a map), a long paragraph is only ever named by its chunks and a range may not run across one; leniently
+    (when reading), a bare long paragraph means all its chunks."""
+    first, last, pos, split = {}, {}, {}, set()
+    for i, (n, k, _) in enumerate(us):
+        first.setdefault(n, i)
+        last[n] = i
+        pos[(n, k)] = i
+        if k:
+            split.add(n)
+    covered, problems = set(), []
+    for a, b in parts:
+        ends, bad = [], None
+        for which, (n, k) in enumerate((a, b)):
+            if n not in first:
+                bad = "that passage has no paragraph %d (it has %d)" % (n, len(set(u[0] for u in us)))
+            elif n in split and not k:
+                if strict:
+                    bad = "paragraph %d is long — name its chunks (%d.1 … %d.%d)" % (n, n, n, sum(1 for u in us if u[0] == n))
+                else:
+                    ends.append(first[n] if which == 0 else last[n])
+                    continue
+            elif n not in split and k:
+                bad = "paragraph %d is not split into chunks" % n
+            elif (n, k) not in pos:
+                bad = "paragraph %d has no chunk %d (it has %d)" % (n, k, sum(1 for u in us if u[0] == n))
+            if bad:
+                break
+            ends.append(pos[(n, k)])
+        if bad:
+            problems.append(bad)
+            continue
+        i, j = ends
+        if j < i:
+            problems.append("the range runs backwards")
+            continue
+        if strict:
+            named = {a[0], b[0]}
+            crossed = sorted({us[x][0] for x in range(i, j + 1) if us[x][1] and us[x][0] not in named})
+            if crossed:
+                problems.append("the range crosses long paragraph %d — name its chunks" % crossed[0])
+                continue
+        covered.update(range(i, j + 1))
+    return covered, problems
+
+
+def compress_units(labels) -> str:
+    """[(index, label)] -> '¶1-3, ¶7, ¶9.2-9.5': runs of neighbouring units are written as ranges."""
+    items, parts, i = sorted(labels), [], 0
+    while i < len(items):
         j = i
-        while j + 1 < len(nums) and nums[j + 1] == nums[j] + 1:
+        while j + 1 < len(items) and items[j + 1][0] == items[j][0] + 1:
             j += 1
-        parts.append("¶%d" % nums[i] if i == j else "¶%d-%d" % (nums[i], nums[j]))
+        parts.append("¶" + (items[i][1] if i == j else "%s-%s" % (items[i][1], items[j][1])))
         i = j + 1
     return ", ".join(parts)
 
@@ -188,11 +303,16 @@ def cmd_read(args) -> int:
             if not slug or slug not in entry:
                 print("[%s] no passage under %d:%d" % (alias, chapter, verse))
                 continue
-            paras = paragraphs(entry[slug])
-            wanted = expand_spec(idx.replace(",", "+")) or set()
-            for i in sorted(wanted):
-                if 1 <= i <= len(paras):
-                    print("\n[%s ¶%d of %d · %d chars]\n%s" % (alias, i, len(paras), len(paras[i - 1]), paras[i - 1]))
+            us = units(entry[slug])
+            parts = parse_spec(idx.replace(",", "+"))
+            if parts is None:
+                print("[%s] cannot read %r (write 3, 3-5, 3+7 or 4.2-4.5)" % (alias, idx))
+                continue
+            covered, problems = resolve(parts, us, strict=False)
+            for msg in problems:
+                print("[%s] %s" % (alias, msg))
+            for i in sorted(covered):
+                print("\n[%s ¶%s of %d · %d chars]\n%s" % (alias, label(us[i]), len(paragraphs(entry[slug])), len(us[i][2]), us[i][2]))
         return 0
     only = {s.strip() for s in args.only.split(",")} if args.only else None
     if args.find:
@@ -200,11 +320,12 @@ def cmd_read(args) -> int:
             alias, text = SLUG_ALIAS[slug], (entry.get(slug) or "").strip()
             if (only and alias not in only) or not text:
                 continue
-            hits = [(i, p) for i, p in enumerate(paragraphs(text), start=1) if args.find in p]
-            print("\n[%s] %d of %d paragraphs contain %r" % (alias, len(hits), len(paragraphs(text)), args.find))
-            for i, p in hits[: args.toc_lines]:
-                at = p.index(args.find)
-                print("  ¶%d (%s c) …%s…" % (i, "{:,}".format(len(p)), p[max(0, at - 50): at + 70].replace("\n", " ")))
+            us = units(text)
+            hits = [u for u in us if args.find in u[2]]
+            print("\n[%s] %d of %d units contain %r" % (alias, len(hits), len(us), args.find))
+            for u in hits[: args.toc_lines]:
+                at = u[2].index(args.find)
+                print("  ¶%s (%s c) …%s…" % (label(u), "{:,}".format(len(u[2])), u[2][max(0, at - 50): at + 70].replace("\n", " ")))
         return 0
     for slug in C.SOURCE_ALLOWLIST:
         alias, text = SLUG_ALIAS[slug], (entry.get(slug) or "").strip()
@@ -213,24 +334,26 @@ def cmd_read(args) -> int:
         if not text:
             print("\n[%s] no text for this verse" % alias)
             continue
-        paras = paragraphs(text)
+        us = units(text)
+        n_paras = len(paragraphs(text))
         lang = "ar" if len(ARABIC_RE.findall(text[:400])) > 40 else "en"
-        head = "[%s %s · %s chars · %d paragraphs]" % (alias, lang, "{:,}".format(len(text)), len(paras))
+        head = "[%s %s · %s chars · %d paragraphs%s]" % (alias, lang, "{:,}".format(len(text)), n_paras,
+                                                         (" in %d units" % len(us)) if len(us) != n_paras else "")
         if verse > 1 and text == (previous.get(slug) or "").strip() and not args.force:
             print("\n%s  same text as %d:%d — a whole-sūrah passage attached to every verse; read there" %
                   (head, chapter, verse - 1))
             continue
         cap = 10 ** 9 if args.full else (args.cap_ar if lang == "ar" else args.cap_en)
-        rendered = "\n\n".join("¶%d %s" % (i, p) for i, p in enumerate(paras, start=1))
+        rendered = "\n\n".join("¶%s %s" % (label(u), u[2]) for u in us)
         print("\n" + head)
         print(rendered[:cap] + (" …" if len(rendered) > cap else ""))
         if len(rendered) > cap:
             pos, rows = 0, []
-            for i, p in enumerate(paras, start=1):
-                if pos >= cap and len(p) >= 150:
-                    rows.append("  ¶%d (%s c) %s" % (i, "{:,}".format(len(p)), p[:80].replace("\n", " ")))
-                pos += len("¶%d " % i) + len(p) + 2
-            print("  — beyond the cap: %d paragraphs of 150+ chars (--para %s:N to read one, or --full):" % (len(rows), alias))
+            for u in us:
+                if pos >= cap and len(u[2]) >= 150:
+                    rows.append("  ¶%s (%s c) %s" % (label(u), "{:,}".format(len(u[2])), u[2][:80].replace("\n", " ")))
+                pos += len("¶%s " % label(u)) + len(u[2]) + 2
+            print("  — beyond the cap: %d units of 150+ chars (--para %s:N to read one, or --full):" % (len(rows), alias))
             print("\n".join(rows[: args.toc_lines]))
             if len(rows) > args.toc_lines:
                 print("  … %d more" % (len(rows) - args.toc_lines))
@@ -283,11 +406,12 @@ def parse(text: str, chapter: int):
         m = ASIDE_RE.match(line)
         if m:
             for alias, loc, spec, reason in ASIDE_TOKEN_RE.findall(m.group(1)):
-                paras = expand_spec(spec)
-                if paras is None:
+                parts = parse_spec(spec)
+                if parts is None:
                     problems.append(("ERROR", "-", n, "cannot read the paragraphs %r in 'Set aside'" % spec))
                     continue
-                cur["aside"].append({"alias": alias, "loc": int(loc) if loc else None, "paras": paras,
+                cur["aside"].append({"alias": alias, "loc": int(loc) if loc else None, "spec": parts,
+                                     "raw": "%s%s¶%s" % (alias, ("@" + loc) if loc else "", spec),
                                      "reason": reason.strip(), "line": n})
             if not ASIDE_TOKEN_RE.search(m.group(1)):
                 problems.append(("ERROR", "-", n, "'Set aside' names no paragraphs (write tabari¶7 (reason), …)"))
@@ -307,12 +431,12 @@ def parse(text: str, chapter: int):
                 tok = tok.strip()
                 cm = CITE_RE.match(tok)
                 if not cm:
-                    srcs.append({"alias": tok, "loc": None, "paras": None, "raw": tok, "bad": True})
+                    srcs.append({"alias": tok, "loc": None, "spec": None, "raw": tok, "bad": True})
                     continue
                 alias, loc, spec = cm.groups()
-                paras = expand_spec(spec) if spec else None
-                srcs.append({"alias": alias, "loc": int(loc) if loc else None, "paras": paras, "raw": tok,
-                             "bad": bool(spec) and paras is None})
+                parts = parse_spec(spec) if spec else None
+                srcs.append({"alias": alias, "loc": int(loc) if loc else None, "spec": parts, "raw": tok,
+                             "bad": bool(spec) and parts is None})
             head["items"].append({"id": (int(m.group(1)), int(m.group(2)), int(m.group(3))), "kind": m.group(4),
                                   "summary": m.group(5).strip(), "sources": srcs, "line": n})
             continue
@@ -348,17 +472,28 @@ def check_chapter(chapter: int):
             "%d:%d" % (chapter, v) for v in pending[:8]) + (" …" if len(pending) > 8 else "")))
     heads_seen, prefixes = {}, {}
     stats = {"verses": {}, "kinds": {}, "sources": {}, "depth": depth}
-    cited, aside = {}, {}          # (work, passage text) -> paragraph numbers cited / set aside
+    cited, aside = {}, {}          # (work, passage text) -> unit indices cited / set aside
+    unit_cache = {}
+
+    def units_of(text):
+        if text not in unit_cache:
+            unit_cache[text] = units(text)
+        return unit_cache[text]
 
     def passage(alias, target):
         return ((digest.get(str(target)) or {}).get(ALIASES[alias]) or "").strip() if digest else ""
 
-    def note(bucket, alias, text, paras, ref, line):
-        total = len(paragraphs(text))
-        beyond = sorted(x for x in paras if x > total)
-        if beyond:
-            problems.append(("ERROR", ref, line, "%s%s: that passage has only %d paragraphs" % (alias, compress(beyond), total)))
-        bucket.setdefault((alias, text), set()).update(x for x in paras if x <= total)
+    def note(bucket, alias, text, parts, ref, line, raw, item=False):
+        us = units_of(text)
+        covered, errs = resolve(parts, us)
+        for msg in errs:
+            problems.append(("ERROR", ref, line, "%s: %s" % (raw, msg)))
+        bucket.setdefault((alias, text), set()).update(covered)
+        chars = sum(len(us[i][2]) for i in covered)
+        if item and chars > CITE_WARN_CHARS:
+            problems.append(("WARN", ref, line, "%s points at %s characters — an item cites what it draws on; split it into items that each point at their own part" % (
+                raw, "{:,}".format(chars))))
+
     for v in sorted(verses):
         block = verses[v]
         ref = "%d:%d" % (chapter, v)
@@ -429,9 +564,9 @@ def check_chapter(chapter: int):
                     text = passage(alias, target)
                     if digest is not None and not text:
                         problems.append(("ERROR", ref, it["line"], "%s cites a passage under %d:%d, but that work has no text there" % (alias, chapter, target)))
-                    elif text and cite["paras"]:
-                        note(cited, alias, text, cite["paras"], ref, it["line"])
-                    if not cite["paras"]:
+                    elif text and cite["spec"]:
+                        note(cited, alias, text, cite["spec"], ref, it["line"], cite["raw"], item=True)
+                    if not cite["spec"]:
                         unpointed.append(cite["raw"])
                 if unpointed and depth == "full":
                     problems.append(("ERROR", ref, it["line"], "a full map cites paragraphs — add ¶ to: %s" % ", ".join(unpointed)))
@@ -458,9 +593,9 @@ def check_chapter(chapter: int):
             if digest is not None and not text:
                 problems.append(("ERROR", ref, entry["line"], "%s is set aside under %d:%d, but that work has no text there" % (alias, chapter, target)))
             elif text:
-                note(aside, alias, text, entry["paras"], ref, entry["line"])
+                note(aside, alias, text, entry["spec"], ref, entry["line"], entry["raw"])
             if not entry["reason"]:
-                problems.append(("WARN", ref, entry["line"], "%s%s is set aside without a reason — say why in brackets" % (alias, compress(entry["paras"]))))
+                problems.append(("WARN", ref, entry["line"], "%s is set aside without a reason — say why in brackets" % entry["raw"]))
         limit = (INTRO_ITEMS_WARN if v == 0 else ITEMS_WARN)[depth]
         if limit and n_items > limit:
             problems.append(("WARN", ref, block["line"], "%d items: a %s map keeps at most %d %s" %
@@ -488,23 +623,24 @@ def check_chapter(chapter: int):
                 row = cov.setdefault(alias, {"paras": 0, "trivial": 0, "cited": 0, "aside": 0, "missing": 0, "chars": 0,
                                              "cited_chars": 0, "aside_chars": 0, "gaps": []})
                 got, put = cited.get((alias, text), set()), aside.get((alias, text), set())
-                for i, para in enumerate(paragraphs(text), start=1):
-                    if is_trivial(para):
+                for i, unit in enumerate(units_of(text)):
+                    body = unit[2]
+                    if is_trivial(body):
                         row["trivial"] += 1
                         continue
                     row["paras"] += 1
-                    row["chars"] += len(para)
+                    row["chars"] += len(body)
                     if i in got:
                         row["cited"] += 1
-                        row["cited_chars"] += len(para)
+                        row["cited_chars"] += len(body)
                         if i in put:
-                            problems.append(("WARN", str(chapter), 0, "%s¶%d (the passage under %d:%d) is both cited and set aside" % (alias, i, chapter, v)))
+                            problems.append(("WARN", str(chapter), 0, "%s¶%s (the passage under %d:%d) is both cited and set aside" % (alias, label(unit), chapter, v)))
                     elif i in put:
                         row["aside"] += 1
-                        row["aside_chars"] += len(para)
+                        row["aside_chars"] += len(body)
                     else:
                         row["missing"] += 1
-                        row["gaps"].append((v, i, para))
+                        row["gaps"].append((v, i, label(unit), body))
         stats["coverage"] = cov
         missing = sum(r["missing"] for r in cov.values())
         all_chars = sum(r["chars"] for r in cov.values())
@@ -514,12 +650,14 @@ def check_chapter(chapter: int):
                 gaps = cov[alias]["gaps"]
                 if gaps:
                     where = {}
-                    for v0, i, _ in gaps:
-                        where.setdefault(v0, set()).add(i)
-                    problems.append(("ERROR", str(chapter), 0, "%s: %d paragraph(s) not accounted for — %s (cite them, or list them under 'Set aside' with a reason)" % (
-                        alias, len(gaps), "; ".join("%s%s" % (("under %d:%d " % (chapter, v0)) if len(where) > 1 else "", compress(nums)) for v0, nums in sorted(where.items())))))
+                    for v0, i, lab, _ in gaps:
+                        where.setdefault(v0, []).append((i, lab))
+                    shown = "; ".join("%s%s" % (("under %d:%d " % (chapter, v0)) if len(where) > 1 else "", compress_units(labs))
+                                      for v0, labs in sorted(where.items()))
+                    problems.append(("ERROR", str(chapter), 0, "%s: %d unit(s) not accounted for — %s (cite them, or list them under 'Set aside' with a reason)" % (
+                        alias, len(gaps), shown if len(shown) < 400 else shown[:400] + " …")))
         elif missing:
-            problems.append(("INFO", str(chapter), 0, "%d paragraph(s) are not yet accounted for%s" % (
+            problems.append(("INFO", str(chapter), 0, "%d unit(s) are not yet accounted for%s" % (
                 missing, " (the chapter is still being mapped; the paragraph rule applies once the last verse is in)" if pending else " (a survey map does not carry the paragraph rule)")))
         if depth == "full" and all_chars and aside_chars / all_chars > ASIDE_SHARE_WARN:
             problems.append(("WARN", str(chapter), 0, "%.0f%% of the source text is set aside (limit %.0f%%): a full map carries the evidence, it does not shelve it" % (
@@ -559,8 +697,8 @@ def cmd_check(args) -> int:
                 ", ".join("%s %d" % kv for kv in sorted(stats["kinds"].items(), key=lambda kv: -kv[1]))))
         cov = (stats or {}).get("coverage")
         if cov:
-            print("\n  coverage — each work's distinct passages, paragraph by paragraph (under %d letters = heading, exempt)" % TRIVIAL_LETTERS)
-            print("  %-10s %6s %6s %6s %8s %9s %8s" % ("work", "paras", "cited", "aside", "missing", "chars", "cited%"))
+            print("\n  coverage — each work's distinct passages, unit by unit (a unit is a paragraph, or a chunk of a paragraph over %d characters; under %d letters = heading, exempt)" % (SPLIT_OVER, TRIVIAL_LETTERS))
+            print("  %-10s %6s %6s %6s %8s %9s %8s" % ("work", "units", "cited", "aside", "missing", "chars", "cited%"))
             tot = {"paras": 0, "cited": 0, "aside": 0, "missing": 0, "chars": 0, "cited_chars": 0, "aside_chars": 0}
             for alias in ALIASES:
                 r = cov.get(alias)
@@ -576,8 +714,8 @@ def cmd_check(args) -> int:
                 100.0 * tot["aside_chars"] / tot["chars"] if tot["chars"] else 0))
             if args.gaps:
                 for alias in ALIASES:
-                    for v0, i, para in (cov.get(alias) or {}).get("gaps", []):
-                        print("    %s¶%d (under %d:%d, %d c) %s" % (alias, i, n, v0, len(para), para[:90].replace("\n", " ")))
+                    for v0, i, lab, body in (cov.get(alias) or {}).get("gaps", []):
+                        print("    %s¶%s (under %d:%d, %d c) %s" % (alias, lab, n, v0, len(body), body[:90].replace("\n", " ")))
         print("  RESULT: %s — %d error(s), %d warning(s)\n" % ("FAIL" if errors else "PASS", len(errors), len(warns)))
         bad += bool(errors) or (args.strict and bool(warns))
     return 1 if bad else 0

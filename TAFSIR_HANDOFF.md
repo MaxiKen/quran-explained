@@ -41,7 +41,8 @@ python3 scripts/tafsir/evidencemap.py check N [--gaps]                 # must sa
 ```
 
 Read each verse's passages through. Write a head per theme and under it **one item for each distinct claim**,
-each citing the works *and the paragraphs* that carry it (`tabari¶5`, `qurtubi¶10-11`, `alusi@3¶9`); give the
+each citing the works *and the paragraphs* that carry it (`tabari¶5`, `qurtubi¶10-11`, `alusi@3¶9`; a paragraph
+over 2,500 characters is pointed at in chunks, `kathir¶1.17-1.19`, never by its bare number); give the
 chain or wording, the ground offered and the verdict wherever the source gives them, and split an item rather
 than squeeze it. Account for all eleven works under every verse; list any paragraph you do not use on a
 `**Set aside:**` line with its reason (headings, formulae, closings — never evidence); take attributions only

@@ -34,19 +34,22 @@ it was (with the rest of the generated commentary), so no commentary exists in t
   `` - `103:1.7` · athar · summary [tabari¶5, qurtubi¶10, baghawi¶3] ``. The *kind* is one of quran,
   hadith, athar, language, occasion, ruling, history, lesson; the bracket names the works **and the
   paragraphs** that carry the point (`work¶3-5`, `work¶3+7`; `work@2¶4` = paragraph 4 of the passage
-  under verse 2).
+  under verse 2). A paragraph over 2,500 characters — some run to 50,000: Ibn Kathīr's whole introduction
+  to al-Fātiḥah is one block of 51,236 — is pointed at in **chunks** of about 1,200 characters
+  (`kathir¶1.17-1.19`); a long paragraph is never cited by its bare number, so a pointer always says where.
+  Across the corpus 3,785 paragraphs are that long and hold 12.5 % of all text (Chapter 103 has none).
 * **`scripts/tafsir/evidencemap.py`** — `read` (each work's passage with its paragraphs numbered from 1;
   `--full` prints every paragraph; without it a passage is cut at a cap and the rest listed in a table of
   contents; whole-sūrah passages shown once; `--para` and `--find` to drill and to locate) and `check`
   (validates a map; `--gaps` lists the paragraphs not yet accounted for).
 * **`check` proves, mechanically:** the quoted line is the verse's own translation; the sources line
   matches what the digest holds; every one of the eleven works is cited or marked "Nothing further
-  from" under each verse; every cited passage **and paragraph** exists; item numbers run 1..n; heads
+  from" under each verse; every cited passage, **paragraph and chunk** exists; item numbers run 1..n; heads
   are UPPERCASE and unique and do not fall into a template; every cross-reference is a real verse; a
   hadith without a named collection and an athar without a named authority are flagged.
-  **In a full map, every citation names paragraphs, and once the last verse is mapped every paragraph of
-  every work's passage — a passage repeated under several verses counts once — is either cited by an
-  item or listed on a `Set aside` line with its reason.** Headings and separators (under 20 letters) are
+  **In a full map, every citation names paragraphs, and once the last verse is mapped every unit (a
+  paragraph, or a chunk of a long one) of every work's passage — a passage repeated under several verses
+  counts once — is either cited by an item or listed on a `Set aside` line with its reason.** Headings and separators (under 20 letters) are
   exempt; a map that sets aside more than 20 % of the source text is warned. The check prints, per work,
   the paragraphs cited, set aside and missing. It does **not** prove an item is *true* — see §6.
 * **Depth is declared** in the map's first comment. **Full** — the author's choice (2026-10-01): one item

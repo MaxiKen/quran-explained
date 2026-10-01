@@ -10,7 +10,8 @@ map, shows it passes, then breaks it one way at a time and requires the checker 
 Cases: a pointer past the end of a passage; an item with no pointer in a full map; a paragraph neither
 cited nor set aside; a paragraph both cited and set aside; a set-aside entry with no reason; too much
 set aside; a survey map (warned, not held to the paragraph rule); a partly mapped chapter (counted, not
-enforced); and the small helpers that read and print paragraph ranges.
+enforced); long paragraphs pointed at in chunks (a bare pointer is refused, a missing chunk is found, a wide
+pointer is warned); and the small helpers that read, resolve and print pointers.
 """
 
 from __future__ import annotations
@@ -32,6 +33,26 @@ DIGEST = {
     "2": {"tafsir-al-tabari": WHOLE, "tafsir-al-qurtubi": LONG + " Qurtubi, second verse."},
     "3": {"tafsir-al-tabari": WHOLE, "tafsir-al-qurtubi": LONG + " Qurtubi, third verse."},
 }
+
+
+LINE = lambda n: ("Line %d of a long paragraph, written to be long enough to carry real evidence in it. " % n) * 8   # about 700 characters
+LONGP = "\n".join(LINE(n) for n in range(1, 7))                       # six lines: one paragraph of about 4,200 characters
+HEADING = "Short heading paragraph that is long enough to count as one."
+DIGEST_LONG = {v: {"tafsir-al-tabari": HEADING + "\n\n" + LONGP, "tafsir-al-qurtubi": LONG + " Qurtubi %s." % v} for v in "123"}
+
+
+def long_map(cites=("2.1", "2.2-2.3", "2.4-2.5", "2.6")) -> str:
+    """A valid map over DIGEST_LONG: the heading (¶1) is set aside and the six chunks of ¶2 are cited in turn."""
+    q = {v: C.ayah_en(103, v) for v in (1, 2, 3)}
+    text = "# Evidence map — test\n\n<!-- depth: full. test -->\n\n## Introduction\n\n### WHERE IT STANDS\n\n"
+    text += "- `103:0.1` · lesson · Tabari opens with a long discussion that the introduction points at and summarises. [tabari¶%s]\n\n" % cites[0]
+    for v in (1, 2, 3):
+        text += "## Verse 103:%d\n\n> %s\n\n**Sources with text:** tabari, qurtubi\n" % (v, q[v])
+        if v == 1:
+            text += "**Set aside:** tabari¶1 (heading)\n"
+        text += "\n### %s\n\n" % ("THE FIRST THEME", "A SECOND POINT", "ONE MORE CASE")[v - 1]
+        text += "- `103:%d.1` · language · Qurtubi gives a meaning of the word with the reason that he states for it. [qurtubi¶1, tabari¶%s]\n\n" % (v, cites[v])
+    return text
 
 
 def base_map(depth: str = "full", pointers: bool = True) -> str:
@@ -86,7 +107,7 @@ def main() -> int:
 
     # a pointer past the end of its passage
     problems, _ = run(base_map().replace("tabari¶4", "tabari¶9"))
-    case("a pointer past the end of a passage is an error", has(problems, "ERROR", "only 4 paragraphs"))
+    case("a pointer past the end of a passage is an error", has(problems, "ERROR", "no paragraph 9"))
 
     # an item with no pointer, in a full map
     problems, _ = run(base_map().replace("qurtubi¶1, tabari¶3", "qurtubi, tabari¶3"))
@@ -130,10 +151,52 @@ def main() -> int:
     case("a partly mapped chapter reports gaps without failing", has(problems, "INFO", "not yet accounted for")
          and not has(problems, "ERROR", "not accounted for"), repr([(p[0], p[3][:60]) for p in problems]))
 
+    # long paragraphs, pointed at in chunks
+    problems, stats = run(long_map(), DIGEST_LONG)
+    errors = [p for p in problems if p[0] == "ERROR"]
+    case("a valid map over a long paragraph passes", not errors, "; ".join(p[3] for p in errors))
+    row = stats["coverage"]["tabari"]
+    case("coverage counts a long paragraph by its chunks", row["cited"] == 6 and row["aside"] == 1 and row["missing"] == 0, repr(row))
+
+    problems, _ = run(long_map(("2", "2.2-2.3", "2.4-2.5", "2.6")), DIGEST_LONG)
+    case("a bare pointer to a long paragraph is refused", has(problems, "ERROR", "is long — name its chunks"))
+
+    problems, _ = run(long_map(("2.1", "2.2-2.3", "2.4-2.5", "2.4")), DIGEST_LONG)
+    case("a chunk left unaccounted is found by its label", has(problems, "ERROR", "not accounted for") and has(problems, "ERROR", "¶2.6"),
+         repr([p[3] for p in problems if p[0] == "ERROR"]))
+
+    problems, _ = run(long_map(("2.1", "2.2-2.9", "2.4-2.5", "2.6")), DIGEST_LONG)
+    case("a chunk that does not exist is an error", has(problems, "ERROR", "no chunk 9"))
+
+    problems, _ = run(base_map().replace("tabari¶3", "tabari¶2.1"))
+    case("a chunk pointer to a short paragraph is an error", has(problems, "ERROR", "is not split into chunks"))
+
+    old_warn, E.CITE_WARN_CHARS = E.CITE_WARN_CHARS, 1000
+    try:
+        problems, _ = run(long_map(("2.1", "2.2-2.4", "2.5", "2.6")), DIGEST_LONG)
+    finally:
+        E.CITE_WARN_CHARS = old_warn
+    case("an item that points at thousands of characters is warned", has(problems, "WARN", "points at"))
+
     # helpers
-    case("expand_spec reads ranges and lists", E.expand_spec("3-5+9") == {3, 4, 5, 9} and E.expand_spec("7") == {7})
-    case("expand_spec refuses what it cannot read", all(E.expand_spec(x) is None for x in ("0", "5-3", "a", "1-", "")))
-    case("compress prints ranges", E.compress({1, 2, 3, 7, 9, 10}) == "¶1-3, ¶7, ¶9-10")
+    us = E.units(HEADING + "\n\n" + LONGP + "\n\nAnother short paragraph with enough letters to count.\n\n" + LONGP)
+    labels = [E.label(u) for u in us]
+    case("a long paragraph is split into chunks, a short one is not",
+         labels[:3] == ["1", "2.1", "2.2"] and "3" in labels and labels.count("4.1") == 1 and len(us) == 1 + 6 + 1 + 6, repr(labels))
+    case("chunking loses no text", "".join("".join(u[2].split()) for u in us if u[0] == 2) == "".join(LONGP.split()))
+    case("chunks are near the target size", all(len(u[2]) <= E.CHUNK_TARGET + E.CHUNK_MIN for u in us))
+    case("parse_spec reads ranges, lists and chunks",
+         E.parse_spec("3-5+9") == [((3, 0), (5, 0)), ((9, 0), (9, 0))] and E.parse_spec("4.2-4.5") == [((4, 2), (4, 5))]
+         and E.parse_spec("7") == [((7, 0), (7, 0))])
+    case("parse_spec refuses what it cannot read", all(E.parse_spec(x) is None for x in ("0", "5-", "a", "1.0", "", "1-2-3", "-4")))
+    covered, problems_ = E.resolve(E.parse_spec("2.2-2.4"), us)
+    case("resolve covers a chunk range", covered == {2, 3, 4} and not problems_, repr((covered, problems_)))
+    covered, problems_ = E.resolve(E.parse_spec("1-3"), us)
+    case("a range across a long paragraph must name its chunks", bool(problems_) and not covered, repr(problems_))
+    covered, problems_ = E.resolve(E.parse_spec("2"), us, strict=False)
+    case("reading a long paragraph by its bare number gives all its chunks", covered == {1, 2, 3, 4, 5, 6})
+    case("compress_units prints ranges and chunks",
+         E.compress_units([(0, "1"), (1, "2"), (2, "3"), (5, "7"), (8, "9.2"), (9, "9.3"), (10, "9.4")]) == "¶1-3, ¶7, ¶9.2-9.4")
     case("short headings are exempt, real paragraphs are not", E.is_trivial("* *") and E.is_trivial("Ends here")
          and not E.is_trivial(LONG))
 
