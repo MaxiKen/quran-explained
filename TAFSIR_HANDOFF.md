@@ -1,51 +1,73 @@
 # Tafsir handoff — how to pick this work up
 
 Read this file first, then `TAFSIR_RULES.md` (the normative rule set, **v8**) and
-`TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger. Fifty verses are both the source-map
-unit and the maximum independent-review checkpoint: write in order and mechanically check each verse,
-while automatic drift alarms still run every fifty verses. **The author's standing order
-(2026-10-01): at every stop, review your own range in a separate cold pass, post the statistics,
-commit, push to the session branch, and carry straight on — never stop to ask whether to continue.**
-The author reads GitHub afterwards and asks for a change if something is not right; silence is not an
-approval and is never recorded as one. Independent acceptance still gates publication. Review covers
-the complete source map, material omissions, Qur'an citations, every named transmitted report, and
-language or consequential legal/theological claims—not only metrics. `QUALITY DRIFT` stops new
-drafting: repair it, note it in the statistics, push the clean state, carry on.
+`TAFSIR_PROMPT.md`. `TAFSIR_WORKLOG.md` is the progress ledger.
+
+**Commentary writing is paused (2026-10-01).** The author is trying a two-phase approach: an
+*evidence map* for every verse first (heads, with a short summary of the evidence the eleven works carry
+under each), commentary built from the maps later, chapter by chapter, **on his prompt**, its length
+decided by the evidence rather than a fixed word range (`TAFSIR_EVIDENCE_MAP.md`). All generated
+commentary, Chapter 1's included, was cleared. **No commentary exists, and none is to be written until the
+author gives the Phase 2 prompt** — so a bare “continue” does *not* start commentary at 1:1.
+
+The rest of this file is the procedure for commentary, kept for when it resumes. Its standing order
+(2026-10-01): at every stop, review your own range in a separate cold pass, post the statistics, commit,
+push to the session branch, and carry straight on — never stop to ask whether to continue; the author reads
+GitHub afterwards and asks for a change if something is not right; silence is not an approval and is never
+recorded as one. Independent acceptance still gates publication.
 
 ## When the author says "continue" (start here)
 
-**The call may come on any branch.** Nothing in the rules or tools assumes a branch name. Read the
-actual repository state, stay on the branch assigned to the session, and push there. Never restore or
-copy cleared commentary (Chapter 2's prose, its drafting bench, its reviews) from history: it was
-cleared on 2026-10-01 and the book is written again from the sources.
+**The call may come on any branch.** Nothing in the rules or tools assumes a branch name. Read the actual
+repository state, stay on the branch assigned to the session, and push there. Never restore or copy cleared
+commentary from history: it was cleared on 2026-10-01 and the book is written again from the sources.
 
-**"Continue" means: pin the first unwritten verse and go.** If `run.py --plan` shows an existing pinned
-run, resume its next unwritten verse. Otherwise run `python3 scripts/tafsir/run.py --plan` with no
-`--start`: it pins the fifty verses from the first verse of the Book not yet written — **2:1** at the
-moment. The author may re-aim the work at any time by naming a chapter or a chapter:verse
-(`--start C:V`); otherwise the author's standing order is the start, and the writer does not ask. The
-pin lives in git-ignored `tmp/runs/`, which a fresh checkout does not have, so a fresh session simply
-re-plans from the frontier.
+**Now, “continue” means Phase 1 — the evidence maps — once the author has accepted the pilot.** The pilot
+maps are `evidence/103.md` (full depth) and `evidence/108.md` (survey depth). If the author's words show he
+has not yet judged them, say the pilot awaits his verdict; do not start commentary and do not map further
+chapters at scale. Once he has accepted the format, “continue” means: map the next chapters in order from the
+first chapter that has no map, at the depth he named (**survey** unless told otherwise), one
+`evidence/NNN.md` per chapter:
 
-**What the 2026-10-01 clear removed — and what it kept.** Removed: `tafsir/002.md`; the tracked
-drafting bench `tmp/work/c1_*.md` and `c2_*.md` (only the `dig.py` helper remains); every Chapter 2
-review manifest under `quality/reviews/002/` (they embed excerpts of the prose and are fingerprinted to
-it); and the owner's draft-continuation receipt `quality/draft-approvals/002/001-050.json` (the
-approval of checkpoint `06ec1c6`, bound by fingerprint to prose that no longer exists). All of it stays
-in git history; none of it is the standard and none of it may be restored or copied. **Kept — Chapter 1
-was restored at the author's choice:** `tafsir/001.md`, its payload `data/tafsir_001.json` and its two
-review records `quality/reviews/001/`, with the frozen Chapter-1 record
-(`quality/chapter-001-baseline.json` and its approval). Also kept: the eleven source corpora,
-`data/chapter_NNN.js`, the rules, prompt and scripts.
+```bash
+python3 scripts/tafsir/sources.py N --cap-json 0                       # the chapter's digest (git-ignored scratch)
+python3 scripts/tafsir/evidencemap.py read N V --cap-en 2000 --cap-ar 1000   # survey a verse, all eleven works
+python3 scripts/tafsir/evidencemap.py read N V --find TEXT --only tabari     # locate a verse in a long passage
+python3 scripts/tafsir/evidencemap.py read N V --para tabari:62,64           # drill into paragraphs
+python3 scripts/tafsir/evidencemap.py check N                                # must say PASS (0 errors)
+```
 
-**Chapter 1 is the writing-style yardstick, and only that.** Through the frozen record it sets how the
-prose *reads*: sentence length, the share of very long sentences, readability, and the
-production-mould limits. It does **not** set how much content or evidence a verse carries — that
-follows what the verse's own sources hold, under the floors and anchors of `audit.py` and the
-reviewer's material-point ledger. Evidence density is measured and posted in the statistics, never an
-alarm.
+Write a head per theme and under it the evidence found, each item naming the works that carry it; account for
+all eleven works under every verse (cite each, or list it under "Nothing further from" — and only if it was
+really read); take attributions only from what the passages themselves say, and say so where a hadith's
+collection is not named. Commit and push each finished chapter. Several chapters may be mapped at once by
+separate sessions (one file per chapter). Phase 2 — building commentary from a map, beginning with a
+deepening pass — starts only on the author's prompt.
 
-If ignored scratch has disappeared, there is no pin to restore: re-plan and rebuild from the frontier.
+**What the 2026-10-01 clear removed.** `tafsir/001.md` and `tafsir/002.md`; the payload
+`data/tafsir_001.json` (no `data/tafsir_NNN.json` exists now); the tracked drafting bench `tmp/work/c1_*.md`
+and `c2_*.md` (only the `dig.py` helper remains); every review manifest under `quality/reviews/` (they embed
+excerpts of the prose and are fingerprinted to it); and the owner's draft-continuation receipt
+`quality/draft-approvals/002/001-050.json` (bound by fingerprint to prose that no longer exists). `sw.js`
+(v2.5.51) retires `./data/tafsir_001.json` and `./data/tafsir_002.json` so devices drop a cached copy. All of
+it stays in git history; none of it is the standard and none of it may be restored or copied. (Chapter 1 was
+restored once, at the author's choice, and deleted again when he began the two-phase pilot.) **Kept:** the
+eleven source corpora, `data/chapter_NNN.js`, the rules, prompt and scripts, and the Chapter-1 style record
+(`quality/chapter-001-baseline.json` with its approval).
+
+**The style record now points at nothing.** With `tafsir/001.md` gone, `quality.py --baseline` blocks with
+`QTY-BASELINE-CHANGED`, `qualitytest.py` stops with `FileNotFoundError`, and the “Tafsir quality parity”
+workflow fails at its baseline step. Pushes that touch only `evidence/` do not trigger that workflow. The way
+out is the author's call, for when Phase 2 starts: build a chapter, have it independently reviewed and
+re-freeze the record with `quality.py --freeze-baseline --approval FILE` (thresholds can only tighten); or
+retire the record (the next freeze is then a first installation with no approval and no inherited
+thresholds). Do neither without the author's word. Chapter 1, when it exists, is the **writing-style**
+yardstick only — never a measure of how much content or evidence a verse carries.
+
+**When commentary resumes** (not before the author's prompt). If `run.py --plan` shows a pinned run, resume
+its next unwritten verse; otherwise `python3 scripts/tafsir/run.py --plan` with no `--start` pins the fifty
+verses from the first verse not yet written — **1:1** at the moment. The pin lives in git-ignored
+`tmp/runs/`, so a fresh session simply re-plans from the frontier.
 
 ```bash
 python3 scripts/tafsir/run.py --plan [--start C:V] # pin the next fifty (default: the first unwritten verse)
@@ -76,7 +98,8 @@ independently accepted. Never record an approval in the owner's name that the ow
 
 Several chapters may be written at once by separate sessions: one chapter per session, each on its own
 branch, each editing only its own chapter's files, review records and statistics. The worklog row and
-this file change only when a chapter is finished. Chapter 1 must be intact for any chapter's gate.
+this file change only when a chapter is finished. A chapter's gate needs the Chapter-1 style record to
+validate (see above).
 
 Before any of that, two housekeeping steps:
 
@@ -89,39 +112,40 @@ Before any of that, two housekeeping steps:
    `SRC-NODIGEST` on every verse until they are rebuilt. One pass does it:
    `python3 scripts/tafsir/run.py --build --cap-json 0` (the run's chapters, all eleven works, uncapped digests
    for the grounding check); a chapter outside the current run needs its own digest back —
-   `python3 scripts/tafsir/sources.py 1`. **`SRC-NODIGEST` is a missing scratch file, never a defect
-   in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so any part files from earlier
+   `python3 scripts/tafsir/sources.py 1 --cap-json 0`. **`SRC-NODIGEST` is a missing scratch file, never a
+   defect in the prose.** The drafting bench `tmp/work/*.md` **is** tracked, so any part files from earlier
    sessions are present and must not be overwritten (after the 2026-10-01 clear only `dig.py`
    remains, so there are none).
 
-State to expect on arrival (2026-10-01): Chapter 1 is written, published and frozen as the style
-yardstick, and nothing else is written. `tafsir/` holds `001.md` and `.gitkeep`; `data/tafsir_001.json`
-is the only payload; no run is pinned; `tmp/sources/` and `tmp/runs/` are absent, as in every fresh
-checkout. Chapter 2 had reached 2:56 (23 verses accepted, 33 pending, 230 scaffolds) before it was
-cleared; that state is recorded in `TAFSIR_WORKLOG.md` and is readable in git history, nothing more.
+State to expect on arrival (2026-10-01): no commentary is written and no payload is published. `tafsir/`
+holds only `.gitkeep`; `evidence/` holds the two pilot maps; no run is pinned; `tmp/sources/` and `tmp/runs/`
+are absent, as in every fresh checkout. Before the clear, Chapter 1 was published and frozen as the style
+yardstick and Chapter 2 had reached 2:56 (23 verses accepted, 33 pending, 230 scaffolds); that state is
+recorded in `TAFSIR_WORKLOG.md` and is readable in git history, nothing more.
 
 ## Where things stand (2026-10-01)
 
 | | |
 |---|---|
 | Repo | `MaxiKen/quran-explained`, latest writing branch `arena/01a0f50f-quran-explained` (the previous one was `arena/01a0e398-quran-explained`) |
-| Written | **Chapter 1 only** — 7 verses, 8,747 words, published, the frozen writing-style yardstick. Chapter 2 (56/286 written before) was cleared on 2026-10-01. |
-| Next | Under the standing order: pin the first unwritten verse, **2:1**, and go — no waiting between runs. |
-| Standard | **v8 raised**: all v7.4 laws plus Chapter-1 *style* parity, all-source fingerprint/synthesis review, substantive-claim, Qur'an and transmitted-evidence ledgers, independent rubric (a separate review pass), maximum fifty-verse review candidates, fifty-verse automatic drift windows; every stop reviewed, posted and pushed — and the run goes on. |
-| Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named, relayed, compared or quoted |
+| Commentary | **None written; writing paused** until the author's Phase 2 prompt. All generated commentary was cleared on 2026-10-01. |
+| Evidence maps | **Pilot:** `evidence/103.md` (full depth, 70 items) and `evidence/108.md` (survey depth, 41 items); both pass `evidencemap.py check`. Awaiting the author's verdict on the format and depth. |
+| Next | The author judges the pilot; then Phase 1 across the chapters (survey depth), then Phase 2 on his prompt. |
+| Standard | **v8 raised** for commentary, unchanged and not applied while it is paused; narrowed on 2026-10-01 so Chapter 1 is a writing-style yardstick only. |
+| Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST`: al-Ṭabarī, al-Qurṭubī, al-Baghawī, Ibn Kathīr, al-Ālūsī, al-Jalālayn, Ibn ʿAbbās, al-Saʿdī, Ibn ʿUthaymīn, Maʿārif al-Qurʾān **+ `tafsir_initial`** — research only, never named in the book, relayed, compared or quoted |
 
 Chapter 2's cleared prose, drafting bench and reviews are history, not material: do not restore or copy
-any of it. The source corpora, `data/chapter_NNN.js` and the rules are unchanged, so a new run is
-mapped and written exactly as before. `tafsir_initial` has no mapped passage at 2:38–2:39; this is an
-upstream coverage gap, not a reason to use an outside source. Measured on the final tree:
+any of it. The source corpora, `data/chapter_NNN.js` and the rules are unchanged. `tafsir_initial` has no
+mapped passage at 2:38–2:39; this is an upstream coverage gap, not a reason to use an outside source.
+Measured on the final tree:
 
 ```
-python3 scripts/tafsir/quality.py --baseline         # pass: Chapter 1 matches the frozen record (style alarms only)
-python3 scripts/tafsir/qualitytest.py                # all expectations hold
+python3 scripts/tafsir/evidencemap.py check --all    # 103 PASS (4 warnings: reports with no collection named); 108 PASS
+python3 scripts/tafsir/audit.py --all                # 0/114 chapters written
+python3 scripts/tafsir/build_data.py --all --check   # 0 up to date, 0 stale, 114 not written yet
 python3 scripts/tafsir/quality.py --all --push-check # no non-baseline commentary is written
-python3 scripts/tafsir/audit.py 1                    # RESULT: PASS
-python3 scripts/tafsir/build_data.py --all --check   # 1 up to date, 0 stale, 113 not written yet
-python3 scripts/tafsir/run.py --status               # next verse to write: 2:1
+python3 scripts/tafsir/quality.py --baseline         # BLOCK QTY-BASELINE-CHANGED (expected: Chapter 1 is deleted)
+python3 scripts/tafsir/qualitytest.py                # FileNotFoundError: needs the real tafsir/001.md (expected)
 ```
 
 ## The law this book is written to
@@ -176,6 +200,18 @@ The author's instructions, verbatim, in force:
   review, post, push, carry on; no waiting; silence is not an approval), §0.13 (Chapter 1 is the
   writing-style yardstick only) and §11.14 (chapters may be written in parallel). There is one AI, so
   the review is a separate cold pass under `arena-review-agent`.
+* The author's new approach and his instruction to clear Chapter 1, 2026-10-01: "I'm thinking of a new
+  approach which I presently do not know if it is going to work just hear me out." · "You'll have to delete
+  chapter 1 commentary also." · "…you have opened all the sources for each of the verses and the content the
+  evidences that you can pick for each of the verses you have them and use them to generate head. So each
+  verses are going to have head and under this head are going to be a summary of the evidences that you got
+  so presently we are not building the whole thing, but you are highlighting what is going to be built upon.
+  This should be quick. Then after later on there is going to be a prompt to tell you that we go into each of
+  the chapters and then start building up on the verses and with this approach, I believe that we are going
+  to move out of generating content based on a fixed range of words lengths and focus on evidence based one
+  which is going to be that all the evidences that you can pick up from the sources which you itemize under
+  the heads in each verses is going to be what it will be built upon. and evidences will now determine the
+  length of each was commentary." — recorded in `TAFSIR_EVIDENCE_MAP.md`; a pilot, not yet a rule.
 * **Each paragraph must be greater than 120 words** (`WRD-PARA-FLOOR`). A heading may
   carry one paragraph or several.
 * Every verse section quotes each phrase of the verse in **bold italics** and explains

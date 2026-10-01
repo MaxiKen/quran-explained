@@ -2,7 +2,9 @@
 
 > **Proposal for the owner, 2026-10-01 — answered the same day: see §0 for what was decided.** The
 > rest of this document is the original proposal, kept as the record of the options; this file is not
-> itself part of the standard (the decisions live in `TAFSIR_RULES.md`). Figures marked *(measured)* were
+> itself part of the standard (the decisions live in `TAFSIR_RULES.md`). Later the same day the author
+> deleted Chapter 1 again and began an evidence-first pilot instead (`TAFSIR_EVIDENCE_MAP.md`); the
+> row below on restoring Chapter 1 is therefore history. Figures marked *(measured)* were
 > taken on the pre-clear tree (commit `95ad372`, recoverable with `git archive 95ad372`). Figures
 > marked *(estimate)* are arithmetic on the assumptions in Appendix A. **Nothing here has been run
 > against a real model yet** — §8 is the pilot that replaces the estimates with measurements.

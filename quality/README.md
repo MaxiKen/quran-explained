@@ -12,17 +12,23 @@ baseline update is made explicitly. Changing an existing baseline requires `--fr
 review independent, contain `approved: true`, match `old_sha256` and `new_sha256`, and explain the
 reason in at least eight words.
 
-> **State since 2026-10-01.** Chapter 2's commentary was cleared: the 2:1–2:56 prose, its review
-> manifests under `reviews/002/` (they embedded excerpts of that prose and were fingerprinted to it)
-> and the owner's draft receipt `draft-approvals/002/001-050.json` (bound to prose that no longer
-> exists) — all of it remains in git history. Chapter 1 was restored to its approved text at the
-> owner's choice, so the baseline, its approval and the Chapter-1 reviews under `reviews/001/` are
-> intact and `quality.py --baseline` passes.
+> **State since 2026-10-01.** All generated commentary was cleared. Chapter 1 had been restored once at
+> the owner's choice, and was then deleted again at the owner's instruction when he began the
+> evidence-first pilot (`TAFSIR_EVIDENCE_MAP.md`). So there is no `tafsir/001.md` for the floor to
+> measure; `reviews/` and `draft-approvals/` are gone (the manifests embedded excerpts of the cleared
+> prose and were fingerprinted to it) and all of it remains in git history. `chapter-001-baseline.json`
+> and its approval are kept as the record of the style yardstick. `quality.py --baseline` therefore
+> blocks with `QTY-BASELINE-CHANGED`, and `qualitytest.py` stops because it needs the real Chapter 1,
+> until a chapter is built, independently reviewed and frozen with `--freeze-baseline --approval FILE`
+> (the approval's `old_sha256` must match this record, and thresholds can only tighten). Deleting the
+> record instead would turn the next freeze into a “first installation” that needs no approval and
+> keeps no old thresholds. Which to do is the owner's decision for when Phase 2 starts.
 
 A raised Chapter 1 must itself receive the complete all-source, claim/evidence, rubric and relevance
-review in checkpoints of no more than fifty verses. The present Chapter 1 was historically reviewed
-as `1:1–1:5` and `1:6–1:7`; both accepted files remain valid under the larger limit. A hash approval
-without accepted semantic review is rejected. Freezing a richer chapter may tighten drift thresholds,
+review in checkpoints of no more than fifty verses. The Chapter 1 this record was measured on was
+reviewed as `1:1–1:5` and `1:6–1:7`; those manifests were removed with the prose, so a rebuilt chapter
+needs fresh reviews (one checkpoint of up to fifty verses is enough). A hash approval without accepted
+semantic review is rejected. Freezing a richer chapter may tighten drift thresholds,
 but `quality.py` preserves every stronger threshold from the previous floor; raising one dimension
 can never quietly lower another.
 

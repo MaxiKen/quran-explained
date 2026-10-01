@@ -330,7 +330,15 @@ separate pass, posts the statistics (`stats.py`), pushes, and carries on without
 reads afterwards (§0.9). There is one AI, so no second model is required or assumed. Chapter 1 is the
 yardstick for writing style only, not for how much content or evidence a verse carries (§0.13).
 Several chapters may be written at once by separate sessions (§11.14). Chapter 1 was restored to its
-approved text the same day.
+approved text the same day, and deleted again, with all generated commentary, when the author began the
+pilot below.
+
+**Pending — evidence first, commentary later (2026-10-01).** The author is piloting a two-phase
+approach (`TAFSIR_EVIDENCE_MAP.md`): an evidence map for every verse first (`evidence/NNN.md`, checked by
+`scripts/tafsir/evidencemap.py`), commentary built from the maps later on his prompt, its length decided
+by the evidence rather than a fixed word range. **Commentary writing is paused until that prompt; this
+file is unchanged by the pilot.** If it is adopted, the verse and paragraph floors of §4 (`WRD-FLOOR`,
+`WRD-PARA-FLOOR`) and the Chapter-1 style record will have to be revisited together (see §7 of that file).
 
 ## 1. Sources — what may be written from (`SRC-*`)
 

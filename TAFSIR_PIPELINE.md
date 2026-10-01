@@ -10,7 +10,10 @@ all eleven works in one pass for research speed. Prose is checked one verse at a
 quality alarms still run in fifty-verse windows, and independent review checkpoints contain at most
 fifty verses. Every generation stop is reviewed, committed and pushed with its statistics, and the
 run goes on without waiting for confirmation (the author's standing order, 2026-10-01), even when the
-range or chapter is incomplete; publication still requires acceptance.
+range or chapter is incomplete; publication still requires acceptance. **Since 2026-10-01 commentary
+writing is paused** while the author pilots an evidence-first, two-phase approach — an evidence map
+per chapter first, commentary built from it later, its length decided by the evidence
+([`TAFSIR_EVIDENCE_MAP.md`](TAFSIR_EVIDENCE_MAP.md)).
 
 * **What to write, and under which rules:** [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md)
 * **Every rule in one list:** [`TAFSIR_RULES.md`](TAFSIR_RULES.md) — the whole rule set, each rule
@@ -23,7 +26,8 @@ range or chapter is incomplete; publication still requires acceptance.
 
 | Path | What it is |
 |---|---|
-| `tafsir/` | the generated corpus — `001.md` … `114.md` (at present only `001.md`, the approved writing-style yardstick, restored on 2026-10-01; Chapter 2 and everything else was cleared that day and `tafsir/.gitkeep` remains) |
+| `tafsir/` | the generated corpus — `001.md` … `114.md` (empty at present: all generated commentary was cleared on 2026-10-01 and `tafsir/.gitkeep` remains) |
+| `evidence/NNN.md` | the evidence map of the two-phase pilot: per verse, heads with a short summary of the evidence the eleven works carry under each, every item naming its works; written and validated with `scripts/tafsir/evidencemap.py` (pilots: 103 at full depth, 108 at survey depth) |
 | `data/chapter_NNN.js` | canonical Arabic, translation and audio per verse — the **only** source of Qur'an wording |
 | `data/tafsir_NNN.json` | app payload built from `tafsir/NNN.md` by `scripts/tafsir/build_data.py` |
 | `scripts/tafsir/` | the pipeline: source digest, phrase splitting, scaffold, batch gate, audit, payload build, status, source verification |
@@ -33,8 +37,8 @@ range or chapter is incomplete; publication still requires acceptance.
 | `tmp/sources/NNN.{txt,json}` | the per-chapter source digests (all eleven), rebuildable, git-ignored |
 | `tmp/runs/run-NNN.{txt,json}` | a run's map — the fifty verses with all eleven works beneath them — and its manifest, git-ignored |
 | `tmp/work/cN_v*.md` | verse drafts; assembly makes them readable but does not make them accepted |
-| `quality/chapter-001-baseline.json` | frozen Chapter-1 hash, measurements and style-drift thresholds — a **writing-style** yardstick only since 2026-10-01 (it does not set how much content or evidence a verse carries) |
-| `quality/reviews/NNN/AAA-BBB.json` | tracked pending or accepted review for at most fifty verses: rubric, all-source fingerprint/synthesis, substantive-claim verification, Qur'an relevance, and transmitted-evidence source/relevance ledgers (at present only Chapter 1's two; the Chapter 2 reviews embedded excerpts of the cleared prose and were removed with it) |
+| `quality/chapter-001-baseline.json` | frozen Chapter-1 hash, measurements and style-drift thresholds — a **writing-style** yardstick only since 2026-10-01 (it does not set how much content or evidence a verse carries). Kept, but Chapter 1 is deleted, so `quality.py --baseline` blocks with `QTY-BASELINE-CHANGED` until a chapter is built and frozen or the record is retired |
+| `quality/reviews/NNN/AAA-BBB.json` | tracked pending or accepted review for at most fifty verses: rubric, all-source fingerprint/synthesis, substantive-claim verification, Qur'an relevance, and transmitted-evidence source/relevance ledgers (none at present: they embed excerpts of the prose and were removed with it on 2026-10-01) |
 | `quality/stats/NNN/AAA-BBB.md` | the statistics posted with every push (`scripts/tafsir/stats.py`): style against Chapter 1, content and evidence for information, source coverage |
 
 History is not gone. The deleted corpus and its rule documents are readable at the previous

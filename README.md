@@ -11,17 +11,24 @@ measure of how much content or evidence a verse carries — rather than merely a
 per verse, automatic drift alarms run in fifty-verse windows, and independent review checkpoints
 contain at most fifty verses.
 
-**Chapter 2's commentary was cleared on 2026-10-01; Chapter 1 stays.** The only commentary in the
-tree is Chapter 1 (`tafsir/001.md`, its payload `data/tafsir_001.json` and its two review records),
-restored at the owner's choice as the approved writing-style yardstick. Everything else the generator
-wrote — Chapter 2's 2:1–2:56 prose, its drafting bench `tmp/work/` (only the `dig.py` helper
-remains), its review manifests and the owner's draft-approval receipt — was removed, so every chapter
-except Chapter 1 shows the app's “coming soon” note. The eleven source works, `data/chapter_NNN.js`
-and the pipeline scripts are untouched, and the cleared text stays readable in git history. **The
-author's standing order (2026-10-01):** the writer starts at the first unwritten verse (2:1), reviews
-its own range in a separate pass, posts the statistics, pushes, and carries on without waiting for
-confirmation; the author reads afterwards and asks for a change if something is not right (see
-[`TAFSIR_RULES.md`](TAFSIR_RULES.md) §0.9).
+**All generated commentary was cleared on 2026-10-01, and commentary writing is paused.** Nothing the
+generator wrote is in the current tree: `tafsir/` holds only `.gitkeep` (Chapters 1 and 2 are gone),
+no `data/tafsir_NNN.json` payload exists so every chapter shows the app's “coming soon” note, the
+drafting bench `tmp/work/` keeps only its `dig.py` helper, and the review manifests and the owner's
+draft-approval receipt that were bound to the cleared prose are removed. The eleven source works,
+`data/chapter_NNN.js` and the pipeline scripts are untouched, and the cleared text stays readable in
+git history.
+
+**The author is trying a two-phase approach** ([`TAFSIR_EVIDENCE_MAP.md`](TAFSIR_EVIDENCE_MAP.md)):
+first an *evidence map* for every verse — heads, with a short summary of the evidence the eleven works
+carry under each — and later, chapter by chapter on the author's prompt, commentary built from the
+maps, its length decided by the evidence rather than a fixed word range. Two pilot maps exist,
+`evidence/103.md` (full depth) and `evidence/108.md` (survey depth). The standing order for commentary
+(review in a separate pass, post the statistics, push, carry on without waiting; `TAFSIR_RULES.md` §0.9)
+is recorded for when commentary resumes. The Chapter-1 style record
+`quality/chapter-001-baseline.json` is kept, but with Chapter 1 gone `quality.py --baseline` reports
+`QTY-BASELINE-CHANGED`, so the “Tafsir quality parity” check fails at its baseline step until the record
+is re-frozen or retired ([`quality/README.md`](quality/README.md)).
 
 ## Start here
 
@@ -37,9 +44,18 @@ confirmation; the author reads afterwards and asks for a change if something is 
 
 ## Pipeline in one screen
 
-No run is pinned in a fresh checkout. A bare “continue” pins the first unwritten verse and goes —
-the author's standing order (2026-10-01); the author may re-aim it with `--start C:V` at any time. A
-run is fifty verses; `C:V` is a chapter and verse, `N` a chapter, `A`–`B` verses.
+**Commentary is paused**, so a bare “continue” does not start it. Phase 1 — the evidence maps — is
+piloted (`TAFSIR_EVIDENCE_MAP.md`):
+
+```bash
+python3 scripts/tafsir/sources.py N --cap-json 0           # the digest for chapter N (git-ignored scratch)
+python3 scripts/tafsir/evidencemap.py read N V             # survey one verse across the eleven works
+python3 scripts/tafsir/evidencemap.py check N              # validate evidence/NNN.md
+```
+
+When commentary resumes, a bare “continue” pins the first unwritten verse and goes — the author's
+standing order (2026-10-01); the author may re-aim it with `--start C:V` at any time. A run is fifty
+verses; `C:V` is a chapter and verse, `N` a chapter, `A`–`B` verses.
 
 ```bash
 python3 scripts/tafsir/run.py --plan [--start C:V] # pin the next fifty (default: the first unwritten verse)
