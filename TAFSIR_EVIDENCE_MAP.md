@@ -86,9 +86,9 @@ words and 1.08 items per real paragraph. Scaled to the Qurʾān (125 M character
 410,270): about **14–15 M words and ≈ 370,000 items** — twice the 7.4 M words of the first density, and
 about twice the commentary under the old floors. The rebuild took about 17 minutes of sandbox clock, tool
 changes included; at that rate the Qurʾān is of the order of **500–700 one-AI hours** (3–4 weeks
-non-stop; two to three days across ten sessions), Chapter 2 alone (13 % of the corpus, 54,361 paragraphs)
-about 100 hours and, with one writer to a chapter (§0.9 R2), not splittable. These are rough figures from
-one short chapter. So **full depth is not quick** — it is complete — and a leaner density (shorter items,
+non-stop). Sessions can run in parallel, one per chapter, but Chapter 2 alone (13 % of the corpus, 54,361
+paragraphs) is about 100 hours and, with one writer to a chapter (§0.9 R2), cannot be split — so four to
+five days is the best case however many sessions run. These are rough figures from one short chapter. So **full depth is not quick** — it is complete — and a leaner density (shorter items,
 the same paragraph rule) is a dial the author can turn.
 
 ## 4. What the whole Qurʾān's material says about "evidence decides the length"
