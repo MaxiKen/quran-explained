@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# scratch: evidence packs and drafting bench are rebuilt with one command
+tmp/
