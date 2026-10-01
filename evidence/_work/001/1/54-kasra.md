@@ -1,0 +1,5 @@
+### WHY THE BĀʾ TAKES A KASRAH
+
+- `1:1.0` · language · Alūsī: one-letter particles are built and should take fatḥah — built forms take sukūn for lightness but, as words that may begin speech, cannot begin silent, so fatḥah, sukūn's sister in lightness, is due; yet this bāʾ is set apart among the particles by being always a particle and always governing the genitive, and each suits kasrah: being a particle calls for no vowel and kasrah is rare — absent from verbs, diptotes and, but seldom, particles — which suits non-existence; and the genitive, because the bāʾ's vowel agrees with its effect. [alusi¶37]
+- `1:1.0` · language · The conjunction wāw (always a particle) and the likeness kāf (always genitive-governing) do not refute it, since only the combination makes the distinction; the oath wāw and tāʾ remain, answered: they work as deputies of the bāʾ, the original oath particle. Alūsī calls these grammatical reasons drawn out after the fact to show fitness, and weak, as the verse says: "the covenant of the one I love and his pledge are weaker than a grammarian's proof". [alusi¶37-38]
+
