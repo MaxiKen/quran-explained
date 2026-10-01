@@ -13,7 +13,7 @@ line of it:
 |---|---|
 | Sources | the **eleven** of `corpus.SOURCE_ALLOWLIST` (the ten tafsirs above plus the study draft `tafsir_initial/`, v7.2) as **research**: all eleven pulled for every verse before it is written (`SRC-NOTCHECKED`, `SRC-NODIGEST`), their contents taken as authenticated (no fact-checking of them); nothing outside the eleven cited (`SRC-BANNED`); the prose never relays, compares or quotes one of them — the book is the author's own (`STY-PARAPHRASE`, `SRC-QUOTED`; v7) |
 | Words per verse | floor `max(700, 9 × the verse's own words)`, capped 4,000; soft ceiling 5,000; **every paragraph past 120 words** — introduction and verses alike (`WRD-PARA-FLOOR`; v7) — a heading may carry one paragraph or several |
-| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, at most fifty verses per independent review, and at most fifty new drafts beyond the accepted/owner-approved drafting frontier; every generation stop is push-checked, committed and pushed before owner confirmation; drift stops, notifies and pushes |
+| Workflow (v8) | **50 mapped / 1 drafted / every stop pushed / ≤50 reviewed**: fifty verses researched from all eleven in one pass, each verse mechanically checked, fifty-verse automatic drift windows retained, at most fifty verses per independent review, and at most fifty new drafts beyond the accepted/owner-approved drafting frontier; every generation stop is reviewed, posted with its statistics, committed and pushed, and the run goes on without waiting for confirmation (the author's standing order, 2026-10-01); drift stops new drafting, is repaired and noted, and the clean state is pushed |
 | Presentation | **no house style across verses** (v7.1): no stock opening frame, no wording of the commentary's own recurring verse to verse, no heading reused or templated, no single arrangement of headings and paragraphs through a long chapter (`STY-UNIQUE-VERSE`); quoted matter may recur, the author's voice may not |
 | Interweaving | one reading in the book's own voice, not a report per source: no run of three authority-led sentences, no more than 30% of a section's sentences or 45% of its paragraphs opening with a named authority, and at least five sentences per verse that reason about it (`STY-SOURCE-PARADE`, `STY-ANALYSIS-FLOOR`) |
 | Introduction | 250–1,500 words |
@@ -25,7 +25,7 @@ line of it:
 | Evidence | every verse carries checkable anchors; the reviewer checks every Qur'an cross-reference, named report/early authority, language claim and consequential legal/theological claim for source location and relevance |
 | Source retention | every review fingerprints all available passages from the eleven, compares the complete source map with the prose, groups duplicate witnesses into distinct material points, records included anchors or omitted reasons, and adds material claims a conservative detector missed; corpus or prose changes invalidate stale review |
 | Analogy/application | optional; retained only where it adds verse-specific clarity, with no fixed marker or paragraph position |
-| Quality (v8) | Chapter 1 is frozen as the floor; a raised baseline undergoes the same complete independent review; writer and reviewer differ and all eight dimensions score ≥4/5; `quality.py` blocks drift and `build_data.py` refuses unreviewed prose |
+| Quality (v8) | Chapter 1 is frozen as the **writing-style** yardstick (not for how much content or evidence a verse carries — author, 2026-10-01); a raised baseline undergoes the same complete independent review; writer and reviewer identities differ and all eight dimensions score ≥4/5; `quality.py` blocks drift and `build_data.py` refuses unreviewed prose |
 | Diction | plain English; formal vocabulary fails (`STY-DICTION`) |
 | Elements | history, reports with collections, cross-references, rulings, lesson, plain explanation, analogy and present-day application are carried by the prose and **never labelled** (`STY-LABELS`: no `Lesson:`, `Modern application:`, `History:`, …) |
 | Sentences | mean under 22 words (warn 26, fail 32); under 8% above 40 words |
@@ -43,6 +43,137 @@ reports with their collections, named early authorities, language points. Full s
 `TAFSIR_RULES.md` §0.
 
 ## Progress
+
+**The pilot rebuilt at full depth, with paragraph pointers (2026-10-01, later).** The author read the two
+pilot maps and wrote: "I will go for 103 style and I expect it to have more evidence than what's present."
+
+* *Decided by the author:* full depth (“103 style”), carrying more evidence than the first 103 map. Whether
+  the new density is what he meant, and its cost, await his word; Phase 2 still starts only on his prompt.
+* *Built:* `evidencemap.py` now numbers paragraphs from 1 (`read --full` prints them all); a full map's
+  citations name paragraphs (`tabari¶5`, `alusi@3¶9`); `check` proves that once the last verse is mapped
+  **every paragraph of every work's passage is cited or set aside with a reason** (headings and separators
+  exempt; a map that sets aside over 20 % is warned) and prints a per-work table; `--gaps` lists what is
+  unaccounted; item limit for full maps 100 words; a survey map now warns that it is not the chosen depth.
+* *Rebuilt:* `evidence/103.md` — 160 items (was 70), 6,080 summary words (was 2,937), 33 heads (was 27),
+  all 160 items pointing at paragraphs (was none); 148 real paragraphs: 133 cited, 15 set aside (2.9 % of the
+  text: headings, greetings, quoted copies), 0 missing. Seven things the first map lacked were added (Ādam's
+  creation as a reason for the oath, the al-ḍuḥā comparison, an oath by one of two unspecified, the
+  spearhead-and-blossom answer, al-Māturīdī's note, Ṭabarī's chain details, the Jarīr line);
+  the first map's unsupported expansion of the study draft's "R" to al-Rāzī was removed.
+  `check`: PASS, 0 errors, 5 warnings (reports whose collection the sources do not name).
+* *Measured:* at this density a map is about 124 words per 1,000 characters of source — scaled to the Qurʾān
+  (125 M characters, 342,338 real paragraphs) about 14–15 M words and 370,000 items, twice the first density;
+  the rebuild took about 17 minutes of sandbox clock, so of the order of 500–700 one-AI hours (rough, from one
+  short chapter).
+* *Not changed:* `evidence/108.md` (still survey, now warned), the rules, the audit and quality gates, the app.
+
+**Chapter 1 deleted again; commentary paused; the two-phase approach piloted (2026-10-01).** The author
+said he was "thinking of a new approach" and asked to be heard out (his words are in `TAFSIR_HANDOFF.md`):
+first an evidence map for every verse — heads, with a short summary of the evidence the eleven works carry
+under each — and later, on his prompt, commentary built from the maps, its length decided by the evidence
+and not by a fixed range of words. He also instructed that Chapter 1's commentary be deleted too.
+
+* *Deleted:* `tafsir/001.md`, `data/tafsir_001.json` and `quality/reviews/001/` (2 files). `sw.js` is again
+  `quran-reader-v2.5.51`, retiring `./data/tafsir_001.json` and `./data/tafsir_002.json`; tested with a
+  mocked Cache Storage: the old worker keeps the Chapter 1 payload, the new one evicts it and keeps chapter
+  text and other downloads. The Chapter-1 style record is kept, so `quality.py --baseline` and
+  `qualitytest.py` fail again (`quality/README.md`) and the “Tafsir quality parity” workflow fails at its
+  baseline step; pushes that touch only `evidence/` do not trigger it.
+* *Built:* `scripts/tafsir/evidencemap.py` — `read`, a survey reader (caps, a table of contents for what
+  lies beyond them, whole-sūrah passages shown once, `--para`, `--find`) and `check` (the quoted line is the
+  verse's translation; all eleven works cited or marked "Nothing further from"; every cited passage exists;
+  item numbering; heads UPPERCASE and unique; cross-references are real verses; hadith and athar flagged when
+  no collection or authority is named; limits by declared depth) — and `TAFSIR_EVIDENCE_MAP.md`.
+* *Piloted:* `evidence/103.md` at **full** depth (70 items, 2,937 summary words for 3 verses; 40 % of the
+  size of the source it summarises) and `evidence/108.md` at **survey** depth (41 items, 1,219 words; 8 %).
+  Both pass `check`; 103 carries four warnings, each a report whose collection the sources do not name.
+* *Measured:* distinct source material per verse varies about 110× between the poorest and the richest tenth
+  of the Qurʾān (median 11,359 characters; 31 % of verses carry under 6,000, less than the 700-word floor
+  needs). A full-depth map scaled to the whole Qurʾān is about 8 M words — longer than the commentary — and a
+  survey-depth map about 1.6 M; so depth, declared in each map, is what makes Phase 1 quick.
+* *Not changed:* the rules (`TAFSIR_RULES.md` records the pilot as pending), the audit and quality gates, and
+  the app apart from the cache version.
+
+State now: no commentary written, none published; two pilot evidence maps; commentary writing paused until
+the author's Phase 2 prompt.
+
+**Chapter 2 cleared, Chapter 1 restored, and the standing order set (2026-10-01).** On the author's
+instruction to clear all the Quran commentary already generated by the generator, everything it had
+written was removed from current state, without rewriting history. The author then answered the
+proposal in `TAFSIR_FAST_PATH.md`; the answers, verbatim, are the rules now in force:
+
+* "R1. should be AI write and post the statistics relating to others, also pushing the content to
+  github. It doesn't even need to tell me if I want to continue. I'll go over it, if it's not okay,
+  I'll ask for a change, if it is I may say nothing"
+* "R2 it's just one AI that can be accessed ooo. I hope you know that"
+* "Remove R3"
+* "I agree with R4"
+* "R5 I pick a."
+* "It should be known that chapter 1 is go only be followed for its wiritter writing style and not
+  the amount of content or evidences to be presented."
+
+What each came to (the proposals' numbers are the ones in the author's chat reply):
+
+| | Before | Now |
+|---|---|---|
+| R1 who checks the work | each ≤50-verse batch checked by someone other than the writer — in every accepted record, the owner | the AI reviews its own range in a separate, cold pass under its own identity (`arena-review-agent`), posts the statistics (`stats.py`), pushes to GitHub, and carries on; the author reads afterwards and asks for a change if needed; silence is not recorded as an approval of anything |
+| R2 a second AI, parallel writers on one chapter | proposed | not available (one AI) and not adopted; verses are still written in order within a chapter |
+| R3 stops that wait for the owner | after every fifty verses: stop, push, wait for the owner's OK | removed: no stop-and-wait of any kind (the push at every stop remains) |
+| R4 chapter order | "ascending, 001 → 114" | the default order, not a ban on parallel chapters (several sessions may write different chapters) |
+| R5 Chapter 1 | cleared with the rest | restored to its approved text, so the yardstick has a chapter behind it again |
+| Yardstick | Chapter 1 set substance and finish, including a minimum evidence density | Chapter 1 sets writing style only; evidence density is measured and posted, never an alarm |
+
+*Interpretation, for correction:* “Remove R3” was read as removing the rule that makes the writer
+stop and wait for the owner (which is what R3 described), consistent with R1's “it doesn't even need
+to tell me if I want to continue”; and “statistics relating to others” as the comparison of each range
+with Chapter 1, the earlier verses of its chapter and the other written chapters, plus per-work source
+coverage (`stats.py`).
+
+**Still cleared** (Chapter 2 and its records): `tafsir/002.md` (introduction and 2:1–2:56: 56 verses,
+53,557 words, plus the 2:57–2:286 scaffold; `tafsir/.gitkeep` remains), the tracked drafting bench
+`tmp/work/c1_intro.md`, `c1_v001`–`c1_v007`, `c2_intro.md` and `c2_v001`–`c2_v056` (65 files; the
+`dig.py` helper stays), the Chapter 2 review manifests `quality/reviews/002/` (8 files — they carry
+excerpts of the cleared prose and are fingerprinted to it), and the owner's draft-continuation receipt
+`quality/draft-approvals/002/001-050.json` (approval of `06ec1c6`, bound to prose that no longer
+exists). **Restored, byte-identical to `95ad372`:** `tafsir/001.md` (7 verses, 8,747 words),
+`data/tafsir_001.json` and `quality/reviews/001/` (2 files). What the app serves is therefore identical
+to the last deployed state, so `sw.js` is back at `quran-reader-v2.5.50` (Chapter 1's payload is kept,
+Chapter 2's stays retired) and needs no new cache version.
+
+**Changed:**
+
+* *Rules and docs* — `TAFSIR_RULES.md` §0.9 (the standing run order), §0.13 (Chapter 1 as the
+  writing-style yardstick), the baseline paragraph, the v8 summary and a standing-order paragraph, §11
+  items 1, 4, 5 (the independent review pass), 8, 12, 14, and Appendices A–C; `TAFSIR_PROMPT.md` §1
+  items 1, 4 and 8 and §10; `TAFSIR_PIPELINE.md`; `quality/README.md`; `README.md`; the handoff; and the
+  messages in `run.py` and `batch.py`.
+* *`quality.py` — the yardstick is style only.* The evidence-density alarm (`QTY-EVIDENCE-DRIFT`) is
+  retired; `metrics()` still computes the figure and `stats.py` posts it. A future freeze no longer
+  writes `evidence_density_min`. The frozen record `quality/chapter-001-baseline.json` and its approval
+  are untouched (the record keeps its old threshold for history; it is not enforced). `qualitytest.py`
+  now proves both halves — degenerate style is still caught, and plain prose with no evidence at all
+  raises no alarm — and run against the old gate the new tests fail on exactly those evidence checks.
+* *`stats.py` (new)* — the statistics posted with every push: writing style against Chapter 1's alarms;
+  content and evidence for information beside Chapter 1, the earlier verses of the chapter and the other
+  written chapters; per-work source coverage from the review record. `--write` saves
+  `quality/stats/NNN/AAA-BBB.md`.
+* *Draft check, ~25% faster* — grounding is limited to the verses the check reports (`audit.py`,
+  `batch.py`). Output is byte-identical to the old code in nine invocations on the real 63-verse
+  corpus, including the 29,546-line whole-chapter audit; one Chapter 2 verse takes 11.3 s instead of
+  15.3 s. The rest is the audit's per-verse rules re-run on every written verse of the chapter, which
+  grows as a chapter fills; scoping that is a larger refactor, not done.
+* *Not changed* — every audit rule and threshold (the 700-word floor, the 120-word paragraph floor, the
+  per-verse evidence anchors), the baseline record, the CI workflow, and the app.
+
+**Checked on the final tree:** `quality.py --baseline` pass; `qualitytest.py` all expectations hold;
+`quality.py --all --push-check` clean; `audit.py 1` PASS; `build_data.py --all --check` 1 up to date,
+113 not written; `batch.py 1 --from 1 --to 7` PASS; `selftest.py` 0 uncaught / 0 not exercised / 0
+false alarms; `ruletest.py` all hold — every step of the “Tafsir quality parity” workflow passes when run
+locally. A review
+manifest under `arena-review-agent` is accepted by the gate (and `reviewer == writer` is still refused).
+
+State then: 1 of 114 chapters written and published (Chapter 1), no run pinned. (Superseded the same day:
+Chapter 1 was deleted again — see the entry above.)
 
 **Standard v8 workflow updated (2026-09-27).** Chapter 1 is the frozen quality floor. Passing
 `audit.py` does not establish acceptance. `quality.py` keeps fifty-verse metric alarms, independent
@@ -190,16 +321,19 @@ advisories under v7.4. The growing 2:1–2:100 mechanical gate also passed under
 Those files were later purged because the range lacked v8 review and exhibited measured quality
 regressions; they remain history, not reusable draft material.
 
+Corpus state before the 2026-10-01 clears (see the first two entries above):
+
 | Ch | File | Verses | Words | Range (min/med/max) | Gate |
 |---|---|---|---|---|---|
 | 1 | `tafsir/001.md` | 7/7 accepted | 8,747 | 1,020/1,293/1,414 | raised v8 floor PASS; published |
 | 2 | `tafsir/002.md` | 56/286 written; 23 accepted, 33 pending review | 53,557 | 739/929/1,270 | review candidate PASS; 230 verses still scaffold |
 
-Published totals remain **1 of 114 chapters and 7 published verses** under the raised Chapter-1
-hash. The working corpus contains 30 accepted verses plus 33 pending review candidates across
-Chapters 1–2, but only complete Chapter 1 has an app payload. Chapter 2 is intentionally partial, so
-`audit.py 2` fails on its 230 `TODO` scaffolds and `data/tafsir_002.json` does not exist. The current
-pinned 2:51–2:100 run continues at 2:57 under the separate owner approval of the first draft run.
+Published totals were **1 of 114 chapters and 7 published verses** under the raised Chapter-1
+hash (**0 and 0** after Chapter 1 was deleted). The working corpus held 30 accepted verses plus 33 pending review
+candidates across Chapters 1–2, but only complete Chapter 1 had an app payload. Chapter 2 was
+intentionally partial, so `audit.py 2` failed on its 230 `TODO` scaffolds and `data/tafsir_002.json`
+did not exist. The pinned 2:51–2:100 run would have continued at 2:57 under the separate owner
+approval of the first draft run; that pin no longer applies.
 
 **Corpus cleared for v7.2 (2026-09-25).** The commentary generated for chapter 1 (7 verses, 4,339
 words, previously gated 0F/0W) and the written part of chapter 2 (the introduction and 2:1–2:19, 13

@@ -2,23 +2,33 @@
 
 Quran explained verse by verse.
 
-The commentary is being written again from the ground up, in `tafsir/`, one chapter file at a
-time, out of the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the
-ten tafsirs plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed
-format and two gates before it is published to the app. The standard in force is **v8**: the v7.4
-source, register and independence laws remain, and Chapter 1 is now the frozen quality floor rather
-than merely an example. The source-enriched Chapter 1 is independently approved, frozen and
-published in `tafsir/001.md` and `data/tafsir_001.json`; its accepted schema-v2 reviews preserve the
-all-source synthesis, substantive-claim, citation and transmitted-evidence decisions. Chapter 2 was
-cleared and restarted from the sources; prose now reaches **2:56**. After the owner approved
-2:1–2:50 for continued drafting, the next run was pinned at **2:51–2:100** and resumes at **2:57**.
-Its introduction, 2:1–2:5 and 2:16–2:33 are independently accepted; 2:6–2:15 and 2:34–2:56
-remain pending detailed review. The independently accepted frontier is still 2:5. A separate
-fingerprinted owner-approval record advances only the drafting frontier to 2:50; it does not
-invent review scores or authorize publication. All written verses pass their mechanical and
-review-candidate push checks. Verses 2:57–2:286 remain scaffolds, and Chapter 2 is unpublished. Fifty verses are mapped from the eleven works in one pass; prose is
-mechanically checked per verse, automatic drift alarms run in fifty-verse windows, and independent
-review checkpoints contain at most fifty verses.
+The commentary is written from the ground up, in `tafsir/`, one chapter file at a time, out of
+the **eleven** works this repository is written from (`corpus.SOURCE_ALLOWLIST`: the ten tafsirs
+plus the study draft `tafsir_initial/`, v7.4). Each chapter is generated against a fixed format and
+two gates before it is published to the app. The standard in force is **v8**: the v7.4 source,
+register and independence laws remain, and Chapter 1 is the frozen writing-style yardstick — not a
+measure of how much content or evidence a verse carries — rather than merely an example. Fifty verses are mapped from the eleven works in one pass; prose is mechanically checked
+per verse, automatic drift alarms run in fifty-verse windows, and independent review checkpoints
+contain at most fifty verses.
+
+**All generated commentary was cleared on 2026-10-01, and commentary writing is paused.** Nothing the
+generator wrote is in the current tree: `tafsir/` holds only `.gitkeep` (Chapters 1 and 2 are gone),
+no `data/tafsir_NNN.json` payload exists so every chapter shows the app's “coming soon” note, the
+drafting bench `tmp/work/` keeps only its `dig.py` helper, and the review manifests and the owner's
+draft-approval receipt that were bound to the cleared prose are removed. The eleven source works,
+`data/chapter_NNN.js` and the pipeline scripts are untouched, and the cleared text stays readable in
+git history.
+
+**The author is trying a two-phase approach** ([`TAFSIR_EVIDENCE_MAP.md`](TAFSIR_EVIDENCE_MAP.md)):
+first an *evidence map* for every verse — heads, with a short summary of the evidence the eleven works
+carry under each — and later, chapter by chapter on the author's prompt, commentary built from the
+maps, its length decided by the evidence rather than a fixed word range. Two pilot maps exist,
+`evidence/103.md` (full depth) and `evidence/108.md` (survey depth). The standing order for commentary
+(review in a separate pass, post the statistics, push, carry on without waiting; `TAFSIR_RULES.md` §0.9)
+is recorded for when commentary resumes. The Chapter-1 style record
+`quality/chapter-001-baseline.json` is kept, but with Chapter 1 gone `quality.py --baseline` reports
+`QTY-BASELINE-CHANGED`, so the “Tafsir quality parity” check fails at its baseline step until the record
+is re-frozen or retired ([`quality/README.md`](quality/README.md)).
 
 ## Start here
 
@@ -34,27 +44,40 @@ review checkpoints contain at most fifty verses.
 
 ## Pipeline in one screen
 
-The current run is **2:51–2:100**, with prose through **2:56**. Existing prose must not be regenerated.
+**Commentary is paused**, so a bare “continue” does not start it. Phase 1 — the evidence maps — is
+piloted at full depth, the author's choice (`TAFSIR_EVIDENCE_MAP.md`; `evidence/103.md` is the model):
 
 ```bash
-python3 scripts/tafsir/run.py --plan --start 2:51 # restore the current pin if ignored scratch is absent
-python3 scripts/tafsir/run.py --build --cap-json 0 # uncapped eleven-source digest + run map
-python3 scripts/tafsir/run.py --slice 2:57 2:60   # next source-reading stretch
-python3 scripts/tafsir/batch.py 2 --from 1 --to 56 --push-check
-python3 scripts/tafsir/quality.py --all --push-check
-# Pending candidates are committed and pushed before owner acceptance.
-# A different reviewer completes the pending source/claim/evidence ledgers and rubric.
-python3 scripts/tafsir/run.py --status          # next draft 2:57; independent review remains pending
-# After all pending reviews are independently completed and approved:
-python3 scripts/tafsir/batch.py 2 --from 1 --to 56
-python3 scripts/tafsir/run.py --check           # RUN COMPLETE requires all fifty accepted
-# Explicit owner draft approval can authorize the next run without semantic acceptance.
+python3 scripts/tafsir/sources.py N --cap-json 0           # the digest for chapter N (git-ignored scratch)
+python3 scripts/tafsir/evidencemap.py read N V --full      # every paragraph of every work, numbered
+python3 scripts/tafsir/evidencemap.py check N              # validate evidence/NNN.md (--gaps: what is unaccounted)
+```
 
-# Whole-chapter publication remains blocked until all 286 verses are finished and accepted:
-python3 scripts/tafsir/audit.py 2
-python3 scripts/tafsir/quality.py 2
-python3 scripts/tafsir/build_data.py 2
-python3 scripts/tafsir/status.py 2
+When commentary resumes, a bare “continue” pins the first unwritten verse and goes — the author's
+standing order (2026-10-01); the author may re-aim it with `--start C:V` at any time. A run is fifty
+verses; `C:V` is a chapter and verse, `N` a chapter, `A`–`B` verses.
+
+```bash
+python3 scripts/tafsir/run.py --plan [--start C:V] # pin the next fifty (default: the first unwritten verse)
+python3 scripts/tafsir/run.py --build --cap-json 0 # uncapped eleven-source digest + run map
+python3 scripts/tafsir/run.py --slice C:V C:V     # a source-reading stretch of the pinned run
+python3 scripts/tafsir/scaffold.py N              # create tafsir/NNN.md for a chapter not yet started
+python3 scripts/tafsir/batch.py N --from V --to V --draft    # mechanical check of each verse as it lands
+python3 scripts/tafsir/quality.py --template N --from A --to B --writer arena-writing-agent
+# The independent review pass: a separate, cold pass as reviewer arena-review-agent completes the
+# source/claim/evidence ledgers and the rubric from the prose and the source passages only.
+python3 scripts/tafsir/batch.py N --from A --to B            # mechanical + independent parity gate
+python3 scripts/tafsir/stats.py N --from A --to B --write    # the statistics posted with the push
+# Commit and push to the session branch, then carry on with the next run — no waiting.
+python3 scripts/tafsir/quality.py --all --push-check         # what CI runs on every push
+python3 scripts/tafsir/run.py --status          # written/unwritten, floors and gate state
+python3 scripts/tafsir/run.py --check           # RUN COMPLETE requires all fifty accepted
+
+# Whole-chapter publication remains blocked until every verse of the chapter is finished and accepted:
+python3 scripts/tafsir/audit.py N
+python3 scripts/tafsir/quality.py N
+python3 scripts/tafsir/build_data.py N
+python3 scripts/tafsir/status.py N
 ```
 
 Excerpts worth knowing:
@@ -89,8 +112,9 @@ Excerpts worth knowing:
 * fifty verses are mapped for research speed; no more than fifty new drafts follow
   accepted/owner-approved prose, and each semantic review covers at most fifty verses;
   prose is written in order and mechanically checked per verse, while quantitative drift is still
-  tested every fifty verses; every generation stop is committed and pushed as a clean review
-  candidate, even when incomplete or pending, and acceptance remains mandatory for publication;
+  tested every fifty verses; every generation stop is reviewed, committed and pushed with its
+  statistics, even when the chapter is incomplete, and the run goes on without waiting for
+  confirmation; acceptance remains mandatory for publication;
 * a chapter is finished when the mechanical auditor and Chapter-1 parity gate pass, every verse clears its word floor,
   the payload is rebuilt, `sw.js` `CACHE_VERSION` is bumped and `TAFSIR_WORKLOG.md` has the row.
 

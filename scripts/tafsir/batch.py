@@ -83,7 +83,10 @@ def run_range(chapter, start, end, opts):
         return {"lines": lines, "fails": 1, "warns": 0, "pending": pending, "ok": False,
                 "range": (start, end), "written": written}
 
-    findings = A.audit_chapter(chapter, opts)
+    # Only the written verses of this range are reported below, so only they need the (costly,
+    # advisory) grounding check. A per-call copy: ``--ranges`` runs ranges in parallel threads.
+    scoped = types.SimpleNamespace(**vars(opts), only_verses=set(written))
+    findings = A.audit_chapter(chapter, scoped)
 
     # which verse does a given file line belong to? (the introduction owns everything above 1)
     owner, intro_end = {}, 0
@@ -194,9 +197,9 @@ def run_range(chapter, start, end, opts):
     if pending:
         lines.append("keep going: write %d:%d next, then re-run this gate" % (chapter, pending[0]))
     elif opts.draft:
-        lines.append("draft range complete — create or refresh its review template, then run --push-check")
+        lines.append("draft range complete — create or refresh its review template, complete the review pass, then run the full gate")
     elif opts.push_check:
-        lines.append("checkpoint ready — commit and push now; owner acceptance may follow on GitHub")
+        lines.append("checkpoint ready — commit and push now; finish the review pass, post the statistics, and carry on")
     else:
         lines.append("accepted range complete — run the chapter gate only when the whole chapter is written")
     if opts.draft:

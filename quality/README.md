@@ -1,16 +1,34 @@
 # Tafsir quality acceptance
 
-Chapter 1 is the frozen quality floor. Its hash, metrics and drift thresholds are in
-`chapter-001-baseline.json`. The baseline is not regenerated during ordinary writing; a changed
-Chapter 1 blocks the gate until a separately approved baseline update is made explicitly. Changing
-an existing baseline requires `--freeze-baseline --approval FILE`; the approval JSON must name
-different writer and reviewer identities, mark the review independent, contain `approved: true`,
-match `old_sha256` and `new_sha256`, and explain the reason in at least eight words.
+Chapter 1 is the frozen **writing-style** yardstick. Its hash, metrics and style thresholds are in
+`chapter-001-baseline.json`. Since the owner's instruction of 2026-10-01 it sets how the prose
+*reads* — mean sentence length, the share of sentences over forty words, readability, and the limits
+on a repeated production mould — and it does **not** set how much content or evidence a verse
+carries: evidence density is measured and posted in the statistics but is never an alarm (the frozen
+record still lists its old `evidence_density_min`; it is not enforced). The baseline is not
+regenerated during ordinary writing; a changed Chapter 1 blocks the gate until a separately approved
+baseline update is made explicitly. Changing an existing baseline requires `--freeze-baseline
+--approval FILE`; the approval JSON must name different writer and reviewer identities, mark the
+review independent, contain `approved: true`, match `old_sha256` and `new_sha256`, and explain the
+reason in at least eight words.
+
+> **State since 2026-10-01.** All generated commentary was cleared. Chapter 1 had been restored once at
+> the owner's choice, and was then deleted again at the owner's instruction when he began the
+> evidence-first pilot (`TAFSIR_EVIDENCE_MAP.md`). So there is no `tafsir/001.md` for the floor to
+> measure; `reviews/` and `draft-approvals/` are gone (the manifests embedded excerpts of the cleared
+> prose and were fingerprinted to it) and all of it remains in git history. `chapter-001-baseline.json`
+> and its approval are kept as the record of the style yardstick. `quality.py --baseline` therefore
+> blocks with `QTY-BASELINE-CHANGED`, and `qualitytest.py` stops because it needs the real Chapter 1,
+> until a chapter is built, independently reviewed and frozen with `--freeze-baseline --approval FILE`
+> (the approval's `old_sha256` must match this record, and thresholds can only tighten). Deleting the
+> record instead would turn the next freeze into a “first installation” that needs no approval and
+> keeps no old thresholds. Which to do is the owner's decision for when Phase 2 starts.
 
 A raised Chapter 1 must itself receive the complete all-source, claim/evidence, rubric and relevance
-review in checkpoints of no more than fifty verses. The present Chapter 1 was historically reviewed
-as `1:1–1:5` and `1:6–1:7`; both accepted files remain valid under the larger limit. A hash approval
-without accepted semantic review is rejected. Freezing a richer chapter may tighten drift thresholds,
+review in checkpoints of no more than fifty verses. The Chapter 1 this record was measured on was
+reviewed as `1:1–1:5` and `1:6–1:7`; those manifests were removed with the prose, so a rebuilt chapter
+needs fresh reviews (one checkpoint of up to fifty verses is enough). A hash approval without accepted
+semantic review is rejected. Freezing a richer chapter may tighten drift thresholds,
 but `quality.py` preserves every stronger threshold from the previous floor; raising one dimension
 can never quietly lower another.
 
@@ -26,20 +44,24 @@ python3 scripts/tafsir/quality.py --freeze-baseline \
 - **Drafted:** prose exists in `tmp/work/` or the assembled chapter.
 - **Mechanically clean:** `batch.py ... --draft` finds no format/evidence failure.
 - **Pushable review candidate:** a synchronized pending review scaffold exists and `batch.py ...
-  --push-check` passes. This state must be committed and pushed whenever generation stops, but it is
+  --push-check` passes. When the review pass cannot be finished at a stop, this state is committed
+  and pushed so nothing is left local, but it is
   not semantic acceptance.
-- **Owner-approved for continued drafting:** the owner explicitly approved a pushed candidate,
-  recorded separately under `draft-approvals/`. This permits another draft run, not publication.
-- **Accepted:** a different reviewer has completed the source synthesis, claim/evidence ledgers and
-  Chapter-1 rubric, and `batch.py` without either draft flag reports `QUALITY PARITY PASS`.
+- **Owner-approved for continued drafting (optional):** the owner explicitly approved a pushed
+  candidate, recorded separately under `draft-approvals/`. This permits another draft run, not
+  publication; it is no longer needed to continue.
+- **Accepted:** the independent review pass (a separate reviewer identity) has completed the source
+  synthesis, claim/evidence ledgers and rubric, and `batch.py` without either draft flag reports
+  `QUALITY PARITY PASS`.
 
-A clean review candidate may and must be committed/pushed before confirmation. Only accepted prose
-may advance the independent frontier or enter an app payload.
+A clean candidate is committed and pushed at every stop, and the run goes on without waiting for
+confirmation. Only accepted prose may advance the independent frontier or enter an app payload.
 
 ## Owner approval is not a fabricated semantic review
 
-An owner who approves a pushed draft and asks for continued generation may authorize the next run
-without having supplied all detailed review records. Record that permission separately:
+Under the standing order of 2026-10-01 the writer does not wait for owner approval. If the owner
+does approve a pushed draft anyway, that may authorize the next run without having supplied all
+detailed review records. Record that permission separately:
 
 ```bash
 python3 scripts/tafsir/quality.py --approve-draft 2 --from 1 --to 50 \
@@ -66,15 +88,23 @@ supply approval on the owner's behalf. Publication still requires every independ
 A checkpoint contains one to fifty consecutive verses:
 
 ```bash
-python3 scripts/tafsir/quality.py --template 2 --from 101 --to 150 --writer WRITER_ID
-python3 scripts/tafsir/batch.py 2 --from 101 --to 150 --push-check
-# commit and push the pending candidate here for owner inspection
+python3 scripts/tafsir/quality.py --template 2 --from 101 --to 150 --writer arena-writing-agent
+# the independent review pass (below) fills quality/reviews/002/101-150.json
+python3 scripts/tafsir/batch.py 2 --from 101 --to 150
+python3 scripts/tafsir/stats.py 2 --from 101 --to 150 --write
+# commit and push to the session branch, then carry on with the next run
 ```
 
-This creates `reviews/002/101-150.json`. The writer does not fill the reviewer decision. A different
-reviewer must:
+This creates `reviews/002/101-150.json`. The writing pass does not fill the reviewer decision. There
+is one AI, so the review is a separate pass under a separate identity — `reviewer:
+arena-review-agent`, the writer being `arena-writing-agent` — made cold, from the finished prose and
+the fingerprinted source passages only, never from the drafting notes. Its `notes` say so: that the
+pass was made by the same AI model under the owner's standing order of 2026-10-01. If the pass cannot
+be finished at a stop, run `batch.py ... --push-check`, commit and push the pending candidate, and
+finish the pass before any further new draft is opened. The reviewer must:
 
-1. identify himself or herself in `reviewer` and set `independent` to `true`;
+1. identify itself in `reviewer` (an identity different from the writer's) and set `independent` to
+   `true`;
 2. compare the prose with every source named in `source_synthesis.available_sources`, verify the
    source fingerprint, set coverage to `complete`, and explain the comparison in `notes`;
 3. build `distinct_material_evidence`: group works that carry the same point instead of counting
@@ -108,13 +138,13 @@ python3 scripts/tafsir/quality.py 2 --from 101 --to 150
 
 ## Metric exceptions
 
-Metrics are drift alarms, not citation quotas. A genuinely source-sparse or technically difficult
-checkpoint may use the top-level `exceptions` object:
+Metrics are drift alarms, not quotas. A genuinely technically difficult checkpoint (for example a
+legal passage that forces long defined terms) may use the top-level `exceptions` object:
 
 ```json
 {
   "exceptions": {
-    "QTY-EVIDENCE-DRIFT": "A specific explanation of why the mapped sources contain no additional independent evidence."
+    "QTY-PROSE-DRIFT": "A specific explanation of why this passage's subject forces long, technical sentences."
   }
 }
 ```
@@ -124,10 +154,21 @@ alarmed verses. Exceptions cannot waive missing review, source-fingerprint or sy
 Qur'an/transmitted-evidence or substantive-claim relevance, reviewer independence, a rubric score
 below 4, or a hard editorial defect.
 
-`QUALITY DRIFT` means generation stops immediately and the current clean state is pushed for owner
-inspection. The report names the last independently accepted frontier. A range may continue only
+`QUALITY DRIFT` means new drafting stops, the drift is repaired, the incident is noted in the
+statistics and the clean state is pushed; then the run goes on. The report names the last
+independently accepted frontier. A range may continue only
 until fifty new drafts follow accepted or owner-approved prose. Draft approval never authorizes
 unreviewed publication or a baseline change.
+
+## Statistics posted with every push
+
+`scripts/tafsir/stats.py N --from A --to B --write` saves `quality/stats/NNN/AAA-BBB.md` for the
+checkpoint just reviewed; commit it with the range. It reports (1) **writing style against Chapter 1**
+— mean sentence length, sentences over forty words, readability — with the gate's own alarms;
+(2) **content and evidence, for information only** — words per verse, share of each verse's floor,
+Qur'an cross-references and named authorities per 1,000 words — beside Chapter 1, the earlier verses
+of the chapter and the other written chapters; and (3) **source coverage** from the review record, per
+work. Nothing in (2) or (3) blocks a push; the author reads them afterwards.
 
 ## GitHub notification
 

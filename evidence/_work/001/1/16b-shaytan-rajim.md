@@ -1,0 +1,8 @@
+### SHAYṬĀN AND RAJĪM: THE WORDS
+
+- `1:1.0` · language · Ibn Kathīr: shayṭān comes from shatana, "to be far" — his nature is far from man's and his ways far from every kind of righteousness; or from shāṭa, "burned", since he was created of fire; some say both are right, the first likelier; Sībawayh: the Arabs say "tashayṭana" of one who acts like the devils, and had it come from shāṭa they would say "tashayyaṭa"; so the word means "far", and rebellious jinn and men are called shayṭān — "so We made for every prophet enemies, devils of men and jinn" (6:112). [kathir¶1.30]
+- `1:1.0` · hadith · Aḥmad's Musnad, Abū Dharr: the Prophet said "O Abū Dharr, seek refuge in God from the devils of men and jinn"; "Are there human devils?" — "Yes." [kathir¶1.31]
+- `1:1.0` · hadith · Muslim, Abū Dharr: "The woman, the donkey and the black dog cut off the prayer" — and when asked how the black dog differs from the red or yellow one: "The black dog is a devil." [kathir¶1.31]
+- `1:1.0` · athar · Ibn Jarīr: ʿUmar rode a huge camel that began to walk proudly and kept striking it; he dismounted and said, "By God, you carried me on a shayṭān — I did not come down until I felt something strange in my heart"; Ibn Kathīr: an authentic chain. [kathir¶1.32]
+- `1:1.0` · language · Rajīm means expelled from every kind of righteousness — "We have made them missiles to drive away the devils" (67:5); "guarded against every rebellious devil … pelted from every side" (37:6-10); "guarded from every outcast devil, except one who steals a hearing and is pursued by a clear flame" (15:16-18); or "the thrower", since the devil throws doubts and evil thoughts into hearts; the first meaning is the more popular and accurate (Ibn Kathīr). [kathir¶1.32-1.33]
+

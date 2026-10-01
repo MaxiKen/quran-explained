@@ -1,0 +1,5 @@
+### THE FIRST THING JIBRĪL BROUGHT: REFUGE AND THE BASMALAH
+
+- `1:1.0` · athar · Ṭabarī: Ibn ʿAbbās said the first thing Jibrīl brought down to Muḥammad was "O Muḥammad, say: aʿūdhu bi-l-samīʿi l-ʿalīmi mina l-shayṭāni l-rajīm", then "say: bismillāhi l-raḥmāni l-raḥīm" — "say 'bismillāh', O Muḥammad", meaning read with the mention of God your Lord, and stand and sit with the mention of God. The chain: Abū Kurayb, ʿUthmān ibn Saʿīd, Bishr ibn ʿUmārah, Abū Rawq, al-Ḍaḥḥāk, Ibn ʿAbbās; the passage gives it twice and the editor's note says the first is the shortened form of an earlier report. [tabari¶5-6, tabari¶19-21]
+- `1:1.0` · lesson · Ṭabarī: this interpretation from Ibn ʿAbbās shows what he says is right — that the one who opens his recitation with "bismillāhi l-raḥmāni l-raḥīm" means "I read by naming God and mentioning Him; I open the recitation by naming God, by His beautiful names and lofty attributes" — and shows the falsity of the claim that it means "by God, the Raḥmān, the Raḥīm, the first of everything". [tabari¶22]
+

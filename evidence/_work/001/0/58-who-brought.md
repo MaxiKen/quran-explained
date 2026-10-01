@@ -1,0 +1,5 @@
+### WHO BROUGHT AL-FĀTIḤAH DOWN
+
+- `1:0.0` · lesson · Qurṭubī, quoting Ibn ʿAṭiyyah, third issue: some scholars thought Jibrīl did not bring down Sūrat al-Ḥamd, because of Muslim's report from Ibn ʿAbbās of the angel who came down through a door in heaven with the tidings of "two lights" (al-Fātiḥah and the end of al-Baqarah); Ibn ʿAṭiyyah says it is not so — the report shows Jibrīl went ahead of the angel to tell the Prophet of him and of what came with him, so Jibrīl took part in its coming down. [qurtubi¶59.5]
+- `1:0.0` · lesson · Qurṭubī: the plain sense of the report is that Jibrīl told the Prophet nothing of this; he has shown that its revelation was at Makkah, brought by Jibrīl ("the Trustworthy Spirit brought it down", 26:193, which takes in the whole Qurʾān), so Jibrīl brought down its recitation at Makkah and the angel brought down its reward at Madīnah; he also records, from al-Thaʿlabī, that it is both Makkan and Madinan, Jibrīl bringing it twice, but prefers his own view as joining the Qurʾān and the Sunnah. [qurtubi¶59.5-59.6]
+

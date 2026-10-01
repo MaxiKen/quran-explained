@@ -1,0 +1,6 @@
+### THE NINETEEN LETTERS AND THE NINETEEN GUARDIANS
+
+- `1:1.0` · athar · Qurṭubī: ʿAlī ibn al-Ḥusayn said that "and when you mention your Lord alone in the Qurʾān they turn their backs in aversion" (17:46) means "when you say 'bismillāhi l-raḥmāni l-raḥīm'". [qurtubi¶5.1]
+- `1:1.0` · athar · Wakīʿ, from al-Aʿmash, from Abū Wāʾil, from Ibn Masʿūd: whoever wants God to save him from the nineteen guardians of the Fire (the zabāniyah) should recite "bismillāhi l-raḥmāni l-raḥīm", for God will make for him, for each letter of it, a shield against each of them; the basmalah has nineteen letters, the number of the angels of the Fire — "over it are nineteen" (74:30) — who say it in all they do, and that is their strength: by "bismillāh" they grew strong (Qurṭubī). [qurtubi¶5.1]
+- `1:1.0` · lesson · Ibn ʿAṭiyyah, in Qurṭubī: this is like saying Laylat al-Qadr is the twenty-seventh night, counting the word "hiya" in Sūrat al-Qadr, or that the angels who raced to write "Rabbanā wa-laka l-ḥamdu ḥamdan kathīran ṭayyiban mubārakan fīh" were thirty-odd because it is thirty-odd letters ("I saw thirty-odd angels racing, each to write it first") — he calls it "among the charms of tafsīr, not the solid part of knowledge". [qurtubi¶5.2]
+

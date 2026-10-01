@@ -14,9 +14,10 @@ Where each rule lives:
 | [`TAFSIR_PROMPT.md`](TAFSIR_PROMPT.md) §4–§8 | the rules as written for the writer — the authority on *why* |
 | `scripts/tafsir/audit.py` | the same rules mechanised — **77 codes**; the authority on *what actually blocks a chapter* |
 | `scripts/tafsir/run.py` | the fifty-verse source/review run, required push-at-every-stop status, and the check that all fifty are independently accepted |
-| `scripts/tafsir/quality.py` | the v8 Chapter-1 parity gate: frozen baseline, fifty-verse drift alarms, pending-candidate push validation, source fingerprints/synthesis, independent rubric, substantive-claim verification, and Qur'an/transmitted-evidence review |
-| `quality/chapter-001-baseline.json` | the frozen Chapter-1 measurements and hash; it cannot move when later prose deteriorates |
+| `scripts/tafsir/quality.py` | the v8 Chapter-1 writing-style parity gate: frozen baseline, fifty-verse style-drift alarms, pending-candidate push validation, source fingerprints/synthesis, independent rubric, substantive-claim verification, and Qur'an/transmitted-evidence review |
+| `quality/chapter-001-baseline.json` | the frozen Chapter-1 measurements and hash, used as a **writing-style** yardstick only (§0.13); it cannot move when later prose deteriorates |
 | `quality/reviews/` | tracked pending or accepted all-source, rubric and evidence reviews, no more than fifty verses per review |
+| `quality/stats/`, `scripts/tafsir/stats.py` | the statistics posted with every push: style against Chapter 1, content and evidence for information, source coverage |
 | `scripts/tafsir/reference.py` | every cross-reference expanded with the wording it points to, ready to paste |
 | `scripts/tafsir/batch.py` | the same rule set applied to the verses written so far, so a batch can be judged while the chapter is unfinished |
 | `scripts/tafsir/selftest.py` | proof that each rule bites: it breaks each one on a scratch copy, and checks that the match rules stay silent on the verse's own wording and on synonyms of it |
@@ -96,33 +97,40 @@ that source's opinion, not compared work by work, and not quoted.
    verbatim from `data/chapter_NNN.js` — `(C:V — **“the clause”**)`. One or two bare citations in a
    section warn (`REF-BARE`); three in one section fail. `scripts/tafsir/reference.py` prints the
    expansion, so a clause is never typed by hand.
-9. **Map fifty; write one; push every stop; separate draft approval from acceptance.** The author
-   names the start, and fifty verses are mapped from all eleven works in one pass. Each verse is
-   mechanically checked immediately, and every generation stop has synchronized pending review
-   scaffolds, a push check, a commit and a push. Independent review checkpoints remain at most fifty.
+9. **Map fifty; write one; review; post; push every stop; keep going.** The author has named the
+   start once, and for every run after it (the standing run order, below). Fifty verses are mapped
+   from all eleven works in one pass. Each verse is mechanically checked immediately. At every
+   generation stop — at most fifty new verses — the writer refreshes the review scaffolds, completes
+   the independent review pass (§0.13, §11.5), posts the statistics (`scripts/tafsir/stats.py`),
+   passes the push check, commits and pushes to the session branch, and goes straight on to the next
+   run. Independent review checkpoints remain at most fifty.
 
-   **Owner-authorized continuation (2026-09-27).** Explicit owner approval of a pushed candidate
-   may authorize the next drafting run without inventing detailed review scores or decisions.
-   Record only approval actually supplied, in `quality/draft-approvals/NNN/AAA-BBB.json`, naming
-   distinct owner/writer identities, the owner's statement and candidate commit, and fingerprints
-   of the exact approved prose and source map. The record covers at most fifty consecutive verses
-   and extends the prior frontier without gaps. Changed approved prose or sources invalidate it.
-   At most fifty new drafts may follow the last independent acceptance or valid owner draft
-   approval. This is a drafting frontier, not the independently accepted frontier.
+   **Standing run order (owner, 2026-10-01).** The writer does not stop to ask whether to continue
+   and does not wait for confirmation between runs. The author reads GitHub afterwards: if something
+   is not right the author asks for a change and it is made; silence is not recorded as an approval
+   of anything, and nothing is ever recorded in the author's name that the author did not supply.
+   Runs follow one another in chapter order from the first verse not yet written (`run.py --plan`
+   with no `--start`). The author may re-aim the work at any time by naming a chapter (`2`, meaning
+   that chapter's first unwritten verse) or a chapter:verse (`2:1`); the run is then cut from exactly
+   there with `run.py --plan --start N[:M]`. The v7.5 rule that the writer never chooses where a run
+   begins stands: the author's standing order is how the start is named. A real mechanical or metric
+   blocker stops *new drafting*: the writer repairs it, notes the incident in the statistics, pushes
+   the clean state and carries on.
+
+   **Optional owner approval (2026-09-27; no longer required to continue).** If the owner does give
+   an explicit approval of a pushed candidate, it may still be recorded in
+   `quality/draft-approvals/NNN/AAA-BBB.json`, naming distinct owner/writer identities, the owner's
+   statement and candidate commit, and fingerprints of the exact approved prose and source map. The
+   record covers at most fifty consecutive verses and extends the prior frontier without gaps.
+   Changed approved prose or sources invalidate it. At most fifty new drafts may follow the last
+   independent acceptance or valid owner draft approval; the review pass is what normally advances
+   that frontier.
 
    No manuscript rule, mechanical check, drift threshold, review-scaffold requirement or publication
-   safeguard is waived. Full acceptance still requires the separate all-source, claim, citation,
-   transmitted-evidence and eight-dimension review. Owner draft approval does not fill those records,
-   raise the baseline, or authorize a payload. `run.py --check` reports RUN COMPLETE only when all
-   fifty are written, mechanically clean and independently accepted. A real mechanical/metric
-   blocker still stops generation, is reported, and triggers the clean checkpoint push.
-
-   **Where a new run begins is the author's to say, never the writer's to choose (v7.5).** The author
-   names it as a chapter (`2`, meaning that chapter's first unwritten verse) or a chapter:verse
-   (`2:1`); the run is cut from exactly there with `run.py --plan --start N[:M]`, which pins the
-   fifty. A bare “continue” resumes an existing pinned run; when no run is pinned, the writer asks
-   where to begin and waits. Routine confirmation is unnecessary while writing within the maximum,
-   but every actual generation stop still requires a clean commit and push for GitHub inspection.
+   safeguard is waived by any of this. Full acceptance still requires the separate all-source, claim,
+   citation, transmitted-evidence and eight-dimension review; owner approval, where given, does not
+   fill those records, raise the baseline, or authorize a payload. `run.py --check` reports RUN
+   COMPLETE only when all fifty are written, mechanically clean and independently accepted.
 10. **A tafsir, not talk (v7.3).** What is published is a tafsir: an exposition that teaches the
     verse. Each section carries, in the book's own voice and with the anchors of §6: the wording of
     the verse explained phrase by phrase; **what has been transmitted** about it — the occasion of
@@ -204,13 +212,18 @@ that source's opinion, not compared work by work, and not quoted.
     with its collection, the early authority. If a point cannot be carried by a reference of that
     kind, it is not written at all.
 
-13. **Chapter 1 is the quality floor (v8).** Chapter 1 is a golden baseline for substance and
-    finish, not a template for headings or paragraph order. No later verse is accepted merely
-    because `audit.py` passes. Every non-baseline verse is scored by an independent reviewer from
-    1–5 on textual attention, source synthesis, citation support, reasoning, theological precision,
-    coherence, prose and editorial finish. Every applicable score must be at least **4** (matches
-    Chapter 1); 5 means it surpasses Chapter 1. The writer and reviewer are named, different, and
-    recorded in a tracked review under `quality/reviews/`.
+13. **Chapter 1 is the writing-style yardstick (v8; narrowed by the owner, 2026-10-01).** Chapter 1
+    is the golden baseline for how the prose *reads* — sentence control, readability, a plain
+    voice, finish. It is not a template for headings or paragraph order, and it is **not** a
+    measure of how much content or evidence a verse carries: that follows what the verse's own
+    sources hold (§4, §6 and the reviewer's material-point ledger below). No later verse is
+    accepted merely because `audit.py` passes. Every non-baseline verse is scored by an independent
+    reviewer (§11.5) from 1–5 on textual attention, source synthesis, citation support, reasoning,
+    theological precision, coherence, prose and editorial finish. Every applicable score must be at
+    least **4** — for *prose* and *editorial finish*, writing that matches Chapter 1's style; for
+    the other dimensions, work that is sound and complete for what that verse's sources carry; 5
+    means it surpasses that. The writer and reviewer are named, different, and recorded in a
+    tracked review under `quality/reviews/`.
 
     Every Qur'an cross-reference receives a semantic ledger entry stating the proposition it is
     meant to support, the reference, the quoted clause and whether support is direct or contextual.
@@ -251,9 +264,12 @@ that source's opinion, not compared work by work, and not quoted.
     uses 1:1–1:5 and 1:6–1:7), full source, substantive-claim, citation and transmission ledgers, and
     an independent approval whose writer, reviewer and hashes match those reviews. A new floor may
     tighten an old drift threshold but may never weaken one
-    merely because another dimension improved. Fifty-verse alarms compare sentence control,
-    readability and evidence density; ten-verse alarms detect authority monoculture, repeated
-    section shape and fixed application placement. Metrics are drift alarms,
+    merely because another dimension improved. Fifty-verse alarms compare sentence control and
+    readability with Chapter 1 (its style); hundred-verse alarms detect authority monoculture,
+    repeated section shape and fixed application placement. Evidence density is measured and posted
+    in the statistics but is **no longer an alarm** (2026-10-01: Chapter 1 does not set how much
+    evidence a verse carries); the frozen record keeps its old `evidence_density_min` for history
+    only. Metrics are drift alarms,
     not quotas: a genuinely source-sparse or technically difficult checkpoint may carry a written
     exception only when the independent reviewer records the same substantive rationale for every
     affected verse. Missing review, source-fingerprint/synthesis failure, substantive-claim, Qur'an
@@ -295,10 +311,12 @@ published tafsir's style, enforced mechanically (`STY-CONTRACTION`, `STY-EXCLAIM
 quotes no book, citing only the references those books cite (the Qur'an, the reports with their
 collections, the early authorities), and making its own point (`IND-WORK`, `IND-QUOTE`).
 
-**v8 (2026-09-27)** makes Chapter 1 the frozen quality floor (§0.13). Fifty is the source-map and
+**v8 (2026-09-27)** makes Chapter 1 the frozen quality floor (§0.13; narrowed to a writing-style
+yardstick on 2026-10-01, below). Fifty is the source-map and
 maximum independent-review unit, one verse is the draft unit, and automatic drift remains measured
-in fifty-verse windows. Every generation stop is push-checked, committed, and pushed before owner
-confirmation; pending review is visible on GitHub but does not authorize publication. A new range
+in fifty-verse windows. Every generation stop is push-checked, committed, and pushed, and the run
+goes on without waiting for confirmation (§0.9); pending review is visible on GitHub but does not
+authorize publication. A new range
 still needs independent all-source synthesis, rubric and evidence-relevance review, and measurable
 drift stops and notifies instead of being hidden inside a mechanically passing run. Analogies and
 applications cease to be detector tokens: they remain only where they earn their place. A raised
@@ -306,6 +324,21 @@ baseline now carries the same independent review it imposes. Every accepted vers
 all-source fingerprint and synthesis decision, plus source-location and relevance review for named
 hadith, early-authority evidence, language claims, and consequential legal/theological claims; later
 work cannot lose source material behind a passing average.
+
+**Standing order (2026-10-01).** On the author's instructions the writer reviews its own range in a
+separate pass, posts the statistics (`stats.py`), pushes, and carries on without waiting; the author
+reads afterwards (§0.9). There is one AI, so no second model is required or assumed. Chapter 1 is the
+yardstick for writing style only, not for how much content or evidence a verse carries (§0.13).
+Several chapters may be written at once by separate sessions (§11.14). Chapter 1 was restored to its
+approved text the same day, and deleted again, with all generated commentary, when the author began the
+pilot below.
+
+**Pending — evidence first, commentary later (2026-10-01).** The author is piloting a two-phase
+approach (`TAFSIR_EVIDENCE_MAP.md`): an evidence map for every verse first (`evidence/NNN.md`, checked by
+`scripts/tafsir/evidencemap.py`), commentary built from the maps later on his prompt, its length decided
+by the evidence rather than a fixed word range. He has chosen full depth for the maps ("103 style", with more evidence than the first map held); **commentary
+writing is paused until his Phase 2 prompt, and this file is unchanged by the pilot.** If it is adopted, the verse and paragraph floors of §4 (`WRD-FLOOR`,
+`WRD-PARA-FLOOR`) and the Chapter-1 style record will have to be revisited together (see §7 of that file).
 
 ## 1. Sources — what may be written from (`SRC-*`)
 
@@ -628,9 +661,10 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 
 1. A chapter is **researched and independently reviewed in checkpoints of at most fifty**. After
    each verse, run the mechanical draft check; every fifty completed verses receive automatic drift
-   alarms. Every generation stop is push-checked, committed, and pushed before owner confirmation,
-   even if the checkpoint or chapter is incomplete. A quality blocker stops generation, is reported
-   immediately with the blocked range and last accepted verse, and triggers the current clean push.
+   alarms. Every generation stop is push-checked, committed, and pushed with its statistics, even
+   if the checkpoint or chapter is incomplete, and the run then continues without waiting for
+   confirmation (§0.9). A quality blocker stops new drafting, is repaired, and the clean state is
+   pushed with the incident noted in the statistics.
 2. **All eleven works are read for every verse before a word of it is written.** Reading is research,
    not relay: what is learned is written as the book's own reading (§0), backed by evidence — the
    eleven are never summarised or quoted (`STY-PARAPHRASE`, `SRC-QUOTED`), and their contents are
@@ -643,24 +677,38 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
    `run.py --build` pulls the eleven works once. The map is read in slices. `run.py --status` reports
    mechanical and quality blockers; `run.py --check` succeeds only when every mapped verse has an
    accepted review. The source map is a speed device, not an instruction to conceal fifty verses of
-   drift before the author is told.
+   drift: the statistics are posted at every stop.
 
 **Stretch discipline (prompt §10):**
 
 5. Each verse: `batch.py N --from V --to V --draft`, fix every mechanical failure, and do not call
    that acceptance. At each generation stop, create or refresh a review template for at most fifty
-   verses with `quality.py --template N --from A --to B --writer ID`, run `batch.py N --from A
-   --to B --push-check`, commit, and push. A different reviewer completes the GitHub candidate; then
-   run `batch.py N --from A --to B` without either draft flag for `QUALITY PARITY PASS`.
+   verses with `quality.py --template N --from A --to B --writer ID`, complete the independent
+   review pass (below), run `batch.py N --from A --to B` without either draft flag for
+   `QUALITY PARITY PASS`, post the statistics with `stats.py N --from A --to B --write`, commit, and
+   push — then go straight on. If the review pass cannot be finished in the same sitting, run
+   `batch.py N --from A --to B --push-check`, commit and push the pending candidate so nothing is
+   left local, and finish the pass before any further new draft is opened.
+
+   **The independent review pass (owner, 2026-10-01).** There is one AI, so independence is kept in
+   the one way available: a separate pass under a separate identity — writer `arena-writing-agent`,
+   reviewer `arena-review-agent` — made cold, from the finished prose and the fingerprinted source
+   passages only and never from the drafting notes. Every ledger entry is a real decision; a score
+   below 4 sends the verse back for revision (it is rewritten and re-reviewed, not argued up); and
+   the manifest's `notes` say that the pass was made by the same AI model under the standing order
+   of 2026-10-01. The parts that do not depend on the reviewer's judgement — the mechanical gates,
+   the source fingerprints, the posted statistics — stay exactly as strict as before, and the
+   author's reading afterwards is the check on the rest.
 6. **Never leave a half-written verse**: a section is either the scaffold's `TODO` text or finished
    prose; drafts live in the scratch area (`tmp/work/`), spliced in with `assemble.py`, never in the
    chapter file.
 7. **Re-read §4–§8 of the prompt before each stretch** — the standard is the same for verse 200 as
    for verse 1.
-8. **A review candidate is pushed before it is independently accepted.** Drafted, mechanically
+8. **A review candidate is never left local.** Drafted, mechanically
    clean, pushable-pending, owner-approved for continued drafting, and independently accepted are different states. Every generation stop
-   must reach the third state and be committed/pushed; only independent acceptance advances the
-   independent frontier. Recorded owner draft approval advances only the drafting frontier. The payload,
+   must reach at least the third state and be committed/pushed (normally it reaches independent
+   acceptance first, because the review pass is part of the stop); only independent acceptance
+   advances the independent frontier. Recorded owner draft approval advances only the drafting frontier. The payload,
    `sw.js` bump and completion worklog row still wait for the accepted chapter.
 9. **A chapter is done** when all of these hold:
    * `python3 scripts/tafsir/audit.py N` ends `RESULT: PASS` (no mechanical FAIL);
@@ -681,10 +729,15 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 
 11. One chapter, one file, `tafsir/NNN.md`; never edit another chapter's file in the same change.
 12. Parallel work splits **by chapter**, never by verse within one file — two writers on one file
-    overwrite each other.
+    overwrite each other. Several sessions may therefore write different chapters at once (item 14).
 13. Only independently reviewed chapters that pass both `audit.py` and `quality.py` get a payload,
     worklog row or publication commit. `build_data.py` enforces the parity gate itself.
-14. Chapter order is ascending, 001 → 114.
+14. Chapters are taken in ascending order by default (001 → 114). That is the default order of
+    work, not a ban on parallel chapters: several sessions may write different chapters at the same
+    time — a chapter is one file and its frontier is its own, and each session pushes only to its
+    own branch and edits only its own chapter's files, review records and statistics (the worklog
+    row and the handoff change only when a chapter is finished). Chapter 1, the style yardstick,
+    must be intact for any chapter's gate to run.
 
 ## 12. What the pass deliberately does not do (prompt §11)
 
@@ -801,8 +854,9 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | `QTY-RUBRIC-MISSING`, `QTY-BELOW-CHAPTER-1` | block | a required quality dimension is unscored or below 4/5 |
 | `QTY-CITATION-*` | block | citation ledger missing/mismatched, proposition unstated, or relevance not established |
 | `QTY-HARD-*` | block | unwaivable editorial defect such as a clause pasted three times |
-| `QTY-PROSE-DRIFT`, `QTY-READABILITY-DRIFT` | block/exception | a fifty-verse metric window has moved below the Chapter-1 prose alarm |
-| `QTY-EVIDENCE-DRIFT`, `QTY-SOURCE-CONCENTRATION` | block/exception | evidence has contracted or become a token-authority pattern |
+| `QTY-PROSE-DRIFT`, `QTY-READABILITY-DRIFT` | block/exception | a fifty-verse metric window has moved past the Chapter-1 writing-style alarm |
+| `QTY-SOURCE-CONCENTRATION` | block/exception | one named authority or collection supplies nearly every mention (a token-authority pattern) |
+| `QTY-EVIDENCE-DRIFT` | retired 2026-10-01 | no longer raised: evidence density is posted in the statistics, never an alarm |
 | `QTY-SHAPE-DRIFT`, `QTY-APPLICATION-TEMPLATE` | block/exception | a rolling range has fallen into a repeated production mould |
 
 **The mechanical auditor's codes remain separate from the v8 quality blockers**: 27 `FMT-*`, 9 `PHR-*`, 3 `WRD-*`, 5 `EVD-*`, 9 `REF-*`,
@@ -828,7 +882,7 @@ name that came from nowhere. Run `sources.py N` before `audit.py N` for the full
 | **v7.3 — a tafsir, not talk** (§0.10) | every verse: a cross-reference with its clause (`REF-NONE`) and a transmitted reading — an early authority named or a report with its collection (`EVD-TAFSIR`); both fail. Register: plain sentences, full substance — no general reflection that fits any verse, no address to the reader, no rhetorical question, no praise of the text in place of its explanation |
 | Source-map length | **50 verses**, may span chapters; all eleven mapped in one pass |
 | Draft / review unit (v8) | one verse checked at once; at most **50** new drafts beyond accepted or owner-approved prose; independent review records cover at most **50** verses; metric windows remain **50** verses; every stop is push-checked, committed and pushed |
-| Quality rubric | eight dimensions, 1–5; every score ≥4 to match Chapter 1; writer and reviewer different |
+| Quality rubric | eight dimensions, 1–5; every score ≥4 (prose and finish match Chapter 1's style; the rest sound for what the sources carry); writer and reviewer identities different |
 | Source-led sentences | warn above 18%, fail above 30%; 3 in a row fails |
 | Source-led paragraphs | warn above 30%, fail above 45% |
 | Reasoning sentences per verse (v7.3) | ≥ 5 (fail below), ≥ 9 preferred |
@@ -872,12 +926,14 @@ python3 scripts/tafsir/scaffold.py N                 # skeleton → tafsir/NNN.m
 python3 scripts/tafsir/scaffold.py N --phrases       # the phrase cut each verse is measured against
 python3 scripts/tafsir/verify.py "<claim>" --chapter N   # is a named claim the reports carry? (v7)
 
-# while writing: one verse mechanically; at every stop push a candidate of at most fifty
+# while writing: one verse mechanically; at every stop of at most fifty verses: review, post, push, go on
 python3 scripts/tafsir/batch.py N --from V --to V --draft  # mechanical draft check; not acceptance
-python3 scripts/tafsir/quality.py --template N --from A --to B --writer ID
-python3 scripts/tafsir/batch.py N --from A --to B --push-check
-# commit and push the pending candidate; a different reviewer completes it from GitHub
+python3 scripts/tafsir/quality.py --template N --from A --to B --writer arena-writing-agent
+# the independent review pass: fill the scaffold as reviewer arena-review-agent (§11.5)
 python3 scripts/tafsir/batch.py N --from A --to B          # mechanical + independent parity gate
+python3 scripts/tafsir/stats.py N --from A --to B --write  # the statistics posted with the push
+# commit and push to the session branch, then carry on with the next run
+python3 scripts/tafsir/batch.py N --from A --to B --push-check   # only when the review pass cannot be finished: pending push
 python3 scripts/tafsir/quality.py N --from A --to B        # direct quality report
 python3 scripts/tafsir/batch.py N --progress
 

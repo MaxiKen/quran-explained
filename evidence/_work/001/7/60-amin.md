@@ -1,0 +1,8 @@
+### ĀMĪN: WHAT IT MEANS AND WHAT IT IS WORTH
+
+- `1:7.0` · language · Baghawī: the Sunnah is to say "āmīn" after finishing al-Fātiḥah, with a pause separating it; it is lightened and the grammarians allow it lengthened or shortened; it means "O God, hear and answer". [baghawi¶32]
+- `1:7.0` · athar · Ibn ʿAbbās and Qatādah: "so be it"; Mujāhid: it is one of God's names; or the seal of the prayer; or God's seal on His servants, warding off afflictions as a seal on a book keeps it from corruption and from what is in it showing. [baghawi¶32]
+- `1:7.0` · hadith · Abū Hurayrah: "When the imam says 'ghayri l-maghḍūbi ʿalayhim wa-lā l-ḍāllīn', say āmīn, for the angels say āmīn and the imam says āmīn; whoever's āmīn coincides with the angels' is forgiven what went before of his sins" — al-Bukhārī (adhān), Aḥmad and al-Nasāʾī; Baghawī: ṣaḥīḥ; some copies add "and what comes after". [baghawi¶33]
+
+- `1:7.0` · ruling · Qurṭubī's chapter on āmīn, first issue: it is a sunnah for the reciter of the Qurʾān to say "āmīn" when he has finished al-Fātiḥah, after a pause on the nūn of "wa-lā l-ḍāllīn", so that what is Qurʾān is told apart from what is not. [qurtubi¶67-68.1]
+- `1:7.0` · hadith · Second: established in the mother-collections from Abū Hurayrah, "When the imam says āmīn, say āmīn — whoever's āmīn coincides with the angels' is forgiven his earlier sins"; our scholars say forgiveness is tied to four premises in it: the imam's āmīn, the followers' āmīn, the angels' āmīn, and the coinciding — in the answer, in the time, or in the quality of sincere supplication, as in "call on God while certain of the answer, and know that God does not answer the prayer of a heedless, distracted heart". [qurtubi¶68.1]

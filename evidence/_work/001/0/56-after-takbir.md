@@ -1,0 +1,7 @@
+### WHAT IS SAID AFTER THE TAKBĪR
+
+- `1:0.0` · ruling · Qurṭubī, fourth issue: since the basmalah is not a verse of al-Fātiḥah on the sound view, one who has said the takbīr should join it straight to al-Fātiḥah, without silence, a turning-of-the-face prayer or a tasbīḥ, per the hadiths of ʿĀʾishah and Anas; yet hadiths came for the turning-of-the-face prayer, the tasbīḥ and the pause, and groups of scholars hold them. [qurtubi¶60.1]
+- `1:0.0` · athar · ʿUmar ibn al-Khaṭṭāb and ʿAbdullāh ibn Masʿūd said, on opening the prayer, "Subḥānaka llāhumma wa-bi-ḥamdika, tabāraka smuka, wa-taʿālā jadduka, wa-lā ilāha ghayruka" — and so held Sufyān, Aḥmad, Isḥāq and the people of raʾy. [qurtubi¶60.1]
+- `1:0.0` · hadith · Al-Shāfiʿī followed what is reported from ʿAlī from the Prophet: that he said the takbīr and then "wajjahtu wajhiya…" (Muslim, in full at the end of al-Anʿām, where the question is treated fully). [qurtubi¶60.1]
+- `1:0.0` · hadith · Ibn al-Mundhir: it is established that after the takbīr the Prophet kept silent a little before reciting, saying "O God, put distance between me and my sins as You put distance between the east and the west; O God, cleanse me of my sins as a white garment is cleansed of dirt; O God, wash me of my sins with water, snow and hail"; Abū Hurayrah used it. Abū Salamah ibn ʿAbd al-Raḥmān: the imam has two pauses, so use them for reciting; al-Awzāʿī, Saʿīd ibn ʿAbd al-ʿAzīz and Aḥmad ibn Ḥanbal leaned to the Prophet's hadith here. [qurtubi¶60.2]
+
