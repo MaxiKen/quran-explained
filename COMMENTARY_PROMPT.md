@@ -148,9 +148,9 @@ no FAILs:
 ## 11. State of the work (2026-10-02)
 
 - **Published**: Chapter 112; Chapter 1 (full-depth, 7,745 words, v2.5.54).
-- **Chapter 2**: vv.1–240 are complete at full depth (vv.1–100 owner-approved;
-  vv.101–240 written by hand in the same voice, checked clean).
-  **vv.241–286 remain to be written.** Continue from `## Verse 2:241`. Chapter 2
+- **Chapter 2**: vv.1–250 are complete at full depth (vv.1–100 owner-approved;
+  vv.101–250 written by hand in the same voice, checked clean).
+  **vv.251–286 remain to be written.** Continue from `## Verse 2:251`. Chapter 2
   is not published until all 286 verses are done (then §10).
 - Earlier programmatic drafts of vv.101–130 were removed at the owner's direction
   (predictable structure); vv.101 onward must be written, not generated.
