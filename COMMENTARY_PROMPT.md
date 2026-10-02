@@ -148,11 +148,15 @@ no FAILs:
 ## 11. State of the work (2026-10-02)
 
 - **Published**: Chapter 112; Chapter 1 (full-depth, 7,745 words, v2.5.54).
-- **Chapter 2**: vv.1–100 are complete at full depth and owner-approved.
-  **vv.101–286 remain to be written.** Continue from `## Verse 2:101`. Chapter 2
+- **Chapter 2**: vv.1–130 are complete at full depth (vv.1–100 owner-approved;
+  vv.101–130 written by hand in the same voice, checked clean).
+  **vv.131–286 remain to be written.** Continue from `## Verse 2:131`. Chapter 2
   is not published until all 286 verses are done (then §10).
 - Earlier programmatic drafts of vv.101–130 were removed at the owner's direction
   (predictable structure); vv.101 onward must be written, not generated.
+- Standing warnings (honest, not to be fixed by invention): 2:105, 2:122, 2:123
+  have no named collection or early authority in any corpus; the mufassirūn
+  defer to earlier passages there.
 
 ## 12. Cadence and control
 
