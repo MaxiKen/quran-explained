@@ -1,4 +1,4 @@
-# Decisions, as given by the owner (2026-10-01, revised 2026-10-02, amended 2026-10-02)
+# Decisions, as given by the owner (2026-10-01, revised 2026-10-02, amended 2026-10-02, retracted 2026-10-02)
 
 These choices govern every chapter this project writes, and stand until the
 owner changes them. The pipeline itself is described in
@@ -11,7 +11,10 @@ owner changes them. The pipeline itself is described in
 | Order | **The owner names the chapters.** Nothing is started until a chapter (or chapter:verse) is named. |
 | Cadence | **Continuous.** Once a chapter is named, I work through it without stopping for approval — evidence pack, draft, check, payload, `sw.js` bump, commit and push per chapter — and the owner reads the pushed result and redirects whenever needed. |
 | Composition | **Never compose programmatically** (owner amendment, 2026-10-02). Commentary prose is written by hand, verse by verse — no builder scripts, template loops, or string-assembly of sections, which only add predictable structure to the work. Scripts gather evidence, verify format, and build payloads; they never write commentary. Programmatic drafts of Sūrah 2 vv.101–130 were removed on this ruling. Full craft instructions: `COMMENTARY_PROMPT.md`. |
+| Retraction | **All generated commentary deleted** (owner direction, 2026-10-02). After reviewing the work, the owner ordered every trace of the generated commentary removed: `tafsir/001.md`, `tafsir/002.md`, `tafsir/112.md` and the payloads `data/tafsir_001.json`, `data/tafsir_002.json`, `data/tafsir_112.json` were deleted; `sw.js` v2.5.56 retires all three payloads so cached copies are dropped. Nothing is published. The removed text must not be regenerated; any future commentary starts fresh, only on the owner's explicit instruction. |
 
-The standard is the owner-approved voice of Sūrah 2 vv.1–100 (`tafsir/002.md`):
-flowing commentary written by hand, reports woven as evidence inside the prose,
-structure varied verse by verse, the chapter's argument carried throughout.
+The craft standard (hand-written flowing commentary, reports woven as evidence
+inside the prose, structure varied verse by verse, the chapter's argument
+carried throughout) remains the instruction for any future work — but the model
+text it referred to (Sūrah 2 vv.1–100 in `tafsir/002.md`) was deleted with the
+retraction above, and no commentary currently exists in the repository.

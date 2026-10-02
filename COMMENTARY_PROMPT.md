@@ -53,10 +53,11 @@ drafted as prose, by hand, one at a time, and appended to the chapter file direc
   variant readings, disagreements between interpreters and how they are weighed.
 - The verse does not determine the size; the available evidence does.
 
-## 5. Style — write like Sūrah 2 vv.1–100
+## 5. Style
 
-Read at least two finished sections of `tafsir/002.md` (e.g. vv. 2:40 and 2:99)
-before drafting, and match that voice:
+Match the voice these rules describe (the previous model text, Sūrah 2
+vv.1–100 in `tafsir/002.md`, was deleted with the 2026-10-02 retraction, so no
+finished sections remain to imitate — the craft below is the standard):
 
 - Open each verse with your own commentary — what the verse says, what it does,
   where it stands in the sūrah's arc — then weave the reports into the prose.
@@ -142,22 +143,24 @@ no FAILs:
 
 1. `python3 scripts/tafsir/build_data.py N` (refuses to publish if any verse lacks
    prose or the verse list ≠ 1..total)
-2. Bump `CACHE_VERSION` in `sw.js` (currently `quran-reader-v2.5.55`)
+2. Bump `CACHE_VERSION` in `sw.js` (currently `quran-reader-v2.5.56`)
 3. Commit and push.
 
 ## 11. State of the work (2026-10-02)
 
-- **Published**: Chapter 112; Chapter 1 (full-depth, 7,745 words, v2.5.54);
-  Chapter 2 — all 286 verses at full depth, 218,247 words of prose, check.py PASS
-  (0 fails; 7 standing honest WARNs on verses with no corpus reports), published
-  as data/tafsir_002.json at v2.5.55. vv.1–100 owner-approved; vv.101–286 written
-  by hand in the same voice.
-- Earlier programmatic drafts of vv.101–130 were removed at the owner's direction
-  (predictable structure); vv.101 onward must be written, not generated.
-- Standing warnings (honest, not to be fixed by invention): a few verses —
-  e.g. 2:105, 2:122, 2:123, 2:131, 2:149, 2:156 — carry "no named collection
-  and no named early authority" because the corpora truly contain no report
-  for them; the mufassirūn defer to earlier passages there.
+- **All commentary removed (owner direction, 2026-10-02).** The owner reviewed the
+  generated commentary and ordered every trace of it deleted: tafsir/001.md,
+  tafsir/002.md, tafsir/112.md and the payloads data/tafsir_001.json,
+  data/tafsir_002.json, data/tafsir_112.json were removed from the branch, and
+  sw.js v2.5.56 retires all three payloads so cached copies are dropped.
+  **No chapter is published.** The repo is back to the pre-commentary state plus
+  the pipeline tooling. Do not regenerate any of the removed text; any new
+  commentary starts fresh and only on the owner's explicit instruction.
+- If chapter 2 is ever written again, expect these honest warnings (do not fix
+  them by invention): a few verses — e.g. 2:105, 2:122, 2:123, 2:131, 2:149,
+  2:156 — carry "no named collection and no named early authority" because the
+  corpora truly contain no report for them; the mufassirūn defer to earlier
+  passages there.
 
 ## 12. Cadence and control
 
