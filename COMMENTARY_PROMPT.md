@@ -142,16 +142,16 @@ no FAILs:
 
 1. `python3 scripts/tafsir/build_data.py N` (refuses to publish if any verse lacks
    prose or the verse list ≠ 1..total)
-2. Bump `CACHE_VERSION` in `sw.js` (currently `quran-reader-v2.5.54`)
+2. Bump `CACHE_VERSION` in `sw.js` (currently `quran-reader-v2.5.55`)
 3. Commit and push.
 
 ## 11. State of the work (2026-10-02)
 
-- **Published**: Chapter 112; Chapter 1 (full-depth, 7,745 words, v2.5.54).
-- **Chapter 2**: vv.1–280 are complete at full depth (vv.1–100 owner-approved;
-  vv.101–280 written by hand in the same voice, checked clean).
-  **vv.281–286 remain to be written.** Continue from `## Verse 2:281`. Chapter 2
-  is not published until all 286 verses are done (then §10).
+- **Published**: Chapter 112; Chapter 1 (full-depth, 7,745 words, v2.5.54);
+  Chapter 2 — all 286 verses at full depth, 218,247 words of prose, check.py PASS
+  (0 fails; 7 standing honest WARNs on verses with no corpus reports), published
+  as data/tafsir_002.json at v2.5.55. vv.1–100 owner-approved; vv.101–286 written
+  by hand in the same voice.
 - Earlier programmatic drafts of vv.101–130 were removed at the owner's direction
   (predictable structure); vv.101 onward must be written, not generated.
 - Standing warnings (honest, not to be fixed by invention): a few verses —
