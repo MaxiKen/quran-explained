@@ -53,7 +53,7 @@ the evidence of all eleven sources on that verse.
 | 8 | `tafsir-ibn-kathir.md` | Tafsīr al-Qurʾān al-ʿAẓīm | English | ✔ 1:1–1:7 | done |
 | 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | | pending |
 | 10 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | ✔ 1:1–1:7 | done |
-| 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | | pending |
+| 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | ✔ 1:1–1:7 | done |
 | — | `merged-chapter-1.md` | — | — | | pending (after the eleven) |
 
 ## 4. Corpus facts that affect the extraction
