@@ -25,7 +25,8 @@ God, vv. 5–7 the servant's response [Study Quran].
 God taught His Prophet to place His name before all his acts, and made that a practice for all creation —
 so that "in the name of God" suffices, the hearer knowing the intent without the verb being spoken. Ibn
 ʿAbbās, from Jibrīl: "Say, *bismi llāh* — recite with the remembrance of your Lord; stand and sit with the
-remembrance of God." **[Saʿdī]** *Ism* is a singular in construct, so "in the name of God" invokes all the
+remembrance of God." *(weak — Ṭabarī transmits the report through the Abū Rawq chain, which he himself
+notes as weak)* **[Saʿdī]** *Ism* is a singular in construct, so "in the name of God" invokes all the
 beautiful names; *Allāh* is the One worshipped, entitled to worship alone for the attributes of divinity;
 *al-Raḥmān*, *al-Raḥīm* are two names of His vast mercy that embraces every living thing — absolute for
 those who follow His messengers, a share for the rest. **[Jalālayn]** *Allāh* names the divine essence
@@ -52,7 +53,8 @@ schools (with the Shāfiʿī and Jaʿfarī excepted) do not recite it audibly wi
 reported that the Prophet, Abū Bakr, ʿUmar and ʿUthmān began recitation with "Praise be to God, Lord of
 the worlds" without mentioning the basmala, while Abū Hurayrah recited it aloud and said, "Among you I
 perform the prayer closest to the Messenger of God's" [Study Quran], [Ibn Kathīr]. The basmala has 19
-letters, matching the 19 guardians of the Fire — a protective correspondence Ibn Masʿūd drew [Qurṭubī].
+letters, matching the 19 guardians of the Fire — a protective correspondence Ibn Masʿūd drew
+[Qurṭubī]. *(Ibn ʿAṭiyyah called this "among the curiosities of tafsīr, not its sound knowledge")*
 
 **Belief.** **[Saʿdī]** The names and attributes are affirmed as the *salaf* affirmed them: He is
 *Raḥmān*, *Raḥīm*, possessing the mercy by which He is described, related to the one shown mercy — all
@@ -232,7 +234,7 @@ Quran]** The shift from third person (vv. 1–4) to direct address marks the ser
 the first-person plural is humility: one speaks for all creation, not oneself alone. **[Ṭabarī]** The sense: to You we humble ourselves,
 abase ourselves and submit — for servitude (*ʿubūdiyya*) in Arabic is rooted in abasement, as a road
 trodden down and smoothed is *muʿabbad*; Ibn ʿAbbās (in the dialogue of Jibrīl) glossed it: "You alone we
-make one, You alone we fear and hope, our Lord, none other." Ṭabarī preferred the abasement gloss,
+make one, You alone we fear and hope, our Lord, none other." *(weak — the same Abū Rawq chain)* Ṭabarī preferred the abasement gloss,
 fear and hope being inseparable from it. On worship preceding the petition for help: since worship does
 not exist without God's help, nor help be granted without the servant's acting, either order is sound —
 like "you did my errand, so you were kind to me" answered by "you were kind to me, so you did my errand".
@@ -330,7 +332,8 @@ birds, others crawling, and some cast from it [Study Quran].
 
 **Meaning.** **[Ṭabarī]** The verse explains which path is the straight one — for every road of truth is
 straight; "the path of those You have blessed" = the path of Your angels, prophets, the truthful, the
-martyrs and the righteous, whom God blessed with obedience and worship (cf. 4:66–69). **[Qurṭubī]** "The
+martyrs and the righteous, whom God blessed with obedience and worship (cf. 4:66–69). *(weak — the
+Ibn ʿAbbās report of this gloss comes through the Abū Rawq chain)* **[Qurṭubī]** "The
 path of those You have blessed" is an apposition to the straight path, meaning: keep us firm in
 guidance — for a man may be guided to a road and then cut off from it. **The majority:** the
 "*maghḍūb ʿalayhim*" are the Jews; "the *ḍāllīn*" are the Christians — a report traced to the Prophet in

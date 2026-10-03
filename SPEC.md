@@ -40,7 +40,8 @@ Quran (Maʿārif). Only the six corpora above remain.
 
 Only the blocks that carry real content are written; a short verse may have three blocks, a
 weighty verse ten. Verse-by-verse is the backbone — every verse of the chapter gets its own entry
-with the verse number in the heading.
+with the verse number in the heading. Where material is weak, Israelite, or a digression from the
+verse, it is carried with an italic flag: *(weak)*, *(Isrāʾīliyyāt)*, *(digression)*.
 
 ## 3. Length budget — "sized to the verse"
 
@@ -49,16 +50,22 @@ narrative verses; average ≈ 400–500 words. Chapter 2 (286 verses) ≈ 140,00
 
 ## 4. Extraction rules
 
-1. **Unique material only.** Skip isnād chains, repeated reports, poetic digressions, polemics and
+1. **All six sources are read for every verse.** Which blocks appear is decided by what the corpora
+   actually contain for that verse, not in advance. *Meaning* and *Reflection* are always present.
+2. **Unique material only.** Skip isnād chains, repeated reports, poetic witnesses, polemics and
    marginal asides. Collapse once whatever later sources copy from earlier ones — the corpora repeat
    whole commentary blocks under every verse heading they cover; never count the same block twice.
-2. **English only.** Arabic is kept for the verse itself and for indispensable terms.
-3. **One book per chapter.** No per-source files, no sūrah-level records, no coverage/audit lines.
-4. **Verse-anchored.** Where the sources treat consecutive verses as one unit, the entry still opens
+3. **Every summary must stand on its own.** Carried material is condensed, but the condensation must
+   read as a comprehensible summary — full sentences, with names, numbers and the substance of the
+   point kept intact. No cryptic stubs.
+4. **Three things are carried *and* flagged, never dropped silently:**
+   - a **weak or spurious report** → carried, marked *(weak)*, with the source's own grading where it
+     gives one;
+   - an **Israelite tale** (*isrāʾīliyyāt*) → carried, marked *(Isrāʾīliyyāt)*;
+   - a **digression** in the source → carried in the nearest block or as a closing note, marked
+     *(digression)*.
+   Everything else judged out is dropped without a log — the book is the record.
+5. **English only.** Arabic is kept for the verse itself and for indispensable terms.
+6. **One book per chapter.** No per-source files, no coverage/audit lines.
+7. **Verse-anchored.** Where the sources treat consecutive verses as one unit, the entry still opens
    at each verse number and covers it.
-
-## 5. Working method
-
-Read each source's section for the verse (`## n:m` in the corpora; `tafsir_initial/*.md` is
-block-structured), extract the unique points into the entry, then move to the next verse. Chapter 1
-is rebuilt first, then chapter 2 (2:1 → 2:286) without interruption.
