@@ -1,16 +1,16 @@
 # Chapter 2 · al-Baqarah — source-by-source element extraction
 
 This folder holds the **evidence layer** for chapter 2 of the TAFSIR book, on the same specification as
-chapter 1 (`../1/README.md`): the elements that each of the eleven source works contains, extracted as
+chapter 1 (`../1/README.md`): the elements that each of the ten source works contains, extracted as
 **(source → element) pairs on a verse-by-verse basis**. The per-source files are merged afterwards into
-`merged-chapter-2.md`, where every element (the *head*) gathers all eleven sources on that verse.
+`merged-chapter-2.md`, where every element (the *head*) gathers all ten sources on that verse.
 
 ## 1. Specification
 
 | Item | Decision |
 | :--- | :--- |
 | Scope | Chapter 2 (al-Baqarah, 2:1–2:286), plus the sūrah-level elements |
-| Sources | The same eleven folders as chapter 1 (6 Arabic + 5 English) |
+| Sources | The same **10** folders as chapter 1 (5 Arabic + 5 English) |
 | Unit | One file per source, named exactly after its folder; **all 286 verses covered in each file** |
 | Element list | The complete taxonomy of `../tafsir/elements.txt` — 6 sūrah-level, 17 verse-level |
 | Language | Arabic sources are extracted into English |
@@ -53,10 +53,9 @@ files stay reviewable as they grow:
 | 6 | `tafsir-as-saadi.md` | Taysīr al-Karīm al-Raḥmān | Arabic | — | pending |
 | 7 | `tafsir-ibn-abbas.md` | Tanwīr al-Miqbās (ascribed) | English | — | pending |
 | 8 | `tafsir-ibn-kathir.md` | Tafsīr al-Qurʾān al-ʿAẓīm | English | — | pending |
-| 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | — | pending |
-| 10 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | — | pending |
-| 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | — | pending |
-| — | `merged-chapter-2.md` | — | — | — | pending (after the eleven) |
+| 9 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | — | pending |
+| 10 | `tafsir_initial.md` | The Study Quran (super-source) | English | — | pending |
+| — | `merged-chapter-2.md` | — | — | — | pending (after the ten) |
 
 ## 5. Corpus facts that affect the extraction (measured)
 
@@ -75,19 +74,17 @@ internal markers name (as in chapter 1). Measured on the raw files:
 | `tafsir-as-saadi/002.txt` | 573 KB | 256 KB | 152 | 70 |
 | `tafsir-ibn-abbas/002.txt` | 176 KB | 176 KB | 286 | 0 |
 | `tafsir-ibn-kathir/002.txt` | 2,068 KB | 1,101 KB | 173 | 79 |
-| `tafsir-ibn-uthaymeen/002.txt` | 12,253 KB | 3,171 KB | 106 | 57 |
 | `tafsir-maarif-ul-quran/002.txt` | 1,610 KB | 1,266 KB | 218 | 52 |
-| **Total** | **29.3 MB** | **16.5 MB** | | |
+| **Total** | **17.1 MB** | **13.4 MB** | | |
 
 Other facts:
 
-* **al-Baqarah is complete in all eleven works** — no missing-commentary defect like chapter 1's al-Alūsī
+* **al-Baqarah is complete in all ten works** — no missing-commentary defect like chapter 1's al-Alūsī
   gap. The sūrah-level material (names, Makkī/Madanī, counts, faḍāʾil, maqāṣid, munāsabah) sits inside each
   work's first section (`## 2:1` for the Arabic sources) and is extracted into the S-heads.
 * **`tafsir_initial/002.md`** (The Study Quran) has no per-verse headings; its verses are block-quoted
   (`> **n** …`) with commentary numbered `**n**` and ranged (`**122–23**`), so its record is mapped from
   those markers.
-* **Ibn ʿUthaymīn's file** is a lecture transcript continuing the al-Fātiḥah sessions (its `2:1` section
   opens by recapitulating the Fātiḥah); 284 of 286 verses are headed, and the Q&A matter is handled as in
   chapter 1.
 

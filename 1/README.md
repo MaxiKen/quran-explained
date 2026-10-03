@@ -1,21 +1,27 @@
 # Chapter 1 · al-Fātiḥah — source-by-source element extraction
 
 This folder holds the **evidence layer** for chapter 1 of the TAFSIR book: the elements that each of
-the eleven source works contains, extracted verse by verse as **(source → element) pairs**. The
+the ten source works contains, extracted verse by verse as **(source → element) pairs**. The
 per-source files are merged afterwards into a single master, where every element (the *head*) gathers
-the evidence of all eleven sources on that verse.
+the evidence of all ten sources on that verse.
 
 ## 1. Specification
 
 | Item | Decision |
 | :--- | :--- |
 | Scope | Chapter 1 only (al-Fātiḥah, verses 1:1–1:7), plus the sūrah-level elements |
-| Sources | The 11 folders: 6 Arabic + 5 English (listed in §3) |
+| Sources | The **10** folders: 5 Arabic + 5 English (listed in §3). Ibn ʿUthaymīn was withdrawn as a source (see the note below) |
 | Unit | One file per source, named exactly after its folder; **all seven verses covered in each file** |
 | Element list | The complete taxonomy of `../tafsir/elements.txt` — 6 sūrah-level, 17 verse-level |
 | Language | Arabic sources are extracted into English |
 | Fidelity | **Evidence verbatim with its citation** (Qurʾān clauses, ḥadīth wording, āthār, poetry, qirāʾāt); the source's own explanatory prose is condensed to its essential claim |
 | Merge | `1/merged-chapter-1.md` — same element under one head, all sources gathered beneath it |
+
+
+> **Note — Ibn ʿUthaymīn withdrawn (2026-10-03).** `tafsir-ibn-uthaymeen.md` was removed from the source set
+> at the user's direction; the project now runs on **ten** sources (5 Arabic + 5 English). Its chapter-2
+> corpus (`tafsir-ibn-uthaymeen/`) remains in the repository as unused input. The merged master below has
+> been regenerated without it.
 
 ## 2. Conventions
 
@@ -23,9 +29,9 @@ the evidence of all eleven sources on that verse.
   `[context]`. This is the verse itself, not source material, and carries no source attribution.
 * **Element heads.** `### V8 · Language, lexical & grammatical analysis (lughah · iʿrāb · balāghah)`.
   The `V`-numbers and `S`-numbers are the numbers of the list in `elements.txt`, so the merge is
-  mechanical. Capitalised head names are stable across all eleven files.
+  mechanical. Capitalised head names are stable across all ten files.
 * **Attribution.** Every block begins with the work in bold — `**As-Saʿdī.**` — so that when the merge
-  gathers eleven sources under one head each item still names its own origin.
+  gathers ten sources under one head each item still names its own origin.
 * **One passage, one head.** Where one passage could serve two elements, it is recorded once under the
   element that governs it; no passage is duplicated.
 * **Cross-heads.** The second element a record serves is named inside it — `_Cross-heads: V11 — …_` — so
@@ -51,21 +57,19 @@ the evidence of all eleven sources on that verse.
 | 6 | `tafsir-as-saadi.md` | Taysīr al-Karīm al-Raḥmān | Arabic | **pilot** | done |
 | 7 | `tafsir-ibn-abbas.md` | Tanwīr al-Miqbās (ascribed) | English | **pilot** | done |
 | 8 | `tafsir-ibn-kathir.md` | Tafsīr al-Qurʾān al-ʿAẓīm | English | ✔ 1:1–1:7 | done |
-| 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | ✔ 1:1–1:7 (re-mapped from the single lecture body) | done |
-| 10 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | ✔ 1:1–1:7 | done |
-| 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | ✔ 1:1–1:7 | done |
-| — | `merged-chapter-1.md` | — | — | ✔ 1:1–1:7 (the eleven gathered under the element heads) | done |
+| 9 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | ✔ 1:1–1:7 | done |
+| 10 | `tafsir_initial.md` | The Study Quran (super-source) | English | ✔ 1:1–1:7 | done |
+| — | `merged-chapter-1.md` | — | — | ✔ 1:1–1:7 (the ten gathered under the element heads) | done |
 
 ## 4. Corpus facts that affect the extraction
 
-One chapter, eleven files, four defects — all of them factual and all of them handled, never silently:
+One chapter, ten files, three defects — all of them factual and all of them handled, never silently:
 
 | File | Defect | Handling |
 | :--- | :--- | :--- |
 | `tafsir-as-saadi/001.txt` | The whole-sūrah commentary is repeated byte-identical under all seven verse headings | Repetition removed; material re-mapped to the verses the author's own `{n}` markers name |
 | `tafsir-al-alusi/001.txt` | 1:2–1:7 are byte-identical (whole-sūrah text repeated); 1:1 is separate | Repetition removed; internal markers used to re-map |
 | `tafsir-al-baghawi/001.txt` | All seven sections are byte-identical | As above |
-| `tafsir-ibn-uthaymeen/001.txt` | All seven sections byte-identical; the body is one transcribed session — a ṣalāh / al-Fātiḥah lesson followed by the audience's questions — not a written per-verse tafsīr | Repetition collapsed once; the lesson's own order re-mapped into the sūrah-level heads and the seven verse heads (structural note in the file); the Takhrīj of the transcription's editor is marked *[ed.]* |
 | `tafsir-al-jalalayn/001.txt` | The basmalah commentary is filed under `## 1:2` | Re-mapped to 1:1; the substitution note in 1:6–1:7 kept with its verses |
 
 ## 5. Element list used (from `../tafsir/elements.txt`)
@@ -82,10 +86,10 @@ V16 contemporary issues & application · V17 specific virtues & supplications (f
 
 ## 6. The merged master (`merged-chapter-1.md`)
 
-Built mechanically from the eleven files (458 KB / 5,158 lines): one head per element of `../tafsir/elements.txt`,
+Built mechanically from the ten files: one head per element of `../tafsir/elements.txt`,
 in the S/V order, with the sources' blocks gathered **verbatim** beneath it — each block keeping its own bold
 attribution, so every item still names its origin. A head appears only where at least one source has material
 for it; a source absent under a head is silent on that element (its own file's `_Coverage:_` line shows the
-silence). The eleven `> Structural note`s are reproduced verbatim in the appendix, and the super-source's sigla
+silence). The ten `> Structural note`s are reproduced verbatim in the appendix, and the super-source's sigla
 (*Q, Ṭ, Ṭb, …*) are kept inside its blocks. The merge was machine-made from the files in this folder, so it can
 be regenerated at any time after a source file is revised.
