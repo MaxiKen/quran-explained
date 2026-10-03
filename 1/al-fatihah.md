@@ -181,12 +181,27 @@ resurrection and requital.
 **Language.** *Dīn* relates to obedience, custom, and to *dayn*, "debt" — the Day of *dīn* is the day
 one's debt to God falls due; God is *al-Dayyān*, the One Who Repays (cf. 24:25) [Study Quran],
 [Ibn Kathīr], [Jalālayn]. *Mālik* ("master/owner") and *malik* ("king") — both traced to the Prophet;
-*malik* is said to be more emphatic, while *mālik* stresses disposal [Study Quran], [Qurṭubī].
+*malik* is said to be more emphatic, while *mālik* stresses disposal [Study Quran], [Qurṭubī]. *Dīn* is
+a word of shared and contrary senses: requital, obedience, submissiveness, custom, even a king's way —
+and Thaʿlab notes *dāna* can mean "obeyed" and "disobeyed", "was mighty" and "was lowly", one of the
+*addād* [Qurṭubī]. **[Qurṭubī]** "Master of the Day of Judgment" though the Day has not yet come: the
+active participle may be used of the future (*hādhā ḍāribu Zaydin ghadan* — "this is the one who will
+strike Zayd tomorrow"). Described as *malik*, He so describes His Essence; as *mālik*, His act; and while
+creatures may be called *mālik* or *malik* (cf. Ṭālūt, 2:247), no creature may be named "king of
+kings".
 
 **Cross-references.** 40:16; 24:25; 40:17; 78:38; 20:108; 11:105; 37:53 ("Shall we be recompensed?").
 
-**Readings.** *Mālik* / *malik* — both transmitted from the Prophet; also *malk* (lightened) and *malīk*
-[Qurṭubī], [Study Quran].
+**Readings.** Four forms: *mālik*, *malik*, *malk* (lightened from *malik*) and *malīk*; Muḥammad b.
+al-Samayqaʿ read *mālika* in the accusative [Qurṭubī]. Both *mālik* and *malik* are transmitted from the
+Prophet, and from Abū Bakr and ʿUmar (Tirmidhī) [Qurṭubī], [Study Quran]. **[Ṭabarī]** prefers *malik*:
+kingship (*mulk*) entails ownership (*milk*) but not the reverse, and *mālik* here would repeat what "Lord
+of the worlds" already established, while *malik* adds what it did not — as a general statement may be
+followed by a particular for a fresh purpose (cf. 59:24; 2:4). He explains the accusative reading as a
+vocative: "O Master of the Day of Judgment — You alone we worship." **[Qurṭubī]** The *mālik* party
+answers that ownership covers small and great alike (*mālik al-dār*, *mālik al-mulūk*) and that no one says
+*malik al-mulk*; Abū Ḥātim: *mālik* is the stronger in praise of the Creator, *malik* the stronger
+otherwise.
 
 **Reflection.** The verse plants accountability: the Names descend from Essence (Allāh) to universal
 mercy (*al-Raḥmān*), particular mercy (*al-Raḥīm*), and then the King who manages all affairs — the
@@ -214,7 +229,13 @@ and the warding off of harm, with trust in Him. Worship is only worship when tak
 and aimed at God's face; help is mentioned after worship because the servant needs God's help in every
 act of worship — without His aid he cannot do what is commanded or shun what is forbidden. **[Study
 Quran]** The shift from third person (vv. 1–4) to direct address marks the servant standing before God;
-the first-person plural is humility: one speaks for all creation, not oneself alone.
+the first-person plural is humility: one speaks for all creation, not oneself alone. **[Ṭabarī]** The sense: to You we humble ourselves,
+abase ourselves and submit — for servitude (*ʿubūdiyya*) in Arabic is rooted in abasement, as a road
+trodden down and smoothed is *muʿabbad*; Ibn ʿAbbās (in the dialogue of Jibrīl) glossed it: "You alone we
+make one, You alone we fear and hope, our Lord, none other." Ṭabarī preferred the abasement gloss,
+fear and hope being inseparable from it. On worship preceding the petition for help: since worship does
+not exist without God's help, nor help be granted without the servant's acting, either order is sound —
+like "you did my errand, so you were kind to me" answered by "you were kind to me, so you did my errand".
 
 **Ḥadīth & āthār.** The *ḥadīth qudsī*: "This is between Me and My servant, and My servant shall have
 what he asks" [Ibn Kathīr], [Study Quran]. "There is no valid prayer for one who does not recite the
@@ -227,17 +248,26 @@ for his acts: if the matter were in his hands he would not have been taught to a
 guidance in every prayer [Qurṭubī]; **[Ṭabarī]** In the command to say "You alone we worship, You alone
 we ask for help" there is the clearest proof of the falsity of the *tafwīḍ* of the Qadarīs, who claim the
 servant has been given the help he needs so that his need of his Lord is lifted — for were that so, the
-verse's meaning would be void.
+verse's meaning would be void. Sharper still: on their view God would *owe* the servant his help, so that
+asking it would be asking Him not to wrong us — against the consensus of Muslim usage, which approves
+"O God, we seek Your help" and not "O God, do not wrong us" [Ṭabarī].
 
 **Language.** *ʿIbādah*: subjugation; a paved road (*muʿabbada*) is one trodden down and made smooth
 [Ibn Kathīr], [Qurṭubī]. *Iyyāka* with the object fronted gives restriction (*ḥaṣr*) [Saʿdī], [Qurṭubī].
-The Name is repeated in both halves lest "You we worship *and rely on another*" be imagined [Qurṭubī].
+The Name is repeated in both halves lest "You we worship *and rely on another*" be imagined [Qurṭubī]. **[Ṭabarī]** The repetition has also a grammatical cause: had the object
+followed the verb, the attached pronoun would be renewed with each verb — "we worship You, we seek help
+from You" — so when it is fronted as *iyyāka*, it is repeated with the second verb to keep that clarity;
+the Arab's retort, "It is you I mean" / "And it is you I turn away from", shows the fronted object's
+force [Qurṭubī]. *Nastaʿīn*: originally *nastaʿwin*, the *wāw*'s vowel moved to the *ʿayn* and became
+*yāʾ*; the gerund *istiʿāna* from *istiʿwān* [Qurṭubī].
 
 **Cross-references.** 11:123 ("worship Him and put your trust in Him"); 67:29; 73:9; 47:38 ("God is the
 Rich, and you are the poor"); 6:165.
 
 **Readings.** ʿAmr b. Qāʾid read *iyāka* (lightened *yāʾ*, *kasra* on the *hamza*) — a reading
-disapproved, since it would turn the sense into "your sun we worship" (*iyā* = sunlight) [Qurṭubī].
+disapproved, since it would turn the sense into "your sun we worship" (*iyā* = sunlight) [Qurṭubī]. Al-Faḍl al-Raqāshī read *ayyāka* (with *fatḥ*), and Abū l-Sawwār
+al-Ghanawī *hiyyāka* — a dialect [Qurṭubī]. Yaḥyā b. Waththāb and al-Aʿmash read *nistaʿīn* with a
+*kasra* on the *nūn* (the dialect of Tamīm, Asad, Qays and Rabīʿa) [Qurṭubī].
 
 **Reflection.** Worship and reliance are the two pillars of the servant's relation to his Lord; asking
 for help is itself an act of worship, and the servant never outgrows the need for it.
@@ -288,7 +318,9 @@ Fire"); 11:56 ("my Lord is upon a straight path"); 42:52; 90:10; 7:43; 10:9.
 
 **Reflection.** The servant asks in every prayer for the one thing he cannot do without; the path
 described is the middle way — neither worldliness nor excess, the outward Law joined to inward
-spirituality [Study Quran].
+spirituality [Study Quran]. The same term is also understood as the traverse over the Fire, which the
+Prophet described as "finer than a hair and sharper than a sword" — some crossing it like wind, some like
+birds, others crawling, and some cast from it [Study Quran].
 
 ---
 
