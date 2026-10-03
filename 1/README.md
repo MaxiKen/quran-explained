@@ -54,7 +54,7 @@ the evidence of all eleven sources on that verse.
 | 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | ✔ 1:1–1:7 (re-mapped from the single lecture body) | done |
 | 10 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | ✔ 1:1–1:7 | done |
 | 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | ✔ 1:1–1:7 | done |
-| — | `merged-chapter-1.md` | — | — | | pending (after the eleven) |
+| — | `merged-chapter-1.md` | — | — | ✔ 1:1–1:7 (the eleven gathered under the element heads) | done |
 
 ## 4. Corpus facts that affect the extraction
 
@@ -79,3 +79,13 @@ V7 classical mufassirūn · V8 language, lexicon & grammar · V9 variant reading
 rulings (aḥkām) · V11 creed & theology (ʿaqīdah) · V12 abrogation · V13 history, sīrah & parables ·
 V14 spiritual purification & etiquette (tazkiyah · ādāb) · V15 wisdom & admonition (ḥikam · tadabbur) ·
 V16 contemporary issues & application · V17 specific virtues & supplications (faḍāʾil · duʿāʾ)
+
+## 6. The merged master (`merged-chapter-1.md`)
+
+Built mechanically from the eleven files (458 KB / 5,158 lines): one head per element of `../tafsir/elements.txt`,
+in the S/V order, with the sources' blocks gathered **verbatim** beneath it — each block keeping its own bold
+attribution, so every item still names its origin. A head appears only where at least one source has material
+for it; a source absent under a head is silent on that element (its own file's `_Coverage:_` line shows the
+silence). The eleven `> Structural note`s are reproduced verbatim in the appendix, and the super-source's sigla
+(*Q, Ṭ, Ṭb, …*) are kept inside its blocks. The merge was machine-made from the files in this folder, so it can
+be regenerated at any time after a source file is revised.
