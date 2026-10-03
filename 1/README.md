@@ -43,7 +43,7 @@ the evidence of all eleven sources on that verse.
 
 | # | File | Source | Language | Verses 1:1–1:7 | Status |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | | pending |
+| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | ✔ 1:1 (sūrah-level + basmalah; §4 defect — 1:2–1:7 absent from corpus) | done |
 | 2 | `tafsir-al-baghawi.md` | Maʿālim al-Tanzīl | Arabic | ✔ 1:1–1:7 | done |
 | 3 | `tafsir-al-jalalayn.md` | Tafsīr al-Jalālayn | English | ✔ 1:1–1:7 | done |
 | 4 | `tafsir-al-qurtubi.md` | al-Jāmiʿ li-Aḥkām al-Qurʾān | Arabic | ✔ 1:1–1:7 | done |
