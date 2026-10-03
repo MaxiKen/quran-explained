@@ -45,7 +45,7 @@ files stay reviewable as they grow:
 
 | # | File | Source | Language | Progress | Status |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | S-level + B1 in progress (2:1–2:2 done) | **in progress** |
+| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | S-level + B1 in progress (2:1–2:3 done) | **in progress** |
 | 2 | `tafsir-al-baghawi.md` | Maʿālim al-Tanzīl | Arabic | — | pending |
 | 3 | `tafsir-al-jalalayn.md` | Tafsīr al-Jalālayn | English | — | pending |
 | 4 | `tafsir-al-qurtubi.md` | al-Jāmiʿ li-Aḥkām al-Qurʾān | Arabic | — | pending |

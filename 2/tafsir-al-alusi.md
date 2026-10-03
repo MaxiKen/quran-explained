@@ -694,3 +694,555 @@ locus of benefit — "**as in *innamā anta mundhiru man yakhshāhā* with the u
 and the fate of the rest: *wa-lā yazīdu l-ẓālimīna illā khasāran* (17:82).
 
 _Coverage: V1, V2, V4, V5, V7, V8, V9, V11._
+
+
+---
+
+## 2:3 — الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ
+
+*[context]* Those who have faith in the unseen, and establish the prayer, and spend out of what We have provided them.
+
+### V2 · Running exposition (bayān)
+
+**Al-Alūsī.** "*Alladhīna yuʾminūna bi-l-ghayb…* — **a description (*ṣifah*) of the God-fearing mentioned before**:
+**for if the *taqwā* intended is the first of its ranks, [the description] is a specification (*mukhaṣṣiṣah*);
+if the second, an unveiling (*kāshifah*); if the third, a praise (*mādiḥah*).**" **And in *Sharḥ al-Miftāḥ
+al-Sharīfī***: "**if the God-fearing one is taken on its legal meaning — the one who does the obligatory and
+leaves the evil — then if the addressee is ignorant of that meaning the description is an unveiling, and if he
+knows it, a praise; and if it is taken on what is near its lexical meaning, it is a specification.**" — **And
+arising from it, the question of the *mafṣūl***: "**it was thought more likely (*ustuẓhira*) that the relative
+clause is cut off (*mafṣūl*), with the aim of giving information about them by what follows — the establishment
+of what precedes remains implicit, and although not running over them, it is as though running: that suffices
+for the connection. And the resumption is either grammatical or explanatory — as though it were said: what is it
+that the God-fearing were singled out with that guidance for? And the *waqf* on *al-muttaqīn* is *tāmm* on this
+face, *ḥasan* on the first.**"
+
+**Faith (*īmān*) — lexically**: "**lexically *al-īmān* is assent (*al-taṣdīq*), i.e. the acknowledgment of the
+informant's report and its acceptance, making him true (*ṣādiqan*); it is *ifʿāl* from *al-amn* (security), as
+though its reality in 'he believed in him' were: he secured him from denial and opposition. **It is transitive
+with the *lām*** — as in His saying *a-nuʾminu laka wa-ttabaʿaka l-ardhalūn* (26:111) — **and with the *bāʾ*** —
+as in his saying ﷺ '*al-īmānu an tuʾmina bi-llāh*' (the ḥadīth)"; **and they said**: "**the first is on the
+consideration of its entailing the sense of acknowledgment (*idhʿān*), and the second on entailing the sense of
+confession (*iʿtirāf*) — an allusion to the fact that assent is not considered unless confession accompanies
+it.**" — "**and it is sometimes used in the sense of trust (*wuthūq*) — since the one trusting becomes one at
+security — and there it is a lexical-customary reality (*ḥaqīqah ʿurfiyyah*), as in *al-Asās*; and the apparent
+of *al-Kashshāf* gives its being tropical.**"
+
+**Faith legally** — "**in the law it is assent to what is known necessarily to have come with the Prophet ﷺ, in
+detail in what is known in detail and in summary in what is known in summary — and this is the *madhhab* of the
+majority of the verifiers. But they differed on whether the standard of the next-world rulings is this meaning
+alone or with acknowledgment (*iqrār*):**"
+
+* "**The Ashʿarī and his followers held the meaning alone suffices**, because **it is the intended, and the
+  acknowledgment is only so that its existence be known — for it is an inward matter — the rulings running over
+  it. So one who assents in his heart and leaves the acknowledgment though able to make it is a believer
+  legally in what is between him and Allah — and his seat is the Garden.** **But Ibn al-Humām mentioned that the
+  people of this view agreed that he must believe that whenever the acknowledgment is demanded of him he will
+  bring it; for if it is demanded and he does not acknowledge, it is a disbelief of obstinacy (*kufr ʿinād*).**"
+* "**And our Imām Abū Ḥanīfah — may Allah have mercy on him — and most who followed him held that the
+  acknowledgment and what is in its ruling — like the mute one's gesture — is indispensable: so the described
+  assenter is not a believer with the faith on which the next-world rulings follow** — like the one who prays
+  with ostentation: his prayer does not profit him. **And perhaps that is because He — exalted — blamed the
+  obstinate more than He blamed the ignorant who fell short; and the objector may make the blame for the verbal
+  denial — and no doubt it is the mark of denial — or for the inward denial which is the very denial.**"
+* "**And the Karāmiyyah held that faith legally is the tongue's acknowledgment of the two shahādahs and nothing
+  else; the Khawārij, al-ʿAllāf and ʿAbd al-Jabbār of the Muʿtazilah that every obedience is faith, whether
+  obligatory or supererogatory; al-Jubbāʾī and his son and most of the Muʿtazilah of Baṣrah that it is the
+  obligatory obediences without the supererogatory; and al-Qalānisī of Ahl al-Sunnah and al-Najjār of the
+  Muʿtazilah — and it is the *madhhab* of most of the people of *athar* — that it is the knowledge of the heart,
+  the acknowledgment of the tongue and the work of the limbs.**" — **And: "it is said: the secret of this
+  disagreement is the disagreement on whether the charge-bearer (*al-mukallaf*) is the spirit alone, the body
+  alone, or their sum; and the truth is that the source of each *madhhab* is a proof that moved its holder to
+  tread it.**"
+* **And al-Alūsī's own weighing**: "**the most manifest of the *madhāhib* is that it [faith] is assent; and for
+  this the master of the believers ʿAlī — may Allah be pleased with him — said: *faith is knowledge, and
+  knowledge is submission, and submission is assent* (*al-īmānu maʿrifatun wa-l-maʿrifatu taslīmun wa-l-taslīmu
+  taṣdīq*);** and this is supported by His saying *ulāʾika kataba fī qulūbihimu l-īmān* (58:22) and *wa-lammā
+  yadkhuli l-īmānu fī qulūbikum* (49:14) and *wa-qalbuhu muṭmaʾinnun bi-l-īmān* (16:106) and his saying ﷺ
+  '*Allāhumma thabbit qalbī ʿalā dīnik*' — **where He attributed it in these and their uncounted likes to the
+  heart, showing that it is an act of the heart; and there is nothing but assent, since it has not been
+  clarified in the law with another meaning**"; **and the arguments from the conjunction of works upon faith**
+  (*inna lladhīna āmanū wa-ʿamilū l-ṣāliḥāt*, 2:277), **and from faith's being made the condition of works'
+  soundness** (*wa-man yaʿmal mina l-ṣāliḥāti wa-huwa muʾmin*, 20:112) — "**with the certainty that the
+  conditioned does not enter into the condition, since a thing's conditioning itself is impossible**" — **and
+  from faith's being affirmed for one who has left some works** (*wa-in ṭāʾifatāni mina l-muʾminīna qtatalū*,
+  49:9), **and that what we have mentioned is nearer to the root** (the only difference being the particular of
+  the object).
+
+**The twelve objections brought by the opponent, and the answers** (condensed from al-Alūsī's serial treatment
+— each is his wording):
+
+1. **If faith were assent, it would not differ though the faith of the Messenger ﷺ resembles not that of the
+   common, nor even of the elite.** — **Answer**: the more likely (*al-ustuẓhira*) that the faith itself is one,
+   and the difference between the two faiths is by the interposition of acts and power between the renewed
+   states of faith, or by the occurrence of doubts; **with the verse: *wa-li-l-zanbūri wa-l-bāzī jamīʿan • ladā
+   l-ṭayarāni ajniḥatun wa-khafq • wa-lākin bayna mā yaṣṭādu bāzun • wa-mā yaṣṭāduhu l-zanbūru farq*.**"
+2. **Sin (*fusūq*) contradicts faith and cannot combine with it, by the text *wa-lākinna llāha ḥabbaba ilaykumu
+   l-īmāna wa-zayyanahu fī qulūbikum wa-karraha ilaykumu l-kufra wa-l-fusūqa* (49:7).** — **Answer**: the verse
+   does not prove sin's non-combination; for had it said 'He made knowledge lovable to you and made sin hateful
+   to you,' it would not have proved the mutual exclusion of knowledge and sin; and the opposition of unbelief
+   to faith is taken from outside it; **and even so, it is contradicted by what shows the contrary — *alladhīna
+   āmanū wa-lam yalbisū īmānahum bi-ẓulmin* (6:82), which shows the accompaniment of wrong with faith in
+   some.**"
+3. **Doing the grave sin is incompatible with it, by *wa-kāna bi-l-muʾminīna raḥīman* (33:43) with *wa-lā
+   taʾkhudhukum bihimā raʾfatun* (24:2).** — **Answer**: we do not concede that the grave sin is incompatible;
+   and *raʾfah* there means **compassion not carrying you to drop Allah's bounds after they become due**.
+4. **The believer is not disgraced (*yawma lā yukhzi llāhu l-nabiyya wa-lladhīna āmanū maʿahu*, 66:8) while the
+   highway robbers are *dhālika lahum khizyun fī l-dunyā wa-lahum fī l-ākhirati ʿadhābun ʿaẓīm* (5:33) — yet
+   they are assenting.** — **Answer**: the first verse proves only the absence of disgrace in the Hereafter for
+   the believers absolutely, or for his Companions; and the second proves disgrace in this world — **and the
+   absence of the Hereafter's disgrace for faith does not entail the absence of this-worldly disgrace**.
+5. **One able to make the Pilgrimage who leaves it without excuse is an unbeliever — *wa-man kafara fa-inna
+   llāha ghaniyyun ʿani l-ʿālamīn* (3:97) — yet he assents.** — **Answer**: we do not concede the unbelief of
+   the one who leaves the Ḥajj without excuse; **and *wa-man kafara* is the beginning of a speech, or the
+   intended is the one who does not assent to the rites of the Ḥajj and denies them — and assent cannot be
+   conceived with that.**
+6. **One who does not judge by what Allah sent down assents, yet is an unbeliever by *wa-man lam yaḥkum bimā
+   anzala llāhu fa-ulāʾika humu l-kāfirūn* (5:44).** — **Answer**: the meaning is **the one who does not assent,
+   or does not judge by aught of what Allah sent down; or the intended is the Torah, by the context of what
+   precedes.**
+7. **The fornicator likewise, by "the fornicator does not fornicate while a believer" — and likewise the one
+   who leaves the prayer deliberately.** — **Answer**: it may be said: the meaning is **'he does not fornicate
+   while secure from Allah's punishment' (*āminun min ʿadhābi llāh*) — so let him fear, and not deem himself
+   safe from His plot**; or **'he does not fornicate holding it lawful while a believer'**; or **'he does not
+   fornicate while [characterized] by the believer's qualities of avoiding the forbidden'** — **and this
+   interpretation is closer than opposing the lexical usages, given its abundance over them.**
+8. **The one who mocks a prophet assents, yet is an unbeliever by consensus.** — **Answer**: we do not deny the
+   rational possibility of grave sins accompanying faith, **except that the community is agreed on declaring the
+   mocker an unbeliever — so we know by transmission the absence of assent with the occurrence of mockery**;
+   and combining work with the lexicon's positing and the community's consensus on the unbelief is better than
+   nullifying one of the two.
+9. **Doing the obligatory is the religion — *wa-mā umirū illā li-yaʿbudū llāha mukhliṣīna lahu l-dīna ḥunafāʾa
+   wa-yuqīmū l-ṣalāta wa-yuʾtū l-zakāta wa-dhālika dīnu l-qayyimah* (98:5) — and the religion is Islam — *inna
+   l-dīna ʿinda llāhi l-islām* (3:19) — and Islam is faith, for otherwise it would not be accepted from its
+   seeker — *wa-man yabtaghi ghayra l-islāmi dīnan fa-lan yuqbala minh* (3:85).** — **Answer**: the verse itself
+   separated religion and doing the obligatory by the conjunction; **and we do not concede that Islam is faith —
+   the intended by 'other than Islam' in the verse is not what differs by concept** (or prayer and alms would
+   not be accepted!), **but what differs in truth; so it may be that Islam is more general** — as in 'whoever
+   seeks other than the religious science has erred': you do not judge the seeker of *kalām* to have erred.
+10. **If it were assent, the charge-bearer could be described with it truly only at the moment of its issuing
+    from him, as with all acts — yet the sleeper and the heedless are described with it by consensus, though
+    assent is not abiding in them.** — **Answer**: **it is a shared objection: what is your answer is ours — and
+    we say: assent remains in the heart in sleep and heedlessness; the absence is only of its presence [in
+    awareness], and sleep is contrary to the first acquisition of the perception of things, not to the
+    persistence of the perception acquired in wakefulness. Even so, the Lawgiver placed the realized faith,
+    which nothing contrary befalls, in the ruling of the abiding — so the believer is a name for one who has
+    believed in the present or the past and nothing has befallen him that is the mark of denial.**
+11. **It follows that one who assents to the divinity of other than Allah be called a believer — against
+    consensus.** — **Answer**: the non-naming is **because of the particular of faith's object legally; so
+    naming him a believer is valid considering the lexical positing, and not valid considering the legal
+    usage.**
+12. **Allah described some believers in him as polytheists — *wa-mā yuʾminu aktharuhum bi-llāhi illā wa-hum
+    mushrikūn* (12:106) — whereas, were it assent, its accompaniment of *shirk* would be impossible.** —
+    **Answer**: **faith is the contrary of *shirk* by consensus, and what they mentioned is binding on every
+    *madhhab*; and we say: the faith there is lexical — for the legal [faith] considers assent to all that is
+    known to have come with him ﷺ, as we said: the polytheist who assents to a part is a believer only lexically,
+    not legally, for his violating *tawḥīd* — and the verse alludes to that.** **And their saying 'the people of
+    the tongue do not understand [assent] but the tongue's assent' is a mere claim unhelped by proof.** **Yes, no
+    doubt the one who acknowledges with the tongue alone** is called a believer lexically **because the evidence
+    of faith — the heart's assent — stands in him**, as *ghaḍbān* and *farḥān* are applied in reality because of
+    the signs indicating them; **and the rulings of faith run over him outwardly, and there is no dispute in
+    that. The dispute is only over his being a believer with Allah and the Prophet ﷺ and those after him — as
+    they used to judge the one who spoke the two shahādahs to have faith while judging the hypocrite an
+    unbeliever; so it shows that the tongue's act alone does not suffice in faith. And this is of what no two
+    rams should butt horns over.**"
+
+**And al-Alūsī's conclusion on the *īmān* question** — "**after sifting the views on this station, there has
+appeared to me no harm in what the righteous *salaf* held — namely that the word *īmān* is posited for the common
+amount (*al-qadr al-mushtarak*) between assent and works — so that its application to assent alone and to the sum
+of assent and works are both true (*ḥaqīqah*), as the consideration in a particular tree customarily is the
+common amount between its trunk and the sum of trunk, branches and leaves: so extinction is not applied to it
+while the trunk remains. Thus assent is in the station of the tree's root and works in the station of its
+branches: so as long as the root remains, faith remains.**" — **And**: "**in the *Ṣaḥīḥ*: '***Faith is
+seventy-odd branches, the highest of them the saying *lā ilāha illā llāh* and the lowest the removing of harm
+from the road***'**; **and near to this is the saying of one who said: the works are outward traces [of faith]
+caused by it, and the word faith is applied to them tropically — and there is no difference between the two views
+except that the application of the word to them is real on the first and tropical on the second, and it is a
+lexical discussion. And the preponderant of faith here is assent, as is not hidden.**"
+
+**On *al-ghayb*** — "***wa-l-ghayb* is a *maṣdar* placed in the position of the adjective (*al-waṣf*), [meaning]
+'the absent' (*ghāʾib*) — by hyperbole, making it as though it were it; and its being made passive-voiced
+(*bi-maʿnā l-mafʿūl*) is refuted, as in *al-Baḥr*: *al-ghayb* is the *maṣdar* of *ghāba*, and it is intransitive,
+from which no passive participle is built; and its being interpreted by the meaning [sc. the passive sense] —
+because the absent one is absent in himself — is contrivance without cause; or it is *faʿyal* lightened like
+*qīl* and *mayt* — and in *al-Baḥr*: that should not be claimed except in what is heard lightened and heavy.**"
+— **And the exegesis of a group**: "**here it is what does not fall under the senses and is not required by the
+immediate data of the mind — of it what has no proof set up over it and only the Subtle, the Aware knows it, like
+the knowledge of the Decree; and of it what has a proof set up over it, like the Truth — exalted — and His
+sublime attributes; for He is *ghayb*, known by whom Allah gives light in accordance with that light — and for
+this you find people differing in it, and **the friends of Allah have the fullest share of it.**" — **And**:
+"**from here it was said: the *ghayb* is the beholding of the all with the eye of the Truth** — for the servant
+may be granted nearness of the supererogatory, so **the Truth becomes his hearing with which he hears and his
+sight with which he sees**; and he rises from that to the nearness of the obligatory and becomes light; **there
+the *ghayb* is for him vision and the lost with us is with him found — and with this I do not permit it to be
+said of one who has reached that station that he knows the *ghayb*: *qul lā yaʿlamu man fī l-samāwāti wa-l-arḍi
+l-ghayba illā llāh* (27:65)**" — **with the verse *wa-qul li-qatīli l-ḥubbi waffayta ḥaqqahu • wa-li-muddaʿī
+hayhāta mā l-kuḥlu l-kuḥl*.**
+
+**What the *ghayb* here is** — "**the people differed on the intended by it here in many views, until the Shīʿah
+claimed it is the Qāʾim — and they sat back from establishing the proof of that. And what the heart leans to is
+what the Messenger ﷺ informed of in the Ḥadīth of Jibrīl — peace be upon him — namely Allah — exalted — His
+angels, His books, His messengers, the Last Day, and the Decree, its good and its evil: because the faith
+demanded by the law is that; all the more as the two descriptions after it are joined to it**" — and by
+implication the term covers the Exalted — "**and *al-ghayb* and *al-ghāʾib* is what admission (*al-ḥuḍūr*) may
+occur to; and absences (*al-ghaybah*) are of what does not harm, since in it there is no applying it to Him in
+particular — so it is not of the kind of naming; and even so we do not concede that the *ghayb* is only used of
+what admission may occur.**" — **And**: "**some of the people of knowledge differentiated between *al-ghayb* and
+*al-ghāʾib* — saying: Allah is *ghayb* and not *ghāʾib*; intending by *al-ghāʾib* what does not see you and you
+do not see it, and by *al-ghayb* what *you* do not see.**" — "**And it is not far that it be said by way of
+predominance (*al-taghlīb*), so that the faith of the Companions in him ﷺ enter — for he was not *ghayb* in
+relation to them** — **or: faith in him ﷺ returns to faith in his message, since there is no meaning to faith in
+him himself stripped of the aspects; and his message is *ghayb* over which proof is set up as it is set up for
+us, though we differ by report and eyewitness** — **or: it is of the assignment of what belongs to some to the
+all tropically** (as 'the Banū so-and-so killed so-and-so'); **or the intended is that they believe in the
+*ghayb* as they believe in the witnessed, so the seen and the unseen are equal with them.**"
+
+**And Abū Muslim al-Iṣfahānī chose**: "**that these God-fearing believe in the *ghayb* — i.e. in the state of
+absence from you — as they believe in the state of presence, not like the hypocrites: *wa-idhā laqū lladhīna
+āmanū qālū āmannā wa-idhā khalaw ilā shayāṭīnihim qālū innā maʿakum innamā naḥnu mustahziʾūn* (2:14) — **so it
+is on the pattern of *dhālika li-yaʿlama annī lam akhunhu bi-l-ghayb* (12:52); and it may be that the intended is
+the state of the absence of the believed-in one** — **for in *Sunan al-Dārimī*, from Ibn Masʿūd — may Allah be
+pleased with him — that al-Ḥārith b. Qays said to him: *'With Allah we count the recompense of what you have gone
+ahead of us in — of seeing the Messenger of Allah ﷺ.'* So Ibn Masʿūd said: **'With Allah we count the recompense
+of your faith in Muḥammad ﷺ while you have not seen him. The affair of Muḥammad ﷺ was clear to one who saw him.
+By Him other than whom there is no god, no one has a faith better than faith in the unseen.'** Then he recited
+*Alif Lām Mīm • Dhālika l-kitābu lā rayba fīhi hudan li-l-muttaqīn* to His saying *al-mufliḥūn*.**" — **And
+al-Alūsī's own note**: "**and it does not follow from the preferring of one faith over another in one aspect that
+[the possessor of one] is preferred over [the possessor of the other] in all aspects — for preference differs by
+relations and considerations; and there may be found in the less preferred what is not in the preferred. And
+would that Ibn Masʿūd had stilled al-Ḥārith's burning with what came from him ﷺ *marfūʿan*: '***How excellent a
+people who will be after you, believing in me while they have not seen me***' — and how much he would have
+sufficed with what he answered! For by it the Companions would be outside this universality in this verse, as his
+recitation of it for proof indicates — and some of the people of knowledge held it. **And I do not incline to
+that.**"
+
+**And it is said**: "**the intended by *al-ghayb* is the heart — *they believe with their hearts*, unlike those
+who say with their mouths what is not in their hearts.**" — **And the *bāʾ***: "**on the first [sc. the *ghayb*
+as object] for transitivity; on the second and third for accompaniment (*al-muṣāḥabah*); on the fourth for
+instrument (*al-ālah*).**"
+
+***Wa-yuqīmūna l-ṣalāh*** — "**from *al-iqāmah*: it is said *aqamtu l-shayʾa iqāmatan* when you have fulfilled
+its right** — as in *lastum ʿalā shayʾin ḥattā tuqīmū l-tawrāta wa-l-injīl* (5:68), i.e. **you fulfil their right
+by knowledge and work. And the meaning of 'they establish the prayer' has four faces**: (1) **they set its
+*arkān* straight** — by performing it comprehensive of the obligatory and the necessary, or of these with the
+etiquettes and sunnahs — **from *aqāma l-ʿūd* when he straightened it**; (2) **they persevere and are constant
+in it** — **from *qāmat al-sūq* when it thrived, and *aqamtuhā* when you made it thrive**; (3) **they gird
+themselves to perform it without slackening or languor** — **from *qāma bi-l-amr* and *aqāmahū* when he exerted
+himself in it**; (4) **they perform and do it — and He expressed it as *iqāmah* because the standing (*qiyām*)
+is part of its *arkān*.**" — **And the rhetorical analysis**: "**in the first two of these there is a dependent
+metaphor (*istiʿārah tabaʿiyyah*) — the first likening the straightening of the *arkān* to the straightening of a
+rod, then borrowing *iqāmah* from the levelling of bodies to the levelling of meanings; and on the last two a
+*mursal majāz*.**" — **And**: "**to the preference of the first of the faces a group inclined — because it is
+clearer, nearer to the reality and more profitable, and it is what is transmitted from the *tarjumān* of the
+Qurʾān Ibn ʿAbbās — may Allah be pleased with them both — as Ibn Jarīr and Ibn Abī Ḥātim brought out from him by
+several routes; and perhaps that is by instruction (*tawqīf*) from the Messenger of Allah ﷺ, or a carrying of
+Allah's speech on its best construction — since it suits the order of complete guidance and all-embracing
+success, and in it is great praise and universal commendation.**" — **And the ḥadīth comparison**: "**and the last
+face is determined — as is said of the ḥadīth '***I have been commanded to fight the people until they testify
+that there is no god but Allah and that Muḥammad is the Messenger of Allah, and establish the prayer and bring
+the alms; when they do that, they have protected from me their blood and their wealth, except by the right of
+Islam***' — [that] it does not harm the first's preponderance in the eternal speech; since had that been intended
+He would have said '*yuṣallūna*', and the turning away from the shorter and clearer without benefit does not
+occur in eloquent speech — let alone the most eloquent of speech; and to every station belongs its speech.**"
+
+**And *al-ṣalāh*** — "**lexically, with some, in the sense of supplication (*al-duʿāʾ*)** — **and from it his
+saying ﷺ '***When one of you is invited to food, let him answer; and if he is fasting, let him pray***' — and
+with the people of the law it is used for the one possessing the *arkān*, because it is a supplication with the
+three tongues: the state, the act and the speech. And the well-known in the *uṣūl al-fiqh* is that the Muʿtazilah
+hold these and their like to be newly coined legal realities, because they are transferred from lexical meanings;
+al-Qāḍī Abū Bakr of us that they are well-known lexical metaphors that did not become realities; and the great
+majority of the companions [of the school] that they are legal realities transferred from lexical meanings. And
+Abū ʿAlī — and al-Suhaylī preferred it — [held] that the *ṣalāh* is from *al-ṣalawān*, two veins in the back,
+because the first thing observed of its states is their movement in bowing; and Ibn Jinnī approved it; and the
+one supplicating is called *muṣallin* by likening him in his humility to the bowing and prostrating; and it is
+said: *al-ṣalāh* was taken from that because it came second to faith, so it was likened to the second-place horse
+(*al-maṣlī*) in the race. And the Imām [al-Rāzī] denied the derivation from *al-ṣalawān*, resting on *al-ṣalāh*'s
+being among the most famous words, so its derivation from the unfamous is of extreme remoteness — **and I almost
+agree with him, though it be said that the lack of fame does not impugn transmission** — **and it is said: from
+*ṣalaytu l-ʿaṣā*, when you straightened it by the fire (*al-ṣalī*), so the one praying is as though he seeks the
+straightening of his outward and inward as one seeks the straightening of a piece of wood by presenting it to
+the fire.**" — **And the script**: "**the *maṣāḥif* agree on writing the *wāw* in place of the *alif* in
+*mishkāh, najāh, manāh, ṣalāh, zakāh, ḥayāh*, where they are singular, alone, definite with the *lām* — and on
+writing the annexed of them as *ṣalātī* with the *alif* — and it was dropped from some of the ʿUthmānic copies;
+and they agreed on writing the plural of them with the *wāw* according to the pronunciation. Al-Juʿbarī said: the
+face of writing the *wāw* is the indication that its origin from which it was turned is a *wāw*, and it is a
+following for magnification — and this is the sense of Ibn Qutaybah's saying: some Arabs incline the *alif*
+toward the *wāw*; **and I did not choose the justification by it, because of its non-occurrence in the Great
+Qurʾān and the speech of the eloquent.**"
+
+**And what is intended by the *ṣalāh* here** — "**the obligatory prayer — the five — as Muqātil said; or the
+obligatory and the supererogatory, as the majority said; and the first is what is transmitted from Ibn ʿAbbās. And
+the Imām [al-Rāzī] claimed that it is the intended, because it is what success (*al-falāḥ*) falls upon: for he ﷺ,
+when he explained to the bedouin the description of the obligatory prayer, said [the bedouin]: '***By Allah, I
+shall not add to it nor subtract from it***' — and he ﷺ said: '***The bedouin has succeeded if he spoke the
+truth***.'**"
+
+***Wa-l-rizq*** — "**with *fatḥ*, lexically, is the giving of what the animal benefits by; and it is said: it
+includes other than it, like plants; and with *kasr* it is a noun from it, and a *maṣdar* too on a view; and it is
+said: the origin of *rizq* is the lot (*al-ḥaẓẓ*), and it is used in the sense of the provided thing benefited
+by, and in the sense of property, and in the sense of gratitude with [the tribe of] Azd.**" — **And legally**:
+"**the theologians differed on its meaning: what the Ashʿarīs rely on is what Allah drives to the animal and it
+benefits by, whether lawful or unlawful — of foods, drinks, clothing or other; and the well-known is that it is a
+name for what Allah drives to the animal to be nourished by. On the first, the borrowed things (*al-ʿawārī*)
+would be *rizq*, because they are of what Allah drove to the animal and it benefited by — and their being *rizq*
+thereafter is according to custom, as is not hidden; and it also follows that a person eats another's *rizq*,
+since it is possible for the other to benefit by it by eating — **except that the verse accords with it**, since
+the benefit may be from the side of spending on others, unlike the second definition.**" — **And the Muʿtazilah**:
+"**they interpreted it in the well-known [view], at times as what Allah gave His servant and enabled him to
+dispose of; at times as what Allah gave him for his subsistence and survival specifically; and since the
+reference to Allah — exalted — is considered in its meaning, and that none provides (*rāziq*) but Allah, and
+that the servant deserves blame and punishment for eating the unlawful — while what is referred to Allah — mighty
+and majestic — is not, with them, ugly, nor is its doer deserving of blame and punishment — they said: *rizq* is
+the lawful, and the unlawful is not *rizq*.**" — **And**: "**to that al-Jaṣṣāṣ of us went in his *Aḥkām
+al-Qurʾān*. And with us, all is from Him and by Him and to Him — *qul kullun min ʿindi llāh* (4:78) — and no
+might nor power but with Allah, and to Allah all matters return; and the blame and punishment are for the bad
+undertaking of the causes by choice. Yes, **adab is the best capital of the believer**: so nothing should be
+attributed to Him — glorified — but the best — as Ibrāhīm — peace be upon him — said: *wa-idhā mariḍtu fa-huwa
+yashfīn* (26:80), and He — exalted — said: *anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim* (1:7). So the unlawful is
+*rizq* in the reality of the matter, but we discipline ourselves in attributing it to Him — glorified.**" — **And
+the proof**: "**what Ibn Mājah, Abū Nuʿaym and al-Daylamī brought out from Ṣafwān b. Umayyah, who said: '***ʿAmr b.
+Qurrah came and said: O Messenger of Allah, Allah has written misery over me, so I do not see myself provided
+except from what I earn with my own hand? — so permit me wealth from other than an indecency. He ﷺ said: There is
+no permission for you, nor honour, nor blessing. You lied, O enemy of Allah! Allah — the Exalted — has provided
+you lawful and goodly provision, but you chose what Allah made unlawful for you of His provision instead of what
+Allah made lawful for you of His***'** — **and its being carried on *mushākalah* [sc. that 'rizq' there means the
+lawful], like the claim that his saying '***you chose***' etc. admits his being *rizq* for the one to whom it was
+made lawful, so the inference drops — is contrary to the apparent extremely; and such a claim, if it undermines
+inference, no proof remains on the face of the earth; and attacking the *isnād* is not accepted without basis —
+and it is the *manāṭ* of al-Thurayyā, as is not hidden.**" — **And al-Bayḍāwī's proof rebutted**: "**the
+inference on this question as al-Bayḍāwī and others made it — that if the unlawful were not *rizq*, the one
+nourished by it all his life would not be provided for — is nothing, because the Muʿtazilah may not restrict
+*rizq* to food, but suffice with the absolute benefit, not the actual benefit but capability; so the proof is not
+complete unless it be supposed that such a person did not benefit from the time of his birth to the time of his
+death by anything lawful — no suckling at a breast, no drink of permissible water, no look at a beloved, no
+joining to a sought thing, not even capability for that; and custom dictates its non-existence**" — and: **the
+answer to the objection about one who lives a day and dies before eating lawful or unlawful is the same answer as
+theirs to us**; and: "**the verse does not show that Allah delivers everything everyone benefits by to him — the
+reality is contrary to that — but it shows that He drives provision and enables benefit: so if the turning away
+from the lawful to the unlawful occurs, it does not impugn His providence's realization**"; **and the best
+inference is consensus before the appearance of the Muʿtazilah, that one who eats the unlawful all his life is
+provided with that unlawful all his life — and the apparent texts witness that provision is divided into the good
+and the bad, and they suffice in such a question; and the root on which the restriction was built was left by Ahl
+al-Sunnah a smooth plain.**"
+
+***Wa-l-infāq*** — "**is *al-infād*: it is said *anfaqtu l-shayʾa* and *anfadtuhu* with one meaning, the *hamzah*
+for transitivity; and the root of the matter indicates going out and going away — **and from it *nāfaqa*,
+*al-nāfiqāʾ* and *nafaqa*.**" — **And the fronting of the object** (*wa-mimmā razaqnāhum*): "**He — glorified —
+put the object first out of concern with what Allah has allotted the servant, or because it precedes the spending
+in the outward [order], and for the accord of the rhymes (*al-fawāṣil*).**" — **And**: "**the *rizq* intended
+here is the lawful, because it is in the position of describing the God-fearing; and there is no praise in
+spending the unlawful either.**" — "**It is said: the jurists' saying is not rebutted — that when wealth gathers
+with one who does not know its owner, one ought to give it in charity, and if he finds its owner he gives him its
+value or its like — that this spending is rewardable, because when he did it by the Lawgiver's permission he
+deserved praise: for when he did not know its owner he had disposal over it, and by the guarantee it passed into
+his property and the sanctity turned to its price**" — **and the discussion of good done with a usurped known
+property, as **Ibn al-Qayyim** recounted in *Badāʾiʿ al-Fawāʾid***: "**Ibn ʿAqīl held there is no reward for the
+usurper in it, because he is sinful; nor for the wealth's owner, because he has no intention — and there is no
+reward without it; and there is only the taking from the usurper's good deeds according to the amount of his
+wealth; and it is said: it is a benefit that occurred by his wealth and was generated from it, and its like is
+rewarded — as the righteous child is rewarded for though he did not intend it; and the speech of some — and it is
+of the strangest — gives the sense that the usurper too is rewarded if he spends it in good, though he
+transgressed, and there is retaliation from his good deeds for his taking — because if he sinned by it he would
+be punished twice, once for the usurpation and once for the sin; so when he does good with it, he should be
+rewarded — *fa-man yaʿmal mithqāla dharratin khayran yarah* • *wa-man yaʿmal mithqāla dharratin sharran yarah*
+(99:7–8).**" — **And**: "**his saying ﷺ '***Allah does not accept a charity from *ghulūl*
+(misappropriation)***' and '***Allah is goodly and accepts only the goodly***' does not contradict that, because
+the outcome of what is mentioned is that the reward is for the very turning from spending in disobedience to
+spending in what is in itself obedience — not for the charity itself with unlawful wealth as such; and the
+difference is subtle, guided to only by divine favour.**"
+
+**And the *infāq* here** — "**it is differed over: and it is said — and it is the more likely — the spending of
+wealth in the paths of goods; **or the giving of the outward and inward bounties — and knowledge not concealed,
+like a treasure from which nothing is spent**; and from Ibn ʿAbbās: the alms (*al-zakāh*); and from him and from
+Ibn Masʿūd: the spending on the family; and from al-Ḍaḥḥāk: the supererogatory before the alms were made
+obligatory, or spending in *jihād*. And perhaps these views are illustrations of the spent thing, with no
+disagreement — and some made them disagreement, preferring its being the obligatory alms because of its being
+joined with the prayer in several places of the Qurʾān; and the partitive *min* then is of what is not asked
+about its secret, since the obligatory alms is not of all wealth. And when the intended by *infāq* is its absolute
+generality, the benefit of the partitive is the indication that **spending part of the wealth suffices for the
+spender's being described with guidance and success, and does not depend on spending all the wealth. And Mawlānā
+al-Bayḍāwī's saying, following al-Zamakhsharī, that [the *min*] is for the restraining from the forbidden
+extravagance — is restricted to one who has no patience for poverty and does not swallow the bitterness of want;
+otherwise, **the *Ṣiddīq* — may Allah be pleased with him — gave all his wealth in charity and he ﷺ did not
+disapprove of it, for his knowledge of his patience and his insight into what settled in his breast. And from
+here, when it was said to **al-Ḥasan b. Sahl**: 'there is no good in extravagance,' he said: '***There is no
+extravagance in good***.'**" — **And**: "**it is said: the subtle point in bringing in the partitive *min* is
+that *rizq* is more general than the lawful and the unlawful, so it was brought in as a notice that the
+considered spending is what is from the lawful — and it is a part of *rizq*.**"
+
+**The grammar of the verse** — "**and *mā* in the verse is either relative (*mawṣūlah*) or *maṣdariyyah* or
+descriptive (*mawṣūfah*), and the first is more likely — with its connective deleted; and the objection was put —
+that if it is supposed attached (*muttaṣil*) two pronouns of one rank must join, and separation in its like is
+obligatory; and if supposed detached (*munfaṣil*) its deletion is impossible, since they made the mention of the
+detached obligatory, reasoning that it was only detached for a purpose. **And it is answered on each choice**: on
+the first, that when the two pronouns differ in plurality and singularity their joining is permitted** — **as his
+saying *li-wajhika fī l-iḥsāni basṭun wa-bahjatun • anā lahumāhu qafwu akrami wālid*; and, further, preventing it
+in speech entails preventing it supposed, since the verbal ugliness is gone** — **and on the second, that what is
+prevented from deletion is what was detached for a semantic purpose like restriction (*al-ḥaṣr*), not
+absolutely**, as Ibn Hishām said in *al-Jāmiʿ al-Ṣaghīr* and others indicated. **And *min* was written joined to
+*mā* with the *nūn* deleted, because the preposition and its object are as one thing, and the *nūn* is deleted in
+speech, so deletion suits the script** — as said in *al-Baḥr*." — **And**: "**He — glorified — made the
+relatives' *ṣilah*-verbs present-tense and did not make the relative [an *al*-clause] joined to the active
+participle, because the present, as some mentioned, gives the sense of renewal and occurrence with the continued
+renewal in it; **and these descriptions are renewed in the God-fearing, while the active participle with them is
+not so.**" — **And the ordering of the descriptions**: "**and this ordering was arranged because works are either
+of the heart — and the greatest of them the belief in the reality of *tawḥīd*, prophethood and the Return, without
+which works would be a mirage of a plain (*ka-sarābin bi-qīʿatin*) — or bodily, and their root the prayer, because
+it is the separator between unbelief and Islam, the pillar of the religion, the *miʿrāj* of the monotheists, and
+the mother from which the rest of goods and piety branch **— and for this he ﷺ said: '***My eye's delight has
+been placed in the prayer***'; and Allah — exalted — applied the name of faith to it, as a group of the exegetes
+said of His saying *wa-mā kāna llāhu li-yuḍīʿa īmānakum* (2:143)** — **or monetary, which is the spending for
+Allah's face, and it is what, when found, evidences constancy in faith. And these three differ in rank, so He —
+glorified — ordered them, putting the more important and the more binding first: because faith is binding on the
+charge-bearer at every instant, the prayer in most times, and spending in some states — so understand that, and
+Allah takes charge of your guidance.**"
+
+### V4 · Qurʾān cross-references (*tafsīr al-Qurʾān bi-l-Qurʾān*)
+
+**Al-Alūsī.** Within the record: *a-nuʾminu laka* (26:111) — the *lām*; *ulāʾika kataba fī qulūbihimu l-īmān*
+(58:22) • *wa-lammā yadkhuli l-īmānu fī qulūbikum* (49:14) • *wa-qalbuhu muṭmaʾinnun bi-l-īmān* (16:106) —
+faith's seat; *inna lladhīna āmanū wa-ʿamilū l-ṣāliḥāt* (2:277) — the conjunction of works on faith; *wa-man
+yaʿmal mina l-ṣāliḥāti wa-huwa muʾmin* (20:112) — faith the condition; *wa-in ṭāʾifatāni mina l-muʾminīna
+qtatalū* (49:9) — faith with one who has left some works; *wa-lākinna llāha ḥabbaba ilaykumu l-īmān* (49:7) and
+*alladhīna āmanū wa-lam yalbisū īmānahum bi-ẓulmin* (6:82) — the *fusūq* question; *wa-kāna bi-l-muʾminīna
+raḥīman* (33:43) with *wa-lā taʾkhudhukum bihimā raʾfatun* (24:2) • *yawma lā yukhzi llāhu l-nabiyya wa-lladhīna
+āmanū maʿahu* (66:8) with *dhālika lahum khizyun fī l-dunyā* (5:33) — objections 4–5; *wa-man kafara fa-inna
+llāha ghaniyyun ʿani l-ʿālamīn* (3:97) — the Ḥajj objection; *wa-man lam yaḥkum bimā anzala llāhu* (5:44) — the
+judging objection; *wa-mā umirū illā li-yaʿbudū llāha…* (98:5) with *inna l-dīna ʿinda llāhi l-islām* (3:19) and
+*wa-man yabtaghi ghayra l-islāmi dīnan* (3:85) — religion vs works; *wa-mā yuʾminu aktharuhum bi-llāhi illā
+wa-hum mushrikūn* (12:106) — objection 12; *qul lā yaʿlamu man fī l-samāwāti wa-l-arḍi l-ghayba illā llāh*
+(27:65) — the *ghayb*; *wa-idhā laqū lladhīna āmanū…* (2:14) — the hypocrites; *dhālika li-yaʿlama annī lam
+akhunhu bi-l-ghayb* (12:52) — Abū Muslim's construction; *lastum ʿalā shayʾin ḥattā tuqīmū l-tawrāta wa-l-injīl*
+(5:68) — *iqāmah*; *qul kullun min ʿindi llāh* (4:78) and *wa-idhā mariḍtu fa-huwa yashfīn* (26:80) — the *rizq*
+question; *ka-sarābin bi-qīʿatin* (24:39) — works without faith; *wa-mā kāna llāhu li-yuḍīʿa īmānakum* (2:143) —
+the prayer named faith; *fa-man yaʿmal mithqāla dharratin* (99:7–8) — the usurper's question.
+
+### V5 · Prophetic traditions (ḥadīth)
+
+**Al-Alūsī.**
+
+> **1.** **The Ḥadīth of Jibrīl** — "**what the Messenger ﷺ informed of: Allah, His angels, His books, His
+> messengers, the Last Day, and the Decree, its good and its evil**" — al-Alūsī's choice for the *ghayb* of the
+> verse.
+> **2.** "***How excellent a people who will be after you, believing in me while they have not seen me***"
+> (*niʿma qawmun yakūnūna baʿdakum yuʾminūna bī wa-lam yarawnī*) — *marfūʿ*, which al-Alūsī says Ibn Masʿūd
+> would better have answered al-Ḥārith with (V2).
+> **3.** "***Faith is seventy-odd branches, the highest of them the saying *lā ilāha illā llāh* and the lowest
+> the removing of harm from the road***" — in the *Ṣaḥīḥ* (V2, the *salaf*'s view).
+> **4.** "***I have been commanded to fight the people until they testify that there is no god but Allah and
+> that Muḥammad is the Messenger of Allah, and establish the prayer and bring the alms; when they do that, they
+> have protected from me their blood and their wealth, except by the right of Islam***" (V2, on *iqāmah*).
+> **5.** "***When one of you is invited to food, let him answer; and if he is fasting, let him pray***" — for
+> *al-ṣalāh*'s lexical sense of supplication (V2).
+> **6.** "***My eye's delight has been placed in the prayer***" (V2, the ordering of the descriptions).
+> **7.** "***By Allah, I shall not add to it nor subtract from it***" — the bedouin on the obligatory prayer,
+> with the Prophet's "***The bedouin has succeeded if he spoke the truth***" (V2, Ibn ʿAbbās's view).
+> **8.** "***Allah does not accept a charity from misappropriation***" and "***Allah is goodly and accepts only
+> the goodly***" — on the usurped wealth (V2).
+> **9.** The **Ṣafwān b. Umayyah** ḥadīth, from **Ibn Mājah**, **Abū Nuʿaym** and **al-Daylamī**:
+> "***ʿAmr b. Qurrah came and said: O Messenger of Allah, Allah has written misery over me, so I do not see
+> myself provided except from what I earn with my own hand? — so permit me wealth from other than an indecency.
+> He ﷺ said: There is no permission for you, nor honour, nor blessing. You lied, O enemy of Allah! Allah — the
+> Exalted — has provided you lawful and goodly provision, but you chose what Allah made unlawful for you of His
+> provision instead of what Allah made lawful for you of His***" — the proof of the unlawful's being *rizq*
+> (V2).
+
+### V6 · Companions & Successors (āthār)
+
+**Al-Alūsī.**
+
+* **ʿAlī — may Allah be pleased with him** — "**faith is knowledge, and knowledge is submission, and submission
+  is assent**" — al-Alūsī's support for the *madhhab* of assent (V2).
+* **Ibn ʿAbbās, the *tarjumān* of the Qurʾān** — the first of the four faces of *iqāmah* "**as Ibn Jarīr and
+  Ibn Abī Ḥātim brought out from him by several routes**" (V2) — and the view that the *ṣalāh* meant is the
+  obligatory five.
+* **Ibn Masʿūd** — the *Sunan al-Dārimī* report of **al-Ḥārith b. Qays** and his answer — "**by Him other than
+  whom there is no god, no one has a faith better than faith in the unseen**" — then his recitation of the
+  sūrah's opening to *al-mufliḥūn* — and his view that the *infāq* of the verse is spending on the family;
+  "**and would that Ibn Masʿūd had stilled al-Ḥārith's burning with what came from him ﷺ *marfūʿan*** … **and I
+  do not incline to that**" (V2).
+* **The *Ṣiddīq*** — "**he gave all his wealth in charity and he ﷺ did not disapprove of it, for his knowledge
+  of his patience**" (V2, against the *min*'s being for the restraint from extravagance).
+
+### V7 · Exegesis of the classical mufassirūn (*aqwāl al-mufassirīn*)
+
+**Al-Alūsī** — named as he cites them: **Ibn Jarīr** and **Ibn Abī Ḥātim** (Ibn ʿAbbās's face of *iqāmah*);
+**the author of *al-Baḥr*** (on *al-ghayb*'s *maṣdar*; on *min mā*'s script; on the present-tense *ṣilah*);
+**al-Rāzī** (denying the *al-ṣalawān* derivation; restricting the *ṣalāh* to the obligatory five; the circularity
+question in *īmān*); **Ibn Jinnī** (approving the *al-ṣalawān* derivation); **al-Suhaylī** (preferring it);
+**Abū ʿAlī** (its origin); **al-Qāḍī Abū Bakr** (the *ṣalāh* as well-known lexical metaphors); **the Muʿtazilah
+and al-Jaṣṣāṣ** (*al-rizq* is the lawful alone — **and al-Alūsī's rebuttal: "with us, all is from Him and by Him
+and to Him"**); **al-Bayḍāwī** (the proof from *wa-mā min dābbatin* — "nothing" — and the restraint of *min*);
+**al-Zamakhsharī** (following him); **al-Ḥasan b. Sahl** — "there is no extravagance in good"; **Ibn al-Qayyim**
+(*Badāʾiʿ al-Fawāʾid*) and **Ibn ʿAqīl** (the usurper's reward); **Ibn Hishām** (*al-Jāmiʿ al-Ṣaghīr*, on the
+deleted detached pronoun); **al-Juʿbarī** and **Ibn Qutaybah** (the *wāw* in the scripture); **al-Ṭībī** (the
+*kināyah talwīḥiyyah* in the *iqāmah* face); **Ibn al-Humām** (the Ashʿarīs' agreement on the necessary belief in
+future acknowledgment); **al-Karāmiyyah**, **al-Najjār**, **the Khawārij**, **al-ʿAllāf**, **ʿAbd al-Jabbār**,
+**al-Jubbāʾī and his son**, **al-Qalānisī** (the *madhāhib* of *īmān*).
+
+### V8 · Language, lexicon & grammar (*lughah · iʿrāb · balāghah*)
+
+**Al-Alūsī.** All of the above: *īmān*'s derivation (*ifʿāl* from *al-amn*), its transitivity with *lām* and
+*bāʾ*, its *wuthūq* sense; *al-ghayb* as *maṣdar* in the adjective's position or *faʿyal* lightened (and
+*al-Baḥr*'s strictures); *iqāmah*'s four faces with the *istiʿārah tabaʿiyyah* / *majāz mursal* analysis, and the
+preference for the first; *al-ṣalāh*'s lexical sense of *duʿāʾ* and the *uṣūl* dispute on legal realities vs
+lexical metaphors; *al-ṣalawān*'s disputed derivation; the ʿUthmānic *wāw* script with **al-Juʿbarī**'s and
+**Ibn Qutaybah**'s explanations; *rizq*'s lexical senses (the lot, the provided thing, property, gratitude with
+Azd); ***mā***'s three parsings (relative — the more likely — *maṣdariyyah*, descriptive) with the
+joined-pronoun answer (and its poetic witness *li-wajhika fī l-iḥsāni basṭun wa-bahjatun…*) and the deleted
+*nūn*'s script; the present-tense *ṣilah* for renewal; the ordering of the three descriptions (heart, body,
+wealth) with the argument that the more important precedes — **and the rhetorical point of the fronting
+(*wa-mimmā razaqnāhum*) and the partitive *min***; *al-infāq* as *al-infād* with the root's sense of going out
+(*nāfaqa*, *al-nāfiqāʾ*).
+
+### V9 · Variant readings (*qirāʾāt*)
+
+**Al-Alūsī.** **Abū Jaʿfar** and **ʿĀṣim** — in the transmission of **al-Aʿshā from Abū Bakr** — read
+***yuʾminūna*** with the *hamzah* dropped — "**and likewise every silent *hamzah*; indeed they often drop many
+a vowelled one, like *lā yuʾākhidhukum* and *yuʾayyidu bi-naṣrih***" — and: "**the detail of Abū Jaʿfar's
+*madhhab* is long. As for **Abū ʿAmr**, he drops every silent *hamzah* unless its silence is the mark of the
+*jazm* — like *yahyiʾ lakum* and *wa-nabbiʾhum* and *iqraʾ kitābak* — for he does not drop the *hamzah* in those;
+and it is also related from him [that he keeps] the *hamzah* in the silent [cases]. As for **Nāfiʿ**, he drops
+every silent and vowelled *hamzah* when it is the *fāʾ* of the verb — like *yuʾminūna* and *lā yuʾākhidhukum*.
+And **al-Kisāʾī**'s and **Ḥamzah**'s readings differed, and each has a *madhhab* whose mention is long.**"
+
+### V10 · Juristic rulings (*aḥkām*)
+
+**Al-Alūsī.** The *ṣalāh* intended: "**the obligatory five — as Muqātil said, and it is what is transmitted from
+Ibn ʿAbbās — or the obligatory with the supererogatory, as the majority said**," with the Imām's *(al-Rāzī's)*
+argument from the bedouin's report (V2). The *infāq* intended: "**spending in the paths of goods**" (the more
+likely), **or the outward and inward bounties**, **or the alms (*al-zakāh*)** — from Ibn ʿAbbās — **or the
+spending on the family** — from him and Ibn Masʿūd — **or the supererogatory before the *zakāh*'s being made
+obligatory, or the spending in *jihād*** — from al-Ḍaḥḥāk; and the preference of "the obligatory alms because of
+its being joined with the prayer in several places" (V2). **The *rizq* question's legal bearing** — the Ashʿarī
+position (**the unlawful is *rizq***) against al-Jaṣṣāṣ and the Muʿtazilah (**the unlawful is not *rizq***) —
+with al-Alūsī's resolution: "**the unlawful is *rizq* in the reality of the matter, but we discipline ourselves
+in attributing it to Him**" (V2). **And the wealth whose owner is unknown** — the jurists' ruling that one gives
+it in charity and repays the owner its value if found — with the reward discussion (V2, **Ibn al-Qayyim**,
+**Ibn ʿAqīl**).
+
+### V11 · Creed & theology (*ʿaqīdah*)
+
+**Al-Alūsī.** The chapter of the verse, as he treats it: (1) **the definition of *īmān*** — assent (*taṣdīq*) by
+the verifiers' majority, with the Ashʿarī/Aḥnaf dispute over the acknowledgment's necessity, the Karāmiyyah's
+tongue-only, the Muʿtazilī and Khārijī reductions of faith to obedience, and the *ḥadīth* people's
+heart-tongue-limb formula (V2); (2) **the twelve objections and answers**, ending with his own *salaf*-preferred
+resolution: **the word *īmān* is posited for the common amount between assent and works — the assent the root,
+the works the branches** — with the *Ṣaḥīḥ* ḥadīth of the seventy-odd branches (V2); (3) **the *ghayb*** — what
+the senses and the mind's immediacy do not reach, including the Decree, the Truth and His attributes — with the
+warning against claiming its knowledge (*qul lā yaʿlamu man fī l-samāwāti wa-l-arḍi l-ghayba illā llāh*) and the
+note that "**the friends of Allah have the fullest share of it**" (V2); (4) **the Muʿtazilī thesis on *rizq*** —
+"the unlawful is not *rizq*" — answered by *qul kullun min ʿindi llāh* and by the **Ṣafwān** ḥadīth (V2); (5) and
+the **Shīʿah's claim that the *ghayb* is "the Qāʾim"**, recorded and dismissed — "**they sat back from
+establishing the proof of that**" (V2).
+
+### V15 · Wisdom, counsel & moral admonition (*ḥikam · tadabbur*)
+
+**Al-Alūsī.** The counsels the section carries: "**adab is the best capital of the believer; so nothing should be
+attributed to Him — glorified — but the best**" (V2, against the Muʿtazilī *rizq* thesis); "**there is no
+extravagance in good**" — **al-Ḥasan b. Sahl** (V2); "**the difference [between reward for the good done with
+unlawful wealth and its like] is subtle, guided to only by divine favour**" (V2); and his own *adab* of reading:
+"**I do not incline to that**" — on excluding the Companions from the *ghayb*'s universality (V2); and on the
+*iqāmah*: "**to every station belongs its speech**" (V2).
+
+_Coverage: V1, V2, V4, V5, V6, V7, V8, V9, V10, V11, V15._
