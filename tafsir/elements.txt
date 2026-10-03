@@ -1,0 +1,75 @@
+ELEMENTS IN ILLUMINATING DISCOURSES ON THE NOBLE QUR’AN (TAFSĪR ANWĀR AL-BAYĀN)
+================================================================================
+
+Below is the complete list of elements found across Illuminating Discourses on the Noble Qur’an (Tafsīr Anwār al-Bayān by Muftī Muḥammad ʿĀshiq Ilāhī al-Bulandshahrī al-Madanī), grouped into Sūrah-Level and Verse Elements, followed by how they map to the categories used in this repository.
+
+---
+
+### I. Sūrah-Level Elements (Introduction to Each Chapter)
+
+1. **Sūrah Identification, Names & Titles (*Asmāʾ al-Sūrah*)**
+   - The primary name and any additional titles of the sūrah (particularly those established in the Qur’an or Hadith), along with the reason it carries those names.
+2. **Period & Place of Revelation (*Makkī* vs. *Madanī*)**
+   - Whether the sūrah (or specific verses within it) was revealed before or after the *Hijrah*, along with scholarly consensus or differences on its classification.
+3. **Verse, Word & Letter Counts (*ʿAdad al-Āyāt*)**
+   - Statistical summary of the number of verses (*āyāt*), words, and letters, or *rukūʿāt* (thematic sections).
+4. **Virtues & Merits of the Sūrah (*Faḍāʾil al-Sūrah*)**
+   - Authentic Prophetic narrations and Companion reports detailing the reward, spiritual rank, healing (*ruqyah*), or protection associated with reciting the sūrah.
+5. **Central Theme & Summary of Contents (*Maqāṣid* / Synopsis)**
+   - An overview of the core message, major subjects, and objectives of the chapter.
+6. **Thematic Coherence & Connection (*Munāsabah* / *Naẓm*)**
+   - How the sūrah connects thematically to the preceding sūrah and how its internal sections flow together.
+
+---
+
+### II. Verse Elements
+
+1. **Qur’anic Text & Translation**
+   - The Arabic verse followed by a clear, straightforward English translation.
+2. **Running Expository Commentary (*Bayān* / Phrase-by-Phrase Explanation)**
+   - Unpacking the plain meaning of the verse phrase by phrase, clarifying implied words, and showing how each clause builds on the previous one.
+3. **Context & Occasion of Revelation (*Asbāb al-Nuzūl*)**
+   - The historical background, specific incident, or question posed to the Prophet ﷺ that prompted the revelation of the verse, anchoring the text in its historical setting.
+4. **Qur’an Cross-References (*Tafsīr al-Qurʾān bi-l-Qurʾān*)**
+   - Explaining the verse through other verses of the Qur’an that elaborate on a brief statement, qualify a general one, or echo the same theme elsewhere in the Book.
+5. **Prophetic Traditions (*Ḥadīth*)**
+   - Sayings, actions, and approvals of the Prophet ﷺ that explain, illustrate, or apply the verse—cited with their Hadith collections (e.g., *Ṣaḥīḥ al-Bukhārī*, *Ṣaḥīḥ Muslim*, *Abū Dāwūd*, *al-Tirmidhī*, *al-Nasāʾī*, *Ibn Mājah*, *Musnad Aḥmad*, *al-Bayhaqī*, *al-Ṭabarānī*, *al-Ḥākim*).
+6. **Statements of the Companions & Successors (*Āthār al-Ṣaḥābah wa-l-Tābiʿīn*)**
+   - Transmitted explanations, glosses, and practices of the first generations (such as Ibn ʿAbbās, Ibn Masʿūd, ʿUmar, ʿAlī, ʿĀʾishah, Mujāhid, Qatādah, Saʿīd ibn Jubayr, al-Ḥasan al-Baṣrī, and ʿIkrimah) regarding the verse.
+7. **Exegesis of the Classical Imams (*Aqwāl al-Mufassirīn*)**
+   - Insights on the verse drawn from classical and later authorities (*Tafsīr Ibn Kathīr*, *al-Qurṭubī*, *al-Ṭabarī*, *Rūḥ al-Maʿānī*, *al-Baḥr al-Muḥīṭ*, *al-Durr al-Manthūr*, *Tafsīr al-Maẓharī*, *Bayān al-Qurʾān*, and *Maʿārif al-Qurʾān*), while deliberately excluding unverified Israelite traditions (*Isrāʾīliyyāt*).
+8. **Linguistic, Lexical & Grammatical Analysis (*Lughah*, *Ishtiqāq*, *Iʿrāb*, & *Balāghah*)**
+   - Word roots, lexical shades of meaning, grammatical structure (such as omitted verbs or word-order emphasis/*ḥaṣr*), and rhetorical subtleties where they affect the meaning of the verse.
+9. **Variant Readings (*Qirāʾāt*)**
+   - Mention of canonical recitations of the verse where a difference in reading adds a complementary shade of meaning or affects a legal ruling.
+10. **Juristic Rulings & Injunctions (*Aḥkām* / *Fiqh* / *Masāʾil*)**
+    - Practical Islamic laws deduced from the verse (obligations, prohibitions, *sunnah* acts, etiquettes of worship, transactions, and family law), including the positions of the legal schools (*madhāhib*), often highlighted under headings like **Ruling**, **Injunctions**, or **Mas’alah**.
+11. **Creed & Theology (*ʿAqīdah* / *Tawḥīd*)**
+    - Doctrinal points established by the verse concerning Divine Oneness (*Tawḥīd*), Allah’s Names and Attributes (*Asmāʾ wa-Ṣifāt*), Prophethood (*Nubuwwah*), Resurrection and Accountability (*Maʿād*), Divine Decree (*Qadar*), and refutation of erroneous beliefs.
+12. **Abrogation (*Nāsikh wa-Mansūkh*)**
+    - Identification of whether the verse’s legal ruling abrogated an earlier ruling or was itself abrogated in the gradual progression of Islamic legislation.
+13. **Historical Narratives, Prophetic Biography & Parables (*Qiṣaṣ*, *Sīrah*, & *Amthāl*)**
+    - Accounts of earlier prophets and nations, events from the life and battles (*maghāzī*) of the Prophet ﷺ, and explanations of Qur’anic similitudes and parables referenced in the verse.
+14. **Spiritual Purification & Etiquette (*Taṣawwuf*, *Tazkiyah*, & *Ādāb*)**
+    - Discussions drawn from the verse on inner states of the heart (sincerity, gratitude, patience, reliance on Allah, humility), spiritual remedies for moral diseases (pride, envy, heedlessness), and Islamic manners (*ādāb*).
+15. **Wisdom, Counsel & Moral Admonition (*Ḥikam*, *Mawʿīẓah*, & *Tadabbur*)**
+    - Words of advice, warnings, and practical reflections drawn from the verse aimed at awakening accountability and reforming conduct.
+16. **Contemporary Issues & Practical Application**
+    - Addressing modern doubts, social customs, and practical questions so the reader sees how the verse applies to present-day life.
+17. **Specific Virtues & Supplications (*Faḍāʾil* & *Duʿāʾ*)**
+    - Merits of the specific verse, Prophetic prayers (*adʿiyah*) tied to the verse, and recommended practices (*aʿmāl*) connected with the verse.
+
+---
+
+### III. Quick Reference: How These Map to Repository Categories
+
+| Core Category | Elements Included |
+| :--- | :--- |
+| **1. `quran` (Qur’an Reference)** | Cross-references (*Tafsīr al-Qurʾān bi-l-Qurʾān*), parallel clauses, thematic links (*Munāsabah* / *Naẓm*) |
+| **2. `hadith` (Prophetic Tradition)** | Marfūʿ hadiths, *Ḥadīth Qudsī*, virtues (*Faḍāʾil*), Prophetic supplications, with collection & narrator |
+| **3. `athar` (Early Authorities)** | Statements & practices of the *Ṣaḥābah*, *Tābiʿīn*, and early Imams; scholarly consensus/disagreement (*Ikhtilāf* & *Tarjīḥ*) |
+| **4. `occasion` (Context)** | *Asbāb al-Nuzūl* (circumstances of revelation), *Makkī*/*Madanī* setting, and immediate historical context |
+| **5. `language` (Linguistics)** | Word-by-word glosses, root/etymology (*Ishtiqāq*), grammar (*Iʿrāb*), morphology (*Ṣarf*), rhetoric (*Balāghah*), variant readings (*Qirāʾāt*) |
+| **6. `ruling` (Law & Creed)** | Fiqh injunctions (*Aḥkām*), legal schools’ positions, abrogation (*Naskh*), and creedal/theological tenets (*ʿAqīdah*) |
+| **7. `history` (Narrative)** | Stories of the Prophets (*Qiṣaṣ*), Prophetic biography (*Sīrah*), and historical events |
+| **8. `lesson` (Wisdom & Action)** | *Maqāṣid*, parables (*Amthāl*), spiritual counsel (*Tazkiyah*/*Taṣawwuf*), *Tadabbur*, analogies, and contemporary/daily application |
