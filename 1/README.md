@@ -63,7 +63,7 @@ the evidence of all ten sources on that verse.
 
 ## 4. Corpus facts that affect the extraction
 
-One chapter, ten files, three defects — all of them factual and all of them handled, never silently:
+One chapter, ten files, four defects — all of them factual and all of them handled, never silently:
 
 | File | Defect | Handling |
 | :--- | :--- | :--- |
