@@ -45,7 +45,7 @@ files stay reviewable as they grow:
 
 | # | File | Source | Language | Progress | Status |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | S-level + B1 in progress (2:1 done) | **in progress** |
+| 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | S-level + B1 in progress (2:1–2:2 done) | **in progress** |
 | 2 | `tafsir-al-baghawi.md` | Maʿālim al-Tanzīl | Arabic | — | pending |
 | 3 | `tafsir-al-jalalayn.md` | Tafsīr al-Jalālayn | English | — | pending |
 | 4 | `tafsir-al-qurtubi.md` | al-Jāmiʿ li-Aḥkām al-Qurʾān | Arabic | — | pending |
@@ -59,7 +59,7 @@ files stay reviewable as they grow:
 
 ## 5. Corpus facts that affect the extraction (measured)
 
-The chapter-2 corpus files carry **one defect, in eight of the ten verse-tagged works**: the API's verse
+The chapter-2 corpus files carry **one defect, in seven of the ten verse-tagged works**: the API's verse
 grouping means a single commentary block is filed under **each** of the verse headings it covers. The
 repetition is never silently kept: it is collapsed once and the block is re-mapped to the verses its own
 internal markers name (as in chapter 1). Measured on the raw files:
