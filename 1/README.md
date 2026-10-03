@@ -46,8 +46,8 @@ the evidence of all eleven sources on that verse.
 | 1 | `tafsir-al-alusi.md` | Rūḥ al-Maʿānī | Arabic | | pending |
 | 2 | `tafsir-al-baghawi.md` | Maʿālim al-Tanzīl | Arabic | | pending |
 | 3 | `tafsir-al-jalalayn.md` | Tafsīr al-Jalālayn | English | ✔ 1:1–1:7 | done |
-| 4 | `tafsir-al-qurtubi.md` | al-Jāmiʿ li-Aḥkām al-Qurʾān | Arabic | | pending |
-| 5 | `tafsir-al-tabari.md` | Jāmiʿ al-Bayān | Arabic | | pending |
+| 4 | `tafsir-al-qurtubi.md` | al-Jāmiʿ li-Aḥkām al-Qurʾān | Arabic | ✔ 1:1–1:7 | done |
+| 5 | `tafsir-al-tabari.md` | Jāmiʿ al-Bayān | Arabic | ✔ 1:1–1:7 | done |
 | 6 | `tafsir-as-saadi.md` | Taysīr al-Karīm al-Raḥmān | Arabic | **pilot** | done |
 | 7 | `tafsir-ibn-abbas.md` | Tanwīr al-Miqbās (ascribed) | English | **pilot** | done |
 | 8 | `tafsir-ibn-kathir.md` | Tafsīr al-Qurʾān al-ʿAẓīm | English | ✔ 1:1–1:7 | done |
