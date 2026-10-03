@@ -51,7 +51,7 @@ the evidence of all eleven sources on that verse.
 | 6 | `tafsir-as-saadi.md` | Taysīr al-Karīm al-Raḥmān | Arabic | **pilot** | done |
 | 7 | `tafsir-ibn-abbas.md` | Tanwīr al-Miqbās (ascribed) | English | **pilot** | done |
 | 8 | `tafsir-ibn-kathir.md` | Tafsīr al-Qurʾān al-ʿAẓīm | English | ✔ 1:1–1:7 | done |
-| 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | | pending |
+| 9 | `tafsir-ibn-uthaymeen.md` | Tafsīr (lectures) | Arabic | ✔ 1:1–1:7 (re-mapped from the single lecture body) | done |
 | 10 | `tafsir-maarif-ul-quran.md` | Maʿārif al-Qurʾān | English | ✔ 1:1–1:7 | done |
 | 11 | `tafsir_initial.md` | The Study Quran (super-source) | English | ✔ 1:1–1:7 | done |
 | — | `merged-chapter-1.md` | — | — | | pending (after the eleven) |
@@ -65,7 +65,7 @@ One chapter, eleven files, four defects — all of them factual and all of them 
 | `tafsir-as-saadi/001.txt` | The whole-sūrah commentary is repeated byte-identical under all seven verse headings | Repetition removed; material re-mapped to the verses the author's own `{n}` markers name |
 | `tafsir-al-alusi/001.txt` | 1:2–1:7 are byte-identical (whole-sūrah text repeated); 1:1 is separate | Repetition removed; internal markers used to re-map |
 | `tafsir-al-baghawi/001.txt` | All seven sections are byte-identical | As above |
-| `tafsir-ibn-uthaymeen/001.txt` | All seven sections byte-identical, and the content is a transcribed lecture (on ṣalāh) that is not verse-specific tafsīr of al-Fātiḥah | Extracted once as sūrah-level material, flagged `verse-specific: none`; no duplicate fabricated per verse |
+| `tafsir-ibn-uthaymeen/001.txt` | All seven sections byte-identical; the body is one transcribed session — a ṣalāh / al-Fātiḥah lesson followed by the audience's questions — not a written per-verse tafsīr | Repetition collapsed once; the lesson's own order re-mapped into the sūrah-level heads and the seven verse heads (structural note in the file); the Takhrīj of the transcription's editor is marked *[ed.]* |
 | `tafsir-al-jalalayn/001.txt` | The basmalah commentary is filed under `## 1:2` | Re-mapped to 1:1; the substitution note in 1:6–1:7 kept with its verses |
 
 ## 5. Element list used (from `../tafsir/elements.txt`)
