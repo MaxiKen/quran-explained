@@ -2,9 +2,9 @@
 
 **Deliverable.** A verse-by-verse tafsir of the Qur'an. One book file per chapter: `<surah>/<slug>.md`
 (e.g. `1/al-fatihah.md`, `2/al-baqarah.md`). Sources cited inline as **[Ṭabarī]**, **[Qurṭubī]**,
-**[Ibn Kathīr]**, **[al-Jalālayn]**, **[as-Saʿdī]**, **[Study Quran]**.
+**[Ibn Kathīr]**, **[al-Jalālayn]**, **[as-Saʿdī]**, **[Maʿārif]**, **[Study Quran]**.
 
-## 1. Sources (six)
+## 1. Sources (seven)
 
 | # | Work | Corpus folder | Author / date |
 |---|---|---|---|
@@ -13,12 +13,12 @@
 | 3 | *Tafsīr al-Qurʾān al-ʿAẓīm* | `tafsir-ibn-kathir/` | Ibn Kathīr (d. 774/1373) |
 | 4 | *Tafsīr al-Jalālayn* | `tafsir-al-jalalayn/` | al-Maḥallī & al-Suyūṭī (d. 911/1505) |
 | 5 | *Taysīr al-Karīm al-Raḥmān* | `tafsir-as-saadi/` | ʿAbd al-Raḥmān al-Saʿdī (d. 1376/1956) |
-| 6 | *The Study Quran* | `tafsir_initial/` | Nasr et al. (2015) |
+| 6 | *Maʿārif al-Qurʾān* | `tafsir-maarif-ul-quran/` | Muftī Muḥammad Shafīʿ (d. 1396/1976) |
+| 7 | *The Study Quran* | `tafsir_initial/` | Nasr et al. (2015) |
 
-**Removed from the branch (2026-10-03):** al-Alūsī, al-Baghawī, Maʿārif al-Qurʾān, Ibn ʿAbbās and
-Ibn ʿUthaymīn corpora — redundancy with al-Ṭabarī (al-Baghawī, Ibn ʿAbbās), padding for a modern
-verse-by-verse book (al-Alūsī, Ibn ʿUthaymīn), or a role already covered by as-Saʿdī + The Study
-Quran (Maʿārif). Only the six corpora above remain.
+**Removed from the branch (2026-10-03):** al-Alūsī, al-Baghawī, Ibn ʿAbbās and Ibn ʿUthaymīn
+corpora — redundancy with al-Ṭabarī (al-Baghawī, Ibn ʿAbbās) or padding for a modern verse-by-verse
+book (al-Alūsī, Ibn ʿUthaymīn). Maʿārif al-Qurʾān was restored the same day and is source no. 6.
 
 ## 2. Entry format (one entry per verse, always)
 
@@ -50,7 +50,7 @@ narrative verses; average ≈ 400–500 words. Chapter 2 (286 verses) ≈ 140,00
 
 ## 4. Extraction rules
 
-1. **All six sources are read for every verse.** Which blocks appear is decided by what the corpora
+1. **All seven sources are read for every verse.** Which blocks appear is decided by what the corpora
    actually contain for that verse, not in advance. *Meaning* and *Reflection* are always present.
 2. **Unique material only.** Skip isnād chains, repeated reports, poetic witnesses, polemics and
    marginal asides. Collapse once whatever later sources copy from earlier ones — the corpora repeat
