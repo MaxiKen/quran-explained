@@ -179,3 +179,85 @@
 **Meaning.** The Quraysh ask for another sign despite the revelation already recited to them. Al-Ṭabarī explains that the form and timing of a sign belong to the unseen knowledge of God **[Ṭabarī]**. Al-Qurṭubī and Ibn Kathīr report examples of the demands—such as a mountain of gold or the return of dead ancestors—while al-Jalālayn mentions signs granted to earlier prophets **[Qurṭubī] [Ibn Kathīr] [Jalālayn]**. The Study Quran links the demand to the earlier request for a different or altered scripture (10:15): the Prophet is to make clear that revelation comes from God, not from his own choosing **[Study Quran]**. “Wait” leaves the outcome to God’s judgment; it is not the Prophet who controls the unseen **[Saʿdī]**.
 
 **Reflection.** Faith is not a license to dictate terms to God. The proper response to what lies beyond human control is patience and attention to the signs already given.
+
+## 10:21
+
+*“When We let people taste mercy after hardship has touched them, behold, they scheme concerning Our signs. Say, ‘God is swifter in planning.’ Surely Our messengers record what you scheme.”*
+
+**Meaning.** The pattern from 10:12 returns: relief follows hardship, but instead of gratitude, the people resume mockery and rejection. Al-Ṭabarī gives rain after drought as one example of mercy after distress; al-Qurṭubī glosses their “scheme” as ridicule and denial **[Ṭabarī] [Qurṭubī]**. The Study Quran reports that some commentators connect the verse to a severe drought among the Makkans and the rain that followed the Prophet’s prayer **[Study Quran]**. “God is swifter in planning” means that His response overtakes their plotting, while the angels record what they do **[Jalālayn] [Saʿdī]**. Maʿārif cautions that *makr* here means a plan or counter-plan, not blameworthy deceit attributed to God **[Maʿārif]**.
+
+**Reflection.** Relief is an invitation to gratitude; if it instead becomes an occasion for renewed defiance, the deeds remain known and recorded.
+
+## 10:22
+
+*“He it is Who carries you over land and sea. When you are in ships and they sail with them upon a favorable wind, and they rejoice in it, a stormy wind comes upon them and waves come at them from every side, and they think they are encompassed. They call upon God, devoting religion entirely to Him: ‘If You save us from this, we shall surely be among the thankful.’”*
+
+**Meaning.** God enables travel on land and sea, and the scene turns to sailors who are at first carried by a gentle wind and then surrounded by storm and waves. In that danger, they call on God alone and promise gratitude if they are rescued **[Ṭabarī] [Qurṭubī]**. As-Saʿdī reads this as a concrete example of the human tendency just described: comfort brings confidence, but sudden peril makes people recognize their dependence on God **[Saʿdī]**. The Study Quran likewise sees the sea-voyage as an illustration of hardship followed by mercy, echoing 10:21 **[Study Quran]**.
+
+**Reflection.** The storm strips away imagined control; the verse asks that the sincerity of crisis survive when calm returns **[Ibn Kathīr]**.
+
+## 10:23
+
+*“Then when He saves them, behold, they transgress upon the earth without right. O mankind, your transgression is only against yourselves—the enjoyment of the life of this world. Then to Us is your return, and We shall inform you of what you used to do.”*
+
+**Meaning.** The rescued travelers break their promise and return to wrongdoing. Al-Ṭabarī explains their *baghy* as exceeding God’s limits and persisting in disbelief after rescue **[Ṭabarī]**. The Study Quran also glosses it as transgression and corruption, and notes that the phrase about worldly enjoyment can be read as a warning that this brief pleasure is all their injustice gains them **[Study Quran]**. Maʿārif stresses that injustice ultimately rebounds upon its perpetrator, even before the final reckoning **[Maʿārif]**. Yet the closing words make clear that the full account awaits the return to God, who will disclose their deeds **[Jalālayn]**.
+
+**Reflection.** A promise made in danger remains morally binding after deliverance; relief does not erase responsibility.
+
+## 10:24
+
+*“The parable of the life of this world is like water We send down from the sky: the earth’s vegetation mingles with it, from which people and cattle eat, until the earth takes on its adornment and is beautified, and its people think they have mastery over it. Our command comes upon it by night or day, and We make it a harvested field, as if it had not flourished the day before. Thus do We expound the signs for a people who reflect.”*
+
+**Meaning.** Rain brings the land to life, crops and pasture grow, and the earth appears at its most beautiful—then God’s command can reduce it suddenly to a bare field. Al-Ṭabarī and al-Qurṭubī explain the comparison as the short-lived flourishing and disappearance of worldly life **[Ṭabarī] [Qurṭubī]**. As-Saʿdī extends the image to wealth, status, and pleasure: they may delight their possessor briefly, then vanish, leaving grief if they were treated as permanent **[Saʿdī]**. Ibn Kathīr emphasizes the shock of the harvest-like end, while The Study Quran connects the parable to the delusion of worldly mastery **[Ibn Kathīr] [Study Quran]**.
+
+**Reflection.** The verse does not deny the beauty of the world; it warns against mistaking a season of flourishing for lasting possession.
+
+## 10:25
+
+*“God calls unto the Abode of Peace and guides whomsoever He wills unto a straight path.”*
+
+**Meaning.** After depicting worldly life as transient, the sūrah turns to the lasting destination: God calls people to the Abode of Peace, understood by the commentators as Paradise **[Ṭabarī] [Qurṭubī]**. It is called “Peace” because its inhabitants are safe from the afflictions, fear, and passing away of earthly life; al-Jalālayn identifies the straight path with Islam **[Jalālayn]**. As-Saʿdī sees the invitation as extending to all, while the gift of being guided and enabled to reach the path is God’s special favor **[Saʿdī]**. The Study Quran similarly contrasts this abode of permanence with the impermanent world **[Study Quran]**.
+
+**Reflection.** The divine call is an invitation to redirect desire: seek what endures, and ask for guidance along the way **[Maʿārif]**.
+
+## 10:26
+
+*“For those who do good is the best and more besides. Neither darkness nor abasement shall come over their faces. It is they who are the inhabitants of the Garden; they shall abide therein.”*
+
+**Meaning.** The *ḥusnā*, “the best,” is commonly explained as Paradise; “more besides” is identified by many commentators with the vision of God in the Hereafter **[Ṭabarī] [Qurṭubī] [Jalālayn]**. Al-Qurṭubī cites the report of Suhayb in Ṣaḥīḥ Muslim, in which the people of Paradise receive no gift more beloved than looking upon their Lord **[Qurṭubī]**. Other explanations of the “increase” include the multiplication of reward, and the commentators preserve that breadth of interpretation **[Ṭabarī] [Saʿdī] [Study Quran]**. The radiant faces of the Garden’s people are contrasted with abasement; they remain in Paradise **[Ibn Kathīr]**.
+
+**Reflection.** The greatest reward is not merely abundance, but nearness to God and the honor of beholding Him **[Study Quran]**.
+
+## 10:27
+
+*“As for those who commit evil deeds, the recompense of an evil is one like it, and abasement shall overcome them. There will be none to protect them from God. It is as if their faces were covered with dark patches of night. It is they who are the inhabitants of the Fire; they shall abide therein.”*
+
+**Meaning.** The contrast with the people of Paradise is exact: those who earn evil receive a recompense corresponding to their deeds, and humiliation covers them. Al-Ṭabarī explains that no protector can shield them from God’s punishment **[Ṭabarī]**. As-Saʿdī stresses that their recompense is proportionate to what they did, while disgrace shows outwardly the inward consequence of their choices **[Saʿdī]**. The image of faces covered by darkness depicts their abasement; they are the people of the Fire **[Qurṭubī] [Ibn Kathīr]**. The Study Quran reads this alongside 10:26: the two outcomes display divine justice and the gulf between the Garden and the Fire **[Study Quran]**.
+
+**Belief.** The verse presents punishment as measured recompense, not as an increase beyond the evil committed **[Jalālayn]**.
+
+**Reflection.** The contrast asks the reader to choose which kind of “face” to bring to the final meeting.
+
+## 10:28
+
+*“On the Day when We gather them all together, We shall say to those who ascribed partners to God, ‘Stop there—you and your partners!’ Then We shall separate them, and their partners will say, ‘It was not us whom you worshipped.’”*
+
+**Meaning.** The scene moves to the assembly for judgment. The idolaters and those they treated as partners are ordered to remain in place, then separated from one another **[Ṭabarī] [Qurṭubī]**. As-Saʿdī describes the separation as both physical and relational: the affection and loyalty once given to false objects of worship become estrangement, and the supposed partners disown their worshippers **[Saʿdī]**. Al-Qurṭubī preserves several understandings of “partners”—idols, angels, or devils—whose speech will expose the false bond **[Qurṭubī]**. The Study Quran similarly notes that “partners” can include whatever or whoever was worshipped apart from God **[Study Quran]**.
+
+**Reflection.** A bond built on false worship cannot survive the truth being made manifest; those trusted as patrons cannot answer for their worshippers **[Maʿārif]**.
+
+## 10:29
+
+*“God suffices as a witness between us and you. We were indeed unaware of your worship.”*
+
+**Meaning.** The supposed partners appeal to God as witness that they neither commanded nor knew of the worship directed toward them. Al-Ṭabarī explains their words as disavowal: they had no knowledge that people worshipped them instead of God **[Ṭabarī]**. Al-Qurṭubī notes that, if the referents are lifeless idols, they cannot hear, see, or consent to what their worshippers did **[Qurṭubī]**. The declaration completes the separation in the preceding verse: the idolaters’ claim of intercession finds no support from those they invoked **[Ibn Kathīr] [Study Quran]**.
+
+**Reflection.** Human beings may project authority onto objects or powers, but their own inventions cannot bear witness in their favor before God **[Jalālayn]**.
+
+## 10:30
+
+*“There and then every soul shall experience what it did before, and they shall be brought back to God, their true Master; that which they used to fabricate will forsake them.”*
+
+**Meaning.** At the judgment, each soul encounters the deeds it sent ahead, returns to its true Lord, and sees its fabricated gods disappear. Al-Ṭabarī explains the opening as every person being tested by, or made to experience, what they did **[Ṭabarī]**. Al-Qurṭubī and al-Jalālayn also note a variant reading, *tatlū*, “recites,” in place of *tablū*, “tests/experiences”; on that reading, the soul recites its record **[Qurṭubī] [Jalālayn]**. The Study Quran emphasizes that “there and then” is the place of gathering before God, while the false beings people relied on abandon them **[Study Quran]**.
+
+**Reflection.** The passage closes the scene of false intercession: the only lasting return is to the true Master, and every soul meets the record of its own actions **[Maʿārif] [Ibn Kathīr]**.
