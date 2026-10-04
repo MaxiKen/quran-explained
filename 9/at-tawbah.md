@@ -64,6 +64,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -3170,3 +3172,248 @@ in failing to support him (R); see 4:71–73.
 fortunes grieves a person, and what news secretly pleases him? The hypocrite's second word is worse than
 his first — he does not merely fail to help, he congratulates himself on having been elsewhere when the
 blow fell. The answer given in v. 51 is not an argument but a creed.
+
+## 9:51
+
+*"Say, 'Naught befalls us, save that which God has decreed for us. He is our Master, and in God let the
+believers trust.'"*
+
+**Meaning.** **[Jalālayn]** "Say to them: 'Nothing shall afflict us but that which God has decreed for us'
+— that we be afflicted thereby; 'He is our Protector,' our Helper and the One in charge of our affairs; 'in
+God let the believers put their trust.'" **[Ṭabarī]** God, disciplining His Prophet Muḥammad ﷺ, says: "Say,
+O Muḥammad, to these hypocrites who stayed behind you: 'Naught will befall us,' you who are in doubt of your
+religion, 'save that which God has decreed for us' in the Preserved Tablet and ordained for us; 'He is our
+Master' — He is our Helper against His enemies; 'and in God let the believers trust' — for if they trust in
+Him, and hope for victory from none other than Him, and fear nothing other than Him, He will suffice them in
+their affairs and grant them victory over those who wrong them and scheme against them." **[Qurṭubī]** "Say:
+'Naught befalls us save that which God has decreed for us'" — it is said: in the Preserved Tablet; and it is
+said: what He has told us in His Book, that we either triumph, in which case the triumph is a fair reward
+for us, or we are killed, in which case martyrdom is a greater and fairer reward for us. The meaning is that
+everything is by decree and determination; and it has already been stated in *al-Aʿrāf* that knowledge,
+decree and writing are one. "He is our Master" — our helper; and *tawakkul* is entrusting the affair to Him.
+
+**Belief.** **[Maʿārif]** God instructs the Prophet ﷺ and the Muslims not to let themselves be affected by
+what the hypocrites say, and to keep reality as it is before them: "Say: 'Nothing can ever reach us except
+what God has written for us. He is our Master. And in God alone the believers must place their trust.'" In
+other words, the Prophet ﷺ is to tell those who worship material causes that they are in serious error: the
+cause is not the staying behind or the going out, but what God has written. **[Study Quran]** *That which
+God has decreed* is what God has "prescribed" or "written" (*kataba*; cf. 2:187; 5:21; 6:12, 54; 58:21;
+59:3). This is understood by some to mean that it is inscribed in the Preserved Tablet (85:22), and that
+this "writing" refers to one's fate or destiny as determined by God beyond time; see 54:49 and the essay
+"The Quran and Schools of Theology and Philosophy." **[Ibn Kathīr]** God directed His Prophet ﷺ to reply to
+the perfect enmity they have towards him: "Say: 'Nothing shall ever happen to us except what God has
+ordained for us'": for we are under His control and decree; "He is our Master" — Master and protector; "and
+in God let the believers put their trust." **[Saʿdī]** "Say: 'Naught will befall us save what God has
+decreed for us'" — what He has determined and set running in the Preserved Tablet. "He is our Master" — the
+One in charge of our religious and worldly affairs; so acceptance of His decrees is incumbent on us, and
+nothing of the affair is in our hands. "And in God" alone "let the believers trust" — let them rely on Him
+to bring what benefits them and to repel harm from them, and let them be confident in Him for attaining what
+they seek: whoever trusts in Him is not disappointed, whereas whoever trusts in another is forsaken and
+does not attain what he hoped for.
+
+**Readings.** **[Qurṭubī]** The majority read "*lan yuṣībanā*" with the accusative because of *lan*; Abū
+ʿUbayda reported that some of the Arabs use it with the jussive. Ṭalḥa b. Muṣarrif read "*hal yuṣībunā*";
+and it is reported that Aʿyan, the judge of Rayy, read "*qul lan yuṣībanā*" with a [lightened] *nūn*.
+
+**Reflection.** Where the hypocrites say "we took precautions," the believer says "God wrote." The two
+sentences describe the same events and disagree entirely about what governs them; and the practical
+difference is that precautions end in self-congratulation, while trust ends in reliance on the One who
+holds the affair.
+
+---
+
+## 9:52
+
+*"Say, 'Do you anticipate that aught will befall us save one of the two best things? But we anticipate for
+you that God will afflict you with a punishment from Him, or by our hands. So wait! Truly we are waiting
+along with you.'"*
+
+**Meaning.** **[Jalālayn]** "Say: 'Are you waiting' — *tarabbaṣūna*, one of the two original *tāʾ* letters
+of *tatarabbaṣūna* having been omitted — 'for anything to occur for us but one of the two fair things,' the
+two fair outcomes? *Ḥusnayayn* is the dual of *ḥusnā*, the feminine of *aḥsan* — that is, victory or
+martyrdom? 'We are waiting in your case too' for God to afflict you with a chastisement from Him — with a
+calamity from the heaven — 'or at our hands,' should we be given permission to fight you. 'So wait' for this
+to befall us; 'we are also waiting with you' — your end." **[Ṭabarī]** "Say, O Muḥammad, to these hypocrites
+whose description I have given you and whose affair I have made clear: are you awaiting for us anything but
+one of the two qualities that are better than any other — either triumph over the enemy and a conquest for
+us by prevailing over them, in which is reward, spoils and safety; or being killed by our enemy, in which is
+martyrdom, the winning of Paradise and deliverance from the Fire? Both of them are things we love and do not
+hate; and we await for you that God will afflict you with a punishment from Himself or at our hands."
+**[Saʿdī]** Say to the hypocrites who lie in wait for misfortune to overtake you: what is it you await for
+us? You await for us nothing but a matter containing the utmost benefit for us — one of the two fair things:
+either triumph over the enemies and victory over them, attaining reward in this world and the next; or
+martyrdom, which is among the highest ranks of creation and the loftiest stations with God. As for what we
+await for you, O company of hypocrites: "we await for you that God afflicts you with a punishment from
+Himself," in which we have no part, "or by our hands" — that He give us authority over you and we kill you.
+"So wait" — for good to befall us; "we are waiting along with you" — for evil to befall you.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** "Except one of the two best things" — martyrdom or victory over you,
+according to the meaning given by Ibn ʿAbbās, Mujāhid, Qatādah and others. "While we await for you that God
+will afflict you with a punishment from Himself or at our hands" — either capture or killing.
+
+**Language.** **[Qurṭubī]** The Kūfans assimilate the *lām* into the *tāʾ* in *qul tarabbaṣū*; with the
+*lām* of the definite article assimilation is obligatory, as in *al-tāʾibūn* (9:112), because of the
+frequency of the article's *lām* in their speech; but assimilation is not permitted in "qul taʿālaw"
+(6:151), because *qul* is a defective word, and they did not combine two defects in it. *Al-tarabbuṣ* is
+waiting: one says "*tarabbaṣa bi-l-ṭaʿāmi*," he waited with the food until the time of high prices.
+*Al-ḥusnā* is the feminine of *al-aḥsan*; the singular of *al-ḥusnayayn* is *ḥusnā* and its plural is
+*al-ḥusnā*, and it is not used except in the definite form — one does not say "I saw a *ḥusnā* woman."
+
+**Belief.** **[Study Quran]** The two best things are understood to be either victory in this world, or
+defeat and death in this world which nevertheless lead to felicity in the Hereafter when one dies in the way
+of God — the two are two triumphs, one in this world and one in the next (R, Ṭ). Moreover, argues al-Rāzī,
+those who act with courage live with dignity and self-respect, while the hypocrites have to suffer from
+their own cowardice. A punishment from Him can be in either this world or the next. **[Maʿārif]** What the
+hypocrites take to be suffering for the Muslims — and at which they rejoice — is really no suffering at all;
+it is another form of comfort and success. The reason is that the man of true faith becomes deserving of
+eternal returns and rewards even after having failed in his strong resolve, which is the real objective of
+all his successes: he succeeds even in failure, and gains even in loss.
+
+**Reflection.** The verse turns the tables on the watching party: both sides are waiting, but they are not
+waiting for comparable things. Whatever the outcome for the believers, it is *ḥusnā* — so their waiting is
+without anxiety; while what the hypocrites await is a punishment that must come either from God or at the
+hands of those they refused to help.
+
+---
+
+## 9:53
+
+*"Say, 'Spend willingly or unwillingly; it shall never be accepted from you. Truly you are an iniquitous
+people.'"*
+
+**Meaning.** **[Jalālayn]** "Say: 'Expend in obedience to God willingly or unwillingly; it — what you
+expend — shall not be accepted from you; you are surely a wicked folk'" — the imperative statement here also
+functions as a predicate. **[Ṭabarī]** "Say, O Muḥammad, to these hypocrites: spend your wealth as you
+wish, on this journey of yours and elsewhere, and in whatever state you wish, of willingness or of
+reluctance; for if you spend it, God will not accept your spending from you while you are in doubt of your
+religion, ignorant of the prophethood of your Prophet and ill-acquainted with the reward and punishment of
+God. 'Truly you were an iniquitous people' — going out beyond faith in your Lord." **[Saʿdī]** God makes
+plain the nullity of the hypocrites' spending and mentions the reason for it: "Say" to them: "Spend
+willingly," of your own selves, "or unwillingly," without choosing to do so — "it shall never be accepted
+from you," anything of your deeds, because "you have been an iniquitous people," outside the obedience of
+God.
+
+**Stories & occasions.** **[Qurṭubī]** Ibn ʿAbbās said: this came down concerning al-Jadd b. Qays, when he
+said, "Grant me leave to stay behind — and here is my wealth, I will aid you with it." **[Study Quran]**
+According to some, this verse refers to those who wished to stay behind but told the Prophet they would give
+money to support him (R).
+
+**Language.** **[Qurṭubī]** The word *anfiqū* is an imperative carrying the sense of condition and
+response — the Arabs use it in this way, bringing *aw*, as the poet said: "Treat us ill or treat us well —
+there is no blame with us, and no hatred if you turn away." The meaning of the verse is: whether you spend
+willingly or unwillingly, it will not be accepted from you.
+
+**Belief.** **[Study Quran]** This verse can mean either that the Prophet will not accept from them what
+they spend, or that what they spend will not be considered worthy of acceptance in the Eyes of God (R).
+Elsewhere, *willingly or unwillingly* appears in connection with the worship of God by all of creation: some
+worship through the exercise of free will, while most of the rest of creation worships through its very
+being, without having a choice (see 3:83). **[Ibn Kathīr]** God says to them: spend, whether you do so
+willingly or unwillingly — it will not be accepted from you, for you are a rebellious people.
+
+**Reflection.** Money is not a substitute for a person. The offer to fund what one will not join in is here
+refused outright, and the reason is not the amount but the state of the giver: spending offered in place of
+obedience is itself part of the disobedience.
+
+---
+
+## 9:54
+
+*"And naught prevented their spending from being accepted from them, save that they disbelieved in God and in
+His Messenger, and only come to the prayer lazily, and only spend reluctantly."*
+
+**Meaning.** **[Jalālayn]** "And nothing prevents their expenditure from being accepted" — read as *yuqbala*
+or *tuqbala* — "from them but that they" — *innahum* is the subject of the verb, while *an tuqbala*, "being
+accepted," is the object — "have disbelieved in God and His Messenger, and that they do not come to perform
+prayer save as idlers," sluggishly, "and that they do not expend without their being reluctant" to expend —
+"for they consider it a financial penalty." **[Ṭabarī]** "Nothing prevented these hypocrites, O Muḥammad,
+from having the spending they spend accepted from them — on this journey with you and on other paths — except
+that they disbelieved in God and in His Messenger"; the first *an* is in the accusative position and the
+second in the nominative, since the sense is: nothing prevented the acceptance of their spending except
+their unbelief in God. "And they do not come to the prayer save lazily": they do not come to it except
+dragging themselves to it, because they hope for no reward for performing it and fear no punishment for
+abandoning it. **[Saʿdī]** God then described the character of their iniquity and their deeds: "And naught
+prevented their spending from being accepted from them save that they disbelieved in God and in His
+Messenger" — the condition of the acceptance of all deeds is faith, and these have no faith and no righteous
+deed; so much so that even the prayer, the best of the deeds of the body, when they stand to it they stand
+lazily: "and they come not to the prayer save lazily," dragging themselves, hardly performing it for the
+heaviness of it upon them; "and they spend not save reluctantly," without openness of breast or steadiness
+of soul. In this is the utmost blame of whoever does the like of their deed — and it behoves the servant not
+to come to the prayer except with body and heart active towards it, and not to spend except with an open
+breast and a steady heart, hoping for its stored reward from God alone, and not to resemble the hypocrites.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** Ibn ʿAbbās said of "they come not to the prayer save lazily": if he is in
+a congregation he prays, and if he is alone he does not pray — and he is the one who hopes no reward for the
+prayer and fears no punishment for abandoning it; for hypocrisy begets laziness. **[Study Quran]** When
+ʿĀʾishah asked the Prophet whether the filial piety and charity of a certain man would benefit him, the
+Prophet responded: "It will not benefit him. Not on a single day did he say, 'My Lord, forgive me my sin on
+the Day of Reckoning.'" **[Saʿdī]** The verse implies that the servant should come to prayer with body and
+heart active towards it, and should spend only with an open breast, hoping its reward from God alone.
+
+**Rulings.** **[Study Quran]** Some commentators see in this verse proof that the apparent good deeds of
+disbelievers — such as maintaining family relations and feeding the poor — would be of no avail to them by
+themselves in the Hereafter (Q, R). **[Qurṭubī]** The meaning: nothing prevented the acceptance of their
+spending except their unbelief; the Kūfans read "*an yuqbala minhum*" with *yāʾ* (masculine), because
+*nafaqāt* and *infāq* are one.
+
+**Cross-references.** **[Study Quran]** Performing the prayer lazily is also an attribute of the hypocrites
+as described in 4:142.
+
+**Reflection.** The verse names three symptoms — unbelief, prayer performed with a dragging body, and giving
+performed with a closed heart — and treats them as one disease. What is refused is not the coin but the
+person; and the measure of the person, here, is whether the two great acts of worship are done with desire
+or with reluctance.
+
+---
+
+## 9:55
+
+*"And let not their wealth or their children impress thee. God desires but to punish them thereby in the life
+of this world, and that their souls should depart while they are disbelievers."*
+
+**Meaning.** **[Jalālayn]** "So do not let their wealth or their children please you" — that is, do not deem
+fair Our graces to them, for this is a way of drawing them on by degrees to punish them — "God only desires
+thereby to chastise them in the life of this world," by way of the hardship they encounter in amassing such
+wealth and children and the calamities they suffer as a result of them, "and that their souls should depart
+while they are disbelievers," so He punishes them in the Hereafter with the worst punishment. **[Ṭabarī]**
+The commentators differed on this. Some said: "Let not the wealth of these hypocrites nor their children
+impress you, O Muḥammad, in the life of this world; God desires only to punish them thereby in the
+Hereafter" — treating the phrase as involving transposition, the latter part being placed first. This is
+reported from Qatādah. **[Qurṭubī]** "Do not deem fair what We have given them, and do not incline to it,
+for it is a drawing-on by degrees." "God desires only to punish them thereby": al-Ḥasan said the meaning is
+by the taking out of the *zakāh* and by spending in the way of God — and this is al-Ṭabarī's choice. Ibn
+ʿAbbās and Qatādah said there is transposition in the sentence: the meaning is, "let not their wealth nor
+their children impress you in the life of this world; God desires only to punish them thereby [in the
+Hereafter]." **[Saʿdī]** "Let not the wealth of these hypocrites nor their children impress you, for there is
+nothing enviable in them; and the first of their ill consequences upon them is that they have preferred them
+to the good pleasure of their Lord and have disobeyed God for their sake. God desires only to punish them
+thereby in the life of this world" — and the punishment meant here is what reaches them of hardship in
+acquiring them, the intense striving for it, the anxiety of the heart over it and the toil of the body; if
+their pleasures in it were set against their hardships in it, the former would bear no proportion to the
+latter. So when these things distracted them from God and His remembrance, they became a burden upon them
+even in this world — and among the gravest dangers of it is that their hearts attach to them and their wills
+do not go beyond them, so that they become the end of what is sought and the limit of what is desired, and
+no share of the Hereafter remains in their hearts; and that requires that they pass from this world "while
+their souls depart, disbelieving." And what punishment is greater than the punishment entailing permanent
+wretchedness and abiding regret?
+
+**Belief.** **[Study Quran]** Some understand "to punish them thereby" to mean that they will be forced to
+part with some of their wealth through being obliged to give alms (Q, Ṭ); others read it as: "Let not their
+wealth or their children impress thee — God desires [only] to punish them thereby in the life of this world."
+Wealth and children (cf. v. 70) are often mentioned as desirable in this world (18:46), and those who possess
+them often feel superior to those who do not (34:35; 68:14), but they will avail no one with God (3:10;
+58:17). **[Ibn Kathīr]** "In reality God's plan is to punish them with these things in the life of this
+world, and that their souls shall depart (die) while they are disbelievers." **[Maʿārif]** Love of, and
+engrossment in, worldly life is itself a punishment here and now: one begins with the desire to acquire
+worldly wealth, then goes through a long series of hard labours to establish the necessary channels, day in
+and day out, sacrificing sleep, comfort and family life.
+
+**Cross-references.** **[Ibn Kathīr]** 20:131 — "strain not your eyes in longing for the things We have
+given for enjoyment to various groups of them, the splendour of the life of this world, that We may test
+them thereby; but the provision of your Lord is better and more lasting"; 23:55–56 — "Do they think that, in
+the wealth and children with which We enlarge them, We hasten unto them with good things? Nay, but they
+perceive not."
+
+**Reflection.** The Prophet ﷺ is told not to be impressed — which implies the impression is a real
+temptation and not a rhetorical one. The verse dissolves it by re-describing prosperity: what looks like
+favour may be a drawing-on by degrees, and the true measure is not what a person owns but the state in which
+his soul departs.
