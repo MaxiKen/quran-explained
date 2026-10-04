@@ -431,3 +431,89 @@
 **Meaning.** The question turns the mockery back on those who ask for punishment to come sooner. If it arrived suddenly—while they slept or during the day—there would be no portion of it they would welcome **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn explains the question as meant to make them feel the gravity of what they challenge God to send **[Jalālayn]**. As-Saʿdī likewise asks what good news they imagine they are hastening when they call for chastisement **[Saʿdī]**. The Study Quran notes that the next verse makes the point explicit: belief offered only after punishment arrives will not undo the earlier denial **[Study Quran]**.
 
 **Reflection.** The verse invites a person to test bravado against its real consequence; what is demanded in mockery may be terrifying when it becomes reality.
+
+## 10:51
+
+*“When it has come to pass, will you believe in it? Now? While you once sought to hasten it?”*
+
+**Meaning.** The rebuke follows the deniers’ demand that punishment arrive quickly. Once it has actually come, their belated belief will not undo the earlier rejection **[Jalālayn] [Saʿdī]**. Maʿārif compares this to Pharaoh’s declaration of faith as drowning overtook him: belief at the point when the consequence is already visible is no longer the response that could have guided a life **[Maʿārif]**. The Study Quran reads the question as part of the same warning: the people who mocked the promised punishment will not welcome it when it arrives **[Study Quran]**.
+
+**Reflection.** The invitation to believe is meaningful before the outcome is forced upon the observer; the verse urges a response while there is still room to choose.
+
+## 10:52
+
+*“Then it shall be said to those who did wrong, ‘Taste the punishment everlasting. Are you recompensed for aught save that which you used to earn?’”*
+
+**Meaning.** Those who wronged themselves through disbelief are told to taste a punishment that does not end; the question makes clear that it is recompense for what they earned **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn glosses the wrongdoers as those who disbelieved, and The Study Quran connects their deeds with disobedience and denial **[Jalālayn] [Study Quran]**. The scene answers the mockery in the preceding verses: the judgment they dismissed is now before them, and it is not arbitrary **[Ibn Kathīr]**.
+
+**Belief.** Divine punishment is tied to culpable action; the verse presents judgment as recompense, not injustice.
+
+**Reflection.** A demand to see proof only after the final consequence has arrived is too late to serve as guidance.
+
+## 10:53
+
+*“They ask you, ‘Is it true?’ Say, ‘Yes, by my Lord, it is indeed true, and you cannot thwart it.’”*
+
+**Meaning.** The question concerns resurrection and the promised judgment. As-Saʿdī says that the deniers ask in stubbornness rather than in a sincere search for guidance; the Prophet is commanded to answer with an oath that the return and recompense are true **[Saʿdī]**. Al-Qurṭubī explains *ī* as an emphatic “yes,” and al-Jalālayn says the deniers cannot escape or prevent what God has promised **[Qurṭubī] [Jalālayn]**. The Study Quran likewise identifies the question with God’s punishment in the Hereafter and the certainty of its fulfillment **[Study Quran]**.
+
+**Reflection.** The oath turns a taunting question into a direct affirmation: the truth of the Hereafter does not depend on whether its hearers welcome it.
+
+## 10:54
+
+*“Were each soul that had done wrong to possess all that is on the earth, it would surely offer it as ransom. They will hide their remorse when they see the punishment, and judgment will be rendered between them with justice, and they will not be wronged.”*
+
+**Meaning.** Faced with punishment, the wrongdoer would surrender everything on earth to escape it, but wealth cannot buy release. Al-Ṭabarī and al-Qurṭubī explain the wrongdoing here as disbelief and associating partners with God **[Ṭabarī] [Qurṭubī]**. The Study Quran notes that remorse may first be concealed, even though the punished will later voice their anguish; judgment is still rendered with justice **[Study Quran]**. Al-Jalālayn observes that the leaders may hide their regret from those they led astray, fearing reproach **[Jalālayn]**. The verse closes by affirming that none is treated unjustly **[Ibn Kathīr]**.
+
+**Reflection.** No earthly possession can compensate for a life spent rejecting truth; accountability cannot be purchased away.
+
+## 10:55
+
+*“Truly unto God belongs whatsoever is in the heavens and on the earth. Verily God’s promise is true, but most of them know not.”*
+
+**Meaning.** Everything belongs to God, so resurrection and judgment lie within the power of the One who owns and governs all things. Al-Jalālayn connects the promise here specifically with resurrection and recompense **[Jalālayn]**. Ibn Kathīr likewise explains that the Creator’s ownership and power make His promise certain, even though many fail to recognize it **[Ibn Kathīr]**. The Study Quran reads the promise against the preceding discussion of punishment in the Hereafter **[Study Quran]**.
+
+**Reflection.** Forgetfulness of God’s ownership can make His promise seem remote; remembering it restores the scale on which present life is judged.
+
+## 10:56
+
+*“He gives life and causes death, and unto Him shall you be returned.”*
+
+**Meaning.** God alone gives life and brings it to an end; after death, every person returns to Him. Al-Ṭabarī emphasizes that reviving people after death is no more beyond God’s power than causing their death **[Ṭabarī]**. Ibn Kathīr notes that God knows every creature and what remains of it, wherever it may be, and has power to restore it **[Ibn Kathīr]**. Al-Jalālayn connects the return to the Hereafter and the recompense of deeds **[Jalālayn]**.
+
+**Belief.** The verse joins divine power over life and death to the certainty of resurrection.
+
+**Reflection.** Life is not self-originating or self-ending; the return to God gives its course direction and accountability **[Study Quran]**.
+
+## 10:57
+
+*“O mankind! There has come unto you an exhortation from your Lord, and a cure for what lies within breasts, and a guidance and a mercy for the believers.”*
+
+**Meaning.** The Qurʾān is described through four gifts: admonition that warns and teaches, healing for inward diseases, guidance from error, and mercy for those who believe **[Qurṭubī] [Jalālayn]**. As-Saʿdī explains that its warnings, promises, and encouragement heal diseases of desire that resist obedience and doubts that weaken certain knowledge **[Saʿdī]**. The Study Quran names ignorance, doubt, hypocrisy, and hatred among the spiritual illnesses it remedies **[Study Quran]**. Maʿārif presents the Qurʾān and the Messenger as gifts that lead humanity out of error and toward deliverance **[Maʿārif]**.
+
+**Reflection.** Revelation is not only a set of commands; it diagnoses what troubles the heart and gives direction for its healing **[Ibn Kathīr]**.
+
+## 10:58
+
+*“Say, ‘In the Bounty of God and His Mercy—in that let them rejoice! It is better than that which they amass.’”*
+
+**Meaning.** The verse redirects joy away from accumulated wealth toward what God has given. Al-Qurṭubī records several identifications: the bounty and mercy may be the Qurʾān and Islam, Islam and the Qurʾān, or faith and the Qurʾān **[Qurṭubī]**. Al-Jalālayn and The Study Quran likewise identify the gifts with Islam and revelation, while preserving other transmitted explanations **[Jalālayn] [Study Quran]**. Al-Ṭabarī emphasizes that the gift is the guidance of Islam and the mercy of the message sent down to teach people what they did not know **[Ṭabarī]**. These are better than worldly possessions because their benefit reaches beyond this life **[Maʿārif]**.
+
+**Reflection.** The verse does not forbid gratitude for provision; it teaches that spiritual guidance is a greater reason for joy than whatever can be amassed.
+
+## 10:59
+
+*“Say, ‘Have you considered the provision God has sent down for you, of which you have made some unlawful and some lawful?’ Say, ‘Has God granted you leave, or do you fabricate against God?’”*
+
+**Meaning.** The verse challenges people who invent religious prohibitions and permissions for the provisions God has given. Al-Ṭabarī explains “sent down” here as God’s creating and granting sustenance **[Ṭabarī]**. Al-Jalālayn and Ibn Kathīr connect the criticism to pre-Islamic ritual rules about livestock, by which people designated some animals lawful and others forbidden without God’s authority **[Jalālayn] [Ibn Kathīr]**. As-Saʿdī says the question exposes their claim as fabrication, since they have no divine permission for it **[Saʿdī]**.
+
+**Rulings.** Declaring something lawful or unlawful as a matter of religion requires authority from God and His revelation, not personal invention **[Maʿārif]**.
+
+**Reflection.** Piety does not authorize a person to attribute private preferences to God as binding law **[Qurṭubī]**.
+
+## 10:60
+
+*“What do those who fabricate lies against God suppose about the Day of Resurrection? Truly God is Possessed of Bounty for mankind, but most of them do not give thanks.”*
+
+**Meaning.** Those who falsely assign prohibitions to God should consider what awaits them on the Day of Resurrection. Al-Ṭabarī explains the question as a warning: they should not suppose that God will simply overlook their false attribution **[Ṭabarī]**. Al-Qurṭubī understands God’s bounty here partly as the respite and security granted to the people of Mecca, while al-Jalālayn also points to the graces given to human beings **[Qurṭubī] [Jalālayn]**. Ibn Kathīr connects the verse with the arbitrary ritual rules criticized in 10:59 **[Ibn Kathīr]**. The Study Quran likewise reads the passage as a rebuke of such practices and a reminder of God’s many blessings **[Study Quran]**.
+
+**Reflection.** Divine generosity gives people room to recognize and correct their error; taking that respite for granted is itself ingratitude **[Saʿdī] [Maʿārif]**.
