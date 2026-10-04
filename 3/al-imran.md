@@ -262,3 +262,24 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** urges readers not to make temporary goods the limit of their hopes. **[Qurṭubī]** balances a warning about preoccupation with the plough, which he says could distract a community from defense, with the sound report that a Muslim’s planting is charity to every person or animal that eats from it *(digression)*. **[Maʿārif]** compares possessions to water around a boat: useful when kept outside the heart, destructive when they flood it *(digression)*. The question is not whether blessings may be enjoyed, but whether they serve the good or displace the lasting return to God.
 
 ---
+
+
+## 3:15
+
+*Say, “Shall I inform you of what is better than that? For those who are mindful of God, with their Lord are Gardens beneath which rivers flow, abiding therein, and purified spouses, and good pleasure from God.” And God sees His servants.*
+
+**Meaning.** The question invites a comparison with the desires just listed: the lasting reward of the God-fearing is better than the fleeting enjoyments of 3:14. **[Jalālayn]** reads it as an affirmative invitation, and **[Ṭabarī]** glosses *those who are mindful* as people who fear God, obey His commands, and avoid what He forbids. Their reward is gardens with rivers flowing beneath them, eternal residence, spouses purified of the impurities and discomforts of worldly life, and God’s approval. **[Ibn Kathīr]** notes that the gardens hold delights beyond what people can imagine; **[Saʿdī]** describes the spouses as complete in character and free of every defect. **[Maʿārif]** observes that the verse names fewer blessings than 3:14 because heirs, money for trade, transport, livestock, and farming are not needed in the Hereafter: their purposes are already fulfilled, and whatever the inhabitants desire is available. It explains that believers’ children will be with them in Paradise, while no one there needs an heir; it cites a report from Jāmiʿ al-Tirmidhī that a resident who nevertheless wishes for a child may be granted one immediately. **[Jalālayn]** explains that God’s final words, “He sees His servants,” mean that He knows their deeds and requites them accordingly; **[Ṭabarī]** contrasts those who obey and prefer the lasting reward with those who follow desire and Satan.
+
+**Context.** The verse answers the catalogue of worldly attractions in 3:14 by naming a greater and enduring return, not by forbidding every worldly blessing. **[Qurṭubī]** compares the contrast to the Prophetic counsel to choose a spouse for religion rather than wealth, status, or beauty.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites Ṣaḥīḥ Muslim’s report that, after the people of Paradise enter it, God asks whether they want anything more. They ask what could be better; He grants them His good pleasure and promises never to be displeased with them. **[Ṭabarī]** transmits a related report from Jābir and notes its corroboration by the sound report from Abū Saʿīd in Ṣaḥīḥ al-Bukhārī, in which the inhabitants say they have received what no one else among creation has been given; **[Study Quran]** likewise presents this exchange as an explanation of divine contentment. **[Maʿārif]** cites what it calls sound reports that fine horses will be brought for the people of Paradise on Fridays; it also cites al-Ṭabarānī on a wish to farm there being fulfilled immediately, without grading that report in this passage. It closes with a report, cited from Ibn Mājah and al-Ṭabarānī, that the world and its contents are blameworthy except what is used to seek God’s pleasure.
+
+**Belief.** God’s *riḍwān*—His approval and good pleasure—is the highest of the promised rewards, greater even than the Garden’s created delights **[Study Quran]**. The report that He will never be displeased with the people of Paradise promises security that their blessings will not be withdrawn **[Qurṭubī] [Maʿārif]**.
+
+**Language.** **[Ṭabarī]** prefers ending the question at “better than that”; “for those mindful of God, with their Lord are Gardens” then states the answer. **[Qurṭubī]** records a possible pause later, at “with their Lord.” The readings *riḍwān* and *ruḍwān* both mean divine approval **[Ṭabarī] [Jalālayn]**. “God sees His servants” also carries the sense that He knows their actions and gives each their just recompense **[Ṭabarī] [Jalālayn]**.
+
+**Cross-references.** Taqwā: 2:2 **[Study Quran]**. Gardens and purified spouses: 2:25; 4:57 **[Study Quran]**. God’s pleasure is greater than the Gardens: 9:72 **[Study Quran] [Ibn Kathīr]**. The mutual language of being content and pleasing: 89:28 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** says the people of felicity take from worldly life what helps them worship God, while those who turn away settle for its temporary pleasures. The verse asks readers to measure present attractions against an eternal home and the approval of the One who sees every servant.
+
+---
