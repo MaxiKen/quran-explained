@@ -345,3 +345,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** calls this the greatest testimony, borne by the greatest witnesses about the greatest truth. By placing people of knowledge beside the angels, the verse gives learning honor and responsibility: knowledge should lead its possessor to testify to divine unity and stand with justice.
 
 ---
+
+## 3:19
+
+*Truly, the religion in the sight of God is submission. Those who were given the Book differed only after knowledge had come to them, out of envy among themselves. And whoever disbelieves in God’s signs—truly, God is swift in reckoning.*
+
+**Meaning.** *Dīn* means religion, obedience, or a way of submission; *islām* is surrender to God in belief and practice **[Ṭabarī] [Qurṭubī]**. **[Jalālayn]** identifies this submission with the divine law brought by the messengers, founded on affirming God’s oneness. **[Qurṭubī]** distinguishes faith and Islam in the hadith of Gabriel, though he notes that the terms can overlap in usage. **[Maʿārif]** and **[Study Quran]** distinguish two senses of Islam: the universal submission taught by all true prophets, and the specific final law revealed to Muḥammad ﷺ. **[Study Quran]** notes that commentators differ in emphasis, with some foregrounding Islam’s universal sense and others its specific final revelation. The people of the Book did not divide because the evidence was absent: **[Ṭabarī]** reads the verse particularly of Christians who disputed about Jesus after knowing the truth; **[Qurṭubī]** records interpretations referring to the Christians of Najrān, to the Jews, or to both. Their *baghy*—envy, rivalry, and desire for worldly authority—led them to divide after knowledge had come **[Ṭabarī] [Qurṭubī] [Saʿdī]**. “Swift in reckoning” means God fully records and requites their rejection without the delay or effort human accounting requires **[Ṭabarī]**.
+
+**Context.** The verse continues the testimony to divine unity in 3:18 and applies it to the disputes among earlier scriptural communities. **[Study Quran]** also notes interpretations that connect their division to later generations who disputed their scriptures, or to their differing responses to Muḥammad ﷺ and the Qurʾān.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** invokes the hadith of Gabriel, in which the Prophet ﷺ distinguishes Islam from faith while defining the practices and beliefs of the religion. He also quotes the definition “faith is knowledge in the heart, speech on the tongue, and action with the limbs,” attributed to the Prophet ﷺ through Ibn Mājah *(weak)*.
+
+**Belief.** **[Maʿārif]** explains that all prophets shared the same essential religion—submission to God and belief in His messengers—while their subsidiary laws differed by era. After Muḥammad ﷺ was sent, his revealed law superseded the earlier codes. **[Ibn Kathīr]** likewise holds that the final prophetic mission closes the accepted route to God through any other religion.
+
+**Language.** *Baghy* here is not ordinary disagreement but transgression and rivalry after the truth is known **[Ṭabarī] [Qurṭubī]**. *Sarīʿ al-ḥisāb* (“swift in reckoning”) also conveys that God’s knowledge and accounting need no calculation or delay **[Ṭabarī]**.
+
+**Stories & occasions.** **[Ṭabarī]** transmits from al-Rabīʿ b. Anas a story that Moses, near death, entrusted the Torah to seventy Israelite rabbis; generations later, their successors split and fought over worldly rule *(Isrāʾīliyyāt)*. **[Ṭabarī]** presents it as an example of how knowledge can be corrupted by ambition.
+
+**Cross-references.** Submission across prophetic communities: 42:13; 10:72; 2:128; 3:52 **[Maʿārif]**. The finality of Islam: 3:85 **[Ibn Kathīr] [Maʿārif] [Study Quran]**. Earlier scriptural communities dividing after clear proof: 98:4 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** stresses that division after knowledge is a moral failure, not an intellectual excuse: envy and the pursuit of status can turn evidence into a source of rivalry. The verse calls readers to make knowledge a path to obedience and unity, not a tool for worldly advantage.
+
+---
