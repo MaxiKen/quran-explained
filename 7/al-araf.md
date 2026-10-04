@@ -2335,3 +2335,571 @@ and the needle measure the distance that pride creates, and the opened gates mea
 faith brings. **[Maʿārif]** sets the same picture inside the sūrah's larger frame — the pledge taken from
 the children of Adam and the two roads leading from it — so that the verse is read not as a description
 of a distant judgment but as the outcome of a promise every human being has already made.
+
+## 7:41
+
+*"For them there is a bed of Hell, and above them coverings; and thus do We recompense the wrongdoers."*
+
+**Meaning.** **[Ṭabarī]** explains the two images as furnishings: *mihād* is what a man spreads out and
+settles on, like a mattress that is spread and a carpet that is laid out; *ghawāsh* is the plural of
+*ghāshiya*, and it is what covers them over from above; so the sense of the sentence is that they have
+from Hell beds beneath them and coverings from it above them, and they are between the two — and the
+reports from Muḥammad b. Kaʿb, al-Ḍaḥḥāk and al-Suddī say the same: the *mihād* are the beds and the
+*ghawāshī* the blankets [Ṭabarī]. **[Jalālayn]** notes the morphology in passing: *ghawāshin* is the
+plural of *ghāshiya*, and its double ending stands in for the omitted *yāʾ*. **[Saʿdī]** reads the verse
+as the fit recompense: for them from Hell is a bed — a mattress beneath them — and above them covers,
+that is, shades of punishment that envelop them; and thus God recompenses the wrongdoers, a recompense
+that matches the deed, for their Lord is not a tyrant to His servants [Saʿdī]. **[Study Quran]** draws
+the image out from the word itself: *mihād*, resting place, is derived from a root meaning to spread out
+and so connotes level ground, a carpet, or other furnishing spread beneath a person; just as Hell shall
+be a resting place spread out beneath them, so too will there be coverings above them, and according to
+39:16 both will be of fire — "above them they shall have canopies of fire and below them canopies; with
+that does God strike fear into His servants" — with the parallel of 29:55: "On the Day when the
+punishment will cover them from above and from beneath their feet, and We shall say, 'Taste that which
+you used to do!'" [Study Quran].
+
+**Language.** **[Ṭabarī]**'s note that the two words are drawn from the vocabulary of furnishing is the
+verse's whole force: the punishment is described in the terms of what a man uses for rest, so that the
+sentence reads like a bitter parody of a bed made ready — what is spread under him is the Fire, and what
+covers him over is the Fire, and there is no bed in the house that is not made of it [Ṭabarī].
+
+**Cross-references.** "Above them they shall have canopies of fire and below them canopies" (39:16);
+"On the Day when the punishment will cover them from above and from beneath their feet" (29:55);
+"Then as for him whose scales are light, his home will be the abyss — and what will make you know what
+it is? A fiercely blazing fire" (101:8–11); "Sitting upon it, and the fire will be above their faces"
+(14:50) [Study Quran] [Jalālayn].
+
+**Reflection.** **[Saʿdī]** closes the verse on its last clause: "thus do We recompense the wrongdoers" —
+the requital is not arbitrary but of the same kind as the act, and the ones who covered over the truth
+in this world are covered over by a covering they cannot remove. **[Study Quran]**'s catena of parallel
+verses gives the image its place in the sūrah's architecture: the sūrah has just described the Garden's
+promise for the ones who fear God, and the bed of fire is set beside it so that the two ends of the road
+are drawn with the same clarity.
+
+## 7:42
+
+*"And those who believe and do righteous deeds — We do not charge a soul beyond its capacity — those are the companions of the Garden; they shall abide therein."*
+
+**Meaning.** **[Ṭabarī]** gives the sense of each part: those who affirmed God and His messenger, who
+acknowledged what came to them of the revelation and the laws of His religion, who did what God commanded
+in obedience and avoided what He forbade — "We do not charge a soul except what is within its capacity,"
+that is, We do not impose on a soul of works anything but what it can carry without distress; "those" —
+the ones described — "are the companions of the Garden," the people who belong to it and to no one else
+among those who disbelieved in God and worked their evil deeds; "they shall abide therein," remaining
+in the Garden forever, never leaving it, never stripped of its bliss [Ṭabarī]. **[Saʿdī]** notes the
+pairing: when God had mentioned the punishment of the disobedient wrongdoers, He mentioned the reward of
+the obedient — those who believed with their hearts and worked righteous deeds with their limbs, joining
+faith to deed, the outward works to the inward, the doing of obligations to the avoidance of the
+forbidden; and since "do righteous deeds" is a general phrase covering all righteous works, obligatory
+and recommended, and some of them may not be within a servant's power, God said, "We do not charge a
+soul beyond its capacity" — that is, according to what its capacity holds, not what its power finds
+difficult; so in that case it fears God according to its ability, and if it is unable to do some
+obligations which others are able to do, they fall from it — as God said, "God does not charge a soul
+beyond its capacity" (2:286), "We do not charge a soul except what We have given it" (65:7), "and He has
+not placed any hardship upon you in the religion" (22:78), "so fear God as much as you are able" (64:16);
+so there is no obligation where there is incapacity, and no prohibition where there is necessity. "Those"
+— those described by faith and righteous work — "are the companions of the Garden, they shall abide
+therein": they do not leave it and do not seek a substitute for it, because in it they see such kinds of
+pleasure and such varieties of what is desired that ends stop there, and nothing higher is asked for
+[Saʿdī]. **[Jalālayn]** gives the grammar: "and those who believe and perform righteous deeds" is the
+subject, "We do not charge a soul beyond its scope," that is, its capacity for action, is a parenthetical
+statement intervening between the subject and its predicate, and the predicate is what follows: "those
+are the inhabitants of Paradise, abiding therein." **[Study Quran]** notes that the assertion that God
+tasks no soul beyond its given capacity is an important Qurʾānic theme found in several verses (2:233,
+286; 6:152; 23:62; 65:7), indicating that nothing is asked of a soul that cannot be accomplished and
+without overwhelming hardship (Ṭ); consequently even the fundamental religious duties of Islam are made
+easier for those in difficult situations — the traveller may shorten his prayers and postpone a
+mandatory fast, and the chronically ill may leave off fasting and substitute charitable donations —
+"because God desires ease for you, and He does not desire hardship for you" (2:185); and for
+al-Zamakhsharī the verse indicates that the human capacity for faith, good works and righteousness is
+vast, not narrow or constrained [Study Quran].
+
+**Rulings.** **[Maʿārif]** reads the interjected clause as mercy attached to the condition: good deeds
+are the condition for entry into the Garden, and the clause makes plain that these good deeds are not
+something so difficult as to be beyond the ability of a man or woman — God has made the injunctions of
+the Sharīʿah flexible and easy in every department of life, and concessions have been granted in every
+injunction keeping sickness, weakness, travel and other human needs in view. According to *al-Baḥr
+al-Muḥīṭ*, when human beings were commanded to do good deeds the likelihood existed that they might find
+this heavy, since doing what is good and required everywhere and under all conditions was beyond one's
+capacity; this doubt was removed by the words that ensure the injunctions of God are given in view of
+the various stages of human life and are appropriate to the prevailing conditions in all circumstances,
+for all times and places — and with such consideration behind them, acting on them should not be
+difficult at all [Maʿārif].
+
+**Cross-references.** "God does not charge a soul beyond its capacity; for it is what it has earned, and
+against it is what it has deserved" (2:286); "We do not charge a soul except what We have given it"
+(65:7); "And He has not placed any hardship upon you in the religion" (22:78); "So fear God as much as
+you are able, and listen and obey" (64:16); "God desires ease for you, and does not desire hardship for
+you" (2:185) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Maʿārif]**'s reading makes the clause a door rather than a footnote: the verse that
+sets good deeds as the price of the Garden immediately states that the price is within reach, so that no
+one may plead that the road is beyond him. **[Saʿdī]** gives the rule its two halves — no obligation
+where there is incapacity, and no prohibition where there is necessity — so that the servant moves
+between the command and his strength with neither despair nor licence.
+
+## 7:43
+
+*"And We shall remove whatever rancor is in their breasts; rivers shall flow beneath them; and they will say, 'Praise be to God, who guided us to this; and we would never have been guided had God not guided us. The messengers of our Lord surely brought the truth.' And it will be proclaimed to them, 'This is the Garden; you have inherited it for what you used to do.'"*
+
+**Meaning.** **[Ṭabarī]** gives the opening: We have taken away from the breasts of those whom He
+described and declared to be the companions of the Garden whatever rancor, hidden malice and enmity
+there was among them in the world — and He has placed them in the Garden, when He brings them into it,
+facing one another on couches, not one of them envying another for any distinction God has singled him
+out with [Ṭabarī]. **[Jalālayn]** reads the three parts in order: We shall strip away all rancor, all
+spite, that existed between them in the world — that is, in their breasts; and beneath them, beneath
+their palaces, rivers flow; and they will say once they have settled in their dwellings, "Praise be to
+God who guided us to this" — the work whose reward is this Garden — "for we would surely never have been
+guided if God had not guided us" — the response to the conditional *law* being omitted because the
+preceding clause indicates it — "verily the messengers of our Lord did bring the truth"; and it is cried
+to them — with the particle read softened, or as an explicative particle in all five places here and the
+four that follow — "this is your Garden; you have inherited it for what you used to do." **[Saʿdī]**
+draws the gift out: this is among God's generosity and beneficence to the people of the Garden — that
+the rancor existing in their hearts, the rivalry between them, God uproots it and removes it, so that
+they become brothers loving one another and companions of pure friendship, as He said, "and We shall
+remove whatever rancor is in their breasts, as brothers, on couches facing one another" (15:47); and God
+creates for them of honour what brings each of them what he desires, so that no one is left coveting
+another's place. And their praise — "praise be to God who guided us to this" — is the acknowledgment
+that the guidance was His, and the clause "and we would never have been guided had God not guided us"
+is the confession of the same truth from the other side; "the messengers of our Lord surely brought the
+truth" is the witness of the people who have now seen with their eyes what they had believed in the
+world; and the proclamation "you have inherited it for what you used to do" ties the gift to the deed
+without making the deed the price [Saʿdī]. **[Qurṭubī]** notes the vocabulary: *al-nazʿ* is the
+extraction, and *al-ghill* is the rancor concealed in the breast — God has taken away in the Garden what
+was in their hearts in the world; and he records the ḥadīth, "Rancor is at the gate of the Garden like
+the resting places of camels; God has removed it from the hearts of the believers," and the report from
+ʿAlī that he hoped that he, ʿUthmān, Ṭalḥa and al-Zubayr would be among those of whom God said, "and We
+shall remove whatever rancor is in their breasts." It was also said that the removal of rancor in the
+Garden means that they will not envy one another in the differing ranks of their stations; and it was
+said that this comes about through the drink of the Garden — "and their Lord shall give them a pure
+drink" (76:21) — which purifies the breasts of their defilements. On the praise, he notes that it is a
+reply to the Qadariyya, since the guided ones themselves attribute their guidance to God [Qurṭubī].
+**[Study Quran]** sets the removal of rancor in sharp contrast to the mutual recriminations of the
+inhabitants of Hell described in vv. 38–39; some read the beginning of the verse to mean "We shall remove
+whatever rancor is in their breasts, while rivers run below them" (Ṭs); and it records an early report
+that as the people of Paradise make their way toward the Garden they will come upon a tree at the base
+of which they will find two springs — they will cleanse themselves with one, which refreshes them and
+restores them to health, and drink from the other and so be purified of all rancor (Ṭ); the rivers
+running below them are one of the primary Qurʾānic descriptions of the Garden, invoked in dozens of
+verses [Study Quran].
+
+**Language.** **[Jalālayn]** notes the grammar of the declaration and the prayer: in "and we would never
+have been guided had God not guided us," the answer to the conditional particle is omitted because what
+precedes indicates it — the reader supplies "we would not have been guided"; and the particle of "that
+it be proclaimed" may be read softened or as explicative, since the proclamation is itself a saying —
+the same in this verse and in the four that follow in the sūrah's report of Paradise [Jalālayn].
+**[Qurṭubī]** notes the reading of Ibn ʿĀmir with the *wāw* omitted in "and we would never have been
+guided," while the rest recite it with the *wāw* — no change of sense, only of conjunction [Qurṭubī].
+
+**Cross-references.** "And We shall remove whatever rancor is in their breasts, as brothers, on couches
+facing one another" (15:47); "And their Lord shall give them a pure drink" (76:21); "Rivers shall flow
+beneath them; they shall have whatever they wish therein" (16:31; cf. 2:25); "And they will say, 'Praise
+be to God, who has fulfilled for us His promise and made us inherit the earth'" (39:74)
+[Saʿdī] [Study Quran].
+
+**Reflection.** **[Qurṭubī]**'s report of ʿAlī is the verse's most human witness: a man of the earliest
+community naming his old disputants and hoping that the promise of the removal of rancor includes them —
+so the verse was read by the first Muslims not as a description of strangers but as the answer to their
+own history. **[Saʿdī]** draws the same lesson: the Garden is described by what is taken out of it as
+well as by what is put into it — rancor removed, ranks granted without envy, praise on the tongue, and a
+proclamation that names the deed while the grace remains God's.
+
+## 7:44
+
+*"And the companions of the Garden will call out to the companions of the Fire, 'We have found what our Lord promised us to be true; have you found what your Lord promised to be true?' They will say, 'Yes.' Then a herald will proclaim between them, 'The curse of God is upon the wrongdoers.'"*
+
+**Meaning.** **[Ṭabarī]** gives the scene: the people of the Garden call the people of the Fire after they
+have entered it — "O people of the Fire, we have found what our Lord promised us in the world on the
+tongues of His messengers, of reward for faith in Him and in them and for obedience to Him, to be true;
+have you found what your Lord promised you on their tongues of punishment for disbelief in Him and for
+disobedience to Him?" — and the people of the Fire answer them: yes, we have found what our Lord
+promised to be true; and al-Suddī said in explanation: the people of the Garden found what they had been
+promised of reward, and the people of the Fire what they had been promised of punishment; and from Ibn
+ʿAbbās: God promised the people of the Garden bliss and honour and every good that people know or do not
+know, and He promised the people of the Fire every shame and punishment that people know or do not know
+— and that is His saying, "and another of the like thereof" (38:58) [Ṭabarī]. **[Saʿdī]** reads the
+verse as the seal of the two promises: God says this after mentioning the settling of each of the two
+parties in its abode, and their finding what the messengers had told them and the books had spoken of,
+of reward and punishment — the people of the Garden call out to the people of the Fire: we have found
+what our Lord promised us to be true, when He promised us, on faith and righteous work, the Garden, and
+He has brought us into it and shown us what He described to us; have you found what your Lord promised
+you, on disbelief and disobedience, to be true? They say: yes, we have found it true; and so the truth
+of God's promise is made plain to all creation with a clarity in which there is no doubt, and "who is
+truer in speech than God?" — doubts and ambiguities fall away, the matter becomes the truth of certainty,
+the believers rejoice in God's promise, and the disbelievers despair of good and admit against themselves
+that they deserve the punishment. Then a herald proclaims between them, between the people of the Fire
+and the people of the Garden: "the curse of God" — His remoteness and expulsion from every good — "upon
+the wrongdoers," who, when God opened for them the doors of His mercy, turned themselves away from it
+wrongfully and barred others from the way of God, turning away themselves and turning others away, so
+that they strayed and led others astray; God wants the way to be straight and the walk of those who walk
+to Him to be even, and these want it crooked, deviating and barring from the even road, "and they were,
+of the Hereafter, disbelievers" (7:45) — and it was their lack of faith in the resurrection, their lack
+of fear of punishment and hope of reward, that brought them to swerve from the path and to turn to the
+forbidden desires of the self [Saʿdī]. **[Jalālayn]** adds that the address of the people of the Garden
+is either in affirmation or in reprimand, and that the crier, the caller, will proclaim between them —
+between the two parties, making them hear — that God's curse is upon the wrongdoers [Jalālayn].
+**[Study Quran]** notes that there are several places in the Qurʾān where the disbelievers acknowledge
+the truth of the promises and warnings brought by the prophets, but only belatedly, when it can bring
+them no benefit and cannot avert their punishment — sometimes when faced with judgment immediately upon
+or after death (6:30, 130), sometimes only when they are in or about to enter Hell (39:71; 40:49–50;
+46:34; 67:8–10); here it is the inhabitants of Paradise who question those in Hell; and it notes that
+after the victory at Badr the Prophet is reported to have addressed the dead among his Makkan enemies
+in similar words [Study Quran].
+
+**Ḥadīth & āthār.** **[Study Quran]** records the report of the Prophet's address to the slain of Badr:
+he stood over them and called them, asking whether they had found what their Lord had promised them to
+be true, and said that they heard what he said — the report being cited in connection with this verse's
+question and answer between the two abodes; and **[Ḥadīth & āthār]** the Qurʾānic conversations between
+the people of the Garden and the people of the Fire continue beyond this verse, as at 37:55–60 and
+57:13–14 [Study Quran].
+
+**Cross-references.** "And they will say, 'Yes, by our Lord'" (6:30); "And they will say, 'Yes indeed,
+the promise of our Lord has come to pass'" (cf. 7:53); "And another of the like thereof" (38:58);
+"Thereupon a wall with a gate will be set down between them, the inner side of which contains mercy and
+the outer side of which lies punishment" (57:13); "Then will they admit their sin; so away with the
+companions of the Blaze" (67:11) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** draws the verse's lesson from the direction of the question: the people of
+the Garden are the ones who speak first, and what they say is not a boast but a testimony — the promise
+they believed unseen is now in their hands; and the answering "yes" of the people of the Fire is the
+last word of a history of denial, spoken where it can no longer be of use. **[Study Quran]**'s note that
+the same acknowledgment is delayed everywhere in the Qurʾān until it is useless makes the verse's
+placement pointed: the sūrah has shown the destroyed towns confessing at the coming of the punishment
+(7:5), and here, at the far end of the same road, the confession is heard again — with the herald's curse
+spoken over it.
+
+## 7:45
+
+*"Those who turn away from the way of God and seek to make it crooked, and who disbelieve in the Hereafter."*
+
+**Meaning.** **[Jalālayn]** identifies the wrongdoers of the previous verse: those who bar people from
+God's way — from His religion — desiring it, that is, seeking the way, to be crooked, disbelieving in
+the Hereafter. **[Saʿdī]**, reading 7:44–45 as one unit, explains that when God opened for them the
+doors of His mercy they turned themselves away from it wrongfully and barred others from the way of God,
+turning away themselves and turning others away, so that they strayed and led others astray: God wants
+the way to be straight and the course of those who walk to Him to be even, and these want it crooked,
+deviating, barring from the even road; and the thing that brought them to swerve from the path and to
+turn to the forbidden desires of the self was their disbelief in the resurrection, their lack of fear of
+the punishment and of hope in the reward [Saʿdī]. **[Study Quran]** gives the two senses of the first
+phrase: the disbelievers are described as those who turn from the way of God, which can mean both that
+they themselves turn away from the path of God as established by the laws and teachings brought by the
+prophets, and that they seek to turn others away from it — done sometimes by force (R) and sometimes by
+other means, such as seeking to make it crooked (see also 3:99; 7:86; 11:19; 14:3), that is, by
+distorting or altering it (Ṭ) or obscuring it or mixing it with their own whims and desires (Ṭs), so
+that it is no longer the "straight path" — a phrase the Qurʾān uses in many verses to denote the true
+religious path that leads to salvation [Study Quran].
+
+**Language.** **[Study Quran]** notes that the verse is nearly identical to 11:19, and that the two
+verbs of the verse are a pair of opposites to the straight path: *ʿiwaj*, crookedness, is what they seek
+to give the road, and the word carries the sense of deviation and distortion rather than mere
+unevenness — the road is made to look wrong so that walkers leave it [Study Quran]. **[Jalālayn]** reads
+"desiring it crooked" as the inner intention that accompanies the outward barring: the same people who
+stand in the road want the road itself to look crooked [Jalālayn].
+
+**Cross-references.** "And they turn away from the way of God, and seek to make it crooked" (11:19);
+"Those who disbelieve and bar people from the way of God" (16:88); "Say: This is my way; I call to God
+with clear proof" (12:108); "And do not sit in every path, threatening and barring from the way of God
+those who believe in Him, and seeking to make it crooked" (7:86) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** joins the two parts of the verse causally: the disbelief in the Hereafter is
+named last, but it is the root named by the verse itself — the man who does not expect an accounting has
+no reason to keep the road straight, and so he both leaves it and makes it crooked for others.
+**[Study Quran]** observes that the verse, like 11:19, presents the wrongdoers as a movement rather than
+a set of individuals: they leave, they block, they bend the road, and the curse proclaimed in v. 44 is
+the answer to that whole activity.
+
+## 7:46
+
+*"And between them there is a veil; and on the Heights are men who know each by their marks. And they call out to the companions of the Garden, 'Peace be upon you!' They have not entered it, though they hope."*
+
+**Meaning.** **[Ṭabarī]** explains the veil: between the Garden and the Fire there is a barrier — the wall
+God mentioned when He said, "and there will be set down between them a wall with a gate, the inner side
+of which contains mercy and the outer side of which lies punishment" (57:13) — and it is the Heights of
+which God says, "and on the Heights are men." Mujāhid said the Heights are a barrier between the Garden
+and the Fire, and al-Suddī said the same: the barrier is the wall, and it is the Heights. He then gives
+the language: *al-aʿrāf* is a plural whose singular is *ʿurf*, and every elevated part of the ground in
+Arabic is an *ʿurf* — the comb of the rooster being called *ʿurf* because of its rising above the rest
+of its body, and the poets use the word for the high ridges of the earth [Ṭabarī]. **[Jalālayn]** reads
+the verse in sequence: between them — between the inhabitants of the Garden and those of the Fire — is a
+veil, a barrier said to be the wall of the Heights; and on the Heights, which is the wall of Paradise,
+are men whose good and evil deeds are equal, as is stated in the ḥadīth, who know each of the two
+parties by their mark — glowing faces in the case of the believers and blackened ones in the case of the
+disbelievers, for they are able to see them, their position being high — and they call out to the
+inhabitants of the Garden, "Peace be upon you!" God says: they, the men of the Heights, have not entered
+it — Paradise — although they aspire to enter it; and al-Ḥasan al-Baṣrī said, "God causes them to have
+this aspiration only because He desires to be generous to them," and al-Ḥākim reported that Ḥudhayfa b.
+al-Yamān said, "While they are in this situation God appears to them and says, 'Get up and enter
+Paradise, for I have forgiven you'" [Jalālayn]. **[Saʿdī]** gives the same scene with its effect: between
+the people of the Garden and the people of the Fire there is a veil called the Heights, belonging
+neither to the Garden nor to the Fire, overlooking both abodes and showing whoever stands on it the
+state of the two parties; and on this veil are men who know each of the people of the Garden and the
+Fire by their mark, the signs by which they are known and distinguished; when they look at the people of
+the Garden they call out to them, "Peace be upon you!" — greeting them and giving them peace — while
+they themselves have not yet entered the Garden, though they hope to enter it; and God has not put that
+hope in their hearts except for the honour He intends for them [Saʿdī].
+
+**Ḥadīth & āthār.** **[Qurṭubī]** reports that the scholars have spoken about the companions of the
+Heights in ten views. Ibn Masʿūd, Ḥudhayfa b. al-Yamān, Ibn ʿAbbās, al-Shaʿbī, al-Ḍaḥḥāk and Ibn Jubayr
+said they are a people whose good deeds and evil deeds are equal; and Ibn ʿAṭiyya said that in the
+*Musnad* of Khaythama b. Sulaymān there is a ḥadīth from Jābir b. ʿAbdillāh in which the Messenger of God
+ﷺ said: "The scales will be set up on the Day of Resurrection, and good deeds and evil deeds will be
+weighed; whoever's good deeds outweigh his evil deeds by the weight of a speck will enter the Garden,
+and whoever's evil deeds outweigh his good deeds by the weight of a speck will enter the Fire" — it was
+said, "Messenger of God, and the one whose good and evil deeds are equal?" He said, "Those are the
+companions of the Heights," of whom God says, "they have not entered it, though they hope." Mujāhid said
+they are a righteous people, jurists and scholars; it was said they are the martyrs, mentioned by
+al-Mahdawī; al-Qushayrī said it was said they are the excellent among the believers and the martyrs, who
+have finished with their own affairs and turned to observing the state of people — when they see the
+people of the Fire they seek refuge with God from being returned to the Fire, for all things are within
+God's power, and the contrary of what is known is still possible for Him; and when they see the people
+of the Garden, not yet having entered it, they hope for them to enter. Sharḥabīl b. Saʿd said they are
+those slain in the way of God who had gone out disobeying their parents — and al-Ṭabarī mentioned a
+ḥadīth from the Prophet ﷺ on that, that their undutifulness and their martyrdom were of equal weight.
+Al-Thaʿlabī mentioned with his chain from Ibn ʿAbbās concerning "and on the Heights are men" that the
+Heights are a place elevated above the Path, on which are al-ʿAbbās, Ḥamza, ʿAlī b. Abī Ṭālib and
+Jaʿfar Dhū al-Janāḥayn, knowing their lovers by the whiteness of faces and their haters by the blackness
+of faces *(weak)* — a report whose chain does not bear the weight of the names it carries. Al-Zahrāwī
+said they are the witnesses of the Resurrection who testify against people about their deeds, in every
+community, and al-Naḥḥās preferred this view and said it is among the best of what has been said, for
+they stand on the wall between the Garden and the Fire. Al-Zajjāj said they are a people of prophets.
+It was also said they are a people who had small sins not expiated by pains and calamities in the world
+and had no great sins, so they are held back from the Garden so that a grief may reach them, to stand
+against their small sins. And Sālim, the client of Abū Ḥudhayfa, wished to be of the companions of the
+Heights, since his view was that they are sinners. And it was said they are the children of adultery,
+mentioned by al-Qushayrī from Ibn ʿAbbās; and it was said they are angels charged with this wall who
+distinguish the disbelievers from the believers before they are entered into the Garden and the Fire,
+mentioned by Abū Mijlaz [Qurṭubī]. **[Study Quran]** adds further identifications that the tradition
+carried: those who joined the fight without the permission of their fathers, who would enter Paradise
+only belatedly and may be identified with those who await the command of God (9:106) (IK, Th); some have
+likened the *aʿrāf* to a kind of purgatory — a temporary middle ground or *barzakh* for those not placed
+immediately in either Paradise or Hell — from which its occupants move only upward toward Paradise; most
+commentators indicate that those on the Heights will eventually enter Paradise, but many note that they
+will be the last to do so (R, Th), or that they are referred to as the "poor" in Paradise (IK, Th); some
+identified them with those who did not attain to moral responsibility, either because of their youth at
+the time of their death or as a result of mental deficiency or illness (Ṭb); and al-Ghazzālī identified
+the people on the Heights as those whom the call to true religion had not reached, occupying this place
+between Paradise and Hell where they experience peace but have neither the joy of being brought near to
+God nor the torment of being distant from Him (Aj). Insofar as the Heights were considered to represent
+an intermediate state in the Hereafter, there was much further speculation: the offspring of idolaters,
+the believers among the jinn, and those who did good deeds only for the sake of earthly reward (IK); and
+another set of interpretations considers the Heights to be a reference to an exalted spiritual station,
+identifying its people with groups possessing exceptional spiritual qualities, such as those who are
+righteous and possess religious knowledge and understanding (Th) [Study Quran].
+
+**Cross-references.** "And there will be set down between them a wall with a gate, the inner side of
+which contains mercy and the outer side of which lies punishment" (57:13); "And We shall remove whatever
+rancor is in their breasts, as brothers, on couches facing one another" (15:47); "Peace be upon you,
+because you were patient; and excellent is the final home" (13:24); "And those who fear their Lord will
+be driven to the Garden in throngs, until, when they reach it, its gates will be opened and its keepers
+will say, 'Peace be upon you; you have done well, so enter it, abiding'" (39:73); "Those who await the
+command of God" (9:106) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Qurṭubī]**'s catalogue of ten views is itself the verse's lesson: the Qurʾān leaves
+the identity of the Heights' people unnamed, and the community's teachers filled the silence with
+possibilities — the balance of deeds, the witness, the withheld, the unreached — a range the reader is
+left to hold without deciding. **[Study Quran]** observes that the most widely held reading places them
+on a middle height whose occupants wait, and that whatever identification is chosen, the verse's own
+words give the state: they have not yet entered, and they hope — the two halves of the middle state, set
+between the people who are inside and the people who are past hoping.
+
+## 7:47
+
+*"And when their eyes are turned toward the companions of the Fire, they say, 'Our Lord, do not place us with the wrongdoing people.'"*
+
+**Meaning.** **[Jalālayn]** reads the words with their movement: when their eyes — the eyes of the men of
+the Heights — are turned in the direction of the inhabitants of the Fire, they shall say, "Our Lord, do
+not assign us to the Fire with the evildoing folk." **[Saʿdī]** gives the sequence of the men's glances:
+when the eyes of the people of the Heights are turned toward the people of the Fire and they see a
+hideous sight and a dreadful terror, they say, "Our Lord, do not place us with the wrongdoing people";
+and the people of the Garden, when the people of the Heights see them, hope to be with them in the
+Garden and greet them with peace, while at the turning away of their eyes — turned without their
+choosing toward the people of the Fire — they seek refuge with God from their state, and they do so in
+general terms, not naming any particular wrongdoer [Saʿdī]. **[Study Quran]** notes the same movement:
+when they see those in Hell they appeal to God's mercy (Z), asking Him to spare them — that is,
+themselves — the fate of being placed among the wrongdoing people [Study Quran]. **[Qurṭubī]** notes
+that the prayer's phrase avoids claiming any exemption from wrong in general and asks only not to be
+placed with the wrongdoers in their punishment: the man who does not know his end prays the way the
+Heights' people pray [Qurṭubī].
+
+**Language.** **[Jalālayn]** gives *tilqāʾa* in the sense of "in the direction of": the turn of the eyes
+is described from the outside, as if the glance were pulled toward the Fire, and the prayer is the
+response of the person whose eyes have been so drawn [Jalālayn]. **[Saʿdī]** observes that their eyes
+turn "without their choosing," so that the verse's phrasing describes both what they do and what is
+done to them, and the prayer for refuge is the counterweight of the sight [Saʿdī].
+
+**Cross-references.** "Our Lord, do not place us with the wrongdoing people" (7:47; cf. 23:94); "Do not
+place me among the wrongdoers" (11:47? cf. 23:39); "And when they see it, they will be in grief" (cf.
+43:17); "Our Lord, we have believed, so forgive us and have mercy on us" (23:109) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** draws the practical note from the prayer's placement: the men who stand on
+the Heights see the Fire and ask not to be with its people, and the reader who hears them is meant to
+learn that the sight of a thing's people is the strongest warning against the thing itself.
+**[Qurṭubī]**'s observation gives the petition its modesty: they do not claim to be free of wrong but
+ask to be kept from the wrongdoers' company, which is the prayer of a man who knows his soul.
+
+## 7:48
+
+*"And the companions of the Heights will call out to men whom they know by their marks, saying, 'Of no avail to you was your gathering, and what you were arrogant about.'"*
+
+**Meaning.** **[Jalālayn]** reads the address: the men of the Heights call to men from among the
+inhabitants of the Fire whom they know by their mark, saying, "your masses of property or your multitude
+and your haughtiness" — that is, your disdaining of belief — "have not availed you" as protection
+against the Fire; and they also say to them, pointing to those formerly oppressed Muslims [Jalālayn].
+**[Saʿdī]** draws the particular after the general: God mentions the particular after the general —
+the companions of the Heights call men they know by their marks, and they are among the people of the
+Fire; they had in the world grandeur and nobility, wealth and children, so the companions of the Heights
+say to them when they see them isolated in the punishment, with no helper and no rescuer: "of no avail
+to you was your gathering" — that is, the wealth and followers by which you sought to ward off harm and
+to reach your goals in the world — for today it has vanished and availed you nothing; and likewise, what
+benefited you in your arrogance against the truth, against what the messengers brought and against those
+who followed it? [Saʿdī]. **[Study Quran]** notes that the men whom they know by their marks refers
+specifically to those in Hell, and that "your gathering" may refer both to their acquisition of wealth
+and to their increasing number (R, Ṭ, Ṭs): although they may have amassed great wealth and outnumbered
+the believers in their earthly life, their greater wealth and numbers offer them no protection in the
+Hereafter — for those who disobey God, their wealth and children increase them in naught but loss
+(71:21; see also 17:6 and 34:35–37, where wealth and children can neither thwart punishment nor bring
+one closer to God); and the idea that disbelievers and wrongdoers are great in number, perhaps even a
+majority, is suggested in various verses (cf. 2:243; 5:100; 6:116; 7:102, 187; 10:60; 11:17; 12:21;
+13:1; 17:89), while waxing arrogant is an attitude commonly attributed to disbelievers (e.g., 6:93;
+7:133, 146; 10:75) [Study Quran].
+
+**Language.** **[Saʿdī]** notes that the two things named in the rebuke — the gathering and the arrogance
+— correspond to the two things the men of the Heights had already observed: the crowds who gathered and
+the proud bearing those crowds produced; the sentence strips both in a phrase [Saʿdī]. **[Jalālayn]**
+makes clear that *jamʿ* here can be read as the multitude itself, so that the point is not merely
+wealth but the numbers in which the powerful trusted [Jalālayn].
+
+**Cross-references.** "And whatever wealth or children you have increased you in naught but loss" (71:21
+region); "Their wealth and their children will not avail them against God" (3:10); "And they were proud,
+and they were a people exalting themselves" (7:133 region; cf. 6:93; 10:75); "And We did not send you as
+a keeper over them" (cf. 6:107) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading gives the rebuke its precision: the two things the men of the
+Heights name are exactly the two things their hearers had counted on — the crowd behind them and the
+height they stood on — and both are shown to have been measures of this world that do not travel.
+**[Study Quran]** adds the scriptural background to the same point: the Qurʾān repeatedly warns that
+majority and plenty are not signs of being right, and the verse gives that warning a voice in the world
+where the counts can no longer be made.
+
+## 7:49
+
+*"'Are these the ones of whom you swore that God would not extend them mercy? Enter the Garden — no fear shall come upon you, nor shall you grieve.'"*
+
+**Meaning.** **[Jalālayn]** reads the question and the answer as spoken to the people of the Fire about
+the people of the Garden: "Are these the ones of whom you swore that God would never grant them mercy?"
+— and it has already been said to them, "Enter Paradise; no fear shall come upon you, nor shall you
+grieve"; and it notes the variant readings for *udkhulū*: the imperative "enter," the passive
+"they have been admitted," or the narrative "they entered" — with the negation "no fear shall come upon
+you nor shall you grieve" as a circumstantial qualifier, that is, they enter the Garden while these words
+are being said to them [Jalālayn]. **[Saʿdī]**, in his reading of the passage, gives the scene: the men
+of the Heights point out to the people of the Fire a group of the people of the Garden who had been in
+the world poor and weak, mocked by the people of the Fire — "are these," they say to them, "the ones whom
+God has brought into the Garden, the ones you swore God would not reach with mercy?" — a pointing that
+turns their mockery into a monument; and to those admitted, God says, "Enter the Garden; no fear shall
+come upon you, nor shall you grieve" [Saʿdī]. **[Study Quran]** notes that those in Hellfire are asked
+rhetorically and ironically, "Are these — that is, those who had seemed lowly in earthly life, but who
+now enjoy great status and bliss in Paradise (R) — the ones concerning whom you swore that God would not
+extend any mercy?"; the question may be posed by the people of the Heights as a continuation of the
+statement in v. 48, but may also be spoken by God (IK, Ṭ) or by the angels (Ṭ); and it refers to the
+disbelievers' tendency to dismiss the idea that God could show favour to those who were of low social
+status in the life of this world (see, e.g., 6:53); for the description of the paradisal state as one
+in which no fear shall come upon you nor shall you grieve, see 7:35 [Study Quran]. **[Ṭabarī]** records
+the views of who is meant. Ibn ʿAbbās said: the companions of the Heights are men who had great sins,
+and their affair was left to God's decision; they stood on the Heights, and when they looked at the
+people of the Garden they longed to enter it, and when they looked at the people of the Fire they sought
+refuge with God from it — so they were admitted to the Garden, and that is God's saying, "are these the
+ones of whom you swore that God would not reach them with mercy?", meaning the companions of the
+Heights, "enter the Garden; no fear shall come upon you, nor shall you grieve." And from Ibn ʿAbbās on
+another report: God said to the people of pride and wealth, "are these the ones of whom you swore…,"
+meaning the companions of the Heights [Ṭabarī]. Al-Suddī said: "are these" the weak ones, "of whom you
+swore that God would not reach them with mercy — enter the Garden…" — and Ḥudhayfa said: the companions
+of the Heights are a people whose deeds were equal, their good deeds falling short of the Garden and
+their evil deeds falling short of the Fire, so they were placed on the Heights [Ṭabarī].
+
+**Belief.** **[Ṭabarī]** records the doctrinal point that the verse settles: the oath of the people of
+the Fire — that God would not reach this lowly group with mercy — is shown false, and the admission of
+the Heights' people and of the weak into the Garden is the proof; the men of the Heights are admitted by
+the same mercy whose reach their opponents denied, and the verse is thus a testimony against the habit
+of measuring divine favour by worldly standing [Ṭabarī]. **[Study Quran]** notes the same social point:
+6:53 and its commentary record the disbelievers' dismissal of the lowly believers, and this verse answers
+that dismissal with the sight of the "poor" of Paradise [Study Quran].
+
+**Cross-references.** "And do not drive away those who call upon their Lord morning and evening,
+seeking His face" (6:52); "Is it not God who knows best who is grateful?" (cf. 6:53); "And to those who
+feared their Lord, the Garden; they shall have whatever they wish" (16:31; cf. 39:74); "Then as for him
+whose scales are heavy, he will live a pleasant life" (101:6–7) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Ṭabarī]**'s collation of the views leaves the verse with a double edge: the question
+is asked over some people in the Fire about some people in the Garden, and in either reading it is the
+worldly estimate that is overturned — whether the ones named are the men of the Heights or the weak
+believers, the oath sworn against them fails. **[Study Quran]** adds the pastoral reading: what looked
+like the last word about a person — his poverty, his obscurity, the mockery of the powerful — is not the
+last word, and the verse gives the reader the sight of the reversal without naming any individual.
+
+## 7:50
+
+*"And the companions of the Fire will call out to the companions of the Garden, 'Pour down upon us some water, or of that which God has provided you.' They say, 'Truly God has forbidden both to the disbelievers.'"*
+
+**Meaning.** **[Jalālayn]** gives the scene compactly: the inhabitants of the Fire call out to the
+inhabitants of Paradise, saying, "pour on us some water, or some of that food which God has provided
+you"; they say, "God has forbidden — He has prohibited — both to the disbelievers" [Jalālayn].
+**[Saʿdī]**, reading 7:50–52 as one unit, sets the request in the extremity of the torment: the
+companions of the Fire call the companions of the Garden when the punishment has reached its utmost and
+intense hunger and painful thirst have touched them — they appeal for help to them, saying, "pour on us
+some water, or of what God has provided you" of food — and the people of the Garden answer them with
+their saying, "God has forbidden them both to the disbelievers" — that is, the water of the Garden and
+its food — as a recompense for their disbelief in God's signs and for their taking the religion they were
+commanded to keep straight, and for which they were promised abundant reward, as amusement and play —
+their hearts were diverted from it and turned away, and they made of it a mockery; or they made amusement
+and play the replacement of their religion, and exchanged the straight religion for that. "And the life
+of this world deceived them" with its adornment and its glitter and the number of its callers, so they
+were at peace with it and pleased with it and rejoiced, and turned away from the Hereafter and forgot
+it; "so this Day We shall forget them" — that is, We leave them in the punishment — "as they forgot the
+meeting of this Day of theirs," as though they had not been created except for this world and had no
+exposure and no requital before them, "and as they used to deny Our signs." And their denial was not for
+any deficiency in God's signs — rather, "We have brought them a Book which We have detailed with
+knowledge, a guidance and a mercy for a people who believe" [Saʿdī]. **[Qurṭubī]** fills in the
+narrative: it was said that when the people of the Heights went to the Garden, the people of the Fire
+were filled with longing, and they said, "our Lord, we have relatives in the Garden; give us leave to
+see them and speak to them" — and the people of the Garden do not recognize them because of the blackness
+of their faces; and they say, "pour on us some water, or of what God has provided you"; and it is thereby
+made plain that the son of Adam cannot do without food and drink even when he is in punishment. "They
+said, 'God has forbidden both to the disbelievers'" — the food of the Garden and its drink; and
+*al-ifāḍa* is the pouring out in abundance, as one says, "God poured out His blessings upon him"
+[Qurṭubī]. **[Ibn Kathīr]** records the reports: al-Suddī said the request is for food; and Saʿīd b.
+Jubayr said that one of them will call his father or his brother, "I have been burned, so pour some water
+on me," and the believers will be asked to reply, and they will reply, "God has forbidden them both to
+the disbelievers"; and ʿAbd al-Raḥmān b. Zayd b. Aslam said the two forbidden things are the food and
+the drink of Paradise [Ibn Kathīr]. **[Study Quran]** notes that the request of the inhabitants of Hell
+that those in Paradise pour some water down upon them suggests that Paradise is situated symbolically
+above Hell (R, Z) and indicates the terrible heat and thirst generated by the Fire (R, Ṭs); the
+inhabitants of Hell also request some of that which God has provided — meaning the other drinks of
+Paradise (Z), such as honey, milk or wine, or else the food and fruits that God has provided for them in
+the Garden (Ṭ, Ṭs, Z) — which indicates that hunger too is one of the torments of Hell (R); and according
+to al-Zamakhsharī they ask for relief in this way even though they despair of its ever being granted,
+because of the confusion and desperation their circumstances generate. The water they ask for can be
+interpreted as a symbol of mercy, and what God has provided as a reference to the nearness and intimacy
+with God granted to those in Paradise (Su); both are denied to those in Hell [Study Quran].
+
+**Rulings.** **[Qurṭubī]** draws from the verse a legal encouragement: it contains a proof that giving
+water to drink is among the most excellent of actions — Ibn ʿAbbās was asked which charity is best, and
+he said, "water; do you not see the people of the Fire when they appealed for help to the people of the
+Garden, 'pour on us some water, or of what God has provided you'?" — and Abū Dāwūd reported that Saʿd
+came to the Prophet ﷺ and asked which charity was most pleasing to him, and he said, "water" — in one
+report he dug a well and said, "this is for Saʿd's mother" — and from Anas, that Saʿd said, "Messenger of
+God, my mother loved charity; will it benefit her if I give charity on her behalf?" He said, "Yes, and
+let it be water" [Qurṭubī].
+
+**Cross-references.** "And if they cry for help, they will be helped with water like molten brass that
+scalds the faces" (18:29); "And they will be given to drink a boiling fluid and a festering drink"
+(6:70 region); "And they will say, 'Our Lord, give us of the light'" (cf. 57:13); "And shake toward
+yourself the trunk of the palm tree; fresh ripe dates will fall upon you" (19:25) [Ibn Kathīr]
+[Study Quran].
+
+**Reflection.** **[Qurṭubī]**'s legal note turns the verse's misery into instruction: the image of the
+damned begging for water is taken by the early community as the measure of the deed — the cup given in
+this world is the thing the Fire's people ask for in the next — and the scholars cited it as the reason
+water is counted among the best of charities. **[Saʿdī]** closes the passage on the cause: the denial of
+the signs, the religion taken as play and the life of the world that deceived them; the question between
+the two abodes is answered by the answer that the food and drink were forbidden not out of stinginess but
+as the fruit of a choice.
