@@ -128,3 +128,45 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** calls returning the ambiguous to the clear a mark of sound understanding; **[Ibn Kathīr]** notes that both kinds of verse come from one Lord and testify to one another. **[Study Quran]** warns that interpreters can call a passage “clear” when it suits them and “ambiguous” when it does not *(digression)*. The verse therefore asks not only what a reader can make a text say, but whether the reading is disciplined by the Book’s clearest teachings and by intellectual humility.
 
 ---
+
+
+## 3:8
+
+*Our Lord, do not let our hearts swerve after You have guided us; grant us mercy from Your Presence. You are indeed the Bestower.*
+
+**Meaning.** **[Ṭabarī]** reads this as the continued prayer of the firmly rooted in knowledge: they ask God not to turn their hearts away from the truth after guiding them, especially not to let them imitate those who exploit ambiguous verses to create confusion. The mercy they ask for is enabling and steadfastness in the faith they have professed. **[Jalālayn]** likewise glosses the plea as protection from inclining away from truth through an interpretation unsuited to them. **[Qurṭubī]** records several explanations: they may be asking not to be burdened with trials or duties beyond their strength, and more generally not to be left to a deviation that would bring divine punishment. **[Maʿārif]** emphasizes that their prayer seeks lasting salvation, not worldly advantage.
+
+**Context.** The supplicants are the “firmly rooted in knowledge” of 3:7, whose response to revelation is both faith and humility. Their prayer shows that knowledge does not make anyone self-sufficient or immune to losing the way. **[Ṭabarī] [Saʿdī] [Maʿārif]**
+
+**Ḥadīth & āthār.** **[Qurṭubī] [Ibn Kathīr] [Maʿārif]** transmit Umm Salamah’s report that the Prophet ﷺ often prayed, “O Turner of hearts, make my heart firm upon Your religion.” When she asked why he prayed so, he replied that every human heart is between two of God’s fingers: He makes it firm or turns it aside as He wills. The report then applies this verse as a prayer for steadfastness; al-Tirmidhī grades the report *ḥasan*, and al-Ṭabarī’s editor calls its chain sound **[Ṭabarī]**. **[Qurṭubī]** also reports that Abū Bakr recited this verse in the third rakʿah of Maghrib during the wars against apostasy, as a supplication for the community.
+
+**Rulings.** From Abū Bakr’s practice, **[Qurṭubī]** notes that a form of *qunūt* may be made in Maghrib and, in a grave crisis, in any prayer; the scholars he cites differ over the regular practice.
+
+**Belief.** The prayer acknowledges that hearts are not beyond God’s power to guide or turn. **[Maʿārif]** stresses that believers therefore ask Him for firmness rather than presuming their present faith is secure. **[Saʿdī]** also links deviation to a person’s prior choice to turn from truth and choose falsehood; when God then leaves that person to the course he chose, it is recompense, not injustice. **[Ṭabarī] [Qurṭubī]** use the verse in a theological digression against the Muʿtazilite claim that God does not cause hearts to deviate *(digression)*.
+
+**Language.** *Tuzigh* means to incline or swerve from the right course. **[Qurṭubī]** explains “from Your Presence” (*min ladunka*) as a plea for mercy granted by God’s grace, not a reward owed for the supplicants’ own deeds. **[Study Quran]** notes that *ladun* can mean “at” or “in the presence of,” and that this wording later contributed to the term *al-ʿilm al-ladunī*, knowledge granted by God. Qurṭubī rejects the use of the verse to claim that book learning is a veil and that esoteric knowledge makes study unnecessary *(digression)*.
+
+**Readings.** **[Qurṭubī]** records Abū Wāqid al-Jarrāḥ’s reading with the verb assigned to the hearts—“let our hearts not swerve”—rather than the standard wording, “do not cause our hearts to swerve”; he says both preserve the prayer for protection from deviation.
+
+**Cross-references.** 61:5; 9:127; 6:110 **[Saʿdī]**. For “from Your Presence”: 18:10; 18:65 **[Study Quran]**.
+
+**Reflection.** The prayer follows confession of belief with a request to remain faithful: conviction is not treated as a possession that needs no care. It asks for both steadfastness and mercy, recognizing that guidance is a gift to seek continually. **[Saʿdī] [Maʿārif]**
+
+---
+
+
+## 3:9
+
+*Our Lord, surely You will gather mankind on a Day of which there is no doubt. Surely God never breaks the promise.*
+
+**Meaning.** **[Ṭabarī]** reads the statement as both confession and supplication: the firmly rooted affirm the gathering for judgement, while implicitly asking God to forgive them on that Day and keep them steadfast in faith and good deeds until death. Their appeal rests on His promise to admit those who believe, follow His Messenger, and obey His revelation. **[Ibn Kathīr]** explains that God will assemble creation, judge their disputes, and reward or punish them for what they did. **[Qurṭubī]** identifies the verse as an affirmation of resurrection; he cites al-Zajjāj’s view that this is knowledge of the promised return accessible to the firmly rooted, while those who follow ambiguous passages deny it. **[Jalālayn]** notes that the prayer shows the believers’ concern for the Hereafter and the reward of remaining on the path of guidance. **[Maʿārif]** likewise frames the preceding prayer for steadfastness as a request for salvation in the next life.
+
+**Belief.** The gathering is certain, and God’s promise is not subject to failure. **[Saʿdī]** says belief in resurrection and requital is foundational to sound hearts: it motivates readiness for that Day and desire for good, while restraining evil.
+
+**Language.** *Mīʿād* denotes an appointed meeting or promised tryst. **[Qurṭubī]** derives it from the root of “promise”; **[Study Quran]** notes its use for God’s promises and threats concerning the Hereafter. **[Jalālayn]** observes a shift from addressing God as “You” to speaking of “God” in the final clause, which may be read as a divine affirmation. **[Study Quran]** relates *mīʿād* to *mawʿid* and to *waʿd* and *waʿīd*—promise and threat—and notes that these terms can refer both to what is promised and to its fulfillment.
+
+**Cross-references.** On the appointed tryst: 13:31; 34:30; 39:20 **[Study Quran]**. For related use of “tryst”: 11:17; 20:58 **[Study Quran]**.
+
+**Reflection.** The verse turns the scholars’ prayer from asking for inner steadiness to remembering the day on which every person will stand before God. Certainty about that meeting makes present choices matter. **[Saʿdī] [Ṭabarī]**
+
+---
