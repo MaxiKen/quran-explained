@@ -5914,3 +5914,482 @@ mercy of God" (39:53); "And those who, when they commit an indecency or wrong th
 and seek forgiveness for their sins" (3:135); "God accepts the repentance of those who do evil in ignorance
 and then repent soon after" (4:17); "And whoever does evil or wrongs himself, then seeks forgiveness of God,
 will find God Forgiving, Merciful" (4:110).
+## 4:111
+
+*"And whoever earns a sin earns it only against his own soul; and God is ever Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** Whoever commits a sin deliberately, with knowledge of it, earns the burden of that
+sin, its harm, its disgrace and its shame only against himself, not against any other of God's creation. So do
+not contend, O you who contend, on behalf of these treacherous ones; for even if you are their clan, their kin
+and their neighbours, you are free of the sin they committed and of the liability they incur, and whenever you
+defend them or dispute on their behalf you but add to your own burden. **[Jalālayn]** Whoever commits a sin
+commits it against himself only, since the evil consequences fall on him, harming no one else; and God is ever
+Knower, Wise in His actions. **[Qurṭubī]** *Kasb* is what a man draws to himself of benefit, or by which he
+repels harm from himself; and for this reason the action of the Lord, exalted, is not called *kasb* —
+acquisition. **[Maʿārif]** In the event that these people choose not to repent despite the option given them,
+this verse carries the assurance that their action brings no harm to God or His Messenger or the Muslims; the
+sad nemesis of a person's evil deed shall be faced by the person himself.
+
+**Reflection.** **[Study Quran]** The meaning is that through immoral actions one ultimately harms or wrongs
+only oneself, since God is not harmed by such actions and the offense given to other creatures endures only in
+this life; yet the effect of both moral and immoral actions endures for those who commit them in the form of
+congruous reward and punishment in the next life. Throughout the Qurʾān the wrongdoers are repeatedly referred
+to as those who wrong themselves, and in several places, including here, the correspondence between moral and
+immoral acts and their reward and punishment amounts to a kind of moral reflexivity, whereby actions are
+ultimately done only to or for oneself (see 2:9, 272; 3:69; 6:123; 8:60; 9:34–35; 10:23; 29:6; 35:18).
+**[Saʿdī]** The verse closes the account of the Banū Ubayriq with a principle rather than a portrait: the
+advocate who lends his eloquence to another's falsehood borrows against his own account, and the traitor's
+first victim is himself.
+
+**Cross-references.** "Whoever does right, it is for his own soul; and whoever does evil, it is against it"
+(41:46); "God is not unjust to people in anything, but people wrong themselves" (10:44); "Whoever commits a
+sin commits it against himself, and God is Knowing, Wise" (4:111).
+
+## 4:112
+
+*"And whoever earns a fault or a sin and then casts it upon an innocent person, he has borne a calumny and a
+manifest sin."*
+
+**Meaning.** **[Ṭabarī]** Whoever commits a fault — which is a sin — or a sin, which is what is unlawful of
+disobedience: God distinguished between *khaṭīʾah* and *ithm* because the fault may come about deliberately or
+undeliberately, while *ithm* comes only about deliberately; so He separated them, saying: whoever commits a
+fault undeliberately, or a sin deliberately, and then casts it upon an innocent person — one free of it — he
+has borne a *buhtān*, a calumny, and a manifest sin. **[Jalālayn]** Whoever commits a mistake — a minor sin —
+or a sin — a grave one — and then casts it upon the innocent, one who is innocent of it, he has thereby
+burdened himself with calumny by his false accusation, and a manifest sin, one evident on account of what he
+has committed. **[Qurṭubī]** It was said that the two words are one in meaning, repeated with a change of
+wording for emphasis; al-Ṭabarī's view is that *khaṭīʾah* may occur deliberately or not, while *ithm* occurs
+only deliberately. **[Maʿārif]** A general rule of conduct has been set forth: anyone who himself commits a
+crime, then goes on to put the blame on some innocent person — as in the episode cited above, where the theft
+was committed by Banū Ubayriq themselves and they went on to put the blame on Labīd or the Jew — has done
+something grave by levelling a false accusation of great magnitude against an innocent person, plus an open
+sin weighing heavy on his shoulders.
+
+**Rulings & reflection.** **[Study Quran]** Although "an offense or a sin" and "calumny and a manifest sin"
+may seem to be rough pairs of synonyms or nouns placed in apposition for greater effect, the commentators
+understand these terms as referring to different kinds of acts: offense refers to an error or a wrong done
+unintentionally, whereas sin denotes an intentional wrongful act (al-Rāzī, Ṭabarī); or offense denotes a minor
+infraction and sin a major one (al-Rāzī, al-Zamakhsharī); or offense is a "victimless" sin that spiritually
+harms only the one who commits it, while sin is an action that harms another (al-Rāzī). Al-Rāzī asserts that
+those who blame another will be burdened both with calumny — meaning that they will experience great shame in
+this life — and with a manifest sin, which indicates their greater punishment in the Hereafter.
+**[Ṭabarī]** The verse's structure reveals the double weight of the offense: the original fault is one thing,
+and the act of pinning it on the innocent is another, so that the accuser leaves the court carrying both — his
+own deed and the borrowed guilt of the one he slandered.
+
+**Cross-references.** "And those who harm believing men and believing women for other than what they have
+earned have borne a calumny and a manifest sin" (33:58); "And do not let the enmity of a people cause you to be
+unjust" (5:8); "And whoever earns a fault or a sin and then casts it upon an innocent person, he has borne a
+calumny and a manifest sin" (4:112).
+
+## 4:113
+
+*"And were it not for the bounty of God upon you and His mercy, a party of them would have resolved to lead
+you astray — but they lead none astray but themselves, and they cannot harm you at all. And God has sent down
+to you the Book and the Wisdom, and has taught you what you did not know; and the bounty of God upon you is
+ever great."*
+
+**Meaning.** **[Ṭabarī]** Were it not that God has favored you, O Muhammad, and protected you by His enabling
+and by His clarifying to you the affair of this traitor — so that you withheld yourself from contending on his
+behalf and from defending the people of truth against their right in him — a party of them, a group of the
+Banū Ubayriq, would have resolved to lead you astray: to turn you away from the truth in your judgment.
+**[Jalālayn]** Were it not for God's bounty to you, O Muhammad, and His mercy by way of protecting you, a
+party of them would have intended to lead you astray from judging with truth by deceiving you; but they lead
+only themselves astray, for the evil consequence of their leading you astray falls on them; and they will not
+hurt you at all. God has revealed to you the Book — the Qurʾān — and the Wisdom — the rulings contained in it
+— and He has taught you what you did not know of rulings and the Unseen; and God's bounty to you in this and
+other respects is ever great. **[Qurṭubī]** The phrase "were it not for" (*lawlā*) is followed by a raised
+subject in the view of Sībawayh, the predicate being elided and not expressed; the meaning is: were it not for
+God's bounty upon you and His mercy in alerting you to the truth — and it was said, in prophethood and
+protection. "[A party of them] would have resolved to lead you astray" from the truth, because they asked the
+Messenger of God ﷺ to acquit Ibn Ubayriq of the charge and to attach it to the Jew — and God favored His
+Messenger by alerting him to that and informing him of it. **[Ibn Kathīr]** "God has sent down to you the Book
+and the Wisdom, and taught you what you knew not" — a reminder to the Prophet ﷺ of the bounty of revelation and
+of the teaching that accompanied it. **[Maʿārif]** It was God's grace and mercy that He revealed to you the
+reality behind the event of theft; otherwise these people would have misled you into error. But since you are
+not alone — God's grace and mercy is with you — these people can never mislead you into error; on the contrary,
+they themselves fall into error. Be sure they cannot harm you in any way whatsoever.
+
+**Rulings.** **[Study Quran]** God's bounty and mercy toward the Prophet can be understood here to mean that He
+revealed to him the true guilt of Ṭuʿmah, and so prevented him from being led astray by Ṭuʿmah's fellow
+clansmen, who misrepresented Ṭuʿmah's innocence and sought to have the Prophet pardon and intercede on behalf
+of their guilty kinsman. In doing so, He protected the Prophet from committing an error in judgment with regard
+to both Ṭuʿmah and the innocent man he had accused, and thereby prevented Ṭuʿmah's advocates from bringing
+spiritual harm to the Prophet; thus God preserved the Prophet's *ʿiṣmah*, his protection from sin and moral
+error. And the verse indicates the same moral reflexivity suggested in v. 111, for in seeking to lead the
+Prophet astray they misled only themselves. According to al-Ṭabarī, Ṭuʿmah's would-be advocates knew that their
+attempt to solicit the Prophet's defense of Ṭuʿmah was effectively an attempt to lead him astray, since they had
+been warned by the prior revelation. **[Maʿārif]** From the words "God has revealed to you the Book" (4:105
+onward), five rulings are established: the Prophet ﷺ had the right to arrive at judgments in situations not
+covered by an explicit authority in the Qurʾān; such judgment (*ijtihād*) is trustworthy only when it is based
+on and deduced from Qurʾānic principles and the clear authority of its text — mere opinions are not *ijtihād*;
+the Prophet's *ijtihād* differed from that of the *mujtahid* imāms in that any possible error in his judgment
+would be corrected by God, so that when no correction came it was an indicator that the decision was correct in
+God's sight; what the Prophet understood from the Qurʾān was nothing but what God Himself had made him
+understand — hence "by what God has shown you" — unlike other scholars, whose understanding cannot be attributed
+to God in that sense (and ʿUmar scolded a man who said, "Decide as God shows you," saying that this was special
+to the Prophet of God ﷺ); and pursuing or advocating a false case, or supporting it, is totally forbidden.
+
+**Reflection.** **[Saʿdī]** The verse names the protection before the plot: God's bounty is not a reward for
+the Prophet's vigilance but the shield that makes his judgment sound, and the plotters' scheme returns upon
+themselves — "they lead none astray but themselves." **[Study Quran]** For al-Rāzī this verse is evidence for
+the moral inerrancy of the Prophet, since if he were errant, it would not always be a punishable sin to oppose
+him. **[Maʿārif]** The verse also displays the balance of mercy and law: the same revelation that exposed the
+guilty also guarded the judge, so that neither the innocent Jew nor the misled court should suffer.
+
+**Cross-references.** "God will protect you from people" (5:67); "And God is your Protector, and He is the best
+of helpers" (3:150); "He it is who sent among the unlettered a messenger from among themselves, reciting to
+them His signs, purifying them and teaching them the Book and Wisdom" (62:2); "And He taught you what you did
+not know" (4:113).
+
+## 4:114
+
+*"There is no good in most of their secret conversations, except for one who enjoins charity, or kindness, or
+reconciliation between people; and whoever does that, seeking the good pleasure of God, We shall give him a
+great reward."*
+
+**Meaning.** **[Ṭabarī]** There is no good in most of the secret talk of people — all people — except for one
+who commands charity, or kindness, or reconciliation between people: and *maʿrūf*, "kindness," is every act of
+goodness and piety that God has commanded or encouraged. **[Jalālayn]** There is no good in most of their —
+that is, of people's — secret conversations, in what they converse and talk secretly about, except the secret
+talk of one who enjoins voluntary almsgiving, or kindness, a righteous deed, or setting things right between
+people. And whoever does that, desiring to seek God's good pleasure and nothing else of the affairs of this
+world — We shall surely give him (or, in a variant reading, "He will give him") a great wage.
+**[Ibn Kathīr]** There is no good in most of their secret talks — what people say to each other — save him who
+orders charity, or goodness, or reconciliation between mankind; and "he who does this, seeking the good
+pleasure of God, We shall give him a great reward." **[Qurṭubī]** *Al-najwā* is the secret conversation of two,
+from *najawtu al-shayʾ* meaning I separated and isolated it; and *al-najwah* of the earth is the elevated part
+of it, because of its isolation from what surrounds it.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Imām Aḥmad recorded that Umm Kulthūm bint ʿUqbah said that she heard the
+Messenger of God ﷺ saying, "He who brings about reconciliation between people by embellishing good or saying
+good things is not a liar." She also said, "I never heard him allow what people say — that is, lies — except in
+three cases: in war, in bringing peace between people, and a man's speech to his wife and her speech to her
+husband" — and Umm Kulthūm bint ʿUqbah was among the immigrant women who gave their pledge of allegiance to the
+Messenger of God ﷺ. **[Study Quran]** A *ḥadīth* warns, "The speech of the Children of Adam always works
+against them, not for them, except when it is to command the right and forbid the wrong, or to invoke God"
+(al-Zamakhsharī).
+
+**Rulings & reflection.** **[Saʿdī]** There is no good in most of what people confide and say to each other;
+and if there is no good in it, then either it has no benefit — as with idle permissible talk — or it is pure
+evil and harm, as with speech forbidden in all its kinds. Then God excepted: "except one who enjoins charity" —
+from wealth, or knowledge, or any benefit; indeed the acts of worship that concern only the worshipper, like
+glorification and praise, may also enter into it, as the Prophet ﷺ said, "Every *tasbīḥ* is a charity, every
+*takbīr* is a charity, every *tahlīl* is a charity, commanding right is a charity, forbidding wrong is a
+charity, and in one of you's intimate relations there is a charity." "Or kindness": which is doing good and
+obedience and everything whose goodness is recognized in the Law and in reason; and when commanding the right
+is mentioned without being paired with forbidding wrong, the prohibition of wrong enters into it, because
+leaving the forbidden is itself of the right, and good is not complete except by leaving evil — whereas when
+the two are paired, "the right" is explained as doing what is commanded and "the wrong" as leaving what is
+prohibited. "Or reconciliation between people": and reconciliation can only be between two disputing parties,
+for dispute, quarrelling and mutual anger bring about evil and division beyond reckoning; hence the Law urged
+reconciliation between people in matters of blood, property and honour, and even in matters of religion, as God
+said, "And hold fast, all of you, to the rope of God, and do not divide" (3:103), and "If two groups of the
+believers fight, make peace between them; and if one of them transgresses against the other, fight the one that
+transgresses until it returns to God's command" (49:9), and "And settlement is better" (4:128). The one who
+strives for reconciliation between people is better than the one who devotes himself to prayer, fasting and
+charity; and the reconciler must have God make his effort and his work sound.
+**[Study Quran]** In itself, secret converse (*najwā*) is morally neutral: it can be positive, as here, where it
+may be used to enjoin charity or kindness or reconciliation, for which one can expect a great reward; but as
+this verse and others indicate, it may also portend plotting and ill intentions — cf. 58:7–10, where secret
+converse is said to be known to God but forbidden when it is done with a view to sin, enmity and disobeying the
+Messenger, and the believers are then told to converse in secret with a view to piety and reverence.
+Hypocrites in general (v. 81), and Ṭuʿmah's clansmen in particular (v. 108), are also said to conspire by
+night, and so presumably in secret. **[Ṭabarī]** The exception is threefold, and each part answers the harm of
+the Banū Ubayriq's whispers: where they conspired to hide a theft and ruin an innocent man, the good *najwā*
+gives, does good and repairs what is broken. **[Maʿārif]** Moving from the episode of the theft and the
+conspiracies made to cover the crime by false accusations, the text now highlights the positive things that can
+be done through mutual consultation, which could help one remain obedient to the Messenger's teachings and the
+command of God, without trying to go against the ideal path taken by those who believe in God and His
+Messenger. **[Ibn Kathīr]** The condition "seeking the good pleasure of God" excludes the reconciler who works
+for reputation, and the reward named is *ʿaẓīm*, great, because the work is measured by the intention and not
+the appearance.
+
+**Cross-references.** "O you who believe, when you converse in secret, do not converse in sin and enmity and
+disobedience to the Messenger, but converse in righteousness and piety" (58:9); "And hold fast, all of you, to
+the rope of God, and do not divide" (3:103); "And settlement is better" (4:128); "The believers are brothers,
+so make peace between your brothers" (49:10).
+
+## 4:115
+
+*"And whoever opposes the Messenger after guidance has become clear to him, and follows a way other than that
+of the believers, We shall turn him over to what he has turned to, and We shall burn him in Hell — and evil is
+the destination."*
+
+**Meaning.** **[Ṭabarī]** Whoever separates himself from the Messenger Muhammad ﷺ, opposing him, and departs
+from him in enmity, after guidance has become clear to him — after it has become evident to him that he is the
+Messenger of God and that what he has brought from God guides to the truth and to a straight path — and follows
+a way other than the way of the people of affirmation, walking a path other than theirs: We shall turn him over
+to what he has turned to, leaving him with what he has chosen for himself and abandoning him, and We shall burn
+him in Hell; and evil is the destination. **[Jalālayn]** Whoever makes a breach with the Messenger — whoever
+opposes him in the truth he brings — after guidance has become clear to him, after the truth has become manifest
+through miracles, and follows a path other than the way of the believers — other than the path they follow in
+religion — by disbelieving: We shall turn him over to what he has turned to, we shall make him a leader of the
+misguidance he has followed, leaving this as it is between them in this world — and We shall expose him and
+admit him in the Hereafter into Hell, where he will burn; an evil journey's end, an evil return it is.
+**[Saʿdī]** Whoever opposes the Messenger ﷺ and contends with him in what he brought, after the guidance has
+become clear to him through Qurʾānic proofs and prophetic demonstrations, and follows other than the way of the
+believers — their way being their path in their beliefs and their deeds — We shall turn him over to what he has
+turned to: We leave him with what he has chosen for himself and abandon him, so that We do not grant him success
+in good, because he saw the truth and knew it and abandoned it. So his recompense from God, justly, is that He
+leaves him in his misguidance, wandering, adding misguidance to his misguidance — as God said, "So when they
+deviated, God caused their hearts to deviate" (61:5), and "And We shall turn their hearts and their eyes away,
+as they did not believe in it the first time" (6:110).
+
+**Rulings.** **[Study Quran]** The verse likely closes the discussion of the incident involving Ṭuʿmah, who is
+said to have returned to Mecca after his theft was revealed and abandoned Islam (al-Rāzī, al-Zamakhsharī). The
+verse thus issues a warning to those who, like Ṭuʿmah, break with the Prophet after having recognized his
+spiritual guidance. "Opposes the Messenger" means to become his enemy despite being aware that he is a prophet
+bringing right guidance; following a way other than that of the believers indicates disbelief (Ṭabarī). For
+al-Rāzī, this verse is evidence for the moral inerrancy of the Prophet, since if he were errant it would not
+always be a punishable sin to oppose him. The legal scholar al-Shāfiʿī and some other major commentators
+considered this verse proof of the authority of communal consensus (*ijmāʿ*), one of the four sources of Islamic
+Law in the Shāfiʿī school; in making a connection between one who follows a way other than that of the believers
+and those who oppose the Messenger, the verse can be taken to indicate that both the Messenger and "the way of
+the believers" represent authoritative sources of guidance that cannot be rejected. **[Maʿārif]** Two things
+have been identified here as a great crime and a cause of consignment to Hell: opposing the Messenger of God,
+which is disbelief and a terrible curse; and violating the universal consensus of the Muslims, abandoning what
+has the universal agreement of all Muslims and opting for some other way against them — which explains that the
+consensus of the Muslim community has valid religious authority.
+
+**Reflection.** **[Saʿdī]** The verse's phrase "We shall turn him over to what he has turned to" is the exact
+shape of the punishment: God does not force a man into error; He leaves him in the error he chose — the
+abandonment is the sentence, and its most terrible form is that the servant is handed to the thing he loved more
+than guidance. And the implication of the verse is the opposite for the one who does not oppose the Messenger
+and does not follow other than the believers' way: if his aim was God's face, following His Messenger and the
+community of the Muslims, and then some sins or their intention issued from him, of what human souls and
+natures are prone to — God does not hand him over to himself and his Satan, but catches him by His kindness and
+grants him His protection and preserves him from evil, as God said of Joseph, "Thus We turned away from him evil
+and indecency; he was one of Our sincere servants" (12:24) — because of his sincerity We turned evil away from
+him; and so with every sincere one, as the generality of the reasoning shows. **[Study Quran]** For al-Rāzī the
+verse is also a proof that the Prophet's guidance is incapable of leading anyone astray, so that opposing it is
+never a matter of following evidence but only of following desire. **[Maʿārif]** The consensus of the community
+is the third thread: the verse binds the Messenger and the community of the believers together, so that the way
+rejected is not merely the Prophet's but the believers' — and the one who chooses another way has left both.
+
+**Cross-references.** "So when they deviated, God caused their hearts to deviate" (61:5); "And We shall turn
+their hearts and their eyes away, as they did not believe in it the first time" (6:110); "And whoever splits
+from the Messenger after the guidance has been made clear to him" (4:115); "You are the best community brought
+forth for mankind" (3:110).
+
+## 4:116
+
+*"Truly God does not forgive that anything be associated with Him, but He forgives what is less than that to
+whomsoever He wills; and whoever associates anything with God has strayed far astray."*
+
+**Meaning.** **[Ṭabarī]** God does not forgive Ṭuʿmah, since he associated others with God and died in his
+association with God; nor does He forgive others of His creation for their association with Him and their
+disbelief in Him. But He forgives what is less than association with God of sins to whomsoever He wills — that
+is, Ṭuʿmah, had he not associated with God and died in his association, would have been in God's will
+concerning his past treachery and disobedience, his affair being with God as to punishment and pardon; and so
+is the ruling for everyone who commits a crime: his affair is with God, unless his crime be association with
+God, for that God does not forgive the one who dies upon it. **[Jalālayn]** God does not forgive that anything
+should be associated with Him; He forgives all except that, to whomever He wills. Whoever associates anything
+with God has strayed far away from the truth. **[Study Quran]** A nearly identical verse occurs at 4:48, where
+the same point was established by the occasion of a Muslim's dying unrepentant in unbelief; this verse applies
+the principle to Ṭuʿmah the thief, who apostatized and went to Mecca (Qurṭubī). **[Ibn Kathīr]** Whoever sets
+up partners in worship with God has taken other than the true path, deviating from guidance and righteousness,
+destroying himself in this life and the Hereafter, and losing contentment in both. **[Saʿdī]** This threat
+attached to opposition and to following other than the believers' way has degrees that none but God can number,
+according to the state of the sin, small or great: among it is what makes one abide in the Fire forever and
+brings total abandonment, and among it is what is less than that — so the second verse here is like a
+specification of the general: association with God is not forgiven, because it contains a denigration of the
+Lord of the worlds and of His oneness, while what is less than it is left to God's will. **[Maʿārif]** The
+thief mentioned earlier became an apostate, and the lasting punishment he thus earned for himself becomes
+evident; the verses that follow take up the beliefs of the pagans, who were much more numerous, and point out
+the punishment they will face, which gives the passage a coherence of its own.
+
+**Rulings & reflection.** **[Ṭabarī]** Note that the exception is stated in the opposite direction from what
+the guilty might hope: it is not that the *shirk* is forgiven for some and other sins forgiven for all, but that
+every lesser sin is open to pardon for whom God wills, and the association of others with God is the one thing
+the door is closed upon — and it is closed upon the one who dies in it. **[Saʿdī]** The verse's last clause —
+"has strayed far astray" — measures the distance: the associator has not merely erred but wandered to the
+furthest remove, since he has taken the creature as the Lord and turned the highest knowledge into its
+opposite.
+
+**Cross-references.** "God does not forgive that partners be ascribed to Him, but He forgives what is less than
+this to whom He wills" appears also at 4:48; "Say: O My servants who have transgressed against their own souls,
+do not despair of God's mercy; God forgives all sins" (39:53); "Those who disbelieve and die while disbelieving
+— God will not forgive them" (2:161).
+
+## 4:117
+
+*"They call upon nothing besides Him but females; and they call upon none but a defiant Satan."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed on the meaning of "females." Some said the meaning is:
+they call upon none besides Him but al-Lāt and al-ʿUzzā and Manāt, which God named "females" after the
+idolaters' naming of them with female names; Abū Mālik said, "al-Lāt, al-ʿUzzā and Manāt, all of them feminine."
+**[Jalālayn]** "What" (*mā*) is to be understood as "only": they pray to what the idolaters worship instead of
+Him — that is, other than Him — but they are but females, idols with feminine names such as al-Lāt, al-ʿUzzā
+and Manāt; and "they" — again "only" — they worship, by worshipping these female idols, a rebellious Satan, one
+who has rebelled against obedience to God, for they are obeying him in this worship of female idols.
+**[Qurṭubī]** The verse was revealed about the people of Mecca when they worshipped idols; *in* is a negative
+with the sense of *mā*; and "females" means idols — al-Lāt, al-ʿUzzā and Manāt. Every tribe had an idol they
+worshipped and called "the female of such-and-such a tribe"; al-Ḥasan and Ibn ʿAbbās said this, and with every
+idol came its Satan who appeared to the custodians and soothsayers and spoke to them. **[Ibn Kathīr]**
+Al-Ḍaḥḥāk said: the idolaters claimed that the angels are God's daughters, saying, "We only worship them so that
+they bring us closer to God"; so they took the angels as gods and made the shapes of girls, deciding, "These
+idols resemble the daughters of God whom we worship." This is similar to "Have you considered al-Lāt and
+al-ʿUzzā?" (53:19) and "And they make the angels, who are servants of the Compassionate, females" (43:19), and
+"And they have invented a kinship between Him and the jinn" (37:158). **[Study Quran]** Females here likely
+refers to the three female deities worshipped by the pagan Makkans, al-Lāt, al-ʿUzzā and Manāt, mentioned by
+name at 53:19–20 and whom the pagan Makkans believed to be the "daughters" of Allāh (al-Zamakhsharī); other
+Makkan deities were also female, and the verse may reference them as well. One minority opinion considers
+"females" a reference to the angels whom the Makkans name with female names, who were also considered by them
+to be the daughters of Allāh. **[Saʿdī]** These associators call upon nothing besides God but females — that is,
+idols and images named with female names, like al-ʿUzzā and Manāt and their like. And it is well known that a
+name points to what is named: so if their names are feminine names, deficient ones, this indicates the
+deficiency of the things named and their lack of perfect attributes — as God informed in more than one place in
+His Book that they do not create, do not provide, and do not repel from their worshippers — nor even from
+themselves — any harm or benefit, and do not help themselves against one who wishes them ill; they have no
+hearing, no sight and no hearts. How then should one so described be worshipped, and sincerity be abandoned to
+One who has the most beautiful names, the highest attributes, praise, perfection, glory, majesty, honour,
+beauty, mercy, kindness, beneficence, and the sole possession of creation, disposal and great wisdom in command
+and decree? Is this anything but the ugliest of the ugly, indicating the deficiency of its doer and his descent
+to the lowest vileness conceivable? And with all this, their worship has only the outward form of these
+deficient idols, while in reality they worship none but Satan — their enemy, who desires their destruction and
+strives for it with all he can, who is at the utmost distance from God. As God distanced him from His mercy, he
+strives to distance the servants from God's mercy; he only calls his party to be among the companions of the
+Blaze.
+
+**Reflection.** **[Saʿdī]** The verse's turn — from the idols named to the Satan actually served — is the
+theological heart of the passage: the idol is the mask, and behind every shrine stands the one who has promised
+to take an appointed share of God's servants. **[Study Quran]** The female character of these idols and
+"angels," referenced explicitly here and at 53:19–20, was for some medieval commentators a particular reason to
+belittle these idolatrous practices; a number of commentators considered the female to be lowlier and closer to
+pure matter than the male (Qurṭubī, al-Rāzī), making the Makkan worship of female idols even worthier of
+ridicule. **[Ṭabarī]** In truth, the verse is a statement about the object of worship rather than about gender:
+what is called upon cannot create, provide or defend, and the call therefore ascends to nothing until it
+reaches the will that inspired it.
+
+**Cross-references.** "Have you considered al-Lāt and al-ʿUzzā, and Manāt, the third, the other?" (53:19–20);
+"And they make the angels, who are servants of the Compassionate, females. Did they witness their creation?"
+(43:19); "Did I not covenant with you, O children of Adam, that you should not worship Satan? Truly he is to you
+a manifest enemy" (36:60); "Nay, but they worshipped the jinn; most of them believed in them" (34:41).
+
+## 4:118
+
+*"God has cursed him; and he said, 'I shall assuredly take of Your servants an appointed share.'"*
+
+**Meaning.** **[Ṭabarī]** God has cursed him — disgraced him, banished him and removed him from every good;
+and the meaning is: and they call upon none but a rebellious Satan whom God has cursed and removed from every
+good. And he said — the rebellious Satan said to his Lord when He cursed him — "I shall assuredly take of Your
+servants an appointed share": *mafrūḍ*, known and measured. **[Jalālayn]** God has cursed him — removed him
+from His mercy — and he, that is Satan, said: "Assuredly I will take to myself — appoint for myself — an
+appointed portion, an apportioned share of Your servants whom I shall call to obey me." **[Qurṭubī]** The
+original meaning of *laʿn* is expulsion, and it is in common usage an expulsion accompanied by anger and
+displeasure; the curse of God upon Iblīs in specific terms is permissible, and likewise upon the deceased
+disbelievers — Pharaoh, Hāmān, Abū Jahl — while the ruling for the living has been discussed in Sūrat
+al-Baqarah. **[Ibn Kathīr]** "I will take an appointed portion of Your servants" means a fixed and known share;
+Muqātil b. Ḥayyān commented, "From every thousand, nine hundred and ninety-nine will go to the Fire and one to
+Paradise." **[Saʿdī]** God has informed of Satan's effort to lead the servants astray, to make evil fair to
+them, and to corrupt them; and that he said to his Lord, swearing, "I will assuredly take of Your servants an
+appointed portion" — measured out; for the accursed one knew that he could not lead all of God's servants
+astray, and that God's sincere servants have no avenue against them, for his authority is only over those who
+follow him.
+
+**Reflection.** **[Saʿdī]** The clause "God has cursed him" precedes the quotation of his boast, and the order
+matters: the curse is the answer to the claim of an appointed share — the one who asked for a portion of the
+servants was himself apportioned to the Fire, and the "share" he takes is drawn from the same account.
+**[Study Quran]** Cf. 15:39–40 and 38:82–83, where Satan's vow is followed by his own acknowledgment that he
+has no power over God's sincere servants — the appointed share is real but not total, and the exception is the
+hinge on which the passage's consolation turns. **[Maʿārif]** The verses that follow take up the pagans'
+beliefs and point out the punishment they will face; the mention of Satan's vow is the explanation of why the
+idolaters' worship of lifeless things is in truth the worship of a will set against them.
+
+**Cross-references.** "He said: My Lord, because You have led me astray, I shall make evil fair to them on
+earth, and I shall lead them all astray — except Your sincere servants among them" (15:39–40); "He said: Then by
+Your might I shall lead them all astray, except Your sincere servants among them" (38:82–83); "Truly he has no
+authority over those who believe and put their trust in their Lord" (16:99); "And Satan will say when the matter
+is decided..." (14:22).
+
+## 4:119
+
+*"And I shall assuredly lead them astray, and I shall arouse desires in them, and I shall command them and they
+will slit the ears of cattle, and I shall command them and they will alter God's creation." And whoever takes
+Satan as a protector apart from God has surely suffered a manifest loss.*
+
+**Meaning.** **[Ṭabarī]** Reporting the speech of the rebellious Satan: "I shall lead them astray" — I shall
+turn the appointed share I take from Your servants away from the path of guidance to error, and from Islam to
+disbelief; "and I shall arouse desires in them" — I shall divert them from obedience to You and from Your
+oneness to obedience to me and association with You, by the desires I place in their souls; "and I shall command
+them and they will slit the ears of cattle" — I shall command my appointed share among Your servants, by
+worship of other than You of idols and rivals, until they slaughter for them; "and I shall command them and
+they will alter God's creation" — changing the religion of God to disbelief, making lawful what God has made
+unlawful and unlawful what He has made lawful. **[Jalālayn]** I shall lead them astray from the truth with evil
+whisperings; I shall fill them with desires — I shall cast into their hearts the thought that life will endure,
+that there will be no resurrection and no reckoning; I shall command them and they will cut the ears of the
+cattle — and this was done to the she-camels they called *baḥāʾir*; I shall command them and they will change
+God's creation — substituting for His religion unbelief, making lawful what God has made unlawful and unlawful
+what God has made lawful. And whoever takes Satan as a patron, following and obeying him instead of God, has
+surely suffered a manifest loss, one that is evident, since he will end up in the Fire made perpetual for him.
+**[Qurṭubī]** *Al-batk* is cutting; hence a *bātik* sword. In the *ḥadīth* of ʿIyāḍ b. Ḥimār al-Mujāshiʿī:
+"Behold, I created My servants all as *ḥanīfs*, and the satans came to them and diverted them from their
+religion, forbidding them what I had made lawful and commanding them to associate with Me what I had sent down
+no authority for, and commanding them to alter My creation" (Muslim and al-Qāḍī Ismāʿīl). And the *ḥadīth* of
+Abū al-Aḥwaṣ from his father: "I came to the Messenger of God ﷺ with a shabby appearance; he said, 'Have you
+any wealth?' I said, 'Yes — of every kind: horses, camels and slaves.' He said, 'Then let God's gift show on
+you.' Then he said, 'Do your camels produce young with sound ears, and you take a knife and slit their ears,
+saying, "This is a *buḥayrah*," and slit their skins, saying, "This is a *ṣuramm*," so that you make them
+unlawful on yourself and your family?' I said, 'Yes.' He said, 'Whatever God has given you is lawful; God's
+knife is sharper than yours and God's hand is stronger than your hand.'" And on changing God's creation the
+scholars differed: a group said it is castration, blinding, and cutting off ears — Ibn ʿAbbās, Anas, ʿIkrimah
+and Abū Ṣāliḥ — all of which is tormenting the animal and making lawful and unlawful by transgression and
+speech without proof, whereas ears in cattle are beauty and benefit, as also are other limbs; and the Prophet
+ﷺ commanded that one examine the ears and the eyes when buying, because the Devil had altered these. **[Saʿdī]**
+"Slitting the ears of cattle" is cutting their ears, as with the *baḥīrah*, the *sāʾibah*, the *waṣīlah* and
+the *ḥām*; the mention of one shows the whole, and this is a kind of misguidance that entails forbidding what
+God has made lawful or making lawful what He has forbidden, and attached to that are corrupt beliefs and unjust
+rulings beyond it. "Altering God's creation" covers the alteration of the outward form by tattooing, filing the
+teeth, plucking the eyebrows and widening the gap in the teeth for beauty and the like, which God's enemy
+seduced them into until they changed the creation of the Compassionate — and that entails displeasure with His
+creation, a disparagement of His wisdom, the belief that what their own hands make is better than the creation
+of the Compassionate, and discontent with His decree and disposal. It also covers the alteration of the inward
+form: God created His servants *ḥanīfs*, disposed to accept the truth and prefer it, and the satans came and
+diverted them from this beautiful creation and made evil fair to them — association, disbelief, sin and
+disobedience; for every child is born on the *fiṭrah*, but his parents make him a Jew or a Christian or a
+Magian, and the like, changing what God has disposed the servants to of His oneness, love of Him and knowledge
+of Him. So the satans preyed upon them there as the predator and the wolf prey upon a solitary sheep — and had
+it not been for God's kindness and generosity to His sincere servants, what happened to those deluded ones would
+have happened to them. And this that happened to them — turning away from their Lord and Maker and turning to
+their enemy who desires evil for them in every way — is their loss.
+
+**Reflection.** **[Ibn Kathīr]** "And surely I will arouse in them false desires" — tempting them with false
+hopes, encouraging them to delay and procrastinate with righteous deeds, deceiving them. **[Study Quran]** The
+three verbs of the verse trace the anatomy of the seduction: misguidance in belief, desire in the will, and
+command in practice — and the alteration of God's creation is the outward signature of an inward change.
+**[Saʿdī]** The verse ends where the sūrah's argument has been heading: "whoever takes Satan as a protector
+apart from God has surely suffered a manifest loss" — a loss that is not hidden but evident, since the one who
+gains the whole world and loses this bargain has lost the thing for which he was made.
+
+**Cross-references.** "He said: My Lord, because You have led me astray, I shall make evil fair to them on
+earth" (15:39); "Every child is born on the *fiṭrah*, and his parents make him a Jew or a Christian or a
+Magian" (Bukhārī, Muslim); "And do not follow the footsteps of Satan; truly he is to you a manifest enemy"
+(2:168); "Truly he has no authority over those who believe and trust in their Lord" (16:99).
+
+## 4:120
+
+*"He makes them promises and stirs in them desires; and Satan promises them nothing but delusion."*
+
+**Meaning.** **[Qurṭubī]** The meaning is that he promises them his falsehoods and trifles — wealth, status and
+leadership — and that there is no resurrection and no punishment; and he makes them imagine poverty so that
+they do not spend in good; and he stirs desires in them likewise. "And Satan promises them nothing but
+delusion" — deception. Ibn ʿArafah said: delusion (*ghurūr*) is what you see as outwardly pleasant while
+concealing something disliked or unknown; and Satan is a deluder, because he carries one toward what the soul
+loves and behind it is what brings sorrow. **[Jalālayn]** He promises them long life and fills them with
+desires of attaining their hopes in this world and that there will be neither resurrection nor requital; but
+what Satan promises them thereby is only delusion, falsehood. **[Study Quran]** God's promises are true, as is
+repeatedly asserted (see 3:152; 4:122; 7:44; 10:4), but Satan's promises are false and naught but delusion (see
+also 17:64); in 14:22 Satan himself asserts that God's promise was true, but that he failed in his promises —
+see also 31:33; 35:5–6, where Satan is identified as the Deluder.
+
+**Reflection.** **[Saʿdī]** The verse names the currency of the enemy: promises which cost nothing to make and
+cannot be kept, measured against the promises of God, whose every word is fulfilled. **[Qurṭubī]** The word
+*ghurūr* is the key: the delusion is not that the promised thing is unreal in itself, but that the one who
+promises it intends the opposite of what he shows, and the soul is moved by the appearance toward the ruin
+behind it.
+
+**Cross-references.** "And I did not have any authority over you, but I called you and you answered me; so do
+not blame me but blame yourselves" (14:22); "And Satan will deceive them with a delusion" (17:64); "Do not let
+the life of this world delude you, and do not let the Deluder delude you concerning God" (31:33); "God has
+promised you the truth, and the promise of Satan is delusion" (14:22).
