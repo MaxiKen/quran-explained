@@ -2041,3 +2041,171 @@ other than He (Ṭ).
 
 **Reflection.** The brotherhood of the messenger is part of the proof: he is sent from within the tribe,
 speaking its tongue, asking it for nothing — so that the only thing left to reject is the truth itself.
+
+## 11:51
+
+*"O my people, I ask of you no wage for it. My wage is only upon Him who originated me. Will you not
+then understand?"*
+
+**Meaning.** **[Ṭabarī]** Hūd said: O my people, I do not ask of you any wage — any reward — for the
+message I deliver to you, and for my commanding you to worship God alone; my wage falls only upon Him who
+originated me — who created me and fashioned me. Will you not then understand: do you not reflect and
+consider that he who invites you to what benefits you in your religion and your worldly life, without
+asking any compensation from you, is sincere and truthful? **[Jalālayn]** O my people, I ask of you no
+wage for it — for the message; my wage falls only upon Him who originated me, who created me. Will you
+not then understand what I have brought you? **[Saʿdī]** Then Hūd mentioned that there is nothing
+preventing them from compliance: "O my people, I ask of you no wage for it" — no fine taken from your
+wealth in return for what I call you to, so that you might say, "This man wants to take our wealth";
+rather, I call you and teach you for nothing; "my wage is only upon Him who originated me" — so He alone
+guarantees it. "Will you not then understand" what I invite you to, how compelling it is to accept, and
+how every obstacle to rejecting it is removed?
+
+**Belief.** **[Maʿārif]** The Holy Qurʾān reports almost all prophets saying that they do not ask for
+any payment against the duty of daʿwah they perform. This shows that if payment is accepted — whether
+pre-arranged or implied by custom — against daʿwah and tabligh, the call remains ineffective. Experience
+bears it out: those who take wages for their religious sermons, addresses and good counsel leave the
+hearts of their audience unchanged at the end of the exercise.
+
+**Reflection.** The prophet's wage is with his Originator — and that is the reason his word can be
+weightless in the balance of worldly interest, and therefore heavy with trust.
+
+## 11:52
+
+*"And, 'O my people, ask forgiveness of your Lord, then turn to Him in repentance. He will send the sky
+upon you with abundant rain, and add strength to your strength. And do not turn away, guilty.'"*
+
+**Meaning.** **[Ṭabarī]** O my people, ask forgiveness of your Lord: believe in Him, so that He forgives
+you your sins — here *istighfār* is belief in God, for Hūd called his people to God's oneness so that
+their sins would be forgiven them, as Nūḥ said to his people, "Worship God, fear Him and obey me, and He
+will forgive you of your sins" (71:3–4). Then turn to Him: return to God from your past sins and your
+worship of other than Him after believing in Him. He will send the sky upon you in abundance: if you
+believe and repent of your disbelief, He will send the rain of the sky pouring upon you plentifully at
+the time of your need for it, and your land will live again after drought and dearth. And He will add
+strength to your strength. **[Jalālayn]** And O my people, ask forgiveness of your Lord for your
+idolatry, then turn to Him in repentance through obedience; He will release the sky upon you — for they
+had been denied it — with abundant rain, and add strength to your strength, through wealth and children.
+Do not turn away as sinners — as idolaters. **[Ibn Kathīr]** He commanded them to seek the forgiveness
+of the One capable of expiating previous sins, and to repent of whatever they might do in the future.
+Whoever has these qualities, God makes his sustenance easy for him, grants him ease in his affairs and
+guards over his situation; for this reason He says, "He will send the sky upon you in abundance." **[Saʿdī]**
+"Ask forgiveness of your Lord" for what has passed from you, "then turn to Him" in what lies ahead of you,
+with sincere repentance and turning; if you do that, "He will send the sky upon you in abundance," with
+rainfall that makes the earth lush and its goodness plentiful, "and will add strength to your strength" —
+they were among the strongest of people, which is why they said, "Who is mightier than us in strength?"
+(41:15); so He promised them that if they believed, He would add strength to their strength. "And do not
+turn away" from your Lord, "guilty": arrogant about His worship, making bold with what He has forbidden.
+
+**Context.** **[Study Quran]** Hūd's words, *He will send the sky upon you with abundant rain*, addressed
+the drought that ʿĀd had been experiencing; these words were also uttered by Noah to his people (71:11).
+"Guilty," in the sense of being culpable of wrongdoing, refers here to people who ascribe partners unto
+God. The drought they experienced is said to have lasted three years. According to traditional Islamic
+teachings, seeking God's forgiveness and repenting to Him are means by which a sinful people can beseech
+God to send rain; on the basis of this belief there are special prayers performed by Muslims at the time
+of drought and on the occasion of other national calamities.
+
+**Language.** **[Qurṭubī]** *Midrār* comes from *darr* — the copious flow of a she-camel's milk, or
+heavy rainfall; *darr* is the milk that comes easily when the she-camel is milked, or the plentiful rain.
+"He will add strength to your strength": it was said — after they had been withheld rain — He will
+increase you in offspring, wealth and might. For three years they were in drought, their women barren
+with no rain; it is reported from Mujāhid, al-Ḍaḥḥāk and others. **[Maʿārif]** *Quwwah* (strength) here
+is used in a general sense, including physical strength and power as well as the strength that comes from
+increase in wealth and children. This tells us that taubah and istighfār have a special property of their
+own: their practitioner is blessed with extended means of sustenance and satisfying increase in wealth
+and children even in this mortal world.
+
+**Reflection.** Repentance is here joined to rain — the land's drought treated by the heart's return; a
+standing sunnah for every generation that prays for relief.
+
+## 11:53
+
+*"They said, 'O Hūd, you have brought us no clear proof, and we shall not forsake our gods on your word,
+and we are not believers in you.'"*
+
+**Meaning.** **[Ṭabarī]** The people of Hūd said to him: O Hūd, you have brought us no clarification nor
+any proof for what you say, so that we should submit to you and acknowledge that you are truthful in what
+you invite us to — of God's oneness and affirming your prophethood. And we shall not forsake our gods
+on your word: we will not abandon our gods on account of your saying, or for the sake of your word. And
+we are not believers in you: we do not believe you in what you claim of prophethood and of a message to
+us from God. **[Jalālayn]** They said: O Hūd, you have brought us no clear proof — no evidence for what
+you say; and we are not going to forsake our gods on the basis of your saying — that is, because of what
+you say; and we are not believers in you. **[Saʿdī]** They replied, rejecting his words: "O Hūd, you
+have brought us no clear proof." If what they meant by the *bayyinah* was a proof of their own devising,
+such a proof is not incumbent upon the truth; what is incumbent is that the prophet come with a sign
+showing the soundness of what he has brought. But if they meant that he brought no proof testifying to
+the truth of what he said, they lied in that: no prophet ever came to his people but God produced at his
+hand signs on which humans can believe. Even had he no sign but his calling them to sincere devotion to
+God alone, commanding every righteous deed and beautiful character, and forbidding shirk, indecency,
+injustice and every evil — together with the qualities Hūd bore that belong only to the best and most
+truthful of creation — that would suffice as proofs of his truthfulness. Indeed, people of intellect see
+this sign as greater than the mere marvels that some take to be the only miracles.
+
+**Context.** **[Study Quran]** Hūd's people tell him that he has not brought them a clear proof — that
+is, clear evidence testifying to the truthfulness of his claim to being a prophet sent by God; it is said
+they were unable to see the clear proofs brought by Hūd because of their obstinacy in rejecting his
+message. **[Maʿārif]** Captives of their ignorant ways, the people of Hūd brushed his call aside: a
+miracle would have been something, which you did not show to us; you are simply saying what you have to
+say; now, just because of what you say, we are not going to leave our gods, and we are not going to
+believe in you.
+
+**Reflection.** They demand a proof while denying the proofs already standing before them — obstinacy
+names blindness "no clear proof."
+
+## 11:54
+
+*"We say only that one of our gods has smitten you with evil.' He said, 'I call God to witness — and you
+bear witness also — that I am quit of what you associate as partners,"*
+
+**Meaning.** **[Ṭabarī]** This is a report of the words of Hūd's people to him when he counselled them
+and called them to God's oneness: we will not abandon the worship of our gods, and we say only that what
+moved you to revile them and forbid their worship is that one of them has smitten you with madness and
+possession. Hūd said to them: I call God to witness against myself, and I call you also to witness, O
+people, that I am quit of what you associate in the worship of God — of your gods and idols apart from
+Him. **[Jalālayn]** "We say nothing concerning you save that one of our gods has possessed you in some
+evil way" — rendering you insane, for your having cursed them, so that you are raving. He said: Lo, I
+call God to witness for me, and you bear witness also, that I am innocent of what you associate with Him
+— apart from Him. **[Ibn Kathīr]** They were saying, "We think that some of our idols have afflicted you
+with madness and insanity in your intellect, because you are trying to stop them from being worshipped
+and defame them." He said: "I call Allah to witness, and bear you witness, that I am free from that which
+you ascribe as partners in worship besides Him": here he is saying, "Verily, I am innocent of all of the
+rivals and idols that you associate with Allah." **[Saʿdī]** "We say only," about you, "that one of our
+gods has smitten you with evil" — it has visited you with derangement and madness, so you rave with what
+cannot be understood. Glory to Him who has sealed the hearts of the wrongdoers! How could they place the
+most truthful of creation, who came with the truest of truth, at this level, which a sensible person
+would be ashamed to relate of them, had not God Himself related it of them? For this reason Hūd made clear
+that he was utterly confident that no harm would reach him from them nor from their gods, and said: "I
+call God to witness, and you bear witness, that I am quit of what you associate apart from Him."
+
+**Context.** **[Study Quran]** The claim that one of their gods has smitten Hūd with evil manifests their
+belief that he was a madman put under a spell by one of their idols, because he had cursed it and called
+his people to cease worshipping idols (cf. 7:66). The Makkan idolaters likewise accused the Prophet
+Muhammad of being mad or possessed — see 15:6; 23:70; 34:8; 37:36; 44:14; 68:51; 81:22.
+
+**Reflection.** The idols that supposedly smote their enemy stand silent while their worshipper reviles
+them — and Hūd's open witness is itself the refutation.
+
+## 11:55
+
+*"Apart from Him. So scheme against me, all together, and grant me no respite."*
+
+**Meaning.** **[Ṭabarī]** "So scheme against me, all together": devise, you and your gods together, what
+will harm me and bring me ill; "then grant me no respite": do not delay that. Then see whether you and
+your gods can reach me with what you claimed your gods had already reached me with of evil. **[Jalālayn]**
+So plot against me — devise ways to destroy me — all together, you and your graven images; then give me
+no respite — grant me no reprieve. **[Ibn Kathīr]** "So plot against me, all of you": you and your gods,
+if they are true. "And give me no respite": not even the blinking of an eye. **[Saʿdī]** "So scheme
+against me, all together": seek to harm me by every means in your power; "then grant me no respite": give
+me no respite at all. **[Qurṭubī]** That he was alone, calling out to them among his enemies "scheme
+against me, all together," indicates the perfection of his trust in God's help. This is among the signs
+of prophethood: that the messenger, alone, should say to his people, "Scheme against me, all together."
+The Prophet ﷺ said the like to Quraysh; and Nūḥ said, "So gather your affair, you and your partners"
+(10:71).
+
+**Stories & occasions.** **[Maʿārif]** Here was one man against a whole people, making a claim so strong
+and loud and putting them to shame, and no one from a people so strong and brave dared budge before him!
+This was a standing miracle of Hūd — which also provides an answer to their complaint that he did not
+show them a miracle, and another answer to their audacious comment that their gods had made him mentally
+deranged: had their gods been exercising this kind of power, they would never have left him alive after
+what he had said against them.
+
+**Reflection.** His daring is the argument: a lone man's challenge to an entire nation, delivered only
+from the safety of a rope that none of them can touch.
