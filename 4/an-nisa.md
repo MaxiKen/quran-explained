@@ -3567,3 +3567,514 @@ obedient one should look at the gift rather than at his own hand.
 
 **Cross-references.** "And He gives you of everything you ask; and if you count the favors of God, you cannot
 number them" (14:34); "Say: In the bounty of God and His mercy — in that let them rejoice" (10:58).
+## 4:71
+
+*"O you who believe, take your precautions; then go forth in companies, or go forth all together."*
+
+**Meaning.** **[Ṭabarī]** O you who have affirmed God and His Messenger, take your precautions — take your
+shields and your weapons by which you guard against your enemy for fighting them; then go forth to them in
+*thubāt*, which is the plural of *thubah*, a band or troop: go forth to your enemy group after group, armed.
+**[Jalālayn]** Take your precautions against your enemy — be wary of him and vigilant; then move forward to
+fight him in companies, in separate groups, one raiding party following another, or move forward all together
+in one assembly. **[Saʿdī]** God commands His believing servants to take their precautions against their
+disbelieving enemies, and this includes employing every means by which fighting them is aided and their guile
+and strength repelled: fortresses and trenches, learning archery and riding, learning the crafts that assist
+in that, and knowing their points of entry and exit and their plots — and mobilization in the way of God;
+hence "go forth in companies," that is, dispersed, with a detachment or an army going out while others remain,
+"or go forth all together." All of this follows the interest of the Muslims, the weakening of the enemy and
+the welfare of the believers in their religion. **[Ibn Kathīr]** God commands His faithful servants to take
+precautions against their enemies by being prepared with the necessary weapons and supplies and by increasing
+the number of troops fighting in His cause; *thubāt* means group after group, party after party, expedition
+after expedition — so Ibn ʿAbbās, Mujāhid, ʿIkrimah, al-Suddī, Qatādah, al-Ḍaḥḥāk and others; "or go forth
+all together" means, all of you.
+
+**Rulings & reflection.** **[Qurṭubī]** The address is to the sincere believers of the community of Muhammad
+ﷺ, commanding them to strive against the disbelievers, to go out in the way of God and to protect the law.
+The order of the passage: having mentioned obedience to God and to His Messenger, God commanded the people of
+obedience to rise up to revive His religion and raise His call, and He commanded them not to rush upon the
+enemy in ignorance until they have reconnoitered and know how to respond to them. **[Study Quran]** To take
+one's precautions means to take up arms or otherwise prepare against the enemies; the commentators are clear
+that preparing oneself in this way does not signify a lack of trust in God, and they frequently cite the
+*ḥadīth* in which the Prophet instructed a man, "Tether [your camel], then place your trust in God" (al-Rāzī,
+Qurṭubī); for al-Qushayrī, taking such precautions means fleeing from all that is other than God. To go forth
+in companies means going out to the enemy as separate units or raiding parties, while "all together" refers
+to going to battle as a single army under the leadership of the Prophet (Ṭabarī). **[Maʿārif]** The verse
+teaches two things at once: first, that getting together functional means to achieve a good purpose is not
+contrary to reliance on God; second, that the text commands the taking of means but does not promise that
+victory will follow simply because of them.
+
+**Cross-references.** "And prepare against them whatever you can of power and of steeds of war" (8:60);
+"And when you go forth, take your precautions" (4:102); "Muhammad is the Messenger of God, and those with
+him are stern against the disbelievers, merciful among themselves" (48:29).
+
+## 4:72
+
+*"And among you is one who would tarry; then if a misfortune befalls you, he says, 'God has been gracious to
+me, in that I was not a witness with them.'"*
+
+**Meaning.** **[Ṭabarī]** This is God's description of the hypocrites to His Prophet and his Companions: "and
+among you," O believers — that is, among those counted in your number, of your people, those who imitate you
+and make a show of belonging to your call and your community, while he is a hypocrite — is one who makes
+those of you who obey him lag behind in striving against your enemy and fighting them when you go forth; so
+if a defeat befalls you, or killing or wounds from your enemy, he says, "God has been gracious to me, in that
+I was not a witness with them" — present with them in the fighting, lest harm befall me.
+**[Jalālayn]** Verily there are some of you who tarry — who hesitate to join the fighting, such as ʿAbdullāh
+b. Ubayy the hypocrite and his companions, but the one who tarries is counted among them, the Muslims, in
+outward appearance; then if an affliction befalls you, such as slaughter or defeat, he says, "God has been
+gracious to me, for I was not a witness with them" — present at the fighting, lest I should be hurt.
+**[Qurṭubī]** "And among you is one who would tarry" means the hypocrites; *al-tabṭiʾah* and *al-ibṭāʾ* mean
+delay. Both meanings are intended in the verse: they used to sit back from going out and make others sit back
+with them. The *lām* in "verily among you is one who" is the *lām* of oath. **[Saʿdī]** The verse speaks of
+those weak in faith who are sluggish about striving: "and among you" — O believers — "is one who would
+tarry," that is, who becomes heavy-laden from striving in God's way out of weakness, faintness and cowardice
+— this is the sound reading; another said it means he makes others lag behind, discouraging them from
+fighting, and those are the hypocrites. But the first is preferable for two reasons: the address is "among
+you," to the believers; and the verse ends with "as if there had never been affection between you and him" —
+whereas God has severed affection between the disbelievers and hypocrites and the believers. Moreover this
+is the reality: the believers are two kinds — the truthful, whose faith obligated them to perfect belief and
+striving, and the weak, who entered Islam with a weak faith unable to carry striving, as God said, "The
+Bedouins say, 'We believe.' Say: You do not believe, but say, 'We submit,'" and the following verses.
+
+**Reflection.** **[Ṭabarī]** The hypocrite's religion is revealed in his arithmetic: he measures the
+community's fortune by his own safety, so the same event that grieves the believers — their losses —
+gladdens him as a personal deliverance, and he calls the mercy of God down upon his own absence from the
+test. **[Saʿdī]** The verse names what the procrastinator seeks: his chief purpose is this world, and so he
+is absent when sacrifice is asked and present when spoils are mentioned — the following verse draws exactly
+that portrait.
+
+**Cross-references.** "And among the people is he who worships God on the edge: if good befalls him he is at
+ease, but if a trial befalls him he turns to his face" (22:11); "Those who wait and watch you, so that if you
+are granted a victory they say, 'Were we not with you?'" (4:141); "Say: Is the reward for good anything but
+good?" (55:60).
+
+## 4:73
+
+*"But if a bounty from God befalls you, he says — as though there had never been affection between you and
+him — 'O, would that I had been with them, that I might have attained a great triumph.'"*
+
+**Meaning.** **[Ṭabarī]** If a bounty from God befalls you — if God gives you victory over your enemy so that
+you take spoils from them — this one who makes the Muslims lag behind in striving with you, the hypocrite,
+will surely say — as though there had never been any love between you and him — "O, would that I had been
+with them, that I might have won a great triumph," that is, that I might have gained the spoil taken with
+them. **[Jalālayn]** But if a bounty from God befalls you, such as a conquest or booty, he will surely cry in
+regret — *ka'an* is softened, its subject omitted, that is, *ka'annahu*, "as if there had never been" any
+affection — any acquaintance or friendship — between you and him; this clause refers back to "God has been
+gracious to me" in the previous verse, and comes as a parenthesis between the statement "that he will cry"
+and the very words he cries, which are: "O, would that I had been with them, so that I might have won a great
+triumph" — that is, that I might have taken a good share of the booty. **[Ibn Kathīr]** Likewise from the
+hypocrites: if a bounty comes from God, they say, as if there had never been ties of affection between you
+and them, "Oh, I wish I had been with them; then I would have achieved a great success."
+**[Qurṭubī]** Both meanings of *yubaṭṭiʾanna* are intended: they held back from going out and they made
+others hold back.
+
+**Reflection.** **[Ṭabarī]** The parenthesis is the sentence: the man's own words condemn him, and God
+inserts between promise and utterance the observation that no loyalty ever existed — so that the reader
+should not mistake the outcry of covetousness for the joy of a friend, and should not be surprised that a man
+may mourn his absence from a victory he prayed not to share in. **[Saʿdī]** This is the standing picture of
+weakness and hypocrisy: while the risk is borne by others, they are absent; where the reward appears, they
+wish they had been present — a craving set entirely on the world, and this is why the verses turn directly to
+the command to fight and the promise of the great wage.
+
+**Cross-references.** "So let them laugh a little, and weep much, a recompense for what they used to earn"
+(9:82); "And when a sūrah is revealed commanding them to believe in God and strive alongside His Messenger,
+those of them who have wealth ask you for leave, and say, 'Leave us that we may be with those who stay
+behind'" (9:86); "And do not be like those who went out from their homes boastfully, showing off to the
+people" (8:47).
+
+## 4:74
+
+*"So let those who sell the life of this world for the Hereafter fight in the way of God; and whoever fights
+in the way of God, and is killed or conquers, We shall give him a great wage."*
+
+**Meaning.** **[Ṭabarī]** Let them fight in the way of God, the way of obedience to God and His Prophet and
+His law, who sell the life of this world for the Hereafter — who exchange this world's life for the price of
+the Hereafter; and whoever fights in the way of God and is killed, or conquers, We shall give him a great
+wage. **[Jalālayn]** Let them fight in the way of God, to elevate His religion, those who sell the life of
+this world for the Hereafter; and whoever fights in the way of God and is slain a martyr, or conquers his
+enemy, We shall give him a great wage, a plentiful reward. **[Qurṭubī]** The address is to the believers:
+let them fight the disbelievers; "who sell" — who expend their lives and their wealth for God; "for the
+Hereafter," that is, for the reward of the Hereafter. "And whoever fights in the way of God" is a condition;
+"and is killed or conquers" is joined to it, and the recompense is "We shall give him a great reward"; "and
+is killed" means is martyred, "or conquers" means prevails and takes spoil. **[Ibn Kathīr]** The great reward
+is granted whether he is slain or victorious — so the reward does not hang upon the outcome of the battle,
+but upon the fighting itself.
+
+**Language & reflection.** **[Study Quran]** "Fighting in the way of God" means fighting for His religion and
+His commands and calling others to it (Ṭabarī); cf. 22:39–40, where the first command given to the Muslims to
+fight indicates that the right to fight is granted for the protection of all those who remember God.
+"Selling the life of the world for the Hereafter" is one of several mercantile metaphors used to describe the
+sacrifices one should make for God (cf. 2:207; and 9:111, where God has purchased from the believers their
+souls and their wealth in exchange for the Garden), while in 2:86 those Israelites who broke the covenant are
+described as having purchased the world at the price of the Hereafter. Some commentators have interpreted
+the verb *yashrūna* here as meaning by contrast "purchase" (*yashtarūna*), so that the verse would read, "Let
+them fight in the way of God, those who would purchase the life of this world for [the price of] the
+Hereafter" — in that interpretation the statement addresses the hypocrites and those who would tarry, who
+prefer the life of this world. **[Maʿārif]** Both readings are a single rebuke of the worldly calculation:
+whether one sells the world and gains the Hereafter, or buys the world at the cost of the Hereafter, the
+transaction is the whole of the verse — and the reward promised is not for victory but for the standing in
+battle, "slain or victorious" alike. **[Qurṭubī]** Taking the two verbs together shows the generosity of the
+promise: the warrior's wage does not depend on the outcome, for the deed is his and the outcome is God's.
+
+**Cross-references.** "And God has purchased from the believers their souls and their wealth, in exchange for
+the Garden being theirs" (9:111); "Who is it that will lend God a goodly loan, that He may multiply it for
+him?" (2:245); "Whoever desires the harvest of the Hereafter, We shall increase for him his harvest"
+(42:20).
+
+## 4:75
+
+*"And what is with you that you do not fight in the way of God, and for the weak — men, women and children —
+who say, 'Our Lord, bring us out of this town whose people are oppressors, and appoint for us from Yourself a
+protector, and appoint for us from Yourself a helper'?"*
+
+**Meaning.** **[Ṭabarī]** What is your case, O believers, that you do not fight in the way of God — and for
+the weak of the people of your religion and your community, whom the disbelievers have overpowered and
+humiliated, seeking to test them and turn them away from their religion — "of men, women and children," the
+children being the young boys, "who say, 'Our Lord, bring us out of this town whose people are oppressors'":
+these weak ones among men, women and children say in their supplication to their Lord, asking Him to deliver
+them from the trial of the polytheists who have overpowered them: "O our Lord, bring us out of this town
+whose people have wronged us and themselves." The Arabs call every city a *qaryah*; and the place meant here,
+as the commentators explained, is Mecca. **[Jalālayn]** What is wrong with you that you do not fight — an
+interrogative of rebuke, meaning there is nothing to prevent you from fighting — in the way of God and for the
+deliverance of the oppressed men, women and children whom the disbelievers persecuted and prevented from
+emigrating? Ibn ʿAbbās, may God be pleased with him and his father, said: "My mother and I were among them."
+They say, supplicating: "O our Lord, bring us forth from this town, Mecca, whose people are evildoers through
+unbelief, and appoint for us a protector from Yourself to take charge of our affair, and appoint for us from
+Yourself a helper" to defend us against them. God answered their supplication and facilitated escape for some
+of them, while others remained behind until Mecca was conquered; over them the Prophet ﷺ placed ʿAttāb b.
+Asīd, who proceeded to seek justice for the wronged from those who wronged them. **[Ibn Kathīr]** God
+encouraged His believing servants to perform striving in His cause and to work hard to save the oppressed
+Muslims in Mecca — men, women and children who were restless because of having to remain there; al-Bukhārī
+recorded that Ibn ʿAbbās said, "I and my mother were among the weak and oppressed." **[Saʿdī]** This is God's
+urging of His believing servants and His inflaming them to fight in His way, and the great blame that falls
+on them for leaving it — and note that the striving which liberates the weak among you is greater in reward
+and greater in benefit, for it is of the category of repelling the enemy from your own households and
+children and those under your protection. **[Maʿārif]** The supplication of these weak ones tells us that one
+of the reasons the command to fight came was the prayer they made; God answered them and commanded the
+Muslims to strive against their oppressors, which put an end to their hardship.
+
+**Rulings.** **[Qurṭubī]** God obligated striving for the raising of His word, the establishing of His
+religion and the rescue of the weak believers among His servants, even though lives are lost in it; and the
+deliverance of captives is obligatory on the Muslim community, whether by fighting or by wealth.
+**[Study Quran]** This verse indicates that fighting to relieve the oppressed is a legitimate basis for
+religious warfare (Qurṭubī; see 2:191–93; 8:39), and it is widely reported to relate specifically to those
+Muslims residing in Mecca who were oppressed and prevented from migrating, and who cried out to be brought
+out of the town (Ibn Kathīr, Jalālayn, Qurṭubī, al-Rāzī, Ṭabarī). "Weak and oppressed" translates
+*mustaḍʿafūn*, which denotes both meanings; and cf. 4:97–98, where certain wrongdoers after death claim they
+were weak and oppressed in the land, and their excuse is rejected — while an exemption is given to those who
+were truly weak and oppressed among the men, women and children.
+
+**Reflection.** **[Maʿārif]** The verse arranges two goals in one breath: the religion of God and the rescue
+of the defenseless; and the prayer of the weak becomes a cause in the sequence of divine commands, so their
+tears are not wasted even when they cannot lift a hand. **[Saʿdī]** The style of the verse is to shame by
+comparison: those who cannot fight are crying out for someone to fight for them, and those who can are
+hesitating — the rebuke measures the distance between the two.
+
+**Cross-references.** "Those who believed and emigrated and strove in the way of God, and those who gave
+refuge and helped — those are allies of one another" (8:72); "And why should you not fight in the way of God
+when those who are weak are crying out?" stands alongside "God will surely aid those who aid Him" (22:40);
+"Those whom the angels take while they are wronging themselves — they will say, 'What was your state?'"
+(4:97).
+
+## 4:76
+
+*"Those who believe fight in the way of God, and those who disbelieve fight in the way of false deities; so
+fight the friends of Satan — surely the scheme of Satan is ever feeble."*
+
+**Meaning.** **[Ṭabarī]** Those who have affirmed God and His Messenger and are certain of God's promise to
+the people of faith fight in the way of God — in obedience to God and in the path of His religion and the law
+He legislated for His servants; and those who disbelieve fight in the way of *al-ṭāghūt* — rejecting God's
+oneness, denying His Messenger and what he brought them from their Lord. **[Jalālayn]** Those who believe
+fight in the way of God, and those who disbelieve fight in the way of a false deity, Satan; fight therefore
+against the friends of Satan, the supporters of his religion, and you will defeat them with the strength you
+draw from God; surely the plotting of Satan against believers is ever feeble, of no substance, and cannot
+stand up to God's plotting against the disbelievers. **[Qurṭubī]** *Ṭāghūt* may be treated as masculine or
+feminine, because they used to name both a male and a female soothsayer *ṭāghūt*; Jābir b. ʿAbdullāh, asked
+about the *ṭāghūt* to which people used to have their disputes judged, said: there was one among Juhaynah and
+one among Aslam. **[Saʿdī]** In this verse there are several benefits: that a servant's fighting in the way of
+God, his sincerity and his following are in proportion to his faith — fighting in God's way is among the
+effects and requirements of faith, just as fighting in the way of the false deity is a branch and requirement
+of unbelief; that the one who fights in the way of God has a claim to patience and endurance beyond others,
+for if the allies of Satan are patient and fight while upon falsehood, the people of truth are more entitled
+to it — as God said, "If you are suffering, they are suffering as you are, but you hope from God what they do
+not hope" (4:104); and that the one who fights in God's way relies upon a firm pillar, which is truth and
+trust in God, so that more patience, steadfastness and energy is required of him than of one who fights for
+falsehood, which has no reality and no praiseworthy outcome. Hence God said, "So fight the friends of Satan —
+surely the scheme of Satan is ever feeble." *Kāyd* means following hidden paths to harm the enemy; and Satan,
+however far his guile reaches, is at the utmost weakness, unable to stand against the least thing of truth or
+against God's own devising for His believing servants.
+
+**Meaning & reflection.** **[Study Quran]** To fight in the way of God indicates fighting for the cause of
+justice and goodness, in obedience to God and according to His law; the disbelievers, by contrast, fight for
+false deities — *ṭāghūt* (cf. 4:51–52c). According to al-Rāzī, God does not ordain the means or tactics of
+fighting, but only the proper intention and aim: the fighting must be for God alone, and fighting for any
+other reason — pride or the desire for spoils — amounts to fighting for false deities. In this verse false
+deities is widely glossed as Satan (Ṭabarī), given the following exhortation to fight the allies of Satan. If
+the disbelievers are the allies of Satan, the believers have God as their Protector or Ally (Rāzī); the
+feebleness of Satan's guile lies in the fact that his allies fight out of fear or jealousy of the believers,
+while the believers fight for God and with hope of Paradise. **[Maʿārif]** The purpose before a true Muslim in
+war is that the law of God should be operative and His authority supreme, so that peace may be established
+under the law of the Lord; while the disbelievers seek to spread disbelief and bring about the ascendancy of
+the satanic powers — and since disbelief and association are the ways of Satan, the disbelievers help Satan
+do his job. But the deceptive plans of Satan are weak and insubstantial. This is what happened at Badr: there
+was Satan at the side of the disbelievers, telling them, "No one shall overcome you today — I am your
+protector" (8:48); but when the fighting began he withdrew and abandoned them.
+
+**Cross-references.** "And when Satan made their deeds seem fair to them, and said, 'No one among men shall
+overcome you today, and I am your protector' — but when the two hosts came in sight of each other, he turned
+on his heels" (8:48); "God is the Protector of those who believe, and the disbelievers have no protector"
+(47:11); "And the plotting of Satan is ever feeble" — cf. "They plot, and God plots, and God is the best of
+plotters" (3:54).
+
+## 4:77
+
+*"Have you not seen those who were told, 'Restrain your hands, establish the prayer and give the alms'? Then
+when fighting was prescribed for them, behold, a group of them feared people as they should fear God, or with
+greater fear, and said, 'Our Lord, why have You prescribed fighting for us? If only You had deferred us to a
+near term.' Say: The enjoyment of this world is brief, and the Hereafter is better for him who fears God; and
+you shall not be wronged a thread."*
+
+**Context.** **[Ibn Kathīr]** In the beginning of Islam the Muslims in Mecca were commanded to perform the
+prayer and to give some charity to comfort the poor among them, and they were commanded to be forgiving and
+forbearing with the idolaters and to observe patience with them; but they were eager for the time when they
+would be allowed to fight so that they could punish their enemies. The time did not permit armed conflict
+for many reasons: they were few compared to their numerous enemies, and their city was sacred and the most
+honored area on earth — which is why the command to fight was not revealed in Mecca; later, when the Muslims
+had a town of their own in Madinah, and strength, power and support, fighting was legislated. Yet when the
+command came, just as the Muslims had wished, some of them became weary and greatly feared facing the
+idolaters in battle. **[Qurṭubī]** ʿAmr b. Dīnār reported from ʿIkrimah from Ibn ʿAbbās that ʿAbd al-Raḥmān
+b. ʿAwf and some of his companions came to the Prophet ﷺ in Mecca and said, "O Prophet of God, we were in
+honor while we were polytheists; when we believed we became abased." He said, "I have been commanded to
+pardon, so do not fight the people." Then when God transferred him to Madinah, He commanded him to fight, and
+they held back from it — and so this verse was revealed. Al-Nasāʾī recorded it in his *Sunan*, and al-Kalbī
+said the same. Mujāhid said they were Jews; al-Ḥasan said the verse concerns the believers, because of its
+words "they fear people." **[Study Quran]** Those told to restrain their hands refers to a group of Muslims
+of Mecca who were told to refrain from fighting the disbelievers while still resident there (Jalālayn) and to
+perform the prayer and give the alms — the only two religious duties incumbent on them at that time. Al-Rāzī
+asserts that the verse makes clear that prayer and alms, which demonstrate the proper attitude toward God and
+toward His creation respectively, must precede striving in the way of God. Some list several prominent
+Companions among the group who came to the Prophet complaining of their humiliation at being unable to
+redress the wrongs they had suffered at the hands of the disbelievers; the Prophet responded that he had
+been commanded to forgive, not to fight (Ibn Kathīr).
+
+**Meaning & admonition.** **[Ṭabarī]** A group of the Prophet's Companions had believed before fighting was
+made obligatory, and the prayer and alms had been prescribed, and they used to ask God to prescribe fighting
+for them; but when fighting was prescribed it was hard for them, and they said what God reports of them.
+**[Jalālayn]** Then as soon as fighting was prescribed, a party of them feared people — the disbelievers —
+through the punishment they might suffer at their hands, as they would fear the punishment of God, or with
+greater fear; and they said, frightened of death, "Our Lord, why have You prescribed fighting for us? Why not
+defer us to a near term?" Say to them: the enjoyment of this world is trifling — it will end up perishing;
+and the Hereafter is better for him who fears God's punishment by avoiding disobedience to Him; and you shall
+not be wronged a single date-thread — you shall not be diminished in your deeds as much as the peel on a
+date-stone. **[Saʿdī]** The Muslims in Mecca were commanded to pray and to give charity — meaning
+succouring the poor, not the well-known zakāt with its thresholds and conditions, for that was only
+prescribed in Madinah — and they were not commanded to fight the enemies for several reasons: among them
+that the wisdom of the Creator legislates for His servants in a way that does not burden them, beginning
+with the most important and the easiest; and that had fighting been prescribed for them with their scant
+numbers and equipment and their many enemies, it would have led to the collapse of Islam, so the greater
+interest was protected above the lesser. And some believers wished that fighting had been prescribed for
+them in a situation where it was not fitting — the fitting thing then being to carry out what they were
+commanded of tawḥīd, prayer, alms and the like. Then when they emigrated to Madinah and Islam grew strong,
+fighting was prescribed for them at the time suited to it; and a party of those who had been impatient for
+fighting before that, out of fear of people and weakness, said, "Our Lord, why have You prescribed fighting
+for us?" — in which there is their discontent and their objection to God, when what was required of them was
+the opposite: submission to God's command and patience with His ordinances. This state often comes over one
+who is not steady and rushes matters before their time: when they arrive he cannot bear them.
+
+**Rulings & reflection.** **[Saʿdī]** Then God admonishes them: "The enjoyment of this world is little, and
+the Hereafter is better for him who fears God." The enjoyment of the world's pleasures and its rest is
+little, so bearing burdens in obedience to God for a short while becomes light for the soul — for when the
+soul knows that its hardship will not last long, it becomes easy, and how much more when it weighs the world
+against the Hereafter: the Hereafter is better in itself, in its pleasures and in its duration. Its very
+self, as the Prophet ﷺ said in the established *ḥadīth*, is better: "A place of a whip in Paradise is better
+than the world and all that is in it"; its pleasures are pure of every disturbance — whatever pleasure comes
+to mind, the pleasure of Paradise is beyond it, as God said, "No soul knows what is hidden for them of the
+comfort of the eyes" (32:17), and as God said in the *ḥadīth qudsī*: "I have prepared for My righteous
+servants what no eye has seen, no ear has heard, and has not occurred to the heart of a human being." The
+pleasures of this world are mixed with distress: if one weighed its pleasures against the pains, sorrows and
+griefs that accompany them, they would not compare in any way. As for its duration: the world ends, and a
+man's life in relation to the world is a small thing, while the Hereafter is lasting bliss whose people abide
+forever in it. When a rational person reflects on these two abodes and truly conceives what they are, he
+knows which deserves preference, effort and striving. "And the Hereafter is better for him who fears" — who
+fears association with God and the rest of the forbidden things — "and you shall not be wronged a thread":
+your striving for the abode of the Hereafter you will find complete and full, with nothing diminished from
+it.
+
+**Cross-references.** "Those who believe say, 'Why is no sūrah sent down?' But when a decisive sūrah is sent
+down and fighting is mentioned in it, you see those in whose hearts is a disease looking at you with the look
+of one swooning unto death" (47:20); "Fighting has been prescribed for you though it is hateful to you; but
+perhaps you hate a thing and it is good for you" (2:216); "And if you are killed in the way of God or die,
+forgiveness from God and mercy are better than what they amass" (3:157).
+
+## 4:78
+
+*"Wherever you may be, death will overtake you, even though you be in towers raised high. And if a good thing
+befalls them, they say, 'This is from God'; but if an evil thing befalls them, they say, 'This is from you.'
+Say: All is from God. What is with these people that they can hardly understand any word?"*
+
+**Meaning.** **[Saʿdī]** God informs us of those who do not know, who turn away from what the messengers
+brought: when good befalls them — fertility, abundance of wealth, many children, health — they say, "This is
+from God"; but when evil befalls them — drought, poverty, illness, the death of children and loved ones —
+they say, "This is from you," that is, because of what you brought us, O Muhammad; they took bad omens from
+the Messenger of God ﷺ as their like took bad omens from the messengers of God. God informed us of the people
+of Pharaoh: "When good came to them they said, 'Ours is this'; and if evil afflicted them they took it as a
+bad omen connected with Moses and those with him" (7:131); and the people of Ṣāliḥ said, "We take you as an
+evil omen, and those with you" (27:47); and the people of Yā Sīn said to their messengers, "We take you as an
+evil omen; unless you desist we shall stone you" (36:18). Since their hearts resembled one another in
+disbelief, their words and deeds resembled one another — and so every one who attributes the occurrence of
+evil or the departure of good to what the messengers brought, or to some of it, enters into this blame.
+**[Ṭabarī]** "And if good befalls them" — ease, victory, conquest and spoil — they say, "This is from God,"
+that is, from before God and by His decree; "and if an evil befalls them" — hardship of living, defeat by an
+enemy, wounds and pain — they say, "This is from you," O Muhammad. **[Ibn Kathīr]** "This is from you" means
+because of you, and because we followed you and embraced your religion; God said of the people of Pharaoh:
+"But whenever good came to them, they said, 'Ours is this'; and if evil afflicted them, they ascribed it to
+evil omens connected with Moses and those with him" (7:131). The same statement is uttered by the hypocrites,
+who embraced Islam outwardly but disliked it inwardly; when a calamity befell them they attributed it to
+following the Prophet ﷺ. So God revealed, "Say: All is from God."
+
+**Rulings.** **[Qurṭubī]** On the *burūj mushayyadah*: most, and the sound view, hold that they are the
+built towers and fortresses on earth, since they are the utmost human means of fortification; Qatādah,
+Ibn Jurayj and the majority said fortified palaces; Ibn ʿAbbās said fortresses, strongholds and citadels;
+al-Suddī said they are towers built in the lowest heaven, and Mālik is reported to have held this, citing
+"By the heaven possessed of towers" (85:1) and "He made in the heaven towers" (25:61) — though Ibn ʿAṭiyyah
+said the plain sense of the phrase does not give that. As for what is "raised high" (*mushayyadah*): al-Zajjāj
+and al-Qutubī said prolonged and made tall; ʿIkrimah said adorned with gypsum. **[Qurṭubī]** This verse
+refutes the Qadariyyah concerning lifespans: God has informed them that when the appointed term is complete,
+the soul must part from the body — whether by killing, or death, or any of the means God has made customary.
+The Muʿtazilah said that a slain man, had the killer not killed him, would have lived; and the refutation of
+them has been given in Sūrat Āl ʿImrān — in this saying they agree with the disbelievers and the hypocrites.
+**[Maʿārif]** "Wherever you will be, death will overtake you, even though you are in fortified castles" tells
+us that building a good and strong house with ensured security of person and property is not contrary to
+reliance on God and not against the rules of the Sharīʿah (Qurṭubī). **[Ibn Kathīr]** No caution or
+fortification can ever avert death: Khālid b. al-Walīd said upon his deathbed, "I have fought in such and
+such a number of battles, and there is no place on my body without a wound from a stab or a shot — yet here I
+am, dying in my bed; let not the eyes of the cowards taste sleep." **[Study Quran]** Towers raised high
+(*burūj*) refers to tall and seemingly impenetrable fortresses according to most, though some say it refers
+to the towers or constellations in the heavens (cf. 15:16; 25:61; 85:1). The verse addresses the attitude of
+Madinan hypocrites and those Jews who were reluctant to join the Muslims in battle; when some Muslims were
+killed at Uḥud, those who had stayed behind asserted that, had the slain remained with them, they would not
+have been killed. It encourages the Muslims who were reluctant to fight out of fear of men to fight without
+fear of death, for death is always before them, wherever they may be, and death in the way of God brings
+eternal happiness. The verse indicates that everyone has an allotted term, and once it has elapsed death
+cannot be escaped: if one is not killed in battle, one will die some other way (Qurṭubī).
+
+**Reflection.** **[Study Quran]** The words "All is from God" affirm that both good and evil unfold by God's
+decree and creation, even as the following verse names the human being's responsibility for the evil he
+suffers. **[Saʿdī]** The hypocrite's logic divides the world into things he likes, credited to God, and
+things he dislikes, charged to the Prophet — a theology of convenience; the answer takes the whole of the
+world back to a single hand and asks, in effect, why it is that a people who can attribute events cannot
+understand a sentence.
+
+**Cross-references.** "Whatever misfortune befalls you is because of what your hands have earned, though He
+pardons much" (42:30); "Say: You brought it upon yourselves" (3:165); "And when good came to them, they said,
+'Ours is this'; and if evil afflicted them, they took it as a bad omen connected with Moses and those with
+him" (7:131); "We have not sent a warner to any town but its wealthy ones said, 'We disbelieve in what you
+have been sent with'" (34:34).
+
+## 4:79
+
+*"Whatever good befalls you is from God, and whatever evil befalls you is from yourself; and We have sent you
+to mankind as a Messenger, and God suffices as Witness."*
+
+**Meaning.** **[Ṭabarī]** Whatever befalls you, O Muhammad, of ease, blessing, well-being and safety is from
+God's grace toward you, bestowed on you as a kindness from Him; and whatever evil befalls you of hardship,
+difficulty, harm and the disliked is from yourself — by a sin for which you earned it, which your own soul
+acquired. **[Jalālayn]** Whatever good befalls you — O man — is from God, coming to you from His bounty;
+whatever evil or misfortune befalls you is from yourself, coming to you as a necessary consequence of the
+sins you have committed. We have sent you, O Muhammad, to people as a messenger — *rasūlan* is a
+circumstantial qualifier for emphasis — and God suffices as Witness of your mission. **[Qurṭubī]** The
+address is to the Prophet ﷺ while the community is meant: whatever befalls you, O people, of fertility and
+ampleness of provision is from God's bounty to you, and whatever befalls you of drought and straitness of
+provision is from yourselves — that is, it came upon you because of your sins; so said al-Ḥasan and al-Suddī.
+**[Ibn Kathīr]** The good and the evil alike occur by God's decree and creation, while the evil is earned by
+the servant's own doing: this is why God said, "And whatever good befalls you is from God, and whatever evil
+befalls you is from yourself," and elsewhere, "Say: You brought it upon yourselves."
+
+**Language & readings.** **[Qurṭubī]** Around this verse the grammarians disputed: "whatever good befalls
+you" may be understood as a relative clause ("that which befalls you"), and it may be the beginning of a new
+sentence connected to the preceding by an elided "they say"; some held the interrogative *alif* is suppressed
+in "and whatever evil befalls you" so that the meaning is "is it then from yourself?" — as in "And is that a
+favor you reproach me with?" (26:22), where the sense is, "or is that a favor?" Al-Akhfash said *mā* means
+"that which," and al-Naḥḥās said this is the correct view, because the verse was revealed concerning a
+specific matter of drought, which is not among the sins. **[Qurṭubī]** It is reported from ʿAbd al-Wahhāb b.
+Mujāhid from his father, from Ibn ʿAbbās, Ubayy and Ibn Masʿūd, an addition reading "and I wrote it upon you"
+— these are readings in the manner of commentary, and some of the people of deviation counted them as part
+of the Qurʾān; but the report from Ibn Masʿūd and Ubayy is disconnected, since Mujāhid did not meet either of
+them. **[Study Quran]** Note that the verse is addressed to the Prophet Muhammad but is meant for his
+community, and indeed for human beings in general. It seems in some ways to contradict v. 78, which asserts
+that all is from God, both the good and the evil: here the good one enjoys is from God (cf. 16:53), which He
+gives as a blessing or a trial from His wisdom; but the evil one experiences is "from thyself" (cf. 3:165), in
+the sense that one has earned it through disobedience and sin (Qurṭubī, Ṭabarī), though some indicate that it
+nonetheless occurs through God's decree. See 42:30, "Whatever misfortune befalls you is because of that which
+your hands have earned; and He pardons much," and 3:117; 10:44; 29:40; 30:9, where the Qurʾān asserts that God
+does not wrong people, but rather they wrong themselves. Some say the present verse refers to the defeat the
+Muslims suffered at Uḥud, brought about when some of the Muslims disregarded the command to hold back from
+pursuing the fleeing Makkans (cf. 3:152–53).
+
+**Reflection.** **[Ṭabarī]** The two verses are not in conflict but in order: the decree is God's and the
+deed is the servant's; God creates the event, and the servant earns the blame for the evil — hence the verse
+follows its account of the evildoers' error by returning to the Messenger and to his mission, "and We have
+sent you to mankind as a Messenger, and God suffices as Witness." **[Study Quran]** If v. 78 affirms that all
+things originate with God, this verse suggests that some evil — including the spiritual evil of failing to
+believe, or being led astray — is brought about in relation to the human being's own choices and
+accountability, since God does not wrong people, but they wrong themselves.
+
+**Cross-references.** "What would God gain by your punishment if you were grateful and believed?" (4:147);
+"Corruption has appeared on land and sea because of what the hands of people have earned" (30:41); "And God
+is Witness over all things" (4:33); "Say: God is sufficient as a witness between me and you" (13:43).
+
+## 4:80
+
+*"Whoever obeys the Messenger, he has obeyed God; and whoever turns away — We have not sent you as a keeper
+over them."*
+
+**Meaning.** **[Ṭabarī]** This is God's clearing of Himself before His creation concerning His Prophet
+Muhammad ﷺ: whoever among you, O people, obeys Muhammad has obeyed Me by obeying him — so hear his words and
+obey his command, for whatever he commands you is by My command that he commands you, and whatever he forbids
+you is by My prohibition; and let none of you say, "Muhammad is only a man like us, wishing to set himself
+above us." Then God said to His Prophet: and whoever turns away from obeying you, O Muhammad, and turns his
+back on you — We have not sent you over them as a custodian to watch their deeds; your only duty is the
+message. **[Jalālayn]** Whoever obeys the Messenger, verily obeys God; and whoever turns his back, whoever
+avoids obedience to you, do not be concerned with them — We have not sent you as a watcher over them, to keep
+watch over their deeds, but as a warner; their affair is Ours to deal with and We will requite them. This
+statement was before the command to fight them was revealed. **[Qurṭubī]** God has informed that obedience to
+His Messenger is obedience to Him. In *Ṣaḥīḥ Muslim*, from Abū Hurayrah from the Prophet ﷺ: "Whoever obeys
+me has obeyed God; whoever disobeys me has disobeyed God; whoever obeys the amīr has obeyed me; whoever
+disobeys the amīr has disobeyed me." "And whoever turns away" means turns aside; "We have not sent you as a
+keeper over them," that is, as a guard and overseer of their deeds — yours is only the delivering of the
+message.
+
+**Rulings & reflection.** **[Ibn Kathīr]** Al-Bukhārī and Muslim recorded from Abū Hurayrah the *ḥadīth*:
+"Whoever obeys me obeys God; whoever disobeys me disobeys God; whoever obeys the leader obeys me; whoever
+disobeys the leader disobeys me." "But he who turns away — then We have not sent you as a watcher over them":
+do not worry about him; your duty is only to convey, and whoever obeys you will acquire happiness and success,
+and you will gain a reward similar to what he earns. **[Saʿdī]** Everyone who obeys the Messenger of God in
+his commands and prohibitions has obeyed God, since the Prophet does not command or forbid except by God's
+command, His law, His revelation and His sending down — and in this is the Prophet's protection from error,
+for God commanded obedience to him unconditionally, and had he not been protected in everything he conveyed
+from God, God would not have commanded obedience to him unconditionally and praised those who render it.
+This is among the shared rights: rights are three — a right belonging to God alone, which is no one else's,
+namely the worship of God, turning to Him and what follows; a right belonging specifically to the Messenger,
+namely honoring him, revering him and supporting him; and a shared right, namely faith in God and His
+Messenger, love of them and obedience to them — as God gathered these rights together in His saying, "that
+you may believe in God and His Messenger, and honor him and revere him and glorify Him morning and evening"
+(48:9). So whoever obeys the Messenger has obeyed God, and has the reward and good that is ordered upon
+obedience to God. "And whoever turns away" from obedience to God and His Messenger harms only himself and
+harms God nothing. "We have not sent you as a keeper over them," to guard their deeds and states — rather We
+sent you as one who conveys, clarifies and advises; you have discharged your duty and your reward is due from
+God whether they are guided or not, as God said, "So remind, for you are only a reminder; you are not a
+controller over them" (88:21–22). **[Study Quran]** Regarding obedience to God and the Messenger and the
+relationship between them, see 3:32, 132; 4:59; 5:92; 8:1, 20, 46; 24:54; 33:33; 47:33; 49:14; 58:13;
+64:12. The statement that the Prophet is not a keeper of those to whom he delivers the message is found in
+various places in the Qurʾān: see 6:107; 11:86; 42:6, 48; and for similar statements, 6:66; 10:108; 17:54;
+39:41.
+
+**Reflection.** **[Saʿdī]** The verse completes the passage on authority: obedience to God and to the
+Messenger are one obedience, because the Messenger commands nothing of his own; and the final clause releases
+the Prophet from responsibility for the refusal that follows, which is the pattern of the whole sūrah — the
+call is delivered, the choice is the hearer's, and the reckoning is God's.
+
+**Cross-references.** "He who obeys the Messenger has obeyed God" stands beside "Say: If you love God, follow
+me, and God will love you" (3:31); "And obey God and His Messenger, that you may receive mercy" (3:132);
+"Obey God and obey the Messenger, and beware; but if you turn away, then know that Our Messenger's only duty
+is clear conveyance" (5:92); "So remind, for you are only a reminder — you are not a controller over them"
+(88:21–22).
