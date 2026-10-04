@@ -996,3 +996,359 @@ delivered, the responsibility transferred.
 Qurʾān will say in this sūrah, *God is Seer of the servants* (3:15, 20, here): the witness that
 remains when all arguments are done is the One who was watching all along — and so the disputation is
 handed back with a courtesy no polemic usually keeps: *your duty is only the conveyance.*
+
+
+## 3:21 — الَّذِينَ يَكْفُرُونَ بِئَايَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ الْحَقِّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ ۗ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ
+
+*Those who disbelieve in the signs of God and slay the prophets unjustly, and slay those who enjoin
+equity among men — so give them good tidings of a painful chastisement.*
+
+**Meaning.** **[Jalālayn]**: the *shahīd* verse of 3:20's disbelievers now described — denial of God's
+signs, killing of the prophets *without right*, and killing of the enjoiners of equity: the Jews who,
+it is reported, slew forty-three prophets in a single hour, whom a hundred and seventy devout men of
+the same day stood up to enjoin justice — and they were all slain before evening. *So give them good
+tidings*: the *bishāra* here is sarcasm and ridicule, **[Jalālayn]** notes; and the *fāʾ* is taken as
+inside the predicate of *inna*, because its noun — the relative clause — resembles a condition: "if
+they disbelieve, *then* give them good tidings." **[Ibn Kathīr]**: this is God's chastisement of the
+People of the Book for their denial of old and now, their killing of the prophets when they conveyed
+God's law with no cause and no crime of theirs — "and they slay those who enjoin justice," the peak of
+arrogance, for "arrogance is spurning the truth and demeaning people" (ḥadīth); so God answered their
+arrogance toward truth and toward His creatures with humiliation in this life and abasing chastisement
+in the next. **[Maʿārif]**: the verse's "signs" are particularly the Injīl and the Qurʾān disbelieved
+by the Jews; the "enjoiners of equity" are the teachers of moderation in deed and morals.
+
+**Readings.** **[Ṭabarī]**: all the readers of the cities read *wa-yaqtulūna*, "they slay." A late
+Kufan reader (al-Kisāʾī, per al-Farrāʾ) read *wa-yuqātilūna*, "they fight," claiming to follow the codex
+of ʿAbdullāh b. Masʿūd, where it stood *wa-qātalū*; Ṭabarī rules the consensus reading correct. He
+transmits from Maʿqil b. Abī Maskīn the shape of the crime: revelation used to come to the Children of
+Israel and they would remind their people — no book came to them — and they were slain for it.
+
+**Ḥadīth & āthār.** **[Study Quran]**: "the worst punishment on the Day of Resurrection is for him
+who is killed by a prophet, or who kills a prophet" (Ṭ); the report of the forty-three prophets and
+the hundred and seventy enjoiners (also in Ibn Abī Ḥātim, per **[Maʿārif]**); and the ḥadīth cited by
+al-Rāzī for the second class of victims — "the best of struggle is a word of truth before a tyrannical
+ruler," and the runner in support of the messengers in (36:20–28).
+
+**Reflection.** The three verbs grade a society's crimes: denying the signs, killing the prophets, and
+then killing the ordinary people who simply said "do what is fair" — **[Saʿdī]**: these combined the
+evils: kufr against God's signs, rejection of His messengers, and assault on the best of creation in
+their right, the guides of rectitude whose program every religion and every sound mind agreed on. The
+tidings, delivered sarcastically, close the matter.
+
+---
+
+## 3:22 — أُولَٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ
+
+*"Those — their works have come to nothing in this world and the Next, and they shall have no
+helpers."*
+
+**Meaning.** **[Jalālayn]**: whatever good they did — charity, kindness to kin — came to *ḥabṭ*,
+invalidated: their deeds are void in both abodes, so they have nothing to their account, and no
+protectors from the chastisement. **[Ṭabarī]** (whose commentary on 3:21–22 is one unit) and
+**[Saʿdī]**: they deserved the painful punishment, and none can give them victory or pluck them out of
+God's penalty. **[Ibn Kathīr]**: humiliation in this world — their works lost, their memorials
+effaced — and the abasing torment in the Next, where God discards him who obeyed the prohibition he was
+given.
+
+**Belief.** **[Study Quran]**: *ḥabaṭa* is failure and futility — in this world the disbelievers' works
+miscarry, are reviled by those who come after, and bear no fruit in the Next, because they were done
+with the wrong intention (R, Ṭ); and *no helpers* bears on the last-day question of intercession and
+ransom, declared futile at 2:48 — death strips them of what they leaned on, and they stand alone.
+
+**Reflection.** The symmetry is the pedagogy: the enjoiners of equity had no helper against them in
+this world (3:21); the killers will find none in the next (3:22). History's one verdict is deferred
+until help is no longer a category.
+
+---
+
+## 3:23 — أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِّنَ الْكِتَابِ يُدْعَوْنَ إِلَىٰ كِتَابِ اللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ
+
+*"Have you not seen those who were given a portion of the Book, being called to the Book of God that it
+may judge between them — and then a party of them turn away, with aversion?"*
+
+**Meaning.** **[Jalālayn]**: a portion — a share — of the Book: the Torah; *being called to the Book of
+God* is a circumstantial qualifier of *those*; "to judge between them" — and a party turned away from
+accepting its rulings. He notes the reference: two of the Jews committed fornication, asked the Prophet
+to adjudicate, and when his stoning verdict was refused, the Torah was brought and the very sentence
+found in it; the two were stoned, and the Jews were angered. **[Ṭabarī]** carries from Ibn Isḥāq, via
+Muḥammad b. Abī Muḥammad from Saʿīd b. Jubayr or ʿIkrimah, from Ibn ʿAbbās: the Prophet entered the
+*bayt al-midrās*, a company of the Jews, and called them to God; Nuʿaym b. ʿAmr and al-Ḥārith b. Zayd
+said: "On what religion are you, Muḥammad?" — "On the creed and way of Ibrāhīm." — "But Ibrāhīm was a
+Jew!" — "Then come to the Torah: it shall be between us and you." They refused; and God sent down this
+verse to 3:25. **[Qurṭubī]** adds al-Naqqāsh's variant occasion: a group denied Muḥammad's prophethood,
+he said "come to the Torah — my description is in it," and they refused; and the Book meant here, per
+his opening, is not the Qurʾān but the Torah, whose verdicts God had imposed on the sects that own
+scriptures. **[Study Quran]**: the accounts vary in detail but agree in shape — "the Prophet's recourse
+to the Torah, which its custodians hesitated about or refused," including the case where the Torah
+verse of stoning was found under the reciter's hand laid over it, and the invitation, "our religion is
+the creed of Abraham," answered "Abraham was a Jew."
+
+**Readings.** **[Qurṭubī]**: the majority read *li-yaḥkuma*, "that it (the Book) may judge"; Abū Jaʿfar
+Yazīd b. al-Qaʿqaʿ read the passive *li-yuḥkama*; the active is better, as in (45:29) "Our book speaks
+upon you with truth."
+
+**Rulings.** **[Qurṭubī]**'s second *masʾala*: the verse obliges the one called to a judge to answer the
+call — refusal makes him an opponent to be disciplined as fits the offence; the practice of al-Andalus
+and the Maghrib ran on this. **[Study Quran]**, reporting Qurṭubī at 5:43: it is binding on Jews to
+rule by the Torah, and the discussion whether Muslims may read and act by it — its rulings being our
+obligation until abrogated, though only the Prophet could tell the authentic from the rest.
+
+**Reflection.** The censure is not for losing the argument but for refusing the ground of argument: a
+book both sides accept. The verse has become, in the commentary tradition, the charter of reasoned
+appeal — and of the shame of the party that turns away *while aversely turning*, as the doubled
+*yuḥlidūna* stresses in the Arabic.
+
+---
+
+## 3:24 — ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَن تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَّعْدُودَاتٍ ۚ وَغَرَّهُمْ فِي دِينِهِم مَّا كَانُوا يَفْتَرُونَ
+
+*"That is because they said: the Fire shall not touch us except for a number of days — and what they
+used to invent has deluded them in their religion."*
+
+**Meaning.** **[Jalālayn]**: the turning-away has its cause in their claim that the Fire will not
+touch them beyond counted days — forty only, the length of their fathers' calf-worship, after which it
+ends; and the lie they fabricated deceived them in religion, the clause *wa-gharrahum fī dīnihim*
+attaching in sense to *mā kānū yaftarūn*, "what they used to invent." **[Ṭabarī]**: they refused the
+Torah's judgment *because* of their saying "the Fire shall not touch us but numbered days" — the forty
+days of the calf — "then our Lord will bring us out of it": self-deception, and the fiction that they
+are God's sons and beloved, and that God promised their father Yaʿqūb that no child of his enters the
+Fire except like the loosening of an oath — *taḥillat al-qasam*, a touch as brief as the gesture by
+which a sworn man resolves his oath and exits it. God belied all their claims and told the Prophet that
+they, not the believers, are the people of the Fire, abiding in it. **[Ibn Kathīr]**: the days are
+seven by their reckoning — a day for each thousand years of the world, as counted at 2:80; the
+fabrication was their own invention, for which God granted them no sanction, and it deceived them.
+**[Maʿārif]**: they argued that since they worshipped the calf for forty days, forty days is all their
+punishment can be — self-deception bred of forged ancestry, "children of prophets, therefore not of
+the Fire."
+
+**Cross-references.** The claim is 2:80's, answered there and at 2:24; the "beloved of God" plea recurs
+at 5:18.
+
+**Reflection.** **[Saʿdī]** frames the psychology in a line worth keeping: who made them so sure? —
+"security" and "false witness-bearings for themselves of salvation"; both are *amānī*, wishes dressed
+as law, false, he says, by revelation and by reason alike. A number set on God's threat is a way of
+trading in the threat; the verse says the trade is the delusion.
+
+---
+
+## 3:25 — فَكَيْفَ إِذَا جَمَعْنَاهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ
+
+*"How then, when We gather them for a Day about which there is no doubt, and every soul is paid in full
+what it earned, and they are not wronged?"*
+
+**Meaning.** **[Jalālayn]**: what will their state be when God gathers them on the Day of
+Resurrection, of no doubt, and every soul — of the People of the Scripture and others — is requited
+fully for what it did of good or evil, without being wronged: no good thing diminished, no evil thing
+added. **[Ṭabarī]**: *fa-kayfa* is an ellipsis — what will be their case, these men who said this,
+turned from God's book and took God in deception and forged lies? A severe *waʿīd*, a blunt threat:
+see what punishment they meet and what reward they miss, each worker paid at the measure of his desert,
+none wronged, none punished except for what he committed, the doer of good requited by his goodness and
+the doer of evil by his evil — no creature has reason to fear, that Day, injustice or abridgement from
+Him. He then answers a *sāʾil*: why *li-yawmin*, "for a Day," and not *fī yawmin*, "on a Day"? —
+because the *lām* is not the *fī*: were it *fī*, the sense would be "how will their punishment be
+*within* the Day"; with the *lām*, a verb is understood and its statement withheld: "how will it be,
+when We gather them *for what will happen* in that Day, for the judgment of God among His creatures in
+it?" **[Ibn Kathīr]**: God will question them about the lie, the rejection, the killing of the
+prophets and of their scholars who enjoined the right, and punish them for it.
+
+**Belief.** **[Study Quran]**: some take *li-yawmin* as all they will undergo within the day (R, Ṭ),
+others simply the Day of judgment (Th); "paid in full" (*wuffiyat*) shares its root with the keeping of
+covenants (2:40) — the measure of requital is the measure of promise.
+
+**Reflection.** **[Saʿdī]**: *then do not ask what punishment they meet or what good they lose* — "that
+is by what your hands have earned, and your Lord is not oppressive to the servants." The interrogative
+form — *how?!* — with the answer left hanging is the sharpest rhetoric the Qurʾān owns: the sentence
+breaks off precisely where the punishment would begin.
+
+---
+
+## 3:26 — قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ
+
+*Say: O God, Master of the sovereignty: You give the sovereignty to whom You will and take the
+sovereignty from whom You will; You do honour to whom You will and abase whom You will; in Your hand is
+the good. Truly You are over every thing powerful.*
+
+**Context.** **[Jalālayn]**: when the Prophet promised his community the lands of Persia and Byzantium,
+the hypocrites cried "this is absurd!" — and the verse came down. **[Maʿārif]** gives the fuller
+occasion from al-Wāḥidī, from Ibn ʿAbbās and Anas: the same promise, mocked by the hypocrites and the
+Jews, after Badr and Uḥud had left the Confederates desperate for the conclusive battle of the Trench.
+**[Ibn Kathīr]** reads the verse as encouragement to gratitude: God transferred prophethood from the
+Children of Israel to the unlettered Qurashī prophet of Makka, the last of the messengers, gave him
+qualities no prophet before him had, opened the east and west to his community, and gave His law
+dominion over laws — refuting at the same time those who wanted the Qurʾān sent "upon a great man of
+the two towns" (43:31), since the distribution of sovereignty is not theirs (43:32).
+
+**Meaning.** **[Jalālayn]**: *in Your hand* — in Your power — *is the good*, that is, the good *as
+well as* the evil. **[Ṭabarī]** opens with the *اللهم* problem, which he explores at length with the
+grammarians: the *mīm* added to *Allāh* — why the accusative in a bare vocative that should be raised?
+One answer: God's name is unique among names in taking the added *mīm* instead of the particle *yā*
+(as in *fa*, *ibnum*, the vocatives *humam* and *zurqum*, and the poet's *ā abā l-Munthir*), the two
+*mīms* standing for the *yā*; the Sibawayh school's account is what he himself affirms — the vocative
+*Allāhumma* is built with the second *mīm* doubled because *yā* and the hamza could not combine, so one
+of them was doubled and the *mīm* of the *shadda* absorbed the function of *yā*. On the semantics: every
+motive for asking — forgiveness, mercy, victory, provision — is gathered inside, which is why it is
+reported that the Messenger of God used the word when he wanted many things at once.
+
+**Belief.** **[Saʿdī]**, on *bi-yadika'l-khayr*: all good comes from God alone; but *evil is not
+attributed to Him* — neither in description, in name, nor as an act — although it falls within what He
+has made and within His decree. The two are in the decree; the attribution is not: hence "in Your hand
+is the good," as God and His Messenger worded it — and the commentators who appended "and the evil"
+are, Saʿdī says, simply mistaken, having imagined that naming the good alone competes with the
+universality of the decree. **[Study Quran]**: some take *mulk* here as prophethood (Ṭ) — an answer to
+objections to an Arab, non-Israelite, human prophet; all read "the good" as every possible good. On
+*Allāhumma* he records the etymologies (a clipping of *yā Allāh ummanā bi-khayr* "pardon us"; the *mīm*
+in place of *yā*; speculations of Aramaic or Akkadian origin) and the note that it is not a plural, as
+Hebrew *Elohim* sometimes is argued to be.
+
+**Reflection.** A sūrah whose opening verses were about *kingship without partner* (3:2) puts the whole
+politics of the world into one sentence of prayer: sovereignty is lent, not owned — given and taken,
+honouring and abasing at a will no faction can constrain. Empires in the Qurʾān are leaseholds.
+
+---
+
+## 3:27 — تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَن تَشَاءُ بِغَيْرِ حِسَابٍ
+
+*"You make the night enter upon the day, and You make the day enter upon the night; You bring the
+living out of the dead and bring the dead out of the living; and You provide whom You will without
+reckoning."*
+
+**Meaning.** **[Jalālayn]**: each of the two enters the other — the day lengthening by what the night
+loses and the night by what the day loses; the living from the dead: humans from the sperm-drop, birds
+from the egg; and the dead from the living in turn; and You give provision abundantly, without stint,
+to whom You will. **[Ṭabarī]** gives the lexicography — *walaja* the house, *yulijuhu* — and the
+commentators: al-Suddī: God brings the night in upon the day until the night is fifteen hours and the
+day nine, and the day upon the night until the day is fifteen and the night nine; Ibn ʿAbbās: what
+decreases from the day He puts into the night, and what decreases from the night He puts into the day;
+and Mujāhid to the same effect. **[Maʿārif]** generalises what the pair of opposites proves: the
+ordering of sun and moon governs the length of days at His command; the live-from-dead is the chick
+from the egg, the child from the sperm, the tree from the seed — and read broadly, *living* and *dead*
+are knowledge and ignorance, the believer and the disbeliever: God brings Ibrāhīm out of an
+idol-worshipper's house, and left the son of Nūḥ in his disbelief; the scholar's son can be unlettered,
+and the unlettered man's a scholar. The eloquence of the verse's order is worth a reader's attention:
+the cosmos, then life, then provision — descent from the general to the intimate.
+
+**Prayer.** **[Study Quran]** records the ḥadīth in which the Prophet teaches a debtor in distress a
+dhikr: recite *quli'llāhumma mālika'l-mulk* to *bi-ghayri ḥisāb*, then add: "O All-Merciful of this
+world and the Next, and their Compassionate One — You give from these two as You will and withhold from
+them as You will; have mercy on me so that I need no one else's mercy" — and God will discharge the
+debt though it be Uhud in gold. He adds the Sufi reading of Ibn ʿAjība: the night is the soul's
+contraction, the day its expansion, and the sovereign over his ego is exalted in both abodes while he
+who is ruled by it is abased.
+
+**Reflection.** **[Saʿdī]** draws the practical rule from the last clause: since provision runs without
+reckoning from God alone, and He names elsewhere the means that touch it — God-wary-ness and trust
+(65:2–3) — so let nobody seek provision except from God, working the means He has made easy and
+allowed. The verse turns cosmology into the etiquette of asking.
+
+---
+
+## 3:28 — لَّا يَتَّخِذِ الْمُؤْمِنُونَ الْكَافِرِينَ أَوْلِيَاءَ مِن دُونِ الْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنْ أَمْرِ اللَّهِ إِلَّا أَن تَتَّقُوا مِنْهُمْ تُقَاةً ۗ وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ ۗ وَاللَّهُ عَلِيمٌ بِذَاتِ الصَّدْرِ
+
+*"Let not the believers take the disbelievers as allies instead of the believers — and whoever does
+that has no bond with God — unless you guard yourselves against them with [due] precaution. God warns
+you of Himself; and God is knowing of what is in the breasts."*
+
+**Context.** **[Study Quran]** gathers the occasions: hypocrites of Madīna corresponding with the
+Makkans (W-Ṭ); a friendship between some of theHelpers and Jewish men who wanted to draw them back
+from religion; and a prominent companion at the Trench who wished to muster several hundred Jews to
+fight on the Prophet's side (R, Ṭ, W) — in all of them the stake is allegiance and alignment, not
+friendship at large; compare 4:88–90, 4:144, 5:51, 5:57, and 3:118.
+
+**Meaning.** **[Ṭabarī]**: a prohibition against taking the disbelievers as helpers, supporters and
+backing, siding with them against Muslims and handing them knowledge of Muslim vulnerabilities — the
+*jazm* vowel of *yattakhidh* is the *jussive* of the prohibition, its final consonant broken against the
+vowelless letter it met; and *not of God in anything* means: free of God and He of him, by his apostasy.
+**[Qurṭubī]**: the phrase is like "ask the town" for its people, and Sībawayh's *huwa minnī
+parsakhayn*, "he is two parasangs from me" = of my company. **[Ibn Kathīr]**: whoever does it, God
+discards; the sister-verses pour the same sentence through their contexts: (60:1) "taking My enemy and
+your enemy as friends"; (4:144), "making God a manifest proof against you" (the wording here, *fa-laysa
+min amri llāh*, "of God's command," is his gloss on *min Allah*); (5:51), "whoever takes them as allies
+is one of them." **[Saʿdī]**: the prohibition runs to *muwāllāh* specifically — the heart's love and
+the support it entails; mere outward dealings, peace and truce are lawful to the weak, but the heart's
+alliance is the *kufr* the verse severs.
+
+**Rulings — the *tuqā*.** **[Qurṭubī]**: Muʿādh b. Jabal and Mujāhid held that the concession belonged
+to the *jiddata*, the early weakness of Islam; "today God has honoured Islam beyond needing to fear its
+enemy." Ibn ʿAbbās defined it: speaking with the tongue while the heart rests in faith — one is not
+killed and no sin is incurred; al-Ḥasan: the concession stands until the Day of Resurrection, but not
+in killing. The reading *tuqātan* is attributed to Jābir b. Zayd, Mujāhid and al-Ḍaḥḥāk (against the
+more common *tuqātan*); the jurists' limit: the believer among unbelievers may run * mudāhara* with his
+tongue if he fears for himself, and the concession does not extend below real threats — killing,
+mutilation of a limb — and never to shed blood. **[Ṭabarī]**'s version of Ibn ʿAbbās is the same:
+showing them friendship with your tongues while your hearts bear enmity — neither siding with their
+kufr nor helping them against a Muslim by act. **[Study Quran]**: coercion excuses while the heart is
+at peace (16:106, the earliest Makkan martyrs); the two companions seized by Musaylima — one affirmed
+his false claim to save his life, the other refused and was killed; the Prophet's verdict honoured both
+— "the one kept to his certainty, so for him the prize; the other took God's concession, and no blame
+on him." He notes the Shiʿī history of *taqiyya* as a virtue during the imamate period, later
+de-emphasised as numbers and security grew, and its parallel legal acceptance in Sunni thought under
+other names, plus the Sufi sense of concealing teachings unfit for the crowd.
+
+**Belief.** **[Jalālayn]**: *unless you take precaution* is a *mafʿūl maṣdar* of *taqiyya*; the
+dispensation applies to anyone dwelling where he has no say, before Islam's ascendancy — the exception
+is, in the end, a measure of the umma's strength, not of its nerve. *God warns you of Himself*
+reappears from 3:30 and carries the *waʿīd* clause into the verse; **[Study Quran]**: "Himself" — His
+wrath — or "of that very thing," the alliance itself; **[Ibn Kathīr]**: *God knows what is in the
+breasts*, so hypocrisy in friendship is not lost on Him.
+
+**Reflection.** The verse is read today, as always, on a razor: it prohibits not dealings but
+*disloyalty of the heart under the cover of words*; its exception is narrow by design — a concession of
+fear, not a licence of convenience. The next verse (3:29) is its seal: the only *taqiyya* God does not
+permit is the one practised on Him.
+
+---
+
+## 3:29 — قُلْ إِن تُخْفُوا مَا فِي صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ اللَّهُ ۗ وَيَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ
+
+*"Say: if you hide what is in your breasts or disclose it, God knows it — and He knows what is in the
+heavens and the earth; and God is over every thing powerful."*
+
+**Meaning.** **[Jalālayn]**: whether you conceal the alliance in your hearts or declare it, God knows
+it; and His knowledge takes in the heavens and the earth — and He is able to do all things, so included
+among them is requiting those who take the disbelievers as allies. **[Ibn Kathīr]**: God informs His
+servants that the secrets and the open things are alike to His observation, nothing escaping it in any
+time, place or moment — not the weight of an atom in the heavens, the earth or the mountains (34:3,
+cf. 10:61); and His power over all things alerts them to fear Him where He cannot be hidden.
+**[Saʿdī]**: His knowledge encompasses all things without exception; with that encompassing knowledge
+He is the All-mighty that nothing sought is impossible for. The verse's function is exactly
+proportioned to the one before: 3:28 legislated the outside, 3:29 weighs the inside.
+
+**Reflection.** **[Saʿdī]** continues: having shown them the greatness of His attributes so that they
+watch Him in every state, God adds the other spur to *mubāqasa* — that all are returning to Him with
+their works present: then the people of good rejoice in what they sent ahead, and the people of evil
+find their deeds produced before them — and 3:30: the regret of distance. To know oneself as *seen*
+while *on the way* to being judged is, in his reading, the verse whole: prudence now, not excuses then.
+
+---
+
+## 3:30 — يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُ أَمَدًا بَعِيدًا ۗ وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ ۗ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ
+
+*"On a Day when every soul shall find every good it did produced before it, and what it did of evil —
+it will wish that between itself and that were a distance far away. God warns you of Himself; and God
+is most kind to the servants."*
+
+**Meaning.** **[Jalālayn]**: recall the Day when every soul finds the good it did set before it,
+present, and likewise the evil — this last clause is a new sentence whose predicate follows — and it
+wishes the span between it and the evil were a vast distance, so that it could never reach it. The
+*waʿīd* is repeated — **[Jalālayn]**: for emphasis — and *God is kind to His servants*.
+**[Saʿdī]**: the servant who knows that he is *sāʿin* toward his Lord, labouring in this life, and must
+meet his Lord and meet his labour, owes himself the caution to avoid works that bring disgrace and
+punishment, and the preparation with works that bring happiness and reward — which is exactly the
+sequence of the verse: warning, then kindness.
+
+**Belief.** **[Ibn Kathīr]**: "on that Day God gathers them and their deeds are produced — then each
+sees all of it, nothing of it forgotten; so he who denied and broke God's covenant and the trust He
+committed to him — do not think him far from the reckoning" (the sense of the closing of the passage:
+the record is complete). **[Study Quran]**: *mubṭara* and *amada* — the wish for a "far stretch" — name
+the last thing the self wants from its own past, and the verse's rhetoric: the evil is *itself*, not an
+outsider, and cannot be walked away from; the warning of *nafsahu* reads (as at 3:28) "of His own
+punishment" or "of that very thing"; and the verse closes with *raʾūf*, the name of the tenderest mercy,
+to show that the warning is itself mercy — the fear here is educative, not spiteful. The kind of
+*raʾfa* that frightens before, rather than after.
+
+**Reflection.** The overture of the sūrah ends where the first verses of al-Baqarah' block ended: the
+sūrah's first movement — tawḥīd, the Book, the Criterion, the Book's clear and ambiguous parts, the
+hearts, the gathering — folds at 3:30 with the two names that held it open from the start (cf. 3:2's
+*al-ʿAzīz al-Ḥakīm*): God warns, and God is *most kind to the servants*. The Qurʾān's readers in this
+chapter are told which of the two to take hold of: both, in that order.
+
