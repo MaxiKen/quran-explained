@@ -919,3 +919,113 @@
 **Meaning.** The verse rebukes many among those under discussion for forming alliances with hostile idolaters, an act that brings spiritual loss and divine displeasure [Jalālayn], [Ṭabarī]. **[Study Quran]** relates the passage to particular Jews of Madinah or hypocrites who allied with the Makkan opponents; it does not make the charge universal to every Jew or every non-Muslim.
 
 **Reflection.** An alliance is judged by the ends it serves and the wrongs it enables; seeking protection through betrayal cannot secure lasting safety [Saʿdī].
+
+---
+
+## 5:81
+
+*“Had they believed in God, the Prophet, and what was sent down to him, they would not have taken them as protectors; but many of them are iniquitous.”*
+
+**Meaning.** The verse explains the alliance condemned in 5:80: sincere belief in God, Muhammad, and the revelation given to him would have prevented the people described from taking hostile disbelievers as their protectors [Ṭabarī], [Jalālayn]. **[Qurṭubī]** distinguishes such an alliance from a person who maintains a relationship without sharing the ally’s creed or approving wrongdoing.
+
+**Reflection.** Belief shapes allegiance; the verse asks whether one’s loyalties agree with the faith one professes [Saʿdī].
+
+---
+
+## 5:82
+
+*“You will surely find the most hostile of people toward those who believe to be the Jews and those who ascribe partners to God; and you will find the nearest of them in affection toward those who believe to be those who say, ‘We are Christians.’ That is because among them are priests and monks, and because they are not arrogant.”*
+
+**Meaning.** The verse contrasts groups’ responses to the believers: those described as hostile and those who respond with affection and humility [Ṭabarī], [Jalālayn]. The Christian group’s priests and monks are noted for devotion and learning, while their lack of arrogance makes them more receptive to truth [Saʿdī]. **[Study Quran]** cautions that the passage sits in a particular historical context and should not be turned into an unqualified judgment on every Jew, Christian, or individual.
+
+**Context.** Reports connect the favorable response with the Negus and an Abyssinian Christian delegation who heard Qur’anic recitation [Qurṭubī], [Jalālayn].
+
+**Reflection.** Humility and sincere learning can open a heart to truth; religious affiliation alone does not settle how a person will respond [Maʿārif].
+
+---
+
+## 5:83
+
+*“When they hear what has been sent down to the Messenger, you see their eyes overflowing with tears because of the truth they recognize. They say, ‘Our Lord, we believe; so write us among the witnesses.’”*
+
+**Meaning.** Some among the Christians who hear the Qur’an recognize its truth and are moved to tears; they ask God to count them among those who bear witness to it [Ṭabarī], [Jalālayn]. Their response joins inward recognition to an explicit confession of faith [Study Quran].
+
+**Context.** The passage continues the portrait of humble listeners in 5:82. **[Jalālayn]** relates it to the delegation of the Negus, who heard the recitation and accepted its truth.
+
+**Reflection.** In this account, tears are not the end of faith but the beginning of testimony and a changed allegiance [Saʿdī].
+
+---
+
+## 5:84
+
+*“‘Why should we not believe in God and the truth that has come to us, while we hope that our Lord will admit us among the righteous?’”*
+
+**Meaning.** The people who have heard the revelation answer that nothing should prevent them from believing in God and the truth brought to them; they hope to join the righteous in the Hereafter [Ṭabarī], [Qurṭubī]. Their hope is grounded in faith and in God’s acceptance, not in ancestry or status [Jalālayn].
+
+**Reflection.** The verse presents belief as a reasonable response to recognized truth and hope as a motive for joining the company of the righteous [Study Quran].
+
+---
+
+## 5:85
+
+*“So God rewarded them for what they said with gardens beneath which rivers flow, abiding therein. That is the recompense of the virtuous.”*
+
+**Meaning.** God rewards these believers with lasting gardens in response to their confession and virtuous conduct [Ṭabarī], [Jalālayn]. The promise completes the sequence begun with their recognition, tears, and request to be counted among the witnesses (5:83–84) [Study Quran].
+
+**Reflection.** Sincere words bear fruit when they express a faith that is lived; the reward is God’s generous answer to both [Qurṭubī].
+
+---
+
+## 5:86
+
+*“As for those who disbelieve and deny Our signs, those are the inhabitants of the Blaze.”*
+
+**Meaning.** The verse sets the outcome of rejecting revelation against the reward just promised: those who deny God’s signs are the inhabitants of the Fire [Jalālayn], [Study Quran]. **[Ṭabarī]** glosses the denial as rejecting God’s oneness and the prophethood of Muhammad.
+
+**Reflection.** The contrast urges the hearer to take the signs seriously and to answer them with belief and righteous action [Saʿdī].
+
+---
+
+## 5:87
+
+*“O you who believe, do not forbid the good things God has made lawful for you, and do not transgress. Truly God loves not the transgressors.”*
+
+**Meaning.** Believers must not turn lawful food, drink, or other wholesome gifts into forbidden things without divine warrant [Saʿdī]. **[Jalālayn]** relates the verse to Companions who resolved on severe ascetic practices—continuous fasting, night vigil, and abstention from ordinary lawful comforts. The Prophet’s guidance rejects excess as well as indulgence.
+
+**Rulings.** Declaring lawful things forbidden by one’s own vow or preference does not alter God’s law; the following verse directs believers to enjoy lawful provision with reverence [Study Quran].
+
+**Reflection.** Piety is not self-invented deprivation. Gratitude receives God’s gifts within the limits He has set [Maʿārif].
+
+---
+
+## 5:88
+
+*“Eat of what God has provided for you, lawful and good, and be mindful of God, in whom you believe.”*
+
+**Meaning.** The command affirms the enjoyment of provision that is both lawful and wholesome; it also extends by implication to other lawful benefits, not food alone [Qurṭubī]. The believer receives such provision with gratitude and remains mindful of the One who gave it [Ṭabarī], [Jalālayn].
+
+**Reflection.** The verse holds enjoyment and reverence together: gratitude neither rejects God’s gifts nor exceeds the boundaries He has set [Saʿdī].
+
+---
+
+## 5:89
+
+*“God will not take you to task for frivolous oaths, but He will take you to task for oaths you have pledged in earnest. Its expiation is feeding ten needy people with the average of what you feed your families, or clothing them, or freeing a slave. Whoever cannot find the means should fast for three days. That is the expiation of your oaths when you have sworn them. Guard your oaths. Thus God makes His signs clear to you, that you may give thanks.”*
+
+**Meaning.** Careless or unintentional words of oath are distinguished from a deliberate, binding oath [Saʿdī], [Jalālayn]. When someone breaks an intentional oath, its expiation is one of three acts: feed ten needy people from the customary middle standard of one’s household, clothe them, or free a slave; if unable to do any of these, fast for three days [Study Quran].
+
+**Rulings.** **[Qurṭubī]** records detailed disagreement over what counts as a frivolous oath, the amount and form of feeding or clothing, and other conditions. “Guard your oaths” includes avoiding false and excessive swearing and not using an oath to block a better deed [Saʿdī].
+
+**Reflection.** An oath is serious speech. The expiation repairs a broken commitment while directing the person toward care for those in need [Maʿārif].
+
+---
+
+## 5:90
+
+*“O you who believe, wine, gambling, idols, and divining arrows are only an abomination from Satan’s work; so avoid them, that you may prosper.”*
+
+**Meaning.** Four practices are placed together: intoxicating drink, games of chance, sacrificial stones or idols, and arrows used for divination or allotment [Ṭabarī], [Jalālayn]. The verse calls them an abomination and orders believers to avoid them, not merely to moderate their use [Study Quran].
+
+**Rulings.** *Khamr* literally refers to wine, but the jurists apply the prohibition to intoxicants generally because intoxication veils the mind [Saʿdī]. *Maysir* likewise extends beyond one pre-Islamic game to gambling more broadly [Study Quran].
+
+**Reflection.** Prosperity is tied to avoiding practices that cloud judgment, divert trust from God, and sow harm in human relationships; the next verse spells out these harms (5:91) [Saʿdī].
