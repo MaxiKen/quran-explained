@@ -2088,3 +2088,291 @@ preached sentence — a sermon that confirms the book he was raised under, loose
 tightened, and closes *obey me* within *beware God*. It is the sharpest single blow the chapter lands on
 the Najrān claim: Jesus' own words make him a link in the chain of law's giving, not its source.
 
+
+
+## 3:51 — إِنَّ اللَّهَ رَبِّي وَرَبِّكُمْ فَاعْبُدُوهُ ۚ هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ
+
+*"Truly God is my Lord and your Lord — so worship Him. This is a straight path."*
+
+**Meaning.** **[Jalālayn]**: the last words of Jesus' address to the Children of Israel — *this, what I
+enjoin on you, is a straight path*; and he appends the sūrah's own verdict on the audience: *but they
+rejected him and would not believe*. **[Ṭabarī]** (in his section on 3:50–51) makes the verse the point
+of the whole mission-abstract: the one God who sent the messengers is *my Lord and your Lord* —
+Jesus' God is his hearers' God, and the sermon's single imperative is worship; the *ḥanīfiyya*'s
+grammar against every mediation. **[Ibn Kathīr]** reads it as the summary of the Injīl's preaching,
+identical in content to the Qurʾān's: *tawḥīd*, and no new god named. **[Study Quran]** (at 5:72, 117;
+19:36; 43:64 — its index of the phrase) shows Jesus saying the same words on the cross-questioning of
+his own divinity; and the formula belongs to the prophets' stock-in-trade: Noah, Hūd, Ṣāliḥ, Lot and
+Shuʿayb each open their preaching with *my Lord and your Lord* (26:108 etc.).
+
+**Reflection.** Set the close of the annunciation sequence beside the sūrah's opening: *Allāhu lā ilāha
+illā huwa* (3:2) — and the middle of the chapter's longest narrative ends with its hero saying exactly
+that, in the first person plural. The house of ʿImrān preaches the sūrah's thesis; whoever follows
+Jesus, in this telling, follows the *ḥawāriyyūn* of 3:52, not the council of Nicaea.
+
+---
+
+## 3:52 — فَلَمَّا أَحَسَّ عِيسَىٰ مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنصَارِي إِلَى اللَّهِ ۖ قَالَ الْحَوَارِيُّونَ أَنصَارُ اللَّهِ آمَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَ
+
+*"So when Jesus perceived their disbelief, he said: who are my helpers toward God? The disciples said:
+we are God's helpers — we believe in God, and bear witness that we have surrendered."*
+
+**Meaning.** **[Ṭabarī]**: *aḥassa* is *wajada*, to find, to perceive — *iḥsās* is perception, as in
+(19:98) "do you perceive any of them"; *al-ḥass* without the alif is destruction and killing (3:152
+*tuḥissūnahum*), and also tenderness and pity, as al-Kumayt: *"does anyone weep at the abode, hoping it
+will pity him?"* — the lexicography at full sail. The meaning: when Jesus found in the Children of
+Israel, to whom he was sent, a stubborn denial of God's oneness and disbelief in what he came with, he
+said: *who will be my helper toward God?* — Mujāhid: "who will follow me to God?"; better, Ṭabarī's
+own sense: who will aid me in carrying God's message. **[Jalālayn]**: the *ḥawāriyyūn* were his
+intimates and first believers, twelve men of white complexion — *ḥawār* — which is why they are called
+*ḥawāriyyūn*; but some say the name is because they bleached clothes (*qaṣṣārūn*). **[Ibn Kathīr]**:
+the verse is the gospel of support — Jesus asked for helpers, and the disciples answered, so the
+Prophet ﷺ asked at the pilgrimage seasons before the Hijra, "is there a man who will shelter me so I
+may convey my Lord's words, for Quraysh have blocked me from conveying them," until he found the
+Anṣār, who sheltered and protected him — the parallel is the point of the sūrah's placement: the
+community of Muḥammad reading its own story into the disciples'.
+
+**Belief.** **[Study Quran]**: *anṣārī ilā Llāh* — helpers *along with* God (Ṭ), or in my flight
+*toward* God (R); the *unbelief* perceived is active hostility, and the commentators set the scene in
+Jesus' exile and flight from those who wanted to kill him (R, Ṭ). *Muslimūn* here is the universal
+sense — surrender as every prophet's religion (2:128, 132; 5:111; see 3:19).
+
+**Reflection.** The word *anṣār* doing the work of *ḥawāriyyūn* is the sūrah's quiet annexation: the
+disciples are the first Anṣār, and the Medinan *anṣār* the second ḥawāriyyūn; mutual aid (*naṣr*) is
+presented not as a military alliance but as the answer to a prophet's question "who is with me toward
+God?" — a question any community may be asked in any century.
+
+---
+
+## 3:53 — رَبَّنَا آمَنَّا بِمَا أَنزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ
+
+*"Our Lord, we believe in what You sent down and we follow the Messenger — so write us among the
+witnesses."*
+
+**Meaning.** **[Ṭabarī]**: the disciples' prayer completed: *we confirm* what You sent down to Your
+prophet Jesus of Your book; *we follow the Messenger* — we have become Jesus' followers on Your
+religion and his assistants for the truth — and *write us with the witnesses*: inscribe our names among
+the names of those who witnessed to the truth and avowed Your oneness and confirmed Your messengers and
+followed command and prohibition; place us in their number, seat us in their station, and do not make
+us of those who disbelieved in You and turned from Your road. Ṭabarī then states the verse's function:
+God points out to His creatures the way of those whose words and deeds He approved, so they may walk in
+it and reach what they reached; and He falsifies, by the same token, the nations who claim the
+prophets for their creeds — the disciples' *qawl* being the opposite of theirs. This is Ṭabarī's
+standing answer to the People of the Book in the sūrah: *the true followers of Jesus preached what you
+reject of your own accord* (the chain breaks off here in the edition; the remainder is the Najrān
+narrations — report 7130).
+
+**Belief.** **[Study Quran]**: *witness* carries both senses — one who knows, and one who upholds and
+confirms; the theme runs through 2:143 (you may be witnesses over mankind), 3:18 (God, the angels and
+the possessors of knowledge *bear witness*), and 3:64 — *bear witness that we are submitters* — making
+the disciples' prayer the template of the sūrah's own courtroom language (2:282's "witnesses whom you
+approve"). **[Jalālayn]**: *inscribe us with those who bear witness to Your oneness and to the truth of
+Your messenger*.
+
+**Reflection.** *Iktubnā* — "write us" — is the verb of registers: in a sūrah whose subject is a book
+sent down to confirm books sent down, the disciples ask to be entered in the only roll that matters,
+whose keeper is the "knower of the secrets" (67:13-14). The verse teaches that discipleship is an entry
+to be requested, not a lineage to be claimed.
+
+---
+
+## 3:54 — وَمَكَرُوا وَمَكَرَ اللَّهُ ۗ وَاللَّهُ خَيْرُ الْمَاكِرِينَ
+
+*"And they schemed, and God schemed — and God is the best of schemers."*
+
+**Meaning.** **[Ṭabarī]**: the *makr* of the disbelieving Children of Israel was their concert to seize
+Jesus and kill him; after their expulsion of him and his mother from among them he returned, and (al-
+Suddī, through Isrāʾīl and the *Sīra* material) marched with the disciples — fishermen who had believed
+when called — and came to the Israelites by night and cried out among them, which is (61:14) "a party
+of the Children of Israel believed and a party disbelieved." And *the makr of God*: al-Suddī — He cast
+Jesus' likeness upon one of his followers, and the conspirators killed him thinking it was Jesus, while
+God had already raised Jesus up. **[Jalālayn]**, briefly: they plotted by hiring an assassin; God
+thwarted them by throwing the likeness on the man who meant the kill; they slew him, and Jesus was
+raised; *khayru l-mākirīn*, most knowing of what He does with them. **[Ibn Kathīr]** and **[Study
+Quran]** cite the parallel of (8:30) — *they scheme and God schemes, and God is the best of schemers*,
+of the night of the Hijra, and (13:42; 27:50).
+
+**Belief / Language.** **[Ṭabarī]**'s framing is careful: *khayr al-mākirīn* as "the most accomplished
+of the *mākirs*," and the word is here not deceit-but-reciprocal-stratagem; the section goes no further
+than the casting of the likeness, leaving the identities to (4:157), where he will weigh the reports on
+whom the likeness fell (see that entry in this book's sequence). **[Study Quran]**: God's "scheming" is
+understood here as His taking and raising of Jesus (see 3:55, 4:157–58) — the verse's theology is
+providence answering malice by out-flanking it.
+
+**Reflection.** The short verse is one of the Qurʾān's hardest: the verb of plotting predicated of God.
+Read with the tafsīr's own restraint — *makr* as strategy in return, never as deceit, the innocent
+raised from the trap by the trap's collapse around the guilty — and the verse becomes a psalm of
+deliverance: the seditious build a net, and God builds the underside of it.
+
+---
+
+## 3:55 — إِذْ قَالَ اللَّهُ يَاعِيسَىٰ إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ الَّذِينَ كَفَرُوا وَجَاعِلُ الَّذِينَ اتَّبَعُوكَ فَوْقَ الَّذِينَ كَفَرُوا إِلَىٰ يَوْمِ الْقِيَامَةِ ۖ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ
+
+*"When God said: Jesus — I am taking you fully and raising you to Myself, and clearing you of those who
+disbelieved, and setting those who follow you above the disbelievers until the Day of Resurrection; then
+to Me is your return, and I will judge between you in what you disputed."*
+
+**Meaning / Readings — *mutawaffīka*.** **[Ṭabarī]** ties the *idh* to the end of 3:54: *and God
+schemed against the people when He said to Jesus, "I am taking you"* — the taking and the raising are
+one act. The *wafāh* here divides the commentators: one party say it is the *wafāh* of sleep — al-Rabīʿ:
+"He caused him to sleep and raised him in his sleep," and al-Ḥasan's sent report: the Prophet said to
+the Jews, "Jesus did not die, and he will return to you before the Day of Resurrection" *(the report is
+mursal; the edition notes it as such)*; another party: *I am grasping you from the earth*, as the
+lexicographers take *tawaffā* — taking the whole. **[Maʿārif]** runs the whole philology: *tawaffī* is
+*to take in full* (from *wafāʾ*, completion), and its application to death is figurative, because at
+death the soul is taken fully and conclusively; simple death-of-every-day sleep is called by the same
+word in (39:42); and Ibn Taymiyya's note in *al-Jawāb al-ṣaḥīḥ* is cited: *al-tawaffī* in Arabic is of
+three kinds — in sleep, in death, and of soul and body together. **[Study Quran]**: most take it here
+as *being taken from the world* (Ṭ) rather than dying, though others say God caused Jesus to die, and
+others take it as sleep (6:60; 39:42). **[Jalālayn]**: *gathering you, seizing you, and raising you to
+Me — without death*; and *clearing you of those who disbelieved*: removing you far from them.
+
+**History of the "following."** **[Ibn Kathīr]** on *those who follow you above the disbelievers* —
+what came to pass: when God raised Jesus his followers split into sects; some believed of him what God
+sent him as — servant, messenger, son of the handmaid; some exaggerated, saying son of God, or God
+himself, or one of a Trinity; and the Christians remained so until, in the third century of the
+Era, the Greek king Constantine embraced Christianity *for the purpose of destroying it* — the detail
+belongs to Ibn Kathīr's larger narrative and is carried here as he gives it. Ṭabarī's other reading,
+which **[Study Quran]** records (IK): the historical ascendancy of Christians over Jews; or of the
+Muslims who believe in Jesus aright (Ṭ); or, with Rāzī, the superiority of proof: the believers'
+arguments will stand above the disbelievers' until the Hour. **[Saʿdī]**, in his running narrative,
+notes the *wajāha* of 3:45 and the pair of speeches (cradle and manhood) as one mercy: the infant's
+word proves his mother's innocence, the prophet's word carries the law.
+
+**Belief / Eschatology.** **[Jalālayn]**'s appendix to the verse: God sent a cloud that lifted him, his
+mother clinging weeping, and he said to her "the Resurrection will gather us again"; it was on the
+Night of Decree, in the Holy House, at thirty-three years; his mother lived six years after. The two
+Shaykhs: he will descend near the Hour, rule by the law of Muḥammad ﷺ, kill the Dajjāl, break the
+cross, kill the swine and impose the *jizya*; in Muslim seven years remain, and forty by Abū Dāwūd
+al-Ṭayālisī — and he will die and be prayed over. **[Maʿārif]** and **[Study Quran]** agree on the
+return-and-rule belief as the commentators' consensus reading of *ilā yawmi l-qiyāma*.
+
+**Reflection.** The verse holds two theologies of Jesus' end in one clause: *taking* with no death or
+*full taking* as death; and it resolves them the way the sūrah resolves everything — *then to Me is
+your return; I will judge*. The difference about a tomb or a cloud is deferred to the Judge, while what
+is decided now is only this: the follower is above the denier, and *khayru l-mākirīn* out-flanked the
+net (3:54).
+
+---
+
+## 3:56 — فَمَّا الَّذِينَ كَفَرُوا فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ
+
+*"As for those who disbelieved — I will chastise them with a severe chastisement in this world and the
+Next, and they shall have no helpers."*
+
+**Meaning.** **[Ṭabarī]** treats 56–57 as a pair (one section): the disbelievers are those who denied
+*your prophethood, Jesus*, opposed your way, belied the truth brought them, spoke falsely of you and
+attributed you to what you should not be attributed to — from the Jews and the Christians and every
+sort of religion; their punishment here is killing, captivity, abasement and misery; there, the fire of
+Hell, abiding; and no one can hold back God's punishment from them or push it off by strength or
+intercession — the Mighty, Lord of retribution. **[Jalālayn]**: in this world by killing, captivity and
+the *jizya*; in the Hereafter in the Fire; no protectors.
+
+**Belief.** **[Saʿdī]**, on the pair 56–57: this requital is general for everyone characterised by
+these qualities among all the previous religions; but when the master of the envoys, the seal of the
+prophets, was sent, and his message abrogated the messages and his religion the religions, whoever
+clings to any other religion is among the lost. **[Study Quran]**: punishment and reward meted out in
+both abodes is a fixed pattern (2:114; 3:22; 16:30; 16:122; 39:10).
+
+**Reflection.** The same three-world penalty announced to the Jews of Madīna at 3:12 arrives here at
+the end of Jesus' own sermon — the sūrah has been reading its own history backward into the gospel's,
+and the echo is the exegesis: the fate of the rejectors is one book's running refrain.
+
+---
+
+## 3:57 — وَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ
+
+*"And as for those who believed and did the righteous deeds — He will pay them their wages in full; and
+God loves not the wrongdoers."*
+
+**Meaning.** **[Jalālayn]**: He pays them their rewards in full — read *yuwaffīhim* or *nuwaffīhim* —
+*God loves not the evildoers*, a way of saying He will chastise them. **[Ṭabarī]**: they are those who
+believed in you, Jesus — confirmed you, avowed your prophethood and the truth from God which you
+brought, lived by the Islam you were sent with, and performed the obligations imposed on your tongue and
+the laws legislated and the ways set in motion on your tongue: the reward is *full*, not diminished —
+the *wafāʾ* answering the *tawaffī* of 3:55, in the same root, God's taking complete and God's paying
+complete.
+
+**Reflection.** One sentence and the sūrah's balancing act is done: the same verb-root of "taking in
+full" that was the crux of Jesus' raising becomes the measure of the believers' pay — the tafsīr
+traditions make it explicit in the pair: what God takes back, He delivers in full, and no worker of the
+right loses a *dīnār* of it.
+
+---
+
+## 3:58 — ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ الْآيَاتِ وَالذِّكْرِ الْحَكِيمِ
+
+*"That — We recite it to you of the signs and the Wise Remembrance."*
+
+**Meaning.** **[Ṭabarī]**: *dhālika* gathers the whole news just told — Jesus, Mary, her mother Ḥannah,
+Zachariah and his son, and the affair of the disciples and the Jews of the Children of Israel; *we
+recite it to you* — we read it upon you, Muḥammad, through Gabriel, by Our sending it down; *of the
+signs*: proofs against the disputants of Najrān and the Jews who belied you and what you came with; and
+*al-dhikr al-ḥakīm* is the Qurʾān, the *wisdom that decides between the truth and the false*, and
+between you and those who trace the Messiah to a lineage not his. Ibn Isḥāq's chain carries it
+exactly: the cutting, deciding truth of the report about Jesus and what they disputed in him — *do not
+accept of it anything else*. **[Jalālayn]**'s syntax note: *min al-āyāt* is a circumstantial qualifier
+attached to the pronoun of *natlūhu*, governed in sense by the deictic force of *dhālika*.
+**[Study Quran]**: *al-dhikr al-ḥakīm* is a name of the Qurʾān, though some take it of the Preserved
+Tablet (85:22) from which revelation comes down; the verse ends God's address about Jesus and turns
+back to address the Prophet about belief in him.
+
+**Reflection.** *Dhikr* — remembrance, admonition, the Book that recalls — in a passage whose every
+turn was an *idh*, "when": the sūrah has been remembering a history, and now it names its own act.
+The *ḥakīm* attribute is the claim: this recital is not lore, it is ruling — which is what the Najrān
+debate will be submitted to next (3:61).
+
+---
+
+## 3:59 — إِنَّ مَثَلَ عِيسَىٰ عِندَ اللَّهِ كَمَثَلِ آدَمَ ۚ خَلَقَهُ مِن تُرَابٍ ثُمَّ قَالَ لَهُ كُن فَيَكُونُ
+
+*"Truly the likeness of Jesus with God is as the likeness of Adam: He created him from dust, then said to
+him Be — and he is."*
+
+**Context.** **[Study Quran]**: these verses were revealed while the Najrān delegation was in Madīna
+(see the sūrah's introduction): the Christians argued that since Jesus had no human father he was truly
+God's son; the verse is among the Qurʾān's central arguments against the divinity of Christ — it
+acknowledges the miraculous birth and rejects the inference: if God could make Adam with neither father
+nor mother from dust, He can make Jesus from Mary's blood (Rāzī).
+
+**Meaning.** **[Ṭabarī]**: the *mathal* is the *shabah* — Jesus' remarkable case, my creating him
+without a stallion, is *with me* as Adam's, whom I made from dust without male or female; my making
+Jesus of a mother with no father is no more astonishing than my making Adam without father or mother;
+and my command when I ordered him to be, and he was flesh — likewise Jesus. (The edition's editors flag
+the printed text's disorder — a copyist dropped a parenthetical clause into the wrong place and left
+the sentence doubled; what is restored here is the manuscript's sense.) The comparison, as **[Jalālayn]**
+puts it, is one marvel against a greater marvel, so that the disputant is convinced and the point
+settles. **[Ibn Kathīr]**: God created Adam's form from dust then said to him *be a human* and he was —
+likewise Jesus, without a father; and **[Ṭabarī]**'s framing from the Najrān section runs ahead to
+3:60–61: the truth of this is the proof they are summoned to stake their oaths on. **[Maʿārif]** and
+**[Saʿdī]**: whoever claims a share of divinity in what God made from a mother alone has to claim it
+first for clay; the *shubha* the adopters of Jesus clung to has no sound footing, and if it had, Adam
+would be its truest subject.
+
+**Language.** **[Study Quran]**: *mathal* here means that *certain attributes* of Adam and Jesus are
+alike — being created by the fiat — not that their natures coincide in every respect; the *kun* is the
+standing Qurʾānic decree (2:117; 6:73; 16:40; 36:82; 40:68).
+
+**Reflection.** The most compressed christology in the Qurʾān: two words of comparison, one verb of
+creation, one material — dust — and the debate about a virgin born at the turn of the eras is settled by
+a body older than the human race. Whatever follows in the argument (3:61) can be measured by this
+sentence's logic: do not argue from the lesser marvel to the greater claim.
+
+---
+
+## 3:60 — الْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ الْمُمْتَرِينَ
+
+*"The truth is from your Lord — so be not of those who waver."*
+
+**Meaning.** **[Jalālayn]**: *the truth concerning Jesus* is supplied as the subject — predicate
+*min rabbika*; *do not be of the muftarīn*, those who doubt it. **[Ṭabarī]** reads it as the
+confirmation of the comparison of 3:59 — what has just been recited is truth from your Lord, not of
+what the disputants invent; and he records the same idiom at 2:147 (*al-ḥaqqu min rabbika*) — the
+sūrah's refrain against doubt, the Prophet himself addressed: the sentence forbids wavering even to
+him so that no *shakk* can be claimed for the messenger in what he recites — the *ummiyyūn*'s
+assurance by the same clause that denies them the alibi.
+
+**Reflection.** An interposed line of command between two argument-verses: the Qurʾān's debates, even
+at their most analytic, keep breaking into the imperative — *do not be of the waverers*. Knowledge in
+this book is never neutral observation; its last word is a posture of the heart.
+
