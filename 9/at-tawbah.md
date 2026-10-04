@@ -80,6 +80,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -5022,3 +5024,192 @@ them, who did not even bother to take the trouble of excusing themselves out of 
 asked are not the same as those who simply did not come. The punishment is specified for "those among them
 who disbelieve" — a reminder that staying behind is not itself the unforgivable thing; the state of the heart
 is.
+
+## 9:91
+
+*"No blame is there upon the weak, nor upon the sick, nor those who find nothing to spend, if they are sincere
+toward God and His Messenger. There is no argument against the virtuous—and God is Forgiving, Merciful—"*
+
+**Meaning.** **[Jalālayn]** "As for the weak" — such as the old — "and the sick" — the blind and the
+chronically ill — "and those who find nothing to expend for the struggle, no blame," no sin, "falls upon them
+should they stay away from it, if they remain true to God and to His Messenger when they stay behind, by not
+spreading false rumours or impeding others from joining the struggle, but by adhering to obedience. There is
+no way of blame," no way of reproach, "against those who are virtuous" through such behaviour. "And God is
+Forgiving, Merciful" to them, by granting them such leeway in this matter. **[Ṭabarī]** "There is no blame
+upon the people of chronic infirmity and those unable to travel and to campaign, nor upon the sick, nor upon
+the one who finds no provision with which to convey himself to his place of campaigning" — *ḥaraj* being sin —
+"if they are sincere towards God and His Messenger." **[Saʿdī]** Having mentioned those who offered excuses,
+who were of two kinds — one legally excused and one not — God sets that out: "No blame is there upon the
+weak" in their bodies and their sight, who have no strength to go out and fight; "nor upon the sick" — and
+this includes every kind of sickness through whose bearer cannot go out or strive, such as lameness,
+blindness, fever, pleurisy, paralysis and other than these; "nor upon those who find nothing to spend" — who
+find neither provision nor a mount with which to sustain themselves on their journey. There is no constraint
+upon these, on condition that they are sincere towards God and His Messenger: that their faith be true, that
+it be their intention and resolve that if they were able they would strive, and that they do what they are
+able of urging, encouraging and heartening others to strive. "There is no argument against the virtuous" —
+no way entailing any liability upon them, for by their excellence in the rights of God and the rights of
+servants that are upon them they have removed blame from themselves; and when a servant excels in what he is
+able to do, what he cannot do falls from him.
+
+**Rulings.** **[Qurṭubī]** This verse is a fundamental principle for the falling away of obligation from the
+one who is incapable: everyone who is incapable of a thing has it dropped from him — sometimes to a
+substitute that is an act, sometimes to a substitute that is a payment — and there is no difference between
+incapacity in respect of strength and incapacity in respect of wealth. The counterpart of this verse is "God
+tasks no soul beyond its capacity" (2:286) and "there is no blame upon the blind" (24:61). **[Study Quran]**
+*The weak* includes old men or those with a physical impairment, and *the sick* includes those who suffer from
+blindness, lameness, or a chronic illness (R); *nothing to spend* refers to those who cannot afford [the
+expense of the campaign]. **[Ibn Kathīr]** God mentions here the legitimate excuses for staying away from
+*jihād*.
+
+**Reflection.** The exemption is real, and it is conditional — not on capacity but on sincerity. Blame
+attaches not to the person who cannot go but to the person who would not: the three named groups are excused
+"if they are sincere toward God and His Messenger," which is the very thing the wealthy of v. 90 lacked.
+
+---
+
+## 9:92
+
+*"nor upon those who, when they came to thee to give them a mount, and thou didst say to them, 'I find nothing
+upon which to mount you,' turned back, their eyes flowing with tears, grieving that they found nothing to
+spend."*
+
+**Meaning.** **[Jalālayn]** "Nor against those who, when they came to you so that you might give them a mount
+to ride with you on the raid" — these were seven men of the Anṣār; but it is also said that they were the
+Banū Muqrin — "you having said to them, 'I cannot find a mount whereon to mount you'" — this last sentence
+being a circumstantial qualifier — "turned back… their eyes flowing," pouring "with tears" — *min* being
+explicative — "for sorrow that they could not find the means to expend" for the campaign of struggle.
+**[Ṭabarī]** "And there is no way of blame either against the people who, when they came to you asking you to
+carry them, that they might reach their place of campaign to strive against the enemies of God with you, O
+Muḥammad, and you said to them: 'I find no beast on which to carry you' — 'turned back'": they turned away
+from you.
+
+**Stories & occasions.** **[Study Quran]** A group of Companions came to the Prophet hoping that he would
+have mounts to give them that would enable them to participate in the campaign with him, but he had none left
+to provide, and in their disappointment [they wept]. **[Ibn Kathīr]** "Nor is there blame on those who came
+to you to be provided with mounts, when you said, 'I can find no mounts for you' — they turned back, with
+their eyes overflowing with tears of grief that they could not find anything to spend." **[Maʿārif]**
+Ultimately, there were some of them still left out for the simple reason that they could not find a mount;
+rendered totally helpless, they could do nothing about their aspirations for *jihād*. These are the kind of
+people mentioned in these verses, whose excuse was accepted by God.
+
+**Belief.** **[Ibn Kathīr]** Their weeping was not for the loss of the journey but of the deed: they grieved
+"that they could not find anything to spend." **[Jalālayn]** They are joined to the exempted of v. 91 — no
+blame attaches to them.
+
+**Reflection.** This is the measure of the whole passage: men who were not able, and who wept because they
+were not able, are recorded with honour beside those who went. The tears are the proof that the excuse was
+genuine — and the verse preserves them as the standard against which the excuses of the wealthy are judged.
+
+---
+
+## 9:93
+
+*"The argument falls only upon those who seek leave of thee though they are wealthy. They are content to be
+among those who remain behind, and God has set a seal upon their hearts. And so they know not."*
+
+**Meaning.** **[Jalālayn]** "The way of blame is only against those who ask leave of you to stay behind when
+they are rich. They are content to be with those who stay behind, and God has set a seal on their hearts, so
+that they do not know" — a similar statement has already been made. **[Ṭabarī]** "There is no way of
+punishment against the people of excuse, O Muḥammad; rather it is against those who ask your leave to stay
+behind you and to abandon striving with you, though they are people of wealth, strength and capacity for
+striving and campaigning — out of hypocrisy and doubt in the promise and threat of God."
+
+**Language.** **[Qurṭubī]** "The argument" — *al-sabīl* — means the punishment and the sin. "Against those
+who seek leave of thee though they are wealthy" — the hypocrites are meant; He repeats the mention of them to
+emphasise the warning against the evil of their deeds. **[Study Quran]** The latter part of this verse closely
+resembles v. 87. *God has set a seal* is interpreted by some to be the very reason why those who chose to
+remain behind did not see the good in expending their wealth and energy in the way of God. **[Jalālayn]** The
+closing clause repeats what has already been said at v. 87.
+
+**Belief.** **[Ibn Kathīr]** "The means of complaint is only against those who are rich, and yet ask
+exemption. They are content to be with those who sit behind at home, and God has sealed up their hearts, so
+that they know not what they are losing." **[Maʿārif]** At the end the warning was repeated: particularly
+cursed are those who, despite [having the means, stayed back].
+
+**Reflection.** The verse closes the accounting that began at v. 90: the excused, the weeping, and now the
+wealthy — and the argument, God says, falls only on the last. Affluence is what turns a request into an
+offence.
+
+---
+
+## 9:94
+
+*"They will offer excuses to you when you return to them. Say, 'Offer no excuses! We shall not believe you.
+God has already given us news of you. God and His Messenger will see your deeds. Then you will be brought back
+to the Knower of the Unseen and the seen, and He will inform you of that which you used to do.'"*
+
+**Meaning.** **[Jalālayn]** "They will make excuses to you for having stayed behind when you return to them
+from the campaign. Say to them: 'Do not make excuses; we will never believe you! God has already told us
+tidings of you'" — that is, He has already informed us of your true status. "And God will see your work, and
+so will His Messenger; then you will be returned," through resurrection, "to the Knower of the unseen and the
+visible" — meaning God — "and He will tell you what you used to do," and requite you for it. **[Ṭabarī]**
+"These who stayed behind the Messenger of God ﷺ, abandoning the striving against the idolaters with you, of
+the hypocrites, will make excuses to you, O believers in God, with falsehood and lies, when you return to them
+from your journey and your striving." **[Qurṭubī]** "They will offer excuses to you" — meaning the
+hypocrites; "we shall not believe you" — we shall not hold you truthful; "God has already given us news of
+you" — He has informed us of your secrets; "and God will see your deeds" — what you take up anew; "then you
+will be brought back to the Knower of the Unseen and the seen, and He will inform you of that which you used
+to do" — He will requite you for your deeds.
+
+**Stories & occasions.** **[Maʿārif]** The previous verses mentioned hypocrites who came up with false
+excuses at the time the *jihād* forces were getting ready to march out and succeeded in being allowed to stay
+behind; these verses mention those who visited the Prophet ﷺ after his return from *jihād* and offered false
+excuses for their absence from it — and these verses were revealed before his return to Madīnah. **[Saʿdī]**
+"They will offer excuses to you when you return to them" from your campaign; "say" to them: "Offer no
+excuses! We shall not believe you" — we shall not hold you truthful in your lying excuse — "God has already
+given us news of you," and He is truthful in what He says, so there is no benefit left in the excuse, since
+they excuse themselves with what contradicts what God has told about them, and it is impossible that they
+should be truthful in what contradicts the report of God, which is the highest rank of truth. "And God will
+see your deeds, and His Messenger" — in this world, for deeds are the balance by which truth is known from
+falsehood, whereas mere words indicate nothing of that.
+
+**Belief.** **[Study Quran]** *We shall not believe you* could also be rendered "We shall not have faith in
+you" (see 9:61 for the use of this verb in both senses). **[Saʿdī]** "Then you will be brought back to the
+Knower of the Unseen and the seen," from whom nothing hidden is concealed, "and He will inform you of that
+which you used to do" of good and evil, and will requite you by His justice or by His bounty, without wronging
+you the weight of an atom.
+
+**Reflection.** The excuse is refused on a ground that cannot be argued with: God has already reported their
+state, so any further explanation contradicts a report that is by definition truer than they are. What
+remains is not argument but exposure — "God and His Messenger will see your deeds."
+
+---
+
+## 9:95
+
+*"They will swear by God to you, when you return to them, that you may turn away from them. So turn away from
+them. Truly, they are a defilement, and their refuge is Hell, a recompense for that which they used to
+earn."*
+
+**Meaning.** **[Jalālayn]** "They will swear to you by God, when you turn back" — when you return to them
+from Tabūk — that they had genuine excuses for staying behind, "so that you may leave them be," refraining
+from reproaching them. "So leave them be, for they are an abomination," filth, on account of their inner
+vileness, "and their abode shall be Hell, as requital for what they used to earn." **[Ṭabarī]** "These
+hypocrites who rejoiced in their sitting in opposition to the Messenger of God will swear to you, O believers
+in God, 'when you return to them' — when you turn back to them from your campaign — 'so that you may turn
+away from them,' not reproaching them; so turn away from them." **[Qurṭubī]** "They will swear by God to you
+when you return to them" — from Tabūk; and the object of the oath is elided, i.e. they swear that they were
+unable to go out. "That you may turn away from them": that you may overlook blaming them; and Ibn ʿAbbās said:
+do not speak to them — and in the report, when he ﷺ arrived back from Tabūk he said, "And do not sit with
+them, and do not speak to them." "Truly they are a defilement": their deed is a defilement, the sense being
+that they are possessors of defilement — their deed is vile.
+
+**Rulings.** **[Saʿdī]** Know that the evil-doing sinner has three states: either his word and his excuse are
+accepted outwardly and inwardly and he is pardoned so that he remains as though he had not sinned; or he is
+punished with a punishment and a disciplinary penalty for his sin; or he is passed by, not being met with the
+actual penalty for what he did. This third state is the one God commanded with regard to the hypocrites, and
+so He said: "They will swear by God to you, when you return to them, that you may turn away from them. So
+turn away from them" — do not reproach them, flog them or kill them; "truly they are a defilement" — filthy
+and vile, not worth being cared about, and reproach and punishment are of no use with them; "and their refuge
+is Hell" — Hell suffices them as a punishment — "a recompense for that which they used to earn."
+
+**Belief.** **[Study Quran]** What they will swear by God to you is implicit, understood to mean they will
+swear that they were unable to accompany the Prophet (Q). *That you may turn away from them* refers to the
+hypocrites' desire that they not be [reproached]. **[Maʿārif]** These people will come to him after his
+return to Madīnah, impress him with their feigned oaths and try to satisfy him; what they wish to achieve by
+this is that "you may ignore their misdeed" — that is, ignore their absence from *jihād* and spare them.
+
+**Reflection.** Turning away is here commanded, and it is not leniency towards the persons but a judgement on
+the futility of engaging them: they are *rijs*, filth, and reproach cannot cleanse what they are. The verse
+thus closes the long passage on the hypocrites not with a confrontation but with a withdrawal that leaves
+them to the One who knows the unseen.
