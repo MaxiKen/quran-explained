@@ -1114,3 +1114,589 @@ the connection between the two halves of the verse: the whisper and the exposure
 what the enemy showed them when they ate was what he had intended from the first — the uncovering of
 what had been covered — which is why the sūrah goes on to speak of clothing, and of the raiment of
 righteousness as better than the raiment of cloth (7:26).
+
+## 7:21
+
+*"And he swore to them, 'Truly I am a sincere adviser to you.'"*
+
+**Meaning.** **[Jalālayn]** gives the sentence as it stands: and he swore to both of them — that is, he
+swore to both of them by God — "truly I am a sincere adviser to you" in this matter. **[Saʿdī]** sets
+the oath inside the plot: with these words Iblis swore to them by God, saying "I am one of the sincere
+advisers to you," and it was by that oath that he deceived them. **[Qurṭubī]** records Ibn ʿAbbās's
+explanation of the deception in the next verse — *he deceived them by the oath*, for Adam supposed that
+no one would swear by God falsely — and Qatāda's: he swore to them by God until he deceived them. And
+he notes the observation the scholars made on it: the believer may be deceived by God's name; some of
+them used to say, "whoever swindles us with God, we swindle him"; and the report from the Prophet ﷺ,
+"The believer is trusting and generous, and the wicked one is deceitful and base" — and Nifṭawayh's line
+that the generous man you may trick when you wish, whereas the base man, tested and tried, is not
+deceived [Qurṭubī].
+
+**Belief.** **[Study Quran]** notes the unanimous understanding of the commentators that Iblis's oath
+was sworn by God (Ṭ, Th, Z), and sets beside it the warning the reader is given earlier in the sūrah:
+his own words in 7:16–17 show what he intends, and in 7:22 God reminds Adam and his wife that He had
+already told them Satan was their manifest enemy (see also 2:168, 208; 6:142; 12:5; 17:53; 36:60;
+43:62). The oath, then, is the enemy's most effective instrument precisely because it quotes the truth's
+own currency. It also records what makes the deception possible at all: Satan "lures" Adam and his wife
+through delusion and false promises — the Qurʾān saying elsewhere, "he promises them and stirs in them
+desires, and Satan promises them nothing but delusion" (4:120) and "he promises them naught but
+delusion" (17:64); delusion and false promises are his primary tactics, and he is called the Deluder in
+31:33, 35:5 and 57:14, for he has been given no power to compel human beings and no authority over those
+who believe and are servants of God (15:42; 16:99; 17:65; 34:21) [Study Quran].
+
+**Cross-references.** "And he swore to them both, 'Truly I am a sincere adviser to you'" (7:21);
+"the Deluder deceives them" (57:14); "He promises them and stirs in them desires, and Satan promises
+them nothing but delusion" (4:120); "Truly Satan is an enemy to you, so take him as an enemy" (35:6);
+"And he swore to them, 'I am to you a sincere adviser'" (7:21; cf. 20:120) [Study Quran] [Qurṭubī].
+
+**Reflection.** **[Qurṭubī]**'s remark is the verse's practical lesson: the oath that took in Adam was
+an oath sworn in God's name to a lie, and the protection against it is not suspicion of everyone but
+knowledge of the enemy who uses it — the believer's generosity is not to be a blindfold; and his
+saying that whoever swindles us with God we swindle him is the voice of a man who has learned what
+Adam learned in the Garden. **[Saʿdī]** adds the pastoral point: the enemy's advice was addressed to
+their interest and called itself sincere counsel, which is why the verse is placed here as the standing
+warning: the counsel that leads away from a plain command is not counsel, whatever name it gives
+itself.
+
+## 7:22
+
+*"Thus he lured them on by deception; and when they tasted of the tree, their shameful parts appeared to them, and they began to join together for themselves the leaves of the Garden. And their Lord called out to them, 'Did I not forbid you that tree, and tell you that Satan is to you a manifest enemy?'"*
+
+**Meaning.** **[Ṭabarī]** explains the first words: *he lured them on by deception* — he deceived them by
+delusion; the Arabs say of a man that he kept lowering another by delusion, meaning he kept deceiving
+him and speaking to him with the ornament of false speech. And *when they tasted the tree* means when
+Adam and Ḥawwāʾ tasted its fruit, that is, ate of it; then *their shameful parts appeared to them* —
+they were uncovered, because God stripped them of the garment with which He had clothed them before the
+sin, taking it away from them on account of the error they committed and the disobedience they had
+mounted; and *they began to join together for themselves the leaves of the Garden* — the two of them
+set to fastening the Garden's leaves upon themselves to cover their shameful parts; Ibn ʿAbbās said:
+they began to take the leaves of the Garden and place them over their shameful parts [Ṭabarī].
+**[Qurṭubī]** gives the same opening with the alternatives: *he lured them on* is from *adlā*,
+to lower a bucket — he cast them into ruin; Ibn ʿAbbās said he deceived them by the oath, for Adam
+supposed that no one would swear by God falsely, so he deceived them by his whispering and his oath;
+Qatāda said he swore to them by God until he deceived them; and it is said *dallāhumā* means he made
+them bold — from *al-dāllah*, boldness — that is, he emboldened them to disobey, so that they went out
+of the Garden. On the tree and the eating, al-Qurṭubī records the report that Ḥawwāʾ ate first and
+nothing happened to her, but when Adam ate the punishment came due, because the prohibition had been
+addressed to them both; he also notes that the two of them are addressed together, and that the
+mischief was one [Qurṭubī].
+
+**Ḥadīth & āthār.** **[Ṭabarī]** and **[Ibn Kathīr]** both carry the report of Ubayy b. Kaʿb: "Adam
+was a man tall as a palm tree, with abundant hair on his head; when he fell into the error, his private
+part appeared to him, and before that he had not seen it; so he set off fleeing through the Garden, and
+a tree of the Garden caught him by the hair; he said to it, 'Release me' — and it said, 'No, I will not
+release you' — and his Lord called him: 'O Adam, do you flee from Me?' He said, 'No, but I was ashamed
+before You.'" Al-Ṭabarī's editor notes that the report's chain includes Abū Bakr al-Hudhalī, described
+as weak and not trustworthy, and Ibn Kathīr states that although the report was carried with chains
+going back to the Prophet ﷺ, relating it to Ubayy — that is, as the words of the Companion — is more
+correct *(weak)*. **[Ibn Kathīr]** records Ibn ʿAbbās's gloss on the leaves — "fig leaves," with an
+authentic chain reaching Ibn ʿAbbās — and Mujāhid's [Ibn Kathīr]. **[Saʿdī]** draws the inward
+consequence: the nakedness that belonged to the inner garment of *taqwā* left its mark in this state
+upon the outer clothing, so that it was stripped away and their shameful parts appeared; and when they
+appeared they were ashamed, and began to cover themselves with the leaves of the Garden's trees; then
+their Lord called to them, in that condition, rebuking and reproaching: "Did I not forbid you that tree,
+and say to you that Satan is to you a manifest enemy?" — that is, why then did you commit what was
+forbidden and obey your enemy? [Saʿdī].
+
+**Belief.** **[Study Quran]** notes that the Qurʾānic account does not follow the lines of the Biblical
+narrative in Genesis 3, where Eve is both the immediate object of Satan's temptation and the one who
+then brings the temptation to Adam: in the Qurʾān the whispering, the eating and the punishment are
+shared by the two together, and both are addressed and questioned as a pair. It adds that their act of
+disobedience effectively removed the divinely ordered cover or light (7:20c) that had concealed them —
+which is why the realization of nakedness follows the eating — and that their nakedness is spoken of
+again in 20:121 [Study Quran].
+
+**Cross-references.** "Then Satan whispered to them" (7:20); "And when they tasted of the tree, their
+shameful parts were manifested to them" (7:22; cf. 20:121); "Did I not tell you that Satan is to you a
+manifest enemy?" (7:22; cf. 2:168; 20:117); "Then Adam received words from his Lord, and He relented
+toward him" (2:37); "O children of Adam, let not Satan tempt you as he caused your parents to go forth
+from the Garden" (7:27) [Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Ṭabarī]**'s account of the stripped garment gives the verse its shape: what the
+enemy stripped from the first pair was not merely clothing but the covering that obedience had kept in
+place, and the leaves they sewed together were the first human attempt to cover what had been uncovered
+— an image the sūrah takes up four verses later, when it speaks of the raiment of righteousness.
+**[Ibn Kathīr]**'s handling of the Ubayy report is itself a lesson in the discipline of the tradition:
+the story is carried and graded rather than repeated as prophetic speech, and the reader is told
+plainly where the chain of transmission is sound and where it is not.
+
+## 7:23
+
+*"They said, 'Our Lord, we have wronged ourselves. If You do not forgive us and have mercy on us, we shall surely be among the losers.'"*
+
+**Meaning.** **[Jalālayn]** gives the words with their occasion: they said, "Our Lord, we have wronged
+ourselves" by our act of disobedience — "and if You do not forgive us and have mercy on us, we shall
+surely be among the lost." **[Saʿdī]** sets the confession in the order of mercy: then God conferred on
+them the grace of repentance and of its acceptance; they confessed the sin and asked God's forgiveness —
+"we have wronged ourselves," that is, we did the sin You had warned us of, and we harmed ourselves by
+committing it, and we have brought about our own loss if You do not forgive us by erasing the trace of
+the sin [Saʿdī]. **[Study Quran]** draws out the contrast the sūrah makes: Adam and Eve immediately
+accept blame and seek forgiveness, an admission that shows their awareness that the disobedience has
+brought harm only to themselves — for human action does not harm God in the least (cf. 3:144, 176;
+47:32) — and they have "wronged themselves" in that their disobedience alienated them from their
+original nature and from God before God even declared their banishment, since God does not wrong human
+beings in the least, but human beings wrong themselves (10:44; see also 3:117, 135; 4:97; 9:70;
+37:113) [Study Quran]. The penitent attitude and words of Adam and his wife, it notes, model the
+appropriate response after sin — as in "If, when they had wronged themselves, they had but come to you
+and sought forgiveness of God, and the Messenger had sought forgiveness for them, they would surely
+have found God relenting, merciful" (4:64) [Study Quran].
+
+**Ḥadīth & āthār.** **[Study Quran]** records that some commentators report Adam's adding in his own
+defence that Satan had sworn to them by God that he was their sincere adviser (7:21) and that he, Adam,
+could not imagine anyone would swear by God in order to perpetrate a lie (IK, Ṭ, Th, Z) — a defence
+the verse itself does not carry, and which is recorded as a report rather than as part of the revelation
+[Study Quran]. **[Ṭabarī]** reads the confession as the model of *tawba*: the two of them did not
+argue, did not lay the blame on the deceiver and did not plead the decree, but admitted the wrong to
+the owner of the right — which is why the very next thing the Qurʾān reports concerning them, in the
+parallel account, is that Adam received words from his Lord and He relented toward him (2:37) [Ṭabarī].
+
+**Belief.** **[Study Quran]** marks what distinguishes these two from Iblis in the same sūrah: when
+Iblis was questioned about his disobedience he offered an argument, casting the blame on God's having
+sent him astray and on the substance of his own creation (7:12), whereas Adam and his wife offered
+confession — the one account becoming the archetype of the repentant sinner, the other of the
+self-justifying rebel. **[Saʿdī]** names the same distinction in a phrase: they confessed the sin and
+asked forgiveness, and God granted them repentance and its acceptance; that the verse stands where it
+does — immediately after the question "did I not forbid you?" — shows that confession, and not
+argument, is the way back [Saʿdī].
+
+**Cross-references.** "Then Adam received words from his Lord, and He relented toward him; truly He is
+the Relenting, the Merciful" (2:37); "If, when they had wronged themselves, they had come to you and
+sought forgiveness of God" (4:64); "And whoever does evil or wrongs his soul, then seeks forgiveness of
+God, he will find God forgiving, merciful" (4:110); "So He relented toward them that they might
+repent" (9:118); "Our Lord, we have believed, so forgive us and have mercy on us, for You are the best
+of the merciful" (23:109) [Study Quran] [Saʿdī].
+
+**Reflection.** **[Study Quran]**'s reading makes the verse a formula for every later penitent: the
+words are given so that the community may use them, and the Qurʾān places them at the head of the human
+story, spoken by the first man and woman as the first act of religion after the fall. **[Saʿdī]** draws
+the same lesson from the placement: the sūrah that opened by naming the arrogant enemy and his refusal
+has now shown the two creatures he misled doing the opposite of what he did — admitting, asking, and
+being raised rather than cast down.
+
+## 7:24
+
+*"He said, 'Get down, some of you an enemy to others; and for you on the earth there is a dwelling place and provision for a while.'"*
+
+**Meaning.** **[Ṭabarī]** reports the sense: this is God's account of what He did with Iblis and his
+offspring, and Adam and his children, and the serpent — He said to Adam and Eve and Iblis and the
+serpent: descend from the heaven to the earth, some of you being an enemy to others. Al-Suddī said:
+God cursed the serpent, cut off its legs, left it walking on its belly and made its provision from the
+dust, and then brought down to the earth Adam, Ḥawwāʾ, Iblis and the serpent; and Abū Ṣāliḥ said the
+descent was of Adam, Ḥawwāʾ and the serpent. And "for you on the earth a dwelling place and provision
+for a while": for you, Adam and Ḥawwāʾ, and Iblis and the serpent, in the earth there is a settled place
+where you may settle and a bed you may spread, until the term appointed for you [Ṭabarī]. **[Ibn Kathīr]**
+notes that the command "get down" was said to have been addressed to Adam, Ḥawwāʾ, Iblis and the
+serpent, though some scholars did not mention the serpent — and God knows best — the enmity being
+primarily between Adam and Iblis with Ḥawwāʾ following Adam in that regard, as in "Get down, both of
+you, together" (20:123); if the story about the snake is true, it is a follower of Iblis. He adds a
+warning about the tales that locate the place of their descent: some scholars mentioned the spot, but
+these accounts are taken from the Israelite tales, and only God knows whether they are true *(Isrāʾīliyyāt)*;
+had knowing those places been of use to people in religion or in life, God would have mentioned it in
+His Book and His Messenger ﷺ would have mentioned it too [Ibn Kathīr]. And "a dwelling place and
+provision for a while" means that on earth they have dwelling places and appointed terms recorded by
+the Pen, counted by predestination and written in the First Record [Ibn Kathīr].
+
+**Meaning — the fall as providence.** **[Study Quran]** reports that the command "get down, each of you
+an enemy to the other" (cf. 2:36; 20:123) is widely considered to be addressed to Adam and Eve and
+their future progeny as well as to Iblis, and that it indicates their banishment from the celestial
+realm altogether — thus different from God's earlier command banishing Iblis from the Garden
+specifically (7:13). Some Sufi commentators emphasize the providential and even merciful aspect of the
+fall: their act of disobedience led to their assumption of vicegerency on the earth and offered them
+the opportunity to draw near to God once again, a drawing near possible only after the experience of
+distance and exile; and the Study Quran quotes Ibn ʿAṭāʾ Allāh, the eighth-/fourteenth-century
+Shādhilī master, in *al-Ḥikam*: "An act of disobedience that bequeaths humility and need is better than
+an act of obedience that bequeaths might and pride" (no. 96). On the same reading, the fall affords God
+the opportunity to manifest His attribute of forgiveness and offers Adam, and by extension all human
+beings, the possibility of manifesting humility and repentance and returning to God, through which they
+attain a degree of perfection not possible without the experience of the fall (Aj) [Study Quran].
+**[Saʿdī]** carries the same point in the register of the sūrah: when God brought Adam and his wife and
+their offspring down to the earth, He informed them of their state in it — that He had appointed for
+them there a life followed by death, filled with trial and testing, that messengers would be sent to
+them and books sent down to them, until death comes to them and they are buried in it; then, when they
+are complete, God will raise them and bring them out of it to the abode that is truly the abode, the
+home of permanence [Saʿdī].
+
+**Cross-references.** "Get down, both of you, together, from it" (20:123); "Then Satan caused them to
+slip from it and brought them out of that wherein they were; and We said, 'Go down, some of you an
+enemy to some others; and for you on the earth is a dwelling place and provision for a time'" (2:36);
+"And there is for you in the earth an abode and provision for a time" (7:24; cf. 2:36); "And He made
+the earth a bed for you" (2:22) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Ibn Kathīr]**'s caution about the descent legends is worth keeping beside the
+sūrah's silence: the Qurʾān gives the event its meaning and withholds its geography, and the scholars
+who supplied the latter supplied what they had received from the people of the earlier books.
+**[Study Quran]** reads the same reticence as a door: the fall is told, not as a catastrophe from which
+humanity must be rescued by another, but as the opening of a history in which distance becomes the
+school of nearness, and the command to go down becomes the beginning of the road back up.
+
+## 7:25
+
+*"He said, 'Therein you shall live, and therein you shall die, and from it you shall be brought forth.'"*
+
+**Meaning.** **[Jalālayn]** gives the verse as the completion of the sentence: He said, "there," that is,
+on the earth, "you shall live, and there you shall die, and from there you shall be brought forth" —
+through the resurrection — with the reading either *takhrujūn*, "you shall come forth," as an active
+verb, or *tukhrajūn*, "you shall be brought forth," as a passive one. **[Saʿdī]** reads the two verses
+together: God informed them of their stay on the earth — a life followed by death, filled with trial
+and testing, with messengers sent to them and books sent down, until death comes to them and they are
+buried in it; then, when their term is complete, God will raise them and bring them out of it to the
+abode that is the abode in truth, the home of permanence [Saʿdī]. **[Qurṭubī]** notes that in this
+verse all the pronouns refer to the earth, and that *qāla* is written here without the conjunction
+*wāw*, though with it the sentence would also be correct in Arabic — it is as when one says, "Zayd said
+to ʿAmr such-and-such; he said to him such-and-such" [Qurṭubī]. **[Study Quran]** observes that the
+idea that earthly life entails enjoyment for a while is repeated in various ways elsewhere in the
+Qurʾān (16:80; and 2:36, also in relation to Adam), and that the fleeting and limited enjoyment of this
+world is frequently compared with the permanence and totality of one's enjoyment or punishment in the
+Hereafter (3:14; 4:77; 9:38; 10:70; 13:26; 20:131; 28:60; 40:39; 42:36) — a reminder of which is
+provided by the reference to earthly life, earthly death, and resurrection in this verse [Study Quran].
+
+**Belief.** **[Study Quran]** notes the same closing movement of the passage: "just as He originated you,
+so shall you return" is one of several ways in which the Qurʾān indicates the analogous nature of
+original creation and resurrection, suggesting that God's ability to create — which was widely
+recognized even by some pre-Islamic Arabs — should allay any doubts about His ability to resurrect
+human beings (Ṭ); and it records a ḥadīth in which the Prophet ﷺ said that people will be resurrected
+in the same state in which they were born, "barefoot, naked, and uncircumcised" (Ṭ) — that is, alone
+and in utter dependency upon God; see 6:94, "Now you have come unto Us alone, just as We created you
+the first time," as well as 18:48 and 21:104 [Study Quran]. **[Saʿdī]** states the same as the reason
+the verse is placed where it is: the earth that receives a man's life and death is the storehouse from
+which he will be brought out, so that the whole of his story from the first breath to the last is held
+in one hand.
+
+**Cross-references.** "And [God will say], 'Now you have come unto Us alone, just as We created you the
+first time'" (6:94); "The day when the earth will be split open from them, hastening forth" (50:44);
+"From it We created you, and into it We shall return you, and from it We shall bring you out once
+more" (20:55); "And We created you from the earth" (11:61) [Jalālayn] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s note on the resurrection "barefoot, naked, and uncircumcised" gives
+the verse its pastoral edge: the earth that is a dwelling place for a while is also the place where a
+man is stripped of everything he gathered, and the One who brings him out of it as He first made him is
+the One who has kept his account. **[Saʿdī]** draws the same thought to its practical conclusion: the
+verse announces the whole of human life on the earth — life, death, burial, resurrection — as a single
+sentence spoken by God, and the reader who takes it in arrives at the next verses ready to hear what the
+sūrah will say about clothing, adornment, and what lasts.
+
+## 7:26
+
+*"O Children of Adam, We have sent down upon you raiment to cover your shameful parts, and plumage; and the raiment of reverence — that is better. That is among the signs of God, that haply they may remember."*
+
+**Meaning.** **[Jalālayn]** lays out the words: O Children of Adam, We have sent down on you a garment
+to conceal your shameful parts, and *rīsh*, meaning all that one adorns oneself with of garments; and
+the garment of God-fearing — read *libāsa l-taqwā* as an accusative supplement to the preceding
+*libāsan*, or *libāsu l-taqwā* as a subject whose predicate is the following sentence — that is better;
+that is one of God's signs; haply they will remember and believe. **[Maʿārif]** gives the address its
+widest range: it is not to Muslims alone but to all the children of Adam, a sharp pointer that the
+covering of the body and the wearing of dress is both a human need and a natural desire which everyone
+abides by without distinction of religion or community. He notes three kinds of clothing in the verse:
+first, "clothing that covers your shame" — *yuwārī* from *muwārāt*, to cover or conceal, and *sawʾah*
+applied to those body parts whose uncovering human beings naturally take as shameful; then *rīsh* —
+the dress one uses for adornment and decency, so that a simple covering would have sufficed, but God
+gave more, clothing that makes a person look decent, neat and civilized. And on the word *anzalnā*,
+"We have sent down": it means to bestow or bless with, not that clothing descends from the sky ready to
+wear, as in "We sent down iron" (57:25) — iron being dug out of the earth; the mother elements of
+dress, cotton and wool, are a gift of God's creative power in which human planning has no part, and
+even the artifice by which they are made into garments is shown by God, so that eyes that see reality
+see all of it as a divine gift sent from the heavens [Maʿārif]. **[Saʿdī]** reads the verse as a
+statement of favour and of proportion: God has favoured them with the clothing that is necessary and
+the clothing whose purpose is beauty — as He has eased for the servants the necessities and the
+completions of food, drink, mounts and marriages and the like — and He has made clear that this is not
+the goal in itself, but that God sent it down to be a help to them in worshipping and obeying Him;
+therefore He said, "and the garment of *taqwā*, that is better" than the sensory garment, for the
+garment of *taqwā* stays with the servant and does not wear out or perish — it is the beauty of the
+heart and the spirit — while the outward garment's utmost is to cover the outward shameful part at some
+times or to be a beauty for a person, with no benefit beyond that; and, further, if the outward garment
+is lacking, only the outward shameful part is exposed, which does not harm a man in case of necessity,
+whereas if the garment of *taqwā* is lacking, the inner shameful part is exposed and a man meets disgrace
+and scandal. "That is among the signs of God, that haply they may remember," that is, what has been
+mentioned of clothing is among what reminds them of what benefits and harms them, and they take the
+outward garment as a help to the inward [Saʿdī]. **[Study Quran]** explains the sending down as
+providing human beings the means with which to make clothing to cover their nakedness (Ṭ) — revealed to
+them after Adam's act of disobedience — or as God's decreeing or prescribing the wearing of clothing
+for mankind (Z); it notes that some commentators invoke this blessing of raiment to castigate the
+pre-Islamic practice of circumambulating the Kaʿbah in the nude (Ṭ); and it explains *rīsh*: literally
+the plumage of birds, metaphorically wealth, finery, beautiful furnishings and luxurious goods; when
+used of clothing it can mean ornamental clothing, especially outer garments that indicate wealth and
+status. The verse, then, enjoins both clothing that covers one's nakedness and clothing used purely for
+adornment [Study Quran]. **[Jalālayn]** notes the same double gift in a phrase: a garment for covering
+and *rīsh* for adornment.
+
+**Rulings.** **[Qurṭubī]** sets out the legal reading of the verse in four *masāʾil*. Many scholars said
+this verse is a proof of the obligation of covering the shameful parts, because God said "to cover your
+shameful parts," while a group said it is not a proof of that but only of favour and blessing; al-Qurṭubī
+says the first is sounder, since covering the shameful part is itself among the favours, and God has
+shown that He made for Adam's offspring that with which they cover them, which points to the command to
+cover. There is no disagreement among the scholars that covering the shameful parts from people's eyes
+is obligatory; they disagreed over what the shameful part is. Ibn Abī Dhīʾb said: for a man it is the
+private part itself, front and back, and nothing else — and that was the view of Dāwūd, the Ẓāhirīs,
+Ibn Abī ʿAbla and al-Ṭabarī, on the strength of "clothing that covers your shameful parts" and "their
+shameful parts appeared to them." In al-Bukhārī there is the report of Anas that the Messenger of God ﷺ
+rode through the alley of Khaybār and the lower garment slipped from his thigh, so that Anas was looking
+at the whiteness of the thigh of the Prophet of God ﷺ. Mālik said the navel is not a shameful part, but
+he disliked a man's uncovering his thigh in the presence of his wife. Abū Ḥanīfa said the knee is a
+shameful part, and that was the view of ʿAṭāʾ. Al-Shāfiʿī said that neither the navel nor the two knees
+are among the shameful parts, on the sound view, and Abū Ḥāmid al-Tirmidhī reported that al-Shāfiʿī had
+two sayings on the navel [Qurṭubī]. And **[Maʿārif]** notes what the ordering of the verse indicates:
+the real purpose of dress is *satr al-ʿawrah*, the covering of what must be covered, which is also the
+line of demarcation from the animals, whose dress is made part of their bodies and serves only warmth
+or beauty, with no arrangement made to cover.
+
+**Readings.** **[Ṭabarī]** records the variant on the second word: the majority of the reciters of the
+great cities read *wa-rīshan*, without the *alif*, while Zirr b. Ḥubaysh and al-Ḥasan al-Baṣrī are
+reported to have read *wa-riyāshan*; al-Ṭabarī says the correct reading is that of the majority, by the
+consensus of the authoritative reciters, and he notes that the reading *riyāshan* may be either the
+plural of *rīsh*, as *dhiʾb* is pluralized *dhiʾāb*, or an infinitive from "God feathered him," *rāshahu
+yarīshuhu riyāshan wa rīshan*, like "he wore it, he wears it, libāsan wa libsan"; and he mentions a
+report from the Prophet ﷺ on the reading *wa-riyāshan* whose isnād he finds questionable *(weak)*
+[Ṭabarī].
+
+**Cross-references.** "We sent down iron, wherein is great might and benefits for mankind" (57:25);
+"O children of Adam, take your adornment at every place of prayer" (7:31); "Take your adornment at every
+place of prayer" (7:31); "And He has made for you garments to protect you from the heat, and garments to
+protect you from your violence" (16:81); "And the raiment of righteousness, that is better" (7:26);
+"And clothing of righteousness — that is better" (7:26) [Maʿārif] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s contrast is the verse's lasting measure: a man may lack clothes and lose
+nothing that matters if necessity covers it, but the man who lacks the garment of *taqwā* is the one
+whose shame is exposed before all; and since the outward garment wears out while the inward one does
+not, the verse ranks the two accordingly. **[Study Quran]** adds the social reading: the same blessing
+of raiment that anchors modesty is used by the sūrah to correct a practice of the pre-Islamic sanctuary
+in which the body was uncovered in the very place of worship — so that dress, in this passage, is not a
+matter of custom but one of the signs by which a people is reminded of its Lord.
+
+## 7:27
+
+*"O Children of Adam, let not Satan tempt you as he caused your parents to go forth from the Garden, stripping them of their raiment to show them their shameful parts. Surely he sees you — he and his tribe — whence you see them not. We have made the satans the friends of those who do not believe."*
+
+**Meaning.** **[Jalālayn]** reads the address as a warning: O Children of Adam, let not Satan tempt you,
+that is, lead you astray — do not follow him lest you fall into his temptation — as he caused your
+parents to go forth from the Garden by tempting them, stripping them of their garments to manifest to
+them their shameful parts; *he sees you, he and his tribe*, his army, from where you do not see them —
+because of their ethereal bodies, or their being colourless; *We have made the devils friends*,
+helpers and companions, *of those who do not believe.* **[Saʿdī]** draws the practical sense: God
+speaks warning the children of Adam that Satan not do with them what he did with their father — that he
+make disobedience fair-seeming to them, call them to it and make them desire it, so that they follow
+him as their parents followed him and are brought down from the high place to a lower one; so they must
+keep the thought of guarding against him in their minds, put on the armour of war between themselves
+and him, and not be heedless of the entrances by which he comes in to them, for he watches them
+constantly and "sees you, he and his tribe, from where you do not see them" (7:27); and "We have made
+the satans friends of those who do not believe" — the absence of faith is what brings about the bond
+of allegiance between a person and the devil; and there follows in Sūrat al-Naḥl, "he has no authority
+over those who believe and who put their trust in their Lord; his authority is only over those who take
+him as a friend and those who are, because of him, associators" (16:99–100) [Saʿdī]. **[Maʿārif]**
+explains *qabīl*: it means company or group; a joined family group is called *qabīlah*, a tribe, and
+common groups are known as *qabīl* — the sense being that Satan is a kind of enemy who, with his
+accomplices, sees you while you do not see them, so the chances of falling victim to their deception
+are fairly strong; but in other verses it has also been clarified that for those who keep turning to
+God and maintain their guard, the wily web of Satan is much too weak [Maʿārif]. **[Study Quran]**
+notes that the warning is addressed to the children of Adam and so to human beings as a whole, and that
+it extends the warning God issued to Adam, as implied in His question in 7:22, "Did I not . . . tell
+you that Satan is a manifest enemy unto you?" (see also 20:117); *your parents* are Adam and his wife,
+whose nakedness was exposed after they succumbed to the temptation; and the warning continues, reminding
+human beings that Satan and his tribe of jinn and other "satans" see them while they do not see them,
+for both Satan and the jinn are considered to have subtle rather than material bodies (R) — a
+distinction symbolized by the idea that Satan and the jinn are made of fire while Adam and his progeny
+are made of clay [Study Quran].
+
+**Belief.** **[Saʿdī]** draws the doctrinal point from the last clause: the friendship between the
+devils and the unbelievers is not an imposed fate but the fruit of a condition — "We have made the
+satans friends of those who do not believe" — unbelief being the occasion of that allegiance; and this
+is the meaning of the two verses that follow in al-Naḥl, that the devil's authority is over those who
+take him as a friend, while the believers who trust in their Lord are beyond it [Saʿdī]. **[Study
+Quran]** notes that the same warning is repeated elsewhere in the Qurʾān in the plural: "O mankind,
+eat of what is lawful and good in the earth, and follow not the footsteps of Satan; truly he is to you
+a manifest enemy" (2:168; see also 2:208; 6:142; 12:5; 17:53; 36:60; 43:62) [Study Quran].
+
+**Cross-references.** "O mankind, follow not the footsteps of Satan" (2:168; 2:208); "He has no
+authority over those who believe and put their trust in their Lord" (16:99–100); "Children of Adam,
+let not Satan tempt you" (7:27; cf. 20:117); "Truly he sees you, he and his tribe, from where you see
+them not" (7:27); "And do not follow the footsteps of Satan; truly he is to you a manifest enemy"
+(6:142) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading turns the verse into a standing order: the enemy's method is
+known, the entrances are known, and the armour is knowledge of God and the keeping of His command —
+whoever is heedless is a target, and whoever watches is safe; and the verse's first word, "O Children
+of Adam," makes the warning a family matter, since the story it cites is the family's own history.
+**[Maʿārif]** adds the comfort the verse implies: the deception is strong only against the heedless,
+and the Qurʾān has told both the danger and its remedy in one breath.
+
+## 7:28
+
+*"And when they commit an indecency, they say, 'We found our fathers practising it, and God has commanded us thus.' Say, 'Truly God commands not indecency. Do you say of God that which you know not?'"*
+
+**Meaning.** **[Jalālayn]** supplies the occasion: and when they commit any indecency — such as idolatry,
+or circumambulating the Sacred House naked, saying, "we cannot perform the circumambulations in clothes
+in which we were disobedient to God," and so they forbade the wearing of clothes — they say, "we found
+our fathers practising it, so we followed their example, and God has also enjoined it on us." Say to
+them: "God does not enjoin indecency; do you say concerning God that which you do not know?" — that He
+has said it? — the question being a repudiation [Jalālayn]. **[Saʿdī]** sets the verse as a
+demonstration of the ugliness of the polytheists' condition: they do the sins and then attribute them
+to God's command — "and when they commit an indecency," which is everything that is held foul and ugly,
+among it their circumambulating the House naked; "they said, 'we found our fathers practising it'" —
+and they told the truth in that; "and God has commanded us thus" — and in that they lied; and for that
+reason God rebutted the attribution, saying, "Say, God does not command indecency": it does not befit
+His perfection and His wisdom to command His servants to engage in indecencies — neither this one the
+polytheists were doing nor any other— "do you say of God that which you do not know?" — and what
+fabrication is greater than that? [Saʿdī]. **[Study Quran]** notes that *fāḥishah*, "indecency,"
+sometimes refers specifically to sexual transgression (4:15; 4:22), but elsewhere to all sin and
+transgression that is especially abominable (6:151); in the context of the discussion of nakedness and
+the story of Adam's temptation, some have suggested that the particular indecency mentioned here is the
+pre-Islamic Arab custom of circumambulating the Kaʿbah in the nude (Ṭ, Z). When the disbelievers — that
+is, those who take satans for their friends (7:27) — commit such indecencies, they seek to excuse
+themselves by arguing that they are merely following the custom of their fathers, an excuse the
+disbelievers offer in several Qurʾānic verses (2:170; 5:104; 21:52–53; 31:21) [Study Quran].
+
+**Rulings.** **[Study Quran]** draws the principle at work in the verse: the excuse of following the
+ancestors is never accepted, even where it is the ancestors who are followed — blind following
+(*taqlīd*) in belief and practice is not a ground of justification; and the answer given here is not
+merely that the practice is forbidden but that its attribution to God is a lie, since God does not
+command what He has declared foul [Study Quran]. **[Saʿdī]** puts the same as a rule of theological
+language: to say of a command "God commanded it" is to speak of God without knowledge, and the verse
+forecloses the move by naming the thing commanded and its incompatibility with God's perfection and
+wisdom [Saʿdī].
+
+**Cross-references.** "And when it is said to them, 'Follow what God has sent down,' they say, 'No, we
+follow what we found our fathers upon'" (2:170); "When it is said to them, 'Come to what God has sent
+down and to the Messenger,' they say, 'Sufficient for us is what we found our fathers upon'" (5:104);
+"Indeed, you and what your fathers worshipped" (21:52–56); "And when it is said to them, 'Follow what
+God has sent down,' they say, 'No, we follow that upon which we found our fathers'" (31:21);
+"Say: My Lord has forbidden indecencies, those that are apparent and those that are hidden" (7:33)
+[Study Quran] [Jalālayn].
+
+**Reflection.** **[Saʿdī]**'s reading of the verse leaves two accusations standing side by side: the
+people committed what was foul, and then used God's name to cover it — the second offense being worse
+than the first, since it made the Lord of the command a sponsor of the disobedience. **[Study Quran]**
+notes the same movement in the sūrah's sequence: having shown the enemy who whispered in the Garden,
+the sūrah now shows his descendants at work in a community where the whisper has become a tradition
+with the name of God attached to it, and the verse's answer is the same answer that meets all of them —
+God does not command indecency, whatever the ancestors did.
+
+## 7:29
+
+*"Say, 'My Lord has commanded justice; and set your faces aright at every place of prostration, and call upon Him, sincere to Him in religion. As He began you, so shall you return.'"*
+
+**Meaning.** **[Qurṭubī]** records the interpretations: Ibn ʿAbbās said *al-qisṭ* here is "there is no
+god but God"; and it was said it is justice, that is, He has commanded justice, so obey Him — there
+being an ellipsis in the sentence. "And set your faces" means turn toward Him in every prayer, toward
+the *qiblah*, "at every mosque," that is, in whatever mosque you are in. "And call upon Him, sincere to
+Him in religion" means affirm His oneness and do not associate anything with Him. And "as He began you,
+you shall return" — its parallel is "and indeed you have come to Us one by one as We created you the
+first time" (6:94); the *kāf* is in the accusative position, the sense being "you shall return as He
+began you," that is, as He created you the first time, so He will restore you; and al-Zajjāj said it is
+connected to what precedes: "and from it you shall be brought forth, as He began you, you shall return"
+[Qurṭubī]. **[Saʿdī]** expands the command: say, "my Lord has commanded justice" — that is, justice in
+acts of worship and in dealings, not wrong and oppression; "and set your faces at every mosque," that
+is, turn to God and strive to perfect acts of worship, especially the prayer: establish it outwardly and
+inwardly, and purify it of everything that diminishes or corrupts it; "and call upon Him, sincere to Him
+in religion," that is, aiming by that at His face alone, with no partner — and *duʿāʾ* includes both the
+prayer of request and the worship of devotion: let no motive in your calling be other than the
+servanthood of God and His pleasure; "as He began you, you shall return" — the first time; and the One
+able to begin your creation is able to repeat it — indeed the repetition is easier than the beginning
+[Saʿdī]. **[Maʿārif]** gives *al-qisṭ* its full sense: the word essentially means justice, balance and
+moderation, and here it refers to a conduct free of excess or deficiency, one that neither falls short
+nor exceeds the appointed limits — as is the case with all the injunctions of the Sharīʿah; under this
+sense of *qisṭ* are included all acts of worship and obedience and all the general injunctions of the
+law. He notes that after stating the command of justice and moderation, two injunctions relevant to the
+people's erroneous conduct are mentioned in particular: "set your faces aright at every place of
+prostration," which relates to what one does physically and outwardly — the word *masjid* being taken
+by most commentators in the sense of prostration, so that one should be aright at the time of every
+prayer or other act of worship, or it may mean keeping one's orientation straight toward the *qiblah*,
+and being aright may also mean submitting — and "call upon Him, sincere to Him in religion," which
+belongs to the heart and the spiritual dimension [Maʿārif]. **[Study Quran]** gives the same two
+commands in their Qurʾānic setting: "at every place of prayer" may mean to turn toward the *qiblah* in
+prayer wheresoever one may be (see 2:144), or it may mean to turn toward the *qiblah* at every time of
+prayer (R, Z); turning or setting or submitting one's face toward God is a frequent Qurʾānic image of
+monotheistic devotion, signifying the orientation of one's whole being toward worship of and obedience
+to God (see 2:112; 3:20; 6:79; 10:105; 30:30, 43; 31:22); and to call upon Him most commonly means to
+supplicate God for one's spiritual and material needs, although some commentators here consider it a
+reference to canonical prayer or worship generally (R, Z) — and as in several other verses the mention
+of calling upon God is followed by devoting religion entirely to Him (see also 10:22; 29:65; 31:32;
+39:2, 11, 14; 40:14, 65; 73:8), a phrase connoting sincere worship for the sake of God alone [Study
+Quran].
+
+**Belief.** **[Study Quran]** notes that "just as He originated you, so shall you return" is one of
+several ways in which the Qurʾān indicates the analogous nature of original creation and resurrection,
+suggesting that God's ability to create — widely recognized even by some pre-Islamic Arabs — should
+allay any doubts about His ability to resurrect human beings (Ṭ); and it records the ḥadīth that people
+will be resurrected in the same state as that in which they were born, "barefoot, naked, and
+uncircumcised" (Ṭ), that is, alone and in utter dependency upon God; see 6:94 and 18:48; 21:104
+[Study Quran]. **[Saʿdī]** adds the corollary of the argument: the verse's commands move from justice
+to worship to sincerity, and its last clause supplies the reason they are binding — the One who
+commands is the One who originated and will restore, so that the whole passage rests on the doctrine of
+the resurrection [Saʿdī]. **[Qurṭubī]** records the variant reading of the next verse's opening and
+its grammar: *farīqan* is put in the accusative as a circumstantial state from the pronoun in "you
+shall return," that is, "you shall return as two groups, fortunate and wretched," and Ubayy's reading
+supports it, "you shall return two groups: a group He guided and a group upon whom error was due";
+and Muḥammad b. Kaʿb al-Quraẓī said, whoever God originated his creation for error, He brings him to
+error even if he acts with the works of guidance, and whoever God originated his creation upon
+guidance, He brings him to guidance even if he acts with the works of error [Qurṭubī].
+
+**Cross-references.** "And indeed you have come to Us one by one as We created you the first time"
+(6:94); "Set your face toward the religion, inclining to truth — the nature of God upon which He
+created mankind" (30:30); "Say: I have been commanded to worship God, sincere to Him in religion"
+(39:11); "So call upon God, sincere to Him in religion" (40:14); "Take your adornment at every place of
+prayer" (7:31) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Maʿārif]**'s reading of *qisṭ* as balance — neither falling short nor exceeding —
+gives the verse its shape: the same balance that rules the law rules the limbs and the heart, the face
+turned at every prostration and the motive cleansed at every call. **[Saʿdī]** draws the practical
+lesson: the command "do not commit indecency and do not attribute it to God" is answered not by
+abstinence alone but by its positive counterpart — justice in dealings, prayer established outwardly and
+inwardly, and calling on God with a single motive — so that the passage replaces a corrupt custom with a
+complete discipline.
+
+## 7:30
+
+*"A group He has guided, and a group upon whom error was due — they took the satans as protectors apart from God, and they think that they are guided."*
+
+**Meaning.** **[Jalālayn]** gives the two groups: a party of you He has guided, while another party has
+deserved to go astray — they have taken devils as patrons instead of God, that is, other than Him, and
+they think that they are guided. **[Saʿdī]** reads the verse with the previous one: "a group," from
+among you, "He has guided" — that is, God granted them success in guidance and eased its causes for
+them and turned away its obstacles; and "a group upon whom error was due" — error became due to them
+because of what they brought upon themselves and what they did of the causes of straying, for "they
+took the satans as protectors apart from God" — and whoever takes Satan as a protector apart from God
+has lost with a manifest loss; when they had stripped off the protection of the Most Merciful and
+preferred the protection of Satan, the abundant share of abandonment came to them and they were left to
+themselves, so that they lost the most severe loss, while they think that they are guided — because
+realities were inverted for them, so they supposed falsehood true and truth false. And in these verses,
+Saʿdī says, there is a proof that commands and prohibitions follow wisdom and benefit, since God has
+mentioned that He cannot be conceived to command what minds find foul and reject, and that He commands
+only justice and sincerity; and a proof that guidance is by God's favour and grace while error is by
+His abandonment of the servant when, in his ignorance and wrong, he takes Satan as an ally and brings
+straying upon himself; and that whoever supposes himself guided while he is astray has no excuse,
+because he was able to attain guidance and his supposition came only from his wronging himself by
+abandoning the road that leads to it [Saʿdī]. **[Study Quran]** records the theological use made of
+the first line: "some He has rightly guided" — like several other verses, it indicates that not all are
+guided, for had God willed He would have gathered them all to guidance (6:35); "others are deserving of
+error" meaning, according to some, that their own actions have made them deserving of the description
+that they are in error (Z); the Muʿtazilite theologians, who held that human moral destiny is determined
+by human choice and action, understood the references to God guiding or misleading some but not others
+as modes of reward and punishment — God guiding some as a reward for virtuous acts and misleading others
+as a punishment for evil deeds; in the present context, those who took satans as protectors apart from
+God are deserving of error for having done so (R); while many Ashʿarite theologians took this verse and
+others like it as scriptural evidence for divine control over human moral destiny (R) [Study Quran].
+
+**Belief.** **[Qurṭubī]** records the report of Muḥammad b. Kaʿb al-Quraẓī in this place: whoever God
+originated his creation for error, He brings him to error even if he acts with the works of guidance;
+and whoever God originated his creation upon guidance, He brings him to guidance even if he acts with
+the works of error — a statement that belongs to the theological dispute over divine decree and human
+act. **[Saʿdī]** holds the two ends of the verse together: guidance is God's favour, and error is
+what the servant brings upon himself by taking protectors apart from God — so that the verse neither
+makes God the author of a man's sin nor leaves the man's destiny outside God's hand [Saʿdī].
+**[Study Quran]** notes the same tension, observing that the two schools read the verse in opposite
+directions, and that the Qurʾān's own emphasis falls on the last clause: the people in question are
+described as having taken protectors apart from God (see also 7:27) and as thinking themselves well
+guided [Study Quran].
+
+**Cross-references.** "And had your Lord willed, all those on the earth would have believed together"
+(6:35? 10:99); "Whom God leads astray, there is no guide for him" (7:186); "And they think that they are
+guided" (7:30; cf. 18:104; 43:37); "Truly you cannot guide whom you love, but God guides whom He wills"
+(28:56); "And whoever takes Satan as a protector apart from God has surely suffered a manifest loss"
+(4:119) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** draws the warning the verse is placed to give: the worst of losses is the
+one that comes with a settled conviction of being on the right road, since such a man does not seek a
+remedy — and the mark of that condition is the choice of protectors: whoever takes the enemy as his
+patron has already left the protection of God. **[Study Quran]** notes the same thing from the
+theological angle: the verse has been read as a statement about God's guidance and about man's
+deserving of error, but in its own place in the sūrah it is the conclusion of the argument with the
+polytheists of Mecca — a sentence about a group who thought themselves guided while they took the
+satans as friends, and the reader is invited to test himself by the same measure.
