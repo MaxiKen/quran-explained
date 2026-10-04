@@ -8178,3 +8178,1270 @@ and cannot have disposed of anything — which is what makes 12:76, "he brought 
 discovery rather than a plant, in the eyes of everyone present except the two men who know.
 
 ---
+
+
+## 12:71
+
+*"They said, turning toward them, ʿWhat is it that you miss?ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: the sons of Yaʿqūb said, when they were called to, "O caravan, you are thieves," and
+turned toward the crier and those present with him, saying to them, "What is it that you miss? What is it that you miss?"
+"They said, we miss the kingʾs drinking-cup": and the people said to them, we miss the kingʾs drinking-vessel. **[Qurṭubī]**
+*(the material for this verse is given at 12:72, in the shared block)*. **[Ibn Kathīr]** They looked at the man who was
+heralding this statement and asked him, "What is it that you have lost?" **[Jalālayn]** They said, after coming towards them,
+"What is it that you are missing?" **[Saʿdī]** They said — that is, Yūsufʾs brothers — turning toward them, in order to
+distance the suspicion; for the thief has no concern except to get away and depart from the one he stole from, so that his
+theft is safe for him, whereas these came turning toward them, with no concern except to remove the suspicion they had been
+accused of from themselves. So they said in this state, "What is it that you miss?" and they did not say, "What is it that we
+stole?", out of their certainty that they were innocent of theft. **[Maʿārif]** *(the material for this verse is given at
+12:72)*. **[Study Quran]** *(no separate note; the material is given at 12:72)*
+
+**Language.** *Mādhā tafqidūn* is an interrogative with *mā* and *dhā* combined; **[Ṭabarī]** glosses it as "what is it
+that you miss?" The verb *faqada* is to lose or miss something absent, not to lack something wanted — so the question is
+"what have you lost?", not "what do you want?". *Wa-aqbalū ʿalayhim*, "turning toward them," is a circumstantial clause, and
+it is the element **[Saʿdī]** builds his whole reading on.
+
+**Belief.** **[Saʿdī]**ʾs observation is a study in how the Qurʾān indicates character by gesture rather than by statement.
+The verse records not only what they said but how they moved: they *turned toward* their accusers. A thief flees; these men
+approached. And their wording is as significant as their movement — they asked "what is it that you miss?" rather than "what
+have we stolen?", because they were certain of their innocence. That certainty is genuine: at this point in the narrative
+none of the eleven knows about the cup, and Binyāmīn either does not know or is under orders. The verse therefore shows the
+brothers, for once in this sūrah, entirely in the clear — accused publicly of a crime they have not committed, and behaving
+exactly as innocent men behave.
+
+**Cross-references.** 12:70 (the accusation); 12:72 (the answer); 12:73 (the oath); 12:77 ("a brother of his stole before");
+12:82 ("ask the town in which we were").
+
+**Reflection.** The shortest verse in this sequence and one of the most revealing. Everything the brothers did at the well
+they did in secret; here, accused in public, they turn *toward* the accusation. **[Saʿdī]** makes the point twice — the
+movement and the wording — and both are inferences from grammar rather than from report, which is why they are reliable. The
+scene also contains a bitter symmetry that the commentators leave mostly unstated: these are the same men who, decades
+earlier, came to their father with a false story and a bloodied shirt, and who now find themselves on the receiving end of a
+false accusation, made by their own brother, about a garment-bag. And unlike 12:18, they respond not with a fabricated proof
+but with a question — "what is it that you miss?" — which invites examination. The whole of 12:70–76 is, in effect, the
+brothers being subjected to the procedure they once evaded.
+
+---
+
+## 12:72
+
+*"They said, ʿWe miss the kingʾs drinking-cup, and whoever brings it shall have a camel-load, and I am a guarantor for it.ʾ"*
+
+**Meaning.** **[Ṭabarī]** "And whoever brings it shall have a camel-load of food": and whoever brings the drinking-cup shall
+have a camel-load of food, as Qatādah said of "and whoever brings it shall have a camel-load": a camelʾs burden (*wiqr
+baʿīr*). And Mujāhid said: a donkey-load — and that is a dialect. "And I am a guarantor for it": and I am a guarantor for
+fulfilling a camel-load of food to him when he brings me the kingʾs drinking-cup. And the interpreters said the like: Ibn
+ʿAbbās said, a guarantor (*kafīl*); and Mujāhid said, the *zaʿīm* is the crier who said "O caravan"; and Saʿīd b. Jubayr,
+Qatādah and al-Ḍaḥḥāk said, a guarantor; and Ibn Isḥāq said, the messenger said to them, "Whoever brings it to us shall have a
+camel-load, and I am a guarantor for that until I deliver it to him." And of *zaʿīm* in the sense of guarantor is the poetʾs
+line: "I am not one who commands peace therein, but I am a guarantor over myself"; and the root of *zaʿīm* in the speech of
+the Arabs is the one who undertakes the affair of a people, and likewise *kafīl* and *ḥamīl* — which is why the chief of a
+people is called their *zaʿīm* and their manager, from *zaʿuma fulānun zaʿāmatan wa-zuʿāman*. And of it is Laylā
+al-Akhīliyyahʾs line: "until, when the standard appeared, you saw him beneath the standard, a *zaʿīm* over the army."
+**[Qurṭubī]** "We miss the kingʾs drinking-cup": the *ṣuwāʿ* is the vessel; and the reading of the cities is *ṣuwāʿ*, and
+there were variant readings. It is related from Abū Hurayrah that he read *ṣāʿa al-malik*, without a *wāw*, as though
+directing it to the *ṣāʿ* by which food is measured; and it is related from Abū Rajāʾ that he read *ṣawʿa al-malik*; and it is
+related from Yaḥyā b. Yaʿmar that he read *ṣawgha al-malik* with the *ghayn*, as though directing it to a verbal noun from
+"he fashioned, fashions, a fashioning." As for what the reciters of the cities read, it is *ṣuwāʿa al-malik*, and it is the
+reading I do not permit myself to read contrary to, because of the consensus of the authority upon it. And the *ṣuwāʿ* is the
+vessel by which Yūsuf used to measure food. Shuʿbah, from Abū Bishr, from Saʿīd b. Jubayr, from Ibn ʿAbbās, said of this
+word, "the kingʾs *ṣuwāʿ*": in the shape of the *makkūk*; and al-ʿAbbās had one like it in the Jāhiliyyah, from which he
+drank. And in another chain: it was of silver, like a *makkūk*. And ʿIkrimah said it was of silver; and Saʿīd b. Jubayr said
+it was the vessel he drank from, and it was somewhat elongated; and in another report, the Persian *makkūk*, whose two ends
+meet, from which the non-Arabs used to drink; and al-Ḍaḥḥāk and Qatādah said, the kingʾs vessel from which he drank; and
+Mujāhid said, the *ṣuwāʿ* from which Yūsuf drank; and from Ṣadaqah b. ʿAbbād from his father from Ibn ʿAbbās: it was of
+copper. "And whoever brings it shall have a camel-load": Qatādah said, a camelʾs burden; and Mujāhid said, a donkey-load, and
+that is a dialect. "And I am a guarantor for it": Ibn ʿAbbās said, a guarantor; Mujāhid said, the *zaʿīm* is the crier who
+said "O caravan"; Saʿīd b. Jubayr, Qatādah, al-Ḍaḥḥāk and Sufyān said, a guarantor; and Ibn Isḥāq said, the messenger said
+to them, "Whoever brings it to us shall have a camel-load, and I am a guarantor for that until I deliver it to him." And of
+*zaʿīm* in the sense of guarantor is the line of Ḥājiz b. ʿAwf al-Azdī: "I am not one who commands peace therein, but I am a
+*zaʿīm* over myself"; and the root of *zaʿīm* in the speech of the Arabs is the one who undertakes the affair of a people,
+and likewise *kafīl* and *ḥamīl*. **The second *masʾalah***: if it is said, how did he guarantee a camel-load when it is
+unknown, and guaranteeing the unknown is not valid? — it is said to him: the camel-load was specified and known to them, like
+the *wasaq*, so its guarantee was valid; except that it was a substitute for the thiefʾs property, and that is not lawful for
+the thief, so perhaps it was valid in their law, or this was a *juʿl* (a reward-payment) and the offering of wealth to one who
+searches and seeks. **The third *masʾalah***: some of the scholars said, in this verse are two proofs. The first is the
+permissibility of *juʿl*, which has been permitted out of necessity, for it admits of a degree of uncertainty that is not
+admitted elsewhere; so if a man says, "whoever does such-and-such shall have such-and-such," it is valid. And the nature of
+*juʿl* is that one of the two sides is known and the other unknown, out of necessity for it, unlike hire (*ijārah*), in which
+both the compensation and the compensated are determined on both sides. And it is one of the permissible contracts which either
+party may rescind, except that the one for whom the reward is made may rescind it before and after beginning, if he is content
+to waive his right, whereas the one who offers the reward may not rescind it once the other has begun the work. And the
+presence of the two contracting parties is not a condition in the contract of *juʿl*, as it is in other contracts, because of
+His words "and whoever brings it shall have a camel-load" — and al-Shāfiʿī said all of this. **The fourth *masʾalah***:
+whenever a man says, "whoever brings my runaway slave shall have a dinar," what he has offered is binding on him if he brings
+him; and if he brings him without a guarantee, it is binding on him if he brought him seeking the wage — because the Prophet ﷺ
+said, "Whoever brings a runaway shall have forty dirhams," and did not distinguish between one who brings him under a contract
+of guarantee and one who does not. Ibn Khuwayzmandād said: for this our companions have said that whoever does for a person
+what that person was obliged to do for his own interests, it is binding on him and he owes a wage like that of his peers, if he
+is one who does it for a wage. I say: and al-Shāfiʿī opposed us in all of this. **The fifth *masʾalah*** — the second proof:
+the permissibility of suretyship (*kafālah*) upon a man, because the crier who guaranteed is other than Yūsuf. Our scholars
+said: if a man says "I have undertaken," or "I have guaranteed," or "I am a surety," or "I am your *ḥamīl*," or "*zaʿīm*," or
+*kafīl*," or "*ḍāmin*," or "*qabīl*," or "it is yours with me," or "upon me," or "to me," or "in my charge," all of that is a
+binding suretyship. And the jurists have differed about one who guarantees a person or a face — whether the guarantee of the
+wealth becomes binding on him or not. The Kūfans said: whoever guarantees a manʾs person, the right that is upon the sought
+person does not become binding on him if he dies, and this is one of al-Shāfiʿīʾs two sayings in the well-known report from
+him. And Mālik, al-Layth and al-Awzāʿī said: if he guarantees his person and there is wealth upon him, then if he does not
+produce him he is liable for the wealth, and he has recourse for it against the sought person; and if he stipulated the
+guarantee of his person or his face and said, "I do not guarantee the wealth," then nothing of the wealth is upon him. And the
+argument of those who obliged the liability for the wealth is that the guarantor knew that the one whose face is guaranteed is
+not sought for blood but only for wealth, so when he guaranteed him for it and did not produce him to him, it is as though he
+caused him to be lost to him and deprived him of him, and so the wealth became binding. And al-Ṭaḥāwī argued for the Kūfans:
+as for the liability for the wealth by the death of the guaranteed person, it has no meaning, because he only guaranteed the
+person and did not guarantee the wealth, so it is impossible that what he did not guarantee should become binding on him.
+**The sixth *masʾalah***: the scholars differed, if a man guarantees wealth on behalf of another, whether the claimant may take
+from whichever of the two he wishes. Al-Thawrī, the Kūfans, al-Awzāʿī, al-Shāfiʿī, Aḥmad and Isḥāq said: he takes from
+whichever he wishes until he recovers his right — and this was Mālikʾs saying, then he retracted it and said: the guarantor is
+not taken from unless the debtor becomes bankrupt or is absent, because beginning with the one upon whom the right lies has
+priority; except if he is destitute, then he is taken from the surety, because he is excused in taking from him in this state —
+and this is a good saying. And the analogy is that the man has the right to demand from whichever of the two men he wishes.
+And Ibn Abī Laylā said: if a man guarantees wealth on behalf of his companion, the liability transfers to the guarantor and the
+original party is released, unless the guaranteed-for stipulates upon them both that he may take from whichever he wishes; and
+he argued by the release of the deceased from the debt by Abū Qatādahʾs guarantee; and Abū Thawr said something like it. **The
+seventh *masʾalah***: guarantee (*zaʿāmah*) is only valid in rights in which representation is permissible, of what pertains
+to the *dhimmah* of wealth and is fixed and established; so guarantee for a *kitābah* contract is not valid, because it is not
+a fixed, established debt, since if the slave becomes incapable he reverts to slavery and the *kitābah* is annulled. *[the
+section continues]* **[Ibn Kathīr]** "They said, we have lost the bowl of the king," which he used to measure food grains,
+"and for him who produces it is (the reward of) a camel-load," as a reward, "and I will be bound by it," as assurance of
+delivery of the reward. **[Jalālayn]** They said, "We are missing the kingʾs goblet," his cup. "And he who brings it shall
+have a camelʾs load of food supplies, and I will guarantee that," the camelʾs load. **[Saʿdī]** They said, "We miss the
+kingʾs *ṣuwāʿ*, and whoever brings it shall have a camel-load" — that is, a wage for him for finding it — "and I am a
+guarantor for it": that is, a *kafīl*. And this is said by the inspecting crier. **[Maʿārif]** The answer given by the
+announcers was: "We are missing the measuring-bowl of the king, and whoever brings it back shall deserve a camel-load, and I
+stand a surety for it." The question which emerges here is: why did Sayyidna Yūsuf opt for this excuse to detain Benyāmīn with
+him, especially when he knew that his separation was already shocking for his father? Now, how could he bear giving him
+another shock by detaining his other brother? The other question which arises here is far more important, because it involves
+things like accusing innocent brothers of theft and concealing something in their baggage secretly to cause them disgrace
+later. These are impermissible acts. Sayyidna Yūsuf was a prophet of God; it is difficult to visualise how he would have gone
+along with them. Some commentators, such as al-Qurṭubī and others, have stated: when Benyāmīn recognised Sayyidna Yūsuf and
+was at peace, he requested his brother not to send him back along with his brothers; instead, he pleaded, he should let him
+stay with him. First Sayyidna Yūsuf made the excuse that his staying behind would shock their father; then he had no way of
+making him stay with him other than to blame him for theft, arrest him for it and thus keep him with him. Benyāmīn was so
+disgusted with the ways of his brothers that he was ready to go through all this. But even if this event were taken as
+correct, the heartbreak caused to his father, the disgrace inflicted on all his brothers and dubbing them as thieves cannot
+become permissible simply because of the pleasure of Benyāmīn. That some commentators have interpreted the charge of theft
+levelled on them by the announcer as being without the knowledge and permission of Sayyidna Yūsuf is not valid; this is a claim
+without any proof and, given the anatomy of the event, incoherent too. Similar is the case of another interpretation where it
+has been stated that these brothers stole Sayyidna Yūsuf from his father and sold him, therefore they were called thieves —
+this too is a long-drawn explanation. Therefore, the correct answer to these questions is what has been given by al-Qurṭubī and
+Mazharī: whatever has been done and said in this connection was neither the outcome of Benyāmīnʾs wish, nor the initiative of
+Sayyidna Yūsuf himself; instead, all these happenings were the manifestation of the infinite wisdom of God alone, under whose
+command they came to be what they were, and being completed through them was the process of the trial and test of Sayyidna
+Yaʿqūb. A hint towards this answer appears in verse 76 of the Qurʾān itself, which says *kadhalika kidnā li-Yūsuf*, "this is
+how We planned for Yūsuf (to detain his brother)." In this verse God has very clearly attributed this excuse and plan to
+Himself. So when all these things took shape as divinely commanded, calling them impermissible becomes meaningless. They would
+be like the incident of the dismantling of the boat and the killing of the boy in the event relating to Sayyidna Mūsā and
+al-Khaḍir: obviously these were sins, therefore Sayyidna Mūsā registered his disapproval of them; but al-Khaḍir was doing all
+this with divine assent and permission under particularly expedient considerations, therefore he was not committing any sin.
+**[Study Quran]** Josephʾs companions were the ones who said, "We are missing the goblet of the king," but the declaration of
+a camel-load of food was uttered by the herald. "I shall be its guarantor" means whoever is able to produce the cup will be
+given the camel-load.
+
+**Language & readings.** *Ṣuwāʿ* is the vessel by which Yūsuf measured food **[Ṭabarī]**; and **[Qurṭubī]** records the
+readings already listed at 12:70 — *ṣuwāʿ* (the cities, which he will not read against because of the consensus of the
+authority upon it), *ṣāʿ* without the *wāw* (Abū Hurayrah), *ṣawʿ* (Abū Rajāʾ), and *ṣawgh* with the dotted *ghayn* (Yaḥyā
+b. Yaʿmar, as a verbal noun from "he fashioned"). On the material and shape: silver like a *makkūk*, and al-ʿAbbās had one in
+the Jāhiliyyah from which he drank (Ibn ʿAbbās via Saʿīd b. Jubayr, in four chains at **[Ṭabarī]**); silver (ʿIkrimah);
+copper (Ibn ʿAbbās via Ṣadaqah b. ʿAbbād); somewhat elongated (Saʿīd b. Jubayr); the Persian *makkūk* whose two ends meet,
+from which the non-Arabs drank (Saʿīd b. Jubayr). *Ḥiml baʿīr* is a camelʾs burden (*wiqr baʿīr*) **[Qatādah]**, or a
+donkey-load, "and that is a dialect" **[Mujāhid]** — the same note Mujāhid made at 12:65. *Zaʿīm* is *kafīl* (Ibn ʿAbbās,
+Saʿīd b. Jubayr, Qatādah, al-Ḍaḥḥāk, Sufyān); Mujāhid alone identifies the *zaʿīm* as the crier of 12:70. Its root in the
+speech of the Arabs is the one who undertakes the affair of a people, and likewise *kafīl* and *ḥamīl* — hence the chief of a
+people is their *zaʿīm*, from *zaʿuma zaʿāmatan wa-zuʿāman*, a verbal noun the dictionaries have neglected **[Ṭabarī]**. Two
+poetic witnesses are cited: Ḥājiz b. ʿAwf al-Azdī, "I am not one who commands peace therein, but I am a *zaʿīm* over myself,"
+and Laylā al-Akhīliyyah, "until, when the standard appeared, you saw him beneath the standard, a *zaʿīm* over the army."
+
+**Rulings.** **[Qurṭubī]**ʾs seven *masāʾil* on this verse are the Mālikī digest on reward-payments and suretyship: (2) how
+could he guarantee an unknown camel-load, when guaranteeing the unknown is invalid? — the camel-load was specified and known
+to them, like the *wasaq*, so the guarantee was valid; except that it was a substitute for the thiefʾs property, which is not
+lawful for the thief, so perhaps it was valid in their law, or this was a *juʿl*. (3) *Juʿl* is permissible out of necessity
+and admits uncertainty not admitted elsewhere; "whoever does such-and-such shall have such-and-such" is valid; one side is
+known and the other unknown; unlike *ijārah*, where both compensation and compensated are determined on both sides; it is a
+permissible contract which either party may rescind, except that the one for whom the reward is made may rescind before and
+after beginning if he waives his right, whereas the offeror may not rescind once the other has begun; and the presence of both
+contracting parties is not a condition, because of "and whoever brings it shall have a camel-load" — al-Shāfiʿī said all of
+this. (4) "Whoever brings my runaway slave shall have a dinar" is binding, and so is bringing him without a guarantee if done
+seeking the wage, because of the Prophetʾs "whoever brings a runaway shall have forty dirhams," which did not distinguish
+between bringing under a contract of guarantee and not; Ibn Khuwayzmandād: whoever does for a person what that person was
+obliged to do for his own interests, it is binding on him and he owes a peerʾs wage — and al-Shāfiʿī opposed us in all of
+this. (5) The second proof is the permissibility of *kafālah* upon a man, since the guarantor is other than Yūsuf; the
+formulae "I have undertaken / guaranteed / I am your *ḥamīl* / *zaʿīm* / *kafīl* / *ḍāmin* / *qabīl* / it is yours with me /
+upon me / to me / in my charge" are all binding suretyship; on guaranteeing a person or a face, the Kūfans (and one of
+al-Shāfiʿīʾs two sayings) hold that the underlying wealth does not become binding if the guaranteed person dies, while Mālik,
+al-Layth and al-Awzāʿī hold that he is liable and has recourse, unless he expressly stipulated "I do not guarantee the
+wealth." (6) On whether the claimant may take from guarantor or debtor at will: al-Thawrī, the Kūfans, al-Awzāʿī, al-Shāfiʿī,
+Aḥmad and Isḥāq say yes; this was Mālikʾs saying and then he retracted it, holding that the guarantor is not taken from
+unless the debtor is bankrupt or absent — "and this is a good saying"; the analogy supports free choice; Ibn Abī Laylā holds
+the liability transfers and the original party is released, unless stipulated otherwise, arguing from Abū Qatādahʾs guarantee
+releasing the deceased from his debt; Abū Thawr said something like it. (7) *Zaʿāmah* is only valid in rights in which
+representation is permissible, of what pertains to the *dhimmah* and is fixed and established — so guarantee for a *kitābah*
+is not valid, since if the slave becomes incapable he reverts to slavery and the contract is annulled. **[Maʿārif]** condenses
+the same material into three numbered rulings: (1) it is valid to make a general announcement that a particular award or
+remuneration will be paid to anyone who performs a particular act — very much like the current custom of announcing rewards
+for the arrest of absconding criminals or the return of lost property; though this form of transaction does not fall under the
+juristic definition of *ijārah*, its justification is proved by this verse (Qurṭubī). (2) "And I stand surety for it" tells us
+that one person can become the guarantor of financial rights on behalf of another; the related ruling, according to the
+majority of Muslim jurists, provides that the creditor has the authority to recover his property from the person legally in
+debt, or from the guarantor, as he chooses; however, if it is recovered from the guarantor, the guarantor has the right to
+recover from the debtor whatever cash or property has been taken from him (Qurṭubī).
+
+**Belief.** **[Maʿārif]** raises, at this verse, the sharpest theological problem of the second half of the sūrah and dismisses
+three proposed solutions. Two of them are the ones **[Qurṭubī]** gives at 12:70 — that the herald acted without Yūsufʾs
+knowledge, and that the accusation was true in the sense that they had stolen Yūsuf from his father — plus a third, that
+Binyāmīn himself asked to be detained. **[Maʿārif]** rejects all three: the first is a claim without proof and incoherent
+given the anatomy of the event; the second is long-drawn; and the third cannot make the disgrace of the brothers and the
+heartbreak of the father permissible merely because Binyāmīn wanted it. His own answer is the one that reads the Qurʾān
+against itself: *kadhalika kidnā li-Yūsuf* attributes the plan to God, so when these things took shape as divinely commanded,
+calling them impermissible becomes meaningless — and the analogy is al-Khaḍir with Mūsā (18:71, 18:74): the dismantling of the
+boat and the killing of the boy were outwardly sins, which is why Mūsā disapproved, but al-Khaḍir acted by divine assent under
+expedient considerations and therefore committed no sin.
+
+**Cross-references.** 12:70 (the cup placed); 12:71 (the question); 12:75 (the reward defined by the brothers); 12:76 ("thus
+did We contrive for Yūsuf"); 5:89 (the oath and its expiation); 18:71 and 18:74 (al-Khaḍir) **[Maʿārif]**.
+
+**Reflection.** The verse is a public notice with a reward and a guarantor, and the tradition treats it as the founding text
+of two whole chapters of jurisprudence. **[Qurṭubī]**ʾs seven *masāʾil* run from the validity of an open reward (*juʿl*)
+through the runaway-slave ḥadīth to the fine Mālikī question of whether a creditor may sue the guarantor or the debtor at
+will — and it is worth noticing that the *occasion* for all of it is a famine-relief official offering a camel-load of grain
+for the return of a measuring vessel. **[Maʿārif]** makes the same point in modern terms: this is very much like the current
+custom of announcing rewards for the arrest of absconding criminals or the return of lost property. But the more difficult
+material is **[Maʿārif]**ʾs refusal of the easy apologetics. He is not willing to let the verse be saved by saying the herald
+acted alone, or by saying the accusation was technically true, or by saying Binyāmīn consented — because each of those leaves
+an innocent family publicly disgraced and a grieving father deceived, and none of them explains why. His answer, that God
+attributes the plan to Himself and that the analogy is al-Khaḍir, is the strongest available, and it has a cost: it means the
+episode cannot be judged by the ordinary rules that govern human conduct, which is exactly the position Mūsā found himself in
+when he objected to the boat.
+
+---
+
+## 12:73
+
+*"They said, ʿBy God, you know that we did not come to work corruption in the earth, and we were not thieves.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsufʾs brothers said, "*ta-llāh*" — meaning *wa-llāh*. And this *tāʾ* in *ta-llāh* is
+only a *wāw* turned into a *tāʾ*, as was done in *al-Tawrāh*, which is from *waraytu*, and *al-turāth*, which is from
+*warithtu*, and *al-tukhmah*, which is from *al-wakhāmah* — the *wāw* was turned into a *tāʾ* in all of that, and the *wāw* in
+those words is all in nouns; and it is not so in *ta-llāh*, because it is only the *wāw* of the oath, and it was made a *tāʾ*
+only because of how much it ran on the tongues of the Arabs in oaths in their saying *wa-llāh*, so it was singled out in this
+word by being turned into a *tāʾ*. And whoever says that with the name of God and says *ta-llāh* does not say *ta-l-Raḥmān*
+or *ta-l-Raḥīm*, nor with anything of the names of God, nor with anything by which one swears; and it is not said except with
+*ta-llāh* alone. "You know that we did not come to work corruption in the earth": you know that we did not come to disobey God
+in your land. And a group of the interpreters used to say so: al-Rabīʿ b. Anas said, we say: we did not come to disobey in the
+land. And if someone says: what was the knowledge of those to whom it was said, "you know that we did not come to work
+corruption in the earth," that they had not come for that, such that those who said it were justified in saying it? — it is
+said: they were justified in saying it because, as has been related, they returned the merchandise they had found in their
+saddlebags, and said, "if we were thieves we would not have returned to you the merchandise we found in our saddlebags." And
+it was said that they had been known on their road and in their journey not to wrong anyone and not to take what was not
+theirs, so they said that when it was said to them, "you are thieves." **[Qurṭubī]** "They said, by God, you know that we did
+not come to work corruption in the earth": it is related that they used not to lodge with anyone wrongfully and not to graze
+anyoneʾs crop, and that they put muzzles on the mouths of their camels so that they would not ravage peopleʾs crops. Then He
+said, "and we were not thieves": it is related that they returned the merchandise that was in their saddlebags — so whoever
+returns what he finds, how can he be a thief?! **[Ibn Kathīr]** After Yūsufʾs servants accused his brothers of theft, they
+said, "By God! Indeed you know that we came not to make mischief in the land, and we are no thieves!" — ever since you knew
+us, you, due to our good conduct, became certain that we came not to make mischief in the land, and we are no thieves. They
+said, "Theft is not in our character, as you came to know." **[Jalālayn]** They said, "By God" — *ta-llāhi* is an oath
+entailing astonishment — "you know very well that we did not come to work corruption in the land, and we are certainly not
+thieves," that is, we have never stolen anything. **[Saʿdī]** "They said, by God, you know that we did not come to work
+corruption in the earth" — by any kind of disobedience — "and we were not thieves": for theft is among the greatest kinds of
+corruption in the earth. And they only swore upon their knowledge that they were neither corrupters nor thieves because they
+knew that they had probed their states and found what indicated their chastity and their scrupulousness, and that this matter
+would not proceed from them, by the knowledge of those who accused them; and this is more effective in negating the suspicion
+than if they had said, "By God, we did not work corruption in the earth and we did not steal." **[Maʿārif]** *(the material
+for this verse is given at 12:72)*. **[Study Quran]** *(no separate note; the material is given at 12:72)*
+
+**Language.** The *tāʾ* of *ta-llāh* is a *wāw* converted to *tāʾ*, and **[Ṭabarī]** gives the full philology: the same
+conversion happens in *al-Tawrāh* (from *waraytu*), *al-turāth* (from *warithtu*) and *al-tukhmah* (from *al-wakhāmah*), but
+in those the *wāw* belongs to a noun, whereas here it is the *wāw* of the oath, converted only because of its frequency in
+*wa-llāh*; and the conversion is restricted to *ta-llāh* alone — one does not say *ta-l-Raḥmān* or *ta-l-Raḥīm* or anything
+with any other name of God or any other thing sworn by. **[Jalālayn]** notes the pragmatic force: it is an oath entailing
+astonishment (*qasam fīhi taʿajjub*). *Al-fasād fī al-arḍ* is glossed by al-Rabīʿ b. Anas as disobedience to God in the land
+**[Ṭabarī]**, and by **[Saʿdī]** as any kind of disobedience, with theft "among the greatest kinds."
+
+**Ḥadīth & āthār.** Two pieces of evidence are offered for the claim "you know": (1) they had returned the merchandise they
+found in their saddlebags, reasoning that thieves would not return what they found **[Ṭabarī] [Qurṭubī]**; (2) they had been
+known on the road not to wrong anyone or take what was not theirs **[Ṭabarī]**. **[Qurṭubī]** adds a detail found nowhere
+else: they used not to lodge with anyone wrongfully and not to graze anyoneʾs crop, and they put muzzles on the mouths of
+their camels so that they would not ravage peopleʾs crops.
+
+**Belief.** **[Saʿdī]** makes a subtle logical point about the form of the oath. They did not swear that they had not stolen —
+which would have been a claim about their own acts — but that *the accusers knew* they had not come to work corruption. He
+explains why that is stronger: they knew the Egyptians had probed their states and found evidence of their chastity and
+scrupulousness, so appealing to the accusersʾ own knowledge is "more effective in negating the suspicion than if they had
+said, *by God, we did not work corruption in the earth and we did not steal*." An oath about what the other party already
+knows cannot be met with a counter-claim; it invites confirmation.
+
+**Cross-references.** 12:62 (the returned merchandise, which is the evidence they cite); 12:70 (the accusation); 12:71 (the
+question); 12:74–75 (the challenge and the penalty); 12:77 ("a brother of his stole before"); 12:82 ("ask the town"); 2:60,
+5:33, 7:56, 7:74, 7:85, 28:77 ("do not work corruption in the earth").
+
+**Reflection.** The brothers are telling the truth, and the verse is constructed so that the reader knows it. **[Qurṭubī]**ʾs
+detail about the muzzled camels is the kind of thing the exegetical tradition preserves precisely because it makes an
+abstraction concrete: men who muzzle their camels to keep them off other peopleʾs crops do not steal a royal cup. And
+**[Saʿdī]**ʾs analysis of the oath explains the rhetorical strategy of an innocent person who cannot produce evidence — he
+appeals to what the accuser already knows. What gives the scene its weight is that the same men, twenty verses earlier,
+produced a bloodied shirt and a lie, and their father said, "rather, your souls have made a matter seem attractive to you"
+(12:18). The reformation the sūrah has been working toward since 12:64 is here for the first time visible from the outside:
+they are being falsely accused of exactly the crime of which they were once guilty in spirit, and they respond with an oath
+that is true.
+
+---
+
+
+## 12:74
+
+*"They said, ʿThen what is its penalty, if you are liars?ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsufʾs companions said to his brothers, "Then what is the reward of the thief, if you
+are liars in your saying, ʿwe did not come to work corruption in the earth and we were not thievesʾ?" *[the section
+continues into 12:75]* **[Qurṭubī]** "They said, then what is its penalty, if you are liars": the meaning is, what is the
+penalty of the doer, if your falsehood becomes apparent? And Yūsufʾs brothers answered, "its penalty is that he in whose
+saddlebag it is found — he is its penalty." *[the material for 12:74 and 12:75 is given together at 12:75]* **[Ibn Kathīr]**
+Yūsufʾs men said, "What then shall be the penalty of him," in reference to the thief, "if it came out that he is one of you,"
+"if you are (proved to be) liars?" They asked them, "What should be the thiefʾs punishment if he is one of you?" **[Jalālayn]**
+They — the crier and his men — said, "So what shall be his requital," that is, the thiefʾs, "if you prove to have been liars,"
+when you said "we are certainly not thieves," and if it is found among your belongings? **[Saʿdī]** "They said, then what is
+its penalty" — that is, the penalty of this act — "if you are liars": by its being with you. **[Maʿārif]** *(the material for
+this verse is given at 12:76)*. **[Study Quran]** *(no separate note; the material is given at 12:74–75)*
+
+**Language.** *Jazāʾ* is penalty, recompense, reward — here "the penalty of the thief," glossed by **[Ṭabarī]** as *thawāb
+al-saraq*, the recompense of the theft, with the note that *al-saraq* (with two *fatḥah*s) is the verbal noun of the thiefʾs
+act and is also used of the stolen thing itself, "and that is sound in Arabic and good, and the imams of the early jurists used
+to say so." The conditional *in kuntum kādhibīn* is glossed by **[Jalālayn]** with the second condition attached: "when you
+said ʿwe are certainly not thievesʾ, *and if it is found among your belongings*."
+
+**Belief.** The question is a procedural one and its importance is that it is asked by Yūsufʾs men and answered by the
+brothers. **[Qurṭubī]** gives the precise sense: not "what is the penalty of theft" but "what is the penalty of the doer, if
+your falsehood becomes apparent" — a hypothetical framed so that the answer will come from the accused. **[Study Quran]**
+attributes the question to the herald and notes that the answer determines everything that follows. This is the mechanism by
+which the penalty under which Binyāmīn will be detained is not imposed by the Egyptian court but volunteered by his own
+brothers, which is what makes 12:76 possible.
+
+**Cross-references.** 12:73 (the oath); 12:75 (the answer); 12:76 ("he could not have taken his brother under the kingʾs
+law"); 5:38 (the Qurʾānic penalty for theft, which abrogates this one); 12:79 (Yūsufʾs refusal to go beyond the stated
+penalty).
+
+**Reflection.** The genius of the scene lies in who asks what. The brothers have just sworn they are not thieves; the
+Egyptians do not contradict them. They ask instead for the brothersʾ own ruling — "what is its penalty, if you are liars?" —
+which is a question that cannot be refused without appearing to hedge, and whose answer will bind the answerer. **[Saʿdī]**
+notes the narrowing in the phrasing: *in kuntum kādhibīn*, "by its being with you" — the condition is not about guilt in
+general but about the cup turning up in their baggage. And when the brothers answer at 12:75 they answer according to their
+own law, a law under which the thief becomes the property of the victim. Nothing in the verse indicates that they suspect a
+trap; they are, as **[Qurṭubī]** will say, speaking as men who do not suspect themselves.
+
+---
+
+## 12:75
+
+*"They said, ʿIts penalty is that he in whose saddlebag it is found — he is its penalty. Thus do we recompense the
+wrongdoers.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsufʾs brothers said, "the recompense of the theft is that he in whose goods the theft
+is found — he is its penalty": that is, the one in whose saddlebag that is found, his penalty is that he be handed over by his
+theft to the one he stole from, until he enslaves him. "Thus do we recompense the wrongdoers": thus do We do to whoever wrongs
+and does what it is not his to do, of taking the wealth of another by theft. And the interpreters said the like: Ibn Isḥāq
+said of "he is its penalty": he is handed over by it; "thus do we recompense the wrongdoers": thus do we do to whoever stole
+from us. And it reached Maʿmar: they informed Yūsuf of what is ruled in their lands, that whoever steals is taken as a slave,
+so they said, "its penalty is that he in whose saddlebag it is found — he is its penalty." *[the section continues]*
+**[Qurṭubī]** And Yūsufʾs brothers answered, "its penalty is that he in whose saddlebag it is found — he is its penalty":
+that is, he is enslaved and made a slave. *Fa-jazāʾuhū* is the subject and *man wujida fī raḥlihi* its predicate, and the
+estimation is: its penalty is the enslaving of the one in whose saddlebag it is found — so *huwa* is a pronoun for the
+enslaving, and in the sentence is the meaning of emphasis, as you say, "the penalty of whoever steals is amputation — this is
+his penalty." "Thus do we recompense the wrongdoers": that is, thus do we do to wrongdoers when they steal, that they be
+enslaved; and this was of the religion of Yaʿqūb and his ruling. And their saying this is the saying of one who does not
+suspect himself, because they undertook the enslaving of the one in whose saddlebag it is found; and the ruling for the thief
+among the people of Egypt was that he pay double what he took — said al-Ḥasan, al-Suddī and others. ***Masʾalah***: it has
+preceded in Sūrat al-Māʾidah that amputation for theft abrogates what preceded of the laws, or what was in the law of
+Yaʿqūb of the enslaving of the thief, and God knows best. **[Ibn Kathīr]** "They said: his penalty should be that he, in whose
+bag it is found, should be held for the punishment (of the crime). Thus we punish the wrongdoers!" This was the law of the
+prophet Ibrāhīm, that the thief be given as a slave to the victim of theft. This is what Yūsuf wanted, and this is why he
+started with their bags first before his brotherʾs bag, to perfect the plot. **[Jalālayn]** They said, "His requital" — *qālū
+jazāʾuhū*, the subject, the predicate of which is the following, "the man in whose saddlebag it is found shall be the
+requital of him," in whose saddlebag it is found, that he be enslaved — this is then reiterated by His words, "He," the
+thief, "shall be the requital for it," that is, for the stolen item and nothing else; this was the customary practice of the
+family of Jacob. "Thus with such a requital do we requite those who do evil," through theft. They thus permitted Joseph to
+have their saddlebags searched. **[Saʿdī]** "They said, its penalty is that he in whose saddlebag it is found — he," that is,
+the one found in his saddlebag, "is its penalty": by the owner of the theft taking possession of him; and this was in their
+religion — that the thief, when theft was established against him, became the property of the owner of the stolen wealth. That
+is why they said, "thus do we recompense the wrongdoers." **[Maʿārif]** *(the material for this verse is given at 12:76)*.
+**[Study Quran]** The brothersʾ response, "he himself shall be its recompense," means that whoever is the one in whose bag the
+kingʾs goblet is found will be punished for his crime by being given over by the brothers to Joseph and his entourage. It is
+said that this was the brothersʾ custom when dealing with thieves, namely, to give the thief over to the one from whom he had
+stolen, just as the latterʾs property had been taken over by the thief. The brothers then let Joseph search their bags.
+
+**Language.** The syntax of *jazāʾuhu man wujida fī raḥlihi fa-huwa jazāʾuhū* is analysed precisely by **[Qurṭubī]**:
+*fa-jazāʾuhū* is the subject, *man wujida fī raḥlihi* is the predicate, and the estimation is "its penalty is *the enslaving
+of* the one in whose saddlebag it is found," so the following *huwa* is a pronoun standing for the enslaving; and in the
+sentence is the meaning of emphasis, as when you say "the penalty of whoever steals is amputation — this is his penalty."
+**[Jalālayn]** gives the same analysis in shorter form and adds that the repetition restricts the penalty to the stolen item
+"and nothing else." *Saraq* is the verbal noun of the thiefʾs act and is also used of the stolen thing **[Ṭabarī]**; the
+penalty is *an yusallama bi-sarqatihi ilā man saraqa minhu ḥattā yastariqqahu*, that he be handed over by his theft to the one
+he stole from until he enslaves him **[Ṭabarī]**.
+
+**Rulings.** **[Qurṭubī]** states the comparative law and the abrogation: the ruling for the thief among the people of Egypt
+was that he pay double what he took, per al-Ḥasan, al-Suddī and others; while enslavement was the religion of Yaʿqūb and his
+ruling. And the *masʾalah*: it has preceded in Sūrat al-Māʾidah that amputation for theft (5:38) abrogates what preceded of
+the earlier laws, or what was in the law of Yaʿqūb of the enslaving of the thief. **[Ibn Kathīr]** attributes the rule not to
+Yaʿqūb but to "the law of the prophet Ibrāhīm," that the thief be given as a slave to the victim of theft — the same rule
+traced further back. **[Jalālayn]** calls it "the customary practice of the family of Jacob."
+
+**Belief.** **[Qurṭubī]**ʾs remark that "their saying this is the saying of one who does not suspect himself" (*qawl man lam
+yastarib nafsahū*) is the key to the whole scene, because it explains why the brothers could volunteer a penalty that would
+destroy them. They undertook the enslaving of the one in whose saddlebag it is found with complete confidence. **[Study
+Quran]** makes the logic explicit: the thief is given over to the one from whom he stole, "just as the latterʾs property had
+been taken over by the thief" — a lex talionis of possession rather than of body. And **[Ibn Kathīr]** states the
+consequence plainly: this is what Yūsuf wanted, and this is why he started with their bags first, to perfect the plot.
+
+**Cross-references.** 12:74 (the question); 12:76 (the search and the discovery); 5:38 (the abrogating penalty); 12:79 (Yūsuf
+bound by their own ruling); 12:80–82 (the crisis it produces); 12:8 (their original counsel).
+
+**Reflection.** The brothers answer a hypothetical about themselves with a ruling that will cost them their youngest brother,
+and **[Qurṭubī]** identifies exactly why: it is the saying of one who does not suspect himself. There is no hesitation in the
+verse, no hedging, no "let the penalty be X" — instead a general principle, "thus do we recompense the wrongdoers," stated as
+though it were a matter of law rather than of convenience. And it was law: **[Ibn Kathīr]** traces it to Ibrāhīm, **[Qurṭubī]**
+and **[Jalālayn]** to Yaʿqūbʾs religion and household. What the tradition then adds is the abrogation note, which is not a
+digression but a necessary safeguard: the reader is being told that a law under which a thief becomes a slave was valid for
+that household at that time and is not valid now, since 5:38 replaced it with amputation. Without that note the verse could be
+read as an endorsement of enslaving debtors; with it, it is a record of a particular *sharīʿah* operating inside a narrative
+whose outcome depends on it.
+
+---
+
+
+## 12:76
+
+*"So he began with their vessels before his brotherʾs vessel, then he brought it out of his brotherʾs vessel. Thus did We
+contrive for Yūsuf; he could not have taken his brother under the kingʾs religion, except that God should will. We raise in
+degrees whom We will, and above every possessor of knowledge is a Knower."*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsuf searched their vessels and their saddlebags, seeking thereby the kingʾs
+drinking-cup; and he began in his searching with the vessels of his brothers by his father, searching them vessel by vessel
+before the vessel of his brother by his father and his mother, for he delayed the searching of his; then he searched the last
+of them, the vessel of his brother, and brought the cup out of his brotherʾs vessel. And the interpreters said the like:
+Qatādah said of "so he began with their vessels before his brotherʾs vessel": it was related to us that he did not look into a
+vessel without asking Godʾs forgiveness, out of scruple for what he had cast them into, until his brother was left, and he was
+the youngest of the people; he said, "I do not think this one took anything!" They said, "Yes indeed — so clear him!" while
+they knew where they had put their drinking-cup. And Qatādah said: whenever he opened a bag he asked forgiveness, repenting of
+what he had done, until he reached the boyʾs bag, and said, "I do not think this one took anything!" They said, "Yes indeed —
+clear him!" And al-Suddī said: when the boyʾs saddlebag was left he said, "This boy would not have taken it!" They said, "By
+God, he shall not be left until you look in his saddlebag, so that we may go away and your soul be at ease." So he put in his
+hand and brought it out of his saddlebag. And Ibn Isḥāq said: when the messenger said to them, "and whoever brings it shall
+have a camel-load, and I am a guarantor for it," they said, "We know it is not among us nor with us." He said, "You shall not
+depart until I search your goods and exhaust myself in seeking it from you!" So he began with their vessels, vessel by vessel,
+searching them and looking at what was in them, until he passed to his brotherʾs vessel and searched it and brought it out of
+it, and seized him by the neck and turned back with him to Yūsuf. And Ibn Jurayj said: it was related to us that whenever he
+searched the goods of a man of them he asked forgiveness of his Lord, out of scruple, knowing where the thing he was seeking
+was; until when his brother was left, and he knew that what he sought was with him, he said, "I do not see that this boy took
+it, and I do not mind not searching his goods!" His brothers said, "It is better for your soul and our souls that you clear his
+goods too." So when he opened his goods he brought his sought thing out of it. And the people of Arabic differed about the *hāʾ*
+and the alif in "then he brought *it* out of his brotherʾs vessel." Some of the grammarians of Baṣrah said: it refers to the
+*ṣuwāʿ*; he made it feminine though he had said "and whoever brings *it* shall have a camel-load," because he meant the *ṣuwāʿ*;
+and the *ṣuwāʿ* is masculine, and some of them make the *ṣuwāʿ* feminine, and here he meant the *siqāyah*, which is feminine;
+and they are two names for one thing, like *thawb* and *milḥafah*, masculine and feminine for one thing. And some of the
+grammarians of Kūfah said: he went to the femininity of *the theft*; and if the *ṣuwāʿ* is in the meaning of the *ṣāʿ*, then
+perhaps the femininity is from that — and the *ṣuwāʿ* is masculine while the *ṣāʿ* is made feminine and masculine: whoever
+makes it feminine says *thalāthu aṣwuʿ*, like *thalāthu adwūr*, and whoever makes it masculine says *aṣwāʿ*, like *abwāb*. And
+another of them said: he made the *ṣuwāʿ* feminine when he made it feminine because the *siqāyah* was meant, and made it
+masculine when he made it masculine because the *ṣuwāʿ* was meant; and that is like *khiwān* and *māʾidah*, and the *sinān* of
+the spear and its *ʿāliyah*, and the like of the thing in which two names meet, one masculine and the other feminine. "Thus did
+We contrive for Yūsuf": thus did We make for Yūsuf, so that he might extract his brother by his father and mother from his
+brothers by his father, by an acknowledgement from them that he had the right to take him from them and detain him in his hands
+and come between him and them. And that was because they said, when it was said to them, "what is its penalty if you are
+liars": the penalty of whoever stole the cup is that he in whose saddlebag it is found is enslaved by it — and that was their
+ruling in their religion. So God contrived for Yūsuf as He described to us, until he took his brother from them, and he became
+with him by their ruling and by Godʾs making for him. "He could not have taken his brother under the kingʾs religion": Yūsuf
+could not have taken his brother under the ruling of the king of Egypt, his judgement and his obedience, from them, because it
+was not of that kingʾs ruling and judgement that anyone be enslaved for theft; so Yūsuf could not take his brother under the
+ruling of the king of his land, except that God should will, by His contrivance which He contrived for him, until his brothers
+and companions surrendered the one in whose vessel the cup was found by their ruling upon him, and their souls were content
+with the surrender. And the interpreters said the like: Mujāhid said, except an act that God contrived for him, by which Yūsuf
+found a pretext. And they differed about the interpretation of "under the kingʾs religion": some said, under the kingʾs
+authority — Ibn ʿAbbās and al-Ḍaḥḥāk; others said, in his ruling and judgement — Qatādah said, it was not in the kingʾs
+judgement that a man be enslaved for theft; and al-Suddī said, in the kingʾs ruling; and Ibn Zayd said, it is not in the
+kingʾs religion that the thief be taken for his theft, and the ruling among the prophets — Yaʿqūb and his sons — was that the
+thief be taken for his theft as a slave to be enslaved; and Muḥammad b. Kaʿb al-Quraẓī said, the kingʾs religion does not
+take the thief at all, but God contrived for his brother until they said what they said, so He took them by their saying, and it
+was not in the kingʾs judgement; and it reached Maʿmar that the kingʾs ruling was that whoever stole had the fine doubled upon
+him. And Abū Jaʿfar said: these sayings, though the words of their speakers differ concerning the meaning of "the kingʾs
+religion," are close in meaning, because whoever takes him under the kingʾs authority deals with him by its dealing, and so he
+takes him by his consent and not otherwise; and that is a ruling upon him by it, and its ruling upon him is His decree. And the
+root of *dīn* is obedience. "Except that God should will": al-Suddī said, but We made for him, in that they said, "he is its
+penalty"; and Mujāhid said, except by a pretext that God contrived, by which Yūsuf found excuse. "We raise in degrees whom We
+will": the reciters differed. Some read *narfaʿu darajāti man nashāʾ*, adding the *darajāt* to *man*, in the sense of: We
+raise the stations of whom We will to raise the stations and ranks of, in the world, in knowledge above others, as We raised
+Yūsufʾs rank and station in the world above his brothersʾ stations and ranks. And others read *narfaʿu darajātin man nashāʾ*,
+with the *darajāt* nunated, in the sense of: We raise whom We will in ranks and degrees in knowledge above others, as We raised
+Yūsuf; so *man* on this reading is accusative, and on the first reading genitive. And Ibn Jurayj said: Yūsuf and his brothers
+were given knowledge, and We raised Yūsuf above them in knowledge. "And above every possessor of knowledge is a Knower": above
+every knower is one more knowing than he, until that ends with God; and He meant thereby that Yūsuf is the most knowing of his
+brothers, and that above Yūsuf is one more knowing than Yūsuf, until that ends with God. And the interpreters said the like:
+Saʿīd b. Jubayr said, we were with Ibn ʿAbbās and he related a ḥadīth, and a man with him marvelled and said, "Praise be to
+God — above every possessor of knowledge is a Knower!" And Ibn ʿAbbās said, "What a bad thing you have said! God is the
+Knower, and He is above every knower." And from ʿIkrimah from Ibn ʿAbbās: this one is more knowing than this one, and this one
+more knowing than this one, and God is above every knower. And Abū Maʿshar, from Muḥammad b. Kaʿb: a man asked ʿAlī about a
+question and he gave an opinion on it, and the man said, "Not so, but rather such-and-such." ʿAlī said, "You are right and I am
+wrong — above every possessor of knowledge is a Knower." And al-Ḥasan said: there is no knower but above him is a knower, until
+knowledge ends with God; and al-Ḥasan said, having read the verse one day and then paused: by God, there is not a knower upon
+the face of the earth in the evening but above him is one more knowing than he, until knowledge returns to the One who taught
+it. And Qatādah said: until knowledge ends with God — from Him it began, and from Him the scholars learned, and to Him it
+returns. And in the reading of ʿAbdullāh (Ibn Masʿūd): *wa-fawqa kulli ʿālimin ʿalīm*. And Abū Jaʿfar said: if someone says
+to us, how was it permissible for Yūsuf to put the drinking-cup into his brotherʾs saddlebag and then attribute theft to an
+innocent people and say, "O caravan, you are thieves"? — it is said: His words "O caravan, you are thieves" are only a report
+from God about a crier who called it, not a report about Yūsuf. And it is possible that the crier called it when the cup was
+missing, not knowing of Yūsufʾs doing. And it is possible that the crier called it by Yūsufʾs command, and that he permitted
+commanding the call with it because of his knowledge of them that they had committed a theft in some circumstance, so he
+commanded the crier to call them with the description of theft, and Yūsuf meant *that* theft, not their theft of the cup. And
+some of the interpreters have said that that was a mistake on Yūsufʾs part, and God punished him for it by the peopleʾs answer
+to him, "if he steals, a brother of his stole before," and we have mentioned the transmission of that already. *[Isrāʾīliyyāt]*
+**[Qurṭubī]** "So he began with their vessels before his brotherʾs vessel": Yūsuf only began with their saddlebags to remove
+suspicion and doubt from their hearts, had he begun with his brotherʾs vessel. And *wiʿāʾ* is said with a *ḍammah* and a
+*kasrah* on the *wāw*, two dialects, and it is that in which goods are kept and preserved. "Then he brought it out of his
+brotherʾs vessel": meaning Binyāmīn — that is, he brought out the *siqāyah* or the *ṣuwāʿ*, according to whoever makes it
+feminine; and He said "and whoever brings *it* shall have" with the masculine, so when his brothers saw that they lowered their
+heads and suspected every suspicion, and turned on him and said, "Woe to you, Binyāmīn! We have never seen anything like today.
+Your mother Rāḥīl gave birth to two thievish brothers!" Their brother said to them, "By God, I did not steal it, and I have no
+knowledge of who put it in my goods." And it is related that they said to him, "Binyāmīn, did you steal?" He said, "No, by
+God." They said, "Then who put the cup in your saddlebag?" He said, "The one who put the merchandise in your saddlebags." And
+it is said that the searcher, whenever he finished with a saddlebag, asked Godʾs forgiveness, repenting of that act of his; and
+the apparent sense of Qatādahʾs words and othersʾ is that the one asking forgiveness was Yūsuf, because he was searching them
+and knew where the cup was, until he finished with them and came to Binyāmīnʾs saddlebag and said, "I do not think this young
+man was content with this or took anything." His brothers said to him, "By God, we shall not depart until you search him — it is
+better for your soul and our souls." So he searched and brought out the drinking-cup. And this searching by Yūsuf entails that
+the crier attributed theft to them on his own judgement; so it is said that all of that was a command from God Most High, and
+what strengthens that is His words "thus did We contrive for Yūsuf." "Thus did We contrive for Yūsuf": in it are three
+*masāʾil*. **The first**: *kidnā* means "We made" (*ṣanaʿnā*), from Ibn ʿAbbās; al-Qutabī said, "We arranged"; Ibn al-Anbārī
+said, "We intended," as the poet said: "She intended and I intended, and that was the best of intentions, if what has passed of
+the days of youth were to return." And in it is the permissibility of arriving at objectives through devices (*ḥiyal*) when they
+do not contradict the *sharīʿah* and do not demolish a foundation — contrary to Abū Ḥanīfah in his permitting devices even
+when they contradict the foundations and break the analysis. **The second**: the scholars have agreed that a man may, before the
+year is up, dispose of his wealth by sale and gift if he does not intend to flee from the alms-tax; and they have agreed that
+when the year has come round and the collector looms, it is not lawful for him to use a device or to diminish, nor to separate
+what is combined nor to combine what is separate. And Mālik said: if he disposes of something of his wealth intending by it to
+flee from zakāt, a month or so before the year, zakāt is binding on him at the year, taking him by his saying ﷺ "for fear of
+the alms." And Abū Ḥanīfah said: if he intends by its separation to flee from zakāt a day before the year, it does not harm
+him, because zakāt is not binding except by the completion of the year, and the meaning of his saying "for fear of the alms"
+does not apply to him except then. Ibn al-ʿArabī said: I heard Abū Bakr Muḥammad b. al-Walīd al-Fihrī and others say: our
+shaykh, the judge of judges Abū ʿAbdillāh Muḥammad b. ʿAlī al-Dāmaghānī, was the owner of tens of thousands of dinars of
+wealth; and when the head of the year came he would call his sons and say to them, "My age has grown great and my strength has
+weakened, and this is wealth I do not need — so it is yours." Then he would bring it out and men would carry it on their necks
+to his sonsʾ houses; and when the head of the year came and he called his sons for something, they would say, "O our father, we
+only hoped for your life; as for the wealth, what desire have we in it while you are alive? You and your wealth are ours — so
+take it to yourself." And the men would walk with it until they set it before him, and he would return it to its place,
+intending by the change of ownership to drop the zakāt, on Abū Ḥanīfahʾs opinion about separating what is combined and
+combining what is separate. And this is a grave matter, and al-Bukhārī composed in his *Jāmiʿ* a book on purpose, saying,
+"The Book of Devices" (*Kitāb al-Ḥiyal*). I say: and he made in it chapters, among them "The chapter on zakāt, and that what is
+combined is not to be separated nor what separate combined, for fear of the alms," and he brought into it the ḥadīth of Anas b.
+Mālik, that Abū Bakr wrote for him the obligation of the alms, and the ḥadīth of Ṭalḥah b. ʿUbaydillāh that a bedouin came to
+the Messenger of God ﷺ with dishevelled hair … and at its end, "he succeeds if he is truthful," or "he enters the Garden if he
+is truthful." And some people said: in one hundred and twenty camels there are two *ḥiqqah*s; and if he destroys them
+deliberately, or gives them away, or uses a device with them to flee from zakāt, nothing is upon him. Then he followed it with
+the ḥadīth of Abū Hurayrah that the Messenger of God ﷺ said, "The treasure of one of you will be, on the Day of Resurrection, a
+bald serpent with two black marks, saying, ʿI am your treasureʾ" — the ḥadīth. Al-Muhallab said: al-Bukhārī only intended in
+this chapter to inform you that the sin of every device by which anyone seeks to drop zakāt is upon him, because when the Prophet
+ﷺ forbade combining the sheep and separating them for fear of the alms, this meaning was understood from it; and it was
+understood from his saying "he succeeds if he is truthful" that whoever seeks to undo anything of Godʾs obligations by a device
+he contrives does not succeed, and his excuse does not stand before God. And what the jurists have permitted of the owner of
+wealthʾs disposing of his wealth near the coming round of the year is only what he does not intend by it to escape from zakāt;
+and whoever intends that, the sin does not fall from him, and God is his reckoner. And he is like one who flees from the fast of
+Ramaḍān a day before sighting the crescent and undertakes a journey he does not need, out of aversion to the obligation God
+has written upon the believers — so the threat is directed at him. Do you not see the punishment of whoever withholds zakāt on
+the Day of Resurrection, deliberately, in whatever manner he withholds it — how the camels trample him, and his wealth is
+represented to him as a bald serpent!? And this indicates that fleeing from zakāt is not lawful, and he is demanded for it in the
+hereafter. **The third *masʾalah***: Ibn al-ʿArabī said: some of the scholars of the Shāfiʿī school said concerning His words
+"thus did We contrive for Yūsuf; he could not have taken his brother" that it is a proof for the face of a device toward the
+permissible and for extracting rights — and this is a great error. And His words "and thus We established Yūsuf in the land":
+it was said of it, as We established for Yūsuf the mastery of himself against the wife of the ʿAzīz, We established for him the
+mastery of the land against the ʿAzīz, or the like of it, which does not resemble what he mentioned. Al-Shafiʿī said: and the
+like of it is His words "and take in your hand a bundle of grass and strike with it, and do not break your oath" (38:44) — and
+this is not a device; it is only a carrying of the oath upon the words or upon the intentions. Al-Shafiʿī said: and the like of
+it is the ḥadīth of Abū Saʿīd al-Khudrī concerning the agent of Khaybar, that he brought the Prophet ﷺ choice dates — the
+ḥadīth. And the purpose of the Shāfiʿīs in this ḥadīth is that he ﷺ commanded him to sell mixed dates and buy choice dates
+from the one who sold him the mixed dates, or from someone else. And the Mālikīs said: its meaning is *from someone else*, so
+that it would not be choice dates for mixed dates with dirhams in between, which is usury — as Ibn ʿAbbās said, "a grave sin
+with a grave sin, and the dirhams are usury." "Under the kingʾs religion": that is, his authority, from Ibn ʿAbbās; Ibn ʿĪsā
+said, his customs — that is, he would be wronged without proof; Mujāhid said, in his ruling, which is the enslaving of thieves.
+"Except that God should will": that is, except that God should will to make the drinking-cup in his saddlebag a pretext and an
+excuse for him. And Qatādah said: rather, the kingʾs ruling was beating and a double fine, but God willed to make the ruling of
+the Banū Isrāʾīl run upon their tongues, as has preceded. "We raise in degrees whom We will": that is, in knowledge and faith;
+and it is read *narfaʿu darajātin man nashāʾ* in the sense of *narfaʿu man nashāʾu darajāt*, and it has preceded in Sūrat
+al-Anʿām. "And above every possessor of knowledge is a Knower": Isrāʾīl narrated from Simāk from ʿIkrimah from Ibn ʿAbbās: this
+one is more knowing than this one and this one more knowing than this one, and God is above every knower. And Sufyān narrated
+from ʿAbd al-Aʿlā from Saʿīd b. Jubayr: we were with Ibn ʿAbbās and he related a ḥadīth, and a man marvelled at it and said,
+"Glory be to God — above every possessor of knowledge is a Knower!" And Ibn ʿAbbās said, "What a bad thing you have said! God is
+the Knower, and He is above every knower." **[Ibn Kathīr]** Therefore Yūsuf took Binyāmīn as a slave according to their
+judgement and the law which they believed in. So God said, "Thus did We plan for Yūsuf" — and this is a good plot that God likes
+and prefers, because it seeks a certain benefit using wisdom and the benefit of all. God said next, "He could not take his
+brother by the law of the king," as a captive, for this was not the law of the king of Egypt, according to al-Ḍaḥḥāk and several
+other scholars. God only allowed Yūsuf to take his brother as a captive after his brothers agreed to this judgement beforehand,
+and he knew that this was their law. This is why God praised him when He said, "We raise to degrees whom We will," just as He
+said in another verse, "God will exalt in degree those of you who believe" (58:11). God said next, "and over all those endowed
+with knowledge is the All-Knowing." Al-Ḥasan commented, "There is no knowledgeable person, but there is another person with more
+knowledge, until it ends at God the Exalted and Most Honoured." In addition, ʿAbd al-Razzāq recorded that Saʿīd b. Jubayr said,
+"We were with Ibn ʿAbbās when he narrated an amazing ḥadīth. A man in the audience said, ʿAll praise is to God! There is an
+all-knowing above every person endowed with knowledge.ʾ Ibn ʿAbbās responded, ʿWorse it is that which you said! God is the
+All-Knowing and His knowledge is above the knowledge of every knowledgeable person.ʾ" Simāk narrated that ʿIkrimah said that Ibn
+ʿAbbās said about Godʾs statement "but over all those endowed with knowledge is the All-Knowing": "This person has more knowledge
+than that person, and God is above all knowledgeable persons." Qatādah said, "Over every person endowed with knowledge is a more
+knowledgeable person, until all knowledge ends with God. Verily, knowledge started from God, and from Him the scholars learn, and
+to Him all knowledge returns." ʿAbdullāh b. Masʿūd read the verse this way: "And above every scholar is the All-Knower."
+**[Jalālayn]** And so he began with their sacks and searched them before his brotherʾs sack, lest he be accused of the theft;
+then he pulled it, the drinking-cup, out of his brotherʾs sack. God, exalted be He, says: "Thus through such contrivance did We
+contrive for Joseph," thus We taught him how to devise a plot to take his brother; he, Joseph, "could not have taken his brother
+as a slave on account of theft according to the kingʾs law," according to the laws of the king of Egypt — since a thiefʾs
+requital according to his law would have been a beating and a penalty of twice the value of the stolen item, but not enslavement
+— "unless God willed" for him to be taken according to the law of his father Jacob; in other words, he was only able to take him
+with Godʾs will, by Godʾs inspiring him to ask his brothers about the nature of requital and their responding according to what
+is decreed by their customary practice. "We raise by degrees whom We will" — read with a genitive annexation, *darajāti man
+nashāʾ*, or simply with nunation, *darajātin man nashāʾ* — in terms of knowledge, as We did with Joseph; "and above every man of
+knowledge from among creatures is one who knows better," better than him, and so on, until it ends with God, exalted be He.
+**[Saʿdī]** So the searcher began with their vessels before the vessel of his brother, and that was so that the suspicion that
+it had been done deliberately would be removed. And when he found nothing in their vessels, he brought it out of his brotherʾs
+vessel — and He did not say, "he found it," or "his brother stole it," out of regard for the actual fact. And at that, what
+Yūsuf wanted was completed, of his brotherʾs remaining with him, in a manner his brothers did not perceive. God Most High said,
+"Thus did We contrive for Yūsuf": that is, We facilitated for him this contrivance, by which he arrived at an end that is not
+blameworthy. "He could not have taken his brother under the kingʾs religion": because it is not of his religion that the thief be
+taken as property; rather they have another penalty for him. So if the judgement had been referred to the kingʾs religion, Yūsuf
+would not have been able to keep his brother with him; but he made the ruling come from them, so that what he wanted would be
+completed for him. God Most High said, "We raise in degrees whom We will": by beneficial knowledge and knowledge of the paths
+leading to its objective, as We raised Yūsufʾs degrees. "And above every possessor of knowledge is a Knower": so above every
+knower is one more knowing than he, until knowledge ends with the Knower of the unseen and the witnessed. **[Maʿārif]** Said in
+verse 75 was *fa-badaʾa bi-awʿiyatihim*, that is, to cover up the real plan, the state officials first searched through the
+baggage of all brothers. They did not open Benyāmīnʾs baggage first, lest that cause any doubts. Then, as said in the first
+sentence of the next verse, *thumma istakhrajahā min wiʿāʾi akhīhi*, Benyāmīnʾs baggage was opened up last of all and
+recovered from it was the "bowl of the king." At that sight all brothers were put to shame. They started chiding Benyāmīn for
+having disgraced them. After that it was said, *kadhalika kidnā li-Yūsuf …*: "this is how We planned for Yūsuf." He could not
+have arrested his brother under the Egyptian imperial law, because according to their law of theft there was a corporal
+punishment for the thief, after which he was to be released against the payment of twice the cost of the stolen property. But
+here he had already found out the law of theft operative in the *sharīʿah* of Sayyidna Yaʿqūb. According to this law, detaining
+Benyāmīn with him became correct and valid. So also granted, through the wisdom and will of God, was this wish of Sayyidna
+Yūsuf. Said in the last sentence of the verse is *narfaʿu darajāt man nashāʾ wa-fawqa kulli dhī ʿilmin ʿalīm*: "We elevate in
+ranks whom so We will (as, in this event, the ranks of Sayyidna Yūsuf were elevated over his brothers). And above every man who
+has knowledge, there is someone more knowledgeable." It means that God has given precedence to some over others in terms of
+knowledge. Take the highest of the high in knowledge — there is someone more knowledgeable than him. And if there is someone with
+a knowledge superior to the knowledge of the best among the creation of God, then we have the knowledge of God, which is the
+highest of all forever. **[Study Quran]** "Thus did We devise a scheme for Joseph" indicates that the plan to place the cup in
+Benjaminʾs bag was based on Divine Revelation (*waḥy*), because the ultimate goal of the plot was for God to show His
+Solicitude to Josephʾs brothers. Some commentators say that the kingʾs rules for theft were that if someone was caught stealing,
+the person would be physically beaten for the crime and then charged double the worth of the item that had been stolen. Thus,
+"under the kingʾs law, Joseph could not have taken his brother unless God willed": if Joseph had followed the kingʾs law, which
+would have been the normal course of action, he would not have been able to keep Benjamin, who would have been free to go back
+with his brothers after the kingʾs stipulated punishment. Instead, God willed that the brothers would themselves put forward the
+punishment for theft according to their own custom (see 12:74–75), because of which Josephʾs plan was carried out. For "We raise
+in degrees whomsoever We will," see 6:83; see also 40:15, where God is referred to as the Raiser of degrees. In the present
+context, "above every possessor of knowledge is a knower" means that, although Josephʾs brothers were learned and possessed of
+knowledge, Joseph had more knowledge than they, and that all knowledge ends with God, who is referred to as the Knower throughout
+the Qurʾān. This verse also has a more universal import and is often cited in a more general context by Muslim writers: it points
+to the hierarchy of knowledge and the fact that no matter how much knowledge a human being gains, there is always a higher degree
+of knowledge, the highest of which is Godʾs Knowledge.
+
+**Language & readings.** *Wiʿāʾ* is said with a *ḍammah* and a *kasrah* on the *wāw*, and is that in which goods are kept and
+preserved **[Qurṭubī]**. The feminine pronoun in *istakhrajahā* is explained three ways by the grammarians **[Ṭabarī]**: it
+refers to *ṣuwāʿ*, which is masculine but is also made feminine — the two being names for one thing, like *thawb* and
+*milḥafah*; or it refers to *the theft* (*al-sariqah*); or it refers to the *siqāyah* when feminine and the *ṣuwāʿ* when
+masculine, like *khiwān*/*māʾidah* and the *sinān*/*ʿāliyah* of a spear. The *ṣāʿ* is masculine and feminine: feminine gives
+*thalāthu aṣwuʿ* (like *thalāthu adwūr*), masculine gives *aṣwāʿ* (like *abwāb*). On *narfaʿu darajāti/darajātin man nashāʾ*:
+with the addition, *man* is genitive and the sense is "We raise the stations of whom We will"; with the nunation, *man* is
+accusative and the sense is "We raise whom We will in ranks and degrees" **[Ṭabarī]**; **[Jalālayn]** records both. In Ibn
+Masʿūdʾs codex the last clause reads *wa-fawqa kulli ʿālimin ʿalīm*, "and above every scholar is the All-Knower" **[Ṭabarī]
+[Ibn Kathīr]**. *Dīn* has as its root *obedience* **[Ṭabarī]**, and is glossed here as authority (*sulṭān*, Ibn ʿAbbās,
+al-Ḍaḥḥāk), customs (*ʿādāt*, Ibn ʿĪsā — "that is, he would be wronged without proof"), and ruling (*ḥukm*, Mujāhid, Qatādah,
+al-Suddī) **[Qurṭubī] [Ṭabarī]**. *Kidnā* means "We made" (*ṣanaʿnā*, Ibn ʿAbbās), "We arranged" (al-Qutabī), or "We
+intended" (Ibn al-Anbārī) **[Qurṭubī]**; al-Suddī and al-Ḍaḥḥāk also give *ṣanaʿnā* **[Ṭabarī]**. *Fa-bdaʾu* — **[Saʿdī]**
+notes a stylistic point of the first rank: the verse says "he brought it out," not "he found it" or "his brother stole it,"
+*out of regard for the actual fact*.
+
+**Rulings.** **[Qurṭubī]**ʾs first *masʾalah* is the classical proof-text on legal devices: "and in it is the permissibility of
+arriving at objectives through devices (*ḥiyal*) when they do not contradict the *sharīʿah* and do not demolish a foundation —
+contrary to Abū Ḥanīfah in his permitting devices even when they contradict the foundations and break the analysis." The second
+*masʾalah* is the zakāt-evasion casuistry: consensus that disposal before the year is lawful if not intended as flight from
+zakāt, and consensus that once the year has come round and the collector looms, devices, diminution, separating the combined and
+combining the separate are all unlawful; Mālik holds that disposal a month before the year with the intention of flight still
+incurs zakāt, per "for fear of the alms"; Abū Ḥanīfah holds that a day before the year does not harm, since zakāt is not binding
+until the year completes. Ibn al-ʿArabīʾs report of the judge of judges al-Dāmaghānī — who every year transferred his tens of
+thousands of dinars to his sons, and every year received it back, in order to drop the zakāt on Abū Ḥanīfahʾs opinion — is
+called "a grave matter," and al-Bukhārīʾs *Kitāb al-Ḥiyal* is cited against it, with al-Muhallabʾs explanation: whoever seeks to
+undo anything of Godʾs obligations by a device does not succeed, and his excuse does not stand before God; and he is like one who
+undertakes an unnecessary journey a day before Ramaḍān to escape the fast. The third *masʾalah* records Ibn al-ʿArabīʾs rebuttal
+of the Shāfiʿī jurists who read *kadhnā kidnā li-Yūsuf* as a general licence for devices toward the permissible and for
+extracting rights: "and this is a great error"; and 38:44 is likewise not a device but a carrying of the oath upon its words or
+intentions, while the Khaybar-dates ḥadīth is read by the Mālikīs as requiring purchase *from someone else*, so that choice dates
+are not exchanged for mixed dates with dirhams in between, which is usury. **[Maʿārif]** states the same permission in a single
+numbered ruling: the sentence "this is how We planned for Yūsuf" tells us that it is permissible, for a valid reason recognised
+by the *sharīʿah*, to change the form of a transaction in a way that brings a change in its legal status — what the jurists call
+*ḥīlah sharʿiyyah*, a lawful device to avoid a real hardship. However, the condition is that such an action should not cause the
+invalidation of the injunctions of the *sharīʿah*; if it does, all such devices are by consensus *ḥarām* — for example, finding an
+excuse to avoid paying zakāt, or embarking on an unnecessary journey before or during Ramaḍān simply to seek an excuse for not
+fasting; this is universally *ḥarām*. The hunt for such excuses and devices has brought divine punishment on some nations, and the
+Prophet ﷺ has prohibited the use of such stratagems; the entire Muslim community agrees that they are forbidden. Acting upon them
+does not make what is done permissible; what falls on the doer is a twofold sin — first, that of the original impermissible act;
+second, that of the impermissible device, which amounts in a way to cheating God and His Messenger. That all such devices are
+impermissible has been proved by Imām al-Bukhārī in his *Kitāb al-Ḥiyal*.
+
+**Ḥadīth & āthār.** The report that Yūsuf asked Godʾs forgiveness at each vessel is transmitted by Qatādah, al-Suddī, Ibn Jurayj
+and Maʿmar through **[Ṭabarī]** and repeated at **[Qurṭubī]**, which notes that the apparent sense of Qatādahʾs words is that the
+one asking forgiveness was Yūsuf himself. The dialogue with Binyāmīn is at **[Qurṭubī]**: the brothers say "Woe to you,
+Binyāmīn! We have never seen anything like today. Your mother Rāḥīl gave birth to two thievish brothers!"; he answers, "By God, I
+did not steal it, and I have no knowledge of who put it in my goods"; and when they ask him directly whether he stole, he says,
+"The one who put the merchandise in your saddlebags." Ibn ʿAbbāsʾs rebuke of the man who marvelled and quoted the verse — "What a
+bad thing you have said! God is the Knower, and He is above every knower" — is in **[Ṭabarī]** (four chains), **[Qurṭubī]** and
+**[Ibn Kathīr]**. ʿAlīʾs "You are right and I am wrong — above every possessor of knowledge is a Knower," reported by Muḥammad b.
+Kaʿb through **[Ṭabarī]**, is the traditionʾs model of scholarly conduct. Al-Ḥasanʾs paused recitation — "by God, there is not a
+knower upon the face of the earth in the evening but above him is one more knowing than he, until knowledge returns to the One who
+taught it" — is the same lesson in another form.
+
+**Belief.** Three doctrines are carried by the closing clauses. First, the raising of degrees: **[Ibn Kathīr]** links it to 58:11,
+"God will exalt in degree those of you who believe," and to 6:83 and 40:15 (**[Study Quran]**), where God is the Raiser of
+degrees; **[Saʿdī]** specifies the instrument — "by beneficial knowledge and knowledge of the paths leading to its objective," as
+We raised Yūsufʾs degrees. Second, the hierarchy of knowledge: above every knower is one more knowing, until knowledge ends with
+God, from whom it began, from whom the scholars learn, and to whom it returns (Qatādah); **[Study Quran]** notes the verseʾs
+"more universal import," often cited by Muslim writers as pointing to the hierarchy of knowledge and the fact that no matter how
+much a human being gains, there is always a higher degree, the highest of which is Godʾs. Third, and most difficult, the
+attribution of the contrivance to God: *kadhnā*, "We contrived," is in the first person plural, and **[Study Quran]** reads it as
+indicating that the plan was based on divine revelation, because the ultimate goal was for God to show His Solicitude to
+Josephʾs brothers; **[Maʿārif]** at 12:72 made the same point with the al-Khaḍir analogy. **[Ṭabarī]**, uniquely, preserves the
+minority view: some interpreters said it was a mistake on Yūsufʾs part, and God punished him by the brothersʾ answer at 12:77 — a
+view he does not endorse but records.
+
+**Cross-references.** 12:70 (the cup placed); 12:74–75 (the penalty volunteered); 12:77 ("a brother of his stole before");
+12:78–79 (the appeal and the refusal); 12:80–82 (the crisis); 5:38; 58:11; 6:83; 40:15; 38:44 (the bundle of grass); 18:71,
+18:74, 18:82 (al-Khaḍir); 2:102; the Khaybar dates ḥadīth (Bukhārī, Muslim).
+
+**Reflection.** This is the verse in which the sūrah explains itself. Everything Yūsuf has done since 12:58 — the returned
+merchandise, the demand for the brother, the delayed accusation — is gathered up in three words: *kadhnā li-Yūsuf*, "We contrived
+for Yūsuf." Not "Yūsuf contrived." **[Study Quran]** and **[Maʿārif]** both take the first-person plural as decisive: the plan
+rested on revelation, and its ultimate goal was Godʾs solicitude toward the brothers. And the mechanism is exactly as
+**[Jalālayn]** describes it — God inspired him to ask his brothers about the nature of requital, and they responded according to
+their own customary practice, so the penalty under which Binyāmīn is detained is not Egyptian law but Jacobite law, volunteered
+by the men it will bind. That is why "he could not have taken his brother under the kingʾs religion" is not a limitation on Yūsufʾs
+power but a description of the constraint the contrivance had to work around. The detail that **[Ṭabarī]** and **[Qurṭubī]** both
+preserve — that Yūsuf asked Godʾs forgiveness at every vessel he searched, knowing where the cup was — belongs to the same order:
+the contrivance is Godʾs, and the man executing it is not comfortable. And the closing clause is the traditionʾs guard against the
+obvious moral: above every possessor of knowledge is a Knower. Ibn ʿAbbās rebuked a man for quoting it in wonder, because quoting
+it as an exclamation treats the hierarchy as a curiosity rather than as a limit; ʿAlī used it to concede an argument; al-Ḥasan
+paused on it and said there is no knower on earth in the evening but one more knowing above him. The verse ends, deliberately, not
+with Yūsufʾs success but with the reminder that Yūsuf himself is below someone.
+
+---
+
+
+## 12:77
+
+*"They said, ʿIf he has stolen, a brother of his stole before.ʾ And Yūsuf concealed it in himself and did not disclose it to
+them; he said, ʿYou are worse in position, and God knows best what you describe.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: they said, "if he has stolen, a brother of his has stolen before" — meaning his brother by
+his father and his mother, and he was Yūsuf, as Mujāhid said: Yūsuf. And the interpreters differed about the theft with which
+they described Yūsuf. Some said: it was an idol belonging to his grandfather, his motherʾs father, which he broke and cast on
+the road — Saʿīd b. Jubayr said, Yūsuf stole an idol of his grandfather, his motherʾs father, and broke it and cast it on the
+road, and his brothers used to reproach him for that; and Qatādah said, it is mentioned that he stole an idol of his
+grandfather, his motherʾs father, and they reproached him for it; and Qatādah said, they intended thereby to find fault with
+Godʾs prophet Yūsuf, and the theft with which they found fault was an idol belonging to his grandfather, his motherʾs father,
+which he took — Godʾs prophet intended good by that, and they found fault with him for it; and Ibn Jurayj said, Yūsufʾs mother
+had ordered Yūsuf to steal an idol of his uncle, which he worshipped, and she was a Muslim. And others said: the sons of
+Yaʿqūb were at a meal, and Yūsuf looked at a bone with meat on it and hid it, and they reproached him for that. And others
+said: Ibn Isḥāq, from ʿAbdullāh b. Abī Najīḥ, from Mujāhid, said: the first affliction that came upon Yūsuf was, as has
+reached me, that his paternal aunt, the daughter of Isḥāq, was the eldest of Isḥāqʾs children, and Isḥāqʾs waist-band had come
+to her, and they used to inherit it by seniority; and whoever stole it belonged to the one who held it as a possession not to be
+disputed, in which he might do what he wished. And when Yūsuf was born to Yaʿqūb, he gave him to his paternal aunt to nurse, so
+he was with her and belonged to her, and no one loved anything as she loved him. Until when he grew and reached some years, and
+Yaʿqūbʾs soul longed for him, he came to her and said, "O sister, hand Yūsuf over to me, for by God I am unable to bear his
+being absent from me for an hour!" She said, "By God, I am not leaving him; by God I am unable to bear his being absent from me
+for an hour!" He said, "By God, I am not leaving him!" She said, "Then leave him with me some days, that I may look at him and
+be calmed about him; perhaps that will console me for him" — or as she said. And when Yaʿqūb went out from her, she took
+Isḥāqʾs waist-band and fastened it on Yūsuf beneath his clothes. *[Isrāʾīliyyāt]* And it is related that when they were told of
+the cup, Binyāmīn said to them, "Rather, the sons of Rāḥīl, from whom trouble never ceases for you — you went away with your
+brother and destroyed him in the wilderness! The one who put the cup in my saddlebag put the dirhams in your saddlebags!" And
+they said, "Do not mention the dirhams, lest we be seized for them!" And when they entered upon Yūsuf he called for the cup and
+struck it, then brought it near his ear, and said, "This cup of mine informs me that you were twelve men and that you went away
+with a brother of yours and sold him." And when Binyāmīn heard it he stood and prostrated to Yūsuf, and said, "O king, ask this
+cup of yours about my brother — is he alive?" So he struck it and said, "He is alive, and you shall see him." He said, "Then do
+with me what you wish, for if he knows of me he will rescue me." And Yūsuf went in and wept, then performed ablution and came
+out, and Binyāmīn said, "O king, I want you to strike this cup of yours so that it informs you of the truth — so ask it who stole
+it and put it in my saddlebag." So he struck it and said, "This cup of mine is angry, and it says: how do you ask me about my
+companion, when you have seen with whom I was?" And the sons of Yaʿqūb, when they were angry, could not be endured; so Reuben
+was angry and said, "O king, by God, either you leave us or I shall cry out a cry such that no pregnant woman remains in Egypt
+but she casts what is in her belly!" And every hair of Reubenʾs body stood up and came out through his clothes. So Yūsuf said to
+his son, "Stand beside Reuben and touch him" — for the sons of Yaʿqūb, when one of them was angry and another touched him, his
+anger went — so the boy went beside him and touched him, and his anger went. And Reuben said, "Who is this? There is in this land
+a seed of the seed of Yaʿqūb!" Yūsuf said, "Of Yaʿqūb?" And Reuben was angry and said, "O king, do not mention Yaʿqūb, for he is
+Godʾs elect, the son of Godʾs sacrifice, the son of Godʾs intimate friend." Yūsuf said, "Then you were truthful." *[Isrāʾīliyyāt]*
+**[Qurṭubī]** "They said, if he has stolen, a brother of his has stolen before": the meaning is, he followed his brother, and had
+he followed us he would not have stolen; and they only said that to be free of his act, because he was not of their mother, and
+because if he stole, the vein of his thieving brother drew him — for sharing in lineages produces resemblance in characters. And
+they differed about the theft they attributed to Yūsuf. It is related from Mujāhid and others that Yūsufʾs paternal aunt, the
+daughter of Isḥāq, was older than Yaʿqūb, and Isḥāqʾs waist-band had come to her by reason of her age, because they used to
+inherit by seniority — and this is of what has been abrogated in its ruling by our law — and whoever stole was enslaved. And
+Yūsufʾs paternal aunt had nursed him and loved him with an intense love; and when he grew up Yaʿqūb said to her, "Hand Yūsuf over
+to me, for I am unable to bear his being absent from me for an hour." And she was devoted to him and afraid of parting from him,
+so she said to him, "Leave him with me some days, that I may look at him." And when Yaʿqūb went out from her she took Isḥāqʾs
+waist-band and fastened it on Yūsuf beneath his clothes, and then said, "I have lost Isḥāqʾs waist-band — so look at who took it
+and who has it." And it was sought, and then she said, "Search the people of the house," and they searched, and it was found with
+Yūsuf. So she said, "By God, he is a possession of mine, in whom I may do what I wish." Then Yaʿqūb came to her and she informed
+him of the matter, and he said to her, "You and that — if he did it, he is a possession for you." So she kept him until she died.
+And by that his brothers reproached him in their saying, "if he has stolen, a brother of his has stolen before." *[Isrāʾīliyyāt]*
+**And from here Yūsuf learned the placing of the drinking-cup into his brotherʾs saddlebag, as his paternal aunt had done with
+him.** And Saʿīd b. Jubayr said: she only ordered him to steal an idol belonging to his grandfather, his motherʾs father, so he
+stole it and broke it and cast it on the road, and that was from both of them a changing of the wrong; so they accused him of
+theft and reproached him for it — and Qatādah said it. And in al-Zajjājʾs book: it was an idol of gold. And ʿAṭiyyah al-ʿAwfī
+said: he was with his brothers at a meal and looked at a piece of meat and hid it, so they reproached him for that. And it was
+said that he used to steal from the food of the table for the poor — related by Ibn ʿAṭāʾ. And it was said that they lied against
+him in what they attributed to him — said al-Ḥasan. "And Yūsuf concealed it in himself and did not disclose it to them": that is,
+he concealed in himself their saying, "if he has stolen, a brother of his has stolen before" — said Ibn Shajarah and Ibn ʿĪsā. And
+it was said that he concealed in himself his saying, "you are worse in position," then spoke aloud and said, "and God knows best
+what you describe" — said Ibn ʿAbbās: "you are worse in position than the one to whom you attributed this theft." And the meaning
+of "and God knows best what you describe" is: God knows best that what you said is a lie, even if it was pleasing to God. And it
+has been said that Yūsufʾs brothers at that time were not prophets. **[Ibn Kathīr]** After Yūsufʾs brothers saw that the kingʾs
+bowl was taken out of Binyāmīnʾs bag, they said, "If he steals, there was a brother of his who did steal before." They tried to
+show themselves as innocent from being like Binyāmīn, saying that he did just as a brother of his did beforehand — meaning Yūsuf.
+God said, "But these things did Yūsuf keep in himself," meaning the statement that he said afterwards, "You are in an evil
+situation, and God is the Best Knower of that which you describe!" Yūsuf said this to himself and did not utter it aloud, thus
+intending to hide what he wanted to say to himself even before he said it. Al-ʿAwfī reported that Ibn ʿAbbās said about Godʾs
+statement "but these things did Yūsuf keep in himself": he kept in himself his next statement, "You are in an evil situation, and
+God is the Best Knower of that which you describe." **[Jalālayn]** They said, "If he is stealing, a brother of his stole before,"
+that is Joseph — he had stolen a golden idol from his maternal grandfather and smashed it, lest it be worshipped. But Joseph kept
+it secret in his soul and did not disclose it, manifest it to them — the suffixed pronoun in *yubdihā*, "disclose it," refers to
+the words in his following saying; he said within himself, "You are a worse case than Joseph and his brother, because of your
+stealing a brother of yours from your father and your wronging him. And God knows very well what you are describing," what you
+are mentioning with regard to him. **[Saʿdī]** When Yūsufʾs brothers saw what they saw, they said, "if this brother steals, it is
+not strange of him, for a brother of his stole before" — meaning Yūsuf. And their purpose was to clear themselves, and that this
+one and his brother might commit theft, and they were not full brothers of ours; and in this is a disparagement of them, and what
+a disparagement! That is why "Yūsuf concealed it in himself and did not disclose it to them": that is, he did not meet what they
+said with what they would dislike; rather he suppressed his anger and concealed the matter in himself, and said in himself, "you
+are worse in position," since you have disparaged us with what you are worse in than it. "And God knows best what you describe"
+of us, describing us with a theft that God knows we are innocent of. **[Maʿārif]** As in the first of the verses cited above, when
+the stolen property was recovered from Benyāmīnʾs baggage before the brothers of Sayyidna Yūsuf, they were so ashamed that they
+said in irritation, "if he has committed a theft, it is not much of a surprise, for he had a brother who, like him, had committed
+a theft before." The sense was that he was not their real brother; he was their step-brother, and he had a real brother who had
+also committed a theft. On this occasion the brothers of Sayyidna Yūsuf accused him too of a theft, which refers to an event
+which took place during his childhood: as a conspiracy was hatched here to blame Benyāmīn for theft, a similar conspiracy was
+staged against Sayyidna Yūsuf at that time, with him being totally unaware of it. As for his brothers, they were fully aware of
+the fact that he was totally free from this blame; but, being angry with Benyāmīn on this occasion, they made out that event too
+as one of theft and put its blame on his brother Yūsuf. What was that event? Reports differ about it. Referring to Muḥammad b.
+Isḥāq and the tafsīr authority Mujāhid, Ibn Kathīr has reported that soon after the birth of Sayyidna Yūsuf, Benyāmīn was born;
+this birth of his became the cause of his motherʾs death. When both Yūsuf and Benyāmīn were left without their mother, they were
+raised by their paternal aunt. God had blessed Sayyidna Yūsuf from his very childhood with such an attractive personality that
+whoever saw him became deeply attached to him. His paternal aunt was no exception; she would not let him disappear from her sight
+at any time. On the other hand, no different was the condition of his father, who was very fond of him. But, being a minor child,
+it was necessary that he be kept under the care of a woman; therefore he was put under the care of his paternal aunt. When he had
+learnt how to walk, Sayyidna Yaʿqūb thought of having him come to live with him. When he talked to his paternal aunt, she showed
+her reluctance to let him go. After that, having been under compulsion, she somehow handed Sayyidna Yūsuf over to his father, but
+she did make a plan to take him back. She had an antique waist-band which had come to her as the legacy of Sayyidna Isḥāq and was
+highly valued. Sayyidna Yūsufʾs paternal aunt tied this band on his waist underneath his dress. After he had gone, she spread the
+news around that her waist-band had been stolen by someone. When searched for, it turned out to be with young Yūsuf. According to
+the *sharīʿah* of Sayyidna Yaʿqūb, the paternal aunt now had the right to keep him as her slave. When Sayyidna Yaʿqūb saw that
+the paternal aunt had become the owner of Yūsuf on the authority of the religious law of the land, he handed young Yūsuf over to
+her. Sayyidna Yūsuf kept living with her as long as she was alive. This was the event in which the blame of theft was imputed to
+Sayyidna Yūsuf, following which the truth came to light and everybody found that he was free of even the least doubt of theft. It
+was the love of his paternal aunt for him that had made her conspire to keep him. The brothers knew this truth all too well.
+Given this reason, it did not behove them that they would attribute theft to him. But of the series of excesses inflicted on
+Sayyidna Yūsuf by his brothers, this too was the last. Now in the second sentence it was said, "Yūsuf concealed it in himself and
+did not disclose it to them": Sayyidna Yūsuf heard what his brothers had to say and kept it in his heart, for they still seemed to
+be after him and were now blaming him for theft. But he kept his reaction to himself and did not let his brothers know that he had
+heard what they had said and was affected by it in any way. Said in the next and last sentence of the verse was, "he said, you are
+even worse in position, and God knows best of what you allege": Sayyidna Yūsuf said in his heart, "you are even worse in position
+(as you accuse your brother of theft, falsely and knowingly). And God knows best of what you allege (whether what you are saying
+is true or false)." The first sentence has been uttered in the heart. The other sentence may possibly have been said publicly as
+his response to what his brothers had said. *[Isrāʾīliyyāt]* **[Study Quran]** "A brother of his had stolen aforetime" is a
+reference to Joseph, who, when he was younger, is said to have stolen an idol from his maternal grandfather and destroyed it, lest
+it be worshipped. "What Joseph kept secret in his soul" refers to his response to his brothers, "You are in a worse position,"
+which he said to himself and did not voice aloud. By it he meant that the brothers were in a worse position than Benjamin, since
+they stole him (Joseph) from their father and treated him unjustly, and Benjamin did not participate in this act.
+
+**Language.** *Antum sharrun makānan* is glossed by **[Ṭabarī]** as "you are worse in position," by **[Saʿdī]** as "since you
+have disparaged us with what you are worse in than it," and by Ibn ʿAbbās at **[Qurṭubī]** as "worse in position than the one to
+whom you attributed this theft." The suffix in *fa-asarrahā* is the point of grammatical dispute: Ibn Shajarah and Ibn ʿĪsā hold
+it refers to *their* saying, which he concealed; Ibn ʿAbbās holds it refers to *his own* saying "you are worse in position,"
+which he concealed and then spoke only the second clause aloud **[Qurṭubī]**; **[Ibn Kathīr]** and **[Jalālayn]** follow the
+second. *Mā taṣifūn* is "what you describe" — **[Qurṭubī]** glosses it as: God knows best that what you said is a lie, *even if
+it was pleasing to God* (i.e. even if the theft they refer to was in fact an act of removing an idol).
+
+**Ḥadīth & āthār.** Four or five explanations of the earlier theft are transmitted, all Isrāʾīliyyāt: (1) an idol of his
+maternal grandfather, stolen and broken and cast on the road — Saʿīd b. Jubayr, Qatādah, Ibn Jurayj (who adds that his mother, a
+Muslim, ordered him to it), al-Zajjāj (a golden idol), **[Jalālayn]**, **[Study Quran]**; (2) a piece of meat hidden at a meal —
+ʿAṭiyyah al-ʿAwfī, Ibn Idrīs from his father; (3) Isḥāqʾs waist-band fastened on him by his paternal aunt — Mujāhid via Ibn
+Isḥāq, the fullest version, at **[Ṭabarī]** and **[Qurṭubī]** and **[Maʿārif]**; (4) stealing from the table for the poor —
+Ibn ʿAṭāʾ; (5) they simply lied against him — al-Ḥasan. **[Qurṭubī]** alone draws the causal inference: *and from here Yūsuf
+learned the placing of the drinking-cup into his brotherʾs saddlebag, as his paternal aunt had done with him* — the device at
+12:70 is thus a repetition, learned from what was done to him as a child. **[Ṭabarī]**ʾs long report of the speaking cup and
+Reubenʾs rage — the cup struck and held to the ear, announcing that they were twelve and had sold a brother; Binyāmīnʾs
+prostration; the hair standing out through Reubenʾs clothes; the cry that would make every pregnant woman in Egypt miscarry;
+Yūsufʾs son touching him to calm him; Reubenʾs "do not mention Yaʿqūb, for he is Godʾs elect, the son of Godʾs sacrifice, the son
+of Godʾs intimate friend" — is among the most elaborated Isrāʾīliyyāt in the sūrah. *[Isrāʾīliyyāt]*
+
+**Belief.** **[Qurṭubī]** makes two theological notes that the others leave implicit. First, the motive for the accusation: they
+said it to be free of his act, because he was not of their mother, and because sharing in lineages produces resemblance in
+characters — an argument from heredity, and a deliberate one, since it separates them from the crime. Second, and more
+consequential: "it has been said that Yūsufʾs brothers at that time were not prophets" — a position **[Qurṭubī]** restates at
+12:78 ("and it is far from them, being prophets, that they should approve of the enslaving of a free man … though it has preceded
+that they are not prophets, on the correct view"). If they were not prophets at this stage, the reproach of a prophet for theft is
+a sin of ordinary men rather than an offence against prophetic dignity; if they were, it requires the kind of harmonisation
+**[Maʿārif]** supplies, that the brothers knew perfectly well he was free of the blame and said it in anger. **[Maʿārif]**ʾs
+closing judgement is the severest thing said about them in the whole sūrahʾs commentary: of the series of excesses inflicted on
+Yūsuf by his brothers, *this too was the last*.
+
+**Cross-references.** 12:8 (their original counsel); 12:18 ("rather, your souls have made a matter seem attractive to you");
+12:70 (the cup); 12:76 (the search); 12:78–79 (the appeal); 12:84 (Yaʿqūbʾs grief); 21:57 ("and by God, I shall surely plot
+against your idols after you have gone"); 6:74 (the idol of Āzar).
+
+**Reflection.** The brothers have been falsely accused once in this chapter and have answered with an oath; now their own
+brother is accused truly, in appearance, and their answer is to reach back forty years and accuse the missing one. **[Saʿdī]**
+identifies the design precisely: their purpose was to clear themselves, by establishing that this one and his brother — not full
+brothers of ours — come from a line that steals. The argument is genealogical, and it is aimed at a man standing in front of them
+who is the person it describes. And what the verse records next is the most remarkable act of self-restraint in the sūrah: Yūsuf
+concealed it in himself and did not disclose it to them. He said "you are worse in position" *in his heart*. **[Ibn Kathīr]**
+notes the oddity that he intended to hide it even before he said it. That is the difference between this scene and 12:8: at the
+well they concealed a crime; here he conceals a true accusation, and the concealment is itself the mercy. **[Qurṭubī]**ʾs note
+that Yūsuf learned the device of the planted object from what his paternal aunt did to him is the kind of reading that makes the
+sūrah circular — the thing done to him as a child becomes, by revelation, the thing he does to keep his brother; and it also
+explains why he could be sure the device would work, since it had worked on Yaʿqūb once already.
+
+---
+
+## 12:78
+
+*"They said, ʿO ʿAzīz, he has a father, an old man, great in years; so take one of us in his place. We see you to be of those
+who do good.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsufʾs brothers said to Yūsuf, "O ʿAzīz" — O king — "he has a father, an old man, great in
+years," devoted to loving him, meaning Yaʿqūb. "So take one of us in his place": meaning take one of us in exchange for
+Binyāmīn, and release him. "We see you to be of those who do good": we see you to be of those who do good in your actions. And
+Ibn Isḥāq said of "we see you to be of those who do good": we see that as goodness from you, if you do it. **[Qurṭubī]** They
+addressed him by the name of ʿAzīz because at that moment he was after the dismissal or the death of the first one. And their
+saying "he has a father, an old man, great in years": that is, great in station; they did not intend greatness of age, because
+that is known from the condition of the *shaykh*. "So take one of us in his place": that is, as a slave in exchange for him. And
+it has been said that this is figurative, because they knew that it is not valid to take a free man to be enslaved in place of one
+whose enslavement their own law had established; rather this is as you say to one whose action you dislike, "kill me and do not do
+such-and-such," when you do not want him to kill you but are being emphatic in persuading him to desist. And it admits that their
+saying "take one of us in his place" was literal, and it is far from them — being prophets — that they should approve of the
+enslaving of a free man; so nothing remains but that they intended by it the way of suretyship, that is, take one of us in his
+place until your party returns to you, and their aim thereby was that Binyāmīn should reach his father and Yaʿqūb should learn the
+true state of the matter. So Yūsuf prevented that, because suretyship in *ḥudūd* and the like — in the sense of merely producing
+the guaranteed person — is permissible with mutual consent, but not binding if the claimant refuses; whereas suretyship in such a
+case as this, on the basis that what was binding on the guaranteed person of punishment becomes binding on the surety, is not
+permissible by consensus. And in *al-Wāḍiḥah*: suretyship by the face alone in all the *ḥudūd* is permissible except in the case
+of the soul; and the majority of jurists hold the permissibility of suretyship for the person, and two reports are related from
+al-Shāfiʿī — once he weakened it and once he permitted it. "We see you to be of those who do good": it admits that they intended to
+describe him with what they had seen of his goodness in all his actions with them; and it admits that they intended, we see that
+you would do us a good turn in this favour if you bestowed it upon us — and this is the interpretation of Ibn Isḥāq. *[the section
+continues into 12:79]* **[Ibn Kathīr]** When it was decided that Binyāmīn was to be taken and kept with Yūsuf according to the law
+they adhered to, Yūsufʾs brothers started requesting clemency and raising compassion in his heart for them: "They said, O ʿAzīz!
+Verily, he has an old father," who loves him very much and is comforted by his presence from the son that he lost, "so take one of
+us in his place," instead of Binyāmīn to remain with you, "indeed we think that you are one of the doers of good" — the good
+doers, just, and accepting fairness. **[Jalālayn]** They said, "O Court Officer, lo! he has a father, an aged man, who loves him
+more than we do and who finds solace in him from the anguish he feels for his dead son; and it will grieve him to part with him.
+So take one of us," enslave him in his place, "instead of him. Indeed we see that you are among the virtuous," in terms of your
+actions. **[Saʿdī]** Then they took with him the path of ingratiating speech, so that perhaps he would be generous about their
+brother, and said, "O ʿAzīz, he has a father, an old man, great in years" — that is, he cannot be patient without him, and
+parting from him will be hard upon him. "So take one of us in his place, for we see you to be of those who do good": so do good to
+us and to our father by that. **[Maʿārif]** It means when the brothers of Sayyidna Yūsuf realised that nothing seems to be working
+here and they have no option left but to leave Benyāmīn behind, they started flattering the ʿAzīz of Egypt. They told him that
+Benyāmīnʾs father was very old and weak, and his separation will be unbearable for him. Therefore they requested him that he
+should detain anyone from among them in lieu of him. They also told him that they were making that request to him in the hope that
+he, as they feel, appears to be a very generous person — or, he has been generous to them earlier too. **[Study Quran]** For the
+way Joseph came to occupy Potipharʾs former rank and position of viceroy, see 12:56–57. Benjaminʾs venerable, aged father refers
+to Jacob. By mentioning their father, the brothers were saying that Jacob loves Benjamin more than them, and that since Benjamin
+has been a means of solace for Jacob in place of Joseph, not getting Benjamin back would cause him more grief.
+
+**Language.** *Shaykh kabīr* is analysed by **[Qurṭubī]** with some care: *kabīr* means great in station, not great in age,
+because greatness of age is already known from the condition of the *shaykh* — so the phrase is not pleonastic but adds rank or
+dignity. *Al-ʿazīz* here is glossed by **[Ṭabarī]** as *al-malik*, the king; **[Qurṭubī]** notes that they used the title because
+at that moment he was after the dismissal or death of the first ʿAzīz. *Fa-khuḍ aḥadanā makānah* is either literal, "take one of us
+as a slave in his place," or figurative, an emphatic plea like "kill me and do not do such-and-such" **[Qurṭubī]**. *Innā narāka
+min al-muḥsinīn* is either a description of his goodness in all his actions with them, or a hope about the favour they are asking
+for — the latter being Ibn Isḥāqʾs reading **[Qurṭubī] [Ṭabarī]**.
+
+**Rulings.** **[Qurṭubī]** turns the verse into a case on personal suretyship: suretyship in *ḥudūd* and the like, in the sense of
+merely producing the guaranteed person, is permissible with mutual consent but not binding if the claimant refuses; whereas
+suretyship in such a case as this, on the basis that the punishment binding on the guaranteed person becomes binding on the surety,
+is not permissible by consensus. And in *al-Wāḍiḥah*: suretyship by the face alone in all the *ḥudūd* is permissible except in the
+case of the soul (*al-nafs*); the majority of jurists hold the permissibility of suretyship for the person, with two reports from
+al-Shāfiʿī, once weakening it and once permitting it. This continues the *masʾalah* on *ḥamālah* established at 12:66.
+
+**Belief.** **[Qurṭubī]**ʾs second reading of "take one of us in his place" is theologically motivated and he says so: it is far
+from them — being prophets — that they should approve of the enslaving of a free man, so the phrase must be figurative or must
+mean suretyship. And he adds the parenthetical that has already appeared at 12:77, that they are not prophets on the correct view.
+Either way the verse is protected from having prophets offer themselves as slaves. **[Study Quran]** supplies the affective content
+the Qurʾān leaves in the single word *shaykh*: by mentioning their father they were saying that Jacob loves Benjamin more than
+them, and that since Benjamin has been a means of solace for Jacob in place of Joseph, not getting Benjamin back would cause him
+more grief. **[Maʿārif]** is more blunt about the rhetoric: they started flattering the ʿAzīz.
+
+**Cross-references.** 12:30 and 12:51 (the ʿAzīz title); 12:56–57 (his appointment); 12:64 ("am I to trust you with him except as
+I trusted you with his brother"); 12:66 (the pledge); 12:75 (the penalty they volunteered); 12:79 (the refusal); 12:84 (the grief
+they predict).
+
+**Reflection.** The brothers have now made three appeals in three verses, and each is a different kind of argument: an oath
+about what the accusers know (12:73), a genealogical diversion (12:77), and here an appeal to pity grounded in their father. What
+is remarkable about the third is that it is *true* — and truer than they know. They say he has a father, an old man, great in
+station, who cannot be patient without him; and **[Study Quran]** draws out what they are actually asserting, that Benjamin is
+Jacobʾs solace in place of Joseph. They are describing, to Josephʾs face, the exact effect their own crime had on their father,
+and offering to substitute one of themselves for it. **[Qurṭubī]**ʾs legal analysis of "take one of us in his place" reveals
+something about the offer that the surface conceals: taken literally it is impossible, because their own law at 12:75 enslaves the
+thief and cannot enslave a free man in his stead, so the phrase must be either emphatic hyperbole or a request for suretyship —
+take one of us until your party returns. And that reading gives the appeal a concrete purpose: their aim was that Binyāmīn should
+reach his father and Yaʿqūb should learn the true state of the matter. They are not only pleading for mercy; they are trying to get
+a message home.
+
+---
+
+
+## 12:79
+
+*"He said, ʿGod forbid that we should take anyone except the one with whom we found our goods. Then indeed we would be
+wrongdoers.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsuf said to his brothers, "*maʿādha Llāh*" — I take refuge in God. And the Arabs do so with
+every verbal noun they put in the place of "he does" and "you do": they make it accusative, as in their saying "*ḥamdan li-llāh*
+and *shukran lahu*" in the sense of "I praise God and I thank Him." And the Arabs say in that, "*maʿādha Llāh*" and "*maʿādhata
+Llāh*," putting the feminine *hāʾ* in it, as they say "*mā aḥsana maʿnāta hādhā al-kalām*"; and "*ʿawdha Llāh*" and "*ʿawdhata
+Llāh*" and "*ʿiyādha Llāh*." And they say, "*Allāhumma ʿāʾidhan bik*," as though it were said, "I take refuge in You, taking
+refuge," or "I call upon You, taking refuge." "That we should take anyone except the one with whom we found our goods": I take
+refuge in God from taking an innocent man for a guilty one. And Ibn Isḥāq said: if we take other than the one with whom we found
+our goods, we would do what it is not for us to do and would oppress people. And al-Suddī said of the whole passage: Yūsuf said,
+"When you come to your father, give him my greeting, and say to him: the king of Egypt supplicates for you that you may not die
+until you see your son Yūsuf, so that he may know that there are in the land of Egypt truthful ones like him." **[Qurṭubī]** "He
+said, God forbid": a verbal noun. "That we should take": in the position of accusative, i.e. from taking. "Except the one with
+whom we found": in the position of accusative governed by "take." "Our goods with him": that is, God forbid that we take the
+innocent for the criminal and contravene what we contracted. "Then indeed we would be wrongdoers": that is, if we take another.
+**[Ibn Kathīr]** "He said: God forbid, that we should take anyone but him with whom we found our property," according to the
+judgement that you gave for his punishment, "indeed, we should be wrongdoers," if we take an innocent man instead of the guilty
+man. **[Jalālayn]** He said, "God forbid" — *maʿādha Llāhi*, literally "refuge is with God," is in the accusative because it is a
+verbal noun, the verb having been omitted and placed in a genitive annexation with its direct object; in other words, understand it
+as *naʿūdhu bi-llāhi*, "we seek refuge with God" — "that we should take anyone save him with whom we found our property" — he did
+not say "save him who stole our property," being careful not to lie — "for then truly, if we were to take anyone other than him, we
+would be evildoers." **[Saʿdī]** So Yūsuf said, "God forbid that we should take anyone except the one with whom we found our
+goods": and he did not say "except the one who stole," all of this being a guarding against lying. "Then indeed, if we were to take
+other than the one in whose saddlebag it was found, we would be wrongdoers," by putting the punishment in other than its place.
+**[Maʿārif]** The response of Sayyidna Yūsuf appears in verse 79: he gave his reply to their request according to the regulations
+followed in his country, by telling them that they were not authorised to detain anyone they wished. In fact, if they were to
+arrest someone other than the person from whose possession the lost property had been recovered, then, according to their own
+*fatwā* and ruling, they would be accused of being unjust. The reason he gave was that they had themselves said, "he, in whose
+baggage the stolen property is found, shall himself be the punishment." **[Study Quran]** For the way Joseph came to occupy
+Potipharʾs former rank and position of viceroy, see 12:56–57. By mentioning their father, the brothers were saying that Jacob
+loves Benjamin more than them, and that since Benjamin has been a means of solace for Jacob in place of Joseph, not getting
+Benjamin back would cause him more grief.
+
+**Language.** *Maʿādha Llāh* is a verbal noun placed in the position of the verb, and is therefore accusative **[Ṭabarī]
+[Qurṭubī]**; **[Jalālayn]** gives the full analysis — literally "refuge is with God," the verb omitted and the noun annexed to its
+object, to be understood as *naʿūdhu bi-llāh*. **[Ṭabarī]** catalogues the forms: *maʿādha Llāh*, *maʿādhata Llāh* (with the
+feminine *hāʾ*), *ʿawdha Llāh*, *ʿawdhata Llāh*, *ʿiyādha Llāh*, and *Allāhumma ʿāʾidhan bik*; and the parallel construction
+*ḥamdan li-llāh wa-shukran lahu*. The most important linguistic observation, however, is **[Saʿdī]**ʾs and **[Jalālayn]**ʾs: Yūsuf
+says "except the one with whom we found our goods" and *not* "except the one who stole" — all of this being a guarding against
+lying (*taḥarruz min al-kadhib*). He describes the fact of possession, not the crime.
+
+**Ḥadīth & āthār.** Al-Suddīʾs report at **[Ṭabarī]** supplies a message that the Qurʾān omits entirely: Yūsuf told them, "when
+you come to your father, give him my greeting, and say to him: the king of Egypt supplicates for you that you may not die until you
+see your son Yūsuf, so that he may know that there are in the land of Egypt truthful ones (*ṣiddīqūn*) like him." *[Isrāʾīliyyāt]*
+If genuine, this is the first word Yūsuf sends his father in forty years — and it is enigmatic by design, since a supplication to
+live until he sees his son Yūsuf, conveyed by a stranger, would be heard by Yaʿqūb as a message from a stranger and not from Yūsuf.
+
+**Rulings.** **[Maʿārif]** states the legal ground of the refusal: they were not authorised to detain anyone they wished, and to
+arrest someone other than the person from whose possession the lost property was recovered would, *according to their own fatwā and
+ruling*, make them unjust. Yūsuf is bound by the ruling the brothers themselves gave at 12:75, and he says so. This is the same
+principle **[Qurṭubī]** established at 12:78: suretyship in *ḥudūd*, in the sense of taking on the punishment itself rather than
+merely producing the person, is not permissible by consensus — so the offer at 12:78 could not be accepted even if Yūsuf had wished
+to accept it.
+
+**Belief.** The refusal has a shape that is easy to miss: Yūsuf does not refuse out of inflexibility but out of a rule the brothers
+themselves supplied, and his language is chosen so that he never asserts a falsehood. **[Saʿdī]** makes both points in one breath:
+"he did not say *except the one who stole* — all of this being a guarding against lying," and "we would be wrongdoers, by putting the
+punishment in other than its place." **[Jalālayn]** records the same caution. The theological significance is that the contrivance
+at 12:76 is executed without a single untrue statement by the prophet executing it: the cup is in the bag, the goods were found with
+him, the penalty was volunteered by the accused, and the only sentence anyone need hear is a description of where an object was
+found. And al-Suddīʾs report adds a second layer: the message he sends with them is also literally true — the king of Egypt does
+supplicate that Yaʿqūb live until he sees his son Yūsuf.
+
+**Cross-references.** 12:75 (the penalty volunteered); 12:78 (the offer refused); 12:80 (the despair that follows); 12:81–82 (the
+report to Yaʿqūb); 12:84 ("O my grief for Yūsuf"); 12:89 ("do you know what you did with Yūsuf?").
+
+**Reflection.** Everything in this verse is deliberate and the tradition notices all of it. The words are a verbal noun standing in
+for a verb — *maʿādha Llāh*, "God forbid" — which is the idiom of someone refusing something unthinkable rather than negotiating.
+The object of the refusal is phrased to be unfalsifiable: not "the one who stole" but "the one with whom we found our goods." And the
+reason given is not authority or royal prerogative but justice: taking another would be "putting the punishment in other than its
+place." **[Maʿārif]** points out that the binding force of the refusal comes from the brothers themselves — according to their own
+*fatwā*. The scene therefore closes a trap the brothers built at 12:74–75 out of confidence in their innocence, and Yūsuf simply
+declines to step outside it. What the reader is left with is a man who has just been asked to accept a substitute, who cannot, and
+who sends his brothers home with a message for a father he has not spoken to in forty years — a message which, if al-Suddī is right,
+asks that Yaʿqūb be kept alive until he sees his son Yūsuf.
+
+---
+
+## 12:80
+
+*"And when they despaired of him, they withdrew apart in confidential counsel. The eldest of them said, ʿDo you not know that your
+father took a covenant from you by God, and that before you were negligent concerning Yūsuf? So I shall not leave the land until
+my father gives me leave, or God judges for me; and He is the best of judges.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God means: when they despaired of him — that is, despaired of Yūsuf releasing Binyāmīn and taking one of
+them in his place and answering them to what they asked of that. And *istayʾasū* is *istafʿalū* from *yaʾisa al-rajulu min kadhhā
+yaʾyasu*, as Ibn Isḥāq said of "when they despaired of him": they despaired of him and saw his firmness in his affair. "They
+withdrew apart in confidential counsel": conferring with one another, with no one else mixing with them. And *al-najiyy* is the
+group of people conferring; the one and the group are named by it, as one says "*rajul ʿadl* and *rijāl ʿadl*," and "*qawm zawr*
+and *fiṭr*." And it is a verbal noun from the saying of one who says "*najawtu fulānan anjūhu najiyyan*," made into an attribute and
+a description. And of the proof that it is as we have mentioned is Godʾs words "and We brought him near in confidential counsel"
+(19:52), by which He described the one, and His words here "they withdrew apart in confidential counsel," by which He described the
+group; and *najiy* is pluralised as *anjiyah*, as Labīd said: "and I witnessed the confederacies of al-Afāqah, high, and Kaʿb, and
+the successors of kings, witnessing." And the group of men is also called *najwā*, as God Most High said, "and when they are in
+confidential counsel" (17:47) and "there is no confidential counsel of three" (58:7); and *najwā* is also a verbal noun, as God said,
+"confidential counsel is only from Satan" (58:10), from "*najawtu anjū najwā*", so here it is the conferring itself. And the
+interpreters said the like: al-Suddī said, "when they despaired of him they withdrew apart in confidential counsel" — and Shimʿūn,
+whom he had taken as a pledge, was released to them, and they were alone among themselves conferring. *[the section continues]* And
+the reciters differed: Ibn Kathīr read *istāyasū*, *wa-lā tāyasū*, *innahu lā yāyisu*, *a-fa-lam yāyis*, with an alif without a
+hamzah, by transposition — the hamzah was brought forward and the *yāʾ* put back, then the hamzah was turned into an alif because it
+was quiescent after a *fatḥah*. And the reading of the majority is the root, because the verbal noun came only with the *yāʾ*
+first — *yaʾsan*; and *īyās* is not the verbal noun of *yaʾisa* but a verbal noun of *ustuhu awsan wa-īyāsan*, "I gave him." And
+some said *yaʾisa* and *yaʾisa* are two dialects. "The eldest of them said": Qatādah said, he was Reuben, the eldest of them in age;
+Mujāhid said, he was Shimʿūn, the eldest of them in opinion; al-Kalbī said, Yahūdhā, and he was the most sensible of them; and
+Muḥammad b. Kaʿb and Ibn Isḥāq said, he was Lāwī, and he is the father of the prophets. "Do you not know that your father took a
+covenant from you by God": that is, a covenant from God concerning keeping his son and returning him to him; "and before, your
+negligence concerning Yūsuf" — *mā* is in the position of accusative, conjoined upon *an*, and the meaning is: do you not know that
+your father took a covenant from you by God, and know your negligence concerning Yūsuf — mentioned by al-Naḥḥās and others. And *min*
+in "and before" is connected to *taʿlamū*. And it is permitted that *mā* be extra, so that the two adverbials "before" and
+"concerning Yūsuf" are connected to the verb *ferraṭtum*. And it is permitted that *mā* and the verb be a verbal noun, and "before"
+be connected to an implied verb, the estimation being: your negligence concerning Yūsuf occurred before, so *mā* and the verb are in
+the position of nominative by beginning and the predicate is the implied verb to which "before" is connected. Or: and before this act
+of yours, your negligence concerning Yūsuf — meaning, did you not know, before this, your negligence concerning Yūsuf? And when the
+interpretation is directed to what we have said, *mā* is then in the position of accusative. And it is permitted that "and before,
+your negligence concerning Yūsuf" be an independent statement, and "do you not know that your father took a covenant from you by God"
+be a completed statement, so that *mā* is then in the position of nominative, as though it were said, "and before this is your
+negligence concerning Yūsuf," so *mā* is raised by *min qabl*. "So I shall not leave the land": that is, I shall stay in it and not
+depart from it — one says *bariḥa barāḥan wa-burūḥan*, he departed, and when negation enters it, it becomes affirmative. "Until my
+father gives me leave" to return, for I am ashamed before him. "Or God judges for me": by passing with my brother, so that I go with
+him to my father; and it was said the meaning is, or God judges for me by the sword, so I fight and take my brother, or I am
+overcome and turn back with an excuse — and that is because Yaʿqūb said, "unless you are encompassed" (12:66), and whoever fights and
+is overcome has been encompassed. Ibn Isḥāq said, "so I shall not leave the land I am in today until my father gives me leave to
+depart from it"; and Mujāhid said, Shimʿūn said it. "And He is the best of judges": God is the best of those who judge and the most
+just of those who decide between people. And Abū Ṣāliḥ said of "until my father gives me leave, or God judges for me": by the sword —
+as though Abū Ṣāliḥ directed the interpretation of "or God judges for me" to: or God decrees for me war against whoever prevents me
+from departing with my brother Binyāmīn to his father Yaʿqūb, so that I fight him. **[Qurṭubī]** "And when they despaired of him":
+that is, despaired, like *ʿajiba* and *istaʿjaba*, *sakhira* and *istsakhara*. "They withdrew": that is, they were apart and he was
+not with them. "In confidential counsel": installed as a circumstance from the implicit pronoun in "they withdrew," and it is a
+singular performing for a plural, as in this verse, and it falls upon the singular, as in His words "and We brought him near in
+confidential counsel" (19:52); and its plural is *anjiyah*, as the poet said: "When the people were confederacies and were shaken
+like the shaking of ropes, there advise me and do not advise about me." And Ibn Kathīr read *istāyasū*, *wa-lā tāyasū*, *innahu lā
+yāyisu*, *a-fa-lam yāyis*, with an alif without a hamzah by transposition: the hamzah was brought forward and the *yāʾ* put back, then
+the hamzah was turned into an alif because it was quiescent after a *fatḥah*; and the reading of the majority is the root, because the
+verbal noun came only with the *yāʾ* first — *yaʾsan* — and *īyās* is not the verbal noun of *yaʾisa* but of *ustuhu awsan wa-īyāsan*,
+"I gave him." And some said *yaʾisa* and *yaʾisa* are two dialects. So: when they despaired of their brotherʾs being returned to
+them, they consulted among themselves with no one else of the people mixing with them, conferring about what had befallen them. And
+*al-najiyy* is *faʿīl* in the meaning of *al-munājī*. "The eldest of them said": Qatādah said, he was Reuben, the eldest of them in
+age; Mujāhid said, Shimʿūn, the eldest of them in opinion; al-Kalbī said, Yahūdhā, and he was the most sensible of them; and Muḥammad
+b. Kaʿb and Ibn Isḥāq said, Lāwī, and he is the father of the prophets. "Do you not know that your father took a covenant from you by
+God": that is, a covenant from God concerning keeping his son and returning him to him. "And before, your negligence concerning
+Yūsuf": *fa-mā* is in the position of accusative, conjoined upon *an*, and the meaning is: do you not know that your father took a
+covenant from you by God, and know your negligence concerning Yūsuf — mentioned by al-Naḥḥās and others. And *min* in "and before" is
+connected to *taʿlamū*; and it is permitted that *fa-mā* be extra, so that the two adverbials are connected to *ferraṭtum*; and it is
+permitted that *fa-mā* and the verb be a verbal noun, and "before" be connected to an implied verb, the estimation being: your
+negligence concerning Yūsuf occurred before, so *mā* and the verb are in the position of nominative by beginning and the predicate is
+the implied verb. "So I shall not leave the land": that is, I shall stay in it and not depart from it; one says *bariḥa barāḥan
+wa-burūḥan*, he departed, and when negation enters it, it becomes affirmative. "Until my father gives me leave" to return, for I am
+ashamed before him. "Or God judges for me": by passing with my brother, so that I go with him to my father; and it was said the meaning
+is, or God judges for me by the sword, so I fight and take my brother, or I am overcome and turn back with an excuse — and that is
+because Yaʿqūb said, "unless you are encompassed," and whoever fights and is overcome has been encompassed. Ibn ʿAbbās said: and
+Yahūdhā, when he was angry and took the sword, a hundred thousand could not turn his face; the hair of his chest stood up like needles
+and came out through his clothes. And it came in the report that Yahūdhā said to his brothers — and he was the fiercest of them in
+anger — "Either you suffice me against the king and those with him and I shall suffice you against the people of Egypt, or you suffice
+me against the people of Egypt and I shall suffice you against the king and those with him." They said, "Rather, suffice us against the
+king and those with him, and we shall suffice you against the people of Egypt." So he sent one of his brothers and they counted the
+markets of Egypt and found nine markets in them, so each of them took a market. Then Yahūdhā entered upon Yūsuf and said, "O king, if
+you do not release our brother to us, I shall cry out a cry such that no pregnant woman remains in your city but she miscarries what is
+in her belly" — and that was a property of theirs at anger. So Yūsuf angered him and made him hear a word, and Yahūdhā was angry and his
+anger became severe, and his hairs burst out; and so was every one of the sons of Yaʿqūb: when one of them was angry his skin
+creeped, his body swelled, and the hairs of his back appeared from beneath his garment, until a drop of blood dripped from every hair;
+and if he struck the ground with his foot it quaked and buildings collapsed; and if he cried out a cry, no pregnant woman among women,
+beasts or birds heard it but she cast what was in her belly, complete or incomplete; and his anger did not subside except that he shed
+blood, or that a hand of the lineage of Yaʿqūb took hold of him. And when Yūsuf knew that his brother Yahūdhāʾs anger was complete and
+perfected, he spoke to a young son of his in Coptic and commanded him to put his hand between Yahūdhāʾs shoulder-blades where he would
+not see; so he did, and his anger subsided and he threw down the sword. And he turned right and left, hoping to see one of his brothers,
+and did not see one; so he went out quickly to his brothers and said, "Was any of you present with me?" They said, "No!" He said, "Then
+where did Shimʿūn go?" They said, "He went to the mountain." So he went out and met him, carrying a great rock. He said, "What are you
+doing with this?" He said, "I am going to the market that fell to my share, to crush with it the heads of everyone in it." He said, "Go
+back and return it or cast it into the sea, and do not do anything; for by the One who took Ibrāhīm as an intimate friend, a hand of the
+lineage of Yaʿqūb has touched me." *[Isrāʾīliyyāt]* **[Ibn Kathīr]** God narrates to us that Yūsufʾs brothers were desperate because
+they could not secure the release of their brother Binyāmīn, even though they had given a promise and sworn to their father to bring
+him back. They were unable to fulfil their promise to their father, so they consulted "in private," away from peopleʾs eyes, "among
+themselves." "The eldest among them said," and his name, as we mentioned, was Rubil, or Yahudha. He was the one among them who
+recommended throwing Yūsuf into a well, rather than killing him. So Rubil said to them, "Know you not that your father did take an oath
+from you in Godʾs Name," that you will return Binyāmīn to him? However, you were not able to fulfil this promise, and before you caused
+Yūsuf to be lost from his father. "Therefore I will not leave this land," I will not leave Egypt, "until my father permits me," allows
+me to go back to him while he is pleased with me, "or God decides my case" by using the sword, or, as they say, by allowing me to secure
+the release of my brother. "And He is the Best of the judges." **[Jalālayn]** So when they despaired of moving him they withdrew to
+confer privately together — *najiyyan* is a verbal noun that can be used to refer to one person or more; in other words, understand it
+as meaning *yunājī baʿḍuhum baʿḍan*, "one conferring with the other." The most senior of them in years — Reuben — or the most senior of
+them in opinion — Judah — said, "Are you not aware that your father has taken a solemn pledge," a covenant, "from you by God concerning
+your brother, and formerly" — *wa-min qablu mā*, the *mā* is extra — "you failed regarding Joseph?" — but it, the *mā*, is also said to
+be relating to the verbal action; in other words, it is a subject the predicate of which is *min qabl*, "formerly." "So I will never
+leave," part with, "this land," the land of Egypt, "until my father permits me to return to him, or God judges for me" through the
+deliverance of my brother; "and He is the best," the fairest, "of judges." **[Saʿdī]** That is, when Yūsufʾs brothers despaired of Yūsuf
+allowing them their brother, they withdrew alone, with no one else with them, and began conferring among themselves. So the eldest of
+them said, "Do you not know that your father took a covenant from you by God concerning his keeping, and that you would bring him,
+unless you were encompassed? And before, you were negligent concerning Yūsuf": so the two matters have come together upon you — your
+earlier negligence concerning Yūsuf, and your not bringing his brother later; so I have no face with which to confront my father. "So I
+shall not leave the land": that is, I shall stay in this land and remain in it, "until my father gives me leave, or God judges for me":
+that is, decrees for me the coming, alone or with my brother. "And He is the best of judges." **[Maʿārif]** After that, the primary
+statement of the oldest brother, which begins with the words "the oldest of them said," is continued till the end of verse 80. The
+statement was: "Do you not know that your father had taken a pledge from you in the name of God, while you had defaulted earlier in the
+case of Yūsuf? So I shall never leave this land unless my father permits me to return, or God decides about me. And He is the best of all
+judges." This is the statement of the oldest brother. Some commentators identify him as being Yahuda (Judah) — and he was, though not
+the oldest in age, certainly the eldest in knowledge and merit. Other commentators say that he is Ruebel (Reuben), who is the oldest in
+age and he was the one who had suggested that Sayyidna Yūsuf should not be killed. Still others have said that this oldest brother was
+Shamʿun, who was known to be the eldest in power and rank. **[Study Quran]** "The eldest of them" refers to Reuben, not named in the
+Qurʾān but recorded as such in the commentaries. For the solemn pledge that the brothers took with Jacob, see 12:66. The brothers
+neglected Joseph when they failed to take care of him and, by extension, when they broke the vow they had made to Jacob to return Joseph
+safely (see also 12:15). Reuben states that he will not leave Egypt until either his father grants him leave — that is, Jacob calls him
+to return home (see also 12:83) — or God renders judgment upon him, referring to Godʾs Decision to return Benjamin to him or to send him
+back home without Benjamin. For God as "the best of judges" and other cognate expressions in the Qurʾān, see 7:87.
+
+**Language & readings.** *Istayʾasū* is *istafʿala* from *yaʾisa … yaʾyasu*, and **[Ṭabarī]** and **[Qurṭubī]** both record Ibn
+Kathīrʾs reading without the hamzah — *istāyasū*, *wa-lā tāyasū*, *innahu lā yāyisu*, *a-fa-lam yāyis* — explained as transposition,
+the hamzah brought forward and the *yāʾ* put back, then the hamzah turned into an alif because quiescent after a *fatḥah*; the reading
+of the majority is the root, because the verbal noun came only with the *yāʾ* first (*yaʾsan*), and *īyās* is the verbal noun of *āsa*
+("I gave him"), not of *yaʾisa*. *Khalaṣū najiyyan* is analysed fully: *najiy* is a group of people conferring, and the one and the
+group are named by it, like *rajul ʿadl* / *rijāl ʿadl* and *qawm zawr* / *fiṭr*; it is a verbal noun from *najawtu fulānan anjūhu
+najiyyan* made into an attribute; and the proof is that 19:52 uses it of one and 12:80 of a group. Its plural is *anjiyah* (Labīd), and
+the group is also called *najwā* (17:47, 58:7), which is also a verbal noun (58:10). **[Qurṭubī]** adds *faʿīl* in the meaning of
+*munājī*, and cites the bedouin poet: "when the people were confederacies and were shaken like the shaking of ropes, there advise me and
+do not advise about me." *Falan abraḥ al-arḍ*: *bariḥa barāḥan wa-burūḥan* means he departed, and *when negation enters it, it becomes
+affirmative* — that is, "I shall not depart" means "I shall remain" **[Ṭabarī] [Qurṭubī]**. *Wa-min qablu mā ferraṭtum* has four
+grammatical analyses, given at length by both **[Ṭabarī]** and **[Qurṭubī]**: *mā* conjunctive in the position of accusative, conjoined
+on *an*; *mā* extra, with the two adverbials governing *ferraṭtum*; *mā* + verb as a verbal noun in the position of nominative by
+beginning, with "before" connected to an implied verb; or *mā* in the position of nominative by *min qabl*. *Kabīruhum* is the point of
+historical dispute, not linguistic.
+
+**Ḥadīth & āthār.** The identification of *kabīruhum* is given identically by **[Ṭabarī]**, **[Qurṭubī]**, **[Ibn Kathīr]**,
+**[Jalālayn]**, **[Maʿārif]** and **[Study Quran]**: Qatādah said Reuben, eldest in age; Mujāhid said Shimʿūn, eldest in opinion;
+al-Kalbī said Yahūdhā (Judah), most sensible of them; Muḥammad b. Kaʿb and Ibn Isḥāq said Lāwī (Levi), the father of the prophets.
+**[Maʿārif]** adds a third framing: Yahuda the eldest in knowledge and merit, Ruebel the eldest in age and the one who suggested that
+Yūsuf not be killed, Shamʿun the eldest in power and rank. *[Isrāʾīliyyāt]* **[Qurṭubī]** preserves the longest Isrāʾīlī report in the
+sūrah on Yahūdhāʾs rage — the hair standing like needles and piercing the clothes, the creeping skin and swelling body and blood dripping
+from every hair, the foot that quakes the ground and collapses buildings, the cry that makes every pregnant woman, beast and bird
+miscarry, the anger that does not subside except by shedding blood or by a hand of the lineage of Yaʿqūb, the division of Egyptʾs nine
+markets among the brothers, Shimʿūn on the mountain with a rock to crush the heads of everyone in his market, and Yūsufʾs young son
+speaking Coptic and touching Yahūdhā between the shoulder-blades. **[Ṭabarī]** preserves the same material in briefer form at 12:77.
+
+**Belief.** **[Saʿdī]** gives the speech its logical structure, which the surface does not show: "so the two matters have come together
+upon you — your earlier negligence concerning Yūsuf, and your not bringing his brother later; so I have no face with which to confront my
+father." The eldest is not making a threat but performing an accounting, and the conclusion is that the two failures are of the same
+kind and therefore cannot be presented to Yaʿqūb separately. **[Study Quran]** makes the same connection explicit: the brothers neglected
+Joseph when they failed to take care of him *and, by extension, when they broke the vow they had made to Jacob to return Joseph safely* —
+so 12:15 and 12:80 are the same default, seen from two ends. The vow he refuses to break a second time is the one at 12:66, and
+**[Study Quran]** links the two. His resolution — "until my father gives me leave, or God judges for me" — has two possible exits and
+**[Study Quran]** gives the second one its sense: Godʾs Decision to return Benjamin to him or to send him back home without Benjamin. God
+as the best of judges, with cognate expressions, is at 7:87.
+
+**Cross-references.** 12:9–10 (the counsel at the well, and the one who said "do not kill Yūsuf"); 12:15 (the default concerning
+Yūsuf); 12:66 (the covenant and its exception, "unless you are encompassed"); 12:78–79 (the refused offer); 12:81–83 (the report and
+Yaʿqūbʾs answer); 12:87 ("go and search for Yūsuf and his brother"); 19:52 ("and We brought him near in confidential counsel"); 17:47;
+58:7; 58:10; 7:87 ("the best of judges").
+
+**Reflection.** The verse opens with despair and closes with a decision, and both are precise. *Istayʾasū minhu* — they despaired of
+*him*, of Yūsuf releasing Binyāmīn or accepting a substitute — and then they withdrew apart, *with no one else mixing with them*, which
+is the first private conference the brothers have held since 12:8. And what the eldest says is not a plan but a reckoning. **[Saʿdī]**ʾs
+reading makes its force clear: the two matters have come together upon you, and I have no face with which to confront my father. He
+sets the covenant of 12:66 beside the default of 12:15 and finds that they are the same failure repeated, which is why the speech ends
+not with a proposal but with a refusal to move: I shall not leave this land until my father gives me leave, or God judges for me. The
+two exits are the only two he will accept — his fatherʾs permission or Godʾs judgement — and he names God "the best of judges," which
+is the same phrase Yaʿqūb will echo at 12:92 and the same confidence his father placed at 12:64 in "God, the best of keepers." And the
+identification dispute about who he is — Reuben in age, Shimʿūn in opinion, Judah in sense, Levi as father of the prophets — is itself
+instructive: the tradition cannot settle which brother it was, but every candidate it proposes is one who had earlier argued *against*
+killing Yūsuf. The man who stays behind in Egypt is not the one who proposed the murder.
+
+---
