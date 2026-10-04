@@ -2347,3 +2347,535 @@ brothersʾ lie, now proves another one; and the same man who was deceived by an 
 undeceived by a torn one.
 
 ---
+
+
+## 12:26
+
+*"He said, "It was she who sought to seduce me from myself." And a witness from her own family testified, "If
+his shirt is torn from the front, then she has spoken the truth and he is among the liars.""*
+
+**Meaning.** **[Ṭabarī]** Yūsuf said this when the wife of the ʿAzīz accused him of intending indecency with
+her, contradicting her in what she accused him of and repelling what was attributed to him: it was not I who
+sought her for herself — rather she sought me for myself. And it is said that Yūsuf would not have wanted to
+mention the matter at all had she not accused him before her master: Nawf al-Shāmī is reported to have said,
+"Yūsuf did not intend to mention it, until she said, ʿWhat is the recompense of one who intends evil against
+your family?ʾ — so he became angry and said, ʿShe sought me for myself.ʾ" As for "a witness from her own
+family testified," the people of knowledge differed about the description of the witness. Some said he was a
+child in the cradle: Ibn ʿAbbās, through several chains, said, "Four spoke in the cradle while they were
+young: the son of Pharaohʾs hairdresserʾs daughter, the witness of Yūsuf, the companion of Jurayj, and ʿĪsā
+b. Maryam"; Abū Hurayrah said "ʿĪsā, the companion of Yūsuf and the companion of Jurayj — they spoke in the
+cradle"; Saʿīd b. Jubayr said repeatedly "a child," "a child in his cradle"; Hilāl b. Yasāf, al-Ḍaḥḥāk —
+"a child God made speak, and it is also said a man of judgment who spoke by his judgment" — and Ibn ʿAbbās
+again, "a child in the cradle." Others said he was a bearded man: Ibn ʿAbbās, through ʿIkrimah, said "he was
+bearded," and through Ibn Abī Mulaykah "he was of the kingʾs inner circle"; ʿIkrimah insisted, "he was not a
+child, but a wise man"; Mujāhid said "a man"; al-Suddī said "her cousin was the witness from her family";
+Qatādah said "a wise man of her family"; al-Ḥasan said "a man of judgment who offered his judgment"; and Ibn
+Isḥāq said, "It is said the witness was only an advisor, a man of Iṭfīrʾs household whose judgment he used —
+except that he said, ʿI testify: if his shirt was torn from the front she has certainly spoken the truth and
+he is of the liars.ʾ" And it is said that the meaning of "a witness testified" is "a judge ruled," from
+al-Farrāʾ, from Muʿallā b. Hilāl, from Mujāhid. Others said the witness meant was the torn shirt itself:
+Mujāhid, through Ibn Abī Najīḥ, said "his shirt split from behind — that is the testimony," and through
+Layth, "it was not of humankind," "it was of Godʾs affair, and was not human." **[Ṭabarī]**ʾs verdict: the
+sound saying is that of those who said he was a child in the cradle, because of the report we have mentioned
+from the Messenger of God ﷺ in which he listed those who spoke in the cradle and mentioned that one of them
+was the companion of Yūsuf. As for Mujāhidʾs view that it was the torn shirt, it is meaningless, because God
+reported that the witness who testified to that was of the womanʾs family, and a shirt is not said to be of a
+manʾs family or a womanʾs. On the testimony itself: if his shirt was torn from the front, she has spoken the
+truth and he is of the liars — because the one being pursued, if he is fleeing, is only approached from
+behind; so it was known that had the tear been from the front he would not have been a fleeing pursued man,
+but would have been a pursuer being pushed off, and that would have been testimony to his lying. Ibn Isḥāq
+adds the reason: "a man only comes to a woman facing her," and "a man does not come to a woman from behind."
+Qatādah summarises: "the witness from her family said: the shirt decides between them." **[Ṭabarī]** also
+notes the grammar: the *anna* by which testimony is normally introduced is deleted because the testimony is
+taken in the sense of speech, as though he said "and a speaker from her family said: if his shirt …" — as in
+"God instructs you concerning your children: for the male is the like of the portion of the two females"
+(4:11), because the bequest is taken in the sense of speech. **[Qurṭubī]** treats the verse under three
+*masāʾil*. First: when she cleared herself — and she was not truthful in her love, since it is of the
+loverʾs way to prefer the beloved — Yūsuf spoke the truth in answer to her slander and lying against him.
+Nawf al-Shāmī and others said: it is as though Yūsuf had not disclosed the matter, but when she wronged him
+he became angry and spoke the truth. Second: when the two of them contradicted each other in speech, the king
+needed a witness, in order to know the truthful from the liar; so "a witness from her family testified" means
+a judge from her family ruled, because it was a ruling from him and not a testimony. Four opinions are then
+recorded on the witness. The first: that he was a child in the cradle who spoke — and al-Suhaylī said this is
+the sound view, because of the ḥadīth reported from the Prophet ﷺ, "None spoke in the cradle except three,"
+in which he mentioned among them the witness of Yūsuf; Abū Naṣr al-Qushayrī said it was said he was a boy in
+the cradle in the house, the son of her maternal aunt; and Saʿīd b. Jubayr reports from Ibn ʿAbbās from the
+Prophet ﷺ, "Four spoke while they were young," mentioning among them the witness of Yūsuf. The second: that
+the witness was the tearing of the shirt, reported by Ibn Abī Najīḥ from Mujāhid — and this is a sound
+metaphor in language, since the tongue of the state is more eloquent than the tongue of speech, and the Arabs
+attribute speech to inanimate things and report of them what they are upon, which is abundant in their poetry
+and prose; the sweetest of it is the saying of one of them, "The wall said to the peg: why do you split me?
+It said to him: ask the one who drives me in." Except that Godʾs word after it, "from her family," invalidates
+its being the shirt. The third: that he was a creature of God who was neither human nor jinn — also from
+Mujāhid — and this too is refuted by "from her family." The fourth: that he was a wise man of intellect whom
+the vizier consulted in his affairs, one of the womanʾs household, who was with her husband and said, "I
+heard the racing and the clamour from behind the door, and the tearing of the shirt, and it is not known
+which of you was ahead of the other; if the shirtʾs tear is from the front then you are truthful, and if it
+is from behind then he is truthful." So they looked at the shirt and it was torn from behind. This is the
+saying of al-Ḥasan, ʿIkrimah, Qatādah, al-Ḍaḥḥāk, Mujāhid also, and al-Suddī; al-Suddī said he was her
+cousin, and it is related from Ibn ʿAbbās, and that is the sound position in the chapter, God knows best. Ibn
+ʿAbbās is also reported, through Isrāʾīl from Simāk from ʿIkrimah, to have said "he was a bearded man," and
+through Sufyān from Jābir from Ibn Abī Mulaykah "he was of the kingʾs inner circle"; ʿIkrimah said, "He was
+not a child, but a wise man"; Mujāhid, through Manṣūr, said "he was a man." Abū Jaʿfar al-Naḥḥās then argues:
+what is more fitting to the meaning — and God knows best — is that he was a rational, wise man whom the king
+consulted and who brought this indication; for had he been a child, his testimony for Yūsuf would have
+sufficed without needing to produce an argument from customary practice, since a childʾs speech is a sign and
+a miracle and would have been clearer than arguing from custom. This does not contradict the ḥadīth "Four
+spoke while they were young, among them the companion of Yūsuf," the meaning being "young" in the sense of
+not an old man. And there is a further indication: Ibn ʿAbbās relates the ḥadīth from the Prophet ﷺ, yet the
+report from him is recurrent that the companion of Yūsuf was not a boy. **[Qurṭubī]** adds his own comment:
+it is related from Ibn ʿAbbās, Abū Hurayrah, Ibn Jubayr, Hilāl b. Yasāf and al-Ḍaḥḥāk that he was a child in
+the cradle, except that had he been a child who spoke, the proof would have been his very speech, without
+need of arguing from the shirt, and that would have been a breaking of custom and a kind of miracle; and
+those who spoke in the cradle will be mentioned in Sūrat al-Burūj. Third *masʾalah*: if we concede that the
+witness was a small child, then there is no indication in this verse for acting upon *amārāt*, marks; but if
+he was a man, then it is valid as a proof for ruling by the mark — in the case of lost property and in many
+places. Mālik even said concerning thieves: if goods are found with them and a people come and claim them
+without evidence, the ruler waits upon them, and if no one else comes he hands the goods over to them.
+Muḥammad said concerning the household furnishings over which a man and a woman differ: what belongs to men
+goes to the man, what belongs to women to the woman, and what belongs to both man and woman goes to the man.
+Shurayḥ and Iyās b. Muʿāwiyah used to act upon marks in judgments, and the root of that is this verse, God
+knows best. **[Ibn Kathīr]** Yūsuf did not stand idle; he declared the truth and exonerated himself from the
+betrayal she accused him of, saying in truth and honesty, "It was she who sought to seduce me," and he
+mentioned that she pursued him and pulled him towards her until she tore his shirt. Then the witness: "if his
+shirt is torn from the front, and not from the back, then her tale is true" — that he tried to commit an
+illegal sexual act with her; for had he called her to have sex with him and she refused, she would have
+pushed him away from her and torn his shirt from the front. "But if it be that his shirt is torn from the
+back, then she has told a lie and he is speaking the truth": had Yūsuf run away from her — and this is what
+truly happened — and she set out in pursuit, she would have held onto his shirt from the back to bring him
+back to her, thus tearing it from the back. Ibn Kathīr then sets out the same difference over the age and
+gender of the witness: ʿAbd al-Razzāq recorded that Ibn ʿAbbās said he "was a bearded man," an adult male;
+al-Thawrī reported that Jābir said Ibn Abī Mulaykah said Ibn ʿAbbās said, "He was from the kingʾs entourage";
+Mujāhid, ʿIkrimah, al-Ḥasan, Qatādah, al-Suddī, Muḥammad b. Isḥāq and others also said the witness was an
+adult male. Al-ʿAwfī reported that Ibn ʿAbbās said he "was a babe in the cradle," and similar is reported
+from Abū Hurayrah, Hilāl b. Yasāf, al-Ḥasan, Saʿīd b. Jubayr and al-Ḍaḥḥāk b. Muzāḥim, that the witness was
+a young boy who lived in the ʿAzīzʾs house; and Ibn Jarīr al-Ṭabarī preferred this view. **[Jalālayn]** He —
+Joseph — said, declaring himself innocent of the charge, "It was she who attempted to seduce me." And a
+witness of her own folk testified — her paternal cousin; it is reported that he was still a child in the
+cradle — and he said, "If his shirt has been torn from the front, then she speaks the truth and he is of the
+liars." **[Saʿdī]** He cleared himself of what she accused him of, and said, "She sought me for myself." At
+that point the state admitted the possible truthfulness of each of the two, and it was not known which of
+them it was; but God made for truth and honesty signs and indications that point to it, which the servants
+may know and may not know. So God bestowed in this case knowledge of which of the two was truthful, in order
+to clear His prophet and chosen one Yūsuf, and a witness from her household arose, testifying by an
+indication: whoever it is found with is the truthful one. He said, "If his shirt is torn from the front, she
+has spoken the truth and he is of the liars," because that shows that he was the one advancing upon her,
+soliciting her and grappling with her, and that she wanted to push him away from her, so she tore his shirt
+from that side. **[Maʿārif]** Yūsuf, because of his prophetic gentleness, may perhaps not have disclosed her
+secret; but when she took the first step and presented a charge sheet of false accusation against him, he was
+compelled to tell the truth. The matter was dense and delicate: for the ʿAzīz of Egypt it was difficult to
+decide who should be taken as being true, and that was no occasion for evidence and proof. But God, great is
+His majesty, has His own ways of saving His honourable servants from sin and keeping them protected from it,
+and He would do the same for them during their worldly life, arranging to save them from being disgraced even
+if it took a miracle to do so. Usually on such occasions infant children have been chosen to unfold the
+truth — infants not expected to talk customarily — and by giving them the power of speech miraculously God
+arranged the acquittal of His favoured servants from accusations levelled against them. This happened when
+people began accusing Maryam falsely, and God gave a day-old infant, ʿĪsā, the ability to speak, and it was
+through his tongue that He manifested the sanctity of his blessed mother — a very special manifestation of
+His power. Similarly, when another accusation of this nature was made under the umbrella of a major
+conspiracy against Jurayj, a pious elder among the Banū Isrāʾīl, it was a newborn child who testified to his
+innocence; and when Pharaoh became suspicious about Mūsā, the small daughter of the personal hairdresser of
+Pharaohʾs wife was given the power of speech, and it was she who saved Mūsā during his childhood from being
+hurt by Pharaoh. Likewise in this event relating to Yūsuf, according to a narration of Ibn ʿAbbās and Abū
+Hurayrah, God bestowed that power of speech upon a small child lying in a cradle in this house — and in one
+of the finest ways of wisdom, since there was no way it could have occurred to anyone that this child had
+watched their movements and understood what they were doing, and would then be able to describe it in some
+manner. But God is absolutely powerful: when He decides to highlight the greatness of those who strive in the
+mission of obedience to Him, He is quite capable of demonstrating before the whole world that every particle
+of this universe works as His secret service, which knows every criminal inside out and keeps a record of his
+crime, and when the time comes speaks out the truth. Think of the Resurrection and the awesome plain of
+Ḥashr, when at the accounting of deeds human beings will, goaded by their old worldly habit, refuse to admit
+their crimes, and then their very hands and feet and skins and surroundings will be called upon to stand as
+witnesses against them, laying bare everything they did before the unimaginably huge multitude gathered on
+that fateful day. That will be the time when human beings find out that their hands and feet, the walls and
+doors of their homes inside and the security arrangements outside, none of them — not even one — were their
+own; in fact all of them were secret agents of God, the Lord of all power. In sum, this small child, lying in
+the cradle oblivious of everything in the world around him, was made to speak as a miracle of Yūsuf precisely
+at the time when the ʿAzīz of Egypt, on the horns of a dilemma, did not know what to do. Furthermore, had
+this child only said that Yūsuf is free of any blame and that Zulaykhā is at fault, even that much would have
+been no less than a miracle and a formidable proof of Yūsufʾs innocence; but God had this child say something
+farsighted, which would separate truth from falsehood decisively. **[Study Quran]** Josephʾs words in his
+defense mean, "She wanted to commit indecency with me, but I refused and fled" **[al-Bayḍāwī]**. "A witness
+from her own people" refers, according to many traditional sources, to one of Zulaykhāʾs paternal cousins who
+was a wise man **[al-Rāzī]**. If the shirt were torn from the front it would indicate that Zulaykhā was
+telling the truth, because it would mean she struggled to defend herself from Joseph; that the shirt was torn
+from the back indicates that Joseph was telling the truth, because it means Zulaykhā chased Joseph and laid
+hold of his shirt from the back to keep him from escaping.
+
+**Language.** The conditional *in kāna qamīṣuhu qudda min qubul* presents a difficulty **[Qurṭubī]** records:
+*kāna* stands in the place of the jussive by the condition, yet the particles of condition turn the past into
+the future, and that does not happen with *kāna*. Al-Mubarrid answers that this is because of the strength of
+*kāna* and that it is used to express all verbs; al-Zajjāj that the meaning is "if it be known" — knowledge
+has not yet occurred, and so likewise being, because it conveys knowledge — and that *qudda min qubul* is the
+predicate of *kāna* in the past tense, as Zuhayr said, "and he had folded his side upon a hidden grudge, so
+he neither disclosed it nor advanced." On the readings: Yaḥyā b. Yaʿmar and Ibn Abī Isḥāq read *min qubulu*
+and *duburu* with ḍammah on all three letters; al-Zajjāj explains that he makes them goals like *qablu* and
+*baʿdu*, as though he said "from his front and from his back," and when the annexed noun was dropped — though
+it was intended — the annexed became a goal in itself after the annexed-to had been its goal. *Min qubala*
+and *min dubara* with fatḥah are allowed by assimilation to what is not declined, since the word is definite
+and removed from its category; and Maḥbūb reported from Abū ʿAmr *min qabl* and *min dubr*, lightened and in
+the genitive. The *anna* normally introducing testimony is omitted because the testimony is taken in the
+sense of speech **[Ṭabarī]**.
+
+**Rulings.** **[Qurṭubī]**ʾs third *masʾalah* is the juristic yield of the verse: whether the witness was a
+child or a man determines whether the verse licenses reasoning from marks (*amārāt*). If a child, the miracle
+is his speech and no inference is involved; if a man, then the shirt is a mark and the verse becomes the root
+of a whole discipline — Mālik on goods recovered from thieves and claimed without evidence, Muḥammad on
+household furnishings disputed between spouses (what belongs to men goes to the man, what to women to the
+woman, what to both to the man), and the practice of Shurayḥ and Iyās b. Muʿāwiyah in deciding cases by
+marks. This is the same principle invoked at 12:18 for Yaʿqūbʾs argument from the intactness of the shirt.
+
+**Cross-references.** 17:31 (*khiṭʾ*); 4:11 (the analogy for the omitted *anna*); 27:43 and 66:12 (feminine
+subjects described with masculine plurals); 19:29–33 (ʿĪsā in the cradle); the ḥadīth of Jurayj; the
+daughter of Pharaohʾs wifeʾs hairdresser **[Maʿārif]**. The ḥadīth "None spoke in the cradle except three"
+and "Four spoke while they were young" are the two forms cited by **[Qurṭubī]** and **[Ṭabarī]**.
+
+**Reflection.** Everything in the scene turns on a piece of cloth. Two people give contradictory accounts,
+there is no third human observer, and the case looks undecidable — which is exactly the situation the verse
+describes when **[Maʿārif]** says "that was no occasion for evidence and proof." The answer that arrives is
+neither a confession nor an oath but a physical trace read by a rule of custom: a man fleeing is torn from
+behind. **[Saʿdī]** generalises it into a doctrine of providence — God made for truth signs and indications
+which the servants may or may not know — and **[Maʿārif]** pushes it further into eschatology: the same
+universe that supplies a torn shirt will supply hands, feet and skins as witnesses on the plain of Ḥashr. The
+disagreement about whether the witness was a babe or a wise man is not idle. If a babe, the case is settled by
+miracle; if a wise man, it is settled by evidence. **[Qurṭubī]** notes that Ibn ʿAbbās transmitted the
+miracle-ḥadīth and yet also, recurrently, that the witness was not a child — and al-Naḥḥās prefers the wise
+man precisely because a speaking infant would have made the shirt superfluous. Both readings are preserved,
+and the reader is left with the more useful of the two: that God clears the truthful by means that can be
+examined.
+
+---
+
+## 12:27
+
+*"But if his shirt is torn from behind, then she has lied and he is among the truthful."*"*
+
+**Meaning.** **[Saʿdī]** "And if his shirt is torn from behind, she has lied and he is of the truthful,"
+because that shows his flight from her, and that she was the one who pursued him, so she tore his shirt from
+that side. **[Ṭabarī]** the second half of the witnessʾ alternative: the one being sought, if he is fleeing,
+is only approached from behind, so it was known that had the tear been from the front he would not have been
+a fleeing pursued man but a pursuer being pushed off; Ibn Isḥāq supplies the reason in plain terms — a man
+only comes to a woman facing her, and a man does not come to a woman from behind. **[Ibn Kathīr]** had Yūsuf
+run away from her, which is what truly happened, and she set out in pursuit, she would have held onto his
+shirt from the back in order to bring him back to her, thus tearing his shirt from the back. **[Qurṭubī]**
+records the fourth opinion on the identity of the witness in the form in which this half-clause was actually
+delivered: a wise man of intellect whom the vizier consulted in his affairs, one of the womanʾs household,
+who was with her husband and said, "I heard the racing and the clamour from behind the door, and the tearing
+of the shirt, and it is not known which of you was ahead of the other; if the shirtʾs tear is from the front
+then you are truthful, and if it is from behind then he is truthful." So they looked at the shirt, and it was
+torn from behind. This is the saying of al-Ḥasan, ʿIkrimah, Qatādah, al-Ḍaḥḥāk, Mujāhid also and al-Suddī;
+al-Suddī said he was her cousin, and it is related from Ibn ʿAbbās, and that is the sound position in the
+chapter, God knows best. **[Jalālayn]** "but if his shirt has been torn from behind, then she has lied and he
+is of the truthful."
+
+**Reflection.** The verse is one clause long and carries the whole verdict of the case. Its form is worth
+noticing: the witness does not say who is lying. He states a rule and lets the garment apply it, so that the
+accuser is present at the moment her own accusation is tested and cannot claim to have been out-manoeuvred.
+**[Qurṭubī]**ʾs version of the manʾs speech makes this explicit — "I heard the racing and the clamour from
+behind the door, and it is not known which of you was ahead of the other" — an admission of ignorance that
+gives the criterion its authority. The truth is established not by a cleverer story but by a physical fact
+that neither party can alter after the event.
+
+---
+
+## 12:28
+
+*"So when he saw that his shirt was torn from behind, he said, "Truly this is of the guile of you women.
+Your guile is indeed great.""*
+
+**Meaning.** **[Ṭabarī]** This is a report about the womanʾs husband, and he is the one who said to her: this
+act is of your guile — that is, of your doing, meaning the doing of women — "your guile is great." And it is
+said that it is a report about the witness, that he was the one who said it. Ibn Isḥāq: when Iṭfīr saw his
+shirt torn from behind he knew that it was of her guile, and said, "Truly it is of your guile; your guile is
+great." **[Qurṭubī]** It is said that the ʿAzīz said this to her in response to her saying, "What is the
+recompense of one who intends evil against your family?"; and it is said that the witness said it to her.
+*Kayd* is *makr* and *ḥīlah*, as has already been mentioned in al-Anfāl. He said "great" because of the
+greatness of their trial and of their contrivance to extricate themselves from their predicament. Muqātil,
+from Yaḥyā b. Abī Kathīr, from Abū Hurayrah, reports that the Messenger of God ﷺ said, "The guile of women
+is greater than the guile of Satan, because God the Exalted says, ʿthe guile of Satan was weakʾ (4:76), and
+He said, ʿyour guile is great.ʾ" **[Ibn Kathīr]** When her husband became certain that Yūsuf was telling the
+truth and that his wife was lying when she launched the accusation of betrayal against Yūsuf, he said,
+"Surely it is a plot of you women": this false accusation and staining of the young manʾs reputation is but
+one of many plots that you women have — "certainly mighty is your plot!" **[Jalālayn]** So when he — her
+husband — saw that his shirt was torn from behind he said, "Indeed this" — that is, your saying, "What is to
+be the requital of him who intends …," to the end of the verse — "is of the guile of you, O women. Verily
+your guile is great." **[Maʿārif]** In the last two of the verses cited above it has been stated that the
+ʿAzīz of Egypt had already realised, by having heard the child speak in the manner he did, that some special
+supernatural situation was there to demonstrate the innocence of Yūsuf. After that, according to what the
+child had said, when he saw that the very shirt of Yūsuf was really torn from the back, he became certain
+that it was Zulaykhā who was at fault and Yūsuf who was innocent. So first he addressed Zulaykhā and said,
+"Truly it is of your guile" — that is, all this is a guile of yours whereby you wish to pass on your
+wrongdoing to someone else. Then he said that great is the guile of women, for it is difficult to understand
+and not easy to get out of. The reason is that women outwardly give the impression of being soft, delicate,
+even weak; a non-discerning onlooker is likely to believe in what they say — but given a lack of wisdom and
+honesty, that could be a web of deception **[Maẓharī]**. **[Study Quran]** "He" in "he saw" can refer to
+Potiphar or to the wise man from Zulaykhāʾs family **[al-Qushayrī]**. If it refers to Potiphar, then his
+statement "Verily this is among the schemes of you women" would be a response to Zulaykhāʾs lie to him in
+12:25, "What is the recompense for one who desires ill toward thy wife?"
+
+**Ḥadīth & āthār.** The saying "the guile of women is greater than the guile of Satan" is reported by
+**[Qurṭubī]** through Muqātil from Yaḥyā b. Abī Kathīr from Abū Hurayrah, and by **[Maʿārif]** from Abū
+Hurayrah in Qurṭubīʾs tafsīr, with the argument taken from the juxtaposition of 4:76 and this verse.
+**[Maʿārif]** immediately adds the necessary qualification: it is obvious that not all women are meant here;
+what is meant are only those of them who are involved in practising guiles and excuses.
+
+**Language.** *Kayd* is *makr* and *ḥīlah* **[Qurṭubī]**. The pronoun in *fa-lammā raʾā* is disputed between
+the husband and the witness **[Ṭabarī] [Study Quran]**, and **[Jalālayn]** resolves the ambiguity by
+identifying "this" with her preceding sentence rather than with the torn shirt.
+
+**Cross-references.** 4:76 ("the guile of Satan was weak"); 12:25 (the accusation this answers); 8:30
+("they plot and God plots") — the same word *kayd* **[Qurṭubī]**.
+
+**Reflection.** The man who says "your guile is great" has just watched a lie fail in public, and his
+sentence is not a denunciation of Yūsufʾs accuser so much as an acknowledgement that he had been nearly
+taken in. **[Maẓharī]**ʾs explanation of why the guile is called great is the sober part: it works because it
+is dressed in softness, and the onlooker who is not discerning believes it. **[Maʿārif]**ʾs caveat — that the
+saying concerns those who practise deception, not women as such — is the guard against turning a narrative
+observation into a general slander, and it is worth noting that the same sūrah gives the counter-instance:
+the daughter of the old man of Midian, whose counsel at 28:26 Ibn Masʿūd ranks with the ʿAzīzʾs as one of the
+three keenest insights in the world.
+
+---
+
+## 12:29
+
+*"Yūsuf, turn away from this; and you, seek forgiveness for your sin. Truly you were of those in error."*"*
+
+**Meaning.** **[Ṭabarī]** This, according to what is reported from Ibn ʿAbbās, is a report from God about
+what the witness said, to the woman and to Yūsuf. "Yūsuf, turn away from this" means: O Yūsuf, turn away from
+mentioning what passed between her and you in her soliciting you, and do not mention it to anyone — as Ibn
+Zayd said, "do not mention it." "And seek forgiveness" — you, from your husband: ask him not to punish you for
+the sin you committed and to overlook it and conceal it upon you. "You were of those in error" means you were
+of the sinners in soliciting Yūsuf for himself. **[Ṭabarī]** adds the lexical note: one says *khaṭiʾa* in
+respect of sin, *yakhṭaʾu khiṭʾan wa-khaṭaʾan*, as God said, "their killing of them was a great *khiṭʾ*"
+(17:31), and *khaṭāʾ* in respect of a matter; and *ṣawb* is also reported for *ṣawāb*, as the poet Aws b.
+Ghalfāʾ said, "By your life, my erroring and my hitting are upon me, and what I have destroyed is wealth";
+and Umayyahʾs line is recited, "Your servants err, and You are a Lord in whose two hands are the deaths and
+the decrees." And He said "of the *khāṭiʾīn*" rather than "of the *khāṭiʾāt*" because He did not intend by
+it to report about women, but to report about whoever does that thing and errs. **[Qurṭubī]** The one who
+said this is the witness. *Yūsuf* is a single vocative — that is, "O Yūsuf," with the *yāʾ* deleted. "Turn
+away from this" means do not mention it to anyone, and conceal it. Then he turned to her and said, "and you,
+seek forgiveness for your sin" — seek your husbandʾs forgiveness for your sin, that he may not punish you.
+"You were of the *khāṭiʾīn*" — and he did not say *khāṭiʾāt* because he intended to report about the
+masculine and the feminine together, and gave precedence to the masculine; the meaning is "of the erring
+people" or "of the erring folk," like "she was of a disbelieving people" (27:43) and "and she was of the
+devout" (66:12). And it is said that the one who said to Yūsuf "turn away" and to her "seek forgiveness" was
+her husband the king; and there are two explanations: the first, that he was not a jealous man, and that is
+why he was calm — and the absence of jealousy among many of the people of Egypt is well known; the second,
+that God removed jealousy from him, and in that there was a kindness towards Yūsuf, so that he was spared his
+outburst and he pardoned her. **[Ibn Kathīr]** The ʿAzīz ordered Yūsuf to be discreet about what had
+happened — do not mention to anyone what has happened — and then, addressing his wife, told her to ask
+forgiveness for her sin, the evil desire she had wanted to satisfy with this young man and then the false
+accusations she invented about him. Ibn Kathīrʾs remark is that the ʿAzīz was an easy man, or that he made
+excuse for his wife because she had seen in Yūsuf an appeal she could not resist. **[Jalālayn]** Then he
+said, "O Joseph, ignore this matter and do not mention it to anyone, lest it be broadcast; and you, O
+Zulaykhā, ask forgiveness for your sin — surely you have been of the erring," the sinful. But the tale was
+reported and became public. **[Saʿdī]** Then her master, when the matter became certain to him, said to
+Yūsuf, "Yūsuf, turn away from this" — leave off speaking of it, forget it, and do not mention it to anyone,
+in order to cover over his family. "And seek forgiveness," O woman, "for your sin; you were of those in
+error." So he commanded Yūsuf to turn away, and her to seek forgiveness and to repent. **[Maʿārif]** After
+pointing out to Zulaykhā her error, the ʿAzīz of Egypt said to Yūsuf, "Yūsuf, turn away from this" — do not
+speak about it before others, so that there be no disgrace because of this. Then he addressed Zulaykhā and
+said, "and you seek forgiveness for your sin; surely you were of the sinners." This obviously means that she
+should seek forgiveness from her husband; and it could also mean that she should seek forgiveness from Yūsuf,
+for it was she who made the error and put the blame on him. **[Maʿārif]** then raises the difficulty under a
+"Special Note": it is very surprising that a husband who finds out open proof of such immodesty and breach of
+trust on the part of his wife would not be agitated, but would go on talking with perfect peace of mind —
+unusual indeed, given the compulsion of human nature in such circumstances. Imam al-Qurṭubī said that one of
+the reasons for this may be that the ʿAzīz of Egypt was someone lacking that kind of sense of shame; and it
+is also possible that just as God supernaturally arranged to save Yūsuf first from sin and then from
+disgrace, in the same way it was part of this arrangement that He did not let the ʿAzīz become agitated in
+anger. Otherwise, as is customary, this would have been an occasion where one is likely to go to physical
+assault without bothering to investigate first, not to speak of verbal aggression, which would be rather
+elementary. If the ʿAzīz, affected by common human response, had been enraged, it is possible that he might
+have committed something, physically or verbally, that would have been against the august status of Yūsuf.
+These are the wonders of Divine Power, which openly prove how those who stand steadfast in obedience to their
+most true Lord are protected at every step they take in His way; and the honour of creating what is there at
+its best belongs only to God. **[Study Quran]** Here the speaker is understood by some to be the wise man from
+Zulaykhāʾs family **[al-Qushayrī]**. His advice to Joseph to "turn away from this" means that Joseph should
+not mention this incident to anyone and should conceal its details, lest it become known to the public and
+presumably form the basis of much speculation and rumour-mongering. The news of this event nevertheless
+spread, as indicated in 12:30.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** brings into this passage the ḥadīth of the seven whom God will shade in
+His shade on the day there is no shade but His — among them "a man who refuses the call of a charming woman
+of noble birth for illicit intercourse with her, and says, ʿI fear God.ʾ" The others named are the just imam,
+a youth who grows up in the worship of God, a man whose heart is attached to the mosque from the time he
+leaves it until he returns to it, two men who love each other only for Godʾs sake and meet and part in Godʾs
+cause only, a man who gives charity so secretly that his left hand does not know what his right hand has
+given, and a man who remembers God in seclusion and whose eyes are then flooded with tears. Yūsufʾs case at
+the door of the ʿAzīzʾs house is the scriptural archetype of the fourth of these.
+
+**Language.** *Khaṭiʾa* belongs to sin and *khaṭāʾ* to a matter **[Ṭabarī]**; the masculine plural
+*khāṭiʾīn* for a single woman is explained either by the predominance of the masculine when both are intended
+**[Qurṭubī]** or by the fact that the report is about whoever does the deed, not about women **[Ṭabarī]**,
+with 27:43 and 66:12 as parallels.
+
+**Cross-references.** 17:31; 27:43; 66:12; 4:76; 12:30 (the news spreading despite the instruction to
+conceal).
+
+**Reflection.** Three commands are given in one breath and they are not equal. To Yūsuf: silence. To her:
+repentance. And the distribution of those commands is itself a moral judgment — the innocent man is asked to
+carry the cost of the cover-up, because the alternative is a scandal that would destroy a household and
+perhaps him. **[Maʿārif]**ʾs "Special Note" is the most searching comment in the tradition on this verse, and
+its second explanation is the better one: the calm of the ʿAzīz is not indifference but protection, another
+instance of Godʾs arrangement for a servant who stood firm. The first explanation — that the man simply lacked
+the sense of shame — is offered because it is the ordinary human possibility, and **[Qurṭubī]**ʾs note that
+jealousy was lacking among many Egyptians keeps it honest. But the verse is quoted for something else too:
+that concealment was commanded and concealment failed, because 12:30 opens with the women of the city already
+talking. Some things cannot be buried by an order, and the sūrah will make use of the publicity it could not
+prevent.
+
+---
+
+## 12:30
+
+*"And women in the city said, "The ʿAzīzʾs wife seeks to seduce her young man from himself. He has smitten
+her heart with love. Truly we see her in manifest error.""*
+
+**Meaning.** **[Ṭabarī]** The women spoke of the affair of Yūsuf and the affair of the wife of the ʿAzīz in
+the city of Egypt, and what had passed between them became current there and was not concealed; and they
+said, "The ʿAzīzʾs wife seeks to seduce her slave boy from himself." Ibn Isḥāq: the talk spread in the town
+and the women spoke of his affair and hers, and they said, "The ʿAzīzʾs wife seeks to seduce her young man
+from himself" — that is, her slave. As for *al-ʿazīz*, it is "the king" in the speech of the Arabs, as in Abū
+Duʾādʾs line, "a pearl a diver dove for, revealed to an *ʿazīz* on a day of drizzle," meaning the king; and
+it is from *ʿizzah*. "He has smitten her heart with love": the love of Yūsuf reached the *shaghāf* of her
+heart and entered beneath it, until it dominated her heart. The *shaghāf* of the heart is its veil and its
+covering in which it is, and al-Nābighah al-Dhubyānī meant it when he said, "And a care has intervened
+beneath that, entering as a *shaghāf* enters, which the fingers seek" — meaning the fingers of the
+physicians. **[Ṭabarī]** takes it as *shaghāf* with fatḥah, while the lexicographers take it as *shighāf*
+with ḍammah, a disease that takes one beneath the ribs on the right side and, when it reaches the spleen,
+kills its owner — and this is the better of the two sayings. The glosses then multiply: ʿIkrimah, "his love
+entered beneath the *shaghāf*"; Mujāhid, "his love entered her *shaghāf*" and "his love was in her
+*shaghāf*"; Ibn ʿAbbās, "he attached her with love" and "it dominated her"; al-Shaʿbī, "*mashghūf* is the
+lover and *mashʿūf* the madman"; al-Ḥasan, "he reached her inward parts with love," with Abū Bishr adding
+that the people of Madīnah say so, and Qatādah from al-Ḥasan, "he reached her inward parts"; Qatādah also,
+"her love for him entered her inward parts" and "he attached her"; al-Ḍaḥḥāk, "it is the love clinging to
+the heart" and "she perished with love for him, and the *shaghāf* is the *shaghāf* of the heart"; al-Suddī,
+"the *shaghāf* is a skin upon the heart, called the tongue of the heart — the love entered the skin until it
+reached the heart." On the readings: the general reading of the amṣār is with *ghayn*, *qad shaghafahā*; Abū
+Rajāʾ read *qad shaʿafahā* with *ʿayn*, as did ʿAwf, and al-Aʿraj read it and said, "*shaʿafahā* — when he is
+the one who loves her"; these took the meaning to be that love had encompassed her. And some of the people of
+knowledge of the speech of the Arabs among the Kūfans used to say it is from the saying of one who says "he
+has been *shuʿifa* by her," as though it took her every way, from the *shiʿāf* of the mountains, which are
+their heads. It is reported from Ibrāhīm al-Nakhaʿī that he said, "*shaghaf* is the *shaghaf* of love, and
+*shaʿaf* is the *shaʿaf* of a beast when it is startled." **[Ṭabarī]** comments that al-Nakhaʿī is right about
+the root, except that the Arabs sometimes borrow a word and place it other than in its place, as Imruʾ
+al-Qays did: "Will you kill me, though I have *shaʿaft* her heart, as the man smearing with tar *shaʿafs* the
+tarred she-camel?" — so the *shaʿaf* of the woman is from love and the *shaʿaf* of the tarred camel from
+fright, and he likened the pang of love and its burning to that. Ibn Zayd said that *shaʿaf* is in hatred and
+*shaghaf* in love; **[Ṭabarī]** replies that this has no meaning, because *shaʿaf* in the speech of the Arabs
+carrying the meaning of the encompassing of love is too well known for anyone with knowledge of their speech
+to be ignorant of it. And the right reading, in his view, is *qad shaghafahā* with *ghayn*, by the consensus
+of the authoritative readers. "We see her in manifest error": they said, we see the wife of the ʿAzīz, in her
+soliciting her young man and the dominance of his love over her, to be in error of action and deviation from
+the right way — manifest to whoever considers it and knows that it is error and mistake, not rightness or
+soundness. And their saying what they said, and their talk about her affair and Yūsufʾs, was — according to
+what is mentioned — a guile from them, so that she would show them Yūsuf. **[Qurṭubī]** *Niswah* is also said
+as *nuswah* with ḍammah on the *nūn*, which is the reading of al-Aʿmash, al-Mufaḍḍal and al-Sulamī; and the
+large plural is *nisāʾ*. Both *qālat niswatun* and *qāla niswatun* are permissible, like *qālat al-aʿrāb*
+and *qāla al-aʿrāb*, because the story spread among the people of Egypt and the women talked of it. It is
+said that they were the wife of the ʿAzīzʾs cupbearer, the wife of his baker, the wife of the master of his
+beasts and the wife of the master of his prison; and it is said the wife of the chamberlain, from Ibn ʿAbbās
+and others. *Al-fatā* in the speech of the Arabs is the young man, and the woman is *fatāh*. On "he has
+smitten her heart with love": it is said *shaghafahā* means he dominated her; it is said his love entered her
+*shighāf*, from Mujāhid and others; ʿAmr b. Dīnār reports from ʿIkrimah from Ibn ʿAbbās, "it entered beneath
+her *shighāf*"; al-Ḥasan said *shaghaf* is the inward of the heart; al-Suddī and Abū ʿUbayd said the
+*shighāf* of the heart is its covering, a skin upon it; and it is said it is the middle of the heart — the
+meanings of these sayings are close together, and the sense is that his love reached her *shighāf* and
+dominated it. Al-Nābighahʾs line is again cited. And it is said that *shighāf* is a disease, and al-Aṣmaʿī
+recited the *rajaz*, "He follows her, and she is a *shaghāf* for him." Readings: Abū Jaʿfar b. Muḥammad, Ibn
+Muḥayṣin and al-Ḥasan read *shaʿafahā* with unpointed *ʿayn*; Ibn al-Aʿrābī said its meaning is that his love
+burned her heart, and he said the first is what is acted upon; al-Jawharī said *shaʿafahu al-ḥubb* burned his
+heart; Abū Zayd said it made him sick, and one says *shuʿifa bi-kadhā*, so he is *mashʿūf*. Al-Ḥasan read
+*qad shaʿafahā* and said it means he reached her inward parts with love. Al-Naḥḥās said its meaning for most
+of the people of language is "it took her every way," because the *shiʿāf* of the mountains are their tops;
+and one says *shughifa bi-dhālika shaghfan* with sūkūn on the *ghayn*, when one is devoted to a thing —
+except that Abū ʿUbaydah recited Imruʾ al-Qaysʾs line, "that she may kill me, and I have *shaʿaft* her
+heart, as the man smearing with tar *shaʿafs* the tarred one" — the tarred one being the one smeared with
+pitch, and when the camel is smeared with pitch it finds pleasure along with burning, like the burning of
+passion with its pleasure; so the pang of love and its burning were likened to that. It is related from
+al-Shaʿbī that he said: *shaghaf* with pointed *ghayn* is love, and *shaʿaf* with unpointed *ʿayn* is
+madness. Al-Naḥḥās said *shaghifahā* with kasrah on the *ghayn* is reported, but nothing is known in the
+speech of the Arabs except *shaghafahā* with fatḥah on the *ghayn*, and likewise *shaʿafahā*, meaning He
+left her *mashʿūfah*. Saʿīd b. Abī ʿArūbah reports from al-Ḥasan: the *shaghāf* is the veil of the heart and
+the *shaʿāf* the black of the heart, and had love reached the *shaʿāf* she would have died. Al-Ḥasan also
+said it is said that the *shaghāf* is the skin adhering to the heart which is not seen, the white skin; so
+his love adhered to her heart as the skin adheres to the heart. "We see her in manifest error" — in this act.
+Qatādah said "her young man" means her husbandʾs young man, because Yūsuf was with them in the ruling of
+slaves and her command over him was effective. Muqātil reports from Abū ʿUthmān al-Nahdī from Salmān
+al-Fārisī: the wife of the ʿAzīz asked her husband to give her Yūsuf as a gift and he gave him to her, and
+said, "What will you do with him?" She said, "I will take him as a son." He said, "He is yours." So she
+raised him until he grew up, and in her soul towards him was what was in her soul; and she would unveil
+herself to him and adorn herself and call him by way of kindness, and God protected him *(Isrāʾīliyyāt)*.
+**[Ibn Kathīr]** God states that the news of what happened between the wife of the ʿAzīz and Yūsuf spread in
+the city — that is, Egypt — and people talked about it. Women of chiefs and princes said this while
+admonishing and criticising the wife of the ʿAzīz: she is luring her servant to have sex with her; "her love
+for him filled her heart and engulfed it"; "we see her in plain error," by loving him and trying to seduce
+him. Muḥammad b. Isḥāq commented on the following verse that they had heard of Yūsufʾs beauty and wanted to
+see him, so they said these words in order to get a look at him. He was given half of all beauty, as the
+authentic ḥadīth of the Night Journey states. **[Jalālayn]** And some of the women in the city — the city of
+Egypt — said, "The Court Officerʾs wife has been seducing her boy, her servant. Indeed he has smitten her
+heart with love" — *ḥubban* being for specification; in other words, "her love of him has entered her
+heartʾs pericardium, *shaghāfa qalbihā*, that is, its inner casing." "Lo! we see her to be in plain
+aberration," that is, in error evident in her love of him. **[Saʿdī]** That is to say, the news became famous
+and spread in the town, and the women talked of it, so they began to blame her and to say, "The ʿAzīzʾs wife
+solicits her young man for himself" — this is a thing held to be ugly! She is a woman of great standing and
+her husband is of great standing, and yet she did not cease soliciting her young man who is under her hand and
+in her service. And with all this, his love reached a great extent in her heart: "he has smitten her with
+love" — his love reached the *shaghāf* of her heart, its inward and its black, and this is the greatest that
+love can be. "We see her in manifest error," since there issued from her this state which does not befit her,
+a state that lowers her standing and sets it low among people. **[Maʿārif]** In the verses which follow there
+is mentioned another event connected with the story narrated earlier, in which it has been said that this
+event, despite the effort to keep it concealed, spread around among the women in the families of the
+courtiers, and these women started blaming the wife of the ʿAzīz of Egypt. Some commentators have said that
+these were five women, all wives of officials close to the ʿAzīz **[Qurṭubī, Maẓharī]**. These women were
+talking among themselves, saying: look how regrettable it is that the wife of the ʿAzīz of Egypt, despite
+enjoying a status so high, had become enamoured with her young slave and was looking for the fulfilment of
+what she wanted from him — in this, we think, she is in grave error. The word used in the verse is *fatāhā*,
+translated as "her youthful slave": *fatāʾ* denotes someone youthful; in customary usage a boy slave when
+small is called *ghulām*, and in his youth the boy is called *fatā* and the girl *fatāh*. Here Yūsuf has been
+referred to as the slave of Zulaykhā either because that which is owned by the husband is also customarily
+called that which is owned by the wife, and/or because Zulaykhā had taken Yūsuf from her husband as a gift
+**[Qurṭubī]**. **[Study Quran]** As the news of what transpired between Joseph and Zulaykhā spread throughout
+Egypt, some of the wives of the notables began criticising and blaming Zulaykhā for her attempt to seduce
+Joseph **[Ibn Kathīr]**. "He has filled her with ardent love" means Zulaykhāʾs love for Joseph had reached
+the deepest recesses of her heart **[al-Meybodī]** and become all-consuming **[al-Rāzī]**. Like the brothers
+who accused Jacob in 12:8 of being in manifest error because of his intense love for Joseph, the women
+considered Zulaykhā to be in manifest error because of her ardent love for him **[al-Rāzī]**.
+
+**Readings.** *Niswah*/*nuswah* (al-Aʿmash, al-Mufaḍḍal, al-Sulamī); *qāla*/*qālat* before the feminine
+collective; *shaghafahā* with *ghayn* (the general reading of the amṣār, and **[Ṭabarī]**ʾs verdict by the
+consensus of the authoritative readers) against *shaʿafahā* with *ʿayn* (Abū Rajāʾ, ʿAwf, al-Aʿraj, Abū
+Jaʿfar b. Muḥammad, Ibn Muḥayṣin, al-Ḥasan), and the reported but rejected *shaghifahā* with kasrah
+**[Qurṭubī]**. The semantic distinction proposed by al-Shaʿbī — *shaghaf* is love, *shaʿaf* madness — and by
+Ibn Zayd — *shaʿaf* in hatred, *shaghaf* in love — are both recorded, the second rejected by **[Ṭabarī]** as
+contrary to well-known usage.
+
+**Language.** *Al-ʿazīz* is "the king" in the speech of the Arabs, from *ʿizzah*, witnessed by Abū Duʾādʾs
+line **[Ṭabarī]**; *al-fatā* is the young man and *al-fatāh* the young woman **[Qurṭubī]**; *ḥubban* in
+*shaghafahā ḥubban* is an accusative of specification **[Jalālayn]**; and *shaghāf* is contested between the
+veil or covering of the heart and a disease beneath the ribs on the right side that kills when it reaches the
+spleen **[Ṭabarī]**, with al-Ḥasan adding that the *shaʿāf* — the black of the heart — is deeper still, and
+that had love reached it she would have died.
+
+**Cross-references.** 12:8 ("you are in manifest error" — the brothers on Yaʿqūbʾs love for Yūsuf); 12:29
+(the command to conceal which this verse overturns); 12:31 (the banquet contrived to answer the women);
+19:29–33 and the ḥadīth of Jurayj **[Maʿārif]**; the Night Journey ḥadīth on Yūsufʾs half of beauty
+**[Ibn Kathīr]**.
+
+**Reflection.** The verse is gossip, and the sūrah records it without a word of comment. Three things are
+said by women who were not present: that she solicited him, that his love has reached the innermost part of
+her heart, and that she is in manifest error. The first is true; the second is truer than they know, since
+**[al-Ḥasan]**ʾs distinction between *shaghāf* and *shaʿāf* implies a depth she herself has not measured; the
+third is the ordinary verdict of a society on a woman of high standing who loves beneath it — "a state that
+lowers her standing and sets it low among people," as **[Saʿdī]** puts it. And **[Ṭabarī]** ends with the
+detail that matters for what follows: their talk was itself a guile, so that she would show them Yūsuf —
+which **[Ibn Kathīr]** confirms from Ibn Isḥāq, "they heard of Yūsufʾs beauty and wanted to see him, so they
+said these words in order to get a look at him." The blame was a pretext. The sūrahʾs symmetry with 12:8,
+noted by **[Study Quran]** through al-Rāzī, is exact: there the brothers called a fatherʾs love for his son a
+manifest error; here the women call a wifeʾs love for a slave the same. In both cases the accusers are right
+about the fact and wrong about the judgment, and in both cases their words become the instrument by which God
+advances what He intended.
+
+---
