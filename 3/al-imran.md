@@ -1763,10 +1763,10 @@ glorification, morning and evening, so that the very restraint becomes an organ 
 house, sterile by nature, is like Mary's sustenance, coming without causes — the child will be God's
 breaking of strong causes, since when His wisdom runs things through known means He can also tear the
 means apart, being the Doer of what He wills, to whose power causes submit, so that nothing defies
-Him however entrenched. **[Study Quran]**'s note at 3:40: for the sign's fuller story see 19:2–15 — in
-Luke 1:20 it is "mute, unable to speak, until these things come to pass, because you did not believe
-my words," and the Qurʾān everywhere softens this: at 19:10 the confinement is *tanbīhan*, "wise
-untiring glorification," three nights' silence as worship, not as penalty (cf. 19:11).
+Him however entrenched. **[Study Quran]**'s note at 3:40–41 refers the fuller account of the sign to
+(19:2–15) and glosses the added charge of 3:41: *bi'l-ʿashiyy* is the time from the sun's decline
+until its setting, *wa-l-ibkār* from daybreak until sunrise — the confinement, in other words, turned
+from a penalty into an appointment of praise.
 
 **Reflection.** The sign is privation turned to occupation — speech withheld so that remembrance may be
 eaten whole. The Qurʾān's one prophet struck dumb (alongside Zachariah's namesake in the Gospels) says
@@ -1821,9 +1821,8 @@ prostration and bowing are joined in God's command to Abraham and Ishmael at 2:1
 l-rākiʿīn* repeats 2:43.
 
 **Rulings.** The verse is the classic locus for prayer's postures: **[Ṭabarī]**'s note that the
-disputed meanings of *qunūt* are the same as at 2:238 is the sūrah's cross-reference; ʿĀʾisha's
-"the Messenger of God commanded *qunūt*…" and the legal schoolings over the *witr*-supplication lie
-beyond the verse's sections here and at 2:238. **[Ibn Kathīr]**: the prostration that is named with the
+disputed meanings of *qunūt* are the same as at 2:238 is the sūrah's cross-reference, and its three
+verbs give the anatomy of the form — standing long, bowing, prostrating. **[Ibn Kathīr]**: the prostration that is named with the
 bowing — this is the prayer in its completeness, and the command to her, a woman serving in the
 sanctuary, fixes that the women of the House were in the rows, not outside the law.
 
