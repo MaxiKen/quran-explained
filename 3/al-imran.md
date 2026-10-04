@@ -1734,3 +1734,358 @@ unbelief; what closes the door on unbelief is the answer's second half: *God doe
 man in the sanctuary is, like the girl with winter fruit, a living lesson in *yurzuqu man yashāʾu
 bi-ghayri ḥisāb*: provision — and progeny — belong to the will, not the measure.
 
+
+
+## 3:41 — قَالَ رَبِّ اجْعَلْ لِي ءَايَةً ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَاذْكُر رَّبَّكَ كَثِيرًا ۖ وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ
+
+*"He said: my Lord, appoint me a sign. He said: your sign is that you shall not speak to men for three
+days — only gesture — and remember your Lord much, and glorify at eventide and at dawn."*
+
+**Meaning.** **[Ṭabarī]**: Zakariya's request is framed as a believer's, not an infidel's: *Lord, if
+this call I heard is truly the call of Your angels and a tiding from You, appoint me a sign that it is
+so — so that what Satan whispered into my heart, that it may be some voice other than the angels and a
+tiding not from You, may be removed from me* (al-Suddī's gloss is cited to the letter: "if this voice is
+from You, then appoint me a sign"). Then lexicography: *āya* is a *ʿalāma*, a mark — already explained
+at 2:73; and why the Arabs leave *āya* unglottalised though every *yāʾ* after a vowelless *alif* is
+normally hamzated: some say it was originally *ayya*, doubled, and the doubling was heavy, so they
+substituted an *alif* before the open geminate's vowel, like *aymā* for *ammā*; others hold it is a
+defective *fāʿila* — and they are then asked why the diminutive is *uwayyīya* and not something else,
+and answer as they answer for *Fāṭima*. **[Jalālayn]**: a sign — a token that my wife is with child;
+*your sign* is that you will abstain from speaking to men while your tongue is free of the mention of
+God; three days — with their nights; *symbol* is *ramz*, pointing; and *ʿashiyy* is at the day's end,
+*ibkār* at its beginning.
+
+**Belief.** **[Saʿdī]**: *make me a sign — that joy and gladness may come over me, though I am certain
+of what You have told me: the heart rejoices and settles at the preludes of mercy and kindness*. The
+sign's fitness is the lesson: the man who cannot address people while his tongue runs on God's
+mention — that is a second sign; and within the confinement he is ordered to multiply remembrance and
+glorification, morning and evening, so that the very restraint becomes an organ of praise; the old man's
+house, sterile by nature, is like Mary's sustenance, coming without causes — the child will be God's
+breaking of strong causes, since when His wisdom runs things through known means He can also tear the
+means apart, being the Doer of what He wills, to whose power causes submit, so that nothing defies
+Him however entrenched. **[Study Quran]**'s note at 3:40: for the sign's fuller story see 19:2–15 — in
+Luke 1:20 it is "mute, unable to speak, until these things come to pass, because you did not believe
+my words," and the Qurʾān everywhere softens this: at 19:10 the confinement is *tanbīhan*, "wise
+untiring glorification," three nights' silence as worship, not as penalty (cf. 19:11).
+
+**Reflection.** The sign is privation turned to occupation — speech withheld so that remembrance may be
+eaten whole. The Qurʾān's one prophet struck dumb (alongside Zachariah's namesake in the Gospels) says
+more with the silence than with the question that asked for it.
+
+---
+
+## 3:42 — وَإِذْ قَالَتِ الْمَلَائِكَةُ يَامَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ
+
+*"And when the angels said: Mary — God has chosen you and purified you, and chosen you above the women
+of the worlds."*
+
+**Meaning.** **[Ṭabarī]**: the *idh* continues the chain of God's "hearing and knowing" back through the
+sūrah; *iṣṭafā* is *ikhtāra*, chose, and *maṣṭafā* is *majtabā* — chosen for obedience and for the
+honour He singled her out with. *Wa-ṭahharaki*: He purified her religion from suspicion and from the
+defilements that cling to the religions of the daughters of Adam — i.e. her purity is not a body's
+purity but a creed's and a practice's; and *chosen you above the women of the worlds* — **[al-Zajjāj]**,
+per **[Qurṭubī]**: of her time. To this scope Ṭabarī fastens the famous ḥadīth he transmits from ʿAlī
+at al-Kūfah, hearing it from the Messenger of God: *"The best of her women is Mary daughter of ʿImrān,
+and the best of her women is Khadīja daughter of Khuwaylid"* — i.e. the best of the women of Paradise of
+their respective communities. **[Study Quran]** gathers the four: *"Mary daughter of ʿImrān, Khadīja bint
+Khuwaylid, Fāṭima daughter of Muḥammad, and Āsiya wife of Pharaoh are enough for you among the women of
+the worlds"* — these four as the best and most perfect of women, leading the souls of the blessed women
+to Paradise. **[Jalālayn]**: chosen and elected, and made pure from the touch of men.
+
+**The doubled choosing.** **[Study Quran]**: chosen, purified, then chosen again — some read the first
+election for the first half of her life, devotion in the Temple and the table of 3:37, and the second
+for the miracle of Jesus' birth (R); *purified* is purity of intention and worship (R), and elsewhere
+also being kept from the defilement of others' evil. **[Saʿdī]**: God gave her noble qualities and
+lovely character, purified her from base traits; the verse's language, **[Maʿārif]** adds, is the
+mirror of Luke 1:42, "blessed art thou among women" — the sūrah keeping, in the same breath, its own
+grammar of *election by God*, not inherited blessedness.
+
+**Reflection.** The woman whom the vowed boy should have been (3:35–36) is addressed by angels in the
+plural — *al-malāʾika* — where Zachariah's announcement was also plural: the honour of the house of
+ʿImrān is that heaven speaks to it in its own idiom, and the world's women are ranked in that speech
+by what God chose them for, not by what they were born to.
+
+---
+
+## 3:43 — يَامَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ
+
+*"Mary — be obedient to your Lord, and prostrate, and bow with those who bow."*
+
+**Meaning.** **[Ṭabarī]**: the angels' charge to her — *qunūt* is to be devoted in obedience to God,
+pure of purpose; the mufassirūn differ over *qunūt* here as they did at 2:238: some say its meaning is
+long stillness in prayer — Mujāhid: "lengthen the standing-quiet," and he is told that when she heard
+*ya Maryamu-’qunī li-rabbiki* she stood until her ankles swelled (until her feet swelled, in the other
+report). **[Jalālayn]**: be compliant, prostrating and bowing with those who bow — "pray with those
+who pray." **[Study Quran]**: *qānit* carries conformity, constancy, standing and silence (4:34c);
+prostration and bowing are joined in God's command to Abraham and Ishmael at 2:125, and *wa-rkaʿū maʿa
+l-rākiʿīn* repeats 2:43.
+
+**Rulings.** The verse is the classic locus for prayer's postures: **[Ṭabarī]**'s note that the
+disputed meanings of *qunūt* are the same as at 2:238 is the sūrah's cross-reference; ʿĀʾisha's
+"the Messenger of God commanded *qunūt*…" and the legal schoolings over the *witr*-supplication lie
+beyond the verse's sections here and at 2:238. **[Ibn Kathīr]**: the prostration that is named with the
+bowing — this is the prayer in its completeness, and the command to her, a woman serving in the
+sanctuary, fixes that the women of the House were in the rows, not outside the law.
+
+**Reflection.** Three verbs — stand long, bow, prostrate — and the last is *with those who bow*: her
+solitary consecration ends in congregation. **[Saʿdī]**'s reading of her whole story turns on this: the
+answer to the mother's vow is not private holiness but a place inside the community's prayer, and it
+was from the company of those who bow that the annunciation came.
+
+---
+
+## 3:44 — ذَٰلِكَ مِنْ أَنبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ ۖ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَامَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ
+
+*"That is of the tidings of the Unseen: We reveal it to you. You were not with them when they cast their
+pens — which of them should take charge of Mary — and you were not with them when they disputed."*
+
+**Meaning.** **[Ṭabarī]**: *dhālika* gathers all the news told since — ʿImrān's wife, Mary, Zachariah
+and his son, and the election of the houses — and declares it *min anbāʾi l-ghayb*, of the news of what
+was hidden: neither you, Muḥammad, nor your people had access to it, and none knew it save a few of the
+rabbis and monks of the two Books. God recites it to him as a proof of his prophethood and a
+confirmation of his truth, cutting off the excuse of the deniers among the People of the Book — for
+they know that a man who cannot read books so as to reach such knowledge by reading, and who kept no
+company with the people of the Book so as to take it from them, could know it only by God's telling.
+*Ghayb* is the *maṣdar* of *ghāba ʿan kadhā*, "he was absent from it" (*ghayban wa-ghayba*), and
+*nūḥīhi* is *nunuzżilu*, "We send it down"; the root of *waḥy* is the casting of meaning from one to
+another, and it may be a book sent down, or inspiration, or a command whispered — the lexicon runs its
+three species with witnesses. **[Jalālayn]** narrates the scene the verse denies him: the casting of
+pens (*aqlām*) into the water, each agreeing that the pen which holds against the current shall be
+Mary's guardian (see 3:37); and the dispute over her custody.
+
+**Rulings.** **[Maʿārif]** derives the law of the lot: in the Ḥanafī reckoning *qurʿa* cannot be given
+a decisive role where a right is already fixed in Islamic law — drawing lots is for what is tangled and
+indeterminate, as here, where equal claims competed — and the verse sanctions its use for settling
+doubtful rights when no other evidence obtains. **[Study Quran]**: the casting of lots was regular
+biblical practice for choosing persons and things (who would be king, who would offer incense, which
+goat would be sent to Azazel), not merely for occasional intractable decisions; some, however (Ṭ),
+doubt that Zachariah's right was ever disputed, since he was married to Mary's maternal relative, and
+take the "dispute" as about who should serve her in the Temple; the majority reading stands: they cast
+lots, and God's will was that Zachariah have her.
+
+**Cross-references.** **[Ṭabarī]** notes the near-twin construction at 28:44 and 46:52 — *you were not
+at the side of the mount* — the Qurʾān's standard argument from the untaught past, here and there: see
+also 7:157's "the unlettered prophet who finds him written with them."
+
+**Reflection.** An epistemological claim wearing the clothes of a narrative aside: the sūrah's proof of
+revelation is that a Makkan who never learned to read knows the private minutes of a Judean temple
+council. The argument runs the same way in both directions — which is why the People of the Book, the
+verse's intended jury, were the only ones qualified to hear it.
+
+---
+
+## 3:45 — إِذْ قَالَتِ الْمَلَائِكَةُ يَامَرْيَمُ إِنَّ اللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ وَجِيهًا فِي الدُّنْيَا وَالْآخِرَةِ وَمِنَ الْمُقَرَّبِينَ
+
+*"When the angels said: Mary — God gives you good tidings of a Word from Him, whose name is the Messiah,
+Jesus son of Mary — high-standing in this world and the Next, and of those brought near."*
+
+**Meaning.** **[Jalālayn]**: God gives you tidings of a Word from Him — a boy — *whose name is the
+Messiah Jesus son of Mary*: he is surnamed by his mother to show that she bears him without a father,
+against the custom of naming a child by its father; *wajīḥ* — honoured in this world by prophethood and
+in the Next by his intercession and his high stations, *al-darajāt al-ʿulā* (cf. 20:75), and one of
+those brought near to God. **[Ṭabarī]**, who treats the clause separately: *wajīḥ* is one of rank and
+place (*manzila ʿāliya*) with God, nobility and honour; the Arabs say of a man the kings and people
+magnify: *he has a wajh and jāh with the sultan*; and *jāh* is an inversion of *wajh*, its *wāw* moved
+to the position of the root-letter's vowel — with al-Farrāʾ's poetry as witness. The *naṣb* of *wajīḥan*
+is *qaṭʿ* — a isolating state — from *ʿĪsā*, since *ʿĪsā* is definite and *wajīḥ* not; genitive as a
+qualification of *kalima* would also have been correct. Muhammad b. Jaʿfar b. al-Zubayr (via Ibn Isḥāq,
+in the Najrān set): *wajīḥan fī l-dunyā wa-l-ākhirati ʿinda Llāh*.
+
+**Jesus as a Word.** **[Study Quran]**: some take "a Word from Him" to mean that Jesus is the means by
+which God's Word becomes manifest in the world — as the sultan is called the shadow of God on earth
+because justice reaches through him; and since he was created *directly* by "Be," his association with
+the Word is stronger and more unmediated, as we say a generous man is generosity itself (R); for the
+concept see 4:171 and 42. The word *al-Masīḥ* corresponds closely in meaning to Hebrew *mashiach*,
+"anointed one" — used in the Bible of kings, priests, Cyrus, David, the patriarchs, and Israel as a
+whole — and the commentators note none of the later eschatological freight the term carries in
+Judeo-Christian tradition. **[Maʿārif]**: the angels' greeting is the same *yubashshiruki* formula that
+carried John to Zachariah — the two annunciations tied by diction: a son granted past nature, and a son
+without a father.
+
+**Language.** **[Ṭabarī]** on the *idh*: it reaches back to the *idh* of 3:42 — "when the angels said"
+stands in the place of the second telling of the same council (Z; see 3:47's *qālat*); the sūrah's
+composition by resumption, in the grammarians' terms, not an anacoluthon.
+
+**Reflection.** Read 3:42–45 as one dialogue's arcs: chosen, purified, chosen above the women — be
+obedient — and now, the annunciation that makes the earlier promises legible. Jesus' titles are all
+relation: *of the Word*, *the son of Mary*, *wajīḥ*, *muqarrab* — a christology composed entirely of
+prepositions of nearness, in a sūrah addressing the Christians who argued that nearness meant
+divinity.
+
+---
+
+## 3:46 — وَيُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَمِنَ الصَّالِحِينَ
+
+*"And he shall speak to men in the cradle, and in manhood — and he is of the righteous."*
+
+**Meaning.** **[Jalālayn]**: he shall speak to people *in the cradle* — as a child, before the age of
+speech — *and in his manhood*; *and he is of the righteous*. **[Ṭabarī]**, who gives the syntax its
+long treatment: *yukallimu* is raised because it stands safe from government, yet its place is
+*naṣb* as a coordinate of *wajīḥan* (the poet's *batu aʿashiha bi-ʿadbin batirin / yaqṣidu fī aswqiha
+wa-jāʾir* — "I fed her by night with a keen blade, cutting through the shanks, now straight, now
+sideways," in which *yaqṣidu* bears the sense of manner while looking like an indicative verb; al-
+Farrāʾ's note is Ṭabarī's authority here, and the line's lexicography — *ʿashāʾ*, the supper; *ʿadb*,
+the cutting sword; *jaʾīr*, sidelong — comes along with it, a lexicographer's intrusion worth the
+flag). The *mahd* is the infant's bed in his suckling — Ibn ʿAbbās via Ibn Jurayj; and *kuhlūwan*: he
+shall speak in the cradle *and* when grown — the two ages between which all his mission's years lie.
+
+**Belief.** **[Maʿārif]**'s rhetorical observation on the verse's balance: speaking in infancy is a
+sign beyond the power of any child, and it answers the slander against his mother — the child himself
+testifying *innī ʿabdu Llāh*, "I am God's servant" (19:30), before any man could — whereas speaking in
+middle age is what every man does; its mention beside the miracle is to set the two horizons of his
+message together: the wonder that vindicated his mother, and the preaching that vindicated his law.
+
+**Cross-references.** **[Study Quran]**: the cradle-speech is treated in full at 19:29–31. The
+manhood-speeches — the sermon of the table (5:112 ff.), the sayings in the temple of the apocrypha, the
+Qurʾān's own later reports of his address to the Children of Israel — open here.
+
+**Reflection.** Two words, *in the cradle and in manhood*, span a life whose beginning was argument
+against suspicion and whose middle was argument against law's hardening; between them stands all he was
+sent to do, and the last clause — *of the righteous* — sets the ceiling of his own claim beneath the
+honorifics heaven had already used.
+
+---
+
+## 3:47 — قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِي وَلَدٌ وَلَمْ يَمْسَسْنِي بَشَرٌ ۖ قَالَ كَذَٰلِكِ اللَّهُ يَخْلُقُ مَا يَشَاءُ ۚ إِذَا قَضَىٰ أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ
+
+*"She said: my Lord, how can I have a child when no mortal has touched me? He said: so God creates what
+He wills; when He decrees a matter, He says to it only Be — and it is."*
+
+**Meaning.** **[Jalālayn]**: neither through marriage nor otherwise; *so* — the command is like that:
+God creates from you a child without a father; *when He decrees a thing*, i.e. wills its creation, He
+says to it "Be," and it is. **[Ṭabarī]**: *annā yakūnu lī walad* — from what road? From a husband I
+wed and a bridegroom God marries me to — or does He begin his creation in me without husband or stud?
+And her "no mortal has touched me" excludes both conjugality and fornication: a *mass*, touch, is the
+metonym for the whole act, and she swears her distance from both. God's *kadhaliki* answers: as you
+say — He creates a child from you untouched, making it a sign and an admonition for the worlds; for he
+gives a child to whom He wills without a stallion and with a stallion, and withholds from whom He wills
+of women even though she has a husband — nothing is too hard for Him of what He means to create: it is
+only that He commands when He wills what He wills, and says *kun fa-yakūn*, "Be," and it comes to be —
+what He wills, as He wills, how He wills. The report from Ibn Isḥāq via Muḥammad b. Jaʿfar b. al-Zubayr
+frames it against Najrān: "if God wills to create a child in you with no man touching you, how is that
+harder than what He does among the rest of His creation?" **[Study Quran]**: the verse belongs to the
+Qurʾān's standing grammar of creation by fiat — *kun fa-yakūn* at 2:117, 6:73, 16:40, 19:35, 36:82,
+40:68 — and at 3:59 it is attached explicitly to Adam and Jesus in the same act: the comparison of their
+likeness is not that one came from dust and the other from a mother, but that both came from the word.
+
+**Belief.** **[Ibn Kathīr]** and **[Saʿdī]** (in the shared narrative block): the annunciation is to be
+read with 19:16–21 — the Spirit breathed at her veil's opening (Jalālayn), and the conception without
+father is the verse's whole argument against any deification of the child, which the sūrah is structured
+to refute. **[Study Quran]** on *idhā qaḍā amran*: decree carries here not deliberation but the pure
+act of will; the passive construction "a matter is decreed" keeps God's freedom intact — He does not
+consult causes, He ends them.
+
+**Reflection.** The question "how?" — twice now, from Zachariah and from Mary — and the answer each time
+is the same verb: God creates what He wills. But the second answer is longer by one clause, because the
+second birth will be read by Christians against the fatherless old man's; the sūrah teaches that its own
+miracles are not arguments to one conclusion only, and it keeps its own counsel about which conclusion
+its readers will draw (cf. 3:7).
+
+---
+
+## 3:48 — وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنجِيلَ
+
+*"And He teaches him the Book and the Wisdom and the Torah and the Gospel."*
+
+**Meaning.** **[Jalālayn]**: *the Book* — writing and script; *the Wisdom* — and the Torah and the
+Gospel: what he is taught is first the instrument of scripture and then its two contents.
+
+**Readings.** **[Ṭabarī]** records the two recitations, and rules that either is correct: the readers
+of the Ḥijāz and Madīna and some Kufans read *wa-yuʿallimuhu*, with *yāʾ* — God teaches him — joining
+the report to God's "He creates what He wills" and "He says to it Be"; the general Kufan readers and
+some Baṣrans read *wa-nuʿallimuhu*, with the *nūn* of majesty, conjoining it to "We reveal it (nūḥīhi)
+to you" in 3:44 — "that is of the tidings of the Unseen, We reveal it… and We teach him." Their meanings
+agree; the disagreement is in the sentence's architecture, not its doctrine. **[Study Quran]** notes a
+third, older question the verse seems to pose: if Jesus is taught the Torah and the Gospel, what is
+*the Book*? Some answer *kitāb* is *kitāba*, the faculty of writing (Ibn Kathīr, Rāzī); but the
+conjunction can be one of apposition — as in 2:98, where Gabriel and Michael stand as a second mention
+alongside "the angels" — so the Book and the Torah may name the same thing twice, scripture in itself
+and as its received form. **[Maʿārif]**: the honour is that he learns *from God directly* — scriptures,
+wisdom, and specifically the Torah and Injīl — before being sent to the Children of Israel; the sūrah
+thus grounds his authority in divine teaching, not in the rabbinic chain his disputants would honour.
+
+**Cross-references.** *Al-Kitāb wa-l-ḥikma* is the standard paired gift of messengers (2:151; 3:164;
+4:54), and Jesus' education is recalled at 5:110 and 45:16; for the sūrah's own doctrine of the Torah
+and Injīl as God's books see 3:3–4.
+
+**Reflection.** God teaching a child to write — the image answers every credential the debate about
+Jesus can demand: his literacy of scripture is by donation, and the sūrah that began by declaring its
+own Book sent down "with truth, confirming what was before it" (3:3) shows in Jesus' education the same
+sequence: the instrument, then the Torah, then the Gospel — confirmation all the way down.
+
+---
+
+## 3:49 — وَرَسُولًا إِلَىٰ بَنِي إِسْرَائِيلَ أَنِّي قَدْ جِئْتُكُم بِئَايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّي أَخْلُقُ لَكُم مِّنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ ۖ وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَىٰ بِإِذْنِ اللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ ۚ إِنَّ فِي ذَٰلِكَ لَئَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ
+
+*"And a messenger to the Children of Israel: I have come to you with a sign from your Lord — I fashion
+for you out of clay the shape of a bird, breathe into it, and it is a bird by God's leave; I heal the
+blind-born and the leper, and give life to the dead by God's leave; and I tell you what you eat and what
+you store in your houses. In that is a sign for you, if you are believers."*
+
+**Meaning.** **[Jalālayn]** runs the sequence with its own comment: sent to the Children of Israel —
+Gabriel breathed into the opening of her garment and she conceived (the rest of the story is in Sūrah
+Maryam); *when God sent him he said*: I *create* you — a variant reads *innī*, "truly I," as a new
+independent sentence where *anna*, "that," would attach it; I shape from clay *ka-hayʾati l-ṭayri*,
+"the like of a bird's form" — the *kāf* is the subject of a passive participle, the *ḥayʾa* the form
+then I breathe into it — the pronoun of *fīhi* returns to the *kāf* — *and it becomes a bird*: read
+*ṭayran* or *ṭāʾiran*, "a bird" or "flying." And Ṭabarī's own insertion on the miracle: he made for
+them a bat, most perfectly shaped of birds, and they watched it flying, and when it went out of sight it
+fell dead — so that the work of a creature may be distinguished from the work of the Creator, and it be
+known that perfection belongs to God alone. *The akma*h is the blind from birth, *al-abraṣ* the
+leper — the two singled out because in both the sufferer is wholly helpless; Jesus was sent in an age
+marked by the science of medicine, and he cured in a single day fifty thousand by prayer, on the terms
+that whoever was healed believed; *and I give life to the dead by God's leave* — the clause is repeated,
+**[Jalālayn]** notes, precisely to preclude any false attribution of divinity to him; he quickened his
+friend ʿĀzar, son of an old woman, and the tax-collector's daughter, and they lived on and had
+children, and he quickened Shem son of Noah, who died again at once. *And I tell you what you eat and
+what you store up* — he told people what they had eaten and what they would eat (see the Table,
+5:112 ff.). **[Study Quran]**: most take the *akmah* as born blind, though some recorded day-blindness
+or the bleary-eyed (*aʿmash*); leprosy was disfiguring, nerve-destroying, contagious, and until recent
+medicinally incurable; and on the food-knowledge: as a child Jesus told his playmates what their parents
+were doing and what they kept at home (R), or the people were forbidden to store food (R, Ṭ), or the
+Table's feast was to be eaten and not put by, and the storing brought the chastisement (Ṭ).
+
+**Context / Belief.** **[Maʿārif]**: four signs, enumerated in order — the bird of clay, the healing of
+the two helpless maladies, the raising of the dead, and knowledge of hidden meals and hoards — each in
+its own way answering what the age prized: fashioning where the craftsmen were, healing where the
+physicians were, giving life where no art reached, and *informing* where the whole community kept its
+ledger: enough for willing believers, nothing extracted from unwilling ones.
+
+**Reflection.** The verse's most guarded sentence is the smallest: *bi-idhnillāh*, twice. The Qurʾān's
+Jesus wields creation's own signs and keeps, in his own mouth, the licence on every one of them; the
+sūrah's answer to Najrān is not that the miracles are false but that they are borrowed — which is what
+makes them signs, not substantiations.
+
+---
+
+## 3:50 — وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَلِأُحِلَّ لَكُم بَعْضَ الَّذِي حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِئَايَةٍ مِّن رَّبِّكُمْ فَاتَّقُوا اللَّهَ وَأَطِيعُونِ
+
+*"And confirming the Torah that was before me, and to make lawful for you some of what was forbidden you;
+I have come to you with a sign from your Lord — so beware God and obey me."*
+
+**Meaning.** **[Jalālayn]**: *some of what was forbidden* — he made lawful for them fish and birds
+without scales, which had been barred; and it is also said that he made *all* lawful for them, so that
+*baʿḍ* "some" stands for *kull* "all." The sign he mentions is repeated **[Ṭabarī]** for confirmation
+and for the expansion of it, the same sign as before, and it is the proof of his veracity in what he
+bears; and *beware God and obey me* is, in his way, the sūrah's own grammar: the law he relaxes and the
+sign he brings both belong to the One who sends.
+
+**Theological weight of the verb "confirming."** **[Study Quran]**: Jesus confirms the Torah at 5:46 and
+61:6, in the same language in which the Qurʾān confirms previous revelation (2:41, 91, 97; 3:3; 4:47;
+5:46; 35:31; 46:30; 61:6) — the sūrah's first christological datum, in other words, is that Jesus'
+work toward scripture is *taṣdīq*, confirmation, exactly what 3:3 said of the Qurʾān itself; and the
+relaxation is likewise read two ways: what was forbidden was either parts of the Torah's own rules
+(4:160; 6:146) or restrictions the Israelites imposed on themselves in later generations (see 3:93;
+Ibn Kathīr, Q), and the second is supported by 43:63 — *I come with wisdom and to make clear to you
+some of what you dispute* — which leaves Moses' original revelation untouched; some maintain that what
+Jesus brought was gentler, a *rifq*, an alleviation (Ṭ). The closing summons, *fa-ttaqū Llāha wa-aṭīʿūn*,
+is the prophets' refrain across 26:108, 126, 144, 163, 179. **[Maʿārif]**: unlawfulness of some things
+in the earlier code is hereby abrogated by the new law — the permission is itself a *miracle of jurisprudence*,
+an open demonstration that the law belongs to its Lord and not to a people's inheritance.
+
+**Reflection.** The sūrah's arc is now visible: a mother's vow (3:35), a girl in the temple (3:37), an
+annunciation (3:45), a born child speaking (3:46), and here, at the end of the movement, his first
+preached sentence — a sermon that confirms the book he was raised under, loosens what his people had
+tightened, and closes *obey me* within *beware God*. It is the sharpest single blow the chapter lands on
+the Najrān claim: Jesus' own words make him a link in the chain of law's giving, not its source.
+
