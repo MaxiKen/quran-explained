@@ -78,6 +78,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -4839,3 +4841,184 @@ they get all those blessings in this world? In response it was said that a littl
 the prohibition of praying over them, so that no one should read their prosperity as a sign that the
 judgement was too hard. The measure remains what it was in the cave — not what a man owns, but the state in
 which his soul departs.
+
+## 9:86
+
+*"And when a sūrah is sent down [saying], 'Believe in God and strive with His Messenger,' the affluent among
+them ask thee for leave, and say, 'Let us be among those who stay back.'"*
+
+**Meaning.** **[Jalālayn]** "And when a sūra" — that is, a section of the Qurʾān — "is revealed saying,
+'Believe in God and strive with His Messenger,' the affluent among them ask leave of you, saying: 'Leave us
+to be with those who sit at home.'" **[Ṭabarī]** "And when a sūrah of the Qurʾān is sent down to you, O
+Muḥammad, in which it is said to these hypocrites: 'Believe in God'" — affirm God — "'and strive with His
+Messenger'" — campaign against the idolaters with the Messenger of God ﷺ — "the affluent among them ask your
+leave." **[Qurṭubī]** The believers hastened to answer while the hypocrites made excuses: the command is to
+the believers for the continuance of faith, and to the hypocrites for the beginning of faith; *an* is in the
+accusative position, i.e. "that you believe." *Al-ṭawl* is wealth; and they are singled out for mention
+because the one who has no means has no need of permission, since he is excused. "And they said, 'Let us be
+with those who stay back'" — those unable to go out. **[Saʿdī]** God explains that the hypocrites persist in
+heaviness towards acts of obedience and that sūrahs and verses do not affect them: "And when a sūrah is sent
+down" in which they are commanded to believe in God and to strive in His way, "the affluent among them ask
+thee for leave" — the people of wealth and property, those who have no excuse, whom God has supplied with
+wealth and sons: will they not thank God and praise Him and stand to what He has made obligatory for them
+and made its affair easy for them? But they refuse anything but laziness and asking leave to sit back,
+"and say, 'Let us be among those who stay back.'"
+
+**Language.** **[Qurṭubī]** *Al-ṭawl* is richness. **[Maʿārif]** The expression "the affluent ones"
+(*ulū al-ṭawl*) is not for particularisation; rather it serves a purpose: it tells that there were others
+too, the ones not so capable — and the incapable had, at least, some obvious excuse to stay behind.
+**[Study Quran]** Here *strive with His Messenger* is understood to refer to going out to battle (Ṭ), and *a
+sūrah* is understood to refer to [a passage of the Qurʾān].
+
+**Belief.** **[Ibn Kathīr]** God chastises and admonishes those who stayed away from *jihād* and refrained
+from performing it, even though they had the supplies, the means and the ability to join it; they asked the
+Messenger ﷺ for permission to stay behind, saying "Leave us behind; we would be with those who sit at
+home," thus accepting for themselves the shame of lagging behind with women. **[Study Quran]** This passage
+returns to the theme of a group desiring to stay back while the Prophet led the believers on the Tabūk
+campaign (vv. 38–39).
+
+**Reflection.** Note who asks: the affluent, not the needy — those who had the means, and therefore the
+obligation. The verse records the exact wording of their request, "let us be among those who stay back,"
+which is a man asking to be counted among the excused when he is not.
+
+---
+
+## 9:87
+
+*"They are content to be among those who remain behind, and a seal is set upon their hearts. And so they
+understand not."*
+
+**Meaning.** **[Jalālayn]** "They are content to be with those who stay behind" — *khawālif* is the plural of
+*khālifa*, meaning the women who stay behind at home — "and a seal has been set upon their hearts, so they do
+not understand" what is good. **[Ṭabarī]** "These hypocrites — who, when it is said to them 'believe in God
+and strive with His Messenger,' see their wealthy ones asking your leave to stay behind from the campaign and
+from going out with you to fight the enemies of God among the idolaters — are content to be in their houses,
+like the women upon whom *jihād* is not obligatory, who sit in their houses and their homes. 'And a seal is
+set upon their hearts'": it is stamped. **[Qurṭubī]** *Al-khawālif* is the plural of *khālifa* — that is, with
+the women, the children and the men with excuses. A man is also called *khālifa* and *khālif* when he is not
+noble; one says "so-and-so is the *khālifa* of his family" when he is inferior to them. Al-Naḥḥās said: its
+root is from "*khalafa al-labanu yukhlifu*" when milk sours from staying long, and "*khalafa famu al-ṣāʾimi*"
+when the fasting person's breath changes — and from it "so-and-so is *khalf* [foul]." **[Saʿdī]** "They are
+content to be among those who remain behind" — how could they be content for themselves to be with the women
+who stay back from *jihād*? Is there any understanding or intellect with them that directed them to that? Or
+is it that "God has set a seal upon their hearts," so that they do not retain the good and there is in them
+no will to do what contains good and success? They do not understand their own interests; had they understood
+with true understanding, they would not have been content for themselves with a state that demotes them from
+the stations of men.
+
+**Belief.** **[Study Quran]** That they prefer to be among those who remain behind refers to their
+willingness to remain with the women, the children and the sick (Ṭ), who were not required to fight
+(although some women did actually participate in battles with the Prophet). See also vv. 91–92 for those who
+are legitimately excused from battle. **[Ibn Kathīr]** "They are content to be with those who sit behind.
+Their hearts are sealed up, so they understand not."
+
+**Reflection.** The stinging word is "content": no one forced them into the company of those who stay behind
+— they chose it, and were pleased with it. And the sealing of the heart is presented as the explanation of
+that contentment rather than its consequence: they cannot see what they have settled for.
+
+---
+
+## 9:88
+
+*"But the Messenger and those who believe with him strive with their wealth and with their selves. And it is
+they who shall have good things, and it is they who shall prosper."*
+
+**Meaning.** **[Jalālayn]** "But the Messenger and those who believe with him strive with their wealth and
+their lives; for them are the good things" in this life and in the Hereafter; "those — they are the
+successful," the triumphant. **[Ṭabarī]** "These hypocrites whose story I have recounted did not strive
+against the idolaters; rather it is the Messenger, Muḥammad ﷺ, and those who believe in God and His Messenger
+with him, who strove against the idolaters with their wealth and their selves — spending their wealth in the
+struggle and wearying, and sacrificing, their selves in fighting them." **[Saʿdī]** If these hypocrites hold
+back from *jihād*, God will be independent of them: God has servants and chosen ones among His creation whom
+He has singled out for His bounty to carry out this affair — and they are "the Messenger," Muḥammad ﷺ, "and
+those who believe with him"; they strive "with their wealth and their selves," not heavily or lazily but
+rejoicing and gladdened. "And it is they who shall have good things," many, in this world and the next; "and
+it is they who shall prosper," who have won the highest of objects and the most complete of desires.
+
+**Belief.** **[Study Quran]** *Good things* renders *khayrāt*, understood to refer to the good things of both
+this world and the Hereafter (Q, R); the former are renown, a good reputation, and having others follow in
+one's footsteps, and one of the latter is the reward for one's good deeds (M). **[Ibn Kathīr]** After God
+mentioned the sins of the hypocrites, He praised the faithful believers and described their reward in the
+Hereafter: "But the Messenger and those who believed with him strove hard and fought with their wealth and
+their lives." This describes the qualities, as well as the reward, of the faithful believers.
+
+**Cross-references.** **[Saʿdī]** The verse resembles 17:107 — "Say: 'Believe in it or believe not; those who
+were given knowledge before it, when it is recited to them, fall upon their faces in prostration'" — and
+6:89: "And if these disbelieve in it, We have entrusted it to a people who are not disbelievers in it."
+
+**Reflection.** The word "but" lifts the whole passage: the defection of the wealthy does not leave the work
+undone. God has others — and the description of them is the mirror of everything the hypocrites refused:
+wealth and self expended, and joy in the expending.
+
+---
+
+## 9:89
+
+*"God has prepared for them Gardens with rivers running below, to abide therein. That is the great triumph."*
+
+**Meaning.** **[Jalālayn]** "God has prepared for them Gardens underneath which rivers flow, to abide
+therein; that is the supreme triumph." **[Ṭabarī]** "God has prepared for His Messenger Muḥammad ﷺ and for
+those who believe with him 'Gardens' — orchards — beneath whose trees rivers flow; 'to abide therein':
+remaining in it, neither dying in it nor departing from it." **[Saʿdī]** "God has prepared for them Gardens
+with rivers running below, to abide therein. That is the great triumph" — so perish the one who does not
+desire what they desired, and who loses his religion, his world and his Hereafter.
+
+**Belief.** **[Ibn Kathīr]** "For them God has prepared Gardens beneath which rivers flow, to dwell therein
+forever. That is the supreme success." **[Study Quran]** On *Gardens with rivers running below*, see 2:25. *A
+great triumph* is often used to describe the attainment of felicity in the Hereafter (e.g., 4:13, 73; 5:119;
+9:72; 33:71; 37:60; 40:9; 44:57; 48:5; 57:12; 61:12; 64:9; 85:11).
+
+**Reflection.** "Prepared" is the operative word: the reward is not improvised at the end but already made
+ready, corresponding to wealth and self already spent. The verse closes the contrast that began at v. 86 with
+nothing further said about those who stayed — their portion has been stated, and this is the other one.
+
+---
+
+## 9:90
+
+*"Those seeking to be excused among the Bedouin came in order to be granted leave, while those who lied to God
+and His Messenger stayed back. A painful punishment shall befall those among them who disbelieve."*
+
+**Meaning.** **[Jalālayn]** "And those Bedouins who had an excuse" — *al-muʿadhdhirūn*: the original *tāʾ*
+has been assimilated with the *dhāl*; in other words it would usually be read *al-muʿtadhirūn*, which is
+itself a variant reading — those of them who were excused came to the Prophet ﷺ asking for leave to stay
+behind on account of their excuses, and so he gave them leave to do so. "And those who lied to God and His
+Messenger," by feigning belief — those hypocrites among the Bedouin — "stayed behind," refraining from
+coming to give their excuses; "a painful chastisement shall befall those of them who disbelieve."
+**[Ṭabarī]** "They came to the Messenger of God ﷺ — the *muʿadhdhirūn* among the Bedouin — to be given leave
+to stay behind; and those who lied to God and His Messenger stayed back from coming to the Messenger of God
+ﷺ and from striving with him," speaking lies and excusing themselves falsely. "A painful punishment shall
+befall those of them who disbelieve." **[Saʿdī]** "And those seeking to be excused among the Bedouin came in
+order to be granted leave": those of them who were lax and fell short of going out came in order to be given
+leave to abandon *jihād*, not caring about the excuse they offered, on account of their coarseness, their lack
+of shame and their producing whatever cause they had, because of the weak faith they carried. As for those
+among them who lied to God and His Messenger, they sat back and abandoned excusing themselves altogether. It
+is also possible that the meaning of "*al-muʿadhdhirūn*" is: those who have an excuse came to the Messenger
+ﷺ that he might excuse them — it being his custom to excuse whoever has an excuse. "And those who lied to God
+and His Messenger stayed back," in their claim to the faith that requires going out while not acting
+according to it. Then He threatens them: "A painful punishment shall befall those among them who disbelieve,"
+in this world and the next.
+
+**Readings.** **[Qurṭubī]** Al-Aʿraj and al-Ḍaḥḥāk read "*al-muʿdharūn*" with a lightened form; Abū Kurayb
+transmitted it from Abū Bakr from ʿĀṣim, and the transmitters of the readings transmitted it from Ibn
+ʿAbbās. Al-Jawharī said: Ibn ʿAbbās used to read "*wa-jāʾa al-muʿdharūna*" lightened, from *aʿdhara*, and he
+used to say, "By God, thus was it sent down." Al-Naḥḥās said: except that its chain of transmission goes
+through al-Kalbī; and it is from *aʿdhara*, from which comes "he has excused himself who…" **[Study Quran]**
+There is disagreement over whether the word rendered by *seeking to be excused* is read so that it would mean
+"making excuses" — implying that they had no legitimate reason to be excluded from the fighting — or "with an
+excuse," meaning [that they had one]. **[Jalālayn]** The usual reading *al-muʿtadhirūn* is also a variant
+reading.
+
+**Stories & occasions.** **[Ibn Kathīr]** God describes here the condition of the Bedouin who lived around
+Madīnah, who asked permission to remain behind from *jihād* when they came to the Messenger ﷺ to explain to
+him their weakness and inability to join the fighting. Al-Ḍaḥḥāk said that Ibn ʿAbbās said that they were
+those who had valid excuses, for God said next, "and those who had lied to God and His Messenger sat at
+home" and did not ask permission for it; and God warned them of a painful punishment. **[Maʿārif]** There
+were two kinds of people among the Bedouin of the desert: those who visited the Prophet ﷺ and requested that
+they might be excused from *jihād* and allowed to stay behind; and then the arrogant and rebellious among
+them, who did not even bother to take the trouble of excusing themselves out of it.
+
+**Reflection.** Even at the lowest level of the passage there is a distinction: those who at least came and
+asked are not the same as those who simply did not come. The punishment is specified for "those among them
+who disbelieve" — a reminder that staying behind is not itself the unforgivable thing; the state of the heart
+is.
