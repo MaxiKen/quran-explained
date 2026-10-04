@@ -415,3 +415,101 @@
 **Context.** The verse closes the appeal begun in 8:38–39: cease hostility and receive forgiveness; if the conflict continues, God remains the believers’ protector. **[Study Quran] [Ibn Kathīr]**
 
 **Reflection.** The promise of divine protection is a source of courage, not permission for arrogance: the believers are still called to obedience, restraint, and reliance on God. **[Saʿdī] [Maʿārif]**
+
+## 8:41
+
+*“Know that whatever spoils you take, a fifth belongs to God, the Messenger, near relatives, orphans, the indigent, and the traveler, if you believe in God and what We sent down upon Our servant on the Day of Discrimination, the day the two hosts met. God is Powerful over all things.”*
+
+**Rulings.** The verse specifies the *khums*, one-fifth of war spoils, and names its recipients; the remaining four-fifths are for the fighters according to the Prophet’s distribution. **[Ṭabarī] [Jalālayn] [Saʿdī]** The sources distinguish *ghanīmah*, property acquired in armed conflict, from *fayʾ*, property received through peaceful arrangements, though jurists discuss the terms’ scope and application. **[Ibn Kathīr] [Maʿārif] [Study Quran]** Qurṭubī surveys disagreements about the share for the Messenger, the definition of his “near relatives,” and how the fifth is apportioned; as-Saʿdī describes five shares, treating the portion named for God and the Messenger as serving the community’s general interests. **[Qurṭubī] [Saʿdī]**
+
+**Context.** “The Day of Discrimination” is Badr, when the two forces met and the outcome made the difference between the truth and its rejection manifest. **[Ṭabarī] [Qurṭubī] [Study Quran]** The verse supplies the detailed rule anticipated in 8:1, rather than leaving the spoils to competing individual claims. **[Study Quran]**
+
+**Reflection.** The command places material gain under public rules and recognized claims; even victory does not authorize private appropriation. **[Maʿārif] [Saʿdī]**
+
+## 8:42
+
+*“When you were on the nearer bank and they on the farther bank, with the caravan below you: had you made an appointment, you would have failed to keep it. But God brought you together so that a matter already decreed might be accomplished, and so that whoever perished might perish upon clear proof and whoever lived might live upon clear proof. God is Hearing, Knowing.”*
+
+**Context.** The Muslims were on the side of the valley nearer Madīnah, Quraysh on the side nearer Mecca, and Abū Sufyān’s caravan travelled below them toward the coast. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Study Quran]**
+
+**Meaning.** The two armies had not arranged to meet; had they known the odds, the Muslims might not have agreed to a battle. God nevertheless brought them together to fulfil His decree. “Perish” and “live” are also read as remaining in disbelief or coming to faith after the decisive outcome made the truth clear. **[Jalālayn] [Ibn Kathīr] [Maʿārif]**
+
+**Reflection.** The scene insists that Badr was not a meeting of equals by ordinary calculation. Its outcome became evidence, and every response to that evidence carried responsibility. **[Saʿdī] [Study Quran]**
+
+## 8:43
+
+*“When God showed them to you in your dream as few: had He shown them to you as many, you would have faltered and disputed over the matter; but God spared you. He knows what lies within breasts.”*
+
+**Context.** Before Badr, the Prophet saw the opposing force as small in a dream and told his companions, strengthening their resolve. **[Ṭabarī] [Ibn Kathīr] [Saʿdī]**
+
+**Meaning.** Had they been shown the Quraysh’s actual numbers, some might have lost heart while others urged battle, producing disagreement. God knew what was in their hearts and gave them the perception that would steady them for the encounter. **[Jalālayn] [Saʿdī] [Study Quran]**
+
+**Reflection.** The verse attributes the believers’ steadiness to divine care without pretending they were fearless: God knew their vulnerability and guided them through it. **[Maʿārif] [Ibn Kathīr]**
+
+## 8:44
+
+*“When you met, He showed them to you as few in your eyes and made you appear few in their eyes, so that God might accomplish a matter already decreed. To God all matters return.”*
+
+**Meaning.** At the moment of encounter each force appeared smaller to the other than it really was, so neither withdrew before the battle began. Reports describe the Muslims estimating the Quraysh at roughly seventy or a hundred, though their number was about a thousand. **[Ṭabarī] [Qurṭubī] [Study Quran]** The passage thus explains how the battle occurred despite the disparity of forces and returns its outcome to God’s decree. **[Jalālayn] [Ibn Kathīr]**
+
+**Context.** This is distinct from the dream in 8:43: the previous verse describes what the Prophet saw before battle, while this one describes how the two sides appeared when they met. **[Maʿārif] [Study Quran]**
+
+**Reflection.** What people see in a moment of crisis can shape whether they stand or retreat; the verse locates even that perception within God’s knowledge and purpose. **[Saʿdī]**
+
+## 8:45
+
+*“O you who believe, when you meet a force, stand firm and remember God much, that you may prosper.”*
+
+**Meaning.** In an actual encounter with a hostile force, believers are told to remain steady and remember God—not only with the tongue, but with hearts seeking help and composure. **[Ṭabarī] [Qurṭubī] [Jalālayn]** As-Saʿdī treats steadfastness and remembrance as means of resisting fear and preserving resolve. **[Saʿdī]**
+
+**Ḥadīth & āthār.** Ibn Kathīr cites the Prophet’s counsel: “Do not wish to meet the enemy; ask God for well-being. But when you meet them, be patient.” The report continues by promising Paradise to those who stand firm. **[Ibn Kathīr]**
+
+**Reflection.** The verse does not romanticize conflict: it commends remembrance and patience if battle comes, while the Prophetic counsel discourages seeking it. **[Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+## 8:46
+
+*“Obey God and His Messenger, and do not dispute lest you falter and your strength depart; be patient, for God is with the patient.”*
+
+**Meaning.** Obedience must govern the community’s conduct; quarrelling divides hearts, breeds fear, and weakens collective strength. **[Ṭabarī] [Jalālayn] [Saʿdī]** The “wind” that departs is an Arabic image for power, advantage, or victory, not a literal wind. **[Ṭabarī] [Qurṭubī] [Study Quran]** Patience means holding to obedience and restraint through hardship, with God’s aid promised to those who endure. **[Saʿdī] [Ibn Kathīr]**
+
+**Context.** The instructions follow the command to stand firm: discipline and unity are not less important than courage in a battle. **[Maʿārif]**
+
+**Reflection.** A group can lose its strength from within before it loses a contest from without. The verse therefore joins obedience, unity, and patience as parts of steadfastness. **[Saʿdī] [Study Quran]**
+
+## 8:47
+
+*“Do not be like those who left their homes boastfully, to be seen by people, and to bar others from the way of God; God encompasses all that they do.”*
+
+**Context.** The warning concerns the Quraysh force that left Mecca for Badr, at first to protect its caravan and then pressed on after it had escaped. **[Jalālayn] [Study Quran]** Reports say Abū Jahl insisted they continue to Badr so that the Arabs would hear of their display of strength, feasting, and entertainers. **[Ṭabarī] [Qurṭubī]**
+
+**Meaning.** Their departure was driven by arrogance and the wish to be admired, as well as by opposition to God’s path. The Arabic can also suggest that they themselves turned away from that path; God’s encompassing knowledge leaves none of their motives hidden. **[Ṭabarī] [Study Quran] [Saʿdī]**
+
+**Reflection.** Believers are warned not to imitate an enemy’s pride: action is measured not by its public display but by its intention and whether it obstructs what is right. **[Saʿdī] [Maʿārif]**
+
+## 8:48
+
+*“When Satan made their deeds seem fair to them and said, ‘No one can overcome you today; I am your protector,’ but when the two forces came into view, he turned back and said, ‘I am quit of you. I see what you do not see; I fear God, and God is severe in retribution.’”*
+
+**Meaning.** Satan made the Quraysh confident in their numbers and their cause, promising protection; when the armies met, he abandoned them. The scene exposes the unreliability of pride and of any assurance that leads people into wrongdoing. **[Jalālayn] [Ibn Kathīr] [Saʿdī]**
+
+**Stories & occasions.** Some transmitted accounts say Satan appeared to the Quraysh in the form of Surāqah b. Mālik, whose tribe they feared; other commentators understand his “adornment” as inward temptation rather than a human appearance. **[Ṭabarī] [Qurṭubī] [Study Quran] [Maʿārif]** “I see what you do not see” refers in the reports to the angels supporting the believers. **[Ibn Kathīr] [Qurṭubī]**
+
+**Reflection.** Temptation commonly offers confidence without responsibility, then disappears when its promised protection is needed. **[Maʿārif] [Study Quran]**
+
+## 8:49
+
+*“When the hypocrites and those in whose hearts was a disease said, ‘Their religion has deluded them,’ but whoever trusts in God—truly God is Mighty, Wise.”*
+
+**Context.** The remark was made as the small Muslim force set out to face a much larger, better-equipped Quraysh army. **[Ibn Kathīr] [Study Quran]** Al-Ṭabarī describes the speakers as people whose faith was not settled; the Study Quran notes that some commentators distinguish Madinan hypocrites from people with weak faith, while others treat the terms as overlapping descriptions. **[Ṭabarī] [Study Quran]**
+
+**Meaning.** The critics interpreted the believers’ trust as delusion. The verse answers that reliance on God is not foolishness: God is mighty, and His wisdom is not measured by the visible balance of forces. **[Jalālayn] [Ibn Kathīr] [Saʿdī]**
+
+**Reflection.** Faith does not deny risk; it refuses to make worldly odds the only measure of what is possible or worth doing. **[Maʿārif] [Study Quran]**
+
+## 8:50
+
+*“If only you could see when the angels take the souls of those who disbelieve, striking their faces and their backs: ‘Taste the punishment of the burning Fire.’”*
+
+**Meaning.** The verse depicts the terror of the disbelievers’ death: angels take their souls while rebuking and striking them, and announce the punishment awaiting them. **[Ṭabarī] [Jalālayn] [Saʿdī]** Some reports connect the scene specifically with Quraysh killed at Badr, while others read it generally of the disbeliever at death; Qurṭubī also records interpretations referring to the angels leading them to the Fire. **[Ibn Kathīr] [Qurṭubī] [Maʿārif] [Study Quran]**
+
+**Reflection.** The warning turns attention from a person’s apparent standing in this world to the moral reality of the final encounter, when actions cannot be hidden or undone. **[Saʿdī] [Study Quran]**
