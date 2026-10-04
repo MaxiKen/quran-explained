@@ -539,3 +539,460 @@ to come (3:12, "you will soon be overcome"); 10–11 serve as its introduction.
 capital and lineage cannot be spent in God's court, and the rich and barren alike burn at the same
 temperature. Recited after the prayer of the firmly rooted, it is a balance: they asked for mercy they
 could not earn; the owners of wealth and sons thought they had what needed no asking.
+
+
+## 3:11 — كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا بِئَايَاتِنَا فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ ۗ وَاللَّهُ شَدِيدُ الْعِقَابِ
+
+*"Like the way of the folk of Pharaoh and those before them: they belied Our signs, and God seized
+them for their sins; and God is severe in retribution."*
+
+**Meaning.** **[Ṭabarī]**: when the punishment came down, wealth and children were of no use to them
+at all — the case of the disbelievers of Muḥammad's generation will be *as the way (dabʾ), the manner
+and custom, of the folk of Pharaoh*, and of the nations before them whom God destroyed for their sins
+when they belied His signs: such as were hastened with punishment for belying their Lord before
+Pharaoh's folk — the people of Nūḥ, of Hūd and of Lūṭ and the like of them. **[Qurṭubī]** unpacks the
+word: *al-dabʾ* is *ʿāda* and *shaʾn* — habit and case; *daʾaba* in one's work means to ply and strive
+at it, and *adʾabtu* one's camel, to pace it hard on the road; *al-dāʾibān*, "the two pliers," is a
+name for night and day. He tells an anecdote of Abū Ḥātim: young Yaʿqūb once recited *ka-daʾabi* with
+*fatḥa* on the hamza and quizzed the boy who he thought warranted it — *daʾiba yadʾabu daʾaban* — and
+accepted his answer with admiration, though al-Naḥḥās rules the form *daʾiba* out of existence; the
+grammarians give *daʾaba yadʾabu daʾban wa-daʾūban*, as al-Farrāʾ in *al-Maṣādir*, with the licence of
+alternating the vowel (like *shaʿr/shaʿar*, *nahr/nahar*) because of the throat-letter, and Imruʾ al-Qays
+witnessing: *ka-daʾbika min Ummi l-Ḥuwayrith qablahā*. Some make the *kāf* a subject-predicate of
+likeliness: "their *dabʾ* is like the *dabʾ* of the folk of Pharaoh." **[Ibn Kathīr]**: al-Ḍaḥḥāk from
+Ibn ʿAbbās — "like the behaviour of the folk of Pharaoh," the same as ʿIkrimah, Mujāhid, Abū Mālik and
+Qatāda; others say "like the practice, conduct and way." **[Jalālayn]**: "this statement explains the
+one before it" — the verse is the warrant that the fate of 3:10 is a known precedent, not a hazard.
+
+**Reflection.** **[Saʿdī]**: the worldly penalties were fastened upon them in continuity with the
+punishment of the Next — *so do not let His punishment be made light of in your eyes, or residing on
+disbelief and denial will feel easy to you.* History in the Qurʾān is not warning of a possible
+outcome but of a settled grammar of outcomes.
+
+---
+
+## 3:12 — قُل لِّلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ الْمِهَادُ
+
+*"Say to those who disbelieve: You shall be vanquished, and mustered to Hell, and an evil cradling."*
+
+**Context.** **[Qurṭubī]** from Ibn Isḥāq: when the Messenger of God struck Quraysh at Badr and
+returned to Madīnah he gathered the Jews in the market of Banū Qaynuqāʾ and said: "O company of the
+Jews, beware of God sending down on you what He sent down on Quraysh at Badr — you know that I am a
+sent prophet, whom you find in your book and God's covenant with you." They answered: "Muḥammad, let
+not your killing of a people *aghmār* — green, untried, with no knowledge of war — deceive you. By
+God, were you to fight us, you would know that we are the people." So God sent down *qul
+lilladhīna kafarū sa-tughlabūn* — with the *tāʾ*, directed at the Jews: they will be routed. (ʿIkrimah
+and Saʿīd b. Jubayr from Ibn ʿAbbās.) In the narration of Abū Ṣāliḥ from Ibn ʿAbbās the verse came down
+when the Jews exulted at the Muslims' reverse at Uḥud; on that reading *sa-yughlabūn* with the *yāʾ*
+means Quraysh — the reading of Nāfiʿ. **[Jalālayn]** has the same occasion of the return from Badr.
+
+**Readings.** **[Ṭabarī]** weighs the two. The *tāʾ* ("say to them: you shall be vanquished") is the
+reading of the general body of the Ḥijāzī and Baṣran readers and some Kufans, who argue from "there
+has already been a sign *for you*" in the next verse — the same address. The Kufan group read *sa-
+yughlabūna wa-yuḥsharūna*, "Say to the Jews: the polytheists of the Arabs shall be vanquished" — and
+whoever so takes the sense may not read otherwise. Ṭabarī elects the *tāʾ*, as matching the address;
+he notes the same pronoun-shift occurs in the verse of the spoils in the codex of ʿAbdullāh (8:38).
+
+**Meaning.** **[Jalālayn]**: vanquished *in this world* — by killing, capture, and the *jizya*, which
+is what came to pass — and mustered in the Next to the Fire which you shall enter — *an evil
+cradling*, an evil resting-place. **[Study Quran]**: *mihād* lexically is a place smoothed out and
+prepared for rest — a bed, even a cradle — and mostly used in the Qurʾān of Hell; its cognate *mahd*
+means the earth itself in (78:6; 43:10). **[Maʿārif]** closes a false inference: the verse does not
+promise the defeat of every disbeliever in every time; it addresses the pagans and Jews of that hour,
+the former overcome by killing and captivity, the latter by killing, captivity, *jizya* and exile.
+**[Study Quran]** adds the stylistic note that the third/second-person shift leaves the sense intact,
+as elsewhere in the Qurʾān.
+
+**Cross-references.** The double warning — defeat here and muster there — echoes (5:41), (22:11),
+(33:57).
+
+**Reflection.** The sentence is a datum of prophetic foretelling tested within the sūrah's own
+audience — hence the hinge to Badr in 3:13: *you wanted proof? Here is a battle you all saw, and the
+odds in it were an argument.*
+
+---
+
+## 3:13 — قَدْ كَانَ لَكُمْ فِي فِئَتَيْنِ ءَايَتُكُمْ إِبْلِسَ تَقَاتِلُ فِي سَبِيلِ اللَّهِ وَالأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ الْعَيْنِ ۚ وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَن يَشَاءُ ۚ إِنَّ فِي ذَٰلِكَ لَلْعِبْرَةَ لأُولِي الأَبْصَارِ
+
+*"There has already been a sign for you in the two hosts that met: one host fighting in the way of God,
+and the other disbelieving — the latter seeing the former, to all sight, twice their number; and God
+backs with His help whom He will. Truly in that is a lesson for the people of insight."*
+
+**Meaning.** **[Ṭabarī]**: say, Muḥammad, to the disbelieving Jews in your town: *a sign* — a mark and
+indication of the truth of My word "you shall be vanquished" — and a lesson. Qatāda: a *ʿibra* and
+*tafakkur*; al-Rabīʿ adds *wa-mutafakkir*. The two *fiʾatān* are two bands and parties: the Messenger
+of God and the witnesses of Badr against the polytheists of Quraysh, as Ibn ʿAbbās reports (via Ibn
+Isḥāq, from Muḥammad b. Abī Muḥammad, from Saʿīd b. Jubayr or ʿIkrimah). **[Jalālayn]** brings the
+muster-roll of the Muslim side: three hundred and thirteen men, most of them on foot, with two horses,
+six coats of mail and eight swords; the unbelievers nearly a thousand. **[Qurṭubī]** notes a
+grammatical curiosity: *kāna* is not *kānat*, either because *āya* is not a true feminine, or because
+He reckoned by sense — "there was for you a *bayān*," a clarification — the way Imruʾ al-Qays says
+*barhurhamatinrawdatin khaṣatin ka-khurʿūbati* without feminising the noun, reckoning *qaḍīb*; and
+al-Farrāʾ: the qualifier interposed between noun and verb lets the verb take the masculine. He records
+the readings of *fiʾatun*: the nominative of the majority ("one of them a host"), the genitive of
+al-Ḥasan and Mujāhid, the accusative of Ibn Abī ʿAbla on both.
+
+**Seeing double.** *They saw them twice their number, to all sight.* **[Ibn Kathīr]**: two senses are
+given — the idolaters saw the Muslims as twice their number, God making the illusion a factor in
+Islam's victory; or the Muslims saw the idolaters as twice themselves. Ibn Masʿūd: when we looked at
+the idolaters' host we found them twice our number, and when we looked again, not a man more than us.
+His reconciliation of the two visions: as the hosts first sighted each other, the Muslims saw the
+polytheists doubled so that they would trust in God and seek His help, and the polytheists saw the
+believers doubled so that fear and despair entered them; but when the ranks stood and joined, God
+made each side small in the eyes of the other, to encourage the fight — *so that God might accomplish
+an affair already done* (8:42), that truth be distinguished and the word of faith prevail; cf.
+(3:123), "God had already given you victory at Badr when you were humiliated." **[Study Quran]**: most
+scholars prefer the believing army as the viewer; the numbers (1:3 by tradition) resist a simple
+doubling of the smaller force, so Ṭabarī takes *mithlayhim* as "twice *again*" — threefold — and
+others lean on 8:66's proportion; the ratios are not the point, as 8:65's 1:10 shows. **[Maʿārif]**
+sets out the disparity and its psychology — the polytheists: about 1,000 men, 700 camels, 100 horses;
+the Muslims: just over 300, 70 camels, 2 horses, 6 coats of mail, 8 swords; the sight of the Muslims
+struck awe, while the Muslims, seeing double odds, clung to God's promise (8:66) all the more
+fervently; at another moment each side saw the other fewer, as Sūrat al-Anfāl will report.
+
+**Belief.** *God backs with His help whom He will*: **[Jalālayn]** — He strengthens whom He will with
+His help and gives him victory; the lesson (*ʿibra*) is for the *dhawū l-abṣār*, the discerning —
+**[Saʿdī]** reads it as the verse's whole point: for believers a glad tiding, for the disbelievers a
+dread: the promise came true at Badr, a victory without compare, and had not the real cause been what
+it was — truth extinguishing falsehood when they meet — the play of mere physical causes would have
+decided the day the other way. So God confirmed the believers with His help and they routed them by
+God's leave: a proof that He is on the truth and His enemies on falsehood, and that this Book is of
+God.
+
+**Cross-references.** (8:44) the mutual smallness; (8:65–66) the ratios; (3:123) Badr named.
+
+**Reflection.** A battlefield as a text to be read — *aʿyān al-baṣīra*, the eyes of insight, are the
+organs of the argument: the odds were not concealed but displayed, so that no one could say "we did
+not see."
+
+---
+
+## 3:14 — زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّهُ عِندَهُ حُسْنُ الْمَئَابِ
+
+*"Beautified for mankind is the love of the things desired: women, and sons, and piled-up heaped of
+gold and silver, horses of the brands, cattle, and tilth. That is the comfort of the life of this
+world — but with God is the excellent home to return to."*
+
+**Meaning.** **[Ṭabarī]**: what the soul desires and calls for — the *shahawāt* — has been made fair
+in men's eyes. He takes the verse's edge as a rebuke: it was aimed at the Jews who preferred the world
+and the love of rank in it to following Muḥammad after they knew his truth. The catalogue, with
+**[Jalālayn]**: women; children; stored gold and silver (*qanāṭīr muqaṇṭara*, heaped and piled);
+*hayl musawwana*, horses of mark; the *anʿām*, camels, kine and sheep; and *ḥarth*, the cultivation of
+land — all of it the short-lived comfort of this world, perishing after enjoyment, while the better
+return is with God.
+
+**Who beautified?** **[Qurṭubī]**, at the head of eleven *masāʾil*: one party say God beautified them —
+the evident sense of ʿUmar's reaction, and of "We have made what is on the earth an adornment for it"
+(18:7); another say Satan — the evident sense of al-Ḥasan's quip, which **[Ṭabarī]** transmits:
+"Who beautified it? No one blames it harder than the One who made it." ʿUmar's saying — **[Ṭabarī]**
+from Abū Bakr b. Ḥafṣ b. ʿUmar b. Saʿd — when the verse came down: "Now, Lord, since Thou hast
+beautified it for us!" — whereupon 3:15 was revealed. Qurṭubī harmonises: God's beautifying is by
+creating, fitting for use, and making the disposition lean that way; the devil's is by whisper,
+deceit, and sweetening acquisition from the wrong doors. Either way the verse opens as a warning to
+everyone, containing within it a rebuke of the contemporaries of Muḥammad from among the Jews and
+others. He notes the reading of al-Ḍaḥḥāk and Mujāhid, *zayyana* active with the *naṣb* of *hubba* —
+and the *hāʾ* of *al-shahawāti* vowelled, to mark off noun from adjective.
+
+**The items, valued.** **[Ibn Kathīr]** draws the fiqh of desire: women come first because the trial
+through them bites deeper — "I leave after me no trial more harmful to men than women" (Ṣaḥīḥ); yet
+enjoyed for children and chastity it is encouraged, for "the world is a comfort and its best comfort a
+righteous wife," and "women and perfume were made beloved to me, and the coolness of my eye was put in
+the prayer"; ʿĀʾisha: nothing was dearer to the Prophet than women — in another narration, than horses,
+the order reversed. Children desired for pride and numbers are a temptation; desired to increase the
+community worshipping God alone, they are praised: "marry the loving, the fertile, for I will vie with
+the nations by you on the Day of Resurrection." Wealth hoarded to lord it over the weak is forbidden;
+spent in worship, on family and kin, on the needy, it is encouraged. Horses divide three ways: bred
+for God's cause and ridden when needed, their owner is rewarded; hoarded for pride and malice toward
+Islam, he carries a load; kept for livelihood and offspring without forgetting God's due on them,
+they are a shield for their owner. *Musawwana*: Ibn ʿAbbās and the rest — well-branded, beautiful. The
+*qinṭār*: the mufassirūn differ on its measure but agree it is vast; Abū Hurayra: twelve thousand
+*ūqiyya*, every *ūqiyya* better than all between heaven and earth (**[Ṭabarī]**).
+
+**Belief / Sequence.** **[Maʿārif]**: the sūrah has moved from the disbelievers' hostility to its
+root — the love of this world: some line up against the truth for greed of wealth or power, some
+driven by lust, some defending inherited customs; "the love of the world is the head of every fault,"
+a prophetic saying cited here. **[Saʿdī]**: each faction of mankind eyes one kind of these things,
+makes it its greatest concern and the summit of its knowing — and it is, in the words of the verse,
+*the comfort of a brief life*, spent in a short span. Yet God's *ḥusn al-maʾāb* is offered in the same
+breath: the address is not to despise creation but to weigh it.
+
+**Cross-references.** **[Study Quran]**: wealth and children as "the adornment of the life of this
+world" at 18:46, and the whole cluster at 3:10c; *zayyana* and its theme at 2:212, 9:37, 15:16; the
+beautiful return (*maʾāb*) at 13:29 and throughout Sūrah 38.
+
+**Reflection.** Read as a ladder of attachments — faces, heirs, hoards, herds, fields — the verse
+diagnoses not the things but the *love of them* made beautiful, i.e. seen without their end. The
+counsel it leaves is exactly ʿUmar's: not "throw it away" but "and what is better than this?" — which
+is why 3:15 is already on the Prophet's lips.
+
+---
+
+## 3:15 — قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ اتَّقَوا عِندَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُّطَهَّرَةٌ وَرِضْوَانٌ مِّنَ اللَّهِ ۗ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ
+
+*"Say: Shall I tell you of better than that? For those who were wary there are, with their Lord,
+Gardens underneath which rivers flow, to abide in them, and spouses purified, and good pleasure from
+God. And God is Seer of the servants."*
+
+**Meaning.** **[Ṭabarī]**: say to the people for whom the love of desires was made fair — *shall I tell
+you, shall I inform you, of better and worthier for you than what you have been given in this world as
+loved desire?* Then he sets the grammarians' question: where does the interrogation stop? Some say at
+*min dhalikum*, and the report begins afresh — *for those who were wary there are Gardens* — which is
+why *jannātun* must be raised, a new subject whose fronted predicate is the *lām* clause; some say
+that if the *lām* of *lilladhīna* is taken as governed by "tell you," then genitive *jannātin* is also
+allowed, as a substitution for *bi-khayrin*; others end the question at *ʿinda rabbihim*.
+**[Qurṭubī]** and Ibn ʿAṭiyya concur that the second reading is impossible on the first analysis.
+**[Jalālayn]**: an interrogative with the sense of affirmation — *for those wary of idolatry, with
+their Lord, are Gardens* (the predicate fronted, the subject *jannāt*), rivers flowing beneath them,
+abiding — a thing decreed — *and spouses purified* of menstruation and every impurity, *and*
+beatitude: read *riḍwān* or *ruḍwān*, much pleasure from God.
+
+**God's good pleasure.** **[Study Quran]**: *riḍwān* sits at the pinnacle of the paradisal state,
+greater even than the Gardens (9:72); it is also sought in this world (5:16; 48:29; 57:27; 59:8), and
+runs both ways — "return to your Lord, pleased and pleasing" (89:28; cf. 5:119; 58:22; 98:8) — and is
+the opposite of wrath (3:162; 47:28). The Prophet described the exchange: God asks the people of the
+Garden, "Are you content?" — "Why should we not, when You have given what no created thing has
+received?" — "Shall I give you what is better than that? I shall loose My *riḍwān* upon you and never
+be angry with you again."
+
+**Belief.** **[Saʿdī]**: the God-wary have better than these pleasures — every kind of good, and
+bliss no eye saw, no ear heard, no heart of man figured; and God's *riḍwān*, which is greater than
+everything; and spouses purified from every defect and deficiency — and negation of the bad entails
+the presence of its opposite, so their purity is the completeness of their excellences. *God is Seer
+of the servants* — so He eases each toward what it was made for: the people of felicity toward the work
+of that lasting home, taking from this life whatever aids obedience, and the people of the other track
+toward the work of their like, content with the world, settled in it. **[Maʿārif]** maps the exchange:
+six things that infatuate in 3:14 answered by three better in 3:15 — gardens against all property,
+purified spouses against women, and God's good pleasure as the ultimate thing a human can and should
+aspire to.
+
+**Reflection.** The verse neither denies the six nor grades them; it outbids them. That is its
+pastoral method: no sermon of pure negation has ever weaned a heart that was not first shown a better
+price.
+
+---
+
+## 3:16 — الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ
+
+*"Those who say: Our Lord, we believe — so forgive us our sins and shield us from the punishment of the Fire."*
+
+**Meaning.** **[Jalālayn]**: *alladhīna* is a qualifier — or a substitution — of the God-wary before:
+they say, "Our Lord, we believe in You and in Your Prophet; forgive us our sins and guard us from the
+chastisement of the Fire." **[Ṭabarī]** parses the sentence the other way, and records both: genitive as
+a return on *lilladhīna ittaqaw*, or nominative as a new beginning — as in Sūrat al-Tawba, where after
+"God has bought from the believers their selves and their wealth" (9:111) the next verse opens afresh
+"the penitent, the devout" (9:112), though it could have been declined as a return. Their saying
+*we believe* is: we confirm You, Your prophet, and what he brought from You. *Forgive us our sins*:
+cover them with Your pardon and pass over requiting them; *shield us from the Fire*: drive it from us.
+And why the specific request, when God pardoning already means no Fire? **[Ṭabarī]**: because whoever
+is *hurled away* from it on that Day has won — escape from punishment and the beautiful return. He
+adds the lexicography of *qinā*: from *waqā* — warding off. **[Ibn Kathīr]**: they believe in You, Your
+Book and Your Messenger; forgive our slips and shortcomings with Your bounty and mercy.
+
+**Belief.** **[Saʿdī]** sees the etiquette of duʿāʾ in it: the people of knowledge and faith *tawassul*
+to their Lord by the very faith He has conferred on them — asking that He complete His favour with
+full reward and the averted punishment — which is among the means God loves: a servant approaching Him
+by what He himself gave him.
+
+**Language.** **[Study Quran]**: *qinā* is cognate with *taqwā* (2:2): to be shielded and to be wary are
+one root — as in (59:9; 64:16), being shielded from one's own soul's greed.
+
+**Reflection.** The sequence is a pedagogy: a verse of desires enumerated (3:14), a verse of better
+things enumerated (3:15), and now the owners of the better things are shown with their heads bowed
+mid-paradise — believing, yet still asking forgiveness. Conviction and compunction, the Qurʾān
+insists, are not opposites.
+
+---
+
+## 3:17 — الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ
+
+*"The patient, the truthful, the obedient, the givers of charity, and the ones who ask pardon at the
+breaths of dawn."*
+
+**Meaning.** The five qualities, in **[Ṭabarī]**: the *patient* — tried in hardship, affliction and the
+press of battle; the *truthful* — true to God in profession, making confession real by acting on
+command and abstaining from prohibition; the *qānitūn* — the obedient; the givers of charity — those
+who pay the *zakāt* of their wealth and place it where God placed it, and spend in the doors He
+allowed. Qatāda's phrasing, which he transmits: people whose mouths spoke true and whose hearts and
+tongues were straight, true in secret and open. **[Jalālayn]**: the whole string is a qualifier of
+*alladhīna*; *al-sābirīn* — patient in obedience and against disobedience; *al-ʿāṣīn*… — truthful in
+faith, obedient, compliant before God; givers of alms; and the last is the seat of the particular
+virtue: *al-asḥār*, the last part of the night, singled out **[Jalālayn]** says because it is the hour
+of heedlessness and the delight of sleep — the heart's worship there costs most and is worth most.
+
+**The qualities, unfolded.** **[Saʿdī]** gives the fullest anatomy: *ṣabr* is holding the soul to what
+God loves, seeking His good pleasure — patient *in* obedience, *from* disobedience, *under* painful
+decree. *Ṣidq* is truth in words and in states, the straightness of outward and inward, and a true
+resolve on the middle road. *Qunūt* is the persistence of obedience with khushūʿ and humility in its
+company. *Infaq* is spending in the roads of good, on the poor and the households of need. And
+*istighfār at dawn*: they drew the night prayer out to the *sāḥir* and sat asking pardon.
+**[Ibn Kathīr]** seals the last quality with its proofs: the *nuzūl* ḥadīth in both Ṣaḥīḥs, the Musnad
+and the Sunan — every night, when the last third remains, our Lord the Blessed the Exalted descends to
+the nearest heaven: "Is any asking, that giving be granted him? Is any supplicating, that his call be
+answered? Is any seeking pardon, that pardon be his?" — the virtue of *istighfār* at the last hours of
+night; that Yaʿqūb, when he promised his sons "I will ask forgiveness for you from my Lord" (12:98),
+delayed it to the pre-dawn; that ʿĀʾisha reported how the Prophet's witr moved, late in life, to the
+last part of the night; and that Ibn ʿUmar would pray the night and call out, "O Nāfiʿ — is the last
+part of the night come?" and when Nāfiʿ said yes, keep asking pardon till dawn.
+
+**Cross-references.** Night and dawn elsewhere: (51:18) *bi-l-asḥār* for the same people; (17:79;
+25:64; 73:20) the night vigil. **[Study Quran]**: *qunūṭ* carries conformity, constancy, standing and
+silence (cf. 4:34); *asḥār* is the last part of the night before the twilight; the Prophet rose before
+dawn and urged others to; in Islamic spirituality the vigil is the inverse of the day — the passions
+asleep, the heart awake, and none to see.
+
+**Reflection.** Five words that read like a census of a whole religion inward — patience, truth,
+attendance, open-handedness, and, at the one hour when nothing is witnessed but God, a whisper asking
+to be forgiven. The sūrah has just left the market-place of Banū Qaynuqāʾ (3:12) and the battlefield
+(3:13); it now shows where the true army actually trains.
+
+---
+
+## 3:18 — شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ
+
+*"God bears witness that there is no god except He — and the angels and the people of knowledge —
+standing by justice. There is no god except Him, the Mighty, the Wise."*
+
+**Meaning.** **[Jalālayn]**: God *bears witness* — makes it manifest to His creation by proofs and
+signs; the angels bear witness by affirming it; the people of knowledge — prophets and believers — by
+conviction and by tongue; *standing by justice*: a circumstantial qualifier of God (in the sense "He is
+alone in sustaining His creation justly"), and the testimony is repeated for emphasis — the Mighty in
+kingdom, the Wise in act. **[Ṭabarī]** settles the syntax: *al-malāʾika wa-ūlu l-ʿilmi* are conjoined to
+the name "God" as joint subjects of *shahida*, and *annahu* is governed by the verb with the open
+*an*; a Baṣran grammarian (Abū ʿUbayda) had taken *shahida* as "decreed" and raised *al-malāʾika* as a
+new sentence, "and the angels and the people of knowledge are witnesses"; the readers of the community
+open the first *anna* and begin the next verse's *inna* with its *kasra*; and some later grammarians
+(al-Kisāʾī) opened both *an* and *an*, conjoining "that the religion with God is submission" to the
+first *anna* with an omitted *wāw*, supported by a reading of Ibn ʿAbbās that recites them joined.
+**[Ibn Kathīr]**: God bears witness — and God is witness enough, the truest and justest of witnesses,
+and His word is sheer truth: He alone is the Lord and God of all; all are His servants, created, needy;
+He is the Rich — cf. (4:166), "God bears witness to what He has sent down upon you, and the angels
+bear witness."
+
+**The people of knowledge.** **[Saʿdī]**: this is the greatest of all testimonies — from the Supreme
+King, the angels, and the scholars — to the greatest of all testified things: God's oneness and His
+standing by equity. It encompasses testimony to the whole revealed law and to the whole economy of
+recompense, for religion's root is *tawḥīd* and the avowal of His sole-owning attributes of majesty,
+might and power, of generosity, kindness and beauty, in a perfection no creature can encompass, count
+or praise as it should; while all worship and dealings, commands and prohibitions, are *qisṭ* and
+justice with no shadow of wrong — of a wisdom and firmness beyond measure; and the requital of good
+and evil is all equity. The greatest reality has the greatest attestation: *"Say: what thing is the
+greatest witness? Say: God"* (6:19). And in this verse, **[Saʿdī]**, the honour of knowledge: God
+ singled out the scholars from the mass of humans, joined their witness to His own and His angels', and
+made it one of the greatest proofs — implying their vindication, that creation follows them and they
+are the leaders who are led. **[Maʿārif]**: the three witnesses in order — God's testimony is in a
+figurative sense: His being, attributes and the manifestations of power everywhere are the open proof,
+confirmed by His messengers and books; the angels near to Him, seeing and knowing and testifying; and
+*ūlu l-ʿilmi*: the blessed prophets and the men of Islamic knowledge — al-Ghazālī and Ibn Kathīr both
+find here a great dignity for the *ʿulamāʾ — or, possibly, in the unrestricted sense, all who arrive at
+God's oneness by sound inquiry into the universe, even without a formal discipline. **[Study Quran]**:
+*standing by justice* is most often attached to God, but grammar allows it of the angels and the
+people of knowledge as well — plausibly, from the near-identical (5:8) "bear witness to justice" and
+(4:135) — and it may also attach forward, joining the next verse ("God, the angels and the men of
+knowledge bear witness that the religion with God is submission"). God is the supreme Witness, for He
+was when nothing else was — "God was, and there was nothing other than He" — and so has most right to
+the name (R); cf. (5:117), (4:166); and in (7:172) the primordial covenant is framed as our own
+testimony.
+
+**Reflection.** The middle of a sūrah about revelation, scripture and argument is crowned by a verse
+that turns argument into courtroom: three witnesses, one verdict. The scholars who appear beside the
+angels here are the same *rāsikhūn* of 3:7 who, when asked what they knew of the ambiguous, answered by
+believing, not by knowing.
+
+---
+
+## 3:19 — إِنَّ الدِّينَ عِندَ اللَّهِ الْإِسْلَامُ ۗ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِئَايَاتِ اللَّهِ فَإِنَّ اللَّهَ سَرِيعُ الْحِسَابِ
+
+*"Truly, the religion with God is submission; and those brought the Scripture differed only after the
+knowledge had come to them, out of aggression among themselves. And whoever disbelieves God's signs —
+God is swift at the reckoning."*
+
+**Meaning.** **[Jalālayn]**: the religion with God, the religion He is pleased with, is *islām* —
+resignation to the One God, meaning the law with which His messengers were sent, founded on the
+avowal of His oneness; some take *inna* as *anna* (the variant reading in the last note on 3:18), an
+inclusive substitution up to the end of the sentence. He gives the sense of the second clause in his
+usual compressed way: the Jews and the Christians differed in religion after the knowledge of
+oneness came to them — some affirming, some rejecting — *baghyān*, from the transgression of the
+disbelieving among them. **[Ṭabarī]**: the *dīn* here means obedience and humbling oneself — the
+obedience due God. **[Saʿdī]**: the religion that is *with* God — none besides it being His, and none
+else accepted — is submission to Him alone, outward and inward, with what He legislated on the tongues
+of His messengers; whoever takes a religion other than this has not in truth submitted to Him at all,
+having left the road He made plain — and he cites 3:85. The People of the Book *knew* this: knowledge
+that removes the excuse came to them and they swerved — from stubbornness and envy; when the Prophet
+came they recognised him with full recognition, but envy, aggression and disbelief in God's signs
+barred the following.
+
+**Dīn and sharīʿa distinguished.** **[Maʿārif]**: *dīn* means "the way," and in Qurʾānic usage stands
+for the principles and injunctions *common to all the prophets*, from Adam to Muḥammad ﷺ, while the
+later terms *sharīʿa*, *minhāj* and *madhhab* cover the subsidiary rules that varied with ages and
+communities — as (42:13): "He has ordained for you of the religion what He charged Noah with." The one
+*dīn* is therefore: belief in the most perfect Being and attributes, free of all defect; that He alone
+is worshipped — held in the heart and said by the tongue; belief in the Last Day, the reckoning,
+reward and punishment, Paradise and Hell; belief in every prophet and messenger and in all they
+brought. And the true meaning of *islām* is the surrender of the self to that.
+
+**Cross-references and exegesis of the difference.** **[Study Quran]**: *islām* is at once the proper
+name of the religion sent through Muḥammad and the state of every true religion's adherents who
+conform to God's will — Abraham and Yaʿqūb "bequeathed" it (2:132), Abraham and Ismāʿīl raised the
+House's foundations in it (2:128), the apostles of Jesus said *we are Muslims* (3:52; 5:111). Many
+Muslims read 3:19 as an exclusive claim; the most universal sense — stressed by authority after
+authority — is submission itself, and the commentators do not reduce *islām* to the name alone,
+though many add that after Muḥammad ﷺ no other religion is accepted (same conclusion applied to 3:85).
+The second clause parallels (98:4): the divided only came apart after the clear proof. Some say: the
+Jews, entrusted with the Torah, began disputing about it after several generations, and the Christians
+later about the Gospel (al-Jurjānī, Thāʿalibī); Ṭabarī: the worst of the Jews' differences broke out
+after they had become the learned of humanity; others: the difference is about the reception of this
+Prophet and this Qurʾān — some accepted, some said it was for the Arabs only, some refused outright
+(al-Jurjānī). *Baghy* — aggression — is usually the pursuit of wealth, power and status. *Swift at the
+reckoning*: Ṭabarī reads it as God counting deeds for judgment (cf. 24:39; 40:17); it can also be
+God's reckoning overtaking in this world (13:41). And the note on the pair with knowledge:
+*application* of knowledge is a double-edged thing — by it God misleads many and guides many, and He
+misleads only the transgressing (2:26).
+
+**Reflection.** The verse places the plural before the singular: religions of law differ, the religion
+of the heart does not; and then it explains the scandal of the particular — that the people who knew
+split anyway — without pretending the split was ignorance. *Out of aggression.* The diagnosis is moral,
+not epistemic; and the close — *God is swift at the reckoning* — is the reason the diagnosis can be
+honest: the judgment of disputes is already booked.
+
+---
+
+## 3:20 — فَإِن حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّهِ وَمَنِ اتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوا ۖ وَّإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ ۗ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ
+
+*"So if they dispute with you, say: I have surrendered my face to God — and whoever follows me. And
+say to those brought the Scripture and to the unlettered: Have you surrendered? If they surrender,
+they are guided; and if they turn away, your duty is only the conveyance. And God is Seer of the
+servants."*
+
+**Meaning.** **[Jalālayn]**: *surrendered my face* — submitted, I and whoever follows me, to God
+alone; the *face* is named because it is the noblest member, and once it is surrendered the other
+parts go willingly with it. The address widens: the People of the Book — Jews and Christians — and the
+*ummiyyūn*, the unlettered Arabs who worship idols: *have you surrendered?* — "submit, then." *If they
+surrendered, they were guided* out of error; if they turned their backs, your duty is to deliver the
+message — nothing more. And he notes the abrogative frame: *this statement was revealed before the
+command to fight them was sent down.*
+
+**The argument's end.** **[Maʿārif]**: the sūrah opened with the confirmation of God's oneness and the
+refutation of trinitarian claims, and here it answers the disputations the deniers among the People of
+the Book keep up *after the proof has been conclusively established*. The counsel against endless
+debate: for a believer the disputants' acceptance or rejection is of no advantage either way — he has
+simply to declare that he, and his with him, have entered the surrender, without doubt of its truth.
+The Prophet was entrusted with the call of the People of the Book and the idolaters of Arabia to God
+and to Islam — for their own good, since there is the right path — and he is comforted in the case of
+continued hostility: your duty is only conveyance. That the message is rejected rather than received is
+not your burden; God will take care of it in His way, for He is in full sight of what His servants are
+doing. **[Saʿdī]**: when it had been made plain that the true religion with God is submission, and the
+People of the Book met the Prophet to his face with argument while the proof stood and they resisted
+it, God ordered him to proclaim, openly, that he had surrendered to God his face — outward and
+inward — and that whoever followed him shared that pure compliance; and to say to all people, the
+People of the Book and the unlettered alike — Arabs and others — *if you surrender, you are on the
+guidance*...
+
+**Belief.** **[Study Quran]**: *aslama wajhahu* — to surrender the face — signifies the reorienting of
+the whole self, as at (2:131; 31:22): the face is the self in its most intentional aspect. *The
+conveyance (balāgh)* is the Prophet's defined office on Judgment Day (5:67, 92, 99): the message is
+delivered, the responsibility transferred.
+
+**Reflection.** The overture ends as it began — with a debate that is closed, not won. Three times the
+Qurʾān will say in this sūrah, *God is Seer of the servants* (3:15, 20, here): the witness that
+remains when all arguments are done is the One who was watching all along — and so the disputation is
+handed back with a courtesy no polemic usually keeps: *your duty is only the conveyance.*
