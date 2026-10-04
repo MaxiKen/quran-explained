@@ -2376,3 +2376,312 @@ assurance by the same clause that denies them the alibi.
 at their most analytic, keep breaking into the imperative — *do not be of the waverers*. Knowledge in
 this book is never neutral observation; its last word is a posture of the heart.
 
+
+
+## 3:61 — فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ ۖ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنْفُسَنَا وَأَنْفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ
+
+*"Whoever disputes with you about him after the knowledge that has come to you — say: come! We call our
+sons and your sons, our women and your women, our selves and your selves — then let us abtahil, and set
+God's curse upon the liars."*
+
+**Context — the delegation of Najrān.** **[Ibn Kathīr]**, citing Muḥammad b. Isḥāq's *Sīra*: the
+Christians of Najrān came to Madīna to argue about Jesus, claiming his divinity and sonship of God,
+sixty horsemen with fourteen of their notables — *al-ʿĀqib* ʿAbd al-Masīḥ, whose word decided;
+*al-Sayyid* al-Ayham, their scholar and caravan-leader; and their bishop *Abū Ḥāritha b. ʿAlqama* of
+Bakr b. Wāʾil, whom the Romans had honoured with churches, stipends and servants for the firmness of
+his faith — and Ibn Isḥāq adds that Abū Ḥāritha *knew the Prophet's description in the earlier books,
+but his honour among the Christians kept him Christian*. They entered the mosque after the ʿaṣr prayer
+in robes and silk, and the Companions said they had never seen their like. **[Study Quran]**: the
+verses from the sūrah's opening to this point were sent down against their claims (Ibn Isḥāq's verdict,
+which **[Ṭabarī]** and the whole chain of this section corroborate).
+
+**Meaning.** **[Ṭabarī]**: *man ḥājjaka fīhi* — whoever argues with you about the Messiah, or about
+"the truth" of 3:60 (the pronoun's two possible returns are both given); *taʿālawā* is *halumū*, "come
+hither"; and *nabtahil* is *natalʿan* — mutual cursing: the Arabs say *mā lahu, bahalahu Llāh*, "may God
+curse him," and *ʿalayhi bulhatu Llāh*; Labīd, remembering a people destroyed: *the age looked upon them
+and abtahala* — and the grammar of the verb's form comes with it. **[Qurṭubī]** organises the verse as
+*three masʾala*: the argument (*jādala*); *taʿālawā* as a word originally for one with majesty, then
+generalised to any invitation (more at 6:130 in his ordering); and *nabtaʿil* — to beg the curse
+earnestly, per Ibn ʿAbbās, Abū ʿUbayda and al-Kisāʾī. **[Maʿārif]** gives the law's definition: when
+argument fails on both sides, the parties jointly pray God to cast His curse — which is removal from
+mercy, hence nearness to wrath — upon whichever is false, so that the truth stands evident before the
+deniers too; the disputants alone could perform it, but bringing the whole families makes it
+*effective*, which is why the verse calls the sons and women into the circle.
+
+**The event as the books tell it.** **[Jalālayn]**: the Prophet summoned the delegation to this when
+they disputed about Jesus; they asked to deliberate, and their wisest said: you know he is a prophet, and
+every people that challenged a prophet to mutual imprecation was destroyed; they left and made peace on
+terms of the *jizya* (Abū Nuʿaym's report). When the Prophet came out with al-Ḥasan, al-Ḥusayn, Fāṭima
+and ʿAlī he said: *when I pray, say "āmīn"* — and Ibn ʿAbbās reports: had they come forward, they would
+have returned finding neither property nor family. **[Qurṭubī]**: he came with al-Ḥasan and al-Ḥusayn,
+Fāṭima walking behind him and ʿAlī behind her, saying *if I call, cry "āmīn"* — and this is the proof,
+Qurṭubī notes in his own hand, that *a daughter's sons are called "sons"*. **[Study Quran]**: the
+Christians, having deliberated, chose to remain Christians rather than stake family and fortune on the
+imprecation, declining with "we seek refuge in God" (Ibn Kathīr) — some say their fear was of the curse,
+others of becoming Muḥammad's political enemy — and Najrān became a treaty-people (*dhimmī*) paying the
+annual indemnity (the terms follow in the sīra literature).
+
+**Rulings.** From the verse's word-order Ṭabarī and Qurṭubī's *masāʾil* derive the standing rulings:
+oath-cursing is only after argument is exhausted; only the true claimant can survive it, which is why it
+is a proof of prophecy rather than a trial of courage; and the inclusion of *sons* and *women* — the
+Prophet brought the *Ahl al-Bayt* — became, in the Shīʿī reading carried in these very reports, the
+verse's deepest layer: the "ourselves" (*anfusana*) being ʿAlī, the "our sons" Ḥasan and Ḥusayn, "our
+women" Fāṭima, so that the event testifies at once to the falsity of the Najrān claim and to the rank
+of the Prophet's house (the *ḥadīth of the cloak* at 33:33c is its twin). Sunni editors of the same
+reports keep them to the second point: the verse honours them; it appoints no succession.
+
+**Reflection.** The sūrah's argument has now exhausted its courtly means — proof, scripture, analogy
+with Adam — and offers the last resort: an ordeal of prayer in which each side's dearest are the stake.
+That the offer was declined is treated by the commentators as verdict, and by the verse's own logic it
+is one: *say: come*, and the silence of the Christians of Najrān is the answer the chapter records in
+place of the cursing. The mubāhala was never performed, and that is how it was won.
+
+---
+
+## 3:62 — إِنَّ هَٰذَا لَهُوَ الْقَصَصُ الْحَقُّ ۖ وَمَا مِنْ إِلَٰهٍ إِلَّا اللَّهُ ۚ وَإِنَّ اللَّهَ لَهُوَ الْعَزِيزُ الْحَكِيمُ
+
+*"Truly this — it is the story of the real; there is no god but God; and God — He is the Mighty, the
+Wise."*
+
+**Meaning.** **[Ṭabarī]**: *this* is the news of Jesus just recited — that he is My servant and My
+messenger and My word cast into Mary and a spirit from Me — *the qaṣaṣ and the true report*; know then
+that no created being has any right to worship except your Own, the *ʿAzīz* — mighty in retribution from
+whoever defied Him, broke His order and set up another god with Him or served one besides Him — and the
+*Ḥakīm* whose ordering admits no flaw or lapse. **[Jalālayn]**: the recital above is the story free of
+doubt; *there is no god but He* — and the tawḥīd answers the imprecation's refusal.
+
+**Language.** **[Study Quran]** notes the formula's strangeness: *mā min ilāhin illā Llāh* rather than
+the *shahāda*'s *lā ilāha illa Llāh* — read by Rāzī and Zamakhsharī as an intensification of the
+negation: no god at all exists *of any kind* but God; the *min* is the *min* of *zāʾida* making the
+negation total, the Qurʾān's own grammar of the sentence of witness.
+
+**Reflection.** The verse set the stakes of the ordeal and then, when the ordeal failed to happen, states
+the verdict as creed: the true *qaṣaṣ* — which is the sūrah's word for its own narrative, 3:1 — ends
+where it began (3:2): *lā ilāha illā huwa*. The whole Jesus section closes inside the frame of the
+chapter's opening, the two verses that were the Christians' argument now become its epitaph.
+
+---
+
+## 3:63 — فَإِن تَوَلَّوْا فَإِنَّ اللَّهَ عَلِيمٌ بِالْمُفْسِدِينَ
+
+*"And if they turn away — then God knows the makers of corruption."*
+
+**Meaning.** **[Ṭabarī]**: if those who disputed about Jesus turn their backs on the truth that came to
+you from your Lord — refuse the *ḥanīfiyya* and the *kalima sawāʾ* and all the rest — then He who
+knows their *ifsād* will requite it; the verse is an execution of the imprecation deferred to the
+Judge. **[Jalālayn]** notes the switch: the pronoun's third person replaced by the open noun *bi-l-
+mufsidīn* — the Koranic manner of naming the crime where the "them" was.
+
+**Reflection.** A small verse that finishes the drama in one clause: after the refusal and the treaty,
+nothing is asked of the Prophet but knowledge — the corruption of the heart is registered by its
+Knower, and *ʿalīm* is the last word where *ʿazīz* was the previous one (3:62): might and knowledge
+close the section, punishment left to the *yawm al-dīn* (3:10).
+
+---
+
+## 3:64 — قُلْ يَٰأَهْلَ الْكِتَابِ تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ اللَّهِ ۚ فَإِن تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ
+
+*"Say: People of the Book — come to a word level between us and you: that we worship none but God, and
+associate nothing with Him, and do not take one another as lords beside God. And if they turn away,
+say: bear witness that we are submitters."*
+
+**Meaning.** **[Ṭabarī]**: *kalima sawāʾ* is *kalima ʿadl*, an even and just word — that we make God
+one and worship none but Him, and renounce every other object of worship; and *that we do not take one
+another as lords* is: none of us obeys another in God's disobedience, or magnifies him with prostration
+as one prostrates to one's Lord. **[Jalālayn]**: *sawāʾ* is the verbal noun of *mustawin amruhā*, a
+matter upright and equal between the two parties — and the taking of lords is what you have done with
+*rabbis and monks* (the allusion, per the sūrah's own report, to 9:31, where ʿAdī b. Ḥātim's "they did
+not worship them" is answered: *yes — they forbade you the lawful and made lawful the forbidden, and you
+followed them: that was their worship of them*).
+
+**Language.** **[Study Quran]** on *sawāʾ*: from the root of level, equal, middle, sound — *sawāʾ al-
+sabīl*, "the middle of the road," the right way (28:22); so the invitation is not to the lowest common
+denominator of the three religions but to *what is right and even between us*: Rāzī — "come to a word in
+which each of us treats the other fairly"; others (M) that it is the common ground all three claim,
+worship of God; Zamakhsharī, that it is what Qurʾān, Torah and Gospel do not differ about; and
+Thaʿlabī's Ibn Masʿūd: to call to the *sawāʾ* of a thing is to call to its middle.
+
+**The verse in the Prophet's correspondence.** **[Saʿdī]**: it was with this verse that the Prophet ﷺ
+wrote to the kings of the People of the Book; and some of the reciters read it (with 3:52's *āmanā*) in
+the first cycle of the dawn *sunset* supererogatory prayer — because it gathers the call to the one
+religion all the envoys agreed on, the *tawḥīd* of worship built on serving God alone, and the confession
+that no human being, in the whole estate of humanity, is entitled to any attribute of lordship or
+divinity; and if the People of the Book and others submit to this, they are guided — *but if they turn
+away, say: bear witness that we are submitters*, the same answer as (109:1–6).
+
+**Belief / Rulings.** The third clause — *lā yattakhidha baʿḍunā baʿḍan arbāban* — is the sūrah's own
+definition of theocracy's substitute: obedience sanctified, law-making claimed by men; **[Ibn Kathīr]**
+and **[Ṭabarī]** both gloss it by the rabbi-and-monk report. **[Maʿārif]**: the *ḥanīf* constitution —
+no worship of God with partner, no worship of God's servants — is the "word level" in both senses:
+between the communities, and between this chapter and the first (2:136's identical summons to the
+believers, "we believe in what was sent down to us…").
+
+**Reflection.** The famous *āya* of civility is in fact an ultimatum in civility's clothes: a "word
+level" so narrow that it empties the clergy of their keys and the councils of their claims, and so broad
+that the Torah, Gospel and Qurʾān all already confess it. The invitation "come" was the mubāhala's
+gentler twin — and like the ordeal, it ends in a withdrawal: *then say: bear witness that we are
+submitters.* The *shahāda* offered to the refusers is the same the disciples asked to be written under
+(3:53).
+
+---
+
+## 3:65 — يَٰأَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِيٓ إِبْرَٰهِيمَ وَمَآ أُنزِلَتِ التَّوْرَىٰةُ وَالإنجِيلُ إِلَّا مِن بَعْدِهِ ۚ أَفَلَا تَعْقِلُونَ
+
+*"People of the Book — why do you argue about Abraham, when the Torah and the Gospel were not sent down
+except after him? Do you not reckon?"*
+
+**Context.** **[Jalālayn]**: the Jews claimed Abraham was a Jew and theirs the religion he followed, and
+the Christians said the like — the verse came down on that. **[Ṭabarī]**: it is God's blame of each
+party's *claim*: the Jew says his religion is the Torah's upkeep, the Christian his the Gospel's — and
+these two books came down long after Abraham's death and passing; how then can he be "one of you"? (The
+edition's editors record a copyist's slip in the manuscript's sentence — "how can he be from them"
+stands corrected by the context.) It was, they add, revealed about the two parties' quarrel at the
+Prophet's court over whose religion his was.
+
+**Meaning.** **[Study Quran]**: the argument is chronology as theology — Jewry and Christianity as named
+communities post-date their patriarch by a millennium (the Torah's descent, they say, after Moses; the
+Gospel's, after Jesus), so the plea from *following Abraham* cannot belong to either.
+
+**Reflection.** The sūrah's simplest demonstration, and its most embarrassing to every scriptural
+partisan: it settles the paternity of a creed by dates. The argument the Qurʾān will press in the next
+verses of the section (3:67–68) is already here: a religion named after a book cannot inherit a man
+before the book; but the religion named after *surrender* — *islām* as the act, not the party — can,
+which is the whole point (3:19c, the *ḥanīf* lexicon at 2:135c).
+
+---
+
+## 3:66 — هَٰأَنتُمْ حَاجَجْتُمْ فِيمَا لَكُم بِهِ عِلْمٌ فَلِمَ تُحَاجُّونَ فِيمَا لَيْسَ لَكُم بِهِ عِلْمٌ ۗ وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+
+*"There you are — you argued about what you have knowledge of; so why argue about what you have no
+knowledge of? God knows and you know not."*
+
+**Meaning.** **[Ṭabarī]**: *hā antum* is the pointing at the people themselves; the sense: you have
+argued about what is within your knowledge — your own religion as found in your books, what the
+messengers brought you, and what was given and confirmed among you — yet you dispute about Abraham, of
+whose affair you have no knowledge. **[Jalālayn]**: about Moses and Jesus and your claim to hold to
+their laws — *why then dispute what you cannot know*, Abraham's circumstances; *and God knows them and
+you know not*. **[Study Quran]**: some take "what you know" as their knowledge of Muḥammad and his
+foretellings in their scriptures (7:157; Q), or the disputes over their own law's lawful and forbidden
+(R, Z), or whether the Qurʾān's law differs from the Torah's and Gospel's (R); "what you do not know" is
+their claim about Abraham, lacking direct knowledge of it (Q, R, Ṭ).
+
+**Reflection.** A rule of controversy the sūrah states for its opponents and, by the chapter's first
+verse, for itself: argue where the record reaches. The Qurʾān's charge against the People of the Book
+is never that they have no data — it is that they litigate past the data's edge; and 3:7's *mutashābih*
+clause (its meaning known only to God, *ar-rākhūn fī l-ʿilm* saying *we believe in it, all is from our
+Lord*) is the same ethic turned inward, the believers' own restraint about what exceeds the record.
+
+---
+
+## 3:67 — مَّا كَانَ إِبْرَٰهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَٰكِن كَانَ حَنِيفًا مُّسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ
+
+*"Abraham was not a Jew nor a Christian — but an upright submitter, and he was not of the idolaters."*
+
+**Meaning.** **[Ṭabarī]**: this is God's denial of the two parties' claim, His acquittal of Abraham of
+their ways and their opposition to his religion — and His judgment *for* the people of Islam and the
+community of Muḥammad that they are the possessors of his religion, on his path and his laws, apart from
+all other communities; *ḥanīfan* — following God's command, straight on the road of guidance He ordered
+him to keep; *musliman* — humble of heart to God, abased in limb, compliant with what He imposed —
+*and not of the idolaters* who serve stones, idols or any created thing instead of the Creator.
+**[Jalālayn]**: *no* — God dissociates him from their claims — *but a Muslim, a ḥanīf inclining from
+every religion to the upright one, and never of the idolaters*.
+
+**Language.** **[Study Quran]**: the verse is the twin of 2:135 — *be Jews or Christians and you shall be
+guided; say: rather the religion of Abraham, the ḥanīf* — and 2:140 adds Ishmael, Isaac, Jacob and the
+Tribes to those who were "neither"; the *ḥanīf* lexicon belongs to 2:135c (see the 3:67's *mathal*
+note: here it is the *islām* of the patriarch, generic, not the community named after the Prophet); the
+claim of special status for Jews and Christians is met at 2:111–13 and 5:18.
+
+**Belief.** **[Saʿdī]**: all the religions — Jews, Christians, idolaters, and Muslims too — claimed
+Abraham, and God declared the nearest to him to be Muḥammad and his followers and the followers of the
+Friend before him, while the rest Abraham and his patronage disown: his religion is the *ḥanīfiyya*,
+generous and easy, comprising faith in all the envoys and all the books — the Muslims' distinguishing
+mark; and the claim of the two scriptural parties is refuted by plain chronology (as 3:65–66).
+
+**Reflection.** In the chapter that has spent twenty verses proving that Jesus is a *Muslim* servant,
+this verse completes the genealogy backward: the patriarch is the first Muslim, and *islām* is thereby
+shown to be neither a party nor a book's derivative but the old name of the act. It is the sūrah's most
+peaceful verse and its most exclusive; in its logic the two are the same.
+
+---
+
+## 3:68 — إِنَّ أَوْلَى النَّاسِ بِإِبْرَٰهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَٰذَا النَّبِيُّ وَالَّذِينَ ءَامَنُوا ۗ وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ
+
+*"The nearest of people to Abraham are those who followed him, and this Prophet, and those who believe —
+and God is the *walī* of the believers."*
+
+**Meaning.** **[Ṭabarī]**: *awlā* is *aḥaqqu* — nearest in claim, in support, in patronage: those who
+walked his road and method, made God one with pure religion, practised his *sunnah* and laws, and were
+*ḥunafāʾ muslimūn*; "and this Prophet" is Muḥammad; "those who believe" are the men who confirmed him
+and what he brought. The exegetes agree — Qatāda: *followers on his religion, his way, his method and
+his natural constitution*. **[Jalālayn]**: *awlā* here: most worthy in his own time, and this Prophet on
+account of the accord of his law with most of Abraham's rulings (the circumcision, the sojourn, the
+sacrifice, the guest — the *millat Ibrāhīm* the sūrah has already cited at 2:125 ff.), and the believers
+of his community — *and God is the protector, helper and preserver of the believers*.
+
+**Belief / Ḥadīth.** **[Study Quran]**: *awlā* is related to *walī* — the bond of *walāyah*: inheritance,
+protection, friendship, alliance; and it quotes the Prophet's saying: *every prophet has walāyah from
+among the prophets, and my walī among them is my father, the Friend of God, Abraham* — the spiritual
+succession running the verse's sentence backward. **[Ibn Kathīr]** carries Qatāda's further note, which
+he transmits: Abraham was the *father* of the prophets, and Muḥammad the last of his line by prayer, not
+by blood — the claim is *bi-l-dīn*, not *bi-l-raḥim*, which is the verse's edge against the Quraysh
+argument from kinship that the sūrah elsewhere answers (6:148; 37:11's "count of numbers").
+
+**Reflection.** Three names in one sentence — the followers, this Prophet, the believers — and then the
+clause that unites the three: God is *walī* of the believers. The verse dismantles the idea of an
+inherited elect: closeness to the patriarch is by *ittibāʿ*, following, and the only *walāyah* that
+counts is God's. The chapter that began "He sent down the Book with the truth, confirming what was
+before it" has reached, through Mary and Jesus and Abraham, the same claim for the same act.
+
+---
+
+## 3:69 — وَدَّت طَّائِفَةٌ مِّنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنفُسَهُمْ وَمَا يَشْعُرُونَ
+
+*"A party of the People of the Book wish to lead you astray — they lead none astray but themselves, and
+they do not perceive it."*
+
+**Context.** **[Jalālayn]**: it came down when Jews called Muʿādh b. Jabal, Ḥudhayfa b. al-Yamān and
+ʿAmmār b. Yāsir to their religion; the wish is a *wudd* — longing — that they might divert the believers
+from Islam back to unbelief and so destroy them.
+
+**Meaning.** **[Ṭabarī]**, with the lexicography: *al-iḍlāl* here is *al-ihlāk*, ruin — as in (32:10)
+*"when we are lost (ḍlalnā) in the earth,"* i.e. perished, and al-Akhtal's invective and the Nuʿmānids'
+elegy: *the one who led his camels astray returned with a clear eye* — lost and lost; so their wish is
+your perdition, and theirs recoils: the sin of misguiding others is theirs, and the believers do not
+respond. **[Study Quran]**: the verse belongs to the Qurʾān's law of recoil — *they would deceive God and
+the believers and deceive none but themselves* (2:9), *they wronged Us not but themselves* (2:57) — and
+they go astray in rejecting the truth before them, or in wishing you back to unbelief after your faith
+*from the envy in their souls* (2:109); the envy index runs 3:118, 4:89, 60:2, 68:9.
+
+**Reflection.** The most psychological of the section's verdicts: it explains the animus without
+conceding its efficacy — *they wish*: the wish's own grammar shows the direction (toward the self), and
+*mā yashʿurūn*, *they are unaware*, gives it the pathos of blindness. The Qurʾān repeatedly treats
+bad faith as self-misguidance; here the *mubāhala* delegation and the rival-callers are the same party,
+and the readers are told the only thing they need about enemies of belief: their project cancels itself
+before the Knower of the secrets (3:2 again).
+
+---
+
+## 3:70 — لِمَ تَكْفُرُونَ بِئَايَاتِ اللَّهِ وَأَنتُمْ تَشْهَدُونَ
+
+*"Why do you disbelieve in God's signs while you are witnesses?"*
+
+**Meaning.** **[Jalālayn]**: People of the Book, why do you reject the Qurʾān's verses, which contain
+every description of Muḥammad ﷺ — *while you yourselves witness*, i.e. you know them to be the truth?
+The participle *tashhadūna* is charged: you hold the testimony in your books.
+
+**Belief.** **[Study Quran]** (pairing 70–71): the warning matches 3:99 — *why do you turn the believers
+from God's path, seeking to make it crooked, while you are witnesses?* — and 71's wording is 2:42's:
+*confound not truth with falsehood, nor knowingly conceal the truth*; the verses address the rejection of
+the Prophet's mission by those in whose scriptures he is foretold (7:157; Ṭ); "while you are witnesses"
+is, on Qurtubī's and Q's reading, their bearing witness to the prophets of their own tradition — whose
+manifest truths are the same one.
+
+**Reflection.** The chapter's court has now reached cross-examination of the witnesses themselves: not
+"what do you believe?" but "why do you disbelieve *while testifying?*" — the sharpest charge the
+Qurʾān brings against the People of the Book in this sūrah: knowledge in the pocket and denial on the
+tongue. Its mirror falls on the audience by 3:71's sequel: *a group of them wishes to confuse the truth
+with falsehood and conceal it knowingly* — the same verb of concealment, *yaktumūn*, will be pointed at
+an Israelite sin (2:159), and the sūrah keeps asking which side of its own warnings its hearers will
+choose (3:103, 3:105).
+
