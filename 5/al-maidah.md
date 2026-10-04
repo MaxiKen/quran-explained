@@ -697,3 +697,117 @@
 **Context.** The language responds to those who deride the believers’ faith; it recalls specific acts of rebellion, not an inherent trait of an entire people [Study Quran], [Maʿārif].
 
 **Reflection.** The answer to mockery is not mockery in return but a reminder that all communities stand under God’s judgment [Saʿdī].
+
+---
+
+## 5:61
+
+*“When they come to you, they say, ‘We believe,’ yet they entered in disbelief and left in it. God knows best what they were concealing.”*
+
+**Meaning.** The words describe people who profess belief outwardly while keeping disbelief and hypocrisy within [Ṭabarī], [Jalālayn]. Their visit and conversation with the Prophet do not change the inward state God knows [Study Quran].
+
+**Context.** Exegetes connect the verse with hypocritical visitors among the Madinan Jews; **[Qurṭubī]** also records a report about people who displayed belief early in the day and rejected it later.
+
+**Reflection.** Religious language is not proof of inward faith by itself; God knows what a person conceals [Saʿdī].
+
+---
+
+## 5:62
+
+*“You see many of them hastening toward sin, aggression, and consuming what is unlawful. Evil indeed is what they have been doing.”*
+
+**Meaning.** The verse criticizes many among the people being discussed for racing into disobedience, enmity, and illicit gain [Ṭabarī], [Jalālayn]. “Unlawful gain” is explained particularly as bribery, while the sinful conduct includes false speech and other wrongdoing [Study Quran]. The wording “many” leaves room for exceptions [Maʿārif].
+
+**Reflection.** The accumulation of ordinary corrupt acts can become a communal pattern; the verse asks the hearer to resist both the sin and the habits that normalize it [Maʿārif].
+
+---
+
+## 5:63
+
+*“Why do the rabbis and scholars not forbid them from their sinful speech and their consuming what is unlawful? Evil indeed is what they have been doing.”*
+
+**Meaning.** The rebuke turns from those committing wrong to the religious leaders who know of it but fail to speak against it [Ṭabarī], [Jalālayn]. Their silence allows slander, bribery, and other unlawful conduct to continue; **[Study Quran]** stresses that the omission is especially serious because these leaders possess the knowledge to intervene.
+
+**Reflection.** Religious knowledge carries a public responsibility. A teacher’s failure to restrain wrongdoing can help sustain the very conduct the teacher should correct [Maʿārif].
+
+---
+
+## 5:64
+
+*“The Jews say, ‘God’s Hand is shackled.’ Shackled are their hands, and they are cursed for what they say. Nay, His two Hands are outstretched; He bestows as He wills. What has been sent down to you from your Lord will surely increase many of them in rebellion and disbelief. We have cast enmity and hatred among them until the Day of Resurrection. Whenever they kindle a fire for war, God extinguishes it. They strive to spread corruption in the land, and God loves not the corrupters.”*
+
+**Meaning.** The claim that God’s “Hand is shackled” accuses Him of withholding bounty; **[Jalālayn]** reads the image as a metaphor for miserliness. The reply declares God’s generosity and freedom to bestow as He wills [Ṭabarī], [Saʿdī]. The verse attributes the saying to the people under discussion; **[Qurṭubī]** reports that some commentators identify particular interlocutors rather than all Jews.
+
+**Belief.** “His two Hands are outstretched” affirms God’s abundant giving; exegetes differ in how they explain the expression, while holding that God is not subject to human limitation [Study Quran].
+
+**Context.** The passage also describes continuing enmity and repeated attempts at war that God frustrates, condemning those who pursue corruption [Saʿdī].
+
+**Reflection.** A person’s hardship does not prove that God is miserly; the verse redirects the charge toward the transgressor and affirms the boundlessness of divine bounty [Study Quran].
+
+---
+
+## 5:65
+
+*“Had the People of the Book believed and been reverent, We would surely have absolved them of their evil deeds and admitted them to Gardens of bliss.”*
+
+**Meaning.** The criticism of wrongdoing is followed by an open invitation: if the People of the Book believe and practice reverence, God will forgive their sins and admit them to the Garden [Ṭabarī], [Jalālayn]. In this context, most commentators understand the required faith to include belief in the Qur’an and the Messenger [Study Quran].
+
+**Reflection.** Reproach is not a closed verdict. The verse sets repentance, faith, and reverent action before the people as a path to forgiveness [Saʿdī].
+
+---
+
+## 5:66
+
+*“Had they upheld the Torah and the Gospel and what was sent down to them from their Lord, they would have received provision from above them and from beneath their feet. Among them is a moderate community, but many of them—evil is what they do.”*
+
+**Meaning.** “Upholding” the earlier scriptures means faithfully practicing what God revealed in them; classical commentators commonly include accepting the Prophet and the Qur’an among the demands of that fidelity [Jalālayn], [Saʿdī]. The promise of provision from above and below can mean rain and fruitful land, and it can also signify spiritual nourishment through revelation [Study Quran].
+
+**Context.** The verse explicitly recognizes a “moderate community” among the People of the Book, while condemning the conduct of many others [Ṭabarī], [Study Quran]. Commentators differ over whether the phrase primarily denotes upright scriptural adherents or those who accepted Islam.
+
+**Reflection.** Scripture is not upheld by possession alone: its guidance should take root in conduct and bear fruit in a just, balanced community [Saʿdī].
+
+---
+
+## 5:67
+
+*“O Messenger, convey what has been sent down to you from your Lord. If you do not, you will not have conveyed His message. God will protect you from mankind. Truly God does not guide the disbelieving people.”*
+
+**Meaning.** The Prophet is commanded to proclaim all that God has revealed, without concealing any part through fear of people; God promises to protect him [Ṭabarī], [Jalālayn]. **[Ibn Kathīr]** cites ʿĀʾishah’s rejection of the claim that the Prophet withheld revelation, treating the verse as an assurance of complete delivery.
+
+**Context.** Some Shiite commentaries connect the command with the Prophet’s announcement concerning ʿAlī at Ghadīr Khumm; other exegetes understand it as a general command to convey the whole revelation. **[Study Quran]** records these distinct readings; the verse itself states the duty of complete proclamation.
+
+**Reflection.** A messenger’s task is to convey faithfully and entrust the response to God, not to tailor revelation to avoid every human objection [Saʿdī].
+
+---
+
+## 5:68
+
+*“Say, ‘O People of the Book, you stand on nothing until you uphold the Torah and the Gospel and what has been sent down to you from your Lord.’ What has been sent down to you from your Lord will surely increase many of them in rebellion and disbelief, so do not grieve for the disbelieving people.”*
+
+**Meaning.** The address calls the People of the Book to uphold the guidance of the Torah and Gospel together with the revelation now sent by God [Ṭabarī], [Study Quran]. Classical commentators commonly understand true fidelity to the earlier books to include recognizing the Messenger and the Qur’an where their message is made clear [Jalālayn], [Saʿdī]. The warning that revelation increases some in rebellion describes their response, not a defect in the revelation.
+
+**Reflection.** The Prophet is told not to grieve over those who reject guidance; his duty is to deliver it clearly, while each hearer remains accountable [Study Quran].
+
+---
+
+## 5:69
+
+*“Truly those who believe, and those who are Jews, the Sabeans, and the Christians—whoever believes in God and the Last Day and works righteousness—no fear shall come upon them, nor shall they grieve.”*
+
+**Meaning.** The verse names four communities and ties freedom from fear and grief to faith in God, the Last Day, and righteous action [Ṭabarī], [Saʿdī]. **[Study Quran]** regards it as a significant affirmation that salvation is not restricted by communal label alone, while noting that the verse must be read alongside the Qur’an’s other calls to respond to revelation. The exact application to communities after the coming of the Qur’an is discussed differently by exegetes.
+
+**Belief.** The promise concerns those whose faith is real and whose deeds are righteous; it is not a blanket guarantee based only on a name or ancestry [Saʿdī].
+
+**Reflection.** The verse directs attention from inherited identity to sincere belief and a life of good action, leaving ultimate judgment to God [Study Quran].
+
+---
+
+## 5:70
+
+*“We indeed made a covenant with the Children of Israel and sent messengers to them. Whenever a messenger came to them with what their souls did not desire, some they denied and some they killed.”*
+
+**Meaning.** Israel’s covenant required worship of God and obedience to His commands; messengers came repeatedly to remind them of it [Ṭabarī], [Jalālayn]. Yet whenever a prophet brought a truth that opposed their wishes, some rejected him and some resorted to killing [Saʿdī].
+
+**Context.** This verse begins another account of the covenant’s breach and recalls the Qur’anic theme of prophets being rejected or slain by their own people [Study Quran].
+
+**Reflection.** The measure of a prophet’s message is not whether it flatters the hearer. A community preserves its covenant by accepting truth even when it is unwelcome [Maʿārif].
