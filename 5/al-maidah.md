@@ -349,3 +349,119 @@
 **Meaning.** Cain’s own soul made the murder appear easy and acceptable until he carried it out [Ṭabarī], [Jalālayn]. The verse shows how a settled intention can be reinforced by desire until moral warnings lose their force; **[Study Quran]** relates this to the soul’s capacity to urge a person toward evil. The immediate gain Cain imagined cannot undo the loss he has chosen: he becomes one of the ruined.
 
 **Reflection.** Sin is often prepared before it is enacted. Resisting envy and wrongful intention early is easier than stopping a desire that has been repeatedly indulged [Saʿdī], [Maʿārif].
+
+---
+
+## 5:31
+
+*“Then God sent a crow, scratching the earth, to show him how to conceal his brother’s nakedness. He said, ‘Woe to me! Am I unable even to be like this crow and conceal my brother’s nakedness?’ And he became remorseful.”*
+
+**Meaning.** The crow teaches Cain how to cover his brother’s body, and the sight brings home the shame of the murder [Jalālayn], [Study Quran]. **[Ṭabarī]** explains the “nakedness” as the corpse; the Qur’an does not elaborate on the bird’s behavior or the exact burial rite. In the story’s moral sequence, the killer who would not heed his brother’s warning now learns from a creature how to treat the dead.
+
+**Reflection.** Remorse arrives, but only after an irreversible act. The verse invites reflection on the dignity owed to the dead and on how far wrongdoing can estrange a person from basic human decency [Maʿārif].
+
+---
+
+## 5:32
+
+*“For that reason We prescribed for the Children of Israel that whoever kills a soul—not in retaliation for a soul or for corruption in the land—it is as though he had killed all mankind; and whoever saves a life, it is as though he had saved all mankind. Our messengers came to them with clear proofs, yet many of them thereafter continue to transgress in the land.”*
+
+**Meaning.** Coming after the murder of Abel, the verse magnifies the gravity of unlawful killing: taking one life is likened to taking the lives of all, while saving one is likened to saving all [Ṭabarī], [Saʿdī]. The wording identifies this as a prescription given to the Children of Israel. **[Study Quran]** notes that commentators explain the likeness in different ways, including the equal inviolability of each innocent life and the way a willingness to murder one person threatens everyone.
+
+**Rulings.** The exceptions named are retaliation for murder and corruption in the land; they refer to lawful judgment, not private vengeance. The verse does not license individuals to decide guilt or impose punishment [Qurṭubī].
+
+**Reflection.** Saving even one person is treated as a deed of immense worth. The measure of human life is not reduced by the smallness of the number [Saʿdī].
+
+---
+
+## 5:33
+
+*“The recompense of those who wage war against God and His Messenger and strive to spread corruption in the land is only that they be killed, or crucified, or have their hands and feet cut off on opposite sides, or be banished from the land. That is disgrace for them in this world, and in the Hereafter theirs is a great punishment.”*
+
+**Meaning.** Classical commentators apply “waging war” and “spreading corruption” here to *ḥirābah*: armed robbery, violent attack, and terrorizing people on the roads or in settled places [Saʿdī], [Study Quran]. The phrase does not mean that God can be physically fought; it describes violent rebellion against the security and rights God has established [Jalālayn].
+
+**Rulings.** The verse lists grave public penalties for this crime. **[Saʿdī]** records disagreement over whether the authority chooses among them according to public interest or assigns them in proportion to the offense—for example, distinguishing murder with robbery from robbery without murder. **[Jalālayn]** reports a graded allocation attributed to Ibn ʿAbbās and al-Shāfiʿī. These are judgments for a legitimate authority under law, not permission for private retaliation or vigilantism. The historical occasion is often connected with the ʿUrayna/ʿUkl group, whose violent attack on a herdsman is related in hadith [Qurṭubī], [Ibn Kathīr].
+
+**Reflection.** The severity of the ruling reflects the harm done to the safety of an entire community; the next verse immediately sets beside it the possibility of repentance [Study Quran].
+
+---
+
+## 5:34
+
+*“Except for those who repent before you overpower them. Know that God is Forgiving, Merciful.”*
+
+**Meaning.** Repentance by perpetrators of *ḥirābah* before they are apprehended changes the legal situation: **[Ṭabarī]** understands the exception as applying to those who abandon their rebellion and return to faith before the authorities gain power over them. **[Study Quran]** explains that this may spare the prescribed public penalty, while not automatically extinguishing the rights of victims.
+
+**Rulings.** Restitution for stolen property and claims of injured persons remain distinct from the public penalty; jurists discuss how those rights are settled even where repentance is accepted [Jalālayn], [Study Quran].
+
+**Reflection.** The door of repentance is open even after grave harm, but repentance includes stopping the harm and making amends where another person’s rights are involved [Maʿārif].
+
+---
+
+## 5:35
+
+*“O you who believe, be mindful of God, seek the means of nearness to Him, and strive in His way, that you may prosper.”*
+
+**Meaning.** The *wasīlah* is that which brings a servant nearer to God: obedience, worship, repentance, sincere devotion, and acts of service to others [Qurṭubī], [Saʿdī]. The verse joins seeking nearness to reverence and striving in God’s cause; these are not competing paths but mutually reinforcing forms of faithful action [Jalālayn].
+
+**Belief.** **[Study Quran]** notes that the Qur’an elsewhere describes nearness to God as a spiritual goal attained through righteous acts; it also rejects seeking nearness through false objects of worship. Here the means is sought “to Him,” the sole Lord.
+
+**Reflection.** The way to God is walked through what He has made good: duties of worship, sincerity of heart, and beneficence toward creation [Saʿdī].
+
+---
+
+## 5:36
+
+*“Truly, those who disbelieve—if they possessed all that is on earth and as much again, to ransom themselves with it from the punishment of the Day of Resurrection, it would not be accepted from them; theirs will be a painful punishment.”*
+
+**Meaning.** No amount of worldly wealth can purchase release from the judgment of the Hereafter once its appointed day has come [Jalālayn], [Saʿdī]. The image is deliberately absolute: even the whole earth, doubled, would not serve as ransom [Study Quran].
+
+**Belief.** The verse affirms the reality of resurrection and accountability, and the futility of treating material possession as a substitute for faith and repentance [Ibn Kathīr].
+
+**Reflection.** What cannot be offered as ransom then must not be mistaken for ultimate security now; the chance to turn back belongs to this life [Saʿdī].
+
+---
+
+## 5:37
+
+*“They will wish to come out of the Fire, but they will not come out of it; theirs will be a lasting punishment.”*
+
+**Meaning.** Those described in the preceding verse will long to escape, but their punishment will continue [Ṭabarī], [Jalālayn]. **[Qurṭubī]** stresses the context: the statement concerns the disbelievers just mentioned, not every person who enters the Fire.
+
+**Reflection.** The verse makes the consequences of rejection vivid so that the living may respond before the time for return has passed [Saʿdī].
+
+---
+
+## 5:38
+
+*“As for the male thief and the female thief, cut off their hands as recompense for what they have earned, an exemplary punishment from God. God is Mighty, Wise.”*
+
+**Meaning.** Theft is a serious violation of another’s protected property, and the verse states a prescribed penalty for both men and women [Ṭabarī], [Jalālayn]. Its conclusion holds together God’s might and wisdom: justice is not arbitrary, and punishment is not detached from the law’s purpose.
+
+**Rulings.** The classical jurists do not apply the penalty to every taking of property. **[Saʿdī]** notes conditions drawn from the Prophetic Sunnah, including that the property be secured and reach a defined minimum value; authorities differ on the threshold. The determination and enforcement of a *ḥadd* belong to lawful judicial authority, with evidence and legal conditions—not private individuals [Study Quran], [Maʿārif].
+
+**Reflection.** The protection of property serves social trust, but the verse’s legal seriousness also requires disciplined interpretation and lawful process [Qurṭubī].
+
+---
+
+## 5:39
+
+*“Whoever repents after his wrongdoing and makes amends, God will turn toward him. Truly God is Forgiving, Merciful.”*
+
+**Meaning.** Repentance after theft requires turning away from the wrongdoing and correcting one’s conduct; God accepts the repentance of the sincere [Ṭabarī], [Saʿdī].
+
+**Rulings.** Divine forgiveness does not by itself erase the victim’s rights. **[Jalālayn]** distinguishes repentance from restitution and notes that the public penalty is waived under particular conditions, including the victim’s pardon before the case reaches the authority; the details are treated differently across legal discussions.
+
+**Reflection.** Forgiveness is joined to repair: returning what was taken and making amends give practical form to remorse [Maʿārif].
+
+---
+
+## 5:40
+
+*“Do you not know that to God belongs the sovereignty of the heavens and the earth? He punishes whom He wills and forgives whom He wills. God is powerful over all things.”*
+
+**Meaning.** The passage on legal penalties closes by affirming that all sovereignty belongs to God, who alone has final authority over punishment and forgiveness [Ṭabarī], [Study Quran]. **[Qurṭubī]** connects this claim with the rejection of any supposed immunity from judgment: no lineage or favored status places a person beyond accountability.
+
+**Belief.** God’s power encompasses both judgment and pardon; human beings must not claim His sovereignty for themselves, nor presume to know the final fate He has not disclosed [Jalālayn].
+
+**Reflection.** Law seeks justice in this world, while ultimate judgment remains with the One whose knowledge and mercy exceed human judgment [Saʿdī].
