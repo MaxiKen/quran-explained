@@ -60,6 +60,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -2667,3 +2669,258 @@ companion in a cave and the whole of Makkah hunting them — and the help came a
 safety: "grieve not" was spoken before the pursuit turned back. What makes the story decisive for the
 believers is the argument it carries: if God did that for two, He will not be helpless before a community's
 reluctance.
+
+## 9:41
+
+*"Go forth in the way of God, lightly or heavily, and strive with your wealth and yourselves in the way of
+God. That is better for you, if you but knew."*
+
+**Meaning.** **[Jalālayn]** "Go forth light and heavy!" — that is, energetically or not; it is also said to
+mean go forth strong or weak, or rich or poor — but this was abrogated by the verse "The weak would not be
+at fault" (9:91). "Struggle in the way of God with your possessions and your lives. That is better for you,
+if only you knew" that it is better for you; so do not sink down heavily. **[Saʿdī]** God addresses His
+believing servants, rousing them to go forth in His way: "Go forth lightly or heavily" — in difficulty and
+in ease, in what is eagerly desired and what is disliked, in heat and in cold, in every condition — "and
+strive with your wealth and your selves in the way of God": expend your effort in it and exhaust your
+capacity in wealth and in person. This is evidence that just as *jihād* with the self is obligatory, so is
+*jihād* with wealth when need calls for it. Then: "That is better for you, if you but knew" — striving with
+self and with wealth is better for you than holding back, for in it is the good pleasure of God, the
+winning of the high ranks with Him, help for the religion of God, and entry into the company of His army
+and His party. **[Maʿārif]** The command given earlier is repeated for emphasis: once the Prophet of God
+orders people to come out for *jihād*, they must come out as a matter of absolute obligation — for on
+compliance with this command hinges all that is good for them.
+
+**Rulings.** **[Ibn Kathīr]** God ordained that the believers all march forth with the Messenger ﷺ for the
+battle of Tabūk, to fight the disbelievers — the People of the Book, the Byzantines, the enemies of God —
+regardless of whether they felt active or lazy, at ease or in difficult circumstances: "March forth,
+whether you are light or heavy." **[Qurṭubī]** On "lightly or heavily" there are ten views: (1) from Ibn
+ʿAbbās on 4:71, "go forth in detachments," scattered parties; (2) also from Ibn ʿAbbās and Qatāda:
+energetically or without energy; (3) Mujāhid: the light is the rich man and the heavy the poor; (4) the
+light is the youth and the heavy the old man; (5) al-Ḍaḥḥāk: the light is the rider and the heavy the man
+on foot; (6) the light is the one with little burden and the heavy the one with much; (7) Zayd b. Aslam:
+active or inactive; (8) al-Ḥasan: old men and youths; (9) the light is the one with dependants and the
+heavy the one without; (10) the light is the one with small family and the heavy the one with a large one.
+**[Ṭabarī]** Some said that the "lightness" God means here is youth and the "heaviness" old age. Al-Ḥasan:
+"old men and youths." Abū Ṭalḥah: "men of middle age and youths — I do not hear that God excused anyone!"
+— and he went out to Syria and strove until he died. **[Ibn Kathīr]** Muslim b. Ṣubayḥ (Abū al-Ḍuḥā) said:
+"This verse, 'March forth, whether you are light or heavy,' was the first part of Sūrat Barāʾah to be
+revealed." Muʿtamir b. Sulaymān narrated from his father: "Ḥaḍramī claimed that he was told that some
+people used to declare that they incurred no sin for lagging behind the forces of *jihād* because they were
+ill or old — and this verse was revealed." **[Jalālayn]** The ruling was later abrogated by "The weak would
+not be at fault" (9:91).
+
+**Language.** **[Study Quran]** *Lightly or heavily* can mean being either reluctant or eager, or lightly or
+heavily armed, or young or old (Ṭ), or poorly or well equipped, or rich or poor (Q, Ṭ); al-Ṭabarī says it
+means whether it is easy or difficult.
+
+**Cross-references.** **[Jalālayn]** 9:91 — "The weak would not be at fault," cited as abrogating. **[Qurṭubī]**
+4:71 — "go forth in detachments or go forth all together."
+
+**Reflection.** The pairing "lightly or heavily" removes every remaining excuse of circumstance: whatever
+state a person is in — young or old, equipped or not, eager or not — that state is included in the call.
+And the verse does not promise ease; it promises that this is better, which only knowledge can see.
+
+---
+
+## 9:42
+
+*"Were it something ephemeral nearby or an easy journey, they would have followed thee. But the trek was too
+great for them. And they will swear by God, 'If we had been able, we would have gone out with you.' They
+destroy themselves, and God knows that they are liars."*
+
+**Meaning.** **[Jalālayn]** The following was revealed regarding the hypocrites who stayed behind from the
+campaign: "Had it" — that to which you summon them — "been a near," easily acquired "gain," a transient
+pleasure of this world, "and an easy journey," of moderate length, "they would have followed you," seeking
+spoils; "but the distance" — the hardship — "was too great for them," and so they stayed behind. Still
+they will swear by God when you return to them, saying, "Had we been able to go forth we would have gone
+forth with you," "destroying their souls" by swearing false oaths, "and God knows that they truly are
+liars" in this saying of theirs. **[Ṭabarī]** A group of his Companions had asked his leave to stay behind
+when he set out for Tabūk, and he gave them leave: had what you call these people to — those who stayed
+behind and asked your leave to remain rather than go out with you to the campaign you called them to — been
+"a gain near at hand," that is, ready spoil, "and an easy journey," a near and easy place, "they would have
+followed you" and gone forth with you to it; but you called them to a far place and burdened them with a
+hard journey, because you roused them in a time of heat, in the season of scorching weather, when they
+needed shade. "And they will swear by God: 'if we had been able we would have gone out with you'" — these
+who asked your leave to stay behind will swear to you, O Muḥammad, by way of excuse. **[Qurṭubī]** When
+the Prophet ﷺ returned from the expedition of Tabūk, God exposed the hypocrisy of a people. *Al-ʿaraḍ* is
+whatever presents itself of the benefits of this world; the meaning here is near-at-hand booty: He informs
+concerning them that had they been called to booty they would have followed him. *ʿAraḍan* is the predicate
+of *kāna*, *qarīban* its adjective, and *safaran qāṣidan* is conjoined to it; the noun of *kāna* is elided
+because the speech indicates it — the sense being: had that to which they were called been a gain near at
+hand and an easy journey, of known roads, they would have followed you.
+
+**Context.** **[Ibn Kathīr]** God admonishes those who lagged behind and did not join the Prophet ﷺ at the
+battle of Tabūk, those who asked the Prophet's permission to remain behind, falsely pretending legitimate
+reasons. "Had it been a near gain" — booty right in front of them, according to Ibn ʿAbbās; "and an easy
+journey" — travel for only a short distance; "they would have followed you. But the distance was long for
+them" — to Syria; "and they would swear by Allah," when you return to them, "if we only could, we would
+certainly have come forth with you" — had there not been a valid excuse, we would have gone out with you.
+**[Saʿdī]** "If it had been" — their going out in pursuit of some near gain or an easily attained worldly
+benefit, or a journey "moderate," near and easy — "they would have followed you," for the lack of great
+hardship; "but the distance was too far for them": the way was long and the journey hard, and for that reason
+they grew heavy about you. This is not a mark of true servitude; the real servant is the one who worships his
+Lord in every state, performing the easy act of worship and the hard one — such a one belongs to God in
+every condition. "And they will swear by God: 'if we had been able we would have gone out with you'" — they
+will swear that their staying behind had an excuse and that they were unable; "they destroy themselves" by
+sitting back, by lying and by reporting what is not the case; "and God knows that they are liars."
+
+**Language.** **[Study Quran]** *Something ephemeral* — ʿaraḍ — means here a fleeting, worldly good (R).
+**[Qurṭubī]** The ellipsis of the noun of *kāna* is a known feature of Arabic speech: they mention the whole
+and then bring a pronoun referring to part of it, as in "there is not one of you but shall come to it"
+(19:71), where *it* is the Resurrection.
+
+**Cross-references.** **[Study Quran]** "If we had been able, we would have gone out with you" is said to
+have been spoken by hypocrites after the expedition to Tabūk (R), resembling those described at 3:167 in
+connection with Uḥud — "had we known there would be fighting, we would have followed you" — and 24:53:
+"And they swear by God with their most solemn oaths that, wert thou to command them, they would surely go
+forth." Such disingenuous oaths appear also at vv. 42, 62, 74, 95 and 107.
+
+**Reflection.** The test is not competence but cost. These men would have marched readily for spoil and
+shade; it was the heat, the distance and the absence of gain that disclosed them. Their oaths add a second
+wrong to the first — they lie about their inability, and in lying they "destroy themselves," which is the
+Qurʾān's way of saying that the lie harms no one but the liar.
+
+---
+
+## 9:43
+
+*"God pardon thee! Why didst thou grant them leave before it became clear to thee who spoke the truth and who
+the liars were?"*
+
+**Meaning.** **[Jalālayn]** The Prophet ﷺ, exercising his personal judgement, had given leave to a group to
+stay behind, and the following was revealed as a reprimand for him — but with the pardon first, in order to
+reassure his heart: "May God pardon you! Why do you give them leave to stay behind; why did you not leave
+them until it was clear to you which of them spoke the truth in their excuse, and you knew those who were
+lying in it?" **[Ṭabarī]** This is a reproach from God to His Prophet for his giving leave to those
+hypocrites who asked his leave to stay behind rather than go out with him when he set out for Tabūk to
+campaign against the Byzantines. "May God pardon you, O Muḥammad, what was on your part in giving leave to
+these hypocrites who asked your leave to stay behind" before you knew the truthful from the liar. "Why did
+you grant them leave? — for what reason did you grant them leave?" "Until it became clear to you who spoke
+the truth and you knew the liars": you ought not to have given them leave to stay behind when they said to
+you "if we had been able we would have gone out with you" (9:42), until you knew who among them had an
+excuse for staying behind and who had no excuse — so that your leave to those you permitted would rest on
+knowledge of their excuse, and so that you would know who among them was lying, staying behind out of
+hypocrisy and doubt in the religion of God. **[Saʿdī]** "God pardon you" — He has overlooked and forgiven
+you what you did. "Why did you grant them leave" to stay behind, "until it became clear to you who spoke
+the truth and you knew the liars" — by testing them, so that the truthful might be distinguished from the
+liar and you might excuse whoever deserves to be excused and not excuse the one who does not deserve it.
+**[Maʿārif]** The complaint is subtle: those hypocrites were lying when they presented themselves as
+deserving to be excused from active service in *jihād*, but he accepted their plea without first inquiring
+into the real state of affairs, which would have brought the true and the false clearly out. That gave them
+the opportunity to congratulate themselves on how cleverly they had deceived the Messenger of God ﷺ —
+though, as the following verses make clear, they were asking to be excused merely as a trick; had they not
+been permitted, they still would not have gone out.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Ibn Abī Ḥātim recorded that ʿAwn said: "Have you heard criticism
+softer than this — starting with forgiveness before criticism: 'May Allah forgive you. Why did you grant
+them leave…'?" Muwarriq al-ʿIjlī and others said the same. Qatāda said: "Allah criticised him as you read
+here, then later revealed to him the permission to allow them to lag behind if he wishes, in Sūrat al-Nūr
+(24:62)"; ʿAṭāʾ al-Khurāsānī said similarly. Mujāhid said: "This verse was revealed about some people who
+said, 'Ask permission from the Messenger of God ﷺ [to stay behind], and whether he agrees or disagrees,
+remain behind!'"
+
+**Rulings.** **[Study Quran]** *Grant them leave* means gave them permission to remain behind from the
+expedition to Tabūk (Ṭ). Many hold that this verse was abrogated by 24:62 — "So when they ask thy leave in
+some matter of theirs, give thou leave unto whomsoever thou wilt." Others argue that the permission given
+was for them to *participate*, and that there would have been no good in their participation, as described
+in v. 47: "had they gone forth with you, they would have increased you in naught but trouble" (R). Another
+reading is that the Prophet gave them leave to stay behind, and this allowed their hypocrisy to remain
+hidden rather than becoming clear through their conduct later. **[Qurṭubī]** It is said that "May God
+pardon you" is an opening formula, as one says "May God set you right, and honour you, and have mercy on
+you!" — on which reading it is proper to pause at "May God pardon you," as reported by Makkī, al-Mahdawī
+and al-Naḥḥās; and He informed him of pardon before the fault so that his heart should not fly with terror.
+It is also said that the meaning is: "May God pardon you what was of fault on your part in granting them
+leave" — on which reading one does not pause there; this was preferred by al-Naḥḥās.
+
+**Language.** **[Qurṭubī]** On the leave itself there are two views: (1) "why did you grant them leave" to
+go out with you — for in their going out without equipment or sincere intention there is corruption; (2)
+"why did you grant them leave" to stay behind when they offered their excuses.
+
+**Cross-references.** **[Study Quran]** 24:62, on the later permission; 9:47, on the harm of their going
+out.
+
+**Reflection.** Even the gentlest reproach in the Qurʾān — forgiveness named before the question — teaches
+that frankness about a leader's judgment need not wound. The lesson drawn is practical: an excuse accepted
+without inquiry entrenches the hypocrisy it should have exposed.
+
+---
+
+## 9:44
+
+*"Those who believe in God and the Last Day ask of thee no leave from striving with their wealth and their
+selves. And God knows the reverent."*
+
+**Meaning.** **[Jalālayn]** "Those who believe in God and the Last Day do not ask leave of you to stay
+behind" — that is, to be exempted from striving — "with their possessions and their lives; and God knows
+the pious." **[Ṭabarī]** This is God teaching His Prophet the mark of the hypocrites: among the signs by
+which they are known is their staying back from *jihād* in the way of God, through their asking the
+Messenger of God's leave to remain rather than go out with him when he called them to it, with false
+excuses. "O Muḥammad, do not grant leave to stay behind, when you go out to campaign against your enemy, to
+anyone who asks your leave without a valid excuse; for none asks you such leave but a hypocrite who does
+not believe in God and the Last Day. As for the one who believes in God and affirms His oneness, and the
+Resurrection and the final Abode, and reward and punishment, he does not ask your leave to abandon the
+campaign and the striving against the enemies of God with his wealth and his self. 'And God knows the
+reverent'": God has knowledge of whoever fears Him and is reverent towards Him by discharging His
+obligations, avoiding His disobedience and hastening to obey Him in campaigning against His enemy." **[Saʿdī]**
+God then informs that those who believe in God and the Last Day do not ask leave to abandon *jihād* with
+their wealth and their selves, because the desire for good and the faith they carry impels them to strive
+without anyone's having to urge them — let alone that they should ask leave to abandon it without excuse.
+"And God knows the reverent": He will reward them for the reverence they have shown; and it is of His
+knowledge of the reverent that He has told us that one of their marks is that they do not ask leave to
+abandon *jihād*.
+
+**Belief.** **[Maʿārif]** Those who believe in God truly and staunchly do not seize such an occasion to
+desert *jihād* out of love for their lives and their wealth, going about asking their prophet's permission
+to stay behind; that is the behaviour only of those who do not truly believe in God and the Last Day. And
+God knows the God-fearing perfectly well. **[Study Quran]** These verses provide a contrast between the
+response of sincere believers and that of hypocrites: the former seek no excuses to stay behind, while the
+latter ask leave to remain behind, as described in vv. 42–43 (Q).
+
+**Rulings.** **[Qurṭubī]** "Those who believe… do not ask leave of you" — neither to stay behind nor to go
+out; rather, when you command something they hasten to it. Hence asking leave at such a time, without an
+excuse, was one of the marks of hypocrisy — which is why He said, "only they ask leave of thee who believe
+not in God and the Last Day." Abū Dāwūd reported from Ibn ʿAbbās that "Those who believe… ask no leave of
+thee" was abrogated by the verse in Sūrat al-Nūr (24:62). **[Ṭabarī]** A group of the people of knowledge
+held that these two verses were abrogated by the verse mentioned in Sūrat al-Nūr — among them ʿIkrimah and
+al-Ḥasan al-Baṣrī.
+
+**Language.** **[Qurṭubī]** "An yujāhidū" ("from striving") is in the accusative through an elided *fī*,
+according to al-Zajjāj.
+
+**Cross-references.** **[Qurṭubī] [Ṭabarī]** 24:62, on abrogation. **[Study Quran]** vv. 42–43.
+
+**Reflection.** A single observable habit — asking to be exempted — is here made the diagnostic of the
+heart. The verse does not ask anyone to read another's intention; it points to what people actually do when
+the call comes, and leaves the knowledge of who is reverent to God.
+
+---
+
+## 9:45
+
+*"Only they ask leave of thee who believe not in God and the Last Day, whose hearts are in doubt, and so they
+waver in their doubt."*
+
+**Meaning.** **[Jalālayn]** "They alone ask leave of you to stay behind who do not believe in God and the
+Last Day and whose hearts are doubtful," uncertain about the religion, "so in their doubt they waver" —
+they are confused. **[Ṭabarī]** "Only they ask your leave, O Muḥammad, to stay behind you and to abandon
+*jihād* with you, without a clear excuse, who do not believe in God and do not affirm His oneness. 'And
+whose hearts are in doubt'": their hearts doubt the reality of God's oneness, and the reward of the people
+of His obedience and the punishment of the people of His disobedience. "And so they waver in their doubt":
+they are bewildered in their doubt, wavering in the darkness of perplexity, not knowing truth from
+falsehood so as to act with insight. This is the description of the hypocrites. **[Saʿdī]** "Only they ask
+leave of you who believe not in God and the Last Day and whose hearts are in doubt" — they have no complete
+faith and no true certainty, and for that reason their desire for good is small, they shrink from fighting,
+and they need to ask leave to abandon it. "And so they waver in their doubt": they remain in doubt and
+perplexity.
+
+**Belief.** **[Study Quran]** *Whose hearts are in doubt* is interpreted to refer to the hypocrites whose
+faith was not true (Ṭ). **[Maʿārif]** This, as opposed to the believers of v. 44, is the behaviour of those
+who do not believe in God and the Day of Judgement truly and correctly; and God knows the God-fearing
+perfectly well.
+
+**Rulings.** **[Ṭabarī]** A group of the people of knowledge held that these two verses (44–45) were
+abrogated by the verse in Sūrat al-Nūr (24:62); this is reported from ʿIkrimah and al-Ḥasan al-Baṣrī.
+
+**Reflection.** The verse diagnoses doubt not as an intellectual difficulty but as a condition that cannot
+settle: "they waver in their doubt." What looks from outside like a reasonable request for exemption is,
+inwardly, a heart that has never come to rest on anything — and so it asks leave, and asks again.
