@@ -689,3 +689,27 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The vow is offered with sincerity, while its fulfillment is left to God’s wisdom. The next verse shows that the child’s being a girl did not prevent God from accepting and honoring her **[Qurṭubī] [Saʿdī] [Maʿārif]**.
 
 ---
+
+## 3:36
+
+*When she bore her, she said, “My Lord, I have borne a female”—and God knew best what she bore—“and the male is not like the female. I have named her Mary, and I seek refuge in You for her and her offspring from Satan, the outcast.”*
+
+**Meaning.** The mother had expected a boy for service in the sanctuary, since the cited custom generally assigned such service to males **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn]**. Commentators explain her concern by the boy’s greater physical strength and by restrictions connected with menstruation and ritual purity **[Ṭabarī] [Qurṭubī] [Study Quran]**. **[Saʿdī] [Maʿārif]** stress that God accepted Mary and made her distinguished; **[Saʿdī]** says she surpassed many men in virtue. **[Study Quran]** notes that the passage recognizes differences in Temple service but does not make them a measure of spiritual worth: God’s acceptance of Mary shows that these differences do not diminish her standing. Her mother names her Mary and asks God to protect her and her offspring **[Qurṭubī] [Ibn Kathīr]**; the offspring is understood as Jesus **[Qurṭubī] [Ibn Kathīr]**.
+
+**Context.** This continues the vow in 3:35. The mother explains why a female child was not what she had anticipated, then entrusts Mary and her child to God’s protection. **[Maʿārif]** says that, although her mother thought a girl could not fulfill the vow, God accepted Mary through the sincerity of the offering and gave her a unique station. **[Study Quran]** notes that the gift of a daughter could itself exceed the mother’s expectation, since Mary would bear Jesus and manifest knowledge of God.
+
+**Ḥadīth & āthār.** **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn]** cite the report in the two Ṣaḥīḥ collections that every newborn is touched or poked by Satan and begins crying, except Mary and her son; Abū Hurayrah connects the exception to her mother’s prayer, and some versions say a barrier was placed between them and the touch struck it. **[Qurṭubī]** cautions that protection from this touch does not mean Satan never tries to tempt or accompany a person, nor that being touched necessarily causes misguidance. **[Ibn Kathīr]** also cites Prophetic practice in naming newborns: the Prophet ﷺ named his son Ibrāhīm at birth, and named the infant brought by Anas ʿAbd Allāh. **[Maʿārif]**, citing al-Jaṣṣāṣ, infers that a mother has a right to name her child.
+
+**Rulings.** **[Qurṭubī]** records a juristic argument that “the male is not like the female” means a wife who agrees to intercourse during a Ramadan fast does not share the husband’s expiation; he rejects this as a mistake because the verse describes an earlier community’s law, not a rule for Muslims *(digression)*. **[Ibn Kathīr]** cites the report that a newborn boy’s ʿaqīqah is offered on the seventh day, when he is named and his hair shaved; he notes that al-Tirmidhī graded this wording sound, though another wording is more established.
+
+**Stories & occasions.** **[Ṭabarī]** transmits a report from Wahb b. Munabbih: when Jesus was born, devils told Iblīs that idols had been overturned; searching for the cause, he found the newborn surrounded by angels and concluded that a prophet had been born. Iblīs then urged them to approach people through haste and heedlessness *(Isrāʾīliyyāt)*. **[Ṭabarī]** also cites mursal reports saying Mary and Jesus did not incur sins as other people did and that Jesus walked on water; the editor identifies these reports as mursal *(weak)*.
+
+**Readings.** The majority reads *waḍaʿat* (“she bore”), taking “God knew best what she bore” as God’s comment. Abū Bakr and Ibn ʿĀmir read *waḍaʿtu* (“I bore”), making it part of the mother’s speech; Ibn ʿAbbās is also reported to have read *waḍaʿti* (“you bore”). **[Ṭabarī]** prefers the majority reading because it is transmitted widely **[Qurṭubī]**.
+
+**Language.** *Maryam* is explained by **[Qurṭubī]** as “servant of the Lord” in her language. *Dhurriyyah* (“offspring”) can refer to a single child **[Qurṭubī]**. *Al-rajīm* literally evokes one who is stoned or cast out; **[Study Quran]** connects the image of stoning with the rites of ḥajj *(digression)*.
+
+**Cross-references.** The command to seek refuge from Satan: 16:98; 7:200; 41:36 **[Study Quran]**. The mother’s vow: 3:35 **[Ṭabarī] [Qurṭubī]**.
+
+**Reflection.** The mother’s expectation was not fulfilled as she imagined, yet God accepted the child she offered and made Mary a sign of His care. **[Saʿdī] [Maʿārif] [Study Quran]**.
+
+---
