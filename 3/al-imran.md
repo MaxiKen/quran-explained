@@ -611,3 +611,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Maʿārif] [Saʿdī]** make the verse a practical measure: love should be visible in a life shaped by the Messenger’s teaching, not merely in words. **[Qurṭubī]** cites Sahl b. ʿAbd Allāh’s spiritual sequence: love of God leads to love of the Qur’an, the Prophet, the Sunna, and the Hereafter; the traveler takes from this world only what is needed as provision *(digression)*. **[Study Quran]** likewise stresses that love cannot remain a feeling alone; it calls for a lived response.
 
 ---
+
+## 3:32
+
+*Say: Obey God and the Messenger. If they turn away, God does not love the disbelievers.*
+
+**Meaning.** This verse makes explicit what the test in 3:31 requires: obedience to God and His Messenger **[Jalālayn] [Saʿdī]**. **[Jalālayn]** particularly connects the command to the belief in God’s oneness taught by the Messenger. **[Ṭabarī] [Qurṭubī] [Saʿdī]** explain turning away as rejecting the call to obey God and His Messenger; al-Ṭabarī relates this directly to persisting in disbelief. **[Qurṭubī]** explains that God’s not loving the disbelievers means He does not approve their conduct or forgive them; **[Ibn Kathīr]** likewise says defiance of the Messenger’s way constitutes disbelief.
+
+**Context.** **[Ṭabarī]** applies the command directly to the Christians of Najrān: they knew Muḥammad ﷺ was God’s Messenger and, he says, could find him mentioned in their Gospel. Refusing the message after recognizing its truth was the disbelief at issue. **[Maʿārif]** presents the passage as moving from affirmation of God’s oneness to the necessity of believing in prophethood and following the Messenger.
+
+**Belief.** Refusing the Messenger is not compatible with claiming love of God: **[Ibn Kathīr] [Saʿdī] [Maʿārif]** describe obedience to the Prophet’s teaching as essential to faith, and **[Maʿārif]** compares rejection of prophethood with rejection of God’s oneness. **[Study Quran]** says these verses establish the normative authority of the Prophet’s teachings and actions, preserved in the Sunnah; those who claim love for God and His Messenger but do not follow them fall short in faith. For Sufis, the Prophet is also described as a living presence through whom divine aid strengthens the spiritual traveler *(digression)*.
+
+**Language.** *Tawallaw* means turning away from obedience **[Qurṭubī] [Saʿdī]**. **[Qurṭubī]** glosses “God does not love” as disapproval and lack of forgiveness; **[Jalālayn]** explains the explicit word “disbelievers” as identifying those who turn away.
+
+**Cross-references.** Whoever obeys the Messenger obeys God: 4:80 **[Study Quran]**. Obey God, the Messenger, and those in authority: 4:59 **[Study Quran]**. The Messenger is a beautiful example: 33:21 **[Study Quran]**.
+
+**Reflection.** The claim of love in 3:31 is tested in the way one responds to the Messenger’s teaching. **[Saʿdī]** emphasizes believing what he conveyed, doing what he commanded, and avoiding what he prohibited.
+
+---
