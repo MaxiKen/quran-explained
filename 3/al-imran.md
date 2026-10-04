@@ -413,3 +413,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** places those who command justice among the greatest guides of humanity. The verse honors not only the prophets who bring truth but also those who defend it, and warns that rejecting justice can turn knowledge into persecution.
 
 ---
+
+## 3:22
+
+*They are the ones whose deeds have come to nothing in this world and the Hereafter, and they will have no helpers.*
+
+**Meaning.** “They” refers to the deniers and killers described in 3:21. Their deeds are nullified in both lives **[Ṭabarī] [Ibn Kathīr] [Saʿdī]**. **[Jalālayn]** specifies that this includes apparently good works such as charity and maintaining kinship; without faith, they have no lasting value or reward. **[Maʿārif]** likewise says that the deeds of those who reject the Gospel and Qurʾān avail them nothing. *Ḥabaṭat* conveys failure and futility **[Study Quran]**. In this world, **[Ṭabarī]** explains, their deeds win no true praise or lasting good reputation; instead, their wrongdoing is exposed through the prophets and revealed Books, and they are remembered with blame. In the Hereafter, their deeds bring no reward, and they face punishment **[Ṭabarī] [Ibn Kathīr]**. They have no helper to rescue them from God’s judgment **[Ṭabarī] [Jalālayn]**.
+
+**Context.** The verse completes the warning in 3:21: denial, the killing of prophets, and the persecution of those who call to justice lead to loss both in worldly reputation and in the Hereafter. **[Study Quran]** notes that the image of “having no helpers” can include the futility of seeking intercession or ransom, as in 2:48.
+
+**Belief.** **[Study Quran]** says the loss reaches even apparently good deeds when they are pursued with the wrong intention; they bring no positive fruit in the Hereafter. **[Saʿdī]** emphasizes that those who combine disbelief with grave injustice deserve painful punishment and have no one who can deliver them from it.
+
+**Language.** *Ḥabaṭat aʿmāluhum* means that their deeds have become void or fruitless **[Jalālayn] [Study Quran]**. *Nāṣirīn* (“helpers”) means protectors who could save them from the punishment, but none can **[Ṭabarī] [Jalālayn]**.
+
+**Cross-references.** No intercession or ransom can avert judgment: 2:48 **[Study Quran]**.
+
+**Reflection.** The verse measures conduct by final accountability rather than visible success, warning that hostility to truth can undermine the worth of outwardly good deeds **[Study Quran]**. **[Saʿdī]** urges readers to unite good action with faith and justice.
+
+---
