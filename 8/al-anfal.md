@@ -113,3 +113,109 @@
 **Belief.** The Study Quran observes that reports differ over whether angels fought bodily at Badr; the verse’s emphasis on glad tidings and inward reassurance supports understanding their aid as strengthening the believers, without claiming that every report describes the same mode of help. **[Study Quran]** Maʿārif relates the successive promises of angelic numbers to the changing circumstances described in 3:124–125. **[Maʿārif]**
 
 **Reflection.** Means can encourage and support, but they do not rival the One who governs them. The verse keeps confidence from becoming either despair at small numbers or self-reliance on apparent strength. **[Saʿdī] [Study Quran]**
+
+## 8:11
+
+*“He covered you with sleepiness as a security from Him, sent down water from the sky to purify you, remove Satan’s defilement, strengthen your hearts, and make your feet firm.”*
+
+**Context.** On the eve of Badr, the believers were anxious and camped on soft, sandy ground, while the Quraysh had better access to water. Sleep gave them rest, and rain supplied water and changed the terrain. **[Maʿārif] [Study Quran]**
+
+**Meaning.** The unexpected sleepiness is called security because it calmed fear and allowed the fighters to recover. The rain purified them bodily for worship and, in the commentators’ reading, removed Satan’s whisper that their hardship proved they were abandoned. It also steadied their hearts and physically firmed the ground beneath their feet. **[Ṭabarī] [Ibn Kathīr] [Saʿdī] [Jalālayn]** The Qur’an thus joins practical relief to inward reassurance: the water met ritual and battlefield needs at once. **[Study Quran]**
+
+**Readings.** Qurṭubī records variant grammatical readings in which sleepiness is either sent over the believers or is itself said to overcome them; both convey the same divine gift of safety. **[Qurṭubī]**
+
+**Reflection.** Divine care may arrive through ordinary-seeming means—rest, rain, and firmer ground—while also answering fears that cannot be solved by material means alone. **[Saʿdī] [Maʿārif]**
+
+## 8:12
+
+*“When your Lord revealed to the angels: ‘I am with you, so make firm those who believe. I shall cast terror into the hearts of those who disbelieve. Strike above the necks and strike every fingertip of theirs.’”*
+
+**Meaning.** God’s message to the angels is an assurance of aid and a command to strengthen the believers. Their strengthening is described as courage and steadiness; the terror cast into the enemy’s hearts reverses the fear that had weighed on the Muslims. **[Jalālayn] [Saʿdī] [Study Quran]** “Above the necks” and “every fingertip” are battle language for striking the enemy’s heads or necks and extremities in the actual armed encounter at Badr. **[Ṭabarī] [Ibn Kathīr]** The verse does not detach the command from that battle setting.
+
+**Belief.** The Study Quran notes that the angels may be addressed directly, while “I am with you” ultimately reassures the believers: their support and the enemy’s fear alike are under God’s power. **[Study Quran]**
+
+**Reflection.** Courage in the verse is not self-generated bravado; it is steadiness grounded in trust, discipline, and the knowledge that God’s aid is not measured by the enemy’s numbers. **[Saʿdī] [Ibn Kathīr]**
+
+## 8:13
+
+*“That is because they broke with God and His Messenger. Whoever breaks with God and His Messenger—truly God is severe in retribution.”*
+
+**Meaning.** The defeat described in the surrounding verses is attributed to the Quraysh’s opposition to God and His Messenger, not simply to a difference in military strength. To “break with” them is to set oneself against their command and message. **[Jalālayn] [Ibn Kathīr] [Saʿdī]**
+
+**Context.** The sentence explains the outcome at Badr: the Meccan force had numbers and equipment, but these did not protect it from the consequences of its hostility. It also links the immediate battle to the larger moral claim of the sūrah. **[Maʿārif] [Study Quran]**
+
+**Cross-references.** The Study Quran notes similar language for opposition to God and His Messenger in 2:137, 47:32, and 59:4. **[Study Quran]**
+
+**Reflection.** The verse locates accountability in deliberate opposition to justice and revelation, not in mere weakness or lack of worldly power. **[Saʿdī]**
+
+## 8:14
+
+*“That is your punishment, so taste it; and the disbelievers shall have the punishment of the Fire.”*
+
+**Meaning.** The first punishment is the immediate defeat and loss suffered at Badr; the verse then warns that the consequences of persistent rejection do not end with a worldly battle. **[Jalālayn] [Ibn Kathīr] [Saʿdī]** “Taste it” addresses those who had fought the Prophet and his community, while the closing clause distinguishes the hereafter’s punishment from the episode just witnessed. **[Study Quran]**
+
+**Context.** Read with 8:13, the verse completes an account of the Quraysh’s defeat as both a historical event and a warning about the moral cost of aggression. **[Maʿārif] [Ibn Kathīr]**
+
+**Reflection.** The warning is not an invitation to gloat over suffering; it turns victory into a reminder that worldly power is temporary and that conduct remains answerable to God. **[Saʿdī]**
+
+## 8:15
+
+*“O you who believe, when you meet those who disbelieve advancing in battle, do not turn your backs to them.”*
+
+**Meaning.** *Zaḥfan* describes two forces drawing near and engaging in battle. The command forbids abandoning one’s companions and the community in the face of an advancing enemy. **[Ṭabarī] [Qurṭubī] [Jalālayn]** As-Saʿdī explains that steadfastness protects the community and prevents fear from spreading through its ranks. **[Saʿdī]**
+
+**Rulings.** This verse is read together with the exceptions in 8:16 and the numerical qualification later stated at 8:65–66. Qurṭubī discusses the rule in relation to the relative size of the forces; the prohibition is not a command to remain in a position where there is no lawful tactical purpose or prospect of aid. **[Qurṭubī] [Study Quran]**
+
+**Reflection.** The warning is against desertion, not against every movement on a battlefield: it protects mutual responsibility while leaving room for the tactical exceptions the next verse names. **[Ibn Kathīr] [Saʿdī]**
+
+## 8:16
+
+*“Whoever turns his back to them that day—unless maneuvering for battle or joining another company—has incurred wrath from God, and his refuge is Hell; what an evil destination.”*
+
+**Meaning.** Two withdrawals are exempted: a fighter may reposition to attack from a better angle, or move to join another unit and continue the fight. These are tactical actions, not flight from responsibility. **[Ṭabarī] [Jalālayn] [Saʿdī]** Leaving the battlefield without such a purpose is treated as a grave betrayal, and the verse gives a severe warning against it. **[Ibn Kathīr] [Qurṭubī]**
+
+**Rulings.** The exception for joining a *fiʾah*—another company—shows that regrouping is distinct from desertion. The Study Quran reports accounts in which a returning fighter asks whether he has fled, and the Prophet replies that he has returned to his company; the commentators also discuss how the later ratio in 8:65–66 qualifies the rule. **[Study Quran]**
+
+**Reflection.** Courage is not reckless refusal to adapt. The verse makes loyalty and the purpose of one’s movement—not the mere direction of one’s steps—the measure of steadfastness. **[Saʿdī]**
+
+## 8:17
+
+*“You did not slay them, but God slew them; and you did not throw when you threw, but God threw, so that He might test the believers with a beautiful trial. God is Hearing, Knowing.”*
+
+**Context.** Commentators connect the verse with the Muslims’ victory at Badr and with the Prophet’s handful of dust or pebbles thrown toward the enemy, whose reach and effect were beyond an ordinary throw. **[Ibn Kathīr] [Saʿdī]** Qurṭubī also preserves reports associating the throwing with other battles, so not every transmitted account identifies the event in the same way. **[Qurṭubī] [Study Quran]**
+
+**Meaning.** The verse does not erase the believers’ effort; it denies that their strength alone explains the outcome. God enabled their action and brought its effect to the enemy, turning a small force’s struggle into victory. **[Ṭabarī] [Qurṭubī] [Jalālayn]** The “beautiful trial” is also a blessing and test: victory gives the believers an opportunity for reward, but requires humility rather than pride. **[Study Quran] [Maʿārif]**
+
+**Belief.** The joining of “you threw” with “God threw” affirms human action while attributing its enabling and decisive effect to God. **[Ṭabarī]**
+
+**Reflection.** Success should deepen gratitude, not self-congratulation; effort is real, yet its capacity and fruits remain gifts. **[Saʿdī] [Maʿārif]**
+
+## 8:18
+
+*“That is so; and God makes feeble the schemes of the disbelievers.”*
+
+**Meaning.** “That” points back to God’s aid at Badr. The enemy’s plans are made ineffective, while the believers’ victory is credited to God rather than to a superior strategy or force of numbers. **[Jalālayn] [Ibn Kathīr] [Saʿdī]** The verse is a concise conclusion to the account of the thrown dust and the believers’ divinely aided victory. **[Study Quran]**
+
+**Cross-references.** The Study Quran points to 3:120, 4:76, and 52:46, where the schemes of those who oppose God are likewise shown to be powerless before Him. **[Study Quran]**
+
+**Reflection.** Planning matters, but no plan can guarantee success against God’s wisdom; believers are called to act without mistaking their means for the source of the outcome. **[Saʿdī] [Maʿārif]**
+
+## 8:19
+
+*“If you sought a judgment, the judgment has come to you. If you desist, it is better for you; if you return, We shall return, and your company will not avail you, however numerous it may be. God is with the believers.”*
+
+**Context.** One report says that Abū Jahl and the Quraysh called for God to judge between the two sides at Badr; the outcome became the answer to their appeal. **[Jalālayn] [Ibn Kathīr] [Qurṭubī]**
+
+**Meaning.** On the most direct reading, the verse addresses the defeated Quraysh: the judgment they demanded has arrived, and it has vindicated the believers. They are urged to end their hostility; should they renew it, numerical strength will not protect them from God’s aid to the believers. **[Ṭabarī] [Saʿdī] [Maʿārif]** The Study Quran records other readings that take part of the address as directed to the believers or shift its audience mid-verse, but the central warning remains a call to desist from aggression. **[Study Quran]**
+
+**Reflection.** The invitation to stop follows the warning: justice is not vengeance without end, and an adversary is still given a path away from hostility. **[Maʿārif] [Saʿdī]**
+
+## 8:20
+
+*“O you who believe, obey God and His Messenger, and do not turn away from him while you hear.”*
+
+**Meaning.** Obedience means carrying out what God and the Messenger command and refraining from what they forbid. “Do not turn away” warns against hearing revelation and then acting in defiance of it. **[Ṭabarī] [Ibn Kathīr] [Jalālayn]** The verse follows the account of Badr to show that divine support is joined to the believers’ responsibility to obey. **[Saʿdī] [Maʿārif]**
+
+**Belief.** Hearing in this context is not merely receiving sound: it entails attention and response. The Study Quran relates the verse to other passages that make obedience to the Messenger a central expression of obedience to God. **[Study Quran]**
+
+**Reflection.** The difference between attentive faith and empty profession is whether what one hears is allowed to shape what one does. **[Saʿdī] [Maʿārif]**
