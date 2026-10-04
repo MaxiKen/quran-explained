@@ -4693,3 +4693,628 @@ men who have withdrawn.
 forbid you, regarding those who did not fight you on account of religion and did not drive you out of your
 homes, that you be righteous and just toward them" (60:8); "And fight in the way of God those who fight you,
 and do not transgress; indeed God does not love the transgressors" (2:190).
+## 4:91
+
+*"You will find others who desire to be safe from you and safe from their own people; whenever they are
+returned to sedition, they are plunged into it. So if they do not withdraw from you, nor offer you peace, nor
+restrain their hands, seize them and slay them wherever you come upon them; against these We have given you a
+clear warrant."*
+
+**Meaning.** **[Ṭabarī]** These are another party of the hypocrites: they used to display Islam to the
+Messenger of God ﷺ and his Companions in order to be safe from them — from killing, captivity and the taking
+of their property — while they were disbelievers, and their own people knew it of them; so when their people
+met them they were with them and worshipped what they worshipped besides God, to be safe from them in their
+persons, property, women and children. "Whenever they are returned to sedition, they are plunged into it" —
+whenever their people call them to association with God, they revert and become associators like them.
+**[Jalālayn]** You will find others desiring to have security from you by manifesting belief before you, and
+security from their own people through disbelief when they return to them — and these were the tribes of Asad
+and Ghaṭafān; yet whenever they are returned to sedition, whenever they are summoned to idolatry, they are
+overwhelmed by it, falling into it in the worst of ways. So if they do not stay away from you by refraining
+from fighting you, and do not offer you peace, and do not restrain their hands from you, then take them as
+captives and slay them wherever you come upon them; against them We have given you a clear warrant, a clear
+and manifest proof, for you to slay them and capture them on account of their treachery. **[Ibn Kathīr]**
+"You will find others who wish to have security from you and security from their people. Every time they are
+sent back to *fitnah*, they yield to it" — and the verse then gives the command concerning them. **[Qurṭubī]**
+The verse has the meaning of the one before it: Qatādah said it was revealed about a people of Tihāmah who
+sought a guarantee from the Prophet ﷺ so as to be safe both with him and with their own people; Mujāhid said
+it concerns a people of Mecca; al-Suddī said it was revealed about Nuʿaym b. Masʿūd, who was safe with the
+Muslims and the idolaters alike; al-Ḥasan said it concerns a group of the hypocrites; and it was also said to
+concern Asad and Ghaṭafān, who came to Madinah, embraced Islam, then returned to their homes and displayed
+unbelief. **[Study Quran]** If the previous verse prohibits fighting hypocrites who refuse to fight the
+Muslims, this verse gives the believers a clear warrant against those who turn hostile. The group is variously
+identified as a group of Makkans who came to profess belief to the Prophet but then returned to Mecca and
+idolatry (Ṭabarī), or as the tribes of Asad and Ghaṭafān (Jalālayn, al-Rāzī, al-Zamakhsharī). Hostility here
+translates *fitnah*, a term whose semantic range includes civil strife or sedition (2:191–93; 8:39),
+temptation or trial (2:102; 3:7), and oppression. Some commentators understand it to mean that they were
+tempted back to idolatry or disbelief (Ṭabarī, Qurṭubī), and indicate that the ease with which they returned
+to idolatry suggests they were truly idolaters at heart (Qurṭubī).
+
+**Rulings.** **[Saʿdī]** God excepted three groups from the fighting of these hypocrites, two of which He
+commanded to be left and made that decisive: those who join a people between whom and the Muslims is a
+covenant to refrain from fighting, so that they take their ruling in the protection of life and property; and
+those whose breasts are constricted from fighting you or their own people. The third is the group described
+here, whose double-dealing is exposed, and so the command to fight them is made conditional on their
+persisting: "So if they do not withdraw from you, nor offer you peace, nor restrain their hands" — only then
+is the warrant given. **[Study Quran]** The instruction to seize them and slay them wherever you come upon
+them is similarly given in relation to idolaters or those who have initiated hostilities against the Muslims
+(see 2:191; 4:89; 9:5) — the warrant being "clear" (lit. "manifest") in that it rests on their own treachery.
+
+**Reflection.** **[Ṭabarī]** The verse dissects a political type that recurs in every community under
+pressure: the man who wants the protection of both camps, whose loyalty is priced at the cost of his own
+safety — and God's judgment upon him is that he belongs to neither, for "whenever they are returned to
+sedition, they are plunged into it." **[Study Quran]** The commentators' disagreement over the group's
+identity (Makkans, Asad and Ghaṭafān, a man named Nuʿaym, or the hypocrites generally) does not affect the
+principle: the warrant to fight applies not to those who merely hold wrong beliefs, but to those who
+repeatedly return to hostility.
+
+**Cross-references.** "And if they break their oaths after their pledge and revile your religion, then fight
+the leaders of disbelief" (9:12); "So if they withdraw from you and do not fight you and offer you peace, God
+has given you no way against them" (4:90); "Fight those who do not believe in God" (9:29).
+
+## 4:92
+
+*"It is not for a believer to slay a believer except by mistake. And whoever slays a believer by mistake —
+then the freeing of a believing slave and blood-money delivered to his family, unless they remit it as
+charity. And if he belonged to a people at war with you while he was a believer, then the freeing of a
+believing slave; and if he belonged to a people between whom and you there is a treaty, then blood-money
+delivered to his family and the freeing of a believing slave. And whoever cannot find the means, then a fast
+of two consecutive months, as a penance from God; and God is Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** God has not permitted a believer, nor made it lawful for him, to kill a believer
+in any of the things his Lord has made lawful for him at all. **[Qurṭubī]** This is one of the mother-verses
+of the rulings. Its meaning is that it does not behove a believer to kill a believer except by mistake; "and
+it was not" (*wa mā kāna*) is not a statement of bare negation but of prohibition and interdiction, as in "It
+is not for you to harm the Messenger of God" — for were it pure negation, no believer would ever have killed
+a believer, since what God negates cannot come to be. Then God makes an exception that is discontinuous
+(*istithnāʾ munqaṭiʿ*), the *illā* having the sense of *lākin*: it was not for him to kill him at all — but
+if he killed him by mistake, then such and such is incumbent on him; so said Sībawayh and al-Zajjāj.
+**[Jalālayn]** It is not for a believer to slay a believer — no such slaying should result at his hands —
+except by mistake, killing him unintentionally; and the slayer by mistake is one who meant to strike some
+other thing, as in hunting or shooting at a tree, but then happened to strike him, with what in most cases
+would not kill. Then he must set free a believing slave — *raqabah* denoting a person — and blood-money is to
+be delivered to his family, that is, the slain person's heirs, unless they remit it as charity by waiving
+their claim. In the Sunna this blood-money is explained as being equivalent to one hundred camels: twenty
+pregnant, twenty females with young, twenty male young, twenty mature, and twenty not more than five years
+old; and the Sunna stipulates that it is incumbent on the killer's clan — his paternal relations, not other
+relatives — who share the burden over three years, the rich among them paying half a dīnār and the one of
+moderate means a quarter each year; if they still cannot meet it, it may be taken from the treasury, and if
+that is not possible, from the killer himself. **[Qurṭubī]** The verse was revealed on account of ʿAyyāsh b.
+Abī Rabīʿah, who killed al-Ḥārith b. Yazīd b. Abī Unaysah al-ʿĀmirī out of a rancour that had been between
+them; when al-Ḥārith emigrated as a Muslim, ʿAyyāsh met him and killed him, not knowing of his Islam. When he
+was told, he came to the Prophet ﷺ and said, "O Messenger of God, what happened between me and al-Ḥārith is
+as you know, and I did not know of his Islam until I had killed him" — and the verse was revealed.
+**[Ibn Kathīr]** Mujāhid and others said the same; another report says the verse was revealed about Abū
+al-Dardāʾ, who killed a man after he had embraced the faith, just as Abū al-Dardāʾ held the sword over him;
+when the matter reached the Messenger of God ﷺ, Abū al-Dardāʾ said, "He only said it to avert death," and the
+Prophet said, "Have you opened his heart?" — though the basis of this story is in the *Ṣaḥīḥ*, and it is not
+about Abū al-Dardāʾ. **[Study Quran]** Still another report of the occasion is that the verse was revealed
+when a Muslim emigrant, ʿAyyāsh b. Abī Rabīʿah, killed a former disbeliever who had once flogged him severely
+for his adherence to Islam, and who had, unbeknownst to ʿAyyāsh, embraced Islam and come to Madinah.
+
+**Rulings.** **[Ibn Kathīr]** The blood of a Muslim is inviolable: in the two *Ṣaḥīḥs* it is recorded that Ibn
+Masʿūd said that the Messenger of God ﷺ said, "The blood of a Muslim man who testifies that there is no god
+but God and that I am the Messenger of God is not lawful except in three cases: a life for a life, the
+married adulterer, and the one who abandons his religion and forsakes the community" — and these are the
+responsibility of the Muslim ruler or his deputy, not of ordinary citizens. Whoever kills by mistake owes
+two things: an expiation, which is to free a believing slave, and the blood-money delivered to the family.
+Imām Aḥmad recorded that a man of the Anṣār brought a slave-girl and said, "O Messenger of God, I must free a
+believing slave; if you see that this one is a believer, I shall free her." The Prophet asked her, "Do you
+testify that there is no god but God?" She said yes. "Do you testify that I am the Messenger of God?" She
+said yes. "Do you believe in resurrection after death?" She said yes. He said, "Then free her."
+**[Study Quran]** The blood-money was set by most jurists at one hundred camels, or a thousand dīnārs for
+those who do not own camels, to be paid over three years by the slayer's paternal relatives and divided among
+the victim's heirs with the rest of his estate according to the proportions mandated in 4:11–12. The victim's
+family may remit it out of charity, in the spirit of other verses that promote unity and forgiveness among
+Muslims even after grievous injury, as in the substitution of blood-money for execution in an intentional
+killing (2:178; 5:45) and the swift reconciliation of believers fighting among themselves (49:9). Freeing a
+believing slave is an expiation for other offenses too, such as breaking a pledge (5:89) or renouncing a wife
+by the pre-Islamic practice of *ẓihār* (58:1–2), and is itself a praiseworthy charity (90:13); in this
+context, the expiation is particularly meaningful, for in response to the loss of one life another is given a
+new life through freedom. Most commentators require the freed slave to be an adult who has freely chosen
+Islam and practices observantly (Ṭabarī). If the victim is a believer but hails from an enemy clan or tribe,
+a slave is freed in expiation but no compensation is paid to his family; if the victim hails from a
+non-Muslim clan with whom the Muslims have a treaty — such as the protected People of the Book, or dhimmīs —
+then compensation is also paid. Most agree that the victim need not be a Muslim for blood-money to be owed,
+since Islamic Law requires compensation for the death of a dhimmī, though some say it is half that for a
+Muslim. For those too poor, a fast of two consecutive months serves as expiation in place of freeing a slave,
+as in the case of *ẓihār* (58:4), but there is debate over whether this fasting eliminates the need for
+compensating the victim's family as well; some scholars maintain that feeding the poor is also a possible
+expiation for unintentional killing.
+**[Maʿārif]** The sūrah lays out the cases systematically: the person killed is in one of four conditions —
+a Muslim, a dhimmī (a free, protected non-Muslim resident of a Muslim state), a beneficiary of a peace pact
+assured of the protection of his life, property, honor and religion, or a belligerent disbeliever — and the
+killing is either intentional or accidental; hence eight possible forms of killing, each with its own ruling,
+which the following verses and the law of retaliation (*qiṣāṣ*) set out in detail.
+
+**Reflection.** **[Saʿdī]** The form "it is not for a believer to kill a believer" is a form of impossibility
+and prohibition: it informs of the severity of the prohibition, that it contradicts faith in the strongest
+way, and that it can only issue from a disbeliever or from a sinner whose faith has been diminished
+enormously, over whom one fears what is greater than that. Sound faith prevents the believer from killing his
+brother, with whom God has contracted a brotherhood of faith whose requirements include loving him, being
+loyal to him, and removing whatever harm befalls him — and what harm is greater than killing? This is
+confirmed by the Prophet's saying, "Do not return after me to disbelief, striking one another's necks." Thus
+killing is among the practical forms of disbelief, and among the greatest of major sins after association
+with God. **[Ṭabarī]** Note that the verse's mercy is visible in its very structure: the accidental slayer,
+who did not intend the act, is freed from the sin of murder but not from responsibility — his expiation is to
+give freedom to a living person in place of the life that was lost, and his clan bears the blood-money, so
+what one hand did not intend the community does not ignore.
+
+**Cross-references.** "And do not kill the soul which God has forbidden, except by right" (17:33); "Whoever
+kills a soul, unless for a soul or for corruption in the land, it is as if he had killed all mankind" (5:32);
+"And the recompense of an injury is an injury like it" (42:40); "It is not for you to harm the Messenger of
+God" (33:53).
+
+## 4:93
+
+*"And whoever slays a believer deliberately — his requital is Hell, abiding therein, and God is wroth with
+him and has cursed him and prepared for him a mighty punishment."*
+
+**Meaning.** **[Ṭabarī]** Whoever kills a believer intentionally, aiming at the destruction of his life —
+his recompense is Hell, that is, the punishment of Hell; "abiding therein" — remaining in it; and God is
+wroth with him for killing him deliberately, and has cursed him, that is, removed him from His mercy, and has
+prepared for him a mighty chastisement in the Fire. **[Jalālayn]** And whoever slays a believer deliberately
+— intending to kill him, with something lethal, aware that the slain is a believer — his requital is Hell,
+abiding therein; and God is wroth with him and has cursed him, removed him from His mercy, and has prepared
+for him a mighty chastisement in the Fire. This may be explained as referring to the person who deems such
+killing licit, or as being his requital if he were to be requited; but it would not be anything new if this
+threat of punishment were forgone because of what God says, "Other than that — that is, idolatry — He
+forgives whomever He wills" (4:48). It is reported from Ibn ʿAbbās that the verse should be understood as it
+stands, abrogating other verses of forgiveness. The verse of Sūrat al-Baqarah (2:178) clearly indicates that
+the one who kills deliberately should be killed in return, or, if he is pardoned, must pay the blood-money
+whose value has been mentioned; and it is made clear in the Sunna that between the intentional and the
+unintentional there is a type of killing identified as being with quasi-deliberate intent (*shibh al-ʿamd*),
+where the killer has slain with what in most cases is not a lethal implement — in such a case there is no
+right to retaliation, but blood-money is paid instead, so that this type of killing is described as
+intentional but treated as unintentional in its consequences.
+
+**Rulings.** **[Qurṭubī]** The scholars differed over the description of the deliberate killer: ʿAṭāʾ and
+al-Nakhaʿī and others said he is the one who kills with a sharp instrument — a sword, a dagger, the point of a
+lance, or something of the sort prepared for cutting — or with what is known to have death in it, such as
+heavy stones and the like; and a group said the deliberate killer is anyone who kills with iron, or with a
+stone or a stick, intending thereby to do harm. **[Study Quran]** There is debate about what it means to kill
+another willfully and what kind of assault would indicate that killing was the ultimate intent: some say that
+in any assault with a deadly weapon, such as a sword, murder can be assumed to be the intention, while others
+say that striking a person with a strong, heavy object (e.g., a piece of iron) can also indicate murderous
+intent (Ṭabarī). Questions arose over cases where a deliberate assault with a non-lethal weapon — a wooden
+stick or a whip — resulted in death, though harming, rather than killing, was the actual intent: some maintain
+that the perpetrator must pay the full compensation to the victim's family but is not liable to execution,
+while others hold that he is liable to physical retaliation as well (Qurṭubī). Some hold that the intentional
+killing of a believer is a sin for which there is no forgiveness, although others maintain the possibility of
+forgiveness for one who is contrite (Ṭabarī) — a possibility indicated in 25:68–71; critics of the latter
+view, however, assert that the present verse was revealed after 25:68–71 and thus may abrogate the
+possibility of forgiveness suggested there (Qurṭubī). **[Study Quran]** Several *aḥādīth* indicate how
+seriously God takes the killing of Muslims; one states, "The killing of a believer is graver with God than
+the perishing of the world itself" (Qurṭubī).
+
+**Reflection & theology.** **[Saʿdī]** God had already informed us that the killing of a believer does not
+issue from a believer, and that killing is among the practical forms of disbelief; here He sets out the threat
+against the deliberate killer with a threat at which hearts tremble and minds recoil: there is no threat
+against any kind of major sin greater than this, nor its like — namely, the information that his requital is
+Hell, with its great punishment, its humiliating disgrace, the wrath of the Compeller, the loss of success
+and felicity, and the attaining of ruin and loss. The Imams differed over the interpretation of this and
+similar threats of eternal punishment for major sins, while agreeing on the falsity of the view of the
+Khawārij and the Muʿtazilah, who make such a one abide in the Fire forever even though he is a monotheist.
+The correct interpretation is what the verifying imām Ibn al-Qayyim set out: the texts of promise and the
+texts of threat are weighed against one another, and the ruling goes to the preponderant; the divine norms in
+creation and command are built on the balance of good and evil and on the predominance of the stronger of two
+opposites, so that (for instance) health and disease, strength and disease, one principle and its antagonist
+each contend, and the outcome belongs to the stronger; and in the same way the servants of God divide into
+those who enter Paradise and do not enter the Fire, the opposite of them, and those who enter the Fire and
+then come out of it, remaining in it according to the measure of what holds them there, departing swiftly or
+slowly. And there is one whose insight is so illumined that he sees all that God has informed of in His Book
+concerning the return and its details as if witnessing it with the eye, knowing that this is required by
+God's divinity, His lordship, His might and His wisdom, and that its contrary is impossible for Him — this is
+the certainty of faith, and it is that which burns up evil deeds as fire burns up wood; and such a person's
+persisting in sins is impossible even if sins occur from him and multiply, for the light of faith that is with
+him commands him to renew repentance at every moment and to return to God with every breath — and such a one
+is among the most beloved of creation to God. **[Saʿdī]** The verse ends with four things heaped upon the
+killer — Hell, abiding, wrath, curse, and a prepared chastisement — an assembly of four or five penalties that
+shows the enormity of the offense and contains a warning for every hand raised against a believer.
+
+**Cross-references.** "And whoever kills a soul, unless for a soul or for corruption in the land, it is as if
+he had killed all mankind" (5:32); "And those who do not invoke any other deity besides God, and do not kill
+the soul God has forbidden except by right" (25:68); "So, if he is pardoned, then blood-money is owed to
+him, according to what is recognized" (2:178); "And whoever among you turns back from his religion and dies
+while a disbeliever — those are the ones whose deeds have failed in this world and the Hereafter" (2:217).
+
+## 4:94
+
+*"O you who believe, when you go forth in the way of God, be discerning; and do not say to one who offers you
+peace, 'You are not a believer,' seeking the fleeting goods of the life of this world — for with God are
+abundant spoils. Such were you before, and God was gracious to you; so be discerning. Truly God is Aware of
+what you do."*
+
+**Meaning.** **[Ṭabarī]** O you who have affirmed God and affirmed His Messenger in what he brought you from
+your Lord, when you strike out in the way of God — when you travel for God in striving against your enemies —
+"be discerning": verify and be cautious, and do not say to the one who throws the greeting of peace to you,
+"You are not a believer," seeking thereby the transient goods of this world; for with God are abundant spoils
+which He has promised you. **[Jalālayn]** The verse was revealed when a group of the Companions passed by a
+man of the Banū Sulaym driving his flock of sheep, and he offered them a greeting of peace; but they said,
+"He only greeted us dissimulating out of fear," and so they killed him and took away his flock. Then: O you
+who believe, when you are going forth in order to struggle in the way of God, be discriminating —
+*fa-tabayyanū*; a variant reading has *fa-tathabbatū*, "ascertain," here and further below — and do not say to
+him who offers you peace, that is, the greeting, or offers you submission by declaring the profession of faith
+which is an indication of being a Muslim, "You are not a believer — you are only saying this to dissimulate
+for fear of your life and property" — so that you then end up killing him, desiring by this the transient
+goods of the life of this world, that is, its enjoyment, in the way of spoils. With God are plenteous spoils
+that render you free of the need to kill such a person for his property. "So you were formerly" — when your
+lives and property were protected simply upon your professing the faith — "but God has been gracious to you,"
+making you known for your faith and uprightness; so be discriminating, lest you kill a believer and treat
+those entering the religion as you were treated formerly. Surely God is ever Aware of what you do, and will
+requite you for it. **[Ibn Kathīr]** Ibn ʿAbbās said, "The goods of this world were those sheep." And
+al-Bukhārī recorded that Ibn ʿAbbās said the Prophet ﷺ said to al-Miqdād, "You killed a believing man who hid
+his faith among disbelieving people after he had announced his faith to you. Remember that you used to hide
+your faith in Mecca before." **[Study Quran]** The offering of peace here may mean an offer to cease
+hostilities rather than a greeting (al-Rāzī, Ṭabarī); the verse was reportedly revealed in relation to
+several incidents in which Muslims either pursued a man from an enemy tribe in order to kill him and take his
+possessions as booty, only to have him profess his belief in Islam once they had reached him, or killed those
+who confessed the *shahādah* as they came upon them unexpectedly.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Ibn ʿAbbās said in the report of Aḥmad: a man of the Banū Sulaym, who was
+tending a flock of sheep, passed by some of the Companions of the Prophet ﷺ and greeted them with *salām*;
+they said to each other, "He only said *salām* to protect himself from us," and then they attacked him and
+killed him and brought his sheep to the Prophet ﷺ — and this verse was revealed (al-Tirmidhī recorded it and
+called it good; al-Ḥākim declared its chain sound). Imām Aḥmad recorded from al-Qaʿqāʿ b. ʿAbdullāh b. Abī
+Ḥadrad, from his father ʿAbdullāh b. Abī Ḥadrad, who said: the Messenger of God ﷺ sent us to the area of
+Idam; I rode out with a group of Muslims including Abū Qatādah, al-Ḥārith b. Rabʿī and Muhallam b. Juthāmah b.
+Qays; we continued until we reached Idam, where ʿAmr b. al-Adbaṭ al-Ashjaʿī passed by us on his camel; when he
+passed us he gave us *salām*, and we did not attack him — but because of some previous trouble with him,
+Muhallam b. Juthāmah killed him and took his camel. When we returned to the Messenger of God ﷺ and told him
+what had happened, a part of the Qurʾān was revealed about us: "O you who believe, when you go forth in the
+way of God, be discerning" to the end of the verse. **[Ibn Kathīr]** Al-Bazzār recorded a longer report from
+Ibn ʿAbbās: the Messenger of God ﷺ sent out a military expedition under al-Miqdād b. al-Aswad; when they
+reached the designated area, the people there had dispersed, but a man with a great deal of wealth did not
+leave and said, "I bear witness that there is no deity worthy of worship except God" — and al-Miqdād killed
+him anyway. A man said to him, "You killed a man after he proclaimed 'There is no deity but God'; by God I
+shall mention what you did to the Prophet ﷺ." When they returned, the Prophet ﷺ said, "Summon al-Miqdād
+before me. O Miqdād, did you kill a man who says 'There is no deity but God'? What will you do about 'There
+is no deity but God' tomorrow?" **[Maʿārif]** Another report from Ibn ʿAbbās: a man of the Banū Sulaym met a
+group of noble Companions going on a *jihād* mission while he was grazing his goats; he offered the *salām*
+in the Islamic manner, and the Companions thought he was only pretending in view of the situation, and killed
+him and took his herd as spoils, which they brought to the Prophet ﷺ — whereupon the verse was revealed. It
+laid down the rule: do not take anyone who greets you in the Islamic manner as a pretender, and never assume
+without valid proof that his profession of Islam was a trick, and never take his property as spoils.
+**[Maʿārif]** In these episodes, the Companions had not taken the correct line of action; Allah condemned the
+practice, but an admonition was considered sufficient and no severe warning was revealed against them,
+because they did not know the rule clearly until that time.
+
+**Rulings.** **[Maʿārif]** The apparent profession of Islam is all that is needed for a Muslim to be regarded
+as a Muslim obligated to observe the laws of the Sharīʿah; it is not permissible to probe a person's inward
+state because of mere suspicion, or to wait for some definite proof of his certitude in faith before applying
+the laws to him. **[Saʿdī]** Verifying these matters yields many benefits and restrains great evils, and it is
+by such verification that a servant's religion, reason and steadiness are known — in contrast to one who
+rushes at a matter before its ruling is clear, which leads to what should not be. This is what happened to
+those whom God reproached in this verse: they did not verify before they killed the man who greeted them, and
+who had wealth with him, thinking that this would suffice them — and this was a mistake in fact. So God
+reproached them, saying, "And do not say to him who offers you peace, 'You are not a believer,' seeking the
+fleeting goods of the life of this world; for with God are abundant spoils": do not let the vanishing, small
+accident of this world carry you into what should not be, so that you lose what is with God of abundant
+reward. And there is a hint in this that when a servant sees his impulses inclining to a state in which he
+has a desire that harms him, he should remind himself of what God has prepared for one who forbids his soul
+its desire and puts God's pleasure before his own — for in that is an incentive for the soul to obey God's
+command even when it is hard for it. Then God reminded them of their former state before being guided to
+Islam: "Such were you before, and God was gracious to you" — as He guided you after your misguidance, so He
+guides others; "so be discerning" — verify, and be gentle with the one who enters the religion, and call to
+God with wisdom. God is Aware of what you do: nothing of your deeds is hidden from Him, and He will repay
+each deed with the reward it earns.
+
+**Cross-references.** "Say to those who disbelieve: if they desist, what has passed will be forgiven them"
+(8:38); "And if they incline to peace, incline to it, and trust in God" (8:61); "So be discerning; truly God
+is Aware of what you do" stands beside "O you who believe, if a troublemaker brings you news, verify it"
+(49:6); "And do not kill the soul which God has forbidden, except by right" (17:33).
+
+## 4:95
+
+*"Not equal are those of the believers who sit at home — other than those who have an injury — and those who
+strive in the way of God with their wealth and their lives. God has favored those who strive with their wealth
+and lives above those who sit, by a degree; and to each God has promised the goodly reward, but God has
+favored those who strive above those who sit with a great reward."*
+
+**Meaning.** **[Ṭabarī]** Those who hold back from striving in the way of God among the people of faith in
+God and His Messenger, preferring comfort and rest and sitting in their dwellings to enduring the roughness
+of travel and journeying in the earth and the hardship of meeting the enemies of God — they are not equal to
+those who strive, except the people of excuse among them: those who have lost their sight or have other
+illnesses by which they cannot fight. **[Jalālayn]** The believers who sit at home, away from the struggle —
+other than those who have an injury, such as a chronic illness, blindness or the like, read in the nominative
+*ghayru ulī al-ḍarar* as an adjectival clause, or in the accusative *ghayra ulī al-ḍarar* as an exceptive
+clause — are not the equals of those who struggle in the way of God with their possessions and their lives.
+God has preferred those who struggle with their possessions and their lives over those who sit at home; and
+God has preferred those who struggle over those who sit at home without any injury with a great reward.
+**[Ibn Kathīr]** Al-Bukhārī recorded that al-Barāʾ said, "When the verse 'Not equal are those of the believers
+who sit at home' was revealed, the Messenger of God ﷺ called Zayd and commanded him to write it; then Ibn Umm
+Maktūm came and mentioned that he was blind, and God revealed 'other than those who have an injury'."
+Al-Bukhārī also recorded that Sahl b. Saʿd al-Sāʿidī said, while Marwān b. al-Ḥakam sat in the mosque: Zayd b.
+Thābit told him that the Messenger of God ﷺ dictated this verse to him — "Not equal are those of the believers
+who sit at home, other than those who have an injury, and those who strive in the way of God" — and that Ibn
+Umm Maktūm came to him while he was dictating it. **[Qurṭubī]** Ibn ʿAbbās said: "Not equal are those who sat
+back from Badr and those who went out to it." The *ḍarar* is disability and chronic illness; and the reports
+of the Imams — the wording is Abū Dāwūd's, from Zayd b. Thābit — describe how the Prophet would be overcome
+by the heavenly stillness while the verse came down, so that his thigh fell upon Zayd's thigh, and Zayd found
+no weight heavier than the thigh of the Messenger of God ﷺ; then when he recovered he said, "Write," and Zayd
+wrote on a shoulder-blade — and Ibn Umm Maktūm complained to him of his blindness, and the exception was
+revealed.
+
+**Rulings.** **[Maʿārif]** According to the leading exegetes this verse tells us that striving is *farḍ ʿalā
+al-kifāyah* under normal conditions — an obligation of sufficiency, meaning that if a group stands up to it the
+obligation falls from the rest — as opposed to *farḍ ʿalā al-ʿayn*, an obligation on every individual; and
+striving is not obligatory on the lame, the crippled, the blind, the sick and others who are excusable under
+the Islamic law. **[Ibn Kathīr]** Groups of scholars used this verse for the ruling that striving is a
+communal obligation: "God has preferred those who strive with their wealth and lives over those who sit at
+home by a degree, and to each God has promised the goodly reward" — the reward is promised to both groups,
+while the degrees are for the strivers.
+
+**Reflection.** **[Saʿdī]** The intention determines the comparison. As for the people of injury, such as the
+sick, the blind, the lame, and the one who cannot equip himself: they are not in the position of those who
+sit without an excuse. One of the injured who is content with his sitting, does not intend to go forth in
+God's way were the obstacle removed, and does not tell himself of it — he is like one who sits without an
+excuse; but one who is determined to go out in God's way were the obstacle not there, who wishes for it and
+speaks to himself of it, is like one who has gone out to strive, because the firmly resolved intention, when
+joined by what is within its power of word or deed, places its owner in the position of the doer. Then God
+makes explicit the preference of the strivers over the sitters by a degree — that is, by exaltation — first in
+a summary way, then in detail, promising them forgiveness from their Lord, mercy encompassing every good and
+repelling every evil, and the degrees which the Prophet ﷺ set out in the established *ḥadīth* in the two
+*Ṣaḥīḥs*: "In Paradise there are a hundred degrees; between each two as between heaven and earth; God has
+prepared them for those who strive in His way." And this reward is like what is in Sūrat al-Ṣaff: "O you who
+believe, shall I tell you of a trade that saves you from a painful punishment? You believe in God and His
+Messenger and strive in the way of God with your wealth and your lives" (61:10–11).
+
+**Cross-references.** "And strive in the way of God as is due to Him" (22:78); "Say: Are those who know equal
+to those who do not know?" (39:9); "And God has preferred those who strive over those who sit with a great
+reward" stands beside "Do you reckon that you will enter Paradise while God has not yet known who among you
+strive and who are patient?" (3:142).
+
+## 4:96
+
+*"Degrees from Him, and forgiveness and mercy; and God is Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** "Degrees from Him" — favors from Him and stations of honor; the exegetes differed on
+the meaning of the degrees: Qatādah said, "It used to be said: Islam is a degree, migration within Islam a
+degree, striving within migration a degree, and being slain in striving a degree." Others said the degrees
+are the distinctions of the people of striving. **[Jalālayn]** Degrees — stations, each one above the other
+in honor — from Him, and forgiveness and mercy, in the accusative because they are the object of the implied
+verb "He has preferred"; surely God is ever Forgiving to His friends, Merciful to those who obey Him.
+**[Ibn Kathīr]** The verse is an elaboration of the degree by which God has favored the strivers: degrees of
+higher ranks from Him, and forgiveness and mercy. **[Study Quran]** The plural "degrees" seems to be an
+elaboration upon the degree or the great reward by which God favored the strivers in the previous verse.
+These degrees may represent the levels one attains in Paradise, the degrees of forgiveness or mercy received
+from God (al-Rāzī), or the degrees of closeness to God one obtains by striving to please Him (al-Qushayrī).
+The use of the plural here rather than the singular may indicate that while the striver is favored in this
+world by a single degree — namely, the spoils he acquires — he is favored in the Hereafter by many degrees or
+in multiple ways (al-Rāzī); or it may indicate that the strivers are favored by a single degree over the
+injured who are unable to strive, but by degrees over those who stay behind without a legitimate excuse
+(Qurṭubī); or it may mean that the multiple degrees are for those who strive and sacrifice in every way —
+with their lives, their wealth and their hearts, the heart being the noblest form of striving (al-Rāzī).
+According to a *ḥadīth*, "There are a hundred degrees in Paradise that God has prepared for those who strive
+in His way, the distance between each two degrees being as the distance between heaven and earth" (Ibn
+Kathīr). **[Maʿārif]** This verse too recounts the same degrees of precedence that the strivers have over
+others, and the ruling that striving is not obligatory on the lame, the crippled, the blind, the sick and
+others excusable under the Islamic law.
+
+**Reflection.** **[Ṭabarī]** The three gifts of the verse answer the three costs of striving: the one who
+loses rank in the world is given degrees in the Hereafter; the one whose hands are stained by battle is given
+forgiveness; and the one whose life is spent for others is given mercy. **[Saʿdī]** God's forgiveness comes
+from their Lord, and His mercy encompasses the attainment of every good and the repelling of every evil — so
+the reward is not merely compensation for what the striver gave up but the opening of a door to what no eye
+has seen.
+
+**Cross-references.** "And those who believed and emigrated and strove in the way of God with their wealth
+and their lives are greater in rank with God, and those are the successful" (9:20); "God raises in degrees
+those of you who believe, and those who have been given knowledge" (58:11); "And striving in His way" (61:11).
+
+## 4:97
+
+*"Those whom the angels take in death while they are wronging themselves — they say, 'In what state were
+you?' They say, 'We were weak and oppressed in the land.' They say, 'Was not God's earth spacious enough for
+you to migrate in it?' So their refuge is Hell — and what an evil destination!"*
+
+**Meaning.** **[Ṭabarī]** Those whose souls the angels take in death while they are wronging themselves —
+those who have earned for themselves the wrath and displeasure of God — the angels say to them, "In what were
+you, in what religion?" They say, "We were weak and oppressed in the land": the people of association with
+God overpowered us in our land and our countries by their numbers and strength and prevented us from
+believing in God and following His Messenger — a weak excuse and a feeble proof. The angels say: "Was not
+God's earth spacious, that you might have migrated in it?" — that you might have left your land and your homes
+and separated from those who prevented you from faith in God and following His Messenger, for a land whose
+people would protect you from the dominion of the people of association, so that you might declare God's
+oneness and worship Him and follow His Prophet? Then God says: their refuge is Hell, their destination in the
+Hereafter, and it is their dwelling; and how evil a destination, a dwelling and a refuge. **[Jalālayn]** The
+verse was revealed regarding a group of people who submitted to Islam but did not emigrate and were then slain
+at Badr alongside the disbelievers: and those whom the angels take in death while they are wronging their
+souls by remaining among the disbelievers and neglecting to emigrate — the angels say to them in rebuke, "What
+was your predicament?" that is, in what circumstances were you with regard to your religion? They say giving
+excuses, "We were oppressed, unable to establish religion in the land" — the land of Mecca. The angels say to
+them in rebuke, "But was not God's earth spacious, that you might have emigrated therein?" from the land of
+unbelief to another land, as others did? Their abode shall be Hell — an evil journey's end. **[Qurṭubī]** The
+verse means a group of the people of Mecca who had embraced Islam and displayed faith in the Prophet ﷺ, then
+when the Prophet emigrated they stayed with their people, and a group of them were put to trial and fell into
+it; when Badr came, some of them went out with the disbelievers, and the verse was revealed. Another report:
+when they belittled the number of the Muslims, doubt entered them about their religion and they apostatized
+and were killed in apostasy, whereupon the Muslims said, "These companions of ours were Muslims and were
+forced out" and asked forgiveness for them, and the verse was revealed — but the first report is sounder.
+**[Ibn Kathīr]** Al-Ḍaḥḥāk stated that the verse was revealed about some hypocrites who did not join the
+Messenger of God ﷺ but remained in Mecca and went out with the idolaters for the battle of Badr, and were
+killed among those who were killed; hence this verse concerns those who reside among the idolaters while able
+to perform migration and unable to practice the faith — such people commit injustice against themselves and
+fall into a prohibition by consensus and by this verse. **[Ibn Kathīr]** Abū Dāwūd recorded that Samurah b.
+Jundub said that the Messenger of God ﷺ said, "Whoever mingles with the idolater and resides with him is like
+him." The exception of the weak is an excuse God gives for this type of person not to migrate, because they
+cannot free themselves from the idolaters; and even if they did, they would not know which way to go. "These,
+it may be that God will pardon them" — pardon them for not migrating; and "it may be" (*ʿasā*) from God means
+He shall (Ibn Kathīr). **[Ibn Kathīr]** Al-Bukhārī recorded that Abū Hurayrah said: while the Messenger of God
+ﷺ was praying the night prayer, after "God hears the one who praises Him" he said before prostrating, "O God,
+save ʿAyyāsh b. Abī Rabīʿah; O God, save Salamah b. Hishām; O God, save al-Walīd b. al-Walīd; O God, save the
+weak among the believers." **[Study Quran]** The verse is widely considered to refer to those Makkans — such
+as ʿAlī b. Umayyah and Abū al-Qays b. al-Walīd (Ibn Kathīr) — who claimed to accept Islam (some say
+hypocritically) but failed to migrate to Madinah; some were compelled to join and fight alongside the Makkan
+idolaters at Badr. The use of the gerund "wronging themselves" indicates that they were taken while in the
+state of wrongdoing; some of them died in the battle, and when the angels came to take their souls they
+offered the excuse of oppression — but oppression is no excuse for believers who neglected the difficult but
+possible solution of emigrating. According to some reports, those among these Makkan believers who were
+compelled to fight at Badr were taken as prisoners of war by the Muslims, and 8:70 was then revealed,
+indicating that in having been captured rather than killed in that state they had the possibility of divine
+forgiveness (Ṭabarī). **[Study Quran]** Ibn ʿAbbās, who claims to have been among those truly weak and
+oppressed in Mecca, says that after this verse was revealed the Muslims in Madinah wrote of it to those in
+Mecca, informing them that they could claim no excuse for not migrating; so they attempted to leave, but the
+idolaters caught up with them and tormented them — and the Makkans then said what is recorded in the verse,
+and the mercy of the exception was revealed concerning them (4:98–99).
+
+**Rulings & reflection.** **[Saʿdī]** This is a severe threat against one who abandons migration while able
+to perform it until he dies: the angels who take his soul reproach him with this great reproach, saying, "In
+what were you?" — in what state were you, and by what were you distinguished from the idolaters? Rather, you
+increased their numbers and perhaps helped them against the believers, and you missed the great good of
+striving with the Messenger of God and being with the Muslims and aiding them against their enemies. When
+they say, "We were weak and oppressed in the land" — weak, overpowered, wronged, with no power to migrate —
+they are not telling the truth in that, since God has reproached them and threatened them, and God does not
+charge a soul beyond its capacity; and He excepted the truly weak. Hence the angels say: "Was not God's earth
+spacious, that you might have emigrated therein?" — a rhetorical question of affirmation: it is established
+with everyone that God's earth is wide, so that wherever a servant is in a place where he cannot manifest his
+religion, he has ample room in the earth to worship God there, as God said, "O My servants who believe, My
+earth is indeed spacious, so worship Me alone" (29:56). In the verse is a proof that migration is among the
+greatest obligations and leaving it among the forbidden things, indeed among the gravest of major sins; and a
+proof that whoever dies has completed and fulfilled what was appointed for him of provision, term and deeds
+— this being taken from the word *tawaffā*, for had anything of that remained owing, he would not be
+"taken in full." And in it is faith in the angels and their praise.
+
+**Cross-references.** "O My servants who believe, My earth is spacious, so worship Me alone" (29:56); "And
+whoever emigrates in the way of God will find on earth many a refuge and abundance" (4:100); "Say: O My
+servants who have transgressed against their own souls, do not despair of God's mercy" (39:53); "Then We
+shall question those to whom it was sent and those whom We sent" (7:6).
+
+## 4:98
+
+*"Except the weak and oppressed among the men, women and children who are unable to devise a plan nor are
+guided to a way."*
+
+**Meaning.** **[Ṭabarī]** Then God excepted those whom the polytheists had oppressed — among men, women and
+children — who were incapable of migration through poverty, lack of means, poor sight, and ignorance of the
+road from their land, the land of association, to the land of Islam: they are excepted from the people whose
+refuge is Hell, because of the excuse they have, as God has explained. **[Jalālayn]** Except the oppressed
+among the men, women and children, who are unable to devise a plan — having no strength to emigrate and no
+substance — and are not guided to a way, a means of going to the land of migration. **[Ibn Kathīr]** "Who can
+devise no plan, nor are they able to direct their way" means they do not know the way to emigrate, as
+Mujāhid, ʿIkrimah and al-Suddī stated. **[Study Quran]** The Quran here offers the possibility that God will
+forgive those who are genuinely weak and oppressed, such that they lack the physical capacity or financial
+means to migrate, or are not guided to any way — that is, they have no knowledge of how to reach Madinah
+(Ṭabarī). Cf. 4:75 and its commentary, where the believers are admonished to fight for the cause of the weak
+and oppressed, understood by some as referring to those Muslims in Mecca who were unable to migrate to
+Madinah.
+
+**Reflection.** **[Saʿdī]** The exception names the three things that make the excuse real: an outward
+inability, an inward inability to find a stratagem, and a lack of guidance to a road — so that the excuse is
+not the claim of weakness but the fact of it, and it is God who weighs the truth of the claim. **[Maʿārif]**
+Ibn ʿAbbās, who reported that he and his mother were among those so described, is the best witness that even
+those who cried out in the sūrah's fourth verse for deliverance from the town of the oppressors were not
+counted among the negligent: their names are preserved in the tafsīrs among the weak who remained behind in
+Mecca, unable to migrate because of physical weakness and insufficient resources, and then prevented by the
+disbelievers.
+
+**Cross-references.** "And why should you not fight in the way of God, and for the weak — men, women and
+children" (4:75); "God does not charge a soul beyond its capacity" (2:286); "And they said, 'When we were
+weak in the land...'" (4:97).
+
+## 4:99
+
+*"As for such, it may be that God will pardon them; and God is ever Pardoning, Forgiving."*
+
+**Meaning.** **[Ṭabarī]** These weak ones — God may pardon them, that is, forgive them for their abandonment
+of migration — because of the excuse in which they are, being believers — He may favor them by pardoning
+them, since they did not abandon migration out of choice or preference for the abode of disbelief over the
+abode of Islam, but because of the incapacity in which they were to make the transfer; and God is ever
+Pardoning — pardoning the sins of His servants by His grace, not punishing them — Forgiving, covering their
+sins by His pardon. **[Jalālayn]** As for such, God may pardon them; for God is ever Pardoning, Forgiving.
+**[Ibn Kathīr]** "It may be that God will pardon them" means He will pardon them for not migrating; and "it
+may be" from God means He shall. **[Saʿdī]** The promise is phrased in the language of hope to honor them
+and to exalt the matter, as the King says of a servant he wishes to forgive, "Perhaps I shall pardon him" —
+and the servants' hope is thereby stretched and their hearts are attached to God's bounty.
+
+**Reflection.** **[Ṭabarī]** The verse is the counterpart and resolution of the warning before it: the same
+God who threatens the desertion with Hell opens a door of pardon for those whose weakness was genuine, and
+the excuse He accepts is not the plea which men make for themselves but the truth which He knows — hence the
+verse attributes the pardon to God's own knowledge of the inward state, not to any court's assessment of it.
+**[Ibn Kathīr]** It is for this reason that the *ʿasā* of God is never the language of doubt: it is the
+language of a promise whose fulfillment is certain, since nothing is hidden from Him and nothing is hard for
+Him.
+
+**Cross-references.** "And your Lord is Forgiving, full of mercy" (18:58); "He it is who accepts repentance
+from His servants and pardons the evil deeds" (42:25); "And whoever does evil or wrongs himself, then asks
+forgiveness of God, will find God Forgiving, Merciful" (4:110).
+
+## 4:100
+
+*"And whoever migrates in the way of God will find upon the earth many a refuge and abundance. And whoever
+goes out from his house as an emigrant to God and His Messenger, then death overtakes him — his reward has
+fallen upon God; and God is Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** Whoever separates from the land of association and its people, fleeing with his
+religion from it and from them, to the land of Islam and its believing people — "in the way of God," in the
+path of God's religion and the way He legislated for His creation — will find upon the earth *murāghim*, a
+refuge and a place where he may rub the noses of his enemies in the dust, and width and ease.
+"And whoever goes out from his house as an emigrant to God and His Messenger, then death overtakes him" — in
+the journey, before reaching his destination — "his reward has fallen upon God": it is due from God, who does
+not fail in His promise. **[Jalālayn]** Whoever emigrates in the way of God will find in the earth many a
+refuge — places of migration — and abundance of provision; whoever goes forth from his house as an emigrant
+to God and His Messenger, and then death overtakes him on the way — as occurred with Jundab b. Damrah
+al-Laythī — his wage is then fixed and incumbent upon God; surely God is ever Forgiving, Merciful.
+**[Qurṭubī]** The *murāghim* was variously explained: Mujāhid said it is the place one shifts away from what
+one dislikes; Ibn ʿAbbās, al-Ḍaḥḥāk, al-Rabīʿ and others said it is the place from which one departs; Ibn
+Zayd and Abū ʿUbaydah said it is the place to which one emigrates; al-Suddī said it is the means of seeking
+one's livelihood; and Mālik said, "The *murāghim* is going about in the land." Al-Naḥḥās said these sayings
+agree in meaning: the *murāghim* is the place of departure and transfer in the state of migration, its name
+derived from *raghām* — for "the nose of so-and-so was rubbed in the dust" means he was abased — and "I
+angered (*rāghamtu*) so-and-so" means I hated him and opposed him and did not care if his nose was rubbed in
+the dust. Hence the meaning: the emigrant leaves a land where he is abased in his religion for a land where
+he has protection, and by his going he rubs the noses of Quraysh in the dust, for the protection he finds is
+itself the place of *murāghama*. "And abundance," that is, in provision (Ibn ʿAbbās, al-Rabīʿ, al-Ḍaḥḥāk);
+Qatādah said its meaning is breadth from misguidance to guidance and from poverty to wealth; and Mālik said
+the abundance is the breadth of the lands, which is closest to the eloquence of the Arabs, for by the
+spaciousness of the earth and the multiplication of refuges come abundance in provision, breadth of the
+breast for sorrows and thought, and other avenues of relief. **[Study Quran]** Many a refuge translates
+*murāghim*, which may also mean "many wide-open spaces," "much freedom to roam" (Ṭabarī), or "many paths by
+which to leave" (al-Zamakhsharī). In connection with this verse or the previous ones, some commentators
+relate the account of an elderly Muslim in Mecca who, upon hearing of the warning in v. 97 to those who do not
+emigrate, instructed his sons to aid him in leaving Mecca, though he was infirm and had to be carried on a
+bed; he is said to have died en route to Madinah (Ṭabarī, al-Wāḥidī). Upon hearing of his death, some Muslims
+suggested his reward would have been greater had he reached Madinah, while the Makkan disbelievers mocked his
+fate; this verse was thus revealed indicating that God Himself had taken his reward upon Himself.
+
+**Rulings.** **[Maʿārif]** Lexically *hijrah* means being displeased with something and leaving it; in common
+usage it is the leaving of one's home country; and in the terminology of the Sharīʿah it is leaving the abode
+of disbelief (*dār al-kufr*) for the abode of Islam (*dār al-islām*). Where disbelievers forcibly expel Muslims
+because they are Muslims, that too is included under migration; but moving merely for business or employment
+is not migration in the Islamic legal sense. And the *ḥadīth* of al-Bukhārī and Muslim completes the
+definition: "The emigrant is the one who abandons what God and His Messenger have prohibited" — preceded in
+the same *ḥadīth* by "The Muslim is the one from whom the Muslims are safe, from his tongue and his hand"
+(Tirmidhī); that is, the true emigrant does not treat departure from his homeland as the last obligation but
+leaves behind everything the Sharīʿah has declared unlawful. **[Saʿdī]** Faith in the promise is the heart of
+it: many people imagine that emigration means dispersal after unity, poverty after wealth, humiliation after
+honor, and hardship after ease — and the matter is not so. As long as the believer remains among the
+disbelievers, his religion is in the utmost deficiency, both in the acts of worship that concern him alone,
+like prayer, and in the acts that concern others, like striving by word and deed, for he is unable to
+undertake them and is on the verge of being seduced from his religion, especially if he is weak; but when he
+emigrates in the way of God he becomes able to establish God's religion, strive against God's enemies and
+enrage them — and *murāghama* is a comprehensive name for everything by which the enemies of God are angered
+in word and deed — and he obtains breadth in his provision, as God informed and as it came to pass. Consider
+the Companions: when they emigrated in the way of God and left their homes, children and wealth for God,
+their faith was thereby completed, and there came to them such complete faith, great striving and aid of
+God's religion that they became leaders for those after them, and there came to them of conquests and spoils
+what made them the wealthiest of people — and so it shall be for everyone who does as they did until the Day
+of Resurrection. **[Saʿdī]** Then God says: "And whoever goes out from his house as an emigrant to God and
+His Messenger" — intending his Lord, His pleasure and His love for His Messenger, and aid of God's religion,
+not any other aim — "then death overtakes him," whether by killing or otherwise, "his reward has fallen upon
+God": he has attained the reward of the emigrants, and God has taken it upon Himself, and God is Forgiving to
+him, Merciful to him.
+
+**Reflection.** **[Saʿdī]** The verse answers the last hesitation of the would-be emigrant — the fear of
+dying on the road, before the reward is collected — by moving the wage from the hands of men to the covenant
+of God: the one who steps out for His sake has his reward secured upon the One who never fails, and the
+migration is reckoned complete at the first step rather than at the destination. **[Ibn Kathīr]** The mercy
+of the close — "God is Forgiving, Merciful" — is the fitting seal of the passage: the sūrah began with the
+command to guard the rights of the weak and the orphan and the woman, and it closes with the promise that the
+one who leaves his home for God will find the earth wide and God's reward certain. **[Ṭabarī]** Note that the
+reward is not made conditional on arrival: the going-out is the deed, and God's bounty does not wait upon the
+road's completion.
+
+**Cross-references.** "And those who emigrated for the sake of God after they were wronged, We shall surely
+settle them in the world in a good place" (16:41); "And those who emigrate in the way of God and then are
+killed or die — God will surely provide for them a good provision" (22:58); "And whoever fears God, He will
+make a way out for him, and provide for him from where he does not expect" (65:2–3); "The believers who
+emigrated and strove in the way of God with their wealth and lives are greater in rank with God" (9:20).
