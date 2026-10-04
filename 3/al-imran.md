@@ -389,3 +389,27 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** emphasizes that the Prophet ﷺ has delivered the proof; rejection belongs to those who turn away, and their account rests with God. **[Maʿārif]** similarly counsels believers not to be unsettled by fruitless argument: their task is to make their own submission clear and invite others to the truth.
 
 ---
+
+## 3:21
+
+*Truly, those who disbelieve in God’s signs, kill the prophets without right, and kill those who enjoin justice among the people—give them tidings of a painful punishment.*
+
+**Meaning.** The verse addresses disbelieving and transgressing groups among the People of the Book, especially the Children of Israel **[Ibn Kathīr] [Study Quran]**. **[Maʿārif]** identifies the group particularly as Jews who rejected the Gospel and the Qurʾān. *Qisṭ* is justice: **[Ṭabarī]** explains that those who enjoin it were followers of the prophets who warned their people against killing prophets and committing sins. They need not themselves be prophets; **[Study Quran]** emphasizes that the verse condemns the killing of ordinary people who stand up for truth, while **[Saʿdī]** calls them imams of guidance. **[Maʿārif]** describes them as teachers who called people to moderation in conduct and morals. “Without right” underscores the injustice of killing the prophets, while “give them tidings” is bitterly ironic: **[Jalālayn]** reads the announcement of punishment as a sarcastic inversion of glad tidings.
+
+**Context.** **[Maʿārif]** notes that the passage turns from the Christians addressed earlier to Jewish wrongdoing. **[Study Quran]** likewise reads the verse primarily of disbelievers among the People of the Book, especially Israelites, while noting an interpretation focused on tyrannical rulers. **[Ṭabarī] [Qurṭubī]** describe the followers of prophets who spoke against injustice as being killed in turn. **[Qurṭubī]** explains that later people can share responsibility when they approve their ancestors’ crimes, even if they did not commit the killings themselves.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** cites the Prophetic definition of arrogance as rejecting the truth and looking down on people. **[Study Quran]** reports that al-Rāzī invokes the saying, “The best jihad is a word of truth before a tyrannical ruler.” A report attributed to Abū ʿUbaydah says that the most severely punished include those who kill prophets or command evil and forbid good, then relates the killing of Israelite prophets and the people who challenged their killers *(weak)*; **[Ṭabarī]**’s edition notes serious problems in its chain.
+
+**Rulings.** **[Qurṭubī]** treats enjoining right and forbidding wrong as a continuing duty of the prophetic community and a mark of believers (compare 9:71); a person’s own shortcomings do not erase the duty, though they remain blameworthy. He cites the report of Abū Saʿīd: whoever sees a wrong should change it by hand if able, otherwise by speech, and otherwise in the heart. Scholars cited by **[Qurṭubī]** assign coercive enforcement to the authorities, counsel by speech especially to scholars, and disapproval in the heart to those unable to act; interventions are limited by ability and must not use killing when a lesser means will remove the wrong. **[Qurṭubī]** says the verse supports speaking against injustice even at personal risk, while also transmitting a report that a believer should not expose himself to an ordeal beyond his capacity; he notes that the report’s transmitters were criticized *(weak)*.
+
+**Readings.** The common reading is *yaqtulūna* (“they kill”), which **[Ṭabarī]** prefers; **[Jalālayn]** notes a variant *yuqātilūna* (“they fight against”), associated by **[Ṭabarī]** with a Kufan reading linked to Ibn Masʿūd’s codex.
+
+**Stories & occasions.** A report says Israelites killed forty-three prophets in one hour; those who then condemned the killings were themselves killed before the day ended—112 in **[Ṭabarī] [Qurṭubī]** and 170 in versions cited by **[Jalālayn] [Maʿārif] [Study Quran]** *(weak)*. **[Qurṭubī]** also transmits a report attributed to Ibn Masʿūd that Israelites killed seventy prophets in a day and resumed their vegetable market by evening *(Isrāʾīliyyāt)*. He adds two tangential sayings: that a town is protected from calamity when it has a just ruler, a guided scholar, elders who enjoin right and encourage learning, and women who maintain modesty; and an Anas report that one leaves the duty only when rule lies with the young, immorality spreads among the old, and knowledge is found among the base *(digression)*.
+
+**Language.** *Qisṭ* means justice and equity **[Ṭabarī] [Qurṭubī]**. *Fabashshirhum* (“give them tidings”) ordinarily introduces good news, so its use for punishment sharpens the verse’s irony **[Jalālayn] [Study Quran]**.
+
+**Cross-references.** Israelite rejection and killing of prophets: 2:61 **[Study Quran]**. The man who supported the messengers: 36:20–28 **[Study Quran]**. Believers who enjoin right and forbid wrong: 9:71 **[Qurṭubī]**. Rulers established to uphold justice: 22:41 **[Qurṭubī]**.
+
+**Reflection.** **[Saʿdī]** places those who command justice among the greatest guides of humanity. The verse honors not only the prophets who bring truth but also those who defend it, and warns that rejecting justice can turn knowledge into persecution.
+
+---
