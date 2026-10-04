@@ -910,3 +910,869 @@ becomes the image the whole sūrah will keep returning to: the place where Godʾ
 abandonment.
 
 ---
+
+
+## 12:11
+
+*"They said, "O our father, what ails you that you do not trust us with Joseph, when we are indeed sincere
+well-wishers to him?""*
+
+**Meaning.** **[Ṭabarī]** Yūsufʾs brothers said this to their father Yaʿqūb when they had taken counsel
+among themselves and resolved upon the separation between him and his father: "O our father, what is the
+matter with you that you do not trust us with Yūsuf, so as to leave him with us when we go out beyond the
+city to the desert — when we are sincere towards him," meaning we will look after him and guard him.
+**[Ibn Kathīr]** When the brothers agreed to take Yūsuf and throw him down the well, following the advice of
+their elder brother Rubil, they went to their father and said, "Why is it that you do not trust us with
+Yūsuf, though we are indeed his well-wishers?" They began executing their plan with this introductory
+statement even though they intended the opposite of it, out of envy towards Yūsuf for being loved by his
+father. **[Jalālayn]** They said: "O father, what is wrong with you that you do not trust us with Joseph? We
+are indeed his well-wishers" — we are only looking out for his best interests. **[Saʿdī]** The brothers of
+Yūsuf came to their father working towards their objective: "O our father, what is the matter with you that
+fear for Yūsuf enters you from us without cause or grounds, when we are sincere well-wishers to him —
+tender towards him, desiring for him what we desire for ourselves?" This shows that Yaʿqūb would not let
+Yūsuf go with his brothers to the wilderness and the like. **[Study Quran]** The brothersʾ question indicates
+that Jacob feared what they would do to Joseph and that they had previously asked him to allow Joseph to go
+with them and he had refused; if so, the suggestion to throw Joseph into the well in v. 10 was perhaps one of
+several plans they had made to dispose of him. By saying "truly we wish him well" they made it appear to
+Jacob that they had a great deal of love and compassion for Joseph, implying that they did not intend to
+harm him. **[Maʿārif]** The very tone of the request indicates that they had already made such a request
+earlier and it had not been accepted by their father, so in this present request they tried to assure him
+with added effort and insistence.
+
+**Stories & occasions.** **[Qurṭubī]** Al-Ḥasan was asked, "Does the believer feel envy?" and answered,
+"What has made you forget the sons of Yaʿqūb!" Hence the proverb: the father is a gainer and the brother a
+stripper. When that settled in their minds they resolved to separate him from his son by some contrivance,
+and said to Yaʿqūb, "O our father, what ails you that you do not trust us with Yūsuf?" It is also said that
+when they had conferred and parted upon the opinion of the second speaker they returned to Yaʿqūb and said
+this — evidence that they had asked him before to let Yūsuf go out with them and he had refused.
+
+**Language.** **[Qurṭubī]** Yazīd b. al-Qaʿqāʿ, ʿAmr b. ʿUbayd and al-Zuhrī read *lā taʾmannā* with full
+assimilation and without *ishmām*, which is the analogical form, since what is assimilated ought to be
+quiescent; Ṭalḥah b. Muṣarrif read *lā taʾmanunā* with two distinct nūns, on the original form; Yaḥyā b.
+Waththāb and Abū Razīn, and it is reported from al-Aʿmash, read *wa-lā tīmannā* with a kasrah on the *tāʾ*,
+which is the dialect of Tamīm, who say *anti tiḍribu*; everyone else reads with assimilation together with
+*ishmām*, to indicate the condition of the letter before its assimilation. *Wa-innā lahu lanāṣiḥūn* means
+sincere in guarding him and looking after him until we return him to you. Muqātil held there is an inversion
+in the speech: the brothers first said "send him with us tomorrow," then their father said "it grieves me
+that you should take him away," and only then did they answer with "what ails you that you do not trust us
+with Yūsuf?"
+
+**Cross-references.** The identical pledge "we shall surely be his keepers" returns at 12:63, when the
+brothers try to persuade Jacob to send Benjamin with them; Jacobʾs answer is at 12:64 **[Study Quran]**.
+
+**Reflection.** The opening question is itself the tell. A father who has never been asked for a reason does
+not have to be asked "what ails you?" — the brothers are arguing against a suspicion they have already
+identified in him, and they are right about it. **[Qurṭubī]**ʾs quotation of al-Ḥasan makes the verse a
+standing answer to the pious assumption that faith simply removes envy: it did not remove it from the sons
+of a prophet. And the proverb — the father is a gainer, the brother a stripper — names the asymmetry that
+runs through the whole sūrah, until the stripping is undone by the one who was stripped.
+
+---
+
+## 12:12
+
+*"Send him with us tomorrow, that he may graze and play, and we shall surely be his guardians."*
+
+**Meaning.** **[Ibn Kathīr]** The brothers said: "Send him with us tomorrow, so that we may all enjoy
+ourselves and play" — Qatādah, al-Ḍaḥḥāk and al-Suddī said the same — and "verily we will take care of
+him": we will protect him and ensure his safety for you. **[Saʿdī]** Having removed from themselves the
+suspicion that was preventing their father from sending him, they mentioned to him what was in Yūsufʾs own
+interest and the enjoyment his father loved for him, which required him to allow him to go: "Send him with
+us tomorrow, that he may graze and play" — that he may take his pleasure in the open country and enjoy
+himself — "and we shall surely be his guardians": we will watch over him and protect him from any harm
+intended against him. **[Jalālayn]** Send him forth with us tomorrow to the desert to frolic and play — read
+either the first person plural, "that we might frolic and play," or the third person singular, "that he
+might frolic and play" — that is, so that we may be spirited and roam freely. "Surely we shall take good
+care of him."
+
+**Rulings.** **[Maʿārif]** draws a permission from this verse: what is sought here is leave to go on an
+outing and have the freedom to enjoy eating and playing together, and this was something Yaʿqūb did not
+disallow at all — he showed reluctance only about sending Yūsuf with them, which appears in the next verse.
+From this we learn that going out to enjoy oneself and to play is allowed within permissible limits, and
+authentic aḥādīth also indicate its justification; the condition is that in this activity of fun and games
+there should be no transgression of the limits set by the Sharīʿah, nor should it be mixed with any act that
+is impermissible.
+
+**Language.** **[Ṭabarī]** The readers differed over *yartaʿ wa-yalʿab*. The general reading of the people
+of Madīnah is *yartaʿi wa-yalʿab* with a kasrah on the ʿayn and *yāʾ* in both verbs, on the pattern of Form
+VIII from *al-raʿy* — "I graze, so I am grazing" — as though the sense were "send him with us tomorrow and he
+will pasture the camels and play." The general reading of the people of Kūfah is *yartaʿ wa-yalʿab* with
+*yāʾ* in both and a quiescent ʿayn, from their saying "so-and-so *rataʿa* in his wealth" when he plays and
+enjoys himself in it and spends it on his desires; from this comes the proverb "the fetter and the plentiful
+pasture," which **[Ṭabarī]** explains through its story: ʿAmr b. al-Ṣaʿq was captured by Shākir of Hamdān,
+who treated him well; he had left his own people thin, then fled from Shākir, and when he reached his people
+they said, "ʿAmr, you left us thin and today you are fat?" He said, "the fetter and the plentiful pasture,"
+and it became a proverb. Al-Quṭāmīʾs line uses the same root: "Is this disbelief, after death was turned
+away from me, and after your gift of the hundred grazing camels?" Some of the people of Baṣrah read *nartaʿ
+wa-nalʿab* with *nūn* in both and a quiescent ʿayn. **[Ṭabarī]** records that al-Qāsim heard Hārūn say Abū
+ʿAmr read it with *nūn*, and that he asked Abū ʿAmr, "How can they say *we play*, when they are prophets?"
+He answered, "They were not prophets at that time." **[Qurṭubī]** *Ghadan* is an adverb of time whose root
+in Sībawayhʾs view is *ghadw*, and it has been spoken in that original form; al-Naḍr b. Shumayl said that
+what lies between dawn and the ṣubḥ prayer is called *ghadwah*, and likewise *bukrah*. He sets out the four
+readings and explains that the first comes from the Arabsʾ saying that a man or a camel *rataʿa* when they
+eat as they please, the sense being "that we may enjoy abundance in plenty," for everything in plenty is
+*rātiʿ*.
+
+**Belief.** Abū ʿAmrʾs answer — "they were not prophets at that time" — is the hinge on which much of the
+classical discussion of this sūrah turns: whether the brothers were prophets at all, and if so when.
+**[Qurṭubī]** at 12:7 records Ibn Zaydʾs claim that they were prophets and notes that it has already been
+refuted, and **[Maʿārif]** at 12:9 argues from their intended crimes that they were not prophets at all.
+
+**Reflection.** The brothersʾ pitch is carefully built: they answer an unspoken objection first (we are
+sincere), then offer the child a benefit (play and open air), then guarantee the outcome (we will guard
+him). **[Saʿdī]** notes the structure — remove the suspicion, then present the interest of the one you are
+asking for. It is the grammar of every persuasive request, and the reason a fatherʾs refusal becomes hard to
+sustain. What the verse leaves visible is the smallness of what was asked: a day in the pasture. The whole
+catastrophe enters through a request that no loving father could reasonably refuse twice.
+
+---
+
+## 12:13
+
+*"He said, "Truly it grieves me that you should go away with him, and I fear that the wolf may devour him
+while you are heedless of him."*"*
+
+**Meaning.** **[Ṭabarī]** Yaʿqūb said to them: it grieves me that you should take him with you out to the
+desert, out of fear for him that the wolf will devour him while you are heedless of him and do not notice.
+**[Ibn Kathīr]** God narrates that His prophet Yaʿqūb said to his children, in answer to their request that
+he send Yūsuf with them to the desert to tend their cattle: "Truly it saddens me that you should take him
+away" — it was hard on him to be separated from Yūsuf for the duration of their trip until they came back.
+This shows the depth of Yaʿqūbʾs love for his son, because he saw in Yūsuf great goodness and exalted
+qualities of conduct and physical attractiveness associated with the rank of prophethood. Then "I fear lest
+a wolf should devour him while you are careless of him": I fear that you may be careless with him while you
+are tending the cattle and shooting, so that a wolf comes and eats him while you are unaware. They heard
+these words from his mouth and used them in their excuse for what they did afterwards. **[Jalālayn]** "Lo, it
+grieves me that you should go with him" — your departure with him grieves me, because I would be separated
+from him — "and I fear lest the wolf devour him"; *al-dhiʾb* here represents the genus, for their land had
+many wolves in it; "while you are heedless of him," distracted by something else. **[Saʿdī]** He answered
+them: "it grieves me that you should go away with him" — the mere going away with him grieves me and is hard
+upon me, because I cannot bear separation from him even for a short while; that is one obstacle. The second
+is that "I fear the wolf may devour him while you are heedless of him," that is, in a moment of your
+inattention, because he is small and cannot fend off a wolf. **[Maʿārif]** Yaʿqūb told them he did not
+favour sending Yūsuf out for two reasons: he remains uncomfortable without him in sight, and he apprehends
+that in the wilderness they might become neglectful at some moment and a wolf might eat him up.
+
+**Stories & occasions.** **[Qurṭubī]** Al-Kalbī said Yaʿqūb feared the wolf because he had seen in a dream
+that a wolf attacked Yūsuf. Others said he saw in his dream that he was on the peak of a mountain and Yūsuf
+in the bottom of the valley, and that ten wolves surrounded him intending to devour him, and one of them
+fended them off; then the earth split and Yūsuf was hidden in it for three days. The ten were his brothers,
+when they conspired to kill him; the one that defended him was his eldest brother Yahūdhā; and his being
+hidden in the earth was his stay in the well for three days *(Isrāʾīliyyāt)*. It is also said that he said
+this out of fear for him from them, and that he meant them by "the wolf," so that his fear was of their
+killing him, and he alluded to them as the wolf in order to veil the matter from them — Ibn ʿAbbās said he
+called them wolves *(Isrāʾīliyyāt)*. Others said he did not fear them for him at all — had he feared them he
+would not have sent him with them — and that he feared the wolf because a wolf is the thing most commonly
+feared in open country. **[Study Quran]** records the same dream: the wolves are the brothers, the one wolf
+who left him is Judah or Reuben, who convinced the others not to kill him, and the crack in the ground is
+the well; thus by speaking of the wolf Jacob was referring to the ten brothers, who like wolves would act
+deceptively in devouring their prey. Others say that since wolves were generally the most feared creatures
+in the pastures Jacob meant an actual wolf — and even a specific wolf, as the definite article in "the wolf"
+indicates. **[Study Quran]** also notes the spiritual reading: just as Jacob could not be without his
+beloved for even an hour, so believers should not be forgetful of their Divine Beloved for even a moment,
+since heedlessness of God is separation while remembrance of Him is togetherness.
+
+**Language.** **[Qurṭubī]** *An tadhhabū bihi* stands in the position of a subject — "your going away with
+him" grieves me; he spoke of his grief at his absence. On *al-dhiʾb*: Aḥmad b. Yaḥyā said the word is taken
+from *tadhāʾabat al-rīḥ*, when the wind comes from every direction, and the wolf is hamzated because it
+comes from every direction; Warsh reported from Nāfiʿ the reading *al-dhīb* without hamzah, because the
+hamzah is quiescent after a kasrah and so, lightened, became a *yāʾ*. *Wa-antum ʿanhu ghāfilūn* means
+occupied with the pasturing.
+
+**Cross-references.** The brothersʾ reply at 12:14; the lie built on this very sentence at 12:17, "and the
+wolf ate him"; cf. Genesis 37:33, where Jacob believes their account **[Study Quran]**.
+
+**Reflection.** Yaʿqūb states his fear as a fact about the world, not about his sons: there are wolves in
+the wilderness. **[Ibn Kathīr]**ʾs observation is sharp — they heard the words from his own mouth and later
+used them as their excuse. A fatherʾs honest naming of a danger handed his children the script for their
+lie. And the grief comes first: "it grieves me that you should go away with him" is confessed before any
+reason is given, which is why **[Study Quran]**ʾs note that he could not bear an hourʾs separation is not
+sentimental padding but the explanation of everything that follows — including why the brothers found the
+household unbearable.
+
+---
+
+## 12:14
+
+*"They said, "If the wolf should devour him while we are a hardy band, then indeed we should be losers!""*
+
+**Meaning.** **[Ṭabarī]** Yūsufʾs brothers said to their father: if the wolf devours Yūsuf in the desert
+while we are eleven men with him guarding him — they being the *ʿuṣbah* — "then we should indeed be losers":
+then we should indeed be helpless and ruined. **[Ibn Kathīr]** They gave a spontaneous reply to their
+fatherʾs words: "If a wolf devours him while we are an *ʿuṣbah*, then surely we are the losers" — if a wolf
+attacks and devours him while we are all around him in a strong group, then indeed we are the losers and the
+weak. **[Jalālayn]** They said: "Truly, if" — *la-in*, the *lām* here being the *lām* of an oath — "the wolf
+were to devour him when we are so hardy a band," a group, "then we indeed are losers!" — incapable of
+anything. Thus he sent him off with them. **[Saʿdī]** "If the wolf devours him while we are a group intent
+on guarding him, then we are indeed losers": there is no good in us and no benefit to be hoped from us if the
+wolf devours him and overcomes us. Once they had prepared for their father the reasons calling for his being
+sent and removed the obstacles, he then allowed him to go with them for the sake of his enjoyment.
+**[Study Quran]** The brothersʾ response is understood to be an oath or a promise that nothing would happen
+to Joseph. **[Maʿārif]** After hearing what Yaʿqūb said, the brothers countered that his apprehension was
+strange in view of the presence of a strong group of ten of them to protect Yūsuf: if a wolf could be
+expected to eat Yūsuf despite their being there to guard him, their very presence around him would be
+rendered totally senseless, and they could not be taken as good for anything.
+
+**Belief.** **[Maʿārif]** explains why Yaʿqūb nonetheless let him go. Acting with the elegance of a great
+prophet, he did not say plainly before his children that it was they about whom he feared foul play, for two
+reasons: first, such a statement against all of them would have been painful to make; second, there was the
+danger that it would raise the brothersʾ enmity to a higher pitch — if they abandoned the idea of killing him
+now, they might carry it out on some later occasion under another excuse. For this reason he allowed them to
+go, but he made sure the brothers gave him a solemn pledge that no harm would come to Yūsuf, and as an added
+precaution he entrusted him to his elder brother Rūbīl (Reuben) or Yahūdā (Judah), that they should
+specially look after his needs and see that he returned soon and safe.
+
+**Language.** *La-in* carries the *lām* of an oath before *in*, so the brothersʾ sentence is in form a sworn
+statement **[Jalālayn]**. *Khāsirūn* is glossed by **[Ṭabarī]** as "helpless, ruined" and by **[Qurṭubī]**
+variously as losers in the guarding of our flocks — since if we cannot fend the wolf off from our brother we
+are less able to fend him off from our sheep — or as ignorant of his right, or as incapacitated.
+
+**Stories & occasions.** **[Maʿārif]**, following al-Qurṭubīʾs historical narrations, describes what
+happened once they set out: the brothers lifted Yūsuf onto their shoulders one after another, and Yaʿqūb
+followed them a certain distance to bid them farewell. When they disappeared from his sight, the brother on
+whose shoulders Yūsuf was perched threw him down on the ground; he began walking by himself, but being too
+small he could not keep pace and sought help from another brother, who remained cold — and so did every
+brother he went to. They told him he had better call for help from the eleven stars and the sun and the moon
+he had seen prostrating to him: let them help him. From this al-Qurṭubī concludes that the brothers had
+somehow found out about Yūsufʾs dream, and that the dream was the cause of their extreme hostility
+*(Isrāʾīliyyāt)*. Finally Yūsuf appealed to Yahūdā as his elder brother, telling him of his plight: he was
+weak and small and needed protection, if only for the sake of their old father to whom they had given the
+pledge. Yahūdā was moved and told him that as long as he lived he would not let the brothers hurt him.
+
+**Reflection.** The oath is a masterpiece of self-deception: they swear by their own strength that the
+outcome is impossible, which is exactly the reasoning a father wants to hear and exactly the reasoning that
+makes the later lie credible. "Then we would be losers" is not a promise to protect Yūsuf; it is a claim
+about themselves. **[Maʿārif]**ʾs account of Yaʿqūbʾs restraint — refusing to accuse them openly lest the
+accusation harden them — is the wisdom of a man who suspects his own children and must still feed them and
+send them out; and the pledge he took and the elder brother he appointed are the only two protections
+available to a parent who cannot say what he knows.
+
+---
+
+## 12:15
+
+*"So when they went away with him and resolved to put him in the depths of the well, We revealed to him:
+"You shall surely inform them of this affair of theirs, while they are unaware."*"*
+
+**Meaning.** **[Ṭabarī]** There is something left unspoken in the verse, omitted in reliance on what is
+apparent: "so he sent him with them." "When they went away with him and resolved" — their opinion was
+settled and they determined — "to put him in the depths of the well." On "We revealed to him, you shall
+surely inform them of this affair of theirs, while they are unaware": We revealed to Yūsuf that he would
+inform his brothers of this deed of theirs that they did to him, while they did not know and did not
+perceive. The interpreters then differed over what "while they are unaware" refers to. Some said God
+revealed to Yūsuf that he would inform his brothers of what they had done — casting him into the well,
+selling him, and all the rest of their treatment of him — while his brothers were unaware of Godʾs
+revelation to him of that; Mujāhid is cited repeatedly for this: "We revealed to Yūsuf while he was in the
+well that he would inform them of what they had done, while they were unaware of that revelation."
+**[Qurṭubī]** *An* is in the accusative, "upon putting him in the depths of the well." He then gives the
+story at length *(Isrāʾīliyyāt)*: when Yaʿqūb sent him with them he took a binding pledge from them that
+they would guard him, and handed him over to Rūbīl, saying, "O Rūbīl, he is small, and you know, my son, my
+tenderness for him; if he is hungry, feed him; if he is thirsty, give him drink; if he is weary, carry him;
+then bring him back to me quickly." They carried him on their shoulders, one never putting him down but
+another lifting him up, and Yaʿqūb saw them off for a mile and then returned. When their fatherʾs sight of
+them was cut off, the one who had been carrying him threw him to the ground until he was nearly broken; he
+fled to another and found in each of them more wrath and violence than in the last. He cried to Rūbīl for
+help: "You are the eldest of my brothers, the one who stands in our fatherʾs place over me after him, and
+the nearest of my brothers to me — have mercy on me and on my weakness." Rūbīl struck him a hard blow and
+said, "There is no kinship between you and me; call on the eleven stars to rescue you from us." Then Yūsuf
+knew their malice was because of his dream. He clung to his brother Yahūdā and said, "O my brother, have
+mercy on my weakness, my incapacity and my youth, and have mercy on the heart of your father Yaʿqūb; how
+quickly you have forgotten his charge and broken his pledge!" Yahūdāʾs heart softened and he said, "By God,
+they will never reach you as long as I live," and then, "O my brothers, killing a soul God has made
+inviolable is among the gravest of sins; return this child to his father and let us take a pledge from him
+that he will never tell his father anything of what has happened." His brothers said, "By God, you want
+nothing but to have the standing with Yaʿqūb. By God, if you do not leave him we will kill you along with
+him." He said, "If you will have nothing else, then here is this desolate, empty well, the haunt of snakes
+and creeping things — throw him into it; if something of that kills him, that is what you wanted and you are
+quit of his blood, and if he escapes at the hands of travellers who take him off to another land, that is
+what you wanted too." So their opinion settled on that, and that is Godʾs word, "when they went away with
+him and resolved to put him in the depths of the well." **[Jalālayn]** The answer to *lammā* is omitted:
+understand "they did just that" — they took off his shirt, after beating him and humiliating him and wanting
+to kill him, and lowered him in a bucket into the well; when he was halfway down they flung him from the
+bucket so that he would fall and die, but he fell into the water and took refuge beside a rock; they called
+to him and he answered, thinking they had decided to have mercy on him, and then they wanted to smash his
+head with a rock but Judah prevented them. And We revealed to him in the well by a true revelation (*waḥy
+ḥaqīqah*) — he was seventeen years old, or just under — in order to reassure his heart: "Truly you shall
+inform them after this day of this affair," this deed of theirs, "when they are unaware" of who you are,
+*wa-hum lā yashʿurūn* being a circumstantial qualifier of the informing. **[Ibn Kathīr]** This part of the
+verse magnifies their crime by mentioning that they all agreed to throw him into the depths of the well:
+this was their intent, yet when they took him from his father they pretended otherwise, so that his father
+would send him with a good heart, at ease and comfortable with his decision. It was reported that Yaʿqūb
+embraced Yūsuf, kissed him and supplicated to God for him when he sent him off with his brothers. Al-Suddī
+said the time between their pretending to be well-wishers and their harming Yūsuf was no longer than it took
+them to stray beyond their fatherʾs sight. They then began abusing him verbally, cursing him, and harming
+him by beating. When they reached the well they had agreed on, they tied him with rope and lowered him down;
+when Yūsuf begged one of them he would smack and curse him; when he tried to hold onto the sides of the well
+they struck his hands, and then they cut the rope when he was only halfway to the bottom. He fell into the
+water and was submerged, but was able to climb onto a stone in the well and stand on it. In this verse God
+mentions His mercy, compassion, compensation and the relief He sends in times of distress: He revealed to
+Yūsuf in that distressful time in order to comfort his heart and strengthen his resolve — do not be saddened
+by what you have suffered; you will have a way out of this distress and a good end, for God will aid you
+against them, elevate your rank and raise your station; later you will remind them of what they did to you —
+"while they know not." Ibn ʿAbbās commented: "You will remind them of this evil action against you, while
+they are unaware of your identity and unable to recognise you." **[Saʿdī]** When Yūsufʾs brothers went away
+with him after his father had given permission, and resolved to put him in the depths of the well as their
+earlier speaker had proposed — and they were able to do what they had resolved upon, so they carried out
+their power over him and threw him into the well — God was gracious to him by revealing to him in that
+strait condition: "You shall surely inform them of this affair of theirs while they are unaware," that is,
+there will come from you a reproaching of them and an informing about this affair of theirs while they do
+not perceive the matter. In it is a glad tiding for him that he will be saved from what he has fallen into,
+and that God will gather him with his family and his brothers in honour and with establishment in the land.
+**[Maʿārif]** *Wa-awḥaynā* is the principal clause answering the preceding conditional "when they went," and
+the conjunction here is *zāʾidah*, carrying no meaning (al-Qurṭubī). The sense is that when the brothers
+finally decided to throw Yūsuf into the pit, God revealed to him words of comfort giving him the glad
+tidings that in the future he would meet his brothers at a time when he would need no help from them and
+would have the upper hand, and would be in a position to take account of their unjust treatment of their
+younger brother while they remained unaware of the whole matter.
+
+**Context.** **[Study Quran]** "When they went with him" implies the brothers had been given permission by
+Jacob; cf. Genesis 37:13, where it is Jacob who sends Joseph to the brothers. According to one account Jacob
+took a solemn pledge from them that they would protect him (cf. v. 66), and Reuben agreed, after which Jacob
+said to him: "O Reuben, he is little. And you know, O my son, my compassion for him. If he is hungry, feed
+him. If he is thirsty, quench his thirst. If he is tired, carry him, and then quickly bring him back to me."
+"And they resolved to put him in the depths of the well" refers to both the plan and its implementation, so
+between "they went with him" and "they resolved" a sequence of events took place that is not mentioned in
+the Qurʾān. The commentaries describe it thus: the brothers took turns carrying him on their shoulders and
+Jacob saw them off; once out of his sight, the brother carrying him threw him down, almost breaking some of
+his limbs; Joseph sought his brothersʾ help to no avail, each taking his turn at striking him, and he was
+beaten so severely he was on the brink of death; the eldest brother then interceded and reminded them of
+their promise not to kill him, and it was then that they decided on the well. Another account says a brother
+was moved to compassion when Joseph appealed to him and urged them to return Joseph to Jacob, that the
+others accused him of opportunism and threatened to kill him too, and that he therefore proposed the well —
+so that either Joseph might possibly die without the stain of his blood being on their hands, or a caravan
+might take him far away (cf. Genesis 37:26–27, where he convinces the brothers to sell Joseph). They tied
+him with a rope; the well was very deep, spacious at the bottom with a narrow mouth; when he clung to one of
+the brothers as they lowered him, that brother struck and reviled him, and when he grasped the edge of the
+well they hit his hands to loosen his grip. They tied his hands and tore off his shirt, and Joseph cried
+out, "My brothers, return the shirt to me — I will cover myself with it in the well!" to which they
+sarcastically answered, "Call the sun, the moon and the eleven stars to comfort you!" Halfway down they cut
+the rope; he fell into the water, which covered him completely, and to save himself grabbed hold of a rock
+in the middle of the well and stood on it.
+
+**Belief.** **[Study Quran]** God revealed to him through the medium of an angel or through inspiration
+(*ilhām*) that he would inform them of this affair of theirs when they were unaware; some commentators said
+this was the very moment in which Joseph became a prophet, since he had received a revelation from God. All
+agree these words were a foretelling of the future, intended to give him solace in a difficult situation and
+to strengthen his heart with the firm knowledge that he would eventually be freed from his trial and that
+his brothers would one day fall under his authority. Al-Rāzī observed that the wisdom in concealing this
+revelation from the brothers was that had they known Joseph was a prophet their jealousy would have been
+greater and they would surely have killed him. Al-Bayḍāwī noted that "when they are unaware" foreshadows
+v. 58, where Joseph meets his brothers and recognises them but they do not recognise him. **[Maʿārif]**
+reports from *Tafsīr Maẓharī* a more careful position: this revelation, coming during his childhood, was not
+the commonly recognised *waḥy* sent to prophets, which is conferred at the age of forty, but a revelation
+similar to that sent to the mother of Mūsā; the usual channel of prophetic revelation began when Yūsuf had
+reached Egypt and attained maturity — "and when he reached his full strength We gave him wisdom and
+knowledge" (12:22). Ibn Jarīr, Ibn Abī Ḥātim and others nonetheless took this revelation to be nothing other
+than prophetic, though in an exceptional way, as in the case of ʿĪsā, who was invested with prophethood
+during his childhood.
+
+**Stories & occasions.** **[Study Quran]** records the folkloric details many commentators transmit
+*(Isrāʾīliyyāt)*: the water of the well was bitter, but when Joseph went in it became sweet, and the well,
+previously dark, was illuminated; and the only thing Joseph wore in the well was an amulet (*taʿwīḍ*)
+containing a shirt made from the silk of Paradise, which Gabriel had originally brought to Abraham when he
+was thrown into the fire (21:69; 37:97), which Abraham bequeathed to Isaac, Isaac to Jacob, and which Jacob
+tied around Josephʾs neck when he was old enough — and while Joseph was in the well Gabriel came to him,
+opened the amulet and put the shirt on him. **[Ṭabarī]** carries al-Suddīʾs fuller version of the beating
+and of Judahʾs intervention, adding that Judah used to bring him food in the well *(Isrāʾīliyyāt)*.
+
+**Language.** **[Ṭabarī]** notes the *wāw* inserted in the answer to *lammā* — "when they went away with him
+*and* they resolved" — where the real answer is *ajmaʿū* alone, and cites Imruʾ al-Qaysʾs line "when we had
+crossed the open space of the camp *and* the belly of a stony, sand-ridged hollow turned aside with us" as
+the parallel, the speech being "when we crossed the open space of the camp, it turned aside with us."
+
+**Reflection.** The revelation in the well is the theological centre of the first movement of the story. It
+is given not to change the situation — the water is still cold, the rock still slippery, the brothers still
+above — but to change what the situation means. **[Ibn Kathīr]** frames it as Godʾs habit: mercy,
+compensation and relief sent down into the middle of distress. And the promise is oddly specific: not "I
+will save you" but "you will tell them of this affair of theirs, while they do not know you." Deliverance
+here is described as a future conversation in which the tables are turned — the one who was beaten and
+stripped will one day hold the account, and they will not even recognise the creditor. Al-Rāzīʾs remark that
+God hid this from the brothers because knowing it would have made them kill him is a chilling note on how
+much of providence consists in concealment.
+
+---
+
+
+## 12:16
+
+*"And they came to their father at nightfall, weeping."*
+
+**Meaning.** **[Ṭabarī]** The brothers of Yūsuf came to their father, after they had thrown Yūsuf into the
+depths of the well, at nightfall, weeping. **[Qurṭubī]** treats the verse under two *masāʾil*. First:
+*ʿishāʾ* means at night, and it is an adverb of time standing in the position of a circumstantial qualifier;
+they came at night so as to be better able to offer their excuse in the darkness — hence it was said, "do not
+ask for a need by night, for shame is in the eyes, and do not apologise by day for a sin, or you will stammer
+in your apology." It is related that when Yaʿqūb heard their weeping he said, "What is the matter with you?
+Has something happened to the sheep?" They said no. He said, "Then where is Yūsuf?" They said, "We went
+racing and the wolf ate him." He wept and cried out, "Where is his shirt?" Al-Suddī and Ibn Ḥibbān said that
+when they said "the wolf ate him" he fell down unconscious; they poured water over him and he did not stir,
+and they called to him and he did not answer; Wahb said Yahūdā put his hand on the passages of Yaʿqūbʾs
+breath and felt no breath and no movement *(Isrāʾīliyyāt)*. **[Ibn Kathīr]** God narrates the deceit to which
+Yūsufʾs brothers resorted after throwing him into the depths of the well: they went back to their father
+during the darkness of the night, crying and showing sorrow and grief at the loss of Yūsuf. **[Jalālayn]**
+And they came to their father in the evening, weeping. **[Saʿdī]** "And they came to their father at
+nightfall, weeping" — so that their arrival would be later than their custom, and their weeping would be a
+proof for them and an indication of their truthfulness. **[Study Quran]** When the brothers came in weeping,
+Jacob became worried and asked them whether anything had happened to their sheep out in the pasture; they
+said nothing had, which led him to ask, "What happened to you then, and where is Joseph?" Upon hearing the
+news of Josephʾs death Jacob fainted, and the brothers poured water over him to wake him, yet he remained
+unconscious until early the next morning.
+
+**Language.** The single word *ʿishāʾ* carries the weight of the verse, and **[Qurṭubī]** explains why the
+timing matters practically as well as dramatically: darkness is chosen by liars because the eye betrays
+shame, and his maxim about not seeking a favour by night and not excusing a fault by day is a piece of
+practical rhetoric drawn straight from the verse.
+
+**Cross-references.** The same weeping return is echoed at 12:81–83, where the brothers again come to Jacob
+with news — this time true — and are again not believed **[Study Quran]**. Cf. Genesis 37:33–35.
+
+**Reflection.** The verse is a whole psychology in seven words. They come late, because a late return is
+itself an explanation; they come weeping, because tears are evidence that cannot be cross-examined.
+**[Saʿdī]** points out that both details were chosen: the delay and the grief are props. And
+**[Qurṭubī]**ʾs account of Yaʿqūb — hearing the crying, asking first about the sheep, then about the boy,
+then falling unconscious with no breath to be felt — sets the two questions in their real order. The flock
+can be replaced; that is why he does not ask about it twice.
+
+---
+
+## 12:17
+
+*"They said, "O our father, we went racing one another and left Joseph by our things, and the wolf devoured
+him. But you would not believe us, even if we were truthful."*"*
+
+**Meaning.** **[Ṭabarī]** It is said that *nastabiqu* means we contend with arrows, from *al-sibāq*.
+Al-Suddīʾs account: they came upon their father at nightfall weeping; when he heard their voices he was
+startled and said, "What is the matter with you, my sons? Has something befallen you in your sheep?" They
+said, "No." He said, "Then what of Yūsuf?" They said, "O our father, we went racing and left Yūsuf by our
+things, and the wolf ate him!" The old man wept and cried out at the top of his voice, "Where is the shirt?"
+They brought him the shirt with a lying blood upon it, and he took the shirt and threw it over his face and
+wept until his face was stained with the blood of the shirt. On "you would not believe us even if we were
+truthful": they mean you will not credit us in our saying that the wolf ate Yūsuf, even if we were truthful.
+**[Ṭabarī]** then raises a difficulty of his own: either "even if we were truthful" is a report that they were
+not truthful — which would be their own self-contradiction — or it is a report that their father would not
+believe them even if they told him the truth, though he would have known that if they had been truthful he
+would have believed them. His answer is that neither is meant; the sense is rather, "you will not credit us
+even if we were among the truthful who are not suspected, because of your bad opinion of us and your
+suspicion of us." **[Ibn Kathīr]** They began giving excuses to their father, falsely claiming "we went
+racing with one another," or had a shooting competition, "and left Yūsuf by our belongings," guarding our
+clothes and luggage, "and a wolf devoured him" — which is exactly what their father had told them he feared
+for Yūsuf and warned against. Then "but you will never believe us even when we speak the truth": they tried
+to lessen the impact of the grave news they were delivering, saying in effect, "we know you will not believe
+this news even if you consider us truthful — so what of when you suspect that we are not, especially since
+you feared the wolf might devour Yūsuf and that is what happened?" Therefore they said, "you have reason not
+to believe us, because of the strange coincidence and the amazing occurrence that happened to us."
+**[Jalālayn]** They said: "O father, we went competing, shooting, and left Joseph by our things," our
+clothes, "and the wolf ate him. But you would never believe us, even though we speak the truth" — before you,
+you would still have accused us of lying in this story because of your adoration of Joseph, so how much more
+so when you think ill of us? **[Saʿdī]** They excused themselves with a lying excuse: "O our father, we went
+racing" — either on foot or in shooting and archery — "and we left Yūsuf by our things," to spare him and to
+let him rest, "and the wolf ate him," during our absence from him and our racing. "And you will not believe
+us even if we were truthful": we have excused ourselves with this excuse, and it is apparent that you will
+not believe us, because of the grief for Yūsuf in your heart and your intense tenderness towards him; but
+your not believing us does not prevent us from offering the true excuse. All of this is to reinforce their
+excuse. **[Study Quran]** The brothers said they had gone racing with one another in order to train
+themselves so that they could combat enemies and the wolf that had been snatching away their sheep; they had
+left Joseph with their things, namely their garments and clothes. They told Jacob they would be unable to
+convince him even if they were speaking the truth because they felt Jacob had a bad opinion of them; cf.
+Genesis 37:33, where Jacob believes their account. From Jacobʾs perspective he could not believe them
+because he was suspicious of them to begin with, which is why the brothers themselves asked him in v. 11,
+"What ails thee that thou dost not trust us with Joseph?" This mistrust foreshadows an incident later in the
+sūrah in which the brothers return to Jacob with news about which they are actually truthful, yet he still
+does not believe them, and they themselves become veiled from the truth of what is happening largely through
+their own actions (see vv. 81–83).
+
+**Rulings.** **[Maʿārif]** draws the law of racing from *dhahabnā nastabiq*. In *Aḥkām al-Qurʾān* Ibn
+al-ʿArabī said: racing against one another is legitimate in the Sharīʿah; it is a good habit that comes in
+handy in jihād, and the Prophet ﷺ personally took part in such races, as authentic aḥādīth prove; the racing
+of horses against one another is likewise established — not to be confused with institutionalised
+horse-racing involving bets. Among the noble Companions, Salamah b. al-Akwaʿ ran a one-on-one race against a
+man and won it. Besides horses, mutual competition in racing, in archery and in other fields is permissible,
+and so is the giving of awards by a third party to the winner. But fixing an amount of money in a bilateral
+agreement that the loser will pay it to the winner is gambling (*qimār*), declared unlawful by the Qurʾān;
+today none of the prevailing forms of horse racing is free from gambling and *qimār*, and therefore all of
+them are impermissible. **[Qurṭubī]** expands this into several *masāʾil*: the report that the Prophet ﷺ
+raced a trained horse down from the Thaniyyah to the mosque of Banū Zurayq, and that ʿAbdullāh b. ʿUmar was
+among those who raced in it — a sound ḥadīth which contains three conditions, so that racing without them is
+not permissible: the distance must be known; the horses must be of equal condition; and a trained horse must
+not be raced against an untrained one over the same distance and to the same goal. The horses that must be
+trained and raced, and in which this Sunnah is established, are those prepared for jihād against the enemy,
+not for fighting Muslims in civil strife. Muslim recorded from ʿAbdullāh b. ʿAmr, "We travelled with the
+Messenger of God ﷺ and alighted at a stopping place; some of us were mending his tent and some of us were
+shooting at marks"; al-Nasāʾī recorded from Abū Hurayrah that the Messenger of God ﷺ said, "There is no
+prize-money except for an arrowhead, a hoof or a camel-pad" — and it is the position of the jurists of the
+Ḥijāz and Iraq. Bukhārī recorded from Anas that the Prophet ﷺ had a she-camel called al-ʿAḍbāʾ which was
+never beaten — or, as Ḥumayd said, almost never beaten — and a Bedouin came on a young camel and beat her,
+which distressed the Muslims until the Prophet ﷺ noticed it and said, "It is incumbent upon God that nothing
+of this world is raised up but that He lowers it." The Muslims are agreed that prize-money by way of wager is
+permissible only for the hoof, the camel-pad and the arrowhead; al-Shāfiʿī said that for anything beyond
+these three the prize-money is gambling. Abū al-Bakhtarī the judge added "or a wing" to the ḥadīth — a
+wording he fabricated for al-Rashīd — for which and other fabrications the scholars abandoned his reports
+entirely *(weak)*. It is related from Mālik that there is no prize-money except for horses and shooting,
+because these are strength against the people of war, and that prize-money for horses is dearer to us than
+prize-money for shooting. Some scholars forbade wagering on anything except horses, because wagering on them
+was the custom of the Arabs; and it is related from ʿAṭāʾ that wagering on everything is permissible — though
+his saying has been reinterpreted, since taking it in its generality would lead to permitting gambling,
+which is forbidden by consensus. Prize-money for horses and camels is permissible only with a known goal and
+a known distance, and likewise for shooting, where it is permissible only with a known goal, a known number
+of shots and a stipulated type of hit — piercing, or hitting without stipulation. The prizes are of kinds:
+one given by the ruler or by a private man voluntarily from his own wealth and assigned to the winner; and
+one put up by one of the two contestants but not the other, which the other takes if he wins and which he
+takes if he himself wins — and it is good to spend it in the purpose for which it was put up.
+
+**Reflection.** The lie is built entirely out of the fatherʾs own words, which is what makes it
+unanswerable; and its second half — "you would not believe us even if we were truthful" — is the cleverest
+thing in the sūrah so far, because it immunises the lie against disbelief by confessing in advance that
+disbelief is coming. **[Study Quran]** notes the long shadow this casts: when the brothers return at
+12:81–83 telling the truth, Jacob still does not believe them, and they are veiled from the truth of what is
+happening largely by their own doing. The men who once exploited their fatherʾs suspicion end up imprisoned
+by it.
+
+---
+
+## 12:18
+
+*"And they came upon his shirt with a lying blood. He said, "Nay, but your souls have made the matter seem
+fair to you. So patience is comely, and God is the One whose help is sought against what you describe."*"*
+
+**Meaning.** **[Ṭabarī]** God called the blood a lie because those who came with the shirt in it lied: they
+said to Yaʿqūb, "it is the blood of Yūsuf," and it was not his blood but — it is said — the blood of a kid.
+Mujāhid, al-Ḥasan, Qatādah and al-Shaʿbī are all cited: they slaughtered a kid and smeared the shirt with
+its blood, and when Yaʿqūb looked at the shirt and saw it whole, with the trace of blood on it but no tear
+in it, he said, "O my sons, I never knew the wolf to be forbearing?" — or, as al-Ḥasan has it, turning the
+shirt over, "I never knew the wolf to be forbearing? It ate my son and spared his shirt!" Qatādah: "I see no
+mark of a beast, nor a stab, nor a tear." Al-Shaʿbī: they slaughtered a kid and smeared it with its blood;
+when Yaʿqūb saw the shirt intact he knew the people had lied to him, and said, "This wolf was forbearing
+indeed, to have mercy on the shirt and no mercy on my son!" Ibn ʿAbbās: when Yūsufʾs shirt was brought to
+Yaʿqūb and he saw no tear in it, he said, "You have lied — if a beast had eaten him it would have torn his
+shirt." **[Ṭabarī]** then answers an objection: how can it be called "a lying blood" when it was blood
+without doubt, even if it was not Yūsufʾs blood? Two answers: it is called a lie because the lie was
+committed in it, as one says "tonight is the new moon" and as God said "their trade profited not" (2:16) —
+this was the view of some of the Basran grammarians; or it is a verbal noun in the sense of the passive,
+"with a blood that was lied about," as one says "he has no sense and no sense in him," the Arabs frequently
+putting the passive participle in place of the verbal noun and the reverse, as in al-Rāʿīʾs line "until they
+left no flesh upon his bones and no sense in his heart" — this was the view of some of the Kūfan
+grammarians, al-Farrāʾ among them. "Nay, but your souls have made the matter seem fair to you": Yaʿqūb said
+this to his sons who had told him the wolf ate Yūsuf, contradicting them in their report — the matter is not
+as you say; rather your souls made the matter in respect of Yūsuf seem fair to you and made it look good, and
+you did it; Qatādah: your souls adorned a matter for you. "So patience is comely": my patience under what you
+have done to me in the affair of Yūsuf is a comely patience, or it is a comely patience. "And God is the One
+whose help is sought against what you describe": I seek Godʾs help in sufficing me against the evil of what
+you describe. **[Qurṭubī]** Israel reported from Simāk b. Ḥarb from ʿIkrimah from Ibn ʿAbbās that the blood
+was the blood of a kid; and Sufyān from Simāk from ʿIkrimah from Ibn ʿAbbās that when Yaʿqūb looked at the
+shirt he said, "You have lied — if the wolf had eaten him it would have torn the shirt." Al-Māwardī recorded
+that in the shirt there were three signs: when they came upon it with a lying blood, when it was torn from
+behind, and when it was cast upon his fatherʾs face and he recovered his sight — but **[Qurṭubī]** rejects
+this, since the shirt they brought with the blood is not the shirt that was torn, nor the shirt the bearer of
+good news brought; though it has been said that the torn shirt is the one by which his sight returned. It is
+also related that the brothers said to Yaʿqūb, "rather the thieves killed him," so their accounts differed
+and he suspected them, saying, "You claim the wolf ate him, but if it had eaten him it would have torn his
+shirt before reaching his skin, and I see no tear; and you claim the thieves killed him, but if they had
+killed him they would have taken his shirt — do they want anything but his clothes?" At that they said, "and
+you will not believe us even if we are truthful" — from al-Ḥasan and others, meaning "even if we were
+described as truthful you would suspect us." His third *masʾalah*: the jurists cite this verse for the use
+of indications (*amārāt*) in several questions of fiqh, such as the oath of *qasāmah*, and they agree that
+Yaʿqūb inferred their lie from the soundness of the shirt; so the examiner must attend to indications and
+signs when they conflict and judge on the side that preponderates, which is the strength of the suspicion —
+there is no disagreement about ruling by it, said Ibn al-ʿArabī. It is related that when they said "the wolf
+ate him," Yaʿqūb said, "Did the wolf not leave him a limb that you could bring me, that I might take comfort
+in it? Did he not leave me a garment in which I could smell his scent?" They said, "Yes — here is his shirt,
+smeared with his blood." Yaʿqūb wept and said, "Show me his shirt." They showed it and he smelled it and
+kissed it, then began turning it over and found in it no tear or rent, and said, "By God, other than whom
+there is no god, I have never seen a wolf more cunning than this one: it ate my son and plucked him out of
+his shirt without tearing it upon him." He knew the matter was not as they said, and turned away from them
+as one angered, weeping and grieving, saying, "O my sons, direct me to my son; if he is alive, return him to
+me, and if he is dead, let me shroud him and bury him." It is said that they then said, "Have you not seen
+how our father contradicts us? Come, let us take him out of the well and cut him limb from limb and bring our
+father one of his limbs, so that he will believe us and cut off his despair," and that Yahūdā said, "By God,
+if you do that …" *(Isrāʾīliyyāt)*. **[Jalālayn]** They came with false blood on his shirt — *ʿalā
+qamīṣihī* has the status of the accusative of the verb because it is an adverbial qualifier, meaning "upon
+his shirt"; they slaughtered a lamb and dabbed his shirt with its blood, but they forgot to tear the shirt,
+and said it was his blood. He, when he saw that the shirt was undamaged and realised that they were lying,
+said: "Nay, but your souls have beguiled you into something, and so you did it to him. Yet comely patience!"
+— without any anxiety; *fa-ṣabrun jamīlun* is the predicate of a missing subject such as "my course." "And
+God is the One whose succour is sought in that predicament which you describe" — that which you mention of
+Josephʾs affair. **[Ibn Kathīr]** "And they brought his shirt stained with false blood," to help prove the
+plot they had all agreed upon: they slaughtered a sheep, according to Mujāhid, al-Suddī and several other
+scholars, and stained Yūsufʾs shirt with its blood, claiming it was the shirt Yūsuf had been wearing when the
+wolf devoured him. But they forgot to tear the shirt, and this is why Yaʿqūb did not believe them; rather he
+told them what he felt about their words, refusing their false claim: "Nay, but your own selves have made up
+a tale. So patience is most fitting" — I will firmly observe patience over this plot upon which you agreed,
+until God relieves the distress with His aid and compassion — "and it is God alone whose help can be sought
+against that which you describe," against the lies and the unbelievable incident you say occurred.
+**[Saʿdī]** Part of what confirmed their saying was that "they came upon his shirt with a lying blood,"
+claiming it was the blood of Yūsuf when the wolf ate him; but their father did not believe them on that
+account, and said, "nay, but your souls have adorned for you a matter" — your souls made an ugly thing seem
+fair to you, in separating me from him — because he saw, in the indications and circumstances and in the
+dream Yūsuf had related to him, what pointed him to what he said. "So patience is comely, and God is the One
+whose help is sought against what you describe": as for me, I will be diligent in carrying out my own duty,
+which is that I be patient under this affliction with a comely patience, free of discontent and of
+complaining to the creation, and that I seek Godʾs help in that, not my own power and strength. He thus
+promised himself this thing, and complained to his Creator in his words "I complain only of my anguish and my
+grief to God" (12:86), because complaining to the Creator does not conflict with comely patience — a prophet,
+when he promises, keeps his promise. **[Study Quran]** The brothers had Josephʾs shirt from the moment they
+tore it off him before casting him into the well; cf. Genesis 37:3, where Jacob loved Joseph so much that he
+made him "a long robe with sleeves" or "a coat of many colours." Before returning to Jacob at night they
+spattered false blood on the shirt from either a baby goat or a lamb slaughtered for the purpose; cf.
+Genesis 37:31, where it is the blood of a goat. Jacobʾs response, "nay, your souls have seduced you,"
+indicates that they had convinced themselves their actions were not grievous, and that he did not believe
+them; he also asked his sons why the shirt showed no sign that a predator had attacked Joseph, since if a
+wolf had devoured him his shirt would have been torn apart. "Beautiful patience!" refers to a patience that
+causes one not to complain to anyone but God (see v. 86 and 70:5); some interpret it as "my patience is, or
+will be, a beautiful patience." It is an expression used at times of extreme grief to find solace in the
+fact that patience will triumph in the end and the difficulty will eventually pass. "God is the One whose
+help is sought against that which you describe" means Jacob seeks Godʾs help in bearing the lie his sons
+were telling him about Josephʾs death; for an almost identical statement see 21:112, and cf. v. 83.
+
+**Rulings.** **[Qurṭubī]**ʾs third *masʾalah* is a rule of evidence: the jurists cite this verse for acting
+upon indications in questions of fiqh such as *qasāmah*, and they agree that Yaʿqūb argued from the
+soundness of the shirt to the falsity of the claim; likewise whoever examines must attend to indications and
+signs where they conflict, and decide according to whichever preponderates — the strength of the suspicion —
+and there is no disagreement about ruling on that basis (Ibn al-ʿArabī).
+
+**Language.** *ʿAlā qamīṣihī* is adverbial and stands in the place of the verbʾs object **[Jalālayn]**;
+*bidamin kadhib* is either a lie attributed to the blood because the lie was committed through it, or a
+verbal noun used for the passive participle — "a blood lied about" **[Ṭabarī]**. *Fa-ṣabrun jamīl* has its
+subject suppressed: "my course is a comely patience" **[Jalālayn]**.
+
+**Reflection.** Yaʿqūb does not accuse; he states a conclusion and then a discipline. "Your souls have made
+the matter seem fair to you" is a diagnosis rather than a charge — the sin began in the imagination, where
+the ugly was dressed as reasonable, long before the well. And "patience is comely" is the only reply left to
+a man who cannot prove his sons guilty and cannot believe them innocent. **[Saʿdī]** defines the comeliness
+precisely: patience free of discontent and free of complaint to creatures — while complaint to God is not a
+breach of it, since "I complain only of my anguish and my grief to God" (12:86) is the same manʾs later
+speech. The distinction is the practical lesson of the verse: what may not be poured out to people may be
+poured out to God, and doing so is not impatience but the form patience takes.
+
+---
+
+## 12:19
+
+*"And a caravan came, and they sent their water-drawer, and he let down his bucket. He said, "O good news —
+this is a boy!" And they hid him as merchandise, and God knew well what they were doing."*"*
+
+**Meaning.** **[Ṭabarī]** There came travellers passing along the road, "and they sent their water-drawer" —
+the one who comes to the watering place and the halting place, his "coming" to it being his arriving at it
+and entering it — "and he let down his bucket," that is, he sent his bucket down into the well. One says "he
+let the bucket down into the well" when he sends it in, and "he drew, he draws, a drawing" when he draws
+water with it. There is an omission in the speech, dispensed with because what is mentioned points to it:
+"he let down his bucket, and Yūsuf clung to it and came out, and the one who had let it down said, ʿO good
+news, this is a boy!ʾ" Al-Suddī and Qatādah both give this: Yūsuf clung to the rope and came out, and when
+the owner of the rope saw him he called to a man of his company — or, as Qatādah has it, the boy clung to the
+bucket and when he came out he said it. They then differed over the meaning of "O good news, this is a boy":
+some said it was the drawerʾs announcement to his companions that he had found a slave — Qatādah: they
+rejoiced over him when they brought him out, and this is a well in the land of Jerusalem whose place is
+known; and some said *Bushrā* was the name of a particular man of the caravan, whom the drawer called when
+Yūsuf came out of the well clinging to the rope — al-Suddī, in two versions, that he called a companion of
+his named Bushrā, or that the boyʾs name was Bushrā, so he said "O Bushrā" as you would say "O Zayd." On
+"and they hid him as merchandise," the interpreters differed. Some said the drawer and the merchants with him
+hid him from their companions, saying, "he is merchandise we were entrusted with by some of the people of
+Egypt," because they feared that if their companions learned what they had bought him for they would demand
+a share — Mujāhid, adding that his brothers followed them, saying to the drawer and his companions, "bind
+him fast, lest he run away," until they halted him in Egypt, and that Yūsuf said there, "who will buy me and
+be given good tidings?" and the king bought him, and the king was a Muslim *(Isrāʾīliyyāt)*. Al-Suddī said
+the two men who bought him feared the company would say "we bought him" and ask for a share, so they agreed
+that if asked what this was they would say, "merchandise entrusted to us by the people of the water." Others
+said the merchants hid him from one another; others that they hid his sale — Qatādah: "they hid his sale."
+And others said the words refer to Yūsufʾs brothers: they hid the fact that he was their brother and said,
+"he is a slave of ours," and Yūsuf hid his own affair for fear that they would kill him. **[Qurṭubī]** Yūsuf
+clung to the rope, and when he came out — behold, a boy like the moon on the night of the full moon, the
+handsomest of boys. The Prophet ﷺ said in the ḥadīth of the Night Journey, in Ṣaḥīḥ Muslim, "and there I was
+with Yūsuf — he had been given half of beauty." Kaʿb al-Aḥbār described him: Yūsuf was handsome of face,
+curly of hair, large of eye, well-proportioned in build, white of colour, thick in the forearms and upper
+arms, thin of belly, small of navel; when he smiled you saw light from his incisors, and when he spoke you
+saw in his speech the ray of the sun between his front teeth; no one is able to describe him, and his beauty
+was like the light of day at night; he resembled Ādam on the day God created him and breathed His spirit
+into him, before he committed the disobedience. It is said he inherited that beauty from his grandmother
+Sārah, who had been given a sixth of beauty *(Isrāʾīliyyāt)*. When Mālik b. Duʿr saw him he said, "O good
+news, this is a boy" — the reading of the people of Madīnah and Baṣrah, except Ibn Abī Isḥāq, who read *yā
+bushraya*, turning the alif into a *yāʾ* because what precedes this *yāʾ* is given a kasrah and the alif
+cannot take a kasrah, so the turning was a substitute. The people of Kūfah read *yā bushrā* unannexed, and
+there are two views of its meaning: that it is the boyʾs name, or that it means "O good news, this is your
+time and your hour." Al-Naḥḥās held Qatādahʾs view preferable, because the Qurʾān names very few people and
+generally uses allusion — as in "on the day the wrongdoer bites his hands" (25:27), meaning ʿUqbah b. Abī
+Muʿayṭ, followed by "would that I had not taken so-and-so as a close friend" (25:28), meaning Umayyah b.
+Khalaf. The meaning of calling upon good news is to announce it to those present, and this is more emphatic
+than saying "I received good news," as one says "O my wonder!" — meaning "O wonder, this is one of your days
+and your signs, so be present" — which is Sībawayhʾs view, and al-Suhaylī said the same. Others took it as
+one says "O my joy!", and held *al-bushrā* to be a verbal noun from rejoicing; this is sounder, for if it
+were a proper name it would not be annexed to the first-person pronoun. On this reading *bushrā* is
+accusative as an annexed vocative, and the sense of the vocative here is to draw attention — "attend to my
+joy and my delight" — whereas on al-Suddīʾs reading it is nominative, as when you say "O Zayd, this is a
+boy"; it may also be accusative, as in "O a man!" and "O grief for the servants" (36:30), but *bushrā* is
+not nunated because it does not take nunation. "And they hid him as merchandise": the pronoun refers to
+Yūsuf and the *wāw* to his brothers. **[Jalālayn]** There came a caravan — travellers going from Midian to
+Egypt, who stopped near Josephʾs well — and they sent their water-drawer, the one who goes down to the water
+source to draw from it, and he let down his bucket into the well and Joseph clung to it and he pulled him
+out; and when he saw him he said, "Good news!" A variant reading of *yā bushrā* has *yā bushrāyā*; this
+vocative call is figurative, in other words it is to be understood as "Come, O good news, now is your time!"
+"This is a young boy." His brothers became aware of this and came to him, and they hid him — disguised his
+real status, claiming that he was a piece of merchandise — by saying, "This is a slave of ours, he is a
+runaway"; but Joseph said nothing, fearing that they might kill him. But God knew well what they were doing.
+**[Ibn Kathīr]** God narrates what happened to Yūsuf after his brothers threw him down the well and left him
+in it, alone, where he remained for three days, according to Abū Bakr b. ʿAyyāsh. Muḥammad b. Isḥāq said:
+after the brothers threw him down the well they remained around it for the rest of the day to see what he
+might do and what would happen to him; God sent a caravan that camped near that well, and they sent to it
+the man responsible for drawing water for them; when he approached the well he lowered his bucket into it,
+Yūsuf held on to it and the man rescued him and felt happy: "What good news! Here is a boy." Al-ʿAwfī
+reported that Ibn ʿAbbās commented on "so they hid him as merchandise" that it refers to Yūsufʾs brothers,
+who hid the news that he was their brother; Yūsuf hid this news for fear that his brothers might kill him
+and preferred to be sold instead; consequently his brothers told the water-drawer about him, and that man
+said to his companions, "What good news! Here is a boy" — a slave we can sell — and therefore Yūsufʾs own
+brothers sold him. "And God was the All-Knower of what they did" states that God knew what Yūsufʾs brothers,
+and those who bought him, did; He was able to stop them and prevent them from their actions, but out of His
+perfect wisdom He decreed otherwise, letting them do what they did so that His decision would prevail and His
+appointed destiny rule — "surely His is the creation and the commandment; blessed is God, Lord of the
+worlds" (7:54). This reminds Godʾs Messenger Muḥammad ﷺ that God has perfect knowledge of the persecution
+his people committed against him and is able to stop them, but He decided to give them respite and then to
+give Muḥammad the victory and make him prevail over them, just as He gave Yūsuf victory over his brothers.
+**[Saʿdī]** Yūsuf remained in the well as long as he remained, until "a caravan came" — a caravan intending
+Egypt — "and they sent their water-drawer," their scout and advance man, who probes the waters for them and
+tests them and prepares for them by getting the troughs ready and the like; "and he let down his bucket,"
+and Yūsuf clung to it and came out; and he said, "O good news, this is a boy" — he rejoiced and said, this is
+a precious boy. "And they hid him as merchandise": his brothers were near him, and the travellers bought him
+from them for a diminished price. **[Maʿārif]** *Sayyārah* means wayfarers or a caravan; *wārid* is a person
+who moves ahead of the caravan as its vanguard and is responsible for taking care of its needs, water being
+one of them; *adlā* means to lower the bucket into the well to draw water. The sense is that a caravan passed
+by this part of the land by chance; according to al-Qurṭubī this caravan was coming from Syria on its way to
+Egypt, and having lost its bearing it strayed into this desolate place and sent some of its men to bring
+water from the well. That the caravan lost its regular route, reached that exact spot and decided to send
+its water-carrier to that deserted well is a sequence of events which people call accidental; but the knower
+of the secret of creation knows that all these events are links in a system that is breathtakingly
+coordinated and formidable. It is but the Creator of Yūsuf and his Protector who moves the caravan away from
+its set route, brings it here and sends its men to this deserted well. This is a mirror of all other states
+and events which common people see as accidental happenings and philosophers as contingents — all of which
+rests on an unawareness of how the system of the universe really works; otherwise, in creation there is no
+chance and no accident *(digression)*, as Einstein conceded, though no formal believer: "God does not play
+dice." The truest Creator of the universe is known by the majesty of His unique state of being, and He is, as
+the Qurʾān declares, "the Doer of what He intends" (85:16). His wisdom works in unimaginable ways when He
+creates conditions and circumstances that do not seem to synchronise with the obvious sequence of events;
+when this happens one fails to comprehend the reality and takes what he does not understand as something
+accidental. Their man, whose name has been identified as Mālik b. Duʿr, reached that well and lowered his
+bucket, which Yūsuf saw as divine help coming down; he took hold of the rope, and up it came with no water
+but with the shining face of someone.
+
+**Readings.** **[Ṭabarī]** The general reading of the people of Madīnah is *yā bushrayya*, with the *yāʾ* of
+annexation retained, the alif being assimilated into the *yāʾ* for the sake of the kasrah that necessarily
+precedes the first-person *yāʾ* of annexation, as in "my boy" and "my girl" in every case — and this is from
+the dialect of Ṭayyiʾ, and also of Hudhayl according to al-Aṣmaʿī — as in Abū Dhuʾaybʾs line "they
+outstripped my love and hastened to their own love, so they were cut off, and for every side there is a
+place of falling." But the assimilation and annexation in the *yāʾ* is an anomalous reading which I do not
+consider should be read, even though it is a known dialect, because the authoritative readers are agreed
+against it.
+
+**Stories & occasions.** **[Study Quran]** Tradition records that Joseph had been in the well for three days
+when a caravan came from Midian on its way to Egypt — a caravan that was lost and came across the well
+fortuitously. The people alighted near the well and sent their water carrier; when he let down his bucket
+Joseph clung to its rope and came out. They presented Joseph as merchandise, that is, they said he was being
+taken as a slave, and Joseph complied out of fear that they would kill him if he went against their wishes.
+
+**Belief.** **[Ibn Kathīr]**ʾs closing note is the doctrinal weight of the verse: God knew what the brothers
+and the buyers did and could have stopped them, but in His perfect wisdom decreed otherwise, so that His
+decision would prevail — and the same pattern applies to the persecution of the Prophet ﷺ, to whom God gives
+respite for his enemies before giving him victory over them, as He gave Yūsuf victory over his brothers.
+**[Qurṭubī]** preserves the Prophetic description of Yūsuf from the ḥadīth of the Night Journey in Muslim:
+"he had been given half of beauty."
+
+**Reflection.** The bucket that comes down for water brings up a prophet. **[Maʿārif]**ʾs meditation on
+chance is the right response to this verse: what looks like a lost caravan is a coordinated system seen from
+too close up. And the two concealments in the verse answer each other — the brothers hide that he is their
+brother, the traders hide that he is their purchase — while the last clause states that God knew what they
+were doing. Nothing in this scene is finally hidden; the only thing concealed is the meaning, and that is
+revealed decades later, in a granary in Egypt.
+
+---
+
+## 12:20
+
+*"And they sold him for a price diminished, dirhams counted, and they were of those indifferent to him."*
+
+**Meaning.** **[Ṭabarī]** God means by "they sold him": the brothers of Yūsuf sold Yūsuf. When one wishes to
+report that he bought something one says "I bought it"; and Ibn Mufarriḍ al-Ḥimyarīʾs line "and I sold a
+cloak — would that before the cloak I had been a corpse" means "I sold a cloak" — Burd being a slave he
+owned. The interpreters said the same: Ibrāhīm disliked buying and selling for the Bedouin, saying the Arabs
+say "sell me such and such," meaning "buy me such and such," and he recited this verse, "they sold him for a
+price diminished, dirhams counted," saying they sold him — and the sale of him was forbidden. Mujāhid: the
+brothers of Yūsuf, eleven men, sold him when the drawer brought him out with his bucket; Ibn ʿAbbās: he was
+sold among them; al-Ḍaḥḥāk: they sold him. Others said the word refers to the caravan — that they sold
+Yūsuf for a diminished price; Qatādah held this. **[Ṭabarī]**ʾs verdict: the sounder of the two views is that
+Yūsufʾs brothers sold him for a diminished price, because God has reported of those who bought him that they
+hid the purchase from their companions for fear of being asked for a share, claiming that he was merchandise
+— and they said that only because they wanted him for themselves, finding the price cheap. If his buyers had
+been indifferent to him, their saying to their companions "he is merchandise" would have had no meaning, nor
+would their buying him while indifferent to him have had any sense, unless they had been overcome in their
+minds; for it is impossible that a man in his right mind should buy what he is indifferent to without being
+compelled, and then lie about it to people by saying "he is merchandise, I did not buy him," while being
+indifferent to him. Rather, such speech is the speech of one who is niggardly with his commodity because of
+its preciousness to him and because of the fine price and the surplus profit he hopes for it. On "a price
+diminished": Ibrāhīm said his sale was forbidden and his purchase forbidden; al-Ḍaḥḥāk said *bakhs* means
+forbidden; Ibn ʿAbbās said it was not lawful for them to eat its price; Qatādah said *al-bakhs* is
+wrongdoing, and that the sale of Yūsuf and its price were forbidden to them. **[Qurṭubī]** treats the verse
+under six *masāʾil*. One says *sharaytu* meaning "I bought," and *sharaytu* meaning "I sold" — as in the
+poetʾs line "and I sold a cloak — would that after the cloak I had been a corpse," meaning I sold; and
+anotherʾs "when he sold it the eye overflowed with tears, and in the breast was a sour griping of blame."
+"For a price diminished" means deficient, and it is here a verbal noun put in the place of the noun, that is,
+they sold him for a price that was diminished, lessened. His brothersʾ object was not what they would gain
+from his price; their object was what they would gain from their fatherʾs face being free of him. It is said
+that Yahūdā saw from a distance that Yūsuf had been taken out of the well and told his brothers, so they came
+and sold him to the water-drawerʾs party; or that they returned to the well after three days to find out the
+news, saw the tracks of the caravan, followed them and said, "this is our slave who ran away from us," and
+sold him to them. Qatādah said *bakhs* means injustice; al-Ḍaḥḥāk, Muqātil, al-Suddī and Ibn ʿAṭāʾ said it
+means forbidden. On "dirhams counted" there is no sense in it except as an indication that his price was not
+paid in full according to his value: if his brothers sold him, their object was not what they would obtain
+of his price but what they would obtain of their fatherʾs face being free of him; and if those who sold him
+were the water-drawerʾs party, then they had hidden him as something picked up, or said to their companions
+"merchandise was sent with us," and considered that they had been given no price for him and that whatever
+they took in him was entirely profit. **[Jalālayn]** Then they sold him — they, the caravan, purchased him
+from them — for a very low, a diminished price, a handful of dirhams, twenty or twenty-two; "for they," that
+is his brothers, "set small store by him." So the caravan brought him to Egypt, where the one who had bought
+him sold him for twenty dinars, two pairs of sandals and two robes. **[Ibn Kathīr]** "And they sold him for a
+*bakhs* price — for a few dirhams" refers to Yūsufʾs brothers selling him for a little price, according to
+Mujāhid and ʿIkrimah. *Bakhs* means decreased, just as God said in another verse, "he shall have no fear of
+a *bakhs* — a decrease in the reward of his good deeds — or of a *rahq*, an increase in the punishment for
+his sins" (72:13); meaning Yūsufʾs brothers exchanged him for a miserably low price. Yet he was so
+insignificant to them that had the caravan wanted him for free they would have given him for free. Ibn
+ʿAbbās, Mujāhid and al-Ḍaḥḥāk said "they sold him" refers to Yūsufʾs brothers, who sold him for the lowest
+price, as indicated by "for a few dirhams" — twenty dirhams, according to ʿAbdullāh b. Masʿūd; the same was
+said by Ibn ʿAbbās, Nawf al-Bikālī, al-Suddī, Qatādah and ʿAṭiyyah al-ʿAwfī, who added that they divided the
+dirhams among themselves, each receiving two dirhams. Al-Ḍaḥḥāk commented on "and they were of those who
+regarded him insignificant": "because they had no knowledge of his prophethood and of his glorious rank with
+God, the Exalted and Most Honourable." **[Saʿdī]** His brothers were near him, and the travellers bought him
+from them for a diminished price, "dirhams counted," and "they were of those indifferent to him."
+**[Maʿārif]** In Arabic *shirāʾ* is used for both buying and selling, and both meanings are possible here: if
+the pronoun is returned to the brothers of Yūsuf it means selling, and if applied to the people of the
+caravan it means buying — so the sense is "the brothers of Yūsuf sold him," or "the people of the caravan
+bought him," "for a paltry price, that is, for a counted few dirhams in return." Al-Qurṭubī says the Arab
+traders used to transact deals involving large amounts by weight, while for amounts not exceeding forty they
+would go by count; therefore *maʿdūdah*, "counted," used with *darāhim* tells us the count of dirhams was
+less than forty. Ibn Kathīr, citing ʿAbdullāh b. Masʿūd, records that the deal closed at twenty dirhams,
+which the ten brothers divided among themselves at two dirhams each; other narrations put the amount at
+twenty-two and at forty. In the last sentence, "and they were of those indifferent to him," *al-zāhidīn* is
+the plural of *zāhid*, a derivation from *zuhd*, which literally means indifference and disinterestedness,
+and in usage refers to lack of interest in, and avoidance of, wealth and property in worldly life. The
+meaning is that the brothers of Yūsuf were not really interested in any financial gain for themselves in
+this matter; their real purpose was to separate Yūsuf from his father.
+
+**Language.** The verb *sharā* is amphibious, meaning both "he bought" and "he sold," and the verseʾs whole
+interpretive dispute turns on it — whether the sellers were the brothers or the caravan **[Ṭabarī]**
+**[Qurṭubī]** **[Maʿārif]**. *Bakhs* is a verbal noun placed where a passive participle belongs, "a price
+diminished," and is glossed as deficiency (al-Qurṭubī), injustice (Qatādah) or unlawfulness (al-Ḍaḥḥāk,
+Muqātil, al-Suddī, Ibn ʿAṭāʾ, Ibn ʿAbbās) **[Ṭabarī]**. *Darāhim maʿdūdah* — dirhams counted rather than
+weighed — indicates a sum below forty **[Qurṭubī]** **[Maʿārif]**.
+
+**Rulings.** **[Ṭabarī]** preserves Ibrāhīmʾs legal note: he disliked buying and selling on behalf of the
+Bedouin, citing this verse, and said "his sale was forbidden and his purchase was forbidden" — the sale of a
+free person being invalid on both sides. Ibn ʿAbbās: it was not lawful for them to eat its price.
+
+**Cross-references.** 72:13 for the sense of *bakhs* **[Ibn Kathīr]**; 7:54, "surely His is the creation and
+the commandment," which **[Ibn Kathīr]** cites at the previous verse; and the buyer in Egypt at 12:21.
+
+**Reflection.** The arithmetic of the verse is deliberately insulting: twenty dirhams, two per brother, for
+a prophet. **[Ibn Kathīr]** adds the sting — he was so insignificant to them that they would have handed him
+over for nothing. Al-Ḍaḥḥākʾs explanation is the deepest: they did not know his prophethood or his rank with
+God, which is the standing excuse of everyone who has ever sold a person, a vocation or a trust cheaply.
+**[Maʿārif]** points out that *zuhd* — the very word the tradition honours as detachment from the world —
+appears here as a moral failure: indifference to a brother. The word is neutral; its object decides whether
+it is virtue or crime. And **[Qurṭubī]**ʾs note that the buyers counted the price as pure profit, having
+hidden him as a findling, sets up the irony the rest of the sūrah will cash: the man bought as found property
+will end up holding the treasury of Egypt and the lives of the men who sold him.
+
+---
