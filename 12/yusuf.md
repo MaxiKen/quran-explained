@@ -1776,3 +1776,574 @@ hidden him as a findling, sets up the irony the rest of the sūrah will cash: th
 will end up holding the treasury of Egypt and the lives of the men who sold him.
 
 ---
+
+
+## 12:21
+
+*"And the one from Egypt who bought him said to his wife, "Give him honourable lodging; perhaps he will
+benefit us, or we may take him as a son." Thus We established Joseph in the land, and that We might teach
+him the interpretation of events. And God prevails over His affair, but most people do not know."*
+
+**Meaning.** **[Ṭabarī]** The one who bought Yūsuf from his seller in Egypt said this to his wife. It is
+mentioned that his name was Qiṭfīr — so Ibn ʿAbbās; others said he was Iṭfīr b. Rūḥīb, the ʿAzīz, who was
+over the treasuries of Egypt, while the king at that time was al-Rayyān b. al-Walīd, a man of the
+ʿAmālīqah, according to Ibn Isḥāq. It is said that the man who sold him in Egypt was Mālik b. Dhuʿr b.
+Buwayb b. ʿAfqān b. Madyan b. Ibrāhīm *(Isrāʾīliyyāt)*, and that the wifeʾs name, according to Ibn Isḥāq,
+was Rāʿīl daughter of Raʿāʾīl. "Give him honourable lodging" means honour the place of his staying, where he
+dwells and resides; Qatādah and Ibn Jurayj glossed *mathwā* as his station, and she is the wife of the
+ʿAzīz; Mujāhid said the king bought him, and the king was a Muslim. As for "perhaps he will benefit us, or
+we may take him as a son": it is mentioned that Yūsufʾs buyer said this to his wife when he handed him over
+to her, because he had no child and did not go in to women, so he said to her, honour him — perhaps he will
+suffice us for some of the affairs we undertake, once he understands and knows the things he is charged
+with — "or we may adopt him." Ibn Isḥāq said: Iṭfīr, it was related to me, was a man who did not go in to
+women, and his wife Rāʿīl was a beautiful, soft, well-fed woman, in kingdom and worldly wealth
+*(Isrāʾīliyyāt)*. **[Qurṭubī]** It is said that "buying" here means exchange, since it was not a contract,
+as in "those who bought error at the price of guidance" (2:16); or that they supposed it, in outward
+appearance, to be a purchase, so the word runs on the outward supposition. Al-Ḍaḥḥāk said the one who bought
+him was the king of Egypt, whose title was al-ʿAzīz; al-Suhaylī said his name was Qiṭfīr; Ibn Isḥāq said
+Iṭfīr b. Ruwayḥib bought him for his wife Rāʿīl, as al-Māwardī recorded; others said her name was Zalīkhā.
+God had cast love of Yūsuf upon the heart of the ʿAzīz, so he charged his household concerning him, as
+al-Qushayrī mentioned. Ibn ʿAbbās said it was Qiṭfīr, the vizier of the king of Egypt, al-Rayyān b.
+al-Walīd — or al-Walīd b. al-Rayyān — a man of the ʿAmālīqah, who bought him. Some said this was the Pharaoh
+of Mūsā, because Mūsā said "Yūsuf came to you before with clear signs" (40:34) and that he lived four
+hundred years; others said the Pharaoh of Mūsā was a descendant of the Pharaoh of Yūsuf. This ʿAzīz who
+bought Yūsuf was over the kingʾs treasuries, and bought Yūsuf from Mālik b. Duʿr for twenty dinars, adding a
+suit of clothes and two pairs of sandals; others said he bought him from the members of the caravan; and
+Wahb b. Munabbih said they bid against one another for his price until it reached many times his weight in
+musk, ambergris, silk, silver, gold, pearls and jewels whose value only God knows, and Qiṭfīr bought him
+from Mālik at that price *(Isrāʾīliyyāt)*. Wahb and others added that when Mālik b. Duʿr bought Yūsuf from
+his brothers he wrote out a document between them and himself: "This is what Mālik b. Duʿr has bought from
+the sons of Yaʿqūb, so-and-so and so-and-so, a slave belonging to them, for twenty …" *(Isrāʾīliyyāt)*.
+**[Ibn Kathīr]** God mentions the favours He granted Yūsuf, by which He made the man from Egypt who bought
+him take care of him and provide him with a comfortable life; he also ordered his wife to be kind to Yūsuf
+and had good hopes for his future because of his firm righteous behaviour. The man who bought Yūsuf was the
+minister of Egypt at the time, and his title was ʿAzīz. Abū Isḥāq narrated that Abū ʿUbaydah said ʿAbdullāh
+b. Masʿūd said, "Three people had the most insight: the ʿAzīz of Egypt, who said to his wife, ʿMake his stay
+comfortableʾ; the woman who said to her father, ʿO my father, hire himʾ (28:26); and Abū Bakr al-Ṣiddīq when
+he appointed ʿUmar b. al-Khaṭṭāb as caliph after him." "Thus did We establish Yūsuf in the land" — that is,
+Egypt — just as He saved him from his brothers; "that We might teach him the interpretation of events" — the
+interpretation of dreams, according to Mujāhid and al-Suddī. "And God prevails over His affair": if He wills
+a thing, there is no averting His decision, nor can it be stopped or contradicted; rather God has full power
+over everything and everyone else. Saʿīd b. Jubayr said of this phrase, "He does whatever He wills." "But
+most of men know not" — they have no knowledge of Godʾs wisdom regarding His creation, His compassion, and
+His doing what He wills. **[Jalālayn]** And he of Egypt who purchased him — Potiphar the Court Officer,
+Qiṭfīr al-ʿAzīz — said to his wife Zulaykhā, "Give him an honourable place, an honourable residence with us.
+Maybe he will be useful to us, or we may adopt him as a son" — for he was chaste. Thus, just as We delivered
+him from being killed and from the well and softened the Court Officerʾs heart for him, We established
+Joseph in the land, the land of Egypt, until he attained what status he attained, that We might teach him
+the interpretation of events, the interpretation of visions — *wa-li-nuʿallimahu* being a supplement to an
+implied missing clause connected to *makkannā*, "We established," that is, an implied "so that We might give
+him kingship"; or else the *wāw* of *wa-li-nuʿallimahu* is to be understood as extra. Godʾs way always
+prevails, exalted be He, nothing being beyond Him, but most people — and they are the disbelievers — do not
+know this. **[Saʿdī]** When the travellers took him to Egypt and sold him there, the ʿAzīz of Egypt bought
+him; and when he had bought him he was impressed by him and charged his wife concerning him, saying, "Give
+him honourable lodging; perhaps he will benefit us, or we may take him as a son" — either he will benefit us
+as slaves do with kinds of service, or we will enjoy him as we enjoy our own children, which perhaps
+indicates that they had no child. "And thus We established Yūsuf in the land": just as We made it easy for
+the ʿAzīz of Egypt to buy him and to honour him with this honour, We made this a preface to his
+establishment in the land by this route. "And that We might teach him the interpretation of events": once he
+remained with no occupation and no concern other than knowledge, that became one of the causes of his
+learning a great deal of knowledge — of rulings, of interpretation of dreams, and other things. "And God
+prevails over His affair": His command, exalted be He, is executed; no one nullifies it and no one
+overcomes it. "But most people do not know" — and that is why there issues from them what issues in
+contending against Godʾs decreed rulings, though they are more incapable and weaker than that.
+**[Study Quran]** As in the Bible (Genesis 39:1), the man from Egypt who bought Joseph is identified by the
+commentators as Potiphar (Qiṭfīr or Iṭfīr), referred to in the Qurʾān by the title *al-ʿAzīz*, rendered in
+this sūrah as viceroy — a term used for anyone occupying a high-ranking position (see vv. 30, 51, 78, 88) —
+and sometimes identified, as in Genesis 37:36, as the captain of Pharaohʾs guard. *ʿAzīz* can also mean
+"king," but moreover denotes someone or something grand, powerful, cherished or honourable, hence a lofty or
+important position; since this sūrah also speaks of a king (vv. 43, 50, 54, 76), *ʿazīz* would denote a
+powerful official, which is what Potiphar was and what Joseph would become. Other Islamic sources state that
+Potiphar oversaw the treasury of Egypt, which perhaps derives from the fact that when Joseph is later called
+*al-ʿAzīz* his role is keeper of the storehouses of the kingdom (vv. 78, 88). The name of his wife is
+sometimes given as Rāʿīl or, more commonly, Zulaykhā, although she is not named in the Qurʾān. It is said
+Potiphar purchased Joseph in the marketplace, after being struck by Josephʾs inner beauty, and then
+instructed Zulaykhā to give him honourable accommodation — to arrange a beautiful and dignified dwelling for
+him in their home. "It may be that he will bring us some benefit, or that we may take him as a son" are the
+same words uttered to Pharaoh by his wife in connection with the infant Moses (28:9); Potiphar proposed
+taking Joseph as their son because they did not have children and were unable to have them. "And thus did We
+establish Joseph in the land" refers to Godʾs actions in saving Joseph from death, taking him out of the well
+and placing him in the house of Potiphar (cf. Genesis 39:2–6); see also v. 56. "That We might teach him the
+interpretation of events" refers to Godʾs teaching Joseph the interpretation of dreams that foretold events
+(vv. 6, 36–37, 41, 43–49), a gift which was the primary means by which he would achieve ascendancy in
+Egyptian society (vv. 54–56). "God prevails over His affair" is understood to mean that although Josephʾs
+brothers willed for him to remain in the well, God willed to exalt him to a station of proximity to the king
+(al-Qushayrī). "Most of mankind know not" occurs twice more in this sūrah (vv. 40, 68) and at 7:187; 16:38;
+30:6, 30; 34:28, 36; 40:57; 45:26.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** ʿAbdullāh b. Masʿūdʾs saying about the three people of keenest insight —
+the ʿAzīz of Egypt, the daughter of the old man of Midian, and Abū Bakr in appointing ʿUmar — is the most
+cited tradition on this verse.
+
+**Language.** *Mathwā* is the place where one *yathwī*, stays and settles **[Ṭabarī]**. The *lām* in
+*wa-li-nuʿallimahu* requires a suppressed clause to attach to, which **[Jalālayn]** supplies as "so that We
+might give him kingship."
+
+**Cross-references.** 28:9 (Pharaohʾs wife on the infant Moses); 28:26 (the daughterʾs "hire him"); 40:34
+("Yūsuf came to you before with clear signs"); 12:56 (the establishment in the land); 12:6, 36–37, 41, 43–49,
+54–56 **[Study Quran]**.
+
+**Reflection.** The verse is the hinge of the story: the pit ends and the palace begins, and neither the
+brothers nor the traders nor the buyer knows what has actually happened. **[Saʿdī]** makes the sequence
+explicit — the purchase and the honour were a preface, a preparation laid down years ahead of the
+establishment in the land. And the closing clause is the sūrahʾs theology in miniature: God prevails over
+His affair while most people do not know. Everyone in this scene is acting on partial information; the
+brothers thought they had ended him, the traders thought they had found profit, the ʿAzīz thought he had
+bought a useful boy. Ibn Masʿūdʾs remark that the ʿAzīz had the keenest insight of the three is a wry
+measure of how much can be seen by a man who is not even looking for it.
+
+---
+
+## 12:22
+
+*"And when he reached his full strength, We gave him judgment and knowledge. Thus We recompense the
+doers of good."*
+
+**Meaning.** **[Ṭabarī]** When Yūsuf reached the utmost of his strength and vigour in his youth and prime —
+which is between eighteen and sixty years, it is said, or forty — We gave him judgment and knowledge.
+*Ashudd* is a plural like *aḍurr* and *ashurr*, for which no singular is heard from its own root, though
+analogy requires its singular to be *shadd*. The interpreters differed over the age meant here: some said
+thirty-three years — Mujāhid, in several chains, and Ibn ʿAbbās is reported to have said "a few years past
+thirty"; others said twenty — al-Ḍaḥḥāk; and it is related from Ibn ʿAbbās, through a chain not approved,
+that it is between eighteen and thirty. **[Ṭabarī]**ʾs verdict is a model of restraint: the soundest thing to
+say is that God reported He gave Yūsuf judgment and knowledge when he reached his full strength, and *al-ashudd*
+is the completion of his strength and youth; it is possible He gave him that at eighteen, possible at twenty,
+possible at thirty-three — and there is no indication in Godʾs Book, no report from the Messenger ﷺ and no
+consensus of the community as to which of these it was. Where that is so, the right thing is to say of it
+what God said, until a proof is established from a source to which submission is due. **[Qurṭubī]** *Ashudd*
+for Sībawayh is a plural whose singular is *shiddah*; al-Kisāʾī said its singular is *shadd*, as in the
+poetʾs line "my acquaintance with him at the height of day, as though his breast and head were dyed with
+*ʿiẓlim*"; Abū ʿUbayd held it has no singular from its own root among the Arabs, and that its meaning is the
+completion of strength, after which decline follows. Mujāhid and Qatādah said *al-ashudd* is thirty-three
+years; Rabīʿah, Zayd b. Aslam and Mālik b. Anas said it is reaching puberty, and the scholarsʾ discussion of
+this in Sūrat an-Nisāʾ and al-Anʿām has already been given in full. "We gave him judgment and knowledge": it
+is said We made him the one in charge of judgment, so he judged within the kingʾs authority, and We gave him
+knowledge of judgment; Mujāhid said intellect, understanding and prophethood; others said *ḥukm* is
+prophethood and *ʿilm* the knowledge of religion; others that *ʿilm* is the knowledge of dreams; and whoever
+said he was given prophethood as a child said, "when he reached his full strength We increased him in
+understanding and knowledge." "Thus We recompense the doers of good" means the believers; or those patient
+under calamities as Yūsuf was patient, said al-Ḍaḥḥāk. **[Ṭabarī]**ʾs reading, which **[Qurṭubī]** cites:
+although this is outwardly addressed to every doer of good, the one intended is Muḥammad ﷺ — God says, as I
+did this with Yūsuf after he suffered what he suffered and then gave him what I gave him, so I will deliver
+you from the idolaters of your people who set themselves against you in enmity, and I will establish you in
+the land. **[Ibn Kathīr]** "And when he attained his full manhood" — sound in mind and perfect in body — "We
+gave him wisdom and knowledge," which is the prophethood God sent him with to the people among whom he
+lived; "thus We reward the doers of good," because Yūsuf used to do good in obedience to God the Exalted.
+**[Jalālayn]** And when he reached his prime — which was at thirty or thirty-three years of age — We gave him
+power of judgement, wisdom, and knowledge, understanding in matters of religion, before his call to
+prophethood. Thus, just as We rewarded him, We reward those who are virtuous, to the good of their souls.
+**[Saʿdī]** When Yūsuf reached his full strength — the completion of his strength, both spiritual and
+physical, and became fit to carry the heavy burdens of prophethood and messengership — "We gave him judgment
+and knowledge": We made him a prophet, a messenger and a divinely taught scholar. "Thus We recompense the
+doers of good" — those who do good in the worship of the Creator by exerting themselves and being sincere in
+it, and towards Godʾs servants by giving benefit and doing good to them; among the recompense We give them
+for their goodness is beneficial knowledge. This shows that Yūsuf fulfilled the station of *iḥsān*, so God
+gave him judgment among people, abundant knowledge and prophethood. **[Study Quran]** "We gave him wisdom" —
+that is, prophethood, or the ability to judge between people with justice — "and knowledge," that is,
+knowledge of dream interpretation and future events, or knowledge of the mysteries and the proper etiquette
+of servanthood toward God. "Thus do We recompense the virtuous" also appears verbatim at 6:84 and 28:14; see
+also 5:85. "Virtuous" is used in connection with Joseph numerous times in this sūrah (vv. 36, 56, 78, 90).
+
+**Language.** The dispute over the singular of *ashudd* — *shiddah* for Sībawayh, *shadd* for al-Kisāʾī, none
+at all for Abū ʿUbayd — is recorded by both **[Ṭabarī]** and **[Qurṭubī]**, together with the poetic
+witnesses; and the range of ages proposed (eighteen, twenty, thirty, thirty-three, forty, sixty) shows how
+little the phrase pins down.
+
+**Belief.** **[Saʿdī]** appends a comparison that belongs to this verse: this great trial was harder upon
+Yūsuf than the trial of his brothers, and his patience in it earns a greater reward, because it was a
+patience of choice with many motives present for committing the act, and he gave Godʾs love precedence over
+them; whereas his trial at the hands of his brothers was met with a patience of necessity, like the illnesses
+and hardships that befall a servant without his choosing, for which he has no refuge but patience, willing or
+unwilling.
+
+**Reflection.** The verse marks the point at which the story stops being about what happens to Yūsuf and
+starts being about what he becomes. Two gifts are named — judgment and knowledge — and they are given
+together, because knowledge without judgment produces cleverness and judgment without knowledge produces
+bluster. **[Ṭabarī]**ʾs refusal to choose among the ages is itself a lesson in how to read: where God has
+left a matter vague and no proof settles it, the readerʾs duty is to leave it vague too. And
+**[Qurṭubī]**ʾs report of Ṭabarīʾs reading — that the promise "thus We recompense the doers of good" is
+addressed outwardly to all and inwardly to Muḥammad ﷺ — explains why an unlettered prophet in Makkah was
+being told a story about a slave in Egypt.
+
+---
+
+## 12:23
+
+*"And she in whose house he was sought him for herself, and she bolted the doors and said, "Come now — it is
+for you." He said, "God forbid! He is my lord; he has made my lodging good. Truly the wrongdoers do not
+prosper."*"*
+
+**Meaning.** **[Ṭabarī]** The wife of the ʿAzīz — she in whose house Yūsuf was — sought him for his own
+person, that he should lie with her. Al-Suddī said simply, "she loved him"; Saʿīd b. Jubayr is reported to
+have said she said, "come here." "And she bolted the doors": the woman closed the doors of the rooms upon
+herself and upon Yūsuf, door after door, for what she wanted from him. On "she said, *hayta lak*," the
+readers differed: the general reading of Kūfah and Baṣrah is *hayta lak* with fatḥah on both the *hāʾ* and
+the *tāʾ*, meaning "come to you, draw near, approach," as in the poetʾs line addressed to ʿAlī b. Abī Ṭālib,
+"Report to the Commander of the Faithful, the brother of Iraq when we come, that Iraq and its people are
+turned towards you — so *hayta, haytā*," meaning come and draw near. Ibn ʿAbbās is cited repeatedly for
+"halmma lak," come to you; Zirr b. Ḥubaysh read it with a naṣb; ʿIkrimah said it is Ḥawrānian, meaning come;
+and others held different readings again. **[Qurṭubī]** *Al-murāwadah* has its root in willing and seeking
+with gentleness and softness: *al-rawd* and *al-riyād* are the seeking of pasture, and it is also said to
+come from *ruwayd*, since one says "so-and-so walks *ruwaydan*," gently; so *murāwadah* is gentleness in
+seeking. One says of a man *rāwadahā ʿan nafsihā* and of a woman *rāwadathu ʿan nafsihā*; *al-rawd* is
+deliberateness, as in *arwidnī*, give me time. *Ghallaqat al-abwāb* uses the intensive form for multiplicity
+— one does not say *ghalaqa al-bāb*, while *aghlaqa* covers both many and few, as in al-Farazdaqʾs line
+about Abū ʿAmr b. al-ʿAlāʾ, "I kept closing doors and opening them until I came to Abū ʿAmr b. ʿAmmār." It is
+said she bolted seven doors and then called him to herself. "And she said *hayta lak*" means come, approach,
+draw near, and the word has neither a verbal noun nor a conjugation. Al-Naḥḥās said there are seven readings
+of it, the most esteemed and soundest in chain being what al-Aʿmash reported from Abū Wāʾil: "I heard
+ʿAbdullāh b. Masʿūd read *hayta lak*," and when he said, "a people read it *hīta lak*," Ibn Masʿūd answered,
+"I only recite as I was taught" — Abū Jaʿfar noting that some report this from Ibn Masʿūd from the Prophet ﷺ,
+which is not far-fetched, since "I only recite as I was taught" indicates it is raised. This reading with
+fatḥah on the *tāʾ* and the *hāʾ* is the sound one from Ibn ʿAbbās, Saʿīd b. Jubayr, al-Ḥasan, Mujāhid and
+ʿIkrimah, and it is the reading of Abū ʿAmr b. al-ʿAlāʾ, ʿĀṣim, al-Aʿmash, Ḥamzah and al-Kisāʾī. Ibn
+Masʿūd said, "Do not dispute about the Qurʾān, for it is just like one of you saying *halmma* and *taʿāl*."
+Ibn Abī Isḥāq the grammarian read *hayti lak* with fatḥah on the *hāʾ* and kasrah on the *tāʾ*. Abū Jaʿfar
+explained *hayta lak* with fatḥah on the *tāʾ* as being for the meeting of two quiescents, since it is a
+vocable like *mah* and *ṣah* that ought not to be inflected, and fatḥah is light because there is a *yāʾ*
+before the *tāʾ*, as in *ayna* and *kayfa*; whoever gives the *tāʾ* a kasrah does so because kasrah is the
+default when a quiescent letter is vocalised; and whoever gives it a ḍammah does so because it contains the
+sense of a goal — she said, "my call is for you" — and when the annexation was dropped it was built on the
+ḍammah, like *ḥaythu* and *baʿdu*. The reading of the people of Madīnah has two explanations: the fatḥah is
+for the meeting of two quiescents; or it is a verb from *hāʾa yahīʾu*, like *jāʾa yajīʾu*, so *hiʾtu* would
+mean "your appearance is beautiful," and *lak* would be separate speech, as when you say "for you I mean."
+Whoever hamzates and gives the *tāʾ* a ḍammah makes it a verb meaning "I have prepared myself for you," and
+likewise whoever reads *hiʾtu lak*. Abū ʿAmr rejected this reading: Abū ʿUbaydah Maʿmar b. al-Muthannā said
+Abū ʿAmr was asked about the reading of those who read with kasrah on the *hāʾ* and ḍammah on the hamzated
+*tāʾ* and said, "Nonsense — he has made it from *tahayyaʾtu*! Go and survey the Arabs until you reach the
+Yemen: do you know anyone who says this?" Al-Kisāʾī also said *hiʾtu* is not reported from the Arabs.
+ʿIkrimah said *hayta lak* means "I have prepared myself for you, adorned myself and made myself beautiful,"
+but this is a reading not approved, since it is not heard in Arabic — though al-Naḥḥās said it is good
+according to the Basrans, because one says *hāʾa al-rajul yahāʾu wa-yahīʾu hayʾatan*, so *hāʾa yahīʾu* is
+like *jāʾa yajīʾu* and *haytu* is like *jiʾtu*. Kasrah on the *hāʾ* in *hayta* is the dialect of a people
+who prefer kasrah to fatḥah. Al-Zajjāj said the best of the readings is *hayta* with fatḥah on both, citing
+Ṭarafahʾs line "my people are not the remotest when a caller from the tribe says *hayta*." Ibn ʿAbbās and
+al-Ḥasan said *hayt* is a Syriac word by which she calls him to herself; al-Suddī said it means in Coptic
+"come to you"; Abū ʿUbayd said al-Kisāʾī held it was a dialect of the people of Ḥawrān that had reached the
+people of the Ḥijāz, meaning "come," and that Abū ʿUbayd asked a learned shaykh from Ḥawrān who confirmed it
+was their language — and ʿIkrimah said the same. Mujāhid and others said it is an Arabic word by which she
+calls him to herself, a word of urging and turning towards things. On "he said, God forbid": *maʿādha Llāh*
+means I take refuge in God and seek protection with Him from what you have called me to; it is a verbal
+noun, "I seek refuge with God, a refuge," the object being dropped and the verbal noun standing accusative by
+the suppressed verb, annexed to the name of God as a verbal noun is annexed to its object. "He is my lord"
+means her husband: he is my master, he honoured me, so I will not betray him — said Mujāhid, Ibn Isḥāq and
+al-Suddī; al-Zajjāj said it means God is my Lord, He took charge of me with His kindness, so I will not
+commit what He has forbidden. "The wrongdoers do not prosper": it is in the report that she said to him,
+"Yūsuf, how beautiful the image of your face!" He said, "In the womb my Lord fashioned me." She said, "Yūsuf,
+how beautiful your hair!" He said, "It is the first thing of me that will decay in my grave." She said,
+"Yūsuf, how beautiful your eyes!" He said, "With them I look upon my Lord." She said, "Yūsuf, raise your gaze
+and look at my face!" He said, "I fear blindness in my hereafter." She said, "Yūsuf, I draw near to you and
+you draw away from me?" He said, "I want by that nearness to my Lord." She said, "Yūsuf, I have spread the
+alcove for you — come in with me …" *(Isrāʾīliyyāt)*. **[Ibn Kathīr]** God states that the wife of the ʿAzīz
+of Egypt, in whose house Yūsuf resided and whose husband had recommended she take care of him and be
+generous to him, tried to seduce him: she called him to do an evil act with her because she loved him very
+much. Yūsuf was very handsome, filled with manhood and beauty. She beautified herself for him, closed the
+doors and called him, "come on, O you." But he categorically refused her call: "I seek refuge in God! Truly
+he is my lord; he made my living in great comfort" — as they used to call a chief and master *rabb*, Yūsuf
+said to her, "your husband is my master, who provided me with comfortable living and was kind to me, so I
+will never betray him by committing immoral sin with his wife." "Verily the wrongdoers will never be
+successful" — this was said by Mujāhid, al-Suddī, Muḥammad b. Isḥāq and several others. The scholars differ
+in their recitation of *hayta lak*: Ibn ʿAbbās, Mujāhid and several others said it means she was calling him
+to herself; al-Bukhārī said, "ʿIkrimah said *hayta lak* means ʿcome on, O youʾ in the Aramaic language,"
+collecting this from ʿIkrimah without a chain; other scholars read it with the meaning "I am ready for you,"
+and Ibn ʿAbbās, Abū ʿAbd al-Raḥmān al-Sulamī, Abū Wāʾil, ʿIkrimah and Qatādah are reported to have read this
+part of the verse that way and explained it as we have mentioned. **[Jalālayn]** And she in whose house he
+was — namely Zulaykhā — attempted to seduce him, that is, she asked him to lie with her, and she closed the
+doors of the house, and she said to him, "Come!" *Hayta laka* — the *lām* of *laka* is for clarification; a
+variant reading has *hīta laka* or *haytu laka*. "God forbid!" — I seek refuge with God from this, he said.
+"Truly he who bought me is my lord," my master, "who has given me an honourable place," an honourable
+residence, "and so I cannot betray him with regard to his family. Truly evildoers," fornicators, "never
+prosper." **[Saʿdī]** Yūsuf remained honoured in the house of the ʿAzīz, and he had beauty, perfection and
+splendour such that "she in whose house he was sought him for himself" — he was her boy, under her
+management, and the dwelling was one, so that the disliked thing could be done without anyone noticing or
+any human being perceiving. The affliction was increased by her bolting the doors: the place became empty,
+and the two of them were safe from anyone entering upon them because of the bolting of the doors. She called
+him to herself and said, "Come — it is for you": do the disliked thing and come to me! And with all this, he
+was a stranger, who does not feel the shame he would feel in his own homeland among his acquaintances; he was
+a captive in her power, and she was his mistress; she had beauty calling to what was there; he was an
+unmarried young man; and she had threatened him, if he did not do what she commanded, with prison or a
+painful punishment. Yet he was patient in disobedience to God despite the strong motive present in him,
+because he had an inclination which he abandoned for Godʾs sake, giving Godʾs will precedence over the will
+of the soul that commands evil; and he saw the proof of his Lord — the knowledge and faith he carried, which
+require leaving everything God has forbidden — and that obliged him to draw back and abstain from this great
+disobedience. "He said, God forbid": I take refuge in God from doing this ugly act, because it angers God and
+distances from Him, and because it is betrayal of the right of my master who honoured my lodging; it is not
+fitting that I should meet him in his family with the ugliest of returns, and this is among the greatest
+wrongdoing, and the wrongdoer does not prosper. In sum, he made the deterrents from this act: the fear of
+God; regard for the right of his master who honoured him; guarding his soul from wrongdoing, which its
+perpetrator does not prosper in; and the proof of faith in his heart that God bestowed upon him, which
+requires obeying commands and avoiding prohibitions. The sum of it all is that God turned away from him evil
+and indecency because he was one of Godʾs servants sincere to Him in their worship, whom God made sincere,
+chose and selected for Himself, and upon whom He conferred favours and from whom He turned away hardships,
+so that they became among the best of His creation. **[Maʿārif]** From the first verse we know this woman was
+the wife of the ʿAzīz of Egypt, but here the Qurʾān has chosen to bypass mentioning her by that brief
+expression and instead uses "she in whose house he was" — the hint being that Yūsufʾs efforts to save himself
+from falling into sin were further complicated by the fact that he lived in the house of this very woman,
+under her protection, so that disapproving and discarding her verbal advance was no easy task. How was he
+able to do it? There was an outward cause: when Yūsuf found himself surrounded from all sides he took the
+ultimate recourse, and, like a prophet, first sought the protection of God — "God forbid!" He did not place
+his sole trust in his own determination and resolve to hold out against the invitation to sin; he sought
+Godʾs refuge first, and anyone who enjoys Godʾs protection can never be moved from the right path by anyone.
+Only after having that coverage did he begin acting as a prophet would, with wisdom and earnest good counsel:
+addressing Zulaykhā directly and personally, he advised her too to fear God and give up her intention.
+"Surely he is my master; he has given me a good lodging; surely the wrongdoers do not prosper" means: your
+husband, the ʿAzīz of Egypt, is my master, who has raised and supported me and given me a good home; he is
+my benefactor, so how can I even think of violating his honour? This is great injustice, and those who
+commit injustice never prosper. Implied therein was a lesson for Zulaykhā too: if I know his rights over me,
+having been my master and caretaker for a shorter time than you, then you, his wedded wife of years, should
+certainly know his rights over you much better than I do.
+
+**Language.** **[Ibn Kathīr]** notes the Arabsʾ use of *rabb* for a chief and master, which is why Yūsufʾs
+"he is my *rabb*" can mean the ʿAzīz; **[Study Quran]** records the alternative reading that it refers to
+God — "He Most High is my true Master, the One who saved me from the well and gave me a great standing in the
+ʿAzīzʾs heart, so that he provided me with honourable accommodation; therefore it is not fitting that I
+should have the audacity to disobey Him" (al-Qushayrī). *Murāwadah* is seeking with gentleness, and
+*ghallaqa* is intensive for many doors **[Qurṭubī]**.
+
+**Reflection.** The verse lists the pressure and then the resistance, and the listing is the instruction.
+**[Saʿdī]** counts the motives: a stranger with no one to be ashamed before, a captive under her command, a
+young unmarried man, a beautiful mistress, locked doors, and a threat of prison — and against all of it, one
+sentence, "God forbid." **[Maʿārif]**ʾs observation about the order of that sentence is the practical point:
+he did not begin with his own resolve but with Godʾs protection, because resolve unaided is the weakest
+thing in a locked room. And his counsel to her — reminding her of her husbandʾs rights, which she knew
+better than he — shows that refusal need not be only a refusal; it can be an appeal to the other personʾs
+better knowledge.
+
+---
+
+## 12:24
+
+*"And she certainly desired him, and he would have desired her, had he not seen the proof of his Lord. Thus
+it was, that We might turn away from him evil and indecency. Truly he was one of Our chosen servants."*
+
+**Meaning.** **[Ṭabarī]** It is mentioned that when the wife of the ʿAzīz desired Yūsuf and sought him for
+herself she began recounting his own attractions to him and making him long for her, as al-Suddī related:
+she said, "Yūsuf, how beautiful your hair!" He said, "it is the first thing that will scatter from my body."
+She said, "Yūsuf, how beautiful your face!" He said, "it is for the dust, to eat it." She did not stop until
+she made him hopeful; so she desired him and he desired her, and they entered the room, and she bolted …
+The reports then multiply on how far Yūsufʾs *hamm* went: Ibn ʿAbbās is asked repeatedly, "How far did
+Yūsufʾs *hamm* reach?" and answers, "he sat with her the sitting of the circumciser," "he untied the
+himyān," "she lay back for him and he sat between her legs and untied his garment — or hers"; Mujāhid says
+"he untied his trousers down to his buttocks and she lay back for him," "he sat with her the sitting of a
+man with his wife"; Saʿīd b. Jubayr and ʿIkrimah say "he untied the trousers and sat with her the sitting of
+the circumciser"; al-Qāsim b. Abī Bazzah says "as for her *hamm* for him, she lay back for him, and as for
+his *hamm* for her, he sat between her legs and pulled off his clothes." **[Ṭabarī]** then raises the
+theological objection himself: how may Yūsuf be described with such a thing when he is a prophet of God? The
+people of knowledge differed. Some said that whichever prophet was tried with a wrong action, God tried him
+with it so that he would be in dread of God when he remembered it, and be earnest in obedience out of fear
+of it, and not rely upon the breadth of Godʾs pardon and mercy. Others said God tried them with it so that
+He would make them know the place of His favour upon them in overlooking it and not punishing them for it in
+the hereafter. Others said God tried them with it to make them imams for the people of sin in hoping for
+Godʾs mercy and not despairing of His pardon when they repent. Others — who departed from the sayings of the
+salaf and interpreted the Qurʾān by their own opinions — said different things. Some said the meaning is:
+the woman desired Yūsuf, and Yūsuf desired to strike her or harm her because of her desiring from him what
+she wanted of evil, had he not seen the proof of his Lord, which restrained him from what he desired of
+harming her — not that she held herself back. Their evidence is "thus that We might turn away from him evil
+and indecency": the *sūʾ* is what he desired of harming her, and it is other than the *fahshāʾ*. Others said
+the meaning is: she certainly desired him — and the report about her ends there; then the report about Yūsuf
+begins afresh, "and Yūsuf would have desired her had he not seen the proof of his Lord," as though Yūsuf did
+not desire her, and God only reported that had he not seen the proof of his Lord he would have desired her,
+but he saw it and so did not desire her — as in "were it not for Godʾs favour upon you and His mercy you
+would have followed Satan, except a few" (4:83). **[Ṭabarī]** refutes both: the Arabs do not place the answer
+to *lawlā* before it — one does not say "I certainly stood, were it not for Zayd," meaning "were it not for
+Zayd I would certainly have stood" — and both views also contradict all the people of knowledge of the
+Qurʾānʾs interpretation, from whom that interpretation is taken. Others again said the woman desired Yūsuf
+and Yūsuf desired the woman, but their *hamm* was a weighing between doing and not doing, not a resolve or a
+willing; and there is no harm in the talking of the soul or the mentioning of the heart where there is
+neither resolve nor act. As for the proof Yūsuf saw, on account of which he left off committing the sin, the
+people of knowledge differ. Some said he was called out to with a prohibition against committing the sin:
+Ibn ʿAbbās is reported to have said "he was called: O Yūsuf, will you commit fornication and be like a bird
+whose feathers have fallen, so that it goes to fly and has no feathers?" and "he did not respond to the call
+until he saw the proof of his Lord — the likeness of the image of his father," Sufyān adding "biting on his
+finger," saying, "O Yūsuf, will you commit fornication and be like a bird whose feathers have gone?" Others
+said the proof was what God has threatened the people of fornication with: Muḥammad b. Kaʿb al-Quraẓī said
+he raised his head to the ceiling of the room and there was writing on the wall of the room, "do not approach
+fornication; it is an indecency and an evil way" (17:32); and he is also reported to have said the proof was
+three verses of Godʾs Book — "there are over you guardians" (82:10), "you are in no affair" (10:61) and "is
+He who stands over every soul for what it has earned" (13:33) — with Abū Hilāl adding a fourth, "do not
+approach fornication." Others said he saw the image of the king: Ibn ʿAbbās said "the signs of his Lord — he
+was shown the image of the king"; Ibn Isḥāq said some of the people of knowledge held that the proof Yūsuf
+saw, which turned evil and indecency from him, was Yaʿqūb biting on his finger, and that when he saw him he
+drew back fleeing, while others said it was the phantom of Iṭfīr his master when he came near the door,
+since when he fled from her and she followed him they found him at the door. **[Ṭabarī]**ʾs verdict: the
+soundest thing to say is that God reported the *hamm* of Yūsuf and of the wife of the ʿAzīz, each for the
+other, were it not that Yūsuf saw the proof of his Lord — a sign from God that restrained him from embarking
+on the indecency he had desired. It is possible that sign was the image of Yaʿqūb, possible that it was the
+image of the king, possible that it was the threat contained in the verses God mentioned in the Qurʾān
+concerning fornication; there is no decisive proof for any of these in particular, and the right thing is to
+say of it what God said, to believe it, and to leave what is beyond that to its Knower. On "thus, that We
+might turn away from him evil and indecency": as We showed Yūsuf Our proof restraining him from what he
+desired of indecency, so We cause for him, in everything that presents itself to him of an inclination
+towards what We do not approve, something that restrains and repels him from it, so that We may turn away
+from him embarking on what We have forbidden and the committing of fornication, to purify him from its
+defilement. On "he was one of Our chosen servants": the general reading of Madīnah and Kūfah is
+*al-mukhlaṣīn* with fatḥah on the *lām*, meaning Yūsuf was one of the servants We made sincere for
+Ourselves and chose for Our prophethood and message; some of the readers of Baṣrah read *al-mukhliṣīn* with
+kasrah on the *lām*, meaning Yūsuf was one of the servants who made their tawḥīd sincere … **[Ibn Kathīr]**
+This is about the thoughts that cross the mind, according to al-Baghawī, who mentioned this opinion from
+some of the analysts; al-Baghawī then cited a ḥadīth he narrated from ʿAbd al-Razzāq, from Maʿmar, from
+Hammām, from Abū Hurayrah, from the Messenger of God ﷺ: "God the Exalted said: if My servant intends to
+perform a good deed, record it for him as one good deed; if he performs it, record it for him multiplied ten
+times; if he intends to commit an evil act but does not commit it, record it for him as one good deed, if he
+left it for My sake; but if he commits it, write it as one evil deed." This ḥadīth was also collected in the
+two Ṣaḥīḥs in various wordings, this being one of them. It was also reported that the verse means Yūsuf was
+about to strike her. As for the evidence Yūsuf saw at that moment, opinions conflict about what it was. Ibn
+Jarīr al-Ṭabarī said: "The correct opinion is that we should say he saw one of Godʾs signs that repelled the
+thought crossing his mind. This evidence might have been the image of Yaʿqūb, or the image of an angel, or a
+divine statement forbidding him from that evil sin; there are no clear proofs supporting any of these in
+particular, so it should be left vague, as God left it." "Thus it was, that We might turn away from him evil
+and immoral sins" means: just as We showed him the evidence that turned him away from that sin, We save him
+from all types of evil and illegal sexual activity in all his affairs — "surely he was one of Our
+*mukhlaṣīn* servants," meaning chosen, purified, designated, appointed and righteous. **[Jalālayn]** And she
+certainly desired him — she sought sexual intercourse with him — and he would have desired her too, would
+have sought the same, had it not been that he saw the proof of his Lord. Ibn ʿAbbās said Jacob was made to
+appear before him and struck his breast, whereupon his sexual desire withdrew from his body through his
+fingernails. The response to *lawlā*, "had it not been," has been omitted, understood to be "he would have
+lain with her." So it was that We made him see the proof, that We might ward off from him evil — betrayal —
+and lewdness, the act of fornication. Truly he was of Our devoted servants, in terms of obedience,
+*mukhliṣīn*; a variant reading has *mukhlaṣīn*, in other words "chosen, purified servants." **[Saʿdī]** His
+inclination was one he abandoned for Godʾs sake, giving Godʾs will precedence over the will of the soul that
+commands evil, and he saw the proof of his Lord — the knowledge and faith with him, which require leaving
+everything God has forbidden. **[Study Quran]** Most commentators mention that Joseph desired Zulaykhā just
+as she desired him, but he did not act on his desire: for him it was a passing feeling occurring in his
+heart, and he did not follow through with it; instead he immediately turned to God and dismissed the thought
+of attraction to her as soon as he had seen the proof of his Lord. Al-Rāzī compares this to righteous
+persons who, while fasting in summer, see rosewater with ice in it: they would naturally be inclined to drink
+it, but given their faithful adherence to the religious law they do not. One widely reported incident
+explains what is meant by his seeing the proof of his Lord: Zulaykhā, who worshipped idols, had covered an
+idol in the room; when Joseph asked why she had done that, she replied that she was ashamed to sin before
+the idol; and Joseph asked how she could be ashamed before an idol that neither sees nor hears but not
+ashamed before God, who is Hearing and Seeing. This exchange led Joseph to contemplate his own situation
+before God, and that realisation served as his proof. Alternately, it is said the proof was that the
+Archangel Gabriel appeared before Joseph (al-Rāzī). "That We might turn him away from evil" refers to
+keeping him from being disloyal to Potiphar, or from having a deep-rooted sexual desire (*shahwah*) for
+Potipharʾs wife; "indecency" refers to the illicit sexual act. **[Maʿārif]** The great trial of Yūsuf was
+that the wife of the ʿAzīz bolted the doors and tried to invite him to sin, assembling all the circumstantial
+temptations to attract him and make him indulgent; but God kept this righteous young person standing
+steadfast in so severe a trial. Zulaikha was busy pursuing her obsessive thought anyway, but there emerged in
+Yūsufʾs heart too some non-voluntary tilt towards her, as would be the natural consequence in such a
+situation; and it was exactly then that God brought before Yūsuf His argument and proof, because of which
+that non-voluntary tilt, rather than increasing, died out totally — and, beating the pursuit, he ran.
+
+**Belief.** **[Maʿārif]** sets out the doctrine that settles the verse. The word *hamm* carries two meanings
+in Arabic: to intend and be determined to do something; and a simple scruple in the heart, or the appearance
+of a thought beyond oneʾs control. In the first case it falls under sin and is accountable — though if a
+person, having formed the intention, leaves off the sin of his own choice out of fear of God, then according
+to the ḥadīth God replaces the sin and enters a good deed in his book. In the second case — a simple scruple
+and non-voluntary thought without any intention to put it into practice, like the natural turn of thought
+towards cool water during the fasts of summer, which almost everyone experiences though there is no
+intention to go and drink — such a thought is neither within oneʾs control nor is there accountability or sin
+in it. Bukhārī records the Prophet ﷺ saying, "God has forgiven the scruple and thought of sin for my Ummah,
+if not put into practice." In the two Ṣaḥīḥs, from Abū Hurayrah: "God says to the angels: when My servant
+intends to do good, write a good deed in his book because of that intention; when he completes the deed,
+write ten good deeds; if a servant intends to do a sin and then leaves it out of fear of God, write one good
+deed in his book in lieu of that sin; and if he falls into that sin, write it as one sin only." Al-Qurṭubī
+proved from Arab usage and poetry that *hamm* covers both meanings. This tells us that *hamm* is attributed
+here to both Zulaykhā and Yūsuf, but there is a great difference between them: hers falls under sin, his has
+the status of a non-voluntary scruple which is not sin. The Qurʾānʾs own descriptive style testifies to
+this: had their *hamm* been identical it would have sufficed to say it in the dual form — "the two of them
+desired" — which was briefer; but leaving that aside, the *hamm* of each is described separately, "she
+certainly desired him, and he desired her." And to Zulaykhāʾs *hamm* is added the particle of emphasis
+*laqad*, while Yūsufʾs *hamm* has no emphasis of *lām* and *qad*. Through this particular expression the
+purpose is to emphasise that Zulaykhāʾs *hamm* was of one nature and Yūsufʾs of another. According to a
+ḥadīth in Muslim, when this test was faced by Yūsuf the angels submitted before God: "This sincere servant
+of Yours is thinking of sin, though he knows its curse fully well." God said: "Wait. If he commits this sin,
+write what he has done in his book; and if he abstains from committing it, do not record it a sin — instead
+enter a good deed in his book, because he has surrendered his desire only out of fear for Me," which is
+doing good at its best. To sum up: the thought or tilt generated in Yūsufʾs heart was simply at the level of
+a non-voluntary scruple, which is not included under sin; and by acting against this scruple his rank with
+God rose much higher.
+
+**Readings.** *Al-mukhlaṣīn* (opened *lām*: those God purified and chose) versus *al-mukhliṣīn* (broken
+*lām*: those who made their devotion sincere) — **[Ṭabarī]** records the division, the first being the
+general reading of Madīnah and Kūfah **[Jalālayn]**.
+
+**Reflection.** The whole classical tradition is uneasy with this verse, and the uneasiness is the point.
+**[Ṭabarī]** quotes the reports that describe a man untying his trousers and sitting between a womanʾs legs,
+and then quotes the objection — "how may a prophet of God be described with such a thing?" — and answers it
+three ways: prophets are tried so that they will fear God and not rely on the breadth of His pardon; so that
+they will know the place of His favour in overlooking it; and so that they will be imams for sinners in
+hoping for Godʾs mercy and not despairing of His pardon when they repent. Then he refuses to specify what the
+proof was, leaving it vague as God left it. **[Ibn Kathīr]** takes the same line. **[Maʿārif]** supplies the
+linguistic key that lets a Muslim hold both things at once: the Qurʾān did not say "they both desired" in
+the dual, and it gave her the emphatic *laqad* and not him. Yūsufʾs *hamm* was the movement of a body in a
+locked room, not the decision of a will; and by acting against it, he rose. Al-Rāzīʾs image of the fasting
+man and the iced rosewater makes it ordinary enough to be usable: the inclination is not the sin, and the
+refusal of it is written down as a good deed.
+
+---
+
+## 12:25
+
+*"And they raced to the door, and she tore his shirt from behind, and they encountered her master at the
+door. She said, "What is the recompense of one who intends evil against your family, except that he be
+imprisoned, or a painful punishment?""*
+
+**Meaning.** **[Saʿdī]** When he refused to answer her request after the intense solicitation, he went to
+flee from her and to make for the door quickly, to escape and get away from the trial; she got to it before
+him and clung to his garment, tearing his shirt. When the two of them reached the door in that condition,
+they found her master — her husband — at the door. He saw a matter that was hard on him, and she hurried to
+lying, saying that the solicitation had come from Yūsuf, and said, "What is the recompense of one who
+intends evil against your family?" She did not say "of one who has done evil to your family," clearing
+herself and clearing him too of the act — the dispute was only about the intention and the solicitation —
+"except that he be imprisoned, or punished with a painful punishment." **[Ibn Kathīr]** Yūsuf and the wife of
+the ʿAzīz raced to the door, Yūsuf running away from her and she running after him to bring him back to the
+room. She caught up with him and held onto his shirt from the back, tearing it so terribly that it fell off
+Yūsufʾs back. Yūsuf continued running from her with her in pursuit; however, they found her master, her
+husband, at the front door. This is when she responded by deceit and evil plots, trying to exonerate herself
+and implicate him, saying, "What is the recompense for him who intended an evil design against your wife?" —
+in reference to illegal sexual intercourse — "except that he be put in prison, or a painful torment?" —
+tormented severely with painful beating. **[Qurṭubī]** treats the verse under two *masāʾil*. First: the
+scholars said this is part of the Qurʾānʾs inimitable brevity, in which meanings are gathered together: when
+he saw the proof of his Lord he fled from her, so the two of them raced — she to bring him back to herself,
+he to escape from her — and she caught him before he went out. "And she tore his shirt from behind," that is
+from his back: she seized the top of his shirt, so the shirt was rent at its collar and the tearing ran down
+to the bottom of the shirt. *Istibāq* is the seeking of precedence to a thing, from which comes *sibāq*;
+*qadd* is cutting, and it is mostly used of what is cut lengthwise, as in al-Nābighahʾs description of
+swords, "they cut the doubled Sulūqī weave and kindle with the broad blades the fire of Ḥubāḥib" — while
+*qaṭṭ* with a ṭāʾ is used of what is cut across. Al-Mufaḍḍal b. Ḥarb said, "I read in a codex, ʿwhen he saw
+his shirt *ʿuṭṭa* from behindʾ," that is, split; Yaʿqūb said *al-ʿaṭṭ* is a splitting in sound skin and
+sound cloth. The alif of *istabaqā* is dropped in pronunciation because of its quiescence and the quiescence
+of the *lām* after it, as one says "ʿAbd Allāh came to me" in the dual; some Arabs say it retaining the alif
+without hamzah, joining two quiescents because the second is assimilated and the first is a letter of
+extension and softness; and some retain the alif with hamzah, as in pausing. Second *masʾalah*: in the verse
+there is evidence for analogy (*qiyās*) and inference, and for acting upon customary practice and habit,
+because of what is mentioned of the tearing of the shirt from the front and from the back; this is a matter
+the Mālikīs treat uniquely in their books — that a shirt pulled from behind tears on that side and one
+pulled from the front tears on that side, and this is the general case. **[Jalālayn]** And they raced to the
+door — Joseph making for it in order to escape, while she, in order to grab hold of him, caught hold of his
+garment and pulled him towards her, and she tore his shirt from behind — whereupon they encountered her
+master, her husband, at the door. She composed herself and then said, "What is to be the requital of him who
+intends evil," who intends fornication, "against your folk, but that he should be imprisoned," locked up in
+a jail, "or suffer a painful chastisement?" — by having him beaten. **[Study Quran]** Joseph attempted to
+flee from Zulaykhā and made for the door; she chased after him, tearing his shirt from behind in her attempt
+to prevent him from escaping; cf. Genesis 39:11–12. When they met Potiphar at the door, Zulaykhā sought to
+exonerate herself by making it appear as though she were the victim fleeing from Joseph. Although she was in
+love with Joseph, her love for him was not yet complete and sincere, for she lied to Potiphar in order to
+save herself even though it meant accusing Joseph of an act he did not commit — intending ill toward her,
+which alludes to illicit sexual relations; for a discussion of the progression of Zulaykhāʾs love see 12:51.
+It is also said that with her question to Potiphar, which was actually a suggestion, she sought to incite
+his jealousy and rage in order to take revenge upon Joseph for not complying with her wishes; cf. Genesis
+39:13–19. Some commentators, especially Sufi ones, mention that Zulaykhāʾs love for Joseph was so great that
+it blinded her to every other consideration.
+
+**Rulings.** **[Qurṭubī]**ʾs second *masʾalah* makes this verse one of the proof-texts of the Mālikī school
+for reasoning from customary practice: the direction of a tear in a garment is evidence of the direction of
+the pull, and therefore of who was fleeing and who was pursuing. Ibn al-ʿArabīʾs parallel point at 12:18 —
+that Yaʿqūb argued from the soundness of the shirt — belongs to the same discipline, and both are cited by
+the jurists for acting upon indications (*amārāt*).
+
+**Language.** *Qadd* is cutting lengthwise and *qaṭṭ* cutting across **[Qurṭubī]**; *istabaqā* loses its alif
+in pronunciation for the meeting of two quiescents. The Qurʾānʾs brevity here is itself an argument for its
+inimitability, since a whole chase is contained in "they raced to the door."
+
+**Reflection.** Two people arrive at the same door at the same moment for opposite reasons, and the one who
+is guilty gets there first with a sentence already prepared. **[Study Quran]**ʾs remark that her love was not
+yet complete and sincere — because true love would not have bought its own safety with the belovedʾs ruin —
+is the sharpest comment on the scene: the accusation is proof of the loveʾs immaturity, and the sūrah will
+trace its maturation to the point where she says, at 12:51, "now the truth has become manifest: I sought him
+for myself, and he is of the truthful." The torn shirt, which in the first scene of the story proved the
+brothersʾ lie, now proves another one; and the same man who was deceived by an intact shirt will later be
+undeceived by a torn one.
+
+---
