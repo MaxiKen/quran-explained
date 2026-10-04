@@ -1699,3 +1699,639 @@ theological angle: the verse has been read as a statement about God's guidance a
 deserving of error, but in its own place in the sūrah it is the conclusion of the argument with the
 polytheists of Mecca — a sentence about a group who thought themselves guided while they took the
 satans as friends, and the reader is invited to test himself by the same measure.
+
+## 7:31
+
+*"O Children of Adam, take your adornment at every place of worship, and eat and drink, but be not prodigal; surely He loves not the prodigal."*
+
+**Meaning.** **[Ṭabarī]** gives the verse its occasion and its sense: God speaks to those who used to strip
+at their circumambulation of the Sacred House, exposing their private parts there — the polytheists of
+the Arabs — and to those among them who had forbidden themselves food that God had made lawful,
+presenting that to their Lord as a pious offering: "O Children of Adam, take your adornment" — of
+covering and clothing — "at every mosque; and eat" of the good things I have provided you and made
+lawful, "and drink" of lawful drinks, and forbid nothing but what I have forbidden you in My Book or on
+the tongue of My messenger Muḥammad ﷺ [Ṭabarī]. **[Saʿdī]** reads the first command in the key of
+prayer: cover your shameful parts at every prayer, whether obligatory or supererogatory, for covering
+them is an adornment of the body, just as uncovering leaves the body ugly and disfigured; and it is also
+possible that what is meant by adornment here is what goes beyond that — clean and good clothing — so
+that the verse commands the covering of the shameful parts in prayer, the use of adornment in it, and
+the keeping of the covering clean of filth and impurity. Then "eat and drink" of what God has provided
+of good things, "and do not be excessive": excess is either going beyond the sufficient measure and
+being greedy for foods that harm the body, or increasing in luxury and refinement in food, drink and
+clothing, or passing beyond the lawful to the unlawful — and God does not love the excessive, for excess
+is hateful to Him and harms a man's body and his living, so that it may bring him to the point of being
+unable to meet what is obligatory upon him. Thus the verse commands eating and drinking and forbids both
+abandoning them and excess in them [Saʿdī]. **[Jalālayn]** puts the same briefly: don your adornment —
+that which covers your nakedness — at every place of worship, at prayer and at the circumambulation;
+and eat and drink what you wish, but do not be excessive, for He does not love the excessive.
+
+**Context — the two pre-Islamic customs.** **[Qurṭubī]** opens with seven *masāʾil*, and the first
+settles the address: "O Children of Adam" is an address to all the world, even though those meant by it
+were the Arabs who circumambulated the House naked, for the words are general in every mosque of prayer
+— the lesson lying in the generality, not in the occasion. Some scholars denied that the reference is to
+the ṭawāf at all, since the ṭawāf is only in one mosque while what applies to every mosque is the
+prayer; al-Qurṭubī says this is the view of one who has missed the aims of the law. In the Ṣaḥīḥ of
+Muslim, from Ibn ʿAbbās: a woman used to circumambulate the House naked, saying, "who will lend me a
+*ṭiwāf*?" — a cloth to make the circuit in — and placing it over her private part, reciting, "today some
+of it appears or all of it, and what appears of it I do not make lawful" — and this verse came down.
+That woman was Ḍubāʿah bint ʿĀmir b. Qurṭ, as al-Qāḍī ʿIyāḍ said. And in Muslim also, from Hishām b.
+ʿUrwah from his father: the Arabs used to circumambulate the House naked except the *Ḥums* — and the
+Ḥums were Quraysh and those born of them — they would circumambulate the House clothed, but would give
+clothing to others: the men giving to the men and the women to the women; and the Ḥums would not leave
+Muzdalifah, while all the people stood at ʿArafāt. In a report outside Muslim: they would say, "we are
+the people of the sacred precinct, so no Arab may circumambulate except in our clothes, nor eat when he
+enters our land except of our food." So whoever of the Arabs had no friend in Mecca to lend him a
+garment, and no means to hire one, was between two things: either to circumambulate the House naked, or
+to circumambulate in his own clothes and then, when he finished, to cast the garment off so that no one
+touched it — and that garment was called *al-laqā*, the thrown-away; and one of the Arabs said in verse,
+"enough sorrow — like one thrown down, as though a *laqā* before the circumambulators, forbidden." They
+remained in that ignorance and innovation and straying until God sent His prophet Muḥammad ﷺ, and God
+sent down: "O Children of Adam…" [Qurṭubī]. **[Maʿārif]** adds the second custom: as the Arabs of the
+Jāhiliyyah made naked circumambulation their method of worship and reverence for the House, they also
+used to skip eating and drinking during the days of Hajj, eating no more than what kept them alive, and
+abstaining especially from butter oil, milk and other pure foods (Ibn Jarīr). The verse was revealed
+against this practice: making the ṭawāf naked was an act of immodesty and bad manners, and abstaining
+from the good food God gave, without a valid excuse, had hardly anything to do with religion — forbidding
+upon oneself what God made lawful was effrontery and excess in an act of worship, something disliked by
+God. So eat and drink during the days of Hajj, but do not be extravagant: abstaining totally from lawful
+foods is itself included under extravagance, and so is the opposite — becoming heedless of the real
+objectives of the Hajj and the remembrance of God and busying oneself with nothing but eating and
+drinking [Maʿārif].
+
+**Rulings.** **[Maʿārif]** states the principle on which the legal reading rests: although the verse was
+revealed to eradicate a particular custom of nakedness in the Jāhiliyyah, the imams of tafsīr and the
+jurists of the community unanimously agree that the revelation of an injunction in relation to a
+particular event does not restrict that injunction to the same event; what counts is the generality of
+the words, so the injunction applies to everything that falls under them [Maʿārif]. **[Study Quran]**
+notes that adornment translates *zīnah*, a term with both positive and negative connotations in the
+Qurʾān — worldly sources of beauty or status that are part of God's provision for human beings but can
+also be sources of pride and worldliness — and that in this context, following shortly after the account
+of Satan stripping Adam and Eve of their raiment (7:27), it most likely refers to clothing used to cover
+one's nakedness rather than ornamentation (R); it adds that some commentators take all three injunctions
+of the verse, including the encouragement to eat and drink, as directed against the practices of the
+Arabs before Islam [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s summary holds the three commands together: the verse does not set
+devoutness against enjoyment but forbids both undressing and excess — the body covered as an adornment
+of prayer, the good things of the earth eaten with thanks, and the measure kept. **[Maʿārif]** draws the
+practical lesson from the two customs: the religion that came to correct nudity also came to correct the
+notion that worship consists in denying oneself what God has made lawful, so that the same verse
+corrects an immodesty and an extravagance of austerity in one sentence.
+
+## 7:32
+
+*"Say, 'Who has forbidden the adornment of God which He has brought forth for His servants, and the good things of provision?' Say, 'These are for those who believe in the life of this world, and on the Day of Resurrection they shall be theirs alone.' Thus do We detail the signs for a people who know."*
+
+**Meaning.** **[Ṭabarī]** reads the verse as God's address to His prophet: say, O Muḥammad, to these
+ignorant ones of the Arabs who strip at their circumambulation of the House and forbid themselves what
+God has made lawful of the good things of provision — who has forbidden you the adornment of God which
+He created for His servants to adorn and beautify themselves with by wearing it, and the lawful things
+of God's provision which He provided for His creation to eat and to drink? [Ṭabarī]. **[Saʿdī]** frames
+the verse as a rebuke: God speaks rejecting the one who objects and forbids what God has made lawful of
+good things — "who has forbidden the adornment of God which He brought out for His servants" of the
+kinds of clothing in their various forms, "and the good things of provision" of food and drink of every
+kind — that is, who is it that presumes to forbid what God has blessed His servants with, and who is it
+that narrows for them what God has made wide? And this widening of the good things for His servants was
+so that they might take help by them in worshipping Him, and it was granted to none but the believers —
+therefore "say, they are for those who believe in the life of this world, purely theirs on the Day of
+Resurrection," that is, no reproach attaches to them for them; and the implied sense of the verse is
+that whoever does not believe in God but uses these things for his disobedience, they are not pure for
+him nor permitted to him; rather he is punished for them and for enjoying them, and will be asked about
+the blessing on the Day of Resurrection. "Thus do We detail the signs for a people who know," that is,
+We make them clear and plain for those who are the ones to benefit from what God has set out, knowing
+that they are from Him, so that they understand and grasp them [Saʿdī]. **[Jalālayn]** is brief: say,
+in disavowal of them, "who has forbidden the adornment of God which He has brought forth for His
+servants," of garments, "and the good things of God's provision," of delicious foods? Say: "these on the
+Day of Resurrection shall be exclusively theirs" — with the reading *khāliṣatun*, "exclusively theirs,"
+or *khāliṣatan* as a circumstantial qualifier — for those who believed during the life of this world,
+even if others share them with them here; and "thus We detail the signs for a people who know," who
+reflect, for they are the ones to profit from them. **[Ibn Kathīr]** gives the same opening in the
+form of refutation: God refutes those who prohibit any type of food, drink or clothing according to
+their own understanding, without relying on what God has legislated — the things were created for those
+who believe in God and worship Him in this life, even though the disbelievers share in these bounties
+here; but in the Hereafter the believers will have all this to themselves and none of the disbelievers
+will have a share in it, for Paradise is prohibited to the disbelievers [Ibn Kathīr].
+
+**Rulings.** **[Qurṭubī]** draws out what the verse permits. The adornment here is good clothing when its
+owner can afford it; and it was said it means all clothing, as ʿUmar said, "when God has given you
+abundance, be generous." He records that ʿAlī b. al-Ḥusayn b. ʿAlī b. Abī Ṭālib — the teacher of Mālik
+— used to wear a *khazz* cloak costing fifty dīnārs in the winter, and when summer came he gave it away
+or sold it and gave the price in charity, wearing in summer two Egyptian garments dyed with red ochre,
+and reciting this verse. And if the verse permits that, then it indicates the wearing of fine clothing
+and adorning oneself for the Fridays and the festivals, at meetings with people and in visiting
+brothers; Abū al-ʿĀliyah said, "when the Muslims used to visit one another, they adorned themselves";
+and in the Ṣaḥīḥ of Muslim, from ʿUmar b. al-Khaṭṭāb, that he saw a silken robe being sold at the door
+of the mosque and said, "Messenger of God…" [Qurṭubī]. **[Maʿārif]** states the rule plainly: to
+determine and declare something lawful or unlawful is the sole right of the Most Sacred Being who
+created it; no one is permitted to interfere in that matter, so those who consider good dress and good
+food made lawful by God something forbidden to themselves deserve the wrath and punishment of God; and
+living in tattered rags despite having the means is no teaching of Islam, nor something worth emulation
+in Islam, as some ignorant people think. Many among the early righteous elders and the juristic imams
+of Islam whom God had blessed with good means would wear elegant and even expensive dress; and the
+Messenger of God ﷺ, when his means allowed it, adorned his body with the best of dresses [Maʿārif].
+
+**Belief.** **[Study Quran]** records the ascetic counterpart of the verse: some connect it with a
+ḥadīth in which the Prophet instructs one of his followers to avoid excesses in asceticism and to reject
+the ascetic impulse to abstain from, among other things, owning property, eating meat, having children,
+or wearing perfume (R) — all of which might fall under the category of worldly adornment; and the verse
+and various aḥādīth indicate that such things are lawful so long as temperance and propriety are
+maintained. Such adornment is for the believers in the life of this world — to be enjoyed here — and on
+the Day of Resurrection it is for them alone, indicating that though both believers and disbelievers may
+enjoy these goods here, in the Hereafter they are reserved for the believers [Study Quran].
+
+**Cross-references.** "Take your adornment at every place of worship" (7:31); "Say: Who has forbidden
+the good things God has brought forth for His servants?" (7:32); "O mankind, eat of what is lawful and
+good in the earth" (2:168); "And He it is who made for you the night as a covering, and sleep as a rest"
+(25:47); "Say: Who has forbidden the good things that God has brought forth for His servants?" (7:32;
+cf. 5:87) [Ibn Kathīr] [Saʿdī].
+
+**Reflection.** **[Saʿdī]**'s reading reverses the instinct that makes scrupulosity out of suspicion:
+the world's good things are not the enemy of worship but its provision, and the verse's rebuke falls on
+the man who forbids what God has given, not on the man who uses it with thanks. **[Qurṭubī]**'s report
+of ʿAlī b. al-Ḥusayn gives the same point a human face: the teacher of Mālik wearing a fifty-dīnār cloak
+in winter and giving it away in summer, reciting the verse as his proof — the verse, on this reading,
+is the charter of lawful beauty, and its restriction is only the restriction that the Hereafter's
+enjoyment belongs to faith.
+
+## 7:33
+
+*"Say, 'My Lord has only forbidden indecencies — what is apparent of them and what is hidden — and sin, and wrongful transgression, and that you associate with God that for which He has sent down no authority, and that you say of God what you do not know.'"*
+
+**Meaning.** **[Jalālayn]** gives the list: my Lord forbids only indecencies — grave sins such as
+fornication — both what is apparent of them and what is hidden, that is, the overt and the secret; and
+sin, the act of disobedience; and wrongful insolence against people, namely oppression; and that you
+associate with God that for which He has never revealed any warrant, any definitive proof; and that you
+say concerning God what you do not know — in the way of forbidding what He has not forbidden and other
+such things. **[Saʿdī]** expands each term: the indecencies are the major sins that are held foul and
+ugly for their enormity and repulsiveness, such as fornication and sodomy and the like; "what is
+apparent of them and what is hidden" means the indecencies connected with the movements of the body and
+those connected with the movements of the heart — such as pride, self-admiration, showing off and
+hypocrisy; "and sin and wrongful transgression": the sins that incur guilt and make punishment due in
+God's rights, and the transgression against people in their blood, their wealth and their honour. Into
+this, then, enter the sins connected with God's right and those connected with the rights of His
+servants [Saʿdī]. **[Ṭabarī]** reads the last two clauses against the practice of the Arab
+polytheists: God has forbidden you to set up with Him in His worship a partner for which He has given
+you no proof or demonstration — and that is the *sulṭān* — and He has forbidden you to say of God what
+you do not know: that God commanded you to strip for the circumambulation of the House, and forbade you
+to eat these cattle which you forbade, set free, assigned as *waṣīla* and *ḥāmī* and the like, when you
+do not know whether God forbade or commanded or permitted them — so that you attribute to God their
+prohibition and their command, out of your ignorance of the reality of what you say and ascribe to Him
+[Ṭabarī]. **[Study Quran]** gives the same structure: contrary to the arbitrary prohibitions of the
+idolaters in vv. 31–32, God forbids only indecencies and sin — indecencies being particularly abominable
+sins; outward and inward meaning either public and private sins respectively, or an outward sinful
+action and its inward intention (see 6:120; 6:151–52); *baghy*, rendered tyranny, connotes oppression
+and overweening arrogance (Z) as well as rebelliousness (see also 10:23; 42:27, 42); and the ascribing
+of partners to God (*shirk*), which is identified in 4:48 and 4:116 as the only sin that will not be
+forgiven if one dies without repenting — for such "partners" God has sent down no authority, that is, no
+revealed warrant or instruction to worship them; and finally it is forbidden to say of God that which
+one does not know, something similarly criticized in 2:80 and 2:169 as well as 7:28 [Study Quran].
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** records on the opening of the verse the ḥadīth of ʿAbdullāh [b.
+Masʿūd] that the Messenger of God ﷺ said: "None is more jealous than God, and it is for that reason He
+prohibited the indecencies, those committed openly and those committed in secret; and none likes praise
+more than God" — recorded by Aḥmad and also in the two Ṣaḥīḥs. And on "sin and wrongful transgression,"
+al-Suddī said: *al-ithm* is disobedience, and the wrongful transgression occurs when you transgress
+against people without justification; Mujāhid said *al-ithm* includes all types of disobedience; and it
+was said that the oppressor commits his oppression against himself [Ibn Kathīr]. **[Qurṭubī]** records
+the occasion reported by al-Kalbī: when the Muslims wore clothes and circumambulated the House, the
+polytheists disapproved of them, and so this verse came down; and he gives the glosses of the terms:
+al-Ḥasan said *al-ithm* here is wine, and the poets said the like in their lines — "I drank sin until my
+mind wandered; so does sin take away minds"; and *al-baghy* is wrong and exceeding the limit, with
+Thaʿlab saying it is when a man falls upon another, speaks about him and wrongs him without right,
+unless he vindicates himself by right. And he notes a grammatical point with a legal consequence: God
+brought *al-ithm* and *al-baghy* out from under the general term indecencies although they belong to it,
+because of their enormity and foulness, naming them expressly to emphasize their affair and to aim at
+restraining people from them [Qurṭubī].
+
+**Cross-references.** "Say: Come, I will recite what your Lord has forbidden you: that you associate
+nothing with Him…" (6:151–52); "Say: My Lord has forbidden indecencies, those apparent and those
+hidden, and sin, and wrongful oppression" (7:33); "God does not forgive that partners be ascribed to
+Him, but He forgives what is less than that to whom He wills" (4:48; 4:116); "And do not say of God
+what you do not know" (7:33; cf. 2:80, 169; 16:116) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s division of the forbidden into the body's sins and the heart's, the
+rights of God and the rights of people, gives the verse its scope: the list moves from what a man
+does in secret to what he says about God, so that the last item — speaking of God without knowledge —
+is shown to be the root from which the arbitrary prohibitions and permissions of the polytheists grew.
+**[Ṭabarī]** makes the same connection concrete: the people who forbade themselves cattle God had
+permitted were not being scrupulous but presumptuous, and the verse's final clause names their fault
+exactly — they said of God what they did not know.
+
+## 7:34
+
+*"And for every community there is a term; when their term comes, they shall not delay it by an hour, nor shall they advance it."*
+
+**Meaning.** **[Jalālayn]** gives the verse plainly: every community has a term — a finite period of
+time; when their term comes, they shall not delay it a single hour nor bring it forward. **[Saʿdī]**
+places it in the sūrah's argument: God brought the children of Adam out to the earth and settled them in
+it, and He has appointed for them a named term — no community among the communities shall pass beyond
+its appointed time or fall short of it, neither communities gathered together nor individuals [Saʿdī].
+**[Ibn Kathīr]** reads "every community" as every generation and nation, and the term as the one
+destined for them, after which neither delay nor advance is possible [Ibn Kathīr]. **[Ṭabarī]** reads
+the verse as God's warning to the polytheists about whom He had just reported that they said, when they
+committed an indecency, "we found our fathers practising it and God commanded us thus" — a threat to
+them and a promise of punishment for their lying about Him and their persistence in associating others
+with Him [Ṭabarī]. **[Study Quran]** gathers the parallels: the idea that every community or people has
+a term appointed — a fixed term that can be neither advanced nor delayed, and after which they cease to
+exist on earth — is referenced in several verses (10:49; 15:5; 23:43; 34:30; 71:4), and individual human
+beings and humanity as a whole are also said to have a fixed or appointed term as far as life in this
+world is concerned (16:61; 34:30; 71:4) [Study Quran].
+
+**Belief.** **[Saʿdī]** draws the doctrinal point from the wording "they shall not delay it by an hour
+nor advance it": the term is not merely known to God but fixed by Him, and the community that
+disbelieves its messenger does not thereby shorten or lengthen its own span — it only determines what
+will be found in it. **[Study Quran]** notes the same emphasis: the verse's two negations close the door
+on any thought that the coming of punishment or of death is a matter of human timing, and the
+communities addressed in the sūrah — the towns destroyed, the nations that denied their prophets — are
+the standing illustration of the rule that the term arrives exactly when appointed [Study Quran].
+
+**Cross-references.** "Say: I do not possess for myself any harm or benefit, except as God wills; for
+every community there is a term; when their term comes they shall not delay it an hour nor advance it"
+(10:49); "No community can advance its term, nor delay it" (15:5; 23:43); "And every community has a
+messenger; so when their messenger comes, it will be judged between them with justice" (10:47)
+[Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Ṭabarī]**'s reading makes the verse a summons out of procrastination: the people who
+fashioned their own religion and their own prohibitions were given notice that their time was not in
+their hands; and **[Saʿdī]** gives the same thought its personal application — the term belongs to
+communities and to individuals alike, and the hour that cannot be advanced or delayed is the reason to
+be found working when it arrives.
+
+## 7:35
+
+*"O Children of Adam, if there come to you messengers from among you, recounting to you My signs — then whoever fears God and sets things right, no fear shall come upon them, nor shall they grieve."*
+
+**Meaning.** **[Ṭabarī]** gives the sense: God informs His creation of what He has prepared for His party,
+the people of obedience and faith in Him and His messenger, and what He has prepared for the party of
+Satan and his friends and those who disbelieve in Him and His messengers. "O Children of Adam, if there
+come to you messengers from among you" — that is, if My messengers come to you, sent to call you to My
+obedience and to desist at My command and prohibition, "from among you," that is, from your own selves
+and your clans and tribes — "recounting to you My signs," reciting to you the verses of My Book and
+making known to you My proofs and marks of the truth of what they bring you from Me — "then whoever
+fears God and sets things right": whoever among you believes what My messengers bring of My signs and
+affirms it, and fears God by acting on what He has commanded and desisting from what He has forbidden on
+the tongue of His messenger, and sets right the deeds he had previously corrupted — "no fear shall come
+upon them," that is, no fear of God's punishment on the Day of Resurrection when they come before Him,
+"nor shall they grieve" over what they missed of their worldly life and their appetites which they
+avoided in following God's prohibition, when they see the honour God has prepared for them [Ṭabarī].
+**[Saʿdī]** reads the same in a compact form: when God brought the children of Adam out of the Garden,
+He tested them by sending messengers and sending down books to them, recounting to them God's signs and
+making clear to them His rulings; then He mentioned the merit of those who answer them and the loss of
+those who do not — "whoever fears God" in what God has forbidden of association with Him, major sins and
+minor ones, "and sets things right" in his outward and inward deeds, "no fear shall come upon them" of
+the evil that others fear, "nor shall they grieve" over what is past; and when fear and grief are
+removed, complete security and happiness and everlasting success follow [Saʿdī]. **[Study Quran]**
+notes the parallel: this verse is similar to 2:38, which also concludes an account of Adam's fall —
+"When guidance comes to you from Me, whoever follows My guidance, no fear shall come upon them, nor
+shall they grieve"; in both cases the punishment of exile from the Garden is followed by the
+consolation that God will send human beings guidance, here in the form of messengers from among
+yourselves; and by responding to the messengers with reverence and "making amends" — that is, repenting
+of one's former actions and obeying the commands and prohibitions brought by the messengers (Ṭ) — hope
+is offered that Adam and his progeny may find their way back to a place in which no fear shall come upon
+them nor shall they grieve. This last clause is repeated in several verses as a reference to success and
+bliss in the Hereafter (2:62, 112, 262, 274, 277; 3:170; 5:69; 6:48; 7:49; 10:62; 46:13) [Study Quran].
+
+**Language.** **[Jalālayn]** notes the construction: *immā*, "if there come," is made of *in* plus an
+extra *mā*; then "whoever fears" associating others with God, "and makes amends" in his actions, no fear
+shall befall them, nor shall they grieve in the Hereafter. **[Qurṭubī]** treats the grammar in the same
+way: the sentence is a condition, and the *nūn* of emphasis has entered with the *mā*; or the *mā* is
+mere connection, the sense being "if there come to you"; God has told us that He sends messengers from
+them so that their response may be nearer and easier. *Al-qaṣaṣ* is the following of one report after
+another; "My signs" means My obligations and rulings. And "whoever fears God and sets things right" is
+again a condition whose answer is what follows — the answer also of the first condition — the sense
+being "and sets right what is between him and Me"; and "no fear shall come upon them, nor shall they
+grieve" is a proof that the believers on the Day of Resurrection will neither fear nor grieve, no terror
+or panic touching them; it was also said that the terrors of the Day may touch them, but their end is
+security; and it was said that the answer to "if there come to you messengers" is what the speech
+indicates, "so obey them," and then "whoever fears God and sets things right" — and the first view is
+that of al-Zajjāj [Qurṭubī]. **[Ibn Kathīr]** reads "whoever has *taqwā* and becomes righteous" as
+abandoning the prohibitions and performing acts of obedience [Ibn Kathīr].
+
+**Cross-references.** "We said: Get down from it, all of you; then if guidance comes to you from Me,
+whoever follows My guidance, no fear shall come upon them, nor shall they grieve" (2:38);
+"Truly those who believe, and those who are Jews, and the Christians, and the Sabians — whoever believes
+in God and the Last Day and works righteousness — they shall have their reward with their Lord, and no
+fear shall come upon them, nor shall they grieve" (2:62); "Now surely the friends of God — no fear shall
+come upon them, nor shall they grieve" (10:62); "Those who say, 'Our Lord is God,' then remain steadfast
+— no fear shall come upon them, nor shall they grieve" (46:13) [Study Quran] [Ṭabarī].
+
+**Reflection.** **[Ṭabarī]**'s reading of the two clauses — no fear of what is ahead, no grief over what
+is behind — names exactly what the promise removes: the two directions of human anxiety are closed for
+the one who fears God and sets things right, and the sūrah, which has just described the ruined towns
+and their terror, sets this promise beside them as their remedy. **[Study Quran]** notes the same
+movement in the parallel of 2:38: the fall is followed by the promise of guidance, so that the children
+of Adam are not left in the Garden's grief but are given messengers from among themselves, and with
+them the road back.
+
+## 7:36
+
+*"But those who deny Our signs and are arrogant toward them — those are the companions of the Fire; they shall abide therein."*
+
+**Meaning.** **[Saʿdī]** reads the verse as the second half of the comparison begun in v. 35: "those who
+deny Our signs and are arrogant toward them" — that is, their hearts did not believe in them, nor did
+their limbs submit to them; those are the companions of the Fire, abiding in it; and as they held God's
+signs cheap and persisted in denying them, they are humiliated with a punishment that is lasting and
+attached to them [Saʿdī]. **[Jalālayn]** gives it briefly: those who deny Our signs, the Qurʾān, and
+scorn them, not believing in them — those shall be the inhabitants of the Fire, abiding therein.
+**[Ibn Kathīr]** explains the two verbs distinctly: they denied the signs in their hearts and were too
+arrogant to abide by them, and so they are the dwellers of the Fire forever, without end to their
+dwelling [Ibn Kathīr]. **[Study Quran]** notes that the punishment of those who deny the signs of God in
+this life is found in several verses (cf. 2:39; 4:56; 5:10, 86; 22:51, 57; 57:19; 64:10), and that
+denying the signs may refer here particularly to rejecting the message of God's oneness brought by the
+messengers, to disavowing the other truths and divine commands they brought, and to being too proud to
+affirm the truth of the proofs and guidance offered by revelation (Ṭ) [Study Quran].
+
+**Language.** **[Saʿdī]** notes the pairing of the two verbs in the Arabic: *kadhdhaba*, to deny, and
+*istakbara ʿanhā*, to wax arrogant against them — the first is a judgement of the mind, the second a
+posture of the will, and the two together are what close the door: a man may be shown a sign and deny
+it, but the verse's second verb names the pride that refuses to follow the truth it has been shown
+[Saʿdī].
+
+**Cross-references.** "Those who deny Our signs and are arrogant toward them — the gates of heaven shall
+not be opened for them" (7:40); "And as for those who deny Our signs and the meeting of the Hereafter,
+their deeds are in vain" (7:147; cf. 7:9); "Those who deny the Book and that with which We sent Our
+messengers — they shall know" (40:70); "So enter the gates of Hell, abiding therein; how evil is the
+dwelling of the arrogant" (16:29) [Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Saʿdī]**'s pairing gives the verse its diagnosis: the denial is answered by an
+arrogance that prevents return, and the punishment named — the Fire, abiding — is the counterpart of
+the loftiness they chose, so that the abode matches the posture. **[Study Quran]** keeps the reader's
+attention on the phrase "and are arrogant toward them": the sin is not ignorance but the refusal to
+submit to what one has seen, which is why the verse is placed after the promise of v. 35 — fear and
+setting right on one side, denial and arrogance on the other, and the two ends named in a single pair
+of verses.
+
+## 7:37
+
+*"And who is more unjust than one who fabricates a lie against God or denies His signs? Those — their portion of the Book shall reach them, until, when Our messengers come to them taking them in death, they say, 'Where is that which you used to call upon apart from God?' They say, 'They have strayed away from us'; and they bear witness against themselves that they were disbelievers."*
+
+**Meaning.** **[Ṭabarī]** sets out the rhetorical question: who is more mistaken in deed, more ignorant in
+speech, further from the truth and the right — than one who fabricated against God a lie, saying when he
+did an indecency, "God commanded us to do it," or who denied His proofs and marks, which point to His
+oneness and the prophethood of His prophets, rejecting their truth and disputing their soundness? Those
+who did that — fabricating the lie against God and denying His signs — "their portion of the Book shall
+reach them," that is, what God wrote for them in the Preserved Tablet shall come to them; and he records
+the interpretations given for that portion: Abū Ṣāliḥ and al-Suddī said it is the punishment written for
+them [Ṭabarī]. **[Qurṭubī]** lists the same range: Ibn Zayd said the portion is what is written for
+them of provision, lifespan and deeds; Ibn Jubayr said of misery and happiness; Ibn ʿAbbās of good and
+evil; al-Ḥasan and Abū Ṣāliḥ of punishment in proportion to their disbelief; and al-Ṭabarī's own choice
+is that the meaning is what is written or destined for them of good and evil, provision and deed and
+term, since God followed it with "until, when Our messengers come to them taking them in death," meaning
+the messengers of the angel of death; and it was said that "the Book" here is the Qurʾān, because the
+punishment of the disbelievers is mentioned in it, and it was said it is the Preserved Tablet. And he
+records after this a report that has become a byword for the doctrine of the decree: al-Ḥasan b. ʿAlī
+al-Ḥulwānī said, ʿAlī b. al-Madanī dictated to me that he asked ʿAbd al-Raḥmān b. Mahdī about the
+decree, and he said to him, "Everything is by decree — obedience and disobedience are by decree; and he
+has made a monstrous fabrication who says that acts of disobedience are not by decree." ʿAlī said: and
+ʿAbd al-Raḥmān b. Mahdī said to me, "Knowledge, decree and the Book are one and the same." Then I
+presented the words of ʿAbd al-Raḥmān b. Mahdī to Yaḥyā b. Saʿīd, and he said, "After this there remains
+neither little nor much" [Qurṭubī]. **[Saʿdī]** reads the whole passage as the case of the doomed who
+had their share of the world: even if they enjoyed the world and got their portion of what was written
+for them in the Preserved Tablet, that will not avail them anything; they enjoy a little and are
+punished long; and "until, when Our messengers come to them taking them in death" — the angels charged
+with seizing their souls and completing their terms — they say to them in that state, in reproach and
+rebuke: "where is that which you used to call upon apart from God," of idols and images? For the hour of
+need has come: if they had any benefit or could repel any harm, let them show it now. "They say: they
+have strayed away from us" — that is, they have vanished and come to nothing, and cannot avail us against
+God's punishment at all; "and they bear witness against themselves that they were disbelievers" —
+deserving of the lasting humiliating punishment [Saʿdī]. **[Jalālayn]** gives the same reading with its
+grammar: and who — that is, none — does greater evil than one who invents a lie against God by ascribing
+to Him a partner or a child, or denies His signs, the Qurʾān? Those — their portion, their lot, of the
+Scripture of what has been inscribed for them in the Preserved Tablet, of provision, term of life and
+other matters, shall reach them — until, when Our messengers, the angels, come to them to take their
+souls, they say to them in reprimand: "where is that which you were calling upon, worshipping, beside
+God?" They will say: "they have gone astray from us" — they are not present before us so that we might
+see them — and they will bear witness against themselves at death that they were disbelievers [Jalālayn].
+**[Study Quran]** notes that "who does greater wrong than one who fabricates a lie against God" is a
+rhetorical question found in several verses (6:21, 93, 144; 10:17; 11:18; 18:15; 29:68; 61:7), and that
+the same is said of those who reject or deny God's signs (cf. 6:157; 18:57; 32:22); and it explains the
+portion: their portion of the book means they will receive their portion of worldly provision and
+longevity (Q, Sy, Ṭ, Z), of good or ill (Ṭ), of punishment (R, Ṭ, Ṭs), or of salvation or damnation in
+the Hereafter (Ṭ), which has been ordained for them in the book — the Book of all things that will come
+to pass, or the Preserved Tablet (see 85:22c), rather than revealed scripture — while the messengers who
+take them away are the angels who collect the souls of human beings at death (see 6:61–62; 32:11)
+[Study Quran].
+
+**Belief.** **[Saʿdī]** draws the lesson from the idols' disappearance: the verse gives the disbelievers
+the answer they will give themselves — those they called upon have gone astray from them — so that the
+futility of the reliance is named by the reliant, and they testify against themselves; that is the
+justice of the Day: no one is wronged, and the witness is the man's own admission [Saʿdī].
+**[Qurṭubī]**'s report on the decree belongs to the same ground: the verse's insistence that the portion
+written is what arrives stands in the theological tradition as a proof that the term and the share were
+not subject to human arrangement [Qurṭubī]. **[Study Quran]** notes that the verse's "portion of the
+Book" has been taken by commentators to refer primarily to the worldly share — provision, lifespan, and
+the like — so that the verse's point is that the disbelievers receive their worldly due in full and
+nothing beyond it [Study Quran].
+
+**Cross-references.** "Who is more unjust than he who fabricates a lie against God or says, 'It has been
+revealed to me,' when nothing has been revealed to him" (6:93); "And who is more unjust than he who
+denies the signs of God and turns away from them?" (32:22); "Until, when death comes to one of them, he
+says, 'My Lord, send me back'" (23:99); "And they will not be asked about their sins" (28:78; cf. 6:130)
+[Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading ends with the self-conviction of the deniers, which is the sūrah's
+recurring pattern: the towns confessed "we were wrongdoers" (7:5), and here the disbelievers bear
+witness against themselves at death — the truth is not extracted from them by force but acknowledged by
+themselves when the moment arrives. **[Study Quran]** adds the detail that the invocation of the idols
+is met by their absence, so that the verse is a picture of every reliance other than God at the moment
+it is finally needed.
+
+## 7:38
+
+*"He will say, 'Enter among the communities that have passed away before you, of jinn and mankind, into the Fire.' Every time a community enters, it curses its sister, until, when they have all followed one another into it, the last of them will say of the first of them, 'Our Lord, these led us astray, so give them a double punishment of the Fire.' He will say, 'For each of you there is a double — but you do not know.'"*
+
+**Meaning.** **[Ṭabarī]** gives the verse as God's account of what He will say to the fabricators and
+deniers on the Day of Resurrection, when they come before Him: enter, O you who fabricated lies against
+your Lord and denied His messengers, among communities of your own kind that have passed away before
+you — of jinn and mankind — into the Fire; and by "communities" He means the parties and the followers
+of disbelieving religions. "Every time a community enters, it curses its sister" — every time a group of
+the people of one religion enters the Fire, it curses the other group of the people of its religion,
+disowning itself of it; and He said "its sister" and not "its brother" because what is meant is a
+community and another group, as though it were said: every time a community enters, it curses another
+community of the people of its religion and its creed [Ṭabarī]. **[Ibn Kathīr]** reads "enter among the
+communities" as entering with your likes and those similar to you in conduct, from the earlier
+disbelieving nations of jinn and men, and joins the mutual cursing to Ibrāhīm's words, "then on the Day
+of Resurrection you shall deny one another" (29:25), and to the passage where those who were followed
+disown those who followed them (2:166), so that the Fire's rancour is the outward form of what was
+partnership in this world [Ibn Kathīr]. **[Saʿdī]** tells the scene: the angels say to them, "enter among
+communities that have passed away before you of jinn and mankind," that is, those who went on as you went
+on, in disbelief and arrogance, so that all deserve the humiliation and ruin; every time a community
+enters the Fire it curses its sister, as God said, "on the Day of Resurrection you shall disbelieve in
+one another and curse one another"; until, when they have all followed one another into it — the earlier
+and the later, the leaders and the chiefs and the blind followers together — the last of them, the
+followers of the leaders, say of the first of them, that is of their chiefs, complaining to God of their
+having led them astray: "Our Lord, these led us astray, so give them a double punishment of the Fire";
+and God says, "for each of you there is a double, but you do not know" [Saʿdī]. **[Jalālayn]** fills in
+the syntax: He will say to them on the Day of Resurrection, "enter into the Fire among the number of
+communities of jinn and mankind who passed away before you"; every time a community enters the Fire it
+curses its sister-community — the one that came before it — because of its having gone astray on account
+of it, until, when they have all caught up with one another there, the last of them, those who were the
+followers, shall say to the first of them, those whom they revered and followed: "Our Lord, these led us
+astray, so give them a double chastisement of the Fire"; He will say, "for each of you and them there
+will be a double chastisement, but you do not know" — with the reading *taʿlamūn* or *yaʿlamūn*, "they
+do not know" what will be for each party [Jalālayn]. **[Study Quran]** notes that He who commands them
+is God — or, according to some, the guardian of Hell (R) — that "the communities that have passed away
+before you" refers to sects or communities following false religious ideas (Ṭ), and that each
+community's cursing its sister means either that each community curses previous communities or that the
+later generations of a false religious community curse the earlier generations of the same community
+(R, Ṭ); the curse and mutual disowning of leaders and followers among the disbelievers reflects the
+rancour among the denizens of Hell, which contributes to their torment (see, e.g., 2:166)
+[Study Quran].
+
+**Belief.** **[Saʿdī]** notes what the scene establishes about responsibility: the followers blame the
+leaders, and God's answer gives each of the two a double share — for the leader the sin of his own
+straying and of leading others, for the follower the sin of his own choice and of following — so that
+no one is wronged, and the partnership in the world is answered by partnership in the requital
+[Saʿdī]. **[Ibn Kathīr]** draws the same point in the Qurʾān's own words: the denial of one another and
+the cursing of one another on the Day of Resurrection is the fate of every alliance founded on
+disbelief, and the verse sets it beside the fate of those who follow the messengers of God [Ibn Kathīr].
+
+**Cross-references.** "Then on the Day of Resurrection you shall deny one another and curse one another"
+(29:25); "When those who were followed disown those who followed them, and they see the punishment, and
+the means are cut off from them" (2:166); "And they will say, 'Our Lord, we obeyed our chiefs and our
+great ones, and they led us astray from the way'" (33:67); "And We shall make some of them on that Day
+follow others, and We shall gather them all together" (18:99? cf. 18:47–48) [Ibn Kathīr] [Saʿdī].
+
+**Reflection.** **[Saʿdī]**'s reading of the exchange gives the verse its moral edge: those who in this
+world took one another as protectors and were content to follow a way without examining it meet in the
+Fire as accusers and accusers, and the double punishment the followers beg for their leaders is the
+confession of what they themselves chose. **[Study Quran]** draws the same picture from the sūrah's
+sequence: the towns and generations that passed away before them are exactly the "communities" of this
+verse, and the verse shows what the passing away was for — not the end of the matter, but the entrance
+into a place where the people of one religion meet each other again.
+
+## 7:39
+
+*"And the first of them will say to the last of them, 'You have no superiority over us; so taste the punishment for what you used to earn.'"*
+
+**Meaning.** **[Ṭabarī]** sets the verse as the answer of those who went before: the first of every
+community and religion that preceded in the world says to the last of them, those who came after them
+and followed their path and walked in their example — "you have no superiority over us": you have known
+what befell us of God's punishment for our disobedience to Him and our denial of His signs, after the
+messengers and warners came to us and to you; so did you turn back to God's obedience, and did you
+restrain yourselves from your error and your straying? The argument of the people of the Fire falls
+silent and they are confuted, unable to answer by saying, "we were favoured over you in that we took
+warning from you and believed in God and affirmed His messengers"; and God says to all of them: taste the
+punishment of Hell for what you used to earn [Ṭabarī]. **[Saʿdī]** puts the two speeches side by side:
+the followers complained of the leaders, and the leaders answer them with the same accusation turned
+back — you were no better than we: you followed us by your own choice, having the same message and the
+same warning, and the punishment is for what you earned; so taste it [Saʿdī]. **[Jalālayn]** is compact:
+and the first of them shall say to the last of them, "you have no advantage over us," since you did not
+disbelieve because of us — you and we are equal in this predicament; then God says to them: "so taste
+the punishment for what you used to earn" [Jalālayn]. **[Study Quran]** reads the two verses together,
+noting that this mutual accusation and reply is the sūrah's portrait of the denizens of Hell as those who
+dispute and curse one another, so that the hierarchy of the world — leaders and followers, the revered
+and the led — is levelled in the punishment: those who claim superiority find the same sentence, and
+those who pleaded that they were led find the plea answered by their own responsibility (see also
+33:67–68) [Study Quran].
+
+**Language.** **[Jalālayn]** notes the reasoning in the phrase "you have no superiority over us": the
+followers are told they did not disbelieve on account of the leaders — the leaders' error did not
+compel them, and their own choice was at work — so the two parties stand on the same level in the
+punishment; **[Ṭabarī]** makes the same point in the form of the preaching they received: the warning
+came to both generations, and the later knew what had happened to the earlier, so that their following
+was a repetition without excuse [Ṭabarī].
+
+**Cross-references.** "And they will say, 'Our Lord, we obeyed our chiefs and our great ones, and they
+led us astray from the way'" (33:67); "And he will say, 'This is a crowd that is entering with you; no
+welcome to them, for they are to enter the Fire'" (38:59); "And the last of them will say, 'Our Lord,
+these led us astray, so give them a double punishment of the Fire'" (7:38); "Then on the Day of
+Resurrection you shall deny one another" (29:25) [Study Quran] [Saʿdī].
+
+**Reflection.** **[Ṭabarī]**'s reading closes the argument both ways: the leaders cannot fall back on
+the followers and the followers cannot fall back on the leaders, because the message had come to both
+and the responsibility was each one's own — and the verse's last word, "for what you used to earn," gives
+the measure: what is punished is what was earned, and what was earned was chosen. **[Saʿdī]** draws the
+same meditation: the scene is drawn so that the reader in this world unties the knot before it is tied —
+the follower should demand proof before he follows, and the leader should fear the double weight of the
+one who leads and strays.
+
+## 7:40
+
+*"Truly those who deny Our signs and are arrogant toward them — the gates of heaven shall not be opened for them, nor shall they enter the Garden until the camel passes through the eye of the needle. And thus do We recompense the guilty."*
+
+**Meaning.** **[Ṭabarī]** opens with the sense: those who denied Our proofs and marks, not affirming them
+and not following Our messengers, and were arrogant toward them — refusing to affirm them, disdaining to
+follow them and submit to them — the gates of heaven shall not be opened for their spirits when they
+leave their bodies; and nothing of theirs ascends to God in their lifetime, neither word nor deed,
+because their deeds are foul: only the good word ascends and the righteous deed is raised, as He said,
+"to Him ascends the good word, and the righteous deed He uplifts" (35:10). He then sets out the
+interpretations: some said the gates are not opened for the spirits of these disbelievers when they
+leave their bodies, while they are opened for the spirits of the believers — from Ibn ʿAbbās; and
+al-Suddī's extended account: when the disbeliever's soul is taken, the angels of the earth strike it so
+that it rises toward the heaven, and when it reaches the lowest heaven the angels of that heaven strike
+it and it falls, and the angels of the earth strike it and it rises again, until it falls to the lowest
+of the earths; whereas when it is a believer, his spirit is breathed out and the gates of heaven are
+opened for him, and he passes no angel without greeting him and being greeted with peace by him, until
+he reaches God, who gives him what he needs, and then God says, "return the spirit of My servant to the
+earth — for I created him from dust, and to dust he returns, and from it he will be brought out" — and
+others said the meaning is that no righteous deed and no supplication of theirs ascends to God, from Ibn
+ʿAbbās by way of ʿAṭāʾ [Ṭabarī]. **[Qurṭubī]** reads the verse as referring to their spirits, and cites
+the sound reports gathered in his book *al-Tadhkira*, among them the ḥadīth of al-Barāʾ b. ʿĀzib, in
+which, describing the taking of the disbeliever's soul, he says: "and there comes out of it a stench
+like the foulest corpse found on the face of the earth, and they ascend with it, and they pass by no
+gathering of angels without their saying, 'whose is this foul spirit?' and they say, 'So-and-so son of
+So-and-so,' with the ugliest of the names by which he was called in the world, until they reach the
+lowest heaven and ask for the gate to be opened, and it is not opened for them" — then the Messenger of
+God ﷺ recited, "the gates of heaven shall not be opened for them." It was also said that the gates are
+not opened for them when they call upon God — the view of Mujāhid and al-Nakhaʿī — and it was said the
+meaning is that the gates of Paradise are not opened for them, since Paradise is in the heaven, as shown
+by what follows, "nor shall they enter the Garden until the camel passes through the eye of the needle":
+the camel will not pass, so they shall never enter it; and this is a decisive proof that no pardon is
+possible for them, and on this the Muslims whose word cannot be mistaken have agreed that God will not
+forgive them, or any one of them [Qurṭubī]. **[Jalālayn]** gives the verse with the contrast that makes
+it plain: those who deny Our signs and scorn them, not believing in them — the gates of heaven shall not
+be opened for them when their spirits are carried up to it after death, for instead they are taken down
+into Sijjīn (cf. 83:7–8), in contrast to the believer, for whom the gates are opened and whose spirit is
+carried up into the seventh heaven as is stated in a ḥadīth; nor shall they enter Paradise until the
+camel passes through the eye of the needle — which is impossible, and so is their entry into Paradise;
+and with this requital God requites those who are guilty through disbelief [Jalālayn]. **[Saʿdī]**
+explains the image from the Arabic: *al-jamal* is the well-known camel, and "the eye of the needle"
+(*samm al-khiyāṭ*) is the hole of the needle, one of the narrowest of things; so the verse suspends their
+entry on something impossible, as if to say: as the entering of the camel — one of the largest-bodied of
+animals — into the eye of the needle is impossible, so the entering of those who deny God's signs into
+the Garden is impossible; and the meaning of the verse allows one to infer its opposite — that the
+spirits of the believers, obedient to God's command and affirming His signs, have the gates of heaven
+opened for them, so that they ascend to God and reach where God wills in the higher world, rejoicing in
+nearness to their Lord and in attaining His good pleasure [Saʿdī]. **[Study Quran]** notes that the
+punishment of those who deny God's signs and wax arrogant against them is mentioned in several verses
+(6:93; 7:133–36; 23:45–48; 39:59–60; 41:15–16), and that for such people the gates of heaven shall not
+be opened in the Hereafter, or even in this life according to some commentators, insofar as the words
+and actions of such people, being evil, will not ascend to God (R, Ṭ, Z); and it explains the image: the
+camel passing through the eye of the needle is a metaphor for something so difficult as to be impossible,
+similarly used in the Gospel to describe the difficulty of a rich man's entering the kingdom of God
+(Matthew 19:24; Mark 10:25; Luke 18:25); *camel* here translates *jamal*, and many commentators consider
+it a clear reference to the large animal, though some note that the term could be read *juml*, meaning a
+thick cable woven of many strands such as is used to secure ships (R, Ṭ, Z) [Study Quran].
+**[Maʿārif]** records from *al-Baḥr al-Muḥīṭ* the gloss of Ibn ʿAbbās on the verse: the gates of heaven
+will be opened neither for them nor for their prayers — that is, their supplication is not answered and
+their deeds are stopped from reaching the place where the deeds of the righteous servants of God are
+preserved, the place named in the Qurʾān *ʿIlliyyūn* [Maʿārif].
+
+**Belief.** **[Saʿdī]** draws the principle the verse rests on: "the recompense is of the same kind as
+the deed" — as they did not rise in this world to faith in God, knowledge of Him and love of Him, so
+their spirits do not rise after death; and the verse's inference shows the road open for the other party,
+whose ascent in this world to faith is answered by the ascent of their spirits at death [Saʿdī].
+**[Qurṭubī]** draws the doctrinal conclusion from the second half: the impossibility of the camel's
+passing is the decisive proof that the disbelievers who persist in denial shall never enter the Garden,
+and that on this point the community's agreement is unbroken — the verse is not a promise of a late
+entry but a statement that no entry is to be expected [Qurṭubī]. **[Maʿārif]** reads the whole passage
+(7:35–43) as a pledge and its outcome: verses 35–37 set out the pledge taken from every human being in
+the world of spirits before birth — that when the prophets come they will listen and act — with
+salvation for those who keep it and punishment for those who deny it; the later verses show what actually
+happened when different groups came into the world, some throwing the pledge away and some holding to it,
+and the four verses from 40 describe the end of the deniers and the criminals, while the two that follow
+(7:42–43) describe the believers and the God-fearing who fulfilled the pledge [Maʿārif].
+
+**Cross-references.** "To Him ascends the good word, and the righteous deed He uplifts" (35:10);
+"As for those who deny Our signs and the meeting of the Hereafter, their deeds are in vain" (7:147);
+"To Him ascend the angels and the Spirit in a day whose measure is fifty thousand years" (70:4);
+"So enter the gates of Hell, abiding therein; how evil is the dwelling of the arrogant" (16:29);
+"And the gates of Hell shall be opened" (39:71; cf. 39:73 for the Garden) [Ṭabarī] [Jalālayn].
+
+**Reflection.** **[Saʿdī]**'s reading of the image as a statement about impossibility, and of the verse's
+silence as a statement about possibility for the other party, gives the passage its balance: the camel
+and the needle measure the distance that pride creates, and the opened gates measure the nearness that
+faith brings. **[Maʿārif]** sets the same picture inside the sūrah's larger frame — the pledge taken from
+the children of Adam and the two roads leading from it — so that the verse is read not as a description
+of a distant judgment but as the outcome of a promise every human being has already made.
