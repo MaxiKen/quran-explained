@@ -1748,3 +1748,491 @@ injustice, not as an act; the Qurʾān never punishes the man who errs, only the
 and God is angry with him and has cursed him and prepared for him a great punishment" (4:93); "The blame is
 only upon those who wrong people and rebel in the earth without right; for those is a painful punishment"
 (42:42); "That is easy for God" appears also at 4:169 and 35:11.
+## 4:31
+
+*"If you shun the grave sins that you are forbidden, We shall absolve you of your evil deeds and cause you
+to enter at a noble gate."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed about the grave sins whose avoidance God has promised to
+recompense with the covering of the rest of a servant's evil deeds. One group said: they are what God
+forbade His servants from the beginning of Sūrat an-Nisāʾ up to the thirtieth verse. ʿAbdullāh b. Masʿūd
+said: "The grave sins are from the beginning of Sūrat an-Nisāʾ to thirty of it." **[Jalālayn]** They are the
+sins for which the threat of punishment has been prescribed — like murder, fornication and theft — and
+according to Ibn ʿAbbās they number as many as seven hundred; if you avoid them, God will absolve you of your
+minor evil deeds in return for your acts of obedience, and admit you by a noble gate — read *mudkhalan* or
+*madkhalan* — that is, by a noble admittance to Paradise. **[Saʿdī]** Avoiding the grave sins includes
+performing the obligations whose omission makes the one who omits them a committer of a grave sin: the five
+prayers, the Friday prayer and the fast of Ramadan — as the Prophet ﷺ said: "The five prayers, Friday to
+Friday, and Ramadan to Ramadan are expiations for what lies between them, so long as the grave sins are
+avoided." And the best definition given for the grave sins: a grave sin is what has a prescribed penalty in
+this world, or a threat in the next, or a negation of faith, or an attachment of curse or anger to it.
+
+**Rulings.** **[Qurṭubī]** When God in this sūrah forbade sins that are grave, and promised on avoiding them
+a lightening of the lesser, this showed that among sins there are grave and lesser — and this is the position
+of the body of the exegetes and the jurists: a mere touch or glance is expiated by avoiding the grave sins,
+definitively, by His truthful promise, not that such expiation is rationally obligatory upon Him.
+**[Maʿārif]** Expiation (*kaffārah*) means what makes amends: righteous deeds are taken as expiation for
+minor sins, which are thus written off, resulting in reward instead of punishment and Paradise instead of
+Hell. This conforms to authentic *aḥādīth* stating that when a person makes *wuḍūʾ* for prayer, the washing
+of each part becomes expiation for the sins of that part — the face for the sins of the eye, ear and nose, the
+rinsing of the mouth for the sins of the tongue, the feet for the sins of the feet; and that when he walks to
+the mosque every step brings expiation. But the expiation of sins through such righteous deeds concerns the
+minor sins; the grave sins are not forgiven by them but by *tawbah*, sincere repentance, alone.
+**[Study Quran]** Sets out how the grave sins have been enumerated. Some hold them to be transgressions of any
+of the moral laws established to this point in the sūrah. Al-Ṭabarī gives a widely cited list attributed to
+ʿAlī b. Abī Ṭālib: associating others with God, killing a soul God has not made lawful to kill, slandering a
+chaste woman, consuming the wealth of orphans, usury, fleeing the battlefield, and returning to the Bedouin
+life after having settled (settling being closely tied to adopting the Islamic social order). The list is not
+exhaustive — theft, denounced in the Qurʾān, is missing — and though false accusation of fornication appears,
+fornication itself does not.
+
+**Reflection.** **[Qurṭubī]** The verse, read with the passage before it, is one of God's mercies: after the
+stern prohibitions of the previous verses, He opens a door of hope large enough to carry the ordinary
+believer — avoid the great sins, and the lesser are carried. And since the promise is a promise, the believer
+may rely on it, not as a licence, but as the hope by which he keeps his footing. **[Saʿdī]** notices that
+the verse does not say "your sins" but "your evil deeds": God names the lesser faults by a lighter name to
+show what He intends to let pass. **[Maʿārif]** draws the practical line: the minor sins are washed away
+with the daily acts of a life turned toward God — the ablution, the prayer, the step toward the mosque —
+which is why the grave sins require not the routine but the return.
+
+**Cross-references.** "And avoid the grave sins and the indecencies" (42:37, 53:32); "Those who avoid the
+grave sins and indecencies, and when they are angry forgive" (42:37); "If you avoid the grave sins which you
+are forbidden, We shall remit your evil deeds" is echoed by the *ḥadīth* of the five prayers as expiation.
+
+## 4:32
+
+*"And covet not that by which God has favored some of you above others. Unto men a share of what they have
+earned, and unto women a share of what they have earned; and ask God of His bounty. Truly God is Knower of
+all things."*
+
+**Meaning.** **[Ṭabarī]** Do not desire what God has favored some of you above others — and it is reported
+that this was revealed concerning women who wished for the stations of men and to have what they have; so God
+forbade His servants vain desires and commanded them to ask Him of His bounty, since desires beget in their
+owners envy and transgression without right. **[Qurṭubī]** Al-Tirmidhī records from Umm Salamah that she
+said: "Men go to battle and we do not go; and we have only half the inheritance." Then God sent down, "And
+covet not that by which God has favored some of you above others." Mujāhid said that 33:35 was sent down
+concerning the same matter — "the Muslim men and the Muslim women" — and Umm Salamah was the first woman
+Emigrant to arrive in Madīnah. Al-Tirmidhī said: this report is *mursal* — one narrator's link missing.
+**[Jalālayn]** Do not covet what God has preferred some of you with, in worldly affairs or religion, lest it
+lead to mutual envy and hatred: to men a share of the reward for what they have earned — their acts, struggle
+and so on — and to women a share of what they have earned by obeying their spouses and guarding their
+chastity; and ask God of His bounty for what you need, and He will give it to you; God is ever Knower of all
+things, including where merit is deserved and what is asked.
+
+**Meaning & belief.** **[Saʿdī]** God forbids the believers to wish for what He has favored others with, in
+things possible and impossible: women should not wish for the peculiarities of men by which God has favored
+them, nor should the poor or deficient wish — as a mere wish — for the state of the wealthy and complete;
+for that is envy itself, wanting God's blessing upon another to be yours while he is stripped of it, and it
+entails displeasure with God's decree, laziness, and empty hopes unaccompanied by work or earning. Only two
+things are praiseworthy: that the servant strive according to his capacity for what benefits him in religion
+and worldly life, and that he ask God of His bounty — not relying on himself nor on anyone but his Lord.
+Hence "unto men a share of what they have earned": of works that produce what is sought; "and unto women a
+share of what they have earned": each receives only what he gained and labored for. "Ask God of His bounty":
+of all your interests in religion and this world — this is the servant's perfection and the sign of his
+happiness. And "God is Knower of all things": He gives to the one He knows is fit for it and withholds from
+the one He knows is not entitled.
+
+**Reflection.** **[Study Quran]** The favoritism God mentions is not arbitrary: inequality in worldly
+provision poses moral challenges — wealth and poverty challenge one to be generous and the other to be
+humble — and moral trial comes through good things, such as wealth and children (64:15), as well as through
+hardship (21:35). The closing statement that God is Knower of all things suggests that the differentiation
+belongs to a wisdom whose reasons lie with Him. The verse was reportedly revealed after complaint about the
+double share of men in inheritance and the greater spiritual reward of *jihād*, or after a woman asked the
+Prophet whether women would receive half reward in worship as they receive half inheritance; the answer is
+given in 33:35 or 3:195, where the otherworldly reward of righteous men and women is stated explicitly and
+without distinction. **[Saʿdī]** makes the practice: the wish is not quenched by comparing but by asking the
+One who gives — the verse replaces the sigh with a supplication.
+
+**Cross-references.** "God has favored some of you over others in provision" (16:71); "And He has raised
+some of you above others in degrees" (6:165); "The Muslim men and the Muslim women... God has prepared for
+them forgiveness and a great reward" (33:35).
+
+## 4:33
+
+*"And to each We have appointed heirs of what parents and near kin leave; and those to whom your right hands
+are pledged — give them their share. Truly God is Witness over all things."*
+
+**Meaning.** **[Ibn Kathīr]** Ibn ʿAbbās, Mujāhid, Saʿīd b. Jubayr, Abū Ṣāliḥ, Qatādah, Zayd b. Aslam,
+al-Suddī, al-Ḍaḥḥāk, Muqātil b. Ḥayyān and others said that "We have appointed *mawālī*" means heirs. Ibn
+ʿAbbās also said *mawālī* means relatives; and Ibn Jarīr commented, "The Arabs call the cousin a *mawlā*."
+"Of what parents and relatives leave": from what he inherits from his parents and family — so the sense is:
+to all of you, O people, We appointed relatives who will later inherit what you have inherited from your own
+parents and relatives. "And those to whom your right hands are pledged — give them their share": those with
+whom you have a pledge of brotherhood, give them their share of inheritance, thus fulfilling the ratified
+pledges you gave them, and God witnessed all of you when you gave those pledges and promises. This practice
+was followed at the beginning of Islam and was later abrogated when Muslims were commanded to fulfill the
+pledges of brotherhood they had already given but to refrain from making new ones — and al-Bukhārī recorded
+from Ibn ʿAbbās: the Emigrants, when they came to Madīnah, would have the Anṣārī inherit from the Muhājirī
+rather than his own blood relatives, because of the brotherhood the Messenger of God ﷺ had established
+between them; when "and to each We have appointed heirs" came down, that was abrogated.
+
+**Meaning.** **[Saʿdī]** "To each" of people "We appointed *mawālī*" — those who take charge of one another
+with support, help and assistance in affairs — "of what parents and near kin leave," which includes all
+relatives, of the roots, the branches and the sides. Then God mentions another kind of *mawālī*: "those to
+whom your right hands are pledged," those with whom you made a covenant of alliance, mutual aid and sharing
+of property. All of this is among God's blessings on His servants, since allies help one another with what
+each could not do alone. "Give them their share": give the allies the portion owed to them of support,
+assistance and help — not in disobedience to God, and inheritance to the nearer kin rather than to allies.
+"Truly God is Witness over all things": He sees all things with His knowledge, His sight of His servants'
+movements and His hearing of all their voices.
+
+**Rulings.** **[Qurṭubī]** God made plain that every person has heirs and allies, so let each benefit from
+what God has apportioned to him of inheritance and not covet another's wealth. Al-Bukhārī records in the book
+of *farāʾiḍ*, from Saʿīd b. Jubayr from Ibn ʿAbbās, the report that the Emigrants, when they came to
+Madīnah, had the Anṣārī inherit from the Muhājirī, excluding the latter's own blood relations, because of the
+brotherhood the Messenger of God ﷺ had made between them; and when "and to each We have appointed heirs"
+came down, the practice ended. **[Study Quran]** Records the same: the terms *mawālī* and *awliyāʾ* both
+serve in the Qurʾān for relationships of inheritance, kinship, servitude, friendship and alliance. The verse
+concerns the practice of adopting others as sons in order to allot them a share of inheritance, and the
+practice of two men entering an agreement by which each would inherit from the other and avenge him if
+killed. The famous "brothering" (*muʾākhāh*), in which the Prophet paired Makkan Emigrants with Madinan
+Helpers, was an early Islamic version of such an alliance — with a spiritual and communal purpose rather
+than a financial one; a minority read the verse specifically as a reference to that event, while most take it
+as the general rule of inheritance, later modified so that blood relations are nearer to one another (8:75).
+
+**Reflection.** **[Jalālayn]** notes that the old pact of alliance has been superseded: such ties retain
+their moral obligation — "give them their share" — but the estate now passes by blood, as 8:75 and 33:6
+settle. **[Saʿdī]** draws from the verse the spirit behind both: human beings are made to lean on one
+another — a man's relatives and allies are the hands he does not have — and God's command to give each one
+his share is a command to honor the ties by which society stands, with the Witness over all things watching
+that no share is withheld.
+
+**Cross-references.** "But those related by blood are nearer to one another in the Book of God" (8:75,
+33:6); "And those who believed and emigrated and fought in the way of God, and those who gave shelter and
+aid — those are allies of one another" (8:72); "God is Witness over all things" appears also at 4:79 and
+22:17.
+
+## 4:34
+
+*"Men are the upholders of women, by virtue of what God has favored some of them with over others, and by
+virtue of what they spend of their wealth. So the righteous women are devoutly obedient, guarding in secret
+what God has guarded. And those from whom you fear discord — admonish them, and leave them alone in their
+beds, and strike them. Then if they obey you, seek no way against them. Truly God is Exalted, Great."*
+
+**Meaning.** **[Ṭabarī]** Men are the upholders of women: men are the ones who stand over their women,
+disciplining them and taking them in hand in what they owe God and what they owe themselves — because God has
+favored the men over their wives by bringing them their dowries, spending their wealth upon them and
+providing what they need; this preference is what makes them stand over them and carry out their authority in
+what God has committed to them of their affairs. **[Qurṭubī]** *Qawwāmūn*: they stand over them with
+maintenance and defense; and among them are the rulers, the commanders and those who go to war, which is not
+the case among women. The verse was revealed, it is reported, concerning Saʿd b. al-Rabīʿ, whose wife Ḥabībah
+bint Zayd b. Khārija resisted him and he slapped her; her father came to the Messenger of God ﷺ to complain
+that he had offered his noble daughter as a bed and she had been struck. **[Ibn Kathīr]** The man is
+responsible for the woman: he is her maintainer, her caretaker and her leader who disciplines her if she
+deviates; "because God has made one of them to excel the other" — men excel over women in certain tasks,
+which is why prophethood was exclusive to men, along with other positions of leadership; the Prophet ﷺ said,
+"A people who appoint a woman to lead them will never prosper" (al-Bukhārī). "And because they spend of their
+wealth": the dowry, maintenance and the various expenses God ordained in His Book and the Sunna for men to
+spend on women; hence the man has a degree over them (2:228).
+
+**Meaning.** **[Saʿdī]** God informs us that men are *qawwāmūn* over women — binding them to the rights of
+God, guarding the obligatory duties and restraining them from corruption — and the men must provide for them,
+clothe them and house them. Then He names the reason: because God has favored men over women, and because
+they spend of their wealth. The preference of men over women is in many respects: offices and leadership,
+prophethood and the message, many acts of worship such as *jihād*, the festivals and the Friday prayer, and
+what God has given them of intellect, steadiness, patience and endurance beyond what women have; and they are
+distinguished by spending on wives. From all this it is known that the man is like a governor and master to
+his wife, and she with him is a charge and a servant, so his duty is to carry out what God has entrusted to
+him, and her duty is to carry out the obedience of her Lord and of her husband. Hence "the righteous women
+are *qānitāt*" — obedient to God — "guarding in secret": obedient to their husbands even in the husband's
+absence, guarding his person and his property — and that by God's protection of them and His enabling, not by
+their own strength, for the self commands to evil; but whoever relies on God, He suffices him in what
+matters to him of his religion and his world.
+
+**Rulings.** **[Jalālayn]** "Those from whom you fear rebellion" — disobedience to you, when its signs
+appear: admonish them and make them fear God; and if they persist, share not their beds, retiring elsewhere;
+and strike them, but not violently, if they refuse to desist after being left in separate beds; if they then
+obey you in what is desired of them, do not seek a way against them, a reason to strike them unjustly. God is
+ever High, Great — beware of Him lest He punish you for treating them unjustly. **[Saʿdī]** The husband
+disciplines her by the easiest means first: *waʿẓ*, explaining God's ruling concerning obedience to the
+husband and warning against disobedience — if she desists, that is what is sought; otherwise he separates from
+her bed; then the strike, which is permitted as the final stage of a graded remedy. **[Study Quran]** This
+verse is the clearest statement of a man's role and authority in the marital relationship as head of the
+household, joined to his responsibility to provide for his wife; other verses suggest mutuality (2:187, 233),
+but this verse indicates a hierarchy from a certain perspective, at least on the social plane (see 2:228). It
+identifies men as the upholders and maintainers (*qawwāmūn* — also "managers" or "guardians," though not in
+the sense of guardians over minors or the mentally incompetent), traditionally understood to mean that men
+are entitled to expect certain kinds of behavior from their wives and have the right and duty to supervise,
+educate and discipline them, or to command and prohibit them. The "striking" has been read by jurists as
+symbolic, strictly non-injurious and only as a last resort within the graded sequence.
+
+**Reflection.** **[Saʿdī]** The closing names — Exalted, Great — are the balance of the whole instruction:
+the authority the verse gives the husband is held under the authority of the One who is above them both; the
+man who strikes unjustly, or seeks a way against a wife who has obeyed, has forgotten Who is Greater, Exalted
+above His creation. And the verse's remedy is graded in mercy: the admonition first, which costs nothing; the
+separation second, which costs only the husband's own comfort; and the strike last, permitted but never
+sought — "seek no way against them."
+
+**Cross-references.** "And they have rights similar to those over them in kindness, but men have a degree
+over them" (2:228); "And if you fear discord between them, send an arbiter from his people and an arbiter
+from her people" (4:35); "And live with them in kindness" (4:19); "God is Exalted, Great" is echoed at the
+close of 4:34 alone in the sūrah.
+
+## 4:35
+
+*"And if you fear a breach between the two, then send an arbiter from his people and an arbiter from her
+people. If they two desire reconciliation, God will bring them together. Truly God is Knowing, Aware."*
+
+**Meaning.** **[Ṭabarī]** "If they two desire reconciliation" — if the two arbiters desire to set things
+right between the man and the woman, that is, between the spouses whose breach is feared — God will bring the
+two arbiters into agreement so that they concur on reconciliation; and that is when each of the two entrusted
+with examining the spouses' affair is truthful in what he conveys. Mujāhid said: it is not the man and the
+woman, it is the two arbiters. Saʿīd b. Jubayr said the same, and ʿAṭāʾ: they are the two arbiters — if they
+desire to reconcile, God gives them success. **[Jalālayn]** If you fear a breach between the married couple,
+send an arbiter — a just man from his kin, and an arbiter from her kin; the *bayna* construction standing for
+a range of alternatives. The husband delegates to his arbiter the matter of divorce or of accepting
+compensation in its place, and she delegates to hers the matter of separation; the two arbiters do their best,
+bid the one guilty of injustice to desist, or suggest separation if they see it is better. And God says: if
+the two arbiters desire to set things right, God will grant the couple success, determining for them what
+constitutes obedience — whether reconciliation or separation.
+
+**Rulings.** **[Saʿdī]** The arbiters must be two men, adult, Muslim, just, sane, knowing what lies between
+the spouses and knowing how to join and how to separate — this being understood from the word *ḥakam*, since
+none is fit to be an arbiter save one characterized by those qualities. They examine what each spouse holds
+against the other, then bind each to what is due; if one of them cannot achieve it, they content the other
+spouse with willingness to accept what is possible of provision and character; and whenever joining and
+reconciling is possible, they must not turn from it. If the matter reaches a point where their living together
+cannot be maintained except in enmity and estrangement and disobedience to God, and the arbiters see that
+separating them is better, they separate them — and the husband's consent is not a condition, as is indicated
+by God's calling them *ḥakamān*, for an arbiter judges even if the one judged is not pleased. And that is why
+God said, "If they two desire reconciliation, God will bring them together," through the blessed counsel and
+the speech that draws hearts and joins the spouses. "God is Knowing, Aware": He knows all that is outward and
+inward, and He is the One who legislated for you these mighty rulings.
+
+**Rulings.** **[Ibn Kathīr]** The jurists say that when estrangement occurs between husband and wife, the
+judge refers them to a trusted person who examines their case in order to stop any wrongs committed between
+them; if the matter continues or worsens, he sends a trustworthy person from the woman's family and one from
+the man's family to meet with them and examine the case, to determine whether it is best to part or to remain
+together. God gives preference to staying together, which is why He said, "If they both wish for peace, God
+will cause their reconciliation." **[Study Quran]** Sets out the disagreement on the arbiters' power: some
+hold they bring recommendations to the local authority for implementation; some hold they may reconcile or
+dissolve the marriage on their own agreement; others hold that any action must have the consent of the two
+spouses. A report from ʿAlī b. Abī Ṭālib indicates that the two arbiters have power to dissolve the marriage
+upon their agreement, but that this power must be delegated to them by the married couple in advance; if they
+recommend separation and the wife is at fault, or the differences are simply irreconcilable, they may
+separate. **[Maʿārif]** The purpose of the procedure is to keep the dispute out of the courts and the public
+eye: the officials, the guardians or a body of Muslims with integrity and influence take charge and appoint
+the two arbitrators — one from each family — so that tempers cool, accusations are shut out and a compromise
+becomes possible within the families rather than in a courtroom.
+
+**Reflection.** **[Saʿdī]** The two arbiters are chosen from the two families, and that is a mercy in
+itself: each side has someone who knows its case and will not sell its cause, and the couple is not handed
+over to strangers. The promise "God will bring them together" is attached to the arbiters' intention, not to
+the outcome: reconciliation is a reward of the desire for it. And the close — Knowing, Aware — lifts the whole
+procedure above the reach of partiality: the arbiters may not see the hidden wrongs, but God does.
+
+**Cross-references.** "And if you fear discord between them, send an arbiter from his family and an arbiter
+from her family" completes the graded remedy of 4:34; "And if a woman fears ill-treatment from her husband or
+desertion, there is no blame on them if they reconcile" (4:128); the command to judge in justice at 5:8 and
+49:9.
+
+## 4:36
+
+*"And worship God, and associate nothing with Him; and be virtuous toward parents, and to kin, and to orphans,
+and to the needy, and to the neighbor who is of kin, and the neighbor who is a stranger, and the companion at
+your side, and the wayfarer, and those whom your right hands possess. Truly God loves not the arrogant
+boaster."*
+
+**Meaning.** **[Ibn Kathīr]** God orders that He be worshipped alone without partners, because He alone is
+the Creator and Sustainer who sends His favors on His creation in every state; therefore He deserves to be
+singled out, without associating anything of His creation with Him in worship. The Prophet ﷺ said to Muʿādh,
+"Do you know what God's right upon His servants is?" Muʿādh replied, "God and His Messenger know better"; he
+said, "That they worship Him and associate nothing with Him." Then he said, "Do you know what the right of the
+servants upon God is if they do that? That He will not punish them." Allah then commands dutifulness to
+parents, for He made parents the reason for the servant's coming into existence after he was not; He joins
+the command to worship Him with kindness to parents in many places — "Give thanks to Me and to your parents"
+(31:14), "And your Lord decreed that you worship none but Him, and kindness to parents" (17:23).
+**[Jalālayn]** "And the neighbor who is near" — near in physical vicinity or kinship; "the neighbor who is a
+stranger" — far from you in vicinity or kinship; "the companion at your side" — a travelling companion or a
+colleague at work, and it is also said, one's wife; "the wayfarer" — the one cut off during a journey; "and
+what your right hands own" — bondsmen. "Truly God loves not the conceited, the arrogant and the boastful" —
+the one who boasts before people of what he has been given.
+
+**Meaning.** **[Saʿdī]** After commanding His worship and the fulfillment of His right, God commands the
+fulfillment of the rights of His servants, nearest first: "and to parents, *iḥsān*" — kindness by noble
+speech, gentle address and beautiful action, obeying their command, avoiding their prohibition, spending on
+them, honoring those connected to them and maintaining the ties that bind you only through them. *Iḥsān* has
+two opposites: ill-treatment and its mere absence — and both are forbidden. "And to the near of kin":
+includes all relatives, near or far, in speech and deed, and not cutting the tie by word or act. "And
+orphans": those who have lost their fathers while young — whether relatives or not, they have a right upon
+the Muslims: sponsorship, kindness, consoling their hearts, disciplining them and rearing them in the best
+manner for their religious and worldly interests. "And the needy": those whom need and poverty have stilled,
+who do not obtain their sufficiency nor that of those they support — God commands kindness to them by filling
+their want, driving off their poverty, urging others to it and doing what one can. "And the neighbor who is
+of kin": the near neighbor who has two rights — the right of neighborhood and the right of kinship — so he
+has a right and a kindness due according to custom; and likewise the neighbor who is a stranger: the far
+neighbor, whether distant in kin or in place. **[Study Quran]** Notes that this is one of several verses
+placing virtue toward parents immediately after the command to worship none but God (2:83; 6:151; 17:23;
+31:13–14), and that the Arabic word used here, *iḥsān*, comes from a root meaning "beautiful," so that it
+denotes virtue, moral beauty and doing what is beautiful and good; in relation to parents it means filial
+piety. The list is similar to other Qurʾānic lists of those owed kindness (2:83, 177, 215; 9:60; 16:90;
+17:26; 30:38). The "neighbor who is of kin" is generally taken as family members, though a minority identify
+it as Muslims generally; the "neighbor who is not of kin" may mean non-family members or friends, but also
+those distant geographically or in religion, since *junub* relates to something distant.
+
+**Rulings.** **[Qurṭubī]** The scholars agree that this verse belongs to the firmly established, nothing in
+it abrogated — and so it is in all the books; and even if it were not, reason would know it, without the Book
+coming down. Since worship (*ʿubūdiyyah*) means submissiveness and dependence upon the One who holds command
+and choice, God commanded His servants to humble themselves before Him and be sincere in it; the verse is thus
+a foundation for the purity of acts for God and their purification from the stains of showing off and the
+like — "So whoever hopes for the meeting with his Lord, let him do righteous work and associate none in the
+worship of his Lord" (18:110). **[Maʿārif]** Explains why the oneness of God comes first in the roster of
+rights: the perfect fulfillment of the rights of people is possible only from a person whose orientation to
+God, His Messenger and the accountability of the Last Day is sound and strong, and who avoids miserliness,
+arrogance and affectation, the impediments to all positive effort.
+
+**Reflection.** **[Saʿdī]** The verse widens the circle of obligation ring by ring: from God, to the two
+parents, to all kin, to the orphans, the needy, the two kinds of neighbor, the companion beside you, the
+traveller and those your right hands possess — and then closes by naming the one vice that breaks every ring
+of it at once, the arrogance that measures a man by what he has rather than by what he owes. **[Study
+Quran]** observes that the list moves outward from the household to the stranger, so that the ethics of the
+sūrah are not tribal: the *junub* neighbor and the wayfarer are the ones with no claim on you except
+proximity and need.
+
+**Cross-references.** "And your Lord decreed that you worship none but Him, and kindness to parents"
+(17:23–24); "Say: Come, I will recite what your Lord has forbidden you: that you associate nothing with Him,
+and that you be kind to parents" (6:151); "Give the relative his due, and the needy and the wayfarer"
+(30:38); "And serve God and associate nothing with Him" (4:36) is the first of the sūrah's summary commands.
+
+## 4:37
+
+*"Those who are miserly, and enjoin people to be miserly, and conceal what God has given them of His bounty —
+and We have prepared for the disbelievers a humiliating punishment."*
+
+**Meaning.** **[Jalālayn]** Those who are niggardly in their duty, and bid other people to be niggardly in
+the same, and conceal what God has bestowed on them of His bounty in the way of knowledge and property —
+these are the Jews — the predicate of the subject being an implied "for them there is a promise of severe
+punishment." And We have prepared for those who disbelieve in this and other matters a humiliating
+chastisement. **[Ibn Kathīr]** God censures the stingy behavior of those who refuse to spend their wealth for
+what God ordered — kindness to parents, compassion to relatives, orphans, the poor, the relative who is also
+a neighbor, the companion during travel, the needy wayfarer, the slaves and servants. Such people do not give
+God's right from their wealth, and they assist in spreading stinginess. The Messenger of God ﷺ said: "What
+disease is more serious than stinginess?" and "Beware of miserliness, for it destroyed those who were before
+you: it encouraged them to cut ties and they cut them, and it encouraged them to commit sin and they
+committed it." "And they hide what God has given them of His bounty": the miser is ungrateful for God's
+favor, for its effect does not appear on him, in his food, his clothing or his charity.
+
+**Belief & reflection.** **[Study Quran]** Many verses enjoin spending wealth for the good of others, and
+miserliness is reprehensible not only because it manifests a lack of charity but because it conceals what God
+has given from His bounty, indicating ingratitude for — or even rejection of — that divine bounty. This is
+why miserliness can be linked directly to disbelief: *kufr* also connotes "covering over, concealing" and
+"ingratitude" — hence the reference to the punishment of the disbelievers (or "the ungrateful," or "those who
+cover over") at the end of the verse. Bounty (*faḍl*) connotes wealth beyond what one needs; the morally
+appropriate way to deal with such excess is to expend it in pious ways, as the preceding verse set out (cf.
+3:180; 9:76; 17:100; 25:67; 57:24; 92:8). And "miserliness" may also connote greed for the wealth of others.
+**[Saʿdī]** The miserly are those who withhold the obligations God has placed on their wealth, and then make
+a principle of it by urging others to the same; the concealment of the bounty is the practical form of
+ingratitude — the gift remains in the hand but its purpose is buried. **[Qurṭubī]** the verse's mention of
+the disbelievers at the close indicates that these descriptions were the mark of a class whose miserliness
+went with a rejection of the command, not merely a weakness in carrying it out.
+
+**Cross-references.** "And let not those who are miserly with what God has given them of His bounty think it
+is good for them — rather it is evil for them" (3:180); "Those who are stingy and enjoin stinginess on
+people, and conceal what God has given them of His bounty — and We have prepared for the disbelievers a
+humiliating punishment" (57:24, nearly verbatim); "Whoever is saved from the greed of his own soul — those
+are the successful" (59:9).
+
+## 4:38
+
+*"And those who spend their wealth to be seen of people, and believe not in God or the Last Day. And whoever
+has Satan for a companion — an evil companion indeed."*
+
+**Meaning.** **[Jalālayn]** "And those" — a supplement to the previous "those" — who expend their substance
+to show off to people, to be seen by them, and believe not in God and the Last Day: the likes of the
+hypocrites and the Meccans. Whoever has Satan for a comrade, whose command he follows as these do — an evil
+comrade has he. **[Saʿdī]** The two verses describe the two diseases of wealth: withholding it and
+displaying it. The one who spends only to be seen spends for a self, not for God; his expenditure is a
+species of concealment, since the gift is given away but the intention is kept for himself. **[Ibn Kathīr]**
+The passage's censure runs to both kinds: those who withhold what God ordered them to spend, and those who
+spend it without faith, seeking the eyes of people rather than the pleasure of God; the mention of Satan as
+their intimate closes the description with the company their course keeps.
+
+**Reflection.** **[Study Quran]** The pairing of the verses shows the two halves of the same failure: the
+miser hides the bounty, the show-off spends the bounty but hides the sin of intention; each in his way
+conceals what God gave, and so each stands under the description "believing not in God or the Last Day." The
+final words about Satan as an intimate frame the whole passage: a man's spending reveals whose company he
+keeps.
+
+**Cross-references.** "Whoever desires the harvest of the Hereafter, We increase for him his harvest; and
+whoever desires the harvest of this world, We give him of it, but he has no share in the Hereafter" (42:20);
+"Whoever desires the life of this world and its adornment — We shall repay them their deeds therein, and
+they will not be wronged therein" (11:15); the warning against *riyāʾ* at 2:264 — "O you who believe, do not
+nullify your charities with reminders of generosity and injury."
+
+## 4:39
+
+*"And what harm would it have done them, if they had believed in God and the Last Day and spent of what God
+has provided them? And God is ever Aware of them."*
+
+**Meaning.** **[Jalālayn]** What burden is on them if they were to believe in God and the Last Day and spend
+of what God has provided them? That is to say, what harm would this cause them? The interrogative is meant as
+a disavowal — there is no harm in it; rather, harm lies in what they follow. *Āmanū* conveys the sense of the
+verbal noun: "what burden would their belief be upon them?" God is ever Aware of them and will requite them
+for what they have done. **[Saʿdī]** What hardship or discomfort would touch them if faith took place in
+them — faith in God, which is sincerity — and they spent of their wealth, which God has provided and blessed
+them with? They would then join sincerity and spending together. And since sincerity is a secret between the
+servant and his Lord, which none but God surveys, God informed of His knowledge of all states: "and God is
+ever Aware of them."
+
+**Reflection.** **[Study Quran]** The verse is a form of argument by absurdity: it exposes the irrationality
+of unbelief by asking what the disbeliever stands to lose — nothing but a false independence. And the close —
+God knows them well — turns from the argument to the witness: the One who has provided the wealth knows both
+how it was spent and why. **[Saʿdī]** draws the lesson that the command of faith and spending is not a tax
+laid on a servant's advantage but the opening of a door closed only by his own hand: the harm of withholding
+is the only harm involved.
+
+**Cross-references.** "Say: My Lord extends provision for whom He wills of His servants and restricts it for
+him; and whatever you spend of anything, He will replace it, and He is the best of providers" (34:39); "And
+whatever good you do, God knows it" (2:197).
+
+## 4:40
+
+*"Truly God wrongs not so much as the weight of a mote; and if it be a good deed, He multiplies it and gives
+from Himself a great reward."*
+
+**Meaning.** **[Ibn Kathīr]** God states that He does not treat any of His servants with injustice on the
+Day of Resurrection, be it the weight of a mustard seed or a speck of dust; rather, He rewards them for the
+action and multiplies it if it be a good deed. He cites "And We shall set up the balances of justice"
+(21:47), Luqmān's words, "O my son, if it be the weight of a mustard seed, and though it be in a rock, in the
+heavens or in the earth, God will bring it forth" (31:16), and the sūrah of the Earthquake: "So whoever does
+good equal to the weight of a speck of dust shall see it, and whoever does evil equal to the weight of a
+speck of dust shall see it" (99:6–8). The two *Ṣaḥīḥs* record the long *ḥadīth* of intercession.
+**[Jalālayn]** God shall not wrong anyone so much as the weight of an atom — the smallest ant — by diminishing
+thereby his good deeds or increasing his evil deeds; and if it (the atom) be a good deed — read *taku
+ḥasanatan* or *taku ḥasanatun*, in which case the *kāna* construction is syntactically complete — from a
+believer, He will double it — read *yudāʿifuhā* or *yudaʿʿifuhā* — from ten times up to more than seven
+hundred times — and give from Himself, in addition to the doubling, a great wage that no one can estimate.
+
+**Meaning & belief.** **[Saʿdī]** God informs of the perfection of His justice and His grace, and of His
+freedom from what contradicts them, whether small or great injustice: "God does not wrong the weight of a
+speck of dust" — by diminishing it from the good deeds of His servant or adding it to his evil deeds, as He
+says, "So whoever does the weight of a speck of dust of good shall see it, and whoever does the weight of a
+speck of dust of evil shall see it." "And if it be a good deed, He multiplies it" — to ten times its like, to
+more than that, according to the deed's state, its benefit and the state of the one who does it in sincerity,
+love and completeness — "and gives from Himself a great wage": an increase beyond the reward of the deed
+itself, in the form of success to other works, the granting of abundant righteousness and plentiful good.
+**[Study Quran]** This verse is one of many affirming that God does not engage in even the slightest
+injustice (3:117; 11:101; 16:33, 118; 43:76). Some commentators assert that it is impossible to attribute
+injustice to God, since to be unjust is to transgress boundaries or the rights of others, and God as Creator
+has no boundaries: it is He who establishes the rights and boundaries and so cannot be said to transgress
+them; according to certain theologians, He is capable of injustice but has proscribed it for Himself (cf.
+6:12, 54, where He has prescribed mercy for Himself). The *mithqāl dharrah* conveys something so small that
+it has no apparent weight at all; *dharrah* can mean a particle, a speck or an atom, and is frequently
+glossed as the tiniest of red ants or the smallest of seeds. The idea that God multiplies a good deed is an
+important aspect of His justice and mercy: God does not reckon as we reckon, and in His mercy He reckons good
+deeds beyond their actual weight — see 6:160, "Whoever brings a good deed shall have ten times the like
+thereof."
+
+**Reflection.** **[Saʿdī]** The two halves of the verse answer the two fears: the fear of the small
+wrongdoing that goes unpunished is answered by the mote's weight that is weighed; and the fear that a small
+good is worthless is answered by the multiplication and the "great reward" given out of His own presence. The
+verse stands directly after the misers and the show-offs, and so becomes the standard by which their accounts
+will be read: nothing withheld is lost, and nothing spent for God is small.
+**[Ibn Kathīr]** Ibn Masʿūd's list of five verses of Sūrat an-Nisāʾ that he would prefer to the life of this
+world opens with this verse — the verse of the mote — and the sūrah that began with the rights of orphans and
+women closes the whole discussion of rights with the balance in which every scrap of them will be weighed.
+
+**Cross-references.** "So whoever does the weight of a speck of dust of good shall see it, and whoever does
+the weight of a speck of dust of evil shall see it" (99:7–8); "Whoever brings a good deed shall have ten
+times the like thereof" (6:160); "And We shall place the scales of justice for the Day of Resurrection, so no
+soul will be wronged at all" (21:47).
