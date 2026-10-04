@@ -6393,3 +6393,560 @@ behind it.
 not blame me but blame yourselves" (14:22); "And Satan will deceive them with a delusion" (17:64); "Do not let
 the life of this world delude you, and do not let the Deluder delude you concerning God" (31:33); "God has
 promised you the truth, and the promise of Satan is delusion" (14:22).
+## 4:121
+
+*"Such — their refuge is Hell, and they shall find no refuge from it."*
+
+**Meaning.** **[Ṭabarī]** "Such" — those who have taken Satan as a protector apart from God — their refuge is
+Hell: their destination, the place they will come to. "And they shall find no refuge from it": when God brings
+them to it on the Day of Resurrection they will find no escape, no turning aside to anything else.
+**[Qurṭubī]** In the parsing, "such" is a subject, "their refuge" a second subject, "Hell" the predicate of the
+second, and the whole sentence the predicate of the first; and *maḥīṣ* means a place of refuge, the verb being
+*ḥāṣa yaḥīṣu*. **[Jalālayn]** For such, their abode shall be Hell, and they shall find no refuge from it — no
+alternative to it.
+
+**Reflection.** **[Study Quran]** Hell, or "the Fire," is described, perhaps with ironic intention, as a
+refuge for disbelievers and wrongdoers throughout the Qurʾān (see 3:151; 4:97; 8:16; 13:18; 24:57; 45:34;
+79:39). That those condemned to Hell will find no refuge is also mentioned at 14:21; 41:48; 42:47; 75:11 — the
+word for "refuge" here belongs to the vocabulary of flight and seeking a way out, so that the sentence closes
+off the last door of the imagination.
+
+**Cross-references.** "And whoever turns away from My remembrance, his will be a straitened life" (20:124);
+"Say: Flight will not benefit you" (33:16); "And there is no refuge from God except in Him" (72:22).
+
+## 4:122
+
+*"But those who believe and do righteous deeds — We shall admit them into Gardens beneath which rivers flow,
+abiding therein forever. God's promise is true; and who is truer in speech than God?"*
+
+**Meaning.** **[Ṭabarī]** Those who affirm God and His Messenger and acknowledge His oneness and His
+Messenger's prophethood, and perform the righteous deeds — the obligations God has prescribed for them —
+We shall admit them on the Day of Resurrection into Gardens beneath which rivers flow, in recompense for the
+righteous deeds they did in the world. **[Jalālayn]** God's promise is in truth: that is, God promised them
+this and fulfilled it in truth; and who — and none is — is truer in utterance, that is, in statement, than God?
+**[Qurṭubī]** *Qīl* is on the pattern of a verbal noun. **[Study Quran]** For the often repeated description of
+Paradise as a Garden with rivers running below, see 2:25 and its commentary. **[Saʿdī]** The verse says
+"believe" — in God, His angels, His books, His messengers and the Last Day, and in the decree, its good and its
+evil, upon the manner they were commanded, in knowledge, affirmation and acknowledgment — and "do righteous
+deeds," which issue from faith, and this includes all the commanded things, obligatory and recommended, of the
+heart, the tongue and the rest of the limbs; each has the reward arranged for it according to its state and rank
+and its completion of faith and righteous action, and misses what is arranged for it according to the
+deficiency in faith and action.
+
+**Reflection.** **[Saʿdī]** Of that reward: Gardens beneath which rivers flow, in which is what no eye has seen,
+no ear has heard, and has not occurred to the heart of man — delicious foods and drinks, marvellous sights,
+beautiful spouses, palaces and decorated chambers, hanging trees, astonishing fruits, mournful-sweet voices,
+abundant blessings, the brothers of the faith visiting one another and remembering what they were in the gardens
+of Paradise. And higher and more excellent than all of it: God's good pleasure with them, and the spirits'
+delight in His nearness, the eyes' delight in beholding Him, and the ears' delight in His speech — which makes
+them forget every blessing and joy; were it not for God's steadying them, they would fly away and die of joy
+and gladness. And the completion and perfection of all this is the enduring immortality in those high dwelling
+places. Hence, "abiding therein forever." "God's promise is true, and who is truer in speech than God?" — for
+God's speech and His report reach the highest degree there is of truth; and He is He besides whom there is no
+Lord.
+
+**Cross-references.** "God has promised the believing men and the believing women Gardens beneath which rivers
+flow" (9:72); "And no soul knows what delight has been hidden for them as a reward for what they used to do"
+(32:17); "The promise of God — and whose word is truer than God's?" (4:122); "Indeed, God does not fail in His
+promise" (3:9).
+
+## 4:123
+
+*"It will not be according to your desires, nor the desires of the People of the Book; whoever does evil will
+be requited for it, and he will find no protector or helper besides God."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed over those meant by "It will not be according to your
+desires": some said the Muslims are meant. Masrūq said that the Christians and the Muslims boasted to each
+other, one party saying, "We are better than you," and the other saying, "We are better than you," and God
+revealed "It is not according to your desires, nor the desires of the People of the Book." **[Qurṭubī]** Ibn
+ʿAbbās said: the Jews and Christians said, "None will enter the Garden except those of us," and Quraysh said,
+"We shall not be raised"; so God revealed this verse. Qatādah and al-Suddī said: the believers and the People
+of the Book boasted, the latter saying, "Our prophet came before your prophet, and our book before your book,
+so we have more right to God"; and the believers said, "Our prophet is the seal of the prophets and our book
+rules over all the books." **[Jaʿfar al-Ṣādiq]** on the linguistic point: *amānī* is the plural of *umniyyah*,
+the idle wish of the soul detached from action — a mere claim, which if met with a like claim would be of the
+same kind. **[Ibn Kathīr]** Qatādah said, "We were told that the Muslims and the People of the Scriptures
+mentioned their own virtues to each other... Allah sent down, 'It will not be in accordance with your desires,
+nor those of the People of the Scripture; whosoever works evil, will have the recompense thereof.'" Similar
+statements are attributed to al-Suddī, Masrūq, al-Ḍaḥḥāk and Abū Ṣāliḥ; al-ʿAwfī reported from Ibn ʿAbbās that
+the followers of the various religions disputed, each claiming the best book and prophet, and that God judged
+between them with this verse.
+
+**Rulings & ḥadīth.** **[Ibn Kathīr]** The verse indicates that the religion is not accepted on account of
+wishful thinking or mere hopes; rather, the accepted religion relies on what resides in the heart and is made
+truthful through actions. It is not true that when one utters a claim to something he attains it merely on
+account of his claim, nor that every person who claims to be on the truth is considered as such merely on
+account of his words, until his claim gains merit with proof from God. Hence, "whosoever works evil will have
+the recompense thereof." **[Ibn Kathīr]** Ibn Abī Ḥātim recorded that ʿĀʾishah said, "I said, 'O Messenger of
+God, I know the hardest verse in the Qurʾān.' He said, 'What is it, O ʿĀʾishah?' I said, 'Whosoever works evil
+will have the recompense thereof.' He said, 'That is what strikes the believing servant — even the problems
+that bother him.'" Ibn Jarīr and Abū Dāwūd also recorded this *ḥadīth*. Saʿīd b. Manṣūr recorded that Abū
+Hurayrah said, "When the verse 'whosoever works evil will have the recompense thereof' was revealed, it was hard
+on the Muslims. The Messenger of God ﷺ said to them, 'Be steadfast and seek closeness; everything that afflicts
+the Muslim, even the thorn that pierces his skin and the hardship he suffers, will be an expiation for him'" —
+the wording collected by Aḥmad through Sufyān b. ʿUyaynah, and recorded also by Muslim and al-Tirmidhī.
+**[Qurṭubī]** Al-Ḥasan said this verse concerns the disbeliever, reciting the variant "and will any be requited
+except the ungrateful?" (34:17); and he also said it concerns the one for whom God intends nothing but it —
+whereas one for whom God intends honour, no: God has mentioned a people and said, "Those are the ones from whom
+We shall accept the best of what they did and overlook their misdeeds, among the companions of Paradise — a
+promise of truth which they were promised" (46:16). Al-Ḍaḥḥāk said it means the Jews, the Christians, the
+Magians and the disbelievers of the Arabs. **[Qurṭubī]** The majority said the wording of the verse is general:
+both the disbeliever and the believer are requited for the evil they do — the disbeliever's requital being the
+Fire, since his disbelief has settled him there, and the believer's being the calamities of this world, as
+Muslim recorded in his *Ṣaḥīḥ* from Abū Hurayrah. **[Maʿārif]** The reasoning: such self-glorification does not
+befit anyone, for no one becomes superior simply on the basis of conjectures, fancies and claims; everything
+depends on deeds. No matter how noble one's Prophet and Book may be, it is the deed of the adherent that will
+count; if he acts evil, he will receive the kind of punishment from which he can never hope to be rescued by
+anyone. And when this verse was revealed the noble Companions were acutely disturbed, so that Abū Hurayrah said,
+"We submitted, 'This verse leaves nothing out — the minutest evil in our deeds shall be requited!' The Holy
+Prophet ﷺ said, 'Do not worry. Keep doing what you can to the best of your ability, for whatever hardship or
+pain afflicts you makes amends for your sins and requites your evil deeds, to the limit that even a thorn which
+pinches someone's foot becomes an expiation of some sin.'"
+
+**Reflection.** **[Maʿārif]** The verse subverts the whole economy of religious boasting: the argument between
+Muslims and the People of the Book about whose prophet and book came first is answered not by a ranking of
+books but by a transfer of the question to the individual's deed — and the community's greatness is not
+inherited by birth but earned by obedience. **[Qurṭubī]** Al-Tirmidhī's report of al-Zubayr's saying shows how
+the Companions read the verse's severity: "Whoever does evil will be requited for it in this world or in the
+Hereafter" — and Ibn ʿUmar, passing the crucified Ibn al-Zubayr by night, said, "If this be the requital of that,
+then indeed" — that is, if he warred in God's sanctuary and did a great thing there, then the punishment he
+suffered was the requital of that. The verse thus has both faces: for the disbeliever it is the Fire, and for
+the believer the trials of the world, which God has made, in His kindness, expiations for His servants.
+
+**Cross-references.** "That is your desire — theirs is another" — cf. "Not by your wishes, nor by the wishes of
+the People of the Book" (4:123); "So whoever does an atom's weight of good will see it, and whoever does an
+atom's weight of evil will see it" (99:7–8); "Those are the ones from whom We shall accept the best of what
+they did and overlook their misdeeds" (46:16); "And will any be requited except the ungrateful?" (34:17).
+
+## 4:124
+
+*"And whoever does righteous deeds, whether male or female, and is a believer — such shall enter Paradise,
+and they shall not be wronged by as much as the speck on a date-stone."*
+
+**Meaning.** **[Ṭabarī]** Those to whom He said, "It is not according to your desires, nor the desires of the
+People of the Book," He says: only he enters Paradise and enjoys it in the Hereafter who does righteous deeds,
+male or female among you and among My servants, and is a believer in Me and in My Messenger Muhammad — affirming
+My oneness and his prophethood and what he brought from Me. Not you, O polytheists who associate with Me and
+deny My Messenger: so do not covet that you, being disbelievers, should occupy the station of the believers.
+**[Jalālayn]** Whoever does any righteous deed, whether male or female, and is a believer — such shall be
+admitted (or, in a variant reading, "shall enter") Paradise, and shall not be wronged by as much as the dint in
+a date-stone. **[Qurṭubī]** God made faith a condition because the polytheists advanced the service of the
+Kaʿbah and the feeding of the pilgrims and the entertainment of guests, and the People of the Book advanced
+their priority and their saying, "We are the sons of God and His beloved"; so God made clear that good deeds are
+not accepted without faith. **[Maʿārif]** It means a man or woman who does good deeds, subject to the condition
+that such deeds issue from true faith, shall certainly go to Paradise, fully rewarded for all his or her deeds,
+without being wronged in the least; the hint is that the People of the Book or other non-Muslims may also have
+good deeds of their own, but since their faith is not sound, their deeds are not acceptable — whereas the
+Muslims, since their faith is sound and their deeds good, are the successful ones and superior to others.
+**[Ibn Kathīr]** God mentions the recompense of evil actions and that He will surely inflict its punishment on
+the servant, either in this life — which is better for him — or in the Hereafter; and then He mentions His
+kindness, generosity and mercy in accepting the good deeds from His servants, male or female, with the condition
+of faith, and that He will not withhold any of their righteous deeds, even the weight of the *naqīr*, the speck
+on the back of a date-stone.
+
+**Rulings & reflection.** **[Qurṭubī]** The verse names man and woman explicitly, closing the door on the claim
+that one sex might be advantaged in the scale: the reward is attached to faith and deed, and to nothing else.
+**[Ibn Kathīr]** The mention of the *naqīr* — with the *fatīl*, the thread in the slit of the date-stone, and
+the *qiṭmīr*, the membrane over it, all three named in the Qurʾān — shows that the measure of requital reaches
+the smallest conceivable quantity, so that no good deed is lost and no wrong is unaccounted.
+**[Study Quran]** The pairing of male and female here and in 4:124 and 33:35 is part of a consistent Qurʾānic
+teaching that women and men are equal with respect to their moral and spiritual capacities and their reward.
+
+**Cross-references.** "Truly the Muslim men and Muslim women, the believing men and believing women..." (33:35);
+"Whoever does right, whether male or female, and is a believer — We shall surely give them a good life" (16:97);
+"So their Lord answered them: I shall not waste the work of any worker among you, male or female" (3:195);
+"Then whoever does an atom's weight of good will see it" (99:7).
+
+## 4:125
+
+*"And who is better in religion than one who submits his face to God and is virtuous, and follows the creed of
+Abraham as a ḥanīf? And God took Abraham as a friend."*
+
+**Meaning.** **[Ṭabarī]** This is God's decree in favour of Islam and its people over all other religions and
+their peoples: who is better in religion, O people, and sounder in path and better guided, than one who has
+surrendered his face to God — who has submitted himself to God, yielding to Him in obedience, affirming His
+Prophet Muhammad in what he brought from his Lord — and is virtuous, working by what his Lord commanded him,
+forbidding what He forbade and permitting what He permitted, and follows the creed of Abraham, the friend of the
+Compassionate, the religion he was upon and which he commanded and entrusted to his sons after him.
+**[Jalālayn]** "Submits his purpose" — that is, his deeds sincerely to God, and is virtuous and declares God's
+oneness, and follows the creed of Abraham, the one in accordance with Islam, as a *ḥanīf* — a circumstantial
+qualifier, that is, one inclining away from all religions to the upright religion. And God took Abraham for a
+close friend, as His elect one whose love for Him is pure. **[Saʿdī]** No one's religion is better than the
+religion of one who joins together sincerity toward the object of worship — which is the surrender of the face
+to God, indicating the submission of the heart, its orientation, its turning back, its sincerity, and the
+turning of the face and all limbs to God — and, with that sincerity, is virtuous: following the law of God with
+which He sent His messengers and sent down His books, which He made the path of the elite of His creation and
+their followers; and follows the creed of Abraham — his religion and his law — as a *ḥanīf*: inclining from
+association to oneness, and from turning to creatures to turning to the Creator.
+
+**Rulings & reflection.** **[Ibn Kathīr]** "Submits his face to God" means performing the good actions in
+sincerity for his Lord, with faith and awaiting the reward with God. "And he is virtuous" means following the
+correct guidance that God legislated in the religion of truth. These are the two conditions in the absence of
+which no deed is accepted from anyone: sincerity and correctness — the work is sincere when performed for God
+alone, and it is correct when it conforms to the Law; so the deed becomes outwardly correct by following the
+Sunnah and inwardly correct by sincerity. When any deed lacks either of these conditions it becomes null and
+void. When one lacks sincerity, he becomes a hypocrite who shows off for people; whoever does not follow the Law
+becomes an ignorant, wicked person; when one combines both, his actions will be the deeds of the faithful
+believers, whose best deeds are accepted from them and whose errors are erased. **[Maʿārif]** There can be no
+way better than the way of the person who is an embodiment of two virtues: first, he surrenders his self to God
+— acting for God's good pleasure with all sincerity, without contaminating his deeds with hypocritical or
+materialistic motives; second, he is good in deeds — the way in which he acts is also correct.
+**[Study Quran]** Vv. 124–25 can be understood as bringing together the three levels of religious commitment
+mentioned in the famous *ḥadīth* of Gabriel: outward submission through righteous acts (*islām*), correct and
+sincere faith (*īmān*), and virtue (*iḥsān*) achieved through a constant awareness of God. In v. 124 otherworldly
+reward is promised to those who perform righteous deeds and hold correct belief; but in v. 125 being virtuous is
+connected with submitting one's face to God, indicating that the "best" religion is achieved by those who
+manifest true virtue through complete, rather than merely outward, submission. And in this verse such complete
+submission is directly connected to Abraham, for the Qurʾān suggests that Muslims have an advantage over other
+monotheists in following the creed of Abraham, since the claim that Abraham was a Jew or a Christian is rejected
+(2:140; 3:65–67). **[Ibn Kathīr]** The *ḥanīf* intentionally and with knowledge avoids *shirk* and goes
+attentively to the truth, allowing no one to hinder him or turn him aside from it.
+
+**Ḥadīth & āthar.** **[Ibn Kathīr]** "And God took Abraham as a *khalīl*" — that is, an intimate friend; and
+*khullah* is the highest grade of love, which Abraham reached through obedience to his Lord, whom God described
+as "the one who fulfilled" (53:37) and of whom He said, "And when his Lord tried Abraham with commands and he
+fulfilled them" (2:124) and "Abraham was a community, obedient to God, a *ḥanīf*, and he was not of the
+associators" (16:120). Al-Bukhārī recorded that ʿAmr b. Maymūn said that when Muʿādh came back from Yemen he led
+them in the dawn prayer and recited "And God took Abraham as a *khalīl*," and one of the men present commented,
+"Surely the eye of Abraham's mother has been comforted." In the two *Ṣaḥīḥs* it is recorded from Abū Saʿīd
+al-Khudrī that when the Messenger of God ﷺ gave them his last speech, he said, "O people, if I were to take a
+*khalīl* from the people of the earth, I would have taken Abū Bakr b. Abī Quḥāfah as my *khalīl* — however, your
+companion is the *khalīl* of God." And Jundub b. ʿAbdullāh al-Bajalī, ʿAbdullāh b. ʿAmr b. al-ʿĀṣ and ʿAbdullāh
+b. Masʿūd narrated that the Prophet ﷺ said, "God has taken me as a *khalīl*, just as He took Abraham as a
+*khalīl*."
+
+**Reflection.** **[Maʿārif]** The final clause explains why Abraham is the model: the friendship was not conferred
+on account of need but on account of obedience, and the one who seeks God's love walks the road Abraham walked —
+sincerity of face, correctness of deed, and a heart turned from every other direction.
+
+**Cross-references.** "Abraham was neither a Jew nor a Christian, but he was a *ḥanīf*, a submitter, and he was
+not of the associators" (3:67); "Say: Truly my Lord has guided me to a straight path, a right religion, the
+creed of Abraham, a *ḥanīf*" (6:161); "Then We revealed to you: Follow the creed of Abraham, a *ḥanīf*"
+(16:123); "And God took Abraham as a friend" (4:125).
+
+## 4:126
+
+*"And to God belongs all that is in the heavens and all that is on the earth; and God encompasses all things."*
+
+**Meaning.** **[Ṭabarī]** He took Abraham as a friend for his obedience to his Lord, his sincerity in worship
+of Him, and his hastening to His pleasure and love — not out of any need of Him for him or for his friendship.
+How could He need him or his friendship when to Him belongs all that is in the heavens and the earth, little and
+much, in ownership, and He is the Owner to whom the owned have need, not the needy for His property? So is
+Abraham's need of Him — not His need of Abraham, that He should take him as a friend for His own need; rather He
+took him as a friend for his hastening to His pleasure and love. So hasten, you, to My pleasure and love, that
+I may take you as friends to Me. "And God encompasses all things" — God has always numbered everything.
+**[Qurṭubī]** "To God belongs what is in the heavens and what is on the earth," in ownership and origination;
+the meaning is that He took Abraham as a friend for the excellence of his obedience, not for need of his
+friendship or to multiply and gain support by him — how could it be otherwise, when His is what is in the
+heavens and the earth? He honoured him only for his compliance with His command. "And God is ever encompassing
+of all things" — that is, His knowledge encompasses all things. **[Jalālayn]** To God belong all that is in the
+heavens and the earth as possessions, creatures and servants; and God is ever the Encompasser of all things in
+knowledge and power — that is, He is ever possessed of such attributes. **[Saʿdī]** This noble verse contains a
+demonstration of God's encompassing of all things: He informed that His is what is in the heavens and the earth
+— all of it His dominion and His servants; they are the owned, and He is the Owner, uniquely disposing of them.
+His knowledge has encompassed all the knowable, His sight all the seen, His hearing all the heard; His will and
+power have penetrated all existents; His mercy has embraced the people of the earth and the heavens; He has
+subdued by His might and His domination every creature, and all things are obedient to Him.
+
+**Reflection.** **[Study Quran]** "Encompasses" here translates *kāna muḥīṭ*. The active participle *Muḥīṭ* is
+one of the Divine Names and on its own is often translated "the All-Encompassing" (85:20). In the Qurʾān the
+Divine Name *Muḥīṭ* is usually mentioned in connection with a rebuke or threat to the disbelievers or hypocrites,
+although when it is invoked by Muslims, as with other Divine Names, it does not pertain necessarily to divine
+rebuke; here it is used in a more universal and metaphysical sense — God encompasses all things. This verse
+closes the previous discussions of belief, hypocrisy and idolatry and initiates a brief return, in the next four
+verses, to a discussion of marital issues addressed earlier in the sūrah. **[Ṭabarī]** The verse's position is
+itself an argument: the One to whom everything belongs and who encompasses everything has no need of a friend,
+and the friendship He grants is pure gift and pure grace.
+
+**Cross-references.** "And He is God, there is no deity but He; to Him belongs praise in the first and the last"
+(28:70); "And God encompasses all things" (4:126); "Do they not know that God encompasses what they do?"
+(2:88 per meaning); "And to God belongs whatever is in the heavens and whatever is on the earth, and to God all
+matters are returned" (3:109).
+
+## 4:127
+
+*"And they ask you for a ruling concerning women. Say: God gives you a ruling concerning them, and what is
+recited to you in the Book concerning the orphan girls to whom you do not give what is prescribed for them,
+though you desire to marry them, and concerning the helpless among the children: that you should uphold justice
+for orphans. And whatever good you do, God surely knows it."*
+
+**Meaning.** **[Ṭabarī]** "They ask you for a ruling concerning women": your Companions ask you, O Muhammad, to
+give them a ruling about the affair of women, what is due to them and incumbent upon them. "Say: God gives you
+a ruling concerning them": God makes clear to you the ruling on what you asked about. **[Jalālayn]** "And what
+is recited to you in the Book" — that is, the Qurʾān, in the verse of inheritance (4:11) — and also "concerning
+the orphan women to whom you do not give what is prescribed for them" of inheritance, you O guardians who
+desire not to marry them because of their ugliness and prevent them from marrying others, coveting their
+inheritance — in other words, God gives you a ruling not to do this; and concerning the oppressed young
+children, that you give them what is their due, and that you deal justly with orphans in respect of inheritance
+and dowry. "Whatever good you do, God is ever Knower of it," and He will requite you for it. **[Ibn Kathīr]**
+Al-Bukhārī recorded that ʿĀʾishah said, concerning the verse "They ask your instruction concerning women. Say,
+'God instructs you about them'..." until "whom you desire to marry": it is about the man who is taking care of a
+female orphan, being her caretaker and inheritor — her money is joined with his money to such an extent that she
+shares with him even the branch of a date that he has; so he likes, for material gain, to marry her himself, and
+hates to marry her to another man who would have a share in his money on account of her share in his money;
+therefore he refuses to let her marry anyone else. So this verse was revealed; Muslim also recorded it. **[Ibn
+Kathīr]** Ibn Abī Ḥātim recorded that ʿĀʾishah said, "The people asked the Messenger of God ﷺ about orphan
+girls, so God revealed: 'They ask your instruction concerning women. Say, God instructs you about them, and
+about what is recited unto you in the Book concerning the orphan girls.'"
+
+**Stories & occasions.** **[Qurṭubī]** The verse was revealed because of the question of some Companions about
+the affair of women and their rulings in inheritance and other matters, so God commanded His prophet to say to
+them, "God gives you a ruling concerning them," that is, He makes clear to you the ruling on what you asked
+about. And this verse is a return to what the sūrah was opened with concerning the affair of women, for rulings
+remained that they did not know, so they asked and were told: God gives you a ruling concerning them. Mālik
+said: the Prophet ﷺ used to be asked and would not answer until the revelation came down, and that is in God's
+Book: "They ask you for a ruling concerning women. Say: God gives you a ruling concerning them."
+**[Saʿdī]** The plural "they ask you for a ruling" indicates that the believers asked the Messenger ﷺ about the
+ruling concerning women that pertains to them; so God took up this ruling Himself, saying, "Say: God gives you a
+ruling concerning them" — so act upon what He has ruled for you in all the affairs of women, in upholding their
+rights and leaving off wronging them, generally and specifically. And this is a general command covering
+everything God legislated of command and prohibition concerning women, wives and others, young and old. Then,
+after the general, He singled out the injunction concerning the weak among orphans and children out of care for
+them and a rebuke of negligence in their rights, saying: "And what is recited to you in the Book concerning the
+orphan women" — this is an account of the situation existing at the time, for the orphan girl, when she was
+under a man's guardianship, would have her right diminished and be wronged — either by his consuming her wealth
+or some of it, or by preventing her from marrying so that he could benefit from her wealth out of fear it would
+leave his hand if she married, or by taking from her suitor a condition or the like. This is if he was averse to
+her; or else he desires her while she has beauty and wealth, yet does not deal justly in her dowry but gives her
+less than she deserves. All this is wrong entering under this text, hence "and you desire to marry them" — that
+is, you desire not to marry them, or to marry them, as we have explained. "And the helpless among the children"
+— that you give them their right of inheritance and other things, and that you do not take charge of their
+wealth in wrong and dominance. "And that you uphold justice for orphans": that is, fulfil their rights
+completely.
+
+**Rulings.** **[Study Quran]** This verse and v. 129 extend the discussion of orphans, marriage and dealing
+justly with one's wives initiated in v. 3. When the Prophet was asked for a ruling concerning women, this verse
+was revealed, instructing him to remind them that they should already know the rule, for they already have "that
+which has been recited to you in the Book concerning the orphan girls." ʿĀʾishah contended that the present verse
+was issued as a clarification of v. 3 and was meant to prevent male guardians from either marrying orphan girls
+without giving them their full bridal gifts, or refusing to marry them to themselves or others so as later to
+assume the girls' inheritance, should the guardian outlive them. **[Maʿārif]** The words "and you desire to
+marry them" admit two possible translations: "and tend to marry them," referring to those who, attracted to the
+beauty of orphan girls, used to marry them without giving them the due rights of a wife; or "and you avoid
+marrying them," referring to those who did not marry the orphan girls because of unattractive features, but at
+the same time did not let them marry others, because they wanted their wealth to remain in their hands. At the
+beginning of this sūrah particular injunctions relating to orphans and women were mentioned, and stressed there
+was the mandatory nature of fulfilling their rights, because during the days of *jāhiliyyah* some people would
+deal unjustly with orphans and women. **[Ṭabarī]** The verse answers the question about women by referring them
+back to what has already been recited in the Book, adding a warning about the two weakest classes named in it —
+the orphan girl and the helpless child — because those are the two with no voice of their own.
+
+**Cross-references.** "And give the orphans their wealth, and do not exchange the bad for the good" (4:2);
+"And test the orphans until they reach marriageable age" (4:6); "And if you fear that you will not deal justly
+with the orphans" (4:3); "Truly God commands justice and the doing of good" (16:90).
+
+## 4:128
+
+*"And if a woman fears ill-treatment or desertion from her husband, there is no blame upon the two if they make
+peace between themselves — and peace is better. And souls are prone to avarice; but if you do good and are
+mindful of God, surely God is well aware of what you do."*
+
+**Meaning.** **[Ṭabarī]** If a woman fears — knows — from her husband *nushūz*, which is his exalting himself
+above her toward another, preferring another over her and rising away from her, whether out of hatred or dislike
+of some of her circumstances, or *iʿrāḍ*, his turning away — "there is no blame upon the two if they make peace
+between themselves": if the wife forgoes some of what is incumbent on her for her husband — some of the
+maintenance, clothing, dwelling or share of nights — and grants her day and night to her husband or to her
+co-wife, and the husband accepts, then there is no blame upon either of them, and the husband's remaining with
+her in this state is permissible. **[Jalālayn]** A woman in the nominative as the subject of the explicative
+verb that follows. "Fears" — anticipates — from her husband ill-treatment, if he looks down on her by refraining
+from sleeping with her or by not maintaining her adequately because he is averse to her and aspires to one more
+beautiful than her, or aversion, turning his face away from her: they are not at fault if they are reconciled
+through some agreement in terms of shares and maintenance expenses, so that she concedes something to him in
+return for continuing companionship; if she agrees to this then that is fine, but if she does not, then the
+husband must either give her all her due or part with her. "If they reconcile" — the original *tāʾ* of
+*yataṣālaḥā* has been assimilated with the *ṣād*; a variant reading has *yuṣliḥā*, from the fourth form.
+"Reconciliation is better" than separation, ill-treatment or rejection. **[Qurṭubī]** Al-Zajjāj said the meaning
+is: if a woman fears from her husband the continuance of ill-treatment; and al-Naḥḥās said the difference
+between *nushūz* and *iʿrāḍ* is that *nushūz* is distancing, while *iʿrāḍ* is that he does not speak to her nor
+find comfort with her. Ibn ʿAbbās said: *nushūz* is a man's dislike of his wife; *iʿrāḍ* is his turning his face
+from her. **[Qurṭubī]** The verse is a refutation of the foolish who think that a man, having taken a woman's
+youth, should not, when she grows old, be replaced by her — for Ṣawdah bint Zamʿah, when she grew old, was
+wanted for divorce by the Prophet ﷺ, and she preferred to remain with him and said, "Keep me and give my day to
+ʿĀʾishah," and he did so, and she died among his wives.
+
+**Stories & occasions.** **[Qurṭubī]** Al-Tirmidhī recorded from Ibn ʿAbbās: Ṣawdah feared that the Messenger of
+God ﷺ would divorce her, so she said, "Do not divorce me, keep me, and make my day from you for ʿĀʾishah," and he
+did so, and then "there is no blame upon the two if they make peace between themselves" was revealed — a *ḥadīth*
+that al-Tirmidhī judged ḥasan gharīb. Ibn ʿUyaynah, from al-Zuhrī, from Saʿīd b. al-Musayyib: Rāfiʿ b. Khadīj
+had as his wife Khuwaylah bint Muhammad b. Maslamah, and he disliked something in her — either her growing old
+or something else — and wanted to divorce her, so she said, "Do not divorce me, and allot me whatever share you
+wish"; the Sunna proceeded on that basis and "And if a woman fears ill-treatment or desertion from her husband"
+was revealed. Al-Bukhārī recorded from ʿĀʾishah, concerning this verse, that she said: it is the man with a wife
+from whom he takes no great benefit and whom he wishes to leave; so she says, "I absolve you of my affair" — and
+this verse was revealed. **[Ibn Kathīr]** Abū Dāwūd al-Ṭayālisī recorded that Ibn ʿAbbās said, "Ṣawdah feared
+that the Messenger of God ﷺ might divorce her and she said, 'O Messenger of God, do not divorce me; give my day
+to ʿĀʾishah.' And he did, and later on God sent down, 'And if a woman fears cruelty or desertion on her
+husband's part, there is no sin on them both.'" Ibn ʿAbbās said, "Whatever legal agreement the spouses mutually
+agree to is allowed." In the two *Ṣaḥīḥs* it is recorded that ʿĀʾishah said that when Ṣawdah bint Zamʿah became
+old, she forfeited her day to ʿĀʾishah, and the Prophet ﷺ used to spend Ṣawdah's night with ʿĀʾishah; and
+al-Bukhārī also recorded ʿĀʾishah's explanation that the verse refers to a man married to an old woman, whom he
+does not desire and wishes to divorce, so she says, "I forfeit my right on you." **[Qurṭubī]** Mālik reported
+from Ibn Shihāb, from Rāfiʿ b. Khadīj, that he married the daughter of Muhammad b. Maslamah al-Anṣāriyyah and
+she remained with him until she grew old; then he married a young girl and preferred the young one over her, and
+she asked him for divorce; he divorced her once, then neglected her until she was free to return to him, then he
+took her back. Then he went back to preferring the young one over her, and she asked him for divorce and he
+divorced her once, then took her back. Then he preferred the young one over her again and she asked for divorce,
+and he said, "It is as you wish — only one remains; if you wish, you may remain on what you see of preference,
+and if you wish, I shall separate from you." She said, "Rather, I shall remain" — and she remained on that.
+
+**Rulings & reflection.** **[Saʿdī]** The best course in this situation is that the two make peace between
+themselves, by the woman's conceding some of the rights incumbent on her husband, whether she accepts less than
+what is due to her of maintenance, clothing, dwelling or division of nights, by waiving part of her right or
+gifting her day and night to her husband or her co-wife; if they agree on this, there is no blame or harm upon
+them, neither upon her nor upon the husband, and it is lawful for her husband to remain with her in that
+condition, and it is better than separation; hence "and peace is better." And from the generality of this
+expression and meaning it is taken that peace between two parties who have a right or a dispute in all things is
+better than each one's exacting his full right, because of the reconciliation in it and the preservation of
+affection and the quality of forbearance; and it is permissible in all things, unless it makes lawful what is
+unlawful or unlawful what is lawful, for then it is not peace but injustice. And know that no ruling is complete
+and perfect except by the existence of its occasion and the absence of its obstacles; so here God mentioned the
+occasion — peace — and indicated that it is good, and good is what every rational person seeks and desires; and
+if God has also commanded it and urged it, the believer's seeking and desire increase. And He mentioned the
+obstacle in "and souls are prone to avarice": souls are formed by nature to be avaricious, which is the lack of
+desire to give what one owes, and the eagerness for the right one has; so you should be eager to uproot this
+base character from your souls and replace it with its opposite — generosity, which is giving the right one owes.
+"God is ever Forgiving, Merciful": He forgives what issued from you of sins and shortcoming in the obligatory
+right, and shows you mercy as you inclined toward your wives and showed them mercy. **[Ibn Kathīr]** "And peace
+is better" than divorce; and the apparent wording of the verse refers to the settlement where the wife forfeits
+some of the rights she has over her husband with the husband agreeing to this concession, and that this
+settlement is better than divorce — for instance, the Prophet ﷺ kept Ṣawdah bint Zamʿah as his wife after she
+offered to forfeit her day for ʿĀʾishah, so that his community might follow this kind of settlement. Since
+settlement and peace are better with God than parting, God said "and peace is better"; divorce is not preferred
+with God. "But if you do good and fear God, verily God is ever well acquainted with what you do": if you are
+patient with the wife you dislike and treat her as other wives are treated, then God knows what you do and will
+reward you for it perfectly. **[Study Quran]** This verse continues as part of the ruling concerning women
+requested by some of the Prophet's Companions in the previous verse. A wife's *nushūz* toward her husband in
+v. 34 is widely understood as disobedience, or a failure to respect his marital or conjugal rights due to lack of
+affection, or aversion and a desire to separate from him; in the present verse, a husband's *nushūz* is
+construed differently although somewhat analogously, as neglect of his wife because of a desire or inclination
+toward other women or wives, or as a desire to divorce her due to a loss of affection or aversion toward her.
+Both this verse and v. 34 speak of one who "fears" animosity from a spouse, but in both cases this is understood
+to mean that the animosity has been clearly displayed and is not merely suspected. **[Maʿārif]** Under such
+circumstances, as for men, the general rule given by the Holy Qurʾān is "retain in an honourable manner or part
+amicably" (2:229): if the intention is to continue living with his wife, it is necessary to live with her
+amicably, fulfilling all rights due to her in the recognized manner; anyone incapable of doing so should release
+her decently. But if the woman, under such conditions, is not willing to secure her release — whether in the
+interest of her children or because she has no other supporter — then she is left with one alternative: to get
+the husband to agree to some option, for example surrendering all or some of her rights while the husband takes
+it to be reasonable enough, as it unburdens him of many claims with the advantage of having a wife in bonus.
+That such a compromise could be expected is pointed out by "avarice is made to be present in human souls": the
+greed of the woman lies in her intense desire to protect the future of her children, and the husband is tempted
+by what she forfeits, so a mutual compromise becomes easy.
+
+**Cross-references.** "Retain them in honour or release them in kindness" (2:229); "And if you fear a breach
+between the two, send an arbiter from his family and an arbiter from her family; if they desire reconciliation,
+God will bring them together" (4:35); "And reconciliation is better" (4:128); "And do not forget generosity among
+yourselves" (2:237).
+
+## 4:129
+
+*"And you will never be able to deal justly between wives, even if you are eager; so do not incline altogether,
+leaving her as if suspended. And if you set things right and are mindful of God — then surely God is ever
+Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** You will not be able, O men, to make your wives equal in your hearts' love for them,
+so that you should have for some of them of love only the like of what you have for their companions — for that
+is something you do not own and is not in your power, even if you are eager for that equalizing. Mujāhid said,
+concerning "you will never be able to deal justly between wives, even if you are eager": it is binding that you
+are not able to do justice among them. "So do not incline altogether," leaving her like one suspended:
+**[Jalālayn]** Do not turn away altogether from the one you do not love, in respect of shares and maintenance
+expenses, so that you leave her — the one from whom you turn away — like one suspended: neither a slave girl nor
+a woman with a husband. "If you set things right" by being just in the shares, and fear injustice, "surely God
+is ever Forgiving" regarding the inclination in your hearts, "Merciful" to you in this respect. **[Qurṭubī]**
+God informed of the impossibility of equality among wives, and that this concerns the inclination of nature,
+in love and intimacy and the share of the heart — so God described the state of human beings and that, by the
+rule of their creation, they do not own the inclination of their hearts toward some rather than others; and for
+this reason the Prophet ﷺ used to say, "O God, this is my division in what I possess, so do not blame me for what
+You possess and I do not." Then He forbade, saying, "so do not incline altogether." Mujāhid said: do not
+deliberately treat her badly, but adhere to equal treatment. **[Saʿdī]** God informs that husbands are not able,
+nor is it in their power, to achieve complete justice among wives, because justice requires the existence of love
+equally, and the motive equally, and the inclination of the heart toward them equally, and then acting according
+to that — and this is impossible. So God pardoned what is not within one's power and forbade what is within it,
+saying, "so do not incline altogether, leaving her as if suspended" — that is, do not incline so much that you
+fail to render her the obligatory rights; rather do what is within your capacity of justice, for maintenance,
+clothing, the division of nights and the like you are required to apportion equally among them, unlike love and
+intercourse and the like.
+
+**Rulings.** **[Maʿārif]** The Holy Prophet ﷺ has, by his word and deed, declared that maintaining justice and
+equality among wives is a very emphatic injunction, and he gave stern warnings to those who contravene it.
+ʿĀʾishah said that he took great care to treat his wives equally and justly, and while he did so he prayed, "O
+God, this equalization of mine is in what I have in my control, therefore do not make me answerable for what is
+in Your control and not in mine" — that is, emotional inclination. Who could be in control of his self more than
+the Prophet ﷺ? Yet the matter of emotional inclination he too ruled as something out of his control. The veneer
+of the words of v. 3 gave the impression that maintaining equity between wives was an absolute obligation,
+obviously including equity in emotional inclination, which is not within one's control; therefore in this verse
+the matter was clarified: in things one does not control, equality is not obligatory, while equality shall be
+observed in matters within one's control — the division of nights, living standards and maintenance — and the
+verse's words "so do not incline altogether" themselves contain the justification of this sense: even though
+equality in emotional inclination is not in your power, you should not lean so far toward one wife that you
+prefer her even in matters within your power and control. Thus this verse clarifies the earlier verse of the
+sūrah: what is obligatory is equality in what lies in one's power and discretion.
+**[Study Quran]** This verse presents a means of reconciling the command at the beginning of the sūrah that men
+deal justly among multiple wives or take only one (v. 3), and the reality acknowledged in v. 128, that where men
+can take more than one wife and there are no barriers to a man divorcing his wife, a woman is vulnerable both
+to the diversion or loss of her husband's affection in favour of another and to desertion because of her
+husband's right to unilateral divorce. "You will not be able to deal fairly between women" acknowledges that
+affection and attraction are involuntary feelings that a husband cannot always apportion equally between his
+wives; this reality was noted by many commentators in their discussion of v. 3, where they explain that the
+command given there is to treat wives equally in tangible measures, such as the amount of time and money spent
+on each wife, and that it does not require equality in more intangible things, such as love and affection.
+
+**Reflection.** **[Saʿdī]** "And if you set things right" — between you and your wives, by compelling yourselves
+to do what the soul does not desire, seeking God's reward and standing by the wife's right — and set things
+right among people, and between people in their disputes, and this entails urging every path that leads to peace
+absolutely, as has preceded. And "fear God" by doing what is commanded and leaving what is forbidden and being
+patient with what is decreed; "then surely God is ever Forgiving, Merciful." **[Ibn Kathīr]** "Even when one
+divides the nights justly between wives, there will still be various kinds" of preference of the heart; and God,
+knowing this, did not leave the matter open but bound the husband to what he can control, and made the
+inclination of the heart an occasion of pardon rather than of punishment. **[Maʿārif]** The verse also removes
+the misunderstanding of those who, by juxtaposing these two verses, wish to conclude that polygamy is
+prohibited: the inability named in the verse refers to emotional inclination, not to matters of maintenance and
+the division of nights, which remain obligatory.
+
+**Cross-references.** "Then marry what seems good to you of women, two, three or four; but if you fear you will
+not deal justly, then one" (4:3); "And do not incline toward those who do wrong, lest the Fire touch you"
+(11:113); "And if you fear a breach between the two, send an arbiter from his family and an arbiter from her
+family" (4:35); "And whatever good you do, God knows it" (2:197).
+
+## 4:130
+
+*"But if the two separate, God will enrich each out of His abundance; and God is All-Encompassing, Wise."*
+
+**Meaning.** **[Ṭabarī]** If the woman who has been treated with ill-treatment by her husband — because he has
+turned from her toward her co-wife for her beauty or youth or something else the souls incline to — refuses to
+make peace by pardoning him her day and night, and demands her right of division and maintenance and what God
+has made incumbent on him, and the husband refuses — if they separate, God will enrich each of them out of His
+abundance. **[Qurṭubī]** If they do not make peace but separate, then let them both think well of God, for a man
+may be granted a wife in whom his eye is comforted, and a woman one who provides abundantly for her. It is
+related of Jaʿfar b. Muhammad that a man complained to him of poverty and he ordered him to marry; then the man
+went and married, then came back complaining of poverty, and he ordered him to divorce — and when asked about
+this verse, he said: I ordered him to marry, perhaps he was of the people of the verse "If they are poor, God
+will enrich them out of His bounty" (24:32); and when he was not of the people of that verse, I ordered him to
+divorce, that he might be of the people of the verse "And if the two separate, God will enrich each out of His
+abundance." **[Jalālayn]** If the married couple separate by way of divorce, God will compensate each of them
+from the need of the other out of His plenty — that is, out of His bounty — by giving her another as husband and
+giving him another as wife. God is ever Embracing of His creatures in bounty, Wise in what He has ordained for
+them. **[Saʿdī]** This is the third state between the spouses: when agreement is impossible, there is no harm in
+separation. "If they separate" — by divorce, annulment, *khulʿ* or other means — "God will enrich each from His
+abundance": He will enrich the husband with a wife better for him than her, and enrich her out of His bounty,
+even if her share of her husband is cut off, for her provision is with the One who guarantees the provisions of
+all creation and undertakes their interests; and perhaps God will provide her with a husband better than him.
+"And God is ever All-Encompassing" — abundant in bounty, vast in mercy, whose mercy and beneficence reach as far
+as His knowledge reaches; but with that He is "Wise": He gives by His wisdom and withholds by His wisdom, and if
+His wisdom requires depriving some of His servants of His beneficence for a reason in the servant that does not
+deserve beneficence, He deprives him in justice and wisdom.
+
+**Reflection.** **[Study Quran]** Although the Qurʾān recommends or requires several remedies to avoid divorce
+(see vv. 35, 128), if divorce is the outcome this verse asserts that God continues to care for both spouses and
+will enrich them out of His abundance by providing the possibility of new spouses better suited and more
+pleasing or beneficial to them (al-Rāzī, Ṭabarī). Cf. v. 32, where both men and women are told to ask God for His
+bounty rather than envying one another concerning what the other has been given. **[Qurṭubī]** The pairing of
+the two names at the end — All-Encompassing, Wise — answers the two fears of the separated: that the door of
+provision has closed, and that what has happened is arbitrary. **[Saʿdī]** The verse leaves the divorcing pair
+with a word about God's abundance rather than a word about their loss, and this is a mercy in itself: the
+divorce is permitted where the marriage has failed, but it is presented as a door out of a narrower room into a
+wider one.
+
+**Cross-references.** "If they are poor, God will enrich them out of His bounty, and God is All-Encompassing,
+Knowing" (24:32); "And in no way is your Lord forgetful" (19:64); "And whoever fears God, He will make a way out
+for him and provide for him from where he does not expect" (65:2–3); "And God is All-Encompassing, Wise" (4:130).
