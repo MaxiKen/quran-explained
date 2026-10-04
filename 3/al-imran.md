@@ -2987,3 +2987,321 @@ addressed to the believers, but its premise is the same act Najrān and the Jews
 3:64's "bear witness that we are submitters": the chapter has taught its readers what they are, and
 argues from it.
 
+
+
+## 3:81 — وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ النَّبِيِّينَ لَمَآ ءَاتَيْتُكُم مِّن كِتَٰبٍ وَحِكْمَةٍ ثُمَّ جَآءَكُمْ رَسُولٌ مُّصَدِّقٌ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِ وَلَتَنصُرُنَّهُ ۚ قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي ۖ قَالُوٓا أَقْرَرْنَا ۖ قَالَ فَاشْهَدُوٓا وَأَنَا مَعَكُمْ مِنَ الشَّٰهِدِينَ
+
+*"And when God took the covenant of the prophets — what He has given you of Book and wisdom, and then a
+messenger comes to you confirming what is with you, you shall surely believe in him and surely help him —
+do you acknowledge, and have you taken up My burden on that? — they said: we acknowledge — He said: bear
+witness, and I am with you among the witnesses."*
+
+**Readings.** **[Ṭabarī]**: the readers of the Ḥijāz and of Iraq read *lamā ātaytukum*, with the *fatḥa*,
+and differ within: *ātaytukum* singular, or *ātaynākum* plural; the Basran grammarians take the *lām* as
+the *lām* of commencement, like *lazaydun afḍalu minka*, and the clause after it its predicate; and a
+Kufan faults all of it, arguing the *lām* of *thawāb* is answered by the answers of oaths and that *min*
+cannot do service for a noun — at which the editors of the edition note a tampering with the manuscript's
+text that scrambled the printed sentence, the reading restored from the original. Ṭabarī's own view:
+with the *fatḥa* it is like *lamāhā* — a particle of condition with the *lām*, the verb put into the
+past form, answered with the answers of oaths: the first *lām* is an oath met by an oath's answer; and
+the *lām* of *la-tuʾminunna* is the answer of the oath. **[Qurṭubī]**: al-Māzirī's and al-Mahdawī's
+syntax — the *thumma jāʾakum* clause conjoined to the relative's qualification, its returning pronoun
+dropped (*muṣaddiqun bihi*); Sībawayhi's report of asking al-Khalīl about the *lām*, who answered:
+*lammā* is *alladhī*; the reading *limā* with *kasra* of a group of Kufans, taken as "for that which I
+gave you"; and the famous *qirāʾa* of Ibn Masʿūd: *wa-idh akhadha Llāhu mīthāqa lladhīna ūtū l-kitāba* —
+"of those who were given the Book," which al-Kisāʾī explains as the covenant of those *with* the
+prophets, and the Basrans as: taking the prophets' covenant is taking their followers', for they follow
+and confirm them.
+
+**Meaning.** **[Ṭabarī]**: the address is to the People of the Book — *remember when God took the covenant
+of the prophets and their mīthāq*: what they bound upon themselves in God's obedience, in His command and
+prohibition (the root of *mīthāq* was worked at 2:27); *aʾaqrartum* — do you assent — and *isrī*: My
+covenant and My charge upon you; *fa-shhadū* — be witnesses against your own souls, *wa-anā maʿakum* —
+and I am over you as witness. **[Jalālayn]**: *mā* is the relative in both readings; the messenger is
+Muḥammad ﷺ; *ʾātaytukum* or *ʾātaynākum*; and the *lām* of *la-tuʾminunna* the oath's answer,
+"confirming the promise's import"; the response of the prophets, *aqrarnā*; and God's witness-summmoning
+is against themselves and their followers. **[Study Quran]**: the particle *lamā* yields several near-
+equivalent translations: the Book and wisdom invoked in a covenant binding every prophet — and, by
+extension, his followers — to believe and help a later messenger who confirms what is with them; Ṭ reads
+the *lammā* as an oath ("by that which I have given you"); some take the covenant as a direct command to
+the prophets to affirm Muḥammad should he appear in their lifetimes, and Q and R note that the prophets
+would never themselves turn away or become sinful, so the verse's burden falls on their followers.
+
+**Belief.** **[Saʿdī]**: this is the news of God's covenant with all the prophets for the very sake of
+what He gave them — book and wisdom, which entail fulfilling God's right in full — that if a messenger
+came to them confirming what is with them, sent with the same *tawḥīd*, truth, equity and principles on
+which the laws agree, they would believe in him and help him; they acknowledged, confessed, bound
+themselves, were made to witness and had God's witness laid on them, with warning against breaking it.
+The matter is general among the prophets — one road, one contract — and general too in that it was taken
+on all of them for the faith and aid of Muḥammad: whoever claims to be among their followers holds this
+covenant, and whoever, so claiming, turns from following Muḥammad is a *fāsiq*, outside God's obedience,
+belie the messenger whose follower he claims to be — the argument (*ḥujja*) set up, in Saʿdī's reading,
+against every holder of a scripture who will not believe in the imam and seal of them all. **[Ibn
+Kathīr]**: the covenant ran from Adam to Jesus, that the prophets who knew their rank — book, wisdom,
+prophecy — must not for that disdain following and helping a messenger after them.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** cites ʿAlī b. Abī Ṭālib's report of the covenant's scene — God
+gathered the prophets in one assembly and took from them the pledge — and Ṭabarī's chains carry the
+same from Ali, via Sufyān's *tāʾsīs* reports, with the note that the Prophet ﷺ said: *I am the most
+worthy of Abraham among his people, and my Lord's Book and the covenant of the prophets, that I bear
+witness among them, and the covenant of every prophet to his people.* **[Study Quran]** records for the
+verse's closing the ḥanafī use of the *burden*-word *iṣr* as covenant itself, with the same idiom in the
+Prophet's *sīra*-pact: "we do not take from you a burden (iṣr) you cannot bear."
+
+**Reflection.** The verse is the sūrah's constitutional moment: the covenant is not that the prophets
+believed in Muḥammad, but that *their followers* must; the chapter that began with the Book sent down
+confirming what was before it (3:3) here reveals confirmation as the prophets' own prior contract, so
+that every messenger is by office a link binding his people to the next. The grammarians' whole
+argument about one *lām* is, in the end, about who is bound: the oath's syntax (Ṭabarī, Qurṭubī)
+answers with a threat of witness; the condition's syntax answers with a condition — and the verse
+keeps both, so that the claim "we follow the prophets" may be tested either way: by the burden they
+carried, or by the messenger their books announced.
+
+---
+
+## 3:82 — فَمَن تَوَلَّىٰ بَعْدَ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الْفَٰسِقُونَ
+
+*"Whoever turns away after that — those are the lawless."*
+
+**Meaning.** **[Ṭabarī]**: whoever turns aside from faith in the messengers God sent to confirm the books
+and wisdom held by the prophets, and from their aid, and so breaks covenant and *mīthāq* — *after that*:
+after the pledge taken on him — *humu l-fāsiqūn*: the ones who go out (*fawq*, leaving) of God's religion
+and their Lord's obedience. Report 7339 (Sayf b. ʿUmar's chain to ʿAlī): whoever turns from you,
+Muḥammad, after this covenant, of all the nations — they are the transgressing disobedient in their
+unbelief. **[Jalālayn]**, in one line: after that covenant, they are the *fāsiq*, the defiantly wicked.
+**[Saʿdī]** reads the pair as the covenant's sanction (the block's frame at 3:81–82): the warning of the
+contract, general in the prophets' history and particular at Madīna.
+
+**Reflection.** The sūrah's law of apostasy is stated here, not in the verses of punishment: breaking a
+covenant already witnessed is called, flatly, *fisq* — departure — the word the chapter reserves
+(2:15; 3:73's traitors) for those who knowingly leave what they acknowledged.
+
+---
+
+## 3:83 — أَفَغَيْرَ دِينِ اللَّهِ يَبْغُونَ وَلَهُ أَسْلَمَ مَن فِي السَّمَٰوَٰتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ
+
+*"What — other than God's religion do they seek, when to Him has surrendered whoever is in the heavens and
+the earth, willingly and unwillingly, and to Him they are returned?"*
+
+**Readings.** **[Ṭabarī]**: the readers of the Ḥijāz (Mecca and Medina) and of Kūfa read *yabghūna* and
+*yurjaʿūna*, third person, report about absentees; some of the Medinans read *tabghūna*, *turjaʿūn*,
+addressing them; one Basran mixes — report of them in the first verb, address in the second; and
+Ṭabarī prefers the consistent address (*tabghūna... turjaʿūn*) because the preceding verse spoke *to*
+them, and switching from address to report is worse than keeping the thread — though the other is sound,
+since narration sometimes runs wholly in address and sometimes shifts. **[Jalālayn]** gives the sense of
+the mixed reading: *tabghūna*, "do you seek," and notes the hamza of *a-fa-ghayra* as disavowal.
+
+**Meaning.** **[Ṭabarī]**: their seeking other than the religion God legislated — after the covenant of
+3:81 and their acknowledgment of it — is absurd, since all that is in the heavens and earth has
+surrendered to Him; and to the *islām* of all things the section's next verses turn: the bowing of the
+voluntary and the compulsory alike, the returning that undoes the seeking. **[Study Quran]**: the
+heavens' dwellers are angels, earth's are humans (IK, R); *ṭawʿan* and *karhan* are "obediently" and
+"grudgingly"; the paradox — all submit, some unwillingly — is resolved as passive succumbing to God's
+will (IK), or the believers submitting in life and the deniers at death (R), when it profits not (40:85,
+Q); cf. 13:15 (*to God bows whoever is in the heavens and earth, and their shadows, morning and evening*)
+and 41:11, 22:18, 17:44 — the whole creation's *tasbīḥ*.
+
+**Belief.** **[Saʿdī]**: the verse's logic against every rival cult is the block's: whoever declines this
+*islām* goes — to trees, stones, fire? to the lordship of priests and crosses? to the negation of the
+Lord of the worlds? to the religions that are the inspirations of devils? — and all such are losers in
+the Next. The cosmological argument of the verse, that *islām* is the universe's own grammar, is
+Saʿdī's frame for *man yabtaghi* below (3:85).
+
+**Reflection.** The argument is not that God's religion is true but that every other religion is
+impossible: the question *a-fa-ghayra dīni Llāhi tabghūn* is directed at those who have already seen the
+consent of the whole cosmos and want a narrower lordship. The *karhan* clause does the real work: even
+the denier's refusal runs on the grain of the surrender he protests — which is why the chapter, from
+here, stops debating *tawḥīd* and begins debating its opponents' covenant with it (3:85, 3:87's curse
+of the witnessed, 3:90's *lā yuqbalu tawbatuhum*: refusals within a universe already submitted).
+
+---
+
+## 3:84 — قُلْ ءَامَنَّا بِاللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَمَآ أُوتِيَ مُوسَىٰ وَعِيسَىٰ وَالنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُ مُسْلِمُونَ
+
+*"Say: we believe in God, and what was sent down to us, and what was sent down to Abraham and Ishmael and
+Isaac and Jacob and the Tribes, and what Moses and Jesus and the prophets were given from their Lord — we
+make no division between any of them, and to Him we surrender."*
+
+**Meaning.** **[Ṭabarī]**: the *qul* answers 3:83: if they seek other than God's religion, say to them —
+the "if they say yes" clause is省略, suppressed by the sense; *āmannā bi-Llāh* is: we confirm Him as our
+Lord and god, none besides Him worshipped; and the same for the books sent down *on* Abraham and his
+two sons and Jacob and the *asbāṭ*, and the books *given* to Moses and Jesus — the variation of verbs
+(*anzala*, *ātā*) is the style of the Quran's diction, not a difference of dignity (the note runs with
+the section; the verse is 2:136's twin, "nearly identical," as **[Study Quran]** says, and its
+commentary belongs there).
+
+**Context.** The 2:285–136 sequence stands here: the *asbāṭ* are the tribes of Jacob's sons (the gloss
+at 2:136), and the list's order is itself a claim — the revelations ascend from the patriarchs through
+the lawgivers to Muḥammad's own book first-named (*mā unzila ilaynā*), with no abrogating clause
+between any two of them; the believers' *islām* (3:83's word) ends the verse as it ends the universe's
+creed. **[Ibn Kathīr]**: to believe in all of them *is* the religion of God which the covenant of 3:81
+sealed.
+
+**Reflection.** Twice now (3:64, 3:84) the sūrah has written its creed in the first person plural for
+the Prophet to *say* — a communal confession recited against the disputes of "we" and "you": the only
+difference between us and you, the grammar implies, is that we kept the whole list, and you have cut it
+up (*lā nufarriqu*, with 2:85's *yufarriqūna* as the charge against them).
+
+---
+
+## 3:85 — وَمَن يَبْتَغِ غَيْرَ الْإِسْلَٰمِ دِينًا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَٰسِرِينَ
+
+*"Whoever seeks a religion other than surrender — it shall not be accepted from him, and in the Next he is
+of the lost."*
+
+**Context.** **[Jalālayn]**: it came down concerning those who apostated and became unbelievers (the
+Companion of 3:86; see there). **[Ṭabarī]**: whoever seeks a religion other than *al-islām* to live by,
+God will not accept it from him; and *min al-khāsirīn*, of those who lose their portions of God's mercy,
+the *bakhṣ* of their own souls. Then the report: when the verse came down, **[Ṭabarī]** transmits from
+ʿIkrima, the nations all said *we are the Muslims* — so God sent down, for the test of it, the *ḥajj*
+verse (3:97), *and God has upon the people a right: the pilgrimage to the House*, and the Muslims made
+the pilgrimage, and the rest would not, and their argument was refuted.
+
+**Language / Belief.** **[Maʿārif]**'s long note is dedicated to the word *islām* here: lexically
+surrender and obedience; as a term, submission to the religion God sent through His prophets, whose
+fundamental principles are one — which is why every divine religion is *islām*, and why the name is also
+used as the particular title of the last *sharīʿa* and its community (22:78: *He named you Muslims
+before, and in this Quran*); and the correct position: whichever of the two meanings is taken, the
+verse's judgment is the same, because the last *sharīʿa* is *islām* in both senses at once. **[Study
+Quran]**: some record the view that 3:85 abrogates 2:62's acceptance of the believers of other
+scriptures, but mainstream *uṣūl* reject abrogating a report by a report — only rulings abrogate (2:62c,
+2:128c, 3:19c); and the abrogation-reading itself stumbles on the Quran's wide usage of *islām* and
+*muslim* for all true monotheism; the question of 2:62 (is *īmān* possible for Jews, Christians,
+Ṣābiʾa?) and of 3:85 (is *islām* wider than this community?) are two questions, and the essay on the
+Quran's view of sacred history is the frame in which Rāzī and Ṭabarī both read the verse: *after the
+advent of Muḥammad ﷺ, the only religion accepted is the one he brought*. **[Saʿdī]**, on 3:83–85: the
+same roots the previous verses established — the faith of this community is what all books agreed on;
+where else would the refuser go — and all such are the lost.
+
+**Reflection.** The verse's history is a commentary on the chapter's method: ʿIkrima's anecdote makes
+the *ḥajj* the test-case of claimed Muslimhood, and the two *islām*s — the primordial and the positive —
+turn out to be, in Maʿārif's careful phrase, one and the same at this verse's juncture. Not "salvation
+is bounded here" — the verse bounds acceptance by *surrender*, and the sūrah has spent seventy verses
+defining the act; the losers are *khāsirūn*, men of a bad bargain (2:16's trade), which is the chapter's
+standing image for unbelief all the way from 2:20 and 3:19 (see the *tājira* note at 3:119's entry, in
+the sūrah's next movement).
+
+---
+
+## 3:86 — كَيْفَ يَهْدِي اللَّهُ قَوْمًا كَفَرُوا مِنۢ بَعْدِ إِيمَٰنِهِمْ وَشَهِدُوٓا أَنَّ الرَّسُولَ حَقٌّ وَجَآءَهُمُ الْبَيِّنَٰتُ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّٰلِمِينَ
+
+*"How shall God guide a people who disbelieved after their faith, and witnessed that the Messenger is
+true, and the clear proofs came to them? — and God guides not the wrongdoing people."*
+
+**Occasion.** **[Ṭabarī]** runs the reports: the verse came down on **al-Ḥārith b. Suwayd al-Anṣārī** —
+he became Muslim, then went back to unbelief and to his people, then regretted, and sent to his people:
+*ask the Messenger of God: is there a repentance for me?* — and the verses down to 3:89 came down; a man
+of his people carried them to him and read them, and al-Ḥārith said: *you are true, I know it; the
+Messenger is truer than you; and God is truest of the three* — and he returned and his Islam was good
+(Mujāhid's version, 7363, and al-Suddī's, 7364, with the notice that 3:89's *illā lladhīna tābū* was the
+saving exception revealed for him). ʿIkrima's version (7361, not raised to Ibn ʿAbbās): when the letter
+came the Prophet recited *wa-man yabtaghi ghayra l-islāmi dīnan*, and al-Ḥārith said *my people have not
+lied*, and returned. (The historian's notice: Sayf b. ʿUmar's chain, at 7339, is cited in this section;
+its standing among the biographers is flagged where it first appears.)
+
+**Meaning.** **[Jalālayn]**: how — i.e., He does not guide — a people who denied after witnessing the
+Messenger's truth and after the manifest proofs; *and God guides not the wrongdoing*. **[Study Quran]**:
+"a people" is read as the apostates or as the People of the Book (Ṭ); the *witness* clause may be joined
+to the faith clause ("and after their bearing witness," R, Z); and the story of al-Ḥārith stands behind
+the reading that the exception of 3:89 is its sequel. **[Saʿdī]**: it is far beyond reach that God should
+guide people who *knew* the faith, entered it, witnessed the Messenger true — and turned back on their
+heels, faithless to the pledge: they knew the truth and refused it; so God recompenses the turnabout of
+the heart by letting it turn, and hands him over to what he chose for himself (cf. 3:90's ending:
+*wa-ulāʾika humu ḍ-ḍāllūn*).
+
+**Reflection.** The question *kayfa* is, as in Arabic always, an assertion: it is not that the
+apostate cannot be guided but that guidance in his case would not be guidance — knowledge accepted and
+then thrown away is the one datum the chapter's entire theory of hearts says cannot be re-used (cf.
+2:6–7's sealing as cure, not caprice). And the story the *āyāt* are wrapped in is not a warning's
+abstraction but a letter, a courier, a recited clause, a return: the sūrah's hardest verse of
+reprobation has, inside it, the only apostasy case in the sūrah that ended well — the exception, once
+more, doing more work than the rule.
+
+---
+
+## 3:87 — أُولَٰٓئِكَ جَزَٰؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَتَ اللَّهِ وَالْمَلَٰٓئِكَةِ وَالنَّاسِ أَجْمَعِينَ
+
+*"Those — their requital: upon them the curse of God and the angels and mankind all together."*
+
+**Meaning.** **[Jalālayn]**: the curse of God — His banishment; and the angels' and men's, their invoking
+it on them. **[Study Quran]**: the joint curse — distancing from mercy, expulsion — was treated at 2:161
+(see there for God, the angels and all mankind as co-cursers); the conjunction runs further: 7:38, every
+community entering the Fire cursing its sister; 29:25, on that Day you disown and curse one another —
+the mutual curses of the damned the mirror of the mutual *salām* of the saved.
+
+**Reflection.** A *laʿna* with a chain of three witnesses — God, angels, mankind — which is the verse's
+way of stating totality; and the curse of the last category is the curious one: the whole of humanity's
+judgment on the apostates, including, in Ṭabarī's citation of the resurrection scenes, the damning of
+each party by the other parties it used to keep. To be cursed by everyone is to have no one left; the
+man who leaves the *umma*, this verse says, leaves also the *duʿāʾ*.
+
+---
+
+## 3:88 — خَٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنظَرُونَ
+
+*"Abiding therein — the chastisement is not lightened for them, nor are they respited."*
+
+**Meaning.** **[Jalālayn]**: *fīhā* — in the curse, or in the Fire it implies; the punishment not eased,
+no respite granted. **[Ṭabarī]** (in the joint section 86–89, where the pronoun is glossed "in the
+Fire, abiding, not lightened on the Day of standing"): the pattern is 2:86's and 2:162's — the two
+negations, mitigation and delay, exhaustive of relief. **[Saʿdī]**: abiding in curse and punishment, and
+when God's command comes the torment is not eased; for God lengthened them years to remember, and the
+warner came (cf. 35:37's *wa-lā yuẓhirūn*: their lives long enough, the argument already in the
+house).
+
+**Reflection.** The verse removes time from both directions — no lessening within, no term at the end —
+and the sūrah's own *ajal musamman* (3:29) stands as its antonym: for the believers, a counted respite;
+here, counted out.
+
+---
+
+## 3:89 — إِلَّا الَّذِينَ تَابُوا مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا فَاللَّهُ غَفُورٌ رَّحِيمٌ
+
+*"Except those who repented after that and made amends — God is forgiving, merciful."*
+
+**Meaning.** **[Ṭabarī]**: the exception of al-Ḥārith b. Suwayd and his like from the threat — *taba* from
+his unbelief and *aṣlaḥa* by returning with *iṣlāḥ*, setting right what he had broken; *ghafūr* —
+covering his sin and pardoning it; *raḥīm*, gentle toward him after what passed. **[Study Quran]**:
+al-Ḥārith's letter home asking whether repentance was possible is what the verse answered (Ṭ).
+**[Jalālayn]**, in one line: who repents and mends his deeds — God forgives, is merciful to them.
+
+**Reflection.** Two notes on one particle: first, in this chapter the exception is not only exemption but
+*acceptance* — the "then his repentance is accepted" of 3:86's story; second, the pairing *tāba wa-aṣlaḥa*
+is the sūrah's own standard of a real return (cf. 5:39's theft-amendment formula and 42:25): remorse is
+not repentance until deeds are repaired — and al-Ḥārith's one recorded act of repair is to come back to
+the court whose verdict had struck him, the man 3:86 read as reprobate becomes the reason the verse was
+sent. The sūrah's sternest passages keep turning out, at the margin, to be *about* a repentance.
+
+---
+
+## 3:90 — إِنَّ الَّذِينَ كَفَرُوا بَعْدَ إِيمَٰنِهِمْ ثُمَّ ازْدَادُوا كُفْرًا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُولَٰئِكَ هُمُ الضَّآلُّونَ
+
+*"Those who disbelieved after their faith and then went on increasing in unbelief — their repentance shall
+not be accepted, and those are the erring ones."*
+
+**Meaning.** **[Ṭabarī]**: the verse's sense, on the first party: *those who disbelieved in some of the
+prophets sent before Muḥammad* — the *min* of *baʿḍ* — *after their faith* in him and in what was sent
+down, *and then increased* by their disbelief in Muḥammad ﷺ and in the Furqān: *their repentance shall
+not be accepted* — at death, at the death-rattle and the gasping (al-Ḥasan's report, 7372, as al-
+Suddī's and Qatāda's: the enemies of God, the Jews, denied the Injīl and Jesus, then added Muhammad
+and the Furqān to their denial). And the second party, from the same mufassirūn: the apostates of the
+preceding verses who die on their increase; and the third sense of *lā tuqbalu tawbatuhum*: that the
+first repentance is annulled by the relapse — disbelieve, repent, disbelieve again, and the tawba no
+longer stands (Rāzī's option among them). **[Jalālayn]**: the Jews — *unbelief accepted not from them
+when they die as unbelievers; those are the erring*. **[Study Quran]**: the clause is read either as the
+hour-of-death exception (4:18, Q, R), as the insincerity of such a death-bed *tawba* (R), or as the
+nullifying of a first repentance by relapse (R); *thumma-ztādū kufran* is also glossed as the sins that
+pile up after leaving faith (Q, Ṭ); and the context points to Muslim apostates, yet the commentators
+keep the People-of-the-Book reading — those who believed in his coming and then showed enmity — and the
+Jews who believed in Moses and denied Jesus (R). **[Saʿdī]**: whoever dies on his *kufr* — his repentance
+of no account, and he has merited the painful chastisement; no helper from God's punishment, and if he
+ransom the earth's full of gold it would not save him (the *fidāʾ* of 3:91).
+
+**Reflection.** The chapter now arranges its apostasy-law as a closed circle of exceptions: 3:86–89
+open the door to the one returner, and 3:90 closes it on the principle the sūrah has established
+elsewhere (4:18): a *tawba* at the death-throes is not a *tawba* but a transaction, and transactions end
+with the term appointed (3:29's *ajal musamman*, 2:149's *min warāʾikum*). The *ḍāllūn* of the verse's
+close is the same as 3:86's *lā yaʿmalūn* logic — not lost by accident but *by increase*, by the
+deliberate arithmetic of a heart whose ledger, when the debts are counted, is found to have grown since
+its last acceptance.
+
