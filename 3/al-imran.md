@@ -1685,13 +1685,18 @@ better than the news of a child, as God told Musa's mother "We shall return him 
 one of the sent" (28:7). **[Study Quran]** notes the parallel to Zechariah in Luke 1 — the announcement
 in the temple, the doubt, the muteness — carried by the whole passage in its biblical form.
 
-**Belief.** The verse is why John's name is *Yaḥyā* "he lives" in the Muslim telling — **[Ṭabarī]** and
-his reports: God *gave him life* where the line was dead; the naming belongs to God, not the father —
-the angels' *yubashshiruka bi-Yaḥyā*, and 19:7 *lam najʿal lahu min qablu samiyyā*, no namesake before.
-
+**Readings.** **[Ṭabarī]**: the general readers of Madīna and Baṣra — and most Kufans — recite the verb
+of the tiding *yubashshiruka* with doubled *shīn* and vowelled *yaʾ*, after the Arabs' *bashsharat
+flānanu l-busharāʾu bi-kadhā*, "the bringer of good tidings brought so-and-so the news of such a one";
+a Kufan group read *yubshiruka*, open *yaʾ* and single *shīn* — "God gladdens you with a child He grants
+you," of which the poet: *"I gladdened my household when I saw the page that came to you from
+al-Ḥajjāj, its lines being read"* — said to be the idiom of the people of Tihāmah, of Kinānah and some
+of Quraysh; and a further, rarer vocalisation *ubshiruka* is noted in the recension. The naming of the
+child belongs to heaven, not to the father: 19:7 adds that God fixed the name before any father chose
+it — *lam najʿal lahu min qablu samiyyā*, "We have not appointed for him, of old, any namesake."
 **Reflection.** **[Saʿdī]**: the answer came while he was standing in the *miḥrāb* — the hour and the
 posture of the previous verse's prayer are preserved into its reply, so that the sūrah teaches by
-staging: the request whispered in the night, the tidings announced mid-prayer — the believer's *duʿāʾ*
+## 3:40 — قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَكَانَتِ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغَنِيَ الْكِبَرُ
 is not followed by explanation but by address.
 
 ---
@@ -1708,16 +1713,20 @@ extraordinary power of God should be displayed* — the question was not doubt b
 **[Ibn Kathīr]**: when he heard the glad tiding he began to reckon the years against his body — *annā
 yakūnu lī ghulām*, how and where-from; the answer of the angel: *thus God does what He will* — a matter
 of His might, nothing escaping it, nothing beyond it. The same question recurs at 19:8 with its answer
-*"your Lord says: it is easy for Me"* (19:9). **[Study Quran]** reads the pair 3:39–40 against the
-Lucan annunciation — Gabriel to Zechariah, the same wonder, the same sign of silence, and the same
-punishment-or-confirmation ambiguity that the exegetes carry at 3:41 (see that entry in this book when
-it arrives). **[Maʿārif]**, through 3:38's section, had drawn the moral against sterility-worry as
-unbelief: the tidings answer nature's arithmetic precisely to teach that God's arithmetic has no
-carry-rule.
+*"your Lord says: it is easy for Me"* (19:9). **[Study Quran]** treats 3:40–41 together, referring the
+fuller discussion of John's birth and of Zachariah's sign — the inability to speak, and communication
+through gestures — to (19:2–15), and glosses the closing clause of 3:41: *bi'l-ʿashiyy* is the time from
+the declining of the sun until its setting, *wa-l-ibkār* the time from daybreak until sunrise.
+**[Ibn Kathīr]** likewise defers the details "to the beginning of Sūrah Maryam", while noting that his
+question was reckoning, not refusal: *thus does God what He will* — a matter of a might nothing escapes.
 
-**Language.** **[Ṭabarī]** notes the verb of *ʿāqir*: barrenness as quality of a woman, from *ʿuqr*
-(pl. *ʿuqar*), the unproductive; and *balāgh al-kibar* as the idiom for age's term reached. The reading
-of *wa-kānat imraʾatī ʿāqiran* with *kāna* in the feminine is the *ḥujja* reading.
+**Language.** **[Ṭabarī]**: *annā yakūnu lī ghulāmun wa-qad balāghaniya l-kibaru* — "from whom the age
+I have reached has taken its hold, no child is born"; and *al-ʿāqir* is the woman who does not bear —
+they say *a barren woman*, and a *barren man* too for him who does not beget, as ʿĀmir b. al-Ṭufayl
+says of himself: *"What a wretched youth — if one-eyed, barren, cowardly — what excuse of mine at every
+gathering!"* (al-Farrāʾ's witness for the transferred use; the edition notes that ʿĀmir, of the one-eyed
+nobles, lost his eye at Fayf al-Rīḥ, and that his reported barrenness verified ʿAlqama b. ʿUlātha's quip
+about him).
 
 **Reflection.** The Qurʾān lets prophets ask "how?" — twice, in two sūrahs — and never calls the asking
 unbelief; what closes the door on unbelief is the answer's second half: *God does what He will*. The old
