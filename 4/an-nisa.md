@@ -621,3 +621,598 @@ touch" (2:275); "On the Day when their tongues and their hands and their feet wi
 them" (24:24); the hedge against mixing at 2:220.
 
 
+## 4:11
+
+*"God charges you concerning your children: to the male the like of the portion of two females; but if there
+be more than two women, then for them two-thirds of what he leaves; and if there be one, then for her a
+half. And for his parents, to each of them a sixth of what he leaves, if he has a child; but if he has no
+child and his parents are his only heirs, then to his mother a third; and if he has brothers, then to his
+mother a sixth, after any bequest he may have bequeathed or any debt. Your parents or your children — you
+know not which of them is nearer to you in benefit. This is an obligation ordained by God. Truly God is
+Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** "God charges you" means He commits to you and makes known to you: when one of you
+dies leaving sons and daughters, the whole inheritance belongs to the children together, the male receiving
+the like of the share of two females, when there is no other heir besides them — and in this his young
+children and his grown, his daughters and his sons, are alike. The verse was sent down to make known to the
+Prophet ﷺ what God had made obligatory in the estate of one who dies leaving heirs. **[Jalālayn]** Works out
+the arithmetic of the shares: the male gets the portion of two females; if the offspring are women more than
+two, they take two-thirds; one alone takes a half; and likewise two daughters take two-thirds — from 4:176,
+where two sisters receive two-thirds; and since a woman gets a third alongside a male, she is all the more
+entitled to a third alongside another woman. "If he has a child," male or female — and *walad* applies also
+to a grandchild, and *ab* likewise to a grandparent. The parents each have a sixth if there is a child; the
+mother has a third if there is no child; and if the deceased has brothers, the mother has a sixth. All this
+is after any bequest or debt.
+
+**Rulings.** **[Qurṭubī]** This verse is a pillar of the religion, one of the great supports of the rulings
+and a mother of the verses, for the law of inheritance is of immense weight — it is said to be a third of
+knowledge, and also reported as half of knowledge; it is the first knowledge to be lifted from people and
+forgotten. Al-Dāraquṭnī records from Abū Hurayrah that the Prophet ﷺ said: "Learn the *farāʾiḍ* and teach
+them, for it is half of knowledge, and it is the first thing that will be taken and forgotten." And from Ibn
+Masʿūd: "Learn the Qurʾān and teach it, and learn the *farāʾiḍ* and teach them, and learn knowledge and teach
+it, for I shall be taken away, and knowledge will be taken, and trials will appear until two men dispute
+about a share of inheritance and find none to decide between them." Ibn Masʿūd also said: "Whoever does not
+learn the *farāʾiḍ*, divorce and ḥajj — how should he excel the people of the desert?" Rabīʿah said: whoever
+learns the *farāʾiḍ* without knowing their basis in the Qurʾān forgets them quickly — and Mālik confirmed it.
+Abū Dāwūd and al-Dāraquṭnī record from ʿAbdullāh b. ʿAmr that the Prophet ﷺ said: "Knowledge is of three
+kinds, and anything beyond that is surplus: an unalterable verse, an established practice, or a just
+obligatory share."
+
+**Context.** **[Ibn Kathīr]** The chapter's inheritance verses — this verse, v. 12 and the sūrah's last verse
+— contain the knowledge of *al-farāʾiḍ*, and the Prophetic traditions explain them. Sufyān b. ʿUyaynah said:
+the science of *farāʾiḍ* was called half of knowledge because it touches all people. Al-Bukhārī records that
+Jābir said: the Messenger of God ﷺ came to visit me at Banū Salamah on foot with Abū Bakr, and found me
+unconscious; he called for water, made ablution, and sprinkled it on me, and I revived. I said, "What do you
+command me to do with my property, O Messenger of God?" — and the verse "God charges you concerning your
+children" was revealed. Aḥmad records from Jābir: the wife of Saʿd b. al-Rabīʿ, who was killed as a martyr at
+Uḥud, came to the Prophet ﷺ and said, "These are the two daughters of Saʿd b. al-Rabīʿ — their uncle has
+taken their wealth and left them nothing, and they cannot marry without wealth." The Messenger ﷺ said, "God
+will decide in this." Then the inheritance verse was revealed, and he sent word to their uncle: "Give
+two-thirds to Saʿd's two daughters, an eighth to their mother, and what remains is yours" (Abū Dāwūd).
+**[Study Quran]** notes that this verse was reportedly revealed about a woman and her daughters denied a share
+of the inheritance, or about a dying man who asked the Prophet how to apportion his estate; when first
+revealed there was resistance among the Prophet's followers, who were astounded that women and minor
+children — who could not fight and took no booty — should inherit substantially. That sons and daughters do
+not inherit equally was justified by men ideally being the sole providers.
+
+**Rulings.** **[Maʿārif]** sets out the order of claims on a dead Muslim's property according to Islamic law:
+first the shrouding and burial, in accordance with the law, avoiding extravagance and stinginess; then his
+debts — and if the debts equal or exceed the estate there is no distribution and no will; then, if anything
+remains, the will to the extent of one-third; then the inheritance. **[Saʿdī]** reads the opening charge
+morally: your children, O parents, are trusts God has committed to you, that you may fulfill their interests
+in religion and in worldly life — teaching them, disciplining them, keeping them from corruption and
+commanding them to obey God and hold to *taqwā* always, as God says, "O you who believe, guard yourselves and
+your families against a Fire whose fuel is people and stones" (66:6). The children of God's servants are thus
+something He has entrusted; if the parents keep the trust they have an abundant reward, and if they lose it
+they deserve the warning and the punishment — which shows that God is more merciful with His servants than
+their own parents, in that He made the charge while their compassion was at its fullest.
+
+**Reflection.** **[Saʿdī]** On the daughter's share: the scholars agree that two daughters take two-thirds;
+the proof is the statement "if there be one, then for her a half," whose implication is that once the number
+rises above one the half ceases, and there is nothing after it but two-thirds; and the Prophet ﷺ gave
+two-thirds to the two daughters of Saʿd, keeping the *ḥadīth* a decisive precedent. **[Study Quran]** notes
+that some early authorities held the remaining third, after two-thirds to daughters, should go to grandsons
+from a son; and that "your parents or your children — you know not which of them is nearer to you in
+benefit" tells the heirs that the shares apportioned by God are His judgment, not a measure of human
+affection. The verse closes with the two names that answer every dispute about it: the One who ordained the
+share is knowing of every case and wise in every apportionment.
+
+**Cross-references.** "God instructs you concerning your children" is elaborated at 4:12 and 4:176; "They
+ask you for a ruling: say, God gives you a ruling concerning the kalālah" (4:176); "And to each We have
+appointed heirs" (4:33); the warning of 4:13–14 follows the shares immediately.
+
+
+## 4:12
+
+*"And to you a half of what your wives leave, if they have no child; but if they have a child, then to you a
+fourth of what they leave, after any bequest they may have bequeathed or any debt. And to them a fourth of
+what you leave, if you have no child; but if you have a child, then to them an eighth of what you leave,
+after any bequest you may bequeath or any debt. And if a man or a woman be inherited by a distant heir, and
+he has a brother or a sister, then to each of the two a sixth; but if they are more than that, they share a
+third, after any bequest to be bequeathed or any debt, without prejudice. This is a charge from God, and God
+is Knowing, Forbearing."*
+
+**Meaning.** **[Ṭabarī]** "To you a half of what your wives leave" — after their death, of property and
+estate — "if they have no child," male or female, at the time death comes to them; "but if they have a
+child," male or female, "then to you a fourth of what they leave": this is your inheritance from them after
+the payment of the debts they owed at death and the execution of such bequests as they made validly. "And to
+them a fourth of what you leave if you have no child; but if you have a child, then to them an eighth."
+**[Jalālayn]** The consensus holds that the grandchild counts as the child in this matter. The *kalālah*: a
+man or woman "being inherited from" who has neither parent nor child. If such a person has a brother or
+sister from the same mother — so it is read by Ibn Masʿūd and others — each of the two takes a sixth; if they
+are more than that, they share a third, male and female equally. All of it is after any bequest or debt,
+"without prejudice" — *ghayra muḍārrin* being a circumstantial qualifier: without harming the heirs by
+bequeathing more than a third.
+
+**Rulings & language.** **[Ibn Kathīr]** Payment of debts comes before fulfilling the will, and the will
+before the inheritance, by consensus among the scholars. If there is more than one wife, they all share in
+the fourth or the eighth. On the reduction of the spouse's share: it applies when there is a child or a
+grandchild, even a great-grandchild. On *kalālah*: the word is derived from *iklīl*, the crown that encircles
+the head; in this verse it means that the person's heirs come from other than the first degree of kinship.
+Al-Shaʿbī reported that when Abū Bakr al-Ṣiddīq was asked about *kalālah*, he said: "I will give my own
+opinion in it; if it is correct, the correctness is from God; if it is wrong, it is my error, and because of
+the evil effort of Satan, and God and His Messenger have nothing to do with it. *Kalālah* is the man who has
+neither descendants nor ascendants." When ʿUmar became caliph he said, "I hesitate to contradict an opinion
+of Abū Bakr" — recorded by Ibn Jarīr and others. **[Study Quran]** notes that v. 176 reestablishes the gender
+disparity for siblings of the same father, so that the maternal siblings of v. 12 are the ones who share
+equally; and that the apportionment is to be executed without harm or prejudice to any heir, Prophetic
+tradition forbidding a separate bequest to one who already has a fixed legal share — causing such harm being
+a major sin.
+
+**Rulings.** **[Maʿārif]** The husband's share is mentioned first, though the wife's case might seem more
+pressing, perhaps because after his wife's death the husband becomes part of another family; and if the wife
+dies in her parents' house with her assets there, her people may avoid paying the husband his due — so by
+stating the husband's right first, the Qurʾān has placed a guard over it. The shares are reckoned after debt
+and will: half the estate to the husband if the wife left no child, or a fourth if she left children,
+whether by him or by a previous husband; from the remainder the parents, brothers and sisters receive their
+shares. **[Saʿdī]** draws the practical rule from the two verses together: the *farāʾiḍ* cannot be worked out
+by sentiment; they are the portions God Himself delimited, and the closing "a charge from God, and God is
+Knowing, Forbearing" means that He knows what suits His creatures and forbears with those who delay their
+obedience.
+
+**Reflection.** **[Study Quran]** The gradual reduction of the spouse's share when there is offspring — a
+half to a fourth for the husband, a fourth to an eighth for the wife — reflects the same principle that runs
+through the whole passage: those whom the deceased was responsible for in life are the ones the estate
+follows in death, and the surviving spouse's share shrinks as the number of dependents grows. **[Maʿārif]**
+notes that the jurists drew from these words the rule that a Muslim may not inherit from a non-Muslim, nor a
+non-Muslim from a Muslim, whatever their kinship — "the Muslim does not inherit the *kāfir*, nor does the
+*kāfir* inherit the Muslim" (Mishkat) — and that an apostate's estate follows special rules: what he earned
+as a Muslim goes to his Muslim heirs, and what he earned in apostasy to the public treasury.
+
+**Cross-references.** "They ask you for a ruling: say, God gives you a ruling concerning the *kalālah*"
+(4:176); "Men have a share of what parents and near kin leave, and women have a share" (4:7); the rule of
+debts and bequests at 4:11; "And do not consume one another's property unjustly" (2:188).
+
+
+## 4:13
+
+*"Those are the limits of God; and whoever obeys God and His Messenger, He will admit him to Gardens beneath
+which rivers flow, abiding therein — and that is the great triumph."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed on "those are the limits of God." Some said: those are
+God's conditions (*shurūṭ*) — al-Suddī said, "the conditions of God." Some said: His obedience — Ibn ʿAbbās
+said, "God's obedience, meaning the inheritances God named." Some said: God's practice and command. Some
+said: God's obligatory shares. Ṭabarī's own preferred reading: the *ḥadd* of anything is what separates it
+from what is other than it — which is why the boundaries of a house and of lands are called *ḥudūd*: they
+divide what is bounded from what lies beyond; and so God's limits are the demarcations of His obedience,
+fixed between the lawful and the unlawful, which the servant must not cross. **[Jalālayn]** "Those rulings
+mentioned concerning the orphans and what followed are God's bounds" — His laws, which He delimited for His
+servants so that they might act according to them and not infringe them. Whoever obeys God and His Messenger
+in what He has ruled — *yudkhilhu* or, read as a shift to the first person, *nudkhilhu*, "We shall admit him"
+— to Gardens beneath which rivers flow, abiding therein; that is the great triumph.
+
+**Rulings.** **[Ibn Kathīr]** The *farāʾiḍ* are God's set limits, including what He allotted to the heirs
+according to the degree of their relation to the deceased and their dependence on him; so do not transgress
+or violate them. "Whoever obeys God and His Messenger" regarding inheritance, and does not add to or subtract
+from the fixed shares by tricks and plots, but gives each his appointed share as God commanded, ordained and
+decreed — he will be admitted to Gardens beneath which rivers flow. **[Saʿdī]** The passage proves that
+bequeathing to an heir is abrogated: the shares God apportioned settle what each heir receives, so a bequest
+that increases an heir's portion beyond his share falls under "do not transgress" — the Prophet ﷺ said,
+"There is no bequest to an heir." Then God mentions obedience and disobedience in general terms, so that
+holding to His limits in inheritance, or abandoning them, falls under the general command: "And whoever
+obeys God and His Messenger" — by carrying out their command, the greatest of which is obedience in
+*tawḥīd*, then the commands in their varying ranks, and by avoiding what they forbid, the greatest of which
+is associating partners with God, then sins in their varying degrees.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Aḥmad records from Abū Hurayrah that the Messenger of God ﷺ said: "A
+man may perform the deeds of the people of good for seventy years, but when he makes his will he commits
+injustice, so his final deed is his worst and he enters the Fire; and a man may perform the deeds of the
+people of evil for seventy years, yet he is just in his will, so his final deed is his best and he enters
+Paradise." Abū Hurayrah said: "Recite, if you wish, 'Those are the limits of God,' until 'a humiliating
+chastisement'." Abū Dāwūd records, in the chapter on injustice in the will, another tradition of Abū
+Hurayrah from the Prophet ﷺ on the same subject.
+
+**Reflection.** **[Study Quran]** That the rules for dividing and apportioning the estate are called "the
+limits set by God" makes it clear that the apportionment is mandatory, not merely recommended, and that
+failure to comply places one in a state of disobedience that may lead to perdition, while compliance brings
+heavenly reward. **[Saʿdī]** draws the doctrine out of the closing phrase: whoever performs the commands and
+avoids the prohibitions must enter the Garden and be delivered from the Fire — "and that is the great
+triumph," the triumph of escaping His wrath and His punishment and winning His reward and His good pleasure
+with an abiding bliss that no describer can describe.
+
+**Cross-references.** "These are the limits of God, so do not approach them" (2:187); "And whosoever
+transgresses the limits of God, those are the wrongdoers" (2:229); the closing of the sūrah's last
+inheritance verse (4:176) and the parallel blessing of 48:17; "Whoever obeys God and His Messenger, He will
+admit him to Gardens" (48:17).
+
+
+## 4:14
+
+*"And whoever disobeys God and His Messenger and transgresses His limits, He will admit him to a Fire,
+abiding therein, and for him is a humiliating chastisement."*
+
+**Meaning.** **[Ṭabarī]** "Whoever disobeys God and His Messenger" in acting on what they commanded — the
+division of inheritances as they ordered, and the rest of God's obligatory shares — and opposes their command
+with what they forbade; "and transgresses His limits" — passes beyond the boundaries of His obedience which
+He set as the dividing line between obedience and disobedience — into what He forbade, in dividing the
+estates of the dead among their heirs and in His other limits; "He will admit him to a Fire, abiding
+therein": remaining in it forever, not dying and never emerging; "and for him is a humiliating
+chastisement" — a chastisement of disgrace, shaming him. Ibn ʿAbbās said the verse concerns the inheritance
+shares mentioned before, and Ibn Jurayj said it concerns whoever takes more than his share.
+
+**Rulings.** **[Saʿdī]** Under the name "disobedience" fall unbelief and what is beneath it, in sins of
+varying degrees — so there is no room in this verse for the Khawārij, who declare the people of grave sins to
+be unbelievers. God has made entry to the Garden depend on obedience to Him and to His Messenger, and entry
+to the Fire depend on disobedience to Him and to His Messenger: whoever obeys Him completely enters the
+Garden without punishment, and whoever disobeys Him and His Messenger completely — a disobedience that
+includes association with God and what is below it — enters the Fire and abides in it. But whoever has in
+him both disobedience and obedience has in him both the cause of reward and the cause of punishment, each in
+proportion to what he carries. The widely transmitted texts show that monotheists who hold *tawḥīd* are not
+made to abide forever in the Fire: the *tawḥīd* they carry prevents their eternity in it.
+**[Jalālayn]** The singular pronouns of the last two verses accord with the singular form of *man*,
+"whoever"; the plural in *khālidīn*, "abiding," accords with its general plural import; and the verbs admit
+of both shapes of reading, *yudkhilhu* and *nudkhilhu*.
+
+**Reflection.** **[Ibn Kathīr]** The punishment is described with the root of humiliation because the
+wrongdoer in the estate "changed what God ordained and disputed with His judgment" — the behaviour of one who
+does not agree with what God has decided and divided; so God punishes him with humiliation in the eternal,
+painful torment. **[Saʿdī]** The pairing of the two verses teaches proportion: the one who obeys in the
+matter of inheritance out of obedience to God and His Messenger, not out of convenience, inherits the
+"great triumph," and the one who treats the fixed shares as negotiable inherits the humiliating punishment —
+so a matter that people treat as a scrap of family business is set by God among the boundaries of His law.
+
+**Cross-references.** "And whoever transgresses the limits of God — those are the wrongdoers" (2:229);
+"Whoever obeys God and His Messenger has indeed achieved a great triumph" (33:71); "And whoever disobeys God
+and His Messenger — surely for him is the Fire of Hell" (72:23).
+
+
+## 4:15
+
+*"And those of your women who commit an indecency — call four of you to witness against them; and if they
+testify, then confine them in their houses until death takes them, or until God appoints for them another
+way."*
+
+**Meaning.** **[Ṭabarī]** The *fāḥishah* is *zinā*, adultery; the women may be married or unmarried, for
+God does not limit the verse to either. "Then call four of you to witness against them" — four men from among
+your men, that is, from the Muslims. "And if they testify" — if the four bear witness to the indecency —
+"then confine them in their houses" until they die, "or until God appoints for them a way out" of the
+confinement. **[Jalālayn]** This was stipulated at the very beginning of Islam; later God appointed a way
+out through the *ḥadd*: the virgin receives a hundred lashes and a year's banishment and the married woman is
+stoned — as the ḥadīth has it, "Take from me; God has now made a way out for them" (Muslim).
+
+**Rulings.** **[Qurṭubī]** Just as God had commanded good treatment of women, sending them their dowries and
+making them heirs alongside men, so He also made the law strict on them for the indecency they commit — lest
+a woman imagine that abandoning chastity is something permissible to her. On the word *allātī*: it is the
+plural of *allatī*, a vague noun for the feminine, definite in form, and it cannot be stripped of its
+article to make it indefinite; it is incomplete without its relative clause, and it has several forms in the
+language — *allātī*, *allāt*, *allāʾī*, *allāʾ* — and when pluralized: *allawātī* and *allawāʾī*.
+
+**Rulings.** **[Ibn Kathīr]** At the beginning of Islam the ruling was that a woman convicted of adultery on
+sufficient proof was confined to her house without leave until she died. "Some other way" refers to the
+abrogation of that ruling which came later: Ibn ʿAbbās said the early ruling was confinement until God sent
+down Sūrat al-Nūr, which abrogated it with the ruling of flogging for fornication or stoning to death for
+adultery; and similar was reported from ʿIkrimah, Saʿīd b. Jubayr, al-Ḥasan, ʿAṭāʾ al-Khurāsānī, Abū Ṣāliḥ,
+Qatādah, Zayd b. Aslam and al-Ḍaḥḥāk — and it is a matter on which there is agreement. Aḥmad records from
+ʿUbādah b. al-Ṣāmit: when revelation descended on the Messenger of God ﷺ it affected him and his face showed
+strain; one day God sent down revelation to him, and when he was relieved of its strain he said: "Take from
+me: God has made a way for them. The previously married with the previously married, and the virgin with
+the virgin: the previously married gets a hundred lashes and stoning with stones, and the virgin a hundred
+lashes and then banishment for a year." Muslim and the compilers of the *Sunan* record ʿUbādah's report with
+the words, "Take from me, take from me: God has made a way for them."
+
+**Rulings.** **[Maʿārif]** The evidence for *zinā* must be four qualified witnesses, and they must be men:
+the testimony of women in this matter is not accepted. Because the crime is of extreme gravity — it violates
+honour and modesty and brings disgrace on the family — Islam has been extremely strict about proving it:
+first, the witnesses must be men; second, four of them are required. This standard is very hard to meet, and
+that is exactly the point: it is a curtain drawn over the servants' sins. **[Saʿdī]** The verse is not
+abrogated; it is bounded to that period (*mughayyā ilā dhālika l-waqt*) — the ruling at the beginning of
+Islam was that, until God appointed for them a way, which is the stoning of the previously married and the
+lashes of the unmarried. From these two verses is taken the rule that the proof of *zinā* must be four
+believing men, and all the more so that they be upright — for God tightened the matter as a veil over His
+servants, so that the testimony of women alone is not accepted, nor their testimony with one man, nor with
+fewer than four; and the witnesses must state the act plainly, as seen with the eye, without hint or
+allusion. **[Study Quran]** Notes that the verse establishes four eyewitnesses as a special and mandatory
+condition for conviction, that most commentators indicate the witnesses must be male, and that Islamic law
+requires them to be mentally and religiously sound, of the age of legal responsibility and free of prior
+conviction for a major sin; and that the verse applies to Muslim women, not non-Muslim women even if married
+to Muslim men. The later punishments — a hundred lashes for fornication and stoning for adultery, the latter
+based on Prophetic precedent rather than the Qurʾān — are usually considered to have abrogated this verse's
+ruling.
+
+**Reflection.** **[Saʿdī]** The two verses are a single graduated ordinance: the woman guilty of the
+indecency was confined and prevented from mixing with people, which is itself a punishment and a protection;
+the man — and the pair — were rebuked with words, censure, public shame and a deterrent beating. From the
+passage is also taken that God legislated discretionary correction (*taʿzīr*) by word, by act and by
+confinement for this class of sin, to restrain it. **[Qurṭubī]** the sharpening of the law on women after
+the passage of their rights is not a contradiction but a balance: the same sūrah that lifts women from being
+chattels protects them from the last dishonour, being turned into the object of licence.
+
+**Cross-references.** "The fornicatress and the fornicator — flog each of them a hundred lashes" (24:2); "And
+those who accuse chaste women and do not bring four witnesses — flog them with eighty lashes" (24:4); the
+prohibition of approaching *zinā* at 17:32; the story of Lot's people and the punishment of the *fāḥishah* at
+7:80–84.
+
+
+## 4:16
+
+*"And the two of you who commit it — punish them both; and if they repent and make amends, then leave them
+alone. Truly God is ever Relenting, Merciful."*
+
+**Meaning.** **[Ṭabarī]** "And the two of you who commit it" — the man and the woman who commit the
+indecency, the pronoun referring back to the *fāḥishah* named in the previous verse; the sense being: the
+two of you who commit the indecency — punish them both. The commentators differed on who is meant. Some said
+they are the two unmarried ones (*al-bikrān*), while the previous verse concerned the previously married
+women: al-Suddī said the verse was revealed about the young slave-girls and slave-boys who had not married;
+Ibn Zayd said it means the two unmarried ones.
+
+**Readings & rulings.** **[Jalālayn]** The dual is read *wa'lladhāni* or *wa'lladhānni*: since the pronoun
+and the verb are masculine dual and the reference to two men is clear, the more obvious sense is homosexual
+intercourse — though al-Shāfiʿī held that it referred to an adulterer and an adulteress, on the basis that
+masculine expressions include the feminine. Al-Shāfiʿī held that the verse is abrogated by the prescribed
+punishment; but on his view the one who is the object of the penetrative act is not stoned even if married —
+he is flogged and banished. **[Qurṭubī]** On the grammar: *alladhāni* is the dual of *alladhī*; the
+analogical form would be *al-ladhayāni*, and Sībawayh said the *yāʾ* was dropped to distinguish the
+declinable nouns from the vague nouns; Ibn Kathīr read it with the doubled *nūn*, which is the dialect of
+Quraysh. Abū ʿAlī said the *yāʾ* was dropped for lightness, since ambiguity is prevented because the *nūn*
+is not dropped — whereas the *nūn* of the dual is dropped in construct phrases in declinable nouns like
+*raḥayāka*, so that dropping the *yāʾ* as well would confuse the singular with the dual. A further dialect
+gives *al-ladhā*, with the *nūn* dropped. **[Qurṭubī]** *Fa-ādhūhumā* — "punish them" — is interpreted as
+rebuke by word, and some said a beating with sandals or the like.
+
+**Rulings.** **[Saʿdī]** The two of them — male and female — are to be hurt by word, censure, reproach and a
+deterrent beating; then if they repent of the deed, regret it and resolve not to return, and make amends by
+works that prove the truth of the repentance, then turn away from harming them: God is ever Relenting and
+Merciful. Under this reading, men who commit the indecency are punished by *adhā* while women are confined
+and also punished; the confinement of the woman ends only at death, while the harm of the reproach ends at
+repentance and amendment. **[Study Quran]** The meaning of "two of those among you" is debated: most
+commentators and jurists take it as the male and female guilty of fornication or adultery; some say it
+refers specifically to unmarried fornicators while the preceding verse refers to married adulteresses; others
+suggest, because of the masculine dual, that it refers to two men guilty of a homosexual act — sometimes
+adding that the previous verse may refer to female homosexual acts — but there is significant doubt about
+this interpretation. Some combine the two verses so that confinement and punishment are prescribed for
+woman, and punishment alone for the man. *Adhū* here means to harass, hurt or insult — usually interpreted
+as a stern public rebuke rather than corporal punishment, though some say it may include a mild beating.
+Commentators widely agree that both verses were abrogated by the punishment of lashing in 24:2 and the
+Prophetic precedent of stoning for married adulterers; but repentance and return to rectitude avert the
+punishment from the perpetrators, "for one who repents of a sin is as one who has not sinned" (Ibn Kathīr);
+some hold that this applies only to this punishment and not to the *ḥadd* of 24:2.
+
+**Reflection.** **[Maʿārif]** Some commentators, including Qāḍī Thanāʾullāh Pānīpatī, hold that this verse
+concerns a homosexual act between two males, since the pronoun is masculine on both sides; those who take
+both verses as concerning fornication between men and women answer that in general Arabic usage the masculine
+includes the feminine. Either way, the possibility of a reference to homosexuality cannot be ruled out, and
+so Maʿārif sets out the traditions on the severity of the prohibition — among them the report of Abū
+Hurayrah that the Prophet ﷺ cursed seven types of his creatures from above the seven heavens, repeating the
+curse three times on one of them: "Cursed is the one who does the deed of the people of Lot," three times.
+**[Qurṭubī]** The mercy at the verse's close — God is Relenting, Merciful — is attached to the command to
+punish, so that even a penal verse ends by opening the door of return; the discipline is meant to end the
+sin, not to keep the sinner in it.
+
+**Cross-references.** "And the two who commit it among you — punish them both" stands beside "the fornicator
+and the fornicatress" of 24:2; the story of Lot at 7:80–84 and 27:54–58; "Do not approach *zinā*, for it is
+an indecency and an evil way" (17:32).
+
+
+## 4:17
+
+*"God only accepts the repentance of those who do evil in ignorance and then turn in repentance soon after —
+those are the ones to whom God relents; and God is Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** "The repentance upon God" belongs to no one of His creatures but those who work
+evil in ignorance among the believers, "and then turn in repentance soon after": God returns to no one of His
+creatures with the pardon and forgiveness he loves, except those who commit their sins in ignorance while
+believing in their Lord, and then return to His obedience, repenting with regret, seeking forgiveness, and
+abandoning the return to the like of it — before death comes to them. That is the "soon" of which God
+speaks. The commentators differed on the meaning of "in ignorance": some took it at face value — the deed
+itself is the ignorance meant. Qatādah, from Abū l-ʿĀliyah, reported that the Companions of the Messenger of
+God ﷺ used to say: every sin that a servant commits, he commits in ignorance. **[Jalālayn]** "In ignorance"
+is a circumstantial qualifier, in other words: they are ignorant while they disobey their Lord — that is,
+they are heedless of its consequence. "Then they repent soon after" — before the last gasps of death, before
+death approaches. God will relent to those — He will accept their repentance; and God is ever Knowing of His
+creatures, Wise in what He does with them.
+
+**Rulings.** **[Qurṭubī]** This verse was said to be general for everyone who commits a sin, and also said to
+be for the one who does so in ignorance only, since repentance is granted to everyone who sins elsewhere in
+the Qurʾān. The community agrees that repentance is an obligation upon believers — "And turn to God in
+repentance, all of you, O believers" (24:31) — and it is valid from one sin even while a person persists in
+another of a different kind, contrary to the Muʿtazila, who hold that one who persists in a sin cannot be a
+repentant. There is no difference between one act of disobedience and another in this respect: this is the
+doctrine of the people of the Sunna. If a servant repents, God may accept it or not, for acceptance of
+repentance is not obligatory upon God by rational necessity as the opponents claim: the one who is obliged
+must be of higher rank than the one on whom the obligation falls, whereas God is the creator and owner of
+creation and the one who imposes the obligation, so it is not correct to describe an obligation as resting
+upon Him. Rather, He has truthfully informed us in His promise that He accepts the repentance of the
+disobedient among His servants — "And He it is who accepts repentance from His servants and pardons evil
+deeds" (42:25); "Do they not know that God accepts repentance from His servants" (9:104); "And indeed I am
+most forgiving to the one who repents" (20:82).
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Mujāhid and others said: every person who disobeys God, by mistake or
+intentionally, is ignorant until he refrains from the sin. Qatādah narrated from Abū l-ʿĀliyah: the
+Companions of the Messenger of God ﷺ used to say that every sin a servant commits he commits in ignorance.
+Maʿmar said Qatādah said the Companions agreed that every sin committed, intentionally or otherwise, is
+committed in ignorance. Ibn Jurayj reported from Mujāhid: everyone who disobeys God, even deliberately, is
+ignorant while committing the act of disobedience. Ibn ʿAbbās, via ʿAlī b. Abī Ṭalḥah, said on "and then
+they repent soon after": before one looks at the angel of death. Al-Ḍaḥḥāk said: everything before death is
+"soon after." Al-Ḥasan said: just before his last breath leaves his throat. ʿIkrimah said: this whole life is
+"soon after." Aḥmad records from Ibn ʿUmar that the Messenger of God ﷺ said: "God accepts the repentance of
+the servant so long as the soul has not reached the throat" (also collected by al-Tirmidhī, who graded it
+*ḥasan gharīb*, and Ibn Mājah).
+
+**Belief & reflection.** **[Saʿdī]** God's turning to His servants is of two kinds: His enabling them to
+repent, and His acceptance of it after it exists from the servant. Here He informs us that the repentance
+that God has made binding on Himself is that of one who works the evil — the sins — "in ignorance": ignorant
+of its consequence and of its bringing down of God's wrath and punishment, ignorant of God's gaze upon him
+and His watching, ignorant of where it leads in diminishing or destroying faith. Every disobedient person is
+ignorant in this sense, even if he knows the act is forbidden — for knowing the prohibition is a condition
+of the act being a punishable sin. "Then they repent soon after" may mean: before they witness death, for God
+accepts a servant's repentance if he repents before the agony of death and the sight of punishment — as for
+after death's arrival, no repentance is accepted from the disobedient, nor a return from the disbelievers,
+as God says of Pharaoh and of those who believed only when they saw His wrath. Or "soon" may mean: near in
+time to the sin — that whoever hastens to desist the moment the sin occurs, and turns back with regret, God
+turns to him; unlike the one who continues in his sin and persists until it becomes a firmly rooted trait, for
+whom complete repentance is difficult, and he is generally not granted success in it. The mercy and success
+are nearer to the first, which is why the verse closes with "God is Knowing, Wise" — of His knowledge, He
+knows the truthful from the lying repentance, and repays each as he deserves by His wisdom.
+
+**Cross-references.** "And repentance is not accepted from those who do evil deeds until death confronts
+one" (4:18); "Your Lord has prescribed mercy upon Himself: whoever among you does evil in ignorance and then
+repents and makes amends — surely He is Forgiving, Merciful" (6:54); the repentance of those who say "now we
+believe" when they see the punishment is refused (40:84–85; 10:90–91).
+
+
+## 4:18
+
+*"And repentance is not for those who do evil deeds until, when death confronts one of them, he says, 'I
+repent now' — nor for those who die as disbelievers. For those We have prepared a painful chastisement."*
+
+**Meaning.** **[Ṭabarī]** Repentance does not belong to those among the people of persistence in God's
+disobedience who work the evil deeds until, when death confronts one of them — when he rattles in his throat
+and sees the angels of his Lord come to take his soul — he says, overpowered by his own soul and cut off from
+his understanding by his agony and rattling, "I repent now." There is no repentance for him before God,
+because he said what he said in other than the condition of repentance. Ibn ʿUmar said: repentance is spread
+wide so long as one is not driven — then he recited this verse and said, "What is presence but the driving?"
+**[Jalālayn]** The verse excludes those who repent only when death approaches — on seeing their predicament
+— for it will not avail them and will not be accepted from them; and excludes those who die disbelieving:
+if they repent in the Hereafter on seeing the chastisement, it will not be accepted. "Those — We have
+prepared for them a painful chastisement." **[Saʿdī]** Their repentance is the repentance of compulsion,
+which does not benefit its owner; only the repentance of choice benefits.
+
+**Rulings.** **[Study Quran]** Doing evil may include a general state of disbelief as well as particular acts
+of disobedience. "In ignorance" seems to suggest sins committed unintentionally, but most commentators
+broaden it — either to anyone who sins, even purposefully, while ignorant of the full repercussions it
+entails, or to anyone who disobeys God, who is effectively in a state of ignorance; for example, 12:89, where
+Joseph's brothers are called "ignorant" though they acted with intent. Some argue it must refer to sins
+committed intentionally, since unintentional sins do not require repentance at all. On how quickly one must
+turn: as v. 18 makes clear, it must precede death. Some say it must occur while one is still in health;
+others, before the certainty of death; still others, simply before death itself. The broadening of the time
+frame is justified by the ḥadīth that "the door of repentance is open until the sun rises from the West,"
+and by a sacred ḥadīth in which God states that He does not prevent the repentant from repenting.
+
+**Reflection.** **[Ṭabarī]** The verse pairs two categories: the one who puts off repentance until the
+deathbed, and the one who dies in disbelief. For the first, the door is closed by the arrival of the thing he
+fled; for the second, there was never a turning at all. Both are gathered under the same "We have prepared
+for them a painful chastisement." **[Saʿdī]** draws the parallel with the end of Pharaoh — "when the
+drowning overtook him he said, I believe" (10:90) — and with the nations who believed only when they saw
+God's wrath: "their faith did not benefit them when they saw Our punishment" (40:85). The lesson is that
+repentance is a creature of freedom: it must be a turning while the choice is still there to be made, since
+faith offered in the shadow of punishment is not faith but the acknowledgment of the inevitable.
+**[Qurṭubī]** God's acceptance of the penitent is a promise He made binding on Himself out of generosity,
+not a debt owed by right — so the door is held open while life remains, and the verse's severity is itself a
+form of mercy, teaching men not to trade the freedom of repentance for its compulsion.
+
+**Cross-references.** "And there is not a soul that will die except by the leave of God, a decree whose term
+is set" (3:145); "Say: O My servants who have transgressed against themselves, do not despair of the mercy
+of God" (39:53); the refusal of Pharaoh's faith at 10:90–91 and of the guilty at 40:84–85.
+
+
+## 4:19
+
+*"O you who believe, it is not lawful for you to inherit women against their will; and do not constrain them
+in order to take away part of what you have given them, unless they commit a flagrant indecency. And live with
+them in kindness; for if you dislike them, it may be that you dislike a thing in which God has placed much
+good."*
+
+**Meaning.** **[Ṭabarī]** "It is not lawful for you to inherit women by coercion" — it is not lawful for you
+to inherit the marriage of the women of your relatives and your fathers by force. To the question how they
+inherited them, and what the prohibition of inheriting them means: this is not the inheritance of their
+property after their death, but the practice of the *Jāhiliyyah* — when one of their women's husbands died,
+his son or his near relative became more entitled to her than anyone else, and even than herself: if he
+wished he married her, and if he wished he hindered her (*ʿaḍala*) from others and did not marry her off
+until she died. God forbade that to His servants, prohibited them from marrying the wives of their fathers and
+forbade them from hindering them from marriage. **[Ibn Kathīr]** Al-Bukhārī records from Ibn ʿAbbās on this
+verse: before this, when a man died, his male relatives had the right to do whatever they wanted with his
+wife — if one of them wished he married her, gave her in marriage, or prevented her from marrying, for they
+had more right to her than her own family. This verse was revealed about that practice.
+**[Qurṭubī]** Al-Zuhrī and Abū Mijlaz described the practice: when a man died, his son by another wife, or his
+nearest male relative, would throw his garment over the woman, and so become more entitled to her than she
+was to herself and than her own guardians: if he wished he married her without a new dowry — only the dowry
+the dead man had given her — and if he wished he married her to another and took her dowry and gave her
+nothing; and if he wished he kept her from marrying so that she would ransom herself with what she inherited
+from the dead man, or die and he inherit her. So God sent down: "It is not lawful for you to inherit women
+against their will."
+
+**Meaning.** **[Jalālayn]** In pre-Islamic times they used to inherit women from their kin: if one of them
+wished he married a woman without a dowry, or married her off and took her dowry for himself, or prevented
+her from marriage until she gave up what she had inherited or until she died and they inherited from her.
+They were forbidden that; and also forbidden to withhold one's former wives from marrying others, retaining
+them although one has no desire for them, only to harm them so as to go off with part of what one has given
+them of the dowry — except when the woman commits flagrant lewdness, such as adultery or rebellion, in which
+case one has the right to press her until she redeems herself or forfeits the dowry. "Consort with them in
+kindness" — being decent in speaking to them regarding their expenditure and lodging. "And if you hate them,
+be patient: it may be that you hate a thing in which God has set much good."
+
+**Rulings.** **[Ibn Kathīr]** "Nor constrain them in order to take away part of what you have given them":
+God commands — do not treat the woman harshly so that she gives back all or part of the dowry she was given,
+or forfeits one of her rights by coercion and oppression. On "unless they commit a flagrant indecency": Ibn
+Masʿūd, Ibn ʿAbbās, Saʿīd b. al-Musayyib, al-Shaʿbī, al-Ḥasan, Ibn Sīrīn, Saʿīd b. Jubayr, Mujāhid, ʿIkrimah,
+ʿAṭāʾ al-Khurāsānī, al-Ḍaḥḥāk, Abū Qilābah, Abū Ṣāliḥ, al-Suddī, Zayd b. Aslam and Saʿīd b. Abī Hilāl said
+this refers to illicit sex: if the wife commits adultery, you are permitted to take back the dowry you gave
+her, and to annoy her until she gives back the dowry in return for a *khulʿ*. **[Saʿdī]** The prohibition
+covers the whole complex of practices, and only two openings remain: if she herself consents and chooses
+marriage to her late husband's relative, as is understood from "against their will"; and if she commits a
+flagrant indecency — adultery, foul speech, or harming her husband — for in that case he may keep her under
+constraint as a punishment for her act, so that she ransoms herself, provided the constraint is just.
+**[Maʿārif]** The root of all these injustices was one basic social ill: men treated women as property, so
+that a woman taken in marriage was passed on after her husband's death as an article of the estate — and
+what would have happened to her property is obvious — with the husband's son by another wife sometimes
+marrying her himself after his father's death.
+
+**Reflection.** **[Saʿdī]** "And live with them in kindness" covers both speech and deed: the husband owes his
+wife beautiful companionship, the withholding of harm, the giving of good, and good treatment — including
+maintenance, clothing and the like; the *maʿrūf* required of a man of his like for a woman of her like, in a
+given time and place, varying with circumstances. "For if you dislike them, it may be that you dislike a
+thing in which God has placed much good": the husbands ought to keep their wives even when dislike is
+present, for in it there is much good — among it, carrying out God's command and accepting His counsel, in
+which lies the happiness of this world and the next; among it, that forcing oneself to do so when love is
+absent is a struggle against the self, and then love and mercy may be created after they were not.
+**[Study Quran]** records the reported occasion — a Madinan woman whose stepson claimed to inherit her on her
+husband's death — and draws the doctrine: with vv. 11–13, this verse clearly establishes that women are
+subjects and not objects of inheritance — inheritors themselves, rather than part of what is inherited. It
+also notes that "it is not lawful for you to inherit women through coercion" may be read "to inherit *from*
+women through coercion," referring to the practice of confining a widow in one's home until she died, at
+which point her property was inherited.
+
+**Cross-references.** "And marry not women whom your fathers married" (4:22); "And do not hold them to harm
+that you may transgress" (2:231); "Then either retain them in kindness or release them in kindness" (2:229);
+the believing women's contract at 60:10 and the ruling of *khulʿ* at 2:229.
+
+
+## 4:20
+
+*"And if you desire to exchange one wife for another, and you have given one of them a great heap of gold,
+take nothing from it. Would you take it by way of calumny and manifest sin?"*
+
+**Meaning.** **[Ṭabarī]** "And if you desire to exchange one wife in place of another" — if you desire, O
+believers, to marry a woman in place of a woman of yours whom you divorce — "and you have given one of them
+a *qinṭār*": and you have given the one you wish to divorce of the dowry a great mass of wealth
+(*al-qinṭār* is a large amount of property). "Then take nothing from it": do not harm them, when you intend
+to divorce them, so that they ransom themselves from you with what you gave them. Mujāhid said:
+"*Istibdāl* here is the divorce of one woman in place of another — and it is not lawful for him to take
+anything of the property of the divorced woman, however much it was."
+
+**Rulings.** **[Qurṭubī]** This verse follows the preceding one: there the separation had its cause in the
+woman, and the husband might take back property from her; here the separation is caused by the husband, and he
+is shown to have no right to ask her for anything. The scholars differed when both spouses desire separation
+and there is disobedience and ill-treatment on both sides: Mālik held that the husband may take from her if
+she was a cause of the separation, without regard to his own part; a group of scholars held that he may not
+take the property unless she alone is disobedient and she requests it. "And you have given one of them a
+*qinṭār*" is proof for the permissibility of giving large dowries, since God does not set an example by what
+is forbidden. ʿUmar, may God be pleased with him, gave a sermon and said: "Let no one be extravagant in the
+dowries of women, for if it were an honour in this world or a piety before God, the most entitled to it would
+have been the Messenger of God ﷺ — he never gave any of his wives or daughters more than twelve *ūqiyya*."
+A woman stood up to him and said: "O ʿUmar, God gives us and you forbid us? Does not God most high say, 'and
+you have given one of them a *qinṭār* — then take nothing of it'?" ʿUmar said: "A woman has spoken rightly,
+and ʿUmar has erred." In another transmission he lowered his head and said, "All people are more learned than
+you, O ʿUmar"; in another: "A woman has hit the mark and a man has missed." **[Maʿārif]** The right to
+reclaim nothing holds even though the husband has given great wealth, when the woman has shown no contumacy
+or immodesty but the husband merely follows his desire for another: it is not permissible for him to force
+her to forgo the dowry due against him, because the cause that makes the dowry due — marriage and privacy —
+has been realised, and no failing of hers has vacated it.
+
+**Reflection.** **[Study Quran]** The verse forbids the husband to reappropriate any of the bridewealth he
+gave his wife, however great its value, if he desires to divorce her and marry another; nor may he use calumny
+— such as falsely accusing her of the flagrant indecency that, under the previous verse, would let him
+attempt to retake it — nor manifest sin by unjust treatment, to coerce her into ransoming herself. *Qinṭār*
+denotes a large measure, a hundredweight; and this verse indicates the permissibility of giving large sums in
+marriage. The well-known report of ʿUmar's attempt to restrict bridal gifts to four hundred dirhams, and the
+woman's challenge from this verse, is cited here as well; ʿUmar conceded and retracted the restriction.
+**[Maʿārif]** Notes that the injustice is described in three stages, of which this verse is the first: "Do
+you want to take it through imputation and open sin?" — a rebuke, since if a man takes back the dowry from a
+wife who has committed no shameful act, he is imputing to her the very act that would alone justify his claim.
+
+**Cross-references.** "And it is not lawful for you to take back anything of what you have given them, unless
+the two fear that they cannot uphold the limits of God" (2:229) — the exception that becomes *khulʿ*; "And how
+could you take it back, when you have gone in to one another, and they have taken from you a firm covenant?"
+(4:21); "Do not retain them in order to harm them" (2:231).
+
+
