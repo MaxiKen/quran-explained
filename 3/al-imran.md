@@ -573,3 +573,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** One cannot hide a motive from God by concealing it from other people. **[Saʿdī]** urges believers to keep the return to God and the eventual presentation of their deeds before them.
 
 ---
+
+## 3:30
+
+*On the day every soul will find before it the good it did and the evil it did, it will wish there were a great distance between itself and that evil. God warns you of Himself; and God is kind to His servants.*
+
+**Meaning.** The warning in 3:28 now turns to the Day of Return: each person will find their good deeds brought forward and fully presented, while seeing their evil deeds will make them wish to be far removed from them **[Ṭabarī] [Ibn Kathīr] [Jalālayn]**. **[Ibn Kathīr]** says the servant is glad at the good and distressed by the evil, wishing to disown it; he connects the image to the regret of a person who wishes to be separated from an evil companion. **[Maʿārif]** relates the warning to the preceding verses: God warns against trading religious allegiance for fleeting interests, and He knows even inward attachment that a person might deny. **[Study Quran]** notes that the day may be read as the occasion of God’s warning, as the day of the return mentioned in 3:28, or with an implied command, “Remember a day when …”
+
+**Ḥadīth & āthār.** **[Ṭabarī] [Ibn Kathīr]** report al-Ḥasan al-Baṣrī’s explanation of “God is kind to His servants”: one of God’s acts of kindness is to warn them about His punishment. **[Ibn Kathīr]** adds that God’s warning is meant to guide people to the straight path and keep them from despairing of His mercy.
+
+**Belief.** Every person will answer for their deeds; nothing done is lost or absent from the final accounting **[Ṭabarī] [Ibn Kathīr] [Saʿdī]**. The warning of punishment and the assurance that God is kind belong together: **[Saʿdī]** understands the warning itself as mercy, because it alerts people to danger and directs them toward good works and away from what brings disgrace. **[Ibn Kathīr]** likewise says the reminder of punishment is paired with hope in divine mercy.
+
+**Language.** **[Ṭabarī] [Qurṭubī]** understand *muḥḍaran* as “presented” or “brought forward”; al-Ṭabarī also glosses it as fully provided. *Amad* can mean an endpoint or appointed term **[Ṭabarī] [Qurṭubī]**. **[Study Quran]** notes a contextual reading in which it means an appointed moment rather than a span of distance, so the sinner wishes the reckoning could be postponed. The commentators offer several grammatical links for “on the day”: to God’s warning, the return to God, or an implied “remember”; **[Qurṭubī]** also records connecting it to God’s power in 3:29.
+
+**Cross-references.** Each person will see even an atom’s weight of good or evil: 99:6–8 **[Study Quran]**. The record will contain all that people did: 18:49 **[Study Quran]**. The wish to be separated from evil echoes the regret in 43:38 **[Study Quran] [Ibn Kathīr]**; compare the accounting of what people sent forward and left behind in 75:13 **[Ibn Kathīr]**.
+
+**Reflection.** **[Saʿdī]** urges people to remember that they are journeying toward God and will meet both Him and their deeds. That awareness should lead them to leave what brings shame and punishment and prepare with righteous works. The threat is serious, but the warning is itself a kindness that gives people the chance to turn toward what brings good.
+
+---
