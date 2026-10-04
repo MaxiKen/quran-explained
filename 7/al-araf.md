@@ -2903,3 +2903,698 @@ water is counted among the best of charities. **[Saʿdī]** closes the passage o
 the signs, the religion taken as play and the life of the world that deceived them; the question between
 the two abodes is answered by the answer that the food and drink were forbidden not out of stinginess but
 as the fruit of a choice.
+
+## 7:51
+
+*"Those who took their religion as diversion and play, and whom the life of this world deluded. So this Day We forget them, as they forgot the meeting of this Day of theirs, and as they used to deny Our signs."*
+
+**Meaning.** **[Ṭabarī]** gives the verse as the continuation of the speech of the people of the Garden:
+they answered the people of the Fire, "God has forbidden both to the disbelievers" — those who disbelieved
+in God and His messengers, those who took the religion God commanded them to keep as diversion and play,
+that is, as mockery and amusement; and he reports from Ibn ʿAbbās that when they were called to faith they
+mocked those who called them to it and ridiculed them, in delusion about God. "And the life of this world
+deluded them": the immediate ease, comfort and plenty they were in deceived them away from taking their
+share of the Hereafter, until death came to them. And God says: "so this Day We forget them" — in this
+Day, the Day of Resurrection, We leave them in the manifest punishment, hungry and thirsty, with no food
+and no drink, just as they left off working for the meeting of this Day of theirs and refused to prepare
+for it by wearying their bodies in obedience to God [Ṭabarī]. **[Saʿdī]**, in the same passage,
+explains the phrase: "God has forbidden them both to the disbelievers" is requital for their disbelief in
+God's signs and for their taking the religion they were commanded to keep straight — and for which they
+were promised abundant reward — as amusement and play: their hearts were diverted from it and turned
+away, they played with it and made it a mockery; or they made amusement and play the substitute for their
+religion, exchanging the straight religion for that. "And the life of this world deceived them" with its
+adornment and its glitter and the multitude of its callers, so they were at peace in it and content with
+it and rejoiced, and turned from the Hereafter and forgot it; "so this Day We forget them" — We leave them
+in the punishment — "as they forgot the meeting of this Day of theirs," as though they had been created
+only for this world and had no presentation and no requital before them [Saʿdī]. **[Jalālayn]** renders
+the verse as the continuation of the address: those who took their religion for diversion and a game and
+were deluded by the life of this world; therefore today We have forgotten them — left them in the Fire —
+just as they forgot the encounter of this day of theirs, when they neglected to perform good deeds for
+it, and because they used to deny Our signs [Jalālayn]. **[Study Quran]** notes that taking religion as
+diversion and play is an attitude attributed to the disbelievers elsewhere (5:57c; 6:70; 21:2–3; 43:83;
+52:11–12; 70:42), and that they were deluded by the life of this world (cf. 6:70, 130; 31:33; 35:5), for
+it is this world that is merely play and diversion (6:32; 29:64; 47:36; 57:20); the human proclivity
+toward forgetfulness of God and of moral obligation is an underlying theme of the Qurʾān (5:13–14; 6:44;
+20:115), as is the corresponding and repeated encouragement to remember God and His commandments; and it
+notes the reciprocity of the verse's forgetting: having forgotten the meeting with the Day, the
+disbelievers are themselves forgotten by God — see also 9:67 and 20:126, as well as 32:14, where they are
+forgotten as a punishment for having forgotten God, and 45:34, where their being forgotten is a requital
+for having forgotten His signs — the reciprocity contributing to the larger theme of moral reflexivity in
+the Qurʾān [Study Quran].
+
+**Language.** **[Ṭabarī]** insists that the "forgetting" attributed to God is not a lapse of memory but
+the abandonment of a person: to be forgotten here is to be left in the punishment with nothing sent down
+to them [Ṭabarī]. **[Study Quran]** notes the same pattern across the Qurʾān, where God's "forgetting"
+of the wrongdoers corresponds exactly to their forgetting of Him [Study Quran].
+
+**Cross-references.** "And it was said, 'Today We forget you as you forgot the meeting of this Day of
+yours'" (45:34); "They have forgotten God, so He has forgotten them" (9:67); "So taste, because you
+forgot the meeting of this Day of yours; indeed, We have forgotten you" (32:14); "Whoever takes his
+religion as play and diversion, and is deluded by the life of this world" (cf. 6:70)
+[Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** reads the verse as a mirror of the two forgettings: the world's callers were
+many and the people answered them, until the Day came and they found themselves left where they had
+left themselves — and the verse's force is that nothing was done to them that they had not done first.
+**[Study Quran]**'s catena shows the same reflexivity throughout the Qurʾān, so that the verse's
+"forget" is not a word of arbitrary anger but the exact shape of the requital.
+
+## 7:52
+
+*"And We have brought them a Book which We have detailed with knowledge — a guidance and a mercy for a people who believe."*
+
+**Meaning.** **[Jalālayn]** reads the verse as God's statement about the people of Mecca: We have brought
+them, the people of Mecca, a Book, the Qurʾān, which We have detailed — made clear through tidings, the
+promise of reward and the threat of punishment — "with knowledge" being a circumstantial qualifier,
+that is, "knowing what has been detailed in it"; and "a guidance" is likewise a circumstantial qualifier
+referring to the pronoun of "We have detailed it," and "a mercy for a people who believe" in it
+[Jalālayn]. **[Ibn Kathīr]** draws out the force of the address: God states that He has left no excuse
+for the idolaters, for He has sent to them the Book which the Messenger ﷺ came with, a Book whose verses
+are perfected and then explained in detail (11:1), detailed with knowledge — meaning, "We have perfect
+knowledge of what We explained in it," as He said, "He has sent it down with His knowledge" (4:166); the
+meaning here is that after God mentioned the loss the idolaters end up with in the Hereafter, He stated
+that He has indeed sent prophets and revealed books in this life, thus leaving no excuse for them — as He
+also said, "And We never punish until We have sent a messenger" (17:15) [Ibn Kathīr]. **[Saʿdī]** gives
+the phrase its full weight: their denial was not for any deficiency in God's signs — rather, "We have
+brought them a Book which We have detailed," that is, We have made clear in it all the matters that
+creation needs, "with knowledge," from God, of the conditions of the servants in every time and place and
+of what suits them and what does not; it is not the detailing of one ignorant of affairs, who would be
+unaware of some conditions and so judge with an unfitting judgment, but the detailing of One whose
+knowledge encompasses all things and whose mercy embraces all things. "A guidance and a mercy for a
+people who believe": through this Book the believers obtain guidance from error and the clarification of
+truth from falsehood, right from wrong, and they also obtain mercy, which is good and happiness in this
+world and the next, so that error and misery are removed from them [Saʿdī]. **[Study Quran]** notes that
+the Book here refers to the divine revelation sent to all people (16:36) or, according to al-Rāzī, to the
+Qurʾān specifically, and that its being expounded with knowledge indicates that the religious truths it
+contains are laid out clearly and that in it truth is clearly distinguished from falsehood (Ṭ); it is a
+source of guidance and a mercy, but specifically for those who believe — see 2:2, where the Book is a
+guidance for the reverent, and 2:26, where it is said regarding the parables God sets forth in it: He
+misleads many by it, and He guides many by it, and He misleads none but the iniquitous [Study Quran].
+
+**Rulings.** **[Ibn Kathīr]**'s reading of the verse as the closing of the excuse belongs to the doctrinal
+principle the Qurʾān states elsewhere: punishment follows the sending of a messenger (17:15), and so the
+Book is the standing proof against those who received it — the verse explains why the Fire's people have
+no plea left, since the detailing was done "with knowledge" [Ibn Kathīr]. **[Study Quran]** adds the
+pastoral limit of the claim: the guidance and mercy are stated to be "for a people who believe," so that
+the same Book is a mercy to one hearer and a proof against another [Study Quran].
+
+**Cross-references.** "A Book whose verses are perfected and then explained in detail" (11:1); "He has
+sent it down with His knowledge, and the angels bear witness" (4:166); "And We never punish until We have
+sent a messenger" (17:15); "This is a Book which We have sent down to you, blessed, that they may
+reflect on its verses" (38:29); "It is a guidance and a mercy for a people who believe" (cf. 16:64, 89)
+[Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading places the verse against the one before it: the people who forgot
+the meeting of their Day are the same people to whom the detailed Book was brought — and the pairing
+makes the Book's clarity the measure of their responsibility. **[Study Quran]**'s note that the
+revelation was sent to all people, while its guidance is received only by those who believe, gives the
+verse its continuing edge: the detailing is universal, the receiving is not.
+
+## 7:53
+
+*"Do they await anything but its fulfilment? On the Day when its fulfilment comes, those who had forgotten it before will say, 'The messengers of our Lord did bring the truth. Are there any intercessors for us who might intercede on our behalf? Or could we be returned, so that we might do other than what we used to do?' They have lost their souls, and that which they used to invent has forsaken them."*
+
+**Meaning.** **[Ṭabarī]** reads the question as a threat: do these idolaters, who deny God's signs and
+reject the meeting with Him, await anything but the outcome of their affair — their arrival at God's
+punishment, their entering His Fire, and the like of what God promised them? He reports from Qatāda:
+"its fulfilment" is its reward; from Muqātil's line: Qatāda said it is its outcome; and from Mujāhid: its
+requital; and al-Suddī said: its outcomes, such as the encounter of Badr and the Resurrection and what
+was promised of the appointment [Ṭabarī]. **[Qurṭubī]** collates the same sense and adds the grammar:
+"do they await" — *al-naẓar* here is waiting, that is, do they await anything but what they were promised
+in the Qurʾān of punishment and reckoning; the pronoun of "its fulfilment" returns to the Book, and the
+outcome of the Book is what God promised in it of resurrection and reckoning; Mujāhid said the
+*taʾwīl* is its requital, Qatāda said its outcome, and the meanings are close. "On the Day when its
+fulfilment comes" — that is, when its outcomes appear, on the Day of Resurrection; the accusative "day"
+is governed by "will say," that is, those who forgot it before the Day when its fulfilment comes will
+say: "The messengers of our Lord did bring the truth. Are there any intercessors for us?" — a question
+carrying the sense of a wish — "who might intercede on our behalf, or could we be returned" (*or* here
+in the sense of "or shall we be returned"), "so that we might do other than what we used to do" — and
+he notes al-Zajjāj's reading of the last clause as coordinated on the meaning, and the reading of Ibn
+Isḥāq with the accusative in both verbs, its sense being "but that we be returned" [Qurṭubī].
+**[Jalālayn]** gives the scene in short: are they waiting — no, they are not waiting — for anything but
+its fulfilment, the consequences of what is in it? On the day when its fulfilment comes, on the Day of
+Resurrection, those who were forgetful of it before, who neglected to believe in it, shall say: "indeed
+our Lord's messengers came with the truth; have we then any intercessors that they may intercede for us,
+or shall we be returned to the world that we may act otherwise than we used to act?" — affirming God's
+oneness and refraining from associating others with Him; and it will then be said to them, "No!" God
+says: truly they have lost their souls, for they have ended up in perdition, and that which they used to
+invent — in alleging that God has a partner — has failed them and abandoned them [Jalālayn].
+**[Ibn Kathīr]** reads the same: "do they await anything but the final fulfilment of the event," in
+reference to what they were promised of torment, punishment and the Fire — or, according to Mujāhid,
+Paradise — and "on the Day the event is finally fulfilled" is the Day of Resurrection, according to Ibn
+ʿAbbās; "those who neglected it before will say" — those who ignored the Book in this life and neglected
+abiding by its implications — "Verily, the messengers of our Lord did come with the truth"; and their
+request for intercessors and for a return to the world is the request of those who have seen the
+accounting [Ibn Kathīr]. **[Study Quran]** explains that "the full disclosure thereof" — of the Book of
+v. 52 — refers to the fulfilment of its commands, and especially of its promises and threats regarding
+resurrection, judgment, reward and punishment in the Hereafter (Ṭs, Z); it notes that "full disclosure"
+renders *taʾwīl*, which elsewhere refers to the interpretation of divine revelation (3:7) and to Joseph's
+interpretation of dreams (*taʾwīl al-aḥādīth*, 12:36), and that in the Islamic tradition there have been
+extensive discussions of the meaning of *taʾwīl* — sometimes simply "interpretation," sometimes the more
+intellectual or speculative reading of a verse as opposed to interpretations transmitted from the Prophet
+or the early authorities, and for Shiites and Sufis the inner, esoteric or hidden sense [Study Quran].
+
+**Belief.** **[Qurṭubī]**'s grammatical note carries a doctrinal point: the verse's plea for intercession
+is a wish expressed as a question, and the answer is its own absence — the people who ask it are those
+whose request cannot be granted because the time for seeking has passed; the passage is cited in the
+discussions of intercession, where its force is that intercession belongs to the world of means and not
+to the world after the means are cut [Qurṭubī]. **[Study Quran]** notes the connection with the
+discussion of *taʾwīl*: the day the meaning of the Book becomes plain to sight is a day when the
+possibility of interpreting it into action has already closed [Study Quran].
+
+**Cross-references.** "Or it is that they are awaiting the Hour to come upon them suddenly; its signs
+have come already" (47:18); "And when those who were followed disown those who followed them, and they
+see the punishment, and the means are cut off from them" (2:166); "Until, when death comes to one of
+them, he says, 'My Lord, send me back, that I might do righteousness in what I left behind' — no!"
+(23:99–100); "Say: To God belongs intercession altogether" (39:44); "So today no intercession of
+intercessors shall profit them" (cf. 74:48) [Ṭabarī] [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Ṭabarī]**'s line of reports makes "its fulfilment" mean what actually happens — and
+the verse's whole sadness lies in the tense of the speech: the men who ask for intercessors and for a
+return are already standing where the fulfilment has come, and their request is a request spoken in the
+wrong world. **[Study Quran]** notes that the passage is read as a warning about the interpretation of
+the Book itself: to take its threats as figures of speech is, in the end, to be met by their literal
+fulfilment.
+
+## 7:54
+
+*"Truly your Lord is God, who created the heavens and the earth in six days, then mounted the Throne. He covers the night with the day, which pursues it swiftly; and the sun, the moon and the stars are subjected by His command. Unquestionably, His is the creation and the command. Blessed is God, Lord of the worlds."*
+
+**Meaning.** **[Ṭabarī]** begins with the title: your Lord and the one who sets your affairs right is
+the God who is worshipped, who created the heavens and the earth in six days — Sunday, Monday, Tuesday,
+Wednesday, Thursday and Friday — as Mujāhid said: the beginning of creation was the Throne, the water
+and the air; the earth was created from water; the beginning of creation was on Sunday, and creation was
+completed on Friday, and the Jews took the Sabbath; and a day of those six days is like a thousand years
+of what you count. Then he sets aside the meaning of "then mounted the Throne" with a reference to the
+extensive discussion of *istiwa'* earlier in his commentary, and reads "He covers the night with the
+day, which pursues it swiftly": He brings the night over the day and clothes it with it, until its
+freshness and light are gone; "pursues it" — the night seeks the day; "swiftly" — quickly; from Ibn
+ʿAbbās: "swiftly" means quickly; al-Suddī said: He covers the day with the night by its darkness, and it
+seeks it quickly until it overtakes it. Then "the sun and the moon and the stars, subjected by His
+command": God created them all by His command and they obey His command; "unquestionably, His is the
+creation and the command" — the command that is not opposed and not rejected, unlike all the things
+besides Him and unlike the gods and idols the idolaters worship, which neither harm nor benefit, neither
+create nor command. He then cites a report: from ʿAbd al-Ghaffār b. ʿAbd al-ʿAzīz al-Anṣārī, from ʿAbd
+al-ʿAzīz al-Shāmī, from his father, who had companionship with the Prophet ﷺ, that the Messenger of God
+ﷺ said: "Whoever does not praise God for a righteous deed he has done, but praises himself, has little
+thankfulness and his deed is void; and whoever claims that God has given the servants any share in the
+command has disbelieved in what God sent down to His prophets, because of His saying, 'Unquestionably,
+His is the creation and the command'" *(weak)* — the chain of this report running through a narrator
+judged weak and rejected by the critics [Ṭabarī]. **[Qurṭubī]** opens the verse's argument: God has shown
+that He alone has the power of bringing into being, and He it is who must be worshipped; and he discusses
+the six days — the day in the language of the Arabs runs from sunrise to sunset, so if there is no sun
+there is no day, as al-Qushayrī said; and the meaning of "six days" is either of the days of the
+Hereafter, each of which is a thousand years, to magnify the creation of the heavens and the earth, or of
+the days of this world, the first of them Sunday and the last Friday, as Mujāhid and others said; and God
+mentioned this duration although had He willed He could have created them in one glance, since He is able
+to say to a thing "be" and it is — but He wanted to teach the servants gentleness and steadiness in
+affairs, and to show His power to the angels thing after thing, and there is another wisdom: He created
+them in six days because everything with Him has a term, and by this He made plain His leaving the
+disobedient unpunished at once, since everything with Him has a term — as He said, "And We created the
+heavens and the earth and what is between them in six days, and no weariness touched Us; so be patient
+with what they say" (50:38–39) [Qurṭubī]. **[Ibn Kathīr]** states that God created the universe — the
+heavens and earth and all that is in, on and between them — in six days, as He stated in several verses;
+these six days are Sunday, Monday, Tuesday, Wednesday, Thursday and Friday; on Friday the entire creation
+was assembled and Adam was created; there is a difference of opinion whether these days were the same as
+our standard days or each day constitutes a thousand years, as reported from Mujāhid, Imam Aḥmad b.
+Ḥanbal, and from Ibn ʿAbbās according to al-Ḍaḥḥāk's narration from him; as for Saturday, no creation
+took place in it since it is the seventh day, and *al-sabt* means stoppage or break; and he cites the
+report of Abū Hurayra in the *Musnad* of Aḥmad describing what God created on each day, from the earth on
+Saturday and the mountains on Sunday, the trees on Monday, the disliked things on Tuesday, light on
+Wednesday, the beasts on Thursday, and Adam on Friday [Ibn Kathīr]. **[Maʿārif]** opens with the argument
+the verse makes to its hearer: it states that God created the heavens and the earth and the planets and
+stars, and that they perform their functions under a firmly established system — which suggests the
+perfection of the maker's power and invites every reasonable human being to think: why should it be
+difficult for the Being who brought this universe from non-being, and who keeps it functioning through
+the wisest of systems, to undo everything and recreate it on the Day of Qiyāmah? For human beings the
+best course is to stop denying the Qiyāmah and turn to the same Being as their Rabb. On the question of
+why six days when He could create in a single moment — as the Qurʾān itself says, "And Our command is
+but a single word, like the twinkling of an eye" (54:50) and "when He intends a thing, He says to it
+'Be,' and it is" (36:82) — the answer given by Saʿīd b. Jubayr is that divine wisdom demanded that the
+creation of the universe take six days so that human beings could be taught the lesson of graduation and
+perfection in running affairs, supported by the ḥadīth, "Working with deliberation, dignity and
+graduation is from God, and hastening is from Satan" (Mazharī, from *Shuʿab al-Īmān* of al-Bayhaqī);
+on the question of how days and nights were counted before the creation of the sun, it is said either
+that the six days mean a duration equal to six of our days and nights, or — a clearer approach — that
+the terminology belongs to this world and that God may have had other signs for day and night before the
+universe, as in Paradise the day and night will not depend on the movement of the sun; and he notes
+that Imam Aḥmad b. Ḥanbal and Mujāhid said the six days are the days of the Hereafter, as in the report
+of al-Ḍaḥḥāk from Ibn ʿAbbās, and that the six days began, according to authentic narrations, on Friday
+and ended on Friday, with no work of creation done on Saturday. On "then He mounted the Throne," he
+writes that *istawā* with *ʿalā* literally means to take position on, to settle, or to be established,
+and *ʿarsh* means throne; and the question of what this throne is, and what the mounting on it means, is
+answered by the safest creed to hold — that of the righteous elders, the Companions and the Successors,
+and later of many Sufi thinkers — that human reason is incapable of comprehending the reality of the
+Being and attributes of God, that pursuing the exact reality is futile and even harmful, and that one
+should believe, as a matter of general principle, that the meaning intended by God — whatever it is — is
+true, and that the exact modality is beyond our knowledge [Maʿārif]. **[Jalālayn]** gives the same
+sequence with its grammatical notes: surely your Lord is God who created the heavens and the earth in six
+days of the days of this world — that is, in the equivalent thereof, since there was no sun then; had He
+willed He could have created them in an instant, but the reason for His not doing so is that He wanted to
+teach His creatures to be circumspect; then He presided upon the Throne, a presiding befitting Him —
+*al-ʿarsh* in the classical language being the elevated seat on which a king sits; He cloaks the night
+with the day, that is, He covers each one with the other, each following the other in swift pursuit; and
+the sun and the moon and the stars — if read in the accusative they are a supplement to "the heavens,"
+and if in the nominative they are the subject whose predicate follows — have been made subservient, subdued
+by His command, by His power; verily His is all creation and the command in its entirety; blessed and
+magnified be God, the Lord, the Master of the worlds [Jalālayn]. **[Study Quran]** notes that Qurʾānic
+references to the creation of the heavens and the earth in six days (10:3; 11:7; 25:59; 32:4; 50:38;
+57:4) are usually followed by the statement that God then mounted the Throne, and that since mounting the
+Throne suggests physical movement and location of a body, while God has no body according to Islamic
+thought, many commentators note that the phrase is a symbol for God's demonstration of His sovereignty
+over His creation (Ṭs); that the creation in six days is similar in certain ways to the Biblical
+narrative, but the Qurʾān attributes no resting to God, for neither slumber overtakes Him nor sleep, and
+protecting the heavens and the earth tires Him not (2:255; 50:38); that "He causes the night to cover the
+day, which pursues it swiftly" describes the alternation of night and day as each swiftly seeking the
+other; and that the sun, the moon and the stars are made subservient by His command, so that "do not
+creation and command belong to Him?" — blessed is God, Lord of the worlds [Study Quran].
+
+**Belief.** **[Maʿārif]** records the classical creed on the divine attributes: the verse's "mounted" is
+affirmed as God's own statement while its modality is left to God, since human reason cannot comprehend
+the reality of His being and attributes and the pursuit of that exact reality is futile and harmful;
+the safe position is to believe that the intended meaning — whatever it is — is true, and to affirm it
+without asking how [Maʿārif]. **[Study Quran]** makes the same point in its own terms: the Throne is a
+symbol of God's sovereignty, not a seat in the physical sense, since God has no body in Islamic thought
+[Study Quran]. **[Qurṭubī]** draws out the argument for the resurrection from the six days themselves:
+the deliberation with which creation was made shows that everything with God has a term, and that the
+disobedient are left unpunished until the term arrives — the same God who made the world in measured time
+has appointed a time for its reckoning [Qurṭubī].
+
+**Cross-references.** "And We created the heavens and the earth and what is between them in six days,
+and no weariness touched Us" (50:38); "God is He who created the heavens and the earth, and what is
+between them in six days, then mounted the Throne" (32:4; cf. 10:3; 25:59; 57:4); "God, there is no god
+but He, the Ever-Living, the Sustainer — neither slumber overtakes Him nor sleep" (2:255); "And He
+subjected to you the night and the day, and the sun and the moon" (16:12); "And the sun runs to its
+resting place; that is the decree of the Almighty, the Knowing" (36:38) [Ṭabarī] [Ibn Kathīr]
+[Study Quran].
+
+**Reflection.** **[Maʿārif]** ends its discussion at the practical point the verse draws from the six
+days: the Creator who worked with deliberation teaches deliberation, and the "six days" are a lesson in
+graduation and unhurried perfection, while haste is from another quarter. **[Qurṭubī]**'s reading gives
+the same temporal frame its moral: the unpunished wrongdoer reads the delay as safety, but the verse
+makes the delay itself the proof that the term is fixed and the appointment is coming.
+
+## 7:55
+
+*"Call upon your Lord humbly and in secret. Truly He does not love the transgressors."*
+
+**Meaning.** **[Ṭabarī]** reads the command as the command to sincerity: call, O people, upon your Lord
+alone, and make your prayer sincere for Him, not for the gods and idols you call upon besides Him;
+"humbly" — in lowliness and submission to His obedience; "and in secret" — with the humility of your
+hearts and the soundness of your certainty of His oneness, in what is between you and Him, not openly
+and for show with hearts not convinced of His oneness and lordship, as the people of hypocrisy and
+deception toward God and His messenger do. He cites al-Ḥasan: a man might have gathered the Qurʾān and
+his neighbour not know it; a man might have learned much jurisprudence and people not know it; a man
+might pray the long prayer in his house with a visitor present and they not notice; and we met people
+who had no work on earth they could do secretly but that it was always public — and the Muslims used to
+strive in supplication and no sound was heard from them, it was only a whisper between them and their
+Lord, because God says, "call upon your Lord humbly and in secret," and because God mentioned a righteous
+servant whose deed He was pleased with, and said, "when he called to his Lord with a secret call" (19:3)
+[Ṭabarī]. **[Qurṭubī]** opens his discussion with three matters: the verse is a command to supplicate and
+an act of worship in it; God joined to the command the attributes that suit it — humility, submission
+and lowliness — and the meaning of "in secret" is in the self, so as to be far from showing off, and with
+that God praised His prophet Zachariah, saying, "when he called to his Lord with a secret call"; the
+like of it is the Prophet's words, "the best remembrance is the hidden one and the best provision is what
+suffices"; and the law has established that secrecy in works of piety to which no objecting cause
+attaches is greater in reward than openness. He cites al-Ḥasan b. Abī al-Ḥasan's report on the early
+community's practice, and notes that the companions of Abū Ḥanīfa used this verse as evidence for
+concealing supplication [Qurṭubī]. **[Saʿdī]** reads the verse as the door to supplication in both its
+senses: supplication includes the supplication of request and the supplication of worship; God commanded
+that He be called upon "humbly," that is, with insistence in asking and constancy in worship, and "in
+secret," that is, not openly and publicly, from which showing off is feared, but secretly and sincerely
+for God. "Truly He does not love the transgressors" — those who exceed the bound in all matters — and
+among the forms of transgression is that a servant asks God for things that do not suit him, or goes to
+extremes in the asking, or exaggerates in raising his voice in supplication; all of this falls under the
+forbidden transgression [Saʿdī]. **[Maʿārif]** explains the etiquette that governs it: the word *duʿāʾ*
+means in Arabic to call upon someone to remove one's need, and is also used of remembrance in the
+absolute sense, and both meanings can be taken here — ask God alone for what you need, or do your
+remembrance and worship for Him alone; *tadarruʿ* means the realization of inability, humility and
+submission in a refined spirit of self-abasement, and *khufya* means secret, secluded, private, as opposed
+to open and public. In the frame of these two words two rules of etiquette are described: that one appear
+before God as weak, helpless, unable to hold on his own, humble, submitting with a total negation of
+pride, dignity, honour, ego or self-view; and that the supplication be a thing of the soul whose words
+match the feebleness and humbleness of the one making it, the manner of saying it a mirror of modesty,
+and the humility oozing from the very physical approach to it. Given this anatomy of *duʿāʾ*, the common
+practice of our days cannot really be called making *duʿāʾ* — it is rather the reading of it: words
+recited from memory at the end of prayer while neither the imam nor the congregation knows what is being
+said, and the participants say "āmīn" after words they have no clue about; the outward form of
+supplication is there, but its reality is not; and while God in His mercy may accept even these lifeless
+words, everyone should understand that *duʿāʾ* is not "read," it is "asked" [Maʿārif]. **[Study Quran]**
+notes that calling upon God humbly and in secret is an act attributed to those in dire need in 6:63; that
+all sincere calling upon God entails humility, since it is based on the realization of one's dependence
+upon Him; that the Prophet said, "There is nothing nobler before God than supplicatory prayer (*duʿāʾ*),
+for supplication is worship" (R); that calling on God in secret suggests sincerity and lack of hypocrisy,
+for it is not done "to be seen of men" (cf. 2:264; 4:38, 142; 8:47; 107:6), as also in 19:3, where
+Zachariah implores God with a secret cry, and in the verses approving those who "fear God in secret"
+(5:94; 21:49); and that God loves not the transgressors, that is, those who exceed the proper bounds in
+anything (Z) — both crying out in an unnecessarily loud manner and being excessively long and elaborate in
+supplication being discouraged, according to some; the Prophet once criticized those who were excessive in
+supplication and said, "It is sufficient for a man to say, 'O God, I ask Thee the Garden and whatever
+words or works draw me near to it; and I seek refuge in Thee from the Fire and from whatever words or
+works draw me near to it'" (Z) [Study Quran].
+
+**Rulings.** **[Qurṭubī]** derives the legal preference for concealment: hiding the supplication is
+better than proclaiming it, since it is further from showing off, and the Ḥanafī school used the verse
+for that; he notes the qualification that secrecy is preferred "in works of piety to which no objecting
+cause attaches" — where public performance serves a purpose, the ruling may differ [Qurṭubī].
+**[Study Quran]** adds the two extremes the verse rules out in practice: a loud voice and an over-long,
+elaborate formula; the Prophet's guidance in the report cited shows the middle way [Study Quran].
+
+**Cross-references.** "When he called to his Lord with a secret call" (19:3); "Call upon your Lord with
+humility and in secret" (cf. 6:63, where those in need call upon Him); "And remember your Lord within
+yourself, with humility and fear, and without loudness of speech" (7:205); "Those who fear their Lord in
+secret, and they are wary of the Hour" (21:49); "And your Lord says, 'Call upon Me; I will answer you'"
+(40:60) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Maʿārif]**'s criticism of recited-without-understanding supplication turns the verse
+into a mirror for the reader: the command to call "humbly and in secret" is a command about the state of
+the one who calls, so that a supplication whose words do not match the humility of its maker is a form
+without its reality. **[Saʿdī]** gives the same teaching from the other side: the etiquette of
+supplication is itself an act of the servant's sincerity — insistence without excess, secrecy without
+display — and the transgressor is the one who crosses those bounds whether by asking for what does not
+suit him or by demanding in a voice pitched for an audience other than God.
+
+## 7:56
+
+*"And do not work corruption upon the earth after it has been set right, and call upon Him in fear and hope. Truly the mercy of God is near to the doers of good."*
+
+**Meaning.** **[Ṭabarī]** reads "do not work corruption upon the earth after it has been set right" as:
+do not associate partners with God upon the earth and do not disobey Him in it — for that is the
+corruption in it; "after it has been set right" means after God set it right for the people of His
+obedience by sending among them messengers who call to the truth and by making His proofs clear to them.
+"Call upon Him in fear and hope": make your supplication and your works sincere for Him, and do not
+associate anything else with Him in your work — no gods and no idols and nothing besides — and let what
+you do be in fear of His punishment and in hope of His reward; and whoever calls upon Him otherwise is
+among those who deny the Hereafter, since one who does not fear God's punishment and does not hope for
+His reward does not care what he undertakes of what angers God and does not please Him. "Truly the mercy
+of God is near to the doers of good": the reward God promised the doers of good for their doing good in
+the world is near to them, and that is His mercy, since there is nothing between them and their coming to
+it of His mercy and the honour He has prepared for them except that their souls leave their bodies
+[Ṭabarī]. **[Saʿdī]** gives the verse's two halves as they stand: "and do not work corruption upon the
+earth" by doing acts of disobedience "after it has been set right" by acts of obedience — for
+disobedience corrupts character, deeds and provision, as God said, "Corruption has appeared on land and
+sea because of what the hands of people have earned" (30:41); and obedience rectifies character, deeds,
+provision and the affairs of this world and the next. "And call upon Him in fear and hope" — fear of His
+punishment and hope of His reward, hope that the prayer be accepted and fear that it be rejected; not the
+supplication of a servant who is bold with his Lord, pleased with himself and placing himself above his
+station, nor the supplication of one who is heedless and distracted. And the upshot of what God has
+mentioned of the etiquette of supplication is sincerity in it for God alone — for that is what secrecy
+includes — that the supplication be hidden and secret, and that the heart be fearful and hopeful, not
+heedless, nor secure, nor indifferent to the answer; and this belongs to doing supplication well, since
+doing well in every act of worship is to expend one's effort in it and perform it complete, with no
+deficiency in any respect. Therefore God said, "truly the mercy of God is near to the doers of good" —
+those who do good in worshipping God and do good to the servants of God; the more the servant does good,
+the nearer he is to his Lord's mercy, and his Lord is near to him with His mercy [Saʿdī]. **[Jalālayn]**
+notes the linguistic turn of the last clause: the predicate of the feminine noun "mercy" is masculine,
+"near," because the mercy is annexed to the name of God [Jalālayn]. **[Study Quran]** gives the breadth
+of the first prohibition: the warning not to work corruption upon the earth can be understood generally
+to mean avoiding idolatry or polytheism and acting in obedience to God (Ṭ), but "working corruption upon
+the earth" is elsewhere associated with morally egregious acts and serious sins, particularly violence
+against others (5:32–33c) as well as inciting others to do the same and so spreading corruption upon the
+earth; al-Rāzī considers the warning a prohibition against any act that corrupts bodies (through
+violence), wealth (through fraud or theft), religion (through disbelief and innovation), lineage (through
+adultery and slander) and intellect (through intoxication); it may also be understood as referring to
+human actions that pollute or destroy the natural environment; the human ability to work corruption is
+juxtaposed with the earth's having been set aright by God, whose setting aright can mean both His
+establishment, through the revelations and laws brought by His messengers, of a just and moral social
+order (Ṭ) and His creation of the harmony and balance pervading the natural order [Study Quran].
+
+**Rulings.** **[Saʿdī]** states the rule of supplication drawn from the verse: the servant's heart should
+be suspended between fear and hope, so that neither security nor despair settles in it; and the verse
+makes the state of the heart part of the act itself — a supplication whose maker is "indifferent to the
+answer" is missing what the command asks for [Saʿdī]. **[Study Quran]**'s list of the corruptions named
+by al-Rāzī gives the prohibition its practical catalogue — bodies, wealth, religion, lineage, intellect,
+and the natural order — so that the verse is read as the charter of a settled society rather than a
+warning about one class of acts [Study Quran].
+
+**Cross-references.** "Corruption has appeared on land and sea because of what the hands of people have
+earned, so that He may let them taste some of what they have done, that they may return" (30:41); "God
+does not change the condition of a people until they change what is in themselves" (13:11); "And had
+those towns believed and feared God, We would have opened upon them blessings from heaven and earth"
+(7:96); "And they call upon Us in desire and fear, and they are humble before Us" (21:90); "The mercy of
+God is near to the doers of good" (7:56; cf. 12:56) [Ṭabarī] [Saʿdī].
+
+**Reflection.** **[Saʿdī]**'s reading binds the two commands of the verse together: the earth is kept
+right by obedience and prayer, and the same supplication that repairs the earth's order purifies the
+heart's state — fear and hope being two wings, as the verse's last words make mercy the near thing and
+let the doer of good live at its door. **[Study Quran]**'s wide reading of "corruption" makes the verse
+speak to the ordering of a whole society: the earth was set right by revelation and by the balance built
+into creation, and both are broken by the same deeds.
+
+## 7:57
+
+*"And He it is who sends the winds as glad tidings before His mercy, until, when they carry heavy clouds, We drive them to a dead land and send down water thereby, and bring forth thereby fruits of every kind. Thus shall We bring forth the dead, that you may remember."*
+
+**Meaning.** **[Ṭabarī]** begins with the words: it is God who created the heavens and the earth, the sun
+and the moon and the stars, made subservient by His command, who sends the winds "unfolding" (*nushran*)
+before His mercy; and he explains the Arabic: *al-nashr* in the speech of the Arabs, of the winds, is the
+gentle, pleasant ones that raise the clouds — every pleasing wind being *nashr* to them — and he cites
+Imruʾ al-Qays' verse in which "the unfolding of the perfume" is mentioned, and notes that this reading was
+that of the generality of the Kufan reciters except ʿĀṣim b. Abī al-Najūd, who read *bushran* [Ṭabarī].
+**[Qurṭubī]** sets the verse as a further mention of God's blessings, pointing to His oneness and the
+establishment of His divinity; *riyāḥ* is a plural of abundance and *arwāḥ* a plural of fewness, and the
+root of *rīḥ* is *riḥ*; and in *bushran* there are seven readings: the people of the two sanctuaries and
+Abū ʿAmr read *nushur*, the plural of *nāshir* in the sense of possession, that is, "possessing
+unfolding," like *shāhid* and *shuhud*, or a plural of *nashūr* like *rasūl* and *rusul* — a wind of
+unfolding when it comes from here and there being like the passive *manshūr*; al-Ḥasan and Qatāda read
+*nushran* with a light vowel; al-Aʿmash and Ḥamza read *nashran* as the verbal noun, as though He said "who
+unfolds the winds with an unfolding"; and there are other readings besides [Qurṭubī]. **[Ibn Kathīr]**
+puts the verse in its place: after God stated that He created the heavens and earth and that He is the
+owner and possessor of the affairs who makes things subservient for mankind, He ordained that He be
+invoked in supplication, for He is able to do all things; and He stated that He is the sustainer who
+resurrects the dead; then He said that He sends the winds that spread the clouds laden with rain, as in
+"And among His signs is that He sends the winds with glad tidings" (30:46) [Ibn Kathīr]. **[Saʿdī]**
+gives the movement of the passage: God explains a trace of His power and a breath of His mercy — "He it
+is who sends the winds as glad tidings before His mercy," the winds that announce the rain and that stir
+it up from the earth by God's leave, so that creation rejoices in God's mercy and their hearts find rest
+in it before it descends; "until, when they carry heavy clouds" — clouds that some wind has raised,
+another has gathered, and another has fertilized — "We drive them to a dead land," one whose animals
+have almost perished and whose people have almost despaired of God's mercy; "and We send down thereby" —
+by that cloud, upon that dead land — "the water," abundant, God having made a wind to pour it out and a
+wind to scatter it by His leave; and by it We bring forth fruits of every kind, so that they become
+rejoicing in God's mercy and at pasture in God's good. And His saying, "thus shall We bring forth the
+dead, that you may remember," means: just as We revive the earth after its death with vegetation, so We
+bring the dead out of their graves after they had been decayed and dismembered bones; and this is a
+clear inference, for there is no difference between the two matters — so that the one who denies the
+resurrection out of finding it unlikely is denying a thing whose like he sees, out of obstinacy and the
+denial of what is perceived; and in this is the urging to remember and reflect on the favours of God and
+to look at them with the eye of taking lesson and drawing inference, not with the eye of heedlessness and
+neglect [Saʿdī]. **[Jalālayn]** records the readings and the point of the metaphor: the singular of the
+first reading is *nashūr* on the pattern of *rasūl*, and of the reading *bushran* is *bashīr*; then, when
+the winds bear clouds heavy with rain, "We lead it" — a shift from the third to the first person — "to a
+dead land" devoid of vegetation, in order to revive it, and send down thereon the water and bring forth
+thereby fruits of every kind; like that bringing forth We shall bring forth the dead from their graves
+through revivification, so that you might remember and believe [Jalālayn]. **[Study Quran]** notes that
+the idea that God sends the winds as glad tidings ahead of His mercy is also found in 25:48; 27:63; 30:46,
+God's mercy being closely associated there with rain, which al-Zamakhsharī describes as among the most
+majestic and beautiful of God's blessings; that the mention of winds in the plural is generally a sign or
+harbinger of divine mercy and bounty, although wind in the singular is also invoked as a destructive force
+under God's command (3:117; 30:48–49; 35:9); that the heavy-laden clouds portend life-giving rain,
+reviving a land that is dead; that here, as in many places, the revival of drought-stricken lands through
+rain is offered as a metaphor and a symbolic proof for the resurrection of human beings after their death
+(30:19; 35:9; 43:11; 50:11); and that a rainstorm can also prove destructive — thus it is something to be
+both feared and hoped for — the image of a gathering storm serving as a reminder that one must always call
+upon God in fear and in hope (v. 56); see 13:12 [Study Quran].
+
+**Language.** **[Ṭabarī]** and **[Qurṭubī]** both marshal the lexicon and the readings: *nashr* is the
+pleasant wind that raises clouds; *nushur*, *nushran*, *nashran* and *bushran* are the transmitted
+variants, and the sense in each is the spreading of the winds before the rain as the bearers of news
+before its arrival [Ṭabarī] [Qurṭubī]. **[Jalālayn]** notes the shift of person in "We drive it" — from
+the third person to the first — as the verse moves from describing the winds to the divine act itself
+[Jalālayn].
+
+**Cross-references.** "And among His signs is that He sends the winds with glad tidings" (30:46); "And He
+it is who sends the winds as glad tidings before His mercy" (25:48; cf. 27:63); "And God is He who sends
+the winds, so they stir up clouds" (30:48); "It is He who shows you His signs and sends down for you
+provision from the sky" (40:13); "And a sign for them is the dead earth; We revive it and bring forth
+from it grain" (36:33; cf. 43:11; 50:11) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]** draws the inference the verse itself draws: the man who has seen a dead land
+come alive needs no further argument about the raising of the dead, and the verse's last words — "that
+you may remember" — place the proof in the world the reader walks through every season. **[Study Quran]**
+adds the two-sidedness of the image: the same rain is mercy and, when it swells into a storm, a warning —
+so the verse that teaches resurrection also teaches the posture of fear and hope commanded just before
+it.
+
+## 7:58
+
+*"And the good land — its vegetation comes forth by the permission of its Lord; and the one that is bad — it comes forth only with difficulty. Thus do We vary the signs for a people who give thanks."*
+
+**Meaning.** **[Ṭabarī]** explains the two lands: the good land is the one whose soil is good and whose
+watering places are sweet — its vegetation comes forth when God sends down the rain upon it, by His
+permission, its fruit good in its season and its time; and the one that is bad, whose soil is poor and
+whose watering places are salt, brings forth its vegetation only "with difficulty" — that is, hard,
+laborious, in hardship — and he cites the lines of poetry in which a man who gives grudgingly is called
+*nakid*, and the Arabic usages: *nakida yankadu*, and the proverbs "with difficulty and refusal," and
+"water that is much drunk" being called *mashfūh*; then he notes the disagreement of the reciters over
+the word's form [Ṭabarī]. **[Saʿdī]** reads the verse as the sequel to the rain: the difference between
+the lands upon which the rain falls — the good land, good in soil and substance, when the rain falls upon
+it, brings out its vegetation, for which it is prepared, by the leave of its Lord, that is, by God's will
+and decree, so that causes are not independent in bringing things into being until God permits it; and
+the one that is bad brings out nothing but stunted growth, in which there is no benefit and no blessing.
+"Thus do We vary the signs for a people who give thanks": We diversify them and clarify them and set
+parables in them [Saʿdī]. **[Jalālayn]** reads the two lands as a similitude of two hearers: the good
+land whose vegetation comes forth wholesomely by the permission of its Lord is a likeness of the believer,
+who, when he hears an admonition, heeds it and benefits from it; and the one whose soil is bad, whose
+vegetation comes forth only miserably and with difficulty, is a likeness of the disbeliever; and just as
+God has made clear what has been mentioned, so He dispenses and makes clear the signs for a people who
+are thankful to God and so believe [Jalālayn]. **[Study Quran]** draws the same reading out: the verse
+continues the metaphor of rain and its revival of dead land, but adds a word of warning to the image —
+although the rain, as a symbol of God's mercy, falls upon the land and causes it to bring forth every
+kind of fruit, the quality and abundance of the vegetation produced also depends on the quality or
+receptivity of the land, which symbolizes the human heart and its receptivity to divine mercy and
+revelation; when rain falls upon good land, like His mercy upon a believing heart, it produces fruits by
+the leave of its Lord, but when it falls upon bad land, or a disbelieving and hardened heart, its fruits
+come forth but sparsely; commentators connect the coming of divine mercy, the descent of the rain and the
+descent of the Qurʾān, and indicate that the Qurʾān's words are meant to take root in the soul of
+believers and bear fruit through their thoughts and actions, but will bring no benefit to those
+predisposed to disbelief (R, Ṭ); see 2:26 [Study Quran].
+
+**Language.** **[Ṭabarī]**'s lexicography gives the second land's adjective its texture: *nakid* is the
+grudging, hard-pressed thing — the gift given with difficulty and ill will — so that the soil's poverty is
+described with the vocabulary of a stingy man, and the land "gives" only as the miser gives [Ṭabarī].
+**[Jalālayn]** notes that the two lands are set as a "similitude" in the hadith of the parable of the
+hearts: the receptive heart and the barren one receive the same water and answer differently [Jalālayn].
+
+**Rulings.** **[Saʿdī]** draws the doctrinal point from the phrase "by the permission of its Lord": causes
+are not independent — the rain, the soil and the seed do not bring anything into being except by God's
+will — so that the verse's natural observation and its theology are one [Saʿdī]. **[Study Quran]** notes
+the same point extended to revelation: the descent of the Qurʾān is like the descent of the rain, and its
+fruitfulness depends on the heart that receives it, which is why the verse ends with "a people who give
+thanks" rather than with the signs themselves [Study Quran].
+
+**Cross-references.** "As for those who believe, they know it is the truth from their Lord; and as for
+those who disbelieve, they say, 'What did God mean by this parable?' He misleads many by it, and He
+guides many by it" (2:26); "And it is He who sends down rain from the sky, and We bring forth thereby
+every kind of vegetation" (6:99; cf. 20:53); "And He it is who sends the winds as glad tidings before His
+mercy" (25:48); "The example of the good word is a good tree" (14:24) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Jalālayn]**'s application of the parable to the two hearers is the verse's own
+instruction read forward: the same rain falls on the mosque and the wasteland, the same signs are shown
+to the thankful and the ungrateful, and the difference the verse names is in the ground that receives
+them. **[Study Quran]** notes the corollary for the reader of revelation: because the heart is the soil,
+hearing the Qurʾān is not an event that happens to a person but a reception that he prepares for.
+
+## 7:59
+
+*"Indeed, We sent Noah to his people, and he said, 'O my people, worship God; you have no god other than Him. Indeed, I fear for you the punishment of a great Day.'"*
+
+**Meaning.** **[Ṭabarī]** reads the verse as God's oath to those addressed: God swore that He sent Noah
+to his people, warning them of His might and frightening them with His wrath for their worship of other
+than Him, so he said to those of them who disbelieved: O my people, worship God, to whom worship belongs;
+humble yourselves to Him in obedience and submit to Him in lowliness; and leave the worship of what is
+besides Him of rivals and gods — for you have no deity who deserves your worship but He; "indeed, I fear
+for you" if you do not do that "the punishment of a great Day," meaning the punishment of a day whose
+trial will be great when it comes to you with your Lord's wrath [Ṭabarī]. **[Qurṭubī]** gives the verse
+its place in the sūrah: after God had shown that He is the creator, the one able to bring to perfection,
+He mentioned the stories of the nations and the warnings to the disbelievers in them; the *lām* of
+"indeed" is for emphasis alerting to the oath, and the *fāʾ* indicates that the second thing follows the
+first; "O my people" is an annexation in address, and the unannexed "O my people" is also possible. He
+then records the reports on Noah's rank: Noah is the first of the messengers to the earth after Adam —
+with the prohibition of daughters, sisters, paternal and maternal aunts — and the first messenger sent
+to the people of the earth; Ibn al-ʿArabī said that whoever claims Idrīs was before him among the
+historians has erred, and the proof of the error is the sound ḥadīth of the Night Journey in which the
+Prophet ﷺ met Adam and Idrīs, and Adam said to him, "Welcome to the righteous prophet and the righteous
+son," while Idrīs said to him, "Welcome to the righteous prophet and the righteous brother" — for had
+Idrīs been the father of Noah he would have said "the righteous son," and his saying "the righteous
+brother" shows that he and Noah meet in a common ancestor [Qurṭubī]. **[Ibn Kathīr]** gives the lineage
+and the setting: after God mentioned the story of Adam at the beginning of the sūrah, He began to mention
+the stories of the prophets, the first and then the later of them; He mentioned the story of Noah,
+because he was the first messenger God sent to the people of the earth after Adam; his name was Nūḥ b.
+Lamak b. Matūshalakh b. Khanūkh — and Khanūkh, as they claim, is the prophet Idrīs, the first person to
+write with the pen — and this lineage is mentioned by Muḥammad b. Isḥāq and other imams of genealogy; and
+he records from Ibn ʿAbbās and several other scholars of tafsīr that the first idol worship began when
+some righteous people died and their people built places of worship at their graves and then fashioned
+images of them [Ibn Kathīr]. **[Saʿdī]** reads the verse as the beginning of the story of Noah, the first
+of the messengers: God sent him to his people to call them to the worship of God alone when they were
+worshipping idols, and he said to them: O my people, worship God — that is, declare His oneness — for you
+have no god other than Him, since He is the creator, the provider, the disposer of all affairs, and what
+is besides Him is a created, disposed thing that has no share in the command. Then he frightened them,
+if they did not obey him, with the punishment of God, saying, "indeed, I fear for you the punishment of a
+great Day" — and this was part of his sincere counsel and his compassion for them, in that he feared for
+them eternal punishment and endless misery, like his brothers among the messengers, who are more
+compassionate to creation than their fathers and mothers [Saʿdī]. **[Jalālayn]** notes the reading of
+"other than Him" either as an adjective of "god" or as a substitution for it [Jalālayn]. **[Study Quran]**
+sets the verse as the opening of the long section (vv. 59–136) that details the missions of several
+prophets who were rejected by those to whom they were sent and whose rejection brought terrible
+punishments upon their people; the accounts share many thematic and textual similarities that underline
+the fundamental unity of purpose of all prophets and the common human tendencies that have led
+communities to reject the prophets and dismiss their warnings; similar serial presentations of these
+"punishment accounts" are found in 11:25–100, 26:105–190 and 54:9–42; and as in all such serials, the
+section begins with Noah, his call to his people to worship the One God, and his warning of a punishment
+to come if they did not heed — the story of Noah in vv. 59–64 being the first narrative account of Noah
+in the textual order of the Qurʾān, with other accounts in 10:71–73, 11:25–48, 23:23–30, 26:105–21,
+54:9–15 and Sūrah 71; Noah is identified in the Islamic tradition as Nūḥ ibn Lamak (Lamech) ibn
+Mitūshalah (Methushael) ibn Ukhnūkh (Enoch) [Study Quran].
+
+**Ḥadīth & āthār.** **[Qurṭubī]**'s proof-text on Noah's precedence over Idrīs is the ḥadīth of the
+Night Journey, in which the greetings exchanged on the heavens distinguish the relation of son from the
+relation of brother — Adam greeting the Prophet as "the righteous son," Idrīs as "the righteous brother"
+[Qurṭubī]. **[Ibn Kathīr]** records the report that the beginning of idolatry lay in the veneration of
+the graves of the righteous and then in the making of their images — the report cited by Ibn ʿAbbās and
+several of the exegetes *(Isrāʾīliyyāt)* [Ibn Kathīr].
+
+**Cross-references.** "And We certainly sent Noah to his people, and he remained among them a thousand
+years less fifty" (29:14); "And it was revealed to Noah that none of your people will believe except
+those who have already believed" (11:36); "The people of Noah denied the messengers" (26:105); "And God
+warns you of Himself" (3:28; cf. 3:30); "And We sent no messenger before you but that We revealed to him,
+'There is no god but Me, so worship Me'" (21:25) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s note on the prophet's fear is the verse's pastoral center: Noah's warning is
+not the anger of a rejected preacher but the fear of a man who sees where his people are going, and it
+is named "sincere counsel and compassion" — the pattern the Qurʾān sets for every messenger.
+**[Study Quran]**'s observation that the sūrah's punishment accounts were meant in part to console and
+reassure the Prophet as he faced the rejection of his own people makes the placement of Noah's story
+deliberate: the first messenger to a rejecting people is told at length, in the chapter of the Prophet's
+own rejection.
+
+## 7:60
+
+*"The chiefs of his people said, 'Indeed we see you in manifest error.'"*
+
+**Meaning.** **[Ṭabarī]** identifies the speakers: this is God's report of the answer of the idolaters of
+Noah's people to Noah, and they are the *malāʾ* — the *malāʾ* being the assembly of men among whom there
+is no woman — who said to him when he called them to the worship of God alone with no partner: "indeed we
+see you," O Noah, "in manifest error," meaning, in an affair turned away from the truth, whose turning
+from the right aim is manifest to whoever examines it [Ṭabarī]. **[Saʿdī]** draws the reply's character
+out: when Noah said this to them, they answered him with the ugliest of answers — the *malāʾ* of his
+people, that is, the wealthy leaders who are followed, whose habit it has been to be arrogant toward the
+truth and not to submit to the messengers — "indeed we see you in manifest error"; and it did not suffice
+them, may God disfigure them, that they did not submit to him, but they were arrogant toward submitting
+and disparaged him with the greatest disparagement, attributing him to error; and they did not stop at
+mere error but made it "manifest" error, clear to everyone. This is among the greatest kinds of
+stubbornness, which does not pass even with the weakest of people in intellect — and this description
+fits the people of Noah, who came to idols which they themselves had carved and shaped with their hands
+from inanimate things that do not hear and do not see and avail them nothing, and set them in the rank of
+the Originator of the heavens, directing to them every kind of offering they could; were it not that they
+had minds by which God's proof stands against them, it would be judged that the insane are better guided
+than they — indeed, they are better guided and more rational than they [Saʿdī]. **[Jalālayn]** gives the
+verse in brief: the council of the respected elders of his people said, "truly we see you in manifest
+error" [Jalālayn]. **[Study Quran]** notes that the notables among his people are the ones who voice
+their opposition to Noah's call, perhaps as representatives of his community at large, and that it is the
+notables or "leaders" who articulate their people's rejection of the prophets in most of the punishment
+accounts in this sūrah (vv. 66, 75, 88, 103) and elsewhere in the Qurʾān (10:75, 88; 11:27, 38, 97;
+23:24, 33, 46; 26:34; 28:20, 32; 38:6; 43:23, 46) — see also 6:123, in which the great ones are said to
+be among the guilty in every town; the prophetic narratives in the Qurʾān were meant in part to console
+and reassure the Prophet as he faced the rejection of his own people (R, Ṭs), and the repeated mention of
+the notables among the previous prophets' most outspoken critics may have been of particular comfort to
+Muhammad as he struggled with the leaders of Quraysh and their persistent opposition to the message he
+brought [Study Quran].
+
+**Language.** **[Ṭabarī]** notes the scope of *al-malāʾ*: it is the assembly of men with no woman among
+them — the word denoting the group that carries a people's counsel and voice [Ṭabarī]. **[Saʿdī]** notes
+the progression within the single sentence: from "error" to "manifest error" — the accusation is
+escalated in one phrase, which is the mark of the reply's insolence rather than its argument
+[Saʿdī].
+
+**Cross-references.** "And the notables of his people who disbelieved said, 'We do not see you but a man
+like ourselves'" (11:27); "And We did not send into any city a warner but that its luxurious ones said,
+'We have been sent to disbelieve in what you have been sent with'" (34:34); "And thus We have made in
+every city the greatest of its criminals to plot therein" (6:123); "The people of Noah denied the
+messengers" (26:105) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** closes the verse with the people's own portrait: the leaders who called the
+warning "manifest error" were the ones bowing to stones they had carved themselves — the sentence they
+pronounced over Noah was, in his words, the sentence that fits them. **[Study Quran]**'s survey of the
+notables across the punishment accounts gives the verse a continuing face: the same class speaks the same
+line in every generation, and the sūrah records it first from the mouths of the people of Noah.
