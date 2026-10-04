@@ -56,6 +56,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -2025,3 +2027,289 @@ al-Sulamī flees."
 mouths" — and at its familiarity: it is the same mistake the earlier idolaters made with the angels. The
 Qurʾān does not treat the error as new; it treats it as a relapse into an old pattern, and the grief in
 "how they are perverted" is that the truth was clear and still turned away from.
+
+## 9:31
+
+*"They have taken their rabbis and monks as lords apart from God, as well as the Messiah, son of Mary,
+though they were only commanded to worship one God. There is no god but He! Glory be to Him above the
+partners they ascribe."*
+
+**Meaning.** **[Jalālayn]** "They have taken their rabbis" — the scholars among the Jews — "and their
+monks" — the devout among the Christians — "as lords beside God," following them in making lawful what God
+has made unlawful and making unlawful what He has made lawful; "and the Messiah, son of Mary" — "when they
+were not commanded, in the Torah and the Gospel, except to worship One God; there is no god except Him;
+glory be to Him" — as an affirmation of His transcendence — "high above what they associate with Him."
+**[Ṭabarī]** The Jews took their *aḥbār* — the scholars — and the Christians their *ruhbān* — the people of
+the cells and those who strive in their religion — as lords. **[Saʿdī]** Though it may seem strange that a
+great and numerous nation should agree upon a saying whose falsehood the least reflection and the least
+use of reason makes plain, there is a cause for it: they "have taken their *aḥbār*" — their scholars — "and
+their *ruhbān*" — the worshippers who devote themselves to worship — "as lords apart from God," permitting
+for them what God has forbidden and forbidding what He has permitted, and obeying them in that.
+
+**Ḥadīth & āthār.** **[Study Quran]** According to a well-known ḥadīth, a Companion who had once been
+Christian, on hearing this verse, told the Prophet that Christians did not worship their religious
+authorities. The Prophet replied: "Did they not forbid what God permitted, whereupon you considered it
+forbidden, and did they not permit what God forbade, whereupon you considered it permissible?" He
+responded, "Yes." The Prophet then said: "That is the worship offered to them." **[Ibn Kathīr]** Al-Suddī
+said that the *aḥbār* are Jewish rabbis and the *ruhbān* Christian monks — and this is true, for the
+*aḥbār* are the rabbis of the Jews, as in 5:63, "Why do not the *rabbāniyyūn* and the *aḥbār* forbid them
+from uttering sinful words and eating unlawful things?"; and the *ruhbān* are Christian monks or
+worshippers, while the *qissīsīn* are their scholars, as in 5:82, "that is because among them are
+*qissīsīn* and *ruhbān*."
+
+**Belief.** **[Maʿārif]** As for the charge that they took their rabbis and monks as gods: they used to
+call them their Lord in plain terms; but even if it be supposed that they did not actually believe their
+religious leaders to be gods, they had in effect transferred to them the right to be obeyed — and that is
+the right of God. With Jesus the charge is obvious, since they took him to be the son of God and did not
+hesitate to say so. The *aḥbār* are the plural of *ḥibr* and the *ruhbān* of *rāhib*: a *ḥibr* is a
+religious scholar among Jews and Christians, while a *rāhib* is one who devotes himself to worship and
+withdraws from a worldly role in life. **[Study Quran]** This verse is noteworthy in seeing a possible
+conflict between excessive obedience to certain religious authorities and the sincere worship of the One
+God; on the tension between obeying legitimate authority and obeying God, see 4:59.
+
+**Language.** **[Qurṭubī]** *Al-aḥbār* is the plural of *ḥabr*, the one who improves, orders and perfects
+speech with excellence of expression — from which comes "a *muḥabbar* garment," one that gathers
+adornment. On the singular: the commentators give *ḥabr* with *fatḥa*, the philologists *ḥibr* with
+*kasra*. Yūnus said: "I never heard it except with *kasra*," offering as proof their saying *midādu
+ḥibrin*, "the ink of a scholar," which became so common that ink itself was called *ḥibr*; al-Farrāʾ said
+both are dialects; Ibn al-Sikkīt said: *al-ḥibr* with *kasra* is ink, and *al-ḥabr* with *fatḥa* is the
+scholar. *Al-ruhbān* is the plural of *rāhib*, derived from *rahbah*: one whose fear of God led him to be
+sincere to Him alone rather than to people, and to give his time to Him, his work with Him and his
+intimacy with Him. **[Ṭabarī]** Yūnus al-Jarmī claimed that he had heard only *ḥibr* with *kasra*, arguing
+from the saying "this is the ink of a *ḥibr*," meaning the ink of a scholar; al-Farrāʾ reported hearing
+both *ḥibr* and *ḥabr*.
+
+**Reflection.** The verse defines lordship by function: whoever is obeyed in declaring lawful what God
+made unlawful has been given what belongs to God alone. That is why the ḥadīth can call obedience of that
+kind "worship," and why the remedy stated is simply the first commandment — they were "commanded only to
+worship one God."
+
+---
+
+## 9:32
+
+*"They desire to extinguish the Light of God with their mouths. But God refuses to do aught but complete His
+Light, though the disbelievers be averse."*
+
+**Meaning.** **[Jalālayn]** "They desire to extinguish God's light" — His Law and His proofs — "with their
+tongues," with what they say about Him; "and God refuses but to perfect" — to make manifest — "His light,
+even though the disbelievers be averse" to this. **[Ṭabarī]** These who took their rabbis, their monks and
+the Messiah son of Mary as lords seek "to extinguish the light of God with their mouths": by belying the
+religion of God with which He sent His Messenger, and by turning people away from it with their tongues,
+they try to nullify it — it being the light that God made a radiance for His creation. "But God refuses
+except to complete His light": His religion rises, His word prevails, and the truth with which He sent His
+Messenger Muḥammad is completed — "though the disbelievers be averse," those who deny and belie it — to
+God's completing it. **[Qurṭubī]** "They desire to extinguish the light of God" — His indications and His
+proofs of His oneness; He made the proofs like light because of the clarity in them. It is also said that
+it means the light of Islam: that they would put out the religion of God by belying it.
+
+**Ḥadīth & āthār.** **[Ṭabarī]** Al-Suddī said, on "they desire to extinguish the light of God with their
+mouths": they want to extinguish Islam with their words. **[Ibn Kathīr]** They try through argument and
+lies to extinguish the guidance and the religion of truth that the Messenger of God ﷺ was sent with. Their
+example is the example of one who wants to extinguish the light of the sun or the moon by blowing at them:
+such a person will never accomplish what he sought. Likewise, the light of what the Messenger was sent with
+will certainly shine and spread.
+
+**Language.** **[Qurṭubī]** *Bi-afwāhihim* is the plural of *fūh* on the original pattern, for the root of
+*fam* is *fūh*, like *ḥawḍ* and *aḥwāḍ*. On "*wa-ya'bā Allāhu illā an yutimma nūrahu*" — how can *illā*
+enter when there is no particle of negation in the sentence, one not being able to say "I struck, except
+Zayd"? Al-Farrāʾ claimed that *illā* enters because there is an element of denial in the speech;
+al-Zajjāj answered that negation and affirmation have no "parts" — the particles of negation being *mā*,
+*lā*, *in* and *laysa*, none of which has parts that are pronounced — for if the matter were as he wanted,
+"I disliked, except Zayd" would be permissible. The answer is that the Arabs elide the object with *abā*:
+the underlying sense is, "God refuses everything except that He complete His light." **[Ibn Kathīr]** A
+*kāfir* is one who covers something: the night is called *kāfir* because it covers things with darkness,
+and the farmer is called *kāfir* because he covers the seed in the ground — as in "the growth thereof
+pleases the tillers" (57:20).
+
+**Cross-references.** **[Study Quran]** These verses are similar to 61:8–9. Some understand the Light of
+God as the remembrance of God (M), or the Qurʾān (M, R), or knowledge of God and His guidance: the Prophet
+and the Qurʾān were bringing the doctrine of God's oneness and the remembrance of Him, and the idolaters,
+because of their devotion to false gods, desired to extinguish that Light (M). Light is spoken of in many
+ways in the Qurʾān — in connection with revelation (5:15, 44; 7:157), guidance (39:22; 42:52), knowledge
+(13:16) and the Prophet (33:48); see especially 24:35, the Light Verse, in which God Himself is described
+in terms of light.
+
+**Reflection.** **[Maʿārif]** They do not stop at the error they have already made; they compound it by
+trying to subvert the divine guidance and black out the Faith of Truth. The statement is dressed as a
+similitude — they want to blow out the Light of God with their mouths — and a similitude is apt precisely
+because the thing is impossible: God has already decreed that His Light, the religion of Islam, shall
+reach its perfection, however hateful that is to those who disbelieve.
+
+---
+
+## 9:33
+
+*"He it is Who sent His Messenger with guidance and the Religion of Truth to make it prevail over all
+religion, though the idolaters be averse."*
+
+**Meaning.** **[Jalālayn]** "He it is Who has sent His Messenger," Muḥammad ﷺ, "with the guidance and the
+religion of truth, that He may manifest it" — make it prevail — "over every religion," all the religions
+which oppose it, "even though the disbelievers be averse" to this. **[Ṭabarī]** God, Who refuses but to
+complete His religion though its deniers and rejecters hate it, is "He Who sent His Messenger," Muḥammad
+ﷺ, "with the guidance" — the exposition of the obligations of God to His creatures and of all that is
+binding upon them — "and with the religion of truth," which is Islam — "that He may make it prevail over
+all religion": that He may raise Islam above all the creeds — "though the idolaters be averse" to its
+prevailing over them. **[Qurṭubī]** "He it is Who sent His Messenger" — meaning Muḥammad ﷺ; "with the
+guidance" — that is, the *Furqān*; "and the religion of truth, that He may make it prevail over all
+religion" — by proof and by evidence; and He has made it prevail over the laws of the religion so that
+nothing of them is hidden from it, according to Ibn ʿAbbās and others.
+
+**Ḥadīth & āthār.** **[Maʿārif]** From Miqdād b. al-Aswad: the Messenger of God ﷺ said, "No house of mud
+or of mortar shall remain upon the face of the earth into which the word of Islam has not entered, with the
+honour of the honoured and the disgrace of the disgraced: whoever God honours, he embraces Islam; and
+whoever is to be disgraced, he does not accept Islam but becomes a subject of the Islamic government."
+**[Ṭabarī]** On "that He may make it prevail over all religion," some said: that is at the coming forth of
+Jesus, when all the creeds become one — reported from Abū Hurayrah. **[Qurṭubī]** Abū Hurayrah and
+al-Ḍaḥḥāk said: this is at the descent of Jesus; al-Suddī said: that is at the appearance of the Mahdī,
+when no one will remain but that he enters Islam or pays the *jizyah*. It is also said that the Mahdī is
+none other than Jesus — but that is not sound, for the authentic reports are mass-transmitted that the
+Mahdī is of the family of the Messenger of God ﷺ, so it cannot be interpreted as Jesus; and the ḥadīth
+"There is no Mahdī but Jesus" is **not sound** *(weak)* — al-Bayhaqī said in *Kitāb al-Baʿth wa-l-Nushūr*
+that its transmitter, Muḥammad b. Khālid, [is not reliable].
+
+**Belief.** **[Maʿārif]** God sent His Messenger with guidance — that is, the Qurʾān — and with the Faith
+of Truth — that is, Islam — in order to make it prevail over all other faiths; and several other verses of
+the Qurʾān promise, in almost the same words, that the religion of Islam shall be made to prevail over all
+the faiths of the world. This glad tiding is, as in *Tafsīr Maẓharī*, for most times and circumstances;
+and the promise was fulfilled — for about a thousand years the primacy of Islam remained operative
+throughout the world.
+
+**Language.** **[Study Quran]** *Prevail over* renders *ẓahara ʿalā*, which can also mean "to manifest,
+show, or make something known" (R); and *all religion* can also be understood as "all religions," or "[the
+peoples] of all religions" (M). The beginning of the verse could thus be rendered, "He it is Who sent His
+Messenger with guidance and the Religion of Truth to make it known to all religions" — which complements
+the notion that the community of Islam was put on earth to be witnesses for mankind (2:143; 22:78), their
+justice and faith being witnessed by humanity as evidence of the truth of religion. Some interpret it to
+mean that no part of the Religion of Truth will remain hidden (Q).
+
+**Reflection.** The verse answers v. 32's puff of breath with a decree: the attempt to blow out the light
+is met by the certainty that it will be brought to fullness. The opposition named at the end — idolaters
+here, disbelievers there — is real, and is recorded as real; it is simply not decisive.
+
+---
+
+## 9:34
+
+*"O you who believe! Verily many of the rabbis and monks consume the wealth of people falsely, and turn from
+the way of God. [As for] those who hoard gold and silver and spend it not in the way of God, give them glad
+tidings of a painful punishment,"*
+
+**Meaning.** **[Jalālayn]** "O you who believe, many of the rabbis and monks indeed consume" — take —
+"people's goods by false means," as in the case of bribes paid for judgements, "and bar people from the way
+of God," from His religion. "And those who" — *wa-alladhīna* is the subject — "hoard up gold and silver and
+do not expend them" — these treasure-hoards — "in the way of God," that is, they do not pay out of it what
+is due to Him by way of alms and charity — "give them tidings," inform them, "of a painful chastisement."
+**[Ṭabarī]** "O you who believe in God and His Messenger and affirm the oneness of your Lord: many of the
+scholars and reciters among the Children of Israel, of the Jews and the Christians, consume the wealth of
+people by falsehood" — they take bribes in their judgements, they distort the Book of God, they write books
+with their hands and then say "this is from God," taking for it a small price from their lowly followers —
+"and they turn from the way of God": they prevent whoever wants to enter Islam from entering it, by
+forbidding them to do so. **[Saʿdī]** "And those who hoard gold and silver" — who hold on to them — "and
+do not spend them in the way of God," the paths of good that lead to Him: this is the forbidden treasure —
+holding them back from the spending that is obligatory, such as withholding the *zakāh*, or the obligatory
+maintenance of wives and relatives, or spending in the way of God when it becomes due; "so give them glad
+tidings of a painful punishment."
+
+**Rulings.** **[Saʿdī]** This is a warning to the believers against many of the *aḥbār* and *ruhbān* — the
+scholars and worshippers who consume people's wealth falsely, without right, and turn people from the path
+of God. If they draw salaries from people's wealth, or people give them of their wealth, it is on account
+of their knowledge and their worship and their guidance; yet these take it and turn people away, so their
+taking it in this manner is ill-gotten gain (*suḥt*) and wrongdoing — for people only gave them their
+wealth so that they might direct them to the straight path. Another form of taking people's wealth without
+right is that they be given money so as to issue *fatwās* in their favour or to judge for them by other
+than what God has sent down. These are the two states to be guarded against: taking people's wealth without
+right, and turning people away from the path of God. **[Qurṭubī]** On "by falsehood": it is said that they
+used to take from the wealth of their followers levies and dues in the name of churches, synagogues and the
+like, making them imagine that spending on such things was part of the law and a way of drawing near to
+God, while they themselves kept those funds back — as Salmān al-Fārisī related of the monk whose hoard he
+brought out, mentioned by Ibn Isḥāq in the *Sīyar*. It is also said that they took levies from their crops
+and wealth in the name of protecting the religion and upholding the law; and it is said that they took
+bribes in judgements, as many rulers and judges do today. The phrase "by falsehood" comprehends all of
+that. **[Study Quran]** This verse is understood to mean that religious leaders collect money from people
+in the name of religion but use it for worldly purposes (Q), or that they engage in acts of bribery and
+corruption (R). *Turn from the way of God* can mean both that they hinder others and that they themselves
+turn away; and al-Rāzī notes that *many* of the rabbis and monks are reproached here — not all.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** This verse warns against corrupt scholars and misguided worshippers.
+Sufyān b. ʿUyaynah said: "Those among our scholars who become corrupt resemble the Jews, and those among
+our worshippers who go astray resemble the Christians." An authentic ḥadīth declares: "You will follow the
+ways of those who were before you, step by step" — they asked, "The Jews and the Christians?" and he ﷺ
+said, "Who else?"; in another narration they asked, "Persia and Rome?" and he said, "Who else but they?"
+
+**Belief.** **[Maʿārif]** The address here is to the Muslims, but the subject is the conduct of the rabbis
+and monks among the Jews and Christians, a conduct that led common people astray; the address to the
+believers indicates the purpose — to warn them as well, so that they too remain alert against such
+conditions arising among the Muslims. And in a situation where most of those leaders were implicated, people
+tend to make sweeping statements and call everyone bad: but the Qurʾān, by adding the word "many,"
+prompts the believers to mind their words even when speaking of enemies, and does not attribute the
+practice to all of them.
+
+**Language.** **[Qurṭubī]** The *lām* (of *la-yaʾkulūna*) enters upon the imperfect verb and not upon the
+perfect, because the imperfect resembles the noun.
+
+**Cross-references.** **[Study Quran]** See v. 31. **[Ibn Kathīr]** 5:63 — "Why do not the *rabbāniyyūn*
+and the *aḥbār* forbid them from uttering sinful words and eating unlawful things?"; 5:82 — "that is
+because among them are *qissīsīn* and *ruhbān*."
+
+**Reflection.** The two charges are two halves of one corruption: taking what is not theirs, and turning
+people away from God. Both are punished by the verse's terrible irony — the wealth they loved becomes the
+instrument and the substance of their punishment, and the warning is addressed to the believers, not to
+their rivals.
+
+---
+
+## 9:35
+
+*"on the Day when it will be heated in the Fire of Hell, and their foreheads, their sides, and their backs
+will be branded with it. 'This is what you hoarded up for yourselves; so taste that which you hoarded.'"*
+
+**Meaning.** **[Jalālayn]** "On the day when it shall be heated in the fire of Hell and therewith their
+foreheads and their sides and their backs shall be branded," burnt — their skins will be stretched until
+these hoards of gold and silver can be placed on them entirely — "and it will be said to them: 'This is what
+you hoarded up for yourselves; so taste now what you used to hoard,'" that is, taste its requital.
+**[Ṭabarī]** "Give glad tidings to those who hoard gold and silver and do not pay God's dues out of it, O
+Muḥammad, of a painful punishment — on the day when it will be heated in the fire of Hell": the "day" is
+connected to the "painful punishment," as though it were said: give them tidings of a painful punishment
+with which God will punish them on a day when it is heated. "*Yuḥmā ʿalayhā*": the Fire enters and is
+kindled upon it — upon the gold and silver they hoarded — "in the fire of Hell, and their foreheads, their
+sides and their backs will be branded with it": God brands with the hoarded gold and silver heated in the
+fire of Hell, burning with it the foreheads of its hoarders, their sides and their backs. "This is what you
+hoarded": it will be said to them, this is what you hoarded in the world — you unbelievers who withheld
+your treasures from the obligations God made incumbent in them — for your own selves. "So taste what you
+used to hoard." **[Saʿdī]** "On the day when it will be heated" — their wealth — "in the fire of Hell":
+every dinar and every dirham will be heated separately, "and their foreheads, their sides and their backs
+branded with it" on the Day of Resurrection; whenever it cools it is reheated, on a day whose measure is
+fifty thousand years; and it will be said to them in rebuke and blame: "This is what you hoarded for
+yourselves, so taste what you used to hoard" — We did not wrong you; rather you wronged yourselves and
+tormented yourselves with this hoard. In these two verses God mentions the deviation of man in respect of
+his wealth, which takes one of two forms: either spending it in falsehood that avails nothing, or withholding
+it from what is due.
+
+**Language.** **[Qurṭubī]** *Yawm* is an adverb of time, the sense being "they will be punished on the day
+when it is heated"; it cannot be attached to "give them tidings on the day when…," for the giving of
+tidings will not take place then. One says *aḥmaytu al-ḥadīdata fī al-nār* — "I kindled the fire upon the
+iron" — and one says *aḥmaytuhu*, not *aḥmaytu ʿalayhi*; here He said *ʿalayhā* because *ʿalā* belongs to
+the meaning of *iḥmāʾ*, whose sense is kindling: it is kindled upon it and then they are branded with it.
+*Kayy* is the applying of the hot part of iron or fire to a limb until the skin burns. *Al-jibāh* is the
+plural of *jabha*, the flat area between the eyebrows and the hairline; "jabahtu fulānan bi-kadhā" means "I
+confronted him with it and struck his forehead." *Al-junūb* is the plural of *janb*. Branding on the face
+is the most public and the most hideous, and on the side and the back the more painful and agonising,
+which is why these were singled out for mention among all the limbs.
+
+**Ḥadīth & āthār.** **[Study Quran]** It is said that, hearing gold and silver described in this way, some
+of the Companions asked what kind of wealth they should prefer to own, and the Prophet ﷺ replied: "A
+tongue that remembers, a heart that is thankful, and a believing spouse who helps you in your religion."
+
+**Cross-references.** **[Study Quran]** "Tasting" denotes the direct experience of something, and is used
+elsewhere of those who experience directly the pains of the Hereafter (10:52; 22:9; 29:55). Being punished
+by the very wealth one hoarded is mentioned in 3:180: "On the Day of Resurrection they will be collared by
+that with which they were miserly."
+
+**Reflection.** **[Maʿārif]** This punishment is for those who do not pay the *zakāh*: the gold and silver
+they accumulated will be heated in the fire of Jahannam and their foreheads, sides and backs branded with
+it, and they will be told, as a verbal punishment, that it was what they accumulated for themselves — so
+taste what you accumulated. The return of a deed is the deed itself: what was accumulated unlawfully, or
+accumulated lawfully but without paying its *zakāh*, itself became the punishment of these people. The
+hoard is not a misfortune that befell them; it is what they chose, presented to them at the last in the
+only form in which it can still be felt.
