@@ -4181,3 +4181,660 @@ the same sūrah precisely so that the plea of ancestry has no standing, and the 
 clear case of a people resting its religion on nothing but its parents. **[Qurṭubī]**'s reading of the
 answer that follows gives the challenge its outcome: they asked for the judgment, and the answer begins
 with the announcement that the thing they mocked had already become due.
+
+## 7:71
+
+*"He said, 'Defilement and wrath have already befallen you from your Lord. Do you dispute with me about names which you and your fathers have named, for which God has sent down no authority? Then wait; indeed, I am with you among those who wait.'"*
+
+**Meaning.** **[Ṭabarī]** gives the opening: Hūd said to his people — there has settled upon you
+punishment and wrath from God; and he records that Abū ʿAmr b. al-ʿAlāʾ held that *al-rijz* and
+*al-rijs* are one and the same, the one reversed from the other, the *sīn* turned to *zāy*, as the *sīn*
+of *sitt* — from *sidās* — is turned, and as the Arabs said *qarabūs* and *qarabūt*, and he cites the
+verses of the rājiz in which the reversal occurs; then: "do you dispute with me about names which you and
+your fathers have named" — idols you worship — "for which God has sent down no authority," that is, no
+proof; "then wait: indeed I am with you among those who wait" [Ṭabarī]. **[Qurṭubī]**, reading the
+exchange with the verses after it, notes that they sought the punishment he had warned them of and
+threatened them with, and so he said to them, "there has already fallen upon you": *waqaʿa* here means
+*waqaba* — become due — as one says that a word and a judgment have "fallen," that is, become binding,
+and the like of it is "and when the plague fell upon them" (7:134), that is, descended upon them, and
+"and when the word falls upon them" (27:82); and *al-rijs* is the punishment; it was also said that what
+is meant by *al-rijs* is the rust upon the heart through the increase of disbelief. "Do you dispute with
+me about names" — the idols they worshipped, which had different names; "for which God has sent down no
+authority," that is, no proof for you in worshipping them — the name here standing for the named, its
+parallel being "they are but names you have named" (53:23) — and these names are like al-ʿUzzā from
+*al-ʿizz* and *al-aʿazz*, and al-Lāt, having nothing of honour or divinity [Qurṭubī]. **[Ibn Kathīr]**
+gives the setting: Muḥammad b. Isḥāq said the people of Hūd used to worship several idols — Sudaʿ, Samud
+and al-Habāʾ — and this is why Hūd said to them, "defilement and wrath have already fallen on you from
+your Lord": you deserve the *rijs* from your Lord because of what you said; Ibn ʿAbbās said *rijs* means
+scorn and anger; and "do you dispute with me about these idols that you and your fathers made gods, even
+though they bring neither harm nor benefit — did God give you authority or proof allowing you to worship
+them?" — "then wait, I am with you among those who wait": this is a threat and a warning from the
+messenger to his people [Ibn Kathīr]. **[Study Quran]** explains the term: defilement translates *rijs*,
+which can mean a state of filth resulting from physical soiling or the shame that stems from moral
+disgrace; commentators note that *rijs* overlaps in meaning with the similar Qurʾānic term *rijz*, which
+means both filth or defilement and punishment (see 29:33–34); in the present context, then, *rijs* is
+said, like *rijz*, to refer to the imminent punishment or divine wrath already engendered by the ʿĀd's
+rejection of Hūd and soon to be visited upon them (IK, Ṭ, Th, Z); the idolatry of the ʿĀd, which they
+defend as the worship of what their fathers worshipped (v. 70), is dismissed by Hūd as the worship of
+mere names that you have named (cf. 12:40; 53:23), for God is the only legitimate recipient of worship
+and He alone gives and teaches human beings the "names" of all things (2:31); the names that you have
+named and for which God has sent down no authority have no ontological reality, and worshipping them is
+futile, for they can bring neither harm nor benefit (IK, Ṭ); and Hūd tells his people, by way of a
+threat (IK), "Wait! Truly I am waiting along with you" [Study Quran]. **[Jalālayn]** gives the verse in
+brief: he said, already terror, chastisement, and wrath from your Lord have fallen — they must be sent
+down on you; do you dispute with me concerning names which you — you and your fathers — have named for
+idols you worship, for which God has not revealed any warrant, any definitive argument or proof? Then
+await the chastisement; truly I shall be with you waiting — for that, on account of your denial of me;
+and he notes that a blighting wind was unleashed against them (cf. 51:41) [Jalālayn]. **[Saʿdī]** does
+not add a separate comment here beyond the narrative of the ʿĀd's end, which he carries into the next
+verses [Saʿdī].
+
+**Language.** **[Ṭabarī]**'s report of Abū ʿAmr's view — that *rijz* and *rijs* are one word with the
+letters reversed, as the Arabs interchange *sīn* and *zāy* — is the kind of note the early exegetes kept
+for the reader of readings: the two terms are near enough in sound to be heard as one word, and the
+meaning in both cases runs between filth and punishment [Ṭabarī]. **[Qurṭubī]**'s lexicon of *waqaʿa*
+gives the verse its tense: the thing they demanded to be brought upon them had already "fallen" —
+become due — and the verse's "then wait" is spoken over a sentence already written [Qurṭubī].
+
+**Cross-references.** "They are but names which you have named — you and your fathers — for which God
+has sent down no authority" (53:23; cf. 12:40); "And when the plague fell upon them" (7:134); "And when
+the word falls upon them, We shall bring forth for them a beast from the earth" (27:82); "And as for
+ʿĀd, they were destroyed by a furious, violent wind" (69:6); "So wait; indeed I am with you among those
+who wait" (cf. 10:20, 102; 11:122) [Qurṭubī] [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s point that the idols are "names" with no ontological reality gives
+the verse its philosophical edge: the dispute is not about which god is stronger but about whether the
+named things exist as gods at all, and the ʿĀd are left defending their own vocabulary. **[Ibn Kathīr]**'s
+note that the answer is a threat turns the invitation to "wait" into the last mercy offered: the prophet
+places himself beside his people in the waiting, so that what falls on them falls in his sight
+[Ibn Kathīr].
+
+## 7:72
+
+*"So We saved him and those with him by a mercy from Us, and We cut off the last remnant of those who denied Our signs and were not believers."*
+
+**Meaning.** **[Jalālayn]** gives the verse in brief: so We delivered him — Hūd — and those with him among
+the believers, by a mercy from Us; and We cut the root of those people who denied Our signs — that is, We
+extirpated them — and *were not believers* is a supplement to "those who denied," describing them
+[Jalālayn]. **[Ibn Kathīr]** recounts the destruction: God mentioned in several places in the Qurʾān how
+the people of ʿĀd were destroyed, stating that He sent a barren wind that destroyed everything it passed
+by — "And as for ʿĀd, they were destroyed by a furious, violent wind, subjected to it for seven nights
+and eight days in succession, so that you could see the men lying overthrown, as if they were hollow
+trunks of date palms — do you see any remnant of them?" (69:6–8); and when ʿĀd rebelled and transgressed,
+God destroyed them with a strong wind that carried them one by one up into the air and brought each one
+of them down [Ibn Kathīr]. **[Saʿdī]** draws the lesson: God saved them by His mercy — "so We saved him
+and those with him by a mercy from Us" — and "We cut off the root of those who denied Our signs": We
+extirpated them with the severe punishment that left none of them, and God set over them "the barren
+wind, which leaves nothing it comes upon but it makes it like decayed rubble" (51:41–42), "so they were
+destroyed and nothing was to be seen but their dwellings; then look how was the end of those who were
+warned" (46:25; 37:73) — those against whom the proofs were established and who did not submit to them,
+who were commanded to believe and did not believe; their end was destruction, shame and disgrace, "and
+they were followed in this world by a curse, and on the Day of Resurrection — surely, ʿĀd disbelieved in
+their Lord; surely, away with ʿĀd, the people of Hūd" (11:60); and here God says, "and We cut off the
+root of those who denied Our signs, and they were not believers" — in any respect; rather their
+description is denial and obstinacy, and their attribute is arrogance and corruption [Saʿdī].
+**[Study Quran]** gives the event's detail: that God cut off the last remnant of those who denied the
+signs brought by Hūd refers to their collective punishment by means of a fierce wind that destroyed all
+but Hūd and those who were with him (cf. 41:16; 54:19; 69:6–7); according to some accounts, when the ʿĀd
+rejected Hūd's call, God punished them with drought for three years; a group of them went to Makkah to
+pray and beseech God to relieve them, although they continued to disbelieve in Hūd and his warning; in
+response to their prayers three clouds appeared — one white, one red and one black — and a heavenly
+herald asked them to choose among them; they chose the black cloud, which God then drove until it reached
+their town; its inhabitants initially took the cloud to be a good sign and a harbinger of life-giving
+rain (cf. 46:24), but the cloud soon brought down upon them a violent, destructive wind described in
+another verse as tearing out people as if they were uprooted palm trunks (54:20); thereafter Hūd and the
+believers among his people were said to have travelled to Makkah and to have worshipped there until they
+died (Z) [Study Quran].
+
+**Cross-references.** "And as for ʿĀd, they were destroyed by a furious, violent wind" (69:6; cf. 41:16;
+54:19; 51:41); "Then, when they saw it as a cloud approaching their valleys, they said, 'This is a cloud
+bringing us rain' — rather, it is what you sought to hasten" (46:24); "So they were destroyed, and
+nothing was seen but their dwellings" (46:25); "And they were followed by a curse in this world and on
+the Day of Resurrection; surely, ʿĀd disbelieved in their Lord; away with ʿĀd, the people of Hūd"
+(11:60) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading of "they were not believers" gives the sentence its finality: the
+verse does not say they were punished for a single act but that the description "deniers" and "not
+believers" is what they simply were — and the cutting off of the root is the harvest of that description
+[Saʿdī]. **[Study Quran]**'s account of the black cloud gives the scene its irony: the people who
+demanded the punishment went to Makkah to pray for rain, chose their own destroyer from among three
+clouds, and welcomed it as good news — the verse's "We cut off the last remnant" is the end of that
+story [Study Quran].
+
+## 7:73
+
+*"And to Thamūd, their brother Ṣāliḥ. He said, 'O my people, worship God; you have no god other than Him. There has come to you a clear proof from your Lord: this she-camel of God is a sign for you. So leave her to graze in God's earth and do not touch her with harm, lest a painful punishment seize you.'"*
+
+**Meaning.** **[Ṭabarī]** gives the setting: We sent to Thamūd their brother Ṣāliḥ; and Thamūd is the
+son of Ghāthir b. Iram b. Sām b. Nūḥ, and he was the brother of Jadīs b. Ghāthir, and their dwellings
+were al-Ḥijr, between the Ḥijāz and Syria as far as Wādī al-Qurā and what is around it; "Thamūd" is not
+inflected because it is a tribal name, like Bakr and Tamīm. Ṣāliḥ said to them: O my people, worship God
+alone, with no partner, for you have no god whom it is lawful for you to worship besides Him; and a
+proof and demonstration has come to you of the truth of what I say and the reality of what I call you to
+— the sincerity of worship for God and His being singled out for worship apart from all else, and of my
+being His messenger: the she-camel which God brought out from that stony hillock as a proof of my
+prophethood and the truth of my speech, for you knew that this was among the miracles which none is able
+to do but God. And he reports the account of why Ṣāliḥ made the she-camel his proof: ʿAbd al-ʿAzīz b.
+Rufayʿ from Abū al-Ṭufayl: Thamūd said to Ṣāliḥ, "Bring us a sign if you are among the truthful"; he said
+to them, "Go out to a hillock of the earth"; they went out, and it was heaving like a pregnant animal,
+then it split and the she-camel came out from its midst; and Ṣāliḥ said, "This she-camel of God is a sign
+for you; so leave her to graze in God's earth and do not touch her with harm, lest a painful punishment
+seize you — she has a share of water and you have a share of a known day" (26:155); and when they grew
+tired of her they hamstrung her, and he said to them, "Enjoy yourselves in your dwellings three days;
+that is a promise not to be belied" (11:65) — and ʿAbd al-ʿAzīz said: another man told me that Ṣāliḥ
+said to them, "The sign of the punishment is that you will wake up tomorrow red, the second day yellow,
+and the third day black"; then the punishment came upon them at dawn, and when they saw it they applied
+*ḥanūṭ* and made themselves ready *(Isrāʾīliyyāt)*. And from al-Suddī: God sent Ṣāliḥ to Thamūd, and he
+called them and they denied him; and it is God's word in the Qurʾān — they asked him to bring them a
+sign, and he brought them the she-camel, with a share of water for her and a share of a known day for
+them; and he said, "leave her to graze in God's earth and do not touch her with harm"; and they
+acknowledged her all together, and that is His saying, "so We guided them, but they preferred blindness
+to guidance" (41:17) [Ṭabarī]. **[Qurṭubī]** gives the lineage and the people: Thamūd is the son of ʿĀd
+b. Iram b. Sām b. Nūḥ, and the brother of Jadīs; they were in ease in their livelihoods, then they
+opposed God's command and worshipped other than Him and worked corruption in the earth, so God sent to
+them Ṣāliḥ as a prophet — Ṣāliḥ b. ʿUbayd b. Āsif b. Kāshiḥ b. ʿUbayd b. Ḥādhir b. Thamūd — and they were
+an Arab people; Ṣāliḥ was of their middling lineage and the best of them in descent, and he called them
+to God until his beard grew white *(shamiṭa)* and only a few of them, the oppressed, followed him;
+"Thamūd" is not inflected because it was made the name of the tribe; Abū Ḥātim said it is not inflected
+because it is a foreign name, and al-Naḥḥās said that this is an error, since it is derived from
+*al-thamad*, the little water; and the reciters read "surely, Thamūd disbelieved their Lord" (11:68) as a
+name of the living group; their dwellings were al-Ḥijr between the Ḥijāz and Syria to Wādī al-Qurā, and
+they were of the children of Sām b. Nūḥ, and Thamūd was named for the scarcity of its water. "This
+she-camel of God is a sign for you": God brought out the she-camel for them when they asked him for it
+from a solid rock; she had a day on which she drank all the water of the valley, and gave them milk the
+like of which had never been drunk, sweeter and more delicious, in the measure of their need at their
+turn, as God said, "she has a share of water and you have a share of a known day" (26:155); and the
+she-camel was attributed to God on the pattern of the creation's attribution to the Creator, and in it is
+honour and specification; "so leave her to graze in God's earth" means you owe nothing for her provision
+and upkeep [Qurṭubī]. **[Saʿdī]** reads the verse as the call and the sign: "and" We sent "to Thamūd,"
+the well-known tribe who dwelt in al-Ḥijr and around it in the land of the Ḥijāz and the Arabian
+peninsula, their brother Ṣāliḥ as a prophet calling them to faith and tawḥīd and forbidding them shirk
+and the setting up of rivals, saying, "O my people, worship God; you have no god other than Him" — his
+call being of the same kind as the call of his brothers among the messengers: the command to worship God
+and the declaration that the servants have no god but God; "there has come to you a clear proof from
+your Lord" — a wonder among the wonders that occur only as a heavenly sign, which people are unable to
+perform; then he explained it: "this she-camel of God is a sign for you" — a noble and excellent camel,
+attributed to God with the attribution of honouring, in which you have a great sign, its aspect being
+mentioned in "she has a share of water and you have a share of a known day" (26:155); and there was with
+them a great well, known as the well of the she-camel, where they took turns with her — the camel had a
+day to drink, and they drank milk from her udder, and they had a day on which they brought their animals
+and the camel went away from them; and their prophet Ṣāliḥ said to them, "so leave her to graze in God's
+earth," for her maintenance is nothing upon you, "and do not touch her with harm," that is, by
+hamstringing or other than it, "lest a painful punishment seize you" [Saʿdī]. **[Study Quran]** gives
+the prophet and the place: This verse begins the account of the Arabian prophet Ṣāliḥ, sent to his
+people the Thamūd, who, like the tribe of ʿĀd, were reportedly descendants of Noah's son Shem (Ṭ, Z);
+Ṣāliḥ's full name is given as Ṣāliḥ ibn ʿUbayd ibn Asif ibn Māsikh ibn ʿUbayd ibn Khādir ibn Thamūd
+(Th); he is described as having been among the noblest and most respected members of the Thamūd before
+his prophetic mission (Ṭ, Th), which began when he was still a youth (Th); the Thamūd were said to
+inhabit a high rocky plain known as al-Ḥijr, located in western Arabia between the Ḥijāz and Syria —
+al-Ḥijr being the title of Sūrah 15, and 15:80–83 briefly recounting the story of the Thamūd; other
+narrative accounts of Ṣāliḥ are found in 11:61–68, 26:141–58 and 54:23–31; and his account, like that of
+Noah and Hūd before him, begins with a call to monotheistic belief and worship. It explains the clear
+proof: in the case of Ṣāliḥ it was the pregnant she-camel that he miraculously brought forth from a
+large rock after his people had requested a sign confirming his prophethood (Ṭ, Z; see also 26:154); and
+insofar as the Thamūd are eventually destroyed for slaughtering the she-camel they had requested as a
+sign, the story serves as one of many Qurʾānic warnings about those who treat the signs of God with
+disdain, as well as a more particular warning about the danger of asking for signs and the necessity of
+believing in them once they have been granted; the Thamūd are instructed to allow the camel to graze
+freely on God's earth without harm (see also 11:64), and the command bears similarities to the pagan Arab
+practices of allowing certain camels to roam and graze without interference while forbidding their use or
+slaughter, although the Qurʾān criticizes these latter practices for the arbitrary manner in which the
+sacrosanct nature of such animals was assigned to them by the pagan Arabs themselves (see 5:103; 6:138);
+in the case of Ṣāliḥ's people, however, the she-camel is a miraculously produced sign, and Ṣāliḥ warns
+them of a painful punishment if they harm her (see also 26:156); they were also instructed to allow the
+she-camel sole access to the drinking well every other day and to alternate access to the well between
+themselves and the camel (54:28; 26:155); although the she-camel, after drinking from the well, would
+produce abundant milk to supply all the Thamūd, they grew resentful of sharing the well and complained
+that the camel's enormous size frightened off their other livestock (Ṭ, Z) [Study Quran].
+**[Maʿārif]** gives the narrative frame: these verses tell of Ṣāliḥ and his people the Thamūd, in the
+continuing series of the sūrah's accounts of past prophets and their peoples — the call of truth, the
+denial of the peoples, and the terrible consequences — and ʿĀd and Thamūd are the names of two persons of
+the progeny of the same grandfather whose descendants came to be known by their names; the Thamūd lived
+in the north-western part of Arabia, their main city al-Ḥijr, now known as Madāʾin Ṣāliḥ; like the ʿĀd,
+they were wealthy, powerful, brave and artistically inclined, skilled in sculpture and architecture,
+building palaces on open ground and hewing living spaces inside the mountains, whose vestiges remain with
+Thamūdic inscriptions [Maʿārif]. **[Jalālayn]** adds that the she-camel came out of a specific rock the
+people had designated, and that "a sign for you" is a circumstantial qualifier governed by the
+demonstrative [Jalālayn].
+
+**Belief.** **[Saʿdī]** draws the principle the sign serves: the miracle was of the kind that occurs only
+as a heavenly sign beyond human power, and the she-camel's significance is bound to the lot apportioned
+between her and the people — the sign is not a wonder to be admired but a claim on their obedience
+[Saʿdī]. **[Ṭabarī]**'s account of the hillock heaving and splitting makes the same point from the
+narrative side: the sign came at their own request and by the prophet's word, so that what they
+afterwards did to the camel they did with full knowledge of what it was [Ṭabarī]. **[Saʿdī]** also
+enters a methodological warning under this story: the reports about the people of Thamūd that circulate
+in some commentaries and Israelite narratives have no support in the Book of God, and the Qurʾān would
+not have omitted a matter in which there were wonders, lessons and signs for it to reach us only through
+a narrator who cannot be trusted; indeed the Qurʾān gives the lie to some of those reports — for Ṣāliḥ
+said to them, "enjoy yourselves in your dwellings three days," a brief respite in which they enjoyed
+nothing, since their faces were already turning red, then yellow, then black from the punishment — and
+such material contradicts the Qurʾān; the Qurʾān suffices for guidance, and whatever of such reports is
+sound and does not contradict the Book is to be received, while the Book of God may not be interpreted by
+Israelite accounts, whose content can be neither affirmed nor denied *(Isrāʾīliyyāt)* [Saʿdī].
+
+**Cross-references.** "She has a share of water and you have a share of a known day" (26:155; cf.
+54:28); "Enjoy yourselves in your dwellings three days; that is a promise not to be belied" (11:65);
+"Have you not seen how your Lord dealt with ʿĀd and Thamūd" (cf. 89:6–9); "And the Thamūd who hewed the
+rocks in the valley" (89:9; cf. 15:82); "So We guided them, but they preferred blindness to guidance"
+(41:17) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Study Quran]** draws the double warning from the story: it warns those who treat the
+signs of God with disdain, and more particularly warns about asking for a sign and then failing to
+believe in it once granted — the Thamūd's ruin begins with a request they themselves made
+[Study Quran]. **[Maʿārif]**'s account of their skill and their wealth — palaces on the plains, cities
+carved in the mountains, vestiges that survive to this day — sets the sign against the civilization that
+received it, so that the verse's "leave her to graze in God's earth" is spoken to people who thought
+themselves master of that earth.
+
+## 7:74
+
+*"And remember when He made you successors after ʿĀd and settled you in the land, taking for yourselves castles from its plains and hewing the mountains into houses. So remember the boons of God, and do not work corruption upon the earth, spreading mischief."*
+
+**Meaning.** **[Ṭabarī]** reads the verse as Ṣāliḥ's admonition: remember, O people, God's favour to you
+when He made you successors — you succeed ʿĀd in the earth after their destruction — and he explains the
+grammar: "successors" is a plural of *khalīfa*, and *khalīfa* forms *khulafāʾ* on the analogy of
+*sharīk*/*shurakāʾ* and *ʿalīm*/*ʿulamāʾ*, because the word was taken as a masculine; if it had been
+treated as *karīma*/*karāʾim* it would have formed *khalāʾif* — and the Qurʾān uses both forms because
+the word is sometimes pluralized according to its wording and sometimes according to its meaning; "and
+settled you in the land" — He lodged you in the earth and made for you in it dwellings and spouses;
+"taking for yourselves castles from its plains" — building palaces in every place; "and hewing the
+mountains into houses" — from al-Suddī: they used to hollow dwellings out of the mountains; "so remember
+the boons of God" — remember the favour God conferred on you — "and do not work corruption upon the
+earth, spreading mischief"; and from Qatāda: "do not walk in the earth as corrupters" [Ṭabarī].
+**[Qurṭubī]** notes three matters in the verse. First, "and settled you in the land" has an omitted
+word — He settled you in the land *in dwellings*; "you take castles from its plains," that is, you build
+castles in every place; "and you hew the mountains into houses" — they made dwellings in the mountains
+because of the length of their lifespans, since roofs and buildings would decay before their lives came
+to an end; and al-Ḥasan read the word with an unassimilated *ḥāʾ*. Second, those who allow tall building
+— palaces and their like — used this verse as evidence, together with "Say: who has forbidden the
+adornment of God which He brought forth for His servants" (7:32); and he records that a son of Muḥammad
+b. Sīrīn built a house and spent much wealth on it, and when it was mentioned to Muḥammad b. Sīrīn he
+said, "I see no harm in a man building a building that benefits him," and that it was reported that the
+Prophet ﷺ said, "When God favours a servant, He loves to see the trace of His favour upon him" — among
+the traces of the favour being good building and good clothing; and he notes that others, among them
+al-Ḥasan al-Baṣrī, disliked it [Qurṭubī]. **[Saʿdī]** reads the verse's favours in order: "and remember
+when He made you successors," in the earth, enjoying it and attaining your aims, "after ʿĀd," whom God
+destroyed and made you successors after them; "and settled you in the earth" — He gave you power in it
+and eased for you the means leading to what you want and seek; "taking from its plains castles" — that
+is, from the flat lands that are not mountains, houses, and from the mountains houses that you hew out,
+as is observable now in their works in the mountains — dwellings and rock-cut chambers and the like,
+remaining as long as the mountains remain [Saʿdī]. **[Jalālayn]** gives the same detail with the
+seasonal use: castles in its plains in which you lodge during summer, and hewing its mountains into
+houses in which you lodge during winter; "houses" is in the accusative because of an implied
+circumstantial qualifier; "so remember God's bounties and do not be degenerate in the earth, seeking
+corruption" [Jalālayn]. **[Study Quran]** notes that Ṣāliḥ, like Hūd, reminds his people of the boons of
+God (cf. v. 69), among which is that He made them vicegerents after ʿĀd — given sovereignty after them,
+just as the ʿĀd had been vicegerents after Noah; among the boons was also their famed building ability,
+including their construction of dwellings in the mountains (cf. 15:82; 26:149; 89:9), vestiges of which
+were known to the Arabs of the Prophet's time and remain to the present day; the Prophet and his army are
+said to have stopped near the remains of their mountain abodes on their way to the anticipated campaign
+of Tabūk in 9/631, and the Prophet forbade his followers from drinking or using water from their wells
+and would not allow them to approach the well used by the sacred she-camel, lest they suffer the same
+fate as the Thamūd (IK); and for the discussion of the Qurʾānic concept of working corruption, see 7:56
+[Study Quran]. **[Ibn Kathīr]** records the same prohibition of the Prophet at the ruins of the Thamūd
+[Ibn Kathīr].
+
+**Rulings.** **[Qurṭubī]**'s second matter records the juristic use of the verse: those who permit
+raising lofty buildings — castles and the like — cited "taking for yourselves castles from its plains"
+together with the verse on the adornment of God (7:32), and reports Muḥammad b. Sīrīn's approval of a
+building that benefits its owner and the ḥadīth "when God favours a servant He loves to see the trace of
+His favour upon him"; others, among them al-Ḥasan al-Baṣrī, disliked it, and the difference turns on
+whether the building is a trace of the favour or a distraction from the command that follows in the same
+verse — "do not work corruption upon the earth, spreading mischief" [Qurṭubī].
+
+**Cross-references.** "And remember when He made you successors after the people of Noah" (7:69);
+"Say: who has forbidden the adornment of God which He brought forth for His servants, and the good
+things of provision?" (7:32); "And they hewed the rocks in the valley" (89:9); "And you hew dwellings in
+the mountains, being skillful" (26:149); "And do not work corruption upon the earth after it has been set
+right" (7:56) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Qurṭubī]**'s report of Ibn Sīrīn and al-Ḥasan al-Baṣrī's disagreement leaves the
+verse's two halves in the reader's hands: the castles are named as a favour, and the command that closes
+the verse names what the same prosperity can become — so that the difference is not in the building but
+in whether it is remembered as a gift or trusted as a possession. **[Study Quran]**'s note that the
+Prophet forbade his companions to drink from the wells of the Thamūd gives the "remember" its concrete
+shape: the ruins of the verse's castles and mountain houses were still standing when the last prophet
+passed by them.
+
+## 7:75
+
+*"The notables of his people who were arrogant said to those who were oppressed, to those among them who believed, 'Do you know that Ṣāliḥ has been sent from his Lord?' They said, 'Indeed, in what he has been sent with, we are believers.'"*
+
+**Meaning.** **[Ṭabarī]** gives the speakers and the addressees: the assembly, those of Ṣāliḥ's people
+who were arrogant about following Ṣāliḥ and believing in God and in him, said to those who were
+oppressed — the people of poverty among Ṣāliḥ's followers and the believers in him, not those of their
+own nobility and leadership — "do you know that Ṣāliḥ is sent from his Lord?", that is, that God sent
+him to us and to you? And those who believed in Ṣāliḥ from among the oppressed said: we are believers in
+what God sent Ṣāliḥ with of truth and guidance, that is, affirmers acknowledging that it is from God and
+that God commanded it, and that it is God's command that Ṣāliḥ called us to. And those who were arrogant
+about God's command and the command of His messenger Ṣāliḥ said: we — O people — are disbelievers in
+what you have believed, that is, deniers of the prophethood of Ṣāliḥ and that what he brought is truth
+from God: we do not affirm it and we do not acknowledge it [Ṭabarī]. **[Qurṭubī]** notes the grammar of
+the address: "to those who were oppressed, to those among them who believed" — the second phrase is a
+substitution for the first, since the oppressed are the believers, and it is a substitution of the part
+for the whole [Qurṭubī]. **[Study Quran]** notes that, as with Noah and Hūd, it is especially the
+notables among Ṣāliḥ's people who are too proud to accept his message (see v. 60; 7:60–62; as well as vv.
+66, 88, 90); and v. 75 suggests that those among the Thamūd who did believe in his prophethood were
+those deemed weak, that is, considered to be of lower social and economic standing (Ṭ); there are reports
+that some leading figures among the Thamūd believed, but they were overwhelmed by others, including the
+keeper of their idols, who strongly rejected Ṣāliḥ (IK, Th) [Study Quran]. **[Jalālayn]** gives the
+scene compactly: the council of those of his people who waxed proud and disdained belief in him said to
+those who were oppressed — to such of them as believed — "are you aware that Ṣāliḥ has been sent to you
+from his Lord?"; they said, "yes! truly we believe in the message with which he has been sent"
+[Jalālayn]. **[Saʿdī]**, in his reading of the passage, keeps the scene's two parties distinct: the
+notables who disbelieved are those who questioned the messenger and the weak together, and the answer of
+the believers — "indeed, in what he has been sent with, we are believers" — is the plain confession that
+the sūrah sets against the arrogance [Saʿdī].
+
+**Language.** **[Qurṭubī]**'s grammatical note matters for the reading of the verse: the oppressed and
+the believers are the same group, the second phrase specifying the first — so that the verse's social
+observation is exact: the ones who accepted the message were precisely those whom the notables had
+reduced [Qurṭubī]. **[Ṭabarī]** notes the same in his paraphrase: the notables addressed "the people of
+poverty among the followers of Ṣāliḥ," not their own leaders, and the question they put to them — do you
+know that Ṣāliḥ is sent from his Lord? — is asked in mockery, as if the lowly were being asked whether
+they understood so great a matter [Ṭabarī].
+
+**Cross-references.** "And the notables of his people who disbelieved said, 'We do not see you but a man
+like ourselves, and we do not see any who follow you except the lowest of us, on first thought'" (11:27);
+"Is it these whom God has favoured among us?" (6:53); "And when those who believe say, 'Is this the one
+whom God has sent as a messenger?'" (cf. 25:41); "Say: are those who know equal to those who do not
+know?" (39:9) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s observation that the believers were the "deemed weak" places the
+verse at the sūrah's recurring social insight: the message is rejected by those who have something to
+lose in this world's arrangements, and accepted by those who have least stake in them. **[Ṭabarī]**'s
+paraphrase of the confrontation — the nobles questioning the poor about a prophet — makes the verse's
+irony visible: the knowledge of the matter was on the side of the ones being examined [Ṭabarī].
+
+## 7:76
+
+*"Those who were arrogant said, 'Indeed, in what you believe, we are disbelievers.'"*
+
+**Meaning.** **[Ṭabarī]** reads the answer: those who were arrogant about God's command and the command of
+His messenger said — we are deniers of what you have believed, that is, of the prophethood of Ṣāliḥ and
+that what he brought is truth from God; we do not affirm it and we do not acknowledge it [Ṭabarī].
+**[Jalālayn]** gives it in one line: said the ones who were proud, "truly we are disbelievers of that
+which you believe" [Jalālayn]. **[Study Quran]** joins the verse to the one before it: as with Noah and
+Hūd, it is especially the notables among Ṣāliḥ's people who are too proud to accept his message, and
+the two verses together set the division within the community — the notables questioning, the weak
+believing, and the proud declaring their disbelief in what the others believe [Study Quran].
+**[Saʿdī]** draws the consequence the verse states about the arrogant: their declaration is the end of
+the conversation, and the sūrah moves from it directly to the hamstringing of the camel — the word
+becoming the deed [Saʿdī].
+
+**Language.** **[Ṭabarī]** notes the pairing of the two speeches in the two verses: the believers begin
+with "indeed" and their word is faith; the arrogant begin with "indeed" and their word is disbelief —
+the same construction carrying two opposite answers, so that the contrast is exact [Ṭabarī].
+
+**Cross-references.** "Indeed, in what you believe, we are disbelievers" (7:76; cf. 28:48); "And the
+notables of his people who disbelieved said, 'If you follow Shuʿayb, you will surely be the losers'"
+(7:90); "And they said, 'We disbelieve in that with which you have been sent'" (cf. 5:70 region);
+"And those who disbelieve say of those who believe, 'Had it been good, they would not have preceded us
+to it'" (46:11) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s collation of the notables across the sūrah gives the verse its
+pattern: the same class, the same refusal, in story after story — and the sūrah keeps repeating it
+because the reader's own age keeps repeating it. **[Ṭabarī]**'s note on the two parallel sentences makes
+the division visible in grammar: the two sides answer in the same shape, and the only difference is the
+word at the end — believe, disbelieve.
+
+## 7:77
+
+*"So they hamstrung the she-camel and defied the command of their Lord, and said, 'O Ṣāliḥ, bring upon us what you promise us, if you are among the messengers.'"*
+
+**Meaning.** **[Ṭabarī]** gives the narrative: Thamūd hamstrung the she-camel which God had made a sign
+for them; and "they were insolent about the command of their Lord" — they were haughty and tyrannical
+about following God and rose up against the truth; and he reports from Mujāhid: "they were insolent" —
+they rose up in falsehood and abandoned the truth, exalting themselves in tyranny; and it is from the
+saying "a tyrannical giant," when one is exalted in his tyranny; and "they said, 'O Ṣāliḥ, bring upon us
+what you promise us'" — bring us what you promise of God's punishment and vengeance, seeking to hasten
+the punishment — "if you are among the messengers," that is, if you are a messenger of God to us, then
+God supports His messengers against their enemies; so God hastened it for them as they sought to hasten
+it [Ṭabarī]. **[Qurṭubī]** opens the lexicon of *ʿaqr*: it is the wounding, and it was said it is the
+cutting of a limb affecting the soul; one says "I hamstrung the horse" when striking its legs with the
+sword, and "hamstrung" horses; and al-Qushayrī said *al-ʿaqr* is the laying bare of the camel's hock,
+after which the slaughtering of an animal was called *ʿaqr* because hamstringing is in most cases the
+cause of the slaughter. And he notes that the killer of the she-camel has been discussed in several
+views, the soundest of which is in *Ṣaḥīḥ Muslim*, in the ḥadīth of ʿAbdallāh b. Zamʿa, that the
+Messenger of God ﷺ delivered a sermon in which he mentioned the she-camel and the one who hamstrung her,
+and said of "when the most wretched of them rose up" (91:12): there rose up for her a man mighty,
+insolent, protected among his clan — like Abū Zamʿa; and his name was given as Qudār b. Sālif; and it
+was said that their rule belonged to a woman called Malkī, who envied Ṣāliḥ when the people inclined to
+him and spoke to two women who had two lovers who were passionately attached to them, telling them not
+to obey the two unless they asked them to hamstring the she-camel, and they did so; the two men went out
+and drove the camel into a narrow place, and one of them shot her with an arrow and they killed her; and
+her young one — the *saqb*, her calf — came to the rock from which the she-camel had come out and brayed
+three times, and the rock split open and it entered it; and it is said that it is the beast that will
+come out at the end of time *(Isrāʾīliyyāt)* [Qurṭubī]. **[Study Quran]** gives the collective
+responsibility: despite the divisions among the Thamūd regarding Ṣāliḥ and the message he brought, the
+commentators report that all the Thamūd eventually consented to the plot to hamstring and kill the
+she-camel (IK, Th, Z), thus indicating their collective guilt and liability to divine punishment;
+according to some accounts the killing of the she-camel was instigated by two women, one of whom was the
+wife of Dhiʾāb b. ʿAmr, one of the leading disbelievers among the Thamūd, and she is said to have
+recruited a young man who in turn recruited eight others to carry out the slaughter (see 27:48, which
+refers to a group of nine persons working corruption among the Thamūd); after killing the she-camel, the
+camel's young offspring ran off in distress and eventually disappeared; Ṣāliḥ then realized that the
+punishment of which he had been warning was imminent, and told his people that it would be visited upon
+them in three days, and that on each successive morning until then they would wake with their faces
+having turned yellow, then red, and finally black before their final destruction *(Isrāʾīliyyāt)*
+[Study Quran]. **[Maʿārif]** tells the story in its dramatic form: the people of Thamūd were in trouble
+because of the she-camel and wished she would die, but did not dare do it themselves lest they be hit by
+divine punishment; then Satan's strategy of trial through women came into play, and two beautiful damsels
+of the Thamūd wagered that whoever killed the she-camel could take them or any of their girls; two young
+men of the Thamūd, called Misdaʿ and Qadhār, drunk with the prospect, went out to kill her, hid behind a
+great rock and waited for her on her usual route; when she appeared, Misdaʿ hit her with an arrow and
+Qadhār hamstrung her by cutting her legs with his sword; and the Qurʾān calls him the most cruel and
+wretched of the people — "when the most wretched of them was incited" (91:12) — because that was what
+brought mass punishment on the Thamūd; and after the killing, Ṣāliḥ told his people, as divinely
+commanded, that they had only three days to live: "enjoy yourselves in your dwellings three days; that
+is a promise not to be belied" (11:65) [Maʿārif]. **[Jalālayn]** gives the sequence compactly: the
+she-camel was given the water one day and they another, but they soon tired of this, so they hamstrung
+the she-camel — Qudār hamstrung her by their command, killing her with a sword — and flouted the command
+of their Lord and said, "O Ṣāliḥ, bring upon us what you have promised us of chastisement for our
+killing her, if you are indeed a messenger" [Jalālayn]. **[Saʿdī]** observes the escalation in the verse:
+the hamstringing of the she-camel, then the defiance of the Lord's command, then the mocking demand for
+the punishment — three steps in one sentence, each of which follows from the last [Saʿdī].
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites the sound ḥadīth of ʿAbdallāh b. Zamʿa in *Ṣaḥīḥ Muslim* as the
+soundest identification of the killer of the she-camel: the Prophet ﷺ mentioned the she-camel and the one
+who hamstrung her in his sermon, saying, "there rose up for her a man mighty, insolent, protected among
+his clan — like Abū Zamʿa" [Qurṭubī]. **[Study Quran]** notes the report of the nine persons working
+corruption in the land (27:48), which the tradition links to the plot against the camel, so that the act
+is attributed both to one most wretched man and to a company [Study Quran].
+
+**Cross-references.** "When the most wretched of them was incited" (91:12; cf. 91:13–15); "She has a share
+of water and you have a share of a known day" (26:155); "And there were in the city nine men who worked
+corruption in the land and did not set things right" (27:48); "Enjoy yourselves in your dwellings three
+days; that is a promise not to be belied" (11:65); "Then the cry seized them" (15:83) [Qurṭubī]
+[Study Quran].
+
+**Reflection.** **[Maʿārif]**'s telling of the story — the wager, the two young men, the ambush behind
+the rock — gives the verse its human texture: the sign they had asked God for was killed at the
+instigation of a prize, and the demand that follows, "bring upon us what you promise us," is the voice of
+people who have already stopped believing that anything will come. **[Study Quran]**'s note that all the
+Thamūd eventually consented makes the verse's plural — "they hamstrung," "they defied," "they said" —
+theologically exact: the act of a few became the act of a people by their consent.
+
+## 7:78
+
+*"So the earthquake seized them, and they lay prostrate in their homes."*
+
+**Meaning.** **[Ṭabarī]** gives the event: the tremor seized those of Thamūd who hamstrung the she-camel,
+and it is the cry; and "the tremor" is of the form of a single act from one's saying "the thing trembled
+with him" when it shook and rocked him, as the poet al-Akhṭal said, "like the eagle I tremble, and man is
+broken"; and what is meant by the tremor here is the cry that shook them and moved them to destruction,
+because Thamūd perished by the cry, as the people of knowledge mention; and the interpreters said the
+like of what we said [Ṭabarī]. **[Qurṭubī]**, in his discussion of the same passage, records that the
+young camel's cry and the splitting rock were followed by the punishment three days later, and that the
+people made themselves ready when they saw the sign — and he notes the two forms the punishment takes in
+the Qurʾān's accounts, the cry and the tremor, as the sūrah's report of how the destruction came
+[Qurṭubī]. **[Jalālayn]** reads the verse: so the Trembling — a violent earthquake and a cry from the
+heaven — seized them, and they lay lifeless, prostrate in their habitations, keeled over on their knees,
+dead [Jalālayn]. **[Study Quran]** gives the verse as the close of the account: after the hamstringing
+and the defiant demand, the earthquake seized them and morning found them lying lifeless in their abode —
+the punishment they had asked to be hastened [Study Quran]. **[Maʿārif]** draws the two forms together
+from the Qurʾān's own verses: other verses mention that "the cry seized them" (15:83), and the word
+*al-ṣayḥa* means a shrill cry or severe sound; from these verses we find that two kinds of punishment
+converged on the people of Thamūd at once, the earthquake from below and the cry from above; and the
+result was that they were found dead in their homes, fallen on their knees — the word *jāthimīn* being
+derived from *juthūm*, to be rendered senseless and motionless in one spot, the sense being that everyone
+lay dead as and where he was [Maʿārif]. **[Ibn Kathīr]** records the narrative of the destruction and
+God's rescue of Ṣāliḥ and the believers with him [Ibn Kathīr].
+
+**Language.** **[Ṭabarī]**'s word study of *al-rajfa* — the shaking movement from which the word is taken
+— gives the verse its physical concreteness: the quaking that moves a thing to its ruin, and then the
+form *jāthimīn*, the posture of the fallen who lie where they fell [Ṭabarī]. **[Maʿārif]** notes that
+*jāthimīn* describes the state of one rendered motionless on the spot, so that the picture is of the
+whole town sitting dead in its own houses [Maʿārif].
+
+**Cross-references.** "So the cry seized them" (15:83); "And they were seized by the earthquake, and
+they lay in their homes, prostrate" (29:37; cf. 7:91); "So the punishment seized them; indeed in that is
+a sign" (cf. 51:44); "And how many a town have We destroyed while it was doing wrong, so that it is
+fallen down upon its roofs" (22:45) [Ṭabarī] [Maʿārif].
+
+**Reflection.** **[Maʿārif]**'s gathering of the earthquake and the cry gives the verse its awful
+completeness: the ground they had carved and built upon moved under them, the sky they had trusted sent
+the sound down upon them, and the "homes" of the verse are the very palaces and mountain houses praised
+in v. 74. **[Bokhari's ḥadīth]** — recorded in the tradition and cited by **[Study Quran]** — has the
+Prophet ﷺ passing by al-Ḥijr with his companions on the way to Tabūk and forbidding them to enter the
+area of the punished people or to drink from their water, so that the verse's last word, "in their
+homes," is read in the tradition as a standing warning attached to a place.
+
+## 7:79
+
+*"So he turned away from them and said, 'O my people, I conveyed to you the message of my Lord and advised you sincerely, but you do not love advisers.'"*
+
+**Meaning.** **[Ṭabarī]** reads the verse: Ṣāliḥ turned away from them when they sought to hasten the
+punishment and hamstrung God's camel, going out from their land, from among them, because God had revealed
+to him, "I am going to destroy them after the third day"; and it was said that no nation was destroyed
+with its prophet among them; so God reported Ṣāliḥ's departure from the midst of his people who had
+grown insolent against their Lord when God willed to bring His punishment upon them: "so he turned away
+from them" and said to his people Thamūd, "I have conveyed to you the message of my Lord" — I delivered
+to you what my Lord commanded me to deliver of His command and His prohibition — "and I advised you" in
+my delivering God's message to you, in warning you of His might for your persistence in disbelief in Him
+and your worship of idols — "but you do not love the advisers," those who counsel you concerning God,
+who forbid you from following your whims and turn you back from the desires of your souls [Ṭabarī].
+**[Study Quran]** sets out the possibilities of the "turning away": it may refer to Ṣāliḥ's abandonment
+of the Thamūd in advance of their punishment, leaving their settlement along with a small number of
+believers (Ṭ, Z); or it may refer to his reaction after their destruction, either when he turned back,
+saw smoke rising from their residences, and knew that they had been destroyed, or after returning to find
+them lying lifeless in their abode (v. 78; Z); like Noah and Hūd before him, Ṣāliḥ affirms that he has
+fulfilled his responsibility to God and to his people, having delivered the message of his Lord and
+advised his people sincerely — the two essential vocations of the Qurʾānic prophets (see v. 68;
+7:60–62) — but although Noah and Hūd make their statements in a mood of warning, Ṣāliḥ says this with
+sadness and regret that, for all his efforts, he could not persuade his people to mend their ways (Z),
+or he says it by way of posthumous chastisement for his people's stubborn disbelief (IK); and it notes
+the report that the dead can hear such rebukes from the living, supported by the Prophet's addressing
+the dead at the Battle of Badr and asking them whether they had found God's promise to be true, and by
+ʿUmar's surprise and the Prophet's answer to it [Study Quran]. **[Maʿārif]** gives the scene's physical
+setting and its lesson: the Qurʾān mentions that the cry seized them; and the reports have the Prophet
+and his companions passing by al-Ḥijr on the journey of Tabūk, where he instructed that no one should
+enter the land of that punished habitation, nor [drink its water] — the story's remains standing as a
+sign for those who pass [Maʿārif]. **[Jalālayn]** reads the verse briefly: so he turned his back on them
+— Ṣāliḥ left them — and said, "O my people, I have conveyed to you the message of my Lord and given you
+sincere advice, but you do not love sincere advisers" [Jalālayn]. **[Saʿdī]** draws the verse's lesson
+from its two halves: the prophet has done what was his — conveyed and advised — and the people have shown
+what is theirs — they do not love the advisers; so that the sūrah's account of the Thamūd ends not with
+the question of whether they were warned but with the answer of what they loved [Saʿdī].
+
+**Language.** **[Ṭabarī]** notes that the phrase "you do not love the advisers" is the diagnosis of the
+people rather than a complaint of the prophet: the counsel was not merely rejected but disliked, and the
+one who brought it was disliked with it [Ṭabarī]. **[Study Quran]** notes the contrast with the same
+self-description used by the prophets earlier in the sūrah: Noah and Hūd describe themselves as sincere
+advisers while their people are still in the world, and Ṣāliḥ says it over a town that is already still —
+the same words with a different silence around them [Study Quran].
+
+**Cross-references.** "And I advised you sincerely, but you do not love the advisers" (cf. 7:93);
+"You are only a warner, and God is a guardian over all things" (11:12); "So remind, for you are only a
+reminder; you are not over them a controller" (88:21–22); "That is because they disliked what God sent
+down, so He made their deeds worthless" (47:9) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s reading of the verse as sadness rather than rebuke gives the scene
+its human weight: the prophet who had called them until his beard turned white stands over the silence
+and recites what he had done and what they had not loved. **[Ṭabarī]**'s note that no nation was
+destroyed with its prophet among them — that Ṣāliḥ was taken out before the punishment fell — makes the
+verse's "turned away" the last mercy to the prophet himself: the messenger is not left to be destroyed
+with the people who refused him.
+
+## 7:80
+
+*"And Lot, when he said to his people, 'Do you commit an indecency such as no one in the worlds has committed before you?'"*
+
+**Meaning.** **[Qurṭubī]** opens with the name and its grammar: al-Farrāʾ said Luṭ is derived from the
+saying, "this is more clinging (*alyat*) to my heart," that is, more attached; al-Naḥḥās said al-Zajjāj
+reported that some grammarians — meaning al-Farrāʾ — claimed Luṭ may be derived from *laṭṭu*, "I smeared
+it with clay," and that this is an error, since foreign names are not derived, as Isḥāq is not derived
+from *al-suḥq*, "distance"; Luṭ is inflected only because of its lightness, being three letters with a
+vowelless middle; al-Naqqāsh said Luṭ is one of the foreign names and not of Arabic origin; and Sībawayh
+said Nūḥ and Luṭ are foreign names, only light, and for that reason inflected. God sent him to a people
+called Sodom, and he was the nephew of Ibrāhīm; his accusative is either by the preceding "We sent" —
+making him coordinated — or in the sense of "and mention." Then the second matter: "do you commit the
+indecency?" means the coming to males; God mentioned it under the name of *al-fāḥisha* to make clear that
+it is zinā, as God said, "and do not approach zinā; indeed it is an indecency" (17:32); and the scholars
+differed over what is obligatory for the one who does it, after their consensus on its prohibition:
+Mālik said he is stoned whether married or not, and likewise the one acted upon if he is an adult; and it
+was also reported from him that he is stoned if married and imprisoned and disciplined if not, and that
+is the school of ʿAṭāʾ and al-Nakhaʿī [Qurṭubī]. **[Ibn Kathīr]** gives the relation and the sin: Luṭ is
+the son of Hārān son of Āzar (Terah), the nephew of Ibrāhīm, peace be upon them; Luṭ believed in Ibrāhīm
+and migrated with him to the region of Syria; God then sent Luṭ to the people of Sodom and the
+surrounding villages to call them to God, enjoin righteousness, and forbid them their evil practices,
+their sin and wickedness — in that area they did things that none of the children of Adam or any other
+creature had ever done before them, having sexual intercourse with males instead of females; this evil
+practice was not known among the children of Adam before, nor did it even cross their minds, so they
+were unfamiliar with it before the people of Sodom invented it, and ʿAmr b. Dīnār commented on "as none
+preceding you has committed in all the nations": never before the people of Luṭ did a male have sex with
+another male [Ibn Kathīr]. **[Saʿdī]** reads the verse as the fourth story's opening: mention Our servant
+Luṭ, when We sent him to his people, commanding them to worship God alone and forbidding them the
+indecency that none of the worlds had preceded them in — "do you commit the indecency," the trait that
+reached such enormity and ugliness as to encompass the kinds of lewdness, "such as none of the worlds
+committed before you": its being an indecency among the most hideous of things, and their inventing it,
+originating it, and establishing it as a precedent for those after them, among the most hideous as well
+[Saʿdī]. **[Study Quran]** gives the setting: Lot (Lūṭ in Arabic) is the nephew of Abraham, and "his
+people" refers to the people of Sodom; Lot reportedly settled in Sodom but was unrelated to its native
+inhabitants; his full name is given as Lūṭ ibn Hārān ibn Āzar or Tirākh (Terah, the Biblical name of
+Abraham's father), and another report identifies him as Abraham's maternal cousin and as the brother of
+Abraham's wife Sarah; for other narrative accounts of Lot and his people, see 11:77–83, 15:57–77,
+26:160–73, 27:54–58, 29:28–35, 37:133–38 and 54:33–38, and the similar Biblical narrative in Genesis 19;
+Lot is said to have become a believer along with Abraham and to have travelled with him to Syria, but
+while Abraham went on to Palestine, Lot turned toward Jordan (Th); he is said to have been sent by God as
+a messenger to Sodom and the surrounding towns to call them to worship the One God and abandon their
+sinful and prodigal behaviour (IK, Ṭs); and the indecency for which Lot chastises his people is that of
+men coming with desire unto men instead of women, understood by the traditional commentators to refer to
+the practice of homosexuality (see 26:165–66; 27:55; 29:29) [Study Quran]. **[Maʿārif]** gives the
+biographical frame: Lot is the nephew of Abraham, the patriarch of prophets; the original homeland of
+both was known as Babel near Basrah in western Iraq, where idol-worship was common and even Abraham's
+family was involved in it; God sent Abraham as a prophet for their guidance, his people opposed him —
+culminating in the well-known fire of Nimrūd — and even his father threatened to turn him out of his
+home; out of his entire family only his wife Sarah and his nephew Lot embraced Islam — "and Lot believed
+in him" (29:26) — and it was with these two that he migrated to Syria, leaving his home country behind;
+after reaching the Jordan river Abraham settled in Canaan near Bayt al-Maqdis under a divine command;
+then God made Lot too a prophet and sent him to Sodom near Bayt al-Maqdis for the guidance of the people
+there — an area comprising five major cities, called Sodom, ʿAmurah, Admah, Sububim and Bāliʿ or Sawghar,
+whose nucleus the Qurʾān refers to as *al-muʾtafikāt* at several places; Sodom was considered the centre
+and capital, and it was there that Lot stayed; the land was fertile and verdant, abounding in all kinds
+of grains and fruits [Maʿārif]. **[Jalālayn]** reads it briefly: and mention Lot — *Lūṭan* being
+substituted by the following "when he said" — when he said to his people, "do you commit an abomination,"
+that is, penetrating the rears of men, "such as no one in all the worlds ever committed before you,"
+humans or jinn? [Jalālayn].
+
+**Rulings.** **[Qurṭubī]** records the legal discussion the verse opens: after the community's consensus
+on the prohibition of the act, the scholars differed on the punishment — Mālik's position being stoning
+whether the doer is married or not, and likewise for the one acted upon if adult, with another report
+from him distinguishing the married from the unmarried, and the school of ʿAṭāʾ and al-Nakhaʿī on the
+other side [Qurṭubī]. **[Ibn Kathīr]**'s note that the practice was unknown among the children of Adam
+before the people of Sodom gives the jurists' discussion its historical ground: the act is described in
+the Qurʾān as an innovation with no precedent [Ibn Kathīr].
+
+**Cross-references.** "Verily you come with desire unto men instead of women; indeed, you are a prodigal
+people" (7:81); "And Lot, when he said to his people, 'You commit an indecency which none of the worlds
+committed before you'" (29:28); "Do you come to the males of the worlds?" (26:165); "And his people came
+rushing to him" (11:78; cf. Genesis 19) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s collection of the parallel passages and the Biblical narrative gives
+the verse its place among the sūrah's punishment accounts: like the ʿĀd and the Thamūd, the people of
+Lot are presented as a community whose invention of a wrong becomes its own indictment — "no one in the
+worlds committed before you" is not a rhetorical flourish but the description of a people who set the
+precedent. **[Maʿārif]**'s portrait of the fertile land and the five cities places the verse's question
+in a settled and prosperous society, so that the indecency is named against the background of a land
+abounding in grains and fruits.
