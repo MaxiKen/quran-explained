@@ -2879,3 +2879,1376 @@ about the fact and wrong about the judgment, and in both cases their words becom
 advances what He intended.
 
 ---
+
+
+## 12:31
+
+*"So when she heard of their plotting, she sent for them and prepared for them a repast, and gave each one of
+them a knife. And she said, "Come out before them." Then when they saw him, they exalted him and cut their
+hands, and said, "God be praised! This is no human being — this is naught but a noble angel!""*
+
+**Meaning.** **[Ṭabarī]** When the wife of the ʿAzīz heard the plotting of the women who had said in the city
+what God reported of them, she sent to them. Their plotting was: al-Suddī said, "their saying"; Ibn Isḥāq
+said, "when the women made that public — their saying, ʿShe solicits her slave!ʾ — as a guile against her so
+that she would show them Yūsuf, for he was described to them for his beauty and handsomeness"; Qatādah said,
+"their talk." "And she prepared for them a repast": *aʿtadat* is *afʿalat* from *al-ʿitād*, which is the
+provision, and its meaning is she made ready for them; *muttakā* means a place for food and what one leans
+upon of cushions and pillows, and it is *muftaʿal* from oneʾs saying *ittakaʾtu*, so that "throw him a
+*muttakā*" means what one leans upon. The interpreters: Saʿīd said "food and drink and a reclining-place";
+al-Suddī "what they lean upon"; Ibn ʿAbbās "a sitting-place"; al-Ḥasan used to read *muttakaʾan* with
+lengthening and a final hamzah and say "it is the sitting-place and the food"; Ibn ʿAbbās read *mutkan*,
+lightened, and said it is the citron; al-Ḍaḥḥāk said *al-buzmāward*. Abū ʿUbaydah Maʿmar b. al-Muthannā
+said, "*al-muttakā* is the cushion one leans upon," and added, "some people claimed it is the citron — and
+this is the most void of void things on earth; but perhaps there was citron with the *muttakā* that they
+ate." Abū ʿUbayd al-Qāsim b. Sallām reported Abū ʿUbaydahʾs saying and then said, "the jurists are more
+knowledgeable of interpretation than he," and added that perhaps it is something that has passed out of the
+speech of the Arabs whose people have died out, since al-Kisāʾī used to say that much of the speech of the
+Arabs has gone, its people extinct. **[Ṭabarī]** then adjudicates: that the jurists are more knowledgeable of
+interpretation than Abū ʿUbaydah is, as Abū ʿUbayd said, beyond doubt; yet Abū ʿUbaydah was not far from the
+truth in this saying — rather the matter is as he said, in that whoever said *al-muttakā* is the citron only
+made clear what had been prepared in the sitting-place in which the *muttakā* was, and for which they were
+given the knives, because it is known that knives are not prepared for the *muttakā* except in order to shred
+it, and they were not given knives for that. And what makes clear the soundness of what we mentioned from Ibn
+ʿAbbās, that *al-muttakā* is the sitting-place, is what Mujāhid then reported from him: "she gave them
+citron, and gave each one of them a knife" — so Ibn ʿAbbās made clear what she gave the women and passed over
+explaining the meaning of *al-muttakā*, since its meaning was known. Further glosses: Mujāhid from Ibn ʿAbbās,
+"the citron"; ʿAṭiyyah, al-Ḥasan, Saʿīd b. Jubayr, Mujāhid, Qatādah, ʿIkrimah, Ibn Isḥāq and Ibn Zayd,
+"food"; al-Ḍaḥḥāk, "everything that is cut with a knife"; Ibn Zayd, "she gave them citron and honey, and they
+were cutting the citron with the knife and eating it with the honey." **[Ṭabarī]** draws the general
+hermeneutic: this word contains the proof of the soundness of what we said and chose. God reported her giving
+the women knives and omitted that for which she gave them the knives, since it is known that knives are only
+handed to someone invited to a sitting-place in order to cut what is eaten by cutting with them; so the
+hearerʾs understanding sufficed, by His mentioning her giving her companions the knives, in place of
+mentioning that for which she gave them. Likewise the mentioning of her preparing the *muttakā* sufficed in
+place of mentioning what the *muttakā* is prepared for — the foods, drinks, fruits and kinds of diversion
+present at sitting-places — because of the hearersʾ understanding of what is meant and of the indication of
+"she prepared for them a *muttakā*" to it. As for the *muttakā* itself, it is what we described alone, and
+nothing else. "And she said, come out before them": the wife of the ʿAzīz said to Yūsuf, come out before
+them, and Yūsuf came out. "When they saw him they exalted him": they magnified him and revered him — so
+Mujāhid and Qatādah. Ibn Isḥāq adds that their wits were overcome with wonder when they saw him, so they
+began cutting their hands with the knives that were with them, not comprehending anything of what they were
+doing. Others said they cut their hands until they severed them, without being aware: Mujāhid, through Ibn
+Abī Najīḥ, and Qatādah, through Maʿmar, both said "they cut their hands until they threw them away."
+**[Ṭabarī]**ʾs verdict: the sound thing to say is that God reported of them that they cut their hands while
+unaware, out of their magnification of Yūsuf; it is possible that it was a cutting with severance, and
+possible that it was a cutting of incision and scratching — and there is no saying more correct than
+submission to the outward text of the revelation. On the beauty of Yūsuf the reports multiply: ʿAbdullāh b.
+Masʿūd, through several sound chains, said "Yūsuf and his mother were given a third of beauty," and in one
+wording "a third of the beauty of creation"; Anas reports from the Prophet ﷺ, "Yūsuf and his mother were
+given half of beauty"; al-Ḥasan reports from the Prophet ﷺ, "Yūsuf and his mother were given a third of the
+beauty of the people of this world, and the people were given two thirds" — or he said, "Yūsuf and his mother
+were given two thirds, and the people a third"; Rabīʿah al-Jurashī, through Mujāhid, said, "beauty was
+divided in two, and Yūsuf and his mother Sārah were given half of beauty, and the other half among the rest
+of creation" — with one chain saying "Yūsuf and his mother" and another "Yūsuf and Sārah." On "they said,
+*ḥāsha lillāh*," the readers differed: the general reading of the Kūfans is *ḥāsha lillāh* with fatḥah on the
+*shīn* and deletion of the *yāʾ*; some of the Baṣrans read with the *yāʾ* retained, *ḥāshā lillāh*. And
+there are languages by which it is not read: *ḥāshā Llāh*, as the poet said, "Far be it from Abū Thawbān, for
+in him there is stinginess against blame and reviling"; and Ibn Masʿūd is reported to have read in this
+language, *ḥashā Allāha* and *ḥāsh Allāha* with sūkūn on the *shīn* and the alif, joining two quiescents. As
+for the reading, it is only by one of the first two languages: whoever read *ḥāsha lillāh* with fatḥah on the
+*shīn* and dropping of the *yāʾ* intended the language of those who say *ḥāshā lillāh* with the *yāʾ*, but he
+deleted the *yāʾ* because of its frequency on the tongues of the Arabs, as the Arabs deleted the alif from
+"no father for other than you" and "no father for your enemy," meaning "no father (abā)." And some of the
+people of knowledge of the speech of the Arabs held that *ḥāshā lillāh* has two places in speech: one,
+declaring far removed; the other, exception — and it is in this place, in our view, in the sense of declaring
+God far removed, as though it were said, "God forbid" (*maʿādh Allāh*); so Mujāhid, al-Ḥasan and Ibn Jurayj
+glossed it. **[Ṭabarī]**ʾs ruling: the reader has the choice to read with whichever of the two readings he
+wishes, *ḥāsha lillāh* or *ḥāshā lillāh*, because they are two well-known readings and two recognised
+languages with one meaning; and what is beyond them are languages by which it is not permitted to read,
+because we know of no reader who read with them. "This is no human being": they said this because they had
+not seen anyone among human beings in the beauty of his form, so they said, had he been of humankind he would
+have been like some of the human forms we have seen — but he is of the angels and not of humankind; Ibn Zayd
+said, "human beings are not like this!" And the general readers of the amṣār read *basharan* in the
+accusative. It is reported from Yaḥyā b. Ziyād al-Farrāʾ that Duʿāmah b. Rajāʾ al-Taymī reported from Abū
+al-Ḥuwayrith al-Ḥanafī that he read "this is not one to be bought" (*bi-shirā*) — meaning they denied that
+such a one could be enslaved, bought and sold. **[Ṭabarī]**: I do not permit myself to read with this
+reading, because of the consensus of the readers of the amṣār against it, and we have explained that what
+they have agreed upon may not be contradicted. As for the accusative of *al-bashar*, it is from the language
+of the people of the Ḥijāz, who, when they drop the *bāʾ* from the predicate, put it in the accusative,
+saying "ʿAmr is not standing (qāʾiman)"; as for the people of Najd, it is of their language to put it in the
+nominative, saying "ʿAmr is not standing (qāʾim)." And the Qurʾān came with the accusative in all of that,
+because it was revealed in the language of the people of the Ḥijāz. "This is but a noble angel": they said,
+this is but an angel of the angels — Qatādah. **[Qurṭubī]** On "and she said, come out before them": the *tāʾ*
+carries a ḍammah for the meeting of two quiescents, because kasrah is heavy when a ḍammah follows it; and the
+*tāʾ* was broken on the original principle. It is said that she told them, "do not cut and do not eat until I
+inform you," and then said to her servant, "when I say to you, ʿcall Īlā for me,ʾ then call Yūsuf" — and Īlā
+was an idol they used to worship, and Yūsuf was working in the clay, having tied his waist-wrapper and bared
+his forearms; so she said to the servant, "call Īlā for me," that is, call the Lord for me, Īl being "the
+Lord" in Hebrew *(Isrāʾīliyyāt)*. The women wondered and said, "How will he come?" So the servant went up and
+called Yūsuf, and when he came down she said to them, "Cut what is with you." "They cut their hands with the
+knives until the knives reached the bone," said Wahb b. Munabbih. Saʿīd b. Jubayr: he did not come out to
+them until she had adorned him, so he came out upon them suddenly, and they were dazed by him and bewildered
+by the beauty of his face and his adornment and what was upon him, so they began cutting their hands thinking
+that they were cutting the citron. On the meaning of "they exalted him" the reports differ: Juwaybir from
+al-Ḍaḥḥāk from Ibn ʿAbbās said they magnified him and feared him; and from him also that they emitted *manī*
+and *madhī* from daze, citing the poetʾs line, "when they see the stallion from atop a crag, they neigh and
+magnify the spurted semen." Ibn Samʿān reported from several of his companions that they said they emitted
+*madhī* out of love. Wahb b. Munabbih said they fell in love with him until ten of them died in that sitting
+from daze, bewilderment and passion for Yūsuf *(weak; Isrāʾīliyyāt)*. And it is said its meaning is that they
+menstruated from daze — said Qatādah, Muqātil and al-Suddī, citing the poet, "we come to women in their
+states of purity, and we do not come to women when they *akbarna*." Abū ʿUbaydah and others denied that,
+saying it is not in the speech of the Arabs, but that it is possible they menstruated from the intensity of
+their magnification of him, since a woman may be frightened and miscarry her child or menstruate. Al-Zajjāj
+said: one says *akbarnahu*, and one does not say *ḥiḍnahu*, so *ikbār* is not in the meaning of menstruation.
+Al-Azharī answered that *akbarat* in the meaning of "she menstruated" is permissible, because a woman when
+she menstruates for the first time passes out of the category of smallness into that of greatness; and the
+*hāʾ* in *akbarnahu* may be the *hāʾ* of pausing rather than the *hāʾ* of the pronoun — though this is
+discounted, because the *hāʾ* of pausing falls in connected speech. Better than it is the saying of Ibn
+al-Anbārī: the *hāʾ* is a pronoun standing for the verbal noun of the verb, that is *akbarna ikbāran* in the
+meaning of *ḥiḍna ḥayḍan*. And on Ibn ʿAbbāsʾs first saying, the *hāʾ* returns to Yūsuf: they magnified
+Yūsuf and revered him. On "they cut their hands": Mujāhid said they cut them until they threw them away; it
+is said they scratched them; and Ibn Abī Najīḥ reported from Mujāhid an incision with the knife — al-Naḥḥās
+explaining that Mujāhid means it is not a cutting by which the hand is severed, only a scratch and an
+incision, which is known in the language, since when a man scratches his companionʾs hand one says he cut his
+hand. ʿIkrimah said "their hands" means their sleeves, and in that there is remoteness. And it is said their
+fingertips, because they found no pain in the cutting and wounding on account of their hearts being occupied
+with Yūsuf. The intensive form indicates multiplicity, so the multiplicity may return to a single one who
+wounded her hand in several places, or to their number. "And they said *ḥāsha lillāh*" means *maʿādha Llāh*.
+Al-Aṣmaʿī reported from Nāfiʿ that he read as Abū ʿAmr b. al-ʿAlāʾ read, *wa-qulna ḥāshā lillāh* with the
+alif retained, and that is the original; whoever deleted it made the *lām* in *lillāh* a replacement for it.
+There are four languages: *ḥāshāka*, *ḥāshā laka*, *ḥāsha laka* and *ḥashā laka*; and one says *ḥāshā
+Zaydin* and *ḥāshā Zaydan*. Al-Naḥḥās said: I heard ʿAlī b. Sulaymān say, I heard Muḥammad b. Yazīd say, the
+accusative is more fitting, because it has been established that it is a verb, from their saying *ḥāsha
+li-Zayd*, and nothing is deleted from a particle — and al-Nābighah said, "and I do not except any of the
+peoples, anyone." And some said *ḥāsha* is a particle and *uḥāshī* a verb; what indicates that *ḥāshā* is a
+verb is the occurrence of a preposition after it. Abū Zayd reported from a Bedouin, "O God, forgive me and
+whoever hears — except the devil and Abū al-Aṣbagh," and he put it in the accusative by it. Al-Ḥasan read
+*wa-qulna ḥāsh lillāh* with sūkūn on the *shīn*, and from him also *ḥāsha al-ilāh*; Ibn Masʿūd and Ubayy read
+*ḥāsha Llāh* without *lām*. Al-Zajjāj said the root of the word is from *ḥāshiyah*, and *ḥashā* in the
+meaning of side: you say, "I was in so-and-soʾs *ḥashā*," that is, in his side; so your saying *ḥāshā
+li-Zayd* means Zayd withdrew from this and kept away from it, and exception is removal and setting apart from
+the totality of those mentioned. Abū ʿAlī said it is a subject from *al-muḥāshāh*, that is, Yūsuf withdrew
+and came into a side and a direction, away from what he was accused of, or away from being a human being; and
+*ḥāshā* and *ḥāsha* in exception are a preposition according to Sībawayh, and a verb according to al-Mubarrid
+and Abū ʿAlī. On "this is no human being": al-Khalīl and Sībawayh held *mā* to be in the position of *laysa* —
+you say "Zayd is not standing (qāʾiman)" — while the Kūfans said that when the *bāʾ* is deleted it is put in
+the accusative. Aḥmad b. Yaḥyā explained, from al-Farrāʾ, that when you say "Zayd is not departing
+(*bi-munṭaliq*)" the place of the *bāʾ* is a place of accusative, and so with the rest of the particles of
+lowering; so when the *bāʾ* is deleted it is put in the accusative to indicate its place — and al-Farrāʾ held
+that *mā* governs nothing, whereupon the Basrans pressed them to say "Zayd is the moon" on the same
+reasoning, since the meaning is "like the moon"; Aḥmad b. Yaḥyā replied that the *bāʾ* is more deeply among
+the particles of lowering than the *kāf*, because the *kāf* can be a noun. Al-Naḥḥās said only the saying of
+the Basrans is sound, and that this saying contradicts itself, because al-Farrāʾ permits the accusative
+explicitly in "not departing is Zayd," citing the poetʾs line, "By God, had I been a free man … and by a free
+man you are not, nor the manumitted," and forbids the accusative explicitly, though we know of no
+disagreement among the grammarians that "not desiring you is Zayd" and "not intending you is ʿAmr" are
+permitted, and then they delete the *bāʾ* and put it in the nominative. The Basrans and the Kūfans both
+report "Zayd is not departing" with the nominative; the Basrans report that it is the language of Tamīm,
+citing "Do you make Taym a rival to me, when Taym is no rival to one of noble lineage?" — *al-nidd*,
+*al-nadīd* and *al-nadīdah* being the like and the equal; and al-Kisāʾī reported that it is the language of
+Tihāmah and Najd. Al-Farrāʾ claimed the nominative is the stronger of the two positions, and Abū Isḥāq said
+this is a mistake: the Book of God and the language of His Messenger ﷺ are stronger and more fitting.
+**[Qurṭubī]** adds that in the codex of Ḥafṣah it is "this is not a human being" (*bi-bashar*). Abū Naṣr
+al-Qushayrī noted that the women said Yūsufʾs form is more beautiful than the form of human beings — rather he
+is in the form of an angel — while God has said, "We created man in the best of statures" (95:4); and the
+reconciliation between the two verses is that their saying "*ḥāsha lillāh*" is an acquittal of Yūsuf from
+what the wife of the ʿAzīz accused him of in the solicitation — Yūsuf is far from this — and their saying
+"for God" means out of fear of Him, that is, acquittal for Godʾs sake from this, so Yūsuf has escaped from
+that; on this reading nothing in it concerns form, and the meaning is that in being acquitted of sins he is
+like the angels, and so there is no contradiction. And it is said that what is meant is declaring him far
+removed from resembling human beings in form, because of the excess of his beauty, and that their saying "for
+God" confirms this meaning — on which the women said what they said in the supposition that the form of an
+angel is more beautiful, the saying of God "We created man in the best of statures" not having reached them,
+since it is from our Book. And some weak people have supposed that if this saying of theirs were a false
+supposition, God would be obliged to refute it upon them and expose their lie; this is void, since there is
+no obligation upon God the Exalted, and not everything God reports of the disbelief of disbelievers and the
+lying of liars must He couple with a refutation of it. Moreover, people of custom may say of an ugly thing
+"as though it were a devil" and of a beautiful thing "as though it were an angel," meaning that its like has
+not been seen, because people do not see the angels; so it is built either on a supposition that the form of
+an angel is more beautiful, or on a report of the purity of his character and his remoteness from suspicion.
+"This is but an angel" means this is but an angel, as the poet said, "You are not a human, but an angel
+descending from the expanse of the sky, pouring down." Al-Kisāʾī noted that *malak* originally is *maʾlak*
+with the hamzah first, from *al-alūkah*, which is the message; then it was transposed and the *lām* advanced,
+so it was said *malāk*; then its hamzah was dropped through frequent use, so it was said *malak*; and when
+they made it plural they restored it, saying *malāʾikah* and *malāʾik*. It is related from al-Ḥasan that he
+read "this is not a purchase" (*bi-shirā*), with kasrah on the *bāʾ* and the *shīn*, meaning this is not a
+purchased slave — such a one does not deserve to be sold — putting the verbal noun in the place of the
+passive participle, as in "the game of the sea is lawful for you" (5:96), meaning what is caught of it; and
+it is possible the meaning is "this is not at a price," that is, his like is not priced or valued, so *shirāʾ*
+on this is the price by which it is bought, as when you say "this is not at a thousand" in denial of one who
+says "this is at a thousand." And the reading of the general public is more fitting, because after it comes
+"this is but a noble angel," an intensive in preferring him within the genus of angels in magnification of
+his station, and because the like of *bi-shirā* would be written in the codex with a *yāʾ*. **[Ibn Kathīr]**
+When she heard of their accusation, especially their statement "indeed she loves him violently," she sent for
+them and invited them to her house. Ibn ʿAbbās, Saʿīd b. Jubayr, Mujāhid, al-Ḥasan, al-Suddī and several
+others commented that she prepared a sitting-room which had couches, pillows to recline on, and food that
+requires knives to cut, such as citron — which is why God said next, "and she gave each one of them a knife,"
+as part of her plan of revenge for their plot to see Yūsuf. Muḥammad b. Isḥāq commented that they had heard
+of Yūsufʾs beauty and wanted to see him, so they said these words in order to get a look at him. Then, when
+he went out and they saw him, they exalted him: they thought highly of him and were astonished at what they
+saw, and they started cutting their hands in amazement at his beauty while thinking that they were cutting
+the citron with their knives, and so injured their hands with the knives they were holding. Others said that
+after they ate and felt comfortable, and after citron had been placed in front of them and each given a
+knife, the wife of the ʿAzīz asked them, "Would you like to see Yūsuf?" They said, "Yes." So she sent for him
+to come in front of them, and when they saw him they started cutting their hands; she ordered him to keep
+coming and going, so that they saw him from all sides, and he went back in while they were still cutting
+their hands. When they felt the pain they began screaming, and she said to them, "You did all this from one
+look at him — so how can I be blamed?" They said to her, "We do not blame you anymore after the sight that we
+saw." They had never seen anyone like Yūsuf before, for he was given half of all beauty: an authentic ḥadīth
+states that the Messenger of God ﷺ passed by the prophet Yūsuf during the Night of Isrāʾ in the third heaven
+and remarked, "He was given a half of all beauty." Mujāhid and others said their words meant "we seek refuge
+in God." **[Jalālayn]** And when she heard of their machinations, their backbiting of her, she sent for them
+and prepared for them a repast — *muttakaʾ* being food that requires cutting with a knife, since one leans
+upon it (*ittikāʾ*); this repast was citron. She then gave each one of them a knife and said to Joseph, "Come
+out before them!" And when they saw him they were in awe of him, they exalted him, and cut their hands with
+the knives without feeling any pain, because their hearts were so engrossed by Joseph; and they exclaimed,
+"God preserve us!" — in exaltation of him — "This," namely Joseph, "is no human being; this is but a noble
+angel!" on account of his all-encompassing beauty, which is a characteristic not usually found among
+humankind. In the Ṣaḥīḥ of al-Bukhārī it is reported that one half of all beauty was given to him.
+**[Saʿdī]** That saying of theirs was a guile: the purpose was not merely blaming her and impugning her;
+rather they wanted to reach, by this speech, the seeing of Yūsuf, with whom the wife of the ʿAzīz was
+infatuated, so that the wife of the ʿAzīz would be provoked and show him to them in order that they might
+excuse her — which is why it was called a guile. So He said, "When she heard of their guile she sent to
+them," inviting them to her house for hospitality, "and prepared for them a *muttakā*" — a place prepared
+with kinds of bedding and cushions and the tasty foods intended by that; and among what she brought and
+presented at that hospitality was food requiring a knife, either citron or something else. "And she gave each
+one of them a knife," in order to cut that food with, "and said" to Yūsuf, "come out upon them," in the state
+of his beauty and splendour. "When they saw him they exalted him" — they magnified him in their breasts and
+saw a surpassing sight whose like they had not witnessed — "and cut, out of daze, their hands," with those
+knives that were with them, "and said *ḥāsha lillāh*" — declaring God far removed — "this is no human being;
+this is but a noble angel." That is because Yūsuf was given surpassing beauty, light and splendour, by which
+he was a sign for those who look and a lesson for those who reflect. **[Maʿārif]** Here Zulaykhā refers to the
+talking of the women as their *makr* or craftiness, though they had obviously planned no trick against her;
+but since they spoke ill about her secretly, it was identified as *makr*. As for the expression "and she
+prepared for them a *muttakā*," translated as "and arranged for them a comfortable place," it is inclusive of
+the comfort of special pillows for hand and back rest placed there for relaxation. Then it was said, "and she
+gave every one of them a knife": when these women came in and sat down, different foods and fruits were
+served, some of which needed a knife to peel and cut; therefore given to each one of them was a sharp knife.
+The obvious purpose of this was to cut fruit, but concealed in her heart was what comes next — that these
+women would lose their senses at the sight of Yūsuf and would go on to cut their hands with the knife. After
+making all these arrangements, she said to Yūsuf, who was in some other quarter of the house, "come in before
+them"; since Yūsuf was not aware of her vain intention, he came out into this sitting. That which happened
+then has been described: when they saw him they found him great and were so bewildered that they cut their
+hands — when cutting their fruit they saw this object of wonder, and the knife unconsciously ran over their
+hand, as it occasionally happens when oneʾs thought is diverted to something else — and said, "Oh God! He is
+no human being; he is but a noble angel," by which they meant that one exuding such light can only be an
+angel. **[Study Quran]** The talk among the wives of the notables of Egypt concerning Zulaykhā and Joseph is
+referred to as plotting because it was carried out in secret **[al-Kalbī]** and was therefore tantamount to
+gossip. Al-Rāzī observes that the womenʾs talk here is called plotting because they themselves wanted to look
+upon Joseph and knew that their gossip would force Zulaykhā to let them do so in order to exonerate herself
+of any blame. It is said that Zulaykhā invited forty women in total, five of whom were involved in the
+gossip. They sat together, and she gave each of them some citrons and a knife and told them to cut the fruit,
+inviting Joseph into the room at the same time **[al-Qummī]**. When they saw Joseph, "the rays of his beauty
+illuminated their interior temples" **[al-Meybodī]**, and they cut their hands instead of the fruit, as they
+fell into a state of utter bewilderment and lost the ordinary consciousness of themselves. Here "God be
+praised!" is meant as an expression of amazement over Godʾs creative Power, in this case over His creating
+the likes of Joseph **[al-Kalbī]**. By likening Joseph to a noble angel the women sought to express their
+utter amazement at his unparalleled, celestial beauty; it was also their way of acknowledging that Joseph did
+not commit any act of lewdness with Zulaykhā, since they saw in him his inner purity — their vision of him
+made it clear to them that he was, like an angel, untainted by the normal passions that characterise the
+human condition **[al-Rāzī]**.
+
+**Ḥadīth & āthār.** The Night Journey report that Yūsuf was given half of all beauty **[Ibn Kathīr]
+[Jalālayn]**, and the competing apportionments recorded by **[Ṭabarī]**: a third for Yūsuf and his mother
+(Ibn Masʿūd), half for them (Anas, from the Prophet ﷺ), a third or two thirds of the worldʾs beauty
+(al-Ḥasan, from the Prophet ﷺ), and beauty divided in two with half to Yūsuf and his mother Sārah and half to
+the rest of creation (Rabīʿah al-Jurashī through Mujāhid).
+
+**Readings.** *Muttekā* (the general reading) against *mutkan* lightened (Ibn ʿAbbās, meaning citron) and
+*muttakaʾan* lengthened with hamzah (al-Ḥasan); *ḥāsha lillāh* (Kūfah) against *ḥāshā lillāh* (some of
+Baṣrah), with *ḥāshā Llāh* and *ḥashā Allāha* recorded as languages not read with, and Ibn Masʿūd and Ubayy
+reading *ḥāsha Llāh* without *lām*; *basharan* accusative (the amṣār) against *bi-shirā* (Abū al-Ḥuwayrith
+al-Ḥanafī, rejected by **[Ṭabarī]**) and *bi-bashar* (the codex of Ḥafṣah); al-Ḥasanʾs "this is not a
+purchase."
+
+**Language.** The *muttakā* debate is the philological centre of the verse — Abū ʿUbaydahʾs "the most void of
+void things on earth," Abū ʿUbaydʾs "the jurists are more knowledgeable of interpretation than he," and
+**[Ṭabarī]**ʾs resolution that the knife itself proves the citron. *Akbara* is contested between
+magnification, emission and menstruation, with al-Zajjāj, al-Azharī and Ibn al-Anbārī each answering;
+**[Qurṭubī]** flags the menstruation gloss as weak and its witness-verse as fabricated. *Ḥāshā* is a
+preposition for Sībawayh and a verb for al-Mubarrid and Abū ʿAlī; *malak* derives from *maʾlak* from
+*al-alūkah*, "the message" (al-Kisāʾī).
+
+**Cross-references.** 3:173 ("those to whom the people said"); 95:4 ("the best of statures"); 5:96 ("the game
+of the sea"); 96:15–16; 4:72; 12:30 (the talk this answers); 12:32 (the confession it prompts).
+
+**Reflection.** The verse is a trap set by a woman who has been exposed, and it springs on everyone in the
+room — including the man who walks into it without knowing. **[Maʿārif]**ʾs observation is the key to the
+scene: the knives had an obvious purpose and a concealed one, and Yūsuf, unaware of her intention, simply
+obeyed. What follows is a mass loss of composure so complete that **[Ṭabarī]** will not say whether the hands
+were severed or merely scratched, preferring "submission to the outward text." And the theological wrangle
+**[Qurṭubī]** records about "this is no human being" is more serious than it looks: if the women were wrong to
+think an angel more beautiful than a man, why does God not correct them? His answer — that there is no
+obligation upon God, and that He does not append a refutation to every lie He reports — is a rule for reading
+the whole Qurʾān. The second answer is gentler and better: their sentence was not a claim about anatomy but
+an acquittal. "God forbid" was them clearing Yūsuf of the charge, having seen in him what **[al-Rāzī]** calls
+an inner purity untainted by ordinary passion. The crowd that came to mock left as witnesses for the defence.
+
+---
+
+## 12:32
+
+*"She said, "This is he on whose account you blamed me. I did seek to seduce him from himself, and he held
+himself chaste. And if he does not do what I command him, he shall surely be imprisoned and shall be of those
+brought low.""*
+
+**Meaning.** **[Ṭabarī]** The wife of the ʿAzīz said to the women who had cut their hands: this — what befell
+you in your seeing of him, and in a glance of yours at him, of loss of reason and departure of understanding,
+so dazed that you cut your hands — is the one you blamed me for in my love of him and his smiting my heart
+with love, so that you said, "He has smitten the wife of the ʿAzīz with love for her young man; we see her in
+manifest error." Then she confessed to them that she had sought him for himself, and that what they had been
+talking about concerning her and his affair was true: "and I sought him for himself, and he held himself
+chaste" from what I solicited him for. The glosses: al-Suddī reported her as saying, "after he had loosened
+the trousers he held himself chaste — I do not know what came over him" *(Isrāʾīliyyāt)*; Qatādah said
+"*fāstaʿṣama* means he abstained"; Ibn ʿAbbās said "he refused." "And if he does not do what I command him,
+he shall surely be imprisoned": if he does not comply with me in what I call him to, of my need of him, he
+shall be confined, and he shall be of the people of abasement and humiliation by confinement and prison, and
+I shall humiliate him. **[Ṭabarī]** adds the rule for pausing: one pauses on "he shall surely be imprisoned"
+with the *nūn*, because it is heavyened, as in "he will surely hang back" (4:72); and one pauses on "and he
+shall be" (*wa-la-yakūnan*) with the alif, because it is the light *nūn*, which resembles the *nūn* of
+declension in names in the saying of one who says "I saw a man with you" — for when one pauses on "the man"
+one says "I saw a man (rajulan)," and the *nūn* becomes an alif. So likewise in "and he shall be"; and the
+like of it is "We shall surely seize him by the forelock" (96:15), where the pause is with the alif for the
+reason mentioned; and al-Aʿshāʾʾs line, "And pray at the times of the evenings and the forenoon, and do not
+worship the devil, and God worship" — it is only "worship (faʿbudan)," but when one pauses on it the pause is
+with the alif. **[Qurṭubī]** When she saw their infatuation with Yūsuf she made her own excuse plain by her
+saying "you blamed me in it," that is, in his love; and *dhālika* is in the meaning of *hādhā*, which is
+al-Ṭabarīʾs preference. And it is said the *hāʾ* is for love and *dhālikum* is on its usual sense, the
+meaning being "that love for which you blamed me," that is, the love of this one. Blame is describing with
+what is ugly. Then she confessed and said, "and I sought him for himself and he held himself chaste" — he
+abstained; and *ʿiṣmah* is called *ʿiṣmah* because it prevents one from committing disobedience. And it is
+said *istaʿṣama* means *istaʿṣā*, and the meaning is one. "And if he does not do what I command him he shall
+surely be imprisoned": she renewed the solicitation in their presence, tore the veil of shyness, and promised
+prison if he did not do it — and she only did this once she no longer feared blame or talk, unlike at the
+beginning of her affair, when it was between him and her. "And he shall be of those brought low," that is,
+the abased. The script of the codex is *wa-la-yakūnan* with an alif, and it is read with a lightened *nūn* of
+emphasis; the *nūn* of emphasis is heavyened and lightened, and pausing on "he shall surely be imprisoned" is
+with the *nūn* because it is heavyened, and on "he shall be" with the alif because it is lightened, and it
+resembles the *nūn* of declension in your saying "I saw a man and Zayd." **[Ibn Kathīr]** She said these
+words to them so that they would excuse her behaviour, for a man who looks this beautiful and perfect is
+worthy of being loved, she thought. She said, "and I did seek to seduce him, but he refused to obey me." Some
+scholars said that when the women saw Yūsufʾs beauty she told them about his inner beauty, of which they had
+no knowledge — that he was chaste, and beautiful inside and out. Then she threatened him: "and now if he
+refuses to obey my order, he shall certainly be cast into prison, and will be one of those who are
+disgraced." **[Jalālayn]** She — the wife of the Court Officer — said, when she saw what happened to them,
+"This is he on whose account, for the love of whom, you blamed me" — *alladhī lumtunnanī fīhi* being an
+explication of her excuse. "Indeed I did attempt to seduce him, but he withheld himself," he refused. "Yet if
+he does not do what I bid him, he verily shall be imprisoned and verily shall be of those brought low," those
+abased. The women said to him, "Obey your mistress!" **[Saʿdī]** When Yūsufʾs outward beauty had been
+established among them and pleased them to the utmost, and much of their excusing of the wife of the ʿAzīz
+had appeared, she wanted to show them his inward beauty by complete chastity. So she said, declaring that and
+making plain her intense love for him, unheeding — because the blame of the women had been cut off from her —
+"and I sought him for himself and he held himself chaste," that is, he abstained; and she was persisting in
+her solicitation of him, the passing of time only increasing her in love, longing, anxiety for union with him
+and yearning. That is why she said to him in their presence, "and if he does not do what I command him, he
+shall certainly be imprisoned and shall be of those brought low," in order to compel him by this threat to
+obtain her purpose from him. **[Maʿārif]** When Zulaykhā realised that her secret lay disclosed before those
+women anyway, she started threatening Yūsuf right before them. At that time, according to some commentators,
+all these women too started telling Yūsuf that Zulaykhā was their benefactor, and therefore he should not
+oppose her. **[Study Quran]** Zulaykhāʾs statement "This is the one on whose account you blamed me" suggests
+that, since the women could not even withstand the sight of Joseph for one moment without losing their
+senses, she could not be blamed for what she did, as he was in her presence night and day **[al-Ṭabrisī]**.
+In so doing she admitted her "fault" and Josephʾs innocence. "If he does not do as I command" refers to her
+original command to Joseph to lie with her; see 12:23.
+
+**Language.** *Dhālika* for *hādhā* **[Ṭabarī] [Qurṭubī]**; *istaʿṣama* = *istaʿṣā* = *imtanaʿa*; the
+derivation of *ʿiṣmah* from prevention; the pause-rules for the heavyened and lightened *nūn* of emphasis,
+with 4:72, 96:15 and al-Aʿshāʾ as witnesses; and the codex spelling *wa-la-yakūnan* with alif
+**[Qurṭubī]**.
+
+**Cross-references.** 4:72; 96:15–16; 12:23 (the original command); 12:30 (the blame she is answering);
+12:33 (the womenʾs support for her ultimatum).
+
+**Reflection.** Between 12:31 and 12:32 something decisive happens: the accusation turns into a confession.
+She had begun the scene intending to shift the blame; instead, in front of a room full of women, she says "I
+did seek to seduce him, and he held himself chaste." **[Saʿdī]** reads this as a deliberate second
+exhibition — having shown them his outward beauty, she now shows them his inward beauty by complete chastity
+— and **[Ibn Kathīr]** reports the same from "some scholars." But the confession is not a conversion. In the
+same breath she renews the threat, and **[Qurṭubī]** notes precisely what has changed: she tore the veil of
+shyness, because she no longer feared blame. Shame had been the only thing restraining her, and the banquet
+removed it. The verse therefore records the moment a private failing becomes a public policy — and
+**[Maʿārif]**ʾs note that the other women then joined in urging Yūsuf to comply shows that the pressure he
+faces at 12:33 is no longer one womanʾs but a whole roomʾs.
+
+---
+
+
+## 12:33
+
+*"He said, "My Lord, prison is dearer to me than that to which they call me. And if You do not turn their
+scheming away from me, I shall incline towards them and be of the ignorant.""*
+
+**Meaning.** **[Ṭabarī]** This report from God indicates that the wife of the ʿAzīz had renewed her
+solicitation of Yūsuf for himself and had threatened him with prison and confinement if he did not do what
+she called him to, so that he chose prison over what she called him to; for had she not renewed it and
+threatened him with that, it would have been impossible for him to say "my Lord, prison is dearer to me than
+that to which they call me" when he was not being called to anything and not being frightened with
+confinement. *Al-sijn* is confinement itself, and it is the house of confinement. All the readers of the
+amṣār read it with kasrah on the *sīn*. The Arabs place the nouns of place derived from verbs in the position
+of verbal nouns, saying "the sun rose a rising (*maṭlaʿan*) and set a setting (*maghriban*)," making them,
+though they are nouns, replacements for the verbal nouns; so likewise *al-sijn*: if you open the *sīn* of
+*al-sajn* it is a sound verbal noun. And it is mentioned from some of the ancients that he read it "the
+imprisoning (*al-sajn*) is dearer to me" with fatḥah on the *sīn* — and I do not permit reading with that,
+because of the consensus of the authoritative readers against it. The interpretation of the speech: Yūsuf
+said, O my Lord, confinement in prison is dearer to me than what they call me to of disobedience to You and
+of the indecency with which they solicit me. So al-Suddī said, "of fornication"; and Ibn Isḥāq said, "Yūsuf
+said, and he attributed it to his Lord and sought help from Him against what had befallen him: prison is
+dearer to me than that I should do what You dislike." "And if You do not turn their guile away from me, I
+shall incline towards them": if You do not repel from me, my Lord, their action which they do to me in
+soliciting me for themselves, I shall incline to them and follow them in what they want from me and desire —
+from oneʾs saying "so-and-so inclined (*ṣabā*) to such a thing," as the poet Yazīd b. Ḍubbah al-Thaqafī
+said, "To Hind my heart inclined, and the like of her makes one incline." The glosses: Qatādah, "I shall
+follow them"; Ibn Isḥāq, "what I fear from them"; Ibn Zayd, "unless from You there is aid and protection,
+there is none from me nor with me." "And I shall be of the ignorant": I shall be, by my inclination to them,
+of those who were ignorant of Your right and opposed Your command and Your prohibition — as Ibn Isḥāq said,
+"ignorant when I commit disobedience to You." **[Qurṭubī]** "Prison is dearer to me" means entering prison,
+so the annexed noun is deleted — said al-Zajjāj and al-Naḥḥās. "Dearer to me" means easier upon me and
+lighter than falling into disobedience, not that entering prison is a thing loved in truth. And it is related
+that when Yūsuf said "prison is dearer to me," God revealed to him, "O Yūsuf, you imprisoned yourself when
+you said ʿprison is dearer to meʾ; had you said ʿwell-being is dearer to me,ʾ you would have been granted
+well-being." Abū Ḥātim related that ʿUthmān b. ʿAffān read "the imprisonment (*al-sajn*) is dearer to me"
+with fatḥah on the *sīn*, and it is related that this is the reading of Ibn Abī Isḥāq, ʿAbd al-Raḥmān
+al-Aʿraj and Yaʿqūb; it is the verbal noun of *sajanahu sajnan*. "And if You do not turn their guile away
+from me" — that is, the guile of the women. And it is said the guile of the women who saw him, for they
+commanded him to comply with the wife of the ʿAzīz and said to him, "she is wronged, and you have wronged
+her." And it is said that each of them sought to be alone with him for counsel concerning the wife of the
+ʿAzīz, intending by that to reproach him on her behalf and to command him to assist her, so that perhaps he
+would comply; so each of them became alone with him separately and said to him, "O Yūsuf, fulfil my need for
+me, for I am better for you than your mistress," each of them calling him to herself and soliciting him; and
+he said, "O my Lord, she was one, and they have become a group." And it is said it is the guile of the wife
+of the ʿAzīz in what she called him to of indecency, and he used the plural address for it either to magnify
+her station in the address, or to turn from the explicit to the implicit. *Kayd* is contriving and exertion,
+and for this reason war is called *kayd*, because of peopleʾs contriving in it, as ʿUmar b. Lajaʾ said, "Umm
+Bishr appeared in order to plot against you, and plotting by adornment is what she plots." "I shall incline
+towards them" is the answer of the condition, that is, I shall incline to them, from *ṣabā yaṣbū* when one
+inclines and longs, *ṣabwan* and *ṣabwah*, as the poet said, "To Hind my heart inclined, and the like of her
+makes one incline" — that is, if You are not gentle with me in avoiding disobedience, I shall fall into it.
+"And I shall be of the ignorant" — of those who commit sin and deserve blame, or of those who do the deed of
+the ignorant. This indicates that no one is preserved from disobedience to God except by Godʾs aid, and it
+also indicates the ugliness of ignorance and the blameworthiness of its possessor. **[Ibn Kathīr]** This is
+when the prophet Yūsuf sought refuge with God from their evil and wicked plots. Yūsuf invoked God: if You
+abandon me and I am reliant on myself, then I have no power over myself, nor can I bring harm or benefit to
+myself, except with Your power and will. Verily, You are sought for each and everything, and our total
+reliance is on You alone for each and everything. Please do not abandon me and leave me to rely on myself,
+for then "I will feel inclined towards them and be one of the ignorant." **[Jalālayn]** He said, "My Lord,
+prison is dearer to me than that to which they are urging me. And if You do not fend off their wiles from me,
+then I shall tend, I shall incline, towards them and become of the ignorant," the sinful — this being intended
+as a supplication, which is why God, exalted be He, then says … **[Saʿdī]** At that Yūsuf took refuge with
+his Lord and sought His aid against their guile, and said, "My Lord, prison is dearer to me than that to
+which they call me." This shows that the women began advising Yūsuf to comply with his mistress and began
+plotting against him in that, so he preferred prison and worldly punishment over a present pleasure that
+entails severe punishment. "And if You do not turn their guile away from me, I shall incline towards them" —
+I shall incline — "for I am weak and incapable; if You do not repel evil from me I shall incline to them, and
+I shall be of the ignorant." For this is ignorance, because it prefers a little, troubled pleasure over
+successive pleasures and varied delights in the gardens of bliss; and whoever prefers this over that — who is
+more ignorant than he? For knowledge and intellect call one to give precedence to the greater of two benefits
+and the greater of two pleasures, and to prefer what is praiseworthy in its outcome. **[Maʿārif]** Some words
+of the Qurʾān which appear later also support this — for example "that to which they (plural) call me" and
+"their guile," where the statement of several women has been mentioned in the plural form. When Yūsuf saw
+that these women were also supporting Zulaykhā and there remained no other visible way to stay safe against
+their guile, he turned to his ultimate resort, to God, and before Him he said what is recorded in this verse.
+Here the statement that "the prison is dearer to me" does not reflect any desire or wish to be detained in a
+prison; instead it is an expression showing that he would find it easier to face this temporal hardship as
+compared to that of falling into sin. According to some narrations, when Yūsuf was confined to the prison a
+revelation from God told him: you have put yourself into the prison by what you yourself had said, "the
+prison is dearer to me," and had you asked for well-being (*ʿāfiyah*) you would have been blessed with
+perfect well-being. From here we come to know that, to stay safe from a major hardship, saying in prayer that
+one would rather be subjected to some minor hardship in lieu of it is not appropriate; instead, when under
+the threat of any hardship, problem or distress, one should pray to God for nothing but *ʿāfiyah*. Therefore
+the Prophet ﷺ prohibited a man from praying for *ṣabr*, saying that *ṣabr* is exercised when one faces
+distress and hardship; so rather than praying to God for *ṣabr*, pray for *ʿāfiyah* **[al-Tirmidhī]**. The
+uncle of the Prophet ﷺ, al-ʿAbbās, asked him, "Teach me a prayer I should make." He said, "Pray for *ʿāfiyah*
+from your Lord." Al-ʿAbbās says that when, after a period of time, he once again asked him to be advised of
+some supplication he should be making, he said, "Pray to God for *ʿāfiyah* in this world and the hereafter"
+**[Maẓharī, from al-Ṭabarānī]**. As for Yūsufʾs saying, "and unless You turn their guile away from me I shall
+get inclined towards them," this is not contrary to the concept of the *ʿiṣmah* of prophethood — a prophetʾs
+state of being divinely protected from sin — because the very outcome of *ʿiṣmah* is that God would, by
+arranging to keep a person safe from sin as a creational imperative, protect him from falling into it. Though
+Yūsuf had this desired cover by virtue of his being a prophet, he was compelled to make this supplication
+because of the great awe he had for God in his heart. This also tells us that no one can, without the help
+and support of God, stay safe from sin; and it makes clear that every act of sin is caused by ignorance
+(*jahālah*), the opposite of which is knowledge (*ʿilm*), and knowledge demands abstention from sins
+**[Qurṭubī]**. **[Study Quran]** It is said that when the women heard Zulaykhāʾs ultimatum to Joseph, they
+supported her, telling him that he had no choice but to obey her command, lest he be thrown into prison
+**[al-Rāzī]**. Josephʾs preference for prison over what the women were inciting him to do means that he
+preferred the next life over the fleeting pleasures of this life: succumbing to the womenʾs suggestion would
+entail pleasure in this life but punishment in the next, whereas entering prison would entail discomfort in
+this life but great felicity in the next, as he was forsaking a human love that was real but illicit for the
+Love of God **[al-Rāzī]**. Joseph turned to God in humility **[al-Kalbī]** and asked for His Assistance, since
+he knew that he could only be saved from his plight by God, not as a result of his own efforts
+**[al-Qushayrī]**.
+
+**Ḥadīth & āthār.** The prohibition of praying for *ṣabr* and the command to pray for *ʿāfiyah* instead
+**[al-Tirmidhī]**; al-ʿAbbāsʾs two requests for a supplication and the same answer both times **[Maẓharī, from
+al-Ṭabarānī]**; and the revelation to Yūsuf, "you imprisoned yourself when you said ʿprison is dearer to
+meʾ," reported by **[Qurṭubī]** and **[Maʿārif]**.
+
+**Belief.** **[Maʿārif]**ʾs treatment of *ʿiṣmah* is the doctrinal core of the verse: the supplication does
+not imply that Yūsuf was unprotected, since protection is precisely Godʾs arranging that a person cannot fall
+into sin; but the protected still supplicate, out of awe, and because no one is safe without Godʾs help.
+**[Qurṭubī]** draws the same inference from the verse itself — "this indicates that no one is preserved from
+disobedience to God except by Godʾs aid" — and adds that it shows the ugliness of ignorance and the
+blameworthiness of its possessor. **[Saʿdī]** supplies the rational form of the same argument: preferring a
+small troubled pleasure to lasting pleasures in the gardens of bliss is the definition of ignorance, since
+knowledge and intellect always call one to the greater of two benefits.
+
+**Readings.** *Al-sijn* with kasrah (the amṣār, and **[Ṭabarī]**ʾs binding position) against *al-sajn* with
+fatḥah, reported from some of the ancients, from ʿUthmān b. ʿAffān (Abū Ḥātim), from Ibn Abī Isḥāq, ʿAbd
+al-Raḥmān al-Aʿraj and Yaʿqūb **[Qurṭubī]**.
+
+**Reflection.** Yūsuf chooses the worse of two evils and immediately disclaims the choice: "if You do not
+turn their scheming away from me, I shall incline towards them." The two halves of the verse must be held
+together, and the tradition holds them. The first half is not self-confidence but a ranking — prison over
+sin; the second half is the confession that even the ranking will not hold without help. The report
+**[Qurṭubī]** and **[Maʿārif]** both preserve, that God answered "you imprisoned yourself when you said
+ʿprison is dearer to meʾ; had you said ʿwell-being is dearer to meʾ you would have been granted
+well-being," is not a rebuke of his piety but a lesson in the etiquette of asking: name the good you want,
+not the hardship you will accept. That is why the Prophet ﷺ redirected the man who prayed for patience to
+pray instead for *ʿāfiyah*, and why al-ʿAbbās was given the same answer twice. **[Ibn Kathīr]** sets the cost
+beside the choice — a young, beautiful man in his prime, a beautiful, wealthy, high-ranking mistress calling
+him, and nothing in the way but the fear of God — and concludes that this is the best and most perfect grade
+a person can reach in such a case. The ḥadīth of the seven whom God shades places him among them.
+
+---
+
+## 12:34
+
+*"So his Lord answered him and turned their scheming away from him. Truly He is the Hearing, the Knowing."*
+
+**Meaning.** **[Ṭabarī]** If someone says: what is the sense of "so his Lord answered him," when no
+supplication from Yūsuf to his Lord preceded it, and he did not supplicate for the turning away of their
+guile from him, but only informed his Lord that prison was dearer to him than disobedience to Him? It is
+said: in his informing Him of that there is a complaint from him to his Lord of what he met from them, and in
+his saying "and if You do not turn their guile away from me, I shall incline towards them" there is the sense
+of supplication and request from him to his Lord for the turning away of their guile; that is why God the
+Exalted said, "so his Lord answered him." That is like a man saying to another, "if you do not visit me I
+shall insult you," and the other answering him, "then I shall visit you," because in his saying "if you do
+not visit me I shall insult you" there is the sense of a command to visit. The interpretation of the speech:
+God answered Yūsufʾs supplication and turned away from him what the wife of the ʿAzīz and her companions
+wanted from him of disobedience to God — as Ibn Isḥāq said, "He saved him from committing disobedience with
+them, when some of what he had feared from them had already befallen him." "Truly He is the Hearing" of
+Yūsufʾs supplication when he supplicated Him to turn the guile of the women away from him, and the
+supplication of every supplicant among His creation; "the Knowing" of his request and his need, and of what
+puts him right, and of the need of all His creation and what puts them right. **[Qurṭubī]** "So his Lord
+answered him" for what he said: "and if You do not turn their guile away from me" is an exposure to
+supplication, as though he had said, "O God, turn their guile away from me"; so He answered his supplication
+and was gentle with him and protected him from falling into fornication. "Their guile" — it is said because
+they are a group who solicited him for himself; it is said it means the guile of women; and it is said it
+means the guile of the wife of the ʿAzīz, as was mentioned in the previous verse — and the general is more
+fitting. **[Ibn Kathīr]** So his Lord answered his invocation: Yūsuf was immune from error by Godʾs will, and
+He saved him from accepting the advances of the wife of the ʿAzīz. He preferred prison rather than accept her
+illicit call. **[Jalālayn]** So his Lord answered him — his supplication — and He fended off their wiles from
+him. Truly He is the Hearer of words, the Knower of deeds. **[Saʿdī]** "So his Lord answered him" when he
+supplicated Him, "and turned their guile away from him": she did not cease soliciting him and seeking aid
+against him by whatever means she was able, until she despaired of him and God turned her guile away from
+him. "Truly He is the Hearing" of the supplication of one who supplicates, "the Knowing" of his sound
+intention and of his weak nature, which requires that He supply him with His aid and His gentleness. This is
+that by which God saved Yūsuf from this besetting trial and severe affliction. **[Maʿārif]** To protect him
+from the guile of these women, God made His own wise arrangements. Though the ʿAzīz of Egypt and his inner
+circle were already convinced of the great spiritual qualities of Yūsuf — his piety, fear of God and chastity
+— rumours of the incident had started circulating in the city. To put a check on this, they found it
+expedient to confine Yūsuf into the prison for a certain period of time, so that there would remain no source
+of any doubt in the concerned family, and so that the talk of the town would die out in due course.
+**[Study Quran]** God responded to Joseph and turned their scheming away from him by so strengthening his
+ability to resist the women that he actually accepted the hardships of prison. The connection between
+supplication and Godʾs Response is established elsewhere in the Qurʾān, as at 40:60: "Call upon Me, and I
+shall respond to you."
+
+**Language.** The conditional sentence functioning as an implicit supplication is the point both **[Ṭabarī]**
+and **[Qurṭubī]** make, the first with the analogy of "if you do not visit me I shall insult you," the second
+by calling it an exposure to supplication (*taʿarruḍ li-l-duʿāʾ*). *Kaydahunna* is read generally (the guile
+of women), particularly (the wife of the ʿAzīz, with the plural used either to magnify her station or to turn
+from the explicit to the implicit), or of the whole group of women **[Qurṭubī]**.
+
+**Cross-references.** 40:60 ("Call upon Me, and I shall respond to you") **[Study Quran]**; 12:33 (the
+supplication answered); 12:35 (the imprisonment that follows); 12:24 ("thus that We might turn away from him
+evil and indecency") — the same verb *ṣarafa*.
+
+**Reflection.** The verse answers a prayer that was never formally made, and **[Ṭabarī]**ʾs defence of that is
+the interesting part: a conditional can carry a request inside it. The complaint in "prison is dearer to me"
+and the condition in "if You do not turn their scheming away" are, taken together, a supplication — and God
+treats them as one. **[Saʿdī]** then describes what the answer looked like in practice: she did not stop, she
+kept soliciting him and using every means she could, until she despaired; the turning away was not the
+removal of the pressure but the exhaustion of it. And **[Study Quran]**ʾs note that God so strengthened his
+ability to resist that he actually accepted the hardships of prison identifies the mechanism: the answer
+arrived as capacity, not as rescue. The two divine names close the verse on the same note — the Hearing of
+the supplication of one who supplicates, the Knowing of his sound intention *and of his weak nature which
+requires that He supply him with His aid* **[Saʿdī]**. God heard the request and knew the weakness, and
+answered both at once.
+
+---
+
+## 12:35
+
+*"Then it occurred to them, after they had seen the signs, that they should imprison him for a time."*
+
+**Meaning.** **[Ṭabarī]** Then it appeared to the ʿAzīz, the husband of the woman who had solicited Yūsuf.
+And it was said "it appeared to them" though he was one, because he was not mentioned by his name and singled
+out by intention — which is like "those to whom the people said, ʿThe people have gathered against you, so
+fear themʾ" (3:173), when it is said that the one who said that was a single person. And it is said that the
+meaning of "then it appeared to them" concerns the opinion they had held of leaving Yūsuf free, and they saw
+that they should imprison him, after they had seen the signs of his innocence of what the wife of the ʿAzīz
+had accused him of. And those signs were the tearing of the shirt from behind, a scratching of the face, and
+their cutting of their hands: Ibn ʿAbbās, through ʿIkrimah, said "among the signs were a tear in the shirt
+and a scratching of the face"; Mujāhid said "the tearing of the shirt from behind"; Qatādah said "the signs:
+their incising their hands, and the tearing of the shirt"; Ibn Isḥāq said "his innocence of what he was
+accused of, from the splitting of his shirt from behind"; al-Suddī said "the shirt, and the cutting of the
+hands." "That they should imprison him until a time": until the moment at which they see their opinion. And
+God made that confinement, according to what is mentioned, a punishment for Yūsuf for his *hamm* concerning
+the woman, and an expiation for his sin. **[Qurṭubī]** treats the verse under four *masāʾil*. First: "then it
+appeared to them" — it appeared to the ʿAzīz and the people of his counsel — "after they had seen the signs,"
+that is, the marks of Yūsufʾs innocence: the tearing of the shirt from behind, the testimony of the witness,
+the incising of the hands, and the womenʾs inability to bear meeting Yūsuf — that they should imprison him, in
+order to conceal the story so that it would not spread among the common people, and to interpose between him
+and her. And it is said that they were the blessings that used to open upon them as long as Yūsuf was among
+them; the first is sounder. Muqātil, from Mujāhid, from Ibn ʿAbbās, said: the shirt is among the signs, the
+testimony of the witness is among the signs, the cutting of the hands is among the signs, and the womenʾs
+magnifying him is among the signs. And it is said that shame before people and dread born of despair drove
+her to accept veiling in place of the fear of his going away, so that she might be avenged when she was
+prevented from looking at him — as the poet said, "the passion of a longing one with hope of meeting is not
+like that of a longing one without hope" — or that she plotted against him in the hope that he would tire of
+his imprisonment and offer himself. Second: "that they should imprison him" is in the place of the subject,
+that is, it appeared to them that they should imprison him — this is Sībawayhʾs saying. Al-Mubarrid said this
+is a mistake: the subject cannot be a sentence; rather the subject is what *badā* indicates, which is a
+verbal noun, that is, "an appearing appeared to them," and it was deleted because the verb indicates it, as
+the poet said, "and it was fitting for one whose father is Abū Mūsā that He who set up the mountains should
+make him succeed" — meaning "the fitting fitted," and it was deleted. And it is said the meaning is "then an
+opinion appeared to them that they had not known," and this was deleted because there is an indication of it
+in the speech; and the saying was also deleted, that is, they said, "we shall certainly imprison him," and
+the *lām* is the answer of a suppressed oath — said al-Farrāʾ. And it is a masculine verb, not a feminine
+verb, for were it a feminine verb it would be "they (fem.) shall imprison him"; and what indicates this is
+His saying "to them" and not "to them (fem.)," so it is as though He reported about the women and their
+helpers and gave precedence to the masculine — said Abū ʿAlī. Al-Suddī said the cause of Yūsufʾs
+imprisonment was that the wife of the ʿAzīz complained to him that he had made her notorious and spread her
+news; so the pronoun in "to them" on this is for the king. Third: "until a time" means to a period not known,
+said many of the interpreters; Ibn ʿAbbās said, until what had spread in the city was cut off; Saʿīd b.
+Jubayr said six months; al-Ilkiyā related that he meant thirteen months; ʿIkrimah said nine years; al-Kalbī
+five years; Muqātil seven — and in *Rūḥ al-Maʿānī* and al-Rāzī, from Muqātil, twelve years. The discussion of
+*al-ḥīn* and the rulings connected with it has already passed in al-Baqarah. Wahb said he remained in prison
+twelve years. *Ḥattā* is in the meaning of *ilā*, as in "until the rising of the dawn" (97:5). And God made
+the imprisonment a purification for Yūsuf from his *hamm* concerning the woman; and it is as though the
+ʿAzīz, although he knew of Yūsufʾs innocence, obeyed the woman in imprisoning Yūsuf. Ibn ʿAbbās said: Yūsuf
+stumbled three stumbles — when he desired her, so he was imprisoned; when he said to the young man, "mention
+me to your master," so he remained in prison several years; and when he said to his brothers, "you are
+thieves," so they said, "if he stole, a brother of his stole before" (12:77). Fourth: Yūsuf was coerced into
+indecency by imprisonment, and he remained five years, and he did not consent to it, because of the greatness
+of his station and the nobility of his worth. And were a man coerced by imprisonment into fornication, it
+would not be permissible for him, by consensus. If he were coerced by beating, the scholars have differed;
+and the sound view is that if it is severe it removes from him both the sin of fornication and its *ḥadd*
+punishment. And some of our scholars have said the *ḥadd* is not removed from him — and that is weak, for God
+does not combine two punishments upon His servant, nor drive him between two afflictions, since that is among
+the greatest hardship in the religion: "and He has not placed upon you any hardship in the religion" (22:78).
+The explanation of this will come in al-Naḥl. And Yūsuf was patient, and sought refuge in Him from the
+guile, so He answered him, as has passed. **[Ibn Kathīr]** Yūsuf is imprisoned without justification. God
+says: then it occurred to them that it would be in their interest to imprison Yūsuf for a time, even after
+they were convinced of his innocence and saw the proofs of his truth, honesty and chastity. It appears — and
+God knows best — that they imprisoned him after the news of what happened spread: they wanted to pretend that
+Yūsuf was the one who tried to seduce the ʿAzīzʾs wife and that they punished him with imprisonment. This is
+why, when the king asked Yūsuf to leave jail a long time afterwards, he refused to leave until his innocence
+was ascertained and the allegation of his betrayal was refuted. When this was successfully achieved, Yūsuf
+left the prison with his honour intact. **[Jalālayn]** Then it seemed, it appeared good, to them — after they
+had seen the signs indicating Josephʾs innocence — that they should imprison him for a while, until such time
+as people ceased to talk of him. He was thus imprisoned. **[Saʿdī]** As for his masters: when the news became
+famous and clear, and people became divided between excusing, blaming and impugning, "it appeared to them" —
+it became clear to them — "after they had seen the signs" indicating his innocence — "that they should
+imprison him until a time," so that the news would be cut off by that and people would forget it. For a
+thing, when it spreads, does not cease to be mentioned and talked about while its causes exist; but when its
+causes are removed, it is forgotten. So they saw this to be in their interest, and they put him in prison.
+**[Maʿārif]** Later on, even after having seen the signs, they — the ʿAzīz of Egypt and his advisers — deemed
+it proper, or expedient, to imprison him for a time. Thus to the prison he was sent. **[Study Quran]** "Them"
+refers to the family of Potiphar and Zulaykhā or to those members of Potipharʾs entourage with whom he
+consulted about this matter **[al-Kalbī]**; "the signs" refers to the indications of Josephʾs innocence. The
+decision to imprison Joseph for a time was a temporary measure until the rumours about what transpired
+between Joseph and Zulaykhā had subsided; cf. Genesis 39:20.
+
+**Rulings.** **[Qurṭubī]**ʾs fourth *masʾalah* is the jurisprudential heart of the verse: coercion. A man
+coerced into fornication by imprisonment may not comply — by consensus, because Yūsufʾs own case shows a
+prophet enduring years of prison rather than yield. If the coercion is by beating, the scholars differ; the
+sound view is that severe beating removes both the sin and the *ḥadd*, since God does not combine two
+punishments upon one servant nor drive him between two afflictions, and "He has not placed upon you any
+hardship in the religion" (22:78). The minority view that the *ḥadd* is not removed is declared weak. The
+fuller treatment is promised in al-Naḥl.
+
+**Language.** *Badā lahum* with a plural pronoun for a single person, on the analogy of 3:173 **[Ṭabarī]**;
+the subject of *badā*, whether the sentence "they shall surely imprison him" (Sībawayh) or a deleted verbal
+noun (al-Mubarrid, who calls Sībawayhʾs analysis a mistake) or a deleted opinion and a deleted saying with the
+*lām* answering a suppressed oath (al-Farrāʾ) **[Qurṭubī]**; the masculine verb with "to them" rather than "to
+them (fem.)" as evidence that the women and their male helpers are meant together (Abū ʿAlī); *ḥattā* = *ilā*;
+and the whole range of durations proposed for *ḥīn*, from six months to twelve years.
+
+**Cross-references.** 3:173; 97:5; 22:78; 12:42 ("mention me to your master") and 12:70/12:77 ("you are
+thieves"), which complete Ibn ʿAbbāsʾs three stumbles; 12:50–53 (the refusal to leave prison before
+vindication); Genesis 39:20 **[Study Quran]**.
+
+**Reflection.** The verse is a study in how innocence is punished. Everyone concerned has already seen the
+evidence — the torn shirt, the witness, the cut hands — and **[Ibn Kathīr]**ʾs phrase is exact: they
+imprisoned him "even after they were convinced of his innocence." The imprisonment is not a verdict but a
+policy: **[Saʿdī]** explains the reasoning, that a rumour keeps being repeated while its causes exist and is
+forgotten once they are removed, so they removed Yūsuf. **[Maʿārif]** adds the familyʾs motive of leaving no
+source of doubt. And **[Qurṭubī]** preserves the other dimension, that God made the imprisonment a
+purification for Yūsuf from his *hamm* — so the same act is at once a cover-up by men and an expiation from
+God. Ibn ʿAbbāsʾs three stumbles bind the whole sūrah together at this point: the *hamm* of 12:24, the
+request to the cupbearer at 12:42, and the accusation of theft at 12:70. Each produces a delay, and each
+delay produces a later elevation. The refusal to leave prison until his name is cleared — which **[Ibn
+Kathīr]** flags here and the sūrah narrates at 12:50–53 — is what turns this verse from a record of injustice
+into a lesson about reputation: Yūsuf would not accept a freedom that left the accusation standing.
+
+---
+
+
+## 12:36
+
+*"And there entered the prison with him two young men. One of them said, "I see myself pressing wine," and the
+other said, "I see myself carrying bread upon my head, from which the birds eat. Inform us of its
+interpretation; we see you among the doers of good.""*
+
+**Meaning.** **[Ṭabarī]** "And there entered the prison with him two young men" indicates something left out
+of the speech, namely "then it occurred to them, after they had seen the signs, that they should imprison him
+for a time" — so they imprisoned him and put him in prison, and two young men entered with him; and He
+dispensed, by the indication of His saying "and there entered the prison with him two young men," upon their
+putting Yūsuf in prison, from mentioning it. The two young men were, according to what is mentioned, two boys
+of the boys of the greater king of Egypt, one of them the master of his drink and the other the master of his
+food: Ibn Isḥāq said, "he was thrown into prison — and two young men entered the prison with him, two boys
+belonging to the greater king al-Rayyān b. al-Walīd, one of them over his drink and the other over some of
+his affairs, in a displeasure he took at them; the name of one of them was Majlath and the other Nabū, and
+Nabū was the one over the drink" *(Isrāʾīliyyāt)*; Qatādah said, "one of them was the kingʾs baker over his
+food, and the other his cupbearer over his drink." The reason for the kingʾs imprisoning the two young men
+was, according to what is mentioned: al-Suddī said, "the king was angry with his baker — it reached him that
+he wanted to poison him — so he imprisoned him and imprisoned the master of his drink, thinking that he had
+colluded with him in that; so he imprisoned them both." "One of them said, I see myself pressing wine": it is
+mentioned that when Yūsuf was put in prison he said to those confined in it, when they asked him about his
+work, "I interpret dreams"; so one of the two young men said to his companion, "come, let us test him."
+Al-Suddī: "When Yūsuf entered the prison he said, ʿI interpret dreams.ʾ So one of the two young men said to
+his companion, ʿCome, let us test this Hebrew slaveʾ — and they feigned dreams for him. So they asked him
+without either of them having seen anything. The baker said, ʿI see myself carrying bread on my head from
+which the birds eat,ʾ and the other said, ʿI see myself pressing wine.ʾ" And Jābir, from ʿUmārah b.
+al-Qaʿqāʿ, from Ibrāhīm, from ʿAbdullāh — that is, Ibn Masʿūd — said, "Yūsufʾs two companions saw nothing;
+they only feigned dreams in order to test his knowledge." And a people said that the two young men only asked
+him about a dream they had truly seen, and out of their belief in Yūsufʾs knowledge of its interpretation:
+Ibn Isḥāq said, "When the two young men saw Yūsuf they said, ʿBy God, O young man, we loved you when we saw
+youʾ"; and through ʿAbdullāh from Ibn Abī Najīḥ from Mujāhid, that Yūsuf said to them when they said that, "I
+adjure you by God not to love me, for by God no one ever loved me but harm came to me from his love: my aunt
+loved me and harm came to me from her love, then my father loved me and harm came to me from his love, then
+the wife of my master here loved me and harm came to me from her love of me — so do not love me, may God
+bless you!" But they refused anything but loving him and keeping his company wherever he was, and they began
+to be impressed by what they saw of his understanding and intellect. And they had seen a dream when they were
+put in prison: Majlath saw that he was carrying bread on his head from which the birds were eating, and Nabū
+saw that he was pressing wine; so they sought a ruling from him about them and said, "inform us of their
+interpretation; we see you among the doers of good," if you do. "Pressing wine" means: I see in my sleep that
+I am pressing grapes — and so it is in the reading of Ibn Masʿūd, according to what is reported from him,
+Muḥammad b. al-Ḥanafiyyah saying, "in the reading of Ibn Masʿūd, ʿI see myself pressing grapes.ʾ" And it is
+mentioned that this is from the language of the people of ʿUmān, who call grapes wine: al-Ḍaḥḥāk said,
+"pressing grapes — and it is in the language of the people of ʿUmān; they call grapes wine," and "grapes;
+such-and-such a land calls grapes ʿwineʾ"; Ibn ʿAbbās said, "grapes." ʿIkrimah reported that he came to him
+and said, "I saw in what a sleeper sees that I planted a vine-cutting, and it grew, and clusters came out on
+it, and I pressed them, then I gave them to the king to drink," and that he said, "you will remain in prison
+three days, then you will go out and give him wine to drink." "And the other said, I see myself carrying
+bread on my head from which the birds eat": I see myself in my sleep carrying bread upon my head — so *fawqa*
+is placed in the position of *ʿalā* — "from which the birds eat," that is, from the bread. "Inform us of its
+interpretation": tell us what that which we have told you we saw in our sleep will issue in and return to.
+Mujāhid said, "with it" — and Abū ʿUbayd explained that Mujāhid means the interpretation of a thing is the
+thing itself, and from that, "the interpretation of the dream" is only the thing to which it issues. "We see
+you among the doers of good": the people of interpretation differed about the meaning of the *iḥsān* with
+which the two young men described Yūsuf. Some said it was that he used to visit their sick, console their
+sorrowful, and, when one of them was in need, collect for him: al-Ḍaḥḥāk, asked at Balkh what Yūsufʾs
+*iḥsān* was, said, "when a man was sick he would attend to him, when he was in need he would collect for him,
+and when his space was cramped he would make room for him"; and in another chain, "when a man in the prison
+fell ill he attended to him, when he was in need he collected for him, and when the place was cramped upon
+him he widened it for him." Qatādah said, "it reached us that his *iḥsān* was that he used to treat their
+sick, console their sorrowful, and strive for his Lord. And he said: when Yūsuf reached the prison he found
+in it a people whose hope had been cut off and whose affliction was severe, so their grief grew long; and he
+began saying, ʿRejoice and be patient and you will be rewarded — for this there is a reward, for this there is
+a recompense.ʾ So they said, ʿO young man, may God bless you, how beautiful your face is and how beautiful
+your character! We have been blessed in your company; we would not wish that we had been anywhere other than
+this since we were imprisoned, because of what you tell us of reward, expiation and purification. So who are
+you, O young man?ʾ He said, ʿI am Yūsuf, son of Godʾs chosen one Yaʿqūb, son of Godʾs sacrificed one Isḥāq,
+son of Ibrāhīm the intimate of God.ʾ And love of him was upon them. And the overseer of the prison said to
+him, ʿO young man, by God, if I could I would release you; but I shall be good to you in your company and good
+in your confinement, so be in whichever of the cells of the prison you wish.ʾ" And al-Ḍaḥḥāk, through another
+chain: "he would make room for a man in his seat and attend to the sick." Others said its meaning is: we see
+you among the doers of good to us, if you inform us of the interpretation of our dreams — Ibn Isḥāq: "they
+sought a ruling from him about their dreams and said, ʿinform us of its interpretation; we see you among the
+doers of good,ʾ if you do." **[Ṭabarī]**ʾs verdict: the soundest of the sayings in that is the saying we
+mentioned from al-Ḍaḥḥāk and Qatādah. And if someone says: what is the sense of the speech if the matter is
+as you say, when you know that their asking Yūsuf to inform them of the interpretation of their dreams is not
+a report about his description as visiting the sick and attending to them and doing good to whoever is in
+need — rather, one says to a man, "inform us of the interpretation of this, for you are knowledgeable," and
+this is among the places suited to being described with knowledge, not with anything else? It is said: the
+sense of that is that they said to him, "inform us of the interpretation of our dreams, doing good to us in
+your informing us of that, as we see you doing good in the rest of your actions — we see you among the doers
+of good." **[Qurṭubī]** *Fatayān* is the dual of *fatā*, which is of the *yāʾ*-letters, and their saying
+*al-futuww* is anomalous. Wahb and others said: Yūsuf was carried to the prison in fetters on a donkey and
+paraded round with the cry, "this is the reward of one who disobeys his mistress," while he was saying, "this
+is easier than the cut-out garments of the fires, the shirts of tar, the drink of boiling water and the
+eating of *zaqqūm*." When Yūsuf reached the prison he found in it a people whose hope had been cut off and
+whose affliction was severe, so he began saying to them, "be patient and rejoice — you will be rewarded"; and
+they said to him, "O young man, how beautiful your speech is! We have been blessed in your company. Who are
+you, O young man?" He said, "I am Yūsuf, son of Godʾs chosen one Yaʿqūb, son of Godʾs sacrificed one Isḥāq,
+son of Ibrāhīm the intimate of God" — and **[Qurṭubī]** notes that this is evidence of the reportʾs
+fabrication, because the sacrificed one is definitively Ismāʿīl *(Isrāʾīliyyāt)*. Ibn ʿAbbās said: when the
+woman said to her husband, "this Hebrew slave has exposed me, and I want you to imprison him," he imprisoned
+him in the prison; and he used to console the sorrowful in it, visit the sick in it, treat the wounded in it,
+pray the whole night, and weep until the walls of the houses, their ceilings and the doors wept with him; and
+the prison was purified by him and its people found comfort in him, so that when a man went out of the prison
+he would return and sit in the prison with Yūsuf. And the master of the prison loved him and gave him room in
+it, then said to him, "O Yūsuf, I have loved you with a love whose like I have not loved anything." He said,
+"I seek refuge in God from your love." He said, "and why is that?" He said, "my father loved me and my
+brothers did to me what they did, and my mistress loved me and what you see befell me." So he was in his
+imprisonment until the king became angry with his baker and the master of his drink — and that was because
+the king had grown old among them and they had tired of him, so they suborned his baker and the master of his
+drink to poison him together; the baker agreed and the master of the drink refused, so the master of the
+drink went and informed the king of that, and the king commanded that they both be imprisoned. So they found
+comfort in Yūsuf; that is His saying, "and there entered the prison with him two young men." And it is said
+that the baker put the poison in the food; when the food was present the cupbearer said, "O king, do not eat,
+for the food is poisoned," and the baker said, "O king, do not drink, for the drink is poisoned." So the king
+said to the cupbearer, "Drink!" and he drank and it did not harm him; and he said to the baker, "Eat!" and he
+refused. So the food was tested on an animal and it died on the spot, and he imprisoned them for a year, and
+they remained in the prison that period with Yūsuf *(Isrāʾīliyyāt)*. The name of the cupbearer was Munjā and
+the other Majlath — al-Thaʿlabī mentioned it from Kaʿb; al-Naqqāsh said the name of one of them was Shurhum
+and the other Surhum, the first with pointed *shīn* and the other with unpointed *sīn*; al-Ṭabarī said the one
+who saw that he was pressing wine was Nabū; and al-Suhaylī said he mentioned the name of the other and I did
+not record it. And He said "two young men" because they were two slaves, and a slave is called *fatā*, whether
+small or big — al-Māwardī mentioned it. Al-Qushayrī said: perhaps *al-fatā* was a name for the slave in their
+custom, which is why He said, "she solicits her young man"; and it is possible that *al-fatā* is a name for
+the servant even if not owned. And it is possible that he imprisoned them together with Yūsufʾs imprisonment,
+or after it, or before it — except that they entered with him the cell in which he was. "One of them said, I
+see myself pressing wine," that is, grapes: Yūsuf had said to the people of the prison, "I interpret dreams,"
+so one of the two young men said to his companion, "come, let us test this Hebrew slave," and they asked him
+without either having seen anything — said Ibn Masʿūd. Al-Ṭabarī related that they asked him about his
+knowledge and he said, "I interpret dreams," so they asked him about their dream. Ibn ʿAbbās and Mujāhid
+said: it was a true dream they had seen and asked him about, and that is why its interpretation came true. In
+the Ṣaḥīḥ, from Abū Hurayrah, from the Prophet ﷺ: "The most truthful of you in dream is the most truthful of
+you in speech." And it is said it was a lying dream they asked him about as a test — this is the saying of
+Ibn Masʿūd and al-Suddī. And it is said that the one of them who was crucified was the liar and the other the
+truthful — said Abū Mijlaz. Al-Tirmidhī reports from Ibn ʿAbbās from the Prophet ﷺ: "Whoever feigns a dream
+falsely will be charged on the Day of Resurrection to tie together two barley grains" — and he will never tie
+them; Abū ʿĪsā said this is a good, sound ḥadīth. And from ʿAlī, from the Prophet ﷺ: "Whoever lies about his
+dream will be charged on the Day of Resurrection to tie a barley grain" — he said, a good ḥadīth. Ibn ʿAbbās
+said: when they saw their dream they woke distressed, so Yūsuf said to them, "why do I see you distressed?"
+They said, "O our master, we saw what we disliked." He said, "then recount it to me," and they recounted it
+to him and said, "inform us of the interpretation of what we saw" — and this indicates that it was a dream of
+sleep. "We see you among the doers of good": his *iḥsān* was that he used to visit the sick and treat them and
+console the sorrowful. Al-Ḍaḥḥāk said: when a man of the people of the prison fell ill he would attend to
+him, when his space was cramped he would widen it for him, and when he was in need he would collect for him
+and ask on his behalf. And it is said "among the doers of good" means among the knowledgeable who have done
+well in knowledge — said al-Farrāʾ. Ibn Isḥāq said: "among the doers of good" to us, if you interpret it, as
+one says, "do such-and-such and you are doing good." He said, "so what did you see?" The baker said, "I saw
+as though I had baked in three ovens and put it in three baskets, and placed it on my head, and the birds
+came and ate of it." And the other said, "I saw as though I had taken clusters of white grapes and pressed
+them into three vessels, then strained it and given the king to drink, as was my custom in the past" — that
+is His saying, "I see myself pressing wine," that is, grapes, in the language of ʿUmān, said al-Ḍaḥḥāk. Ibn
+Masʿūd read, "I see myself pressing grapes." Al-Aṣmaʿī said: al-Muʿtamir b. Sulaymān informed me that he met
+a Bedouin carrying grapes and said to him, "what is with you?" He said, "wine." And it is said the meaning of
+"pressing wine" is grapes, with the annexed noun deleted. And one says *khamrah*, *khamr* and *khumūr*, like
+*tamrah*, *tamr* and *tumūr*. **[Ibn Kathīr]** Qatādah said, "One of them was the kingʾs distiller and the
+other was his baker." Each of these two men had a dream and asked Yūsuf to interpret it for them.
+**[Jalālayn]** And there entered the prison with him two youths, two young men, servants of the king — one of
+whom was his cup-bearer, the other his food-taster. They noticed that he interpreted dreams, and so they
+said, "Let us try him." One of them, the cup-bearer, said, "I dreamed that I was pressing wine," that is,
+grapes. The other, the food-taster, said, "I dreamed that I was carrying on my head bread whereof the birds
+were eating. Tell us, inform us, of its interpretation, for indeed we see you as being among the virtuous."
+**[Saʿdī]** When Yūsuf entered the prison, among those who entered the prison with him were two young men;
+each of them saw a dream and recounted it to Yūsuf so that he would interpret it. One of them said, "I see
+myself pressing wine," and the other said, "I see myself carrying bread above my head" — and that bread "the
+birds eat of it. Inform us of its interpretation," that is, its explanation and what their affair will issue
+in. And their saying, "we see you among the doers of good," means among the people of *iḥsān* towards
+creation; so do good to us in your interpreting of our dreams as you have done good to others — and they made
+their approach to Yūsuf by his *iḥsān*. **[Maʿārif]** When Yūsuf arrived at the prison, two other sentenced
+criminals were also admitted there: one of them was the cup-bearer of the king while the other was a cook.
+Citing major tafsīr authorities, Ibn Kathīr has written that these two were arrested on the charge that they
+had tried to poison the king through food or drink; the case was under investigation, therefore they were
+kept in prison. When Yūsuf came into the prison, it was because of his prophetic morals, mercy and affection
+that he used to show concern about all of his fellow inmates and took care of them whenever needed. If anyone
+became sick he would call on him and do whatever had to be done for him; for anyone he found sad or
+distressed he would have appropriate words of comfort; to lift his spirits he would gently tell him to
+observe patience and make the hope of freedom come alive in his heart. He would think of bringing comfort to
+others at the cost of his own discomfort. For whole nights he would remain engaged in the worship of God.
+Seeing his endearing ways, all the inmates of the prison became convinced of his high spiritual status; even
+the officer-in-charge of the prison was impressed. He said: had it been in my power I would have let you go;
+now, this much I can do — that you will face no inconvenience here. **[Maʿārif]**ʾs "Notes to Wonder About"
+then record Yūsufʾs own answer when the officer or some of the inmates told him they loved him very much: for
+Godʾs sake, do not love me, because whenever I have been loved by anyone I have suffered one way or the
+other. When I was a child my paternal aunt loved me; as a result I was blamed for theft. Then my father loved
+me; this made me do a term of detention in a well at the hands of my brothers, then came slavery and
+expulsion from my home country. When the wife of the ʿAzīz loved me, I landed into this prison **[Ibn Kathīr,
+Maẓharī]**. These two prisoners said to him one day that they thought he was a man of piety and good deeds,
+and therefore they would like to ask him to give an interpretation of their dream. Ibn ʿAbbās and some other
+leading authorities in tafsīr have said that they had really seen these dreams; ʿAbdullāh b. Masʿūd has said
+there was no dream — they had simply made it up to test the spiritual excellence and veracity of Yūsuf.
+However, one of them, the royal cup-bearer, said, "I have seen myself pressing wine," and the other, the
+cook, said, "I have seen myself carrying bread on my head of which the birds are eating." Then they requested
+him to interpret the dreams for them. **[Study Quran]** Most commentaries state that the two young men who
+were in prison with Joseph were servants to the king of Egypt: one of them was his baker and the other his
+wine carrier. The baker had plotted to poison the king; he was caught and imprisoned, and the wine carrier
+was imprisoned as well, since the king thought that he had aided the baker in the attempt to kill him; cf.
+Genesis 40:1–3. The young man who had dreamed of the wine was the wine carrier, and the young man who had
+dreamed of the bread was the baker **[al-Bayḍāwī]**; for their dreams as narrated in Genesis, see 40:9–11,
+16–17. They reportedly asked Joseph to interpret their dreams for them because they had seen him interpret
+other peopleʾs dreams. Al-Rāzī reports that, seeing Josephʾs virtuous character and kind behaviour toward the
+other prison mates as well as his devout religious practices, the baker and the wine carrier concluded that
+he was among the virtuous, whose interpretation of dreams could therefore be trusted; cf. Genesis 40:6–8. For
+Josephʾs interpretation of these two dreams, see 12:41.
+
+**Ḥadīth & āthār.** "The most truthful of you in dream is the most truthful of you in speech" (the two
+Ṣaḥīḥs, from Abū Hurayrah) **[Qurṭubī]**; "whoever feigns a dream falsely will be charged on the Day of
+Resurrection to tie together two barley grains" (al-Tirmidhī from Ibn ʿAbbās, graded good and sound) and
+"whoever lies about his dream will be charged to tie a barley grain" (from ʿAlī, graded good) **[Qurṭubī]**.
+
+**Language.** *Fatayān* from *fatā*, of the *yāʾ*-letters, with *al-futuww* anomalous; *fatā* used of a slave
+whether small or big (al-Māwardī) or of a servant even if not owned (al-Qushayrī) **[Qurṭubī]**. *Aʿṣiru
+khamran* is glossed as grapes, either by ellipsis of the annexed noun, by the language of ʿUmān (al-Ḍaḥḥāk),
+by the Bedouinʾs usage reported by al-Aṣmaʿī, or by the reading of Ibn Masʿūd; *khamrah*/*khamr*/*khumūr*
+parallels *tamrah*/*tamr*/*tumūr*. *Fawqa* stands in the place of *ʿalā*, and *taʾwīl* of a thing is the
+thing to which it issues **[Ṭabarī]**.
+
+**Belief.** **[Maʿārif]** sets out the pastoral theology of the verse in seven numbered rulings: that
+reformers must deal with sinners and criminals with compassion and concern, bringing them closer rather than
+betraying any attitude of hatred or distaste; that the interpretation of a dream should be sought
+particularly from persons one trusts as righteous, good in deeds and sympathetic; that a carrier of the call
+may state his own excellences when the intention is to serve people rather than to prove his personal rank,
+so that it does not fall under the prohibited self-praise of "do not pronounce yourselves pure" (53:32); that
+the mission of daʿwah and tablīgh must come first in everything, and is done far more effectively through
+personal contacts and private exchanges than through conferences, pulpits or stages; that what is said in
+correction should be said with the strategy of wisdom so that it enters the heart, as Yūsuf showed that his
+excellences were the direct outcome of his disengagement from disbelief and adoption of Islam, and then
+described the shortcomings of kufr and shirk in a soft manner that appeals to the heart; that bad news should
+be presented so as to bring the least discomfort, as Yūsuf kept the destined death ambiguous rather than
+fixing it upon one of them; and that making someone a medium of effort in order to escape a difficulty is not
+against the principle of *tawakkul*, though another view holds that God does not like His great prophets
+making every permissible effort and taking a human being as the medium of their release, since the absence of
+any medium between them and God spells out the true identity of prophets — which may be why this prisoner
+forgot Yūsufʾs message and he stayed in prison for many more years.
+
+**Reflection.** The verse opens the second half of the story, and it opens it in the lowest place available:
+a prison. What is remarkable is not that Yūsuf is there but what he does there. **[Ṭabarī]** preserves
+Qatādahʾs report almost as a programme — treating the sick, consoling the sorrowful, making room for the
+cramped, collecting for the needy, praying all night, weeping until the walls wept with him — and the result
+is the strangest detail in the whole account, that men who were released would come back and sit in the
+prison with him. The two dreams then arrive, and the tradition immediately argues about whether they were
+real: Ibn Masʿūd and al-Suddī say the men invented them to test him, Ibn ʿAbbās and Mujāhid say they were
+true dreams, Abū Mijlaz splits the difference by making the crucified one the liar. **[Qurṭubī]** attaches
+the ḥadīth on feigned dreams to that argument, and it is a severe one — a man who lies about his dream will
+be charged on the Day of Resurrection to tie together two barley grains. And Yūsufʾs own plea to the gaoler,
+"for Godʾs sake do not love me," gathers the whole story into a sentence: aunt, father, mistress — every love
+in his life has so far cost him something. It is not ingratitude; it is the observation of a man who has not
+yet seen what love will finally do for him.
+
+---
+
+## 12:37
+
+*"He said, "No food with which you are provided will come to you, except that I shall inform you of its
+interpretation before it comes to you. That is of what my Lord has taught me. Truly I have forsaken the creed
+of a people who do not believe in God, and who, in the hereafter, are disbelievers.""*
+
+**Meaning.** **[Ṭabarī]** Yūsuf said to the two young men who sought from him the interpretation of the
+dream: no food will come to you two in your sleep except that I shall inform you of its interpretation in
+your waking, before it comes to you. So al-Suddī said, "Yūsuf said to them, ʿno food with which you are
+provided will come to youʾ in sleep, ʿexcept that I shall inform you of its interpretationʾ in waking"; and
+Ibn Isḥāq said the same. "Of its interpretation" means: what that which you saw in your sleep, of the food
+you saw coming to you, will issue in and become. "That is of what my Lord taught me": this which I mention
+that I know, of the interpretation of dreams, is of what my Lord taught me, so I knew it. "Truly I have
+forsaken the creed of a people who do not believe in God" — and the report came as an initial statement, that
+is, "I have forsaken the creed of a people," while the meaning is "I did not incline"; and he began with that
+because in the beginning there is the indication of its meaning. "I have forsaken the creed of a people who
+do not believe in God" means I am free of the creed of whoever does not believe in God and acknowledge His
+oneness; "and they, in the hereafter, they are disbelievers" means they, along with their leaving belief in
+the oneness of God, do not acknowledge the return and the resurrection, nor reward nor punishment. And *hum*
+is repeated twice — "and they in the hereafter they are disbelievers" — because His saying "in the hereafter"
+came between them, so the first *hum* became as though cancelled and the reliance fell upon the second, as in
+"and they, in the hereafter, they are certain" (2:4; 31:4), and as in "does He promise you that when you have
+died and become dust and bones, that you will be brought out?" (23:35). **[Ṭabarī]** then raises the
+objection himself: if someone says, what is the sense and meaning of this report from Yūsuf, and where is his
+answer to the two young men about what they asked, of the interpretation of their dream, in this speech? It
+is said to him: Yūsuf disliked to answer them about the interpretation of their dream, because of what he
+knew of the disliked thing in it for one of them, so he turned away from mentioning it and took up something
+else, in order that they would turn away from asking him for the answer to what they had asked him about it.
+And the people of knowledge said something like that: Ibn Jurayj said, "he disliked the interpretation for
+them, and informed them of something they had not asked him about, to show them that he had knowledge. And
+the king, when he wanted to kill a man, prepared a known food for him and sent it to him. So Yūsuf said, ʿno
+food with which you are provided will come to you,ʾ to His saying ʿbe thankful.ʾ And they did not leave him,
+so he turned them aside, disliking the interpretation for them; and they did not leave him until he
+interpreted for them, so he turned them aside and said, ʿO my two fellow-prisoners, are several lords better
+or God the One the Overpowering?ʾ to His saying ʿthey do not know.ʾ And they did not leave him until he
+interpreted for them, and said, ʿO my two fellow-prisoners, as for one of you, he will give his lord wine to
+drink, and as for the other, he will be crucified and the birds will eat from his head.ʾ They said, ʿWe saw
+nothing — we were only playing!ʾ He said, ʿThe matter in which you seek a ruling has been decided.ʾ"
+**[Ṭabarī]** comments: on this interpretation of Ibn Jurayj, "no food with which you are provided will come
+to you" is in waking and not in sleep; and on this saying he only informed them that he had knowledge of what
+the food that came to them from the king and from others would issue in, because he knew the kind which, when
+it came to them, was a sign of the killing of the one to whom it came, and the kind which, when it came, was
+a sign of something else; so he informed them that he had knowledge of that. **[Qurṭubī]** Yūsuf said to them:
+"no food with which you are provided will come to you" — meaning, no food will come to you tomorrow from your
+homes — "except that I shall inform you of its interpretation," so that you know that I know the
+interpretation of your dream. So they said, "Do it!" And he said to them, "such-and-such will come to you,"
+and it was as he said; and this was of the knowledge of the unseen by which Yūsuf was distinguished. And he
+made clear that God distinguished him with this knowledge because he had left the creed of a people who do
+not believe in God, meaning the religion of the king. And the meaning of the speech, in my view, is: the
+knowledge of the interpretation of your dream, and the knowledge of what will come to you of your food, and
+the knowledge of the religion of God — so hear first what pertains to religion, in order that you may be
+guided; and for this reason he did not interpret for them until he had called them to Islam, so he said, "O
+my two fellow-prisoners, are several lords better or God the One the Overpowering? You do not worship …," the
+whole verse, as will come. And it is said he knew that one of them was to be killed, so he called them to
+Islam so that they might be made happy by it. And it is said that Yūsuf disliked to interpret for them what
+they had asked because of what he knew of the disliked thing upon one of them, so he turned away from their
+question and took up something else and said, "no food with which you are provided will come to you" in sleep
+"except that I shall inform you" of its interpretation "in waking" — said al-Suddī. So they said to him,
+"this is of the doing of soothsayers and diviners," and Yūsuf said to them, "I am no soothsayer; rather that
+is of what my Lord taught me — I do not inform you of it by soothsaying or by astrology, but it is by
+revelation from God the Exalted." Ibn Jurayj said: the king, when he wanted to kill a man, prepared a known
+food for him and sent it to him; so the meaning is, no food with which you are provided will come to you in
+waking — and on this, "with which you are provided" means what is allotted to you from the king or someone
+else, and it is possible that God provides you. Al-Ḥasan said: he used to inform them of what was absent,
+like ʿĪsā. And it is said he only called them by that to Islam, and made the miracle by which they would
+infer his informing them of the unseen. **[Ibn Kathīr]** Yūsuf calls his jail-mates to tawḥīd even before he
+interprets their dreams. He told the two men that he has knowledge of the interpretation of whatever they saw
+in their dream, and that he will tell them about the interpretation of the dreams before they become a
+reality. Mujāhid commented: "no food will come to you as your provision" — this day — "but I will inform you
+of its interpretation before it comes"; al-Suddī said similarly. Yūsuf said that this knowledge is from God,
+who taught it to him, because he shunned the religion of those who disbelieve in Him and in the Last Day, who
+neither hope for Godʾs reward nor fear His punishment on the Day of Return. **[Jalālayn]** He said to them
+both, in order to inform them that he knew how to interpret dreams, "The food with which you are provided
+shall not come to you while you are asleep, but I shall tell you the interpretation thereof while you are
+conscious, before it — the interpretation thereof — comes to you. This is from that which my Lord has taught
+me" — herein is an incitement for them to believe, which he reinforces with the following words — "Lo! I have
+forsaken the creed, the religion, of a folk who do not believe in God and who moreover — ʿtheyʾ is repeated
+for emphasis — are disbelievers in the Hereafter." **[Saʿdī]** He said to them both in answer to their
+request: "no food with which you are provided will come to you except that I shall inform you of its
+interpretation before it comes to you" — so let your hearts be at rest, for I shall hasten to the
+interpretation of your dream; your lunch or your supper will not come to you at the very first moment it
+arrives except that I shall inform you of its interpretation before it comes to you. And perhaps Yūsuf
+intended to call them to faith in this state, in which their need of him had appeared, so that it would be
+more effective for his call and more acceptable to them. Then he said, "that" — the interpretation which I
+shall interpret for you — "is of what my Lord taught me," that is, this is of Godʾs knowledge which He taught
+me and by which He did good to me. And that is because "I have forsaken the creed of a people who do not
+believe in God and who, in the hereafter, are disbelievers" — and leaving, as it may be of one who enters a
+thing and then transfers out of it, may also be of one who never entered it at all; so it is not to be said
+that Yūsuf had previously been upon other than the creed of Ibrāhīm. **[Maʿārif]** "That is of the knowledge
+my Lord has given me": he is saying that this has nothing to do with the art of divination through
+computation of figures and lines (*ʿilm al-jafr* and *ʿilm al-raml*), soothsaying or any other occult act of
+conjuring. Instead of all that, this is what my Lord tells me, and I pass on the information. And this was an
+open miracle which is proof positive of prophethood and a major cause of confidence. **[Study Quran]** In
+speaking of "food with which you are provided," Joseph is alluding to the dreams that the young men in prison
+might have in their sleep, which he assures them he will be able to interpret before they become actualised
+as events in their waking state; cf. Genesis 40:8. For Josephʾs being taught the ability to interpret dreams,
+see 12:6. Some interpret this verse to mean that God taught him these things because he rejected the creed of
+a people who believe not in God **[al-Bayḍāwī]**. Alternately, the verse may be understood to mean that
+Joseph made mention of his God-given knowledge and his faith as a means to invite the young men to believe in
+Godʾs Oneness.
+
+**Language.** The repetition of *hum* in "and they, in the hereafter, they are disbelievers," with the first
+rendered as though cancelled because "in the hereafter" intervenes, is explained by **[Ṭabarī]** with 2:4,
+31:4 and 23:35 as parallels; **[Jalālayn]** notes it simply as emphasis. The verb "I have forsaken" is an
+initial statement whose sense is "I did not incline," and **[Saʿdī]** adds that leaving may describe one who
+never entered at all, which forecloses any suggestion that Yūsuf had once been upon another creed.
+
+**Belief.** **[Maʿārif]**ʾs negative definition is the doctrinal point of the verse: the knowledge Yūsuf
+offers is explicitly not *ʿilm al-jafr* or *ʿilm al-raml*, not soothsaying, not astrology — the whole family
+of occult technique — but revelation. **[Qurṭubī]** preserves the same denial in narrative form, with the two
+men accusing him of being a soothsayer and him answering, "I am no soothsayer … it is by revelation from God
+the Exalted." Al-Ḥasanʾs comparison to ʿĪsā, informing of what is absent, marks the limit of the analogy: it
+is knowledge given, not knowledge derived.
+
+**Cross-references.** 2:4 and 31:4; 23:35; 12:6 (the teaching of the interpretation of events); 12:38–40 (the
+call to tawḥīd that precedes the interpretation); 12:41 (the interpretation itself); Genesis 40:8 **[Study
+Quran]**.
+
+**Reflection.** Two men ask a question and get a sermon, and the sermon is the answer. **[Ṭabarī]** explains
+the delay twice over — Yūsuf disliked to give one of them the news he knew was coming, so he turned to
+something else; and Ibn Jurayjʾs version has them pressing him twice, at each turn deflecting into theology,
+until they will not let him go. **[Qurṭubī]** states the order of his own reading explicitly: the knowledge
+of the interpretation of the dream, the knowledge of the food that will come to them, and the knowledge of
+the religion of God — hear first what pertains to religion, in order that you may be guided; and for this
+reason he did not interpret for them until he had called them to Islam. **[Saʿdī]** supplies the pastoral
+motive: perhaps he intended to call them to faith in this state, when their need of him had appeared, because
+it would be more effective and more acceptable. And **[Maʿārif]** adds the tactical reason — before the
+message can be received, confidence must be created, and the miracle of knowing the food before it arrives is
+what creates it. The verse is thus a model of prioritisation: a man in prison, asked for a service, gives the
+service but does not let it be the first thing he says.
+
+---
+
+## 12:38
+
+*"And I follow the creed of my fathers, Ibrāhīm, Isḥāq and Yaʿqūb. It is not for us to associate anything with
+God. That is of the bounty of God upon us and upon mankind, but most men do not give thanks."*
+
+**Meaning.** **[Ṭabarī]** "And I followed the creed of my fathers Ibrāhīm, Isḥāq and Yaʿqūb" means I
+followed their religion, not the religion of the people of *shirk*. "It is not for us to associate anything
+with God": it is not permitted for us to make a partner with God in His worship and His obedience; rather
+what is upon us is to single Him out with divinity and worship. "That is of the bounty of God upon us": my
+following the creed of my fathers Ibrāhīm, Isḥāq and Yaʿqūb upon Islam, and my leaving the creed of a people
+who do not believe in God and who in the hereafter are disbelievers, is of the bounty of God with which He
+favoured us and by which He blessed us when He honoured us with it. "And upon people": and that is also of
+the bounty of God upon people, since He sent us to them as callers to His oneness and His obedience. "But
+most people do not give thanks": whoever disbelieves in God does not give thanks for that of His bounty upon
+him, because he does not know who bestowed it upon him and does not recognise the One who favoured him with
+it. The glosses: Ibn ʿAbbās said, "that is of the bounty of God upon us, that He made us prophets; and upon
+people, that He sent us to them as messengers"; and Qatādah said, "it is related to us that Abū al-Dardāʾ
+used to say: how many a one is grateful for a blessing not bestowed upon him, without knowing; and how many a
+carrier of *fiqh* is not a *faqīh*." **[Qurṭubī]** "And I followed the creed of my fathers Ibrāhīm, Isḥāq
+and Yaʿqūb" — because they were prophets upon the truth. "It is not for us" means it does not befit us. "To
+associate anything with God": *min* is for emphasis, as in your saying "no one (*min aḥad*) came to me."
+"That is of the bounty of God upon us" is an indication to His protection of him from fornication; "and upon
+people" means upon the believers whom God protected from *shirk*. And it is said: "that is of the bounty of
+God upon us" in that He made us prophets, "and upon people" in that He made us messengers to them. "But most
+people do not give thanks" for the blessing of tawḥīd and faith. **[Ibn Kathīr]** Yūsuf said, "I have avoided
+the way of disbelief and polytheism, and followed the way of these honourable Messengers," may Godʾs peace
+and blessings be upon them. This is the way of him who seeks the path of guidance and follows the way of the
+Messengers, all the while shunning the path of deviation. It is he whose heart God will guide, teaching him
+what he did not know beforehand; it is he whom God will make an imam who is imitated in the way of
+righteousness, and a caller to the path of goodness. Yūsuf said next, "and never could we attribute any
+partners whatsoever to God. This is from the grace of God to us and to mankind" — this tawḥīd, affirming that
+there is no deity worthy of worship except God alone without partners — "is from the grace of God to us": He
+has revealed it to us and ordained it on us; "and to mankind," to whom He has sent us as callers to tawḥīd;
+"but most men thank not": they do not admit Godʾs favour and blessing of sending the Messengers to them, but
+rather "they have changed the blessings of God into disbelief, and caused their people to dwell in the house
+of destruction" (14:28). **[Jalālayn]** And I follow the creed of my fathers, Abraham, Isaac and Jacob. It
+never was right for us to associate anything — *min shayʾin*, *min* being extra — with God, on account of our
+God-given immunity from error. That affirmation of Godʾs Oneness is from Godʾs bounty to us and to mankind;
+but most people — and these are the disbelievers — do not give thanks to God, and so they associate others
+with Him. **[Saʿdī]** "And I followed the creed of my fathers Ibrāhīm, Isḥāq and Yaʿqūb"; then he explained
+that creed by his saying, "it is not for us" — it does not befit us and is not fitting for us — "to associate
+anything with God"; rather we single God out with tawḥīd and make sincere to Him the religion and the
+worship. "That is of the bounty of God upon us and upon people": this is of the best of His bounties, His
+kindness and His favour upon us and upon whoever God guided as He guided us; for there is nothing better than
+Godʾs favour upon the servants by Islam and the upright religion. Whoever accepts it and submits to it — that
+is his portion, and he has attained the greatest of blessings and the most magnificent of virtues. "But most
+people do not give thanks": so the favour and the kindness come to them, and they do not accept them and do
+not stand to Godʾs right in them. And in this there is an encouragement towards the path he is upon that is
+not hidden; for when the two young men had it established with them that they saw him with the eye of
+magnification and reverence, and that he was a doer of good and a teacher, he mentioned to them that this
+state he is upon is all of the bounty of God and His kindness. **[Maʿārif]** After that he declares his
+abhorrence for disbelief and his disengagement from the community of disbelievers. Then, with it, he also
+stresses that he is a member of the House of Prophets and that it is their community he adheres to, and that
+he is a scion of the House of Ibrāhīm, Isḥāq and Yaʿqūb. We mentioned confidence a little earlier:
+customarily, this kind of inherited nobility, a common family trait, is also a source of creating confidence
+in a person. After that he said, "and it is not for us that we associate any partners with God." Then he said
+that the *tawfīq* of following a true religion — "the favour of God upon us and upon all people" — was
+nothing but the grace of God, for it was He who, by giving proper understanding, made the acceptance of truth
+easy on us. But most of the people do not appreciate this blessing and do not show their gratitude for it.
+**[Study Quran]** "That" in "That is from the bounty God has bestowed" is a reference to the affirmation of
+Godʾs Oneness, or an allusion to the fact stated by Joseph when he said, "It is not for us to ascribe any
+partners unto God" **[al-Rāzī]**, meaning: the non-ascription of partners to God is among the bounties that
+God has bestowed. For the idea that the majority are ungrateful, see 2:243; 10:59–60; 27:73; 40:61.
+
+**Language.** The *min* in *min shayʾ* is either extra **[Jalālayn]** or for emphasis, on the analogy of "no
+one (*min aḥad*) came to me" **[Qurṭubī]**; *mā kāna lanā* means "it does not befit us" **[Qurṭubī] [Saʿdī]**;
+and *al-qayyim* will be glossed at 12:40 as the straight, in which there is no crookedness.
+
+**Belief.** The verse contains Yūsufʾs creed in four moves: the religion he follows is that of his fathers
+Ibrāhīm, Isḥāq and Yaʿqūb; association is not merely forbidden to him but impossible for him (*mā kāna lanā*);
+tawḥīd is not an achievement but a bounty, upon him and upon mankind alike; and the reason most people miss it
+is not intellectual but moral — they do not give thanks. **[Jalālayn]** names the ground of the second move:
+God-given immunity from error. **[Qurṭubī]** reads "that is of the bounty of God upon us" as pointing back to
+12:24, Godʾs protection of him from fornication — so the creed is anchored in a specific deliverance.
+**[Ṭabarī]** closes with Abū al-Dardāʾʾs saying, which turns the last clause into a warning about gratitude
+misplaced and knowledge unaccompanied by understanding.
+
+**Cross-references.** 14:28 ("they have changed the blessings of God into disbelief"); 2:243; 10:59–60;
+27:73; 40:61 **[Study Quran]**; 12:24 (the protection referred to); 6:84 (the same three fathers); 12:39–40
+(the argument that follows).
+
+**Reflection.** A slave in an Egyptian prison, addressing two servants of a pagan king, traces his lineage
+through three prophets and says "it is not for us to associate anything with God." The *us* is the point: he
+does not say "it is not for me" but places himself inside a household whose defining characteristic is that
+association is unthinkable for it. **[Maʿārif]** draws the practical inference — inherited nobility of this
+kind is itself a source of confidence in a person, which is why he mentions it at all, in the middle of
+building trust with two strangers. And **[Saʿdī]** notices the rhetorical shape: the whole speech is an
+encouragement towards the path he is on, delivered at the exact moment the two young men have begun to see
+him with reverence. He does not let the reverence terminate on himself. "That is of the bounty of God upon
+us" transfers the credit in the same breath that receives it — which is why the verse ends where it does, on
+the ingratitude of most people, the one failure that makes the bounty useless.
+
+---
+
+
+## 12:39
+
+*"O my two companions of the prison! Are sundry lords better, or God, the One, the Overpowering?"*
+
+**Meaning.** **[Ṭabarī]** It is mentioned that Yūsuf said this to the two young men who entered the prison
+with him, because one of them was a polytheist, so he called him by this saying to Islam and to leaving the
+worship of gods and idols. He said, "O my two companions of the prison," meaning O you who are in the prison;
+and he made them his two companions because of their being in it, as God said of the inhabitants of the
+Garden, "those are the companions of the Garden, therein abiding," and likewise said of the people of the
+Fire, calling them its companions because of their being in it. "Are sundry lords better, or God the One the
+Overpowering": is the worship of sundry scattered lords and gods that neither benefit nor harm better, or the
+worship of the One Worshipped who has no second in His power and His dominion, who has subdued everything and
+humbled it and made it subservient, so that it obeyed Him willingly and unwillingly? The glosses: Qatādah
+said, "when Godʾs prophet Yūsuf knew that one of them was to be killed, he called them both to their portion
+from their Lord and to their share of their hereafter"; Mujāhid said, "ʿO my two companions of the prisonʾ —
+Yūsuf says it"; and Ibn Isḥāq said, "then he called them to God and to Islam and said, ʿO my two companions of
+the prison, are sundry lords better or God the One the Overpowering?ʾ — that is, is it better that you worship
+one god, or scattered gods that avail you nothing?" **[Qurṭubī]** "O my two companions of the prison" means O
+you two inhabitants of the prison; and he mentioned companionship because of the length of their stay in it,
+as in your saying "the companions of the Garden" and "the companions of the Fire." "Are sundry lords" —
+scattered in smallness, greatness and middling; or scattered in number. "Better, or God the One the
+Overpowering" — and it is said that the address is to the two of them and to the people of the prison, and
+there were before them idols which they worshipped besides God the Exalted, so he said that by way of binding
+the argument upon them: sundry gods that neither harm nor benefit — better, or God the One the Overpowering,
+who has subdued everything? Its parallel is "is God better, or what they associate?" (27:59). And it is said
+he indicated by "scattered" that were the god multiple they would differ in will and some of them would rise
+over others, and he made clear that if they are scattered they are not gods. **[Ibn Kathīr]** The prophet
+Yūsuf went on calling his two prison companions to worship God alone, without partners, and to reject
+whatever was being worshipped instead of Him, like the idols which were worshipped by the people of the two
+men. Yūsuf said, "Are many different lords better, or God the One the Irresistible?" — to whose grace and
+infinite kingdom everything and everyone has submitted in humiliation. **[Jalālayn]** He — Joseph — then
+explicitly calls them to faith, saying, "O my two fellow-prisoners, inmates of the prison! Are several lords
+better, or is God, the One, the Almighty, better?" — an interrogative meant as an affirmative. **[Saʿdī]** He
+is the One, singular in His essence, His attributes and His actions, so He has no partner in anything of
+that; and the Overpowering, to whose coercion and dominion all things have submitted, so that what He wills
+is and what He does not will is not, and there is no beast but He holds its forelock. And it is known that
+whoever is of this station and this description is better than the scattered gods, which are mere names with
+no perfection and no action in them. So Yūsuf called his two companions of the prison to the worship of God
+alone and to making the religion sincere to Him; and it is possible that they responded and submitted, so
+that the blessing was completed upon them, and it is possible that they remained upon their *shirk*, so that
+the argument was established against them by that. **[Maʿārif]** After having said that, he asked the same
+prisoners to tell him whether it was better that human beings should be worshipping many gods, or whether it
+was better that one becomes a servant of one God alone, whose subduing power is all-dominant. **[Study
+Quran]** After establishing the importance of prophecy in 12:38, this verse seeks to establish the basis of
+prophecy, namely its Divine Origin **[al-Rāzī]**. The majority of prophets were faced with the reality of
+peopleʾs worship of false divinities, and this was also the case with Joseph; this is why the verse begins
+with a demonstration of the futility of taking gods alongside God **[al-Rāzī]**. The rhetorical question "Are
+diverse lords better, or God, the One, the Paramount?" alludes to the Qurʾānʾs teaching that if there were
+more than one god the cosmic order would contain fissures and would go to ruin, whereas the being of the One
+God, who is the Source of all reality, makes possible the order and beauty in the cosmos **[al-Rāzī]**, as at
+21:22: "Were there gods other than God in them, they would surely have been corrupted."
+
+**Language.** *Ṣāḥib* is derived from companionship in a place rather than in affection, which is why the
+inhabitants of the Garden and of the Fire are called its *aṣḥāb* **[Ṭabarī]**; **[Qurṭubī]** adds that Yūsuf
+mentions companionship because of the length of their stay. *Mutafarriqūn* is glossed as scattered in rank —
+small, great and middling — or scattered in number, and **[Qurṭubī]** records the inference that multiplicity
+entails divergence of will and mutual domination, which is incompatible with divinity.
+
+**Belief.** The question is not neutral. **[Jalālayn]** calls it an interrogative meant as an affirmative;
+**[Qurṭubī]** calls it binding the argument (*ilzām al-ḥujjah*); **[Study Quran]**, through al-Rāzī, places it
+in the larger argument of the Qurʾān that a plurality of gods would produce fissures and ruin in the cosmic
+order, whereas the One who is the Source of all reality is what makes that order and its beauty possible. And
+**[Saʿdī]** supplies the definition of the two names invoked: the One, singular in essence, attributes and
+actions, with no partner in any of them; the Overpowering, to whose coercion all things submit, so that what
+He wills is and what He does not will is not, and no beast exists but He holds its forelock. Against that,
+the scattered lords are names with no perfection and no action — which is why the comparison is not close
+enough to be a real comparison.
+
+**Cross-references.** 27:59 ("is God better, or what they associate?"); 21:22 ("were there gods other than
+God in them, they would surely have been corrupted"); 2:25 and 2:39 (the companions of the Garden and of the
+Fire); 12:38 (the creed whose basis this verse establishes); 12:40 (the argument completed); 12:103 ("most of
+mankind will not believe even if you eagerly desire it") **[Ibn Kathīr]**.
+
+**Reflection.** The verse is the pivot of Yūsufʾs prison ministry, and its setting is what gives it weight.
+He is a slave, a foreigner, a prisoner under an unproven charge, addressing two men who may be executed
+within days; and the first thing he does with the authority they have just conceded to him is to ask a
+question about the coherence of the universe. **[Qurṭubī]**ʾs note that the address runs to the whole prison
+— that there were idols before them which they worshipped — turns a private conversation into a public
+disputation. And Qatādahʾs remark, preserved by **[Ṭabarī]**, that he called them to their portion from their
+Lord *because he knew one of them was to be killed*, identifies the pastoral timing: the argument about the
+One who holds every forelock is addressed to a man about to lose his. **[Saʿdī]** ends where the text ends,
+without knowing — they may have responded, or they may have remained upon their *shirk*, and either way the
+argument has been established. The obligation was to say it, not to succeed in it.
+
+---
+
+## 12:40
+
+*"You worship not, apart from Him, except names that you have named, you and your fathers, for which God has
+sent down no authority. Judgment belongs to God alone. He has commanded that you worship none but Him. That
+is the upright religion, but most people do not know."*
+
+**Meaning.** **[Ṭabarī]** "You worship not, apart from Him" means apart from God. And He said "you worship,"
+though He had begun the address with the dual, "O my two companions of the prison," because He intended by
+the one addressed whoever was resident upon *shirk* with God among the people of Egypt; so He said to the one
+addressed by that: what do you worship, you and whoever is upon the like of what you are upon of the worship
+of idols, "except names you have named, you and your fathers" — and that is their naming their idols gods and
+lords, out of *shirk* with Him and likening them, in the names by which they named them, to God, who is exalted
+above having a like or a semblance — "for which God has sent down no authority": they named them with names He
+did not permit them to name them with, nor did He establish for them that those names belong to them. "He has
+commanded that you worship none but Him": and He is the One who commanded that you — and all His creation —
+worship none but God, to whom divinity and worship belong exclusively, apart from everything else besides
+Him; as Abū al-ʿĀliyah said, through al-Rabīʿ b. Anas, "He founded the religion upon sincerity to God alone,
+with no partner to Him." "That is the upright religion": this to which I have called you both — of being free
+from the worship of other than God, of idols, and of making worship sincere to God the One the Overpowering —
+is the straight religion in which there is no crookedness, and the truth in which there is no doubt. "But
+most people do not know": the people of *shirk* with God are ignorant of that, so they do not know its
+reality. **[Qurṭubī]** He made clear the incapacity and weakness of the idols, saying, "you worship not apart
+from Him" — apart from God — "except selves possessing names that have no meanings." "You have named them"
+from yourselves. And it is said that He meant by the names the named things, that is, you worship only idols
+that have nothing of divinity except the name, because they are inanimate. And He said "you worship" though He
+had begun with the address of two, because He intended all who are in the like of their state of *shirk*.
+"Except names you have named, you and your fathers" — He deleted the second object for the sake of the
+indication, and the meaning is "you have named them gods from yourselves." "God has not sent down" that in a
+Book. Saʿīd b. Jubayr said "any authority" means any proof. "Judgment belongs only to God," who is the
+Creator of all. "He has commanded that you worship none but Him." "That is the upright religion" — the
+straight. "But most people do not know." **[Ibn Kathīr]** Yūsuf explained to them next that it is because of
+their ignorance that they worship false deities and give them names, for these names were forged and are
+being transferred from one generation to the next. They have no proof or authority that supports this
+practice, hence his statement to them, "for which God has sent down no authority," or proof and evidence. He
+then affirmed that the judgment, decision, will and kingdom all belong to God alone, and that He has
+commanded all of His servants to worship none but Him. He said, "That is the straight religion": this tawḥīd
+of God and directing of all acts of worship to Him alone in sincerity, to which I am calling you, is the
+right, straight religion that God has ordained and for which He has revealed what He wills of proofs and
+evidences; "but most men know not," and this is why most of them are idolators — "and most of mankind will
+not believe even if you eagerly desire it" (12:103). When Yūsuf finished calling them, he started
+interpreting their dreams for them. **[Jalālayn]** "You do not worship apart from Him," that is, other than
+Him, "anything but mere names that you have named," that you have named for idols, "you and your fathers. God
+has not revealed any warrant, any definitive argument or proof, regarding them," regarding the worship of
+them. "Judgment, decree, belongs only to God alone. He has commanded that you worship none but Him. That"
+affirmation of Godʾs Oneness "is the upright, the straight, religion; but most people — and these are the
+disbelievers — do not know the punishment in which they shall end up, and so they ascribe partners to God."
+**[Saʿdī]** "You worship not apart from Him except names you have named, you and your fathers": you clothed
+them with names and called them gods, while they are nothing, and there is nothing in them of the attributes
+of divinity. "God has sent down no authority for them": rather God sent down the authority with the
+prohibition of their worship and the clarification of their invalidity; and when God has sent down no
+authority for them, there is no path, no means and no evidence for them. For the judgment is Godʾs alone: He
+is the One who commands and forbids and legislates the laws and enacts the rulings, and He is the One who
+commanded you "that you worship none but Him. That is the upright religion" — the straight one, leading to
+every good; and other than it of religions are not straight but crooked, leading to every evil. "But most
+people do not know" the realities of things; otherwise, the difference between the worship of God alone with
+no partner and associating others with Him is the most manifest and clearest of things, but because of the
+absence of knowledge of that in most people, there issued from them what issued of *shirk*. **[Maʿārif]** He
+referred to idol worship from a different angle. He told them that their fathers and forefathers had taken
+some idols as their Lord; as for them, they are no more than a lot of names which they have coined on their
+own. They have no personal attributes which could become deserving of assigning to them the least fund of
+power, because all of them are inert — and this is something one can see with oneʾs own eyes. The only other
+method through which they could have been taken as true objects of worship would be that God send down
+specific injunctions or commandments to worship them; in that case, even if observation and reason were not
+willing to accept their godhood, because of the Divine command we would have left our observation and reason
+aside and obeyed the command of God. But this is not there either, because God did not send down any argument
+or proof for their worship. Instead of that, what He said was but that Law and Sovereignty belonged to God
+with no one having a right in it; and the command He gave was no other than that we should not worship anyone
+or anything other than God. Finally he said: this is the only right path, which was bestowed on his
+forefathers. **[Study Quran]** After establishing the necessity, both logical and ontological, of Godʾs
+Oneness, 12:40 draws attention to the need to worship the one true God and not the false gods divinised by
+idolatrous people. For the Qurʾānʾs insistence that false gods are nothing more than the names assigned to
+them, see 7:71 and 53:23. Godʾs Command that you worship none but Him is analogous to 17:23: "Thy Lord
+decrees that you worship none but Him." For "That is the upright religion, but most of mankind know not," see
+6:161 and 30:30.
+
+**Language.** The shift from the dual address of 12:39 to the plural "you worship" is explained twice:
+**[Ṭabarī]** says God intended by the one addressed whoever was resident upon *shirk* among the people of
+Egypt, and **[Qurṭubī]** that He intended all who are in the like of their state. The second object of
+*sammaytumūhā* is deleted for the sake of the indication, the sense being "you have named them gods"
+**[Qurṭubī]**. *Sulṭān* is glossed as proof by Saʿīd b. Jubayr; *al-dīn al-qayyim* as the straight, *al-qawīm*
+**[Qurṭubī] [Ṭabarī]**; and *asmāʾ* is read either as names without meanings, or as standing for the named
+things themselves, which are inanimate **[Qurṭubī]**.
+
+**Belief.** **[Maʿārif]** sets out the epistemology of the verse with unusual precision: an object of worship
+must be established either by observation and reason — which the idols fail, being inert, and this is visible
+to the eye — or by a divine command to worship them, in which case observation and reason would be set aside
+in obedience. Neither route exists. God sent down no authority for their worship; rather, **[Saʿdī]** adds, He
+sent down the authority with the prohibition of their worship and the clarification of their invalidity. The
+consequence is stated in the second half of the verse: judgment, command, legislation and the enacting of
+rulings belong to God alone, and the religion He founded is founded on sincerity to Him with no partner
+(Abū al-ʿĀliyah). And the closing clause is diagnostic rather than descriptive — the difference between
+tawḥīd and *shirk* is the clearest of things, so the failure to see it is a failure of knowledge, not a
+limit of the evidence.
+
+**Cross-references.** 7:71 and 53:23 (false gods as names); 17:23 ("Thy Lord decrees that you worship none
+but Him"); 6:161 and 30:30 ("the upright religion"); 27:59; 21:22; 12:103 ("most of mankind will not believe
+even if you eagerly desire it") **[Ibn Kathīr]**; 12:38 (the creed); 12:41 (the interpretation that follows
+the call).
+
+**Reflection.** Two verses, 12:39 and 12:40, contain the whole of Islamic apologetics in the order a person
+actually needs it: first the question about coherence — are scattered lords better, or the One who holds
+every forelock? — then the question about warrant — has God sent down any authority for these names? The
+first is answered by looking at the world, the second by looking at the claim. **[Ibn Kathīr]**ʾs note that
+the names "were forged and are being transferred from one generation to the next" identifies the mechanism by
+which an unwarranted belief survives: inheritance. That is why the verse names the fathers twice, here and at
+12:38, and why Yūsufʾs own answer at 12:38 was to name *his* fathers — Ibrāhīm, Isḥāq, Yaʿqūb — so that
+tradition is met with a better tradition. And **[Ibn Kathīr]** marks the transition with a single sentence
+that deserves notice: "When Yūsuf finished calling them, he started interpreting their dreams for them." The
+daʿwah was not a substitute for the service requested at 12:36, and it was not an evasion of it either. He
+gave the argument first, then he gave the answer — and the answer, at 12:41, is that one of them will be
+crucified.
+
+---
