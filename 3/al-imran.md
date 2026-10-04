@@ -1352,3 +1352,375 @@ hearts, the gathering — folds at 3:30 with the two names that held it open fro
 *al-ʿAzīz al-Ḥakīm*): God warns, and God is *most kind to the servants*. The Qurʾān's readers in this
 chapter are told which of the two to take hold of: both, in that order.
 
+
+
+## 3:31 — قُلْ إِن كُنتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ
+
+*"Say: If you love God, follow me — and God will love you and forgive you your sins. And God is all-forgiving, most merciful."*
+
+**Context.** **[Ṭabarī]** opens with the occasion: "some people said in the Prophet's time, *we love our
+Lord*, and God commanded His Prophet to say: if you are truthful in what you say, *follow me* — that is
+the sign of your truth." He transmits it from al-Ḥasan al-Baṣrī through two chains and then notes that
+the editors' judges found them weak — the report itself he carries, its chain he does not vouch for.
+*(weak by chain, famous in meaning.)* **[Jalālayn]** adds a companion occasion: "we worship the idols
+only out of love for God, so that they bring us near to Him" — the Meccans' plea of 39:3 — and
+**[Study Quran]** records the same reading for the Christians of Najrān (Thāʿalibī): they said they
+worshipped the Messiah out of love of God.
+
+**Meaning.** **[Jalālayn]**: *follow me* — in my way — *and God will love you*, i.e. reward you and
+cover your sins; *God is forgiving* toward the sins a follower was guilty of before he followed,
+*merciful* to him after. **[Ibn Kathīr]**: the verse is the judge over every claim to love God that
+does not walk the way of Muḥammad ﷺ — such a claimant is not truthful until he follows his law in all
+his words, deeds and states; the proof-text is the ḥadīth of the Ṣaḥīḥ: "whoever does a deed not upon
+our affair, it is rejected." And what the lover gets exceeds what he sought: *God will love you*.
+Al-Ḥasan and several of the Salaf: "a people claimed to love God, so God tested them with this verse."
+**[Maʿārif]**: love is a hidden thing with no measure except its traces; this verse installs the
+touchstone — the frequency and quality of following the Prophet is what exposes the genuine and the
+fake of the claim. The sequence of the sūrah is his frame too: 3:19–30 settled *tawḥīd* and condemned
+its denial; now prophethood is affirmed, and rejecting the messenger is *kufr* as rejecting God is.
+
+**Language.** **[Qurṭubī]** on the root: *al-ḥubb* is love, and *al-ḥibb* with *kasr* — which also means
+*the beloved*, like *khidn* and *khadīn*; you say *aḥabbahu* so he is *muḥib* (one who loves), and
+*ḥabba* so he is *maḥbūb* (one who is loved); al-Jawharī flagged the passive form as odd since reduplicated
+verbs rarely take *yafʿilu* with *kasr*, and Abū l-Fatḥ answered: its origin is *ḥabuba* like
+*ẓarufa*, the middle radical vowelless and assimilated; Ibn al-Dahhān: *ḥabba* has two builds, and
+*maḥbūb* runs on *faʿūla* while *ḥabīb* runs on *faʿīl*. **[Study Quran]**: God's *maḥabba* here is the
+responsive dimension of His love — unlike *raḥma*, which theology reads as both unconditional and
+responsive — and notes that the Qurʾān speaks of God's love for people far more often than of their
+love for Him.
+
+**Reflection.** A single verse with the shape of a proof: the claim is unverifiable, the behaviour is
+not — so God turns the claimant's own word into the test of his claim. Note the fine grammar of devotion
+that **[Study Quran]** marks: *follow me*, not *obey me* — one cannot in the ordinary sense "follow" God
+directly, though one obeys Him and obeys His messenger (cf. 4:80).
+
+---
+
+## 3:32 — قُلْ أَطِيعُوا اللَّهَ وَالرَّسُولَ ۖ فَإِن تَوَلَّوْا فَإِنَّ اللَّهَ لَا يُحِبُّ الْكَافِرِينَ
+
+*"Say: Obey God and the Messenger. And if they turn away — truly God does not love the disbelievers."*
+
+**Meaning.** **[Jalālayn]**: obey God and the Messenger in the affirmation of God's oneness and what he
+enjoins of it; *if they turn away* from obedience, *God does not love the disbelievers* — a way of
+saying He will chastise them; he marks the style: the hidden third-person pronoun is exposed as the
+overt noun (*al-kāfirīn*) for clarity. **[Ṭabarī]**: say to this delegation of the Christians of
+Najrān — obey God and Muḥammad, the Messenger, for you know with certainty that he is My messenger to
+creation, sent with the truth, and you find him written with you in the Injīl; and if they turn their
+backs on what he was sent with, inform them that God does not love one who disbelieves by denying the
+truth he knew and repudiating it after knowledge — and that they are among those He does not love, for
+denying the prophethood after knowing its truth. The report from Muḥammad b. Jaʿfar b. al-Zubayr via
+Ibn Isḥāq sets the same address on the record: *obey God and the Messenger* — you know him (the
+delegation of Najrān) and find him in your book; *if they turn away* in their kufr, *then God does not
+love the disbelievers*.
+
+**Belief.** **[Ibn Kathīr]**: the verse testifies that defying the Messenger's way *is* kufr, and that
+God does not love the one who claims love and means approach to Him while leaving the unlettered
+Prophet, the seal of the messengers to jinn and mankind. **[Study Quran]**: obedience to the Messenger
+is set next to obedience to God (4:59, 4:80; 3:132; 5:92; 8:2, 20, 46; 24:54; 33:33; 47:33; 49:14;
+64:12) — the normative character of his words and deeds, the ground of the ḥadīth-genre and of the law
+itself; for the Sufis he is the living presence through whom God strengthens the traveller; and the
+one who claims love and does not follow falls short, for "in the Messenger of God you have a beautiful
+exemplar" (33:21).
+
+**Reflection.** **[Saʿdī]**, completing 3:31: this is the balance by which the true claimant of love
+and the bare claimant are weighed — God and His messenger obeyed in command, prohibition and report;
+and if they turn away, *that* is the kufr, and God does not love the people of kufr. Deference, in
+this verse, is not added to love; it is love's visible body.
+
+---
+
+## 3:33 — إِنَّ اللَّهَ اصْطَفَىٰ آدَمَ وَنُوحًا وَآلَ إِبْرَاهِيمَ وَآلَ عِمْرَانَ عَلَى الْعَالَمِينَ
+
+*"Truly God chose Adam and Noah and the house of Abraham and the house of ʿImrān above the worlds."*
+
+**Meaning.** **[Ṭabarī]**: God *selects* (ijtabā) Adam and Noah and chooses them for their religion,
+and the *people* (āl) of Abraham and ʿImrān for their religion — for they were *Muslims* — announcing
+that He chose the religion of those named above every religion that diverged from it; and *āl* means
+the followers, the folk, those on one's way, as He demonstrated elsewhere — the choice falls on the
+believers among them. Ibn ʿAbbās is transmitted to this very sense: they are the believers of the
+house of Ibrāhīm and the house of ʿImrān, and the house of Yāsīn and the house of Muḥammad — "the
+nearest of people to Ibrāhīm are those who followed him" (3:68). Qatāda: two prophets God chose above
+the worlds. **[Jalālayn]**: He preferred their persons — Abraham's and ʿImrān's — above the worlds by
+setting prophethood in them and in their progeny. **[Qurṭubī]**: *iṣṭafā* is *ikhtāra*, chose, as at
+2:131; and the reckoning of the choice is by their *worlds* — al-Zajjāj: He chose them for prophethood
+above the world of their time. On Noah, his notes: the name may be from *nāḥa yanūḥu* (to lament), a
+non-Arabic name that declines because it is three letters; the patriarch of the envoys, the first
+messenger sent to the people of the earth after Adam, forbidding daughters, sisters, aunts and the rest
+of the forbidden kinships — and whoever places Idrīs before him, says Qurṭubī, has erred with the
+chronographers (see 7:139 in this book's sequence). **[Ibn Kathīr]**: Adam — created by Hand, breathed
+into, taught the names, made the angels bow to, and sent down by wisdom; Noah — the first messenger to
+the people of the earth when they worshipped idols, whose long day-and-night, open-and-secret call met
+only aversion until he prayed against them and they drowned, saved only his followers; the house of
+Ibrāhīm including the master of mankind, the Final Prophet; and the house of ʿImrān — the father of
+Mary, mother of Jesus — so that Jesus is of the progeny of Abraham.
+
+**Belief.** **[Study Quran]**: *muṣṭafā*, "chosen," attaches across the Qurʾān to several figures (3:42;
+6:84–87; 7:144; 38:47) — one of the Prophet Muḥammad's own names is *al-Muṣṭafā* — and *above the
+worlds* can mean above the peoples of their time (2:47; 6:86; 7:140). **[Maʿārif]**: four houses
+named, and the point of the selection is transmitted virtue — prophethood and its obedience passed
+"as progeny, one from another" (3:34): the blessing of one house feeds the next, so that the sūrah's
+audience stands inside a family history of election, with Muḥammad and Jesus at the same tree.
+**[Saʿdī]** frames 3:33–55 as a single unit: God has chosen ones among His servants whom He distinguishes
+with high qualities, useful knowledge and saving works — and He then tells the story of Mary and her
+son, how the two descend from these noble houses, so that the reader sees election as gift, not as
+lineage's property.
+
+**Reflection.** Read in place — immediately after the verse that made *following* the test of love —
+the verse pre-empts the whole sūrah's bloodline argument: election is God's choosing (iṣṭafāʾ), not a
+family's birthright, and the houses named are named *for their religion* in Ṭabarī's reading, the
+believers of each house being the ones chosen.
+
+---
+
+## 3:34 — ذُرِّيَّةً بَعْضُهَا مِن بَعْضٍ ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ
+
+*— a progeny, some of it from some. And God is all-hearing, all-knowing.*
+
+**Meaning.** **[Jalālayn]**: seed, offspring issuing one from another; then the two names: God hears
+every call and knows every intention. **[Ṭabarī]** parses the grammar with care: *dhurriyyatan* is
+accusative as a *qaṭʿ* — an isolating state — from *āl Ibrāhīm wa-āl ʿImrān*, since the latter are
+definite and it indefinite; and it would also be correct, he adds, to take the accusative as a repeated
+verb's object — "He chose a progeny…" (al-Farrāʾ records both). The kinship of the houses is in
+religion's inheritance: "some of them from some" means their *waliyy* in faith, their mutual support
+on Islam and the truth — as (9:71) "the believing men and women are allies of one another," and its
+dark mirror (9:67) "the hypocrite men and women, some of them from some": one religion, one way — so
+here: a progeny whose religion is their fathers' religion, one word, one *mila* in God's oneness and
+obedience. Qatāda: in intention, deed, sincerity and monotheism. And *God is all-hearing, all-knowing*
+is aimed at the moment ahead: He hears the saying of ʿImrān's wife and knows what she hides in herself
+when she vows what is in her belly. **[Study Quran]** reads the same doubleness: bloodline, in that the
+house of ʿImrān descends from Abraham who descends from Noah who descends from Adam (Māturīdī) — and
+spiritual filiation, in that what is inherited is the religion itself.
+
+**Reflection.** One clause long, and it does the structural work of the whole sūrah's second movement:
+the chains of grace are not genes but discipleships — a progeny *some of it from some* in "intention,
+deed, sincerity and tawḥīd" (Qatāda) — which is exactly why the story of a consecrated, unnamed girl
+can be the centrepiece of a sūrah named for a house.
+
+---
+
+## 3:35 — إِذْ قَالَتِ امْرَأَةُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ
+
+*"When the wife of ʿImrān said: my Lord, I vow to You what is in my belly — a free one, consecrated.
+So accept it from me; truly You are the hearer, the knower."*
+
+**Meaning.** **[Ṭabarī]**: the *idh* is governed by *samīʿ* in the previous verse — He hears when she
+said — and the first editor's suspicion of a lacuna is wrong; the speech is complete. ʿImrān's wife is
+Mary's mother, the mother of Jesus; her name was, on their reports, *Ḥannah daughter of Fāqudhū
+(b. Qatīl)* — Ibn Isḥāq's genealogy, with variant spellings (Fāqūd b. Qabīl, with *dāl*) — and her
+husband ʿImrān b. Yashham b. Āmūn b. Manshā b. Ḥizqiyā b. Aḥāz b. Yūthām b. ʿAzāriyā b. Amṣiyā b.
+Yūwash b. Aḥāz, of the line of Solomon, given in full from the same Ibn Isḥāq chain. *Muḥarraran*:
+consecrated, freed from the distractions of this world for the service of the Holy House in
+Jerusalem (per **[Jalālayn]**'s gloss: "one delivered for God's service, free of the world's
+entanglements"). **[Jalālayn]**: she had reached old age, longed for a child, prayed, and felt
+conception — and ʿImrān died while she was still pregnant. **[Ibn Kathīr]**: Ḥannah bint Fāqudh could
+not conceive; one day she saw a bird feeding its chick and wished for children, and prayed; God
+accepted, and when she conceived she vowed that the child would be devoted to worship and to the
+service of Bayt al-Maqdis. Her "You are the hearer, the knower" means: You hear my call and know my
+intention — she did not know, when she vowed, whether the child was male or female.
+
+**Belief / Stories.** **[Study Quran]**: the vow's content — the child free of other responsibilities
+for the Temple, to study and learn the Book (R, Ṭ); and Mary's father, ʿImrān — not named in the Bible,
+known in the extra-biblical protevangelium tradition as *Joachim*, "whom Yahweh raises up" — died
+before she was born.
+
+**Reflection.** A mother's *when she said* — the vow is made before the child's sex, name, or life is
+known: the grammar of *mā fī baṭnī*, "what is in my belly," is the surrender the whole passage teaches,
+and the prayer formula it puts on her lips, *fa-taqabbal minnī*, "so accept it from me," is the phrase
+of Ibrāhīm at the Kaʿba — the houses named in 3:33 pray with the same words.
+
+---
+
+## 3:36 — فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ ۗ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنثَىٰ ۖ وَإِنِّي سَمَّيْتُهَا مَرْيَمَ ۚ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ
+
+*"Then when she bore her, she said: my Lord, I have borne a female — and God knows best what she
+bore — and the male is not like the female; and I have named her Mary, and I put her and her seed
+under Your protection from the accursed Satan."*
+
+**Meaning.** **[Ṭabarī]**: *lammā waḍaʿathā* — when Ḥannah bore the dedicated child — hence the
+feminine pronoun; had the pronoun returned to *mā* ("what I vowed"), it would have read *waḍaʿathu*.
+*Waḍaʿa* is ordinary for birth ("the woman *waḍaʿat*, *yaḍiʿu waḍʿan*"). Then the great reading
+question: *wa-llāhu aʿlamu bimā waḍaʿat* — the mass of the readers take it as God's own parenthetical
+report: God knows best what she bore, interrupting her speech (a *taʿjīb* and apology); and an early
+group read it as part of her words — God knows best what *I* bore — a variant reading *waḍaʿtu*.
+Ṭabarī prefers the first: the widespread transmitted reading, the irregular not crossing it. Her
+meaning in *alaysa'l-dhakaru ka'l-unthā*, on his account, is apology to her Lord: the one I vowed for
+God's service is female, and the male for that task is not as the female — in the strength, endurance
+and bodily privacy the service required. **[Jalālayn]** had set it: she hoped for a boy, since only
+males were consecrated to the Temple service; she speaks apologetically; and the parenthesis is God's
+speech — "and the male is not like the female in the service of God, she being unfit for it on account
+of lesser physical strength, her private parts, menstruation and such." **[Study Quran]** notes the
+commentators who let Anne herself say "the male is not like the female," for physical strength and
+ritual-purity barriers, and — against that reading's plain sense — the observation of some that God
+might deliberately have given a girl where a boy was vowed (Q), the one who would "bear and manifest
+the knowledge of God" (R), and that verse 37's *qabūl ḥasan* shows the differences irrelevant from the
+spiritual point of view.
+
+**Language.** **[Ṭabarī]** on the name: *Maryam* is the Hebrew/foreign name (a *muʿarrab* form) — and
+on the vow's object: *muḥarraran*, "consecrated," set free (ʿitq) for worship — the *taḥrīr* of slaves
+being the paradigm. **[Ibn Kathīr]** draws the fiqh: naming the newborn on the day of its birth is
+permissible, evident from this verse and part of the law of earlier nations; and the sunnah is in its
+own way — the Prophet announced "a son was born to me this night and I have named him with my father
+Ibrāhīm's name" (Muslim), i.e. Abū Ibrāhīm for his son.
+
+**Ḥadīth.** **[Jalālayn]**: the two Shaykhs from Abū Hurayra — *"no newborn is born but Satan touches
+it and it cries out from his touch, except Mary and her son"*: the mother's refuge-request answered
+before it was asked; the touch — *lamṭ* — and its exception are the ḥadīth's gloss on *uʿīdhuha bika*.
+**[Study Quran]** links the verse to the Qurʾān's whole etiquette of refuge (16:98; 7:200; 41:36), and
+derives *rajīm* from stoning — the casting of pebbles at the pillars in the pilgrimage.
+
+**Reflection.** The verse is the sūrah's quiet answer to every house-pride of 3:33–34: the vow
+misfires, humanly speaking — a girl where a guardian was intended — and God's acceptance is wider than
+the vow: "the male is not like the female," and yet the girl grows up to be the mother of a prophet.
+**[Saʿdī]**: He healed her heart, accepted her *nadhr*, and made this female more complete than most
+males, achieving through her more than the vowed male could have — a line worth reading slowly, in a
+sūrah whose hearers prided themselves on descent.
+
+---
+
+## 3:37 — فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَأْمُرَكِ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ اللَّهِ ۖ إِنَّ اللَّهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ
+
+*"So her Lord accepted her with a good acceptance and grew her a good growth and committed her to
+Zachariah. Whenever Zachariah entered upon her in the sanctuary he found provision with her; he said:
+Mary — how is this yours? She said: it is from God; God provides whom He will without reckoning."*
+
+**Meaning.** **[Ṭabarī]**: God received Mary from her mother, and her consecration to the church and
+its service; *bi-qabūlin ḥasanin* — a fine detail of the source-language: the verbal noun is put on the
+root of *qabala* while the verb of the sentence is *taqabbala*; had it matched, it would have said
+*taqabbulan*, and the Arabs do this constantly (*takallama kalāman*), as here *anbatuha nabātan* and not
+*inbātan*; al-Amir b. al-ʿAlāʾ (via al-Yazīdī) is quoted on *qabūl*: we have not heard the Arabs damma
+the *qāf* of *qabūl*, and the measure would have required it like *dukhūl* and *kharūj* — "I know no
+other letter in their speech like it" (a footnote of the edition worth flagging as pure lexicography).
+*Wa-anbataha nabātan ḥasanan*: He grew her in His own feeding and provision until she came to full,
+complete womanhood. Then **[Jalālayn]** tells the guardianship: her mother brought her to the priests,
+keepers of the Holy House of Jerusalem — "here before you is my consecrated gift" — and they vied for
+her guardianship, since she was the daughter of their imam; Zachariah said: "I have most right to her —
+her maternal aunt is in my house." They refused: "not until we cast lots." Twenty-nine of them went to
+the Jordan and threw their pens (*aqlām*), agreeing that the pen which held its place and floated up
+would have her: Zachariah's pen floated and held; so he took her, built her a gallery-room in the
+temple with a ladder, and none went up to her but he, bringing her food, drink and oil — and finding
+her with summer fruits in winter and winter fruits in summer.
+
+**Language.** **[Ṭabarī]** on the verb of *kafalahā*: the reading of the community is *kafalahā huwa*,
+"he took her in guardianship," active; a variant (with *tashdīd*, *kaffalahā*) makes God the subject:
+"He gave Zachariah charge of her" — both senses stand; and *kafala* itself means guardianship with
+obligation, the *kāfil* being the one bound to a thing's upkeep (the lexicography with its poetry is his
+section's habit — *digression*, but it fixes the term). **[Study Quran]** notes the same fork: "this
+could also be translated 'Zachariah took her under his care' (Ibn Kathīr, Ṭ)".
+
+**Miracle and sustenance.** **[Ibn Kathīr]**: her conduct made becoming, her manners delightful,
+beloved among people, in the company of the righteous so she learned righteousness, knowledge and
+religion; the *miḥrāb* is her place of worship; the fruits are the consensus reading of the early
+mufassirūn (Mujāhid, ʿIkrimah, Saʿīd b. Jubayr, Abū l-Shaʿthāʾ, Ibrāhīm al-Nakhaʿī, al-Ḍaḥḥāk, Qatāda,
+al-Rabīʿ, ʿAṭiyya, al-Suddī). Zachariah's question was not out of ignorance but wonder; her answer:
+*it is from God, who provides whom He will without reckoning*. **[Saʿdī]**: the sustenance that came
+without toil or effort was a *karāma* honouring her — and the whole exchange (his point, and the sūrah's)
+is what moves Zachariah to pray for a child, at 3:38. **[Study Quran]**'s comparative note: the
+presentation of Mary in the Temple has its closest counterpart in the non-canonical *Protevangelium of
+James* — the child brought at three in fulfilment of her parents' vow — an event recognised in Catholic
+and Orthodox tradition, while almost nothing of Mary's youth is in the Bible; and he observes that this
+very clause is inscribed over the *miḥrāb* niche of many mosques, the word having passed from her
+sanctuary to the prayer-architecture of Islam.
+
+**Reflection.** **[Maʿārif]** reads the episode as the sūrah's answer to the house of ʿImrān's prayer
+being heard: *samīʿ ʿalīm* (3:34) is now enacted — the girl who could not be the vowed servant became
+the best-served of God's servants, fed beyond causes, taught beyond teachers. The chapter's lesson in
+two words: *min ʿindi llāh*.
+
+---
+
+## 3:38 — هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ
+
+*"Thereupon Zachariah called upon his Lord; he said: my Lord, grant me from Yourself a goodly
+offspring — truly You are the hearer of prayer."*
+
+**Meaning.** **[Ṭabarī]**: *hinālaka* — at that moment: when Zachariah saw the provision God had sent
+Mary with no created cause, and witnessed the fresh fruit at her that could not in that season be on
+the earth — and (Ṭabarī's text completes) the sight made him yearn for offspring while his own years
+had passed their term. **[Jalālayn]**: he understood that He whose power brings the unnatural into
+being is able to give a child to an old man whose forebears had died out; he prayed when he entered
+the sanctuary to pray in the middle of the night — *grant me a goodly offspring*, a righteous son; *You
+are the hearer* of the call, the answerer. **[Ibn Kathīr]**: his bones were feeble, his head a flame of
+grey, his wife old and barren, yet he called his Lord in secret — *min ladunka*, "from Yourself," a
+gift not through ordinary means — *ṭayyiba*, righteous, and the phrase *samīʿu l-duʿāʾ* is the
+etiquette of the one who asks: certainty in the hearing.
+
+**Theology of the prayer.** **[Saʿdī]**'s line on *min ladunka*: the request is pressed at the source —
+God-given, not cause-bound — which is why the answer (3:39, 19:7) says *bi-ismun minnā*, "by a name
+from Us." **[Maʿārif]** extracts the law against renouncing progeny: whoever withholds from marriage
+and children rebels against nature and cuts himself from the agreed practice of the prophets; the
+Prophet gave marriage its weight — "marriage is my sunnah; whoever turns from my sunnah is not of me" —
+and "marry the loving, the fertile, for I will vie with the nations by your numbers"; and God praises
+those who pray, "our Lord, grant us delight of eyes in our wives and our children" (25:74) —
+al-Ḥasan: that a man sees his family devoted in obedience to God. The hadith of Anas follows: Umm
+Sulaym asked the Prophet to pray for her boy, and he prayed "God, multiply his wealth and his children
+and bless him in what You have given" (Bukhārī and Muslim).
+
+**Reflection.** The juxtaposition is the sūrah's psychology at its finest: a sterile old man's hope is
+rekindled not by a sermon on power but by a girl's table — *when he saw the provision at her, he asked
+for a child*. The fruits of winter in summer are, in Ṭabarī's and Saʿdī's telling, the sermon that
+made a prophet's father.
+
+---
+
+## 3:39 — فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ
+
+*"And the angels called him as he stood praying in the sanctuary: God gives you good tidings of John —
+confirming a Word from God, a master, and one withheld, a prophet of the righteous."*
+
+**Meaning.** **[Jalālayn]**: the angels — Gabriel — called, *standing in the sanctuary in the temple at
+worship*; *anna* is read *bi-anna* (a variant with *inna*, making the message direct speech);
+*God gives you tidings* — read *yubashshiruka* or *yubshiruka —* *of John, who shall confirm a Word from
+God*, namely Jesus — that he is God's Spirit; Jesus is called God's "Word" because he was brought into
+being through *kun*, "Be"; *a master* — sayyid: a lord with a following — *and one withheld* (*ḥaṣūr*:
+restrained from women), *and a prophet of the righteous* — it is said of him that he never sinned and
+never intended to. **[Ibn Kathīr]**: *muṣaddiqan bi-kalimatin* is, on the mufassirūn's reading, "in
+belief in Jesus, son of Mary" — he attests to him; and the title *sayyid* is unpacked with the early
+glosses: a wise man (Abū l-ʿĀliya, al-Rabīʿ, Qatāda, Saʿīd b. Jubayr); the noble, wise, pious man (Ibn
+ʿAbbās, al-Thawrī, al-Ḍaḥḥāk); the scholar and the faqīh (Saʿīd b. al-Musayyib); noble in character and
+piety (ʿAṭiyya); the man whom anger does not overcome (ʿIkrimah); the nobleman (Ibn Zayd); the one
+honoured by God (Mujāhid). And *ḥaṣūr* does **not** mean he abstained from marriage altogether —
+it means immunity from fornication; he does not refrain from what is lawful, for Zachariah's own prayer
+was for a son *who propagates*, and God knows best. The glad tidings mount: the news of a prophet is
+better than the news of a child, as God told Musa's mother "We shall return him to you and make him
+one of the sent" (28:7). **[Study Quran]** notes the parallel to Zechariah in Luke 1 — the announcement
+in the temple, the doubt, the muteness — carried by the whole passage in its biblical form.
+
+**Belief.** The verse is why John's name is *Yaḥyā* "he lives" in the Muslim telling — **[Ṭabarī]** and
+his reports: God *gave him life* where the line was dead; the naming belongs to God, not the father —
+the angels' *yubashshiruka bi-Yaḥyā*, and 19:7 *lam najʿal lahu min qablu samiyyā*, no namesake before.
+
+**Reflection.** **[Saʿdī]**: the answer came while he was standing in the *miḥrāb* — the hour and the
+posture of the previous verse's prayer are preserved into its reply, so that the sūrah teaches by
+staging: the request whispered in the night, the tidings announced mid-prayer — the believer's *duʿāʾ*
+is not followed by explanation but by address.
+
+---
+
+## 3:40 — قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَكَانَ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغَنِيَ الْكِبَرُ وَوَجَدَتْ فِي بَطْنِهَا وَلَدَهَا
+
+*[He said:] "my Lord, how can I have a boy when my wife has been barren and old age has reached me?"*
+
+**Meaning.** **[Jalālayn]**: *ghulām*, a son; *when old age has overtaken me* — at one hundred and
+twenty; *and my wife is barren* — at ninety-eight; the reply: *so it is* — the matter as willed, God
+creating a boy from the two of you — *God does what He will*, nothing prevents Him; and Jalālayn adds
+the exegetical wisdom of the question itself: he was prompted to ask, and answered, *so that the
+extraordinary power of God should be displayed* — the question was not doubt but a stage for the sign.
+**[Ibn Kathīr]**: when he heard the glad tiding he began to reckon the years against his body — *annā
+yakūnu lī ghulām*, how and where-from; the answer of the angel: *thus God does what He will* — a matter
+of His might, nothing escaping it, nothing beyond it. The same question recurs at 19:8 with its answer
+*"your Lord says: it is easy for Me"* (19:9). **[Study Quran]** reads the pair 3:39–40 against the
+Lucan annunciation — Gabriel to Zechariah, the same wonder, the same sign of silence, and the same
+punishment-or-confirmation ambiguity that the exegetes carry at 3:41 (see that entry in this book when
+it arrives). **[Maʿārif]**, through 3:38's section, had drawn the moral against sterility-worry as
+unbelief: the tidings answer nature's arithmetic precisely to teach that God's arithmetic has no
+carry-rule.
+
+**Language.** **[Ṭabarī]** notes the verb of *ʿāqir*: barrenness as quality of a woman, from *ʿuqr*
+(pl. *ʿuqar*), the unproductive; and *balāgh al-kibar* as the idiom for age's term reached. The reading
+of *wa-kānat imraʾatī ʿāqiran* with *kāna* in the feminine is the *ḥujja* reading.
+
+**Reflection.** The Qurʾān lets prophets ask "how?" — twice, in two sūrahs — and never calls the asking
+unbelief; what closes the door on unbelief is the answer's second half: *God does what He will*. The old
+man in the sanctuary is, like the girl with winter fruit, a living lesson in *yurzuqu man yashāʾu
+bi-ghayri ḥisāb*: provision — and progeny — belong to the will, not the measure.
+
