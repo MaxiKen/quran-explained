@@ -811,3 +811,111 @@
 **Context.** This verse begins another account of the covenant’s breach and recalls the Qur’anic theme of prophets being rejected or slain by their own people [Study Quran].
 
 **Reflection.** The measure of a prophet’s message is not whether it flatters the hearer. A community preserves its covenant by accepting truth even when it is unwelcome [Maʿārif].
+
+---
+
+## 5:71
+
+*“They thought there would be no trial, so they became blind and deaf. Then God turned toward them in mercy; then many of them again became blind and deaf. God sees what they do.”*
+
+**Meaning.** Those who repeatedly denied and killed messengers presumed that no trial or punishment would reach them; their spiritual blindness and deafness describe a willful failure to recognize or hear truth [Ṭabarī], [Jalālayn]. God then accepted their repentance, but many returned to the same insensitivity [Saʿdī].
+
+**Belief.** **[Study Quran]** notes that the Qur’an speaks of blindness and deafness as moral conditions produced or deepened by persistent rejection; the verse does not describe a physical disability.
+
+**Reflection.** Past forgiveness is an invitation to remain changed, not evidence that one may safely return to the wrongdoing [Maʿārif].
+
+---
+
+## 5:72
+
+*“They certainly disbelieve who say, ‘God is the Messiah, son of Mary.’ The Messiah said, ‘O Children of Israel, worship God, my Lord and your Lord.’ Whoever ascribes partners to God, God has forbidden him the Garden, and his refuge is the Fire. The wrongdoers will have no helpers.”*
+
+**Meaning.** The claim that the Messiah is God is answered by Jesus’ own call to worship God, whom he names as his Lord and theirs [Ṭabarī], [Jalālayn]. His message, as presented here, directs worship away from himself and toward God alone [Study Quran], [Saʿdī]. Associating a created being with God is identified as *shirk* and placed in direct contrast with entry into the Garden.
+
+**Belief.** The passage honors Jesus as the Messiah and son of Mary while affirming God’s oneness and Jesus’ servanthood [Ibn Kathīr].
+
+**Reflection.** The verse calls the reader to distinguish reverence for a messenger from worship, which belongs to God alone [Saʿdī].
+
+---
+
+## 5:73
+
+*“They certainly disbelieve who say, ‘God is the third of three,’ when there is no god but the One God. If they do not desist from what they say, a painful punishment will befall those among them who disbelieve.”*
+
+**Meaning.** The verse rejects any account that makes God one of three in a way that compromises divine oneness [Ṭabarī], [Jalālayn]. **[Study Quran]** notes that commentators differed over which formulation or group is addressed: some early explanations speak of three distinct deities, while others relate the verse to Trinitarian doctrine, whose orthodox formulation names the Holy Spirit rather than Mary. The passage’s central claim is explicit: there is no deity but the One God.
+
+**Reflection.** The warning is followed immediately by an invitation to repent (5:74); doctrinal disagreement is not presented as a reason to close the door of return [Study Quran].
+
+---
+
+## 5:74
+
+*“Will they not turn to God in repentance and seek His forgiveness? God is Forgiving, Merciful.”*
+
+**Meaning.** After warning those who attribute divinity to Jesus or speak of God as “third of three,” the verse invites them to turn back and ask forgiveness [Ṭabarī], [Jalālayn]. Its question rebukes error while affirming that sincere repentance can be met with mercy [Study Quran].
+
+**Reflection.** A firm statement of belief need not be a denial of hope: the invitation to return follows the correction of error [Saʿdī].
+
+---
+
+## 5:75
+
+*“The Messiah, son of Mary, was only a messenger; messengers passed away before him. His mother was truthful. They both ate food. See how We make the signs clear to them, then see how they are turned away.”*
+
+**Meaning.** Jesus belongs to the line of messengers who came before and passed away; Mary is honored as truthful and righteous [Ṭabarī], [Study Quran]. The fact that both ate food points to their human dependence on sustenance, not divine self-sufficiency [Jalālayn]. The verse uses this plain sign to distinguish the Creator from His honored servants.
+
+**Belief.** The passage rejects claims of divinity for Jesus or Mary while affirming their exceptional rank and the truth of Jesus’ mission [Saʿdī].
+
+**Reflection.** The familiar necessities of life can be signs: dependence is a mark of creation, while God alone is independent [Study Quran].
+
+---
+
+## 5:76
+
+*“Say, ‘Do you worship besides God that which has no power to harm or benefit you, while God is the Hearing, the Knowing?’”*
+
+**Meaning.** The question contrasts powerless objects of worship with God, who hears every utterance and knows every state [Jalālayn], [Saʿdī]. Worship is due to the One who truly governs benefit and harm, not to a created being unable to control either [Study Quran].
+
+**Reflection.** The verse invites a simple test of worship: does the object of devotion possess the knowledge and power that belong to God? [Saʿdī]
+
+---
+
+## 5:77
+
+*“Say, ‘O People of the Book, do not go to excess in your religion beyond the truth, and do not follow the desires of a people who went astray before, led many astray, and strayed from the right way.’”*
+
+**Meaning.** The People of the Book are warned against *ghulūw*—crossing the bounds of truth in belief and religious practice [Ṭabarī], [Jalālayn]. In context, commentators connect the warning especially with claims that raise Jesus beyond his proper station, while others read it as a broader caution against following earlier leaders into error [Study Quran].
+
+**Reflection.** Reverence is not measured by exaggeration; faithfulness requires honoring revelation without adding claims that it does not teach [Saʿdī].
+
+---
+
+## 5:78
+
+*“Those who disbelieved among the Children of Israel were cursed by the tongue of David and Jesus son of Mary. That was because they disobeyed and transgressed.”*
+
+**Meaning.** The curse is directed at disbelievers among the Children of Israel, not at every member of the community. Exegetes understand “by the tongue” of David and Jesus as a reference to their condemnation in revealed scripture or to prophetic denunciation of persistent rebellion [Ṭabarī], [Qurṭubī], [Study Quran].
+
+**Context.** Reports connect David’s denunciation with Sabbath violators and Jesus’ with later transgressors; details differ among commentators [Jalālayn]. The verse itself states the cause: disobedience and transgression.
+
+**Reflection.** Inherited standing does not protect a people from accountability; repeated injustice is what the verse names as the cause of condemnation [Saʿdī].
+
+---
+
+## 5:79
+
+*“They did not forbid one another from the wrong they committed. Evil indeed was what they used to do.”*
+
+**Meaning.** The wrongdoing was compounded by the community’s failure to restrain it: people neither stopped their own wrong nor called one another away from it [Ṭabarī], [Jalālayn]. **[Study Quran]** connects the passage with the Qur’anic duty to enjoin what is right and forbid what is wrong, including the responsibility of religious teachers already raised in 5:63.
+
+**Reflection.** Silence can sustain wrongdoing. Moral responsibility includes caring enough to counsel and correct one another with wisdom [Qurṭubī], [Saʿdī].
+
+---
+
+## 5:80
+
+*“You see many of them allying with those who disbelieve. Evil indeed is what they have sent ahead for themselves: God is wroth with them, and in the punishment they will abide.”*
+
+**Meaning.** The verse rebukes many among those under discussion for forming alliances with hostile idolaters, an act that brings spiritual loss and divine displeasure [Jalālayn], [Ṭabarī]. **[Study Quran]** relates the passage to particular Jews of Madinah or hypocrites who allied with the Makkan opponents; it does not make the charge universal to every Jew or every non-Muslim.
+
+**Reflection.** An alliance is judged by the ends it serves and the wrongs it enables; seeking protection through betrayal cannot secure lasting safety [Saʿdī].
