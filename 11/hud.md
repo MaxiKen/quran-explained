@@ -1813,3 +1813,231 @@ cf. v. 40); for God as the most just of judges, see 95:8 (cf. 7:87; 10:109; 12:8
 
 **Reflection.** Even a prophet's grief argues from the promise — "Your promise is true" — and brings the
 question to God rather than against Him; the complaint itself is framed as worship.
+
+## 11:46
+
+*"He said, 'O Nūḥ, he is not of your family — it is an unrighteous deed. So do not ask Me that whereof
+you have no knowledge. I admonish you, lest you be among the ignorant.'"*
+
+**Meaning.** **[Ṭabarī]** God said: O Nūḥ, the one whom I drowned and destroyed, whom you mention as of
+your family, is not of your family. The people of interpretation differed over "he is not of your
+family": some said it means he is not your son — he is from another man, the fruit of a sin — al-Ḥasan
+said flatly, "He was not his son," and Abū Jaʿfar said, "He was his wife's son." **[Jalālayn]** O Nūḥ,
+he is not of your family — of those who will be saved, nor of the followers of your religion; lo, it —
+your asking Me to save him — is not a righteous deed, for he is a disbeliever and there is no deliverance
+for disbelievers; a variant reading has *ʿāmila*, the verb, with *ghayra* in the accusative, in which
+case the one who performed the deed is his son. So do not ask of Me — read *fa-lā tasʾalanni* or *fa-lā
+tasʾalnī* — that whereof you have no knowledge in respect of saving your son. I admonish you, lest you be
+among the ignorant when you ask about what you do not know. **[Ibn Kathīr]** He is not of those whom I
+promised to save: I only promised you that I would save those of your family who believe — hence "and
+your family, except him against whom the Word has already gone forth" (11:40); for his son it had already
+been decreed that he would be drowned for his disbelief and his opposition to his father. ʿAbd al-Razzāq
+recorded from Ibn ʿAbbās: "He was the son of Nūḥ, but he opposed him in deeds and intention"; ʿIkrimah
+noted that in some modes of recitation it reads, "he worked deeds that were not righteous." **[Saʿdī]**
+He is not of your family whom I promised to save; "it is an unrighteous deed": this supplication with
+which you asked for the salvation of a disbeliever who believes in neither God nor His messenger; so do
+not ask Me that whereof you have no knowledge — whose outcome you do not know, whether it be good or not;
+"I admonish you, lest you be among the ignorant": I admonish you with an admonition by which you become
+among the complete, and escape the qualities of the ignorant.
+
+**Context.** **[Qurṭubī]** Saʿīd b. Jubayr: "he is not of your family" — not of your family whom I
+promised to save; the majority: not of the people of your religion and your allegiance — and this shows
+that agreement in religion is stronger in ruling than blood. Over "it is an unrighteous deed," Ibn
+ʿAbbās, ʿUrwah, ʿIkrimah, Yaʿqūb and al-Kisāʾī read *innahū ʿamila ghayra ṣāliḥ* — of disbelief and
+denial, the reading Abū ʿUbayd preferred; the rest read *ʿamalun*: your son is a doer of unrighteous
+deed, the muḍāf being suppressed (al-Zajjāj); Qatādah held the pronoun refers to the asking: your asking
+Me to save him is an unrighteous deed. Al-Ḥasan and Mujāhid held he was born on his bed but was not his
+son — he was from another's loins; Qatādah asked al-Ḥasan about it and he swore, "By God, he was not his
+son"; when Qatādah objected that God relates Nūḥ saying "my son is of my family" and that both Peoples of
+the Book agree he was his son, al-Ḥasan replied, "Who takes his religion from the People of the Book?
+They lie — and read 'and the two of them betrayed them' (66:10)." Ibn Jurayj: Nūḥ called him supposing
+him his son, born on his bed, though his wife had betrayed him in him. But Ibn ʿAbbās said: no prophet's
+wife ever committed adultery — he was his son from his own loins. **[Study Quran]** From one perspective,
+"he is not from your family" means he did not belong to those whom God had promised to save (Q, R; cf.
+11:40); from another, he was not of Nūḥ's family in a spiritual sense, having rejected the message —
+compare Abraham's dissociation from his father (6:74). The unrighteous conduct was denying God; some read
+"he was a doer of unrighteous conduct," the subject being implicit (R). "The ignorant" refers more
+specifically to sinfulness (Q, R).
+
+**Belief.** **[Maʿārif]** Two things emerge from the divine reply. First, Nūḥ did not know of his son's
+disbelief clearly and fully — he took him for a hypocrite and still counted him a believer, and so
+included him in his family and prayed for his salvation; had he known the truth he would not have prayed,
+having been told plainly, "Do not address Me concerning those who wronged; they shall be drowned" (11:37)
+— after which it was impossible for a prophet of God to venture anything against it. The author of Bayān
+al-Qurʾān suggests the prayer's objective was that the son become a believer, not that he be saved in his
+present state. Yet God did not accept Nūḥ's lack of knowledge as a sound excuse: he was questioned for
+making such a prayer — a slip at the highest level of a prophet's station, which Nūḥ himself will refer
+to on the Day of Resurrection.
+
+**Cross-references.** **[Study Quran]** Nūḥ's words of repentance that follow are identical to those
+uttered by Adam and his wife at 7:23 after Satan's trickery became clear to them.
+
+**Reflection.** The sternest mercy in the story is this correction: kinship does not reach into the ark,
+and even a prophet's compassion must learn the boundary God has drawn around prayer.
+
+## 11:47
+
+*"He said, 'My Lord, I seek refuge in You from asking You that whereof I have no knowledge; and unless
+You forgive me and have mercy on me, I shall be among the losers.'"*
+
+**Meaning.** **[Ṭabarī]** God reports to His prophet ﷺ the turning of Nūḥ in repentance from his slip in
+the question he asked about his son: I take refuge in You from burdening myself to ask You that whereof I
+have no knowledge — of what You have kept to Yourself and folded away from Your creatures — so forgive me
+my slip in asking You what I asked about my son; and unless You forgive it and have mercy on me,
+delivering me from Your anger, I shall be among the losers — those who have defrauded themselves of their
+portions and perished. **[Jalālayn]** My Lord, I seek refuge in You from the sin that I should ask of
+You that whereof I have no knowledge; unless You forgive me my excess and have mercy on me, I shall be
+among the losers. **[Saʿdī]** Nūḥ regretted deeply what had issued from him, and said: My Lord, I seek
+refuge in You from asking You that whereof I have no knowledge — and unless You forgive me and have mercy
+on me, I shall be among the losers: it is by forgiveness and mercy that the servant escapes being among
+the losers. This shows that Nūḥ did not know that his asking for the salvation of his son was forbidden,
+falling under "do not address Me concerning those who wronged"; rather, the two matters had appeared to
+him to conflict, and he supposed his son was included in "your family" — and afterward it became clear
+that he was included in those for whom prayer and intercession were forbidden.
+
+**Reflection.** **[Maʿārif]** The apology is a return to God in submission and entreaty — a prayer for His
+protection, His forgiveness of past omissions, and His mercy. From it we learn: should one commit a
+mistake, let him not rely on his own resolve to stay safe from it in the future; let him rather seek the
+protection of God and pray to Him — for He is the One who can keep him safe from errors and sins.
+
+**Cross-references.** **[Study Quran]** The words are identical to the repentance of Adam and his wife at
+7:23 — the two great fathers of mankind both learned, the same way, to take refuge from asking without
+knowledge.
+
+**Reflection.** The prophet does not argue the correction: he takes refuge, confesses, and asks for
+forgiveness — and in doing so turns the rebuke into the pattern of every believer's repentance after him.
+
+## 11:48
+
+*"It was said, 'O Nūḥ, disembark with peace from Us and blessings upon you, and upon nations of those
+with you; and nations — We shall grant them enjoyment, then a painful punishment from Us shall touch
+them.'"*
+
+**Meaning.** **[Ṭabarī]** O Nūḥ, come down from the ark to the earth "with peace from Us": in security
+from Us — you and those with you — from Our destruction; "and blessings upon you and upon nations of
+those with you": upon generations that will come from the offspring of those who are with you — these are
+the believers of Nūḥ's descendants, for whom happiness preceded from God, and whom He blessed before
+creating them in their mothers' wombs and their fathers' loins. Then He informed Nūḥ of what He would do
+with the wretched of his descendants: "and nations" — generations and peoples — "We shall grant them
+enjoyment" in this life, providing them what they enjoy until they reach their terms; "then a painful
+punishment from Us shall touch them." **[Jalālayn]** It was said: O Nūḥ, go down from the ship in peace —
+in safety, or with a greeting from Us — and blessings, good things, upon you, and upon communities that
+will spring from those with you in the ship, from their children and seed, those who are and those who
+will be the believers. And there will be other communities — read *umamun* — to whom We shall give
+enjoyment in this world, and then a painful chastisement will befall them in the Hereafter — these are
+the disbelievers. **[Ibn Kathīr]** When the ship anchored on Mount Jūdī, peace was sent upon Nūḥ and the
+believers with him — and this salutation extends to every believer among his progeny until the Day of
+Resurrection. Muḥammad b. Kaʿb said: every believing man and woman until the Day of Resurrection is
+included in this salutation of peace, and every unbelieving man and woman in the promise of torment and
+enjoyment. Muḥammad b. Isḥāq: when God willed to stop the flood, He sent a wind upon the face of the
+earth that stilled the water, and the springs of the earth were closed and the rain halted; the water
+decreased until the ship settled on Mount Jūdī. The People of the Torah claim this occurred on the
+seventeenth night of the seventh month; on the first day of the tenth month the mountaintops appeared;
+after forty days Nūḥ opened the window of the ship and sent out a raven, which did not return; then he
+sent out a pigeon, which returned without finding anywhere to rest its feet, and he drew it back in with
+his hand; after seven more days he sent it out again, and it returned in the evening with an olive leaf in
+its mouth, and Nūḥ knew the waters had receded from the face of the earth. **[Saʿdī]** Descend with peace
+from Us and blessings upon you and upon nations of those with you — of humans and of the pairs he carried
+with him; God blessed them all until they filled the regions and corners of the earth. "And nations We
+shall grant them enjoyment" in this world, "then a painful punishment from Us shall touch them": the
+salvation does not prevent Us, when any of them later disbelieve, from sending the punishment upon them —
+though they be given enjoyment for a little, they will be seized thereafter.
+
+**Language.** **[Qurṭubī]** The angels said it — or God said: come down from the ship to the earth, or
+from the mountain to the earth, for it has swallowed the water and dried. "With peace from Us": in
+safety and security; it was also said: with a greeting. "Blessings": established favours — from the
+*barūk* of the camel, its settling; hence *birkah*, a pool, for the water's settling in it. Ibn ʿAbbās:
+Nūḥ is the second Adam — all creatures now are from his offspring, and none were with him in the ship but
+those of his descendants, per Qatādah and others — "We made his offspring the survivors" (37:77). It is
+related from Muḥammad b. Kaʿb that every believer to the Day of Resurrection is included in "upon nations
+of those with you," and every disbeliever in "and nations We shall grant them enjoyment"; grammatically
+*umamun* is raised by a suppressed "there shall be nations."
+
+**Cross-references.** **[Study Quran]** God tells Nūḥ that he and those with him may come out of the ark
+and live on land without fear (Bq, Ṭ); an elision makes the sentence mean: blessings upon you and upon
+the communities that will arise from those with you, and [from those with you] are communities We shall
+grant enjoyment (Z) — either the believing communities are blessed, or both communities receive provision
+but the disbelieving ones are promised painful punishment; it is said the phrase refers to the destroyed
+nations that came after Nūḥ — ʿĀd, Thamūd, the Sodomites and the Midianites — all descendants of Nūḥ
+(vv. 50–60, 61–68, 77–83, 84–95).
+
+**Reflection.** The disembarkation is a second creation greeted with peace — and the greeting carries
+within it both the blessing of the believers to the end of time and the warning of every nation still to
+be destroyed: the ark's peace does not cancel the law.
+
+## 11:49
+
+*"These are of the tidings of the Unseen which We reveal to you. You did not know them — neither you nor
+your people — before this. So be patient; truly the sequel is for the reverent."*
+
+**Meaning.** **[Ṭabarī]** God says to His prophet ﷺ: this account I have given you of Nūḥ and his people
+is of the tidings of the Unseen — news of the unseen you did not witness and therefore did not know — We
+reveal it to you and make it known to you; you did not know it, nor your people, before this revelation.
+"So be patient": upon standing to God's command and conveying His message, and upon what you meet from
+the idolaters of your people, as Nūḥ was patient; "truly the sequel is for the reverent": the good of
+outcomes belongs to those who feared God, performed His obligations and avoided His disobedience — they
+win the bliss they hope for in the Hereafter and victory in this world, as the sequel of Nūḥ was when he
+was patient for God's command: God saved him and the believers, gave him honour in the Hereafter, and
+drowned the deniers, destroying them all. **[Jalālayn]** These — the verses containing stories such as
+the story of Nūḥ — are of the tidings of the Unseen, the tales of what was hidden from you, which We
+reveal to you, O Muḥammad; you did not know it yourself, nor did your people, before this Qurʾān. So be
+patient in conveying the message and enduring your people's hurt, as Nūḥ endured — truly the praiseworthy
+sequel is for those who are God-fearing. **[Ibn Kathīr]** God says to His prophet ﷺ concerning these
+stories: they are of the news of the Unseen of the past, revealed to you as if you witnessed them
+yourself; neither you nor anyone of your people had knowledge of this — so that no one who rejects you
+can say you learned it from someone; rather, God informed you of it in conformity with the reality, as it
+stands in the books of the prophets. **[Saʿdī]** After God has recounted this extended story, known only
+to those He has favoured with His message: they may not say "he already knew it" — so praise God and
+thank Him, and be patient upon what you are upon of the upright religion, the straight path and the call
+to God; "truly the sequel is for the reverent" — those who guard against shirk and all sins; the sequel
+will be yours over your people, as it was Nūḥ's over his.
+
+**Context.** **[Qurṭubī]** Your people did not know the matter of the flood — the Magians deny it to
+this day — or the verse targets their ignorance of the story of Nūḥ's son even if they had heard of the
+flood in general. "So be patient": upon the burdens of the message and the hurt of the people, as Nūḥ was
+patient under the hurt of his people. "The sequel": victory in this world and triumph in the Hereafter,
+for those guarded against shirk and sins. **[Study Quran]** Neither the Prophet nor his people knew such
+accounts before the revelation (Kl, Z), and they were not known to the Makkans, not being People of the
+Book (Ṭs) — though, given the presence of Christians and Jews in Mecca, the verse more likely refers to
+lack of knowledge of the details and spiritual meaning rather than of the stories in general. The counsel
+of patience is aimed at both conveying the message and enduring the hardships from the idolaters: he
+should be as patient as Nūḥ (JJ); "the end belongs to the reverent" also appears at 7:128 and 28:83 (cf.
+20:132).
+
+**Reflection.** The stories are given to the Prophet ﷺ twice over: as proof that he speaks only what is
+revealed, and as a prescription — patience, for the sequel belongs to the reverent.
+
+## 11:50
+
+*"And to ʿĀd, their brother Hūd. He said, 'O my people, worship God! You have no god other than Him. You
+are nothing but fabricators.'"*
+
+**Meaning.** **[Ṭabarī]** We sent to ʿĀd their brother Hūd: O my people, worship God alone, without
+partner, and not what you worship of false gods and idols besides Him; "you have no god other than Him":
+no object of worship deserves worship over you but Him — single Him out for worship and devote divinity to
+Him alone; "you are nothing but fabricators": in associating gods and idols with Him, you are people of
+falsehood, liars who invent lies, for there is no god but He. **[Jalālayn]** We sent to ʿĀd their brother
+from the tribe, Hūd. He said: O my people, worship God — affirm His oneness; you have no god other than
+Him — *min* being extra; you, in your worship of graven images, do but invent lies against God. **[Saʿdī]**
+We sent to ʿĀd — the well-known tribe in al-Aḥqāf in the land of Yemen — their brother in lineage, Hūd,
+so that they could take from him and know of his truthfulness: he commanded them to worship God alone and
+forbade them the worship of other than Him, and told them they had fabricated lies against God in
+worshipping other than Him and holding it lawful, and made clear to them the obligation of worshipping
+God and the corruption of worshipping anything else. **[Qurṭubī]** "And to ʿĀd": and We sent — joined to
+"We sent Nūḥ." He is called their brother because he is of them, the tribe gathering them, as one says,
+"O brother of Tamīm"; it was also said: because he is a child of Adam as they are. They were worshippers
+of idols. They are two ʿĀds: the Former and the Latter — these were the Former, while the Latter are
+Shaddād and Luqmān, mentioned in "Iram of the pillars" (89:7). ʿĀd was the name of a man, which then
+remained the name of the people traced to him.
+
+**Context.** **[Study Quran]** For the story of Hūd see also 7:65–72; 26:123–39; 46:21–25; 54:18–21. Hūd
+was an Arabian prophet, not mentioned in the Bible, said to be a descendant of Nūḥ (7:65). ʿĀd are
+believed to have come from southern Arabia, between the valley of Ḥaḍramawt and Oman — a tribal people
+who worshipped idols, their name deriving from the man to whom they traced their ancestry. There are said
+to have been two peoples named ʿĀd: ʿĀd the Former (53:50), also known as Iram (89:7–8), and ʿĀd the
+Latter; the people to whom Hūd was sent were ʿĀd the Former (Q). "You are nothing but fabricators": in
+associating idols with God you are nothing but a lying people, creating falsehood, for there is no god
+other than He (Ṭ).
+
+**Reflection.** The brotherhood of the messenger is part of the proof: he is sent from within the tribe,
+speaking its tongue, asking it for nothing — so that the only thing left to reject is the truth itself.
