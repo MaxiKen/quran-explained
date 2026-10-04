@@ -695,3 +695,242 @@ Hereafter (Q); and it is said the verse was revealed about certain believers giv
 **Reflection.** Deeds are weighed by their direction, not their bulk: the same charity that is a ladder for
 the sincere is only a coin spent in full — and spent only — for the one who wanted this world and nothing
 else.
+
+## 11:16
+
+*"Those are they for whom there is nothing in the Hereafter but the Fire; and what they fashioned in it
+has come to nothing, and vain was what they used to do."*
+
+**Meaning.** **[Ṭabarī]** These whom God mentioned, whom He pays in full the wages of their deeds in this
+world: "there is nothing for them in the Hereafter but the Fire," to enter it; "and what they fashioned in
+it has come to nothing": what they did in this world has gone; "and vain was what they used to do":
+because they worked for other than God, so God invalidated it and nullified its doer's reward. **[Jalālayn]**
+Those are they for whom there is nothing in the Hereafter but the Fire; what they contrived will have
+failed therein — invalid, unrewarded — and useless is what they used to do. **[Saʿdī]** For them is the
+Fire, abiding therein forever, the punishment not relaxed for them, and they are barred from the great
+reward; "what they fashioned in it has come to nothing": what they plotted against the truth and its
+people has collapsed, as has whatever good deeds they performed with no foundation and no fulfilment of
+the condition — faith.
+
+**Language.** **[Qurṭubī]** "Nothing for them in the Hereafter but the Fire" indicates perpetuity in it —
+and the believer is not made to abide forever, by His saying "God forgives not that partners be ascribed
+to Him, and forgives what is less than that" (4:48); the verse is carried on the case of such an
+ostentatious person dying upon disbelief. It was said: "nothing but the Fire" for known days, then he is
+brought out — either by intercession or by the Handful. The verse carries the threat of faith being
+stripped away, and in the ḥadīth of the ostentatious worker it intends disbelief — and *riyāʾ* in
+particular, since it is shirk, as explained in Sūrah an-Nisāʾ and as will come again at the end of
+al-Kahf. "And vain was what they used to do" is subject and predicate; Abū Ḥātim said the tāʾ-marbūṭa is
+suppressed, and al-Naḥḥās replied that no suppression is needed since *bāṭil* here has the meaning of the
+verbal noun — "and vain is their working." In the codices of Ubayy and Ibn Masʿūd it reads *wa-bāṭilan mā
+kānū yaʿmalūn*, "and what they used to do was vain."
+
+**Belief.** **[Maʿārif]** The verse that follows (11:17) sets in sharp contrast the high ground the Prophet
+ﷺ and the purely sincere believers with him occupy, against those the sum total of whose knowledge and the
+end of whose quest is restricted to this worldly life — so that all the world might see the two groups can
+never be equal.
+
+**Reflection.** The man who cashed his deeds in this world arrives in the next with empty hands: nothing
+fashioned for God's sake remains unpaid, and nothing fashioned for another's sake becomes valid.
+
+## 11:17
+
+*"Is he who stands upon a clear proof from his Lord, followed by a witness from Him — and before it the
+Book of Mūsā, a leader and a mercy? Those believe in it; and whoever disbelieves in it from among the
+factions, the Fire is his tryst. So be not in doubt concerning it — truly it is the truth from your Lord,
+but most of mankind do not believe."*
+
+**Meaning.** **[Ṭabarī]** Is he who stands upon a clear proof from his Lord — one for whom his religion
+has been made clear so that he sees it — followed by a witness from Him? The people of interpretation
+differed: some said the one upon the clear proof is Muḥammad ﷺ; Muḥammad b. al-Ḥanafiyyah asked his father
+ʿAlī, "Father, are you the follower in 'followed by a witness from Him'?" He said, "No, by God, my son! I
+wish I were he — but it is his tongue." And "whoever disbelieves in it from among the factions" — those
+grouped upon their creeds — "the Fire is his tryst": he shall come to it in the Hereafter by his denial.
+"So be not in doubt concerning it": do not doubt that the tryst of whoever disbelieves in the Qurʾān from
+the factions is the Fire, and that this Qurʾān We have sent down to you is from God. Then He began a new
+statement: this Qurʾān is the truth from your Lord, without doubt, but most people do not believe it is
+so. If it is asked: was the Prophet ﷺ in doubt, that he is told "be not in doubt"? — the answer is that
+this is of the same kind as "if you are in doubt of what We have sent down to you" (10:94). **[Jalālayn]**
+Is he who relies on a clear proof — a clear statement from his Lord, meaning the Prophet ﷺ or the
+believers, the proof being the Qurʾān — followed by a witness of its veracity from Him, namely Jibrīl, and
+before it the Book of Mūsā as a leader and a mercy — is such a person like one who is not so? No! Those
+who rely on a clear proof believe in it, and for them is Paradise; but whoever disbelieves in it of the
+partisans — all the disbelievers — the Fire shall be his appointed place. So be not in doubt concerning
+the Qurʾān: truly it is the truth from your Lord, but most of mankind — the people of Mecca — do not
+believe. **[Ibn Kathīr]** God informs of the condition of the believers, who are upon the natural religion
+of God which He made inherent in His creatures — like "the fitrah of God with which He created mankind"
+(30:30) and the ḥadīth, "Every child is born upon the fitrah; his parents make him a Jew, a Christian or
+a Magian, just as a calf is born whole — do you perceive any mutilation in it?" (the two Ṣaḥīḥs); and
+Muslim from ʿIyāḍ b. Ḥimār, God says: "I created My servants upright (ḥunafāʾ), but the devils came to
+them and distracted them from their religion, made unlawful for them what I had made lawful, and commanded
+them to associate with Me that for which I sent down no authority." The believer is the one who remains
+upon this fitrah. "Followed by a witness from Him": a witness comes to him from God — the pure, perfect,
+magnificent legislation revealed to the prophets and finalized in the sharīʿah of Muḥammad ﷺ; the natural
+disposition bears witness to it and accepts it. The clear proof recited is the Qurʾān, which Jibrīl
+conveyed to the Prophet ﷺ and the Prophet conveyed to his community; and before it, the Book of Mūsā, the
+Torah, a leader and a mercy for that nation — whoever believed in it with true faith was led to believe in
+the Qurʾān. "Whoever disbelieves in it from among the factions, the Fire is his tryst": this is directed
+at everyone on the face of the earth who disbelieves in the Qurʾān — idolater, unbeliever or People of the
+Scripture.
+
+**Context.** **[Qurṭubī]** ʿAlī b. al-Ḥusayn and al-Ḥasan said the one upon the clear proof is he who
+follows the Prophet ﷺ, and likewise Ibn Zayd. It was also said the verse refers to the Prophet ﷺ himself
+and returns to "your breast straitened" (11:12): shall he who has with him clarity from God, a miracle
+like the Qurʾān, a witness like Jibrīl, and the good tidings of the earlier books — shall his breast be
+straitened at conveying, when he knows God will not abandon him? ʿIkrimah from Ibn ʿAbbās: the witness is
+Jibrīl, as Mujāhid and al-Nakhaʿī held; Mujāhid also said: an angel from God who guards him and supports
+him; al-Ḥasan al-Baṣrī and Qatādah: the witness is the tongue of the Messenger of God ﷺ — and Muḥammad b.
+al-Ḥanafiyyah asked ʿAlī, "Are you the witness?" and he said, "I wish I were he; but it is his tongue."
+
+**Belief.** **[Saʿdī]** God mentions the condition of His messenger Muḥammad ﷺ and of those who stand in
+his place among his heirs who uphold his religion: they stand upon a clear proof through the revelation,
+which contains the weighty matters and their manifest evidences, and they are certain of it; it is
+followed by another proof — the witness of the upright fitrah and the sound intellect, which perceives the
+reality of what God revealed and knows its beauty, so faith is added to faith; and there is a third
+witness: the Book of Mūsā, the Torah, which God made a leader and a mercy, testifying to this Qurʾān and
+agreeing with it in the truth. Is one upon whom the testimonies of faith converge like one wandering in
+darkness and ignorance? They never equal before God or before His servants. Those truly believe, and their
+faith bears every good in this world and the next; whoever disbelieves of the factions — all the sects of
+the earth banded together to repel the truth — the Fire is his tryst, which he must reach. "But most of
+mankind do not believe": either from ignorance and error, or from injustice, obstinacy and transgression —
+otherwise, whoever's purpose is sound and understanding upright must believe, for he sees what calls him
+to faith from every side. **[Study Quran]** Some report that ʿAlī b. Abī Ṭālib said the verse was revealed
+concerning him; the witness is sometimes described as "the tongue of the Messenger of God" (Q); "most of
+mankind believe not" is repeated at 13:1 and 40:59, and some read it specifically of the majority of the
+people of Mecca in the Prophet's time (JJ). **[Maʿārif]** The *bayyinah* is the Qurʾān; the authorities
+differ on the *shāhid*: the author of Bayān al-Qurʾān takes it to be the Qurʾān's own inimitability,
+present within it; and before it stands the earlier witness, the Torah, which confirms the Qurʾān's truth
+plainly. The verse stresses that salvation up to the Last Day depends on faith in the Prophet ﷺ: Muslim
+records from Abū Hurayrah, "By Him in whose hand is my life, no Jew or Christian hears of me and then does
+not believe in what I have been sent with, but he will be of the people of the Fire" — removing the
+misunderstanding that outward good deeds suffice for salvation without faith in him and the Qurʾān.
+
+**Reflection.** Certainty here is not a single thread but a braided rope — revelation, the witnessing
+fitrah and intellect, and the earlier Books — and whoever holds it stands where doubt cannot reach him.
+
+## 11:18
+
+*"And who does greater wrong than he who fabricates a lie against God? Those shall be presented before
+their Lord, and the witnesses shall say, 'These are they who lied against their Lord.' Surely the curse of
+God is upon the wrongdoers —"*
+
+**Meaning.** **[Ṭabarī]** Which of the people is more severely punished than he who invents a lie against
+God and lies upon Him? "Those shall be presented before their Lord," and the witnesses shall say, "These
+are they who lied against their Lord." **[Jalālayn]** None does greater wrong than he who fabricates a lie
+against God by ascribing to Him a partner and a child. Those shall be brought before their Lord on the Day
+of Resurrection amid the rest of creation, and the witnesses — *ashhād* being the plural of *shāhid*,
+namely the angels, who will bear witness that the messengers conveyed the message and that the disbelievers
+denied them — will say, "These are they who lied concerning their Lord." Surely the curse of God is upon
+the wrongdoers, the idolaters. **[Saʿdī]** None is more unjust than he who fabricates a lie against God —
+and into this enters everyone who lies upon God by ascribing a partner to Him, describing Him with what is
+unbefitting His majesty, reporting from Him what He did not say, claiming prophethood, or anything else of
+lying upon God: these are the most unjust of people. When they are presented before their Lord to be
+requited for their wrong, and He decrees upon them the severe punishment, the witnesses to their
+fabrication say, "These are they who lied against their Lord — surely the curse of God is upon the
+wrongdoers": a curse that is never cut off, because their wrong has become a cleaving description of them
+that admits no mitigation. **[Ibn Kathīr]** God explains that the scandal of those who lie upon Him will be
+presented in the Hereafter before the heads of creation for testimony — angels, messengers, prophets and
+the rest of mankind and jinn — and he preserves the ḥadīth of Ṣafwān b. Muḥriz: I was holding Ibn ʿUmar's
+hand when a man asked him how he had heard the Messenger of God ﷺ describe the private counsel (*najwā*)
+on the Day of Resurrection. He said: I heard him say, "God will draw the believer near and place His
+concealment over him, hiding him from the people, and make him confess to his sins: 'Do you know such a
+sin? Do you know such a sin?' until, when He has made him confess to all his sins and he sees in himself
+that he is destroyed, He will say: 'I concealed them for you in the worldly life, and I forgive them for
+you today' — and he will be given the book of his good deeds. As for the disbelievers and the hypocrites,
+the witnesses will say: 'These are the ones who lied against their Lord — surely the curse of God is upon
+the wrongdoers!'" (Bukhārī and Muslim).
+
+**Language.** **[Qurṭubī]** They are the most unjust to themselves, for they fabricated lies against God:
+they attributed His speech to another, claimed He has a partner and a child, and said of the idols, "These
+are our intercessors with God." "Presented before their Lord": He shall take them to account for their
+deeds. "The witnesses": Mujāhid and others said the guardian angels; al-Ḍaḥḥāk said the prophets and
+messengers, the proof being "How then, when We bring from every nation a witness and bring you as a witness
+over these?" (4:41); it was said: the angels, the prophets and the scholars who conveyed the messages;
+Qatādah said: all creation. And in Ṣaḥīḥ Muslim from Ṣafwān b. Muḥriz, from Ibn ʿUmar, from the Prophet ﷺ:
+"As for the disbelievers and the hypocrites, they shall be proclaimed over the heads of creation: 'These
+are they who lied against God.'" "The curse of God": His distancing and His wrath, His banishment from His
+mercy, upon those who placed worship in other than its place. **[Study Quran]** By fabricators of lies
+against God are meant those who disbelieve in Him and His message (Ṭ; cf. 3:94; 6:21, 93, 144; 7:37;
+10:17; 18:15; 29:68); "brought before their Lord" is their being called to account on the Day of Judgment
+(Q); "the witnesses" are the recording angels (Q; see 43:80; 50:17–18; 82:10; 86:4) and the prophets (Kl);
+the curse means being exiled from His mercy (see 7:44).
+
+**Reflection.** Every lie told in God's name — partner ascribed, word invented, false prophecy — is kept
+for a public unveiling; the servant whom God covers in this world is the one whose reckoning is private,
+while the fabricators are proclaimed over the heads of creation.
+
+## 11:19
+
+*"Those who bar from the way of God, seeking to make it crooked, and in the Hereafter they are
+disbelievers."*
+
+**Meaning.** **[Ṭabarī]** The curse is upon the wrongdoers who bar people from faith in God, from
+acknowledging His worship, and from purifying devotion to Him rather than to the false gods and rivals —
+the polytheists of Quraysh who used to afflict with persecution whoever entered Islam; "and seek to make
+it crooked": they seek for God's way — the Islam to which Muḥammad called people — deviation and departure
+from straightness; "and in the Hereafter they are disbelievers": with their barring from God's way and
+seeking it crooked, they deny the resurrection after death and reject it. **[Jalālayn]** They bar people
+from God's way, the religion of Islam, desiring to have it crooked; and in the Hereafter — the *hum* being
+reiterated for emphasis — they are disbelievers. **[Saʿdī]** Then God describes their wrong: they barred
+from God's way — the way of the messengers, to which they called the people — barring themselves from it
+and barring others, so they became leaders calling to the Fire; "and seek it crooked": they labour to bend
+it, disfigure it and make it look ugly, so it appears to people not straight — they beautify the false and
+make the truth appear vile. **[Ibn Kathīr]** They prevent the people from following the truth and
+traversing the path of guidance that leads to God — and in doing so keep the people away from Paradise
+itself; "seeking a crookedness therein": they want their path crooked and uneven; "while they are
+disbelievers in the Hereafter": they deny it and reject that any of its events will occur, or that it
+exists at all. **[Study Quran]** In seeking to make the way to God crooked, they attempt to distort and
+alter it so that it is no longer the straight path God has established and enjoined (see 1:6); the nearly
+identical verse 7:45 carries the same condemnation.
+
+**Reflection.** The bārred way is not hidden but bent: its enemies do not dig it up so much as misdescribe
+it, and the crookedness they seek they first practise on themselves.
+
+## 11:20
+
+*"Those shall not escape in the earth, nor shall they have any protectors apart from God. The punishment
+shall be doubled for them; they could not bear to hear, and they used not to see."*
+
+**Meaning.** **[Ṭabarī]** These who bar from God's way shall not escape their Lord by fleeing in the earth
+when He wills to punish them: they are in His grasp and His dominion; they cannot resist Him when He
+wants them, and they cannot outstrip Him in flight when He seeks them; nor, when He wills to punish them,
+do they have helpers apart from God to defend them and interpose — though in this world they had had
+defence and protection from people who wished them harm. "The punishment shall be doubled for them": it
+shall be increased, so that in place of one they receive two. As for "they could not bear to hear, and
+they used not to see," the interpreters differed: some said God describes these polytheists as having
+their hearing and sight sealed, so they do not hear the truth nor see God's proofs with the hearing of one
+who benefits or the sight of one who is guided — Qatādah: deaf to the truth, not hearing it; dumb, not
+speaking it; blind, not seeing it nor benefiting by it; and in another report from him: unable to hear
+good and benefit by it, or to see good and take it; and Ibn ʿAbbās: God has interposed between the people
+of shirk and the guidance. **[Jalālayn]** Such shall not escape God in the earth, nor have they any
+allies apart from Him to protect them against His chastisement; the chastisement shall be doubled for them
+for their having led others astray; they could not hear the truth, nor did they use to see it — because of
+their extreme aversion to it, as though they lacked the very capacity for it. **[Saʿdī]** They shall not
+escape God, for they are under His grasp and in His dominion; and they have no protectors apart from God
+to ward off harm from them or procure benefit — their means are cut off. The punishment is doubled for
+them — made heavier and increased — because they went astray themselves and led others astray. "They could
+not bear to hear": out of their hatred of the truth and aversion from it, they could not hear God's verses
+with a hearing that benefits — "What is it with you, that you turn away from the reminder, as though they
+were startled wild asses fleeing from a lion?" (74:49–51); "and they used not to see": they did not look
+with the look of one who draws lessons and reflects on what benefits them; they are as the deaf-mute who
+do not understand. **[Ibn Kathīr]** These disbelievers are under God's power and force, in His grasp and
+subject to His authority; He is most able to exact vengeance against them in this life before the coming
+of the Hereafter.
+
+**Language.** **[Qurṭubī]** "They shall not escape": they shall not elude God's punishment; Ibn ʿAbbās:
+they shall not escape Me — that I should command the earth and it swallow them. "Nor any protectors apart
+from God": helpers, the *min* being extra; and Ibn ʿAbbās also read it: they shall not escape — neither
+they nor those who were their protectors apart from God. "The punishment shall be doubled": according to
+the measure of their disbelief and disobedience. In "they could not bear to hear," *mā* may be in the
+accusative with a suppressed *bi-* — the Arabs say *jazaytuhu mā faʿala* and *bimā faʿala*, as Sībawayh
+witnessed with the verse "I commanded you the good"; or *mā* may be temporal — the doubling lasts as long
+as they are able to hear and see, and God will make them in Gehenna forever able; or it may be a negation.
+
+**Cross-references.** **[Study Quran]** They cannot thwart God's punishing them in this life if He wills
+(Z; cf. 8:59; 9:2–3; 24:57; 29:22); that God alone is Protector is a recurring refrain (2:107, 120; 4:123,
+173; 9:74, 116; 33:18, 65; 42:31); the punishment is multiplied because they are punished for their own
+misguidance and for misguiding others (JJ; see 16:25; 29:12–13; 33:66–68). Al-Rāzī reads "they could not
+hear, neither did they see" as deafness of heart and blindness of soul, consistent with the Qurʾān's
+characterizing the spiritually insensible as blind and deaf (2:171; 6:104; 13:19; 41:17).
+
+**Reflection.** The doubling answers the leading: one portion for going astray and one for taking others
+along; and the ears that refused the truth in comfort are not granted it in the Fire.
