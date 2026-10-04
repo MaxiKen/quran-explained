@@ -237,3 +237,115 @@
 **Meaning.** Moses calls the Israelites to remember the privileges God had granted them: prophets from among them, release from Pharaoh’s domination, and blessings beyond those of other peoples in their time [Jalālayn], [Study Quran]. **[Saʿdī]** notes that prophets taught them guidance and warned them of ruin; being “made kings” means that they were freed to govern their own affairs, rather than remaining enslaved. The reminder prepares them for Moses’ next command to enter the Holy Land (5:21).
 
 **Reflection.** Remembered blessing should make a people more willing to obey, not more certain that they can ignore a command [Saʿdī].
+
+---
+
+## 5:21
+
+*“O my people, enter the Holy Land that God has prescribed for you, and do not turn back, lest you become losers.”*
+
+**Meaning.** Moses urges the Israelites to enter the land God had appointed for them and not retreat from the command through fear [Jalālayn], [Saʿdī]. The precise bounds of the “Holy Land” are not specified: reports place it in several areas of the Levant, and **[Study Quran]** notes that al-Ṭabarī considers its exact location unknowable. “Prescribed” is understood as God’s decree and command, not a guarantee that makes obedience unnecessary.
+
+**Context.** Having recalled their deliverance from Pharaoh and the blessings of prophets and freedom (5:20), Moses calls them to act in gratitude and trust [Saʿdī].
+
+**Reflection.** A promised good still requires a faithful response; gratitude should strengthen resolve rather than become a pretext for passivity [Saʿdī].
+
+---
+
+## 5:22
+
+*“They said, ‘O Moses, a domineering people are in it. We will never enter it until they leave it; if they leave, then we will enter.’”*
+
+**Meaning.** The Israelites answer the command with fear of the people occupying the land, whom they describe as formidable and overpowering [Ṭabarī], [Jalālayn]. The term *jabbārīn* can convey overwhelming might or tyranny; **[Study Quran]** notes that it is a blameworthy claim to human beings of a power that belongs ultimately to God. Their refusal makes the promise of victory conditional on the enemy’s departure, rather than trusting God’s assurance.
+
+**Reflection.** Fear can present itself as practical caution while quietly making obedience depend on circumstances that God has not promised [Saʿdī].
+
+---
+
+## 5:23
+
+*“Two men among those who feared God, whom He had blessed, said, ‘Enter upon them through the gate; once you enter it, you will be victorious. Put your trust in God, if you are believers.’”*
+
+**Meaning.** Two faithful men answer the people’s fear with confidence in God’s help and counsel them to enter by the city gate [Jalālayn]. Early commentators identify them as Joshua son of Nun and Caleb, though the verse itself leaves their names unstated [Ṭabarī], [Study Quran]. They had seen the danger but did not let it outweigh their trust in God.
+
+**Belief.** The promise of victory is joined to the call to rely on God; the men do not claim that their own strength makes the outcome certain [Saʿdī].
+
+**Reflection.** Courage here is neither denial of danger nor confidence in numbers. It is acting on a divine command while entrusting the result to God [Maʿārif].
+
+---
+
+## 5:24
+
+*“They said, ‘O Moses, we will never enter it so long as they remain there. So go forth, you and your Lord, and fight; we will sit here.’”*
+
+**Meaning.** The people reject the counsel of the two believers and refuse to advance. Their words, “you and your Lord,” express a contemptuous abandonment of the duty Moses has laid before them [Ṭabarī], [Jalālayn]. **[Study Quran]** notes that the phrase may be understood as “go forth with the help of your Lord”; either way, the Israelites disown the struggle and leave Moses to face it alone.
+
+**Context.** The story later served as a warning to believers not to answer a prophetic command with the same cowardly refusal [Study Quran].
+
+**Reflection.** A community cannot demand that its leaders carry out alone the duty that belongs to all who have pledged obedience [Saʿdī].
+
+---
+
+## 5:25
+
+*“He said, ‘My Lord, I have power over none but myself and my brother, so separate us from the iniquitous people.’”*
+
+**Meaning.** Moses appeals to God after discovering that he cannot compel the people to obey. **[Jalālayn]** takes “my brother” to mean Aaron, who stood with him; **[Study Quran]** also records the interpretation that “brother” can refer more broadly to those who faithfully share his religion. “Separate us” is a plea that God distinguish Moses and the faithful from those who have rebelled [Ṭabarī].
+
+**Reflection.** A prophet can convey and call, but cannot force faith into another’s heart. Moses turns his grief and limited authority into prayer [Saʿdī].
+
+---
+
+## 5:26
+
+*“He said, ‘Then it shall be forbidden them for forty years, during which they will wander upon the earth. So do not grieve over the iniquitous people.’”*
+
+**Meaning.** In response to their refusal, God bars the people from the land for forty years and condemns them to wander [Jalālayn]. The punishment is directly tied to their disobedience; the generation that would not trust the command does not enter the land. **[Study Quran]** notes that “forbidden” has been understood either as a prohibition they must submit to or as an actual prevention from entering.
+
+**Reflection.** Moses is told not to grieve over those who persist in wrongdoing: compassion for a people does not erase their responsibility for the choice they have made [Saʿdī].
+
+---
+
+## 5:27
+
+*“Recite to them truthfully the account of Adam’s two sons: when each offered a sacrifice, it was accepted from one and not from the other. The latter said, ‘I will surely kill you.’ The former said, ‘God accepts only from the reverent.’”*
+
+**Meaning.** The Qur’an calls the Prophet to relate this account “with truth,” making it a moral lesson rather than an embellished tale. The two sons are identified in later commentary as Abel and Cain, though the verse itself does not name them [Jalālayn], [Study Quran]. Each offers a gift to God; when one offering is accepted and the other is not, the rejected brother answers with murderous envy. The faithful brother replies that acceptance belongs to those who are reverent and sincere [Ṭabarī], [Saʿdī].
+
+**Context.** The story follows the warning about those who plotted against the Prophet and his Companions (5:11); **[Qurṭubī]** links both passages through the image of a hand stretched out to kill.
+
+**Reflection.** The failure of one’s offering is no warrant to attack another; the first question is whether one’s own act was offered in reverence [Saʿdī].
+
+---
+
+## 5:28
+
+*“If you stretch out your hand against me to kill me, I will not stretch out my hand against you to kill you. Truly I fear God, Lord of the worlds.”*
+
+**Meaning.** The threatened brother refuses to become a murderer in return: his fear of God governs his response to his brother’s violence [Ṭabarī], [Jalālayn]. Commentators differ over whether his words describe a refusal to initiate violence, an unwillingness to kill even in self-defence, or a particular circumstance in which he could not defend himself; **[Study Quran]** cautions against reducing the verse to a general ruling on self-defence.
+
+**Stories & occasions.** **[Qurṭubī]** cites the prophetic counsel, “When there is civil strife, be like the better of Adam’s two sons,” as an application of the passage to the avoidance of bloodshed among believers.
+
+**Reflection.** Fear of God is not fear of retaliation: it keeps a person from letting another’s wrongdoing dictate his own moral choice [Saʿdī].
+
+---
+
+## 5:29
+
+*“I desire that you bear my sin and your sin, and so become one of the inhabitants of the Fire. Such is the recompense of the wrongdoers.”*
+
+**Meaning.** The threatened brother warns his attacker of the consequence of murder. **[Jalālayn]** explains “my sin” as the sin of killing me, alongside your own prior wrongdoing; **[Study Quran]** likewise cautions that the verse does not mean one person can carry another’s unrelated moral burden. The killer incurs the grave sin of taking his brother’s life and faces the Fire as a wrongdoer [Ṭabarī].
+
+**Belief.** Each person remains accountable for his or her own deeds; the threat describes the murderer’s added guilt, not the transfer of an innocent person’s sins [Study Quran].
+
+**Reflection.** A violent act does not erase earlier responsibility; it adds a new burden and may carry its doer toward ruin [Saʿdī].
+
+---
+
+## 5:30
+
+*“Then his soul made it seem easy to him to slay his brother, and he slew him; thus he became one of the losers.”*
+
+**Meaning.** Cain’s own soul made the murder appear easy and acceptable until he carried it out [Ṭabarī], [Jalālayn]. The verse shows how a settled intention can be reinforced by desire until moral warnings lose their force; **[Study Quran]** relates this to the soul’s capacity to urge a person toward evil. The immediate gain Cain imagined cannot undo the loss he has chosen: he becomes one of the ruined.
+
+**Reflection.** Sin is often prepared before it is enacted. Resisting envy and wrongful intention early is easier than stopping a desire that has been repeatedly indulged [Saʿdī], [Maʿārif].
