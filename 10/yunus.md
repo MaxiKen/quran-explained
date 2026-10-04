@@ -681,3 +681,85 @@
 **Meaning.** When Pharaoh’s magicians arrive, Moses invites them to begin by casting what they have brought—understood by al-Qurṭubī as their ropes and staffs **[Qurṭubī]**. Al-Jalālayn notes that the magicians had offered to cast first, and Moses accepts the order of the contest **[Jalālayn]**. The Study Quran explains that Moses is not affirming their art; allowing it to be displayed will make its falsehood evident before God brings it to nothing **[Study Quran]**. Ibn Kathīr places this invitation within the larger confrontation that will establish the truth of Moses’ message **[Ibn Kathīr]**.
 
 **Reflection.** The verse prepares the reader for a public test: the truth is not afraid to let falsehood display its full claim **[Ṭabarī]**.
+
+## 10:81
+
+*“When they cast, Moses said, ‘What you have brought is sorcery. God will surely bring it to nothing. Truly God does not set right the work of those who work corruption.’”*
+
+**Meaning.** After the magicians display their craft, Moses identifies it as sorcery and declares that God will nullify it. Al-Ṭabarī prefers the declarative reading—“what you brought is sorcery”—because Moses is not uncertain about what he has witnessed **[Ṭabarī]**. Al-Qurṭubī records a variant reading that frames the phrase as a question, “Is this sorcery?”; the difference changes the force from assertion to rebuke **[Qurṭubī]**. Al-Jalālayn explains that God will efface their work, since He does not make the deeds of corrupters succeed **[Jalālayn]**. The Study Quran and Ibn Kathīr connect the statement to the contest’s outcome: the magicians’ display will be exposed and defeated **[Study Quran] [Ibn Kathīr]**.
+
+**Reflection.** Power that depends on deception cannot endure against truth; the verse places the result in God’s hands, not in the performers’ skill.
+
+## 10:82
+
+*“And God verifies the truth through His Words, though the guilty be averse.”*
+
+**Meaning.** God makes the truth Moses brought firm and raises it above the magicians’ falsehood. Al-Ṭabarī explains “His Words” as God’s command, by which He establishes and vindicates the truth **[Ṭabarī]**. Al-Qurṭubī also includes God’s speech, proofs, and promises among its meanings **[Qurṭubī]**. Al-Jalālayn takes the verse as a promise that God will make the truth prevail even when sinners dislike it **[Jalālayn]**. Ibn Kathīr and The Study Quran read it as the conclusion of the contest: God’s word makes the true message manifest, however much Pharaoh’s party resists **[Ibn Kathīr] [Study Quran]**.
+
+**Reflection.** Opposition may delay recognition, but it cannot make falsehood final when God establishes the truth.
+
+## 10:83
+
+*“But none believed in Moses, save some progeny among his people, for fear that Pharaoh and his notables would oppress them; for truly Pharaoh was exalted in the land, and he was indeed among the prodigal.”*
+
+**Meaning.** Despite the signs, only a small group believed, and fear of Pharaoh’s persecution held others back **[Ibn Kathīr] [Jalālayn]**. Exegetes differ over whose “people” are meant: al-Qurṭubī reports the view that the believers were descendants of Israelites addressed by Moses, while The Study Quran notes that the phrase can also be understood of people connected to Pharaoh’s court, including his wife **[Qurṭubī] [Study Quran]**. Pharaoh’s “exaltation” means his tyranny and arrogance in the land, not rightful authority **[Jalālayn]**. As-Saʿdī situates the few believers within the larger trial of a ruler whose power made open faith dangerous **[Saʿdī]**.
+
+**Reflection.** The verse recognizes the pressure of oppression while honoring those who believed despite it.
+
+## 10:84
+
+*“And Moses said, ‘O my people! If you believe in God, then trust in Him, if you are submitters.’”*
+
+**Meaning.** Moses calls his people to make trust in God the practical proof of their faith. Al-Ṭabarī explains *tawakkul* as placing confidence in God and surrendering to His command **[Ṭabarī]**. Al-Qurṭubī reads the repeated condition as emphasis: complete faith includes entrusting one’s affairs to God **[Qurṭubī]**. Al-Jalālayn makes the same connection between belief, submission, and reliance **[Jalālayn]**. The Study Quran presents the exhortation as a call to withdraw reliance from Pharaoh’s power and trust the One who governs all outcomes **[Study Quran]**.
+
+**Reflection.** Trust is not a substitute for belief but its lived expression under pressure **[Ibn Kathīr]**.
+
+## 10:85
+
+*“They said, ‘In God do we trust. Our Lord! Make us not a temptation for the wrongdoing people.’”*
+
+**Meaning.** The believers answer Moses by affirming their reliance on God, then ask not to become a *fitnah* for the oppressors. Al-Qurṭubī explains that they fear Pharaoh’s victory over them might tempt him and his followers to think their wrongdoing is justified or to grow more tyrannical **[Qurṭubī]**. Al-Jalālayn similarly understands the plea as asking God not to let the oppressors prevail over them in a way that misleads the oppressors **[Jalālayn]**. The Study Quran points to the related prayer that believers not be made a trial for disbelievers (60:5) **[Study Quran]**.
+
+**Reflection.** Their prayer seeks not only safety for themselves but also that their suffering not become a pretext for others to persist in injustice **[Ibn Kathīr]**.
+
+## 10:86
+
+*“And save us through Thy Mercy from disbelieving people.”*
+
+**Meaning.** The believers ask God to rescue them from Pharaoh’s people. Al-Ṭabarī explains the plea as deliverance from their hands, since they subjected the Israelites to forced and degrading labor **[Ṭabarī]**. Al-Qurṭubī likewise glosses “save us” as freeing them from Pharaoh and his people **[Qurṭubī]**. The appeal is to God’s mercy, not to the believers’ own power to escape the regime **[Jalālayn]**.
+
+**Reflection.** The prayer follows trust with a concrete request: reliance on God does not prevent the oppressed from asking for protection **[Ibn Kathīr]**.
+
+## 10:87
+
+*“And We revealed unto Moses and his brother, ‘Appoint houses for your people in Egypt, and make your houses places of worship, and perform the prayer, and give glad tidings unto the believers.’”*
+
+**Meaning.** God directs Moses and Aaron to establish houses for the Israelites and to make them places where prayer can be performed. Al-Qurṭubī reports that Pharaoh had destroyed their public places of worship and prevented them from praying openly; the people were therefore instructed to worship in their homes **[Qurṭubī]**. The Study Quran similarly describes private prayer spaces as a response to persecution **[Study Quran]**. Commentators also read *qiblah* as orienting the houses toward a direction of prayer; Qurṭubī records differing views on whether this was Jerusalem or the Kaʿbah **[Qurṭubī]**. The command to establish prayer is followed by glad tidings of victory and reward for the believers **[Ṭabarī] [Jalālayn]**.
+
+**Rulings.** The passage supports maintaining communal worship in homes when public worship is obstructed **[Maʿārif]**.
+
+**Reflection.** Even under oppression, worship gives a community a shared center and keeps hope alive **[Ibn Kathīr]**.
+
+## 10:88
+
+*“Moses said, ‘Our Lord! Truly Thou hast given Pharaoh and his notables ornament and wealth in the life of this world, our Lord, so that they may lead astray from Thy way. Our Lord! Blot out their wealth and harden their hearts, so that they will not believe till they see the painful punishment.’”*
+
+**Meaning.** After persistent refusal, Moses prays against Pharaoh and his elite, whose wealth and display help them mislead others from God’s path **[Ṭabarī] [Ibn Kathīr]**. The wording of “so that they may lead astray” has been read as describing the effect of their worldly power; The Study Quran also records a grammatical reading closer to “lest they lead astray,” which avoids taking the phrase as God’s purpose in granting them wealth **[Study Quran]**. Moses asks that their wealth be obliterated and their hearts hardened after their continuing rejection **[Qurṭubī] [Jalālayn]**. Maʿārif presents the prayer as following Moses’ loss of hope that Pharaoh’s people would reform and his concern that their display was deceiving others **[Maʿārif]**.
+
+**Reflection.** The prayer is rooted in a long history of rejected signs; it warns that worldly splendor can become a tool of misguidance when used arrogantly.
+
+## 10:89
+
+*“He said, ‘Your supplication has been answered. So stand firm, and follow not the way of those who know not.’”*
+
+**Meaning.** God tells Moses and Aaron that their prayer has been answered and commands them to remain steadfast rather than follow the ignorant **[Ṭabarī] [Jalālayn]**. Al-Ṭabarī explains the plural “your supplication”: Moses voiced the prayer, while Aaron said *āmīn*, and the one who affirms a prayer shares in its supplication **[Ṭabarī]**. Al-Qurṭubī preserves the same explanation and notes that Aaron may also have prayed alongside Moses **[Qurṭubī]**. The Study Quran links the instruction to stand firm with the waiting period before the promised judgment **[Study Quran]**. Maʿārif likewise understands Aaron’s affirmation as part of the shared prayer **[Maʿārif]**.
+
+**Reflection.** An answered prayer does not remove the need for patience; the faithful are told to keep their course until its fulfillment.
+
+## 10:90
+
+*“We carried the Children of Israel across the sea, and Pharaoh and his hosts pursued them in oppression and enmity. Then, when drowning overtook him, he said, ‘I believe that there is no god but the One in whom the Children of Israel believe, and I am among those who submit.’”*
+
+**Meaning.** God brings the Israelites across the sea, while Pharaoh follows them in tyranny and aggression. When drowning overtakes him, he finally professes belief in the God of Israel **[Ṭabarī] [Qurṭubī]**. The declaration comes only when he can no longer escape; the next verse answers his belated confession with the question, “Now?” (10:91) **[Ibn Kathīr] [Study Quran]**. Al-Jalālayn notes that Pharaoh repeats his claim of submission, but the timing exposes that it is forced by the sight of punishment rather than a life of faith **[Jalālayn]**. Maʿārif identifies the episode as the crossing of the sea and Pharaoh’s drowning **[Maʿārif]**.
+
+**Reflection.** A confession made when the consequence has overtaken a person cannot replace the faith and obedience refused while there was time to choose **[Study Quran]**.
