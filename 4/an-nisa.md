@@ -3108,3 +3108,462 @@ take up the excuses they will offer and the counsel the Prophet is to give them.
 (2:256); "Do they seek the judgment of the age of ignorance? But who is better than God in judgment for a
 people who are certain?" (5:50); "And they say, 'We believe in God and the Messenger, and we obey' — then a
 party of them turns away after that; and those are not believers" (24:47).
+## 4:61
+
+*"And when it is said to them, 'Come to what God has sent down and to the Messenger,' you see the hypocrites
+turn away from you in aversion."*
+
+**Meaning.** **[Ṭabarī]** And when it is said to them, "Come to what God has sent down" — that is, to God's
+ruling which He revealed in His Book — "and to the Messenger," so that he may judge between us: you will see
+the hypocrites turning away from you, refusing and barring themselves from you. **[Jalālayn]** When it is
+said to them, "Come to what God has revealed" of rulings in the Qurʾān "and to the Messenger," that he may
+judge between you, you see the hypocrites turn away from you vehemently, to others. **[Saʿdī]** The gravity of
+the verse is that faith itself requires submission to God's law and making it the judge in every matter; so
+whoever claims faith and prefers the judgment of *ṭāghūt* to the judgment of God is a liar in that claim, and
+this turning away is part of Satan's leading them astray, far from the truth.
+
+**Context.** **[Ibn Kathīr]** Referring for judgment to other than the Book of God and the Sunna of His
+Messenger in disputes is the characteristic of those who claim what they do not hold: it was reported that
+the reason for the revelation was that a man of the Anṣār and a Jew had a dispute, and the Jew said, "Let us
+refer to Muhammad to judge between us," while the man said, "Let us refer to Kaʿb b. al-Ashraf." **[Maʿārif]**
+The second verse of the passage tells us that turning away from the Prophet's decision, given under the
+dictates of the Sharīʿah in matters of mutual quarrels, can never be the response of a Muslim; one who does
+it has to be a hypocrite. Thus when the disbelief of this hypocrite was practically exposed through his
+dissatisfaction with the Prophet's decision, his being killed by ʿUmar became all the more justified, because
+he no more remained a hypocrite and in fact became an open disbeliever, or apostate. **[Study Quran]** The
+hypocrite was, by some accounts, a former Jew who claimed to have embraced Islam; the Jewish man wanted to
+take their dispute to the Prophet, knowing that he would judge honestly, but the hypocrite convinced him to
+take it to a local soothsayer or to the Madinan Jewish leader Kaʿb b. al-Ashraf.
+
+**Reflection.** **[Ṭabarī]** The verse does not say they refused to hear; it says they *turned away* — the
+refusal is not in the mind but in the will, and it appears precisely when the summons is to a judgment they
+expect to go against them. **[Maʿārif]** The verse's measure is diagnostic: acceptance of a ruling one likes
+proves nothing, while the heart's posture at a ruling one dislikes is where faith and hypocrisy part.
+
+**Cross-references.** "The believers are only those who, when God and His Messenger are called to judge
+between them, say, 'We hear and we obey'" (24:51); "Have you not seen those who claim to believe in what was
+revealed to you and what was revealed before you — they wish to seek judgment from false deities" (4:60);
+"Do they seek the judgment of the age of ignorance?" (5:50).
+
+## 4:62
+
+*"How will it be when a misfortune befalls them because of what their hands have sent forth? Then they come to
+you, swearing by God, 'We sought nothing but good and harmony.'"*
+
+**Meaning.** **[Ṭabarī]** How will it be with these who wish to seek judgment from *ṭāghūt* while claiming to
+believe in what was revealed to you and before you — when a punishment from God descends on them because of
+their sins, those they have sent ahead? Then they come to you swearing by God falsely and perjuriously,
+"We intended nothing but good and reconciliation." **[Jalālayn]** How will it be when an affliction — a
+punishment — befalls them for what their own hands have sent before them in the way of unbelief and acts of
+disobedience? That is, will they then be able to turn away and escape it? No — then they come to you, swearing
+by God that in turning to other than you for arbitration "we sought only virtue and harmony," that is,
+settlement and reconciliation between the disputing parties by an approximate judgment without regard for the
+painful truth. **[Saʿdī]** They come excusing what they did, saying: we intended nothing but kindness to the
+litigants and reconciliation between them — and they are liars in that, for kindness in its entirety is the
+judgment of God and His Messenger, and who is better than God in judgment for a people who are certain?
+**[Ibn Kathīr]** They come swearing by God, "We meant no more than goodwill and conciliation," claiming that
+their intention was the improvement of the case and the reconciliation of the disputants — which was a lie.
+
+**Reflection.** **[Study Quran]** The judgment wrongdoers receive in the next life is the result of what their
+hands have sent forth, an idea repeated over a dozen times in the Qurʾān to emphasize that human beings are
+solely responsible for their fate in the Hereafter; their actions are sent forth, to be confronted on the Day
+of Judgment (cf. 2:95; 5:80; 8:51; 18:57; 59:18; 62:7; 78:40; 82:5; 89:24). Here, however, the suggestion is
+that the misfortunes generated by their wrongdoing might also be visited upon them in this life; and when
+confronted with their sins, instead of repenting, they defend their actions — a maneuver whether deceptive
+or a self-delusion (cf. 2:11–12; 9:107). **[Maʿārif]** The plea advanced by those who bypassed decisions given
+under God-given laws in favour of decisions contrary to them was, in sum, that they did not bypass the
+Messenger of God for lack of belief in the truth of his station and mission, and did not prefer another's
+decision over his as though it were the ultimate truth; rather, they claimed, there were expedient
+considerations — a case going to the Messenger of God would have meant a decision strictly legal, true and
+just, devoid of any option of mutual patch-up and tolerance, and they wanted the softer outcome.
+**[Maʿārif]** The tafsīr answers that expediency which avoids a just ruling is not virtue but evasion: the
+words *iḥsān* and *tawfīq* "good and harmony" sound like the language of peacemaking, but a peace built on
+buried truth is the destruction of the wronged party's right.
+
+**Cross-references.** "And when it is said to them, 'Do not spread corruption on the earth,' they say, 'We are
+only reformers'" (2:11–12); "Those who built a mosque out of hypocrisy and harm and division" (9:107); "Say:
+Shall we tell you who will be the greatest losers in their deeds? Those whose effort goes astray in the life
+of this world while they think they are doing good" (18:103–104).
+
+## 4:63
+
+*"Those are the ones of whom God knows what is in their hearts; so turn away from them, and admonish them,
+and speak to them about their own souls a penetrating word."*
+
+**Meaning.** **[Ṭabarī]** "Those" are the hypocrites whose description has been given you, O Muhammad: God
+knows what is in their hearts in their seeking judgment from *ṭāghūt*, their abandoning judgment before you
+and their turning away from you — of hypocrisy and deviation — even if they swear by God that they intended
+nothing but good and reconciliation. "So turn away from them": leave them and do not punish their bodies;
+"and admonish them": admonish them by making them fear that God's might will come upon them and His punishment
+descend on their dwellings; "and speak to them about their own souls a penetrating word" — a word that
+reaches into them and cuts. **[Jalālayn]** Those — God knows what is in their hearts of hypocrisy and the
+mendacity of their excuses; so turn away from them with forgiveness, and admonish them — make them fear God
+— and say to them concerning the matter of their souls penetrating words that affect them, reproving them so
+that they repent of their unbelief. **[Saʿdī]** The Prophet is told not to occupy himself with them or to
+confront them for what they did, but to admonish them — that is, to clarify God's ruling for them with
+encouragement to submit and warning against refusal — "and say to them, about their own souls, a penetrating
+word": advise them privately, between yourself and them, for that is more effective in attaining the goal,
+and be emphatic in restraining them from what they were upon. In this is a proof that one who commits sins,
+even if he is turned away from, is still to be advised in private and admonished earnestly with whatever is
+thought to achieve the aim.
+
+**Rulings.** **[Ibn Kathīr]** "So turn aside from them — do not punish them — but admonish them," meaning
+advise them against what they are doing, and "speak to them an effective word to reach their inner selves."
+**[Study Quran]** The Prophet is instructed to avoid openly punishing them; he is to admonish them and seek
+to persuade them with penetrating words rather than confronting them aggressively with force. "Turn away" may
+also mean to refuse to accept their excuse and to decline to look upon them with approval.
+
+**Reflection.** **[Ṭabarī]** The heart's secret is named as the reason for leniency: the Prophet rebukes with
+words alone precisely because the wrong is still hidden, and the word is asked to reach where nothing else has
+— into the self, "about their own souls." **[Saʿdī]** The sequence of the passage is pastoral rather than
+penal: exposure, admonition, and then private counsel — a mercy to the wrongdoer, and a template for reform
+work in every community.
+
+**Cross-references.** "If they turn away, say: I have informed you all alike" (21:109); "And be patient; your
+patience is only by God; and do not grieve over them" (16:127); "Call to the way of your Lord with wisdom and
+beautiful admonition" (16:125).
+
+## 4:64
+
+*"And We sent no messenger but that he should be obeyed by God's leave. Had they, when they wronged
+themselves, come to you and asked forgiveness of God, and the Messenger had asked forgiveness for them, they
+would have found God Relenting, Merciful."*
+
+**Meaning.** **[Ṭabarī]** We sent no messenger but that he should be obeyed by God's leave in what he commands
+and forbids. And had these hypocrites — those described in these two verses, who when called to the judgment
+of God and His Messenger turned away — when they wronged themselves by committing grave sin in seeking
+judgment from *ṭāghūt*, come to you, O Muhammad, when they had gone to *ṭāghūt* and been satisfied with his
+ruling instead of yours, repentant and returning, asking God to pardon them and to cover their sin, "and the
+Messenger had asked forgiveness for them" — interceding for them — "they would have found God Relenting,
+Merciful." **[Jalālayn]** We never sent any messenger but that he should be obeyed in what he commands and
+judges, by the leave — the command — of God, and not that he should be disobeyed or opposed. If, when they had
+wronged themselves by seeking judgment from the false deity, they had come to you repentant and asked
+forgiveness from God, and the Messenger had asked forgiveness for them — and the shift from the second to the
+third person in the address is out of deference to the Prophet's status — they would have found God relenting
+and merciful toward them. **[Qurṭubī]** "Other than messengership, We sent no messenger save to be obeyed" —
+*min* is extra for emphasis; "by God's leave" means by God's knowledge, or by God's enabling. **[Ibn Kathīr]**
+By God's leave means, according to Mujāhid, that none shall obey except by God's permission; this shows the
+prophets are obeyed only by whom God directs to obedience. The verse directs sinners and evildoers, when they
+commit errors and mistakes, to come to the Messenger so that they ask God for forgiveness in his presence and
+ask him to supplicate God to forgive them; if they do this, God will forgive them and bestow His mercy and
+pardon.
+
+**Rulings & āthār.** **[Saʿdī]** The verse contains the command and the urging to obey the Messenger, and
+shows the goal of sending messengers: that they be obeyed and magnified, which in turn establishes the
+infallibility of the messengers in what they convey from God and command: since God commanded obedience to
+them unconditionally, had they not been protected from legislating error, He would not have commanded it
+unconditionally. "By God's leave" shows that the obedience of the obedient happens by God's decree and
+foreordination — which establishes divine decree and urges reliance on God, and shows that a person is not
+enabled, if God does not help him, to obey the Messenger. Then God announces His generosity: had they
+confessed their sins, contritely, and asked forgiveness, He would have relented toward them by forgiving their
+wrong and been merciful to them by accepting their repentance, enabling them to it and rewarding them for it.
+This coming to the Messenger is specific to his lifetime, because the Prophet's asking forgiveness can only
+take place in his life; after his death nothing is to be sought from him — that would be association with God
+(*shirk*). **[Qurṭubī]** Abū Ṣādiq reported from ʿAlī: a bedouin came to us three days after we had buried the
+Messenger of God ﷺ and threw himself upon the grave of the Messenger of God ﷺ, sprinkling dust from it on
+his head, and said: "You spoke, O Messenger of God, and we heard your word; you received from God and we
+received from you; and among what God sent down to you is 'Had they, when they wronged themselves, come to
+you...' — and I have wronged myself, and I have come to you that you may ask forgiveness for me." And he was
+called from the grave: "You have been forgiven." And the meaning of "they would have found God Relenting,
+Merciful" is that they would have found Him accepting their repentance.
+
+**Reflection.** **[Study Quran]** For Muʿtazilite thinkers this verse was proof that it was God's will that
+prophets be obeyed by all, and that He did not, as certain predestinarian thinkers asserted, intend that
+anyone disobey them or be misguided concerning them; for Ashʿarite commentators such as al-Rāzī, however, much
+hinges on the statement that the messengers are obeyed by God's leave — a strong proof of their theological
+position that obedience or disobedience on anyone's part exists by God's leave, not solely through the moral
+choices of the individual. That God intended the messengers to be obeyed is also seen as affirming their
+spiritual infallibility; and the verse further suggests the intercessory role of the Prophet, for it asserts
+that if these two men sought forgiveness of God for themselves, the Prophet would also seek forgiveness for
+them, and they would find God Relenting.
+
+**Cross-references.** "And those who, when they commit an indecency or wrong their own souls, remember God
+and ask forgiveness for their sins" (3:135); "If they had come to you and asked God's forgiveness, and the
+Messenger had asked forgiveness for them" stands alongside Joseph's brothers: "Ask forgiveness for us, O our
+father" (12:97–98); "Whether you ask forgiveness for them or not — if you ask seventy times — God will never
+forgive them" (9:80).
+
+## 4:65
+
+*"But no — by your Lord, they will not believe until they make you judge in what has become entangled among
+them, and then find no hardship in their own souls concerning what you have decided, and submit in full
+submission."*
+
+**Meaning.** **[Ṭabarī]** "But no" is a rejection of what they claim: the matter is not as they say, that they
+believe in what was revealed to you while they seek judgment from *ṭāghūt* and turn away from you. Then He
+takes up the oath: by your Lord, O Muhammad, "they will not believe" — they will not affirm Me and you and
+what was revealed to you — "until they make you judge in what has become entangled among them," that is, until
+they make you the judge in what has become mixed up in their affairs so that the ruling is obscure to them;
+from *shajara*, when people dispute and entangle. Then "they find no *ḥaraj* in their own souls concerning
+what you have decided": Mujāhid said *ḥaraj* means doubt; al-Ḍaḥḥāk said it means sin — that is, their souls
+do not become constricted, not doubting in obedience to you; and "they submit in full submission": they
+submit to your decree and judgment, yielding in obedience and confessing your prophethood with total
+submission. **[Jalālayn]** "But no" — the *lā* is extra — by your Lord, they will not believe until they make
+you judge over what has broken out between them, and find in themselves no inhibition, constraint or doubt
+concerning what you decide, but comply with your ruling in full submission, without objection. **[Ibn Kathīr]**
+God swears by His Glorious Self that no one shall attain faith until he refers to the Messenger ﷺ for
+judgment in all matters; thereafter whatever the Messenger commands is the plain truth that must be submitted
+to inwardly and outwardly — adhering to his judgment without any hesitation, submitting totally, without
+rejection, denial or dispute. **[Qurṭubī]** "They submit with full submission" means inward and outward
+submission, not the mere absence of objection; al-Zamakhsharī noted that the oath is preceded by the negation
+to emphasise its force, then repeated after the oath for confirmation. Ibn al-ʿArabī said: everyone who
+suspects the Messenger of God in judgment is a disbeliever — but the Anṣārī in the report below slipped once,
+and the Prophet turned away from him and pardoned his stumble, knowing the soundness of his conviction, and
+that it was a lapse belonging to no one after the Prophet.
+
+**Stories & occasions.** **[Ṭabarī]** A group said the verse was revealed about al-Zubayr b. al-ʿAwwām and a
+rival of his from the Anṣār: they disputed before the Prophet ﷺ over one of the water channels of al-Ḥarrah by
+which they irrigated their palm trees. The Anṣārī said, "Let the water pass"; al-Zubayr refused him, and the
+Prophet ﷺ said, "O Zubayr, irrigate, then send the water to your neighbour." The Anṣārī grew angry and said,
+"O Messenger of God — is it because he is your cousin?" — for al-Zubayr's mother was Ṣafiyyah bint ʿAbd
+al-Muṭṭalib, the Prophet's aunt. The face of the Messenger of God ﷺ changed colour, and he said: "O Zubayr,
+irrigate, then hold the water until it reaches the *jadr*, then send the water to your neighbour" — and so the
+Prophet gave al-Zubayr the full extent of his right. **[Ibn Kathīr]** Al-Bukhārī recorded from ʿUrwah the same
+report: al-Zubayr quarrelled with a man about a stream both used for irrigation; the Prophet said, "O Zubayr,
+irrigate first, then let the water flow to your neighbour," and the Anṣārī became angry and said, "Is it
+because he is your cousin?" — whereupon the Prophet's face changed colour and he said, "O Zubayr, irrigate,
+then hold the water until it returns to the *jadr*, then let it flow to your neighbour," giving him his full
+right. **[Qurṭubī]** The *ḥadīth* is firmly established and sound, reported by al-Bukhārī and Muslim; the
+commentators differed on the identity of the Anṣārī — some said he was a man of the Anṣār who had fought at
+Badr, and Makkī and al-Naḥḥās said he was Ḥāṭib b. Abī Baltaʿah, while al-Thaʿlabī, al-Wāḥidī and al-Mahdawī
+also named Ḥāṭib, and others Thaʿlabah b. Ḥāṭib — but the sound position is the first, that he is unnamed, as
+in al-Bukhārī and Muslim where he is simply "a man of the Anṣār." Al-Ṭabarī preferred that the verse was
+revealed concerning the hypocrite and the Jew, as Mujāhid said, and then its generality covers the case of
+al-Zubayr. **[Study Quran]** The report connects the verse to a dispute brought to the Prophet by his early
+Companion and cousin al-Zubayr b. al-ʿAwwām and one of his neighbours over the use of a water channel; the
+neighbour was unhappy with the Prophet's ruling and suggested that he had favoured al-Zubayr because he was
+his cousin, and this verse was revealed chastising his critical attitude toward the Prophet's judgment
+(Ṭabarī, al-Wāḥidī) — though it seems more likely that the verse continues the discussion of the incident
+addressed in vv. 60–64.
+
+**Rulings.** **[Maʿārif]** The verse opens with the ultimate oath, "by your Lord," and proclaims that nobody
+can become a Muslim unless he accepts the verdict of the Prophet ﷺ willingly, calmly and fully, to the extent
+that no strain remains in his heart because of it; the Prophet is himself the exerciser of God-given
+authority over his community in his capacity as Messenger, and the authority he exercises in making decisions
+does not depend on being made a judge by litigants. Acting in accordance with this command is not restricted
+to the times when he graced this world: after him, the verdict of the sacred Law he left is nothing but his own
+verdict, so that turning to his Sharīʿah is, in reality, a return to him. Further, the expression "in what has
+become entangled among them" is not restricted to dealings and rights alone; it covers articles of belief,
+ideas and theoretical problems — so the rule that a person who is not satisfied with the Prophet's decision in
+every dispute and every issue is not a Muslim applies to matters of belief too. As for the case of ʿUmar: when
+the heirs of the man killed brought suit against ʿUmar before the Prophet ﷺ, the Prophet's spontaneous words
+were, "I never thought ʿUmar would dare to kill a believing Muslim" — showing that a higher authority, when
+approached with an appeal against a lower authority's decision, should not take sides with its subordinate but
+decide on justice and fairness alone; then the revelation of this verse made clear that the man killed was
+not, in fact, a believing Muslim.
+
+**Reflection.** **[Qurṭubī]** The verse is the third strand binding the command to return trusts, obey those
+in authority, and refer disputes to God and the Messenger: it makes the acceptance of the Prophet's judgment
+the definition of faith itself, and the absence of inward grievance the test of that acceptance. **[Maʿārif]**
+Note that the verse's demand is not only outward compliance but the stillness of the heart: *ḥaraj* is the
+constriction that remains when the tongue has already said yes, and the Prophet's anger at the Anṣārī's
+insinuation shows how seriously the verse treats a suspicion of his justice.
+
+**Cross-references.** "The only words of the believers, when they are called to God and His Messenger to judge
+between them, is that they say, 'We hear and we obey'" (24:51); "It is not for a believing man or woman, when
+God and His Messenger have decided a matter, to have any choice in their affair" (33:36); "So judge between
+them by what God has revealed" (5:48); "Then, by your Lord, We shall surely question them all together"
+(15:92–93).
+
+## 4:66
+
+*"And had We prescribed for them, 'Slay yourselves,' or 'Leave your dwellings,' they would not have done it,
+save a few of them. And had they done what they were admonished to do, it would have been better for them and
+firmer in confirmation."*
+
+**Meaning.** **[Ṭabarī]** Had We written upon these who claim to believe in what was revealed to you and seek
+judgment from *ṭāghūt* that they should kill themselves, and commanded them to do so, or to leave their
+dwellings as emigrants to another abode, they would not have killed themselves with their own hands nor
+emigrated from their dwellings out to God and His Messenger in obedience to God and His Messenger — except a
+few of them. "And had they done what they were admonished to do" — had they acted on what We admonished them
+and submitted to Our command — it would have been better for them than disobeying, and firmer in confirming
+their resolve and their faith. **[Jalālayn]** Had We prescribed for them — *an* is explicative — "Slay
+yourselves," as We prescribed for the Children of Israel, "or leave your habitations," as with the emigration;
+they would not have done it save a few — read *qalīlun* in the nominative as a substitution, or *qalīlan* in
+the accusative as an exception. Yet had they done what they were admonished to do of obedience to the
+Messenger, it would have been better for them and more firmly establishing of their faith. **[Ibn Kathīr]**
+God states that even if the people were commanded to do what they were prohibited from doing, most of them
+would not submit, for their wicked nature is such that they dispute orders; God has complete knowledge of what
+has not occurred and how it would be if it did occur — His knowledge encompasses the counterfactual as it
+encompasses the actual. **[Study Quran]** "Lay down your lives" translates *uqtulū anfusakum*, which could also
+be rendered "slay yourselves" or, metaphorically, "mortify yourselves" in the sense of killing your vain
+desires, as it is in 2:54, which refers to God's command through Moses to the Israelites after the golden calf
+incident. Some see the present verse as addressing the Jews and referencing the command in 2:54, as a way of
+suggesting that few of those in the Prophet's time would have fulfilled such a command; it also indicates that
+they would have been unwilling to obey a divine command to leave their homes — a command that tested many
+earlier prophets and prophetic communities, as it tested the Prophet's own followers, whose willingness to
+leave homes and families for Madinah earned them the high religious status of "Emigrants."
+
+**Stories & occasions.** **[Qurṭubī]** The occasion of the verse's revelation: Thābit b. Qays b. Shammās
+vaunted himself before a Jew, and the Jew said, "By God, God wrote upon us that we should kill ourselves and
+we did it, and the slain reached seventy thousand"; Thābit said, "By God, if God had written upon us, 'Slay
+yourselves,' we would have done it." Abū Isḥāq al-Subayʿī said: when "And had We prescribed for them" was
+revealed, a man said, "If we had been commanded, we would have done it; praise be to God who spared us" — and
+when that reached the Messenger of God ﷺ he said, "Among my community are men in whose hearts faith is firmer
+than the firmly-set mountains." Ibn Wahb said that Mālik said the one who spoke those words was Abū Bakr
+al-Ṣiddīq; and it is reported of Abū Bakr that he said, "If that had been written upon us, I would have
+begun with myself and my household." Abū al-Layth al-Samarqandī mentioned that those who said it among them
+were ʿAmmār b. Yāsir, Ibn Masʿūd and Thābit b. Qays: they said, "Were God to order us to kill ourselves or to
+leave our dwellings, we would do it," and the Prophet ﷺ said, "Faith is firmer in the hearts of men than the
+firmly-set mountains." *(The chains vary and the identification is not settled.)* **[Qurṭubī]** The particle
+*law* indicates that a thing is impossible because of something else: God thereby informs us that He did not
+prescribe that for us, out of kindness, lest we fall short and perish.
+
+**Meaning & reflection.** **[Saʿdī]** Since God lightened for them, let them praise and thank Him for making
+easy the commands He imposed — commands easy for anyone and not burdensome; and this is a hint that a servant
+should consider the difficulties he is spared, so that acts of worship lighten upon him and his gratitude
+increases. Then God informs them that had they done what they were admonished to do, that would have produced
+four things: first, goodness — they would have become among the good, and the description of the wicked would
+have been negated from them; second, confirmation and firmness, and its increase — for God confirms those who
+believe, in this world when trials come in the shape of commands, prohibitions and calamities, so that they
+gain a firmness by which they are enabled to perform the commands and abandon the prohibitions; third, a great
+reward — that is Paradise; and fourth, guidance to a straight path. **[Saʿdī]** The order of the verse teaches
+the method of the seeker: one should look to the state he is obliged to carry out, perfect it, and then
+ascend little by little — unlike the man whose soul strains after what he has not yet reached and was not yet
+commanded with, who rarely arrives, because his resolve is split and laziness follows.
+
+**Cross-references.** "And when Moses said to his people, 'O my people, you have wronged yourselves by taking
+the calf, so repent to your Maker and slay yourselves'" (2:54); "Say: If your fathers and your sons and your
+brothers and your spouses and your kin, and wealth you have acquired, and commerce you fear will decline, and
+dwellings you are pleased with, are dearer to you than God and His Messenger and striving in His way, then
+wait until God brings His command" (9:24); "But they were not going to believe except by God's leave" (10:100).
+
+## 4:67
+
+*"And then We would have given them from Our presence a great reward."*
+
+**Meaning.** **[Ṭabarī]** Had they done what they were admonished to do, We would have given them, for their
+obedience and their ending at Our command, a wage and reward — a great one — and We would have made them
+stronger in their resolves and their purposes, and more capable in their deeds. **[Jalālayn]** And then — had
+they confirmed themselves — We would have surely given them from Us a great wage, that is, Paradise.
+**[Saʿdī]** The reward is named great because it is from the presence of God and is not earned by the works
+that preceded it; God gives them of the reward what their deeds could never reach.
+
+**Reflection.** **[Ṭabarī]** The verse chains the reward to the *had they done*: the great wage is not
+detached from action but hangs from it as fruit from its tree, and the emphasis "from Our presence" (*min
+ladunnā*) marks its source as God's own generosity rather than the creature's due.
+
+**Cross-references.** "And whoever is given his book in his right hand — he will have an easy reckoning"
+(84:7–8); "You who are of those whom We will favour — whoever of you acts righteously, We shall give him a
+great reward" (33:31); "That is the bounty from God; and God suffices as Knower" (4:70).
+
+## 4:68
+
+*"And We would surely have guided them to a straight path."*
+
+**Meaning.** **[Ṭabarī]** And We would have guided them to a straight path — that is, a way with no deviation
+in it, which is God's upright religion, the one He chose for His servants and legislated for them, and that is
+Islam. **[Jalālayn]** And We would have guided them to a straight path — this being the answer to a question
+put by some Companions to the Prophet ﷺ when they asked how they would see him in Paradise when he would be in
+the highest stations and they below him. **[Ibn Kathīr]** "And indeed We should have guided them to the
+straight way" — in this life and the Hereafter. **[Saʿdī]** The guidance is both the showing of the way and
+the enabling to travel it: God's promise in the previous verses was not only reward but a firmness that keeps
+the walker on the road, so that the servant's "had they done it" ends in the destination rather than in the
+effort.
+
+**Reflection.** **[Ṭabarī]** The verse closes the promise where the Book opens the prayer of the servant:
+"And guide us to the straight path" (1:6) — the reward and the guidance are two sides of the same gift, and
+the one who obeys God and His Messenger is guided along a way that has no crookedness in it.
+
+**Cross-references.** "Guide us to the straight path, the path of those whom You have blessed" (1:6–7); "And
+whoever obeys God and the Messenger, they are with those whom God has blessed" (4:69); "And God guides whom
+He wills to a straight path" (2:213).
+
+## 4:69
+
+*"And whoever obeys God and the Messenger — they are with those whom God has blessed: the prophets, the
+truthful, the martyrs, and the righteous; and how excellent are those as companions."*
+
+**Meaning.** **[Ṭabarī]** Whoever obeys God and the Messenger by submitting to their command, sincerely
+accepting their judgment and ending at their command, stopping at what they prohibited of God's disobedience
+— he is with those whom God has blessed with His guidance and the enabling of obedience in this world, among
+His prophets, and in the Hereafter when he enters the Garden: the truthful (the *ṣiddīqūn*, the plural of
+*ṣiddīq*); the commentators differed on the meaning of *ṣiddīqīn*; the martyrs (*shuhadāʾ*); and the righteous
+(*ṣāliḥūn*) — and how excellent are those as companions, in the Garden. **[Jalālayn]** Whoever obeys God and
+the Messenger in what he commands — they are with those whom God has blessed of the prophets and the truthful
+— that is, the most excellent of the Prophet's Companions, because of the fullness of their truthfulness and
+their affirmation of the truth — and the martyrs, those slain in the path of God, and the righteous, all those
+other than the ones mentioned. What fine companions they are! — in Paradise, since in it one will enjoy seeing
+them, visiting them and being in their presence even though they are in the highest stations relative to
+others. **[Saʿdī]** Everyone who obeys God and His Messenger, according to his state and the measure of what
+is obligatory on him — male or female, small or great — those are with those whom God has blessed with the
+great blessing that entails perfection, success and felicity: of the prophets, whom God favoured with His
+revelation and chose by sending them to creation and calling them to God; the *ṣiddīqīn*, those whose
+affirmation of what the messengers brought was complete, who knew the truth and affirmed it with their
+certainty and by standing with it in word, deed, state and calling to God; the martyrs, who fought in the path
+of God to raise His word and were killed; and the righteous, whose outward and inward self was sound, so that
+their deeds were sound. Everyone who obeys God is with these and in their company — and how excellent those
+are as companions, in the gardens of bliss, in intimacy with their closeness in the neighbourhood of the Lord
+of the worlds.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Al-Bukhārī recorded that ʿĀʾishah said: "I heard the Messenger of God ﷺ
+saying, 'Every prophet who falls ill is given the choice between this life and the Hereafter.'" During the
+illness that preceded his death his voice became weak and I heard him saying, "In the company of those on whom
+God has bestowed His grace, of the prophets, the truthful, the martyrs and the righteous" — and I knew then
+that he was being given the choice; Muslim recorded this *ḥadīth*. And this explains another *ḥadīth*: the
+Prophet said before his death, "O God, in the Most High Company," three times, and then he died.
+**[Ibn Kathīr]** Ibn Jarīr recorded that Saʿīd b. Jubayr said: an Anṣārī man came to the Messenger of God ﷺ
+while feeling sad; the Prophet asked, "Why do I see you sad?" He said, "O Prophet of God, I was thinking of
+something: we come to you day and night, looking at your face and sitting by you; tomorrow you will be raised
+with the prophets, and we will not be able to see you." The Prophet said nothing, but later Gabriel came down
+to him with this verse, and the Prophet sent the good news to the Anṣārī man. This *ḥadīth* was narrated in
+*mursal* form from Masrūq, ʿIkrimah, ʿĀmir al-Shaʿbī, Qatādah and al-Rabīʿ b. Anas; this is the version with
+the best chain of narrators. **[Ibn Kathīr]** Abū Bakr b. Mardawayh recorded it with a different chain from
+ʿĀʾishah, who said: a man came to the Prophet ﷺ and said, "O Messenger of God, you are more beloved to me than
+myself, my family and my children; sometimes when I am at home I remember you and cannot wait until I come and
+look at you. When I think about my death and your death, I know that you will be with the prophets when you
+enter Paradise — and I fear that I may not see you when I enter Paradise." The Prophet did not answer him
+until the verse, "And whoever obeys God and the Messenger — they are with those whom God has blessed," was
+revealed to him. **[Ibn Kathīr]** Muslim recorded that Rabīʿah b. Kaʿb al-Aslamī used to spend the night with
+the Prophet ﷺ, bringing him water for ablution, the tooth-stick and whatever he needed at *taḥajjud*; the
+Prophet said to him, "Ask me," and he said, "I ask for your company in Paradise." The Prophet said, "Is there
+anything other than that?" He said, "That is it." So he said, "Then help me against yourself by much
+prostration." **[Maʿārif]** Ranks in Paradise are by deeds: the foremost are with the noble prophets in the
+highest stations; next are those with the rank of the *ṣiddīqīn* — the great Companions who believed at the
+very beginning without hesitation or hostility, like Abū Bakr; then the rank of the martyrs, who sacrificed
+life and wealth in the way of God; then the righteous, who confine themselves, outwardly and inwardly, to what
+is good and right. **[Maʿārif]** As for how the lower can be with the higher despite the difference of rank:
+the people of Paradise will see those in the strata above them as one sees the stars (Mālik's *Muwaṭṭaʾ*,
+from Abū Saʿīd al-Khudrī: "The inmates of Paradise will see those in the strata above them like you see stars
+in the physical world"); and visits will be made — Ibn Jarīr reported from al-Rabīʿ that the Prophet, in
+explaining this verse, said, "Those of the strata above will come down to those of the strata below to meet
+and sit with them"; and it is possible that those below are permitted to visit those above, as the Prophet
+gave many people, on the basis of this verse, glad tidings of being with him in Paradise.
+
+**Reflection.** **[Study Quran]** Those who are obedient are among those whom God has blessed — those granted
+guidance and success in this life and Paradise in the next; the verse indicates they shall have the company
+of the most excellent in Paradise, including the prophets. This verse was reportedly revealed when some of
+the Prophet's Companions expressed dismay at the thought that those who had enjoyed the Prophet's company on
+earth would be denied it in the Hereafter since, as a prophet, Muhammad would be exalted far above them; the
+verse made clear that the obedient shall have the company of their prophet after death (Jalālayn, al-Ṭabarī,
+al-Wāḥidī, al-Zamakhsharī). According to several *aḥādīth*, the Prophet assured his followers that if they
+love God, the Prophet and the righteous, though they may have fallen short in their own works, they shall be
+"with those whom they love" in the next life; the *ṣiddīqīn*, which might also be translated "the sincere,"
+are those who believe in and follow the prophets in complete sincerity, or the most morally excellent among
+their companions.
+
+**Cross-references.** "Say: If you love God, follow me, and God will love you" (3:31); "Those who obey God
+and the Messenger — they are the truthful ones, and the witnesses, with their Lord, and they shall have their
+reward" (57:19); "And the foremost, the first of the Emigrants and the Helpers, and those who followed them
+in goodness — God is pleased with them" (9:100); "That is the bounty of God, which He gives to whom He
+wills" (5:54).
+
+## 4:70
+
+*"That is the bounty from God; and God suffices as Knower."*
+
+**Meaning.** **[Jalālayn]** That — their being with those mentioned — is bounty from God with which He has
+favoured them, and not because they earned it through their obedience. God suffices as Knower of the reward of
+the Hereafter — that is, trust in what He has told you: none can tell you like One who is aware.
+**[Saʿdī]** "That bounty" which they attained "is from God": He it is who enabled them to it and helped them,
+and who gave them of the reward what their deeds could never reach; and "God suffices as Knower" — He knows
+the states of His servants and knows who deserves the abundant reward for the righteous deeds on which the
+heart and the limbs agreed. **[Ṭabarī]** The bounty is God's favour, not the servant's wage; the creatures'
+works could not have attained it had He not favoured them with it.
+
+**Reflection.** **[Saʿdī]** The verse removes pride from obedience: to be placed with the prophets is a gift
+whose source is God's favour, while the works that preceded it were themselves enabled by Him — so the
+obedient one should look at the gift rather than at his own hand.
+
+**Cross-references.** "And He gives you of everything you ask; and if you count the favors of God, you cannot
+number them" (14:34); "Say: In the bounty of God and His mercy — in that let them rejoice" (10:58).
