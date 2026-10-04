@@ -613,3 +613,99 @@
 **Rulings.** As-Saʿdī understands the command to cover whatever defensive capacity is possible in a community’s time; the Study Quran notes that the verse also has a spiritual allegorical reading, but its immediate context is military preparedness. **[Saʿdī] [Study Quran]**
 
 **Reflection.** Read beside 8:58, preparedness is joined to just conduct: the community is to be ready, yet it must not violate a treaty or act treacherously. Expenditure made for legitimate protection is not lost with God. **[Maʿārif] [Qurṭubī] [Saʿdī]**
+
+## 8:61
+
+*“If they incline toward peace, incline toward it and trust in God. Truly He is the Hearing, the Knowing.”*
+
+**Meaning.** When an opposing party seeks peace, the Prophet is told to accept the opening and place his trust in God. **[Ṭabarī] [Jalālayn] [Ibn Kathīr]** The verse allows a truce or other peaceful arrangement; as-Saʿdī notes that peace can give both sides respite and may allow people to encounter Islam without the pressure of battle. **[Qurṭubī] [Saʿdī] [Maʿārif]**
+
+**Rulings.** Classical commentators differ over whether the command remains operative in general or was limited or abrogated by later fighting verses. The Study Quran notes that many read it as a continuing basis for reconciliation and cites the Prophet’s truce at Ḥudaybiyah. **[Jalālayn] [Study Quran]**
+
+**Reflection.** Trust in God accompanies, rather than excludes, a prudent choice for peace when the other side offers it. **[Saʿdī]**
+
+## 8:62
+
+*“If they intend to deceive you, God is sufficient for you. He it is Who supported you with His help and with the believers.”*
+
+**Meaning.** The possibility of deception does not cancel the instruction to consider peace. If an opponent’s offer is insincere, God can protect the believers as He supported them at Badr. **[Jalālayn] [Ibn Kathīr] [Saʿdī]** The verse distinguishes a general fear that an offer may be dishonest from concrete signs of treaty treachery, which 8:58 addresses through transparent notice. **[Study Quran]**
+
+**Reflection.** The believer is neither naïve nor cynical: peace may be accepted, while reliance on God answers the fear that others may exploit it. **[Maʿārif] [Study Quran]**
+
+## 8:63
+
+*“He joined their hearts. Had you spent all that is on earth, you could not have joined their hearts, but God joined them. Truly He is Mighty, Wise.”*
+
+**Context.** The verse is commonly connected with the Aws and Khazraj of Madīnah, who had a history of conflict before Islam; it also includes the bond between the Helpers and the Emigrants. **[Ṭabarī] [Qurṭubī] [Study Quran]**
+
+**Meaning.** The believers’ unity was not something wealth or political strategy alone could produce. God brought their hearts together through faith and mutual loyalty, making former rivals supporters of one another. **[Jalālayn] [Ibn Kathīr] [Saʿdī]**
+
+**Reflection.** Material resources can assist a community, but durable reconciliation requires a change of heart that cannot simply be purchased. **[Maʿārif] [Study Quran]**
+
+## 8:64
+
+*“O Prophet, God is sufficient for you, and for the believers who follow you.”*
+
+**Meaning.** God is the ultimate sufficiency for the Prophet and his followers; the believers are also a real source of support for him by standing together. **[Ṭabarī] [Jalālayn] [Maʿārif]** The verse reassures the community before the commands about steadfastness and battle ratios that follow: the enemy’s greater numbers need not overwhelm them. **[Ibn Kathīr] [Study Quran]**
+
+**Reflection.** Trust in God and solidarity among believers are presented together, not as alternatives. **[Saʿdī] [Study Quran]**
+
+## 8:65
+
+*“O Prophet, urge the believers to fight. If there are twenty steadfast among you, they will overcome two hundred; if there are one hundred, they will overcome a thousand of those who disbelieve, for they are a people who do not understand.”*
+
+**Meaning.** The Prophet is told to strengthen the believers’ resolve. The verse speaks of a ratio of one steadfast believer to ten opponents, attributing confidence not just to numbers but to patience, purpose, and trust in God. **[Ṭabarī] [Jalālayn] [Saʿdī]** The commentators read it as an instruction as well as encouragement, not a guarantee that every battle will have the same outcome. **[Qurṭubī] [Study Quran]**
+
+**Context.** This is the first of two closely linked verses; 8:66 immediately lightens the burden in recognition of the believers’ weakness. **[Ibn Kathīr] [Maʿārif]**
+
+**Reflection.** As-Saʿdī contrasts fighting for worldly status with fighting from conviction and hope in God, while the next verse makes clear that human capacity must also be taken into account. **[Saʿdī] [Study Quran]**
+
+## 8:66
+
+*“Now God has lightened your burden, knowing that there is weakness in you. If there are one hundred steadfast among you, they will overcome two hundred; if there are one thousand, they will overcome two thousand by God’s leave. God is with the steadfast.”*
+
+**Meaning.** The required ratio is reduced from one believer to ten opponents in 8:65 to one to two. God’s knowledge of the believers’ weakness is the reason given for the easing; the promise remains conditioned on steadfastness and God’s leave. **[Jalālayn] [Ibn Kathīr] [Saʿdī]**
+
+**Rulings.** Many commentators read 8:65 as the original command and 8:66 as its later easing; others understand the first ratio as applying only when the believers were able to sustain that level of patience. The Study Quran notes both approaches. In the common legal reading, the later one-to-two ratio is the operative limit for standing firm against a larger force. **[Qurṭubī] [Maʿārif] [Study Quran]**
+
+**Reflection.** The paired verses balance courage with realistic human capacity: steadfastness matters, but the obligation is not framed as though weakness did not exist. **[Saʿdī] [Maʿārif]**
+
+## 8:67
+
+*“It is not for a prophet to have captives until he has decisively prevailed in the land. You desire the goods of this world, while God desires the Hereafter. God is Mighty, Wise.”*
+
+**Context.** The verse addresses the decision at Badr to retain prisoners and accept ransom before the community had secured a decisive position against its attackers. The Prophet consulted his Companions: Abū Bakr favoured ransom, while ʿUmar urged a harder course. **[Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Meaning.** *Ithkhān* means to prevail decisively or make the enemy’s power ineffective; the Study Quran cautions against translating it simply as “mass slaughter.” The admonition is that immediate ransom should not take priority over the community’s security and the broader aim of the Hereafter. **[Ṭabarī] [Jalālayn] [Study Quran]**
+
+**Reflection.** The passage scrutinizes the motives and timing of the decision without denying the later place of clemency and ransom in the law. Commentators differ on how this warning relates to the subsequent permission to release captives for ransom. **[Qurṭubī] [Study Quran]**
+
+## 8:68
+
+*“Had it not been for a decree from God that had already gone forth, a great punishment would have touched you for what you took.”*
+
+**Meaning.** The verse refers to God’s prior decree that prevented an immediate severe punishment after the decision concerning Badr’s captives and spoils. Commentators explain the “decree” variously: as the coming permission for spoils, as God’s practice of clarifying a rule before punishment, or as a prior allowance for those who fought at Badr. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Maʿārif]**
+
+**Context.** Read with 8:67, this is a stern correction of acting before the relevant guidance had been fully made clear, not a denial that the community would later be permitted to benefit from spoils. **[Jalālayn] [Saʿdī]**
+
+**Reflection.** Good intentions do not remove the need to seek guidance about a new and consequential decision; the verse pairs warning with God’s mercy and prior knowledge. **[Study Quran] [Maʿārif]**
+
+## 8:69
+
+*“So consume what you have taken as spoils, lawful and wholesome, and be mindful of God. Truly God is Forgiving, Merciful.”*
+
+**Meaning.** The community is now told that the spoils taken at Badr are lawful and good. The permission follows the admonition in 8:67–68 and is joined to a renewed call to fear God. **[Ṭabarī] [Jalālayn] [Saʿdī]** The sources describe this as a distinctive allowance for the Muslim community, since earlier communities were not permitted to use war spoils in this way. **[Ibn Kathīr] [Maʿārif]**
+
+**Context.** The sequence matters: the earlier warning is not the final rule. Once God clarifies the allowance, the believers may benefit from what was taken, while remembering that its lawful use remains governed by divine limits. **[Study Quran] [Maʿārif]**
+
+**Reflection.** Forgiveness and mercy follow correction; gratitude is shown by receiving a permitted blessing without forgetting its source or limits. **[Saʿdī]**
+
+## 8:70
+
+*“O Prophet, say to the captives in your hands: ‘If God knows any good in your hearts, He will give you something better than what was taken from you and forgive you. God is Forgiving, Merciful.’”*
+
+**Meaning.** The Badr captives are offered a future beyond their ransom: if God knows sincerity and faith in their hearts, He can replace what they paid with something better and forgive their former hostility. **[Ṭabarī] [Jalālayn] [Study Quran]**
+
+**Stories & occasions.** Some reports identify the Prophet’s uncle al-ʿAbbās among those addressed. Al-Ṭabarī transmits his attribution of the verse to his ransom, but some versions have disputed chains *(weak report)*; this anecdote does not limit the verse’s general address. **[Ṭabarī] [Ibn Kathīr]**
+
+**Reflection.** The promise is conditional on inward good, not on ransom alone. Even an enemy in custody is addressed as someone capable of repentance, forgiveness, and a better future. **[Maʿārif] [Study Quran]**
