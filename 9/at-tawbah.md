@@ -58,6 +58,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -2313,3 +2315,355 @@ taste what you accumulated. The return of a deed is the deed itself: what was ac
 accumulated lawfully but without paying its *zakāh*, itself became the punishment of these people. The
 hoard is not a misfortune that befell them; it is what they chose, presented to them at the last in the
 only form in which it can still be felt.
+
+## 9:36
+
+*"Truly the number of months in the Eyes of God is twelve months, [laid down] in the Book of God, the day He
+created the heavens and the earth. Of them four are sacred. That is the upright religion. So wrong not
+yourselves during them. And fight the idolaters all together, just as they fight you all together. And know
+that God is with the reverent."*
+
+**Meaning.** **[Jalālayn]** "Verily the number of months" used to reckon the year "with God is twelve
+months, in the Book of God" — the Preserved Tablet — "from the day that He created the heavens and the
+earth; four of them" — that is, of the months — "are sacred," inviolable: Dhū al-Qaʿda, Dhū al-Ḥijja,
+Muḥarram and Rajab. That making of them sacred is "the right," the upright, religion. "So do not wrong
+yourselves during them" — during these sacred months — with acts of disobedience, for their burden of sin
+is greater therein; but it is also said to mean: do not wrong yourselves at any time, during all the months
+of the year. "And fight the idolaters altogether" — all of them, throughout the months — "even as they
+fight you altogether; and know that God is with those who fear Him," supporting and assisting them.
+**[Ṭabarī]** The number of the months of the year is twelve in the Book of God, in which He wrote
+everything that is to be, in His decree that He decreed, "the day He created the heavens and the earth."
+"Of them four are sacred": of these twelve months, four are sacred months which the Jāhiliyyah used to
+venerate and hold inviolable, forbidding fighting in them — so much so that if one of them met his
+father's killer during them he would not molest him. They are Rajab of Muḍar and three consecutive
+months: Dhū al-Qaʿda, Dhū al-Ḥijja and Muḥarram; and the reports from the Messenger of God ﷺ are
+concordant on this. **[Saʿdī]** "Truly the number of months with God" — in God's decree and
+determination — "is twelve months," the known months, "in the Book of God," i.e. in His decreed judgement,
+"the day He created the heavens and the earth": He set running their night and day and determined their
+times, dividing them into these twelve months. "Of them four are sacred": Rajab the separate one, and Dhū
+al-Qaʿda, Dhū al-Ḥijja and Muḥarram, called *ḥurum* because of the greater sanctity they carry and because
+fighting in them is forbidden. "So wrong not yourselves during them": the pronoun may refer to the twelve
+months — God having made them measures for His servants, to be filled with obedience to Him and with thanks
+for His favour in them and in their being disposed to the benefit of His servants; or it may refer to the
+four sacred ones — in which case it is a prohibition of wrongdoing in them specifically, over and above the
+prohibition of wrongdoing at all times, because of their greater sanctity and because wrongdoing in them is
+graver than at other times, and this includes the prohibition of fighting in them according to those who
+hold that the prohibition of fighting in the sacred months was not abrogated.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Imām Aḥmad recorded that Abū Bakrah said: the Prophet ﷺ said in a
+sermon during his ḥajj, "Time has completed its cycle and has come to the form of the day God created the
+heavens and the earth. The year is twelve months, of which four are sacred: three consecutive — Dhū
+al-Qaʿdah, Dhū al-Ḥijjah and Muḥarram — and Rajab of Muḍar, which is between Jumādā and Shaʿbān." He then
+asked, "What day is this?" — and when they deferred, he said, "Is it not the Day of Sacrifice?"; then,
+"What month is this?" — "Is it not Dhū al-Ḥijjah?"; then, "What town is this?" — "Is it not the sacred
+town?" **[Study Quran]** A ḥadīth often cited here states: "O people! Truly time has come round to its
+state when God created the heavens and the earth. The year is twelve months, and of them four are sacred,
+three of which are consecutive — Dhū al-Qaʿdah, Dhū al-Ḥijjah, Muḥarram — and Rajab, which is between
+Jumādā and Shaʿbān."
+
+**Rulings.** **[Saʿdī]** "And fight the idolaters all together" — fight all kinds of idolaters and of
+those who disbelieve in the Lord of the worlds, and single none of them out for fighting to the exclusion
+of another; rather make them all your enemies, just as they have taken the people of faith as enemies,
+sparing them no evil. It is also possible that *kāffah* is a circumstantial qualifier of the believers:
+"and fight, all of you, the idolaters" — in which case the verse entails the obligation of general
+mobilisation upon all believers, and on this reading it was abrogated by "it is not for the believers to go
+forth all together" (9:122). **[Qurṭubī]** On "the number of the months": if a man says to his brother, "I
+will not speak to you for *al-shuhūr* (the months)," and swears to it, he does not speak to him for a year
+according to some scholars; it is also said: never. Ibn al-ʿArabī said: if he has no specific intention, I
+hold that it entails three months, that being the least plural required by the form. "With God" means in
+God's judgement and in what He has written in the Preserved Tablet.
+
+**Language.** **[Study Quran]** The sacred months are Dhū al-Qaʿdah, Dhū al-Ḥijjah, Muḥarram and Rajab —
+the eleventh, twelfth, first and seventh months of the lunar calendar. In "wrong not yourselves during
+them," *during them* is interpreted by some to mean during those four months and by others to mean during
+all the months (Ṭ); others read the preposition differently, so that "wrong not yourselves *concerning*
+them" refers to the manipulation of the months, which is condemned in v. 37. *Fight the idolaters all
+together* is understood to mean that the believers should be united when fighting them (R). According to
+some, this injunction constitutes permission to fight in all twelve months, but others hold that such a
+reading goes against the import of this verse; see the commentary on 2:217, "They ask thee about the sacred
+month — about fighting therein."
+
+**Cross-references.** **[Ibn Kathīr] [Study Quran]** 2:217, on fighting in the sacred month.
+
+**Reflection.** Time itself is here declared to be a divine measure — twelve months, four of them set
+apart — so that the calendar is not a neutral convenience but part of "the upright religion." To tamper
+with it (as v. 37 will show) is to tamper with the measure God set; to wrong oneself within it is graver
+than at other times, because the month itself is a sanctuary.
+
+---
+
+## 9:37
+
+*"Truly the nasīʾ is but an increase in disbelief, whereby the disbelievers go astray. They make it lawful
+one year and forbid it another, in order to reconcile it with the number made sacred by God, thus making
+lawful that which God has forbidden. The evil of their deeds is made to seem fair unto them, but God guides
+not the disbelieving people."*
+
+**Meaning.** **[Jalālayn]** "Postponement of the sacred month" — that is, the deferment of the sacredness
+of a given month to another, as they used to do in paganism, such as postponing the sacredness of Muḥarram
+if it arrived while they were at war, to Ṣafar — "is only an excess of unbelief," because of their
+rejection of God's ruling concerning it, "whereby those who disbelieve are led astray" (*yuḍallu*; also
+read *yaḍillu*, "they go astray"): one year they make the postponed month profane and hallow it another,
+that they may make up — by profaning one month and hallowing another in its place — the number of months
+God has hallowed, such that they do not hallow more or less than four months, but without observing the
+individual months themselves; and so they profane what God has hallowed. "Their evil deeds have been
+adorned for them," such that they deem them good deeds; "and God does not guide the disbelieving folk."
+**[Ṭabarī]** "The *nasīʾ* is only an increase in unbelief." *Al-nasīʾ* is a verbal noun from the saying
+"*nasaʾa fī ayyāmika*" and "*nasaʾa Allāhu fī ajalika*" — may God increase the days of your life and the
+span of your days, that you may remain alive in them. Every increase that occurs in a thing, the thing in
+which that increase occurs is called *nasīʾ* on account of it: hence milk diluted with water is called
+*nasīʾ*, a pregnant woman is called *nasūʾ* — "*nusi'at al-marʾah*" — because of the increase of the child
+in her, and one says "*nasaʾtu al-nāqa wa-ansaʾtuhā*" of urging a she-camel to increase her pace. It is
+also possible that *nasīʾ* is *faʿīl* shifted from *mafʿūl*, as *laʿīn* and *qatīl* mean *malʿūn* and
+*maqtūl* — in which case the sense is: the month that is postponed is an increase in unbelief.
+**[Saʿdī]** *Al-nasīʾ* is what the people of the Jāhiliyyah used to practise with the sacred months. Among
+their false innovations: when they saw the need to fight during some part of the sacred months, they
+decided by their corrupt opinions to preserve the *number* of sacred months in which God had forbidden
+fighting, while postponing some of the sacred months or bringing them forward and putting in their place
+whatever month of the lawful months they wished; and when they had put it in its place they made fighting
+lawful in it and made the lawful month sacred. God has declared this to be an increase in their unbelief
+and misguidance, because of the dangers it contains: they innovated it of themselves and gave it the status
+of God's law and religion, from which God and His Messenger are quit; they turned the religion upside down,
+making the lawful forbidden and the forbidden lawful; they practised deception and trickery in the religion
+of God and obscured it for His servants; and customs that contravene the Law, when persisted in, lose their
+ugliness in the soul until they are supposed to be good customs — so there arose the error and misguidance
+that arose.
+
+**Stories & occasions.** **[Ibn Kathīr]** ʿAlī b. Abī Ṭalḥah said that Ibn ʿAbbās commented on "the
+postponing is indeed an addition to disbelief": "Junādah b. ʿAwf b. Umayyah al-Kinānī, known as Abū
+Thumāmah, used to attend the ḥajj season every year and declare, 'Abū Thumāmah is never rejected nor
+refuted!' — and he used to treat Ṣafar as sacred for the people one year [and Muḥarram as profane], and
+treat Muḥarram as sacred another year [and Ṣafar as profane]." **[Ibn Kathīr]** God admonishes the
+idolaters for choosing their wicked opinions over God's law: they changed God's legislation on the basis of
+their vain desires, making lawful what God prohibited and prohibited what He allowed, because three
+consecutive sacred months seemed too long for them to remain without fighting, being full of anger and
+rage; so before Islam they innovated the change of the sacred month of Muḥarram, deferring it to Ṣafar —
+thus making fighting lawful in the sacred month and making the non-sacred month sacred, in order to make
+the sacred months four in the year, as God had decreed. **[Maʿārif]** By shifting the months back and
+forth, the idolaters of Arabia thought to achieve two things: that it would serve their material interests,
+and that it would also earn them credit for complying with the divine injunction. That approach was not
+approved by God: their postponing of months from where they belonged was nothing but an addition to their
+denial, leading them further astray — that they should declare a sacred month profane in one year and then
+be ready to call it sacred in another is simply unacceptable.
+
+**Language.** **[Qurṭubī]** Most of the imāms read *al-nasīʾ* with the hamza; al-Naḥḥās said that the
+reading without hamza is reported from Nāfiʿ only through Warsh. It is derived from *nasaʾahu* and
+*ansaʾahu*, "he postponed it," both forms being reported by al-Kisāʾī. Al-Jawharī: *al-nasīʾ* is *faʿīl* in
+the sense of *mafʿūl*, from your saying "*nasaʾtu al-shayʾa fa-huwa mansūʾ*" when you postpone it — then
+*mansūʾ* is converted to *nasīʾ*, as *maqtūl* to *qatīl*; a man is *nāsiʾ* and a people *nasaʾah*, like
+*fāsiq* and *fasaqah*. Al-Ṭabarī said: *al-nasīʾ*, with the hamza, means increase — "*nasaʾa yansaʾu*" when
+it increases — and it cannot be, without the hamza, anything other than from *nisyān*, "forgetfulness," as
+in "they forgot God, so He forgot them" (9:67); and he rejected Nāfiʿ's reading, arguing on the grounds of
+its transitivity with a preposition. **[Study Quran]** *Nasīʾ* literally means "postponement," but can
+also mean "addition" (R). There is no unanimity regarding what exactly this condemned practice was.
+**[Jalālayn]** *Yuḍallu* is also read *yaḍillu*, "they go astray."
+
+**Readings.** **[Jalālayn]** *Yuḍallu bihi* — "whereby they are led astray" — is also read *yaḍillu*,
+"they go astray."
+
+**Reflection.** The manipulation is condemned not because they changed a date but because they kept the
+form and discarded the thing: four months stayed "sacred" in name, while the months God had actually set
+apart were declared profane whenever war suited them. Counting as God counted, while deciding for
+themselves which months count, is the pattern the verse calls an increase in unbelief — and the last clause
+explains how it survives: their own misdeeds come to look fair to them.
+
+---
+
+## 9:38
+
+*"O you who believe! What ails you, that when it is said unto you, 'Go forth in the way of God,' you sink
+down heavily to the earth? Are you content with the life of this world over the Hereafter? Yet the enjoyment
+of the life of this world, compared with the Hereafter, is but a little."*
+
+**Meaning.** **[Jalālayn]** When the Prophet ﷺ summoned the men for the Tabūk campaign and they found it
+too burdensome, on account of the hardship and the extreme heat they were suffering, the following was
+revealed: "O you who believe, what is wrong with you that when it is said to you, 'Go forth in the way of
+God,' you sink down heavily" — *iththāqaltum*: the original *tāʾ* of *tathāqaltum* has been assimilated
+with the *thāʾ* and the conjunctive hamza supplied — that is, you hesitate and are disinclined to take part
+in the struggle — "to the ground," to stay sitting upon it? The interrogative is meant as a rebuke. "Are
+you so content with the life of this world and its delights rather than with the Hereafter" — in place of
+its bliss? "Yet the enjoyment of the life of this world," in comparison with the enjoyment of the
+Hereafter, "is but little," trivial. **[Ṭabarī]** This verse is an urging from God to the believers among
+the Companions of His Messenger to campaign against the Byzantines — that is, the expedition of the
+Messenger of God ﷺ to Tabūk: "O you who have believed in God and His Messenger, what is your affair, that
+when the Messenger of God, Muḥammad, says to you, 'Go forth'" — that is, go out from your dwellings to your
+place of campaigning — "you sink down heavily to the earth?" The root meaning of *nafara* is to depart from
+one place to another for a matter that provokes it; hence the *nufūr* of a beast; though of setting out to
+a campaign one says "*nafara fulānun ilā thaghri kadhā yanfiru nafran wa-nafīran*." **[Saʿdī]** Know that
+much of this sūrah came down concerning the expedition of Tabūk, when the Prophet ﷺ called the Muslims to
+campaign against the Byzantines at a time of heat, with scant provision and hard living, and some of the
+Muslims showed a heaviness that made it necessary for God to reproach them and to rouse them. "O you who
+believe" — will you not act as faith and the promptings of certainty require, hastening to the command of
+God, vying for His good pleasure, striving against His enemies and helping His religion? "What is the
+matter with you that when it is said to you, 'Go forth in the way of God,' you sink down heavily to the
+earth?" — you grow lazy and incline to the earth, to ease and stillness in it. "Are you content with the
+life of this world instead of the Hereafter?" — your state is only the state of one who is content with
+this world, striving for it and caring nothing for the Hereafter, as though he did not believe in it. "Yet
+the enjoyment of the life of this world" — which has drawn you and which you have preferred to the
+Hereafter — "is but little." Has God not given you minds with which to weigh things, and to ask which is
+more deserving of preferring? Is not this world, from first to last, of no proportion at all to the
+Hereafter?
+
+**Context.** **[Ibn Kathīr]** God admonishes those who lagged behind the Messenger of God ﷺ at the battle
+of Tabūk — a time when the fruits were ripe and the shade tempting, in intense and terrible heat: "you
+cling heavily to the earth," reclining to remain in peace, shade and ripe fruits. **[Study Quran]** It is
+said that this verse and the next relate to those who stayed behind when the Prophet led the Companions to
+Tabūk in 9/631, after the conquest of Makkah. According to some commentators, some of the tribes did not
+wish to join the campaign because of the heat, the distance, the expense of preparing for such a distance,
+and fear of the Byzantine army (R). **[Qurṭubī]** There is no disagreement that this verse came down as a
+reproach to those who held back from the Messenger of God ﷺ at the expedition of Tabūk, in the ninth year
+of the Hijrah, a year after the conquest.
+
+**Language.** **[Qurṭubī]** *Mā lakum*: *mā* is an interrogative particle carrying the sense of
+reproach — the underlying sense being "what prevents you from such-and-such," as in "what is the matter
+with you, turning away from so-and-so?" *Al-nafr* is moving quickly from place to place for a matter that
+arises: of a human being one says *nafara ilā al-amri yanfiru nufūran*, and of a beast *nafarat tanfiru
+nifāran wa-nufūran*. **[Study Quran]** *Sink down heavily* renders a verb whose root means literally "to be
+heavy or sluggish," but which can also evoke being lazy or finding something too troubling to attempt.
+
+**Cross-references.** **[Study Quran]** Reproach for those who prefer this world to the Hereafter also
+appears in 14:3 and 16:107, while the comparative good of the Hereafter over this world is affirmed
+throughout the Qurʾān — as in 13:26, "compared to the Hereafter, the life of the world is but [fleeting]
+enjoyment"; see also 87:16–17.
+
+**Reflection.** The rebuke is aimed not at cowardice but at comfort: the shade, the ripe fruit, the
+pleasant house. The verse's remedy is a comparison — set the two side by side, this world's enjoyment
+against the Hereafter's, and the choice becomes unintelligible. Read inwardly, the "going forth" is every
+call that costs ease; the question asked is what, in that moment, a person is actually content with.
+
+---
+
+## 9:39
+
+*"If you go not forth, He will punish you with a painful punishment, and will place another people in your
+stead, and you will not harm Him in the least. And God is Powerful over all things."*
+
+**Meaning.** **[Jalālayn]** "If" — *illā*, with *lā* assimilated into the *nūn* of the conditional particle
+*in*, here and in the next verse — "you do not go forth," if you do not set out with the Prophet ﷺ for the
+struggle, "He will chastise you with a painful chastisement and will substitute you with another folk,
+other than you" — that is, He will bring them in your place — "and you will not hurt Him" — God, or "him,"
+meaning the Prophet ﷺ — "at all," should you neglect to help him to victory; for God Himself will bring
+victory to His religion, and God has power over all things, including bringing victory to His religion and
+His Prophet. **[Ṭabarī]** God threatens the believers among the Companions of His Messenger for
+abandoning the going-forth against their enemy, the Byzantines: "if you do not go forth, O believers, to
+those to whom the Messenger of God has called you, God will punish you speedily in this world, for your
+abandoning the going-forth to them, with a painful punishment. 'And He will substitute another people for
+you'": God will substitute for His Prophet another people in place of you, who go forth when they are
+called and answer when they are summoned, obeying God and His Messenger. "And you will not harm Him at
+all": you do not harm God in the least by your abandoning the going-forth and your disobeying Him, for He
+has no need of you — rather you are the ones in need of Him; He is the Self-Sufficient and you are the
+poor. "And God is Powerful over all things": God has power to destroy you and to substitute another people
+for you, and over everything else He wills.
+
+**Rulings.** **[Qurṭubī]** "If you go not forth" is a conditional, which is why the *nūn* is dropped; the
+apodosis is "He will punish you" and "He will substitute another people for you" — a severe threat and an
+emphasised warning against abandoning the going-forth. Ibn al-ʿArabī said: it is an established principle
+that when a command comes, all that its coming entails is the requirement of the act; punishment for
+omission is not derived from the command itself and is not entailed by it — punishment is known only
+through a report of it, as in "if you do not do such-and-such I will punish you with such-and-such," as has
+come in this verse. By its requirement, then, the going-forth to *jihād* and the marching out against the
+disbelievers to fight them is obligatory, so that the word of God may be supreme. **[Qurṭubī]** Abū Dāwūd
+reported from Ibn ʿAbbās on "if you go not forth, He will punish you with a painful punishment" and its
+abrogation by "it is not for the believers to go forth all together" (9:122).
+
+**Ḥadīth & āthār.** **[Study Quran]** The punishment was understood by some as God withholding rain from
+them (Q), while others say that the verse refers to an unknown punishment to come in the Hereafter (R).
+
+**Belief.** **[Study Quran]** The replacement of one people with another is also mentioned in 5:54; 21:11;
+36:81–82; 44:28; 46:33; 47:38; 55:60–61; here it is understood to refer to God's ability to support the
+Prophet with other people who would not stay at home when he left on campaign (IK, Ṭ). **[Ibn Kathīr]**
+God will help, support, suffice and protect His Prophet whether they help him or not.
+
+**Cross-references.** **[Jalālayn] [Study Quran]** 9:122 — "it is not for the believers to go forth all
+together," cited on the scope of the obligation.
+
+**Reflection.** The threat is doubled and its second half is the more searching: God will bring another
+people, and you will not harm Him at all. The community's privilege is not a possession but a trust, and
+the work of God does not wait on those who decline it.
+
+---
+
+## 9:40
+
+*"If you help him not, yet God has already helped him. Remember when those who disbelieved expelled him, the
+second of the two. Yea, the two were in the cave, when he said to his companion, 'Grieve not; truly God is
+with us.' Then God sent down His Tranquility upon him, and supported him with hosts you see not. And He made
+the word of those who disbelieve to be the lowliest, and the Word of God is the highest. And God is Mighty,
+Wise."*
+
+**Meaning.** **[Jalālayn]** "If you do not help him" — the Prophet ﷺ — "know that God has already helped
+him when the disbelievers drove him forth from Makkah," that is, made him resort to leaving, when they
+desired to kill him or imprison him or banish him at the council assembly: "the second of two" — *thāniya
+ithnayn* is a circumstantial qualifier, meaning one of two, the other being Abū Bakr — in other words, just
+as God helped him in such a situation, He will not forsake him in another. "When the two were in the cave"
+— a breach in the mountain called Thawr — "when he said to his companion," Abū Bakr, who, on perceiving the
+sound of the idolaters' feet nearby, had said to him, "If one of them should merely look below his feet he
+will definitely see us!" — "Do not despair; verily God is with us," assisting us. "Then God sent down His
+Spirit of Peace upon him" — His reassurance; some say the pronoun refers to the Prophet, others to Abū
+Bakr — "and supported him," the Prophet ﷺ, "with legions" of angels "you did not see," both in the cave and
+in the places where he fought his battles; "and He made the word of those who disbelieve" — their call —
+"the lowliest, while the Word of God is the highest. And God is Mighty, Wise." **[Ṭabarī]** This is God
+informing the Companions of His Messenger that He it is Who has taken upon Himself the help of His Messenger
+against the enemies of His religion and the making of him prevail over them, whether they help him or not —
+and a reminder of what He did for him when he was few in number and the enemy many: how then, when he is
+many and the enemy few? "If you do not go forth, O believers, with My Messenger when he calls you, and so
+help him, God is his helper and his aid against his enemy, and independent of you and of your help and your
+support — as He helped him when those who disbelieved drove him out," the Quraysh, from his homeland and his
+house: "the second of two" — they drove him out while he was one of two. The Arabs say "he is the second of
+two" meaning one of two, and "third of three" and "fourth of four" meaning one of three and one of four —
+which differs from their saying "he is the brother of six" or "the slave of seven." **[Saʿdī]** If you do
+not help His Messenger Muḥammad ﷺ, God is independent of you and you do not harm Him at all: He helped him
+in the least and most abject of circumstances, "when those who disbelieved drove him out" of Makkah, when
+they resolved to kill him and strove for it with the utmost determination and forced him to leave — "the
+second of two," he and Abū Bakr al-Ṣiddīq; "when the two were in the cave": when they fled Makkah they took
+refuge in the cave of Thawr below Makkah and stayed there until the pursuit should cool. In that severe and
+distressing situation, with enemies spread on every side seeking them to kill them, God sent down upon them
+of His help what could not be imagined. "When he said" — the Prophet ﷺ — "to his companion," Abū Bakr, when
+he grieved and his anxiety grew intense: "Grieve not; truly God is with us," with His help, His support and
+His confirmation; "so God sent down His tranquillity upon him" — steadfastness, reassurance and the stillness
+that makes the heart firm — and it was because his companion was anxious that he calmed him, saying, "Grieve
+not; God is with us"; "and supported him with hosts you did not see," the noble angels whom God made a guard
+over him; "and He made the word of those who disbelieve the lowliest" — fallen and forsaken: those who
+disbelieved were determined and, in their own estimation, able to kill the Messenger of God, furious at him
+and exerting their utmost effort to do it, but God forsook them and did not complete their purpose for them
+— nay, they achieved nothing of it — and God helped His Messenger by repelling them from him.
+
+**Stories & occasions.** **[Ibn Kathīr]** During the year of the Hijrah the idolaters tried to kill,
+imprison or expel the Prophet ﷺ, who escaped with his friend and Companion Abū Bakr b. Abī Quḥāfah to the
+cave of Thawr; they remained in the cave three days, until the pagans sent in pursuit of them returned to
+Makkah, and then they proceeded to Madīnah. While in the cave, Abū Bakr feared the pagans might discover
+them, for fear that some harm might touch the Messenger of God ﷺ, and the Prophet ﷺ kept reassuring him and
+strengthening his resolve, saying: "O Abū Bakr! What do you think of two, with God as their third?" Imām
+Aḥmad recorded from Anas that Abū Bakr said to him… **[Study Quran]** It refers to an incident during the
+Hijrah, when the Prophet and Abū Bakr were making their way from Makkah to Madīnah with the hostile
+Makkans giving chase. The Makkans had resolved to assassinate the Prophet as a group, thus sharing
+responsibility and forcing his clan to accept blood money rather than retaliate (see 2:178). They waited
+outside his house in ambush, but did not notice that he had left, leaving ʿAlī ibn Abī Ṭālib, his young
+cousin, sleeping in the Prophet's bed. Having slipped away unnoticed, the Prophet joined Abū Bakr and
+headed south rather than north towards Madīnah; they entered a cave, having arranged for news to be brought
+to them. **[Qurṭubī]** Al-Naqqāsh said: this was the first verse of Sūrat Barāʾah to be revealed; and
+al-Qurṭubī notes the view that God helped him through his companion in the cave — by his cheering him,
+carrying him on his neck, his fidelity, his shielding him with his own person and his spending his wealth
+for him. Al-Layth b. Saʿd said: none accompanied the prophets as Abū Bakr al-Ṣiddīq did. Sufyān b.
+ʿUyaynah said: Abū Bakr came out of the reproach contained in "if you help him not" by this verse.
+
+**Belief.** **[Maʿārif]** By citing the event of the Hijrah, the verse stresses that the Messenger of God
+has no need to depend on any human help: God can help him directly through unseen means, as happened at the
+Hijrah when his own people had forced him to leave his homeland. On that journey his only companion was Abū
+Bakr; enemy foot-soldiers and riders were in hot pursuit; the hiding place was no fortress but a cave, and
+the search party came to its very edge. Inside it, the companion of the cave feared not for his own safety
+but for his master; and the master himself sat calm as a mountain at peace, and not only calm himself but
+reassuring his companion: "Do not grieve; God is with us." **[Saʿdī]** Help is of two kinds: the help of
+the Muslims when they hope against their enemy — that God completes for them what they sought and gives them
+mastery over their enemy; and the help of the one who is weak and in whom a powerful enemy has designs —
+whose help is that God repels the enemy from him. The help mentioned here is of the second kind.
+
+**Language.** **[Jalālayn]** On "He sent down His Tranquility upon him": some say the pronoun refers to the
+Prophet, others to Abū Bakr. **[Qurṭubī]** "The second of two" — *thāniya ithnayn*: the Arabs use this form
+to mean "one of two."
+
+**Reflection.** The verse consoles and warns at once. God helped His Messenger when he was one man with one
+companion in a cave and the whole of Makkah hunting them — and the help came as stillness before it came as
+safety: "grieve not" was spoken before the pursuit turned back. What makes the story decisive for the
+believers is the argument it carries: if God did that for two, He will not be helpless before a community's
+reluctance.
