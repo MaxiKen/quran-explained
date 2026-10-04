@@ -4252,3 +4252,1346 @@ gave the argument first, then he gave the answer — and the answer, at 12:41, i
 crucified.
 
 ---
+
+
+## 12:41
+
+*"O my two companions of the prison! As for one of you, he will give his lord wine to drink; and as for the
+other, he will be crucified and the birds will eat from his head. The matter about which you two sought a
+ruling has been decided."*
+
+**Meaning.** **[Ṭabarī]** God says, reporting Yūsufʾs words to those who entered the prison with him: "O my
+two companions of the prison, as for one of you, he will give his lord wine to drink" — he is the one who saw
+that he was pressing wine, and he will give his lord, meaning his master, who is their king, wine, that is, he
+will be the one in charge of his drink; as Ibn Zayd said of "he will give his lord wine," he said: his master.
+"And as for the other" — he is the one who saw that upon his head was bread from which the birds were eating —
+"he will be crucified and the birds will eat from his head." It is mentioned that when he interpreted what the
+two had told him they had seen in their sleep, they said to him, "We saw nothing!" So he said to them, "The
+matter about which you two sought a ruling has been decided": the matter in which you sought a ruling has been
+finished, and Godʾs judgment has become binding upon you both for what I have told you. The scholars said the
+like of what we have said. Those who said it: ʿAbdullāh (Ibn Masʿūd), through Sufyān from ʿUmārah from
+Ibrāhīm, said, "the two who entered the prison upon Yūsuf said, ʿWe saw nothing!ʾ So he said, ʿThe matter about
+which you two sought a ruling has been decidedʾ"; and through ʿAlqamah, from ʿAbdullāh, concerning the two
+youths who came to Yūsuf with the dream — "they had merely feigned dreams in order to test him, so when he
+interpreted their dreams they said, ʿWe were only playing!ʾ He said, ʿThe matter about which you two sought a
+ruling has been decidedʾ"; and again from ʿAbdullāh, "Yūsufʾs two companions saw nothing; they had merely
+feigned dreams to test his knowledge… so when he interpreted them they said, ʿWe saw nothing!ʾ He said, ʿThe
+matter about which you two sought a ruling has been decidedʾ — as Yūsuf interpreted it." Ibn Isḥāq said, "he
+said to Majlath: ʿAs for you, you will be crucified and the birds will eat from your headʾ; and he said to Nabū:
+ʿAs for you, you will be returned to your work, and your master will be pleased with you. The matter about
+which you two sought a ruling has been decided.ʾ" And Mujāhid said, "ʿThe matter about which you two sought a
+ruling has been decidedʾ — at their saying, ʿWe saw no dream, we were only playingʾ; he said: the dream has
+fallen exactly as I interpreted it." **[Qurṭubī]** He said to the cupbearer: you will be returned to the work
+you were on of giving the king drink, after three days; and he said to the other: as for you, you will be
+summoned within three days and crucified, and the birds will eat from your head. He said, "By God, I saw
+nothing." He said, "Whether you saw it or did not see it — the matter about which you two sought a ruling has
+been decided." **[Ibn Kathīr]** He said this to the man who saw in a dream that he was pressing wine. He did
+not direct this speech at him, however, so as to lessen the grief of the other person; this is why he made his
+statement indirect: "and as for the other, he will be crucified and birds will eat from his head," which is
+the interpretation of the other manʾs dream in which he saw himself carrying bread above his head. Yūsuf told
+them that the decision about their matter had already been taken and that it would come to pass. **[Jalālayn]**
+As for one of you — that is the cup-bearer — he will depart after three days and he shall serve his lord, his
+master, wine to drink, as usual; and as for the other, he will depart after three days and he will be
+crucified, so that the birds will eat from his head. This is the interpretation of both your dreams. They said,
+"We never dreamed a thing!" He said, "Decided, concluded, is the matter regarding which you sought opinion" —
+about which you enquired, whether you spoke truthfully or were lying. **[Saʿdī]** Then he set about
+interpreting their two dreams after he had promised them that, and said: "O my two companions of the prison, as
+for one of you" — he is the one who saw that he was pressing wine — "he will leave the prison and give his lord
+wine to drink," that is, he will give his master whom he used to serve wine to drink, and that entails his
+leaving the prison. "And as for the other" — he is the one who saw that he was carrying above his head bread
+from which the birds were eating — "he will be crucified and the birds will eat from his head." He interpreted
+the bread which the birds eat as the flesh of his head, its fat and the marrow in it, and that he will not be
+buried and hidden from the birds, but crucified and placed where the birds can get at him to eat. Then he
+informed them that this interpretation which he had interpreted for them must come to pass. **[Maʿārif]**
+After having made his call to truth, Sayyidna Yūsuf turned to the dreams mentioned by two of his prison mates,
+declaring that one of the two of them would get his release, return to his job and keep serving wine to his
+master; as for the other, the crime against him would stand proved and he would be crucified and birds would
+eat from his head. **[Study Quran]** Joseph offers his interpretation of the young menʾs dreams: the wine carrier
+would be saved and restored to his former position as a wine server to the king of Egypt (cf. Genesis
+40:12–13); the baker would be crucified for his crime, and after his death the birds would eat from his head
+(cf. Genesis 40:18–19).
+
+**Language.** *Saqa* and *asqa* are recorded by the philologists as two dialects with one meaning — as in
+Labīdʾs "the rain gave drink (*saqā*) to my people Banū Majd and watered (*asqa*) Numayr and the tribes of
+Hilāl" — but al-Naḥḥās says the position of most of the philologists is that *saqāhu* means he handed it to
+him and he drank, or poured the water into his throat, whereas *asqāhu* means he appointed for him a watering
+or a source of drink, as in "and We gave you to drink (*asqaynākum*) sweet water" (77:27) **[Qurṭubī]**.
+*Ṣalaba* is crucifixion; *tuʾkal al-ṭayr min raʾsihi* is read by **[Saʿdī]** as a metonymy for the flesh, fat
+and marrow of the head, since the dream showed bread and the fulfilment is flesh.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** cites the honoured ḥadīth collected by Imām Aḥmad from Muʿāwiyah b.
+Ḥaydah: the Prophet ﷺ said, "The dream is tied to a birdʾs leg, as long as it is not interpreted; when it is
+interpreted, it falls (becomes a reality)." The understanding in this, he says, is that he who claims he saw a
+dream and is given its interpretation will be tied to that interpretation.
+
+**Rulings.** **[Qurṭubī]** raises the question directly: if a man lies about his dream and the interpreter
+interprets it for him, does its ruling bind him? Our answer: it does not bind him. That was only so in Yūsufʾs
+case because he was a prophet, and the interpretation of a prophet is a ruling — he had said that such-and-such
+would happen, and God brought about what he had reported, in confirmation of his prophethood. Then he
+anticipates the objection: ʿAbd al-Razzāq narrated from Maʿmar from Qatādah that a man came to ʿUmar b.
+al-Khaṭṭāb and said, "I saw as though I became fertile, then barren, then fertile, then barren." ʿUmar said to
+him, "You are a man who believes, then disbelieves, then believes, then disbelieves, then dies a disbeliever."
+The man said, "I saw nothing." ʿUmar said to him, "What has been decreed for you has been decreed for the
+companion of Yūsuf." *[The report is transmitted through Qatādah, a tābiʿī, and is not a Prophetic statement;
+it is cited here as the practice of ʿUmar, and it stands in tension with the ruling given first.]*
+
+**Belief.** The theological difficulty is the one Qatādah raised at 12:42 and **[Ṭabarī]** answers at length:
+is dream-interpretation conjecture, so that God confirms what He wills and voids what He wills? **[Ṭabarī]**
+says that is true of anyone other than the prophets; as for the prophets, it is not possible for them to report
+that a thing will be and then it not be, or that it will not be and then it be, while testifying to the truth
+of what they reported — because if that were possible in their reports, the like of it would not be safe in any
+of their reports, and if it were not safe in their reports, their argument against those they were sent to
+would fall. So Yūsuf did not give an unqualified testimony to what he told the two youths would happen, and
+then confirm it with "the matter has been decided," except while certain that what he had told them would
+occur would certainly occur, with no doubt in it. **[Saʿdī]** and **[Maʿārif]** both draw the same conclusion
+from different directions: **[Maʿārif]** says that at the end he told them the interpretation he had given was
+not arrived at by conjecture but was a divine decree which cannot be averted, and adds the reading of those
+commentators who call the two dreams false and made-up — Yūsufʾs answer meaning that whether they saw the dream
+or not, the event will come to be as described, which is the punishment of the sin of fabricating a dream.
+
+**Cross-references.** 12:36 (the two dreams); 77:27 (*asqaynākum māʾan furātan*); the ḥadīth "the dream is on
+a birdʾs leg"; 12:42 (the request that follows); **[Study Quran]** cites Genesis 40:12–13 and 40:18–19 as the
+parallel.
+
+**Reflection.** Two things in this verse are easy to miss. The first is the pastoral technique that **[Ibn
+Kathīr]** and **[Maʿārif]** both identify: Yūsuf does not say to the baker "you are the one." He says "one of
+you will pour wine, and the other will be crucified," leaving each man free — for a moment — to hope that he
+is the one who will pour. **[Maʿārif]** calls it prophetic compassion: he spared the man concerned from being
+obsessed by the thought of it from that very moment. The second is the response to the denial. Both men, on the
+reading of Ibn Masʿūd preserved by **[Ṭabarī]**, retract: "we saw nothing, we were only playing." And the
+answer is not a retraction but a confirmation — "the matter has been decided." What he had said was not a
+reading of their psychology that they could talk him out of; it was knowledge of what God had decreed. That is
+also why he then asks the survivor for a favour at 12:42: he knew, with a certainty he was entitled to have,
+that one of them was walking out.
+
+---
+
+## 12:42
+
+*"And he said to the one of them whom he knew would be saved, ʿMention me to your lord.ʾ But Satan made him
+forget the mention of his lord, so he remained in the prison for some years."*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsuf said to the one of his two companions who sought interpretation from
+him, whom he knew would be saved, "mention me to your lord" — mention me to your master, and tell him of my
+grievance, and that I am imprisoned for no crime; as Ibn Isḥāq said, he said to Nabū, "mention me to your
+lord": that is, mention to the greatest king my grievance and my imprisonment for nothing. He said, "I will do
+it." And Mujāhid said of "mention me to your lord," Yūsuf says: mention me to the king; and Qatādah said it
+means the king. Ibrāhīm al-Taymī said: when he reached the door of the prison, a companion of his said to him,
+"Your need — enjoin your need upon me!" He said, "My need is that you mention me to your lord" — other than
+the Lord, Yūsuf said. *[i.e. he used the word *rabb* of a creature.]* Qatādah, however, directed the meaning of
+"he knew (*ẓanna*)" in this place to *ẓann* as the opposite of certainty, saying: "ʿand he said to the one of
+them whom he knew would be savedʾ — interpretation of dreams is by *ẓann*, and God confirms what He wills and
+voids what He wills." Abū Jaʿfar says: what Qatādah said — that the interpretation of a dream is *ẓann* — is
+indeed so for anyone other than the prophets. As for the prophets, it is not permissible for them to report
+that a thing will be and then it not be, or that it will not be and then it be, while they testify to the truth
+of what they have reported; for were that possible in their reports, the like of it would not be safe in any of
+their reports, and were it not safe in their reports, their argument against those to whom they were sent would
+fall. It is therefore clear that Yūsuf did not give unqualified testimony to what he told the two youths would
+happen… except while certain that it would certainly occur, with no doubt. And for his certainty of it he said
+to the one of them who would be saved, "mention me to your lord." So the falsity of Qatādahʾs statement is
+apparent. And His words, "But Satan made him forget the mention of his lord," are a report from God of a
+heedlessness that came upon Yūsuf from the direction of Satan, by which he forgot the mention of his Lord,
+which, had he sought help by it, would have hastened his release from what he was in; but he slipped by it, and
+so prolonged his imprisonment on account of it, and his punishment was made painful for it. The reports: Mālik
+b. Dīnār said, "when Yūsuf said to the cupbearer, ʿmention me to your lordʾ, it was said: ʿO Yūsuf, have you
+taken an agent other than Me? I shall certainly prolong your imprisonment!ʾ So Yūsuf wept and said: ʿO Lord,
+the abundance of affliction made my heart forget, so I said a word. Woe to my brothers!ʾ" And ʿIkrimah said:
+the Messenger of God ﷺ said, "Had he not — meaning Yūsuf — said the word he said, he would not have remained
+in the prison as long as he remained." And al-Ḥasan said: the prophet of God ﷺ said, "God have mercy on Yūsuf;
+were it not for his word he would not have remained in the prison as long as he remained" — meaning his saying
+"mention me to your lord." Then al-Ḥasan weeps and says, "We, when a matter befalls us, flee to people."
+Mujāhid said: he said to him "mention me to your lord," and he did not mention him until the king saw the
+dream; and that is because Yūsuf forgot the mention of his Lord and Satan made him forget it, and commanded him
+to mention the king and to seek relief from him, so he remained in the prison some years — as a punishment for
+his saying "mention me to your lord." And Ibn Isḥāq held that it was the cupbearer whom Satan made forget
+Yūsufʾs affair to their king: when he went out he was returned to what he had been and his master was pleased
+with him, and Satan made him forget mentioning to the king what Yūsuf had commanded him to mention, so Yūsuf
+remained after that in the prison some years — as a punishment from God for his saying "mention me to your
+lord." Then the interpreters differed over the amount of the *biḍʿ* that Yūsuf remained in the prison. Some said
+it was seven years — Qatādah: "Yūsuf remained in the prison seven years"; and Wahb: "Ayyūb was afflicted seven
+years, Yūsuf was left in the prison seven years, and Nebuchadnezzar was punished and turned among the beasts
+seven years." Others said *biḍʿ* is between three and nine — Qatādah and Mujāhid. Others said it is less than
+ten — Ibn ʿAbbās. And al-Farrāʾ held that *biḍʿ* is not mentioned except with ten, and with twenty up to
+ninety, and is a surplus between three and nine; the Arabs do not say "a *biḍʿ* and a hundred" or "a *biḍʿ* and
+a thousand." Abū Jaʿfar says: the correct meaning of *biḍʿ* is from three to nine, up to ten, and it is not
+below three; and likewise what exceeds the decade up to a hundred, and what exceeds a hundred has no *biḍʿ* in
+it. **[Qurṭubī]** The pronoun in "Satan made him forget" admits two readings. The first is that it returns to
+Yūsuf: Satan made him forget the mention of God — when Yūsuf said to the kingʾs cupbearer, at the point he knew
+he would be saved and returned to his former state with the king, "mention me to your lord," he forgot in that
+moment to complain to God and seek help from Him, and inclined to holding fast to a created being, so he was
+followed by the remaining. ʿAbd al-ʿAzīz b. ʿUmayr al-Kindī said: Jibrīl entered upon Yūsuf in the prison and
+Yūsuf recognised him, and said, "O brother of the warned ones, why do I see you among the sinners?" Jibrīl
+said, "O pure one, son of the pure! The Lord of the worlds sends you peace and says: were you not ashamed, when
+you sought the help of human beings? By My might, I shall make you remain in the prison some years!" He said,
+"O Jibrīl, is He pleased with me?" He said, "Yes." He said, "Then I do not care, this hour." *[weak]* And it is
+narrated that Jibrīl came to him and reproached him on Godʾs behalf for that and for the length of his
+imprisonment, saying, "O Yūsuf! Who delivered you from being killed at the hands of your brothers?" He said,
+"God." "Who brought you out of the well?" "God." "Who protected you from the indecency?" "God." "Who turned
+away from you the guile of the women?" "God." "Then how did you trust a created being and leave your Lord and
+not ask Him?" He said, "My Lord, a word slipped from me! I ask You, O God of Ibrāhīm and Isḥāq and the elder
+Yaʿqūb, to have mercy on me." Jibrīl said to him, "Your punishment is that you remain in the prison some
+years." *[weak]* And Abū Salamah narrated from Abū Hurayrah that the Messenger of God ﷺ said, "God have mercy
+on Yūsuf; were it not for the word he said — ʿmention me to your lordʾ — he would not have remained in the
+prison some years." And Ibn ʿAbbās said: Yūsuf was punished with the length of the imprisonment, some years,
+when he said to the one of them who was saved, "mention me to your lord"; had Yūsuf mentioned his Lord, He
+would have delivered him. The second reading is that the pronoun returns to the survivor, so he is the one who
+forgot: Satan made the cupbearer forget to mention Yūsuf to his lord, that is, to his master — with an elision,
+"Satan made him forget the mentioning of him to his lord." Some of the scholars preferred this reading, saying:
+were it not that Satan had made Yūsuf forget the mention of God, he would not have deserved punishment by
+remaining in the prison, since one who forgets is not held to account. The people of the first reading answered
+that forgetting may be in the sense of abandoning; so when he abandoned the mention of God and Satan called him
+to that, he was punished. The people of the second reading answered them with His words, "and the one of the two
+who was saved remembered after a time" (12:45), which shows that the one who forgot was the cupbearer and not
+Yūsuf, together with His words, "My servants — you have no authority over them" (15:42): how can his forgetting
+be soundly attributed to Satan when he has no dominion over the prophets? It was said: as for forgetfulness, the
+prophets are not protected from it except in one respect, namely reporting from God in what they convey, in
+which they are protected; and when forgetfulness occurs from them where its occurrence is possible, it is
+attributed to Satan by way of release — but that is only in what God has reported of them, and it is not
+permissible for us to say that of them. The Prophet ﷺ said, "Adam forgot, and his descendants forgot," and, "I
+am but a human being; I forget as you forget." **[Ibn Kathīr]** Yūsuf knew that the distiller would be saved.
+So, discretely — so that the other manʾs suspicion that he would be crucified would not intensify — he said,
+"mention me to your king," asking him to mention his story to the king. That man forgot Yūsufʾs request and did
+not mention his story to the king, a plot from the devil, so that Godʾs prophet would not leave the prison.
+This is the correct meaning of "But Satan made him forget to mention it to his master": that it refers to the
+man who was saved, as was said by Mujāhid, Muḥammad b. Isḥāq and several others. As for "a few years," or
+*biḍʿ* in Arabic, it means between three and nine, according to Mujāhid and Qatādah. Wahb b. Munabbih said:
+Ayyūb suffered from the illness for seven years, Yūsuf remained in prison for seven years, and Nebuchadnezzar
+was tormented for seven years. **[Jalālayn]** Then he said to the one whom he deemed, whom he was certain would
+be saved, of the two — and this was the cup-bearer — "Mention me to your lord, your master, and say to him,
+ʿThere is a young man in jail who has been wrongly imprisoned.ʾ" So he departed, but Satan caused him — that is,
+the cup-bearer — to forget the mention of Joseph before his master, so that he remained in prison for some
+years; it is said that he remained for seven years, or for twelve. **[Saʿdī]** Yūsuf said to the one whom he
+knew would be saved of them, the one who saw that he was pressing wine: "mention me to your lord" — mention my
+affair and my story to him, perhaps he will be moved to pity for me and bring me out of what I am in. "But
+Satan made him forget the mention of his Lord": Satan made that survivor forget the mention of God and the
+mention of what draws near to Him, and among that was his forgetting the mention of Yūsuf, who deserved to be
+rewarded with the fullest good — and that was so that God might complete His affair and His decree. "So he
+remained in the prison some years": and *biḍʿ* is from three to nine, which is why it is said that he remained
+seven years. **[Maʿārif]** To the person about whom Sayyidna Yūsuf had gathered, from the interpretation of his
+dream, that he would be released, he said: when you are released from the prison, mention me before your master
+as the innocent person who is still languishing in the prison. But once released, this person forgot about this
+message of Sayyidna Yūsuf, as a result of which his freedom was further delayed and he had to stay in prison
+for a few more years. The word used in the Qurʾān is *biḍʿa sinīn*, which holds good for a figure between three
+and nine; some commentators have said that he had to live in the prison for a period of seven more years.
+**[Study Quran]** Joseph told the wine carrier to mention him to the king of Egypt (cf. Genesis 40:14–15), but
+Satan caused him to forget to make mention to his lord; that is, he forgot to mention Joseph to the king. On
+account of this, Josephʾs stay in prison was prolonged for several years, a total of seven years according to
+most commentators. "Satan caused him to forget to make mention to his lord" can also be translated "Satan
+caused him to forget remembering his Lord," in which case it would mean that at the particular moment when
+Joseph told the wine carrier, "Mention me to your lord," he forgot to remember God. As a consequence of his
+forgetfulness, God caused Joseph to be in prison for several years. According to Ibn ʿAbbās, had Joseph
+remembered God when he told the wine carrier to mention him to his lord, God would have released him from
+prison earlier. About this, the Prophet is reported to have said, "God have mercy on Joseph. Had it not been
+for a statement he made — ʿMention me to your lordʾ — he would not have remained in the prison as long as he
+did."
+
+**Language.** *Biḍʿ* is dissected at length. **[Qurṭubī]** records: Yaʿqūb from Abū Zayd that it is pronounced
+*biḍʿ* and *baḍʿ*, and that most say one does not say "a *biḍʿ* and a hundred" but only up to ninety; al-Harawī
+that the Arabs use it for what is between three and nine, *biḍʿ* and *biḍʿah* being one thing, meaning a piece
+of the number; Abū ʿUbaydah that it is what is below half of the decade, i.e. between one and four — "and this
+is nothing"; and the Prophetʾs question to Abū Bakr over the wager on the Byzantines, "and how much is the
+*biḍʿ*?", to which he answered "between three and seven," and the Prophet said, "Go and increase the stake and
+extend the term." *[The wager preceded the prohibition of gambling.]* On this most of the interpreters hold that
+the *biḍʿ* is seven, as al-Thaʿlabī records; al-Māwardī says it is the statement of Abū Bakr al-Ṣiddīq and
+Quṭrub; Mujāhid says three to nine, and al-Aṣmaʿī likewise; Ibn ʿAbbās three to ten; al-Zajjāj that it is
+between three and five; al-Farrāʾ that it is not mentioned with ten, and twenty up to ninety, and not after a
+hundred. Its derivation is from *baḍaʿtu al-shayʾ*, I cut the thing, so it is a piece of the number. On the
+duration of Yūsufʾs imprisonment **[Qurṭubī]** gives three statements: seven years (Ibn Jurayj, Qatādah, Wahb b.
+Munabbih); twelve years (Ibn ʿAbbās); fourteen years (al-Ḍaḥḥāk). Muqātil from Mujāhid from Ibn ʿAbbās said
+Yūsuf stayed in the prison five years and a *biḍʿ* — so God punished him by imprisoning him seven years, or
+nine, after the five that had passed; thus the *biḍʿ* is the period of the punishment, not the whole period of
+the imprisonment. And ʿAbdullāh b. Rāshid al-Baṣrī from Saʿīd b. Abī ʿArūbah said the *biḍʿ* is between five
+and twelve years. **[Study Quran]** notes *ametan* and the reading *amatan* (after forgetfulness) and the
+grammatical derivation of *iddakara* from *idhtakara*, the *dhāl* being near the *tāʾ* in point of articulation
+but not assimilable to it because it is voiced and the *tāʾ* voiceless, so a voiced *dāl* was substituted.
+
+**Rulings.** Two. First, the use of the word *rabb* for a human master. **[Qurṭubī]** cites the ṣaḥīḥ ḥadīth of
+Abū Hurayrah in Muslim and elsewhere: the Messenger of God ﷺ said, "Let none of you say ʿgive drink to your
+rabb, feed your rabb, give ablution water to your rabbʾ; and let none of you say ʿmy rabbʾ — let him say ʿmy
+sayyid, my mawlāʾ. And let none of you say ʿmy ʿabd, my amaʾ — let him say ʿmy fatā, my fatāh, my ghulāmʾ."
+Yet the Qurʾān has "mention me to your rabb," "to your rabb," and "he is my rabb, he made my lodging good"
+(12:23), meaning my master — the ʿAzīz; and it is said of everyone who undertakes the putting right and
+completion of a thing that he *rabba* it, so he is a *rabb* for it. The scholars said: the Prophetʾs saying "let
+none of you say… let him say" is of the category of guidance to using the most appropriate name, not that using
+that name is prohibited — since it is also transmitted from him that "the slave-girl will give birth to her
+rabb," meaning her owner and master, which agrees with the Qurʾān in releasing that word. So the locus of the
+prohibition is that we not make these names a habit and thereby abandon what is more appropriate and better. It
+was said that a manʾs saying "my ʿabd and my ama" combines two senses: that servitude in truth belongs only to
+God, so a personʾs saying of his slave "my ʿabd" is an aggrandisement of himself and an attribution to himself
+of what God attributed to Himself, which is not permissible; and that the slave is affected by it in the sense
+of being belittled by that naming, which carries him to bad obedience. Ibn Shaʿbān said in *al-Zāhī*: "the
+master should not say ʿmy ʿabd and my amaʾ, and the slave should not say ʿmy rabb and my rabbahʾ" — and this is
+carried upon what we have mentioned. It was also said that the Prophet said "let the slave not say ʿmy rabbʾ
+but let him say ʿmy sayyidʾ" because *rabb* is by agreement among the names of God, whereas it is disputed
+whether *sayyid* is among His names: if we say it is not, the distinction is obvious; and if we say it is, it is
+not in fame and usage like the word *rabb*, so the distinction obtains. Ibn al-ʿArabī said: it is possible that
+that was permissible in the law of Yūsuf. Second, the permissibility of resorting to means. **[Qurṭubī]**ʾs
+fifth question concludes: in this verse is evidence for the permissibility of attaching oneself to means
+(*al-taʿalluq bi-l-asbāb*) even when certainty is present, since affairs are in the hand of their Causer, but
+He made them a chain and set some upon others, so moving them is the way (*sunnah*), while relying upon the end
+of the chain is certainty. What shows the permissibility of that is the attribution of the forgetting that
+occurred to Satan, as happened to Mūsā in the meeting with al-Khiḍr — "and Satan made me forget the mention of
+it" (18:63). This is clear; so reflect upon it.
+
+**Stories & occasions.** *[Isrāʾīliyyāt]* The Jibrīl dialogues reported by **[Qurṭubī]** from ʿAbd al-ʿAzīz b.
+ʿUmayr al-Kindī and from an unnamed route — the four questions "who delivered you… who brought you out of the
+well… who protected you… who turned away the guile" — are of the genre of admonitory legend and are not
+supported by a sound chain; **[Qurṭubī]** himself transmits them without grading, and the content ("O brother
+of the warned ones, why do I see you among the sinners?") is characteristic of the story-tellers. They are
+recorded here because they are part of the exegetical tradition at this verse and because the theological
+objection they answer — how can a prophet be reproached? — is real.
+
+**Reflection.** The verse has been read for fourteen centuries as a lesson in the danger of leaning on people,
+and al-Ḥasanʾs weeping is the traditionʾs own summary of it: "We, when a matter befalls us, flee to people."
+But **[Qurṭubī]**ʾs fifth question supplies the counterweight that keeps the lesson from becoming quietism:
+resorting to means is permissible, indeed it is the *sunnah*, and what is forbidden is not the asking but the
+relying. The distinction is exactly the one Mālik b. Dīnārʾs report puts in Godʾs mouth — "have you taken an
+agent other than Me?" The word objected to is *wakīl*, not *sabab*. And the second half of the verse explains
+why the slip mattered cosmically rather than merely morally: **[Saʿdī]** says Satan made him forget "so that
+God might complete His affair and His decree," and **[Ibn Kathīr]** says the devilʾs plot was "so that Godʾs
+prophet would not leave the prison." The delay was not an accident of human memory; it was the mechanism by
+which Yūsuf was still in prison when the king dreamed.
+
+---
+
+## 12:43
+
+*"And the king said, ʿI see seven fat cows being eaten by seven lean ones, and seven green ears of corn, and
+others dry. O notables, give me a ruling concerning my dream, if you are able to interpret dreams.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God means: the king of Egypt said, "I see in sleep seven fat cows being eaten by
+seven lean cows." And He said "I see" without mentioning that he saw it in his sleep or otherwise, because of
+the Arabsʾ custom among themselves in their speech that when one of them says "I see that I am doing such and
+such," it is a report of his seeing that in his sleep, even if he does not mention sleep. And God brought out
+the report in accordance with what the Arabsʾ usage among themselves had run to. "And seven green ears of
+corn": and I see in my sleep seven green ears of corn; "and others": and seven others of the ears of corn,
+dry. "O notables": O nobles among my men and companions. "Give me a ruling concerning my dream": interpret it,
+"if you are for dreams interpreters" — *ʿabarah* is the plural of *ʿābir*, the one who interprets a dream and
+explains it. The interpreters said the like. Al-Suddī said: God showed the king in his sleep a dream that
+appalled him, so he saw seven fat cows eaten by seven lean ones, and seven green ears of corn and others dry;
+and he gathered the magicians, the soothsayers, the diviners and the trackers of traces, and recounted it to
+them, and they said, "Confused dreams, and we are not knowing of the interpretation of dreams." And Ibn Isḥāq
+said: then the king al-Rayyān b. al-Walīd saw his dream which he saw, and it appalled him, and he knew that it
+was a dream that would occur, but he did not know its interpretation, so he said to the notables around him
+from the people of his kingdom: "I see seven fat cows eaten by seven lean ones…" **[Qurṭubī]** When Yūsufʾs
+relief drew near, the king saw his dream, and Jibrīl descended and greeted Yūsuf and gave him the good news of
+relief, saying: God will bring you out of your prison, and will give you power in the earth, so that its kings
+become submissive to you and its tyrants obey you, and He will give you the upper word over your brothers — and
+that by reason of a dream which the king has seen, which is such-and-such, and whose interpretation is
+such-and-such. So he did not remain in the prison longer than the kingʾs seeing the dream, and then he came
+out. God made the dream, first, an affliction and a hardship for Yūsuf, and made it, last, a good tiding and a
+mercy. And that is because the greatest king, al-Rayyān b. al-Walīd, saw in his sleep as though seven fat cows
+came out of a dry riverbed, followed by seven lean ones — that is, emaciated — and the lean ones advanced upon
+the fat ones and took hold of their ears and ate them, except for the horns; and he saw seven green ears of
+corn upon which seven dry ones advanced and ate them until they finished them and nothing of them remained; and
+likewise the cows were lean and nothing was added to them by their eating the fat ones. The dream appalled him,
+so he sent for the people and those among them with knowledge, and insight into soothsaying, astrology,
+divination and magic, and the nobles of his people, and said, "O notables, give me a ruling concerning my
+dream," and recounted it to them. And the people said, "Confused dreams." Ibn Jurayj said: ʿAṭāʾ said to me
+that "confused dreams" are the lying, erroneous ones among dreams. And Juwaybir from al-Ḍaḥḥāk from Ibn ʿAbbās
+said: among dreams there is what is true, and there is what is confused dreams — meaning the lying ones.
+Al-Harawī said: "confused dreams" means mixtures of dreams; *ḍighth* in the language is a bundle of a thing,
+like greens and fodder and the like — that is, they said, your dream is not clear, and *aḥlām* is the mixed-up
+dream. Mujāhid said: the *aḍghāth* of a dream are its terrors. And Abū ʿUbaydah said: *aḍghāth* is what has no
+interpretation of the dream. **[Ibn Kathīr]** The king of Egypt had a dream that God made a reason for Yūsufʾs
+release from prison, with his honour and reputation preserved. When the king had this dream he was astonished
+and fearful and sought its interpretation. He gathered the priests, the chiefs of his state and the princes,
+and told them what he had seen in a dream, asking them to interpret it for him. They did not know its
+interpretation, and as an excuse they said, "Mixed up false dreams which you saw, and we are not skilled in the
+interpretation of dreams" — they said, had your dream been a true vision rather than a mixed-up false dream, we
+would have known its interpretation. **[Jalālayn]** The king of Egypt — al-Rayyān b. al-Walīd — said: "I saw in
+a dream seven fat kine being devoured, being swallowed up, by seven lean ones of kine" — *ʿijāf* is the plural
+of *ʿajfāʾ* — "and seven green ears of corn, and others," that is seven other ears of corn, dry, that had wound
+themselves around the green ones and risen above them. "O courtiers! Give me your opinion about my vision,
+expound for me its interpretation, if you can interpret visions" — then interpret it for me. **[Saʿdī]** When
+God willed to bring Yūsuf out of the prison, He showed the king this wondrous dream, whose interpretation
+extends to the whole community, so that its interpretation would be at Yūsufʾs hand, and so that there would
+appear of his excellence and become clear of his knowledge what would raise him in the two abodes. And among
+the apt decrees is that the king to whom the affairs of the subjects return is the one who saw it, because its
+interests are connected with him. He saw a dream that appalled him, so he gathered the scholars of his people
+and those of them with opinion, and said… "I see seven fat cows eaten by seven" — that is, seven lean cows; and
+this is of the wonder, that the seven lean emaciated ones whose strength has fallen eat the seven fat ones
+that were the extreme of strength. "And" I saw "seven green ears of corn" eaten by seven dry ears of corn. "O
+notables, give me a ruling concerning my dream" — because the interpretation of them all is one and their
+meaning is one thing — "if you are able to interpret dreams." They were bewildered and did not know any face
+for it. And this is parallel to Godʾs showing the excellence of Adam over the angels by knowledge after He
+asked them and they did not know, then asked Adam and he taught them the names of everything, so that his
+excellence was thereby increased; and as He will show the excellence of the best of His creation, Muḥammad ﷺ, on
+the Day of Rising, by inspiring the creation to seek intercession through Adam, then Nūḥ, then Ibrāhīm, then
+Mūsā, then ʿĪsā, and they excuse themselves from it, then they come to Muḥammad ﷺ and he says, "I am for it, I
+am for it," and he intercedes for all creation and attains that Praised Station which the first and the last
+envy him. So glory be to the One whose subtleties are hidden and refined in delivering goodness and beneficence
+to the choice ones of His elect and His friends. **[Maʿārif]** God created, through the workings of what is
+unseen, a particular way out for the release of Sayyidna Yūsuf. This made the king of Egypt see a dream which
+caused him great anxiety. He assembled the known dream interpreters and soothsayers of his state and asked them
+to interpret his dream; none of them could understand the dream. **[Study Quran]** The kingʾs request to his
+notables — those in his entourage and in high offices in his kingdom — to give him their opinion means that he
+wanted them to interpret the dream for him. By "visions" here are meant true or veridical dreams. The verb
+rendered "interpret" (*ʿabara*) comes from the root *ʿ-b-r*, which conveys the idea of crossing over from one
+side of something to the other; with respect to dream interpretation it connotes moving from the imaginal and
+symbolic forms in dreams to the actual meanings they symbolize (cf. Genesis 41:1–8).
+
+**Language.** *ʿIjāf* is the irregular plural of *ʿajfāʾ*, lean **[Jalālayn]**; the *hāʾ* is dropped from
+*sabʿa* to distinguish masculine from feminine, and *simānin* qualifies *baqarāt*, though outside the Qurʾān one
+may say *sabʿa baqarātin simānan*, qualifying the seven — as al-Farrāʾ notes, paralleling "seven heavens in
+layers" (78:12–13; and 71:15) **[Qurṭubī]**. *Aḍghāth* is the plural of *ḍighth*, a bundle of herbage, by which
+mixed-up dreams that have no interpretation are likened **[Ṭabarī]**, who quotes Ibn Muqbilʾs "a young woman as
+though bundles of basil were laid upon her bed, on the morning of a north wind" and anotherʾs "like a bundle of
+dry herbage hidden in the belly." Al-Harawī glosses them as mixtures; Mujāhid as the terrors of a dream; Abū
+ʿUbaydah as what has no interpretation **[Qurṭubī]**. *ʿAbara* is from crossing over — **[Study Quran]**,
+through al-Bayḍāwī, explains it as moving from the imaginal and symbolic forms in a dream to the actual
+meanings they symbolize; *taʾwīl* is from returning a thing to its origin (*awl*). **[Ṭabarī]** notes the idiom:
+an Arab says "I see that I do such-and-such" and means in sleep, without mentioning sleep.
+
+**Belief.** **[Saʿdī]** places the dream in the doctrine of divine subtleties (*al-alṭāf*): God chose that the
+king — the one to whom the affairs of the subjects return — should be the dreamer, because the dreamʾs
+interests are connected with him, and chose that its interpretation should be at the hand of a man in prison,
+so that his excellence would appear and he would be raised in both abodes. He then generalises it: this is how
+God showed Adamʾs excellence over the angels, and how He will show Muḥammadʾs ﷺ on the Day of Rising when the
+prophets in turn excuse themselves from intercession. The pattern is that God conceals the good He intends to a
+servant until the moment its disclosure is most effective. **[Maʿārif]** states the same thing functionally:
+God created, through the workings of the unseen, a particular way out for Yūsufʾs release.
+
+**Cross-references.** 2:31–33 (the angels asked and did not know, Adam was asked and taught); the ḥadīth of
+intercession and the Praised Station (*al-maqām al-maḥmūd*, 17:79); 11:8 ("to a numbered term" — *ummah*);
+12:44 (the answer); 12:45–46 (the messenger); 12:47–49 (the interpretation); **[Study Quran]** cites Genesis
+41:1–8.
+
+**Reflection.** The structural point in this verse is the one **[Saʿdī]** makes about the identity of the
+dreamer. It is not a wise man, not a prophet, not even a minister — it is the man to whom the affairs of the
+subjects return. And what he sees is not a private symbol but a forecast of fifteen years of national
+agriculture. The dream is therefore already, in its content, a matter of state; and the fact that the entire
+apparatus of Egyptian learning assembled before him — priests, soothsayers, astrologers, diviners, magicians,
+per **[Ṭabarī]**ʾs list and **[Ibn Kathīr]**ʾs — produced only an admission of incompetence, is what makes the
+prisonerʾs answer decisive. There is also a detail worth pausing on that only **[Qurṭubī]** preserves: the lean
+cows ate the fat ones *except for the horns*, and eating the fat cows added nothing to the lean ones. Those two
+impossibilities are what make the dream a true vision rather than an anxiety image — the fat consumed without
+the lean being fattened is exactly the economics of a famine, in which stored wealth disappears without
+producing anything. And **[Qurṭubī]** frames the whole verse as the turning of a single instrument: God made
+the dream, first, an affliction and a hardship for Yūsuf, and made it, last, a good tiding and a mercy.
+
+---
+
+
+## 12:44
+
+*"They said, ʿConfused dreams! And we are not knowing of the interpretation of dreams.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: the notables whom the king of Egypt asked about the interpretation of his
+dream said, "Your dream is confused dreams" — meaning that it is mixtures, a lying dream with no reality to it.
+It is the plural of *ḍighth*, and *ḍighth* originally means a bundle of herbage, by which the mixed-up dreams
+that have no interpretation are likened; and *aḥlām* is the plural of *ḥilm*, which is what is not true of a
+dream. The interpreters said the like: Ibn ʿAbbās said "confused dreams" means confused/ambiguous
+(*mushtabihah*), and through another chain, lying (*kādhibah*); Qatādah said, when the king recounted to his
+companions the dream he had seen, they said "confused dreams" — the doing of dreams, and through Maʿmar:
+mixtures of dreams; and al-Ḍaḥḥāk said "confused dreams" — lying, and "they said, confused" — falsehood, and
+through ʿUbayd b. Sulaymān: they are the lying dreams. And His words "and we are not knowing of the
+interpretation of dreams" mean: we are not knowing of what the lying dreams come to. As for the first *bāʾ*, in
+"al-taʾwīl," it is connected to "al-ʿālimīn," and the *bāʾ* in "al-ʿālimīn" is the *bāʾ* that enters the
+predicate with the *mā* of negation; and "confused dreams" is raised because the sense of the speech is: this
+dream is not a thing, it is only confused dreams. **[Qurṭubī]** Al-Farrāʾ said one may also read *aḍghātha
+aḥlāmin* (in the accusative); al-Naḥḥās said the accusative is far-fetched, because the meaning is: you saw
+nothing that has an interpretation, it is only confused dreams, that is, mixtures. The singular of *aḍghāth* is
+*ḍighth*, said of everything mixed of greens, herbage or other than them; as the poet said, "like a bundle
+(*ḍighth*) of a dream whose dreamer was deceived by it." And al-Zajjāj said the meaning of "and we are not
+knowing of the interpretation of dreams" is of the interpretation of *mixed-up* dreams — they denied of
+themselves knowledge of what has no interpretation, not that they denied of themselves knowledge of
+interpretation. And it is said they denied of themselves knowledge of *expression*. On this reading *aḍghāth*
+means the groups of dreams, of which some are sound and some void; and for this the cupbearer said, "I will
+inform you of its interpretation," knowing that the people were incapable of interpretation, not that they
+claimed it had no interpretation. And it is said they did not intend an interpretation at all, but wanted to
+erase it from the kingʾs breast so that it would not occupy his mind — and on this too they had knowledge.
+*Aḥlām* is the plural of *ḥulm*, and *ḥulm* with a *ḍammah* is what the sleeper sees; you say from it *ḥalama*
+with a *fatḥah*, and *iḥtalama*, and you say *ḥalamtu bi-kadhā* and *ḥalamtuhu*; as the poet said, "and I
+carried her while the sons of Rufaydah were before her — may her dreamed-of phantom not perish." Its root is
+forbearance (*al-anāh*), and from it is *ḥilm* as the opposite of rashness; so what is seen in sleep was called
+*ḥulm* because sleep is a state of forbearance, stillness and ease. Second: in the verse is evidence against
+the one who says that a dream follows its first interpretation, since the people said "confused dreams" and it
+did not turn out so — for Yūsuf interpreted it as years of dearth and fertility, and it was as he interpreted.
+And in it is evidence against the view that a dream is on a birdʾs leg, so that when it is interpreted it
+falls. **[Ibn Kathīr]** They did not know its interpretation and, as an excuse, they said, "Mixed up false
+dreams which you saw, and we are not skilled in the interpretation of dreams." They said: had your dream been a
+true vision rather than a mixed-up false dream, we would have known its interpretation. **[Jalālayn]** They
+said, "This is a jumble, a mixture of dreams! And we are not knowledgeable in the interpretation of dreams."
+**[Saʿdī]** They were bewildered and did not know any face for it, and said, "Confused dreams" — that is,
+dreams with nothing to them and no interpretation. And this is an assertion from them about what they do not
+know, and an excusing of themselves with what is no excuse. Then they said, "And we are not knowing of the
+interpretation of dreams" — that is, we do not interpret except the true vision; as for the dreams that are
+from Satan or from the chatter of the soul, we do not interpret them. So they combined ignorance, assertion
+that they are confused dreams, and self-admiration, to the point that they did not say, "We do not know its
+interpretation!" And this is among the things that are not fitting for people of religion and intelligence.
+**[Maʿārif]** He assembled the known dream interpreters and soothsayers of his state and asked them to
+interpret his dream. None of them could understand the dream. The answer they all gave was: "(It seems to be) a
+mishmash of dreams, and we do not know the interpretation of dreams." The word *aḍghāth* is the plural of
+*ḍighth*, which literally refers to a bundle of chaff or husk separated from grain while threshing, and is a
+collection of different kinds of waste material. The sense of their saying was that this dream was somewhat
+muddled, confused and an admixture of many thoughts and things, and they did not know how to interpret such
+dreams; had it been a regular dream, they would have interpreted it. **[Study Quran]** "Interpretation"
+translates *taʾwīl*, which etymologically conveys the sense of bringing something back to its origin (see also
+12:6c and 12:21c). In the Qurʾān the term has several usages, among which are the interpretation of the
+multivalent, symbolic or equivocal (*mutashābih*) verses (as at 3:7; see also 10:39) and the explanation of
+events whose meanings are not immediately clear (as at 18:87). In the context of dreams, *taʾwīl* means to
+arrive at the original or intended meaning of a dream. In the Islamic intellectual tradition *taʾwīl* also came
+to signify more particularly the spiritual or esoteric hermeneutics that reveals the inner meanings of a
+Qurʾānic verse, and is often contrasted with *tafsīr*, which is concerned with its outward meaning; however the
+distinction is not rigid — the title of al-Ṭabarīʾs encyclopedic commentary uses the word *taʾwīl*, not
+*tafsīr*. "Dreams" translates *aḥlām*, which in this verse is a synonym for *ruʾyā*, or vision, at 12:43. The
+notables describe the kingʾs vision as confused dreams — that is, as belonging to the category of mixed-up and
+false dreams — which stem from the internal chatter of the soul (*nafs*) or from demonic inspiration, and are
+therefore not susceptible to meaningful interpretation, because there is nothing in them corresponding to
+objective reality. By saying that they are not adept in the art of dream interpretation, the kingʾs notables
+could be referring to false dreams in particular or, more likely, to their inability to interpret dreams in
+general.
+
+**Language.** The etymology is given twice and consistently: *ḍighth* is a bundle of herbage or fodder, and
+**[Maʿārif]** specifies it as the bundle of chaff or husk separated from grain while threshing — a collection
+of different kinds of waste. **[Ṭabarī]** supplies the poetic witnesses (Ibn Muqbil and an unnamed poet), and
+**[Qurṭubī]** adds "like a bundle of a dream whose dreamer was deceived by it." *Ḥulm* itself derives from
+*al-anāh*, forbearance, whence *ḥilm* as the opposite of *ṭaysh*, rashness — sleep being a state of forbearance
+and stillness, what is seen in it was named *ḥulm* **[Qurṭubī]**. Grammatically **[Ṭabarī]** explains the
+raising of *aḍghāthu aḥlāmin* as a predicate of an implied negation ("this dream is not a thing"), and
+identifies the two *bāʾ*s in *bi-taʾwīli al-aḥlāmi bi-ʿālimīn* as respectively attached to the participle and
+to the *mā* of negation.
+
+**Rulings.** **[Qurṭubī]**ʾs second question is a substantive legal-theological conclusion drawn from a
+narrative detail: the verse is evidence against the position that "a dream follows its first interpretation,"
+because the notables pronounced it confused dreams and it did not turn out so — Yūsuf interpreted it as years
+of dearth and fertility, and it came about as he interpreted. And it is evidence against the corruption of the
+view that "a dream is on a birdʾs leg, so when it is interpreted it falls." *[This stands in tension with the
+ḥadīth of Muʿāwiyah b. Ḥaydah cited by **[Ibn Kathīr]** at 12:41, "the dream is tied to a birdʾs leg as long
+as it is not interpreted; when it is interpreted it becomes a reality," and with **[Qurṭubī]**ʾs own ruling
+there that a lying dreamʾs interpretation does not bind its liar, since a prophetʾs interpretation is itself a
+ruling. The reconciliation the two positions jointly imply: what is "tied" is a true vision awaiting a true
+interpreter, not any utterance about any dream.]*
+
+**Belief.** **[Study Quran]** supplies the classification the notables are invoking: dreams that stem from the
+internal chatter of the soul or from demonic inspiration have nothing in them corresponding to objective
+reality and are therefore not susceptible to interpretation. Their error, then, was not in the taxonomy but in
+the application — they assigned a true vision to the false category because they could not interpret it.
+**[Saʿdī]** names the moral defect precisely: they combined ignorance, assertion, and self-admiration, to the
+point that they did not say the honest sentence, "we do not know its interpretation."
+
+**Cross-references.** 3:7 and 10:39 (*taʾwīl* of the *mutashābih*); 18:87 (explanation of events); 12:6 and
+12:21 (*taʾwīl*); 12:43 (the dream); 12:45 (the messenger); 71:15 and 78:12 (*sabʿa samāwātin ṭibāqan*)
+**[Study Quran]**, **[Qurṭubī]**.
+
+**Reflection.** **[Saʿdī]** reads this verse as the hinge of the entire providential structure, and his
+argument is worth stating fully: this too is of Godʾs subtlety toward Yūsuf — had he interpreted the dream at
+the outset, before it was put to the notables of his people and their scholars and they proved incapable of it,
+it would not have had that standing with them. But because it was put to them and they were incapable of an
+answer, and the king was exceedingly concerned about it, and then Yūsuf interpreted it, it fell upon them with
+great weight. The incompetence recorded in this verse is thus not incidental colour but a necessary condition
+of the honour at 12:54. And the sentence the notables refuse to say — "we do not know its interpretation" — is
+the sentence that would have cost them nothing and preserved their credibility. **[Maʿārif]**ʾs closing remark
+is the quietest and sharpest: "Had it been a regular dream, they would have interpreted it." They were not
+without knowledge; they were without the humility to use it.
+
+---
+
+## 12:45
+
+*"And the one of the two who was saved said — and he remembered after a time — ʿI will inform you of its
+interpretation, so send me.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: the one of the two companions of the prison who sought interpretation from
+Yūsuf, who was saved from being killed, said — "and he remembered" what he had forgotten of Yūsufʾs affair, and
+his mentioning of his need to the king, which he had asked him, when he interpreted his dream, to mention for
+him by his words "mention me to your lord" — "after a time": that is, after a while. So said Ibn ʿAbbās,
+through Sufyān from ʿĀṣim from Abū Razīn, "after a while"; and Abū Bakr b. ʿAyyāsh, "after a while"; and
+al-Ḥasan and Mujāhid and al-Suddī, "after a while"; and ʿIkrimah, through Simāk, "after a span of time
+(*ḥuqbah min al-dahr*)." And Ibn Jurayj said: Ibn Kathīr said "after an *ummah*" means after a while; and Ibn
+Jurayj said: and Ibn ʿAbbās said "after an *ummah*" means after years. Abū Jaʿfar says: this interpretation is
+upon the reading of one who reads *baʿda ummatin* with a *ḍammah* on the alif and a doubled *mīm*, which is the
+reading of the reciters in the cities of Islam. And it has been reported from a group of the early ones that
+they read it *baʿda amatin*, with the alif opened and the *mīm* lightened and opened, in the sense of: after
+forgetfulness. And some of them mentioned that the Arabs say of that, *amiha al-rajul yaʾmahu amahan*, when he
+forgets; and so interpreted it those who read it thus. Those who said so: Ibn ʿAbbās, through Hammām from
+Qatādah from ʿIkrimah — he used to read *baʿda amahin* and interpret it, after forgetfulness; and ʿIkrimah
+himself, "after forgetfulness," and "*amah* is forgetfulness"; and Mujāhid read *wa-ddakara baʿda amahin*; and
+al-Ḍaḥḥāk, "after forgetfulness." A third reading was also mentioned: Mujāhid read *wa-ddakara baʿda amhin*,
+with the *mīm* quiescent and lightened; and it is as though the one who read it thus intended the infinitive of
+their saying *amiha yaʾmahu amhan*, and the interpretation of this reading is like that of the one who opened
+the alif and the *mīm*. And His words "I will inform you of its interpretation" mean: I will tell you of its
+interpretation; "so send me" — release me, that I may go and bring you its interpretation from the one who
+knows it. And in the speech there is something deleted which He left unmentioned, dispensing with what is
+manifest from what is left: "So they sent him, and he came to Yūsuf and said to him, ʿO Yūsuf, O truthful
+oneʾ." So Ibn Isḥāq said: the king said to the notables around him, "I see seven fat cows," the verse, and they
+said to him what they said; and Nabū heard of that what he heard, and his asking about its interpretation, and
+remembered Yūsuf and what he had interpreted for him and his companion, and what had come of that according to
+what he had said. He said, "I will inform you of its interpretation, so send me" — God says, "and he
+remembered after an *ummah*," that is, after a span of time. So he came to him and said, "O Yūsuf, the king has
+seen such-and-such," and recounted to him the dream, and Yūsuf said concerning it what God has mentioned to us
+in the Book; and its interpretation came to them like the cleaving of the dawn. And it is said that the one who
+was saved of the two only said "send me" because the prison was not in the city; al-Suddī said: Ibn ʿAbbās
+said the prison was not in the city, so the cupbearer went to Yūsuf and said, "Give us a ruling concerning seven
+fat cows…" **[Qurṭubī]** Godʾs words "and the one of the two who was saved" mean the kingʾs cupbearer. "And he
+remembered after an *ummah*" means after a while, from Ibn ʿAbbās and others; and of it is "to a numbered
+*ummah*" (11:8), and its root is a period of time. Ibn Durustawayh said: *ummah* is not "a while" except with
+the deletion of a governed noun and the substitution of the governed in its place, as though he said — and God
+knows best — "and he remembered after a while of an *ummah*," or "after the time of an *ummah*," or the like;
+and *ummah* is a large group of people. Al-Akhfash said: it is singular in wording and plural in meaning, and
+every species of animal is an *ummah*; and in the ḥadīth, "Were it not that dogs are an *ummah* among the
+*umam*, I would have commanded that they be killed." "And he remembered": he remembered Yūsufʾs need, which is
+his saying "mention me to your lord." Al-Naḥḥās said: what is known of the reading of Ibn ʿAbbās, ʿIkrimah and
+al-Ḍaḥḥāk is *wa-ddakara baʿda amahin*, with the hamzah opened and the *mīm* lightened, that is, after
+forgetfulness; as the poet said, "I forgot (*amihtu*), and I used not to forget a report — thus does time
+destroy minds." And from Shubayl b. ʿAzrah al-Ḍubaʿī: *baʿda amhin*, with the alif opened, the *mīm* quiescent
+and a pure *hāʾ* — and it is like *amah*, and they are two dialects, both meaning forgetfulness; one says
+*amiha yaʾmahu amhan* when he forgets. And a man *amih* is one whose mind has gone. Al-Jawharī said: as for
+what is in the ḥadīth of al-Zuhrī, *amiha* in the sense of he acknowledged and confessed, it is a dialect that
+is not well known. And al-Ashhab al-ʿUqaylī read *baʿda immatin*, that is, after a blessing — after God blessed
+him with safety. Then it was said: the youth forgot Yūsuf because of Godʾs decree that he remain in the prison
+for a period. And it was said: he did not forget, but he feared that the king would mention the crime on
+account of which he and the baker had been imprisoned — so "and he remembered" means he mentioned and informed.
+Al-Naḥḥās said: the root of *iddakara* is *idhtakara*; the *dhāl* is near in point of articulation to the *tāʾ*,
+and its assimilation into it was not permitted because the *dhāl* is voiced and the *tāʾ* voiceless, and had
+they assimilated it the voicing would have gone; so they substituted for the position of the *tāʾ* a voiced
+letter, the *dāl*, and it was more apt than the *ṭāʾ* because the *ṭāʾ* is emphatic; so it became *idhdakara*,
+and they assimilated the *dhāl* into the *dāl* for the softness and pliancy of the *dāl*. Then He said, "I will
+inform you of its interpretation" — that is, I will tell you. And al-Ḥasan read *anā ātīkum bi-taʾwīlihi*, and
+said: how would the foreigner inform them?! *[i.e. objecting that a non-Arab could announce tidings]* Al-Naḥḥās
+said: the meaning of *unabbiʾukum* is sound and good, that is, I will tell you when you have asked. "So send
+me": he addressed the king, but in the wording of respect, or he addressed the king and the people of his
+assembly. **[Ibn Kathīr]** The man who was saved from the two, who were Yūsufʾs companions in prison,
+remembered. Satan plotted to make him forget Yūsufʾs request to mention his story to the king. Now, years
+later, he remembered after forgetfulness and said to the king and his entourage, "I will tell you its
+interpretation" — the interpretation of this dream — "so send me forth," to the prison, to Yūsuf, the man of
+truth. So they sent him. **[Jalālayn]** And he of the two who was released — that is, of the two young men,
+namely the cup-bearer — remembering (*iddakara*; the original *tāʾ* of *tadhakkara* has been changed to a *dāl*
+and assimilated with the *dhāl*) after a time, after a period of time, the predicament of Joseph, said, "I will
+inform you of its interpretation; so send me forth." So they sent him forth, and he came to Joseph and said…
+**[Saʿdī]** "And the one of the two who was saved said" — that is, of the two youths, and he is the one who saw
+that he was pressing wine, and he is the one whom Yūsuf enjoined to mention him to his lord — "and he
+remembered after a time": he remembered Yūsuf, and what had happened with him in interpreting their two dreams,
+and what he had enjoined upon him, and he knew that he was equal to interpreting this dream, after a period of
+years. So he said, "I will inform you of its interpretation, so send me": to Yūsuf, so that I may ask him about
+it. **[Maʿārif]** While watching the proceedings of this event, that released prisoner recollected the message
+given by Sayyidna Yūsuf, though after the passage of a long time in between. He stepped forward and said that
+he may be able to tell him the interpretation of this dream. At that time, by mentioning the spiritual
+excellence of Sayyidna Yūsuf, his expertise in dream interpretation, and his detention in the prison despite
+his innocence, he submitted that he be allowed to meet him in the prison. The king arranged that for him. He
+came to Sayyidna. To describe this entire episode the Holy Qurʾān has used only one word, *fa-arsilūni*, which
+means: just send me (to Yūsuf). Things like the introduction of Sayyidna Yūsuf, the official permission to see
+him, and then the final arrival in the prison are parts of the event which can be understood contextually;
+therefore they were not described specifically. **[Study Quran]** The wine carrier remembered Josephʾs words at
+12:42. "After a while" refers to a period of seven years, which corresponds to the length of time Joseph spent
+in prison. The wine carrier managed to convince the king to allow him to consult with Joseph about the dream by
+pointing to his own experience with Josephʾs powers of dream interpretation: when in prison, Joseph interpreted
+the wine carrierʾs dream, and it came to pass exactly as he had said that it would (cf. Genesis 41:9–14).
+
+**Language & readings.** Three readings are recorded at *baʿda ummah*. The reading of the reciters of the
+cities is *ummah* with a *ḍammah* and doubled *mīm*, meaning a while or a span of time — glossed as *ḥīn* by
+Ibn ʿAbbās, al-Ḥasan, Mujāhid and al-Suddī, as *sinīn* by Ibn ʿAbbās through Ibn Jurayj, and as *ḥuqbah min
+al-dahr* by ʿIkrimah **[Ṭabarī]**. The second, *amatin* or *amahan* with the alif opened and the *mīm*
+lightened, means after forgetfulness, from *amiha yaʾmahu amahan*, and is the reading of Ibn ʿAbbās, ʿIkrimah,
+al-Ḍaḥḥāk and Mujāhid **[Ṭabarī] [Qurṭubī]**, who add the poetic witness "I forgot, and I used not to forget a
+report — thus does time destroy minds," and note that a man *amih* is one whose mind has gone, and that *amiha*
+in the ḥadīth of al-Zuhrī meaning "he acknowledged" is an uncommon dialect. The third, *amhin* with the *mīm*
+quiescent, is Mujāhidʾs, taken as the infinitive of the same verb **[Ṭabarī]**; Shubayl b. ʿAzrah al-Ḍubaʿī
+read likewise **[Qurṭubī]**. Al-Ashhab al-ʿUqaylī read *immatin* — after a blessing, i.e. after God blessed him
+with safety **[Qurṭubī]**. On *ummah* itself: Ibn Durustawayh holds it means "a while" only by ellipsis of a
+governed noun ("after a while of an *ummah*"); al-Akhfash that it is singular in wording and plural in meaning,
+every species of animal being an *ummah*, citing the ḥadīth "were it not that dogs are an *ummah* among the
+*umam*, I would have commanded that they be killed" **[Qurṭubī]**. The morphology of *iddakara* is explained by
+al-Naḥḥās in full (see Meaning) and summarised by **[Jalālayn]**. *Fa-arsilūn* is addressed either to the king
+in the wording of respect, or to the king and the people of his assembly **[Qurṭubī]**.
+
+**Belief.** **[Qurṭubī]** records a genuine theological alternative to the plain sense: it was said the youth
+forgot Yūsuf because of Godʾs decree that he remain in the prison for a period; and it was said he did not
+forget at all, but feared that the king would mention the crime on account of which he and the baker had been
+imprisoned — so that "he remembered" means he mentioned and informed. The second reading, if accepted, removes
+the moral defect from the cupbearer entirely and makes his silence at 12:42 prudence rather than ingratitude.
+**[Maʿārif]** emphasises the economy of revelation: the whole episode of the introduction, the official
+permission and the arrival in the prison is compressed into the single word *fa-arsilūn* because it can be
+understood contextually — a principle of Qurʾānic narration that the Qurʾān does not describe what is
+self-explanatory.
+
+**Cross-references.** 11:8 (*ilā ummatin maʿdūdah*); 18:63 ("and Satan made me forget the mention of it" —
+Mūsāʾs servant, the parallel case of forgetting attributed to Satan); 12:42 (the enjoined mention); 12:46 (the
+address to Yūsuf); **[Study Quran]** cites Genesis 41:9–14.
+
+**Reflection.** The verse is short and its function is structural: it reopens a door that 12:42 closed. What
+deserves notice is the *manner* of the reopening, which **[Maʿārif]** and **[Study Quran]** both pick up. The
+cupbearer does not say "there is a man in the prison who may know." He recommends Yūsuf on three grounds — his
+spiritual excellence, his expertise in dream interpretation, and his detention despite his innocence — and
+**[Study Quran]**, through al-Meybodī, adds the decisive argument: he pointed to his own experience, that when
+in prison Yūsuf had interpreted his dream and it came to pass exactly as he had said. The recommendation is
+therefore evidential, not merely favourable; the man is a witness before he is a patron. And **[Saʿdī]**
+supplies the detail of Yūsufʾs response at 12:46 that gives the episode its moral shape: he did not rebuke him
+for his forgetting.
+
+---
+
+## 12:46
+
+*"ʿO Yūsuf, O truthful one! Give us a ruling concerning seven fat cows eaten by seven lean ones, and seven
+green ears of corn and others dry — that I may return to the people, that they may know.ʾ"*
+
+**Meaning.** **[Ṭabarī]** "Give us a ruling concerning seven fat cows eaten by seven lean ones, and seven
+green ears of corn and others dry": its meaning is, give us a ruling concerning seven fat cows *seen in sleep*,
+eaten by seven lean ones of them, and concerning seven green ears of corn also seen, and seven others of them
+dry. As for "the fat of the cows," they are the fertile years, as Qatādah said: as for the fat ones, they are
+fertile years among them; and as for the seven lean ones, they are barren years that grow nothing. And through
+another chain: the fat ones are the fertile, and the lean cows are the barren, drought-stricken years. And "the
+green" are the fertile years, and "the dry" are the barren, drought-stricken ones. And *al-ʿijāf* is the plural
+of *ʿajif*, and they are the emaciated. And His words "that I may return to the people, that they may know"
+mean: so that I may return to the people and inform them, "that they may know" — that they may know the
+interpretation of what I asked you about of the dream. **[Qurṭubī]** "Yūsuf" is a single vocative, and likewise
+"the truthful one," meaning the one much given to truth. "Give us a ruling": so they sent him, and he came to
+Yūsuf and said, "O truthful one!" and asked him about the kingʾs dream. "That I may return to the people" means
+to the king and his companions. "That they may know": the interpretation — or, "that they may know your place
+in excellence and knowledge, so that you are brought out." And it admits that he intends by "the people" the
+king alone, out of respect for him. **[Ibn Kathīr]** He said to Yūsuf, "O Yūsuf, the man of truth! Explain to
+us…" and mentioned the kingʾs dream to him. This is when Yūsuf told the interpretation of the dream, without
+criticizing the man for forgetting the request he had made to him, nor did he make a precondition that he be
+released before explaining the meaning. **[Jalālayn]** "Joseph, O truthful one — one given to truth! Give us
+your opinion concerning seven fat kine that are devoured by seven lean ones, and concerning seven green ears of
+corn and seven others dry, that I may return to the people" — that is, to the king and his courtiers — "so that
+they might know" its interpretation. **[Saʿdī]** So they sent him, and he came to him; and Yūsuf did not
+reproach him for his forgetting, but listened to what he was asking him about and answered him. He said, "O
+Yūsuf, O truthful one" — much given to truth in his sayings and his doings — "give us a ruling concerning seven
+fat cows eaten by seven lean ones, and seven green ears of corn and others dry, that I may return to the
+people, that they may know": for they are eagerly awaiting its interpretation, and it has concerned them
+greatly. **[Maʿārif]** This begins with the address "Yūsuf, O the truthful one" in verse 46. It means that this
+person reached the prison and described his intent in a manner such that he first confessed to the
+truthfulness of Sayyidna Yūsuf in word and deed, and then requested him to give an interpretation of a dream.
+The dream he related was: the king has seen that seven fat cows are being eaten by seven lean ones, and he has
+seen that there are seven years of grain which are green and seven others which are dry. After having related
+the dream, this person said, "so that I may go back to the people, that they may know" — it means: if you tell
+me the interpretation, it is possible that when I go back to the people and report the interpretation to them,
+they get to know your excellence and expertise. According to *Tafsīr Maẓharī*, the format of events present in
+the world of autonomous images is what one sees in dreams; in that world these images have particular meanings,
+and the edifice of the art of interpreting dreams depends solely upon knowing what a particular autonomous
+image in that world means. God had blessed Sayyidna Yūsuf with perfection in this art. As soon as he heard the
+dream related, he knew that seven fat cows and seven green ears denote seven years during which crops will grow
+well as usual, because animal-driven ploughing to level land and grow grain has a distinct role in it.
+Similarly, seven lean cows and seven dry ears of grain mean that after the first seven years there will be
+seven years of severe famine. As for the seven lean cows eating the seven fat ones, it means that the grain
+stored during the first seven years will all be eaten up during those years of famine, with some grain
+remaining that is needed for sowing. **[Study Quran]** Returning to Josephʾs prison cell, the wine carrier
+calls him "the truthful one," which can refer to the fact that Joseph interpreted his dream truthfully, or to
+the fact that he had never seen Joseph tell a lie during their time together in prison (see also 12:36c). By
+telling Joseph that he sought his interpretation of the dream that they might know, the wine carrier was
+indicating that the king and his notables might come to know of his interpretation of the kingʾs dream, or of
+Josephʾs true rank and knowledge, and thus release him from prison. When the wine carrier related the dream to
+Joseph, Joseph saw this as an opportunity to impress the king by interpreting the dream so that he could be set
+free; at the same time he saw an opportunity to help the king, as a part of the dream signalled an agricultural
+crisis for the people of Egypt (cf. Genesis 41:14–24).
+
+**Language.** *Al-ṣiddīq* is the intensive of *ṣādiq*, "much given to truth in his sayings and his doings"
+**[Saʿdī]**; **[Qurṭubī]** glosses it simply as the one much given to truth, and notes that both "Yūsuf" and
+"al-ṣiddīq" are single vocatives. *Al-ʿijāf* is the plural of *ʿajif*, the emaciated **[Ṭabarī]**. **[Ṭabarī]**
+also supplies the elision that makes the messengerʾs words coherent: the cows and ears are understood as *seen
+in sleep*, since cows do not eat cows and ears do not eat ears.
+
+**Belief.** **[Maʿārif]**ʾs excursus on *Tafsīr Maẓharī* is the most developed statement of dream-hermeneutics
+in this passage: there is a world of autonomous images (*ʿālam al-mithāl*), the format of whose events is what
+one sees in dreams; in that world the images carry fixed meanings; and the whole art of interpretation rests
+upon knowing what a given autonomous image means. God had granted Yūsuf perfection in that art. He then gives
+the interpretive logic of this particular dream: the cows because animal-driven ploughing has a distinct role
+in agriculture, the green ears because they are the staple grain, the lean cows eating the fat ones because
+stored grain is consumed in the famine years, with a residue left for seed. **[Saʿdī]** gives the same logic in
+more detail at 12:47: fertility and dearth are what agriculture is built upon — when there is fertility the
+crops and the ploughing grow strong, their appearance is good and their yields abundant, and dearth is the
+opposite; and since cows are what the land is ploughed with and the crops watered with in most cases, and ears
+of corn are the greatest and best of staple foods, he interpreted them thus, for the correspondence.
+
+**Cross-references.** 12:36 ("we see you among the doers of good" — the first recognition); 12:45 (the
+remembering); 12:47–49 (the answer); Genesis 41:14–24 **[Study Quran]**.
+
+**Reflection.** Two behaviours are recorded in this verse, and both belong to Yūsuf rather than to the
+messenger. The first is stated by **[Saʿdī]**, **[Ibn Kathīr]** and **[Maʿārif]** alike: he did not reproach
+him for his forgetting. The man who had forgotten him for years — seven, or twelve, on the various counts at
+12:42 — now stands in his cell asking for a favour that will end his imprisonment; and Yūsufʾs response is to
+listen to what he is asking and answer it. **[Ibn Kathīr]** adds the second: he made no precondition that he be
+released before explaining the meaning. He had every lever a prisoner could want — the kingʾs anxiety, the
+notablesʾ incompetence, the messengerʾs debt to him — and used none of them as a bargaining chip. The
+comparison that **[Qurṭubī]** records at 12:50, from the Prophet ﷺ — "I was amazed at Yūsuf and his patience and
+his generosity… were I in his place I would not have told them anything until I stipulated that they bring me
+out" — is precisely a comparison with the ordinary, permissible alternative. Yūsufʾs choice was not obligatory
+upon anyone; it was characteristic of him.
+
+---
+
+
+## 12:47
+
+*"He said, ʿYou shall sow seven years diligently. And whatever you reap, leave it in its ear, except a little
+of what you eat.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsuf said to the one who asked him about the kingʾs dream, "You shall sow
+seven years diligently" — you shall sow these seven years as you were accustomed to sow the rest of the years
+before them, according to your custom in what has passed. And *al-daʾb* is custom; and of that is Imruʾ
+al-Qaysʾs "as is your custom (*ka-daʾbika*) with Umm al-Ḥuwayrith before her, and her neighbour Umm al-Rabāb at
+Maʾsal," meaning as is your custom with her. And His words "and whatever you reap, leave it in its ear, except a
+little of what you eat": this is counsel by which the prophet of God advised the people, and an opinion he saw
+to be for their good, commanding them to preserve their food; as Qatādah said, the prophet of God Yūsuf said to
+them, "you shall sow seven years diligently," the verse — the prophet of God only intended preservation.
+**[Qurṭubī]** When he informed him of the dream he began to explain it to him, saying: the seven fat cows and
+the green ears of corn are seven fertile years; and as for the lean cows and the dry ears of corn, they are
+seven barren years. That is His saying, "you shall sow seven years diligently" — that is, consecutive and
+successive; and it is an infinitive upon other than the infinitive, because the meaning of "you shall sow" is
+"you shall labour (*tadaʾabūn*) as is your custom in agriculture for seven years." And it is said it is a
+circumstantial qualifier, that is, labouring; and it is said it is a qualification of "seven years," that is,
+laborious. Abū Ḥātim reported from Yaʿqūb *daʾaban* with the hamzah moved, and likewise Ḥafṣ from ʿĀṣim
+reported it, and they are two dialects. There are two statements about it: Abū Ḥātimʾs that it is from
+*daʾiba*; al-Naḥḥās said the philologists know only *daʾaba*. And the other statement is that it was moved
+because it contains one of the letters of the throat, said al-Farrāʾ: thus every word whose first letter is
+opened and whose second is quiescent may have it moved when its second letter is a hamzah, or *hāʾ*, or *ʿayn*,
+or *ghayn*, or *ḥāʾ*, or *khāʾ*. Its root meaning is custom, as Imruʾ al-Qays said. "And whatever you reap,
+leave it in its ear": it was said, so that it does not become worm-eaten, and so that it lasts longer — and thus
+is the matter in the lands of Egypt. "Except a little of what you eat": that is, take out what you need
+according to the measure of need. And this statement of his is a command, whereas the first is a report; and it
+admits that the first is also a command, though what is more apparent from it is the report, so that the
+meaning of "you shall sow" is "sow!" **[Ibn Kathīr]** This is when Yūsuf told the interpretation of the dream,
+without criticising the man for forgetting his request, and without making a precondition that he be released
+before explaining the meaning. Rather he said, "For seven consecutive years you shall sow as usual": you will
+receive the usual amount of rain and fertility for seven consecutive years. He interpreted the cows to be
+years, because cows till the land that produces fruits and vegetables, which represent the green ears of corn
+in the dream. He next recommended what they should do during these fertile years: "and that which you reap you
+shall leave it in the ears, all except a little of it which you may eat." He said: whatever you harvest during
+those seven fertile years, leave it in the ears so as to preserve it better; this will help the harvest stay
+healthy longer, except the amount that you need to eat, which should not be substantial. Stay away from
+extravagance, so that you use what remains of the harvest during the seven years of drought that will follow
+the seven fertile years. This was represented by the seven lean cows that eat the seven fat cows. **[Jalālayn]**
+He said, "You shall sow" — that is, go ahead and sow — "seven years consecutively," and this was the
+interpretation of the seven fat ones; "but that which you reap, leave it in the ear, lest it spoil, except for a
+little which you eat" — thresh it. **[Saʿdī]** Yūsuf interpreted the seven fat cows and the seven green ears of
+corn as seven fertile years, and the seven lean cows and the seven dry ears of corn as barren years; and the
+face of that — and God knows best — is that fertility and dearth are what tillage is built upon: when fertility
+obtains, the crops and the tillage grow strong, their appearance is good and their yields abundant, and dearth
+is the opposite of that; and since cows are what the land is ploughed upon and the crops watered upon in most
+cases, and ears of corn are the greatest and best of staple foods, he interpreted them by that, for the
+correspondence. So he combined for them in its interpretation between the interpretation and the indication of
+what they should do and prepare by way of management, from the years of fertility to the years of dearth, and
+said: "You shall sow seven years diligently" — that is, in succession; "and whatever you reap" of those crops,
+"leave it in its ear," because that is more lasting for it and further from its being turned to; "except a
+little of what you eat" — that is, manage also your eating in these fertile years, and let it be little, so that
+what you store up is more, and its benefit and its effect greater. **[Maʿārif]** Obviously the dream of the king
+had told him only about seven years of good crops followed by seven years of famine. But Sayyidna Yūsuf did not
+consider it sufficient to limit himself to the technical interpretation of the dream only. The fact was that he
+also gave them a good counsel based on wisdom and fellow-feeling: he advised them to keep the extra produce
+yielded during the first seven years within the ears of the crop of wheat, so that it may not be affected by
+bacteria when old. It is borne by experience that grain while in the ears is not affected by bacteria.
+**[Study Quran]** Josephʾs interpretation of the dream offers a window into what would happen during the next
+fifteen years of Egyptʾs agrarian cycle. During the first phase, the Egyptians would sow diligently for seven
+years, as this would be a time of great fertility and abundance. Joseph proposed to store up much of the
+harvest during the first phase so that the people would have food during the second phase (cf. Genesis
+41:25–36).
+
+**Language.** *Daʾb* means custom and habitual labour **[Ṭabarī]**; **[Qurṭubī]** gives the full grammatical
+analysis — a non-cognate infinitive (since the sense of *tazraʿūn* is *tadaʾabūn*), or an adverbial of state
+("labouring"), or an adjective qualifying "seven years" ("laborious") — plus the two readings of the vowel
+(*daʾban* and *daʾaban*, the latter reported by Yaʿqūb via Abū Ḥātim and by Ḥafṣ from ʿĀṣim) and the two
+accounts of the moved hamzah (from *daʾiba*, per Abū Ḥātim; or moved because the second radical is a guttural,
+per al-Farrāʾ, who generalises the rule to every word with an open first radical, a quiescent second and a
+guttural in second position). The imperative reading — "sow!" — is admitted alongside the indicative.
+*Sunbul* is left unthreshed, **[Jalālayn]** adding the practical reason: lest it spoil.
+
+**Rulings.** **[Qurṭubī]**ʾs second question makes this verse a legal foundation: "This verse is a basis for
+the doctrine of the *maṣāliḥ sharʿiyyah*, which are the preservation of religions, lives, intellects, lineages
+and wealth. Everything that entails the obtaining of something of these matters is a *maṣlaḥah*, and everything
+that forfeits something of them is a *mafsadah*, and repelling it is a *maṣlaḥah*. There is no disagreement
+that the purpose of the revealed laws is to guide people to their worldly interests, so that there may be
+obtained for them the capacity to know God and to worship Him, which lead to otherworldly felicity. And the
+observing of that is a favour from God and a mercy by which He had mercy upon His servants, without obligation
+upon Him and without entitlement — this is the doctrine of all the verifying scholars of Ahl al-Sunnah
+collectively, and its elaboration is in the principles of jurisprudence." The verse is thus read as a divine
+endorsement of the five necessities (*al-ḍarūriyyāt al-khams*) as the object of the Law, with a prophet
+legislating, in effect, a food-security policy.
+
+**Belief.** **[Maʿārif]** makes the crucial distinction about the source of this counsel: the dream contained
+only seven good years and seven bad ones; the agricultural advice was not in the dream at all. It was Yūsufʾs
+own, given "based on wisdom and fellow-feeling." So the verse contains two different kinds of prophetic
+knowledge: the interpretation, which is revelation; and the policy, which is practical wisdom informed by
+experience — "it is borne by experience that grain while in the ears is not affected by bacteria." A prophet is
+not thereby exempt from the ordinary knowledge of his craft; he is its best practitioner.
+
+**Cross-references.** 12:43 (the dream); 12:46 (the request); 12:48–49 (the remainder of the cycle); Genesis
+41:25–36 **[Study Quran]**.
+
+**Reflection.** The order of the answer is itself the lesson. Yūsuf is asked for an interpretation and gives,
+in the first clause, a forecast and, in the second, a storage policy — and the policy is what saves Egypt.
+**[Ibn Kathīr]** notes the interpretive move that makes the policy possible: he read the cows as *years*
+because cows till the land that produces the crops, which are the green ears. That is not allegory but a chain
+of material causes, and it is what allowed him to convert a symbol into a plan with a timetable. **[Saʿdī]**
+then supplies the economic principle hidden in the phrase "except a little of what you eat": manage your eating
+in the fertile years, and let it be little, so that what you store is more. Austerity is prescribed for the
+years of plenty, not the years of famine — which is the reverse of ordinary human behaviour, and the reason the
+plan worked. And **[Maʿārif]**ʾs remark that he did not consider it sufficient to limit himself to the
+technical interpretation identifies the disposition behind it: he was asked a question and answered a need.
+
+---
+
+## 12:48
+
+*"Then there shall come, after that, seven hard years, which shall eat what you have stored in advance for
+them, except a little of what you keep in store."*
+
+**Meaning.** **[Ṭabarī]** God says: then there shall come, after the seven years in which you sow diligently,
+seven hard years — that is, barren, drought-stricken — "which shall eat what you have stored in advance for
+them": eaten in them shall be what you stored in advance, in the food and sustenance you prepared for them in
+the seven fertile years. And God said "they shall eat," describing the years as eating them, whereas the
+meaning is that the people of that region eat in them — as it was said, "Your day, O deluded one, is distraction
+and heedlessness, and your night is sleep, and ruin is inseparable from you"; so he described the day as
+distraction and heedlessness and the night as sleep, whereas one is only distracted in this and sleeps in that,
+because of the addresseesʾ knowledge of its meaning and what is intended by it. "Except a little of what you
+keep in store" means except a small amount of what you safeguard; and *iḥṣān* is putting into a fortress
+(*ḥiṣn*), though what is intended from it is safeguarding (*iḥrāz*). The interpreters said the like: Qatādah
+said of "they shall eat what you have stored in advance for them," they shall eat what you had made for them of
+sustenance, and of "except a little of what you keep in store," what you save up (*taddakhirūn*); and he said
+the seven hard years are the barren, drought-stricken ones; and Ibn ʿAbbās said of "what you keep in store,"
+what you store away (*takhzunūn*), and through Ibn Jurayj, what you safeguard (*tuḥrizūn*); and al-Suddī said,
+what you set aside (*tarfaʿūn*). Abū Jaʿfar says: these statements about "you keep in store," though the
+wordings of those who said them differ, have close meanings, and the root of the word and its interpretation is
+as I have explained. **[Qurṭubī]** "Seven hard" means the barren years. "They shall eat" is figurative, and the
+meaning is their people eat. "What you have stored in advance for them" means what you have saved up for their
+sake; and the like of it is the saying of the poet, "Your day, O deluded one, is distraction and heedlessness,
+and your night is sleep, and ruin is inseparable from you" — the day does not become distracted nor the night
+sleep; rather one is distracted in the day and sleeps in the night. Zayd b. Aslam narrated from his father that
+Yūsuf used to place the food of two men and bring it near to one man, and he would eat some of it; until one day
+he brought it near to him and he ate all of it, and Yūsuf said, "This is the first day of the seven hard years."
+*[weak]* "Except a little" is accusative by way of exception. "Of what you keep in store" means what you hold
+back in order to sow, because in the preserving of the seed there is the fortifying of the staple foods; Abū
+ʿUbaydah said, what you safeguard (*tuḥrizūn*); and Qatādah said, what you save up. *[On hoarding: "Whoever
+hoards a hoard intending to make the price rise upon the Muslims is in error, and the protection of God and His
+Messenger has absolved itself of him," narrated by Aḥmad and al-Ḥākim from Abū Hurayrah, among the reports
+prohibiting hoarding.]* Second: this verse is a basis for the soundness of the dream of a disbeliever, and that
+it comes out according to what he saw — especially when it concerns a believer; how much more so when it is a
+sign for a prophet, a miracle for a messenger, a confirmation of one chosen for delivery, and an argument for
+the intermediary between God and His servants. **[Ibn Kathīr]** During the seven years of drought they will eat
+from the harvest they collected during the seven fertile years, as represented by the dry ears of corn in the
+dream. Yūsuf told them that during these years the remaining ears will not produce anything, and whatever they
+try to plant will not produce any harvest, so he said, "which will devour what you have laid by in advance for
+them, all except a little of that which you have guarded, stored." **[Jalālayn]** Then after that — in other
+words, after the seven fertile years — there shall come seven hard, barren and unyielding years, the
+interpretation of the seven lean ones, which shall devour what you set aside for them of grain sown during the
+fertile years; in other words you shall eat all this during these seven hard years, all except a little which
+you have preserved, stored. **[Saʿdī]** "Then there shall come after that" — after those seven fertile years —
+"seven hard" — that is, barren — "which shall eat what you have stored in advance for them": they shall eat all
+that you have saved, even if it is much, "except a little of what you keep in store" — that is, that you
+withhold from being given over to them. **[Maʿārif]** Since what was seen in the dream was that seven lean cows
+ate up the seven fat ones, therefore, while giving his interpretation of the dream, he considered it
+appropriate to say that the years of the famine will eat up what they had stored over the past years. Though a
+year is no eatable, the sense is that the people and animals will eat up during the time of famine whatever
+grain was stored up during past years. The context of the story shows that this person, after having found out
+the interpretation of the dream, returned to the king and told him about it. He was pleased with it and
+convinced of the intellectual and spiritual excellence of Sayyidna Yūsuf. But the Holy Qurʾān has not
+considered it necessary to mention all these things because they are self-explanatory. **[Study Quran]** The
+second phase would bring "seven hard years," that is, a time of dearth that would be exceedingly difficult for
+people. Joseph proposed to store up much of the harvest during the first phase so that the people would have
+food during the second phase.
+
+**Language.** The figurative attribution of eating to years is explained identically by **[Ṭabarī]** and
+**[Qurṭubī]**, both citing the same poem about the deluded manʾs day and night, and both grounding it in the
+addresseesʾ knowledge of what is meant; **[Maʿārif]** states the principle in plain terms — a year is not an
+eatable, the sense being that people and animals eat in it. *Tuḥṣinūn* is glossed three ways: to hold back for
+sowing **[Qurṭubī]**, to safeguard (*tuḥrizūn*, Abū ʿUbaydah, and Ibn ʿAbbās through Ibn Jurayj), to save up
+(*taddakhirūn*, Qatādah); **[Ṭabarī]** reconciles them — *iḥṣān* is literally placing in a *ḥiṣn* or fortress,
+but what is meant is *iḥrāz*, and the glosses are close in meaning. *Shidād* is the plural of *shadīdah*
+applied to years, meaning barren and drought-stricken (*judūb quḥṭah*).
+
+**Rulings.** Two points. First, the hoarding reports. **[Qurṭubī]** attaches to "except a little of what you
+keep in store" the Prophetic prohibition of *iḥtikār*: "Whoever hoards a hoard intending to make the price rise
+upon the Muslims is in error, and the protection of God and His Messenger has absolved itself of him" (Aḥmad
+and al-Ḥākim, from Abū Hurayrah). The juxtaposition is deliberate and resolves a real tension in the verse:
+Yūsuf commands the state to store grain for seven years, which in ordinary circumstances would be hoarding; the
+difference is the intent — to make the price rise upon the Muslims, versus to preserve the staple foods and the
+seed for a known famine. Second, the epistemic ruling: **[Qurṭubī]**ʾs second question establishes this verse
+as the basis for the soundness of a disbelieverʾs dream and its coming out according to what he saw,
+*a fortiori* when it concerns a believer, and most of all when it is a sign for a prophet, a miracle for a
+messenger, a confirmation of one chosen for delivery and an argument for the intermediary between God and His
+servants.
+
+**Belief.** The theological weight of the verse is in the second ruling: a pagan kingʾs dream is true, is
+capable of being interpreted correctly, and becomes the vehicle of a prophetʾs vindication and of the salvation
+of a nation. Nothing about the dreamerʾs faith conditions the truth of what he is shown. And **[Maʿārif]**
+adds the narrative-theological observation that the Qurʾān omits the kingʾs pleasure and conviction because
+they are self-explanatory — the same economy noted at 12:45.
+
+**Stories & occasions.** Zayd b. Aslamʾs report from his father, preserved by **[Qurṭubī]**, has Yūsuf in Egypt
+during the famine portioning out food: he would place the ration of two before one man, who would eat part of
+it, until one day the man ate all of it, and Yūsuf said, "This is the first day of the seven hard years."
+*[weak — the chain is not given and the report belongs to the cycle of famine-era anecdotes; it also
+presupposes Yūsufʾs administration, which the Qurʾān does not narrate until 12:55.]*
+
+**Cross-references.** 12:47 (the storage command); 12:49 (the year of relief); the hoarding reports of Abū
+Hurayrah (Aḥmad, al-Ḥākim); Genesis 41:25–36 **[Study Quran]**.
+
+**Reflection.** The phrase that carries the verse is "except a little of what you keep in store." **[Qurṭubī]**
+identifies that little as the seed corn — what is held back in order to sow — and this changes the shape of the
+plan entirely. The policy is not merely to ration consumption through seven years of famine; it is to keep the
+agricultural cycle alive through them, so that the eighth year can be a year of relief rather than a further
+year of collapse. That is why the promise at 12:49 is not a miracle but a consequence: the rain returns and the
+seed is still there. And **[Saʿdī]**ʾs "they shall eat all that you have saved, even if it is much" is the
+soberest sentence in the passage — the stores will be exhausted. The plan does not prevent the famine; it makes
+the famine survivable and terminal. Which is also, on **[Qurṭubī]**ʾs reading, a parable about hoarding:
+holding back is condemned when the intent is to raise the price upon people, and commanded when the intent is
+to preserve the staple and the seed for a known catastrophe. The same act differs by its end.
+
+---
+
+## 12:49
+
+*"Then there shall come, after that, a year in which the people shall be given relief, and in which they shall
+press."*
+
+**Meaning.** **[Ṭabarī]** This is a report from Yūsuf to the people about something that was not in their
+kingʾs dream, but is of the knowledge of the unseen that God gave him, as a sign of his prophethood and an
+argument for his truthfulness; as Qatādah said, then God increased him in the knowledge of a year about which
+they had not asked him, and he said, "Then there shall come after that a year in which the people shall be
+given relief, and in which they shall press." And "in which the people shall be given relief" means by rain and
+by *ghayth*. The interpreters said the like: Qatādah, al-Ḍaḥḥāk and Mujāhid said, they shall be given relief by
+rain; and Ibn ʿAbbās said, "Then there shall come after that a year" — he informed them of something they had
+not asked him about, and God had taught it to him — "a year in which the people shall be given relief," by
+rain. As for "and in which they shall press," the interpreters differed over its meaning. Some said it means:
+in it they shall press the grape, the sesame and the like. Those who said so: Ibn ʿAbbās said, the grapes and
+the oil; and through Ibn Jurayj, the sesame for oil, the grape for wine, and the olive for olive-oil; and
+through another chain, rain shall strike them and they shall press in it the grape, the oil, and of all the
+fruits; Mujāhid said, they shall press their grapes; al-Suddī said, the grape; al-Ḍaḥḥāk said, the oil; and
+Qatādah said, they used to press the grapes and the fruits, and, they shall press the grapes, the olives and
+the fruits out of fertility — this is knowledge God gave Yūsuf about which he was not asked. Others said the
+meaning of "in which they shall press" is: in which they shall milk. Those who said so: Ibn ʿAbbās, through
+ʿAlī b. Abī Ṭalḥah, said, in it they shall milk; and through al-Faraj b. Faḍālah from ʿAlī b. Abī Ṭalḥah, Ibn
+ʿAbbās used to read *wa-fīhi taʿṣirūn*, with the *tāʾ*, meaning you shall milk. And the reciters differed in
+reading it: some of the reciters of Madīnah, Baṣrah and Kūfah read *yaʿṣirūn* with the *yāʾ*, in the sense I
+have described, from the saying of those who said the pressing of grapes and oils; and the generality of the
+Kūfan reciters read *taʿṣirūn* with the *tāʾ*; and some read *yuʿṣarūn*, meaning they shall be rained upon —
+and this is a reading I do not permit to be read, because it contradicts what the reciters of the cities are
+upon. Abū Jaʿfar says: the correct reading in that is that its reader has the choice between the two other
+readings, whichever he wishes — with the *yāʾ*, returning to the report about "the people," in the sense: in it
+the people shall be given relief and in it they shall press their grapes and their oils; or with the *tāʾ*,
+returning to His words "except a little of what you keep in store," and addressing with it those whom He
+addressed with "they shall eat what you have stored in advance for them, except a little of what you keep in
+store." For they are two readings widespread in the recitation of the cities, agreeing in meaning though their
+wordings differ; for those addressed were certainly, when they were given relief and pressed, such that the
+people in their region were given relief and pressed, and likewise when the people in their region were given
+relief and pressed, those addressed were given relief and pressed. So the two agree in meaning even if their
+wordings differ. And some who had no knowledge of the statements of the early ones among the interpreters, who
+interpreted the Qurʾān by their own opinion according to the way of Arabic speech *[i.e. Abū ʿUbaydah in
+*Majāz al-Qurʾān*]*, directed the meaning of "in which they shall press" to: in it they shall be saved from
+dearth and drought by the rain, claiming it is from *ʿaṣar* and *ʿuṣrah* in the sense of a place of salvation —
+from Abū Zubayd al-Ṭāʾīʾs "thirsty, calling for aid while none aids him, and he had been a refuge
+(*ʿuṣrah*) for the distressed," and from Labīdʾs "and he passed the night, and the people journeyed at the end
+of their night, and he was not one who halts at other than a place of refuge (*muʿaṣṣar*)." And that is an
+interpretation the contradiction of the saying of all the people of knowledge among the Companions and the
+Successors suffices as testimony to its error. As for the statement transmitted by al-Faraj b. Faḍālah from
+ʿAlī b. Abī Ṭalḥah *[the milking reading]*, it is a statement with no meaning, because it contradicts what is
+known of Arabic speech and what is known of Ibn ʿAbbāsʾs statement. **[Qurṭubī]** "Then there shall come after
+that a year": this is a report from Yūsuf about what was not in their kingʾs dream, but is of the knowledge of
+the unseen that God gave him. Qatādah said: God increased him in the knowledge of a year about which they had
+not asked, in order to show his excellence and to inform them of his place in knowledge and in acquaintance.
+"In which the people shall be given relief" is from *ighāthah* or *ghawth*: *ghātha al-rajul* — the man called
+out "wā ghawthāh"; the noun is *ghawth*, *ghuwāth* and *ghawāth*; and *istaghāthanī fulān fa-aghathtuhu*, and
+the noun is *ghiyāth*, the *wāw* becoming a *yāʾ* for the *kasrah* before it. And *ghayth* is rain; one says
+*ghātha al-ghaythu al-arḍa*, the rain struck the land, and *ghātha Allāhu al-bilāda yaghīthuhā ghaythan*, and
+*ghīthat al-arḍu tughāthu ghaythan*, so it is *arḍ maghīthah* and *maghyūthah* — so the meaning of "the people
+shall be given relief" is they shall be rained upon. "And in which they shall press": Ibn ʿAbbās said, they
+shall press the grapes and the oil — al-Bukhārī mentioned it; and Ḥajjāj narrated from Ibn Jurayj that they
+shall press the grape into wine, the sesame into oil, and the olive into olive-oil. And it was said he intended
+the milking of milk, because of its abundance, and that indicates the abundance of vegetation. And it was said
+"they shall press" means they shall be saved, from *ʿuṣrah*, which is the place of salvation; Abū ʿUbaydah
+said *ʿaṣar*, with the vowel, is the refuge and the place of salvation, and likewise *ʿuṣrah*, as Abū Zubayd
+said, "thirsty, calling for aid while none aids him, and he had been a refuge for the distressed" — and
+*al-manjūd* is the frightened one; and *iʿtaṣartu bi-fulān* and *taʿaṣṣartu* mean I took refuge with him. Abū
+al-Ghawth said "they shall press" means they shall obtain produce (*yastaghillūn*), from the pressing of the
+grape; and *iʿtaṣartu mālahu* means I extracted it from his hand. And ʿĪsā read *tuʿṣarūn*, with the *tāʾ*
+dotted and the *ṣād* opened, meaning you shall be rained upon, from Godʾs saying "and We sent down from the
+rain-bearing clouds (*al-muʿṣirāt*) water pouring forth" (78:14); and likewise the meaning of *tuʿṣirūn* with
+the *tāʾ* dotted and the *ṣād* broken, in the reading of whoever read it so. **[Ibn Kathīr]** He delivered the
+good news to them that after the consecutive years of drought there would come a fertile year, during which
+people would receive rain and the land would produce in abundance. The people would then press wine and oil as
+usual. **[Jalālayn]** Then after that — in other words, after the seven barren years — there shall come a year
+in which the people will be granted relief through rain, and in which they will press fruit, grapes and other
+seeds, because of that yearʾs fertility. **[Saʿdī]** "Then there shall come after that" — after the seven hard
+years — "a year in which the people shall be given relief, and in which they shall press": that is, in it the
+rains and the floods shall be abundant, and the yields shall be abundant and exceed their sustenance, to the
+point that they shall press the grape and the like in excess of their eating. And the ground of his inference
+of the existence of this fertile year, though it is not explicitly stated in the kingʾs dream, is — perhaps —
+that he understood from the fixing of the seven hard years that the year following them is one by which their
+severity is removed; and it is known that a dearth continuing for seven successive years is not removed except
+by a year of great fertility, otherwise the fixing would have no benefit. And when the messenger returned to
+the king and the people and informed them of Yūsufʾs interpretation of the dream, they marvelled at it and
+rejoiced at it with the greatest joy. **[Maʿārif]** Sayyidna Yūsuf also added to it that, following the years
+of drought, there will be a year of good rains and crops. He came to know about it either because the total
+number of the years of famine was no more than seven, whereby, as the customary practice of God would have it,
+the eighth year would be that of rains and crops; or, according to the early commentator Qatādah, because God
+had made Sayyidna Yūsuf know about it through a revelation, so that the amount of information they received
+could be over and above that which was to be interpreted through the dream, so that the spiritual excellence of
+Sayyidna Yūsuf is further enhanced, to become the cause of his being released. **[Study Quran]** The year of
+succour during which people will press wine and oil refers to the last year of the cycle, which would be a
+blessed year of much bounty for the people of Egypt; the pressing of oil and wine is an indication that there
+would be food in abundance once again (cf. Genesis 41:25–36).
+
+**Language & readings.** *Yughāthu* is from *ghawth*/*ghiyāth*, and **[Qurṭubī]** gives the full paradigm —
+*ghātha al-rajul*, *istaghāthanī fa-aghathtuhu*, the nouns *ghawth*, *ghuwāth*, *ghawāth*, *ghiyāth* (the
+*wāw* becoming *yāʾ* for the preceding *kasrah*), and *ghayth* as rain with *arḍ maghīthah*/*maghyūthah* —
+concluding that the meaning is "they shall be rained upon," against which **[Ṭabarī]** records Qatādah,
+al-Ḍaḥḥāk, Mujāhid and Ibn ʿAbbās. *Yaʿṣirūn* has four readings and five glosses. The readings: *yaʿṣirūn*
+with *yāʾ* (some reciters of Madīnah, Baṣrah and Kūfah); *taʿṣirūn* with *tāʾ* (the generality of the Kūfans);
+*tuʿṣarūn* and *tuʿṣirūn* (ʿĪsā), both meaning "you shall be rained upon," from 78:14 *al-muʿṣirāt*; and
+*yuʿṣarūn* passive, which **[Ṭabarī]** refuses to permit because it contradicts the reciters of the cities. The
+glosses: pressing of grapes, sesame and olives (Ibn ʿAbbās in three chains, Mujāhid, al-Suddī, al-Ḍaḥḥāk for
+oil, Qatādah); milking (Ibn ʿAbbās through ʿAlī b. Abī Ṭalḥah, who read *taʿṣirūn* meaning "you shall milk");
+being saved, from *ʿuṣrah* as place of salvation (Abū ʿUbaydah, with the two poetic witnesses); obtaining
+produce (Abū al-Ghawth); and extracting, from *iʿtaṣartu mālahu*. **[Ṭabarī]** rejects the last of these as
+contradicted by all the Companions and Successors, and rejects the milking gloss as contradicting known Arabic
+and known from Ibn ʿAbbās; he also rules that the *yāʾ* and *tāʾ* readings are interchangeable because they
+agree in meaning — those addressed and "the people" in their region are the same.
+
+**Belief.** Both **[Ṭabarī]** and **[Qurṭubī]** open with the same theological sentence, and it is the point of
+the verse: this is a report about *what was not in the kingʾs dream*, and it is of the knowledge of the unseen
+that God gave him, a sign of his prophethood and an argument for his truthfulness. Qatādahʾs gloss supplies the
+purpose: God increased him in the knowledge of a year they had not asked about, in order to show his excellence
+and inform them of his place in knowledge. **[Maʿārif]** then poses the question the verse leaves open and gives
+both answers: Yūsuf knew it either by inference from Godʾs customary practice — that a seven-year dearth is
+followed by an eighth year of rain — or by revelation, per Qatādah. **[Saʿdī]** develops the inferential answer
+into an argument: he understood from the *fixing* of the seven hard years that the year following them is one by
+which their severity is removed, and a dearth continuing seven successive years is not removed except by a year
+of great fertility; otherwise the fixing of a number would have no benefit. So a numerical detail in the dream
+becomes the premise of a prediction that was not in the dream.
+
+**Cross-references.** 78:14 (*al-muʿṣirāt*); 12:47–48 (the cycle); Abū Zubayd al-Ṭāʾī and Labīd (the two
+poetic witnesses for *ʿuṣrah*); Genesis 41:25–36 **[Study Quran]**.
+
+**Reflection.** The fifteenth year is the one that is not in the dream, and it is the one on which the whole
+argument for Yūsufʾs prophethood turns. The courtiers could conceivably have explained seven fat cows and seven
+lean ones as good years and bad years; agricultural cycles are observable. What no diviner in Egypt could have
+produced was a prediction about the year *after* the seven — and it is precisely there that **[Ṭabarī]** locates
+the sign. **[Saʿdī]**ʾs reasoning is worth restating because it is so economical: a famine is not "fixed" at
+seven years unless something ends it at seven, and what ends a seven-year drought is not a slightly better year
+but a year of great fertility in which people press more than they eat. The detail that they will *press* —
+not merely harvest, not merely eat — is the marker of surplus, since pressing wine and oil is what one does
+when the staple is already secured. And **[Saʿdī]** closes the scene with the reaction the Qurʾān omits: when
+the messenger returned and told them, they marvelled and rejoiced with the greatest joy. The next verse is the
+king saying "bring him to me."
+
+---
+
+
+## 12:50
+
+*"And the king said, ʿBring him to me.ʾ And when the messenger came to him, he said, ʿReturn to your lord and
+ask him: what is the case of the women who cut their hands? Surely my Lord is knowing of their guile.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: when the messenger whom they had sent to Yūsuf — the one who said, "I will
+inform you of its interpretation, so send me" — returned and informed them of the interpretation of the kingʾs
+dream on Yūsufʾs authority, the king knew the reality of what he had ruled for him of the interpretation of his
+dream and its soundness, and said, "Bring me the one who interpreted this dream of mine." So Ibn Isḥāq said:
+Nabū went out from Yūsuf with what he had ruled for them of the interpretation of the kingʾs dream, until he
+came to the king and informed him of what he had said; and when he informed him of what was in his own mind
+like the broad daylight, and he knew that what he had said would come to be as he had said, he said, "Bring him
+to me." And al-Suddī said: when the kingʾs messenger came to him he said, "Bring him to me." And His words "and
+when the messenger came to him": when the kingʾs messenger came to him summoning him to the king, "he said,
+return to your lord" — Yūsuf said to the messenger: return to your master — "and ask him, what is the case of
+the women who cut their hands?" He refused to go out with the messenger and to answer the king until the
+soundness of his affair was known to them, with respect to what they had accused him of concerning the matter of
+the women. So he said to the messenger: ask the king what is the case of the women who cut their hands, and of
+the woman on account of whom he was imprisoned. So Ibn Isḥāq said: "return to your lord and ask him what is the
+case of the women who cut their hands," and the woman on account of whose affair he was imprisoned, about what
+there was of that. And al-Suddī said: Ibn ʿAbbās said, had Yūsuf gone out that day before the king knew of his
+affair, there would not have ceased to be in the ʿAzīzʾs mind a need concerning him — saying: this is the one
+who solicited his masterʾs wife. And Abū Hurayrah reported that the Messenger of God ﷺ said, "God have mercy on
+Yūsuf; he was indeed possessed of forbearance! Were I the one imprisoned, and then sent for, I would have gone
+out quickly. He was indeed forbearing, possessed of forbearance!" *[the chain is weak for an unnamed man between
+Ibn Isḥāq and Abū al-Zinād]*. And through Muḥammad b. ʿAmr from Abū Salamah from Abū Hurayrah: the Prophet ﷺ
+said, "Were I to remain in the prison as long as Yūsuf remained, and then the caller came to me, I would answer
+him" — when the messenger came to him and he said, "Return to your lord…" And through Ibn Shihāb from Abū
+Salamah and Saʿīd b. al-Musayyab from Abū Hurayrah: the Messenger of God ﷺ said, "Were I to remain in the
+prison as long as Yūsuf remained, I would answer the caller." *[Ṭabarī grades this chain sound and notes that
+al-Bukhārī narrated it, as did Muslim.]* And Muḥammad b. ʿAmr from Abū Salamah from Abū Hurayrah: the Prophet
+ﷺ recited this verse, "Return to your lord and ask him what is the case of the women who cut their hands; surely
+my Lord is knowing of their guile," and said, "Were I it, I would have hastened the answer and not sought the
+excuse." And ʿIkrimah reported: the Messenger of God ﷺ said, "I have been amazed at Yūsuf, and his patience and
+his generosity — God forgive him — when he was asked about the lean and fat cows; were I in his place I would
+not have informed them of anything until I stipulated that they bring me out. And I have been amazed at Yūsuf,
+and his patience and his generosity — God forgive him — when the messenger came to him; were I in his place I
+would have raced them to the door, but he wanted that there should be an excuse for him." *[mursal]* Qatādah
+said of "return to your lord and ask him what is the case of the women": the prophet of God wanted not to go out
+until there was an excuse for him. And Ibn Jurayj said: Yūsuf wanted the excuse before going out of the prison.
+And His words "surely my Lord is knowing of their guile": God is possessed of knowledge of their doing and
+their actions which they did against me, and which they do against other people; nothing of that is hidden from
+Him, and He is behind their recompense for it. And it was said its meaning is: my master Iṭfīr al-ʿAzīz, the
+husband of the woman who solicited me, is possessed of knowledge of my innocence of the evil of which she
+accused me. **[Qurṭubī]** Godʾs words "and the king said, bring him to me": so the messenger went and informed
+the king, and he said, "bring him to me." "And when the messenger came to him" — commanding him to come out — he
+said, "return to your lord and ask him what is the case of the women": that is, the state of the women "who cut
+their hands." And he refused to come out except on condition that his innocence be established with the king,
+from what he had been accused of, and that he had been imprisoned for no crime. Al-Tirmidhī narrated from Abū
+Hurayrah that the Messenger of God ﷺ said: "The noble son of the noble son of the noble son of the noble — Yūsuf
+son of Yaʿqūb son of Isḥāq son of Ibrāhīm. And were I to remain in the prison as long as he remained, and then
+the messenger came to me, I would answer." Then he recited, "And when the messenger came to him he said, return
+to your lord and ask him what is the case of the women who cut their hands." And he said, "And Godʾs mercy upon
+Lūṭ; he took refuge in a firm support." *[when he said, "would that I had strength against you, or could take
+refuge in a firm support" (11:80)]* "And God sent no prophet after him except in a high place among his people."
+And al-Bukhārī narrated from Abū Hurayrah that the Messenger of God ﷺ said: "God have mercy on Lūṭ; he took
+refuge in a firm support. And were I to remain in the prison as long as Yūsuf remained, I would answer the
+caller. And we are more deserving of doubt than Ibrāhīm, when He said to him, ʿor do you not believe?ʾ and he
+said, ʿyes, but that my heart may be at restʾ (2:260)." And it is narrated from the Prophet ﷺ that he said: "God
+have mercy on my brother Yūsuf; he was indeed patient and forbearing. And were I to remain in the prison as long
+as he remained, I would answer the caller and would not seek the excuse." And something like this ḥadīth is
+narrated by way of ʿAbd al-Raḥmān b. al-Qāsim, the companion of Mālik, in the Book of Interpretation of
+Ṣaḥīḥ al-Bukhārī, and Ibn al-Qāsim has nothing else in the canon. And in al-Ṭabarīʾs version: "God have mercy on
+Yūsuf; were I the one imprisoned and then sent for, I would have gone out quickly. He was indeed forbearing,
+possessed of forbearance." And the Prophet ﷺ said: "I have been amazed at Yūsuf and his patience and his
+generosity — God forgive him — when he was asked about the cows; were I in his place I would not have informed
+them until I stipulated that they bring me out. And I have been amazed at him when the messenger came to him;
+were I in his place I would have raced them to the door." Ibn ʿAṭiyyah said: this action of Yūsuf was
+forbearance, patience, and a seeking of clearance of the ground; and that is because he feared — as is narrated
+— that he would go out and attain a rank with the king and be silent about the matter of his offence in passing,
+so that people would see him with that eye forever and say, "this is the one who solicited his masterʾs wife."
+So Yūsuf wanted to make his innocence clear and to establish his place in chastity and goodness, and then to go
+out for favour and rank; for this he said to the messenger, "return to your lord and say to him: what is the
+case of the women?" And Yūsufʾs purpose was only: and say to him, let him investigate my offence to the utmost,
+and look into my affair, whether I was imprisoned in truth or in injustice. And he turned aside from the wife
+of the ʿAzīz out of good companionship, and out of regard for the covenant of the king, the ʿAzīz, toward him.
+Then it is said: how did the Prophet ﷺ praise Yūsuf for patience, forbearance and the abandonment of rushing to
+come out, and then remove himself from a state with which he had praised another? The face of it is that the
+Prophet ﷺ only took for himself another face of opinion, which also has a side of goodness: he is saying, were I
+it, I would have rushed out and then sought the clarification of my excuse after that. And that is because these
+stories and events are exposed to being followed by people until the Day of Rising, so the Messenger of God ﷺ
+wanted to carry people upon the more prudent of affairs; for the one who abandons prudence in such an event,
+who leaves the opportunity to come out of such a prison, may thereby end up remaining in his prison, and the
+mind of the one who would bring him out may turn away from him. And though Yūsuf was secure from that by his
+knowledge from God, other people are not secure from it. So the state to which the Prophet ﷺ removed himself is
+a state of prudence, and what Yūsuf did is great patience and fortitude. Godʾs words "and ask him what is the
+case of the women": he mentioned the women collectively so that the wife of the ʿAzīz would enter among them by
+way of generality, by intimation, so that no explicit mention would fall upon her; and that is good
+companionship and courtesy. And in the speech there is an elision: that is, ask him to ascertain what is the
+case of the women. **[Ibn Kathīr]** God narrates to us that when the king was conveyed the interpretation of his
+dream, he liked Yūsufʾs interpretation and felt sure that it was true. He realized the virtue of the prophet
+Yūsuf, recognized his knowledge in the interpretation of dreams, and valued his good conduct with his subjects
+in his country. The king said, "Bring him to me": release him from prison and bring him to me. When the kingʾs
+emissary came to Yūsuf and conveyed the news of his imminent release, Yūsuf refused to leave the prison until
+the king and his subjects declared his innocence and the integrity of his honor, denouncing the false accusation
+that the wife of the ʿAzīz had made against him. He wanted them to know that sending him to prison was an act of
+injustice and aggression, not that he had committed an offense that warranted it. He said, "Return to your lord,
+that is, king…" The Sunnah of our Prophet ﷺ praised Yūsuf and asserted his virtues, honor, elevated rank and
+patience. The Musnad and the Two Ṣaḥīḥs recorded that Abū Hurayrah said the Messenger of God ﷺ said: "We are
+more liable to be in doubt than Ibrāhīm when he said, ʿMy Lord! Show me how You give life to the deadʾ… And may
+God send His mercy on Lūṭ! He wished to have powerful support! If I were to stay in prison for such a long time
+as Yūsuf did, I would have accepted the offer." In another narration collected by Aḥmad from Abū Hurayrah, the
+Prophet ﷺ said about Yūsufʾs statement, "and ask him, what happened to the women who cut their hands; surely my
+Lord is Well-Aware of their plot": "If it was me, I would have accepted the offer rather than await my
+exoneration first." **[Jalālayn]** And the king, after the messenger had come to him and informed him of the
+dreamʾs interpretation, said, "Bring him to me!" — that is, the one who interpreted it. And when the messenger
+came to him, that is, to Joseph, and summoned him in order to depart from the prison, he said — with the
+intention of manifesting his innocence — "Return to your lord and ask him to inquire, ʿWhat was the case with the
+women who cut their hands?ʾ Surely my lord, my master, has knowledge of their guile." He thus returned and
+informed the king, who then summoned the women. **[Saʿdī]** God says: "And the king said" to those with him,
+"bring him to me" — that is, Yūsuf, by their bringing him out of the prison and presenting him to him. And when
+the messenger came to Yūsuf and commanded him to attend upon the king, he refrained from hastening to come out
+until his innocence was made fully clear; and this was of his patience, his intelligence and his complete
+opinion. So he said to the messenger: "Return to your lord" — meaning the king — "and ask him what is the case
+of the women who cut their hands": ask him what their affair and their story is, for their affair is apparent
+and clear. "Surely my Lord is knowing of their guile." **[Maʿārif]** The king gave the order that Sayyidna Yūsuf
+be taken out of the prison and produced before him in his court. So some emissary of the king arrived at the
+prison with the message of the king. Obviously this was an occasion which should have been welcomed by Sayyidna
+Yūsuf: he had been in the prison for a long time, restricted and helpless, and he wished to be released. When
+the message of the king arrived at the prison that he was wanted by the king, he should have welcomed it and got
+himself ready to go. But God bestows upon His Messengers a very high moral station which other people just
+cannot comprehend. Here, by asking this question, the objective was to find out whether he was still held in
+doubt about what had happened then, and whether he was still taken to be at some fault in that matter. Also
+noteworthy at this stage is that Sayyidna Yūsuf is, in the present context, talking about the women who had cut
+their hands — he has not mentioned the wife of the ʿAzīz, who was the main cause of what had happened. In this
+conduct of his there was consideration for the right of his masterʾs house, where he lived and where he was
+brought up — something elementally respected by a person of natural gentleness in him. Then, not any less
+important was his real purpose, the need to be exonerated from blame conclusively. If proof was needed, it could
+have come from those women as well, and it would not have brought much of a disgrace on them: had they confessed
+to what was the truth, they would have been, at the most, charged with having given false advice only. This
+would have been contrary to the case of the wife of the ʿAzīz, for if she was made a target of the
+investigations it would have proved far more disgraceful for her. And along with this Sayyidna Yūsuf said,
+"Surely my Lord knows their guile well," so that the king too would get to know the truth of the matter — which
+is a delicate approach to registering his innocence in it. **[Study Quran]** When the wine carrier, here called
+the messenger, returned and informed the king of Josephʾs interpretation of his dream, the king asked that he
+bring Joseph to him. But when the messenger approached Joseph in order to release him from prison, Joseph sought
+to exonerate himself, asking, "What of the women who cut their hands?" — which is understood to have been
+Josephʾs request that the women be confronted by the king. The messenger then returned and informed the king of
+Josephʾs inquiry, and the king complied by gathering the women before him.
+
+**Ḥadīth & āthār.** The verse is the locus of a cluster of Prophetic statements, all through Abū Hurayrah.
+(a) The one in the Two Ṣaḥīḥs and the Musnad, joining Yūsuf with Ibrāhīm and Lūṭ: "We are more liable to be in
+doubt than Ibrāhīm… and God have mercy on Lūṭ, he took refuge in a firm support… and were I to remain in the
+prison as long as Yūsuf remained, I would answer the caller" **[Ibn Kathīr] [Qurṭubī]**. (b) Al-Tirmidhīʾs
+version, which adds the genealogy — "the noble son of the noble son of the noble son of the noble: Yūsuf son of
+Yaʿqūb son of Isḥāq son of Ibrāhīm" — and the remark that God sent no prophet after him except in a high place
+among his people **[Qurṭubī]**. (c) The one attached specifically to this verse: "Were I it, I would have
+hastened the answer and not sought the excuse" **[Ṭabarī]**, and Aḥmadʾs wording, "If it was me, I would have
+accepted the offer rather than await my exoneration first" **[Ibn Kathīr]**. (d) The *mursal* report through
+ʿIkrimah containing both halves of the comparison — amazement at his not stipulating release before
+interpreting the dream, and amazement at his not racing the messenger to the door — with "God forgive him"
+*[mursal; and see below]* **[Ṭabarī]**. (e) Al-Ṭabarīʾs wording "God have mercy on Yūsuf; were I the one
+imprisoned and then sent for, I would have gone out quickly. He was indeed forbearing, possessed of forbearance!"
+— weak in one of its chains for an unnamed transmitter **[Ṭabarī]**.
+
+**Rulings.** **[Qurṭubī]** raises the reconciliation as a formal question and answers it at length, and the
+answer is one of the most useful pieces of practical jurisprudence in the sūrah. How did the Prophet ﷺ praise
+Yūsuf for patience and forbearance and the abandonment of rushing out, and then remove himself from a state with
+which he had praised another? The face of it is that the Prophet ﷺ took for himself another face of opinion
+which also has a side of goodness: he is saying, were I it, I would have rushed out and then sought the
+clarification of my excuse afterwards. And that is because these stories and events are exposed to being
+followed by people until the Day of Rising, so the Messenger of God ﷺ wanted to carry people upon the more
+prudent of affairs (*al-aḥzam min al-umūr*); for the one who abandons prudence in such an event, who leaves the
+opportunity to come out of such a prison, may thereby end up remaining in his prison, and the mind of the one
+who would bring him out may turn away from him. And though Yūsuf was secure from that by his knowledge from God,
+other people are not secure from it. So the state to which the Prophet ﷺ removed himself is a state of prudence
+(*ḥazm*), and what Yūsuf did is great patience and fortitude (*ṣabr ʿaẓīm wa-jald*). **[Maʿārif]** expands this
+into a full theory: the purpose of the ḥadīth is to praise Yūsufʾs patience and noble traits, but by attributing
+to himself the opposite response the Prophet ﷺ would seem to be saying that Yūsufʾs conduct was better and that
+he himself would have settled for the less preferred — which is not becoming of the station of the one called
+foremost among the prophets. To answer that: he is no doubt foremost among the prophets, but the precedence of
+another prophet in one particular part of his conduct is not contrary to it. In addition, as said in *Tafsīr
+al-Qurṭubī*, it is possible that Yūsufʾs modus operandi is an outstanding proof of his patience, forbearance and
+noble character, and is highly commendable in its place; but the pragmatic method the Prophet ﷺ attributed to
+himself was particularly appropriate to, and better for, educating his community and offering to its teeming
+masses the best course of action likely to bring nothing but good to them. The reason in this setting is that the
+temperament of kings changes, and placing trust in them is not a wise thing to do; on an occasion such as this,
+putting conditions on or delaying the process is not the appropriate thing for common people, since the
+probability remains that the king may change his opinion and one is left to rot in that prison. As for Yūsuf, he
+is a prophet of God, and as such he could have been given to understand by God that the delay he caused would
+not go against his interest in any way; but others do not enjoy that degree of closeness to God. The Prophet ﷺ
+was a mercy for all the worlds, and in his temperament and taste he had an elemental rapport with the entire
+creation of God; he always preferred to make things easier and better for the great masses of people. To him
+this was more important. Therefore he said that had he had the opportunity he would not have delayed.
+
+**Language.** *Mā bālu* means what is the state or case of; **[Qurṭubī]** notes an elision — "ask him *to
+ascertain* what is the case of the women" — and that the plural *al-niswah* is used so that the wife of the
+ʿAzīz enters by way of generality and intimation, without explicit mention falling upon her, which is good
+companionship and courtesy. *Rabb* here is the king, as at 12:42 **[Ṭabarī]**, though the alternative reading
+that it is the ʿAzīz Iṭfīr is recorded. *Kayd* is their scheming and their doing against him **[Ṭabarī]**;
+*ʿalīm* is glossed as knowing of it and being behind their recompense for it.
+
+**Belief.** **[Maʿārif]** opens the entry with the doctrinal premise: "God bestows upon His Messengers a very
+high moral station which other people just cannot comprehend." The verse is then read as an instance — Yūsuf
+declines an offer that any other prisoner would have accepted, and the reason he can decline it is that he knows
+something about Godʾs plan that others do not. This is the same point **[Qurṭubī]** makes negatively: Yūsuf was
+secure from the risk by his knowledge from God, and other people are not. And **[Ṭabarī]** preserves the older
+gloss on "surely my Lord is knowing of their guile" — that God is behind their recompense for it — which turns
+the sentence from a claim about evidence into a statement of eschatological confidence: the womenʾs guile is not
+merely known to God, it is answerable to Him.
+
+**Stories & occasions.** **[Qurṭubī]** supplies the historical detail that makes Yūsufʾs delicacy intelligible:
+Ibn ʿAbbās said the king sent for the women and for the wife of the ʿAzīz — "and the ʿAzīz had died" — so he
+summoned them and said, "what is your affair?" The death of the ʿAzīz before the inquiry is what removes the
+possibility of Yūsufʾs clearing himself at his former masterʾs expense; and **[Qurṭubī]** elsewhere notes that
+Yūsuf turned aside from her "out of regard for the covenant of the king, the ʿAzīz, toward him." Also from
+**[Ṭabarī]**, al-Suddī from Ibn ʿAbbās: had Yūsuf gone out that day before the king knew of his affair, there
+would not have ceased to be in the ʿAzīzʾs mind a need concerning him — "this is the one who solicited his
+masterʾs wife."
+
+**Reflection.** Ibn ʿAṭiyyahʾs diagnosis, preserved by **[Qurṭubī]**, is the clearest statement of what Yūsuf
+was actually afraid of: that he would go out, attain a rank with the king, and be silent about the matter of his
+offence in passing — so that people would see him with that eye forever and say, "this is the one who solicited
+his masterʾs wife." A release without vindication is not freedom; it is a promotion with a rumour attached. And
+the verse shows what he did instead: he asked a question, not for an exoneration. "What is the case of the women
+who cut their hands?" is a question whose answer he already knew, and whose function is to make the king ask it
+too. **[Maʿārif]**ʾs observation about the grammar of that question — the plural, the omission of the wife of
+the ʿAzīz — identifies the second order of concern: he wanted the truth established without destroying the
+reputation of the house that had raised him, and he chose the route that would cost the women a charge of bad
+advice rather than the route that would cost the ʿAzīzʾs widow public disgrace. The ḥadīth then supplies the
+general rule for everyone else. Yūsuf could afford to wait because he knew; the Prophet ﷺ says he would not have
+waited, and **[Qurṭubī]** and **[Maʿārif]** agree on why — because the story will be imitated until the Day of
+Rising, and the people who imitate it do not have Yūsufʾs knowledge, and kings change their minds. Patience is
+praised here; prudence is legislated.
+
+---
