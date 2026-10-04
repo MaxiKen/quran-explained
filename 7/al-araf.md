@@ -538,3 +538,621 @@ mentions that He is establishing a dwelling for human beings on the earth (2:36;
 livelihoods and the establishment here are the outward face of the creature's appointed place, and the
 little thanks of the last words is the first note of the long account of human heedlessness that the
 sūrah is about to tell.
+
+## 7:11
+
+*"And certainly We created you, then We shaped you; then We said to the angels, 'Prostrate yourselves before Adam' — and they all prostrated, except Iblis; he was not among those who prostrated."*
+
+**Meaning.** **[Saʿdī]** takes the address as spoken to the children of Adam: *We created you* — your origin
+and the substance out of which you came, your father Adam — *then We shaped you* in the most beautiful
+image and the most beautiful proportion, and God taught him what perfects his inward form, the names
+of all things; then He commanded the noble angels to prostrate before Adam, out of honour and reverence
+for him and to display his excellence, and they all obeyed their Lord and prostrated, every one of them,
+except Iblis, who refused to prostrate out of arrogance toward him and admiration of himself.
+**[Jalālayn]** reads the same sequence with the pronoun shifting: We created you — that is, your father
+Adam — then shaped you — that is, We shaped him while you were deposited in his back; then He said to
+the angels, "Prostrate before Adam," a prostration of greeting; so they fell prostrate, all save Iblis,
+the father of the jinn, who was among the angels — he was not of those who prostrate. **[Ṭabarī]** sets
+out the interpreted meanings of the two verbs: some said *We created you* means in the loins of Adam,
+"then We shaped you in the wombs of women, a creature created and a form fashioned in Adam's image" —
+reported from Ibn ʿAbbās, al-Rabīʿ b. Anas, al-Suddī, and from Qatāda with fuller detail: God created
+Adam from clay, then shaped you in your mothers' wombs, one creation after another — a clot, then a lump,
+then bones, then He clothed the bones with flesh, then brought forth another creation; and some said
+*We created you* refers to Adam and *then We shaped you* to his offspring after him [Ṭabarī].
+**[Qurṭubī]** gives the range of the same choices: We created you as sperm-drops, then shaped you; or,
+per Ibn ʿAbbās, al-Ḍaḥḥāk and others, We created Adam, then shaped you in his back; al-Akhfash said
+*thumma* here carries the sense of *wa*, "and"; or the sentence is out of order, the sense being "We
+created you — meaning Adam — then We said to the angels, 'Prostrate to Adam,' then We shaped you"; or
+the plural *We created you* names Adam alone because he is the father of mankind, as one says "we killed
+you" for "we killed your lord" — and on this reading there is no inversion in the verse at all; and
+al-Ḥasan said the meaning is Adam and Eve, Adam from dust and Eve from a rib of his ribs, with the
+shaping coming after that, so that the sense is "We created your two parents, then We shaped them"
+[Qurṭubī].
+
+**Belief.** **[Ibn Kathīr]** opens his commentary on the passage by naming its purpose: God informs the
+children of Adam of the honour of their father and of the enmity of Satan, who still envies them and
+their father, so that they should beware of him and not follow in his footsteps. He joins the verse to
+the other account: "And when your Lord said to the angels, 'I am going to create a man from dried clay
+of altered mud; so when I have fashioned him completely and breathed into him the soul I created for
+him, then fall down prostrating to him'" (15:28–29). **[Study Quran]** draws out why the command can be
+given at all: the prostration of the angels to Adam is a key element in every account of Adam's creation
+(2:34; 15:29; 17:61; 18:50; 20:116; 38:73–74), and it can be understood to indicate that human beings
+in their primordial state hold a station higher than that of the angels. Because one should not bow to
+any being but God, the commentators sometimes explain the command as symbolic, or say the angels were
+in truth bowing to God and taking Adam as their *qiblah*, their direction of prayer (R); and prostration
+in recognition of another's spiritual greatness, rather than as worship, has its Qurʾānic instance in
+12:100, where Joseph's whole family bows to him [Study Quran].
+
+**Language.** **[Study Quran]** notes the wording that has exercised the commentators: *they all
+prostrated save Iblis* is phrased in a way that suggests Iblis was among the angels, and this is an
+important Qurʾānic basis for the view that he was an angel — though in an identical context at 18:50 he
+is said to be of the jinn — which has given rise to a long scholarly debate over whether Iblis is to be
+classified as an angel or a jinn. **[Saʿdī]** supplies the reason for his refusal in a phrase: he
+refused out of arrogance toward Adam and self-admiration, and the two are named again at 7:13 and 38:75.
+
+**Cross-references.** "And when We said to the angels, 'Prostrate to Adam,' and they prostrated, except
+Iblis; he was of the jinn, and he departed from the command of his Lord" (18:50); "And when your Lord
+said to the angels, 'I am creating a human being from clay'" (38:71); "So when I have shaped him and
+breathed into him of My Spirit, fall prostrating to him" (15:29; 38:72); "And when your Lord took from
+the children of Adam, from their loins, their progeny and made them bear witness concerning themselves:
+'Am I not your Lord?' They said, 'Yes, we bear witness'" (7:172) [Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Study Quran]** observes that the plural address of the verse is not incidental: all
+human beings are considered to have been originally created along with Adam, as the seed in his loins,
+so that all of them may be understood to have participated in the events of the narrative that follows
+and to be subject to the commands and warnings issued in it — some taking *We created you* as mankind's
+creation as a whole through the creation of Adam, and *then We formed you* as God's shaping of each
+individual in the womb or in the loin (Ṭ, Th), while others refer the statements directly to Adam and
+only representatively to the rest of mankind (R, Ṭ). **[Saʿdī]** closes the point with the contrast the
+verse is built on: the angels' obedience and Iblis's arrogance, set side by side in one sentence, so
+that the reader sees from the outset that the story of the human being is a story of command, hearing,
+and the choice between humility and pride.
+
+## 7:12
+
+*"He said, 'What prevented you from prostrating when I commanded you?' He said, 'I am better than him: You created me from fire, and You created him from clay.'"*
+
+**Meaning.** **[Ṭabarī]** reports the sense: this is God's account of what He said to Iblis when he
+disobeyed and did not prostrate to Adam — "what prevented you," that is, what thing kept you from
+prostrating, "when I commanded you?" — and Iblis answered, "I am better than Adam: You created me from
+fire and created him from clay." **[Ibn Kathīr]** marks the answer for what it is: this excuse is worse
+than the crime itself; Satan said he did not obey God because the better cannot prostrate to the lesser,
+making his superiority rest on his origin — fire against clay — and claiming that fire is better. The
+cursed one looked at the origin of creation and not at the honour bestowed, that is, God's creating Adam
+with His own Hand and breathing life into him; he made a false comparison in the face of the direct
+command, "then fall down prostrating to him" (38:72) — and it was for this that Satan alone stood
+against the angels, and became *Ablasa*, cut off from God's mercy, meaning he lost hope of attaining it:
+the name Iblis itself, on one explanation, comes from the same root [Ibn Kathīr].
+
+**Language.** **[Qurṭubī]** works through the grammar in four *masāʾil*. *Mā*, "what," stands in the
+position of the subject: "what thing prevented you"; and this is a question of rebuke. *Allā tasjud*,
+"from prostrating," is in the accusative, that is, "from that you prostrate," with *lā* added —
+as in the line of poetry, "his generosity refused the baseness," where *lā* is inserted. Some said
+*lā* is not superfluous, because *manʿ*, prevention, carries a trace of speech and calling: it is as
+though he said, "who told you not to prostrate?" or "who called you to not prostrate?" — as one says,
+"I said to you not to do such and such." Some said there is an ellipsis and the sense is: what prevented
+you from obedience and made you need not to prostrate? The scholars said: what made him need to abandon
+the prostration was pride and envy, which he had hidden in himself when he was commanded — and he had
+been commanded before Adam was created, God having said, "I am creating a human from clay; so when I
+have shaped him and breathed into him of My spirit, fall prostrating to him" (38:71–72) — so something
+great entered him at the words "fall prostrating to him," for in "falling" there is a laying low and a
+lowering [Qurṭubī]. **[Jalālayn]** notes the same construction briefly: *allā* is made up of *an lā*,
+the *lā* being extra.
+
+**Ḥadīth & āthār.** **[Saʿdī]** weighs the comparison Iblis offered and shows it to be the most corrupt
+of analogies on three counts. First, it stands against God's command; and an analogy that opposes the
+text is void, since the purpose of analogy is to bring a matter for which no text has come close to
+matters for which texts have come and to follow them — whereas an analogy that opposes the texts and
+whose acceptance entails cancelling them is of the most repugnant kind. Second, his saying "I am better
+than him" is by itself enough to show the baseness of the wretched Iblis: he demonstrated his own
+deficiency by his self-admiration, his arrogance and his speaking about God without knowledge — and what
+deficiency is greater than that? Third, he lied in preferring the substance of fire to the substance of
+clay and earth: clay has in it humility, stillness and gravity, and from it appear the earth's blessings,
+trees and plants of every kind, whereas fire has levity, recklessness and burning. And Iblis, adds
+**[Ibn Kathīr]**, was answered with the opposite of what he intended: he sought exaltation by arrogance
+and was given humiliation.
+
+**Belief.** **[Study Quran]** sets out the argument Iblis made and why it fails: he asserts superiority
+over Adam because he was created from fire, which he perceives as more powerful and nobler than clay —
+an argument that appears explicitly at 38:76 and implicitly in his dismissive remarks about Adam in
+15:33; and his claim to have been created from fire lends support to the view that he was a jinn, since
+God created the jinn from smokeless fire (55:15). His argument, however, is self-serving and partial in
+both senses of the term: fire may be luminous, subtle and characterized by lightness (Q, R, Ṭ), but it
+is also associated with fickleness, recklessness, restlessness and destructiveness — with grandeur, but
+also with haughtiness, qualities consistent with the arrogance that leads to his perdition (Q, Ṭ);
+whereas clay, though base, heavy, dark and low-lying (R), has the properties of gravity, forbearance,
+humility and stability, and it is these qualities in Adam that lead him to seek and receive God's
+forgiveness after his disobedience (Q, Ṭ; see 7:23). Clay or earth can also serve as a place of prayer:
+in the Islamic context it is the constituent elements of clay — water and earth — that serve as means
+of ritual purification (4:43; 5:6), not fire; and it is fire, not clay, that is a means of divine
+punishment in the Hereafter (Q). Iblis, blind to the ways in which God had ennobled Adam — creating him
+with His two Hands (38:75), breathing into him His Spirit (15:29; 32:9; 38:72), and endowing him with
+exceptional knowledge (2:31) — argued from one element alone. And because his contention is cast as
+analogical reasoning (*qiyās*) deployed against a direct divine command, it has been cited in the
+tradition, notably in the Jaʿfarī Shiite school, as a reason to discount or reject *qiyās* as a source
+of law — "the first to use analogical reasoning was Iblis!" (Q, Ṭ) — though it may be argued that the
+fault lay not in the reasoning as such but in employing it to oppose a direct divine command, since
+those who accept *qiyās* always subordinate its authority to the Qurʾān and the Prophetic practice (Q)
+[Study Quran].
+
+**Cross-references.** "He said, 'I am better than him: You created me from fire and him from clay'"
+(38:76); "He said, 'Do you see this one whom You have honoured above me? If You reprieve me till the Day
+of Resurrection, I will surely bring his descendants under my sway, all but a few'" (17:62);
+"Except Iblis; he refused to be among those who prostrated" (15:31); "So when I have shaped him and
+breathed into him of My Spirit, fall prostrating to him" (15:29; 38:72) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s analysis is the passage's lasting lesson: the analogy Iblis made was not
+merely mistaken but impossible, because no reasoning may stand against a command from God, and because
+the comparison of substances hid from him the question that mattered — who had been honoured, and by
+whom. **[Study Quran]** adds the same observation from another direction: Iblis's error was not that he
+reasoned, but that he reasoned in order to subvert a direct divine command; and the reader is left with
+the picture of the first creature who preferred his own measure of worth to his Lord's command — which
+is precisely what the sūrah, verse after verse, will show the destroyed towns doing.
+
+## 7:13
+
+*"He said, 'Then go down from it: it is not for you to be arrogant in it. So go forth — you are among the abased.'"*
+
+**Meaning.** **[Ṭabarī]** states the sense: then God said to Iblis, descend from it — from the Garden —
+and it is not for you to be arrogant in it, that is, to exalt yourself in the Garden against My command,
+so go out of the Garden: you are among those whom God has visited with humiliation, abasement and
+contempt. He meets an objection: can anyone be arrogant in the Garden at all? The meaning is otherwise —
+the point is that no one arrogant against God's command may dwell in the Garden; elsewhere than the
+Garden, both the arrogant and the obedient may dwell. Al-Suddī said the same: *al-ṣaghār* is
+humiliation [Ṭabarī]. **[Jalālayn]** gives the two readings of "it": from the Garden, it is also said
+from the heavens. **[Ibn Kathīr]** gives the reason in the words of the verse: get down, because you
+defied My command and disobeyed Me; it is not for you to be arrogant here — in Paradise, according to
+the scholars of commentary; and it may also refer to the particular status he held in the utmost heights
+— so get out, for you are of those humiliated and disgraced, which is the inverse of what he intended,
+the recompense of his ill intention being the opposite of his arrogance [Ibn Kathīr].
+
+**Language.** **[Qurṭubī]** records a striking alternative gloss: Abū Rawq and al-Bajalī said "go down
+from it" means from the form in which you are, because Iblis boasted that he was of fire, so his form
+was disfigured with blackening and the loss of its radiance. It was also said that the command means:
+move from the earth to the islands of the seas — for as one says, "we descended such-and-such a land,"
+meaning we moved to it from another place — so that he was brought out from the earth to the sea
+islands, and his authority is there, and he does not enter the earth except in the manner of a thief
+who is afraid in it until he comes out of it; but al-Qurṭubī says the first explanation is the more
+apparent [Qurṭubī]. **[Ṭabarī]** notes the verbal noun behind the last word: from it come *ṣaghira
+yaṣgharu ṣagharan wa ṣaghāran wa ṣughrānan*, and it is also said *ṣaghura yaṣghuru ṣaghāran wa
+ṣaghāratan* — the root carrying smallness and lowliness together.
+
+**Belief.** **[Saʿdī]** draws out the fall in rank: when what happened with Iblis happened, he dropped
+from his high station to the lowest of the low, and God said to him: descend from it, that is, from the
+Garden, for it is not for you to be arrogant in it, because it is the abode of the good and the pure and
+is not suited to the most vile and most wicked of God's creation; so get out — you are among the
+abased — that is, the humiliated, the disgraced — a recompense for his pride and his self-admiration,
+humiliation and disgrace being the wage of the arrogant. **[Study Quran]** observes that the command
+to go down, here addressed to Iblis as leaving the Garden, is also found at 2:36 and 20:123, and in
+7:24 a similar command is addressed to Adam and his wife as well; Iblis is then chastised for waxing
+arrogant, as at 38:75. The phrase "it is not for you to be arrogant here" also suggests that the Garden
+itself is a place in which no arrogance can be tolerated, since it is a place of humility and obedience;
+some have suggested that Iblis's arrogance, even more than or in addition to his disobedience, was the
+cause of his exile from the Garden, so that the verse serves as a warning to human beings, who in
+several verses are themselves accused of waxing arrogant, since this may bar one from the paradisal
+Garden (Bḍ) [Study Quran].
+
+**Cross-references.** "Then Satan caused them to slip from it, and brought them out of that wherein they
+were; and We said, 'Go down, some of you an enemy to some others'" (2:36); "He said, 'Go down, some of
+you an enemy to some others; and on the earth you shall have a dwelling place and provision for a
+time'" (7:24); "He said, 'O Iblis, what prevented you from prostrating to what I created with My two
+Hands? Are you too proud, or are you among the exalted?'" (38:75) [Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Ṭabarī]**'s reading keeps the verse from being a mere expulsion notice: the reason
+Iblis cannot stay is not the Garden's exclusiveness but the incompatibility of arrogance with the abode
+of the humble, and that is a rule the reader of the sūrah will meet again. **[Saʿdī]** states its edge:
+the servant who takes the lesson sees that the wage of self-exaltation is to be brought low, and that
+Iblis's fall from the highest station to the lowest is written in a single command, "go forth — you are
+among the abased."
+
+## 7:14
+
+*"He said, 'Grant me respite until the day they are raised up.'"*
+
+**Meaning.** **[Saʿdī]** reads the request against what precedes it: when the enemy of God had declared
+his enmity to God and to Adam and his offspring, he asked God for delay and respite until the Day of
+Resurrection, so that he might be able to lead astray as many of the children of Adam as he could.
+**[Jalālayn]** gives the words plainly: he said, grant me respite, postpone my affair, until the day
+when they — the people — are resurrected. **[Ibn Kathīr]** notes what the granting of the request
+reveals: God gave Satan what he asked for out of His wisdom, it being His decision and decree, which is
+never prevented or resisted — surely none can avert His decision, and He is swift in reckoning, and he
+sets beside it the parallel: "Then allow me respite till the Day they are raised up. He said, 'Then you
+are of those respited'" (15:36–37) [Ibn Kathīr]. **[Study Quran]** observes the narrative sequence:
+despite Iblis's banishment in 7:13, here he asks for, and is granted, respite from God, so that he will
+neither die nor be punished (Bḍ) until the Day they are resurrected, referring to the Day of universal
+Resurrection and Judgment, as in 15:36–38, 17:62 and 38:79–81 [Study Quran]. **[Ṭabarī]**'s comment on
+the parallel verses turns on the difference between the two answers, the one here and the one at 38:81,
+"until the day of the appointed time" — the respite granted in every case reaches to the sounding of
+the Trumpet.
+
+**Belief.** **[Saʿdī]** states the divine purpose that stands behind the granting of the request: the
+wisdom of God required the testing of the servants and their trial, so that the truthful might be
+distinguished from the liar and it might become clear who obeys Him and who obeys His enemy; and for
+that reason He answered Iblis as he asked, saying, "you are among those granted respite." The respite,
+then, is not a concession to Iblis but a term set for the trial of mankind [Saʿdī]. **[Study Quran]**
+notes the same ordering of the narrative: the request and its grant are placed between the expulsion
+and the temptation, so that the reader knows from the start that what follows in the Garden is not an
+accident but a trial with a fixed term.
+
+**Cross-references.** "He said, 'Then allow me respite till the Day they are raised up'; He said, 'Then
+you are of those respited'" (15:36–37); "He said, 'Respite me till the day they are raised up'; He said,
+'Until the day of the appointed time'" (38:79–81); "He said, 'Do you see this one whom You have honoured
+above me? If You reprieve me till the Day of Resurrection, I will surely bring his descendants under my
+sway, all but a few'" (17:62); "And the Trumpet shall be blown, and all who are in the heavens and on
+the earth shall swoon, save whom God wills" (39:68) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s framing is the one that gives the verse its weight: the same answer that
+sets the trial also fixes its limit, and the enemy who asked for time received exactly as much as the
+divine wisdom had appointed for the testing of the servants — no more, and no longer than the day of
+the raising up. **[Study Quran]** marks the irony the sūrah leaves in place: the one who refused a
+single command within the Garden is now allowed to roam outside it for the whole span of human history,
+and the reader who has just seen him expelled is being told, in the plainest terms, that his work
+continues.
+
+## 7:15
+
+*"He said, 'You are among those granted respite.'"*
+
+**Meaning.** **[Jalālayn]** reads the answer as it stands: God said, you are of those reprieved — and it
+notes that another verse says of the same request, "until the day of an appointed time" (38:81), that is,
+until the time of the first blast of the Trumpet. **[Saʿdī]**, who reads 7:14–15 as one unit, puts the
+grant in the frame of the trial: because God's wisdom required the testing of the servants so that the
+truthful be known from the liar, He answered Iblis's request and said, "you are among those granted
+respite." **[Ibn Kathīr]** gives the same verse through its parallels in Sūrat al-Ḥijr and Sūrat Ṣād,
+where the answer comes in the same words, "then you are of those respited" (15:36–37), and he draws from
+it the general principle: God gave Satan what he asked out of His wisdom, by His decree, which is never
+prevented or resisted — none can avert His decision, and He is swift in reckoning. **[Study Quran]**
+notes the function of the grant within the narrative: the respite means that he will neither die nor be
+punished (Bḍ) until the Day of the raising up, the Day of universal Resurrection and Judgment [Study
+Quran].
+
+**Language.** **[Jalālayn]** supplies the distinction between the two Qurʾānic answers: the respite here
+is "until the day they are raised up," while 38:81 has "until the day of the appointed time" — and that
+day is the time of the first blast of the Trumpet, so that both answers name the end of the present
+order, spoken of from two sides: the raising of men, and the appointed moment fixed for it. **[Ṭabarī]**
+draws the same conclusion from the root of the word: the *munẓarīn*, those respited, are those granted
+a delay — not a pardon — so that the term of the enemy of God runs exactly to the moment all creatures
+are raised.
+
+**Cross-references.** "Until the day of the appointed time" (38:81); "He said, 'Then you are of those
+respited'" (15:37); "And when your Lord said to the angels, 'I am creating a human being from clay'" —
+where the same command and the same refusal follow (38:71–74); "And the Trumpet shall be blown; that is
+the Day of the Threat" (50:20) [Jalālayn] [Ibn Kathīr].
+
+**Reflection.** **[Ibn Kathīr]**'s point is doctrinal before it is narrative: the granting of the
+respite shows that nothing escapes the decree of God — the enemy who asked for time was given time by
+the very wisdom that had already provided for the testing of the servants, and his long life is itself
+a part of the decree he imagines he has won. **[Saʿdī]** draws the comfort from the same verse: the
+enemy's respite is bounded by a day named in the answer, and the one who set its term is the one who
+set the trial.
+
+## 7:16
+
+*"He said, 'Because You have sent me astray, I will lie in wait for them on Your straight path.'"*
+
+**Meaning.** **[Ṭabarī]** sets out the sense: Iblis said, because You led me astray — that is, because
+You caused me to err, and You left me to the error that was my due — I will sit in wait for the
+children of Adam on Your path, the path that is straight; the Arabic *ṣirāṭ* being the road, and
+*mustaqīm* the straight one. **[Jalālayn]** reads it in the same sequence: he said, because You have
+sent me astray — since You left me to stray, or since Your having sent me astray is a reason for it —
+I will surely sit in wait for them, that is, I will set myself on the watch for them, on Your straight
+path, which is the religion of Islam, so that I may prevent them from it. **[Saʿdī]** reads the sentence
+as Iblis's declared programme: having announced his enmity, he swore to stand on the straight path of
+God as a watcher and a renegade, sitting in wait for those who walk it. **[Qurṭubī]** gives the word
+closely: *la-aqʿudanna lahum* means I will sit in ambush and guard the path; *lā* here is the *lām* of
+oath, and the sitting is the posture of the one blocking a road.
+
+**Belief.** **[Qurṭubī]** records the objection and the answer that belongs to this verse: how can Iblis
+say "because You have sent me astray," when the sending astray is God's act and the straying is his own?
+The scholars answer that he said it out of ingratitude and as a charge against his Lord — and the
+Qurʾānic habit is to attribute the whole to the decree while placing the blame on the creature, as
+Iblis himself says at 15:39, "because You sent me astray," where his fault is named in the same breath:
+he was commanded and refused, and so was called astray. **[Ibn Kathīr]** makes the same point in the
+form of a contrast: the enemy of God does not attribute his refusal to his own arrogance but to the
+decree — the master he blamed is the One who gave him a being and a will — and this is the very pattern
+that the sūrah will show in the deniers it recounts. **[Study Quran]** notes the commentators' agreement
+that the verse is Iblis's vow of enmity, and that the straight path here is identified with the religion
+of God to which Adam's descendants are called [Study Quran].
+
+**Cross-references.** "Because You sent me astray, I will surely make it seem fair to them on the earth"
+(15:39); "And I will surely mislead them and I will surely stir desires in them" (4:119);
+"So do not follow the steps of Satan" (2:168; 24:21); "He said, 'Do you see this one whom You have
+honoured above me? If You reprieve me till the Day of Resurrection, I will surely bring his descendants
+under my sway, all but a few'" (17:62); "Truly Satan is an enemy to you, so take him as an enemy"
+(35:6) [Ṭabarī] [Ibn Kathīr].
+
+**Reflection.** **[Saʿdī]** draws the warning the verse is placed to give: the one who has taken the
+straight path as his hunting ground is the enemy of the children of Adam, and the reader who follows
+the verse from the Garden to the road understands that the road passes through the territory of that
+watchman. **[Study Quran]** supplies the same lesson from the other side: the path is called God's and
+straight, and the ambush is set upon it precisely because it is the road to God — so the danger named
+in the verse is not straying in general but being stopped on the way that leads home.
+
+## 7:16
+
+*"He said, 'Because You have sent me astray, I will lie in wait for them on Your straight path.'"*
+
+**Meaning.** **[Ṭabarī]** sets out the sense: Iblis said to his Lord, "because You have sent me astray,"
+that is, because You caused me to err — as Ibn ʿAbbās and Ibn Zayd both glossed it: "You led me astray";
+and some took it in the sense of ruin, "because You destroyed me," since the Arabs say of a young camel
+that it *ghawiya* when, having lost its mother's milk, it dies; the root sense of *ighwāʾ* in Arabic
+being a man's making something fair to another so that he admires it, in deception. Then the oath:
+I will sit in wait for them on Your straight path. **[Jalālayn]** gives the grammar: the *bāʾ* is the
+*bāʾ* of oaths, and the answer to the oath is what follows — "I shall surely sit in ambush for them,"
+that is, for the children of Adam, on Your straight path, the path that leads to You. **[Qurṭubī]**
+works the same ground and adds the alternatives reported for the phrase: *ighwāʾ* is the casting of
+error into the heart, so Iblis is saying, "by the error and the stubbornness and the arrogance that You
+cast into my heart" — for his disbelief was not the disbelief of ignorance but the disbelief of
+obstinacy and self-exaltation; and it was said that the *bāʾ* carries an oath, "by Your causing me to
+err, I will sit in wait for them on Your path," as God reports him saying in Sūrat Ṣād, "so by Your
+might I will lead them all astray" (38:82); and it was said the *bāʾ* has the sense of *lām*, "because
+of Your causing me to err," or of *maʿa*, "along with Your causing me to err," or that the sentence is
+a question, "by what did You cause me to err?", or that it means "because You destroyed me," erring
+being destruction, as in "they shall meet ruin" (20:124 region), or "because You disappointed me of
+Your mercy" [Qurṭubī]. **[Ibn Kathīr]** notes what preceded: it was after God granted him respite that
+Iblis, sure he had got what he wanted, went on in defiance and rebellion; and he records Ibn ʿAbbās's
+and others' glosses and Mujāhid's, that the straight path is the truth, the path of truth and the way
+of safety, from which Iblis declared he would misguide them [Ibn Kathīr].
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** records on this verse the report of Saburah b. Abī al-Fākih, who
+heard the Messenger of God ﷺ say: "Satan sat in wait for the son of Adam on his paths, and he sat for
+him on the path of Islam, saying, 'Will you become a Muslim and leave your religion and the religion of
+your fathers?' — but he disobeyed him and became a Muslim; then he sat for him on the path of the
+migration, saying, 'Will you migrate and leave your land and your sky? The migrant is only like a horse
+in its tethers' — but he disobeyed him and migrated; then he sat for him on the path of striving, with
+self and wealth, saying, 'You will fight and be killed, your wife will be married and your wealth
+divided' — but he disobeyed him and strove. And the Messenger of God ﷺ said: 'Whoever of them does
+that and dies, it is a right upon God to admit him to the Garden; and if he is killed, it is a right
+upon God to admit him to the Garden; and if he drowns, it is a right upon God to admit him to the
+Garden; or if an animal breaks his neck, it is a right upon God to admit him to the Garden'" — Aḥmad
+recorded it [Ibn Kathīr].
+
+**Belief.** **[Qurṭubī]** states the doctrinal point the verse raises: the disbelief of Iblis was the
+disbelief of obstinacy and arrogance, not of ignorance, and so his words "because You have sent me
+astray" are his own charge laid against his Lord, not a defence. **[Study Quran]** records the range of
+comment on the claim: some commentators took Iblis's statement to be a true statement, though one that
+does not excuse him (R, Z), and it has been read as consistent with the verses that speak of God
+"misleading" certain people or allowing them to go astray (2:26; 40:74; 74:31); others held that God
+caused Iblis to err only in the sense that His command to prostrate before Adam uncovered the pride and
+stubbornness already hidden in him (R). It notes too that the account raised profound questions for
+certain theologians and mystics: some suggested that in commanding Iblis to prostrate before Adam, God
+placed him in a deliberately impossible position, commanding what He already knew he would not do; and
+the Baghdādī mystic al-Ḥallāj (d. 309/922) famously imagined Iblis as a sincere lover of God who could
+not bring himself to bow to anyone but Him, even at the cost of his own destruction and eternal
+banishment (see Aj, R) — a reading the sūrah's stark account does not endorse, and which the
+commentators record only to reject [Study Quran]. **[Ṭabarī]**, for his part, breaks off in this place
+to note that the verse contains a clear demonstration of the corruption of what the Qadariyya say
+about God's decree and man's act — *(digression)*, an aside to the controversy of his own time rather
+than to the verse itself.
+
+**Cross-references.** "Because You sent me astray, I will surely make it seem fair to them on the earth
+and I will surely lead them all astray" (15:39); "So by Your might I will lead them all astray, except
+Your servants among them who are sincere" (38:82–83); "Truly Satan is an enemy to you, so take him as
+an enemy" (35:6); "And do not follow the steps of Satan" (2:168; 24:21) [Ṭabarī] [Ibn Kathīr].
+
+**Reflection.** **[Ibn Kathīr]**'s ḥadīth turns the verse into a map for the reader: the ambush is set
+on the paths of obedience, and every path the believer takes — Islam, migration, striving of self and
+wealth — is a place where the enemy has taken his seat, so that the believer's advance is by exactly
+his disobedience of the enemy. **[Saʿdī]** gives the same reading in the vocabulary of resolve: Iblis,
+having despaired of God's mercy, resolved to stand on the straight path and exert all his power to stop
+people from it — and the reader who hears the vow is meant to take his guard from it and arm himself
+with knowledge of the paths from which the enemy comes.
+
+## 7:17
+
+*"Then I shall come at them from before them and from behind them, and from their right and from their left; and You will not find most of them thankful."*
+
+**Meaning.** **[Ṭabarī]** records the interpretations of the four directions. One set holds that the
+coming "from before them" is from the side of the Hereafter, "from behind them" from the side of this
+world, "from their right" from the side of truth, and "from their left" from the side of falsehood;
+and the reports from Ibn ʿAbbās give two versions — in the first, "I will make them doubt their
+Hereafter; I will make them desire their world; I will confuse for them the affair of their religion;
+I will make sins appetizing to them"; in the second, "from before them" means from the direction of
+this world, "from behind them" from the Hereafter, "from their right" from the side of their good deeds
+and "from their left" from the side of their evil deeds. Al-Ṭabarī notes that another report from Ibn
+ʿAbbās confirms the second: "As for 'from before them,' it is from before them; as for 'from behind
+them,' it is the affair of their Hereafter; as for 'from their right,' it is from the side of their good
+deeds; as for 'from their left,' it is from the side of their evil deeds." And Qatāda said: he came at
+them "from before them" and told them there is no resurrection, no garden and no fire; and "from behind
+them," from the affair of this world, so that he made it fair to them [Ṭabarī]. **[Jalālayn]** gives the
+summary sense: from every side, to prevent them from following that path; and it records Ibn ʿAbbās's
+qualification: he cannot come at them from above, lest he come between the servant and the mercy of
+God. **[Saʿdī]** reads the four directions as every direction and every path by which he can reach some
+part of his purpose against them; and since the wretched one knew that men are weak and that heedlessness
+overpowers many of them, he was certain he would spare no effort to mislead them, and he guessed — and
+his guess was true — when he said, "and You will not find most of them thankful": for standing in
+thankfulness is part of walking the straight path, and his aim is to stop them from it, as God said,
+"He only calls his party to be among the companions of the Blaze" (35:6) [Saʿdī].
+
+**Belief.** **[Saʿdī]** draws the purpose of the verse for the reader: God has alerted us to what the
+enemy said and resolved to do so that we take our guard against him, prepare for him, and shield
+ourselves by knowing the paths from which he comes and the entrances through which he penetrates —
+and that is the most complete of God's favours to us. **[Study Quran]** reports al-Rāzī's fuller
+reading: that Satan will come at them "from before them and from behind them" may refer to his making
+them doubt the reality of Resurrection and Judgment and deluding them that this world is eternal, or
+his cutting off their desire for the Hereafter while increasing their desire for worldly things, or his
+inciting them to disbelieve in the prophets of their own time and of the past; and "from their right and
+their left" means he will corrupt them through both disbelief and religious innovation (*bidʿah*).
+On the question of why the four directions and not above or below, al-Rāzī says that when Satan made
+this vow, the hearts of the angels softened toward mankind and they asked God how human beings could
+escape his surrounding influence; God replied that two paths remained free and open to them — the one
+above them and the one below them — so that if they raised their hands in supplication to God or bowed
+their heads to the ground in humility, they would be forgiven their sins (R). And the Qurʾān elsewhere
+confirms that Iblis's prediction was accurate: "And Iblis did indeed prove his opinion of them true,
+and they followed him, except a group of the believers" (34:20) [Study Quran].
+
+**Cross-references.** "And Iblis did indeed prove his opinion of them true" (34:20); "He only calls his
+party to be among the companions of the Blaze" (35:6); "If they had been true to God, it would have been
+better for them" (47:21); "and few of My servants are thankful" (34:13) [Saʿdī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading makes the verse a piece of intelligence rather than a taunt: the
+enemy has told us his methods, and the believer's task is to know the entrances he uses — the world
+behind, the Hereafter before, the good deed on the right, the sin on the left — and to close them with
+awareness. **[Study Quran]** adds the mercy hidden in the four directions: the two ways left open are
+the two postures of worship, the raised hand and the bowed head, and the verse that seems to leave men
+surrounded ends by showing them the door that is above them and the door that is below.
+
+## 7:18
+
+*"He said, 'Go forth from it, disgraced and banished. Whoever of them follows you — I shall surely fill Hell with you all.'"*
+
+**Meaning.** **[Ṭabarī]**: go out of the Garden, disgraced and driven away — *madhʾūman* being the one
+censured, *madḥūran* the one removed and pushed out. **[Qurṭubī]** gives the words: *madhʾūm* is the
+blamed — *al-dhaʾm* being fault, with a light *mīm* — and Ibn Zayd said *madhʾūm* and *madhmūm* are the
+same, and Mujāhid said the *madhʾūm* is the banished, while the two meanings are close; *madḥūr* is the
+one removed and driven out, from Mujāhid and others, its root being driving away. Then "whoever of them
+follows you" — the *lām* is the *lām* of oath, and its answer is "I shall surely fill Hell"; it was also
+said that the first *lām* is for emphasis and the second for the oath, since the first may be dropped in
+recitation but the second may not, and the sentence carries the sense of condition and requital: whoever
+follows you, I will punish him; ʿĀṣim, in the report of Abū Bakr b. ʿAyyāsh, recited *li-man tabiʿaka*
+with a *kasra* on the first *lām*, and some grammarians rejected this — al-Naḥḥās said its sense would
+be "because of the one who follows you," as one says "I honoured so-and-so for your sake," and it may
+mean the driving away is for the one who follows you — while "all of you" means from you and from the
+children of Adam, since they had just been named in "We created you" [Qurṭubī]. **[Ibn Kathīr]** gathers
+the glosses of the early authorities: Ibn ʿAbbās said "despised"; on another report from him "belittled
+and despised"; al-Suddī, "hateful and expelled"; Qatāda, "cursed and despised"; Mujāhid, "expelled and
+banished"; al-Rabīʿ b. Anas, *madhʾūm* banished and *madḥūr* belittled; and he joins the verse to its
+parallel in the night journey: "'Go, and whoever of them follows you, surely Hell will be the recompense
+of you all, an ample recompense; and delude those whom you can among them with your voice, and assault
+them with your cavalry and your infantry, and share with them in wealth and children, and make promises
+to them' — but Satan promises them nothing but deceit. 'Verily, My servants — you have no authority
+over them; and sufficient is your Lord as a Guardian'" (17:63–65) [Ibn Kathīr]. **[Saʿdī]**: God said
+to Iblis, when he had said what he said: go out of it, a going out of disgrace and contempt, not a going
+out of honour; *madhʾūman*, blamed; *madḥūran*, removed from God and His mercy and every good; and
+"I shall surely fill Hell" — from you and from those of them who follow you — "all together": an oath
+from God that the Fire is the abode of the disobedient, and that He will fill it with Iblis and his
+followers from jinn and men [Saʿdī].
+
+**Belief.** **[Study Quran]** marks the two commands by their prepositions: here Iblis is told to go
+forth (*ukhruj*) — from the Garden of Eden — which indicates banishment from the Garden but not
+necessarily from the celestial realm altogether, and hence his continued presence so that he is able
+later to tempt Adam and Eve while they are in the Garden (7:20–22); whereas the command "get down"
+(*ahbitū*) in 7:24 is issued to Iblis, Adam and his wife collectively and marks more clearly their
+collective descent from the celestial realm. The threat that God "shall surely fill Hell with you all"
+suggests that Satan, along with the disbelieving and iniquitous human beings he misleads, will be
+punished in Hell together; from another perspective, Satan can be said to be already in Hell, which
+exists in a sense even now and not only in the future; and other verses, including 11:119, 32:13 and
+38:85 — this last in the context of a parallel account about Adam — likewise indicate that Satan, with
+evil human beings and jinn, will be in Hell together [Study Quran]. **[Ibn Kathīr]** reads the verse as
+God emphasizing His cursing, expelling, banishing and turning Satan away from the highest heights.
+
+**Cross-references.** "'Go, and whoever of them follows you, surely Hell will be the recompense of you
+all'" (17:63); "Said He, 'Then go forth from here, for you are rejected and expelled; and surely the
+curse shall be upon you till the Day of Judgment'" (15:34–35); "And surely My curse shall be upon you
+till the Day of Judgment" (38:78); "And I shall fill Hell with the jinn and mankind together" (11:119;
+32:13) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]** notes the order of the verse within the passage: no sooner is the enemy's
+threat to mankind pronounced than God's threat to the enemy is pronounced after it, and the two stand
+in the text like the two sides of the same scale. **[Study Quran]** draws the pastoral sense from the
+sequencing: the curse and the banishment do not end the enemy's activity — the narrative follows him
+straight from the expulsion into the Garden where Adam and his wife dwell — and the reader is meant to
+see in that one of the sūrah's recurring lessons: that a warning issued and not heeded does not remove
+the danger, but sets it in motion.
+
+## 7:19
+
+*"And O Adam, dwell you and your wife in the Garden, and eat from wherever you both will, but do not come near this tree, lest you both be among the wrongdoers."*
+
+**Meaning.** **[Saʿdī]** reads the verse as an address of provision and prohibition: God commanded Adam
+and his wife, Ḥawwāʾ, the companion He had given him to find rest in her, to eat of the Garden where
+they both wished and to enjoy in it as they desired; but He singled out for them one tree and forbade
+them to eat of it — and God knows best what that tree was, and there is no benefit for us in identifying
+it; that it was forbidden is shown by "lest you both be among the wrongdoers." **[Jalālayn]** supplies
+the grammatical detail: *you*, O Adam, is repeated in the sentence to emphasise the subject of the verb
+"dwell" and to attach to it what follows — "and your wife," Ḥawwāʾ — and it records that the tree was
+wheat. **[Study Quran]** sets the verse beside its earlier telling: compare 2:35 and its commentary;
+Adam is commanded to dwell in the Garden along with his wife, that is, Eve, or Ḥawwāʾ in Arabic, whose
+name does not appear in the Qurʾān although it is commonly used in the Islamic tradition. Until this
+point the narrative has focused on Adam and Iblis alone, and here Eve enters without any explicit
+mention of her own origin: while it is clear in the Qurʾān that Adam also represents all of humanity,
+male and female, in the account of his creation, his vicegerency, the knowledge given him and the
+prostration of the angels before him (cf. 2:30–34), the Qurʾān does not explicitly discuss the process
+by which this primordial Adam is differentiated into the first male and female who dwell in the Garden
+after Iblis's expulsion. The Biblical account of Eve's creation from Adam's rib (Genesis 2:21–22) is
+referenced in the ḥadīth, and many commentators have taken 4:1 — "O mankind, revere your Lord who
+created you from a single soul and created from it its mate" — as an oblique reference to the creation
+of Eve from Adam; on that reading Eve may be said to have been created not from Adam as male but from
+the original Adam who is the prototype of all humanity, male and female (see 4:1c) [Study Quran].
+
+**Meaning — the tree.** **[Study Quran]** records that Adam and his wife may eat the fruits of the
+Garden as they wish, but are warned together not to approach this tree, which commentators variously
+describe as a wheat or grain plant, a fig tree, or a grapevine (see 2:35c); the tree is described in
+20:120 as the Tree of Everlastingness, and the description distinguishes the Qurʾānic account from the
+Biblical one, where the tree is identified as the tree of the knowledge of good and evil (Genesis 2:17)
+[Study Quran]. **[Qurṭubī]** notes what "do not come near" adds to "do not eat": the prohibition is
+extended to approach itself as a safeguard, so that the servants are kept back from the precinct of the
+forbidden thing — the same pattern the Qurʾān follows when it forbids what leads to what is forbidden.
+
+**Cross-references.** "And We said, 'O Adam, dwell you and your wife in the Garden and eat from it
+freely wherever you wish, but do not approach this tree, lest you be among the wrongdoers'" (2:35);
+"Then Satan whispered to him; he said, 'O Adam, shall I show you the Tree of Everlastingness and a
+kingdom that never decays?'" (20:120); "O mankind, revere your Lord who created you from a single soul
+and created from it its mate" (4:1); "And We said, 'O Adam, dwell, you and your wife, in the Garden'"
+(7:19; cf. 2:35) [Study Quran] [Saʿdī].
+
+**Reflection.** **[Saʿdī]** draws the practical lesson of the silence about the tree: God has told us
+that a tree was named and forbidden, and has not told us which, and there is no benefit in the
+identification — the lesson lies in the command and its breach, not in the botany; whoever occupies
+himself with what God left unnamed has left what God made plain. **[Study Quran]** marks the same
+restraint in a larger key: the Qurʾān gives the story its essentials — a dwelling, a permission, a
+single prohibition, and a warning in the plural, addressed to the two together — and leaves aside the
+narrative embroidery of the earlier scriptures, so that the reader meets the account as a moral
+history rather than a legend.
+
+## 7:20
+
+*"Then Satan whispered to them, that he might reveal to them that which was hidden from them of their shameful parts; and he said, 'Your Lord forbade you this tree only lest you become angels, or lest you become of the immortal.'"*
+
+**Meaning.** **[Saʿdī]** tells the sequence: Adam and his wife continued obeying God's command until
+their enemy Iblis crept to them with his plotting, whispered to them a whispering by which he deceived
+them, and made the matter fair-seeming to them, saying, "your Lord did not forbid you this tree except
+that you become angels" — that is, of the kind of the angels — "or that you become of the immortal,"
+as he said in the other verse, "shall I show you the Tree of Everlastingness and a kingdom that never
+decays?" (20:120); and with these words he swore to them by God, "I am to you a sincere adviser"
+(7:21). **[Jalālayn]** gives the syntax: Satan whispered to them so that he might make apparent to
+them what had been hidden from them of their shameful parts — *wūriya* being of the form *fūʿila*,
+from the infinitive *al-muwārā*, to conceal — and he said, "your Lord forbade you this tree only in
+aversion, lest you become angels" — *malakayn*, which may also be read *malikayn*, "kings" — "or become
+immortals," that is, as the necessary consequence of eating from it, as is stated elsewhere [Jalālayn].
+**[Qurṭubī]** notes the plain sense of the whispering: it was a speech cast into the heart, or a low
+speech, by which the enemy made the forbidden thing desirable, and the purpose named in the verse itself
+is that their shameful parts be laid bare — the consequence that the verse joins to the temptation.
+
+**Belief.** **[Study Quran]** explains the two faces of the whispering: Iblis whispered to them, meaning
+either that he spoke to them openly in a low voice or that he spoke subtly to their hearts (R), in order
+to tempt them toward disobeying God — for Satan's whispering see 7:16 and 114:4 — and thereby to expose
+their nakedness, which had been hidden from them; and see also 20:118–19, where Adam and his wife are
+told they will experience no nakedness, hunger, thirst or heat in the Garden. Their realization of
+nakedness is a key element of the corresponding Biblical narrative as well (Genesis 3:7–11), and it is
+said to expose their nakedness in 20:121 too; and in the present context a more extensive discussion of
+human nakedness and the divine gift of raiment and adornment to cover it follows in 7:22, 26–27 and
+31–32. The nakedness is widely glossed as a reference to their private parts (JJ, Ṭ, Z); according to
+the early narrator and traditionist Wahb b. Munabbih, Adam and Eve were initially cloaked in light, so
+that their private parts were concealed from them (Ṭ, Z). The word *sawʾah* derives from a root meaning
+something bad or evil, indicating that exposing one's nakedness, or private parts specifically, is
+corrupting for human beings (R), and many commentators see in the verse evidence that exposing one's
+private parts, except in legally permitted contexts such as marriage, is inherently sinful (R, Z)
+[Study Quran]. And on the temptation itself, the Study Quran notes that Iblis suggests falsely that God
+had forbidden them the fruit only because eating it would allow them to become angels and to abide
+forever — that is, to be immortal, as in 20:120 — and that a minority read *malakayn*, "angels," as
+*malikayn*, "sovereigns of the kingdom" (Ṭ); by suggesting the possibility of becoming angels or
+immortal, Satan raised in them false hopes and desires, a satanic tactic mentioned elsewhere at
+4:119–20 [Study Quran]. **[Saʿdī]** adds the effect in Adam and his wife: they were deceived by it, and
+in that state desire overcame reason, so that they were brought down from their high rank — the rank of
+being free of sins and disobedience — and came to eat of the tree.
+
+**Cross-references.** "Then Satan whispered to him; he said, 'O Adam, shall I show you the Tree of
+Everlastingness and a kingdom that never decays?'" (20:120); "And he swore to them, 'I am to you a
+sincere adviser'" (7:21); "And Satan whispered to them both, so that he might reveal to them their
+shameful parts which had been hidden from them" (7:20; cf. 20:121); "O children of Adam, let not Satan
+tempt you as he caused your parents to be expelled from the Garden" (7:27); "He promises them and stirs
+in them desires, and Satan promises them nothing but delusion" (4:119–20) [Study Quran] [Saʿdī].
+
+**Reflection.** **[Saʿdī]** puts the anatomy of the temptation plainly: the enemy did not begin with a
+command to disobey but with a story about God's motive — he made the prohibition seem a withholding of
+something good, so that the sin was preceded by a suspicion about the Giver. **[Study Quran]** draws
+the connection between the two halves of the verse: the whisper and the exposure are one movement, and
+what the enemy showed them when they ate was what he had intended from the first — the uncovering of
+what had been covered — which is why the sūrah goes on to speak of clothing, and of the raiment of
+righteousness as better than the raiment of cloth (7:26).
