@@ -511,3 +511,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Ibn Kathīr] [Saʿdī]** present the prayer as both gratitude and trust: the rise and fall of political powers remain under God’s wise governance, so neither pride in power nor despair in weakness is warranted.
 
 ---
+
+## 3:27
+
+*You make the night enter into the day and the day enter into the night; You bring the living out of the dead and the dead out of the living; and You provide for whom You will without reckoning.*
+
+**Meaning.** **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]** explain the first phrase as the changing lengths of night and day: what is taken from one is added to the other, across the seasons **[Jalālayn] [Saʿdī]**. For “bringing the living out of the dead,” **[Ṭabarī]** prefers the literal emergence of people and animals from lifeless sperm, and the reverse when sperm leaves a living body; he regards this as the most apparent reading. **[Qurṭubī] [Ibn Kathīr] [Maʿārif]** also mention plants from seeds, seeds from plants, chicks from eggs, and eggs from birds. The phrase can also describe believers emerging from disbelievers and disbelievers from believers **[Qurṭubī] [Saʿdī] [Maʿārif]**. God provides “without reckoning” by giving without limit or fear of depletion **[Ṭabarī] [Qurṭubī]**; **[Study Quran]** adds that the phrase can mean limitless giving, giving beyond human measures of merit, or that none can hold God to account.
+
+**Context.** The verse completes the prayer begun in 3:26 by naming signs of God’s power in the natural world, living things, and provision **[Ibn Kathīr] [Saʿdī] [Maʿārif]**.
+
+**Ḥadīth & āthār.** **[Ṭabarī] [Qurṭubī]** transmit a report that the Prophet ﷺ saw his relative Khālida bt. al-Aswad, a righteous woman whose father was a disbeliever, and exclaimed, “Glory be to the One who brings the living out of the dead!” The report comes through al-Zuhrī without a Companion in the chain *(weak)*. **[Ṭabarī]** also gives a report attributed uncertainly to Salmān or Ibn Masʿūd: Adam’s clay was kneaded for forty days, with good and evil mixed before Adam was created, and this was linked to believers emerging from disbelievers *(Isrāʾīliyyāt)*.
+
+**Belief.** **[Maʿārif]** applies the living and the dead to spiritual as well as physical states: God can bring a believer from a disbelieving family, a disbeliever from a believing family, and knowledge from ignorance—or the reverse. The examples of Abraham’s departure from an idolatrous family and Noah’s son remaining an unbeliever show that ancestry does not determine faith. **[Study Quran]** cautions that “without reckoning” does not mean that God is unjust or constrained by human ideas of merit; His will remains joined to His goodness and mercy.
+
+**Readings.** **[Ṭabarī]** records readings with a doubled or light *yāʾ* in *al-mayyit* (“the dead”). He prefers the doubled form, which can include what is dead or destined to die; the lighter form more narrowly denotes what has already died.
+
+**Language.** *Tūliju* means “make enter,” describing the lengthening of one part of the day-night cycle as the other shortens **[Ṭabarī]**. *Rizq* “without reckoning” can mean provision without restriction or measure **[Qurṭubī] [Study Quran]**.
+
+**Cross-references.** The night and day entering one another: 22:61; 31:29; 35:13; 57:6 **[Study Quran]**. Life from death and the revival of the earth: 2:28; 2:164 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** says believers should seek provision from God while using the lawful means He provides. **[Study Quran]** cites Ibn ʿAjībah’s inward reading of night and day as spiritual contraction and relief; those who let the ego rule are abased, while those who master it are exalted.
+
+---
