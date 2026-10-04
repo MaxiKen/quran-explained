@@ -3648,7 +3648,7 @@ and you are back in the pit that the Prophet had just walked out of, between the
 *I am among you*. That *maʿiyya*, companionship, is the chapter's last institution: the answer to
 division is not a rule but a presence (3:103, 3:105, 3:110 follow).
 
-
+---
 
 ## 3:101 — وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ اللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِاللَّهِ فَقَدْ هُدِيَ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ
 
