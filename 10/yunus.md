@@ -343,3 +343,91 @@
 **Meaning.** The response to the Qurʾān is divided: some among its hearers will believe, while others persist in rejection. Al-Ṭabarī understands the verse to include people of Quraysh who would later believe as well as those who would never do so **[Ṭabarī]**. Al-Qurṭubī and The Study Quran preserve the related possibility that “in it” refers to the Qurʾān, or to the Prophet **[Qurṭubī] [Study Quran]**. The closing clause leaves the judgment of those who spread corruption to God, whose knowledge is complete **[Jalālayn]**.
 
 **Reflection.** People respond differently even when hearing the same message; the verse warns against pretending to know the inward state or final outcome of others **[Ibn Kathīr]**.
+
+## 10:41
+
+*“If they deny you, say, ‘Unto me are my deeds and unto you are your deeds. You are quit of what I do, and I am quit of what you do.’”*
+
+**Meaning.** The Prophet is told to remain clear about his mission: he is accountable for the work entrusted to him, while those who reject it answer for their own deeds. Al-Ṭabarī explains that neither party bears the other’s burden; each is recompensed for its own work **[Ṭabarī]**. Al-Qurṭubī likewise reads the verse as separating their responsibility and notes that the Prophet’s reward is for conveying and warning **[Qurṭubī]**. Ibn Kathīr connects the command to a clear disavowal of idolatry and of the deniers’ conduct **[Ibn Kathīr]**.
+
+**Context.** Al-Qurṭubī and al-Ṭabarī report an early view that the verse was superseded by commands to fight; this is presented as a transmitted interpretation, while the verse’s principle of individual accountability remains explicit **[Qurṭubī] [Ṭabarī]**.
+
+**Reflection.** Faithful witness does not make one responsible for another’s choice; the messenger must convey, while each hearer must answer for their own response **[Study Quran]**.
+
+## 10:42
+
+*“Among them are those who listen to you. But can you make the deaf hear, though they do not understand?”*
+
+**Meaning.** Some hear the Prophet recite, yet listening alone does not mean they receive the message. Al-Ṭabarī and al-Qurṭubī explain the deafness as an image for hearts that do not understand or benefit from what is heard **[Ṭabarī] [Qurṭubī]**. As-Saʿdī distinguishes curious or hostile listening from listening that seeks guidance: the former may hear the words but gain no good from them **[Saʿdī]**. The question is rhetorical; the Prophet cannot create receptive hearing in a person whose heart refuses the truth **[Jalālayn] [Ibn Kathīr]**.
+
+**Reflection.** Hearing is an opening, not the end of understanding; attention becomes fruitful when it is joined to humility and a willingness to learn **[Study Quran]**.
+
+## 10:43
+
+*“Among them are those who look at you. But can you guide the blind, though they do not see?”*
+
+**Meaning.** Physical sight of the Prophet and his conduct does not guarantee insight into his message. Al-Ṭabarī says some see his signs and proofs of prophethood but are not guided by them; the Prophet cannot give them the inner sight that leads to faith **[Ṭabarī]**. Al-Jalālayn and The Study Quran explain the blindness as spiritual: the eyes may see, while the heart fails to recognize the truth **[Jalālayn] [Study Quran]**. As-Saʿdī adds that the Prophet’s character and actions are themselves evidence for a perceptive observer, even though he cannot compel anyone to benefit from that evidence **[Saʿdī]**.
+
+**Cross-references.** “It is not the eyes that are blind, but blind are the hearts within the breasts” (22:46) **[Study Quran]**.
+
+**Reflection.** Access to evidence does not force recognition; one must also be willing to see what the evidence points toward.
+
+## 10:44
+
+*“Truly God does not wrong mankind in the least; rather, mankind wrong themselves.”*
+
+**Meaning.** God does not punish anyone unjustly or take away a good deed; human beings bring harm upon themselves through disbelief and disobedience **[Ṭabarī] [Qurṭubī]**. As-Saʿdī emphasizes that God neither adds to people’s sins nor diminishes their good deeds, while people wrong themselves when they reject the truth and incur the consequences of their own choices **[Saʿdī]**. The Study Quran likewise stresses that God does not coerce people into wrongdoing; the injustice arises from what they choose **[Study Quran]**.
+
+**Belief.** Divine judgment is just, and human accountability is real.
+
+**Reflection.** The verse turns the question away from blaming God for the effects of wrongdoing and toward examining the choices that produce them **[Ibn Kathīr]**.
+
+## 10:45
+
+*“On the Day when He gathers them, it will be as if they had tarried but an hour of the day, acquainting themselves with one another. Lost indeed are those who denied the meeting with God and were not rightly guided.”*
+
+**Meaning.** At the gathering, worldly life and the interval before resurrection will seem brief, like an hour. Al-Ṭabarī and Ibn Kathīr connect the verse to the Day of Judgment, when people are raised and assembled **[Ṭabarī] [Ibn Kathīr]**. Al-Qurṭubī explains that the grave’s duration appears short in view of the terror of what they then witness **[Qurṭubī]**. Their recognition of one another recalls ordinary life, but Maʿārif records the view that this recognition belongs to an early stage and is later overwhelmed by the events of the Day **[Maʿārif]**. The loss is specifically that of those who denied meeting God and therefore failed to prepare **[Saʿdī] [Study Quran]**.
+
+**Reflection.** What once seemed long and decisive may appear as a passing hour; the lasting measure is whether one was guided toward the meeting with God.
+
+## 10:46
+
+*“Whether We show you some of what We promise them, or We take you, their return is unto Us. Then God is Witness over what they do.”*
+
+**Meaning.** The Prophet may see some of the promised judgment during his life, or he may die before it appears; in either case, the deniers return to God, who has witnessed their deeds **[Ṭabarī] [Jalālayn]**. Al-Qurṭubī mentions the defeat and capture at Badr among the events understood as a portion of what had been promised **[Qurṭubī]**. As-Saʿdī reads the verse as consolation to a messenger whose people oppose him: he need not demand immediate punishment, since God will bring the matter to account **[Saʿdī]**. The Study Quran likewise notes that the final return remains certain whether or not the Prophet sees a worldly consequence **[Study Quran]**.
+
+**Reflection.** The completion of justice does not depend on its being visible in one person’s lifetime **[Ibn Kathīr]**.
+
+## 10:47
+
+*“For every community there is a messenger. When their messenger comes, judgment is rendered between them with justice, and they are not wronged.”*
+
+**Meaning.** Revelation is sent to communities through messengers who call them to God. When the message has been conveyed and the time of judgment comes, God decides between those who accept it and those who reject it fairly **[Ṭabarī] [Jalālayn]**. As-Saʿdī stresses that people are not punished before a messenger has brought the evidence, nor are they made to bear another’s crime **[Saʿdī]**. The Study Quran highlights the verse as an affirmation that divine guidance is offered to every community before judgment **[Study Quran]**.
+
+**Belief.** Judgment is equitable: people are not wronged, and accountability follows the arrival of guidance.
+
+**Reflection.** The verse joins the universality of prophetic guidance with the fairness of the final reckoning **[Ibn Kathīr]**.
+
+## 10:48
+
+*“They say, ‘When will this promise come to pass, if you are truthful?’”*
+
+**Meaning.** The deniers ask mockingly when the threatened punishment or the Resurrection will arrive. Al-Qurṭubī identifies the speakers as the Makkans who challenged the Prophet and demanded that the promised reckoning be hastened **[Qurṭubī]**. The Study Quran notes that their question assumes a messenger should know the unseen timing of the Hour, whereas the Prophet is not given that knowledge **[Study Quran]**. The verse sets up the reply that follows: the Prophet does not control the timing of divine judgment **[Ibn Kathīr] [Jalālayn]**.
+
+**Reflection.** A taunt about delay does not make the promise empty; it exposes a refusal to take seriously what cannot be scheduled by human demand.
+
+## 10:49
+
+*“Say, ‘I have no power to bring harm or benefit to myself, save as God wills. For every community there is a term. When their term comes, they shall not delay it by a single hour, nor advance it.’”*
+
+**Meaning.** The Prophet does not control even his own benefit or harm, much less the timing of punishment for others. Al-Ṭabarī explains that all such power belongs to God’s will **[Ṭabarī]**. Each community has an appointed term; once it arrives, it cannot be postponed or brought forward **[Jalālayn]**. The Study Quran understands the term as a lifespan known only to God, while al-Qurṭubī connects the statement to the people’s demand that chastisement be hastened **[Study Quran] [Qurṭubī]**. As-Saʿdī warns the deniers not to resemble earlier communities that treated a delayed punishment as a reason for arrogance **[Saʿdī]**.
+
+**Reflection.** The limits of prophetic authority are a lesson in humility: the unseen timetable belongs to God alone.
+
+## 10:50
+
+*“Say, ‘Have you considered: if His punishment comes upon you by night or by day, what part of it would the guilty seek to hasten?’”*
+
+**Meaning.** The question turns the mockery back on those who ask for punishment to come sooner. If it arrived suddenly—while they slept or during the day—there would be no portion of it they would welcome **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn explains the question as meant to make them feel the gravity of what they challenge God to send **[Jalālayn]**. As-Saʿdī likewise asks what good news they imagine they are hastening when they call for chastisement **[Saʿdī]**. The Study Quran notes that the next verse makes the point explicit: belief offered only after punishment arrives will not undo the earlier denial **[Study Quran]**.
+
+**Reflection.** The verse invites a person to test bravado against its real consequence; what is demanded in mockery may be terrifying when it becomes reality.
