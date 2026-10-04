@@ -465,3 +465,121 @@
 **Belief.** God’s power encompasses both judgment and pardon; human beings must not claim His sovereignty for themselves, nor presume to know the final fate He has not disclosed [Jalālayn].
 
 **Reflection.** Law seeks justice in this world, while ultimate judgment remains with the One whose knowledge and mercy exceed human judgment [Saʿdī].
+
+---
+
+## 5:41
+
+*“O Messenger, let not those who hasten into disbelief grieve you—those who say with their mouths, ‘We believe,’ while their hearts do not believe—and those among the Jews who eagerly listen to lies and listen for other people who have not come to you. They distort words from their proper places, saying, ‘If you are given this, accept it; but if you are not given it, beware.’ Whomever God wills to test, you can avail him nothing against God. Those are the ones whose hearts God has not willed to purify. For them is disgrace in this world and a great punishment in the Hereafter.”*
+
+**Meaning.** The verse consoles the Prophet over hypocrites whose spoken profession is not matched by faith, and over people who receive and repeat falsehood or distort revelation [Saʿdī], [Jalālayn]. “If you are given this, accept it” alludes to advisers telling others to accept a favorable or lenient ruling but reject one that upholds the scriptural command [Study Quran]. The criticism concerns the conduct described, not an undifferentiated judgment on every Jew.
+
+**Context.** Many reports connect the passage with a Jewish dispute over adultery, in which some sought the Prophet’s judgment while hoping to avoid the Torah’s ruling [Jalālayn], [Study Quran].
+
+**Reflection.** A public claim cannot substitute for inward conviction, and a desired verdict cannot make a false interpretation true [Saʿdī].
+
+---
+
+## 5:42
+
+*“They are listeners to lies and consumers of unlawful gain. If they come to you, judge between them or turn away from them. If you turn away, they cannot harm you at all; but if you judge, judge between them justly. Truly God loves the just.”*
+
+**Meaning.** The “unlawful gain” (*suḥt*) is understood here especially as bribery accepted by those who issue judgments [Ṭabarī], [Jalālayn]. The Prophet is told that if these People of the Book bring a dispute, he may judge or decline; if he judges, he must do so with justice [Study Quran].
+
+**Rulings.** **[Jalālayn]** reports the view that the option to decline was superseded by the later command to judge according to revelation; **[Study Quran]** records disagreement over whether that choice was abrogated and how it applies to non-Muslim disputes. Where a Muslim is a party, the legal discussion is different from a dispute confined to a religious community.
+
+**Reflection.** The authority to adjudicate is never permission to favor the powerful or accept a bribe; justice remains obligatory [Qurṭubī].
+
+---
+
+## 5:43
+
+*“How is it that they make you their judge when they have the Torah, wherein is God’s judgment? Yet after that they turn away; such are not believers.”*
+
+**Meaning.** The question exposes the inconsistency of asking the Prophet to decide a matter for which the Torah already contains a ruling, then rejecting the result when it does not suit one’s preference [Ṭabarī], [Jalālayn]. The immediate setting is commonly connected with the case of two Jewish adulterers and the concealment of the Torah’s prescribed judgment [Qurṭubī], [Study Quran].
+
+**Reflection.** Sincere appeal to judgment requires willingness to accept truth, not merely a search for the ruling most favorable to oneself [Saʿdī].
+
+---
+
+## 5:44
+
+*“Truly We sent down the Torah, wherein are guidance and light. By it the prophets who submitted to God judged the Jews, as did the rabbis and scholars, for they were entrusted to preserve God’s Book and were witnesses to it. So do not fear people, but fear Me, and do not sell My signs for a paltry price. Whoever does not judge by what God has sent down—those are the disbelievers.”*
+
+**Meaning.** The Torah is affirmed as revelation containing guidance and light; prophets, rabbis, and learned custodians judged by it and were charged to preserve its teaching [Ṭabarī], [Jalālayn]. The warning rebukes concealment or compromise of God’s signs for worldly benefit [Study Quran].
+
+**Belief.** The verse honors the Torah as a revealed book while holding its custodians responsible for fidelity to it. Its closing description addresses those who knowingly abandon God’s judgment; commentators discuss the scope of such language rather than treating it as a license for private accusations [Qurṭubī], [Maʿārif].
+
+**Reflection.** A scripture entrusted to a community is a responsibility: fear of public opinion or material loss must not overrule truth [Saʿdī].
+
+---
+
+## 5:45
+
+*“And therein We prescribed for them: a life for a life, an eye for an eye, a nose for a nose, an ear for an ear, a tooth for a tooth, and for wounds, equal retribution. Whoever forgoes it as charity, it is an expiation for him. Whoever does not judge by what God has sent down—those are the wrongdoers.”*
+
+**Meaning.** The Torah’s law of *qiṣāṣ* requires proportionate retribution for murder and bodily injury, without giving a higher-status person immunity that a weaker person would not receive [Ṭabarī], [Study Quran]. “Wounds are subject to equal retribution” applies where an equivalent can be determined without exceeding justice [Jalālayn], [Saʿdī].
+
+**Rulings.** Retaliation is a right governed by law, not personal vengeance; **[Saʿdī]** explains that a victim or heirs may instead forgive as an act of charity. The verse presents forgiveness as expiation and virtue, while affirming that just retribution is itself permitted [Qurṭubī].
+
+**Reflection.** Justice refuses both excess and favoritism; mercy appears not in denying the injury but in freely relinquishing a lawful claim [Study Quran].
+
+---
+
+## 5:46
+
+*“In their footsteps We sent Jesus son of Mary, confirming the Torah that came before him, and We gave him the Gospel, wherein are guidance and light, confirming the Torah before it, and as guidance and an admonition for the reverent.”*
+
+**Meaning.** Jesus comes in the line of the prophets and confirms the Torah’s truth; the Gospel given to him is itself guidance and light [Jalālayn], [Study Quran]. **[Saʿdī]** notes that Jesus upheld the Torah while bringing a revelation that also made lawful some things previously forbidden (3:50).
+
+**Belief.** The verse places the Gospel within the chain of divine guidance and portrays Jesus as affirming, not repudiating, the revelation before him [Ibn Kathīr].
+
+**Reflection.** The continuity of revelation is joined to renewal: a later messenger confirms the truth of what preceded while conveying what God newly appoints [Saʿdī].
+
+---
+
+## 5:47
+
+*“Let the people of the Gospel judge by what God has sent down therein. Whoever does not judge by what God has sent down—those are the iniquitous.”*
+
+**Meaning.** Those entrusted with the Gospel are called to uphold what God revealed in it [Jalālayn], [Saʿdī]. The command follows the affirmation that the Gospel contains guidance and light; the reproach is directed at abandoning revealed instruction, not at the mere fact of belonging to another community.
+
+**Context.** Commentators differ over how this command relates to the Qur’an’s later description of itself as confirming and guarding earlier scripture (5:48): some read the verse as addressing Christians before the Qur’an’s revelation, while others emphasize continuing recognition of the Gospel’s revealed guidance [Study Quran].
+
+**Reflection.** Claiming a scripture while neglecting its God-given moral demands empties that claim of integrity [Saʿdī].
+
+---
+
+## 5:48
+
+*“We have sent down to you the Book in truth, confirming the Book that came before it and as a guardian over it. So judge between them by what God has sent down, and do not follow their desires away from the truth that has come to you. For each of you We have appointed a law and a way. Had God willed, He would have made you one community, but He tests you through what He has given you. So vie with one another in good deeds. To God you will all return, and He will inform you about that over which you differed.”*
+
+**Meaning.** The Qur’an is true revelation, confirming the earlier scriptures and serving as *muhaymin* over them—a witness, guardian, and criterion [Ṭabarī], [Study Quran]. The Prophet must judge by what God has revealed to him, not by parties’ desires. God has given communities a law and a path; their differences become a test, and the proper response is to compete in good works rather than let disagreement prevent goodness [Jalālayn], [Saʿdī].
+
+**Belief.** The final return belongs to God, who will disclose the truth of disputed matters. **[Maʿārif]** explains the Qur’an’s guardianship as preserving and clarifying what is true in earlier revelation.
+
+**Reflection.** Difference does not cancel shared moral responsibility: the verse redirects attention from rivalry over status to excellence in good [Study Quran].
+
+---
+
+## 5:49
+
+*“Judge between them by what God has sent down, and do not follow their desires. Beware lest they tempt you away from some of what God has sent down to you. If they turn away, know that God wills to afflict them for some of their sins. Truly many among mankind are iniquitous.”*
+
+**Meaning.** The Prophet is commanded to judge by revelation and warned not to exchange any part of it for a preferred ruling [Ṭabarī], [Jalālayn]. **[Study Quran]** relates the warning to reports of authorities seeking a verdict in their favor by promising acceptance of the Prophet’s message if he ruled as they wished.
+
+**Rulings.** The verse makes the revealed standard, rather than political pressure or a litigant’s promise, the judge’s measure [Saʿdī]. Turning away from judgment does not make the underlying wrong disappear; the passage attributes the resulting affliction to sin.
+
+**Reflection.** A just decision cannot be purchased by flattery, promised conversion, or fear of losing influence [Maʿārif].
+
+---
+
+## 5:50
+
+*“Do they seek the judgment of the Age of Ignorance? Who is better in judgment than God for people of certainty?”*
+
+**Meaning.** The “judgment of ignorance” is a system governed by custom, advantage, and partiality rather than divine justice [Ṭabarī], [Jalālayn]. **[Qurṭubī]** connects the rebuke with unequal treatment by social rank: powerful offenders might escape the penalty imposed on weaker people. God’s judgment is better because it is not bent by status or desire [Study Quran].
+
+**Belief.** Certainty in God entails trust that His judgment is wiser than rulings built on privilege or caprice.
+
+**Reflection.** A society may have courts and customs and still practice *jāhiliyyah* when it makes justice depend on who stands before it [Saʿdī].
