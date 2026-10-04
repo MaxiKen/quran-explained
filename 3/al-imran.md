@@ -591,3 +591,23 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** urges people to remember that they are journeying toward God and will meet both Him and their deeds. That awareness should lead them to leave what brings shame and punishment and prepare with righteous works. The threat is serious, but the warning is itself a kindness that gives people the chance to turn toward what brings good.
 
 ---
+
+## 3:31
+
+*Say: If you love God, follow me; God will love you and forgive you your sins. God is forgiving, merciful.*
+
+**Meaning.** Love for God is not proved by assertion alone: **[Ṭabarī] [Ibn Kathīr] [Saʿdī] [Maʿārif]** present following the Messenger ﷺ as its test. This means accepting what he brought, obeying his commands, avoiding what he forbids, and following his guidance in words and deeds **[Ibn Kathīr] [Saʿdī]**. The promised divine love brings forgiveness and reward **[Qurṭubī] [Jalālayn]**. **[Maʿārif]** observes that love is inward and cannot be measured directly, but its sincerity becomes evident in the quality and consistency of a person’s obedience. **[Study Quran]** notes that this verse says “follow me,” while 3:32 says “obey God and the Messenger”: following a prophet involves imitation, whereas obedience can be directed to both God and His Messenger.
+
+**Context.** **[Ṭabarī] [Qurṭubī] [Study Quran]** connect the verse to the Christians of Najrān, who defended their claims about Jesus as an expression of love and reverence for God. Al-Ṭabarī prefers this reading because it fits the surrounding discussion of the delegation and Jesus. **[Jalālayn] [Study Quran]** also mention idolaters who said they worshipped idols only to draw nearer to God (39:3). Other reports say that people in the Prophet’s time claimed, “We love our Lord”; al-Ṭabarī says the report about such a claim by Muslims is unsound and does not fit the passage as well *(weak)*.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** cites the Prophetic rule, “Whoever does an act that is not in accordance with our matter will have it rejected.” **[Maʿārif]** quotes, “Whoever obeys Muḥammad obeys God, and whoever disobeys Muḥammad disobeys God” (attributed there to *Tafsīr Mazharī*). **[Qurṭubī]** transmits a report from Abū al-Dardāʾ that following the Prophet entails righteousness, piety, humility, and self-abasement, and cites a report in *Ṣaḥīḥ Muslim*: when God loves a servant, He tells Gabriel to love that servant; the love is announced in heaven and acceptance is placed for the person on earth. **[Study Quran]** cites a report that links hidden idolatry with loving injustice and hating justice, and describes religion as loving and hating for God’s sake.
+
+**Belief.** The servant’s love for God is expressed through obedience to God and the Messenger, while God’s love for the servant is shown in His favor, forgiveness, and reward **[Qurṭubī] [Jalālayn]**. **[Maʿārif]** says that rejecting prophethood or refusing to obey the Messenger is unbelief. **[Ibn Kathīr]** notes that Muḥammad ﷺ was sent to humanity and jinn, and that earlier prophets, had they lived in his time, would have followed his law; compare 3:81. **[Study Quran]** observes that the Qur’an speaks of God’s love for human beings more often than of their love for Him, and distinguishes the responsive love described here from *raḥmah*, which can be unconditional as well as responsive *(digression)*. In Islamic spirituality, the emphasis often falls on being beloved by God as well as loving Him; the Prophet’s title *Ḥabīb Allāh* means “Beloved of God” *(digression)*.
+
+**Language.** *Ittibāʿ* (“following”) here means more than an inward claim: it is practical conformity to the Messenger’s guidance **[Ibn Kathīr] [Saʿdī] [Maʿārif]**. **[Qurṭubī] [Jalālayn]** explain God’s love for the servant as His favor, reward, and forgiveness.
+
+**Cross-references.** The idolaters’ stated purpose in worshipping other than God: 39:3 **[Study Quran]**. The command to obey God and the Messenger: 3:32 **[Saʿdī] [Study Quran]**. The covenant taken from the prophets: 3:81 **[Ibn Kathīr]**.
+
+**Reflection.** **[Maʿārif] [Saʿdī]** make the verse a practical measure: love should be visible in a life shaped by the Messenger’s teaching, not merely in words. **[Qurṭubī]** cites Sahl b. ʿAbd Allāh’s spiritual sequence: love of God leads to love of the Qur’an, the Prophet, the Sunna, and the Hereafter; the traveler takes from this world only what is needed as provision *(digression)*. **[Study Quran]** likewise stresses that love cannot remain a feeling alone; it calls for a lived response.
+
+---
