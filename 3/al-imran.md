@@ -2685,3 +2685,305 @@ with falsehood and conceal it knowingly* — the same verb of concealment, *yakt
 an Israelite sin (2:159), and the sūrah keeps asking which side of its own warnings its hearers will
 choose (3:103, 3:105).
 
+
+
+## 3:71 — لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُونَ الْحَقَّ وَأَنتُمْ تَعْلَمُونَ
+
+*"Why do you mix the true with the false and conceal the truth while you know?"*
+
+**Meaning.** **[Ṭabarī]**: People of the Book, *why do you confound* — *talbīs* is mixing — the true with
+the false: your profession with your tongues of belief in Muḥammad and what came to him, while your
+hearts hold the Judaism and the Christianity you will not surrender; and Qatāda: you mix the Judaism and
+Christianity with the *islām* when you have known that the religion God accepts is none other but the
+*islām* of the *ḥanīf*.
+
+**Context.** Report 7223: ʿAbd Allāh b. Ṣayf, ʿAdī b. Zayd and al-Ḥārith b. ʿAwf said to one another:
+*come, let us believe in what was sent down to Muḥammad and his companions in the morning and disbelieve
+in it at evening, so as to confound their religion for them — perhaps they will do as we do and turn
+back from it.* And God sent down in answer *yā ahl al-kitābi lim talbisūna* to the end of 3:73's *wa
+Llāhu wāsiʿun ʿalīm*. (Ibn Isḥāq, through Salama, from Muhammad b. Abī Muḥammad, from ʿIkrima or Saʿīd
+b. Jubayr, from Ibn ʿAbbās.)
+
+**Reflection.** The chapter has three verbs for what false witness does to truth — *labasa*, mix it;
+*katama*, conceal it; *ḥarrafa/lwā*, twist it (3:78) — and it orders them from the least visible to the
+most violent, as if warning the believers that deception works first by blending, then by hiding, then
+by rewriting.
+
+---
+
+## 3:72 — وَقَالَت طَّائِفَةٌ مِّنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِيٓ أُنزِلَ عَلَى الَّذِينَ ءَامَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوٓا ءَاخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ
+
+*"And a party of the People of the Book said: believe in what was sent down to the believers at the day's
+first part, and disbelieve at its last — perhaps they will turn back."*
+
+**Meaning.** **[Ṭabarī]**: the commentators differ on the shape of the stratagem. One party: it was a
+command to give outward assent to the Prophet's truth at the day's beginning and outright denial at its
+end — Qatāda, via Maʿmar: *give them satisfaction with your religion at the day's start and deny it at its
+end; that makes it likelier they will believe you when they see you have found in it what you dislike,
+and likelier they will abandon their religion*. The verse's *laʿallahum yarjiʿūn* is the plotters'
+purpose, God exposing it. **[Jalālayn]**: the ruse's mechanism, spelled out — so that the believers,
+seeing them quit, will say "these are the knowledgeable ones; they can only have turned from it, after
+accepting it, because they know it is false." **[Study Quran]**: the stratagem is usually described as
+some Jews praying with the Muslims at dawn, confessing belief, and reverting publicly at dusk, to breed
+doubt in the Prophet's followers (IK, Ṭ). **[Saʿdī]**: and they did not know that God's religion, once
+its reality reaches the hearts, only grows by length of days in faith and certainty, and gains from
+doubts nothing but a firmer grip and praise for the Giver.
+
+**Reflection.** A day is the whole experiment: convert by morning, apostatize by evening, and watch the
+weak defect. The sūrah reports the plot the way a security briefing reads, and answers it the way
+ʿUmar's Islam answered the Quraysh's anxiety — with one line of psychology: *they are the ones who would
+have turned back; it was you who were told*. (Cf. 3:139, *lā tahinū wa-nta l-aʿlawn*.)
+
+---
+
+## 3:73 — وَلَا تُؤْمِنُوٓا إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ الْهُدَىٰ هُدَى اللَّهِ أَن يُؤْتَىٰ أَحَدٌ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَاجُّوكُمْ عِندَ رَبِّكُمْ ۚ قُلْ إِنَّ الْفَضْلَ بِيَدِ اللَّهِ يُؤْتِيهِ مَن يَشَاءُ ۗ وَاللَّهُ وَاسِعٌ عَلِيمٌ
+
+*"And do not believe except in one who follows your religion. Say: the guidance — it is God's guidance.
+Lest anyone be given the like of what you were given, or they argue with you before your Lord? Say: the
+bounty is in God's hand; He gives it to whom He will — and God is All-embracing, All-knowing."*
+
+**Meaning.** **[Ṭabarī]**: *and do not confirm as believers except one who became a Jew, following your
+religion* — this too is part of the party's counsel to their brethren in 3:72; and the *lām* of *li-man*
+is the redundant *lām* known from (27:72) *ʿasā an yakūna ridafa lakum*, i.e. *ridafakum* — Qatāda,
+al-Rabīʿ, al-Suddī and Ibn Yazīd all give it as the Jews' word to each other. Then, on *an yuʾtā aḥadun
+mithla mā ūtītum*: the *an* is governed by *tuʾminū* — "do not believe that anyone will be given the like
+of the Book and wisdom and virtues you were given — or [do not believe] that they will prevail over you
+in argument before your Lord," which is why they invented the day-long apostasy plot: fear of being
+argued down. God's replies are two commands to say: *the guidance is God's guidance* — Islam is the
+guide, all else error — and *the bounty is in God's hand*, so how can you say no other shall be given
+what you were given? **[Jalālayn]**, whose syntactic notes are here the running commentary, adds the
+variant *an yuḥājjawkum* with a hamza of rebuke, and reads the verse's middle as a parenthesis.
+
+**Belief.** **[Study Quran]**: the grammar is the key to the sense — the first clause resumes the plotters'
+speech, the *qul* interrupts it, and then it continues; other readers take the two *qul*s as successive
+commands ("say: guidance is God's guidance — [namely] that anyone be given the like of what you were
+given?"), or make the middle a rebuke-question (Q, R, Ṭ); the plotters' words echo 2:14 and 2:76.
+**[Ibn Kathīr]** adds that the whole verse exposes their second motive besides *ḥasad*: the fear that the
+believers will argue with them *ʿinda rabbikum* — on the Day when argument is judged. **[Maʿārif]**
+notes the same pair of motives as Saʿdī does (the block's 69–74 frame): envy, and dread of the
+proof.
+
+**Reflection.** "Do not believe except one who follows your religion" is quoted so that the chapter may
+exhibit, in one sentence, the epistemology of a closed community — truth bounded by belonging — and
+answer it twice with two words of God's own economy: *hudā* is another's gift to whoever He guides,
+*faḍl* in a hand no community holds. The sūrah keeps making the same move against every possessive
+pietism, from 3:24's "the fire will not touch us for numbered days" onward.
+
+---
+
+## 3:74 — يَخْتَصُّ بِرَحْمَتِهِ مَن يَشَاءُ ۗ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ
+
+*"He singles out for His mercy whom He will — and God is lord of the vast bounty."*
+
+**Meaning.** **[Ṭabarī]**: *yaḫtaṣṣ* is *iftiʿāl* from *khaṣṣa*, to make a matter private: *I made such
+a one his portion of it*; and the mercy here is explained by the early authorities as, precisely, what
+the Jews begrudged: prophethood — Mujāhid, twice — or the Qurʾān and Islam — Ibn Jurayj, twice — or both
+at once. **[Study Quran]**: the "one He singles out" is the Prophet, *al-Muṣṭafā*, chosen to prophecy
+however others object (3:26), or the Qurʾān, or Islam (Ṭ); and the phrasing answers 3:73's claim of a
+closed inheritance with the doctrine of election — *yashāʾ* twice in the sūrah's first ten verses (3:6,
+9) is the same verb doing the same work here: grace is not a family estate.
+
+**Reflection.** The two attributes that close the verse — *faḍl* and *raḥma* — were the Jews of the
+verse's argument *mithla mā ūtītum*, the like of what *you* were given; the correction removes the
+comparative: no community owns the like of anything; there is only giving, and the Giver's will.
+
+---
+
+## 3:75 — وَمِنْ أَهْلِ الْكِتَابِ مَن إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ
+
+*"Among the People of the Book is one who, if you entrust him with a quintal, will hand it back to you;
+and among them is one who, if you entrust him with a dinar, will not hand it back — unless you stand over
+him — because they say: no way has the common people over us — and they speak a lie against God, knowing."*
+
+**Meaning.** **[Ṭabarī]**: the news is double on purpose — among the People of the Book are trustworthy
+men who render trusts and do not betray, and among them are the traitors and the false-swearing who
+make lawful others' wealth; and the question is posed as the mufassirūn pose them: why tell the Prophet
+what everyone already knows, that trusters and traitors mix mankind? Answer: the information is a
+*warning* — God is telling the believers by these verses not to place their money with such people, and
+to dread being deceived by them, because *many of them* make the believers' property lawful to
+themselves. **[Jalālayn]** gives the twin case-stories that fixed the verse's face in the commentaries:
+the quintal rendered back — ʿAbd Allāh b. Salām, with whom a man left twelve hundred plates of gold and
+took them back untouched; the dinar withheld — Kaʿb b. al-Ashraf, entrusted by a Qurayshī, who denied
+it, and will not return it however long the claimant stands over him: *qiyām* on the defaulter is the
+condition that forces restitution.
+
+**Rulings.** **[Qurṭubī]** counts *eight masāʾil* in the verse — the identity notes above (ʿAbd Allāh b.
+Salām for the quintal; Finḥāṣ b. ʿĀzūrāʾ, or Kaʿb and his company, for the dinar); the dialect
+*tiʾmannu / tīmannu* (ibn Waththāb al-ʿUqaylī reading it in the Bakr and Tamīm fashion, *nistāʿīn*, and
+the verse in 12:24 the same), *yuʾaddihi* with the *yāʾ* of imāla for Nāfiʿ and al-Kisāʾī, the pause
+forms settled with Abū ʿUbayd, and the legal anatomy of the trust that follows: the verse divides
+custodians into the honest many-truster and the faithless small-denier, and *illā mā dumta ʿalayhi
+qāʾiman* is read as exception (only your surveillance secures it) or as threat (while you press him),
+the second *masʾala*'s grammar. **[Study Quran]**: *mā* is *illā* + the verbal noun clause, "except that
+you stand over him"; what is entrusted covers loans, purchases and bailments (Q); one explanation for
+the slogan: some Jews declared void their earlier contracts with Jews who had become Muslims — the
+Torah's teaching, they said (Q), or mere tribal excess (R); *al-ummiyyūn* is the unlettered, the
+non-Jews (2:78c, 3:20c).
+
+**Belief.** **[Saʿdī]**, on the verse: there is among them an honest party who would pay back quintals
+of coin if trusted with them, and a treacherous party who cheat you of the least least thing — and with
+the treachery they *taʾwīl* with false excuses, *laysa ʿalaynā fī l-ummiyyīn sabīl*, "no blame cleaves
+to us for what we take from the common folk." **[Ṭabarī]** at the clause's head: *bi-annahum qālū* —
+their doctrine is the cause of the withholding; and *they speak the lie against God* by attributing the
+licence to His book, *wa-hum yaʿlamūn* that they are liars about it.
+
+**Reflection.** The verse is the sūrah's one intrusion into commercial ethics, and it lands in the middle
+of the polemic for a reason the tafsīr makes explicit: the covenant debate is not only about theology —
+a community's reading of scripture is tested first at the counter. The quintal and the dinar are the
+chapter's only two coins, and they say the whole of it: scripture honoured in one purse, scripture sold
+in the other (3:77).
+
+---
+
+## 3:76 — بَلَىٰ مَن أَوْفَىٰ بِعَهْدِهِ وَاتَّقَىٰ فَإِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ
+
+*"Yes — whoever keeps faith with his covenant and is wary: God loves the wary."*
+
+**Meaning.** **[Jalālayn]**: *balā* — nay, the way *is* upon them, a duty to render to the unlettered
+their rights; *whoever fulfils his covenant* — the compact he struck, or God's covenant enjoining the
+honest hand-back of trusts and the like — *and guards against* leaving what God commanded; *God loves
+him* — the open noun *al-muttaqīn* in place of the pronoun. **[Ṭabarī]**: the *balā* answers their
+saying *laysa ʿalaynā sabīl*: yes — the path upon them is clear; and he reads the one word *ʿahd* as
+whatever compact of trust, protection or pact of allegiance they are bound by, and the *taqwā* as
+holding back from the wealth of the *ummiyyūn*. **[Ibn Kathīr]**: God's love of the wary is the
+reward's measure — cf. 3:148's *wa-Llāhu yuḥibbu l-muttaqīn*, in the same breath, the same clause.
+
+**Reflection.** The single-sentence pivot: *balā*. The chapter's ethics of covenant — God's, the
+Prophet's, the dinar's — is gathered in it: the universal that the partisans appeal to in scripture is
+answered by the one particular, the keeper of his word; and the reward, in a sūrah that has taught
+*liqāʾ* of God as the only profit, is that God loves him.
+
+---
+
+## 3:77 — إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا أُولَٰئِكَ لَا خَلَٰقَ لَهُمْ فِي الْآخِرَةِ وَلَا يُكَلِّمِهِمُ اللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ الْقِيَامَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ
+
+*"Those who trade God's covenant and their oaths for a small price — they shall have no lot in the Next;
+God will not speak to them, nor look on them, on the Day of Resurrection, nor purify them — and for them
+is a chastisement painful."*
+
+**Meaning.** **[Ṭabarī]**: *yashtarūn* is *yastabdilūn*, exchange — abandoning the covenant God took from
+them in His books to Muḥammad and the like, and the false oaths by which they make others' wealth
+lawful, for a base price, *ʿaraḍu d-dunyā wa-ḥuṭāmuhā*; *lā khalāqa lahum*: no portion, no share of the
+Next's goodness and the garden's bliss prepared for its people; *nor will God speak to them* — in wrath;
+*nor look on them* — with mercy; *nor purify them* — not praise them, not deem them pure, on the day
+the witnesses are summoned. **[Jalālayn]**: the occasion — the Jews' distortion of the Prophet's
+descriptions and of God's covenant in the Torah, and a man's false oath sworn over a sale or a witness
+bill: whoever thus sells the covenant and the name of God taken in vain for the price of this world,
+*for them there is no portion*. **[Study Quran]**: the verse re-treads 2:174's fourfold penalty (see
+its entry); on *lā yukallimuhum* — whether it means no speech at all or the withdrawal of regard as
+punishment (7:6, 15:92–93, 23:108 show God speaking to the unbelievers, so the reading of pure favour
+reverses: not-being-addressed is the punishment; R); *lā yuzakkīhim*: Ṭabarī-style, not deeming them
+pure, or not setting their deeds right, or not accepting them as the purified's are (Q); *zakkā* is both
+to purify and to count pure — the double root is why the punishment is exactly the deprivation of the
+word *akhr* in its best sense.
+
+**Reflection.** Four vettings removed and one promise: a tradition of the Prophet's ﷺ, quoted in the same
+context in this book's 2:174 entry, teaches that the same four verbs are reversed for others into the
+gaze of mercy. The verse's economy of terror is an economy of regard: what the damned do not lose is God
+not losing them, and that He does not keep them at all.
+
+---
+
+## 3:78 — وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُونَ أَلْسِنَتَهُم بِالْكِتَٰبِ لِتَحْسَبُوهُ مِنَ الْكِتَٰبِ وَمَا هُوَ مِنَ الْكِتَٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ اللَّهِ وَمَا هُوَ مِنْ عِندِهِ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ
+
+*"A group among them twist their tongues with the Book, so you take it for the Book though it is not the
+Book; they say it is from God though it is not from Him — they speak the lie against God, and they know."*
+
+**Meaning.** **[Ṭabarī]**: the party are the Jews around Madīna in the Prophet's day; *al-hāʾ wa-l-mīm* of
+*minhum* reach back to *ahl al-kitāb* of 3:75; *yalwūna* is *yuḥarrifūna* — they bend their tongues in
+recitation so that you take the distortion to be God's book and revelation, while it is what they
+invent. The printed text and the manuscript of the edition both stumble at the last clause and the
+editors restore the sense, the Arabic itself corrected in a note: *laysa* misplaced by the copyist —
+Ṭabarī's meaning stands firm. **[Jalālayn]**: men like Kaʿb b. al-Ashraf recite what is not in the book
+as if it were, for the Prophet's descriptions and the like; *wa-hum yaʿlamūn* that they are liars.
+**[Study Quran]**: three readings of the *lawy*: outright forgery (against 2:79's "woe to those who write
+the book with their hands"), obfuscating the prophecy of Muḥammad through misinterpretation, or
+deceiving the illiterate who cannot check the Torah themselves (R, Ṭ); Zamakhsharī's gloss: their tongues
+are twisted *for the purpose of* misrepresenting God's book (Z) — the recitation bent to bend the
+listener.
+
+**Rulings.** The verse is the locus classicus for *taḥrīf* in the sūrah; its sequel 3:79's *mā kāna li-
+basharin* is cited by Ṭabarī's chain as the reason the nook of the argument is not prophetic
+corruption — no bearer of book, judgement and prophecy would bid men to serve him (see below), so the
+corrupting party is *minhum*, a *farīq* among them, not the book's owners as such.
+
+**Reflection.** *Yalwūna al-sinatahum* — the tongue as a thing bent, not words: the image the tafsīr
+presses into its history of the text, and the answer to every polemic about a textual corruption: the
+Qurʾān's charge is not that the Torah is false, but that tongues read it crooked, and *the lie* is not
+the writing but the attribution — *qālū hādhā min ʿindi Llāhi wa-mā huwa min ʿindihi*: the added sentence
+of the verse's second half is what God denies, the book itself not touched.
+
+---
+
+## 3:79 — وَمَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ اللَّهُ الْكِتَٰبَ وَالْحُكْمَ وَالنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا عِبَادًا لِّي مِن دُونِ اللَّهِ وَلَٰكِن كُونُوا رَبَّانِيِّينَ بِمَا كُنتُمْ تُعَلِّمُونَ الْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ
+
+*"It is not for any mortal that God give him the Book and the judgement and the prophecy, and he then say
+to men: be my servants beside God — but be *rabbānī*: because you have taught the Book, and because you
+have studied."*
+
+**Context.** **[Jalālayn]** and **[Ṭabarī]** report the occasion: some of the People of the Book said to
+the Prophet ﷺ, *do you call us to worship you?* — as the Christians worshipped Jesus; and (per Ṭabarī's
+chain from Ibn Isḥāq/Salama, 7296) the verse came down disowning the claim upon every bearer of
+prophethood.
+
+**Meaning.** **[Ṭabarī]**: *mā kāna li-basharin* — it is not fitting, not right for any of the sons of
+Adam — *bashar* is a collective without singular of its own (like *qawm*, *khalq*), though it may be
+used of one; *al-Kitāb*: a book sent down; *al-ḥukm*: the faculty of judging between people; *an
+nubuwwa*; and *thumma yaqūla*: that after all this he call men to serve himself? No: the one given these
+things calls to the *knowledge* of God, to the *maʿrifa* of His laws, to being leaders in His command and
+prohibition, imams in His service — by teaching the Book and by *dirsāsa*, its study. **[Jalālayn]** on
+*rabbāniyyīn*: sages, masters, learned men; the form from *rabb* with extra alif and nūn, comparative to
+*rabbiyy*, "of the Lord"; *bi-mā kuntum tuʿallimūna* — read *taʿlamūna*, "you know," or *tuʿallimūna*,
+"you teach" — the causative is preferred — and the *mā* is *maṣdariyya*: because of your being this.
+**[Ibn Kathīr]**: Ibn ʿAbbās, Abū Rāzīn and others: *rabbāniyyūn* are the wise, the learned, the
+forbearing; al-Ḍaḥḥāk: *whoever learns the Qurʾān deserves to become a faqīh*; and the second *bi-mā*
+clause, *tamdurusūn*: preserving its words.
+
+**Belief.** **[Maʿārif]** on the verse's doctrine, which it heads *the infallibility of the prophets*: a
+man invested with book, wisdom, the power to judge, and prophecy, is *ipso facto* faithful to his
+commission; to divert men from the worship of the one God to his own is not conceivable of one God
+sent, for the appointment would have defeated itself; the analogy Maʿārif draws is an ambassador: no
+government — no king, no parliament — seats a representative under the least suspicion of
+anti-government design, and God's envoys are held to a higher standard of the same reasoning (the point
+develops at length; the digression into the appointment of representatives is his, not the verse's).
+**[Study Quran]**: *ḥukm* may be "rule"; *ʿibād* is worshippers; the verse's other type — humans made
+objects of worship — meets at 9:31 and thematically at 5:116, Jesus disowning the claim to have asked
+his own and his mother's deification; *rabbāniyyūn* at 5:44, 63 (see 5:43–44c for the term), and
+*ribbiyyūn* at 3:146.
+
+**Reflection.** A single word — *rabbānī* — is the verse's architecture: the one who must *not* say *be
+my servants* is named from the same root as his Lord, and the root's whole grammar (the master, the
+nurturer, the Lord) is transferred to the disciple's character, not his claims: be *of the Lord* —
+because you taught, because you studied. The chapter's answer to the deifiers of Jesus is thus not
+primarily a denial of honours to prophets but a redefinition of the honour: to be *rabbānī* is to
+nurture others in God's book, and the title excludes the thing claimed.
+
+---
+
+## 3:80 — وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا الْمَلَٰئِكَةَ وَالنَّبِيِّينَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِالْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ
+
+*"And he would not command you to take the angels and the prophets as lords — would he command you
+unbelief after you have surrendered?"*
+
+**Readings.** **[Ṭabarī]**: the readers of the Ḥijāz and Madīna read *wa-lā yaʾmurkum*, indicative, a new
+report from God about the Prophet — he does not command you thus; and the reading *lā yaʾmurakum*, with
+the hamza of the verb, is recorded as well, and he weighs the two against the sense of the preceding
+verse (the clause either continues the prohibition upon the mortal — *and he not command you* — or is
+God's own negation of the accusation). **[Jalālayn]**: *to take the angels and the prophets as lords* —
+as the Ṣābiʾa took the angels, the Jews ʿUzayr, the Christians Jesus; and *would he command you to
+disbelieve after you have surrendered to God's will?* — he would not do that, for whoever bids the
+worship of other than God bids unbelief; the prophets call only to the *īmān* that commands worship of
+God alone (Ibn Kathīr: and for the verse's law see 21:25 — *We sent no messenger before you but We
+revealed to him: there is no god but Me, so serve Me* — 16:36, and 43:45's asking the envoys).
+
+**Belief.** **[Study Quran]**: the clause may resume from the middle of 3:79 — *it is not for a mortal…
+to command you* — and *he would not* is the Prophet's, or *He would not*, God's, not commanding the
+taking of angels and prophets as lords (JJ, R); the three-fold lordship theme runs to 3:64 and 9:31.
+
+**Reflection.** The Jesus section ends where the sūrah's prologue began: no mediation, no delegated
+lordship, angels and prophets alike under the sentence *mā amartuhum* (24:54). And the last question of
+the verse is rhetorical in the same grammar as 3:80's own audience knew: *after you have surrendered* —
+addressed to the believers, but its premise is the same act Najrān and the Jews were invited to at
+3:64's "bear witness that we are submitters": the chapter has taught its readers what they are, and
+argues from it.
+
