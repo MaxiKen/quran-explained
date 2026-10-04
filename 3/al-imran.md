@@ -3305,3 +3305,344 @@ close picks up 3:86's logic — lost not by accident by accident but *by increas
 deliberate arithmetic of a heart whose ledger, when the debts are counted, is found to have grown since
 its last acceptance.
 
+
+
+## 3:91 — إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ فَلَن يُقْبَلَ مِنْ أَحَدِهِمْ مِلْءُ الْأَرْضِ ذَهَبًا وَلَوِ افْتَدَىٰ بِهِ ۗ أُولَٰئِكَ لَهُمْ عَذَابٌ أَلِيمٌ ۖ وَمَا لَهُم مِّن نَّاصِرِينَ
+
+*"Those who disbelieved and died unbelieving — the earth's full of gold shall not be accepted from one of
+them, though he offer it for ransom; those — for them a chastisement painful, and they shall have no
+helpers."*
+
+**Meaning.** **[Ṭabarī]**: the disbelievers here are every community that denied Muḥammad's prophecy and
+what came with him from God — Jews, Christians, Magians and the rest — who died upon that denial; *the
+earth's full of gold* shall not be accepted from them in the Next as *jazāʾ* or *rishwa*, recompense or
+bribe, to remit their punishment or purchase pardon — the distinction between the two words is spelled
+out by the lexicographers: *jazāʾ* is the substitute and exoneration, *juʿl* the wage stipulated for a
+service — and if his gold filled the earth from its east to its west and he offered it *for it*: for
+bribes are taken only by one who stands in need, and God needs nothing. **[Jalālayn]** notes the
+grammar of the whole: the *faʾ* of *fa-lan yuqbala* is attached because the predicate of *inna* has the
+shape of a conditional answer; and the clause *law ftadā bihi* declares why the repentance of the one who
+dies in unbelief is not accepted (cf. 4:18). **[Study Quran]**: dying in unbelief recurs at 2:161, 2:174,
+4:18, 47:34; the ransom motif — an earth full of gold inadequate — at 5:36, 10:54, 13:18, 39:47; the
+contrast between a worldly expiation sincerely offered and a bargain attempted after the choice is gone
+is the point of 2:48c; and the verse's opposite is 3:102 — *die not except as submitters*, the same
+charge Abraham and Jacob laid on their sons (2:132). **[Ibn Kathīr]**: the verse is the seal on 3:90's
+*lan tuqbala tawbatuhum*: repentance refused *there* because they died so; *and no helper* — which is why
+the two verses stand together in the chapter as the apostasy-portico with its one open door (3:89) and
+one shut (3:90–91).
+
+**Reflection.** The chapter's last word on the economics of the next world is the cancellation of its
+first: the trade with God (2:16, 3:119's *tājara* theme below) admits every price while the market is
+open, and none once it closes; the earth's full of gold is weightless precisely because it is the
+measure of what was loved more than God (3:92's other side). The sequence 90–91–92 is a single ledger:
+unrepented apostasy, unransomable end — and, immediately, the one coin the verse says does buy: *mā
+tuḥibbūn*, given away before the dying.
+
+---
+
+## 3:92 — لَن تَنَالُوا الْبِرَّ حَتَّىٰ تُنفِقُوا مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا مِن شَيْءٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ
+
+*"You shall not attain the good — until you spend of what you love; and whatever you spend, God knows it."*
+
+**Meaning.** **[Ṭabarī]**: *lan tanālū l-birr* — you shall not reach, believers, the *birr* you seek from
+God by obedience, which is His favour in admitting you to His garden and turning His punishment away;
+and many of the early commentators said outright *al-birr* here is the Garden — ʿAmr b. Maymūn, twice in
+Ṭabarī's chains, and al-Suddī with them — for the *birr* of the Lord toward His servant in the Next is
+his honouring him with the garden. **[Jalālayn]**: the good, i.e. its reward — Paradise — is not attained
+until you give in voluntary charity *of what you love* of your wealth.
+
+**Stories & occasions.** **[Ibn Kathīr]**, from Aḥmad and the Two Ṣaḥīḥs, the ḥadīth of Abū Ṭalḥa: he was
+the richest of the Anṣār in Madīna in land, and the property he loved most was *Bayrūḥāʾ*, the garden
+facing the mosque, whose sweet water the Prophet ﷺ used to drink; when the verse came down he said:
+*God says you shall not attain the good until you spend of what you love — Bayrūḥāʾ is my most beloved
+property, and I give it in charity, expecting its reward; place it, Messenger of God, where God shows
+you* — and he said: *Bravo, bravo — a profitable property! I think you should put it in your near
+kin* — and Abū Ṭalḥa divided it among his relatives and cousins. (ʿUmar's parallel: *I never came by
+property more precious to me than a portion of land I won at Khaybar…*, the Two Ṣaḥīḥs again — the
+verse's second patron-saint.) **[Study Quran]**: many commentators connect the verse with precisely this
+story of a companion's most prized Madinan estate (Q, R, Ṭ), but the ḥadīth literature's charity
+examples are too many to let the verse be pinned to one incident; its echoes are 2:177 and 2:267 (spend
+of the good, not of the worthless), and in the spiritual reading (Aj) the ego itself is the dearest
+possession to be given.
+
+**Belief.** **[Saʿdī]**: *birr* is the comprehensive name for all goods, the road to the Garden; and
+spending the choicest, the loveliest is the greatest proof of a soul's generosity, its adornment with
+noble character, and its preferring God's love to the love of wealth to which souls are glued by
+nature — whoever prefers God's love to his own has reached the topmost summit; and whoever spends the
+good and does good to God's servants, God does good to him and opens to him deeds and characters that
+cannot be had without that station.
+
+**Reflection.** The most quoted of the Qurʾān's charity-verses sets its test not at sacrifice but at
+*quality*: not "give," but "give what you love" — the word that makes 2:267's prohibition the same act
+from the other side, and makes the Prophet's answer to Abū Ṭalḥa (*a profitable property!*) the verse's
+own economics: what is given away *as* what you love stops being what you love, and the loss converts,
+in the Prophet's phrase, into *ربح*, profit — the chapter's trading idiom again (2:64's *tijāra* it
+does not bankrupt).
+
+---
+
+## 3:93 — كُلُّ الطَّعَامِ كَانَ حِلًّا لِّبَنِيٓ إِسْرَٰءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰءِيلُ عَلَىٰ نَفْسِهِ مِن قَبْلِ أَن تُنَزَّلَ التَّوْرَىٰةُ ۗ قُلْ فَأْتُوا بِالتَّوْرَىٰةِ فَاتْلُوهَآ إِن كُنتُمْ صَٰدِقِينَ
+
+*"All food was lawful to the Children of Israel except what Israel forbade himself — before the Torah was
+sent down. Say: bring the Torah and recite it, if you are truthful."*
+
+**Context.** **[Jalālayn]** and **[Maʿārif]** (reporting Rūḥ al-Maʿānī from Wāḥidī and al-Kalbī): the
+Jews said to the Prophet ﷺ — *you claim the religion of Abraham, yet Abraham did not eat camel's flesh or
+drink its milk*: the dietary prohibitions run back to the patriarchs, so your dispensation is an
+invention; and the Prophet answered: *no — it was lawful for him*; and they: *everything we forbid has
+been forbidden since Noah and Abraham down to us*. **[Saʿdī]**: this belongs to the Jews' wider attack
+on the prophecy of Jesus and Muḥammad — their denial that *naskh* is possible at all, that a later
+prophet may differ from an earlier one; God refuted them with what they themselves confess, that all
+food was lawful to Israel before the Torah except a few things Israel forbade *himself*.
+
+**Meaning.** **[Ṭabarī]**: the Children of Israel are the sons of Jacob b. Isaac b. Abraham; no foods at
+all were forbidden them before the Torah's descent except what Jacob had forbidden *himself*, which his
+sons adopted by following their father, with no revelation and no messenger commanding it; then the
+commentators differ: did the Torah, when it came, confirm those self-imposed bans as God's law? one
+party say yes — it became forbidden in the Torah what they had already forbidden (al-Suddī's chain);
+and the verse's challenge — *bring the Torah and recite it* — is answered in the next verse's history
+(their inability). **[Qurṭubī]**, first *masʾala*: *ḥillan* is *ḥalālan*; the exception is Israel =
+Jacob; and he cites al-Tirmidhī from Ibn ʿAbbās: the Jews asked the Prophet *tell us what Israel forbade
+himself*, and he said: *he lived in the desert, was afflicted with the sciatic nerve — ʿirq al-nasā, the
+vein that issues from the haunch and runs into the thigh — and found nothing that suited him but camel's
+flesh and its milk, so he forbad them*; they said: *you have spoken the truth* — and the ḥadīth's sequel
+records their quarrelling whether the oath, not the illness, was the cause, and the Hijāzī dialect note
+on *baraʾa* (to recover) beside the general *barīʾa*.
+
+**Belief.** **[Study Quran]**: before the Torah there were no obligations for Jacob's progeny except what
+Jacob imposed and his sons followed (Q, Ṭ); the verse answers the claim that the Torah's prohibitions were
+eternal, mounted as an argument against *naskh* itself (R); the sick-vow account is IK, Q, Th, the
+doctors'-orders account and the pure-asceticism account are Th, and some (Ṭ, Th) hold the Torah later
+enshrined prohibitions already observed; and the passage may be a Qurʾānic recognition of what is
+already in Genesis 32:32 — the thigh-muscle of the socket, untouched by Israel ever since Jacob's wound
+at the wrestling — a prohibition older than the Torah, predating it by a lifetime. **[Study Quran]** also
+notes 3:93–95 should be read as one continuous argument (Ṭ's arrangement): the *naskh* of the
+patriarchal table.
+
+**Reflection.** The dietary dispute is made, by the verse, an archaeology of law: strata — no food
+forbidden; Jacob's private vow; the Torah's codification; and the argument with the Qurʾān is over
+whether a *vow* can be read back into a *covenant*. The challenge (*bring the Torah and recite it*) is
+the chapter's only appeal to a text's verifiable reading, and the commentators note the silence that
+followed; the point of the verse's own structure: if *naskh* is admitted in the Bible's own first book,
+the Qurʾān's relaxation at 3:50 is precedent, not novelty.
+
+---
+
+## 3:94 — فَمَنِ افْتَرَىٰ عَلَى اللَّهِ الْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الظَّٰلِمُونَ
+
+*"Whoever invents a lie against God after that — those are the wrongdoers."*
+
+**Meaning.** **[Ṭabarī]**: after the challenge and its outcome — after your bringing of the Torah and its
+recital, and your finding in it no prohibition by God of the sinews and the camels' flesh and milk that
+you claimed — whoever attributes this lie to God is a *ẓālim* in placing speech where God's book does not
+have it; and al-Shaʿbī's report fixes the verse's addressees: *it came down on the Jews*. **[Study
+Quran]**: *min baʿd dhālika* is "after the challenge" (Ṭ) or "after it was established that the
+prohibitions did not predate the Torah" (R).
+
+**Reflection.** A one-line hinge, but read with the sūrah's other *iftirāʾ*-verses (2:148, 5:103's
+*biḥīra*, 6:93, 7:37's "who does greater wrong than one who invents a lie against God") the charge is
+the chapter's standing definition of *ẓulm* at its juristic core: mis-attribution to God — which is why
+the Torah-recital of 3:93 was the trial, and the inability to pass it is the verdict.
+
+---
+
+## 3:95 — قُلْ صَدَقَ اللَّهُ فَاتَّبِعُوا مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ
+
+*"Say: God has spoken the truth — so follow the religion of Abraham, upright, and he was not of the
+idolaters."*
+
+**Meaning.** **[Ṭabarī]**: *say, Muḥammad*: God has spoken true in what He told us — that all food was
+lawful to the Israelites before the Torah, that He forbade Jacob and his sons neither the sinews nor the
+camels' flesh and milk, that it was a self-imposed ban not a revelation in the Torah — *and in every
+news He tells His servants*; and *against you*: you are the liars, you who attribute to God in the
+Torah the lie He did not say, the *muftarīya* party. **[Jalālayn]**: *ṣadaqa Llāhu* — in this matter and
+in all He has related; *follow the religion of Abraham that I follow* — *ḥanīf*, inclining from all
+religions to the upright one; *and he was not of the idolaters*.
+
+**Belief / Custom.** **[Study Quran]** notes that *ṣadaqa Llāhu* is what Muslims say on finishing a
+recitation outside the prayer — the formula's liturgical afterlife, born from this verse's command; and
+for the *milla* of Abraham and the *ḥanīf* see 2:135c, the concept's full entry in the first chapter
+this sūrah keeps citing (3:65–68 above).
+
+**Reflection.** The chapter keeps returning to one sentence — *the religion of Abraham the ḥanīf* — each
+time in a different court: against the Jews here over camel-milk, against the Christians at 3:67 over
+paternity, against the mushrikūn at 2:135 over the Kaʿba; the tafsīr's quiet observation on the verse's
+imperative is that the command to *follow* Abraham is phrased with no object of the following but his
+*milla*: the patriarch is followed in method, not in menu — a point the dietary debate was constructed to
+prove.
+
+---
+
+## 3:96 — إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَٰلَمِينَ
+
+*"The first house set down for the people is the one at Bakkah — blessed, and a guidance for the worlds."*
+
+**Context.** **[Jalālayn]**: it came down when they said *our qibla preceded yours* — the precedence of
+the Temple, and the verse answers with the precedence of the *ḥaram*.
+
+**Meaning.** **[Jalālayn]**: *Bakkah* is a variant of *Makka*, so called because it *crushes* (*tabukku*)
+the necks of tyrants; and the tradition: it was built by the angels before Adam's creation, and after it
+the Aqṣā, forty years between (the ḥadīth of the Two Ṣaḥīḥs; and the other report: the first thing to
+appear on the water at the creation of the heavens was a white foam, *zabād*, beneath which the earth was
+spread out); *mubārakan* a *ḥāl* of the relative clause, *hudan li-l-ʿālamīn* because it is their
+qibla. **[Ṭabarī]** opens with the disagreement the verse was made to referee: *the first house set down
+for people, worshipped in* — and some say: **it is not the first house ever built on the earth, for many
+houses preceded it**; and he carries the proof-text, report 7422 — a man of Khālid b. ʿArʿara's circle
+stood to ʿAlī: *tell me about the House: was it the first house set down on the earth?* He said: **No —
+but it is the first set down for people in blessing** (*fīhi l-baraka* — with the editors' note on the
+reading: the manuscripts' *wūḍiʿa fīhi l-baraka* and the correction *awwala baytin wūḍiʿa*, and their
+preference to keep the transmitted wording), *and the station of Abraham, and whoever enters it is
+safe*. **[Study Quran]**: Rāzī's reading — the Kaʿba is not the first *built* but the first *established
+for all mankind*, for all to worship, not for some; or *awwal* as "foremost" in blessing and guidance (Ṭ),
+like *I am the first of those who submit* (6:163) — priority of rank, not of time; and the mythic layer
+the commentators keep citing (2:127c): the foundations go back to Adam. The name: *Bakkah* and *Makkah*
+the same root with *m/b* exchanged (Z), or *Bakkah* the sacred ground itself and *Makkah* the land
+around it (Ṭ, Z), or from *bakka*, to crowd — the pilgrimage crushes; and later scholars raise whether
+Psalm 84:6's *Baca* is this valley, depending on whether *Baca* means weeping or balsam-trees.
+
+**Reflection.** The verse is the sūrah's counter-architecture: the Jews' "our qibla precedes yours" is
+answered not by abrogation but by chronology of a different kind — first *for the people*, first
+*universally*. Ṭabarī's ʿAlī-report is the keystone: the Kaʿba is not older than the world's altars; it
+is older than the *idea* of an altar belonging to one nation. The chapter's *hudan li-l-ʿālamīn* —
+already its own book's self-description at 3:4 — now belongs to a building, and the building and the book
+are made to testify for each other (cf. 3:97's *āyāt*).
+
+---
+
+## 3:97 — فِيهِ ءَايَٰتٌۢ بَيِّنَٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَٰلَمِينَ
+
+*"In it are clear signs — the station of Abraham; and whoever enters it is secure. And upon the people,
+for God's sake, is the pilgrimage to the House — whoever can find a way to it; and whoever disbelieves —
+God is beyond need of the worlds."*
+
+**Readings.** **[Ṭabarī]**: the readers of the cities read *āyātun bayyinātun*, plural; Ibn ʿAbbās read
+*āyatun bayyinatun*, singular — one sign, the station. The identification of the signs: Ibn ʿAbbās via
+Waqiʿ's chain — the station of Abraham and the *mashʿar al-ḥarām*; Mujāhid and Qatāda via Maʿmar — the
+station is among the clear signs; others: the station *and whoever enters it is secure*.
+
+**Meaning.** **[Jalālayn]**: among the signs is the station of Abraham — the stone he stood on building
+the House, his footprints preserved in it; the House's antiquity and the generations of hands passing
+over it; the multiplication of the reward for good deeds within it; that birds do not fly over it; *and
+whoever enters it is secure* — not liable to being killed or wronged. And the *ḥajj*: the duty of the
+journey, read *ḥijja* or *ḥajj* — the two verbal nouns; *man istaṭāʿa ilayhi sabīlan* in place of *ʿalā
+l-nās*; the Prophet ﷺ glossed *istṭāʿa*: **provision and mount** (al-Ḥākim al-Naysābūrī and others; the
+same gloss stands at 2:197's way-station of the law); and *wa-man kafara fa-inna Llāha ghaniyyun ʿan
+l-ʿālamīn*: whoever denies God or what He made obligatory of the Pilgrimage — God is without need of the
+worlds, men, jinn and angels, of their devotion. **[Study Quran]**: "the clear signs" is read by some as
+the footprints (Ṭ) and by IK as the proofs that this is Abraham's structure and God exalted it; the
+*amān*, security, is read in many recensions as past — *whoever entered it was secure*, the pre-Islamic
+ḥaram's right of sanctuary (2:125–26; 14:35; 28:57), and many hold that under Islam the Kaʿba no longer
+shelters from prosecution and crimes there are punishable (Ṭ — with the penalty not executed within the
+precinct); another opinion keeps the sanctuary but starves it: the fugitive may not trade, speak, lodge,
+or be fed (the ḥanafī's strait of it); the *sabil*, "the way," is capacity — health and means, with the
+minority *āya*-reading of the plural signs above.
+
+**Belief / Rulings.** The verse is the chapter's *farīḍa*: the pillar made obligatory in its middle, and
+Ṭabarī's occasion-report from ʿIkrima at 3:85 — the nations claiming *we are the Muslims*, and the
+pilgrimage sent down as the test of the claim (3:97 as the assay of 3:85) — gives the *ḥajj* its place in
+this debate: the rite no rival community performs, at the house none of them owns. **[Saʿdī]**'s reading
+of the pair (his 3:96–97 frame): the house's blessing is its *hudā* — guidance to the worlds — because it
+is the qibla of the whole *milla* of Abraham, and the station is the proof of the founder, footprints in
+stone as the law's signature.
+
+**Reflection.** *Man kafara fa-inna Llāha ghaniyyun ʿan al-ʿālamīn* — the verse's shock is that the
+disbelief named in it is, on Jalālayn's and the mainstream reading, disbelief *in the obligation*: and
+God's reply to naysayers is not threat but self-sufficiency, the chapter's answer-key from 3:110's
+*khayr umma* to its own "you do not benefit except yourselves." A house that multiplies reward and
+requires no defence: the economy of the sanctuary mirrors the economy of the book the sūrah has been
+defending — both stand, needing nothing, and only the visitor's ledger changes.
+
+---
+
+## 3:98 — قُلْ يَٰأَهْلَ الْكِتَٰبِ لِمَ تَكْفُرُونَ بِئَايَٰتِ اللَّهِ وَاللَّهُ شَٰهِيدٌ عَلَىٰ مَا تَعْمَلُونَ
+
+*"Say: People of the Book — why do you disbelieve in God's signs, when God is witness over what you do?"*
+
+**Meaning.** **[Jalālayn]**: the verses are the Qurʾān, and *God is witness* — He sees and will requite.
+**[Ṭabarī]**: the address is to the Jews of the Children of Israel and whoever else claims the books and
+denied Muḥammad; *āyāt Allāh* are the proofs God furnished him out of your own books and others,
+established against you by his truthfulness; and al-Suddī: *God's signs* — that is, Muḥammad himself, the
+sign. (Ṭabarī's editors, with characteristic candour, flag that the commentary line "wa-ʿan ʿilm
+yaʿmalūn" sits in the manuscript and the print as though explaining *wa-antum taʿlamūn* of the previous
+verse — the editor's note says the phrase belongs to this verse's matter, or is a slip of transmission;
+what stands is: they disbelieve knowingly.)
+
+**Reflection.** The same question as 3:70 with its witness moved from the addressees to God — *you are
+witnesses* there, *God is witness over you* here — and the inversion is the exegesis: their testimony is
+withheld, His is not, and the sūrah's court of evidence ends where it began, with the *ḥakīm* who needs
+no witnesses to convict (cf. 6:19's *ashhadu baynī wa-baynakum*).
+
+---
+
+## 3:99 — قُلْ يَٰأَهْلَ الْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ اللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًا وَأَنتُمْ شُهَدَٰٓؤُا ۗ وَمَا اللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+
+*"Say: People of the Book — why do you turn from God's path him who believes, seeking to make it
+crooked, while you are witnesses? — and God is not heedless of what you do."*
+
+**Meaning.** **[Ṭabarī]**: *lā taṣuddūn* — why do you bar from the way and path of God, the road He
+legislated for His prophets and friends and the people of faith, whoever confirms God and His messenger?
+*tabghūnahā ʿiwajan*: you seek for it crookedness — and the *hāʾ* of *tabghūnahā* refers to *al-sabīl*,
+feminine for the gender of *sabīl*; *ʿiwan* is the verbal noun of *muʿawwaj*, bent from the truth; and
+the lexicography runs with it — ʿAbd b. al-Ḥaṣḥāṣ's line *baghāka wa-mā tabghīhi ḥattā wajadtahu*, "what
+you seek and seek until you find it." **[Jalālayn]**: you deny the Prophet's truthfulness and conceal
+God's bounties, desiring to bend the path — while you know that the religion upright and pleasing to God
+is *al-islām*, as your book states — *and God is not heedless*: He respite you to your appointed term,
+then requites.
+
+**Belief.** **[Study Quran]**: *ʿiwaj* as distortion, cf. 7:45, 11:19, 14:3; the hindrance is not
+physical but misdirection — when asked, the People of the Book denied that Muḥammad was foretold in their
+books (Ṭ, cf. 7:157), and the desire to make the path *ʿawaja* is to make it appear false (Q, Ṭ) and
+so to scatter doubt among as many Muslims as possible (R); *while you are witnesses* means they should
+know his character from their books and their own traditions' truths (Q). **[Saʿdī]**'s frame on 98–100:
+the warning to the believers is the point of the exposure: the enmity described here is the same as 3:69
+(a party *wishes* to lead you astray), and God's non-heedlessness is the answer: the plot of 3:100 fails
+because its Judge is *ghayra ghāfil*.
+
+**Reflection.** *Lima tadullūna ʿalā Allāhi bi-mā taʿlamūn* — the chapter's one sustained accusation,
+phrased here in its sharpest shape: they are asked why they turn *believers* from the path — not why
+they themselves disbelieve — which is the sūrah's real subject from here to the end: the defence of the
+young community against its teachers' old weapons, argument, imitation, and division (3:100–105).
+
+---
+
+## 3:100 — يَٰٓأَيُّهَا الَّذِينَ ءَامَنُوٓا إِن تُطِيعُوا فَرِيقًا مِّنَ الَّذِينَ أُوتُوا الْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كَٰفِرِينَ
+
+*"You who believe — if you obey a party of those given the Book, they will turn you back to unbelief
+after your belief."*
+
+**Context.** **[Jalālayn]**: it came down when some Jews passed by the Aws and Khazraj, were enraged at
+their fellowship, and reminded them of the mutual hatred of the Days of Ignorance until the two tribes
+nearly fought. **[Ṭabarī]**, from Mujāhid at length (report 7530): the Anṣār were two bellies, Aws and
+Khazraj, between whom in the Jāhiliyya was war, blood and hate, until God extinguished it by Islam and
+the Prophet; two men of the two tribes sat talking with a Jewish man beside them, and he kept
+reminding them of their days and their enmity until they reviled each other and fought, each calling his
+people, who came out armed and drew up; the Prophet ﷺ, present that day, walked between the groups,
+still and calming them, until they turned back and laid down their weapons — and God sent down *yā ayyuhā
+lladhīna āmanū in tuṭīʿū farīqan…* to the end of the passage, *ʿadhābun ʿaẓīm*; the other chain (the
+Qaynuqāʿ man's provocation) ends with the same: *if you take up arms and fight, you will be
+unbelievers* (7529). **[Study Quran]**: the incident as usually told — a Jew of Madīna finds the Muslims
+of Aws and Khazraj in assembly, instigates them with their old wars and insults until blows are close;
+the Prophet comes out: *would you return to the affairs of the Jāhiliyya while I am among you, and God
+has honoured you with Islam and joined your hearts?* — they drop their weapons, embrace, and leave with
+him (Q, R).
+
+**Meaning.** **[Ṭabarī]**'s summary of the verse's sense: *if you obey a party of them* — i.e. if you take
+their side, follow their call and obey them in what they bid you — *they will turn you back, after your
+faith, unbelievers*: the obedience to the enemy of God that breaks the brotherhood of faith is called
+*kufr* in the verse's idiom, which the section's sequel (3:103–105) interprets: *hold fast to God's rope
+all of you, and do not split* — the *farīq* of 3:100 answered by the *ḥabl* of 3:103; and the sūrah's
+own definition in 3:110, *you are the best community*, will, in this book's next entries, carry the
+warning's other half: *they would make you like themselves — and God knows the secrets* (3:118–119).
+**[Ibn Kathīr]**: the verses after this (3:101 ff.) — *how can you disbelieve while God's Messenger is
+among you* — are the verse's own commentary, as is the oath-scene of the *ḥilf* renewed at Ḥudaybiya.
+**[Saʿdī]**: the section's aim is the same *minna* as all the book's — God's favour recalled against the
+whisperer's trade.
+
+**Reflection.** The chapter's longest argument — with the house of ʿImrān, with Najarān, with the
+covenant — closes by turning its back on them and its face to its own: the enemy's most effective weapon
+is not his argument but the community's memory of its old quarrels; and the sūrah's remedy, stated in one
+conditional sentence, is the whole of its final movement: obey the party of the Book — obey *anyone* —
+and you are back in the pit that the Prophet had just walked out of, between the drawn swords, saying
+*I am among you*. That *maʿiyya*, companionship, is the chapter's last institution: the answer to
+division is not a rule but a presence (3:103, 3:105, 3:110 follow).
+
