@@ -830,48 +830,6 @@ set the trial.
 
 *"He said, 'Because You have sent me astray, I will lie in wait for them on Your straight path.'"*
 
-**Meaning.** **[Ṭabarī]** sets out the sense: Iblis said, because You led me astray — that is, because
-You caused me to err, and You left me to the error that was my due — I will sit in wait for the
-children of Adam on Your path, the path that is straight; the Arabic *ṣirāṭ* being the road, and
-*mustaqīm* the straight one. **[Jalālayn]** reads it in the same sequence: he said, because You have
-sent me astray — since You left me to stray, or since Your having sent me astray is a reason for it —
-I will surely sit in wait for them, that is, I will set myself on the watch for them, on Your straight
-path, which is the religion of Islam, so that I may prevent them from it. **[Saʿdī]** reads the sentence
-as Iblis's declared programme: having announced his enmity, he swore to stand on the straight path of
-God as a watcher and a renegade, sitting in wait for those who walk it. **[Qurṭubī]** gives the word
-closely: *la-aqʿudanna lahum* means I will sit in ambush and guard the path; *lā* here is the *lām* of
-oath, and the sitting is the posture of the one blocking a road.
-
-**Belief.** **[Qurṭubī]** records the objection and the answer that belongs to this verse: how can Iblis
-say "because You have sent me astray," when the sending astray is God's act and the straying is his own?
-The scholars answer that he said it out of ingratitude and as a charge against his Lord — and the
-Qurʾānic habit is to attribute the whole to the decree while placing the blame on the creature, as
-Iblis himself says at 15:39, "because You sent me astray," where his fault is named in the same breath:
-he was commanded and refused, and so was called astray. **[Ibn Kathīr]** makes the same point in the
-form of a contrast: the enemy of God does not attribute his refusal to his own arrogance but to the
-decree — the master he blamed is the One who gave him a being and a will — and this is the very pattern
-that the sūrah will show in the deniers it recounts. **[Study Quran]** notes the commentators' agreement
-that the verse is Iblis's vow of enmity, and that the straight path here is identified with the religion
-of God to which Adam's descendants are called [Study Quran].
-
-**Cross-references.** "Because You sent me astray, I will surely make it seem fair to them on the earth"
-(15:39); "And I will surely mislead them and I will surely stir desires in them" (4:119);
-"So do not follow the steps of Satan" (2:168; 24:21); "He said, 'Do you see this one whom You have
-honoured above me? If You reprieve me till the Day of Resurrection, I will surely bring his descendants
-under my sway, all but a few'" (17:62); "Truly Satan is an enemy to you, so take him as an enemy"
-(35:6) [Ṭabarī] [Ibn Kathīr].
-
-**Reflection.** **[Saʿdī]** draws the warning the verse is placed to give: the one who has taken the
-straight path as his hunting ground is the enemy of the children of Adam, and the reader who follows
-the verse from the Garden to the road understands that the road passes through the territory of that
-watchman. **[Study Quran]** supplies the same lesson from the other side: the path is called God's and
-straight, and the ambush is set upon it precisely because it is the road to God — so the danger named
-in the verse is not straying in general but being stopped on the way that leads home.
-
-## 7:16
-
-*"He said, 'Because You have sent me astray, I will lie in wait for them on Your straight path.'"*
-
 **Meaning.** **[Ṭabarī]** sets out the sense: Iblis said to his Lord, "because You have sent me astray,"
 that is, because You caused me to err — as Ibn ʿAbbās and Ibn Zayd both glossed it: "You led me astray";
 and some took it in the sense of ruin, "because You destroyed me," since the Arabs say of a young camel
