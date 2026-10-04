@@ -20,7 +20,14 @@ written **continuously, verse after verse, saving and pushing as you go**, in lo
 verses per session, repeated read→write→commit cycles), and **without stopping for check-ins**.
 
 Current state at handover: **Sūrah 1 complete (7,010 words), Sūrah 2 complete (296,808 words,
-286 entries), Sūrah 3 not started.** Next action is to open `3/al-imran.md` and begin at 3:1.
+286 entries), Sūrah 3 COMPLETE — 200/200 entries, 200 verses of Āl ʿImrān written in the seven-source
+house style across ~20 batch commits (1–100 initial mandate, 101–130 continuation, 131–200 full-chapter
+sprint), each batch following the §5 cycle (sizes → parallel dumps → fill windows → append → same-turn
+citation/heading verification → commit + push) with dedicated QC passes (141–150, 151–160, 161–170,
+171–200) that removed or hedged every citation not verifiably read and adjudicated heading rasm
+(dagger-alif/hamza-carrier variants vs. the corpus are benign; only letter-level typos were fixed).**
+Next action for a continuation session: sūrah 4 (an-Nisāʾ) at 4:1, same cycle and house style; corpus
+files `*/004.txt` exist for all seven sources.
 
 ### 0.1 Starter message — paste this to the incoming AI session (copy-paste block)
 
@@ -31,8 +38,9 @@ You are continuing a verse-by-verse Qur'an tafsir in this repo (MaxiKen/quran-ex
 2. Copy the extractor tool out for convenience:  cp tools/sect.py /home/user/sect.py
 3. Run the sanity check in HANDOVER.md §5 Step 0 (git status/log, wc -w 2/al-baqarah.md,
    grep -c '^## 2:' 2/al-baqarah.md, sect.py smoke test). If the workspace looks reset, follow §11 first.
-4. Completed so far: 1/al-fatihah.md and 2/al-baqarah.md (286 entries, complete). Do NOT rewrite them.
-5. Then write Sūrah 3 (3/al-imran.md) from 3:1, following HANDOVER.md §5 (read→write→commit→push cycle)
+4. Completed so far: 1/al-fatihah.md, 2/al-baqarah.md, and 3/al-imran.md (200/200 entries — complete).
+   Do NOT rewrite them.
+5. Write Sūrah 4 (create 4/an-nisa.md) from 4:1, following HANDOVER.md §5 (read→write→commit→push cycle)
    and §7 (blocks, citations, flags, length).
 6. Work in one continuous run: aim for 50–100+ verses per session, one commit per verse (or small group),
    push after each. Never pause for check-ins, never stop after a few verses, save as you go.
