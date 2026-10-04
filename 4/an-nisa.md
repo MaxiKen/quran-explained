@@ -7994,3 +7994,538 @@ and so do the believers; each believes in God, His angels, His books and His mes
 between any of His messengers" (2:285); "And whoever desires a religion other than Islam, it will not be
 accepted from him" (3:85); "Those who disbelieve in God and His messengers and seek to make a distinction"
 (4:150).
+## 4:151
+
+*"Those are the disbelievers truly; and We have prepared for the disbelievers a humiliating punishment."*
+
+**Meaning.** **[Ṭabarī]** Those whom God described with this description — who disbelieve in God and His
+messengers, seek to make a distinction between God and His messengers, and take a way in between — are the
+disbelievers truly: they are the ones who have covered over the truth with their disbelief, truly and indeed,
+with a real disbelieving, not a metaphorical one. "And We have prepared for the disbelievers" — We have made
+ready for those who cover over the truth — "a humiliating punishment": a punishment that humbles them and
+abases them, for what they have done. **[Jalālayn]** Those — the ones who seek to divide between God and His
+messengers — are the disbelievers truly, *ḥaqqan* being a verbal noun emphasising the content of what precedes
+it in the sentence; and We have prepared for the disbelievers a humiliating chastisement, namely the
+chastisement of the Fire. **[Qurṭubī]** When God had mentioned the associators and the hypocrites, He now
+mentioned the disbelievers of the People of the Book — the Jews and the Christians — since they disbelieved in
+Muhammad, and He made clear that disbelief in him is disbelief in all, because there is no prophet who did not
+command his people to believe in Muhammad and in all the prophets. **[Saʿdī]** Hence "those are the disbelievers
+truly," lest it be imagined that their station is a middle one between faith and disbelief. And the reason they
+are disbelievers even in what they claim to believe in is that every proof that led them to believe in those they
+believed in exists, or its like, or something above it, for the prophet they disbelieved in; and every doubt they
+claim to use to impugn the prophet they disbelieved in has its like, or something greater, in those they believed
+in. So after that there remains nothing but wishfulness and desire and mere claim, which anyone may meet with the
+like. And when He mentioned that these are the disbelievers truly, He mentioned a punishment that covers them
+and every disbeliever: "and We have prepared for the disbelievers a humiliating punishment" — as they were
+arrogant about believing in God, He humiliated them with the painful, shameful punishment.
+
+**Reflection.** **[Study Quran]** Cf. 2:285, where the community of believers is praised for making no
+distinction among the messengers, and 3:84; the refusal to distinguish is not a denial of the prophets'
+differences in rank but of the right to pick and choose among them. **[Ibn Kathīr]** The sects that picked and
+chose — the Jews rejecting Jesus and Muhammad, the Christians rejecting Muhammad, the Samaritans rejecting every
+prophet after Joshua, the Zoroastrians attached to one prophet alone — each followed desire rather than proof,
+since no proof exists for such a distinction. **[Saʿdī]** The "way in between" is impossible by the nature of the
+claim: the one who invents a middle path between belief and unbelief has not found a third station but only
+dressed disbelief in the clothes of faith. **[Maʿārif]** This clear verdict has exposed the crooked ways of those
+who, to appear tolerant, tell the followers of other faiths that salvation does not depend on Islam alone, though
+they deny all prophets or some of them — for which this verse has declared them the kind of disbelievers destined
+for Hell.
+
+**Cross-references.** "Those who disbelieve in God and His messengers and seek to make a distinction between
+God and His messengers" (4:150); "And whoever disbelieves in God and His angels and His books and His messengers
+and the Last Day has strayed far astray" (4:136); "The Messenger believes in what has been sent down to him from
+his Lord, and so do the believers; each believes in God, His angels, His books and His messengers — we make no
+distinction between any of His messengers" (2:285); "It is those who are the disbelievers truly" (4:151).
+
+## 4:152
+
+*"And those who believe in God and His messengers and make no distinction between any of them — He will give
+them their rewards; and God is ever Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** Those who affirm the oneness of God, acknowledge the prophethood of all His
+messengers, and affirm them in what they brought from God of the laws of His religion — and make no distinction
+between any of them, not denying some and affirming others, but acknowledging that all that they brought from
+their Lord is true — those, whose description this is, God will give them their rewards: their recompense and
+their reward for affirming the messengers in the oneness of God, in the laws of His religion, and in what they
+brought from Him. **[Jalālayn]** And those who believe in God and all of His messengers and do not seek to
+divide between any of them — those We shall surely give them their wages, the reward for their deeds; a variant
+reading has the active form, "He shall surely give them." God is ever Forgiving to His friends, Merciful to
+those who obey Him. **[Qurṭubī]** The pronoun in "We shall give them" refers to the Prophet ﷺ and his
+community. **[Ibn Kathīr]** This is the counterpart of the preceding threat: as the verse before promised the
+distinguishers a humiliating punishment, this verse promises those who believe without distinction their
+rewards. **[Saʿdī]** This faith embraces belief in everything God has informed of Himself and everything the
+messengers brought of reports and rulings; they made no distinction among any of His messengers but believed in
+them all — and this is the true faith and the certainty built on proof. "Those — He will give them their
+rewards": the reward of the believers from His bounty. **[Study Quran]** The threat of punishment for
+disbelievers who seek to make a distinction between belief in God and His prophets is followed here by a
+corresponding promise of reward for those who believe without making such distinctions. The reminder that God is
+Forgiving, Merciful is understood by some to be an indication that all believers will ultimately be forgiven
+their misdeeds in the next life; even if they may be punished for them for a time, their punishment will not be
+eternal (al-Rāzī, Ṭabarī). **[Maʿārif]** In the concluding verse it has been reaffirmed that salvation in the
+Hereafter is the lot of those who believe in Him and in all of His prophets as well — therefore the Prophet ﷺ
+said, "One part of the Qurʾān explains the other," and it is not permissible for anyone to explain the Qurʾān in
+any way contrary to the *tafsīr* of the Qurʾān itself.
+
+**Reflection.** **[Saʿdī]** The two verses together set the boundary: there is no middle way between faith and
+disbelief — the one who believes in all the messengers has the rewards of all, and the one who divides them
+divides himself from the mercy he claims to seek. **[Ṭabarī]** And the closing names — Forgiving, Merciful —
+answer the fear raised by the severity of the previous verse: the one who returns from the "way in between" to
+the plain road finds the door open.
+
+**Cross-references.** "Say: We believe in God and in what has been sent down to us, and to Abraham, Ishmael,
+Isaac, Jacob and the tribes" (2:136); "And those who believe in God and His messengers and make no distinction
+between any of them — those He will give their rewards" (4:152); "Our Lord, forgive us and our brothers who
+preceded us in faith" (59:10); "Indeed, God is Forgiving, Merciful" (2:173).
+
+## 4:153
+
+*"The People of the Book ask you to bring down a Book upon them from heaven. But they asked Moses for something
+greater than that, for they said, 'Show us God openly,' and the thunderbolt seized them for their wrongdoing.
+Then they took the calf, even after clear proofs had come to them — yet We pardoned that, and We gave Moses a
+manifest authority."*
+
+**Meaning.** **[Ṭabarī]** The People of the Book — the people of the Torah among the Jews — ask you, O Muhammad,
+to bring down a Book upon them from heaven. The interpreters differed over the Book they asked him to bring
+down: some said they asked him to bring down a written book from heaven, as Moses came to the Children of Israel
+with the Torah written from God, so that they would believe him; and it was said: they asked that the Qurʾān be
+sent down upon them all at once, as the Torah was sent down all at once; and it was said: they asked him to
+ascend to heaven so that they might see him and he bring them a book. In any case, God said: "they asked Moses
+for something greater than that" — greater in gravity and more enormous — "for they said, 'Show us God openly,'"
+that is, in the open and before their eyes; "and the thunderbolt seized them for their wrongdoing" — for their
+having asked what they had no right to ask and their wrong; "then they took the calf" for a god to worship it
+"even after clear proofs had come to them" — after the signs and proofs brought them by Moses had made clear the
+oneness of God; "yet We pardoned that" — We did not annihilate them for it; "and We gave Moses a manifest
+authority" — a clear proof and evident power over them, for when he commanded them to kill themselves in
+repentance they obeyed him. **[Jalālayn]** The People of the Scripture — the Jews — will ask of you, O Muhammad,
+to cause a Book to be revealed to them from the heaven all at once, as was revealed to Moses, merely to harass
+you. If you consider this shocking, then know that they, their forefathers, asked Moses for something greater
+than that, for they said, "Show us God openly," before our eyes; so the thunderbolt — death — seized them as
+punishment for their evildoing when they harassed Moses with this demand. They then took to themselves the golden
+calf for a god after clear proofs — the miracles testifying to God's oneness — had come to them; yet We pardoned
+that and did not annihilate them; and We bestowed upon Moses clear authority — evident and manifest sway over
+them, for when he commanded them to slay themselves in repentance they obeyed him. **[Ibn Kathīr]** Muhammad b.
+Kaʿb al-Quraẓī, al-Suddī and Qatādah said that the Jews asked the Messenger of God to cause a book to come down
+to them from heaven just as the Torah was sent down to Moses; Ibn Jurayj said that the Jews asked the Messenger
+to cause books to come down to them addressed to so-and-so among them, testifying to the truth of what he was
+sent with. The Jews only asked for this because of their stubbornness, defiance, rejection and disbelief. And
+the disbelievers of Quraysh also asked for similar things, as is mentioned in Sūrat al-Isrāʾ: "And they say: We
+shall not believe in you until you cause a spring to gush forth from the earth for us" (17:90).
+
+**Rulings & reflection.** **[Study Quran]** The People of the Book here refers specifically to the Jews and,
+according to some reports, to certain Madinan Jewish leaders (al-Ṭabarī, al-Zamakhsharī). Their request that the
+Prophet bring a book down upon them from heaven as a proof of his prophethood is understood as a request that he
+bring an inscribed tablet similar to the one Moses brought (al-Rāzī, Ṭabarī, al-Zamakhsharī); see 28:48, where
+the Madinan Jews ask why the Prophet was not given the like of that which was given to Moses, and 17:93, where
+unspecified disbelievers assert that they will not believe until he brings down a book they can read. Some
+understand the request to be for a book or written document addressed exclusively to the Jews, or one explicitly
+validating the prophethood of Muhammad (Ṭabarī). The Israelites' request to Moses, "Show us God openly," is also
+recounted in 2:55, where they make it explicitly as a condition of their belief in Moses' prophethood; and in
+both accounts the punishment follows the demand. **[Qurṭubī]** "Openly" is a qualification of an elided verbal
+noun: a seeing openly; and they were punished with the thunderbolt for the enormity of what they brought of the
+demand and the wrong. **[Saʿdī]** When he mentioned their corrupt objection, he informed that it is nothing
+strange on their part: they had already committed uglier premises than what they did with the Messenger in whom
+they claim to believe — their asking to see God openly, their taking the calf as a god to worship after they had
+seen with their eyes signs that others had not seen, and their refusal to accept the rulings of their own book,
+the Torah, until the Mount was raised above their heads and they were threatened that if they did not believe it
+would be dropped on them. **[Ibn Kathīr]** And "even after clear proofs had come to them" — the miracles at the
+hand of Moses, and the drowning of Pharaoh and the splitting of the sea, which they saw. **[Study Quran]** The
+demand for a book from heaven is itself the evidence of the attitude: the revelation already present was
+sufficient, but they sought a spectacle rather than guidance — and the answer given is the memory of what their
+demand for spectacle produced before. **[Maʿārif]** Some Jewish chiefs came to the Prophet ﷺ and demanded that
+he bring down a book from heaven, all written from there, and said that if so, they would believe him. They had
+made this demand not because they wished to believe with all their heart on this condition — it was just a
+device to drag and stall; in fact, because of their chronic urge to take an opposite stand, they were given to
+offering one or another excuse at all times.
+
+**Cross-references.** "And when Moses came to you with clear proofs, you took the calf while he was away, and you
+were wrongdoers" (2:92); "And when We took your covenant and raised the Mount above you" (2:63); "The People of
+the Book ask you to bring down a Book upon them from heaven" (4:153); "And they say: We shall not believe in you
+until you cause a spring to gush forth from the earth for us" (17:90).
+
+## 4:154
+
+*"And We raised the Mount above them for their covenant, and We said to them, 'Enter the gate prostrating,' and
+We said to them, 'Do not transgress the Sabbath,' and We took from them a solemn covenant."*
+
+**Meaning.** **[Ṭabarī]** "And We raised above them the Mount" — the mountain — "for their covenant": when they
+refused to act upon what is in the Torah and to accept what Moses brought them in it, We raised the mountain
+above their heads until they accepted; "and We said to them, 'Enter the gate prostrating'": the gate of
+*ḥiṭṭah*, when they were commanded to enter it in prostration, and they entered crawling on their backs; "and We
+said to them, 'Do not transgress the Sabbath'" — do not commit unlawful acts concerning the Sabbath by fishing
+in it; "and We took from them a solemn covenant" — a firm, emphatic covenant. **[Jalālayn]** And We raised above
+them the Mount, on account of the covenant made with them, that they might fear — and so they accepted it; and We
+said to them while it cast a shadow hovering above them, "Enter the gate" — the gate of the town — "bowing"; and
+We said to them, "Transgress not" — a variant reading has the assimilated form, similar in meaning to "do not act
+unjustly in" — "the Sabbath," by fishing during it; and We took from them a firm covenant over this, but they
+broke it. **[Qurṭubī]** "We raised above them the Mount for their covenant": that is, because of their breaking
+the covenant taken from them, which was to act upon what is in the Torah; the raising of the mountain and their
+entering the gate have preceded in Sūrat al-Baqarah. "Prostrating" is in the accusative as a state. **[Study
+Quran]** The Mount (*al-Ṭūr*) refers to Mount Sinai here and wherever it is found in the Qurʾān (2:63, 93; 19:52;
+20:80; 28:29, 46; 52:1), although the full name "Mount Sinai" is given in two places (23:20; 95:2). The raising
+of the Mount over the Israelites is widely understood to refer to God's lifting of the mountain from its place
+and causing it to hover over the Israelites at the making of the covenant, as a sign warning them to make and
+keep the covenant (al-Rāzī; see also 2:63, 93). However, this image may simply be meant to convey their awe at
+the immensity of the mountain before them. "Enter the gate, prostrating" refers to the command to enter the land
+that had been promised to the Israelites; see 2:58; 5:21–23; 7:161. The importance of the Israelites' keeping of
+the Sabbath and the severe consequences of breaking it are also mentioned at 2:65; 4:47; 7:163, and the covenant
+between God and the Israelites in many places (e.g., 2:40, 83–84; 5:12, 70).
+
+**Rulings & reflection.** **[Ibn Kathīr]** Ibn Kathīr cites the reports that the companions of Moses entered the
+gate crawling on their buttocks, reversing the command in word and in deed, and that the Sabbath was tested by
+the fish that came on the Sabbath and vanished on other days; the breaking of the covenant is not a single act
+but a settled practice of evasion. **[Ṭabarī]** The sequence — the mountain, the gate, the Sabbath, the covenant
+— traces the story of a people who accepted only under threat, entered only crookedly, and kept their bond only
+until the next test; the verse therefore reads as a warning as much as a history. **[Saʿdī]** And God's mention
+of these episodes together with the previous verse shows the pedagogical aim: the demand for signs is answered
+by the record of the signs already given and the behavior of those who received them.
+
+**Cross-references.** "And when We took your covenant and raised the Mount above you: Take what We have given
+you with strength" (2:63); "And when We said, 'Enter this town and eat freely of it'" (2:58); "And ask them about
+the town that was by the sea, when they transgressed the Sabbath" (7:163); "And We took from the Children of
+Israel a solemn covenant" (4:154; cf. 33:7).
+
+## 4:155
+
+*"So for their breaking of their covenant, and their disbelief in the signs of God, and their slaying of the
+prophets without right, and their saying, 'Our hearts are covered' — nay, God has set a seal upon them for their
+disbelief, so they believe not, save a few."*
+
+**Meaning.** **[Ṭabarī]** So for these whose description I have given of the People of the Book — for their
+breaking of their covenant, the pledges by which they pledged to God to act upon what is in the Torah; and their
+denial of the signs of God, meaning His marks and proofs by which He argued against them for the truthfulness of
+His prophets and messengers; and their killing of the prophets without right — that is what their hands
+committed, and the messengers were innocent; and their saying, "Our hearts are *ghulf*" — covered, wrapped up,
+so that nothing enters them; rather, God has stamped them and sealed them because of their disbelief, so they do
+not believe, except a few — except a small number of them, like ʿAbdullāh b. Salām and his companions.
+**[Jalālayn]** So for their breaking of their covenant — the *mā* is extra and the *bāʾ* is causative, connected
+to an elided element: We cursed them because of their breaking their covenant — and their disbelieving in the
+signs of God and their slaying of the prophets wrongfully, and for their saying to the Prophet ﷺ, "Our hearts
+are covered up and cannot grasp what you say" — nay, but God sealed them for their disbelief, so they cannot
+heed any admonition; so they do not believe, except for a few among them. **[Qurṭubī]** The *bāʾ* is attached
+to an elided word: the estimate is, "so because of their breaking their covenant We cursed them" — said by
+Qatādah and others. **[Ibn Kathīr]** The sins mentioned here are among the many sins of the Jews that caused
+them to be cursed and removed far away from right guidance: they broke the promises and vows God took from them,
+rejected His signs and proofs — the miracles they witnessed at the hands of their prophets — and killed the
+prophets unjustly, for they killed many prophets; [and they said, "Our hearts are uncircumcised," meaning
+covered, so that no speech reaches them]. **[Study Quran]** The Israelites' breaking of their covenant is
+mentioned elsewhere (2:83–85; 5:13); their disbelieving in the signs of God refers to the Qurʾānic claim that
+they did not accept all of the messages and prophets sent to them (Ṭabarī), including Jesus; and the slaying of
+the prophets without right is a claim made against the Israelites in several places (2:61, 91; 3:181–83; 5:70);
+for Biblical references to the slaying of prophets by the Israelites, cf. Jeremiah 2:30; 26:20–23; Luke 13:34.
+
+**Rulings & reflection.** **[Study Quran]** "Our hearts are uncircumcised" also appears at 2:88 and is meant to
+express, metaphorically, their deliberate lack of receptivity to the prophetic messages sent to them (Ṭabarī);
+cf. 41:5. Uncircumcised translates *ghulf*, which can also mean "enwrapped"; and as this term appears only in
+the context of a claim by Israelites or Jews who are unfaithful to their covenant, it also carries an additional
+spiritual resonance: as Israelites or Jews they were circumcised bodily and outwardly, as a mark of their
+membership in the covenant community — so their claim that their hearts are uncircumcised is a claim to be
+outside the very covenant they profess to keep, and in the Qurʾān the claim is turned back on them: it is not
+that their hearts are naturally closed but that their own disbelief has closed them. **[Ibn Kathīr]** Hence "God
+has set a seal upon them for their disbelief, so they believe not, save a few" — the seal is not arbitrary but
+answer to the thing sealed. **[Saʿdī]** And their killing of the prophets without right is named separately
+because it is the extreme point of the sequence: disbelief in the signs, then murder of the bearers of the signs,
+then a claim of incapacity — "our hearts are covered" — which is the refusal to be answerable. **[Ṭabarī]** The
+final exception — "save a few" — is the door the verse leaves ajar: unbelief is named without being universal,
+and ʿAbdullāh b. Salām and his companions are called out as the answer to the collective claim. **[Maʿārif]**
+Like the earlier verses, the censure of the Jews continues through these; as a thematically coherent subject,
+their false ideas have also been refuted in detail in the following commentary. **[Ibn Kathīr]** Al-Ṭabarī and
+others record the reports of the Prophetic *ḥadīth* describing the hearts of the Children of Adam and the manner
+in which God's mention, and the covering of it by wrongdoing, is figured in the heart — a reminder that the
+"covering" of which the Jews spoke has its analogue in every soul that refuses the message.
+
+**Cross-references.** "And We had taken their covenant, but they broke it and disbelieved in the signs of God"
+(4:155); "And they say, 'Our hearts are uncircumcised'; nay, God has cursed them for their disbelief" (2:88);
+"Those who say, 'Our hearts are covered'" (41:5); "Truly God has cursed them for their disbelief, so they
+believe but little" (4:46, 155).
+
+## 4:156
+
+*"And for their disbelief, and for their uttering against Mary a tremendous calumny."*
+
+**Meaning.** **[Ṭabarī]** And for the disbelief of these whose description He has given, and for their speech
+against Mary — their fabrication against her and their casting her with fornication, which is the "tremendous
+calumny," because they cast at her with it without firm proof or evidence, while she was free of it: so they
+slandered her with falsehood of speech. Ibn ʿAbbās said, "That is, they cast at her with fornication."
+**[Jalālayn]** And for their disbelief — a second time — in Jesus; the *bāʾ* of "for their disbelief" is repeated
+in order to separate this disbelief in Jesus from what is supplemented to it — and their uttering against Mary a
+tremendous calumny when they accused her of fornication. **[Ibn Kathīr]** The Jews also slandered Mary and her
+son with grave accusations: they accused her of fornication and claimed that Jesus was an illegitimate son;
+some of them even claimed that she was menstruating while fornicating — may God's continued curse be upon them
+until the Day of Resurrection. **[Study Quran]** The tremendous calumny against Mary refers to the implied
+accusation of indecency against her when she, as an unmarried woman, brought forth her son Jesus
+(al-Zamakhsharī); see the commentary on 19:27–28. Al-Qushayrī identifies Mary as a friend of God (*waliyyah*,
+the feminine of *walī*) and indicates that two kinds of people will be chastised for their attitude toward such
+saintly persons: those who exaggerate concerning their station, such as, in Mary's case, those who considered her
+divine (see 5:116); and those who denounce them — for example, those who accused Mary of indecency rather than
+recognizing the miracle of her son's birth.
+
+**Reflection.** **[Ibn Kathīr]** The verse separates the calumny against Mary from the denial of Jesus by the
+repetition of the *bāʾ*: the slander of the mother and the rejection of the son are two crimes, and the slander is
+the uglier, because it assails the honour of a woman whom God had purified and chosen. **[Study Quran]** And al-
+Qushayrī's observation makes the verse a lesson in proportion: between the two extremes of divinizing her and
+slandering her lies the truth the Qurʾān itself states — she was a truthful woman, and her son was a prophet,
+and no good comes of either exaggeration or defamation. **[Maʿārif]** The censure of the Jews continues here as a
+thematic whole, preparing for the refutation of their false notions about Jesus in the verses that follow.
+
+**Cross-references.** "And Mary the daughter of ʿImrān, who guarded her chastity" (66:12); "And she who guarded
+her chastity, so We breathed into her of Our Spirit" (21:91); "He has made me blessed wherever I may be, and He
+has enjoined upon me prayer and charity as long as I live" (19:31); "And for their uttering against Mary a
+tremendous calumny" (4:156).
+
+## 4:157
+
+*"And for their saying, 'We killed the Messiah, Jesus the son of Mary, the messenger of God' — but they did not
+kill him, nor did they crucify him, but it was made to appear so to them. And those who differ concerning him
+are certainly in doubt about it; they have no knowledge of it, but follow conjecture; and they did not kill him
+for certain."*
+
+**Meaning.** **[Ṭabarī]** And for their saying, boastfully, "We killed the Messiah, Jesus the son of Mary, the
+messenger of God" as they claim — then God gave them the lie in their saying, and said: "and they did not kill
+him, nor did they crucify him, but it was made to appear so to them": they did not kill Jesus and did not
+crucify him, but the resemblance was cast for them. **[Ṭabarī]** The interpreters differed over the manner of
+the resemblance cast in the affair of Jesus: some said that when the Jews surrounded him and his companions,
+they surrounded them while not being sure of the identity of Jesus, for all of them were transformed into the
+likeness of Jesus, so that those who wanted to kill Jesus could not distinguish him from the others; and one of
+those who was in the house with Jesus came out to them, and they killed him, thinking that he was Jesus.
+**[Jalālayn]** "God" says in repudiating their claim to have killed him: and yet they did not slay him nor did
+they crucify him, but he who was slain and crucified, one of their own associates among the Jews, was given the
+resemblance of Jesus — God cast Jesus' likeness upon him, and so they thought it was him. And those who disagree
+concerning him — concerning Jesus — are surely in doubt regarding the slaying of him; for some of them said, when
+they saw the slain man, "The face is that of Jesus but the body is not his, so it is not he," and others said,
+"No, it is he." They do not have any knowledge of the slaying of him, only the pursuit of conjecture —
+following what they imagined they saw — and they did not slay him for certain, a circumstantial qualifier
+emphasising the denial of the slaying. **[Ibn Kathīr]** ʿAlī b. Abī Ṭalḥah reported from Ibn ʿAbbās: "They did
+not kill him and did not crucify him, but a likeness was made to appear to them," and he said, "It was the
+likeness of Jesus that was cast upon the one they killed." The Jews only uttered these words in jest and
+mockery, just as the polytheists said, "O you to whom the Reminder has been sent down, you are surely a
+madman" (15:6). When God sent Jesus with proofs and guidance, the Jews envied him because of his prophethood
+and obvious miracles — curing the blind and the leprous and bringing the dead back to life by God's leave, and
+making the shape of a bird from clay and blowing into it so that it became a bird and flew. Jesus performed
+other miracles God honoured him with, yet the Jews defied and belittled him and tried their best to harm him.
+**[Ibn Kathīr]** Jesus could not live in any one city for long and often travelled with his mother; yet the Jews
+were not satisfied, and they went to the king of Damascus at that time, a Greek polytheist who worshipped the
+stars, and told him that there was a man in Bayt al-Maqdis misguiding and dividing the people and stirring
+unrest among the king's subjects. The king became angry and wrote to his deputy in Jerusalem to arrest the rebel
+leader, stop him from causing unrest, crucify him and make him wear a crown of thorns. When the deputy received
+these orders, he went with some Jews to the house where Jesus was residing, and he was then with twelve, thirteen
+or seventeen of his companions. That day was a Friday, in the evening. They surrounded Jesus in the house, and
+when he felt that they would soon enter or that he would have to leave it, he said to his companions, "Who
+volunteers to be made to look like me, for which he will be my companion in Paradise?" A young man volunteered,
+but Jesus thought he was too young; he asked a second and third time, each time the young man volunteering,
+prompting Jesus to say, "Well then, you will be that man." God made the young man look exactly like Jesus, while
+a hole opened in the roof of the house, and Jesus was made to sleep and ascended to heaven while asleep — as God
+said, "O Jesus, I will take you and raise you to Myself" (3:55). When Jesus ascended, those who were in the house
+came out; and when those surrounding the house saw the man who looked like Jesus, they thought he was Jesus, so
+they took him at night, crucified him and placed a crown of thorns on his head. The Jews then boasted that they
+had killed Jesus, and some Christians accepted their false claim, due to ignorance and lack of reason. As for
+those who were in the house with Jesus, they witnessed his ascension to heaven, while the rest thought the Jews
+had killed Jesus by crucifixion. They even said that Mary sat under the corpse of the crucified man and cried,
+and they say the dead man spoke to her. All this was a test from God for His servants, out of His wisdom.
+
+**Stories & occasions.** **[Maʿārif]** Master exegete al-Ḍaḥḥāk says: it so transpired that, following the
+intention of the Jews to kill Jesus, his disciples assembled at a given place and Jesus joined them there. It
+was Iblīs who gave the address of Jesus to the execution squad standing ready for the mission; four thousand men
+surrounded the suspected house. Jesus said to his disciples, "Is one of you willing to go out and be killed and
+then be in Paradise with me?" One of them offered to do so; Jesus gave him his shirt and head-cover; then cast
+upon him was the resemblance of Jesus, and as soon as he came out, the Jews, believing him to be Jesus, caught
+him and crucified him, and Jesus was lifted (Qurṭubī). According to some reports, the Jews had sent a person
+known to the Arabs as Teetlanoos to kill Jesus; he did not find Jesus in the house, for he was already lifted by
+God towards Himself; so when this person came out of the house, he had been made to resemble the looks of Jesus,
+and the Jews took him to be Jesus; thus they took away their own man and killed him (Mazharī). There is room for
+whichever of the situations came to pass — the Holy Qurʾān has not determined any particular situation;
+therefore God alone knows what really happened. However, this sentence of the Holy Qurʾān, seen with other
+exegetical reports, does yield the common factor that the Jews and Christians were subjected to a compelling
+delusion: the event as it took shape remained hidden from them, though they advanced all sorts of claims based
+on their conjectures, which only landed them in mutual differences. **[Qurṭubī]** It was said that Jesus' likeness
+was cast on another; it was also said that they did not know his person and killed the one they killed while
+doubting him, as God said, "And those who differ concerning him are in doubt about it."
+
+**Rulings.** **[Study Quran]** Although the Qurʾān addresses and criticizes the Christian belief in the Trinity
+(v. 171; 5:73) and the divinity of Jesus (5:17, 72, 116; 9:31), this is the only passage that addresses the belief
+in Christ's crucifixion and death. It does not come in the context of a critique of Christian belief, however,
+but as part of a lengthy passage criticizing historical incidents of Jewish unfaithfulness to their covenant. It
+is important to note that here the critique is not aimed directly at the belief in Christ's crucifixion and
+death, but rather at the Jews' claim to have killed him. Their claim, seen as their way of mocking and
+dismissing Jesus' prophethood, is understood in the context of the Qurʾānic assertion that the Israelites
+rejected some of the prophets sent to them. Although the verse only directly criticizes a Jewish claim to have
+killed and crucified Jesus, it is widely understood in the Islamic tradition as meaning that Jesus was not
+crucified or killed at all; it only appeared so unto them. **[Study Quran]** Most Muslim commentators understand
+"it was made to appear so to them" to mean that someone else was made to look like Jesus and was killed in his
+place, while Jesus was raised to God (see v. 158). Among the alternative interpretations: some have understood
+the verse to deny not the crucifixion itself but the Jews' claim to have killed him by their own power, since
+Jesus' death, like every death, occurred only by God's permission and decree; and others have suggested the
+crucifixion of someone else. Ibn Kathīr records the saying of Ibn ʿAbbās that God cast the likeness of Jesus upon
+the one who was killed. **[study]** And God's word — "they did not kill him for certain" — addresses the
+knowledge of the crucifiers rather than the fact of the crucifixion in the Christian account: the killing they
+boasted of was a killing they could not identify, and the boast, not the cross, is what the verse dismantles.
+
+**Reflection.** **[Ibn Kathīr]** And why did God rescue Jesus from being killed? Because He is the Mighty, the
+Wise, and He is never weak; and He will not allow those who seek to harm His prophets to have their way in the
+end — and the final victory belongs to the messengers, as the preceding verse of the sūrah declared, "God will
+never give the disbelievers a way over the believers" (4:141). **[Saʿdī]** The whole passage serves as a lesson
+in the difference between knowledge and conjecture: the crucifiers acted on appearance and hearsay, and the
+Qurʾān names their act as *shubhah* — a resemblance that deceived them — and their knowledge as *ẓann*,
+conjecture. **[Maʿārif]** And the Jews' boast turned into their shame: they claimed a killing they did not
+accomplish, and the one they thought to destroy was raised to the presence of God.
+
+**Cross-references.** "O Jesus, I will take you and raise you to Myself" (3:55); "And peace be upon me the day
+I was born, the day I die, and the day I am raised alive" (19:33); "And they did not kill him for certain, but
+God raised him up to Himself" (4:157–58); "And there is not one of the People of the Book but will surely
+believe in him before his death" (4:159).
+
+## 4:158
+
+*"But God raised him up to Himself; and God is ever Mighty, Wise."*
+
+**Meaning.** **[Ṭabarī]** "But God raised him up to Himself" — God raised the Messiah to Himself: they did not
+kill him and did not crucify him, but God raised him to Himself and purified him from those who disbelieved.
+"And God is ever Mighty" — He has not ceased to take vengeance on His enemies, as He took vengeance on those
+whom the thunderbolt seized for their wrongdoing, and as He cursed those whose story He told in the preceding
+verse; "Wise" in His actions, in His vengeance and His decree. **[Jalālayn]** Nay, God raised him up to Him;
+God is ever Mighty in His kingdom, Wise in His actions. **[Ibn Kathīr]** "But Allah raised him up unto Himself"
+— meaning, He is the Almighty, and He is never weak, nor will those who seek refuge with Him ever be
+humiliated. **[Study Quran]** See also 3:55 and its commentary. The present verse, along with 3:55, represents
+the source of the Islamic belief that Jesus, as in the Christian tradition, ascended directly to God. "Raised
+up" here translates *rafaʿa*, which literally means "to raise," rather than *baʿatha*, which is used elsewhere to
+mean "to resurrect" after death. The verse is thus understood as referring to Jesus' direct ascension from the
+earthly realm to the presence of God without the intervening event of death. The Qurʾān is clear elsewhere,
+however, that Jesus is not divine (5:116). Logically, then, he must share in human mortality: Islamic tradition
+holds that Jesus will return near the end times to fight the Antichrist (*al-Dajjāl*) and will thereafter
+eventually die and be resurrected with the rest of humanity. Cf. 19:33, where Jesus affirms his future death and
+resurrection: "Peace be upon me the day I was born, the day I die, and the day I am raised alive." **[Qurṭubī]**
+The Gospel account indicates that Jesus' followers witnessed, or at least believed in, his death, resurrection
+and ascension; however, because the Qurʾān seems to present death and direct ascension in contradistinction to
+each other when it says, "They slew him not for certain. But God raised him up unto Himself," some Islamic
+accounts have held that another was substituted for him on the cross. **[Ibn Kathīr]** And the pairing of the
+names at the end — Mighty, Wise — is the answer to the crucifiers' boast: the Mighty is not overcome, and the
+Wise does not let the schemes of the schemers set the end of His prophets.
+
+**Reflection.** **[Maʿārif]** The event is set alongside the promise made in Sūrat Āl ʿImrān: "O Jesus, I am to
+take you in full and lift you towards Me" (3:55) — where five promises were made concerning the foiling of the
+Jewish plans against him, one of which was that they would not be allowed to have their way with their intention
+to kill him, and that instead God would lift him towards Him; the present verses make this explicit.
+**[Ṭabarī]** And "to Himself" is a phrase of honour and nearness, not of place; and the two names that follow
+measure the distance between the deed that was done in the world and the decree that governed it.
+
+**Cross-references.** "O Jesus, I will take you and raise you to Myself and purify you from those who
+disbelieve" (3:55); "And We made the son of Mary and his mother a sign" (23:50); "But God raised him up to
+Himself; and God is ever Mighty, Wise" (4:158); "Peace be upon me the day I was born, the day I die, and the day
+I am raised alive" (19:33).
+
+## 4:159
+
+*"And there is not one of the People of the Book but will surely believe in him before his death; and on the Day
+of Resurrection he will be a witness against them."*
+
+**Meaning.** **[Ṭabarī]** The interpreters differed over the meaning: some said the meaning is that there is
+none of the People of the Book but will surely believe in Jesus before his death — that is, before the death of
+Jesus — directing this to the fact that all of them will affirm him when he descends to kill the Antichrist, so
+that the religions will all become one, the religion of Islam, the *ḥanīfiyyah*, the religion of Abraham.
+Ibn ʿAbbās said, "Before the death of Jesus son of Mary." **[Jalālayn]** And there is not one of the People of
+the Scripture but will assuredly believe in him — in Jesus — before his death, that is, before the death of one
+belonging to the People of the Scripture, upon seeing the angels of death with his own eyes, at which point his
+faith will not profit him; or it means before the death of Jesus, after he descends at the approach of the Hour,
+as is stated in *ḥadīth*; and on the Day of Resurrection he — Jesus — will be a witness against them of what
+they did when he was sent to them. **[Qurṭubī]** Ibn ʿAbbās, al-Ḥasan, Mujāhid and ʿIkrimah said: the meaning is
+that they will surely believe in the Messiah before his death — that is, before the death of the person of the
+Book; the first pronoun refers to Jesus and the second to the person of the Book: for there is no one of the
+People of the Book, Jew or Christian, but will believe in Jesus when he beholds the angel — but it is a faith
+that does not profit, because it is faith at the point of despair and at the moment of death; the Jew
+acknowledges at that time that he was the Messenger of God, and the Christian acknowledges that he was the
+Messenger of God. **[Ibn Kathīr]** And there is none of the People of the Scripture but must believe in him
+before his death; and on the Day of Resurrection he will be a witness against them.
+
+**Rulings.** **[Maʿārif]** One tafsīr, which appears in *Bayān al-Qurʾān*, is that the pronoun in *mawtihi* be
+attributed to the People of the Book: the verse, in that sense, would mean that those Jews, when they see a
+glimpse of the interworld (*barzakh*) moments before their death, will readily believe in the prophethood of
+Jesus — though their believing at that point will be of no use to them, very much useless like the believing of
+Pharaoh which he did while drowning. The second tafsīr, which has been adopted by a large number of the
+Companions and the Successors and which also has the support of authentic *ḥadīth*, maintains that the pronoun in
+*mawtihi* refers back to the Messiah: the verse means that the People of the Book of this time, be they Jews or
+Christians, do not believe in Jesus in the real sense — the Jews do not accept him as a prophet but accuse him
+of being a liar and imposter, and the Christians, despite claiming to believe in him, reached a level of
+ignorance which led them to accept that he was crucified and killed, while others among them went out of the
+limits when they took him to be God and Son of God. But the time will come, close to the Day of Doom, when he
+will reappear on this earth and all Peoples of the Book will believe in him genuinely and authentically: all
+Christians will become Muslims holding true beliefs; the hostile among the Jews will be killed, and the rest
+will become Muslims. That will be the time when disbelief will be banished from the world along with whatever
+forms it may have, and Islam will finally reign supreme on the earth. **[Maʿārif]** Reproduced is the report
+from Abū Hurayrah: the Prophet ﷺ said, "The son of Mary shall definitely reappear as a just ruler. He will kill
+the Antichrist and the swine. He will break the cross and worship shall be made for God alone, the one Lord of
+all the worlds." Then Abū Hurayrah said: "Read, if you wish, the verse, 'And there is not one of the People of
+the Book but will surely believe in him before his death'" — and Abū Hurayrah said with stress, "Before the death
+of Jesus," repeating it three times (Qurṭubī). **[Study Quran]** Some commentators understand this verse to mean
+that all of the People of the Book, although here primarily Jews, will believe in Jesus before Jesus' own death,
+that is, after he returns near the end of time; another interpretation holds that the verse means that all of the
+People of the Book would believe in Jesus before their own deaths, although this seems a far less plausible
+explanation, for most Jews die without having accepted the prophethood of Jesus. Some commentators add that
+their "belief in him" immediately before death will be of no avail to them, just as Pharaoh's declaration of
+belief as he was drowning brought him no benefit (see 10:90–91). On the Day of Resurrection Jesus will serve as a
+witness against all of the People of the Book — that is, he will bear witness that he delivered the divine
+message entrusted to him and that in doing so he affirmed his own status as a human messenger of God, thus
+refuting both the claims of his divinity made by Christians and the rejection of his prophethood by the Jews.
+
+**Reflection.** **[Ibn Kathīr]** The two readings of the verse converge on one point: the confession that comes
+at the sight of death is not the faith the Qurʾān asks for, and the verse therefore stands as a warning rather
+than a comfort — the same warning as the previous passage gave about the "way in between." **[Ṭabarī]** And
+"he will be a witness against them" closes the matter with the person most intimately concerned: the one they
+slandered and claimed to kill will, on the Day of Resurrection, be the witness — and the witness will speak of
+what he taught and what they did with it. **[Qurṭubī]** And in the reports of his return there is a second
+mercy: the verse that ends with a witness against them also opens the possibility that the witness will find them
+believing.
+
+**Cross-references.** "And when God said, 'O Jesus, I will take you and raise you to Myself'" (3:55); "And he
+shall be a sign of the Hour, so do not doubt it" (43:61); "And I will make those who follow you above those who
+disbelieve until the Day of Resurrection" (3:55); "And on the Day of Resurrection he will be a witness against
+them" (4:159).
+
+## 4:160
+
+*"And for the wrongdoing of those who are Jews, We made unlawful for them certain good things that had been
+lawful for them, and for their hindering many from the way of God."*
+
+**Meaning.** **[Ṭabarī]** Because of the wrongdoing — the *mā* is causative — of those of Jewry, We forbade them
+certain good things that had been lawful for them: those things God has mentioned in the verse "And to those who
+are Jews We forbade every beast with claws" (6:146); and because of their barring people from God's way — from
+His religion — many a time. **[Jalālayn]** And because of the evildoing of some of those of Jewry We have
+forbidden them certain good things that were lawful for them — those things mentioned where God says, "And to
+those of Jewry We have forbidden every beast with claws" (6:146) — and because of their barring of people from
+God's way, from His religion, many a time. **[Qurṭubī]** Al-Zajjāj said this is a substitute for "for their
+breaking of their covenant." The good things are what God specified in "And to those who are Jews We forbade
+every beast with claws" (6:146); and God placed the wrongdoing before the prohibition because it is the purpose
+He intended to report as the cause of the prohibition. "And for their hindering from the way of God" — their
+hindering themselves and others from following Muhammad ﷺ. **[Ibn Kathīr]** God states that because of the
+injustice and transgression of the Jews, demonstrated by committing major sins, He prohibited some of the lawful,
+pure things which were previously allowed for them. This prohibition could be only that of decree, meaning that
+God allowed the Jews to falsely interpret their Book and change and alter the information about what was allowed
+for them — they thus, out of exaggeration and extremism in the religion, prohibited some things for themselves;
+it could also mean that in the Torah, God prohibited things that were allowed for them before, as He said, "All
+food was lawful to the Children of Israel, except what Israel made unlawful for himself before the Torah was sent
+down" (3:93). **[Study Quran]** After the discussion of the fate of Jesus and his ascension to God, refuting the
+Jews' claim to have killed him, this verse resumes the thread of criticism toward the Jews begun in v. 155. For
+all of these offenses, the Qurʾān asserts that the Jews were forbidden certain good things (*ṭayyibāt*) that had
+been made lawful to them. *Ṭayyibāt* is usually employed to mean earthly provisions granted by God and refers
+explicitly to food in several places; see 2:172; 5:5; 20:81; 23:51; as well as 2:57; 7:160, where it is used in
+reference to the manna and quails God provides the Israelites in the desert. The present verse refers to the
+prohibition of certain foods for the Jews; see also 3:93 and 6:146, where they are forbidden clawed animals and
+the fat of oxen and sheep. **[Maʿārif]** Mentioned earlier through several verses were the wrongdoings of the
+Jews and the punishment they would get; the present verses talk about some other vices of theirs and mention yet
+another kind of punishment. This punishment will obviously visit them on the Day of Judgment, but right here in
+this present world the outcome will be that they will find many things already lawful for them made unlawful as a
+measure of punishment. In the law brought by Muhammad ﷺ there are also things known as unlawful, but these were
+forbidden because of one or another physical or spiritual harm they bring — contrary to what happened with the
+Jews, whose good things were forbidden as a punishment, not because of harm.
+
+**Rulings & reflection.** **[Ibn Kathīr]** The prohibition is thus a punishment whose cause is named: wrongdoing,
+turning people from the way of God, taking interest though forbidden, and devouring people's wealth unjustly —
+as the next verse adds. **[Study Quran]** And the passage shows the Qurʾānic pattern of argument with the People
+of the Book: each accusation is joined to its consequence, and the laws of earlier communities are presented as
+answers to their conduct rather than as eternal burdens. **[Qurṭubī]** And the mention of the hindering
+concludes the catalogue: it is not enough that they wronged themselves; they turned others aside, and the
+community that obstructs the road to God is answered by the narrowing of its own permitted things.
+
+**Cross-references.** "And to those who are Jews We forbade every beast with claws" (6:146); "All food was
+lawful to the Children of Israel, except what Israel made unlawful for himself before the Torah was sent down"
+(3:93); "Because of the wrongdoing of the Jews, We forbade them good things that had been made lawful to them,
+and because of their often hindering from the way of God" (4:160); "Those who disbelieve and hinder from the way
+of God — We shall increase them in punishment" (16:88).
