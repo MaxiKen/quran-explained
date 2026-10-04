@@ -250,3 +250,223 @@ over their heads so as not to hear — as in 71:7.
 **Reflection.** Whoever supposes that walls, garments or folded breasts can hide him from God has not yet
 grasped that He is aware of the breasts themselves — concealment is a delusion that only postpones the
 account.
+
+## 11:6
+
+*"There is no creature that crawls upon the earth but its provision lies with God; and He knows its
+dwelling-place and its repository. All is in a clear Book."*
+
+**Meaning.** **[Ṭabarī]** "There is no creature that crawls upon the earth": whatever crawls upon the
+earth — *dābbah* being the active noun from *dabba*, to crawl — "but its provision lies with God": from
+God comes the provision that reaches it, its food, its nourishment and that by which it lives, and He has
+undertaken it. Mujāhid said: whatever provision comes to it is from God; He may not provide it until it
+dies of hunger, but whatever provision there is, is from God. Al-Ḍaḥḥāk: every crawling thing, humankind
+among them. **[Jalālayn]** The *min* is extra for emphasis: there is not a crawling thing on earth but its
+sustenance rests on God — sustenance He has undertaken to provide out of His bounty. He knows its
+habitation — its dwelling-place in this world, or in the loins — and its repository — after death, or in
+the womb; and all that is mentioned is in a clear Book, the Preserved Tablet. **[Ibn Kathīr]** God informs
+that He has taken upon Himself the provisions of all creatures that crawl on the earth, small and great,
+sea-dwelling and land-dwelling; He knows their dwelling-place — where their journeying will end in the
+earth and where they shelter when they nest — and, from Ibn ʿAbbās: "its dwelling-place" is where it
+resides, "its repository" is where it will die. All of this is written in a Book with God that details it,
+like "not a leaf falls but He knows it" (6:59).
+
+**Language.** **[Qurṭubī]** *Mā* is a negation, *min* an intensifier, and *dābbah* is nominative: "there is
+not a single crawler." "Upon God" is in the sense of "from God" (Mujāhid), or: it is of His bounty, not of
+obligation; or: a promise of His that is true — and nothing is incumbent upon Him, glorified is He. The
+verse is general in wording but particular in scope, since many crawlers perish before being provisioned —
+or it is general in fact, for every crawler not given a provision by which it lives has at least been
+given its life. *Dābbah* is every animal that crawls, and provision in truth is that by which a living
+thing is nourished, its spirit preserved and its body grown. Provision cannot mean ownership: beasts are
+provided for without being owners of their fodder, and infants are given the milk in the breast without
+owning it; and "in the heaven is your provision" (51:22) though we own nothing in the sky. Were provision
+ownership, a man eating another's property would be eating another's provision — impossible, for no servant
+ever eats anything but his own provision. He keeps the sayings of the ascetics asked where they ate from:
+"He who created the millstone brings it its flour, and He who cleft the mouths creates the provisions";
+Abū Usayd: "Glory be to God! God provides for the dog — will He not provide for Abū Usayd?"; and Ḥātim
+al-Aṣamm, asked whether God sends him dinars and dirhams from heaven: all wealth is from God.
+
+**Belief.** **[Maʿārif]** The verse follows the preceding account of God's all-encompassing knowledge: He
+who has Himself undertaken the sustenance of every moving thing cannot be unaware of the states of the
+disbelievers and hypocrites who try to hide from Him. It extends to beasts, birds, insects and the animals
+of land and sea — birds because their nests are on the land, water-creatures because of their connection to
+its surface. God has worded the promise as a duty imposed on someone, using *ʿalā*, "upon," though no power
+could impose liability on Him: He made the promise of His own grace and mercy, and it comes from One true
+and merciful, so the certainty of it is absolute. Lexically *rizq* is that by which a creature procures its
+food, the body grows and the soul survives, and ownership is not required — animals and infants are
+provisioned without owning.
+
+**Ḥadīth & āthār.** **[Maʿārif]** The Ashʿarīs, when famine pressed them, sent an emissary to the Prophet
+ﷺ; hearing this verse he reasoned that the Ashʿarīs were no worse than the creatures in God's sight and
+returned without asking anything. His companions thought he brought a promise of help, and hardly had they
+sat down when two men arrived carrying a great tray of meat and bread; they ate their fill and sent the
+leftovers to the Prophet ﷺ. When they thanked him for the food he said, "I sent no food — it was sent by
+the Most Sacred Being who has taken upon Himself the provision of every living creature." He also recalls
+the report that when Mūsā was sent to Pharaoh and worried for his family left in the wilderness, he was
+told to strike his staff upon the rock, and it split for him with a sign of provision from where he did
+not expect.
+
+**Reflection.** The One who guarantees the food of every crawler guarantees yours; anxiety over provision
+is really doubt about the Provider.
+
+## 11:7
+
+*"It is He who created the heavens and the earth in six days, while His Throne was upon the water — that
+He might try you, which of you is best in deed. And if you were to say, 'You shall be raised after death,'
+the disbelievers would surely say, 'This is nothing but manifest sorcery.'"*
+
+**Meaning.** **[Ṭabarī]** God, to whom is your return, is the One who created the heavens and the earth in
+six days — can He who created them from nothing be incapable of reviving you after He has taken you in
+death? He preserves the ḥadīth of Abū Hurayrah: the Messenger of God ﷺ took my hand and said, "God created
+the soil on Saturday, the mountains on Sunday, the trees on Monday, *al-makrūh* (harm) on Tuesday, the
+light on Wednesday, and scattered therein every crawling thing on Thursday; and He created Ādam after the
+ʿAṣr prayer on Friday, at the last of creation, in the last hour of Friday, between ʿAṣr and nightfall" —
+a sound report recorded by Muslim, which the editor defends against those who would impugn it or its
+narrator. **[Ibn Kathīr]** God informs that His Throne was over the water before the creation, as in the
+ḥadīth of ʿImrān b. Ḥuṣayn (Bukhārī and Muslim): the people of Yemen asked about the beginning of this
+matter, and he ﷺ said, "God was before everything, His Throne was over the water, and He wrote in the
+Preserved Tablet the remembrance of everything"; and Muslim from ʿAbdullāh b. ʿAmr: "God decreed the
+measures of creation fifty thousand years before He created the heavens and the earth, and His Throne was
+over the water." "That He might try you, which of you is best in deed": He created the heavens and the
+earth for the benefit of His servants, that they worship Him without partner — not in vain (38:27;
+23:115–116). Note that He did not say "which of you has the most deeds" but "the best": a deed is not
+accepted until it is sincere for God and in accordance with the legislation of His Messenger; lacking
+either condition it is null. The polytheists themselves confess God is the Creator (43:87; 29:61), yet
+reject the resurrection — though re-creation is easier than origination (30:27; 31:28) — and call it
+"manifest sorcery" out of disbelief and obstinacy, saying the speaker is bewitched. **[Jalālayn]** The
+first of the six days was Sunday and the last Friday; His Throne, before their creation, was upon the
+water borne by the winds. *Li-yabluwakum* attaches to "He created": He created them and all the benefit in
+them to test which of you is most obedient to God. *Siḥr* is also read *sāḥir*, "sorcerer," referring then
+to the Prophet ﷺ. **[Maʿārif]** The verse tells that water was created before the heavens and the earth;
+the detailing of the six days is in Sūrah Fuṣṣilat (41:9–12); per Tafsīr Maẓharī, "heavens" is everything
+high and above, "earth" everything low and below, and "day" is the measure of time — though at creation
+there was no sun or rising or setting. God could have created all this in the flash of a moment, but in
+His wisdom He made this world's order gradual, as suits human temperament; and mankind is the real purpose
+of the creation of the heavens and the earth, created to do best and to recognize their Master.
+
+**Stories & occasions.** **[Qurṭubī]** The verse makes plain that the Throne and the water were created
+before the earth and the sky. Kaʿb said *(Isrāʾīliyyāt)*: God created a green emerald-ruby and gazed upon
+it with awe, and it became water trembling for fear of God — which is why water trembles to this day even
+when still; then He created the wind and set the water upon its back, and placed the Throne upon the
+water. Ibn ʿAbbās, asked "upon what was the water?", answered: upon the back of the wind. Bukhārī's
+version of the ʿImrān b. Ḥuṣayn ḥadīth is given here too: the people of Yemen said, "We have come to
+understand the religion and to ask about the beginning of this matter — how was it?" **[Study Quran]**
+al-Rāzī notes that "upon" here cannot indicate physical space, since the heavens and earth did not yet
+exist for the Throne to stand above them physically; it may indicate how the heavens came about without
+physical support beneath them, as in "He raised the heavens without pillars that you see" (13:2).
+
+**Reflection.** The world was not built for amusement but for testing — and the test asks not for quantity
+of deed but for its quality: sincerity and conformity. Whoever knows the Throne was over the water before
+anything existed learns that nothing of his affair is outside the decree already written.
+
+## 11:8
+
+*"And if We defer the punishment from them until a numbered term, they will surely say, 'What holds it
+back?' On the day it comes to them, it shall not be turned away from them, and that which they used to
+mock shall encompass them."*
+
+**Meaning.** **[Ṭabarī]** If We defer the punishment from these idolaters of your people, O Muḥammad, and
+do not hasten it, respiting them "until a numbered nation (*ummah*)": a limited time and counted years.
+The root of *ummah* is a body of people gathered upon a way and a religion, and it is used here for the
+period within which an *ummah* exists; the sense is: until the coming of one nation and the passing of
+another. Ibn ʿAbbās (via Abū Razīn) and Qatādah: until a limited term, a counted term. **[Jalālayn]** If We
+postpone the chastisement until the arrival of a reckoned time, they say in mockery, "What is detaining
+it?" — and on the day it comes it cannot be averted from them, and that chastisement they derided shall
+descend upon them and surround them. **[Ibn Kathīr]** If We delay the torment and the destruction of these
+polytheists until an appointed, determined period, they still say, in rejection and haste, "What keeps it
+back?" — rejection and doubt are their very nature, and they have no escape or refuge from the torment.
+The word *ummah* comes in the Qurʾān and Sunnah with several meanings, among them a specified period of
+time, as here and in "he remembered after an *ummah*" (12:45). **[Maʿārif]** The verse answers those who
+doubted the prophets' warnings: if the punishment is true, why does it not come? — chronic deniers dismiss
+what they will not understand as mere magic.
+
+**Language.** **[Qurṭubī]** The lām of *laʾin* is for the oath, and its answer is *layaqūlunna*. "Until an
+*ummah*" means a counted term and known time — Ibn ʿAbbās, Mujāhid, Qatādah and the majority. *Ummah* is a
+homonym applied on eight faces: a group (28:23); the followers of prophets; a man comprehensive in good
+who is imitated, "Ibrāhīm was an *ummah*" (16:120); a religion and creed (43:22); a time and span, as here
+and in 12:45; stature, one says "he has a handsome *ummah*" meaning stature; a man singular in his
+religion — the Prophet ﷺ said, "Zayd b. ʿAmr b. Nufayl will be raised an *ummah* alone"; and a mother.
+They said "what holds it back?" either to deny the punishment because of its delay, or in hastening and
+mockery. "It shall not be turned away": it was said the reference is the slaying of the polytheists at
+Badr and the slaying of the mockers by Jibrīl. *Ḥāqa bihim*: descended and encompassed; "what they used to
+mock" means the recompense of what they mocked, the muḍāf being suppressed.
+
+**Cross-references.** **[Study Quran]** The question was asked out of derision and to demonstrate the
+threat's falsehood (Ṭ); in the end the punishment they sought to hasten with their mockery becomes real
+and descends upon them — and the motif of mockery rebounding on the mocker runs through the Qurʾān: 6:10;
+16:34; 21:41; 39:48; 40:83; 45:33; 46:26.
+
+**Reflection.** Delay is not denial: the respite of nations is a counted thing, and the very question
+"what holds it back?" is stored up against the one who asks it in mockery.
+
+## 11:9
+
+*"And if We let man taste mercy from Us, then We take it away from him — behold, he is despairing,
+ungrateful."*
+
+**Meaning.** **[Ṭabarī]** If We let man taste ease and expansiveness of provision and livelihood, spreading
+the world over him — this is the "mercy" of the verse — then We strip it from him and calamities sweep it
+away: "he is despairing" — he remains despairing of God's mercy, hopeless of good; *yaʾūs* is the
+intensive form from *yaʾisa*, "to despair." "Ungrateful": ungrateful to the One who blessed him, scant in
+thankfulness to the Lord who favoured him with what He had bestowed. Ibn Jurayj: O son of Ādam, when a
+blessing of God is upon you — ease, security and well-being — you are ungrateful for it; and when it is
+taken from you, you despair of God's relief — such is the hypocrite and the unbeliever. **[Jalālayn]** If
+We let the disbelieving man taste mercy — wealth and good health — then wrest it from him, he is
+despairing of God's mercy, intensely ungrateful to Him. **[Saʿdī]** God reports human nature as ignorant
+and unjust: if God lets man taste mercy — health, provision, children and the like — then withdraws it, he
+surrenders to despair and submits to despondency; he does not hope for God's reward and it never occurs to
+him that God will return it, or its like, or better.
+
+**Context.** **[Qurṭubī]** "Man" here is generic for all the disbelievers; it is also said it is al-Walīd
+b. al-Mughīrah and that the verse was revealed about him, and also ʿAbdullāh b. Abī Umayyah al-Makhzūmī.
+"Mercy" means a blessing; *laʾūs*: despairing of mercy; *kafūr*: denying the blessings, per Ibn
+al-Aʿrābī. *Yaʾūs* is intensive, like *fakhūr* for emphasis; the grammarians note that only four sound
+verbs in Arabic come on the pattern *faʿila yafʿil*, and *yaʾisa* is one of them.
+
+**Ḥadīth & āthār.** **[Study Quran]** Some commentaries mention with this verse the ḥadīth qudsī: "I am as
+My servant thinks of Me; let him think well of Me" — believers must harbour a good opinion of God's acts;
+al-Rāzī says the believer knows these blessings came to him from God's bounty, so their disappearance
+should not make him despair, and he should say: perhaps after this God will return them to me more perfect
+and beautiful than before.
+
+**Reflection.** Despair after a blessing taken is to remember the gift and forget the Giver; whoever knows
+all provision is God's does not despair when He takes back what was His to give.
+
+## 11:10
+
+*"And if We let him taste favour after adversity has touched him, he will surely say, 'The ills have gone
+from me.' Behold, he is exultant, boastful."*
+
+**Meaning.** **[Ṭabarī]** If We expand for man in his world and give him ease after straitness and
+hardship he had been struggling with — "he will surely say, 'The ills have gone from me'": the straitness
+and hardship have passed from me, the difficulties and hateful things have vanished. "Exultant": rejoicing
+in the blessings he has been given, delighted with them; "boastful": boasting over the ease he attained in
+this world — forgetting its reverses and bitterness, abandoning the seeking of the bliss that remains and
+the joy that never fades. Ibn Jurayj: "The ills have gone from me" is said in delusion about God and
+boldness toward Him; "exultant" — and God does not love those who exult; "boastful" — after he has been
+given, without thanking God. **[Jalālayn]** If We let him taste prosperity after misery — impoverishment
+and hardship — he says "the ills have gone from me," though he had not expected them to go, and still he
+does not give thanks; exultant, boasting to people of what he has been given. **[Ibn Kathīr]** He claims
+that no harm or calamity will afflict him after this; he is pleased with what is in his hand, ungrateful
+to God, and boastful toward others — and God will except those who are patient (11:11): patient in
+hardship, doing righteous deeds in ease, for whom forgiveness through their afflictions and a great reward
+for what they sent forward. **[Saʿdī]** He rejoices and exults, supposing the good will last for him, and
+this carries him to insolence, conceit, self-admiration, arrogance toward the creatures and contempt of
+them — and what defect is greater than this?
+
+**Language.** **[Qurṭubī]** *Naʿmāʾ* is health, ease and expansiveness of provision; *ḍarrāʾ* is harm,
+poverty and hardship; "the ills": the harms that grieve their owner of distress and poverty; *fakhūr* is
+intensive; some Medinans read *lafaruḥun*, with a ḍammah, like *faṭun* and *ḥadhur*. The exception
+"except those who are patient" (11:11) is in the accusative: al-Akhfash took it as disconnected — "but
+those who were patient and did righteous deeds in ease and affliction alike" — while al-Farrāʾ took it as
+connected, since "man" means all people, believer and unbeliever alike.
+
+**Cross-references.** **[Study Quran]** Such people do not thank God for removing their difficulties and
+do not consider that the new blessings too can be taken away; they are exultant, boastful but deluded (Bḍ),
+rejoicing over blessings while forgetting gratitude (Q) — see 39:49: "I was only given it because of
+knowledge." **[Maʿārif]** Man is consumed by his immediate condition: comfort after suffering makes him
+forget the suffering and brag, imagining the blessings were his due and will endure — as heedless of the
+fact that as the days of hardship did not last, the days of comfort may not last either.
+
+**Reflection.** Gratitude binds the blessing; its absence turns prosperity into arrogance, and the man who
+says "the ills have gone from me" has already forgotten who sent them and who removed them.
