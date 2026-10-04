@@ -70,3 +70,32 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** Guidance is a mercy, but clarity also makes refusal consequential: the verse asks its hearers to attend to evidence rather than resist it. **[Ṭabarī] [Saʿdī]**
 
 ---
+
+
+## 3:5
+
+*Nothing is hidden from God on earth or in heaven.*
+
+**Meaning.** **[Jalālayn]** takes this to include every existent thing, universals and particulars; “heaven and earth” name the whole domain known to human perception. **[Qurṭubī]** expands the claim across what has been, what is, what will be, and what will never be, and makes it an argument against treating Jesus as divine when things are hidden from him. **[Ṭabarī]** applies it directly to the Najrān debate: God knows the disputants’ intentions and what they were attempting to establish about Jesus. **[Ibn Kathīr]** emphasizes that nothing in either heaven or earth escapes God’s perfect knowledge. **[Saʿdī]** and **[Maʿārif]** place this knowledge alongside divine power as evidence that worship belongs to God alone.
+
+**Cross-references.** 14:38; 27:75 **[Study Quran]**.
+
+**Reflection.** No hidden argument or private intention is outside divine knowledge. The next verse brings that all-encompassing knowledge close to the individual by speaking of formation in the womb. **[Ṭabarī] [Saʿdī]**
+
+---
+
+## 3:6
+
+*He it is Who forms you in the wombs however He wills. There is no deity but He, the Mighty, the Wise.*
+
+**Meaning.** **[Ṭabarī]** says God fashions each person as He wills—male or female, with differing complexions—and that Jesus, like every other human being, was formed in his mother’s womb. **[Qurṭubī] [Ibn Kathīr]** draw the argument against making Jesus divine: the one who is formed is a creature, not the independent Creator. **[Jalālayn]** notes variation in sex and appearance; **[Saʿdī]** adds fully or incompletely formed bodies and the stages of creation. **[Maʿārif]** reads the knowledge and power displayed in 3:5–6 as proofs that only God deserves worship. **[Study Quran]** likewise notes that the verse is often read as an implicit argument against divinizing Jesus, since he too was once in the womb.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites a report in Ṣaḥīḥ Muslim from Thawbān: a Jewish questioner asks about the child, and the Prophet ﷺ describes the man’s fluid as white and the woman’s as yellow; when they meet, whichever predominates is associated, by God’s permission, with a male or female child. **[Ṭabarī]** also transmits an expanded report through al-Suddī, attributed to Ibn ʿAbbās, Ibn Masʿūd, and other Companions: after three forty-day stages, an angel mixes earth into the embryo, forms it, and writes its sex, felicity or misery, provision, lifespan, and afflictions *(weak)*. The editor notes that al-Ṭabarī had earlier said he did not know this chain to be sound, and distinguishes this wording and chain from related reports in Bukhārī and Muslim.
+
+**Belief.** **[Ṭabarī]** reads “the Mighty, the Wise” as a declaration that no rival shares God’s rule and no one can prevent His judgement. **[Qurṭubī]** also turns the verse against those who treat nature as an independent creator *(digression)*.
+
+**Cross-references.** 22:5 **[Study Quran]**; 23:12–14 **[Qurṭubī]**; 39:6 **[Ibn Kathīr]**.
+
+**Reflection.** The verse places every person’s form and origin within God’s knowledge and wisdom; bodily difference is not self-creation. **[Saʿdī]** Qurṭubī preserves an anecdote about Ibrāhīm b. Adham, who said he was occupied by four uncertainties: which group he belonged to at the primordial covenant, what was decreed for him in the womb, whether he would die in faith, and with which group he would stand at the final judgement *(digression)* **[Qurṭubī]**.
+
+---
