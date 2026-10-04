@@ -54,6 +54,25 @@ You are continuing a verse-by-verse Qur'an tafsir in this repo (MaxiKen/quran-ex
   **[Ṭabarī]** **[Qurṭubī]** **[Ibn Kathīr]** **[Jalālayn]** **[Saʿdī]** **[Maʿārif]** **[Study Quran]**.
 - **No per-source files. No master merge. No coverage/audit lines.** The chapter file is the product.
 
+**Repo map:**
+
+```
+quran-explained/
+├── SPEC.md                 # binding format spec (7 sources, blocks, rules)
+├── HANDOVER.md             # this file — continuation prompt & operating manual
+├── tools/sect.py           # per-verse corpus extractor (all reading goes through it)
+├── 1/al-fatihah.md         # ✅ complete
+├── 2/al-baqarah.md         # ✅ complete (286 entries)
+├── 3/…                     # ⏭️ create 3/al-imran.md and start at 3:1
+├── tafsir-al-tabari/       # corpora (read-only): NNN.txt per sūrah
+├── tafsir-al-qurtubi/
+├── tafsir-ibn-kathir/
+├── tafsir-al-jalalayn/
+├── tafsir-as-saadi/
+├── tafsir-maarif-ul-quran/
+└── tafsir_initial/         # Study Quran: NNN.md
+```
+
 ---
 
 ## 2. Non-negotiable decisions (rejected approaches — do not re-litigate)
@@ -586,7 +605,9 @@ unwritten verse.
 **Completed:**
 - `1/al-fatihah.md` — 7,010 words; seven-source regeneration; headings `## 1:1`–`## 1:7`.
 - `2/al-baqarah.md` — **296,808 words; 286 entries; 2:1–2:286 complete**, QC'd (gap at 2:122–123
-  filled; 2:50 attribution fixed). HEAD at handover: **`96d773a`** (pushed).
+  filled; 2:50 attribution fixed). Last content commit: **`96d773a`** (pushed).
+- Continuation pack: **`HANDOVER.md`** (this file), **`tools/sect.py`**, and the SPEC pointer —
+  commit **`c2caf5f`** (pushed). HEAD at handover: **`c2caf5f`**.
 
 **Not started:** Sūrah 3 (Āl ʿImrān, 200 verses).
 
