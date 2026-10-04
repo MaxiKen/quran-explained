@@ -125,3 +125,115 @@
 **Meaning.** **[Ṭabarī]** explains denial as rejection of God’s oneness and of the signs and proofs brought by His messengers; the “companions” of the Fire are bound to its punishment [Jalālayn]. Set beside the promise of 5:9, the verse makes clear that the two outcomes correspond to opposed responses to revelation: trust expressed in righteous deeds, or rejection of the signs.
 
 **Reflection.** The warning is not a licence to judge hidden hearts; it calls the hearer to take revelation seriously and to answer it with faith and action [Ibn Kathīr].
+
+---
+
+## 5:11
+
+*“O you who believe, remember God’s blessing upon you when a people were prepared to stretch out their hands against you, but He withheld their hands from you. Be mindful of God, and in God let the believers trust.”*
+
+**Meaning.** The believers are to count their deliverance from hostile plans as a blessing, not only victories or material gains. The precise incident is variously identified: reports mention an attacker who seized the Prophet’s sword, while others connect the verse with a plot by Banū Naḍīr; **[Study Quran]** notes that al-Ṭabarī favors the latter in light of the following passage. The shared point is that God frustrated an intended assault [Qurṭubī], [Study Quran].
+
+**Reflection.** Gratitude for protection becomes trust: believers take care, but do not imagine their safety rests on their own strength alone [Saʿdī].
+
+---
+
+## 5:12
+
+*“God made a covenant with the Children of Israel, and We raised among them twelve leaders. God said, ‘I am with you. If you perform the prayer, give alms, believe in My messengers, support them, and lend God a goodly loan, I shall absolve you of your evil deeds and admit you to gardens beneath which rivers flow. Whoever among you disbelieves after that has strayed from the right way.’”*
+
+**Meaning.** The twelve *naqībs* were leaders appointed among the tribes, responsible for their people and for their response to the covenant [Jalālayn], [Study Quran]. God’s promised aid is conditional on prayer, almsgiving, belief in all His messengers, supporting them, and spending sincerely in His cause. In return He promises forgiveness and the Garden; turning away after accepting the covenant is deviation from the way that leads to it [Ṭabarī], [Saʿdī].
+
+**Reflection.** “I am with you” is a promise of help joined to responsibility. Religious privilege is no guarantee by itself; a covenant is kept through worship, generosity, and loyalty to revelation [Saʿdī].
+
+---
+
+## 5:13
+
+*“For their breaking of the covenant, We cursed them and hardened their hearts. They distort the meaning of the Word and have forgotten a portion of what they were reminded of. You will continue to discover treachery from them, except for a few. Yet pardon them and forbear. Truly God loves the virtuous.”*
+
+**Meaning.** The verse links the breaking of a solemn covenant with estrangement from mercy and hearts made unreceptive; the people addressed distort words from their proper contexts and neglect part of their instruction [Ṭabarī], [Jalālayn]. **[Study Quran]** relates hardened hearts to persistent wrongdoing that leaves people less responsive to divine reminders. The exception—“a few”—prevents the charge from being made absolute.
+
+**Context.** The command to pardon and forbear instructs the Prophet how to respond to recurring treachery. **[Jalālayn]** records the classical view that this pardon-command was later superseded by the “sword” verse (9:5); the verse’s broader moral lesson remains that forbearance is a virtue, not a denial of justice.
+
+**Reflection.** Repeatedly neglected truth can change the heart that neglects it; the passage warns against treating covenant-breaking as a harmless lapse [Saʿdī].
+
+---
+
+## 5:14
+
+*“With those who say, ‘We are Christians,’ We made a covenant, but they forgot a portion of what they were reminded of. So We stirred up enmity and hatred among them until the Day of Resurrection. God will inform them of what they used to do.”*
+
+**Meaning.** As with Israel, the verse describes a covenant and the neglect of part of its reminder. **[Ṭabarī]** and **[Qurṭubī]** connect that covenant with worship of the One God and faithfulness to the messengers, including the coming Messenger. The resulting enmity is understood as discord and division within Christian communities; **[Study Quran]** cautions that the verse’s immediate context points to such factionalism rather than simply to conflict between Christians and Jews.
+
+**Belief.** Human divisions are not beyond God’s knowledge or judgment: He will make their deeds and their consequences clear at the Resurrection [Jalālayn].
+
+**Reflection.** A community’s name does not substitute for faithfulness to what it has been taught [Saʿdī].
+
+---
+
+## 5:15
+
+*“O People of the Book, Our Messenger has come to you, making clear much of what you used to conceal of the Book, and pardoning much. There has come to you from God a light and a clear Book.”*
+
+**Meaning.** The Messenger exposes matters that had been concealed or disputed in earlier scripture, while leaving aside what need not be disclosed [Jalālayn]. **[Saʿdī]** presents the clarification itself as a sign of his prophethood: the Qur’an speaks to matters the learned among the People of the Book knew but did not make public. “Light” is understood as the Prophet or as revelation; “the clear Book” is the Qur’an, made plain as guidance [Study Quran].
+
+**Cross-references.** The Qur’an also speaks of concealing or altering scripture at 2:42, 3:71, and 3:187, and calls revelation a light at 7:157 and 42:52 [Study Quran].
+
+**Reflection.** Revelation uncovers what is necessary for guidance and pardons what need not be pursued; clarity is a mercy, not merely an accusation [Saʿdī].
+
+---
+
+## 5:16
+
+*“Through it God guides whoever seeks His good pleasure to the ways of peace, brings them from darkness into light by His leave, and guides them to a straight path.”*
+
+**Meaning.** The “light and clear Book” of the preceding verse guides those who seek God’s pleasure to paths of safety and peace, and from the many darknesses of error to the single light of guidance [Jalālayn], [Study Quran]. The movement takes place “by His leave”: guidance is a divine gift, not something claimed independently of God.
+
+**Belief.** **[Study Quran]** notes the Qur’anic pattern of plural “darknesses” contrasted with singular “light,” linking the latter to God’s oneness and guidance. The straight path is the life ordered by revelation, not merely the ability to recognize a proposition.
+
+**Reflection.** Seeking God’s pleasure is made visible in the route one follows: peace, clarity, and steady obedience [Saʿdī].
+
+---
+
+## 5:17
+
+*“They indeed disbelieve who say, ‘God is the Messiah, son of Mary.’ Say, ‘Who could avail anything against God if He wished to destroy the Messiah, son of Mary, his mother, and all who are on earth?’ To God belongs the sovereignty of the heavens and the earth and all between them. He creates whatever He wills; God is powerful over all things.”*
+
+**Meaning.** The claim that the Messiah is God is answered by his and Mary’s dependence on the Creator: neither they nor anyone else could prevent God’s will concerning them [Ṭabarī], [Jalālayn]. The One who owns the heavens and earth and creates as He wills is not one of the beings He creates [Study Quran]. The verse’s argument also addresses the inference that Jesus’ extraordinary birth makes him divine: creation without a human father remains within God’s power [Saʿdī].
+
+**Belief.** The passage affirms God’s sole sovereignty and rejects the divinization of Jesus or Mary, while naming Jesus with honor as the Messiah and son of Mary [Maʿārif], [Study Quran].
+
+**Reflection.** A sign of God’s power should lead to worship of the Creator, not confusion between the sign and its Lord [Saʿdī].
+
+---
+
+## 5:18
+
+*“The Jews and the Christians say, ‘We are the children of God and His beloved ones.’ Say, ‘Why, then, does He punish you for your sins?’ Rather, you are human beings among those He created. He forgives whom He wills and punishes whom He wills. To God belongs the sovereignty of the heavens and the earth and all between them, and to Him is the journey’s end.”*
+
+**Meaning.** The claim of special closeness cannot exempt anyone from moral accountability: the question “Why then does He punish you?” exposes the contradiction between presumed immunity and the reality of sin [Ṭabarī], [Qurṭubī]. **[Jalālayn]** reads “children” as a metaphor for closeness and care, not literal divine offspring. All people remain created and dependent; forgiveness and punishment belong to God, whose sovereignty and final judgment encompass all.
+
+**Reflection.** Hope in God’s love must be joined to humility and repentance; no inherited or communal status puts a person beyond responsibility [Study Quran].
+
+---
+
+## 5:19
+
+*“O People of the Book, Our Messenger has come to you, making things clear after an interval between messengers, lest you say, ‘No bearer of glad tidings or warner came to us.’ A bearer of glad tidings and a warner has indeed come to you. God is powerful over all things.”*
+
+**Meaning.** The “interval” (*fatrah*) is the period between Jesus and Muhammad, after which revelation again clarifies the way and removes the claim that no messenger had come [Jalālayn], [Saʿdī]. The Prophet is both a bearer of good news for those who respond and a warner to those who reject the message [Study Quran].
+
+**Context.** The address answers People of the Book who objected that they had received no recent messenger; the Qur’an presents this mission as a renewed clarification, not a denial of earlier prophets [Ṭabarī], [Qurṭubī].
+
+**Reflection.** A long interval does not make guidance unnecessary; when a messenger comes, the hearer is responsible for what has been made clear [Saʿdī].
+
+---
+
+## 5:20
+
+*“And when Moses said to his people, ‘O my people, remember God’s blessing upon you when He appointed prophets among you, made you sovereign, and gave you what He had given to none among the worlds.’”*
+
+**Meaning.** Moses calls the Israelites to remember the privileges God had granted them: prophets from among them, release from Pharaoh’s domination, and blessings beyond those of other peoples in their time [Jalālayn], [Study Quran]. **[Saʿdī]** notes that prophets taught them guidance and warned them of ruin; being “made kings” means that they were freed to govern their own affairs, rather than remaining enslaved. The reminder prepares them for Moses’ next command to enter the Holy Land (5:21).
+
+**Reflection.** Remembered blessing should make a people more willing to obey, not more certain that they can ignore a command [Saʿdī].
