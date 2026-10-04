@@ -513,3 +513,103 @@
 **Meaning.** The verse depicts the terror of the disbelievers’ death: angels take their souls while rebuking and striking them, and announce the punishment awaiting them. **[Ṭabarī] [Jalālayn] [Saʿdī]** Some reports connect the scene specifically with Quraysh killed at Badr, while others read it generally of the disbeliever at death; Qurṭubī also records interpretations referring to the angels leading them to the Fire. **[Ibn Kathīr] [Qurṭubī] [Maʿārif] [Study Quran]**
 
 **Reflection.** The warning turns attention from a person’s apparent standing in this world to the moral reality of the final encounter, when actions cannot be hidden or undone. **[Saʿdī] [Study Quran]**
+
+## 8:51
+
+*“That is for what your hands sent forth, and because God is not unjust to His servants.”*
+
+**Meaning.** The punishment announced in 8:50 is attributed to deeds people themselves committed. “What your hands sent forth” is an idiom for their actions and sins; God does not punish without cause or wrong anyone. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Study Quran]**
+
+**Context.** The verse completes the description of the angels taking the souls of the disbelievers and proclaiming the punishment of the Fire. **[Saʿdī]**
+
+**Reflection.** The warning is paired with a statement of justice: accountability is real, but it is not arbitrary. **[Saʿdī] [Maʿārif]**
+
+## 8:52
+
+*“[Their way was] like the way of Pharaoh’s people and those before them: they disbelieved in God’s signs, so God seized them for their sins. God is Strong, severe in retribution.”*
+
+**Meaning.** The Quraysh’s rejection and defeat at Badr are compared with the habitual course of Pharaoh’s people and earlier communities: they denied God’s signs and were seized for their wrongs. **[Ṭabarī] [Ibn Kathīr] [Jalālayn]** The Arabic *daʾb* can mean a people’s habitual conduct and the outcome that follows from it. **[Study Quran]**
+
+**Reflection.** The comparison makes Badr part of a recurring moral pattern in scripture, not an isolated accident: power cannot make a community immune to the consequences of rejecting guidance and acting unjustly. **[Saʿdī] [Maʿārif]**
+
+## 8:53
+
+*“That is because God does not change a blessing He has bestowed upon a people until they change what is within themselves; God is Hearing, Knowing.”*
+
+**Meaning.** God’s favour is not withdrawn arbitrarily. In the immediate setting, the Quraysh changed their response to the blessing of a messenger from among them: they rejected him, expelled him, and fought him. **[Ṭabarī] [Jalālayn] [Maʿārif]** As-Saʿdī generalizes the lesson: when people change from gratitude and obedience to ingratitude and disobedience, a blessing may be replaced by hardship. **[Saʿdī] [Ibn Kathīr]**
+
+**Cross-references.** The Study Quran connects the principle with 13:11, which also links a people’s changed condition to what they change within themselves. **[Study Quran]**
+
+**Reflection.** The verse calls for self-examination before blaming fate: a community’s response to its blessings is morally significant, while God knows both its public actions and inward motives. **[Saʿdī] [Maʿārif]**
+
+## 8:54
+
+*“[Their way was] like the way of Pharaoh’s people and those before them: they denied their Lord’s signs, so We destroyed them for their sins and drowned the people of Pharaoh; all were wrongdoers.”*
+
+**Meaning.** The example now names the end of Pharaoh’s people: they rejected their Lord’s signs, and Pharaoh’s household was drowned. The Quraysh’s defeat is placed alongside earlier punishments of communities that persisted in wrongdoing. **[Ṭabarī] [Ibn Kathīr] [Jalālayn]**
+
+**Context.** Read with 8:52–53, this is not a separate episode but the completion of the comparison between the Meccans at Badr and earlier communities. **[Maʿārif] [Study Quran]**
+
+**Reflection.** Repeated warnings are an opportunity to turn back; persistence in injustice is what makes the earlier histories a warning rather than merely a story. **[Saʿdī]**
+
+## 8:55
+
+*“Truly the worst of living creatures in God’s sight are those who disbelieve and will not believe.”*
+
+**Meaning.** The verse describes those who persist in rejecting God’s messengers and signs as the worst of creatures in moral and spiritual terms. The following verse specifies a related trait: repeatedly breaking covenants without reverence for God. **[Ṭabarī] [Jalālayn] [Ibn Kathīr]**
+
+**Context.** Jalālayn connects the passage with Banū Qurayẓah; other commentators explain the wording generally before identifying the treaty-breakers in 8:56. **[Jalālayn] [Qurṭubī] [Maʿārif]**
+
+**Reflection.** The severe image concerns persistent rejection and treachery, not a person’s ancestry: what makes the conduct blameworthy is the refusal to believe and to honour commitments. **[Saʿdī] [Study Quran]**
+
+## 8:56
+
+*“Those with whom you made a covenant, then who break their covenant every time, and who are not reverent.”*
+
+**Meaning.** The verse describes people who repeatedly violate agreements made with the Prophet, including a pledge not to support those fighting the Muslims. **[Ṭabarī] [Jalālayn]** Commentators identify the historical setting with Jewish tribes of Madīnah, particularly Banū Qurayẓah and Banū Naḍīr; the principle concerns the conduct of repeated treaty-breaking, not a general judgment on a whole people. **[Qurṭubī] [Maʿārif] [Study Quran]**
+
+**Context.** The reference follows the Meccan opponents’ defeat at Badr and turns to agreements made in Madīnah. Reports describe violations through cooperation with Quraysh and other hostile forces. **[Qurṭubī] [Maʿārif]**
+
+**Reflection.** A covenant is a serious moral bond. Repeatedly breaking it while claiming security under it is both a political betrayal and a failure of reverence for God. **[Saʿdī]**
+
+## 8:57
+
+*“If you encounter them in war, make them an example that will scatter those behind them, that they may take heed.”*
+
+**Meaning.** The instruction concerns treaty-breakers encountered in an actual state of war: when they are overpowered, their defeat is to deter others from repeating the breach. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]** The verb translated “scatter” means to disperse or drive away those who might follow their example. **[Ṭabarī] [Jalālayn]**
+
+**Context.** The immediate referent is the group described in 8:56, whose covenant-breaking had made them active adversaries. As-Saʿdī stresses the limiting phrase “in war”: even a person known for treachery may not be attacked while a valid agreement still binds the parties. **[Saʿdī] [Maʿārif]**
+
+**Reflection.** The passage makes deterrence conditional on open conflict after a broken covenant; it does not authorize secret betrayal or punishment of people merely suspected of future wrongdoing. **[Saʿdī] [Study Quran]**
+
+## 8:58
+
+*“If you fear treachery from a people, then cast their covenant back to them on equal terms. God loves not the treacherous.”*
+
+**Meaning.** If there are signs that a treaty partner may betray an agreement, the Muslims must openly notify them that the treaty is ended, so both sides know they are no longer bound by it. They may not pretend the treaty remains in force while secretly preparing to attack. **[Ṭabarī] [Jalālayn] [Saʿdī] [Study Quran]** “On equal terms” means that knowledge of the treaty’s termination is made equal between the parties. **[Qurṭubī] [Ibn Kathīr]**
+
+**Rulings.** The verse establishes an ethic of transparent treaty termination. As-Saʿdī notes that if a breach is already certain and public, the situation differs; where the treaty still stands and treachery is only feared, it must not be discarded without notice. **[Saʿdī] [Maʿārif]**
+
+**Reflection.** The prohibition on treachery applies even in conflict with an adversary. Justice requires candour about the end of an agreement, not a surprise attack under its cover. **[Ibn Kathīr] [Study Quran]**
+
+## 8:59
+
+*“Let not those who disbelieve suppose that they have escaped; they cannot thwart God.”*
+
+**Meaning.** The verse warns the Quraysh and other opponents not to mistake survival or temporary escape for being beyond God’s power. “They cannot thwart Him” means they cannot elude His judgment or make His decree fail. **[Ṭabarī] [Jalālayn] [Ibn Kathīr]**
+
+**Context.** Following the rules on warfare and treaties, the reminder addresses those who have not been seized at Badr or who escaped its immediate consequences. **[Maʿārif] [Study Quran]**
+
+**Reflection.** Delay is not proof of impunity. The verse invites patience and moral seriousness rather than triumphalism when an opponent survives a conflict. **[Saʿdī]**
+
+## 8:60
+
+*“Prepare against them whatever force you can, and horses tethered for battle, to deter the enemy of God, your enemy, and others besides them whom you do not know—God knows them. Whatever you spend in God’s way will be repaid to you in full; you will not be wronged.”*
+
+**Meaning.** The believers are commanded to prepare the means available to them—arms, mounts, training, and other support—so that hostile forces are deterred from attacking. The verse’s stated purpose is to make aggressors think again, while “others whom you do not know” leaves room for threats not yet apparent. **[Ṭabarī] [Jalālayn] [Study Quran]**
+
+**Ḥadīth & āthār.** The Prophet explained “strength” as archery, in a report cited by Qurṭubī and transmitted by Muslim. **[Qurṭubī] [Jalālayn]**
+
+**Rulings.** As-Saʿdī understands the command to cover whatever defensive capacity is possible in a community’s time; the Study Quran notes that the verse also has a spiritual allegorical reading, but its immediate context is military preparedness. **[Saʿdī] [Study Quran]**
+
+**Reflection.** Read beside 8:58, preparedness is joined to just conduct: the community is to be ready, yet it must not violate a treaty or act treacherously. Expenditure made for legitimate protection is not lost with God. **[Maʿārif] [Qurṭubī] [Saʿdī]**
