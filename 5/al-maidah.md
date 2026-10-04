@@ -583,3 +583,117 @@
 **Belief.** Certainty in God entails trust that His judgment is wiser than rulings built on privilege or caprice.
 
 **Reflection.** A society may have courts and customs and still practice *jāhiliyyah* when it makes justice depend on who stands before it [Saʿdī].
+
+---
+
+## 5:51
+
+*“O you who believe, do not take Jews and Christians as protectors. They are protectors of one another. Whoever among you takes them as protectors is of them. Truly God does not guide wrongdoing people.”*
+
+**Meaning.** The word *awliyāʾ* can mean protectors, allies, or close patrons. **[Study Quran]** reads it here chiefly as protective allegiance or a dominant loyalty that could divide the Muslim community or expose it to betrayal, not as a ban on ordinary dealings, kindness, or fair treatment. **[Maʿārif]** likewise distinguishes forbidden intimacy that compromises religious identity from tolerance, goodwill, and justice in social relations. The verse describes the groups’ mutual alliance and warns against a competing allegiance that makes one complicit in their hostile purpose [Ṭabarī], [Saʿdī].
+
+**Context.** Reports connect the verse with Madinan alliances: ʿUbādah ibn al-Ṣāmit withdrew from an old pact, while ʿAbd Allāh ibn Ubayy retained his [Ṭabarī], [Study Quran].
+
+**Reflection.** Loyalty is tested when a relationship asks a believer to betray conscience or community; the verse does not erase the separate commands to act justly and honorably [Maʿārif].
+
+---
+
+## 5:52
+
+*“You see those in whose hearts is a disease hastening toward them, saying, ‘We fear that a change of fortune may befall us.’ Perhaps God will bring victory or a command from Him, and then they will regret what they kept hidden within themselves.”*
+
+**Meaning.** “Disease” here means doubt, hypocrisy, or weakness of faith [Jalālayn], [Study Quran]. The people rush to maintain protective alliances because they fear the Muslims may suffer defeat or hardship and want a powerful alternative to turn to [Qurṭubī], [Saʿdī]. God may grant victory or disclose a decisive judgment; either would expose the motives they concealed and leave them remorseful [Ṭabarī].
+
+**Reflection.** The verse contrasts trust in God with hedging one’s loyalty for advantage. Fear of uncertain circumstances can reveal where a person has placed confidence [Saʿdī].
+
+---
+
+## 5:53
+
+*“Those who believe will say, ‘Are these the ones who swore their most solemn oaths by God that they were with you?’ Their deeds have come to nothing, and they have become losers.”*
+
+**Meaning.** When the hidden intentions of the hypocrites become clear, the believers ask in astonishment whether these are the very people who had solemnly promised support [Jalālayn], [Study Quran]. The verse pronounces their pretended loyalty fruitless: deeds detached from sincere faith and used to conceal betrayal do not earn the promised reward [Ṭabarī].
+
+**Reflection.** Words of solidarity are measured by what a person does when loyalty is costly, not by the strength of the oath alone [Maʿārif].
+
+---
+
+## 5:54
+
+*“O you who believe, whoever among you turns back from his religion—God will bring a people whom He loves and who love Him, humble toward the believers, firm toward the disbelievers, striving in God’s way, and fearing no blame from any critic. That is God’s bounty; He gives it to whom He wills. God is All-Encompassing, Knowing.”*
+
+**Meaning.** Apostasy would not diminish God or defeat His religion; God can replace the apostate with people characterized by reciprocal love of God, humility among believers, steadfastness in God’s cause, and courage before criticism [Ṭabarī], [Saʿdī]. “Firm toward the disbelievers” describes resolve in matters of faith, not license to mistreat peaceful people. **[Ibn Kathīr]** reports the Prophet’s gesture toward Abū Mūsā al-Ashʿarī when this verse was recited; exegetes also connect it with the later tribes who renounced their commitments.
+
+**Belief.** Love of God is shown in faithful following and devoted action, not in a bare claim [Saʿdī].
+
+**Reflection.** No individual is indispensable to the truth: divine guidance is a gift, and the faithful are called to serve it humbly rather than boast of belonging [Study Quran].
+
+---
+
+## 5:55
+
+*“Your protector is only God, His Messenger, and those who believe—those who perform the prayer and give alms while bowing down.”*
+
+**Meaning.** The verse names God, the Messenger, and the believing community as the bonds of loyalty for believers [Ṭabarī], [Saʿdī]. Prayer and almsgiving mark a community whose devotion to God is joined to care for others; “while bowing” can describe humility in worship or the act of bowing in prayer [Study Quran], [Jalālayn].
+
+**Context.** Some reports connect the verse with ʿUbādah ibn al-Ṣāmit’s pledge of loyalty to the Prophet and with ʿAlī giving charity while bowing. Many early authorities read the description generally of the faithful, while other commentators give ʿAlī a particular place in its occasion or application [Study Quran], [Qurṭubī].
+
+**Reflection.** True allegiance links worship, generosity, and solidarity; it is not merely a verbal declaration [Saʿdī].
+
+---
+
+## 5:56
+
+*“Whoever takes God, His Messenger, and those who believe as protectors—the party of God are the ones who will prevail.”*
+
+**Meaning.** Those who place their loyalty with God, His Messenger, and the believers belong to the “party of God” and receive His support [Jalālayn], [Saʿdī]. Their victory is not independent power: it is the result of belonging to God through faith and obedience [Maʿārif].
+
+**Reflection.** The verse answers the fear of shifting fortunes in 5:52: enduring success rests on fidelity to God, not on whichever alliance seems strongest at the moment [Study Quran].
+
+---
+
+## 5:57
+
+*“O you who believe, do not take as protectors those who take your religion in mockery and play, from among those given the Book before you or the disbelievers. Be mindful of God, if you are believers.”*
+
+**Meaning.** The warning concerns people who ridicule the faith and treat its worship as a game; the verse names particular opponents among the People of the Book and the disbelievers [Ṭabarī], [Jalālayn]. It continues the discussion of *awliyāʾ* in 5:51: believers should not entrust intimate allegiance to those who actively scorn their worship [Study Quran].
+
+**Context.** Reports say some mocked Muslims during prayer and prostration [Qurṭubī]. The target is the conduct described, not every person belonging to the named communities.
+
+**Reflection.** Respect for worship is a boundary of sincere friendship; ridicule of the sacred should not be normalized as harmless play [Saʿdī].
+
+---
+
+## 5:58
+
+*“When you call to prayer, they take it in mockery and play. That is because they are a people who do not understand.”*
+
+**Meaning.** Some opponents mocked the call to prayer and the believers’ response to it [Ṭabarī], [Jalālayn]. **[Study Quran]** notes that this is the Qur’an’s direct mention of the *adhān*, the public call that summons the community to prayer.
+
+**Context.** Early reports describe people scoffing at the call or at Muslims standing, bowing, and prostrating [Qurṭubī]. The verse condemns contempt for worship, not a difference of religious practice by itself.
+
+**Reflection.** To mock the call is to miss the act’s meaning: prayer gathers people in remembrance of God and in humility before Him [Saʿdī].
+
+---
+
+## 5:59
+
+*“Say, ‘O People of the Book, do you resent us for any reason other than that we believe in God, in what was sent down to us, and in what was sent down before—and because most of you are iniquitous?’”*
+
+**Meaning.** The Prophet is told to answer hostility by naming the grounds of Muslim belief: faith in God, the Qur’an, and the revelations that came before it [Ṭabarī], [Jalālayn]. The reproach is directed at “most,” not all, among the addressed; **[Maʿārif]** emphasizes that the wording leaves room for those among the People of the Book who sincerely believed and followed revelation.
+
+**Context.** One report connects the dispute with Jewish interlocutors who objected when the Prophet affirmed Jesus and earlier prophets [Study Quran].
+
+**Reflection.** The verse presents belief in earlier revelation as part of Islam’s own confession, not a reason for enmity [Saʿdī].
+
+---
+
+## 5:60
+
+*“Say, ‘Shall I tell you of something worse as recompense from God? Those whom God has cursed and with whom He is wroth, some of whom He made apes and swine, and who worshipped false gods—those are worse in station and further astray from the right way.’”*
+
+**Meaning.** The verse answers the charge against believers with a warning about divine judgment on earlier transgressors [Ṭabarī], [Jalālayn]. “Some” were made apes and swine: **[Study Quran]** relates the phrase especially to the Sabbath-breakers (2:65; 7:163–66), while commentators differ over whether the transformation is literal or figurative of a degraded spiritual state. Worship of false powers is another mark of the waywardness named here.
+
+**Context.** The language responds to those who deride the believers’ faith; it recalls specific acts of rebellion, not an inherent trait of an entire people [Study Quran], [Maʿārif].
+
+**Reflection.** The answer to mockery is not mockery in return but a reminder that all communities stand under God’s judgment [Saʿdī].
