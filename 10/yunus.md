@@ -601,3 +601,83 @@
 **Meaning.** The deniers may enjoy worldly life for a time, but it is temporary; after death they return to God and face punishment for disbelief **[Ṭabarī] [Jalālayn]**. Al-Qurṭubī describes the present life as a brief enjoyment, not a lasting victory **[Qurṭubī]**. Ibn Kathīr connects the warning directly to the false attribution in the preceding verses: the claim of divine offspring does not exempt its speakers from judgment **[Ibn Kathīr]**. The Study Quran likewise reads the three verses together as a warning against fabricating claims about God **[Study Quran]**.
 
 **Reflection.** A temporary advantage cannot be mistaken for final success; the lasting measure is the return to God and the truth one chose to affirm or deny **[Saʿdī]**.
+
+## 10:71
+
+*“And recite unto them the story of Noah, when he said to his people, ‘O my people! If my presence is grievous to you, and my reminding you of the signs of God, then in God do I trust. So decide on your plan, you and your partners; let there be no doubt concerning your plan, but carry it out against me, and grant no respite!’”*
+
+**Meaning.** The Prophet is told to recite Noah’s story to the Makkans as a warning from earlier history **[Qurṭubī]**. Noah tells his people that neither their hostility nor their rejection of his reminders will turn him from his trust in God. He challenges them to gather their plan and alleged partners, then act without delay **[Ṭabarī] [Jalālayn]**. As-Saʿdī places the speech after Noah’s long mission—950 years, as stated elsewhere (29:14)—and reads his words as readiness to endure whatever they devise **[Saʿdī]**. The Study Quran understands the challenge as confidence that their plots cannot overcome God’s protection **[Study Quran]**.
+
+**Reflection.** A messenger’s confidence rests not on ease of circumstances, but on trust in God while continuing to speak the truth **[Ibn Kathīr]**.
+
+## 10:72
+
+*“If you turn your backs, I have not asked of you any reward. My reward lies only with God, and I am commanded to be among those who submit.”*
+
+**Meaning.** Noah answers any suspicion that he seeks a personal benefit from his people: he has demanded no wage for his preaching. His reward is with God, and his duty is to be among those who submit to Him **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn emphasizes that Noah’s reward for conveying the message belongs to God alone **[Jalālayn]**. The Study Quran notes that the absence of a demand for recompense is a mark associated with the prophets **[Study Quran]**.
+
+**Reflection.** The messenger seeks the people’s guidance, not payment or prestige; the same principle distinguishes sincere counsel from self-interest **[Ibn Kathīr]**.
+
+## 10:73
+
+*“Yet they denied him. So We saved him and those with him in the Ark, and We made them successors, and We drowned those who denied Our signs. So observe how those who were warned fared in the end.”*
+
+**Meaning.** Noah’s people rejected him, but God rescued him and the believers with him in the Ark, then made them successors after those who drowned **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn identifies the drowning with the Flood and treats the survival of Noah’s followers as the outcome of their acceptance of the warning **[Jalālayn]**. The Study Quran notes that the language echoes other accounts of Noah’s rescue and the destruction of those who denied the signs **[Study Quran]**. The story ends with a command to consider the outcome, not merely to hear the narrative **[Ibn Kathīr]**.
+
+**Reflection.** The contrast between rescue and drowning makes the earlier warning concrete: rejection has consequences, while faithfulness is not forgotten.
+
+## 10:74
+
+*“Then, after him, We sent messengers unto their people, and they brought them clear proofs. But they would not believe in that which they had denied beforehand. Thus do We set a seal upon the hearts of the transgressors.”*
+
+**Meaning.** After Noah, God sent other messengers to their communities with clear proofs. The people persisted in rejection, so their hearts were sealed against belief **[Ṭabarī] [Ibn Kathīr]**. Al-Qurṭubī and al-Jalālayn explain “what they had denied beforehand” as the truth already rejected by earlier people; al-Qurṭubī also records an interpretation linking the phrase to the primordial covenant **[Qurṭubī] [Jalālayn]**. As-Saʿdī stresses that the seal follows their repeated refusal of truth when it was brought to them **[Saʿdī]**. The Study Quran likewise describes denial as a habit that closes people to later guidance **[Study Quran]**.
+
+**Reflection.** Repeated rejection can harden into a settled disposition; the verse warns people not to treat the first refusal lightly.
+
+## 10:75
+
+*“Then, after them, We sent Moses and Aaron with Our signs to Pharaoh and his notables. But they waxed arrogant, and they were a guilty people.”*
+
+**Meaning.** Moses and his brother Aaron are sent to Pharaoh and the leaders around him with signs from God. Al-Qurṭubī identifies the “notables” as the chiefs of Pharaoh’s people and the signs as the miracles given to the brothers **[Qurṭubī]**. Al-Jalālayn specifies the nine signs; The Study Quran highlights the staff and the shining hand among them **[Jalālayn] [Study Quran]**. As-Saʿdī notes that the leaders’ response mattered because the wider population followed them; they arrogantly rejected signs they had recognized **[Saʿdī]**. Their crime lies not in lack of evidence but in prideful resistance **[Ibn Kathīr]**.
+
+**Reflection.** Power can make leaders especially resistant to a truth that threatens their status; the verse records that refusal as guilt, not strength.
+
+## 10:76
+
+*“So when the Truth came unto them from Us, they said, ‘Surely this is manifest sorcery!’”*
+
+**Meaning.** Pharaoh and his people label the signs brought by Moses and Aaron as magic rather than accept their origin in God **[Ṭabarī] [Qurṭubī]**. Ibn Kathīr places the accusation within their opposition to Moses’ mission **[Ibn Kathīr]**. The Study Quran notes that accusations of sorcery were also directed at other messengers, including Jesus and Muhammad **[Study Quran]**. As-Saʿdī treats the response as a reversal: they saw the truth, yet described it as falsehood in order to reject it **[Saʿdī]**.
+
+**Reflection.** A label can be used to avoid examining evidence; the verse asks readers to judge the claim by what it demonstrates, not by the name opponents give it.
+
+## 10:77
+
+*“Moses said, ‘Do you say this about the Truth when it has come to you? Is this sorcery? The sorcerers will not prosper.’”*
+
+**Meaning.** Moses rejects the accusation: how can the truth be called magic simply because it challenges those who see it? He then declares that sorcerers do not prosper **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn explains the question as a denunciation of their claim, while The Study Quran notes that sorcery rests on deception and falsehood **[Jalālayn] [Study Quran]**. The verse anticipates the contest that follows: the outcome will distinguish God’s sign from the artifice of the magicians **[Ibn Kathīr] [Saʿdī]**.
+
+**Reflection.** The truth is not defeated by being called magic; the proof lies in what endures when deception is exposed.
+
+## 10:78
+
+*“They said, ‘Have you come unto us to turn us away from that which we found our fathers following, so that grandeur in the land might belong to you two? We will not believe in the two of you!’”*
+
+**Meaning.** Pharaoh’s people accuse Moses and Aaron of seeking to uproot ancestral religion and seize power in Egypt. Al-Ṭabarī explains *talfatunā* as turning or diverting them from the religion they inherited **[Ṭabarī]**. Al-Jalālayn takes “grandeur” to mean kingship in the land, revealing the political suspicion behind their refusal **[Jalālayn]**. The Study Quran compares their appeal to ancestral practice with similar arguments elsewhere in the Qurʾān (5:104; 31:21) **[Study Quran]**. As-Saʿdī reads the accusation as a pretext that allows them to resist the signs without answering their evidence **[Saʿdī]**.
+
+**Reflection.** Inherited custom and fear of losing status can be made into defenses against a message that asks people to change.
+
+## 10:79
+
+*“And Pharaoh said, ‘Bring me every knowing sorcerer.’”*
+
+**Meaning.** Pharaoh orders that the most skilled magicians be assembled to confront Moses. Al-Ṭabarī explains “knowing” as mastery of sorcery, while al-Jalālayn renders it as every expert in the art **[Ṭabarī] [Jalālayn]**. Ibn Kathīr places the order at the beginning of the public contest between Moses and Pharaoh’s magicians **[Ibn Kathīr]**. The Study Quran likewise reads it as gathering those most advanced in the craft **[Study Quran]**.
+
+**Reflection.** Pharaoh answers a spiritual challenge with the strongest expertise his court can summon; the coming contest will reveal the limits of that power.
+
+## 10:80
+
+*“And when the sorcerers came, Moses said to them, ‘Cast what you would cast.’”*
+
+**Meaning.** When Pharaoh’s magicians arrive, Moses invites them to begin by casting what they have brought—understood by al-Qurṭubī as their ropes and staffs **[Qurṭubī]**. Al-Jalālayn notes that the magicians had offered to cast first, and Moses accepts the order of the contest **[Jalālayn]**. The Study Quran explains that Moses is not affirming their art; allowing it to be displayed will make its falsehood evident before God brings it to nothing **[Study Quran]**. Ibn Kathīr places this invitation within the larger confrontation that will establish the truth of Moses’ message **[Ibn Kathīr]**.
+
+**Reflection.** The verse prepares the reader for a public test: the truth is not afraid to let falsehood display its full claim **[Ṭabarī]**.
