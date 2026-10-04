@@ -8529,3 +8529,477 @@ lawful to the Children of Israel, except what Israel made unlawful for himself b
 (3:93); "Because of the wrongdoing of the Jews, We forbade them good things that had been made lawful to them,
 and because of their often hindering from the way of God" (4:160); "Those who disbelieve and hinder from the way
 of God — We shall increase them in punishment" (16:88).
+## 4:161
+
+*"And for their taking usury, though they had been forbidden it, and for their consuming people's wealth by
+falsehood; and We have prepared for the disbelievers among them a painful punishment."*
+
+**Meaning.** **[Ṭabarī]** And because of their taking interest — which God had forbidden them in the Torah — and
+their consuming the wealth of people by falsehood, that is, by bribes in judgments and the like: "and We have
+prepared for the disbelievers among them a painful punishment" — We have made ready for those of them who
+persist in disbelief in God and His Messenger a punishment that pains them. **[Jalālayn]** And because of their
+taking usury when they had been forbidden it in the Torah, and their consuming people's wealth through
+falsehood — through bribes in adjudications — and We have prepared for the disbelievers among them a painful
+chastisement. **[Qurṭubī]** All of "their taking usury," "their consuming wealth by falsehood" is an
+explanation of the wrongdoing they practiced, as is what preceded of the breaking of the covenant; and God
+placed the wrongdoing before the prohibition because it is the purpose He intended to report as the cause of the
+prohibition. **[Ibn Kathīr]** And as for the punishment: it is for the disbelievers among them — that is, those
+who persisted in the conduct named and did not desist; the warning is directed at the conduct and consummated in
+the disbelief. **[Study Quran]** Engaging in usury (*ribā*) is strongly denounced and forbidden in several
+verses (2:275–79; 3:130; 30:39), and the present verse indicates that this prohibition had been ordained for the
+Jews as well — as it is in Exodus 22:25 and Leviticus 25:36–37 — but that they did not adhere to it. For the
+practices that constituted their consuming people's wealth falsely, see 4:29–30; see also 9:34, where certain
+Jewish and Christian religious authorities are said to consume the wealth of people falsely. And as a result of
+the forbidden financial practices of which some Jews are here accused, some Islamic legal scholars questioned
+whether engaging in commerce with the Jews was permissible; however, both the Qurʾān (see 5:5) and the known
+practice of the Prophet indicate that such commerce is lawful (Qurṭubī). **[Maʿārif]** In the law brought by
+Muhammad ﷺ there are also things known as unlawful, but these were forbidden because of one or another physical
+or spiritual harm they bring; this was contrary to what happened with the Jews — the good things forbidden to
+them had no physical or spiritual harm in them, but were forbidden as the punishment of their acts of
+transgression and disobedience.
+
+**Rulings & reflection.** **[Ibn Kathīr]** The prohibition of certain foods for the Jews is thus a punishment
+whose cause is named: wrongdoing, turning people from the way of God, taking interest though forbidden, and
+devouring people's wealth unjustly. **[Study Quran]** And the passage shows the Qurʾānic pattern of argument
+with the People of the Book: the laws of earlier communities are presented as answers to their conduct rather
+than as eternal burdens, and the accusation is joined to its consequence. **[Saʿdī]** And the verse's mention
+of usury after the taking of wealth by falsehood shows that both are named as *ẓulm*, the wrong that drew the
+narrowing: the one who takes what he was forbidden takes more than his right, and the community that lives by
+such taking is answered by the loss of what it had been permitted.
+
+**Cross-references.** "And for their taking of usury, though they were forbidden it, and their devouring men's
+wealth wrongfully" (4:161); "God has permitted trade and forbidden usury" (2:275); "O you who believe, do not
+consume usury, doubled and multiplied" (3:130); "That is because they said, 'There is no blame on us in the
+matter of the unlettered'" (3:75).
+
+## 4:162
+
+*"But those among them who are firmly rooted in knowledge, and the believers, believe in what has been sent down
+to you and what was sent down before you; and those who establish the prayer and give the alms and believe in
+God and the Last Day — to them We shall give a great reward."*
+
+**Meaning.** **[Ṭabarī]** This is God's exception, excepting from the People of the Book — the Jews — whose
+description He gave in these verses, from His saying, "The People of the Book ask you to bring down a Book upon
+them from heaven." Then God said to His servants, making clear to them the ruling on those of them whom He had
+guided to His religion and granted success in right conduct: not all the People of the Book are as I have
+described to you; but the firmly rooted in knowledge among them — those who have become firm in the knowledge of
+God's rulings brought by His prophets, mastering and knowing them — and the believers, affirm what has been sent
+down to you and what was sent down before you. **[Jalālayn]** Those of them who are firmly established in
+knowledge — like ʿAbdullāh b. Salām — and the believers: the Emigrants and the Helpers, believing in what has
+been revealed to you and what was revealed before you of scriptures; and those who observe the prayer — the
+accusative being a laudatory — and pay the alms and believe in God and the Last Day — to them We shall surely
+give a great wage, namely Paradise. **[Qurṭubī]** He excepted the believers among the People of the Book: the
+Jews denied and said, "These things were forbidden in origin, and you make them lawful, and they were not
+forbidden for our wrongdoing" — so "but those firmly rooted in knowledge" was revealed. The *rāsikh* is one who
+has gone deep in the knowledge of the Book and is firm in it; *rusūkh* is firmness, and the intended are
+ʿAbdullāh b. Salām, Kaʿb al-Aḥbār and their like. "And the believers" — that is, of the Emigrants and the Helpers,
+the companions of Muhammad. **[Saʿdī]** When He mentioned the faults of the People of the Book, He mentioned
+those of them who are praised: "but those firmly rooted in knowledge" — those in whose hearts knowledge has
+settled and certainty has become deeply rooted, so that it has brought them complete, general faith in what was
+sent down to you and what was sent down before you, and has brought them righteous works: the establishment of
+prayer and the giving of alms, which are the best of works, and embrace sincerity toward the object of worship
+and beneficence to the servants, and faith in the Last Day, so that they fear the warning and hope the promise.
+"Those — We shall give them a great reward," because they combined knowledge, faith, righteous work, and belief
+in the earlier and later Books and messengers.
+
+**Rulings & reflection.** **[Study Quran]** After the discussion of "disbelieving" Jews, this verse mentions
+those among the Jews who are firmly rooted in knowledge, which means to possess certain religious knowledge
+(al-Qushayrī). This epithet was reserved for those who had knowledge of both legal and theological issues
+(al-Rāzī); or for those who combined knowledge of the teachings and religious duties of the religion with their
+implementation in practice (al-Rāzī); or for those who possessed inner knowledge. If "and the believers" is
+understood to be a further description of the righteous among the Jews, it indicates that it is possible for
+believing and pious Jews to remain Jews, even as they accept both their own scripture and that which has been
+sent down unto Muhammad, and in fact to receive a great reward in the Hereafter for their belief and good deeds.
+Many commentators mention that historically this verse refers to certain Madinan Jewish scholars, such as ʿAbd
+Allāh b. Salām, who accepted the validity of Muhammad's prophethood (al-Rāzī, al-Ṭabarī, al-Zamakhsharī). The
+believers can also be read as a specification of the community of Muhammad, and the two groups together, Jewish
+converts and Muslim believers, receive the reward. **[Maʿārif]** The previous verses referred to Jews who
+adhered to their disbelief and obstinately continued practicing what was blameworthy; the present verse now
+cites those who were no doubt from among the People of the Book, but when the Prophet ﷺ came with his mission
+and they found in him, fully and unmistakably, all the qualities the last of the prophets was supposed to have
+according to the prophecies of their scriptures, they believed in him — like ʿAbdullāh b. Salām, Usayd and
+Thaʿlabah, may God be pleased with them all. The words of praise in this verse are for these blessed souls, and
+the great reward promised is because of their qualities of faith and righteous deeds.
+
+**Reflection.** **[Saʿdī]** And observe the order of the verse's four things: knowledge that is rooted, faith
+that follows it, worship that embodies it in prayer and alms, and hope fixed on the Last Day — these are the
+ladder of the praise, and the "firmly rooted" are named before the "believers" because it is knowledge that
+gives faith its footing. **[Ṭabarī]** And in the exception there is a lesson for the community that came after
+them: no people are condemned wholesale, and the door of the Book is open to whoever is rooted in what it
+teaches.
+
+**Cross-references.** "But those firmly rooted in knowledge say, 'We believe in it; all of it is from our Lord'"
+(3:7); "But those who were given knowledge see that what has been sent down to you from your Lord is the truth"
+(34:6); "God bears witness that there is no deity but He, and the angels and those possessing knowledge"
+(3:18); "To them We shall give a great reward" (4:162; cf. 4:40).
+
+## 4:163
+
+*"Truly We have revealed to you as We revealed to Noah and the prophets after him; and We revealed to Abraham
+and Ishmael and Isaac and Jacob and the tribes, and Jesus and Job and Jonah and Aaron and Solomon; and We gave
+David the Psalms."*
+
+**Meaning.** **[Ṭabarī]** We have sent to you, O Muhammad, with prophethood as We sent to Noah and the rest of
+the prophets whom I have named to you after him, and those I have not named to you. **[Jalālayn]** We have
+revealed to you as We revealed to Noah and the prophets after him, and as We revealed to Abraham and his two
+sons Ishmael and Isaac, and Jacob the son of Isaac, and the Tribes — Jacob's children — and Jesus and Job and
+Jonah and Aaron and Solomon; and We gave to his father David the Inscribed Book — read *zabūran* it denotes the
+name of the revealed Book, cf. the Psalms; read *zubūran* it would make it a verbal noun meaning *mazbūran*,
+that is, "written." **[Ibn Kathīr]** Muhammad b. Isḥāq narrated that Muḥammad b. Abī Muḥammad said that ʿIkrimah
+or Saʿīd b. Jubayr related to Ibn ʿAbbās that he said: "Sukayn and ʿAdī b. Zayd said, 'O Muhammad, we do not
+know that God sent down anything to any human after Moses.' God sent down a rebuttal of their statement: 'Verily
+We have inspired you as We inspired Noah and the prophets after him.'" **[Saʿdī]** God informs that He has
+revealed to His servant and Messenger of the great law and the true reports what He revealed to these prophets.
+In this are several benefits: that Muhammad ﷺ is not an innovation among the messengers — God sent before him a
+great multitude of messengers, so that finding his message strange has no basis but ignorance or stubbornness;
+that He revealed to him as He revealed to them of the principles and the justice on which they agreed, and that
+some of them affirm others and agree with one another; that he is of the same kind as these messengers, so let
+the one who takes a lesson take it from his brother-messengers — his call is their call, their character is
+consistent, their source is one and their goal is one — for God did not join him with the unknown or the liars
+or the unjust kings; and that in mentioning these messengers, enumerating them, praising them truthfully and
+explaining their states, the believer increases in faith in them, in love for them, in following their guidance
+and their way, and in knowledge of their rights — which is the meaning of "Peace be upon Noah among the worlds,"
+"Peace be upon Abraham," "Peace be upon Moses and Aaron," "Peace be upon the family of Elias; thus do We reward
+the doers of good" (37:79, 109, 120, 130). So every doer of good has the beautiful praise among people according
+to his goodness, and the messengers — especially those named — are in the highest rank of goodness. And when He
+mentioned their sharing in His revelation, He mentioned the distinguishing of some of them: He gave David the
+*Zabūr*, the well-known written Book which God singled out for David for his excellence and honour, and He spoke
+to Moses directly — by speech from Him to him without intermediary — until he became famous for this among the
+worlds, so that he is called "Moses, the one spoken to by the Compassionate."
+
+**Rulings.** **[Study Quran]** Many similar verses present lists of God's messengers through whom He conveyed
+revelation, all of which Muslims are to accept (e.g., 2:136; 3:84; 6:83–89; 19:49–58). In this particular
+context, some see it as a response to those asking the Prophet to bring a book down upon them from heaven
+(v. 153), refuting their claim that God had not sent a book to anyone after Moses (al-Ṭabarī, al-Zamakhsharī).
+The Psalms given to David translates *al-Zabūr*, which, when used in the singular and definite, and certainly
+when connected explicitly with David, is generally assumed to refer to the Psalms (17:55; 21:105), some of which
+the Judeo-Christian tradition considers to be of Davidic authorship; when the term is used in the plural
+(*zubur*) and not associated with David as a prophet, it is rendered simply as "scriptures" (e.g., 3:184; 16:44;
+26:196). This is the first place in the Qurʾānic text where the Biblical figures of Job and Jonah are identified
+as prophets; for more on Job, see 6:84; 21:83–84; 38:41–44; and for Jonah, see 6:86; 10:98; 37:139–48;
+68:48–50. **[Maʿārif]** If we refer back to the verse "The People of the Book ask you," it will be noticed that a
+silly question asked by the Jews was responded to in the mode of reproach; here the same question is being
+proved false in a different manner — they are being asked to realize that they do not make such demands before
+believing in the great prophets mentioned in the verse, prophets they too accept; keeping this in view, the
+demand is shown to be a device of evasion. **[Qurṭubī]** Al-Waḥy is informing in concealment; and Noah is
+mentioned first because he is the first prophet on whose tongue a law was established for his people after the
+flood.
+
+**Reflection.** **[Saʿdī]** The list itself is the argument: the Jews who ask for a book from heaven accept these
+prophets and their books, yet they ask for what none of them brought in the manner demanded — and the mention of
+David's *Zabūr* and Moses' direct speech closes the claim that revelation must come as a written volume from the
+sky. **[Ibn Kathīr]** And the verse therefore teaches that revelation has modes: with an angel, in a Book,
+directly in speech — and when it comes, acting upon it is obligatory in every mode. **[Study Quran]** The
+enumeration also places Muhammad among a chain rather than alone, and the chain is what the sūrah has been
+building: the messengers are one community with one message, and the people who divide them are answered by the
+list of those whom God Himself joined together.
+
+**Cross-references.** "Say: We believe in God and in what was sent down to us, and to Abraham, Ishmael, Isaac,
+Jacob and the Tribes" (2:136); "And We gave David the Psalms" (4:163; cf. 17:55); "And We sent messengers We
+have related to you before" (4:164; cf. 40:78); "And We gave Moses the Book and made it a guidance for the
+Children of Israel" (17:2).
+
+## 4:164
+
+*"And messengers We have related to you before, and messengers We have not related to you; and God spoke to
+Moses directly."*
+
+**Meaning.** **[Ṭabarī]** "We have related to you before" — that is, in Mecca, before this sūrah and in it: We
+sent messengers whom We have named and told you about, and messengers We have not told you about. And they
+raised the question: if that is its meaning, why is "messengers" in the accusative and not in the genitive? The
+answer: it is in the accusative because the *ilā* that put the preceding names in the genitive does not govern
+it again; for the meaning of the speech is, "We sent you as a messenger as We sent Noah and the prophets after
+him," so "messengers" is coordinated with the meaning of the names before it, though not with their words.
+"Speak to Moses directly" (*taklīman*): God spoke to Moses with speech from Him, without intermediary, and
+*ṣāḥibukum* — your companion — is the *khalīl* of God, and Moses is the one spoken to by God. **[Jalālayn]** And
+We sent messengers We have told you of before, and messengers We have not told you of: it is related that God
+sent eight thousand prophets in total, four thousand of them from the Children of Israel and the remaining four
+thousand from other peoples, as stated by the Shaykh Jalāl al-Dīn al-Maḥallī in his commentary on Sūrat Ghāfir;
+and God spoke directly, without mediation, to Moses. **[Ibn Kathīr]** And messengers We have mentioned to you
+before, and messengers We have not mentioned to you. **[Saʿdī]** And He mentioned that some of the messengers He
+has related to us and some He has not; and He spoke to Moses directly — by speech from Him to him without
+mediation — until he became known for it, so that he is called "Moses, the one who spoke with the
+Compassionate." **[Study Quran]** Although the Qurʾān contains mention of twenty-six prophets, Islamic tradition
+holds that there were many more, in fact 124,000. Here, as in 40:78, the Qurʾān explicitly indicates that there
+are prophets not mentioned in the Qurʾān, whose stories God has not recounted to Muhammad or his followers, thus
+alluding to the universal reality of revelation and keeping the door open for sacred figures of other religious
+traditions to be considered prophets to their religious communities, as they were later by some Muslim scholars
+familiar with these other religious traditions. This verse mentions the distinction given to Moses as a prophet
+in Islam: God spoke to him directly (see also 2:253, where being spoken to by God is cited as a particular
+distinction given to some prophets). This is the basis of Moses' prophetic title in Islamic tradition, *Kalīm
+Allāh* — the one who speaks with God. That is also why some Muslims refer to Jews as *kalīmīs*. In Exodus 33:11
+and Deuteronomy 34:10, this ability to speak directly with God is also said to set Moses apart from other
+prophets of Israel.
+
+**Rulings & reflection.** **[Maʿārif]** After a brief mention of prophets who appeared after Noah, a special
+citation has been made of the greatest prophets from among them, to tell us that they are all prophets and that
+revelation comes to prophets via different modes: it could be an angel with a message, it could be a written
+Book, and sometimes God speaks directly to His Messenger. In short, when revelation comes, no matter in what
+manner, acting in accordance with it becomes obligatory — therefore the saying of the Jews that they would
+believe only if there came to them a written book like the Torah, otherwise not, is to say the least being short
+on sense and tall on disbelief. **[Qurṭubī]** The *taklīm* is intensified as a verbal noun to affirm that the
+speech was direct and without veil, not merely the sending of a book. **[Ibn Kathīr]** And the mention of the
+unmentioned messengers is a mercy: no community is left without a warner, and no claimant can plead that the
+message never came. **[Study Quran]** And the phrase "God spoke to Moses directly" is what the whole passage has
+been establishing against the demand of a book from heaven: God's speech is not tied to a written sheet.
+
+**Cross-references.** "And messengers We have related to you before, and messengers We have not related to you"
+(4:164); "And We did not send any messenger except as a bearer of glad tidings or a warner" (6:48); "And to
+Moses God spoke directly" (4:164); "And We gave Moses the Book, and We made it a guidance for the Children of
+Israel" (17:2).
+
+## 4:165
+
+*"Messengers as bearers of glad tidings and as warners, so that people should have no argument against God after
+the messengers; and God is ever Mighty, Wise."*
+
+**Meaning.** **[Ṭabarī]** Messengers — a term in the accusative, cut off from the names of the prophets
+mentioned, meaning: We sent them as messengers to My creation and My servants, bringing glad tidings of My
+reward to those who obey Me, follow My command and affirm My messengers, and warning of My punishment to those
+who disobey Me, oppose My command and deny My messengers — "so that people should have no argument against God
+after the messengers": that they should not say, "You did not send us a messenger, and You did not send down a
+book upon us," as God said, "And We never punish until We have sent a messenger" (17:15), and "Had We destroyed
+them with a punishment before it, they would have said, 'Our Lord, why did You not send us a messenger?'"
+(20:134). **[Jalālayn]** Messengers, bearing good tidings of reward for those who believe and warning of
+punishment for those who disbelieve; We sent them so that people might have no argument to make against God
+after the sending of the messengers to them, and say, "Our Lord, why did You not send a messenger to us so that
+we might follow Your signs and be among the believers?" Thus We sent them to pre-empt such excuses. God is ever
+Mighty in His kingdom, Wise in His actions. **[Ibn Kathīr]** Messengers as bearers of good news and warning,
+in order that mankind should have no plea against God after the coming of the messengers; and God is ever
+All-Powerful, All-Wise. **[Saʿdī]** God sent messengers to convey glad tidings to all believers and to warn all
+disbelievers, so that no argument should remain that they did not know the will of God — and the argument of
+revelation is conclusive and disarming: all other arguments lie surrendered under its weight. **[Maʿārif]** The
+verse succinctly tells that God consistently sent messengers to convey good tidings to all believers and to warn
+all disbelievers so that there remains no room for the excuse that they did not know the will of God and His
+messengers — had they known about it, they would have certainly followed it. Now that God has sent messengers
+with miracles and His messengers have shown the straight path of truth, the option of not accepting the true
+faith cannot be accepted from anyone under any pretext. Such is the nature of divine revelation: it is an
+absolute argument, final, conclusive and disarming; no argument stands operative against it. And this is the
+wisdom of God and His mode of operation.
+
+**Rulings & reflection.** **[Study Quran]** The two functions of the prophets — as bearers of glad tidings and
+as warners — are mentioned together throughout the Qurʾān (e.g., 2:213; 6:48; 7:188; 11:2; 17:105; 18:56;
+25:56; 33:45; 34:28; 48:8). The Qurʾān indicates that God sends guidance and warning to all peoples (13:7;
+35:24); and although it recounts many examples of God destroying a people for their wrongdoing, it also asserts
+that He does this only after a prophet has come to them with a warning (26:208; 28:59). In the present verse the
+messengers are sent so that mankind might have no argument against God, that is, no claim that they were not
+properly guided and warned, so that they might seek to avoid punishment for their evil actions (cf. 5:19;
+20:134). **[Ṭabarī]** And the closing names — Mighty, Wise — answer the objection of those who ask why the
+messengers were not sent as they wished: the sending is not a matter of human preference but of the wise
+decree of the Mighty, who sends whom He wills with what He wills. **[Saʿdī]** And the verse is also a mercy
+before it is a warning: the argument is removed by the very thing that establishes it — the coming of the news.
+
+**Cross-references.** "And We never punish until We have sent a messenger" (17:15); "And if We had destroyed
+them with a punishment before it, they would have said, 'Our Lord, why did You not send us a messenger?'"
+(20:134); "And We have not sent you except as a bearer of glad tidings and a warner" (25:56); "Messengers as
+bearers of glad tidings and as warners" (4:165).
+
+## 4:166
+
+*"But God bears witness to what He has sent down to you; He sent it down with His knowledge, and the angels bear
+witness; and God suffices as a Witness."*
+
+**Meaning.** **[Ṭabarī]** If the Jews disbelieve in what We have revealed to you, O Muhammad — those who asked
+you to bring down a book upon them from heaven and said to you, "God has not sent down anything to any human
+being," thus denying you — then they have lied. The matter is not as they say: but God bears witness to the
+sending down to you of what He has sent down of His Book and His revelation; He sent it down to you with
+knowledge from Him that you are His chosen one among His creation and His elect among His servants; and His
+angels bear witness to that for you — so do not let the denial of those who deny you grieve you. "And God
+suffices as a Witness": let God be enough for you as a witness to your truthfulness apart from all others of His
+creation; for when your Lord bears witness to your truthfulness, the denial of those who deny you does not harm
+you. **[Jalālayn]** When the Jews were asked about Muhammad's prophethood and they denied him, the following
+was revealed: but God bears witness — He makes clear the truth of your prophethood — with what He has revealed
+to you of the miraculous Qurʾān; He has revealed it with His knowledge — that is, He has revealed it knowing it
+fully, or He has revealed it with His knowledge therein — and the angels also bear witness to you; and God
+suffices as a Witness to this. **[Ibn Kathīr]** "But Allah bears witness to that which He has sent down unto
+you": meaning, even if they deny, defy and disbelieve in you, O Muhammad, God testifies that you are His
+Messenger to whom He sent down His Book, the glorious Qurʾān, of which "falsehood cannot come to it from before
+it or behind it; it is sent down by the All-Wise, the Praiseworthy" (41:42). **[Saʿdī]** When it was mentioned
+that God revealed to His Messenger as He revealed to his brothers among the messengers, God here informs of His
+witness to his message and the soundness of what he brought: "He sent it down with His knowledge" — it may be
+that what is intended is that He sent it down containing His knowledge, that is, in it are the divine sciences,
+the legal rulings and the reports of the unseen which are of God's knowledge with which He taught His servants;
+and it may be that the intended meaning is that He sent it down issuing from His knowledge, and in that is a
+sign and an alert to the manner of His witness. For if God sent down this Qurʾān containing the commands and
+prohibitions, and He knows that, and knows the state of the one upon whom He sent it, and that he called people
+to it — then whoever answers him and affirms him is His friend, and whoever denies him and opposes him is His
+enemy — and God enables him, supports his victory, answers his prayers, abandons his enemies and gives victory
+to his friends: is there a greater witness than this? And His informing of the angels' witness to what was sent
+down upon His Messenger is because of the perfection of their faith and the majesty of the thing witnessed: for
+great matters are witnessed only by the elect, as God said in witness to the oneness: "God bears witness that
+there is no deity but He, and the angels and those possessing knowledge, standing in justice; there is no deity
+but He, the Mighty, the Wise" (3:18). "And God suffices as a Witness."
+
+**Rulings & reflection.** **[Ṭabarī]** And it has been said that this verse was revealed concerning a group of
+the People of the Book who said to the Prophet ﷺ, "We bear witness that you are a prophet" — and God said: "But
+God bears witness," meaning that His witness is more complete than theirs. **[Ibn Kathīr]** And note the
+order: the divine witness, then the knowledge with which the Book was sent down, then the angelic witness, then
+the sufficient sufficiency — the ladder descends from the greatest witness to the confirmation that the servant
+needs no other. **[Saʿdī]** And the phrase "God suffices as a Witness" is the answer to every denial the sūrah
+has recorded: the deniers may multiply, but the witness is one, and His witness is enough.
+
+**Cross-references.** "God bears witness that there is no deity but He, and the angels and those possessing
+knowledge" (3:18); "Falsehood cannot come to it from before it or behind it; it is sent down by the All-Wise,
+the Praiseworthy" (41:42); "And sufficient is God as a Witness" (4:79; 4:166); "You are a warner, and for every
+people there is a guide" (13:7 per meaning).
+
+## 4:167
+
+*"Truly those who disbelieve and bar people from the way of God have surely strayed far astray."*
+
+**Meaning.** **[Ṭabarī]** Those who disbelieve in God and His Messenger and bar people from the way of God —
+from His religion, which He has made clear and has called His creation to — have surely gone far astray from
+the truth: they have left the path of guidance and erred from the right road with a distant erring.
+**[Jalālayn]** Surely those who disbelieve in God and bar people from the way of God — from the religion of
+Islam — by concealing the descriptions of Muhammad ﷺ, and these are the Jews, have indeed gone far astray from
+the truth. **[Saʿdī]** When He informed of the messengers and their message, and informed of the message of
+their seal and witnessed to it and the angels witnessed to it, it followed necessarily that the matter was
+established and witnessed, so that affirming them, believing in them and following them became obligatory; then
+He warned those who disbelieved in them: "those who disbelieved and barred from the way of God" — that is, they
+combined disbelief in themselves with barring people from the way of God — and these are the leaders of
+disbelief and the callers to error. "They have gone far astray": and what straying is greater than the straying
+of one who strayed himself and made others stray, so that he returns with the two sins and with the two losses,
+and misses the two guidances? **[Ibn Kathīr]** The verse emphasizes the Prophet's prophethood and refutes the
+idolaters and the People of the Scripture who denied him; and those who disbelieve and prevent others from the
+path of God have certainly strayed far away. **[Study Quran]** The Qurʾān repeatedly chastises those who turn
+from the way of God, which may refer to placing intellectual or physical obstacles in the way of those who would
+seek to follow divine guidance and so deliberately attempting to lead them astray, or else turning away from the
+way of God oneself.
+
+**Reflection.** **[Saʿdī]** The verse describes the double transgression: the disbelief of the self and the
+barring of others — and the two together earn the doubled loss, since the one who leads astray bears not only
+his own burden but the burden of those who follow him. **[Jalālayn]** And the reference to the concealing of the
+descriptions of Muhammad ﷺ gives the verse its concrete occasion: they knew and hid, and the hiding is what made
+their straying "far." **[Ṭabarī]** And the word "barring" (*ṣadd*) in Arabic means turning away and preventing;
+here it is their own turning away and their prevention of others, and the sentence is measured accordingly.
+
+**Cross-references.** "And those who disbelieve and bar from the way of God — We shall increase them in
+punishment" (16:88); "And who is more unjust than one who conceals a testimony he has from God?" (2:140); "And
+they bar others from it and are distant from it; and they destroy none but themselves" (6:26); "Those who
+disbelieve and bar from the way of God have strayed far astray" (4:167).
+
+## 4:168
+
+*"Truly those who disbelieve and do wrong — God will not forgive them, nor will He guide them to any path."*
+
+**Meaning.** **[Ṭabarī]** Those who disbelieve in God and His Messenger and wrong themselves by that
+disbelief, persisting in it: God will not forgive them their disbelief — that is, He will not forgive them for
+it without their repentance from it — nor will He guide them to a path: nor will He direct them to a way other
+than the way of the Fire. **[Jalālayn]** Surely those who disbelieve in God and who have done wrong — to the
+Prophet by concealing his descriptions — it is not for God to forgive them, neither to guide them to any path
+whatever. **[Saʿdī]** Hence "those who disbelieved and did wrong": and this wrongdoing is an addition to their
+disbelief — otherwise disbelief is included in the general meaning of wrong — and the intended wrong here is
+the works of disbelief and being wholly immersed in it; so these are far from forgiveness and from guidance to
+the straight path, hence "it is not for God to forgive them, nor to guide them to a path." And forgiveness and
+guidance became impossible for them only because they persisted in their transgression and increased in
+disbelief, so that their hearts were stamped and the paths of guidance were sealed upon them, because of what
+they earned — and your Lord is never unjust to His servants. **[Ibn Kathīr]** And as for the punishment: God
+will not forgive them, nor will He guide them to a way. **[Study Quran]** Although the Qurʾān emphasizes God's
+infinite capacity for forgiveness and the universality of His guidance in the form of prophetic messages (see
+4:165), it also indicates that He will not forgive certain sins. Here, in v. 168, those who disbelieve and do
+wrong — that is, by turning from the way of God, among other things — are deprived both of God's forgiveness
+and His guidance. See vv. 48, 116, where it is said God will not forgive that any partner be ascribed unto Him;
+see also v. 137, which indicates that God will not forgive those who waver between belief and disbelief and
+gradually increase in disbelief; 9:79–80, where He does not forgive the disbelievers who ridicule the
+believers; and 47:34, where He does not forgive those who disbelieve and turn from the way of God.
+
+**Rulings & reflection.** **[Saʿdī]** And in the verse is a warning that is not confined to them: the one who
+does wrong persists until the capacity for guidance is lost, and the loss is by his own earning. **[Ṭabarī]** And
+note that "God will not forgive them" is stated in the form of a fixed rule — *mā kāna allāhu li-yaghfira
+lahum* — denoting that this is not a hasty decree but the settled law of the One whose will is wise: persistence
+in disbelief, dying upon it, is the thing that closes the door that the whole sūrah has otherwise kept open.
+**[Study Quran]** And the same law answers the argument of the passage: those who rejected the messenger after
+the proof was established are not like those who never heard.
+
+**Cross-references.** "God does not forgive that partners be ascribed to Him, but He forgives what is less than
+that to whom He wills" (4:48, 116); "Those who disbelieve and die as disbelievers — God will not forgive them"
+(2:161); "Truly God does not forgive those who persist in disbelief after having believed" (cf. 4:137); "And
+whoever turns away from the way of God has strayed far astray" (4:167).
+
+## 4:169
+
+*"Except the path of Hell, wherein they shall abide forever; and that is ever easy for God."*
+
+**Meaning.** **[Ṭabarī]** The only path that remains for them is the path of Hell; they will abide in it
+forever, and their abiding is decreed for them once they enter it, never to come out; and for God that is easy,
+He is not incapable of it, nor does anything prevent Him from it. **[Jalālayn]** Except for the path of Hell —
+that is, the path that leads to it — abiding; it is decreed for them to abide therein once they enter it,
+forever; and for God that is an easy matter. **[Saʿdī]** "Except the path of Hell": their guidance is only to
+the road that leads to it, and their remaining there is permanent, since their intent and their striving were
+directed to it, and the recompense is of the same kind as the deed. "And that is ever easy for God" — He does
+not care about them and does not heed them, for they are not fit for good, and nothing suits them but the state
+they chose for themselves. **[Ibn Kathīr]** Except the way of Hell, to dwell therein forever; and this is ever
+easy for God.
+
+**Rulings & reflection.** **[Ṭabarī]** And the exception in the verse is of the sharpest kind: there will be no
+path at all but the one, and the "guidance" extended to them will be the guidance that leads to the Fire — the
+recompense matching the choice. **[Saʿdī]** And the closing words — "that is ever easy for God" — remove every
+suggestion of difficulty or reluctance: the decree is not a burden on God, and the punishment is not a
+reluctant judgment but the natural end of a chosen road. **[Study Quran]** Cf. 4:137 and 4:168: the
+unforgivable condition is not the committing of a set of sins but the settled persistence that makes the
+returning impossible.
+
+**Cross-references.** "And their abode is the Fire, and they will find no way out" (2:167); "They will not
+taste in it death or life" (cf. 87:13); "And they will not emerge from the Fire" (2:167 per meaning); "Truly,
+that is easy for God" (4:169; cf. 35:17).
+
+## 4:170
+
+*"O mankind, the Messenger has come to you with the truth from your Lord; so believe — it is better for you. And
+if you disbelieve — then to God belongs all that is in the heavens and the earth; and God is ever Knowing,
+Wise."*
+
+**Meaning.** **[Ṭabarī]** God addresses all of creation: O people of the world, the Messenger Muhammad has come
+to you with the truth from your Lord — with the truth of what he brought from God, and God has sent him to you
+as a Messenger. "So believe" in him and in what he has brought you, "it is better for you" — better for you in
+your state and your end — "than what you are presently upon." "And if you disbelieve — then to God belongs all
+that is in the heavens and the earth; and God is ever Knowing, Wise": your disbelief does not harm God — His is
+what is in the heavens and the earth — and He is Knowing of His creation, Wise in His dealings with them, and
+will requite each according to what he deserves. **[Jalālayn]** O people of Mecca, the Messenger Muhammad has
+now come to you with the truth from your Lord; so believe in him and seek what is better for you than that
+which you are presently seeking; and if you disbelieve in him, then surely to God belongs all that is in the
+heavens and in the earth, and your disbelief will not harm Him; and God is ever Knowing of His creation, Wise
+in what He does with them. **[Saʿdī]** God commands all people to believe in His servant and Messenger
+Muhammad ﷺ, and mentions the motive that makes faith obligatory and the benefit of faith, and the harm of
+disbelief. The motive is His informing that he has come to them with the truth: for his coming is itself truth,
+and what he brought of the law is truth; for the rational person knows that the creation's remaining in their
+ignorance, wandering, and in their disbelief, wavering, with the message cut off from them, is not befitting the
+wisdom and mercy of God — rather, of His wisdom and great mercy is the very sending of the Messenger to them,
+to make them know guidance from error and right conduct from straying. And the mere consideration of his
+message is a decisive proof of the truth of his prophethood, as is consideration of the great law and straight
+path he brought; for in it are reports of past and future unseen things, and reports of God and of the Last Day,
+that none knows but by revelation and message; and in it are commands to every good, righteousness, right
+conduct, justice, beneficence, truthfulness, kindness and good character, and prohibitions of evil, corruption,
+transgression, wrong, bad character, lying and disobedience to parents — which makes it certain that it is from
+God. And the more the servant increases in insight by it, the more his faith and certainty increase. And as for
+the benefit of faith: He informed that it is good for you — and good is the opposite of evil — so faith is good
+for the believers in their bodies, hearts, spirits, their world and their Hereafter, because of the interests and
+benefits that follow from it: every reward, immediate and deferred, is of the fruits of faith — victory,
+guidance, knowledge, righteous work, joy, gladness, and Paradise and what it contains of bliss all are caused by
+faith, just as worldly and otherworldly misery is caused by the absence of faith or its deficiency. And as for
+the harm of disbelief in him: God does not care about them, and their disbelief does not touch Him — His is what
+is in the heavens and the earth.
+
+**Rulings.** **[Study Quran]** Here people are urged to believe because it is better for them: that is, one
+believes for the benefit of oneself, not for God, who possesses whatsoever is in the heavens and the earth and
+so is neither enriched nor diminished by the belief or disbelief of His creatures. **[Maʿārif]** After answering
+the objections raised by the Jews and confirming the prophethood of Muhammad ﷺ, the Qurʾān carries the message
+of God to all human beings wherever they may be, as they are its direct addressees in this verse. The essence of
+the message is: your salvation lies nowhere but in your belief in the prophethood of Muhammad ﷺ, so believe and
+prosper. As for those who choose to disbelieve, they lose everything while God loses nothing: with His limitless
+domain and power, who can conceive of bringing any loss or harm to Him? This is something the disbelievers
+should worry about; let them be certain that God knows everything about their believing and disbelieving, and let
+not the delay or decrease of punishment in this world put them on the wrong foot, for He is All-Wise too and
+does what His wisdom allows to prevail.
+
+**Reflection.** **[Saʿdī]** The address changes here from the People of the Book to "O mankind" because the
+argument of the sūrah has reached its widest point: the messengers have come, the witness has testified, and
+the call is now to every human being — and the whole of it rests on the word "better": faith is presented as
+benefit before it is presented as duty. **[Ṭabarī]** And the closing "Knowing, Wise" answers the two questions
+the disbeliever might raise: that God does not know, or that His dealings are arbitrary — He knows His creation
+and He is wise in His disposal.
+
+**Cross-references.** "Say: O mankind, I am the Messenger of God to you all" (7:158); "And We have not sent you
+except as a mercy to the worlds" (21:107); "So believe in God and His Messenger, the unlettered prophet"
+(7:158); "And if you disbelieve, then to God belongs all that is in the heavens and the earth" (4:170; cf.
+14:8).
