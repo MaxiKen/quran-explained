@@ -2209,3 +2209,208 @@ what he had said against them.
 
 **Reflection.** His daring is the argument: a lone man's challenge to an entire nation, delivered only
 from the safety of a rope that none of them can touch.
+
+## 11:56
+
+*"Truly I have put my trust in God, my Lord and your Lord. There is no creature that crawls but that He
+holds it by its forelock. Truly my Lord is upon a straight path."*
+
+**Meaning.** **[Ṭabarī]** Hūd says: upon God, who is my Master and your Master, the One who stands over
+all His creation, I have put my trust, that you — or anyone else of creation — may not smite me with
+harm; for there is nothing that crawls upon the earth but that God is its owner, and it is in His grasp
+and His dominion, humbled before Him and submissive. Someone may ask: why is the forelock specified
+rather than any other part of the body? Because the Arabs used this expression to describe someone as
+humiliated and submissive, saying, "So-and-so's forelock is in the hand of so-and-so," meaning he obeys
+him and he turns him about however he wishes. When they took a captive and wished to release him as a
+favour, they cut off his forelock, to count it as a boast against him in their boastings; so God
+addressed them with what they knew in their speech. "Truly my Lord is upon a straight path": my Lord is
+upon truth and justice, with right in His governance and His decree. **[Jalālayn]** Truly I have put my
+trust in God, my Lord and your Lord; there is no creature — *min* being extra — no living thing that
+treads upon this earth, but He takes it by the forelock: He is its possessor and subjugator, so that no
+benefit or harm occurs except by His permission — the forelock is specifically used here because he who
+is taken by his forelock suffers the ultimate humiliation. Surely my Lord is on a straight path: He is
+on the way of truth and justice. **[Saʿdī]** "Truly I have put my trust in God": I have relied upon God
+in my whole affair; "my Lord and your Lord": He is the Creator of all, and the Disposer of our affairs
+and yours, and the One who nurtured us. "There is no creature that crawls but that He holds it by its
+forelock": so it moves not nor is still except by His permission; if you all gathered to strike me, while
+God had not given you power over me, you would not be able to do so; and if He gives you power, it is
+for a wisdom He intends. "Truly my Lord is upon a straight path": He is upon justice, equity, wisdom and
+praise in His decree and His ordinance, in His law and His command, and in His recompense, reward and
+punishment; none of His acts departs from the straight path for which He is praised and thanked.
+
+**Language.** **[Qurṭubī]** Al-Farrāʾ: He is their Owner and the One who has power over them; al-Qutabī:
+their Subjugator, for whoever you take by the forelock you have subdued; al-Ḍaḥḥāk: He gives them life,
+then He causes them to die. The *nāṣiyah* is the hairline at the front of the head; "I drew his forelock"
+(*naṣawtu*) means I pulled it. Ibn Jurayj: the forelock is specified because the Arabs employ it when
+describing a person as humbled and obedient — "the forelock of so-and-so is in the hand of so-and-so" —
+and when they released a captive they shaved his forelock, to boast of it over him; so He addressed them
+with what they knew. Al-Tirmidhī al-Ḥakīm (digression): God decreed the measures of His servants' deeds,
+then beheld them, then created His creatures, and placed the light of that beholding in their forelocks,
+and that light takes them by their forelocks and conducts them to the deeds decreed upon them; and God
+created the measures fifty thousand years before He created the heavens and the earth, as related from
+ʿAbd Allāh b. ʿAmr b. al-ʿĀṣ that the Messenger of God ﷺ said: "God decreed the measures fifty thousand
+years before He created the heavens and the earth." Al-Naḥḥās on "upon a straight path": the *ṣirāṭ* in
+language is the clear way; the meaning is that God, even though He is able over all things, does not seize
+them save with truth. It was also said: there is no flaw in His management and no discrepancy in His
+creation.
+
+**Cross-references.** **[Study Quran]** For similar statements made by prophets concerning the beliefs of
+their peoples, see 6:19 and 6:78. "There is no creature that crawls, but that He holds it by its forelock"
+is a metaphor denoting that all creatures are under God's control and authority. "Truly my Lord is upon a
+straight path" means God is upon the path of truth, is just, and does not let wrongdoers escape Him; it
+also means He will not forsake one who relies upon Him. Regarding "the straight path," see 1:6.
+
+**Reflection.** Tawakkul here is not retreat but declaration: because every forelock is in one hand, the
+messenger can face every hand.
+
+## 11:57
+
+*"But if you turn away, I have delivered unto you the message wherewith I was sent by Him. My Lord will
+cause you to be succeeded by a people other than yourselves, and you will not harm Him in the least.
+Truly my Lord is Watcher over all things."*
+
+**Meaning.** **[Ṭabarī]** If you turn away from what I call you to — of God's oneness and abandoning the
+worship of idols — then I have delivered to you, O people, what I was sent with, and upon the messenger
+is only the delivery. And my Lord will cause you to be succeeded by a people other than yourselves: my
+Lord will destroy you, then replace you with a people other than you, who affirm His oneness and devote
+worship to Him alone. And you will not harm Him in anything: you cannot do Him any harm when He wills
+your destruction, or after He has destroyed you. It has also been said: your destruction does not harm
+Him when He destroys you — He is diminished nothing, for it is all the same to Him whether you exist or
+not. Truly my Lord is Watcher over all things. **[Jalālayn]** If you turn away — one of the two tā's of
+*tatawallaw* having been omitted — I have conveyed to you that wherewith I was sent to you; and my Lord
+will set in your place a folk other than you. You cannot injure Him in any way by your idolatry. Truly
+my Lord is Preserver and Watcher over all things. **[Ibn Kathīr]** Hūd says: "If you turn away from that
+which I have brought to you in reference to worship of Allah, Who is your Lord alone, without any
+partners, then the proof has been established against you. This is because I have conveyed the Message
+of Allah to you." "My Lord will make another people succeed you": a group of people who will worship
+Allah alone, without associating anything with Him. This also implies that the polytheists do not bother
+Allah and do not harm Him in the least with their disbelief; to the contrary, their disbelief merely
+harms their own selves. "Surely, my Lord is Guardian over all things": Allah is a Witness and Guardian
+over the statements of His servants and their actions, and He will give them due recompense: if they do
+good deeds, He rewards them with good; if they do evil, He punishes them with evil. **[Saʿdī]** If you
+turn away from what I have called you to, I have delivered to you what I was sent with, and nothing
+remains upon me of your affair; and my Lord will set up in your place a people other than you, who will
+perform His worship and not associate anything with Him. And you will not harm Him in anything: your harm
+returns only upon yourselves — God is not harmed by the disobedience of the disobedient, nor benefited by
+the obedience of the obedient; whoever does righteousness, it is for his own soul, and whoever does evil,
+it is against it. Truly my Lord is Watcher over all things.
+
+**Language.** **[Qurṭubī]** *Tawallaw* is in the jussive mood, hence the nūn was dropped; the original
+is *tatawallaw*, with one tā deleted for the meeting of two tā's. "My Lord will cause you to be
+succeeded": He will destroy you and bring into being people more obedient than you. *Yastakhlif* is
+severed from what precedes it, hence it is in the rafʿ; Ḥafṣ from ʿĀṣim is related to have read
+*yastakhlif* in the jazm, carrying it upon the position of the fāʾ clause. "You will not harm Him in
+anything": by your turning away. "Watcher over all things": He preserves every thing — "over" carrying
+the meaning of "for" — and He preserves me from your reaching me with harm.
+
+**Cross-references.** **[Study Quran]** God will destroy the ʿĀd and replace them with a people who
+believe in God's Oneness and worship Him alone (see also 7:69; 9:39; 47:38). By telling his people that
+"you harm Him not in the least" (cf. 3:144, 176; 9:39; 47:32), Hūd conveys that they do not harm God in
+any fashion by turning away from Him, nor does any harm come to Him if He destroys them, since He did not
+create them out of need for them; alternately, they will lack the ability to cause God any harm if He
+causes another people to replace them.
+
+**Reflection.** The threat carries its own consolation: the message is delivered and God is watching —
+so the messenger need neither carry the people's disbelief nor fear their harm.
+
+## 11:58
+
+*"And when Our Command came, We saved Hūd and those who believed with him through a Mercy from Us; and
+We saved them from a grave punishment."*
+
+**Meaning.** **[Ṭabarī]** When the punishment of God came upon the people of Hūd, He saved from it Hūd
+and those who believed with him — "through a Mercy from Us": by His favour upon them and His blessing —
+"and We saved them from a grave punishment": He also saved them from a grave punishment on the Day of
+Resurrection, just as He saved them in this world from the wrath that He brought down upon ʿĀd. **[Jalālayn]**
+When Our command — Our chastisement — came to pass, We delivered Hūd and those who believed with him by
+a mercy — by a guidance — from Us, and We delivered them from a harsh and severe chastisement. **[Ibn
+Kathīr]** "When Our commandment came": this is referring to the barren wind with which Allah destroyed
+them to the very last of them; the mercy and kindness of Allah saved Hud and his followers from this
+terrible punishment. **[Saʿdī]** "When Our Command came": Our punishment, by sending the barren wind that
+left nothing it came upon but made it like decayed bones. "We saved Hūd and those who believed with him
+through a Mercy from Us, and We saved them from a grave punishment": great and severe, which God caused
+to descend upon ʿĀd, so that nothing was seen of them but their dwellings.
+
+**Context.** **[Study Quran]** God's Command here refers to His Punishment, which was in the form of a
+howling wind (54:19). Since the ʿĀd had experienced an extended drought (see v. 52), they mistook a cloud
+that had appeared to be a sign of impending rain — thus in 46:24 they say, "This is a cloud bringing us
+rain"; but it turned out to be a wind carrying a painful punishment, which 46:25 describes as destroying
+everything by the Command of its Lord, "such that naught was seen but their dwellings." See also 54:20,
+which describes it as tearing out people as if they were uprooted palm trunks, and 7:72. Those who
+accepted Hūd's message are said to have been forty thousand in number. Their being saved through a Mercy
+from Us refers to their being guided to faith in God and to the performance of righteous deeds.
+
+**Rulings.** **[Qurṭubī]** "We saved them through a Mercy from Us": no one is saved except by God's
+mercy, even if he has righteous deeds; in the Ṣaḥīḥs of Muslim and Bukhārī and others, from the Prophet
+ﷺ: "None of you will be saved by his deed." They asked, "Not even you, Messenger of God?" He said, "Not
+even I, unless God envelops me in a Mercy from Him." It was also said "through a Mercy" means by Our
+making guidance clear to them, which is itself a mercy. Those who believed numbered four thousand — or,
+it was said, three thousand. "A grave punishment": the punishment of the Day of Resurrection — or, it was
+said, the barren wind mentioned in Sūrat al-Dhāriyāt. Al-Qushayrī: when a prophet's promised punishment
+comes, God saves the prophet and the believers with him; yet God may also try a prophet and his people
+with a general affliction, which is a punishment for the disbelievers and a purging for the believers,
+when it is not what the prophet had warned them of.
+
+**Reflection.** The two salvations are joined — from the wind of this world and from the greater
+punishment of the next — and both are mercy, none of it wage.
+
+## 11:59
+
+*"That was ʿĀd. They rejected the signs of their Lord and disobeyed His messengers, and followed the
+command of every stubborn tyrant."*
+
+**Meaning.** **[Ṭabarī]** These upon whom We brought Our vengeance and punishment were ʿĀd: they
+rejected God's proofs and evidences, and disobeyed His messengers whom He sent to them to call them to
+His oneness and obedience to His command; and they followed the command of every stubborn tyrant: every
+one who was arrogant against God, one who obstinately turned away from His obedience. **[Jalālayn]** And
+that was ʿĀd — this is an allusion to their remains: go forth in the land and look at these remains. God
+then describes their case: they knowingly denied the signs of their Lord, and disobeyed His messengers —
+the plural being used because when a person disobeys a messenger he has effectively disobeyed all of
+them, since they share a common principle in the Message with which they come, namely the principle of
+God's Oneness; and they — the riffraff — followed the command of every rebellious tyrant, every leader
+of theirs who was obstinate with regard to the truth. **[Ibn Kathīr]** "Such were the people of ʿĀd.
+They rejected the āyāt of their Lord and disobeyed His Messengers": they denied the signs and miracles
+which God had shown them through Hūd. **[Saʿdī]** "And that was ʿĀd": upon whom God brought down what
+He brought down by reason of their wrongdoing, for they "rejected the signs of their Lord" — and for
+this reason they said to Hūd, "You have brought us no clear proof": so by this it is evident that they
+were certain of his call, and only opposed and rejected it out of stubbornness. "And they disobeyed His
+messengers": whoever disobeys one messenger has disobeyed all the messengers, for their call is one.
+"And they followed the command of every tyrant": one who dominates God's servants by tyranny, "stubborn":
+obstinate against God's signs; so they disobeyed every sincere and compassionate counsellor, and followed
+every one who deceived them and wished their ruin — no wonder, then, that God destroyed them.
+
+**Context.** **[Study Quran]** That following the command of every stubborn tyrant is bound to fail is
+similar to "Every stubborn tyrant fails" at 14:15: those who follow people who stubbornly reject the
+truth brought by God's messengers will ultimately be unsuccessful, since God will aid His messengers
+against them; in connection with the people of Hūd, see also 26:130.
+
+**Reflection.** Their verdict is read over their ruins: certainty they had, but they spent it on
+following the tyrants — and one rejected messenger is counted as all of them.
+
+## 11:60
+
+*"And they were pursued by a curse in this world, and on the Day of Resurrection. Behold! Truly ʿĀd
+disbelieved in their Lord. Behold! Away with ʿĀd, the people of Hūd!"*
+
+**Meaning.** **[Ṭabarī]** The people of Hūd, ʿĀd, were pursued in this world by God's anger and wrath,
+and on the Day of Resurrection by a curse added to the curse that had already preceded for them from God
+in this world. "Behold, truly ʿĀd disbelieved in their Lord; behold, away with ʿĀd, the people of Hūd":
+may God remove them far from all good. It is said "so-and-so disbelieved his Lord" (*kafara rabbahu*)
+and "disbelieved in his Lord" (*kafara bi-rabbih*), as one says "I thanked you" and "I thanked you";
+and it has been said the meaning is: they disbelieved the blessing (*niʿmah*) of their Lord. **[Jalālayn]**
+A curse was made to follow them in this world from people, and on the Day of Resurrection a curse will
+follow them for all creatures to see. Lo, ʿĀd knowingly disbelieved in their Lord. Lo, away — far from
+God's mercy — with ʿĀd, the folk of Hūd! **[Saʿdī]** They were pursued in this world by a curse: there
+is no age or generation but that their foul tales and hideous reports are remembered, and reproach
+attaches to them; and on the Day of Resurrection they have a curse likewise. "Behold, truly ʿĀd
+disbelieved in their Lord": they denied the One who created them, provided for them and nurtured them.
+"Behold, away with ʿĀd, the people of Hūd": may God remove them far from every good, and bring them near
+to every evil. **[Ibn Kathīr]** They were pursued by a curse in this world, and likewise on the Day of
+Resurrection.
+
+**Context.** **[Study Quran]** The curse against the people who rejected Hūd refers to their being
+distanced from God's Mercy. "Away with" functions as a kind of refrain throughout this sūrah, used here
+in connection with the ʿĀd, then with the Thamūd (v. 68), and finally with the Midianites (v. 95).
+
+**Reflection.** The curse follows them across both worlds, and the refrain closes their story like a
+seal — the same seal that waits upon every later people who repeat their deed.
