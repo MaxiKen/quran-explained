@@ -453,3 +453,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** asks why people who were given scripture and knew its truth would refuse to follow it. The verse warns against appealing to a tradition only when convenient, then rejecting its judgment when it challenges one’s claims.
 
 ---
+
+## 3:24
+
+*That is because they say, “The Fire will not touch us except for a numbered few days,” and what they used to fabricate has deluded them in their religion.*
+
+**Meaning.** This explains why the group in 3:23 turned away from judgment: they believed their punishment in Hell would be brief. **[Ṭabarī]** specifies forty days, the time they worshipped the calf, after which they expected God to release them. **[Jalālayn] [Maʿārif]** give the same forty-day explanation; **[Ibn Kathīr] [Study Quran]** also report a different claim of seven days, sometimes calculated as one day for each thousand years of earthly life. **[Ṭabarī]** adds that they claimed to be God’s children and beloved, and that Jacob had promised they would enter the Fire only for a brief “fulfillment of an oath.” **[Maʿārif]** likewise connects their confidence to claiming descent from prophets. These self-assurances are the fabrications that deceived them **[Ṭabarī] [Jalālayn]**. **[Saʿdī]** identifies two related causes of their turning away: claiming salvation for themselves alone and allowing fabricated beliefs to make their rejection of God’s signs seem right.
+
+**Context.** The verse answers the refusal to let the Book judge in 3:23. **[Study Quran]** says that whatever number of days they claimed, the confidence that punishment would be limited revealed an unwarranted sense of exemption from accountability.
+
+**Belief.** **[Saʿdī]** rejects the claim that religious identity guarantees salvation regardless of conduct. **[Ṭabarī]** presents the promise attributed to Jacob as a fabrication, not a limit on God’s judgment; ancestral status cannot nullify accountability.
+
+**Language.** *Ayyāman maʿdūdāt* means a counted or limited number of days. *Gharrahum* (“deluded them”) is linked to *mā kānū yaftarūn* (“what they used to fabricate”): their invented assurances misled them in their religion **[Jalālayn] [Ṭabarī]**.
+
+**Cross-references.** The claim that the Fire would touch them only for a few days: 2:80 **[Study Quran]**. The claim “We are the children of God and His beloved”: 5:18 **[Ṭabarī]**.
+
+**Reflection.** A comforting claim can become a veil against truth when it promises privilege without repentance or justice. **[Saʿdī] [Study Quran]** urge readers to test beliefs against revelation rather than use them to excuse wrongdoing.
+
+---
