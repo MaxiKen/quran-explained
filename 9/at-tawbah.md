@@ -50,6 +50,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -1063,43 +1065,322 @@ He bestows on whom He knows to be fit for it.
 
 ## 9:16
 
-*“Or did you suppose that you would be left alone, before God has made known those among you who strive and take no confidant besides God, His Messenger, and the believers? God is Aware of what you do.”*
+*"Or did you suppose that you would be left alone, while God had yet to know whom among you strove and took
+no friend apart from God, His Messenger, and the believers? And God is Aware of whatsoever you do."*
 
-**Meaning.** The community will be tested so that sincere commitment becomes manifest in action. *Walījah* here means a close confidant or intimate ally: the verse asks whether believers will put their loyalty in God, the Messenger, and the community rather than in rival alliances. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Or" — *am* has the sense of the initial *a-*, used to express disavowal — "did
+you suppose that you would be left in peace when God does not yet know" — that is, through knowledge
+outwardly manifested — "those of you who have struggled sincerely and have not taken, besides God and His
+Messenger and the believers, an intimate friend (*walījah*)," as a confidant or an ally? In other words:
+when it has not yet become manifest who the sincere ones are — those described in the exclusive way
+mentioned. "And God is Aware of what you do." **[Ṭabarī]** God says to the believers whom He commanded to
+fight these idolaters who broke their treaty — in "fight them, God will punish them by your hands" —
+urging them to *jihād* against them: "Or did you suppose, O believers, that God would leave you without a
+trial by which He tries you and a test by which He tests you, so as to know the truthful among you in his
+religion from the liar in it?" "While God had yet to know those of you who strove": did you suppose that
+you would be left without a test through which the people of His allegiance among you, those who strive in
+His way, become known from those who squander the command of God and fall short in it — "and took no
+*walījah* apart from God, nor His Messenger, nor the believers"? *Walījah* is a thing that enters into
+something else: one says *walaja fulānun fī kadhā yalijuhu, fa-huwa walījah*. Here what is meant by it is
+the intimates from among the idolaters, whom God forbade the believers to take. **[Saʿdī]** God says to
+His believing servants, after commanding them to fight: "Or did you suppose that you would be left alone"
+without trial and testing, and without a command by which the truthful is distinguished from the liar?
+"While God had yet to know those of you who strove" — a knowledge that emerges from potential into
+actuality, so that reward and punishment may follow upon it; so that He knows those who strive in His way
+to exalt His word — "and took no *walījah* apart from God, nor His Messenger, nor the believers," that is,
+no patron from among the disbelievers; rather they take God, His Messenger and the believers as patrons.
+God prescribed *jihād* so that this greatest purpose might be achieved: that the truthful, who side with
+nothing but the religion of God, should be distinguished from the liars who claim faith while taking
+confidants and patrons apart from God, His Messenger and the believers. "And God is Aware of whatsoever you
+do": He knows what proceeds and issues from you, and so He tries you with that by which the reality of
+your state becomes manifest, and recompenses you for your deeds, the good of them and the evil.
 
-**Reflection.** Trials do not give God new knowledge; they bring people’s choices into the open, with their consequences made evident. **[Jalālayn] [Saʿdī] [Maʿārif]**
+**Ḥadīth & āthār.** **[Ibn Kathīr]** "Do you think that you shall be left alone while God has not yet
+tested those among you who have striven hard and fought, and have not taken *walījah* besides God and His
+Messenger and the believers" — meaning supporters and confidants; rather, they are sincere to God and to
+His Messenger ﷺ inwardly and outwardly. **[Ṭabarī]** Al-Suddī said, on "it is not fitting for them to
+maintain them" (9:17) and on "bearing witness against themselves to unbelief": the Christian is asked,
+"What are you?" and he says, "A Christian"; the Jew is asked and says, "A Jew"; the Ṣābiʾ says, "A Ṣābiʾ";
+and the idolater, when you ask him "What is your religion?", says, "An idolater" — none but the Arabs would
+say it.
+
+**Belief.** **[Ibn Kathīr]** Since God legislated *jihād* for His servants, He explained that the wisdom
+behind it includes testing His servants and distinguishing those who obey Him from those who disobey Him.
+**[Maʿārif]** *Jihād* is a test, and the test is necessary because it marks out the sincere Muslim from
+the hypocrites and the weak in faith — people who would pass on sensitive information about the Muslims to
+their non-Muslim friends. Two signs of a sincere Muslim are named in this verse: they fight the
+disbelievers in the way of God, and they take no non-Muslim as a close friend in whom they confide. And
+the closing words, "God is Aware of what you do," mean that before Him no one can get away with false
+excuses and alibis.
+
+**Language.** **[Qurṭubī]** *Am ḥasibtum* is a transition from one thing to another. *An tutrakū* occupies
+the place of the two objects of *ḥasibtum* according to Sībawayhi, while al-Mubarrid holds that the
+second has been elided; the sense is: did you suppose that you would be left without being tried by that
+through which the believer and the hypocrite become manifest with a manifestation that merits reward and
+punishment? *Wa-lammā yaʿlam* is made jussive by *lammā* even though the *mā* is extra, for according to
+Sībawayhi it serves as the answer to "he has done"; the *mīm* takes *kasra* because of the meeting of two
+quiescent letters. *Walījah* is *biṭānah*, an intimate circle and an entering-in, from *wulūj*, "entering"
+— whence the lair into which wild beasts enter is called a *tawlij*; *walaja yaliju wulūjan* means "he
+entered." The sense here is an inward affection for other than God and His Messenger. Abū ʿUbayda said:
+everything you insert into a thing not of it is a *walījah*, and a man among a people of whom he is not
+one is a *walījah*. Ibn Zayd said: the *walījah* is the intimate, and the *wulajāʾ* are the intimates; a
+man's *walījah* is the one singled out for the inner reach of his affair.
+
+**Cross-references.** **[Ibn Kathīr]** 29:1–3 — "Do people think that they will be left alone because they
+say, 'We believe,' and will not be tested?"; 3:142 — "Do you think that you will enter Paradise before God
+tests those of you who fought and tests those who are patient?"; and 3:179 — "God will not leave the
+believers in the state in which you are now, until He distinguishes the wicked from the good."
+**[Study Quran]** Compare 29:2–3; *friend* renders *walījah*, a word conveying the sense of confidant and
+intimate (Q). On what is meant by God doing something "in order to know," see 2:143.
+
+**Reflection.** Faith that has never been tested is faith unmeasured — not by God, who knows it already,
+but by the one who holds it. The trial is what makes the claim visible: whether a person's loyalties run
+to God, His Messenger and the believers, or whether he has kept a private door open to the other side.
+
+---
 
 ## 9:17
 
-*“It is not for the polytheists to maintain the mosques of God while bearing witness against themselves to disbelief. Their deeds have come to nothing, and in the Fire they will abide.”*
+*"It is not for the idolaters to maintain the mosques of God, bearing witness of disbelief against
+themselves. They are those whose deeds have come to naught, and in the Fire shall they abide."*
 
-**Meaning.** The verse questions the claim to tend God’s sanctuaries while openly rejecting the faith and worship for which they were established. Commentators understand *ʿimārah* to include worship and service as well as physical upkeep; some take “the mosques of God” generally, while others emphasize the Sacred Mosque. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn] [Study Quran]**
+**Meaning.** **[Jalālayn]** "It is not for the idolaters to attend God's places of worship" — *masājid* is
+also read in the singular, *masjid* — "entering them or sitting in them, bearing witness against
+themselves to unbelief; those — their works have failed," their works are invalid, "and in the Fire they
+shall abide." **[Ṭabarī]** It is not fitting for the idolaters to maintain the mosques of God while they
+bear witness against themselves of unbelief: the mosques are maintained only for the worship of God in
+them, not for unbelief in Him; so whoever disbelieves in God, it is not his part to maintain the mosques
+of God. **[Saʿdī]** "It is not" — it is not fitting, nor is it seemly — "for the idolaters to maintain the
+mosques of God" by worship and prayer and other kinds of obedience, while they are witnesses and confessors
+against themselves of unbelief, by the testimony of their state, of their natural constitution, and of the
+knowledge of many of them that they stand upon unbelief and falsehood. If they bear witness against
+themselves to unbelief and to the absence of the faith that is the condition for works to be accepted, how
+can they claim to be the maintainers of the mosques of God when the root is missing from them and their
+works are void? Hence He says: "those — their works have come to naught," they are void and lost, "and in
+the Fire they abide."
 
-**Reflection.** Outward service to a sanctuary does not substitute for faith and sincere worship. **[Saʿdī] [Maʿārif]**
+**Ḥadīth & āthār.** **[Ṭabarī]** Al-Suddī said: "It is not for the idolaters to maintain the mosques of
+God" means it is not fitting for them to maintain them. On "bearing witness against themselves to
+unbelief": the Christian is asked, "What are you?" and he says, "A Christian"; the Jew is asked and says,
+"A Jew"; the Ṣābiʾ says, "A Ṣābiʾ"; and the idolater, when asked, "What is your religion?", says, "An
+idolater" — none but the Arabs would say it. **[Ibn Kathīr]** Al-Suddī said: "If you ask a Christian,
+'What is your religion?', he will tell you he is a Christian. If you ask a Jew about his religion, he will
+say he is a Jew; and the same for a Ṣābiʾ and an idolater."
+
+**Context.** **[Qurṭubī]** The scholars differ over the interpretation of this verse. Some said that it
+means they have no right to perform the ḥajj after the proclamation barring them from the Sacred Mosque,
+since the affairs of the House — the custodianship (*sidānah*), the giving of drink (*siqāyah*) and the
+feeding of pilgrims (*rifādah*) — belonged to the idolaters; so God made clear that they are not worthy of
+that, and that its people are the believers. It is also said that when al-ʿAbbās was taken prisoner and
+was taunted with unbelief and the severing of kinship, he said: "You mention our evils and do not mention
+our merits." ʿAlī said: "Have you merits?" He said: "Yes — we maintain the Sacred Mosque, we veil the
+Kaʿbah, we give the pilgrims drink and we ransom the captive." So this verse came down in refutation of
+him. **[Study Quran]** On one account, ʿAbbās — the Prophet's uncle — was speaking to ʿAlī and proclaiming
+his own merit for being responsible for giving drink to the pilgrims, an honour and a privilege, and was
+rebuked by ʿAlī, who noted that he himself had fought for Islam from the beginning while ʿAbbās had only
+lately begun to perform the canonical prayer (IK).
+
+**Rulings.** **[Qurṭubī]** It follows that it is incumbent upon the Muslims to take charge of the
+ordinances of the mosques and to prevent the idolaters from entering them. **[Ibn Kathīr]** Those who read
+"*Masjid* Allāh" in the singular said it refers to al-Masjid al-Ḥarām, the most honoured mosque on earth,
+built from the first day for the worship of God alone without partners, built by *Khalīl al-Raḥmān*, the
+Prophet Abraham.
+
+**Cross-references.** **[Ibn Kathīr]** 8:34 — "And why should not God punish them while they hinder men
+from al-Masjid al-Ḥarām, and they are not its guardians? None can be its guardians except those with
+*taqwā*, but most of them know not." **[Study Quran]** That the deeds of disbelievers may come to naught
+in the Hereafter is mentioned throughout the Qurʾān — 2:217; 3:22; 5:5, 53; 6:88; 7:147; 11:16; 18:105;
+33:19; 39:65; 47:9, 28, 32; 49:2.
+
+**Readings.** **[Jalālayn] [Qurṭubī]** *Masājid Allāh*, "the mosques of God," is also read in the singular
+as *masjid Allāh*, giving the Sacred Mosque. The general reading is *yaʿmuru* with *fatḥa* on the *yā* and
+*ḍamma* on the *mīm*, from *ʿamara yaʿmuru*; Ibn al-Samayqaʿ read *yuʿmiru*, "they make it inhabited" or
+"they assist in its maintenance."
+
+**Reflection.** Custodianship of a holy place is an office, and an office is not judged by its outward
+dignity but by the one who holds it and what he stands for. A man may hold the keys, supply the water and
+feed the pilgrims — and yet, confessing unbelief with his own tongue, have no share in the thing he
+serves. The verse measures service by faith, and faith by what a person himself confesses to be.
+
+---
 
 ## 9:18
 
-*“Only those who believe in God and the Last Day, establish prayer, give zakāh, and fear none but God may maintain the mosques of God. It may be that they are among the rightly guided.”*
+*"Only they shall maintain the mosques of God who believe in God and the Last Day, perform the prayer and
+give the alms, and fear none but God. Such as these may be among the rightly guided."*
 
-**Meaning.** The contrast with 9:17 names the qualities of those who are truly fit to serve God’s mosques: faith, prayer, charitable obligation, and reverent fear of God. Maintaining a mosque is not merely a matter of possession or public prestige; it is joined to worship and accountability. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Only he shall attend God's places of worship who believes in God and the Last
+Day and observes prayer and pays the alms and fears none but God alone; it may be that those will be among
+the rightly guided." **[Ṭabarī]** "Only he maintains the mosques of God who affirms the oneness of God and
+is sincere to Him in worship" — "and the Last Day": who believes in God's raising of the dead alive from
+their graves on the Day of Resurrection — "and establishes the prayer," the prescribed one, with its
+limits — "and gives the alms" incumbent upon his wealth, to those to whom God assigned it — "and fears
+none but God": he dreads the punishment of nothing for disobeying it, apart from God — "it may be that
+those will be among the rightly guided": fitting it is that those of this description should be, in God's
+sight, among those whom God has guided to the truth and to hitting the mark. **[Saʿdī]** Then He mentions
+who the maintainers of the mosques of God are: "Only they maintain the mosques of God who believe in God
+and the Last Day and establish the prayer" — the obligatory and the supererogatory, outwardly and
+inwardly — "and give the alms" to those entitled to it, "and fear none but God": they confine their fear
+to their Lord, and so refrain from what God has forbidden and do not fall short in the rights owed to God.
+He described them by beneficial faith, by the performance of righteous works whose mother is the prayer and
+the alms, and by the fear of God which is the root of every good: these are the true maintainers of the
+mosques and their people, those who are truly entitled to them. "It may be that those will be among the
+rightly guided" — and *ʿasā*, "it may be," when it comes from God is certain; but one who does not believe
+in God nor in the Last Day and has no fear of God is not of the maintainers of the mosques of God, nor of
+their people, though he claim it and assert it.
 
-**Reflection.** Religious service is measured by the faith and devotion it expresses, not by the status it brings. **[Maʿārif]**
+**Ḥadīth & āthār.** **[Qurṭubī]** Al-Tirmidhī narrated from Abū Saʿīd al-Khudrī that the Messenger of God
+ﷺ said: "When you see a man accustomed to the mosque, bear witness to his faith" — for God says, "Only
+they maintain the mosques of God who believe in God and the Last Day"; in another version, "who attends to
+the mosque"; a *ḥasan gharīb* ḥadīth. Some of the Salaf said: "When you see a man frequenting the mosque,
+think well of him." **[Maʿārif]** Here only faith in God and faith in the Last Day are mentioned by name,
+and not faith in the Messenger of God — because there is no way to believe in God except by believing in
+His Messenger and accepting wholeheartedly the commandments that come from God through him; so faith in the
+Messenger is included by necessity in faith in God.
+
+**Rulings.** **[Qurṭubī]** The verse is proof that testifying to the faith of those who frequent the
+mosques is sound, because God has tied faith to it and has informed us of its constancy. Ibn al-ʿArabī
+qualified this: it concerns the outward appearance of righteousness, not the definitive rulings of legal
+testimony — for testimonies have their proper states with those who know them. Among people are the
+intelligent and perceptive, who attain what they know both in belief and in what they report, and the
+naive; and each is to be placed at his own station and assessed by his own description.
+
+**Belief.** **[Maʿārif]** The building and maintenance of mosques in the real sense is a serene task: it
+can be done only by those who are bound by the commandments of God in belief (*ʿaqīdah*) and in practice
+(*ʿamal*) — who believe in God and in the Afterlife, establish the prayer, pay the *zakāh* and fear none
+but God. Verse 17 stated the negative half of this, that the idolaters do not deserve the honour; this
+verse states the positive.
+
+**Language.** **[Study Quran]** *May be* renders *ʿasā*, which is interpreted to mean, when it appears in
+the Qurʾān, that it will necessarily be so (Ṭ).
+
+**Reflection.** A mosque is maintained by worship, not by masonry; and the worship that maintains it is
+named here in full — faith in God, faith in the Reckoning, the prayer, the alms, and a fear reserved for
+God alone. Where those are present, the building has its people; where they are absent, the keys are held
+by a stranger.
+
+---
 
 ## 9:19
 
-*“Do you consider giving drink to the pilgrims and maintaining the Sacred Mosque to be like one who believes in God and the Last Day and strives in God’s way? They are not equal in the sight of God. God guides not wrongdoing people.”*
+*"Or do you consider giving drink to the pilgrims and maintaining the Sacred Mosque to be like those who
+believe in God and the Last Day and strive in God's way? They are not equal in the Eyes of God. And God
+guides not wrongdoing people."*
 
-**Meaning.** Providing water to pilgrims and caring for the Sacred Mosque are honorable services, but they do not equal faith and striving in God’s way or replace them. The verse rejects a claim of religious superiority based on custodial privilege alone. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Do you reckon the giving of water to pilgrims and the attendance of the
+Sacred Mosque" — that is, do you reckon those who do such things to be the same as him who believes in God
+and the Last Day and struggles in the way of God? "They are not equal" in merit "in God's sight; and God
+guides not the evildoing" — the disbelieving — "folk": this was revealed to refute those who claimed it,
+such as al-ʿAbbās and others. **[Ṭabarī]** This is a rebuke from God to a people who prided themselves on
+the giving of drink and on the custodianship of the House; He informs them that pride lies in faith in God
+and the Last Day and *jihād* in His way, not in the custodianship and the giving of drink of which they
+boasted. **[Saʿdī]** When some of the Muslims — or some Muslims together with some idolaters — differed
+over whether the maintenance of the Sacred Mosque, by building, prayer and worship in it, and the giving
+of drink to the pilgrims, were to be preferred to faith in God and *jihād* in His way, God told them of
+the difference between the two: "Have you made the giving of drink to the pilgrims" — giving them water
+from Zamzam, which is what is meant when this name is used absolutely — "and the maintenance of the Sacred
+Mosque like one who believes in God and the Last Day and strives in the way of God? They are not equal in
+the sight of God." For faith and *jihād* are better than giving the pilgrims drink and maintaining the
+Sacred Mosque by many degrees: faith is the root of the religion, by which works are accepted and
+qualities flourish; and *jihād* in the way of God is the summit of the religion's hump, by which the
+religion of Islam is preserved and widened, truth is helped and falsehood abandoned. As for maintaining
+the Sacred Mosque and giving the pilgrims drink, though they are righteous works, they depend upon faith
+for their validity and do not carry the benefits that faith and *jihād* carry. Hence He says: "They are
+not equal in the sight of God; and God guides not wrongdoing people" — those whose abiding description is
+wrongdoing, who are not fit to receive any good and whom nothing befits but evil.
 
-**Stories & occasions.** Commentators preserve different reports about the immediate occasion, including claims about the distinction of pilgrim service and discussions comparing different good deeds. The reports vary; the verse’s clear point is the priority of faith and striving over status based on service alone. **[Ibn Kathīr] [Qurṭubī] [Study Quran]**
+**Context.** **[Ṭabarī]** Al-Nuʿmān b. Bashīr al-Anṣārī said: I was at the pulpit of the Messenger of God
+ﷺ in a group of his Companions, and one of them said, "I do not care what work I do after Islam, other
+than giving the pilgrims drink." Another said, "Rather, the maintenance of the Sacred Mosque!" Another
+said, "Rather, *jihād* in the way of God is better than what you two have said." ʿUmar b. al-Khaṭṭāb
+rebuked them: "Do not raise your voices at the pulpit of the Messenger of God" — it was a Friday — "but
+when I have prayed the Friday prayer I will go in to the Messenger of God and ask him for a ruling on what
+you have differed about." He did so, and God sent down "Have you made the giving of drink to the
+pilgrims…" up to "and God guides not wrongdoing people." **[Maʿārif]** The idolaters of Makkah prided
+themselves on keeping the Sacred Mosque thronged with visitors and devotees and on running the drinking
+water service for the pilgrims and, with an eye to their Muslim rivals, claimed that no deed of anyone
+could match theirs. When ʿAbbās came to the Muslims as a prisoner from the battle of Badr — he had not
+embraced Islam at that time — his Muslim relatives reproached him for remaining deprived of the blessing
+of faith, and he replied in just these terms: you think faith and emigration are feathers in your cap, but
+we too have our assets; we are the custodians of the Sacred Mosque and we serve water to the pilgrims, and
+no deed of anyone can match these. Thereupon these verses were revealed (Ibn Kathīr, from ʿAlī b. Abī
+Ṭalḥah, from Ibn ʿAbbās). In a narration in the *Musnad* of ʿAbd al-Razzāq, the exchange took place after
+ʿAbbās had entered Islam: Ṭalḥah b. Shaybah said, "I have an excellence that neither of you has — the keys
+of the House of God are in my hands, and if I wish I can go inside it and spend the night there"; ʿAbbās
+said, "I administer the water service for the pilgrims, and I have rights over the Sacred Mosque"; and
+ʿAlī answered them. **[Ibn Kathīr]** Al-ʿAwfī reported that Ibn ʿAbbās explained: "The idolaters said,
+'Maintaining al-Masjid al-Ḥarām and providing water for pilgrims are better than embracing the faith and
+performing *jihād.' They used to boast and show off among the people because they claimed they were the
+people and maintainers of al-Masjid al-Ḥarām." God mentions their arrogance and their rejection, saying to
+"the people of the Ḥaram," who were idolaters: "Indeed My signs used to be recited to you, but you used to
+turn back on your heels, in pride, talking evil about it by night" (23:66–67) — they used to talk of this
+by night while shunning the Qurʾān and the Prophet ﷺ. God declared that faith and *jihād* with the Prophet
+are better than the idolaters' maintaining of al-Masjid al-Ḥarām and providing water for pilgrims; these
+acts — maintaining and serving God's House — will not benefit them with God, because they associate others
+with Him. **[Study Quran]** Al-Qurṭubī notes that it is plausible that the latter account was an instance
+of a previously revealed verse being mentioned in response to an incident, rather than being revealed in
+response to it.
+
+**Language.** **[Qurṭubī]** The underlying sense in Arabic is: "Have you made the people of the giving of
+drink to the pilgrims — or the work of giving them drink — like him who believes in God and strives in His
+way?"; and it may be understood as "like the faith of him who believes." *Siqāyah* is a verbal noun like
+*siʿāyah* and *ḥimāyah*; the noun is put in the place of the verbal noun when its meaning is known, as in
+"generosity is Ḥātim" and "poetry is Zuhayr"; and "the maintenance of the Sacred Mosque" is of a piece
+with "ask the town" (12:82). Abū Wajzah read *sūqāta al-ḥājj wa-ʿamarata al-masjid al-ḥarām*: *suqāt* is
+the plural of *sāqin*, originally *suqyatun* on the pattern *fuʿlatun*, as defective roots of this kind are
+pluralised — like *qāḍin* and *quḍāt*, *nāsin* and *nusāt* — whereas a sound root is pluralised on
+*fuʿalatun*, like *nāsiʾ* and *nusaʾah*, those who used to postpone the sacred months. Ibn al-Zubayr and
+Saʿīd b. Jubayr read likewise.
+
+**Reflection.** Two good things are set side by side and declared unequal — not because serving the
+pilgrims or tending the Sanctuary is small, but because faith and *jihād* carry the whole burden of
+preserving a community in which Sanctuary and pilgrimage exist at all. The verse also rebukes a familiar
+reflex: boasting of one's office while the faith that gives the office its worth is still unembraced.
+
+---
 
 ## 9:20
 
-*“Those who believe, emigrate, and strive in the way of God with their wealth and their lives are greater in rank in the sight of God. It is they who are triumphant.”*
+*"Those who believe and emigrate and strive in the way of God with their wealth and their selves are greater
+in rank in the Eyes of God. And it is they who are the triumphant."*
 
-**Meaning.** The verse identifies the higher rank not with inherited honor, but with faith, migration, and costly service in God’s way. It gathers the actions that have shaped the sūrah’s account of the early Muslim community. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Those who believe and have emigrated and have struggled in the way of God with
+their possessions and their lives are greater in degree" — in rank — "with God than others; and those, they
+are the triumphant," the ones who will attain good. **[Ṭabarī]** This is God's judgement between the
+factions of those who boasted — one boasting of the giving of drink, one of the custodianship, and one of
+faith in God and *jihād* in His way. "Those who believe" in God and affirm His oneness, from among the
+idolaters, "and emigrate" — leave the homes of their people — "and strive" against the idolaters in the
+religion of God "with their wealth and their selves, are greater in degree with God," and higher in station
+with Him, "than those who give the pilgrims drink and maintain the Sacred Mosque while associating partners
+with God"; "and those" — these whose description We have given, that they believed, emigrated and strove —
+"they are the triumphant": the attainers of Paradise, those delivered from the Fire. **[Saʿdī]** Then He
+stated the merit plainly: "Those who believe and emigrate and strive in the way of God with their wealth" —
+by spending on *jihād* and equipping those who go out — "and their selves" — by going forth in person —
+"are greater in rank with God; and it is they who are the triumphant": none attains what is sought and
+none escapes what is feared except one who is characterised by their attributes and takes on their
+character.
 
-**Reflection.** The promise of triumph is linked to commitment and sacrifice, not simply to worldly strength. **[Maʿārif]**
+**Language.** **[Qurṭubī]** "Those who believe" is in the nominative as the subject, and its predicate is
+"are greater in degree with God"; *darajah* is in the accusative as specification — that is, greater than
+those who boasted of giving drink and maintenance. Strictly, the disbelievers have no degree with God such
+that it could be said the believer is greater in degree; what is meant is that they had allotted
+themselves a degree on account of the maintenance and the giving of drink, so He addressed them according
+to what they had allotted to themselves, even though that allotment was mistaken — as in "the inhabitants
+of Paradise on that day will be better in station" (25:24). It is also said: "greater in degree" than
+every possessor of a degree — that is, theirs is the excellence and the lofty station. "And those, they are
+the triumphant" thereby.
+
+**Belief.** **[Maʿārif]** This verse expands the "they are not equal" of v. 19: the idolaters opposed to
+them had no share of success at all, while Muslims in general shared this success in essence — but the
+success of those described here was greater, and so theirs is the comprehensive success.
+
+**Cross-references.** **[Study Quran]** Striving in the way of God with one's wealth and one's self is
+mentioned again in vv. 44 and 81 of this sūrah.
+
+**Reflection.** The rank is given for a combination, not a single deed: faith, emigration — leaving what
+one loves for God's sake — and then striving with wealth and with self. "Those who give drink" and "those
+who maintain" are not dismissed; they are simply surpassed by those who gave everything, themselves
+included, and were ready to leave home for it.
 
 ## 9:21
 
