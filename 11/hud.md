@@ -1273,3 +1273,162 @@ case against me before God (Ṭs)?
 **Reflection.** The test of a caller to God is whom he keeps when the powerful demand he let them go: and
 Nūḥ saw, behind the ragged believers, not an audience to be flattered but witnesses who would one day
 testify — for him or against him.
+
+## 11:31
+
+*"I do not say to you, 'I possess the treasuries of God,' nor do I know the Unseen, nor do I say, 'I am an
+angel'; nor do I say of those whom your eyes despise, 'God will never give them any good.' God knows best
+what is in their souls — indeed, then I would be among the wrongdoers."*
+
+**Meaning.** **[Ṭabarī]** This is joined to his saying, "I ask you no wage for it": I do not say to you
+that with me are the treasuries of God, which nothing exhausts, so that I call you to follow me for them;
+nor do I know the Unseen — the hidden secrets of the servants, which none knows but God — so that I claim
+lordship and call you to my worship; nor do I say I am an angel sent to you, and thereby lie — rather, I
+am a human like you. **[Jalālayn]** I do not say to you that I possess the treasuries of God, or that I
+know the Unseen; nor do I say I am an angel — nay, I am human like you; nor do I say of those whom your
+eyes scorn that God will not give them any good — God knows best what is in their souls, in their hearts;
+lo, if I were to say this, I would indeed be of the evildoers. **[Ibn Kathīr]** Nūḥ informs them that he
+is a messenger calling to the worship of God alone by God's permission, asking no reward; he invites
+whomever he meets, noble or lowly, and whoever responds has attained salvation. He has no power over the
+hidden treasuries of God, nor knowledge of the Unseen except what God has allowed him to know; he is not
+an angel but a human messenger aided with miracles. And he does not say of those the disbelievers despise
+that God will not reward them: God knows best what is in their souls — if they believe in their hearts as
+their outward condition shows, they will have a good reward, and whoever speaks evil of them after their
+faith is a wrongdoer speaking what he has no knowledge of. **[Saʿdī]** My utmost is that I am God's
+messenger to you, bringing good tidings and warning; nothing beyond that is in my hand: the treasuries of
+God are not mine to manage, giving and withholding as I please; I do not know the Unseen so as to report
+your secrets and inward states; I claim no rank above the rank God has given me, nor say that I am an
+angel; and I will not judge people by my conjecture, saying of those whom your eyes despise — the weak
+believers whom the unbelieving chiefs scorn — that God will never give them good: God knows best what is
+in their souls; if they are true in their faith, much good is theirs, and if not, their reckoning is with
+God. If I said anything of this, I would be of the wrongdoers. In this he made his people despair of his
+ever casting off the poor believers, and convinced them with what convinces every fair-minded person.
+
+**Belief.** **[Maʿārif]** This address announces matters of principle after their objections: the mission
+of a prophet does not depend on what they thought necessary. First: "I do not say I possess the
+treasuries of God" — refuting the idea that one sent from God should bring treasures and distribute them
+freely; the mission of prophets has nothing to do with entangling people in worldly enjoyments. It also
+refutes the false thought that God has handed all His powers to prophets, or even to saints, who decide
+whom to give and withhold from: God has entrusted total control of the treasuries of His power to no one,
+prophet let alone saint — but when they pray, God answers with His infinite power. Second: "nor do I know
+the Unseen" — refuting the idea that a messenger must know the unseen; knowledge of the unseen is an
+exclusive attribute of God that no prophet or angel shares, though God informs whomever He wills of His
+prophets of its secrets, as much as He wills. Third: "nor do I say I am an angel." And fourth: in your
+sight these poor people may be lowly, but I cannot say that God will not bless them with good — good
+relates to the heart, not wealth, and only God knows the secrets of hearts; if I called them lowly, I too
+would be unjust. **[Study Quran]** Al-Rāzī explains that these disclaimers highlight Nūḥ's humility and
+lowliness before God — an attitude that let him embrace those deemed lowly by his people while preventing
+him from being seduced by the company of the notables; the same assertions are made by the Prophet ﷺ in
+answer to Quraysh (see 6:50).
+
+**Reflection.** The prophet strips himself of everything his people demanded of him — treasure, unseen
+knowledge, angelhood — and keeps only what he truly has: the message; and in refusing to judge the hearts
+of the poor, he guards the one door through which faith enters.
+
+## 11:32
+
+*"They said, 'O Nūḥ, you have disputed with us and prolonged the disputation with us; so bring upon us
+that wherewith you threaten us, if you are among the truthful.'"*
+
+**Meaning.** **[Ṭabarī]** The people of Nūḥ said: you have contended with us and prolonged your
+contention; bring us the punishment you promise us, if you are truthful in your promises and your claim
+to be God's messenger — meaning that he has no power over any of it. Mujāhid: *jādaltanā* means you
+wrangled with us. **[Jalālayn]** They said: O Nūḥ, you have disputed with us and disputed with us at
+length — so bring upon us that wherewith you threaten us of chastisement, if you are of the truthful.
+**[Ibn Kathīr]** The people of Nūḥ sought to hasten God's vengeance, torment and anger: "You have argued
+with us long enough, and we are still not going to follow you; supplicate against us however you wish,
+and let whatever you have supplicated come to us."
+
+**Language.** **[Qurṭubī]** "You have disputed with us": you have contended with us and gone to excess in
+contention. *Jadal* in the speech of the Arabs is intensification in disputation, from *jadl*, tight
+twisting; the falcon is called *ajdal* for its fierceness among birds. Ibn ʿAbbās read *fa-aktharta
+jidalanā*. Disputation in religion for the truth is praiseworthy — so Nūḥ and the prophets disputed with
+their peoples until the truth appeared: whoever accepts it prospers, whoever rejects it loses; but
+disputation for other than the truth, to make the false appear in the guise of the true, is blameworthy,
+and its owner is censured in both abodes.
+
+**Cross-references.** **[Study Quran]** "Bring upon us that wherewith you have threatened us" is a typical
+reaction of disbelievers to the teachings of the prophets (see also 7:70, 77; 46:22), referring to the
+impending punishment about which Nūḥ had informed them (v. 26).
+
+**Reflection.** When arguments are exhausted and pride remains, the last resort of the loser is to demand
+the punishment he pretends not to believe in — the demand itself being the confession.
+
+## 11:33
+
+*"He said, 'Only God will bring it upon you if He wills, and you cannot escape.'"*
+
+**Meaning.** **[Ṭabarī]** Nūḥ said to his people when they hastened the punishment: what you are
+hastening, O people, is not mine to bring — it is with God and none other, and He will bring it upon you
+if He wills; "and you cannot escape": when He wills to punish you, you will not escape Him by flight, for
+wherever you are, you are in His dominion, His authority and His power, and His judgement runs upon
+you. **[Jalālayn]** Only God will bring it upon you, if He wills to hasten it for you, for the decision
+is His, not mine; and you cannot escape Him — elude God. **[Ibn Kathīr]** Only God can punish you and
+hasten your punishment; He is the One from whom nothing escapes. **[Qurṭubī]** "If He wills": if He wills
+your destruction, He will punish you. "You cannot escape": you will not elude Him; it was also said: you
+will not prevail by your numbers, in which they took pride — they had filled the plains and the
+mountains of the earth.
+
+**Cross-references.** **[Study Quran]** "You cannot thwart it" refers to their inability to escape the
+punishment (JJ; cf. 6:135; 10:53).
+
+**Reflection.** The prophet does not own the punishment he preaches, and his powerlessness over it is part
+of the proof of his truthfulness: he threatens with what only God commands, and leaves the timing to Him.
+
+## 11:34
+
+*"And my counsel will not benefit you, though I desire to counsel you, if God desires to make you err. He
+is your Lord, and to Him you shall be returned."*
+
+**Meaning.** **[Ṭabarī]** My warning of His punishment and the descent of His seizing upon you for your
+disbelief will not benefit you, even if I desire to counsel you in that warning — because you do not
+accept my counsel — if God desires to make you err for your rejection of His truth. "He is your Lord":
+the Owner of your affair; "and to Him you shall be returned." **[Jalālayn]** My counsel will not benefit
+you if I desire to counsel you when God desires to keep you astray — the answer to the conditional being
+indicated by the preceding clause; He is your Lord, and to Him you will be brought back. **[Ibn Kathīr]**
+"If God's will is to keep you astray": your deception and your ultimate destruction. "He is your Lord":
+the Owner of the finality of all matters — the Controller, the Judge, the Most Just, who does no
+injustice; to Him belongs creation and command, He is the Originator and the Repeater, the Owner of this
+life and the Hereafter. **[Qurṭubī]** "My counsel will not benefit you": my conveying and my striving for
+your faith, "though I desire to counsel you" — because you do not accept counsel.
+
+**Belief.** **[Study Quran]** God's causing people to err is tantamount to the more common Qurʾānic notion
+that He causes some people to stray from the truth (see 17:97; 18:17; 74:31; cf. 4:88–90; 4:143; 6:39),
+one of the questions taken up in the essay "The Qurʾān and Schools of Islamic Theology and Philosophy."
+
+**Reflection.** Nūḥ's final word to them is neither anger nor triumph but a resignation that hands the
+matter back to its Owner: the counsel was given, the return is appointed, and the Lord is just.
+
+## 11:35
+
+*"Or do they say, 'He has fabricated it'? Say, 'If I fabricated it, my guilt is upon me; and I am quit of
+what you commit.'"*
+
+**Meaning.** **[Ṭabarī]** God says: do these polytheists of your people, O Muḥammad, say, "Muḥammad has
+fabricated this Qurʾān — and this report of Nūḥ"? Say to them: if I fabricated it, devising and inventing
+it, then upon me falls my sin of fabricating against my Lord, not upon you — you will not be taken for my
+sin, nor I for yours; "and I am quit of what you commit": quit of your sinning against your Lord and your
+fabrication upon Him. The Arabs say *ajramtu ijrāman* and *jaramtu ajrimu jarman*, as the poet: "an
+outcast of the clan, hostage of a sin — for what my hand earned and my tongue wrought." **[Jalālayn]** Or
+do they — the disbelievers of Mecca — say, "He has invented it," the Qurʾān? Say: if I have invented it,
+my crime is upon me — the punishment for it — and I am innocent of what you commit of crime when you
+attribute invention to me. **[Ibn Kathīr]** This is presented in the middle of the story to affirm the
+story itself: it is as if God says to Muḥammad ﷺ, "Do these obstinate disbelievers say he fabricated
+this?" "Upon me be my crimes": such sin would be mine alone; "I am innocent of the crimes you commit":
+this story is not invented or falsely fabricated — the Prophet ﷺ knows better than anyone the punishment
+of God for one who lies upon God. **[Saʿdī]** It may return to Nūḥ — his people saying he fabricated his
+claim of revelation, in which case the meaning is: every soul bears its own burden — or it may be an
+interjection concerning the Prophet ﷺ in the midst of Nūḥ's story. Either way, it is the strangest and
+voidest of sayings: they know he neither read nor wrote nor journeyed from among them to study with the
+people of the Book, and then he brought this Book with which he challenged them to produce a single sūrah
+like it — so if they still claim fabrication, they are known as obstinate, no benefit remains in debating
+them, and the fitting course is to turn away: "Say: if I fabricated it, upon me is my guilt" — my sin and
+my lying — "and I am quit of what you commit": why then do you persist in calling me a liar?
+
+**Cross-references.** **[Study Quran]** The verse pertains to the Makkan idolaters and their accusation
+that the Prophet fabricated the Qurʾān (JJ; see v. 13; 10:38; 32:2; 46:8); "my guilt is upon me" implies
+punishment, being equivalent to "then I shall be punished for my sin."
+
+**Reflection.** The verse plants the standard of honest debate inside a story of an earlier prophet: each
+soul bears its own crime, the accuser is invited to state his terms, and the messenger's innocence rests
+on the simple impossibility of what they allege.
