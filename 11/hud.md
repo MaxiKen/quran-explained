@@ -1432,3 +1432,216 @@ punishment, being equivalent to "then I shall be punished for my sin."
 **Reflection.** The verse plants the standard of honest debate inside a story of an earlier prophet: each
 soul bears its own crime, the accuser is invited to state his terms, and the messenger's innocence rests
 on the simple impossibility of what they allege.
+
+## 11:36
+
+*"And it was revealed to Nūḥ, 'None of your people shall believe except those who have already believed;
+so be not distressed by what they used to do.'"*
+
+**Meaning.** **[Ṭabarī]** God revealed to Nūḥ, when the word became due against his people and God's
+matter overshadowed them: none of your people, O Nūḥ, shall believe in God and follow you in what you
+call them to except those who have already believed and followed you. "So be not distressed": do not
+languish and do not grieve at what they do — for I am destroying them, and delivering you and those who
+followed you. God revealed this to him after Nūḥ had supplicated against them: "My Lord, leave not one of
+the disbelievers inhabiting the earth" (71:26). *Ibtaʾasa* is from *al-buʾs*, as Labīd said: "like the
+does of Ṣārah, grieving for what we have suffered." **[Jalālayn]** It was revealed to Nūḥ that none of
+your people will believe except he who has already believed; do not be distressed, grieved, because of
+what they do of idolatry. Then Nūḥ invoked God against them: "My Lord, leave not one of the disbelievers
+upon the earth" (71:26), and God responded to his invocation. **[Ibn Kathīr]** God sent this revelation
+when the people hastened the vengeance upon themselves; Nūḥ had supplicated against them — "My Lord,
+leave not one of the disbelievers inhabiting the earth" (71:26), and "I have been overcome, so help me"
+(54:10) — and God revealed: do not grieve over them and do not concern yourself with their affair.
+**[Saʿdī]** They have hardened: so do not be distressed — do not grieve and pay them no mind with their
+deeds; God has loathed them, and His punishment, which cannot be repelled, has become due upon them.
+
+**Context.** **[Qurṭubī]** The meaning of the speech is despair of their faith and the permanence of
+their disbelief, confirming that the threat would fall upon them. Al-Ḍaḥḥāk: when Nūḥ was informed of
+this, he supplicated against them: "My Lord, leave not one of the disbelievers inhabiting the earth." It
+is related that a man of Nūḥ's people carried his son on his shoulders, and when the boy saw Nūḥ he said
+to his father, "Give me a stone"; he gave him one, and he threw it at Nūḥ and drew his blood — whereupon
+God revealed this verse. "Be not distressed" means: do not grieve for their destruction to the point of
+misery; *al-buʾs* is grief, and *ibtiʾās* is grief with resignation. **[Study Quran]** Nūḥ had been
+calling his people to God for some 950 years (Aj; see 29:14, "he remained among them a thousand years,
+less fifty"); "those who had already believed" refers to those who believed up to that point. God's
+counsel not to be distressed — not to be saddened or despairing (Ṭ) — belongs to the wider Qurʾānic theme
+of God addressing the prophets' human reactions to the trials they inevitably encounter (2:214; 15:97–99;
+21:83–84; 26:3).
+
+**Stories & occasions.** **[Maʿārif]** God blessed Nūḥ with a life approaching a thousand years and a
+special station in calling people to Him; he spent those years inviting them to the true faith, facing
+the harshest pains: they threw stones at him until he fell unconscious, and when he regained his senses
+he prayed for their forgiveness, "for they do not know what they are doing." Generation followed
+generation, and he kept giving his call in the hope that at some stage they would accept the truth. When
+centuries had passed over this exercise in patience, he complained of their condition to his Lord — "I
+called my people night and day, but my call only increased them in flight" (71:5–6), "Lord, help me, for
+they have belied me" (23:26) — and when their reign of terror became excessive, God addressed him (al-
+Baghawī, al-Maẓharī): those who were to believe had already believed, and no one would believe after;
+their hearts were sealed by their own obstinacy, so he should grieve no more.
+
+**Reflection.** Nine hundred and fifty years of calling, and the verdict arrives not as defeat but as
+mercy for the caller: be not distressed — the work is accepted even when the result is withheld.
+
+## 11:37
+
+*"And build the ark before Our eyes and by Our revelation, and do not address Me concerning those who
+wronged — surely they shall be drowned."*
+
+**Meaning.** **[Ṭabarī]** God revealed to him to build the *fulk* — the ship, as Mujāhid said. "Before
+Our eyes": with God's eye, and "by Our revelation": as He commands you — Ibn ʿAbbās: Nūḥ did not know
+how to build the ark, so God revealed to him to build it like the breast of a bird; Mujāhid: "by Our
+revelation" — as We command you. **[Jalālayn]** Build the ark — the ship — under Our eyes: under Our
+watch and protection; and by Our revelation: by Our command; and do not address Me concerning those who
+have done wrong, who have disbelieved, by asking that I should refrain from destroying them — lo, they
+shall be drowned. **[Ibn Kathīr]** "Build the ship": *fulk* means ship; "under Our eyes": under Our
+vision; "by Our revelation": We will teach you what to do; "do not address Me on behalf of those who did
+wrong": they are surely to be drowned. Muḥammad b. Isḥāq related from the Torah that God commanded him to
+make it of Indian oak wood, eighty cubits long and fifty wide, coated inside and outside with tar, with a
+slanted bow to part the water, thirty cubits high, with three levels of ten cubits each — the lowest for
+the animals, tame and wild, the second for the human beings, the highest for the birds — a door in its
+side and a cover over all of it. **[Saʿdī]** Build it under Our protection, in Our sight, and to Our
+pleasure; do not contend with Me over the destruction of the wrongdoers — the word has become due upon
+them, and the decree has passed. **[Study Quran]** "Before Our eyes" is a figurative manner of saying God
+will watch over and protect Nūḥ's building (Kl); "by Our revelation" means God instructed him how to
+build (Bḍ); not to address Him concerning the wrongdoers means he was not to intercede for them or pray
+that the punishment be withheld (Kl, Bḍ).
+
+**Rulings.** **[Maʿārif]** *Boat-making: the education of a prophet.* Nūḥ knew no ark nor its making, so
+the command to build it was his first lesson: Jibrīl taught him, by revelation, all about the making of
+boats, and he used wood of the sāul tree (*Shorea robusta*). Historical narratives give its measurements:
+three hundred yards long, fifty wide, thirty high — almost a three-storey ship, its ventilators opening to
+right and left. Thus the shipbuilding industry, for the first time, began at the hands of Nūḥ through
+divine revelation. Some elders of the early centuries reported — in al-Dhahabī's *al-Ṭibb an-Nabawī* —
+that all industries essential to human beings owe their origin to divine revelation through some prophet,
+with improvements coming afterward: the first revelation to Ādam concerned rehabilitating the land and
+establishing industries, and the wheel and cart belong to that chain.
+
+**Reflection.** The prophet who knew nothing of carpentry is told to build, and is promised two things no
+workshop can supply: God's eye over the work and God's revelation in the plan — the first school of any
+craft is obedience.
+
+## 11:38
+
+*"And he was building the ark, and whenever a council of his people passed by him they mocked him. He
+said, 'If you mock at us, we shall mock at you just as you mock —'"*
+
+**Meaning.** **[Ṭabarī]** Nūḥ kept building the ship; whenever a group of the chiefs of his people
+passed him, they mocked him, saying: have you become a carpenter after prophethood, building a ship on
+dry land? And Nūḥ would say: if you mock us today, we shall mock you in the Hereafter as you mock us in
+this world. **[Jalālayn]** He was building the ark — *yaṣnaʿ* narrating a past state in the present
+tense — and whenever a council of his people passed him they scoffed at him; he said: though you scoff at
+us, we shall scoff at you even as you scoff — when we are saved and you drown. **[Saʿdī]** He obeyed his
+Lord's command and set to making the ark; whenever the chiefs of his people passed by and saw what he was
+doing, they mocked him; he said: if you mock us now, we shall mock at you just as you mock. **[Ibn
+Kathīr]** As he was constructing the ship, whenever the chiefs passed by him they mocked at him: "If you
+mock at us, so do we mock at you likewise for your mocking."
+
+**Stories & occasions.** **[Qurṭubī]** Zayd b. Aslam: Nūḥ spent a hundred years planting trees, cutting
+and drying them, and a hundred years building it. From Mālik: the people of Nūḥ had filled the earth,
+plain and mountain, until they could not move among one another; Nūḥ planted trees a hundred years for the
+ship, then dried them a hundred years while his people mocked. ʿAmr b. al-Ḥārith: he built it in the
+region of Damascus and cut its wood from Mount Lebanon. The qāḍī Ibn al-ʿArabī: when God had extracted
+the believers who were in the loins and wombs, He revealed to him; Nūḥ said, "Lord, I am no carpenter!"
+He said, "Yes you are — that is under My eye." He took the adze and his hand never missed; they passed
+saying, "The one who claimed to be a prophet has become a carpenter" — and he worked on it forty years.
+From Ibn ʿAbbās: he made it in two years; Kaʿb: in thirty. Al-Mahdawī: it is reported that the angels
+taught him how to build it. They differed on its dimensions: Ibn ʿAbbās: three hundred cubits long, fifty
+wide, thirty high, of teak wood — likewise al-Kalbī, Qatādah and ʿIkrimah, with Salmān al-Fārisī
+explaining the cubit as the length to the shoulder; al-Ḥasan al-Baṣrī: twelve hundred cubits long, six
+hundred wide. And it is related that the disciples asked ʿĪsā to raise for them a man who had witnessed
+the ark; he brought them to a sand-hill and said, "Do you know what this is? This is Ḥām b. Nūḥ," and
+struck it with his staff saying, "Rise, by God's leave" — and he rose shaking dust from his head, grey-
+haired. "Did you perish thus?" — "No, I died young, but I thought it was the Hour, and so I turned grey."
+They asked about the ship: its length was twelve hundred cubits, its width six hundred, with three
+decks — one for beasts and wild animals, one for the people, one for the birds. **[Maʿārif]** The chiefs
+would ask him what he was doing, and he would say: a flood is coming, so I am building an ark; and they
+would mock: "We have no water to drink here, and this wise man plans to sail a boat on dry land!"
+
+**Cross-references.** **[Study Quran]** Nūḥ's answer looks to the final state of affairs, when the
+believers will laugh at the disbelievers as the disbelievers laughed at them in this world (83:29–36), in
+accord with the Qurʾān's motif that evil actions rebound upon their doers (2:9, 57; 10:23; 35:43; 47:38).
+
+**Reflection.** The mockery of a century of hammering answered itself at the first rising of the water;
+the ark was the patientest of arguments, built plank by plank while its hearers laughed.
+
+## 11:39
+
+*"'— and you shall know upon whom shall come a punishment that disgraces him, and upon whom shall fall
+an enduring punishment.'"*
+
+**Meaning.** **[Ṭabarī]** God reports Nūḥ's words: you shall know, O people, when you see God's
+punishment, which of us wronged himself; "upon whom shall come a punishment that disgraces him": the
+punishment that comes upon him — whether of us or you — disgraces him and abases him; "and upon whom
+shall fall an enduring punishment": in the Hereafter, over and above that, an everlasting punishment that
+never breaks off, settling upon him forever. **[Jalālayn]** You shall know to whom shall come a
+chastisement degrading him, and upon whom an enduring, everlasting chastisement shall fall. **[Saʿdī]**
+"You shall know upon whom there comes a punishment that disgraces him, and upon whom there falls an
+enduring punishment": is it we, or you? — and they knew it when the punishment descended upon them.
+**[Maʿārif]** Mockery in itself is contrary to the spiritual station of the prophets and unlawful for
+anyone — "Let not a people mock at another people, perhaps they are better than them" (49:11); Nūḥ's
+words are a pragmatic response: when you are seized by the punishment, we shall tell you that this is the
+outcome of your mockery. The first punishment is that of this world, the "enduring punishment" the never-
+ending punishment of the Hereafter.
+
+**Cross-references.** **[Study Quran]** "A punishment that disgraces" refers to the flood, which
+humiliated in this world the people who rejected Nūḥ (IK; cf. 11:93; 39:40), and "an enduring punishment"
+to their state of punishment in the Hereafter (Ṭ; cf. 5:37; 9:68; 39:40).
+
+**Reflection.** Two punishments were promised — one that shames in the sight of history, one that endures
+beyond it — and the verse leaves the mockers no third option but to learn, at last, by experience.
+
+## 11:40
+
+*"Until, when Our command came and the oven gushed forth, We said, 'Load therein of every kind a pair,
+two — and your family, except him against whom the Word has already gone forth — and those who believe.'
+And none believed with him but a few."*
+
+**Meaning.** **[Ṭabarī]** Nūḥ kept building the ark until Our command came — the flood We had promised
+him would come upon his people — and the oven gushed forth; the people of interpretation differed over the
+tannūr. **[Jalālayn]** When Our command came for their destruction and the baker's oven gushed forth with
+water — this was the sign for Nūḥ — We said: load therein of every kind, of every male and female, two —
+ithnayn being the direct object. According to the story, God gathered for Nūḥ all the beasts of prey and
+birds and other animals; he went through every species to select them, his right hand falling upon a male
+and his left upon a female, and took them aboard — and your family, that is, his wife and children, save
+those against whom the Word had already gone forth that they be destroyed: his wife and his son Canaan,
+in contrast with Shem, Ham and Japheth, whom he took aboard together with their three wives — and those
+who believe. And none believed with him but a few: it is said these were six men and their wives; it is
+also said the number of all aboard was eighty, half men and half women. **[Ibn Kathīr]** This was God's
+promise to Nūḥ: when the command came, the rain was continuous and a severe storm that did not slacken —
+"So We opened the gates of heaven with water pouring forth, and caused the earth to burst into springs,
+and the waters met upon a matter already decreed, and We carried him upon that of planks and nails,
+floating under Our eyes — a reward for him who had been disbelieved" (54:11–14). "The oven gushed forth":
+Ibn ʿAbbās said the tannūr is the face of the earth — the face of the earth became gushing springs until
+the water gushed from the very places of fire; this is the opinion of the majority of the Salaf and the
+scholars of the Khalaf. God commanded Nūḥ to select one pair of every kind of creature possessing a soul;
+some said this included pairs of plants, male and female; and it is said the first bird to enter was the
+parrot and the last animal the donkey. "Except him against whom the Word has already gone forth": those
+of his household and relatives who did not believe — among them his son Yām, who withdrew as a hermit, and
+his wife, who disbelieved in God. **[Saʿdī]** Until, when Our command came — the decree for the descent
+of the punishment — and the oven gushed forth: God sent the heaven down with pouring water and burst the
+whole earth into springs, until even the ovens — the places of fire by habit, the farthest things from
+water — gushed, and the waters met upon a matter already decreed. Load of every kind a pair, two — a male
+and a female of every class of creatures, that the stock of the species remain; as for what exceeds the
+pairs, the ship could not carry it — and your family, except him against whom the Word had gone forth:
+the disbelievers among them, like his son who drowned; and those who believe — but none believed with him
+except a few.
+
+**Language.** **[Maʿārif]** The tannūr is used in more than one sense: the earth's floor, the oven that
+bakes bread, and a raised part of the land. Some tafsir authorities took it here as the surface of the
+land, from which the water overflowed; some as the tannūr of Ādam at ʿAyn al-Wardah in Syria; others —
+most of the commentators, including al-Ḥasan, Mujāhid, al-Shaʿbī and Ibn ʿAbbās — as Nūḥ's own tannūr at
+Kūfah; al-Shaʿbī used to swear it stood by the entrance to the mosque of Kūfah, and that Nūḥ built his
+ark in that mosque, and Ibn ʿAbbās related that God told Nūḥ: when you see water overflowing from the
+oven in your house, know that the flood has come (al-Qurṭubī, al-Maẓharī). Qurṭubī himself observes that
+the sayings are not really different: when the water bulged out, it overflowed from the baking oven, from
+the surface of the land, and from ʿAyn al-Wardah alike — as the Qurʾān says explicitly: "We opened the
+gates of heaven with water pouring down, and caused the earth to burst into springs" (54:11).
+
+**Cross-references.** **[Study Quran]** The oven refers to the earth in general or a particular region
+such as Syria or Iraq (Bg); for more on "the oven gushed forth," see 23:27–28; according to one account,
+God first gathered all manner of birds and animals before Nūḥ, who chose one male and one female from
+each species and took the pairs aboard (JJ); "save the one against whom the Word had already gone forth"
+characterizes both Nūḥ's wife (see 66:10) and his son (vv. 42–43, 45).
+
+**Reflection.** The sign of the flood came from the one place fire lives — the oven — as if to say that
+when God's command arrives, the most opposite things conspire together; and the vessel of salvation held
+only a few, for the majority had spent nine centuries deciding not to enter.
