@@ -221,3 +221,20 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** points to Badr’s disparity—roughly three hundred Muslims against nearly a thousand Quraysh—as a sign that apparent material advantage does not decide the outcome. The verse warns those who boast of strength and consoles believers to trust God’s support.
 
 ---
+
+
+## 3:13
+
+*There was a sign for you in the two groups that met: one fighting in God’s cause and the other disbelieving. They saw them with their own eyes as twice their number. God strengthens with His help whom He wills. In that is a lesson for those with insight.*
+
+**Meaning.** The encounter is the Battle of Badr. **[Ṭabarī]** reads “there was a sign for you” as continuing the address to the Jews of Madīnah: the small Muslim force defeated Quraysh despite being badly outnumbered. The Muslims numbered about 313; the Quraysh force was reported as 900–1,000 **[Ṭabarī] [Jalālayn] [Saʿdī]**. **[Jalālayn]** notes that the Muslims had only two horses, six suits of armour, and eight swords; **[Maʿārif]** adds that they had about seventy camels against the enemy’s seven hundred, and two horses against one hundred. The phrase “they saw them as twice their number” has several readings. **[Jalālayn]** understands the disbelievers to have seen the Muslims as twice their own number; **[Ibn Kathīr]** records that view and the alternative that the Muslims saw the enemy as twice their own number. **[Ṭabarī] [Qurṭubī] [Study Quran]** prefer the latter: God showed the larger force in changing proportions, encouraging the Muslims and then bringing each side to see the other as few, as 8:44 describes. **[Maʿārif]** likewise explains the perceptions as changing during the encounter. The precise ratio is less important than the sign: God gave victory to the smaller, poorly equipped army. **[Study Quran]**
+
+**Context.** **[Ṭabarī]** sees the verse as a warning to the Jewish opponents addressed in 3:12; **[Qurṭubī]** records that it may instead address believers, disbelievers generally, or the Jews of Madīnah. **[Ibn Kathīr]** places the example in the aftermath of Badr, when the Prophet ﷺ pointed to the Muslims’ victory as evidence that God would support His religion and Messenger.
+
+**Readings.** **[Ṭabarī] [Qurṭubī]** report *yarawnahum* (“they see them”) and *tarawnahum* (“you see them”), which alter who is presented as seeing the opposing force and suit different addressees. **[Qurṭubī]** also records a passive reading, “you are shown them,” attributed to Ibn ʿAbbās and others. **[Study Quran]** notes that the pronouns can be understood of either army, while the majority of commentators take the believers as seeing the enemy.
+
+**Cross-references.** The changing perception of the armies: 8:42–44 **[Ibn Kathīr] [Qurṭubī]**. The promised ratios of believers to disbelievers: 8:65–66 **[Maʿārif] [Study Quran]**. The victory at Badr: 3:123 **[Ibn Kathīr]**.
+
+**Reflection.** **[Saʿdī]** observes that ordinary calculations of numbers and equipment would have predicted the opposite result; the victory is therefore a lesson in trusting God’s aid rather than treating visible strength as decisive. The “people of insight” are those who look beyond appearances to what the event reveals.
+
+---
