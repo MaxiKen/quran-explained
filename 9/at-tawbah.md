@@ -54,6 +54,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -1690,3 +1692,336 @@ breadth."
 verse records it without softening, and the point is the one Ibn Kathīr draws: numbers, supplies and
 confidence avail nothing when the help of God is the thing at stake. The remedy was not a larger army but
 the handful of dust and the hundred-and-eighty who stayed: victory returned when reliance returned.
+
+## 9:26
+
+*"Then God sent down His Tranquility upon His Messenger and upon the believers, and sent down hosts whom you
+saw not, and punished those who disbelieved. And that is the recompense of the disbelievers."*
+
+**Meaning.** **[Jalālayn]** "Then God sent down His Spirit of Peace" — His reassurance — "upon His
+Messenger and upon the believers," and so they turned back towards the Prophet ﷺ after al-ʿAbbās called
+them with his permission, and they fought once again; "and He sent down legions" of angels "you did not
+see, and chastised the disbelievers" with slaughter and capture; "and that is the requital of the
+disbelievers." **[Ṭabarī]** Then, after the earth had closed in upon you despite its breadth and you had
+turned your backs upon the enemy, God removed the calamity that had descended upon you by sending down the
+*sakīna* upon you — that is, security and reassurance; he has explained elsewhere in this book that it is
+a *faʿīla* form from *sakūn*, "stillness." "And He sent down hosts whom you saw not" — the angels
+mentioned in the reports already cited; "and punished those who disbelieved" — God punished those who
+denied His oneness and the message of His Messenger Muḥammad ﷺ, by killing, by taking captive their
+families and their offspring, by seizing their property and by humiliation; "and that is the recompense of
+the disbelievers" — this that We did to them, of killing and captivity, is the requital of the people who
+deny His oneness and the message of His Messenger. **[Maʿārif]** God sent down His tranquillity upon the
+hearts of the noble Companions who had lost their foothold on the battlefield during the enemy's initial
+attack at Ḥunayn: it caused their feet to become firm again, and those who had run away came back. As for
+the sending of tranquillity upon the Prophet ﷺ himself and upon the Companions who had stayed at the front
+with firmness and resolution, it means that they could see victory close at hand. And since the
+tranquillity here was of two kinds — one for those who had run, and one for those who had stayed firm with
+the Prophet — it is to point out this refinement that the phrases "upon His Messenger" and "upon the
+believers" were set apart, the preposition *ʿalā* being repeated with each.
+
+**Ḥadīth & āthār.** **[Saʿdī]** *Al-sakīna* is what God places in hearts at times of turmoil,_convulsions
+and terrors_, that which makes them firm, calms them and makes them at peace; it is one of God's great
+favours to His servants. "And He sent down hosts you did not see" — the angels, whom God sent down as help
+for the Muslims on the day of Ḥunayn, making them firm and giving them glad tidings of victory. "And
+punished those who disbelieved" by defeat, by killing, and by the Muslims' taking possession of their
+women, their children and their wealth. "And that is the recompense of the disbelievers": God punishes
+them in this world and then returns them in the Hereafter to a severe punishment.
+
+**Belief.** **[Study Quran]** *Hosts whom you saw not* is understood to refer to angels. The commentators
+record accounts of members of the enemy army saying, long after the battle, that before and during it they
+encountered men with white faces who struck terror into their hearts (R). As discussed at 3:124–26, it is
+traditionally held that the angels, if they participated in fighting at all, did so only at Badr; one
+reading of the help they give is that they strengthen the hearts and resolve of the believers — or, in
+al-Rāzī's words, "to cast beautiful inspirations into their hearts."
+
+**Cross-references.** **[Study Quran]** On God's Tranquility, see 48:4.
+
+**Reflection.** The turning point of Ḥunayn was inward before it was outward: God sent down a stillness
+into panicked hearts, and men who had fled came back. The unseen hosts and the rout of the enemy follow
+from that, not the other way round — so that the believers would know, as the verse's own logic insists,
+that the victory was never theirs to begin with.
+
+---
+
+## 9:27
+
+*"Then thereafter God will relent unto whomsoever He will. And God is Forgiving, Merciful."*
+
+**Meaning.** **[Jalālayn]** "Then afterwards God will relent to whom He will from among them," by their
+acceptance of Islam. "And God is Forgiving, Merciful." **[Ṭabarī]** Then God bestows favour, by His
+granting success to repentance and turning to Him, after His punishment by which He punished those of them
+who perished by the sword; "unto whomsoever He will" — God turns to whom He will of the living, bringing
+him round to His obedience; "and God is Forgiving" of the sins of those who turned and repented to Him,
+whether of them or of others; "Merciful" towards them, so that He does not punish them after their
+repentance, nor take them to task for it after their turning back.
+
+**Context.** **[Saʿdī]** God turned to many of those against whom the battle had gone, and they came to
+the Prophet ﷺ as Muslims, repentant, and he returned their women and children to them. "And God is
+Forgiving, Merciful": possessed of vast forgiveness and all-embracing mercy, He pardons enormous sins for
+those who repent, and has mercy on them by granting them repentance and obedience, by overlooking their
+offences and accepting their repentance — so let no one despair of His mercy and His forgiveness, whatever
+he may have done of sin and crime. **[Maʿārif]** The details of what took place at the battle of Ḥunayn
+come partly from the Qurʾān and partly from the authentic narrations of ḥadīth (Mazharī and Ibn Kathīr).
+
+**Rulings.** **[Maʿārif]** The first instruction drawn from these events is that Muslims must never wax
+proud of their power or their numerical superiority. Just as they look to God and His help in times of
+weakness and deficiency, so too, when they are strong and powerful, their entire trust must remain in
+nothing but the help of God alone. At Ḥunayn the Muslims enjoyed numerical superiority and had sufficient
+weapons and supplies, and this led some of the Companions to utter words of pride — that no one could dare
+defeat them on that day. God did not like that a group of people so dear to Him should say such a thing.
+
+**Reflection.** The verse of battle ends in an open door: after the defeat and the rout, God "will relent
+unto whomsoever He will." Few verses state more plainly that the purpose of the clash was never
+extermination — the defeated are invited to become brothers, and the sūrah named for repentance returns to
+its own theme.
+
+---
+
+## 9:28
+
+*"O you who believe! The idolaters are surely unclean; so let them not come near the Sacred Mosque after
+this year of theirs. If you fear poverty, God will enrich you from His Bounty if He will. Truly God is
+Knowing, Wise."*
+
+**Meaning.** **[Jalālayn]** "O you who believe, the idolaters are indeed unclean" — they are filth on
+account of their inner vileness — "so do not let them come near the Sacred Mosque": let them not enter the
+Sanctuary "after this year of theirs," year 9 of the Hijrah. "If you fear impoverishment" — poverty as a
+result of the cessation of their commerce with you — "God will surely enrich you from His bounty if He
+will" — and He did enrich them through the conquests and the imposition of the *jizyah*. "God is Knowing,
+Wise." **[Saʿdī]** The idolaters in God, those who worship other than Him, are *najas* — vile in their
+beliefs and their deeds. And what filth is greater than one who worships, alongside God, deities that
+neither benefit nor harm nor avail him anything, and whose deeds are war against God, turning others from
+His path, support of falsehood, rejection of the truth, and working corruption in the land rather than
+righteousness? So you must purify the noblest and purest of houses of them: "so let them not come near the
+Sacred Mosque after this year of theirs" — year 9, when Abū Bakr al-Ṣiddīq led the people in the
+pilgrimage and the Prophet ﷺ sent his cousin ʿAlī to announce Barāʾah on the day of the greater ḥajj,
+proclaiming that after that year no idolater would perform the pilgrimage and none would circumambulate the
+House naked. What is meant is not bodily impurity: the unbeliever's body is pure like anyone else's — the
+proof being that God permitted intercourse with a woman of the Book and did not command washing after
+contact with her, and the Muslims continued to have physical contact with the bodies of unbelievers without
+finding them filthy as they find filth. What is meant is their moral impurity through *shirk*: just as
+*tawḥīd* and faith are purity, so *shirk* is filth. "And if you fear" — O Muslims — "'*aylah*": poverty and
+want, from barring the idolaters from the Sacred Mosque, because the worldly ties between you and them
+would be cut; "God will enrich you from His bounty" — provision is not confined to one door or one place;
+no door closes but many others are opened, for the bounty of God is vast and His generosity great,
+especially for one who leaves something for the sake of His noble Face; and God fulfilled His promise and
+enriched the Muslims from His bounty.
+
+**Context.** **[Ibn Kathīr]** God commands His believing servants, pure in religion and in person, to
+expel the idolaters, who are filthy in the religious sense, from al-Masjid al-Ḥarām. After the revelation
+of this verse, idolaters were no longer allowed to go near it. It was revealed in the ninth year, and the
+Messenger of God ﷺ sent ʿAlī in Abū Bakr's company that year to publicise to them that no idolater would
+perform the ḥajj after that year, nor a naked person circumambulate the House; and God completed this
+decree, making it a legislative ruling and a fact of reality as well. **[Maʿārif]** A proclamation of
+withdrawal was made against the idolaters and disbelievers at the beginning of Sūrat al-Tawbah; this verse
+sets out the injunctions connected with it: treaties with disbelievers were to be terminated or fulfilled
+within a year, and after a year from that proclamation no idolater was to remain within the sacred
+precincts of the Ḥaram. It states this in a way that accomplishes two purposes at once — pointing to the
+wisdom behind the injunction, and allaying the apprehensions of some Muslims about carrying it out.
+
+**Rulings.** **[Qurṭubī]** The scholars differ over why the idolater is described as *najas*. Qatāda,
+Maʿmar b. Rāshid and others said: because he is in a state of major ritual impurity, since his washing
+from *janābah* is not a valid washing. Ibn ʿAbbās and others said: rather, it is the very fact of *shirk*
+that made him unclean. Al-Ḥasan al-Baṣrī said: whoever shakes hands with an idolater should perform
+ablution. The school as a whole requires the unbeliever to perform a full ablution when he embraces Islam,
+except Ibn ʿAbd al-Ḥakam, who said it is not obligatory because Islam demolishes what came before it; Abū
+Thawr and Aḥmad held it obligatory; al-Shāfiʿī dropped the obligation, saying, "I prefer that he bathe,"
+and Ibn al-Qāsim said something similar; and Mālik is reported (by Ibn Wahb and Ibn Abī Uways) to have said
+that he did not know of the bath. The ḥadīths of Thumāma and of Qays b. ʿĀṣim refute these views.
+**[Study Quran]** Jurists offer different opinions regarding the restrictions against the idolaters: some
+limit the scope of this verse to preventing idolaters from visiting the Kaʿbah and its environs (the
+*ḥaram*), while others would prohibit any non-Muslim from entering any mosque at all — though this is a
+minority opinion (Q, R). **[Ibn Kathīr]** ʿAbd al-Razzāq recorded that Jābir b. ʿAbdullāh commented on the
+verse, "Unless it was a servant or one of the people of *dhimmah*." Imām Abū ʿAmr al-Awzāʿī said: ʿUmar b.
+ʿAbd al-ʿAzīz wrote to his governors to prevent Jews and Christians from entering the mosques of the
+Muslims, and he followed his order with God's words, "the idolaters are unclean."
+
+**Language.** **[Study Quran]** *Unclean* renders *najas*, a term usually understood in Islamic law to
+refer to ritual impurity that would prevent one, for example, from touching a physical copy of the Qurʾān
+or performing the prayer. The Arabic is literally "the idolaters are an uncleanliness," which the
+commentators understand to mean "characterised by uncleanliness" (R). For some this means that, since the
+idolaters do not purify themselves through ablutions as the believers do, they were unclean; others
+interpret it to mean that they were to be shunned as unclean things are shunned, in the sense that their
+false belief is, at the spiritual level, a kind of filth (R). **[Maʿārif]** *Najas*, with *fatḥa* on the
+*jīm*, denotes filth, and filth is every impurity from which one naturally turns away. Imām Rāghib
+al-Iṣfahānī said that it includes impurity perceived through the senses — by the eye, the nose or the hand
+— as well as that which is known through knowledge and reason; so *najas* covers three kinds of filth, the
+first of them real.
+
+**Reflection.** The reasoning moves from purity to place: because the Sanctuary is the noblest and purest
+of houses, those who persist in *shirk* may not enter it — not because their bodies defile it, but because
+the thing they insist upon is the opposite of what the House is for. And the fear that barring them would
+cost the Muslims their trade is answered at once, with a promise that was kept: no door closes but others
+open.
+
+---
+
+## 9:29
+
+*"Fight those who believe not in God and in the Last Day, and who do not forbid what God and His Messenger
+have forbidden, and who follow not the Religion of Truth among those who were given the Book, till they pay
+the jizyah with a willing hand, being humbled."*
+
+**Meaning.** **[Jalālayn]** "Fight those who do not believe in God nor in the Last Day" — for otherwise
+they would have believed in the Prophet ﷺ — "and who do not forbid what God and His Messenger have
+forbidden," such as wine, "nor do they practise the religion of truth," the firm one, the one that abrogated
+other religions, namely the religion of Islam — *min*, "from among," explains the preceding *alladhīna*,
+"those who" — "have been given the Scripture," namely the Jews and the Christians, "until they pay the
+*jizyah*," the tribute, the annual tax imposed on them, "readily" — *ʿan yadin* is a circumstantial
+qualifier meaning "compliantly" or "by their own hands," not delegating it to others to pay — "being
+subdued," being made submissive and compliant to the authority of Islam. **[Ṭabarī]** God says to the
+believers among the Companions of His Messenger: "Fight, O believers, the people who do not believe in God
+or in the Last Day" — who do not affirm a Garden or a Fire — "and who do not forbid what God and His
+Messenger have forbidden, and who do not follow the religion of truth": they do not obey God with the
+obedience of truth, meaning that they do not obey with the obedience of the people of Islam — "from among
+those who were given the Book," who are the Jews and the Christians. Everyone who obeys a king or one in
+authority is *dāʾin* to him; one says *dāna fulānun li-fulānin fa-huwa yadīnu lahu dīnan* — as Zuhayr
+said: "If you alight in the valley among Banū Asad, in the obedience of ʿAmr, while Fadak stands between
+us." **[Saʿdī]** This verse commands fighting the unbelievers among the Jews and the Christians — those
+who do not believe in God and the Last Day with a sound faith that they confirm by their acts and works,
+who do not forbid what God has forbidden and so do not follow His law in forbidding the forbidden, and who
+do not adhere to the religion of truth: they do not follow the sound religion, though they claim to be upon
+a religion, for theirs is a religion other than the truth — either a substituted religion that God never
+legislated at all, or an abrogated one that God legislated and then replaced with the law of Muḥammad ﷺ,
+in which case holding to it after its abrogation is not permissible. He commanded fighting them and urged
+it because they call people to what they are upon, and because great harm reaches people through them,
+since they are People of the Book. And He set a limit to that fighting: "until they pay the *jizyah*" — the
+wealth that is the recompense for the Muslims' ceasing to fight them and for their remaining secure in
+their persons and property in the midst of the Muslims, taken from them each year, every one according to
+his condition, rich, poor or middling, as ʿUmar b. al-Khaṭṭāb and the other Commanders of the Believers
+did. "'*An yadin*": until they hand it over in a state of lowliness and without power, giving it with
+their own hands and not sending it by a servant or anyone else — it is not accepted except from their
+hands. "Being humbled": so if they are in this state and ask the Muslims to establish them under the
+*jizyah*, being under the rulings and authority of the Muslims, with security from their evil and discord,
+and submit to the conditions the Muslims impose on them — conditions that remove their might and arrogance
+and entail their lowliness and abasement — then it is incumbent upon the ruler or his deputy to conclude
+it for them. Otherwise, if they do not fulfil it and do not pay the *jizyah* with their own hands while
+humbled, it is not permissible to leave them in place under the *jizyah*; rather they are fought until they
+embrace Islam.
+
+**Context.** **[Qurṭubī]** When God forbade the unbelievers to come near the Sacred Mosque, the Muslims
+felt within themselves the loss of the trade which the idolaters used to bring them, and so God said, "and
+if you fear poverty" (9:28). Then in this verse He made the *jizyah* lawful — it had not been taken before
+— and made it a compensation for what He had withheld from them of the idolaters' coming with their trade.
+So He said, "Fight those who do not believe in God nor in the Last Day," commanding the fighting of all the
+unbelievers since they are united in this description, while singling out the People of the Book for
+mention as an honour to their Book, and because they know of *tawḥīd*, of the messengers and of the
+revealed laws. **[Maʿārif]** Verse 28 concerned *jihād* against the idolaters of Makkah; these verses
+speak of *jihād* against the People of the Book, and in a sense they are a prelude to the battle of Tabūk,
+which was fought against the People of the Book. In *al-Durr al-Manthūr* it is reported from Mujāhid that
+these verses were revealed concerning the battle of Tabūk. "[Those who were given the Book]" — in Islamic
+terms *ahl al-Kitāb*: literally it covers every disbelieving group that believes in a scripture, but in
+Qurʾānic usage it is applied to Jews and Christians only, since only these two groups of the People of the
+Book were known in and around Arabia; hence, addressing the idolaters of Arabia, the Qurʾān says: "lest
+you should say, 'The Book was sent down only upon two groups before us, and we were ignorant of what they
+studied'" (6:156). **[Study Quran]** Some commentators connect this verse with the Tabūk expedition. The
+period after Ḥunayn corresponded with the final defeat of the Persians by the Byzantines: the former
+retreated from Syria and Egypt, and the Byzantine emperor Heraclius returned the True Cross to Jerusalem.
+Word began to reach the Prophet ﷺ that the Byzantines were planning a major offensive against the now
+increasingly powerful Islamic polity, and had enlisted the Arab tribes of Ghassān, Lakhm, Judhām and
+ʿĀmilah, who occupied the buffer zone in the Levant between the Arabian Peninsula and the Byzantine and
+Persian empires. The Prophet mustered the largest army that had yet taken the field and marched north on
+the Syrian campaign; the army remained at Tabūk, on the road to Syria east of the Gulf of ʿAqabah, for
+twenty days — but the rumours of a Byzantine force gathered against the Muslims were unfounded, or they
+decided not to take the field after hearing of the size of the Prophet's army.
+
+**Rulings.** **[Saʿdī]** The *jizyah* is taken yearly according to each person's means, and it is
+accepted only from the payer's own hand, not by proxy; the pact is concluded only once they have submitted
+to the conditions that remove their power to harm; and if they refuse, the fighting resumes.
+**[Study Quran]** Among the major commentators, al-Rāzī devotes the most attention to this verse's
+description of the People of the Book.
+
+**Language.** **[Ṭabarī]** *Dāna* — "to be obedient, to profess" — is used of everyone who obeys a king or
+one in authority: he is *dāʾin* to him; the poet's line, "in the *dīn* (obedience) of ʿAmr," is cited in
+evidence.
+
+**Cross-references.** **[Maʿārif]** 6:156, on the two groups before the Arabs who received a Book.
+
+**Reflection.** The command is bounded by its own stated end — "till they pay the *jizyah*" — and the
+threefold description that precedes it is a description of belief and practice, not of ethnicity: what is
+named is refusal to believe in God and the Last Day, refusal to respect what God and His Messenger have
+made forbidden, and refusal to follow the religion of truth. Payment of the *jizyah* ends the fighting and
+buys them security under the Muslims' rule; it does not buy them a claim to be obeyed in what God has
+forbidden.
+
+---
+
+## 9:30
+
+*"The Jews say that Ezra is the son of God, and the Christians say that the Messiah is the son of God. Those
+are words from their mouths. They resemble the words of those who disbelieved before. God curse them! How
+they are perverted!"*
+
+**Meaning.** **[Jalālayn]** "The Jews say Ezra is the son of God; and the Christians say the Messiah,
+Jesus, is the son of God. That is the utterance of their mouths," for which they have no support — nay,
+imitating the utterances of those who disbelieved before them from among their forefathers, mimicking
+them. "God assail" — curse — "them! How they are deviated!" turned away from the truth despite the proofs
+having been established. **[Saʿdī]** Having commanded fighting the People of the Book, He mentions their
+foul sayings, which rouse the believers — those who are jealous for their Lord and His religion — to fight
+them and to strive and expend their utmost in it. "The Jews say Ezra is the son of God": though this was
+not the saying of all of them, a faction among them said it, which shows the vileness and evil among the
+Jews that brought them to utter this thing, daring against God and diminishing His majesty and His glory.
+It is said that the reason for their claim about Ezra is that when kings overpowered the Children of
+Israel and scattered them in every direction and killed those who carried the Torah, they afterwards found
+Ezra preserving it — or most of it — and he dictated it to them from his memory and they copied it; so
+they made this hideous claim concerning him. "And the Christians say: the Messiah, Jesus son of Mary, is
+the son of God." God says: "that" — the saying they uttered — "is their saying with their mouths": they
+have established for it no proof and no evidence; and one who does not care what he says, no saying of his
+is to be wondered at, for neither religion nor reason restrains him from whatever speech he wants. Hence
+He says: "they resemble" — they make their saying like — "the saying of those who disbelieved before," that
+is, the saying of the idolaters who said that the angels are the daughters of God: their hearts resembled
+one another, and so their sayings resembled one another in falsehood. "God curse them! How they are
+perverted!" — how are they turned from the clear, plain truth to the plainly false saying?
+**[Ibn Kathīr]** God encourages the believers to fight the polytheists and the disbelieving Jews and
+Christians, who uttered this terrible statement and invented lies against God. As for the Jews, they
+claimed that ʿUzayr was the son of God — God is free of what they attribute to Him; and as for the
+misguidance of the Christians concerning Jesus, it is obvious. This is why God declared both groups to be
+liars: "That is their saying with their mouths" — they have no proof supporting their claim, other than
+lies and fabrications; "resembling" — imitating — "the saying of those who disbelieved aforetime": they
+imitate the previous nations who fell into misguidance just as the Jews and Christians did.
+
+**Ḥadīth & āthār.** **[Ṭabarī]** The commentators differ over who said "Ezra is the son of God." Some
+said it was one man, Finḥāṣ: Ibn Jurayj said, "I heard ʿAbdullāh b. ʿUbayd b. ʿUmayr say, concerning 'the
+Jews say Ezra is the son of God': one man said it; they said his name was Finḥāṣ" — and he is the one who
+said, "God is poor and we are rich" (3:181). Others said: rather, it was the saying of a group of them.
+Ibn Isḥāq reported from Muḥammad b. Abī Muḥammad, the client of Zayd b. Thābit, from Saʿīd b. Jubayr — or
+ʿIkrimah — from Ibn ʿAbbās: Sallām b. Mishkam, Nuʿmān b. Awfā, Shās and others came to the Messenger of
+God ﷺ… **[Ibn Kathīr]** Ibn ʿAbbās said, on "May God fight them": "May God curse them"; and on "how they
+are deluded away from the truth": how they deviate from the truth, when it is apparent, exchanging it for
+misguidance.
+
+**Belief.** **[Maʿārif]** This verse enlarges on what was said briefly in v. 29, that these people do not
+believe in God: the Jews take ʿUzayr to be the son of God, and the Christians say the same of Jesus, so
+their claim that God is One and that they have faith turns out to be false. *This is not the belief of all
+the Jews; it was the belief of some Jews of Arabia, and the Dead Sea Scrolls have also been cited by some
+scholars as showing that certain Jewish sects held Ezra to be the son of God (Muḥammad Taqī ʿUthmānī).*
+**[Study Quran]** It is said that "Ezra is the son of God" was the opinion of one Jew, a certain Finḥāṣ
+ibn ʿĀzūrāʾ, or that it was the belief of some Jews at one time but that this belief eventually
+disappeared (R, Ṭ). Some mention that the Jews elevated the status of Ezra because of his role in
+restoring adherence to the Torah (Q, R). As to why the Christians considered Jesus the son of God,
+al-Rāzī, for example, speculates that they may have called him "son" by way of honour — the way Abraham is
+called God's "friend" (*khalīl*; see 4:125) — and that various sectarian conflicts may have carried this
+idea to an extreme.
+
+**Language.** **[Study Quran]** *Words from their mouths* is taken to mean that they are simply sounds
+with no meaning, and therefore different from words supported by evidence and demonstration (Q). *God
+curse them!* renders an interjection that, though it literally reads "God fight them!", acquired in Arabic
+the sense of an expression of amazement (Q, R, Z). **[Qurṭubī]** "The Jews say" is a general expression
+with a specific meaning, since not all the Jews said it — like "those to whom the people said" (3:173),
+when not all the people said it.
+
+**Readings.** **[Qurṭubī]** ʿĀṣim and al-Kisāʾī read *ʿUzayrun ibnu Allāhi* with nunation, so that "son"
+is the predicate of an implied subject referring to ʿUzayr, and *ʿUzayr* is fully declinable whether it is
+a foreign or an Arabic name. Ibn Kathīr, Nāfiʿ, Abū ʿAmr and Ibn ʿĀmir read *ʿUzayru ibnu* without
+nunation, because of the meeting of two quiescent letters — as in the reading "Say: He is God, One; God,
+the Eternal" (112:1–2). Abū ʿAlī said this is common in poetry, and al-Ṭabarī cited in evidence: "You will
+find me dutiful to the commander, and with the spear a thrusting, oft-returning striker, when Ghutayf
+al-Sulamī flees."
+
+**Cross-references.** **[Study Quran]** On Jesus as son of God, see 4:171; 5:17; 19:35. **[Saʿdī]**
+3:181 — "God is poor and we are rich," the saying attributed to the same Finḥāṣ.
+
+**Reflection.** The verse's rebuke is directed at a claim for which no proof is offered — "words from their
+mouths" — and at its familiarity: it is the same mistake the earlier idolaters made with the angels. The
+Qurʾān does not treat the error as new; it treats it as a relapse into an old pattern, and the grief in
+"how they are perverted" is that the truth was clear and still turned away from.
