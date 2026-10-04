@@ -72,6 +72,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -4193,3 +4195,245 @@ good [to evil].
 remembering them is not information but warning — each of these peoples was stronger than the mockers of
 Tabūk, and each was destroyed only after clear proofs had come to them, which is why the closing clause can
 say that God did not wrong them.
+
+## 9:71
+
+*"But the believing men and believing women are protectors of one another, enjoining right and forbidding
+wrong, performing the prayer, giving the alms, and obeying God and His Messenger. They are those upon whom God
+will have Mercy. Truly God is Mighty, Wise."*
+
+**Meaning.** **[Jalālayn]** "And the believers, both men and women, are allies of one another; they enjoin
+decency and forbid indecency; they observe prayer and pay the alms, and they obey God and His Messenger.
+Those — God will have mercy on them. Truly God is Mighty" — nothing can prevent Him from fulfilling His
+promise and His threat — "Wise" — He puts everything in its proper place. **[Ṭabarī]** "As for 'the believing
+men and believing women' — those who believe in God and His Messenger and the signs of His Book — their
+description is that some of them are the helpers and aiders of others"; "they enjoin right" — they command
+people to believe in God and His Messenger and in what he has brought from God. **[Saʿdī]** Having mentioned
+that the hypocrites are of one another, God mentions that the believers are protectors of one another, and
+describes them with the opposite of what He described the hypocrites with: "the believing men and believing
+women" — their males and their females — "are protectors of one another" in love, alliance, belonging and
+help. "They enjoin right" — a comprehensive name for everything whose goodness is recognised, of sound
+beliefs, righteous deeds and noble character — and the first of those whom their commanding includes is
+themselves. "And forbid wrong" — everything that opposes and contradicts right, of false beliefs, vile deeds
+and base character. "And they obey God and His Messenger" — they do not cease to keep to the obedience of
+God and His Messenger constantly. "Those — God will have mercy on them": He will admit them into His mercy
+and encompass them with His kindness. "Truly God is Mighty, Wise" — strong and subduing; and with His
+strength He is wise, putting everything in the place proper to it, for which He is praised in what He has
+created and commanded.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** After God mentioned the evil characteristics of the hypocrites, He
+mentioned the good qualities of the believers: "The believers, men and women, are supporters of one another"
+— they help and aid each other. An authentic ḥadīth states: "The believer to the believer is just like a
+building, its parts support each other" — and the Prophet ﷺ interlaced his fingers. In the Ṣaḥīḥ it is
+recorded: "The parable of the believers in their mutual love, mercy and sympathy is that of one body: when
+one organ complains, the rest of the body responds with fever and sleeplessness."
+
+**Belief.** **[Qurṭubī]** "Some of them are protectors of others" — their hearts are united in mutual love,
+affection and tenderness; whereas of the hypocrites He said "some of them are of others," because their
+hearts are at variance, though they are joined to one another in the ruling. "They enjoin right" — the
+worship of God and His oneness, and all that follows from that; "and forbid wrong" — the worship of idols
+and all that follows from that. Al-Ṭabarī reported from Abū al-ʿĀliyah that [every command in the Qurʾān to
+enjoin right is a command to] all of it. **[Study Quran]** This verse in a sense mirrors the description of
+the hypocrites in v. 67; on enjoining right and forbidding wrong, see 3:104. *Protectors of one another*
+also means friends or allies of one another (cf. 5:51; 8:72; 45:19). **[Maʿārif]** It is interesting that
+the text, comparing the hypocrites and the true believers, says of the former "they are all alike" (v. 67)
+and of the latter that they are *awliyāʾ* of one another — the first a description of mere resemblance, the
+second of allegiance.
+
+**Reflection.** The verse is a mirror image of v. 67, item by item: ally where they were merely alike,
+enjoining right where they enjoined wrong, praying and giving where they clutched their hands shut. The
+whole contrast turns on direction — toward God and toward one another.
+
+---
+
+## 9:72
+
+*"God has promised the believing men and the believing women Gardens with rivers running below, to abide
+therein, and goodly dwellings in the Gardens of Eden. But Contentment from God is greater; that is the great
+triumph!"*
+
+**Meaning.** **[Jalālayn]** "God has promised the believers, both men and women, Gardens underneath which
+rivers flow, to abide therein, and blessed dwellings in the Gardens of Eden" for residence — "and beatitude
+from God is greater," is superior to all of that. "That is the supreme triumph." **[Ṭabarī]** "God has
+promised those who believed in God and His Messenger and acknowledged him and what he brought from God, of
+men and women, 'Gardens with rivers running below'" — gardens beneath whose trees rivers flow — "to abide
+therein," remaining forever, not passing away nor perishing from them — "and goodly dwellings in the Gardens
+of Eden." **[Saʿdī]** God then mentions what He has prepared for them of reward: "God has promised the
+believing men and the believing women Gardens with rivers running below," gathering every bliss and joy and
+empty of every harm and grief — rivers flowing beneath their palaces, their houses and their trees, abundant
+rivers watering the lovely orchards, whose good and blessing none knows but God; "to abide therein" — they
+seek no change from it; "and goodly dwellings in the Gardens of Eden" — adorned, made beautiful and prepared
+for the God-fearing servants of God, pleasant in sight, pleasant in station and resting-place, containing of
+the furnishings of lofty dwellings what no wisher could wish beyond — so much so that God has prepared for
+them upper chambers of the utmost purity and beauty, whose outside is seen from within and whose inside from
+without.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** In the Two Ṣaḥīḥs it is recorded that Abū Mūsā, ʿAbdullāh b. Qays
+al-Ashʿarī, said that the Messenger of God ﷺ said: "Two gardens, their vessels and all that is in them of
+gold, and two gardens, their vessels and all that is in them of silver; and nothing stands between a people
+and their looking upon their Lord except the cloak of Majesty upon His Face in the Garden of Eden."
+**[Qurṭubī]** The goodly dwellings are palaces of chrysolite, pearl and ruby, whose fragrance spreads from a
+distance of five hundred years' journey.
+
+**Language.** **[Qurṭubī]** "Gardens" — orchards — "with rivers running below," i.e. beneath their trees and
+their chambers; and it has been stated in *al-Baqarah* that they run, held in place by power, without any
+trench. "In gardens of ʿadn" — in an abode of residence: one says "*ʿadana bi-al-makāni*" when he stayed
+there, from which comes *al-maʿdin*, the mine. **[Study Quran]** On *Gardens with rivers running below*, see
+2:25. *Gardens of Eden* (ʿadn; cf. 13:23; 16:31; 18:31; 19:61; 20:76; 35:33; 38:50; 40:8) is understood by
+commentators to refer to an especially exalted or blessed place in the Garden.
+
+**Belief.** **[Saʿdī]** The reward is not merely the place: "But Contentment from God is greater" — God's
+good pleasure is greater than all of that, for by it they attain the highest of all goals. "That is the great
+triumph." **[Ibn Kathīr]** "But the greatest bliss is the good pleasure of God. That is the supreme success."
+
+**Reflection.** Everything in the verse builds — gardens, rivers, eternal dwellings, chambers of light — and
+then is set aside by one phrase: contentment from God is greater. The list is not dismissed but relativised;
+the Garden is a gift, while the good pleasure of the Giver is the point.
+
+---
+
+## 9:73
+
+*"O Prophet! Strive against the disbelievers and the hypocrites, and be harsh with them. Their refuge is Hell.
+What an evil journey's end!"*
+
+**Meaning.** **[Jalālayn]** "O Prophet, struggle against the disbelievers" with the sword "and the
+hypocrites" with words and definitive arguments, "and be harsh with them" through rebuke and aversion towards
+them; "for their abode will be Hell" — an evil journey's end, an evil resort it is! **[Ṭabarī]** "O Prophet,
+strive against the disbelievers with the sword and weapons — and against the hypocrites." The commentators
+differed on the description of the *jihād* with which God commanded His Prophet against the hypocrites: some
+said He commanded him to strive against them with hand and tongue, and with everything by which he was able
+to strive against them. **[Saʿdī]** God says to His Prophet ﷺ: "O Prophet, strive against the disbelievers
+and the hypocrites" — exert yourself utterly in striving against them and in harshness towards them wherever
+the situation calls for harshness. This striving includes striving with the hand and striving with argument
+and tongue: whoever of them comes out in open warfare is striven against with hand and tongue, sword and
+spearhead; and whoever submits to Islam under a compact or a treaty is striven against with argument and
+proof, and the merits of Islam and the evils of associating partners and of unbelief are made clear to him.
+That is what they have in this world; as for the Hereafter, their refuge is Hell — their fixed abode from
+which they do not leave — "and what an evil journey's end."
+
+**Rulings.** **[Qurṭubī]** The address is to the Prophet ﷺ, and his community after him enters into it. It
+is said that the meaning is: strive, with the believers, against the disbelievers. Ibn ʿAbbās said: he was
+commanded to strive against the disbelievers with the sword, and against the hypocrites with the tongue,
+with severity of rebuke and harshness. It is reported from Ibn Masʿūd: "Strive against the hypocrites with
+your hand; if you cannot, then with your tongue; if you cannot, then frown in their faces." Al-Ḥasan said:
+strive against the hypocrites [by establishing the legal penalties upon them]. **[Maʿārif]** The need to
+fight belligerent disbelievers is self-evident; as for *jihād* against the hypocrites, its meaning is
+explained by the conduct of the Prophet ﷺ himself, which proves that [it was by argument, by turning away,
+and by the exposure of their secrets — not by the sword, since they were outwardly Muslims].
+
+**Belief.** **[Study Quran]** This verse is interpreted by some to mean that the Prophet should use force
+against the disbelievers and persuasion against the hypocrites (Ṭ). Others, such as al-Rāzī, note that there
+is nothing in the word *strive* that limits it to either the use of force or any other type of "striving,"
+meaning that depending on circumstances one can employ either. **[Ibn Kathīr]** God commanded His Messenger
+ﷺ to strive hard against the disbelievers and the hypocrites and to be harsh against them; and He commanded
+him to be merciful with the believers who followed him, informing him that the destination of the former is
+Hell.
+
+**Reflection.** The same verb is used for two very different opponents, and the difference lies entirely in
+the instrument: the sword for open unbelief, argument and severity for the concealed kind. "Be harsh" is
+difficult and deliberate — but the verse closes by naming their refuge, which locates the harshness within a
+warning rather than a vendetta.
+
+---
+
+## 9:74
+
+*"They swear by God that they said it not, but indeed they spoke the word of disbelief, and disbelieved after
+having submitted [to God]. And they had ambitions that they did not achieve, and they were vengeful only
+because God and His Messenger enriched them from His Bounty. If they repent, it would be better for them. But
+if they turn away, God will punish them with a painful punishment in this world and in the Hereafter, and on
+earth they shall have neither protector nor helper."*
+
+**Meaning.** **[Jalālayn]** "They" — the hypocrites — "swear by God that they said nothing of the defamation
+that has reached you as being from them; but they did indeed say the word of disbelief and did disbelieve
+after their submission to God" — they did indeed manifest disbelief after having manifested submission to
+God. "And they purposed that which they never attained" — in the way of assassinating the Prophet on the
+night of al-ʿAqaba, upon his return from Tabūk; there were about ten to twenty of them, and ʿAmmār b. Yāsir
+struck the faces of their riding camels when they came against him, and so they were repulsed. "And they
+were only spiteful" — they detested that God and His Messenger should have enriched them of His bounty by
+way of spoils when they had been in dire need; the meaning being that this was all that they attained from
+him, and it is nothing to be spiteful about. "So if they repent" of hypocrisy and believe, "it will be better
+for them; but if they turn away" from belief, "God will chastise them with a painful chastisement in this
+world" by having them killed "and in the Hereafter" in the Fire, "and they have none on earth as protector"
+to guard them from Him "or helper" to defend them. **[Saʿdī]** "They swear by God that they said it not" —
+such as the saying of the one among them who said "the mightier will surely expel the meaner from it"
+(63:8), and the talk that one after another of them spoke in mockery of the religion and of the Messenger:
+when it reached them that something of it had reached the Prophet ﷺ, they came to him swearing by God that
+they had not said it. God, declaring them liars, says: "but indeed they spoke the word of disbelief and
+disbelieved after having submitted" — their previous Islam, though outwardly it took them out of the circle
+of unbelief, is nullified by their later speech, which returns them to unbelief. "And they had ambitions
+that they did not achieve" — that was when they resolved to assassinate the Messenger of God ﷺ on the
+expedition of Tabūk, and God told him their news and He commanded those who would turn them from their
+purpose. "And they were vengeful only because God and His Messenger enriched them from His Bounty" after
+they had been poor and destitute — and this is among the most astonishing of things: that they should make
+light of the one who was the cause of their being brought out of darkness into light and enriched after
+poverty. Is what is due to him from them anything other than that they should magnify him?
+
+**Stories & occasions.** **[Qurṭubī]** It is reported that this verse came down concerning al-Jullās b.
+Suwayd b. al-Ṣāmit and Wadīʿah b. Thābit, who spoke against the Prophet ﷺ and said: "By God, if Muḥammad is
+truthful concerning our brothers who are our chiefs and our best, then we are worse than donkeys." ʿĀmir b.
+Qays said to him: "Indeed — by God, Muḥammad is truthful and confirmed, and you are worse than a donkey."
+ʿĀmir informed the Prophet ﷺ of it, and al-Jullās came and swore by God at the Prophet's pulpit that ʿĀmir
+was lying. **[Maʿārif]** Al-Baghawī reports that the Prophet ﷺ gave an address on the occasion of the battle
+of Tabūk in which he spoke of the sorry state of the hypocrites [and one of them objected, saying the like
+of "the mightier will surely expel the meaner," and the news reached him].
+
+**Rulings.** **[Saʿdī]** "If they repent, it would be better for them" — for repentance wipes out what came
+before it; "but if they turn away, God will punish them with a painful punishment in this world and in the
+Hereafter, and on earth they shall have neither protector nor helper." The verse thus keeps the door of
+return open even for those who spoke the word of disbelief and plotted against the Prophet ﷺ.
+
+**Belief.** **[Ibn Kathīr]** They swear by God that they said nothing bad, but they really said the word of
+disbelief, and they disbelieved after accepting Islam, and they resolved upon that plot which they were
+unable to carry out — and they could find no cause to do so except that God and His Messenger had enriched
+them of His bounty.
+
+**Reflection.** The charge that stings most is the last: their grievance was that they had been enriched.
+The verse treats that as the whole case against them — resentment of the very hand that lifted them out of
+poverty — and yet still puts repentance first in the remedy.
+
+---
+
+## 9:75
+
+*"And among them are those who make a pact with God [saying], 'If He gives unto us from His Bounty, we will
+surely spend in charity, and we will surely be among the righteous.'"*
+
+**Meaning.** **[Jalālayn]** "And some of them have made a covenant with God, saying: 'If He gives us of His
+bounty we will give voluntary alms'" — *la-naṣṣaddaqanna*, the original *tāʾ* of *nataṣaddaqanna* having been
+assimilated with the *ṣād* — "and we will surely be among the righteous." This was Thaʿlabah b. Ḥāṭib, who
+asked the Prophet ﷺ to supplicate on his behalf that God would give him wealth of which he would give every
+needy person his due; the Prophet supplicated for him and he became wealthy — but he stopped attending the
+Friday prayer and the congregational prayers and refused to pay the alms-tax, as God says [in the verses that
+follow]. **[Saʿdī]** "And among these hypocrites are those who made a pact with God" — who gave God his
+covenant and His compact: "If He gives unto us from His Bounty" of this world, expanding it for us and
+widening it, "we will surely spend in charity and we will surely be among the righteous" — we will join the
+womb-ties, honour the guest, help in the exigencies of truth and do good, righteous deeds.
+
+**Stories & occasions.** **[Qurṭubī]** Qatāda said: this was a man of the Anṣār who said, "If God provides
+me with something, I will surely discharge its due and give charity" — and when God gave him that, he did
+what has been set out to you; so beware of lying, for it leads to immorality. ʿAlī b. Yazīd reported from
+al-Qāsim from Abū Umāmah al-Bāhilī that Thaʿlabah b. Ḥāṭib al-Anṣārī said to the Prophet ﷺ: "Supplicate God
+[that He give me wealth]…" **[Maʿārif]** The verse is connected with a particular event reported by Ibn
+Jarīr, Ibn Abī Ḥātim, Ibn Mardawayh, al-Ṭabarānī and al-Bayhaqī on the authority of a narration from Abū
+Umāmah al-Bāhilī: a person called Thaʿlabah b. Ḥāṭib al-Anṣārī presented himself before the Prophet ﷺ and
+requested him to pray that he become rich. **[Saʿdī]** These verses came down concerning a man among the
+hypocrites called Thaʿlabah, who came to the Prophet ﷺ and asked him to pray that God give him of His bounty
+— and that if He gave him, he would give charity, join the womb-ties and help in the exigencies of truth. The
+Prophet ﷺ supplicated for him, and he acquired sheep which kept increasing [until he had many].
+
+**Belief.** **[Ibn Kathīr]** Some hypocrites give God their strongest oaths that if He enriches them from His
+bounty, they will give away alms and be among the righteous; but they did not fulfil their vows or speak the
+truth with their words. The consequence of this action is that hypocrisy was placed in their hearts until the
+Day they meet Him. **[Study Quran]** As with other descriptions of the hypocrites in this sūrah, these verses
+are understood in a general sense, but some commentators also connect them with a certain Thaʿlabah ibn
+Ḥāṭib.
+
+**Language.** **[Jalālayn]** *La-naṣṣaddaqanna* — the original *tāʾ* of *nataṣaddaqanna* has been assimilated
+with the *ṣād*.
+
+**Reflection.** The vow itself is blameless — to give and to be righteous if God gives. What the verse
+condemns is what follows in vv. 76–77: the vow was made to God, and God heard it, and the wealth arrived. A
+bargain struck with God in sincerity and then quietly forgotten is the seed of the hypocrisy that v. 77 will
+name.
