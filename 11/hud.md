@@ -3811,3 +3811,165 @@ since their fates were so similar — both destroyed by the Cry; see also 7:91�
 
 **Reflection.** Midian is measured against Thamūd as if by a seal pressed twice in wax — and the seal
 belongs to the One who said, away.
+
+## 11:96
+
+*"And indeed We sent Moses with Our signs and a manifest authority,"*
+
+**Meaning.** **[Ṭabarī]** God Most High says: We sent Moses with Our proofs of Our oneness, and with a
+proof that makes clear, to whoever witnesses it and considers it with a sound heart, that it indicates
+the oneness of God and the falsity of everyone who claims lordship besides Him, and the voidness of the
+saying of whoever associates another with Him in divinity. **[Jalālayn]** And verily We sent Moses with
+Our signs and a clear warrant — a manifest and evident proof. **[Ibn Kathīr]** Allah sent Moses with
+miracles and clear proofs to Pharaoh and his chiefs, but they rejected them. **[Saʿdī]** God says: We
+sent Moses, son of ʿImrān, with Our signs indicating the truthfulness of what he brought — such as the
+staff and the hand and the other signs God produced at the hand of Moses — "and a manifest authority":
+a clear, evident proof, apparent as the sun.
+
+**Context.** **[Study Quran]** For the story of Moses, see also 2:49–61; 7:103–55; 10:75–93; 20:9–97;
+26:10–66; 28:3–46; 79:15–25. The signs with which Moses came, also referred to as clear proofs (7:105;
+29:39), are the miracles he performed; some state that a manifest authority refers to Moses' staff
+specifically; see 7:106–8. On the notables of Pharaoh, see 7:103; 10:75.
+
+**Language.** **[Qurṭubī]** He made prophet follow prophet for the establishment of the proof and the
+removal of every excuse. "With Our signs": the Torah — or, it was said, the miracles. "And a manifest
+authority": a clear proof — meaning the staff; the meaning of *sulṭān* and its derivation have passed in
+Āl ʿImrān.
+
+**Reflection.** The sūrah turns from the graves of Midian to the court of Pharaoh with the same
+message: signs were sent, proof was made manifest — and the verdict now waits on the receivers, not the
+messenger.
+
+## 11:97
+
+*"Unto Pharaoh and his notables. But they followed the command of Pharaoh, and the command of Pharaoh
+was not sound."*
+
+**Meaning.** **[Ṭabarī]** To Pharaoh and his notables: the nobles of his army and his followers. They
+followed the command of Pharaoh: Pharaoh and his notables denied Moses and rejected God's oneness, and
+refused to accept what Moses brought them from God; and the notables of Pharaoh followed the command of
+Pharaoh rather than the command of God, obeying him in denying Moses and rejecting what he brought from
+God. And the command of Pharaoh was not sound: not rightly-guided, not leading to what is right.
+**[Jalālayn]** To Pharaoh and his council; but they followed Pharaoh's command — and Pharaoh's command
+was not right-guided, appropriate. **[Saʿdī]** To Pharaoh and his notables — the nobles of his people,
+for they were the ones followed and the rest followed them; but they did not yield to the signs Moses
+had with him, which he showed them, as was set out at length in Sūrat al-Aʿrāf; rather, they followed
+the command of Pharaoh — and the command of Pharaoh was not rightly-guided: rather, astray and errant,
+commanding nothing but pure harm. **[Qurṭubī]** "They followed the command of Pharaoh": his way and his
+state, until they took him as a god and contravened the command of God Most High. "Not sound": not
+sound in leading to what is right; it was also said: not guiding to any good.
+
+**Reflection.** A nation's ruin begins when its notables choose whose command to follow — and the
+Qurʾān pronounces the sentence on the command, not merely the commander.
+
+## 11:98
+
+*"He shall go before his people on the Day of Resurrection and lead them to the Fire. Evil indeed is
+the watering place to which they are led!"*
+
+**Meaning.** **[Ṭabarī]** Pharaoh shall go before his people on the Day of Resurrection, leading them,
+going on with them until he leads them to the Fire and makes them taste its blaze. "And evil is the
+watering place": evil is the watering place they water at. Qatādah: Pharaoh goes before his people on
+the Day of Resurrection, passing on ahead of them until he plunges them into the Fire. Ibn ʿAbbās: he
+led them astray, and so he led them to the Fire. **[Jalālayn]** He will go before his people on the Day
+of Resurrection, and they will follow him as they did in this world, and he will lead them, he will
+admit them, to the Fire — an evil place it is for those entering it! **[Ibn Kathīr]** Pharaoh will
+lead them to the Hellfire on the Day of Resurrection; he will lead them directly to it, and they will
+drink from springs of destruction; Pharaoh will have a great share in that awful punishment — as Allah
+said: "But Pharaoh disobeyed the Messenger; so We seized him with a severe punishment" (73:16), and
+"Pharaoh belied and disobeyed… So Allah seized him with exemplary punishment for his last and first
+transgression" (79:21–26). **[Saʿdī]** No wonder, then, that when his people followed him, he destroyed
+them and ruined them: "he shall go before his people on the Day of Resurrection and lead them to the
+Fire — and evil is the watering place to which they are led."
+
+**Context.** **[Study Quran]** "Watering place" renders *wird*, a word usually associated with the
+quenching of thirst, thus emphasizing the severity of the punishment. Pharaoh's people will be led by him
+to Hell on the Day of Resurrection in accordance with 17:71: "On the Day We shall call every people by
+their imam."
+
+**Language.** **[Qurṭubī]** *Yaqdumu qawmahu*: he precedes them to the Fire, since he is their chief;
+one says *qadamahum yaqdumuhum qadman wa-qudūman*: he preceded them. "And he led them to the Fire": he
+brought them into it — it is expressed in the past tense, though the meaning is the future, because what
+is certain of occurrence is as if it already is; so the future is expressed by the past. "Evil is the
+watering place to which they are led": evil is the entrance entered; *al-mawrūd* is the water one
+waters at, and the place one waters at — in the meaning of the object.
+
+**Reflection.** The leader who was followed in ruin is followed into the Fire — obedience makes a
+single caravan of the chief and the crowd, and its destination is one.
+
+## 11:99
+
+*"And they were pursued by a curse in this world, and on the Day of Resurrection. Evil indeed is the
+gift that will be offered them!"*
+
+**Meaning.** **[Ṭabarī]** God made to follow them in this — this world — along with the punishment He
+hastened for them in it of drowning in the sea, His curse; and on the Day of Resurrection they are
+cursed with another curse, as Mujāhid said: they were increased with His curse by another curse, so
+those are two curses. "Evil is the gift offered": evil is the gift that is heaped upon them and added to
+them. **[Jalālayn]** A curse was made to follow them in this world, as well as a curse on the Day of
+Resurrection — evil is the assistance offered! in their case. **[Saʿdī]** They were pursued in this —
+this world — by a curse, and on the Day of Resurrection: God curses them, and His angels, and all
+mankind, in this world and the next. "Evil is the gift offered": evil is what gathered upon them, and
+piled up upon them, of God's punishment and the curse of this world and the next. **[Ibn Kathīr]** They
+were pursued by a curse in this world and on the Day of Resurrection — evil is the gift offered them.
+
+**Context.** **[Study Quran]** "They were pursued in this world by a curse" can refer to a curse in
+general, or specifically to their being drowned in the Red Sea (see 7:136).
+
+**Language.** **[Qurṭubī]** *Biʾsa al-rifd al-marfūd*: al-Kisāʾī and Abū ʿUbaydah relate *rafadtuhu
+arfaduhu rafdan* — I helped him and gave him; the name of the gift is *al-rifd*: evil is the gift and
+the help. *Al-rifd* is also the huge drinking-bowl, as al-Jawharī said; the estimate is: evil is the
+gift, the gift of the one gifted. Al-Māwardī relates that *al-rafd* with a fatha is the bowl, and
+*al-rifd* with a kasra is the drink in the bowl, from al-Aṣmaʿī — as if He condemned with that what
+they will be given to drink in the Fire. It was also said *al-rifd* is the increase: evil is what they
+are gifted with, after the drowning, of the Fire — al-Kalbī.
+
+**Reflection.** Two curses and one gift — drowning here, Fire there — and the generosity of their
+master Pharaoh turns out to be the only inheritance he could leave them.
+
+## 11:100
+
+*"These are among the tidings of the towns which We relate unto you. Among them are some still
+standing, and some mown down."*
+
+**Meaning.** **[Ṭabarī]** God Most High says to His prophet Muḥammad ﷺ: this account that We have
+mentioned to you in this sūrah, and the report We have reported to you in it, is of the tidings of the
+towns whose inhabitants We destroyed for their disbelief in God and their denial of His messengers. "We
+relate it unto you": We inform you of it. "Among them are some standing": of them, some whose buildings
+still stand while their inhabitants have perished and vanished; some whose buildings stand and are
+inhabited; and some whose buildings are mown down — ruins collapsing, their traces effaced and gone,
+from their saying "harvested crop" (*zarʿ ḥaṣīd*), when it has been cut off at the root; it is in the
+meaning of *maḥṣūd*, but turned into the form *faʿīl*. **[Jalālayn]** That which is mentioned —
+*dhālika* being the subject, whose predicate follows — is something of the tidings of the towns, which
+We relate to you, O Muḥammad. Some of them — of the towns — are standing, only its inhabitants having
+been destroyed; and some of them have been cut down, destroyed together with their inhabitants, such that
+there are no vestiges thereof, much like crops harvested with sickles. **[Saʿdī]** When God had
+mentioned the accounts of these nations with their messengers, He said to His messenger: "These are of
+the tidings of the towns, We relate them to you" — that you may warn by them, and that they may be a
+sign of your message, and a reminder for the believers. "Among them are some standing": not destroyed;
+there remain of the traces of their dwellings what indicates them; "and some mown down": their dwellings
+have collapsed, their abodes have vanished, and no trace of them remains. **[Ibn Kathīr]** When Allah
+mentioned the story of the prophets and what happened with them and their nations — how He destroyed the
+disbelievers and saved the believers — He goes on to say: "That is some of the news of the towns which
+We relate unto you; of them, some are still standing": still remaining; "and some have been reaped":
+totally destroyed.
+
+**Context.** **[Study Quran]** These verses mark the end of the long sequence of narratives in this
+sūrah about the prophets sent to their respective communities and those communities' destruction for
+rejecting the message. The punishments that befell these people were not arbitrary but the result of
+iniquities they had committed: they wronged themselves and left themselves liable to punishment, having
+been given fair warning through the sending of messengers (cf. 2:57; 9:70; 16:33, 118; 29:40; 30:9). The
+gods these destroyed communities called upon apart from God could not avail them because they could not
+bring about any benefit for them in this world — even less so in the Hereafter (cf. 16:20). God
+destroyed the towns while they were doing wrong, although if they had changed their ways He might not
+have destroyed them, as in v. 117: "And thy Lord would never destroy the towns unjustly, while their
+people were reforming."
+
+**Reflection.** The sūrah ends its procession of ruined nations with an invitation to walk their
+streets: some walls still stand, and some fields show no trace at all — but every one of them is a page
+read aloud to the Prophet ﷺ, and through him to every reader, until the last town learns what happened
+to the first.
+
+---
+
+*Thus concludes the tafsīr of Sūrat Hūd, verses 1–100 — from the seven sources.*
