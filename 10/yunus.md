@@ -261,3 +261,85 @@
 **Meaning.** At the judgment, each soul encounters the deeds it sent ahead, returns to its true Lord, and sees its fabricated gods disappear. Al-Ṭabarī explains the opening as every person being tested by, or made to experience, what they did **[Ṭabarī]**. Al-Qurṭubī and al-Jalālayn also note a variant reading, *tatlū*, “recites,” in place of *tablū*, “tests/experiences”; on that reading, the soul recites its record **[Qurṭubī] [Jalālayn]**. The Study Quran emphasizes that “there and then” is the place of gathering before God, while the false beings people relied on abandon them **[Study Quran]**.
 
 **Reflection.** The passage closes the scene of false intercession: the only lasting return is to the true Master, and every soul meets the record of its own actions **[Maʿārif] [Ibn Kathīr]**.
+
+## 10:31
+
+*“Say, ‘Who provides for you from Heaven and earth? Who has power over hearing and sight? Who brings forth the living from the dead and the dead from the living? And who directs the affair?’ They will say, ‘God.’ Say, ‘Will you not then be reverent?’”*
+
+**Meaning.** The Prophet is told to ask the idolaters questions whose answer they already know. God sends rain and brings forth provision from the earth; He gives hearing and sight, brings life from death and death from life, and governs all affairs **[Ṭabarī] [Jalālayn]**. As-Saʿdī offers examples of the life-death pairing: plants from seeds, a bird from an egg, and, by analogy, a believer emerging from a disbelieving community **[Saʿdī]**. The admission “God” establishes the argument: if they recognize Him as the sole Provider and Creator, they should worship Him alone rather than assigning divinity to idols **[Ibn Kathīr] [Maʿārif]**.
+
+**Reflection.** The verse leads from familiar dependence—food, sight, life—to the question of who deserves ultimate trust and worship **[Study Quran]**.
+
+## 10:32
+
+*“That is God, your true Lord. What is there beyond truth but error? How, then, are you turned away?”*
+
+**Meaning.** The One acknowledged in the preceding questions is the true Lord: the Giver of provision, senses, life, and the order of the world. Al-Ṭabarī explains that whatever departs from this truth is misguidance, a turning away from the straight path **[Ṭabarī]**. Al-Jalālayn takes the final question as a rebuke to those who turn away despite the proofs just established **[Jalālayn]**. Maʿārif stresses the stark alternative: once God’s exclusive right to worship is clear, what lies beyond that truth is error **[Maʿārif]**.
+
+**Reflection.** Recognition is not complete until it shapes allegiance; the verse asks whether people will follow the conclusion their own answers have already supplied.
+
+## 10:33
+
+*“Thus has the Word of your Lord come due against those who transgress: they will not believe.”*
+
+**Meaning.** The verse describes the outcome of persistent refusal. Al-Ṭabarī explains that the transgressors have left obedience for disobedience and disbelief; the divine decree concerning their rejection has therefore come due **[Ṭabarī]**. Al-Qurṭubī likewise glosses the “Word” as God’s judgment and prior knowledge, while al-Jalālayn connects it to those who persist in disbelief **[Qurṭubī] [Jalālayn]**. The Study Quran places the verse in the argument of 10:31–32: the wrongdoers reject the truth even after acknowledging God’s sovereignty **[Study Quran]**.
+
+**Belief.** The verse holds divine judgment alongside human transgression; it describes the consequence of rebellion, not an excuse for it **[Ṭabarī] [Study Quran]**.
+
+**Reflection.** Repeatedly refusing clear evidence hardens a person’s course; the warning is to turn while guidance is still being offered.
+
+## 10:34
+
+*“Say, ‘Is there among your partners one who originates creation and then brings it back?’ Say, ‘God originates creation and then brings it back. How, then, are you perverted?’”*
+
+**Meaning.** The challenge tests whether the beings worshipped alongside God have any share in creation or resurrection. Al-Ṭabarī says that the idolaters cannot claim their gods originate and restore creation; God alone does so **[Ṭabarī]**. Al-Qurṭubī reads the question as a rebuke that establishes the point: if the audience does not answer, the Prophet is to state plainly that God begins and renews creation **[Qurṭubī]**. As-Saʿdī stresses that beings unable to create anything cannot deserve worship beside the One who creates without partner **[Saʿdī]**. The Study Quran connects this verse to the Qurʾānic pairing of creation and return (10:4) **[Study Quran]**.
+
+**Reflection.** The power to give life and restore it is a decisive measure of lordship; the verse exposes the mismatch between that power and powerless idols.
+
+## 10:35
+
+*“Say, ‘Is there among your partners one who guides unto Truth?’ Say, ‘God guides unto Truth. Is one who guides unto Truth worthier to be followed, or one who cannot guide unless he be guided? What ails you? How do you judge?’”*
+
+**Meaning.** The question moves from creation to guidance. The supposed partners cannot lead people to the truth, whereas God guides by revelation and by enabling people to recognize it **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn explains the contrast as one between the One who guides and a being that cannot guide another unless it is itself guided **[Jalālayn]**. The Study Quran notes that the “Truth” may be understood as God, revelation, or the right path; the verse’s argument is that genuine guidance ultimately comes from God **[Study Quran]**. As-Saʿdī contrasts divine guidance with turning to objects that have no power to guide themselves or others **[Saʿdī]**.
+
+**Reflection.** The more worthy guide is the one who leads to truth, not the one whose followers must invent a power of guidance for it.
+
+## 10:36
+
+*“Most of them follow nothing but conjecture. Truly conjecture avails nothing against the truth. Truly God knows what they do.”*
+
+**Meaning.** The claim that idols intercede or possess divine power rests on assumption rather than proof. Al-Ṭabarī explains that conjecture cannot take the place of certainty where knowledge is needed **[Ṭabarī]**. Al-Qurṭubī distinguishes the leaders, who speculate about their idols, from followers who imitate them without evidence **[Qurṭubī]**. Al-Jalālayn likewise says that people follow conjecture in worshipping idols, often because they imitate their ancestors **[Jalālayn]**. The Study Quran notes that God’s complete knowledge of their conduct makes the closing clause a warning, not a neutral observation **[Study Quran]**.
+
+**Reflection.** In matters of worship and ultimate truth, inherited assumption cannot substitute for careful understanding **[Ibn Kathīr]**.
+
+## 10:37
+
+*“This Qurʾān could not have been fabricated apart from God; rather, it is a confirmation of what came before it and an elaboration of the Book, in which there is no doubt, from the Lord of the worlds.”*
+
+**Meaning.** The Qurʾān is not a human fabrication. It confirms earlier revelation and makes guidance clear **[Ṭabarī] [Jalālayn]**. The Study Quran notes that “what came before it” is commonly understood as earlier revealed scriptures, including the Torah and Gospel; commentators differ on whether “the Book” in the next phrase means the Qurʾān itself or the heavenly source of revelation **[Study Quran]**. As-Saʿdī argues that the Qurʾān’s wisdom, truth, and inimitable character are incompatible with the claim that it was invented by a creature **[Saʿdī]**.
+
+**Reflection.** Revelation is presented as continuous rather than isolated: it confirms what God sent before while clarifying the guidance people need now.
+
+## 10:38
+
+*“Or do they say, ‘He has fabricated it’? Say, ‘Then bring a sūrah like it, and call upon whomever you can apart from God, if you are truthful.’”*
+
+**Meaning.** The accusation of fabrication is met with a challenge: produce even one sūrah comparable to the Qurʾān, and enlist whatever help is available besides God **[Ṭabarī] [Ibn Kathīr]**. Al-Qurṭubī explains the challenge as exposing the weakness of the charge: the Prophet shared the language of his hearers, so they could test their claim rather than merely repeat it **[Qurṭubī]**. The Study Quran notes that “like it” may mean a composition comparable to the Qurʾān as a whole or, more likely in this verse, to a single sūrah in eloquence, order, and meaning **[Study Quran]**.
+
+**Reflection.** The verse turns dismissal into a testable claim: those who call the Qurʾān human invention are invited to demonstrate that assertion **[Saʿdī]**.
+
+## 10:39
+
+*“Nay, they deny that whose knowledge they cannot encompass and whose interpretation has not yet come to them. Even so did those before them deny. So behold how the wrongdoers fared in the end.”*
+
+**Meaning.** Their denial precedes understanding. Al-Ṭabarī explains that they reject the Qurʾān and its warnings before the promised outcome has appeared **[Ṭabarī]**. Al-Qurṭubī gives two related senses of “its interpretation”: the meaning they have not learned, and the eventual reality of the punishment and resurrection it describes **[Qurṭubī]**. The Study Quran likewise emphasizes that they deny a message whose meaning they have not grasped or reflected upon **[Study Quran]**. Earlier communities followed the same path, and the verse directs its hearers to consider their end **[Jalālayn] [Ibn Kathīr]**.
+
+**Reflection.** Not yet seeing the fulfillment of a warning is not evidence that it is false; the verse calls for understanding before judgment **[Saʿdī]**.
+
+## 10:40
+
+*“Among them are those who believe in it, and among them are those who do not believe in it; and your Lord knows best the workers of corruption.”*
+
+**Meaning.** The response to the Qurʾān is divided: some among its hearers will believe, while others persist in rejection. Al-Ṭabarī understands the verse to include people of Quraysh who would later believe as well as those who would never do so **[Ṭabarī]**. Al-Qurṭubī and The Study Quran preserve the related possibility that “in it” refers to the Qurʾān, or to the Prophet **[Qurṭubī] [Study Quran]**. The closing clause leaves the judgment of those who spread corruption to God, whose knowledge is complete **[Jalālayn]**.
+
+**Reflection.** People respond differently even when hearing the same message; the verse warns against pretending to know the inward state or final outcome of others **[Ibn Kathīr]**.
