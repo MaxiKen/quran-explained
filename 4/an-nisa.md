@@ -5318,3 +5318,599 @@ settle them in the world in a good place" (16:41); "And those who emigrate in th
 killed or die — God will surely provide for them a good provision" (22:58); "And whoever fears God, He will
 make a way out for him, and provide for him from where he does not expect" (65:2–3); "The believers who
 emigrated and strove in the way of God with their wealth and lives are greater in rank with God" (9:20).
+## 4:101
+
+*"And when you travel in the land, there is no blame upon you for shortening the prayer, if you fear that those
+who disbelieve may put you to trial. Truly the disbelievers are to you a manifest enemy."*
+
+**Meaning.** **[Ṭabarī]** When you journey in the land, O believers, there is no blame and no sin upon you in
+shortening the prayer: in reducing its number, so that what you pray in residence as four you pray as two.
+**[Jalālayn]** When you are going forth, travelling in the land, you would not be at fault if you shorten the
+prayer by making it two genuflexions instead of four, if you fear that you may be afflicted by the
+disbelievers — that is, if you fear harm from them. This mention of fear at the hands of the disbelievers is
+intended as an explication of the reality of the situation at that time; but the ruling itself stands.
+**[Saʿdī]** The two verses of which this is the first are the foundation of the dispensation of shortening
+(*qaṣr*) and the prayer of fear. The apparent sense of "when you travel in the land" permits the dispensation
+on any journey whatsoever, even a journey of disobedience — the position of Abū Ḥanīfah; the majority of the
+three other imāms disagree, and do not permit the dispensation on a sinful journey, restricting the verse by
+its meaning and by appropriateness: for the dispensation is a facilitation from God for His servants when
+they travel, and the one who travels in disobedience is not suited to be lightened. "There is no blame upon
+you" means no restriction and no sin; this does not contradict the shortening being the better, since the
+removal of blame dispels a misgiving that occurs to many hearts — nor does it contradict its being
+obligatory, as was shown in Sūrat al-Baqarah in the case of the *ṣafā* and *marwah*. Two matters show the
+preference of shortening over completing: the Prophet's constancy in shortening on all his journeys, and the
+fact that this is of the category of expansion, dispensation and mercy toward the servants — and God loves
+that His dispensations be taken up as He hates that His disobedience be committed.
+
+**Rulings.** **[Qurṭubī]** The scholars differed over the ruling of shortening on a journey. A group said it
+is obligatory: ʿUmar b. ʿAbd al-ʿAzīz, the Kufans, the judge Ismāʿīl and Ḥammād b. Abī Sulaymān, arguing from
+ʿĀʾishah's *ḥadīth*, "The prayer was prescribed as two cycles" — but there is no proof in it for them, since
+she herself used to complete the prayer on journeys, which weakens their argument; and the consensus of the
+jurists of the great cities is that it is not a foundation obliging the shortening of a traveller's prayer
+behind a resident imām. The well-known position of Mālik and the majority of his companions, and most of the
+scholars of the past and the present, is that shortening is a Sunna — the position of al-Shāfiʿī, and the
+sound one. The view of most of the Baghdādī Mālikīs is that the obligation is a choice between shortening and
+completing, and the companions of al-Shāfiʿī held the same; then they differed over which is better: some said
+shortening is better (al-Abharī and others), and it was said that completing is better, reported from
+al-Shāfiʿī. Abū Saʿīd al-Farawī al-Mālikī reported that the sound position in Mālik's school is the
+traveller's choice between completing and shortening; and I say: this is what appears from the verse, "there
+is no blame upon you for shortening the prayer" — except that Mālik, God have mercy on him, preferred
+shortening for the traveller, and held that if he completes he should repeat the prayer within its time. Abū
+Muṣʿab reported from Mālik and the people of Madinah: shortening on a journey is a Sunna for men and women
+alike. Al-Shāfiʿī said: shortening where there is no fear is by the Sunna, and where there is fear together
+with travel, by the Qurʾān and the Sunna; and one who prays four cycles incurs no blame, though I do not like
+for anyone to complete the prayer on a journey out of aversion to the Sunna. Abū Bakr al-Athram said: I asked
+Aḥmad b. Ḥanbal whether a man may pray four cycles on a journey; he said, "No — that does not please me; the
+Sunna is two cycles." **[Qurṭubī]** Muslim recorded from Ibn ʿAbbās that the prayer was prescribed as four
+cycles in residence, two on a journey, and one in fear; ʿUmar, Ibn ʿAbbās and Jubayr b. Muṭʿim are also
+reported to have said this. **[Maʿārif]** Full prayer is performed on a journey shorter than forty-eight
+miles; if one reaches a destination intending to stay fewer than fifteen days, the rules of journeying still
+apply and the four-cycle prayers are shortened; if one intends fifteen days or more, the place becomes a
+place of residence and the prayer is completed. Shortening applies to the obligatory prayers, not the Sunna
+prayers.
+
+**Ḥadīth & āthār.** **[Saʿdī]** The commentators differed over the clause "if you fear that those who
+disbelieve may put you to trial," whose apparent sense suggests the shortening is not permitted except with
+both travel and fear; the whole question turns on whether what is meant by "shorten" is only the shortening
+of the number of cycles or of both number and form. This matter perplexed the Commander of the Believers
+ʿUmar b. al-Khaṭṭāb, may God be pleased with him, so that he asked the Prophet ﷺ about it, saying, "O
+Messenger of God, why do we shorten the prayer when we are secure — while God says, 'if you fear that the
+disbelievers may put you to trial'?" The Messenger of God ﷺ said, "It is a charity that God has given you;
+so accept His charity." On this basis the clause was mentioned with a view to the general situation of the
+Prophet ﷺ and his Companions, for most of their journeys were journeys of striving. In the verse there is also
+a further benefit: the clarification of the wisdom and the interest in legislating the dispensation — the
+verse sets out the most extreme hardship that calls for it, the combination of travel and fear, and this does
+not entail that shortening is not permitted with travel alone, which is itself a locus of hardship.
+**[Study Quran]** The Prophet's response is also reported in the form, "It is a charitable gift God has given
+you; so accept His charity" (Ṭabarī). Some question remained whether the accommodation applied to all
+travellers or only to those who feared attack: according to one report, the first part of the verse was
+revealed in response to a group of merchants who travelled on business and asked the Prophet how they should
+pray on their journeys; later, when the Muslims were in danger of being attacked by the idolaters while on a
+military campaign, the remainder of the verse was revealed along with v. 102, indicating the ways in which
+they should keep guard when praying in danger of attack — though al-Ṭabarī indicates that separating the two
+parts of the verse in this way is grammatically problematic. The Sunna specifies that *safar* means
+long-distance travel, of approximately fifty miles (Jalālayn). **[Study Quran]** There are two distinct
+accommodations in these verses: the shortening of the prayer from four cycles to two, based upon Prophetic
+Sunna, which applies to all travellers and is known as the "traveling prayer" (*ṣalāt al-safar*); and the
+"prayer of fear" (*ṣalāt al-khawf*) described in v. 102, performed while armed.
+
+**Reflection.** **[Saʿdī]** Note that the verse says "from the prayer," not "the prayer": had it said "shorten
+the prayer," the shortening would have been unmeasured and someone might have thought that a single cycle
+would suffice; the preposition teaches that the shortening is bounded and defined, referred to what the
+Prophet ﷺ established. And the second benefit of the expression is that it shows the shortening falls on some
+of the prescribed prayers and not all: the dawn and sunset prayers are not shortened; what is shortened is
+the four-cycle prayer, to two. **[Ṭabarī]** The closure — "truly the disbelievers are to you a manifest
+enemy" — gives the reason for the concession: the enmity is open, and the Law does not burden the traveller
+with the full form of worship when the road itself is a place of danger.
+
+**Cross-references.** "And when you are among them and lead them in prayer, let a party of them stand with
+you" (4:102); "God desires ease for you and does not desire hardship for you" (2:185); "And He has not placed
+any hardship upon you in the religion" (22:78).
+
+## 4:102
+
+*"And when you are among them and lead them in prayer, let a party of them stand with you, taking their
+weapons; and when they have prostrated, let them be behind you, and let another party come who have not
+prayed, and let them pray with you, taking their precautions and their weapons. Those who disbelieve wish that
+you would be heedless of your weapons and your baggage, so that they might fall upon you in one rush. But
+there is no blame upon you if you lay aside your weapons when you are troubled by rain or are ill; and take
+your precautions. Truly God has prepared for the disbelievers a humiliating punishment."*
+
+**Meaning.** **[Ṭabarī]** When you are among those of your Companions who travel in the land, fearful of
+their enemy that he may put them to trial, and you establish the prayer for them with its bounds, bowings and
+prostrations — though in this state you shorten it by leaving the full establishment of its bounds and
+bowings, as I have permitted them to shorten when they meet their enemy and press upon one another — then let
+a party of them stand with you in your prayer, and let the rest face the enemy. "Let them take their
+weapons": the commentators differed on which party was commanded to take their weapons — some said it is the
+party praying with the Prophet ﷺ, carrying such arms as a sword slung on the shoulder, a knife, or a dagger
+fastened to the armour or clothing; and Ibn ʿAbbās said it is the party facing the enemy, not the one praying
+with the Messenger ﷺ. "And when they have prostrated, let them be behind you" — when the party that prayed
+with you has finished its prostration, let them move to the rear, to the place of the party facing the enemy;
+then let the other party, which has not prayed, come and pray with you, taking their precautions and their
+weapons. **[Saʿdī]** The verse indicates that the imām remains after the first party's departure, waiting for
+the second; when they arrive he prays with them the remainder of his prayer, then sits waiting for them to
+complete theirs, and then gives the salutation with them. This is one of the forms of the fear prayer, which
+is authentically reported from the Prophet ﷺ in many forms, all of them permissible. **[Ibn Kathīr]** The
+fear prayer has different forms, since the enemy is sometimes in the direction of the qiblah and sometimes
+elsewhere; it consists sometimes of four cycles, sometimes three (as in Maghrib), and sometimes two, as in the
+dawn prayer and the prayer of travel; it is sometimes prayed in congregation, but when the battle is raging
+and congregation is not possible, they pray each by himself, facing the qiblah or otherwise, riding or on
+foot, walking and fighting while performing the acts of the prayer. Some scholars held that in that case they
+pray one cycle, based on Ibn ʿAbbās's report that God ordained the prayer by the tongue of your Prophet ﷺ as
+four cycles in residence, two on a journey, and one in fear — recorded by Muslim, Abū Dāwūd, al-Nasāʾī and Ibn
+Mājah; this is the view of Aḥmad b. Ḥanbal, and al-Mundharī said it is the saying of ʿAṭāʾ, Jābir, al-Ḥasan,
+Mujāhid, al-Ḥakam, Qatādah and Ḥammād; Ṭāwūs and al-Ḍaḥḥāk preferred it. Abū ʿĀṣim al-ʿAbbādī mentioned that
+Muḥammad b. Naṣr al-Marwazī said the dawn prayer also becomes one cycle in fear — the view of Ibn Ḥazm; and
+Isḥāq b. Rāhwayh said, "When a battle is raging, one cycle in which you nod your head is sufficient for you;
+if you are unable, then one prostration, because prostration is the remembrance of God."
+
+**Stories & occasions.** **[Ibn Kathīr]** Imām Aḥmad recorded that Abū ʿAyyāsh al-Zuraqī said: we were with
+the Messenger of God ﷺ at ʿUsfān — a well-known place near Mecca — when the idolaters met us under the command
+of Khālid b. al-Walīd, and they were between us and the qiblah. The Messenger of God ﷺ led us in the noon
+prayer, and the idolaters said, "They were busy with something during which we had a chance to attack them."
+Then they said, "Next there will come a prayer dearer to them than their children and themselves." But
+Gabriel came down with these verses between the noon and afternoon prayers. When the time for prayer came, the
+Messenger of God ﷺ commanded the Muslims to hold their weapons and made us stand in two lines behind him; when
+he bowed, we all bowed behind him; when he raised his head, we all raised our heads. The Prophet ﷺ then
+prostrated with the line behind him while the rest stood on guard; when they finished the prostration and
+stood up, the rest sat and performed the prostration, while those who had performed it stood on guard — and
+the two lines exchanged positions. The Prophet ﷺ then bowed and they all bowed after him, and raised their
+heads after he raised his; then he prostrated with the line that was behind him while the rest stood on
+guard; when those who had prostrated sat, the rest prostrated; then the Prophet ﷺ gave the salutation and
+ended the prayer. The Messenger of God ﷺ performed this prayer twice, once at ʿUsfān and once in the land of
+Banū Sulaym. This is the narration recorded by Abū Dāwūd and al-Nasāʾī, with an authentic chain of narration
+and many other texts supporting it. **[Ibn Kathīr]** Al-Bukhārī recorded that Ibn ʿAbbās said: once the
+Prophet ﷺ led the fear prayer and the people stood behind him; he said *Allāhu akbar* and the people said the
+same; he bowed and some of them bowed; then he prostrated and they also prostrated; then he stood for the
+second cycle and those who had prayed the first left and guarded their brothers; the second party joined him
+and performed the bowing and prostration with him — so all the people were in prayer, but they were guarding
+one another during the prayer. **[Qurṭubī]** Al-Dāraquṭnī recorded from Abū ʿAyyāsh al-Zuraqī a report of the
+same incident at ʿUsfān, with Khālid b. al-Walīd commanding the idolaters before his Islam. **[Study Quran]**
+In the prayer of fear, the standing and bowing are performed together by the prayer leader and all the lines;
+but during the prostration, the front line prostrates with the leader while the back line stands guard and
+prostrates only after the others have stood up, then they alternate positions — so that the leader prays two
+cycles, but each line prostrates with him during only one of the prostrations. Some say that when the Prophet
+and his Companions prayed it, one line prayed with him for two cycles while the other stood guard, then they
+alternated, so that the Prophet prayed four cycles in all while each line participated in two (Ṭabarī).
+
+**Rulings & reflection.** **[Saʿdī]** The verse indicates that congregational prayer is an obligation on each
+individual in two ways: first, God commanded it in this severe state, at the height of fear of the enemy and
+the danger of their assault — so if He obligated it then, its obligation in the state of security and calm is
+yet more evident; second, those praying the fear prayer abandon many conditions and requirements, and many
+acts that would invalidate the prayer in other circumstances are excused for them, and that is only because
+the congregation is so strongly required — for there is no conflict between an obligatory and a recommended
+matter, so had the congregation not been obligatory these necessary things would not have been abandoned.
+The verse also shows that it is better and preferable that they pray behind a single imām, even if that
+involves omitting something that would not be omitted were they to pray behind several imāms, for the sake of
+the unity of the Muslims' word and their agreement, and so that this should be more striking in the hearts of
+their enemies. God commanded the taking of arms and precaution in the fear prayer, and although in this there
+is movement and distraction from some of the states of the prayer, there is in it an outweighing interest —
+the joining of prayer with striving, and precaution against enemies who are most eager to strike the Muslims
+and attack them and their baggage; hence, "those who disbelieve wish that you would be heedless of your
+weapons and your baggage, so that they might fall upon you in one rush." Then God excused those with an excuse
+of illness or rain from laying down their weapons — though still taking their precaution: "there is no blame
+upon you if you lay aside your weapons when you are troubled by rain or are ill; and take your precautions.
+Truly God has prepared for the disbelievers a humiliating punishment." And among the humiliating punishment is
+what God commanded His believing party and the helpers of His religion to do: to kill them and fight them
+wherever they find them, to take them and besiege them and lie in wait for them at every place of ambush
+(9:5), and to beware of them in all states, not neglecting them for fear that the disbelievers should attain
+some of what they want. So to God belongs the greatest praise and thanks for what He has bestowed on the
+believers and for the aid and instruction with which He has supported them, which, if they followed it
+perfectly, no banner of theirs would ever be defeated nor any enemy ever prevail over them.
+**[Jalālayn]** The Prophet ﷺ did this once at Baṭn Nakhla, as reported by the two Shaykhs, al-Bukhārī and
+Muslim. **[Maʿārif]** Laying down weapons for rain or illness is permitted, and the implication is that when
+there is no such excuse carrying them is required — one of the two opinions of al-Shāfiʿī; the other is that
+the precaution is a Sunna, and this is the preferable view. **[Ibn Kathīr]** The mention of rain and illness
+shows the Law's care for the wounded and the exposed while still requiring vigilance.
+
+**Cross-references.** "And fight them until there is no sedition" (2:193); "O you who believe, take your
+precautions" (4:71); "Take your precautions; truly God has prepared for the disbelievers a humiliating
+punishment" (4:102); "And when you are among them and lead them in prayer" stands beside "So stand before God,
+devoutly obedient" (2:238).
+
+## 4:103
+
+*"Then when you have completed the prayer, remember God standing, sitting and on your sides; then when you are
+secure, establish the prayer. Truly the prayer is, for the believers, a prescription at fixed times."*
+
+**Meaning.** **[Ṭabarī]** When you have finished your prayer, O believers, while you are facing your enemy —
+the prayer of fear which We have explained to you — remember God in all your states: standing, sitting and
+lying on your sides, by magnifying Him and supplicating Him for yourselves that He grant you victory over your
+enemy, that God may give you victory and aid you against them. **[Jalālayn]** When you have performed the
+prayer — when you have completed it — remember God by repeating "There is no god but God" (*tahlīl*) and
+"Glory be to God" (*tasbīḥ*), standing, sitting and on your sides, in other words in all states. Then when you
+are reassured, when you are secure, observe the prayer with its proper due; surely the prayer is for believers
+a prescription enjoined — an obligation — at specific times, that is, its appointed times are set, and so it
+should not be postponed from them. **[Ibn Kathīr]** God commands remembrance after finishing the fear prayer
+in particular, even though such remembrance is encouraged after every prayer in general; in the case of the
+fear prayer it is encouraged even more because its pillars are diminished, since they move about while
+performing it, unlike other prayers — just as injustice is prohibited all year long but is particularly
+outlawed during the sacred months because of their sanctity. "When you are free from danger, perform the
+prayer" — when you are safe, tranquil and fear subsides, perform it as you were commanded, fulfilling its
+obligations with humility and completing the bowings and prostrations. "Verily the prayer is *kitāban
+mawqūtan* on the believers" means enjoined, as Ibn ʿAbbās stated. Ibn ʿAbbās also said, "The prayer has a
+fixed time, just as is the case with the Ḥajj." Similar is reported from Mujāhid, Sālim b. ʿAbdullāh, ʿAlī b.
+al-Ḥusayn, Muḥammad b. ʿAlī, al-Ḥasan, Muqātil, al-Suddī and ʿAṭiyyah al-ʿAwfī. **[Study Quran]** Both
+meanings are found in the Arabic *udhkurū Allāh* — invoking and remembering him — through the repeated
+affirmation of His oneness, the utterance of glorification, or personal supplication for themselves or for
+victory (Qurṭubī, Ṭabarī), in any position they are able to in their constrained condition, standing,
+sitting or lying on their sides (cf. 3:191). Elsewhere Muslims are enjoined to remember God much as they face
+battle (8:45); and the injunction to remember God in these various circumstances indicates more generally the
+importance of remembering God (*dhikruʾLlāh*) at all times — which is the scriptural basis for the teaching
+about invoking and remembering God at all moments of life, being *dāʾim al-dhikr* in constant remembrance.
+
+**Rulings & reflection.** **[Saʿdī]** The prayer of fear was singled out for this command after it, for
+several reasons: first, the heart's soundness, success and felicity lie in turning to God in love and filling
+the heart with His remembrance and praise, and the greatest thing by which this is attained is the prayer,
+whose reality is a connection between the servant and his Lord; second, the fear prayer cannot achieve these
+praiseworthy aims because of the preoccupation of heart and body and the fear that attends it, so God
+commanded that its deficiency be made up with remembrance after it; third, fear brings about agitation and
+anxiety of the heart, which is a site of weakness, and when the heart weakens the body weakens in confronting
+the enemy — and remembrance of God, and much of it, is among the greatest strengtheners of the heart; fourth,
+remembrance of God together with patience and steadfastness is a cause of success and victory over enemies, as
+God said, "O you who believe, when you meet a company, stand firm and remember God much, that you may
+succeed" (8:45) — so He commanded abundance of it in that state, among other wisdoms. "Then when you are
+secure, establish the prayer": when you are safe from fear and your hearts and bodies are at rest, complete
+your prayer in the most perfect way outwardly and inwardly, with its pillars, its conditions, its humility and
+its other completions. "Truly the prayer was on the believers a prescription at fixed times" — that is,
+obligatory at its time; this shows its obligation and that it has a time outside which it is not valid — the
+times that are established for the Muslims, young and old, learned and ignorant, who took them from their
+Prophet Muhammad ﷺ. **[Ibn Kathīr]** The comparison with the sacred months gives the principle: a duty is
+emphasised in the very state that tests it most. **[Saʿdī]** The transition from the constrained prayer of
+fear to the full prayer of security, and the closing declaration that the prayer is timed, together show the
+Law's scale: the form is relaxed under fear, but the obligation and its times remain.
+
+**Cross-references.** "And remember God much, that you may succeed" (8:45); "Those who remember God standing,
+sitting and lying on their sides" (3:191); "Guard the prayers, and the middle prayer, and stand before God
+devoutly obedient" (2:238); "So when you are secure, establish the prayer" (4:103).
+
+## 4:104
+
+*"And do not be faint in seeking the people; if you are suffering, they are suffering as you are suffering —
+but you hope from God what they do not hope; and God is ever Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** Do not weaken, and do not be lax, in seeking the people — that is, in pursuing the
+enemies of God and of the believers among the people of association with Him. "If you are suffering, they are
+suffering as you are suffering": if pain and wounds reach you, the same reaches them in war; "but you hope
+from God what they do not hope" — you hope for His reward in the Hereafter and His aid in this world, and they
+have no hope of any of it; "and God is ever Knowing, Wise" — knowing of His creation, wise in His decree.
+**[Jalālayn]** After they returned from Uḥud the Prophet ﷺ dispatched a group to seek out Abū Sufyān and his
+companions, but they complained about their wounds, and the following was revealed: do not be weak in
+pursuing the disbelievers in order to fight them; if you are suffering pains from a wound, they are also
+suffering as you are suffering — yet they do not shrink from fighting you; and you hope from God, in the way
+of victory and its reward, that for which they cannot hope; and since you have this advantage over them, you
+should be more willing for it than them. God is ever Knower of all things, Wise in His actions.
+**[Ibn Kathīr]** Do not weaken your resolve in pursuit of your enemy; rather pursue them vigorously, fight
+them and be wary of them. "If you are suffering, they are suffering as you are suffering" — just as you
+suffer injuries and death, the same happens to the enemy, as He said, "If a harm befalls you, a similar harm
+has already befallen the others" (3:140). "But you hope from God what they do not hope": you and they are
+equal regarding the injuries and pain, but you hope for God's reward, victory and aid, as He promised you in
+His Book and by the words of His Messenger ﷺ — and God's promise is true — while your enemies hope for none of
+this; so it is you, not they, who should be eager to fight so that the word of God may be established and
+raised high. "And God is ever Knowing, Wise" — most knowledgeable and wise in all He decides, decrees, wills
+and acts, in worldly and religious ordinances alike, and worthy of praise in all conditions.
+
+**Reflection.** **[Saʿdī]** Having spoken of prayer, God mentioned the striving that accompanies it, and He
+gives two things that strengthen the hearts of the believers. First: what befalls you of pain, fatigue and
+wounds befalls your enemies as well; it is not manly, nor of Islamic chivalry, that you should be weaker than
+they when you and they are equal in what calls for endurance — for the normal course is that only one whom
+pains follow continually, and over whom enemies prevail again and again, weakens — not one who prevails one
+day and is prevailed over another. Second: you hope from God what they do not hope: you hope for the winning
+of His reward and deliverance from His punishment; indeed the elite of the believers have lofty aims and high
+hopes — the victory of God's religion, the establishment of His law, the broadening of Islam's domain, the
+guidance of the astray and the suppression of the enemies of the religion — and these things bring the
+believer who affirms them increase of strength, doubled energy and complete courage, for one who fights and
+endures to win his worldly honour, if he wins it, is not like one who fights to win happiness in this world
+and the next and the triumph of God's pleasure and His Garden. Glory be to Him who made His servants differ
+and distinguished between them by His knowledge and His wisdom. Hence, "and God is ever Knowing, Wise" —
+complete in knowledge and complete in wisdom. **[Study Quran]** The verse was reportedly revealed after Uḥud,
+encouraging the Muslims to continue pursuing Abū Sufyān, the leader of the idolaters (Jalālayn); when they
+complained of their weakness from the wounds suffered at Uḥud, the verse reminded them that the idolaters
+suffer even as you suffer, but lack the hope the Muslims have for reward in the next life (Ṭabarī) and for
+victory and divine support even in this life (Ibn Kathīr) — a hope that should give them, in the form of
+strength and encouragement, an advantage that the idolaters can never have. **[Maʿārif]** The pursuit in
+question is the expedition to Ḥamrāʾ al-Asad, the "Lesser Badr," when the Prophet ﷺ went out with seventy
+Companions as promised to Abū Sufyān after Uḥud, and God cast terror into the hearts of the disbelievers.
+
+**Cross-references.** "If a harm befalls you, a similar harm has already befallen the others" (3:140); "And do
+not weaken, nor grieve, for you are the uppermost if you are believers" (3:139); "Those who say, 'Our Lord is
+God,' and then stand firm" (41:30).
+
+## 4:105
+
+*"Truly We have sent down to you the Book in truth, that you may judge between people by what God has shown
+you; and do not be an advocate for the treacherous."*
+
+**Meaning.** **[Ṭabarī]** We have sent down to you, O Muhammad, the Book — the Qurʾān — that you may judge
+between people and decide between them by what God has shown you, that is, by what God has sent down to you of
+His Book; "and do not be an advocate for the treacherous": do not be one who contends for those who have
+betrayed a Muslim or a person of treaty in his person or his property, defending them against those who claim
+their right. **[Saʿdī]** God informs that He sent down upon His servant and Messenger the Book in truth: in
+its sending down it was preserved from the devils, so that no falsehood could reach it; it came down with
+truth and contains truth, so that its reports are true and its commands and prohibitions just — "and the word
+of your Lord was fulfilled in truth and justice" (6:115). He informed that He sent it down that he might judge
+between people — and in the other verse, "and We sent down to you the reminder that you may make clear to
+people what has been sent down to them" (16:44): so it may be that the present verse concerns judging between
+people in matters of dispute and disagreement, and that one concerns the clarification of the whole religion,
+its foundations and its branches; or it may be that the two verses have one meaning, in which case judging
+between people here includes judging between them in blood, honour, property and all rights, in beliefs and in
+all matters of rulings. "By what God has shown you" — not by your desire, but by what God has taught you and
+inspired in you, as in "he does not speak from desire; it is nothing but a revelation revealed" (53:3–4). In
+this is a proof of his protection from error in what he conveys from God of all rulings and other matters,
+and that knowledge and justice are conditions in a judge — hence "by what God has shown you," and He did not
+say "by what you saw" — and it also connects judging between people to knowing the Book. **[Ibn Kathīr]** The
+Book truly came from God and its reports and commandments are true; "that you may judge between men by that
+which God has shown you." **[Qurṭubī]** In this verse there is honouring of the Prophet ﷺ, a commissioning of
+him, and also a correction setting him on the path in judgment, and a reproach for what had been brought to
+him concerning the affair of the Banū Ubayriq.
+
+**Rulings.** **[Saʿdī]** When God commanded judging between people, which includes justice and equity, He
+forbade injustice and wrong, its opposite, saying, "and do not be an advocate for the treacherous" — do not
+contend on behalf of one whose treachery you know, whether he claims what is not his or denies a right
+incumbent on him, whether you know that for certain or think it probable. In this is a proof of the prohibition
+of contending for falsehood and of acting as a deputy for the one in the wrong in religious disputes and
+worldly rights; and the implication of the verse is the permissibility of entering as an advocate in a dispute
+for one whose wrongdoing is not known. **[Ibn Kathīr]** In the two *Ṣaḥīḥs* it is recorded that Zaynab bint
+Umm Salamah said that Umm Salamah said that the Messenger of God ﷺ heard the noise of disputing people near
+the door of his room, and went out to them saying, "I am only a human being, and I judge on the basis of what
+I hear; some of you may be more eloquent in presenting his case than others, and so I judge in his favour — but
+if I judge in someone's favour concerning the right of another Muslim, then it is a piece of the Fire; so let
+him take it or leave it." **[Ibn Kathīr]** Imām Aḥmad recorded that Umm Salamah said: two men of the Anṣār came
+to the Messenger of God ﷺ disputing over an old inheritance, but they had no evidence. The Messenger of God ﷺ
+said, "You bring your disputes to me, but I am only a human being, and some of you may be more persuasive in
+his argument than others. I only judge between you according to what I hear. Therefore, whomever I judge in
+his favour and give him part of his brother's right — let him not take it, for it is a piece of the Fire that
+I am giving him, and it will be tied around his neck on the Day of Resurrection." The two men wept, and each
+of them said, "I forfeit my right to my brother." The Messenger of God ﷺ said, "Since you have said that,
+then go and divide the inheritance, and try to be just in your division; then draw lots, and each one of you
+should forgive his brother thereafter." **[Study Quran]** Some scholars adduce the phrase "by what God has
+shown you" to demonstrate that the Prophet had been given permission to perform *ijtihād* — to derive
+independent rulings from the principles and laws contained in the Qurʾān (Ibn Kathīr).
+
+**Stories & occasions.** **[Jalālayn]** Ṭuʿmah b. Ubayriq stole a coat of mail and hid it with a Jew; when it
+was discovered with the latter, Ṭuʿmah accused him of having stolen it and swore by God that he had not
+stolen it, and his clan asked the Prophet ﷺ to advocate on his behalf and absolve him — whereupon this verse
+was revealed. **[Maʿārif]** The episode centres on the clan of Banū Ubayriq in Madinah. A man of this clan —
+his name being Bashīr in the narration of al-Tirmidhī and al-Ḥākim, or Ṭuʿmah in that of al-Baghawī and Ibn
+Jarīr — broke into the house of Rifāʿah, the uncle of Qatādah b. al-Nuʿmān, and committed a theft. This man
+was in reality a hypocrite: he used to live in Madinah yet was audacious enough to compose poetic satires
+insulting the noble Companions and to publicize them in the name of others while concealing his identity. The
+theft itself was committed during the early period of the Hijrah, when the Muslims generally lived under
+straitened circumstances. Rifāʿah bought some wheat flour for himself, put it in a bag, placed some arms on
+top of it, and stashed the bag in a small room of the house with all possible safety; but this man — Ibn
+Ubayriq, Bashīr or Ṭuʿmah — somehow came to know of it, broke in and made off with the bag. When Rifāʿah
+discovered the theft in the morning, he went to his nephew Qatādah and told him, and together they went out
+investigating. Some people said they had seen firelight from the Banū Ubayriq house the previous night, and
+that they had probably been cooking what was stolen. When Banū Ubayriq learnt that their secret was out, they
+themselves came and charged that the theft had been committed by Labīd b. Sahl, a man well known as a sincere
+and pious Muslim; when Labīd heard of the allegation he came out of his house, sword in hand, saying, "You are
+blaming me for this theft; I will not put my sword back in its sheath until the truth of this theft becomes
+clear." Quietly, Banū Ubayriq confided to him that nobody was blaming him and that this was not the sort of
+thing he would do. **[Maʿārif]** The narration in al-Baghawī and Ibn Jarīr adds that the Banū Ubayriq charged a
+Jew with the theft and cleverly made a trail of falling flour, from a slit in the bag which was their own work,
+all the way from Rifāʿah's house to the Jew's house; when the traces of the flour were discovered and word
+went around, they carried the stolen arms to the same Jew and left them with him for safe keeping. Following
+investigations, they were recovered from his house, and the Jew declared on oath that they had been given to
+him by Ibn Ubayriq. **[Maʿārif]** Sayyidah Qatādah and Rifāʿah were overwhelmingly convinced on the basis of
+circumstantial evidence that this was the work of Banū Ubayriq. Qatādah went to the Prophet ﷺ and told him
+about the theft, and also told him that he strongly suspected Banū Ubayriq. When Banū Ubayriq heard the news,
+they came to the Prophet ﷺ and complained against Qatādah and Rifāʿah — that they were putting the blame for
+the theft on them without any valid legal proof, despite the fact that the stolen property had been recovered
+from the house of the Jew — and they appealed to him to restrain the two of them and to have them sue the Jew
+if they had to sue anyone. Things as they appeared on the outside made even the Prophet ﷺ incline towards the
+probability that the theft had been committed by the Jew and that the accusation against Banū Ubayriq was not
+correct; so much so that, according to the narration of al-Baghawī, the Prophet ﷺ intended to inflict the
+punishment for theft on the Jew and cut off his hand. Matters went worse when Qatādah appeared before the
+Prophet ﷺ, who admonished him, saying that he was accusing a Muslim family of theft without any proof.
+Qatādah was grieved and wished he had never spoken to the Prophet ﷺ about the matter, even if he had to bear
+the loss of his property; and when Rifāʿah learnt of what the Prophet ﷺ had said, he too exercised patience
+and said, "And God is the one from whom all help is sought." Not much time had passed when a whole section of
+the Qurʾān was revealed about this episode, through which the reality was shown to the Prophet ﷺ and general
+instructions covering such cases were given. The Qurʾān exposed the theft committed by Banū Ubayriq and
+acquitted the Jew. Banū Ubayriq were left with no choice but to return the stolen property to the Prophet ﷺ,
+who had it returned to its owner, Rifāʿah, who finally endowed those arms for use in striving. When Banū
+Ubayriq found their theft exposed, Bashīr, the son of Ubayriq, ran away from Madinah and landed in Mecca,
+where he joined the disbelievers — so that if he had been a hypocrite earlier, he became an acknowledged
+disbeliever, and if he had been a Muslim earlier, he was an apostate now. **[Qurṭubī]** The Banū Ubayriq were
+three brothers — Bishr, Bushayr and Mubashshir — with Usayr b. ʿUrwah, a cousin of theirs; they dug through a
+pantry of Rifāʿah b. Zayd by night and stole his coats of mail and food, and it was discovered; and it was
+said that the thief was Bushayr alone, who was given the kunya Abū Ṭuʿmah. **[Study Quran]** Ṭuʿmah b. Ubayriq
+was a Muslim who was likely a hypocrite (al-Rāzī); the Prophet initially attempted to defend Ṭuʿmah at the
+behest of the latter's relatives, but in this verse he was warned not to defend those who betray their trust,
+and in v. 106 he was instructed to seek forgiveness for his initial willingness to do so.
+
+**Reflection.** **[Saʿdī]** The verse's order is instructive: the revelation of the Book in truth, the
+command to judge by what God has shown, and the prohibition of advocacy for traitors — for the Book was not
+sent to confirm the claims of the eloquent but to establish the rights of the wronged; and the judge's
+knowledge and justice, named in "by what God has shown you," are the two conditions on which the whole
+institution rests. **[Maʿārif]** The Prophet's human judgment on the outward evidence is not a defect but a
+mercy: the verses distinguish between what the Prophet knows by revelation, which is truth, and what he judges
+by testimony, which may err — and the remedy for that gap is not the abolition of courts but the warning of
+the *ḥadīth*: "Whoever I judge in his favour concerning the right of his brother, let him not take it, for it
+is a piece of the Fire."
+
+**Cross-references.** "And the word of your Lord was fulfilled in truth and justice" (6:115); "He does not
+speak from desire; it is nothing but revelation revealed" (53:3–4); "And We have sent down to you the Book in
+truth, confirming what came before it; so judge between them by what God has revealed" (5:48); "God commands
+you to render back the trusts to their owners, and when you judge between people, to judge with justice"
+(4:58).
+
+## 4:106
+
+*"And seek forgiveness of God; surely God is ever Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** And seek forgiveness, O Muhammad, and ask your Lord to pardon you for the
+consequence of your sin in contending on behalf of the traitor who betrayed another's property; surely God is
+ever Forgiving, Merciful. **[Jalālayn]** Seek forgiveness from God for that which you considered doing; surely
+God is ever Forgiving, Merciful. **[Qurṭubī]** Al-Ṭabarī held that the meaning is: seek forgiveness of God
+for your sin in pleading for the traitors — the Prophet ﷺ was commanded to seek forgiveness when he resolved
+to defend them and to cut off the Jew's hand; and this is the position of those who allow minor sins for the
+prophets. Ibn ʿAṭiyyah said: this was no sin, for the Prophet ﷺ only defended them on the outward appearance,
+believing in their innocence. The meaning is: seek forgiveness of God for the sinners of your community and
+those who dispute falsely; and your position before people is to hear from claimants. **[Saʿdī]** God sent
+down the Book in truth and forbade advocacy for the treacherous, and then, out of His mercy, commanded His
+Prophet and the believers to seek forgiveness — so that the soul is not left in despair after reproach; and
+"God is ever Forgiving, Merciful" closes the reproach with the door of pardon. **[Study Quran]** In v. 106 the
+Prophet was instructed to seek forgiveness for his initial willingness to defend Ṭuʿmah (Ibn Kathīr).
+
+**Rulings & reflection.** **[Maʿārif]** The sequence of the passage shows the wise way of the Qurʾān: a fault
+is named, and immediately the remedy of seeking forgiveness is attached to it, so that heedlessness in
+judgment does not become despair, and the servant's standing with God is repaired as soon as it is broken.
+**[Ṭabarī]** Note that the command to seek forgiveness follows the prohibition of advocacy for the traitor:
+the Qurʾān teaches that the failure to protect the wronged may occur even in a prophet's court when the
+evidence misleads — and the response the Book prescribes is not the abandonment of judging but the continual
+return to God for the soundness of the judgment.
+
+**Cross-references.** "So know that there is no god but God, and seek forgiveness for your sin and for the
+believing men and women" (47:19); "And God would not punish them while you are among them, and God would not
+punish them while they seek forgiveness" (8:33); "And whoever does evil or wrongs himself, then seeks
+forgiveness of God, will find God Forgiving, Merciful" (4:110).
+
+## 4:107
+
+*"And do not plead on behalf of those who betray their own souls; surely God loves not one who is treacherous
+and sinful."*
+
+**Meaning.** **[Ṭabarī]** Do not contend, O Muhammad, or dispute, on behalf of those who betray their own
+souls — who make themselves treacherous by their betrayal of the property of those they betrayed; and they are
+the Banū Ubayriq: do not dispute on their behalf with those who claim their rights and what they betrayed of
+their property. "Surely God loves not one who is treacherous and sinful" — God does not love one whose
+characteristic is betraying people in their property and committing sin in that and in other things God has
+forbidden him. **[Jalālayn]** And do not dispute on behalf of those who betray themselves through acts of
+disobedience, for the evil consequences of their betrayal shall fall on them; surely God loves not one who is
+treacherous — frequently betraying — and sinful; that is to say, He will punish him. **[Saʿdī]** The traitor
+betrays himself before anyone else: his treachery returns to his own soul, for the wrong is written against
+him and the burden of it is his, and this is why God names them "those who betray their own souls" — a subtle
+indication that the one who betrays is his own greatest victim. **[Study Quran]** The verse continues the
+admonition against advocating for the treacherous (vv. 105–7), "those who betray their own selves (v. 107)
+through wrongdoing and treachery" (Ibn Kathīr).
+
+**Reflection.** **[Qurṭubī]** The root of *mujādalah* (disputation) is *jadl*, twisting — as in a man of
+twisted, well-knit frame — and another derivation is from *jadālah*, the face of the earth, as though each of
+the two disputants seeks to throw the other down upon it; and such contending, when it is in the service of
+falsehood, is the work of the treacherous. **[Saʿdī]** The verse's description of the traitor's own loss is
+itself the argument against advocating for him: the advocate and the traitor are joined in the same act, and
+the act's first casualty is its author.
+
+**Cross-references.** "And do not incline to those who do wrong, lest the Fire touch you" (11:113); "Help not
+one another in sin and enmity" (5:2); "Truly God does not love the treacherous, sinful" (4:107).
+
+## 4:108
+
+*"They hide from people, but they do not hide from God; and He is with them when they conspire by night with
+words He does not approve, and God encompasses all that they do."*
+
+**Meaning.** **[Ṭabarī]** These who betray their own souls conceal what they have committed of betrayal and
+what they have undertaken of disgrace and disobedience from people — who have no power over them except to
+reproach them with the ugliness of their deed and the shamefulness of their crime when they learn of it — out
+of shame before them and caution that they be not disgraced; and they do not conceal it from God, who is able
+to punish them for it and requite them without a veil. "And He is with them when they conspire by night with
+words He does not approve" — He is with them in His knowledge of them while they plan by night the swearing of
+oaths and the denial of the theft and the accusation of the Jew, plotting with words that do not please Him;
+"and God encompasses all that they do." **[Jalālayn]** They — Ṭuʿmah and his clan — hide themselves in shame
+from people, but they do not hide themselves from God, for He is with them in His knowledge of them while they
+plot at night with discourse displeasing to Him in their resolve to swear by God and deny the theft and accuse
+the Jew of it; God is ever encompassing in knowledge of what they do. **[Qurṭubī]** Al-Ḍaḥḥāk said: when he
+stole the coat of mail, he made a hole in his house and put the armour under the earth, and then this verse was
+revealed — meaning that the place of the armour is not hidden from God; "and He is with them," that is, He is
+a watcher and keeper over them. It was also said: "they hide themselves from people" means they cover
+themselves, as in "and he who hides himself by night" (13:10); and it was said it means they feel shame before
+people, since shame is the cause of hiding. The meaning of "and He is with them" is by knowledge, sight and
+hearing. **[Ibn Kathīr]** The verse chastises the hypocrites because they hide their evil works from people so
+that they will not be criticized, yet they disclose this evil with God, who has perfect watch over their
+secrets and knows what is in their hearts.
+
+**Reflection.** **[Study Quran]** Here and elsewhere hypocrites and wrongdoers are accused of conspiring or
+devising schemes by night — in private and away from the gaze of others (see 4:81; 34:33); "God encompasses
+whatsoever they do" could more literally be rendered "God is encompassing (*muḥīṭ*) of whatsoever they do," and
+the same or a similar phrase also appears in 3:120; 4:126; 8:47; 11:92; 41:54, where it tends to be used in an
+ominous way in relation to disbelievers and their wrongdoing. *Muḥīṭ* is considered a divine name, usually
+rendered the All-Encompassing (see 85:20). **[Maʿārif]** It is strange that these people feel shy before other
+people like themselves and conceal their theft from them, while they do not feel shy before God, who is with
+them all the time and watches over everything they do — especially the occasion when they mutually conspired to
+put the blame on the Jew, went to the Prophet ﷺ, complained against Rifāʿah and Qatādah, charged them with
+false accusation, and appealed to him for support against the Jew. **[Saʿdī]** The verse turns the anatomy of
+sin inside out: the man who hides from the eyes of men acts as if God were absent, and the verse's answer is
+not merely that God knows, but that He is *with* them — present by knowledge, sight and hearing — while the
+scheme is being woven.
+
+**Cross-references.** "He knows what you conceal and what you reveal" (16:19); "And he who hides himself by
+night, and he who goes openly by day — all alike" (13:10); "Is He who stands over every soul watching what it
+earns?" (13:33); "Your Lord is ever watching" (89:14).
+
+## 4:109
+
+*"There you are — you pleaded on their behalf in the life of this world; but who will plead with God on their
+behalf on the Day of Resurrection, or who will be their guardian?"*
+
+**Meaning.** **[Ṭabarī]** There you are, O assembly of those who contended on behalf of the Banū Ubayriq, you
+who have disputed for them in this world; the pronoun "them" refers to the treacherous. So who will contend
+with God on their behalf on the Day of Resurrection — the day when people rise from their graves for their
+gathering — or who will then be their guardian? **[Jalālayn]** Ah, there you are — addressing Ṭuʿmah's clan —
+you have contested, you have disputed on their behalf, that is, on behalf of Ṭuʿmah and his men (a variant
+reading has "on his behalf"), in the life of this world; but who will contest against God on their behalf on
+the Day of Resurrection if He should punish them, or who will be a guardian for them, taking charge of their
+affair, or defending them? In other words, no one will do such a thing. **[Ibn Kathīr]** Who will argue for
+them on the Day of Resurrection against God, or who will then be their defender? — meaning there is none.
+**[Study Quran]** In "There you are, pleading on their behalf," "you" is plural rather than singular, and thus
+refers not to the Prophet — who is admonished against advocating for the treacherous in vv. 105–7 — but to
+those who would seek to defend the Ubayriq clan or others engaged in similar wrongdoing, or to plead for the
+Prophet's support on their behalf. As the Qurʾān emphasizes in 2:270; 3:56; 71:25 and many other places,
+wrongdoers will have no advocate or defender before God on the Day of Judgment.
+
+**Reflection.** **[Saʿdī]** The verse measures the distance between the two courts: an advocate may win his
+case in the world by eloquence, by the support of a tribe, or by the failure of evidence — but the Day of
+Resurrection has no such loopholes, and the question "who will be their guardian?" is unanswerable precisely
+because the One who judges is the One from whom nothing is hidden. **[Maʿārif]** The verse serves two
+purposes: it admonishes the Banū Ubayriq's defenders that their support for the treacherous in the mortal
+world does not end there — the case will come before God — and it reminds them of the hazards of the Hereafter,
+persuading them thereby to repent and turn to God.
+
+**Cross-references.** "There is no intercessor except after His permission" (10:3); "And fear a Day when no
+soul can avail another soul at all" (2:123); "Whoever does right, it is for his own soul; and whoever does
+evil, it is against it; then to your Lord you will be returned" (45:15).
+
+## 4:110
+
+*"And whoever does evil or wrongs himself, and then seeks forgiveness of God, will find God Forgiving,
+Merciful."*
+
+**Meaning.** **[Ṭabarī]** Whoever commits a sin — "evil" (*sūʾ*) being sin — or wrongs himself by earning
+for himself what makes him deserve the punishment of God, and then seeks forgiveness of God — repents to God
+by returning from the evil he did and the wrong he did to himself, and going back to what God loves of
+righteous deeds that erase his sin and take away his offense — will find God Forgiving, Merciful: he will find
+his Lord covering his sin by pardoning him its punishment, and merciful to him. **[Jalālayn]** Whoever does
+evil, committing a sin by which another is harmed — as when Ṭuʿmah falsely accused the Jew — or wrongs himself,
+committing a sin whose consequences are limited to him, and then prays for God's forgiveness for it, that is,
+repents, he shall find God Forgiving, Merciful to him. **[Ibn Kathīr]** God emphasizes His generosity and
+kindness in that He forgives whoever repents to Him from whatever evil they commit. ʿAlī b. Abī Ṭalḥah said
+that Ibn ʿAbbās commented on this verse: God informs His servants of His forgiveness, His forbearing
+generosity and expansive mercy, so that whoever commits a sin, whether minor or major, then seeks God's
+forgiveness, will find God Forgiving, Merciful. **[Qurṭubī]** Ibn ʿAbbās said: God offered repentance to the
+Banū Ubayriq by this verse — "whoever does evil" by stealing, "or wrongs himself" by associating others with
+God, "then seeks forgiveness of God" — meaning by repentance; for seeking forgiveness with the tongue without
+repentance does not benefit, as has been explained in the commentary on Āl ʿImrān. Al-Ḍaḥḥāk said: the verse
+was revealed concerning Waḥshī, the killer of Ḥamzah: he had associated others with God and had killed Ḥamzah,
+then came to the Messenger of God ﷺ and said, "I am truly regretful — is there any repentance for me?" And so
+the verse was revealed. **[Study Quran]** The promise of forgiveness is here likely extended to both the
+treacherous wrongdoers and those who would wrongfully seek to defend them (Ṭabarī).
+
+**Rulings & reflection.** **[Ṭabarī]** The verse gathers the two categories of sin — harm done to others and
+wrong done to one's own soul — and attaches to both the single remedy of turning back; and the double name at
+the end, Forgiving and Merciful, answers the two dimensions of the remedy: the sin is covered and the servant
+is received. **[Qurṭubī]** The condition is real repentence, not the utterance of the tongue; the verse is
+therefore read by the scholars as the general announcement of the door of *tawbah*, standing behind 4:48's
+statement that God does not forgive association with Him but forgives what is less than that for whom He
+wills. **[Maʿārif]** Here we see once again the wise way of the Qurʾān at work: in order to save sinners from
+total disappointment, it was said that a sin is a sin, big or small; when a sinner repents and seeks God's
+forgiveness, he finds Him forgiving and merciful. There is an element of persuasion for those who have
+committed sin, suggesting that they still have time and hope to desist and repent sincerely — nothing is lost,
+God will forgive everything. **[Ibn Kathīr]** The verse follows the account of the traitors and their
+defenders precisely so that no one should think the reproach means the door is shut: reproach and pardon are
+two halves of the same mercy.
+
+**Cross-references.** "Say: O My servants who have transgressed against their own souls, do not despair of the
+mercy of God" (39:53); "And those who, when they commit an indecency or wrong their own souls, remember God
+and seek forgiveness for their sins" (3:135); "God accepts the repentance of those who do evil in ignorance
+and then repent soon after" (4:17); "And whoever does evil or wrongs himself, then seeks forgiveness of God,
+will find God Forgiving, Merciful" (4:110).
