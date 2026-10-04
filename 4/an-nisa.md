@@ -6950,3 +6950,561 @@ wider one.
 **Cross-references.** "If they are poor, God will enrich them out of His bounty, and God is All-Encompassing,
 Knowing" (24:32); "And in no way is your Lord forgetful" (19:64); "And whoever fears God, He will make a way out
 for him and provide for him from where he does not expect" (65:2–3); "And God is All-Encompassing, Wise" (4:130).
+## 4:131
+
+*"And to God belongs all that is in the heavens and all that is on the earth. And We have charged those who
+were given the Book before you, and you, to fear God; and if you disbelieve — then to God belongs all that is in
+the heavens and all that is on the earth, and God is ever Self-Sufficient, Praised."*
+
+**Meaning.** **[Ṭabarī]** To God belongs the ownership of all that the seven heavens and the seven earths
+contain of every thing. And God mentioned this immediately after His saying "and if the two separate, God will
+enrich each out of His abundance," as a direction to His creation toward the place where they should desire —
+for the One who owns all that is in the heavens and the earth is able to enrich whom He wills from His
+abundance, and no door of provision is closed when His storehouses are full. "We have charged those who were
+given the Book before you" — the Jews and Christians — "and you" — O people of the Qurʾān — "to fear God":
+that is, to be obedient to Him and refrain from His prohibitions. "And if you disbelieve, then to God belongs
+all that is in the heavens and all that is on the earth" — your disbelief harms no one but you, and does not
+diminish His dominion in the least; "and God is ever Self-Sufficient, Praised." **[Jalālayn]** "We have charged
+those who were given the Scripture" before you — the Jews and Christians — "and you" O people of the Qurʾān:
+"Fear God," fear His punishment by obedience to Him. And We said to them and to you: "If you disbelieve in what
+you have been charged with, then to God belongs all that is in the heavens and the earth," as creatures,
+possessions and servants, and He is not harmed by your disbelief — God is ever Independent of the need for His
+creation or their worship, Praised, praiseworthy for what He does with them. **[Ibn Kathīr]** God states that He
+is the Owner of the heavens and earth and that He is the Supreme Authority over them; and "We have recommended
+to the People of the Scripture before you, and to you" means: We have recommended to you what We recommended to
+the People of the Scriptures — fear of God — by worshipping Him alone without partners. **[Saʿdī]** God informs
+of the universality of His great dominions, which entails His disposal of all things by every kind of disposal,
+in decree and in law. His disposal in law is that He charged the former and the latter — the people of the
+earlier Books and the later — with *taqwā*, which comprises command and prohibition and the legislation of
+rulings, and the rewarding of those who fulfil the charge and the punishing of those who neglect and squander it
+with painful punishment. Hence: "and if you disbelieve" — if you abandon the fear of God and associate with Him
+what He has sent down no authority for — you harm only yourselves, and do not harm God at all, nor diminish His
+dominion; and He has servants better than you, greater and more numerous, obedient to Him, submissive to His
+command.
+
+**Rulings & reflection.** **[Maʿārif]** The words "to God belongs all that is in the heavens and the earth" are
+repeated three times in the passage, and the repetition signifies three shades of meaning. In the first place,
+the aim is to point out the limitless scope of God's power of creation, which lacks nothing. In the second
+instance, the objective is to focus on God's attribute of self-sufficiency and His being need-free: should one
+disbelieve, deny or reject the good counsel given, He is in no need of anyone's obedience, for He stands
+ever-... And the third mention embodies a statement of God's mercy, which makes things work for people: should
+one fear God and be obedient to Him, God will fulfil all his needs, because He is the owner of everything in
+this universe. **[Saʿdī]** And with that: to Him belongs the complete generosity and the all-embracing
+beneficence, issuing from the storehouses of His mercy which spending does not diminish and expenditure does not
+dry up, pouring night and day — so that were the people of the heavens and the earth, first and last, to gather
+and each ask what his hopes reach, it would not diminish His dominion in the least; that is because He is
+generous, possessing, glorious: His giving is a word, and His punishment is a word; His command to a thing,
+when He wills it, is to say to it "Be," and it is. And of the completeness of His self-sufficiency is that He
+has no consort, no child, no partner in His dominion, no helper and no assistant in any of the dispositions of
+His kingdom.
+
+**Cross-references.** "And We have instructed those who were given the Book before you, and you, to fear God"
+(4:131); "And how many a creature does not carry its own provision — God provides it and you" (29:60); "O
+mankind, you are the poor in need of God, and God is the Self-Sufficient, the Praised" (35:15); "Do they not
+know that God is Self-Sufficient, Praised?" (2:267).
+
+## 4:132
+
+*"And to God belongs all that is in the heavens and all that is on the earth; and God suffices as a Guardian."*
+
+**Meaning.** **[Ṭabarī]** To God belongs the dominion of all that the heaven and the earth contain; He is the
+sustainer of all of it and the preserver of all of it: the knowledge of nothing of it is hidden from Him, and
+its preservation and disposal do not tire Him. Qatādah said, on "and God suffices as a Guardian" — that is, a
+preserver (*ḥafīẓan*). And when it was asked what the point is of repeating "and to God belongs what is in the
+heavens and what is in the earth," the answer is that the second mention is a reaffirmation of the reason why
+fear of God is necessary — the One of whom this is true is the one to be feared — and the third is that He
+suffices as a Guardian for the one who relies on Him. **[Jalālayn]** The words are repeated in order to
+reaffirm the reason why fear of God is necessary; God suffices as a Guardian, witnessing the fact that what is
+contained in them belongs to Him. **[Saʿdī]** This entails that the affairs of creation are His to dispose, and
+that He is the Guardian of all things, the One who undertakes the interests of the universe by His decree and
+His law, and the One to whom the affairs are returned. **[Ibn Kathīr]** Everything and everyone are His property,
+servants and creation, and He has full authority over all of this; there is no one who can avert His decision or
+question His judgment — He is never asked about what He does, due to His might, ability, fairness, wisdom,
+compassion and mercy.
+
+**Reflection.** **[Ṭabarī]** The verse gives the reason for the charge in the preceding verse: the One who
+owns all things and is the fit guardian of all things is the one whose fear is demanded, and there is no other
+guardian behind Him. **[Saʿdī]** And in it is a great consolation for the one who fears God and stands by His
+command: what is entrusted is in the hands of the best of guardians.
+
+**Cross-references.** "And rely upon God, and God suffices as a Guardian" (4:81); "And God suffices as a
+Guardian" (4:132); "And whoever puts his trust in God — He is sufficient for him" (65:3); "To Him belong the
+keys of the heavens and the earth" (39:63).
+
+## 4:133
+
+*"If He wills, He can remove you, O people, and bring others — and God is ever able to do that."*
+
+**Meaning.** **[Ṭabarī]** If God wills, O people, He can remove you by destroying you and passing you away, and
+bring other people than you to support His prophet Muhammad ﷺ and give him victory. "And God is ever able to do
+that" — He is powerful over it, the Possessor of power to destroy you and replace you with others.
+**[Jalālayn]** If He will, He can remove you, O people, and bring others instead of you; surely God is ever able
+to do that. **[Qurṭubī]** "If He wills, He can remove you" — by death — O people; what is intended is the
+polytheists and the hypocrites; and "bring others" means other than you. And when this verse was revealed, the
+Messenger of God ﷺ struck the back of Salmān and said, "They are the people of this one." And it was said that
+the verse is general: if you disbelieve, He will remove you and bring a creation more obedient to God than you —
+as He said in another verse, "And if you turn away, He will replace you with a people other than you, and they
+will not be the like of you" (47:38). **[Saʿdī]** He is the Self-Sufficient, the Praised, who has complete power
+and effective will among you: if He wills, He removes you and brings others who will be more obedient to God than
+you and better than you; in this is a threat to people for persisting in their disbelief and turning away from
+their Lord, for God cares nothing for them if they do not obey Him — but He grants respite and delays, and does
+not neglect. **[Maʿārif]** And the third mention of ownership embodies the mercy: should one fear God and be
+obedient to Him, God will fulfil all his needs, because He is the owner of everything in this universe.
+
+**Ḥadīth & āthar.** **[Qurṭubī]** The report that when the verse came down the Prophet ﷺ struck Salmān al-Fārisī
+on the back and said, "They are the people of this one" — that is, the Persians — shows the verse's promise of
+bringing others: the nation that would take up the charge. **[Ibn Kathīr]** Al-Ṭabarī's reports give the same
+sense: God is able to replace a people who refuse the charge with a people who accept it, and the replacement is
+of His mercy as much as of His power — the verse is a threat to those who turn away and a promise for those who
+will come.
+
+**Reflection.** **[Saʿdī]** The verse's two halves hold a whole theology of history: the coming and going of
+peoples is not the victory of one nation over God but the demonstration that the religion has an owner who does
+not need any particular nation to carry it. **[Ṭabarī]** And it also warns the believers: the charge given to
+the People of the Book before them, and to them, may pass from a people that neglects it to a people that keeps
+it.
+
+**Cross-references.** "And if you turn away, He will replace you with a people other than you, and they will not
+be the like of you" (47:38); "O God, Owner of all sovereignty, You give sovereignty to whom You will" (3:26);
+"And if We will, We can replace them with others like them" (70:41); "And your Lord is Self-Sufficient, full of
+mercy; if He wills, He can remove you and bring after you what He wills" (6:133).
+
+## 4:134
+
+*"Whoever desires the reward of this world — with God is the reward of this world and of the Hereafter; and God
+is ever Hearing, Seeing."*
+
+**Meaning.** **[Ṭabarī]** Whoever of the people of hypocrisy, who conceal disbelief while professing faith with
+the tongue, desires the fleeting goods of this world by the faith he displays — God has the reward of this world
+and of the Hereafter, and gives whom He wills of His creation from either as He wills. So how can the seeker of
+the reward of the Hereafter be content with the reward of this world, when the one who has the higher is the one
+who has the lower? **[Jalālayn]** Whoever desires by his deeds the reward of this world — then God has the
+reward of this world and of the Hereafter for the one who wants it, and no one else has it — so why do any of you
+demand the lower reward? Why do you not seek the higher one by devoting yourself sincerely to Him, since the
+reward he seeks can only be found with Him? God is ever Hearer, Seer. **[Qurṭubī]** Whoever works by what God
+has made obligatory on him, seeking the Hereafter, God will give him that in the Hereafter; and whoever works
+seeking this world, God will give him what is written for him in this world, and he has no share in the Hereafter,
+because he worked for other than God, as God said, "and he will have no share in the Hereafter" (2:200), and
+"those are the ones who have nothing in the Hereafter but the Fire" (11:16) — and this is on the reading that
+the verse concerns the hypocrite. **[Saʿdī]** Then God informed that whoever's aim and desire is lowly, not
+passing beyond the reward of this world, and who has no desire for the Hereafter, has stunted his effort and his
+sight — and with all that, he will not obtain of the reward of this world beyond what God has written for him,
+for it is God who is the owner of everything, who has the reward of this world and the Hereafter; so both should
+be sought from Him and He should be asked for help in both, for what is with Him is attained only by His
+obedience, and religious and worldly matters are achieved only by seeking His help and being in need of Him
+continually. And His is the wisdom in granting success to whom He grants it and abandoning whom He abandons, and
+in His giving and His withholding. Hence, "and God is ever Hearer, Seeing."
+
+**Rulings.** **[Study Quran]** Several passages of the Qurʾān affirm that God rewards people in both this world
+and the next, a concept often associated with the prophets and their immediate followers: see 12:56–57, where
+Joseph is given the worldly reward of being established in the land, followed by a reminder that the reward of
+the Hereafter is better; 3:146–48, where the reward of this world and the next is said to have been given to
+those who fought patiently alongside the prophets; and 29:27, where Abraham is given a reward in this world and
+in the Hereafter shall truly be among the righteous; Moses too is said to have been rewarded with wisdom and
+knowledge when he reached maturity (28:14). Conversely, the verse can also be read as applying in a negative
+sense to the Madinan hypocrites — perhaps, again, to the advocates of Ṭuʿmah b. Ubayriq — who outwardly manifest
+belief in order to obtain the reward of this world, namely, the booty they might acquire through fighting. And
+it may carry a positive sense: God is not like the masters of this world, who cannot give both; He can be asked
+for both, and to seek the Hereafter is not to renounce the world but to seek it from the hand that holds both.
+**[Maʿārif]** The verse sets the scale: not the renunciation of the world but the ordering of desire — the seeker
+who aims low will be given what has been written for him and nothing of the higher, whereas the seeker who aims
+at God has the One who owns both worlds in his sight.
+
+**Cross-references.** "And he will have no share in the Hereafter" (2:200); "Those are the ones who have nothing
+in the Hereafter but the Fire" (11:16); "Whoever desires the reward of the Hereafter, We shall increase for him
+his reward" (42:20); "But you prefer the life of this world, while the Hereafter is better and more enduring"
+(87:16–17).
+
+## 4:135
+
+*"O you who believe, be maintainers of justice, witnesses for God, even against yourselves, or your parents, or
+your kin — whether he be rich or poor, God is nearer to them both. So follow not desire, lest you swerve; and if
+you distort or turn away — then surely God is ever aware of what you do."*
+
+**Meaning.** **[Ṭabarī]** This is God's advance instruction to His believing servants that they should do the
+deed of those who strove with the Messenger of God ﷺ in the matter of the Banū Ubayriq — who sought to excuse
+them among his Companions and drive away from them those who demanded their rights — as against it. Be
+maintainers of justice: those who stand up with equity among people, and are not swayed by the reproach of any
+blamer. "Witnesses for God": performing the witness that is incumbent on you for God, not for the party you
+testify for. "Even against yourselves" — even if the testimony should harm you; and against your parents and
+your nearest kin. "Whether he be rich or poor, God is nearer to them both": do not refrain from testifying
+against the rich out of hope of his wealth or fear of his power, nor against the poor out of pity for him — for
+God is closer to both than you and more knowing of what is good for them. "So follow not desire, lest you
+swerve": do not follow the desire of the soul in your witness and ruling, so that you turn aside from the truth.
+"In case you distort or turn away": *talwū* — if you twist the witness, altering it; or *tuʿriḍū* — if you turn
+away from giving it at all. "Then surely God is ever aware of what you do," and will requite you for it.
+**[Jalālayn]** O you who believe, be upright in justice, witnesses of the truth for God, even though the
+witnessing be against yourselves — so be a witness against yourselves by affirming the truth and not concealing
+it — or against parents and kinsmen, whether the person witnessed against be rich or poor; God is closer to the
+two than you, and He has better knowledge of what is good for them. So do not follow any whim in your
+testimonies, by being partial to the rich one, seeking his pleasure, or being partial to the poor one out of
+compassion for him, lest you swerve — so that you do not incline away from the truth; for if you twist, or if you
+distort your testimony, or refrain from giving it — surely God is ever aware of what you do, and will requite you
+accordingly. **[Saʿdī]** The *qawwām* form is one of intensification: be, in all your circumstances, standing
+with the equity that is justice in the rights of God and the rights of His servants. Justice in God's rights is
+that His blessings are not used to disobey Him but are spent in His obedience; and justice in the rights of
+people is that you render all the rights owed by you as you demand your own rights — that you pay the
+obligations and debts due, and deal with people by the character and the recompense you would love them to deal
+with you by. And among the greatest kinds of equity is equity in opinions and in those who hold them: do not
+decide for one of two views or one of two disputants because of his affiliation or your inclination toward him,
+but make your aim justice between them. And of equity is the performance of the witness you hold, in whatever
+form, even against the beloved, even against oneself — hence "witnesses for God, even against yourselves, or
+your parents and kin."
+
+**Rulings.** **[Ibn Kathīr]** "Witnesses to God" is similar to "and establish the testimony for God" (65:2):
+testimony should be delivered precisely, for the sake of God, making it correct, truly just, and free of
+alterations, changes or deletions. "Even though it be against yourselves" means give correct testimony and say
+the truth when asked about it, even if harm will affect you as a consequence — indeed God shall make a way out
+and give relief for those who obey Him in every matter. "Or your parents, or your kin": even if you have to
+testify against your parents and kin, do not compromise for their sake; rather give the correct and just witness
+even if they are harmed in the process, for the truth presides above everyone and is preferred to everyone. "Be
+he rich or poor, God is a better Protector to both": do not favour someone in your testimony because he is rich,
+or feel pity for him because he is poor, for God is their caretaker, a better Protector of them than you, and has
+better knowledge of what is good for them. "So follow not the lusts, lest you may avoid justice": let not desire,
+lust or the hatred you have against others lure you into injustice in your affairs; rather stand for justice in
+all situations. Ibn Kathīr recounts the report that when the Prophet ﷺ sent ʿAbdullāh b. Rawāḥah to collect the
+tax on the fruits and produce of the Jews of Khaybar, they offered him a bribe so that he would go easy on them,
+and he said: "By God, I have come to you from the dearest of creation to me, and you are more hated by me than an
+equivalent number of apes and swine; however, my love for him and hatred for you shall not prevent me from being
+just with you." On that they said, "This is the basis on which the heavens and the earth were created."
+**[Ibn Kathīr]** "And if you distort or turn away" — *talwū* means distort your testimony and change it,
+according to Mujāhid and several others among the Salaf, and includes distortion and intentional lying, as in "And
+verily among them is a party who distort the Book with their tongues" (3:78); *tuʿriḍū* includes hiding and
+withholding the testimony, as in "And whoever hides it, surely his heart is sinful" (2:283). And the Prophet ﷺ
+said, "The best witness is he who discloses his testimony before being asked for it."
+
+**Reflection.** **[Study Quran]** Establishing and upholding justice in society is a key concern of the Qurʾān:
+God establishes justice by setting the Balance within creation itself (15:19; 55:7; 57:25), by commanding
+justice among human beings through revelation (7:29; 16:90; 42:17; 57:25), and by weighing deeds in a set balance
+on the Day of Judgment (21:47). In 3:18 God is described as upholding justice (*qāʾiman bi'l-qisṭ*), employing an
+Arabic phrase similar to the one used here; thus as God commands justice, the believer is expected to do so as
+well. God is said to love those who are just (5:42; 49:9; 60:8), and those who slay the upholders of justice are
+placed on a par with those who deny God's signs and kill His prophets (3:21). Al-Ṭabarī rephrases the meaning of
+this part of the verse as: "Uphold justice for the sake of God when you bear witness"; other commentators confirm
+that the real meaning is that one's testimony should never be for the sake of oneself or for another, but only
+for the sake of God, and in justice — that is, truthful witnessing is a claim that God has over the human being.
+The Sufi Rūzbihān al-Baqlī says in his commentary, "The spirit of Oneness will not find root in a person's heart
+so long as God has a claim upon him that he has not fulfilled." **[Study Quran]** The Qurʾān requires the
+presence of witnesses for commercial transactions (2:282), the transfer of wealth to orphans upon maturity (4:6),
+and adjudicating serious criminal charges (4:15; 24:2–9); in order to judge between people with justice, as God
+commands (4:58; 5:42), society has to depend upon people honestly and fully witnessing to the truth, without
+regard for the ultimate consequences of their truthful testimony, which is not in their hands. And one has a duty
+to testify not only against others, but even against oneself, so that truthful witnessing takes precedence even
+over the kindness and deference the Qurʾān asserts one owes to parents and kinsfolk. Given the command here to
+testify truthfully even against kinsfolk, this part of the verse may also be addressed to the specific case of
+Ṭuʿmah b. Ubayriq and his clan (vv. 105–15). Testimony should also not be swayed by the wealth or poverty of the
+parties: a witness might be moved to alter testimony in favour of a wealthy individual in order to gain favour,
+or, conversely, in favour of a poorer individual out of sympathy — and one reported occasion for this revelation
+is an incident in which the Prophet was inclined to rule in favour of a poor man, thinking him incapable of
+truly harming the wealthier man. But readers are reminded that God is nearer unto both, meaning that He is the
+ultimate caretaker of both, and that it is His task to establish ultimate justice between the rich and the poor.
+It is not people's prerogative to bend the laws to achieve what they may consider ultimately just; that would be
+following their caprice. In a similar vein, believers are warned elsewhere not to be swayed in judgment by
+either hatred for a people (5:8) or pity for the accused (24:2). "That you may act justly" uses the verb
+*taʿdilū*, which can mean either "to be just" or, somewhat paradoxically, "to deviate"; the former meaning is
+likely here, though it might also mean "follow not your caprice, lest you deviate from the truth in your
+testimony" or "lest you deviate from justice" — all of which sum up the larger meaning: one must not allow one's
+desires or predilections to cause one to deviate from the service of justice through truthful testimony.
+**[Maʿārif]** The real purpose of sending prophets and scriptures: a verse of Sūrat al-Maʾidah (5:8) carries
+almost the same words, and a verse of Sūrat al-Ḥadīd (57:25) tells us that the important purpose of sending the
+prophets with Scriptures and Missions was to see that justice prevails in the world with peace in its wake —
+and the reference there to sending down iron hints at the eventuality when good counsel alone would not be
+enough, and compulsive miscreants must be disciplined with the deterrent of iron in the best interest of
+establishing justice. In the present verse and in 5:8 it has been clearly stated that establishing and
+maintaining justice and being steadfast on it is not simply the duty of governments and courts; the instruction
+has been given to every human being, obligating him or her to fulfil the demands of justice by being personally
+firm about it and, at the same time, by making efforts that others too stay equally firm about seeing justice
+done. A certain level of justice does fall in the jurisdiction of government and its officials when the wicked,
+the rebellious and the contumacious challenge the processes of justice by flouting it, but the primary
+responsibility rests on the individual. **[Ibn Kathīr]** And God then warned: "Verily, God is ever
+well-acquainted with what you do," and will reward or punish you accordingly.
+
+**Cross-references.** "O you who believe, be steadfast for God, witnesses to justice, and let not the hatred of
+a people cause you to be unjust; be just, that is nearer to piety" (5:8); "God commands justice and the doing of
+good" (16:90); "We have sent Our messengers with clear signs and sent down with them the Book and the Balance,
+so that people might stand in justice" (57:25); "And whoever hides it, surely his heart is sinful" (2:283).
+
+## 4:136
+
+*"O you who believe, believe in God and His Messenger, and the Book which He has sent down upon His Messenger,
+and the Book which He sent down before. And whoever disbelieves in God and His angels and His books and His
+messengers and the Last Day has strayed far astray."*
+
+**Meaning.** **[Ṭabarī]** "O you who believe" — in the prophets before Muhammad and in what they brought from
+God — "believe in God and His Messenger": affirm God and Muhammad His Messenger, that he is God's Messenger sent
+to you and to the rest of creation. "And the Book which He has sent down upon His Messenger" — the Qurʾān — "and
+the Book which He sent down before" — the Books that were sent down to the earlier prophets before the Qurʾān.
+**[Jalālayn]** O you who believe, believe with perseverance in God and His Messenger and the Book which has been
+revealed to His Messenger Muhammad — that is, the Qurʾān — and the Book which was revealed before to the
+messengers, namely the scriptures; a variant reading has the active form for both verbs. And whoever disbelieves
+in God and His angels and His Books and His messengers and the Last Day has strayed far away from the truth.
+**[Qurṭubī]** The verse was revealed concerning all the believers, and the meaning is: O you who have affirmed,
+be steadfast in your affirmation and continue upon it. **[Ibn Kathīr]** God commands His faithful servants to
+adhere to all the elements of faith, its branches, pillars and cornerstones. This is not stated as mere
+redundancy, but from the view of completing faith and the continual maintenance of it. For instance, the believer
+proclaims in every prayer, "Guide us to the straight way" (1:6), which means: make us aware of the straight path
+and increase us in guidance and strengthen us on it. In this verse God commands the believers to believe in Him
+and in His Messenger, just as He said elsewhere, "O you who believe, fear God and believe in His Messenger"
+(57:28).
+
+**Rulings.** **[Saʿdī]** Know that the command is either directed to one who has not entered into a thing and is
+not described by any of it — and this is a command to enter it, like the command to believe given to one who is
+not a believer — or it is directed to one who has entered into the thing, and then it is a command to him to
+rectify what he has of it and to acquire what he does not have. Of this second kind is what God mentions in this
+verse, the command to the believers to believe: for it entails commanding them to what rectifies their faith —
+sincerity, truthfulness, avoidance of corrupters, and repentance from all deficiencies — and also commanding
+them to what they have not yet acquired of the sciences and works of faith, for whenever a text reaches a person
+and he understands its meaning and believes it, that is part of the commanded faith; and likewise all the outward
+and inward works are of faith, as the many texts have indicated and the predecessors of the community have agreed
+upon — then continuing upon it and remaining steadfast upon it to death, as God said, "O you who believe, fear
+God as He should be feared, and do not die except as Muslims" (3:102). And He commanded here belief in Him and in
+His messengers and in the Qurʾān and in the Books already sent down: all of this is of the obligatory faith
+without which a servant is not a believer — in summary in what has not reached him in detail, and in detail in
+what is known in detail. So whoever believes with this commanded faith has been guided and has succeeded. And
+whoever disbelieves in God and His angels and His books and His messengers and the Last Day has strayed far
+astray — and what straying is further than that of one who has left the straight path of guidance and taken the
+way that leads him to perdition? **[Study Quran]** This is one of two verses in the Qurʾān (the other is 2:177)
+that articulates a list of required Muslim beliefs which closely matches the list contained in the *ḥadīth* of
+Gabriel, where faith (*īmān*) comprises belief in God, His angels, His messengers, His books, the Last Day, and
+the Divine Decree. The verse begins with a positive command to believe in God, His Messenger, the Book He sent
+down upon His Messenger (the Qurʾān), and the Book He sent down before — and although "Book" is used in the
+singular, it refers to all previous revealed books, that is, to "scripture" used as a collective noun. After the
+positive command, a warning is issued against disbelieving in five specific things: God, His angels, His Books
+(all revealed scriptures, including the Qurʾān), His messengers (all prophets, minor and major), and the Last Day
+(the Resurrection and Final Judgment). See 2:285, where in a similar list the Last Day is not mentioned, but the
+return to God is.
+
+**Reflection.** **[Ibn Kathīr]** The command "believe" addressed to believers is a command to persevere, to
+deepen, and to complete — the Qurʾān teaches that faith is not a single act but a condition to be maintained,
+and the prayer's daily petition for guidance is the school of that maintenance. **[Saʿdī]** In the list there is
+also a warning: the five items denied are joined in one sentence because they stand or fall together — the one
+who rejects any of them has rejected the whole, and the "far straying" is measured by the distance from the
+composite truth he has abandoned.
+
+**Cross-references.** "The Messenger believes in what has been sent down to him from his Lord, and so do the
+believers; each believes in God, His angels, His books and His messengers" (2:285); "Righteousness is not that
+you turn your faces to the east and the west, but righteousness is belief in God, the Last Day, the angels, the
+Book and the prophets" (2:177); "O you who believe, fear God and believe in His Messenger" (57:28); "Guide us to
+the straight way" (1:6).
+
+## 4:137
+
+*"Truly those who believe, then disbelieve, then believe, then disbelieve, then increase in disbelief — God will
+not forgive them, nor will He guide them to a way."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed over its interpretation. Some said: those who believed in
+Moses and then disbelieved in him, then believed in Jesus — the Christians — then disbelieved in him, then
+increased in disbelief in Muhammad: God will not forgive them, nor guide them to a way. Qatādah is among those
+who said this. Others said: those who believed in Moses, then disbelieved when they took the calf, then believed
+after that, then disbelieved in Jesus, then increased in disbelief in Muhammad — it was not for God to forgive
+them for what they have persisted in of disbelief, nor to guide them to a way of truth. **[Jalālayn]** Those who
+believed in Moses — the Jews — then disbelieved by worshipping the calf, then believed after that, and then
+disbelieved in Jesus, and then increased in disbelief in Muhammad — it was not for God to forgive them for what
+they have persisted in of disbelief, nor to guide them to a way to the truth. **[Qurṭubī]** If it is said that
+God does not forgive anything of disbelief, how then does He say "God will not forgive them"? The answer is that
+when the disbeliever believes, his disbelief is forgiven; but when he returns and disbelieves, the first
+disbelief is not forgiven him. This is as came in the *Ṣaḥīḥ* of Muslim from ʿAbdullāh, who said: some people
+said to the Messenger of God ﷺ, "O Messenger of God, shall we be held to account for what we did in the
+*jāhiliyyah*?" He said, "As for whoever among you does well in Islam, he will not be held to account for it; and
+whoever does evil will be held to account for his deed in the *jāhiliyyah* and in Islam" — and in a narration,
+"and whoever does evil in Islam will be held to account for the first and the last." "Evil" here means
+disbelief, since it is not sound here to intend by it the committing of a minor misdeed, for that would entail
+that Islam does not demolish what came before it for anyone except one who is preserved from all misdeeds until
+his death — which is void by consensus. "Then increase in disbelief" means they persisted in disbelief. "God will
+not forgive them, nor guide them" — that is, guide them not to a way of Paradise; and it was said, He will not
+single them out with success as He singles out His friends. **[Saʿdī]** Whoever's disbelief is repeated after
+faith — having been guided then gone astray, seen then been blinded, believed then disbelieved, and remained in
+his disbelief and increased in it — he is far from success and guidance to the most upright path, and far from
+forgiveness, because he has brought the greatest of barriers preventing it: his disbelief becomes a punishment
+and a settled nature that does not depart, as God said, "So when they deviated, God caused their hearts to
+deviate" (61:5), and "And We shall turn their hearts and their eyes away, as they did not believe in it the
+first time" (6:110). And the verse indicates that if they do not increase in disbelief but return to faith and
+leave what they were upon of disbelief, God will forgive them, even if the apostasy was repeated; and if this is
+the ruling in disbelief, then other sins below it are more evidently so — that if a servant repeats them and then
+returns in repentance, God returns to him with forgiveness.
+
+**Rulings.** **[Qurṭubī]** In this verse there is a reply to the people of *qadar*, for God has made clear that
+He does not guide the disbelievers to a path of good, so that the servant may know that he attains guidance only
+through God, and is deprived of guidance also by God's will. And the verse also contains the ruling concerning
+apostates, which has preceded in Sūrat al-Baqarah in the discussion of the words "and whoever of you turns back
+from his religion and dies as a disbeliever." **[Study Quran]** Following upon the articulation of required
+beliefs in the previous verse, this verse warns those who waver in their belief. By acknowledging the possibility
+of returning to belief after having apostatized, the verse indicates the possibility of communal, legal
+acceptance of a former believer who leaves the community of faith but then repents and seeks to re-enter it.
+However, the verse also suggests that each time one falls away from belief, the possibility for a full return is
+diminished, as it leads to an "increase" in disbelief; for those who continue to waver in this way, the Qurʾān
+issues a rare warning that God will not forgive them and that they will be bereft of His guidance. Because the
+act of apostasy is mentioned three times before the warning is issued, some commentators have asserted that the
+repentance of an apostate from the faith should be accepted only three times; most, however, argue that
+repentance is always accepted, even if continued acts of apostasy make full and lasting repentance unlikely,
+either because of the negative effect of repeated apostasy on the soul or because such a person is likely to die
+in disbelief. **[Maʿārif]** The first part of the verse refers to the hypocrites; but some commentators say it is
+about the Jews, for they were the ones who first believed, then after the golden calf became disbelievers, then
+repented and believed, then again rejected the prophethood of Jesus and fell back into disbelief, and finally by
+refusing to believe in the prophethood of Muhammad ﷺ further increased in disbelief.
+
+**Reflection.** **[Saʿdī]** The verse's portrait is of a heart that oscillates until oscillation itself becomes
+its condition: the door is not shut arbitrarily; the very repetition of turning away breeds the incapacity to
+turn back. **[Qurṭubī]** And the mention of "increase" is the hinge: what is punished is not the single fall but
+the settled habit of falling — the disbelief that becomes a trait.
+
+**Cross-references.** "So when they deviated, God caused their hearts to deviate" (61:5); "And We shall turn
+their hearts and their eyes away, as they did not believe in it the first time" (6:110); "Truly God does not
+change a people's condition until they change what is in their own souls" (13:11); "Say: O My servants who have
+transgressed against their own souls, do not despair of God's mercy" (39:53).
+
+## 4:138
+
+*"Give tidings to the hypocrites that for them is a painful punishment."*
+
+**Meaning.** **[Ṭabarī]** Give tidings to the hypocrites: inform the hypocrites. "That for them is a painful
+punishment": that for them, on the Day of Resurrection from God, for their hypocrisy, there is a painful
+punishment — that is, a tormenting one, and that is the punishment of Hell. **[Jalālayn]** Give tidings — inform,
+O Muhammad — the hypocrites that for them there is a painful chastisement, namely the chastisement of the Fire.
+**[Qurṭubī]** *Al-tabshīr* is the giving of news whose effect appears on the face, and it has already been
+explained, along with the meaning of hypocrisy, in Sūrat al-Baqarah. **[Saʿdī]** Glad tidings are used for good,
+and are used for evil with a qualification, as in this verse: "Give glad tidings to the hypocrites" — those who
+show Islam and conceal disbelief — with the ugliest and worst of tidings, which is the painful punishment, and
+that because of their love of the disbelievers, their alliance with them, their support of them, and their
+abandonment of alliance with the believers. **[Maʿārif]** By articulating distressing news with the word
+*bashārah*, the hint given is that everyone looks forward to some good news to brighten his or her future, but
+for the hypocrites there is just no other news except this. **[Study Quran]** Glad tidings is usually used to
+mean the good news of salvation the Prophet brings to the righteous believers, for the Qurʾān elsewhere asserts
+that on the Day of Judgment there shall be no glad tidings for the guilty (25:22); but, as here, the Qurʾān
+occasionally uses this term in an ironic or mocking tone when warning of the fate of disbelievers (see 3:21; 9:3,
+34; 31:7; 45:8; 84:24).
+
+**Reflection.** **[Saʿdī]** The irony is exact: the announcement that the world receives as good news is, for
+the hypocrite, the opposite, and the reversal begins already in the word. **[Maʿārif]** And the verse names the
+hypocrites alone because their condition is the one for which no other news can be substituted: they took the
+name of faith without its reality, and what remains is the punishment.
+
+**Cross-references.** "And of the people are some who say, 'We believe in God and the Last Day,' but they are
+not believers" (2:8); "Truly the hypocrites are in the lowest depth of the Fire, and you will find no helper for
+them" (4:145); "And among the people around you of the desert Arabs, and among the people of Madinah, are
+hypocrites" (9:101); "And there shall be no glad tidings for the guilty on that Day" (25:22).
+
+## 4:139
+
+*"Those who take the disbelievers as protectors instead of the believers — do they seek honour through them?
+Truly all honour belongs to God."*
+
+**Meaning.** **[Ṭabarī]** "Those who take the disbelievers as protectors instead of the believers" is a
+description of the hypocrites: inform the hypocrites, O Muhammad, who take the people of disbelief in God and
+deviation in His religion as "protectors" — that is, helpers and friends — "instead of the believers" — apart
+from the believers. "Do they seek honour through them?" — that is, do they desire, by taking these disbelievers
+as friends, to gain strength and might through them? "Truly the honour belongs to God altogether" — that is, the
+victory and strength belong to God. **[Qurṭubī]** "Those" is a qualification of "the hypocrites," and in it is a
+proof that one of the people of *tawḥīd* who commits a sin is not a hypocrite, since he does not take the
+disbelievers as protectors; and it contains the prohibition of alliance with the disbeliever and of taking them
+as helpers in works connected with the religion. And in the *Ṣaḥīḥ* it is recorded from ʿĀʾishah that a man among
+the polytheists had followed the Prophet ﷺ to fight with him, and he said to him, "Go back, for we do not seek
+help from a polytheist." "Honour" means victory: *ʿazza man ʿazzahu ʿizzan* — he overcame him. "Truly the honour
+belongs to God altogether" — that is, the victory and the strength belong to God. Ibn ʿAbbās said: "they seek
+honour through them" — he means through the Banū Qaynuqāʿ, for Ibn Ubayy was allied to them.
+**[Jalālayn]** "Those" is either a substitution for "the hypocrites" or a qualification of them: those who take
+disbelievers as friends instead of believers, because they mistakenly believe them to be strong — do they desire
+power with them? An interrogative of disavowal; that is to say, they shall not find such power with them. Truly
+power belongs altogether to God in this world and the Hereafter, and none but His friends shall attain it.
+**[Saʿdī]** What caused them to do this? Do they seek honour with them? This is the actual state of the
+hypocrites: they thought badly of God and were weak in their certainty of God's victory for His believing
+servants; they looked at some of the outward causes that lie with the disbelievers, and their sight fell short of
+what lies beyond that, so they took the disbelievers as protectors by whom they sought strength and aid — while
+all honour belongs to God, for the forelocks of the servants are in His hand, His will is effective in them, and
+He has guaranteed the victory of His religion and His believing servants, even if some testing should come to
+His believing servants and the enemy should be given a turn against them that is not lasting; for the outcome
+and the settlement belong to the believers.
+
+**Rulings & reflection.** **[Study Quran]** The concept of protectorship (*walāyah*) was an important social
+principle in the tribal culture of pre-Islamic Arabia, denoting a bond of complete loyalty and mutual defence.
+In the Qurʾān the concept is powerfully invoked to express religious, rather than tribal, association and
+alliance, as well as power and authority. The believers are repeatedly reminded that God is their ultimate
+Protector, that the Prophet and their fellow believers are their only true protectors in the human realm (see,
+e.g., 2:107, 257; 3:68, 122; 4:45; 5:55; 6:14, 127; 7:196; 8:72; 9:71, 116), while idolaters seek protection
+vainly from their idols and disbelievers seek protection with Satan and each other (7:30; 8:73; 16:100). The
+believers are repeatedly warned not to seek the protection of those outside their religious community, including
+Jews and Christians (3:28; 4:89, 144; 5:51, 57), or even their own family members, if they are not believers
+(9:23). In the present verse, those who take disbelievers as protectors instead of believers are the hypocrites
+mentioned in the two preceding verses. **[Saʿdī]** In this verse there is a great warning against alliance with
+the disbelievers and abandonment of alliance with the believers, and that this is one of the characteristics of
+the hypocrites — and that faith requires loving the believers and aligning with them, and hating the disbelievers
+and being their enemy. **[Maʿārif]** To explain the urge: the desire to be friendly with disbelievers and
+polytheists is generally prompted by the assumption that their outwardly visible influence, power and
+collectivity are the bearers of honour — and the verse declares that assumption ineffectual and absurd. The
+report that the Prophet ﷺ sent back the polytheist who wanted to fight alongside him — "Go back, for we do not
+seek help from a polytheist" — shows the rule in action, and the *ḥadīth* is in the two *Ṣaḥīḥs* from ʿĀʾishah.
+
+**Cross-references.** "Let not the believers take the disbelievers as protectors instead of the believers"
+(3:28); "And whoever takes them as protectors — he is one of them" (5:51); "And God is your Protector, and He is
+the best of helpers" (3:150); "Do not let the disbelievers think that Our respite for them is good for them"
+(3:178).
+
+## 4:140
+
+*"And He has already sent down upon you in the Book that when you hear the signs of God being disbelieved in and
+mocked, do not sit with them until they engage in some other conversation — otherwise you would be like them.
+Truly God will gather the hypocrites and the disbelievers in Hell all together."*
+
+**Meaning.** **[Ṭabarī]** "And He has already sent down upon you in the Book" — God has informed you, among
+those who took the disbelievers as helpers and protectors after He had forbidden you to sit with the people of
+disbelief and mockery when you hear the signs of God being disbelieved in and mocked. The words are addressed to
+all who show faith, sincere and hypocrite alike, for when one displays faith it becomes incumbent on him to
+comply with the commands of God's Book. The verse sent down is His saying, "And when you see those who engage in
+idle talk about Our signs, turn away from them until they engage in some other talk" (6:68). "Do not sit with
+them until they engage in some other conversation": that is, other than disbelief in the signs of God and mocking
+them. "Otherwise you would be like them": if you were to sit with them in that state you would be like them in
+sinfulness, for you would have approved of their disbelief and their mockery — and the one who approves of a
+disobedience is like the one who does it. "Truly God will gather the hypocrites and the disbelievers in Hell all
+together" — just as they were gathered together in this world in disbelief and mockery.
+**[Jalālayn]** *An* has been softened and its subject omitted — in other words read it as *annahu*: when you hear
+God's signs, the Qurʾān, being disbelieved in and mocked, do not sit with them — that is, the disbelievers and the
+mockers — until they engage in some other talk, for otherwise you, if you were to sit with them, would surely be
+like them in sinfulness. God will gather the hypocrites and disbelievers all together into Hell, just as they were
+gathered together in this world in unbelief and mockery. **[Saʿdī]** God has made clear to you, in what He has
+sent down to you, His legal ruling concerning attendance at the assemblies of disbelief and disobedience: when
+you hear the signs of God being disbelieved in and mocked — that is, treated with contempt — do not sit with them
+until they engage in a conversation other than it. The obligation upon every accountable person in regard to
+God's signs is to believe in them, magnify them, venerate them and exalt them, and this is the purpose for which
+they were sent down and for which God created creation; the opposite of believing in them is disbelief in them,
+and the opposite of venerating them is mocking them and despising them. And into this enters the disputation of
+the disbelievers and hypocrites to invalidate God's signs and to support their disbelief, and likewise the
+innovators in their various kinds, for their arguing for their falsehood contains a belittling of God's signs,
+since those signs indicate nothing but the truth and entail nothing but truthfulness; and likewise it includes
+attendance at the assemblies of disobedience and sin, in which God's commands and prohibitions are treated
+lightly and His limits, which He set for His servants, are overstepped. "Otherwise you would be like them" — for
+you would have approved of their disbelief and their mockery, and the one who approves of a disobedience is like
+the one who does it. The upshot is that whoever attends an assembly in which God is disobeyed must either
+disapprove of them if he is able, or leave if he is not.
+
+**Rulings.** **[Qurṭubī]** The address is to all who display faith — the sincere and the hypocrite — since when
+one displays faith, it becomes incumbent on him to comply with the commands of God's Book; and the verse that was
+sent down is His saying, "And when you see those who engage in idle talk about Our signs, turn away from them"
+(6:68). The hypocrites used to sit with the friends of the disbelievers, hearing their mockery of God's signs:
+so God forbade the believing sincere ones from the like of that, and made their sitting like the sitting of the
+hypocrites. **[Maʿārif]** By referring to another verse of the Holy Qurʾān which had already been revealed, as a
+verse of Sūrat al-Anʿām before the event of the Hijrah in Mecca, it has been re-emphasized that God had sent,
+much earlier, the command that they should not even sit in the company of disbelievers and sinners. Now,
+surprising as it is, these heedless people have gone much beyond that by establishing friendly relations with
+them, assuming that they were the bearers of honour and the wielders of power in their own right. **[Study
+Quran]** In the same vein as v. 139, this verse suggests that the sincerity of one's religious faith — or even
+one's true religious identity — is revealed not only by one's actions and words, but also by the character of
+those with whom one chooses to associate. It is not enough simply to avoid rejecting or mocking the signs of
+God; one must also refuse to sit passively among those who do, thereby lending silent support and tacit approval
+to their impious discourse. Both in seeking protection with the disbelievers, mentioned in v. 139, and in sitting
+with those who mock the signs of God — here, likely meaning the Qurʾānic message specifically — one shows
+oneself to be a hypocrite. The verse indicates that God has already sent down a prohibition against sitting with
+people engaged in such discourse: this may be a reference to the general prohibition against associating with
+disbelievers indicated in v. 139, but may also be a reference to the Makkan verse 6:68, "And when you see those
+who engage in idle talk about Our signs, turn away from them until they engage in some other talk." **[Maʿārif]**
+And the closing sentence — "Truly God will gather the hypocrites and the disbelievers in Hell all together" —
+places the one who sits approvingly in the same gathering as those he sat with.
+
+**Reflection.** **[Saʿdī]** The verse treats presence itself as a form of speech: to sit where God's signs are
+mocked is to add one's silence to the mockery, and the remedy is either disapproval with the capacity to change
+it, or departure. **[Study Quran]** And God's gathering of the two parties in Hell corresponds exactly to the
+gathering they chose in the world: the company a man keeps is the shape of his end.
+
+**Cross-references.** "And when you see those who engage in idle talk about Our signs, turn away from them until
+they engage in some other talk" (6:68); "And do not incline to those who do wrong, lest the Fire touch you"
+(11:113); "And it has already been revealed to you that when you hear the signs of God being disbelieved in and
+mocked, do not sit with them" (4:140); "Truly the hypocrites are in the lowest depth of the Fire" (4:145).
