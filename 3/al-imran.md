@@ -471,3 +471,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** A comforting claim can become a veil against truth when it promises privilege without repentance or justice. **[Saʿdī] [Study Quran]** urge readers to test beliefs against revelation rather than use them to excuse wrongdoing.
 
 ---
+
+## 3:25
+
+*How will it be when We gather them on a Day about which there is no doubt, and each soul is repaid in full for what it has earned, and they are not wronged?*
+
+**Meaning.** The question warns of the reckoning that will follow the group’s rejection and self-deception **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]**. **[Qurṭubī]** addresses the Prophet ﷺ and his community: what will become of them when worldly claims and ornaments disappear and they face the deeds they have earned? The Day’s coming is certain **[Ṭabarī] [Jalālayn]**. Every soul—among the People of the Book and all others—receives the full recompense for what it did, good or evil **[Jalālayn] [Ibn Kathīr] [Saʿdī]**. No good deed is diminished and no evil deed increased **[Jalālayn]**; God wrongs no one **[Ṭabarī] [Saʿdī]**.
+
+**Context.** The verse contrasts the group’s confidence that punishment would be limited with the certainty of a universal gathering and individual accounting. **[Ṭabarī]** reads the warning as a threat of severe punishment, but stresses that recompense follows what each person actually did: the good are rewarded for good and the wrongdoer only for the wrong committed.
+
+**Belief.** **[Jalālayn] [Ṭabarī]** emphasize that divine justice neither withholds the reward of good nor imposes punishment beyond a person’s deeds. No claim of special status can override the judgment of the Day.
+
+**Language.** *Lā rayba fīhi* means that there is no doubt the Day will come **[Ṭabarī] [Qurṭubī]**. **[Ṭabarī]** reads the lām in *li-yawmin* (“for a Day”) as pointing to what will take place on that Day, with the reckoning understood; **[Qurṭubī]** records other grammatical readings, including “on a Day” and “for the reckoning of a Day.” *Wuffiyat* means that each soul is paid in full **[Ṭabarī] [Jalālayn]**. **[Study Quran]** notes that “paid in full” is related to the language of fulfilling a covenant, as in 2:40.
+
+**Cross-references.** Fulfilling the covenant: 2:40 **[Study Quran]**.
+
+**Reflection.** The verse redirects attention from self-assuring claims to the deeds for which each person will answer. **[Saʿdī]** stresses that this accounting is governed by perfect justice: no one is wronged, and each receives the consequence of what they chose.
+
+---
