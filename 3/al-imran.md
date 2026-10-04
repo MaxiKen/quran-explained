@@ -170,3 +170,54 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The verse turns the scholars’ prayer from asking for inner steadiness to remembering the day on which every person will stand before God. Certainty about that meeting makes present choices matter. **[Saʿdī] [Ṭabarī]**
 
 ---
+
+
+## 3:10
+
+*As for those who disbelieve, neither their wealth nor their children will avail them against God at all; they are fuel for the Fire.*
+
+**Meaning.** **[Ṭabarī]** applies “those who disbelieve” to people who reject the truth after recognizing Muḥammad’s prophethood, including opponents among the People of the Book, hypocrites, and other disbelievers. Their wealth and children cannot shield them from God’s punishment, whether it comes in this life or the next. **[Ibn Kathīr]** adds that worldly prosperity may itself become a trial or punishment when a person dies in disbelief; it is no guarantee of divine favour. **[Study Quran]** notes that wealth and children can confer status and protection in this life, but they cannot influence God’s judgement and may distract from remembrance. “Fuel” means the wood that feeds the Fire **[Ṭabarī] [Qurṭubī] [Jalālayn]**.
+
+**Context.** **[Maʿārif]** reads 3:10–11 as an introduction to the warning of a coming encounter in 3:12. **[Study Quran]** places the verse within the Qurʾān’s recurring correction of worldly measures of success: possessions and family are gifts, but may also be a test.
+
+**Readings.** **[Jalālayn] [Qurṭubī]** note *waqūd* (“fuel”) and *wuqūd* (“kindling” or the act of burning). The latter is also reported from al-Ḥasan, Mujāhid, and Ṭalḥah b. Muṣarrif; the sense remains that the disbelievers are bound to the Fire’s burning.
+
+**Ḥadīth & āthār.** **[Qurṭubī] [Study Quran]** transmit a warning report about future Qurʾān reciters who boast, “Who recites better than us? Who knows more than us?” They are described as fuel for the Fire *(digression)*.
+
+**Cross-references.** 3:116; 9:55; 21:98; 3:196–197 **[Ibn Kathīr] [Study Quran]**. Wealth and children as a test: 8:28; 64:14–15 **[Study Quran]**.
+
+**Reflection.** The verse warns against mistaking security, lineage, or abundance for a shield from accountability. **[Ibn Kathīr] [Study Quran]**
+
+---
+
+## 3:11
+
+*Like the way of the people of Pharaoh and those before them: they denied Our signs, so God seized them for their sins. God is severe in punishment.*
+
+**Meaning.** The pattern of 3:10 is compared to the fate of Pharaoh’s people and earlier nations. **[Ṭabarī]** understands the comparison as a repeated way of rejecting God’s messengers and then being overtaken by punishment; he names the people of Noah, Hūd, and Lot among the earlier examples. **[Ibn Kathīr]** glosses *daʾb* as conduct, practice, or habit, while **[Jalālayn]** gives ʿĀd and Thamūd as examples of the communities that denied the signs. **[Qurṭubī]** notes that “Our signs” may mean the recited revelations or the signs that demonstrate divine oneness. The seizure is a punishment for persistent denial, not an arbitrary calamity.
+
+**Context.** **[Maʿārif]** treats this verse with the previous one as the warning that introduces the coming confrontation. **[Qurṭubī]** says the comparison may describe the opponents’ customary rejection of prophets or the fate that overtook Pharaoh’s people; he prefers the former as a description of their repeated conduct.
+
+**Language.** *Daʾb* comes from persistence in work and came to mean one’s way, habit, or customary course. **[Ṭabarī] [Qurṭubī] [Study Quran]** The verb “seized” (*akhadha*) is also used in the Qurʾān for punishment **[Study Quran]**.
+
+**Cross-references.** Pharaoh’s people: 7:133–136 **[Study Quran]**. For God’s seizure of earlier communities: 4:153; 7:73 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** warns readers not to treat divine punishment lightly: denial can bring consequences in this life as well as the next. The repeated pattern is a call to learn from earlier communities before their fate is repeated.
+
+---
+
+## 3:12
+
+*Say to those who disbelieve: “You will be defeated and gathered to Hell—an evil resting place.”*
+
+**Meaning.** **[Ṭabarī]** takes the address as a warning to the Jews of Madīnah who followed ambiguous passages and challenged the Prophet after the Muslims’ victory at Badr. In this reading, “you will be defeated” refers to those addressed, and “gathered to Hell” to their final fate. **[Ibn Kathīr]** recounts that after Badr the Prophet ﷺ gathered the Jews of Banū Qaynuqāʿ in their marketplace and warned them not to meet the fate of Quraysh; they answered that they were skilled fighters and would defeat him. **[Study Quran]** records both this report and the view that the verse addresses the Makkan idolaters. **[Maʿārif]** stresses that the warning concerns the specific disbelievers of that time, not every disbeliever in every age: Quraysh were defeated, while the Jewish opponents were overcome through killing, captivity, the *jizya*, or expulsion.
+
+**Readings.** **[Ṭabarī]** prefers the second-person forms *sa-tughlabūn* (“you will be defeated”) and *tuḥsharūn* (“you will be gathered”), because the next verse also addresses the group directly: “You had a sign in the two armies.” Other reciters read the verbs in the third person, *sa-yughlabūn* and *yuḥsharūn* (“they will be defeated and gathered”), understood by some as a reference to Quraysh. **[Qurṭubī]** links that reading to a report placing the warning after Uhud, when some Jews rejoiced at the Muslims’ losses; he identifies it as Nāfiʿ’s reading. **[Jalālayn]** and **[Study Quran]** also note the person shift, while **[Study Quran]** observes that either reading preserves the warning of worldly defeat and punishment in the Hereafter.
+
+**Language.** *Mihād* means a bed, cradle, or prepared resting place; here it is Hell, an evil place of repose. **[Qurṭubī] [Jalālayn] [Study Quran]** Mujāhid also reads the phrase as “evil is what they prepared for themselves.” **[Ṭabarī] [Qurṭubī]**
+
+**Cross-references.** The sign of the two armies: 3:13; 8:42–44; the victory at Badr: 3:123 **[Ibn Kathīr] [Saʿdī]**. Related warnings of defeat and punishment: 5:33; 5:41; 22:11; 33:57 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** points to Badr’s disparity—roughly three hundred Muslims against nearly a thousand Quraysh—as a sign that apparent material advantage does not decide the outcome. The verse warns those who boast of strength and consoles believers to trust God’s support.
+
+---
