@@ -66,6 +66,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -3417,3 +3419,292 @@ perceive not."
 temptation and not a rhetorical one. The verse dissolves it by re-describing prosperity: what looks like
 favour may be a drawing-on by degrees, and the true measure is not what a person owns but the state in which
 his soul departs.
+
+## 9:56
+
+*"And they swear by God that truly they are of you, but they are not of you. Rather, they are a fearful
+people."*
+
+**Meaning.** **[Jalālayn]** "And they swear by God that they truly are of you" — that is, that they are
+believers — "but they are not of you; they are a folk who are afraid" that you should deal with them as you
+have done with the idolaters, "and so they swear merely in pretence in order to protect themselves."
+**[Ṭabarī]** "These hypocrites swear by God to you, O believers, falsely and groundlessly, out of fear of
+you: 'truly they are of you' in religion and community. God, declaring them liars, says: 'and they are not
+of you' — they are not of the people of your religion and your community; rather they are people of doubt
+and hypocrisy. 'But they are a people who fear' — they fear you, and it is out of fear of you that they say
+with their tongues, 'we are of you,' so that they may be secure among you and not be killed." **[Saʿdī]**
+"And they swear by God that they are of you, while they are not of you; but" — the purpose behind this oath
+of theirs is that "they are a people who fear": they fear the turns of fortune, and there is no courage in
+their hearts to make them declare their real state — they fear that if they show you their condition, and
+fear that you will disown them, their enemies will snatch them from every side. As for the man of strong
+heart and steadfast breast, that very thing moves him to declare his state, be it good or bad; but the
+hypocrites have been clothed in the robe of cowardice and adorned with the ornament of lying.
+
+**Belief.** **[Ibn Kathīr]** God describes to His Prophet ﷺ the fright, fear, anxiety and nervousness of
+the hypocrites: "They swear by God that they are truly of you" — swearing a sure oath — "while they are not
+of you" in reality — "but they are a people who are afraid," and this is what made them swear. **[Study
+Quran]** That the hypocrites are *fearful* means, according to some, "They are fearful of you" (Ṭ) — namely
+of the believers and their political strength — though others say it simply means they are fearful of
+fighting alongside the Prophet (R).
+
+**Cross-references.** **[Study Quran]** On empty oaths of allegiance, see 9:42; 24:53; 35:42.
+
+**Reflection.** The oath is not evidence of conviction but of alarm: they swear because they are afraid, and
+they are afraid of the very people they are swearing to. That is why v. 57 can predict that, given any
+bolt-hole at all, they would bolt for it.
+
+---
+
+## 9:57
+
+*"Were they to find a refuge, or caves, or a place to enter, they would turn toward it defiantly."*
+
+**Meaning.** **[Jalālayn]** "If they could find a shelter in which to seek refuge, or some caverns,"
+underground chambers, "or any place to enter, they would turn and bolt away to it" — they would hasten to
+enter it and get away from you with the undeterred speed of an indomitable steed. **[Ṭabarī]** "Were these
+hypocrites to find a 'refuge'" — a fortress in which to fortify themselves, a stronghold in which to seclude
+themselves from you — "or caves" — the hollows in the mountains, singular *maghārah*, a *mafʿalah* from
+"*ghāra al-rajulu fī al-shayʾi yaghūru fīhi*," he entered into it, from which also "the eye sank" (*ghārat
+al-ʿayn*) when it sank into the socket — "or a place to enter" — a burrow in the earth that they enter — the
+word being from *iddakhala yaddakhilu*. **[Saʿdī]** God then mentions the intensity of their cowardice:
+"Were they to find a refuge" to which they could flee when hardships descend, "or caves" which they could
+enter and settle in, "or a place to enter" — a spot they could enter and fortify themselves in — "they
+would turn toward it, defiantly," hastening and rushing; for they have no faculty by which they are able to
+stand firm.
+
+**Language.** **[Qurṭubī]** The *maljaʾ* is the fortress, according to Qatāda and others; Ibn ʿAbbās said
+*al-ḥirz*, which is the same. One says "*lajaʾtu ilayhi lajaʾan wa-maljaʾan*" and "*iltajaʾtu ilayhi*" with
+the same sense; the place itself is also called *lajaʾ* and *maljaʾ*; *al-taljiʾah* is compulsion;
+"*aljaʾtuhu ilā al-shayʾ*" is "I forced him to it," and "*aljaʾtu amrī ilā Allāh*" is "I entrusted my affair
+to God." **[Study Quran]** Some interpret *refuge* to mean a place like a mountaintop (Z), and note that
+*caves* renders a word whose root has the basic meaning of slipping or hiding away (Z). *A place to enter*
+is understood by some to mean an underground cave or well (IK, R). *Defiantly* renders a word associated
+with a horse that breaks free from its rider and runs away at random, heedlessly — or a ship ungovernable by
+its crew.
+
+**Belief.** **[Ibn Kathīr]** Ibn ʿAbbās, Mujāhid and Qatāda explained "a place of concealment" as a tunnel
+or a hole in the ground; "they would turn straightway thereto with a swift rush" — away from you, because
+they associate with you unwillingly, not because they are fond of you. **[Study Quran]** The hypocrites
+would turn toward places of hiding to escape if they could, because they are only reluctantly loyal to the
+Prophet (IK, Q).
+
+**Reflection.** The image is comic and pitiless: a horse that has thrown its rider and bolts. It reveals
+that their association with the believers was never a bond at all but a constraint — and that what holds
+such a person in place is not loyalty but the absence of an exit.
+
+---
+
+## 9:58
+
+*"And among them some reproach thee over the charitable offerings; if they are given thereof, they are
+content, but if they are not given thereof, behold, they are angry."*
+
+**Meaning.** **[Jalālayn]** "Some of them defame you concerning the apportioning of voluntary almsgivings;
+if they are given a share of them they are content, but if they are given none, then they are enraged."
+**[Ṭabarī]** "And among the hypocrites whose description I have given you, O Muḥammad, in these verses, are
+those who reproach you concerning the charitable offerings" — who blame you in their affair and impugn you
+in it. It is said: "*lamaza fulānun fulānan yalmizuhu wa-yalmuruhu*" when he defects him and disparages him,
+and likewise "*hamazahu*" — from which one says "so-and-so is a *humazah lumazah*." **[Saʿdī]** Among these
+hypocrites are those who blame you in the division of the charitable offerings and criticise you in it —
+and their criticism and blame are for no sound purpose and no weighty opinion; their only aim is to be given
+some of it. "If they are given thereof, they are content; but if they are not given thereof, behold, they
+are angry" — and this is a state in which it is not fitting for a servant that his pleasure and his anger
+should follow the desire of his own worldly self and his corrupt purpose; rather, what ought to be the case
+is that his desire follows the good pleasure of his Lord, as the Prophet ﷺ said: "None of you believes until
+his desire follows what I have brought."
+
+**Stories & occasions.** **[Study Quran]** It is reported that this verse was revealed after a man came to
+the Prophet while he was distributing some property and said, "Be just, O Messenger of God." The Prophet
+said, "Woe unto you! Who shall be just if I am not just?" (Q). Other accounts describe similar accusations
+against the Prophet of injustice in his apportioning (Ṭ). **[Qurṭubī]** Qatāda said: "he impugns you";
+al-Ḥasan: "he blames you"; Mujāhid: "he tests you and asks you." Al-Naḥḥās said: the view held by the
+people of the language is that of Qatāda and al-Ḥasan — one says "*lamazahu yalmizuhu*" when he defames
+him; and *al-lamz* in the language is defaming secretly. Al-Jawharī: *al-lamz* is defaming, its root being
+signalling with the eye and the like; and both *yalmizu* and *yalmuru* are read. A man is *lammāz* and
+*lumazah*, i.e. a habitual defamer. It is also said that *lamazahu yalmizuhu* means he pushed him and struck
+him; and *al-hamz* is like *al-lamz*, the *hāmmiz* and *hammāz* being the defamer.
+
+**Belief.** **[Ibn Kathīr]** "And of them are some who accuse you" — or question your integrity —
+"concerning the division of the alms": they question your fairness when you divide them, even though it is
+they who deserve to have their integrity questioned. The hypocrites do not do this in defence of the
+religion but to gain more for themselves — which is why, "if they are given part thereof they are pleased,
+but if they are not given thereof, behold, they are enraged" — angry for themselves. **[Study Quran]** The
+fact that people are content when they receive wealth but angered when denied it shows that they are selfish
+in their concern and not driven by a sense of justice (R).
+
+**Reflection.** The complaint is dressed as a concern for justice and is unmasked by a single test: the
+complainers are silent when they are given and angry when they are not. Justice, in their mouths, means
+their own share.
+
+---
+
+## 9:59
+
+*"If only they had been content with what God and His Messenger gave them, and said, 'God suffices us. God
+will give unto us from His Bounty, as will the Messenger. Truly our desire is for God.'"*
+
+**Meaning.** **[Jalālayn]** "If only they had been content with what God and His Messenger have given them"
+in the way of spoils and the like, "and had said, 'Sufficient for us is God; God will give us from His
+bounty, and His Messenger will also give us' — from other spoils what will suffice us — 'to God we are
+suppliants'" — that He enrich us. The response of the conditional *law*, "if only," is understood: *la-kāna
+khayran lahum*, "it would have been better for them." **[Ṭabarī]** "And had these who reproach you, O
+Muḥammad, concerning the charitable offerings been content with what God and His Messenger gave them of
+giving and allotted to them of shares, and had they said, 'God suffices us' — God is enough for us;
+'God will give us of His bounty, and His Messenger' — God will give us of the bounty of His treasuries, and
+His Messenger of the charitable offerings and otherwise; 'truly our desire is for God' — we turn to God in
+desire that He expand His bounty upon us and enrich us so that we have no need of the charitable offerings."
+
+**Belief.** **[Saʿdī]** And He says here: "If only they had been content with what God and His Messenger
+gave them" — whatever they were given, little or much — "and said, 'God suffices us'": God is enough for us,
+so we are content with what He has apportioned to us; and let them hope in His bounty and His kindness to
+them by saying, "God will give unto us from His Bounty, as will the Messenger. Truly our desire is for God" —
+humbly pleading with Him to bring us what benefits us and to repel what harms us — [they would have been
+safe from hypocrisy and guided to faith and to the highest states]. **[Study Quran]** This verse describes
+the attitude that should be taken by the Prophet's sincere Companions (R). For al-Rāzī it describes the
+proper attitude of desiring the bounty of the world insofar as it leads to God, not for its own sake.
+**[Qurṭubī]** The response of *law* is elided, the sense being: "it would have been better for them."
+
+**Cross-references.** **[Study Quran]** "That God suffices us" is also mentioned in 3:173; 8:62; 8:64; 9:129;
+on the "sufficiency" provided by God see 2:137 and 3:173. That one's "desire" be for God is also found in
+94:8: "And let thy desire be for thy Lord."
+
+**Reflection.** The remedy offered for greed is not less wealth but a truer object: contentment with what has
+been apportioned, and a desire directed at God rather than at the gift. The verse quietly converts the
+murmuring of v. 58 into a prayer.
+
+---
+
+## 9:60
+
+*"The charitable offerings are only for the poor, and the indigent, and those working with them, and those
+whose hearts are [to be] reconciled, and for [ransoming] slaves and for debtors, and in the way of God, and
+for the traveler: a duty from God. And God is Knowing, Wise."*
+
+**Meaning.** **[Jalālayn]** "The alms to be dispensed are only for the poor" — who cannot find anything to
+suffice them in the least — "and the needy" — who cannot find anything to suffice them — "and those who work
+with them" — with these alms: the one who collects them, the one who takes the oaths from those who claim
+them, the slave to be manumitted by contract, as well as the tax-summoner — "and those whose hearts are to
+be reconciled," so that they might become Muslims, or that Islam might be firmly established, or that their
+peers might become Muslims, or that they might defend Muslims — all of whom are classed according to
+different categories — "and for the manumission of slaves," that is, slaves to be manumitted by contract,
+"and for the debtors," those in debt if they contracted the debt without intending an act of disobedience
+thereby, or those who have repented but have nothing with which to fulfil the penalty of expiation or to set
+things right between people — even if they be wealthy — "and for the way of God," that is, for those engaged
+in the struggle, of those for whom there is no share of the *fayʾ*, even if they be wealthy, "and for the
+traveller," the one cut off from resources during his journey — "a duty imposed by God": *farīḍatan* is in
+the accusative because of an implied verb, i.e. *faraḍahā*, "which He has imposed." "And God is Knower" of
+His creatures, "Wise" in His actions. Thus it is impermissible to dispense these alms-proceeds to other
+than these categories, or to deny these proceeds to any one of these categories if they exist. The Imam must
+divide these proceeds among them equally, but he is permitted to give priority to certain individuals over
+others within any one category. The *lām* of *li-l-fuqarāʾ* indicates that it is obligatory to include every
+individual of these categories in the distribution; it is not, however, obligatory when the person in charge
+of the monies apportions it and finds it insufficient — in such a situation it suffices to give three
+individuals from each category, but anything less is not sufficient, as indicated by the plural form. The
+Sunna shows that the prerequisite for receiving a share is that the person be a Muslim but not a Hāshimī or
+a Muṭṭalibī. **[Saʿdī]** "The charitable offerings" — the obligatory *zakāt*, the proof being that the
+supererogatory charity belongs to everyone and is not restricted to anyone to the exclusion of another —
+"are only for" those mentioned, to the exclusion of all besides them, since He has confined them to them;
+and they are eight classes. The first and second, the poor (*fuqarāʾ*) and the indigent (*masākīn*): in this
+place they are two distinct classes, the *faqīr* being in greater need than the *miskīn*, since God began
+with them, and one begins only with the most important first — so the *faqīr* is explained as the one who
+finds nothing or finds part of his sufficiency but less than half of it, and the *miskīn* as the one who
+finds half or more but not his complete sufficiency, for were he to find it he would be rich; and they are
+given of the *zakāt* what removes their poverty and their indigence. The third, those employed upon it:
+everyone who has work or occupation in it — guarding it, collecting it from its people, herding it, carrying
+it, writing for it and the like — and they are given for their labour, as wages for their work in it. The
+fourth, those whose hearts are to be reconciled: the *muʾallaf qalbuhu* is the obeyed chief among his people
+of whom it is hoped that he will accept Islam, or whose evil is feared, or through whose gift the faith of
+others may be strengthened, or the Islam of his like obtained, or its collection secured from those who
+would not pay it; and he is given what achieves the reconciliation and the benefit.
+
+**Rulings.** **[Saʿdī]** The fifth, *al-riqāb*: the *mukātabūn* who have bought themselves from their
+masters and are striving to obtain what will free their necks — they are helped in that from the *zakāt*;
+and the freeing of a Muslim neck held in the captivity of the disbelievers is included in this — indeed it
+has a stronger claim. It also follows from "and for [ransoming] slaves" that it is permissible to manumit
+slaves from it independently. The sixth, the debtors (*al-ghārimūn*), who are of two kinds: those who incur
+debt to set things right between people — when there is evil and discord between two parties and a man
+mediates between them with wealth that he gives to one of them or to all of them, so a share of the *zakāt*
+is appointed for him, that he may be more active in it and firmer in his resolve, and he is given even if he
+is rich; and the one who incurs debt for himself and then becomes insolvent — he is given what settles his
+debt. The seventh, the one who campaigns in the way of God: the volunteer fighters who have no register, so
+they are given what suffices them for their campaign of equipment and mount and the like. The eighth, the
+traveller (*ibn al-sabīl*): the stranger cut off from his provision, even if he is rich in his own land — he
+is given what conveys him to his country. And He mentions the wisdom in confining it to them: were the rich
+to pay the *zakāt* of their wealth in the legally prescribed manner, no poor person would remain among the
+Muslims, and there would be obtained of the wealth what closes the frontier posts, with which the
+disbelievers are fought, and through which all religious benefits are realised. **[Study Quran]**
+*Charitable offerings* renders *ṣadaqāt* (sing. *ṣadaqah*), which some understand to refer to the mandatory
+alms (R); al-Rāzī reasons that this is so because the verse limits it to certain categories, whereas
+voluntary charity can be given for many other purposes, such as building mosques and schools — and, since the
+administrators are entitled to a share, it cannot be voluntary charity. As a matter of terminology the
+mandatory alms are usually called *zakāh* and voluntary charity *ṣadaqah*, but this verse and others such as
+9:103 suggest the two terms are not mutually exclusive in the Qurʾān, though in developed Islamic law they
+came to have distinct meanings.
+
+**Ḥadīth & āthār.** **[Study Quran]** Al-Qurṭubī quotes the ḥadīth of Muʿādh: when the Prophet sent him to
+Yemen he told him, "Teach them that God has prescribed charity for them as it concerns their property, to be
+taken from the rich among them and given to the poor among them." **[Ibn Kathīr]** On the *miskīn*, the
+Prophet ﷺ said — after the Companions supposed him to be the one who goes round asking for a mouthful or two
+or a date or two — "The needy person is the one who does not have enough to satisfy his needs, whose
+condition is not known to others that they may give him something in charity, and who does not beg of
+people"; collected by the Two Shaykhs. **[Ibn Kathīr]** On those employed to collect the alms: they deserve
+a part of them unless they are relatives of the Messenger of God ﷺ, who may not accept any *ṣadaqah* —
+Muslim recorded that ʿAbd al-Muṭṭalib b. Rabīʿah b. al-Ḥārith and al-Faḍl b. al-ʿAbbās asked the Messenger
+of God ﷺ to employ them to collect the alms, and he replied: "Verily the alms are not lawful for Muḥammad
+nor for the family of Muḥammad; it is only the dirt that people discard." **[Ibn Kathīr]** Among *those
+whose hearts are reconciled* are those given so as to embrace Islam: the Prophet gave Ṣafwān b. Umayyah from
+the spoils of Ḥunayn although he attended as an idolater, and Ṣafwān said, "He kept giving me until he
+became the dearest person to me after he had been the most hated to me" (Aḥmad, Muslim, al-Tirmidhī). And
+there are those given so that their Islam may strengthen: the Prophet gave some of the chiefs of the
+*ṭulaqāʾ* a hundred camels each after Ḥunayn, saying, "I give a man while another man is dearer to me than
+him, for fear that God might throw him on his face in the fire of Jahannam."
+
+**Rulings.** **[Maʿārif]** On the *muʾallafah al-qulūb*: it is established that no *zakāh* was paid to a
+non-Muslim under this head, so they are excluded from the recipients of *zakāh*; and all the jurists are
+unanimous that poor new Muslims are eligible under it, while they differ about the rich ones. Imām al-Shāfiʿī
+and Imām Aḥmad hold that all Muslim converts who need a sympathetic attitude to make them firm in Islamic
+belief may receive *zakāh* under this head even if they are not poor in the sense of owning the *niṣāb* —
+the basic principle for them being that poverty is not a condition of eligibility under each of the eight
+categories. Imām Abū Ḥanīfah and Imām Mālik hold that a Muslim *muʾallaf al-qalb* may be given *zakāh* only
+if he is poor and does not own the *niṣāb*; if he owns it he cannot receive under this head either. Both
+hold poverty to be the basic condition for all eight categories, with the sole exception of the *ʿāmilīn*
+(administrators), as explained earlier — the debtors, the wayfarers and the slaves too can receive *zakāh*
+only if they are poor in their given state of affairs, though they may have wealth otherwise. And this
+explanation shows that despite their difference on this aspect, all of them agree that *muʾallafah
+al-qulūb* as a category of the recipients of *zakāh* still holds good and has never been repealed or
+abrogated. **[Jalālayn]** According to al-Shāfiʿī, the first and the last of these categories are no longer
+given of the alms-tax today, because of the established power of Islam; in contrast, the other two are given
+according to the sounder opinion. **[Study Quran]** According to some jurists after the early period, when
+Islam became strong, there was no longer a need for payment to those whose hearts needed to be reconciled,
+but others deemed that the practice could resume as circumstances demanded (Q, R, Ṭ).
+
+**Belief.** **[Ibn Kathīr]** After God mentioned the protest of the ignorant hypocrites to the Prophet ﷺ
+about the distribution of the alms, He stated that it is He Who divided the alms, explained its rulings and
+decided its division, and did not delegate this decision to anyone else. He mentioned the expenditures of
+the *zakāh* in this verse, beginning with the poor because they have more need than the other categories,
+their need being pressing and precarious. **[Maʿārif]** By listing the recipients of the charitable
+offerings category by category, God removed the misunderstanding of those who blamed the Prophet ﷺ for not
+observing justice in disbursing them and giving whatever he wished to whomsoever he chose: He has Himself
+determined who should receive them, and the Prophet ﷺ only complies with the divine decree in disbursing
+them, doing nothing of himself or of his personal opinion.
+
+**Language.** **[Qurṭubī]** God singled out some people for wealth to the exclusion of others as a favour
+from Him, and made the thanks for it the paying out of a share which they render to him who has no wealth,
+as His deputy in what He has guaranteed in His words, "And no creature is there crawling on the earth but
+that its provision rests on God" (11:6). The verse is a clarification of the destinations of the charitable
+offerings and their place, so that they should not go out from them — then the choice is with the one who
+divides, this being the view of Mālik, Abū Ḥanīfah and their companions. **[Ṭabarī]** The commentators
+differed on the description of the *faqīr* and the *miskīn*: some said the *faqīr* is the needy one who
+refrains from asking and the *miskīn* the needy one who asks. Al-Ḥasan: "the *faqīr* is the one who sits in
+his house, and the *miskīn* the one who goes about." Ibn ʿAbbās: "the *masākīn* are the ones who go round,
+and the *fuqarāʾ* are the poor of the Muslims." Jābir b. Zayd: "the *fuqarāʾ* are those who refrain, and the
+*masākīn* those who ask." Al-Zuhrī: "they are the ones in their houses who do not ask, and the *masākīn* are
+those who go out and ask." Mujāhid: "the *faqīr* is the one who does not ask, and the *miskīn* the one who
+asks." **[Study Quran]** According to some, the *faqīr* is one in partial need while the *miskīn* has
+nothing, though some hold the reverse (Q); others have said that the former refers to needy Muslims and the
+latter to the needy People of the Book (Q).
+
+**Reflection.** The verse answers a complaint about fairness by removing the human distributor from the
+centre: it is not his apportionment at all but a *farīḍah* from God, and it is closed — eight named
+destinations, no others. The list itself is a portrait of the community's obligations: the destitute, the
+officials, the wavering heart, the captive, the debtor, the fighter, the stranded traveller.
