@@ -3779,6 +3779,7 @@ division is not a rule but a presence (3:103, 3:105, 3:110 follow).
 **Reflection.** *Ukhrijat li-l-nās* — the superlative is instrumental, not honorary: the best *for the others' sake*, and every commentary preserves ʿUmar's sting — the rank with its condition, recited to crowds behaving badly, meaning *the title is the duty, and it lapses*. The second half of the verse keeps the mirror beside it: *had the People of the Book believed it would have been better for them* — the best community's superiority is made of the same conditional stuff, available to ʿAbd Allāh b. Salām and forfeited by the majority; the sūrah's final, long unit (3:110–120) — the best community, the People of the Book, and the rights of covenant — has begun, and its first verse has already told both sides that neither is saved by belonging.
 
 
+---
 
 ## 3:111 — لَن يَضُرُّوكُمْ إِلَّا أَذًى ۖ وَإِن يُقَٰتِلُوكُمْ يُوَلُّوكُمُ الْأَدْبَٰرَ ثُمَّ لَا يُنصَرُونَ
 
@@ -3903,6 +3904,7 @@ division is not a rule but a presence (3:103, 3:105, 3:110 follow).
 **Reflection.** With this verse the long second movement closes: from *obey a party of the Book and they will turn you back to unbelief* (3:100) to *their plotting shall not hurt you a thing* — the distance measured out in covenant (3:104), rope (3:103), face (3:106), mercy (3:107), and the one condition that repeats like a rhyme through all of it: *wa-in taṣbirū wa-tattaqū*. The chapter's political theology, in the end, is ascesis: the community is not fortified by excluding its enemies' information but by the two habits its enemies cannot corrupt — patience and wariness — while God's encompassing (muḥīṭ, the word 2:19 put on His knowledge) does the rest. What follows — *the Day every soul will find every good it did present* (3:115, 3:30 re-echoed in the unit ahead) — is the same lesson from the other end of time.
 
 
+---
 
 ## 3:121 — وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ الْمُؤْمِنِينَ مَقَٰعِدَ لِلْقِتَالِ ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ
 
