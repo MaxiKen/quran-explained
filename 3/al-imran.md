@@ -283,3 +283,40 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** says the people of felicity take from worldly life what helps them worship God, while those who turn away settle for its temporary pleasures. The verse asks readers to measure present attractions against an eternal home and the approval of the One who sees every servant.
 
 ---
+
+
+## 3:16
+
+*Those who say, “Our Lord, truly we believe; forgive us our sins, and shield us from the punishment of the Fire.”*
+
+**Meaning.** These are the God-fearing just promised a reward in 3:15. **[Jalālayn]** understands their confession as belief in God and His Messenger; **[Ṭabarī]** includes belief in God, the Prophet, and what he brought. Their faith does not make them presume on their standing: they ask God to pardon their sins and protect them from the Fire. **[Ṭabarī]** explains forgiveness as God’s covering their sins with pardon and averting His punishment; escape from the Fire is the believer’s success. **[Ibn Kathīr]** likewise says they seek mercy for their errors and shortcomings. **[Saʿdī]** notes that they appeal to the faith and good works God has already granted them, asking Him to complete His favor with full reward and the removal of punishment.
+
+**Language.** The verb *qina* (“shield us”) comes from the root *waqā*, “to protect,” and is related to *taqwā*, mindful guarding against sin. **[Study Quran]** connects the prayer’s image of protection with other Qurʾānic uses of the same root.
+
+**Cross-references.** “Shield us” echoes 2:201; 3:191; 40:7 **[Study Quran]**. The related sense of guarding oneself from sin appears in 59:9 and 64:16 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** presents faith as a means of drawing nearer to God, not a reason to stop asking for mercy. The prayer joins gratitude for belief to humility about one’s need for forgiveness.
+
+---
+
+## 3:17
+
+*The patient, the truthful, the devoutly obedient, those who spend, and those who seek forgiveness before dawn.*
+
+**Meaning.** These qualities describe the people who prayed in 3:16. **[Ṭabarī]** explains patience as endurance in hardship and battle; **[Qurṭubī] [Ibn Kathīr]** include perseverance in obedience and restraint from sin. **[Saʿdī]** gathers three forms of it: persistence in worship, avoidance of disobedience, and endurance of painful decrees. The truthful make their words, faith, inward state, and actions agree **[Qurṭubī] [Saʿdī]**. The *qānitūn* are obedient and constant in worship **[Ṭabarī] [Jalālayn]**. The spenders give in God’s cause and to relatives, the poor, and the needy; **[Ṭabarī]** includes obligatory alms and other permitted giving, while **[Study Quran]** notes that spending can encompass generosity beyond money. The final group are those who ask God’s forgiveness in the last part of the night. **[Ṭabarī]** prefers this direct sense of supplication, while recording interpretations that they are people who pray at that hour or attend the dawn prayer in congregation. **[Qurṭubī]** sees no contradiction between prayer and seeking pardon: the worshippers pray through the night and ask forgiveness as dawn approaches; he calls the pre-dawn a time when supplication is especially likely to be accepted. **[Jalālayn]** notes that this hour is when people are generally inattentive and enjoying their sleep.
+
+**Context.** The verse continues the portrait of the God-fearing begun in 3:15 and gives practical shape to their plea for forgiveness in 3:16. It joins inner qualities—patience and truth—to worship, generosity, and repentance.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr] [Qurṭubī]** cite the well-known report in the Two Ṣaḥīḥs that, in the last third of the night, God calls for anyone who will supplicate, ask, or seek forgiveness so that He may answer and pardon. **[Qurṭubī]** also cites the sound report of *Sayyid al-Istighfār*, the “master supplication for forgiveness,” taught by the Prophet ﷺ and recorded by al-Bukhārī. He reports a Tirmidhī narration that Jacob delayed his promise to seek forgiveness for his sons (12:98) until the pre-dawn. **[Ibn Kathīr] [Qurṭubī]** describe ʿAbd Allāh b. ʿUmar praying through the night, then asking his attendant whether dawn had come and continuing to seek forgiveness until morning. **[Ibn Kathīr]** also notes that the Prophet ﷺ prayed Witr at different portions of the night before settling on its latter part *(digression)*.
+
+**[Ṭabarī]** transmits an Ibn Masʿūd report about asking forgiveness at dawn, but its chain contains a narrator the editor calls weak and another whose identity is uncertain *(weak)*. He also records an Anas report prescribing seventy acts of forgiveness before dawn through an unidentified transmitter *(weak)*. **[Qurṭubī]** repeats a report that God would withhold a general punishment because of those who worship at night and seek forgiveness at dawn *(weak)*. He records Makḥūl’s claim that fifteen people who each seek forgiveness twenty-five times daily can avert a collective punishment *(weak)* *(digression)*. He prefers a related al-Nasāʾī formulation in which God commands a herald to call for supplicants, and interprets the “descent” wording as the descent of the angel *(digression)*. He also transmits a saying that the Throne trembles at dawn *(weak)* *(digression)* and a prayer taught to ʿAlī that promises forgiveness even for sins as numerous as the tracks of ants; its chain includes Ibn Lāhīʿah *(weak)*. **[Qurṭubī]** says seeking forgiveness is recommended, and preserves an adage attributed to Luqmān: do not let a rooster be wiser than a sleeper who ignores the dawn *(digression)*.
+
+**Language.** *Al-asḥār* is the plural of *saḥar*, the final part of the night before dawn **[Ṭabarī] [Qurṭubī] [Study Quran]**. *Qānit* can convey obedience and constancy, as well as standing in worship **[Study Quran]**.
+
+**Rulings.** **[Qurṭubī]** explicitly describes seeking forgiveness before dawn as recommended. The verse praises the practice without prescribing a fixed number of repetitions.
+
+**Cross-references.** Jacob’s promise to seek forgiveness: 12:98 **[Ibn Kathīr] [Qurṭubī]**. Seeking forgiveness before dawn: 51:18 **[Study Quran]**. Night prayer: 17:79; 25:64; 73:20 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** presents these five traits as a complete discipline of faith: self-control, sincerity, humble obedience, generosity, and repentance. **[Study Quran]** highlights the solitude before dawn, when the world is quiet and the heart can attend to God while ordinary passions are asleep. **[Qurṭubī]** also relays Sufyān al-Thawrī’s devotional image of callers summoning the devout at night and the seekers of forgiveness at dawn *(digression)*.
+
+---
