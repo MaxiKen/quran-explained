@@ -52,6 +52,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -1384,40 +1386,307 @@ included, and were ready to leave home for it.
 
 ## 9:21
 
-*“Their Lord gives them glad tidings of mercy from Him, good pleasure, and gardens in which they will have lasting bliss.”*
+*"Their Lord gives them glad tidings of Mercy from Him, and Contentment, and Gardens wherein they shall have
+lasting bliss,"*
 
-**Meaning.** The reward of the faithful is described as God’s mercy and approval, together with the enduring joy of the Garden. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Their Lord gives them good tidings of mercy from Him and beatitude; for them
+shall be gardens wherein is enduring, everlasting bliss." **[Ṭabarī]** God gives good tidings to those who
+believed, emigrated and strove in the way of God: "their Lord gives them glad tidings of mercy from Him" —
+that He has had mercy on them, so that He will not punish them — "and of Contentment from Him towards
+them": that He is well pleased with them for their obedience to Him and their discharge of what He
+enjoined upon them — "and Gardens": orchards — "wherein they shall have lasting bliss," which neither
+passes away nor perishes, but is fixed and abiding for them forever. **[Qurṭubī]** "Their Lord gives them
+glad tidings": He informs them in this world of the abundant reward and the abiding bliss that is theirs
+in the Hereafter; *naʿīm* is the softness and ease of living. **[Saʿdī]** "Their Lord gives them glad
+tidings," out of mercy from Him, generosity, kindness, care and love for them — "of mercy from Him," by
+which He removes from them all evils and conveys to them every good, "and of Contentment" from Him towards
+them.
 
-**Reflection.** The promise includes not only a place of comfort but God’s good pleasure—the source and meaning of the believers’ hope. **[Maʿārif] [Study Quran]**
+**Ḥadīth & āthār.** **[Ṭabarī]** Jābir b. ʿAbdullāh said, through Muḥammad b. al-Munkadir: when the
+inhabitants of Paradise enter Paradise, God will say: "Shall I give you something better than this?" They
+will say: "Our Lord, what is better than this?" He will say: "My Contentment (*riḍwān*)."
+
+**Cross-references.** **[Study Quran]** Other verses speak of Gardens of bliss — 5:65; 10:9; 22:65; 31:8;
+37:43; 56:12; 68:34. **[Maʿārif]** These verses tell of the great reward and ranks that the successful
+shall have in the life to come.
+
+**Language.** **[Study Quran]** *Bliss* renders *naʿīm*, a word that evokes tranquillity, ease and
+blessing.
+
+**Reflection.** **[Study Quran]** Contentment (*riḍwān*) from God is considered the pinnacle of the
+paradisal state: the Gardens and their bliss are the gift, and God's being pleased is the gift beyond the
+gift — as the report of Jābir makes plain, the last thing asked for and the greatest.
+
+---
 
 ## 9:22
 
-*“They will abide therein forever. Truly, with God is a tremendous reward.”*
+*"abiding therein forever. Truly with God is a great reward."*
 
-**Meaning.** The gardens and bliss promised in 9:21 are everlasting; their reward is secure with God and beyond comparison with temporary worldly distinctions. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Therein they shall abide forever" — *khālidīna* is an implied circumstance —
+"surely with God is a tremendous reward." **[Ṭabarī]** "Abiding therein forever": remaining in them, that
+is, in the Gardens — "forever": there is no end to that and no limit. "Truly with God is a great reward":
+with God there is, for these believers whose attributes He has described in this verse, a reward — a
+recompense for their obedience to their Lord and their discharge of the works He enjoined — "great," and
+that is the bliss He has promised to give them in the Hereafter. **[Qurṭubī]** *Khālidīna* is in the
+accusative as a circumstantial; *khulūd* is remaining. "Truly with God is a great reward": He has prepared
+that reward for them in the abode of His honour.
+
+**Belief.** **[Maʿārif]** The two verses together promise mercy, good pleasure and Gardens of enduring
+bliss, abiding forever; and they close by locating the reward where it cannot be lost — "with God."
+
+**Reflection.** Eternity is the qualifier that turns a gift into a promise: "abiding therein forever"
+removes the one shadow that falls over every joy of this world, that it will end. And the closing clause
+relocates the whole reckoning: the reward is not measured out by the deed but held "with God."
+
+---
 
 ## 9:23
 
-*“O you who believe, do not take your fathers and brothers as allies if they prefer disbelief to faith. Whoever among you takes them as allies—those are the wrongdoers.”*
+*"O you who believe! Take not your fathers and your brothers as protectors if they prefer disbelief to
+belief. As for those among you who take them as protectors, it is they who are the wrongdoers."*
 
-**Meaning.** In its immediate setting, the verse warns believers not to make family members who choose disbelief into protecting allies or confidants against the believing community. The issue is allegiance that competes with faith, not the mere existence of family affection. Commentators differ over whether the verse first addressed Muslims who had stayed with their families in Mecca or states a broader principle. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Study Quran]**
+**Meaning.** **[Jalālayn]** The following was revealed regarding those who refrained from emigrating
+because of their families and their trade: "O you who believe, do not take your fathers and brothers for
+your friends if they prefer" — if they have chosen — "disbelief over belief; whoever of you takes them for
+friends, such are the evildoers." **[Ṭabarī]** God says to those who believe in Him and His Messenger: do
+not take your fathers and your brothers as intimates and friends, disclosing your secrets to them and
+letting them see the vulnerable places of Islam and its people, and preferring to remain among them over
+emigrating to the abode of Islam — "if they prefer disbelief to belief": if they prefer to remain upon
+disbelief in Makkah over faith in God and emigration to Madīnah. "And whoever of you takes them as
+protectors, those are the wrongdoers." **[Saʿdī]** "O you who believe": act according to what faith
+requires — befriend those in whom it stands and oppose those in whom it does not. "And take not your
+fathers and your brothers" — the nearest of people to you, and others all the more so — "as protectors, if
+they prefer," if they choose out of satisfaction and love, "disbelief to belief; and whoever of you takes
+them as protectors, those are the wrongdoers" — because they have dared to disobey God and have taken the
+enemies of God as protectors. The root of *wilāyah* is love and support, and taking them as protectors
+necessarily entails giving their obedience precedence over obedience to God, and love of them over love of
+God and His Messenger.
 
-**Reflection.** Kinship is a real bond, but it cannot require a believer to place loyalty to family above loyalty to God and the community’s obligations. **[Saʿdī] [Maʿārif]**
+**Context.** **[Qurṭubī]** When the Messenger of God ﷺ commanded emigration from Makkah to Madīnah, a man
+would say to his father, a father to his son, a brother to his brother, and a man to his wife: "We have
+been commanded to emigrate." Some hastened to it; some refused to emigrate, saying: "By God, if you do not
+go out to the abode of emigration, I will never benefit you or spend anything on you again." And some had
+their wife and child cling to them, saying: "We adjure you by God, do not leave, or we shall be lost after
+you" — and some softened, abandoned the emigration and stayed with them. So there came down: "O you who
+believe, take not your fathers and your brothers as protectors if they prefer disbelief to belief"; and
+"whoever of you takes them as protectors" after the revelation of the verse, "those are the wrongdoers."
+**[Study Quran]** Some commentators hold that these verses refer to those Muslims who remained in Makkah
+after the Prophet's migration and before the conquest of Makkah, but others prefer to see them as a
+general command applicable to all believers (Q). It is reported that when the command to migrate came,
+some believers were persuaded by their families to remain in Makkah (Q).
+
+**Rulings.** **[Qurṭubī]** The apparent sense of the verse is that it addresses all the believers
+together, and its ruling remains in force until the Day of Resurrection, cutting the tie of allegiance
+between believers and unbelievers. Others relate that it was revealed specifically to urge emigration and
+the abandonment of the lands of the unbelievers — in which case those addressed are the believers who were
+in Makkah and other parts of Arabia, told not to befriend fathers and brothers so as to follow them in
+dwelling in the lands of unbelief. "If they prefer" means "if they love," just as *istajāba* means
+*ajāba*: that is, do not obey them and do not single them out. God mentioned fathers and brothers
+specifically because no kinship is nearer than these, and He denied allegiance between them just as He
+denied it between people generally in "O you who believe, take not the Jews and the Christians as
+protectors" (5:51) — to make clear that nearness is the nearness of religions, not the nearness of bodies.
+**[Jalālayn]** The verse was revealed about those who held back from emigrating on account of their
+families and their commerce.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** God commands shunning the disbelievers even if they are one's parents
+or children, and prohibits taking them as supporters if they choose disbelief instead of faith — as in
+58:22: "You will not find any people who believe in God and the Last Day making friendship with those who
+oppose God and His Messenger, even though they were their fathers, their sons, their brothers or their
+kindred." Al-Ḥāfiẓ al-Bayhaqī recorded that ʿAbdullāh b. Shawdhab said: the father of Abū ʿUbayda b.
+al-Jarrāḥ kept reviling the idols' cause to his son on the day of Badr — rather, praising the idols to him
+— and Abū ʿUbayda kept turning away from him; when al-Jarrāḥ persisted, his son Abū ʿUbayda made for him
+and killed him, and God revealed 58:22 concerning him.
+
+**Belief.** **[Maʿārif]** The Qurʾān is full of commands to maintain the bonds of kinship with parents,
+brothers, sisters and other relatives and to treat them generously; but this verse makes it clear that
+every relationship has a limit. When any of them comes into competition with one's relationship with God
+and His Messenger, it is the relationship with God and His Messenger that must be kept intact; all other
+relationships competing with it are to be set aside. **[Qurṭubī]** Note that sons are not mentioned in
+this verse, the more usual case being… *(digression)* and the Sufis recite in this vein: "They say to me,
+'The abode of the beloved has drawn near' — and you are sorrowful? That is strange indeed. And I said: what
+good is a near dwelling when there is no nearness between the hearts? How many a distant one attained his
+desire, while a neighbour at the side died sorrowful."
+
+**Cross-references.** **[Ibn Kathīr]** 58:22, on not befriending those who oppose God and His Messenger
+even if they be fathers, sons, brothers or kindred. **[Qurṭubī]** 5:51, on not taking the Jews and the
+Christians as protectors.
+
+**Reflection.** The command bites precisely because it names fathers and brothers — the nearest claims
+upon a person. It does not cancel kindness to them; it cancels *allegiance* to them where their choice is
+disbelief, because allegiance carries love, counsel and a loyalty that outranks every other loyalty. The
+verse thus draws the line the whole passage has been drawing: bonds are real, but they are not ultimate.
+
+---
 
 ## 9:24
 
-*“Say: If your fathers, your sons, your brothers, your spouses, your clan, the wealth you have acquired, the commerce whose decline you fear, and the dwellings you love are dearer to you than God, His Messenger, and striving in His way, then wait until God brings His command. God does not guide the defiantly disobedient.”*
+*"Say, 'If your fathers, your children, your brothers, your spouses, your tribe, the wealth you have
+acquired, commerce whose stagnation you fear, and dwellings you find pleasing are more beloved to you than
+God, and His Messenger, and striving in His way, then wait till God comes with His Command.' And God guides
+not iniquitous people."*
 
-**Meaning.** The verse names the most powerful ties and interests—family, property, livelihood, and home—and warns against allowing them to outweigh obedience to God and His Messenger when they conflict with striving in His way. The context includes migration and the struggle of the early community, while the principle also tests what a person places first. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** Say: "If your fathers and your sons and your brothers and your wives and your
+clan" — your kinsmen; a variant reading gives *ʿashīrātukum* — "and the possessions which you have
+acquired and merchandise for which you fear there may be no sale, no longer viable, and dwellings which you
+love, are dearer to you than God and His Messenger and struggling in His way," so that you have refrained
+from emigrating and from struggling for the sake of such things, "then wait until God brings about His
+command" — this is meant as a threat to them. "And God does not guide the wicked folk."
+**[Ṭabarī]** God says to His Prophet Muḥammad ﷺ: say, O Muḥammad, to those who held back from emigrating
+to the abode of Islam and remained in the abode of *shirk*: if staying with your fathers, your sons, your
+brothers, your wives and your clan, and the wealth you have acquired, and merchandise whose stagnation you
+fear if you leave your land, and dwellings you are pleased with and have settled in, are dearer to you
+than emigrating to God and His Messenger from the abode of *shirk*, and than striving in His way — that
+is, in helping the religion of God which He has approved — "then wait": look out for what will befall you
+— "until God comes with His command": until God brings the conquest of Makkah. "And God guides not
+iniquitous people": God does not grant success to the good to those who go out from obedience to Him.
+**[Saʿdī]** Then He mentions the reason that necessitates this — that love of God and His Messenger must
+be given precedence over the love of everything, and everything must be made subordinate to them: "Say: if
+your fathers" — and mothers likewise — "and your sons," "and your brothers" in lineage and in company,
+"and your spouses and your clan," that is, your relatives generally, "and the wealth you have acquired" —
+which you earned and toiled to obtain; He singled it out because it is the most coveted thing to its owner,
+and its possessor clings to it more fiercely than to wealth that comes without toil or trouble — "and
+commerce whose stagnation you fear" — its cheapness and decline; this covers every kind of trade and
+earning — goods, coin, vessels, weapons, furnishings, grain, crops, livestock and the rest — "and
+dwellings you find pleasing," for their beauty, their ornament and their suiting your desires: if these
+things "are more beloved to you than God and His Messenger and striving in His way," then you are
+defiantly disobedient and wrongdoing; "so wait" — expect what will descend upon you of punishment — "until
+God comes with His command," which cannot be repelled. "And God guides not iniquitous people": those who
+have gone out from obedience to Him.
 
-**Reflection.** The verse does not say that family, work, or home are bad; it asks whether they have become ultimate loyalties that displace faith and duty. **[Maʿārif] [Study Quran]**
+**Context.** **[Qurṭubī]** Then there came down, concerning those who stayed behind and did not emigrate:
+"Say: if your fathers, your sons, your brothers, your spouses and your clan…" — *al-ʿashīrah* being the
+group that goes back to a single bond, like the bond of ten or more, from which comes *al-muʿāsharah*,
+"being together in a thing." **[Maʿārif]** The verse was revealed essentially about the people who did not
+migrate from Makkah when migration was made obligatory for them; their love of family and property had
+stopped them from carrying out their obligation.
+
+**Language.** **[Qurṭubī]** "*Amwālun iqtaraftumūhā*" — wealth you acquired in Makkah; the root sense of
+*iqtirāf* is cutting a thing off from its place, i.e. earning it. **[Jalālayn]** A variant reading gives
+*ʿashīrātukum*, "your clans," in the plural.
+
+**Belief.** **[Maʿārif]** On "wait until God comes with His command": Mujāhid said that the "command"
+here is the command to fight and to conquer Makkah — the sense being that the time is near when the evil
+end of those who sacrifice their relationship with God and His Messenger for worldly bonds will become
+visible to all: the day Makkah stands conquered, those who abandoned their appointed duty will face
+disgrace and the bonds they fancied will avail them nothing. Al-Ḥasan al-Baṣrī interpreted "command" as
+the command of punishment: those who sacrificed their spiritual bonds of the Hereafter for the sake of
+material attachments and did not migrate as instructed would be seized by the command of punishment soon —
+either in this world or in the Hereafter. **[Study Quran]** Some understand "till God comes with His
+Command" as referring to the eventual conquest of Makkah by the believers (Ṭ), though the fact that v. 25
+speaks of the Battle of Ḥunayn — which took place *after* the conquest — makes it implausible that v. 24
+refers to a time before the conquest; the idea of God coming with His Command also appears in 2:109.
+
+**Cross-references.** **[Ibn Kathīr]** 58:22 — those who believe in God and the Last Day do not befriend
+those who oppose God and His Messenger, even though they be their fathers, sons, brothers or kindred.
+
+**Readings.** **[Jalālayn]** *ʿAshīratukum* is also read *ʿashīrātukum*.
+
+**Reflection.** The verse does not condemn love of family, property, trade or a pleasant house; it condemns
+their occupying the place that belongs to God. The test is stated as a comparison of loves, and it is a
+comparison every believer has to make in practice — in what one will leave, spend, risk or lose.
+
+---
 
 ## 9:25
 
-*“God has already helped you in many places, and on the day of Ḥunayn, when your numbers pleased you. But they availed you nothing; the earth, vast as it was, became narrow for you, and you turned back, retreating.”*
+*"God indeed granted you victory on many a field, and on the Day of Ḥunayn when you were impressed at how
+numerous you were. But it availed you naught, and the earth, despite its breadth, closed in upon you. Then
+you turned your backs."*
 
-**Context.** Ḥunayn was fought after the conquest of Mecca, in the valley on the route toward Ṭāʾif. The Muslim force was unusually large, but its numbers did not prevent an initial setback when the opposing force attacked; many retreated before the believers regrouped. **[Ṭabarī] [Ibn Kathīr] [Study Quran] [Maʿārif]**
+**Meaning.** **[Jalālayn]** "God has already helped you on many fields of battle" — such as Badr, and
+against Qurayẓa and al-Naḍīr — "and remember the day of Ḥunayn," a valley between Makkah and Ṭāʾif: that
+is, remember the day on which you fought Hawāzin, in Shawwāl of the eighth year of the Hijrah, "when your
+vast numbers were pleasing to you," so that you were saying, "We shall not be defeated today on account of
+our being few" — and they numbered twelve thousand while the disbelievers were four thousand — "but it
+availed you nothing, and the earth, for all its breadth" — *bi-mā rahubat*, the *mā* standing for the
+verbal noun; understand it as *maʿa rahbihā*, "despite its breadth" — "was straitened for you," so that
+you could find no place in which you felt secure, because of the severe fear that afflicted you; "then you
+turned back," retreating, fleeing — while the Prophet ﷺ, on his white mule, remained firm, with only
+al-ʿAbbās at his side, and Abū Sufyān charging on his mount. **[Ṭabarī]** "God indeed granted you victory,
+O believers, in many places of war in which you steeled yourselves to meet your enemy, and in many scenes
+in which you and they met — and on the day of Ḥunayn too He granted you victory." Ḥunayn, it is said, is a
+valley between Makkah and Ṭāʾif; it is treated as fully declinable because it is a masculine name for a
+masculine thing, though it may also be left undeclined on the view that it is made the name of the locality
+in which it lies — as in the verse of Ḥassān b. Thābit: "They helped their Prophet and strengthened his
+back at Ḥunayn, on the day the heroes relied on one another." **[Saʿdī]** That is His saying: "God has
+already helped you in many a field, and on the day of Ḥunayn" — the name of the place where the battle
+between Makkah and Ṭāʾif took place — "when your great numbers impressed you, but they availed you
+nothing": they benefited you neither little nor much; "and the earth closed in upon you" — because of the
+care and grief that struck you when you were routed — "despite its breadth": for all its wideness and
+spaciousness; "then you turned your backs," fleeing.
 
-**Meaning.** The verse recalls earlier victories and then confronts the believers with a moment when confidence in their numbers proved insufficient. Their distress in the spacious valley shows how fear can make even open ground feel constricted. **[Jalālayn] [Saʿdī] [Study Quran]**
+**Stories & occasions.** **[Ibn Kathīr]** The Battle of Ḥunayn came after the victory of Makkah, in
+Shawwāl of the eighth year. After the conquest, when matters had settled and most of its people had
+embraced Islam and he had set them free, news reached the Messenger of God ﷺ that Hawāzin were gathering
+their forces to fight him, under the command of Mālik b. ʿAwf al-Naṣrī, together with the whole of Thaqīf,
+the clans of Banū Jusham and Banū Saʿd b. Bakr, some of the Awzāʿ of Banū Hilāl, and some of Banū ʿAmr b.
+ʿĀmir and ʿAwf b. ʿĀmir; they brought their women, children, sheep and camels with them, besides their
+fighting men and supplies. The Messenger of God ﷺ marched to meet them with the army with which he had
+conquered Makkah — ten thousand of the Emigrants, the Helpers and the Arab tribes, together with two
+thousand of the *ṭulaqāʾ* (those freed at the conquest). The two armies met in the valley of Ḥunayn,
+between Makkah and Ṭāʾif. The battle began in the early morning: the Hawāzin forces, lying in ambush,
+descended into the valley as the Muslims entered it. The Muslims were struck suddenly; arrows rained on
+them and swords smote them; the Hawāzin commander ordered them to descend and attack as one body, and when
+they did, the Muslims retreated in haste, exactly as God described them. The Messenger of God ﷺ held his
+position, riding his mule al-Shahbāʾ, and urged it forward towards the enemy while his uncle al-ʿAbbās held
+its rein on the right and Abū Sufyān b. al-Ḥārith b. ʿAbd al-Muṭṭalib held the rein on the left, trying to
+hold it back from running faster towards the enemy. Meanwhile the Messenger of God ﷺ was calling out his
+name aloud: "O servants of God, come back to me! I am the Messenger of God!" and repeating, "I am the
+Prophet, no lie! I am the son of ʿAbd al-Muṭṭalib!" Between a hundred and eighty Companions remained with
+him — among them Abū Bakr, ʿUmar, al-ʿAbbās, ʿAlī, al-Faḍl b. al-ʿAbbās, Abū Sufyān b. al-Ḥārith, Ayman
+the son of Umm Ayman and Usāma b. Zayd. The Prophet ﷺ told his uncle al-ʿAbbās, whose voice was very loud,
+to cry out at the top of his voice: "O Companions of the *Samurah* tree!" — meaning the Emigrants and
+Helpers who pledged themselves under the tree at the Pledge of Ridwān — and "O Companions of Sūrat
+al-Baqarah!"; and those thus summoned began to answer, "Here we are! Here we are!" and the Muslims began
+returning towards the Messenger of God ﷺ; if a man's camel would not obey him, he would sling on his
+shield, dismount and run to the Messenger's side on foot. When a large crowd had gathered around him, he
+commanded them to fight sincerely, took a handful of dust and threw it in the faces of the disbelievers
+after supplicating, "O God, fulfil for me what You have promised me" — and the dust entered the eyes and
+mouths of all of them, distracting them from the fight, so that they turned back in defeat. The Muslims
+pursued them, killing and capturing, and the rest of the army rejoined their ranks and found many captured
+enemy soldiers tied up before the Messenger of God ﷺ. **[Study Quran]** The tribes of Hawāzin and Thaqīf,
+centred on Ṭāʾif to the south-east of Makkah, had gathered their forces in response to the Prophet's march
+from Madīnah, fearing that they, rather than the Quraysh, were the true target of his army; it is reported
+that Abū Sufyān, trying to persuade the Prophet not to march on Makkah after the breach of the Treaty of
+Ḥudaybiyah, suggested he march against Hawāzin instead, arguing that they were further in kinship and more
+hostile — while the Prophet for his part deliberately left his actual target ambiguous. After the conquest
+of Makkah, Hawāzin decided not to wait for a possible attack and set out to strike at Makkah; the Prophet
+marched north-east from Makkah towards the valley of Awṭās, where Hawāzin had mustered their army of some
+twenty thousand, his own army consisting of the Madinan and Makkan Muslims together with some of the Quraysh
+who had not yet embraced Islam but did not wish their city to fall to Hawāzin. The battle was joined in the
+valley of Ḥunayn, on the road between Makkah and Ṭāʾif, and the early stages went in Hawāzin's favour.
+**[Qurṭubī]** When news of the conquest of Makkah reached Hawāzin, Mālik b. ʿAwf al-Naṣrī gathered them —
+the overall command of the army being his — and he brought along with the unbelievers their wealth, their
+livestock, their women and their children, claiming that this would protect their lives and make their
+fighting more fierce. They were eight thousand according to al-Ḥasan and Mujāhid, though it is also said
+four thousand, of Hawāzin and Thaqīf — Mālik b. ʿAwf over Hawāzin and Kināna b. ʿAbd over Thaqīf — and
+they encamped at Awṭās. The Messenger of God ﷺ sent ʿAbdullāh b. Abī Ḥadrad al-Aslamī as a scout, who came
+back and told him what he had seen of them; so he resolved to march against them, and borrowed coats of
+mail from Ṣafwān b. Umayya b. Khalaf al-Jumaḥī — a hundred, it is said, or four hundred — and took a loan
+of thirty or forty thousand from Rabīʿa al-Makhzūmī, which he repaid on his return, saying to him, "May God
+bless you in your family and your wealth; the recompense of a loan is repayment and praise" (Ibn Mājah).
+The Messenger of God ﷺ went out with twelve thousand Muslims, ten thousand of whom had accompanied him…
 
-**Reflection.** Victory is not guaranteed by numerical advantage. The passage redirects the community from self-confidence to dependence on God; the following verse recounts the reassurance that came after the retreat. **[Ibn Kathīr] [Maʿārif]**
+**Belief.** **[Ibn Kathīr]** Ibn Jurayj reported from Mujāhid that this was the first verse of Barāʾah in
+which God reminds the believers how He favoured and blessed them by giving them victory in many battles
+alongside His Messenger ﷺ. God mentioned that victory comes from Him, by His aid and His decree, not
+because of numbers or adequate supplies, whether the triumphs be few or many. On the day of Ḥunayn the
+Muslims were proud of their great number, and it availed them nothing; they retreated and fled, and only a
+few remained with the Messenger of God ﷺ. Then God sent down His aid and support to His Messenger and to
+the believers who remained with him, so that they might know that victory is from God alone and through His
+aid, even when the victorious are few: many a small group has overcome a larger force by God's leave, and
+God is with those who are patient.
+
+**Language.** **[Ṭabarī]** Ḥunayn is a valley between Makkah and Ṭāʾif; it is declined as a masculine
+proper name, though it may be treated as indeclinable when made the name of the locality; and Ḥassān's
+line, "the day the heroes relied on one another," refers to the practice of *muwākalah* — each man leaving
+his comrade to himself in the press of battle and not helping him, which the Prophet ﷺ forbade, since it
+leads to weakness, mutual abandonment and the corruption of affairs. **[Jalālayn]** "The earth, for all
+its breadth" — *bi-mā rahubat*: the *mā* stands for the verbal noun, so understand it as "despite its
+breadth."
+
+**Reflection.** The day on which the Muslims were most numerous was the day on which they fled — the
+verse records it without softening, and the point is the one Ibn Kathīr draws: numbers, supplies and
+confidence avail nothing when the help of God is the thing at stake. The remedy was not a larger army but
+the handful of dust and the hundred-and-eighty who stayed: victory returned when reliance returned.
