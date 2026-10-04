@@ -667,3 +667,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The passage honors a spiritual inheritance as well as a family line: what binds the chosen is their worship, obedience, and sincerity before God **[Ṭabarī] [Saʿdī] [Study Quran]**.
 
 ---
+
+## 3:35
+
+*Remember when the wife of ʿImrān said, “My Lord, I dedicate to You what is in my womb, consecrated; accept it from me. You are the Hearing, the Knowing.”*
+
+**Meaning.** The wife of ʿImrān vows her unborn child to God’s service **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn] [Maʿārif] [Study Quran]**. In the religious law of the earlier prophets, a child could be dedicated to the Temple in Jerusalem, to worship and service, free from ordinary worldly responsibilities **[Qurṭubī] [Maʿārif] [Study Quran]**. **[Ṭabarī]** explains *muḥarraran* as held apart for God’s service and the sanctuary; **[Qurṭubī]** says it means wholly freed from worldly occupations. The mother asks God to accept her offering, knowing that He hears her prayer and knows the intention in her heart **[Ṭabarī] [Ibn Kathīr]**. **[Qurṭubī] [Ṭabarī]** note that the custom generally involved male children, so she expected a son who could serve in the sanctuary.
+
+**Context.** The preceding verse names the family of ʿImrān among those God chose; this verse begins the account of Mary and Jesus **[Maʿārif]**. **[Maʿārif]** says the mother’s vow reflects a former religious practice in which a child could be freed from worldly service and dedicated to God. **[Qurṭubī]** notes that this practice was permissible in the law of that community.
+
+**Stories & occasions.** **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Study Quran]** relate an extra-Qur’anic account that Mary’s mother was called Ḥannah (Hannah), had grown old without a child, and, after seeing a bird feed its young, prayed for a child and vowed it to the Temple. Her husband ʿImrān died while she was pregnant *(Isrāʾīliyyāt)*.
+
+**Rulings.** **[Qurṭubī]** cites Ibn al-ʿArabī’s clarification that the vow did not make the child her mother’s property: she dedicated the child’s service to God and relinquished her own claim to that service. **[Maʿārif]**, citing al-Jaṣṣāṣ, infers from the episode that a mother has a measure of guardianship over a child’s education and upbringing.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** notes that a woman served the Prophet’s mosque by sweeping it, citing the report in al-Bukhārī and Muslim; he brings it up while discussing whether women could serve a sanctuary *(digression)*. He also adds a Sufi anecdote about a mother who sends her son away to worship and study, then tells him on his return, “We left you to God; we will not take you back” *(digression)*.
+
+**Language.** *Muḥarraran* derives from “free”: here it means released from worldly duties and set apart wholly for worship **[Ṭabarī] [Qurṭubī]**. **[Study Quran]** understands *idh* (“when”) as linked to the preceding passage, with an implied command to “remember” or “mention” this event.
+
+**Cross-references.** The chosen family of ʿImrān: 3:33 **[Maʿārif]**. The mother’s words when Mary is born: 3:36 **[Ṭabarī] [Qurṭubī]**.
+
+**Reflection.** The vow is offered with sincerity, while its fulfillment is left to God’s wisdom. The next verse shows that the child’s being a girl did not prevent God from accepting and honoring her **[Qurṭubī] [Saʿdī] [Maʿārif]**.
+
+---
