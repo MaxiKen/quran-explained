@@ -567,7 +567,10 @@ When a gap is found, fill it with the middle-insert pattern (§5, Step 4) and co
   - `Chapter N: add N:V (seven sources)`
   - `Chapter N: add N:V-N:W (seven sources)`
   - fixes: descriptive, e.g. `Chapter 2: fix 2:50 attribution (Muslim, not Tabari)`
-- Keep the PR open and current; PR #79 tracks the work at handover.
+- Keep a PR open and current. **Post-merge note:** PR #79 was merged into `main` on 2026-10-04
+  (merge commit `fd42f04`); `main` now carries sūrahs 1–2, `HANDOVER.md`, `tools/sect.py` and the
+  seven corpora, and the legacy static app (`index.html`, `css/`, `js/`, `data/`, …) is retired from
+  `main`. Continue on your own session branch and open a **new** PR from it.
   `gh pr view 79` to check; open a new PR from the session branch if none exists.
 - Keep generated artifacts out of git beyond the two deliverables per chapter and `tools/`.
 
@@ -607,7 +610,8 @@ unwritten verse.
 - `2/al-baqarah.md` — **296,808 words; 286 entries; 2:1–2:286 complete**, QC'd (gap at 2:122–123
   filled; 2:50 attribution fixed). Last content commit: **`96d773a`** (pushed).
 - Continuation pack: **`HANDOVER.md`** (this file), **`tools/sect.py`**, and the SPEC pointer —
-  commit **`c2caf5f`** (pushed). HEAD at handover: **`c2caf5f`**.
+  commit **`c2caf5f`** (pushed). All of the above is **merged into `main`** (PR #79, merge commit
+  `fd42f04`, 2026-10-04).
 
 **Not started:** Sūrah 3 (Āl ʿImrān, 200 verses).
 
