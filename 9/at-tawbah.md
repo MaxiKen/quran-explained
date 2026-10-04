@@ -70,6 +70,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -3974,3 +3976,220 @@ al-Ṭabarī; the verse is dated to the expedition of Tabūk.
 verse refuses it without discussion: the object of the mockery fixes its seriousness, not the mood of the
 mocker. What they said in the saddle on a hard road was said about God, His signs and His Messenger, and no
 claim of lightness can relocate it.
+
+## 9:66
+
+*"Make no excuses. You disbelieved after having believed. If We pardon a group of you, We shall punish another
+group for having been guilty."*
+
+**Meaning.** **[Jalālayn]** "Make no excuses for that. You have disbelieved after believing" — that is, your
+disbelief has become manifest even as you have manifested belief. "If We forgive" — read in the passive
+*yuʿfa*, "it is forgiven," or in the first person plural *naʿfu*, "We forgive" — "a party of you" because of
+its sincerity and its repentance, as in the case of Jaḥsh b. Ḥumayyir, "We will chastise" — read either in
+the passive *tuʿadhdhab* or as *nuʿadhdhib* — "another party because they were sinners," persisting in
+hypocrisy and mockery. **[Ṭabarī]** "Say to these whose description I have given you: 'Make no excuses'
+falsely, saying 'we were only engaging in vain talk and playing'; 'you have disbelieved' — you have
+repudiated the truth by what you said concerning the Messenger of God ﷺ and the believers in him — 'after
+your believing,' after your affirming him and acknowledging him."
+
+**Rulings.** **[Saʿdī]** God makes plain that they have no excuse and that they lie in it: mocking God, His
+signs and His Messenger is unbelief that expels one from the religion, however the mocker intended it — for
+matters are judged by their realities, not by the claims of those who utter them. And the verse divides
+them: "If We pardon a group of you" — because of their sincerity and their turning back — "We shall punish
+another group," those who persist. **[Study Quran]** Some commentators interpret this verse to mean that
+mockery of the Prophet is tantamount to disbelief (R). Although some interpret the two groups as those who
+initiated the mockery and those who passively listened and laughed along with it (R), others interpret it to
+mean that one group would sincerely repent and the other would not.
+
+**Language.** **[Qurṭubī]** "Make no excuses" is said by way of rebuke — as though He were saying: do not do
+what does not benefit you; then He passed judgement on them of unbelief and of there being no excuse from
+the sin. *Iʿtadhara* here is in the sense of *aʿdhara*, i.e. to come to have an excuse — as Labīd said:
+"To the year's end, then the name of peace be upon you both; and whoever weeps a full year has excused
+himself." *Al-iʿtidhār* is the erasing of the trace of a grievance — one says of dwellings that have been
+effaced, "*iʿtadharat al-manāzilu*," and *al-ʿudhr* is also the mark left by effacement.
+
+**Reflection.** The door of repentance is not shut — one group is pardoned — but the door of excuse is: "make
+no excuses" comes first, because the plea "we were only joking" is not a description of the act but an
+attempt to rename it. What distinguishes the pardoned group is not a better explanation but sincerity.
+
+---
+
+## 9:67
+
+*"The hypocrites, men and women, are like unto one another, enjoining wrong, forbidding right, clutching their
+hands shut. They forgot God; so He forgot them. Truly the hypocrites are iniquitous."*
+
+**Meaning.** **[Jalālayn]** "The hypocrites, both men and women, are of one another" — that is, they
+resemble one another in religion, as pieces of one entity — "they enjoin indecency," unbelief and acts of
+disobedience, "and forbid decency," faith and obedience; "and they withhold their hands shut" from expending
+in obedience of God; "they have forgotten God" — they have abandoned obedience of Him — "so He has forgotten
+them" — He has deprived them of His grace. "Truly the hypocrites, they are the wicked." **[Ṭabarī]** "The
+hypocrites, men and women" — those who manifest faith to the believers with their tongues while concealing
+unbelief in God and His Messenger — "are of one another": they are one kind and their affair is one, in
+declaring faith outwardly and concealing unbelief. **[Saʿdī]** "The hypocrites, men and women, are like unto
+one another," because they share in hypocrisy and so share in taking one another as allies — and in this is
+the cutting off of the believers from alliance with them. Then God mentions the general description of the
+hypocrites, from which neither small nor great among them departs: "they enjoin wrong" — unbelief,
+immorality and disobedience — "and forbid right" — faith, noble character, righteous deeds and good
+manners — "and clutch their hands shut" from charity and the paths of kindness, so that their
+characteristic is miserliness. "They forgot God" — they do not remember Him except a little — "so He forgot
+them," cutting them off from His mercy: He does not grant them success in good, nor admit them to Paradise;
+rather He leaves them in the lowest depth of the Fire, abiding therein forever. "Truly the hypocrites are
+the iniquitous" — He has confined iniquity to them, because their iniquity is greater than the iniquity of
+others, the proof being that their punishment is more severe than the punishment of others, and that the
+believers have been afflicted by them living in their midst while guarding against them is hard.
+
+**Belief.** **[Maʿārif]** The expression "they withhold their hands" has been explained in *Tafsīr
+al-Qurṭubī* as the abandonment of *jihād* and the non-fulfilment of obligatory rights and duties. And
+"They forgot God, so He forgot them" — God is free of forgetfulness; the sense is that those people
+abandoned [His remembrance, so He abandoned them to themselves]. **[Ibn Kathīr]** God admonishes the
+hypocrites who, unlike the believers who enjoin righteousness and forbid evil, "enjoin evil and forbid the
+good, and they close their hands" from spending in God's cause. "They have forgotten God" — they have
+forgotten the remembrance of God — "so He has forgotten them," by treating them as if He has forgotten them;
+and as in "it will be said: 'This day We forget you, as you forgot the meeting of this Day'" (45:34).
+**[Study Quran]** *Are like unto one another* means "they are of their own kind," that is, they are not to be
+counted among the believers (Ṭ, Z). *Clutching their hands shut* refers to their reluctance to take part in
+fighting (Q), or to their reluctance to spend and give in the way of God.
+
+**Language.** **[Qurṭubī]** "The hypocrites, men and women" is an inchoative; "some of them" a second
+inchoative, though it may also be a substitute with "of others" as the predicate. The meaning of "some of
+them are of others" is that they are like a single thing in departing from the religion. Al-Zajjāj said: this
+is connected to "they swear by God that they are of you, while they are not of you" (9:56) — that is, they
+are not of the believers, but some of them are of others, resembling one another in enjoining wrong and
+forbidding right; and the clutching of their hands is an expression for abandoning *jihād*.
+
+**Reflection.** The verse describes a counter-community: its members recognise one another, command what the
+believers forbid and forbid what the believers command, and close their hands. And the cause named for the
+whole condition is forgetfulness — they forgot God, so they were left to themselves; the punishment is the
+sin continued.
+
+---
+
+## 9:68
+
+*"Verily God has promised the hypocrites, men and women, and the disbelievers the Fire of Hell, to abide
+therein. It shall suffice them. God curses them, and theirs shall be a lasting punishment."*
+
+**Meaning.** **[Jalālayn]** "God has promised the hypocrites, both men and women, and the disbelievers the
+fire of Hell, to abide therein; it will suffice them" as a requital and a punishment. "And God has cursed
+them" — He has removed them from His mercy — "and theirs will be a lasting," perpetual, "chastisement."
+**[Ṭabarī]** "God has promised the hypocrites, men and women, and the disbelievers in God, the fire of
+Hell" — that He will roast them all in it — "to abide therein": remaining in it forever, neither living nor
+dying. "It shall suffice them": it is sufficient for them as punishment and requital for their unbelief in
+God. "And God has cursed them": God has removed them and cast them far from [His mercy]. **[Saʿdī]** God has
+gathered the hypocrites and the disbelievers together in the fire of Hell, in the curse and in abiding
+therein, because they were united in this world upon unbelief, upon enmity to God and His Messenger, and
+upon denying His signs.
+
+**Language.** **[Qurṭubī]** One says "*waʿada Allāhu*" with *waʿd* for promising good, and *waʿīd* for
+threatening with evil. "*Khālidīna*" is in the accusative as a circumstantial qualifier, with the governing
+factor elided — i.e. they shall roast therein, abiding. "*Hiya ḥasbuhum*" is an inchoative and its
+predicate: it is sufficiency and full payment for the requital of their deeds. *Al-laʿn* is distance, i.e.
+from the mercy of God. "And theirs shall be a lasting punishment" — *wāṣib*, perpetual.
+
+**Belief.** **[Study Quran]** Cf. 4:55 — "And Hell suffices as a blazing flame!" — and 58:8: "Hell suffices
+them, burning therein. What an evil journey's end!" Commentators often note that in the Qurʾān the curse of
+God upon persons refers to their being distanced from God; see 2:161.
+
+**Reflection.** The hypocrites are here named together with the disbelievers and given the same promise —
+which is the point: the outward profession that separated them in this world does not separate them in the
+next. "It shall suffice them" is a grim economy: the Fire is exactly proportionate, nothing more and nothing
+less than what their deeds require.
+
+---
+
+## 9:69
+
+*"[Remember] those who were before you. They were mightier than you in power, and greater in wealth and
+children. So they enjoyed their share, and you enjoyed your share, just as those before you enjoyed their
+share. And you have engaged [in vain talk] as they engaged [in vain talk]. It is they whose deeds came to
+naught in this world and in the Hereafter, and it is they who are the losers."*
+
+**Meaning.** **[Jalālayn]** "You, O hypocrites, are like those before you who were far mightier than you and
+more abundant in wealth and children. They enjoyed their share" — their lot in this world. "So you enjoy, O
+hypocrites, your share, just as those before you enjoyed their share, and you indulge in vain talk" — in
+falsehood and defamation of the Prophet ﷺ — "just as they indulged in vain talk. Those — their works have
+become invalid in this world and in the Hereafter; and those — they indeed are the losers." **[Ṭabarī]**
+"Say, O Muḥammad, to these hypocrites who said 'we were only engaging in vain talk and playing': was it at
+God and the signs of His Book and His Messenger that you were mocking? — you are like those before you among
+the nations who did as you did, and God destroyed them and hastened for them disgrace in this world."
+**[Ibn Kathīr]** *Bi-khalāqihim* — "their portion" — means their religion, according to al-Ḥasan al-Baṣrī.
+"And you indulged in play and pastime as they indulged" — you indulged in lies and falsehood. "Such are they
+whose deeds are in vain" — their deeds are annulled, and they will acquire no rewards for them because they
+are invalid — "in this world and in the Hereafter. Such are they who are the losers."
+
+**Stories & occasions.** **[Saʿdī]** God warns the hypocrites lest there befall them what befell those
+before them among the denying nations — the people of Noah, ʿĀd, Thamūd, the people of Abraham, the
+inhabitants of Midyan and the overthrown cities, i.e. the towns of the people of Lot: "their messengers
+came to them with clear proofs," with the clear, manifest truth that makes plain the realities of things,
+and they denied them, and there befell them what God has recounted to us — and your deeds are like their
+deeds. "You enjoyed your share" — your portion of this world, taking it by way of pleasure and appetite,
+turning away from what is intended by it, and using it to assist you in disobeying God; your concern and
+your will did not extend beyond the favours you were granted, as did those before you. "And you engaged [in
+vain talk] as they engaged" — you plunged into falsehood and lies and argued with falsehood in order to
+refute the truth with it. Such were their deeds and their knowledge: enjoyment of the share, and plunging
+into falsehood; so they deserved of punishment and destruction what those before them who acted as they
+acted deserved. As for the believers — though they too enjoy their portion and what they have been granted of
+this world, it is by way of using it to obey God; and their knowledge is the knowledge of the messengers:
+arriving at certainty in all the high objects of pursuit, and arguing with the truth in order to refute
+falsehood with it.
+
+**Belief.** **[Maʿārif]** According to one exegetical explanation this is addressed to the hypocrites;
+according to another the address is to the Muslims. It means: you too are like the people before you — they
+went for worldly enjoyments and forgot all about the life to come, and the result was that they sank into
+all sorts of [destruction]. **[Study Quran]** On the subject of Muslims imitating the practices of the
+religious communities of the past, [see 4:44].
+
+**Language.** **[Qurṭubī]** Al-Zajjāj said the *kāf* of *ka-alladhīna* is in the accusative position — i.e.
+God promised the disbelievers the fire of Hell with a promise like that with which He promised those before
+them. It is also said: the meaning is "you have acted as did those before you in enjoining wrong and
+forbidding right," with the annexed term elided. And it is said: the meaning is "you are like those before
+you," in which case the *kāf* is in the nominative as the predicate of an elided inchoative.
+
+**Reflection.** Superiority in strength, wealth and children is precisely what the verse strips of value:
+those before had more of all three and perished. The parallel drawn is not of power but of behaviour —
+enjoyment of the share, and plunging into false talk — and that is what makes their deeds void.
+
+---
+
+## 9:70
+
+*"Has not the account come to them of those who were before them, the people of Noah, ʿĀd, and Thamūd, and the
+people of Abraham, the inhabitants of Midian, and the overthrown cities? Their messengers brought them clear
+proofs. God wronged them not, but themselves did they wrong."*
+
+**Meaning.** **[Jalālayn]** "Has not the tidings" — the tale — "of those before them reached them: the folk
+of Noah, and ʿĀd" — the folk of Hūd — "and Thamūd" — the folk of Ṣāliḥ — "and the folk of Abraham, and the
+dwellers of Midian" — the folk of Shuʿayb — "and the Deviant cities?" — the cities of the folk of Lot,
+meaning its inhabitants. "Their messengers brought them clear proofs," with miracles, "but they denied them
+and so were destroyed. God would never have wronged them" by punishing them for no sin on their part, "but
+they wronged themselves" by committing sin. **[Ṭabarī]** "Has there not come to these hypocrites, who
+conceal unbelief in God and forbid faith in Him and in His Messenger, the tidings of those before them" —
+the report of the nations who were before them, when they disobeyed Our messengers and opposed Our command:
+what befell them of Our punishment? **[Qurṭubī]** "Has not the tidings come to them" — the news — "of those
+before them"; the *alif* carries the sense of affirmation and warning, i.e. have they not heard of Our
+destroying the disbelievers before? "*The people of Noah and ʿĀd and Thamūd*" is a substitutive for "those";
+"the people of Abraham" means Nimrod b. Kanʿān and his people; "the inhabitants of Midian" — Midian is the
+name of the town in which Shuʿayb was, and they were destroyed by the punishment of the day of the
+shadow/cloud; "the overthrown cities" — it is said that what is meant is the people of Lot, because their
+land was overturned with them, i.e. turned upside down, as Qatāda said.
+
+**Stories & occasions.** **[Ibn Kathīr]** God advises the hypocrites who reject the messengers: "Has not the
+story reached them of those before them?" — have you not learned the end of the nations before you who
+rejected the messengers? "The people of Noah" — and the flood that drowned the entire population of the
+earth except those who believed in God's servant and messenger Noah, peace be upon him; "and ʿĀd" — who
+perished by the barren wind when they rejected Hūd, peace be upon him; "and Thamūd" — who were overtaken by
+the Cry when they denied Ṣāliḥ, peace be upon him.
+
+**Belief.** **[Ṭabarī]** "God wronged them not" by what He did to them, "but they wronged themselves" by
+their opposition to God and their belying of His messengers. **[Saʿdī]** "God wronged them not" when there
+befell them of His punishment what befell them; "but themselves did they wrong," in that they dared to
+disobey Him, disobeyed their messengers and followed the command of every obstinate tyrant. **[Study
+Quran]** *Overthrown cities* (cf. 53:53; 69:9) is generally thought to refer to cities that were destroyed —
+literally "turned upside down" — although some interpret *overthrown* to mean their change in state from
+good [to evil].
+
+**Reflection.** The verse asks a question that expects assent: these accounts were known. The point of
+remembering them is not information but warning — each of these peoples was stronger than the mockers of
+Tabūk, and each was destroyed only after clear proofs had come to them, which is why the closing clause can
+say that God did not wrong them.
