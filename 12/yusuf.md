@@ -5595,3 +5595,1475 @@ Rising, and the people who imitate it do not have Yūsufʾs knowledge, and kings
 praised here; prudence is legislated.
 
 ---
+
+
+## 12:51
+
+*"He said, ʿWhat is your case, O women, when you solicited Yūsuf from himself?ʾ They said, ʿGod be praised! We
+know of no evil in him.ʾ The wife of the ʿAzīz said, ʿNow the truth has become clear: it was I who solicited him
+from himself, and he is among the truthful.ʾ"*
+
+**Meaning.** **[Ṭabarī]** In this speech there is something left out, which the evidence of what is mentioned
+made unnecessary: "So the messenger returned to the king from Yūsuf with his message, and the king summoned the
+women who had cut their hands and the wife of the ʿAzīz, and said to them, ʿWhat is your case when you solicited
+Yūsuf from himself?ʾ" — so Ibn Isḥāq said: when the messenger came to the king from Yūsuf with what he had sent
+him with, he gathered the women and said, "What is your case when you solicited Yūsuf from himself?" "What is
+your case" means: what was your affair, what was your state, when you solicited Yūsuf from himself. So they
+answered him and said, "God be praised, we know of no evil in him." The wife of the ʿAzīz said, "Now the truth has
+become clear": now the truth has become plain and been uncovered and appeared — "it was I who solicited him from
+himself" — and Yūsuf is among the truthful in his saying, "It was she who solicited me from myself." The
+interpreters said the like of what we have said concerning "now the truth has become clear": Ibn ʿAbbās, Mujāhid,
+Qatādah, al-Suddī and Ibn Zayd all said, it became clear (*tabayyana*). Ibn Isḥāq said: Rāʾīl, the wife of Iṭfīr
+al-ʿAzīz, said, "Now the truth has become clear" — now the truth has emerged and become plain — "it was I who
+solicited him from himself, and he is among the truthful," in what Yūsuf had said of what she had claimed against
+him. And al-Suddī said: the king said, "Bring them to me!" and said, "What is your case when you solicited Yūsuf
+from himself?" They said, "God be praised, we know of no evil in him." But the wife of the ʿAzīz informed us that
+she had solicited him from himself, and that he had gone in with her to the room and untied his trousers, then
+fastened them again afterwards, and she does not know what occurred to him. So the wife of the ʿAzīz said, "Now
+the truth has become clear." *[al-Suddīʾs report preserves the wifeʾs original accusation; the rest of the
+tradition rejects it — see Belief.]* And the root of *ḥaṣḥaṣa* is *ḥaṣṣa*, but it was said *ḥaṣḥaṣa* as it was said
+"kubkibū" for "kabbū" (26:94), and *kafkafa* for *kaffa*, and *dharzhara* for *dharra*. The root of *ḥaṣṣ* is
+the uprooting of a thing; one says *ḥaṣṣa shaʿrahu* when he cuts his hair off at the root. What is intended by
+"the truth has become clear" in this place is: falsehood and lying have gone and been cut off, and the truth has
+become plain and appeared. **[Qurṭubī]** *(the material for this verse is given at 12:50 in the same continuous
+block)* Ibn ʿAbbās said: the king sent for the women and for the wife of the ʿAzīz — and the ʿAzīz had died — so
+he summoned them and said, "What is your case," that is, what is your state, "when you solicited Yūsuf from
+himself"; and that is because each one of them had spoken to Yūsuf on behalf of herself, as has passed, or he
+intended the saying of each of them, "you have wronged the wife of the ʿAzīz," which was a solicitation from them.
+"They said, God be praised" — that is, God be sought for refuge. "We know of no evil in him" — that is, no
+fornication. "The wife of the ʿAzīz said, now the truth has become clear": when she saw their acknowledgement of
+Yūsufʾs innocence and feared that they would testify against her if she denied it, she too acknowledged, and that
+was a kindness from God toward Yūsuf. And "the truth has become clear" means it became plain and appeared; its
+root is *ḥaṣṣa*, and it was said *ḥaṣḥaṣa*, as *kubkibū* for *kababū* and *kafkafa* for *kaffa*, said al-Zajjāj
+and others. The root of *ḥaṣṣ* is the uprooting of a thing; one says *ḥaṣṣa shaʿrahu* when he cut it off at the
+root, as Abū al-Qays b. al-Aslat said, "the helmet has stripped bare (*ḥaṣṣat*) my head, so that I taste no sleep
+but snatching"; and *sanatun ḥaṣṣāʾ* is a bare year with no good in it, as Jarīr said, "there takes refuge with
+you, without reproach or stinginess, the one driven by the bare year and the wolf." So the meaning of "the truth
+has become clear" is: it has been cut off from falsehood, by its appearance and its establishment. And it is said
+it is derived from *ḥiṣṣah*, so the meaning is: the portion of the truth has been distinguished from the portion
+of falsehood. Mujāhid and Qatādah said its root is taken from their saying *ḥaṣṣa shaʿrahu*, when he cut it off
+at the root, and from it is *ḥiṣṣah* of land when it is cut off from it; and *ḥiṣḥiṣ*, with a *kasrah*, is the
+dust and the stones, as al-Jawharī mentioned. "It was I who solicited him from himself, and he is among the
+truthful": and this saying of hers — though he had not asked about it — is a manifestation of her repentance and
+an establishment of Yūsufʾs truthfulness and honour, because the acknowledgement of one who acknowledges against
+himself is stronger than testimony against him; so God combined for Yūsuf, for the manifestation of his
+truthfulness, testimony and acknowledgement, so that no suspicion would mingle in a soul and no doubt mix with
+it. And the *nūn* was doubled in *khaṭbukunna* and *rāwadttunna* because it stands in the place of the *mīm* and
+the *wāw* in the masculine. **[Ibn Kathīr]** God said, that the king asked, "What was your affair when you did
+seek to seduce Yūsuf?" The king gathered those women who cut their hands, while being hosted at the house of the
+wife of the ʿAzīz. He asked them all, even though he was directing his speech at the wife of his minister, the
+ʿAzīz, in particular. He asked the women who cut their hands, "What was your affair," what was your story with
+regards to "when you did seek to seduce Yūsuf," on the day of the banquet. "The women said: God forbid! No evil
+know we against him!" The women answered the king, "God forbid that Yūsuf be guilty of this, for by God, we
+never knew him to do evil." This is when the wife of the ʿAzīz said, "Now the truth has *ḥashasa*" — or the
+truth is manifest to all, according to Ibn ʿAbbās, Mujāhid and others; *ḥashasa* also means became clear and
+plain — "it was I who sought to seduce him, and he is surely of the truthful," when he said, "It was she that
+sought to seduce me" (12:26). **[Jalālayn]** He said, "What was your business, women, when you solicited Joseph?"
+— did you find on his part any inclination towards you? "God preserve us!" they said. "We know of no evil in
+him." The Court Officerʾs wife said, "Now the truth is out, now it has become clear; it was I who attempted to
+seduce him, and he is indeed of the truthful" in his saying, "It was she who attempted to seduce me." Joseph was
+then informed of this, and he said… **[Saʿdī]** So the king brought them and said, "What is your case" — that is,
+your state — "when you solicited Yūsuf from himself": did you see from him anything suspicious? So they cleared
+him and said, "God be praised, we know of no evil in him" — that is, neither little nor much. So at that the
+ground on which the accusation was built was removed, and nothing remained but what was with the wife of the
+ʿAzīz. So the wife of the ʿAzīz said, "Now the truth has become clear" — that is, it has been purified and made
+plain, after the evil and suspicion we used to attach to him which necessitated Yūsufʾs imprisonment — "it was I
+who solicited him from himself, and he is among the truthful": in his sayings and in his innocence. **[Maʿārif]**
+The king called for the women who had cut their hands and asked them, "What was your case, O women, when you
+seduced Yūsuf?" This question of the king tells us that he, on his part, had become certain that the party at
+fault was not Sayyidna Yūsuf. He took those women to be at fault; therefore he said, "when you seduced Yūsuf."
+Sayyidna Yūsuf had not named the wife of the governor, the ʿAzīz of Egypt, as part of the investigations, but
+that is how things happen when God decides to honour someone: people would rise and speak up, come forward and
+tell the truth, without let or hindrance or demur. So it was on this occasion — the wife of the governor found
+the courage; she herself proclaimed the truth. **[Study Quran]** Confronted by the king, the women said they did
+not know of any evil against him, which is to say that they absolved Joseph of any blame. As for Zulaykhā, it is
+at this point that her love for Joseph becomes fully real. Before, she had blamed him for a sin he did not
+commit, because her own desire was more important than his well-being (see 12:25). Later, she admitted Josephʾs
+innocence, but only to a small group of women as a way of absolving herself of scorn in their eyes (see 12:32).
+Some commentators understand that at this juncture in the story her love for Joseph had grown so strong that it
+had surpassed her own self-interest, and so she spoke the truth about him. The narrative indicates that there
+was a progression in the degrees of love in Zulaykhāʾs own soul and therefore in her spiritual journey. Her
+initial attraction to Joseph was purely sensual, but by this point in the narrative she has overcome her lower
+self, and her infatuation with Josephʾs physical beauty has now been transformed into a spiritual love in which
+she is able to see Josephʾs inward beauty, much like Potiphar did when he first saw him in the marketplace (see
+12:21–22). The catalyst here seems to have been Josephʾs inner virtues, marked by his quality of truthfulness,
+which Zulaykhā recognized when she referred to him as among the truthful.
+
+**Language.** *Khaṭb* means affair or state **[Ṭabarī]**; **[Jalālayn]** glosses the kingʾs question with its
+implied second half — "did you find on his part any inclination towards you?" — which is why the question is
+framed as *idh rāwadtunna*, "when you solicited," presupposing the womenʾs agency. The doubled *nūn* in
+*khaṭbukunna* and *rāwadttunna* stands in the place of the *mīm* and *wāw* of the masculine plural
+**[Qurṭubī]**. *Ḥaṣḥaṣa* is a reduplicated intensive of *ḥaṣṣa*, whose root sense is to cut off at the root or
+to uproot — *ḥaṣṣa shaʿrahu*, *sanatun ḥaṣṣāʾ*, *ḥiṣṣah* — so "the truth has become clear" means it has been
+cut off from falsehood by its appearance and establishment **[Qurṭubī] [Ṭabarī]**, both citing the same
+parallels (*kubkibū*/*kababū*, *kafkafa*/*kaffa*, *dharzhara*/*dharra*) and the same two poets (Abū al-Qays b.
+al-Aslat, Jarīr). An alternative derivation is from *ḥiṣṣah*: the portion of the truth has been distinguished
+from the portion of falsehood **[Qurṭubī]**.
+
+**Belief.** Two points. First, **[Qurṭubī]** draws an evidentiary principle from the structure of the scene: God
+combined for Yūsuf, in the manifestation of his truthfulness, both *testimony* (the womenʾs "we know of no evil
+in him") and *acknowledgement* (the wifeʾs "it was I who solicited him"), because the acknowledgement of one who
+acknowledges against himself is stronger than testimony against him — so that no suspicion would mingle in a
+soul and no doubt mix with it. A public vindication resting on a single kind of proof leaves a residue; resting
+on both leaves none. Second, **[Study Quran]** reads the wifeʾs confession as the term of a spiritual
+progression: her attraction began as purely sensual, at 12:25 she blamed him for a sin he did not commit because
+her desire mattered more to her than his well-being, at 12:32 she admitted his innocence only privately to a
+small group of women in order to escape their scorn, and here she confesses publicly with nothing to gain —
+which indicates that her love has surpassed her self-interest and that her infatuation with his physical beauty
+has been transformed into a love that sees his inward beauty, whose catalyst was his truthfulness.
+
+**Stories & occasions.** *[Isrāʾīliyyāt]* The names and details supplied by the tradition here are of the
+narrative kind: **[Ṭabarī]** through Ibn Isḥāq names the wife Rāʾīl and the husband Iṭfīr; al-Suddīʾs report has
+her say that he "went in with her to the room and untied his trousers, then fastened them again afterwards, and
+she does not know what occurred to him" — a residue of the original slander which the verse itself contradicts,
+and which **[Qurṭubī]** explicitly rejects at 12:53 on the ground that it would require clearing Yūsuf of
+untying the waist-wrap. **[Qurṭubī]** adds the detail that the ʿAzīz had died by the time of the inquiry, which
+is what makes Yūsufʾs avoidance of naming her an act of delicacy rather than of fear.
+
+**Cross-references.** 12:26 ("it was she who solicited me from myself"); 12:29 (the imprisonment); 12:31–32
+(the banquet and the womenʾs cutting); 12:25 (the false accusation); 12:21–22 (Potipharʾs recognition of his
+inward worth); 12:50 (the request that produced this scene); 12:52–53 (the words that follow).
+
+**Reflection.** The question the king asks is grammatically loaded and morally decisive: "What is your case
+*when you solicited* Yūsuf from himself?" He does not ask whether Yūsuf solicited them. **[Maʿārif]** makes the
+point explicitly — the wording shows that the king had already become certain that the party at fault was not
+Yūsuf. This is the fruit of the question Yūsuf asked at 12:50: he did not demand an exoneration, he asked for an
+inquiry, and the inquiry has already reframed the case before it begins. And the confession that follows is the
+verseʾs real surprise. The women exonerate him — "we know of no evil in him" — and that is what he asked for.
+But the one who actually matters is silent until they have spoken, and then says more than anyone required: "it
+was I who solicited him from himself, and he is among the truthful." **[Saʿdī]** notes the mechanics of it: with
+the womenʾs testimony, the ground on which the accusation was built was removed, and nothing remained but what
+was with the wife of the ʿAzīz; and **[Qurṭubī]** supplies the motive — she saw their acknowledgement and feared
+they would testify against her if she denied. But **[Study Quran]**ʾs reading goes further and is worth holding
+alongside: she had already confessed privately at 12:32, and confessing now, publicly, before the king, cost her
+everything and gained her nothing. Whether repentance or fear, the effect is the same one **[Qurṭubī]**
+identifies: God joined testimony to acknowledgement so that no doubt would remain in any soul.
+
+---
+
+## 12:52
+
+*"ʿThat is so that he may know that I did not betray him in his absence, and that God does not guide the guile
+of the treacherous.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God means by His words "that is so that he may know that I did not betray him in his
+absence": this action that I did — of returning the kingʾs messenger to him, of my leaving his summons and not
+going out to him, and of my asking him to ask the women who cut their hands about their case when they cut their
+hands — I only did it so that he might know that I did not betray him in his wife "in his absence": I did not
+commit an indecency with her during his absence from me. And if he did not commit that while he was absent, he
+is more likely to be far from committing it while he is present. So Ibn Isḥāq said: Yūsuf says, "that is so that
+he may know" — Iṭfīr, his master — "that I did not betray him in his absence": that I would not go behind his
+back to his wife where he does not know. And Mujāhid said, Yūsuf says it; and Mujāhid through Shibl, Yūsuf says
+it: I did not betray my master; and Qatādah, this is Yūsufʾs saying; and Abū Ṣāliḥ, it is Yūsuf — he did not
+betray the ʿAzīz in his wife; and al-Ḍaḥḥāk, it is Yūsuf saying: I did not betray the king in his absence. And
+His words "and that God does not guide the guile of the treacherous": I did that so that my master might know
+that I did not betray him in his absence, and that God does not set right the doing of one who betrays trusts,
+nor direct their deeds in their betrayal of them. And His words "that is so that he may know that I did not
+betray him in his absence" are connected to the wife of the ʿAzīzʾs words, "it was I who solicited him from
+himself, and he is among the truthful," because of the hearersʾ knowledge of its meaning — like the connection of
+Godʾs words "and thus do they act" (27:34) to the womanʾs words "and they make the mighty of its people abased"
+(27:34). *[i.e. the speaker changes without being re-named, because the hearer knows.]* **[Qurṭubī]** It is
+disputed who said it. It was said it is from the saying of the wife of the ʿAzīz, and is connected to her saying
+"now the truth has become clear" — that is, I have acknowledged the truth so that he may know that I did not
+betray him in his absence, that is, by lying about him, and that I did not mention him with evil while he was
+absent; rather I spoke the truth and departed from betrayal. Then she said, "and I do not acquit myself" —
+rather I solicited him. And upon this she was acknowledging the Maker, which is why she said, "surely my Lord is
+forgiving, merciful." And it was said it is from the saying of Yūsuf: Yūsuf said, that affair which I did, of
+returning the messenger, was "so that" the ʿAzīz "may know that I did not betray him in his absence" — said
+al-Ḥasan, Qatādah and others. The meaning of "in his absence" is while he is absent. And Yūsuf only said that in
+the presence of the king, and said "so that he may know" in the third person out of reverence for the king. And
+it was said he said it when the messenger returned to him while he was still in the prison: Ibn ʿAbbās said, the
+messenger came to Yūsuf with the news and Jibrīl with him, conversing with him, and Yūsuf said, "that is so that
+he may know that I did not betray him in his absence, and that God does not guide the guile of the treacherous"
+— that is, I did not betray my master in his absence. Jibrīl said to him, "O Yūsuf! And not when you untied the
+waist-wrap and sat the sitting of a man with a woman?!" So Yūsuf said, "and I do not acquit myself," the verse.
+*[weak]* And al-Suddī said: the wife of the ʿAzīz only said to him, "and not when you untied your trousers, O
+Yūsuf?!" So Yūsuf said, "and I do not acquit myself." And it was said "that is so that he may know" is from the
+saying of the ʿAzīz: that is, that Yūsuf may know that I did not betray him in his absence, and that I was not
+heedless of rewarding him for his trustworthiness. "And that God does not guide the guile of the treacherous"
+means that God does not guide the treacherous by their guile. And al-Qushayrī said: the apparent is that "that is
+so that he may know" and "and I do not acquit myself" are from the saying of Yūsuf. I (al-Qurṭubī) say: if it
+admits of being from the saying of the woman, then saying so is more appropriate, so that we may clear Yūsuf of
+untying the waist-wrap and the trousers; and if we suppose it to be from the saying of Yūsuf, then it will be of
+what occurred to his heart, according to the preferred statement we have advanced concerning His words "and he
+desired her" (12:24). Abū Bakr al-Anbārī said: some people say that "that is so that he may know that I did not
+betray him in his absence," up to His words "surely my Lord is forgiving, merciful," is the speech of the wife of
+the ʿAzīz, because it is connected to her saying "it was I who solicited him from himself, and he is among the
+truthful"; and this is the position of those who deny the *hamm* from Yūsuf, so whoever builds upon their
+statement says: from "the wife of the ʿAzīz said" to His words "surely my Lord is forgiving, merciful" is
+continuous speech, one part connected to another, with no complete pause in it truly. We do not choose this
+statement and we do not go to it. And al-Ḥasan said: when Yūsuf said "that is so that he may know that I did not
+betray him in his absence," the prophet of God disliked that he should have commended himself, so he said "and I
+do not acquit myself," because commending the self is blameworthy — God said, "do not commend yourselves" (53:32).
+And it was said it is from the saying of the ʿAzīz: that is, I do not acquit myself of evil suspicion concerning
+Yūsuf. **[Ibn Kathīr]** "In order that he may know that I betrayed him not in his absence": she said, "I admit
+this against myself so that my husband knows that I did not betray him in his absence and that adultery did not
+occur. I tried to seduce this young man and he refused, and I am admitting this so that he knows I am
+innocent." "And verily, God guides not the plot of the betrayers." **[Jalālayn]** "That plea of innocence is so
+that he — the Court Officer — may know I did not betray him with regard to his family in his absence" —
+*bi-l-ghayb* is a circumstantial qualifier — "and that truly God does not guide to success the guile of the
+treacherous." **[Saʿdī]** "That": the acknowledgement I have made, that I solicited Yūsuf, was "so that he may
+know that I did not betray him in his absence." It admits that her meaning by that was her husband: that is, so
+that he may know, when I acknowledged that I solicited Yūsuf, that I did not betray him in his absence — that
+is, nothing occurred from me except the mere solicitation, and I did not corrupt his bed for him. And it admits
+that the meaning is: so that Yūsuf may know, when I acknowledged that I was the one who solicited him and that
+he is truthful, that I did not betray him during his absence from me. "And that God does not guide the guile of
+the treacherous": for every traitor, his betrayal and his scheming must return upon himself, and his affair must
+become clear. **[Maʿārif]** In the second of the two verses cited above, Sayyidna Yūsuf has himself pointed out
+two considerations implied in the way he acted and in the option of delaying his release. The first
+consideration was "that he may know that I did not betray him in his absence": I delayed my release so that the
+ʿAzīz of Egypt comes to know for sure that I did not betray him in any way during his absence. He was so
+concerned about making the ʿAzīz of Egypt become assured of his innocence because he thought it would be
+terrible if the ʿAzīz of Egypt continued to harbour doubts in his heart against him and suffered more from them,
+being unable to say much after the royal honour had been conferred on him. If so, he would be displeased with
+the honour given to him, and far more painful would be the silence he would have to maintain. Since he had been
+his master when he lived with him, his pain was too much to bear for Sayyidna Yūsuf, intrinsically gentle as he
+was. Then it was equally obvious that once the ʿAzīz of Egypt came to believe in his innocence, people would stop
+talking by themselves. The second consideration he mentions is "and that God does not lead the guile of the
+betrayers to success": he asked for investigations to be made in order that people may know that God does not
+lead the guile of betrayers to success. **[Study Quran]** The speaker here is Joseph, who seeks to absolve
+himself of any blame before Potiphar. Alternately, the speaker here could be Zulaykhā.
+
+**Language.** *Bi-l-ghayb* is a circumstantial qualifier meaning "while he is absent" **[Jalālayn] [Qurṭubī]**;
+**[Ṭabarī]** draws the *a fortiori* inference from it — if he did not do it in his absence, he is more likely to
+be far from doing it in his presence. The third-person "so that he may know" is explained by **[Qurṭubī]** as
+reverence for the king: Yūsuf said it in the kingʾs presence but referred to the ʿAzīz in the third person. The
+syntax of the shift of speaker is the same as at 27:34, where "and thus do they act" is Godʾs words attached to
+the Queen of Shebaʾs without re-naming, because the hearer knows **[Ṭabarī]**.
+
+**Belief.** The verse states a general principle inside a particular defence: *God does not guide the guile of
+the treacherous.* **[Saʿdī]** unfolds it: every traitorʾs betrayal and scheming must return upon himself, and
+his affair must become clear. **[Maʿārif]** reads it as the second of Yūsufʾs two stated reasons for demanding an
+inquiry — the first personal (that his former master be relieved of doubt), the second public (that people may
+know that God does not let treachery succeed). And the exegetical dispute over the speaker is not a trivial
+question, because it determines whether 12:52–53 is a prophetʾs self-vindication or a sinnerʾs confession.
+**[Qurṭubī]** states his preference with an explicit moral reason: if it admits of being the womanʾs words, then
+saying so is more appropriate, so that we may clear Yūsuf of untying the waist-wrap and the trousers — the
+reports of Jibrīlʾs or the womanʾs rebuke at 12:53 presuppose a slip that **[Qurṭubī]** does not wish to concede.
+**[Saʿdī]** reaches the same conclusion by a different route and states it as his verdict at 12:53: "this is the
+correct view, that it is from the saying of the wife of the ʿAzīz and not from the saying of Yūsuf, because the
+context is in her speech, and Yūsuf at that time was in the prison and had not attended." **[Ibn Kathīr]**
+agrees, calling it the most viable and suitable understanding for the continuity of the story and the meanings of
+Arabic speech, noting that al-Māwardī mentioned it in his tafsīr and that Ibn Taymiyyah preferred it and wrote
+about it in detail in a separate work; whereas al-Ṭabarī and Ibn Abī Ḥātim present only the view that it is
+Yūsufʾs.
+
+**Cross-references.** 12:24 ("and he desired her" — the preferred reading referred to); 53:32 ("do not commend
+yourselves"); 4:49 ("have you not seen those who claim sanctity for themselves?"); 27:34 (the syntactic
+parallel); 12:50 (the delay whose reasons this verse gives); 12:53 (the qualification that follows).
+
+**Reflection.** What makes this verse remarkable on **[Maʿārif]**ʾs reading is that Yūsuf is explaining a
+decision nobody asked him to explain. He could have walked out of the prison at 12:50 and been honoured, and
+nobody would have blamed him. Instead he waited, and now he gives two reasons — and both of them are about other
+peopleʾs peace of mind. The first is that his old master should not have to sit silently through a public honour
+while privately believing him guilty; **[Maʿārif]** presses the point: the pain would have been the silence, and
+Yūsuf, "intrinsically gentle," could not bear to cause it. The second is that the public should learn something
+about how God deals with treachery. So the delay was not self-defence. It was pastoral. And the sentence that
+carries the general truth — "God does not guide the guile of the treacherous" — is proved in the narrative by the
+wife of the ʿAzīz herself, whose scheme at 12:25 succeeded for years and whose own mouth has just undone it in
+front of the king.
+
+---
+
+## 12:53
+
+*"ʿAnd I do not acquit myself: the soul is a commander of evil, except what my Lord has mercy upon. Surely my
+Lord is forgiving, merciful.ʾ"*
+
+**Meaning.** **[Ṭabarī]** Yūsuf says: I do not acquit myself of error and slipping, so as to pronounce myself
+pure — "the soul is a commander of evil": the souls of the servants command them with what they desire, even if
+their desire is in other than what Godʾs good pleasure lies — "except what my Lord has mercy upon": except that
+my Lord have mercy on whomever He wills of His creation, and deliver him from following its desire and obeying
+it in the evil it commands him — "surely my Lord is forgiving, merciful." And *mā* in "except what my Lord has
+mercy upon" is in the position of accusative, because it is an exception disconnected from what precedes it,
+like His words "and they shall not be delivered except by a mercy from Us" (36:43–44), in the sense of "except
+that they be shown mercy"; and *an*, when it is in the sense of a verbal noun, resembles *mā*. And "surely my
+Lord is forgiving, merciful" means that God is one who pardons the sins of whoever repents of his sins, by
+leaving off punishing him for them and exposing him by them, and is merciful toward him after his repentance, in
+not punishing him for them. And it is mentioned that Yūsuf said this saying because, when Yūsuf said "that is so
+that he may know that I did not betray him in his absence," an angel among the angels said, "And not the day you
+desired her!" So Yūsuf then said, "And I do not acquit myself; the soul is a commander of evil." And it was said
+that the one who said to Yūsuf, "And not the day you desired her, and untied your trousers!", was the wife of
+the ʿAzīz, and Yūsuf answered her with this answer. And it was said that Yūsuf said it as a beginning, from
+himself. Those who said so: Ibn ʿAbbās — when the king gathered the women and asked them, "did you solicit Yūsuf
+from himself?" and they said, "God be praised, we know of no evil in him," and the wife of the ʿAzīz said, "now
+the truth has become clear," the verse — Yūsuf said, "that is so that he may know that I did not betray him in
+his absence," and Jibrīl said to him, "and not the day you desired what you desired!" So he said, "and I do not
+acquit myself; the soul is a commander of evil." And through ʿIkrimah: "when Pharaoh gathered the women… so he
+nudged him, Jibrīl, and said, ʿand not when you desired her!ʾ"; Saʿīd b. Jubayr — "Jibrīl, or an angel, said,
+ʿand not the day you desired what you desired?ʾ"; Ibn Abī al-Hudhayl — "Jibrīl said to him, ʿand not the day you
+desired what you desired?ʾ"; al-Ḥasan through Thābit — "Jibrīl said to him, ʿO Yūsuf, remember your desire!ʾ";
+Abū Ṣāliḥ — "Jibrīl said to him, ʿand not when you untied your trousers?ʾ"; Qatādah — "the angel who was with
+Yūsuf said to him, ʿremember what you desiredʾ," and through Maʿmar, "do you remember your desire?"; and
+ʿIkrimah — "the king said it, and nudged him in the side: ʿO Yūsuf, and not when you desired?ʾ" Those who said
+the one who said it to him was the woman: al-Suddī — Yūsuf said it when he was brought, so that the ʿAzīz might
+know that he had not betrayed him in his absence in his wife, and that God does not guide the guile of the
+treacherous; so the wife of the ʿAzīz said, "O Yūsuf, and not the day you untied your trousers?" So Yūsuf said,
+"and I do not acquit myself; the soul is a commander of evil." Those who said Yūsuf said it to himself, without
+any reminder from one who reminded him, but remembering what had preceded from him in that: Ibn ʿAbbās — "that is
+so that he may know that I did not betray him in his absence, and that God does not guide the guile of the
+treacherous" is Yūsufʾs saying to his king, when God showed him his excuse, and he remembered that he had desired
+her and she had desired him; so Yūsuf said, "and I do not acquit myself; the soul is a commander of evil," the
+verse. *[weak]* **[Qurṭubī]** "And I do not acquit myself": it was said it is from the saying of the woman. And
+al-Qushayrī said: the apparent is that "that is so that he may know" and "and I do not acquit myself" are from
+the saying of Yūsuf. I say: if it admits of being from the saying of the woman, saying so is more appropriate, so
+that we may clear Yūsuf of untying the waist-wrap and the trousers; and if we suppose it to be from the saying of
+Yūsuf, then it will be of what occurred to his heart, according to the preferred statement we have advanced
+concerning His words "and he desired her." And al-Ḥasan said: when Yūsuf said "that is so that he may know that
+I did not betray him in his absence," the prophet of God disliked that he should have commended himself, so he
+said "and I do not acquit myself," because commending the self is blameworthy — God said, "do not commend
+yourselves" (53:32), and we have explained it in Sūrat al-Nisāʾ. And it was said it is from the saying of the
+ʿAzīz: that is, I do not acquit myself of evil suspicion concerning Yūsuf. "The soul is a commander of evil"
+means desiring it. "Except what my Lord has mercy upon" is in the position of accusative by exception, and *mā*
+is in the sense of *man*, that is, except him whom my Lord has mercy upon and protects; and *mā* is in the sense
+of *man* frequently — God said, "so marry what is agreeable to you of women" (4:3). And it is a disconnected
+exception, because it is the exception of the one shown mercy by protection from the soul that commands evil. And
+in the report from the Prophet ﷺ: "What do you say of a companion of yours whom, if you honour him and feed him
+and clothe him, he brings you to the worst end, and if you dishonour him and leave him naked and hungry, he
+brings you to the best end?" They said, "O Messenger of God, that is the worst companion on earth!" He said, "By
+Him in whose hand is my soul, it is your souls, which are between your sides." **[Ibn Kathīr]** "And I free not
+myself from the blame. Verily, the self is inclined to evil, except when my Lord bestows His mercy upon whom He
+wills. Verily, my Lord is Oft-Forgiving, Most Merciful." She said, "I do not exonerate myself from blame,
+because the soul wishes and lusts, and this is what made me seduce him," for "verily, the human self is inclined
+to evil, except when my Lord bestows His mercy upon whom He wills," whom God the Exalted wills to grant immunity;
+"verily, my Lord is Oft-Forgiving, Most Merciful." This is the most viable and suitable understanding for the
+continuity of the story and the meanings of Arabic speech; al-Māwardī mentioned this in his tafsīr, and in
+support of it, it was also preferred by Imām Abū al-ʿAbbās Ibn Taymiyyah, who wrote about it in detail in a
+separate work. It was said Yūsuf is the one who said, "in order that he may know that I betrayed him not," with
+his wife, "in his absence," until the end of the verse. He said, "I sent back the emissary, so that the king
+would investigate my innocence and the ʿAzīz be certain that I betrayed him not with his wife in his absence,
+and verily God guides not the plot of the betrayers." This is the only explanation presented by Ibn Jarīr
+al-Ṭabarī and Ibn Abī Ḥātim, but the first view is stronger and more obvious, because it is a continuation of
+what the wife of the ʿAzīz said in the presence of the king. Yūsuf was not present at all during this time, for
+he was released later on and brought to the king by his order. **[Jalālayn]** "Yet I do not exculpate my own soul
+of slipping into error; verily the soul as such is ever inciting to evil, except that whereon" — meaning the
+person upon whom — "my Lord has mercy, and so protects from sin. Truly my Lord is Forgiving, Merciful."
+**[Saʿdī]** Then, since there was in this speech a kind of commending of herself and that no sin had proceeded
+from her in the affair of Yūsuf, she retracted and said, "And I do not acquit myself" — that is, of the
+solicitation, the desire, the intense eagerness and the scheming in that. "The soul is a commander of evil" —
+that is, much given to commanding its possessor with evil, that is, the indecency and the rest of the sins; for
+it is Satanʾs mount, and through it he enters upon the human being. "Except what my Lord has mercy upon": so He
+delivers him from his soul that commands, until his soul becomes at peace with its Lord, submissive to the
+caller of guidance, resisting the caller of ruin; and that is not from the soul, but from Godʾs favour and His
+mercy toward His servant. "Surely my Lord is forgiving, merciful": He is forgiving toward whoever ventures upon
+sins and acts of disobedience if he repents and returns, merciful in accepting his repentance and granting him
+success in righteous deeds. And this is the correct view: that this is from the saying of the wife of the ʿAzīz
+and not from the saying of Yūsuf, because the context is in her speech, and Yūsuf at that time was in the prison
+and had not attended. **[Maʿārif]** Stated in the previous verse was Sayyidna Yūsufʾs statement that he did not
+favour his release from the prison before he had been exonerated through a full investigation of the blame
+imputed to him, so that the governor and the king of Egypt could arrive at full certainty that he was not guilty
+of any betrayal and that the blame was totally unfounded. In this statement the reference to his freedom from
+blame and his purity of conduct was being made on the basis of an inevitable necessity, which outwardly gave the
+impression of a pronouncement of personal integrity and purity — and that was something not welcome in the sight
+of God, as is proved from the words of the Holy Qurʾān: "Have you not seen those who claim sanctity for
+themselves? In fact, God sanctifies whomsoever He wills" (4:49); and again, "Do not claim sanctity for
+yourselves; He knows best who it is that guards against evil" (53:32). It was for this reason that Sayyidna Yūsuf
+has, in the present verse, not allowed his plea of innocence in this matter to remain unqualified. As evident, he
+has stressed upon the reality that by saying what he is saying he has no intention to claim any piety or purity
+for himself. The truth of the matter is that the human self, by nature, keeps pulling everyone to what is bad —
+except those who are blessed with mercy from the Lord, who would make them immuno-pure against the evil
+instigations of their self. They are the blessed prophets. The Qurʾān calls such immunised selves *nafs
+muṭmaʾinnah*, the self or soul at peace (89:27). Thus the substance of what Sayyidna Yūsuf said was: in a trial
+of such magnitude, my remaining safe from sin was no personal achievement of mine; in fact this was a result of
+the mercy and help of God alone. Had He not removed evil desires from my heart, I would have become like the rest
+of human beings who would be prone to surrender before their desires. According to some narrations, Sayyidna
+Yūsuf said this sentence because a kind of "thought" did, after all, emerge in his heart — though limited to a
+non-voluntary scruple, but an unwelcome slip anyway, considering the elegant station of prophethood with which he
+was blessed. Therefore he expressly confessed that he did not totally absolve his inner self from blame.
+**[Study Quran]** Although some have argued that the speaker here is Zulaykhā, the majority of commentators see
+these words as Josephʾs, and thus as a continuation of his statement at 12:52. It is said that Joseph uttered "I
+absolve not my own soul" out of humility, and because he wanted to draw attention to the fact that it was God who
+protected him from falling into sin (see 12:24c). "Surely the soul commands to evil" plays a foundational role
+in the Muslim understanding of moral psychology and the structure of the human soul. Islamic sources identify
+three levels of the soul on the basis of Qurʾānic references. The first level is the soul that commands to evil
+(*al-nafs al-ammārah bi-l-sūʾ*, based on the present verse): this is the soul that calls a person to submit to
+his or her base desires, and to those thoughts and actions that lead to forgetfulness of God and go against His
+Command. Next is the blaming soul (*al-nafs al-lawwāmah*, 75:2), which reproaches a person for his or her evil
+states and forgetfulness of God, while actively attempting to effect change within that person for the better.
+Finally, the highest kind of soul is the soul at peace (*al-nafs al-muṭmaʾinnah*, 89:27), which has conquered the
+lower self and resides in peace in the remembrance of God, returning to God content (*rāḍiyah*) and contenting
+(*marḍiyyah*).
+
+**Language.** *Ammārah* is the intensive of *āmirah* — much given to commanding **[Saʿdī]**; **[Qurṭubī]**
+glosses it as desiring (*mushtahiyah*). *Illā mā raḥima rabbī* is a disconnected exception (*istithnāʾ
+munqaṭiʿ*) with *mā* in the accusative, and **[Ṭabarī]** explains it by analogy with 36:43–44 ("and they shall
+not be delivered except by a mercy from Us," in the sense of "except that they be shown mercy"), noting that *an*
+as a verbal noun resembles *mā*; **[Qurṭubī]** reads *mā* in the sense of *man*, citing 4:3 ("marry what is
+agreeable to you of women"); **[Jalālayn]** glosses it as "the person upon whom my Lord has mercy, and so
+protects from sin." **[Saʿdī]** supplies the metaphor: the soul is Satanʾs mount (*markab al-shayṭān*), and
+through it he enters upon the human being.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites the Prophetic parable of the companion: "What do you say of a companion
+of yours whom, if you honour him and feed him and clothe him, he brings you to the worst end, and if you
+dishonour him and leave him naked and hungry, he brings you to the best end?" The Companions said, "That is the
+worst companion on earth!" He said, "By Him in whose hand is my soul, it is your souls, which are between your
+sides." *[transmitted without a chain here]* **[Maʿārif]** adds another: "Your greatest enemy is your own self,
+which not only disgraces you by getting you involved in evil deeds, but also makes you run into all sorts of
+troubles."
+
+**Belief.** The verse is the Qurʾānʾs foundational text on moral psychology, and the two readings produce two
+different doctrines. On the wifeʾs reading (**[Saʿdī]**ʾs verdict, **[Ibn Kathīr]**ʾs preference, supported by
+al-Māwardī and Ibn Taymiyyah): a woman who solicited, slandered, and imprisoned an innocent man, at the moment of
+her public vindication of him, refuses to accept the credit — "I do not acquit myself" — and confesses that the
+soul commands evil, and that whatever good there is in her is not from the soul but from Godʾs favour and mercy.
+**[Saʿdī]** draws the full arc: except that God have mercy on a person and deliver him from his commanding soul,
+until his soul becomes at peace with its Lord, submissive to the caller of guidance and resisting the caller of
+ruin — and that is not from the soul. On Yūsufʾs reading (**[Ṭabarī]**, Ibn Abī Ḥātim, and per **[Study Quran]**
+the majority): a prophet who has just said "I did not betray him in his absence" immediately qualifies it,
+because — as al-Ḥasan puts it in **[Qurṭubī]** — he disliked that he should have commended himself, and
+self-commendation is blameworthy (53:32). **[Maʿārif]** develops this into the doctrine that the plea of
+innocence at 12:52 was made under inevitable necessity and outwardly looked like a claim of personal purity, so
+12:53 removes the qualification: his safety in a trial of such magnitude was no personal achievement but the
+mercy and help of God alone. And the three states of the soul **[Maʿārif]** and **[Study Quran]** both derive
+from it: *ammārah*, which incites to evil when left to itself; *lawwāmah*, which hates evil deeds, repents and
+seeks forgiveness — the state of the righteous of this community at large; and *muṭmaʾinnah*, reached when one
+strives against the self until the very urge to turn to evil no longer remains. Righteous people can arrive at
+this state through spiritual striving, though there is no certainty it will last; the prophets are granted it
+without prior striving, and it remains constant in them. And the two closing names map onto the transition:
+*ghafūr* indicates that when the commanding soul is ashamed of its doings, repents and becomes the blaming soul,
+God will forgive; *raḥīm* indicates that being granted a soul at peace is itself nothing but Godʾs mercy.
+
+**Cross-references.** 75:1–2 (the blaming soul); 89:27–28 (the soul at peace); 4:49 and 53:32 (against
+self-commendation); 4:3 (*mā* in the sense of *man*); 36:43–44 (the disconnected exception); 12:24 ("and he
+desired her," and the *burhān*); 12:52 (the plea that this verse qualifies).
+
+**Reflection.** The single sentence "I do not acquit myself" is the only place in the entire narrative where a
+character who has just been vindicated refuses the vindication as a personal achievement. Whoever said it, the
+logic is the same and it is worth stating plainly: the difference between a person who nearly fell and a person
+who did not fall is not a difference in their souls. **[Maʿārif]**ʾs formulation is exact — had God not removed
+evil desires from my heart, I would have become like the rest of human beings who are prone to surrender before
+their desires. That is the anti-Pelagian core of Islamic moral psychology, and it is why the verse closes not
+with a claim but with two names: forgiving, merciful. And the traditionʾs anxiety about the alternative reading
+is instructive. **[Qurṭubī]** prefers the wifeʾs reading explicitly *in order to clear Yūsuf* of untying the
+waist-wrap, and the reports of an angelʾs rebuke — "and not the day you desired her?" — are precisely the
+material that reading is designed to neutralise. Whether the sentence is a sinnerʾs confession or a prophetʾs
+humility, it says the same thing about the soul: left to itself, it commands evil; held by mercy, it does not.
+
+---
+
+
+## 12:54
+
+*"And the king said, ʿBring him to me, that I may make him exclusively mine.ʾ And when he had spoken with him,
+he said, ʿYou are today, with us, established and trusted.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: "And the king said" — meaning the greatest king of Egypt, who according to
+what Ibn Isḥāq mentioned was al-Walīd b. al-Rayyān — when Yūsufʾs excuse became clear to him and he knew his
+trustworthiness and his knowledge, he said to his companions, "Bring him to me, that I may make him exclusively
+mine": that I may make him one of my own intimates, apart from others. And "when he had spoken with him": when
+the king had spoken with Yūsuf and knew his innocence and the greatness of his trustworthiness, he said to him,
+"You, O Yūsuf, are today with us established and trusted" — that is, enabled in respect of what you want and
+whatever need presents itself to you from us, for the height of your place and rank with us; and trusted in
+respect of whatever you are entrusted with. Al-Suddī said: when the king found an excuse for him he said, "Bring
+him to me, that I may make him exclusively mine." And Qatādah said of "that I may make him exclusively mine," he
+says: I shall take him for myself. And Ibn Abī al-Hudhayl said: the king said, "Bring him to me, that I may make
+him exclusively mine" — he said to him: I want to make you exclusively mine, except that I am too proud for you
+to eat with me. Yūsuf said, "I am more entitled to be too proud: I am the son of Isḥāq" — or "I am the son of
+Ismāʿīl" — Abū Jaʿfar is in doubt, and in his book it is "the son of Isḥāq, Godʾs sacrifice, son of Ibrāhīm,
+Godʾs intimate friend." And in another version: "I am the son of Ibrāhīm, Godʾs intimate friend, son of Ismāʿīl,
+Godʾs sacrifice." And ʿAbdullāh b. Abī al-Hudhayl said: the ʿAzīz said to Yūsuf, "There is nothing I would not
+love you to share with me, except that I love you not to share my wife with me, and that my slave not eat with
+me!" He said, "Are you too proud for me to eat with you? Then I am more entitled to be too proud than you: I am
+the son of Ibrāhīm, Godʾs intimate friend, and the son of Isḥāq the sacrifice, and the son of Yaʿqūb whose eyes
+turned white from grief." And Abū Maysarah said: when the ʿAzīz saw Yūsufʾs cleverness, his acuteness and his
+grace, he called him and used to dine and sup with him, apart from his servants. So when there was between him
+and the woman what there was, she said to him, "You bring this one close! Order him to dine with the servants."
+He said to him, "Go and dine with the servants." Yūsuf said to his face, "You are reluctant to eat with me? By
+God, I am Yūsuf son of Yaʿqūb, the prophet of God, son of Isḥāq, Godʾs sacrifice, son of Ibrāhīm, Godʾs intimate
+friend." **[Qurṭubī]** When his innocence of what he had been accused of was established for the king, and his
+trustworthiness was verified in the story, and he also understood his patience and his fortitude, his rank became
+great with him and he was certain of the goodness of his qualities; so he said, "Bring him to me, that I may make
+him exclusively mine." So look at the kingʾs saying first — when his knowledge was verified — "bring him to me"
+only; and then, when Yūsuf did what he did the second time, he said, "Bring him to me, that I may make him
+exclusively mine." And it is narrated from Wahb b. Munabbih: when Yūsuf was summoned, he stood at the door and
+said, "My Lord suffices me against His creation; mighty is His protection, sublime is His praise, and there is no
+god but Him." Then he went in, and when the king saw him he came down from his couch and fell prostrate before
+him; then the king seated him with him on his couch and said, "You are today with us established and trusted."
+Yūsuf said to him, "Set me over the storehouses of the land; I am a keeper of the storehouses, knowing of the
+modes of their administration." *[weak — the prostration of the king]* And it was said: a keeper of the reckoning,
+knowing of the languages. And in the report: "God have mercy on my brother Yūsuf; had he not said, ʿSet me over
+the storehouses of the land,ʾ He would have employed him at once, but He delayed that by a year." And it was said
+his enthronement was delayed by a year because he did not say "if God wills." And it has been said in this story:
+when Yūsuf entered upon the king he said, "O God, I ask You by Your good, from his good, and I seek refuge in You
+from his evil and the evil of other than him." Then he greeted the king in Arabic, and he said, "What is this
+language?" He said, "This is the language of my uncle Ismāʿīl." Then he prayed for him in Hebrew, and he said,
+"What is this language?" He said, "The language of my fathers Ibrāhīm, Isḥāq and Yaʿqūb." And the king spoke
+seventy languages, and whenever the king spoke in a language Yūsuf answered him in that language, so the king was
+delighted by his affair; and Yūsuf at that time was thirty years old. Then he seated him on his couch and said,
+"I would love to hear my dream from you." Yūsuf said, "Yes, O king. You saw seven fat cows, white-blazed,
+beautiful; the Nile revealed them to you, and they came up upon you from its bank, their udders flowing with
+milk. And while you were looking at them and marvelling at their beauty, the Nile dried up and its water
+vanished and its bed appeared, and out of its mud and mire came seven lean cows, dishevelled and dusty, with
+shrunken bellies, having no udders and no teats, but having fangs and molars, and paws like the paws of dogs and
+snouts like the snouts of beasts of prey; and they mixed with the fat ones and tore them as beasts of prey tear,
+and ate their flesh, ripped their skins, crushed their bones and gnawed their marrow. And while you were looking
+and marvelling at how they overcame them, though they were emaciated, and no fatness or increase appeared in them
+after eating them — then there were seven green ears of corn, fresh, tender, full of grain and water, and beside
+them seven dry ones with no water and no greenness, in one planting-place, their roots in the moist earth and the
+water. And while you were saying to yourself, ʿWhat is this? These are green and fruit-bearing and those are
+black and dry, and the planting-place is one and their roots are in the waterʾ — a wind blew and scattered the
+leaves of the dry black ones upon the green fruit-bearing ones, and fire caught in them and burnt them, and they
+became black and dusty, and you awoke terrified, O king." The king said, "By God, the affair of this dream,
+though it is a wonder, is not more wondrous than what I have heard from you! So what do you see concerning my
+dream, O truthful one?" Yūsuf said, "I see that you should gather food, and sow a great sowing in these fertile
+years; for were you to sow upon a stone or a clod it would grow, and God would show increase and blessing in it.
+Then store the crop in its stalk and its ear, building great granaries for it, so that the stalk and the ear are
+fodder for the beasts and the grain for the people; and command the people, and they shall set aside a fifth of
+their food into your granaries. That will suffice you, of the food you have gathered, for the people of Egypt and
+those around them, and the creation will come to you from the regions to provision themselves from you, and there
+will gather with you of treasures what has not gathered for anyone before you." The king said, "And who will
+undertake the management of these affairs for me? Were I to gather all the people of Egypt they would not be able
+to do it, and they would not be trustworthy in it." So Yūsuf said at that, "Set me over the storehouses of the
+land" — that is, over the storehouses of your land. **[Ibn Kathīr]** God states that when he became aware of
+Yūsufʾs innocence, the king said, "Bring him to me that I may attach him to my person": that I may make him among
+my close aides and associates. "Then, when he spoke to him" — when the king spoke to Yūsuf and further recognized
+his virtues, great ability, brilliance, good conduct and perfect mannerism — he said to him, "Verily, this day,
+you are with us high in rank and fully trusted." The king said to Yūsuf, "You have assumed an exalted status with
+us and are indeed fully trusted." **[Jalālayn]** And the king said, "Bring him to me, that I may use him for
+myself," that I may make him mine exclusively, with none to share him with me. The messenger came to him, to
+Joseph, and said, "Respond to the king!" And so he got up and bade farewell to his fellow-prisoners and prayed
+for them. He then washed himself, put on some good clothes and entered upon him. And when he had spoken with him
+he said to him, "Indeed you are on this day in our presence established and trustworthy," a person of status
+entrusted over our affair. So what do you think we should do? He said, "Gather food stocks and sow abundantly in
+these fertile years, then store the corn in its ears. People from far and wide will come to you and ask you to
+supply them with provisions." He, the king, said, "Whom can I delegate this task to?" **[Saʿdī]** So when the
+king and the people were certain of Yūsufʾs complete innocence, the king sent to him and said, "Bring him to me,
+that I may make him exclusively mine" — that is, that I may make him a special intimate of mine and one drawn
+near to me. So they brought him to him honoured and respected. "And when he had spoken with him": his speech
+delighted him and his standing with him increased, so he said to him, "You are today with us" — that is, in our
+estimation — "established and trusted": enabled, and trusted with secrets. **[Maʿārif]** When the king of Egypt
+investigated the event, as requested by Sayyidna Yūsuf, Zulaykhā and all other women concerned with it confessed
+to the truth. The king then ordered that Sayyidna Yūsuf be brought to him so that he could appoint him as his
+personal adviser. According to the royal order, Sayyidna Yūsuf was brought with full honours from the prison to
+the royal court. When he got an idea of his full potential by talking to him, the king said: "Today you are with
+us firmly accommodated and trusted." Imām al-Baghawī reports: when the emissary of the king arrived again at the
+prison to convey the invitation of the king to Sayyidna Yūsuf, he prayed for all inmates of the prison, took a
+ritual bath and donned a new dress. When he arrived at the royal court, the supplication he made was: "For me
+sufficient is my Lord against my world, and for me sufficient is my Lord against the whole creation. Mighty is he
+who comes under His protection, and most sublime is His praise; and there is no deity worthy of worship other
+than Him." When he reached inside the court he turned to God again, prayed again in the same spirit, and greeted
+the court in Arabic, saying "peace be upon you and the mercy of God"; for the king the prayer he made was in
+Hebrew. The king, though he knew many languages, was not aware of Arabic and Hebrew; it was Sayyidna Yūsuf who
+told him that the greeting was in Arabic and the supplication in Hebrew. It also appears in a narration that the
+king talked to Sayyidna Yūsuf in many different languages and Sayyidna Yūsuf replied to him in the language
+spoken by him, adding Arabic and Hebrew as two additional languages which the king did not know. This episode
+greatly increased respect for Sayyidna Yūsuf in the heart of the king. After that the king wished to hear him
+give the interpretation of his dream directly before him. In response, Sayyidna Yūsuf first described before him
+particular details of his dream which he himself had not told anyone about, and then told him the interpretation
+as he had wished. The king was astonished — though not so much about the interpretation given; what made him
+really wonder was how he could have found out all those details. **[Study Quran]** After having summoned Joseph
+and spoken with him, the king realizes his intelligence, wisdom and virtue; he then expresses a desire to reserve
+Josephʾs abilities exclusively for himself, and eventually sets him over the storehouses of the land (cf. Genesis
+41:37–44).
+
+**Language.** *Astakhliṣhu li-nafsī* is jussive because it is the answer to the imperative, and **[Qurṭubī]**
+draws a chronological inference from that: this shows that "that is so that he may know that I did not betray him
+in his absence" (12:52) occurred in the prison; or it admits that it occurred before the king and that he then
+said, in another assembly, "bring him to me" as a confirmation. *Makīn* means enabled, one whose word is
+executive; *amīn* means one against whom treachery is not feared **[Qurṭubī]**. *Astayq* is glossed by Qatādah as
+"I shall take him for myself," and by **[Ṭabarī]** as "I shall make him one of my intimates, apart from others."
+**[Saʿdī]** glosses *amīn* as trusted with secrets, which is a sharper sense than the general "trustworthy."
+
+**Stories & occasions.** *[Isrāʾīliyyāt]* The material here is dense and almost entirely of the narrative
+tradition. (a) The seventy languages of the king, and Yūsuf answering in each, plus Arabic and Hebrew which the
+king did not know **[Qurṭubī] [Maʿārif]** (the latter citing al-Baghawī). (b) Yūsufʾs age of thirty at the time
+**[Qurṭubī]**. (c) The king descending from his couch and prostrating to him **[Qurṭubī]**, from Wahb — *[weak;
+prostration to other than God was permissible in earlier laws but the report is not established]*. (d) The
+elaborate re-narration of the dream, in which the Nile dries up and the lean cows emerge from its mud with fangs
+and paws like dogsʾ, and a wind scatters the dry ears onto the green and fire catches in them **[Qurṭubī]**,
+**[Maʿārif]** — the detail being that Yūsuf first described particulars of the dream the king had told no one,
+which is what astonished him. (e) The two reports about the ʿAzīzʾs table: that he was too proud for Yūsuf to eat
+with him, and Yūsufʾs answer naming his three forefathers **[Ṭabarī]**, in four chains, one of them placing the
+exchange before the incident with the woman and one after it. (f) The duʿāʾ at the prison door — "my Lord
+suffices me against His creation" **[Qurṭubī]** from Wahb, **[Maʿārif]** from al-Baghawī; and **[Jalālayn]** adds
+that he bade farewell to his fellow-prisoners and prayed for them, washed, and put on good clothes. (g) The
+report "God have mercy on my brother Yūsuf; had he not said ʿSet me over the storehouses of the landʾ, He would
+have employed him at once, but He delayed that by a year," with the alternative explanation that the delay was
+because he did not say "if God wills" **[Qurṭubī]**; and Muqātilʾs transmission "had Yūsuf said ʿI am a keeper,
+knowing, if God wills,ʾ he would have been given the kingdom at once" **[Qurṭubī]** at 12:56.
+
+**Cross-references.** 12:50 (the first "bring him to me"); 12:52 (the words whose timing this verse fixes);
+12:55 (the request that follows); 28:76–82 (Qārūn, the contrast of power without trust); Genesis 41:37–44
+**[Study Quran]**.
+
+**Reflection.** **[Qurṭubī]**ʾs single observation is the key to the verse: look at the kingʾs saying first, when
+he verified his knowledge — "bring him to me" and nothing more; then, when Yūsuf did what he did the second time,
+"bring him to me, that I may make him exclusively mine." The interval between the two summonses is the inquiry of
+12:50–51. Knowledge alone earned Yūsuf an audience; integrity earned him intimacy. And the kingʾs sentence
+"you are today with us established and trusted" separates the two qualities that make a minister: *makīn*, able
+to get things done, and *amīn*, not to be feared with what he is given. The verse does not say he was appointed.
+It says he was trusted — and Yūsufʾs response at 12:55 is to ask for the job, which he could only do because the
+trust had already been declared. **[Maʿārif]**ʾs detail that the kingʾs astonishment was not at the
+interpretation but at the fact that Yūsuf knew details of the dream he had told no one is the narrative
+counterpart: the king had already been shown that this man had access to something he could not verify, and then
+he was shown that he could be trusted with it.
+
+---
+
+## 12:55
+
+*"He said, ʿSet me over the storehouses of the land; I am a keeper, knowing.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsuf said to the king, "Set me over the storehouses of your land." It is the
+plural of *khizānah*; and the alif and lām entered "the land" in place of the annexation, as the poet said,
+"and their minds are not absent." And this from Yūsuf is a request to the king that he appoint him over the food
+of his country and its revenue, and the management of his countryʾs affairs; and the king did that for him, as
+has reached me. Ibn Zayd said of "set me over the storehouses of the land": Pharaoh had many storehouses other
+than food, and he handed over his whole authority to him, and made the judgment his, so that his affair and his
+judgment were executive. And Shaybah al-Ḍabbī said: over the guarding of the food. *[weak chain]* And His words
+"I am a keeper, knowing" — the interpreters differed over its meaning. Some said it means: I am a keeper of what
+you entrust to me, knowing of what you appoint me over. Those who said so: Ibn Isḥāq — I am a keeper of what you
+entrust to me, knowing of what you appoint me over; and he said, "I have done it"; Qatādah — a keeper of what I
+am put over, knowing of its affair; and Shaybah al-Ḍabbī — I am a keeper of what you entrust to me, knowing of the
+years of famine. *[weak chain]* Others said: I am a keeper of the reckoning, knowing of the languages — so said
+al-Ashjaʿī. Abū Jaʿfar says: the more appropriate of the two statements to be correct is the statement of those
+who said its meaning is "I am a keeper of what you entrust to me, knowing of what you appoint me over," because
+that follows upon his saying "set me over the storehouses of the land," and his asking the king to appoint him
+over it. **[Qurṭubī]** Saʿīd b. Manṣūr said: I heard Mālik b. Anas say, "Egypt is the storehouse of the earth;
+have you not heard His saying, ʿSet me over the storehouses of the earthʾ — that is, over guarding it?" — with the
+governed noun deleted. "I am a keeper of what I am put over, knowing of its affair." And in the tafsīr: I am a
+reckoner and a scribe, and he was the first to write on papyrus leaves. And it was said: a keeper for the
+estimation of the staple foods, knowing of the years of famines. Juwaybir narrated from al-Ḍaḥḥāk from Ibn
+ʿAbbās that the Messenger of God ﷺ said, "God have mercy on my brother Yūsuf; had he not said, ʿSet me over the
+storehouses of the land,ʾ He would have employed him at once, but He delayed that from him by a year." Ibn ʿAbbās
+said: when the year had passed from the day he asked for the command, the king summoned him, crowned him, girded
+him with his sword, and placed for him a couch of gold studded with pearl and ruby, and spread over it a garment
+of brocade; the length of the couch was thirty cubits and its width ten cubits, with thirty mattresses and sixty
+cushions upon it. Then he commanded him to go out, and he went out crowned, his colour like snow and his face like
+the moon, the observer seeing his own face in the clarity of the colour of his; and he sat upon the couch and the
+kings became subject to him, and the king went into his house with his wives and delegated to him the affair of
+Egypt, and removed Qiṭfīr from what he had been over and put Yūsuf in his place. *[Isrāʾīliyyāt]* Ibn Zayd said:
+Pharaoh, the king of Egypt, had many storehouses other than food, so he handed his whole authority over to him;
+and Qiṭfīr perished in those nights, so the king married Yūsuf to Rāʿīl, the wife of the ʿAzīz, and when he went
+in to her he said, "Is this not better than what you wanted?" She said, "O truthful one, do not blame me; I was a
+woman beautiful and delicate as you see, and my husband did not go in to women, and you were as God made you in
+your beauty and form, so my soul overcame me." And Yūsuf found her a virgin and consummated the marriage, and she
+bore him two sons: Ifrāthīm b. Yūsuf and Manshā b. Yūsuf. And Wahb b. Munabbih said: his marriage to Zuleikhā,
+the wife of the ʿAzīz, was only between the two visits of the brothers; and that Zuleikhāʾs husband died while
+Yūsuf was in the prison, and her wealth went, and her sight failed from weeping over Yūsuf, so that she became
+one who begged from people, some pitying her and some not; and Yūsuf used to ride once a week in a procession of
+about a hundred thousand of the great men of his people. It was said to her, "If you were to expose yourself to
+him, perhaps he would give you something"; then it was said to her, "Do not do it, for perhaps he will remember
+some of what there was from you of solicitation and imprisonment and harm you." She said, "I know my belovedʾs
+character better than you." Then she left him until he rode in his procession, and she stood and called out at the
+top of her voice: "Glory be to the One who has made kings slaves by their disobedience, and made slaves kings by
+their obedience!" Yūsuf said, "What is this?" So they brought her to him, and she said, "I am the one who used to
+serve you upon the uppers of my feet, and arrange your forelock with my hand, and you were raised in my house, and
+I honoured your lodging; but what occurred of my ignorance and my insolence occurred, so I tasted the evil
+consequence of my affair: my wealth went, my support was shaken, my humiliation was long, my sight failed, and
+after I was the envied one of the people of Egypt I became the pitied one — I beg from people, some pitying me
+and some not; and this is the recompense of the corrupters." So Yūsuf wept bitterly, then said to her, "Does
+anything remain of the love you had for me in your soul?" She said, "By God, one look at your face is dearer to me
+than the world with all its extremities; but give me the handle of your whip." So he gave it to her and she placed
+it on her breast, and he felt in the whip in his hand a trembling and shaking from the beating of her heart. So he
+wept, then went to his house and sent her a messenger: "If you are without a husband, we shall marry you; and if
+you have a husband, we shall enrich you." She said to the messenger, "I seek refuge in God that the king should
+mock me! He did not want me in the days of my youth and my wealth and my property and my glory — does he want me
+today, when I am an old blind poor woman?" The messenger informed him of her words, and when he rode in the second
+week she exposed herself to him, and he said to her, "Did the messenger not reach you?" She said, "I have told you
+that one look at your face is dearer to me than the world and what is in it." So he ordered that her state be
+put right and that she be prepared, and she was brought in to him; and Yūsuf stood praying and supplicating God,
+and she stood behind him, and he asked God to restore to her youth, beauty and sight; and God restored her youth,
+her beauty and her sight, until she became more beautiful than she had been on the day she solicited him — as an
+honour to Yūsuf for having abstained from what God had made forbidden. So he consummated the marriage and found
+her a virgin, and asked her; she said, "O prophet of God, my husband was impotent and did not go in to women, and
+you were of beauty and loveliness beyond description." And they lived in ease of life, God renewing good for them
+every day, and she bore him two sons, Ifrāthīm and Manshā. And it is narrated that God cast into Yūsufʾs heart
+love for her many times over what was in hers, so he said to her, "What is the matter with you, that you do not
+love me as you did at first?" She said, "When I tasted the love of God, that occupied me from everything."
+**[Ibn Kathīr]** Yūsuf praised himself, for this is allowed when oneʾs abilities are unknown and there is a need
+to do so. He said that he is *ḥafīẓ*, an honest guard, and *ʿalīm*, having knowledge and wisdom about the job he
+is to be entrusted with. The prophet Yūsuf asked the king to appoint him as minister of finance for the land,
+responsible for the harvest storehouses, in which they would collect produce for the years of drought which he
+told them would come. He wanted to be the guard, so that he could dispense the harvest in the wisest, best and
+most beneficial way. The king accepted Yūsufʾs offer, for he was eager to draw Yūsuf close to him and to honour
+him. **[Jalālayn]** He, Joseph, said, "Place me in charge of the storehouses of the land," the land of Egypt. "I
+am indeed a skilled custodian," one worthy of custodianship thereof and knowledgeable in such affairs — it is also
+said that he meant, I am indeed a competent scribe and accountant. **[Saʿdī]** Yūsuf said, seeking the public
+interest: "Set me over the storehouses of the land" — that is, over the storehouses of the landʾs revenues and its
+crops, as an agent, a keeper, a manager. "I am a keeper, knowing": a keeper of what I undertake, so that nothing
+of it is wasted in other than its place, and one who controls the incoming and the outgoing; knowing of how to
+manage, to give, to withhold, and to dispose in all kinds of dispositions. And this was not eagerness on Yūsufʾs
+part for the office; rather it was a desire on his part for the public benefit, and he knew of himself a
+sufficiency, a trustworthiness and a preservation that they did not know; therefore he asked the king to set him
+over the storehouses of the land, and the king set him over them and appointed him to them. **[Maʿārif]** In the
+two words appearing here, *ḥafīẓ* and *ʿalīm*, Sayyidna Yūsuf has combined together all functional virtues a
+genuine Finance Minister should have. To make it simple: the chief trustee and manager of a national treasury
+needs to do two things. First, he should not allow government property to be wasted; in fact he should collect,
+conserve and protect it fully, and see to it that it is not spent on non-deserving people or on false heads of
+expenditure. Then, he should not fall short in spending what has to be spent and where it has to be spent and, at
+the same time, he should not spend more than the quantum of the need. Thus the word *ḥafīẓ* is the full guarantee
+of the first need, and the word *ʿalīm* that of the second. Though the king of Egypt was personally attached to
+Sayyidna Yūsuf because of his many excellences, honesty and wisdom, he did not actually hand over the office of
+the Finance Ministry to him; however, he did make him stay with him as his honoured guest for a year. After the
+passage of one year, not only did he appoint him to be the Finance Minister, but he also entrusted to him the
+management of the rest of his state affairs. Perhaps he thought that giving such a major office to him without
+first getting acquainted with his manners, morals and habits by keeping him close to him at his house was not
+appropriate. **[Study Quran]** *(no separate note; the material is given at 12:54)*
+
+**Rulings.** This verse generates the most extensive legal discussion in the second half of the sūrah.
+**(1) Service under an unjust or unbelieving ruler.** **[Qurṭubī]**ʾs second question: some of the people of
+knowledge said that in this verse is what permits the virtuous man to work for the wicked man and the unbelieving
+authority, on condition that he knows he will be delegated in an action in which he will not be opposed, so that he
+may put right what he will of it; whereas if his work is according to the choice, the desires and the wickedness of
+the wicked man, that is not permitted. And a people said this was for Yūsuf specifically and is not permitted today,
+but the first is more appropriate on the condition we have mentioned. Al-Māwardī then sets out the dispute over
+office conferred by an unjust ruler: one view permits it if he acts by the truth in what he has undertaken, since
+Yūsuf was appointed by Pharaoh and since what counts in his case is his own act and not anotherʾs; the second view
+forbids it, because of the taking of the unjust as patrons by assisting them and the recommendation of them by
+undertaking their offices — and this view answers the case of Yūsuf in two ways: that Yūsufʾs Pharaoh was a
+righteous man and the tyrant was Mūsāʾs Pharaoh, or that he administered his own estates and not his offices, so
+the liability was removed from him. Al-Māwardīʾs own resolution is a threefold division of what is undertaken from
+the unjust: (a) what its people may do without *ijtihād* in its execution, such as alms and zakāhs — this may be
+undertaken from the unjust, because the text on its recipient suffices without *ijtihād*, and the permissibility of
+its owners acting alone in it suffices without investiture; (b) what they may not act alone in, and in whose
+disbursement *ijtihād* is required, such as the funds of *fayʾ* — this may not be undertaken from the unjust,
+because he disposes without right and exercises judgement in what he does not deserve; (c) what its people may
+undertake and in which *ijtihād* has a place, such as cases and rulings — here the contract of investiture is
+dissolved, but if the function is executing judgment between two mutually consenting parties and mediating between
+two compelled ones, it is permitted; if it is coercive imposition, it is not. **(2) Seeking office.** **[Qurṭubī]**ʾs
+third question: the verse also indicates the permissibility of a personʾs soliciting an office for which he is
+qualified. Against it: Muslimʾs report from ʿAbd al-Raḥmān b. Samurah, "O ʿAbd al-Raḥmān, do not ask for
+command; for if you are given it by asking, you will be left to it, and if you are given it without asking, you will
+be helped in it"; and Abū Mūsāʾs report — he came to the Prophet ﷺ with two men of the Ashʿarīs, one on his right
+and one on his left, and both asked for office while the Prophet ﷺ was using a tooth-stick, and he said, "What do you
+say, Abū Mūsā?" He said, "By the One who sent you with the truth, they did not inform me of what was in their
+minds, and I did not realise they were seeking office," and "it was as though I could see his tooth-stick beneath
+his lip, contracted," and he said, "We shall not — or, we do not — employ over our work one who wants it." The
+answer, first: Yūsuf only sought the office because he knew that no one could take his place in justice, in putting
+things right, and in delivering the poor to their rights, so he saw that this was an individually incumbent
+obligation upon him, since there was no one there other than him; and the ruling today is the same — if a person
+knows of himself that he will act by the truth in judging or in the *ḥisbah*, and there is no one who is fit and can
+take his place, it becomes individually incumbent upon him and obligatory that he undertake it and ask for it, and
+that he state the qualities by which he deserves it, of knowledge, sufficiency and the like, as Yūsuf said; whereas
+if there is someone who can undertake it and is fit for it, and he knows that, then the more appropriate is that he
+not ask, because of his saying to ʿAbd al-Raḥmān, "do not ask for command" — and because in asking for it and being
+eager for it, with knowledge of the many afflictions that come with it and the difficulty of extricating oneself
+from them, is evidence that he seeks it for himself and his purposes; and whoever is like that is likely to be
+overcome by his soul and perish, and this is the meaning of "he will be left to it." Whereas whoever declines it out
+of knowledge of its afflictions and fear of falling short in its rights flees from it, and if he is then tried with
+it, deliverance from it is hoped for him — and this is the meaning of "he will be helped in it." Second: he did not
+say "I am a noble reckoner," though he was as the Prophet ﷺ said, "the noble son of the noble son of the noble son of
+the noble: Yūsuf son of Yaʿqūb son of Isḥāq son of Ibrāhīm"; nor did he say "I am beautiful and comely"; he only
+said "I am a keeper, knowing" — so he asked for it by preservation and knowledge, not by lineage and beauty. Third:
+he said it before one who did not know him, so he wanted to make himself known, and that became an exception to His
+words "do not commend yourselves." Fourth: he saw it as an individually incumbent obligation, since there was no one
+there other than him — and this is the most apparent. **(3) Describing oneself.** **[Qurṭubī]**ʾs fourth question:
+the verse also indicates that it is permitted for a person to describe himself with the knowledge and excellence that
+are in him. Al-Māwardī said: this is not absolute across all qualities generally, but is specific to what is joined
+to its delivery, or what is attached to an apparent means of acquisition, and is forbidden in what is other than that,
+because of the self-commendation and ostentation in it; and were the excellent man to distinguish himself from it, it
+would be more fitting for his excellence — for necessity drove Yūsuf to it, because of what had preceded of his
+condition, and because of what he hoped for of attaining his family. **[Maʿārif]** sets out the same rulings in a
+numbered series. Rule 2: seeking an office or position with the government is permissible under particular conditions
+— when it is known about a particular office that no one else would be able to manage it well, and oneʾs honest
+self-assessment indicates that he will be able to discharge its responsibilities well enough, and that there is in it
+no danger of getting involved in some sin; and subject to the condition that the reason should not be the love of
+recognition, power and wealth, but that the main purpose be to serve Godʾs creation genuinely and to carry to them
+their rights with justice and equity, as it was with Yūsuf. Wherever such a situation does not prevail, the Prophet ﷺ
+has prohibited seeking any government office on oneʾs own, and did not give an office to anyone who himself made a
+request for it — citing the two ḥadīths of Muslim, to ʿAbd al-Raḥmān b. Samurah ("if you get it by asking for it, the
+support of God, through which you could stay safe from slips and errors, will not be there; and if you get it without
+asking, Godʾs help and support will be there") and to the man who requested appointment ("we would not give our office
+to a person who asks for it"). He then extends it: even today, if someone feels there is a government office for
+which no one is available, and his honest self-assessment assures that he would discharge it as due, then it is
+permissible for him — in fact obligatory (*wājib*) — to seek it, but for the purpose of serving people, a mission
+which relates to the intention and plan in the heart, all too open before God. And he notes that the rightly-guided
+caliphs assumed the responsibilities of the caliphate because they knew no one else could discharge them at that time;
+the differences attributed to ʿAlī, Muʿāwiyah, Ḥusayn, ʿAbdullāh b. al-Zubayr and others were all based on that
+conviction, each thinking that he would discharge the responsibilities of the caliphate with more wisdom and strength
+and better than others, and none motivated by recognition, power or wealth as his principal aim. Rule 3: accepting an
+office of a government headed by a disbelieving or sinning ruler is permissible under particular conditions. Imām
+al-Jaṣṣāṣ, commenting on "never shall I be a helper to those who sin" (28:17), wrote that in the light of this verse
+it is not permissible to help the unjust and the disbelieving, and that accepting an office in their government
+amounts to becoming a part of their function and providing help to them, declared forbidden in many verses. As for
+Yūsufʾs position: Mujāhidʾs reason was that the king of Egypt had become a believer at that time; but since there is
+no proof in the Qurʾān and Sunnah supporting that, the majority of commentators give another reason — that Yūsuf had
+already found out about the king that he would not interfere in the performance of his duties, would not compel him to
+enforce laws contrary to his faith, and would give him full rights to act in accordance with his discretion and in line
+with the law of truth; with such rights and powers in hand, when one is not compelled to obey a law contrary to his
+Shariʿah, it is possible that one may serve under someone unjust and disbelieving — though the repugnance of having to
+help and cooperate with that person remains where it initially was. But there are circumstances in which it is not
+possible to remove such a person from the office of power held by him; and if there be a strong apprehension that by not
+accepting the office under that person, the rights of many servants of God will be wasted or they may be oppressed,
+then this would be a situation of compulsion, and there is this much room for cooperation. This stands proved from
+Yūsufʾs conduct, covered by the provision that one would not have to commit something against the Shariʿah one believes
+in — because that will not be helping him in his sin, though it may do so as a remote cause; and as for remote causes
+of help, there is room in the Shariʿah under given conditions, as Muslim jurists have detailed. Many righteous elders
+among the Companions and the Successors have faced such conditions, and it stands proved that they, under such
+conditions, accepted to work in offices given by oppressive rulers. Al-Māwardī, in his book on the political
+implications of religious law, says some commentators have ruled accepting office with unbelieving and unjust rulers as
+permissible subject to the condition that one not have to do anything against the Shariʿah, while others have ruled it
+impermissible even with this condition because it supports and promotes the unjust; the substance is that this conduct
+of Yūsuf was particular to his person or to his Shariʿah, and is not permissible for others today — but the majority of
+Muslim scholars and jurists have gone by the first proposition and ruled it permissible. And according to *Tafsīr
+al-Baḥr al-Muḥīṭ*: when it is known that, should the learned and the righteous refuse to accept such office, the
+rights of people will be wasted and justice will not be done, then accepting such office is permissible — in fact it is
+an act of *thawāb* — subject to the condition that while working on it one is not compelled to do things against the
+Shariʿah. Rule 4: Yūsufʾs saying "I am a keeper, knowing" proves that mentioning some personal qualities, expertise or
+ability when there is a need to do so is not included under the self-sanctification prohibited in the Qurʾān — subject
+to the condition that such mentioning is not prompted by pride, arrogance or boastfulness.
+
+**Language.** *Khazāʾin* is the plural of *khizānah* **[Ṭabarī]**; the alif and lām in *al-arḍ* stand in place of
+the annexation ("the storehouses of *your* land"), as in al-Nābhigahʾs "and their minds are not absent"
+**[Ṭabarī]**. Mālik read the verse as evidence that Egypt *is* the storehouse of the earth, with the governed noun
+deleted — "set me over the storehouses of the earth," i.e. over guarding it **[Qurṭubī]**. *Ḥafīẓ ʿalīm* has three
+glosses: keeper of what you entrust, knowing of what you appoint me over (Ibn Isḥāq, Qatādah — the reading
+**[Ṭabarī]** prefers); keeper for the estimation of staples, knowing of the years of famine (Shaybah al-Ḍabbī); and
+keeper of the reckoning, knowing of the languages (al-Ashjaʿī) — with **[Qurṭubī]** adding "a reckoner and a scribe,
+and he was the first to write on papyrus leaves." **[Saʿdī]** gives the fullest: keeper of what I undertake so that
+nothing of it is wasted in other than its place, controlling the incoming and the outgoing; knowing of how to manage,
+to give, to withhold, and to dispose. **[Jalālayn]** records both the first and the third.
+
+**Belief.** **[Saʿdī]** makes the doctrinal point that decides the whole discussion: this was not eagerness on Yūsufʾs
+part for the office, but a desire for the public benefit; and he knew of himself a sufficiency, a trustworthiness and
+a preservation *that they did not know* — therefore he asked. The knowledge asymmetry is the justification: he was not
+boasting, he was informing. And **[Qurṭubī]**ʾs second observation sharpens it: he did not mention the two things he
+actually had in abundance and which the Prophet ﷺ named — nobility of lineage and beauty — but only the two things the
+office required.
+
+**Stories & occasions.** The Zuleikhā cycle at **[Qurṭubī]** and **[Maʿārif]**: the death of Qiṭfīr, the marriage,
+the discovery of virginity, the two sons Ifrāthīm and Manshā (or Ephraim and Manasseh), the blinded beggar woman
+calling out in the procession "glory be to the One who has made kings slaves by their disobedience and slaves kings by
+their obedience," the whip handle placed on her breast and its trembling, the prayer restoring her youth, beauty and
+sight, and her answer that when she tasted the love of God it occupied her from everything. *[Isrāʾīliyyāt]*
+**[Qurṭubī]** himself records the rival version from al-Māwardī and al-Thaʿlabī — that the woman he married was Rāʿīl
+and not Zuleikhā, and that Zuleikhā he did not marry at all but took in as one of his dependants until she died with
+him — and concludes "God knows best." **[Qurṭubī]** also gives the account of Yūsufʾs administration during the famine:
+he was gentle with the people and called them to Islam until they believed, and established justice among them, so the
+men and the women loved him; he ordered the farms put in order and the sowing expanded, and when the crop ripened he
+had it gathered and built granaries for it, and in that year there gathered a crop too much for the storehouses; and
+he gathered each yearʾs crop likewise, until the seven fertile years passed and the barren years came, and Jibrīl
+descended and said, "O people of Egypt, hunger; God has given the hunger power over you for seven years." And Ibn
+ʿAbbāsʾs account of the seven years of selling: he sold them the first year for money until there was no dinar or
+dirham left in Egypt that he had not taken; the second year for jewellery and gems; the third for livestock and
+beasts; the fourth for male and female slaves; the fifth for property and estates until he owned it all; the sixth for
+their children and their wives, enslaving them all; and the seventh for their own persons.
+
+**Cross-references.** 12:54 (the trust that precedes the request); 12:56 (the establishment that follows); 28:17
+("never shall I be a helper to those who sin"); 53:32 ("do not commend yourselves"); the two ḥadīths of Muslim on
+seeking office; the ḥadīth "the noble son of the noble son of the noble son of the noble"; Genesis 41:37–44
+**[Study Quran]**.
+
+**Reflection.** A prisoner, released the same day, asks to be made finance minister of Egypt. The traditionʾs whole
+legal apparatus exists to explain how that is not what it looks like, and the explanations converge on a single
+condition: there was nobody else. **[Qurṭubī]** states it as an individually incumbent obligation — he knew that no
+one could take his place in justice, in putting things right, and in delivering the poor to their rights, and there was
+no one there other than him; and **[Maʿārif]** generalises it into a rule that holds today. The counter-case is stated
+just as clearly: if there *is* someone fit for it, the more appropriate thing is not to ask, because eagerness in the
+face of known afflictions is evidence that a man seeks the office for himself. And the Prophetʾs own remark, twice
+transmitted, that God delayed Yūsufʾs appointment by a year because of the way he asked, is the traditionʾs way of
+holding both things together: the request was right, and it still cost him. What he said about himself is the final
+measure of it. Not "I am noble," though he was the noble son of the noble son of the noble son of the noble; not "I am
+beautiful," though the tradition has spent chapters on it; but "I am a keeper, knowing" — the two qualities a treasury
+needs and the only two the famine would test.
+
+---
+
+
+## 12:56
+
+*"And thus We established Yūsuf in the land, that he might lodge in it wherever he wished. We cause Our mercy to
+fall upon whom We will, and We do not waste the reward of those who do good."*
+
+**Meaning.** **[Ṭabarī]** God says: thus did We make the land smooth for Yūsuf — meaning the land of Egypt — "that
+he might lodge in it wherever he wished": that he might take a dwelling in the land of Egypt wherever he wished,
+after the imprisonment and the straitness. "We cause Our mercy to fall upon whom We will" of Our creation, as We
+caused it to fall upon Yūsuf, so that We established him in the land after servitude and captivity, and after being
+cast into the well. "And We do not waste the reward of those who do good": We do not nullify the recompense of the
+work of whoever does good and obeys his Lord, and acts as He commanded him and refrains from what He forbade him,
+as We did not nullify the recompense of Yūsufʾs work when he did good and obeyed God. And Godʾs establishing of
+Yūsuf in the land was as follows: Ibn Isḥāq said, when Yūsuf said to the king, "Set me over the storehouses of the
+land; I am a keeper, knowing," the king said, "I have done it!" and appointed him, as they mention, to Iṭfīrʾs
+office, and removed Iṭfīr from what he had been over; God says, "And thus We established Yūsuf in the land, that he
+might lodge in it wherever he wished," the verse. He said: it was mentioned to me — and God knows best — that
+Iṭfīr perished in those nights, and that the king al-Rayyān b. al-Walīd married Yūsuf to Iṭfīrʾs wife Rāʿīl, and
+that when he went in to her he said, "Is this not better than what you wanted?" And they claim she said, "O truthful
+one, do not blame me; I was a woman, as you see, of beauty and loveliness, delicate in kingdom and in the world, and
+my husband did not go in to women, and you were as God made you in your beauty and form, so my soul overcame me in
+what you saw." And they claim he found her a virgin and consummated the marriage, and she bore him two sons:
+Ifrāʾīm b. Yūsuf and Mīshā b. Yūsuf. *[Isrāʾīliyyāt]* And al-Suddī said of "that he might lodge in it wherever he
+wished": the king employed him over Egypt, and he was the one in charge of its affair, and he administered the
+selling, the trade and its affair entirely. And Ibn Zayd said: We made him master, in it, of whatever he wished of
+that world, doing in it what he wished; it was delegated to him — and had he wished to put Pharaoh under his hand and
+himself above him, he would have done. And Mujāhid said, through Abū Isḥāq al-Kūfī: the king who was with Yūsuf
+become a Muslim. **[Qurṭubī]** "And thus We established Yūsuf in the land, that he might lodge in it wherever he
+wished": that is, like this favour with which We favoured him, in drawing him near to the kingʾs heart and delivering
+him from the prison, We established him in the land — that is, We gave him power over what he wanted. Al-Kiyā
+al-Ṭabarī said: Godʾs words "and thus We established Yūsuf in the land" are evidence for the permissibility of
+stratagem in arriving at what is permitted, and at what contains happiness and good, and the extraction of rights;
+and its like is His words "and take in your hand a bundle and strike with it, and do not break your oath" (38:44),
+and the ḥadīth of Abū Saʿīd al-Khudrī concerning the agent of Khaybar and the dates he delivered to the Messenger of
+God ﷺ and what he said. *[the ḥadīth: the Messenger of God ﷺ employed a man over Khaybar, and he brought him dates
+of the *janīb* sort, a fine variety; he said, "are all the dates of Khaybar like this?" He said, "no, by God, O
+Messenger of God; we take the *ṣāʿ* of these for two or three *ṣāʿ*s." He said, "do not do that: sell the
+mixed dates for dirhams, then buy the *janīb* with the dirhams" — al-Bukhārī]* I (al-Qurṭubī) say: and this is
+answered by what follows. One says *makkannāhu* and *makkannā lahu*; God said, "We established them in the land
+more than We established you" (6:6). Al-Ṭabarī said: the greatest king, al-Walīd b. al-Rayyān, made Yūsuf his
+successor over Iṭfīrʾs office and removed him; and Mujāhid said, and he became a Muslim at his hands. Ibn ʿAbbās
+said: He gave him the kingdom after a year and a half. And Muqātil transmitted that the Prophet ﷺ said, "Had Yūsuf
+said, ʿI am a keeper, knowing, if God wills,ʾ he would have been given the kingdom at once." Then Iṭfīr died, and
+al-Walīd married him to Iṭfīrʾs wife Rāʿīl, and Yūsuf went in to her and found her a virgin, and she bore him two
+sons: Ifrāthīm and Manshā, the sons of Yūsuf. And whoever claims she was Zuleikhā says: Yūsuf did not marry her;
+rather, when she saw him in his procession she wept, then said, "Praise be to God who has made kings slaves by
+disobedience, and made slaves kings by obedience," and he took her in, so she was among his dependants until she died
+with him, and he did not marry her — al-Māwardī mentioned it, and it is contrary to what has preceded from Wahb; and
+al-Thaʿlabī mentioned it. So God knows best. And when the king delegated the affair of Egypt to Yūsuf, he was gentle
+with the people and used to call them to Islam until they believed in him, and he established justice among them, so
+the men and the women loved him — said Wahb, al-Suddī, Ibn ʿAbbās and others. Then the fertile years came in, and
+Yūsuf ordered the farms to be put in order and commanded them to expand the sowing; and when the crop ripened he
+ordered it and it was gathered, then he built granaries for it, and there was gathered in that year a crop too much
+for the storehouses because of its abundance; then he gathered each yearʾs crop likewise, until the seven fertile
+years passed and the barren years came, and Jibrīl descended and said, "O people of Egypt, hunger; God has given the
+hunger power over you for seven years." And one of the people of wisdom said: hunger and dearth have two signs — the
+first, that the soul loves food more than usual and hunger comes upon it quickly, contrary to what it was before, and
+it takes more food than suffices; and the second, that food is not found at all and becomes exceedingly scarce. So
+these two signs came together in Yūsufʾs time, and the men, the women and the children woke up crying, "Hunger!
+Hunger!" and eating without being satisfied; and the king woke up crying, "Hunger! Hunger!" Yūsuf prayed for him and
+God cured him of that. Then he became, and called out in all the land of Egypt, "O people! Let no one sow a crop, for
+the seed will perish and nothing will come up." And those years came with a terror beyond description. Ibn ʿAbbās
+said: at the beginning of the dearth, while the king was in the middle of the night, hunger struck him at midnight,
+and the king called out, "Yūsuf! Hunger! Hunger!" Yūsuf said, "This is the time of dearth." And when the first of the
+years of dearth entered, everything they had prepared in the fertile years perished in it; so the people of Egypt
+began to buy food from Yūsuf, and he sold it to them the first year for money, until there was no dinar or dirham left
+in Egypt that he had not taken; and he sold it to them the second year for jewellery and gems, until nothing of it was
+left in peopleʾs hands; and the third year for livestock and beasts of burden, until he took possession of it all; and
+the fourth year for male and female slaves, until he took possession of all; and the fifth year for property and
+estates, until he owned it all; and the sixth year for their children and their wives, so that he enslaved them all;
+and the seventh year for their own persons, until there was not left in Egypt in the seventh year either a free man or
+a slave who had not become his slave. So the people said, "By God, we have never seen a king more mighty and greater
+than this." And Yūsuf said to the king of Egypt, "How have you seen the doing of my Lord in what He has given me! And
+now all of this is yours — what do you see concerning it?" He said, "I have delegated the affair to you, so do what
+you will; we are only your followers, and I am not one who would disdain your worship and your obedience; I am only
+one of your slaves and one of your dependants." So Yūsuf said, "I did not free them from hunger in order to enslave
+them, and I did not deliver them from affliction in order to be an affliction upon them. And I call God to witness,
+and I call you to witness, that I have freed the people of Egypt to the last of them, and restored to them their
+wealth and their properties, and restored to you your kingdom, on condition that you follow my way." And it is
+narrated that Yūsuf used not to eat his fill of food in those years, and it was said to him, "Do you hunger while the
+storehouses of the earth are in your hand?" He said, "I fear that if I am filled I shall forget the hungry." And Yūsuf
+commanded the kingʾs cook to make his midday meal at the middle of the day, so that the king would taste the flavour of
+hunger and not forget the hungry; and from then kings made their midday meal at the middle of the day.
+**[Ibn Kathīr]** God said next, "Thus did We give full authority to Yūsuf in the land," in Egypt, "to take possession
+therein, when or where he likes." Al-Suddī and ʿAbd al-Raḥmān b. Zayd b. Aslam said that this part of the verse
+means, to do whatever he wants therein. Ibn Jarīr al-Ṭabarī said that it means he used to move about freely in the
+land after being imprisoned, suffering from hardship and the disgrace of slavery. God said next, "We bestow of Our
+mercy on whom We will, and We make not to be lost the reward of the good doers." God says here: We did not let Yūsufʾs
+patience — from the harm his brothers exerted on him and being imprisoned because of the wife of the ʿAzīz — be lost.
+Instead, God rewarded him with His aid and victory. **[Jalālayn]** Thus, in the same way that We were graceful towards
+him by delivering him from prison, We established Joseph in the land, the land of Egypt, that he may settle in it
+wherever he wished, after having suffered hardship and imprisonment. According to the story, the king crowned him, gave
+him a signet-ring to wear, and appointed him in place of the Court Officer, whom he removed from his position and who
+later died; and so he made him take the latterʾs spouse as a wife. He discovered that she was still a virgin, and she
+bore him two children. He established justice in Egypt and people became subject to him. "We confer Our mercy on
+whomever We will, and We do not waste the wage of the virtuous." **[Saʿdī]** God says: "And thus" — by these causes and
+premises that have been mentioned — "We established Yūsuf in the land, that he might lodge in it wherever he wished":
+in a life of ease, an ample blessing and a wide rank. "We cause Our mercy to fall upon whom We will": this is of Godʾs
+mercy toward Yūsuf, by which He struck him and which He decreed for him, and it is not confined to the blessing of this
+world; for God does not waste the reward of those who do good, and Yūsuf is among the masters of those who do good, so
+he has a good in this world and a good in the hereafter. And when Yūsuf undertook the storehouses of the land, he
+managed them with the best management: he sowed in all the land of Egypt in the fertile years immense crops, made for
+them great storehouses, collected a great amount of food, and preserved it and controlled it with complete control. So
+when the barren years entered, and the dearth spread until it reached Palestine where Yaʿqūb and his sons dwelt, Yaʿqūb
+sent his sons to Egypt for provisions. **[Maʿārif]** After an experimental period of one year, the king of Egypt
+arranged a special celebration in his court to which he invited all officials and dignitaries of the state. Sayyidna
+Yūsuf was brought into the gathering with a crown on his head. He was given not simply the charge of the state treasury
+but the charge of virtually the whole state; having done this, the king himself retired from active involvement with
+the affairs of the state. Sayyidna Yūsuf managed the affairs of the state with such ability that no one had any reason
+to complain. The whole country loved him. Peace and prosperity prevailed all over. Even Sayyidna Yūsuf himself faced no
+problems or pains in executing the many responsibilities of the government. The tafsīr authority Mujāhid has said: since
+Sayyidna Yūsuf, under the surface grandeur of his rule over the country, aimed at nothing but that the command of God be
+carried out there and that the faith given by Him become firmly established, he never lost sight of his basic
+objective, that is, inviting the king of Egypt to faith and Islam. As time passed, his efforts bore fruit by the grace
+of God, and the king of Egypt too became a believing Muslim. **[Study Quran]** As at 12:21, "Thus did We establish
+Joseph in the land" comes after Joseph undergoes a period of trial and hardship. The purpose of establishing Joseph in
+Egypt at 12:21 is so that God might teach him the interpretation of events — that is, dreams — whereas at 12:56 it is
+in order that Joseph might settle wheresoever he will. These two verses are therefore connected, since it was only after
+Joseph interpreted several dreams that he was given such a powerful position in Egypt that he could choose to live
+wheresoever he will, which some interpret to mean that Joseph could establish his home in any of Egyptʾs cities because
+of his control over all of them. It is also said that when Potiphar died, the king of Egypt gave Joseph Potipharʾs
+former position of being in charge of the treasury of Egypt; by extension, this would also mean that Joseph was
+conferred the title of *ʿAzīz*.
+
+**Language.** *Tabawwaʾa* is glossed as taking a dwelling or settling **[Ṭabarī]**; **[Study Quran]**, through
+al-Kashshāf, reads it as being able to establish his home in any of Egyptʾs cities because of his control over all of
+them. *Makkannā lahu* and *makkannāhu* are both used, as at 6:6 **[Qurṭubī]**. *Raḥmah* here is glossed as blessing
+and beneficence (*niʿmah* and *iḥsān*) **[Qurṭubī]**; **[Saʿdī]** adds the important qualification that the mercy is
+"not confined to the blessing of this world."
+
+**Rulings.** **[Qurṭubī]** records al-Kiyā al-Ṭabarīʾs legal inference from this verse — that it is evidence for the
+permissibility of stratagem (*ḥīlah*) in arriving at what is permitted, at what contains happiness and good, and at the
+extraction of rights — supported by 38:44 (Ayyūbʾs bundle of twigs) and the ḥadīth of Abū Saʿīd al-Khudrī about the
+agent of Khaybar, in which the Prophet ﷺ permitted selling mixed dates for dirhams and then buying the fine variety with
+the dirhams, thereby circumventing the prohibition of unequal exchange of the same commodity. Al-Qurṭubīʾs own response
+is terse: "and this is answered by what follows" — i.e. by his treatment of the office-holding question at 12:55 and by
+his position elsewhere on *ḥiyal*. The question is genuinely contested, and the verse is cited on both sides.
+
+**Belief.** Two doctrines meet here. First, **[Qurṭubī]** reports al-Māwardī on what Yūsuf was given: it was said to be
+a reward from God for what He had tried him with; and it was said that God bestowed it upon him as a favour beyond
+desert, with his reward remaining intact in the hereafter. Second, the verse itself: "We do not waste the reward of
+those who do good," which **[Ibn Kathīr]** applies specifically to Yūsufʾs patience under his brothersʾ harm and his
+imprisonment because of the wife of the ʿAzīz. **[Qurṭubī]** adds Ibn ʿAbbāsʾs and Wahbʾs gloss that "those who do
+good" here means the patient, for his patience in the well, in slavery, in the prison, and his patience away from what
+God had forbidden in the matter of the womanʾs solicitation. And **[Maʿārif]**, through Mujāhid, supplies the purpose
+behind the power: beneath the surface grandeur of his rule he aimed at nothing but that Godʾs command be carried out
+there, so that his basic objective was calling the king of Egypt to faith and Islam — and he succeeded. **[Ṭabarī]**
+preserves Mujāhidʾs report of the kingʾs conversion without the interpretive frame, and Ibn Zaydʾs remark that had Yūsuf
+wished to put Pharaoh under his hand and himself above him, he would have done.
+
+**Stories & occasions.** The famine-administration cycle at **[Qurṭubī]** is the longest narrative expansion of any
+verse in this section, and it has a shape worth noting: seven years of selling, each for a different class of asset —
+money, jewellery, livestock, slaves, property, families, and finally persons — until there was not a free man or a slave
+in Egypt who was not his slave; then Yūsufʾs address to the king, "how have you seen the doing of my Lord in what He has
+given me! And now all of this is yours"; the kingʾs delegation, "we are only your followers… I am only one of your
+slaves and one of your dependants"; and Yūsufʾs reply — "I did not free them from hunger in order to enslave them, and I
+did not deliver them from affliction in order to be an affliction upon them. I call God to witness, and I call you to
+witness, that I have freed the people of Egypt to the last of them, and restored to them their wealth and their
+properties, and restored to you your kingdom, on condition that you follow my way." Plus the report that he would not
+eat his fill — "I fear that if I am filled I shall forget the hungry" — and that he ordered the kingʾs cook to serve the
+midday meal at the middle of the day so that the king would taste hunger and not forget the hungry, from which kings
+took the custom. *[Isrāʾīliyyāt throughout; the substance is consistent with the Qurʾānʾs silence about how the
+stores were administered, and it is transmitted as narrative rather than as law.]* **[Jalālayn]** condenses it to the
+crown, the signet-ring, the appointment in place of the Court Officer who later died, the marriage to his spouse, the
+discovery of her virginity, the two children, and the establishment of justice. **[Qurṭubī]** also preserves three
+poems on the verseʾs theme, among them: "Is there not in the messenger of God, Yūsuf, a model for the like of you,
+imprisoned upon injustice and slander? He dwelt in beautiful patience in the prison for a while, and beautiful patience
+brought him at last to the kingdom"; and "Behind the straitness of fear is the breadth of safety, and the first thing
+rejoiced in is the last of grief. So do not despair, for God gave Yūsuf dominion over His storehouses after deliverance
+from the prison"; and "When events reach their limit and the souls are near to melting for them, and affliction arrives
+and consolation grows scarce — at the extreme is relief."
+
+**Cross-references.** 12:21 (the first establishment in the land, and its stated purpose); 6:6 (*makkannāhum fī
+al-arḍ*); 38:44 (the bundle of twigs, cited for *ḥīlah*); the Khaybar dates ḥadīth (al-Bukhārī); 12:55 (the request);
+12:57 (the qualification); 12:90 ("God does not waste the reward of those who do good" repeated); 11:115; Genesis
+41:45 **[Study Quran]**.
+
+**Reflection.** The verse is the sūrahʾs first resolution, and its key phrase is "wherever he wished." **[Study
+Quran]** points out the deliberate echo of 12:21 — "thus did We establish Yūsuf in the land" — and the difference in
+purpose: the first establishment was so that God might teach him the interpretation of events, the second so that he
+might settle wherever he wished. The man who was carried to Egypt as cargo and lodged in a prison is now the one who
+chooses where to live. And **[Qurṭubī]**ʾs long narrative supplies the moral test of that power, in Yūsufʾs own words:
+"I did not free them from hunger in order to enslave them." He had acquired Egypt legitimately, by purchase, in seven
+successive transactions nobody could call extortion — and he gave it back. The condition attached is the whole point:
+"on condition that you follow my way." The power was not renounced as such; it was converted into an instrument of the
+thing Mujāhid says he was actually after, the establishment of Godʾs command in the land. And the small detail that he
+would not eat his fill, because he feared that being filled would make him forget the hungry, is the private
+counterpart of the public act — the same refusal to let a blessing become a screen.
+
+---
+
+## 12:57
+
+*"And the reward of the hereafter is better, for those who believe and are godfearing."*
+
+**Meaning.** **[Ṭabarī]** God says: Godʾs reward in the hereafter is "better for those who believe" — for those who
+affirm God and His messenger — than what He gave Yūsuf in this world, of His establishing him in the land of Egypt;
+"and are godfearing": they fear God, so they dread His punishment for opposing His command and for treating what He has
+forbidden as permitted, and they obey Him in His command and His prohibition. **[Qurṭubī]** "And the reward of the
+hereafter is better": that is, what We give in the hereafter is better and greater than what We gave in this world,
+because the reward of the hereafter is lasting and the reward of this world is cut off; and the apparent sense of the
+verse is generality for every believing, godfearing person. And they recited: "Is there not in the messenger of God,
+Yūsuf, a model for the like of you, imprisoned upon injustice and slander? He dwelt in beautiful patience in the prison
+for a while, and beautiful patience brought him at last to the kingdom." **[Ibn Kathīr]** God states that what He has
+prepared for His prophet Yūsuf in the Hereafter is much greater, substantial and honoured than the authority He gave him
+in this life. God said about His prophet Sulaymān, "This is Our gift, so spend or withhold; no account will be asked of
+you. And verily, for him is a near access to Us, and a good final return" (38:39–40). Yūsuf was appointed minister of
+finance by al-Rayyān b. al-Walīd, king of Egypt at the time, instead of the ʿAzīz who had bought him and who was the
+husband of she who tried to seduce him. The king of Egypt embraced Islam at the hands of Yūsuf, according to Mujāhid.
+**[Jalālayn]** Yet the wage of the Hereafter is better than the wage of this world, for those who believe and are
+God-fearing. And so the years of drought arrived, and afflicted the land of Canaan and Syria. **[Saʿdī]** "And the
+reward of the hereafter is better" — than the reward of this world — "for those who believe and are godfearing": for
+whoever combines godfearing with belief; for by godfearing the forbidden matters are left, both the great sins and the
+small, and by complete belief there is obtained the heartʾs affirmation of what God has commanded it to affirm, followed
+by the works of hearts and of limbs, of the obligatory and the recommended. That is, when Yūsuf undertook the
+storehouses of the land, he managed them with the best management: he sowed in all the land of Egypt in the fertile
+years immense crops, made for them great storehouses, collected a great amount of food, and preserved it and controlled
+it with complete control. So when the barren years entered, and the dearth spread until it reached Palestine where
+Yaʿqūb and his sons dwelt, Yaʿqūb sent his sons to Egypt for provisions. **[Maʿārif]** At the end, verse 57 declares
+that God had already blessed Sayyidna Yūsuf with temporal power, wealth and an ideal state — and waiting for him were
+the high ranks of the hereafter as well. Then it has also been made clear that the rewards and ranks of the present
+world and of the world to come were not restricted to Sayyidna Yūsuf. This was an open invitation to everyone who elects
+to believe, to abstain from evil and to keep fearing God. During his tenure of rule, Sayyidna Yūsuf had accomplished
+great projects designed to bring peace and comfort to the masses of his people; their parallel would be hard to find.
+When, according to his interpretation of the dream, seven years of prosperity passed by and the famine set in, Sayyidna
+Yūsuf abandoned eating to his fill. People said, "You have the treasures of the land of Egypt in your possession, yet
+you go hungry?" He said, "I do this so that the feeling for the hunger of my common people does not disappear from my
+heart." He even took an administrative step in this matter: the royal cooks were ordered to prepare only one meal a day,
+at lunch time, so that the residents of the royal palace too could somehow share in the mass hunger of their people.
+**[Study Quran]** For Godʾs not neglecting the reward of the virtuous, see also 12:90 and 11:115. In several verses the
+reward of the Hereafter is spoken of as greater than the reward of this world (16:41), and the Hereafter itself is
+described as "better for thee than this life" (93:4). This is because "the life of this world is naught but diversion
+and play, whereas the Abode of the Hereafter is life indeed" (29:64).
+
+**Language.** The comparative *khayr* is glossed by **[Qurṭubī]** as better *and greater*, with the reason given: the
+reward of the hereafter is lasting (*dāʾim*) and the reward of this world is cut off (*yanqaṭiʿ*). This is the standard
+ Qurʾānic ground of the comparison, and **[Study Quran]** collects its parallels. **[Saʿdī]** supplies the definition of
+the two conditions: by godfearing the forbidden matters are left, both great and small sins; by complete belief the heart
+affirms what God has commanded it to affirm, followed by the works of hearts and of limbs, obligatory and recommended.
+
+**Belief.** The verse does two things at once. It relativises what has just been described — the kingdom, the crown, the
+storehouses, the love of a nation — and it universalises the promise. **[Maʿārif]** makes the second explicit: the
+rewards and ranks of this world and the next "were not restricted to Sayyidna Yūsuf. This was an open invitation to
+everyone who elects to believe, to abstain from evil and to keep fearing God." **[Ibn Kathīr]** draws the Sulaymān
+parallel for the same purpose: Sulaymān was given a kingdom the like of which no one would have after him, and it is
+described as "our gift," and yet what is recorded immediately after it is that "for him is a near access to Us, and a
+good final return." The worldly gift is not the reward; the access is. And **[Study Quran]** supplies the metaphysical
+ground: the life of this world is diversion and play, whereas the Abode of the Hereafter is life indeed (29:64).
+
+**Cross-references.** 16:41; 93:4; 29:64; 11:115; 12:90 ("We do not waste the reward of those who do good" — the same
+phrase repeated in the brothersʾ scene); 38:39–40 (Sulaymān); 12:56 (the establishment this verse qualifies).
+
+**Reflection.** The placement of this verse is the point. It comes immediately after the sūrahʾs single greatest worldly
+success — a slave becomes the effective ruler of Egypt, saves a nation from famine, converts its king, and is loved by
+its men and its women — and the Qurʾānʾs comment is one sentence: and the reward of the hereafter is better. Not that
+the kingdom was worthless; that it was a mercy, a wage, something God does not waste. But it was cut off, and what is
+coming is not. **[Maʿārif]**ʾs detail about the famine years belongs here rather than at 12:56, because it shows what the
+"better reward" was being compared with: a man with the storehouses of the earth at his disposal who would not eat his
+fill, "so that the feeling for the hunger of my common people does not disappear from my heart," and who made the royal
+kitchen serve one meal a day so that the palace would share in the public hunger. The verse says the hereafter is
+better for those who believe and are godfearing; the narrative shows a man who had everything this world could give him
+and was still governing his own appetite so as not to forget the people he governed.
+
+---
+
+
+## 12:58
+
+*"And Yūsufʾs brothers came, and they entered upon him, and he knew them while they did not know him."*
+
+**Meaning.** **[Ṭabarī]** God says: "And Yūsufʾs brothers came, and they entered upon him, and Yūsuf knew them, while
+they did not know Yūsuf." And the cause of their coming to Yūsuf was, as was mentioned to me: Ibn Isḥāq said, when
+Yūsuf was settled in his kingdom and had come out of the affliction he had been in, and the fertile years had passed
+in which he had commanded them to prepare for the years he had told them were coming, the people were afflicted in
+every direction and made their way to Egypt seeking provisions from every town. And Yūsuf, when he saw what had struck
+the people of hardship, had equalised between them, and used to carry for a man only one camel-load, and not carry for
+one man two camel-loads, apportioning between the people and giving them room. So his brothers came among those who
+came to him, seeking provisions from Egypt, and he knew them while they did not know him, because of what God willed to
+bring about for Yūsuf in what He willed. And al-Suddī said: hunger struck the people, until it struck the land of
+Yaʿqūb in which he was; so he sent his sons to Egypt and kept back Yūsufʾs brother, Binyāmīn. And when they entered
+upon Yūsuf he knew them while they did not know him; and when he looked at them he said, "Inform me of your affair, for
+I find your case strange!" They said, "We are a people from the land of Syria." He said, "Then what brought you?" They
+said, "We came to provision ourselves with food." He said, "You lie — you are spies. How many are you?" They said,
+"Ten." He said, "You are ten thousand; each man of you is a commander of a thousand. So inform me of your story." They
+said, "We are brothers, the sons of a truthful man; and we were twelve, and our father loved a brother of ours, and he
+went with us into the wilderness and perished from us in it, and he was the dearest of us to our father." He said,
+"Then to whom did your father turn for solace after him?" They said, "To a brother of ours younger than him." He said,
+"How do you inform me that your father is a truthful man, when he loves the youngest of you rather than the eldest?
+Bring me this brother of yours so that I may look at him — ʿif you do not bring him to me, there is no measure for you
+with me, and do not come near me.ʾ" They said, "We shall seek him from his father, and we shall do it." He said, "Then
+leave one of you as a pledge until you return." So they left Shimʿūn. And Qatādah said of "while they did not know
+him": they did not know him. **[Qurṭubī]** "And Yūsufʾs brothers came": that is, they came to Egypt when the drought
+struck them, to provision themselves; and this is of the Qurʾānʾs inimitable abbreviation. Ibn ʿAbbās and others said:
+when the drought and the hardship struck the people, and that fell upon the land of Canaan, Yaʿqūb sent his son for
+provisions; and Yūsufʾs affair became famous in the horizons, because of his gentleness, his approachability, his mercy,
+his compassion, his justice and his conduct. And Yūsuf, when the hardship fell upon the people, used to sit himself for
+the people at the selling, giving them food according to the number of their heads, for each head a *wasq* — *[the
+*wasq* is sixty *ṣāʿ*s, and the root of *wasq* is a load]*. "And Yūsufʾs brothers came, and they entered upon him, and
+Yūsuf knew them, while they did not know him": because they had left him a child, and did not suppose that after slavery
+he would reach that state of kingdom, together with the length of the period, which was forty years. And it was said they
+did not recognise him because they believed him to be an unbelieving king; and it was said they saw him wearing silk,
+with a collar of gold on his neck and a crown on his head, adorned with the adornment of the Pharaoh of Egypt, while
+Yūsuf saw them in the dress and adornment he had known them in. And it admits that they saw him behind a veil and so did
+not know him. And it was said they did not know him because of a prodigious matter, by which God tested Yaʿqūb.
+**[Ibn Kathīr]** Al-Suddī, Muḥammad b. Isḥāq and several others said that the reason why Yūsufʾs brothers went to Egypt
+is that after Yūsuf became minister of Egypt and the seven years of abundance passed, there came the seven years of
+drought that struck all areas of Egypt. The drought also reached the area of Canaan, where the prophet Yaʿqūb and his
+children resided. Yūsuf efficiently guarded the peopleʾs harvest and collected it, and what he collected became a great
+fortune for the people. This also permitted Yūsuf to give gifts to the people who sought his aid from various areas, who
+came to buy food and provisions for their families. Yūsuf would not give a family man more than whatever a camel could
+carry, as annual provisions for them. Yūsuf himself did not fill his stomach from this food, nor did the king and his
+aides eat except one meal a day. By doing so, the people could sustain themselves with what they had for the remainder of
+the seven years. Indeed, Yūsuf was a mercy from God sent to the people of Egypt. Yūsufʾs brothers were among those who
+came to Egypt to buy food supplies, by the order of their father. They knew that the ʿAzīz of Egypt was selling food to
+people who needed it for a low price, so they took some merchandise from their land with them to exchange it for food.
+They were ten, because Yaʿqūb kept his son and Yūsufʾs brother Binyāmīn with him; Binyāmīn was the dearest of his sons
+to him after Yūsuf. When the prophet Yūsufʾs brothers entered upon him in his court and the centre of his authority, he
+knew them the minute he saw them. However, they did not recognize him, because they had got rid of him when he was still
+young and had sold him to a caravan of travellers while unaware of their destination. They could not have imagined that
+Yūsuf would end up being a minister, and this is why they did not recognize him, while he did recognize them. Al-Suddī
+said that Yūsuf started talking to his brothers and asked them, "What brought you to my land?" They said, "O ʿAzīz, we
+came to buy provisions." He asked them, "You might be spies." They said, "God forbids." He asked them, "Where are you
+from?" They said, "From the area of Canaan, and our father is Godʾs prophet Yaʿqūb." He asked them, "Does he have other
+children besides you?" They said, "Yes, we were twelve brothers. Our youngest died in the desert, and he used to be the
+dearest to his father. His full brother is alive and his father kept him, so that his closeness compensates him for
+losing our youngest brother." Yūsuf ordered that his brothers be honoured and allowed to remain. **[Jalālayn]** And
+Josephʾs brothers came — except for Benjamin — in order to secure provisions, when they found out that the new Court
+Officer of Egypt was providing food at its fair price; and they entered to him and he recognised them to be his brothers,
+but they did not recognise him, not knowing who he was, because it had been a long time since they had seen him and
+because they supposed that he had died. They spoke to him in Hebrew, and he said to them, as if reproaching them, "What
+brings you to my land?" They replied, "We have come for supplies." He said, "You might be spies!" They said, "God
+forbid!" He said, "So where are you from?" They said, "From the land of Canaan; our father is Jacob the prophet of God."
+He said, "Does he have children other than you?" They said, "Yes. We used to be twelve, but the youngest of us passed
+away; he perished in the wild. He was the most beloved to him, our father, from among us; only his full brother remains,
+and so he keeps him by his side in order to comfort himself with him in place of the other." He commanded that they be
+given lodging and treated well. **[Saʿdī]** So Yūsufʾs brothers came, and they entered upon him, and he knew them while
+they did not know him. **[Maʿārif]** Mentioned in the previous verses was how Sayyidna Yūsuf was blessed by God with
+full control over the country of Egypt. Described in the verses cited above is the coming of the brothers of Sayyidna
+Yūsuf to procure food grains. As a corollary it was also mentioned that the brothers who came to Egypt were ten in
+number; the younger brother, the real brother of Sayyidna Yūsuf, was not with them on this trip. The details of the story
+in between were not given by the Qurʾān, since they can be understood contextually. The details described by Ibn Kathīr
+with reference to the tafsīr authorities al-Suddī, Muḥammad b. Isḥāq and others, even if borrowed from historical and
+Israelite reports, may be acceptable in a certain measure, since indicators in this direction are available in the
+sequential arrangement of the Qurʾān itself. Following the ministerial authority of Egypt having come into the hands of
+Sayyidna Yūsuf, the first seven years were, true to the interpretation of the dream, years of great prosperity and
+well-being for the entire country; crops were abundant and matching were the efforts to produce and conserve. After that
+the second part of this very dream unfolded itself: came the famine, which continued for full seven years. Since at that
+time Sayyidna Yūsuf knew in advance that this famine would continue for seven years without any break, he made
+arrangements to have the stock of grains present in the country stored very carefully during the initial year of the
+famine, and saw to it that it remained preserved and protected fully and satisfactorily. As for the local people of
+Egypt, food grain sufficient for their need was stored with them well ahead of the time. When famine spread and people
+living in areas around Egypt started coming there, Sayyidna Yūsuf set up a working system of selling grains to them,
+according to which he would not give to one person more than one camel-load of grain; its quantity, according to
+al-Qurṭubī, was one *wasaq*, that is sixty *ṣāʿ*, which according to our weight comes to approximately 1,953 grams. Such
+was his concern for this responsibility that he himself used to oversee the sale of food grains. As said earlier, this
+famine was not limited to Egypt only; it was spread out to areas far away. The land of Canaan, a part of Palestine — the
+homeland of Sayyidna Yaʿqūb, with one of its cities still surviving by the name Khalīl, known for the resting places of
+the blessed prophets Ibrāhīm, Isḥāq, Yaʿqūb and Yūsuf — even this could not escape the ravages of the famine. Naturally
+the family of Sayyidna Yaʿqūb became anxious. That was a time when news had gone around that Egypt was the place where
+food grains could be procured on payment. Sayyidna Yaʿqūb had also come to know that the king of Egypt was a man of mercy
+and would let those who needed it have it. So he asked his sons too to go and get some grains from Egypt. And as they had
+also come to know that one person is not given more than a camel-load of grains, it was decided to send all sons on the
+trip. But the youngest brother, Benyāmīn, the real brother of Sayyidna Yūsuf, with whom Sayyidna Yaʿqūb had become very
+attached since the disappearance of Sayyidna Yūsuf, was held back by the father for his comfort and care. Travelling from
+Canaan, the ten brothers reached Egypt. Sayyidna Yūsuf appeared in his royal robe as the master of the land before his
+brothers, who had sold him as a seven-year-old child to the people of the caravan — an event over which, at that time,
+according to Sayyidna ʿAbdullāh b. ʿAbbās, forty years had passed. It is obvious that the passage of such a long time
+would cause great changes in the looks of a person; and it could never have occurred to them that a child once sold as a
+slave could become the king or minister of some country. Therefore the brothers of Sayyidna Yūsuf did not recognize him,
+but Sayyidna Yūsuf did. Therefore this is what the expression "he recognised them while they did not recognise him"
+appearing in the opening verse means — for in the Arabic language the real meaning of the word *inkār* is "to take as a
+stranger"; therefore the word *munkirūn* in the text comes to mean "unable to recognise." About the recognising of
+Sayyidna Yūsuf, Ibn Kathīr has said on the authority of al-Suddī: when these ten brothers reached the court, Sayyidna
+Yūsuf interrogated them as is done with suspicious people, so that they would state the truth clearly. First of all he
+asked them, "You are not residents of Egypt. You speak Hebrew. How did you get here?" They said, "There is a great famine
+in our country. We have heard about you; therefore we are here to get some grain." Sayyidna Yūsuf asked again, "How do we
+know that you are telling the truth, and that you are not an enemy spy?" Then all the brothers said, "God forbid, we can
+never do that. We are the sons of the prophet of God Yaʿqūb, who lives in Canaan." **[Study Quran]** The brothers came to
+Egypt because the famine that had afflicted Egypt had also affected Canaan, and they sought to purchase some of the
+provisions that had been stored up during the seven years of Egyptʾs agricultural prosperity. The brothers did not
+recognize Joseph because a long period of time had elapsed since they last saw him. Moreover, he now stood before them
+adorned in rich Egyptian garments, and their awe of him naturally prevented them from recognising him as their brother,
+whom they assumed had perished after they had thrown him into the well so many years before (cf. Genesis 42:1–8).
+
+**Language.** *Munkirūn* is from *inkār*, whose root sense is to take as a stranger or to find unfamiliar, hence "unable
+to recognise" **[Maʿārif]**; the construction is *wa-hum lahu munkirūn*, with the pronoun fronted. **[Qurṭubī]** notes
+the verse as an instance of the Qurʾānʾs inimitable abbreviation (*ikhtiṣār al-Qurʾān al-muʿjiz*): the journey, the
+famine in Canaan, the decision to send the sons, are all compressed into "and Yūsufʾs brothers came." The *wasaq* is
+sixty *ṣāʿ*s, its root being a load **[Qurṭubī]**; **[Maʿārif]** converts it to approximately 1,953 grams.
+
+**Ḥadīth & āthār.** The interrogation dialogue is transmitted through al-Suddī by **[Ṭabarī]**, **[Ibn Kathīr]** and
+**[Maʿārif]** alike, and is the source of the spy accusation: "you are ten thousand; each man of you is a commander of a
+thousand." The taking of a pledge — Shimʿūn (Simeon) left as hostage — is in al-Suddīʾs report at **[Ṭabarī]** and in
+**[Qurṭubī]** at 12:59, where al-Kalbī adds the reason Yūsuf chose Shimʿūn: because he had been, on the day of the well,
+the best of them in speech and the best of them in opinion. *[Isrāʾīliyyāt]* The forty years between the sale and this
+meeting is attributed to Ibn ʿAbbās **[Qurṭubī] [Maʿārif]**; **[Maʿārif]** adds that Yūsuf was seven years old when sold.
+
+**Belief.** **[Ṭabarī]** ends Ibn Isḥāqʾs report with the phrase that governs the whole episode: "he knew them while they
+did not know him, *because of what God willed to bring about for Yūsuf in what He willed*." The non-recognition is not a
+coincidence of time and clothing; it is a condition of the divine plan, which requires that the brothers be tested
+without knowing by whom. And **[Qurṭubī]**ʾs last reported explanation — that they did not know him because of a
+prodigious matter, by which God tested Yaʿqūb — makes the same point about the father: the concealment is itself part of
+the trial that will produce 12:84.
+
+**Cross-references.** 12:47–49 (the forecast now fulfilled); 12:56 (the establishment); 12:8 (the brothersʾ original
+counsel); 12:15 (the well); 12:59–60 (the demand); 12:62–66 (the return to Yaʿqūb); Genesis 42:1–8 **[Study Quran]**.
+
+**Reflection.** The asymmetry in this verse is the engine of everything from here to 12:99: he knows them, they do not
+know him. That single fact converts an ordinary famine-relief transaction into an examination in which the candidates do
+not know they are sitting it, and in which the examiner has every reason to want a particular answer. **[Qurṭubī]**ʾs
+three explanations for the non-recognition are worth holding together: forty years had passed and they had left him a
+child; he was dressed as the Pharaoh of Egypt in silk, gold and a crown, and they could not imagine that a sold slave
+would reach that state; and possibly they saw him behind a veil. **[Study Quran]** adds the psychological one, which is
+the most probable: their awe of him naturally prevented them from recognising him. Fear and rank are themselves a kind of
+veil. And the interrogation that follows, reported identically by three of the sources, has a shape that is not
+accusatorial but eliciting — **[Maʿārif]** puts it exactly: the purpose of the questions was to make his brothers open up
+and relate events fully. He asks where they are from; they name their father; he asks whether their father has other
+children; and in answering they tell him, without knowing it, the story of what they did to him — "our youngest died in
+the desert, and he used to be the dearest to his father." The lie they agreed on at 12:18 has now been repeated for
+decades to a stranger, and the stranger is the one it was about.
+
+---
+
+## 12:59
+
+*"And when he had equipped them with their equipment, he said, ʿBring me a brother of yours from your father. Do you not
+see that I give full measure, and that I am the best of hosts?"*
+
+**Meaning.** **[Ṭabarī]** God says: when Yūsuf had loaded their fatherʾs *[read: their]* food for his brothers, and
+laden for each man of them his camel, he said to them, "Bring me a brother of yours from your father," so that I may
+carry for you another camel-load, and that you may increase by it the load of another camel. "Do you not see that I give
+full measure": I do not diminish anyone of it. "And I am the best of hosts": I am the best of people in this town at
+lodging a guest upon himself, so I shall host you. So Mujāhid said, Yūsuf says it: I am the best at hosting in Egypt. And
+Ibn Isḥāq said: when Yūsuf equipped those whom he equipped of the people, he carried for each man of them a camel-load
+according to their number, then said to them, "Bring me a brother of you from your father — I shall assign you another
+camel-load"; "do you not see that I give full measure" — that is, I do not diminish people anything — "and I am the best
+of hosts": that is, better for you than anyone else, for if you bring him I shall honour your station and do you good, and
+you shall increase by him a camel-load with your number, since I give each man of you only one camel-load. And Qatādah
+said of "bring me a brother of you from your father": he means Binyāmīn, who was Yūsufʾs brother by his father and his
+mother. **[Qurṭubī]** One says *jihaztu al-qawma tajhīzan*, I undertook for them their travelling equipment; and *jahāz
+al-ʿarūs* is what is needed at her being given to the husband; and some of the Kūfans permitted *jihāz* with a *kasrah*
+on the *jīm*. The *jahāz* in this verse is the food they provisioned themselves with from him. Al-Suddī said: Yūsufʾs
+brothers had eleven camels, and they were ten, so they said to Yūsuf, "We have a brother who stayed behind from us, and
+his camel is with us." So he asked them why he had stayed behind. They said, "Because of his fatherʾs love for him." And
+they mentioned to him that he had a brother older than him who went out into the wilderness and perished in it. So he
+said to them, "I wanted to see this brother of yours whom you have mentioned, so that I may know the ground of your
+fatherʾs love for him, and know your truthfulness." And it is narrated that they left Shimʿūn with him as a pledge, until
+they should bring his brother Binyāmīn. And Ibn ʿAbbās said: Yūsuf said to the interpreter, "Say to them: your language
+is different from our language, and your dress is different from our dress, so perhaps you are spies." They said, "By God,
+we are not spies; rather we are the sons of one father, and he is an old man, a truthful one." He said, "Then how many
+are you?" They said, "We were twelve, and a brother of ours went out into the wilderness and perished in it." He said,
+"Then where is the other?" They said, "With our father." He said, "Then who knows that you are truthful?" They said, "No
+one here knows us, and we have informed you of our lineages; so by what shall your soul be at rest concerning us?" So
+Yūsuf said, "Bring me a brother of you from your father, if you are truthful; I shall be satisfied with that. Do you not
+see that I give full measure" — that is, I complete it and do not diminish it, and I shall increase for you a camel-load
+for your brother? "But if you do not bring him to me, there is no measure for you with me": he threatened them that he
+would not sell them the food if they did not bring him. "Do you not see that I give full measure" admits two faces: the
+first, that he made the price cheap for them, so it became an increase in the measure; and the second, that he measured
+for them with a full measure. "And I am the best of hosts" has two faces: the first, that he is the best of hosts, because
+he hosted them well — said Mujāhid; the second, and it is possible, that he is the best of those you have lodged with of
+the trustworthy ones. On the first interpretation it is taken from *nuzul*, which is food; on the second, from *manzil*,
+which is the dwelling. "But if you do not bring him to me, there is no measure for you with me": that is, I shall not sell
+you anything hereafter, since he has already given them their measure in full in this instance. "And do not come near me":
+that is, I shall not lodge you with me in the station of one near; and he did not intend that they would be far from him
+and would not return to him, since he urged them to return. Al-Suddī said: he demanded a pledge from them until they
+returned, and took Shimʿūn as pledge with him. Al-Kalbī said: he only chose Shimʿūn from among them because he had been,
+on the day of the well, the best of them in speech and the best of them in opinion. *[Isrāʾīliyyāt]* And "you shall not
+come near" is in the position of jussive by prohibition, which is why the *nūn* was deleted from it, and the *yāʾ* was
+deleted because it is a verse-ending; were it indicative it would be *taqrabūna* with the *nūn* opened. Godʾs words
+"they said, we shall seek him from his father": that is, we shall ask him for him and ask him to send him with us. "And
+we shall do it": that is, we guarantee his coming, and we shall contrive for that. Question: if it is said, how was it
+permissible for Yūsuf to bring grief upon his father by asking for his brother? Four answers are given to this. The first:
+it is possible that God commanded him to that, as a trial of Yaʿqūb, so that his reward would be great, and he obeyed His
+command in it. The second: it is possible that he intended thereby to alert Yaʿqūb to Yūsufʾs state. The third: so that
+Yaʿqūbʾs joy would be doubled by the return of his two sons to him. The fourth: to give his brother the joy of meeting
+him before his other brothers, because of an inclination he had toward him. And the first is the most apparent. And God
+knows best. **[Ibn Kathīr]** "And when he furnished them with their provisions," according to their needs, and gave them
+what they wanted to buy, he said to them, "Bring me your brother from your fatherʾs side whom you mentioned, so that I
+know that you have told me the truth." He continued, "See you not that I give full measure, and that I am the best of the
+hosts?" — encouraging them to return to him. **[Jalālayn]** And when he had equipped them with their provision, when he
+had given them the full measure of food, he said, "Bring me a brother of yours from your father," namely Benjamin, "that
+I might know that you have been truthful in what you said. Do you not see that I give the full measure," that I complete
+it without any fraud, "and that I am the best of hosts?" **[Saʿdī]** "And when he had equipped them with their
+equipment": he measured for them as he measured for others, and it was of his good management that he did not measure for
+each one more than a camel-load. And he had asked them about their state, and they had informed him that they had a
+brother with their father, who was Binyāmīn; so he said to them, "Bring me a brother of you from your father." Then he
+made them eager to bring him, and said, "Do you not see that I give full measure, and I am the best of hosts" — in
+hospitality and honour. **[Maʿārif]** The purpose of Sayyidna Yūsuf in asking these questions was to make his brothers
+open up and relate events fully. So then he asked, "Does your father have any child other than you?" They said, "We were
+twelve brothers, out of whom one of the younger brothers disappeared in the forest. Our father loved him most. After him
+he became attached to his younger real brother, and that is why he did not send him along with us on this trip, so that he
+could be a source of his comfort." After having heard what they said, Sayyidna Yūsuf gave orders that they be lodged as
+royal guests and given grains according to set rules. Sayyidna Yūsuf had established a standing rule of procedure while
+distributing grains: he would not give more than one camel-load of grains to one person at one time, but once this was
+consumed as calculated, he would allow it to be given a second time. Having found out all those details from his
+brothers, it was only natural that he would think about a second visit by them. For this purpose in sight, one obvious
+arrangement he made was to tell his brothers: "Bring to me your step brother from your fatherʾs side. Do you not see that
+I give full measure and I am the best of hosts?" **[Study Quran]** "Provisions" here denotes the food that the brothers
+had purchased from Joseph. The brother from your father whom Joseph has in mind is considered by commentators to be
+Benjamin (see 12:8c), although his name is not mentioned in the Qurʾān. The ten brothers who came to Egypt brought with
+them eleven camels and were requesting eleven camel-loads of food, ten for themselves and one for Benjamin, who was at
+home. But Joseph requested that the other brother who was not present be brought to him, as proof that there was in fact
+another dependent who would justify the purchase of another camel-load of food during a time of scarcity. His question is
+seen as a subtle way of denying the brothers their request without accusing them of wrongdoing (cf. Genesis 42:9–20).
+
+**Language.** *Jahhaza* means to undertake the travelling equipment for a people; *jahāz* is the equipment, and here the
+food they provisioned themselves with, with some Kūfans permitting *jihāz* with a *kasrah* **[Qurṭubī]**. *Ūfī al-kayl*
+admits two readings: he made the price cheap for them, so it became an increase in the measure; or he measured with a full
+measure **[Qurṭubī]**; **[Jalālayn]** glosses it as completing it without fraud. *Khayr al-munzilīn* is either the best of
+hosts, from *nuzul* (food), per Mujāhid, or the best of those you have lodged with of the trustworthy, from *manzil*
+(dwelling) **[Qurṭubī]**; **[Saʿdī]** takes it as best in hospitality and honour. The grammar of *wa-lā taqrabūn* is
+explained twice: it is jussive by prohibition, hence the deleted *nūn*, with the *yāʾ* deleted because it is a
+verse-ending; were it indicative the *nūn* would be opened **[Qurṭubī]**; **[Ṭabarī]** gives the same analysis and
+reconstructs the underlying form as *wa-lā taqrabūnī*.
+
+**Rulings.** **[Qurṭubī]**ʾs question is a real one and he gives four answers: how was it permissible for Yūsuf to bring
+grief upon his father by asking for his brother? (1) It is possible God commanded him to it, as a trial of Yaʿqūb, so that
+his reward would be great, and he obeyed His command in it — the most apparent. (2) It is possible he intended thereby to
+alert Yaʿqūb to Yūsufʾs state. (3) So that Yaʿqūbʾs joy would be doubled by the return of his two sons. (4) To give his
+brother the joy of meeting him before his other brothers, because of an inclination he had toward him. The first answer is
+decisive for the tradition, because it locates the initiative in God rather than in Yūsuf, and it is what makes 12:84
+("his eyes turned white from grief") a meritorious trial rather than an avoidable injury.
+
+**Belief.** **[Study Quran]**, through al-Rāzī, identifies the rhetorical strategy: the brothers had come with eleven
+camels and were requesting eleven camel-loads, ten for themselves and one for Benjamin; and Josephʾs demand for the
+brotherʾs presence was a subtle way of *denying their request without accusing them of wrongdoing*. That is, the demand is
+an evidential requirement rather than a suspicion: produce the dependent and the eleventh load is justified. On this
+reading Yūsuf is not testing their honesty so much as applying a rationing rule impartially and using it to get his
+brother. **[Saʿdī]** and **[Maʿārif]** both note the rule itself: he measured for them as he measured for others, and did
+not measure for any one person more than a camel-load — the same rule that applied to the poorest applicant in Egypt
+applied to the brothers of the minister.
+
+**Cross-references.** 12:8 (Binyāmīn, and the brothersʾ original counsel); 12:60 (the threat); 12:61 (their answer);
+12:62–65 (the return and the goods); 12:84 (Yaʿqūbʾs grief); Genesis 42:9–20 **[Study Quran]**.
+
+**Reflection.** The demand is phrased as a benefit to them, and that is what makes it work. Yūsuf does not say "prove you
+are not spies by bringing your brother"; he says, bring him, "so that I may carry for you another camel-load," and then
+adds two inducements — "do you not see that I give full measure, and that I am the best of hosts" **[Ṭabarī]**. The
+pressure comes not from the threat at 12:60 but from the attractiveness of the offer. And behind the transaction is the
+rule that makes it credible: one camel-load per person. **[Maʿārif]** notes that this was a standing procedure, and that
+once the load was consumed as calculated, he would allow it to be given a second time — so the brothers are not being
+asked for something arbitrary but for the eleventh person whose eleventh load they had already claimed. **[Qurṭubī]**ʾs
+four answers to the question of Yaʿqūbʾs grief are the traditionʾs way of refusing to let the verse stand as a case of a
+prophet causing needless pain to a prophet; and the first answer — that God commanded it as a trial, so that his reward
+would be great — is what the rest of the sūrah depends on, since without it 12:84–86 would read as an injury inflicted by
+one prophet upon another.
+
+---
+
+## 12:60
+
+*"But if you do not bring him to me, there is no measure for you with me, and do not come near me."*
+
+**Meaning.** **[Ṭabarī]** God says, reporting Yūsufʾs saying to his brothers: "But if you do not bring him to me" — your
+brother from your father — "there is no measure for you with me": there is no food with me that I shall measure out for
+you; "and do not come near me": and do not come near my land. And His words "and do not come near me" are in the position
+of jussive by prohibition, and the *nūn* is in the position of accusative, and was broken because its *yāʾ* was deleted;
+and the speech is *wa-lā taqrabūnī*. **[Qurṭubī]** "But if you do not bring him to me, there is no measure for you with
+me": that is, I shall not sell you anything hereafter, since he has already given them their measure in full in this
+instance. "And do not come near me": that is, I shall not lodge you with me in the station of one near; and he did not
+intend that they would be far from him and would not return to him, since he urged them to return. Al-Suddī said: he
+demanded a pledge from them until they returned, and took Shimʿūn as pledge with him. Al-Kalbī said: he only chose
+Shimʿūn from among them because he had been, on the day of the well, the best of them in speech and the best of them in
+opinion. And *taqrabūn* is in the position of jussive by prohibition, which is why the *nūn* was deleted from it, and the
+*yāʾ* was deleted because it is a verse-ending; were it indicative it would be *taqrabūna* with the *nūn* opened.
+**[Ibn Kathīr]** He then threatened them: "But if you bring him not to me, there shall be no measure of corn for you with
+me, nor shall you come near me." He threatened them that if the next time they came without Binyāmīn with them, they would
+not be allowed to buy the food that they need. **[Jalālayn]** "But if you do not bring him to me there will be no
+measure," that is no provisions, "for you with me; and do not come near me." *Wa-lā taqrabūn* is either a prohibition or a
+supplement to the syntactical locus of *fa-lā kayla* — in other words, "and you shall be denied the measure and will not
+be allowed to come near me." **[Saʿdī]** Then he made them fear the consequence of not bringing him, and said, "But if you
+do not bring him to me, there is no measure for you with me, and do not come near me" — and that was because of his
+knowledge of their necessity to come to him, and that it would carry them to bring him. **[Study Quran]** In the Qurʾānic
+account Joseph tells his brothers that without meeting his request he would not do business with them, nor would they even
+be allowed to enter the city, since their failure to meet his condition would mean that they were lying when requesting
+the extra camel-load of food (cf. Genesis 42:9–20).
+
+**Language.** The grammatical analysis is given identically by **[Ṭabarī]** and **[Qurṭubī]**: *wa-lā taqrabūn* is
+jussive by prohibition, the *nūn* deleted for the prohibition and the *yāʾ* deleted because the word is a verse-ending
+(*raʾs āyah*), with the underlying form *wa-lā taqrabūnī*; had it been indicative the *nūn* would have been opened.
+**[Jalālayn]** adds the alternative syntactic analysis: *taqrabūn* may be a supplement to the locus of *fa-lā kayla*, so
+that both clauses share the apodosis — "there is no measure for you, and no coming near." *Kayl* means measure and, by
+extension, the measured food itself **[Jalālayn]**; *lā kayla lakum ʿindī* is glossed by **[Qurṭubī]** as "I shall not sell
+you anything hereafter," with the reason that he has already given them their full measure on this occasion.
+
+**Belief.** **[Saʿdī]** supplies the single most important observation on the verse: the threat worked because of his
+knowledge of their necessity. He knew they would have to come back — the famine was seven years long and they had eaten a
+camel-load — so the threat was not a bluff and not a cruelty; it was a lever he could rely on. This is the practical
+knowledge of 12:47–49 turned to a family end: the same forecast that told him Egypt would need grain for seven years told
+him Canaan would too.
+
+**Cross-references.** 12:59 (the demand); 12:61 ("we shall seek him from his father"); 12:62–65 (the returned goods and
+the report to Yaʿqūb); 12:8 (Binyāmīn); 12:15 (the well, on which al-Kalbīʾs choice of Shimʿūn turns); Genesis 42:9–20
+**[Study Quran]**.
+
+**Reflection.** Read alone, this verse is harsh: a famine minister threatening starving men with exclusion. Read with
+**[Saʿdī]**ʾs remark, it is something else — a man who knows exactly how much pressure the situation permits him to apply,
+and applies no more than is needed. He has already given them their full measure; he has hosted them; he has not accused
+them of lying. The condition is prospective, not punitive, and **[Qurṭubī]** is careful to say he did not intend that they
+would be far from him and would not return, "since he urged them to return." And there is a detail in the tradition that
+reframes the whole exchange. Al-Suddī says he took a pledge from them, Shimʿūn; and al-Kalbī says he chose Shimʿūn because
+on the day of the well he had been the best of them in speech and the best of them in opinion. If that is right, the
+hostage is not a random brother but the one who had argued most persuasively at 12:9–10 — "do not kill Yūsuf, but cast him
+into the depth of the well" — and who is now held, alone in Egypt, by the brother he had spared. The Qurʾān does not say
+this. It says only, "there is no measure for you with me, and do not come near me."
+
+---
