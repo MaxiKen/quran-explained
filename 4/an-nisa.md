@@ -1216,3 +1216,535 @@ could you take it back, when you have gone in to one another, and they have take
 (4:21); "Do not retain them in order to harm them" (2:231).
 
 
+## 4:21
+
+*"And how could you take it back, when you have gone in to one another, and they have taken from you a firm
+covenant?"*
+
+**Meaning.** **[Ṭabarī]** "And how do you take it" — on what ground do you take back from your women the
+dowries you gave them, when you intend to divorce them and exchange others for them — "when some of you have
+gone in to others": when you have touched and lain together. And although the sentence has the form of a
+question, it carries censure and severity — as a man says to another, "How can you do such a thing when I am
+not pleased with it?" — by way of threat and warning. *Ifḍāʾ* to a thing is reaching it by direct contact.
+**[Jalālayn]** By what right would you take it, when each of you has been privately with the other through
+intercourse that validates the dowry, and "they have taken from you a solemn covenant" — a binding pledge.
+That covenant is what God commanded: that wives be retained honourably or set free in virtue.
+
+**Rulings.** **[Maʿārif]** How can you take back what you gave her, when not only the marriage has been
+solemnised but you have had access to one another in privacy? In that situation whatever was given as dower
+is hers by right: she now owns it because she surrendered herself to her husband, and the thought that it
+could be returned is senseless. Even if the property given was a gift rather than a dower, it is not
+possible that it be taken back, for what husband and wife give one another as gifts cannot be reclaimed —
+such a claim is neither permissible under the Sharīʿah nor legally enforceable. On the "firm covenant" of
+the verse's close: it is the bond of marriage solemnly attested with the name of God before a gathering of
+people after a *khutbah*. Once this marital covenant has been made and mutual privacy has brought the couple
+close together, it is not for the husband to force back what he gave.
+
+**Language & rulings.** **[Study Quran]** *Afḍā ilā* literally means to come upon someone, usually in a
+private or intimate manner: an indirect reference to intimate sexual contact or intercourse, or to the couple
+having been alone together or having lain under one cover. For Abū Ḥanīfah, the couple's being alone
+together suffices to entitle the woman to the full bridal payment; for al-Shāfiʿī it entitles her to half.
+And while v. 19 allows a husband to reclaim some of the bridewealth if the wife is guilty of flagrant
+indecency, the Prophet reportedly refused to allow a husband to reclaim the bridal payment in two cases: one
+in which a man had accused his wife of indecency and the two were separated by mutual cursing (24:6–9), and
+one in which a groom discovered that his new bride was pregnant by another. A husband may accept back part
+or all of the bridewealth in *khulʿ* divorce (2:229), since there it is the wife who seeks the separation.
+The word *mīthāq*, "covenant," normally designates the covenants God made with the Israelites, the prophets
+and the believers; here it refers to the covenantal words the groom utters at the marriage, or to his assent
+to the charge — sometimes issued by the bride's guardian — that he keep her well; so the marriage of a Muslim
+is lifted from the plane of contract and made a covenant sworn before God.
+
+**Reflection.** **[Ṭabarī]** The argument has three links, each heavier than the last: she has given what
+only she can give, you have received what only you can receive, and it was exchanged under a covenant whose
+witness is God. A man who would take his dowry back does not merely reclaim property; he would unwrite a
+covenant. **[Maʿārif]** draws the practical consequence: the marital bond itself prevents the taking back of
+what was given, whether as dower or as gift, so that the verse becomes a wall around the woman's property
+raised out of the honour of the agreement itself.
+
+**Cross-references.** "And do not take it back, unless you both fear that you cannot uphold the limits of
+God" (2:229); "Do not retain them in order to harm them" (2:231); "And how could you take it back" stands
+between the prohibition of v. 20 and the prohibition of the stepmother in v. 22; "And they have taken from
+you a firm covenant" is echoed in the covenant of the prophets (33:7).
+
+
+## 4:22
+
+*"And marry not those women whom your fathers married — except what has already passed. Truly it was
+indecency and loathing, and an evil way."*
+
+**Meaning.** **[Ṭabarī]** The verse was revealed about a people who used to succeed their fathers in their
+wives; Islam came upon them in that state and God forbade them to remain in it, pardoning what had passed of
+that conduct in their days of *Jāhiliyyah* and idolatry if they feared God in their Islam and obeyed Him in
+it. Ibn ʿAbbās said: the people of the *Jāhiliyyah* used to forbid all that is forbidden — except the wife
+of the father and the combining of two sisters; so God sent down, "And marry not what your fathers married,"
+and "and that you combine two sisters." **[Qurṭubī]** Some people continued to marry their father's wife
+with her consent even after "It is not lawful for you to inherit women by coercion" (4:19), until this verse
+was sent down, and then the practice became forbidden in every circumstance. Since *nikāḥ* in Arabic covers
+both wedlock and sexual intercourse, the prohibition reaches the woman whether the father married her or had
+relations with her outside marriage. On the words "what your fathers married": some took the referent to be
+the women, others the marriage contract itself — the corrupt marriage that contravened God's religion, which
+was Ṭabarī's chosen view. **[Jalālayn]** "Except what has already passed" — it is forgiven you; "truly it
+was obscenity and loathing (*maqtan*) and an evil way": *maqtan* means that it brings down on its doer
+severe hatred from God.
+
+**Rulings & meaning.** **[Saʿdī]** Do not marry any of the women your fathers married — the father and
+those above him in the line. "It was an indecency" — a deed that is ugly and grows in ugliness in God's
+sight; "and loathing" — loathing from God for you, and from people too, so that the son loathes his father
+and the father the son, even though the son is commanded to be dutiful to him; "and an evil way" — the worst
+of paths for the one who walks it, since it belongs to the customs of the *Jāhiliyyah* from which Islam came
+to set people free. **[Study Quran]** The pre-Islamic Arabs reportedly recognized the same marriage
+prohibitions as those stipulated in the Qurʾān, except that they would marry their fathers' wives and allow
+marriage to two sisters; vv. 22–23 prohibit these two practices. After v. 19 some Muslim men continued to
+marry their fathers' wives as long as the women consented; this verse then established an absolute
+prohibition, with or without coercion. It was reportedly revealed in regard to four different cases in which
+a man desired to marry his deceased father's wife — among them Qays, son of Abū l-Qays b. al-Aṣlat, a Madinan
+Muslim, whose father's widow felt the proposal improper and consulted the Prophet, whereupon this verse came
+down banning the practice absolutely. The ban applied even where the father's marriage was never consummated;
+conversely it applied to any woman with whom one's father had sexual relations, even outside wedlock, with
+an exception only for such relations before Islam. Marrying the wife of one's father is loathsome because it
+is hateful to God and because the practice may engender loathing for one's own father.
+
+**Reflection.** **[Maʿārif]** The verse closes the door on an evil so rooted in custom that the
+*Jāhiliyyah* could not see it: how can a man keep calling a woman his mother for years and then make her his
+wife? **[Saʿdī]** observes that the three descriptions rise: an indecency — a foul act in itself; a loathing
+— a foulness that corrupts the nearest of relations; an evil way — a road whose end is ruin. And the
+exception "except what has already passed" shows the method of the sūrah: the law judges the practice, not
+the men who had inherited it from the age of ignorance.
+
+**Cross-references.** "And marry not women whom your fathers married" stands beside the covenant of 4:21,
+guarding the household; "Your mothers and daughters are forbidden to you" (4:23); "And do not marry what
+your fathers married" is echoed in the prohibition of marrying the Prophet's widows (33:53).
+
+
+## 4:23
+
+*"Forbidden to you are your mothers, your daughters, your sisters, your paternal aunts, your maternal aunts,
+your brother's daughters, your sister's daughters, your milk-mothers, your milk-sisters, your wives'
+mothers, your stepdaughters who are in your care, born of your wives with whom you have gone in — but if you
+have not gone in to them, there is no blame on you — and the wives of your sons who are of your loins, and
+that you bring together two sisters, except what has already passed. Truly God is Forgiving, Merciful."*
+
+**Rulings.** **[Ibn Kathīr]** This is the verse that establishes the degrees of women relatives never
+eligible for marriage — by blood relations, relations established by suckling and relations by marriage.
+Ibn ʿAbbās said, "God said: I have prohibited for you seven types of relatives by blood and seven by
+marriage," and then recited the verse. Al-Ṭabarī recorded that Ibn ʿAbbās said, "Seven degrees of blood
+relation and seven degrees of marriage relation are prohibited," and named the blood ones: mothers,
+daughters, sisters, paternal aunts, maternal aunts, brother's daughters, sister's daughters. "Your
+foster-mothers who suckled you, your foster milk-suckling sisters" means that just as your mother who bore
+you is forbidden, so is your mother from suckling. Al-Bukhārī and Muslim record that ʿĀʾishah, Mother of the
+Faithful, reported that the Messenger of God ﷺ said: "Suckling makes unlawful what kinship makes unlawful."
+**[Jalālayn]** The forbidden foster relations run through the milk: your foster-mothers who have given you
+milk — five times within the first two years, as a *ḥadīth* lays down — and your foster sisters; and by the
+Sunna, their daughters too, including those suckled by a woman with whom the man has had intercourse, or
+suckled by his paternal or maternal aunts, or by his brother's or sister's daughters, on the strength of the
+Prophet's ﷺ saying, "What kinship makes unlawful, suckling also makes unlawful" (al-Bukhārī and Muslim). The
+stepdaughters (*rabāʾib*, plural of *rabībah*, the daughter of one's wife by another husband) are forbidden
+if born of wives you have gone in to; if you have not gone in to them, there is no blame in marrying their
+daughters. The spouses of your sons who are of your loins are forbidden, as opposed to sons adopted, whose
+spouses may be married. And it is forbidden to take two sisters together, whether by kinship or suckling;
+the Sunna adds that a woman may not be married together with her paternal or maternal aunt.
+
+**Rulings.** **[Qurṭubī]** The verse forbids seven by lineage, and six by suckling and marriage, while the
+mass-transmitted Sunna and the consensus add the seventh in that class — the joining of a woman with her
+aunt. Ibn ʿAbbās's reckoning of seven by *nasab* and seven by *ṣihr* is confirmed in the transmission, as is
+the statement of ʿAmr b. Sālim, client of the Anṣār, with the seventh of the marriage class being "and the
+married women" (4:24).
+
+**Rulings.** **[Saʿdī]** The forbidden by lineage are the seven the verse names, and the scholars agree:
+"mothers" includes every woman who has a birth relationship to you, however distant; "daughters," every
+woman to whom you stand as an ancestor; sisters, whether full, paternal or maternal; "paternal aunts," every
+sister of your father or grandfather however high; "maternal aunts," every sister of your mother or
+grandmother however high, whether she inherits or not; brother's and sister's daughters, however far down.
+Everything beyond them enters under "lawful for you are all besides these" — such as the daughter of a
+paternal uncle or aunt and the daughter of a maternal uncle or aunt. The forbidden by suckling: God
+mentioned the milk-mother and the milk-sister, and since the milk that makes a woman a mother is not hers
+but belongs to the one whose milk it is, He thereby indicated that the owner of the milk becomes a father to
+the suckled child; so once fatherhood and motherhood are established, all that branches from them follows —
+their siblings, their forebears and their descendants — as the Prophet ﷺ said, "Suckling makes unlawful what
+kinship makes unlawful." The prohibition spreads from the wet nurse and the one whose milk it is, and from
+the suckled child to his descendants, on condition that the suckling be five nursings within the two years,
+as the Sunna has made clear. The forbidden by marriage are four: the wives of fathers however high, the
+wives of sons however low, the mothers of wives however high — these three forbidden by the mere contract —
+and the fourth, the stepdaughter (*rabībah*), the daughter of the wife however far down, forbidden only once
+the wife has been entered. The majority held "who are in your care" came out in the nature of what usually
+happens and carries no restrictive meaning: the stepdaughter is forbidden even if not in one's care; but the
+restriction has two benefits — it points to the wisdom of the prohibition, that she was as a daughter, and it
+indicates that one may be alone with the stepdaughter as with one's own daughters.
+
+**Reflection.** **[Study Quran]** A milk-mother is a wet nurse who nurses a child without being its
+biological mother; the Qurʾān permits parents to pay a wet nurse (2:233; 65:6), and the relation created by
+suckling has a legal status close to blood: a woman who nursed a man as a child is a *maḥram* to him — he may
+never marry her. The same prohibitions extend to the wet nurse's biological children and husband and to
+others she nursed; two exceptions are that a man may marry the sister of his milk-son or the mother of his
+milk-brother. Since al-Shāfiʿī considered that a man's biological daughter born out of wedlock might not fall
+under the prohibition, the other schools — and the sound view — prohibit marriage to any biological daughter.
+**[Maʿārif]** draws the lesson from the order of the list: God began with the mothers and ended with the
+gathering of two sisters — the protection of the household from its root to its branches. **[Saʿdī]** adds
+the summary the passage yields: these verses gather the forbidden by lineage, by suckling and by marriage,
+the forbidden by combination, and the lawful besides them all.
+
+**Cross-references.** "And marry not what your fathers married" (4:22); "And do not approach *zinā*"
+(17:32); "Lawful to you are the chaste believing women" (5:5); the exception clause "save what has already
+passed" appears in both v. 22 and v. 23.
+
+
+## 4:24
+
+*"And married women, save those whom your right hands possess — thus has God prescribed for you. And lawful
+for you are all besides that, so that you seek them with your wealth in chastity, not in fornication. And
+those whom you enjoy thereby, give them their wages as an obligation; and there is no blame on you in what
+you agree to after the obligation. Truly God is Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** Forbidden to you are the married women — those with husbands — except those whom
+your right hands possess. The commentators differed on the *muḥṣanāt* meant here. Ibn ʿAbbās said: every
+woman with a husband — approaching her is adultery — except the one you take as captive: the slave-girls
+taken in war, whom captivity separated from their husbands, become lawful to their possessors without a
+divorce from the enemy husband. **[Ibn Kathīr]** The verse forbids marrying women already married, except
+those acquired in war, whom you may have after making sure they are not pregnant. Aḥmad records from Abū
+Saʿīd al-Khudrī: "We captured some women from the area of Awṭās who were already married, and we disliked
+having relations with them since they had husbands; we asked the Prophet ﷺ, and this verse was revealed:
+'and married women, save those whom your right hands possess.' So we had relations with them" — collected by
+al-Tirmidhī, al-Nasāʾī, Ibn Jarīr and Muslim. "Thus has God prescribed for you" means: this prohibition was
+ordained for you by God, so adhere to His Book, do not transgress His limits, and hold to His legislation
+and decrees. "And lawful for you are all besides that" — women other than the prohibited types — provided
+you seek them with a dowry from your property, desiring chastity and not fornication.
+
+**Meaning.** **[Jalālayn]** *Muḥṣanāt*: the married women, whether free Muslims or not; then excepted are
+the slave-girls taken as captives, whom one may have, though only after they are cleared of the possibility
+of pregnancy by the completion of one menstrual cycle. "Lawful for you, beyond all that, is that you seek
+women with your wealth by way of a dowry in wedlock, not fornicating" — and "such wives as you enjoy, give
+them their wages": the dowries you assigned them as an obligation; you are not at fault in agreeing together,
+you and they, after the obligation is waived, decreased or increased. **[Qurṭubī]** On the etymology: *taḥaṣṣun* is
+prevention — whence the *ḥiṣn*, a fortress, because one is protected inside it; the *ḥiṣān*, a stallion,
+because he protects his owner from destruction; the *ḥaṣān*, a chaste woman, because she prevents herself
+from ruin; and Ḥassān's line about ʿĀʾishah: *a chaste, dignified woman, never suspected of anything
+dubious*. Here *muḥṣanāt* means those who have husbands: a married woman is *muḥṣanah*, and a free woman is
+also *muḥṣanah*.
+
+**Rulings.** **[Saʿdī]** The verse draws the line of the permissible: everything outside the prohibited
+degrees is lawful when sought through wealth in marriage and chastity — a dowry paid, a bond contracted —
+not through fornication in secret. And the dowries of slave-girls are due, as the dowries of free women are,
+for the wage is owed to the wife as such. **[Study Quran]** sets out how the commentators read the verse: it
+was reportedly revealed about women captured at Ḥunayn (8/630), whom the Muslims were concerned about
+marrying or lying with, since they were the wives of the defeated tribesmen — the verse indicated that a
+Muslim man could marry or have relations with them without a formal divorce from their former husbands, so
+long as they waited a month to ensure they were not pregnant by the former husbands; other reports make the
+verse forbid the Muslims of Madīnah from marrying the women who had emigrated from Mecca while still married
+to idolaters there, since the husbands might later become Muslims and seek to rejoin them. Some extended the
+exception to purchased slave-women: a man's purchase effectively divorced her from her husband; others
+questioned this, citing a ḥadīth of the Prophet showing the opposite, and held that those whom your right
+hands possess means only female war captives. Some read the verse as a continuation of v. 3, with *muḥṣanāt*
+meaning women beyond the limit of four; some take it as forbidding illicit relations in general, allowing
+relations only with those whom one possesses through marriage or slavery; and some take *muḥṣanāt* to include
+all its referents — married, free or chaste women, Muslim or of the People of the Book — with the only
+exception being slave or captive women who were neither Jewish nor Christian.
+
+**Reflection.** **[Study Quran]** The bridal payment here is called *ujūr*, literally "wages," where other
+verses say *ṣaduqāt* (4:4) and *farīḍah* (2:236–37); the term *mahr* is not Qurʾānic. A widely reported
+early interpretation connected the phrase "those whom you enjoy thereby" with *mutʿah*, temporary marriage:
+the verb *istimtaʿtum* is related to that term, and a number of prominent early authorities, including
+al-Suddī, Ubayy b. Kaʿb and Ibn ʿAbbās, are reported to have recited the verse with an additional phrase —
+"for a term appointed" — and Ibn ʿAbbās and the Shīʿī commentators took it as a reference to *mutʿah*; most
+Sunnis hold the practice forbidden by the Prophet at the end of his life, or by the second caliph ʿUmar.
+**[Maʿārif]** Reads "married women" first of all as a settled prohibition: as long as a woman is married to
+one man, no other may marry her; hence it is clear that a woman cannot have more than one husband at the
+same time — an arrangement that would make lineage unknowable and degrade the two men, and for which no
+religion and no society has found a place. Whatever is beyond the prohibited degrees is lawful when married
+with a proper dowry, and the dowry remains the wife's right, alterable only by her free agreement.
+
+**Cross-references.** "And give the women their dowries as a free gift" (4:4); "Marry such women as seem
+good to you, two, three or four" (4:3); "This day the good things are made lawful to you, and the food of
+those given the Book is lawful to you, and your food is lawful to them, and the chaste women among the
+believers and the chaste women among those given the Book before you" (5:5); "And let those who cannot find
+the means to marry keep chaste until God enriches them out of His bounty" (24:33).
+
+
+## 4:25
+
+*"And whoever among you has not the means to marry free believing women, then let him marry believing
+slave-girls of those whom your right hands possess; God knows best your faith — you are of one another. So
+marry them with the permission of their people, and give them their dowries in kindness, as chaste women,
+not fornicators or lovers. And when they are married, if they commit an indecency, their punishment is half
+that of free women. That is for him among you who fears to fall into sin; but that you be patient is better
+for you. And God is Forgiving, Merciful."*
+
+**Meaning.** **[Ṭabarī]** *Al-ṭawl* means breadth and wealth: Mujāhid, Saʿīd b. Jubayr and Ibn ʿAbbās said it
+is wealth and capacity; Qatādah said: whoever among you is not able to find breadth. **[Qurṭubī]** Three
+views of *ṭawl* are reported: wealth and capacity — the view of Ibn ʿAbbās, Mujāhid, Saʿīd b. Jubayr,
+al-Suddī, Ibn Zayd and Mālik in the *Mudawwanah*; and this is what most scholars take, and al-Shāfiʿī, Aḥmad,
+Isḥāq and Abū Thawr with them. Its meaning here is the ability to pay the dowry. **[Jalālayn]** "Whoever
+among you cannot afford to marry free believing women" — *muḥmināt* being in accordance with the prevalent
+practice, not adding to the import — "let him marry believing slave-girls whom your right hands own"; God
+knows very well your faith, so be content with its outward manifestation and leave the inner matters to Him,
+for many a slave-girl may excel a free woman in faith. Marry them with the permission of their folk, their
+guardians, and give them their wages — their dowries — honourably, without delay or diminution, as chaste
+women, not as fornicators openly nor as takers of secret lovers.
+
+**Rulings.** **[Saʿdī]** The permission for a free Muslim man to marry a slave-girl is bound by four
+conditions, all named in the verse: faith in them, chastity outwardly and inwardly, inability to afford a
+free woman, and the fear of falling into sin (*al-ʿanat*). When these are complete, marriage to them is
+permissible; even then, patience away from it is better, because of what it exposes children to of slavery
+and of what it brings of lowliness and reproach — whenever patience is possible. If patience from the
+forbidden cannot be maintained except by marrying them, then it becomes the duty. Hence God says, "and that
+you be patient is better for you." **[Ibn Kathīr]** The slave-girl cannot marry without her owner's
+permission, and a *ḥadīth* states: "Whichever slave marries without his masters' permission is a
+fornicator." **[Study Quran]** A minority variant reading has *al-muḥṣināt* for *al-muḥṣanāt* — the active
+participle, those who make themselves chaste; the verse indicates the permissibility of fully marrying slave
+women, but women belonging to others, not one's own; since the word for "marry" can also mean to have
+relations, a minority took it to permit relations with one's own slave woman, though this seems a minority
+view. Most understood it to mean that a man could fully marry a slave woman if he could not afford a free
+believing woman, or feared he would sin.
+
+**Rulings.** **[Jalālayn]** "And when they are given in wedlock" — read passively *uḥṣinna*, or, in another
+reading, actively *aḥsanna*, "they enter into wedlock" — "if they commit lewdness, they shall be liable to
+half the chastisement of free women": the fifty lashes and half a year's banishment that the free married
+woman receives; male slaves by analogy are liable to the same. God did not make wedlock the precondition of
+the prescribed punishment for them, showing that stoning does not apply in their case. **[Saʿdī]** The half
+applies precisely to what admits of halving — the lashing: the slave woman gets fifty lashes; and there is no
+stoning for slave women, because stoning cannot be halved. The verse closes with the names *al-Ghafūr* and
+*al-Raḥīm* because these rulings are mercy to the servants, generosity and goodness toward them: God did not
+make things narrow for them but widened them to the utmost.
+
+**Reflection.** **[Maʿārif]** The verse indicates that a man should, as far as possible, marry a free woman
+and simply not marry a bondswoman; but if he must, he should look for a bondswoman who is a Muslim. This is
+the juridical position of Abū Ḥanīfah, according to which marrying a bondswoman — especially one from the
+People of the Book — while having the power and means to marry a free woman is *makrūh*; al-Shāfiʿī and
+others held it permissible in all states. And this last permission, set beside the harshness of the
+prohibitions, is where the sūrah turns to say why: God desires to lighten, and man was created weak.
+
+**Cross-references.** "And whoever among you cannot afford to marry free believing women" is completed by
+"And let those who cannot find the means to marry keep chaste until God enriches them out of His bounty"
+(24:33); "the chaste women among the believers and the chaste women among those given the Book" (5:5); "God
+wishes to lighten what is upon you" (2:178).
+
+
+## 4:26
+
+*"God desires to make clear to you, and to guide you to the ways of those before you, and to turn to you in
+mercy. And God is Knowing, Wise."*
+
+**Meaning.** **[Ṭabarī]** "God desires to make clear to you" His lawful and His unlawful; "and to guide you
+to the ways of those before you" — to direct you to the paths of those who were before you of the believers
+in God and His prophets, and to their ways in what He forbade you of marrying mothers, daughters, sisters
+and the rest of what He forbade in the two verses that set out the prohibited women; "and to turn to you" —
+God desires to bring you back to His obedience in that, from the disobedience you practised before Islam and
+before He revealed what He revealed to His prophet, so that He may pardon what passed before your return and
+repentance. **[Jalālayn]** God desires to make clear to you the laws of your religion and what is in your
+best interest, and to guide you in the ways of the prophets before you in what is lawful and unlawful, so
+that you follow them, and to turn forgivingly toward you, bringing you back from disobedience to obedience;
+God is Knowing of you, Wise in what He has ordained for you.
+
+**Meaning & belief.** **[Saʿdī]** The verse announces God's great favour and His generosity, and the
+excellence of His upbringing of His believing servants, and the ease of His religion: He wants to clarify
+everything you need clarified of truth and falsehood, lawful and unlawful; He wants to guide you to the ways
+of those before you — those whom God favoured among the prophets and their followers, in their praiseworthy
+conduct, their sound deeds, their complete character and the full success granted them; and He wants to turn
+to you — dealing gently with you in what He legislates, so that you are able to stand by what God has
+delimited and be content with what He has made lawful, so that your sins diminish because God has made
+things easy for you. Among His turning to His servants is that when they sin, He opens the doors of mercy,
+puts in their hearts a turning back to Him and humility before Him, and then accepts what He enabled them to
+do. And God is Knowing, Wise: of His knowledge, He taught you what you did not know, among it these laws; of
+His wisdom, He turns to whom His wisdom and mercy require and abandons whom His wisdom and justice require.
+**[Qurṭubī]** The verse indicates that no case on earth is without a ruling from God — "We have not
+neglected anything in the Book" (6:38) — and al-Farrāʾ notes that the Arabs use *lām* and *an* interchangeably
+after verbs of willing, so "God desires to make clear" appears with *li-,* and "God desires to lighten"
+with *an*.
+
+**Reflection.** **[Maʿārif]** These verses follow the details of the marriage injunctions with the reminder
+that the obligations are for your own good, even where the good is not visible in detail; then comes the
+motivation to follow them, and the warning against the ill intentions of the misguided who wish you to stray
+far from the straight path. The law of the sūrah is not a burden laid on a people who have no share in it:
+it is the same law by which God guided the righteous communities before, made clear in the measure that
+their weakness needs.
+
+**Cross-references.** "And We have sent down the Book to you as a clarification of all things" (16:89);
+"Whoever among you does evil in ignorance and then repents — surely He is Forgiving, Merciful" (6:54); "God
+desires to make clear to you, and to guide you to the ways of those before you" pairs with "man was created
+weak" (4:28).
+
+
+## 4:27
+
+*"And God desires to turn to you in mercy; but those who follow their lusts desire that you should deviate
+with a terrible deviation."*
+
+**Meaning.** **[Ṭabarī]** God desires to bring you back to His obedience and to turning to Him, so that He
+may forgive what has passed of your sins and overlook what was yours in your days of ignorance of taking as
+lawful what was forbidden to you — the wives of your fathers and your sons and other such things. "But those
+who follow their lusts desire that you deviate" from God's command and swerve from it by doing what He has
+forbidden and riding into His disobedience — "with a terrible deviation," a violent swerving away from it.
+The commentators differed on those described as followers of lusts: Mujāhid said they are the fornicators;
+al-Suddī said they are the Jews and Christians; a group said the Jews specifically, since they desired that
+you follow them in what they permitted and forbidden of their own religion. **[Qurṭubī]** The verse's
+syntax: "God desires to turn to you" — the meaning being that God desires your repentance, that is, He
+accepts it and so overlooks your sins; and God desires to lighten for you. It was said this refers to all
+the rulings of the law, and this is sound; and it was said the lightening means specifically the marriage of
+slave-girls: when We knew your weakness to hold back from women, We lightened it for you by permitting slave
+women — said by Mujāhid, Ibn Zayd and Ṭāwūs. Ṭāwūs said: a man is never weaker in anything than he is in the
+matter of women. On the followers of lusts: Mujāhid said they are the fornicators, al-Suddī the Jews and
+Christians, and a faction the Jews in particular.
+
+**Meaning & belief.** **[Saʿdī]** "And God desires to turn to you" — a turning that mends your scattered
+state, gathers your dispersal and brings near what is far; "but those who follow their lusts" — those who
+incline with their desires wherever they incline, preferring them to what pleases their Beloved, and who
+worship their whims, among the disbelievers and the disobedient who put their desires ahead of obedience to
+their Lord — they want you to "deviate with a terrible deviation": to swerve from the straight path to the
+path of those who have incurred wrath and those who have gone astray, to be turned from obedience to the
+Merciful to obedience to Satan, and from keeping the limits of the One in whose obedience lies all happiness
+to following the one in whose following lies all wretchedness. **[Jalālayn]** God repeats "desires to turn"
+to expand upon it; the Jews, Christians, Magians and adulterers desire that you deviate terribly — crossing
+what is right by committing what has been forbidden you, so that you might be like them.
+
+**Reflection.** **[Saʿdī]** Since you know that God commands you only what holds your welfare and success,
+and that those who follow their desires desire only your ruin, the two roads are laid out with their
+destinations: one road is a turning back to the Lord, whose sign is the acceptance of a mercy already
+prepared; the other is an invitation to a deviation whose name in the verse is "terrible" not because it
+travels far, but because it travels from near the truth.
+
+**Cross-references.** "God desires to make clear to you" (4:26); "But as for those who disbelieve, they
+enjoy and eat as the cattle eat, and the Fire is their abode" (47:12); "And who is more astray than the one
+who follows his own desire without guidance from God?" (28:50).
+
+
+## 4:28
+
+*"God desires to lighten things for you; and man was created weak."*
+
+**Meaning.** **[Ṭabarī]** God desires to make things easy for you by permitting you to marry believing
+slave-girls when you cannot afford a free woman; and man was created weak — He made this concession for you
+because you were created weak and incapable of abstaining from intercourse with women, with little patience
+for it. So He permitted you to marry your believing slave-girls when you fear temptation for yourselves and
+cannot find the means to marry a free woman, so that you should not commit fornication — because of your
+small patience in abstaining from women. Mujāhid said: God desires to lighten concerning the marriage of the
+slave-girl and in everything in which there is ease. Ṭāwūs said about "man was created weak": in the matter
+of women.
+
+**Meaning & rulings.** **[Qurṭubī]** This is the general ruling: the lightening covers all the rulings of
+the Sacred Law — this is the sound view — and it was also said that the lightening intended is the marriage
+of the slave-girl. Ṭāwūs said: a man is never weaker in anything than in the matter of women.
+**[Ibn Kathīr]** God's legislation, His commands and prohibitions and what He decrees for you are lightened;
+this is why God allowed free men to marry slave-girls under certain conditions, as Mujāhid and others said,
+and "man was created weak" — for which reason it suits him that the commands be made easy, given his weakness
+and feebleness. Ibn Abī Ḥātim recorded from Ṭāwūs on "man was created weak": concerning women. Wakīʿ said:
+man's mind leaves when women are involved. **[Saʿdī]** The sūrah's whole movement from the strictness of the
+prohibited degrees to this permission is a lesson in proportion: the law of God does not pretend man is
+other than he is; it forbids what must be forbidden, restricts what must be restricted, and then opens a
+lawful door exactly at the point of human weakness, so that the servant is not driven to the unlawful.
+
+**Reflection.** **[Maʿārif]** The verse says God intends ease: injunctions are prescribed that can be
+carried out by everyone obligated with them. If a man cannot afford to marry free women, he may marry
+bondswomen; the parties to a marriage may settle the dower by mutual agreement; and more than one wife is
+permitted under circumstantial necessity, on condition that justice is not compromised. At the end the text
+says man is weak by nature and constituted desire-prone: had he been commanded to stay away from women
+totally and absolutely, he would have been hopeless at obeying the injunctions of God. It was in view of his
+weakness and limitation that he was not only permitted to marry but induced to do so; and the married life of
+a couple offers the benefits of mutual fulfilment toward which the verse turns the reins.
+**[Study Quran]** Notes that the nearer context of the lightening is the permission for men of insufficient
+means to marry slave women; that "man was created weak" means weak in the capacity to resist sexual desire
+and attraction to women for long; and that the Qurʾān records God's lightening elsewhere — the reduction of
+the daily prayers at the Prophet's request during the Night Journey, the relaxation of the fast at night in
+Ramadan (2:187), the concession in battle (8:66) — for God desires ease for His servants (2:185).
+
+**Cross-references.** "God intends ease for you, and does not intend hardship for you" (2:185); "God does
+not burden a soul beyond its capacity" (2:286); "And He has not laid upon you in religion any hardship"
+(22:78).
+
+
+## 4:29
+
+*"O you who believe, do not consume your wealth among yourselves wrongfully, unless it be a trade by mutual
+consent among you. And do not kill yourselves. Truly God is Merciful toward you."*
+
+**Meaning.** **[Ṭabarī]** Do not let some of you consume the wealth of others by what God has made unlawful
+for them — of usury, gambling and the other things God has forbidden. Al-Suddī said: their consuming one
+another's wealth wrongfully means by usury, gambling, short measure and injustice. "Unless it be a trade by
+mutual consent among you" — that is, unless the wealth is acquired as trade voluntarily agreed between you.
+**[Jalālayn]** Trading (*tijārah*) — or, by another reading, *tijāratun* — so that the wealth comes from
+trade effected by mutual good-will; such wealth you may consume. "And do not kill yourselves" by committing
+what leads to destruction in this world or the Hereafter; God is ever Merciful to you in forbidding you such
+things.
+
+**Rulings.** **[Saʿdī]** God forbids His believing servants to consume one another's wealth wrongfully:
+this includes taking it by usurpation and theft, by gambling and base earnings — and it may include spending
+one's own wealth in insolence and waste, for that is part of wrongfulness and not of right. Then, having
+forbidden acquiring it wrongfully, He made lawful acquiring it through trade and other gains free of
+impediments and complete in their conditions, among them mutual consent. "And do not kill yourselves": do not
+let some of you kill others, and do not let a person kill himself — and this includes casting oneself into
+destruction and undertaking the risks that lead to death and perdition. "Truly God is ever Merciful to you":
+part of His mercy is that He protected your lives and your wealth and forbade you to waste and destroy them,
+and prescribed for that the penalties He prescribed. Consider the brevity and the comprehension of "do not
+consume your wealth" and "do not kill yourselves": how it gathers the wealth of another and one's own wealth,
+the killing of oneself and the killing of another, in a phrase more concise than "let not some of you eat the
+wealth of others, nor kill one another" — while the attribution of the wealth and the selves to the community
+of believers indicates that the believers, in their mutual love, mercy and sympathy and in their interests,
+are like one body, since faith gathers them for their religious and worldly good. Trade is conditioned on
+mutual consent, which shows that the contract must not be one of usury — for usury is not trade but contrary
+to its purpose — and that each of the two parties must consent and act by choice; and part of the completion
+of consent is that the object be known, since if it is unknown consent cannot be conceived, and — because
+what one is unable to deliver resembles gambling — sales of uncertainty are excluded.
+
+**Rulings.** **[Qurṭubī]** Among the forms of consuming wealth wrongfully is the earnest-money sale
+(*bayʿ al-ʿurbān*): a man takes the goods or hires the animal and gives a dirham or more on the condition
+that if he buys the goods or rides the animal the sum counts toward the price or the hire, and if he desists
+the sum is the seller's. This is not valid and not permissible with the body of the jurists of the regions,
+Ḥijāzīs and ʿIrāqīs alike, because it belongs to gambling, risk and hazard, and to consuming wealth
+wrongfully without return and without gift — and that is invalid by consensus. **[Ibn Kathīr]** God prohibits
+illicit acquisition by usury, gambling and other wicked methods that appear legal but whose dealers, in
+reality, seek interest; and Ibn Jarīr recorded from Ibn ʿAbbās the report that when this verse came down,
+some Muslims said, "God has forbidden us to consume one another's wealth wrongfully, and food is the best of
+property, so none of us may eat from another's food," and God then sent down the verse of 24:61 beginning
+"There is no restriction on the blind" — clarifying that eating in one another's houses with goodwill is not
+of the forbidden.
+
+**Reflection.** **[Study Quran]** "Consume not each other's wealth falsely" means people should not seek
+wealth through means expressly forbidden in the Qurʾān — usury (2:275–78; 3:130; 30:39), gambling (2:219;
+5:90–91) and fraudulent mercantile practices (7:85; 17:35; 83:1–3); such practices are among the key vices of
+the people of Shuʿayb whom God destroyed. "Slay not yourselves" was traditionally understood to mean that
+Muslims should not slay one another, as they are all members of one religious community (cf. 4:92–93;
+17:33); the penalty prescribed for slaying a fellow believer is death, indicating that if a believer kills a
+fellow believer it is as if he had slain himself. And since the verse commands Muslims not to slay
+*themselves*, it also indicates that suicide is forbidden. **[Maʿārif]** draws the frame of the sūrah:
+having spoken of the rights of orphans, women, relations and marriage, the passage now guards human life and
+property, and forbids any uncalled-for intrusion into them — whether those human beings are men or women,
+related or unrelated, Muslim or non-Muslim with whom there is a pact of non-belligerence.
+
+**Cross-references.** "And do not consume one another's property unjustly, nor offer it to the judges that
+you may consume a portion of the property of the people in sin" (2:188); "And do not throw yourselves into
+destruction" (2:195); "Whoever kills a believer deliberately — his recompense is Hell" (4:93).
+
+
+## 4:30
+
+*"And whoever does that in enmity and injustice — We shall expose him to a Fire; and that is easy for God."*
+
+**Meaning.** **[Ṭabarī]** The commentators differed about "whoever does that." Some said it means whoever
+kills himself — that is, whoever kills his believing brother — in enmity and injustice. Ibn Jurayj said: I
+asked ʿAṭāʾ, "Do you consider 'whoever does that in enmity and injustice' to refer to all of it, or to 'and
+do not kill yourselves'?" He said: rather to "and do not kill yourselves." Others said it means whoever does
+what I have forbidden him from the beginning of this sūrah to this point — the marrying of those He forbade,
+transgressing His limits, consuming the property of orphans unjustly and killing a life made sacred without
+right. Others said: whoever consumes his Muslim brother's wealth unjustly, without his good pleasure, and
+kills his believing brother unjustly. **[Qurṭubī]** Al-Zajjāj held that "that" refers to the nearest
+mentioned, which is killing — as ʿAṭāʾ said — while others took it to cover both, since the prohibitions
+came in one continuous series and the threat then came in proportion; and others took it generally, covering
+everything forbidden from the beginning of the sūrah until this point. Ṭabarī held that "that" goes back to
+what is forbidden in the last threat — that is, "It is not lawful for you to inherit women by coercion" —
+since everything forbidden from the start of the sūrah was paired with a threat except that verse, after
+which only this warning follows. *Al-ʿudwān* is the crossing of the limit and *al-ẓulm* is putting a thing
+in other than its place. **[Jalālayn]** Whoever does that which he has been forbidden, through aggression —
+a circumstantial qualifier — and injustice, him We shall certainly expose to a fire wherein he shall burn;
+and that, for God, is an easy matter.
+
+**Rulings & reflection.** **[Maʿārif]** The restriction in the words "in enmity and injustice" shows that if
+it happens out of forgetfulness or mistake, the person is not included in this warning. **[Saʿdī]** The
+verse's phrase "We shall expose him to a fire" (*nuṣlīhi*) carries the image of a man brought to the fire
+and made to enter its burning, and the last words — "and that is easy for God" — close the warning with the
+reminder that the One who can gather the scattered limbs of the dead and burn them can just as easily bring
+the unjust to their reckoning; the Fire is not beyond Him and the oppressor is not beyond the Fire.
+**[Ṭabarī]** The refinement of the law here is instructive: the deed is punished as aggression and
+injustice, not as an act; the Qurʾān never punishes the man who errs, only the man who transgresses.
+
+**Cross-references.** "And whoever kills a believer deliberately, his recompense is Hell, abiding therein,
+and God is angry with him and has cursed him and prepared for him a great punishment" (4:93); "The blame is
+only upon those who wrong people and rebel in the earth without right; for those is a painful punishment"
+(42:42); "That is easy for God" appears also at 4:169 and 35:11.
