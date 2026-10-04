@@ -2381,7 +2381,7 @@ this book is never neutral observation; its last word is a posture of the heart.
 ## 3:61 — فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ ۖ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنْفُسَنَا وَأَنْفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ
 
 *"Whoever disputes with you about him after the knowledge that has come to you — say: come! We call our
-sons and your sons, our women and your women, our selves and your selves — then let us abtahil, and set
+sons and your sons, our women and your women, our selves and your selves — then let us entreat, and set
 God's curse upon the liars."*
 
 **Context — the delegation of Najrān.** **[Ibn Kathīr]**, citing Muḥammad b. Isḥāq's *Sīra*: the
@@ -2503,7 +2503,7 @@ Thaʿlabī's Ibn Masʿūd: to call to the *sawāʾ* of a thing is to call to its
 
 **The verse in the Prophet's correspondence.** **[Saʿdī]**: it was with this verse that the Prophet ﷺ
 wrote to the kings of the People of the Book; and some of the reciters read it (with 3:52's *āmanā*) in
-the first cycle of the dawn *sunset* supererogatory prayer — because it gathers the call to the one
+the first cycle of the dawn *sunnah* prayer — because it gathers the call to the one
 religion all the envoys agreed on, the *tawḥīd* of worship built on serving God alone, and the confession
 that no human being, in the whole estate of humanity, is entitled to any attribute of lordship or
 divinity; and if the People of the Book and others submit to this, they are guided — *but if they turn
@@ -2662,7 +2662,7 @@ before the Knower of the secrets (3:2 again).
 
 ---
 
-## 3:70 — لِمَ تَكْفُرُونَ بِئَايَاتِ اللَّهِ وَأَنتُمْ تَشْهَدُونَ
+## 3:70 — يَٰأَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِئَايَاتِ اللَّهِ وَأَنتُمْ تَشْهَدُونَ
 
 *"Why do you disbelieve in God's signs while you are witnesses?"*
 
