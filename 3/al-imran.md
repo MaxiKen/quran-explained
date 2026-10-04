@@ -555,3 +555,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The sources distinguish inward allegiance from humane treatment. **[Maʿārif]** illustrates this with the Prophet’s aid to people of Makkah during famine, his amnesty at the conquest, his care for prisoners, the hospitality given to a non-Muslim delegation in his mosque, and ʿUmar’s stipends to needy non-Muslim subjects *(digression)*. The verse warns against surrendering conscience or political loyalty, not against courtesy, compassion, or fair dealings.
 
 ---
+
+## 3:29
+
+*Say: Whether you conceal what is in your breasts or disclose it, God knows it; and He knows what is in the heavens and the earth. God has power over all things.*
+
+**Meaning.** Following the warning against misplaced allegiance in 3:28, **[Ṭabarī] [Jalālayn]** understand “what is in your breasts” especially as concealed affection and loyalty toward the disbelievers, whether hidden inwardly or shown through words and actions. **[Qurṭubī]** emphasizes that God knows every secret and nothing in heaven or earth escapes Him, not even an atom’s weight. **[Ibn Kathīr]** says His knowledge encompasses people in every state and moment; His power includes punishing wrongdoing, even if He gives some people respite. **[Study Quran]** notes that the Qur’an often pairs God’s omniscience with His omnipotence.
+
+**Context.** **[Maʿārif]** links this verse to the preceding prohibition: intimate loyalty is inward and may be denied verbally, but God knows whether it is concealed or openly professed. **[Ṭabarī]** likewise says that neither hidden affection nor outward assistance can escape divine knowledge or accountability.
+
+**Belief.** The verse affirms God’s complete knowledge of inner intentions and outward deeds, His knowledge of everything in the heavens and earth, and His power over all things **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Saʿdī]**. As **[Saʿdī]** observes, awareness that people return to God with their deeds should lead them to avoid actions that bring disgrace and punishment and prepare with good works.
+
+**Language.** *Tukhfū* means “you conceal,” *tubdū* “you disclose,” and *mā fī ṣudūrikum* refers literally to what is within your breasts—here, hidden intentions or loyalties **[Ṭabarī] [Jalālayn]**.
+
+**Cross-references.** God knows what people’s breasts conceal: 28:69 **[Study Quran]**. Nothing, even a mustard seed, is hidden from God: 31:16 **[Study Quran]**.
+
+**Reflection.** One cannot hide a motive from God by concealing it from other people. **[Saʿdī]** urges believers to keep the return to God and the eventual presentation of their deeds before them.
+
+---
