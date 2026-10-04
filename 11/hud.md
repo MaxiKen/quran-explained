@@ -1645,3 +1645,171 @@ characterizes both Nūḥ's wife (see 66:10) and his son (vv. 42–43, 45).
 **Reflection.** The sign of the flood came from the one place fire lives — the oven — as if to say that
 when God's command arrives, the most opposite things conspire together; and the vessel of salvation held
 only a few, for the majority had spent nine centuries deciding not to enter.
+
+## 11:41
+
+*"And he said, 'Embark in it! In the Name of God shall be its coursing and its mooring. Truly my Lord is
+Forgiving, Merciful.'"*
+
+**Meaning.** **[Ṭabarī]** Nūḥ said: embark in the ark — "in the Name of God its coursing and its
+mooring" (*majrāhā wa-mursāhā*). The speech omits what the report already indicates — that he loaded them
+into it and then said, "Embark." The reciters differed: most of the Medinans, Baṣrans and some Kufans read
+*mujrāhā wa-mursāhā* with ḍamm, from *ajrā* and *arsā* — either raised: "in the Name of God are its
+running and its mooring," or in the accusative: "in the Name of God at its running and its mooring," with
+"in the Name of God" standing as a complete utterance, as the Arabs say at the start of a work. Most of
+the Kufans read *majrāhā wa-mursāhā* with fatḥa. **[Jalālayn]** Nūḥ said: embark in it! In the Name of
+God be its course and its mooring — read *majrāhā wa-marsāhā* or *mujrāhā wa-mursāhā*, both verbal nouns:
+the length of its course and where it docks, in other words the entire journey. Truly my Lord is
+Forgiving, Merciful, for He did not destroy us. **[Ibn Kathīr]** Its sailing upon the surface of the
+water, the end of its journeying and its anchoring would all be with the Name of God. Abū Rajāʾ
+al-ʿUṭāridī recited it, "In the Name of God, the One who moves its course and rests its anchor." God had
+said, "When you have embarked, you and those with you, say: Praise be to God who has saved us from the
+wrongdoing people; and say: My Lord, cause me to land at a blessed landing place, for You are the best of
+those who bring to land" (23:28–29). For this reason it is preferred to mention the Name of God at the
+beginning of all affairs — when boarding a ship or mounting an animal, as in "He who appointed for you
+ships and cattle on which you ride" (43:12–14).
+
+**Rulings.** **[Maʿārif]** This verse teaches the etiquette of boarding boats and other conveyances: one
+should board saying, "In the Name of God it sails and anchors" — *majrā* means to sail or move, *mursā* to
+stop or anchor; the moving of the conveyance owes itself to the power of God and is with His name alone,
+as is its stopping. A little thought shows that no conveyance — a boat or any vehicle that moves on land
+or flies in the air — is really within one's own power, neither its making nor its moving: man did not
+create the iron, wood, brass and aluminium that are its raw materials, nor did he create the intelligence
+to design its parts; he only puts the materials together, and their movement and rest remain subservient
+to nothing but God's power.
+
+**Reflection.** The first words spoken aboard the ark became the sunnah of every traveller after it: to
+name God over the going and over the stopping, because both are His.
+
+## 11:42
+
+*"And it sailed with them amid waves like mountains, and Nūḥ called out to his son, who stood apart, 'O my
+son, embark with us and be not with the disbelievers!'"*
+
+**Meaning.** **[Ṭabarī]** The ark sailed with them, and Nūḥ called to his son to embark. **[Saʿdī]** God
+describes its sailing as though we were watching: it ran with them — Nūḥ and those who embarked with him —
+in waves like mountains, while God guarded it and guarded its people. Nūḥ called to his son — the boy had
+stood apart from them as they boarded — wanting him to come close and embark: "O my son, embark with us,
+and be not with the disbelievers," lest what strikes them strike you. **[Jalālayn]** It sailed with them
+amid waves like mountains in height and size, and Nūḥ called out to his son Canaan, who was standing away
+from the ship: O my son, embark with us and do not be with the disbelievers! **[Study Quran]** "Waves like
+mountains" refers to the size of the waves of the flood (Z), formed on account of the intensity of the
+wind (Q).
+
+**Stories & occasions.** **[Maʿārif]** When the whole family of Nūḥ had boarded, a son whose name is
+reported as Kinʿān (Canaan) was left out. Out of paternal compassion Nūḥ called to him to come aboard,
+warning him not to stay in the company of disbelievers or he would drown with them. The young man was
+already in league with the disbelieving enemies — indeed was himself a disbeliever — but in all likelihood
+Nūḥ did not know this; and even if he did, the counsel to board and leave the company of the disbelievers
+was in the spirit of asking him to repent of disbelief and enter faith. The unfortunate son still took the
+flood for something that would pass, and told him not to worry, for he would be safe by climbing a
+mountain. Historical reports say the level of the flood rose fifteen yards above the highest mountain
+peak, and according to some reports forty.
+
+**Reflection.** Even at the gate of salvation the father's voice goes out one last time to the son who
+chose to stand apart — the call to embark is never withdrawn while there is time to answer it.
+
+## 11:43
+
+*"He said, 'I shall take refuge in a mountain that will protect me from the water.' He said, 'There is no
+protector this day from God's command, except him on whom He has mercy.' And the wave came between them,
+and he was among the drowned."*
+
+**Meaning.** **[Jalālayn]** He said: I shall take refuge in a mountain that will protect me, preserve me,
+from the water. He said: this day there is none that can protect from God's command, from His
+chastisement, except — but — him on whom God has mercy: he will be protected. And the waves came between
+them, so he was among the drowned. **[Ṭabarī]** "That will protect me": will preserve me, like the
+*ʿiṣām* of the waterskin, which binds its mouth and keeps the water from flowing out; "there is no
+protector this day from God's command except him on whom He has mercy." **[Saʿdī]** Nothing protects — no
+mountain nor anything else; and had he taken every means in his power, he would not have been saved unless
+God saved him. The wave came between them, and the son was among the drowned. **[Study Quran]** The son is
+said to have been named Yām (IK, Z) or Kanʿān (Z). Spiritually, his taking refuge in a mountain refers to
+the false sense of security, stability and permanence — symbolized by a mountain — that disbelievers, in
+their denial of God, assign to this world.
+
+**Belief.** **[Maʿārif]** Nūḥ warned his son that nothing would save anyone — not even a mountain — from
+God's punishment that day, and no one could remain safe unless God Himself showed him mercy. This father-
+son dialogue was still going on at a distance when a wave of the flood rose and took the son down and
+away.
+
+**Reflection.** The mountain was not too small to fail — it was the wrong refuge: on the day of God's
+command, geography cannot substitute for mercy.
+
+## 11:44
+
+*"And it was said, 'O earth, swallow your water! And O sky, hold back!' And the water subsided, and the
+affair was accomplished, and it settled upon al-Jūdī, and it was said, 'Away with the wrongdoing
+people!'"*
+
+**Meaning.** **[Ṭabarī]** God said to the earth, when His affair in the destruction of Nūḥ's people had
+run its course: "O earth, swallow your water" — drink it up, from *baliʿa*, to swallow; "O sky, hold
+back": refrain from the rain; "and the water subsided": the earth took it away and dried it up; "and the
+affair was accomplished": God's affair was executed in the destruction of Nūḥ's people; "and it settled
+upon al-Jūdī": the ark came to rest — al-Jūdī being a mountain, it is related, in the region of Mosul or
+al-Jazīrah; "and it was said, 'Away with the wrongdoing people'": God says, may God cast far the
+wrongdoing people who disbelieved of the people of Nūḥ. **[Jalālayn]** O earth, swallow your waters that
+sprang forth from you — and it reabsorbed them all except what came down from the sky and formed rivers
+and seas — and O sky, abate! Withhold the rain, and it did. And the water subsided, and the affair was
+accomplished — the destruction of Nūḥ's people was complete — and the ship came to rest upon al-Jūdī, a
+mountain in Mesopotamia near Mosul; and it was said: away with — perish — the evildoing, disbelieving
+folk! **[Ibn Kathīr]** When the people of the earth were all drowned except those in the ship, He
+commanded the earth to swallow its water, which had sprung from it and gathered upon it, and the sky to
+cease raining; "the water subsided": it began to decrease; "the affair was accomplished": all who
+disbelieved in God were removed from the earth — not one remained. "It settled upon al-Jūdī": Mujāhid
+said al-Jūdī is a mountain in al-Jazīrah where, on the day of the drowning, the mountains sought to tower
+above one another to escape the water, but this mountain humbled itself for God, and so it was not
+overcome and the ship anchored upon it. Qatādah: the ship rested upon it a month before they came down;
+and God kept Nūḥ's ship on al-Jūdī as a lesson and a sign — the early generations of this ummah saw it,
+though how many ships came after it and were destroyed and became dust! "Away with the wrongdoing
+people": destruction and loss — being far from God's mercy; they were destroyed to the last of them, and
+none survived. **[Saʿdī]** When God drowned them and saved Nūḥ and those with him, it was said: O earth,
+swallow your water — what came out of you and what came down upon you; O sky, hold back — and the two
+obeyed, and the water dried from the earth; the affair was accomplished: the destruction of the deniers
+and the salvation of the believers; the ark settled upon al-Jūdī, the known mountain in the land of
+Mosul; and it was said: away with the wrongdoing people — after their destruction they were followed by a
+curse, a distance and a banishment that never cease to attend them.
+
+**Language.** **[Study Quran]** God's commands to the earth and sky denote the end of the flood; al-Jūdī
+is said in some traditional sources to be a mountain near Mosul (JJ, Kl), while others associate it with
+Mount Ararat in eastern Turkey; "Away with the wrongdoing people" is believed to have been spoken by God
+(R); the identical phrase is at 23:41.
+
+**Stories & occasions.** **[Maʿārif]** Mount Jūdī still stands by that name: on the border of Armenia,
+near Ibn ʿUmar island, north of Mosul in Iraq, the home of Nūḥ — a range part of which is called Jūdī and
+part Ararat, so the present Torah's naming of Ararat is not much of a contradiction. Old historical
+accounts say pieces of the ark are still kept as relics in several places in Iraq. According to Tafsīr
+al-Ṭabarī and al-Baghawī, Nūḥ embarked on the tenth of Rajab, and the ark sailed six months; when it
+reached the place of the Bayt Allāh it made seven circuits — God having raised His House above the flood —
+and on the tenth of Muḥarram, the day of ʿĀshūrāʾ, the flood subsided and the ark settled on Jūdī; Nūḥ
+kept a thanksgiving fast that day and asked everyone aboard to do the same, and some reports say even the
+animals fasted (al-Maẓharī, al-Qurṭubī). The importance of ʿĀshūrāʾ is recognized in all the religious
+codes of the prophets.
+
+**Reflection.** The whole flood ends in four imperatives — swallow, hold back, subside, settle — and the
+creation obeys its Lord in a single breath; only the people of the sūrah had needed nine hundred years.
+
+## 11:45
+
+*"And Nūḥ called to his Lord and said, 'My Lord, my son is of my family; Your promise is true, and You
+are the most just of judges.'"*
+
+**Meaning.** **[Ṭabarī]** Nūḥ called to his Lord: You promised to save me and my family from drowning and
+destruction, and my son has perished — and my son is of my family; Your promise is the truth that admits
+no failure, and You are the most just of judges in truth — Ibn Zayd: the most just in justice — so judge
+for me by fulfilling what You promised me, by saving my family and returning my son to me. **[Jalālayn]**
+My Lord, lo, my son Canaan is of my family, and You promised me that they would be saved; truly Your
+promise is the truth which never fails, and You are the Most Just of Judges — the most knowledgeable and
+the fairest of them. **[Ibn Kathīr]** This was a request for information and an inquiry from Nūḥ
+concerning the circumstances of his son's drowning: You promised to save my family, and Your promise is
+the truth that does not fail — how then was he drowned, when You are the most just of judges?
+**[Maʿārif]** When Canaan did not board despite the call of his father — who was still concerned
+emotionally as he saw his son surrounded by the waves — his filial love knocked at another door: he turned
+to his Lord and prayed on the basis of His promise to save his family, and that His promise was true;
+conditions were alarming, and the only court of appeal left was the court of the most just of judges, in
+whose power and control everything was, and who could still save him from the flood.
+
+**Cross-references.** **[Study Quran]** Nūḥ pleaded because God had promised to save his family (IJ, Ṭ;
+cf. v. 40); for God as the most just of judges, see 95:8 (cf. 7:87; 10:109; 12:80).
+
+**Reflection.** Even a prophet's grief argues from the promise — "Your promise is true" — and brings the
+question to God rather than against Him; the complaint itself is framed as worship.
