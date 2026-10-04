@@ -629,3 +629,23 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The claim of love in 3:31 is tested in the way one responds to the Messenger’s teaching. **[Saʿdī]** emphasizes believing what he conveyed, doing what he commanded, and avoiding what he prohibited.
 
 ---
+
+## 3:33
+
+*Truly God chose Adam, Noah, the family of Abraham, and the family of ʿImrān above the worlds.*
+
+**Meaning.** **[Ṭabarī]** understands God’s choice as choosing their religion—the way of Islam—over other religions. He takes “the family of Abraham” and “the family of ʿImrān” to include their faithful followers, not only their biological relatives. **[Qurṭubī] [Jalālayn]** also describe the choice as selection for prophethood, which continued among their descendants. **[Saʿdī]** emphasizes that God placed virtues, knowledge, and righteous deeds in these households and their offspring, among both men and women. **[Ibn Kathīr]** recalls honors given to Adam, including being taught the names and the angels’ prostration, and identifies Noah as the first Messenger to the people of the earth. The family of Abraham includes Muḥammad ﷺ **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]**. **[Qurṭubī]** also catalogs particular distinctions of Adam, Noah, and Abraham: Adam was made the father of humanity; Noah was carried in the Ark; and Abraham was made God’s intimate and a leader, and rescued from the fire.
+
+**Context.** **[Maʿārif]** says that recalling earlier prophets reassures the Prophet ﷺ when people reject his prophethood and prepares for the following account of Jesus, whose identity Muslims should know in light of his return. **[Qurṭubī]** records more than one identification of ʿImrān: the father of Moses and Aaron or the father of Mary. **[Study Quran]** identifies him here as Mary’s father and notes an extra-Biblical identification with Joachim; it also discusses commentators who connect the name with Amram, Moses’ father, while treating the two as distinct people *(digression)*.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites a report from Ibn ʿAbbās in al-Bukhārī that “the family of Abraham and the family of ʿImrān” includes believers among the families of Abraham, ʿImrān, Yāsīn, and Muḥammad; he connects this with 3:68.
+
+**Belief.** God’s choice is according to wisdom, not merely worldly standing: **[Ṭabarī]** emphasizes the chosen faith, while **[Saʿdī]** says God knows who merits distinction and places His favor as wisdom requires. **[Study Quran]** notes that “above the worlds” may also be read as “above all peoples.”
+
+**Language.** *Iṣṭafā* means “chose” or “selected” **[Qurṭubī]**. *Āl* can denote a family line or, in **[Ṭabarī]**’s interpretation, the followers of a person who share his religion. **[Qurṭubī]** records that “above the worlds” may mean above the people of their own time or above all creation.
+
+**Cross-references.** Those nearest to Abraham are the ones who follow him: 3:68 **[Ṭabarī] [Qurṭubī]**. God sent Muḥammad as a mercy to the worlds: 21:107 **[Qurṭubī]**. The family of ʿImrān and Mary’s birth: 3:35 **[Study Quran] [Maʿārif]**.
+
+**Reflection.** These chosen households are presented as models of faith and service, not simply as names in a family tree. **[Ṭabarī] [Study Quran]** connect their shared distinction to the worship of, and obedience to, the One God.
+
+---
