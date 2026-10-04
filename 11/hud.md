@@ -2810,3 +2810,171 @@ end is Sunnah.
 
 **Reflection.** One untouched roasted calf disclosed angels, announced a son, and condemned a city —
 the guest-house of Abraham is where the histories of three peoples turned at once.
+
+## 11:71
+
+*"And his wife was standing there, and she laughed. Then We gave her glad tidings of Isaac, and after
+Isaac, of Jacob."*
+
+**Meaning.** **[Ṭabarī]** "And his wife": Sarah, daughter of Hārān, daughter of Abraham's uncle. She was
+standing — it is said she was standing behind the veil, listening to the speech of the messengers and
+of Abraham; and it is said she was standing serving the messengers while Abraham sat with them. "And she
+laughed": the interpreters differed over the reason. Some said she laughed the known laughter, in wonder
+that she and her husband were serving their guests with their own hands to honour them, while the guests
+held back from their food, not eating. Others said she laughed because the people of Lot were in
+heedlessness while the messengers of God had come for their destruction. **[Jalālayn]** And his wife —
+Abraham's wife, Sarah — standing by, serving them, laughed at the good tiding of their destruction; and
+so We gave her the good tiding of Isaac, and after Isaac of Jacob his son, whom she would live to see.
+**[Saʿdī]** Abraham's wife was standing serving his guests; she laughed when she heard of their state
+and what they had been sent for, in amazement — and We gave her the glad tidings of Isaac, and after
+Isaac, Jacob.
+
+**Context.** **[Study Quran]** It is said Sarah laughed because of her joy over the fact that the guests
+did not pose a threat to Abraham; alternately, her laughter denotes her happiness over the news of the
+impending destruction of the people of Lot (cf. Genesis 17:17; 18:12–15). Abraham was said to be 120
+years old at this time, and Sarah 99; see also 51:29. Her astonishment over the glad tidings of a son
+(Isaac) and a grandson (Jacob) was on account of their old age; the angels' response is similar to God's
+reply to Zachariah's prayer for a child at 19:9 (see also 15:55; 51:30).
+
+**Language.** **[Ṭabarī]** Ibn Isḥāq said: Sarah was ninety years old on the day she was given the glad
+tiding of Isaac, and Abraham one hundred and twenty; others said ninety-nine and one hundred. "O woe to
+me" (*yā waylatā*) is an expression the Arabs utter in wonder and disapproval of a thing; the
+grammarians differed over the final alif — the Baṣrans holding it a true alif of lamentation
+(*al-nudbah*), and the hāʾ added on stopping to carry the sound further.
+
+**Stories & occasions.** **[Ṭabarī]** Al-Suddī's account: God sent the angels to destroy the people of
+Lot, and they came walking in the form of young men until they alighted upon Abraham. He esteemed them
+and hastened to his household, brought a fat calf, slaughtered it and roasted it on heated stones — that
+is the *ḥanīdh* — then sat with them while Sarah stood serving them (in Ibn Masʿūd's reading, "and his
+wife was standing, and he was sitting"). When he placed it before them and said, "Will you not eat?",
+they said, "O Abraham, we do not eat food except for a price." He said, "This has a price!" They said,
+"And what is its price?" He said, "You mention God's name at its beginning and praise Him at its end."
+Gabriel looked at Michael and said, "This man deserves that his Lord take him as an intimate friend."
+When Sarah saw that he had honoured them and she had stood serving them, she laughed and said, "How
+strange are these guests of ours — we serve them with our own selves to honour them, and they do not eat
+our food!"
+
+**Reflection.** The laughter of the old woman in her tent became the hinge of a glad tiding — a son, a
+grandson, and a whole house of prophets after them.
+
+## 11:72
+
+*"She said, 'Oh, woe unto me! Shall I bear a child when I am an old woman, and this husband of mine is
+an old man? Truly this is a strange thing.'"*
+
+**Meaning.** **[Ṭabarī]** Sarah said, in wonder at the glad tiding that she would give birth, since she
+had reached the age at which neither men nor women bear children: "O woe to me! Shall I bear a child
+when I am an old woman, and this my husband is an old man?" Truly this is a strange thing. **[Jalālayn]**
+She said: Woe to me! — *yā waylatā* being an expression used in reaction to a serious matter, the
+suffixed alif substituting for the yāʾ of annexation — shall I bear a child when I am an old woman of
+ninety-nine years, and this my husband is an old man of one hundred or one hundred and twenty? —
+*shaykhan* being in the accusative as a circumstantial qualifier operated by the demonstrative import of
+*dhā*. Truly this is a strange thing: that a child should be born to such an aged couple. **[Saʿdī]**
+She was amazed at that and said: "O woe to me! Shall I bear a child when I am an old woman, and this my
+husband is an old man?" — here are two obstacles to having a child — "truly this is a strange thing."
+**[Ibn Kathīr]** She said in astonishment: "Woe unto me! Shall I bear a child while I am an old woman,
+and here is my husband an old man? Verily, this is a strange thing!"
+
+**Reflection.** Her wonder measured the promise against the causes — and the answer was about to teach
+her that the Household's cause is God's command alone.
+
+## 11:73
+
+*"They said, 'Do you marvel at the Command of God? The Mercy of God and His Blessings be upon you, O
+people of the House! Truly He is Praised, Glorious.'"*
+
+**Meaning.** **[Ṭabarī]** The messengers said: do you marvel at what God has decreed? God's mercy and
+His blessings be upon you, people of the House — the household of Abraham. Truly He is Praised: praised
+by His servants in His blessings and His favours; Glorious: noble, generous. **[Jalālayn]** They said:
+Are you astonished by God's command — by His power? The mercy of God and His blessings be upon you, O
+people of the House — the House of Abraham. Truly He is Praised, Glorious — Generous. **[Saʿdī]** "Do
+you marvel at the Command of God?" His command admits of no marvel, for His will is executed completely
+in all things; nothing is strange to His power, and especially in what He manages and carries through for
+the people of this blessed house. "The Mercy of God and His Blessings be upon you, O people of the
+House": His mercy, His favour and His blessings — which are increase from His goodness and the alighting
+of divine good upon the servant — never cease to descend upon you. "Truly He is Praised, Glorious":
+praised in His attributes, for His attributes are attributes of perfection, and praised in His acts, for
+His acts are beneficence, generosity, virtue, wisdom and justice; *Majīd* — and glory (*mijd*) is the
+greatness and expansiveness of the attributes; to Him belong the attributes of perfection, and of every
+attribute of perfection He possesses its most complete, most perfect and most general form. **[Qurṭubī]**
+In "people of the House," the address is to the household of Abraham — the household of mercy — and the
+angels addressed her in the plural by way of honouring her and her husband.
+
+**Cross-references.** **[Study Quran]** See also 37:112. The phrase "People of the House" elsewhere
+refers most famously to the household of the Prophet Muhammad (33:33).
+
+**Reflection.** The angels answered wonder with a name: the House is a house of mercy — strange things
+are not strange where blessings descend without ceasing.
+
+## 11:74
+
+*"So when the awe had left Abraham and the glad tidings had come unto him, he pleaded with Us
+concerning the people of Lot."*
+
+**Meaning.** **[Ṭabarī]** When the fear that Abraham had felt within himself from Our messengers — when
+he saw their hands not reaching for his food — departed from him, and he felt secure that no evil was
+intended against him or his household, "and the glad tidings came to him" — of Isaac — he began to plead
+with Us concerning the people of Lot. Some said the glad tiding was that they were not intending him,
+and that they had been sent only to the people of Lot. **[Jalālayn]** When the awe — the fear — departed
+from Abraham, and the good tiding came to him of a child, he began to plead with Us — pleading with Our
+messengers — concerning the matter of the people of Lot. **[Ibn Kathīr]** Allah informs of what happened
+after the fright of Ibrahim left him and he felt no more fear of the angels when they refused to eat;
+after this, they gave him the glad tidings of the birth of a son and the destruction of the people of
+Lut. Saʿīd b. Jubayr narrated concerning this verse: when Gabriel and the other angels who were with him
+came to Ibrahim, they said, "Verily, we are going to destroy the people of this town" (29:31). Ibrahim
+said, "Will you destroy a town that has three hundred believers in it?" They said, "No." He said, "Two
+hundred?" They said, "No." He said, "Forty?" They said, "No." He said, "Thirty?" They said, "No." This
+continued until he said, "Five?" They said, "No." Then he said, "What if there is one Muslim man in the
+town?" They said, "No." With this Ibrahim said, "But there is Lut in it. They said: We know better who
+is there. We will verily save him and his family, except his wife" (29:32). Therefore Ibrahim remained
+silent and his soul was at rest. **[Saʿdī]** When the awe that had struck him from his guests departed
+from Abraham, and the glad tiding of a son came to him, he turned then to pleading with the messengers
+concerning the destruction of Lot's people, saying: "But Lot is in it." They said, "We know best who is
+in it; We will surely save him and his family, except his wife" (29:32).
+
+**Context.** **[Study Quran]** Abraham pleaded with Us is understood to mean that he spoke to the
+angels and tried to dissuade them from bringing destruction down upon the people of Lot, as in 29:32,
+where Abraham protests, "Verily, Lot is in it" (cf. Genesis 18:23–33).
+
+**Language.** **[Qurṭubī]** *Al-rawʿ* is fear; one says *rāʿanī kadhā yarūʿunī* — it frightened me. "He
+pleaded with Us": he pleaded with Our messengers — it is ascribed to Himself because they had descended
+by His command. This pleading was related by Ḥumayd b. Hilāl from Jundub from Ḥudhayfah: when they said,
+"We shall destroy the people of this town," Abraham said, "What if there are fifty Muslims in it?" They
+said, "No." "Forty?" "No." "Thirty?" "No." "Twenty?" "No." "Ten?" — or five, the narrator doubted —
+"No." Qatādah said likewise, and reported that Abraham then said: a people among whom there are not ten
+Muslims — there is no good in them. ʿAbd al-Raḥmān b. Samurah said the townsfolk numbered four hundred
+thousand; Ibn Jurayj: in the villages of Lot's people were four million. Al-Akhfash and al-Kisāʾī held
+*yujādilunā* stands in the place of *jādalanā*; al-Naḥḥās: since the apodosis of *lammā* must be in the
+past, the future is placed in its position; al-Farrāʾ held it is a circumstantial state — he set about
+pleading with Us.
+
+**Reflection.** The man who moments ago feared his guests now stands before them arguing for an entire
+corrupt city — mercy, once it fills a heart, pleads even for those who deserve nothing.
+
+## 11:75
+
+*"Truly Abraham is clement, tenderhearted, penitent."*
+
+**Meaning.** **[Ṭabarī]** God describes His intimate friend: Abraham is clement (*ḥalīm*) — forbearing
+toward one who wrongs him, not hasty to anger; *awwāh* — one who supplicates God humbly and much,
+imploring Him; penitent (*munīb*) — returning to God with obedience and turning to Him in repentance.
+**[Jalālayn]** Assuredly Abraham was forbearing — long-suffering; imploring — penitent, always returning
+to God in repentance. Thus he said to them: "Would you destroy a town in which there are three hundred
+believers?" They said, "No." He said, "Two hundred believers?" They said, "No." He said, "Forty
+believers?" They said, "No." He said, "Fourteen believers?" They said, "No." He said, "What if there
+were one believer in it?" They said, "No." He said, "Lot is in it." They said, "We know full well who is
+in it" — to the end of the narrative. **[Saʿdī]** Truly Abraham is clement: possessed of noble character,
+breadth of chest, and absence of anger at the ignorance of the ignorant; *awwāh*: one who supplicates God
+in all times; penitent: one who returns much to God through knowing Him, loving Him, facing Him and
+turning from all else — and that is why he kept pleading on behalf of those whose destruction God had
+already decreed.
+
+**Context.** **[Study Quran]** See also 9:114, which describes Abraham in similar terms with reference
+to his plea for forgiveness for his father.
+
+**Stories & occasions.** **[Qurṭubī]** It was said *al-awwāh* is one who sighs with grief over what had
+passed the people of Lot of faith. *Al-munīb* is the one who returns: Abraham was returning to God in
+all his affairs.
+
+**Reflection.** Clemency, tenderness, return — three qualities in one line, and they are the very
+engines of the pleading that came before them.
