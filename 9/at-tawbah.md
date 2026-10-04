@@ -62,6 +62,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -2924,3 +2926,247 @@ abrogated by the verse in Sūrat al-Nūr (24:62); this is reported from ʿIkrima
 **Reflection.** The verse diagnoses doubt not as an intellectual difficulty but as a condition that cannot
 settle: "they waver in their doubt." What looks from outside like a reasonable request for exemption is,
 inwardly, a heart that has never come to rest on anything — and so it asks leave, and asks again.
+
+## 9:46
+
+*"And had they desired to go forth, they would have made some preparations for it. But God was averse to their
+being sent forth; so He held them back, and it was said unto them, 'Stay back with those who stay back.'"*
+
+**Meaning.** **[Jalālayn]** "If they had desired to go forth with you they would have made some preparation
+for it" — some equipment, such as tools and provisions — "but God was averse that they should be sent
+forth": He did not want them to go forth, "so He slowed them down," He made them feel lethargic, "and it
+was said to them, 'Stay back with those who stay back!'" — with the sick, the women and the children; in
+other words, God decreed this. **[Ṭabarī]** "Had these who ask your leave, O Muḥammad, to stay behind
+rather than go out with you to strive against your enemy, desired to go out with you, they would have made
+preparation for it": they would have prepared for going out and made ready for the journey and for the
+enemy. "But God was averse to their being sent forth" — their going out for that — "so He held them back":
+He made going out weigh heavy upon them, so that they found staying in their houses behind you light and
+found the journey and going out with you heavy, and for that reason abandoned going out. **[Qurṭubī]** Had
+they wanted the *jihād* they would have made ready the equipment of travel; so their abandoning all
+preparation is proof that they wanted to stay behind. "Then God was averse to their being sent forth" —
+their going out with you; "so He held them back": He withheld them from you and forsook them, because they
+said, "If we are not permitted to sit, we will cause corruption and incite against the believers" — and the
+proof of this is what follows: "had they gone forth among you they would have added to you nothing but
+trouble."
+
+**Rulings.** **[Maʿārif]** An important principle emerges from this verse, one that distinguishes a
+reasonable excuse from an unreasonable one: an excuse is that impediment which prevents a person after he
+has exerted his full capacity and striven in the means of going out, and then a lawful impediment prevents
+him — such a one is excused. But these hypocrites did not make the least preparation, and that absence of
+preparation is the evidence that they never intended to go out at all. **[Saʿdī]** The verse makes clear
+that signs have appeared from those who stayed behind among the hypocrites showing that they never intended
+to go out at all, and that the excuses they offered are false. "Had they desired to go forth they would
+have made some preparation for it" — they would have readied themselves and done what they could of the
+means; but since they made no preparation, it is known that they did not want to go out. "But God was
+averse to their being sent forth" with you on the campaign, "so He held them back" — by His decree and
+determination, even though He had commanded them and urged them to go out and had made them capable of it;
+but in His wisdom He did not will to help them — rather He forsook them and held them back — "and it was
+said to them: 'Stay back with those who stay back'" — the women and the excused.
+
+**Belief.** **[Study Quran]** If the hypocrites had truly desired to go out to fight, they would have been
+ready and not offered the excuses mentioned in v. 42 (Q). Those who stay back (*qāʿid*) is literally "those
+who sit [out]," referring to women, children and the infirm, who were not required to fight (Q, Ṭ); and God
+held them back through their own cowardice (Q). "Stay back with those who stay back" is understood to have
+been spoken by either the Prophet, God, or even those who stay back to one another. **[Ibn Kathīr]** "And
+it was said (to them): 'Sit among those who sit (at home)'" — as part of what was decreed for them, not as
+something He legislated for them.
+
+**Reflection.** The test of a claimed inability is preparation: whoever really intends a thing begins to get
+ready for it, and the absence of readiness is itself the disclosure. The verse holds the two together
+without strain — they did not want to go, and God did not want them to go — so that human unwillingness and
+divine decree are not competitors but the same event described from two sides.
+
+---
+
+## 9:47
+
+*"And had they gone forth with you, it would have increased you in naught but troubles. And they would have
+hurried about in your midst, seeking to incite discord among you. And among you are some who hearken to them.
+And God knows the wrongdoers."*
+
+**Meaning.** **[Jalālayn]** "Had they gone forth among you they would only have caused you more trouble" —
+more corruption, by abandoning the believers — "and would have hurried to and fro among you," hastening to
+spread slander among you, "seeking," desiring, "to stir up sedition" by casting enmity between you; "and
+among you there are some who would listen to them," to what they say, listening in readiness to accept it;
+"and God knows the evildoers." **[Ṭabarī]** "Had these hypocrites gone out among you, O believers, they
+would have increased you in nothing but trouble" — their going out among you would have added nothing but
+corruption and harm, and it is for that reason that I held them back from going out with you. "And they
+would have hurried about in your midst": they would have sped their mounts along between you — the root
+sense being the urging of horses and riding-beasts to speed, as one says of a she-camel that hastens,
+"*waḍaʿat al-nāqatu taḍaʿu waḍʿan wa-mawḍūʿan*," and of its rider, "*awḍaʿahā*," when he presses it on.
+**[Saʿdī]** God then mentions the wisdom in that: "Had they gone forth among you they would have added to
+you nothing but trouble" — loss — "and they would have hurried about in your midst," striving in discord and
+evil among you and splitting your gathered community; "seeking to incite discord among you" — eager to
+tempt you and to cast enmity between you; "and among you are" people weak in understanding, "hearkeners to
+them," who respond to their call and are deceived by them. If they are eager to forsake you, to cast evil
+among you and to hold you back from your enemies, and among you are those who accept from them and take
+them as sincere advisers, what do you suppose would be the evil resulting from their going out with the
+believers and the great loss from them? To God belongs perfect wisdom in that He held them back and
+prevented them from going out with His believing servants — a mercy to them and a kindness, lest there
+enter into them what would not benefit them but harm them. "And God knows the wrongdoers": He teaches His
+servants how to beware of them and shows them the corruptions that arise from [their presence].
+
+**Language.** **[Qurṭubī]** *Al-khubāl* is corruption, slander, the sowing of disagreement and alarming
+rumours; and the exception is a disconnected one — that is, they did not increase you in strength, but
+rather sought corruption. It is also said that the meaning is "they would increase you in nothing but
+trouble in the opinions they keep turning over," in which case the exception is not disconnected.
+*Wa-la-awḍaʿū khilālakum*: they would have hastened among you with corruption; *al-īḍāʿ* is speed of
+travel, as in the *rajaz* verse of Durayd b. al-Ṣimma: "Would that I were in it a young camel, trotting in
+it and pressing on" — one says "*waḍaʿa al-baʿīru*" of a camel when it runs. **[Study Quran]** *Troubles*
+renders *khubāl*, which can also be interpreted to mean confusion, disquiet and disunity. *Some who hearken
+to them* is read by some to mean "those who convey them news" — literally "those who cause them to hear" —
+meaning that among the Muslims there were those who brought news of the Prophet to the hypocrites (Q, R).
+
+**Belief.** **[Qurṭubī]** This verse is a consolation to the believers for the holding back of the
+hypocrites from them. **[Maʿārif]** The hypocrites had procured permission to stay away from *jihād* by
+deceit, and it was better that they did not participate: had they gone, they would have done nothing but
+hatch conspiracies, circulate rumours and spread disorder. "And among you there are their listeners" means
+that among the Muslims there were simple people, easily taken advantage of, who could well have been
+affected by their false rumours. **[Ibn Kathīr]** God exposed them: had they marched out with you, they
+would have added nothing but disorder, hurrying about in your midst to spread corruption and sow sedition.
+
+**Reflection.** Staying behind, which looked like dereliction, is reinterpreted here as mercy: their
+presence in the ranks would have done more damage than their absence. The uncomfortable detail is the last
+one — there were listeners among the believers, which is why the rumour would have worked.
+
+---
+
+## 9:48
+
+*"And indeed they sought to incite trials earlier, and turned thee over in their minds, until the truth came
+and the Command of God was manifest, though they were averse."*
+
+**Meaning.** **[Jalālayn]** "Indeed they sought to stir up sedition against you already before," when you
+first came to Madīnah, "and scrutinised your affairs" — they thought long and hard how to plot against you
+and invalidate your religion — "until the truth," the victorious help, "came and God's command," His
+religion, "prevailed, stood mighty, they still being averse" to it, to His religion, entering it
+superficially. **[Qurṭubī]** "Indeed they sought the *fitnah* before" — they sought corruption and trouble
+before their affair became manifest and before the revelation came down concerning what they concealed and
+what they would do. Ibn Jurayj said: it refers to twelve men of the hypocrites who stood at the mountain
+pass of al-Wadāʿ on the night of al-ʿAqaba, intending to kill the Prophet ﷺ. "And they turned the affairs
+about for you": they diverted matters and turned their counsel over in order to nullify what you brought —
+"until the truth came and the command of God," His religion, "prevailed, while they were averse."
+**[Ṭabarī]** "These hypocrites sought the *fitnah* for your Companions, O Muḥammad," seeking to turn them
+from their religion and eager to return them to unbelief by discouraging them — as ʿAbdullāh b. Ubayy did
+to you and your Companions on the day of Uḥud, when he turned away from you with those of his people who
+followed him; that was their seeking of what they sought for the Companions of the Messenger of God ﷺ
+before. "And they turned the affairs about for you": they turned over in counsel how to nullify the
+religion with which He sent you.
+
+**Stories & occasions.** **[Ibn Kathīr]** God encourages His Prophet ﷺ against the hypocrites: for a long
+time they thought and plotted against you and your Companions, seeking to extinguish your religion. This
+occurred soon after the Prophet ﷺ migrated to Madīnah, when the pagan Arabs joined forces and the Jews and
+hypocrites of Madīnah waged war against the Messenger of God ﷺ. When God gave the Prophet victory at Badr
+and raised high his word, ʿAbdullāh b. Ubayy and his fellows said, "This is a matter that has prevailed,"
+and they embraced Islam outwardly — and whenever God elevated Islam and its people in might, the hypocrites
+increased in rage and disappointment: "until the truth came and the decree of God became manifest, though
+they hated it." **[Maʿārif]** "They sought disorder even earlier" refers to what had happened at the battle
+of Uḥud.
+
+**Language.** **[Study Quran]** *They sought to incite trials earlier* means before their true state became
+apparent (Q), or before the Tabūk expedition (R). *They turned thee over in their minds* means that they
+plotted against the Prophet (Q) — an idiom referring to pondering or brooding over someone's situation.
+
+**Reflection.** **[Maʿārif]** "And the command of God prevailed, though they disliked it" indicates that
+victory is in God's hands — as has been proved on earlier occasions when the Prophet ﷺ was granted victory,
+so it will be in this *jihād*, when all the tricks played by the hypocrites will fail. **[Ibn Kathīr]**
+Their outward conversion came only after the truth prevailed, and it was never a conversion of the heart:
+they remained averse even as they entered.
+
+**Cross-references.** **[Ṭabarī] [Maʿārif]** 3:167 and the day of Uḥud, on ʿAbdullāh b. Ubayy's withdrawal.
+
+**Reflection.** The pattern is older than Tabūk: plotting, then grudging submission once the outcome is
+clear. Recognising the pattern is itself part of the comfort the verse offers — the opposition is not new
+and it has never succeeded.
+
+---
+
+## 9:49
+
+*"And among them some say, 'Grant me leave, and tempt me not.' Nay, they have fallen into temptation. And
+truly Hell encompasses the disbelievers."*
+
+**Meaning.** **[Jalālayn]** "And there are some of them who say, 'Grant me leave' to stay behind, 'and do
+not lead me into temptation'" — this was al-Jadd b. Qays, to whom the Prophet ﷺ said, "Will you do battle
+against the Byzantines?", and who replied, "I am infatuated with women, and I fear that if I were to see
+these Byzantine women I shall not be able to stay away from them, and so be led into temptation." God
+says: "Surely they have already fallen into temptation" by staying behind — a variant reading for
+*saqaṭū*, "they have fallen," being the singular *saqaṭa*, "he has fallen." "And surely Hell shall
+encompass the disbelievers," for whom there shall be no escape therefrom. **[Ṭabarī]** It is mentioned that
+this verse came down concerning al-Jadd b. Qays. "And among them" — among the hypocrites — "is he who says,
+'Grant me leave'": let me stay and not set out with you; "and do not tempt me": do not afflict me with the
+sight of the women and daughters of the Byzantines, for I am passionately fond of women and would go out
+and thereby incur sin.
+
+**Stories & occasions.** **[Ibn Kathīr]** Muḥammad b. Isḥāq reported from al-Zuhrī, Yazīd b. Rūmān,
+ʿAbdullāh b. Abī Bakr, ʿĀṣim b. Qatāda and others: the Messenger of God ﷺ said to al-Jadd b. Qays of Banū
+Salimah, "Would you like, Jadd, to fight the Byzantines this year?" He said, "O Messenger of God, give me
+permission [to remain behind] and do not cause *fitnah* for me. By God, my people know that there is no man
+fonder of women than I, and I fear that if I see the women of the Byzantines I shall not have patience."
+The Messenger of God ﷺ turned away from him and said, "I give you permission." **[Saʿdī]** Among these
+hypocrites is one who asks leave to stay behind and excuses himself with another astonishing excuse,
+saying "Grant me leave" to stay behind "and tempt me not" by my going out — for if I go out and see the
+women of the Byzantines I shall not be able to restrain myself from them, as al-Jadd b. Qays said; and his
+aim — God disfigure him — was ostentation and hypocrisy, making out that his purpose was a good one, as
+though in going out there is temptation and exposure to evil while in staying behind there is safety and
+restraint from evil.
+
+**Belief.** **[Saʿdī]** God made plain the falseness of this claim: "Nay, they have already fallen into
+temptation." Even supposing this speaker true in what he claimed, in the staying behind there is a greater
+corruption and a greater temptation, one that is certain: disobedience to God and to His Messenger, and
+venturing upon a great sin and a tremendous burden. Whereas in the going out the harm is small by
+comparison with the staying behind, and is merely imaginary — all the more so since this speaker's aim was
+simply to stay behind, and nothing else. And so God threatened them: "And truly Hell encompasses the
+disbelievers" — they have no escape from it, no refuge, no release, no deliverance. **[Maʿārif]** Such
+people were not very clever: they tried to hide behind an imaginary ordeal, not realising that they had
+already fallen into a real one. **[Study Quran]** *Tempt me not* is interpreted to mean that the hypocrites
+did not wish to be subject to the hardships of the expedition, or that they feared what would happen to
+their property while they were away (R); *they have fallen into temptation* means that they are already in a
+state of disobedience and sin (Q).
+
+**Readings.** **[Jalālayn]** For *saqaṭū*, "they have fallen," a variant reading has the singular *saqaṭa*,
+"he has fallen." **[Qurṭubī]** Warsh, from Nāfiʿ, read "*awdhan lī*," lightening the hamza: the imperative
+of *adhina yaʾdhanu* takes an added hamza, and since two hamzas cannot meet, the second is changed to *yāʾ*
+because of the preceding *kasra*; upon joining, the reason for the change lapses and the hamza returns.
+
+**Reflection.** The excuse is dressed as piety — better to avoid the risk of sin than to march — and the
+verse turns it inside out: the sin he claims to be avoiding by staying home is precisely the sin he commits
+by staying home. Imaginary temptations in the path of obedience are always cheaper to name than the real
+one in the path of refusal.
+
+---
+
+## 9:50
+
+*"If some good befalls thee, it troubles them. But if some affliction befalls thee, they say, 'We already took
+precautions beforehand,' and they turn away, exulting."*
+
+**Meaning.** **[Jalālayn]** "If good fortune" — such as a victory or the taking of spoils — "befalls you it
+vexes them; but if an affliction," some hardship, "befalls you they say, 'We took our precaution
+judiciously' — when we stayed behind — 'before' this act of disobedience; and they turn away rejoicing" at
+what has afflicted you. **[Ṭabarī]** "O Muḥammad, if joy at God's opening to you the land of the Byzantines
+on this campaign of yours befalls you, it grieves al-Jadd b. Qays and his likes and their partisans among
+the hypocrites; and if a misfortune befalls you through the rout of your army in it…" **[Saʿdī]** God makes
+clear that the hypocrites are the true enemies, those who hate the religion outright: "If some good befalls
+you," such as victory and ascendancy over the enemy, "it troubles them" — it grieves and distresses them;
+"and if some affliction befalls you," such as the enemy gaining the upper hand over you, "they say,"
+boasting of their own safety in not having been present with you, "We already took our precautions
+beforehand" — we were cautious and did what would save us from falling into the like of this affliction;
+"and they turn away, exulting" at your misfortune and at their not having shared in it with you.
+
+**Belief.** **[Ibn Kathīr]** God emphasises the enmity the hypocrites hold towards the Prophet ﷺ: if a
+blessing such as victory and triumph over the enemies is granted to the Prophet ﷺ, pleasing him and his
+Companions, it grieves the hypocrites; and if a calamity overtakes him, they say "We took our precaution
+beforehand" — we took precautions when we did not join him — "and they turn away rejoicing." **[Maʿārif]**
+Though these people live among the Muslims giving the outward impression of being one of them, their inner
+reactions to what happens to the Prophet ﷺ expose them: good that comes to him annoys them, and suffering
+that visits him moves them to say "We had already taken care of our problem," counting it a point in their
+favour that they had not gone along with the Muslims. **[Study Quran]** *Some good* (cf. 3:120) is usually
+interpreted as victories or spoils, and *some affliction* as defeat on the battlefield (Q, R). *We already
+took precautions* means that they take any misfortune befalling the Prophet as evidence of their own wisdom
+in failing to support him (R); see 4:71–73.
+
+**Reflection.** The verse gives a diagnostic that needs no revelation to apply: what news of the community's
+fortunes grieves a person, and what news secretly pleases him? The hypocrite's second word is worse than
+his first — he does not merely fail to help, he congratulates himself on having been elsewhere when the
+blow fell. The answer given in v. 51 is not an argument but a creed.
