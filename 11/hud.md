@@ -3208,3 +3208,223 @@ them.
 
 **Reflection.** His wish named only the means — and the angels answered that his true support had been
 standing inside the house all along.
+
+## 11:81
+
+*"They said, 'O Lot! We are the envoys of your Lord. They shall not reach you. So set out with your
+family during a part of the night, and let none of you turn around — except your wife. Truly that which
+befalls them shall befall her. Indeed, morning is their appointed time. Is not the morning nigh?'"*
+
+**Meaning.** **[Ṭabarī]** When Lot said to his people, "Would that I had strength against you, or could
+resort to some strong support," and the angels saw what he suffered of distress on their account, they
+said: O Lot, we are the messengers of your Lord, sent for their destruction; they will not reach you nor
+your guests with any harm, so let the matter be easy upon you. "Set out with your family during a part
+of the night": go out from among them, you and your family, with a portion of the night remaining — one
+says *asrā* and *sarā* when travelling by night. "And let none of you turn around, except your wife":
+the readers differed — the majority of the Hijāz and Kūfah read it in the accusative, meaning: set out
+with your family except your wife, Lot being commanded to travel with his family apart from his wife, and
+forbidden to take her along, ordered instead to leave her behind with her people; some of the Baṣrans
+read it in the nominative, meaning: let none of you turn around except your wife — Lot having taken her
+out with him, but she turned around and perished. "Truly that which befalls them shall befall her": the
+punishment that befalls your people shall befall your wife. "Indeed, morning is their appointed time":
+the appointed time of your people's destruction is the morning. Lot urged them to hasten it and said:
+destroy them now! They said: "Is not the morning nigh?" — at morning the punishment will descend upon
+them, as Ibn Isḥāq said: it will descend upon them at the morning of this very night of yours, so carry
+out what you have been commanded. **[Jalālayn]** They said: O Lot, truly we are messengers of your Lord;
+they shall not reach you with any harm. So travel with your family during a part of the night, and let
+not one of you turn round, lest they see the terrible predicament that will befall them — except for
+your wife, read *imraʾatuka* in the nominative as a substitute for *aḥadun*, or *imraʾataka* in the
+accusative as her being an exception among his family: do not take her along when you travel. Lo, she
+shall be smitten by that which smites them. It is said he did not take her along with him; it is also
+said she did set out with them, turned round and exclaimed, "Woe is my people!", at which point a stone
+struck her and killed her. When Lot asked them about the time of their destruction, they replied: Truly
+their tryst is for the morning — and when he said, "I want it to be sooner," they said: Is the morning
+not nigh enough? **[Ibn Kathīr]** Others said of the wife that she looked back during the travel: she
+left with them, and when she heard the inevitable destruction, she turned and looked back, and said,
+"O my people!" — thus a stone came down from the sky and killed her. Then the angels brought close to
+him the destruction of his people as good news for him, because he said to them, "Destroy them in this
+very hour." They replied: "Indeed, morning is their appointed time. Is not the morning near?" They were
+saying this while Lot's people were standing at his door, trying to rush it from all sides, and Lot was
+standing at the door repelling them, deterring them, trying to prevent them from what they were doing;
+yet they would not listen to him, and threatened him and sought to intimidate him. At this point Gabriel
+came out to them and struck them in their faces with his wing; this blow blinded their eyes and they
+retreated, unable to see their way — as Allah said: "And they indeed sought to shame his guest, so We
+blinded their eyes: 'Then taste you My torment and My warnings'" (54:37). **[Saʿdī]** When the matter
+reached its limit and the distress grew intense, they told him of their state so his heart might be
+reassured: "We are the envoys of your Lord; they shall not reach you with any harm." Then Gabriel
+swept them with his wing and effaced their eyes, and they went off threatening Lot with the coming of
+morning. The angels commanded Lot to travel with his family in a portion of the night — a part of it,
+well before dawn, so they could get far from their village — and let none of you turn around: hasten in
+your setting out, let your concern be escape, and do not turn to what is behind you — except your wife,
+for there shall befall her of the punishment what befalls them, because she shared her people in sin,
+and used to direct them to Lot's guests whenever guests alighted upon him. "Indeed, morning is their
+appointed time" — and it is as if Lot urged it on, and it was said to him: "Is not the morning nigh?"
+
+**Language.** **[Qurṭubī]** When the angels saw his sorrow, agitation and defence, they introduced
+themselves to him; when he knew they were messengers, he let his people enter, and Gabriel passed his
+hand over their eyes and they went blind, and over their hands and they withered. *Fa-asri* is read both
+with the alif joined and cut — two eloquent dialects; it was also said *asrā* applies to travelling from
+the beginning of the night, and *sarā* from its end; in the daytime one says only *sāra*. "During a part
+of the night" (*bi-qiṭʿin*): Ibn ʿAbbās: a portion; al-Ḍaḥḥāk: the remainder; Qatādah: after the first
+part of the night has passed; al-Akhfash: after a stretch; Ibn al-Aʿrābī: an hour; it was also said: the
+middle of the night, from its being cut in two. "Let none of you turn around": Mujāhid: let none of you
+look behind him; Ibn ʿAbbās: let none of you lag behind; ʿAlī b. ʿĪsā: let none of you be occupied with
+property or goods he leaves behind.
+
+**Context.** **[Study Quran]** Strength in v. 80 refers to an army, and mighty support to family or
+both family and friends. They shall not reach thee means Lot's people will not be able to inflict any
+kind of evil upon him. For God's saving Lot and his family but not his wife, who is believed to have
+outwardly followed the religion of Lot but was secretly a disbeliever and thus among those who lagged
+behind, see 7:83; 15:60; 26:171; 27:57; 29:32; 37:134.
+
+**Stories & occasions.** **[Maʿārif]** According to some reports, the wife started off with the others,
+but when she heard the great crash of the punishment given to her people, she looked back and felt sorry
+at their destruction; at that moment a splintered rock came and finished her off like the others
+*(Qurṭubī, Maẓharī)*.
+
+**Reflection.** The command of escape is precise — a part of the night, no turning, one exception —
+for deliverance, like punishment, proceeds by a written schedule.
+
+## 11:82
+
+*"So when Our Command came, We made its uppermost its lowermost, and We rained upon them stones of
+baked clay, one upon another,"*
+
+**Meaning.** **[Ṭabarī]** When Our command came with the punishment and Our decree with their
+destruction, We made the uppermost of their town its lowest, and We sent down upon it stones of
+*sijjīl*. The interpreters differed over *sijjīl*: some said it is Persian, *sang-u gil* — Mujāhid
+said: in Persian, the first of it is stone and the last of it clay; Saʿīd b. Jubayr: it is Persian made
+Arabic — *sang-u gil*. Others said it means the heavens. "One upon another" (*manḍūd*): following one
+upon another. **[Jalālayn]** When Our command for their destruction came to pass, We made their
+uppermost — their cities — the nethermost: Gabriel raised them to the sky and dropped them upside down
+to the earth; and We rained upon them stones of baked clay — clay baked in fire — one after another.
+**[Ibn Kathīr]** "When Our commandment came": this happened at sunrise. "We turned it upside down": the
+city of Sodom — similar to "so there covered them that which did cover" (53:54). This means: We rained
+upon it with stones made of *sijjīl* — a Persian word meaning stones made of clay, as mentioned by Ibn
+ʿAbbās and others. Some scholars said it derives from *sang*, which means a stone; others said it means
+*wakil*, which is clay. In another verse: "stones of clay" (51:33) — clay made into strong, hard stone;
+some said baked clay. Al-Bukhārī said: *sijjīl* means that which is big and strong. "In an array"
+(*manḍūd*): some said the stones were arranged in the heavens and prepared for that destruction; others
+said it means some of the stones followed others in their descent upon the people of Lot. "Marked": the
+stones were marked and sealed, all of them having the names of their victims written on them; Qatādah
+and ʿIkrimah both said *musawwamah* means each stone was encompassed… **[Saʿdī]** When Our Command
+came, We made their dwellings uppermost-downward: We overturned them over them; and We rained upon them
+stones of *sijjīl* — of intensely heated fire-stones, "in an array": following one another, overtaking
+whoever strayed from the village.
+
+**Context.** **[Study Quran]** God's Command is also referred to as the Cry that seized them at sunrise
+in 15:73. The people of Lot lived in five or seven cities, of which Sodom was the greatest. We made its
+uppermost its lowermost means God caused Sodom to become completely overturned, making it the lowliest
+of the cities after it had been the greatest; see also 15:75. The rain of stones of baked clay (see also
+15:74) is also referred to as a rain in 7:84; 26:173; 27:58.
+
+**Stories & occasions.** **[Maʿārif]** Reports say these habitations were composed of four major towns;
+these very habitations are named "al-muʾtafikāt," the towns overturned, elsewhere in the Qurʾān (9:70;
+69:9). When the Divine command came, Gabriel dissected the base of the land mass holding all those towns
+with his wing and raised it all upwards, so that everything stayed where it was, even water in a vessel;
+amid human, animal and canine voices coming from the sky he heaved the habitations straight up, then
+threw the whole thing back upside down — as appropriate to the evil they indulged in. *(Isrāʾīliyyāt)*
+
+**Reflection.** The town that turned the natural order upside down was itself turned upside down, and
+the sky that witnessed it rained the sentence down stone by stone.
+
+## 11:83
+
+*"Marked by your Lord — and they are not far from the wrongdoers."*
+
+**Meaning.** **[Ṭabarī]** The stones were marked — distinguished, each bearing the sign of the one for
+whom it was prepared — "by your Lord": with your Lord. "And they are not far from the wrongdoers": God
+said to His prophet ﷺ: these stones — or the lands of those destroyed — are not far from the
+wrongdoers of your people who persist in their wrongdoing. **[Jalālayn]** Marked — each one of them with
+the name of the person it would strike — by your Lord; *ʿinda rabbika* being an adverbial qualifier for
+these stones. And they — the stones, or their lands — are not far from the evildoers: the people of
+Makkah. **[Saʿdī]** "Marked by your Lord": bearing the marks of punishment and wrath. "And they are not
+far from the wrongdoers": those who resemble the people of Lot in their deed; let the servants beware of
+doing as they did, lest what befell them befall them. **[Ibn Kathīr]** "And they are not ever far from
+the wrongdoers": this is a warning to the idolaters of Makkah and all wrongdoers.
+
+**Context.** **[Study Quran]** The stones are described as marked since it is believed that each stone
+had inscribed upon it the name of the person for whom it was intended, and "by thy Lord" since each
+stone fell in accordance with God's Judgment; see the identical wording at 51:34. "Never far from the
+wrongdoers" means these stones were not distant from the people of Lot; alternately, they could also be
+sent upon the Makkan idolaters, functioning as a threat, since the latter would be liable to the same
+fate if they continued in their ways.
+
+**Reflection.** Every stone carried a name, and the warning carries ours — the distances of mercy are
+measured, and so are the distances of the stones.
+
+## 11:84
+
+*"And unto Midian, their brother Shuʿayb. He said, 'O my people, worship God! You have no god other
+than Him. Diminish not the measure and the balance. Truly I see you faring well, and I fear for you the
+punishment of an all-encompassing Day.'"*
+
+**Meaning.** **[Ṭabarī]** We sent to the children of Midian their brother Shuʿayb. He said: O my
+people, worship God — obey Him and humble yourselves to Him in obeying what He commands and forbids; you
+have no god other than Him deserving of worship. And diminish not the measure and the balance: do not
+short people's rights in your measure and your balance. Truly I see you faring well — the interpreters
+differed over the "good": some said it was the cheapness of prices, and he warned them of its dearness —
+Ibn ʿAbbās said: "I see you faring well" means cheap prices, and "I fear for you the punishment of an
+all-encompassing Day" means dearness of prices. I fear for you the punishment of a day encompassing:
+encompassing you with destruction. **[Jalālayn]** He said: O my people, worship God, affirm His Oneness;
+you have no god other than He. And diminish not the measure or the weight. I see you in prosperity —
+enjoying a grace which precludes any need for stinting people; and I fear for you, should you not
+believe, the chastisement of a besetting day — besetting you, destroying you; the attribution of
+"besetting" to "a day" rather than to "the chastisement" is figurative, for the chastisement will take
+place thereupon. **[Ibn Kathīr]** Shuʿayb called his people to the worship of Allah alone and forbade
+them giving short measure and weight. **[Saʿdī]** We sent to Midian — the well-known tribe dwelling in
+Madyan, in the lower part of Palestine — their brother in lineage, Shuʿayb, so they could recognise him
+and take from him. He said: "O my people, worship God": be sincere to Him in worship; they used to
+associate partners with Him, and along with their shirk they used to give short in the measure and the
+balance, so he forbade them that: "Diminish not the measure and the balance": rather, fulfil the measure
+and the balance with equity. "Truly I see you faring well": in abundant blessing, health, wealth and
+children; so thank God for what He has given you, and do not be ungrateful for His blessing lest He
+remove it from you. "And I fear for you the punishment of an all-encompassing Day": a punishment that
+encompasses you and leaves not one of you remaining.
+
+**Context.** **[Study Quran]** Shuʿayb was an Arabian prophet identified by many Muslim authorities
+with the Biblical figure Jethro, the father-in-law of Moses; he was sent to the people of Midian, who
+resided in northwestern Arabia. He tells them to observe fully the measure and the balance with justice,
+meaning the Midianites should be honest in their business relations; short-changing was also a problem
+among the Makkan idolaters during the time of the Prophet — see Sūrah 83.
+
+**Stories & occasions.** **[Maʿārif]** Midian was actually the name of a town settled by Madyan ibn
+Ibrāhīm; its present location is given as Maʿān in Jordan. Shuʿayb invited them to tawḥīd because they
+were mushriks who worshipped trees — pointed to by the word al-Aykah in the Qurʾān, which is why they
+are also called Aṣḥāb al-Aykah (15:78; 26:176; 38:13; 50:14). Along with this kufr and shirk they were
+involved in the grave sin of cheating in commercial transactions, weighing short and depriving people of
+their right.
+
+**Reflection.** The prophet's eye sees prosperity as a reason for honesty, not an excuse for fraud —
+and fears for the wealthy town a day that will encompass it all.
+
+## 11:85
+
+*"O my people! Observe fully the measure and the balance with justice, and diminish not people's goods,
+and behave not wickedly upon the earth, working corruption."*
+
+**Meaning.** **[Ṭabarī]** O my people, fulfil the measure and the balance with justice: with equity and
+truth; and do not short people of their goods — do not diminish people's rights; and do not act
+corruptly in the earth, spreading mischief, by killing and other than it. **[Jalālayn]** O my people,
+give full measure and weight — fulfil the due of both of these — in justice, and do not defraud people in
+respect of their goods — do not diminish anything of their due — and do not be degenerate in the land,
+working corruption, by killing or otherwise; *lā taʿthaw* derives from *ʿathiya*, meaning "he
+corrupted," and *mufsidīn* is a circumstantial qualifier reiterating the import of the verb. **[Saʿdī]**
+"Observe fully the measure and the balance with justice": with the equity that you yourselves are
+satisfied to give and receive; "and diminish not people's goods": do not diminish people's belongings
+and thus steal them by taking them through short measure and balance; "and behave not wickedly upon the
+earth, working corruption": persisting in disobedience corrupts religions, beliefs, religion and world,
+and destroys tillage and offspring. **[Qurṭubī]** They were, along with their disbelief, people of
+shorting and defrauding: when a seller brought them food, they took it with an enlarged measure and
+exacted the utmost of their capacity, doing wrong; and when a buyer came to them for food, they sold to
+him with a deficient measure and were miserly to the utmost of their capacity. So they were commanded to
+believe, ceasing from shirk, and to fulfil, being forbidden from defrauding. He commanded fulfilment
+after forbidding diminishment, for emphasis. "With justice": with justice and truth — the aim being that
+everyone entitled receives his entitlement; He did not mean the mere filling of the measure and the
+weights, but that they not diminish the size of the measure from what is customary, and likewise the
+weights. "And diminish not people's goods": do not diminish them of what they are entitled to in
+anything. "And behave not wickedly upon the earth, working corruption": He made clear that treachery in
+measure and balance is an extremity of corruption in the earth.
+
+**Reflection.** The balance is a mirror of the heart: he who defrauds the measure defrauds the earth
+itself, and the earth reports every fraud to its Lord.
