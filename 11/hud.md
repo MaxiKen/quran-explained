@@ -470,3 +470,228 @@ fact that as the days of hardship did not last, the days of comfort may not last
 
 **Reflection.** Gratitude binds the blessing; its absence turns prosperity into arrogance, and the man who
 says "the ills have gone from me" has already forgotten who sent them and who removed them.
+
+## 11:11
+
+*"Except those who are patient and do righteous deeds — those, theirs shall be forgiveness and a great
+reward."*
+
+**Meaning.** **[Jalālayn]** Save those who endure misery patiently and perform righteous deeds in times of
+comfort; theirs shall be forgiveness and a great reward, which is Paradise. **[Ibn Kathīr]** God excepts
+the believing servants upon whom He has bestowed His mercy from the blameworthy characteristics of man:
+"those who are patient" in times of hardship and adversity, "and do righteous deeds" in times of ease and
+good health; "forgiveness" is theirs through the calamities that afflicted them, and the "great reward" is
+due to what they sent forward in their ease — like the ḥadīth, "By Him in whose hand is my soul! No worry,
+calamity, distress, illness or grief strikes a believer, even the prick of a thorn, except that God
+expiates his sins thereby," and the ḥadīth, "God decrees no matter for the believer except that it is good
+for him: if blessing befalls him he is thankful and it is good for him; if harm befalls him he is patient
+and it is good for him — and that is for no one but the believer." **[Saʿdī]** This is the nature of man
+simply as man — except those whom God grants success and brings out of this vile character to its
+opposite: those who make their souls patient in adversity and do not despair, and in ease do not exult, and
+do righteous deeds of obligations and recommended acts. For them forgiveness of their sins, by which every
+feared thing departs from them, and a great reward: winning the Gardens of Bliss in which is what souls
+desire and eyes delight in.
+
+**Language.** **[Qurṭubī]** "Except those who are patient" means the believers; God praises them for
+patience in hardships. Grammatically it is in the accusative: al-Akhfash held it a disconnected exception
+— "but those who were patient and did righteous deeds in ease and affliction alike" — while al-Farrāʾ held
+it connected, since "man" in the preceding verses means all people, believer and unbeliever alike, and the
+exception is sound either way.
+
+**Belief.** **[Maʿārif]** The people exempted from the common human frailty have two qualities: *ṣabr* and
+righteous deeds. *Ṣabr* is far wider than the English "patience": its real meaning is to tie, check or
+hold back, and in the usage of the Qurʾān and Sunnah it is to hold the desiring self back from what is
+impermissible — so it includes abstention from all sins and everything contrary to the Sharīʿah — while
+righteous deeds cover the obligatory, the necessary, the sunnah and the recommended. Such people are
+shielded from the common weakness because they believe in God and fear the reckoning of the Last Day, so
+they abstain from what God and His Messenger dislike and race to what pleases them. Note also that the
+Qurʾān uses the word "We let taste" (*adhaqnā*) for blessing and suffering alike, signalling that real
+blessing and suffering are those of the Hereafter: the comfort of this world is not the whole of it, nor
+is its suffering — it is to be taken as a tasting and sampling, so neither is its comfort something to be
+overjoyed at nor its suffering something to grieve over excessively.
+
+**Ḥadīth & āthār.** **[Study Quran]** In a report attributed by some to the Prophet and by others to Ibn
+Masʿūd, faith is composed of two parts: patience accounts for one half and gratitude for the other (al-
+Ghazzālī, Iḥyāʾ ʿulūm al-dīn). Ḥusayn b. ʿAlī is reported to have said, "Patience is the key to success";
+and in this world, part of the great reward for patience is that God is with the patient: "Truly God is
+with the patient" (2:153).
+
+**Reflection.** The exception is the whole hope of the passage: human nature breaks under taking and
+bloats under giving, and only faith's discipline — patience in adversity, gratitude in ease — carries a
+person through both without distortion.
+
+## 11:12
+
+*"Perhaps you would leave off some of what is revealed to you, and your breast would be straitened by it,
+because they say, 'Why has no treasure been sent down upon him, or an angel not come with him?' You are
+but a warner, and God is Guardian over all things."*
+
+**Meaning.** **[Ṭabarī]** God says to His prophet: perhaps, O Muḥammad, you would leave off conveying some
+of what your Lord reveals to you, your breast straitened by it, fearing that they say, "Why has no
+treasure been sent down upon him, or an angel come with him" testifying that he is God's messenger? Then
+deliver to them what I have revealed to you: you are only a warner who warns them of My punishment and
+makes them fear My seizing for their disbelief; the signs they demand of you are with Me and in My
+dominion — I send them down when I will — and upon you is only delivery and warning. "God is Guardian over
+all things": He is the One who undertakes everything, and its management is in His hand; go forward then
+with what I have commanded, and let not their asking for signs hold you back from delivering My revelation.
+Mujāhid: convey what you were commanded to convey. **[Jalālayn]** Perhaps you might think to leave out some
+of what is revealed to you and not convey it, because they do not take it seriously, and your breast might
+be straitened by reciting it to them when they say, "Why has a treasure not been sent down for him, or an
+angel come with him" to confirm his sincerity? You are but a warner, and yours is only to convey the
+message, not to produce what they have requested; God is Guardian and Preserver of all things, and He will
+requite them accordingly. **[Ibn Kathīr]** This statement comforted the worries the polytheists caused the
+Messenger ﷺ — like "Why does this Messenger eat food and walk in the markets? Why has no angel been sent
+down to him… or a treasure granted him?" (25:7–8) and "We know that your breast is straitened at what they
+say" (15:97). God commanded him not to let their words grieve him or deter him from calling to Him day and
+night: you are only a warner, and you have an example in your brothers the messengers who were rejected
+and harmed, yet were patient until God's help came.
+
+**Context.** **[Qurṭubī]** It is said that when they said, "Why has no treasure been sent down upon him,
+or an angel come with him?" the Prophet ﷺ was minded to leave off reviling their gods, and this verse came
+down; the speech is in the sense of an enquiry — will you leave off what contains the reviling of their
+gods as they asked? — while the command to convey was reinforced, as in "O Messenger, convey what has been
+sent down to you from your Lord" (5:67); and it was said the meaning is a negation of the very thought, in
+disbelief that it could come from him. The polytheists of Mecca had said: bring us a book that does not
+revile our gods and we will follow you. He reads *ḍāʾiq* rather than *ḍayyiq* to match *tārik*, and
+because *ḍāʾiq* is an incidental straitening, *ḍayyiq* a settled one. **[Study Quran]** Per 10:15 the
+Makkan idolaters asked that the Qurʾān be altered so as to contain no condemnation of their gods, and
+asked him to turn the mountain of Mecca into gold or bring angels to bear witness to his prophethood;
+their mockery grieved him. "Perhaps" (*laʿalla*) is a rhetorical device: omitting any part of the
+revelation is impossible for a prophet, since conveying the message exactly as revealed is one of the
+mandatory aspects of prophethood; the verse emphasizes faithful conveyance of all that was revealed, and
+reminds him that guidance and misguidance are not in the Messenger's hands but God's alone (cf. 6:102;
+39:62).
+
+**Reflection.** **[Saʿdī]** The verse consoles the Prophet ﷺ and sets the rule for every caller to God:
+their saying arose from obstinacy, injustice, stubbornness and ignorance of where proofs actually lie — so
+go forward with your affair, and let not these feeble words, which only a fool produces, straiten your
+breast. Have they brought an argument you cannot dissolve? Have they impaired anything you brought? Is
+their reckoning upon you? In these verses: that a caller to God must not be turned aside by the objections
+of objectors, especially when the objection has no basis; that he need not satisfy every proposal for the
+kind of proof the questioner prefers — it suffices that the evidence stand free of opposition; and that
+the Qurʾān is in itself a miracle, which no human can match, nor ten sūrahs of it, nor one sūrah — God
+challenged the eloquent enemies, and they did not answer, knowing they had no power.
+
+## 11:13
+
+*"Or do they say, 'He has fabricated it'? Say: 'Then bring ten sūrahs like it, fabricated, and call upon
+whomsoever you can apart from God, if you are truthful.'"*
+
+**Meaning.** **[Ṭabarī]** Sufficient for you as a proof of the reality of what you have brought, and a
+sign of the truth of your prophethood, is this Qurʾān — since signs exist only as evidence of the
+truthfulness of the one given them, through the inability of all creation to produce their like, and all
+creation is unable to produce the like of this Qurʾān. If they say "he fabricated it" — invented it and
+lied — then say: bring ten sūrahs like this Qurʾān, "fabricated": invented and contrived, if what I have
+brought you is a fabrication and not a disabling sign like the rest of the signs you demanded — the
+treasure you said should be sent down, or the angel you said should come as a witness. For you are my
+people and of my tongue, and I am a man from among you: it is impossible that I alone be able to produce
+one hundred and fourteen sūrahs, while all of you together cannot fabricate ten like them. **[Jalālayn]**
+Say: bring ten sūrahs the like of it in clarity and rhetorical excellence — he challenged them to these ten
+sūrahs first, then to one sūrah — and call, to assist you, whomsoever you can besides God, if you are
+truthful that it is an invention of lies. **[Ibn Kathīr]** God explains the miracle of the Qurʾān: no one
+can produce its like, or ten chapters, or one chapter like it, because the speech of the Lord of all that
+exists is not like the speech of created beings, just as His attributes are not like the attributes of
+creation — nothing resembles His existence, exalted is He, the Most Holy, the Sublime. **[Saʿdī]** There
+is no difference between you and him in eloquence and rhetoric — and you are his true enemies, striving
+with all you can to invalidate his claim — so if you are truthful that he fabricated it, bring ten sūrahs
+like it, fabricated.
+
+**Cross-references.** **[Study Quran]** For the Makkan claim that the Prophet fabricated the Qurʾān see
+10:38; 32:2; 46:8. The challenge means: if the Qurʾān is not from God, it would be reproducible by human
+beings; their inability to do so proves it is from God — similar challenges are at 2:23; 10:38; 17:88.
+**[Maʿārif]** They were first asked to bring ten sūrahs; when they failed, to make their inability more
+pronounced they were asked for a single sūrah (2:23) — and despite the challenge being made easier they
+could do nothing, so it stood proved that the Qurʾān is a miracle and the word of God without doubt.
+
+**Reflection.** The challenge remains open: the most eloquent nation on earth, hostile to the claim and
+armed with every helper they could call, never answered it — and the silence itself is the standing proof.
+
+## 11:14
+
+*"But if they answer you not, then know that it has been sent down with God's knowledge, and that there is
+no god but He. So will you then submit?"*
+
+**Meaning.** **[Ṭabarī]** Say to these polytheists: if those you call upon besides God do not answer you
+to bring ten sūrahs like this Qurʾān, fabricated, and neither you nor they can produce it, then know and be
+certain that it was sent down from heaven upon Muḥammad ﷺ by God's knowledge and permission, and that he
+did not fabricate it and has no power to fabricate it; "and that there is no god but He": be certain also
+that none deserves worship except God, to whom belong creation and command — cast off the rivals and
+false gods and single Him out in worship. "So will you then submit?": will you then yield to God in
+obedience and purify worship for Him, after the proof has been established upon you? Mujāhid held that
+"will you then submit?" was addressed to the Companions of Muḥammad ﷺ. **[Jalālayn]** If those you call
+upon for assistance do not answer you — the address is to the idolaters — know that it has been revealed
+enwrapped only in God's knowledge, not as an invention against Him; *an* is softened from *anna*: there is
+no god but He. "Will you then submit?" after this definitive argument — in other words: submit! **[Ibn
+Kathīr]** If they do not come with a reply to the challenge, know it is due to their inability, and know
+that this is speech revealed from God, containing His knowledge, His commands and His prohibitions, and
+that there is no god besides Him. **[Saʿdī]** Since the proof and its grounds have been established and
+all opposition has been excluded, know that it was sent down from God with His knowledge, and know that
+none but He deserves divinity and worship; "will you then submit?": submitting to His divinity,
+surrendering to His servitude.
+
+**Language.** **[Qurṭubī]** If they do not answer in the contest and cannot produce, the proof is
+established against them, for they were the eloquent masters of tongues. "Know that it was sent down with
+God's knowledge" — and know the truthfulness of Muḥammad ﷺ. "Will you then submit?" is an enquiry in the
+meaning of a command. He said "bring" (addressed to all) and then "if they answer you not," switching from
+singular to plural address for glorification — a leader may be addressed as a group; Mujāhid said the
+pronouns are for everyone; others said *lakum* is for the polytheists and *faʿlamū* likewise; and others
+said *lakum* is for the Prophet ﷺ and the believers and *faʿlamū* for the polytheists.
+
+**Reflection.** The failure of the challengers is itself knowledge: when the eloquent cannot answer, the
+only honest conclusion left is that the Book is from God — and the question that follows is not
+intellectual but volitional: will you submit?
+
+## 11:15
+
+*"Whoever desires the life of this world and its adornment, We shall pay them in full for their deeds
+therein, and therein they shall not be shortchanged."*
+
+**Meaning.** **[Ṭabarī]** Whoever desires by his deed the life of this world and seeks it and its
+adornment with it: We shall pay them in full the wages of their deeds in it — "and therein they shall not
+be shortchanged": they shall not be diminished of their wage, but paid in full in this world. Ibn ʿAbbās:
+this is what God gives them of this world for their good deeds, and they are not wronged a speck — whoever
+fasts, prays or keeps vigil at night seeking only this world, God pays him in full what he sought of its
+reward, and his deed in which he sought this world is nullified, and he is in the Hereafter among the
+losers. Saʿīd b. Jubayr: the reward of whatever good they did, they are given in this world, and they have
+nothing in the Hereafter. **[Jalālayn]** Whoever desires the life of this world and its adornment by
+persisting in idolatry — it is said the verse was revealed concerning the dissemblers — We shall repay
+them their deeds: the requital of whatever good they did, such as charity or kindness to kin, by giving
+them abundant provision in it; and therein they shall not be made to suffer any diminution. **[Saʿdī]**
+Whoever's entire will is confined to this world and its adornment — women, sons, heaped-up treasures of
+gold and silver, branded horses, cattle and tillage — who has turned his desire, his striving and his deed
+to these and made no portion of his will for the Abode of Permanence: this can only be a disbeliever, for
+had he been a believer, the faith in him would have prevented all his will being for this world — his very
+faith and whatever deeds came easy to him are effects of his willing the Hereafter. But this wretch, as
+though created for this world alone: "We shall pay them in full for their deeds therein" — We give them
+what was apportioned for them in the Mother of the Book of this world's reward — "and therein they shall
+not be shortchanged": nothing decreed for them is diminished; but this is the end of their bliss.
+
+**Rulings.** **[Qurṭubī]** Three points are taken from the verse. First: it was revealed concerning the
+disbelievers — al-Ḍaḥḥāk's view, chosen by al-Naḥḥās — as the next verse proves: whoever of them performs
+an act of kinship or charity, God requites it in this world with health of body and abundance of
+provision, but he has no good portion in the Hereafter. Second: it may refer to believers — whoever wills
+by his deed the reward of this world, it is hastened to him undiminished, but in the Hereafter he is
+punished, because he stripped his intention wholly for this world; this is like the Prophet's ﷺ saying,
+"Deeds are only by intentions" — a servant is given according to his intention and the verdict of his
+heart, a matter agreed upon among all nations. Third: it concerns the people of ostentation (*riyāʾ*),
+whose deed is invalidated for want of sincerity. **[Maʿārif]** The verse answers an old objection: when
+warnings of punishment were given to the opponents of Islam, they pointed to their charities and social
+welfare — and today too, unaware Muslims look at the good outward deeds of unbelievers and conclude they
+are better than Muslims. The answer: every deed, to be accepted as a source of salvation, must fulfil the
+first condition of absolute sincerity — done for God's sake, in the way taught by His Messenger. The sum
+total of the deeds of one who does not believe in God and His Messenger is a skeleton without a soul:
+handsome to look at, but without weight or effect in the Hereafter. Yet in His equity God does not let
+such deeds go wholly to waste: whatever recognition, health, wealth or comfort they worked for, they
+receive right here — and nothing waits for them there.
+
+**Cross-references.** **[Study Quran]** Desiring this world and its adornment can apply to believers and
+disbelievers alike, since there are lawful enjoyments, but it is understood here of those who desire this
+life only and deny the Hereafter (R), like 42:20. Some understand that God bestows on believers the reward
+of their righteous-directed actions even in this world, hastening it without decreasing it in the
+Hereafter (Q); and it is said the verse was revealed about certain believers given to religious ostentation
+(see 107:6; Aj). For actions with wrong intentions rendered null in the Hereafter see 3:22, and the famous
+ḥadīth, "Verily actions are judged according to their intentions" (Q).
+
+**Reflection.** Deeds are weighed by their direction, not their bulk: the same charity that is a ladder for
+the sincere is only a coin spent in full — and spent only — for the one who wanted this world and nothing
+else.
