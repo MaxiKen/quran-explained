@@ -540,6 +540,7 @@ capital and lineage cannot be spent in God's court, and the rich and barren alik
 temperature. Recited after the prayer of the firmly rooted, it is a balance: they asked for mercy they
 could not earn; the owners of wealth and sons thought they had what needed no asking.
 
+---
 
 ## 3:11 — كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا بِئَايَاتِنَا فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ ۗ وَاللَّهُ شَدِيدُ الْعِقَابِ
 
@@ -997,6 +998,7 @@ Qurʾān will say in this sūrah, *God is Seer of the servants* (3:15, 20, here)
 remains when all arguments are done is the One who was watching all along — and so the disputation is
 handed back with a courtesy no polemic usually keeps: *your duty is only the conveyance.*
 
+---
 
 ## 3:21 — الَّذِينَ يَكْفُرُونَ بِئَايَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ الْحَقِّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ ۗ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ
 
@@ -1352,7 +1354,7 @@ hearts, the gathering — folds at 3:30 with the two names that held it open fro
 *al-ʿAzīz al-Ḥakīm*): God warns, and God is *most kind to the servants*. The Qurʾān's readers in this
 chapter are told which of the two to take hold of: both, in that order.
 
-
+---
 
 ## 3:31 — قُلْ إِن كُنتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ
 
@@ -1734,7 +1736,7 @@ unbelief; what closes the door on unbelief is the answer's second half: *God doe
 man in the sanctuary is, like the girl with winter fruit, a living lesson in *yurzuqu man yashāʾu
 bi-ghayri ḥisāb*: provision — and progeny — belong to the will, not the measure.
 
-
+---
 
 ## 3:41 — قَالَ رَبِّ اجْعَلْ لِي ءَايَةً ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَاذْكُر رَّبَّكَ كَثِيرًا ۖ وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ
 
@@ -2088,7 +2090,7 @@ preached sentence — a sermon that confirms the book he was raised under, loose
 tightened, and closes *obey me* within *beware God*. It is the sharpest single blow the chapter lands on
 the Najrān claim: Jesus' own words make him a link in the chain of law's giving, not its source.
 
-
+---
 
 ## 3:51 — إِنَّ اللَّهَ رَبِّي وَرَبِّكُمْ فَاعْبُدُوهُ ۚ هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ
 
@@ -2376,7 +2378,7 @@ assurance by the same clause that denies them the alibi.
 at their most analytic, keep breaking into the imperative — *do not be of the waverers*. Knowledge in
 this book is never neutral observation; its last word is a posture of the heart.
 
-
+---
 
 ## 3:61 — فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ ۖ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنْفُسَنَا وَأَنْفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ
 
@@ -2685,7 +2687,7 @@ with falsehood and conceal it knowingly* — the same verb of concealment, *yakt
 an Israelite sin (2:159), and the sūrah keeps asking which side of its own warnings its hearers will
 choose (3:103, 3:105).
 
-
+---
 
 ## 3:71 — لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُونَ الْحَقَّ وَأَنتُمْ تَعْلَمُونَ
 
@@ -2987,7 +2989,7 @@ addressed to the believers, but its premise is the same act Najrān and the Jews
 3:64's "bear witness that we are submitters": the chapter has taught its readers what they are, and
 argues from it.
 
-
+---
 
 ## 3:81 — وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ النَّبِيِّينَ لَمَآ ءَاتَيْتُكُم مِّن كِتَٰبٍ وَحِكْمَةٍ ثُمَّ جَآءَكُمْ رَسُولٌ مُّصَدِّقٌ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِ وَلَتَنصُرُنَّهُ ۚ قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي ۖ قَالُوٓا أَقْرَرْنَا ۖ قَالَ فَاشْهَدُوٓا وَأَنَا مَعَكُمْ مِنَ الشَّٰهِدِينَ
 
@@ -3305,7 +3307,7 @@ close picks up 3:86's logic — lost not by accident by accident but *by increas
 deliberate arithmetic of a heart whose ledger, when the debts are counted, is found to have grown since
 its last acceptance.
 
-
+---
 
 ## 3:91 — إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ فَلَن يُقْبَلَ مِنْ أَحَدِهِمْ مِلْءُ الْأَرْضِ ذَهَبًا وَلَوِ افْتَدَىٰ بِهِ ۗ أُولَٰئِكَ لَهُمْ عَذَابٌ أَلِيمٌ ۖ وَمَا لَهُم مِّن نَّاصِرِينَ
 
