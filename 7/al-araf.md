@@ -811,8 +811,7 @@ is "until the day they are raised up," while 38:81 has "until the day of the app
 day is the time of the first blast of the Trumpet, so that both answers name the end of the present
 order, spoken of from two sides: the raising of men, and the appointed moment fixed for it. **[Ṭabarī]**
 draws the same conclusion from the root of the word: the *munẓarīn*, those respited, are those granted
-a delay — not a pardon — so that the term of the enemy of God runs exactly to the moment all creatures
-are raised.
+a delay — not a pardon — so that the respite of the enemy of God runs exactly to the day God has written for him of destruction and death, since nothing endures unfading except our Lord, the Living who does not die — “every soul shall taste death” (3:185).
 
 **Cross-references.** "Until the day of the appointed time" (38:81); "He said, 'Then you are of those
 respited'" (15:37); "And when your Lord said to the angels, 'I am creating a human being from clay'" —
