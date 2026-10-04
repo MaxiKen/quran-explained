@@ -82,6 +82,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -5213,3 +5215,236 @@ this is that "you may ignore their misdeed" — that is, ignore their absence fr
 the futility of engaging them: they are *rijs*, filth, and reproach cannot cleanse what they are. The verse
 thus closes the long passage on the hypocrites not with a confrontation but with a withdrawal that leaves
 them to the One who knows the unseen.
+
+## 9:96
+
+*"They swear to you, that you might be content with them. But though you may be content with them, God is not
+content with iniquitous people."*
+
+**Meaning.** **[Jalālayn]** "They will swear to you that you may be satisfied with them; but if you are
+satisfied with them, God will surely not be satisfied with the wicked folk" — that is, with them; your
+satisfaction is of no avail in the face of the wrath of God. **[Ṭabarī]** "These hypocrites will swear to
+you, O believers in God, excusing themselves with falsehood and lies, 'that you might be content with them.'
+But if you, O believers, are content with them and accept their excuse — since you do not know their truth
+from their lie — your being content with them will not benefit them with God: for God knows of the secrets of
+their affair what you do not know, and of the hiddenness of their belief what you are ignorant of, and that
+they persist upon unbelief in God." **[Qurṭubī]** ʿAbdullāh b. Ubayy swore that he would not stay behind from
+the Messenger of God ﷺ after that, and sought that he be pleased with him.
+
+**Belief.** **[Maʿārif]** The instruction given to the Prophet ﷺ in this verse is that their wish was not to
+be granted and he was not to be pleased with them. And it was also said that even if he were to be pleased
+with them, it was not going to work for them in any manner, because God is not pleased with them — and how
+could God be pleased with them when they are still adamant about their denial and hypocrisy? **[Study Quran]**
+This verse indicates that even if the believers are satisfied with the promises of the hypocrites, God is not
+(R). On the theme of God's Contentment, see 3:15 and 89:28. **[Ibn Kathīr]** "They swear to you that you may
+be pleased with them; but if you are pleased with them, certainly God is not pleased with the people who are
+rebellious."
+
+**Reflection.** The sentence draws a line that cannot be crossed by diplomacy: the community's good pleasure
+is worth having, but it is not the thing that settles a person's account. Their oaths are aimed at the wrong
+audience — and the verse says so plainly.
+
+---
+
+## 9:97
+
+*"The Bedouin are more severe in disbelief and hypocrisy, and more liable not to know the limits [ordained] in
+what God has sent down unto His Messenger. And God is Knowing, Wise."*
+
+**Meaning.** **[Jalālayn]** "The Bedouins" — the Arab nomads — "are more intense in unbelief and hypocrisy
+than the city-dwellers," on account of their harshness and crude nature and their being too remote to hear the
+Qurʾān, "and are more likely not to know the bounds of what God has revealed to His Messenger" in the way of
+rulings and legal prescriptions; "and God is Knower" of His creatures, "Wise" in what He does with them.
+**[Ṭabarī]** "The Bedouin are more severe in denying the oneness of God and more severe in hypocrisy than the
+people of settled life in the villages and the towns"; and God describes them thus because of their coarseness,
+the hardness of their hearts and their scant sitting with the people of good — for which reason they are
+harder of heart and less knowing of the rights of God. "And more liable not to know the limits of what God has
+sent down to His Messenger" — and the limits, as Qatāda said, are the *sunan*. **[Qurṭubī]** Having mentioned
+the states of the hypocrites in Madīnah, God mentions those who were outside it and far from it among the
+Bedouin, and says that their unbelief is more severe. Qatāda said: because they are further from knowledge of
+the *sunan*; and it is said: because they are harder of heart, coarser in speech, rougher in nature and
+further from hearing the revelation — which is why God said "more liable" (*ajdaru*), i.e. more apt.
+
+**Language.** **[Maʿārif]** The word *al-aʿrāb* is not the plural of *al-ʿarab*; it is a collective noun used
+for the Bedouin of the desert, whose singular is *al-aʿrābiyy* — similar to *al-anṣāriyy*, the singular of
+*al-anṣār*. **[Qurṭubī]** "*Allā yaʿlamū*": *an* is in the accusative position through the elision of the
+preposition — one says "you are apt *bi-an tafʿala*" and "*an tafʿala*"; when the *bāʾ* is elided only *an* is
+correct, and when the *bāʾ* is brought, both are correct. **[Study Quran]** *Bedouin* translates *aʿrāb*,
+referring to nomadic Arabs as opposed to sedentary residents of the towns, and here it refers specifically to
+the hypocrites among the former (R); see also v. 101. *Limits [ordained] in what God has sent down* refers to
+the obligations and prohibitions of Divine Law (Q), or to the proper arguments and proofs for correct
+doctrines regarding God, the Messenger and the Hereafter (Q).
+
+**Belief.** **[Saʿdī]** "The Bedouin" — the inhabitants of the desert and the open country — "are more severe
+in disbelief and hypocrisy" than the settled people among whom there is disbelief and hypocrisy; and that is
+for many reasons, among them that they are far from knowledge of the religious laws, the deeds and the
+rulings, so they are more apt "not to know the limits of what God has sent down to His Messenger" of the
+foundations of faith and the rulings of commands and prohibitions — unlike the settled people, who are nearer
+to knowing them, and through that knowledge there arise in them good concepts and wills towards the good that
+do not arise in the desert. They also have of gentleness of nature and responsiveness to the caller what the
+desert does not, and they sit with the people of faith and mix with them more than the people of the desert —
+so they are more apt for good than the people of the desert, even though there are disbelievers and hypocrites
+in both. **[Ibn Kathīr]** God states that there are disbelievers, hypocrites and believers among the Bedouin,
+and that the disbelief and hypocrisy of the Bedouin is worse and deeper than that of others; and that they are
+the most likely to be ignorant of the commandments that God has revealed to His Messenger.
+
+**Reflection.** The verse is a judgement about milieu, not about persons — and v. 99 will immediately qualify
+it. Distance from teaching produces hardness; hardness is not the same as guilt, which is why the same
+passage can praise believing Bedouin two verses later.
+
+---
+
+## 9:98
+
+*"And among the Bedouin are those who regard that which they spend as a loss, and they await a change in
+fortune for you. Upon them shall be an evil change of fortune. And God is Hearing, Knowing."*
+
+**Meaning.** **[Jalālayn]** "And of the Bedouins there is he who takes what he expends in the way of God as a
+penalty" — as a liability and a financial loss, because he does not aspire to be rewarded for it but expends
+it out of fear — these were Banū Asad and Banū Ghaṭafān — "and awaits for you evil turns of fortune," the
+fortunes of time, that these should turn against you and so be rid of you. "Theirs shall be the evil" — read
+as *al-sūʾ* or *al-sawʾ* — "turn of fortune": chastisement and destruction shall turn on them, not on you.
+"And God is Hearer" of the sayings of His servants, "Knower" of their actions. **[Ṭabarī]** "And among the
+Bedouin are those who count the spending he spends in striving against an idolater, or in helping a Muslim, or
+in some of what God has called His servants to, 'as a loss'" — a debt binding upon him, hoping no reward for
+it and averting by it no punishment from himself — "and they await a change in fortune for you": they wait for
+the turns of time to go round against you with something disliked and the loss of what is loved, and the
+prevailing of an enemy over you. **[Qurṭubī]** *Maghraman* means a debt and a loss, its root being the
+clinging of a thing — as in "its punishment is *gharām*" (25:65), i.e. clinging; that is, they regard what they
+spend in *jihād* and charity as a fine and hope for no reward for it. *Al-tarabbuṣ* is waiting, and
+*al-dawāʾir* is the plural of *dāʾirah*, the state that turns about from blessing to affliction.
+
+**Belief.** **[Maʿārif]** Why would they take what they spend as a penalty? Because they hardly have any
+faith in their heart: when it comes to the prayer they do perform it, but only to camouflage their disbelief;
+and they would even fulfil the obligation of *zakāh*, but their hearts would keep worrying as to why they had
+to put good money down the drain. Therefore they always look forward to the time when the Muslims are hit by
+some calamity or defeat. **[Saʿdī]** Among the reasons is that the Bedouin are greedier for wealth and
+more miserly with it: among them are those "who take what they spend" — of the *zakāh*, of spending in the way
+of God and otherwise — "as a loss": they see it as a decrease and a diminution, expecting no reckoning for it
+and not desiring the face of God by it, and hardly paying it except reluctantly; "and they await a change in
+fortune for you" — out of their enmity to the believers and their hatred of them, they wish for and await the
+turns of time and the shocks of the age against them — and this will rebound upon them: "upon them shall be an
+evil change of fortune," while the believers have the good turn over their enemies and the good end. "And God
+is Hearing, Knowing": He knows the intentions of His servants and what their deeds proceed from, of sincerity
+or otherwise. **[Study Quran]** *That which they spend* refers to what some Bedouin expend in the way of God,
+whether in charity or in battle; they consider it to be given without hope of reward or recompense, hence as a
+loss or punitive obligation (Q) or as a means of boasting (R).
+
+**Language.** **[Study Quran]** *Change in fortune* renders *dawāʾir* (sing. *dāʾirah*), whose lexical root
+evokes the sense of a circle or circuit — that is, they wait hoping [that the circle will turn against you].
+**[Jalālayn]** *Dāʾiratu al-sawʾ* is also read *al-sūʾ*.
+
+**Reflection.** Giving that counts itself a loss is already answered: the waiting for someone else's
+misfortune is the inevitable companion of that attitude, and the verse turns it back — the circle they hoped
+would turn against the believers is the one that turns on them.
+
+---
+
+## 9:99
+
+*"And among the Bedouin are those who believe in God and the Last Day, and regard that which they spend as [a
+means to attain] nearness unto God and the blessings of the Messenger. Behold! It shall surely be nearness for
+them. God will cause them to enter His Mercy. Truly God is Forgiving, Merciful."*
+
+**Meaning.** **[Jalālayn]** "And of the Bedouins there is he who believes in God and the Last Day" — such as
+men from among the tribes of Juhayna and Muzayna — "and takes what he expends in the way of God as pious
+offerings to bring him nearer to God, and as a means to secure the prayers" — the supplications — "of the
+Messenger for him. Surely these" — the expenditure of such men — "will bring them nearer" — read *qurubātun*
+or *qurbatun* — "to Him. God will admit them into His mercy," His Paradise. "Truly God is Forgiving" to those
+who obey Him, "Merciful" to them. **[Ṭabarī]** "And among the Bedouin are those who believe in God and
+acknowledge His oneness, and the Resurrection after death, and reward and punishment — and who intend by what
+they spend, of spending in striving against the idolaters and on the journey with the Messenger of God ﷺ,
+'nearnesses with God'" — *al-qurubāt* being the plural of *qurbah*, that which brings one near to the good
+pleasure and love of God — "and the blessings of the Messenger": by his spending he seeks, along with seeking
+nearness to God, the supplication of the Messenger and his asking forgiveness for him. **[Qurṭubī]** "And
+among the Bedouin are those who believe in God" — who hold true; and what is meant is Banū Muqarrin of
+Muzayna, as al-Mahdawī mentioned. *Qurubāt* is the plural of *qurbah*, that by which one draws near to God;
+the plural forms are *qurab*, *qurubāt*, *qarabāt* and *qurbāt*, as al-Naḥḥās reported — *al-qurbāt* (with
+*ḍamma*) being that by which one draws near to God, from which one says "I offered a *qurbān* to God."
+
+**Stories & occasions.** **[Jalālayn]** These were men from the tribes of Juhayna and Muzayna.
+**[Qurṭubī]** Banū Muqarrin of Muzayna are named.
+
+**Belief.** **[Maʿārif]** Having described the state of affairs prevailing among the hypocrites of the
+distant deserts, it was appropriate that the true and staunch Muslims of the same stock should also be
+mentioned — which is done in this verse, very much in line with the typical style of the Qurʾān — so that it
+stands established that the Bedouin too are not all alike: among them there are many sincere Muslims, and
+people of sense and discernment as well. Their style of life is different: when they give in obligatory alms
+or voluntary charity, they regard these as a [means of nearness]. **[Study Quran]** In contrast to the
+description in the previous verse, this verse mentions some Bedouin who discern the spiritual reasons for
+their physical expenditures. *Blessings* renders *ṣalawāt* (sing. *ṣalāh*), which can also mean "prayers" or
+"supplications," here understood to include, for example, [the Prophet's prayers for them]. **[Saʿdī]** Not
+all the Bedouin are blameworthy: among them are those "who believe in God and the Last Day," and so are safe
+from unbelief and hypocrisy, and act according to what faith requires, "and regard that which they spend as a
+means to attain nearness unto God."
+
+**Readings.** **[Jalālayn]** "*Qurubātun*" is also read "*qurbatun*." **[Qurṭubī]** The plural forms of
+*qurbah* are *qurab*, *qurubāt*, *qarabāt* and *qurbāt*.
+
+**Reflection.** The same coins, the same desert, the same distance from the towns — and yet one man counts his
+giving a fine and another counts it nearness. The difference is not in the amount or the setting but in what
+the giver believes the money is for, and Whom he expects to receive it.
+
+---
+
+## 9:100
+
+*"[As for] the foremost, the first among the Emigrants and the Helpers, and those who followed them with
+virtue, God is content with them, and they are content with Him. And He has prepared for them Gardens with
+rivers running below, to abide therein forever. That is the great triumph."*
+
+**Meaning.** **[Jalālayn]** "And the first to lead the way, of the Emigrants and the Helpers" — namely those
+who were present at the battle of Badr, or it means all the Companions — "and those who follow them" up to the
+Day of Resurrection "by being virtuous in deeds" — "God will be pleased with them" for their obedience of Him,
+"and they will be pleased with Him" for His reward to them; "and He has prepared for them Gardens" with rivers
+flowing beneath them — a variant reading adds *min*, "beneath which" — "to abide therein forever. That is the
+supreme triumph." **[Ṭabarī]** "Those who were first, before all people, to believe in God and His Messenger
+— 'of the Emigrants,' who emigrated from their people and their kin and departed from their dwellings and
+their homelands; 'and the Helpers,' who helped the Messenger of God ﷺ against his enemies among the people of
+unbelief in God and His Messenger; 'and those who followed them with virtue' — those who travelled their path
+[in faith and deed]." **[Saʿdī]** *Al-sābiqūn* are those who preceded this community and went before it to
+faith, emigration, *jihād* and the establishing of the religion of God — "of the Emigrants": "those who were
+expelled from their homes and their possessions, seeking bounty from God and good pleasure, and helping God
+and His Messenger — those are the truthful" (59:8); and of "the Helpers": "those who made their abode in the
+home and in faith before them, loving those who emigrated to them, and finding in their breasts no need of
+what they have been given, and preferring them over themselves though there be poverty among them" (59:9).
+"And those who followed them with virtue" — in beliefs, words and deeds: these are the ones who are safe from
+blame, and who have attained the utmost praise and the best of honours from God. "God is content with them" —
+and His contentment is greater than the bliss of the Garden; "and they are content with Him; and He has
+prepared for them Gardens with rivers running below," rivers that are conducted to water the gardens, the
+radiant orchards and the fresh meadows; "to abide therein forever" — they seek no shift from them and no
+substitute for them, for whatever they wish they attain and whatever they want they find; "that is the great
+triumph," in which they obtain every beloved thing for the souls, every delight for the spirits, every bliss
+for the hearts and every appetite of the bodies, and in which every feared thing is driven away from them.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Al-Shaʿbī said that "the foremost, the first among the Emigrants and the
+Helpers" are those who conducted the Pledge of Good Pleasure (*bayʿat al-riḍwān*) in the year of
+Ḥudaybiyyah. Abū Mūsā al-Ashʿarī, Saʿīd b. al-Musayyib, Muḥammad b. Sīrīn, al-Ḥasan and Qatāda said that they
+are those who performed the prayer towards the two *qiblahs* with the Messenger of God ﷺ — first towards
+Jerusalem and later towards the Kaʿbah. **[Qurṭubī]** Having mentioned the classes of the Bedouin, God
+mentions the Emigrants and the Helpers, making clear that among them are those foremost in emigration and
+those who followed, and praising them — and there is disagreement about the number of their generations and
+classes. ʿUmar b. al-Khaṭṭāb read "*wa-al-anṣāru*" in the nominative, as a conjunction to *al-sābiqūn*;
+al-Akhfash said: the genitive in *al-anṣār* is the proper reading, since the foremost are from both of them.
+*Al-anṣār* is an Islamic name: it was said to Anas b. Mālik, "Do you consider that people calling you
+'al-Anṣār' — is it a name God named you by, or…?"
+
+**Belief.** **[Maʿārif]** Most commentators have taken the preposition *min* as partitive, denoting a part of
+something ("out of"), and have thus set up two categories of the noble Companions [— the foremost and the
+rest]. **[Study Quran]** *The foremost (sābiqūn)* has a special meaning in 56:10, where it describes those of
+the highest virtue and spiritual attainment, who have a special place in the Hereafter; those commentators who
+specify the group to which the present verse refers understand it, however, to mean those who pledged
+[allegiance at al-Ḥudaybiyyah, or those who prayed towards both *qiblahs*]. **[Ibn Kathīr]** God mentions
+that He is pleased with the Emigrants, the Helpers and those who followed them in faith, and that they are
+well-pleased with Him, for He has prepared for them the gardens of delight and eternal joy.
+
+**Readings.** **[Jalālayn]** A variant reading adds *min* before *taḥtahā*, "beneath which."
+**[Qurṭubī]** ʿUmar read "*wa-al-anṣāru*" in the nominative, as a conjunction to *al-sābiqūn*; al-Akhfash
+held the genitive to be the correct reading.
+
+**Cross-references.** **[Saʿdī]** 59:8–9, describing the Emigrants and the Helpers. **[Study Quran]** 56:10,
+on *the foremost*; 3:15 and 89:28, on contentment.
+
+**Reflection.** After forty verses of exposure, the sūrah turns and pronounces a blessing — and the two are
+held together by a single word: contentment. God is content with them, and they with Him; and that, the verse
+says, is greater than the Gardens prepared beneath which rivers flow.
