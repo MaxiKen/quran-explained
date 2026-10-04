@@ -1029,3 +1029,115 @@
 **Rulings.** *Khamr* literally refers to wine, but the jurists apply the prohibition to intoxicants generally because intoxication veils the mind [Saʿdī]. *Maysir* likewise extends beyond one pre-Islamic game to gambling more broadly [Study Quran].
 
 **Reflection.** Prosperity is tied to avoiding practices that cloud judgment, divert trust from God, and sow harm in human relationships; the next verse spells out these harms (5:91) [Saʿdī].
+
+---
+
+## 5:91
+
+*“Satan desires only to sow enmity and hatred among you through wine and gambling, and to turn you away from the remembrance of God and from prayer. Will you then desist?”*
+
+**Meaning.** The verse explains two of the harms of intoxicants and gambling: they provoke hostility and distract from remembrance and prayer **[Ṭabarī]**, **[Jalālayn]**. Intoxication clouds judgment, while gambling makes one person’s gain another’s loss, feeding resentment **[Saʿdī]**. The closing question is a forceful call to stop, not an invitation to moderation **[Jalālayn]**. Together with 5:90, this completes the prohibition of wine and gambling after earlier revelations had addressed their harms and the danger of praying while drunk **[Study Quran]**.
+
+**Reflection.** A practice that damages fellowship and worship cannot be measured by pleasure or profit alone **[Maʿārif]**.
+
+---
+
+## 5:92
+
+*“Obey God and obey the Messenger, and beware. If you turn away, then know that Our Messenger’s duty is only to convey clearly.”*
+
+**Meaning.** The command to obey follows directly from the prohibitions of 5:90–91: believers must heed God and the Messenger in what they command and forbid **[Ṭabarī]**, **[Saʿdī]**. “Beware” warns against disobedience and its consequences **[Jalālayn]**. If people turn away, the Messenger has nevertheless fulfilled his duty by conveying the message plainly; acceptance and accountability belong to the hearers before God **[Study Quran]**, **[Maʿārif]**.
+
+**Reflection.** Revelation is a clear summons, but each hearer remains responsible for how they answer it **[Jalālayn]**.
+
+---
+
+## 5:93
+
+*“There is no blame upon those who believe and do righteous deeds for what they consumed, so long as they are mindful, believe, and do righteous deeds, then remain mindful and believe, then remain mindful and excel; God loves those who excel.”*
+
+**Context.** After the prohibition of wine, Companions asked about believers who had died before it was revealed, having consumed what was then not forbidden. This verse reassures them that there is no blame for that past consumption **[Qurṭubī]**, **[Ibn Kathīr]**, **[Maʿārif]**, **[Study Quran]**.
+
+**Meaning.** The repeated sequence of reverence, faith, and righteous action points to sustained piety, culminating in excellence (*iḥsān*) and God’s love **[Saʿdī]**, **[Maʿārif]**. It does not cancel the prohibition or excuse later drinking: the surrounding verses command believers to abstain **[Jalālayn]**, **[Study Quran]**.
+
+**Reflection.** The verse joins mercy toward the past with faithful obedience in the present **[Saʿdī]**.
+
+---
+
+## 5:94
+
+*“O you who believe! God will surely test you with some game within reach of your hands and spears, so that He may make manifest who fears Him unseen. Whoever transgresses after that shall have a painful punishment.”*
+
+**Meaning.** During pilgrimage sanctity, accessible game—small creatures or eggs taken by hand, and larger animals reached with spears—makes restraint a real test **[Ṭabarī]**, **[Jalālayn]**. The trial makes manifest who fears God even when unseen and able to hunt **[Saʿdī]**, **[Study Quran]**.
+
+**Context.** Jalālayn places the scene at al-Ḥudaybiyyah, where game and birds reportedly drew near to the pilgrims. The account underlines that the temptation was within reach; the command was not an impossible test **[Jalālayn]**.
+
+**Reflection.** Reverence is proved not only by avoiding what is out of reach, but by restraint when one could act unseen **[Study Quran]**.
+
+---
+
+## 5:95
+
+*“O you who believe! Do not kill game while you are in a state of pilgrimage sanctity. Whoever among you kills it intentionally, the recompense is an equivalent from livestock, as judged by two just men among you, an offering brought to the Kaʿbah; or expiation by feeding the poor; or the equivalent of that in fasting, so that he may taste the consequence of his deed. God has pardoned what is past; but whoever repeats it, God will take retribution from him. God is Mighty, Possessor of Retribution.”*
+
+**Meaning.** A pilgrim in *iḥrām* for ḥajj or ʿumrah may not kill land game **[Ṭabarī]**, **[Jalālayn]**.
+
+**Rulings.** For a deliberate violation, the verse prescribes an equivalent animal from livestock, assessed by two just people and brought as an offering to the Kaʿbah; alternatively, the offender may feed the poor or fast in an equivalent measure **[Jalālayn]**, **[Study Quran]**. The verse names deliberate killing, while the commentators record legal disagreement over how the penalty applies when the pilgrim forgets the restriction or acts inadvertently **[Ṭabarī]**, **[Study Quran]**. The pardon for what is past is explained as covering pre-Islamic hunting before the prohibition; repeating the offense after the warning incurs retribution **[Ṭabarī]**, **[Study Quran]**.
+
+**Reflection.** The expiation treats the sanctuary’s protection seriously while directing restitution toward worship and people in need **[Study Quran]**.
+
+---
+
+## 5:96
+
+*“Lawful to you is the game of the sea and its food, a provision for you and for travelers; but forbidden to you is the game of the land while you remain in pilgrimage sanctity. Be mindful of God, to Whom you will be gathered.”*
+
+**Meaning.** The verse makes sea game and its food available as provision for people and travelers, even during pilgrimage sanctity, while forbidding land-game hunting for those in *iḥrām* **[Ṭabarī]**, **[Jalālayn]**. “Its food” is understood by some as what the sea casts ashore and by others as seafood preserved for a journey **[Ibn Kathīr]**, **[Qurṭubī]**, **[Study Quran]**.
+
+**Rulings.** The commentaries differ over which marine creatures the permission covers **[Jalālayn]**, **[Study Quran]**. They also record differing rulings on eating land game killed by someone else during a pilgrim’s *iḥrām*: many jurists allow it only when it was neither killed by the pilgrim nor hunted for them; the Ḥanafī school is more permissive about game hunted on the pilgrim’s behalf, while some early authorities and the Jaʿfarī school are stricter still **[Study Quran]**.
+
+**Reflection.** The verse makes provision for pilgrims and travelers while keeping the limits of pilgrimage clear **[Saʿdī]**.
+
+---
+
+## 5:97
+
+*“God has made the Kaʿbah, the Sacred House, a support for mankind, and the sacred month, and the offerings, and the garlands, so that you may know that God knows all that is in the heavens and the earth, and that God is Knower of all things.”*
+
+**Meaning.** Calling the Kaʿbah “a support for mankind” presents it as an anchor of worship and communal security **[Saʿdī]**, **[Maʿārif]**. The sacred months, sacrificial offerings, and animals marked with garlands protect pilgrims and offerings on the way to the sanctuary; together they sustain religious and social order **[Jalālayn]**, **[Study Quran]**. The “sacred month” is explained as either the month of pilgrimage or the four sacred months, while garlands identify sacrificial animals so they are not molested **[Jalālayn]**, **[Study Quran]**.
+
+**Context.** The sanctuary’s inviolability was recognized in pre-Islamic Arabia and helped secure people against violence; the verse also affirms the lasting religious significance of pilgrimage **[Study Quran]**.
+
+**Reflection.** These protections show divine wisdom in laws that preserve worship and public safety, and point to God’s knowledge of human needs **[Ṭabarī]**, **[Saʿdī]**.
+
+---
+
+## 5:98
+
+*“Know that God is severe in punishment, and that God is Forgiving, Merciful.”*
+
+**Meaning.** Following the laws of pilgrimage and the sanctuary, the verse warns that defiance has consequences while affirming that God forgives and shows mercy to those who repent and turn back **[Ṭabarī]**, **[Qurṭubī]**.
+
+**Reflection.** The pairing holds fear and hope together: mercy does not make wrongdoing trivial, and warning does not close the door to forgiveness **[Study Quran]**, **[Maʿārif]**.
+
+---
+
+## 5:99
+
+*“The Messenger is responsible only for conveying [the message]; and God knows what you reveal and what you conceal.”*
+
+**Meaning.** The Messenger’s duty is to deliver the message; he does not control whether people accept it **[Jalālayn]**, **[Study Quran]**. Their response remains their responsibility before God, who knows both what they disclose and what they keep hidden **[Maʿārif]**.
+
+**Cross-references.** The verse reiterates the reminder in 5:92 that the Messenger’s duty is clear proclamation **[Jalālayn]**.
+
+**Reflection.** Neither rejection nor concealment escapes divine knowledge; the hearer remains accountable for the response to revelation **[Maʿārif]**, **[Study Quran]**.
+
+---
+
+## 5:100
+
+*“Say: The bad and the good are not equal, even if the abundance of the bad impresses you. So be mindful of God, O people of understanding, that you may prosper.”*
+
+**Meaning.** The contrast between the impure and the wholesome can describe unlawful and lawful things, as well as wicked and good people or deeds; al-Qurṭubī treats the wording as broad **[Ṭabarī]**, **[Qurṭubī]**, **[Saʿdī]**. A greater quantity of what is bad does not make it good or equal in worth to what is pure **[Study Quran]**.
+
+**Reflection.** The verse warns against taking popularity or abundance as a measure of truth and benefit. People of understanding are called to discernment and reverence, the path to true prosperity **[Saʿdī]**, **[Study Quran]**.
