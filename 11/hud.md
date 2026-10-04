@@ -1098,3 +1098,178 @@ corollaries.
 
 **Reflection.** Every messenger enters his nation's story with the same first word — warning — because
 mercy begins by telling the traveller the cliff is ahead.
+
+## 11:26
+
+*"'— that you worship none but God. Truly I fear for you the punishment of a painful day.'"*
+
+**Meaning.** **[Ṭabarī]** The message with which he was sent: worship none but God. "[I fear for you the
+punishment of a painful day]" if you do not. **[Jalālayn]** That you worship none but God; lo, I fear
+for you, should you worship other than Him, the chastisement of a painful day — painful in this world and
+in the Hereafter. **[Ibn Kathīr]** "That you worship none but God": this explains his warning — "If you
+all continue doing this, God will punish you with a severe punishment." **[Saʿdī]** Devote worship to God
+alone and abandon everything worshipped apart from Him; "truly I fear for you the punishment of a painful
+day" — if you do not uphold God's oneness and obey me. **[Study Quran]** In saying "worship none but
+God" — the same call made by the other prophets (41:14; 46:21; cf. 2:83; 3:64; 11:2) — Nūḥ was calling his
+people to cast aside their idols and obey God alone (Q; cf. 7:59; 23:23; 71:3); the punishment of a
+painful day is the chastisement they would receive in this world and their punishment in the Hereafter
+(JJ; cf. 7:59; 71:1).
+
+**Reflection.** The whole of Nūḥ's message — and of every messenger's — is held inside a single fear
+spoken out of love: I fear for you a day you cannot bear.
+
+## 11:27
+
+*"But the notables among his people who disbelieved said, 'We see you only as a mortal like us, and we
+see that none follow you but the lowest of us, at first thought; nor do we see any merit in you over us —
+rather, we think you are liars.'"*
+
+**Meaning.** **[Ṭabarī]** The great men and nobles of Nūḥ's people — *al-malaʾ* — who disbelieved in God
+and rejected the prophethood of their prophet said: "We see you, O Nūḥ, only as a mortal like us" — a
+human being like us in creation, form and kind — as though they denied that God would send a human as a
+messenger to His creation; "and we see that none follow you but those who are our lowest": our scum, below
+the great and noble, so far as we see and observe. "At first thought" (*bādiya r-raʾy*): the reciters
+differed — the generality of the reciters of Madinah and Iraq read without hamza in *bādī*, from *badā
+yabdū*, "to appear": on the surface of opinion, without depth. **[Jalālayn]** The council — the respected
+elders — said: we see you but a mortal like us, with no merit over us; none follow you but the vilest
+among us, the riffraff, such as the weavers and the shoemakers, through rash opinion — *bādiya r-raʾy*,
+read with hamza or without, meaning impulsively, without thinking you over, an adverbial accusative: at
+the moment their opinion first came into being. We do not see that you have any merit over us for which
+you would deserve our following you; nay, we deem you liars in your claim to bring a message — the
+disbelievers including his folk with him in their address. **[Ibn Kathīr]** *Al-malaʾ* are the leaders and
+heads of the disbelievers. "A man like ourselves": you are not an angel — you are only a human being, so
+how can revelation come to you rather than us? "Only the lowliest among us follow you": the merchants,
+weavers and the like — no nobility or rulers follow you; nor are they known for intelligence or sharp
+thinking: you merely invited them and they responded without reflection. **[Saʿdī]** The nobles and chiefs
+rejected Nūḥ's call, as the custom of their kind has always been — they are the first to reject the
+messengers. "A mortal like us": they supposed this an obstacle to following him, though it is precisely
+the right way and nothing else is fitting, since humans can receive from a human and consult him in every
+matter — unlike with an angel. "None follow you but the lowest of us": so they claimed; but in truth his
+followers were the nobles and the people of intellect, who submitted to the truth — they were not like the
+truly lowly ones called *al-malaʾ*, who followed every rebellious devil and took idols of stone and wood
+for gods, approaching them and prostrating to them — is there anything lower or viler than that? "At
+first thought": they followed you without reflection, as though they had no insight — they did not know
+that manifest truth is recognized by the first glance of sound minds; as soon as it reaches the people of
+understanding they know it and are certain of it, unlike obscure matters that need long deliberation.
+"Rather, we think you are liars": and they lied in this, for they had seen of the signs by which God
+supported Nūḥ what should have compelled absolute certainty of his truthfulness.
+
+**Context.** **[Qurṭubī]** Four points are taken from the verse. Al-Zajjāj: *al-malaʾ* are the leaders,
+as though "full of substance for what they say." *Arādhil* is the plural of *ardhal*, and *ardhal* of
+*radhl*, like *kalb*, *aklub*, *akālib* — meaning our low and worthless ones. Al-Zajjāj: they ascribed
+them to the weaving trade, not knowing that crafts have no effect on religion. Al-Naḥḥās: the *arādhil*
+are the poor, those without lineage, and those of lowly crafts; in the report: they were weavers and
+cuppers. This was ignorance on their part: they faulted God's prophet with what is no fault at all.
+**[Study Quran]** The notables are the leaders of Nūḥ's society (Q; see also 7:60, 66); their answer is
+the answer given to all God's messengers: "You are but human beings like us" (14:10; cf. 26:154). His
+followers were looked down upon because they were poor and worked at trades of low social standing (Q;
+26:112); elsewhere his people refuse him precisely for that: "Shall we believe you, when the lowliest
+follow you?" (26:111). "You have no merit over us" was directed at Nūḥ and his followers together (Kl),
+who were held unworthy of being followed — possessing no distinction of dress, wealth or status.
+**[Maʿārif]** *Malaʾ* is a group of the chiefs of a people; *bādiya r-raʾy* means a cursory, shallow
+opinion. The first objection touched Nūḥ's status as a prophet: he ate, drank, walked and slept as they
+did — how then accept his extraordinary rank? They thought the one sent to men should be an angel whose
+distinct status everyone must recognize, willing or not.
+
+**Reflection.** The objection that repeated itself in every century is not that the message was weak, but
+that its carrier was human and its first believers poor — as if truth were a matter of rank, and the
+weaver's faith weighed less than the chief's scorn.
+
+## 11:28
+
+*"He said, 'O my people, what think you? If I stand upon a clear proof from my Lord, and He has granted
+me a mercy from Himself, and it has been obscured from you — shall we compel you to it, while you are
+averse?'"*
+
+**Meaning.** **[Ṭabarī]** God reports Nūḥ's answer when his people rejected his sincere counsel: "Upon a
+clear proof from my Lord": upon knowledge, insight and clarity from God of what is incumbent upon me —
+purifying worship for Him and leaving the association of idols; "He granted me a mercy from Himself": He
+provided me from Himself with success, prophethood and wisdom, and I believed in Him and obeyed Him; "and
+it has been obscured from you": the reciters differed — most of the Medinans and some of Baṣrah and Kūfah
+read *fa-ʿamiyat* with fatḥa and a lightened mīm: the mercy has been blind to you, so you were not guided
+to it nor confirmed your messenger in it; the generality of the Kufans read *fa-ʿummiyat* with ḍamm and a
+heavy mīm, following the codex of ʿAbdullāh, which reads *fa-ʿammāhā ʿalaykum*. **[Jalālayn]** Tell me: if
+I am acting upon a clear proof — a clear statement from my Lord — and He has given me a mercy from Him,
+prophethood, and it has been obscured, concealed, from you — the variant reading is the passive *ʿummiyat*
+— can we compel you to it? Are we able to force you to accept it while you are averse? We are not able to
+do that. **[Ibn Kathīr]** "Shall we compel you to accept it?" means: should we force you to accept it
+while you actually detest it? **[Saʿdī]** Upon a clear proof from my Lord: upon certainty and conviction —
+and he is the perfect messenger and exemplar, to whom the people of intellect submit, beside whose reason
+the minds of great men dwindle, and he is truly truthful: when such a one says "I am upon a clear proof
+from my Lord," his word alone is testimony enough. "He granted me a mercy from Himself": He revealed to
+me, sent me and favoured me with guidance; "and it has been obscured from you": it was hidden from you,
+and you grew heavy toward it; "shall we compel you to it?": shall we force upon you what we have verified
+while you doubt, and you are so averse that you are eager to reject what I have brought? That harms us
+not and does not diminish our certainty; its only effect is to bar you yourselves. When the matter reaches
+this point, we have no power to force you to what God commanded or to bind you to what you have fled
+from. **[Study Quran]** His standing upon a clear proof is the clarity and truth of his message (see also
+6:57–58), repeated by Ṣāliḥ and Shuʿayb later in this sūrah (11:63, 88); the mercy is God's conferral of
+prophethood upon him (Kl) or the guidance and knowledge He gave him (Bg); his question is rhetorical,
+according with "there is no coercion in religion" (2:256).
+
+**Rulings.** **[Maʿārif]** The answer shows that a messenger's being a man is not contrary to his mission
+— indeed a little thought shows it must be so: the messenger to men should be a man, that men may
+comfortably learn their religion from him. The mental and emotional make-up of men and angels differs
+enormously: an angel is never hungry, thirsty, sleepy or tired, and does not face human compulsions — how
+would he feel for such weaknesses? And without that feeling, how could men follow him deed by deed?
+
+**Reflection.** Certainty does not compel: the prophet stands upon his proof and offers it; that his people
+cannot see it changes nothing of its light, and nothing entitles him to force sight upon them.
+
+## 11:29
+
+*"And, O my people, I ask you no wealth for it; my reward is only upon God. And I am not one to drive
+away those who believe — they shall surely meet their Lord; but I see that you are an ignorant people."*
+
+**Meaning.** **[Ṭabarī]** God reports Nūḥ's words: I ask you no wealth as a wage for my counselling you
+and calling you to God's oneness — lest you suspect my sincerity and suppose I do this seeking some
+worldly object; "my reward is only upon God": the reward of my counsel is with God alone, who will
+recompense me. "And I am not one to drive away those who believe": I will not banish those who believed
+in God, acknowledged His oneness and cast off the idols — even though they are not of your high and
+noble; "they shall surely meet their Lord": those whose expulsion you demand are going to God, and He will
+question them about what they did in this world — not about their nobility or lineage. **[Jalālayn]** I do
+not ask of you any wealth for conveying the message; my wage falls only upon God; and I will not drive
+away those who believe as you have commanded me — they shall surely meet their Lord at the resurrection,
+and He will requite them and exact vengeance for them from those who wronged them and drove them away;
+but I see you are a people ignorant of the consequence of your affair. **[Ibn Kathīr]** Wealth here means
+a payment taken from them; he seeks reward from God alone. "I am not going to drive away those who have
+believed" alludes to their request that he disassociate himself from the believers, being averse to them
+and too grand to sit with them — like the request made of the Seal of the Messengers ﷺ to disassociate
+himself from the socially weak so the elite could have him in a gathering of their own, whereupon God
+revealed, "Do not drive away those who invoke their Lord morning and evening" (6:52), and "Thus We have
+tried some of them with others, that they might say, 'Is it these whom God has favoured from among us?'
+Does not God know best those who are grateful?" (6:53). **[Maʿārif]** To their condition — remove the
+poor from your company so that we may believe — his answer is: I cannot do it. They may be poor, but they
+are near to the Highest of the high, the greatest honour one can have; turning such people out is not a
+right thing to do. "They are surely to meet their Lord" can also mean: if I were to turn them out, and on
+the Day of Judgment they went to their Lord and complained, what would I have to say?
+
+**Cross-references.** **[Study Quran]** "It" refers to what Nūḥ was calling them to — faith in and
+sincere worship of the One God (Ṭ). The notables told him that if he wanted them to believe, he should
+shun those currently following him, as unworthy of equal footing with them (Ṭ, Ṭs); Quraysh had the same
+objection to the Prophet's followers (see 6:52). "I see that you are an ignorant people" refers to their
+demand (Ṭ); the identical phrase is used by Hūd to his people at 46:23.
+
+**Reflection.** The prophet's terms are the inverse of the world's: he takes no pay, and he keeps the
+company the nobles despise — for the poor believer is near to God in a way no chief can purchase.
+
+## 11:30
+
+*"And, O my people, who would help me against God if I were to drive them away? Will you not then
+remember?"*
+
+**Meaning.** **[Ṭabarī]** Who would help me and defend me against God, if He punished me for driving away
+the believing monotheists, should I drive them away? "Will you not then remember?": will you not reflect
+on what you are saying, recognize its error, and desist from it? **[Jalālayn]** Who would help me, who
+would defend me against God — against His chastisement — if I drive them away? In other words, there is
+none to help me. Will you not then remember — the second tāʾ of *tatadhakkarūn* having been assimilated
+into the dhāl — will you not be admonished? **[Maʿārif]** If I were to turn them out, who would save me
+from divine punishment? And all this is nothing but your ignorance and heedlessness: to you, a man's
+being human is contrary to his being a prophet — or you run to the opposite extreme and demand that the
+poor be driven from his company. **[Study Quran]** Nūḥ's question can be taken to mean: who would prevent
+God's punishment against me, were I to shun those who believe and who on the Day of Judgment will make a
+case against me before God (Ṭs)?
+
+**Reflection.** The test of a caller to God is whom he keeps when the powerful demand he let them go: and
+Nūḥ saw, behind the ragged believers, not an audience to be flattered but witnesses who would one day
+testify — for him or against him.
