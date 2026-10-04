@@ -76,6 +76,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -4631,3 +4633,209 @@ obedience to Him.
 rebuked, but it cannot reach those who have rejected the One he prays to. The number seventy — whether
 hyperbole or a figure he intended to exceed — measures mercy, not failure, and the reason given is theirs,
 not his.
+
+## 9:81
+
+*"Those who were left behind exulted in staying back, opposing the Messenger of God, and were averse to
+striving with their wealth and with their selves in the way of God. And they said, 'Go not forth in the heat.'
+Say, 'The Fire of Hell is of a heat more intense,' if they but understood."*
+
+**Meaning.** **[Jalālayn]** "Those who were left behind from the journey to Tabūk rejoiced at remaining
+behind the Messenger of God and were averse to striving with their wealth and their lives in the way of God.
+And they said" — that is, they said to one another — "'Do not go forth' — do not set off to join the fight —
+'in the heat!' Say: 'The fire of Hell is hotter than Tabūk and more worthy for them to guard against, by not
+staying behind — did they but understand' — this they would not have stayed behind." **[Ṭabarī]** "Those whom
+God left behind from the campaign with His Messenger and from striving against His enemies rejoiced 'in their
+sitting, opposing the Messenger of God'": in their sitting in their houses, in opposition to the Messenger of
+God — for the Messenger of God [went out, and they sat]. **[Qurṭubī]** *Al-mukhallaf* is the one left behind:
+either God left them behind and held them back, or the Messenger of God and the believers left them behind
+when they knew their heaviness about *jihād* — two views; and this was on the expedition of Tabūk. "*Khilāfa
+rasūli Allāh*" is an object of cause, or if you wish a verbal noun; *al-khilāf* is opposition; and whoever
+reads "*khalfa rasūli Allāh*" intends staying behind [him]. **[Saʿdī]** "Those who were left behind exulted
+in staying back, opposing the Messenger of God" — and this is something over and above merely staying behind,
+for that staying behind was forbidden, and this is an added pleasure in the act of disobedience and a
+boasting of it. "And they were averse to striving with their wealth and their selves in the way of God" —
+contrary to the believers, who, if they stay behind even with an excuse, grieve over it and regret it
+exceedingly, and love to strive with their wealth and their selves in the way of God because of the faith in
+their hearts, hoping for the bounty, kindness, goodness and favour of God. "And they said" — the
+hypocrites — "'Go not forth in the heat'": the going forth is hardship for us because of the heat — so they
+preferred a short, passing ease over the perfect, everlasting ease, and guarded against a heat that shade
+wards off and that early mornings and late afternoons dispel, while exposing themselves to the intense heat
+whose measure cannot be estimated — the blazing Fire.
+
+**Belief.** **[Ibn Kathīr]** God admonishes the hypocrites who lagged behind from the battle of Tabūk with
+the Companions of the Messenger of God ﷺ, rejoicing that they remained behind after the Messenger departed
+for the battle, and hating to strive with their properties and their lives in the cause of God. **[Study
+Quran]** This verse refers to those who chose to stay behind when the Prophet went on the campaign to Tabūk
+(IK, Ṭ; see vv. 38–39). **[Saʿdī]** God shows thereby the boasting of the hypocrites at their staying behind
+and their unconcern about it — which indicates the absence of faith and their choosing unbelief over faith.
+
+**Reflection.** The exchange proposed is brutally simple: they refused a heat that shade can remedy, and
+chose one that cannot be borne. The verse does not deny the discomfort of the march; it sets it beside
+another and leaves the comparison to do the work.
+
+---
+
+## 9:82
+
+*"So let them laugh little and weep much, as a recompense for that which they used to earn."*
+
+**Meaning.** **[Jalālayn]** "But let them laugh a little" in this world "and weep much" in the Hereafter,
+"as a requital for what they used to earn" — the sentence is predicative of their state, expressed in the
+form of an imperative. **[Ṭabarī]** "These who were left behind rejoiced in their sitting in opposition to
+the Messenger of God; so let them laugh, rejoicing, a little in this perishing world at their sitting in
+opposition to the Messenger of God and at their diversion from obeying their Lord — for they will weep long
+in Hell in place of the little laughter in this world. 'As a recompense': a requital from Us to them for
+their disobedience in abandoning the going forth when they were called to it against their enemy, and for
+their sitting in their houses in opposition to the Messenger of God; 'for that which they used to earn' of
+sins." **[Saʿdī]** Since they preferred what passes away over what remains, and fled from a light hardship
+that ends to a severe hardship that endures, God says: "So let them laugh little and weep much" — let them
+enjoy themselves in this passing abode, rejoice in its pleasures and divert themselves with its play, for
+they will weep much in a painful punishment — "as a recompense for that which they used to earn" of unbelief,
+hypocrisy and non-submission to the commands of their Lord.
+
+**Language.** **[Qurṭubī]** "Let them laugh little" is an imperative carrying the sense of threat, not a
+command to laugh; the *lām* is properly with *kasra*, the *kasra* being elided for heaviness. Al-Ḥasan said:
+"let them laugh a little" in this world, "and weep much" in Hell. And it is said that it is an imperative in
+the sense of a statement — i.e. they will laugh little and weep much. "*Jazā'an*" is an object of cause, i.e.
+for the requital. **[Maʿārif]** Though the word "let them laugh" is in the imperative form, the commentators
+interpret it as the predicate of a nominal clause; and the wisdom in using the imperative form is that it is
+categorical and certain — in other words, this is going to happen.
+
+**Belief.** **[Study Quran]** Those who stayed behind will be forced to laugh little and weep much as a
+result of their experience of the Hereafter (Q, R), unlike the believers, who weep from belief in God — in
+hope and fear — in this life (Q). Cf. 53:60: "And do you laugh and not weep?" In this context some
+commentators mention the ḥadīth, "If you knew what I knew, you would laugh little and weep much."
+
+**Reflection.** The contrast is not between joy and grief but between proportion: a little laughter here
+bought with much weeping there. The word "little" is the sting — the pleasure was never as large as it
+looked, and the price is not.
+
+---
+
+## 9:83
+
+*"And if God returns thee to a group of them, and they seek leave of thee to go forth, say, 'You shall not go
+forth with me ever; nor shall you fight with me against any enemy. You were content to stay back the first
+time; so stay back with those who remain behind.'"*
+
+**Meaning.** **[Jalālayn]** "So if God brings you back from Tabūk to a party of them" — of those hypocrites
+who stayed behind in Madīnah — "and they ask leave of you to go forth with you on some other campaign, say to
+them: 'You shall never more go forth with me, and you shall never fight with me against an enemy. You were
+content to stay behind the first time; so stay behind with those who stay behind'" — away from military
+campaigns — such as women and children and others. **[Ṭabarī]** "If God returns you, O Muḥammad, to a party
+of these hypocrites from this campaign of yours, and they ask your leave to go out with you on another, say
+to them: 'You shall not go forth with me ever, nor shall you fight with me against any enemy; you were
+content to sit the first time, so sit with those who remain behind.'" **[Qurṭubī]** "If God returns you to a
+party of them" — of the hypocrites. He said "to a party of them" because not all who remained in Madīnah were
+hypocrites: among them were the excused and those who had no excuse, whom He then pardoned and towards whom
+He turned — such as the three who were left behind (9:118). "And they seek leave of you to go forth — say:
+'You shall not go forth with me ever'": punish them by never taking them with you, the like of which is His
+saying in Sūrat al-Fatḥ: "Say: 'You shall not follow us'" (48:15).
+
+**Stories & occasions.** **[Ibn Kathīr]** "And they ask your permission to go out" with you to another battle
+— "say: 'Never shall you go out with me nor fight an enemy with me'" — as an admonishment and a punishment
+for them. Qatādah said the "party of them" refers to twelve [hypocrite] men. **[Saʿdī]** "And if God returns
+thee to a group of them" — those who stayed behind without excuse and did not grieve over their staying
+behind — "and they seek leave of thee to go forth" — to a campaign other than this one, when they perceive
+ease — "say" to them by way of punishment: "You shall not go forth with me ever, nor shall you fight with me
+against any enemy."
+
+**Belief.** **[Study Quran]** If God returns thee from battle to a group of them — since not all who remained
+behind were hypocrites — they will seek leave to participate in upcoming battles (Q). **[Maʿārif]** The
+statement "you shall never march" has been explained by Mawlānā Ashraf ʿAlī Thānawī in the summary of his
+*Bayān al-Qurʾān*: even if these people intended to participate in a future *jihād*, they would get out of it
+when they wanted to, under one pretext or another; and since they have no faith in their hearts, their
+intention too would not be backed by [sincerity].
+
+**Reflection.** The ban is not vengeance but consistency: the choice they made at the first call is treated
+as the choice they would make again. Their own contentment with sitting is quoted back to them as the
+sentence — "so stay back with those who remain behind."
+
+---
+
+## 9:84
+
+*"And never pray over one of them who dies, nor stand by his grave. Truly they disbelieved in God and His
+Messenger and died iniquitous."*
+
+**Meaning.** **[Jalālayn]** When the Prophet ﷺ prayed over the dead body of ʿAbdullāh b. Ubayy, the
+following was revealed: "And never pray over any one of them when he is dead, nor stand over his grave" — at a
+burial or as a visit; "lo! they disbelieved in God and His Messenger and died while they were wicked" — they
+died disbelieving. **[Ṭabarī]** "And do not pray, O Muḥammad, over any of these hypocrites who stayed behind
+from going out with you, when he dies, ever; 'nor stand by his grave'" — do not take charge of his burial and
+his interment. **[Saʿdī]** "And never pray over one of them who dies" — of the hypocrites — "nor stand by his
+grave" after the burial to supplicate for him; for his praying and his standing at their graves is an
+intercession from him for them, and intercession does not avail them. "Truly they disbelieved in God and His
+Messenger and died iniquitous" — and whoever disbelieves and dies upon that, the intercession of
+intercessors does not avail him. In that is a lesson for others besides them, and a deterrence and a
+warning; and likewise everyone known for unbelief and hypocrisy is not prayed over. And in this verse is
+evidence for the legitimacy of praying over the believers and standing at their graves to supplicate for
+them, as the Prophet ﷺ used to do with the believers — for restricting the prohibition to the hypocrites
+indicates that it was already established for the believers.
+
+**Stories & occasions.** **[Ibn Kathīr]** This ruling applies to all those known to be hypocrites, even
+though it was revealed about the specific case of ʿAbdullāh b. Ubayy b. Salūl, the chief of the hypocrites.
+Al-Bukhārī recorded that Ibn ʿUmar said: "When ʿAbdullāh b. Ubayy died, his son ʿAbdullāh b. ʿAbdullāh came
+to the Messenger of God ﷺ and asked him [for his shirt to shroud him in, and then asked him to pray over
+him]." **[Qurṭubī]** It is reported that this verse came down concerning ʿAbdullāh b. Ubayy Salūl and the
+Prophet's prayer over him; this is established in the Two Ṣaḥīḥs and elsewhere, and the reports make clear
+that the Prophet ﷺ prayed over him and that the verse came down after that. Anas b. Mālik reported that when
+the Prophet ﷺ stepped forward to pray over him, Jibrīl came and pulled his garment and recited to him "and
+never pray over any one of them who dies, ever" — so the Messenger of God ﷺ turned away and did not pray
+[over him, on one report]. **[Maʿārif]** It stands established from ṣaḥīḥ aḥādīth, and confirmed by the
+consensus of the Muslim community, that this verse was revealed at the death of the hypocrite ʿAbdullāh b.
+Ubayy, concerning the funeral prayer for him; and it is also established in the Ṣaḥīḥ of Muslim and the
+Ṣaḥīḥ of al-Bukhārī that the Prophet ﷺ did offer the funeral prayer for him — and after he had done it, this
+verse was revealed.
+
+**Rulings.** **[Study Quran]** *Pray over… them* refers to the funeral rites, which consist of a modified
+form of the canonical prayer (*ṣalāh*) in which one stands for two units of prayer but does not bow or
+prostrate, in the presence of the body prior to burial, which is positioned so that the face of the deceased
+faces Makkah. **[Ibn Kathīr]** God commands His Messenger ﷺ to disown the hypocrites: to abstain from
+praying the funeral prayer when any of them dies, and from standing next to his grave to seek God's
+forgiveness for him or to invoke God for his benefit — because they disbelieved in God and His Messenger ﷺ
+and died as such. **[Qurṭubī]** Al-Qurṭubī notes, as the clarification of "seek forgiveness for them"
+(9:80), that this verse makes the prohibition explicit.
+
+**Reflection.** The verse separates two things often confused: kindness to a person and prayer for him. The
+Prophet ﷺ had given his own shirt as a shroud and had stood to pray; the prohibition removes only the
+prayer, and gives the reason — not their conduct towards him, but their state before God.
+
+---
+
+## 9:85
+
+*"And let not their wealth or their children impress thee. God desires only to punish them thereby in this
+world, and that their souls should depart while they are disbelievers."*
+
+**Meaning.** **[Jalālayn]** "And let not their wealth and their children please you; God desires only to
+chastise them thereby in this world, and that their souls should depart while they are disbelievers."
+**[Ṭabarī]** "And let not the wealth of these hypocrites nor their children impress you, O Muḥammad, so that
+you pray over one of them when he dies and stand by his grave because of the abundance of his wealth and his
+children — for I only give him what I give him of that in order to punish him thereby in this world with
+griefs and cares, with what I impose upon him in it of burdens, expenditure and alms, and with what befalls
+him in it of afflictions and misfortunes; 'and that their souls should depart'": that he should die and his
+soul depart from his body [while he is a disbeliever]." **[Saʿdī]** Be not deceived by what God has given
+them in this world of wealth and children: that is not because they are honoured by Him — it is a humiliation
+from Him to them. "God desires to punish them thereby in this world": they tire themselves in acquiring it,
+fear its passing and take no delight in it; rather they continue to suffer hardships and difficulties in it,
+and it diverts them from God and the Final Abode, until they pass from this world "and their souls depart
+while they are disbelievers" — love of it has stripped them of everything else, so they die with their hearts
+attached to it and their bosoms burning for it.
+
+**Belief.** **[Study Quran]** See the commentary on the identical verse, v. 55. Al-Rāzī reasons that this
+verse is repeated for emphasis, because the attraction of property and children is among the strongest in the
+life of this world; he also believes that v. 55 referred to those hypocrites [of one kind and this to
+another]. **[Qurṭubī]** He repeated it for emphasis; the discussion of it has already preceded. **[Ibn
+Kathīr]** "And let not their wealth or their children amaze you. God only wants to punish them with these
+things in this world, and that their souls shall depart while they are disbelievers" — we have mentioned
+before the explanation of a similar verse. **[Maʿārif]** Among such hypocrites there were some rich people;
+their affluent life could have made the Muslims ask: when these people are so unacceptable with God, why did
+they get all those blessings in this world? In response it was said that a little thinking would unfold the
+[matter].
+
+**Reflection.** Repetition here is not redundancy but insistence: the same sentence is placed again after
+the prohibition of praying over them, so that no one should read their prosperity as a sign that the
+judgement was too hard. The measure remains what it was in the cave — not what a man owns, but the state in
+which his soul departs.
