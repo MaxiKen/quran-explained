@@ -9445,3 +9445,1119 @@ instructive: the tradition cannot settle which brother it was, but every candida
 killing Yūsuf. The man who stays behind in Egypt is not the one who proposed the murder.
 
 ---
+
+
+## 12:81
+
+*"Return to your father and say, ʿO our father, your son has stolen; and we testified only to what we knew, and we were not
+keepers of the unseen."*
+
+**Meaning.** **[Ṭabarī]** God says, reporting the saying of Reuben to his brothers when Yūsuf took his brother by the cup that
+was brought out of his saddlebag: "Return, my brothers, to our father Yaʿqūb and say to him, O our father, your son Binyāmīn
+stole." And the reciters read this word with the *sīn* opened and the *rāʾ* opened and lightened, *inna ibnaka saraqa*; and it is
+related from Ibn ʿAbbās, *inna ibnaka surriqa*, with the *sīn* closed and the *rāʾ* doubled, in the form of the unnamed subject,
+in the sense that he stole. "And we testified only to what we knew": and the interpreters differed about its interpretation. Some
+said: its meaning is, we did not say that he stole except by the outward of our knowledge that it was so, because the kingʾs cup
+was found in his saddlebag rather than the saddlebags of the others; and Ibn Isḥāq said, "return to your father, for I shall not
+return until his matter comes to me" — "and say: O our father, your son stole, and we testified only to what we knew": that is,
+the theft was found in his saddlebag while we looked on, and we have no knowledge of the unseen — "and we were not keepers of the
+unseen." And others said: rather its meaning is, we did not testify before Yūsuf that the thief is taken for his theft except by
+what we knew; and Ibn Zayd said: Yaʿqūb said to them, "How did this man know that the thief is taken for his theft, except by your
+saying?" And they said, "we testified only to what we knew" — we did not testify that the thief is taken for his theft except
+because that is what we knew. And he said: the ruling among the prophets — Yaʿqūb and his sons — was that the thief be taken for
+his theft as a slave to be enslaved. "And we were not keepers of the unseen": and we did not think that your son would steal and
+that our affair would come to this; rather we said "and we shall keep our brother" of what we have a way to keep him from. And
+the interpreters said the like: ʿIkrimah said, we did not know that your son would steal; Mujāhid said, we were not aware that he
+would steal; Qatādah said, we did not think that your son would steal. And Abū Jaʿfar said: the more correct of the two
+interpretations in our view of "we testified only to what we knew" is the saying of whoever said: we testified that your son stole
+only by what we knew, of our seeing the cup in his saddlebag — because it directly follows His words "your son has stolen," so it is
+more apt to be a report of their testifying to that than to be a report of something separate. And it is related that *al-ghayb*,
+in the dialect of Ḥimyar, is the night itself. **[Qurṭubī]** "Return to your father": said by the one who said, "so I shall not
+leave the land." "And say, O our father, your son has stolen": and Ibn ʿAbbās, al-Ḍaḥḥāk and Abū Razīn read *inna ibnaka
+surriqa*. Al-Naḥḥās said: Muḥammad b. Aḥmad b. ʿUmar related to me, Ibn Shādhān related to us, Aḥmad b. Abī Surayj al-Baghdādī
+related to us, I heard al-Kisāʾī read *yā abānā inna ibnaka surriqa*, with the *sīn* closed and the *rāʾ* doubled and closed, in
+the form of the unnamed subject — that is, he was attributed to theft and accused of it, like *khawwantuhu* and *fassaqtuhu* and
+*jarraytuhu* when you attribute him to those qualities. And al-Zajjāj said: *saraqa* admits two meanings — one, that theft was
+known from him; the other, that he was accused of theft. Al-Jawharī said: *al-sariq* and *al-sariqah*, with a *kasrah* on the *rāʾ*
+in both, is the name of the stolen thing, and the verbal noun is *yasriqu saraqan*, with a *fatḥah*. "And we testified only to
+what we knew": in it are four *masāʾil*. **The first**: they mean, we have never testified except to what we knew; as for now, we
+have testified to the outward, and we do not know the unseen. And it is as though a suspicion fell upon them from Binyāmīnʾs
+saying, "The one who slipped this into my saddlebag slipped your merchandise into your saddlebags" — said Ibn Isḥāq with this
+meaning. And it was said the meaning is: we did not testify before Yūsuf that the thief is enslaved except by what we knew of your
+religion — said Ibn Zayd. "And we were not keepers of the unseen": that is, we did not know, when we took him from you, that he
+would steal, so that we would not take him. And Mujāhid and Qatādah said: we did not know that your son would be enslaved and that
+our affair would come to this; rather we said, "we shall keep our brother," within what we are able. And Ibn ʿAbbās said: they mean
+that he stole at night while they were asleep, and *al-ghayb* is the night in the dialect of Ḥimyar; and from him: we did not know
+what he did in his night and his day, in his going and his coming. And it was said: as long as he was within our sight no defect
+occurred, and when he was absent from us his states were hidden from us. And it was said its meaning is: the stolen thing was taken
+from his saddlebag, and we brought it out and looked at it, and we have no knowledge of the unseen — so perhaps they attributed
+theft to him and he did not steal. **The second *masʾalah***: this verse contains the permissibility of testimony by whatever means
+knowledge of it is obtained, for testimony is connected to knowledge rationally and legally; so it is not heard except from one who
+knows and not accepted except from such, and this is the root in testimonies. And for this our companions have said: the testimony of
+the blind is permissible; the testimony of the listener is permissible; the testimony of the mute, if his sign is understood, is
+permissible; and likewise testimony upon handwriting — if he is certain that it is his handwriting or so-and-soʾs handwriting — is
+sound. So everyone who obtains knowledge of a thing may testify to it, even if the one testified against did not call him as a
+witness. God Most High said, "except whoever testifies with the truth while they know" (43:86), and the Messenger of God ﷺ said,
+"Shall I not inform you of the best of witnesses? The best of witnesses is the one who brings his testimony before he is asked for
+it," and it has preceded in Sūrat al-Baqarah. **The third *masʾalah***: Mālikʾs saying differed on the testimony of passing by
+(*shahādat al-murūr*), which is that he says, "I passed by so-and-so and heard him say such-and-such": if he comprehended the whole
+saying, he testifies, according to one of his two sayings; and in the other saying he does not testify until they call him as a
+witness. And the correct view is the performance of testimony upon comprehension, and a group of scholars said it, and it is the
+truth, because what is required has been obtained and the performance of knowledge is incumbent upon him; so he is the best of
+witnesses when he informs the one for whom he testifies, and the worst of witnesses when he conceals it, and God knows best. **The
+fourth *masʾalah***: if a man claims a testimony that his age cannot accommodate, it is rejected, because he has claimed a falsehood
+and the visible has given him the lie. **[Ibn Kathīr]** He next ordered them to narrate to their father what happened, so that they
+could present their excuse about what happened to Binyāmīn and claim their innocence before him. Reuben said to them, to say to
+their father, "and we could not know the Unseen!" — or, "we did not know that your son had committed theft," according to Qatādah and
+ʿIkrimah. ʿAbd al-Raḥmān b. Zayd b. Aslam said that it means, "we did not know that Binyāmīn stole something that belonged to the
+king; we only stated the punishment of the thief." **[Jalālayn]** "Go back to your father and say, ʿO our father, your son has indeed
+stolen, and we testified against him only regarding what we knew, from the certainty of having seen the kingʾs cup in his saddlebag;
+we could not have guarded against the Unseen, that which was hidden from us when we gave our pledge. Had we known that he would steal,
+we would not have taken him with us to Egypt.ʾ" **[Saʿdī]** Then he charged them with what to say to their father, and said: "Return
+to your father and say, O our father, your son stole" — that is, and he was taken for his theft, and it did not fall to us to bring him
+to you despite the effort we expended in that. "And we testified only to what we knew," for we did not testify to something we did not
+know; rather we testified only to what we knew, because we saw the cup brought out of his saddlebag. "And we were not keepers of the
+unseen": that is, had we known the unseen, we would not have been eager and expended effort in his going with us, and we would not
+have given you our covenants and pledges, for we did not think that the affair would reach what it reached. **[Maʿārif]** Then, in
+verse 81, it was said: the oldest brother said, I am going to stay here; you all go back to your father and tell him that his son has
+committed a theft, and that whatever we are saying is what we have seen with our own eyes, and that the stolen property was recovered
+from his baggage before us. As for the last sentence of verse 81, "and we could not guard against the unseen," it means that the pledge
+we had given you to bring back Benyāmīn definitely was given in terms of outwardly visible circumstances. We did not know what we did
+not see and control — thus how could we know that he would steal and be arrested for it, leaving us helpless in this matter? The
+sentence could also mean: we did our best to keep Benyāmīn protected, seeing that he did nothing which would put him in trouble; but
+this effort of ours could be within the limits of our outwardly visible circumstances. That this thing would happen to him, in the
+absence of our vigilance and knowledge, was something we did not know about. Since the brothers of Yūsuf had deceived their father
+earlier, and knew that their father would never be satisfied with their statement and would never believe what they told him,
+therefore, for additional emphasis, they said: "(and if you do not believe us) you can check with the people of the town in which we
+have been (that is, the city in Egypt). And you can also check with the caravan which has come from Egypt to Canaan with us. And we are
+true in what we are saying." **[Study Quran]** "We are not keepers of the unseen" means that there was no way the brothers could have
+foreseen that Benjamin would "steal" in Egypt when they made their pact with Jacob. By stating this point, the brothers wished to
+absolve themselves of breaking the oath, implicitly invoking the exceptional condition that Jacob included in his pledge with them
+(see 12:66).
+
+**Language & readings.** *Inna ibnaka saraqa* is the reading of the reciters; Ibn ʿAbbās, al-Ḍaḥḥāk and Abū Razīn — and al-Kisāʾī
+per the chain at **[Qurṭubī]** — read *surriqa*, with the *sīn* closed and the *rāʾ* doubled, in the form of the unnamed subject: he
+was attributed to theft and accused of it, like *khawwantuhu*, *fassaqtuhu*, *jarraytuhu* **[Ṭabarī] [Qurṭubī]**. Al-Zajjāj gives
+*saraqa* two meanings: theft was known from him, or he was accused of theft. *Al-sariq* and *al-sariqah*, with a *kasrah*, name the
+stolen thing; the verbal noun is *saraq* with a *fatḥah* (al-Jawharī). *Al-ghayb* is recorded by **[Ṭabarī]** as meaning *the night
+itself* in the dialect of Ḥimyar — a note he says he has not found in the dictionaries before him — which is what makes Ibn ʿAbbāsʾs
+gloss at **[Qurṭubī]** possible: they mean he stole at night while they were asleep.
+
+**Rulings.** **[Qurṭubī]**ʾs four *masāʾil* on *wa-mā shahidnā illā bimā ʿalimnā* are a short treatise on evidence: (2) testimony
+is permissible by whatever means knowledge is obtained, because testimony is connected to knowledge rationally and legally; hence the
+testimony of the blind is permissible, the testimony of the listener is permissible, the testimony of the mute is permissible if his
+sign is understood, and testimony upon handwriting is sound if he is certain it is his or so-and-soʾs; everyone who obtains knowledge
+of a thing may testify to it even if he was not called as a witness — per 43:86, "except whoever testifies with the truth while they
+know," and the ḥadīth, "the best of witnesses is the one who brings his testimony before he is asked for it." (3) Mālikʾs two sayings
+on the testimony of passing by, and the correct view that testimony is performed upon full comprehension. (4) A claim of testimony
+that the claimantʾs age cannot accommodate is rejected, because the visible gives him the lie. **[Maʿārif]** condenses (2) into a
+numbered ruling: testimony depends on knowledge; no matter how this knowledge is acquired, testimony can be given in accordance with
+it — therefore, as an event can be testified by having seen it with oneʾs own eyes, it can equally be testified by having heard it
+from someone reliable and worthy of trust, subject to the condition that he does not conceal the truth of the matter but states
+plainly that he has not seen it personally and has heard it from such and such reliable person; it is on this principle that Mālikī
+jurists have ruled the testimony of a blind person permissible. And he adds a third: these verses prove that should a person be true,
+right and proper, but the situation be such that others may suspect him otherwise, he must remove that shadow of doubt so that those
+who see him do not fall into the sin of unwarranted suspicion; the Prophet ﷺ affirmed this by his personal conduct — on his way back
+from his masjid, going through an alley with Umm al-Muʾminīn Ṣafiyyah, he noticed two persons appearing at the head of the alley and
+told them, while still at a distance, that he was with Ṣafiyyah bt. Ḥuyayy; they said, "O Messenger of God, can anyone have suspicion
+about you?" and he said, "Yes — Satan keeps seeping through the human body; perhaps it drops a doubt in somebodyʾs heart" (Bukhārī,
+Muslim).
+
+**Belief.** **[Study Quran]** identifies the legal-theological strategy: the brothers are invoking the exception clause of 12:66.
+They swore to bring Binyāmīn back "unless you are encompassed," and now they argue that an unforeseeable event — a theft they could
+not have known of — is precisely the kind of encompassing the exception covers. **[Saʿdī]** states it as a counterfactual: had we known
+the unseen, we would not have been eager and expended effort in his going with us, and we would not have given you our covenants.
+**[Maʿārif]** raises again the question he raised at 12:62 and 12:72 — why would Yūsuf bear such heartless treatment of his father? —
+and answers it with the Arabic of Tafsīr Mazharī: "he did that by the command of God Most High, so that the trial of Yaʿqūb might be
+increased" — the cycle of Yaʿqūbʾs test and trial reaches its completion.
+
+**Cross-references.** 12:66 (the covenant and its exception); 12:80 (the eldestʾs decision to stay); 12:82 (the witnesses offered);
+12:83 (Yaʿqūbʾs answer); 12:18 (the first accusation); 43:86 ("except whoever testifies with the truth while they know"); 2:283
+(testimony); 2:159 (concealing testimony).
+
+**Reflection.** The speech the eldest composes for his brothers is a masterpiece of honest advocacy, and its honesty is what makes it
+fail. It states the fact they saw — the cup came out of the saddlebag — and then limits the testimony to the fact: "we testified only to
+what we knew, and we were not keepers of the unseen." **[Saʿdī]** unpacks the second clause as an explanation of the first: they saw the
+cup brought out, and that is all they saw. **[Qurṭubī]** adds the suspicion that prompted the qualification — Binyāmīnʾs own words, "the
+one who slipped this into my saddlebag slipped your merchandise into your saddlebags" — which means the brothers went home carrying a
+clue they could not use and had reason to distrust the evidence they were reporting. And **[Maʿārif]** notes that they added the offer
+of verification *because* they had deceived their father before and knew he would not believe them. The tragedy of the verse is that
+every element of it is true and none of it will be believed: at 12:18 they lied and were disbelieved; here they tell the truth, invoke
+witnesses, and are answered at 12:83 with the same words as before.
+
+---
+
+## 12:82
+
+*"And ask the town in which we were, and the caravan in which we came; and we are truthful."*
+
+**Meaning.** **[Ṭabarī]** God says: and if you suspect us and do not believe us in what we say, that your son stole, then "ask the town
+in which we were" — and it is Egypt; that is, ask those of its people who are in it — "and the caravan in which we came," and it is the
+convoy in which we were, which we came from with it, about the news of your son and the reality of what we informed you of concerning his
+theft, for you will find the confirmation of that. "And we are truthful": in what we informed you of his news. And the interpreters said
+the like: Qatādah said of "and ask the town in which we were": it is Egypt; and Ibn ʿAbbās said, they mean Egypt. And Ibn Isḥāq said:
+Reuben knew, in the reply of his speech to his brothers, that they were people under suspicion with their father, because of what they had
+done concerning Yūsuf; and their saying to him, "ask the town in which we were and the caravan in which we came" — they knew what we knew
+and testified to what we testified to, if you do not believe us — "and we are truthful." **[Qurṭubī]** *(the material for this verse is
+given at 12:81)*. **[Ibn Kathīr]** "And ask (the people of) the town where we have been," in reference to Egypt, according to Qatādah, or
+another town. "And the caravan in which we returned" — about our truthfulness, honesty, protection and sincere guardianship. "And indeed
+we are telling the truth," in what we have told you, that Binyāmīn stole and was taken as a captive as compensation for his theft.
+**[Jalālayn]** "And ask the city in which we were," namely Egypt — in other words, send forth someone to ask its people — "and the
+caravan," the men of the caravan, "with which we approached," and these were a group of Canaanites. "Surely we speak the truth," in what
+we say. So they went back to him and told him as much. **[Saʿdī]** "And ask, if you doubt our saying, the town in which we were and the
+caravan in which we came, so that they may learn what we have informed you of; and we are truthful": we have not lied, and we have not
+changed, and we have not altered — rather, this is the reality. **[Maʿārif]** *(the material for this verse is given at 12:81)*.
+**[Study Quran]** "The town" refers to the people of Egypt, and "the caravan" to the people of Canaan. It is said that when the latter
+returned to Jacob, they testified to the brothersʾ truthfulness.
+
+**Language.** *Al-qaryah* is the town or city, and here Egypt itself — the construction being the one used at 12:82 and explained at
+12:70: "ask the town" means ask the people of the town. *Al-ʿīr* is the convoy in which they came, glossed at 12:70 as what provisions
+are carried upon, of donkeys, camels and mules; **[Jalālayn]** specifies that these were a group of Canaanites, i.e. fellow travellers
+returning to the same district, which is what makes them useful witnesses. *Wa-innā la-ṣādiqūn* is reinforced by *inna* and the *lām*.
+
+**Ḥadīth & āthār.** Ibn Isḥāqʾs observation, preserved at **[Ṭabarī]**, is the key to the verse: Reuben *knew*, in composing the reply,
+that they were people under suspicion with their father because of what they had done concerning Yūsuf — which is why the offer of
+external verification is in the speech at all. **[Jalālayn]** and **[Study Quran]** both record the outcome: the caravan went back and
+told Yaʿqūb as much; when the Canaanites returned to Jacob, they testified to the brothersʾ truthfulness. So the witnesses were in fact
+produced, and the testimony was in fact corroborated, and 12:83 records that it did not help.
+
+**Belief.** The verse establishes a principle about evidence that **[Maʿārif]** turns into a rule of conduct: should a person be true,
+right and proper, but the situation be such that others may suspect him otherwise, he must remove that shadow of doubt so that those who
+see him do not fall into the sin of unwarranted suspicion. The brothers do not merely assert their truthfulness; they name two
+independent bodies of witnesses who can verify it. And the tradition records that this was done not because they doubted themselves but
+because they knew how they were regarded. The deeper point, which the verse leaves to 12:83, is that a man who has been deceived once
+does not weigh evidence the same way again; and **[Maʿārif]** at 12:83 will raise the possibility that Yaʿqūbʾs refusal was itself a
+kind of knowledge — that he intended by "your souls have made a matter seem attractive" a reference to what had been contrived in Egypt,
+whose outcome would unfold later in a better form.
+
+**Cross-references.** 12:81 (the testimony); 12:83 (Yaʿqūbʾs answer); 12:70 ("ask the town," the same idiom); 12:18 (the first report,
+with no witnesses offered); 12:15 ("and you were not present with them when they agreed"); 49:6 (verifying the report of an unreliable
+messenger); 2:282–283 (witnesses and testimony).
+
+**Reflection.** This is the second time in the sūrah that a report is brought to Yaʿqūb, and the differences between the two are the
+whole moral of the story. At 12:18 the brothers came at nightfall with a shirt and a wolf and no witnesses, and Yaʿqūb said, "rather,
+your souls have made a matter seem attractive to you." Here they come with a named town, a named caravan, an explicit limitation of their
+testimony to what they saw, and an invocation of the exception clause in their own oath — and Yaʿqūb says the same words again.
+**[Ṭabarī]** through Ibn Isḥāq explains why the offer of verification is in the speech: Reuben knew they were under suspicion because of
+what they had done. And **[Jalālayn]** and **[Study Quran]** record that the witnesses did testify. So the verse presents a case in which
+the evidence is offered, the evidence is corroborated, and the verdict is unchanged — because the verdict is not about this case but
+about the last one. What Yaʿqūb knows and the brothers do not is that they are telling the truth; and what the reader knows and Yaʿqūb
+half-knows is that the truth they are telling is a truth about an appearance, and that the reality is elsewhere.
+
+---
+
+## 12:83
+
+*"He said, ʿRather, your souls have made a matter seem attractive to you. So patience is beautiful. It may be that God will bring them all
+to me. He is the Knower, the Wise.ʾ"*
+
+**Meaning.** **[Ṭabarī]** In the speech is something omitted, which is: so Binyāmīnʾs brothers returned to their father, and Reuben
+stayed behind, and they informed him of his news; and when they informed him that he had stolen, he said, "rather, your souls have made a
+matter seem attractive to you": rather, your souls have adorned for you a matter that you resolved upon and wanted. "So patience is
+beautiful": my patience at what has befallen me of the loss of my child is a beautiful patience, in which there is no bewailing and no
+complaining. "It may be that God will bring my children all to me and return them to me." "He is the Knower": of my solitude, and of their
+loss and my grief for them, and of the truth of what they say and its falsehood. "The Wise": in His arrangement of His creation. And the
+interpreters said the like of what we have said: Qatādah said of "rather, your souls have made a matter seem attractive": adorned. And of
+"it may be that God will bring them all to me": Yūsuf, and his brother, and Reuben. And Ibn Isḥāq said: when they brought that to
+Yaʿqūb — meaning Reubenʾs saying to them — he suspected them and thought it was like their act concerning Yūsuf; then he said, "rather,
+your souls have made a matter seem attractive to you, so patience is beautiful; it may be that God will bring them all to me": that is,
+Yūsuf, and his brother, and Reuben. **[Qurṭubī]** In it are two *masāʾil*. **The first**: "he said, rather, your souls have made a matter
+seem attractive": that is, adorned. "To you": that your son stole — and he did not steal; rather that was for a matter God intends. "So
+patience is beautiful": that is, my affair is a beautiful patience, or a beautiful patience is more apt for me, as has preceded at the
+beginning of the sūrah. **The second**: it is obligatory upon every Muslim, when afflicted by something disliked in his person, his child
+or his wealth, to receive it with beautiful patience, and with contentment and surrender to the One who causes it to run upon him, and He
+is the Knower, the Wise; and to follow the example of Godʾs prophet Yaʿqūb and the rest of the prophets, peace be upon them all. And
+Saʿīd b. Abī ʿArūbah said from Qatādah from al-Ḥasan: there are no two mouthfuls a servant swallows more beloved to God than the mouthful
+of affliction that the servant swallows with good patience and good consolation, and the mouthful of rage that the servant swallows with
+forbearance and pardon. And Ibn Jurayj said from Mujāhid concerning Godʾs words "so patience is beautiful": that is, I do not complain of
+that to anyone. And Qābil b. Sulaymān narrated from ʿAṭāʾ b. Abī Rabāḥ from Abū Hurayrah from the Messenger of God ﷺ: "Whoever spreads
+his grief abroad has not been patient." And it has preceded in Sūrat al-Baqarah that patience is at the first shock, and the reward of
+whoever remembers his affliction and says *innā li-llāh* even if its time is long past. And Juwaybir said from al-Ḍaḥḥāk from Ibn ʿAbbās:
+Yaʿqūb was given, for Yūsuf, the reward of a hundred martyrs; and likewise whoever of this community reckons his affliction with God has
+the like of Yaʿqūbʾs reward. "It may be that God will bring them all to me": because he held that Yūsuf had not died, and that only his
+news was absent from him — because Yūsuf was carried off as a slave owning nothing of himself, then the king bought him and he was in his
+house, not appearing to people, then he was imprisoned; and when he was established he contrived for his father to learn his news, and he
+did not send a messenger because he disliked that his brothers should learn of that and not let the messenger reach him. And he said
+"them" because they were three: Yūsuf, and his brother, and the one who stayed behind for his brotherʾs sake, who is the one who said, "so
+I shall not leave the land." "He is the Knower": of my state. "The Wise": in what He decrees. **[Ibn Kathīr]** Godʾs prophet Yaʿqūb
+repeated to his children the same words he said to them when they brought false blood on Yūsufʾs shirt: "Nay, but your own selves have
+beguiled you into something. So patience is most fitting (for me)." Muḥammad b. Isḥāq said: when they went back to Yaʿqūb and told him
+what happened, he did not believe them and thought that this was a repetition of what they did to Yūsuf. Some said that since this new
+development came after what they did before, they were given the same judgement for this later incident that was given to them when they
+did what they did. Therefore Yaʿqūbʾs statement here is befitting. He then begged God to bring back his three sons — Yūsuf, Binyāmīn and
+Reuben — to him. Reuben had remained in Egypt awaiting Godʾs decision about his case: either his fatherʾs permission ordering him to go
+back home, or to secure the release of his brother. This is why Yaʿqūb said, "Maybe God will bring them (back) all to me. Truly, He! Only
+He is All-Knowing," in my distress, "the All-Wise," in His decisions and the decree and preordainment He appoints. **[Jalālayn]** "Nay,"
+he said, "but your souls have beguiled you into," have adorned for you, "something," and you did it — he accused them because of what had
+happened with them before concerning Joseph. "Yet comely patience will be my course of patience! It may be that God will bring them,"
+Joseph and his two brothers, "all back to me. Indeed He is the Knower," of my predicament, "the Wise," in His actions. **[Saʿdī]** So when
+they returned to their father and informed him of this news, his grief intensified and his anguish doubled, and he accused them in this
+matter as he had accused them in the first, and said, "rather, your souls have made a matter seem attractive to you, so patience is
+beautiful": that is, I resort in that to the beautiful patience which is not accompanied by discontent, nor bewailing, nor complaint to
+the creation. Then he resorted to the hope of relief, when he saw that the matter had intensified and the distress had reached its limit,
+and said, "it may be that God will bring them all to me": that is, Yūsuf, and Binyāmīn, and their elder brother who stayed in Egypt. "He
+is the Knower": who knows my state and my need of His relief and His favour and my desperation for His kindness. "The Wise": who has made
+for everything a measure, and for every matter an end, according to what His lordly wisdom entails. **[Maʿārif]** After the detention of
+young Benyāmīn in Egypt, his brothers returned home and told Sayyidna Yaʿqūb about what had happened there. They tried to assure him that
+they were telling the truth, which could be confirmed from the people in Egypt as well as from the caravan they came with from Egypt to
+Canaan; from the latter he could also ascertain that Benyāmīnʾs theft was apprehended and he was arrested for it. Since Sayyidna Yaʿqūb
+knew that they had lied to him earlier in the case of Sayyidna Yūsuf, he could not believe them this time too — though, in fact, this time
+they had told him no lie. And therefore, on this occasion as well, he said the same thing he had said at the time of the disappearance of
+Sayyidna Yūsuf: "rather, your inner desires have seduced you to something. So patience is best" — that is, this statement of yours is not
+correct; you have made it up yourself; but even now, it is patience I choose to observe; only that would be the best for me. From this
+al-Qurṭubī has deduced: in whatever a *mujtahid* says with his *ijtihād*, there can be an error as well — so much so that it is possible
+that a prophet too, when he says something on the basis of his own *ijtihād*, could make an error, though only initially. This is what
+happened in this case, when he declared the truth of his sons to be a lie. But prophets have a special status and a personal exclusivity on
+the basis of which they are alerted to the mistake by the will of God, and removed away from it, and finally they find the truth. Here it is
+also possible that by his comment about "maneuvering something," Sayyidna Yaʿqūb intended to refer to what was made up in Egypt whereby
+Benyāmīn was arrested under a false charge of theft only to achieve a particular purpose, and the ultimate result of which was to unfold
+later in a better form. There may as well be a hint toward it in the next sentence of this verse, where it is said, "hopefully, God may
+bring them all together." In short, the outcome of Sayyidna Yaʿqūbʾs refusal to accept the statement of his sons this time was that there
+was no theft really, nor was Benyāmīn arrested, and the truth of the matter was to be found elsewhere — this was true in its place. But
+whatever was said by his sons, as they knew it, was not wrong either. **[Study Quran]** Jacobʾs words here are similar to his response to
+the news of the loss of Joseph in 12:18. The pronoun "them" refers to Joseph, Benjamin, and Reuben, who were still in Egypt (see 12:80);
+such a statement is a kind of prophecy, since Joseph was still not known to be alive (see the commentary on 12:85–87).
+
+**Language.** *Sawwalat* is "adorned, made attractive" (**[Ṭabarī]** Qatādah; **[Qurṭubī] [Saʿdī]**), the same word as at 12:18 and 20:96.
+*Fa-ṣabrun jamīl* is a nominal sentence, and **[Qurṭubī]** gives its estimation twice: "my affair is a beautiful patience," or "a
+beautiful patience is more apt for me"; **[Ṭabarī]** expands it as "my patience at what has befallen me of the loss of my child is a
+beautiful patience, in which there is no bewailing and no complaining," and Mujāhid glosses it as "I do not complain of that to anyone."
+**[Saʿdī]** defines beautiful patience negatively and precisely: that which is not accompanied by discontent (*tasakhxuṭ*), nor bewailing
+(*jazaʿ*), nor complaint to the creation (*shakwā li-l-khalq*). *Bi-him jamīʿan* — "them," because they were three **[Qurṭubī] [Ṭabarī]**.
+
+**Ḥadīth & āthār.** Four reports at **[Qurṭubī]**: al-Ḥasan, via Saʿīd b. Abī ʿArūbah from Qatādah — "there are no two mouthfuls a servant
+swallows more beloved to God than the mouthful of affliction that the servant swallows with good patience and good consolation, and the
+mouthful of rage that the servant swallows with forbearance and pardon"; Mujāhid on "so patience is beautiful" — "I do not complain of that
+to anyone"; the Prophet ﷺ via ʿAṭāʾ from Abū Hurayrah — "whoever spreads his grief abroad has not been patient" (*man baththa lam
+yaṣbir*); and Ibn ʿAbbās via al-Ḍaḥḥāk — "Yaʿqūb was given, for Yūsuf, the reward of a hundred martyrs; and likewise whoever of this
+community reckons his affliction with God has the like of Yaʿqūbʾs reward." **[Maʿārif]** repeats the Ḥasan report (two swallows) and the
+*man baththa lam yaṣbir* ḥadīth, and cites Ibn ʿAbbās on the reward of the martyrs; and he adds al-Qurṭubīʾs reason for the trial — that
+Yaʿqūb was praying *tahajjud* while Yūsuf slept before him, and a snoring sound diverted his attention to him, twice and thrice, so God
+said to His angels, "this is My friend and My favoured servant; see how, in the middle of his address to Me, he turns his attention to
+someone other than Me. By My honour and My power, I shall take out these two eyes of his, with which he turned his attention to someone
+other than Me, and the one to whom he turned his attention I shall separate from him for a long time." *[weak]* **[Maʿārif]** then adds
+the ḥadīth of ʿĀʾishah in Bukhārī: she asked the Prophet ﷺ about looking elsewhere during prayer, and he said, "through it, Satan snatches
+the prayer of a servant of God away from him."
+
+**Rulings.** **[Qurṭubī]**ʾs second *masʾalah* is a general obligation drawn from Yaʿqūbʾs example: it is obligatory upon every Muslim,
+when afflicted by something disliked in his person, his child or his wealth, to receive it with beautiful patience and with contentment and
+surrender to the One who causes it to run upon him, and He is the Knower, the Wise, and to follow the example of Godʾs prophet Yaʿqūb and
+the rest of the prophets. **[Maʿārif]** restates it: the event proves that it is *wājib* on every Muslim, when faced with distress or pain
+in the case of his person, children, family or property, to seek redress by resorting to patience at its best and by becoming resigned to
+and content with the decree of God. And al-Qurṭubīʾs deduction about *ijtihād* — that a *mujtahid* may err, and that even a prophet
+exercising his own *ijtihād* may err initially, though he is alerted to the mistake by Godʾs will and removed from it — is one of the
+standard proof-texts for the possibility of prophetic *ijtihād* and its correction.
+
+**Belief.** The verse contains a statement that is, on the face of it, impossible: Yaʿqūb hopes that God will bring *them all* back,
+counting Yūsuf among the living, at a point when the family believes Yūsuf was eaten by a wolf forty years earlier. **[Qurṭubī]** explains
+the ground of that hope: he held that Yūsuf had not died and that only his news was absent from him, because Yūsuf was carried off as a
+slave owning nothing of himself, then bought by the king and kept in his house not appearing to people, then imprisoned — a chain of
+circumstances that would make silence explicable without death. **[Qurṭubī]** also supplies the reason Yūsuf did not send a messenger: he
+disliked that his brothers should learn of it and prevent the messenger from reaching him. **[Study Quran]** calls the statement "a kind of
+prophecy, since Joseph was still not known to be alive." And **[Maʿārif]** offers the third reading, which is the most difficult and the
+most interesting: that "your souls have made a matter seem attractive to you" may have referred not to the brothersʾ honesty but to what had
+been contrived in Egypt — the false charge by which Binyāmīn was detained to achieve a purpose whose outcome would unfold later in a better
+form. On that reading Yaʿqūb is not accusing his sons of lying; he is naming the device, which he cannot yet explain.
+
+**Cross-references.** 12:18 (the identical words, first spoken); 12:80 (the three who are absent); 12:84–86 (the grief, the complaint and
+the knowledge); 12:87 ("go and search for Yūsuf and his brother"); 12:92–93 (the reunion); 12:96 (the sight restored); 2:153–157 (patience
+and *istirjāʿ*); 20:96 (*sawwalat*); 38:44 (Ayyūb).
+
+**Reflection.** Yaʿqūb says the same sentence twice, forty years apart, and the second time it means something different. At 12:18 it was a
+verdict on a lie; at 12:83 it is either a verdict on the truth — which **[Maʿārif]** records as al-Qurṭubīʾs example of a prophet erring in
+*ijtihād* — or, on **[Maʿārif]**ʾs alternative, an intuition that something has been contrived in Egypt whose purpose he cannot yet see.
+Either way the second half of the verse is what distinguishes it from the first. At 12:18 he said "so patience is beautiful" and asked
+nothing further; here he adds, "it may be that God will bring them all to me" — and counts three, which means he is counting Yūsuf as
+alive. **[Saʿdī]** marks the movement precisely: "then he resorted to the hope of relief, when he saw that the matter had intensified and
+the distress had reached its limit." Hope is not the opposite of despair here but its exhaustion point. And the two names that close the
+verse are glossed by **[Saʿdī]** in a way that shows why they are there: the Knower, who knows my state and my need of His relief; the Wise,
+who has made for everything a measure and for every matter an end. The man who has lost two sons and believes a third is dead is asserting
+that the affair has a measure and an end he has not reached — and 12:87 will show him acting on that assertion by sending his remaining
+sons back to Egypt to look for the one they buried forty years ago.
+
+---
+
+
+## 12:84
+
+*"And he turned away from them and said, ʿO my grief for Yūsuf!ʾ And his eyes turned white from grief, and he was one choked."*
+
+**Meaning.** **[Ṭabarī]** God means by His words "and he turned away from them": Yaʿqūb turned aside from them. "And he said, O my grief
+for Yūsuf": that is, O my sorrow for him. And it is said that *al-asaf* is the most intense grief and regret; one says *asiftu ʿalā
+kadhhā āsafu ʿalayhi asafan*. God says: and Yaʿqūbʾs eyes turned white from grief — "and he was one choked": he was choked upon grief,
+meaning he was filled with it, holding it and not disclosing it; and the passive of it was turned to *faʿīl*, as in His words "and those
+who choke back rage" (3:134). And the interpreters said the like: Ibn Isḥāq said of "and he turned away from them": he turned aside from
+them, and his grief became complete and reached its utmost, when his brother was joined to Yūsuf and his grief for Yūsuf was stirred up in
+him. And Ibn ʿAbbās said, "O my grief for Yūsuf": O my sorrow for Yūsuf. And Mujāhid said, "O my grief": O my sorrow; and in another
+report, O my bewailing (*yā jazaʿāh*); and Qatādah said, O my sorrow for Yūsuf. And Saʿīd b. Jubayr said: no one was given the *istirjāʿ*
+except this community — do you not hear Yaʿqūbʾs saying, "O my grief for Yūsuf, and his eyes turned white from grief, and he was one
+choked"? And Mujāhid said of "and he was one choked": choked with grief; and in another report, *makmūd*, oppressed; and al-Ḍaḥḥāk said,
+*kamīd*, grief-stricken; and Qatādah said, his grief went back and forth in his belly and he spoke no evil; and in another report, he was
+choked upon grief and said nothing bad; and in another, he said nothing but good. And ʿAṭāʾ al-Khurāsānī said, afflicted with distress; and
+al-Suddī said, from rage; and Ibn Zayd said, *al-kaẓīm* is the one who does not speak — grief reached him until he would not speak to
+them. **[Qurṭubī]** In it are three *masāʾil*. **The first**: "and he turned away from them": that is, he turned aside from them; and that
+was because when the news of Binyāmīn reached Yaʿqūb, his grief became complete and reached his utmost, and God renewed his affliction for
+him concerning Yūsuf, so he said, "O my grief for Yūsuf," and forgot his son Binyāmīn and did not mention him — from Ibn ʿAbbās. And Saʿīd
+b. Jubayr said: Yaʿqūb did not have what is in our Book of the *istirjāʿ*, and had he had it he would not have said, "O my grief for
+Yūsuf." And Qatādah and al-Ḥasan said: the meaning is, O my sorrow! And Mujāhid and al-Ḍaḥḥāk said: O my bewailing! And Kathīr said: "O
+grief for the heart, how it turns away — and for the soul, when it is consoled and consoles itself." And *al-asaf* is the intensity of grief
+for what has been lost. And the vocative is in the sense of: come, O grief, for this is one of your times. And al-Zajjāj said: the root is
+*yā asafī*, and an alif was substituted for the *yāʾ* for the lightness of the *fatḥah*. "And his eyes turned white from grief": it was
+said that he did not see by them for six years, and that he became blind — said Muqātil. And it was said the eye may turn white while some
+sight remains, and God knows best of Yaʿqūbʾs state; and his eyes only turned white from weeping, but the cause of the weeping was grief,
+which is why He said "from grief." **The second**: and it was said that Yaʿqūb used to pray while Yūsuf slept lying across in front of him,
+and he snored in his sleep, and Yaʿqūb turned toward him; then he snored a second time and he turned toward him; then he snored a third time
+and he turned toward him, out of delight in him and in his snoring. So God Most High revealed to His angels: "Look at My elect and the son of
+My intimate friend, standing in intimate discourse with Me, turning toward other than Me. By My might and My majesty, I shall remove the two
+pupils with which he turned, and I shall separate him from the one toward whom he turned for eighty years, so that the workers may know that
+whoever stands before Me must watch My gaze." This indicates that turning in prayer — though it does not invalidate it — indicates punishment
+for it and deficiency in it; and Bukhārī narrated from ʿĀʾishah: I asked the Messenger of God ﷺ about turning in prayer, and he said, "It is
+a snatching by which Satan snatches from the prayer of the servant." *[weak]* **The third *masʾalah***: al-Naḥḥās said: if a people ask about
+the meaning of the intensity of Yaʿqūbʾs grief, the scholars have three answers to this. One is that Yaʿqūb, when he knew that Yūsuf was
+alive, feared for his religion, so his grief was intense for that. And it was said: he only grieved because he had handed him over to them
+while small, and regretted that. And the third answer — and it is the clearest of them — is that grief is not forbidden; what is forbidden is
+wailing, tearing the clothes, and speaking what is not fitting. And the Prophet ﷺ said, "The eye weeps and the heart grieves, and we do not
+say what angers the Lord." And God Most High made that clear with His words "and he was one choked": that is, choked, filled with grief,
+holding it and not spreading it abroad; and from it is *kaẓm al-ghayẓ*, which is concealing it; so *al-makẓūm* is the one whose path of grief
+is blocked. God Most High said, "when he called while he was choked" (68:48): that is, filled with distress. And it is permitted that
+*al-makẓūm* be in the meaning of *al-kāẓim*, which is the one who encompasses his grief. And from Ibn ʿAbbās: *kaẓīm*, grieved. And Ibn
+Jurayj said from Mujāhid from Ibn ʿAbbās: his eyes went from grief, and "he was one choked": he was afflicted with distress. And Muqātil b.
+Sulaymān said from ʿAṭāʾ from Ibn ʿAbbās: *kaẓīm* — he is *kamid*, grief-stricken; he says: he knows that Yūsuf is alive and does not know
+where he is, so he is grief-stricken at that. Al-Jawharī said: *al-kamadu* is concealed grief. Al-Naḥḥās: one says *fulān kaẓīm* and *kāẓim*,
+that is, sad, not complaining of his sadness. **[Ibn Kathīr]** Godʾs prophet Yaʿqūb turned away from his children and remembered his old
+grief for Yūsuf: "Alas, my grief for Yūsuf!" The new grief — losing Binyāmīn and Reuben — renewed his old sadness that he kept to himself.
+ʿAbd al-Razzāq narrated that al-Thawrī said that Sufyān al-ʿUṣfurī said that Saʿīd b. Jubayr said: "Only this nation, the followers of the
+Prophet Muḥammad ﷺ, were given *al-istirjāʿ* — saying, ʿTo God we belong and to Him we shall return.ʾ Have you not heard the statement of
+Yaʿqūb: ʿAlas, my grief for Yūsuf! And he lost his sight because of the sorrow that he was suppressingʾ?" Yaʿqūb suppressed his sorrow and
+did not complain to a created being, according to Qatādah and other scholars. Al-Ḍaḥḥāk also commented: "Yaʿqūb was aggrieved, sorrowful and
+sad." **[Jalālayn]** And he turned away from them, no longer addressing them, and said, "Alas, my grief for Joseph!" — *yā asafā*, the final
+alif of *asafā* has taken the place of the possessive *yāʾ* of genitive annexation, sc. *yā asafī*; in other words it means *yā ḥuznī*, "O
+my sorrow." And his eyes turned white: their dark colour was effaced and became white on account of his tears, with grief for him, such that
+he was filled with suppressed agony — anguished and grief-stricken, but not manifesting his grief. **[Saʿdī]** That is, Yaʿqūb turned away
+from his sons after they had informed him of this news, and grief and sorrow overwhelmed him; and his eyes turned white from the grief that was
+in his heart and the anguish that obliged him to weep much, so that his eyes turned white from that. "And he was one choked": that is, his
+heart was filled with intense grief. "And he said, O my grief for Yūsuf": that is, what had been hidden of the old worry and the abiding
+longing appeared from him, and this lighter affliction, relative to the first, reminded him of the first affliction. **[Maʿārif]** It means
+that after this second shock, Sayyidna Yaʿqūb closed this chapter of talking to his sons about this matter, and turned to his Lord with his
+plaint before Him as to how sad he was about Yūsuf. What happened was that this constant crying at his separation from Yūsuf caused his eyes
+to turn white from sorrow. The sense is that he lost his eyesight, or it became very weak. The tafsīr authority Muqātil has said that this
+state of Sayyidna Yaʿqūb continued for six years, when his eyesight had nearly gone. In the last sentence of the verse it was said, *fa-huwa
+kaẓīm*, which can be explained by saying that he became silent, speechless, unable to share his pain with anyone else. The word *kaẓīm* has
+been derived from *kaẓm*, which means to be choked up or filled; thus the sense would be that his heart was all filled up with sorrow and his
+tongue was tied, for he would not talk about his grief to anyone. Therefore the word *kaẓm* is also taken in the sense of suppressing anger,
+in a way that anger, despite having oneʾs heart filled with it, does not become the motivating factor for doing something by word of mouth or
+movement of hand, as demanded by oneʾs anger. **[Study Quran]** It is said that in his sadness Jacob wept so much that he went blind, or that
+his eyesight became very weak, which is indicated by the words "his eyes had turned white."
+
+**Language.** *Yā asafā* is analysed by al-Zajjāj: the root is *yā asafī*, and an alif was substituted for the *yāʾ* for the lightness of
+the *fatḥah* **[Qurṭubī] [Jalālayn]**. *Al-asaf* is the intensity of grief for what has been lost **[Qurṭubī]**, or the most intense grief
+and regret, from *asiftu ʿalā kadhhā āsafu ʿalayhi asafan* **[Ṭabarī]**; and the vocative is in the sense of "come, O grief, for this is one
+of your times" **[Qurṭubī]**. Glosses: *yā ḥuznā* (Ibn ʿAbbās, Qatādah, al-Ḥasan); *yā jazaʿāh*, "O my bewailing" (Mujāhid, al-Ḍaḥḥāk).
+*Kaẓīm* is a *faʿīl* in place of a passive participle — *makẓūm ʿalā al-ḥuzn*, filled with grief and holding it, not disclosing it
+**[Ṭabarī]**; from *kaẓm al-ghayẓ* (3:134) and *idh nādā wa-huwa makẓūm* (68:48) **[Qurṭubī]**; and it may be in the meaning of *kāẓim*, the
+one who encompasses his grief. Related glosses: *makmūd*, oppressed (Mujāhid); *kamīd*, grief-stricken (al-Ḍaḥḥāk; and *al-kamadu* is
+concealed grief, al-Jawharī); *makrūb*, afflicted with distress (ʿAṭāʾ al-Khurāsānī, Ibn ʿAbbās); the one who does not speak, grief having
+reached him until he would not speak to them (Ibn Zayd); from rage (al-Suddī).
+
+**Ḥadīth & āthār.** Saʿīd b. Jubayrʾs observation, in **[Ṭabarī]** and **[Qurṭubī]** and **[Ibn Kathīr]**, is the standard one: no one was
+given the *istirjāʿ* except this community — do you not hear Yaʿqūbʾs saying "O my grief for Yūsuf"? Saʿīd b. Jubayr adds in **[Qurṭubī]**:
+Yaʿqūb did not have what is in our Book of the *istirjāʿ*, and had he had it he would not have said this. The Prophet ﷺ: "The eye weeps and
+the heart grieves, and we do not say what angers the Lord" **[Qurṭubī]**. ʿĀʾishah: I asked the Messenger of God ﷺ about turning in prayer,
+and he said, "It is a snatching by which Satan snatches from the prayer of the servant" (Bukhārī) **[Qurṭubī] [Maʿārif]**. **[Maʿārif]** cites
+two ḥadīths on *kaẓm al-ghayẓ*: "whoever suppresses his anger — and does not act as it demands despite having the ability to do so — God will
+reward him," and that on the Day of Resurrection God will bring such people before the whole multitude and give them the option to take
+whichever of the blessings of the Garden they like. Ibn Jarīr (i.e. **[Ṭabarī]**) reported, per al-Bayhaqīʾs *Shuʿab al-Īmān* from Ibn ʿAbbās,
+that reciting or prompting to recite *innā li-llāhi wa-innā ilayhi rājiʿūn* at a time of distress is one of the distinguishing characteristics
+of this community, and this word is highly effective in delivering one from the suffering of sorrow — which is why it is called the
+distinguishing characteristic of the community of the Prophet ﷺ, since Yaʿqūb, when choked with deadly sorrow and shock, did not say this word
+but said instead, "O my grief for Yūsuf." *[weak]* **[Qurṭubī]**ʾs report of the snoring during prayer and Godʾs oath to remove the two pupils
+and separate him from the one toward whom he turned for eighty years is given with the comment that turning in prayer, though not invalidating,
+indicates punishment and deficiency. *[weak]*
+
+**Rulings.** **[Qurṭubī]**ʾs third *masʾalah* is the sūrahʾs central ruling on grief, given through al-Naḥḥās: the scholars have three answers
+to the question of how a prophetʾs grief could be so intense. (1) Yaʿqūb, when he knew Yūsuf was alive, feared for his religion, and his grief
+was intense for that. (2) He grieved because he had handed him over to them while small, and regretted that. (3) The clearest answer: grief is
+not forbidden; what is forbidden is wailing, tearing the clothes, and speaking what is not fitting — per the Prophetʾs "the eye weeps and the
+heart grieves, and we do not say what angers the Lord" — and God made that clear with His words "and he was one choked."
+
+**Belief.** **[Maʿārif]** raises the question the ruling answers, and at length. Sayyidna Yaʿqūb had extraordinary love for Sayyidna Yūsuf, and
+was so affected by his disappearance that, during this whole period of separation — reported to be forty years in some narrations and eighty in
+others — he kept weeping continuously, so much so that he lost his eyesight. Apparently this does not measure up to his spiritual majesty as a
+prophet, that he would love his children so much. On the other hand, the Qurʾān says, "your wealth and your children are a trial" (64:15), and
+of the prophets, "We made them special to specialize in the remembrance of the Home" (38:46) — which Mālik b. Dīnār explains as: We have taken
+out the love of the world from their hearts and filled their hearts with nothing but the love of the hereafter; their only criterion in taking or
+leaving something is the hereafter. So how could Yaʿqūb allow himself to be so consumed with love for Yūsuf? Qāḍī Thanāʾullāh Pānīpatī, in his
+Tafsīr Mazharī, reports the research of the Mujaddid Alf Thānī: no doubt the love of the world and its enjoyment is blameworthy, and categorical
+statements of the Qurʾān and ḥadīth prove that; but the love of things of this world which relate to the hereafter is in reality included under
+the love of the hereafter. The excellences of Sayyidna Yūsuf were not limited to his physical beauty; also to be taken into account are his
+prophetic chastity and high morals. So, given an overall view, love for him was not the love of what worldly life has to offer; in fact and in
+reality this was nothing but the love of the hereafter itself. In the comment quoted above it is worth noticing that this love, though not the
+love of the world really, yet did have a certain worldly touch; for this reason this love became the source of the trial and test of Yaʿqūb, for
+which he had to undergo the unbearable shock of a forty-year separation. Then the chains of this event, from beginning to end, show that things
+kept taking shape as determined by God, which made this shock stretch longer and longer. Otherwise, at the very start, it would not have been
+possible for a father who loved his son so intensely simply to listen to what his other sons told him and elect to keep sitting home and do
+nothing; in fact, if he had immediately visited the site of the incident and made inquiries, he would have known the truth on the spot. But things
+happened as God would have them, so it just did not occur to him. After that Yūsuf was stopped, through revelation, from sending his father any
+news about himself — to the limit that he took no initiative in this direction even after his ascension to power in Egypt. Then more trying were
+the events concerning the repeated visits of his brothers; even then he said nothing to his brothers about himself, nor tried to send a note to
+his father; instead of doing all that he detained yet another brother through a secret plan, thus inflicting yet another shock on his father. All
+these actions cannot possibly issue from a great prophet such as Sayyidna Yūsuf unless he had been prohibited from doing so through the medium of
+revelation. Therefore al-Qurṭubī and other commentators have declared this entire range of actions as directly prompted by divine revelation, and
+the Qurʾānic statement *kadhalika kidnā li-Yūsuf* (12:76) also indicates in this direction. *(digression)*
+
+**Cross-references.** 12:18 (the first report); 12:83 ("so patience is beautiful"); 12:85–86 (the sonsʾ remonstrance and the complaint to God);
+12:87 ("despair not of Godʾs relief"); 12:93 (the shirt and the returning sight); 12:96 (the sight restored); 3:134 ("those who choke back
+rage"); 68:48 ("when he called while he was choked"); 64:15; 38:46; 2:156 (the *istirjāʿ*).
+
+**Reflection.** The verse turns away from the living to speak to the dead. Yaʿqūb has just been told that a second son is gone, and what comes
+out of him is not Binyāmīnʾs name but Yūsufʾs: "O my grief for Yūsuf!" **[Qurṭubī]** through Ibn ʿAbbās states the fact flatly — he forgot his
+son Binyāmīn and did not mention him. **[Saʿdī]** explains the psychology: what had been hidden of the old worry and the abiding longing
+appeared from him, and this lighter affliction, relative to the first, reminded him of the first. **[Ibn Kathīr]** says the same: the new grief
+renewed the old sadness that he had kept to himself. So the verse is not about the present loss at all; it is the present loss opening a wound
+that has never closed. And the second half explains what kind of man we are watching: his eyes turned white from grief, *and he was one choked*.
+**[Qurṭubī]**ʾs third answer is the traditionʾs defence of him and it is a precise one — grief is not forbidden; wailing, tearing clothes and
+improper speech are. The Qurʾān supplies the proof in a single word: *kaẓīm*, filled with grief, holding it, not spreading it abroad. And Saʿīd
+b. Jubayrʾs note, which three of the sources preserve, marks the theological cost: this community alone was given the *istirjāʿ*, and Yaʿqūb, not
+having it, said "O my grief." **[Maʿārif]**ʾs long digression is the necessary complement, because it refuses to let either the grief or the
+silence be accidental: the Mujaddidʾs distinction between love of the world and love of what in the world points to the hereafter saves Yaʿqūbʾs
+attachment from being a defect, while the revelation-restraint explains why neither father nor son was permitted, for forty years, to end it.
+
+---
+
+## 12:85
+
+*"They said, ʿBy God, you will not cease remembering Yūsuf until you become wasted, or until you are among the perished.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God means: Yaʿqūbʾs sons — those who had returned to him from Egypt — said to him, when he said "O my grief for
+Yūsuf": "By God, you will not cease remembering Yūsuf." And the interpreters said the like: Mujāhid said of *taftaʾu*: you do not slacken from
+love of him; and in another report, you do not cease remembering Yūsuf. And Ibn ʿAbbās said, via ʿIkrimah: you do not cease remembering Yūsuf,
+you do not slacken from love of him. And Qatādah said: you do not cease remembering Yūsuf. And one says *mā fatiʾtu aqūlu dhāk* — and *mā
+fataʾtu* is a dialect — *aftiʾu wa-aftaʾu fatʾan wa-futūʾan*; and *mā aftaʾtu bihi* is also related, from which is Aws b. Ḥajarʾs line: "and
+they did not cease until it was as though their dust were the canopy of a windy day, being raised," meaning "they did not cease"; and his other
+line: "and the horses did not cease returning and calling, and a follower of them catches up and is cut off." And the *lā* was deleted from His
+words *taftaʾu* while being intended in the speech, because when what follows the oath is a report, the negation does not accompany it and the
+*lām* by which oaths are answered does not fall — as in the saying of a man, "*wa-llāhi la-ātiyannaka*." And when what follows it is negated, it
+is received with *mā* or *lā*; and when its position was known, it was deleted from the speech, because of the hearerʾs knowledge of the meaning
+of the speech. And from it is Imruʾ al-Qaysʾs line: "and I said, by the oath of God, I remain sitting — even if they cut off my head with you and
+my limbs" — the *lā* was deleted from "I remain sitting" for the reason I mentioned. And as another said: "No, by the father of Dahmāʾ, she did
+not cease being dear to her people, so long as the kindler twists the fire-stick" — he means, she did not cease. "Until you become wasted": until
+you become diseased in body and deranged in mind. And the root of *ḥaraḍ* is corruption in the body and the mind, from grief or love, from which
+is al-ʿArajīʾs line: "I am a man whom love has pressed and wasted me, until I have worn away and until illness has thinned me" — he means by
+*fa-aḥraḍanī*: it melted me and left me *muḥraḍ*. One says *rajul ḥaraḍ*, *imraʾah ḥaraḍ*, *qawm ḥaraḍ*, *rajulān ḥaraḍ*, on one form for the
+masculine and the feminine, in the dual and the plural; and some of the Arabs say *ḥāriḍ* for the male and *ḥāriḍah* for the female, and when it
+is described by this word it is dualised and pluralised and made masculine and feminine. And *ḥaraḍ* was made singular in every state and the
+feminine did not enter it, because it is a verbal noun; and when it is brought out on the pattern of *fāʿil*, in the estimation of nouns, what
+belongs to nouns attaches to it. And some related *rajul muḥraḍ*, when he is sick, and cited the line: "the horses sought him a whole day, and
+had they found him he would have become *muḥraḍ*"; and from it is Imruʾ al-Qaysʾs line: "I see the man of the small herds of camels becoming
+*muḥraḍ*, like the wasting of a young camel, sick, in the dwellings." And the interpreters said the like: Ibn ʿAbbās said, the effort of illness,
+the worn-out one; Mujāhid said, short of death — *al-ḥaraḍ* is what is short of death; Qatādah said, until you are worn out or grow old; al-Ḥasan
+said, grown old; al-Ḍaḥḥāk said, the worn-out, perishing thing; al-Suddī said, worn out; Ibn Isḥāq said, when Yaʿqūb remembered Yūsuf they said —
+meaning his sons who were present with him at that time, in ignorance and wrong — "by God, you will not cease remembering Yūsuf until you become
+wasted," that is, corrupt with no mind, "or you are among the perished"; and Ibn Zayd said, *al-ḥaraḍ* is the one who has been returned to the
+most abject of age until he has no understanding, or perishes, and is perished before that. "Or you are among the perished": or you are among those
+who have perished by death. And the interpreters said the like: Mujāhid said, death, of the dead; al-Ḍaḥḥāk said, of the dead; al-Ḥasan said, of
+the dead; Qatādah said, or you die; al-Suddī said, of the dead. **[Qurṭubī]** God says, "they said, by God, you will not cease remembering Yūsuf":
+that is, his sons said to him. Al-Kisāʾī said: *fataʾtu* and *fatiʾtu afʿalu dhālika*, that is, I did not cease. And al-Farrāʾ claimed that *lā*
+is implied, that is, *lā taftaʾu*, and he cited Imruʾ al-Qaysʾs line: "and I said, by the oath of God, I remain sitting — even if they cut off my
+head with you and my limbs": that is, I do not remain. Al-Naḥḥās said: what he said is good and sound. And al-Khalīl and Sībawayh claimed that
+*lā* is implied in the oath, because there is no ambiguity in it; and had it been affirmative it would have taken the *lām* and the *nūn*. And
+they only said it to him because they knew with certainty that he would persist in that. One says *mā zāla yafʿalu kadhhā*, and *mā fatiʾa* and
+*mā fataʾa* — two dialects — and they are only used with negation, as the poet said: "and I did not cease until it was as though their dust were
+the canopy of a day of wind, being raised" — that is, I did not cease. So *taftaʾu* means *tabraḥ*. And Ibn ʿAbbās said: you do not cease. "Until
+you become wasted": that is, perishing. And Ibn ʿAbbās and Mujāhid said: sick from illness, which is what is short of death. And Qatādah said:
+grown old. Al-Ḍaḥḥāk said: worn out, perishing. Ibn Isḥāq said: corrupt, with no mind for you. Al-Farrāʾ said: *al-ḥāriḍ* is corrupt in body and
+mind, and likewise *al-ḥaraḍ*. Ibn Zayd said: the one who has been returned to the most abject of age. Al-Rabīʿ b. Anas said: skin dried upon bone.
+Al-Muʾarrij said: melting from worry. Al-Akhfash said: going. Ibn al-Anbārī said: perishing — and all of these are close. And the root of *ḥaraḍ*
+is corruption in the body or the mind, from grief or love or old age, from Abū ʿUbaydah and others; and al-ʿArajī said: "I am a man whom love has
+pressed and wasted me, until I have worn away and until illness has thinned me." Al-Naḥḥās said: one says *ḥariḍa ḥaraḍan* and *ḥaruḍa ḥurūḍan
+wa-ḥurūḍatan*, when he wears out and sickens, and *rajul ḥāriḍ* and *ḥaraḍ* — except that *ḥaraḍ* is not dualised or pluralised, and like it are
+*qamin* and *ḥariyy*, which are not dualised or pluralised. Al-Thaʿlabī: and some of the Arabs say *ḥāriḍ* for the masculine and *ḥāriḍah* for the
+feminine, and when described by this word it is dualised, pluralised and made feminine. And one says *ḥariḍa yaḥraḍu ḥarāḍatan*, so he is *ḥarīḍ*
+and *ḥariḍ*. And one says *rajul muḥraḍ*, and it is cited: "the horses sought him a whole day, and had they found him he would have become
+*muḥraḍ*." And Imruʾ al-Qays said: "I see the man of the small herds of camels becoming *muḥraḍ*, like the wasting of a young camel, sick, in the
+dwellings." Al-Naḥḥās said: the people of language relate *aḥraḍahu al-hamm*, when it sickened him, and *rajul ḥāriḍ*, that is, foolish. And Anas
+read *ḥurḍan*, with a *ḍammah* on the *ḥāʾ* and a quiescent *rāʾ* — that is, like the stick of the *ushnān* plant. And al-Ḥasan read with a
+*ḍammah* on the *ḥāʾ* and the *rāʾ*. Al-Jawharī said: *al-ḥaraḍ* and *al-ḥuruḍ* is the *ushnān*. "Or you are among the perished": that is, the
+dead — and this is the saying of everyone; and their purpose was to prevent Yaʿqūb from weeping and grief out of compassion for him, even though
+they were the cause of it. **[Ibn Kathīr]** Yaʿqūbʾs children felt pity for him and said, while feeling sorrow and compassion: "By God! You will
+never cease remembering Yūsuf," you will keep remembering Yūsuf, "until you become weak with old age," until your strength leaves you, "or until
+you be of the dead." They said, "if you continue like this, we fear for you that you might die of grief." **[Jalālayn]** They said, "By God, you
+will never cease remembering Joseph until you are consumed," on the verge of perishing on account of your illness — *ḥaraḍan*, "consumed," is a
+verbal noun equally applicable to one person or more — "or you are of those who perish," of the dead. **[Saʿdī]** So his sons said to him,
+marvelling at his state: "By God, you will not cease remembering Yūsuf": that is, you do not cease remembering Yūsuf in all your states, "until you
+become wasted": that is, perishing, with no movement in you and no ability to speak, "or you are among the perished": that is, you will not leave
+remembering him, with your ability to remember him, ever. **[Maʿārif]** When the sons of Sayyidna Yaʿqūb saw the extreme suffering and patience of
+their father, they said, "By God, you will not stop remembering Yūsuf," meaning thereby that every shock ends, after all, and so does every sorrow.
+The passage of days in life makes one forget them. But he continues to be where he was, even after the passage of such a long time, with his sorrow
+being as fresh as when it came. **[Study Quran]** *(no separate note; the material is given at 12:85–86)*
+
+**Language & readings.** *Taftaʾu* is from *fatiʾa* / *fataʾa*, two dialects, meaning "to cease," and it is only used with negation; the *lā* is
+deleted while intended, because when what follows an oath is a report the negation does not accompany it, and when it is negated it is received with
+*mā* or *lā*, so its position being known it was deleted **[Ṭabarī]**; al-Farrāʾ, al-Khalīl and Sībawayh agree that *lā* is implied, since had the
+clause been affirmative it would have taken the *lām* and the *nūn* **[Qurṭubī]**; **[Ṭabarī]** and **[Qurṭubī]** both cite Imruʾ al-Qaysʾs *yamīnu
+Llāhi abraḥu qāʿidan* and Aws b. Ḥajarʾs *fa-mā fatiʾat*. *Ḥaraḍ* is the richest word in the verse and the sources disagree about it: short of
+death (Mujāhid); sick from illness (Ibn ʿAbbās); grown old (Qatādah, al-Ḥasan); worn out, perishing (al-Ḍaḥḥāk, al-Suddī); corrupt with no mind
+(Ibn Isḥāq, al-Farrāʾ: corrupt in body and mind); returned to the most abject of age (Ibn Zayd); skin dried upon bone (al-Rabīʿ b. Anas); melting
+from worry (al-Muʾarrij); going (al-Akhfash); perishing (Ibn al-Anbārī) — "and all of these are close," and the root is corruption in the body or
+the mind from grief or love or old age (Abū ʿUbaydah) **[Qurṭubī]**. Grammatically *ḥaraḍ* is a verbal noun, invariable in gender and number —
+*rajul ḥaraḍ*, *imraʾah ḥaraḍ*, *qawm ḥaraḍ*, *rajulān ḥaraḍ* — while *ḥāriḍ*/*ḥāriḍah* is dualised, pluralised and feminised **[Ṭabarī]
+[Qurṭubī]**; *qamin* and *ḥariyy* are likewise invariable. Anas read *ḥurḍan* with a *ḍammah* and quiescent *rāʾ*, and al-Ḥasan with *ḍammah* on
+both, meaning like the stick of the *ushnān* plant **[Qurṭubī]**.
+
+**Belief.** **[Qurṭubī]** closes with a remark that is the moral key to the verse: their purpose was to prevent Yaʿqūb from weeping and grief *out
+of compassion for him, even though they were the cause of it*. **[Ibn Kathīr]** says the same — they spoke while feeling sorrow and compassion.
+**[Study Quran]**, through al-Ṭabarsī, adds that the question was motivated by love and compassion and is a figurative way of telling him that they
+fear for his demise. **[Ṭabarī]** preserves Ibn Isḥāqʾs dissent: they said it "in ignorance and wrong." And **[Maʿārif]** reads their speech as an
+observation about grief itself — every shock ends, and so does every sorrow; the passage of days makes one forget; but he continues to be where he
+was, with his sorrow as fresh as when it came. The sons are not asking him to stop grieving; they are telling him that normal grief has a duration
+and his has exceeded it.
+
+**Cross-references.** 12:84 (the cry); 12:86 (the answer); 12:83 ("it may be that God will bring them all to me"); 12:87 ("despair not of Godʾs
+relief"); 3:134; 68:48; 15:72 ("by your life, they wandered blindly").
+
+**Reflection.** The sonsʾ remonstrance is well meant and it is also the cruelest thing said to Yaʿqūb in the sūrah, because they are the cause of
+what they are asking him to stop feeling. **[Qurṭubī]** states it in one clause: their purpose was to prevent him from weeping out of compassion,
+even though they were the cause of it. And their argument is empirical — grief has a duration, and yours has passed it. **[Maʿārif]** puts it
+exactly: every shock ends, and so does every sorrow; the passage of days makes one forget. What they cannot see is that his grief is not a response
+to a recent event but a forty-year-old one reopened, which is why at 12:84 the name he cries is not Binyāmīnʾs. The vocabulary the sources work
+through — *ḥaraḍ* in eleven glosses from "short of death" to "skin dried upon bone" to "melting from worry" — is not philological excess; it is the
+tradition trying to find a word for a state that has no word, a grief that does not run its course. And the answer at 12:86 will not dispute the
+diagnosis. It will relocate the complaint.
+
+---
+
+## 12:86
+
+*"He said, ʿI complain only of my anguish and my grief to God, and I know from God what you do not know.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yaʿqūb said to those of his sons who said to him, "by God, you will not cease remembering Yūsuf until you
+become wasted or are among the perished": I do not complain to you of my anguish and my grief; rather I complain of that to God. And by His words
+"I complain only of my anguish" He means: I complain of my worry and my grief only to God. And the interpreters said the like: Ibn ʿAbbās said of
+"my anguish": my worry. And Ibn Isḥāq said: Yaʿqūb said, out of knowledge of God, "I complain only of my anguish and my grief to God, and I know
+from God what you do not know," when he saw their harshness and their roughness and the badness of their speech to him: I did not complain of that
+to you. And al-Ḥasan said of "I complain only of my anguish and my grief to God": my need and my grief to God; and in another report, my grief. And
+it was said that *al-bathth* is the most intense grief, and in my view it is from *baththa al-ḥadīth*, spreading abroad a report; and what is meant
+is only: I complain of my news in which I am, of worry, and I spread abroad my report and my grief to God. As for "and I know from God what you do
+not know," Ibn ʿAbbās used to say: I know that Yūsufʾs dream is true and that I shall prostrate to him. And al-Suddī said of the whole verse: when
+they informed him of the kingʾs supplication, Yaʿqūbʾs soul perceived, and he said, "There is no *ṣiddīq* in the land except that he is a prophet!"
+and he hoped, and said, "perhaps it is Yūsuf." And Qatādah said: it was related to us that Godʾs prophet Yaʿqūb was never afflicted by a trial but
+his good opinion of God came up behind it. And al-Ḥasan said: it was said, what did Yaʿqūbʾs longing for his son amount to? He said, the longing of
+seventy bereaved mothers! And what was his reward? The reward of a hundred martyrs. And he never thought ill of God for an hour of night or day. And
+Ṭalḥah b. Muṣarrif al-Iyāmī said: three things — do not mention them and avoid mentioning them: do not complain of your illness, do not complain of
+your affliction, and do not praise yourself. And I was told that a neighbour of Yaʿqūb b. Isḥāq entered upon him and said to him, "O Yaʿqūb, why do I
+see you broken and worn out, when you have not reached the age your father reached?" He said, "What broke me and wore me out is what God afflicted me
+with, of worry over Yūsuf and the remembering of him!" So God revealed to him, "O Yaʿqūb, are you complaining of Me to My creation?" He said, "My Lord,
+a sin I committed — forgive it for me!" He said, "I have forgiven you." And after that, when he was asked, he said, "I complain only of my anguish and
+my grief to God, and I know from God what you do not know." *[weak]* And it reached me that Yaʿqūb grew old until his eyebrows fell upon his cheeks,
+and he used to raise them with a cloth; and a man said to him, "What has brought you to what I see?" He said, "The length of time and the multitude of
+griefs." So God revealed to him, "O Yaʿqūb, are you complaining of Me?" He said, "A sin — forgive it." And it was related that Yaʿqūb entered upon
+Pharaoh, his eyebrows fallen upon his eyes, and he said, "What has brought you to this, O Ibrāhīm?" and they said, "He is Yaʿqūb"; and he said, "What
+has brought you to this, O Yaʿqūb?" He said, "The length of time and the multitude of griefs." And God said, "O Yaʿqūb, are you complaining of Me?" and
+he said, "My Lord, a sin I committed — forgive it for me." And it was related that Jibrīl entered upon Yūsuf in the prison and he recognised him, and
+said, "O angel, handsome of face, sweet of scent, noble with your Lord — will you not inform me about Yaʿqūb, is he alive?" He said, "Yes." He said, "O
+angel …, how far has his grief gone?" He said, "The grief of seventy bereaved mothers." He said, "O angel …, is there reward in that?" He said, "The
+reward of a hundred martyrs." And it was related, from Ibn Isḥāq from Layth b. Abī Sulaym from Mujāhid: I was told that Jibrīl came to Yūsuf in Egypt
+in the form of a man, and when Yūsuf saw him he recognised him and stood up to him and said, "O angel, sweet of scent, pure of clothes, noble with your
+Lord — do you have knowledge of Yaʿqūb?" He said, "Yes." He said, "…then how is he?" He said, "His sight has gone." He said, "…and what took his sight
+away?" He said, "Grief for you." He said, "…and what was he given for that?" He said, "The reward of seventy martyrs." *[weak]* **[Qurṭubī]** "I
+complain only of my anguish": the reality of *al-bathth* in the language is what comes upon a person of destructive things that he is unable to
+conceal; and it is from *baththatuhu*, I scattered it, so the affliction is called *bathth* figuratively, as Dhū al-Rummah said: "I stood my she-camel
+at the quarter of Mayyah, and I did not cease weeping at it and addressing it, and watering it, until, from what I spread abroad to it, its stones and
+its playgrounds almost spoke to me." And Ibn ʿAbbās said, *baththī*: my worry. Al-Ḥasan said: my need. And it was said: the most intense grief, and the
+reality is what we have mentioned. "And my grief": conjoined upon it, He repeated it in other than its wording. "And I know from God what you do not
+know": that is, I know that Yūsufʾs dream is true and that I shall prostrate to him — said Ibn ʿAbbās. Qatādah said: I know of Godʾs kindness to me what
+obliges my good opinion of Him. And it was said that Yaʿqūb said to the angel of death, "Have you taken Yūsufʾs soul?" He said, "No" — so this confirmed
+his hope. And al-Suddī said: I know that Yūsuf is alive; and that was because when his son informed him of the kingʾs conduct, his justice, his
+character and his speech, Yaʿqūbʾs soul perceived that he was his son, and he hoped and said, "perhaps it is Yūsuf." And he said: there is no *ṣiddīq* in
+the land except that he is a prophet. And it was said: I know of the answering of the supplication of the desperate what you do not know. **[Ibn
+Kathīr]** When they said these words to him, Yaʿqūb said, "I only complain of my grief and sorrow for the afflictions that struck me, to God," alone,
+"and I know from God that which you know not" — I anticipate from God each and every type of goodness. Ibn ʿAbbās commented on the meaning of "and I
+know from God that which you know not": "The vision that Yūsuf saw is truthful, and God will certainly make it come true." **[Jalālayn]** He said to
+them, "I complain of my anguish" — *bathth* is severe grief which cannot be endured unless it is proclaimed, *yubaththu*, to others — "and grief only to
+God," not to any other than Him, "for it is worth complaining to Him; and I know from God what you do not know," and that is that Josephʾs dream is true
+and that he is alive. Then he said… **[Saʿdī]** So Yaʿqūb said: "I complain only of my anguish" — that is, what I spread abroad of speech — "and my
+grief": that which is in my heart, "to God": alone, not to you and not to any other of the creation — so say what you will. "And I know from God what you
+do not know": that He will return them to me and gladden my eye by reuniting with them. **[Maʿārif]** After hearing the concern of his sons, Sayyidna
+Yaʿqūb said, "I complain of my anguish and sorrow, not to you, or to anyone else, but to God Himself. Therefore, leave me alone as I am." And along with
+what he said, he also indicated that this remembrance of his will not go to waste, for he knew from God what they did not know — that he had been
+promised by Him that He would bring them all together with him. **[Study Quran]** That Jacob complains of his sorrow and grief to God alone harkens back
+to 12:18 and 12:83, where he counsels himself to have beautiful patience, which is a form of patience in which one complains only to God about oneʾs
+suffering and not to other human beings. "I know from God that which you know not" (see also 12:96) is interpreted by some to refer to Jacobʾs intuitive
+knowledge that Joseph was still alive; see also 12:84, 12:87.
+
+**Language.** *Al-bathth* is defined twice and differently. **[Qurṭubī]** gives the lexical reality: what comes upon a person of destructive things
+that he is unable to conceal, from *baththatuhu*, I scattered it — so affliction is called *bathth* figuratively, with Dhū al-Rummahʾs line as witness;
+Ibn ʿAbbās glosses it as *my worry*, al-Ḥasan as *my need*, and others as the most intense grief. **[Ṭabarī]** records the same definition (*the most
+intense grief*, Abū ʿUbaydah) but dissents and gives his own: it is from *baththa al-ḥadīth*, spreading a report abroad, so the meaning is "I complain
+of my news in which I am, of worry, and I spread abroad my report and my grief to God." **[Jalālayn]** defines it functionally: severe grief which cannot
+be endured unless it is proclaimed to others. *Wa-ḥuznī* is conjoined upon it and repeated in other than its wording **[Qurṭubī]**.
+
+**Ḥadīth & āthār.** The material here is dense and mostly unauthenticated. Qatādah: Godʾs prophet Yaʿqūb was never afflicted by a trial but his good
+opinion of God came up behind it. Al-Ḥasan, once raised to the Prophet ﷺ through Yunus: Yaʿqūbʾs longing amounted to the longing of seventy bereaved
+mothers, his reward was the reward of a hundred martyrs, and he never thought ill of God for an hour of night or day. The Jibrīl-in-the-prison and
+Jibrīl-in-Egypt dialogues give the same numbers with variations (seventy martyrs in one chain). Ṭalḥah b. Muṣarrif: three things — do not complain of
+your illness, do not complain of your affliction, do not praise yourself — with the story of the neighbour, the rebuke "are you complaining of Me to My
+creation?", the answer "a sin I committed — forgive it for me," and the consequence that thereafter Yaʿqūb said only this verse. And the report of the
+eyebrows fallen on the cheeks, raised with a cloth, and the answer "the length of time and the multitude of griefs," with the same rebuke. *[weak]*
+**[Qurṭubī]** supplies two further explanations of "and I know from God what you do not know": that Yaʿqūb asked the angel of death, "have you taken
+Yūsufʾs soul?", and he said "no," which confirmed his hope; and that he knows of the answering of the supplication of the desperate what they do not know.
+
+**Belief.** Three distinct claims are made about Yaʿqūbʾs knowledge, and the sources distribute them differently. Ibn ʿAbbās holds it was the dream of
+12:4–6: I know that Yūsufʾs dream is true and that I shall prostrate to him **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn]**. Al-Suddī holds it was an
+inference from the report of the kingʾs conduct: when his son told him of the kingʾs justice, character and speech, his soul perceived that he was his
+son, and he said "perhaps it is Yūsuf," adding the principle that there is no *ṣiddīq* in the land except that he is a prophet **[Ṭabarī] [Qurṭubī]**.
+Qatādah holds it was not knowledge at all but disposition: I know of Godʾs kindness to me what obliges my good opinion of Him **[Qurṭubī]**.
+**[Study Quran]**, through al-Rāzī, calls it Jacobʾs *intuitive knowledge* that Joseph was still alive. And **[Saʿdī]** and **[Maʿārif]** take the
+promise reading: he knew he had been promised that God would bring them all together. All five readings are compatible with 12:83, where he hoped for
+the return of all three.
+
+**Cross-references.** 12:4–6 (the dream); 12:18 ("so patience is beautiful"); 12:83 (the same); 12:84–85 (the grief and the remonstrance); 12:87
+("despair not of Godʾs relief"); 12:96 (the sight restored); 12:100 (the prostration fulfilled); 2:156; 39:53; 40:60 ("call upon Me and I shall answer
+you").
+
+**Reflection.** The answer to 12:85 does not defend the grief; it relocates the complaint. "I complain only of my anguish and my grief to God" — and
+**[Saʿdī]** supplies the clause that makes the sentence complete: *alone, not to you and not to any other of the creation — so say what you will*. That
+is the definition of beautiful patience at 12:83, and **[Study Quran]** connects the two verses explicitly: it is a form of patience in which one
+complains only to God about oneʾs suffering and not to other human beings. The rebuke in the Ṭalḥah b. Muṣarrif report gives the other side of the rule —
+"O Yaʿqūb, are you complaining of Me to My creation?" — and the traditionʾs judgement that Yaʿqūb thereafter said only this verse treats 12:86 as a
+correction of a fault. *[weak]* And the second half is the reason the first half is possible: he knows from God what they do not know. The five
+explanations are worth holding together, because each supplies something the others lack — the dream gives him a promise, the report of the kingʾs
+character gives him an inference, the angel of death gives him a fact, and Qatādahʾs "his good opinion came up behind every trial" gives him a
+disposition. A man who weeps for forty years and does not complain to a creature, and who simultaneously expects the return of three sons, is not
+contradicting himself. He is doing the two things the verse says he is doing.
+
+---
+
+
+## 12:87
+
+*"O my sons, go and seek news of Yūsuf and his brother, and do not despair of Godʾs relief; for none despairs of Godʾs relief except the
+disbelieving people."*
+
+**Meaning.** **[Ṭabarī]** God says: when Yaʿqūb hoped for Yūsuf, he said to his sons, "O my sons, go to the place from which you came and in
+which you left your two brothers, and seek news of Yūsuf": seek Yūsuf and learn of his news. And the root of *taḥassus* is *tafaʿʿul* from
+*al-ḥiss*. "And his brother": meaning Binyāmīn. "And do not despair of Godʾs relief": do not lose hope that God will relieve us of what we are
+in, of grief for Yūsuf and his brother, by a relief from Him, and show us them. "For none despairs of Godʾs relief": none loses hope of His relief
+and His mercy and cuts off his hope from Him "except the disbelieving people": meaning the people who deny His power over what He wills to bring
+into being. And the interpreters said the like: al-Suddī said of "go and seek news of Yūsuf and his brother": in Egypt; and of "do not despair of
+Godʾs relief": of Godʾs relief, that He return Yūsuf. And Qatādah said of "do not despair of Godʾs relief": of Godʾs mercy. And Ibn Isḥāq said:
+then Yaʿqūb said to his sons, while he was in good opinion of his Lord despite the grief he was in, "O my sons, go to the land from which you
+came, and seek news of Yūsuf and his brother, and do not despair of Godʾs relief": that is, of His relief. And al-Ḍaḥḥāk said, of Godʾs mercy; and
+Ibn Zayd said, of Godʾs relief, by which He relieves you of the distress you are in. **[Qurṭubī]** "O my sons, go and seek news of Yūsuf and his
+brother": this indicates that he was certain of his being alive — either by the dream, or by Godʾs making the wolf speak as at the beginning of the
+story, or by the angel of deathʾs informing him that he had not taken his soul, and this is the most apparent. And *taḥassus* is seeking a thing by
+the senses, so it is *tafaʿʿul* from *al-ḥiss*: that is, go to the one who asked you for your brother and contrived to take him, and ask about him
+and about his way. And it is related that the angel of death said to him, "Seek him from here!" and pointed toward the direction of Egypt. And it was
+said that Yaʿqūb became aware of Yūsuf by the return of the merchandise, the detention of his brother, and the showing of honour; so he directed them
+toward Egypt rather than elsewhere. "And do not despair of Godʾs relief": that is, do not lose hope of Godʾs relief — said Ibn Zayd; he means that
+the believer hopes for Godʾs relief and the disbeliever despairs in hardship. And Qatādah and al-Ḍaḥḥāk said: of Godʾs mercy. "For none despairs of
+Godʾs relief except the disbelieving people": a proof that despair is among the major sins — and despair is the same as *al-yaʾs* — and its explanation
+will come in Sūrat al-Zumar. **[Ibn Kathīr]** God states that Yaʿqūb ordered his children to go back and inquire about the news of Yūsuf and his
+brother Binyāmīn, in a good manner, not as spies. He encouraged them, delivered to them the good news and ordered them not to despair of Godʾs mercy.
+He ordered them to never give up hope in God, nor to ever discontinue trusting in Him for what they seek to accomplish. He said to them that only the
+disbelieving people despair of Godʾs mercy. **[Jalālayn]** "O my sons, go and enquire about Joseph and his brother," seek news of them, "and do not
+despair of Godʾs gracious Spirit," His mercy. "Indeed none despairs of the gracious Spirit of God save the disbelieving folk." And so they departed to
+Egypt to look for Joseph. **[Saʿdī]** That is, Yaʿqūb said to his sons: "O my sons, go and seek news of Yūsuf and his brother": that is, be eager and
+exert yourselves in searching for them both. "And do not despair of Godʾs relief": for hope obliges the servant to strive and exert himself in what he
+hopes for, whereas despondency obliges him to become heavy and slow; and the most apt thing for servants to hope for is Godʾs favour, His kindness, His
+mercy and His relief. "For none despairs of Godʾs relief except the disbelieving people": for by their disbelief they consider His mercy far-fetched,
+and His mercy is far from them — so do not resemble the disbelievers. And this indicates that according to the servantʾs faith is his hope for Godʾs mercy
+and His relief. **[Maʿārif]** Verse 87 begins with the order given by Sayyidna Yaʿqūb: "O my sons, go and search for Yūsuf and his brother." It was
+after the passage of such a long time that Sayyidna Yaʿqūb asked his sons to go and search for Yūsuf and his brother — and not to lose hope in finding
+them. Before this he had never given an order of this nature. All these things were subservient to the divine destiny; meeting them earlier than that was
+not so destined, therefore no such action was taken either. And now the time to meet had arrived; therefore God put in his heart the way out appropriate
+to it. And the direction in which the search was to be made was turned towards nowhere but Egypt itself — which was known and definite in the case of
+Benyāmīn. But there was no obvious reason, given the outward conditions, to look for Sayyidna Yūsuf in Egypt. But when God intends to do something, He
+arranges to put together appropriate causes for its execution; therefore this time he instructed his sons to go to Egypt once again for the purpose of
+this search. Some commentators have said that Sayyidna Yaʿqūb, by noticing that the ʿAzīz of Egypt had treated them unusually the first time, when he had
+returned their capital by putting it within their baggage, had got the idea that this ʿAzīz seems to be someone very noble and generous — perhaps he may
+be Yūsuf himself. **Points of guidance**: patience in pain is obligatory on every Muslim. Imām al-Qurṭubī has said: the event relating to Sayyidna Yaʿqūb
+proves that it is *wājib* on every Muslim, when faced with distress or pain in the case of his person, children, family or property, that he or she should
+seek redress from it by resorting to patience at its best and by becoming resigned to and content with the decree of God — and follow the example of
+Sayyidna Yaʿqūb and other blessed prophets. The merit of swallowing anger and pain: Imām Ḥasan al-Baṣrī has said, out of what one swallows, two are the
+best in the sight of God: to be patient upon pain or distress, and to swallow anger. Complaining of pain before everyone: in another ḥadīth from Abū
+Hurayrah the Prophet ﷺ has been reported to have said, *man baththa lam yaṣbir*, "one who goes about narrating his distress before everyone has not
+observed patience." The reward for patience: Sayyidna Ibn ʿAbbās has said that God conferred upon Sayyidna Yaʿqūb the reward of martyrs for this
+patience; and in this community too, whoever observes patience while in distress shall receive a similar reward. The reason why Sayyidna Yaʿqūb was put to
+trial: Imām al-Qurṭubī has given a reason for this severe trial as it appears in some narrations — it is said that one day Sayyidna Yaʿqūb was doing his
+*tahajjud* prayers and Sayyidna Yūsuf was sleeping before him; all of a sudden a sound of snoring by Sayyidna Yūsuf caused his attention to be diverted to
+him; this happened twice, and thrice; then God said to His angels, "Look, this is My friend and My favoured servant; see how, in the middle of his address
+and approach to Me, he turns his attention to someone other than Me. By My honour and power, I shall take these two eyes of his out, the eyes with which he
+has turned his attention to someone other than Me, and the one to whom he has turned his attention I shall separate from him for a long time." *[weak]*
+How about looking at someone during prayer? Therefore, in a ḥadīth of al-Bukhārī narrated by Sayyidah ʿĀʾishah, it appears that she asked the Prophet ﷺ,
+"How is it to look elsewhere during prayer?" In reply he said, "Through it, Satan snatches the prayer of a servant of God away from him." **[Study
+Quran]** Benjamin was in custody, which is why Jacob sent his sons to inquire about him; but Jacob also told them to inquire about Joseph, because he
+believed Joseph was still alive — either he had seen this in a dream or had been informed by the Angel of Death that the latter had not taken Josephʾs
+soul. "Despair not of Godʾs Comfort" means that the brothers should not lose hope in Godʾs Mercy, for their forgiveness (see 12:92, 12:97). This verse is
+similar in meaning to 39:53: "Despair not of Godʾs Mercy. Truly God forgives all sins. Truly He is the Forgiving, the Merciful."
+
+**Language.** *Taḥassus* is seeking a thing by the senses (*ṭalab al-shayʾ bi-l-ḥawāss*), a *tafaʿʿul* from *al-ḥiss* **[Qurṭubī] [Ṭabarī]**;
+**[Qurṭubī]** applies it concretely: go to the one who asked for your brother and contrived his taking, and ask about him and his way. *Rawḥ* is glossed
+as relief (*faraj*, Ibn Zayd, al-Suddī, Ibn Zayd again), mercy (*raḥmah*, Qatādah, al-Ḍaḥḥāk) **[Ṭabarī] [Qurṭubī]**; **[Jalālayn]** renders it "Godʾs
+gracious Spirit." Note the vowel: *rawḥ* with a *fatḥah* on the *rāʾ* is a different word; the reading here is with the *fatḥah*.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** preserves the report that the angel of death said to Yaʿqūb, "Seek him from here!" and pointed toward Egypt; and that
+Yaʿqūb became aware of Yūsuf by the return of the merchandise, the detention of his brother, and the showing of honour. **[Maʿārif]** gives the general
+ḥadīth that underlies his whole reading of the sequence: "when God intends to do something, He makes its causes get together automatically."
+
+**Rulings.** **[Qurṭubī]**: this verse is a proof that despair (*qunūṭ*) is among the major sins, and its explanation will come in Sūrat al-Zumar (39:53).
+**[Maʿārif]** gives four points of guidance: patience in pain is *wājib* on every Muslim (al-Qurṭubī); Ḥasan al-Baṣrī on the two best swallows — patience
+upon distress and swallowing of anger; the ḥadīth *man baththa lam yaṣbir*; and Ibn ʿAbbās on the reward of the martyrs for patience, extended to this
+community.
+
+**Belief.** **[Saʿdī]** states the psychology of hope as a doctrine: hope obliges the servant to strive and exert himself in what he hopes for, whereas
+despondency obliges him to become heavy and slow; and the most apt object of hope is Godʾs favour, kindness, mercy and relief. He then draws the general
+rule from the verseʾs second half: according to the servantʾs faith is his hope for Godʾs mercy — so despair is not a temperament but a measure of belief.
+**[Qurṭubī]** makes the same point through Ibn Zayd: the believer hopes for Godʾs relief and the disbeliever despairs in hardship. And **[Qurṭubī]**
+alone identifies what makes the command possible: the verse indicates that Yaʿqūb was *certain* of Yūsufʾs being alive, by one of three means — the dream,
+Godʾs making the wolf speak, or the angel of deathʾs information that he had not taken his soul — and the third is the most apparent. **[Study Quran]**
+records the same three.
+
+**Cross-references.** 12:4–6 (the dream); 12:18 (the wolf); 12:83 ("it may be that God will bring them all to me"); 12:86 ("I know from God what you do
+not know"); 12:88 (the third journey); 12:92–93 (the forgiveness and the shirt); 39:53 ("despair not of Godʾs mercy"); 15:56 ("and who despairs of the
+mercy of his Lord except the astray"); 2:153–157 (patience).
+
+**Reflection.** This is the turning point of the second half of the sūrah, and it is spoken by the man the previous three verses have shown as blind,
+choked with grief, and remonstrated with by his own sons. He does not say "perhaps Yūsuf is alive"; he says *go and seek news of Yūsuf and his brother*,
+coupling the son buried forty years ago with the son detained last month. **[Qurṭubī]** explains the coupling: it indicates he was certain of Yūsufʾs
+life. **[Maʿārif]** adds the timing, which is the real content of the verse: before this he had never given an order of this nature; all these things were
+subservient to the divine destiny; meeting them earlier was not destined, therefore no such action was taken; and now the time to meet had arrived, so God
+put in his heart the way out appropriate to it. On this reading the command is not Yaʿqūbʾs recovery of hope but the arrival of the appointed moment,
+which produces the hope. And **[Saʿdī]** supplies the mechanism: hope obliges striving. The verse ends with a warning that makes despair a matter of
+belief rather than of mood — none despairs of Godʾs relief except the disbelieving people — which is the strongest statement in the Qurʾān that the refusal
+to hope is not caution but unbelief.
+
+---
+
+## 12:88
+
+*"And when they entered upon him they said, ʿO ʿAzīz, hardship has touched us and our family, and we have come with merchandise pushed along; so give us
+full measure and be charitable to us. God rewards the charitable.ʾ"*
+
+**Meaning.** **[Ṭabarī]** In the speech is something omitted, the mention of what appears sufficing for what is deleted; and that is: so they went out
+returning to Egypt until they arrived at it, and entered upon Yūsuf. "And when they entered upon him they said, O ʿAzīz, hardship has touched us and our
+family": that is, severity from drought and dearth. "And we have come with merchandise pushed along." And Ibn Isḥāq said: they went out to Egypt returning
+to it, "with merchandise pushed along": that is, little, not reaching what they used to trade with, except that it be conceded to them; and they had seen
+what had befallen their father, and the afflictions following one upon him in his son and his sight, until they came to Yūsuf. And when they entered upon
+him they said, "O ʿAzīz," hoping that he would have mercy on them concerning their brother: "hardship has touched us and our family." And He means by "we
+have come with merchandise pushed along" dirhams or a price that is not acceptable as the price of food except for one who makes concession in it. And the
+root of *izjāʾ* is driving by pushing, as al-Nābighah al-Dhubyānī said: "and the wind blew from the direction of Dhū Urul, driving with the night some of
+its cold thin cloud" — meaning it drives and pushes; and from it is Aʿshā Banī Thaʿlabahʾs line: "the giver of the hundred white camels and their servant,
+newly-calved she-camels driving their young behind them"; and Ḥātimʾs line: "for Bayk, upon Milḥān, is a guest pushed along, and a widow driving with the
+night a widower" — meaning she drives him before her, given his weakness in walking and his incapacity; and for that it was said "merchandise pushed along,"
+because it does not pass current, and is only conceded by a discount from those who take it. And the interpreters differed about its explanation, though the
+meanings of their explanations are close. Ibn ʿAbbās said, via ʿIkrimah: poor, counterfeit, not passing current until a discount is made on it; and in
+another chain: the poor merchandise that does not pass current until a discount is made on it; and via Ibn Abī Mulaykah: worn-out goods — the sack, the rope
+and the thing; and in another: the worn-out chattels, the rope, the sack and the thing; and in another: "the merchandise" is dirhams and "pushed along" is
+of no account; and via Hushaym: unsaleable, of no account. And Saʿīd b. Jubayr said, deficient; and ʿIkrimah said, base dirhams (*darāhim fusūl*); and one
+of the two said, deficient, and the other, poor. And ʿAbdullāh b. al-Ḥārith said: it was clarified butter and wool; and in another report: little, the goods
+of the bedouins — wool and clarified butter. And Abū Ṣāliḥ said: pine-nuts and pistachios. *[the section continues]* "So give us full measure": al-Suddī
+said, as you used to give us for good dirhams. "And be charitable to us": they said, and be gracious to us with what is between the price of the good and the
+poor, and do not diminish us from the price of your food because of the poorness of our merchandise. "God rewards the charitable": God rewards those who are
+gracious to the people of need with their wealth. And the interpreters said the like: al-Suddī said, be gracious with what is between the good and the poor;
+and Saʿīd b. Jubayr said, do not diminish us from the price because of the poorness of our dirhams. And they differed about charity — whether it was lawful
+for the prophets before our prophet Muḥammad ﷺ or forbidden to them. Some said: it was not lawful for any of the prophets. Saʿīd b. Jubayr said: no prophet
+ever asked for charity; rather they said, "we have come with merchandise pushed along, so give us full measure and be charitable to us" — do not diminish us
+from the price. And it is related from Ibn ʿUyaynah that he was asked whether charity was forbidden to any of the prophets before the Prophet ﷺ, and he said:
+have you not heard His words "so give us full measure and be charitable to us; God rewards the charitable"? — and Ibn ʿUyaynah went to the view that they
+would not have said that unless charity was lawful for them, and they were prophets; for charity was only forbidden to Muḥammad ﷺ and to them. And others
+said: He only meant by "and be charitable to us," be charitable to us by returning our brother to us — said Ibn Jurayj. And Abū Jaʿfar said: this saying that
+we have mentioned from Ibn Jurayj, though it is a saying with a face to it, is not the chosen saying in the interpretation of "and be charitable to us,"
+because charity in the common usage of the Arabs is only a manʾs giving someone in need some of his possessions seeking Godʾs reward for it — and though every
+good deed is charity, directing the interpretation of Godʾs speech to the predominant of its meanings in the speech of the people in whose tongue the Qurʾān
+was revealed is more apt and more fitting. And Mujāhid said something like it: Mujāhid was asked whether it is disliked for a man to say in his supplication,
+"O God, be charitable to me," and he said, yes — charity is only for one who seeks reward. **[Qurṭubī]** "And when they entered upon him they said, O ʿAzīz":
+that is, the one who is mighty, unassailable. "Hardship has touched us and our family": this is the third time of their return to Egypt, and in the speech is
+an elision, that is: so they went out to Egypt, and when they entered upon Yūsuf they said, "hardship has touched us" — that is, struck us — "and our family":
+that is, hunger and need. And in this is a proof of the permissibility of complaint in the time of hardship — that is, hunger; rather, it is obligatory upon
+him, if he fears harm to himself from poverty or otherwise, to disclose his state to one from whom he hopes benefit, as it is obligatory upon him to complain
+of the pain he has to the doctor so that he may treat it; and that is not a detraction from reliance on God. And this is so long as the complaining is not by
+way of discontent; and patience and fortitude in calamities is better, and abstaining from asking is more excellent; and the best speech in complaint is asking
+the Master to remove the affliction, and that is Yaʿqūbʾs saying, "I complain only of my anguish and my grief to God, and I know from God what you do not
+know" — that is, of His beautiful making and His strange kindness and His returning upon His servants. As for complaint to one who is not a complainant-to, that
+is folly — except that it be by way of pouring out and consoling oneself, as Ibn Durayd said: "Do not think, O time, that I am submissive to a calamity that
+wears me away to the bone; I have practised what, had the spheres fallen from the sides of the air upon it, would not have complained. But it is the puff of a
+man whose chest is oppressed, when foam surges from its sides." "And we have come with merchandise": *al-biḍāʿah* is a portion of wealth by which the purchase of
+a thing is intended; you say *abḍaʿtu al-shayʾa* and *istabḍaʿtuhu*, I made it merchandise; and in the proverb: like one carrying dates to Hajar. "Pushed
+along": an attribute of merchandise; and *izjāʾ* is driving by pushing, from which is His words "do you not see that God drives clouds" (24:43); and the
+meaning is that it is merchandise that is pushed and not everyone accepts it. Thaʿlab said: merchandise pushed along is the deficient, not complete. And they
+differed about its specification here: it was said it was dried meat and *ḥays* — related by al-Wāqidī from ʿAlī b. Abī Ṭālib; it was said, worn-out sacks and
+ropes, from Ibn ʿAbbās; it was said, the goods of the bedouins — wool and clarified butter, said ʿAbdullāh b. al-Ḥārith; it was said, pistachios and pine-nuts
+— and *al-ḥabbah al-khaḍrāʾ* is the *buṭm*, the seed of a tree in Syria, eaten and pressed for oil for making soap — said Abū Ṣāliḥ: so they sold them for
+dirhams that do not pass current for food but pass current among people, so they said, take them from us at the rate of good ones that pass current for food;
+it was said, poor dirhams, also said by Ibn ʿAbbās; and it was said they did not bear the image of Yūsuf, and the dirhams of Egypt bore Yūsufʾs image. And
+al-Ḍaḥḥāk said: sandals and hides; and from him: it was sifted *sawīq*. And God knows best. "So give us full measure and be charitable to us": in it are four
+*masāʾil*. **The first**: "so give us full measure": they mean, as you sell for good dirhams — do not diminish us on account of our dirhams; this is the saying
+of most of the interpreters. And Ibn Jurayj said, "so give us full measure": they mean the measure that he had measured for their brother. And "be charitable
+to us": that is, be gracious to us with what is between the price of the good and the poor — said Saʿīd b. Jubayr, al-Suddī and al-Ḥasan, because charity is
+forbidden to the prophets. And it was said the meaning is, be charitable to us by an addition over our right — said Sufyān b. ʿUyaynah. And Mujāhid said:
+charity was forbidden only to our prophet Muḥammad ﷺ. And Ibn Jurayj said: the meaning is, be charitable to us by returning our brother to us. And Ibn Shajarah
+said: be charitable to us by overlooking our case, and cited the poetʾs line: "Be charitable to us, O son of ʿAffān, and reckon it, and command al-Ashʿarī over
+us for some nights." "God rewards the charitable": meaning in the hereafter. It is said this is of the allusive expressions (*maʿārīḍ al-kalām*), because it was
+not their belief that he was of their religion; therefore they did not say "God rewards you for your charity," but said a wording that suggested to him that
+they meant him, while it was valid for them to exclude it by interpretation — said al-Naqqāsh. And in the ḥadīth: "in allusive expressions there is a way out
+from lying." **The second *masʾalah***: Mālik and other scholars adduced from this that the wage of the measurer is upon the seller. Ibn al-Qāsim and Ibn Nāfiʿ
+said: Mālik said, they said to Yūsuf "so give us full measure," and it was Yūsuf who measured; and likewise the weigher, the counter and others. Because when a
+man sells a known quantity of his food and concludes the contract upon it, it becomes incumbent upon him to bring it forth and distinguish the buyerʾs right
+from his own — unless he sells him something specified, a heap or what has no right of completion in it, and hands it over to him, in which case whatever
+befalls the sold item is upon the buyer. And such is not the case with what has a right of completion, of measure or weight; do you not see that the seller
+does not deserve the price except after completion, and if it perishes it is at his risk before completion? **The third *masʾalah***: as for the wage of
+assaying money, it is also upon the seller, because the buyer who pushes forward his dirhams says they are sound, so it is you who claim the poorness — so look
+to yourself; and also the benefit accrues to him, so the wage falls on him. And likewise it is not incumbent upon the one against whom retaliation is due,
+because it is not incumbent upon him to cut off his own hand, except that he be enabled to do it willingly; do you not see that it is obligatory upon him to
+ransom his hand and to settle for it when the one seeking retaliation demands that of him — so the wage of the cutter is upon the one seeking retaliation. And
+al-Shāfiʿī said, in the well-known report from him, that it is upon the one against whom retaliation is sought, like the seller. **The fourth *masʾalah***: it is
+disliked for a man to say in his supplication, "O God, be charitable to me," because charity is only from one who seeks reward, and God Most High is gracious
+with reward through all blessings, there being no Lord other than Him. And al-Ḥasan heard a man saying, "O God, be charitable to me," and al-Ḥasan said: "O you!
+God does not give charity; only one who seeks reward gives charity. Have you not heard Godʾs words ʿGod rewards the charitableʾ? Say: O God, give me and be
+gracious to me." **[Ibn Kathīr]** God said, "Then, when they entered unto him," when they went back to Egypt and entered upon Yūsuf, "they said: O ʿAzīz! A hard
+time has hit us and our family," because of severe droughts and the scarcity of food, "and we have brought but poor capital" — meaning, we brought money for the
+food we want to buy, but it is not substantial, according to Mujāhid, al-Ḥasan and several others. God said that they said next, "so pay us full measure" —
+meaning, in return for the little money we brought, give us the full measure that you gave us before. Ibn Masʿūd read this verse in a way that means, "so give the
+full load on our animals and be charitable with us." Ibn Jurayj commented, "So be charitable to us by returning our brother to us." And when Sufyān b. ʿUyaynah was
+asked if the *ṣadaqah* (charity) was prohibited for any prophet before our Prophet ﷺ, he said, "Have you not heard the verse, ʿso pay us full measure and be
+charitable to us. Truly, God does reward the charitableʾ?" Ibn Jarīr al-Ṭabarī collected this statement. **[Jalālayn]** And so when they entered to him they said,
+"O Court Officer, misfortune," hunger, "has befallen us and our family; and we have come with reject merchandise," refused by any person who sees it because of
+its worthlessness — it consisted of counterfeit dirhams or something else — "so fill up," complete for us, "the measure and be charitable to us" by overlooking the
+worthlessness of our merchandise; "truly God requites the charitable." He rewards them. He, Joseph, thus took pity on them and he was overtaken by compassion for
+them and removed the partition between them and himself. **[Saʿdī]** So they went, and when they entered upon Yūsuf they said, imploring him: "O ʿAzīz, hardship
+has touched us and our family, and we have come with merchandise pushed along": that is, rejected and unwanted, because of its smallness and its not falling in the
+right place. "So give us full measure": that is, despite the compensation not being adequate; "and be charitable to us": by an addition over what is obligatory.
+"God rewards the charitable": with the reward of this world and the hereafter. **[Maʿārif]** Mentioned in the verses appearing above is the remaining part of the
+story: Sayyidna Yaʿqūb asked his sons to go and search for Yūsuf and his brother. So they travelled to Egypt for a third time — because they knew that Benyāmīn was
+there and they had to try to get him released first. As for Sayyidna Yūsuf, though his presence in Egypt was not known to them, when the time comes for something
+to happen, human plans too start falling in place, unconsciously and without an intentional effort. This is confirmed by a ḥadīth which says: when God intends to do
+something, He makes its causes get together automatically. Therefore, to search for Yūsuf too, the very travel to Egypt was appropriate, though taken up
+unconsciously. Then they needed food grains, after all. And yet another factor was that they hoped to see the ʿAzīz of Egypt on the pretext of their request for food
+grains, when they could put forward their plea for the release of Benyāmīn. When the brothers of Yūsuf reached Egypt as ordered by their father and met the ʿAzīz of
+Egypt, they talked to him in a flattering tone. Presenting their need and helplessness, they told the ʿAzīz that they and their family were suffering because of the
+famine, so much so that they did not have even adequate funds to purchase food grains. Compelled by circumstance, they had brought a capital which was not good
+enough for that purpose. Thus their request was that, given his generosity, he should accept whatever they had and give them the full measure of grains as is usually
+given against things of good value. Not being their right in any way, they pleaded that the grains should be given to them as if given in charity, because "God
+rewards the charitable." What was this "capital of very little worth"? The Qurʾān and ḥadīth have not clarified it; the sayings of the commentators differ. Some say
+they were bad dirhams which were not acceptable in the open market; others say this comprised household articles. This expression is a translation of the meaning of
+the word *muzjāh*, which really means something which does not move on its own but has to be moved by someone else forcefully. **[Study Quran]** The brothers went to
+Egypt in order to inquire about Joseph and Benjamin in accordance with Jacobʾs wishes. When they came to Joseph, who was still not known to them as Joseph, they
+complained about their affliction, by which is meant their intense hunger, as well as their meager merchandise, referring to what little goods they had with them to
+trade for food. The brothers were hoping their goods would suffice them in obtaining a full measure of food. "And be charitable unto us" is understood as a request
+for the return of Benjamin.
+
+**Language & readings.** *Biḍāʿah* is a portion of wealth by which the purchase of a thing is intended, from *abḍaʿtu al-shayʾa* and *istabḍaʿtuhu*; hence the
+proverb "like one carrying dates to Hajar" **[Qurṭubī]**. *Izjāʾ* is driving by pushing, from which 24:43, "God drives clouds"; and merchandise *muzjāh* is
+merchandise that is pushed and not accepted by everyone — Thaʿlab: the deficient, not complete **[Qurṭubī]**; **[Maʿārif]** renders the root sense as something
+which does not move on its own but has to be moved by someone else forcefully. Its specification is disputed: counterfeit or poor dirhams (Ibn ʿAbbās, ʿIkrimah);
+worn-out sacks and ropes (Ibn ʿAbbās via Ibn Abī Mulaykah); wool and clarified butter, the goods of the bedouins (ʿAbdullāh b. al-Ḥārith); dried meat and *ḥays*
+(al-Wāqidī from ʿAlī); pistachios and pine-nuts, the *buṭm* (Abū Ṣāliḥ); sandals and hides, or sifted *sawīq* (al-Ḍaḥḥāk); dirhams not bearing Yūsufʾs image,
+the dirhams of Egypt bearing his image **[Qurṭubī]**. *Al-ʿazīz* is glossed by **[Qurṭubī]** as "the one who is mighty, unassailable" (*al-mumtaniʿ*). Ibn
+Masʿūd read *fa-awfi lanā al-kayla* in a sense meaning "give the full load on our animals" **[Ibn Kathīr]**.
+
+**Rulings.** **[Qurṭubī]**ʾs four *masāʾil*: (1) "give us full measure" and the dispute over "be charitable to us," including al-Naqqāshʾs observation that "God
+rewards the charitable" is an allusive expression (*maʿārīḍ al-kalām*), since they did not believe he was of their religion and therefore did not say "God rewards
+you for your charity," with the ḥadīth "in allusive expressions there is a way out from lying." (2) Mālikʾs deduction that the wage of the measurer is upon the
+seller, because it was Yūsuf who measured — and likewise the weigher and the counter — since when a man sells a known quantity and concludes the contract he must
+bring it forth and distinguish the buyerʾs right; and the seller does not deserve the price except after completion, and if it perishes before completion it is at
+his risk. (3) The wage of assaying money is also upon the seller, by the same reasoning; and in retaliation, the wage of the cutter is upon the one seeking
+retaliation, al-Shāfiʿī dissenting. (4) It is disliked to say in supplication "O God, be charitable to me," because charity is only from one who seeks reward and
+God is gracious with reward through all blessings — al-Ḥasanʾs rebuke and his prescription, "say: O God, give me and be gracious to me." **[Ṭabarī]** preserves the
+corresponding question to Mujāhid and the same answer.
+
+**Belief.** The central question is whether prophets may receive *ṣadaqah*. **[Ṭabarī]** records both positions: Saʿīd b. Jubayr held that no prophet ever asked for
+charity and therefore read "be charitable to us" as "do not diminish us from the price"; Ibn ʿUyaynah held that they would not have said it unless charity was
+lawful for them, since it was forbidden only to Muḥammad ﷺ and to them; and Mujāhid held that it was forbidden only to our Prophet ﷺ. **[Ṭabarī]**ʾs own preference
+is a linguistic one: charity in the common usage of the Arabs is a manʾs giving someone in need some of his possessions seeking Godʾs reward, and although every good
+deed is charity, the predominant meaning in the language of revelation governs. **[Qurṭubī]** reports Saʿīd b. Jubayr, al-Suddī and al-Ḥasan on the same ground —
+because charity is forbidden to the prophets — and Mujāhid dissenting. **[Study Quran]**, through al-Qushayrī, takes "be charitable unto us" as a request for the
+return of Benjamin, which is Ibn Jurayjʾs reading that **[Ṭabarī]** declines to prefer. And **[Qurṭubī]** draws a general permission from the first clause: complaint
+in the time of hardship is permissible — indeed obligatory if one fears harm, as it is obligatory to complain of pain to the doctor — and is not a detraction from
+reliance on God, so long as it is not by way of discontent; and the best speech in complaint is asking the Master to remove the affliction, which is 12:86.
+
+**Cross-references.** 12:87 (the command to go); 12:62 (the first returned merchandise); 12:78–79 (the second appeal and its refusal); 12:89 (the disclosure that
+follows); 12:86 (the complaint to God); 24:43 ("God drives clouds"); 39:53; the ḥadīth on allusive expressions.
+
+**Reflection.** The third journey is undertaken for two reasons and the brothers are aware of only one. **[Maʿārif]** separates them cleanly: they went because
+Binyāmīn was there and had to be released — that was the conscious purpose; the search for Yūsuf was served by the same journey unconsciously, because when the time
+comes for something to happen, human plans start falling into place without intentional effort. And **[Qurṭubī]**ʾs note that this is the third time of their return
+to Egypt is doing quiet work: each of the three journeys has brought them closer to a man they cannot see. The speech itself is a study in abasement, and
+**[Jalālayn]** marks its effect — Joseph took pity on them and removed the partition between them and himself. They name their poverty before they name their
+brother: hardship has touched us and our family, and we have come with merchandise pushed along. Then they ask for two things, one of which they are entitled to
+(full measure) and one of which they are not (charity), and close with a sentence whose ambiguity **[Qurṭubī]** notices — "God rewards the charitable" rather than
+"God rewards you" — because they do not know his religion. That is the last sentence they speak as men who do not know who they are addressing. What follows is a
+question about Yūsuf.
+
+---
+
+
+## 12:89
+
+*"He said, ʿDo you know what you did with Yūsuf and his brother, when you were ignorant?ʾ"*
+
+**Meaning.** **[Ṭabarī]** It is related that Yūsuf, when his brothers said to him, "O ʿAzīz, hardship has touched us and our family, and we have come with
+merchandise pushed along; so give us full measure and be charitable to us; God rewards the charitable," was overcome by tenderness and disclosed to them what he
+had been concealing from them of his affair. And Ibn Isḥāq said: it was related to me that when they spoke to him with this speech, his soul overcame him and his
+tears ran down while he wept; then he disclosed to them what he had been concealing from them, and said, "Do you know what you did with Yūsuf and his brother,
+when you were ignorant?" And he did not mean by the mention of his brother what he himself had done concerning him when he took him, but the separating of him
+from his brother, when they did with Yūsuf what they did. And al-Suddī said: when they entered upon him and said, "O ʿAzīz, hardship has touched us and our
+family" — the verse — he had mercy on them at that, and said to them, "Do you know what you did with Yūsuf and his brother, when you were ignorant?" And Abū
+Jaʿfar said: the interpretation of the speech is therefore: do you remember what you did with Yūsuf and his brother, when you separated the two of them and did
+what you did, when you were ignorant — meaning, in the state of your ignorance of the outcome of what you were doing with Yūsuf, and of what his affair and your
+affair would come to. **[Qurṭubī]** "He said, do you know what you did with Yūsuf and his brother": an interrogation in the sense of reminding and reproaching,
+and it is that of which God said, "you shall surely inform them of this affair of theirs while they do not perceive" (12:15). "When you were ignorant": a proof
+that they were young at the time of their taking Yūsuf, and not prophets, because no one is described with ignorance except one whose attribute that is; and it
+indicates that their state has now become good — that is, you did that when you were young and ignorant, said Ibn ʿAbbās and al-Ḥasan in this sense. And on this,
+their saying "and we were indeed sinners" is because they grew up and did not inform their father of what they had done, out of shame and fear of him. And it was
+said: ignorant of what the outcome would come to. And God knows best. "They said, are you indeed Yūsuf?": when they entered upon him and said, "hardship has
+touched us and our family," they submitted to him and humbled themselves, and he was tender toward them and made himself known to them, and said, "Do you know what
+you did with Yūsuf and his brother?" — and they became alert, and said, "Are you indeed Yūsuf?" — said Ibn Isḥāq. And it was said that Yūsuf smiled, so they
+resembled him to Yūsuf and asked. Ibn ʿAbbās said: when he said to them, "Do you know what you did with Yūsuf" — the verse — Yūsuf then smiled, and when he smiled
+it was as though his front teeth were strung pearls, so they resembled him to Yūsuf and said to him by way of inquiry, "Are you indeed Yūsuf?" And from Ibn ʿAbbās
+also: his brothers did not know him until he put the crown from him, and on his forehead was a mark, and Yaʿqūb had the like of it, resembling a mole; so when he
+said to them, "Do you know what you did with Yūsuf," he raised the crown from him and they knew him, and said, "Are you indeed Yūsuf?" And Ibn ʿAbbās said: Yaʿqūb
+wrote to him seeking the return of his son, and in the letter was: "From Yaʿqūb, Godʾs elect, son of Isḥāq, Godʾs sacrifice, son of Ibrāhīm, Godʾs intimate friend,
+to the ʿAzīz of Egypt. To proceed: we are a household of affliction and trials. God afflicted my grandfather Ibrāhīm with Nimrūd and his fire; then He afflicted my
+father Isḥāq with the slaughter; then He afflicted me with a son I had who was the most beloved of my children to me, until my sight was sealed from weeping; and
+then with his younger brother, a source of comfort to me in my grief, whom you arrested on a charge of theft. And let me tell you: I did not steal, and I did not
+beget a thief. And peace." And when Yūsuf read the letter his joints trembled, his skin crept, he let his eyes flow with weeping, his patience was exhausted, and he
+revealed the secret. And Ibn Kathīr read *innaka* as a statement, and it is permitted that this reading be an interrogation, like His words "and that is a favour"
+(26:22). *[the section continues into 12:90–93]* **[Ibn Kathīr]** God says, when Yūsufʾs brothers told him about the afflictions and hardship, and shortages in food
+they suffered from in the aftermath of the drought that struck them, and he remembered his fatherʾs grief for losing his two children, he felt compassion, pity and
+mercy for his father and brothers. He felt this way especially since he was enjoying kingship, authority and power, so he cried and revealed his true identity to
+them when he asked them, "Do you know what you did with Yūsuf and his brother, when you were ignorant?" — meaning, "when you separated between Yūsuf and his
+brother." "When you were ignorant?": he said, "what made you do this is your ignorance of the tremendous sin you were about to commit." It appears — and God knows
+best — that Yūsuf revealed his identity to his brothers only then, by Godʾs command, just as he hid his identity from them in the first two meetings, by Godʾs
+command. When the affliction became harder, God sent His relief from that affliction, just as He said He does: "Verily, along with every hardship is relief. Verily,
+along with every hardship is relief" (94:5–6). **[Jalālayn]** Then he said to them in rebuke, "Do you realise what you did to Joseph, in the way of beating him and
+selling him and otherwise, and his brother," oppressing him after having separated him from his brother, "while you were ignorant," of where the affair of Joseph
+would lead? **[Saʿdī]** So when the affair reached its end and its utmost, Yūsuf was tender toward them with an intense tenderness, and made himself known to them,
+and reproached them, saying: "Do you know what you did with Yūsuf and his brother?" As for Yūsuf, their act concerning him is apparent; and as for his brother, then
+perhaps — and God knows best — it is their saying, "if he steals, a brother of his stole before," or that the cause which separated between him and his father was
+them, and they were the origin necessitating it. "When you were ignorant": and this is a kind of excusing them by their ignorance, or a reproach to them in that they
+did the act of the ignorant, though it was not fitting and not becoming from them. **[Maʿārif]** When Sayyidna Yūsuf heard these submissive words from his brothers
+and saw their broken-down condition, he was naturally coming to a point where he would have no option but to disclose the truth as it was. And the drift of events
+was showing that the restriction placed by God upon Sayyidna Yūsuf — that he would not disclose the truth of the matter about himself — was not going to be there
+anymore, for the time had come close when it would be taken back. Based on a narration of Sayyidna Ibn ʿAbbās, it has been reported in *Tafsīr al-Qurṭubī* and
+*Mazharī* that Sayyidna Yaʿqūb had, on this occasion, sent a letter in writing, addressed to the ʿAzīz of Egypt: "From Yaʿqūb, *Ṣafī Allāh*, son of Isḥāq, *Dhabīḥ
+Allāh*, son of Ibrāhīm, *Khalīl Allāh*, to the ʿAzīz of Egypt. After offering praise to God: our entire family is known for hardships and trials. My grandfather
+Ibrāhīm, *Khalīl Allāh*, was tested through the fire of Nimrūd. Then my father Isḥāq was put to a hard test. Then I was tested through a son of mine whom I held very
+dear — to the limit that I lost my eyesight when separated from him. After that there was his younger brother, a source of comfort for me in my grief, whom you
+arrested on a charge of theft. And let me tell you that we are the progeny of prophets: never have we committed a theft, nor has there ever been a thief among our
+children. And peace on you!" When Sayyidna Yūsuf read this letter, he trembled and broke into tears and decided to let his secret out. To start with, he first asked
+his brothers if they remembered what they had done with Yūsuf and his brother at a time when they were ignorant, unable to distinguish between good and bad, and
+quite neglectful of acting with foresight. When his brothers heard his question, they were dumbfounded: what has the ʿAzīz of Egypt got to do with the story of Yūsuf?
+Then they recollected the dream seen by young Yūsuf, the interpretation of which was that he would achieve some high rank and they would have to bow down before him.
+Could it be that this ʿAzīz of Egypt is none else but Yūsuf himself? Then, as they exerted and deliberated a little more, they recognized him by some signs. Still, to
+confirm it further, they asked him… *[Isrāʾīliyyāt]* **[Study Quran]** Josephʾs question is about their separating him from Benjamin when they were young, and about
+their harming him (Joseph) and perpetrating injustices against Benjamin, such as debasing and reviling him. Joseph then makes an excuse for his brothersʾ wrong
+actions, as he says "when you were ignorant," which refers to either their ignorance of the vileness of their actions or their general state of ignorance on account
+of their youth. It is said that the brothers recognized that their interlocutor was Joseph when he spoke these words to them, or when he smiled, or when he removed his
+crown.
+
+**Language.** *Hal ʿalimtum* is an interrogation in the sense of reminding and reproaching (*istifhām bi-maʿnā al-tadhkīr wa-l-tawbīkh*) **[Qurṭubī]**; **[Jalālayn]**
+gives "in rebuke." *Idh antum jāhilūn* is read three ways: they were young and not prophets, since no one is described with ignorance except one whose attribute that
+is (Ibn ʿAbbās, al-Ḥasan) **[Qurṭubī]**; ignorant of what the outcome would come to **[Ṭabarī] [Qurṭubī]**; ignorant of the vileness of their actions, or in a general
+state of ignorance on account of their youth **[Study Quran]**. *Wa-akhīhi* is explained by **[Ṭabarī]** as not referring to what Yūsuf himself had done concerning
+Binyāmīn when he took him, but to the separation of him from his brother; **[Saʿdī]** offers two possibilities — their saying at 12:77, or their being the cause and
+origin of the separation from his father; **[Jalālayn]** glosses it as oppressing him after having separated him from his brother.
+
+**Ḥadīth & āthār.** Yaʿqūbʾs letter to the ʿAzīz of Egypt is given at **[Qurṭubī]** and **[Maʿārif]**, both from Ibn ʿAbbās — with the triple lineage
+*Ibrāhīm Khalīl Allāh*, *Isḥāq Dhabīḥ Allāh*, *Yaʿqūb Ṣafī Allāh*, the catalogue of the familyʾs trials, and the closing denial, "I did not steal, and I did not
+beget a thief." Its stated effect is that Yūsufʾs joints trembled, his skin crept, he wept, his patience was exhausted, and he revealed the secret. *[Isrāʾīliyyāt]*
+The three explanations of the recognition are at **[Qurṭubī]**: Ibn Isḥāq — he submitted and humbled himself, Yūsuf was tender and made himself known, and they became
+alert; Ibn ʿAbbās — he smiled and his front teeth were like strung pearls, so they resembled him to Yūsuf; and from Ibn ʿAbbās again — they did not know him until he
+put the crown from him, and on his forehead was a mark, and Yaʿqūb had the like of it, resembling a mole. *[Isrāʾīliyyāt]* **[Study Quran]** records the same three.
+
+**Belief.** **[Qurṭubī]** draws the verseʾs most consequential inference: "when you were ignorant" is a proof that they were young at the time of their taking Yūsuf
+*and not prophets*, because no one is described with ignorance except one whose attribute that is — and it indicates that their state has now become good. This is the
+third time he has made the point (12:77, 12:78), and here he adds the corollary that explains their silence at 12:91: they grew up and did not inform their father of
+what they had done, out of shame and fear of him. **[Ibn Kathīr]** makes the complementary point about Yūsuf: he revealed his identity only then *by Godʾs command*,
+just as he hid it in the first two meetings by Godʾs command — the same doctrine **[Maʿārif]** states as the lifting of a restriction. And **[Ibn Kathīr]** places the
+disclosure inside the general law of 94:5–6: when the affliction became harder, God sent His relief. **[Qurṭubī]** also links the verse back to 12:15, "you shall
+surely inform them of this affair of theirs while they do not perceive" — the promise made at the well is discharged here.
+
+**Cross-references.** 12:15 (the promise to inform them); 12:8 (the counsel); 12:77 ("a brother of his stole before"); 12:88 (the plea that preceded); 12:90 (the
+recognition); 12:91 (the confession); 12:92 (the pardon); 94:5–6; 26:22 ("and that is a favour").
+
+**Reflection.** The disclosure does not begin with "I am Yūsuf." It begins with a question about the past, and the question is what produces the recognition.
+**[Maʿārif]** describes the effect precisely: the brothers were dumbfounded — what has the ʿAzīz of Egypt got to do with the story of Yūsuf? — and then they
+remembered the dream, and then they looked at him. **[Qurṭubī]**ʾs three reports give three different physical triggers, speech, smile and crown, and they are not
+rival accounts so much as three ways of saying that the man in front of them had to become visible before he could be named. And the question itself is framed so as
+to be both an accusation and an excuse: *when you were ignorant*. **[Saʿdī]** holds both readings open — a kind of excusing them by their ignorance, or a reproach in
+that they did the act of the ignorant, though it was not fitting from them — and **[Qurṭubī]** settles it in the direction of mercy: it indicates that their state has
+now become good. What the verse does, at the climax of forty years, is refuse the moment of vengeance the narrative has prepared. Yūsuf has the power, the brothers
+have no defence, and the first thing he says to them is a question that already contains their excuse.
+
+---
+
+## 12:90
+
+*"They said, ʿAre you indeed Yūsuf?ʾ He said, ʿI am Yūsuf, and this is my brother. God has been gracious to us. Whoever is reverent and patient — God does not
+lose the reward of those who do good.ʾ"*
+
+**Meaning.** **[Ṭabarī]** God says: Yūsufʾs brothers said to him, when Yūsuf said that to them, "Are you indeed Yūsuf?" And he said, "Yes, I am Yūsuf, and this is
+my brother; God has been gracious to us, in that He has joined us after you separated us." "Whoever is reverent and patient": whoever fears God, watching Him by
+performing His obligations and avoiding His disobedience, and restrains his soul, holding it back from what God has forbidden to him of speech or action when an
+affliction from God descends upon him — "then God does not lose the reward of those who do good": God does not nullify the reward of his goodness and the recompense
+of his obedience to Him in what He commanded him and forbade him. And the reciters differed over the reading of "are you indeed Yūsuf": most of the reciters of the
+cities read *a-innaka la-anta Yūsufu*, as an interrogation; and it is related that in the reading of Ubayy b. Kaʿb it is *a-wa-anta Yūsuf*; and it is related from
+Ibn Muḥayṣin that he read *innaka la-anta Yūsuf*, as a statement and not an interrogation. And Abū Jaʿfar said: the correct reading of that in our view is the
+reading of whoever reads it as an interrogation, because of the consensus of the authority of the reciters upon it. And Ibn Isḥāq said: when he said to them that —
+meaning "do you know what you did with Yūsuf and his brother, when you were ignorant?" — he removed the covering and they knew him, and said, "Are you indeed Yūsuf?"
+— the verse. And Mujāhid said of "whoever is reverent and patient": whoever avoids disobedience to God and is patient upon prison. **[Qurṭubī]** "He said, I am
+Yūsuf": that is, I am the wronged one, whose murder was intended; and he did not say "I am he," out of magnification of the story. "God has been gracious to us":
+that is, with deliverance and kingship. "Whoever is reverent and patient": that is, fears God and is patient upon afflictions and from disobedience. "Then God does
+not lose the reward of those who do good": that is, of the patient in His trial, standing by His obedience. And Ibn Kathīr read *innahu man yattaqī* with the *yāʾ*
+established, and the reading with it is permissible on making *man* in the meaning of "the one who," so that *yattaqī* enters the relative clause and the *yāʾ* is
+established in the non-jussive, and *wa-yaṣbiru* is raised. And it is permitted that *wa-yaṣbir* be jussive, on making *yattaqī* in the position of jussive and
+*man* conditional, with the *yāʾ* established and the sign of the jussive being the deletion of the *ḍammah* that was on the *yāʾ* originally — as the poet said:
+"then call, when you enter Damascus, O Yazīd son of Khālid son of Yazīd"; and another said: "does it not come to you, while the reports grow, of what the milch-camels
+of the sons of Ziyād met?" And the reading of the majority is clear, and the *hāʾ* in *innahu* is a pronoun for the discourse, and the clause is the predicate.
+*[the section continues into 12:91–93]* **[Ibn Kathīr]** This is when they said to Yūsuf, "Are you indeed Yūsuf?", in amazement, because they had been meeting him
+for more than two years while unaware of who he really was; yet he knew who they were and hid this news from them. Therefore they asked in astonishment, "Are you
+indeed Yūsuf? He said: I am Yūsuf, and this is my brother. God has indeed been gracious to us," by gathering us together after being separated all this time.
+"Verily, he who has taqwā, and is patient, then surely, God makes not the reward of the good-doers to be lost." **[Jalālayn]** They said — after recognising him by
+his noble traits — cautiously inquiring, "Is it really" — read *a-innaka*, either pronouncing both hamzas or by not pronouncing the second, but in both cases
+inserting an alif — "you, Joseph?" He said, "I am indeed Joseph, and this is my brother. God has truly shown favour," He has been gracious to us by bringing us
+together. "Verily if one fears," if one fears God, "and endures what happens to him, God does not waste the wage of those who are virtuous" — in this respect the
+overt noun *al-muḥsinīn*, "the virtuous," has replaced the third-person pronominalisation. **[Saʿdī]** So they knew that the one who addressed them was Yūsuf, and
+said, "Are you indeed Yūsuf?" He said, "I am Yūsuf, and this is my brother; God has been gracious to us": with faith and reverence, and establishment in this world —
+and that was by reason of patience and reverence. "Whoever is reverent and patient": that is, avoids doing what God has forbidden and is patient upon pains and
+afflictions, and upon the commands by fulfilling them. "Then God does not lose the reward of those who do good": for this is of goodness, and God does not lose the
+reward of whoever does good in his work. **[Maʿārif]** Then Sayyidna Yūsuf said, "Yes, I am Yūsuf, and this is my brother, Benyāmīn." He supplemented his statement by
+adding the name of his brother so that they become certain about him. In addition to that, he also wanted them to become sure right then about the total success of
+their mission — that is, the two they had started to search for were there before them, both at the same time and place. Then he said, "God has been very kind to us":
+that He first gave both of us two qualities, those of patience and the fear of God — qualities which are a key to success and a security shield against every
+hardship; then He changed hardship into comfort, separation into union, and our paucity of wealth and recognition into its total abundance. "Surely, whoever fears God
+and abstains from sins, and observes patience while in distress, then God does not waste the reward of the good-doers like these." **[Study Quran]** "For surely God
+neglects not the reward of the virtuous," see 9:120; 11:11, 115; 12:56.
+
+**Language & readings.** *A-innaka la-anta Yūsuf* is read as an interrogation by the reciters of the cities, which **[Ṭabarī]** will not read against because of the
+consensus of the authority upon it; Ubayy b. Kaʿb read *a-wa-anta Yūsuf*; Ibn Muḥayṣin read *innaka la-anta Yūsuf* as a statement; and Ibn Kathīr read *innaka* as a
+statement, which **[Qurṭubī]** notes may still be an interrogation, like 26:22. **[Jalālayn]** gives the phonetic options: both hamzas pronounced, or the second not
+pronounced with an alif inserted in both cases. *Innahu man yattaq* is read by Ibn Kathīr with the *yāʾ* established, which **[Qurṭubī]** analyses twice — with *man*
+as a relative ("the one who") and *wa-yaṣbiru* raised, or with *man* conditional and *wa-yaṣbir* jussive, the sign of the jussive being deletion of the *ḍammah* on the
+*yāʾ* — and cites two poetic witnesses for the pattern. The *hāʾ* in *innahu* is a pronoun for the discourse (*kināyah ʿan al-ḥadīth*). **[Qurṭubī]** notes that Yūsuf
+said *anā Yūsuf* and not *anā huwa*, out of magnification of the story. **[Jalālayn]** marks the shift at the end: the overt noun *al-muḥsinīn* replaces the expected
+third-person pronoun, so the sentence becomes a general maxim rather than a statement about the two of them.
+
+**Belief.** *Innahu man yattaqi wa-yaṣbir fa-inna Llāha lā yuḍīʿu ajra al-muḥsinīn* is the sūrahʾs thesis in one sentence, and the sources gloss its two terms
+differently. Mujāhid, at **[Ṭabarī]**, reads them historically: whoever avoids disobedience to God and is patient *upon prison*. **[Qurṭubī]** reads them generally:
+fears God and is patient upon afflictions and from disobedience. **[Saʿdī]** is the fullest: avoids doing what God has forbidden, and is patient upon pains and
+afflictions and upon the commands by fulfilling them. **[Maʿārif]** supplies the causal order: God first gave both of us the two qualities — patience and the fear of
+God — which are a key to success and a security shield against every hardship; then He changed hardship into comfort, separation into union, paucity of wealth and
+recognition into abundance. So the two qualities are not the reward for the trial but its precondition, given before it. And **[Ibn Kathīr]** locates the grace in the
+reunion: God has been gracious to us by gathering us together after being separated all this time. The closing noun *al-muḥsinīn* generalises the whole thing, which
+is why **[Jalālayn]** flags the substitution.
+
+**Cross-references.** 12:4–6 (the dream, now within reach of fulfilment); 12:18 and 12:83 ("so patience is beautiful"); 12:23–24 (reverence at the door); 12:33 (the
+prison preferred); 12:56 ("God does not lose the reward of those who do good"); 12:89 (the question); 12:91 (the confession); 12:92 (the pardon); 12:100 (the
+prostration); 9:120; 11:11, 115 **[Study Quran]**.
+
+**Reflection.** The recognition is confirmed in the shortest possible words — "I am Yūsuf" — and **[Qurṭubī]** notes that he did not say "I am he," out of
+magnification of the story: the name has to be said, because the name is what has been missing for forty years. Then he adds his brother, and **[Maʿārif]** explains
+why: so that they would be certain about him, and so that they would understand at once the total success of their mission — the two they had come to search for were
+standing in front of them, in the same time and place. The verse then does something unexpected. Instead of continuing the disclosure, it states a rule: whoever is
+reverent and patient, God does not lose the reward of those who do good. **[Jalālayn]** notices that the sentence stops being about the two of them at the last word,
+replacing the pronoun with the overt noun *al-muḥsinīn*, which converts a family statement into a maxim available to anyone reading. And **[Maʿārif]**ʾs ordering is the
+key to the whole sūrah: God gave them the two qualities first, and then changed hardship into comfort. Patience and reverence are not what Yūsuf acquired through the
+well, the slave-market, the house and the prison; they are what he was given before them, and the forty years were the working out of a gift he already had.
+
+---
