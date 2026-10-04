@@ -763,3 +763,93 @@
 **Meaning.** God brings the Israelites across the sea, while Pharaoh follows them in tyranny and aggression. When drowning overtakes him, he finally professes belief in the God of Israel **[Ṭabarī] [Qurṭubī]**. The declaration comes only when he can no longer escape; the next verse answers his belated confession with the question, “Now?” (10:91) **[Ibn Kathīr] [Study Quran]**. Al-Jalālayn notes that Pharaoh repeats his claim of submission, but the timing exposes that it is forced by the sight of punishment rather than a life of faith **[Jalālayn]**. Maʿārif identifies the episode as the crossing of the sea and Pharaoh’s drowning **[Maʿārif]**.
 
 **Reflection.** A confession made when the consequence has overtaken a person cannot replace the faith and obedience refused while there was time to choose **[Study Quran]**.
+
+## 10:91
+
+*“He said, ‘Now? And you had disobeyed before and were among the corrupters.’”*
+
+**Meaning.** The rebuke answers Pharaoh’s confession in the preceding verse: he professes belief only when drowning has overtaken him. Al-Ṭabarī reads “Now?” as exposing the lateness of this surrender after a life of disobedience and efforts to turn people from God’s way **[Ṭabarī]**. As-Saʿdī and The Study Quran likewise distinguish faith chosen before punishment from a profession forced by seeing it arrive **[Saʿdī] [Study Quran]**. Al-Jalālayn explains that Pharaoh’s corruption included leading others away from belief **[Jalālayn]**. Al-Qurṭubī records several views about who voices the rebuke: God, an angel, or Pharaoh’s own inward recognition that regret has come too late **[Qurṭubī]**. Ibn Kathīr cites a report in which Gabriel says he put sea mud into Pharaoh’s mouth, fearing that mercy might reach him; al-Tirmidhī grades the report *ḥasan gharīb ṣaḥīḥ* **[Ibn Kathīr]**.
+
+**Rulings.** Maʿārif uses the verse to distinguish repentance while life remains from a profession made at the death-rattle, citing the report that repentance is accepted until that threshold **[Maʿārif]**.
+
+**Reflection.** The warning is not against turning back, but against presuming there will still be time once the consequence has become undeniable.
+
+## 10:92
+
+*“This day We shall deliver your body, that you may be a sign for those who come after you. And many people are heedless of Our signs.”*
+
+**Meaning.** God brings Pharaoh’s lifeless body out of the sea and casts it onto raised ground, so that those who had doubted his death can see what happened **[Ṭabarī] [Ibn Kathīr] [Study Quran]**. Al-Jalālayn and as-Saʿdī likewise understand the body’s exposure as a lesson for later people **[Jalālayn] [Saʿdī]**. Al-Qurṭubī discusses whether *badan* could mean Pharaoh’s armor, but gives the stronger explanation as his corpse, without its soul **[Qurṭubī]**.
+
+**Readings.** Al-Qurṭubī records a rare reading with the sense “set you aside,” and a noncanonical reading attributed to Ibn Masʿūd meaning “by your proclamation”; he notes that the latter is anomalous **[Qurṭubī]**.
+
+**Reflection.** A sign can be plainly visible and still go unheeded: the verse itself closes by warning that many fail to reflect on what they see. Maʿārif cautions that modern claims identifying a particular Egyptian mummy as this Pharaoh cannot be established from the verse; that archaeological discussion is a digression ***(digression)*** **[Maʿārif]**.
+
+## 10:93
+
+*“And We settled the Children of Israel in a goodly dwelling place, and provided them with good things. They did not differ until knowledge came to them. Truly thy Lord will judge between them on the Day of Resurrection concerning that wherein they used to differ.”*
+
+**Meaning.** The “goodly dwelling place” is identified variously as Egypt, Syria, or the lands around Jerusalem and Palestine; al-Ṭabarī and al-Qurṭubī record more than one location **[Ṭabarī] [Qurṭubī]**. The good things are pure and lawful provisions **[Ibn Kathīr] [Study Quran]**. Commentators also differ over “until knowledge came to them”: it can refer to the Torah and its teachings, after which disputes arose over religion **[Jalālayn] [Study Quran]**; al-Ṭabarī, al-Qurṭubī, and Maʿārif also connect it to the coming of Muhammad, whose description they say was known from earlier scripture, after which some accepted him and others disputed **[Ṭabarī] [Qurṭubī] [Maʿārif]**. As-Saʿdī warns that people may divide over revealed truth through envy and competing desires, but their judgment belongs to God **[Saʿdī]**.
+
+**Ḥadīth & āthār.** Ibn Kathīr appends a report about later religious communities dividing into sects and being judged; this is a later communal application, not the verse’s immediate historical subject ***(digression)*** **[Ibn Kathīr]**.
+
+**Reflection.** Knowledge is meant to unite people around truth; when it becomes an occasion for rivalry, the final judgment remains with God.
+
+## 10:94
+
+*“So if thou art in doubt concerning that which We have sent down unto thee, ask those who recite the Book before thee. The truth has certainly come unto thee from thy Lord, so be not among the doubters.”*
+
+**Meaning.** The conditional does not imply that the Prophet actually doubted revelation. Al-Ṭabarī cites early authorities who say Muhammad neither doubted nor asked, and explains the wording as a familiar rhetorical form; the People of the Book to be asked are truthful believers who recognized his description in earlier scripture **[Ṭabarī]**. Al-Jalālayn likewise treats the condition hypothetically **[Jalālayn]**. Al-Qurṭubī and The Study Quran note that the direct address to the Prophet can instruct uncertain hearers more broadly, including the disbelievers who could consult those who read the Torah and Gospel **[Qurṭubī] [Study Quran]**. As-Saʿdī specifies sincere and learned witnesses among the People of the Book, rather than treating every individual’s response as identical **[Saʿdī]**. Ibn Kathīr points to earlier scripture’s description of the Messenger (7:157), while Maʿārif similarly understands the verse as inviting honest inquiry of qualified religious scholars **[Ibn Kathīr] [Maʿārif]**.
+
+**Language.** Al-Qurṭubī also records *shakk* as constriction or distress of the heart, allowing the line to console the Prophet amid rejection rather than suggest uncertainty about revelation **[Qurṭubī]**.
+
+**Reflection.** Honest questions are met with evidence; the verse directs hearers toward informed witnesses while affirming that the truth has already come from God.
+
+## 10:95
+
+*“And be not among those who deny the signs of God, lest thou be among the losers.”*
+
+**Meaning.** The warning continues from the previous verse: denial of God’s signs leads to loss. Al-Ṭabarī explains the loss as exchanging God’s mercy and good pleasure for punishment **[Ṭabarī]**. Al-Qurṭubī and Ibn Kathīr understand the address to the Prophet as a forceful admonition for those who hear the message, not a suggestion that he would reject it **[Qurṭubī] [Ibn Kathīr]**. Al-Jalālayn states the consequence directly: denying the signs makes one of the losers **[Jalālayn]**. As-Saʿdī draws out the positive counterpart: the warning calls people to affirm the Qur’an wholeheartedly and respond to it in knowledge and action **[Saʿdī]**; The Study Quran reads the paired verses as addressing the Prophet while speaking to a wider audience **[Study Quran]**.
+
+**Reflection.** The passage moves from asking for evidence to a choice about how one responds when the truth is clear.
+
+## 10:96
+
+*“Truly those against whom thy Lord’s Word is due will not believe,”*
+
+**Meaning.** “The Word” is the judgment of punishment incurred by those who persistently reject God’s proofs. Al-Ṭabarī and al-Qurṭubī gloss it as God’s condemnation or wrath upon those who disobey **[Ṭabarī] [Qurṭubī]**; al-Jalālayn likewise reads it as the decree of chastisement **[Jalālayn]**. Ibn Kathīr connects the statement with people whose belief comes only when it can no longer benefit them, as Pharaoh’s did **[Ibn Kathīr]**. As-Saʿdī stresses that they first refused the truth, then grew more defiant; God did not wrong them, but they wronged themselves **[Saʿdī]**. The Study Quran cross-references other passages on this settled judgment (10:33, 74; 2:7) **[Study Quran]**.
+
+**Reflection.** The warning concerns persistent rejection, not a sincere seeker who has yet to be convinced; it urges a response while signs can still be received.
+
+## 10:97
+
+*“Though every sign should come unto them, till they see the painful punishment.”*
+
+**Meaning.** No further sign will benefit those whose rejection has become fixed; they will continue until they see the punishment, when belief is too late **[Ṭabarī] [Qurṭubī] [Jalālayn]**. Ibn Kathīr links this to Pharaoh’s confession after drowning had overtaken him **[Ibn Kathīr]**. The Study Quran gives two related readings: they may believe in despair as their doom approaches, or the verse may refer to belief only when punishment arrives in the Hereafter **[Study Quran]**. As-Saʿdī contrasts them with people who have a receptive heart and still benefit from the signs **[Saʿdī]**.
+
+**Reflection.** The verse asks its hearer not to postpone recognition until the moment when recognition can no longer change the outcome.
+
+## 10:98
+
+*“Why was there not a town that believed and profited from its belief, except the people of Jonah? When they believed, We removed from them the punishment of disgrace in the life of this world, and We gave them enjoyment for a time.”*
+
+**Meaning.** The people of Jonah are the exceptional community whose repentance brought deliverance. Exegetes identify them as the people of Nineveh, near Mosul **[Ṭabarī] [Ibn Kathīr]**. Early reports describe the people turning collectively to God as the threatened punishment drew near; some accounts mention families and animals being separated as a sign of their grief and repentance **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]**. Al-Jalālayn and The Study Quran emphasize that they believed after seeing signs of the impending punishment **[Jalālayn] [Study Quran]**. Commentators distinguish their response from Pharaoh’s: al-Ṭabarī treats them as the unique exception among communities faced with punishment, while al-Qurṭubī prefers al-Zajjāj’s view that they saw its signs but had not yet been seized by it; as-Saʿdī likewise stresses that they repented before it overtook them **[Ṭabarī] [Qurṭubī] [Saʿdī]**. Maʿārif also notes that details beyond the Qur’an and authenticated reports are historical accounts rather than certain facts; its extended debate over Jonah’s conduct is a digression ***(digression)*** **[Maʿārif]**.
+
+**Cross-references.** The Qur’an recounts Jonah’s mission elsewhere (37:139–148); the contrast with Pharaoh’s final confession is immediate (10:90–92) **[Study Quran] [Ibn Kathīr]**.
+
+**Reflection.** The exception offers hope: repentance can still be accepted when people turn sincerely before the punishment has overtaken them.
+
+## 10:99
+
+*“Had thy Lord willed, all those who are on the earth would have believed, all together. Wouldst thou then compel mankind till they become believers?”*
+
+**Meaning.** God could have made all people believe, but the Prophet is not charged with compelling them. Al-Ṭabarī reads the verse in light of God’s prior decree and the Prophet’s longing that his people accept the message; he is told that guidance is not achieved by force **[Ṭabarī]**. Ibn Kathīr and as-Saʿdī likewise say that the Prophet’s task is to convey, not coerce, and that the difference in response rests within God’s wisdom **[Ibn Kathīr] [Saʿdī]**. Al-Qurṭubī explains that God could have compelled all humanity, and records a report applying the address particularly to Abū Ṭālib, while the verse’s wording remains general **[Qurṭubī]**. The Study Quran notes that many theologians understand the verse to affirm that faith is not imposed on people against their will **[Study Quran]**. Al-Jalālayn gives the question its force: the Prophet cannot compel belief where God has not willed it **[Jalālayn]**.
+
+**Reflection.** The call to faith remains sincere and urgent, but it is an invitation, not coercion; the messenger conveys, while each person answers.
+
+## 10:100
+
+*“It is not for a soul to believe, save by God’s leave. And He lays defilement upon those who understand not.”*
+
+**Meaning.** This completes the balance of the previous verse: no one is to be forced into belief, yet faith itself depends on God’s permission and guidance. Al-Ṭabarī explains that a person can believe only when God grants that person leave, and cites the interpretation “by God’s decree” **[Ṭabarī]**. Al-Qurṭubī likewise glosses the permission as God’s decree, will, and determination **[Qurṭubī]**. As-Saʿdī connects it with God’s enabling those receptive to faith, while Ibn Kathīr describes the “defilement” as confusion and misguidance upon those who refuse to reason about the proofs **[Saʿdī] [Ibn Kathīr]**. The word *rijs* is also explained as punishment or wrath **[Jalālayn] [Study Quran]**.
+
+**Reflection.** The verse joins human response with divine grace: people are accountable for turning away from signs, but recognition of God is not a self-sufficient achievement. The Study Quran cites the mystic Dhū al-Nūn’s saying, “I came to know my Lord through my Lord,” as a concise expression of this dependence ***(digression)*** **[Study Quran]**.
