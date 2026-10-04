@@ -517,3 +517,87 @@
 **Meaning.** Those who falsely assign prohibitions to God should consider what awaits them on the Day of Resurrection. Al-Ṭabarī explains the question as a warning: they should not suppose that God will simply overlook their false attribution **[Ṭabarī]**. Al-Qurṭubī understands God’s bounty here partly as the respite and security granted to the people of Mecca, while al-Jalālayn also points to the graces given to human beings **[Qurṭubī] [Jalālayn]**. Ibn Kathīr connects the verse with the arbitrary ritual rules criticized in 10:59 **[Ibn Kathīr]**. The Study Quran likewise reads the passage as a rebuke of such practices and a reminder of God’s many blessings **[Study Quran]**.
 
 **Reflection.** Divine generosity gives people room to recognize and correct their error; taking that respite for granted is itself ingratitude **[Saʿdī] [Maʿārif]**.
+
+## 10:61
+
+*“You are not upon any task, nor do you recite any part of the Qurʾān, nor do you perform any deed, save that We are a Witness over you when you engage in it. Not a mote’s weight evades your Lord on earth or in Heaven, nor smaller than that nor larger, but it is in a clear Book.”*
+
+**Meaning.** God witnesses the Prophet’s work and recitation and the deeds of the community; nothing, however small, escapes His knowledge **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn notes that the address includes both the Prophet and his community, while Ibn Kathīr emphasizes that God knows every creature and its condition at every moment **[Jalālayn] [Ibn Kathīr]**. The “clear Book” records what is known; Maʿārif identifies it with the Preserved Tablet **[Maʿārif]**. As-Saʿdī draws a practical consequence: awareness of God’s witness should lead believers to perform their work sincerely and avoid what He dislikes **[Saʿdī]**.
+
+**Reflection.** Nothing is too small to matter or too hidden to be seen; divine knowledge is both reassurance and a call to integrity **[Study Quran]**.
+
+## 10:62
+
+*“Behold! Truly the friends of God, no fear shall come upon them, nor shall they grieve—”*
+
+**Meaning.** The *awliyāʾ* of God are His friends and allies. Al-Ṭabarī explains that they need not fear punishment in the Hereafter and will not grieve over what they lost in this world **[Ṭabarī]**. Al-Qurṭubī similarly locates the promise in the next life, when God’s protection removes fear and grief **[Qurṭubī]**. The next verse defines them by faith and reverence, rather than by worldly rank or a claim to special status **[Ibn Kathīr] [Jalālayn]**. Maʿārif discusses the identity of God’s friends and stresses the centrality of belief and piety; The Study Quran notes that the term can refer generally to reverent believers or, in a more specific usage, to especially devout people **[Maʿārif] [Study Quran]**.
+
+**Reflection.** The promise is not a license to claim spiritual privilege; it is a comfort grounded in faith, reverence, and God’s care **[Saʿdī]**.
+
+## 10:63
+
+*“Those who believe and are reverent.”*
+
+**Meaning.** This phrase identifies the friends of God named in the previous verse. Al-Ṭabarī explains belief as affirmation of God, His Messenger, and what has come from Him, and reverence as fulfilling obligations and avoiding disobedience **[Ṭabarī]**. Al-Jalālayn likewise describes them as those who observe God’s commands and prohibitions **[Jalālayn]**. As-Saʿdī expands the definition: faith is confirmed through *taqwā*, obeying what God commands and avoiding what He forbids; anyone characterized by both is among God’s friends **[Saʿdī]**. Maʿārif also takes the verse’s concise description as the standard by which such friendship is known **[Maʿārif]**.
+
+**Belief.** Nearness to God is measured by faith and reverent conduct, not by lineage or public acclaim **[Ibn Kathīr]**.
+
+**Reflection.** The short verse makes spiritual excellence accessible: it is rooted in what a person believes and how that belief governs action.
+
+## 10:64
+
+*“For them are glad tidings in the life of this world and in the Hereafter. There is no altering the Words of God. That is the great triumph.”*
+
+**Meaning.** The friends of God receive good news now and in the life to come; God’s promise cannot fail or be changed **[Ṭabarī] [Qurṭubī]**. Commentators explain the worldly tidings in different ways: they include a good dream, reassurance from the angels at death, or the believer’s confidence in God’s promise **[Qurṭubī] [Jalālayn]**. The ultimate good news in the Hereafter is Paradise, and “no altering the Words of God” means that His promise will be fulfilled **[Ibn Kathīr] [Study Quran]**. Maʿārif describes the promise as extending from the believer’s death through the welcome of the Resurrection **[Maʿārif]**.
+
+**Reflection.** The promise of God provides a stable ground for hope in both lives; this, rather than worldly accumulation, is the great triumph **[Saʿdī]**.
+
+## 10:65
+
+*“And let not their speech grieve thee. Truly might belongs altogether to God; He is the Hearing, the Knowing.”*
+
+**Meaning.** The Prophet is told not to be distressed by the idolaters’ words and denial. Their speech cannot defeat the mission, because true might and victory belong to God **[Ṭabarī] [Qurṭubī]**. As-Saʿdī says their attacks neither confer honor on them nor diminish the Prophet; God grants might to whom He wills, and the Prophet and his followers are in obedience to Him **[Saʿdī]**. God hears what they say and knows their deeds, and He will support His messenger and requite the deniers **[Jalālayn] [Ibn Kathīr]**. The Study Quran emphasizes that all enduring greatness belongs to God, not to those who mock revelation **[Study Quran]**.
+
+**Reflection.** The verse offers consolation without denying that words can wound: their force is limited, while God’s knowledge and authority are not.
+
+## 10:66
+
+*“Behold! Truly unto God belongs whosoever is in the heavens and whosoever is on the earth. Those who call upon partners apart from God follow naught but conjecture, and they do but surmise.”*
+
+**Meaning.** Everyone in the heavens and earth belongs to God as His creation and possession; none is His partner **[Ṭabarī] [Qurṭubī]**. Those who invoke other beings have no proof that these beings are divine or can intercede. They follow only conjecture and false supposition **[Jalālayn] [Study Quran]**. As-Saʿdī presses the argument: if the alleged partners truly deserved worship, they would have to create, provide, or govern something, but they cannot **[Saʿdī]**. Ibn Kathīr likewise notes that the idols possess neither ownership nor power to harm or benefit **[Ibn Kathīr]**.
+
+**Reflection.** The verse challenges people to distinguish what they can demonstrate from what they merely assume about the unseen.
+
+## 10:67
+
+*“He it is Who made the night for you, that you might rest therein, and the day by which to see. Truly in that are signs for a people who hear.”*
+
+**Meaning.** Night provides rest after exertion; daylight enables people to see, work, travel, and seek their needs **[Ṭabarī] [Qurṭubī]**. Al-Jalālayn calls the night-and-day arrangement a sign of God’s Oneness for people willing to listen and reflect **[Jalālayn]**. The Study Quran relates rest at night to relief from the day’s weariness and visibility by day to the pursuit of livelihood **[Study Quran]**. Ibn Kathīr also presents this ordered alternation as evidence of the Creator’s care for human life **[Ibn Kathīr]**.
+
+**Reflection.** The familiar rhythm of work and rest is itself a mercy; noticing it can turn daily routine into recognition of the One who sustains it.
+
+## 10:68
+
+*“They say, ‘God has taken a child.’ Glory be to Him! He is the Self-Sufficient. Unto Him belongs whatsoever is in the heavens and whatsoever is on the earth. You have no authority for this. Do you say about God that which you know not?”*
+
+**Meaning.** The verse rejects claims that God has offspring and declares Him far above such attribution. Al-Ṭabarī connects the statement to those who called the angels God’s daughters, while al-Jalālayn notes claims made by different religious communities **[Ṭabarī] [Jalālayn]**. As-Saʿdī reasons that a child would imply need, whereas God is wholly Self-Sufficient; everything in heaven and earth already belongs to Him **[Saʿdī]**. Al-Qurṭubī stresses that God is Creator and Master, not a being with partners or descendants **[Qurṭubī]**. The Study Quran emphasizes that the claim has no warrant and is an assertion about God without knowledge **[Study Quran]**.
+
+**Belief.** The verse affirms God’s absolute independence and rejects attributing family relations to Him.
+
+**Reflection.** Reverence requires restraint in speaking about God: claims about the unseen must rest on revelation, not conjecture.
+
+## 10:69
+
+*“Say, ‘Surely those who fabricate a lie against God will not prosper.’”*
+
+**Meaning.** This is the conclusion to the rebuke of those who attribute offspring to God without proof. Al-Ṭabarī explains “fabricate a lie” as falsely claiming that God has a child; such people do not attain success **[Ṭabarī]**. Al-Qurṭubī glosses the promise as their failure to win or find security, and al-Jalālayn likewise says that they will not find happiness **[Qurṭubī] [Jalālayn]**. The Study Quran reads the verse with the surrounding rejection of claims about God that lack authority **[Study Quran]**.
+
+**Reflection.** An assertion repeated with confidence does not become truth; false speech about God cannot ultimately produce success **[Ibn Kathīr]**.
+
+## 10:70
+
+*“An enjoyment in this world, then unto Us shall be their return, and We shall make them taste severe punishment for their having disbelieved.”*
+
+**Meaning.** The deniers may enjoy worldly life for a time, but it is temporary; after death they return to God and face punishment for disbelief **[Ṭabarī] [Jalālayn]**. Al-Qurṭubī describes the present life as a brief enjoyment, not a lasting victory **[Qurṭubī]**. Ibn Kathīr connects the warning directly to the false attribution in the preceding verses: the claim of divine offspring does not exempt its speakers from judgment **[Ibn Kathīr]**. The Study Quran likewise reads the three verses together as a warning against fabricating claims about God **[Study Quran]**.
+
+**Reflection.** A temporary advantage cannot be mistaken for final success; the lasting measure is the return to God and the truth one chose to affirm or deny **[Saʿdī]**.
