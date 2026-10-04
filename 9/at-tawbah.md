@@ -74,6 +74,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -4437,3 +4439,195 @@ with the *ṣād*.
 condemns is what follows in vv. 76–77: the vow was made to God, and God heard it, and the wealth arrived. A
 bargain struck with God in sincerity and then quietly forgotten is the seed of the hypocrisy that v. 77 will
 name.
+
+## 9:76
+
+*"But when He gave unto them from His Bounty, they were miserly with it, and turned away in rejection."*
+
+**Meaning.** **[Jalālayn]** "Yet when He gave them of His bounty they became niggardly with it and turned away
+from obedience to God in aversion." **[Saʿdī]** "But when He gave unto them from His Bounty," they did not
+fulfil what they had said; rather "they were miserly with it" and "turned away" from obedience and
+submission, "in rejection" — not turning their attention to good. **[Maʿārif]** The story attached to these
+verses: Thaʿlabah b. Ḥāṭib al-Anṣārī presented himself before the Prophet ﷺ and requested him to pray that
+he become rich, promising that if God gave him he would give its due. The Prophet ﷺ prayed for him, and his
+flocks multiplied until they filled the valleys around Madīnah; and then he began to absent himself from the
+congregational prayers, and when the collector of *zakāh* came to him he refused it, saying the *zakāh* was
+nothing but a poll-tax.
+
+**Stories & occasions.** **[Study Quran]** Some commentators connect these verses with a certain Thaʿlabah
+ibn Ḥāṭib, who insisted that he would give charity if he had the means to do so. The Prophet gave him some
+wealth from the spoils of war; he prospered and his wealth grew, until he eventually left Madīnah and settled
+in a nearby valley, and then began to attend only some of the [prayers].
+
+**Belief.** **[Ibn Kathīr]** Some hypocrites give God their strongest oaths that if He enriches them from His
+bounty, they will give away alms and be among the righteous; however they did not fulfil their vows and did
+not speak the truth with their words. **[Qurṭubī]** Qatāda said: this was a man of the Anṣār who said, "If
+God provides me with something, I will surely discharge its due and give charity" — and when God gave him
+that, he did what has been set out to you; so beware of lying, for it leads to immorality.
+
+**Reflection.** The verse is a single line and a complete diagnosis: the gift arrived, and with it the test.
+Nothing is said to have changed except the man — the wealth was the same bounty promised, and the only thing
+that appeared was what was in the heart all along.
+
+---
+
+## 9:77
+
+*"So He requited them with hypocrisy in their hearts, till the Day they will meet Him, for having failed in
+that which they promised Him and for having lied."*
+
+**Meaning.** **[Jalālayn]** "So He made the consequence in their case hypocrisy, fixed in their hearts until
+the day they meet Him" — that is, God, on the Day of Resurrection — "because they failed God in what they
+promised Him, and because of that concerning which they lied." Thaʿlabah then brought the payment of his
+alms to the Prophet ﷺ, who said to him, "God has forbidden me to accept it from you"; so Thaʿlabah began to
+throw earth on his head in remorse. He then approached Abū Bakr with it, who did not accept it; then ʿUmar
+b. al-Khaṭṭāb, who also did not accept it; then ʿUthmān b. ʿAffān, who did not accept it — and he died during
+the latter's reign. **[Saʿdī]** So when they did not fulfil what they had pledged to God, He punished them
+and "requited them with hypocrisy in their hearts," continuing "till the Day they will meet Him, for having
+failed in that which they promised Him and for having lied."
+
+**Belief.** **[Maʿārif]** The verse points to the cause of their hypocrisy, which lies in their lying and
+pledge-breaking: as a consequence, God made the hypocrisy of their hearts become deep and firm, so that they
+would no longer even have the ability to repent. And this carries a serious note of warning: there are
+occasions when the curse of evil deeds assumes alarming proportions, so that a person is deprived of the very
+ability to turn back. **[Study Quran]** Many commentators believe that the subject of the verb *requited* is
+God (R), though others understand the beginning of the verse to mean, "And it — the miserliness — caused the
+result in them of having hypocrisy in their hearts" (Q). Some commentators use this verse as an occasion
+[to discuss whether God creates the unbelief of the unbeliever].
+
+**Ḥadīth & āthār.** **[Saʿdī]** The Prophet ﷺ said, in the ḥadīth established in the Two Ṣaḥīḥs: "The sign
+of the hypocrite is three: when he speaks he lies, when he makes a covenant he betrays it, and when he
+promises he breaks it." So this hypocrite, who promised God and covenanted with Him that if God gave him of
+His bounty he would surely give charity and be among the righteous, spoke and lied, covenanted and betrayed,
+and promised and broke his promise.
+
+**Reflection.** **[Saʿdī]** Let the believer beware of this hideous trait: that he should covenant with his
+Lord that if such-and-such a wish of his is granted he will do such-and-such, and then not fulfil it — for
+God may punish him with hypocrisy as He punished these. The progression is the warning: a broken vow to God
+does not leave the heart as it found it.
+
+---
+
+## 9:78
+
+*"Know they not that God knows their secret and their private discourse, and that God is Knower of things
+unseen?"*
+
+**Meaning.** **[Jalālayn]** "Did they" — the hypocrites — "not know that God knows their secret," what they
+conceal within themselves, "and their confidential talks," what they confide in each other, "and that God is
+the Knower of the hidden things" — what is concealed from the eyes? **[Ṭabarī]** "Have these hypocrites, who
+disbelieve in God and His Messenger secretly while displaying faith in them openly to the people of faith in
+them, not known that God knows their secret" — what they hide within themselves of unbelief in Him and in His
+Messenger — "and their private discourse," when they confer among themselves slandering Islam and its people
+and mentioning them with what they ought not to be mentioned? Let them then beware of God — of His punishment
+descending upon them and of His might falling upon them — for their unbelief in God and His Messenger and
+their defaming of Islam and its people. **[Saʿdī]** And so God threatens those from whom this conduct
+proceeded: "Know they not that God knows their secret and their private discourse, and that God is Knower of
+things unseen?" — and He will requite them for the deeds He knows.
+
+**Language.** **[Study Quran]** *Secret (sirr)* can mean both the thing kept secret and the aspect of a thing
+that is hidden or mysterious. *Private discourse* (cf. 4:114; 17:47; 20:62; 21:3; 43:80; 58:7, 8, 10, 12, 13)
+renders *najwā*, referring to conversations held between confidants — in this case the insults the
+hypocrites exchanged [among themselves].
+
+**Reflection.** The question is aimed at the gap between what is hidden and what is known: their vows were
+made in the heart, their mockery in closed conversations, and both are here declared to be fully in view.
+The unseen is God's specialty, and the verse closes the passage by reminding them who was listening.
+
+---
+
+## 9:79
+
+*"As for they who reproach those believers who give freely and those who have naught but their keep [to
+give], and ridicule them—God ridicules them, and theirs shall be a painful punishment."*
+
+**Meaning.** **[Jalālayn]** When the verse concerning voluntary alms (9:75) was revealed, a man came and gave
+a large amount as voluntary alms, so the hypocrites said, "He is merely showing off!" Another man came and
+gave a moderate measure of food, so they said, "God has no need of this man's charity!" — and the following
+was revealed: "Those who" — *alladhīna* is the subject — "find fault with," defame, "the believers who offer
+alms voluntarily," performing supererogation, "and such as find nothing to offer but their endeavours" —
+nothing but what they are capable of — and offer it; "and deride them" — and the predicate of the
+aforementioned subject is the following — "God Himself derides them": He has requited them for their derision,
+"and theirs will be a painful chastisement." **[Saʿdī]** This too is among the disgraces of the hypocrites:
+they would not leave anything of the affairs of Islam and the Muslims in which they saw room for remark
+without speaking and slandering, out of insolence and enmity. When God and His Messenger urged charity, the
+Muslims hastened to it and gave of their wealth each according to his state — some much, some little — and
+they defamed the one who gave much, saying his aim in spending was ostentation and reputation, and said to
+the poor one who gave little, "God is independent of the charity of this one." So God sent down: "those who
+reproach" — defame and slander — "the believers who give freely in charity," saying "they are ostentatious,
+their aim is glory and showing off," "and" those "who have naught but their keep" — who bring out what they
+can — saying "God is independent of their charities" — "and ridicule them"; so God requited them for what
+they did by ridiculing them, "and theirs shall be a painful punishment."
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Al-Bukhārī recorded from Abū Masʿūd: "When the verses of charity were
+revealed, we used to carry loads on our backs for wages; a man came and gave a great deal, and they said,
+'He is showing off'; and a man came and gave a *ṣāʿ* [a small measure], and they said, 'God has no need of
+this one's *ṣāʿ*' — and the verse was revealed." **[Qurṭubī]** Qatāda said: *yalmizūna* means "they defame";
+and that was because ʿAbd al-Raḥmān b. ʿAwf gave half his wealth in charity — his wealth being eight
+thousand, of which he gave four thousand — and some people said, "How great is his ostentation!" So God sent
+down "those who reproach the believers who give freely in charity." And a man of the Anṣār came with half a
+heap [of dates]… **[Maʿārif]** In the Ṣaḥīḥ of Muslim, Abū Masʿūd said: "We were ordered to give charity,
+and — believe it — we used to do manual labour for it" — that is, they had nothing with them, and took the
+charity out of what they earned by that labour.
+
+**Belief.** **[Saʿdī]** In this speech of theirs they combined several grave faults: their tracking of the
+affairs of the believers and their eagerness to find something to say about them — while God says, "those who
+love that indecency should spread among the believers, for them is a painful punishment" (24:19); their
+slandering the believers on account of their faith, out of unbelief in God and hatred of the religion; the
+fact that defamation is forbidden, indeed one of the major sins in worldly matters — and in the matter of
+obedience it is uglier still; that whoever obeys God and volunteers any quality of good deserves to be helped
+and encouraged, whereas these aimed to discourage them by what they said; that their judgement of one who
+spent much wealth as showing off is a gross error, a judgement upon the unseen and a throwing of conjecture —
+and what evil is greater than this?; and that their saying of the owner of the small charity "God is
+independent of this one's charity" is speech whose purpose is false. **[Ibn Kathīr]** Among the traits of
+the hypocrites is that they will not leave anyone without defaming and ridiculing him in all circumstances —
+even those who give away charity.
+
+**Reflection.** The two criticisms cancel each other out — too much is ostentation, too little is
+unnecessary — and that is exactly the point: the objection was never about the amount. Ridicule of those who
+give is answered by the One who receives, and the verse leaves the mockers with the same measure they used.
+
+---
+
+## 9:80
+
+*"Seek forgiveness for them, or seek not forgiveness for them. If thou seekest forgiveness for them seventy
+times, God will not forgive them. That is because they disbelieve in God and His Messenger. And God guides
+not iniquitous people."*
+
+**Meaning.** **[Jalālayn]** "Ask forgiveness for them, O Muḥammad ﷺ, or do not ask forgiveness for them" —
+this leaves the choice of asking or refraining to him; and the Prophet ﷺ said, "I have been given the
+choice, and I made it" — meaning the choice to ask forgiveness, as reported by al-Bukhārī. "If you ask
+forgiveness for them seventy times, God will not forgive them." It is said that "seventy" is intended by
+hyperbole to express a great frequency of asking; in the Ṣaḥīḥ of al-Bukhārī there is a ḥadīth: "If I were
+sure that, were I to ask more than seventy times, God would forgive them, I would have done so." It is also
+said that the number seventy is actually meant, on account of his other ḥadīth, "I shall ask more than
+seventy times" — whereupon it was made clear to him that the matter regarding forgiveness had been concluded
+by the verse "Alike it will be regarding them whether you ask forgiveness for them or you do not ask
+forgiveness for them; God will not forgive them" (63:6). "That is because they disbelieved in God and His
+Messenger; and God does not guide the wicked folk." **[Ṭabarī]** "Supplicate God for these hypocrites, whose
+attributes I have described in these verses, for forgiveness, or do not supplicate for them." This is speech
+cast in the form of a command whose interpretation is a statement of fact: the meaning is — whether you ask
+forgiveness for them, O Muḥammad, or do not ask it, God will not forgive them.
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Al-Shaʿbī said: when ʿAbdullāh b. Ubayy was dying, his son went to the
+Prophet ﷺ and said, "My father has died — I wish you would attend him and pray the funeral prayer for him"
+[and the Prophet did so, until he was forbidden]. **[Study Quran]** It is reported that after this verse was
+revealed, the Prophet said he would then ask forgiveness for them in excess of seventy times (IK, Ṭ), at
+which point 63:6 was revealed: "It is the same for them whether you ask forgiveness for them or you do not
+ask forgiveness for them; God will not forgive them."
+
+**Rulings.** **[Ibn Kathīr]** God says to His Prophet ﷺ that the hypocrites are not worthy of having
+forgiveness sought for them, and that if he asks God to forgive them seventy times, God will not forgive
+them. The number seventy was mentioned to close the door on the subject, for the Arabs use this number when
+they exaggerate — not that they actually mean seventy or more than seventy. **[Qurṭubī]** The clarification
+of "seek forgiveness for them" comes at "And never pray over any of them who dies, ever" (9:84).
+
+**Belief.** **[Ṭabarī]** "That is because they disbelieved in God and His Messenger": the reason He will not
+forgive them is their unbelief; "and God guides not the iniquitous people" — those who have gone out from
+obedience to Him.
+
+**Reflection.** The verse closes the door gently: the Prophet's intercession is real and his mercy is not
+rebuked, but it cannot reach those who have rejected the One he prays to. The number seventy — whether
+hyperbole or a figure he intended to exceed — measures mercy, not failure, and the reason given is theirs,
+not his.
