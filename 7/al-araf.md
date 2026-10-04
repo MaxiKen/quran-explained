@@ -4838,3 +4838,646 @@ worlds committed before you" is not a rhetorical flourish but the description of
 precedent. **[Maʿārif]**'s portrait of the fertile land and the five cities places the verse's question
 in a settled and prosperous society, so that the indecency is named against the background of a land
 abounding in grains and fruits.
+
+## 7:81
+
+*"Indeed, you come to men with desire instead of women; rather, you are a people transgressing."*
+
+**Meaning.** **[Ṭabarī]** gives the address: God reports of Lot that he said to his people, reproaching them
+for their act — indeed you come to men in their rears, out of desire for that, instead of what God has
+made lawful and permitted for you of women; "rather, you are a people transgressing" — you are a people
+who come to what God has forbidden you and disobey Him by this act of yours, and that is *al-isrāf*
+(transgression) in this place; and he notes that *al-shahwa* is a verbal noun from "I desired this
+thing" [Ṭabarī]. **[Saʿdī]** draws the contrast out: then he explained the indecency by his saying,
+"indeed you come to men with desire instead of women" — how is it that you leave the women God created
+for you, in whom is the enjoyment that accords with desire and with nature, and turn to the rears of men,
+which are the utmost in hideousness and foulness, a place from which excrement and impurities come out
+that one is ashamed to mention, let alone to touch and approach? "Rather, you are a people
+transgressing" — going beyond what God has bounded, bold against His sacred limits [Saʿdī].
+**[Ibn Kathīr]** renders the same with the wives God made lawful: you left the women whom God created for
+you and instead had sex with men; this behaviour is evil and ignorant, because you have placed things in
+their improper places; and he joins to it Lot's words, "these, my daughters, are purer for you, if you
+would do" (11:78; cf. 15:71), and their reply, "surely you know that we have no need of your daughters,
+and indeed you know what we want" (11:79) — that is, you know that we have no desire for women, and you
+know what we desire from your guests [Ibn Kathīr]. **[Qurṭubī]** opens the discussion of the reading and
+the grammar: Nāfiʿ and Ḥafṣ read "indeed you" (*innakum*) as a statement with a single *hamza*, in
+explanation of the indecency mentioned before, so that it was not good to introduce the interrogative
+upon it, since that would cut what follows from what precedes; the rest read it with two *hamzas* on the
+form of a question whose meaning is reproach, and that is good because what is before it and after it are
+independent sentences; Abū ʿUbayd and al-Nasāʾī and others preferred the first; and "with desire" is in
+the accusative as a verbal noun — that is, you desire them with desire — or as a circumstantial
+qualifier; and "rather, you are a people transgressing" has for its parallel "rather, you are a people
+who overstep" (7:166 region; cf. 26:166), in that you join this indecency to your association of others
+with God [Qurṭubī]. **[Study Quran]** notes that the verse is the explanation of the indecency of v. 80,
+understood by the traditional commentators to refer to the practice of homosexuality (cf. 26:165–66;
+27:55; 29:29), and that the people of Lot are described as a people who transgress — the word
+*al-musrifūn* indicating those who exceed all bounds [Study Quran]. **[Jalālayn]** gives the reading and
+the sense: "do you come lustfully to men instead of women? Nay, you are a wanton folk," transgressing
+the bounds, going from what is lawful to what is unlawful [Jalālayn].
+
+**Language.** **[Qurṭubī]**'s note on the two readings of the opening makes a subtle difference: on the
+reading *innakum* the sentence is the continuation and explanation of "the indecency," while on the
+reading *a-innakum* it is a new question of rebuke — the same words heard once as a description and once
+as a protest [Qurṭubī]. **[Ṭabarī]** defines *al-isrāf* here as coming to what God has forbidden: the
+transgression named is not the desire itself but the passing over the boundary where God placed the
+lawful [Ṭabarī].
+
+**Cross-references.** "Do you come to the males of the worlds and leave what your Lord created for you of
+your wives? Nay, you are a people transgressing" (26:165–66); "You approach men with desire instead of
+women; nay, you are a people acting ignorantly" (27:55); "And Lot, when he said to his people, 'You
+commit an indecency which none of the worlds committed before you'" (29:28); "These, my daughters, are
+purer for you" (11:78; cf. 15:71) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s reading names what the verse asks its hearers to notice: the argument is
+the natural one — the women were created for them, and the rest is a place of filth — and the
+transgression is that a created order was reversed by choice. **[Ibn Kathīr]**'s addition of the exchange
+about Lot's daughters makes the scene complete: when the natural was offered and refused, the refusal
+itself became the description, "you know what we want."
+
+## 7:82
+
+*"And the answer of his people was nothing but that they said, 'Expel them from your city; indeed, they are people who keep themselves pure.'"*
+
+**Meaning.** **[Ṭabarī]** reads the verse: the answer of Lot's people, when he reproached them for their
+foul act and their riding of what God had made unlawful, was nothing but that some of them said to
+others, "expel Lot and his family" — and the pronoun is plural although Lot alone was mentioned before,
+because the intended meaning is "expel Lot and whoever is of his religion from your city," so that the
+mention of his followers was omitted at the outset and brought in at the end, as in "O Prophet, when you
+divorce women" (65:1); and "indeed, they are people who keep themselves pure" means Lot and his followers
+are people who keep themselves free of what we do of coming to men in their rears — and he records
+Mujāhid's words: pure of the rears of men and the rears of women, and al-Suddī: they shrink from it, and
+Qatāda: they faulted them with no fault and blamed them with no blame [Ṭabarī]. **[Qurṭubī]** gives the
+same: "expel them" means Lot and his followers; and the meaning of "they keep themselves pure" is that
+they keep free of coming by this approach; *taṭahhara* is one's freeing oneself of sin; and Qatāda said:
+they faulted them, by God, with no fault [Qurṭubī]. **[Jalālayn]** reads it: and the response of his
+people was only that they said, "expel them" — Lot and his followers — "from your city; surely they are
+folk who would be pure," from the abomination of penetrating the rears of men [Jalālayn].
+**[Saʿdī]** notes the verse's irony: their only answer to the reproach was an order of expulsion, and the
+charge they laid against the believers — "they are people who keep themselves pure" — is the accusation
+the sūrah frames as their own indictment; and they envied them nothing but that they believed in God,
+the Mighty, the Praiseworthy [Saʿdī]. **[Study Quran]** notes that the threat or plan to expel them —
+the family of Lot (cf. 26:167; 27:56) — extended, according to some commentators, to a group of believing
+followers of Lot as well (Ṭ, Z); and the disbelievers among the people of Sodom also deride Lot and his
+followers' moral probity, describing them as those who keep themselves pure (cf. 27:56); their "purity,"
+according to some commentators, was a reference to their refusal to participate in the sexual practices
+of the Sodomites (Ṭ, Z) [Study Quran].
+
+**Language.** **[Ṭabarī]** explains the plural pronoun as the shift of address that includes the
+followers under the leader's name, as elsewhere in the Qurʾān [Ṭabarī]. **[Study Quran]**'s reading of
+"pure" as a mocking label shows the word acting in the sentence as a taunt and in the verse as a
+testimony [Study Quran].
+
+**Cross-references.** "They said, 'Expel the family of Lot from your town; indeed they are people who
+keep themselves pure'" (27:56); "And his people came rushing toward him" (11:78); "And they said, 'If you
+do not desist, O Lot, you will surely be among the expelled'" (26:167); "O God, I seek refuge with You
+from the shameful deeds" (cf. 23:5) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** reads the verse as the final word of a people who had run out of arguments:
+the answer to a reproach about an act is an expulsion order, and the only fault they can name in the
+believers is that they did not join it. **[Study Quran]**'s note that their "purity" was itself the
+ground of the accusation makes the verse a study in inversion: what is praised in one community is a
+taunt in another, and the sūrah lets the taunt stand as evidence for the accused.
+
+## 7:83
+
+*"So We saved him and his family, except his wife; she was of those who stayed behind."*
+
+**Meaning.** **[Ṭabarī]** gives the account: when Lot's people refused — for all his reproaching them and
+his delivering to them his Lord's message forbidding it — to do anything but persist in their error, We
+saved Lot and his family who believed in him, except his wife, who was treacherous toward Lot and a
+disbeliever in God; and "of those who stayed behind" means of those who remained; and he explains the
+masculine form: it was said "of those who stayed behind" (*al-ghābirīn*) and not "the women who stayed
+behind," because what was meant is that she was among those who remained with the men, so that when her
+mention was joined to the mention of men the masculine was used; and the verb is *ghabara yaghburu*,
+meaning to remain, as the poet al-Aʿshā said, "he bit what the razors left to him of an un-circumcised
+woman in the time that remains" — and he then answers a questioner who asks whether Lot's wife was among
+those saved: no, she was among those destroyed; and how, then, is she called "of those who stayed
+behind" if *al-ghābir* means the one who remains? The answer is that the meaning is she was among those
+who remained before the destruction, and among the long-lived whom a long age and much time had passed
+over until she became old among those who grew old, and so she was of those who lived the long age
+before the destruction of the people — and then she was destroyed with those of Lot's people who were
+destroyed when the punishment came; and it was also said the meaning is "of those remaining in God's
+punishment," as Qatāda said of "an old woman among those who stayed behind" (26:171; 37:135): among
+those remaining in God's punishment [Ṭabarī]. **[Qurṭubī]** gives the same sense and the lexicography:
+"of those who stayed behind" means of those remaining in God's punishment, said Ibn ʿAbbās and Qatāda;
+and *ghabara* the thing means both to pass away and to remain — it is among the words that bear opposite
+senses; and some said the one who passes is *ʿābir* with an unpointed *ʿayn*, while the one who remains
+is *ghābir* with a pointed *ghayn*, as Ibn Fāris transmitted in *al-Mujmal*; al-Zajjāj said it means of
+those absent from deliverance; and it was said it is because of the length of her life; al-Naḥḥās said
+Abū ʿUbayda held the meaning to be one of the long-lived, that she had grown old, and the more common
+usage in the language is that *al-ghābir* is the one who remains, as the rājiz said, "Muhammad did not
+slacken since God forgave him what has passed and what remains" [Qurṭubī]. **[Ibn Kathīr]** gives the
+narrative detail: God says We saved Lot and his family, for only his household believed in him — "so We
+brought out those who were in it of the believers, but We found in it no house of Muslims except one"
+(51:35–36); only his wife, from his family, did not believe, remaining on the religion of her people; she
+used to conspire with them against Lot and inform them of who came to visit him, using certain signals
+they had agreed upon, and this is why, when Lot was commanded to leave by night with his family, he was
+ordered not to inform his wife or take her with him; some said that she followed them and that when the
+torment struck her people she looked back and suffered the same punishment as them, but it appears that
+she did not leave the town and that Lot did not tell her that they would depart, so she remained with her
+people, as is apparent from God's saying, "except his wife; she was of those who stayed behind," meaning
+of those who remained — or they say, of those who were destroyed, and this is the more obvious
+explanation [Ibn Kathīr]. **[Study Quran]** notes that, as with the other prophets in this section, God
+saved Lot and his family, widely understood as including the believers who followed Lot as well as his
+immediate family (Ṭ); Lot's wife, however, was one of those who lagged behind and thus perished with the
+rest of Sodom (see also 15:60; 26:171; 27:57; 29:32); she is said to have followed the religion of Lot at
+least outwardly, but to have been inwardly a disbeliever (Ṭ, Ṭs); in the Biblical account, Lot's wife
+left with him but turned to look back and so became a pillar of salt (Genesis 19:26), and a similar
+version of events is also mentioned by some commentators (Z), suggested in 15:65, where Lot is commanded:
+"So set out with your family during the night, and follow behind them, and let not any of you turn
+around, but go forth wheresoever you are commanded" [Study Quran]. **[Jalālayn]** reads it briefly: so We
+delivered him and his family except his wife; she was of those who stayed behind, who remained in the
+chastisement [Jalālayn]. **[Saʿdī]** draws the lesson as the verse's plain sense: God commanded him to
+travel with his family by night, for the punishment would come upon his people at dawn, so he travelled
+with them except his wife — the punishment that struck them struck her [Saʿdī].
+
+**Rulings.** **[Ibn Kathīr]**'s report that Lot's wife informed her people of his guests, and that Lot was
+commanded not to take her with him, belongs to the tradition's reading of the verse as the standing
+example of a family tie severed by disbelief — the believing household saved and the conspirator left
+among the destroyed *(Isrāʾīliyyāt)* [Ibn Kathīr]. **[Study Quran]** notes the two lines of the tradition
+on whether she left and looked back or remained in the town, and observes that the Qurʾānic phrase "of
+those who stayed behind" supports the second [Study Quran].
+
+**Cross-references.** "Except an old woman among those who stayed behind" (26:171; 37:135); "So set out
+with your family during the night and let not any of you turn around" (15:65); "God strikes a parable for
+those who disbelieve: the wife of Noah and the wife of Lot; they were under two of Our righteous
+servants, but they betrayed them" (66:10); "So We brought out those who were in it of the believers"
+(51:35) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s note that Lot's wife is paired with the wife of Noah in 66:10 makes
+the verse a lesson about nearness that does not save: the household of a prophet is not a shelter from
+one's own choice, and the verse's brief clause about her is enough to say so. **[Ibn Kathīr]**'s report
+that she used to signal the guests to her people gives the "stayed behind" its moral content: she was not
+merely left behind but had already placed herself with the other side.
+
+## 7:84
+
+*"And We rained upon them a rain; so look at how the end of the criminals was."*
+
+**Meaning.** **[Jalālayn]** gives the rain's substance: and We rained upon them a rain — the stones of
+baked clay — and it destroyed them; so behold what was the end of the sinners [Jalālayn]. **[Saʿdī]**
+explains both parts of the punishment: "and We rained upon them a rain" — hot, hard stones of *sijjīl* —
+and God turned the highest of their towns to the lowest; "so look at how the end of the criminals was":
+destruction and lasting disgrace [Saʿdī]. **[Study Quran]** gathers the Qurʾān's descriptions: that
+Lot's people were destroyed by a catastrophic rain, described by commentators as a rain of stones (Ṭ, Ṭs,
+Z), is also found in 11:82 and 15:74, where in both verses it is a rain of stones of baked clay, as well
+as in 26:173 and 27:58; in 29:34 they are destroyed by a torment from heaven, and in 54:34 by a torrent
+of stones; and the command to behold how the guilty fared in the end is repeated verbatim or in similar
+form in several verses and is often preceded by the mention of journeying upon the earth, indicating that
+the Arabs were able not only to reflect on the stories of these earlier peoples but in some cases to see
+for themselves the ruins of their civilizations that remained in parts of Arabia (3:137; 6:11; 10:40;
+16:36; 27:14); the command to consider the fate of the guilty is addressed to the Prophet, enjoining him
+to reflect on the fate of those who had rejected their messengers even as he faced rejection by many of
+his own people, and this and similar passages were meant as a warning that the people of Makkah could
+expect the same fate should they persist in their denial of Muhammad's prophethood (Ṭ) [Study Quran].
+**[Ibn Kathīr]** notes the verse follows the salvation of Lot and his household, and that the rain was of
+stones upon the criminals [Ibn Kathīr]. **[Ṭabarī]**'s account of the people of Lot's destruction,
+gathered in his treatment of the passage, is that the punishment came upon them all while Lot and the
+believers were brought out [Ṭabarī]. **[Maʿārif]**, in the narrative of the people of Lot's end, adds the
+overturning of their cities, the divine command to Lot to leave with his family before the dawn, and the
+sending of the stones upon the settlements [Maʿārif].
+
+**Language.** **[Saʿdī]** notes the two movements of the punishment: the rain from above and the turning
+of the towns from below, so that the verse's single word "rain" is the visible half of a destruction that
+came from both directions [Saʿdī]. **[Study Quran]** notes that the imperative "look" is addressed to the
+Prophet and through him to every reader who can still see the remains of the destroyed peoples
+[Study Quran].
+
+**Rulings.** **[Study Quran]**'s observation that the "look" passages were warnings aimed at the people
+of Makkah gives the verse its place in the sūrah's argument: the punishment of the people of Lot is
+recited not as ancient history but as the standing precedent for a community that was then continuing in
+the denial of its messenger [Study Quran].
+
+**Cross-references.** "So We rained upon them stones of baked clay" (15:74); "And We rained upon them a
+rain, and evil was the rain of those who were warned" (26:173; cf. 27:58); "And We overturned their
+cities and rained upon them stones of baked clay" (cf. 11:82); "Say: journey in the earth and look at how
+the end of those who denied was" (6:11) [Study Quran] [Ibn Kathīr].
+
+**Reflection.** **[Study Quran]**'s note that these ruins were visible in Arabia makes the verse's
+"look" an invitation with a landscape attached: the reader is not asked to imagine a punishment but to
+read the ground under a caravan route. **[Saʿdī]** closes the account with the verse's two words for the
+outcome — destruction and lasting disgrace — so that the "rain" that fell on the criminals becomes the
+sūrah's answer to the rain of mercy it had described earlier (7:57).
+
+## 7:85
+
+*"And to Midian, their brother Shuʿayb. He said, 'O my people, worship God; you have no god other than Him. There has come to you a clear proof from your Lord. So give full measure and weight, and do not diminish people in their things, and do not work corruption upon the earth after it has been set right. That is better for you, if you are believers.'"*
+
+**Meaning.** **[Ṭabarī]** gives the setting from Ibn Isḥāq: We sent to the children of Midian their brother
+Shuʿayb b. Mīkīl b. Yashjur — and Midian, per Ibn Isḥāq, are the descendants of Midyan b. Ibrāhīm, so
+that "Midian" is a tribe like Tamīm; and his name in Syriac was *Bathrūn*; the sense of the speech being:
+We sent to the children of Midian their brother, calling them to God's obedience, to desist from what He
+forbade, to leave off walking in the earth with corruption and barring from His way; and Shuʿayb said to
+them: O my people, worship God alone with no partner — you have no god who deserves your worship but the
+God who created you, in whose hand is your benefit and your harm; "there has come to you a clear proof
+from your Lord" — a sign and a proof from God of the truth of what I say and the truthfulness of what I
+call you to; "so give full measure and weight" — complete for people their rights in the measure you
+measure and the weight you weigh; "and do not diminish people in their things" — do not wrong people in
+their rights and do not reduce them; and he cites the Arabic proverb "you reckon her a fool while she is
+one who diminishes," meaning a wrongdoer, and the like of it in God's word, "and they sold him for a
+paltry price" (12:20), meaning a bad one [Ṭabarī]. **[Qurṭubī]** collates four matters. First, "Midian":
+it was said to be the name of a town and a region; it was said to be the name of a tribe, as one says Bakr
+and Tamīm; and it was said they are of the descendants of Midyan b. Ibrāhīm al-Khalīl — whoever held
+Midian a man's name did not inflect it because it is a foreign proper name, and whoever held it a tribe's
+or a land's name had more reason not to inflect it; al-Mahdawī said it is reported that he was the son of
+Lot's daughter, and Makkī said he was the husband of Lot's daughter. The reports differ on Shuʿayb's
+lineage: ʿAṭāʾ, Ibn Isḥāq and others said Shuʿayb is the son of Mīkīl b. Yashjur b. Midyan b. Ibrāhīm, and
+his name in Syriac was Bayrūt, and his mother was Mīkāʾīl the daughter of Lot; al-Sharqī b. al-Qaṭāmī
+claimed Shuʿayb b. ʿAyfāʾ b. Yawbab b. Midyan b. Ibrāhīm; Ibn Samʿān claimed Shuʿayb b. Jazā b. Yashjur b.
+Lāwā b. Yaʿqūb b. Isḥāq b. Ibrāhīm; and Shuʿayb is the diminutive of *shaʿb* or *shiʿb*; Qatāda said he is
+Shuʿayb b. Yawbab; and it was said Shuʿayb b. Ṣafwān b. ʿAyfāʾ b. Thābit b. Midyan b. Ibrāhīm, and God
+knows best. He was blind — and it is for that his people said, "we see you among us as weak" (11:91) — and
+he was called the Orator of the Prophets because of the excellence of his argument with his people; and
+his people were a people of disbelief in God and of diminishment in measure and weight [Qurṭubī].
+**[Ibn Kathīr]** gives the same frame: Muḥammad b. Isḥāq said they are the descendants of Midyan b.
+Midyan b. Ibrāhīm, and Shuʿayb was the son of Mīkīl b. Yashjur, and in the Syrian language his name was
+Yathrūn (Jethro); Midian was the name of the tribe and also a city close to Maʿān on the route to the
+Ḥijāz from Syria, as God said, "and when he arrived at the water of Midian" (28:23); they are also the
+people of *al-Aykah*, the Woods; and "o my people, worship God; you have no god other than Him" is the
+call of all the messengers; and "there has come to you a clear proof" means God has presented the proof
+and evidences of His oneness and of the truthfulness of the message; and on the command: give full
+measure and weight, and do not wrong people in their things [Ibn Kathīr]. **[Saʿdī]** reads the verse as
+the call of Shuʿayb: We sent to the well-known tribe of Midian their brother in lineage, Shuʿayb, calling
+them to the worship of God alone with no partner, and commanding them to give full measure and weight,
+not to diminish people in their things, and not to work corruption in the earth by multiplying acts of
+disobedience; therefore he said, "and do not work corruption upon the earth after it has been set right;
+that is better for you, if you are believers" — for leaving disobedience as compliance with God's command
+and as drawing near to Him is better and more beneficial for the servant than committing it, which brings
+the wrath of the Compeller and the punishment of the Fire [Saʿdī]. **[Study Quran]** gives the prophet and
+the people: Shuʿayb's full name is given by Ibn Isḥāq (d. 150/767) as Shuʿayb ibn Mīkīl ibn Yashjar, and
+others identified him as Shuʿayb ibn Tawbah ibn Midian; he is referred to in Islamic tradition as the
+"Orator of the Prophets" because of the eloquence and rhetorical power of his preaching (IK, Ṭ, Th); he is
+considered an Arab prophet, although the people of Midian are known in the Bible, and Shuʿayb is usually
+identified with the Biblical figure Jethro, the father-in-law of Moses, since the Qurʾān mentions that
+Moses met his future wife and father-in-law in the area of Midian; the people of Midian are said to have
+resided in northwestern Arabia, near Maʿān in Jordan (IK), and to have descended from Midian, a son of
+Abraham (Genesis 25:2); Midian is said to have married the daughter of Lot (Ṭs, Z), thus making the
+Midianites descendants of both Lot and Abraham; according to some commentators Shuʿayb was sent to both
+the people of Midian and the people of al-Aykah, "the Thicket" (cf. 15:78; 26:176; 38:13; 50:14), while
+others consider the two to be references to the same people (IK, Th); and Shuʿayb's mission begins, like
+that of Noah, Hūd and Ṣāliḥ, with a call to worship the One God (cf. 29:36) [Study Quran].
+**[Maʿārif]** adds: Shuʿayb, according to Ibn Isḥāq, is among the progeny of Madyan the son of Ibrāhīm and
+is also related to Lot; the descendants of Madyan came to be known by the name, and the locality where
+they lived is also called Madyan — so that Madyan is the name of a people and of a city as well, and this
+city still survives near the port of Maʿān in eastern Jordan, the Madyan of "and when he arrived at the
+watering place of Madyan" (28:23); Shuʿayb was known for his impressive oratory, because of which he was
+called the Orator among the Prophets; the people to whom he was sent are identified in the Qurʾān as the
+residents of Madyan and also as the people of *al-Aykah*, the forest — some commentators holding that
+these were two different peoples in separate settlements, to one of whom Shuʿayb was sent first, and when
+they were destroyed, to the other [Maʿārif]. **[Jalālayn]** reads the verse with its clauses: and We
+sent to Midian their brother Shuʿayb; he said, O my people, worship God, you have no god other than Him;
+verily there has come to you a clear proof — a miracle from your Lord to prove my truthfulness — so give
+full measure and weight and do not defraud, diminish the value of, people's goods, and do not work
+corruption in the earth by way of unbelief and acts of disobedience after it has been set right through
+the sending of messengers to it; that mentioned is better for you if you are believers — if you are
+seekers of faith, then hasten to it [Jalālayn].
+
+**Rulings.** **[Study Quran]** draws the commercial and the wider sense: the injunction to observe fully
+the measure and the balance is a call to integrity and honesty in commercial transactions, and by
+extension in other dealings, an injunction also found in several other passages (6:151–52; 17:35;
+83:1–4); that they should not diminish people's goods means that they should render in full the goods for
+which they had paid; among the Qurʾānic prophets it is Shuʿayb whose mission is particularly associated
+with the call to avoid fraudulent commercial practices (11:84–85; 26:181–83); and the idea of measurement
+and balance is a prominent Qurʾānic theme with not only commercial but cosmological significance — several
+passages indicate that God measures out all created existence and sets the created order in balance
+(13:8; 15:19–21; 23:18; 25:2; 42:27; 54:49; 65:3; 73:20), and in some passages a relationship is
+suggested between God's measuring and balancing and the moral requirement that human beings observe
+proper measure and balance (55:7–9); Shuʿayb's warning against working corruption upon the earth is also
+part of his essential message (11:85; 26:183; 29:36); and that the earth has been set aright — by God —
+indicates not only that He has established balance and harmony in its natural order but also that He has
+provided the means of setting matters aright in human society through His prophets and the commands and
+prohibitions they establish (Ṭ, Z) [Study Quran]. **[Ṭabarī]** gives the same last point in his own
+words: "after it has been set right" means after God set the earth right by sending the prophet among
+you, forbidding you what is not lawful for you and what God dislikes for you; and "that is better for
+you" — this which I have mentioned and commanded you of making worship sincere for God alone, giving
+people their rights in measure and weight and leaving corruption in the earth — is better for you in the
+immediate life of your world and in the final life of your Hereafter — "if you are believers," if you
+affirm me in what I say to you and deliver to you from God of His command and prohibition [Ṭabarī].
+**[Qurṭubī]**'s report of Shuʿayb's blindness and his title of Orator — and his people's words, "we see
+you among us as weak" (11:91) — belongs to the same legal material's background, establishing that the
+injunction was delivered by a prophet who had no share in the wealth his people wrongly acquired
+[Qurṭubī].
+
+**Cross-references.** "And do not approach the property of the orphan except in the best way until he
+reaches maturity; and give full measure and weight with justice" (6:152); "And give full measure when you
+measure, and weigh with the straight balance" (17:35); "Woe to those who give short measure, who, when
+they take measure from people, take in full, but when they measure or weigh out for them, give short"
+(83:1–3); "We have sent Our messengers with clear proofs and sent down with them the Book and the balance,
+that people may uphold justice" (57:25); "And the sky He raised, and He set up the balance, that you not
+transgress in the balance" (55:7–8) [Study Quran] [Ṭabarī].
+
+**Reflection.** **[Study Quran]**'s connection between the cosmic balance and the market balance gives
+the verse its depth: the scale in the shop is not a matter of commercial convention but an imitation of
+the order in which creation was set, so that "do not work corruption upon the earth after it has been set
+right" begins with what a man does with his own hand in his own shop. **[Saʿdī]** draws the same point
+toward the servant's interest: obedience is not a tax upon profit but the thing that is "better for you" —
+better in this world's dealings and in the world to come — and the verse's last clause leaves the choice
+where it belongs.
+
+## 7:86
+
+*"And do not sit on every path, threatening and barring from the way of God those who believe in Him, and seeking to make it crooked. And remember when you were few and He multiplied you; and look at how the end of the corrupters was."*
+
+**Meaning.** **[Ṭabarī]** gives the offense: do not sit on every road — *al-ṣirāṭ* being the way —
+threatening the believers with killing; for they used, it is reported, to sit on the road of whoever
+intended to come to Shuʿayb and wished to believe in him, threatening him and frightening him and saying,
+"he is a liar." He reports from Qatāda: they used to threaten those who came to Shuʿayb and sought him,
+wanting Islam; from Ibn ʿAbbās: they frightened people from coming to Shuʿayb; and from ʿAlī b. Abī
+Ṭalḥa from Ibn ʿAbbās: they used to sit on the road and tell whoever passed by them that Shuʿayb was a
+liar, so that he would not be diverted from his religion; from Mujāhid: every path, that is, every way of
+truth; and from al-Suddī: they used to sit on every road threatening the believers; and from Qays from
+al-Suddī: "the tax-collectors" [Ṭabarī]. **[Saʿdī]** draws the scene out: "and do not sit" for people "on
+every path," that is, every road much travelled, warning people away from it and threatening whoever
+walks it, "and barring from the way of God" whoever wishes to be guided by it, "and seeking to make it
+crooked" — you want the way of God to be crooked, and you bend it to follow your whims; whereas what was
+incumbent on you and on others was the revering and honouring of the way God set up for His servants so
+that they might walk it to His pleasure and the abode of His honour, and His greatest mercy is that He
+provided it for them; you should have stood to support it, call to it and defend it, not be the bandits
+of its road, barring people from it — for that is a denial of God's favour, a defiance of God, and a
+making of the straightest and most even of roads to be slanted, while vilifying whoever walks it. "And
+remember" the favour of God upon you "when you were few and He multiplied you" — He increased you by what
+He favoured you with of wives, offspring and health, and did not afflict you with plague or diseases that
+diminish you, nor set an enemy over you to sweep you away, nor scatter you in the earth, but favoured you
+with your gathering, plentiful provision and many descendants. "And look at how the end of the corrupters
+was": for you will find in their multitudes nothing but dispersal, and in their homes nothing but
+desolation and uprooting [Saʿdī]. **[Jalālayn]** gives the verse compactly: and do not sit in every path
+— every route — threatening and terrifying people, by seizing their garments or by charging them excise
+tax, and barring, driving away, from God's way — from His religion — those who believe in Him, when you
+threaten to kill them, and desiring that it, seeking that the path, be crooked; and remember when you
+were but few and then He multiplied you; and behold what was the end of the agents of corruption before
+you for denying their messengers — that is, behold how destruction was the conclusion of their affair
+[Jalālayn]. **[Study Quran]** explains the verse's range: Shuʿayb further urges the people of Midian not
+to lie in wait on every path, threatening and diverting people from the way of God — which is the course
+of action to which Satan dedicates himself after he is expelled from the divine presence (see v. 16); in
+the specific case of the people of Midian this may mean that they turned people away from the right path
+by denouncing Shuʿayb as a liar (Ṭs, Z) or by threatening or otherwise hindering those who came along the
+road seeking to become followers of Shuʿayb (IK, Ṭs); it may also mean that they inhibited people
+journeying along the physical road by blocking it or collecting tithes (IK, Z), perhaps in an exploitative
+or threatening manner, given their apparent penchant for unethical commercial practices and their
+reported location along important trade routes; and although the verse may refer to specific practices of
+the people of Midian, its more general spiritual significance is clear from the terms and phrases used to
+describe them — path here translates *ṣirāṭ*, which in the Qurʾān refers to the path to truth and serves
+as a symbol for a life lived according to divine guidance (see 1:6–7), essentially synonymous with the
+way of God (*sabīl Allāh*) mentioned in the same verse; and although commentators assert that the path to
+God is a single "straight path," *ṣirāṭ mustaqīm*, "on every path" here seems to suggest that there is
+more than one straight path — al-Zamakhsharī explaining that although the path is one, it has many
+branches, and it is this path with its branches to which reference is made; and the idea of seeking to
+make crooked the way of God — understood to mean seeking to convince others that the way of God is
+crooked (Z) — is also found in 3:99, 7:45, 11:19 and 14:3 [Study Quran]. **[Maʿārif]** gives the pairing
+of methods the verse uses: the twin aspects of persuasion and intimidation were employed to warn these
+people — persuasion when they were reminded of the blessing of God who increased their insignificant
+numbers to become a large nation, or changed their economic weakness into need-free financial strength,
+and intimidation when they were told that they could do much better if they looked at the sad end of the
+peoples who had engineered disorder on the earth; the peoples of Noah, ʿĀd, Thamūd and Lot being examples
+of so many different punishments, which should help them understand their own situation and make the
+correction needed [Maʿārif]. **[Ibn Kathīr]** records the various ways the exegetes explained the
+"paths" — the road to Shuʿayb, the physical highway, the collecting of tolls — and the general warning
+against blocking the way to guidance [Ibn Kathīr].
+
+**Ḥadīth & āthār.** **[Ṭabarī]** records a report from the Prophet's Night Journey in connection with this
+verse: Abū al-ʿĀliya, from Abū Hurayra or another — Abū Jaʿfar al-Rāzī was unsure of the name — that the
+Prophet ﷺ on the night he was taken up came upon a piece of wood on the road, which no garment passed
+without being torn and nothing without being cut; he said, "What is this, O Gabriel?" and he said, "This
+is a likeness of a people of your community who sit on the road and cut it off"; then he recited, "and do
+not sit on every path, threatening and barring from the way of God" — the report indicating that Abū
+Hurayra understood Shuʿayb to be forbidding his people highway robbery, and that they were brigands
+[Ṭabarī].
+
+**Cross-references.** "Those who disbelieve and bar people from the way of God, and from the Sacred
+Mosque" (2:217; cf. 8:36); "And do not sit in every path, threatening and barring from the way of God
+those who believe in Him, and seeking to make it crooked" (7:86); "Those who bar people from the way of
+God and seek to make it crooked, and who disbelieve in the Hereafter" (11:19; cf. 7:45); "And remember
+Him as He guided you, though before you were of the astray" (2:198); "And how many a generation have We
+destroyed after Noah?" (17:17) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s image of the believers as a caravan and the Midianites as its bandits gives
+the verse its moral shape: the people who defrauded in the scales went out to waylay those seeking a
+teacher, and the crime of the verse joins the short measure in the market to the barring of the road.
+**[Study Quran]**'s note that the verse's *ṣirāṭ* also names the path of 1:6 makes the connection
+explicit for the reader: those who block the way of God at the frontier of the sūrah are the same ones
+who turn a traveler from the path of the opening sūrah.
+
+## 7:87
+
+*"And if there is a group of you who believe in what I have been sent with and a group who do not believe, then be patient until God judges between us; and He is the best of judges."*
+
+**Meaning.** **[Ṭabarī]** reads the verse as Shuʿayb's word to a divided people: and if a group of you — an
+assembly and a party — have believed in what I was sent with, of making worship sincere for God, leaving
+His disobedience and the wronging and cheating of people in measures and weights, and have followed me in
+it, and another group have not believed in it and have not followed me in it, then wait for God's
+decisive judgment between us and you; and "He is the best of judges" — God is the best of those who
+decide and the most just of those who judge, because in His judgment there is no inclination to anyone
+and no favouritism toward anyone [Ṭabarī]. **[Saʿdī]** reads it as the answer to the demand for a
+decision: "and if there is a group of you who believe in what I have been sent with and a group who do
+not believe, then be patient until God judges between us, and He is the best of judges" — the believers
+are encouraged to hold firm and the disbelievers warned that the decision is coming [Saʿdī].
+**[Study Quran]** notes that Shuʿayb instructs his people to be patient till God shall judge between us —
+that is, by aiding the believers and affirmers of truth over the disbelievers and champions of falsehood
+(Z); he says this as a means of warning the disbelievers (Z), but also of encouraging the believers
+(Ṭs); in the case of the Midianites, as with the people of Noah, Hūd, Ṣāliḥ and Lot, divine punishment
+takes various forms of earthly destruction from which the prophets and their followers are spared; the
+ominous instruction to "wait" or "be patient" is also made by Noah (v. 71) and by Muhammad, who is told
+to respond to the Quraysh's continued denial in a similar manner in 6:158, 9:52, 10:20, 102, 11:122,
+20:135 and 52:31; and that God is the best of judges is also stated in 10:109, 11:45 and 12:80 (and 95:8),
+while in 6:57 and 7:89 He is similarly said to be the best of deciders [Study Quran].
+**[Jalālayn]** reads it with the same sense: and if there is a party of you who believe in that with which
+I have been sent and a party who do not believe in it, then be patient, wait, until God judges between us
+and you by delivering the affirmer of this truth and destroying the denier of it; He is the best of
+judges, the fairest of them [Jalālayn].
+
+**Language.** **[Study Quran]** notes the two registers of the verse's verb: "be patient" (*iṣbirū*) is
+the language of exhortation to the believers, while the same waiting is a threat to the deniers — one
+word, two readings, depending on who hears it [Study Quran]. **[Ṭabarī]** notes the same double edge:
+the command to wait is issued to both parties, and the difference is in what each expects from the
+judgment [Ṭabarī].
+
+**Cross-references.** "Say: wait; indeed I am with you among those who wait" (cf. 7:71; 10:20, 102);
+"Then wait; indeed we are waiting" (11:122; cf. 20:135; 52:31); "Say: I am on clear proof from my Lord,
+and you have denied it; I have not what you seek to hasten" (6:57); "So be patient until God judges, and
+He is the best of judges" (10:109; cf. 12:80) [Study Quran] [Jalālayn].
+
+**Reflection.** **[Study Quran]**'s note that the prophets' instruction to "wait" recurs at the close of
+their missions gives the verse its place in the sūrah's rhythm: the call has been made, the two parties
+have divided, and what remains is the judgment, so that the waiting is the last act of the prophet's
+patience and the first event of the punishment. **[Saʿdī]** reads the verse as the balance held before the
+scale falls: the believers are assured that their patience is not in vain, and the deniers are told that
+their delay is not security.
+
+## 7:88
+
+*"The notables of his people who were arrogant said, 'We will surely expel you, O Shuʿayb, and those who believe with you, from our city, unless you return to our religion.' He said, 'Even if we are averse?'"*
+
+**Meaning.** **[Ṭabarī]** gives the confrontation: the assembly, the group of men among Shuʿayb's people
+who were arrogant — who magnified themselves above believing in God and submitting to His command and
+following His messenger Shuʿayb, when Shuʿayb warned them of God's might for their opposing their Lord's
+command and their disbelief — said: we will surely expel you, O Shuʿayb, and those who followed you and
+affirmed you and believed in you and in what you brought: from our city, or you shall return to our
+religion, that is, you and they shall go back to our faith and what we are on; and Shuʿayb answered them,
+"even if we are averse?" — that is, do you expel us from your city and bar us from the way of God even
+though we detest it? — and the interrogative *alif* entered upon the *wāw* of "and if" [Ṭabarī].
+**[Qurṭubī]** explains the phrase: "or you shall return to our religion" means you shall come to be in
+our religion; and it was said that Shuʿayb's followers had been on disbelief before believing in him, so
+that "you shall return" means you shall come back to us as you were before; and al-Zajjāj said the
+"returning" may have the sense of beginning — one says, "something disliked came back to me from
+so-and-so," meaning it came to me even if nothing had preceded it — so the sense is that it would reach
+us from them; and Shuʿayb said to them, "even if we are averse?" — even if we hate it, do you compel us
+to leave our homeland or to return to your religion? If you do this, you have committed a great wrong;
+and *al-milla* is the religion [Qurṭubī]. **[Maʿārif]** explains the difficulty in the address: that the
+followers of Shuʿayb should be asked to return to the old faith is understandable, for all of them had
+been part of the faith and way of the disbelievers and only later embraced Islam; but the case of Shuʿayb
+himself was different — he had never followed their false faith and way even for a day, nor can a prophet
+of God ever follow a faith counter to pure monotheism; why, then, would they ask him to return to their
+faith? Perhaps it was because Shuʿayb, before prophethood was bestowed on him, would maintain silence over
+their false sayings and doings and continued living among the people as one of them, and because of this
+his disbelieving people took him too as one of the rest, a fellow traveller and votary of their faith; it
+was only after he gave his call of true faith that they discovered that his religion was different from
+their own, and this led them to conclude that he had turned away from their old faith; and about their
+warning that he must return, Shuʿayb said, "even if we are averse?" — meaning, are you trying to say that
+we should return to the fold of your faith despite that we do not like it and consider it to be false?
+This is a manner of saying that it can never be [Maʿārif]. **[Study Quran]** notes that Shuʿayb, like Lot
+(v. 82), is threatened with having himself and his followers expelled from the town unless he should
+revert to the creed and religious practices of the Midianites; and it notes the notables and their
+particularly outspoken opposition to the prophets in several Qurʾānic narratives [Study Quran].
+**[Jalālayn]** reads the grammar of the speakers: the council of those of his people who disdained
+believing said, "surely we will expel you, O Shuʿayb, and those who believe with you, from our city unless
+you return to our creed" — our religion — the plural person predominating over the singular in their
+address to Shuʿayb because Shuʿayb was never part of their religious community; and so in the same plural
+way he responded: he said, "what, should we return to it even though we are averse to it?" — the
+interrogative meant as a disavowal [Jalālayn]. **[Ibn Kathīr]** notes that the chiefs spoke the words to
+Shuʿayb but intended those who followed his religion as well, and that "even though we are averse?" means,
+would you force us to do that even though we hate what you are calling us to? [Ibn Kathīr].
+
+**Language.** **[Jalālayn]**'s note about the plural is exact: they address Shuʿayb with the plural "you
+shall return" because he had never been of their community, so that the sentence treats him as one of a
+group that must be brought back; and his answer uses the same plural, "even if we are averse"
+[Jalālayn]. **[Qurṭubī]** gives the several senses of "return" that the verse's argument requires: to
+become, to go back to what one was, or simply to come to be in a state, since the word in Arabic can
+mark a beginning as well as a return [Qurṭubī].
+
+**Cross-references.** "They said, 'If you do not desist, O Lot, you will surely be among the expelled'"
+(26:167); "And those who disbelieved said to their messengers, 'We will surely expel you from our land,
+or you shall return to our religion'" (14:13); "And they said, 'We will surely drive you out of our land,
+O Shuʿayb, or you shall return to our religion'" (cf. 11:91); "And whoever turns back on his heels, he
+will not harm God at all" (3:144) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Maʿārif]**'s reconstruction of the misunderstanding gives the verse its human
+plausibility: a prophet who had lived quietly among a people was assumed to be one of them until his call
+revealed the distance, and their demand that he "return" was, in fact, a demand that he never have
+left — a demand that the verse's question, "even if we are averse?", answers once and for all.
+**[Study Quran]**'s pairing with the verse about Lot's expulsion shows the pattern of the punishment
+accounts: the threat of banishment is the last argument of a community that cannot answer the message,
+and the sūrah records the same threat in Sodom and in Midian.
+
+## 7:89
+
+*"We would have invented a lie against God if we returned to your religion after God had saved us from it. And it is not for us to return to it unless God our Lord wills. Our Lord encompasses all things in knowledge. Upon God we rely. Our Lord, judge between us and our people in truth, and You are the best of judges."*
+
+**Meaning.** **[Ṭabarī]** gives the answer in full: Shuʿayb said to his people, when they called him back to
+their religion and to entering it and threatened him and those who followed him with expulsion from their
+city if he and they did not do so — we would have fabricated against God a lie, and invented false
+speech concerning Him, if we returned into your religion and went back into it after God had delivered us
+from it by opening our eyes to its error and to the sound guidance we are on; and it is not for us to
+return into it and profess it and leave the truth we are on, unless God our Lord wills — unless it has
+preceded in God's knowledge that we will return into it, in which case God's decree concerning us would
+pass and His will be executed upon us; "our Lord encompasses all things in knowledge," for our Lord's
+knowledge is vast and covers all things, so that nothing that was or will be is hidden from Him; and if
+it has preceded in His knowledge that we will return into your religion — and nothing hidden from Him
+escapes Him — then what He knows must be; otherwise we are not returning into your religion; and the
+exegetes said the like, al-Suddī and others [Ṭabarī]. **[Qurṭubī]** clarifies the exception: al-Zajjāj
+said "unless God wills" means except by God's will, and this is the saying of the people of the Sunna —
+that our return to disbelief does not occur unless God wills it — so that the exception is discontinuous
+(*munqaṭiʿ*); and it was also said that the exception here is in the manner of submission to God, as in
+"and my success is only through God" (11:88), the proof being what follows it — "our Lord encompasses all
+things in knowledge; upon God we rely"; and it was said it is like one's saying, "I will not speak to you
+unless God wills," which is to place the matter in God's hand [Qurṭubī]. **[Ibn Kathīr]** reads the
+passage in the same way: this part of the verse refers all matters to God's will, and certainly He has
+perfect knowledge of all matters and His observation encompasses all things; "in God alone we put our
+trust" concerning all our affairs, what we practise of them and what we leave; "our Lord, judge between
+us and our people in truth" — judge between us and them and give us victory over them; "for You are the
+best of those who give judgment," the most just, who never wrongs anyone in His judgment
+[Ibn Kathīr]. **[Study Quran]** notes that reverting to such a creed, Shuʿayb asserts, would amount to
+fabricating a lie against God, something the Qurʾān identifies as among the greatest sins — for who does
+greater wrong than one who fabricates a lie against God? (6:21, 93, 144; 7:37; 10:17; 11:18; 18:15;
+19:68; 61:7) — and that reverting in this way would also make Shuʿayb and his followers effectively
+apostates, who are, according to some commentators, worse than disbelievers, because such people
+presumably are capable of discerning the true religion from false religion since they were followers of
+the former, but nonetheless have now renounced it and follow what they know to be false (Z); that God
+encompasses all things in knowledge is also found in 6:80, 20:98 and 65:12; Shuʿayb's "in God do we trust"
+demonstrates his confidence that God would protect and deliver him and his followers from the threats of
+the disbelievers (Th), but also points to the central spiritual virtue of trust in God (*tawakkul*); and
+his request to God that He decide between us and our people in truth is similar to his statement in v. 87
+bidding his people to wait for God's decision [Study Quran]. **[Saʿdī]** draws the prayer's two halves:
+the prophet places the whole matter in God's hand — knowledge, will and trust — and then asks for the
+judgment in truth, which is the only request a caller can make when the parties have reached the end of
+argument [Saʿdī]. **[Jalālayn]** renders it: we would be forging a lie against God if we were to return
+to your creed after God has delivered us from it; it is not right for us to return to it unless God our
+Lord wills that it be so; our Lord embraces all things through His knowledge — His knowledge embraces all
+things, including my situation and yours; in God we have put our trust; our Lord, decide between us and
+our people — adjudicate — for You are the best of deciders [Jalālayn].
+
+**Belief.** **[Qurṭubī]** records the verse's place in the doctrinal discussions: al-Zajjāj's reading of
+the exception as discontinuous, and his note that this is the saying of the people of the Sunna, makes
+the verse a proof-text in the theology of the will — the verse's own speech is the speech of a prophet
+who sees every turn of the heart as happening only by God's willing, and who therefore places his own
+perseverance in that will [Qurṭubī]. **[Study Quran]** notes the commentators' further point that the
+"return" the verse fears is worse than an original disbelief, because it is the renunciation of a truth
+already seen (Z) [Study Quran].
+
+**Cross-references.** "And my success is only through God; in Him I trust and to Him I turn" (11:88);
+"Our Lord, judge between us and our people in truth, for You are the best of judges" (cf. 7:89); "Say:
+nothing will befall us except what God has decreed for us; He is our Protector; and in God let the
+believers put their trust" (9:51); "And who is more unjust than he who fabricates a lie against God"
+(6:21; cf. 7:37) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s note on *tawakkul* gives the verse's climax its spiritual center:
+after the threats, the argument and the refusal, the prophet does not answer the notables with a threat
+of his own but with the declaration that upon God he relies and the prayer that God judge — so that the
+last word of the confrontation is not expulsion but entrusting. **[Qurṭubī]**'s report of the theological
+reading of "unless God wills" makes the same movement in doctrine: the man who has been saved from error
+does not guarantee his own future but places it, with everything else, in the knowledge and will of the
+One who encompasses all things.
+
+## 7:90
+
+*"And the notables of his people who disbelieved said, 'If you follow Shuʿayb, indeed you will then be the losers.'"*
+
+**Meaning.** **[Ṭabarī]** reads the verse: the assembly of the disbelieving men of Shuʿayb's people — the
+notables who denied God's signs and denied His messenger and persisted in their error — said to others of
+their people: if you follow Shuʿayb in what he says and answer him in what he calls you to of God's
+oneness and submission to His command and prohibition, and affirm his prophethood, then you are surely
+losers: cheated in what you have done and in your leaving the religion you are established on for the
+religion he calls you to, and destroyed by that act of yours [Ṭabarī]. **[Study Quran]** explains the
+warning's content: the notables, or leaders among the disbelievers, warned that those who followed
+Shuʿayb would be the losers — meaning those who are deceived with regard to their religion, and that
+abandoning their native religious practice to follow Shuʿayb would lead to destruction (Ṭ); in v. 92,
+however, it is those who denied Shuʿayb who were the losers [Study Quran]. **[Ibn Kathīr]** places the
+verse in the narrative: God describes the enormity of the disbelief, rebellion, transgression and
+misguidance of Shuʿayb's people and the defiance of truth rooted in their hearts — they vowed, saying,
+"if you follow Shuʿayb, be sure then you will be the losers"; and God answered them: "so the earthquake
+seized them and they lay prostrate in their homes — those who belied Shuʿayb became as if they had never
+dwelt there; those who belied Shuʿayb, they were the losers" (7:91–92) [Ibn Kathīr]. **[Maʿārif]** notes
+the setting of the statement: the arrogant chiefs of the people said it while talking among themselves, or
+said it to their followers — that is, if you are to follow Shuʿayb, then you are sure losers
+(al-Baḥr al-Muḥīṭ from ʿAṭāʾ) [Maʿārif]. **[Jalālayn]** reads it briefly: the council of those of his
+people who disbelieved — that is, some said to others — "verily if you follow Shuʿayb you shall indeed be
+losers," the *lām* being for an oath [Jalālayn]. **[Saʿdī]** draws the reversal the sūrah will soon state:
+the notables call following the prophet a loss, and the verses that follow show who in fact lost
+[Saʿdī].
+
+**Language.** **[Ṭabarī]** notes the word *al-khusrān*: the losers are the cheated and the destroyed —
+the word carries the sense of a trade gone wrong and of a life lost, so that the notables' warning
+describes their own end in the vocabulary they meant for their followers [Ṭabarī]. **[Jalālayn]** notes
+the oath embedded in "if you follow" — the *lām* of swearing [Jalālayn].
+
+**Cross-references.** "Those who belied Shuʿayb, they were the losers" (7:92); "Indeed, the losers are
+those who lose themselves and their families on the Day of Resurrection" (39:15); "Say: shall we inform
+you of the greatest losers in their deeds?" (18:103); "And those who disbelieved say, 'If you follow the
+way, you will be carried off from your land'" (cf. 28:57) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s observation that v. 92 will name the deniers themselves as the
+losers gives the verse its place in the sūrah's pattern of reversal: in story after story the accusation
+made by the powerful returns as the verdict on them — the people of Noah called the prophet astray, the
+people of Hūd called him a fool, and here the notables of Midian call following the prophet a loss.
+**[Maʿārif]**'s note that the sentence was spoken among themselves or to their followers makes the
+warning a piece of politics rather than an argument: it is not addressed to Shuʿayb but to those who might
+listen to him.
