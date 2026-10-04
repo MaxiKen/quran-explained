@@ -1003,7 +1003,7 @@ handed back with a courtesy no polemic usually keeps: *your duty is only the con
 *Those who disbelieve in the signs of God and slay the prophets unjustly, and slay those who enjoin
 equity among men — so give them good tidings of a painful chastisement.*
 
-**Meaning.** **[Jalālayn]**: the *shahīd* verse of 3:20's disbelievers now described — denial of God's
+**Meaning.** **[Jalālayn]**: the disbelievers named in 3:20 are now described in full — denial of God's
 signs, killing of the prophets *without right*, and killing of the enjoiners of equity: the Jews who,
 it is reported, slew forty-three prophets in a single hour, whom a hundred and seventy devout men of
 the same day stood up to enjoin justice — and they were all slain before evening. *So give them good
@@ -1249,7 +1249,7 @@ that has no bond with God — unless you guard yourselves against them with [due
 you of Himself; and God is knowing of what is in the breasts."*
 
 **Context.** **[Study Quran]** gathers the occasions: hypocrites of Madīna corresponding with the
-Makkans (W-Ṭ); a friendship between some of theHelpers and Jewish men who wanted to draw them back
+Makkans (W-Ṭ); a friendship between some of the Helpers and Jewish men who wanted to draw them back
 from religion; and a prominent companion at the Trench who wished to muster several hundred Jews to
 fight on the Prophet's side (R, Ṭ, W) — in all of them the stake is allegiance and alignment, not
 friendship at large; compare 4:88–90, 4:144, 5:51, 5:57, and 3:118.
