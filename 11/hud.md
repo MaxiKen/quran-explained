@@ -2414,3 +2414,199 @@ in connection with the ʿĀd, then with the Thamūd (v. 68), and finally with th
 
 **Reflection.** The curse follows them across both worlds, and the refrain closes their story like a
 seal — the same seal that waits upon every later people who repeat their deed.
+
+## 11:61
+
+*"And to Thamūd, their brother Ṣāliḥ. He said, 'O my people, worship God! You have no god other than
+Him. He brought you forth from the earth and settled you therein. So ask forgiveness of Him, then turn
+to Him in repentance. Truly my Lord is Nigh, Responsive.'"*
+
+**Meaning.** **[Ṭabarī]** We sent to Thamūd their brother Ṣāliḥ. He said: O my people, worship God
+alone, without partner. You have no god other than Him who deserves to be worshipped. He brought you
+forth from the earth: He began your creation from it, by creating your father Adam from it, and He has
+settled you therein — He made you its dwellers and inhabitants. So ask forgiveness of Him for your
+idolatry, then turn to Him in repentance through obedience. Truly my Lord is Nigh — near to whoever calls
+upon Him — Responsive: answering those who ask Him. **[Jalālayn]** He said: O my people, worship God,
+affirm His Oneness; you have no god other than He. He it is who produced you — who began your creation —
+from the earth, by creating your father Adam from it, and has given you to live therein — He has made you
+inhabitants living therein. So ask forgiveness of Him from idolatry, then turn to Him repentant through
+acts of obedience. Truly my Lord is Near to His creation by virtue of His knowledge, Responsive to those
+who ask of Him. **[Ibn Kathīr]** Thamūd were a group of people living in cities carved from the rocks,
+between Tabūk and Madinah; they lived after the people of ʿĀd, and Allah sent to them their brother
+Ṣāliḥ, who commanded them to worship Allah alone. "He brought you forth from the earth": He began your
+creation from it — from it He created your father Adam. "And settled you therein": He made you
+prosperous in the earth; you are settled in it and treasure it. "Then ask forgiveness" — for your
+previous sins — "and turn to Him in repentance" — for the future. "Certainly, my Lord is Near (to all by
+His knowledge), Responsive" — similar to "And when My servants ask you concerning Me, truly I am near; I
+respond to the invocation of the supplicant when he calls on Me" (2:186). **[Saʿdī]** Thamūd were the
+Second ʿĀd, the well-known people dwelling in al-Ḥijr and Wādī al-Qurā. Their brother in lineage,
+Ṣāliḥ, called them to the worship of God alone: "He brought you forth from the earth" — He created you in
+it — "and settled you therein": He made you its successors, bestowed upon you His outward and inward
+blessings, and established you in the earth — you build, plant, sow and till as you wish and exploit its
+benefits. Since He has no partner in all of that, do not associate partners with Him in His worship.
+"Truly my Lord is Nigh, Responsive": near to whoever calls upon Him with the supplication of petition or
+the supplication of worship, answering him by granting his request, accepting his worship and rewarding
+him with the noblest recompense. Know that His nearness is of two kinds: general — His nearness by
+knowledge to all creation, as in "We are nearer to him than his jugular vein" (50:16) — and particular —
+His nearness to His worshippers, petitioners and lovers, as in "prostrate and draw near" (96:19) and
+"When My servants ask you about Me, truly I am near" (2:186); this nearness entails His gentleness, His
+answering their prayers and His fulfilling their hopes, and for this reason He couples with the name
+al-Qarīb the name al-Mujīb.
+
+**Context.** **[Study Quran]** Ṣāliḥ was an Arabian prophet sent to the Thamūd, who inhabited a rocky
+plain located in western Arabia, between the Ḥijāz and Syria; like Hūd, Ṣāliḥ is not mentioned in the
+Bible, and like the ʿĀd, the Thamūd were descendants of Noah. His call to worship God alone is identical
+to the words uttered by Hūd (v. 50); he is likewise called the brother of his people since he was one of
+them (26:142). Truly my Lord is Near, Responsive means God is close to those sincere toward Him in
+worship and He answers the call of supplicants; according to Islamic theology, God is close to all human
+beings — even those who deny Him — the condition of sincerity being not a requirement for His closeness,
+though those without faith are unaware of it.
+
+**Stories & occasions.** **[Maʿārif]** The next eight verses carry the story of Ṣāliḥ. He was sent to
+the people of Thamūd, another branch of the tribe of ʿĀd; he too invited his people to tawḥīd. As
+customary, his people belied him and insisted that he must first make a she-camel of a specified
+description come out from the rock of the mountain in front of them. Ṣāliḥ warned them: if God shows you
+your custom-ordered miracle and you still fail to believe, then, according to God's customary practice,
+the punishment will come and destroy all of you. They remained obstinate, and God made the miracle they
+demanded manifest: the rock split asunder, and out came the she-camel bearing the features they had
+specified. God ordered them not to harm her in any manner, otherwise the punishment would come upon
+them; but they disobeyed and killed her — whereupon they were seized, Ṣāliḥ and his companions were
+saved, and the rest were destroyed by a Sound, severe and terrifying.
+
+**Reflection.** The people who carved their houses out of rock needed to be reminded that their very
+bodies came from that rock, and that its Owner is near enough to answer before the asking is finished.
+
+## 11:62
+
+*"They said, 'O Ṣāliḥ, you had been among us a source of promise before this. Do you forbid us to
+worship what our fathers worshipped? Truly we are in grave doubt concerning that to which you call us.'"*
+
+**Meaning.** **[Ṭabarī]** They said: O Ṣāliḥ, you had been one we hoped much of among us before this —
+we expected from you intellect, leadership and good; do you now forbid us the worship of what our fathers
+worshipped — the idols and false gods? Truly we are in grave doubt — doubt that breeds great uncertainty
+— about that to which you call us of affirming God's oneness. **[Jalālayn]** They said: O Ṣāliḥ, you had
+been one of promise among us — we had hoped that you would become our chief — before this that has issued
+from you. Do you forbid us to worship what our fathers worshipped, in the way of graven images? Truly we
+are in grave doubt — doubt creating great uncertainty — concerning that to which you call us, in the way
+of affirming God's Oneness. **[Ibn Kathīr]** "You have been among us as a figure of good hope till
+this!": they were saying, "We had hope in your strong intellect before you began saying what you have
+said." "Do you forbid us the worship of what our fathers have worshipped?" — what those who were before
+us were upon. "But we are really in grave doubt as to that to which you invite us": this alludes to the
+great amount of doubt that they had. **[Saʿdī]** When their prophet Ṣāliḥ commanded them and incited
+them to sincerity to God alone, they rejected his call and met him with the ugliest response: "You had
+been among us hoped for before this" — we used to hope for intellect and benefit from you. This is a
+testimony from them to their prophet Ṣāliḥ that he never ceased to be known for noble character and
+excellent qualities, and that he was among the best of his people; but when he came to them with this
+matter that did not suit their corrupt whims, they uttered this statement, whose import is: you were
+perfect before, but now you have disappointed our expectation of you, and become one from whom no good
+is hoped — and his "crime" was what they said of him: "Do you forbid us to worship what our fathers
+worship?" — as if it were the greatest aspersion on Ṣāliḥ that he impugned their intellects and the
+intellects of their astray fathers! How could he forbid them the worship of what neither benefits nor
+harms nor avails anything — of stones, trees and the like — and command them sincere devotion to God
+their Lord, whose blessings never ceased streaming upon them and whose favour descends upon them
+constantly, from whom every blessing they have comes and from whom alone evil is averted from them?
+"Truly we are in grave doubt of what you call us to": we have not ceased doubting what you invite us to,
+a doubt that casts misgiving into our hearts.
+
+**Context.** **[Study Quran]** You were a source of hope among us before this means that before Ṣāliḥ
+called them to worship the one true God, they had hoped he would eventually assume a leadership role
+(*sayyid*) among them, as he was already one of his society's most noble and respected figures. The
+Thamūd's appeal to the religious ways of their fathers is a common Quranic theme: when prophets bring the
+message of God's Oneness to an idolatrous people, they reject it on the grounds that it does not conform
+to the ways of their ancestors (see 5:104; 10:70; 21:53; 31:21); cf. 7:28. See also 2:170, which responds
+to such a statement: "What! Even though their fathers understood nothing, and were not rightly guided?"
+
+**Stories & occasions.** **[Maʿārif]** Before he claimed to be a prophet and started telling them to
+shun idol-worship, they had great hopes in him and thought he would rise to be a great reformer and
+leader of their people. The reason is that God nurtures and grooms His prophets from their childhood in
+a way that makes them models of good morals and habits; whoever looks at them loves and respects them.
+This is what happened in the case of the Last Prophet ﷺ: before he declared that he had been sent as a
+prophet, the whole of Arabia called him al-Amīn, the trustworthy one, and took him to be true and
+righteous; it was only when he announced his prophethood and prohibited idol-worship that everyone turned
+hostile to him.
+
+**Reflection.** The same nobility that made them hope in him became his indictment the day it refused
+their idols — a pattern repeated in every age of the truthful.
+
+## 11:63
+
+*"He said, 'O my people, what think you, if I stand upon a clear proof from my Lord, and He has granted
+me Mercy from Himself, then who can help me against God were I to disobey Him? You would increase me in
+nothing but loss.'"*
+
+**Meaning.** **[Ṭabarī]** Ṣāliḥ said: O my people, have you considered — if I am upon a clear proof
+from my Lord, and He has given me mercy from Himself — prophethood and revelation — then who will help
+me against God and defend me from His punishment if I disobey Him and abandon what He has commanded me
+of conveying His message, leaving you without rebuke? You would only increase me in loss: if I complied
+with you, you would add to my misguidance and loss. **[Jalālayn]** He said: O my people, have you
+considered — if I am acting upon a clear proof, a clear statement, from my Lord, and He has given me from
+Him mercy — prophethood — who will help me, who will defend me against God, against His chastisement, if
+I disobey Him? You would only be adding, by commanding me to do that, to my loss, my misguidance. **[Ibn
+Kathīr]** He said, "O my people! Tell me, if I have a clear proof from my Lord" — in reference to what
+He has sent me with to you, I am upon conviction and sure evidence — "and there has come to me a mercy
+from Him, who then can help me against Allah, if I were to disobey Him?" — and abandon calling you to
+the truth and the worship of Allah alone; if I did so, you would not be able to bring me any benefit, nor
+increase me "but in loss" — loss and ruin. **[Saʿdī]** They supposed that had they known the soundness
+of what he called them to, they would have followed him — and they lied in that. So he exposed their
+lie: "O my people, what think you, if I am upon a clear proof from my Lord" — upon proof and certainty
+from me — "and He has granted me from Him mercy" — He has favoured me with His message and revelation —
+should I then follow you in what you are upon and what you call me to? "Who will help me against God if I
+disobey Him? You would increase me in nothing but loss" — nothing but perdition, ruin and harm.
+
+**Context.** **[Study Quran]** The clear proof is that brought by the prophets (see 11:28). Ṣāliḥ's
+rhetorical question, similar to Noah's in 11:30, responds to his people's reaction to his call (v. 62).
+"Mercy from Himself" refers to God's bestowal of prophethood upon Ṣāliḥ; by "loss" is meant misguidance
+or Ṣāliḥ's actions coming to naught.
+
+**Reflection.** The prophet weighs one obedience against the other: abandon the proof, and no tribe in
+the world can indemnify him against his Lord.
+
+## 11:64
+
+*"And, 'O my people, this she-camel of God is a sign unto you. Leave her to graze in God's earth, and
+touch her not with harm, lest you be seized by a punishment nigh.'"*
+
+**Meaning.** **[Ṭabarī]** O my people, this she-camel of God is a sign for you — a proof of the truth of
+what I have brought you from God: leave her to eat in God's earth; there is nothing for you to feed her
+of her sustenance; and do not touch her with harm — do not hamstring her — lest a near punishment seize
+you if you hamstring her. **[Jalālayn]** And O my people, this is the she-camel of God, a sign for you;
+leave her to eat in God's earth, and do not cause her any harm by hamstringing her, lest you be seized
+by a near chastisement if you do hamstring her. **[Saʿdī]** "This she-camel of God is a sign for you":
+she has a share of the well one day, and they all drink from her udder that day, and they have a
+share of a known day. "Leave her to graze in God's earth" — nothing of her upkeep and fodder falls upon
+you — "and touch her not with harm" — with hamstringing — "lest a near punishment seize you."
+
+**Context.** **[Study Quran]** Ṣāliḥ brought the pregnant she-camel forth from a large rock in
+accordance with the Thamūd's request to produce a miracle proving his claim to prophethood (26:154); the
+she-camel is called a sign here, a clear proof at 7:73, and a trial at 54:27. The injunction to let her
+graze freely and cause her no harm (7:73; 26:155) makes up one part of the command; the other is
+recounted in 26:155: "She shall have drink and you shall drink on an appointed day" (see also 54:28).
+Yet they hamstrung her and "insolently defied the Command of their Lord" (7:77), disobeying out of
+disdain for His message; the Thamūd then challenged Ṣāliḥ, "Bring upon us that wherewith you have
+threatened us, if you are among those sent by God" (7:77), at which Ṣāliḥ promised them an impending
+punishment after three days.
+
+**Reflection.** The sign asked for came with a schedule and a boundary — free grazing, one share of
+water — and their whole ruin hung on the hamstring of one camel.
+
+## 11:65
+
+*"But they hamstrung her. So he said, 'Enjoy yourselves in your homes for three days — that is a
+promise that will not be belied.'"*
+
+**Meaning.** **[Ṭabarī]** But they hamstrung her: the most wretched of them hamstrung her at their
+command, Qudār b. Sālif acting for them all. Then Ṣāliḥ said to them: "Enjoy yourselves in your homes
+for three days": live out your lives in your dwellings for three days, after which you will be destroyed
+— "that is a promise that will not be belied": it will not fail to come about. **[Jalālayn]** But they
+hamstrung her — Qudār hamstrung her at their command — and he said: Enjoy yourselves, live in your
+dwellings, for three days, whereafter you will be destroyed. That is a promise that will not be belied.
+**[Saʿdī]** But they hamstrung her; so Ṣāliḥ said to them: "Enjoy yourselves in your homes for three
+days; that is a promise not to be belied": rather, it must inevitably come to pass.
+
+**Stories & occasions.** **[Maʿārif]** When these people killed the she-camel associated with the
+miracle, in flagrant contravention of the divine command, then, as warned earlier — "lest a near
+punishment should seize you" — the punishment did come upon them: they were given a respite of three
+days and told that they would all be destroyed on the fourth day.
+
+**Reflection.** Three days of enjoyment — the same three days the sign had asked of them in mercy — and
+then the promise that cannot be called a lie.
