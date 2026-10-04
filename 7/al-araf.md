@@ -3598,3 +3598,586 @@ warning "manifest error" were the ones bowing to stones they had carved themselv
 pronounced over Noah was, in his words, the sentence that fits them. **[Study Quran]**'s survey of the
 notables across the punishment accounts gives the verse a continuing face: the same class speaks the same
 line in every generation, and the sūrah records it first from the mouths of the people of Noah.
+
+## 7:61
+
+*"He said, 'O my people, there is no error in me, but I am a messenger from the Lord of the worlds.'"*
+
+**Meaning.** **[Ṭabarī]** gives the reply: Noah said to his people, answering them, O my people — I did not command
+you what I commanded of making worship sincere for God and singling Him out for obedience apart from
+rivals and gods out of any slipping of mine from the path of truth or any going astray from the road of
+rightness; the error you suppose is not in me; rather I am a messenger to you from the Lord of the
+worlds, with what I commanded you of singling Him out for obedience, affirming His oneness, and
+disowning rivals and gods [Ṭabarī]. **[Saʿdī]** notes the manner before the matter: Noah answered them
+with a gentle answer and softness toward them, hoping they would submit — "O my people, there is no error
+in me," that is, you are not astray in any question whatever; rather I am one who guides and is guided,
+and his guidance is of the kind of the guidance of his brothers, the messengers of resolution, the
+highest, most complete and most perfect of guidance, the guidance of the full and complete message; and
+therefore he said, "but I am a messenger from the Lord of the worlds" — my Lord and your Lord and the
+Lord of all creation, who has nurtured all creation with every kind of nurturing, and the greatest part
+of His nurturing is that He sent to His servants messengers who command them to righteous deeds, noble
+character and sound belief, and forbid them their opposites; and therefore he said, "I convey to you the
+messages of my Lord and I advise you sincerely" — my task is to deliver to you, with the exposition of
+His oneness and His commands and prohibitions, in a manner of sincere counsel and compassion for you —
+"and I know from God what you do not know," so that what is incumbent on you is to obey me and submit to
+my command, if you know [Saʿdī]. **[Maʿārif]** reads this reply as a lesson in the art of calling to
+God: these were harsh words, but the reply of Noah is an eloquent diction fit for a prophet; here he is
+leaving a trail for all carriers of the call, preachers and reformers, a signpost of education and
+guidance; he is not responding on the same wavelength, not anger against anger, but trying to remove
+their doubts in the simplest possible words — "O my people, there is no error in me, but I am a messenger
+from the Lord of the worlds": their accusation that he had gone astray was not true, but the fact
+remained that he was not bound by their ancestral customs rooted in ignorance; instead he was sent as a
+messenger from the Lord of all the worlds, and whatever he was telling them was under the guidance of his
+Lord, his sole mission being to convey the message of God, which was in their interest and for their
+good, not for any benefit of God nor for any personal interest of his own; and the expression "Lord of
+all the worlds" strikes decisively against the belief in partners, for once its spirit is understood no
+god or goddess of any denomination can stand valid as an object of worship [Maʿārif]. **[Ibn Kathīr]**
+renders it: there is nothing wrong with me, but I am a messenger from the Lord of all that exists, the
+Lord and King of all things [Ibn Kathīr]. **[Jalālayn]** notes the word chosen: *ḍalāla* is more general
+than *al-ḍalāl*, and so to deny it is more effective than to deny the latter [Jalālayn].
+
+**Language.** **[Qurṭubī]** gives the dictionary of the verse's two key words: *al-malāʾ* are the noblest
+of the people and their leaders; *al-ḍalāl* and *al-ḍalāla* are the turning away and departure from the
+path of truth — so the accusation meant: we see you, in your call to us to a single God, in error from
+the truth [Qurṭubī]. **[Jalālayn]** notes that Noah denies the more inclusive term, and by denying the
+greater he denies the lesser with it — the answer meets the charge at its widest [Jalālayn].
+
+**Cross-references.** "And when they saw them, they said, 'Indeed these are the ones who have gone
+astray!'" (83:32); "And those who disbelieve say of those who believe, 'Had it been good, they would not
+have preceded us to it'" (46:11); "And the notables of his people who disbelieved said, 'We do not see
+you but a man like ourselves'" (11:27); "Say: This is my way; I call to God with clear proof — I and
+whoever follows me" (12:108) [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Ibn Kathīr]** draws the pattern out of the exchange: this is the attitude of evil
+people, for they consider the righteous to be the ones following misguidance — as the Qurʾān says of the
+criminals looking at the believers, "indeed these are the ones who have gone astray" (83:32)
+[Ibn Kathīr]. **[Maʿārif]** reads the verse as a model of the caller's manners: the harsh word is
+answered without harshness, the accusation is met with the removal of doubt rather than the exchange of
+insult, and the claim is finally not for the prophet but for the Lord whose message he carries
+[Maʿārif].
+
+## 7:62
+
+*"I convey to you the messages of my Lord, and I advise you sincerely, and I know from God what you do not know."*
+
+**Meaning.** **[Ṭabarī]** gives the sense of each clause: God reports of His prophet Noah that he said to
+his people who disbelieved in God and denied him — "but I am a messenger from the Lord of the worlds,"
+sent to you, so I convey to you the messages of my Lord; and I counsel you in my warning you of God's
+punishment for your disbelief in Him, your denial of me and your rejection of my counsel; "and I know
+from God what you do not know" — that His punishment is not to be averted from the guilty people
+[Ṭabarī]. **[Qurṭubī]** opens the lexicon of counsel: *al-nuṣḥ* is the purification of the intention
+from the admixtures of corruption in dealings, as opposed to deceit; one says *naṣaḥtuhu* and *naṣaḥtu
+lahu* — with the preposition it is more eloquent, and God says "and I advise you sincerely" (*anṣaḥu
+lakum*); the noun is *al-naṣīḥa*; a man *nāṣiḥ al-jayb* is one of pure heart; al-Aṣmaʿī said the *nāṣiḥ*
+is the pure of honey and other things, like *al-nāṣiʿ*, and whatever is pure has *naṣaḥa*; and he notes
+the words for counsel, the anxious adviser, and the awl and thread of the tailor, and the lines of
+al-Aʿshā in which *niṣāḥāt* are the thongs of leather [Qurṭubī]. **[Ibn Kathīr]** gives the sentence its
+plain sense: I convey to you the messages of my Lord and give sincere advice to you, and I know from God
+what you know not [Ibn Kathīr]. **[Saʿdī]** reads the clause as the definition of the prophetic task:
+my function is to deliver to you, expounding His oneness and His commands and prohibitions, together with
+sincere counsel and compassion for you; "and I know from God what you do not know" — knowledge of the
+punishment that follows the rejection of the message — so that what is binding on you is to obey me and
+submit to my command, if you truly know [Saʿdī]. **[Study Quran]** sets the phrase in the sūrah's family
+of self-descriptions: the prophets are described as "sincere advisers" — Noah here and in 11:34, Hūd in
+7:67–68, Ṣāliḥ in 7:79 and 7:93 — and the description may be contrasted with Satan's false claim to be a
+sincere adviser to Adam and Eve (7:21); Noah's "I know from God what you know not" refers most directly
+to the great punishment about to come upon his people (Th) [Study Quran].
+
+**Language.** **[Qurṭubī]**'s material on *nuṣḥ* gives the word its moral texture: the adviser is the
+one whose counsel is pure of any admixture — the word carrying the sense of purity as honey is pure when
+nothing is mixed into it — so that "I advise you sincerely" is a claim about the unmixedness of the
+counsel and not merely its delivery [Qurṭubī]. **[Jalālayn]** notes the alternative readings of the
+first verb, *ublighkum* or *uballighukum*, both used of carrying the message through [Jalālayn].
+
+**Cross-references.** "And I do not ask you for it any payment; my payment is only from the Lord of the
+worlds" (26:109); "And my sincere advice will not benefit you, if I wish to advise you, if God should
+wish to lead you astray" (11:34); "And he said, 'I am indeed a sincere adviser to you'" (7:21, of
+Satan); "So know that there is no god but God" (47:19) [Study Quran] [Saʿdī].
+
+**Reflection.** **[Study Quran]**'s note that the sincere adviser is the figure Satan counterfeits
+(7:21) gives the verse a sharp edge: the same claim was made in the Garden by the father of lies, and the
+difference between the two claims is the difference that the rest of the verse supplies — one adviser
+delivers God's messages and knows what God has told him, the other invents a promise and swears a lie.
+**[Maʿārif]** gives the same distinction its pastoral reading: the caller's sole mission is to convey the
+message in the interest of the called, so that counsel and not triumph is the measure of his work
+[Maʿārif].
+
+## 7:63
+
+*"Or do you wonder that a reminder from your Lord should come to you through a man from among you, so that he may warn you, and that you may be reverent, and that haply you may receive mercy?"*
+
+**Meaning.** **[Ṭabarī]** sets the verse in the exchange: this is God's report of the speech of Noah to
+his people, when they threw back his counsel concerning God and denied that God had sent him as a
+prophet, saying to him, "We do not see you but a man like ourselves, and we do not see any who follow
+you except the lowest of us, on first thought; and we do not see in you any superiority over us; rather
+we think you are liars" (11:27) — then he said: "do you wonder that a reminder from your Lord should come
+to you?" — do you wonder that there should come to you a calling to mind from God and an admonition
+reminding you of what your Lord sent down — "through a man from among you," that is, with a man from
+among you — "to warn you" of God's might and to frighten you with His punishment for your disbelief in
+Him; "and that you may be reverent" — that you may guard against God's punishment and might by affirming
+His oneness, making faith sincere for Him and working in His obedience; "and that haply you may receive
+mercy" — that your Lord may have mercy on you if you fear God and dread His might. And he notes the
+grammar of the opening: the *wāw* of "or do you wonder" takes the *fatḥa* because it is the *wāw* of
+coordination upon which the interrogative *alif* has entered [Ṭabarī]. **[Qurṭubī]** notes the same
+grammar and adds the explanation of the phrase: the *wāw* should enter upon interrogative particles
+except the *alif*, because of the *alif*'s strength; "a reminder" is an admonition from your Lord; "upon
+a man from among you" means upon the tongue of a man; it was also said that "upon" has the sense of
+"with," that is, with a man from among you; and it was said the meaning is that a reminder from your Lord
+has come to you, sent down upon a man from among you — that is, one whose lineage you know, a man of
+your own kind; and had he been an angel the difference of kind might have produced a mutual aversion of
+natures [Qurṭubī]. **[Saʿdī]** reads the question as the answer to the objection: how can you wonder at
+a state at which there should be no wonder — that the reminder, the admonition and the counsel should
+come to you at the hands of a man from among you whose truthfulness and condition you know? This state is
+one of God's care for you and His kindness and beneficence, which should be received with acceptance and
+thankfulness; "that he may warn you, and that you may be reverent, and that haply you may receive
+mercy": that he may warn you of the painful punishment, and you may do the things that deliver you by
+using the fear of God outwardly and inwardly, and by that the vast mercy of God may descend upon you
+[Saʿdī]. **[Maʿārif]** states the argument in full: the making of a human being a messenger of God is
+not a matter of surprise — first, God is the Absolute Master, and bestowing on someone the status of a
+prophet or messenger is His exclusive domain, done at His will, and no one is in a position to have it
+otherwise; and in addition, a little deliberation makes it clear that the purpose of sending a prophet
+to guide human beings can only be achieved through a human being, a mission angels cannot perform —
+because the purpose of prophethood is to bring people to believe in and obey God and to save them from
+the harsh consequences of opposition, and this is possible only when a person from their own kind
+presents before them a model of the desired conduct and shows that it is quite possible to worship God
+and obey His injunctions while fulfilling inherent human needs and desires; had the call been brought by
+angels and they had put their model before people, people would have found it convenient to say that
+angels are free of human desires, never hungry and so on [Maʿārif]. **[Study Quran]** notes that here
+Noah challenges his people by articulating one basis of their rejection, namely that they cannot believe
+that God would send a message by means of a man like themselves (see 11:27 and 23:24, where they state
+this objection themselves); see also v. 69, where Hūd makes an identical challenge; the Quraysh who
+rejected Muhammad did so in part because they were incredulous that God would send His message through a
+human being like themselves rather than by means of or accompanied by an angel (6:8; 11:12; 17:94–95;
+25:7), or by someone who enjoyed greater prestige among them than Muhammad (43:31); and that Noah and
+Hūd faced similar attitudes was meant, like other elements of these prophetic narratives, to strengthen
+the resolve of the Prophet in the face of his own struggles with the Quraysh [Study Quran].
+**[Jalālayn]** renders the question: do you then wonder — that is, deny — that an admonition from your
+Lord should come to you through the tongue of a man from among you, that he may warn you of chastisement
+if you do not believe, and that you may fear God, and that you might be shown mercy by it? [Jalālayn].
+
+**Belief.** **[Maʿārif]** draws the doctrine from the verse's argument: the sending of a human messenger
+is neither a limitation of God's power nor an accident of history but the deliberate shape of guidance —
+the model must be of the same kind as the ones to be guided, since the lesson is learned by imitation of
+one who has the same needs and desires; the objection of the people of Noah, and later of the Quraysh,
+turns on a misunderstanding of what the messenger is for [Maʿārif]. **[Qurṭubī]**'s observation about
+the aversion of natures for a different kind makes the same point from the side of human psychology: the
+angelic messenger would have been a sign without a model [Qurṭubī].
+
+**Cross-references.** "And We did not send before you any but men to whom We revealed" (21:7; cf. 12:109);
+"And they said, 'Why was an angel not sent down to him?'" (6:8; cf. 25:7); "And if We had made him an
+angel, We would have made him a man, and We would have confused them in what they confuse" (6:9); "Say:
+I am only a man like you; it has been revealed to me" (18:110) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s note that the sūrah's recital of these rejections was meant to
+strengthen the Prophet's resolve turns the verse toward its first hearers: the objection to a messenger
+"from among you" is the oldest and most repeated of objections, and the sūrah answers it in the same
+terms to each generation. **[Saʿdī]** reads the wonder in the verse as inverted: what should cause wonder
+is not that a man brought the reminder, but that the hearers received a kindness with denial.
+
+## 7:64
+
+*"But they denied him, so We saved him and those with him in the ark, and We drowned those who denied Our signs. Indeed they were a blind people."*
+
+**Meaning.** **[Ṭabarī]** gives the narrative: his people denied Noah when he told them he was a messenger
+of God to them, commanding them to cast off the rivals and to affirm God's oneness and to work in His
+obedience; they opposed their Lord's command and persisted in their tyranny, wandering blindly — so God
+saved him in the ark, and those with him among the believers, who were ten persons with Noah: as Ibn
+Isḥāq's report has it, Noah, his three sons Sām, Ḥām and Yāfith, their wives, and six persons who had
+believed in him; and he carried with him in the ark of every kind two, as God said, "and whoever believed
+— and none believed with him except a few" (11:40). *Al-fulk* is the ship; "and We drowned those who
+denied Our signs" — God drowned those who denied His proofs and did not follow His messengers and did
+not accept his counsel concerning God, with the flood; "indeed they were a blind people" — blind to the
+truth, as Mujāhid said, and as Ibn Zayd said: blindness is the blindness of the one blind to the truth
+[Ṭabarī]. **[Qurṭubī]** notes the grammar of the opening and the close: the *wāw* of "or do you wonder"
+takes the *fatḥa* because it is a *wāw* of coordination upon which the interrogative *alif* has entered
+for confirmation, and the *wāw*'s way is to enter upon interrogative letters except the *alif*, because
+of its strength; "a reminder" is an admonition from your Lord; and *al-fulk* is both singular and plural;
+"blind" means blind to the truth, said Qatāda, or blind to the knowledge of God and His power, for one
+says a man is blind to such-and-such, meaning ignorant of it [Qurṭubī]. **[Saʿdī]** draws the outcome:
+the warning did not profit them and did not succeed — "but they denied him, so We saved him and those
+with him in the ark," the ship God commanded Noah to build and revealed to him that he should carry in it
+of every kind of animal two, and his family, and whoever believed with him; God carried them in it and
+saved them by it; "and We drowned those who denied Our signs — indeed they were a blind people": blind
+to guidance — they saw the truth, and God showed them at Noah's hands clear signs by which people of
+understanding would believe, yet they mocked him and ridiculed him and disbelieved [Saʿdī].
+**[Jalālayn]** gives the summary: they denied him, and so We delivered him and those with him in the ark
+from drowning, and We drowned those who denied Our signs by means of the flood; truly they were a people
+blind to the truth [Jalālayn]. **[Ibn Kathīr]** notes how few believed — the few of 11:40 — and reads
+"and they were a blind people" as the verdict on a people who insisted on rejection and opposition
+[Ibn Kathīr]. **[Study Quran]** gives the event and its details: Noah's people continued their denial and
+so were drowned in the ensuing flood (see 54:11–12); God spares Noah and those who were with him in the
+Ark, as in the Biblical account (Genesis 7–9); in the punishment accounts of the Qurʾān the prophets are
+always saved from the destruction brought upon their people, as are their believing family members or
+other followers, for the Qurʾān asks rhetorically, were the punishment of God to come upon you suddenly
+or openly, would any be destroyed save the wrongdoing people? (6:47); in Noah's case those spared
+included members of his family (11:40), except for one of his sons (11:42–43) and perhaps his wife, whom
+the Qurʾān describes as a disbeliever (66:10); those aboard the ark are said to have included his three
+sons, Sām, Ḥām and Yāfath, perhaps their wives, and six other believers (Ṭ, Z), while other accounts
+indicate that there were eighty people — forty men and forty women — saved in the ark (IK, Z); and the
+Ark is described, as in the Biblical account, as a wooden vessel [Study Quran]. **[Maʿārif]** adds the
+setting of the flood from Zayd b. Aslam: when the punishment of the Flood overtook the people of Noah
+they were at the prime of their population and power, the lands and mountains of Iraq becoming
+insufficient for their rising numbers; and he notes the customary practice of God that He grants respite
+to the disobedient and sends His punishment upon them at a time when they have reached the highest peak
+of their numbers, power and wealth and have become, so to speak, drunk with that state of life
+(Maʿārif, from Ibn Kathīr); and on the number in the Ark he records the report of Ibn Abī Ḥātim from
+Ibn ʿAbbās that there were eighty people, one of them called Jurhum, who spoke Arabic *(Isrāʾīliyyāt)*
+[Maʿārif].
+
+**Rulings.** **[Ṭabarī]**'s report from Ibn Isḥāq on the ten who were saved, and **[Study Quran]**'s
+collation of the two counts, belong to the tradition's reckoning with the verse's word "a few" (11:40):
+the deliverance was narrow, and the sūrah's point is not the number but the division — the sign was
+denied, and those who denied it were drowned while those who carried the message were saved
+[Ṭabarī] [Study Quran]. **[Maʿārif]** draws from Zayd b. Aslam's report its warning: the punishment came
+at the height of the people's power — the time of their confidence was the time of their ruin
+[Maʿārif].
+
+**Cross-references.** "Until, when Our command came and the oven gushed forth, We said, 'Carry in it of
+every kind two, and your family — except those against whom the word has already gone forth'" (11:40);
+"And it was said, 'O earth, swallow your water, and O sky, withhold' — and the water was made to subside,
+and the command was fulfilled" (11:44); "So We opened the gates of heaven with pouring water" (54:11);
+"And Noah called to his Lord and said, 'My Lord, my son is of my family'" (11:45); "And Noah said, 'My
+Lord, do not leave upon the earth any inhabitant from among the disbelievers'" (71:26)
+[Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** names the blindness of the verse's last word as the inner history of the
+flood: the people saw the signs at Noah's hands and mocked, and the water that covered them was the
+outward form of a blindness they had chosen. **[Maʿārif]**'s report of Zayd b. Aslam gives the same
+scene its sober note: the Ark was built and the warning repeated while the people were at their height —
+and the verse's "they were a blind people" is spoken over a civilization at its confident peak.
+
+## 7:65
+
+*"And to ʿĀd, their brother Hūd. He said, 'O my people, worship God; you have no god other than Him. Will you not be reverent?'"*
+
+**Meaning.** **[Ṭabarī]** reads the verse: We sent to ʿĀd their brother Hūd — and Hūd is in the
+accusative because it is coordinated with Noah — and Hūd said: O my people, worship God and single Him
+out for worship, and do not set up with Him any god besides Him, for you have no god other than Him;
+"will you not be reverent" of your Lord — that is, will you not guard against Him and fear His punishment
+for your worship of other than Him, when He is your creator and your provider apart from all else?
+[Ṭabarī]. **[Qurṭubī]** explains "their brother": Ibn ʿAbbās said it means the son of their father; it was
+also said, their brother in the tribe; and it was said, a human being from the sons of their father Adam;
+and in the *Muṣannaf* of Abū Dāwūd it is said that "their brother Hūd" means their companion. ʿĀd is of
+the children of Sām b. Nūḥ; Ibn Isḥāq said: ʿĀd is the son of ʿAwṣ b. Iram b. Shālikh b. Arfakhshad b.
+Sām b. Nūḥ, and Hūd is Hūd b. ʿAbdillāh b. Rabāḥ b. al-Julūd b. ʿĀd b. ʿAwṣ b. Iram b. Sām b. Nūḥ; God
+sent him to ʿĀd as a prophet, and he was of their middling lineage and the best of them in descent.
+"ʿĀd" — whoever does not inflect it makes it a name of the tribe, and whoever inflects it makes it a
+name of the living group; Abū Ḥātim said that in the codex of Ubayy and Ibn Masʿūd it is "the first ʿĀd"
+without the *alif*; and "Hūd" is a foreign name, inflected because of its lightness, being of three
+letters, though it may also be Arabic, derived from *hāda yahūdu*; the accusative is on the
+substitution. Between Hūd and Noah, as the exegetes mention, there were seven fathers; and ʿĀd, it is
+reported, were thirteen tribes dwelling in the sands, the sand of ʿĀlij; they were people of gardens,
+crops and buildings, and their land was the most fertile of lands, until God was angry with them and made
+it a desolation; it was, it is reported, in the regions of Ḥaḍramawt toward Yemen; they worshipped idols;
+and Hūd, when his people were destroyed, joined those who had believed with him at Mecca and they
+remained there until they died [Qurṭubī]. **[Saʿdī]** reads it: "and" — We sent — "to ʿĀd," the first,
+who were in the land of Yemen, "their brother" in lineage, "Hūd," peace be upon him, calling them to
+tawḥīd and forbidding them from shirk and from tyranny upon the earth, saying to them: O my people,
+worship God; you have no god other than Him; will you not be reverent of His wrath and His punishment if
+you remain on what you are on? [Saʿdī]. **[Ibn Kathīr]** gives the setting of the people and the
+prophet: ʿĀd were the descendants of ʿĀd, son of Iram, son of ʿAwṣ, son of Sām, son of Nūḥ — "Have you
+not seen how your Lord dealt with ʿĀd, Iram of the pillars, the like of which were not created in the
+lands?" (89:6–8) — because of their might and strength; and "as for ʿĀd, they were arrogant in the land
+without right and said, 'Who is mightier than us in strength?'" (41:15). The people of ʿĀd lived in
+Yemen, in the area of *al-aḥqāf*, which means sand mounds; Ibn Isḥāq narrated that Abū al-Ṭufayl ʿĀmir b.
+Wāthila heard ʿAlī say to a man from Ḥaḍramawt, describing a red sand mound with many *arak* and lote
+trees in that region, "there is the grave of Hūd, peace be upon him, in its vicinity" — and Ibn Jarīr
+recorded this statement, which gives the benefit of indicating that ʿĀd used to live in Yemen, since the
+prophet Hūd was buried there; Hūd was among the noble men and chiefs of ʿĀd, for God chose the messengers
+from among the best and most honourable families and tribes; his people were mighty and strong, but their
+hearts were hard, for they were among the most denying of truth among the nations [Ibn Kathīr].
+**[Study Quran]** notes that Hūd is an Arab prophet whose story is told in some detail in 11:50–60,
+26:123–39, 46:21–25 and 54:18–21; though Hūd has no counterpart in the Biblical text, the Islamic
+tradition maintains that he and his people are descendants of Noah through the latter's son Sām (Shem);
+in one account the lineage of Hūd is given as Hūd ibn Shalikh (Shaleh) ibn Arfakhshath (Arpachshad) ibn
+Sām (Shem) ibn Nūḥ (Noah), with all his ancestors having Biblical counterparts (Genesis 10:21–24), and
+another account identifies him as Hūd ibn ʿĀd ibn Iram ibn ʿAwṣ ibn Sām ibn Nūḥ, based on 89:6–7; Hūd's
+call to his people to worship the One God is identical to that of Noah in v. 59; the ʿĀd are said to have
+originated in southern Arabia, between Ḥaḍramawt in southern Yemen and Oman, a region with many sand
+dunes (*aḥqāf*) — the latter being the name of Sūrah 46, which includes an account of the ʿĀd
+[Study Quran].
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** records the report of ʿAlī's description of the sand mound in
+Ḥaḍramawt near which Hūd is buried, transmitted from Abū al-Ṭufayl and recorded by Ibn Jarīr — a report
+that places the ʿĀd's homeland in Yemen through the burial place of their prophet [Ibn Kathīr].
+**[Study Quran]** records the two lineages proposed for Hūd, one descending from Shem through
+Arpachshad and the other through the eponymous ʿĀd, both drawn from the tradition's genealogists
+[Study Quran].
+
+**Cross-references.** "Have you not seen how your Lord dealt with ʿĀd, Iram of the pillars" (89:6–7);
+"As for ʿĀd, they were arrogant in the land without right and said, 'Who is mightier than us in
+strength?'" (41:15); "And remember the brother of ʿĀd, when he warned his people in the sand dunes"
+(46:21); "And to Thamūd, their brother Ṣāliḥ" (7:73; cf. 26:142) [Qurṭubī] [Study Quran].
+
+**Reflection.** **[Qurṭubī]**'s account of the fertile land turned to wilderness makes the verse's
+call to reverence landless: the people were given a land that outpaced every other in fertility, and the
+"will you not be reverent" is spoken to a people whose prosperity was the argument they trusted
+[Qurṭubī]. **[Study Quran]**'s note that the call of Hūd is word-for-word the call of Noah gives the
+sūrah's pattern its point: the same message, the same objection, and — as the verses that follow show —
+the same end.
+
+## 7:66
+
+*"The notables of his people who disbelieved said, 'Indeed we see you in foolishness, and indeed we think you are among the liars.'"*
+
+**Meaning.** **[Ṭabarī]** identifies the speakers and the charge: this is God's report of what the people of
+Hūd who disbelieved in God answered him — the notables, that is, those who rejected God's oneness and
+denied that God had sent him a message — "indeed we see you," O Hūd, "in foolishness," meaning in error
+from truth and rightness by your leaving our religion and the worship of our gods; "and indeed we think
+you are among the liars" in your saying, "I am a messenger from the Lord of the worlds" [Ṭabarī].
+**[Saʿdī]** draws the scene's irony: they did not respond and did not submit, so the notables of his
+people who disbelieved said, rejecting his call and impugning his judgment, "indeed we see you in
+foolishness, and indeed we think you are among the liars" — that is, we see you only as a fool, not
+rightly guided, and our preponderant opinion is that you are one of the liars; and the truth was turned
+upon them and their blindness became firm, in that they flung at their prophet what they themselves were
+characterized by while he was the furthest of people from it — for they are truly the fools, the liars;
+and what folly is greater than one who meets the truest truth with rejection and denial, is arrogant
+about following the guides and the sincere advisers, and leads his heart and body to every rebellious
+devil, and places worship in other than its place, worshipping trees and stones that avail him nothing?
+And what lie is more eloquent than the lie of one who attributes these matters to God? [Saʿdī].
+**[Jalālayn]** reads it in brief: the council, those of his people who disbelieved, said: "we truly see
+you in folly, ignorance, and we truly deem you of the liars" in your message [Jalālayn].
+**[Study Quran]** notes that Hūd's people reject his call by claiming that he is foolish and among the
+liars, whereas Noah's people had accused him of being in error (v. 60), though the response of both
+prophets is similar — denying the accusations and asserting that their purpose is simply to deliver the
+messages from God and to serve as a sincere or trustworthy adviser to their people, qualities Ibn Kathīr
+notes are common to all prophets (see 7:60–62); and it observes that Noah was rejected by the notables
+among his people in general, while Hūd is opposed only by the notables among his people who disbelieved
+(also in 23:33), since some of the leading members of Hūd's people were reportedly believers in his
+message (Z) [Study Quran]. **[Maʿārif]** notes simply that the stance taken in opposition here resembles
+the one taken by the people of Noah, the only difference being that of some words [Maʿārif].
+
+**Language.** **[Qurṭubī]** gives the sense of *safāhah* with its illustration: it is foolishness and
+lightness of mind, and the poets use *tasaffahat* of the wind shaking the tops of spears — the word
+carrying the sense of an unstable lightness that has no weight of its own; and he notes that the
+"seeing" here, as in Noah's story, may be the seeing of the eye or the opinion that is preponderant
+supposition, so that "we see you in foolishness" and "we think you among the liars" are two stages of one
+judgment [Qurṭubī]. **[Saʿdī]** observes that the two clauses of the accusation are paired: folly
+attached to his person and lying attached to his message — the attack on the man and the attack on what
+he carried [Saʿdī].
+
+**Cross-references.** "And the notables of his people who disbelieved said, 'We do not see you but a man
+like ourselves, and we do not see any who follow you except the lowest of us'" (11:27); "And the
+notables of his people who disbelieved and denied the meeting of the Hereafter said, 'This is only a man
+like you'" (23:33); "And when they saw them, they said, 'Indeed these have gone astray'" (83:32);
+"He said, 'O my people, there is no foolishness in me'" (7:67) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]** reads the accusation as a mirror: the men who called the prophet a fool and a
+liar were themselves worshipping stones, and the verse lets their own words describe them — the Qurʾān's
+recurring way of letting the opponents' speech become their verdict. **[Study Quran]**'s contrast between
+the two rejections — Noah's people rejecting him in general, Hūd's only in part, with some of the leading
+men reportedly believers — gives the scene its human texture: the same line is spoken by the same class,
+but not by the same whole.
+
+## 7:67
+
+*"He said, 'O my people, there is no foolishness in me, but I am a messenger from the Lord of the worlds.'"*
+
+**Meaning.** **[Ṭabarī]** gives the reply: Hūd said, O my people, there is no error from truth and right in
+me — that is, no straying at all — "but I am a messenger from the Lord of the worlds": He sent me, and I
+convey to you the messages of my Lord and deliver them to you as I was commanded to deliver them
+[Ṭabarī]. **[Saʿdī]** reads the answer as the counterpart of Noah's: "O my people, there is no
+foolishness in me" in any respect whatsoever — rather he is the messenger, the guide, the rightly
+guided — "but I am a messenger from the Lord of the worlds" [Saʿdī]. **[Jalālayn]** gives it plainly:
+he said, "O my people, there is no folly in me, but I am a messenger from the Lord of the worlds"
+[Jalālayn]. **[Study Quran]** notes that the response of both prophets — Noah and Hūd — is similar:
+denying their people's accusations and asserting that their purpose is simply to deliver the messages
+from God and to serve as a sincere or trustworthy adviser to their people [Study Quran].
+
+**Language.** **[Qurṭubī]**'s material on *safāhah* — the folly of the light and unrooted mind — gives
+the denial its precision: Hūd does not claim cleverness but denies the lightness, and then supplies what
+he is instead: a messenger of the Lord of the worlds, a weight he did not choose and cannot exchange
+[Qurṭubī]. **[Ṭabarī]** notes that the denial is followed by the affirmation rather than left as a bare
+defence: the verse moves from what he is not to whose he is [Ṭabarī].
+
+**Cross-references.** "Say: I do not ask of you any payment, and I am not of those who pretend" (38:86);
+"And the messenger said, 'O my people, I am a trustworthy messenger to you, so fear God and obey me'"
+(26:107–108); "And I am not a keeper over you" (6:104; cf. 11:86) [Ṭabarī] [Study Quran].
+
+**Reflection.** **[Saʿdī]**'s brief reading places the verse's weight on the second clause, as in the
+parallel with Noah: the prophet's self-denial is not a display of modesty but the removal of himself from
+the center, so that the message rather than the messenger is what the people are asked to weigh
+[Saʿdī]. **[Study Quran]** adds the pattern's comfort for the Prophet Muhammad: the words of Hūd are the
+words of every messenger, and the sūrah records them for the one who would repeat them [Study Quran].
+
+## 7:68
+
+*"I convey to you the messages of my Lord, and I am a trustworthy adviser to you."*
+
+**Meaning.** **[Ṭabarī]** expands the two clauses: I deliver to you, O people, my Lord's messages — in my
+commanding you to worship God apart from rivals and gods, and in my calling you to believe me in what I
+have brought you from God — and I am a sincere adviser to you, so accept my counsel, for I am trustworthy
+with the revelation of God and with what God entrusted to me of the message: I do not lie in it, nor add
+to it, nor change it, but I deliver what I was commanded as I was commanded [Ṭabarī]. **[Saʿdī]** gives
+the sentence as the conclusion of the prophet's answer: "I convey to you the messages of my Lord, and I
+am to you a sincere adviser, trustworthy" — so what is incumbent on you is to receive that with
+acceptance and submission and obedience to the Lord of the servants [Saʿdī]. **[Jalālayn]** renders it:
+I convey to you the messages of my Lord, and I am your truthful adviser, trustworthy in the message I
+convey [Jalālayn]. **[Study Quran]** sets the verse among the sūrah's self-descriptions of the prophets:
+Hūd is a "sincere adviser" as Noah is (7:62; cf. 11:34), Ṣāliḥ is (7:79, 93), and the description may be
+contrasted with Satan's false claim to be a sincere adviser to Adam and Eve in 7:21 [Study Quran].
+**[Ibn Kathīr]** notes that these qualities — delivering the messages of the Lord and advising sincerely
+— are common to all the prophets [Ibn Kathīr].
+
+**Language.** **[Qurṭubī]**'s lexicon of *nuṣḥ* stands behind the word "adviser": the purification of
+intention from every admixture, so that the adviser is the one whose counsel is unmixed; and *amīn*, the
+trustworthy, is the one into whose hands the deposit may be placed without fear of its loss or
+alteration [Qurṭubī]. **[Ṭabarī]** makes the trust explicit: he neither lies in the revelation, nor adds
+to it, nor changes it — the two words together defining the messenger's office as the pure delivery of an
+untouched deposit [Ṭabarī].
+
+**Cross-references.** "And I do not ask of you any payment for it; my payment is only from the Lord of the
+worlds" (26:109, 127); "This is a noble messenger, possessed of strength, secure with the Lord of the
+Throne, obeyed and trustworthy" (81:19–21); "And it is not for a messenger to bring a sign except by the
+permission of God" (13:38); "Indeed, God commands you to render trusts to their owners" (4:58)
+[Ṭabarī] [Study Quran].
+
+**Reflection.** **[Ṭabarī]**'s listing of what he does not do — not lie, not add, not change — gives the
+verse its trustworthiness in the literal sense: the messenger's integrity is not a virtue he displays but
+the condition of the message's arrival. **[Study Quran]**'s parallel with Satan's claim in the same
+sūrah (7:21) sets the two "advisers" side by side, so that the reader can see what the counterfeit
+promises and what the messenger carries.
+
+## 7:69
+
+*"Or do you wonder that a reminder from your Lord should come to you through a man from among you, so as to warn you? And remember when He made you successors after the people of Noah, and increased you amply in stature. So remember the boons of God, that haply you may prosper."*
+
+**Meaning.** **[Ṭabarī]** reads the two movements of the verse: "or do you wonder that a reminder from
+your Lord should come to you through a man from among you, to warn you" — God says this to Hūd's people,
+reminding them of the same answer Noah gave his own people; and then, "and remember when He made you
+successors after the people of Noah": fear God for yourselves and remember what befell the people of
+Noah when they disobeyed their messenger and disbelieved their Lord — for your Lord made you successors
+in the earth after them, and when He destroyed them He put you in their place; so fear that the like of
+what came upon them should come upon you, and that He destroy you and put others in your place, His way
+with the people of Noah before you for their disobedience and disbelief; "and increased you amply in
+stature" — He increased your bodies in height and size beyond the bodies of the people of Noah, and your
+strength beyond theirs, as a favour from Him to you; so remember His favours and His bounty by which He
+preferred you over them in your bodies and your strength, and give thanks to God for it by making worship
+sincere for Him, leaving the association of others with Him, and forsaking idols and rivals; "that haply
+you may prosper" — that you may attain immortality and permanence in blessings in the Hereafter and
+succeed in your requests with Him. He reports al-Suddī on the successors: He took away the people of
+Noah and made you successors after them; and from Ibn Isḥāq: the inhabitants of the earth after the
+people of Noah; and on the increase in stature: that it was in strength, and that *al-ālāʾ* is a plural
+whose singular is *ilā*, *alā* or *ily*, meaning the favours [Ṭabarī]. **[Saʿdī]** gives the two
+arguments of the verse: how do you wonder at a matter at which no wonder is due — that the reminder
+should come to you at the hands of a man from among you whose truth and condition you know — for this is
+God's care for you and His kindness, to be received with acceptance and thanks; "and remember when He
+made you successors after the people of Noah and increased you amply in stature" — and remembering these
+blessings would be for their own good, though they paid no heed [Saʿdī]. **[Qurṭubī]** explains the two
+favours: "successors" is the plural of *khalīfa*, meaning that God made them the dwellers of the earth
+after the people of Noah; "and increased you in creation with amplitude" — the word may be read with the
+*sād* because of the *ṭāʾ* after it — height in creation and greatness of body; Ibn ʿAbbās said: the
+tallest of them was a hundred cubits and the shortest sixty cubits, and this increase was over the
+creation of their fathers; it was said, over the creation of the people of Noah; and Wahb said one of
+their heads was like a great dome, and the eye of a man among them was such that wild beasts might
+nest in it, and likewise their nostrils *(Isrāʾīliyyāt)*; and he records from Shahr b. Ḥawshab from Abū
+Hurayra that a man of the people of ʿĀd would take two stone doors which, had five hundred men of this
+community gathered against them, they could not lift, and that one of them would press the earth with his
+foot and it would sink in *(Isrāʾīliyyāt)*; and *al-ālāʾ* means the favours of God, its singular *ilā*,
+*ily*, *ilw* or *alā* [Qurṭubī]. **[Ibn Kathīr]** places the people among their possessions: the ʿĀd were
+"of Iram, like lofty pillars, the like of which were not created in the lands" (89:6–8) because of their
+might and strength, and they said, "Who is mightier than us in strength?" — while God who created them
+was mightier (41:15); and he notes the report that because of their great size they were able to conquer
+much territory beyond their native region [Ibn Kathīr]. **[Study Quran]** reads the verse as Hūd's
+challenge to the same objection Noah faced: like Noah, Hūd challenges his people's inability to accept
+that God would send a message through a mere human being like themselves; the people of ʿĀd were made
+vicegerents after the people of Noah, meaning that they were their successors on the earth and inherited
+a position of sovereignty (Z) — both successorship and inheritance being implied in the word
+*khulafāʾ*; that God increased them amply in stature refers to their reportedly gigantic size, legendary
+accounts saying that the smallest of them was sixty and the largest a hundred cubits in height, or
+between 120 and 200 feet (Ṭs, Z) *(Isrāʾīliyyāt)*; the boons of God thus refer to their succession and
+sovereignty on the earth and their great size (Z); and in addition to calling his people to monotheistic
+worship, Hūd is also said to have warned them against behaving oppressively toward others [Study Quran].
+**[Jalālayn]** gives the same sense with the measures: "and remember when He made you vicegerents on
+earth after the people of Noah and increased you in stature" — in extension in strength and in height,
+the tallest of them measuring a hundred feet and the shortest sixty; "remember then God's bounties" —
+His graces — "so that you might prosper," triumph [Jalālayn]. **[Maʿārif]** explains the reminder's
+purpose: the objection of the people of ʿĀd is the same as that raised by the people of Noah before them
+— how can we take a human being like us as our superior? Had it been an angel, maybe we would have done
+that — and the answer given in the Qurʾān is the reply Noah gave his people: there is nothing to be
+surprised about in a human being coming to people as the messenger of God, because it is a human being
+who can convince other human beings effectively; and after that they were reminded of the blessings God
+had bestowed upon them — that He made them successors after the people of Noah and gave them increased
+strength of physique — and remembering these blessings would have been for their own good [Maʿārif].
+
+**Rulings.** **[Qurṭubī]**'s reports on the stature of the ʿĀd, and **[Study Quran]**'s reference to the
+legendary measures, belong to the class of reports the mufassirūn transmit and label: they are taken
+today as traditions whose details concern the ancient nations and are not the load-bearing part of the
+verse, which rests on the two named favours — succession and strength — and the command to remember them
+[Qurṭubī] [Study Quran]. **[Ṭabarī]** derives from the verse's own logic the warning enclosed in the
+favour: the successors are warned by the fate of those they succeeded [Ṭabarī].
+
+**Cross-references.** "Have you not seen how your Lord dealt with ʿĀd, Iram of the pillars, the like of
+which were not created in the lands?" (89:6–8); "As for ʿĀd, they were arrogant in the land without
+right and said, 'Who is mightier than us in strength?'" (41:15); "And how many generations have We
+destroyed after Noah?" (17:17); "And remember Him as He guided you, though before you were of the
+astray" (2:198; cf. 7:74) [Ṭabarī] [Ibn Kathīr] [Study Quran].
+
+**Reflection.** **[Saʿdī]** gives the verse its practical turn: the blessings of succession and strength
+are named so that gratitude, not confidence, is the proper response to them — the people who read their
+power as proof of their rightness had the memory of Noah's people standing in front of them.
+**[Study Quran]** notes that the same word *khulafāʾ*, vicegerents, is used of humanity's role on the
+earth, so that the verse's reminder places the ʿĀd inside a larger grant whose terms are obedience and
+whose withdrawal is a precedent.
+
+## 7:70
+
+*"They said, 'Have you come to us that we should worship God alone and forsake what our fathers worshipped? Then bring upon us what you promise us, if you are of the truthful.'"*
+
+**Meaning.** **[Ṭabarī]** gives the reply: the ʿĀd said to Hūd — have you come to us threatening us with
+punishment from God for what we are on of religion, so that we should worship God alone and profess
+obedience to Him sincerely and forsake the worship of the gods and idols our fathers worshipped, and
+disown them? We are not going to do that, nor are we going to follow you in what you call us to; so bring
+us what you promise of punishment and chastisement for our leaving the sincere worship of God and our
+worshipping besides Him what we worship of idols, if you are among the truthful in what you say and
+promise [Ṭabarī]. **[Qurṭubī]**, reading the answer together with the next verses, notes that they
+sought the punishment he had warned them of, and reads the divine reply that follows: "punishment and
+wrath have already fallen upon you" — *waqaʿa* meaning "has become due," as one says of a word and a
+judgment that it has fallen, that is, become binding; *al-rijs* is the punishment, and it was also said
+that it means the rust upon the heart by the increase of disbelief; and "do you dispute with me about
+names" — the idols they worshipped, which had different names — "for which God has sent down no
+authority," that is, no proof for you in worshipping them, the name here standing for the named, as in
+"they are but names you have named" (53:23), names such as al-ʿUzzā from *al-ʿizz* and al-Aʿazz, and
+al-Lāt, which have nothing of honour or divinity; and "the root" means the last, so that the verse
+promises that no remnant of them remained [Qurṭubī]. **[Study Quran]** places the reply among the
+standard responses of communities that reject their prophets: their first response is a stated
+unwillingness to abandon the false gods and deities worshipped by their fathers (see also 2:170; 5:104;
+7:28; 10:78; 11:62, 87; 14:10; 31:21; 34:43; 43:22), and the claim of those who observe false practices
+that they should be excused on the basis that they were simply "following their fathers" is never
+accepted in any context in the Qurʾān — vv. 172–73 recount God's taking a pretemporal covenant with all
+of humanity in which they acknowledged His lordship, because of which the excuse that people's
+forefathers had misled them in their religious beliefs could never be accepted; their second response is
+to challenge the prophet to bring about the punishment and destruction with which he threatened them
+(cf. 46:22) — the same challenge issued to Noah in 11:32, and a nearly identical statement made to Ṣāliḥ
+in v. 77 — such audacious challenges indicating a complete lack of faith, and the Qurʾān intimating in
+response to similar challenges elsewhere that there is danger in seeking to hasten God's punishment (see
+10:48–50; 21:37–38; 27:71–72, and especially 46:24, where the cloud that brings the destructive wind upon
+the ʿĀd is described to them as what you sought to hasten) [Study Quran]. **[Ibn Kathīr]** reads the same
+rebellion, defiance and stubbornness, and their opposition to Hūd, noting that the disbelievers of
+Quraysh later said the like: "O God, if this is indeed the truth from You, then rain down stones on us
+from the sky or bring on us a painful torment" (8:32) [Ibn Kathīr]. **[Jalālayn]** gives the verse in
+brief: they said, have you come to us that we should worship God alone and forsake what our fathers
+worshipped? Then bring upon us what you promise us of chastisement, if you are of the truthful in what
+you say [Jalālayn].
+
+**Language.** **[Qurṭubī]** notes that the challenge "bring upon us what you promise us" is a request for
+the punishment itself, and that the next verse's answer, "there has already fallen upon you," uses the
+verb of something that has become binding and due — the thing they asked to be hastened was already
+decreed [Qurṭubī]. **[Study Quran]** notes that the reply's two halves correspond to the two things the
+prophet had asked them to change — their fathers' religion and their own safety — and that both are
+answered by the same demand: the past they refused to leave, and the future they refused to fear
+[Study Quran].
+
+**Cross-references.** "And when it is said to them, 'Follow what God has sent down,' they say, 'Rather we
+will follow what we found our fathers upon'" (2:170; cf. 31:21; 43:22); "And they say, 'Our Lord, hasten
+for us our share before the Day of Reckoning'" (38:16); "Say: I have no power over harm or benefit for
+myself except as God wills" (10:49); "Then when they saw it as a cloud approaching their valleys, they
+said, 'This is a cloud bringing us rain' — rather, it is what you sought to hasten" (46:24)
+[Qurṭubī] [Study Quran].
+
+**Reflection.** **[Study Quran]**'s observation that the excuse of the fathers is never accepted in the
+Qurʾān turns the verse against every inherited practice: the pretemporal covenant of 7:172–73 is cited in
+the same sūrah precisely so that the plea of ancestry has no standing, and the ʿĀd's refusal is the first
+clear case of a people resting its religion on nothing but its parents. **[Qurṭubī]**'s reading of the
+answer that follows gives the challenge its outcome: they asked for the judgment, and the answer begins
+with the announcement that the thing they mocked had already become due.
