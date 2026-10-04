@@ -649,3 +649,21 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** These chosen households are presented as models of faith and service, not simply as names in a family tree. **[Ṭabarī] [Study Quran]** connect their shared distinction to the worship of, and obedience to, the One God.
 
 ---
+
+## 3:34
+
+*As progeny, one from another. God is Hearing, Knowing.*
+
+**Meaning.** **[Ṭabarī]** understands “one from another” chiefly as shared religion, loyalty, and mutual support in Islam: their faith, intention, deeds, sincerity, and worship of God are united. **[Qurṭubī]** records related readings—common faith, prophethood, or descent—and regards mere physical lineage as the weakest interpretation. **[Study Quran]** allows both bloodline and spiritual kinship through worship and obedience to the One God; it also notes a reading that places the families alongside one another rather than elevating one lineage over another. **[Ibn Kathīr]** identifies Jesus as belonging to Abraham’s descendants through the family of ʿImrān, while **[Saʿdī]** emphasizes that God’s favor and goodness continued through the chosen families’ descendants, including men and women. **[Jalālayn]** likewise reads the phrase as their offspring being connected to one another.
+
+**Context.** **[Maʿārif]** treats the verse as part of the brief transition from the earlier prophets to the coming account of Mary and Jesus. **[Ṭabarī]** connects “God is Hearing, Knowing” with the next verse: God heard the wife of ʿImrān’s vow and knew her intention when she dedicated the child in her womb to Him.
+
+**Belief.** The passage presents the prophets’ families as connected not only by descent but by a shared commitment to God. Their unity in faith and sincere worship is the deeper meaning of being “one from another” **[Ṭabarī] [Qurṭubī] [Study Quran]**.
+
+**Language.** *Dhurriyyah* means offspring or progeny; *baʿḍuhā min baʿḍ* literally says that “some of it is from some,” allowing the commentators to discuss both genealogy and shared faith **[Ṭabarī] [Qurṭubī] [Study Quran]**.
+
+**Cross-references.** Believing men and women are allies of one another: 9:71 **[Ṭabarī]**. “One of you is as the other”: 4:25 **[Study Quran]**. The vow of the wife of ʿImrān: 3:35 **[Ṭabarī]**.
+
+**Reflection.** The passage honors a spiritual inheritance as well as a family line: what binds the chosen is their worship, obedience, and sincerity before God **[Ṭabarī] [Saʿdī] [Study Quran]**.
+
+---
