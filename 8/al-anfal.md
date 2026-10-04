@@ -319,3 +319,99 @@
 **Meaning.** Their plan was defeated when the Prophet was warned and left for Madīnah. God’s “planning” means that He countered their design and brought about an outcome they could not prevent; it does not carry the blameworthy sense of deceit that the word can have when applied to human wrongdoing. **[Jalālayn] [Study Quran] [Maʿārif]**
 
 **Reflection.** The migration that looked like an escape from persecution became the beginning of a secure community. The verse teaches that the apparent success of a hostile plan does not place the future beyond God’s wisdom. **[Saʿdī] [Study Quran]**
+
+## 8:31
+
+*“When Our signs are recited to them, they say, ‘We have heard; if we wished, we could say the like of this. This is nothing but tales of the ancients.’”*
+
+**Context.** The challenge is attributed to al-Naḍr b. al-Ḥārith, who had heard accounts of earlier peoples and claimed that the Qur’an was no more than old stories. **[Jalālayn] [Maʿārif]**
+
+**Meaning.** The claim to imitate the Qur’an is presented as boastful denial, contradicted by the Qur’an’s challenge to produce even a sūrah like it. Al-Ṭabarī notes that the speakers called its accounts “tales” out of hostility and despite the clarity of the recited signs. **[Ṭabarī] [Saʿdī] [Ibn Kathīr]** The Study Quran relates the statement to the broader Qur’anic challenge concerning the scripture’s inimitability. **[Study Quran]**
+
+**Reflection.** Mockery can substitute for an answer when a person is unwilling to engage with a claim on its merits. The verse invites an honest response rather than a boast that is never tested. **[Saʿdī]**
+
+## 8:32
+
+*“When they said, ‘O God, if this is indeed the truth from You, rain down stones upon us from the sky, or bring us a painful punishment.’”*
+
+**Meaning.** The speakers demanded punishment rather than guidance, treating the possibility of revelation with contempt. Commentators associate the taunt with al-Naḍr b. al-Ḥārith and the Quraysh’s challenge to the Prophet. **[Ṭabarī] [Jalālayn] [Ibn Kathīr]** Al-Ṭabarī reads the later defeat at Badr as the answer to this arrogant demand for a judgment. **[Ṭabarī]**
+
+**Context.** The verse follows their claim in 8:31 that they could produce the like of the Qur’an; together the two verses portray dismissal turning into open defiance. **[Maʿārif] [Study Quran]**
+
+**Reflection.** A request for truth should seek understanding and guidance, not set a destructive condition whose cost one is unwilling to face. **[Saʿdī]**
+
+## 8:33
+
+*“God would not punish them while you are among them, nor would God punish them while they seek forgiveness.”*
+
+**Meaning.** The Prophet’s presence among the Meccans is named as a protection against a general punishment. The second clause is read either of the believers still living in Mecca who asked forgiveness, or of people’s own seeking of forgiveness; commentators also mention that some Quraysh invoked God’s pardon during their rites. **[Ṭabarī] [Qurṭubī] [Jalālayn] [Study Quran]**
+
+**Context.** Al-Ṭabarī reports an interpretation in which the verses came in stages: the first while the Prophet was still in Mecca, the second while vulnerable Muslims remained there, and the following verse after they had left. **[Ṭabarī] [Maʿārif]**
+
+**Reflection.** The verse holds open the door of repentance even while warning that wrongdoing has consequences. Its account of withheld punishment points to mercy, not immunity from accountability. **[Saʿdī] [Study Quran]**
+
+## 8:34
+
+*“Why should God not punish them, when they bar people from the Sacred Mosque, though they are not its rightful protectors? Its protectors are none but the reverent, but most of them know not.”*
+
+**Context.** After the Prophet and the believers had migrated, Quraysh prevented Muslims from reaching the Kaʿbah and performing its rites. Their claim to guardianship is challenged by the verse. **[Jalālayn] [Ibn Kathīr] [Study Quran]**
+
+**Meaning.** The verse asks what defense remains for those who obstruct worship at the Sacred Mosque while failing to honour its purpose. True guardianship belongs to those who revere God, not merely to those who hold power over the sanctuary. **[Ṭabarī] [Qurṭubī] [Jalālayn]** The Study Quran connects this obstruction to the later negotiations that permitted the Muslims to visit under the Treaty of Ḥudaybiyah. **[Study Quran]**
+
+**Reflection.** Custody of a sacred place is a moral responsibility: possession alone does not establish a right to exclude others from worship. **[Saʿdī] [Maʿārif]**
+
+## 8:35
+
+*“Their prayer at the House was nothing but whistling and clapping. So taste the punishment for your disbelief.”*
+
+**Meaning.** The verse describes the Quraysh’s conduct at the Kaʿbah: *mukāʾ* is whistling and *taṣdiyah* is clapping. Some reports describe these as rites they themselves treated as worship; others say they used them to disrupt the Prophet’s prayer near the House. **[Ṭabarī] [Qurṭubī] [Study Quran]** The punishment is linked to their disbelief and, in this passage, to the defeat at Badr. **[Jalālayn] [Ibn Kathīr] [Maʿārif]**
+
+**Reflection.** The verse distinguishes worship from empty performance and asks whether a practice truly honours God or merely occupies the place of sincere devotion. **[Saʿdī]** Qurṭubī adds a polemical comparison with later ritual clapping and dancing *(digression)*. **[Qurṭubī]**
+
+## 8:36
+
+*“Those who disbelieve spend their wealth to bar people from the way of God. They will spend it, then it will become a regret for them; then they will be overcome. Those who disbelieve will be gathered unto Hell.”*
+
+**Context.** After Badr, Quraysh raised money to support another force against the Muslims; the verse also applies to spending that aims to obstruct the path of faith. **[Ibn Kathīr] [Study Quran] [Maʿārif]**
+
+**Meaning.** The money is spent to block belief and strengthen the campaign against the Prophet. The expected result is defeat: their resources are exhausted, their aim fails, and their expenditure becomes grief rather than triumph. **[Ṭabarī] [Jalālayn] [Saʿdī]** The final gathering in Hell sets the worldly loss within a larger moral reckoning. **[Ibn Kathīr]**
+
+**Reflection.** Wealth magnifies the purpose for which it is used. When it serves injustice, even apparent power becomes a source of regret. **[Saʿdī] [Maʿārif]**
+
+## 8:37
+
+*“So that God may separate the bad from the good, place the bad one upon another, heap them all together, and place them in Hell. It is they who are the losers.”*
+
+**Meaning.** The “bad” and the “good” are understood as those devoted to falsehood and those devoted to faith. God distinguishes their paths and their final outcomes: the wrongdoers are gathered together and consigned to the Fire, while the faithful are not treated as their like. **[Ṭabarī] [Jalālayn] [Ibn Kathīr]**
+
+**Context.** The verse completes the account of the resources spent against the Muslims: the failed campaign exposes the difference between the two parties, a distinction that becomes fully clear at the final judgment. **[Saʿdī] [Study Quran]**
+
+**Reflection.** Material success is not the same as being among the good. The lasting measure is the character of the deeds and the end to which they lead. **[Saʿdī]**
+
+## 8:38
+
+*“Say to those who disbelieve: if they desist, what has passed will be forgiven; but if they return, the example of those who came before has already passed.”*
+
+**Meaning.** The Prophet is instructed to offer a way forward: those who abandon their rejection and hostility may have their past wrongs forgiven. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr]** The warning is that renewed aggression follows the pattern of earlier peoples who persisted in rejecting their messengers and were destroyed. **[Jalālayn] [Saʿdī]** The Study Quran notes that “desist” can emphasize ending hostility as well as embracing Islam, and connects the language with 2:192–193, where cessation brings an end to enmity. **[Study Quran]**
+
+**Reflection.** Even after conflict, the verse makes repentance and cessation meaningful possibilities; the past need not dictate the future. **[Maʿārif] [Qurṭubī]**
+
+## 8:39
+
+*“Fight them until there is no more strife and religion is wholly for God; but if they desist, truly God sees what they do.”*
+
+**Meaning.** Exegetes explain *fitnah* here as idolatry, persecution, or the coercive obstruction of Muslims’ worship. **[Ṭabarī] [Qurṭubī] [Study Quran] [Maʿārif]** As-Saʿdī reads the aim as ending shirk and the blocking of God’s way, so that worship is free for God; the Study Quran records interpretations tied to the persecution of Muslims before and after the Hijrah. **[Saʿdī] [Study Quran]**
+
+**Context.** The command belongs to the passage about Quraysh’s continuing hostility and their attempts to keep Muslims from the Sacred Mosque. Read with 8:38 and the explicit “if they desist,” it addresses ongoing conflict and persecution, not an instruction detached from that setting or a license to compel private belief. **[Study Quran] [Maʿārif]**
+
+**Reflection.** The stated aim is that worship not be suppressed by coercion. The final clause makes clear that when the other side desists, God sees and judges what follows. **[Ṭabarī] [Saʿdī]**
+
+## 8:40
+
+*“If they turn away, know that God is your Protector—an excellent Protector and an excellent Helper.”*
+
+**Meaning.** If the opposing party persists in rejecting the invitation and renewing hostilities, the believers are reminded that God is their *mawlā*, the one who cares for and supports them, and their *naṣīr*, their helper. **[Ṭabarī] [Jalālayn] [Saʿdī]** Their safety does not finally rest on numerical strength or equipment. **[Ibn Kathīr] [Maʿārif]**
+
+**Context.** The verse closes the appeal begun in 8:38–39: cease hostility and receive forgiveness; if the conflict continues, God remains the believers’ protector. **[Study Quran] [Ibn Kathīr]**
+
+**Reflection.** The promise of divine protection is a source of courage, not permission for arrogance: the believers are still called to obedience, restraint, and reliance on God. **[Saʿdī] [Maʿārif]**
