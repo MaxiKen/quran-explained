@@ -68,6 +68,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -3708,3 +3710,267 @@ latter to the needy People of the Book (Q).
 centre: it is not his apportionment at all but a *farīḍah* from God, and it is closed — eight named
 destinations, no others. The list itself is a portrait of the community's obligations: the destitute, the
 officials, the wavering heart, the captive, the debtor, the fighter, the stranded traveller.
+
+## 9:61
+
+*"And among them are those who torment the Prophet, and say, 'He is an ear.' Say, 'An ear that is good for
+you. He believes in God and he has faith in the believers, and he is a mercy to those among you who
+believe.' And [as for] those who torment the Messenger of God, theirs shall be a painful punishment."*
+
+**Meaning.** **[Jalālayn]** "And of them" — the hypocrites — "are those who injure the Prophet," by casting
+aspersions on him and communicating to others what he says in confidence, "saying, when they are forbidden
+from doing this lest it should reach him, 'He is only a listener!'" — that is, he listens to anything that
+is said and accepts it, so that when we swear to him that we have not communicated a particular thing he
+believes us. "Say: he is 'A listener who listens to good for you' and not one who listens to evil — one who
+believes in God and has faith," he trusts, "in the believers" in what they inform him and not in others —
+the *lām* of *li-l-muʾminīna* having been added to distinguish belief in the sense of submission (*islām*)
+from other senses such as trusting — "and who is a mercy" — read *raḥmatun* in the nominative as a supplement
+to *udhunun*, "a listener," or *raḥmatin* in the genitive as a supplement to *khayrin*, "to good" — "to
+those of you who believe. Those who injure God's Messenger, for them there is a painful chastisement."
+**[Ṭabarī]** "And among these hypocrites is a group who injure the Messenger of God ﷺ and defame him, and
+say, 'He is an ear' — one who hears from everyone what he says and accepts it and believes it." **[Saʿdī]**
+"And among these hypocrites are those who torment the Prophet" with foul words and by defaming him and his
+religion, "and say, 'He is an ear'" — they do not care what they say by way of injury to the Prophet, saying:
+if some of it reaches him, we come and excuse ourselves to him and he accepts from us, because he is an ear —
+i.e. he accepts everything said to him, not distinguishing between the truthful and the liar. Their intent
+— God disfigure them — among themselves was that they were unconcerned and untroubled: if it did not reach
+him, that is what they wanted; and if it reached him, the bare false excuse sufficed them. So they did the
+worst of evil from many angles.
+
+**Stories & occasions.** **[Qurṭubī]** God makes clear that among the hypocrites was one who let his tongue
+loose in slander injurious to the Prophet ﷺ, saying: "If he rebukes me, I will swear to him that I did not
+say this, and he will accept it — for he is a hearing ear." Al-Jawharī said: one says "a man is an *udhun*"
+when he listens to the speech of everyone, the form being the same for singular and plural. ʿAlī b. Abī
+Ṭalḥah reported from Ibn ʿAbbās on "he is an ear": "a listener and an accepter." This verse came down
+concerning ʿAttāb b. Qushayr, who said, "Muḥammad is only an ear — he accepts whatever is said to him"; and
+it is also said, according to Ibn Isḥāq, that it was Nabtal b. al-Ḥārith, a man of large build with
+dishevelled hair. **[Ibn Kathīr]** Some hypocrites bother the Messenger of God ﷺ by questioning his
+character, saying "he is an ear" — he lends his ear to those who say anything about us; he believes whoever
+talks to him; therefore if we went to him and swore, he would believe us. Similar was reported from Ibn
+ʿAbbās, Mujāhid and Qatāda.
+
+**Belief.** **[Saʿdī]** God says in reply: "Say: an ear that is good for you" — he accepts from whoever
+tells him good and truth; as for his turning away from, and not berating, many of the hypocrites who excuse
+themselves with lying excuses, that is because of the breadth of his character, his unconcern for their
+affair, and his compliance with the command of God in "they will swear by God to you, when you return to
+them, that you may turn away from them; so turn away from them — they are abomination" (9:95). As for the
+reality of what is in his heart and his judgement, God says of him: "He believes in God and has faith in
+the believers" — the truthful who confirm the truth; and he knows the truthful from the liar, even if he
+often turns away from those whose lying and lack of truthfulness he knows. "And he is a mercy to those among
+you who believe": through him they are guided and by his character they take example; as for other than the
+believers, they did not accept this mercy but rejected it, and so they lost. **[Maʿārif]** The hypocrites
+thought that since he hears and believes everything, they had nothing to worry about — if their conspiracy
+were exposed, they would simply tell him on oath that they had nothing to do with it. God corrected them:
+His Messenger preferred silence in the face of baseless hostility because of his high morals; he did not
+believe what they said, and he himself knew the reality. **[Ibn Kathīr]** "Say: 'He listens to what is best
+for you'" — he knows who is speaking the truth and who is lying — "he believes in God and has faith in the
+believers… and is a mercy to those of you who believe," and a proof against the disbelievers; "but those who
+annoy God's Messenger will have a painful torment."
+
+**Language.** **[Study Quran]** *He is an ear* is an idiomatic expression used as an insult, implying that
+the Prophet was easily swayed by what he heard and had no resolve (R); being called an "ear," al-Rāzī
+explains, is like calling a spy an "eye." The accusation was that the Prophet was gullible, accepting
+whatever he heard (Q). According to some, there were those around him who said, "We say what we like; if he
+asks us, we swear to him and he believes us."
+
+**Reflection.** The insult is answered not by denial but by re-description: yes, he is an ear — an ear for
+good. What the hypocrites read as credulity was in fact a deliberate forbearance, and the verse supplies its
+motive: he is a mercy to those who believe. The closing threat protects the distinction — forbearance
+towards persons is not indifference towards the injury done to the Messenger.
+
+---
+
+## 9:62
+
+*"They swear by God to you, to please you. But God and His Messenger are worthier of being pleased by them,
+if they are believers."*
+
+**Meaning.** **[Jalālayn]** "They swear by God to you" — O believers — that what has reached you of the
+Messenger being injured they did not do, "that they might please you; but God and His Messenger are more
+deserving that they should please them" through obedience, "if they are true believers." The merging of the
+pronouns into one in *yurḍūhu*, "their pleasing them," is because the pleasure of both God and His Messenger
+are mutually dependent; either that, or because the predicate of *Allāhu wa-rasūluhu* has been omitted.
+**[Ṭabarī]** "These hypocrites swear to you by God, O believers, in order to please you concerning what
+reached you of their injuring the Messenger of God ﷺ and their mentioning him with slander and defamation,
+and their secretly siding with the people of unbelief against you — swearing by God with false oaths that
+they did not do that, that they are upon your religion and are with you against those who oppose you,
+seeking thereby your pleasure. God says: 'and God and His Messenger are more deserving that they should
+please them' — by repentance and turning back from what they said and uttered — 'if they are believers':
+if they are sincere in affirming the oneness of God and acknowledging His promise and His threat."
+
+**Stories & occasions.** **[Qurṭubī]** It is reported that a group of the hypocrites gathered together —
+among them al-Jallās b. Suwayd and Wadīʿah b. Thābit — and with them a youth of the Anṣār called ʿĀmir b.
+Qays, whom they belittled. They spoke and said: "If what Muḥammad says is true, we are worse than donkeys."
+The youth grew angry and said: "By God, what he says is true, and you are worse than donkeys." The Prophet
+ﷺ was informed of their words, and they swore that ʿĀmir was lying; ʿĀmir said, "They are the liars," and
+swore to it, saying: "O God, do not separate us until the truth of the truthful and the lie of the liar are
+made clear." Then God sent down this verse, which contains "they swear by God to you to please you."
+**[Ibn Kathīr]** Qatāda said concerning "they swear by God to you in order to please you": a hypocrite said,
+"By God! They [the hypocrites] are our chiefs and masters. If what Muḥammad says is true, they are worse
+than donkeys." A Muslim man heard him and declared, "By God! What Muḥammad says is true, and you are worse
+than a donkey!" The Muslim conveyed what had happened to the Prophet ﷺ, who summoned the hypocrite and asked
+him, "What made you say what you said?" The man invoked curses on himself and swore by God that he had never
+said that; meanwhile the Muslim man said, "O God, assert the truth of the truthful and expose the lies of
+the liar" — and God revealed this verse.
+
+**Belief.** **[Study Quran]** *They swear… to you,* the believers, to please you: the second-person plural
+here denotes that it is the believers as a whole, not only the Prophet, to whom they swear. See also 2:14 —
+"And when they meet those who believe they say, 'We believe.'" For the repeated oaths sworn by the hypocrites
+mentioned in this sūrah (vv. 42, 74, 95, 107), see the commentary on 9:42.
+
+**Language.** **[Jalālayn]** The single pronoun in *yurḍūhu* is because the pleasure of God and of His
+Messenger are mutually dependent, or because the predicate of "God and His Messenger" has been omitted.
+
+**Reflection.** The verse names the whole psychology in one line: the aim of their oath is not truth but
+approval. Once the audience is identified as the believers rather than God, the remedy follows — please the
+One who is more deserving of it — and the conditional that closes the verse ("if they are believers") leaves
+their claim suspended on its own proof.
+
+---
+
+## 9:63
+
+*"Do they know not that whosoever opposes God and His Messenger, surely for him shall be the Fire of Hell, to
+abide therein? That is the great disgrace."*
+
+**Meaning.** **[Jalālayn]** "Do they not know that the fact is that whoever opposes God and His Messenger,
+for him shall be the fire of Hell" as a requital, "to abide therein? That is the great abasement."
+**[Ṭabarī]** "Have these hypocrites, who swear falsely by God to the believers in order to please them while
+they persist in hypocrisy, not known that whoever wars against God and His Messenger and opposes the two of
+them, showing enmity to them by contravening them — 'for him shall be the fire of Hell' in the Hereafter;
+'to abide therein,' dwelling in it, remaining to no end; 'that is the great disgrace'": his tarrying in the
+fire of Hell and his abiding in it is the great humiliation and abasement.
+
+**Language.** **[Qurṭubī]** "Do they not know" — meaning the hypocrites; Ibn Hurmuz and al-Ḥasan read
+"*taʿlamū*" with *tāʾ*, as direct address. *Anna* is in the accusative position governed by *yaʿlamū*, and
+the pronoun stands for the matter. *Man yuḥādidi* is in the nominative as the subject; *al-muḥāddah* is that
+one falls on one side (*ḥadd*) and the other on another, like *al-mushāqqah* — one says "*ḥādda fulānun
+fulānan*," he came to be on a side other than his side. On "*fa-anna lahu nāra jahannama*": what follows the
+*fāʾ* in a conditional is properly a subject, so it should have been "*fa-inna*" with *kasra*; but al-Khalīl
+and Sībawayh permitted "*fa-anna*" — and Sībawayh said it is good. **[Ṭabarī]** The readers read
+"*fa-anna*" with the *alif* of *anna* in the open position.
+
+**Belief.** **[Study Quran]** Hell as a *disgrace* represents the spiritual aspect of the punishment, while
+the Fire represents the physical aspect; on this topic see 3:192 and 3:194. **[Ibn Kathīr]** "Know they not
+that whoever opposes and shows hostility to God and His Messenger — certainly for him will be the fire of
+Hell, to abide therein. That is the extreme disgrace."
+
+**Reflection.** The question is put as a question — "do they not know?" — which implies that the knowledge is
+available to them and that what is missing is not information but seriousness. Opposition to the Messenger
+is here described with a word for taking up a position on the other side of a boundary, so that the sin is
+not merely error but enmity.
+
+---
+
+## 9:64
+
+*"The hypocrites dread lest a sūrah be sent down against them, informing them of that which is in their
+hearts. Say, 'Go on mocking. Truly God will bring forth what you dread.'"*
+
+**Meaning.** **[Jalālayn]** "The hypocrites are cautious" — they fear "lest a sūra should be revealed to
+them," that is, to the believers, "informing them of what is in their" — the hypocrites' — "hearts" of
+hypocrisy, "and yet despite this they persist in mockery. Say: 'Keep mocking!'" — this is an imperative of
+threat — "'God will bring out'" — He will make manifest — "that hypocrisy of yours of which you are
+fearful" lest it be brought out. **[Ṭabarī]** "The hypocrites fear lest a sūrah be sent down concerning them
+which will make the believers aware of what is in their hearts. Say, threatening and warning them: 'Go on
+mocking; God will bring forth what you dread.'" It is said that God sent this verse down to His Messenger
+because the hypocrites, when they defamed the Messenger of God ﷺ and mentioned something of his affair and
+of the affair of the Muslims, used to say, "Perhaps God will not expose our secret!" — so God said to His
+Prophet: say to them, "Mock on," as a threat and a warning, "God will bring forth what you dread."
+
+**Stories & occasions.** **[Ibn Kathīr]** Mujāhid said: "The hypocrites would say something to each other,
+then declare: 'We wish that God does not expose this secret of ours'" — and a similar verse is 58:8: "And
+when they come to you, they greet you with a greeting wherewith God greets you not, and say within
+themselves: 'Why should God punish us not for what we say?' Hell will be sufficient for them." "Say: 'Go
+ahead and mock! But certainly God will bring to light all that you fear'" — He will expose and explain your
+reality to His Messenger ﷺ through revelation. **[Qurṭubī]** Al-Suddī said: one of the hypocrites said, "By
+God, I wish I were brought forward and given a hundred lashes, rather than that something should be sent
+down about us exposing us" — and the verse came down. *Yaḥdharu* means "he guards himself"; al-Zajjāj said
+the meaning is "let him beware," so it is a command. **[Maʿārif]** The announcement that "God is surely to
+bring out what you are afraid of" was fulfilled while returning from the battle of Tabūk, when some
+hypocrites conspired to kill the Messenger of God: God informed him of the plan through the angel Jibrāʾīl,
+helping him to bypass the spot where they sat in ambush (Mazhari, citing al-Baghawī). And Ibn ʿAbbās says
+that God informed the Prophet of the names of seventy hypocrites, complete with their parentage and
+addresses — but he did not make them public. **[Saʿdī]** This sūrah used to be called "the Exposer"
+(*al-fāḍiḥah*), because it made plain the secrets of the hypocrites and tore away their coverings; God kept
+saying "and among them… and among them…", describing their attributes without naming the individuals, for
+two benefits: one, that God is veiling and loves to veil His servants; and two, that the blame falls upon
+whoever is characterised by that attribute, whether among the hypocrites addressed or others, until the Day
+of Resurrection — so mentioning the attribute was more general and more fitting. Hence they feared with the
+utmost fear.
+
+**Belief.** **[Study Quran]** Some interpret this verse to mean that, although the hypocrites did not
+believe that the Prophet was truthful, they had previously experienced his ability to know their secret
+thoughts and their mockery of him, and so feared that this would occur again (R); or it means that they did
+have a certain level of faith but were too overcome by jealousy and obduracy to commit themselves fully to
+it. Al-Rāzī observes that envy can make one blind even to sensible objects.
+
+**Language.** **[Qurṭubī]** "Lest a sūrah be sent down against them": *an* is in the accusative position,
+i.e. "from its being sent down"; and according to Sībawayh it may be in the genitive through an elided
+*min*.
+
+**Cross-references.** **[Saʿdī]** 33:60–61 — "If the hypocrites and those in whose hearts is a disease and
+the rumour-mongers in Madīnah do not desist, We shall surely urge you against them; then they will not be
+your neighbours there except a little. Accursed, wherever they are found they shall be seized and killed
+utterly."
+
+**Reflection.** Fear of exposure is here a form of knowledge: they dread a sūrah because, somewhere, they
+know the Prophet's information is not his own. The command "keep mocking" is the most withering possible
+answer — it lets the mockery continue and then promises to publish it.
+
+---
+
+## 9:65
+
+*"And if thou askest them, they will surely say, 'We were only engaging [in vain talk] and playing.' Say, 'Is
+it God, His signs, and His Messenger you were mocking?'"*
+
+**Meaning.** **[Jalālayn]** "And if" — *la-in*, the *lām* being for oaths — "you question them about their
+mockery of you and of the Qurʾān while they were journeying with you towards Tabūk, assuredly they will say,"
+making excuses: "We were only engaging in idle talk and jesting" in conversation, in order to pass the time
+of the road, "and we did not mean it." Say to them: "Were you then mocking God and His signs and His
+Messenger?" **[Ṭabarī]** "And if you ask, O Muḥammad, these hypocrites about what they said of falsehood and
+lying, they will surely say to you: we only said that in play, and we were engaging in a conversation in
+jest and mockery! God says to Muḥammad: Say, O Muḥammad — was it at God and the signs of His Book and His
+Messenger that you were mocking?"
+
+**Stories & occasions.** **[Qurṭubī]** This verse came down concerning the expedition of Tabūk. Al-Ṭabarī
+and others reported from Qatāda: while the Prophet ﷺ was travelling on the expedition of Tabūk, a group of
+hypocrites riding ahead of him said, "Look at this man — he is going to open the palaces of Syria and take
+the fortresses of the Byzantines!" So God informed him of what was in their hearts and of what they were
+saying, and he said, "Detain the riders for me," then came to them and said, "You said such-and-such" — and
+they swore, "We were only engaging in vain talk and playing," meaning that they had not been serious.
+**[Ibn Kathīr]** ʿAbdullāh b. ʿUmar said: "During the battle of Tabūk, a man was sitting in a gathering and
+said, 'I have never seen the like of these reciters of ours! They have the hungriest stomachs, the most
+lying tongues, and are the most cowardly in battle.' A man in the mosque said, 'You lie — you are a
+hypocrite, and I will surely inform the Messenger of God ﷺ.' This statement was conveyed to the Messenger of
+God ﷺ, and a part of the Qurʾān was revealed about it." ʿAbdullāh b. ʿUmar said: "I saw that man afterwards
+holding onto the shoulders of the Messenger's camel while stones were falling on him, declaring, 'O Messenger
+of God, we were only engaged in idle talk and jesting,' while the Messenger of God ﷺ was reciting: 'Was it at
+God, and His signs, and His Messenger that you were mocking?'" **[Study Quran]** In one account a hypocrite
+spoke disparagingly about the Prophet and the Qurʾān, saying, "I have seen no people with more fearful
+hearts, falser tongues, or more cowardice in the field," referring to the Prophet and the believers (R). A
+Companion went to tell the Prophet, but found that the Prophet already knew; then the person who had mocked
+came to him while he was riding and pleaded with him, saying that he and his friends were only passing the
+time and speaking idly. **[Saʿdī]** "And if thou askest them" — about what they said of slander against the
+Muslims and their religion, a party of them saying on the expedition of Tabūk: "We have not seen the like of
+these reciters of ours" — meaning the Prophet ﷺ and his Companions — "with hungrier bellies, more lying
+tongues and more cowardice at the encounter" and the like — "when it reached them that the Prophet ﷺ had come
+to know of their words, they came excusing themselves to him and saying: 'We were only engaging in vain talk
+and playing'" — we spoke words with no intent behind them and did not mean slander or defamation.
+
+**Rulings.** **[Saʿdī]** God made plain that they had no excuse and were lying in that: "Say" to them — "Is
+it God, His signs, and His Messenger you were mocking?" Mocking God, His signs and His Messenger is
+unbelief that expels one from the religion, however the mocker meant it — for matters are judged by their
+realities, not by the claims of those who utter them.
+
+**Language.** **[Jalālayn]** *La-in* — the *lām* at the beginning is the *lām* of oaths. **[Ṭabarī]** Ibn
+Isḥāq named the one who uttered this saying [as Wadīʿah b. Thābit].
+
+**Cross-references.** **[Qurṭubī]** The accounts of Qatāda and of ʿAbdullāh b. ʿUmar are both reported by
+al-Ṭabarī; the verse is dated to the expedition of Tabūk.
+
+**Reflection.** The excuse — "we were only joking" — is the oldest defence for words that wounded, and the
+verse refuses it without discussion: the object of the mockery fixes its seriousness, not the mood of the
+mocker. What they said in the saddle on a hard road was said about God, His signs and His Messenger, and no
+claim of lightness can relocate it.
