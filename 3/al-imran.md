@@ -431,3 +431,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The verse measures conduct by final accountability rather than visible success, warning that hostility to truth can undermine the worth of outwardly good deeds **[Study Quran]**. **[Saʿdī]** urges readers to unite good action with faith and justice.
 
 ---
+
+## 3:23
+
+*Have you not considered those who were given a portion of the Book? They are invited to the Book of God so that it may judge between them; then a party of them turns away, refusing.*
+
+**Meaning.** Some interpreters take “the Book of God” as the Qurʾān and the Prophet’s judgment; **[Ṭabarī]** prefers the Torah, since the Jews professed to believe in it and refusal of its judgment left them without excuse. He allows that the dispute could have concerned Muḥammad ﷺ, Abraham, Islam, or a legal ruling, but says the verse does not identify which. **[Jalālayn] [Study Quran]** likewise identify the Book as the Torah. **[Ibn Kathīr]** understands the rebuke more broadly of Jews and Christians who claim to follow the Torah and Gospel but turn away when those scriptures direct them to Muḥammad ﷺ. The refusal is knowing, not innocent: **[Ṭabarī]** says they turned away while aware of the Book’s evidence, and **[Saʿdī]** says they knew the truth of what Muḥammad ﷺ brought. **[Maʿārif]** connects their rejection to their belief that Hell would touch them only briefly, including a claim that punishment would last only as long as their worship of the calf—forty days.
+
+**Context.** **[Ṭabarī] [Qurṭubī] [Study Quran]** transmit an account in which two Jewish men ask Muḥammad ﷺ which religion he follows. He answers that he follows Abraham’s way; when they claim Abraham was Jewish, he invites them to bring the Torah as judge, but they refuse. **[Ṭabarī] [Jalālayn] [Study Quran]** also relate the case of a Jewish couple accused of adultery: the Prophet ﷺ calls for the Torah’s ruling, the passage prescribing stoning is found, and the sentence is carried out, to the Jews’ anger. **[Study Quran]** says the exact occasion is uncertain, but the accounts share the Prophet’s appeal to the Torah and its custodians’ reluctance to accept its judgment. It connects the episode with 5:43.
+
+**Rulings.** **[Qurṭubī]** derives a duty to answer a summons to a judge and submit to judgment; he says refusal may warrant discipline proportionate to the offense. He notes that this practice prevailed in al-Andalus and the Maghreb but not Egypt *(digression)*. He cites a report that one summoned by an opponent to a Muslim judge who refuses is an oppressor and has no right; Ibn al-ʿArabī rejects it as a Prophetic report, accepting only that refusal may be blameworthy—not that the litigant loses his right *(weak)*. Ibn Khuwayz Mindād qualifies the duty where the judge is known to be corrupt or there is known enmity between the litigants **[Qurṭubī]**.
+
+**Belief.** **[Qurṭubī]** argues that the laws of earlier prophets remain binding unless known to be abrogated, but cautions that the Torah in the hands of its custodians may have been altered; it may be read or followed only where its integrity is known. **[Study Quran]** notes that this view depends on the text being authentic and known not to be abrogated, and suggests that 3:23 together with 5:43 may also point to continuing religious validity for earlier scriptures among their communities, subject to abrogation and distortion.
+
+**Readings.** Most reciters read *li-yaḥkuma* (“so that it may judge”); Abū Jaʿfar reads *li-yuḥkama* (“so that they be judged”). **[Qurṭubī]** prefers the active reading, in which the Book itself is presented as speaking in truth.
+
+**Language.** *Naṣīb* means a share or portion **[Ṭabarī] [Jalālayn]**. *Tawallā* here means turning away from the judgment while deliberately refusing it **[Ṭabarī]**.
+
+**Cross-references.** The Torah’s judgment: 5:43 **[Study Quran]**. Refusing a summons to God and His Messenger: 24:48–51 **[Qurṭubī]**.
+
+**Reflection.** **[Saʿdī]** asks why people who were given scripture and knew its truth would refuse to follow it. The verse warns against appealing to a tradition only when convenient, then rejecting its judgment when it challenges one’s claims.
+
+---
