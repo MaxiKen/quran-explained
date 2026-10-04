@@ -367,3 +367,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** stresses that division after knowledge is a moral failure, not an intellectual excuse: envy and the pursuit of status can turn evidence into a source of rivalry. The verse calls readers to make knowledge a path to obedience and unity, not a tool for worldly advantage.
 
 ---
+
+## 3:20
+
+*So if they dispute with you, say, “I have submitted my face to God, and so have those who follow me.” And say to those who were given the Book and to the unlettered, “Have you submitted?” If they submit, they are rightly guided; but if they turn away, your duty is only to convey. God sees His servants.*
+
+**Meaning.** **[Ṭabarī]** reads the opening as a response to Christians of Najrān disputing with the Prophet ﷺ about Jesus; their arguments cannot overturn the truth, so he is to declare his submission to God. “My face” represents the whole self: **[Ṭabarī]** says the face is singled out as the most honored part, and when it submits, the rest of the body follows; **[Qurṭubī]** likewise prefers “face” as an expression for the whole person. **[Study Quran]** describes the phrase as a reorientation of one’s whole being toward God. “And those who follow me” includes the Prophet’s followers in that surrender **[Ṭabarī] [Qurṭubī]**. The people given the Book are Jews and Christians; **[Ṭabarī] [Qurṭubī]** identify the *ummiyyīn* as Arab polytheists without scripture, while **[Study Quran]** notes that the term can mean anyone without a revealed Book. The question “Have you submitted?” is also an invitation and command; **[Qurṭubī]** records that it can carry a warning as well. Those who submit are described in the past tense as already guided, emphasizing the certainty of their guidance **[Qurṭubī]**. If they turn away, the Prophet’s duty is to deliver the message, not to compel acceptance; God knows who accepts and who rejects it **[Ṭabarī] [Maʿārif] [Saʿdī]**.
+
+**Context.** **[Maʿārif]** connects the verse to continued disputation by deniers among the People of the Book even after the truth had been made clear. It comforts the Prophet ﷺ: their response does not alter the truth or his responsibility to call them to submission. **[Jalālayn]** says the verse addresses those who dispute about religion and that the command to convey came before the command to fight.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites the Prophetic prayer, “My face prostrates to the One who created and fashioned it,” as an example of attributing the whole self to God through the face. **[Ibn Kathīr]** cites the report in Ṣaḥīḥ Muslim that a Jew or Christian who hears of the Prophet ﷺ and dies without believing in what he was sent with will be among the people of the Fire; he presents it as evidence that the final message addresses all peoples.
+
+**Rulings.** **[Qurṭubī]** records the view that “your duty is only to convey” was abrogated by the command to fight. Ibn ʿAṭiyya cautions that this depends on establishing the chronology; if the verse addresses the Najrān delegation, the Prophet’s duty is to convey what has been revealed, including any commands to fight. **[Jalālayn]** also places the verse before the command to fight.
+
+**Language.** *Al-balāgh* means conveying the message **[Qurṭubī]**. *Baṣīr* (“seeing”) also conveys knowledge and penetrating insight **[Study Quran]**. The *ummiyyīn* are those without scripture, particularly the Arab idolaters addressed alongside the People of the Book **[Ṭabarī] [Study Quran]**.
+
+**Belief.** The call to submit is addressed to both scriptural communities and those without a revealed book **[Ṭabarī] [Ibn Kathīr]**. The Prophet ﷺ must convey the truth, while guidance, judgment, and knowledge of each person’s response belong to God **[Ṭabarī] [Saʿdī] [Maʿārif]**.
+
+**Cross-references.** Turning one’s face toward God: 6:79; 10:105; submission of the face: 31:22; 2:21 **[Study Quran]**. The unlettered: 62:2; 7:157–58; 2:78 **[Study Quran]**. The duty to convey: 88:21–22; 2:272; 13:40; 29:18 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** emphasizes that the Prophet ﷺ has delivered the proof; rejection belongs to those who turn away, and their account rests with God. **[Maʿārif]** similarly counsels believers not to be unsettled by fruitless argument: their task is to make their own submission clear and invite others to the truth.
+
+---
