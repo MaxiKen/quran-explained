@@ -1694,14 +1694,15 @@ al-Ḥajjāj, its lines being read"* — said to be the idiom of the people of T
 of Quraysh; and a further, rarer vocalisation *ubshiruka* is noted in the recension. The naming of the
 child belongs to heaven, not to the father: 19:7 adds that God fixed the name before any father chose
 it — *lam najʿal lahu min qablu samiyyā*, "We have not appointed for him, of old, any namesake."
+
 **Reflection.** **[Saʿdī]**: the answer came while he was standing in the *miḥrāb* — the hour and the
 posture of the previous verse's prayer are preserved into its reply, so that the sūrah teaches by
-## 3:40 — قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَكَانَتِ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغَنِيَ الْكِبَرُ
+staging: the request whispered in the night, the tidings announced mid-prayer — the believer's *duʿāʾ*
 is not followed by explanation but by address.
 
 ---
 
-## 3:40 — قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَكَانَ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغَنِيَ الْكِبَرُ وَوَجَدَتْ فِي بَطْنِهَا وَلَدَهَا
+## 3:40 — قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَكَانَتِ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغَنِيَ الْكِبَرُ
 
 *[He said:] "my Lord, how can I have a boy when my wife has been barren and old age has reached me?"*
 
