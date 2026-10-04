@@ -3428,3 +3428,231 @@ measure and balance is an extremity of corruption in the earth.
 
 **Reflection.** The balance is a mirror of the heart: he who defrauds the measure defrauds the earth
 itself, and the earth reports every fraud to its Lord.
+
+## 11:86
+
+*"The remnant from God is better for you, if you are believers — and I am not a keeper over you."*
+
+**Meaning.** **[Ṭabarī]** God means: what God leaves for you, after you have given people their rights
+in full measure and balance with equity, and made lawful to you, is better for you than what remains for
+you through shorting people of their rights in the measure and balance — if you are believers: if you
+believe in God's promise and His threat, His lawful and His forbidden. Mujāhid said: the remnant of God
+— obedience to God — is better for you. **[Jalālayn]** The remainder — that provision of His which
+remains for you after you have given full measure and weight — is better for you than fraud, if you are
+believers; and I am not a guardian over you — a watcher that I should requite you for your deeds; I was
+sent only as a warner. **[Saʿdī]** "The remnant of God is better for you": let suffice you what God has
+left for you of good and what belongs to you; do not covet a thing you can do without, which is greatly
+harmful to you — if you are believers, then act in accordance with the demands of faith. "And I am not
+a keeper over you": I am no keeper of your deeds, nor trustee over them; the One who keeps them is God
+Most High; as for me, I convey to you what I was sent with. **[Qurṭubī]** "The remnant of God is better
+for you": what God leaves for you after fulfilling rights with equity is more blessed and more praisome
+in outcome than what you keep for yourselves of the surplus of defrauding, through tyranny and
+oppression; Mujāhid said: His obedience; al-Rabīʿ: God's charge; al-Farrāʾ: the watchfulness of God;
+Ibn Zayd: God's mercy; Qatādah and al-Ḥasan: your share from your Lord; Ibn ʿAbbās: God's provision.
+"If you are believers": He made it a condition because they only know the soundness of this if they are
+believers; it was also said they may have acknowledged that God was their Creator, and so He addressed
+them with this. "And I am not a keeper over you": a watcher over your weighing and measuring — I cannot
+attend every transaction of yours and take you to fulfilment; it was also said: I cannot preserve you
+from the removal of God's blessings by your disobedience.
+
+**Context.** **[Study Quran]** The remnant from God renders *baqiyyat Allāh* — the wealth obtained
+through honest commercial practices and given by God is better than gains acquired through fraudulent
+ones, the remnant being what is "left" after one observes fully the measure and balance with justice and
+abstains from what is illicit. Alternately, it can refer to the reward that is with God, or His
+Contentment, which is greater than what is gained by defrauding, since it remains and abides in the
+Hereafter; see also 42:36: "That which lies with God is better and more lasting for those who believe
+and trust in their Lord" (cf. 20:73, 131). For the Quranic insistence that the Prophet is not a keeper
+or guardian over his people, see 4:80; 6:66.
+
+**Reflection.** What is left over after honesty is called "the remnant of God" — and it is better than
+everything the fraud adds, because it carries a blessing that does not expire.
+
+## 11:87
+
+*"They said, 'O Shuʿayb, does your prayer command you that we forsake what our fathers worshipped, or
+that we cease to do as we will with our wealth? Truly you are the forbearing, the right-guided!'"*
+
+**Meaning.** **[Ṭabarī]** The people of Shuʿayb said: O Shuʿayb, does your prayer command you that we
+abandon what our fathers used to worship — the idols and graven images — or that we not do with our
+wealth what we will — of clipping and cutting the dirhams and shorting people in measure and weight?
+"Truly you are the forbearing" — the one whom anger does not move to do what he would not do when
+content — "the right-guided": rightly guided in his commanding them to abandon the worship of idols.
+Zayd b. Aslam said: among what he forbade them was clipping the dirhams. **[Jalālayn]** They said to
+him mockingly: O Shuʿayb, does your way of prayer command you — with the obligation to make sure — that
+we should leave what our fathers used to worship of idols, or that we should cease to do as we will with
+our goods? — meaning that such a command is an absurdity which no person calling to good would commend.
+"You are indeed the forbearing, the right-guided" — they said this in mockery. **[Ibn Kathīr]** They
+said to Shuʿayb in mockery: "Does your ṣalāh?" Al-Aʿmash said: this means your recitation. "Command you
+that we give up what our fathers used to worship": the idols and statues. "Or that we give up doing what
+we like with our property?": should we abandon our practice of lightening the scales because of your
+saying, "This is our wealth and we will do with it as we please"? Al-Ḥasan said: by Allah, his prayer
+did command them to abandon what their fathers used to worship. Al-Thawrī said of "or that we give up
+doing what we like with our property": they were speaking in reference to the paying of zakāh. "Verily,
+you are the forbearer, right-minded!": Ibn ʿAbbās, Maymūn b. Mihrān, Ibn Jurayj, Ibn Aslam and Ibn
+Jarīr all said these enemies of Allah were only saying this in mockery — may Allah disfigure them and
+curse them from ever receiving His mercy; and verily, He did so. **[Saʿdī]** They said it in derision of
+their prophet and to treat as far-fetched their answering him: the import of their speech was that there
+is no cause for your forbidding us except that you pray to God and worship Him — but if you do so, does
+that oblige us to abandon what our fathers worshipped for a saying that has no proof behind it except
+that it suits you? How could we follow you and abandon our ancient forefathers, men of intellect and
+wisdom? Likewise, your telling us to fulfil the measure and balance and pay the obligatory rights in our
+wealth does not oblige us — we will do with our wealth what we wish, for it is our wealth and you have
+no disposal over it. So they said in their mockery: "Truly you are the forbearing, the right-guided!" —
+meaning: are you the one to whom forbearance and gravity are a character and right guidance a nature,
+from whom only guidance issues and whom only error he forbids?! They meant the opposite: that he was
+described with folly and errancy. But the matter was not as they supposed — rather it was as they
+themselves said: his prayer did command him to forbid them what their astray fathers worshipped, and to
+forbid them doing with their wealth what they wished.
+
+**Context.** **[Study Quran]** The Midianites' question is a form of mockery; even in their estimation
+of Shuʿayb as "a man of forbearance and sound judgment" they intimate that he has these qualities only
+in his own opinion. The implication is that the Midianites, who were arrogant (7:88), did not take
+seriously Shuʿayb's message, referring to him as one of the bewitched (26:185) and among the liars
+(26:186).
+
+**Language.** **[Qurṭubī]** It is related that Shuʿayb was much given to prayer, constant in
+worship — its obligatory and its voluntary — saying: prayer forbids indecency and evil; when he
+commanded and forbade them, they taunted him with the abundance of prayer they saw him continue in and
+mocked him. It was said *al-ṣalāh* here means recitation, per Sufyān from al-Aʿmash — "your recitation
+commands you" — which indicates they were disbelievers. Al-Ḥasan: God never sent a prophet but He made
+prayer and zakāh obligatory upon him. "Or that we do with our wealth what we will": al-Farrāʾ held the
+estimate is "or do you forbid us that we do…"; al-Sulamī and al-Ḍaḥḥāk b. Qays read "or that you do
+with our wealth what you will" — addressed to Shuʿayb. "The forbearing, the right-guided": they meant —
+in your own opinion, as you claim; the like being said to Abū Jahl, "Taste — you are the mighty, the
+noble" (44:49). Qatādah: they said it in mockery; the Arabs describe a thing by its opposite, as they
+call the bitten one *salīm* and the desert *mafāzah*.
+
+**Stories & occasions.** **[Maʿārif]** The prayer of Shuʿayb was well known among his people, for he
+was constantly devoted to it; they referred to it tauntingly, as if his prayer taught him to say those
+"wild" things. From what they said we learn that they too thought religion was restricted to acts of
+worship and had nothing to do with material dealings — let everyone earn and spend his wealth at will;
+placing any restriction on that is no job of religion, as many people even in our time generally believe,
+in total ignorance of the real fact. The Holy Prophet ﷺ said of Shuʿayb that he was the orator among
+prophets: his eloquence was exceptional, and he went to its farthest limits to make his people
+understand his message.
+
+**Reflection.** Their mockery is the oldest argument against the prophets — that prayer should keep to
+its place — and the answer stands written in the same verse: the prayer truly did command it.
+
+## 11:88
+
+*"He said, 'O my people, what think you, if I stand upon a clear proof from my Lord, and He has
+provided me with goodly provision from Himself? I desire not to do behind your backs that which I forbid
+you. I desire naught but to set matters aright so far as I am able; but my success lies with God alone.
+In Him do I trust, and unto Him do I turn.'"*
+
+**Meaning.** **[Ṭabarī]** Shuʿayb said: O my people, have you considered — if I am upon clarification
+and proof from my Lord in what I call you to of God's worship and disavowal of idols, and in what I
+forbid you of corrupting wealth, "and He has provided me from Him goodly provision" — lawful and
+wholesome. "And I desire not to oppose you in what I forbid you": I do not desire to forbid you a thing
+and then do its opposite; rather, I do only what I command you, and refrain only from what I forbid you;
+Qatādah: I would not forbid you a matter and then commit or perform it. "I desire naught but reform, so
+far as I am able": in what I command and forbid, I desire only your reform and the reform of your
+affair — so far as I am able to reform, lest a deterring punishment from God reach you through your
+contravening His command and disobeying His messenger. "And my success lies with God alone": my hitting
+upon the truth in my endeavour to reform you and your affair is only through God, for He is the One who
+assists in it; if He did not assist me, I would not hit upon the truth. "In Him do I trust": to God I
+entrust my affair, for He is my trust, and upon Him is my reliance in my affairs. "And unto Him do I
+turn": to Him I turn in obedience and return in repentance; Mujāhid: I return. **[Jalālayn]** He said:
+O my people, have you considered — if I am acting upon a clear proof from my Lord, and He has provided
+me with fair, wholesome sustenance from Him? Should I then blemish it with what is unlawful, in the way
+of fraud or stinting? And I do not desire to be inconsistent and then partake in what I forbid you, thus
+committing the same. I desire only to set things right in your case, by way of enjoining justice, so far
+as I am able. My success — my ability to do this successfully, and to enjoin other acts of obedience —
+is only with God. In Him I trust, and to Him I turn, returning repentant. **[Ibn Kathīr]** He said: Do
+you see, O my people, that if I have clear guidance in what I am calling to, "and He has given me a good
+sustenance from Himself"? It has been said he meant prophethood; it has also been said lawful
+provisions — and it seems the verse carries both meanings. Al-Thawrī said of "I wish not, in
+contradiction to you, to do that which I forbid you": I do not forbid you from something and at the same
+time contradict my prohibitions in secret behind your backs, doing what I have forbidden; similar is
+Qatādah: I do not forbid you all from something while I do it myself. "I only desire reform to the best
+of my power": in what I command and forbid, I only want to correct your affair as much as I am able.
+"And my guidance cannot come except from Allah": in whatever I intend that agrees with the truth. "In
+Him I put my trust": in all my affairs. "And unto Him I repent": I return, as Mujāhid and others said.
+**[Saʿdī]** Shuʿayb said: O my people, have you considered, if I am upon a clear proof from my Lord —
+upon certainty and reassurance in the soundness of what I have brought — "and He has provided me from
+Him goodly provision": God has given me of the kinds of wealth what He has given? I do not desire to
+oppose you in what I forbid you: I do not wish to forbid you shorting in the measure and balance and then
+do it myself, so that suspicion would attach to me on that account; rather, there is nothing I forbid
+you but I am the first to hasten to abandoning it. "I desire naught but reform, so far as I am able": I
+have no aims except that your states be set right and your benefits made upright, and I have no special
+aims for myself alone, to the extent of my ability. Since this contained a kind of self-praise, he
+warded it off with: "and my success is only with God" — whatever befalls me of success to do good and
+escape evil is only through God Most High, not by my power nor my strength. "In Him do I trust": I rely
+on Him in my affairs and trust in His sufficiency; "and unto Him do I turn" — in performing what He has
+commanded me of acts of worship and drawing near to Him with all kinds of good deeds. By these two
+matters the servant's states are set right: seeking aid from his Lord and turning to Him — as God said,
+"So worship Him and put your trust in Him" (11:123) and "You alone we worship, and You alone we ask for
+help" (1:5).
+
+**Context.** **[Study Quran]** The clear proof Shuʿayb brought is said to be in the form of miracles
+given to all prophets to prove their veracity. "My success lies with God alone" (*wa mā tawfīqī illā
+bi'Llāh*) is a well-known expression in everyday Muslim discourse employed in diverse contexts; it
+conveys that no matter what one does, it is ultimately up to God whether it will be successful and carry
+a blessing in this world and the next. Shuʿayb's "In Him do I trust and unto Him do I turn" is
+identical to the statement the Prophet is taught to make at 42:10; see also 7:88–89.
+
+**Stories & occasions.** **[Maʿārif]** Shuʿayb heard their caustic comments yet turned to them with the
+same empathy, and once again tried to make them see the truth. His saying "I do not want to go against
+you" teaches that the way a preacher conducts his own life has a major role in what he preaches: what a
+preacher does not himself practise produces no effect on others. And since this effort too was not by
+his personal choice and volition, he further said: "And my ability to do things comes from none but
+Allah; in Him alone I have placed my trust, and to Him alone I turn in humbleness."
+
+**Reflection.** He answered mockery with four pillars — proof, provision, consistency, and intent — and
+crowned them with entrusting the outcome to God alone.
+
+## 11:89
+
+*"And, 'O my people, let not your dissension with me lead you into sin, such that there should befall
+you that which befell the people of Noah, or the people of Hūd, or the people of Ṣāliḥ; and the people
+of Lot are not far from you!'"*
+
+**Meaning.** **[Ṭabarī]** Shuʿayb said: O my people, let not my dissension with you — my enmity, my
+hatred, and your departure from the religion I am upon — carry you to persist in what you are upon of
+disbelief in God, idol-worship, shorting people in measure and balance, and refusing to turn and
+repent, and so there befalls you the like of what befell the people of Noah — of drowning — or the
+people of Hūd — of the punishment — or the people of Ṣāliḥ — of the Cry; and the people of Lot, whose
+land was overturned with them — their destruction is not far from you; will you not take warning by
+them and learn a lesson? Qatādah: "and the people of Lot are not far from you" — they were recent, near
+in time, after Noah and Thamūd. It may also be said: the land of Lot's people is not far from you.
+**[Jalālayn]** And O my people, let not the breach with me — the dispute you have with me — earn you as
+punishment that there befall you the like of what befell the people of Noah, or the people of Hūd, or
+the people of Ṣāliḥ, in the way of chastisement; and the people of Lot — their dwelling-places, or the
+era in which they were destroyed — are not far away from you, so take heed of this. **[Saʿdī]** O my
+people, let not your dissension with me — your opposition to me and breaking with me — carry you to be
+struck, among the punishments, by the like of what struck the people of Noah, or the people of Hūd, or
+the people of Ṣāliḥ; and the people of Lot are not far from you — neither in dwelling nor in time.
+
+**Context.** **[Study Quran]** In a sense the verse says: let not your enmity toward me cause you to
+commit sin, so that you become afflicted with the kind of punishment that befell previous generations;
+on not letting anger or resentment — even when justified — lead one to sin, see 5:2, 8. For the
+destruction of the peoples of Noah, Hūd, Ṣāliḥ and Lot, see vv. 25–48, 50–60, 61–68, 77–83. When
+Shuʿayb tells his people "the people of Lot are not far from you," he is pointing out that Lot's
+community was the most recent one, the closest to them in time, to have perished.
+
+**Reflection.** He sets before them the whole graveyard of this sūrah — flood, wind, Cry, overturned
+cities — and makes his last plea: do not let hostility toward the messenger cost you what the examples
+were meant to save.
+
+## 11:90
+
+*"And seek forgiveness from your Lord; then turn unto Him in repentance. Truly my Lord is Merciful,
+Loving."*
+
+**Meaning.** **[Ṭabarī]** Ask forgiveness of your Lord for your disbelief and your sins, then turn to
+Him in repentance through obedience; truly my Lord is Merciful to the believers, Affectionate — loving
+toward them, kind to them. **[Jalālayn]** And ask forgiveness of your Lord, then repent to Him. Truly
+my Lord is Merciful to believers, Affectionate — loving towards them. **[Saʿdī]** "And seek
+forgiveness from your Lord" for the sins you have committed, "then turn to Him in repentance" for what
+lies ahead of your lives, with sincere repentance and return to Him in obedience and abandoning
+opposition to Him. "Truly my Lord is Merciful, Loving" to whoever repents and returns: He has mercy on
+him, forgives him, accepts his repentance, and loves him. The meaning of *al-Wadūd* among His names is
+that He loves His believing servants and they love Him — it is in the form of *faʿūl* carrying both the
+sense of the doer and the one done to.
+
+**Context.** **[Study Quran]** "Seek forgiveness from your Lord; then turn unto Him in repentance" is
+also uttered by the prophet Hūd at 11:52.
+
+**Reflection.** The whole cycle of the sūrah closes in two names — Merciful, Loving — as if to say the
+gate stood open behind every warning, all along.
