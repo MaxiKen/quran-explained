@@ -2236,3 +2236,462 @@ women closes the whole discussion of rights with the balance in which every scra
 the weight of a speck of dust of evil shall see it" (99:7–8); "Whoever brings a good deed shall have ten
 times the like thereof" (6:160); "And We shall place the scales of justice for the Day of Resurrection, so no
 soul will be wronged at all" (21:47).
+## 4:41
+
+*"How will it be, then, when We bring from every community a witness, and We bring you as a witness against
+these?"*
+
+**Meaning.** **[Ṭabarī]** God does not wrong His servants the weight of a mote — so how will it be for them
+"when We bring from every community a witness": one who testifies to its deeds and to its having believed its
+messengers or rejected them; "and We bring you, O Muhammad, against these" — against your community — "as a
+witness." **[Jalālayn]** "These" are the Prophet's own people, over whom he will be made to testify — and the
+witness of a community is its prophet. **[Saʿdī]** Picture the state and the great judgment that gathers
+together that the One who judges is perfect in knowledge, perfect in justice and perfect in wisdom, and that
+the witnesses are the purest of creation, the messengers, testifying over their communities, with the
+defendant himself acknowledging. This is, by God, the most comprehensive, most just and greatest of
+judgments: there the judged remain acknowledging His perfect grace, justice and praise; there some are made
+happy with success, prosperity, honor and triumph, and other are made wretched with disgrace, exposure and
+humiliating punishment.
+
+**Ḥadīth & āthār.** **[Maʿārif]** The verse invites us to visualize the gravity of what will happen on the
+site of the Last Day, and admonishes the disbelievers of Quraysh: their anxiety would know no bounds when
+every prophet of every community appears as a witness to the good or bad deeds of his community, and
+Muhammad ﷺ, the last of the prophets, appears as a witness over his community, testifying in the Divine Court
+particularly about the disbelievers and polytheists — that these people saw open signs and miracles, yet
+belied and rejected them and refused to believe in the Divinity and his prophethood. Al-Bukhārī narrates that
+the Prophet ﷺ asked ʿAbdullāh b. Masʿūd to recite to him; when Ibn Masʿūd reached "How will it be when We
+bring from every community a witness," the Prophet ﷺ said, "Enough" — and his eyes were flowing with tears.
+**[Study Quran]** As God sends a prophet to every community, that prophet stands as a witness on the Day of
+Judgment to his community's acceptance or rejection of the divine message (cf. 16:84; 28:85; 57:19; and
+4:159, where Jesus is a witness against the People of the Book). Several verses assert that the Muslim
+community will collectively serve as witness over earlier communities or over all humanity, and that
+Muhammad will be a witness over the Muslims (2:143; 22:78); the Prophet reportedly implored God, "[I am] a
+witness over them so long as I remain among them, but when Thou takest me to Thyself, it is Thou who art the
+Watcher over them" — invoking the words Jesus speaks in 5:117. The Prophet was reported to have wept on the
+recitation of this verse, contemplating the weight of the responsibility (Ibn Kathīr, Qurṭubī).
+
+**Reflection.** **[Saʿdī]** The verse follows the account of the mote's weight: the same balance that
+weighs the smallest good weighs the greatest testimony, and the One who does not wrong a mote will not let
+the testimony of a prophet go unrecorded. **[Study Quran]** The scene is a rebuke aimed at the disbelievers
+of the Prophet's own time, against whom he would stand as witness; but the consolation of the verse is that
+the Prophet's testimony will be true and his community's account fair, since it is God who is the judge.
+
+**Cross-references.** "And on the Day We raise up in every community a witness from among themselves..."
+(16:89); "Thus We have made you a middle community, that you may be witnesses over the people, and the
+Messenger a witness over you" (2:143); "And the earth will shine with the light of its Lord, and the Book
+will be placed, and the prophets and witnesses will be brought" (39:69).
+
+## 4:42
+
+*"On that Day those who disbelieved and disobeyed the Messenger will wish that they were level with the
+earth, and they will not conceal from God any account."*
+
+**Meaning.** **[Ṭabarī]** On the day We bring a witness from every community and bring you, O Muhammad,
+against your community as a witness, those who denied the oneness of God and disobeyed His Messenger will
+wish that the earth were levelled with them. The reciters differed in reading *law tusawwā*: the majority of
+the people of Ḥijāz, Mecca and Madīnah read it with the doubled *sīn* and *wāw*, as *law tatasawwā*, the
+second *tāʾ* being assimilated into the *sīn*. **[Qurṭubī]** Nāfiʿ and Ibn ʿĀmir read *tassawwā* with the
+*tāʾ* opened and the *sīn* doubled; Ḥamzah and al-Kisāʾī read like them but lightened the *sīn*; the rest
+read with the *tāʾ* vocalized as *u* and the *sīn* lightened, as a passive verb: "that the earth might be
+levelled with them" — that is, that God would make them and the earth equal. And another meaning: they wished
+they had not been raised and the earth were level over them, since it was from the dust that they were
+removed. **[Saʿdī]** They wish that the earth would swallow them and that they would be dust and nothing —
+like the disbeliever's cry in 78:40, "O would that I were dust!" — and they will not conceal from God any
+account: rather they will confess to Him what they did, and their own tongues, hands and feet will testify to
+what they used to do.
+
+**Language.** **[Jalālayn]** On that Day — the day of the bringing forward — the disbelievers who disobeyed
+the Messenger will wish that the earth were levelled with them, read passively *tusawwā* or actively
+*tasawwā* or *tassawwā*, so that like it they too might become dust, because of the terror of that day. And
+they will not hide from God any talk of what they did — although at another stage they do actually hide it and
+say, "By God, our Lord, we never associated anything with You" (6:23). **[Study Quran]** The wish to be level
+with the earth may also connote a desire that the earth devour them or cave in below them, since the earth is
+the active subject in the Arabic construction. The Qurʾān is emphatic about the impossibility of concealing
+anything from God: even if people seek to lie about their lives, their own body parts will testify against
+them on the Day of Judgment (24:24; 36:65; 41:20–22).
+
+**Reflection.** **[Saʿdī]** The verse names both sins: those who disbelieved and those who disobeyed the
+Messenger — so the wish to be dust belongs to whoever gathered rejection of the message with contumacy
+against its bearer. And the close is sharper than the wish that precedes it: the man who would rather be
+nothing than be questioned discovers that he is not nothing; he is a witness against himself.
+**[Maʿārif]** The wish appears elsewhere as the unbeliever's final fantasy on the plain of Resurrection, when
+the beasts have become dust and he sees what awaits him; here it is stated before the scene, so that the
+disbeliever knows, while still alive, what his hope will have become.
+
+**Cross-references.** "And the disbeliever will say: O would that I were dust!" (78:40); "And they will say,
+'We believe in it' — but how can they attain from a place far away?" (34:52); "On the Day when their tongues,
+their hands and their feet will testify against them as to what they used to do" (24:24).
+
+## 4:43
+
+*"O you who believe, draw not near to prayer while you are drunk, until you know what you are saying; nor in
+a state of ritual impurity — unless you are passing through — until you have washed. And if you are ill, or on
+a journey, or one of you comes from the privy, or you have touched women, and you find no water, then resort
+to clean earth and wipe your faces and your hands. Truly God is Pardoning, Forgiving."*
+
+**Rulings.** **[Ṭabarī]** "Do not draw near to prayer" means do not pray while you are drunk — *sukārā* being
+the plural of *sakrān* — "until you know what you are saying" in your prayer, so that you can distinguish
+what God has commanded you to say in it. **[Qurṭubī]** God singled out the believers for this address
+because they were the ones who used to stand in prayer having drunk wine, which destroyed their faculties —
+whereas the disbelievers did not pray at all, sober or drunk. Abū Dāwūd records from ʿUmar b. al-Khaṭṭāb:
+"When the prohibition of wine was revealed, ʿUmar said, 'O God, make plain to us concerning wine a clear
+statement'" — and the verses came in stages. **[Ibn Kathīr]** This verse was revealed before wine was
+prohibited absolutely, as the report shows: the Messenger of God ﷺ recited 2:219 to ʿUmar — "They ask you
+about wine and gambling; say: in them is great sin, and benefits for people, but their sin is greater than
+their benefit" — and ʿUmar said, "O God, make plain to us concerning wine"; then this verse was recited to
+him and he said it again; then when 5:90 came down — "O you who believe, wine and gambling and idols and
+divining arrows are only filth of Satan's handiwork, so avoid them" — he was told the matter was decided.
+
+**Context.** **[Maʿārif]** It was before wine was forbidden that ʿAbd al-Raḥmān b. ʿAwf invited some
+Companions to dinner at his home. As was customary, wine was served before the meal; when everyone had
+finished eating, the time came for the Maghrib prayer. ʿAlī was asked to lead the prayer, and under the
+effect of intoxication he made a grave error while reciting Sūrat al-Kāfirūn. Thereupon this verse was
+revealed, warning that prayer should not be performed in a state of intoxication (al-Tirmidhī).
+**[Saʿdī]** This verse is abrogated by the total prohibition of wine, for wine at first was not forbidden;
+then God pointed toward its prohibition by "in them is great sin"; then He forbade them from wine at the
+time of prayer, as here; then He prohibited it absolutely at all times in 5:90. Even so, its prohibition is
+intensified at the time of prayer because of the great harm involved: the presence of the heart and
+*khushūʿ*, which are the spirit and core of the prayer, are lost — wine intoxicates the heart and blocks the
+remembrance of God and the prayer. From the sense of the passage is taken the prohibition of entering prayer
+in a state of overpowering drowsiness in which one does not know what he is saying; and perhaps there is in
+it an indication that one who intends the prayer should cut off every distraction that occupies his mind —
+like repressing the calls of nature and the longing for food — as the sound *ḥadīth* has it.
+
+**Rulings.** **[Jalālayn]** "Nor in a state of ritual impurity" — *junub*, a circumstantial qualifier — which
+may refer to one or many; "unless you are crossing a path," that is, unless you are travelling — until you
+have washed, in which case you may pray; the proviso is made for the traveller because a different
+stipulation applies to him, as will follow. It is also said that the purpose of the verse is to prohibit
+drawing near the places of prayer, the mosques, the exception being passing through without staying. "If you
+are sick" — with an illness made worse by contact with water — "or on a journey, or one of you comes from the
+privy, or you have touched women" — *lāmastum*, with a variant reading *lamastum*, both meaning touching with
+the hand, as Ibn ʿUmar said — and this is al-Shāfiʿī's view, extending to touching with other parts of the
+skin; according to Ibn ʿAbbās, it means sexual intercourse. And you find no water: then resort to clean
+earth, wipe your faces and your hands. **[Ibn Kathīr]** "Except while passing through" — passing through the
+mosque from one door to another without staying in it. **[Study Quran]** The law has continued: alcohol in
+any intoxicating amount is forbidden, and only the last of the four verses is an absolute prohibition — the
+jurists, relying on Prophetic practice, took that last verse as the authoritative ruling that settles the
+earlier stages. **[Saʿdī]** draws from the passage the ruling that a person may not stay in the mosque in a
+state of major impurity, though he may pass through.
+
+**Reflection.** **[Saʿdī]** The sequence of the four verses on wine is itself an education in how the law
+came: the Qurʾān did not tear the drink from the hands of a society built around it in a single gesture but
+led it by degrees — a sign's mention of harm, then a restriction at the time of worship, then the absolute
+ban, until the community itself asked for clarity. And the ablution with clean earth when water is absent is
+a mercy at the end of a verse full of rulings: the same law that bars the drunk man from the prayer opens a
+door for the sick, the traveller and the one without water, so that no servant is left without a way to
+stand before his Lord — which is why the verse closes "Pardoning, Forgiving."
+
+**Cross-references.** "They ask you about wine and gambling: say, in them is great sin and benefits for
+people, but their sin is greater than their benefit" (2:219); "O you who believe, wine and gambling and
+idols and divining arrows are only filth of Satan's handiwork" (5:90); the ablution of 5:6 and the
+*tayammum* described there; "God does not desire to place a burden upon you, but He desires to purify you"
+(5:6).
+
+## 4:44
+
+*"Have you not seen those who were given a portion of the Book — they purchase error and wish that you stray
+from the path?"*
+
+**Meaning.** **[Ṭabarī]** Those who were given a portion of the Book — the Jews — "purchase error": they
+choose error, that is, taking a road other than the path of truth and riding other than the way of right
+guidance, while knowing the straight road and the clear path. **[Saʿdī]** This is a censure of those given a
+portion of the Book, and within it a warning to God's servants against being deceived by them and falling
+into their snares. He informed us that they "purchase error": they love it with a great love and prefer it as
+one who spends abundant wealth to obtain what he loves — they prefer error to guidance, disbelief to faith,
+wretchedness to happiness; and along with that, "they wish that you should stray from the path": they are
+extremely eager to lead you astray and exhaust their efforts in it. But since God is the Protector of His
+believing servants and their Helper, He made clear to them what these people carry of error and of leading
+others into error. **[Jalālayn]** Those given a share, a portion, of the Book — the Jews — purchasing error
+with guidance, and desiring that you should err from the way: that you should stray from the path of truth
+and be like them.
+
+**Context.** **[Qurṭubī]** The passage was revealed concerning the Jews of Madīnah and its environs. Ibn
+Isḥāq said: Rifāʿah b. Zayd b. al-Tābūt was one of the notables of the Jews; when he spoke to the Messenger
+of God ﷺ he would twist his tongue and say, "Give ear to us, O Muhammad, that we may make you understand" —
+then he would attack Islam and defame it; so God sent down, "Have you not seen those who were given a portion
+of the Book..." **[Study Quran]** The question is addressed to the Prophet, asking rhetorically whether he
+has not seen — that is, been informed of — those who were given a portion of the Book; most take this as a
+reference to the Jews, though they are not mentioned explicitly here, and it opens a sequence of verses
+critical of the Jews of Madīnah and their response to the Prophet's message. "To purchase error" is one of
+many mercantile metaphors used to describe the foolishness of acquiring transitory worldly gain by
+surrendering or selling things of spiritual value (2:16, 86, 175; 3:177; 4:74; 5:44; 16:95). It refers to the
+Madinan Jews' rejection of the Prophet's message despite their knowledge of the spiritual truth in their
+portion of the Book, and the verse also criticizes them for trying to draw the Muslims into error by seeking
+to discredit the Prophet (al-Ṭabarī). The verse advises Muslims that such people are their spiritual
+enemies, against whom God is their sufficient Protector and Helper.
+
+**Reflection.** **[Saʿdī]** The two verbs of the verse describe the whole mechanism: they buy and they
+want to sell — they purchase error for themselves and then market it to others. The believer's protection in
+the verse is not argument but knowledge: God tells His servants what their adversaries carry, so that the
+deception is disarmed before it is attempted. **[Study Quran]** The close of the next verse — God knows best
+your enemies — makes the same point in the language of trust: the enemies are numbered, and their number is
+not the believer's problem.
+
+**Cross-references.** "Those are they who have purchased error for guidance; so their trading has not
+profited them, nor were they guided" (2:16); "And they will bear their burdens on the Day of Resurrection"
+(29:13); "They wish that you would disbelieve as they disbelieved, so that you would all be alike" (4:89).
+
+## 4:45
+
+*"And God knows best your enemies; and God suffices as a Protector, and God suffices as a Helper."*
+
+**Meaning.** **[Jalālayn]** God has better knowledge of your enemies than you do — and He informs you of
+them so that you may avoid them. God suffices as a Protector, a Preserver of you from them; God suffices as a
+Helper, defending you against their plotting. **[Saʿdī]** "God suffices as a Protector": He takes charge of
+the affairs of His servants and deals gently with them in all their matters, making easy for them what holds
+their happiness and success; "and God suffices as a Helper": He gives them victory over their enemies,
+explains to them what they must guard against from them, and aids them against them. In His *wilāyah* lies
+the attainment of good, and in His help lies the removal of evil. **[Ibn Kathīr]** "God has full knowledge
+of your enemies" means He has better knowledge of them than you, and He warns you against them; and He is
+sufficient for you as a Protector and a Helper.
+
+**Reflection.** **[Study Quran]** It is reiterated elsewhere that God is the only true Protector and Helper
+(2:107, 120; 4:123, 173; 9:74, 116; 29:22; 33:18, 65; 42:9, 31; 48:22). The verse does not deny the reality
+of enemies but puts the believer's relation to them on a different footing: enemies are known to God before
+they are known to us, and the protection He gives is not a defensive strategy but a *wilāyah* — a taking
+charge of the servant's affairs. **[Saʿdī]** The two names at the end of the verse answer the two fears that
+the verse before it raises: the fear of secret enmity, answered by the Protector; and the fear of open
+attack, answered by the Helper.
+
+**Cross-references.** "Is not God sufficient for His servant?" (39:36); "God is sufficient as a Protector,
+and God is sufficient as a Helper" appears again at 4:81 in spirit and at 33:3 — "And put your trust in God,
+and God suffices as a Trustee."
+
+## 4:46
+
+*"Among those who are Jews are those who distort words from their places, and say, 'We hear and disobey,' and
+'Hear, as one who hears not,' and 'Attend to us,' twisting their tongues and disparaging the religion. And if
+they had said, 'We hear and obey,' and 'Listen,' and 'Regard us,' it would have been better for them and more
+upright — but God has cursed them for their disbelief, so they do not believe except a few."*
+
+**Meaning.** **[Ṭabarī]** The words "from those who are Jews" admit of two analyses: either it is joined to
+"those who were given a portion of the Book," so that the sense is "Have you not seen those who were given a
+portion of the Book... from among those who are Jews, distorting words..." — and this was the reading the
+majority of the Arabists of Kūfah gave it — or the sense is "from among those who are Jews there is he who
+distorts words from their places," the relative *man* being omitted because the sense makes it clear.
+**[Jalālayn]** Some group of the Jews distort the words God revealed in the Torah pertaining to the
+descriptions of Muhammad ﷺ, from their contexts; and they say to the Prophet, when he commands them
+something, "We have heard your words and we disobey your command"; and "hear as one who does not hear" — a
+circumstantial qualifier functioning as an invocation: "and may you not hear!" And they say to him, "Mind us"
+(*rāʿinā*) — a term with which it had been forbidden to address him, being a curse word in their language —
+twisting with their tongues and defaming Islam. If they had said "We have heard and we obey" instead of "and
+we disobey," and only "Hear" and "Consider us" (*unẓur ilaynā*) instead of *rāʿinā*, it would have been
+better for them and more upright than what they said; but God has cursed them — removing them from His mercy
+— for their unbelief, so they believe not except a few among them, such as ʿAbdullāh b. Salām and his
+companions.
+
+**Meaning.** **[Saʿdī]** These are the misguided scholars among the Jews: they distort the words from their
+places, either by changing the wording or the meaning or both. Among their distortions is applying the
+descriptions set out in their books — which fit and are true of no one but Muhammad ﷺ — to someone other
+than him, and concealing that. This is the worst state in knowledge: they have overturned realities, brought
+the truth down upon the falsehood and denied the truth accordingly. As for their state in action and
+submission: they say, "We hear and we disobey" — we heard your words and disobeyed your command — and this is
+the utmost unbelief, contumacy and flight from submission. They likewise address the Messenger ﷺ with the
+ugliest speech and the furthest from courtesy, saying, "Hear, as one who hears not" — intending, "hear from
+us as one who is not heard"; and "attend to us," twisting their tongues, intending thereby mockery and
+revilement of the Prophet and of the religion. Had they said "We hear and obey," and "Listen," and "Regard
+us," it would have been better for them than what they said and more upright — but God cursed them for their
+disbelief, so they believe not except a few. **[Ibn Kathīr]** The criticism, repeated at 2:75 and 5:13 and
+41, is that they distort the word from its place; and the reading of "rāʿinā" with a twist of the tongue was
+a mockery of the religion. **[Study Quran]** Notes the two readings of the syntax and that al-Ṭabarī favored
+the first, taking the verse as a continuation of the rhetorical question of 4:44; Ibn Kathīr reads it as a
+general condemnation of Jews, though the historical context is primarily the Prophet's conflict with the
+Madinan Jews. The distortion may mean that they distort the words of the Torah (Ibn Kathīr, Qurṭubī) or that
+they rearranged the words of scripture (al-Zamakhsharī); a minority reading suggests it is the words of the
+Prophet that they distort. The instruction "Regard us" — *unẓur ilaynā* — replaced *rāʿinā* because the latter
+had become a vehicle for insult in their mouths.
+
+**Reflection.** **[Maʿārif]** The passage teaches Muslims a lesson about speech: they should be careful in
+choosing the words they use, for the worth of a greeting or a request lies in the intention behind it; and
+mincing words, with a second meaning hidden under the first, is not the style of a believer. **[Saʿdī]**
+Sets their offense in ascending order: they distorted the text, then they answered the Prophet with
+disobedience, then they mocked him with a sacred-seeming word; and the gate that was left open to them is
+named in the verse — "We hear and obey" — a phrase they could have said at any moment, and which a few of
+them, like ʿAbdullāh b. Salām, finally did.
+
+**Cross-references.** "Do you hope that they will believe you, when a party of them used to hear the words of
+God and then distort them after they had understood them, while they knew?" (2:75); "They alter the words
+from their places and have forgotten a portion of what they were reminded of" (5:13); "Among them are
+illiterate ones who do not know the Book except wishful thinking" (2:78).
+
+## 4:47
+
+*"O you who have been given the Scripture, believe in what We have sent down, confirming what is with you,
+before We efface faces and turn them backwards, or curse them as We cursed the people of the Sabbath; and the
+command of God is ever fulfilled."*
+
+**Meaning.** **[Ṭabarī]** "O you who have been given the Scripture" — the Jews of the Children of Israel who
+were around the place of the Messenger's emigration — God says to them: believe, that is, confirm, what We
+have sent down to Muhammad of the Criterion, "confirming what is with you," that is, verifying the Torah that
+I sent down to Moses b. ʿImrān. **[Ibn Kathīr]** The warning: "before We efface faces and turn them
+backwards." Al-ʿAwfī said that Ibn ʿAbbās said that "effacing" here refers to blindness, and "turn them
+backwards" means We put their faces on their backs and make them walk backwards, since their eyes will be in
+their backs; similar was said by Qatādah and ʿAṭiyyah al-ʿAwfī. This makes the punishment even more severe,
+and it is a parable that God set for ignoring the truth, preferring the wrong way and turning away from the
+plain path for the paths of misguidance — therefore such people walk backwards.
+**[Study Quran]** Since the face is a symbol for, or a manifestation of, the state of the individual soul,
+divine punishment is often said to be meted out upon faces (3:106; 8:50; 20:111; 88:2). Some say effacing
+faces means their facial features, notably the eyes, will be removed, so that they will be blinded (Qurṭubī);
+turning them backwards means their eyes will be placed behind their heads, rendering them incapable of
+seeing what is before them, so that they must walk backwards (Ṭabarī). Others say it is metaphorical: they
+will be blinded to the path of truth and so turned back toward error.
+
+**Rulings & reflection.** **[Maʿārif]** The expression "and turn them shaped like their backs" admits two
+probabilities: either the features of the face are eliminated and the whole face is turned around toward the
+back; or the face is flattened like the nape of the neck, devoid of all features — effaced. As for when this
+will be, the commentators discussed the effacement (*ṭams*) and transmutation (*maskh*) at length: some said
+this punishment would come upon the Jews before the Day of Doom, while others said it did not come to pass
+because some of the Jews entered the faith. **[Jalālayn]** The threat was delivered "before We obliterate
+faces, erasing the eyes, noses and eyebrows in them, and turn them inside out, and make them like the napes
+of the neck; or curse them by transforming them into apes as We cursed those of the Sabbath among them." And
+God's command is done: after this was revealed, ʿAbdullāh b. Salām became a Muslim, and so it was said that
+this had been a conditional threat of punishment which, when some of them accepted Islam, was lifted; and it
+is also said that obliteration and transformation will take place before the rising of the Hour.
+**[Saʿdī]** The call to believe comes with the strongest possible argument: "if they do not believe in this
+Qurʾān they have not believed in what is in their hands, for God's books confirm one another and agree with
+one another; so the claim of faith in some without the others is a false claim that cannot be true." And the
+verse presses the point from their own advantage: they should be the first to hasten to it, because of the
+knowledge and the Book God has granted them, which makes their obligation heavier than others'. Their
+punishment, if they refuse, is of the same kind as their deed: as they left the truth and preferred falsehood
+and inverted realities, turning the false into the true and the true into the false, so they are recompensed
+in kind — with their faces effaced as they effaced the truth, and turned upon their backs, made to be in
+their very napes, the ugliest of conditions.
+
+**Cross-references.** "And when We said to them, 'Be apes, despised!'" (2:65); "So when they were insolent
+about what they had been forbidden, We said to them, 'Be apes, despised'" (7:166); "And verily, of the People
+of the Book are those who believe in God and what has been sent down to you and what was sent down to them"
+(3:199).
+
+## 4:48
+
+*"Truly God forgives not that anything be associated with Him, but He forgives what is less than that for
+whomsoever He wills; and whoever associates anything with God has fabricated a tremendous sin."*
+
+**Meaning.** **[Ṭabarī]** To the call "believe in what We have sent down" is joined this: God does not
+forgive association with Him and unbelief, but He forgives what is less than that — the sins and offenses —
+for whom He wills among the people of sins. **[Jalālayn]** God forgives not that anything should be
+associated with Him, but He forgives other than that — what is less than association — to whomever He wills:
+forgiveness being by admitting him into Paradise without punishment; and whomever He wills of the believers He
+punishes for their sins and then admits them into Paradise. Whoever associates anything with God has indeed
+invented a tremendous, great sin. **[Saʿdī]** God informs us that He does not forgive a person who associates
+any created being with Him, but forgives what is below that of sins, small and great, when His wisdom
+requires forgiveness. Sins below association have many causes of forgiveness: good deeds that erase, calamities
+that expiate in this world, in the interworld and on the Day of Resurrection, the prayers of believers for one
+another, the intercession of intercessors, and above all these His mercy, which He has made the due of the
+people of faith and *tawḥīd*. This is unlike association: for the one who associates has shut on himself the
+doors of forgiveness and closed the gates of mercy — acts of obedience without *tawḥīd* do not benefit him,
+and calamities do not avail him: "They will have no intercessors on the Day of Resurrection, nor any devoted
+friend" (26:100–101). Hence "whoever associates anything with God has fabricated a tremendous sin": what
+wrong is greater than equating a creature made of dust — deficient in every way, poor in itself, possessing
+for itself no power of benefit or harm, death or life or resurrection — with the Creator of everything,
+complete in every way, rich in Himself above all His creatures, in whose hand are benefit and harm, giving
+and withholding, and from whom alone comes every blessing to creatures? This verse concerns the one who does
+not repent; as for the repentant, his association is forgiven along with what is below it, as God says: "Say:
+O My servants who have transgressed against themselves, despair not of the mercy of God; surely God forgives
+all sins" (39:53).
+
+**Rulings.** **[Qurṭubī]** It was said that this verse is general for everyone who commits a sin, and it was
+said it concerns the one who does so in ignorance only, since repentance is granted to every sinner
+elsewhere. **[Study Quran]** The sin of *shirk* — ascribing partners to God in worship or in His role as
+Creator — is considered the only sin God will not forgive (see also 4:116). Although the term is often
+associated with crass idolatry — and *mushrikūn* is often translated "idolaters" — it can also refer to those
+who worship human authorities, false deities, angels (17:40; 53:26–27), jinn (6:100; 34:41) or natural
+phenomena (6:76–78) as having independent influence and authority over the world or human destiny; it could
+also be broadened to include subtler ways of setting up "equals" with God, such as loving or fearing anything
+but God. The verse compelled many to examine their hearts and excise all such forms of "hidden *shirk*."
+Some say it was revealed in part to clarify the assertion of 39:53 that God forgives all sins, making an
+exception for *shirk*. The possibility of forgiveness is precluded only for the one who dies in *shirk*
+without repentance. **[Maʿārif]** The verse's placement answers a question raised by the preceding
+admonition: since some of the addressees could finally be forgiven, all of them might be; so the text
+explains that this group will not be forgiven because of their disbelief, and thereby refutes the Jewish
+claim that they shall be forgiven. The words demonstrate that the articles of faith concerning God's Being
+and Attributes are the indispensable core of religion, and that holding any partner alongside Him — be it
+the crudest idol or the subtlest concept — destroys the whole.
+
+**Reflection.** **[Saʿdī]** The verse is a mercy and a warning at once: a mercy, because outside *shirk*
+there is no sin beyond the reach of God's forgiveness; a warning, because *shirk* closes the door not by
+God's severity but by its own nature — the man who assigns the gift to another has cut the hand that would
+receive forgiveness. **[Maʿārif]** accordingly the two halves of the verse differ in kind: "He forgives what
+is less than that" is open on every side, and "whoever associates anything with God has fabricated a
+tremendous sin" is the one closed door in the mosque of His mercy.
+
+**Cross-references.** "Verily, God forgives not that partners be ascribed to Him, but He forgives what is
+less than that for whomsoever He wills" (4:116, nearly verbatim); "Say: O My servants who have transgressed
+against themselves, despair not of the mercy of God; surely God forgives all sins" (39:53); "God has
+prescribed mercy upon Himself" (6:12, 54).
+
+## 4:49
+
+*"Have you not seen those who deem themselves pure? Rather, it is God who purifies whom He wills, and they
+shall not be wronged so much as the thread of a date stone."*
+
+**Meaning.** **[Ṭabarī]** Have you not seen, O Muhammad with your heart, those who purify themselves among
+the Jews, declaring themselves free of sins and clean? The commentators differed on the meaning of their
+self-purification. Qatādah said: their purification of themselves was their saying, "We are the sons of God
+and His beloved." **[Jalālayn]** Those who praise themselves for purity — namely the Jews, when they say "We
+are God's children and His beloved"; it is not a matter of their purifying themselves. Rather, God purifies
+whom He will through faith; and they shall not be wronged — diminished of their deeds — a single date-thread,
+as much as the peel on a date-stone. **[Saʿdī]** This is God's wonder at His servants and a reproach to those
+who purify themselves among the Jews and Christians and whoever takes their path — everyone who praises
+himself with a purity he does not possess. The Jews and Christians say, "We are the sons of God and His
+beloved" (5:18) and "None shall enter Paradise except one who is a Jew or a Christian" (2:111) — a mere claim
+with no proof; the proof is what God revealed: "Rather, whoever submits his face to God while doing good, his
+reward is with his Lord; and no fear shall be upon them, nor shall they grieve" (2:112). These are the ones
+God has purified; hence "rather, God purifies whom He wills" — by faith and righteous work, by freeing
+themselves from base character and adorning themselves with beautiful traits. As for those, though they
+imagine themselves purified and that the reward is theirs alone, they are liars in that; they have no share of
+the qualities of the purified because of their wrong and their disbelief — not because of any wrong from God
+toward them; hence "they shall not be wronged by a single date-thread" — and this confirms the generality:
+they will not be wronged in anything, not even by the measure of the thread in the date-stone's crevice or of
+the dirt twisted from the hand.
+
+**Rulings & reflection.** **[Study Quran]** These verses continue the criticism of the Madinan Jews, or
+more likely of the People of the Book in general, who deem themselves pure; most commentators see a
+reference to the spiritual assertions the Jews or the People of the Book are said to make elsewhere in the
+Qurʾān, particularly that they are the children and beloved of God (5:18) and that they have an exclusive
+claim on Paradise (2:111). Some say it refers to a group of Madinan Jews who approached the Prophet claiming
+they were free of sin, that what they did during the day was forgiven at night, or that they could absolve
+one another of sins through intercession. And the Qurʾān warns people in general not to consider themselves
+pure (53:32); God alone knows who is truly pure and who is not. **[Maʿārif]** Since the Jews claimed sanctity
+for themselves, God censures them in this verse as a strange lot attributing sanctity to themselves and then
+having the audacity to tell others that it is so. From this we learn that it is not permissible for anyone to
+claim and broadcast his own sanctity, or that of others. This is forbidden on three counts: the cause of
+self-praise is mostly pride and arrogance, so what is in reality forbidden is pride and arrogance; as to a
+man's end, only God knows whether it will come in a state of *taqwā* and purity; and such a claim is a
+statement about God's own judgment, which belongs to Him alone. **[Ṭabarī]** The verse's sharpest word is
+*bal*, "rather": it turns the sentence around — not their purity but God's purification, not their claim but
+His will.
+
+**Cross-references.** "Say: Rather, God's guidance is the guidance" (2:120); "But those who believe and do
+righteous deeds — how should We not reward them?" (95:6); "Do not claim purity for yourselves; He knows best
+who is God-fearing" (53:32).
+
+## 4:50
+
+*"See how they fabricate falsehood against God; and that suffices as a manifest sin."*
+
+**Meaning.** **[Ṭabarī]** Look, O Muhammad, how these who purify themselves among the People of the Book —
+the ones who say, "We are the sons of God and His beloved," and that none shall enter Paradise unless he be a
+Jew or a Christian, and who claim that they have no sins — fabricate falsehood and lies against God,
+inventing it. "And that suffices": their saying this falsehood and lie against God is enough as a manifest
+sin — that is, it makes clear to its hearers their lie and shows them that they are perverse and wicked.
+**[Jalālayn]** Consider, in amazement, how they invent falsehood against God in that way; and that suffices
+for a clear, evident sin. **[Saʿdī]** "Look how they fabricate lies against God" — by purifying themselves;
+for this is among the greatest of fabrications against God, because the content of their self-purification is
+the claim that God made what they are upon the truth and what the believers, the Muslims, are upon falsehood.
+That is the greatest lie and the most complete inversion of realities, making the true false and the false
+true — hence "and that suffices as a manifest sin": an evident sin that necessitates severe punishment and
+painful chastisement.
+
+**Reflection.** **[Ṭabarī]** The verse closes the passage on self-purification with the plainest of
+diagnoses: what they did was not an error of knowledge but a fabrication, and one sin is enough to condemn
+it. **[Saʿdī]** notes what makes the lie so heavy: it does not merely exalt the liar, it drags God's own
+judgment into the service of the falsehood — a claim so large that its own size is its refutation.
+**[Study Quran]** The passage that follows turns from the claim to the claimants: those who fabricate against
+God are set against those whom God has purified, and the distinction the Qurʾān draws is between a claim made
+in the open and a verdict held in God's keeping.
+
+**Cross-references.** "And who is more unjust than he who fabricates a lie against God or denies His signs?
+Surely the unjust will not prosper" (6:21); "Say: Those who fabricate lies against God will not prosper"
+(10:69); "So who is more unjust than he who fabricates a lie against God, that he may mislead people without
+knowledge?" (6:144).
