@@ -48,6 +48,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -730,43 +732,334 @@ the bond of blood nor the bond of a sworn pledge — where a believer is concern
 
 ## 9:11
 
-*“If they repent, establish prayer, and give zakāh, then they are your brethren in religion. We make the signs clear for people who know.”*
+*"But if they repent, and perform the prayer and give the alms, then they are your brethren in religion.
+And We expound the signs for a people who know."*
 
-**Meaning.** The door to reconciliation remains open. Those who abandon idolatry and enter the Muslim community are to be treated as brothers and sisters in faith; their former hostility is not held against them. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Maʿārif] [Study Quran]**
+**Meaning.** **[Ṭabarī]** The sense is: if these idolaters, whom I commanded you, O believers, to kill,
+turn back from their unbelief and their associating partners with God, to faith in Him and in His
+Messenger, and return to obedience to Him — "and establish the prayer," the prescribed one, performing it
+with its limits — "and give the alms," the obligatory one, to those entitled to it — "then they are your
+brethren in religion": they are your brothers in the religion which God has commanded you, namely Islam.
+"And We expound the signs": We make clear the proofs and evidences of God to His creation — "for a people
+who know" what is made clear to them, so We set it out for them in detail, as opposed to the ignorant who
+do not reason about God's clarification or His firm verses. **[Jalālayn]** "Yet if they repent and
+establish prayer and pay the alms, then they are your brothers in religion; and We detail — We explain —
+the signs for a people who know," who reflect. **[Saʿdī]** (on vv. 8–11) So defend your religion and
+help it, and take whoever is hostile to it as an enemy and whoever helps it as a friend; let the ruling
+turn with it, in its presence and absence, and do not make allegiance and enmity into natural impulses
+that incline wherever desire inclines, following the soul that commands evil. This is why He says: "but
+if they repent" of their *shirk* and return to faith, "and establish the prayer and give the alms, then
+they are your brothers in religion" — forget that former enmity of theirs when they were idolaters, so
+that you may be God's sincere servants, for it is by this that a servant is truly a servant. And having
+set out the great rulings, clarifying them as rulings, judgements, laws and wisdom, He says: "We expound
+the signs" — We clarify and distinguish them — "for a people who know," for to them the discourse is
+directed and by them the signs and rulings are known.
 
-**Reflection.** The passage moves from a duty to honor the faithful treaty to an invitation for former opponents to begin anew as members of the religious community. **[Saʿdī] [Maʿārif]**
+**Ḥadīth & āthār.** **[Ṭabarī]** Qatāda said, on "but if they repent and establish the prayer and give
+the alms, then they are your brethren in religion": if they abandon al-Lāt and al-ʿUzzā and bear witness
+that there is no god but God and that Muḥammad is the Messenger of God. Ibn ʿAbbās, through Layth, said:
+"This verse made the blood of the people of the *qiblah* inviolable." **[Qurṭubī]** "If they repent"
+means from *shirk*, and they commit themselves to the rulings of Islam; "then they are your brothers" —
+in religion. Ibn ʿAbbās said: this verse made the blood of the people of the *qiblah* inviolable. Ibn
+Zayd said: God made the prayer and the alms obligatory and refused to separate the two, and refused to
+accept the prayer without the alms. Ibn Masʿūd said: you were commanded to pray and to give the alms, and
+whoever does not pay the alms has no prayer. And there is a ḥadīth that the Prophet ﷺ said: "Whoever
+separates between three things, God will separate between him and His mercy on the Day of Resurrection:
+whoever says, 'I obey God but I do not obey the Messenger,' while God says, *Obey God and obey the
+Messenger* (4:59); whoever says, 'I establish the prayer but I do not give the alms,' while God says,
+*and establish the prayer and give the alms* (2:43); and whoever separates gratitude to God from gratitude
+to his parents, while God says, *Be grateful to Me and to your parents* (31:14)."
+
+**Rulings.** **[Maʿārif]** Once an enemy — however deadly and however hurtful he has been — becomes a
+Muslim, things change dramatically: God forgives all his past sins, and it becomes obligatory on the
+Muslims likewise to forget the past, to start afresh, to take him as a brother in faith and to fulfil the
+rights that relationship entails. This verse sets out three conditions of entry into that brotherhood:
+repentance from *kufr* and *shirk*, the establishing of the prayer, and the payment of *zakāh* — because
+faith and repentance are hidden matters whose reality ordinary Muslims cannot ascertain, so two outward
+signs of them were named. Ibn ʿAbbās said: this verse made the blood of "the people of the *qiblah*"
+unlawful (*ḥarām*) — meaning that those who establish the prayer, pay the *zakāh* and against whom nothing
+contrary to Islam has been established are to be reckoned Muslims for the purpose of all religious
+rulings, even if they lack true faith in their hearts or harbour hypocrisy. **[Study Quran]** Many
+commentators point out that "then they are your brethren in religion" makes sacrosanct the blood of the
+people of the *qiblah* — those who worship as Muslims (Q, Ṭ); in other words, Muslims do not need a
+separate treaty to establish peaceful relations with one another, although later in history, when multiple
+Islamic political entities emerged, those entities would make treaties with one another.
+
+**Cross-references.** **[Ibn Kathīr]** (who treats vv. 9–11 together) The meaning of "but if they repent
+and perform the prayer" has already been explained above, at 9:5. **[Study Quran]** "If they repent"
+means: if they abandon idolatry (IK).
+
+**Reflection.** The man who was to be fought "wherever he is found" becomes, by repentance, prayer and
+alms, a brother — and the past is not merely forgiven but forgotten, since the enmity was never personal:
+it was enmity to the faith, and when the faith is embraced the ground of enmity is gone. **[Saʿdī]**
+Allegiance and enmity must follow the religion, not temperament or desire; that is what makes a servant a
+servant of God in truth.
+
+---
 
 ## 9:12
 
-*“If they break their oaths after their treaty and attack your religion, then fight the leaders of disbelief—they have no binding oaths—so that they may desist.”*
+*"But if they renege on their oaths after having made their treaty, and vilify your religion, then fight the
+leaders of disbelief — truly they have no oaths — that they might desist."*
 
-**Meaning.** The stated condition is a breach of covenant followed by hostility toward the religion. “Leaders of disbelief” refers to the leading figures who drive or direct that opposition; the verse says the broken pledges can no longer be relied upon. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "But if they break" — if they violate — "their oaths," their covenants, "after
+making their pact, and assail your religion" — slander it — "then fight the leaders of unbelief," its
+heads; here an overt noun has replaced the third-person pronominalisation — "verily they have no binding
+oaths," no pacts (a variant reading of *aymān* with the *kasra* inflection of the *alif* gives *īmān*,
+"no faith") — "so that they might desist" from unbelief. **[Ṭabarī]** The sense is: if these idolaters of
+the Quraysh with whom you made a treaty break their covenants, after having covenanted with you that they
+would not fight you nor support any of your enemies against you — "and assail your religion": if they
+impugn your religion, Islam, defaming it and finding fault with it — "then fight the leaders of
+unbelief": fight the chiefs of unbelief in God; "truly they have no oaths": the chiefs of unbelief have no
+treaty; "that they may desist" from assailing your religion and supporting others against you.
+**[Saʿdī]** After mentioning that if the treaty-holders among the idolaters stand upright in their treaty
+you are to stand upright in fidelity to them, He says: "but if they break their oaths after their treaty"
+— if they violate and dissolve it, whether by fighting you, by helping others against you, or by
+diminishing you — "and assail your religion": if they revile it and mock it, which includes every kind of
+attack directed at the religion or at the Qurʾān — "then fight the leaders of unbelief": its commanders
+and chiefs, who attack the religion of the All-Merciful and give support to the religion of Satan. He
+singled them out for mention because of the enormity of their offence and because the rest are their
+followers — and to show that anyone who attacks the religion and sets himself up to refute it is one of
+the leaders of unbelief. "Truly they have no oaths": no covenants and no compacts that they would keep to
+faithfully; they remain treacherous breakers of pacts who cannot be trusted. "That they might desist"
+from assailing your religion — and perhaps they may even enter it.
 
-**Rulings & scope.** Commentators differ over the meaning and legal reach of “attack your religion,” including how it relates to verbal vilification. The command must be read with its express treaty-breaking condition and the hostile conduct described in 9:13, not detached from them as a general license for private violence or for attacking anyone who disagrees. **[Qurṭubī] [Study Quran]**
+**Ḥadīth & āthār.** **[Ibn Kathīr]** Qatāda and others said that the leaders of disbelief were Abū Jahl,
+ʿUtba and Shayba, Umayya b. Khalaf and others whom he mentioned. Al-Aʿmash narrated from Zayd b. Wahb
+from Ḥudhayfa: "The people of this verse were never fought again" — and something similar is reported from
+ʿAlī b. Abī Ṭālib; but the verse is general, even though the specific occasion of its revelation was the
+idolaters of the Quraysh, so it applies to them and to others as well. Al-Walīd b. Muslim said that
+Ṣafwān b. ʿAmr narrated from ʿAbd al-Raḥmān b. Jubayr b. Nufayr that when Abū Bakr dispatched an army to
+Syria he advised them: "You will find some people with shaved heads; strike the swords upon the parts
+that contain the devil, for by God it is better to me to kill one of these people than to kill seventy
+other men — because God said, *then fight the leaders of disbelief*" (Ibn Abī Ḥātim). **[Ṭabarī]** It was
+said that those meant are Abū Jahl b. Hishām, ʿUtba b. Rabīʿa, Abū Sufyān b. Ḥarb and their like, while
+Ḥudhayfa used to say, "Its people have not come yet." Ibn ʿAbbās, through his father's chain of
+transmission, said: it means the treaty-holders among the idolaters, whom He named "leaders of unbelief" —
+and so they are; God says to His Prophet: if they break the treaty between you and them, then fight them,
+for the leaders of unbelief have no oaths.
+
+**Rulings.** **[Qurṭubī]** Some scholars infer from this verse the obligation to kill everyone who
+assails the religion, since he is thereby an unbeliever. *Ṭaʿn* is to attribute to the religion what does
+not befit it, or to object contemptuously to what belongs to it, given the decisive proof established for
+the soundness of its principles and the uprightness of its branches. Ibn al-Mundhir said: the generality
+of the scholars are agreed that whoever reviles the Prophet ﷺ is liable to death — and among those who
+said so are Mālik and others. **[Study Quran]** For some, the verse also means that treaty peoples (*ahl
+al-dhimmah*; see 9:29) must not revile Islam, that being a condition of the treaty (R). Al-Qurṭubī notes
+that there are differences of opinion on the matter of vilification of the religion and of the Prophet:
+for him, a grave calumny of the Prophet would merit capital punishment if spoken by a Muslim, amounting
+to *zandaqah*, deviance in religion of a pernicious kind; and he notes further that most jurists held that
+treaty peoples who revile the Prophet should be executed. **[Ibn Kathīr]** It is because of this verse
+that the one who curses the Messenger ﷺ, or attacks the religion of Islam by way of criticism and
+disapproval, is to be fought; "then fight the leaders of disbelief — their oaths are nothing to them — so
+that they may stop," that is, so that they may refrain from the unbelief, rebellion and transgression they
+indulge in.
+
+**Language.** **[Qurṭubī]** *Nakth* is the breaking of a thing; its root sense is of anything twisted and
+then untwisted, and it is used metaphorically of oaths and covenants — the poet said: "Though she swore
+that distance would not break her pledge, there is no oath in a dyed fingertip," meaning no pledge.
+"*Wa-ṭaʿanū fī dīnikum*": by breach of the treaty, by war, and by whatever else the idolater does; one
+says *ṭaʿanahu bi-l-rumḥ* and *ṭaʿana bi-l-qawl al-sayyiʾ fīhi*, and some distinguish *yaṭʿunu* (with
+*ḍamma*) for the spear from *yaṭʿanu* (with *fatḥa*) for speech. Here it is metaphorical, as in the
+saying of the Prophet ﷺ when he placed Usāma in command: "If you cavil at his command, you cavilled at
+the command of his father before him; and by God, he was fit for command" (Muslim). **[Maʿārif]** What
+the context called for was *fa-qātilūhum*, "then fight them"; the Qurʾān instead says *fa-qātilū
+aʾimmata al-kufr*, "then fight the leaders of infidelity," passing over the shorter pronoun — *aʾimmah*
+being the plural of *imām* — to single out those who direct the affair. **[Study Quran]** Some say the
+leaders of disbelief are mentioned specifically because they are decisive in generating hostility against
+the believers (R), though al-Rāzī holds that fighting all of the disbelievers is implied as well; in
+Quranic accounts it is often the "notables" or leading members of a people who voice and drive that
+people's rejection of their prophet (see 7:60, 66, 75, 88). Others say it refers to those who led the way
+in violating the treaty and opening hostilities (Q). Though it can be seen as referring to particular
+people such as Abū Jahl, it is thought to apply universally to all such treaty violators (IK). "They have
+no oaths" means that, since they break their oaths, it is as though the oaths did not exist.
+
+**Context.** **[Maʿārif]** The cease-fire with the Quraysh of Makkah had been concluded at Ḥudaybiyah in
+the year 6; that they would not keep it was foretold in 9:7, and vv. 8–10 gave the causes of their
+breaking it; v. 11 announced that if they became Muslims they were to be treated as brothers despite it;
+and this verse states what is to be done if they do break the pledge as foretold.
+
+**Reflection.** The condition is precise: a broken pledge *plus* an attack upon the religion. Even then
+the object named is not the crowd but those who direct the hostility, and the purpose stated is that they
+"might desist" — a limit, not an extermination.
+
+---
 
 ## 9:13
 
-*“Will you not fight a people who broke their oaths, intended to expel the Messenger, and began against you first? Do you fear them? God has more right to be feared, if you are believers.”*
+*"Will you not fight a people who broke their oaths, and intended to expel the Messenger, and opened
+[hostility] against you first? Do you fear them? For God is worthier of being feared by you, if you are
+believers."*
 
-**Meaning.** Three grounds are named: breach of the covenant, the attempt that led to the Prophet’s expulsion from Mecca, and the opponents’ initiation of hostilities. Commentators differ over which event “began against you first” recalls: some point to Badr, while others connect it to Quraysh’s support for Banū Bakr in their attack on the Prophet’s ally Khuzāʿah, which broke the Ḥudaybiyyah pact. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Will you not" — *a-lā* here denotes incitement — "fight a people who broke,"
+violated, "their oaths," their pacts, "and intended to expel the Messenger" from Makkah — for they
+discussed this between themselves in their council assembly — "initiating combat against you first?" when
+they fought alongside Banū Bakr against Khuzāʿa, your allies? So what is stopping you from fighting them?
+"Are you afraid of them? God is more worthy of your fear," when you fail to fight them, "if you are
+believers." **[Ṭabarī]** God says to those who believe in Him and His Messenger, urging them to *jihād*
+against their enemies among the idolaters: "Will you not fight," O believers, these idolaters who broke
+the treaty between you and them, assailed your religion, and supported your enemies against you; "and
+intended to expel the Messenger" from among them — and they did expel him; "and they began against you
+first" in fighting — meaning their doing so at Badr, though it is also said that it means their fighting
+the allies of the Messenger of God, Khuzāʿa; "do you fear them?" — do you fear for yourselves and so
+abandon fighting them out of fear of them; "God is more worthy that you fear Him" — God has a better claim
+on your fearing His punishment for your abandoning the *jihād* against them, and on your guarding against
+His wrath, than these idolaters who have no power to harm or benefit you except by God's leave; "if you
+are believers" — if you affirm that fear of God is more binding upon you than fear of them.
 
-**Reflection.** The passage grounds the conflict in specific actions rather than in a bare difference of belief; it urges the believers not to let fear override the obligations described here. **[Saʿdī] [Maʿārif] [Study Quran]**
+**Ḥadīth & āthār.** **[Ṭabarī]** Al-Suddī said, on "will you not fight a people who broke their oaths":
+after their treaty; "and intended to expel the Messenger" — they intended it and they did expel him; "and
+they began against you first" — in fighting. **[Qurṭubī]** The verse is a reproach carrying the sense of
+incitement, and was revealed concerning the disbelievers of Makkah.
+
+**Stories & occasions.** **[Saʿdī]** Then He urged fighting them and roused the believers by mentioning
+the attributes these enemies displayed, which make fighting them necessary: "Will you not fight a people
+who broke their oaths and intended to expel the Messenger" — he whose inviolability, reverence and
+veneration are owed, and they resolved to banish him and expel him from his homeland, striving for that
+as far as they were able — "and began against you first" by breaking the treaties and aiding others
+against you: Quraysh, while themselves under treaty, aided Banū Bakr, their confederates, against
+Khuzāʿa, the confederates of the Messenger of God, and fought alongside them, as is set out at length in
+the *sīra*. **[Ibn Kathīr]** "While they did attack you first" refers to Badr, when the idolaters marched
+out to protect their caravan; when they learned that the caravan had escaped safely, they still pressed
+on with their intent to fight the Muslims, out of arrogance. It is also said that the verse refers to
+their breaking the peace agreement and aiding Banū Bakr, their allies, against Khuzāʿa, the ally of the
+Messenger of God — which is why the Messenger marched to Makkah in the year of the conquest and took it.
+**[Qurṭubī]** On "and they began you" — in fighting; "the first time" means: they broke the treaty and
+aided Banū Bakr against Khuzāʿa; and it is also said: they began fighting you at the Battle of Badr, for
+the Prophet ﷺ went out for the caravan and, when they had secured it, they could have turned back — but
+they refused, insisting on pressing on to Badr. It was also said that "their expelling the Messenger"
+means their preventing him from the ḥajj, the ʿumra and the circumambulation, and that was their
+initiation of hostilities. **[Maʿārif]** *(digression)* In Maʿārif's reading, those who "intended to expel
+the Messenger" are the Jews of Madīnah, who plotted to expel him from the city, saying, "the more
+honourable will certainly expel the meaner from it" (63:8) — counting themselves the people of honour and
+power and the Muslims weak and lowly. God took their proud words at face value and brought them true in
+His own way: it was the Prophet and his Companions who turned the Jews out of Madīnah, proving that honour
+belongs to the Muslims and disgrace to those who opposed them. **[Study Quran]** Al-Rāzī observes that
+three reasons are given, any one of which suffices to warrant the use of force: breaking a treaty — which
+most take to be the Treaty of Ḥudaybiyah; intending to expel the Messenger — which most understand as his
+migration from Makkah to Madīnah, though some take it as the attempt to dislodge him from his position of
+strength in Madīnah, as at Uḥud; and being first to attack — the attack on Banū Khuzāʿah that violated
+Ḥudaybiyah (Ṭ).
+
+**Cross-references.** **[Ibn Kathīr]** 8:30 — "when the disbelievers plotted against you to imprison you,
+or to kill you, or to expel you"; 60:1 — "they have driven out the Messenger and yourselves because you
+believe in God your Lord"; and 17:76 — "they were about to frighten you so much as to drive you out from
+the land." **[Study Quran]** Other instances where human beings are commanded to fear God rather than
+human beings include 2:150, 3:175 and 5:3.
+
+**Belief.** **[Saʿdī]** "Do you fear them," in abandoning the fight against them? "God is more worthy
+that you fear Him, if you are believers": God has commanded you to fight them and has emphasised it in
+the strongest terms; if you are believers, then comply with the command of God and do not fear them so
+that you abandon His command. **[Ibn Kathīr]** Do not fear the idolaters; fear Me.
+
+**Reflection.** Three specific wrongs are named — a broken oath, a design to expel the Messenger, and the
+first blow — so that the command to fight rests on acts, not on a difference of creed. The question "do
+you fear them?" then relocates fear where it belongs: the creature who can do nothing without God's leave
+is not the one to be feared.
+
+---
 
 ## 9:14
 
-*“Fight them: God will chastise them by your hands, disgrace them, grant you victory over them, and heal the breasts of a believing people.”*
+*"Fight them and God will punish them by means of your hands and disgrace them, and He will grant you
+victory over them and heal the breasts of a believing people,"*
 
-**Meaning.** The verse describes the consequences of defeating those who broke the covenant and attacked the community: their power is checked, the believers prevail, and the distress of those harmed is relieved. Commentators commonly identify the “believing people” whose hearts are healed as Khuzāʿah, the Prophet’s allies attacked by Banū Bakr with Quraysh’s support. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Qurṭubī] [Study Quran]**
+**Meaning.** **[Jalālayn]** "Fight them and God will chastise them" — He will have them killed at your
+hands — "and degrade them," humiliate them through capture and subjugation, "and He will give you victory
+against them, and He will heal the breasts of a people who believe," removing the harm done to them —
+these are Banū Khuzāʿa. **[Ṭabarī]** "Fight, O you who believe in God and His Messenger, these idolaters
+who broke their oaths and violated the treaties between you and them, and expelled the Messenger of God
+from among them; 'God will punish them by your hands'" — God will slay them by your hands; "and disgrace
+them" — He will humble them by captivity and conquest; "and give you victory over them" — He will grant
+you triumph and ascendancy over them; "and heal the breasts of a people who believe" — He will cure the
+sickness in the breasts of a people who believe in God and His Messenger, by your slaying these idolaters
+and by your humbling and overpowering them; that sickness being the resentment in their hearts towards
+them for the harm and hurt they used to inflict on them. **[Saʿdī]** Then He commands fighting them and
+mentions the benefits that follow from it — all of it urging and rousing the believers to fight them:
+"Fight them; God will punish them by your hands" — by slaying — "and disgrace them," when God gives you
+victory over them, for they are enemies whose disgrace is sought and desired; "and give you victory over
+them" — a promise from God and glad tidings which He fulfilled.
 
-**Reflection.** As al-Maʿārif emphasizes, the aim is that aggression cease, not that believers simply indulge their anger; the next verse holds open the possibility of repentance. **[Saʿdī] [Maʿārif]**
+**Ḥadīth & āthār.** **[Ṭabarī]** It is said that by "heal the breasts of a people who believe" God meant
+the breasts of Khuzāʿa, the confederates of the Messenger of God, because the Quraysh broke the treaty by
+aiding Bakr against them. Mujāhid said — through Shuʿba from al-Ḥakam — "Khuzāʿa"; al-Suddī said:
+"Khuzāʿa — He heals their breasts of Banū Bakr"; and the same is reported from Mujāhid by another chain.
+**[Qurṭubī]** Mujāhid said: it means Khuzāʿa, the allies of the Messenger of God; Quraysh aided Banū Bakr
+against them while Khuzāʿa were the Prophet's allies, and a man of Banū Bakr composed satire against the
+Messenger of God. **[Study Quran]** The believing people in need of healing are the Khuzāʿah, who were
+attacked by Banū Bakr, which broke the treaty of Ḥudaybiyah (Ṭ).
+
+**Language.** **[Qurṭubī]** *Qātilūhum* is an imperative and *yuʿadhdhibhumu Allāhu* its apodosis, in the
+jussive with the sense of requital: the underlying sense is, "if you fight them, God will punish them by
+your hands, disgrace them, give you victory over them, and heal the breasts of a people who believe." The
+clauses are conjoined; the nominative is permissible throughout by cutting away from the first verb, and
+the accusative is permissible with an elided *an* — the "ṣarf" of the Kūfans — as al-Nābigha said: "If Abū
+Qābūs perishes, the springtime of the people and the sacred month perish, and after him we take hold of
+the tail-end of a life, its back broken, with no hump upon it," where *wa-naʾkhudhu* may be read either
+way. The phrase "and He will remove the rage of their hearts" is evidence that their rage had grown
+intense.
+
+**Cross-references.** **[Study Quran]** God punishing the disbelievers "by the hands" of the believers is
+mentioned again in v. 52: "God will afflict you with a punishment from Him, or by our hands."
+
+**Reflection.** **[Maʿārif]** Two things are promised here. First, that if the believers make ready to
+fight, God's help will be with them: the enemy have earned punishment by their deeds, but that punishment
+will come neither down from the heavens nor up from beneath the earth — God will punish them at the
+believers' hands. Second, that God will soothe the hearts of the Muslims after all the pain and sorrow
+inflicted on them. And the earlier clause of v. 12, "so that they may stop," shows that the believers are
+not to fight in order to vent their anger: correction and betterment are to be the purpose. When the
+intention is cleansed of every foreign shade and is for God alone, God Himself brings matters about in a
+way that removes the anger and grief raging in their hearts.
+
+---
 
 ## 9:15
 
-*“And He will remove the anger in their hearts. God turns in mercy to whom He wills. God is Knowing, Wise.”*
+*"and will dispel the rage within their hearts. God relents unto whomsoever He will, and God is Knowing,
+Wise."*
 
-**Meaning.** God relieves the grief and anger of the believers harmed by the breach, while the close of the verse turns from punishment to divine mercy: God may guide former opponents to repentance. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Qurṭubī] [Maʿārif]**
+**Meaning.** **[Jalālayn]** "And He will remove the rage" — the grief — "in their hearts. God turns in
+forgiveness to whomever He will," when they return to Islam, as in the case of Abū Sufyān. "And God is
+Knowing, Wise." **[Ṭabarī]** "And will dispel the rage of their hearts" — the grief of the hearts of
+these believing people of Khuzāʿa against these idolaters who broke their oaths, and the distress and
+anguish in them at what they suffered when Bakr was aided against them.
 
-**Reflection.** Even in a passage about conflict and accountability, the possibility of return is not closed. The aim is not unending vengeance; God’s wisdom includes accepting repentance from whom He wills. **[Saʿdī] [Maʿārif]**
+**Language.** **[Ṭabarī]** *Wa-yatūbu Allāhu ʿalā man yashāʾ* is a fresh sentence, and is therefore in
+the nominative, while the three verbs preceding it are jussive as requital — as if He had said: fight
+them, for if you fight them God will punish them by your hands, disgrace them, give you victory over
+them, heal the breasts of the believers and dispel the rage of their hearts — and *then* He begins afresh
+and says "and God turns to whom He wills," because fighting does not entail their repentance from God,
+whereas it does entail punishment, disgrace, the healing of the believers' breasts and the dispelling of
+their rage. Those, then, are made conditional upon the fighting, while repentance is not — so the report
+of it is begun anew and put in the nominative. The meaning is: God bestows favour on whom He wills of His
+unbelieving servants, turning them to repentance by granting them success. **[Study Quran]** "Repent" and
+"relent" render the same verb, *tāba/yatūbu*, differing only with the addition of a preposition. The noun
+derived from it, *tawbah*, usually rendered "repentance," means literally a "turning" or a "return":
+human beings turn or return to God in repentance, and He turns or returns toward them.
+
+**Ḥadīth & āthār.** **[Ṭabarī]** Al-Suddī said, on "and will dispel the rage of their hearts": when Banū
+Bakr killed them and the Quraysh aided them against them.
+
+**Belief.** **[Saʿdī]** "And He will dispel the rage of their hearts": in their hearts is such rancour
+and rage against them that fighting them and slaying them is a healing for the grief and care in the
+believers' hearts as they see these enemies making war on God and His Messenger and striving to extinguish
+God's light — and a removal of the rage within you. This shows God's love for the believers and His care
+for their condition, so much so that He has made the healing of what is in their breasts and the removal
+of their rage one of the purposes of the Law. Then He says: "and God turns to whom He will" — of these
+very people who made war, by granting them success in entering Islam, adorning it in their hearts, and
+making unbelief, defiance and disobedience hateful to them. "And God is Knowing, Wise": He puts things in
+their places and knows who is fit for faith, and guides him, and who is not fit, and leaves him in his
+error and insolence. **[Study Quran]** That God relents means that He can still accept the repentance of
+the disbelievers (Ṭ) — the verse that follows the promise of punishment opens with mercy.
+**[Maʿārif]** "And God relents to whomsoever He wills" indicates a further gain from this *jihād*: many
+of the enemies will be granted the *tawfīq* of Islam and will become Muslims. At the conquest of Makkah
+many of the arrogant were disgraced while many others embraced Islam; history proves that the
+circumstances foretold in these verses were witnessed one after another.
+
+**Reflection.** The sequence ends where the sūrah's name comes from: punishment by the believers' hands,
+victory, the healing of wounded hearts, and then — unattached to any condition of fighting — God's turning
+to whom He wills. The rage is removed by God, not by revenge; and the last word belongs to mercy, which
+He bestows on whom He knows to be fit for it.
 
 ## 9:16
 
