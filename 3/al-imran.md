@@ -3123,7 +3123,7 @@ Isaac and Jacob and the Tribes, and what Moses and Jesus and the prophets were g
 make no division between any of them, and to Him we surrender."*
 
 **Meaning.** **[Ṭabarī]**: the *qul* answers 3:83: if they seek other than God's religion, say to them —
-the "if they say yes" clause is省略, suppressed by the sense; *āmannā bi-Llāh* is: we confirm Him as our
+the clause "if they say: yes" is understood, suppressed by the sense; *āmannā bi-Llāh* is: we confirm Him as our
 Lord and god, none besides Him worshipped; and the same for the books sent down *on* Abraham and his
 two sons and Jacob and the *asbāṭ*, and the books *given* to Moses and Jesus — the variation of verbs
 (*anzala*, *ātā*) is the style of the Quran's diction, not a difference of dignity (the note runs with
@@ -3301,7 +3301,7 @@ ransom the earth's full of gold it would not save him (the *fidāʾ* of 3:91).
 open the door to the one returner, and 3:90 closes it on the principle the sūrah has established
 elsewhere (4:18): a *tawba* at the death-throes is not a *tawba* but a transaction, and transactions end
 with the term appointed (3:29's *ajal musamman*, 2:149's *min warāʾikum*). The *ḍāllūn* of the verse's
-close is the same as 3:86's *lā yaʿmalūn* logic — not lost by accident but *by increase*, by the
+close picks up 3:86's logic — lost not by accident by accident but *by increase*, by the
 deliberate arithmetic of a heart whose ledger, when the debts are counted, is found to have grown since
 its last acceptance.
 
