@@ -2892,9 +2892,9 @@ Book; they say it is from God though it is not from Him — they speak the lie a
 **Meaning.** **[Ṭabarī]**: the party are the Jews around Madīna in the Prophet's day; *al-hāʾ wa-l-mīm* of
 *minhum* reach back to *ahl al-kitāb* of 3:75; *yalwūna* is *yuḥarrifūna* — they bend their tongues in
 recitation so that you take the distortion to be God's book and revelation, while it is what they
-invent. The printed text and the manuscript of the edition both stumble at the last clause and the
-editors restore the sense, the Arabic itself corrected in a note: *laysa* misplaced by the copyist —
-Ṭabarī's meaning stands firm. **[Jalālayn]**: men like Kaʿb b. al-Ashraf recite what is not in the book
+invent — and the edition's editors emend the printed *li-kalāmihim* ("for their speech") back to the
+manuscript's *bi-kalāmihim* ("by their speech"), where the typesetter's reading had faltered.
+**[Jalālayn]**: men like Kaʿb b. al-Ashraf recite what is not in the book
 as if it were, for the Prophet's descriptions and the like; *wa-hum yaʿlamūn* that they are liars.
 **[Study Quran]**: three readings of the *lawy*: outright forgery (against 2:79's "woe to those who write
 the book with their hands"), obfuscating the prophecy of Muḥammad through misinterpretation, or
