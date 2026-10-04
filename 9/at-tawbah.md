@@ -46,6 +46,8 @@ them, as though for a basmalah — the precaution taken in case they were one s�
 
 ---
 
+---
+
 ## 9:1
 
 *"A repudiation from God and His Messenger to those idolaters with whom you made a treaty."*
@@ -765,3 +767,83 @@ the bond of blood nor the bond of a sworn pledge — where a believer is concern
 **Meaning.** God relieves the grief and anger of the believers harmed by the breach, while the close of the verse turns from punishment to divine mercy: God may guide former opponents to repentance. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Qurṭubī] [Maʿārif]**
 
 **Reflection.** Even in a passage about conflict and accountability, the possibility of return is not closed. The aim is not unending vengeance; God’s wisdom includes accepting repentance from whom He wills. **[Saʿdī] [Maʿārif]**
+
+## 9:16
+
+*“Or did you suppose that you would be left alone, before God has made known those among you who strive and take no confidant besides God, His Messenger, and the believers? God is Aware of what you do.”*
+
+**Meaning.** The community will be tested so that sincere commitment becomes manifest in action. *Walījah* here means a close confidant or intimate ally: the verse asks whether believers will put their loyalty in God, the Messenger, and the community rather than in rival alliances. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** Trials do not give God new knowledge; they bring people’s choices into the open, with their consequences made evident. **[Jalālayn] [Saʿdī] [Maʿārif]**
+
+## 9:17
+
+*“It is not for the polytheists to maintain the mosques of God while bearing witness against themselves to disbelief. Their deeds have come to nothing, and in the Fire they will abide.”*
+
+**Meaning.** The verse questions the claim to tend God’s sanctuaries while openly rejecting the faith and worship for which they were established. Commentators understand *ʿimārah* to include worship and service as well as physical upkeep; some take “the mosques of God” generally, while others emphasize the Sacred Mosque. **[Ṭabarī] [Qurṭubī] [Ibn Kathīr] [Jalālayn] [Study Quran]**
+
+**Reflection.** Outward service to a sanctuary does not substitute for faith and sincere worship. **[Saʿdī] [Maʿārif]**
+
+## 9:18
+
+*“Only those who believe in God and the Last Day, establish prayer, give zakāh, and fear none but God may maintain the mosques of God. It may be that they are among the rightly guided.”*
+
+**Meaning.** The contrast with 9:17 names the qualities of those who are truly fit to serve God’s mosques: faith, prayer, charitable obligation, and reverent fear of God. Maintaining a mosque is not merely a matter of possession or public prestige; it is joined to worship and accountability. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** Religious service is measured by the faith and devotion it expresses, not by the status it brings. **[Maʿārif]**
+
+## 9:19
+
+*“Do you consider giving drink to the pilgrims and maintaining the Sacred Mosque to be like one who believes in God and the Last Day and strives in God’s way? They are not equal in the sight of God. God guides not wrongdoing people.”*
+
+**Meaning.** Providing water to pilgrims and caring for the Sacred Mosque are honorable services, but they do not equal faith and striving in God’s way or replace them. The verse rejects a claim of religious superiority based on custodial privilege alone. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Stories & occasions.** Commentators preserve different reports about the immediate occasion, including claims about the distinction of pilgrim service and discussions comparing different good deeds. The reports vary; the verse’s clear point is the priority of faith and striving over status based on service alone. **[Ibn Kathīr] [Qurṭubī] [Study Quran]**
+
+## 9:20
+
+*“Those who believe, emigrate, and strive in the way of God with their wealth and their lives are greater in rank in the sight of God. It is they who are triumphant.”*
+
+**Meaning.** The verse identifies the higher rank not with inherited honor, but with faith, migration, and costly service in God’s way. It gathers the actions that have shaped the sūrah’s account of the early Muslim community. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** The promise of triumph is linked to commitment and sacrifice, not simply to worldly strength. **[Maʿārif]**
+
+## 9:21
+
+*“Their Lord gives them glad tidings of mercy from Him, good pleasure, and gardens in which they will have lasting bliss.”*
+
+**Meaning.** The reward of the faithful is described as God’s mercy and approval, together with the enduring joy of the Garden. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** The promise includes not only a place of comfort but God’s good pleasure—the source and meaning of the believers’ hope. **[Maʿārif] [Study Quran]**
+
+## 9:22
+
+*“They will abide therein forever. Truly, with God is a tremendous reward.”*
+
+**Meaning.** The gardens and bliss promised in 9:21 are everlasting; their reward is secure with God and beyond comparison with temporary worldly distinctions. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+## 9:23
+
+*“O you who believe, do not take your fathers and brothers as allies if they prefer disbelief to faith. Whoever among you takes them as allies—those are the wrongdoers.”*
+
+**Meaning.** In its immediate setting, the verse warns believers not to make family members who choose disbelief into protecting allies or confidants against the believing community. The issue is allegiance that competes with faith, not the mere existence of family affection. Commentators differ over whether the verse first addressed Muslims who had stayed with their families in Mecca or states a broader principle. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Study Quran]**
+
+**Reflection.** Kinship is a real bond, but it cannot require a believer to place loyalty to family above loyalty to God and the community’s obligations. **[Saʿdī] [Maʿārif]**
+
+## 9:24
+
+*“Say: If your fathers, your sons, your brothers, your spouses, your clan, the wealth you have acquired, the commerce whose decline you fear, and the dwellings you love are dearer to you than God, His Messenger, and striving in His way, then wait until God brings His command. God does not guide the defiantly disobedient.”*
+
+**Meaning.** The verse names the most powerful ties and interests—family, property, livelihood, and home—and warns against allowing them to outweigh obedience to God and His Messenger when they conflict with striving in His way. The context includes migration and the struggle of the early community, while the principle also tests what a person places first. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** The verse does not say that family, work, or home are bad; it asks whether they have become ultimate loyalties that displace faith and duty. **[Maʿārif] [Study Quran]**
+
+## 9:25
+
+*“God has already helped you in many places, and on the day of Ḥunayn, when your numbers pleased you. But they availed you nothing; the earth, vast as it was, became narrow for you, and you turned back, retreating.”*
+
+**Context.** Ḥunayn was fought after the conquest of Mecca, in the valley on the route toward Ṭāʾif. The Muslim force was unusually large, but its numbers did not prevent an initial setback when the opposing force attacked; many retreated before the believers regrouped. **[Ṭabarī] [Ibn Kathīr] [Study Quran] [Maʿārif]**
+
+**Meaning.** The verse recalls earlier victories and then confronts the believers with a moment when confidence in their numbers proved insufficient. Their distress in the spacious valley shows how fear can make even open ground feel constricted. **[Jalālayn] [Saʿdī] [Study Quran]**
+
+**Reflection.** Victory is not guaranteed by numerical advantage. The passage redirects the community from self-confidence to dependence on God; the following verse recounts the reassurance that came after the retreat. **[Ibn Kathīr] [Maʿārif]**
