@@ -3656,3 +3656,158 @@ also uttered by the prophet Hūd at 11:52.
 
 **Reflection.** The whole cycle of the sūrah closes in two names — Merciful, Loving — as if to say the
 gate stood open behind every warning, all along.
+
+## 11:91
+
+*"They said, 'O Shuʿayb, we do not comprehend much of what you say, and verily we consider you weak
+among us. Were it not for your clan, we would surely stone you, for you have no might over us.'"*
+
+**Meaning.** **[Ṭabarī]** The people of Shuʿayb said: O Shuʿayb, we do not understand much of what you
+say — we do not know the reality of much of what you say and report to us. "And we see you weak among
+us": it is mentioned that he was blind, and that is why they said to him, "we see you weak among us";
+Saʿīd b. Jubayr said of this phrase: he was blind. "Were it not for your clan, we would have stoned
+you": had it not been for your people and their standing, we would have stoned you. "And you have no
+might over us": you are not, in our eyes, one too mighty to be stoned; it is your clan that are mighty.
+**[Jalālayn]** They said in proclamation of their lack of concern: O Shuʿayb, we do not understand much
+of what you say. Truly we see you are weak and abject among us, and were it not for your clan we would
+have stoned you; for you are not too powerful, too venerable, for us to stone — but it is your clan that
+is powerful. **[Ibn Kathīr]** "We do not understand": we do not comprehend — "much," most of what you
+say. Al-Thawrī said: Shuʿayb was called the orator of the prophets. Al-Suddī said of "we see you weak
+among us": they meant, you are only one person. Abū Rawq said: they meant, you are despised because
+your tribe is not upon your religion. "Were it not for your family, you would have been stoned": your
+people — were it not for their powerful position over the people of Midian, they would have stoned him
+to death; some said this means with rocks, and it has also been said they would have cursed and insulted
+him verbally. "And you are not powerful against us": you have no position of power over us. **[Saʿdī]**
+They grew weary of his counsels and admonishments and said: "We do not comprehend much of what you
+say" — out of their hatred for what he said and their aversion from it. "And we see you weak among us":
+in yourself, not among the great or the chiefs, but among the weak; "and were it not for your clan" —
+your group and your tribe — "we would have stoned you; you are not mighty in our sight": you have no
+rank in our breasts and no respect in our persons; it is only your clan that we respected in leaving you
+alone.
+
+**Context.** **[Study Quran]** The Midianites say they do not comprehend much of what he says as a way
+of expressing derision for him, since in their eyes he was weak — lowly. In ancient Arabian tribal
+culture people were offered protection by their clan, and since the clan to which Shuʿayb belonged was a
+part of the religious community of the Midianites, they could not hurt him.
+
+**Reflection.** Their arrogance could not answer a single word of his — so it declared it did not
+understand, and the only wall left standing between them and his blood was the very tribe they claimed
+to honour above God.
+
+## 11:92
+
+*"He said, 'O my people, is my clan mightier in your sight than God? You would put Him behind you with
+disregard! Truly my Lord encompasses whatsoever you do.'"*
+
+**Meaning.** **[Ṭabarī]** Shuʿayb said: O my people, have you honoured your people so that they became
+mightier to you than God, while you thought lightly of your Lord and put Him behind your backs — not
+acting upon His command, not fearing His punishment, not magnifying Him as He deserves to be magnified?
+It is said of a man who does not fulfil another's need: he cast it behind his back — left it without
+turning to it; and when he does fulfil it, it is said: he placed it before him and before his eyes. One
+says *ẓaharta bi-ḥājatī* and *jaʿaltahā ẓihriyyah*: behind your back. **[Jalālayn]** He said: O my
+people, is my clan more venerable in your sight than God — such that you refrain from killing me because
+of them instead of your protecting me for being the messenger of God? And do you put Him — God — behind
+you, neglected, rejected behind your backs, not mindful of Him? Truly my Lord encompasses in knowledge
+what you do, and will requite you. **[Ibn Kathīr]** He says: you would leave me alone out of respect
+for my people, but not out of respect for the greatness of the Lord, Most Blessed and Exalted? Does not
+your awe of Allah prevent you from harming His prophet? Indeed you have placed the fear of God behind
+your backs: you have thrown it behind you; you do not obey it, nor do you respect it. "Verily, my Lord
+is surrounding all that you do": He knows all of your actions and will reward you according to them.
+**[Saʿdī]** He said to them, with gentleness: "O my people, is my clan mightier in your sight than
+God?" — how is it that you consider me for the sake of my clan and do not consider me for God's sake,
+so that my clan has become mightier to you than God? "And you have put Him behind you with disregard":
+you have cast God's command behind your backs, not caring for it and not fearing Him. "Truly my Lord
+encompasses whatsoever you do": not a mote's weight of your deeds, in the earth or in the heavens,
+escapes Him, and He will requite you fully for what you have done.
+
+**Context.** **[Study Quran]** You would put Him behind you with disregard means: "You would cast God
+behind your backs and not be fearful of Him?"
+
+**Reflection.** The rebuke weighs two venerations — a tribe and a Lord — and finds the answer that
+shames them before their own logic: they protected the man they despised for the sake of everyone but
+the One he spoke for.
+
+## 11:93
+
+*"And, 'O my people, act according to your position; I, too, am acting. Soon you shall know upon whom
+there comes a punishment that disgraces him, and who is a liar. So keep watch! I, too, am among you
+watching.'"*
+
+**Meaning.** **[Ṭabarī]** Shuʿayb said: O my people, act upon your enablement — *al-makānah* being
+one's firm position; one says "the man acts upon his *makīnah*": upon his deliberation. Some of the
+interpreters said: upon your stations. The meaning is: act upon your full enablement in the deeds you
+do; I am acting upon deliberation in the deed I do. You will soon know which of us is the one who has
+wronged himself, erred against it, and which is the one who hits the mark in his deed and benefits his
+own soul — upon whom shall come a punishment that disgraces him, and who is the liar. And watch: await
+the outcome of your affair; I too am among you one who watches. **[Jalālayn]** And O my people, act
+according to your ability, your circumstances; lo, I too am acting according to mine. You will soon know
+— upon whom, the relative particle introducing the object of "knowing," will come the chastisement
+that will abase him, and who is a liar. And sit in watch — wait for the consequence of your affair; I
+too will be with you watching, waiting. **[Ibn Kathīr]** When the prophet of Allah Shuʿayb despaired of
+their response to him, he said: "Act according to your ability": act according to your current ways —
+this is actually a severe threat. "I am acting": according to my way. "You will come to know who it is
+on whom descends the torment that will cover him with ignominy, and who is a liar": between me and you.
+"And watch you! Verily, I too am watching with you." **[Saʿdī]** When they wore him out and he could not
+prevail over them, he said: "O my people, act upon your position" — upon your state and your religion —
+"I am acting": you will know who there shall come upon him a punishment that disgraces him, and upon
+whom a lasting punishment shall descend — I or you; and they came to know that when the punishment fell
+upon them. "And keep watch" for what befalls me; "I too am among you watching" for what befalls you.
+
+**Context.** **[Study Quran]** Shuʿayb's words, *Act according to your position; I, too, am acting*,
+are similar to what the Prophet is instructed to tell the Makkan idolaters (see 6:135; 39:39), and serve
+as both a warning and a threat. The same is the case with his statement that they should keep watch and
+he too is watching: the Prophet is told to speak similar words to those who do not believe in his
+message (see 9:52; 10:20, 102; 32:30; cf. 7:87).
+
+**Reflection.** The last sentence a prophet says to an unhearing people is a challenge to the clock:
+act, and I will act; watch, and I will watch — and let the outcome pronounce the verdict.
+
+## 11:94
+
+*"And when Our Command came, We saved Shuʿayb and those who believed with him, through a Mercy from Us;
+and the Cry seized those who did wrong, and morning found them lying lifeless in their abode,"*
+
+**Meaning.** **[Ṭabarī]** When Our command came with the destruction of the people of Shuʿayb, We
+saved Shuʿayb and those who believed with him, by a mercy from Us; and the Cry seized those who did
+wrong, and morning found them in their dwellings lying prostrate. **[Jalālayn]** When Our command came
+for their destruction, We delivered Shuʿayb and those who believed with him by a mercy from Us; and the
+Cry seized those who were evildoers — Gabriel cried at them — and they ended up lying lifeless,
+prostrate in their habitations, keeled over on their knees, dead. **[Ibn Kathīr]** "And when Our
+commandment came, We saved Shuʿayb and those who believed with him by a mercy from Us. And As-Sayḥah,
+the awful cry, seized the wrongdoers, and they lay in their homes." **[Saʿdī]** When Our Command came
+with the destruction of the people of Shuʿayb, We saved Shuʿayb and those who believed with him by a
+mercy from Us, and the Cry seized those who did wrong, so that morning found them in their dwellings
+jāthimīn — you would hear no sound of them and see no movement among them.
+
+**Context.** **[Study Quran]** For identical wording in the story of Ṣāliḥ — the coming of God's
+Command, the role of Divine Mercy in the salvation of those who believed, the Cry seizing the
+wrongdoers, and morning finding them lying lifeless in their abode as though they had never dwelt there —
+see the commentary on 11:66–68.
+
+**Stories & occasions.** **[Maʿārif]** When his people did not listen to anything said to them, Shuʿayb
+told them they could now wait for the punishment. After that, God took out Shuʿayb and those who
+believed in him — as is the Divine practice — from that habitation, and the rest of them were destroyed
+instantly at the harsh Cry of Gabriel.
+
+**Reflection.** The same Cry that finished Thamūd finished Midian — the sūrah's refrain of destruction
+needs only one voice.
+
+## 11:95
+
+*"As though they had never dwelt there. Behold! Away with Midian, just as Thamūd was done away!"*
+
+**Meaning.** **[Ṭabarī]** As though they had not flourished therein, nor lived therein. Behold, away
+with Midian — whom God destroyed and disgraced — just as Thamūd was distanced — for the two tribes
+shared in effacement, removal and destruction. **[Jalālayn]** As though — *ka-an* being softened, i.e.
+understand it as *ka-annahum* — they had never dwelt there. Lo, away with Midian, just as Thamūd was
+done away with! **[Saʿdī]** "As though they had never dwelt there": when the punishment came to them,
+it was as though they had never dwelt in their homes nor found delight in them. "Behold, away with
+Midian": God destroyed her and disgraced her, "just as Thamūd was distanced": these two tribes shared in
+effacement, distance and destruction. **[Ibn Kathīr]** "As if they had never lived there! So away with
+Madyan, just as Thamud went away."
+
+**Context.** **[Study Quran]** The verse proclaims, Away with Midian, just as Thamūd was done away,
+since their fates were so similar — both destroyed by the Cry; see also 7:91–92.
+
+**Reflection.** Midian is measured against Thamūd as if by a seal pressed twice in wax — and the seal
+belongs to the One who said, away.
