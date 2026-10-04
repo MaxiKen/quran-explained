@@ -9003,3 +9003,486 @@ and He is wise in His disposal.
 except as a mercy to the worlds" (21:107); "So believe in God and His Messenger, the unlettered prophet"
 (7:158); "And if you disbelieve, then to God belongs all that is in the heavens and the earth" (4:170; cf.
 14:8).
+## 4:171
+
+*"O People of the Book! Do not exaggerate in your religion, nor utter anything concerning God save the truth.
+Verily the Messiah, Jesus son of Mary, was only a messenger of God, and His Word, which He committed to Mary,
+and a Spirit from Him. So believe in God and His messengers, and say not 'Three.' Refrain! It is better for you.
+God is only one God; Glory be to Him that He should have a child. Unto Him belongs whatsoever is in the heavens
+and whatsoever is on the earth, and God suffices as a Guardian."*
+
+**Meaning.** **[Ṭabarī]** By "O People of the Book" He means the people of the Gospel among the Christians: "do
+not go to extremes in your religion" — that is, do not pass beyond the truth in your religion so that you
+overstep it; and do not say about Jesus other than the truth, for your saying that he is the son of God is a
+saying of yours about God that is not true, since God has not taken a child, so that Jesus or any other of His
+creation should be a son to Him. And the root of *ghuluww* in everything is passing the limit that is its limit:
+one says of a man in religion, "he has gone to excess," and of a girl, "her flesh and bone have grown fast," when
+she outran youth and outgrew her peers. **[Jalālayn]** O People of the Scripture — the Gospel — do not go to
+extremes, do not go beyond the bounds in your religion, and do not say about God except the saying of the truth,
+such as exalting Him above any partner or child. The Messiah Jesus, the son of Mary, was only the Messenger of
+God and His Word which He conveyed to Mary, and a spirit from Him — he is attached to God as an honouring for
+him, and not as you claim that he is the son of God or a god alongside Him or one of three, because one who
+possesses a spirit is compound, and God transcends being compound and the attribution of compounds to Him. So
+believe in God and His messengers, and do not say that the gods are three — God, Jesus and his mother — and
+refrain from this and say what is better for you, namely the profession of His oneness. God is only One God;
+glory be to Him above the possibility that He should have a son; to Him belongs all that is in the heavens and in
+the earth, and such sovereignty admits no godhood for Jesus; God suffices as a Guardian and a Witness to this.
+**[Qurṭubī]** The prohibition is of excess: and by it the commentators mean the excess of the Jews over Jesus
+until they slandered Mary, and the excess of the Christians over him until they made him a lord. So both
+overstatement and understatement are evil and disbelief — hence Muṭarrif b. ʿAbdillāh's word, "The good deed is
+between two evil deeds." And in the Ṣaḥīḥ of al-Bukhārī, from the Prophet ﷺ: "Do not praise me excessively as
+the Christians praised Jesus; say instead, 'the servant of God and His Messenger.'" And God's saying, "Do not
+say about God except the truth," means: do not say that He has a partner or sons. Then He made clear the state
+of Jesus and his description. And note that God names no woman in His Book but Maryam, daughter of ʿImrān — her
+name occurs in some thirty places — a matter whose wisdom the masters of the science discussed in connection
+with the claims the Christians made about her. **[Ibn Kathīr]** God forbids the People of the Scriptures from
+going to extremes in religion, which is a common trait of theirs, especially among the Christians: they
+exaggerated over Jesus until they raised him from the rank of prophethood to being a god whom they worshipped
+as they worshipped God, and they claimed of his followers that they were inspired, following every word of
+theirs, true or false. Hence the Prophet's prohibition of excess praise: Ibn ʿAbbās narrated that ʿUmar said the
+Messenger of God ﷺ said, "Do not unduly praise me like the Christians exaggerated over Jesus son of Mary.
+Verily, I am only a servant — so say, 'God's servant and His Messenger'" — and this is the wording of
+al-Bukhārī. And Aḥmad recorded from Anas b. Mālik that a man once said, "O Muhammad! You are our master and the
+son of our master, our most righteous person and the son of our most righteous person"; and the Messenger of God
+ﷺ said, "O people! Say what you have to say, but do not let Shayṭān trick you. I am Muhammad b. ʿAbdullāh, the
+servant of God and His Messenger. By God, I do not love that you raise me above the rank that God has granted
+me." Then as to Jesus: "the Messiah, Jesus son of Mary, was only a Messenger of God and His Word which He
+bestowed on Mary, and a spirit from Him" — he is one of God's servants and one of His creatures; God said to him
+"Be," and he was, and sent him as a Messenger. He was a word from God that He bestowed on Mary — that is, God
+created him by the word "Be" which He sent with Jibrīl to Mary; Jibrīl blew the life of Jesus into Mary by God's
+leave, and Jesus came to exist as a result — this in place of the normal conception of man and woman. This is
+why Jesus is a word and a spirit created by God, having no father; and God said, "The Messiah, son of Mary, was
+no more than a Messenger; many messengers passed away before him; his mother was a truthful woman; they both
+used to eat food" (5:75), and "Verily the likeness of Jesus before God is the likeness of Adam: He created him
+from dust, then said to him, 'Be' — and he was" (3:59). And Maʿmar from Qatādah said of "His Word which He
+bestowed on Mary, and a spirit from Him": it means He said "Be," and he was. And Shadhdh b. Yaḥyā said:
+"Jesus was not the word; rather, Jesus came into existence because of the word." **[Maʿārif]** After the Jews,
+the Christians are addressed and their doctrinal position refuted. The word *kalimatuhu* — "His word" — has
+been explained in several ways: al-Ghazzālī said that two factors operate in the birth of a child — the sperm,
+and God's saying "Be" — and since the first was out of the question in the case of Jesus, he was attributed to
+the second and so called "the word of God"; others said it means the glad tiding of God, referring to the
+annunciation the angels brought to Mary in the words "God gives you good news of a word from Him" (3:45); others
+said it is used in the sense of *āyah*, a sign, as in "she testified to the words of her Lord as true" (66:12).
+Similarly *rūḥ* has been given several senses: that spirit is used in customary usage for the essence, to convey
+purity, and Jesus, born without a father by nothing but God's will, was granted the most perfect purity; that he
+was the cause of spiritual life in dead hearts, as the Qurʾān itself is called "a spirit of Our command" (42:52);
+that *rūḥ* is used for a secret, and Jesus was because of his unusual birth a sign and secret of God; that the
+adjunct is understood, i.e., "the possessor of a spirit from Him"; or that it refers to the blowing of breath,
+for Jibrīl blew on Mary's collar by God's command and that became the conception, as in "then We blew into her of
+Our spirit" (21:91). None of these views comes to mean that Jesus is a part of God or a divine person in whom
+that spirit manifested itself in human form; and the attributions "the House of God," "the she-camel of God,"
+"the servant of God" show that the attached construction is one of honour, not of partition. **[Saʿdī]** God
+forbids the People of the Book excess in religion, which is passing the limit and the measure that is legislated
+to what is not legislated — as the Christians' excess over Jesus, raising him from the station of prophethood
+and message to the station of lordship that befits none but God. For just as falling short is forbidden, so is
+excess; hence "do not say about God except the truth." And this speech contains three things: two prohibitions —
+speaking falsehood about God, and speaking without knowledge concerning His names, attributes, acts, law and
+messengers — and one command, speaking the truth in these matters. Then God specified the true word about Jesus
+that differs from both the Jewish and the Christian way: "the Messiah, Jesus son of Mary, is only a Messenger of
+God" — the furthest point of the Messiah's perfection and the highest state of the created is the degree of
+messengership, the loftiest of ranks and the most glorious of rewards; "His Word which He cast to Mary" — a
+word God spoke, by which Jesus came to be; he was not that word, but came to be by it, and this is of the
+category of attribution for honour and ennoblement; "and a spirit from Him" — that is, of the spirits He created
+and perfected with excellent qualities and noble character: God sent His spirit Jibrīl, who blew into the womb
+of Mary, and she conceived Jesus by God's leave. Then, having made clear the reality of Jesus, He commanded the
+People of the Book to believe in him and in His messengers, and forbade them to make God the third of three —
+one of them Jesus, the second Mary; this is the Christians' doctrine, so He commanded them to desist and
+informed them that this is better for them, because it is the way of deliverance and all else is a road to ruin.
+Then He declared Himself above partner and child: "God is only one God; glory be to Him that He should have a
+child. To Him belongs all that is in the heavens and the earth" — possessions, creatures and servants; and such
+sovereignty does not agree with prophethood, let alone with godhood, for Jesus. "And God suffices as a Guardian"
+— a guardian of all things, sufficient for His creation, and sufficient as a witness of the truth of His
+Messenger.
+
+**Rulings & āthār.** **[Ibn Kathīr]** Al-Bukhārī recorded that ʿUbādah b. al-Ṣāmit said that the Prophet ﷺ said:
+"Whoever testifies that there is no deity but God alone, with no partner, and that Muhammad is His servant and
+Messenger, and that Jesus is God's servant and Messenger and His Word which He bestowed on Mary and a spirit
+from Him, and that Paradise is true and the Fire is true — God will admit him into Paradise according to what he
+has done," and in another narration, "through any of the eight gates of Paradise he wishes"; and Muslim recorded
+it also. Therefore "a spirit from Him" in the verse and the ḥadīth is like God's saying, "And He subjected to
+you all that is in the heavens and all that is in the earth — it is all from Him" (45:13), meaning: of His
+creation. "From Him" does not mean that it is a part of Him, as the Christians claim; the attribution of things
+to God — the spirit of God, the she-camel of God, the House of God — is intended for honour. **[Study Quran]**
+The error of the Jews was their failure to recognize certain prophets sent to them; the error of the Christians
+is to exaggerate by ascribing divine status to their prophet (al-Rāzī). The verse asserts the Qurʾānic view of
+Jesus as only a messenger of God — a human messenger like Muhammad and the prophets before him (see also 5:75)
+— and this is consistent with several Gospel verses that state Jesus was sent by the Father (John 5:23, 5:30,
+6:57, 8:16, 10:36, 12:49, 14:24, 17:21, 20:21). The title *al-Masīḥ* is understood in Arabic as referring to
+his having been purified by God of sin (al-Ṭabarī), which is not unrelated to the Hebrew root meaning "anointed."
+He is also identified as God's Word (see also 3:45; 19:34), an idea with clear resonance in the Gospel of John,
+from which Christian and Islamic tradition derive different conclusions: in the Islamic context the
+identification does not preclude his function as the bringer of the Gospel, which like the Torah and the Qurʾān
+is God's word and message to humanity. Some commentators interpret "His Word" as the tidings Mary received, or
+as the divine creative command "Be!" by which he was formed in her womb (al-Rāzī, al-Ṭabarī) — though while all
+created beings come into existence through God's word, he alone is specifically identified as a Word from God.
+The virgin birth is alluded to in "committed to Mary," a phrase that can also be rendered "cast upon Mary" (cf.
+66:12, where God breathed His Spirit into Mary), and he is accordingly given the honorific Rūḥ Allāh, "Spirit of
+God"; some commentators, however, take "a Spirit from Him" metaphorically, as a reference to his purity or to
+God's mercy (al-Rāzī). Then the verse commands Christians to say not "Three" — understood as a command to
+abandon the doctrine of the Trinity; in 5:73 those who call God "Three" are more seriously criticized, but this
+verse is embedded in a discussion that seems to address Christians who took not only Jesus but also his mother
+Mary to be divine, and in neither passage is the orthodox doctrine of three persons within the one God explicitly
+referenced; the criticism seems directed at those who assert the existence of three distinct gods, an idea
+Christians themselves reject. Al-Rāzī is aware that Christians believe in three qualities in a single divine
+essence, but argues that the claim that the divine reality inhered in the human form of Christ belies the
+trinitarian claim to a single essence; he contrasts the Christian hypostases with the Islamic doctrine of God's
+names and qualities, which are not understood as multiple, distinct entities. And despite these criticisms, and
+despite the implication of 5:72–73 that these beliefs can be understood as a kind of *shirk*, Islamic law never
+considered Christians to be idolaters, and maintained the distinction the Qurʾān itself makes between idolaters
+and the People of the Book. The verse closes by refuting the divine sonship: "Glory be to Him that He should
+have a child" (cf. 2:116; 6:100–101; 9:30; 10:68; 16:57; 17:111; 43:16).
+
+**Reflection.** **[Maʿārif]** The address to the Christians completes the sūrah's survey of the People of the
+Book: the Jews were answered for their denying and their killing of the prophets, and the Christians for their
+excess over their prophet — the two errors between which the Qurʾān's "middle" stands, since the good deed is
+between two evil deeds. And the phrase "God suffices as a Guardian" (*wakīl*) is the seal of the passage: the
+One who has all that is in the heavens and the earth as His possession needs no son, and the one who relies on
+Him needs no other guardian. **[Study Quran]** The whole verse is therefore a single doctrinal statement: what
+Jesus is (messenger, Word, spirit), what he is not (God, son of God, third of three), and what the believers are
+to say — and its method is the method of the sūrah: honour the prophets without deifying them, and worship the
+One who sent them. **[Ibn Kathīr]** And note how the Prophet ﷺ applied it to himself: he refused the titles
+that would raise him above the rank God gave him, and commanded, "Say, 'the servant of God and His Messenger'" —
+the same correction the Christians were given about Jesus.
+
+**Cross-references.** "The Messiah, Jesus son of Mary, was no more than a messenger; messengers passed away
+before him; his mother was a truthful woman; they both ate food" (5:75); "Verily the likeness of Jesus before
+God is the likeness of Adam" (3:59); "God gives you good news of a word from Him" (3:45); "They have certainly
+disbelieved who say, 'God is the third of three'" (5:73); "God has not taken a child, nor is there any deity
+with Him" (23:91); "Say: He is God, One; God, the Eternal Refuge; He begets not, nor is He begotten" (112:1–3).
+
+## 4:172
+
+*"The Messiah would never disdain to be a servant of God; nor would the angels brought nigh. Whosoever disdains
+His service, and is arrogant, He will gather them unto Himself all together."*
+
+**Meaning.** **[Ṭabarī]** "The Messiah will never disdain" — he will not refuse and will not be too proud to be
+a servant of God. Qatādah said: the Messiah will not resent being a servant of God, nor will the angels — that
+is, nor will His messengers the near ones, whom God has brought near and raised above others of His creation,
+refuse to acknowledge servitude to God and submit to it. And it is reported from al-Ḍaḥḥāk that he used to say
+concerning it that which is of the same meaning. **[Jalālayn]** The Messiah whom you claim to be a god would
+never disdain, scorn or haughtily reject being a servant of God, nor would the angels who are nigh to God; and
+this is a splendid digression to the matter of the angels, mentioned as a refutation of those who claim that the
+angels are gods or the daughters of God, just as He refuted before what the Christians claim. "Whoever disdains
+to worship Him and waxes proud, He will assuredly muster them to Him, all of them, in the Hereafter."
+**[Qurṭubī]** The verse shows that the angels are superior to the prophets, since God joined them with the
+Messiah in the refusal of disdain, and the earlier part of the verse is a proof against the Christians;
+al-Ḥasan recited it *in yakūn* with the *hamzah* broken, making it a negation. **[Ibn Kathīr]** Ibn Abī Ḥātim
+recorded that Ibn ʿAbbās said, "proud" means insolent; and Qatādah said: the Messiah will never be arrogant to
+be a servant of God, nor will the angels brought near — and then God said, "Whoever rejects His worship and is
+proud, He will gather them all together unto Himself on the Day of Resurrection," and then He will judge between
+them with His just judgment, which is never unjust or wrong. **[Saʿdī]** When God mentioned the Christians'
+excess over Jesus and mentioned that he is His servant and Messenger, He here mentions that he does not disdain
+the worship of his Lord — he does not turn from it in distaste — nor do the angels brought near; and their being
+declared free of disdain is a declaration of their freedom from arrogance by greater reason, and negating a
+thing implies affirming its opposite: Jesus and the near angels desired the worship of their Lord, loved it and
+strove in it as befits their states, which brought them tremendous honour and great success; they did not disdain
+to be servants of His lordship and divinity, but saw their need of that above every need. And let none suppose
+that raising Jesus or any creature above the rank God gave him, or his rising above worship, is perfection —
+rather it is deficiency itself, and the place of blame and punishment. Hence: "Whoever disdains His worship and
+is arrogant, He will gather them all to Him" — He will gather all creation to Himself, the disdainful and the
+arrogant and His believing servants, and will judge between them with His just judgment and decisive recompense.
+**[Maʿārif]** From the affirmation of God's absolute purity and the refutation of the alleged godhood of Jesus,
+the text now strengthens the argument by showing that Jesus would himself confess to being a servant of God, and
+so would the angels — which includes Jibrīl, alleged by some to be a person of the Trinity. On the honour of
+being a servant of God, Maulānā Shabbīr Aḥmad ʿUthmānī comments that servanthood to God is the highest honour,
+not a diminution: the verse says "the Messiah would never disdain," and the negation is a proof of his eagerness;
+and the mention of the angels is a second refutation, aimed at those who made the angels gods. **[Study Quran]**
+Here again the exclusive humanity of Jesus is asserted: the Messiah would never disdain to be a servant of God;
+the Arabic *ʿabd* can also mean "slave" and describes the relationship of all human beings to God, and also
+designates those pious persons who willingly submit their will to God's will; Jesus is God's servant in both
+senses, and to reject or disdain servanthood in relation to God is nothing but unjustifiable arrogance. Some
+commentators view the assertion of Jesus' servanthood as a response to the Christian delegation from Najrān in
+their discussion with the Prophet: the delegates reportedly took exception to the Islamic claim that Jesus was a
+mere servant and messenger of God and considered it an insult to Jesus.
+
+**Reflection.** **[Saʿdī]** And the argument of the passage is complete at this point: if the greatest of the
+created, the Messiah, and the nearest of the angels, do not disdain servitude, then the claim that gods should be
+worshipped has no footing in any creature's own confession. And the disdain of the disdainful is not strength but
+the loss of the rank they thought to escape. **[Ṭabarī]** And the gathering "all together" — the proud and the
+humble in one standing — is the answer to every imagined hierarchy of worth: the judgment of that day will
+separate them by what they did, not by what they claimed.
+
+**Cross-references.** "The Messiah will never disdain to be a servant of God" (4:172); "They said, 'The
+Compassionate has taken a son'; glory be to Him — rather, they are honoured servants" (21:26); "Whoever disdains
+His worship and is arrogant, He will gather them all to Him" (4:172); "Those who disdain the worship of Me will
+enter Hell, humbled" (40:60); "And to Him will you all be returned" (2:245).
+
+## 4:173
+
+*"As for those who believe and perform righteous deeds, He shall pay them their rewards in full, and will
+increase them from His Bounty. But as for those who are disdainful and arrogant, He will punish them with a
+painful punishment, and they will find no protector or helper for themselves apart from God."*
+
+**Meaning.** **[Ṭabarī]** As for the believers who affirm God's oneness, submit to Him in obedience and humble
+themselves to Him in servitude, and do righteous deeds — those who came to their Lord believing in Him and His
+messengers and acting on what His messengers brought them, doing what He commanded and avoiding what He forbade
+— "He will pay them their rewards in full": He will give them the recompense of their righteous deeds complete
+and full. "And will increase them of His bounty": He will add to them beyond what their deeds deserve. And as
+for those who disdained and were proud, He will punish them with a painful punishment, and they will find, apart
+from God, neither a protector to guard them nor a helper to deliver them. **[Jalālayn]** As for those who
+believed and did righteous deeds, He will pay them in full their wages, the reward for their deeds, and He will
+give them more of His bounty — what no eye has seen, no ear has heard, and no human heart has ever wished for;
+and as for those who disdain and are too proud to worship Him, He will chastise them with a painful chastisement,
+which is the chastisement of the Fire, and they shall not find for themselves besides God — other than Him — any
+friend to ward it off from them or helper to protect them from it. **[Ibn Kathīr]** "He will give them their
+due rewards, and more out of His bounty": God will award them their full rewards for their righteous deeds and
+add to them of His bounty, and "those who refused His worship and were proud, He will punish them with a painful
+torment, and they will not find for themselves besides God any protector or helper." **[Saʿdī]** Then He
+detailed His ruling concerning them: "as for those who believe and do righteous deeds" — who combined the faith
+commanded with righteous works of obligatory and recommended acts, of the rights of God and the rights of His
+servants — "He will pay them their rewards" in full, the rewards He has arranged for deeds, each according to his
+faith and his work; "and will increase them from His bounty" — of the reward that their deeds never reached and
+their acts never attained and that never crossed their hearts; and into this enters all that is in Paradise of
+foods, drinks, spouses, sights, joy, the bliss of the heart and the spirit and the bliss of the body, and indeed
+every good, religious and worldly, arranged upon faith and righteous work. "But as for those who disdained and
+were proud" — of the worship of God — "He will punish them with a painful punishment," which is the wrath of God
+and His fire, and they will find no one to protect them from it or to help them against it.
+
+**Reflection.** **[Saʿdī]** And observe that the verse pairs the reward of the humble and the punishment of the
+proud, and puts the "more" (*ziyādah*) beside the "full payment" (*tawfiyah*): the believer is not merely paid
+what he earned but given what he never earned, so that mercy overshadows justice in the sentence of the
+believers, while the sentence of the arrogant is measured by their own choice. **[Ṭabarī]** And "they will find
+no protector or helper apart from God" is the precise answer to their arrogance: the one who disdained
+servitude will have no servant to help him in the day he needs help most. **[Jalālayn]** And the "more of His
+bounty" is left unnamed in the verse, which the commentators fill with the report of what no eye has seen, no
+ear has heard, and no human heart has conceived — so that the increase remains, as it is, beyond description.
+
+**Cross-references.** "That He may pay them their rewards in full and increase them from His bounty" (35:30);
+"Whoever does righteousness, whether male or female, while a believer — We shall surely give them a good life"
+(16:97); "And they will not find for themselves besides God any protector or helper" (4:173; cf. 2:107; 9:116);
+"Those who disdain the worship of Me will enter Hell, humbled" (40:60).
+
+## 4:174
+
+*"O mankind! Verily there has come unto you a proof from your Lord. And We have sent down unto you a clear
+light."*
+
+**Meaning.** **[Ṭabarī]** O mankind of all the religious communities — their Jews, their Christians, their
+idolaters, whose accounts God has related in this sūrah — "there has come to you a proof (*burhān*) from your
+Lord": there has come to you an argument from God that demonstrates the falsehood of what you are settled upon of
+your religions and your creeds — and it is Muhammad ﷺ, whom God has made an argument against you, cutting off
+your excuse, and He has conveyed to you the fullest apology by sending him to you, together with His making
+known to you the soundness of his prophethood and the truth of his message. "And We have sent down to you a
+clear light": We have sent down to you with him a light that makes the clear road plain and guides from error.
+**[Jalālayn]** O people, a proof, a definitive argument, has now come to you from your Lord against you, namely
+the Prophet ﷺ, and We have revealed to you a manifest, clear light, namely the Qurʾān. **[Qurṭubī]** "A proof
+from your Lord" means Muhammad ﷺ, from al-Thawrī, and he is named *burhān* because with him is the *burhān*,
+which is the miracle; Mujāhid said the *burhān* here is the argument, and the two meanings are close, for the
+miracles are his argument. And the light sent down is the Qurʾān, from al-Ḥasan: it is called light because by
+it the rulings become clear and one is guided by it out of error; so it is a light "manifest," that is, plain
+and clear. **[Maʿārif]** After the refutation of the Christians' beliefs, together with the promise of reward
+to those who acknowledge the truth and the warning of punishment to those who persist in denial, the text turns
+to a universal address, praising the blessed status and mission of the Messenger who taught what was the truth
+revealed to him and conveyed the truth of the Qurʾān admirably, and those who believed in and testified to the
+truth of the Book and the Messenger. The word *burhān* lexically means proof and refers to the Prophet ﷺ (*Rūḥ
+al-Maʿānī*); Ibn ʿAbbās said he was referred to as *burhān* in consideration of his blessed person, his noble
+morals, his miracles, and his being the very recipient of revelation; and the "manifest light" is the Qurʾān.
+**[Ibn Kathīr]** God informs all people that a plain, unequivocal proof has come to them from Him, one that
+eradicates all possibility of having an excuse or falling prey to evil doubts; "and We sent down to you a
+manifest light" that directs to the truth — Ibn Jurayj and others said, "It is the Qurʾān." **[Saʿdī]** God
+bestows favour upon all people by what He has conveyed to them of decisive proofs and shining lights, and
+establishes the argument against them and clarifies the road: "a proof from your Lord" — proofs decisive for
+the truth, showing it and clarifying it and showing its opposite — and this includes rational and transmitted
+proofs, and the signs in the horizons and in the selves: "We will show them Our signs in the horizons and in
+themselves until it becomes clear to them that it is the truth" (41:53). And in "from your Lord" there is an
+indication of the nobility of this proof and its greatness, since it is from your Lord who has nurtured you with
+religious and worldly nurture; and of His nurture for which He is praised and thanked is that He conveyed to you
+the clear signs to guide you by them to the straight path and to the gardens of bliss. "And We have sent down to
+you a manifest light" — this great Qurʾān, which contains the sciences of the ancients and the later ones, true
+and beneficial reports, the command of every justice, beneficence and good, and the prohibition of every wrong
+and evil; for people are in darkness if they do not light their way by its lights, and in great misery if they
+do not take from its good. **[Study Quran]** These verses conclude the discussion of the People of the Book and
+their beliefs, implying that the Qurʾān has now brought them convincing proof — *burhān* denotes an irrefutable
+argument — and a clear light through which they may understand the importance of being faithful to their
+covenant with God and the truth about their own prophets and revelations.
+
+**Reflection.** **[Saʿdī]** And the address "O mankind" gathers the sūrah's audiences — the Jews, the
+Christians, the idolaters — into one call, for the proof sent to the Prophet is a proof for all, and the light
+sent down is the way out of every darkness: the darkness of doubt, the darkness of excess, and the darkness of
+denial. **[Maʿārif]** And the naming of the Prophet himself as the *burhān* — the proof — shows that the
+argument of God is not a book alone but a person and a life: his character, his miracles and his reception of
+revelation are the demonstration that the message is from God.
+
+**Cross-references.** "There has come to you from God a light and a clear Book" (5:15); "We will show them Our
+signs in the horizons and in themselves until it becomes clear to them that it is the truth" (41:53); "A Book
+which We have sent down to you, that you might bring mankind out of darkness into light" (14:1); "And thus We
+have revealed to you a spirit of Our command" (42:52).
+
+## 4:175
+
+*"As for those who believe in God and hold fast to Him, He will cause them to enter into His Mercy and Bounty,
+and will guide them unto Himself upon a straight path."*
+
+**Meaning.** **[Ṭabarī]** As for those who affirm God and acknowledge His oneness and what Muhammad ﷺ was sent
+with, of the religious communities, "and hold fast to Him" — that is, they cling to the manifest light which He
+sent down to His Prophet, as Ibn Jurayj said: "to Him" means to the Qurʾān. "He will cause them to enter into
+Mercy and bounty from Him": His mercy will reach them, delivering them from His punishment and securing for them
+His reward, His mercy and His garden, and there will follow them of His bounty what follows the people of faith
+in Him. "And will guide them to Himself upon a straight path": He will direct them to a way of truth in which
+there is no crookedness. **[Jalālayn]** As for those who believe in God and hold fast to Him, He will surely
+admit them to mercy from Him and bounty, and He will guide them to Him by a straight path, namely the religion
+of Islam. **[Qurṭubī]** "And hold fast to Him" — that is, to the Qurʾān, against His disobedience; and if they
+hold fast to His Book they have held fast to Him and to His Prophet. And it is said: "hold fast to Him" means
+to God, and *ʿiṣmah* is withholding and prevention. "And will guide them" — and He guides them; the pronoun is
+concealed to show that the speech is cut off from what precedes it. "To Himself" — to His reward, or, it is
+said,
+to the truth, that they may know it. "A straight path" — a straight religion; and "path" is in the accusative
+by a concealed verb that "will guide them" indicates. **[Saʿdī]** But people divided according to faith in the
+Qurʾān and benefit from it into two groups: "as for those who believe in God" — who acknowledge His existence
+and His being described with every perfect attribute and free of every deficiency and fault — "and hold fast to
+Him" — who flee to God, rely upon Him, disavow their own power and strength, and seek help from their Lord —
+"He will cause them to enter into mercy from Him and bounty": He will envelop them in His special mercy, grant
+them success in good works, give them abundant rewards, and repel from them afflictions and hated things; "and
+will guide them to Himself upon a straight path" — He will grant them success in knowledge and action, in
+knowing the truth and acting upon it. And whoever does not believe in God and hold fast to Him, and does not
+cling to His Book, He withholds from him His mercy, deprives him of His bounty, and leaves him to himself.
+**[Ibn Kathīr]** So as for those who believed in God and held fast to Him — by worshipping Him and relying on
+Him for each and every thing; Ibn Jurayj said it means: they believe in God and hold fast to the Qurʾān — He
+will admit them to His mercy and grace, meaning He will grant them His mercy and admit them into Paradise and
+multiply their rewards and their ranks as a favour and bounty from Him, and guide them to Himself upon a straight
+path, a clear way that has no wickedness in it or deviation; this is the description of the believers in this
+life and the Hereafter. **[Study Quran]** With these verses the sequence on the People of the Book concludes:
+the proof and the light have come, and the two groups are named — those who believe and hold fast, and those who
+do not.
+
+**Reflection.** **[Saʿdī]** And the order of the verse is exact: faith first, then holding fast, then mercy and
+bounty, then guidance on the path — for faith is the entry, holding fast is the continuance, and the path is
+walked to the end; and whoever is given all four has been given the whole of the good. **[Qurṭubī]** And note
+that "to Himself" is the goal: the guidance of the verse is not merely to a road but to the Lord of the road —
+the way is walked for the sake of arriving at Him, and the straightness of the path is measured by whether it
+ends where He is.
+
+**Cross-references.** "Whoever holds fast to God — he has been guided to a straight path" (3:101); "And whoever
+submits his face to God while doing good has grasped the firmest handhold" (31:22); "Whoever disbelieves in
+false deities and believes in God has grasped the firmest handhold, the unbreakable bond" (2:256); "God guides
+whom He wills to a straight path" (24:46).
+
+## 4:176
+
+*"They seek a ruling from you. Say: 'God gives you a ruling concerning the one without a direct heir. If a man
+dies having no child, but he has a sister, then unto her belongs half of what he leaves, and he will inherit
+from her if she has no child. If there be two sisters, then unto them belongs two-thirds of what he leaves. If
+there be brothers and sisters, then unto the male a share equal to that of two females.' Thus does God make
+[this] clear unto you, lest you should go astray. And God is Knower of all things."*
+
+**Meaning.** **[Ṭabarī]** "They seek a ruling from you": they ask you, O Muhammad, to give them a ruling
+concerning the *kalālah*. And we have already explained the meaning of *kalālah* with the evidence that shows
+its soundness: it is, in our view, what is other than the child and the parent. "If a man perishes having no
+child and has a sister, hers is half of what he leaves": if a person dies, and he has no child — no male or
+female child — and has a sister, she has half of what he leaves. **[Jalālayn]** They will ask you for a
+pronouncement concerning indirect heirs; say, "God pronounces to you concerning indirect heirs: if a man
+perishes" — *imruʾun* in the nominative because the verb *halaka* explains it — "having no children and no
+parent, and he has a sister from both parents or from one, hers is half of what he leaves, and he" — a brother
+similarly — "is her heir in all that she leaves if she has no children; but if she has a son, then he receives
+nothing, and if she has a daughter, then whatever is left after her share. If the brother and sister be from the
+same mother, then the one receives a sixth, as was stipulated at the beginning of the sūrah. If there be two
+sisters or more — for this was revealed regarding Jābir b. ʿAbdillāh, who was survived by sisters — theirs are
+two-thirds of what he leaves; if there be among the inheritors siblings, men and women, then the male among them
+shall receive the equivalent of the portion of two females. God makes clear to you the stipulations of your
+religion lest you go astray; and God has knowledge of all things, including matters of inheritance." It is
+reported by the two Shaykhs, al-Bukhārī and Muslim, that al-Barāʾ b. ʿĀzib said that this was the last of the
+"duty" verses to be revealed. **[Saʿdī]** God informs that people sought a ruling from His Messenger ﷺ
+concerning the *kalālah*, and it is the deceased who dies having no child of his own loins nor a child of his
+son and no father and no grandfather; hence "if a man perishes having no child" — no male or female, neither a
+child of his loins nor a grandchild — and likewise he has no father, for the brothers and sisters are given
+inheritance here, and there is consensus that they do not inherit together with the father. "And he has a
+sister" — a full sister or a paternal one, not a maternal, for her ruling has preceded. "Hers is half of what he
+leaves" — half of the property he left, of cash, real estate, furnishings and the like, after debts and bequests
+as has preceded. "And he" — her full or paternal brother — "is her heir if she has no child," and no fixed
+share is assigned to him because he is an *ʿāṣib*, so he takes all her wealth if there is no possessor of a
+fixed share and no other *ʿāṣib* sharing with him, or whatever the fixed shares leave over. "If they are two" —
+the sisters, that is, two or more — "theirs are two-thirds of what he leaves; and if they are brothers, men and
+women" — male and female brothers of the same father, or full — "then to the male the like of the share of two
+females": the fixed share of the females is dropped and their brothers make them *ʿaṣabah*. "God makes clear to
+you, lest you go astray" — He clarifies the rulings you need and explains them out of grace and beneficence, so
+that you be guided by His clarification and act on His rulings, and so that you not stray from the straight path
+because of your ignorance. "And God is Knower of all things" — knower of the unseen and the seen, of things past
+and future, and He knows your need of His clarification and teaching, so He teaches you of His knowledge what
+benefits you always, in every time and place. Here ends the commentary on Sūrat an-Nisāʾ — and to God belong all
+praise and thanks. **[Ibn Kathīr]** This is the last verse ever revealed on *al-kalālah*: al-Bukhārī recorded
+that al-Barāʾ said the last sūrah revealed was Sūrat Barāʾah, and the last verse, "They ask you for a legal
+verdict" — this verse. And Aḥmad recorded that ʿUmar b. al-Khaṭṭāb said there was nothing he asked the Messenger
+of God ﷺ about its meaning more than the *kalālah*, until he stabbed him in the chest with his finger and said,
+"The summer verse at the end of Sūrat an-Nisāʾ should suffice for you" — Muslim recorded a longer form of it.
+And in the two Ṣaḥīhs, ʿUmar said, "There are three things I wished the Messenger of God ﷺ had explained to
+us..." — mentioning the grandfather, the *kalālah*, and a certain kind of *ribā*. And "if it is a man that dies"
+— everything perishes except His face — "leaving no child": neither children nor parents, and what testifies to
+that is His saying, "and he has a sister, she shall have half the inheritance"; for had there been a surviving
+ascendant the sister would not have inherited anything, and there is consensus on this. And Ibn Jarīr and others
+mentioned that Ibn ʿAbbās and Ibn al-Zubayr used to judge that if a person dies leaving a daughter and a sister,
+the sister does not inherit anything, reciting, "if it is a man that dies, leaving a sister, but no child, she
+shall have half the inheritance" — if one leaves a daughter, he has left a child, so the sister gets nothing;
+and the majority of scholars disagreed, saying the daughter gets one half and the sister the other half, relying
+on other evidence — and al-Bukhārī recorded from Ibrāhīm that al-Aswad reported, and Muslim recorded from Jābir
+b. ʿAbdillāh that he said, "The Messenger of God ﷺ came visiting me when I was so ill that I fell unconscious;
+he performed ablution and poured the remaining water on me; when I regained consciousness I said, 'I will only
+leave inheritance through *kalālah*, so what about the inheritance that I leave behind?'" — and God later
+revealed the verse on inheritance.
+
+**Rulings.** **[Qurṭubī]** Al-Barāʾ b. ʿĀzib said, "This is the last verse revealed of the Qurʾān," as in the
+book of Muslim; and it is also said it was revealed when the Prophet ﷺ was preparing for the farewell
+pilgrimage, and it was revealed because of Jābir — who said, "I fell ill, and the Messenger of God ﷺ and Abū
+Bakr came walking to visit me, and I fainted; the Messenger of God ﷺ performed ablution and poured some of his
+ablution water over me, and I revived, and I said, 'O Messenger of God, how should I dispose of my wealth?' And
+he did not answer me anything until the verse of inheritance was revealed: 'They seek a ruling from you; say:
+God gives you a ruling concerning the kalālah'" (Muslim). And in the first part of the sūrah the discussion of
+*kalālah* has been given fully, and that the brothers meant here are brothers by father and mother, or by the
+father; and Jābir had nine sisters. "If a man perishes leaving no child" means leaving no child and no parent,
+and He sufficed with mentioning one of the two; al-Jurjānī said the word *walad* applies to the parent and the
+child, for the parent is called *wālid* because he has begotten and the child is called *walad* because he was
+begotten. And note: the majority of the scholars from the Companions and the Successors make the sisters the
+*ʿaṣabah* of the daughters even when there is no brother with them — except Ibn ʿAbbās, who did not make the
+sisters the *ʿaṣabah* of the daughters, and Dāwūd and a group went with him, their proof being the outward
+sense of "if a man perishes leaving no child and he has a sister, hers is half," and they said it is known that
+the daughter is of the child, so the sister should not inherit while the daughter exists; and Ibn al-Zubayr used
+to hold Ibn ʿAbbās's position in this question until al-Aswad b. Yazīd informed him that Muʿādh judged in the
+case of a daughter and a sister and made the property half between them. And this verse is called *āyat
+al-ṣayf*, the summer verse. **[Maʿārif]** A little after the beginning of Sūrat an-Nisāʾ there appeared
+injunctions relating to inheritance; then, after a considerable gap, the text returned to inheritance along with
+other subjects; and now, at the end of the sūrah, it reverts to the subject once again. Perhaps the wisdom of
+this scattering of the subject in three places was the consideration of the injustice in matters of inheritance
+prevailing before Islam: by taking it up at the beginning, in the middle, and at the end, the addressees would be
+gradually alerted to the need for justice in this area and enabled to show it their maximum concern. The verse
+was revealed in answer to the question of some Companions about the inheritance of a *kalālah* — a person who
+dies leaving neither children nor parents — and it clarifies that the property is distributed as follows: if the
+*kalālah* leaves one full sister, or one half-sister from the father's side, then after settling preferential
+rights such as debts and wills, she gets one half, and the other half goes to the heirs of the *ʿaṣabah*; if
+there is no such heir, the half is returned to her, meaning she secures the whole property. If the sister dies
+leaving children and her brother is alive, he gets the whole of her property. If the *kalālah*, male or female,
+leaves two or more sisters, full or paternal, they get two-thirds, and the remaining third goes to the *ʿaṣabah*
+if any, and in their absence to the sisters. And if the *kalālah* leaves a combination of brothers and sisters,
+full or paternal, the whole property, after preferential rights, is distributed between them on the principle
+that every brother gets twice the share of every sister; as for the maternal half-siblings, their share has
+already been stated in 4:12. **[Study Quran]** This final verse revisits the inheritance discussed in vv.
+11–12, and particularly the case of the one who dies without direct heir — *kalālah*, that is, without a father or
+son, or without a parent or child; v. 12 says a third of the estate of such a person is to be divided among the
+siblings of the deceased but does not differentiate the shares by gender or number, and the present verse
+increases the portion and delineates the division: a single sister inherits half, two or more sisters two-thirds,
+and where both brothers and sisters exist the brother receives twice the share of the sister, following the
+general principle of the male relative inheriting twice the similarly related female; in all cases the remainder
+is divided among more distant relatives or rendered to the public treasury of the Islamic state (al-Ṭūsī). The
+revisiting was, according to one report, occasioned by a complaint from Jābir b. ʿAbdillāh, whose nine sisters
+would have had to share a mere third under the earlier ruling (Qurṭubī, al-Ṭabarī). The early commentators
+differed over the case of a daughter together with a sister but no son: some understood that each received half,
+while Ibn ʿAbbās and the Twelver Shiite legal school held that the presence of a surviving daughter meant the
+deceased was not technically a *kalālah* and so precluded any inheritance for a sister. And according to several
+reports from al-Barāʾ b. ʿĀzib this was the final verse of the Qurʾān revealed to the Prophet, although other
+verses, such as 5:3 and particularly 2:281, are more widely attested as the final verse; other passages sometimes
+considered the last of the revelation include 9:128–29 and 110:1–3.
+
+**Reflection.** **[Maʿārif]** The sūrah that opened with the creation of mankind from a single soul and with the
+rights of orphans and women closes with the shares of brothers and sisters: the concern that runs through it —
+that the weak not be eaten and the shares not be swallowed — is the same at the beginning, the middle and the
+end, and the repetition is itself the lesson. **[Saʿdī]** And the closing words, "God makes clear to you, lest
+you go astray; and God is Knower of all things," are the seal of the whole sūrah: clarification is a mercy, and
+straying is the fruit of ignorance; and the One who knows all things knows what His servants need to be told,
+and He has told them. **[Ibn Kathīr]** And the reports that call this the last verse revealed, whatever their
+ranking among the other candidates, carry the same point: the door of legislation closed with a ruling about
+inheritance — a matter of money and family — as if to say that the religion's last instruction concerned the
+just division of the wealth men leave behind, and the guarding of those who inherit it.
+
+**Cross-references.** "God commands you concerning your children: to the male the like of the share of two
+females" (4:11); "And if a man or a woman leaves neither parent nor child, and has a brother or sister, each
+gets a sixth" (4:12); "For men there is a share of what parents and near relatives leave, and for women a share"
+(4:7); "They ask you concerning the orphan women; say: God gives you a ruling concerning them" (4:127); "God
+makes clear to you, lest you go astray" (4:176; cf. 2:187; 24:18).
