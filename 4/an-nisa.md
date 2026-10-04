@@ -2695,3 +2695,416 @@ in the open and a verdict held in God's keeping.
 Surely the unjust will not prosper" (6:21); "Say: Those who fabricate lies against God will not prosper"
 (10:69); "So who is more unjust than he who fabricates a lie against God, that he may mislead people without
 knowledge?" (6:144).
+## 4:51
+
+*"Have you not seen those who were given a portion of the Book — they believe in idols and false deities, and
+say of those who disbelieve, 'These are more rightly guided in way than those who believe'?"*
+
+**Meaning.** **[Ṭabarī]** Have you not seen with your heart, O Muhammad, those who were given a share of the
+Book of God and learned it — they believe in *al-jibt* and *al-ṭāghūt*, that is, they affirm them and reject
+God, while knowing that belief in them is unbelief and affirmation of them is partnership with God. The
+commentators differed on what the two words mean: some said they are two idols the polytheists used to
+worship besides God. **[Jalālayn]** The verse was revealed about Kaʿb b. al-Ashraf and other scholars among
+the Jews when they came to Mecca and saw those killed at Badr, and began to incite the idolaters to avenge
+their dead by making war on the Prophet ﷺ: they believe in *al-jibt* and *al-ṭāghūt* — two idols belonging to
+Quraysh — and say to the disbelievers, Abū Sufyān and his companions, when these said to them, "Are we, the
+guardians of the House, who give drink to the pilgrim, offer hospitality to the guest and set free the
+captive, and do such and such, not more rightly guided than Muhammad, who has contravened the religion of his
+forefathers, severed the ties of kinship and abandoned the Sanctuary?" — "These," that is, you, are "more
+rightly guided upon a more upright way than the believers." **[Saʿdī]** This is among the ugliness of the Jews
+and their envy of the Prophet ﷺ and the believers: their base character and vile disposition carried them to
+abandon faith in God and His Messenger and replace it with faith in *al-jibt* and *al-ṭāghūt* — which is faith
+in every worship of other than God or judgment by other than God's law, so that sorcery, soothsaying, worship
+of other than God and obedience to Satan all enter into it. Their unbelief and envy likewise carried them to
+prefer the way of the disbelievers who worship idols over the way of the believers, speaking out of flattery
+for the disbelievers and hatred of faith.
+
+**Language & reflection.** **[Maʿārif]** *Al-jibt* originally names an idol, and was later used for every
+false god and for sorcery; *al-ṭāghūt* literally signifies the arrogant, and is used for Satan and for evil
+and falsehood. ʿUmar said *al-jibt* is magic and *al-ṭāghūt* is Satan. **[Study Quran]** *Al-jibt* appears
+only in this verse; *al-ṭāghūt* appears in several and denotes a variety of false sources of authority, false
+objects of worship and false causes (2:256; 4:60, 76; 5:60; 16:36; 39:17). Some identify the two as idols of
+Quraysh, while others consider *al-jibt* to refer to idols and *al-ṭāghūt* to soothsayers; it is widely
+reported that they refer to two leaders of the Madinan Jews, Kaʿb b. al-Ashraf and Ḥuyayy b. Akhṭab, who
+visited the Makkans after Badr or Uḥud, and when the Makkans insisted that they were people who provided for
+the Kaʿbah pilgrims and maintained ties of kinship while Muhammad severed his, declared the Makkans more
+rightly guided. **[Saʿdī]** Asks how this could be said by anyone with a mind: does a religion built on the
+worship of idols, the prohibition of good things, the permitting of the foul, the legalizing of the forbidden,
+the establishment of injustice among people and the equating of the Creator with creatures — and on unbelief
+in God, His messengers and His books — excel a religion built on the worship of the Compassionate, sincerity
+to God in secret and in the open, and the rejection of all that is worshipped besides Him; on ties of kinship
+and kindness to all creation, even the beasts; on justice and equity among people, and on the prohibition of
+every foul thing and wrong? This is nothing but raving — and its author is either among the most ignorant of
+people and weakest in mind, or among the most stubborn in contumacy against the truth.
+
+**Cross-references.** "God is the Protector of those who believe; He brings them out of darkness into light"
+(2:257); "Whosoever rejects false deities and believes in God has grasped the firmest handhold" (2:256); "And
+We sent to every community a messenger: worship God and avoid false deities" (16:36).
+
+## 4:52
+
+*"Those are they whom God has cursed; and whomsoever God curses, you will never find for him any helper."*
+
+**Meaning.** **[Ṭabarī]** Those described — who were given a portion of the Book and yet believe in *al-jibt*
+and *al-ṭāghūt* and say to the disbelievers "these are more rightly guided than the believers" — are the ones
+whom God has cursed: He has disgraced them and removed them from His mercy for their belief in *al-jibt* and
+*al-ṭāghūt*, their disbelief in God and His Messenger out of contumacy, and their saying to the disbelievers
+what they said. And whoever God curses — whoever He disgraces and removes from His mercy — you will never
+find for him, O Muhammad, any helper to defend him against God's punishment and curse, or to drive it away.
+**[Jalālayn]** Those are the ones whom God has cursed; and he whom God has cursed you will never find for him
+any helper to protect him from His chastisement. **[Maʿārif]** The Qurʾānic word *laʿnah*, translated
+"curse," means being far removed from the mercy of God, extremely debased and disgraced; anyone under the
+*laʿnah* of God cannot be close to God, and for such accursed ones the admonitions are very stern — "the
+accursed, wherever they be, are to be caught and killed" (33:61) is their disgrace in this present life, and
+the disgrace in the Hereafter will be far too grim to contemplate.
+
+**Reflection.** **[Saʿdī]** The verse names the condition before the punishment: the root of their ruin is
+that they had a portion of the Book and exchanged the greater for the lesser — knowledge with no submission,
+and a share of revelation used to argue against revelation. **[Maʿārif]** The curse that falls on them is
+the exact counterpart of what they did with God's mercy: they withdrew themselves from its reach, and so the
+verse closes by telling the Prophet that no helper will be found for them, because no one can restore what
+they threw away.
+
+**Cross-references.** "But whoever turns away from My remembrance, his will be a straitened life" (20:124);
+"Whomsoever God curses, you will not find for him any helper" appears again in spirit at 17:97; "They have
+incurred the curse of God" (2:61).
+
+## 4:53
+
+*"Or have they a share in the kingdom? Then they would not give people so much as the speck on a date stone."*
+
+**Meaning.** **[Ṭabarī]** "Or have they a share in the kingdom" — or have they a portion of dominion? The
+sense is that they have no portion of dominion. Al-Suddī said: if they had a share of dominion, they would
+not give Muhammad anything — not even a *naqīr*. Ibn Jurayj said: God said, "Or have they a share in the
+kingdom" — they have no share of dominion, and they would not give people a *naqīr*. **[Jalālayn]** Or have
+they a share in the kingdom — that is to say, they have no share in it whatever; and even if they did, they
+would not give people a single date-spot — not even something as worthless as the tiny spot on the back of a
+date-pit — because of the extent of their niggardliness. **[Ibn Kathīr]** The question is a statement of
+rebuke: they have no share in dominion at all. If they had a share in sovereignty and dominion, they would
+not give anyone anything, especially Muhammad ﷺ, even if it were the speck on the back of a date stone, which
+is the meaning of *naqīr* according to Ibn ʿAbbās and the majority of scholars. This is similar to "Say: If
+you possessed the treasuries of the mercy of my Lord, then you would withhold them out of fear of spending"
+(17:100) — for fear that what you possess might end, although there is no such possibility. This only
+demonstrates their greedy and stingy nature; and this is why God says, "And man was ever niggardly" (17:100).
+**[Study Quran]** The verse poses a rhetorical question whose answer is negative, meaning the Madinan Jews do
+not have a share in sovereignty; this is usually understood as a lack of earthly authority, though some see
+it as meaning spiritual authority. It asserts that if they did have a share, they would deny their subjects
+even the speck on a date stone. *Naqīr*, which might also mean the inner pith of the date stone, is also used
+in v. 124 as a metaphor for insignificance. Qurṭubī notes that the verse begins with the conjunction "or,"
+which does not seem to be connected with anything prior; he therefore suggests something has been elided, the
+full meaning being, "Are they more deserving of prophecy than him unto whom it has been sent, or have they a
+share in sovereignty?"
+
+**Reflection.** **[Ibn Kathīr]** The hypothetical is the point: the verse does not argue that their claim to
+dominion is settled but shows what their hearts are made of — a nation that would begrudge a speck of a
+date-stone would not have handled revelation with open hands either. The comparison with 17:100 generalizes
+the diagnosis beyond one community: the withholding hand imagines the treasury is small.
+**[Study Quran]** The image of the *naqīr* — smaller than a thread, smaller than a husk — measures the
+petty scale on which they measured God's favor.
+
+**Cross-references.** "And they will not be wronged a single date-thread" (4:49, 4:124); "Say: If you
+possessed the treasuries of my Lord's mercy, you would withhold them out of fear of spending; and man was ever
+niggardly" (17:100); "Whoever is saved from the greed of his own soul — those are the successful" (59:9).
+
+## 4:54
+
+*"Or do they envy the people for what God has given them of His bounty? Indeed, We gave the House of Abraham
+the Book and Wisdom, and We gave them a mighty kingdom."*
+
+**Meaning.** **[Ṭabarī]** "Or do they envy the people" — do those who were given a portion of the Book among
+the Jews envy — for what God has given them of His bounty? The commentators differed on whom "the people"
+means. Ibn ʿAbbās, Mujāhid and others said it means the Prophet ﷺ specifically; Qatādah said it means the
+Arabs, whom the Jews envied for prophethood; al-Ḍaḥḥāk said the Jews envied Quraysh because prophethood was
+among them. **[Jalālayn]** Or are they jealous of people — namely the Prophet ﷺ — for the bounty God has
+bestowed upon them in the way of prophethood and abundance of women? They wish he were deprived of such
+things, saying, "If he were truly a prophet he would not be concerned with women." For We gave the House of
+Abraham, his forefather, the like of Moses, David and Solomon — the Book and wisdom and prophethood — and We
+gave them a mighty kingdom: David had ninety-nine women, and Solomon had a thousand free women and
+slave-girls. **[Ibn Kathīr]** God likewise reminded them that He had given the family of Abraham the Book
+and Wisdom — revelation and inspiration — and a great kingdom; and it is established that God gave David and
+Solomon a kingdom such as was never given to anyone after them, with their many wives.
+
+**Rulings & reflection.** **[Qurṭubī]** Envy is censured, and its owner is distressed: it eats up good deeds
+as fire eats up wood, as Anas reported from the Prophet ﷺ; and al-Ḥasan said, "I have never seen an oppressor
+who more resembles the oppressed than the envier." **[Study Quran]** The verse asks whether they envy the
+Bounty — that is, prophecy — that God has given to the Prophet, or to the Arabs through the Prophet (cf.
+2:90, 109, 213; 3:19; 42:14; 45:17, where differences among religious communities are said to be the result
+of envy). It suggests that the envy of the Madinan Jews toward the Muslims prevented them from accepting the
+Prophet's message as a confirmation of their own scripture. Qurṭubī cites the ḥadīth, "Envy consumes good
+deeds as fire consumes wood," and the Prophet's saying, "I have not seen any oppressor who more resembles the
+oppressed than the envier." Envy is considered a sin against God, showing a lack of contentment with what He
+has given; it is said to have been the first sin committed in the celestial realm, referring to Satan's envy
+of Adam (7:11–13), and the first committed on earth, referring to Cain's envy of Abel (5:27–31). God has
+given the House of Abraham revelation and inspiration: the Book and Wisdom (cf. 57:26) — the Book being the
+scriptures of Abraham and Moses (87:19) as well as the Psalms, and the Wisdom including prophethood and right
+judgment — and a mighty sovereignty, that of David and Solomon (2:102; 38:35). **[Maʿārif]** The argument of
+the two verses is one: what is the basis of your envy? If you think the kingdom is properly yours and what he
+has been given is really your own, then in fact you have no kingdom, and even if you came to have some of it
+you are not the kind to give anything to anybody.
+
+**Cross-references.** "Or do they envy people for what God has given them of His bounty? For We gave the
+House of Abraham the Book and Wisdom and a mighty kingdom" stands beside "And We gave David and Solomon
+knowledge" (27:15) and "Ask for forgiveness for your sin and for the believing men and women" (47:19).
+
+## 4:55
+
+*"Among them are those who believe in him, and among them are those who turn away from him; and Hell suffices
+as a blazing flame."*
+
+**Meaning.** **[Ṭabarī]** From among those who were given the Book — from the Jews of the Children of
+Israel, to whom God said, "Believe in what We have sent down, confirming what is with you" — are those who
+believe in what We revealed to Muhammad, confirming what is with them; and among them are those who turn away
+from believing in it. **[Jalālayn]** Some of them believe in him — in Muhammad ﷺ — and some of them bar
+others from him, rejecting him and not believing; and Hell suffices as a blaze, as a chastisement for those
+who do not believe. **[Study Quran]** "Among them are those who believe in him" may refer to the Prophet and
+his revelation as a confirmation of their own, while "among them are those who turn away from him" — the
+pronoun might also refer to Abraham (Qurṭubī, al-Ṭabarī, al-Zamakhsharī); alternately, "among them are those
+who believe in him" may be translated "among them are those who believe in it," where "it" refers to the
+Qurʾān. The last clause indicates that although the worldly punishment with which the Jews were threatened in
+v. 47 was averted when some of them accepted the Prophet's message, the punishment of those who continued to
+disbelieve was deferred to the Hereafter, where they will suffer in Hell.
+
+**Reflection.** **[Ṭabarī]** The verse draws the line not between nations but within them: a share of the
+Book makes no one secure, and faith is the only distinction — every community that received revelation
+divides into those who believe and those who turn away. **[Saʿdī]** The sūrah's treatment of the People of
+the Book is a warning to the believers against the same temptation: to possess the truth and prefer
+something else is not a Jewish disease but the recurring human one, which is why the passage ends with
+"and Hell suffices as a blaze."
+
+**Cross-references.** "And We have set among them those who believe in it and those who turn away from it"
+(2:253); "Of the People of the Book are those who believe in God and in what has been sent down to you"
+(3:199).
+
+## 4:56
+
+*"Those who disbelieve in Our signs — We shall expose them to a Fire. As often as their skins are consumed,
+We shall replace them with other skins, that they may taste the punishment. Truly God is Mighty, Wise."*
+
+**Meaning.** **[Ṭabarī]** This is a threat from God against those who persist in denying what He has sent
+down to Muhammad, from the Jews of the Children of Israel and the rest of the disbelievers, and against his
+Messenger: those who reject My signs — that is, the signs of My revelation and the verses of My Book, which
+are the proofs of Muhammad's truthfulness — We shall expose them to a fire; We shall roast them in it.
+**[Jalālayn]** As often as their skins are consumed — burnt — We shall replace them with other skins,
+restoring them to their initial unburnt state — that they may taste the chastisement, that is, suffer its
+severity. Surely God is ever Mighty, nothing being beyond His power, Wise in His creation. **[Saʿdī]** The
+replacement is not for its own sake but "that they may taste the punishment": the pain is renewed with the
+skin, so that the torment continues without the relief that insensibility would bring. **[Ibn Kathīr]** The
+verse describes the torment of Jahannam for those who disbelieve in His signs and hinder from the path of His
+messengers. Al-Aʿmash said that Ibn ʿUmar said: when their skins are burned, they will be given another skin
+in replacement, and this skin will be as white as paper — collected by Ibn Abī Ḥātim. **[Maʿārif]** Muʿādh
+said that as soon as their skin is burnt out it will be replaced — with such speed that the skin will be
+replaced a hundred times in one moment. Al-Ḥasan al-Baṣrī said: the fire will eat them every day seventy
+thousand times; when it has eaten them up they will be commanded, "Return," and they shall return to be as
+they were (al-Bayhaqī).
+
+**Rulings & reflection.** **[Study Quran]** The image of the skins of those in Hell being consumed
+(*naḍijat*, literally "roasted") repeatedly and indefinitely conveys the unending nature of the punishment.
+This is among a number of verses understood by some commentators as suggesting that the pleasures and
+torments of the Afterlife as described in the Qurʾān are to be taken literally rather than as metaphors for
+spiritual reward and punishment; others say "skins" refers to the garments made of pitch (14:50) that those
+in Hell will wear, replaced as they are burned up, so that the condemned can be set alight again and again.
+The constant renewal of their skins has also been understood as indicating a continuous change in the
+attributes of those in Hell without any change in their essence. **[Qurṭubī]** records that the heretics
+objected that it would be unjust to punish a skin that had not sinned, and that the answer lies in the
+verse's own statement of purpose: the skin is the instrument of sensation, and its renewal is the renewal of
+the sentence, not the punishment of an innocent part; the punishment belongs to the person whose skin it is.
+**[Jalālayn]** The close — Mighty, Wise — answers the objection at its root: the One who can create the
+skin anew each time is able to sustain the punishment, and the One who does it so wisely does not do it in
+vain.
+
+**Cross-references.** "Every time it abates, We shall increase for them the blaze" (17:97); "And those who
+disbelieve will have garments of fire cut out for them" (22:19); "The Fire will burn their faces and they
+will be grimacing therein" (23:104).
+
+## 4:57
+
+*"And those who believe and do righteous deeds, We shall admit them to Gardens beneath which rivers flow,
+abiding therein forever; therein they shall have purified spouses, and We shall admit them to plenteous
+shade."*
+
+**Meaning.** **[Jalālayn]** Those who believe and perform righteous deeds, We shall admit them to Gardens
+underneath which rivers flow, wherein they abide; they shall have therein spouses purified of menstruation
+and every impurity; and We shall admit them to plenteous shade — that is, everlasting shade, never replaced
+by any sun, and this is the shade of Paradise. **[Ibn Kathīr]** The verse sets the reward against the
+punishment of the verse before it: the gardens flow with rivers beneath them, the abiding is forever, the
+spouses are purified, and the shade is wide and ever deepening. **[Study Quran]** To believe and to perform
+righteous deeds are frequently mentioned together as the basic criteria of those who deserve Paradise (2:25;
+5:9; 7:42; 30:15; 31:8; 32:19). "With rivers running below" is one of the most common characteristics of the
+paradisal Garden, and the image of ample shade is also found in many paradisal descriptions (13:35; 36:56;
+56:30; 76:14; 77:41); a *ḥadīth* states, "There is a tree in the Garden such that one could ride in its shade
+for a hundred years without leaving it" (Ibn Kathīr, Ṭabarī). The presence in the Garden of spouses made pure
+is likewise common (2:25; 3:15), and these spouses may be the same as the maidens said to await the righteous
+there (37:48; 38:52; 44:54; 52:20; 55:56, 72; 56:22; 78:33). The commentators explain their purity as meaning
+that they are free of all suspicion, of all forms of ritual impurity, of all impure bodily fluids and waste,
+and of the reproductive functions of menstruation and pregnancy that characterize earthly women (Ibn Kathīr,
+Ṭabarī), as well as of all vileness, imperfection and sin. Other verses indicate that the righteous among
+one's earthly spouses may be reunited with them.
+
+**Reflection.** **[Study Quran]** The four gifts of the verse answer the four afflictions of the Fire: the
+fire that burns is answered by gardens with rivers; the endlessness of the torment by an abiding forever; the
+consumed skin by spouses made pure; and the burning heat by plenteous shade. The pairing is the sūrah's
+habitual method — punishment and reward set side by side, so that the reader is asked not merely to fear but
+to choose. **[Saʿdī]** The two verses together show that the great divide is not between nations or
+communities but between those who disbelieve in the signs and those who believe and act rightly; and God's
+Might and Wisdom, which the previous verse invoked for the punishment, are equally the guarantee of the
+reward.
+
+**Cross-references.** "And give good tidings to those who believe and do righteous deeds, that they shall
+have gardens beneath which rivers flow" (2:25); "And they shall have therein purified spouses, and We shall
+admit them to plenteous shade" completes the description at 13:35 — "The parable of the Garden which is
+promised to the God-fearing: rivers flow beneath it, its food is everlasting and its shade"; "In a shade
+extended" (56:30).
+
+## 4:58
+
+*"Truly God commands you to render back the trusts to their owners, and when you judge between people, to
+judge with justice. Excellent indeed is that with which God admonishes you. Truly God is Hearing, Seeing."*
+
+**Context.** **[Jalālayn]** The verse was revealed when ʿAlī, may God be pleased with him, took the key of
+the Kaʿbah from its keeper ʿUthmān b. Ṭalḥah al-Ḥajabī by force upon the arrival of the Prophet ﷺ in Mecca in
+the year of the Conquest, after ʿUthmān had tried to prevent ʿAlī from taking it, saying, "If I had known that
+he was the Messenger of God I would not have prevented him." The Messenger of God ﷺ then ordered ʿAlī to give
+it back to ʿUthmān, saying to him, "Here you are — it is yours now and always." ʿUthmān was amazed, whereupon
+ʿAlī recited this verse to him, and he accepted Islam. Upon his death ʿUthmān gave the key to his brother
+Shaybah, and thus it remained in the keeping of his descendants. Although the verse was revealed on a specific
+occasion, it holds true in general on account of the plural person to which it is addressed.
+**[Study Quran]** According to one report, this verse was revealed at the time of the conquest of Mecca: when
+the Prophet entered Mecca, he asked ʿUthmān b. Ṭalḥah for the key of the Kaʿbah, which was in his possession;
+ʿUthmān initially refused, but it was eventually taken from him. The Prophet's uncle ʿAbbās sought to become
+the new keeper of the key, since he was already in charge of providing water for the pilgrims. But when this
+verse was revealed, the key was returned to its original keeper, who, upon learning of the revelation,
+proclaimed his belief in the prophethood of Muhammad (Ibn Kathīr, Qurṭubī, Ṭabarī).
+
+**Rulings.** **[Qurṭubī]** This verse is among the mothers of the rulings, comprising all religion and law.
+The commentators differed on who is addressed: ʿAlī, Zayd b. Aslam, Shahr b. Ḥawshab and Ibn Zayd said the
+address is to the rulers of the Muslims specifically — it belongs to the Prophet ﷺ and his governors, and
+then extends to those after them; Ibn Jurayj and others said it is addressed to the Prophet ﷺ specifically in
+the matter of the key of the Kaʿbah when he took it from ʿUthmān b. Abī Ṭalḥah al-Ḥajabī.
+**[Ibn Kathīr]** The command covers all things one is expected to look after, such as God's rights over His
+servants — prayer, zakāt, fasting, the penalties for sins, vows and so forth — and the rights of people over
+one another, including what they entrust to each other in matters that are not recorded or documented. Al-
+Ḥasan narrated that Samurah said that the Messenger of God ﷺ said, "Return the trust to the one who entrusted
+you, and do not betray the one who betrayed you" (Aḥmad and the compilers of the *Sunan*). Whoever does not
+fulfill this command in this life will have it extracted from him on the Day of Resurrection; it is recorded
+in the *Ṣaḥīḥ* that the Messenger of God ﷺ said, "The rights will be rendered back to those to whom they are
+due, until even the hornless sheep will take retaliation from the horned one."
+
+**Meaning & reflection.** **[Saʿdī]** The trusts are everything a person is entrusted with and commanded to
+uphold, so God commanded His servants to render them complete and full — not diminished, not withheld, not
+delayed. This includes the trusts of office, of wealth, of secrets, and of the acts of worship that no one
+but God sees. The jurists stated that whoever is entrusted with something must preserve it in the manner
+proper to it, since it cannot be delivered except by being preserved. "To their owners" shows that the trust
+is not to be given to anyone but its owner, and his deputy stands in his place: if one hands it to other than
+its owner, he has not rendered it. "And when you judge between people, judge with justice": this includes
+judging between them in blood, property and honor, the little of it and the much, regarding the near and the
+far, the pious and the wicked, the friend and the enemy; and the justice God commands is what He legislated
+through the tongue of His Messenger of the limits and rulings — which requires knowing the justice in order
+to judge by it. And since these are beautiful, just commands, God says: "Excellent indeed is that with which
+God admonishes you. Truly God is Hearing, Seeing" — a praise of His commands and prohibitions, because they
+contain the interests of both abodes and repel their harms; for the One who legislated them is the Hearing,
+the Seeing, from whom nothing is hidden, and who knows the interests of His servants as they do not know.
+
+**Cross-references.** "And those who are faithful to their trusts and their covenant" (23:8); "Do not
+betray God and the Messenger, nor betray your trusts knowingly" (8:27); "And if you judge, judge between
+them with justice" (5:42); "God commands justice and kindness and giving to kinsfolk" (16:90).
+
+## 4:59
+
+*"O you who believe, obey God and obey the Messenger and those in authority among you. And if you differ
+about anything, refer it to God and the Messenger, if you believe in God and the Last Day. That is better and
+fairer in the end."*
+
+**Meaning.** **[Ṭabarī]** Obey God, your Lord, in what He commands and forbids you; and obey His Messenger
+Muhammad ﷺ, for your obedience to him is obedience to your Lord, since you obey him at God's command to obey
+him. Abū Hurayrah reported that the Messenger of God ﷺ said: "Whoever obeys me has obeyed God; whoever obeys
+my commander has obeyed me; whoever disobeys me has disobeyed God; and whoever disobeys my commander has
+disobeyed me." **[Jalālayn]** Obey God and obey the Messenger, and those in authority among you — that is,
+the rulers, when they command you to obey God and His Messenger. If you should quarrel about anything, refer
+it to God — that is, to His Book — and to the Messenger while he lives, and thereafter to his Sunna: examine
+these disputes by reference to these two sources, if you believe in God and the Last Day; that is better than
+quarrelling or adhering to personal opinion, and more excellent in interpretation — in the end.
+
+**Rulings.** **[Saʿdī]** God commands obedience to Himself and to His Messenger by carrying out their
+obligatory and recommended commands and avoiding their prohibitions, and He commands obedience to those in
+authority — the governors over people, of commanders, judges and *muftīs*; for people's religious and worldly
+affairs do not stand straight except by obeying and submitting to them out of obedience to God and desire for
+what is with Him. But this is on the condition that they do not command disobedience to God; for if they do,
+there is no obedience to a creature in disobedience to the Creator. **[Ibn Kathīr]** Al-Bukhārī recorded
+that Ibn ʿAbbās said the verse was revealed about ʿAbdullāh b. Ḥudhāfah b. Qays, whom the Messenger of God ﷺ
+sent on a military expedition; Aḥmad records from ʿAlī: the Messenger of God ﷺ sent a troop under the command
+of a man of the Anṣār; when they left, he became angry with them for some reason and said, "Has not the
+Messenger of God ﷺ commanded you to obey me?" They said, "Yes." He said, "Collect wood," and when they had
+collected it he started a fire and said, "I command you to enter it." The people almost entered, but a young
+man among them said, "You only fled from the Fire to God's Messenger — so do not rush until you return to
+God's Messenger, and if he commands you to enter it, then enter it." When they returned and told the Prophet
+ﷺ, he said, "Had you entered it, you would never have come out of it. Obedience is only in what is good."
+**[Study Quran]** Some interpret the command to obey God and the Messenger and those in authority as
+indicating that obedience to the Prophet is tantamount to or a means of obedience to God (cf. 4:80), and that
+obedience to those the Prophet has placed in authority is tantamount to obedience to the Prophet, as the
+ḥadīth makes clear. Most understand "obey the Messenger" as commanding obedience to the Prophet both during
+his lifetime and posthumously by following his Sunna. On those in authority: for some it refers to the
+commanders the Prophet sent on military campaigns — one report connects the verse to an incident in which
+ʿAmmār b. Yāsir granted amnesty to a man during a campaign without consulting the designated commander,
+Khālid b. al-Walīd, who was angered by this.
+
+**Rulings.** **[Maʿārif]** "Then, if you quarrel about something, revert it back to Allah and the Messenger"
+takes two forms: reverting to the code of commands as mandated in the Book of God and the Sunna of His
+Messenger; and, where the textually mandated rulings do not exist, reverting by analogical deduction
+(*qiyās*) based on their precedents. The words "revert it back" are general and thus inclusive of both forms
+— which is the proof of *ijtihād* and *qiyās*.
+
+**Reflection.** **[Saʿdī]** The order of the verse is the order of authority: God first, His Messenger
+second, and the community's leaders third, under the condition that keeps the chain sound — no obedience in
+disobedience. And the remedy for disagreement is not the assertion of a party but the return of the matter
+to its sources, which is why the verse closes by attaching the whole to faith: "if you believe in God and the
+Last Day." **[Study Quran]** The last line of the following verse implicates Satan, not God, in their having
+been led astray, and for some this serves as a refutation of the predestinarian view that God chooses to
+guide or mislead certain people.
+
+**Cross-references.** "Whoever obeys the Messenger has obeyed God" (4:80); "And obey God and the Messenger,
+that you may receive mercy" (3:132); "O you who believe, obey God and obey the Messenger and do not nullify
+your deeds" (47:33).
+
+## 4:60
+
+*"Have you not seen those who claim that they believe in what was sent down to you and what was sent down
+before you — they wish to seek judgment from false deities, though they were commanded to reject them? But
+Satan wishes to lead them far astray."*
+
+**Meaning.** **[Ṭabarī]** Have you not seen with your heart, O Muhammad, so as to know, those who claim that
+they believed in what was sent down to you of the Book and claim that they believe in what was sent down
+before you of the Books — they wish to seek judgment in their disputes from *al-ṭāghūt*, that is, from one
+they magnify and go out from his word and are content with his judgment instead of God's judgment.
+**[Jalālayn]** The verse was revealed when a Jew and a hypocrite fell into a dispute: the hypocrite called on
+Kaʿb b. al-Ashraf to arbitrate between them, while the Jew called on the Prophet ﷺ. When they came to him,
+the Prophet ruled in favour of the Jew; but the hypocrite was not satisfied, and so they went before ʿUmar.
+The Jew told him what had happened, whereupon ʿUmar turned to the hypocrite and asked him, "Is this true?"
+and when he replied, "Yes," ʿUmar killed him. These people claim to believe in what has been revealed to you
+and what was revealed before you, desiring to take their disputes to a false deity — *ṭāghūt*, one excessive
+in tempting others to falsehood, namely Kaʿb b. al-Ashraf — when they have been commanded to renounce him and
+not to associate with him; but Satan desires to mislead them far astray from the truth.
+**[Qurṭubī]** Yazīd b. Zurayʿ reported from Dāwūd b. Abī Hind from al-Shaʿbī: there was a dispute between a
+hypocrite and a Jew; the Jew called the hypocrite to the Prophet ﷺ, because he knew he would not accept a
+bribe, while the hypocrite called the Jew to their judges, because he knew they took bribes. When they
+disagreed, they agreed to appoint a soothsayer in Juhaynah as judge — whereupon God sent down this verse.
+**[Saʿdī]** God makes His servants marvel at the state of the hypocrites who claim to be believers in what
+the Messenger brought and in what came before him, and yet wish to seek judgment from *al-ṭāghūt* — which is
+everyone who judges by other than God's law — while they were commanded to reject him. How can this and faith
+coexist? Faith requires submission to God's law and making it the judge in every matter; so whoever claims
+faith and prefers the judgment of *ṭāghūt* over the judgment of God is a liar in that claim. This is part of
+Satan's leading them astray, and hence "Satan wishes to lead them far astray" — far from the truth.
+**[Ibn Kathīr]** God censures those who claim to believe in what was sent down to the Messenger ﷺ and to the
+earlier prophets, yet refer for judgment to other than the Book of God and the Sunna of His Messenger in
+their disputes.
+
+**Reflection.** **[Study Quran]** Those who seek judgment from false authorities are chastised because they
+were commanded to reject them (cf. 2:256); and the last line implicates Satan, not God, in their being led
+astray. **[Saʿdī]** The verse's edge is that the claimants confessed with their tongues the revelation of
+both Testaments, and then walked past both to a soothsayer — a reminder that the great apostasies of practice
+begin not with a denial of the Book but with a preference for a forum other than it. The following verses
+take up the excuses they will offer and the counsel the Prophet is to give them.
+
+**Cross-references.** "Whosoever rejects false deities and believes in God has grasped the firmest handhold"
+(2:256); "Do they seek the judgment of the age of ignorance? But who is better than God in judgment for a
+people who are certain?" (5:50); "And they say, 'We believe in God and the Messenger, and we obey' — then a
+party of them turns away after that; and those are not believers" (24:47).
