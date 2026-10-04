@@ -709,3 +709,47 @@
 **Stories & occasions.** Some reports identify the Prophet’s uncle al-ʿAbbās among those addressed. Al-Ṭabarī transmits his attribution of the verse to his ransom, but some versions have disputed chains *(weak report)*; this anecdote does not limit the verse’s general address. **[Ṭabarī] [Ibn Kathīr]**
 
 **Reflection.** The promise is conditional on inward good, not on ransom alone. Even an enemy in custody is addressed as someone capable of repentance, forgiveness, and a better future. **[Maʿārif] [Study Quran]**
+
+## 8:71
+
+*“If they intend to betray you, they have already betrayed God before, and He gave you power over them. God is Knowing, Wise.”*
+
+**Meaning.** This continues the address to the captives in 8:70. If they later act treacherously, they had already opposed God through their former hostility, yet God gave the believers power over them at Badr. The warning does not claim that every captive’s profession of faith is necessarily false. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Study Quran]**
+
+**Reflection.** The verse reminds the Prophet that God knows what is concealed in hearts and can protect the community if an adversary returns to hostility. **[Saʿdī] [Maʿārif]**
+
+## 8:72
+
+*“Those who believed, emigrated, and strove with their wealth and their lives in the way of God, and those who sheltered and helped—they are protectors of one another. As for those who believed but did not emigrate, you owe them no protection until they emigrate. But if they seek your help for the sake of religion, then help is a duty upon you, except against a people with whom you have a covenant. God sees what you do.”*
+
+**Context.** The first group is the Emigrants who left Mecca, and the second the Helpers of Madinah who sheltered and supported them. **[Ṭabarī] [Ibn Kathīr] [Maʿārif]**
+
+**Meaning.** *Walāyah* can refer to alliance, mutual support, protection, or inheritance; commentators differ over which sense is foremost here. The verse gives the Emigrants and Helpers a close bond, while believers who remained in Mecca did not yet share the same formal protection or alliance. But this is not abandonment: if they ask for aid on account of persecution for their religion, helping them is a duty—unless doing so would break a covenant with another people. **[Jalālayn] [Qurṭubī] [Study Quran] [Saʿdī]**
+
+**Rulings.** The verse belongs to the early Medinan setting of migration and communal protection. The explicit duty to assist, qualified by treaty obligations, prevents reading “no protection” as a cancellation of every bond or moral responsibility. **[Ṭabarī] [Maʿārif] [Study Quran]**
+
+## 8:73
+
+*“Those who disbelieve are protectors of one another. Unless you do the same, there will be strife in the land and great corruption.”*
+
+**Meaning.** In the same setting, opposing groups also support one another. The believers are warned that if they fail to sustain mutual support, the result will be *fitnah*—which commentators explain as discord, conflict, or persecution—and grave disorder. This solidarity remains subject to the covenant limit stated in 8:72. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Study Quran]**
+
+**Reflection.** The passage calls for a community capable of protecting its members without treating loyalty as permission to break a binding agreement. **[Maʿārif] [Study Quran]**
+
+## 8:74
+
+*“Those who believed, emigrated, and strove in the way of God, and those who sheltered and helped—they are the true believers. For them are forgiveness and a generous provision.”*
+
+**Meaning.** The Emigrants and Helpers are praised for making faith visible through sacrifice, migration, shelter, and aid. God promises them forgiveness and generous provision in the Hereafter. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Saʿdī] [Study Quran]**
+
+**Reflection.** The verse honors these early believers without making material status the measure of faith; their distinction lies in the service and trust expressed through their actions. **[Maʿārif] [Study Quran]**
+
+## 8:75
+
+*“Those who believed afterward, emigrated, and strove with you—they are of you. And blood relatives are nearer to one another in the Book of God. Truly God knows all things.”*
+
+**Meaning.** Muslims who believed and migrated later are included in the community of the Emigrants and Helpers. Kinship, however, establishes the closer claim in inheritance under God’s law. **[Ṭabarī] [Jalālayn] [Ibn Kathīr] [Maʿārif]**
+
+**Rulings.** Many commentators understand this as ending the early arrangement by which the Emigrants and Helpers could inherit from one another through their bond of brotherhood, restoring priority to blood relatives. Others hold that *walāyah* in the earlier verses meant support or protection rather than inheritance, and therefore see no abrogation of that bond. **[Qurṭubī] [Study Quran]**
+
+**Reflection.** The verse welcomes later generations into the community while placing social bonds within the order of rights established by God. **[Saʿdī]**
