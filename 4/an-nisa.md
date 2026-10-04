@@ -7508,3 +7508,489 @@ gathering they chose in the world: the company a man keeps is the shape of his e
 they engage in some other talk" (6:68); "And do not incline to those who do wrong, lest the Fire touch you"
 (11:113); "And it has already been revealed to you that when you hear the signs of God being disbelieved in and
 mocked, do not sit with them" (4:140); "Truly the hypocrites are in the lowest depth of the Fire" (4:145).
+## 4:141
+
+*"Those who wait and watch over you: if a victory comes to you from God, they say, 'Were we not with you?'
+But if the disbelievers have a share, they say, 'Did we not gain the upper hand over you and defend you from
+the believers?' God will judge between you on the Day of Resurrection; and God will never give the disbelievers
+a way against the believers."*
+
+**Meaning.** **[Ṭabarī]** Those who wait, O believers, for what will befall you: if God grants you a victory
+over your enemy and gives you spoil from them, they say, "Were we not with you?" — seeking a share of the booty
+by that claim — "but if the disbelievers have a share," a portion of victory and booty over you, as occurred at
+Uḥud, they say to them, "Did we not gain the upper hand over you?" — did we not have mastery over you, being
+able to take you and kill you, and did we not spare you and defend you from the believers by informing you of
+their plans and weakening their resolve? God will judge between you and them on the Day of Resurrection,
+admitting you into Paradise and them into the Fire; and God will never give the disbelievers a way over the
+believers — that is, a means by which they should annihilate them and uproot the religion. **[Jalālayn]** Those
+wait in watch for you, hoping for misfortunes to befall you; and if a victory such as a conquest or booty comes
+to you from God, they say to you, "Were we not with you?" in religion and in the struggle — so give us from the
+booty; but if the disbelievers have some luck by gaining a victory over you, they say to them, "Did we not gain
+mastery over you, capable of capturing you and slaying you, but we spared you, and did we not defend you against
+the believers?" — lest they be victorious over you by forsaking them and apprising you of their plans; and thus
+have we not done you a favour? God will judge between you and them on the Day of Resurrection, admitting you
+into Paradise and them into the Fire; and God will never grant the disbelievers a way — a means of success over
+the believers by annihilating them. **[Ibn Kathīr]** The hypocrites watch and await the harm that occurs to the
+believers, awaiting the time when the Muslim circumstances and the religion are dissolved and the state of
+disbelief takes over. "If you gain a victory from Allah" — triumph, aid and booty — "they say, 'Were we not with
+you?'" trying to come closer to the believers with this statement. "But if the disbelievers gain a success" by
+gaining victory over the believers sometimes, just as occurred at Uḥud — for surely the messengers are tested,
+but the final victory is theirs — "they say: Did we not gain mastery over you and did we not protect you from the
+believers?" meaning, did we not help you in secret and try our best to confuse the believers and weaken their
+resolve? **[Study Quran]** The hypocrites reveal their hypocrisy, in large part, through their reluctance to
+join the Muslims in their battles against the disbelievers and in their desire to share in the benefits of
+Muslim victories while avoiding the negative consequences of possible defeat (cf. vv. 72–73); in v. 139 a
+similar concern with self-preservation moves them to seek alliances of protection with those outside the Muslim
+community. The present verse, however, suggests not only that they are reluctant to assume the risks of battle,
+but that they are, in fact, in communication with the Muslims' enemies: when the Muslims are victorious, the
+hypocrites say to them, "Were we not with you?" in order to claim a share of the spoils (Ṭabarī); but when the
+Muslims are defeated, they approach the Muslims' enemies to claim that it was their own treacherous failure to
+join the battle that had helped undermine the Muslim effort, thus aiding the disbelievers, saying, "Did we not
+protect you from the believers?"
+
+**Rulings & reflection.** **[Saʿdī]** Then God mentioned the realization of the hypocrites' alliance with the
+disbelievers and their enmity to the believers: "Those who wait upon you" — who await your misfortunes. And the
+verse's last clause is a great promise: the disbelievers may gain a turn, but no final way over the believers —
+and Ibn Kathīr notes that the messengers are tested, but the final victory is theirs. **[Qurṭubī]** The verse
+also exposes the hypocrisy of those who claimed loyalty where they had none: their speech to the two sides is
+contradictory, and the contradiction itself is the evidence. **[Ṭabarī]** "God will judge between you on the
+Day of Resurrection" — the matter deferred in this world is not abandoned, and the two faces shown to the two
+parties will be sorted into one.
+
+**Cross-references.** "Among you are those who hang back" (4:72); "If a good befalls you it grieves them, and if
+an evil befalls you they say, 'We had taken our precaution beforehand'" (9:50); "And never will God grant the
+disbelievers a way over the believers" (4:141); "And God will judge with truth" (40:20).
+
+## 4:142
+
+*"Truly the hypocrites seek to deceive God, but it is He who deceives them. And when they stand for prayer, they
+stand lazily, showing off to people, and they remember God but little."*
+
+**Meaning.** **[Ṭabarī]** The meaning of the hypocrites' deception of their Lord, and the manner of God's
+deceiving them, has been explained before, with the differences of those who differed about it. In sum: the
+hypocrites deceive God by preserving, through their hypocrisy, their lives and their wealth — for God's rule
+concerning them is that their lives are protected by the faith they display with their tongues, though He knows
+what their consciences conceal of disbelief — and God deceives them by that very protection: He leaves them in
+their state, so that they go on thinking their deception has succeeded, until the Day when He exposes them.
+"And when they stand for prayer, they stand lazily": they pray as those who show off, heavy and reluctant,
+hoping for no reward and believing in no punishment for abandoning it. "And they remember God but little" —
+their remembrance is little at the time of showing off and at the time of fear. **[Jalālayn]** The hypocrites
+seek to trick God by manifesting the opposite of what they hide in themselves of unbelief, in order to escape
+His rulings in this world; but He is tricking them — He will requite them for their trickery, and so they will
+be disgraced in this world through God apprising His Prophet of what they hide, and punished in the Hereafter.
+When they stand up to pray with the believers, they stand up lazily, reluctantly, and for their prayers to be
+seen by people, and they do not remember — do not pray to — God save a little, for ostentation.
+**[Qurṭubī]** The deception on God's part is His requital of them for their deceiving His friends and His
+messengers; al-Ḥasan said: every person, believer and hypocrite, will be given a light on the Day of
+Resurrection; the hypocrites will be delighted and think they are saved, but when they come to the bridge, the
+light of every hypocrite will be extinguished — and that is their saying, "Wait for us, that we may borrow from
+your light" (57:13). **[Qurṭubī]** In the *Ṣaḥīḥ* of the *ḥadīth*: "The heaviest prayer upon the hypocrites is
+the night prayer (*ʿatamah*) and the dawn prayer" — for the night prayer comes when the work of the day has
+tired them, so standing for it is heavy upon them; and the dawn prayer comes when sleep is dearer to them than
+anything joyful, and were it not for the sword they would not stand. And the Prophet ﷺ, censuring those who
+delay the prayer, said: "That is the prayer of the hypocrites" — three times — "one of them sits watching the
+sun until it is between the horns of Satan, then he stands and pecks out four, in which he remembers God but
+little" (recorded by Mālik and others).
+
+**Rulings & reflection.** **[Saʿdī]** God informed of the hypocrites' ugly characteristics: their way is
+deceiving God — by what they show of faith and conceal of disbelief — thinking that this will pass with God and
+that He will not know it or expose it to His servants; while in fact God is their deceiver, for the mere
+existence of this state in them and their continuing in it is deception of themselves — and what deception is
+greater than one who strives in a striving that returns upon him with humiliation, abasement and deprivation,
+and indicates by itself the deficiency of his intellect, in that he joined disobedience with seeing it as good
+and thinking it clever? And of God's deceiving them on the Day of Resurrection is what He mentioned: "On the Day
+when the hypocrite men and hypocrite women will say to those who believe, 'Wait for us, that we may borrow from
+your light.' It will be said, 'Go back behind you and seek a light'" (57:13). And of their qualities: when they
+stand for prayer — the greatest of the practical acts of obedience — they stand lazy, heavy for it and averse to
+doing it; and laziness comes only from the absence of desire in their hearts — for were their hearts not empty
+of desire for God and what is with Him, and devoid of faith, this laziness would not issue from them. "Showing
+off to people": this is what their consciences conceal, and this is the source of their deeds — the showing off
+of people, aiming at being seen and honoured and respected by them, not being sincere to God; and therefore
+"they do not remember God save a little," because their hearts are full of showing off — for the remembrance of
+God and constancy in it comes only from a believer whose heart is full of the love and greatness of God.
+**[Maʿārif]** Maulānā Ashraf ʿAlī Thānavī, in *Bayān al-Qurʾān*, said that the laziness censured here is
+doctrinal laziness — slothfulness toward the observance of the articles of faith due to lack of true conviction;
+laziness that exists despite correct beliefs stands excluded from this censure, and laziness due to an excuse,
+such as sickness, fatigue or sleepiness, is not even blameworthy — but when without excuse, it is.
+**[Study Quran]** Cf. 2:9, where the hypocrites seek to deceive others but deceive only themselves; here it is
+God who deceives them, in that He allows them to be protected by their hypocritical claims of belief in this
+life (Ṭabarī, al-Zamakhsharī). This leads them to assume, incorrectly, that their hypocrisy has gone undetected
+and that they will not be punished. Al-Suddī and other early commentators read this verse in connection with
+57:13: on the Day when the hypocrite men and women will say to those who believe, "Wait for us that we may borrow
+from your light," it will be said, "Turn back and seek a light!" — and thereupon a wall with a gate will be set
+down between them. They thus assert that on the Day of Resurrection the hypocrites will be given a light with
+which they will walk with the Muslims, just as they did in the life of the world, but then it will be suddenly
+snatched away from them and extinguished, and they will be left in darkness (Ṭabarī, al-Zamakhsharī). Their
+prayer is done idly, that is, without sincerity or the proper intention.
+
+**Cross-references.** "They seek to deceive God and those who believe, but they deceive only themselves"
+(2:9); "On the Day when the hypocrite men and women will say to those who believe, 'Wait for us, that we may
+borrow from your light'" (57:13); "So woe to those who pray, yet are heedless of their prayer, those who make a
+show" (107:4–6); "Verily the heaviest prayer upon the hypocrites is the night prayer and the dawn prayer"
+(*Ṣaḥīḥ*).
+
+## 4:143
+
+*"Wavering between that and this, belonging neither to these nor to those; and whom God leads astray, you will
+never find a way for him."*
+
+**Meaning.** **[Ṭabarī]** *Mudhabdhabīn* means "tossed to and fro": the root of *tadhabdhub* is movement and
+agitation. What God means is that the hypocrites are bewildered in their religion, not settling upon the belief
+of anything with soundness: they are not with the believers on insight, nor with the associators on ignorance,
+but perplexed between the two. **[Jalālayn]** Wavering, hesitant, all the time between that disbelief and
+belief — not belonging to these disbelievers nor to those believers; and he whom God sends astray, you will never
+find for him a way back to guidance. **[Ibn Kathīr]** The hypocrites sway between faith and disbelief, belonging
+neither to these nor to those; and he whom God sends astray, you will not find for him a way. **[Study Quran]**
+According to al-Zamakhsharī, the hypocrites waver between this and that — between faith and unbelief — under the
+influence of Satan and their own passions. However, the next line asserts the idea that it is God who leads
+certain people astray, and when He does so, they are helpless (see 2:7). For such persons, the Qurʾān says, there
+is no way, no guide (7:186; 13:33; 39:23, 36; 40:33), and no protector (18:17). The Muʿtazilites generally
+interpreted such misguidance on God's part as the withdrawal of His divine favor and guidance as a punishment
+for disobedience; the Ashʿarites also held that God may simply choose to mislead certain people (al-Rāzī). Some
+also asserted that verses such as this refer to God's leading astray in the Hereafter those whose worldly
+actions had condemned them (al-Rāzī). The many passages in this sūrah and elsewhere that criticize the
+hypocrites led al-Rāzī to assert that hypocrisy was a more evil state even than disbelief — a sentiment in the
+same vein as the statement in Revelation 3:16, "Because you are lukewarm, and neither cold nor hot, I will spit
+you out of my mouth."
+
+**Ḥadīth & āthar.** **[Ṭabarī]** Ibn ʿUmar, from the Prophet ﷺ: "The hypocrite is like a sheep wandering
+between two flocks, turning to this one once and to that one once, not knowing which of the two it should
+follow" — recorded by Muslim without the final clause, and by Aḥmad with slight variations. **[Qurṭubī]** The
+word *al-mudhabdhab* means one tossed between two things, and *al-dhabdhabah* is agitation; from it the poet's
+line: "Have you not seen that God has given you a rank before which every king tosses to and fro?" **[Ibn Kathīr]**
+And Ibn Janī said: the waverer is the one who shakes and is restless, not remaining firm and not at rest.
+
+**Reflection.** **[Ṭabarī]** The Prophet's parable of the sheep gives the verse its picture: the waverer is not
+a man who has decided wrongly but a man who has never decided, and his punishment is that his motion is endless
+and his destination unknown. **[Study Quran]** Al-Rāzī's judgment follows from this: hypocrisy is worse than
+disbelief because the disbeliever has a position, while the hypocrite has none — and the "way" he is denied is
+denied precisely because he never wanted one.
+
+**Cross-references.** "And he whom God sends astray — you will never find a way for him" (4:143); "Whomsoever
+God leads astray has no guide" (7:186); "He whom God sends astray — you will never find for him a protector"
+(18:17); "So what is the matter with you that you are two parties concerning the hypocrites?" (4:88).
+
+## 4:144
+
+*"O you who believe, do not take the disbelievers as protectors instead of the believers; do you wish to give God
+a clear warrant against you?"*
+
+**Meaning.** **[Ṭabarī]** This is God's prohibition to His believing servants, that they should not take on the
+character of the hypocrites who take the disbelievers as protectors instead of the believers, so that they become
+like them in committing what He has forbidden them of allying with His enemies. And He says to them, threatening
+those who take the disbelievers as protectors instead of the believers: do you want to make for God against
+yourselves a manifest warrant — a clear proof and an argument — by which He may punish you, in that He commanded
+you to do something and forbade you from something, and you did what He forbade? **[Jalālayn]** O you who
+believe, take not the disbelievers as friends instead of the believers; do you desire to give God over you by
+your taking them as friends a clear warrant — a manifest proof of your hypocrisy? **[Ibn Kathīr]** God forbids
+His believing servants from taking the disbelievers as friends instead of the believers; this includes being
+friends and associates of the disbelievers, advising them, being intimate with them and exposing the secrets of
+the believers to them. In another verse God said, "Let not the believers take the disbelievers as friends
+instead of the believers, and whoever does that will never be helped by God in any way, except if you indeed fear
+a danger from them; and God warns you against Himself" (3:28).
+
+**Rulings & reflection.** **[Saʿdī]** When God mentioned that it is among the characteristics of the hypocrites
+to take the disbelievers as protectors instead of the believers, He prohibited His believing servants from being
+described by this ugly state and from resembling the hypocrites, for that makes "for God against you a manifest
+warrant" — that is, a clear proof for your punishment, for He has warned us and cautioned us against it and
+informed us of the corruptions in it; so walking in it after this warrants punishment. And in this verse is a
+proof of the perfection of God's justice, and that God does not punish anyone before the proof has been
+established against him; and in it is a warning against disobedience, for the one who does it makes for God
+against himself a manifest warrant. **[Qurṭubī]** "Do not take the disbelievers as protectors" has two objects:
+do not make your close ones and your confidants from among them. "A manifest warrant"—that is, in His punishing
+you by the argument He establishes against you, since He has forbidden you. **[Study Quran]** This verse repeats
+the criticism of those who would seek protectors outside the believing community; see 4:139 and its commentary.
+
+**Cross-references.** "Let not the believers take the disbelievers as protectors instead of the believers"
+(3:28); "Whoever takes them as protectors — he is one of them" (5:51); "And whoever takes Satan as a protector
+instead of God has surely suffered a manifest loss" (4:119); "And whoever takes God as a protector — God will
+suffice him" (4:45).
+
+## 4:145
+
+*"Truly the hypocrites will be in the lowest depth of the Fire; and you will never find for them a helper."*
+
+**Meaning.** **[Ṭabarī]** The hypocrites are in the lowest layer of the layers of Hell — "depth" (*darak*)
+being each layer of the layers of Hell, and there are two dialects of the word, *darak* with the *rāʾ* opened
+and *dark* with it silent; and *naṣīr*, helper, meaning no one who will help them. **[Jalālayn]** Verily the
+hypocrites will be in the lowest level — place — of the Fire, that is, its bottom; and you will never find a
+helper for them, anyone to guard them from the Fire. **[Qurṭubī]** The Fire has seven *darakāt*, that is, layers
+and stations; the usage of the Arabs is that whatever descends is *adrāk* and whatever ascends is *daraj*: for
+Paradise there are *daraj*, and for the Fire *adrāk*. **[Saʿdī]** God informed of the end of the hypocrites:
+they are in the lowest of the depths of punishment and the worst of states — they are beneath all the
+disbelievers, because they shared with them in disbelief in God and enmity to His messengers, and they added to
+that plotting, deception, and the ability to practice many kinds of enmity toward the believers in a manner that
+is not sensed or felt, and they arranged thereby the operation of the rulings of Islam over them and their
+deserving what they do not deserve; so by this and the like they deserved the severest punishment, and they have
+no deliverer from His punishment and no helper to repel any of it from them.
+
+**Rulings & reflection.** **[Study Quran]** This verse supports the idea that hypocrisy is among the worst of
+human moral conditions, perhaps even worse than disbelief, since hypocrites are said to be in the lowest depths
+of the Fire. Some commentators argue that hypocrisy is indeed worse than disbelief, since it compounds a lack of
+belief with belittling Islam and deceiving the believers (al-Bayḍāwī, al-Rāzī, al-Zamakhsharī). Moreover, their
+deceit allows them to act as spies for the disbelievers, compromising the Muslim cause from within and betraying
+the secrets of the Muslims to their enemies (al-Rāzī; see v. 141). **[Maʿārif]** The purpose in the previous
+verses was to point out some ugly traits of the hypocrites, though their punishment of being in Hell with the
+disbelievers was also mentioned as a corollary to another subject; from this stage onwards, the purpose is to
+state their punishment clearly. And since the inherent effect of such impending punishment generates a sense of
+fear in a good-natured person which usually becomes the reason for early repentance, exemption from punishment
+has been promised to those who repent, along with the incentive of good reward for them.
+
+**Cross-references.** "The Fire is their abode, and no helper will they find" (3:151); "And for the wrongdoers
+there is no helper" (42:8); "Indeed, the hypocrites are the transgressors" (9:67 per meaning); "Whom God leads
+astray has no helper" (4:52).
+
+## 4:146
+
+*"Except those who repent and make amends, and hold fast to God, and make their religion sincere for God — such
+will be with the believers; and God will grant the believers a great reward."*
+
+**Meaning.** **[Ṭabarī]** This is God's exception, excepting those who repent of their hypocrisy when they make
+amends, make their religion sincere for God alone, disavow the idols and rivals, and affirm His Messenger — that
+they should be with the believers in the Hereafter, not with those who persist in their hypocrisy until their
+deaths overtake them. **[Jalālayn]** Save those who repent of hypocrisy and make amends in their deeds, and hold
+fast — put their trust in — God, and make their religion purely God's, free from any pretence: those are with
+the believers in terms of what they shall be given; and God will certainly give the believers a great wage in the
+Hereafter, and that is Paradise. **[Qurṭubī]** The exception is from those who practice hypocrisy; and the
+condition of the one who repents of hypocrisy is that he make amends in his speech and his deed, hold fast to God
+— making Him his refuge and asylum — and make his religion sincere for God, as this verse states; otherwise he is
+not a repentant. Hence God placed the reward of the believers in the future tense because of the joining of the
+hypocrites to them. **[Saʿdī]** This is general for every hypocrite, except those on whom God has bestowed the
+grace of repentance from the evil deeds: "and make amends" — for their outward and inward lives; "and hold fast
+to God" — resorting to Him in bringing their benefits and repelling harms from them; "and make their religion
+sincere for God" — which is Islam, faith and virtue — so that they aim at God's face in their outward and inward
+deeds and are free of showing off and hypocrisy. Whoever is described by these qualities, "those are with the
+believers" — in the world, the interworld and the Day of Resurrection; "and God will give the believers a great
+reward" whose nature none knows but God, of what no eye has seen, no ear has heard and has not occurred to the
+heart of man.
+
+**Rulings.** **[Study Quran]** Even for hypocrites, the door to divine forgiveness remains open for those who
+repent of their hypocrisy and come sincerely to believe in God, His Messenger and the Qurʾān. They must also make
+amends by performing righteous acts and following the commands and prohibitions of the religion, and hold fast to
+God — that is, to the covenant with God that all human beings have undertaken, according to the Qurʾān, to
+recognize His Lordship (see 7:172). Finally they are required to devote their religion entirely to God, that is,
+to do all of these things for God and not for any other purpose, hoping for His reward and fearing His
+punishment, and through a desire to draw near to Him, seeking His Face (see 2:272; 13:22; 92:20) or His good
+pleasure (2:207, 265; 4:114). The explicit requirement that former hypocrites devote their religion entirely to
+God is necessary, according to al-Ṭabrisī, because hypocrisy is a sin of the heart, and so full repentance from
+it requires a repentance of the heart, for which merely changing one's outward actions is not enough. For those
+who truly repent in this way, they will be with the believers and receive their reward. **[Qurṭubī]** Al-Bukhārī
+recorded from al-Aswad: we were in the circle of ʿAbdullāh when Ḥudhayfah came and stood over us, greeted us and
+said, "Hypocrisy has descended upon a people better than you." Al-Aswad said, "Glory be to God! God says, 'The
+hypocrites are in the lowest depth of the Fire.'" ʿAbdullāh smiled, and Ḥudhayfah sat in a corner of the mosque;
+then ʿAbdullāh rose and his companions dispersed and pelted me with pebbles, so I came to him. Ḥudhayfah said, "I
+wondered at his laughing when he knew what I said: hypocrisy descended upon a people better than you, then they
+repented, and God accepted their repentance." **[Maʿārif]** The words "they made their religion sincere for God"
+show that a deed, in order to be acceptable with God, has to be free of hypocrisy and exclusively for His sake
+and pleasure.
+
+**Reflection.** **[Saʿdī]** Note how God singled out holding fast and sincerity for mention even though they
+fall under "make amends," because of the intensity of the need for them, especially in this critical station in
+which hypocrisy has taken hold of the hearts — and nothing removes it but intense holding fast to God and
+continual recourse and need of Him to repel it; and because sincerity is the utter opposite of hypocrisy. And
+note that when God mentioned that these are with the believers, He did not say "and God will give them a great
+reward," but "God will give the believers a great reward" — that is, the mention of the believers' reward covers
+the repentant by their joining them, and honors the believers with the statement. **[Qurṭubī]** And al-Farrāʾ
+said the meaning of "those are with the believers" is "those are of the believers"; al-Qutabī said He turned
+aside from calling them believers out of anger at them, so He said "with the believers" and did not say "they are
+the believers."
+
+**Cross-references.** "But indeed, I am the Perpetual Forgiver of whoever repents and believes and does
+righteousness and then is guided" (20:82); "And those who repent and do righteous deeds — those will enter
+Paradise" (19:60); "Turn to God in repentance, all of you, O believers, that you may succeed" (24:31); "Say: O My
+servants who have transgressed against their own souls, do not despair of the mercy of God" (39:53).
+
+## 4:147
+
+*"What would God do with your punishment if you are thankful and believe? And God is ever Thankful, Knowing."*
+
+**Meaning.** **[Ṭabarī]** What would God do with your punishment, O hypocrites, if you repented to God, returned
+to the right incumbent on you, gave thanks to Him for what He has bestowed on you of blessings in yourselves,
+your families and your children — by turning to His oneness, holding fast to Him, and making your deeds sincere
+for His face, leaving the showing off of people — and believed in His Messenger Muhammad, affirming him and
+acknowledging and acting upon what came to you from Him? God has no need to place you in the lowest depth of the
+Fire if you turn back to His obedience. "And God is ever Thankful" — of the deeds of the believers, rewarding
+them — "Knowing" of His creation, and of who merits reward and who punishment. **[Jalālayn]** Why would God
+chastise you if you are thankful of His favours and believe in Him? The interrogative is meant as a denial — in
+other words, He would not punish you. God is ever Thankful of the deeds of believers, rewarding them, Knowing of
+His creation. **[Qurṭubī]** The question is one of affirmation (*taqrīr*) to the hypocrites: the meaning is,
+what benefit would there be for Him in your punishment, if you gave thanks and believed? God alerted them that
+He does not punish the grateful believer, and that His punishing His servants adds nothing to His dominion, and
+His leaving them unpunished for their deed diminishes nothing of His authority. Makḥūl said: four things belong
+to whoever has them, and three things are against whoever has them. The four that belong to him are: thanks,
+faith, supplication and seeking forgiveness — God said, "What would God do with your punishment if you are
+thankful and believe?" and He said, "Call upon Me, I will answer you" (40:60), and He said, "And God would not
+punish them while they seek forgiveness" (8:33). **[Saʿdī]** Then: "that God may recompense those who believe
+and do righteous deeds from His bounty" — that is, He gives them the reward of the grateful and believing. And
+"God is ever Thankful, Knowing" — He gives thanks for the smallest deed and knows the innermost secret.
+**[Study Quran]** In Arabic there is a semantic connection between repentance and forgiveness, both of which can
+be signified by the verb *tāba*, which literally means "to return"; repentance and forgiveness represent a mutual
+turning between two parties toward each other. The previous verse set out the conditions for the true repentance
+of the hypocrite, and in this verse there is a divine relenting or turning away from the threatened punishment of
+the hypocrite. Also here a similar semantic reciprocity exists between the repentant hypocrite's act of "giving
+thanks" (*shakara*) and the Divine Attribute "Thankful" (*Shākir*), literally "the Thankful One," both derived
+from the same root. The audible reciprocity in the Arabic conveys a tone of mutual relenting and reconciliation
+after the dire warnings to the hypocrites in vv. 137–45.
+
+**Reflection.** **[Ṭabarī]** The question is the deepest possible answer to the threatened punishment: God does
+not punish out of need; punishment has no benefit for Him and no harm comes to Him from pardon — so the whole
+question of the servant's fate turns on the servant's own turning, and the verse opens the door after the door
+had seemed shut. **[Saʿdī]** Gratitude and faith are named together because they are the two wings of the
+servant's ascent: thanks for what is given and faith in the Giver — and where these are, there is no room left
+for the punishment that was threatened.
+
+**Cross-references.** "If you are ungrateful, then God is free of need of you" (39:7); "And God would not punish
+them while you are among them, and God would not punish them while they seek forgiveness" (8:33); "And
+recompense those who believe and do righteous deeds from His bounty" (4:147 per meaning); "God gives thanks for
+the deeds of the believers and increases them" (35:30 per meaning).
+
+## 4:148
+
+*"God does not love the open utterance of evil words, except by one who has been wronged; and God is ever
+Hearing, Knowing."*
+
+**Meaning.** **[Ṭabarī]** The reciters differed over the reading: the majority of the reciters of the regions
+read it with *ẓulim* (*ẓāʾ* with a *ḍammah*), and some read it with *ẓalam*. Then those who read it with *ẓāʾ*
+unvoweled as *ẓulim* differed over its interpretation: some said it means God does not love that any of us should
+openly invoke against another — that is, "the open utterance of evil" — except one who has been wronged: he may
+invoke God against the one who wronged him, and God does not dislike that for him, since He has permitted it to
+him. **[Jalālayn]** God does not like the utterance of evil words out loud by any person — that is to say, He
+will punish him for it — unless a person has been wronged, in which case He will not punish him for uttering it
+aloud when he is informing others of the wrong done to him by the wrongdoer or summoning them against him. God
+is ever Hearer of what is said, Knower of what is done. **[Qurṭubī]** "God does not love the open utterance of
+evil" completes the sentence; then "except by one who has been wronged" is an exception — that is, but one who
+has been wronged may say, "Such a one wronged me." **[Ibn Kathīr]** ʿAlī b. Abī Ṭalḥah said that Ibn ʿAbbās
+commented on the verse: God does not like that anyone should invoke Him against anyone else, unless one was
+wronged; in this case God allows one to invoke Him against whoever wronged him; yet it is better for one if he
+observes patience. Al-Ḥasan al-Baṣrī commented, "One should not invoke God for curses against whoever wronged
+him; rather, he should supplicate, 'O God, help me against him and take my right from him.'" And ʿAbd al-Karīm b.
+Mālik al-Jazarī said, "When a man curses you, you could curse him in retaliation; but if he lies about you, you
+may not lie about him." **[Saʿdī]** God informs that He does not love the open utterance of evil words — that is,
+He hates it and detests it and punishes for it; and this includes all bad words that offend and sadden, such as
+insult, slander, cursing and the like, for all of that is of the forbidden which God hates; and the implication
+of the wording is that He loves the good word, such as remembrance and kind and gentle speech. But as for "except
+one who has been wronged": he may invoke against the one who wronged him and complain of him and speak openly of
+the evil done to him — without lying about him, without exceeding the measure of the wrong, and without
+transgressing by cursing someone other than the one who wronged him; and with all that, his pardon and not
+retaliating is better, as God said, "So whoever pardons and makes peace — his reward is with God" (42:40).
+
+**Rulings.** **[Study Quran]** Given that this verse follows upon a discussion of the repentance of hypocrites,
+some say that the evil that should not be spoken of openly is the former hypocrisy of the repentant hypocrite:
+once hypocrites have repented, they should no longer be vilified or reminded of their previous hypocrisy
+(al-Rāzī). The verse also has a general application, for it reflects the principle in Islamic ethics that one
+should conceal the faults of others or even one's own, except, of course, when one is called upon to witness to a
+particular act (see v. 135). Evil should not be spoken of openly, so that the moral dignity of the individual and
+the wider community may be maintained. Al-Rāzī gives as the occasion for the revelation of this verse an incident
+in which Abū Bakr was verbally abused in a gathering with the Prophet present. Abū Bakr remained quiet for a
+while and then began to refute the man's claims; as he did this, the Prophet rose to leave. Abū Bakr asked the
+Prophet why he sat through the man's abuse of him, but left when Abū Bakr responded. The Prophet responded:
+"Verily an angel was answering on your behalf, but when you responded to him, the angel left and Satan came in,
+and I do not remain in a gathering once Satan comes." **[Maʿārif]** This verse and the next give a law to
+eradicate injustice and oppression from the world — but not like the usual worldly laws limited to dictatorial
+formulations; this is the kind of law which tries a combination of persuasion and awe, whereby, on the one hand,
+the victim of injustice has been permitted to protest against the perpetrator of injustice or to go to a court of
+law to seek redress — the basic demand of justice and a source of the eradication of crimes — while along with
+this option there is a restriction, as mentioned in Sūrat al-Naḥl: "And if you punish, punish with the like of
+what you were punished with; but if you are patient, it is better for the patient" (16:126). **[Ibn Kathīr]**
+And God then closed: "And God is ever Hearing, Knowing" — hearing the words of the wronged and the wrongdoer,
+knowing the intentions of both.
+
+**Reflection.** **[Saʿdī]** The verse measures speech by the scale of love: God does not love the open
+utterance of evil — and where God's love is not, the tongue's liberty becomes a peril. The permission granted to
+the wronged is a mercy, not a license: it is bounded by truth, by measure and by the person of the wrongdoer, and
+the better path remains pardon. **[Study Quran]** And the closing attributes are the reminder that no utterance
+is private: the One who hears and knows has heard the wrong, has heard the complaint, and has heard the abuse.
+
+**Cross-references.** "And if you punish, punish with the like of what you were punished with; but if you are
+patient, it is better for the patient" (16:126); "So whoever pardons and makes peace — his reward is with God"
+(42:40); "And let not the hatred of a people cause you to be unjust" (5:8); "God does not love the utterance of
+evil openly" (4:148).
+
+## 4:149
+
+*"If you display a good deed or conceal it, or pardon an evil — then surely God is ever Pardoning, Powerful."*
+
+**Meaning.** **[Ṭabarī]** If you display good, O people — that is, if you speak kindly to one who has done you
+good, showing it in gratitude for his kindness — "or conceal it" — or leave off displaying it and do not reveal
+it — "or pardon an evil" — or overlook one who has done you evil and not openly utter against him the evil word
+which I permitted you — then God is ever Pardoning of your sins, Powerful over requiting you and him.
+**[Jalālayn]** If you show manifest good in the way of pious deeds, or conceal it, if you do it in secret, or
+pardon evil, injustice — then surely God is ever Pardoning, Powerful. **[Qurṭubī]** He who shows a good deed
+openly may be free of showing off if his aim is the encouragement of others; and the pardon of an evil is
+attached to the divine names because the pardon of one who has power over the one who wronged him is the nobler
+thing. **[Saʿdī]** "If you display good or conceal it": this includes every good, in word and deed, outward and
+inward, obligatory and recommended. "Or pardon an evil" — from one who has wronged you in your body, your
+wealth or your honor, and you overlook him; for the recompense is of the same kind as the deed: whoever pardons
+for God's sake, God pardons him; and whoever does good, God does good to him. Hence: "surely God is ever
+Pardoning, Powerful" — He pardons the slips of His servants and their great sins, drawing over them His veil,
+then treats them with His complete pardon, issuing from His power. And in this verse there is a guidance to
+understanding the meanings of God's names and attributes, and that creation and command issue from them and are
+required by them — and hence the rulings are explained by the beautiful names, as in this verse.
+
+**Reflection.** **[Study Quran]** After allowing one to speak openly of the wrong one has suffered at the hands
+of another, the Qurʾān now urges one to pardon an evil that one has suffered and reminds readers that Pardoning
+is a Divine Attribute that one should seek to emulate (al-Zamakhsharī). In this verse God is described as both
+Pardoning and Powerful: to pardon when one has the power to retaliate is the nobler moral option than pardoning
+when one has no such power, and to pardon from a position of power approximates the divine attributes mentioned
+here. **[Ṭabarī]** The pairing of the two names is the argument of the verse: the one who owns power and pardon
+asks His servants to imitate the order that governs His own dealings with them. **[Saʿdī]** And of the verse's
+teaching: the display of a good deed is permitted where it encourages, and its concealment is better where it
+would be tainted; but the pardoning of an evil is always an ascent toward the attributes of the Pardoner.
+
+**Cross-references.** "So whoever pardons and makes peace — his reward is with God" (42:40); "But whoever is
+patient and forgives — that is indeed of the matters requiring resolve" (42:43); "And let them pardon and
+overlook; do you not love that God should forgive you?" (24:22); "And God is ever Pardoning, Powerful" (4:149).
+
+## 4:150
+
+*"Truly those who disbelieve in God and His messengers, and seek to make a distinction between God and His
+messengers, and say, 'We believe in some and disbelieve in others,' and seek to take a way in between —"*
+
+**Meaning.** **[Ṭabarī]** Those who disbelieve in God and His messengers — of the Jews and the Christians — and
+seek to make a distinction between God and His messengers by denying the messengers of God whom He sent to His
+creation with His revelation, and claiming that they fabricated against their Lord: that is the meaning of their
+"seeking to make a distinction." "And they say, 'We believe in some and disbelieve in others'": we affirm some of
+the messengers and deny others. "And seek to take a way in between": they seek a path between faith and
+disbelief, thinking that they will be saved by it. **[Jalālayn]** Those who disbelieve in God and His messengers
+and seek to divide between God and His messengers, by believing in Him but not in them, and say, "We believe in
+some of the messengers and disbelieve in some" of the others, and seek to adopt a way — a path to follow —
+between them, between unbelief and belief. **[Ibn Kathīr]** God threatens those who disbelieve in Him and in His
+messengers, such as the Jews and Christians, who differentiate between God and His messengers regarding faith:
+they believe in some prophets and reject others, following their desires, lusts and the practices of their
+forefathers; they do not follow any proof for such distinction, because there is no such proof — rather, they
+follow their lusts and prejudices. The Jews — may God curse them — believe in the prophets except Jesus and
+Muhammad; the Christians believe in the prophets but reject their final and seal, the most honoured among the
+prophets, Muhammad; in addition, the Samaritans do not believe in any prophet after Joshua, the successor of
+Moses; and the Zoroastrians are said to believe in some and not others. **[Saʿdī]** Here are two divisions clear
+to everyone: a believer in God and all His messengers and books, and a disbeliever in all of that. And there
+remains a third division: the one who claims that he believes in some messengers without others, and that this is
+a way that will save him from God's punishment. This is nothing but mere wishes, for these people want to
+separate between God and His messengers — and whoever truly takes God as a protector takes all His messengers,
+because that is part of taking Him as protector; and whoever is an enemy of one of His messengers has become an
+enemy of God and an enemy of all His messengers, as God said, "Whoever is an enemy of God..." (2:98), and
+likewise whoever disbelieves in a messenger has disbelieved in all the messengers — indeed, in the messenger he
+claims to believe in. **[Qurṭubī]** When God had mentioned the associators and the hypocrites, He now mentioned
+the disbelievers of the People of the Book — the Jews and the Christians — since they disbelieved in Muhammad,
+and He made clear that disbelief in him is disbelief in all, because there is no prophet who did not command his
+people to believe in Muhammad and in all the prophets. "They seek to make a distinction between God and His
+messengers" means between belief in God and belief in His messengers; so God stated that the separation between
+God and His messengers is disbelief.
+
+**Reflection.** **[Maʿārif]** This clear verdict of the Holy Qurʾān has exposed the rudderless and crooked ways
+of those who, in an effort to appear tolerant in dealings with peoples of other faiths, would like to present
+their religion and religious beliefs as gifts on a platter — telling people of other faiths, contrary to the
+clear injunctions of the Qurʾān and Sunnah, that Muslims do not think salvation depends on Islam alone, and that
+a Jew could keep to his creed and a Christian to his and yet both could look forward to salvation — though they
+deny all prophets or at least some of them, for which reason this verse has declared them to be the kind of
+disbelievers destined for Hell. **[Saʿdī]** And the "way in between" is impossible by the nature of the claim: the
+one who invents a middle path between belief and unbelief has not found a third station but only dressed
+disbelief in the clothes of faith. **[Ṭabarī]** And in the verse's mention of "disbelieving in some" there is
+also an exposure: their "faith in some" is not faith but preference — they affirm the prophet who suits them and
+deny the one who does not.
+
+**Cross-references.** "Say: We believe in God and in what has been sent down to us, and to Abraham, Ishmael,
+Isaac, Jacob and the tribes" (2:136); "The Messenger believes in what has been sent down to him from his Lord,
+and so do the believers; each believes in God, His angels, His books and His messengers — we make no distinction
+between any of His messengers" (2:285); "And whoever desires a religion other than Islam, it will not be
+accepted from him" (3:85); "Those who disbelieve in God and His messengers and seek to make a distinction"
+(4:150).
