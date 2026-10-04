@@ -320,3 +320,28 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** **[Saʿdī]** presents these five traits as a complete discipline of faith: self-control, sincerity, humble obedience, generosity, and repentance. **[Study Quran]** highlights the solitude before dawn, when the world is quiet and the heart can attend to God while ordinary passions are asleep. **[Qurṭubī]** also relays Sufyān al-Thawrī’s devotional image of callers summoning the devout at night and the seekers of forgiveness at dawn *(digression)*.
 
 ---
+
+
+## 3:18
+
+*God bears witness that there is no deity but He, as do the angels and the possessors of knowledge, upholding justice. There is no deity but He, the Mighty, the Wise.*
+
+**Meaning.** God’s testimony is the clearest declaration of His oneness, affirmed by the angels and those who know Him. **[Qurṭubī]** explains “bears witness” as making the truth known through proofs and signs; **[Maʿārif]** describes God’s creation, attributes, and power in the world as signs, alongside the testimony borne by His Messengers and Books. The “possessors of knowledge” include prophets and scholars; **[Qurṭubī]** says the broadest reading includes all believers, while **[Maʿārif]** allows the phrase to include anyone who recognizes God’s unity through sound inquiry into creation. The testimony refutes the claims of the Christians of Najrān about Jesus and the claims of polytheists who assign God partners **[Ṭabarī]**. **[Ibn Kathīr]** stresses that all creation belongs to God and depends on Him, so worship is due to Him alone. “Upholding justice” describes God’s ordering of creation and judgment **[Ṭabarī]**; **[Saʿdī]** adds that revelation, law, and recompense are all grounded in perfect justice. The repeated confession reinforces the central claim, while *al-ʿAzīz al-Ḥakīm* names God’s irresistible power and flawless wisdom **[Qurṭubī] [Ibn Kathīr]**.
+
+**Context.** **[Ṭabarī]** reads the verse as a direct answer to the Christians who disputed with the Prophet ﷺ about Jesus: God Himself, the angels, and the knowledgeable reject the claim that a created being shares His divinity. The verse also answers polytheism more generally.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** cites the saying “the scholars are heirs to the prophets,” and also repeats the claim that they are God’s trustees over His creation *(weak)*. He recounts al-Aʿmash’s nightly recitation of this verse and a report from Ibn Masʿūd promising Paradise to the one who makes its testimony a covenant with God; the chain is interrupted and its weakness is noted *(weak)*. **[Qurṭubī]** also transmits a report from Anas that whoever recites the verse before sleep will have seventy thousand angels seek forgiveness for him until the Resurrection *(weak)*. **[Maʿārif]** cites a report in Musnad Aḥmad that the Prophet ﷺ recited the verse at ʿArafāt and added, “I too bear witness, my Lord” *(digression)*. It also repeats a report attributed to Abū Ayyūb that reciting this verse with 2:255 and 3:26–27 brings forgiveness and fulfillment of many needs *(weak)* *(digression)*.
+
+**Belief.** The verse joins divine unity to justice: God alone is worthy of worship, and His rule and judgment are never unjust **[Ṭabarī] [Saʿdī]**. The placement of the learned beside the angels honors knowledge, but also makes knowledge a public witness to truth **[Qurṭubī] [Ibn Kathīr] [Maʿārif]**.
+
+**Language.** **[Ṭabarī]** takes *qāʾiman bi-l-qisṭ* (“upholding justice”) as a circumstantial description of God; **[Study Quran]** notes that grammatically it may also describe the angels and possessors of knowledge, comparing 4:135 and 5:8. The repeated *lā ilāha illā Huwa* serves as emphasis **[Qurṭubī]**.
+
+**Readings.** The common reading opens 3:18 with *anna* after “God bears witness” and begins 3:19 with *inna* (“Indeed, the religion with God is Islam”). **[Qurṭubī]** records al-Kisāʾī’s reading with both particles opened, linking the testimony directly to the declaration about Islam in the next verse; **[Ṭabarī]** rejects this reading as lacking reliable transmission from Ibn ʿAbbās or Ibn Masʿūd and departing from the established recitation. A reading attributed to ʿAbd Allāh b. Masʿūd has *al-qāʾim bi-l-qisṭ* (“the one upholding justice”) with the definite article and nominative, recasting the phrase as an adjective rather than the common accusative circumstantial description **[Ṭabarī] [Qurṭubī]**.
+
+**Stories & occasions.** **[Qurṭubī] [Maʿārif]** relate that two Jewish scholars from Syria recognized the city of Madīnah from the Torah’s description of the final Prophet’s home. They asked Muḥammad ﷺ for the greatest testimony in Scripture; when he recited this verse, they accepted Islam. **[Qurṭubī]** transmits the account through al-Kalbī *(weak)*. He also reports that 360 idols around the Kaʿbah fell prostrate when the verse was revealed *(weak)*.
+
+**Cross-references.** God’s witness to revelation and to all things: 4:166; 5:117 **[Study Quran]**. The primordial covenant: 7:172 **[Study Quran]**. Upholding justice: 4:135; 5:8 **[Study Quran]**.
+
+**Reflection.** **[Saʿdī]** calls this the greatest testimony, borne by the greatest witnesses about the greatest truth. By placing people of knowledge beside the angels, the verse gives learning honor and responsibility: knowledge should lead its possessor to testify to divine unity and stand with justice.
+
+---
