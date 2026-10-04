@@ -4078,3 +4078,618 @@ me, and God will love you" (3:31); "And obey God and His Messenger, that you may
 "Obey God and obey the Messenger, and beware; but if you turn away, then know that Our Messenger's only duty
 is clear conveyance" (5:92); "So remind, for you are only a reminder — you are not a controller over them"
 (88:21–22).
+## 4:81
+
+*"They profess obedience; but when they leave you, a party of them conspires by night other than what you say.
+God records what they conspire by night. So turn away from them, and trust in God; God suffices as a
+Guardian."*
+
+**Meaning.** **[Ṭabarī]** "And they say, 'Obedience'" — that is, the group of whom God has told us that when
+fighting was prescribed they feared people as they feared God or more: they say to the Prophet of God ﷺ when
+he commands them something, "Your command is obedience, and we owe you obedience in what you command and
+forbid"; but when they leave your presence, a party of them changes by night what you say to them — they alter
+in secret what they promised you in the open. **[Jalālayn]** They say, that is the hypocrites, when they come
+to you, "Our affair is all about obedience to you"; but when they sally forth, when they depart from you, a
+party of them harbor — and the *tāʾ* of the feminine ending in *bayyata* may be elided before the *tāʾ* of
+*ṭāʾifah*, or simply omitted — feelings other than what they say to you in your presence, in the way of
+obedience; in other words, they hide disobedience. God writes down — He commands that it be written — what
+they harbor in their scrolls of deeds, so that they will be requited for it. So turn away from them in
+forgiveness, rely on God, put your trust in Him, for He will suffice you; and God suffices as a Guardian to
+whom matters are entrusted. **[Qurṭubī]** "Obedience" may be read in the nominative, "our affair is
+obedience," or in the accusative, "we obey with obedience" — the reading of Naṣr b. ʿĀṣim, al-Ḥasan and
+al-Jaḥdarī; and this is about the hypocrites according to most of the exegetes: they say when they are with
+you, "Our affair is obedience," but their saying is of no benefit, because one who does not hold obedience in
+his heart is not in truth obedient. **[Saʿdī]** Obedience to God and His Messenger must be outward and
+inward, in the presence of the Prophet and in his absence; whoever displays obedience and commitment when
+present and then, alone or among his own kind, abandons obedience and turns to its opposite — the obedience he
+displayed is of no benefit to him, and he resembles those of whom God said, "And they say, 'Obedience'" —
+that is, they display obedience when they are with you, "but when they go out from your presence, a party of
+them conspire by night other than what you say."
+
+**Rulings.** **[Study Quran]** The verse concerns either the Madinan hypocrites (Jalālayn) or those Muslims
+who were reluctant to fight with the Prophet out of fear (Ṭabarī). "Conspire by night" translates *bayyata*,
+which means to do something — usually secretly — at night; rather than "scheming," the word may simply mean
+that they reneged on the vows they had made to the Prophet when they went away from him at night (Ṭabarī);
+the verb may also mean simply to give much thought and contemplation to something (al-Rāzī), in which case it
+would mean that the hypocrites pondered the benefit or harm to themselves in following the Prophet's commands
+before deciding whether they should obey as they had promised. God records what they do at night in the book
+of their deeds (al-Zamakhsharī), or He records it by mentioning it in this verse of the Qurʾān (al-Rāzī).
+"Turn away from them" means to leave them as they are, without disputing or seeking vengeance against them
+(see 4:62–63), and without revealing their night scheming (al-Rāzī). **[Maʿārif]** Here the Prophet ﷺ was
+comforted against those who practiced a policy of double-dealing; the latter part of the verse carries a
+special instruction for a leader: he is not to occupy himself with them or expose them, but to rely on God,
+who suffices as a guardian.
+
+**Reflection.** **[Saʿdī]** The parenthesis is the whole point: the word "obedience" spoken to a man's face
+is not the thing itself, and the measure of loyalty is what the heart does at night when no one is watching.
+**[Qurṭubī]** Among the names of God revealed to men is that He writes what they conceal: the schemes that
+were hidden from the Prophet's eye are not hidden from the One who records them, and it is on that record,
+not on professions of loyalty, that the servant will be judged.
+
+**Cross-references.** "When they meet you they say, 'We believe,' but when they are alone they bite their
+fingers in rage against you" (3:119); "Among them are those who say, 'We believe in God,' but when they
+suffer harm in the way of God they consider the trial of people as the punishment of God" (29:10); "God is
+sufficient as a Trustee" (4:81).
+
+## 4:82
+
+*"Do they not ponder the Qurʾān? Had it been from other than God, they would surely have found in it much
+discrepancy."*
+
+**Meaning.** **[Ṭabarī]** Will they not ponder — those who conspire by night other than what you say — the
+Book of God, and so know God's proof against them in the matter of obeying you and following your command,
+and know that what you have brought them of revelation is from their Lord, by the consistency of its meanings
+and the harmony of its rulings, each part supporting the other by confirmation and witnessing to the other's
+truth? For had it been from other than God, its rulings would have differed and its meanings contradicted one
+another, and its parts would have exposed the corruption of one another. **[Ibn Kathīr]** God commands them
+to contemplate the Qurʾān and forbids them from ignoring its wise meanings and eloquent words; it contains no
+inconsistencies, contradictions, conflicting statements or discrepancies, because it is revelation from the
+All-Wise, worthy of all praise. "Had it been from other than God, they would surely have found therein
+contradictions in abundance" — meaning, had it been fraudulent and made up, as the ignorant idolaters and
+hypocrites assert in their hearts. **[Study Quran]** If those who conspire by night were to contemplate the
+Qurʾān, they would understand the divine provenance of the Prophet's commands (Ṭabarī); if the Qurʾān were of
+human composition, they would have found much discrepancy — that is, inconsistency, shortcomings,
+self-contradiction and falsehoods (cf. 41:42). **[Saʿdī]** And among the fruits of pondering the Book of God
+is that by it the servant reaches the degree of certainty and knowledge that it is the speech of God: he sees
+its parts confirming one another and agreeing with one another — the wisdom, the narratives and the reports
+repeated in the Qurʾān in several places, all concordant and true, none contradicting another; by that he
+knows the perfection of the Qurʾān and that it is from One whose knowledge encompasses all things. Hence God
+said, "Had it been from other than God, they would surely have found in it much discrepancy" — that is, since
+it is from God, there is no discrepancy in it at all.
+
+**Rulings & reflection.** **[Maʿārif]** The verse invites deliberation (*tadabbur*), and the choice of
+"ponder" over "recite" is itself a delicate hint: a plain recitation devoid of deliberation and deep thinking
+may lead one to imagine contradictions that do not really exist. The verse also shows that the Qurʾān itself
+demands of every human being that he ponder its meanings, so that to suppose pondering is the exclusive
+domain of the highest exponents is not correct; however, the levels of deliberation differ with the levels of
+knowledge and understanding, so that the deliberation of the great exponents deduces the solutions of
+thousands of problems from a single verse, while that of ordinary scholars reaches only as far as the
+understanding of such problems and their solutions. And for common people to stay safe from doubts and
+misunderstandings, it is better that they study the Qurʾān lesson by lesson under the guidance of a scholar,
+or with an authentic and reliable tafsīr; should a doubt arise, the wiser course is not to resolve it by
+personal opinion but to consult expert scholars — for although no group or individual holds a monopoly on the
+exegesis of the Qurʾān and the Sunna, there are conditions for it, and one who ponders without the requisite
+tools will arrive at a wrong set of results, which better-equipped scholars may rightly contradict.
+**[Ṭabarī]** The argument is circular in form but not in force: the very harmony of a book revealed piecemeal
+over twenty-three years, on occasions that varied and circumstances that changed, is the sign of the One
+knowledge that stands behind it. **[Study Quran]** The fact that the Qurʾān includes both abrogated and
+abrogating verses indicates that the Prophet did not seek to conceal these differences or to "revise" or
+"refine" the Qurʾānic message to create a superficial consistency; and although there are different
+recitations of the Qurʾān, different numberings of the verses, and even different legal rulings in the
+abrogated and abrogating verses, all of these apparent differences are considered to be true in themselves.
+The verse represents one of several challenges the Qurʾān poses to its detractors: elsewhere it challenges
+those who disbelieve to produce a single sūrah like it (2:23; 10:38), suggesting that they will be unable to
+do so.
+
+**Cross-references.** "A Book We have sent down to you, blessed, that they may ponder its verses and that
+those of understanding may remember" (38:29); "Or are their hearts locked?" (47:24); "Falsehood cannot come
+to it from before it or behind it" (41:42).
+
+## 4:83
+
+*"And when there comes to them a matter of security or fear, they spread it about; but had they referred it to
+the Messenger and to those in authority among them, those of them who investigate it would have known it. And
+were it not for the bounty of God upon you and His mercy, you would have followed Satan, save a few."*
+
+**Meaning.** **[Ṭabarī]** When news comes to this party that conspires by night other than what the Messenger
+of God ﷺ says — news about a raiding party of the Muslims that they have gained security from their enemy by
+defeating them, or that they have been struck by the enemy and fear — they broadcast it: they spread it and
+sow it among the people before the Messenger of God and before the commanders of his raiding parties.
+**[Jalālayn]** When there comes to them an issue — news concerning the raiding parties sent by the Prophet
+and what has happened to them, of security through victory or of fear through defeat — they broadcast it,
+they make it widely known; this was revealed regarding a group of hypocrites or feeble believers who used to
+do this, so that the hearts of the believers would lose courage and the Prophet would become distressed. Had
+they referred it — the news — to the Messenger and to those in authority among them, the judicious elders
+among the Companions, in other words had they kept quiet about it until they were fully informed, those among
+them who are able to think it out, the ones who broadcast it, would have known from the Prophet and those in
+authority whether it is a matter that ought to be broadcast or not. And but for the bounty of God to you
+through Islam and His mercy to you through the Qurʾān, you would have followed Satan in the abominations to
+which he commands, except a few of you.
+
+**Rulings.** **[Saʿdī]** This is God's discipline of His servants regarding an act that does not befit them:
+when a matter of importance and public interest comes to them — concerning security and the joy of the
+believers, or fear involving a calamity for them — they should verify it and not rush to spread the report;
+rather they should refer it to the Messenger and to those in authority among them, the people of judgment,
+knowledge, counsel, reason and steadiness, who know affairs and know the interests and their opposites. If
+they see in broadcasting it an interest — an energizing of the believers, joy for them, a precaution against
+their enemies — they do it; and if they see no interest in it, or an interest outweighed by harm, they do
+not spread it. Hence "those who investigate it would have known it" — those who extract it by their thought,
+their sound opinions and their knowledge. In this is a proof of an ethical rule: when a matter is under
+examination, it should be given to those who are qualified for it and committed to its people, and not
+preempted before them, for that is nearer to correctness and likelier to be safe from error. In it too is
+the prohibition of haste and of rushing to publish matters the moment they are heard, and a command to
+reflect before speaking and to consider whether it serves an interest, so that a man may proceed, or not, so
+that he may hold back. **[Maʿārif]** According to Ibn ʿAbbās, al-Ḍaḥḥāk and Abū Muʿādh the verse was revealed
+about the hypocrites; according to al-Ḥasan and many others, about weak Muslims. The occasion reported by Ibn
+Kathīr: ʿUmar heard that the Prophet ﷺ had divorced his wives; he went to the Prophet and asked, and was
+told, "No"; then he returned to the mosque, stood at its door, and announced that the Messenger of God had
+not divorced his wives and that what the people were saying was wrong — and the verse was revealed. Among the
+*āthār* against rumor-mongering: the Prophet's saying, "It is enough of a lie for a man that he relates
+everything he hears" and "Whoever relates a report he thinks to be a lie is one of the two liars." On "those
+in authority" here: al-Ḥasan, Qatādah and Ibn Abī Laylā said they are the scholars and jurists; al-Suddī said
+the rulers and officials; Abū Bakr al-Jaṣṣāṣ took the general view that the expression covers both, since
+authority operates either by force, which belongs to rulers, or by trust and reliance, which is reposed in the
+scholars — the authority of religious scholars being the kind that the community follows by choice.
+*Istinbāṭ* literally refers to drawing water from the depth of a well, and here means getting to the bottom
+of a matter and finding out its truth (Qurṭubī).
+
+**Reflection.** **[Study Quran]** These people would spread rumors of the success or defeat of the military
+parties the Prophet had sent out, leading to apprehension and perhaps misinformation among the Muslims; by
+spreading the information so indiscriminately they also risked allowing it to fall into the hands of their
+enemies, and since they sometimes attributed these reports to the Prophet, if they turned out to be false his
+credibility would suffer (al-Rāzī). In addition to the general meaning, the verse likely refers specifically
+to the events leading up to what is known as the "Lesser Badr," when rumors of a large Makkan army spread
+fear among the Muslims. As in all difficult matters, they should have first referred these reports to the
+Messenger and to those in authority (v. 59), who could assess them. **[Saʿdī]** The closing clause measures
+the gravity of the offense: the difference between a community that verifies news and one that circulates it
+is the difference between walking in God's bounty and following Satan — and even with the revelation among
+them, it was only God's favor that kept all but a few from the latter.
+
+**Cross-references.** "O you who believe, if a troublemaker comes to you with news, verify it, lest you harm
+a people in ignorance and then become regretful for what you have done" (49:6); "And do not pursue that of
+which you have no knowledge" (17:36); "And when there comes to them a matter of security or fear, they spread
+it about" stands beside "Those who love to see scandal spread among the believers will have a painful
+punishment" (24:19).
+
+## 4:84
+
+*"So fight in the way of God; you are not charged except with your own soul; and urge on the believers. It may
+be that God will restrain the might of those who disbelieve; and God is stronger in might and stronger in
+chastisement."*
+
+**Meaning.** **[Ṭabarī]** Fight, O Muhammad, the enemies of God among the idolaters — in the way of God,
+that is, in His religion which He legislated for you, which is Islam — and fight them with your own self.
+"You are not charged except with your own soul": We do not charge you with the deeds of others. "And urge on
+the believers": incite them to fight your enemy and to strive in God's way. "It may be that God will restrain
+the might of those who disbelieve": perhaps God will ward off the fighting of the disbelievers by your
+striving; "and God is stronger in might and stronger in chastisement" — God is stronger than them and more
+severe in punishing them. **[Jalālayn]** So fight in the way of God; you are charged only with yourself, so
+do not be concerned with their failing to join you — the meaning is: fight even if you are on your own, for
+you have been promised victory. And urge on the believers, incite them to fight and make them desire it;
+perhaps God will restrain the might — the war — of the disbelievers; God is mightier than them and more
+severe in punishment. And so the Messenger of God ﷺ said, "By Him in whose hand is my soul, I shall sally
+forth to fight even if I go alone." Thereupon he went out with seventy cavalrymen to the first Badr meeting,
+where God restrained the might of the disbelievers by casting terror into their hearts and preventing Abū
+Sufyān from sallying forth. **[Qurṭubī]** The *fāʾ* attaches to "whoever fights in the way of God and is
+killed or conquers, We shall give him a great reward" — for that, fight; or to "why do you not fight in the
+way of God": do not abandon striving against the enemy and seeking God's aid for the weak believers even if
+you are alone, because He has promised you victory (al-Zajjāj).
+
+**Ḥadīth & āthār.** **[Ibn Kathīr]** God commands His servant and Messenger to strive himself and not to be
+concerned about those who do not join. Ibn Abī Ḥātim recorded that Abū Isḥāq said: I asked al-Barāʾ b. ʿĀzib
+about a man who meets a hundred enemies and still fights them — would he be one of those referred to in "and
+do not throw yourselves into destruction" (2:195)? He said, "No, because God sent His Messenger ﷺ and
+commanded him, 'Then fight in the cause of God; you are not charged except with yourself' — that verse is
+about spending." And the Prophet ﷺ said to the believers at Badr while organizing their lines, "Stand up and
+march forth to a Paradise as wide as the heavens and the earth." Al-Bukhārī recorded from Abū Hurayrah that
+the Messenger of God ﷺ said, "Whoever believes in God and His Messenger, establishes the prayer, pays the
+zakāt and fasts Ramadan, it is God's right to admit him to Paradise — whether he migrates in God's cause or
+remains in the land in which he was born." The people said, "O Messenger of God, shall we give the people
+this good news?" He said, "In Paradise there are a hundred grades which God has prepared for those who fight
+in His cause; between each two grades is the distance between heaven and earth. So when you ask God, ask for
+al-Firdaws, for it is the middle of Paradise and the highest part of Paradise; above it is the Throne of the
+Compassionate, and from it the rivers of Paradise flow forth."
+
+**Reflection.** **[Saʿdī]** This condition is the best of conditions for a servant: to strive in himself to
+fulfil God's command, including striving, and to urge others to it. God says, "You are not charged except
+with your own soul" — you have no power over anyone but yourself, so you are not charged with the deeds of
+others; and "urge on the believers" includes every command by which the zeal of the believers and the
+strength of their hearts is produced: strengthening them, informing them of the weakness and collapse of the
+enemy, of the reward God has prepared for those who fight, and of the punishment upon those who hold back.
+"Perhaps God will restrain the might of those who disbelieve" — by your fighting in His way and your urging
+one another. "And God is stronger in might" — in power and honor — "and stronger in chastisement," punishing
+the sinner in himself and making an example of others. Had He willed, He could have taken vengeance on the
+disbelievers by His own power and left them no remnant; but out of His wisdom He tests some of His servants
+by others, so that the market of striving may continue and so that beneficial faith may be realized — the
+faith of choice, not the faith of compulsion and coercion, which profits nothing.
+
+**Cross-references.** "Do not throw yourselves into destruction" (2:195); "And fight in the way of God, and
+know that God is Hearing, Knowing" (2:244); "O Prophet, urge on the believers to fight" (8:65); "And if they
+incline to peace, incline to it, and trust in God" (8:61).
+
+## 4:85
+
+*"Whoever intercedes with a good intercession shall have a share of it; and whoever intercedes with an evil
+intercession shall have a share of its burden; and God is Keeper over all things."*
+
+**Meaning.** **[Ṭabarī]** Whoever becomes a support — a second — for his companion, interceding for him in
+striving against the enemy and fighting in God's way: that is the good intercession, and he shall have a share
+of it — a portion of God's reward and His abundant generosity. And whoever supports the disbelievers, the
+people of unbelief in God, against the believers, shall have a share of the sin of it.
+**[Jalālayn]** Whoever intercedes between people with a good intercession, one in accordance with the Law,
+shall receive a share of the reward for it because of it; and whoever intercedes with an evil intercession,
+one contrary to the Law, shall receive the like share of the sin from it because of it. God is *muqīt* — He
+has power over all things, and so requites every person according to his deeds. **[Saʿdī]** What is meant by
+intercession here is aiding someone in an affair: whoever intercedes for another and stands with him in a
+matter of good — including interceding for the wronged with those who wrong them — has a share of it in
+proportion to his effort, his action and the benefit he brought, and nothing is diminished from the reward of
+the principal doer. And whoever aids another in a matter of evil bears a share of the sin in proportion to
+what he undertook and helped. In this there is a great incentive to cooperation in righteousness and piety,
+and a great deterrent against cooperation in sin and enmity; and God confirmed it by saying, "And God is
+Keeper over all things" — a witness, preserving, reckoning all these deeds, who will repay each as he
+deserves. **[Ibn Kathīr]** God is All-Able to do everything, and His power is neither diminished nor
+increased by the deeds of His servants; the reckoning is His.
+
+**Language & rulings.** **[Qurṭubī]** The root of *shafāʿah* and *shufʿah* and the like is *shafʿ*, the even
+in number, as against *witr*; hence a *shafīʿ* is one who joins another to himself, becoming a pair with the
+one in need. The verse governs all intercession: the good intercession is what is in accordance with the
+Law, and the evil is what contravenes it; and the different words used — *naṣīb*, "share," for the good, and
+*kifl*, "portion, burden," for the bad — correspond to their differing natures, a share of reward against a
+share of guilt. **[Maʿārif]** No intercession is universally good or bad; the division by its object is what
+clarifies its nature, so that a recommendation is to be judged by what it seeks to accomplish. **[Study
+Quran]** Whoever intercedes for a good cause by aiding individual Muslims, protecting their rights,
+defending them, or supplicating God on their behalf (al-Zamakhsharī) will receive a share of the good that is
+brought about. Although the verse applies to intercession in general, many commentators understand it in the
+context of the battles spoken of in the previous verses: whoever supports and equips the Muslim army shall
+receive a share of the reward for participating in the religious cause, and whoever supports or equips the
+army of the enemies of religion shall receive a share of its burden, that is, of the punishment of those who
+fight on their behalf (Ṭabarī). Given the context of the two previous verses, it may mean that when the
+Prophet calls his community to fight in the way of God, he shares in the reward they will receive for
+answering the call, although, as v. 84 makes clear, he will not be held accountable if they do not; and in
+this reading "those who intercede for an evil cause" refers to the Madinan hypocrites who tried to
+dissuade others from fighting.
+
+**Reflection.** **[Saʿdī]** The verse makes every act of support a partnership: no one lends a hand without
+sharing in what his hand helped to do, whether reward or guilt — and this is why the Qurʾān's community is
+commanded to compete in help and warned off leagues of harm. **[Ṭabarī]** The mention of God as *muqīt*
+closes the door to the thought that the helper escapes notice: the one who joins himself to another's cause
+joins himself to the Keeper's account of it.
+
+**Cross-references.** "And cooperate in righteousness and piety, and do not cooperate in sin and enmity"
+(5:2); "Whoever intercedes for a good cause has a share of it" stands beside "Whoever does an atom's weight
+of good will see it" (99:7); "And whatever good you do, God knows it" (2:197).
+
+## 4:86
+
+*"And when you are greeted with a greeting, respond with one better than it, or return it; surely God takes
+account of all things."*
+
+**Meaning.** **[Saʿdī]** *Al-taḥiyyah* is the word uttered by one of two people meeting, out of honoring and
+supplication, together with the cheerfulness and the like that accompany it; and the highest form of greeting
+is what the Law brought of *salām*, both initiating and returning. God commands the believers that when they
+are greeted with any greeting, they return it with one better than it in word and in cheer, or the like of
+it; and the implication of this is the prohibition of not replying at all, or of replying with less than it.
+Two things in the verse urge the initiation of *salām*: first, God's command to respond with what is better
+shows that greeting is sought in the Law; second, the elative "better" implies that both the greeting and its
+response are among good things. **[Jalālayn]** When you are greeted, greet the one who greeted you with
+better than it — responding to "Peace be upon you" with "Peace be upon you, and God's mercy and blessings" —
+or return it by saying back what he said; in other words, it is a duty to greet in one of these two ways, the
+former being preferred. Surely God keeps count of all things and requites accordingly, including the
+returning of a greeting. The Sunna specifies that one does not return the greeting of a disbeliever, an
+innovator, or a wicked person, nor of one who greets a person engaged in relieving himself, or in the bath,
+or eating; and to the disbeliever who says "peace be upon you" one says simply, "And upon you."
+**[Qurṭubī]** *Al-Taḥiyyah* is from *ḥayya*, originally *taḥyiyah*, the *yāʾ* assimilated to the *yāʾ*; its
+root is a prayer for life; and *al-taḥiyyāt lillāh* is "peace from all harms." Some of the scholars
+disagreed over the verse's meaning: Mālik, as reported by Ibn Wahb and Ibn al-Qāsim, held it concerned the
+*tashmīt* of the one who sneezes and the reply to him — a weak view, since the wording gives no indication of
+that; and the companions of Abū Ḥanīfah said *taḥiyyah* here means a gift, because "or return it" cannot
+apply to the greeting of Islam itself; but the apparent sense of the wording requires the return of the
+greeting itself, and the correct view is that it is the *salām*. **[Qurṭubī]** The scholars agreed that
+initiating *salām* is a Sunna urged and recommended, and that returning it is a duty, because of "then greet
+with better than it, or return it." They differed over whether the response of one person out of a group
+suffices: Mālik and al-Shāfiʿī held that it suffices, and the Kufans held that the return of the greeting is
+an obligation incumbent on each individual, since the initiated greeting is voluntary while its return is
+obligatory; the argument of the former is the *ḥadīth* reported by Abū Dāwūd from ʿAlī: "It suffices for a
+group passing by that one of them gives the greeting, and it suffices for the sitting [group] that one of
+them returns it" — a text in the place of disagreement, which Abū ʿUmar called good with no contradictor,
+though some weakened its chain because Saʿīd b. Khālid al-Khuzāʿī was alone in it; and they also cited
+Mālik's report from Zayd b. Aslam that the Messenger of God ﷺ said, "The rider greets the one walking; and
+when one of the people gives the greeting, it suffices for them." **[Qurṭubī]** Returning "better than it"
+means to add: "Peace be upon you and God's mercy" to the one who said "Peace be upon you."
+
+**Rulings & ādāb.** **[Study Quran]** Returning a greeting of peace is incumbent upon all Muslims as a matter
+of religious practice; a *ḥadīth* informs believers that spreading greetings of peace along with sharing food,
+maintaining family relations and praying in the middle of the night are acts that will grant one Paradise.
+According to Ibn ʿAbbās, if a man passes by a group of Muslims and gives them greetings of peace but receives
+no response, "the Holy Spirit is removed from them, and the angels return the man's greeting." One *ḥadīth*
+says, "By Him in Whose hand is my soul, you will not enter the Garden until you believe, and you will not
+believe until you love one another. Should I not tell you that which, if you do it, will make you love one
+another? [It is] to spread greetings of peace among yourselves" (Ibn Kathīr). In general a younger person
+should initiate the greeting to an older person, a smaller group to a larger one, and a passer-by to one who
+is sitting or standing by; and a person visiting someone's home should greet the hosts before entering
+(24:27). Offering a greeting of peace is sometimes optional, and in some cases inappropriate, as when a
+person is engaged in something more important such as praying, but responding to one is required.
+Some commentators suggest that responding with what is better is appropriate when the greeter is a fellow
+Muslim, while if the greeter is a non-Muslim one should simply return the greeting in a similar manner; and a
+few assert that one should not greet disbelievers or those who engage in immoral behavior at all, though this
+seems to conflict with 25:63; 28:55 and 48:39, which suggest a greeting of peace as the proper response to
+such persons. Some suggest a conditional greeting in the presence of non-Muslims, such as the one Moses gave
+before Pharaoh, "Peace be upon him who follows guidance" (20:47); most commentators, however, understand the
+verse as requiring Muslims to accept and respond in kind to any greeting of peace offered to them, even by a
+disbeliever or by an unknown person in a situation of warfare, since there is little harm in accepting and
+reciprocating a greeting of peace (al-Rāzī); see 8:61, "And if they incline toward peace, incline thou toward
+it, and trust in God." **[Maʿārif]** *Salām* is one of the good names of God, and "al-salāmu ʿalaykum" means,
+in Ibn al-ʿArabī's phrase, that God is your guardian and caretaker; thus the Islamic greeting is not a bland
+prayer for long life as was the way of the pre-Islamic Arabs, but a prayer for a life secure against
+calamities and sorrows, an expression of man's dependence on God, and an act of worship in its own right.
+Ibn ʿUyaynah said, "Do you know what *salām* is? The greeter says: You are safe from me" — and the *ḥadīth*
+states, "The Muslim is the one from whom the Muslims are safe, from his tongue and his hand" (Tirmidhī). The
+Prophet ﷺ said, "The nearest to God is the one who is first to give *salām*" (Aḥmad, Tirmidhī, Abū Dāwūd),
+and Ibn Masʿūd reported, "Salām is one of the names of God with which He has blessed the people of the earth,
+so make *salām* common among you; for when a Muslim comes to a gathering and greets them, he is raised a
+degree with God because he reminded them of *al-Salām*; and if the people of the gathering do not return it,
+those better than them will return it — the angels of God" (al-Bazzār, al-Ṭabarānī). **[Saʿdī]** Excepted from
+the command are one who greets another while he is engaged in recitation, or listening to a sermon, or
+praying — his greeting is not to be answered — and one whom the Law commands to be shunned, such as the
+unrepentant sinner who is deterred by shunning: he is shunned, not greeted, and his greeting is not returned,
+because of the greater interest that outweighs. And every customary greeting that the Law has not forbidden
+is included, to be returned with the like or with better. **[Saʿdī]** Then God warns about deeds good and
+bad with "God is ever a reckoner over all things": He preserves for the servants their deeds, the good and
+the bad, the small and the great, and then repays them as His grace, His justice and His praiseworthy wisdom
+require.
+
+**Reflection.** **[Qurṭubī]** The greeting is the smallest transaction of social life, and the verse inserts
+it into the divine account: God takes account of all things, so the returning of a greeting is not beneath
+His notice, and a community's courtesy is a form of worship. **[Maʿārif]** Perhaps the deepest reading of
+the verse is that it turns a phrase of politeness into a pledge: to say "peace be upon you" is to promise
+that the one greeted will be safe from the greeter's tongue and hand.
+
+**Cross-references.** "And when they hear vain talk they turn away from it and say, 'To us our deeds and to
+you your deeds; peace be upon you; we do not seek the ignorant'" (28:55); "And the servants of the
+Compassionate are those who walk upon the earth humbly, and when the ignorant address them, they say,
+'Peace'" (25:63); "And if they incline to peace, incline to it" (8:61); "And when you enter houses, greet
+one another with a greeting from God, blessed and good" (24:61).
+
+## 4:87
+
+*"God — there is no god but He; He will surely gather you all to the Day of Resurrection, about which there
+is no doubt; and who is truer than God in speech?"*
+
+**Meaning.** **[Ṭabarī]** The One who is worshipped and who alone is worthy of worship is He, and He will
+surely gather you — He will resurrect you after your death and muster you all together at the standing place
+of reckoning, where people will be repaid for their deeds and judgment will be given between the people of
+truth and the people of falsehood. **[Qurṭubī]** "God, there is no god but He" is a subject and predicate;
+the *lām* in "He will surely gather you" is the *lām* of the oath, and it was revealed concerning those who
+doubted the resurrection, so God swore by Himself; and every *lām* followed by a doubled *nūn* is the *lām*
+of an oath. Its meaning concerns death and being beneath the earth, "to the Day of Resurrection"; some said
+*ilā* here is a connective and the sense is "He will surely gather you on the Day of Resurrection." The Day
+is named *qiyāmah* because people will stand in it before the Lord of the worlds.
+**[Jalālayn]** God — there is no god except Him — and by God, He will surely gather you from your graves on
+the Day of Resurrection, whereof there is no doubt, no uncertainty; and who is truer in statement than God?
+That is, no one is. **[Saʿdī]** God informs of His exclusive oneness: there is no object of worship and no
+deity but He, for the perfection of His essence and attributes and because He alone is the Creator, the
+Disposer, the giver of outward and inward blessings — which entails the command to worship Him and draw near
+to Him with every kind of servitude, since He alone deserves it and He alone will repay the servants for
+what they performed or neglected of His service. Hence He swore an oath upon the occurrence of the place of
+requital, the Day of Resurrection, saying, "He will surely gather you" — the first of you and the last of
+you — in one standing place, "unto the Day of Resurrection, about which there is no doubt" — no uncertainty
+or ambiguity by either rational or transmitted proof. The rational proof is what we witness of the reviving
+of the earth after its death, of the existence of the first creation, whose second is more readily within
+possibility, and of the wisdom by which one is certain God did not create His creatures in play, to live and
+then die. The transmitted proof is the news of the most truthful of the truthful, indeed his oath upon it —
+and hence "and who is truer than God in speech?" God also commanded His Messenger ﷺ to swear by it in more
+than one place in the Qurʾān, as in "The disbelievers claim that they will not be resurrected. Say: Yes,
+by my Lord, you will surely be resurrected, then you will be informed of what you did; and that is easy for
+God" (64:7).
+
+**Reflection.** **[Saʿdī]** In His saying, "And who is truer than God in speech?" — and elsewhere, "who is
+truer than God in word?" — there is the information that His speech, His reports and His words are at the
+highest rank of truth, indeed the highest: so everything said about beliefs, sciences and deeds that
+contradicts what God has informed of is false, for contradicting the true, certain report — and it cannot
+then be true. **[Study Quran]** This is one of many assertions of God's oneness (cf. 2:163, 255; 3:2, 6, 18,
+62; 6:102, 106; 7:158; 9:31; 16:2; 20:8, 14, 98; 23:116; 27:26; 28:70, 88; 35:3; 39:6; 40:3, 62, 65; 44:8;
+59:22–23; 64:13; 73:9); for the idea that human beings shall be gathered unto a Day or at the Hour about
+which there is no doubt, see 3:9, 25; 6:12; 18:21; 22:7; 40:59; 42:7; 45:26, 32. And "who is truer than God in
+speech" also appears in v. 122, although the word for speech in the present verse is *ḥadīth*, and in v. 122
+it is *qīl*.
+
+**Cross-references.** "There is no god but He, the Ever-Living, the Self-Subsisting" (2:255); "Say: Yes, by
+my Lord, you will surely be resurrected" (64:7); "That is because God is the Truth, and what they invoke
+besides Him is falsehood" (22:62); "And whose word is truer than God's?" (4:122).
+
+## 4:88
+
+*"What is with you that you are two parties concerning the hypocrites, when God has cast them back for what
+they earned? Do you desire to guide those whom God has led astray? And whom God leads astray, you will never
+find for him a way."*
+
+**Meaning.** **[Ṭabarī]** What is your case, O believers, that you have become two differing parties
+concerning the people of hypocrisy — while God has cast them back, that is, returned them to the rulings of
+the people of association with God, so that their lives are lawful and their offspring may be taken captive —
+because of what they earned. **[Jalālayn]** When a group retreated at Uḥud, the people were at variance over
+their status: some said, "Let us slay them," and others said, "No"; so this was revealed: What is wrong with
+you that you have become two parties, two groups, regarding the hypocrites, when God has overthrown them —
+turned them back to disbelief — for what they earned of disbelief and acts of disobedience? What do you
+desire — to guide him whom God has sent astray, that is, to count them among the guided? The interrogative in
+both places is for disapproval. And he whom God sends astray, you will never find for him a way, a path to
+guidance. **[Ibn Kathīr]** God has cast them back because of what they earned: He made them revert to and
+fall into error; as Ibn ʿAbbās said, *arkasahum* means "cast them," and "because of what they earned" means
+because of their defiance and disobedience to the Messenger and their following of falsehood. "Do you want
+to guide him whom God has made to go astray? And he whom God has made to go astray, you will never find for
+him a way" — there will be no path for him or way to guidance. **[Saʿdī]** The hypocrites meant here are
+those who displayed Islam but did not emigrate, remaining in their disbelief; and the Companions fell into
+uncertainty about them: some refrained from fighting them and cutting off from them, because of the faith
+they displayed; others knew their states by the evidence of their deeds and judged them to be disbelievers.
+God then informed them that they should not be uncertain about them or doubt, for their affair is clear and
+unproblematic: they are hypocrites whose disbelief has repeated itself, and who wish, moreover, that you
+disbelieve and become like them; so when you have verified that of them, "do not take them as allies" —
+which entails not loving them, since alliance follows love, and also entails hating and opposing them, since
+the prohibition of a thing is a command of its opposite; and this command is timed by their emigration: if
+they emigrate, the rulings of the Muslims apply to them, as the Prophet ﷺ applied the rulings of Islam to
+everyone who was with him and emigrated to him, whether a true believer or one who displayed belief.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** Muslim recorded from Zayd b. Thābit that the Prophet ﷺ went out to Uḥud
+and some people who had been with him returned; the Companions of the Prophet ﷺ divided into two groups
+concerning them, some saying, "We kill them," and others saying, "No"; then "What is with you that you are
+two parties concerning the hypocrites" was revealed. Al-Tirmidhī recorded it with the addition: and he said,
+"It is Ṭaybah, and it expels the impure as fire expels the dross of iron" — a *ḥadīth* which he called good
+and sound. **[Ibn Kathīr]** Imām Aḥmad recorded from Zayd b. Thābit the same, and the two *Ṣaḥīḥs* also
+recorded this *ḥadīth*: "She — that is Madinah — is Ṭaybah, and she expels filth just as the bellows expels
+the rust of iron." **[Ibn Kathīr]** Al-ʿAwfī reported that Ibn ʿAbbās said the verse was revealed about some
+people in Mecca who said they had embraced Islam yet gave their support to the idolaters: they went out of
+Mecca to fulfil some needs and said to one another, "If we meet the Companions of Muhammad, there will be no
+harm to us from their side." When the believers got news that these people had gone out of Mecca, some of
+them said, "Let us march to these cowards and kill them, because they support your enemy against you"; while
+another group of the believers said, "Glory be to God! Do you kill a people who say as you have said, merely
+because they did not perform the migration and leave their land? Is it permitted to shed their blood and
+confiscate their property in this case?" So they divided into two groups while the Messenger ﷺ was with them,
+and he did not forbid either group from arguing its case; then God revealed the verse. **[Maʿārif]** Mujāhid
+related that some disbelievers of Mecca came to Madinah and pretended to have become Muslims and to have come
+as emigrants; later they apostatized, and told the Prophet ﷺ that they wished to go to Mecca to buy
+merchandise, and with that false excuse departed and never returned; the Muslims divided over how to treat
+them, and the verse was revealed. **[Study Quran]** One account relates the verse to a group of Muslims
+resident in Madinah who set out with the Muslims for Uḥud and then decided to return to Madinah (Ibn Kathīr,
+Qurṭubī, Ṭabarī); see 3:167, where the same group claims disingenuously, "Had we known there would be
+fighting, we would have followed you." The Prophet's Companions divided into two groups over what to do with
+them; some wanted to kill the deserters and others wanted to let them be. These verses were then revealed,
+indicating that God Himself had removed them — cast them back — because of their own misdeeds, so that they
+reverted to the status of idolaters whose lives and property were no longer protected (Ṭabarī). This context
+does not seem to fit vv. 89–90, however, which are addressed to a group of hypocrites who had left Madinah
+entirely or were resident outside it. Other accounts connect the verse more plausibly to a group of Makkans
+who came to Madinah and embraced Islam, then left the city after seeking the Prophet's permission and never
+returned (Ṭabarī, al-Wāḥidī, al-Zamakhsharī), or left after committing crimes against the believers
+(Qurṭubī); in another account they claim to have left Madinah to avoid a plague that had broken out there
+(Qurṭubī, Ṭabarī). Still another report concerns a group of Makkans who claimed to be Muslim but were
+secretly aiding the idolaters; when they approached Madinah, a group of Companions wanted to kill them while
+another argued against killing a people who believed as they believed, even if they had not committed to
+living in and fighting for the Madinan community; the Prophet took no clear stand on the issue, and then this
+verse was revealed, indicating their hypocrisy.
+
+**Reflection.** **[Saʿdī]** The verse dissolves the believers' disagreement by redefining the question: the
+Companions argued about the status of men whose own deeds had already answered for them, and God's verdict —
+"God has cast them back for what they earned" — is at once a rebuke of hesitation in judgment and a
+statement of how guidance is lost: not by divine arbitrary abandonment, but by what a man earns, so that the
+question "do you desire to guide those whom God has led astray?" is asked of those who would overturn the
+consequence of wilful choice.
+
+**Cross-references.** "God has sealed their hearts" (2:7); "Whom God leads astray, there is no guide for
+him" (7:186); "Had we known there would be fighting, we would have followed you" (3:167); "The path of God —
+whom God leads astray has no protector" (42:46).
+
+## 4:89
+
+*"They wish that you would disbelieve as they have disbelieved, so that you would become equal; so do not take
+any of them as allies until they emigrate in the way of God. Then if they turn away, seize them and kill them
+wherever you find them, and take from them neither ally nor helper."*
+
+**Meaning.** **[Ṭabarī]** These hypocrites, concerning whom you, O believers, are two parties, wish that you
+disbelieve and reject the oneness of your Lord and the truthfulness of your Prophet Muhammad ﷺ as they have
+disbelieved and rejected, so that you become disbelievers like them and be equal with them in association
+with God. "So do not take any of them as allies" — do not take them as protectors and beloved ones — "until
+they emigrate in the way of God," that is, until they migrate from the abode of disbelief to the abode of
+Islam and strive in God's way. "Then if they turn away" — if they turn aside from faith and migration —
+"seize them and kill them wherever you find them; and do not take from them any ally or helper against your
+enemy." **[Jalālayn]** They long that you should disbelieve as they disbelieve, so that you and they would be
+equal in unbelief; therefore do not take friends from among them, associating with them, even if they should
+outwardly manifest belief, until they emigrate in the way of God with a proper emigration that would confirm
+their belief; then if they turn away and remain upon their ways, take them as captives and slay them wherever
+you find them; and do not take any of them as a patron to associate with or as a helper to assist you against
+your enemy. **[Saʿdī]** The command is timed by their emigration; if they fail to emigrate and turn away from
+it, "seize them and kill them wherever you find them" — at any time and in any place; and this is among the
+proofs that fighting in the sacred months was abrogated, as is the position of the majority of scholars,
+while those who disagree say these are absolute texts restricted by the prohibition of fighting in the sacred
+months.
+
+**Rulings.** **[Qurṭubī]** Migration (*hijrah*) has several kinds: the migration to Madinah to support the
+Prophet ﷺ, which was obligatory in the beginning of Islam until the Prophet said, "There is no migration
+after the conquest"; the migration of one who becomes Muslim in the abode of war, which is obligatory; the
+migration of a Muslim from what God has forbidden, as the Prophet ﷺ said, "The emigrant is the one who
+abandons what God has forbidden" — and these two migrations remain in force today; and the shunning of the
+people of disobedience until they return, as a discipline, so that they are not spoken to or mixed with until
+they repent, as the Prophet ﷺ did with Kaʿb and his two companions (9:118). "Wherever you find them" is
+general as to places, in the sacred territory and outside it; and God knows best. **[Maʿārif]** Migration
+from the land of disbelief was enjoined on all Muslims during the early period of Islam; for this reason God
+prohibited treating those who failed to carry out this obligation as Muslims. Consequently, when Mecca was
+conquered, the Prophet declared, "There is no migration after the victory" — meaning that now that the
+conquest had made Mecca an abode of Islam, migration from it was no longer obligatory. **[Study Quran]** In
+v. 89 their hypocrisy and disbelief are exposed, and the Muslims are warned not to take them as protectors
+until they migrate in the way of God, that is, until they commit to settling in Madinah; but if they turn
+their backs — if they turn against the believers, as according to one report they did by eventually choosing
+to settle with the idolaters (al-Ṭūsī, al-Zamakhsharī) — they should be considered enemies, and the Muslims
+are instructed to seize them and slay them wherever they find them. Cf. 8:72, where only those who believe,
+and migrate, and strive with their wealth and themselves in the way of God, and those who sheltered and
+helped — the natives of Madinah who had embraced Islam — are protectors of one another. However, the
+situation addressed in vv. 88–90 concerns not half-committed Muslims, but disbelievers putting on an air of
+belief, who wish that you should disbelieve even as they do.
+
+**Reflection.** **[Saʿdī]** The verse exposes the hidden aim of the hypocrites' lingering: it is not
+neutrality but the wish that the believers join them in disbelief, so that all may be equal — a wish that
+converts their outward claim of faith into a design against it. **[Ṭabarī]** The remedy is therefore decisive
+rather than tentative: alliance follows faith, migration is its proof, and a community cannot be held
+together by men who wait for it to fall.
+
+**Cross-references.** "O you who believe, do not take My enemy and your enemy as allies, offering them
+affection" (60:1); "And those who believed and emigrated and strove in the way of God, and those who gave
+refuge and helped — those are allies of one another" (8:72); "But those who believed and did not emigrate —
+you have no obligation of protection toward them until they emigrate" (8:72).
+
+## 4:90
+
+*"Except those who seek refuge with a people between whom and you there is a covenant, or those who come to
+you with hearts constricted at the prospect of fighting you or fighting their own people. Had God willed, He
+would have given them power over you, and they would have fought you. So if they withdraw from you and do not
+fight you, and offer you peace, God has given you no way against them."*
+
+**Meaning.** **[Ṭabarī]** If those hypocrites turn away from faith in God and His Messenger and refuse
+migration, "seize them and kill them wherever you find them" — except those of them who reach a people
+between whom and you is a truce, a covenant and a pledge, and enter among them and become of them, content
+with their rule: for whoever reaches them and enters among them, content with their rule, gains through that
+entry the protection of his life — his women and offspring are not to be taken captive, nor his property to
+be taken as spoil. **[Jalālayn]** Except those who attach themselves to a people between whom and you there
+is a covenant, a pledge of security — for them and for whoever attaches himself to them, in the manner of the
+Prophet's covenant with Hilāl b. ʿUwaymir al-Aslamī; or those who come to you with their breasts constricted,
+dejected at the prospect of fighting you or fighting their own people — those who come to you refraining
+from fighting either you or them; then do not interfere with them, neither taking them as captives nor
+slaying them. *(This statement and what follows it, Jalālayn notes, was abrogated by the "sword" verse.)* Had
+God willed to give them sway over you, He would have given them sway over you by strengthening their hearts,
+so that they would assuredly have fought you; but God did not will it, and so He cast terror into their
+hearts. And if they stay away from you, and do not fight you, and offer you peace — that is, submit — then
+God does not allow you any way against them: He does not allow you a means to take them captive or slay them.
+**[Ibn Kathīr]** "Except those who join a group between whom and you there is a treaty of peace" — these are
+protected; and "those who approach you with their breasts restraining from fighting you as well as fighting
+their own people" are those who are unable to fight either side.
+
+**Rulings.** **[Qurṭubī]** Mujāhid, Ibn Zayd and others said "those who join a people between whom and you
+there is a covenant" means those who enter into the protection and alliance of such a people, so that they
+are not to be fought; and this is the soundest view of the verse. Then the covenants were abrogated, and this
+ruling with them, and the abrogating sūrah is *Barāʾah* (Sūrat al-Tawbah), which was revealed after the
+conquest, when the wars had ceased; and al-Ṭabarī held the same. Abū ʿUbayd said *yaṣilūna* means "they
+attach themselves by lineage," but the scholars rejected this, since lineage does not prevent fighting the
+disbelievers and killing them; al-Naḥḥās said it is a grave error, for it would imply that God forbade
+fighting anyone to whom the Muslims were related by blood — while the polytheists had blood ties with the
+earliest Muslims — and worse still is the ignorance of saying that this was then abrogated. Some scholars,
+however, understood "attaching" in the sense of protection: one who attaches himself to the people of
+protection is safe if all of them are safe. And the parties with whom the Prophet ﷺ had a covenant are
+variously identified: Banū Mudlij; the people between whom and Quraysh was a pact (al-Ḥasan); Hilāl b.
+ʿUwaymir, Surāqah b. Juʿshum and Khuzaymah b. ʿĀmir b. ʿAbd Manāf (ʿIkrimah); or Khuzāʿah.
+**[Study Quran]** The exception in v. 90 covers those who seek refuge with a people with whom you have a
+covenant; some reports say the group addressed in v. 89 eventually sought shelter with another group who had
+a treaty with the Prophet (Ṭabarī) — and thus the fighting command is suspended regarding them. Then the
+verse adds those who come to you with hearts reluctant to fight you or to fight their own people: they are
+unwilling combatants on either side, and so are left alone. "Had God willed, He could have given them
+authority over you, and then surely they would have fought you. So if they withdraw from you, and do not
+fight you, and offer peace, God allows you no way against them" — the verse thus restricts the fighting to
+those who actively wage it.
+
+**Reflection.** **[Qurṭubī]** The verse is one of the clearest statements of the Qurʾānic principle that war
+is measured by hostility and not by identity: the man who refuses to fight you and offers peace is not to be
+pursued, and the man who shelters under a covenant is to be left to his covenant, even when his own beliefs
+are not what the believers would wish. **[Saʿdī]** Note that the exemption is granted for three reasons —
+a treaty of protection, the refusal of the heart to fight, and the offer of peace — and God seals it with the
+declaration "God has given you no way against them," as if to close the door on any argument for fighting
+men who have withdrawn.
+
+**Cross-references.** "And if they incline to peace, incline to it, and trust in God" (8:61); "God does not
+forbid you, regarding those who did not fight you on account of religion and did not drive you out of your
+homes, that you be righteous and just toward them" (60:8); "And fight in the way of God those who fight you,
+and do not transgress; indeed God does not love the transgressors" (2:190).
