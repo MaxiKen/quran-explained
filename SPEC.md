@@ -1,5 +1,9 @@
 # TAFSIR — build spec (v2, lean) · 2026-10-03
 
+> **Companion documents:** **`HANDOVER.md`** — the continuation prompt and operating manual (task,
+> tools, read→write→commit cycle, effort protocol, corpus pitfalls, recovery, current state).
+> **`tools/sect.py`** — the per-verse corpus extractor used for all reading. Read both before writing.
+
 **Deliverable.** A verse-by-verse tafsir of the Qur'an. One book file per chapter: `<surah>/<slug>.md`
 (e.g. `1/al-fatihah.md`, `2/al-baqarah.md`). Sources cited inline as **[Ṭabarī]**, **[Qurṭubī]**,
 **[Ibn Kathīr]**, **[al-Jalālayn]**, **[as-Saʿdī]**, **[Maʿārif]**, **[Study Quran]**.
