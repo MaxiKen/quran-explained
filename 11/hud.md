@@ -2610,3 +2610,203 @@ days and told that they would all be destroyed on the fourth day.
 
 **Reflection.** Three days of enjoyment — the same three days the sign had asked of them in mercy — and
 then the promise that cannot be called a lie.
+
+## 11:66
+
+*"So when Our Command came, We saved Ṣāliḥ and those who believed with him, through a Mercy from Us,
+and from the disgrace of that day. Truly your Lord — He is the Strong, the Mighty."*
+
+**Meaning.** **[Ṭabarī]** When Our punishment came upon Thamūd, We saved Ṣāliḥ and those who believed
+in God with him — "through a Mercy from Us": by a blessing and favour from God — "and from the disgrace
+of that day": We saved them also from the humiliation and abasement of that day through that punishment.
+"Truly your Lord is the Strong": strong in His assault — when He seizes a thing He destroys it, as He
+destroyed Thamūd when He seized them — "the Mighty": whom no vanquisher can overcome, no overmaster can
+subdue; rather, He overcomes all things and subdues them. **[Jalālayn]** So when Our command came for
+their destruction, We delivered Ṣāliḥ and those who believed with him — they numbered four thousand —
+by a mercy from Us, and We delivered them from the ignominy of that day. Truly your Lord is the Strong,
+the Mighty, the Victor. **[Saʿdī]** When Our Command came with the descent of the punishment, We saved
+Ṣāliḥ and those who believed with him through a Mercy from Us — We saved them from the punishment, the
+disgrace and the exposure. Truly your Lord is the Strong, the Mighty — and of His strength and might is
+that He destroyed the tyrannical nations and saved the messengers and their followers. **[Ibn Kathīr]**
+"So when Our commandment came, We saved Ṣāliḥ and those who believed with him by a mercy from Us, and
+from the disgrace of that Day. Verily, your Lord — He is the All-Strong, the All-Mighty."
+
+**Context.** **[Study Quran]** As in v. 58, Our Command here refers to God's Punishment, which Ṣāliḥ
+promised would be visited upon the Thamūd (v. 65). As was the case with Hūd (11:58), Ṣāliḥ and his
+followers are said to have been saved through a Mercy from God.
+
+**Stories & occasions.** **[Ṭabarī]** ʿAmr b. Khārija related that the Messenger of God ﷺ spoke of
+Thamūd: God gave them long lives in the world, until one of them would build a dwelling of clay and it
+would crumble while the man was still alive; when they saw that, they took houses out of the mountains,
+carving, piercing and hollowing them out, living in ease of livelihood. They said, "O Ṣāliḥ, call upon
+your Lord to bring us forth a sign so we know you are God's messenger"; Ṣāliḥ called upon his Lord and
+He brought them forth the she-camel: her watering was one day, their watering a known day — on her day
+they would leave her and the water to her and milk her, filling every vessel and skin with milk, and on
+their day they would turn her away from the water. Then God revealed to Ṣāliḥ: your people will hamstring
+your she-camel. He told them and they said, "We would never do that!" He said: if you do not hamstring
+her yourselves, soon a child will be born among you who will hamstring her. They asked the sign of that
+child — "By God, we will find him and kill him!" He said: a ruddy, blue-eyed, red-haired boy. *(Isrāʾīliyyāt)*
+Two prominent, inviolable old men of the town then married their children to one another, and between
+them was born that child; and in the town were eight men who worked corruption in the earth, and they
+chose eight midwives to inspect every newborn boy. The report continues with how Qudār came to hamstring
+her, in fulfilment of the promise of the three days.
+
+**Reflection.** The mercy that saves is the same power that destroys — one attribute for the believers,
+one for the tyrants, both from one Lord, Strong and Mighty.
+
+## 11:67
+
+*"And the Cry seized those who did wrong, and morning found them lying lifeless in their abode,"*
+
+**Meaning.** **[Ṭabarī]** Those who did what it was not for them to do — hamstringing God's she-camel
+and disbelieving in Him — were seized by the Cry; they became in their dwellings lying prostrate:
+death had made them crouch and left them extinguished in their courtyards, as Qatādah said: morning
+found them destroyed. **[Jalālayn]** Those who did evil were seized by the Cry, so that they ended up
+lying lifeless, prostrate in their habitations, keeled over upon their knees, dead. **[Saʿdī]** The Cry
+seized those who did wrong: it cut through their hearts; morning found them in their dwellings
+jāthimīn — extinguished, with no movement in them. **[Ibn Kathīr]** "And As-Sayḥah, the awful Cry,
+overtook the wrongdoers, so they lay dead, prostrate in their homes."
+
+**Context.** **[Study Quran]** The punishment that befell the Thamūd is said to have been an earthquake
+(7:78) accompanied by a terrible, loud sound, which is why the punishment is also referred to here as the
+Cry; this is why morning found them lying lifeless in their abode, as though they had never dwelt there
+(see the identical wording in vv. 94–95; cf. 7:78).
+
+**Stories & occasions.** **[Maʿārif]** According to Tafsīr al-Qurṭubī, the three days of respite were
+Thursday, Friday and Saturday; on Sunday the punishment descended upon them.
+
+**Reflection.** The Cry overtook them inside the very houses they had carved for permanence — the
+mountains made tombs, and morning was the hour of their death.
+
+## 11:68
+
+*"As though they had never dwelt there. Behold! Truly Thamūd disbelieved in their Lord. Behold! Away
+with Thamūd!"*
+
+**Meaning.** **[Ṭabarī]** "As though they had never dwelt therein": as though they had never lived
+there, nor flourished in it — as Ibn ʿAbbās and Qatādah said of this phrase. Behold, truly Thamūd
+disbelieved in their Lord; behold, away with Thamūd — may God remove them far from all good. **[Jalālayn]**
+As though — *ka-an* having been softened from *ka-anna*, its subject being omitted, i.e. understand it
+as *ka-annahum* — they had not dwelt there in their dwelling-place. Lo, Thamūd disbelieved in their
+Lord; lo, away with Thamūd — which may be read declined, *li-Thamūdun*, or left indeclinable,
+*li-Thamūda*, referring to the district or the tribe. **[Saʿdī]** "As though they had never dwelt
+therein": when the punishment came to them, it was as though they had never enjoyed their dwellings,
+never found pleasure or delight in them for a single day of time; comfort had departed from them, and
+the eternal punishment — which never ceases, as though it had never ceased — had overtaken them.
+"Behold, truly Thamūd disbelieved in their Lord": they denied Him after the manifest sign had come to
+them. "Behold, away with Thamūd!": how wretched and how humiliated they are! We seek protection with
+God from the punishment of this world and its disgrace. **[Ibn Kathīr]** "No doubt! Verily, Thamūd
+disbelieved in their Lord. So away with Thamūd!" A discussion of this story has already preceded in
+Sūrat al-Aʿrāf, and it is sufficient without having to be repeated here.
+
+**Context.** **[Study Quran]** See the identical wording at vv. 94–95; the refrain "Away with" closes
+each destroyed nation's account in this sūrah (vv. 60, 68, 95).
+
+**Reflection.** A people so solid they cut their homes into mountains — and one morning leaves their
+story as if it had never been told.
+
+## 11:69
+
+*"And indeed Our messengers came to Abraham with glad tidings. They said, 'Peace!' He said, 'Peace,' and
+did not delay to bring a roasted calf."*
+
+**Meaning.** **[Ṭabarī]** God Most High says: Our messengers came — of the angels, who, as is related,
+were Gabriel and two other angels, said to have been Michael and Isrāfīl with him — to Abraham, the
+intimate friend of God, with glad tidings. They differed over what that glad tiding was: some said it
+was the glad tiding of Isaac, and some said the glad tiding of the destruction of Lot's people. "They
+said, 'Peace'": they greeted him with a greeting; *salāman* is in the accusative by the action of "they
+said" upon it — as if to say they uttered a saying and greeted with a greeting. "He said, 'Peace'":
+Abraham said to them, "Peace" — *salām* being raised as meaning "upon you be peace." The Arabs also say
+*silm* in the meaning of *salām*, as they say *ḥill* and *ḥalāl*. The Kufan readers read *qāla silm*,
+and the Hijāzī and Baṣran readers read *salām* — and both readings are close in meaning, for greeting
+hardly occurs except between people at peace with one another, so either reading is correct. "And he did
+not delay to bring a roasted calf": its root meaning is *madhnūdh*, turned from the *mafʿūl* form to
+*faʿīl*; Abū ʿUbaydah said *maḥnūdh* means roasted. **[Jalālayn]** Our messengers came to Abraham with
+good tidings of the birth of Isaac and, after him, Jacob. They said, "Peace!" — *salāman* being a verbal
+noun. He said, "Peace be upon you!" — and did not delay to bring a roasted calf. **[Ibn Kathīr]** The
+word "messengers" here means angels. It has been said that "the glad tidings" means "receive the glad
+tidings of Isaac"; others said it means the destruction of the people of Lot — the proof of the first
+view being God's statement, "Then when the fear had gone away from Abraham, and the glad tidings had
+reached him, he began to plead with Us for the people of Lot" (11:74). The scholars of tafsīr said:
+Abraham's reply *salām* was better than that with which they had greeted him, because the subjective
+case alludes to affirmation and eternity. "He hastened to entertain them with a roasted calf": he left
+with haste to bring them food as a host; *ḥanīdh* means roasted upon heated stones, as reported from Ibn
+ʿAbbās, Qatādah and others — as God says, "Then he turned to his household and brought out a fat calf,
+and placed it before them, saying: Will you not eat?" (51:26–27). This verse contains many aspects of
+the etiquettes of hosting guests. **[Saʿdī]** Our messengers — the noble angels — came to Our messenger
+Abraham the Intimate Friend with the glad tidings: when God sent them for the destruction of Lot's
+people, He commanded them to pass by Abraham and give him the glad tiding of Isaac. When they entered
+upon him, "they said, 'Peace'; he said, 'Peace'": they greeted him and he returned the greeting. In this
+is the prescripting of the salām, and that it has never ceased to be part of the religion of Abraham;
+and that the greeting precedes speech; and that the reply should be more eloquent than the
+initiation — for their greeting was in the verbal-noun form indicating occurrence, while his reply was
+in the nominal form indicating fixity and permanence, and between them is a great difference. "He did
+not delay": when they entered upon him, he hastened to his house and brought his guests a fat calf
+roasted on heated stones, placed it before them and said, "Will you not eat?"
+
+**Context.** **[Study Quran]** Our messengers, also referred to at 51:24 as the "honored guests" of
+Abraham and at 15:51 as his "guests," are said to have been a group of angels ranging, according to
+various accounts, from three to twelve in number; the glad tidings with which they came were the
+announcement of the birth of Abraham's son (see 11:71–73). The roasted calf Abraham hastened to bring
+is also described in 51:26 as a fattened calf.
+
+**Stories & occasions.** **[Maʿārif]** God sent angels to give Abraham the good news of a birth in his
+family, for he had no children from Sarah and wished he had, but they were much advanced in years and
+there was obviously no hope. The good news was of a male child, whose name was proposed as Isaac; he was
+also told that Isaac would live, have children, and that his son would be Jacob — and both would be
+messengers and prophets of God. Since the angels had come in human form, Abraham took them to be normal
+guests and lost no time in offering his hospitality. ʿAbd Allāh b. ʿAbbās said the three angels were
+Gabriel, Michael and Isrāfīl *(via Qurṭubī)*.
+
+**Reflection.** The household of the Intimate Friend runs on hospitality: the greeting answered with a
+better, the guest honoured with haste, and the best of what is owned set before strangers.
+
+## 11:70
+
+*"Then when he saw that their hands reached not toward it, he mistrusted them and conceived within
+himself a fear of them. They said, 'Fear not. Verily we have been sent unto the people of Lot.'"*
+
+**Meaning.** **[Ṭabarī]** When Abraham saw that their hands did not reach the food, he mistrusted them
+— he became uneasy with them — and conceived within himself a fear of them, before he knew their affair.
+They said: do not fear; we are messengers of God, sent to the destruction of the people of Lot.
+**[Jalālayn]** When he saw their hands not reaching to it, he was suspicious of them and conceived — he
+kept secret — in himself a fear of them. They said: Fear not; lo, we have been sent to the people of Lot
+— to destroy them. **[Ibn Kathīr]** "He mistrusted them": he felt estranged from them. "And conceived a
+fear of them": this is because angels are not concerned with food — they do not desire it nor eat it.
+When Abraham saw them reject the food without tasting any of it at all, he felt a mistrust of them.
+Al-Suddī said: when the angels reached Abraham they set out walking in the form of young men, and he
+rushed to host them; he slaughtered the calf, roasted it on hot stones and brought it to them. As for
+their saying "Fear not": do not be afraid of us — verily we are angels sent to the people of Lot in
+order to destroy them. "And after Isaac, Jacob": the son she was going to have would have a son who
+would succeed him and beget many children, for Jacob was the son of Isaac. **[Saʿdī]** "When he saw
+that their hands reached not toward it": toward that hospitality, "he mistrusted them and conceived
+within himself a fear of them" — he supposed they had come to him with evil and harm, and that was
+before he knew their affair. They said: "Fear not; we are messengers of God, sent to the destruction of
+the people of Lot."
+
+**Context.** **[Study Quran]** When Abraham saw that they did not partake of the food, he feared they
+had come with some ill intent, confirming a suspicion he had of his guests as mentioned at 51:25, where
+he refers to them as an "unfamiliar folk"; refusing to eat food brought by a host would have been a sign
+of hostility. Al-Rāzī explains that the guests did not eat because, although they came in the form of
+men, they were angels, and angels do not consume physical nourishment; for another instance of an angel
+appearing as a man, see 19:17. That the angels have been sent unto the people of Lot (cf. 15:58–60;
+51:32–34) means they have come to destroy them; according to 15:57 and 51:31, the angels' reply was
+prompted by Abraham's question, "What is your errand, O messengers?"
+
+**Stories & occasions.** **[Maʿārif]** From here we learn that there are rules of etiquette for guests
+as well: a guest should accept whatever is offered and partake of it a little to please the host, even
+if not willing. The verse also tells us the host should not consider himself absolved after placing the
+food before the guest; instead, he should be benignly watching whether the guest is partaking, as
+Abraham noticed that the angels were not eating. But this watching must be discreet, not staring —
+looking at the morsels of food being eaten by the guest is contrary to the etiquette of entertainment
+and humiliating for him, as illustrated by an incident of the Caliph Hishām b. ʿAbd al-Malik, who shared
+his spread with a rustic Arab and pointed out a strand of hair on the morsel the Arab was eating; the
+Arab rose in a huff saying, "We never eat with a person who watches our morsels." Al-Ṭabarī reports at
+this place: when the angels abstained from eating the first time, they said they did not eat free meals;
+Abraham said, "Yes, there is a price: say 'In the name of Allah' when you begin, and praise Him when you
+finish." Hearing this, Gabriel told his companions, "That God calls him His friend is correct — he
+deserves it." This tells us that saying *bismillāh* when beginning to eat and *al-ḥamdu lillāh* at its
+end is Sunnah.
+
+**Reflection.** One untouched roasted calf disclosed angels, announced a son, and condemned a city —
+the guest-house of Abraham is where the histories of three peoples turned at once.
