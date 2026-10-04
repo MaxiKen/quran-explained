@@ -2978,3 +2978,233 @@ all his affairs.
 
 **Reflection.** Clemency, tenderness, return — three qualities in one line, and they are the very
 engines of the pleading that came before them.
+
+## 11:76
+
+*"'O Abraham, turn away from this! Truly the Command of your Lord has come, and surely a punishment that
+cannot be repelled is coming upon them.'"*
+
+**Meaning.** **[Ṭabarī]** God tells of the saying of His messengers to Abraham when he pleaded with
+them concerning the people of Lot: "O Abraham, turn away from this": leave off this pleading and
+contending about them. "Truly the Command of your Lord has come": your Lord's command has come with
+their punishment; the word of punishment has become due upon them, and the decree has passed with their
+destruction. "And truly there shall come upon them a punishment that will not be repelled": a punishment
+from God shall descend upon them that cannot be warded off. **[Jalālayn]** When he had pleaded with them
+at length, they said: O Abraham, desist from this pleading. Truly your Lord's command for their
+destruction has gone forth, and truly there will come upon them a chastisement which cannot be repelled.
+**[Ibn Kathīr]** "O Ibrahim! Forsake this. Indeed, the commandment of your Lord has gone forth": the
+decree was settled concerning them, and the Word had already been given that they should be destroyed;
+the evil torment was coming to them, which cannot be averted from wicked people. **[Saʿdī]** He was
+told: "O Abraham, turn away from this pleading. Truly the Command of your Lord has come" — with their
+destruction — "and truly a punishment that will not be repelled is coming upon them": there is no benefit
+in your pleading any longer.
+
+**Context.** **[Study Quran]** "Turn away from this" is said to have been uttered by the angels; for the
+same expression in the context of the story of Joseph, see 12:29. "The Command of your Lord has come"
+means that God's Decree and Judgment have been passed concerning the people of Lot and therefore cannot
+be stopped by supplication or any other means.
+
+**Reflection.** Even the pleading of the Intimate Friend has its boundary: when the decree has come
+down, mercy yields to justice, and the argument closes.
+
+## 11:77
+
+*"And when Our messengers came to Lot, he was distressed on their account and felt himself powerless
+concerning them. And he said, 'This is a terrible day!'"*
+
+**Meaning.** **[Ṭabarī]** When Our angels came to Lot, their coming distressed him — *sīʾa* being from
+evil (*sūʾ*) — and he felt himself powerless concerning them: his soul was constricted with grief at
+their coming. That was because he did not know, at the time their coming distressed him, that they were
+God's messengers; and he knew what his people were about, of committing the abomination, and he feared
+for them; so he felt powerless because of their coming, knowing he would need to defend his guests, and
+for that reason he said: "This is a terrible day" — a day of severe affliction. **[Jalālayn]** When Our
+messengers came to Lot, he was distressed — he was grieved — on their account, and felt constrained in
+his power to protect them, because they had handsome faces and were dressed as visiting guests, and he
+feared for them from his people. He said: This is a distressful, very difficult day. **[Ibn Kathīr]**
+After the angels informed Ibrahim of their mission to destroy the people of Lut, they left him and set
+out to destroy Lut's people that very night. They approached him in the most handsome of forms, in the
+forms of young men with handsome faces — this was a test from Allah that contained much wisdom and a
+firm evidence. Their appearance saddened him, and he felt grief in his soul because of them, fearing
+that if he did not host them, someone else of his people would host them and harm them. "This is a
+distressful day": Ibn ʿAbbās and others said this means a severe test for him, because he knew he would
+have to defend them and it would cause great problems. Qatādah said: they came to him while he was on a
+piece of land that belonged to him, and requested him to host them; he agreed, but was shy of them and
+walked in front of them; on the way home he said to them, attempting to convince them to go away, "By
+Allah, I do not know any people on the face of the earth more wicked and disgusting than the people of
+this town." He walked on a little and repeated the same statement, until he had repeated it four times.
+Qatādah said: they were ordered not to destroy them until their prophet testified against them with
+this. **[Saʿdī]** When the angels who had departed from Abraham came to Lot, "he was distressed on their
+account": their coming was hard upon him, and he felt powerless concerning them, saying: "This is a
+terrible day" — severe and dire — for he knew that his people would not leave them alone, since they
+appeared as beardless youths in the utmost perfection and beauty.
+
+**Context.** **[Study Quran]** The angels went from Abraham's village to Lot's village, which was
+nearby. Since they arrived in the form of handsome male youths, Lot did not know they were angels; he
+was distressed on their account because he feared his people would attempt to have sexual relations with
+them, as the men of Lot's people were known to have sexual interest in male foreigners as well as among
+themselves; he felt himself powerless, fearing he would be unable to defend them. For the story of Lot,
+see also 7:80–84; 15:57–77; 26:160–73; 27:54–58; 29:28–35; 37:133–38; 54:33–38. Lot was the nephew of
+Abraham — some say his maternal cousin — sent to the people of Sodom and its surrounding towns.
+
+**Language.** **[Qurṭubī]** When the angels left Abraham — between him and Lot's village were four
+farsakhs — Lot's two daughters, who were drawing water, saw them with their handsome appearance, and
+asked their business; they asked whether anyone would host them, and the girls pointed to Lot. *Sīʾa
+bihim*: their coming grieved him — from *al-sūʾ*. "He felt himself powerless" (*ḍāqa bihim dharʿan*):
+his chest was constricted by their coming — the origin being that a camel strides with its forelegs
+according to the breadth of its pace, and when made to carry more than its capacity, it is too
+constricted for that, grows weak and stretches out its neck: so narrowness of stride is an expression
+for narrowness of capacity; it was also said to be from *dharaʿahu al-qayʾ* — vomiting overcame him —
+meaning he was too constrained to hold back the disliked thing in his soul. His constriction was only
+because of what he saw of their beauty and what he knew of the iniquity of his people. "A terrible day"
+(*yaum ʿaṣīb*): severe in evil — one says also *ʿaṣabṣab*, for intensification: a day that gathers
+evil.
+
+**Stories & occasions.** **[Qurṭubī]** It is related that the messengers found Lot in a field of his —
+or, it is said, they found his daughter drawing water from the river of Sodom and asked her to direct
+them to one who would host them; she feared for them from Lot's people and said, "Stay where you are!"
+and went and told her father. He came out to them and they said, "We want you to host us tonight." He
+said, "Have you not heard of what these people do?" They said, "And what do they do?" He said, "I bear
+witness by God that they are the most evil people on earth." Now God had said to His angels: do not
+punish them until Lot testifies against them four testimonies. When Lot said that, Gabriel said to his
+companions: that is one — and the saying went back and forth between them until Lot repeated the
+testimony four times; then he entered the city with them.
+
+**Reflection.** The day was terrible because the guests were beautiful — the very trial that would be
+their ruin walked into Lot's house wearing the face of beauty.
+
+## 11:78
+
+*"And his people came hurrying toward him, while earlier they had been committing evil deeds. He said,
+'O my people! These are my daughters; they are purer for you. So fear God, and disgrace me not with
+regard to my guests. Is there not among you a man of sound judgment?'"*
+
+**Meaning.** **[Ṭabarī]** His people came to Lot hastening toward him, trembling with haste, from their
+desire for the abomination. "And before this they had been committing evil deeds": they were people
+accustomed to the vice before that day. He said: O my people, these are my daughters — marry them — they
+are purer for you. So fear God, and do not disgrace me before my guests. Is there not among you a man of
+sound judgment — to enjoin decency and forbid indecency? **[Jalālayn]** His people, when they became
+aware of them, came to him running, hastening toward him — and previously, before they came, they had
+been committing abominations, namely penetrative intercourse with men. He said: O my people, here are my
+daughters — marry them; they are purer for you. So fear God and do not degrade me — do not disgrace me
+before my guests. Is there not among you any upright man to enjoin decency and forbid indecency? **[Ibn
+Kathīr]** "Here are my daughters, they are purer for you": this was his attempt to direct them to their
+women, for verily the prophet is like a father for his nation, and he tries to guide them to what is
+better for them in this life and the Hereafter. Mujāhid said: actually, they were not his daughters, but
+they were from among his nation — every prophet is like a father to his nation; a similar statement is
+reported from Qatādah and others. "So have Taqwa of Allah and disgrace me not with regard to my
+guests": accept what I command you by limiting the fulfilment of your desires to your women. "Is there
+not among you a single right-minded man?" — a good man who will accept what I enjoin upon you and
+abandon what I have forbidden you. "You know that we have no need of your daughters": you know we do not
+want our women nor desire them. "And indeed you know well what we want": we only want males, and you know
+that — so what need is there for you to continue speaking to us about this? **[Saʿdī]** What he had
+feared came to pass: "his people came hurrying toward him," hastening, desiring his guests for the
+abomination they used to commit — "and before this they had been committing evil deeds": the abomination
+that no one in all the worlds had preceded them to. He said: "O my people, these are my daughters; they
+are purer for you" — than my guests; this is as Solomon proposed to the two women to cut the disputed
+child, to extract the truth: knowing that his daughters were unattainable and that the people had no
+right to them, while the supreme aim was to ward off this greatest abomination. "So fear God, and do not
+disgrace me before my guests": either observe the fear of God, or consider me with respect to my guests
+and do not disgrace me before them. "Is there not among you a man of sound judgment," to forbid you and
+restrain you? This is evidence of their dissolution and their stripping away of good and manliness.
+
+**Rulings.** **[Maʿārif]** When Lot realised it was difficult to protect his guests, he tried to divert
+his people from their evil advances by telling them he would give his daughters in marriage to their
+chiefs, if they stopped their evil-mongering. The marriage of a believing girl with a disbelieving man
+was permissible at that time; the practice continued up to the early period of the Holy Prophet ﷺ — he
+had given two of his daughters in marriage to ʿUtbah ibn Abī Lahab and Abū al-ʿĀṣ ibn al-Rabīʿ, though
+both were disbelievers. Later came the verses that prohibited the marriage of Muslim women with
+disbelieving men as ḥarām *(Qurṭubī)*. According to some commentators, "my daughters" here means the
+daughters of the whole community, because every prophet is like a father to his people and the whole
+community is his spiritual progeny — supported by 33:6, "The Prophet comes first with the believers
+against their own selves, and his wives are like their mothers," with the additional words "and he is
+like a father to them" as they appear in the reading of ʿAbd Allāh b. Masʿūd. According to this tafsīr,
+Lot's statement would mean: leave this evil habit of yours, behave like gentlemen, marry girls from your
+people and have them as your wives.
+
+**Language.** **[Qurṭubī]** "They came hurrying" (*yuhraʿūn*): al-Kisāʾī and al-Farrāʾ: the *ihrāʿ* is
+only haste accompanied by trembling — from cold, anger or fever. Ibn ʿAbbās, Qatādah and al-Suddī: they
+were trotting; al-Ḍaḥḥāk: hastening; Ibn ʿUyaynah: as if they were being driven; Shimir b. ʿAṭiyyah: a
+walk between trotting and gallop. The cause of their haste, as related, was that Lot's disbelieving
+wife, when she saw the guests and their beauty and appearance, went to the assemblies of her people and
+said, "Tonight Lot has hosted young men whose like has never been seen for beauty" — whereupon they
+came hurrying to him. Over "these are my daughters," it was said he had three daughters of his own loins;
+others said two — Zaytā and Zaʿwarāʾ — and he wished to marry them to two obeyed leaders among them. It
+was said he invited them in this state to marriage, since their custom permitted a disbeliever to marry
+a believing woman — as was permitted at the beginning of Islam before being abrogated. Mujāhid and Saʿīd
+b. Jubayr held he meant the women collectively, since the prophet of a people is a father to them.
+ʿIkrimah held he did not offer them his daughters nor the daughters of his nation — he only said it so
+they would desist. Ibn ʿAbbās: their leaders had proposed for his daughters and he had refused them, and
+on that day he wished to ransom his guests with his daughters. The alif of *aṭhar* is not for
+comparison — as if there were purity in marrying men — but like your saying "God is greater," without
+comparison.
+
+**Reflection.** A prophet offers the dearest thing he owns to buy one night of safety for his guests —
+and the mob answers that they already know what they want.
+
+## 11:79
+
+*"They said, 'You know full well that we have no right to your daughters, and you know well what we
+desire.'"*
+
+**Meaning.** **[Ṭabarī]** They said: you know that we have no share nor desire for your daughters, and
+you know well what we desire — of your guests. **[Jalālayn]** They said: You know full well that we have
+no right to, no need of, your daughters; and you know well what we desire, in the way of sexual
+intercourse with men. **[Saʿdī]** They said: "You know full well that we have no right to your
+daughters, and you know well what we desire": we desire nothing but men, and we have no inclination
+toward women. **[Ibn Kathīr]** "Verily, you know that we do not want our women, nor do we desire them.
+We only want males, and you know that."
+
+**Language.** **[Qurṭubī]** It is related that Lot's people had proposed for his daughters and he had
+refused them; their custom was that whoever was refused in proposing for a woman could never lawfully
+have her — and that is their saying, "You know full well that we have no right to your daughters." The
+sound face of the speech is: we have no attachment to your daughters, they are not our aim, and we have
+no habit of seeking that. "And you know well what we desire": an allusion to the guests.
+
+**Reflection.** The sentence is terrible in its plainness: a whole nation declaring, without shame, that
+its desire is fixed on what God has forbidden.
+
+## 11:80
+
+*"He said, 'Would that I had strength to resist you, or could resort to some strong support!'"*
+
+**Meaning.** **[Ṭabarī]** Lot said to his people when they refused anything but pressing on to the
+abomination they had come seeking, and he despaired of their accepting anything he offered them: "Would
+that I had strength against you" — helpers to help me and assistants against you — "or could resort to
+some strong support": a protecting tribe that would shield me from you — then I would come between you
+and what you seek from my guests. The apodosis of "would that" (*law*) is omitted because the speech
+indicates it. Al-Suddī: a strong force, and I would have fought you. Qatādah and al-Ḥasan: the tribe.
+**[Jalālayn]** He said: Would that I had strength, power to resist you, or could resort to some strong
+support — to some clan that would help me — I would surely fall upon you. **[Saʿdī]** Lot's distress
+grew intense and he said: "Would that I had strength against you, or could resort to some strong
+support," like a protecting tribe — then I would have barred you. This is with respect to tangible
+means; otherwise, he was resorting to the strongest of supports: God, before whose strength nothing can
+stand.
+
+**Stories & occasions.** **[Ibn Kathīr]** In this regard there is a ḥadīth reported from Abū Hurayrah
+that the Messenger of Allah ﷺ said: "May Allah's mercy be upon Lut — he betook himself to a powerful
+support, namely Allah, Mighty and Majestic. Allah did not send any prophet after him except amidst an
+influential family among his people." **[Maʿārif]** Seeing Lot's anxiety, the angels disclosed their
+identity: do not worry — your group is very strong and powerful; we are angels of Allah; they cannot
+touch us; we have come to execute the punishment for them. The report in Tirmidhī carries the further
+sentence: after Lut, Allah sent no prophet whose clan or tribe was not his supporter. This was true in
+the case of the Holy Prophet ﷺ: the disbelieving Quraysh did everything they could against him, but his
+entire clan supported him though they did not agree with him religion-wise — Banū Hāshim as a whole
+sided with him in the boycott. It is reported from ʿAbd Allāh b. ʿAbbās that when Lot's people mobbed
+his home, he had closed the entrance door; the conversation went on from behind it, the angels inside,
+and the mob threatening to jump the walls and break the door. When the angels saw this anxiety they
+disclosed their real identity and asked him to open the door; when it was opened, Gabriel pointed his
+"feather" toward their eyes; they turned blind and started running. **[Qurṭubī]** Al-Bukhārī, from Abū
+Hurayrah: the Messenger of God ﷺ said, "May God have mercy on Lot — he betook himself to a strong
+support"; Tirmidhī added: "God sent no prophet after him except in a multitude of his people." It is
+related that when his people overcame Lot and sought to break the door while he held it, the messengers
+said, "Move away from the door"; he moved away, the door opened, and Gabriel struck them with his wing
+and effaced their eyes, and they went back blind, saying, "Save yourselves!" — as God said: "They
+assailed him concerning his guest, and We effaced their eyes" (54:37). Ibn ʿAbbās and the commentators:
+Lot had locked his door with the angels inside the house, debating his people and adjuring them from
+behind the door while they tried to scale the wall; when the angels saw the effort, grief and toil he
+suffered on their account, they said: O Lot, your support is indeed strong, and a punishment that will
+not be repelled is coming upon them; we are the messengers of your Lord — open the door and leave us with
+them.
+
+**Reflection.** His wish named only the means — and the angels answered that his true support had been
+standing inside the house all along.
