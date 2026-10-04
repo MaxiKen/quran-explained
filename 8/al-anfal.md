@@ -219,3 +219,103 @@
 **Belief.** Hearing in this context is not merely receiving sound: it entails attention and response. The Study Quran relates the verse to other passages that make obedience to the Messenger a central expression of obedience to God. **[Study Quran]**
 
 **Reflection.** The difference between attentive faith and empty profession is whether what one hears is allowed to shape what one does. **[Saʿdī] [Maʿārif]**
+
+## 8:21
+
+*“Do not be like those who say, ‘We have heard,’ when they do not hear.”*
+
+**Meaning.** The warning is against hearing with the ears while refusing to take a message into the heart. Al-Ṭabarī describes people who listened to the Qur’an but neither reflected on it nor let its counsel benefit them; al-Jalālayn and the Study Quran include both idolaters and hypocrites among those who claim to hear without heeding. **[Ṭabarī] [Jalālayn] [Study Quran]**
+
+**Belief.** As-Saʿdī contrasts empty profession with faith that settles in the heart and is confirmed by action. **[Saʿdī]**
+
+**Reflection.** Listening becomes meaningful when it changes conduct. The verse asks believers not to confuse exposure to guidance with having responded to it. **[Maʿārif] [Ibn Kathīr]**
+
+## 8:22
+
+*“Truly the worst of living creatures in God’s sight are the deaf and dumb who do not understand.”*
+
+**Meaning.** “Deaf” and “dumb” describe a moral and spiritual refusal: they will not hear truth in order to consider it, nor speak it when it is due, and so fail to use reason to choose what benefits them. **[Ṭabarī] [Jalālayn] [Saʿdī]** The image is of human faculties deliberately left unused, not a judgment about people with literal hearing or speech impairments. The verse’s force lies in the contrast between the gifts of hearing, speech, and understanding and the choice to turn away. **[Ibn Kathīr] [Study Quran]**
+
+**Cross-references.** The Study Quran points to the Qur’an’s recurring language of spiritual deafness and blindness, and to 22:46, which locates true blindness in the heart. **[Study Quran]**
+
+**Reflection.** Knowledge becomes a trust: the more clearly a person can hear and understand, the greater the responsibility to respond honestly. **[Saʿdī]**
+
+## 8:23
+
+*“Had God known any good in them, He would have made them hear; and had He made them hear, they would have turned away, averse.”*
+
+**Meaning.** “Hear” here means to receive the message with understanding that can bear fruit, not merely to register its sound. The verse describes people so set against the truth that even further exposure would not move them to accept it. **[Ṭabarī] [Saʿdī] [Maʿārif]**
+
+**Belief.** The Study Quran notes that exegetes have related this verse to divine foreknowledge and human responsibility. Its immediate warning is against a willful, settled refusal to listen; it should not be reduced to a claim that sincere seeking is futile. **[Study Quran]**
+
+**Reflection.** A person should ask not only whether the evidence has been heard, but whether the heart remains willing to be corrected by it. **[Jalālayn] [Saʿdī]**
+
+## 8:24
+
+*“O you who believe, respond to God and the Messenger when he calls you to that which gives you life; and know that God comes between a man and his heart, and that unto Him you shall be gathered.”*
+
+**Meaning.** “That which gives you life” has been explained as faith, the Qur’an, truth, or the struggle by which the community is protected; these readings converge on guidance that gives life to the heart and leads to lasting good. **[Ṭabarī] [Maʿārif] [Study Quran]** To respond is to obey promptly, not merely to hear. **[Qurṭubī] [Saʿdī]** “God comes between a person and his heart” reminds people that He knows and governs their innermost state and can turn hearts; the verse therefore warns against postponing obedience. All will finally return to Him for judgment. **[Jalālayn] [Saʿdī]**
+
+**Ḥadīth & āthār.** Ibn Kathīr cites al-Bukhārī’s report of Abū Saʿīd b. al-Muʿallā, whom the Prophet called while he was praying; after he answered, the Prophet recalled this verse as a command to respond to God and His Messenger. **[Ibn Kathīr]**
+
+**Reflection.** Revelation is life-giving because it orders the heart toward its Creator and gives action a moral direction. **[Saʿdī] [Maʿārif]**
+
+## 8:25
+
+*“Beware of a trial that will not afflict only those among you who do wrong; and know that God is severe in retribution.”*
+
+**Meaning.** *Fitnah* can mean a test, strife, or affliction. The warning is that wrongdoing left to spread can bring consequences beyond the people who first commit it. **[Ṭabarī] [Jalālayn]** As-Saʿdī and Qurṭubī connect protection from such a communal trial with refusing to normalize injustice and, when able, correcting wrongdoing. **[Saʿdī] [Qurṭubī]**
+
+**Ḥadīth & āthār.** Qurṭubī cites the parable of people aboard a ship: if those below deck make a hole rather than ask those above for water, all are endangered. The image explains how tolerated harm can spread through a community. **[Qurṭubī] [Study Quran]** The Study Quran also notes reports linking the verse to the later civil strife at the Battle of the Camel, when al-Zubayr is said to have recognized its warning.
+
+**Reflection.** Avoiding collective harm requires more than personal innocence; it also calls for responsible care when others’ actions threaten the whole. **[Saʿdī] [Maʿārif]**
+
+## 8:26
+
+*“Remember when you were few, oppressed in the land, fearing that people would snatch you away; then He sheltered you, strengthened you with His help, and provided you with good things, that you might give thanks.”*
+
+**Context.** The verse recalls the Muslims’ vulnerable years in Mecca, before the migration to Madīnah gave them refuge and a community able to defend itself. **[Ibn Kathīr] [Maʿārif]**
+
+**Meaning.** They had been few and exposed to persecution, fearing that their enemies might seize or destroy them. God then gave them shelter in Madīnah, aided them at Badr, and provided lawful sustenance, including the spoils mentioned earlier in the sūrah. **[Ṭabarī] [Jalālayn] [Saʿdī]** The command to remember makes gratitude the fitting response to their changed circumstances. **[Study Quran]**
+
+**Reflection.** Recalling former vulnerability guards a community against arrogance when it gains safety or resources. Gratitude means worshipping God and using His gifts in obedience, not treating them as proof of self-sufficiency. **[Saʿdī] [Maʿārif]**
+
+## 8:27
+
+*“O you who believe, do not betray God and the Messenger, nor knowingly betray your trusts.”*
+
+**Meaning.** Betrayal includes neglecting God’s commands, violating the Messenger’s trust, or failing people in duties placed in one’s care. Al-Ṭabarī also records reports about secretly disclosing Muslim plans to the Quraysh; Maʿārif emphasizes both duties owed to God and rights owed among people. **[Ṭabarī] [Maʿārif]**
+
+**Stories & occasions.** Jalālayn and Qurṭubī associate the warning with Abū Lubābah, who signaled to Banū Qurayẓah that they faced execution when they consulted him. Ibn Kathīr also transmits a report about Ḥāṭib b. Abī Baltaʿah’s letter to Quraysh before the conquest of Mecca. These reports differ in their occasion, while the wording applies generally to knowingly betraying a trust. **[Jalālayn] [Qurṭubī] [Ibn Kathīr]**
+
+**Reflection.** A trust is not limited to property or a secret; religious obligations, promises, and other people’s rights all demand integrity. **[Saʿdī]**
+
+## 8:28
+
+*“Know that your wealth and your children are only a trial, and that with God is a tremendous reward.”*
+
+**Meaning.** Wealth and children are gifts, but also tests: attachment to them can tempt a person to neglect duties or compromise a trust. The verse does not condemn family or provision; it calls believers to care for them without letting love for them displace obedience to God. **[Jalālayn] [Saʿdī] [Maʿārif]**
+
+**Context.** Read after the prohibition on betrayal, the verse warns that the desire to protect or enrich one’s household can sometimes lead people to disclose what should be kept in confidence or to withhold what is due. **[Maʿārif] [Ibn Kathīr]**
+
+**Reflection.** The lasting reward with God gives perspective: a finite good should not be pursued by sacrificing the duties that make it truly good. **[Study Quran] [Saʿdī]**
+
+## 8:29
+
+*“O you who believe, if you are mindful of God, He will grant you a criterion, absolve you of your misdeeds, and forgive you; God is Possessed of tremendous bounty.”*
+
+**Meaning.** *Furqān* means a criterion that distinguishes truth from falsehood; commentators also explain it as guidance, deliverance, or help against an enemy. **[Ṭabarī] [Ibn Kathīr] [Study Quran]** God’s gift to the God-conscious includes discernment, the erasure of wrongs, and forgiveness. **[Jalālayn] [Saʿdī] [Maʿārif]**
+
+**Context.** The command to be mindful of God follows the warning against betraying trusts and letting material attachments overrule duty. Here it is paired with both moral clarity and pardon. **[Maʿārif] [Saʿdī]**
+
+**Reflection.** Taqwā is not only restraint from wrongdoing; it trains the heart to see what is right and gives a person a way back after failure. The closing phrase keeps these gifts grounded in God’s generosity. **[Saʿdī]**
+
+## 8:30
+
+*“Remember when those who disbelieved plotted against you to imprison you, kill you, or expel you. They plotted, and God planned; God is the best of planners.”*
+
+**Context.** The verse recalls the Quraysh council at Dār al-Nadwah before the Hijrah. They considered confining the Prophet, killing him, or driving him from Mecca; their leaders ultimately planned a joint assassination by young men from different clans. **[Ṭabarī] [Qurṭubī] [Saʿdī] [Ibn Kathīr]**
+
+**Meaning.** Their plan was defeated when the Prophet was warned and left for Madīnah. God’s “planning” means that He countered their design and brought about an outcome they could not prevent; it does not carry the blameworthy sense of deceit that the word can have when applied to human wrongdoing. **[Jalālayn] [Study Quran] [Maʿārif]**
+
+**Reflection.** The migration that looked like an escape from persecution became the beginning of a secure community. The verse teaches that the apparent success of a hostile plan does not place the future beyond God’s wisdom. **[Saʿdī] [Study Quran]**
