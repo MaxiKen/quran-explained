@@ -934,3 +934,167 @@ characterizing the spiritually insensible as blind and deaf (2:171; 6:104; 13:19
 
 **Reflection.** The doubling answers the leading: one portion for going astray and one for taking others
 along; and the ears that refused the truth in comfort are not granted it in the Fire.
+
+## 11:21
+
+*"Those are they who have lost their souls, and what they used to fabricate has strayed away from them."*
+
+**Meaning.** **[Ṭabarī]** These whose description this is have defrauded their own souls of their portion
+of God's mercy; "and what they used to fabricate has strayed away from them": their lying, their slander
+and their fabrication against God — their claim of partners for Him — has perished. What they used to
+invoke as gods apart from God has gone off on a different path from theirs: had it been stone, wood or
+bronze in this world, it has become nothingness in their hands; and had what they invoked been a friend of
+God, he has been taken to Paradise — which likewise is not their path, and likewise a straying away from
+them. **[Jalālayn]** They have lost their souls, for their journey's end is the Fire, made everlasting for
+them; and what they used to invent of lies against God — the claim that He has a partner — has failed
+them: it is absent before them. **[Saʿdī]** They lost their souls by forfeiting the greatest reward and
+deserving the severest torment; the religion they called to and beautified has vanished, and their gods
+whom they worshipped apart from God have availed them nothing when the command of your Lord came.
+
+**Cross-references.** **[Study Quran]** One is ultimately forsaken by what one has fabricated — false
+idols, ideas and religious beliefs: see 6:24, 54; 10:30; 16:87; 28:75.
+
+**Reflection.** The loss here is not of property but of the self: everything fabricated for the soul's
+defence abandons it at the end, and only the truth a person refused remains standing.
+
+## 11:22
+
+*"Without doubt, in the Hereafter they shall be the greatest losers."*
+
+**Meaning.** **[Ṭabarī]** Truly these people whose description this is — in this world and in the
+Hereafter — are the greatest losers: they have sold their dwellings in the Gardens for the dwellings of
+the people of Paradise in the Fire, and that is the manifest loss. The Arabs say *jaramtu* in the sense
+of earning a sin, and *lā jaram* confirms what follows. **[Jalālayn]** Without doubt they will be the
+greatest losers in the Hereafter. **[Saʿdī]** *Lā jaram*: truly and certainly they are, in the Hereafter,
+the greatest losers — loss is confined to them, and indeed the severest degree of it is assigned to them,
+for the intensity of their regret, their deprivation, and the hardship of the torment they must endure; we
+seek refuge in God from their state.
+
+**Language.** **[Qurṭubī]** The scholars differ over *lā jaram*. Al-Khalīl and Sībawayh: it is in the
+meaning of "truly" (*ḥaqqan*), *lā* and *jaram* together forming one word, with *anna* in the nominative —
+also the view of al-Farrāʾ and Muḥammad b. Yazīd; and from al-Khalīl also that it means "inevitably, of
+necessity." Al-Zajjāj: *lā* here is a negation refuting their claim that the idols would benefit them —
+"that shall not benefit them" — and *jaram* means "earned": that deed earned loss for them, as the poet
+says, "for what his hands earned (*bi-mā jaramat yadāhu*)." Al-Kisāʾī: there is no hindering and no
+preventing. And it is said: no cutter cuts it off — *jarm* being cutting, as one says of the palm whose
+dates are cut off *jaramtu n-nakhla*.
+
+**Reflection.** The scale of the Hereafter is reversed from the world's: those who seemed to gain there by
+power and cunning are certified here as the greatest losers, and the verdict carries the confirmation of
+*lā jaram* — truly, inevitably.
+
+## 11:23
+
+*"Truly those who believe and do righteous deeds and humble themselves before their Lord — those are the
+inhabitants of the Garden; therein they shall abide."*
+
+**Meaning.** **[Ṭabarī]** Those who believe God and His Messenger and work in this world in obedience to
+God — "and humble themselves (*akhbatū*) to their Lord": the interpreters differed over *ikhbāt* — Ibn
+ʿAbbās and Qatādah said: they turned back to their Lord in repentance (*inābah*); in another report from
+Ibn ʿAbbās: they feared; and Mujāhid: they were tranquil. **[Jalālayn]** Truly those who believe and
+perform righteous deeds and humble themselves — who are at peace and feel reassured, or who repent — before
+their Lord: such shall be the inhabitants of Paradise, abiding therein. **[Ibn Kathīr]** When God mentioned
+the condition of the wretched, He commended the people of delight: their hearts believed and their limbs
+worked righteousness in statements and actions, performing obedience and abandoning evils — they are the
+inheritors of Gardens containing lofty rooms and seats arranged in rows, with clusters of fruit near at
+hand, elevated couches, fair spouses, fruits and foods and delicious drinks; they will be allowed to see
+the Creator of the heavens and the earth, in pleasure forever: they will not die nor grow old, not sicken
+nor sleep; there will be no excrement, no spitting, no mucus, and their sweat will be the perfume of
+musk. **[Saʿdī]** They believe with their hearts — affirming and acknowledging all that God commanded
+belief in, the foundations of the religion and its rules; they do righteous deeds, comprising the works of
+hearts and limbs and the sayings of the tongue; and they humble themselves to their Lord: submitting to
+His greatness, yielding to His majesty, humbled before His dominion, returning to Him with His love, His
+fear, His hope and supplication. Those who have gathered these qualities are the inhabitants of the Garden,
+abiding therein — for they have left no sought-after good they did not attain, nor any good in which they
+did not race ahead.
+
+**Language.** **[Qurṭubī]** Ibn ʿAbbās: *akhbatū* means they turned back (*anābū*); Mujāhid: they obeyed;
+Qatādah: they were humbly reverent and submissive (*khashaʿū wa-khaḍaʿū*); Muqātil: they were sincere;
+al-Ḥasan: *ikhbāt* is the humility of awe established in the heart. The root of *ikhbāt* is levelness,
+from *khabt*, a wide, level land — so *ikhbāt* is humility and tranquillity, or turning back to God in
+continuous levelness of state. Al-Farrāʾ: "to their Lord" and "for their Lord" are one; the meaning may
+also be: they directed their humility toward their Lord.
+
+**Cross-references.** **[Study Quran]** "Humble" means penitent and fearful (Bg), and can also describe
+those in a state of peace in the remembrance of God (Ṭs), as in 13:28: "Those who believe, and whose
+hearts are at peace in the remembrance of God."
+
+**Reflection.** Faith, work and humility are the three strands the Garden is woven from — belief without
+deed is idle, deed without humility is display, and humility before the Lord is what keeps both sincere.
+
+## 11:24
+
+*"The parable of the two parties is as the blind and the deaf, and the seeing and the hearing. Are they
+equal in parable? Will you not then remember?"*
+
+**Meaning.** **[Ṭabarī]** The parable of the two parties of disbelief and faith: the blind who sees
+nothing with his eye and the deaf who hears nothing — such is the party of disbelief: it does not see the
+truth so as to follow it and act on it, being preoccupied with its disbelief, overcome by God's
+abandonment, and it does not hear God's caller to guidance so as to answer him and be guided by him; it
+remains in its error, wandering in its bewilderment. And the seeing and the hearing: that is the party of
+faith — it saw God's proofs, acknowledged what they indicated of His oneness, the disavowal of idols and
+rivals, and the prophethood of the prophets; it heard God's caller, answered him, and worked in obedience
+to God. Ibn ʿAbbās: the blind and the deaf are the disbeliever; the seeing and the hearing the believer.
+**[Jalālayn]** The likeness and description of the two parties — the disbelievers and the believers — is as
+the blind and the deaf, this being the likeness of the disbeliever, and the seeing and the hearing, this
+being the likeness of the believer. Are they equal in likeness? No! Will you not then remember — the
+original tāʾ of *tatadhakkarūn* having been assimilated into the dhāl — will you not be admonished?
+**[Ibn Kathīr]** The first group is like one blind and deaf, the second like one seeing and hearing: the
+disbeliever is blind to the truth in this life and the Hereafter, not guided to good nor recognizing it,
+and deaf to the proofs, not hearing what would benefit him — "Had God known of any good in them, He would
+indeed have made them listen" (8:23); the believer is bright and clever: he sees the truth, distinguishes
+it from falsehood, follows the good and abandons the evil. **[Saʿdī]** The two parties — the wretched and
+the happy — are like the blind and the deaf, and the seeing and the hearing; they are not equal in
+parable: between them is a difference no description can encompass. "Will you not then remember?" — the
+deeds that benefit you, so that you do them, and the deeds that harm you, so that you leave them.
+
+**Language.** **[Qurṭubī]** Al-Akhfash: the meaning is "like the parable of the blind"; al-Naḥḥās: the
+estimate is, "the parable of the party of the disbeliever is as the blind and the deaf, and the parable of
+the party of the believer is as the hearing and the seeing" — which is why He says "are the two equal,"
+returning to the two parties, as related from Qatādah; al-Ḍaḥḥāk likewise. "In parable" (*mathalan*) is
+accusative of specification.
+
+**Cross-references.** **[Study Quran]** The two groups are those who fabricate lies against God (vv.
+18–22) and those who believe and act righteously (v. 23): the former are spiritually blind and deaf,
+unable to see God's signs or hear His word (Aj); the question "are they equal when compared?" is like
+"Are those who know and those who do not know equal?" (39:9).
+
+**Reflection.** The parable compresses the whole dispute of the sūrah into one image: the question was
+never about power but about senses — whether a heart can still see and hear what it was made for.
+
+## 11:25
+
+*"And We sent Nūḥ to his people: 'Truly I am to you a clear warner —'"*
+
+**Meaning.** **[Ṭabarī]** We sent Nūḥ to his people: I am to you, O people, a warner from God, warning
+you of His punishment for your disbelief in Him — so believe in Him and obey His command. "Clear": making
+clear to you what I have been sent with of God's command and prohibition. The reciters differed over
+*innī*: most of the Kufans and some Medinans read it with kasr, beginning anew, since "sending" contains
+the meaning of "saying"; others read *annī* with fatḥa, letting "sending" govern it, as though the meaning
+were: We sent Nūḥ to his people with "I am to you a clear warner." Ṭabarī holds the two readings to agree
+in meaning, so whichever a reciter reads, he is correct. **[Jalālayn]** He said: "I am to you a clear
+warner," one whose warning is plain; *annī* has the variant *innī*, in which case "he said" is
+understood. **[Ibn Kathīr]** God informs about the prophet Nūḥ, the first messenger God sent to the
+people of the earth, who had become polytheists worshipping idols; "a clear warner" means: openly warning
+you against facing God's punishment if you continue worshipping other than God. **[Saʿdī]** We sent Nūḥ —
+the first of the messengers — to his people, calling them to God and forbidding them shirk; he said, "I am
+to you a clear warner": I have made plain to you what I warn you of, with a clarity that removes all
+ambiguity.
+
+**Context.** **[Qurṭubī]** God mentions the stories of the prophets to His prophet ﷺ to alert him to
+steadfast patience under the harm of the disbelievers, until God suffices him against them. Ibn Kathīr,
+Abū ʿAmr and al-Kisāʾī read *annī* with fatḥa — "We sent him with *annī*, I am to you a clear warner";
+He did not say *innahu* because the speech turns from the absent third person to Nūḥ's own address to his
+people, as in "We wrote for him on the Tablets of everything" then "So take them with strength" (7:145).
+**[Study Quran]** The story of Nūḥ serves as the introduction to the stories of the punished and
+destroyed peoples that fill the remainder of the sūrah (see 7:59–64; 10:71–73; 23:23–30; 26:105–21;
+37:75–82; 54:9–15; Sūrah 71). Nūḥ describes himself as a clear warner (see also 71:2): warning of the
+impending punishment and of the way to avoid it (Bḍ).
+
+**Belief.** **[Maʿārif]** When Nūḥ invited his people to believe, they answered with doubts and
+objections against the truth of his mission; with God's will and permission he answered their questions —
+and from this dialogue many primary and subsidiary rulings relating to honesty and social living emerge as
+corollaries.
+
+**Reflection.** Every messenger enters his nation's story with the same first word — warning — because
+mercy begins by telling the traveller the cliff is ahead.
