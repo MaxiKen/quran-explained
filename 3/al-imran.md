@@ -489,3 +489,25 @@ al-Karīm al-Raḥmān* · **[Maʿārif]** *Maʿārif al-Qurʾān* · **[Study Q
 **Reflection.** The verse redirects attention from self-assuring claims to the deeds for which each person will answer. **[Saʿdī]** stresses that this accounting is governed by perfect justice: no one is wronged, and each receives the consequence of what they chose.
 
 ---
+
+## 3:26
+
+*Say, “O God, Master of Sovereignty: You give sovereignty to whom You will and take it from whom You will; You exalt whom You will and abase whom You will. In Your hand is all good. Truly, You are powerful over all things.”*
+
+**Meaning.** This prayer declares that sovereignty belongs wholly to God, who gives and withdraws rule and grants honor or humiliation as He wills **[Ṭabarī] [Ibn Kathīr] [Saʿdī]**. **[Ṭabarī]** understands the kingdom as dominion over this world and the Hereafter; **[Qurṭubī]** records readings that it can mean prophethood, victory, wealth, or rule, and **[Study Quran]** notes that some commentators understand it specifically as prophethood. **[Ibn Kathīr]** connects this to the transfer of prophethood from the Children of Israel to Muḥammad ﷺ and the spread of his community’s rule. “In Your hand is good” affirms that all bounty comes from God **[Saʿdī]**. **[Qurṭubī]** records that some understand evil to be included implicitly, while others say good is singled out because the prayer seeks God’s bounty. **[Saʿdī]** cautions that evil is within God’s decree but should not be attributed to Him as a name, attribute, or action.
+
+**Context.** **[Jalālayn] [Qurṭubī]** relate the prayer to the Prophet’s ﷺ promise that the Muslims would inherit Persian and Byzantine lands, which hypocrites and Jews mocked. **[Qurṭubī]** places one report after the conquest of Mecca; **[Study Quran]** also notes a report that the Prophet asked God to grant those kingdoms to his community. **[Qurṭubī]** further records an interpretation that the verse refutes Christians of Najrān who claimed Jesus was God, since sovereignty and power belong to God alone.
+
+**Ḥadīth & āthār.** **[Qurṭubī]** transmits a report that Fātiḥa, Āyat al-Kursī, 3:18, and this supplication hang from the Throne; whoever recites them after each obligatory prayer is promised a holy abode, seventy divine looks and seventy answered needs, protection from enemies, and entry to Paradise unless death intervenes *(weak)* *(digression)*. He also relates a story in which the Prophet ﷺ teaches this prayer to Muʿādh when a Jewish creditor’s claim keeps him from Friday prayer; a supporting chain he cites through ʿAṭāʾ al-Khurāsānī is mursal *(weak)* *(digression)*.
+
+**Belief.** **[Ibn Kathīr]** presents the verse as a call to gratitude and trust: God chooses whom to honor with prophethood and rule, and no one can divide or overrule His mercy. **[Saʿdī]** emphasizes that the rise and fall of nations, like the passage of time, lie under God’s wise governance.
+
+**Language.** *Allāhumma* is an invocation meaning “O God”; grammarians differ over whether its final *mīm* replaces the vocative *yā* or derives from a phrase meaning “O God, bring us good” **[Ṭabarī] [Qurṭubī] [Study Quran]**. *Mālik al-mulk* means Master of sovereignty; *mulk* can denote rule, possession, or dominion **[Qurṭubī] [Study Quran]**.
+
+**Stories & occasions.** **[Maʿārif]** places the promise of Muslim ascendancy at the Battle of the Trench. While the Prophet ﷺ and his Companions were digging, he struck a rock that flashed; he said he saw the palaces of Persia, the Byzantine lands, and Sanʿāʾ, and that his community would prevail there. The hypocrites mocked the prediction while the Muslims were hungry and under siege. **[Maʿārif]** relates this as the occasion for the verse; other reports in **[Jalālayn] [Qurṭubī]** connect it with the promised conquest of Persia and Byzantium.
+
+**Cross-references.** The objection that revelation should have been sent to a “great man” of Mecca or Ṭāʾif, and God’s answer that He distributes mercy: 43:31–32 **[Ibn Kathīr]**. God chooses where to place His message: 6:124 **[Ibn Kathīr]**. God’s dominion over all things: 67:1 **[Study Quran]**.
+
+**Reflection.** **[Ibn Kathīr] [Saʿdī]** present the prayer as both gratitude and trust: the rise and fall of political powers remain under God’s wise governance, so neither pride in power nor despair in weakness is warranted.
+
+---
