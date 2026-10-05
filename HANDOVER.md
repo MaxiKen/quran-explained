@@ -20,9 +20,9 @@ source tag occurrence, including repeats and multiple tags supporting one point.
 or pad with duplicated prose to satisfy a numerical floor.
 
 **Run status:** The original Sūrah 2 run through **2:100** is complete. In the user-authorized
-continuation, **2:101–2:130** have now been written and independently audited for at least 800 words of
-commentary prose and 20 inline source-citation occurrences per verse. Continue through **2:200**, beginning
-at **2:131**, in seven remaining ten-verse batches. Preserve the deletions of Sūrahs 3 and 4.
+continuation, **2:101–2:140** are present and independently audited for at least 800 words of commentary
+prose and 20 inline source-citation occurrences per verse. Continue through **2:200**, beginning at
+**2:141**, in six remaining ten-verse batches. Preserve the deletions of Sūrahs 3 and 4.
 
 ### 0.1 Starter message — current continuation
 
@@ -30,8 +30,8 @@ at **2:131**, in seven remaining ten-verse batches. Preserve the deletions of S�
 You are continuing the verse-by-verse tafsir in this repo (MaxiKen/quran-explained).
 
 1. Read HANDOVER.md and SPEC.md before making any changes.
-2. The first run is complete through 2:100 and the continuation is complete through 2:130. Continue
-   with 2:131–2:200 in seven consecutive batches of ten, saving and auditing each batch before proceeding.
+2. The first run is complete through 2:100 and the continuation is complete through 2:140. Continue
+   with 2:141–2:200 in six consecutive batches of ten, saving and auditing each batch before proceeding.
 3. For 2:101–2:200, every entry must have at least 800 words of commentary prose and 20 inline
    source-attribution occurrences. Exclude the translation, marker, labels, and tags from the prose count;
    count each exact source-tag occurrence, including repeats. Qur'anic references do not count.
@@ -62,7 +62,7 @@ quran-explained/
 ├── HANDOVER.md             # operating manual and current progress
 ├── tools/sect.py           # per-verse source extractor
 ├── 1/al-fatihah.md         # completed style reference
-├── 2/al-baqarah.md         # complete through 2:130; next continuation batch is 2:131–2:140
+├── 2/al-baqarah.md         # complete through 2:140; next continuation batch is 2:141–2:150
 ├── 3/ and 4/               # intentionally absent after user's deletion request
 └── tafsir-* / tafsir_initial/ # read-only corpora for seven sources
 ```
@@ -431,8 +431,12 @@ bold-label convention.
   useful explanation.
 - Do not add filler or misattribute claims to satisfy a quota. Accurate synthesis takes precedence;
   document a genuine exception rather than fabricate evidence.
-- Count the verse body between its heading and the next verse heading. Include translation and labels;
-  exclude chapter introduction/header and any Arabic written in the heading.
+- For the original 2:1–2:100 run, count the verse body between headings, including translation and
+  labels, but excluding the chapter introduction/header and Arabic written in the heading.
+- **Continuation clarification for 2:101–2:200:** count at least 800 words of commentary prose only.
+  Exclude the English translation, standalone verse-number marker, commentary labels, and inline source
+  tags; audit the 20 source-tag occurrences separately. This stricter prose-only rule governs every
+  continuation batch and overrides the general convention above.
 
 ### 7.4 Citations
 
@@ -499,8 +503,10 @@ bold-label convention.
 
 ## 9. Quality control (per ten-verse batch and per chapter)
 
-For each batch, verify its ten headings and the two minima **entry by entry**. For the current first
-batch, expected verse numbers are 1–10; adjust the range for later batches.
+For each batch, verify its ten headings and the two minima **entry by entry**. For the original
+2:1–2:100 run, the general body-word count includes translations and labels. For 2:101–2:200, apply the
+stricter prose-only count: exclude the translation, standalone marker, labels, and source tags; count
+source tags separately. A batch average never compensates for an individual verse below a minimum.
 
 ```bash
 python3 - <<'PY'
@@ -564,8 +570,8 @@ python3 /home/user/sect.py sizes 2:1 2:2 2:3
 ```
 
 The deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional, committed in PR #84, and must be preserved.
-`2/al-baqarah.md` is complete through 2:130; do not recreate or overwrite it from 2:1. The current
-user-authorized continuation is 2:101–2:200, with 2:131–2:200 still to be written and Sūrahs 3 and 4
+`2/al-baqarah.md` is complete through 2:140; do not recreate or overwrite it from 2:1. The current
+user-authorized continuation is 2:101–2:200, with 2:141–2:200 still to be written and Sūrahs 3 and 4
 remaining deleted.
 
 ## 12. Current state & exact next action (2026-10-05)
@@ -598,27 +604,33 @@ remaining deleted.
 - Content was committed in ten batch commits on `arena/01a10a35-quran-explained`; the final content
   commit is `823c730` (`Chapter 2: add 2:91-2:100 (seven sources)`). An additional audit fix for 2:33
   is `29b55cd`.
-- The user-authorized continuation covers **2:101–2:200**. Verses **2:101–2:130** are now present in
+- The user-authorized continuation covers **2:101–2:200**. Verses **2:101–2:140** are present in
   `2/al-baqarah.md` and independently audited at ≥800 words of commentary prose and ≥20 inline source
-  citations each. Minimum audited prose/citation counts are 805/34 for 2:101–2:110, 806/45 for
-  2:111–2:120, and 823/35 for 2:121–2:130. Continue without a check-in at 2:131.
+  citations each. Across 2:101–2:140 there are **33,806 prose words** and **1,888 source-tag occurrences**.
+  The minimum audited prose/tag counts are 805/34 for 2:101–2:110, 806/45 for 2:111–2:120,
+  823/35 for 2:121–2:130, and **807/40 for 2:131–2:140**. Every verse in the new batch has been
+  source-reviewed against all seven approved tafsīr sources. A separate source-accuracy review of
+  2:121–2:130 remains pending.
 - The Sūrah 3 and 4 deletions are part of the open PR and must remain; keep them out of chapter-content
   commits. `/home/user/sect.py` is the convenience copy of `tools/sect.py`.
 - Work remains on `arena/01a10a35-quran-explained`, with PR #84 open; new commits and pushes on this
   branch update that PR.
 
 **Next action:**
-1. Continue at **2:131**. Write, audit, and save 2:131–2:140, then proceed immediately through 2:200.
+1. Continue without a check-in at **2:141**. Write, audit, and save 2:141–2:150, then proceed in
+   ten-verse batches through 2:200.
 2. For every verse in 2:101–2:200, verify ≥800 words of commentary prose and ≥20 inline source tags
-   independently; exclude the translation, marker, labels, and source tags from the prose count.
-3. Commit the completed batch at each ten-verse boundary. Preserve the deletions of Sūrahs 3 and 4.
+   independently; exclude the translation, standalone marker, labels, and source tags from the prose count.
+3. Keep the pending source-accuracy review of 2:121–2:130 on the final review list. Commit each completed
+   ten-verse batch and preserve the deletions of Sūrahs 3 and 4.
 
 ## 13. One-paragraph restatement for the incoming model
 
 The first Sūrah 2 run is complete through 2:100; the user-authorized continuation covers 2:101–2:200,
-with commentary written and audited through 2:130. Continue at 2:131 in ten-verse batches. Each entry
+with commentary written and audited through 2:140. Continue at 2:141 in six ten-verse batches. Each entry
 must independently meet 800 words of commentary prose and 20 inline source citations; exclude the
-translation, marker, labels, and source tags from the prose count. Read all seven approved tafsīr sources,
-count every exact source-tag occurrence including repeats, and do not count Qur'anic cross-references as
-citations. Save and audit each batch, then continue without a check-in. Preserve `3/al-imran.md` and
-`4/an-nisa.md` as deleted, work only on `arena/01a10a35-quran-explained`, and push only to that branch.
+translation, standalone marker, labels, and source tags from the prose count. Read all seven approved tafsīr
+sources, count every exact source-tag occurrence including repeats, and do not count Qur'anic cross-references
+as citations. Save and audit each batch, then continue without a check-in. A source-accuracy review of
+2:121–2:130 is still pending. Preserve `3/al-imran.md` and `4/an-nisa.md` as deleted, work only on
+`arena/01a10a35-quran-explained`, and push only to that branch.
