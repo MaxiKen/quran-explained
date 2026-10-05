@@ -1,4 +1,4 @@
-# TAFSIR — build spec (v3) · 2026-10-05
+# TAFSIR — build spec (v4) · 2026-10-05
 
 > **Companion documents:** `HANDOVER.md` is the continuation prompt and operating manual; `tools/sect.py` is the per-verse corpus extractor. Read both documents before writing.
 
@@ -60,9 +60,9 @@ Meet the thresholds through accurate, relevant source attribution and useful syn
 5. Do not quote long Arabic passages. Translate or paraphrase responsibly; preserve essential Arabic terms where needed.
 6. Where sources treat consecutive verses as a unit, still create a separately headed entry for every verse and explain the verse-level relation accurately.
 
-## 5. Ten-verse iteration protocol for the current run
+## 5. Ten-verse iteration protocol for the 2:101–2:200 continuation
 
-- Start at **2:1**. The target is **100 verses**, written in **10 iterations of 10 consecutive verses**: 2:1–2:10, 2:11–2:20, …, 2:91–2:100.
+- Continue at **2:101**. The target is **100 verses**, written in **10 iterations of 10 consecutive verses**: 2:101–2:110, 2:111–2:120, …, 2:191–2:200.
 - At every iteration, size and read the ten verses as a batch across all seven sources, then write and verify those ten entries together. Be fast and focused, but do not skip a source or a verse.
 - Save after every ten-verse iteration, then immediately continue with the next iteration in the same run. Do not pause for a check-in between iterations.
 - For each entry, verify both minima independently (≥800 words and ≥20 source-citation occurrences). A batch average does not compensate for an individual entry below either minimum.
@@ -70,4 +70,4 @@ Meet the thresholds through accurate, relevant source attribution and useful syn
 
 ## 6. Verification before saving a batch
 
-For the current Sūrah 2 run, confirm that each verse in the batch appears exactly once and meets both per-entry floors. Count only the seven standard inline source tags, once per occurrence. A quick audit can be done with Python by splitting the Markdown on verse headings and counting whitespace-delimited words plus every occurrence of the seven exact source tags. Then inspect the diff and ensure no source was attributed without support.
+For the current Sūrah 2 continuation, confirm that each verse in the batch appears exactly once and meets both per-entry floors. Count only the seven standard inline source tags, once per occurrence. A quick audit can be done with Python by splitting the Markdown on verse headings and counting whitespace-delimited words plus every occurrence of the seven exact source tags. Then inspect the diff and ensure no source was attributed without support.

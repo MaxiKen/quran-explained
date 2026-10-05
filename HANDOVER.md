@@ -6,7 +6,7 @@ the effort protocol, the pitfalls, and the recovery procedures — sufficient to
 the work from the current state without further guidance.
 **Companion files:** `SPEC.md` (the binding format spec), `tools/sect.py` (the extractor tool), and
 `1/al-fatihah.md` (the available completed-chapter style reference). The original Sūrah 2 run through
-2:100 is complete (see §12); the deletions of Sūrahs 3 and 4 remain staged and must stay out of chapter commits.
+2:100 is complete (see §12); removals of Sūrahs 3 and 4 are included in the open PR and must stay out of chapter-content commits.
 
 ---
 
@@ -19,28 +19,26 @@ limits is recommended and advised whenever the sources support further useful ex
 source tag occurrence, including repeats and multiple tags supporting one point. Never invent citations
 or pad with duplicated prose to satisfy a numerical floor.
 
-**Run status:** The Sūrah 2 assignment through **2:100** is complete in ten consecutive ten-verse
-batches. The final per-verse audit confirms all 100 entries meet both floors (800 words and 20 inline
-source citations). No further verses are in the current scope; if continuation is later requested, the
-next verse is 2:101. The deletions of Sūrahs 3 and 4 remain staged and must not be included in chapter
-content commits.
+**Run status:** The original Sūrah 2 run through **2:100** is complete and audited. The user has now
+requested a continuation through **2:200**, beginning at **2:101** in ten consecutive ten-verse batches.
+Apply the same per-entry floors (800 words and 20 inline source citations), audit and save each batch,
+and continue without a check-in. The deletions of Sūrahs 3 and 4 remain part of the branch.
 
-### 0.1 Starter message — current status
+### 0.1 Starter message — current continuation
 
 ```text
 You are continuing the verse-by-verse tafsir in this repo (MaxiKen/quran-explained).
 
 1. Read HANDOVER.md and SPEC.md before making any changes.
-2. The original Sūrah 2 run is complete: 2/al-baqarah.md contains 2:1–2:100, audited at ≥800 words
-   and ≥20 inline source-attribution occurrences per verse. Do not repeat or replace completed content.
-3. No additional verses are in scope unless the user asks. If continuation is requested, the next verse
-   is 2:101; preserve the existing chapter and all user changes.
-4. Count individual source-attribution occurrences (e.g. **[Saʿdī]**), including repeats. Cite only
-   sources that support the material; preserve weak/Israelite/digressive flags and do not pad or invent.
-5. Keep `3/al-imran.md` and `4/an-nisa.md` deleted/staged for deletion; do not restore them or include
-   those deletions in a chapter-content commit.
-6. Work only on `arena/01a10a35-quran-explained`. Do not push unless requested. If the workspace looks
-   reset, inspect branch, status, and logs before any recovery; never hard-reset user work.
+2. The previous run is complete through 2:100. Continue with 2:101–2:200 in ten consecutive batches
+   of ten verses, saving and auditing each batch before immediately proceeding to the next.
+3. Every entry must have at least 800 whitespace-separated words and 20 inline source-attribution
+   occurrences. Count each exact source-tag occurrence, including repeats; Qur'anic references do not count.
+4. Read all seven approved source corpora per verse, cite only supported material, preserve required
+   weak/Israelite/digressive flags, and do not pad or invent citations.
+5. Keep the already-requested deletions of `3/al-imran.md` and `4/an-nisa.md`; do not restore them.
+6. Work only on `arena/01a10a35-quran-explained`. Do not discard user work with a hard reset. If a hard
+   limit prevents completion, report the last saved verse and exact next verse.
 ```
 
 ---
@@ -63,7 +61,7 @@ quran-explained/
 ├── HANDOVER.md             # operating manual and current progress
 ├── tools/sect.py           # per-verse source extractor
 ├── 1/al-fatihah.md         # completed style reference
-├── 2/al-baqarah.md         # completed and audited commentary for 2:1–2:100
+├── 2/al-baqarah.md         # audited through 2:100; continuation target is 2:101–2:200
 ├── 3/ and 4/               # intentionally absent after user's deletion request
 └── tafsir-* / tafsir_initial/ # read-only corpora for seven sources
 ```
@@ -85,8 +83,8 @@ quran-explained/
    between sources, without duplicating prose.
 7. **English prose only**, with Arabic retained for the verse and indispensable terms. Keep weak,
    Israelite, or digressive material only with the required flags.
-8. **Ten-verse iterations.** In the current run, do ten iterations (ten consecutive verses each) to
-   reach 100 verses from 2:1 through 2:100. Read, write, check, and save one batch at a time, then
+8. **Ten-verse iterations.** The original run covered 2:1–2:100; the current continuation covers
+   2:101–2:200 in ten consecutive batches of ten. Read, write, check, and save each batch, then
    continue immediately in the same run.
 
 ## 3. Corpora (read-only inputs)
@@ -299,10 +297,10 @@ if __name__ == '__main__':
 
 ---
 
-## 5. Ten-verse operating cycle (protocol used for the completed run)
+## 5. Ten-verse operating cycle (used in 2:1–2:100; apply to 2:101–2:200)
 
-The workflow below records the protocol used for 2:1–2:100. That run is complete; reuse this
-procedure only for future verse batches the user authorizes.
+The workflow below records the protocol used for the completed 2:1–2:100 run. The same procedure
+applies to the user-authorized continuation, 2:101–2:200.
 
 ### Step 0 — Workspace sanity check
 
@@ -310,23 +308,23 @@ procedure only for future verse batches the user authorizes.
 cd /home/user/quran-explained
 git branch --show-current
 git status --short
-python3 /home/user/sect.py sizes 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 2:9 2:10
+python3 /home/user/sect.py sizes 2:101 2:102 2:103 2:104 2:105 2:106 2:107 2:108 2:109 2:110
 ```
 
 The fixed session branch is `arena/01a10a35-quran-explained`. Inspect pre-existing staged changes
-before saving. The completed run restored only `2/al-baqarah.md`; deletions of Sūrahs 3 and 4 remain
-staged and must not be mixed into chapter-content commits. Do not run a destructive reset to make the
-tree appear clean.
+before saving. The completed earlier run restored only `2/al-baqarah.md` through 2:100; deletions of
+Sūrahs 3 and 4 remain in the PR and must not be mixed into chapter-content commits. Do not run a
+destructive reset to make the tree appear clean.
 
 ### Step 1 — Size the next ten verses together
 
-Historical example — first iteration:
+First continuation batch:
 
 ```bash
-python3 /home/user/sect.py sizes 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 2:9 2:10
+python3 /home/user/sect.py sizes 2:101 2:102 2:103 2:104 2:105 2:106 2:107 2:108 2:109 2:110
 ```
 
-Subsequent iterations use 2:11–2:20, 2:21–2:30, and so on through 2:91–2:100. Read ten verses
+Subsequent batches use 2:111–2:120, 2:121–2:130, and so on through 2:191–2:200. Read ten verses
 per iteration, not one verse per iteration.
 
 ### Step 2 — Read all seven sources for the ten-verse batch
@@ -360,13 +358,14 @@ session branch if the configured remote accepts it.
 
 ### Step 5 — Continue immediately
 
-During the original run, proceed to the next ten-verse iteration without pausing for a check-in; its
-ten batches ended at 2:100. That run is complete. For any future authorized batch, save at a clean
-ten-verse boundary and report the exact next verse if a hard system/session limit prevents completion.
+For the current continuation, proceed to the next ten-verse batch without pausing for a check-in; the
+ten batches end at 2:200. Save at every clean ten-verse boundary and continue immediately. If a hard
+system/session limit prevents completion, report the last saved verse and exact next verse.
 
-## 6. Effort protocol — original ten iterations / one hundred verses (completed)
+## 6. Effort protocol — original run complete; continuation active
 
 - **Original target, now met:** Sūrah 2, verses 2:1–2:100, in ten sequential batches of ten.
+- **Current target:** Sūrah 2, verses 2:101–2:200, in ten sequential batches of ten.
 - **Read ten verses at every iteration.** For each batch, size and read all seven sources for those
   ten verses, then write and check the ten entries before continuing.
 - **One continuous run:** finish all ten iterations without a mid-batch check-in or pause for approval.
@@ -563,9 +562,9 @@ cp tools/sect.py /home/user/sect.py
 python3 /home/user/sect.py sizes 2:1 2:2 2:3
 ```
 
-The staged deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional and must be preserved.
-`2/al-baqarah.md` is committed through 2:100; do not recreate or overwrite it from 2:1. If the user
-requests further work, continue from 2:101 while preserving Sūrahs 3 and 4 as deleted.
+The deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional, committed in PR #84, and must be preserved.
+`2/al-baqarah.md` is committed through 2:100; do not recreate or overwrite it from 2:1. The current
+user-authorized continuation is 2:101–2:200, with Sūrahs 3 and 4 remaining deleted.
 
 ## 12. Current state & exact next action (2026-10-05)
 
@@ -597,21 +596,24 @@ requests further work, continue from 2:101 while preserving Sūrahs 3 and 4 as d
 - Content was committed in ten batch commits on `arena/01a10a35-quran-explained`; the final content
   commit is `823c730` (`Chapter 2: add 2:91-2:100 (seven sources)`). An additional audit fix for 2:33
   is `29b55cd`.
-- No push was performed. `3/al-imran.md` and `4/an-nisa.md` remain staged for deletion; keep those
-  deletions out of chapter-content commits. `/home/user/sect.py` is the convenience copy of
-  `tools/sect.py`.
+- The user has now authorized continuation through **2:200**. At the start of this continuation, verses
+  2:101–2:200 remain to be written and audited in ten-verse batches.
+- The Sūrah 3 and 4 deletions are part of the open PR and must remain; keep them out of chapter-content
+  commits. `/home/user/sect.py` is the convenience copy of `tools/sect.py`.
+- Work remains on `arena/01a10a35-quran-explained`, with PR #84 open; new commits and pushes on this
+  branch update that PR.
 
 **Next action:**
-1. The requested 2:1–2:100 run is complete; do not repeat or extend it without new user direction.
-2. If the user explicitly requests continuation, begin at **2:101** and preserve the audited entries.
-3. Keep working on `arena/01a10a35-quran-explained`; do not restore Sūrahs 3 or 4 or push unless asked.
+1. Continue at **2:101**. Write, audit, and save 2:101–2:110, then proceed immediately through 2:200.
+2. Each verse needs at least 800 words and at least 20 inline source-attribution occurrences, counted
+   separately; verify all ten entries before saving each batch.
+3. Commit only `2/al-baqarah.md` at each batch boundary. Preserve the deletions of Sūrahs 3 and 4.
 
 ## 13. One-paragraph restatement for the incoming model
 
-The initial Sūrah 2 run is complete: `2/al-baqarah.md` covers 2:1–2:100 in ten audited ten-verse
-batches, and every entry meets the minimum of 800 words and 20 individual source-attribution
-occurrences. Do not repeat or extend the completed range unless the user asks. If continuation is
-requested, begin at 2:101; retain accurate citations to the seven approved tafsīr sources, count every
-tag occurrence (including repeats), and do not count Qur'anic cross-references. Keep the staged
-deletions of `3/al-imran.md` and `4/an-nisa.md` out of chapter-content commits, work only on
-`arena/01a10a35-quran-explained`, and do not push unless requested.
+The first Sūrah 2 run is complete through 2:100; the user-authorized continuation now covers 2:101–2:200
+in ten consecutive batches of ten. Each new entry must meet the 800-word and 20-inline-source-citation
+minimums independently. Read all seven approved tafsīr sources, count every source-tag occurrence
+(including repeats), and exclude Qur'anic cross-references from citation counts. Save and audit every
+batch, then continue without a check-in. Keep the deletions of `3/al-imran.md` and `4/an-nisa.md`,
+work only on `arena/01a10a35-quran-explained`, and push updates to the existing PR when needed.
