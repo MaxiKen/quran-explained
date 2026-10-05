@@ -20,15 +20,18 @@ source tag occurrence, including repeats and multiple tags supporting one point.
 or pad with duplicated prose to satisfy a numerical floor.
 
 **Run status:** The original Sūrah 2 run through **2:100** and the continuation through **2:200** are
-complete. The user authorized continuation through **2:286**. Batches through **2:270** are appended to
-`2/al-baqarah.md`; every entry in 2:201–2:270 meets the 800-word commentary-prose floor and has at least
-20 inline source-tag occurrences. The 2:261–2:270 prose/tag counts are 2:261 952/64; 2:262 890/64;
-2:263 834/64; 2:264 889/62; 2:265 843/67; 2:266 866/61; 2:267 842/60; 2:268 837/66;
-2:269 852/66; 2:270 821/60. Next is **2:271–2:280**. The Study Quran section for 2:251 is empty,
-and the Maʿārif excerpt returned for 2:259 is misaligned with 2:258; neither was cited for those verses.
-A separate Ṭabarī 2:251 source-accuracy audit remains incomplete: ranges 7000:18000 and 26000:30000
-have not been reviewed. The separate source-accuracy review of **2:121–2:130** also remains pending.
-Preserve the Sūrah 3 and 4 deletions.
+complete. The user authorized continuation through **2:286**. Batches through **2:280** are appended to
+`2/al-baqarah.md`; every entry in 2:201–2:280 meets the 800-word commentary-prose floor and has at least
+20 inline source-tag occurrences. The latest 2:271–2:280 prose/tag counts are 2:271 855/69; 2:272 860/60;
+2:273 842/63; 2:274 849/64; 2:275 945/71; 2:276 839/61; 2:277 834/61; 2:278 861/70;
+2:279 839/63; 2:280 853/60. The final batch, **2:281–2:286**, remains. All seven sources were reviewed
+for the latest batch; reported identifications and occasions are qualified rather than treated as definitive.
+The theological excursus at 2:272, legal discussions at 2:273, 2:275, 2:279, and 2:280, and Maʿārif's
+contemporary economic excursus at 2:275–2:276 are marked as digressions. The Study Quran discussion for
+2:279 is in the adjacent 2:278–279 block. The Study Quran section for 2:251 is empty, and the Maʿārif
+excerpt returned for 2:259 is misaligned with 2:258; neither was cited for those verses. A separate Ṭabarī
+2:251 source-accuracy audit remains incomplete: ranges 7000:18000 and 26000:30000 have not been reviewed.
+The separate source-accuracy review of **2:121–2:130** also remains pending. Preserve the Sūrah 3 and 4 deletions.
 
 ### 0.1 Starter message — current status
 
@@ -37,8 +40,8 @@ You are continuing the verse-by-verse tafsir in this repo (MaxiKen/quran-explain
 
 1. Read HANDOVER.md and SPEC.md before making any changes.
 2. The original run through 2:100 and the continuation through 2:200 are complete. The user
-   authorized continuation through **2:286**. Batches 2:201–2:270 are appended and audited; next is
-   2:271–2:280. Continue through the final 2:281–2:286 batch without a check-in.
+   authorized continuation through **2:286**. Batches 2:201–2:280 are appended and audited; the final
+   batch is 2:281–2:286. Continue to the end without a check-in.
 3. Every entry in 2:101–2:200 was audited to the clarified prose-only floor. For 2:201–2:286, no new
    prose-only counting rule was specified; the general body-word convention in SPEC.md applies. For
    robustness, the commentary prose itself is kept above 800 words and source tags are counted separately.
@@ -68,7 +71,7 @@ quran-explained/
 ├── HANDOVER.md             # operating manual and current progress
 ├── tools/sect.py           # per-verse source extractor
 ├── 1/al-fatihah.md         # completed style reference
-├── 2/al-baqarah.md         # complete through 2:270; user-authorized extension remains in progress through 2:286
+├── 2/al-baqarah.md         # complete through 2:280; user-authorized extension remains in progress through 2:286
 ├── 3/ and 4/               # intentionally absent after user's deletion request
 └── tafsir-* / tafsir_initial/ # read-only corpora for seven sources
 ```
@@ -377,7 +380,7 @@ report the last saved verse and exact next verse.
 
 - **Original target, now met:** Sūrah 2, verses 2:1–2:100, in ten sequential batches of ten.
 - **Completed continuation:** Sūrah 2, verses 2:101–2:200, in ten sequential batches of ten.
-- **New active target:** Sūrah 2, verses 2:201–2:286, in eight sequential batches of ten and a final six-verse batch; 2:201–2:270 is complete, and 2:271–2:280 is next.
+- **New active target:** Sūrah 2, verses 2:201–2:286, in eight sequential batches of ten and a final six-verse batch; 2:201–2:280 is complete, and 2:281–2:286 is next.
 - **Read ten verses at every iteration.** For each batch, size and read all seven sources for those
   ten verses, then write and check the ten entries before continuing.
 - **One continuous run:** finish all ten iterations without a mid-batch check-in or pause for approval.
@@ -600,8 +603,8 @@ python3 /home/user/sect.py sizes 2:1 2:2 2:3
 ```
 
 The deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional, committed in PR #84, and must be preserved.
-`2/al-baqarah.md` is complete through 2:270; do not recreate or overwrite it from 2:1. The user has
-authorized continuation through 2:286; verses 2:201–2:270 are finished and the next batch is 2:271–2:280.
+`2/al-baqarah.md` is complete through 2:280; do not recreate or overwrite it from 2:1. The user has
+authorized continuation through 2:286; verses 2:201–2:280 are finished and the final batch is 2:281–2:286.
 Preserve the deletions of Sūrahs 3 and 4. The separate source-accuracy reviews of 2:121–2:130 and the
 remaining Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 are still pending.
 
@@ -660,11 +663,11 @@ remaining Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 are still pending.
   The final batch, 2:191–2:200, has per-verse prose/tag counts: 2:191 860/57; 2:192 987/70;
   2:193 985/71; 2:194 882/62; 2:195 929/70; 2:196 954/70; 2:197 859/72; 2:198 855/70;
   2:199 922/63; 2:200 898/67.
-- The 2:101–2:200 continuation and the new 2:201–2:270 batches are present in `2/al-baqarah.md`; the
-  new scope is through 2:286. Batch scratch drafts remain untracked, including `.batch-251-260.tmp.md`
-  and `.batch-261-270.tmp.md`. At batch boundaries, keep the Sūrah 3 and 4 deletions and all scratch
-  files unstaged and out of chapter-content commits. `/home/user/sect.py` is a restored and verified
-  convenience copy of `tools/sect.py`.
+- The 2:101–2:200 continuation and the new 2:201–2:280 batches are present in `2/al-baqarah.md`; the
+  new scope is through 2:286. Batch scratch drafts remain untracked, including `.batch-251-260.tmp.md`,
+  `.batch-261-270.tmp.md`, and `.batch-271-280.tmp.md`. At batch boundaries, keep the Sūrah 3 and 4
+  deletions and all scratch files unstaged and out of chapter-content commits. `/home/user/sect.py` is a
+  restored and verified convenience copy of `tools/sect.py`.
 - Audit of 2:201–2:210 (commentary-prose words / inline source-tag occurrences): 2:201 903/65;
   2:202 926/63; 2:203 917/61; 2:204 921/69; 2:205 901/75; 2:206 902/70; 2:207 962/74;
   2:208 918/72; 2:209 892/69; 2:210 1,078/73.
@@ -693,14 +696,20 @@ remaining Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 are still pending.
   donation occasion at 2:267 is qualified because one transmitted chain is weak, and the legal excursus
   on zakat at 2:267 and vow-law details at 2:270 are marked as digressions. The Study Quran 2:263 and
   2:265 discussions are contained in adjacent 2:262–263 and 2:264–265 blocks, respectively.
+- Audit of 2:271–2:280 (commentary-prose words / inline source-tag occurrences): 2:271 855/69;
+  2:272 860/60; 2:273 842/63; 2:274 849/64; 2:275 945/71; 2:276 839/61; 2:277 834/61;
+  2:278 861/70; 2:279 839/63; 2:280 853/60. Every entry exceeds both floors and cites all seven
+  sources. Reported occasions at 2:273–2:274 and the historical setting at 2:278 are presented as
+  transmitted explanations, not as definitive identifications. The Study Quran discussion at 2:279
+  shares a block with 2:278. The source digressions are flagged in the text; no weak report is presented
+  as an established fact.
 - The remaining Ṭabarī 2:251 source-review ranges 7000:18000 and 26000:30000 have not been reviewed;
   that source-accuracy audit remains pending, as does the separate 2:121–2:130 review.
 - Work remains on `arena/01a10a35-quran-explained`; commits and any requested pushes must target only
   that branch.
 
 **Next action:**
-1. Continue the new user-authorized extension at 2:271–2:280, then finish with 2:281–2:286. The
-   2:201–2:270 batches are appended and audited.
+1. Complete the final six-verse batch at 2:281–2:286. Batches 2:201–2:280 are appended and audited.
 2. For 2:201–2:286, apply the general word-count convention in SPEC.md unless the user clarifies otherwise;
    audit source-tag occurrences separately and cite only source-supported claims.
 3. Keep the separate source-accuracy review of 2:121–2:130 on the follow-up list; it is distinct from
@@ -712,10 +721,11 @@ remaining Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 are still pending.
 The original Sūrah 2 run is complete through 2:100, and the user-authorized continuation through 2:200
 is complete. Every entry from 2:101–2:200 was independently audited for at least 800 words of commentary
 prose and 20 inline source-attribution occurrences. The authorized continuation through 2:286 has been
-appended and audited through 2:270; 2:271–2:280 is next. For 2:201–2:286, apply the general body-word
-convention while keeping commentary prose above 800 words and auditing source tags separately. Cite only
-material supported by the seven approved tafsīr sources, and do not use the misaligned Maʿārif 2:259 excerpt
-or cite the empty Study Quran 2:251 block. The Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 remain
-unreviewed, and a separate source-accuracy review of 2:121–2:130 is still pending. Preserve the deletions of
+appended and audited through 2:280; the final six-verse batch, 2:281–2:286, is next. For 2:201–2:286,
+apply the general body-word convention while keeping commentary prose above 800 words and auditing source
+tags separately. Cite only material supported by the seven approved tafsīr sources, and do not use the
+misaligned Maʿārif 2:259 excerpt or cite the empty Study Quran 2:251 block. The Ṭabarī 2:251 ranges
+7000:18000 and 26000:30000 remain unreviewed, and a separate source-accuracy review of 2:121–2:130 is
+still pending. Preserve the deletions of
 `3/al-imran.md` and `4/an-nisa.md`; work only on `arena/01a10a35-quran-explained` and push only to that
 branch if pushing is requested.

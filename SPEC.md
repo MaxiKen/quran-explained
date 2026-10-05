@@ -81,16 +81,17 @@ Meet the thresholds through accurate, relevant source attribution and useful syn
 
 ### Progress snapshot (2026-10-05)
 
-The continuation is appended and audited through **2:270**; the next batch is **2:271–2:280**. The
-2:261–2:270 commentary-prose/source-tag counts are 2:261 952/64; 2:262 890/64; 2:263 834/64;
-2:264 889/62; 2:265 843/67; 2:266 866/61; 2:267 842/60; 2:268 837/66; 2:269 852/66;
-2:270 821/60. All entries exceed the 800-word commentary-prose and 20-source-tag floors. The report
-about inferior date donations at 2:267 is identified as an occasion report; one transmitted chain is
-weak. The legal excursus on zakat at 2:267 and vow-law details at 2:270 are marked as digressions.
-The Study Quran discussions for 2:263 and 2:265 occur in adjacent multi-verse blocks. The separate
-source-accuracy reviews of 2:121–2:130 and Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 remain
-pending. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for 2:259 is
-misaligned with 2:258; neither was cited for those verses.
+The continuation is appended and audited through **2:280**; the final batch is **2:281–2:286**. The
+2:271–2:280 commentary-prose/source-tag counts are 2:271 855/69; 2:272 860/60; 2:273 842/63;
+2:274 849/64; 2:275 945/71; 2:276 839/61; 2:277 834/61; 2:278 861/70; 2:279 839/63;
+2:280 853/60. All entries exceed the 800-word commentary-prose and 20-source-tag floors, with tags from
+all seven sources. Reported identifications at 2:273–2:274 and the historical setting at 2:278 are
+qualified rather than treated as definitive. Digressions in the batch are marked: theological debate at
+2:272, legal questions at 2:273, 2:275, 2:279, and 2:280, and Maʿārif’s modern economic excursus at
+2:275–2:276. The Study Quran discussion for 2:279 is included in its adjacent 2:278–279 block. The
+separate source-accuracy reviews of 2:121–2:130 and Ṭabarī 2:251 ranges 7000:18000 and 26000:30000
+remain pending. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for
+2:259 is misaligned with 2:258; neither was cited for those verses.
 
 ## 6. Verification before saving a batch
 
