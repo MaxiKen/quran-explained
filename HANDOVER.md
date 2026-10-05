@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:50** (50 entries). Five batches written so far, each audited
+**Status:** `3/al-imran.md` covers **3:1–3:60** (60 entries). Six batches written so far, each audited
 independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -751,8 +751,10 @@ independently. Commentary-prose words / inline source-tag occurrences:
   3:36 1,746/47; 3:37 1,721/53; 3:38 1,104/34; 3:39 1,506/44; 3:40 1,286/41.
 - Batch 5 (3:41–3:50): 3:41 1,583/42; 3:42 1,464/39; 3:43 865/32; 3:44 2,044/41; 3:45 1,975/43;
   3:46 1,574/46; 3:47 1,418/37; 3:48 1,339/40; 3:49 2,781/54; 3:50 1,988/47.
+- Batch 6 (3:51–3:60): 3:51 1,151/30; 3:52 1,808/46; 3:53 1,059/28; 3:54 1,740/40; 3:55 2,335/50;
+  3:56 1,071/30; 3:57 991/30; 3:58 881/27; 3:59 2,171/50; 3:60 862/31.
 
-Every entry clears both floors. Totals for 3:1–3:50: **~83,200** commentary-prose words and **1,933**
+Every entry clears both floors. Totals for 3:1–3:60: **~97,500** commentary-prose words and **2,295**
 inline source tags.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
@@ -763,6 +765,23 @@ the three entries (added at batch 5 — earlier batches had omitted it). The sam
 **3:34** (Maʿārif's 3:33–34 block is cited whole at 3:33) and at **3:41**, where the Study Quran has no
 separate block at all (its note on Zachariah's sign sits in the 3:40–41 block, cited at 3:40). No other
 source gap so far.
+
+**Corpus notes for batch 6 (verify before re-citing):** ibnkathir 3:52 = 3:53 = 3:54 (4,137),
+ibnkathir 3:55 = 3:56 = 3:57 = 3:58 (9,638) and ibnkathir 3:59 = 3:60 (10,659). **qurtubi 3:56 = 3:57 =
+3:58 is only 340 chars** — it comments on 3:56 and 3:58 only, so 3:57 has no Qurṭubī material and a
+source note says so. qurtubi 3:59 = 3:60 (2,636): the *qiyās* proof and the Najrān exchange belong to
+3:59, the grammar of *al-ḥaqqu min rabbik* to 3:60. **tabari 3:56 = 3:57 (2,063)** and **tabari 3:50 =
+3:51 (6,129)** — the latter is reached only by reading past the 3,000-char mark, where the commentary on
+"*fa-ttaqū Allāha wa-aṭīʿūni inna Allāha rabbī wa-rabbukum*" and the *inna/anna* variant sit.
+maarif 3:52 = 3:53 (1,970), maarif 3:56 = 3:57 = 3:58 (2,093), maarif 3:59 = 3:60 (1,646).
+**saadi 3:56 = 3:57 (222)** and saadi 3:59 = 3:60 (1,524) — the 3:33–55 mega-block ends at 3:55.
+**study 3:51 and study 3:57 are both zero-length** — source notes in each. Ṭabarī 3:55 (14,425) is the
+key block of the batch: it carries the three readings of *mutawaffīka* (sleep — al-Rabīʿ; seizure/
+taking — al-Ḥasan, Muṭarrif, Ibn Jurayj; and Kaʿb's report), and the long al-Suddī account of the
+substitution at 3:54. Qurṭubī 3:55 (6,765) has the taqdīm/taʾkhīr reading, Wahb's "three hours"
+(rejected by Qurṭubī himself), and the sound position (raised without death or sleep, al-Ṭabarī's
+choice). maarif 3:55 is a **25,210-char block** — the *tawaffī* lexicography with Ibn Taymiyyah's three
+types; read only its first ~3,000 chars unless more is needed.
 
 **Corpus notes for batch 5 (verify before re-citing):** ibnkathir 3:42 = 3:43 = 3:44 (5,533),
 ibnkathir 3:45 = 3:46 = 3:47 (4,489) and ibnkathir 3:48 = 3:49 = 3:50 (5,195) — three shared blocks,
