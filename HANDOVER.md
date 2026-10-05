@@ -19,10 +19,10 @@ limits is recommended and advised whenever the sources support further useful ex
 source tag occurrence, including repeats and multiple tags supporting one point. Never invent citations
 or pad with duplicated prose to satisfy a numerical floor.
 
-**Run status:** The original Sūrah 2 run through **2:100** is complete and audited. The user has now
-requested a continuation through **2:200**, beginning at **2:101** in ten consecutive ten-verse batches.
-Apply the same per-entry floors (800 words and 20 inline source citations), audit and save each batch,
-and continue without a check-in. The deletions of Sūrahs 3 and 4 remain part of the branch.
+**Run status:** The original Sūrah 2 run through **2:100** is complete. In the user-authorized
+continuation, **2:101–2:130** have now been written and independently audited for at least 800 words of
+commentary prose and 20 inline source-citation occurrences per verse. Continue through **2:200**, beginning
+at **2:131**, in seven remaining ten-verse batches. Preserve the deletions of Sūrahs 3 and 4.
 
 ### 0.1 Starter message — current continuation
 
@@ -30,10 +30,11 @@ and continue without a check-in. The deletions of Sūrahs 3 and 4 remain part of
 You are continuing the verse-by-verse tafsir in this repo (MaxiKen/quran-explained).
 
 1. Read HANDOVER.md and SPEC.md before making any changes.
-2. The previous run is complete through 2:100. Continue with 2:101–2:200 in ten consecutive batches
-   of ten verses, saving and auditing each batch before immediately proceeding to the next.
-3. Every entry must have at least 800 whitespace-separated words and 20 inline source-attribution
-   occurrences. Count each exact source-tag occurrence, including repeats; Qur'anic references do not count.
+2. The first run is complete through 2:100 and the continuation is complete through 2:130. Continue
+   with 2:131–2:200 in seven consecutive batches of ten, saving and auditing each batch before proceeding.
+3. For 2:101–2:200, every entry must have at least 800 words of commentary prose and 20 inline
+   source-attribution occurrences. Exclude the translation, marker, labels, and tags from the prose count;
+   count each exact source-tag occurrence, including repeats. Qur'anic references do not count.
 4. Read all seven approved source corpora per verse, cite only supported material, preserve required
    weak/Israelite/digressive flags, and do not pad or invent citations.
 5. Keep the already-requested deletions of `3/al-imran.md` and `4/an-nisa.md`; do not restore them.
@@ -61,7 +62,7 @@ quran-explained/
 ├── HANDOVER.md             # operating manual and current progress
 ├── tools/sect.py           # per-verse source extractor
 ├── 1/al-fatihah.md         # completed style reference
-├── 2/al-baqarah.md         # audited through 2:100; continuation target is 2:101–2:200
+├── 2/al-baqarah.md         # complete through 2:130; next continuation batch is 2:131–2:140
 ├── 3/ and 4/               # intentionally absent after user's deletion request
 └── tafsir-* / tafsir_initial/ # read-only corpora for seven sources
 ```
@@ -563,8 +564,9 @@ python3 /home/user/sect.py sizes 2:1 2:2 2:3
 ```
 
 The deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional, committed in PR #84, and must be preserved.
-`2/al-baqarah.md` is committed through 2:100; do not recreate or overwrite it from 2:1. The current
-user-authorized continuation is 2:101–2:200, with Sūrahs 3 and 4 remaining deleted.
+`2/al-baqarah.md` is complete through 2:130; do not recreate or overwrite it from 2:1. The current
+user-authorized continuation is 2:101–2:200, with 2:131–2:200 still to be written and Sūrahs 3 and 4
+remaining deleted.
 
 ## 12. Current state & exact next action (2026-10-05)
 
@@ -596,24 +598,27 @@ user-authorized continuation is 2:101–2:200, with Sūrahs 3 and 4 remaining de
 - Content was committed in ten batch commits on `arena/01a10a35-quran-explained`; the final content
   commit is `823c730` (`Chapter 2: add 2:91-2:100 (seven sources)`). An additional audit fix for 2:33
   is `29b55cd`.
-- The user has now authorized continuation through **2:200**. At the start of this continuation, verses
-  2:101–2:200 remain to be written and audited in ten-verse batches.
+- The user-authorized continuation covers **2:101–2:200**. Verses **2:101–2:130** are now present in
+  `2/al-baqarah.md` and independently audited at ≥800 words of commentary prose and ≥20 inline source
+  citations each. Minimum audited prose/citation counts are 805/34 for 2:101–2:110, 806/45 for
+  2:111–2:120, and 823/35 for 2:121–2:130. Continue without a check-in at 2:131.
 - The Sūrah 3 and 4 deletions are part of the open PR and must remain; keep them out of chapter-content
   commits. `/home/user/sect.py` is the convenience copy of `tools/sect.py`.
 - Work remains on `arena/01a10a35-quran-explained`, with PR #84 open; new commits and pushes on this
   branch update that PR.
 
 **Next action:**
-1. Continue at **2:101**. Write, audit, and save 2:101–2:110, then proceed immediately through 2:200.
-2. Each verse needs at least 800 words and at least 20 inline source-attribution occurrences, counted
-   separately; verify all ten entries before saving each batch.
-3. Commit only `2/al-baqarah.md` at each batch boundary. Preserve the deletions of Sūrahs 3 and 4.
+1. Continue at **2:131**. Write, audit, and save 2:131–2:140, then proceed immediately through 2:200.
+2. For every verse in 2:101–2:200, verify ≥800 words of commentary prose and ≥20 inline source tags
+   independently; exclude the translation, marker, labels, and source tags from the prose count.
+3. Commit the completed batch at each ten-verse boundary. Preserve the deletions of Sūrahs 3 and 4.
 
 ## 13. One-paragraph restatement for the incoming model
 
-The first Sūrah 2 run is complete through 2:100; the user-authorized continuation now covers 2:101–2:200
-in ten consecutive batches of ten. Each new entry must meet the 800-word and 20-inline-source-citation
-minimums independently. Read all seven approved tafsīr sources, count every source-tag occurrence
-(including repeats), and exclude Qur'anic cross-references from citation counts. Save and audit every
-batch, then continue without a check-in. Keep the deletions of `3/al-imran.md` and `4/an-nisa.md`,
-work only on `arena/01a10a35-quran-explained`, and push updates to the existing PR when needed.
+The first Sūrah 2 run is complete through 2:100; the user-authorized continuation covers 2:101–2:200,
+with commentary written and audited through 2:130. Continue at 2:131 in ten-verse batches. Each entry
+must independently meet 800 words of commentary prose and 20 inline source citations; exclude the
+translation, marker, labels, and source tags from the prose count. Read all seven approved tafsīr sources,
+count every exact source-tag occurrence including repeats, and do not count Qur'anic cross-references as
+citations. Save and audit each batch, then continue without a check-in. Preserve `3/al-imran.md` and
+`4/an-nisa.md` as deleted, work only on `arena/01a10a35-quran-explained`, and push only to that branch.

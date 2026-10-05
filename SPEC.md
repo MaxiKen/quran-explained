@@ -45,7 +45,9 @@ These are **per-verse-entry minimums**, not chapter averages:
 - **At least 20 inline source citations per verse entry.**
 - It is recommended and advised to go **above both minimums** whenever the source material supports further useful exposition.
 
-Count the entry body between its verse heading and the next verse heading. The word count includes its English translation and labeled commentary, but excludes the chapter-level introduction/header and the Arabic verse text in the heading.
+Count the entry body between its verse heading and the next verse heading. The general body-word convention includes the English translation and labeled commentary, but excludes the chapter-level introduction/header and the Arabic verse text in the heading.
+
+**Continuation clarification for 2:101–2:200:** the user requires at least **800 words of commentary prose** per verse. Audit this stricter floor independently by excluding the English verse translation, the standalone verse-number marker, commentary labels, and inline source tags; count the prose itself. Count the 20 source-attribution occurrences separately. This clarified prose-only floor governs every batch from 2:101 through 2:200.
 
 A source citation is one inline attribution to a named tafsir source, in the standard form `**[Saʿdī]**`, `**[Ṭabarī]**`, etc. **Count every occurrence:** repeats count again; if a claim is attributed to three sources, write three individual tags and count all three. Do not combine multiple source names inside one bracket. The chapter-level source list, Qur'anic verse references, and bare mentions of a scholar are not inline source citations and do not count toward the 20.
 
