@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:40** (40 entries). Four batches written so far, each audited
+**Status:** `3/al-imran.md` covers **3:1–3:50** (50 entries). Five batches written so far, each audited
 independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -749,16 +749,33 @@ independently. Commentary-prose words / inline source-tag occurrences:
   3:26 2,441/44; 3:27 1,748/35; 3:28 2,668/65; 3:29 1,030/26; 3:30 1,459/35.
 - Batch 4 (3:31–3:40): 3:31 1,721/43; 3:32 1,056/30; 3:33 1,318/40; 3:34 920/33; 3:35 1,190/32;
   3:36 1,746/47; 3:37 1,721/53; 3:38 1,104/34; 3:39 1,506/44; 3:40 1,286/41.
+- Batch 5 (3:41–3:50): 3:41 1,583/42; 3:42 1,464/39; 3:43 865/32; 3:44 2,044/41; 3:45 1,975/43;
+  3:46 1,574/46; 3:47 1,418/37; 3:48 1,339/40; 3:49 2,781/54; 3:50 1,988/47.
 
-Every entry clears both floors. Totals for 3:1–3:40: **65,871** commentary-prose words and **1,512**
+Every entry clears both floors. Totals for 3:1–3:50: **~83,200** commentary-prose words and **1,933**
 inline source tags.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
-section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for both verses is its 3:15 commentary, which
-is cited at 3:15 and deliberately not re-cited for its neighbours (§8, pitfall 7). A source note is
-recorded in each of those two entries. The same applies at **3:25**, where Maʿārif's 3:23–25 block has
+section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for 3:16–17 is its 3:15 commentary and the
+block for 3:25 is its 3:23–25 commentary, both cited at 3:15 and 3:23–24 respectively and deliberately
+not re-cited for their neighbours (§8, pitfall 7). A `*Source note:*` line recording this sits in each of
+the three entries (added at batch 5 — earlier batches had omitted it). The same applies at **3:25**, where Maʿārif's 3:23–25 block has
 nothing separate for the verse — its substance is cited at 3:23 and 3:24 and a source note says so at
 3:25. No other source gap so far.
+
+**Corpus notes for batch 5 (verify before re-citing):** ibnkathir 3:42 = 3:43 = 3:44 (5,533),
+ibnkathir 3:45 = 3:46 = 3:47 (4,489) and ibnkathir 3:48 = 3:49 = 3:50 (5,195) — three shared blocks,
+assigned by content with a source note in each entry. qurtubi 3:45 = 3:46 (9,897) and
+qurtubi 3:48 = 3:49 (6,322). maarif 3:45 = 3:46 (2,643) and maarif 3:48 = 3:49 = 3:50 (1,697).
+**study 3:41 is zero-length** (its note on Zachariah's sign sits in the 3:40–41 block, cited at 3:40);
+study 3:46 (167) and study 3:43 (392) are very short. Ṭabarī 3:49 (19,904), 3:42 (13,257), 3:44 (13,568)
+and 3:41 (11,891) are the largest blocks in the batch. Useful material beyond the 3,000-char truncation:
+Ṭabarī 3:49 has the story of the clay bird made for the schoolboys, the "which bird is strongest?"
+exchange, and the disagreement over *al-akmah* (Mujāhid = night-blind, Qatādah/Ibn ʿAbbās = born blind,
+al-Suddī/al-Ḥasan = blind, ʿIkrimah = bleary-eyed); Qurṭubī 3:45 has the long *al-Masīḥ* / Dajjāl
+lexicography and the descent of Jesus at the white minaret east of Damascus; Qurṭubī 3:48 has the four
+named raisings of the dead (Sām b. Nūḥ among them — flag as Isrāʾīliyyāt) and the weak Bayhaqī report
+of the two-rakʿah prayer with seven names.
 
 **Corpus notes for batch 4 (verify before re-citing):** ibnkathir 3:31 = 3:32 (2,691) and
 ibnkathir 3:38 = 3:39 = 3:40 (5,245) — shared, assigned by content with a source note in each entry.
