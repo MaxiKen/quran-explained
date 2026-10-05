@@ -1,75 +1,95 @@
-# TAFSIR — build spec (v2, lean) · 2026-10-03
+# TAFSIR — build spec (v4) · 2026-10-05
 
-> **Companion documents:** **`HANDOVER.md`** — the continuation prompt and operating manual (task,
-> tools, read→write→commit cycle, effort protocol, corpus pitfalls, recovery, current state).
-> **`tools/sect.py`** — the per-verse corpus extractor used for all reading. Read both before writing.
+> **Companion documents:** `HANDOVER.md` is the continuation prompt and operating manual; `tools/sect.py` is the per-verse corpus extractor. Read both documents before writing.
 
-**Deliverable.** A verse-by-verse tafsir of the Qur'an. One book file per chapter: `<surah>/<slug>.md`
-(e.g. `1/al-fatihah.md`, `2/al-baqarah.md`). Sources cited inline as **[Ṭabarī]**, **[Qurṭubī]**,
-**[Ibn Kathīr]**, **[al-Jalālayn]**, **[as-Saʿdī]**, **[Maʿārif]**, **[Study Quran]**.
+**Deliverable.** A verse-by-verse tafsir of the Qur'an, one Markdown file per chapter (`<surah>/<slug>.md`, e.g. `1/al-fatihah.md`, `2/al-baqarah.md`). Every verse gets its own entry, built from seven tafsir sources and cited inline.
 
 ## 1. Sources (seven)
 
-| # | Work | Corpus folder | Author / date |
-|---|---|---|---|
-| 1 | *Jāmiʿ al-Bayān* | `tafsir-al-tabari/` | al-Ṭabarī (d. 310/923) |
-| 2 | *al-Jāmiʿ li-Aḥkām al-Qurʾān* | `tafsir-al-qurtubi/` | al-Qurṭubī (d. 671/1273) |
-| 3 | *Tafsīr al-Qurʾān al-ʿAẓīm* | `tafsir-ibn-kathir/` | Ibn Kathīr (d. 774/1373) |
-| 4 | *Tafsīr al-Jalālayn* | `tafsir-al-jalalayn/` | al-Maḥallī & al-Suyūṭī (d. 911/1505) |
-| 5 | *Taysīr al-Karīm al-Raḥmān* | `tafsir-as-saadi/` | ʿAbd al-Raḥmān al-Saʿdī (d. 1376/1956) |
-| 6 | *Maʿārif al-Qurʾān* | `tafsir-maarif-ul-quran/` | Muftī Muḥammad Shafīʿ (d. 1396/1976) |
-| 7 | *The Study Quran* | `tafsir_initial/` | Nasr et al. (2015) |
+| # | Work | Corpus folder |
+|---|---|---|
+| 1 | *Jāmiʿ al-Bayān* — al-Ṭabarī | `tafsir-al-tabari/` |
+| 2 | *al-Jāmiʿ li-Aḥkām al-Qurʾān* — al-Qurṭubī | `tafsir-al-qurtubi/` |
+| 3 | *Tafsīr al-Qurʾān al-ʿAẓīm* — Ibn Kathīr | `tafsir-ibn-kathir/` |
+| 4 | *Tafsīr al-Jalālayn* — al-Maḥallī and al-Suyūṭī | `tafsir-al-jalalayn/` |
+| 5 | *Taysīr al-Karīm al-Raḥmān* — as-Saʿdī | `tafsir-as-saadi/` |
+| 6 | *Maʿārif al-Qurʾān* — Muftī Muḥammad Shafīʿ | `tafsir-maarif-ul-quran/` |
+| 7 | *The Study Quran* — Nasr et al. (2015) | `tafsir_initial/` |
 
-**Removed from the branch (2026-10-03):** al-Alūsī, al-Baghawī, Ibn ʿAbbās and Ibn ʿUthaymīn
-corpora — redundancy with al-Ṭabarī (al-Baghawī, Ibn ʿAbbās) or padding for a modern verse-by-verse
-book (al-Alūsī, Ibn ʿUthaymīn). Maʿārif al-Qurʾān was restored the same day and is source no. 6.
+## 2. Entry format (one entry per verse)
 
-## 2. Entry format (one entry per verse, always)
+```markdown
+## 2:1
 
-```
-## 1:1 — <Arabic verse text>
 *<English translation>*
 
 **Meaning.** Phrase-by-phrase exposition of the verse.
-**Context.** Occasion / background where the verse has one.
-**Ḥadīth & āthār.** Prophetic traditions and the sayings of the Companions & Successors.
-**Rulings.** Legal deductions (only for verses that carry them).
-**Belief.** Doctrinal points the verse establishes.
-**Language.** A short lexical/grammatical note, only where the meaning turns on the Arabic.
+**Context.** Occasion/background where the sources provide one.
+**Ḥadīth & āthār.** Prophetic traditions and sayings of Companions and Successors.
+**Rulings.** Legal deductions, only where relevant.
+**Belief.** Doctrinal points established by the verse.
+**Language.** Lexical/grammatical notes where the meaning turns on Arabic.
 **Cross-references.** Other Qur'anic verses that explain or echo this one.
-**Readings.** A variant reading, only where it changes the sense.
-**Stories & occasions.** Narratives the verse refers to.
-**Reflection.** Wisdom, spiritual counsel, and practical application (brief).
+**Readings.** Variant readings, where relevant.
+**Stories & occasions.** Narratives attached to the verse by the sources.
+**Reflection.** Wisdom and practical/spiritual application.
 ```
 
-Only the blocks that carry real content are written; a short verse may have three blocks, a
-weighty verse ten. Verse-by-verse is the backbone — every verse of the chapter gets its own entry
-with the verse number in the heading. Where material is weak, Israelite, or a digression from the
-verse, it is carried with an italic flag: *(weak)*, *(Isrāʾīliyyāt)*, *(digression)*.
+Use only blocks with relevant content; **Meaning** and **Reflection** are always present. The verse heading is machine-greppable as `^## N:M`. Keep Arabic to the verse and indispensable terms; write the commentary in English. Flag weak reports, Israelite tales, and worthwhile digressions as `*(weak)*`, `*(Isrāʾīliyyāt)*`, and `*(digression)*` respectively.
 
-## 3. Length budget — "sized to the verse"
+## 3. Minimum length and source-citation requirements
 
-Target ≈ **120 words** for the shortest verses, up to ≈ **1,200 words** for the weightiest legal or
-narrative verses; average ≈ 400–500 words. Chapter 2 (286 verses) ≈ 140,000 words.
+These are **per-verse-entry minimums**, not chapter averages:
 
-## 4. Extraction rules
+- **At least 800 words per verse entry.**
+- **At least 20 inline source citations per verse entry.**
+- It is recommended and advised to go **above both minimums** whenever the source material supports further useful exposition.
 
-1. **All seven sources are read for every verse.** Which blocks appear is decided by what the corpora
-   actually contain for that verse, not in advance. *Meaning* and *Reflection* are always present.
-2. **Unique material only.** Skip isnād chains, repeated reports, poetic witnesses, polemics and
-   marginal asides. Collapse once whatever later sources copy from earlier ones — the corpora repeat
-   whole commentary blocks under every verse heading they cover; never count the same block twice.
-3. **Every summary must stand on its own.** Carried material is condensed, but the condensation must
-   read as a comprehensible summary — full sentences, with names, numbers and the substance of the
-   point kept intact. No cryptic stubs.
-4. **Three things are carried *and* flagged, never dropped silently:**
-   - a **weak or spurious report** → carried, marked *(weak)*, with the source's own grading where it
-     gives one;
-   - an **Israelite tale** (*isrāʾīliyyāt*) → carried, marked *(Isrāʾīliyyāt)*;
-   - a **digression** in the source → carried in the nearest block or as a closing note, marked
-     *(digression)*.
-   Everything else judged out is dropped without a log — the book is the record.
-5. **English only.** Arabic is kept for the verse itself and for indispensable terms.
-6. **One book per chapter.** No per-source files, no coverage/audit lines.
-7. **Verse-anchored.** Where the sources treat consecutive verses as one unit, the entry still opens
-   at each verse number and covers it.
+Count the entry body between its verse heading and the next verse heading. The general body-word convention includes the English translation and labeled commentary, but excludes the chapter-level introduction/header and the Arabic verse text in the heading.
+
+**Continuation clarification for 2:101–2:200:** the user requires at least **800 words of commentary prose** per verse. Audit this stricter floor independently by excluding the English verse translation, the standalone verse-number marker, commentary labels, and inline source tags; count the prose itself. Count the 20 source-attribution occurrences separately. This clarified prose-only floor governs every batch from 2:101 through 2:200.
+
+**New authorization (2026-10-05), 2:201–2:286:** the user has authorized continuation through the end of Sūrah 2. No new word-count clarification was supplied for this range, so the general body-word convention above governs its formal 800-word minimum. For a robust audit, keep the commentary prose itself above 800 words where the reviewed sources support it, and count the 20 inline source tags separately.
+
+A source citation is one inline attribution to a named tafsir source, in the standard form `**[Saʿdī]**`, `**[Ṭabarī]**`, etc. **Count every occurrence:** repeats count again; if a claim is attributed to three sources, write three individual tags and count all three. Do not combine multiple source names inside one bracket. The chapter-level source list, Qur'anic verse references, and bare mentions of a scholar are not inline source citations and do not count toward the 20.
+
+Meet the thresholds through accurate, relevant source attribution and useful synthesis—not padding, duplicate prose, or invented citations. Read all seven sources for every verse; cite a source only for material actually supported by that source. If a source section is empty or a genuine source shortage makes a threshold impossible, never fabricate material: record the exception for review and continue.
+
+## 4. Source-reading and synthesis rules
+
+1. Read all seven source sections for each verse, using `tools/sect.py` (copy to `/home/user/sect.py` for convenience). Read in manageable chunks when Ṭabarī or Qurṭubī is long.
+2. Keep unique material. Collapse repeated reports and material copied across later sources; do not recount the same source wording as distinct content. Cite each source where it genuinely contributes to a point.
+3. Every summary must stand alone: use clear complete sentences and retain the names, numbers, substance, and qualifications needed to understand the report. Do not leave cryptic stubs.
+4. Keep disagreements visible rather than flattening them. Mark weak/spurious reports, Israelite narratives, and relevant digressions as specified above.
+5. Do not quote long Arabic passages. Translate or paraphrase responsibly; preserve essential Arabic terms where needed.
+6. Where sources treat consecutive verses as a unit, still create a separately headed entry for every verse and explain the verse-level relation accurately.
+
+## 5. Ten-verse iteration protocol for the 2:101–2:200 continuation
+
+- Continue at **2:101**. The target is **100 verses**, written in **10 iterations of 10 consecutive verses**: 2:101–2:110, 2:111–2:120, …, 2:191–2:200.
+- At every iteration, size and read the ten verses as a batch across all seven sources, then write and verify those ten entries together. Be fast and focused, but do not skip a source or a verse.
+- Save after every ten-verse iteration, then immediately continue with the next iteration in the same run. Do not pause for a check-in between iterations.
+- For each entry, verify both minima independently (≥800 words and ≥20 source-citation occurrences). A batch average does not compensate for an individual entry below either minimum.
+- Keep source attributions precise and keep the prose useful; exceeding the minimums is encouraged when supported by the sources.
+
+### 5.1 Newly authorized extension: 2:201–2:286
+
+- Continue from 2:201 through 2:286 in eight complete ten-verse batches (2:201–2:280) and a final six-verse batch (2:281–2:286).
+- For each batch, size and read all seven source sections, draft the entries, audit each entry independently for at least 800 words under the applicable convention and at least 20 inline source tags, then save and continue without a check-in.
+- For this extension, the user has not replaced the general body-word convention with a prose-only rule; nevertheless, keep the commentary itself above 800 words where source material supports it to avoid a borderline count.
+- Commit each finished batch on the fixed session branch, excluding the Sūrah 3 and 4 deletions and unreviewed scratch files.
+
+### Progress snapshot (2026-10-05)
+
+The continuation is appended and audited through **2:260**; the next batch is **2:261–2:270**. The
+2:251–2:260 commentary-prose/source-tag counts are 2:251 900/58; 2:252 891/59; 2:253 878/64;
+2:254 879/59; 2:255 874/64; 2:256 876/63; 2:257 875/66; 2:258 873/61; 2:259 876/60;
+2:260 855/64. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for
+2:259 is misaligned with 2:258; neither was cited for those verses. The separate source-accuracy review
+of 2:121–2:130 remains pending.
+
+## 6. Verification before saving a batch
+
+For the current Sūrah 2 continuation, confirm that each verse in the batch appears exactly once and meets both per-entry floors. Count only the seven standard inline source tags, once per occurrence. A quick audit can be done with Python by splitting the Markdown on verse headings and counting whitespace-delimited words plus every occurrence of the seven exact source tags. Then inspect the diff and ensure no source was attributed without support.
+
+For 2:201–2:286, use the general body-count convention unless the user clarifies otherwise; count source tags separately. The prose in this extension is being kept above 800 words per verse as an additional safety margin.
