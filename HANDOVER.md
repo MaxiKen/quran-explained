@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:110** (110 entries). Eleven batches written so far, each
+**Status:** `3/al-imran.md` covers **3:1–3:120** (120 entries). Twelve batches written so far, each
 audited independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -774,6 +774,49 @@ inline source tags. **3:97 is the largest single entry so far (3,407 words / 82 
 
 Every entry clears both floors. Totals for 3:1–3:110: **181,987** commentary-prose words and **4,550**
 inline source tags. **3:110 (3,132/74) is now the second-largest entry after 3:97.**
+
+- Batch 12 (3:111–3:120): 3:111 1,903/51; 3:112 2,586/65; 3:113 3,235/72; 3:114 1,326/37;
+  3:115 1,358/41; 3:116 1,467/36; 3:117 2,109/53; 3:118 4,913/93; 3:119 3,547/65; 3:120 2,824/56.
+
+Every entry clears both floors. Totals for 3:1–3:120: **207,255** commentary-prose words and **5,119**
+inline source tags. **3:118 (4,913 words / 93 tags) is now the largest single entry in the sūrah.**
+
+**Corpus notes for batch 12 (verify before re-citing):** the round is dominated by five shared blocks.
+**ibnkathir 3:111 = 3:112 (12,922)** — the 3:111 material (good news of domination, Khaybar, the three
+Madinan tribes, the Christians of Syria, the descent of Jesus) sits at the **tail** of the block.
+**ibnkathir 3:113 = 3:114 = 3:115 = 3:116 = 3:117 (5,185)** and **ibnkathir 3:118 = 3:119 = 3:120
+(7,444)**. **qurtubi 3:112 = 3:113 = 3:114 = 3:115 is one 6,727-char block** — it is the only Qurṭubī
+material for 3:113–115, so it must be split by subject: the `laysū sawāʾ` grammar dispute and the
+Ibn Masʿūd ʿishāʾ occasion sit in the first third, the 3:114 glosses in the middle, and the 3:115
+*qirāʾāt* list at the very end. **maarif 3:113 = 3:114 = 3:115 = 3:116 = 3:117 (1,369)** is three
+paragraphs keyed to 3:113, 3:116 and 3:117 respectively — split by subject, do not re-cite.
+**saadi** (all Arabic): 3:110 = 3:111 (675), 3:112 (698), 3:113 = 3:114 (659) plus its own {115}
+paragraph, 3:116 = 3:117 (544), 3:118 = 3:119 (1,540) plus its own {120} paragraph. **study 3:115 is
+zero-length** — its note covers 3:114–115 and is cited at 3:114, with a `*Source note:*` at 3:115.
+**tabari** is distinct for all ten: 3:111 (2,384; the *munqaṭiʿ* exception and the 77:36 / 35:36
+grammar point at the tail), 3:112 (11,025; isnāds **7630–7643** on *dhillah* and *ḥabl*, with
+Ṭabarī's admonition to this ummah at the tail), 3:113 (**16,959** — by far the largest of the round;
+isnāds **7644–7663**: the Ibn ʿAbbās / Ibn Isḥāq occasion at the head, the *qāʾimah* lexicography,
+the ship parable, and the ānāʾ al-layl dispute with Ibn Masʿūd's ʿishāʾ reading at **7660–7662**,
+Ṭabarī's tarjīḥ at the tail), 3:114 (1,296), 3:115 (2,482; the *yāʾ*/*tāʾ* qirāʾāt dispute and
+Ṭabarī's choice, isnāds **7664–7666**), 3:116 (1,843), 3:117 (4,916; isnāds **7667–7678**, nearly all
+of them on *ṣirr*), 3:118 (**19,714** — the largest block of the round; isnāds **7679–7698**, with the
+Ibn Isḥāq occasion at **7680**, the Anas / al-Ḥasan "do not seek light by the fire of the idolaters"
+report at **7685**, and Ṭabarī's rejection of Qatāda's reading at **7691–7692**), 3:119 (5,071;
+isnāds **7699–7704**, with the Abū al-Jawzāʾ / Ibāḍiyya report at **7701** flagged *munkar* in
+Ṭabarī's own apparatus), 3:120 (4,835; isnāds **7705–7707** at the head, then the long grammatical
+excursus on *lā yaḍurrukum*). **jalalayn is distinct for all ten**; jalalayn 3:114 (244) is its
+shortest here. **maarif 3:118 is 8,467 chars** — the Madinan background, the *biṭānah* lexicography,
+the dhimmī-protection ḥadīths, the ʿUmar-and-the-scribe story, and Qurṭubī's lament; read it whole,
+it is the single richest Maʿārif block in the sūrah so far. **maarif 3:120 (2,727)** is the *ṣabr* and
+*taqwā* excursus with 3:125, 12:90, 3:200 and 65:2.
+
+**Reading-tip that saved a lot of context in batch 12:** `sect.py` returns the *same* block for every
+verse a source covers, so writing one file per source with all ten verses **triples the Arabic you
+have to read**. De-duplicate first (compare block text, then print each distinct block once with its
+verse range) — see the `grab()` helper pattern: head ~900 chars, then every paragraph beginning with
+an isnād number, then a ~700-char tail. Ṭabarī's isnād numbers are **Arabic-Indic digits**, so
+normalise with `str.maketrans('٠١٢٣٤٥٦٧٨٩','0123456789')` before regexing `\b7[0-9]{3}\b`.
 
 **Corpus notes for batch 11 (verify before re-citing):** the round is dominated by four shared blocks.
 **ibnkathir 3:104 is a 7,640-char block covering 3:104–109** — the "hand, tongue, heart" ḥadīth,
