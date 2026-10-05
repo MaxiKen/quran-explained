@@ -811,6 +811,52 @@ the dhimmī-protection ḥadīths, the ʿUmar-and-the-scribe story, and Qurṭub
 it is the single richest Maʿārif block in the sūrah so far. **maarif 3:120 (2,727)** is the *ṣabr* and
 *taqwā* excursus with 3:125, 12:90, 3:200 and 65:2.
 
+**Corpus map for batch 13 (3:121–3:130) — measured, so the next round can skip straight to reading.**
+The Uḥud passage is the densest stretch of the sūrah. Sizes (`sect.py sizes 3:121 … 3:130`):
+
+```
+     v     tabari    qurtubi  ibnkathir   jalalayn      saadi     maarif      study
+3:121       8904       2720       7867        767       1914      15372       1973
+3:122       4864      11072       7867        742       1914       3618        578
+3:123       3834      20938       7867        287       1914       2027        263
+3:124      25741      20938      12971        332       1914       2027       2857
+3:125      25741      20938      12971        688       1914       7334          0
+3:126       3002       2280      12971        367       1914       7334          0
+3:127       2732       2280      12971        353       1914       7334        351
+3:128      14496       7640      12971        457        514       7334       1660
+3:129        781       7640      12971        250        841       7334          0
+3:130       3077       3034      13840        288       5635       1306        187
+```
+
+Distinct (de-duplicated) blocks and the verse ranges they cover:
+**tabari** — 121 (8,904); 122 (4,864); 123 (3,834); **124 = 125 (25,741**, the largest block of the
+round, ~49 isnād reports **7743** onward, mostly the Badr vs Uḥud question of when the angels were
+promised, plus a long *musawwimīn* lexicography at the tail with the Usayd b. ʿAnqāʾ line);
+126 (3,002); 127 (2,732); 128 (14,496); 129 (781); 130 (3,077).
+**qurtubi** — 121 (2,720); 122 (11,072); **123 = 124 = 125 (20,938**, six *masāʾil*, opening with the
+date of Badr — 17 Ramaḍān, a Friday, eighteen months after the Hijra — and closing on the turban
+question and the Rukāna ḥadīth "the difference between us and the idolaters is the turbans over the
+caps", which Bukhārī declared to have an unknown chain); 126 = 127 (2,280); 128 = 129 (7,640);
+130 (3,034).
+**ibnkathir** — **121 = 122 = 123 (7,867**, the whole Uḥud narrative: the dream, the march, the
+archers, ʿAbdullāh b. Ubayy's withdrawal with three hundred, the roll of the martyrs, Ḥamza,
+Muṣʿab b. ʿUmayr, Anas b. al-Naḍr, the rumour of the Prophet's death, 9:27 quoted at the tail);
+**124 = 125 = 126 = 127 = 128 = 129 (12,971**, running on into 3:129 and quoting 3:128–129 at the
+tail); 130 (13,840).
+**jalalayn** — distinct for all ten; 3:121 (767) and 3:122 (742) carry the fullest narrative detail
+(1,000 or 950 men against 3,000; Saturday 7 Shawwāl, year 3; the archers under ʿAbdullāh b. Jubayr;
+Abū Jābir al-Salamī's appeal to Ibn Ubayy: "If we knew how to fight we would follow you!").
+**saadi** (Arabic) — **121 = 122 = 123 = 124 = 125 = 126 = 127 (1,914**, one block keyed verse by
+verse with {121}, {122}, {123–126}, {127} markers — split by those markers); 128 (514); 129 (841);
+130 (5,635, the largest Saʿdī block in the sūrah — read it whole).
+**maarif** — 121 (15,372, the Uḥud sequence-of-events excursus, the largest Maʿārif block in the
+sūrah); 122 (3,618, the *tawakkul* discussion, four numbered points); 123 = 124 (2,027, on Badr and
+the two behaviour-models); **125 = 126 = 127 = 128 = 129 (7,334**); 130 (1,306).
+**study** — 121 (1,973; notes that some say the verse refers to Aḥzāb rather than Uḥud — IK, R, Ṭ);
+122 (578); 123 (263); **124 = 125 = 126 (2,857**, one note covering all three); **127 (351)**; 128
+(1,660); 130 (187). **study 3:125, 3:126 and 3:129 are zero-length** — one `*Source note:*` at 3:125
+covering 3:125–126 (the 3:124–26 note is cited at 3:124) and another at 3:129.
+
 **Reading-tip that saved a lot of context in batch 12:** `sect.py` returns the *same* block for every
 verse a source covers, so writing one file per source with all ten verses **triples the Arabic you
 have to read**. De-duplicate first (compare block text, then print each distinct block once with its
