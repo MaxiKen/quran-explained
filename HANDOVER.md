@@ -735,3 +735,55 @@ no separate section. The separate source-accuracy review of 2:121–2:130 and th
 ranges 7000:18000 and 26000:30000 remain pending; they are not length/citation-audit exceptions. Preserve
 the deletions of `3/al-imran.md` and `4/an-nisa.md`, work only on `arena/01a10a35-quran-explained`, and
 push only to that branch if pushing is requested.
+
+## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
+
+**Status:** `3/al-imran.md` covers **3:1–3:30** (30 entries). Three batches written so far, each audited
+independently. Commentary-prose words / inline source-tag occurrences:
+
+- Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
+  3:6 1,456/34; 3:7 4,660/62; 3:8 2,297/37; 3:9 1,438/41; 3:10 1,513/35.
+- Batch 2 (3:11–3:20): 3:11 1,467/37; 3:12 1,160/29; 3:13 1,997/45; 3:14 2,301/49; 3:15 2,004/39;
+  3:16 1,332/33; 3:17 1,216/32; 3:18 2,113/41; 3:19 1,803/32; 3:20 2,038/40.
+- Batch 3 (3:21–3:30): 3:21 1,814/46; 3:22 1,123/35; 3:23 1,509/36; 3:24 1,141/31; 3:25 1,162/30;
+  3:26 2,441/44; 3:27 1,748/35; 3:28 2,668/65; 3:29 1,030/26; 3:30 1,459/35.
+
+Every entry clears both floors. Totals for 3:1–3:30: **51,580** commentary-prose words and **1,115**
+inline source tags.
+
+**Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
+section for 3:16 or 3:17** — the block `sect.py` returns for both verses is its 3:15 commentary, which
+is cited at 3:15 and deliberately not re-cited for its neighbours (§8, pitfall 7). A source note is
+recorded in each of those two entries. The same applies at **3:25**, where Maʿārif's 3:23–25 block has
+nothing separate for the verse — its substance is cited at 3:23 and 3:24 and a source note says so at
+3:25. No other source gap so far.
+
+**Corpus notes for batch 3 (verify before re-citing):** tabari 3:21 = 3:22 (5,899), qurtubi 3:21 = 3:22
+(9,574 — six *masāʾil*, mostly on commanding right), ibnkathir 3:21 = 3:22 (1,690), saadi 3:21 = 3:22
+(320), maarif 3:21 = 3:22 (1,096); ibnkathir 3:23 = 3:24 = 3:25 (2,749), saadi 3:23 = 3:24 = 3:25 (888),
+maarif 3:23 = 3:24 = 3:25 (860); ibnkathir 3:26 = 3:27 (4,246), saadi 3:26 = 3:27 (1,588);
+ibnkathir 3:29 = 3:30 (2,937), saadi 3:29 = 3:30 (1,202), maarif 3:28 = 3:29 = 3:30 (13,016 — a long
+excursus on *muwālāt / muwāsāt / mudārāt / muʿāmalāt*, assigned to 3:28 with the closing paragraph used
+at 3:29–30). Tabari 3:27 (14,598) and qurtubi 3:26 (10,442) are the largest entries in the batch; read
+in chunks. Tabari 3:23 and 3:26 contain long grammatical discussions (iʿrāb of *li-yawmin*; the *mīm*
+of *Allāhumma*) and should be read to the end of the relevant *masʾala*.
+
+**Corpus notes for the next batches (verify before re-citing):** duplicate/shared blocks confirmed by
+reading — ibnkathir 3:14 = 3:15 (7,099 chars) covering 3:14–15; ibnkathir 3:16 = 3:17 (3,002) covering
+3:16–17; ibnkathir 3:18 = 3:19 = 3:20 (7,844) covering 3:18–20; qurtubi 3:16 = 3:17 (6,562);
+saadi 3:10 = 3:11 (419), 3:12 = 3:13 (563), 3:14 = 3:15 (999), 3:16 = 3:17 (717); maarif 3:15 = 3:16 =
+3:17 (5,808); maarif 3:11 (265) is only a sequence note pointing forward to 3:12. Ṭabarī 3:13 (20,156),
+3:14 (22,627) and Qurṭubī 3:14 (23,533) are the largest entries in the batch — read in chunks.
+
+**Branch:** this session operates on `arena/16244062-quran-explained`, not the `arena/01a10a35-quran-explained`
+named in §§5, 10 and 13. Do **not** "correct" the branch with `git reset --hard` or `git checkout`.
+
+**Unresolved constraint conflict — needs user confirmation before further Sūrah 3 work.** §§5, 10 and 13
+record a standing instruction to preserve the PR #84 deletion of `3/al-imran.md`. The user then instructed
+that Sūrah 3 begin at **3:1**, which required recreating that file. It was recreated as a clean new file —
+never restored from git history — and committed. The deletion of `4/an-nisa.md` is untouched. The Sūrah 3
+half of the deletion constraint is therefore **overridden in the branch history and still awaits the user's
+acknowledgement**; do not silently re-delete the file, and do not treat the conflict as settled.
+
+**Pending follow-ups carried over from Sūrah 2:** the source-accuracy review of 2:121–2:130, and the
+Ṭabarī 2:251 review ranges 7000:18000 and 26000:30000.
