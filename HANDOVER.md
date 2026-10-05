@@ -735,3 +735,41 @@ no separate section. The separate source-accuracy review of 2:121–2:130 and th
 ranges 7000:18000 and 26000:30000 remain pending; they are not length/citation-audit exceptions. Preserve
 the deletions of `3/al-imran.md` and `4/an-nisa.md`, work only on `arena/01a10a35-quran-explained`, and
 push only to that branch if pushing is requested.
+
+## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
+
+**Status:** `3/al-imran.md` covers **3:1–3:20** (20 entries). Two batches written so far, each audited
+independently. Commentary-prose words / inline source-tag occurrences:
+
+- Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
+  3:6 1,456/34; 3:7 4,660/62; 3:8 2,297/37; 3:9 1,438/41; 3:10 1,513/35.
+- Batch 2 (3:11–3:20): 3:11 1,467/37; 3:12 1,160/29; 3:13 1,997/45; 3:14 2,301/49; 3:15 2,004/39;
+  3:16 1,332/33; 3:17 1,216/32; 3:18 2,113/41; 3:19 1,803/32; 3:20 2,038/40.
+
+Every entry clears both floors. Totals for 3:1–3:20: **35,485** commentary-prose words and **732**
+inline source tags.
+
+**Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
+section for 3:16 or 3:17** — the block `sect.py` returns for both verses is its 3:15 commentary, which
+is cited at 3:15 and deliberately not re-cited for its neighbours (§8, pitfall 7). A source note is
+recorded in each of those two entries. No other source gap so far.
+
+**Corpus notes for the next batches (verify before re-citing):** duplicate/shared blocks confirmed by
+reading — ibnkathir 3:14 = 3:15 (7,099 chars) covering 3:14–15; ibnkathir 3:16 = 3:17 (3,002) covering
+3:16–17; ibnkathir 3:18 = 3:19 = 3:20 (7,844) covering 3:18–20; qurtubi 3:16 = 3:17 (6,562);
+saadi 3:10 = 3:11 (419), 3:12 = 3:13 (563), 3:14 = 3:15 (999), 3:16 = 3:17 (717); maarif 3:15 = 3:16 =
+3:17 (5,808); maarif 3:11 (265) is only a sequence note pointing forward to 3:12. Ṭabarī 3:13 (20,156),
+3:14 (22,627) and Qurṭubī 3:14 (23,533) are the largest entries in the batch — read in chunks.
+
+**Branch:** this session operates on `arena/16244062-quran-explained`, not the `arena/01a10a35-quran-explained`
+named in §§5, 10 and 13. Do **not** "correct" the branch with `git reset --hard` or `git checkout`.
+
+**Unresolved constraint conflict — needs user confirmation before further Sūrah 3 work.** §§5, 10 and 13
+record a standing instruction to preserve the PR #84 deletion of `3/al-imran.md`. The user then instructed
+that Sūrah 3 begin at **3:1**, which required recreating that file. It was recreated as a clean new file —
+never restored from git history — and committed. The deletion of `4/an-nisa.md` is untouched. The Sūrah 3
+half of the deletion constraint is therefore **overridden in the branch history and still awaits the user's
+acknowledgement**; do not silently re-delete the file, and do not treat the conflict as settled.
+
+**Pending follow-ups carried over from Sūrah 2:** the source-accuracy review of 2:121–2:130, and the
+Ṭabarī 2:251 review ranges 7000:18000 and 26000:30000.
