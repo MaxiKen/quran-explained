@@ -738,8 +738,8 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:80** (80 entries). Eight batches written so far, each audited
-independently. Commentary-prose words / inline source-tag occurrences:
+**Status:** `3/al-imran.md` covers **3:1–3:110** (110 entries). Eleven batches written so far, each
+audited independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
   3:6 1,456/34; 3:7 4,660/62; 3:8 2,297/37; 3:9 1,438/41; 3:10 1,513/35.
@@ -768,6 +768,36 @@ inline source tags.
 
 Every entry clears both floors. Totals for 3:1–3:100: **~162,300** commentary-prose words and **4,041**
 inline source tags. **3:97 is the largest single entry so far (3,407 words / 82 tags).**
+
+- Batch 11 (3:101–3:110): 3:101 2,025/48; 3:102 1,833/55; 3:103 2,770/72; 3:104 2,197/63;
+  3:105 1,510/43; 3:106 2,523/55; 3:107 1,079/33; 3:108 1,582/46; 3:109 1,557/39; 3:110 3,132/74.
+
+Every entry clears both floors. Totals for 3:1–3:110: **181,987** commentary-prose words and **4,550**
+inline source tags. **3:110 (3,132/74) is now the second-largest entry after 3:97.**
+
+**Corpus notes for batch 11 (verify before re-citing):** the round is dominated by four shared blocks.
+**ibnkathir 3:104 is a 7,640-char block covering 3:104–109** — the "hand, tongue, heart" ḥadīth,
+Ḥudhayfa and the seventy-three-sects report sit at **1,900–4,600**, and the 3:106 material (Ahl
+al-Sunna white / Ahl al-Bidʿa dark from Ibn ʿAbbās, al-Ḥasan al-Baṣrī's "the hypocrites", Abū Umāma
+and the Khawārij heads in Damascus) at **4,600–6,200**. **maarif 3:107 (1,233) covers 3:107–109** and
+is Maʿārif's only material for 3:109 — a `*Source note:*` stands at 3:109 for it. **qurtubi 3:108
+(1,137) covers 3:108–109**, with al-Mahdawī's statement of how 3:109 connects to 3:108. **study
+3:106 = 3:107** (one note) and **study 3:108 = 3:109** (one note); **study 3:107 and study 3:109 are
+zero-length**, so both carry a `*Source note:*`. **saadi** (Arabic): 3:102 = 3:103 = 3:104 = 3:105
+(one block, cited at 3:102–105), 3:106 = 3:107 (403), 3:108 = 3:109 (681), 3:110 = 3:111 (675).
+**tabari** is distinct for all ten: 3:101 (ʿaṣm root, Farazdaq/Aʿshā lines at **1,300–2,500**), 3:102
+(isnāds **7539–7547** on taqwā at **1,400–3,000**; the abrogation dispute, **7553–7557**, at
+**4,400–5,700**), 3:103 (isnāds **7562–7572** on jamāʿah vs Qurʾān vs ʿahd at **1,400–3,300**, and the
+Aws/Khazraj feud origin with the *shafā ḥufra* image at **23,200–24,100**), 3:106 (isnāds **7601**,
+**7604** Ubayy b. Kaʿb, **7605** al-Ḥasan, and Ṭabarī's closing tarjīḥ at **1,900–3,200**), 3:110
+(isnāds **7606–7615** at **1,600–3,200**, including ʿUmar's "had He willed He would have said *antum*"
+at 7608, Mujāhid's conditional reading at 7614–7615, and ʿUmar's ḥajj sermon at **7612**).
+**jalalayn 3:107 is only 142 chars** — 3:107 leans on Jalālayn, Maʿārif and the shared Ṭabarī 3:106–107
+block, and is the shortest entry of the batch.
+
+**Outstanding fix cleared at batch 11:** entry **3:58 previously had two `*Source note:*` paragraphs**;
+they have been merged into one (Ibn Kathīr 3:55–58 + Maʿārif 3:56–58). Re-check with a count-per-entry
+pass if any later patch touches 3:55–58.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
 section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for 3:16–17 is its 3:15 commentary and the
