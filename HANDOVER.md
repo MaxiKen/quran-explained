@@ -760,6 +760,11 @@ independently. Commentary-prose words / inline source-tag occurrences:
 
 Every entry clears both floors. Totals for 3:1–3:80: **~128,700** commentary-prose words and **3,147**
 inline source tags.
+- Batch 9 (3:81–3:90): 3:81 2,520/54; 3:82 882/30; 3:83 1,610/47; 3:84 1,196/32; 3:85 1,574/41;
+  3:86 1,646/42; 3:87 993/34; 3:88 951/29; 3:89 844/31; 3:90 1,763/47.
+
+Every entry clears both floors. Totals for 3:1–3:90: **~142,700** commentary-prose words and **3,553**
+inline source tags.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
 section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for 3:16–17 is its 3:15 commentary and the
@@ -777,6 +782,25 @@ onward. The block boundaries are: **3:59–62** (1,524), **3:64** (585), **3:65�
 (935), **3:75–76** (745), **3:77** (347), **3:78** (258), **3:79** (590). Allocate each block's content
 across the verses it covers by subject, and add a `*Source note:*` to any verse left with nothing of its
 own. This was first handled at 3:59–3:60 (batch 6) and 3:61–3:70 (batch 7).
+
+**Corpus notes for batch 9 (verify before re-citing):** the whole round is dominated by shared
+blocks. **tabari 3:81 is 16,339 chars** — far the largest in the sūrah so far; its qirāʾāt material
+(*lamā* with fatḥah; *ātaytukum* vs *ātaynākum*; the Basran *lām* of inception against the Kufan
+apodosis-*lām*) sits in the head, the dispute over who "you" addresses at **11,000–13,200**, with
+isnāds **7335** (Ibn Ṭāwūs) and **7336** (Qatāda) and Ṭabarī's rebuttal of al-Rabīʿ b. Anas; the
+middle (1,900–11,000) was not needed. **tabari 3:86 = 3:87 = 3:88 = 3:89** is one **8,312-char**
+block: the identification dispute (al-Ḥārith b. Suwayd vs the People of the Scripture) with isnāds
+**7360–7371** runs from the head to about char **4,100**, and 3:90's isnāds **7372–7377** follow.
+**ibnkathir**: 3:81 (3,456), 3:83 = 3:84 = 3:85 (4,623), 3:86 = 3:87 = 3:88 = 3:89 (2,939), 3:90
+(5,995 — actually covers 3:90–3:91). **saadi** (Arabic): 3:81 = 3:82 (958), 3:83 = 3:84 = 3:85 (462),
+3:86 = 3:87 = 3:88 = 3:89 = 3:90 (874). **maarif 3:81 = 3:82 = 3:83 = 3:84** (2,647) is the *same*
+ʿiṣma block already cited at 3:79 and 3:80 — cited again at 3:81 and a `*Source note:*` placed at
+3:82, 3:83 and 3:84; maarif 3:85 is 3,635 (cut at 1,900 in the scratch dump); maarif 3:86 = … = 3:90
+(927). **qurtubi**: 3:81 (6,325), **3:82 is only 226 chars**, 3:83 = 3:84 (3,670), 3:85 (940), 3:86
+(2,179), 3:87 = 3:88 = 3:89 (637), 3:90 (2,021). **study 3:82 and study 3:88 are zero-length** —
+source notes in each; study 3:87 = 3:88 as one block, cited at 3:87. **jalalayn 3:82 is only 81
+chars**, so 3:82 leans on Ṭabarī's isnāds **7339–7341** — and note that **7339 goes through Sayf b.
+ʿUmar (weak)**, which is flagged in the entry.
 
 **Corpus notes for batch 8 (verify before re-citing):** tabari 3:75 = 3:76 is a single **10,713-char**
 block — 3:75's material is at the head (the trust and the betrayal, the objection-and-answer about why
