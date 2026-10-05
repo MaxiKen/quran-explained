@@ -81,17 +81,22 @@ Meet the thresholds through accurate, relevant source attribution and useful syn
 
 ### Progress snapshot (2026-10-05)
 
-The continuation is appended and audited through **2:280**; the final batch is **2:281–2:286**. The
-2:271–2:280 commentary-prose/source-tag counts are 2:271 855/69; 2:272 860/60; 2:273 842/63;
-2:274 849/64; 2:275 945/71; 2:276 839/61; 2:277 834/61; 2:278 861/70; 2:279 839/63;
-2:280 853/60. All entries exceed the 800-word commentary-prose and 20-source-tag floors, with tags from
-all seven sources. Reported identifications at 2:273–2:274 and the historical setting at 2:278 are
-qualified rather than treated as definitive. Digressions in the batch are marked: theological debate at
-2:272, legal questions at 2:273, 2:275, 2:279, and 2:280, and Maʿārif’s modern economic excursus at
-2:275–2:276. The Study Quran discussion for 2:279 is included in its adjacent 2:278–279 block. The
-separate source-accuracy reviews of 2:121–2:130 and Ṭabarī 2:251 ranges 7000:18000 and 26000:30000
-remain pending. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for
-2:259 is misaligned with 2:258; neither was cited for those verses.
+The authorized continuation is appended and audited through **2:286**. The 2:271–2:280 commentary-prose/
+source-tag counts are 2:271 855/69; 2:272 860/60; 2:273 842/63; 2:274 849/64; 2:275 945/71;
+2:276 839/61; 2:277 834/61; 2:278 861/70; 2:279 839/63; 2:280 853/60. The final-six counts are
+2:281 862/49; 2:282 1,042/66; 2:283 917/61; 2:284 864/57; 2:285 869/69; 2:286 960/79. Every entry
+in 2:201–2:286 exceeds 800 commentary-prose words and 20 source-tag occurrences, with all seven sources
+cited in each. Reported identifications at 2:273–2:274 and the historical setting at 2:278 are qualified;
+for the final batch, the 2:281 last-revealed report is attributed with variant chronology noted. The weak
+wealth/asceticism anecdote at 2:283, disputed Miʿrāj occasion at 2:285, and Israelite examples at 2:286
+are flagged; legal digressions at 2:282–2:283 are marked. Earlier digressions in 2:271–2:280 also remain
+marked: theology at 2:272, legal discussions at 2:273, 2:275, 2:279, and 2:280, and Maʿārif’s modern
+economic excursus at 2:275–2:276. Study Quran coverage for 2:281 is in the adjacent
+2:280–2:281 block, and its 2:285–2:286 block covers both verses; there is no separate 2:286 section.
+The Study Quran discussion for 2:279 is in its adjacent 2:278–2:279 block. The separate source-accuracy
+reviews of 2:121–2:130 and Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 remain pending. Study Quran
+has no separate section for 2:251, and the extracted Maʿārif section for 2:259 is misaligned with 2:258;
+neither was cited for those verses.
 
 ## 6. Verification before saving a batch
 
