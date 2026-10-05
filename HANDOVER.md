@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:70** (70 entries). Seven batches written so far, each audited
+**Status:** `3/al-imran.md` covers **3:1–3:80** (80 entries). Eight batches written so far, each audited
 independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -755,8 +755,10 @@ independently. Commentary-prose words / inline source-tag occurrences:
   3:56 1,071/30; 3:57 991/30; 3:58 881/27; 3:59 2,171/50; 3:60 862/31.
 - Batch 7 (3:61–3:70): 3:61 2,644/67; 3:62 1,093/34; 3:63 931/29; 3:64 2,144/52; 3:65 1,271/36;
   3:66 1,512/48; 3:67 1,159/36; 3:68 1,339/41; 3:69 1,195/40; 3:70 1,197/34.
+- Batch 8 (3:71–3:80): 3:71 1,164/36; 3:72 1,597/38; 3:73 1,959/51; 3:74 893/37; 3:75 2,306/56;
+  3:76 1,033/34; 3:77 2,389/45; 3:78 1,663/45; 3:79 2,035/50; 3:80 1,664/43.
 
-Every entry clears both floors. Totals for 3:1–3:70: **~112,000** commentary-prose words and **2,712**
+Every entry clears both floors. Totals for 3:1–3:80: **~128,700** commentary-prose words and **3,147**
 inline source tags.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
@@ -775,6 +777,25 @@ onward. The block boundaries are: **3:59–62** (1,524), **3:64** (585), **3:65�
 (935), **3:75–76** (745), **3:77** (347), **3:78** (258), **3:79** (590). Allocate each block's content
 across the verses it covers by subject, and add a `*Source note:*` to any verse left with nothing of its
 own. This was first handled at 3:59–3:60 (batch 6) and 3:61–3:70 (batch 7).
+
+**Corpus notes for batch 8 (verify before re-citing):** tabari 3:75 = 3:76 is a single **10,713-char**
+block — 3:75's material is at the head (the trust and the betrayal, the objection-and-answer about why
+God informs the Prophet, the *bāʾ*/*ʿalā* alternation, isnāds 7261–7264 on "standing over him"), and
+3:76's is near the tail: the commentary on "*balā man awfā bi-ʿahdihi*" sits around char **8,000–9,600**,
+with isnāds **7275** (al-Suddī: "God has made the property of the Arabs lawful for us") and **7276**
+(Ibn Jurayj) just before it. tabari 3:71 (2,970) must also be read past 1,900: the tail carries the
+"*wa-taktumūna al-ḥaqqa*" gloss and isnāds **7228–7230** (Qatādah, al-Rabīʿ, Ibn Jurayj). And
+tabari 3:73 (9,017) has its second interpretation of the parenthetical clause at **1,900–3,100**, with
+Mujāhid's "envy that prophethood should be in other than them" at **7249–7250**. ibnkathir 3:69–74
+(5,345), ibnkathir 3:75–76 (3,279), ibnkathir 3:77 (5,533), ibnkathir 3:78 (2,285), ibnkathir 3:79–80
+(3,887). **qurtubi 3:71 is only 283 chars, qurtubi 3:74 only 341, qurtubi 3:76 only 621** — grammar
+only in each case. **study 3:71 and study 3:76 are both zero-length** — source notes in each.
+**jalalayn 3:74 is only 71 chars** (a gloss of the whole verse and nothing more), so 3:74 leans on
+Ṭabarī's isnāds 7256–7260 and the Qurṭubī/al-Ḥasan/Mujāhid/Ibn Jurayj reports. **maarif 3:72 = 3:73 =
+3:74** (1,681) and **maarif 3:76 = 3:77** (1,741); maarif 3:78 (383) gives the Najrān "do you want us to
+worship you" occasion, which other sources place at 3:79 — cite it at 3:79 with the placement noted.
+**saadi is Arabic for 3:69–74 (935), 3:75–76 (745), 3:77 (347), 3:78 (258) and 3:79–80 (590)** — see the
+Arabic-only note above.
 
 **Corpus notes for batch 7 (verify before re-citing):** ibnkathir 3:59–63 (10,659), ibnkathir 3:64
 (5,290), ibnkathir 3:65–68 (4,394), ibnkathir 3:69–70 (5,345). **tabari 3:62 = 3:63 (9,917)** and
