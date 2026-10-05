@@ -763,8 +763,11 @@ inline source tags.
 - Batch 9 (3:81–3:90): 3:81 2,520/54; 3:82 882/30; 3:83 1,610/47; 3:84 1,196/32; 3:85 1,574/41;
   3:86 1,646/42; 3:87 993/34; 3:88 951/29; 3:89 844/31; 3:90 1,763/47.
 
-Every entry clears both floors. Totals for 3:1–3:90: **~142,700** commentary-prose words and **3,553**
-inline source tags.
+- Batch 10 (3:91–3:100): 3:91 1,791/39; 3:92 2,072/54; 3:93 2,541/58; 3:94 922/30; 3:95 1,265/32;
+  3:96 2,378/66; 3:97 3,407/82; 3:98 1,190/35; 3:99 1,918/47; 3:100 2,077/45.
+
+Every entry clears both floors. Totals for 3:1–3:100: **~162,300** commentary-prose words and **4,041**
+inline source tags. **3:97 is the largest single entry so far (3,407 words / 82 tags).**
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
 section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for 3:16–17 is its 3:15 commentary and the
@@ -801,6 +804,29 @@ block: the identification dispute (al-Ḥārith b. Suwayd vs the People of the S
 source notes in each; study 3:87 = 3:88 as one block, cited at 3:87. **jalalayn 3:82 is only 81
 chars**, so 3:82 leans on Ṭabarī's isnāds **7339–7341** — and note that **7339 goes through Sayf b.
 ʿUmar (weak)**, which is flagged in the entry.
+
+**Corpus notes for batch 10 (verify before re-citing):** the three great blocks of the sūrah are all in
+this range. **qurtubi 3:96 = 3:97 is a single 47,267-char block** — by far the largest in the corpus for
+this sūrah; its exegesis (*āyāt/āyah* readings, Bakka/Makka, Abū Dharr's forty-years ḥadīth, the
+Muslims-and-Jews boasting occasion) sits in the head to about char 6,000, the discussion of "whoever
+enters it is secure" (the Salaf's sanctuary view, Ibn al-ʿArabī's two-fold rebuttal, Yaḥyā b. Jaʿdah's
+"secure from the Fire") at roughly **8,800–13,000**, whether ḥajj is immediate or deferred at
+**18,700**, and the fiqh of *istiṭāʿah* (Mālik's "according to capacity", debts, dependants, the
+*ḥadīth* "it is enough sin for a man to neglect those he maintains") at **32,800–35,000**; its ʿUmar
+/ jizyah material is at the tail. **tabari 3:97 is 35,629 chars** — the *istiṭāʿah* dispute with isnāds
+**7474** onwards and Ṭabarī's own conclusion that the "provision and mount" reports have "room for
+scrutiny in their chains" sits at about **26,650–28,000**, and his ruling on the *ḥaram* at
+**13,500–14,500**. **tabari 3:93 is 13,004** (the two positions on whether the Torah re-enacted Jacob's
+prohibitions, isnāds **7399–7400**, and the *ummī*-Prophet proof at the tail); **maarif 3:92 is 12,876**
+and **maarif 3:96 is 13,193**, both read head-and-tail only. **qurtubi's "3:98" section is actually the
+commentary on 3:99** — its first words are "why do you bar (*taṣuddūna*) from the path of God those who
+believe" — so 3:98 has no Qurṭubī material and carries a `*Source note:*`. **study 3:99 is zero-length**
+— source note there too. Shared blocks otherwise: **qurtubi / ibnkathir / saadi / maarif 3:96 = 3:97**;
+**qurtubi / ibnkathir / saadi / maarif 3:98 = 3:99 = 3:100**; **ibnkathir, saadi, maarif 3:93 = 3:94 =
+3:95** (with **qurtubi 3:93 = 3:94**). **maarif 3:91 is still the 3:86–91 block** — source note at
+3:91. **qurtubi 3:95 is only 251 chars** and **qurtubi 3:94, ibnkathir 3:94–95 and maarif 3:94–95 are
+all shared with 3:93** — 3:94 carries a note for Qurṭubī and Maʿārif, 3:95 for Maʿārif. **jalalayn is
+distinct for all ten verses**; jalalayn 3:92 (231), 3:94 (232) and 3:95 (244) are its shortest.
 
 **Corpus notes for batch 8 (verify before re-citing):** tabari 3:75 = 3:76 is a single **10,713-char**
 block — 3:75's material is at the head (the trust and the betrayal, the objection-and-answer about why
