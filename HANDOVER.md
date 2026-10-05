@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:60** (60 entries). Six batches written so far, each audited
+**Status:** `3/al-imran.md` covers **3:1–3:70** (70 entries). Seven batches written so far, each audited
 independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -753,8 +753,10 @@ independently. Commentary-prose words / inline source-tag occurrences:
   3:46 1,574/46; 3:47 1,418/37; 3:48 1,339/40; 3:49 2,781/54; 3:50 1,988/47.
 - Batch 6 (3:51–3:60): 3:51 1,151/30; 3:52 1,808/46; 3:53 1,059/28; 3:54 1,740/40; 3:55 2,335/50;
   3:56 1,071/30; 3:57 991/30; 3:58 881/27; 3:59 2,171/50; 3:60 862/31.
+- Batch 7 (3:61–3:70): 3:61 2,644/67; 3:62 1,093/34; 3:63 931/29; 3:64 2,144/52; 3:65 1,271/36;
+  3:66 1,512/48; 3:67 1,159/36; 3:68 1,339/41; 3:69 1,195/40; 3:70 1,197/34.
 
-Every entry clears both floors. Totals for 3:1–3:60: **~97,500** commentary-prose words and **2,295**
+Every entry clears both floors. Totals for 3:1–3:70: **~112,000** commentary-prose words and **2,712**
 inline source tags.
 
 **Source-coverage exceptions (recorded, not fabricated away):** Maʿārif al-Qurʾān has **no separate
@@ -765,6 +767,27 @@ the three entries (added at batch 5 — earlier batches had omitted it). The sam
 **3:34** (Maʿārif's 3:33–34 block is cited whole at 3:33) and at **3:41**, where the Study Quran has no
 separate block at all (its note on Zachariah's sign sits in the 3:40–41 block, cited at 3:40). No other
 source gap so far.
+
+**Corpus note that affects every remaining batch — check this first:** **as-saadi is Arabic-only from
+3:58 to the end of the sūrah** (`tafsir-as-saadi/003.txt` has no English for 3:58–3:200; each verse
+returns the same block as its neighbours). Saʿdī must therefore be rendered from the Arabic for 3:58
+onward. The block boundaries are: **3:59–62** (1,524), **3:64** (585), **3:65–68** (848), **3:69–74**
+(935), **3:75–76** (745), **3:77** (347), **3:78** (258), **3:79** (590). Allocate each block's content
+across the verses it covers by subject, and add a `*Source note:*` to any verse left with nothing of its
+own. This was first handled at 3:59–3:60 (batch 6) and 3:61–3:70 (batch 7).
+
+**Corpus notes for batch 7 (verify before re-citing):** ibnkathir 3:59–63 (10,659), ibnkathir 3:64
+(5,290), ibnkathir 3:65–68 (4,394), ibnkathir 3:69–70 (5,345). **tabari 3:62 = 3:63 (9,917)** and
+**tabari 3:61 (4,237)** — both must be read past the 2,200-char mark: 3:61's tail carries isnāds
+7171–7175 (Qatādah, Ibn Isḥāq, al-Rabīʿ, Ibn Zayd, and the Najrān "would that there were a screen"
+ḥadīth), and 3:62's tail carries the settlement narrative (7180–7181: the "we seek refuge in God"
+morning, the two-thousand-garment treaty, the birds-on-the-trees ḥadīth) — that narrative is the
+natural material for 3:63. **qurtubi 3:62 = 3:63 is only 492 chars**, and it comments on 3:62 only, so
+3:63 has no Qurṭubī material; **qurtubi 3:67 is only 464** and **qurtubi 3:70 only 315**. qurtubi 3:64
+(4,909) is the richest block: the Heraclius letter, *sawāʾ* = justice, the readings of ʿAbdullāh and
+Qaʿnab, and the grammar of *an*. **study 3:63 and study 3:66 are both zero-length** — source notes in
+each. maarif 3:61 = 3:62 = 3:63 (2,302), maarif 3:65 = 3:66 = 3:67 = 3:68 (1,154), maarif 3:69 (1,026),
+maarif 3:70 (493).
 
 **Corpus notes for batch 6 (verify before re-citing):** ibnkathir 3:52 = 3:53 = 3:54 (4,137),
 ibnkathir 3:55 = 3:56 = 3:57 = 3:58 (9,638) and ibnkathir 3:59 = 3:60 (10,659). **qurtubi 3:56 = 3:57 =
