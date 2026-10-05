@@ -759,9 +759,10 @@ inline source tags.
 section for 3:16, 3:17 or 3:25** — the block `sect.py` returns for 3:16–17 is its 3:15 commentary and the
 block for 3:25 is its 3:23–25 commentary, both cited at 3:15 and 3:23–24 respectively and deliberately
 not re-cited for their neighbours (§8, pitfall 7). A `*Source note:*` line recording this sits in each of
-the three entries (added at batch 5 — earlier batches had omitted it). The same applies at **3:25**, where Maʿārif's 3:23–25 block has
-nothing separate for the verse — its substance is cited at 3:23 and 3:24 and a source note says so at
-3:25. No other source gap so far.
+the three entries (added at batch 5 — earlier batches had omitted it). The same convention is used at
+**3:34** (Maʿārif's 3:33–34 block is cited whole at 3:33) and at **3:41**, where the Study Quran has no
+separate block at all (its note on Zachariah's sign sits in the 3:40–41 block, cited at 3:40). No other
+source gap so far.
 
 **Corpus notes for batch 5 (verify before re-citing):** ibnkathir 3:42 = 3:43 = 3:44 (5,533),
 ibnkathir 3:45 = 3:46 = 3:47 (4,489) and ibnkathir 3:48 = 3:49 = 3:50 (5,195) — three shared blocks,
