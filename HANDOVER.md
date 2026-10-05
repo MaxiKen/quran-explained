@@ -4,101 +4,90 @@
 **What this is:** a complete description of the task, the exact operations performed, the tools used,
 the effort protocol, the pitfalls, and the recovery procedures — sufficient to replicate and continue
 the work from the current state without further guidance.
-**Companion files:** `SPEC.md` (the binding format spec), `tools/sect.py` (the extractor tool),
-`1/al-fatihah.md` and `2/al-baqarah.md` (completed chapters — read a few entries to absorb the house
-style before writing).
+**Companion files:** `SPEC.md` (the binding format spec), `tools/sect.py` (the extractor tool), and
+`1/al-fatihah.md` (the available completed-chapter style reference). The original Sūrah 2 run through
+2:100 is complete (see §12); the deletions of Sūrahs 3 and 4 remain staged and must stay out of chapter commits.
 
 ---
 
 ## 0. The task in one paragraph
 
-Produce a **verse-by-verse tafsir of the Qur'an**, one Markdown file per sūrah (`<surah>/<slug>.md`),
-in which **every verse gets its own entry** built by reading **seven tafsir sources** — al-Ṭabarī,
-al-Qurṭubī, Ibn Kathīr, al-Jalālayn, as-Saʿdī, Maʿārif al-Qurʾān, The Study Quran — and distilling
-their **unique** material into a fixed set of labeled blocks with **inline citations**. The chapter is
-written **continuously, verse after verse, saving and pushing as you go**, in long runs (50–100+
-verses per session, repeated read→write→commit cycles), and **without stopping for check-ins**.
+Produce a verse-by-verse Qur'an tafsir, one Markdown file per sūrah, by reading all seven named tafsir
+sources and distilling their unique material into labeled blocks with accurate inline citations. Every
+verse entry has a **minimum of 800 words and 20 inline source-citation occurrences**; going above both
+limits is recommended and advised whenever the sources support further useful exposition. Count every
+source tag occurrence, including repeats and multiple tags supporting one point. Never invent citations
+or pad with duplicated prose to satisfy a numerical floor.
 
-Current state at handover: **Sūrah 1 complete (7,010 words), Sūrah 2 complete (296,808 words,
-286 entries), Sūrah 3 COMPLETE — 200/200 entries, 200 verses of Āl ʿImrān written in the seven-source
-house style across ~20 batch commits (1–100 initial mandate, 101–130 continuation, 131–200 full-chapter
-sprint), each batch following the §5 cycle (sizes → parallel dumps → fill windows → append → same-turn
-citation/heading verification → commit + push) with dedicated QC passes (141–150, 151–160, 161–170,
-171–200) that removed or hedged every citation not verifiably read and adjudicated heading rasm
-(dagger-alif/hamza-carrier variants vs. the corpus are benign; only letter-level typos were fixed).**
-Next action for a continuation session: sūrah 4 (an-Nisāʾ) at 4:1, same cycle and house style; corpus
-files `*/004.txt` exist for all seven sources.
+**Run status:** The Sūrah 2 assignment through **2:100** is complete in ten consecutive ten-verse
+batches. The final per-verse audit confirms all 100 entries meet both floors (800 words and 20 inline
+source citations). No further verses are in the current scope; if continuation is later requested, the
+next verse is 2:101. The deletions of Sūrahs 3 and 4 remain staged and must not be included in chapter
+content commits.
 
-### 0.1 Starter message — paste this to the incoming AI session (copy-paste block)
+### 0.1 Starter message — current status
 
 ```text
-You are continuing a verse-by-verse Qur'an tafsir in this repo (MaxiKen/quran-explained).
+You are continuing the verse-by-verse tafsir in this repo (MaxiKen/quran-explained).
 
-1. Read HANDOVER.md and SPEC.md in full — they are the operating manual and the binding format spec.
-2. Copy the extractor tool out for convenience:  cp tools/sect.py /home/user/sect.py
-3. Run the sanity check in HANDOVER.md §5 Step 0 (git status/log, wc -w 2/al-baqarah.md,
-   grep -c '^## 2:' 2/al-baqarah.md, sect.py smoke test). If the workspace looks reset, follow §11 first.
-4. Completed so far: 1/al-fatihah.md, 2/al-baqarah.md, and 3/al-imran.md (200/200 entries — complete).
-   Do NOT rewrite them.
-5. Write Sūrah 4 (create 4/an-nisa.md) from 4:1, following HANDOVER.md §5 (read→write→commit→push cycle)
-   and §7 (blocks, citations, flags, length).
-6. Work in one continuous run: aim for 50–100+ verses per session, one commit per verse (or small group),
-   push after each. Never pause for check-ins, never stop after a few verses, save as you go.
-7. Branch: stay on the session's branch and push to it only (e.g. origin/arena/01a101f2-quran-explained).
-   Keep PR #79 (or the open PR from that branch) current.
+1. Read HANDOVER.md and SPEC.md before making any changes.
+2. The original Sūrah 2 run is complete: 2/al-baqarah.md contains 2:1–2:100, audited at ≥800 words
+   and ≥20 inline source-attribution occurrences per verse. Do not repeat or replace completed content.
+3. No additional verses are in scope unless the user asks. If continuation is requested, the next verse
+   is 2:101; preserve the existing chapter and all user changes.
+4. Count individual source-attribution occurrences (e.g. **[Saʿdī]**), including repeats. Cite only
+   sources that support the material; preserve weak/Israelite/digressive flags and do not pad or invent.
+5. Keep `3/al-imran.md` and `4/an-nisa.md` deleted/staged for deletion; do not restore them or include
+   those deletions in a chapter-content commit.
+6. Work only on `arena/01a10a35-quran-explained`. Do not push unless requested. If the workspace looks
+   reset, inspect branch, status, and logs before any recovery; never hard-reset user work.
 ```
 
 ---
 
 ## 1. Deliverable & layout
 
-- One book file per chapter: `1/al-fatihah.md`, `2/al-baqarah.md`, `3/al-imran.md`, …
-  (lowercase transliterated slug; no spaces).
-- Each file opens with a **sūrah header** (see §7.1) and then one entry per verse.
-- **Entry heading:** `## N:M` (chapter:verse). Sūrah 1 also puts the Arabic verse text in the
-  heading; Sūrah 2 uses the plain number plus an italic English translation on the next line.
-  Either is acceptable; the verse number must be present and machine-greppable as `^## N:M`.
-- **Inline citations**, bold-bracketed, at the exact point a source's material is used:
-  **[Ṭabarī]** **[Qurṭubī]** **[Ibn Kathīr]** **[Jalālayn]** **[Saʿdī]** **[Maʿārif]** **[Study Quran]**.
-- **No per-source files. No master merge. No coverage/audit lines.** The chapter file is the product.
+- One Markdown book per chapter: `<surah>/<slug>.md`.
+- Every verse receives its own heading, machine-greppable as `## N:M`; the current file is
+  `2/al-baqarah.md`.
+- The seven source tags are **[Ṭabarī]**, **[Qurṭubī]**, **[Ibn Kathīr]**, **[Jalālayn]**,
+  **[Saʿdī]**, **[Maʿārif]**, and **[Study Quran]**. Cite at the point of use.
+- The chapter-level source list does not count toward a verse's citation minimum.
+- Do not create per-source files or generated audit files; the chapter file is the deliverable.
 
-**Repo map:**
+**Current repo map:**
 
-```
+```text
 quran-explained/
-├── SPEC.md                 # binding format spec (7 sources, blocks, rules)
-├── HANDOVER.md             # this file — continuation prompt & operating manual
-├── tools/sect.py           # per-verse corpus extractor (all reading goes through it)
-├── 1/al-fatihah.md         # ✅ complete
-├── 2/al-baqarah.md         # ✅ complete (286 entries)
-├── 3/…                     # ⏭️ create 3/al-imran.md and start at 3:1
-├── tafsir-al-tabari/       # corpora (read-only): NNN.txt per sūrah
-├── tafsir-al-qurtubi/
-├── tafsir-ibn-kathir/
-├── tafsir-al-jalalayn/
-├── tafsir-as-saadi/
-├── tafsir-maarif-ul-quran/
-└── tafsir_initial/         # Study Quran: NNN.md
+├── SPEC.md                 # binding length, citation, format, and batch rules
+├── HANDOVER.md             # operating manual and current progress
+├── tools/sect.py           # per-verse source extractor
+├── 1/al-fatihah.md         # completed style reference
+├── 2/al-baqarah.md         # completed and audited commentary for 2:1–2:100
+├── 3/ and 4/               # intentionally absent after user's deletion request
+└── tafsir-* / tafsir_initial/ # read-only corpora for seven sources
 ```
 
----
+## 2. Non-negotiable decisions
 
-## 2. Non-negotiable decisions (rejected approaches — do not re-litigate)
-
-1. **Verse-by-verse is mandatory.** Passage/rukūʿ-unit organization was proposed and **rejected**.
-   Even where the corpora treat several verses as one unit, each verse still gets its own entry.
-2. **Exactly seven sources.** Earlier drafts used six, then eleven. The seven are correct.
-   - Restored after deletion: **Maʿārif al-Qurʾān** (keep it; do not remove it again).
-   - **Deleted permanently: al-Alūsī, al-Baghawī, Ibn ʿAbbās, Ibn ʿUthaymīn** — do not reintroduce,
-     do not read their old corpora even if remnants appear on disk.
-3. **10-block entry structure** (§7.2), only blocks that carry real content.
-4. **Curated depth, not exhaustive.** Unique material only; repeats collapsed; no drop-logs.
-5. **English only** in the book text (Arabic kept for the verse itself and indispensable terms).
-6. **Length sized to the verse** (§7.3), not fixed.
-7. **Weak / Israelite / digressive material is carried with an italic flag** —
-   *(weak)*, *(Isrāʾīliyyāt)*, *(digression)* — not silently dropped, not left unflagged.
-
----
+1. **Verse-by-verse is mandatory.** A passage may span adjacent verses, but every verse still gets its
+   own numbered entry.
+2. **Exactly seven sources.** Use al-Ṭabarī, al-Qurṭubī, Ibn Kathīr, al-Jalālayn, as-Saʿdī, Maʿārif
+   al-Qurʾān, and The Study Quran. Do not reintroduce the removed corpora.
+3. **Minimums apply to every entry individually:** at least 800 words and at least 20 source-citation
+   occurrences. It is recommended and advised to exceed both thresholds when supported.
+4. **Count source attributions, not Qur'anic references.** Each individual inline source tag counts
+   once each time it appears. Repeated tags count again; a multi-source attribution uses separate tags
+   and each tag counts. Do not bundle several source names in one bracket.
+5. **Read all seven sources for every verse.** Cite only material actually found in that source; never
+   add tags solely to hit the count.
+6. **Unique material only.** Collapse repeated reports and copied commentary; retain real differences
+   between sources, without duplicating prose.
+7. **English prose only**, with Arabic retained for the verse and indispensable terms. Keep weak,
+   Israelite, or digressive material only with the required flags.
+8. **Ten-verse iterations.** In the current run, do ten iterations (ten consecutive verses each) to
+   reach 100 verses from 2:1 through 2:100. Read, write, check, and save one batch at a time, then
+   continue immediately in the same run.
 
 ## 3. Corpora (read-only inputs)
 
@@ -310,122 +299,86 @@ if __name__ == '__main__':
 
 ---
 
-## 5. The operating cycle (what you actually do, per verse)
+## 5. Ten-verse operating cycle (protocol used for the completed run)
 
-### Step 0 — Workspace sanity check (always, at the start of a session)
+The workflow below records the protocol used for 2:1–2:100. That run is complete; reuse this
+procedure only for future verse batches the user authorizes.
+
+### Step 0 — Workspace sanity check
 
 ```bash
 cd /home/user/quran-explained
-git status --short          # should be clean; untracked leftovers => see §11
-git log --oneline -3        # expect the newest "Chapter N: add N:V" commit
-wc -w 2/al-baqarah.md && grep -c '^## 2:' 2/al-baqarah.md   # last chapter's counters
-python3 /home/user/sect.py sizes 2:257                       # tool smoke test
+git branch --show-current
+git status --short
+python3 /home/user/sect.py sizes 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 2:9 2:10
 ```
-If anything is missing/odd — **recover first** (§11) before writing anything.
 
-### Step 1 — Size the next batch
+The fixed session branch is `arena/01a10a35-quran-explained`. Inspect pre-existing staged changes
+before saving. The completed run restored only `2/al-baqarah.md`; deletions of Sūrahs 3 and 4 remain
+staged and must not be mixed into chapter-content commits. Do not run a destructive reset to make the
+tree appear clean.
+
+### Step 1 — Size the next ten verses together
+
+Historical example — first iteration:
 
 ```bash
-python3 /home/user/sect.py sizes 3:1 3:2 3:3 3:4 3:5 3:6 3:7 3:8 3:9 3:10
-```
-Read ~10 verses' sizes at a time. This tells you which sources are heavy for those verses and how
-much chunked reading each will need.
-
-### Step 2 — Read all seven sources for the verse (the reading discipline)
-
-Order that works best (cheap → expensive):
-
-1. **Jalālayn + Study Quran together**, in full:
-   `python3 /home/user/sect.py show 3:1 jalalayn study`
-2. **Ṭabarī**: head first (`showc 3:1 tabari 0 1500`), then further chunks **only as needed**.
-   Sections can run to tens of thousands of chars — read the head, skim forward, take what is unique.
-3. **Qurṭubī**: same pattern (head, then chunks). Much of Qurṭubī's bulk is fiqh *masāʾil*; capture the
-   rulings and the distinctive reports.
-4. **Ibn Kathīr**: read what is legible; extract sense; **never copy OCR-garbled strings**.
-5. **Saʿdī**: read whole (usually short). Read via the `importlib` pattern when combined output truncates.
-6. **Maʿārif**: read whole or in chunks; remember sections **bleed across verse boundaries** — search
-   by keyword if the expected verse text is absent.
-
-Reading is done in **small chunks** with explicit ranges, e.g.:
-```bash
-python3 /home/user/sect.py showc 3:1 tabari 0 2000
-python3 /home/user/sect.py showc 3:1 tabari 2000 4000
-python3 /home/user/sect.py showc 3:1 qurtubi 0 2400
-```
-The `| head -c N` idiom (with its harmless `BrokenPipeError`) is fine for a quick view.
-
-**Discipline:** while reading, keep a running mental (or scratch) list of unique points per source —
-you will cite each point to its source, so note *who* said what as you read.
-
-### Step 3 — Write the entry
-
-Build the entry as a Python string, following §7 (blocks, citations, flags, length). Only include a
-block if the reading actually supplied content for it; **Meaning** and **Reflection** always.
-
-### Step 4 — Append, verify, commit, push (one command block)
-
-Append-only heredoc pattern (proven; do not use `"""` inside the entry):
-
-```bash
-cd /home/user/quran-explained && python3 - <<'PY'
-entry = '''
-
-## 3:1
-
-*"Alif Lam Mim."*
-
-**Meaning.** ... **[Ṭabarī]** ... **[Jalālayn]** ...
-'''
-open('3/al-imran.md','a').write(entry)
-print(len(entry))
-PY
-wc -w 3/al-imran.md && grep -c '^## 3:' 3/al-imran.md \
- && git add -A && git commit -q -m "Chapter 3: add 3:1 (seven sources)" \
- && git push -q origin HEAD && git log --oneline -1
+python3 /home/user/sect.py sizes 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 2:9 2:10
 ```
 
-- One commit per verse as a rule; one commit for a small group (2–4 verses) is fine when you wrote
-  them in one pass (message: `Chapter 3: add 3:5-3:8 (seven sources)`).
-- **Grouped verses** are common and accepted (1:2–1:4, 2:262–263, 2:278–279 were committed together).
-- The verify step (word count + heading count + `git log -1`) is not optional: it catches the silent
-  failure modes (entry not written, heading typo, push rejected).
+Subsequent iterations use 2:11–2:20, 2:21–2:30, and so on through 2:91–2:100. Read ten verses
+per iteration, not one verse per iteration.
 
-**Inserting into the middle of a file** (only needed for gap-filling a missed verse):
+### Step 2 — Read all seven sources for the ten-verse batch
 
-```python
-p = '2/al-baqarah.md'
-s = open(p, encoding='utf-8').read()
-marker = '\n\n## 2:124\n'
-assert s.count(marker) == 1          # fail loudly rather than corrupt silently
-s = s.replace(marker, entry + '\n\n## 2:124\n', 1)
-open(p, 'w', encoding='utf-8').write(s)
-```
+Use the source sizes to plan output and read every verse from all seven source corpora. Read Jalālayn,
+Study Quran, Saʿdī, and other short sources efficiently in batches where practical. For long Ṭabarī
+and Qurṭubī sections, use `showc` in manageable chunks and capture only relevant unique material.
+Ibn Kathīr is OCR'd: extract the sense and never reproduce garbled text. Maʿārif may bleed across
+verse boundaries; search adjacent context where needed. A zero-length Study Quran section may mean
+the verse is covered in a neighboring block.
+
+Keep a batch-level scratch outline of each verse's meanings, context, reports, rulings, doctrine,
+language, cross-references, readings, stories, reflections, and which source supports each point.
+Do not attribute material to a source whose section was empty or unread.
+
+### Step 3 — Write all ten entries in the batch
+
+Use the labeled blocks in §7.2. Every verse needs at least 800 words and 20 individual inline source
+tags; above both is recommended and advised. Make the prose useful and accurate rather than padding
+it. If a true evidence/word-count exception cannot be resolved from the corpora, do not fabricate;
+flag it for review and continue with the next verse.
+
+### Step 4 — Append, audit, and save the batch
+
+Append the ten entries to `2/al-baqarah.md` (creating the chapter header on the first iteration).
+Before moving on, verify that all ten headings appear once, and count **each entry separately** for
+words and source tags. A sample audit script is in §9. Inspect the diff for unsupported attributions,
+misleading claims, duplicated material, and unflagged weak reports. Save the complete ten-verse batch
+before starting the next one. The project convention is one commit per batch; only push to the fixed
+session branch if the configured remote accepts it.
 
 ### Step 5 — Continue immediately
 
-Next verse. No pause, no summary-to-user required mid-chapter, no check-in. Repeat until the sūrah
-is complete or the session's hard limit forces a stop (§6).
+During the original run, proceed to the next ten-verse iteration without pausing for a check-in; its
+ten batches ended at 2:100. That run is complete. For any future authorized batch, save at a clean
+ten-verse boundary and report the exact next verse if a hard system/session limit prevents completion.
 
----
+## 6. Effort protocol — original ten iterations / one hundred verses (completed)
 
-## 6. Effort protocol — "keep going" (this is the part the user most cares about)
-
-- **Never stop after a few verses.** The user's explicit instruction: *"You're to do everything
-  without stopping. Do it in a run. Generate, save (don't stop), continue generating."*
-- **Long runs are expected: 50–100+ verses in a single session.** The rhythm is
-  *read-10-verses-worth → write → save/commit → continue with the next batch* — repeated cycles,
-  **not** one giant read followed by a giant write.
-- **Save as you go.** Commit (and push) every verse or small group. Never hold hours of work
-  unsaved; the workspace can reset (§11).
-- **Never pause for confirmation** between verses or after a batch. Do not present partial chapters
-  for review. Do not ask whether to continue.
-- When a session's budget is exhausted, stop **only** at a clean, pushed save point and state the
-  exact file path, latest commit hash and the next verse to be written — the next session continues
-  from there without re-reading completed entries.
-- **Do not rewrite old entries** after a workspace reset or a reconnect; the pushed content is the
-  source of truth.
-
----
+- **Original target, now met:** Sūrah 2, verses 2:1–2:100, in ten sequential batches of ten.
+- **Read ten verses at every iteration.** For each batch, size and read all seven sources for those
+  ten verses, then write and check the ten entries before continuing.
+- **One continuous run:** finish all ten iterations without a mid-batch check-in or pause for approval.
+  Do not stop merely because an iteration is complete.
+- **Save as you go:** save at every ten-verse boundary and continue immediately. Where practical,
+  commit each batch to the current branch; never commit or push to another branch.
+- **Per-entry floors:** at least 800 words and at least 20 source-citation occurrences for each
+  verse. Aim above both. An average across a batch is not enough.
+- **Source honesty is mandatory:** do not invent a claim or tag to meet a quota. If a genuine shortage
+  remains after reading all sources, flag it accurately and continue.
+- If a hard tool or session limit forces a stop, stop only at a saved ten-verse boundary when possible;
+  report the last completed verse and the exact next verse.
 
 ## 7. Writing standard
 
@@ -469,20 +422,29 @@ Blocks may be merged or renamed slightly when a verse demands (e.g. "Readings" a
 "**Readings.**", a ḥadīth-heavy block may be titled "**Ḥadīth & āthār — ʿĀshūrāʾ.**"); keep the
 bold-label convention.
 
-### 7.3 Length — sized to the verse
+### 7.3 Minimum length and citation count
 
-- Short verses: ~120–350 words; typical verses: ~350–800; weighty legal/narrative verses
-  (2:255, 2:282, 2:285–286, 3:7): ~1,200–2,500 words.
-- Observed chapter averages: ch.1 ≈ 1,000 words/verse; ch.2 ≈ 1,040 words/verse
-  (296,808 words ÷ 286) — so the target is **substantial**, not skimpy.
-- A chapter is "done" when **every** verse has an entry, not when the budget feels spent.
+- Each verse entry must contain **at least 800 words**. The count is per entry, not an average.
+- Each verse entry must contain **at least 20 inline source citations**. Count every individual
+  source-tag occurrence, including repeats and each tag in a multi-source attribution.
+- It is recommended and advised to exceed both limits wherever the source material supports more
+  useful explanation.
+- Do not add filler or misattribute claims to satisfy a quota. Accurate synthesis takes precedence;
+  document a genuine exception rather than fabricate evidence.
+- Count the verse body between its heading and the next verse heading. Include translation and labels;
+  exclude chapter introduction/header and any Arabic written in the heading.
 
 ### 7.4 Citations
 
-- Cite at the point of use: `... **[Ṭabarī]**` or `... **[Qurṭubī]** **[Ibn Kathīr]`.
-- Attribute accurately. If a point is shared by several sources, cite the ones actually read.
-  Do not invent attributions to sources whose sections were empty or unread.
-- Qurʾān references given as `(2:255)`; sūra:āya format, no parentheses around the citation name.
+- Cite at the exact point of use with a separate tag for every cited tafsir source: `... **[Ṭabarī]**`
+  or `... **[Qurṭubī]** **[Ibn Kathīr]**`.
+- The minimum is 20 source-tag occurrences in each verse entry. Repeated occurrences count again;
+  separate tags in a multi-source attribution each count once. Do not put multiple source names in one
+  bracket, and do not count Qur'anic references, hadith collection names, a source list, or an author's
+  bare mention as a tafsir-source citation.
+- Attribute accurately. If a source did not support the claim or its section is empty/unread, do not
+  cite it. A citation count is not a substitute for reading.
+- Qurʾānic references use sūra:āya format, e.g. `(2:255)`; source tags remain separate.
 
 ### 7.5 Flags
 
@@ -535,111 +497,121 @@ bold-label convention.
 
 ---
 
-## 9. Quality control (per chapter)
+## 9. Quality control (per ten-verse batch and per chapter)
 
-Run before declaring a sūrah complete:
+For each batch, verify its ten headings and the two minima **entry by entry**. For the current first
+batch, expected verse numbers are 1–10; adjust the range for later batches.
 
 ```bash
-# 1) every verse present exactly once?
-grep -o '^## 3:[0-9]*' 3/al-imran.md | sed 's/## //' | awk -F: '{print $2}' | sort -n > /tmp/v.txt
 python3 - <<'PY'
-nums = [int(x) for x in open('/tmp/v.txt')]
-n = 200                                   # verses in this sūrah
-print('missing:', [i for i in range(1, n+1) if i not in nums])
-print('dups   :', sorted({i for i in nums if nums.count(i) > 1}))
-print('count  :', len(nums), 'max', max(nums))
+from pathlib import Path
+import re
+text = Path('2/al-baqarah.md').read_text(encoding='utf-8')
+parts = re.split(r'(?m)^## 2:(\d+)\b.*$', text)
+sources = ['Ṭabarī', 'Qurṭubī', 'Ibn Kathīr', 'Jalālayn', 'Saʿdī', 'Maʿārif', 'Study Quran']
+rows = []
+for i in range(1, len(parts), 2):
+    verse, body = int(parts[i]), parts[i + 1]
+    words = len(body.split())
+    citations = sum(len(re.findall(r'\*\*\[' + re.escape(src) + r'\]\*\*', body)) for src in sources)
+    rows.append((verse, words, citations))
+for verse, words, citations in rows:
+    if 1 <= verse <= 100:
+        print(f'2:{verse}: {words} words, {citations} source citations',
+              'BELOW MINIMUM' if words < 800 or citations < 20 else '')
 PY
-
-# 2) counters
-wc -w 3/al-imran.md && grep -c '^## 3:' 3/al-imran.md
-
-# 3) leftover warts (bad attributions, placeholders)
-grep -n 'sic\|TODO\|FIXME\|PLACEHOLDER' 3/al-imran.md
-
-# 4) push state
-git log --oneline -5 && git status --short
 ```
 
-When a gap is found, fill it with the middle-insert pattern (§5, Step 4) and commit:
-`Chapter 3: add 3:122-123 (fill gap; seven sources)`.
-
----
+Also verify no missing or duplicate headings within the batch; check the diff for unsupported citations,
+placeholders, copied claims, unflagged weak reports, and accidental edits to the read-only corpora.
+Before declaring the 100-verse run complete, confirm that every heading `## 2:1` through `## 2:100`
+appears exactly once and all 100 entries meet both minimums. Report total words/citations and per-entry
+exceptions (there should be none).
 
 ## 10. Git & PR conventions
 
-- **Work on the session's own branch only** (this project has used
-  `arena/01a101f2-quran-explained`; the previous session's branch was similar). Never switch to,
+- **Work only on the fixed session branch:** `arena/01a10a35-quran-explained`. Never switch to,
   create, or push any other branch.
-- Push frequently: `git push -q origin HEAD` (equals `git push origin <current-branch>`).
+- Save after each ten-verse iteration. If pushing is requested/appropriate, use only
+  `git push origin arena/01a10a35-quran-explained`.
 - Commit messages:
   - `Chapter N: add N:V (seven sources)`
   - `Chapter N: add N:V-N:W (seven sources)`
   - fixes: descriptive, e.g. `Chapter 2: fix 2:50 attribution (Muslim, not Tabari)`
-- Keep the PR open and current; PR #79 tracks the work at handover.
-  `gh pr view 79` to check; open a new PR from the session branch if none exists.
+- Use `gh` for pull-request work when the user asks for it; do not assume a PR number from this older handover.
 - Keep generated artifacts out of git beyond the two deliverables per chapter and `tools/`.
 
 ---
 
-## 11. Workspace-reset recovery (this happens; be ready)
+## 11. Workspace-reset recovery
 
-The whole workspace has been reset to the base commit more than once (repos and helper files vanish).
-Symptoms: `2/` gone, `1/` and `SPEC.md` present as **untracked** stale copies, `git log` showing the
-old base merge `cd27ba8`, `tafsir-*` folders present but stale, `/home/user/sect.py` missing.
-
-Proven recovery (works, order matters):
+If files appear missing or the tree looks reset, inspect before acting:
 
 ```bash
 cd /home/user/quran-explained
-rm -rf 1 SPEC.md            # stale untracked leftovers from the base checkout
-git fetch origin
-git reset --hard origin/<session-branch>     # e.g. origin/arena/01a101f2-quran-explained
-
-# verify: numbers must match the handover state (see §12)
-wc -w 2/al-baqarah.md && grep -c '^## 2:' 2/al-baqarah.md
-
-# restore the tool
-cp tools/sect.py /home/user/sect.py
-python3 /home/user/sect.py sizes 2:257       # smoke test: 10038/1508/1884/546/697/226/815
+git branch --show-current
+git status --short
+git log --oneline -5
 ```
 
-After recovery: **do not rewrite or re-generate completed entries.** Only continue from the next
-unwritten verse.
+Do not use `git reset --hard`, `git checkout`, or other destructive recovery until the current diff and
+staged changes have been reviewed and preserved. The current branch is fixed to
+`arena/01a10a35-quran-explained`. Restore the helper tool with:
 
----
+```bash
+cp tools/sect.py /home/user/sect.py
+python3 /home/user/sect.py sizes 2:1 2:2 2:3
+```
 
-## 12. Current state & exact next action (as of handover)
+The staged deletions of `3/al-imran.md` and `4/an-nisa.md` are intentional and must be preserved.
+`2/al-baqarah.md` is committed through 2:100; do not recreate or overwrite it from 2:1. If the user
+requests further work, continue from 2:101 while preserving Sūrahs 3 and 4 as deleted.
 
-**Completed:**
-- `1/al-fatihah.md` — 7,010 words; seven-source regeneration; headings `## 1:1`–`## 1:7`.
-- `2/al-baqarah.md` — **296,808 words; 286 entries; 2:1–2:286 complete**, QC'd (gap at 2:122–123
-  filled; 2:50 attribution fixed). Last content commit: **`96d773a`** (pushed).
-- Continuation pack: **`HANDOVER.md`** (this file), **`tools/sect.py`**, and the SPEC pointer —
-  commit **`c2caf5f`** (pushed). HEAD at handover: **`c2caf5f`**.
+## 12. Current state & exact next action (2026-10-05)
 
-**Not started:** Sūrah 3 (Āl ʿImrān, 200 verses).
+**Current state:**
+- `1/al-fatihah.md` remains the completed style reference; `SPEC.md` remains the binding format and
+  acceptance spec.
+- `2/al-baqarah.md` now contains complete commentary for **2:1–2:100**, written and audited in ten
+  consecutive ten-verse batches. Every verse heading from `## 2:1` through `## 2:100` appears exactly
+  once; all 100 entries meet both per-verse minimums. There are no exceptions.
+- Final count: **115,639 whitespace-separated words** and **2,853 inline source-attribution occurrences**
+  across the 100 entries. The lowest word count is 821 (2:14); the lowest citation count is 20, met by
+  2:21, 2:25, 2:28, 2:31–2:34, 2:37–2:38, and 2:46–2:48, 2:50. Counts include repeated tags from the
+  seven approved tafsīr sources; Qur'anic cross-references are excluded.
+- Per-batch audit minima (lowest words / lowest citations among each ten verses):
 
-**Next action, precisely:**
-1. Run the Step 0 sanity check (§5).
-2. `git checkout` nothing — you are already on the session branch; `git pull`/fetch if needed.
-3. Create the header of `3/al-imran.md` per §7.1.
-4. `python3 /home/user/sect.py sizes 3:1 3:2 3:3 3:4 3:5` (surah 3 works — verified; 3:1–3:2 share
-   Qurṭubī's block at 9,947 chars, Maʿārif 5,100 at 3:1, Study Quran starts empty at 3:1 and 3:2).
-5. Begin the 3:1 entry (the *ḥurūf muqaṭṭaʿāt*, `الم`), then continue **without stopping**.
+  | Batch | Verses | Minimum words | Minimum citations |
+  |---|---|---:|---:|
+  | 1 | 2:1–2:10 | 840 | 22 |
+  | 2 | 2:11–2:20 | 821 | 21 |
+  | 3 | 2:21–2:30 | 883 | 20 |
+  | 4 | 2:31–2:40 | 838 | 20 |
+  | 5 | 2:41–2:50 | 864 | 20 |
+  | 6 | 2:51–2:60 | 899 | 26 |
+  | 7 | 2:61–2:70 | 902 | 25 |
+  | 8 | 2:71–2:80 | 860 | 28 |
+  | 9 | 2:81–2:90 | 909 | 27 |
+  | 10 | 2:91–2:100 | 926 | 24 |
 
-**Progress counters to keep updating in each handover state note:** cumulative words, entries, last
-commit — they are the receipt that the save-as-you-go protocol is working.
+- Content was committed in ten batch commits on `arena/01a10a35-quran-explained`; the final content
+  commit is `823c730` (`Chapter 2: add 2:91-2:100 (seven sources)`). An additional audit fix for 2:33
+  is `29b55cd`.
+- No push was performed. `3/al-imran.md` and `4/an-nisa.md` remain staged for deletion; keep those
+  deletions out of chapter-content commits. `/home/user/sect.py` is the convenience copy of
+  `tools/sect.py`.
 
----
+**Next action:**
+1. The requested 2:1–2:100 run is complete; do not repeat or extend it without new user direction.
+2. If the user explicitly requests continuation, begin at **2:101** and preserve the audited entries.
+3. Keep working on `arena/01a10a35-quran-explained`; do not restore Sūrahs 3 or 4 or push unless asked.
 
 ## 13. One-paragraph restatement for the incoming model
 
-You are continuing a verse-by-verse Qur'an tafsir built from seven named sources into one Markdown
-file per sūrah. Every verse gets an entry with labeled blocks (Meaning and Reflection always; others
-as content allows), inline **[Source]** citations, flags for weak/Israelite/digressive material, and
-length sized to the verse. You read the corpora with `tools/sect.py` in small chunks, write the entry
-with a Python append, then commit and push it immediately, then go straight to the next verse —
-dozens to a hundred or more per session, saving as you go, never pausing for check-ins, never
-stopping because a batch is finished. If the workspace resets, recover with fetch + reset to the
-session branch and continue from the next unwritten verse. The work is complete for Sūrahs 1 and 2;
-you begin at **3:1**.
+The initial Sūrah 2 run is complete: `2/al-baqarah.md` covers 2:1–2:100 in ten audited ten-verse
+batches, and every entry meets the minimum of 800 words and 20 individual source-attribution
+occurrences. Do not repeat or extend the completed range unless the user asks. If continuation is
+requested, begin at 2:101; retain accurate citations to the seven approved tafsīr sources, count every
+tag occurrence (including repeats), and do not count Qur'anic cross-references. Keep the staged
+deletions of `3/al-imran.md` and `4/an-nisa.md` out of chapter-content commits, work only on
+`arena/01a10a35-quran-explained`, and do not push unless requested.
