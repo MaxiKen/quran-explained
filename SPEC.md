@@ -81,12 +81,16 @@ Meet the thresholds through accurate, relevant source attribution and useful syn
 
 ### Progress snapshot (2026-10-05)
 
-The continuation is appended and audited through **2:260**; the next batch is **2:261–2:270**. The
-2:251–2:260 commentary-prose/source-tag counts are 2:251 900/58; 2:252 891/59; 2:253 878/64;
-2:254 879/59; 2:255 874/64; 2:256 876/63; 2:257 875/66; 2:258 873/61; 2:259 876/60;
-2:260 855/64. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for
-2:259 is misaligned with 2:258; neither was cited for those verses. The separate source-accuracy review
-of 2:121–2:130 remains pending.
+The continuation is appended and audited through **2:270**; the next batch is **2:271–2:280**. The
+2:261–2:270 commentary-prose/source-tag counts are 2:261 952/64; 2:262 890/64; 2:263 834/64;
+2:264 889/62; 2:265 843/67; 2:266 866/61; 2:267 842/60; 2:268 837/66; 2:269 852/66;
+2:270 821/60. All entries exceed the 800-word commentary-prose and 20-source-tag floors. The report
+about inferior date donations at 2:267 is identified as an occasion report; one transmitted chain is
+weak. The legal excursus on zakat at 2:267 and vow-law details at 2:270 are marked as digressions.
+The Study Quran discussions for 2:263 and 2:265 occur in adjacent multi-verse blocks. The separate
+source-accuracy reviews of 2:121–2:130 and Ṭabarī 2:251 ranges 7000:18000 and 26000:30000 remain
+pending. Study Quran has no separate section for 2:251, and the extracted Maʿārif section for 2:259 is
+misaligned with 2:258; neither was cited for those verses.
 
 ## 6. Verification before saving a batch
 
