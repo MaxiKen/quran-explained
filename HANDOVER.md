@@ -738,7 +738,7 @@ push only to that branch if pushing is requested.
 
 ## 14. Sūrah 3 (Āl ʿImrān) — progress and open items
 
-**Status:** `3/al-imran.md` covers **3:1–3:120** (120 entries). Twelve batches written so far, each
+**Status:** `3/al-imran.md` covers **3:1–3:130** (130 entries). Thirteen batches written so far, each
 audited independently. Commentary-prose words / inline source-tag occurrences:
 
 - Batch 1 (3:1–3:10): 3:1 1,532/31; 3:2 1,366/32; 3:3 1,430/28; 3:4 1,212/26; 3:5 1,150/29;
@@ -781,6 +781,14 @@ inline source tags. **3:110 (3,132/74) is now the second-largest entry after 3:9
 Every entry clears both floors. Totals for 3:1–3:120: **207,255** commentary-prose words and **5,119**
 inline source tags. **3:118 (4,913 words / 93 tags) is now the largest single entry in the sūrah.**
 
+- Batch 13 (3:121–3:130): 3:121 3,625/74; 3:122 1,683/49; 3:123 1,649/50; 3:124 2,545/59;
+  3:125 2,191/52; 3:126 2,017/44; 3:127 1,870/49; 3:128 3,420/69; 3:129 1,378/37; 3:130 2,567/63.
+
+Every entry clears both floors. Totals for 3:1–3:130: **230,775** commentary-prose words and **5,685**
+inline source tags. 3:118 (4,912/93) remains the largest; 3:121 (3,625/74) and 3:128 (3,420/69) are
+the largest of the Uḥud passage. **The Uḥud block ends at 3:130; 3:131 returns to the Fire and
+Paradise, and 3:133 ff. are the well-known verses on *taqwā*, spending, anger and *istighfār*.**
+
 **Corpus notes for batch 12 (verify before re-citing):** the round is dominated by five shared blocks.
 **ibnkathir 3:111 = 3:112 (12,922)** — the 3:111 material (good news of domination, Khaybar, the three
 Madinan tribes, the Christians of Syria, the descent of Jesus) sits at the **tail** of the block.
@@ -811,51 +819,52 @@ the dhimmī-protection ḥadīths, the ʿUmar-and-the-scribe story, and Qurṭub
 it is the single richest Maʿārif block in the sūrah so far. **maarif 3:120 (2,727)** is the *ṣabr* and
 *taqwā* excursus with 3:125, 12:90, 3:200 and 65:2.
 
-**Corpus map for batch 13 (3:121–3:130) — measured, so the next round can skip straight to reading.**
-The Uḥud passage is the densest stretch of the sūrah. Sizes (`sect.py sizes 3:121 … 3:130`):
+**Corpus map for batch 14 (3:131–3:140) — measured, so the next round can skip straight to reading.**
+The passage turns from Uḥud to the Fire, Paradise and the qualities of the God-fearing; then 3:137–140
+return to history (the *sunna* of God with those who passed before, the wounding at Uḥud, the days
+alternated among men). Sizes (`sect.py sizes 3:131 … 3:140`):
 
 ```
      v     tabari    qurtubi  ibnkathir   jalalayn      saadi     maarif      study
-3:121       8904       2720       7867        767       1914      15372       1973
-3:122       4864      11072       7867        742       1914       3618        578
-3:123       3834      20938       7867        287       1914       2027        263
-3:124      25741      20938      12971        332       1914       2027       2857
-3:125      25741      20938      12971        688       1914       7334          0
-3:126       3002       2280      12971        367       1914       7334          0
-3:127       2732       2280      12971        353       1914       7334        351
-3:128      14496       7640      12971        457        514       7334       1660
-3:129        781       7640      12971        250        841       7334          0
-3:130       3077       3034      13840        288       5635       1306        187
+3:131       1235       3034      13840         92       5635       1306        221
+3:132       1235       3034      13840         58       5635      10581        442
+3:133      10836       6771      13840        338       5635       7116        416
+3:134       5301       7691      13840        344       5635      14432       1254
+3:135      14081      17667      13840        383       5635       1582       1273
+3:136       1190        228      13840        280       5635       1582          0
+3:137       5591       1269       6544        450       1114       1582       2728
+3:138       2683        151       6544        128       1114       1582        462
+3:139       3119       2057       6544        259       3500       4422        548
+3:140      10949       5516       6544        699       3500       1518       1980
 ```
 
-Distinct (de-duplicated) blocks and the verse ranges they cover:
-**tabari** — 121 (8,904); 122 (4,864); 123 (3,834); **124 = 125 (25,741**, the largest block of the
-round, ~49 isnād reports **7743** onward, mostly the Badr vs Uḥud question of when the angels were
-promised, plus a long *musawwimīn* lexicography at the tail with the Usayd b. ʿAnqāʾ line);
-126 (3,002); 127 (2,732); 128 (14,496); 129 (781); 130 (3,077).
-**qurtubi** — 121 (2,720); 122 (11,072); **123 = 124 = 125 (20,938**, six *masāʾil*, opening with the
-date of Badr — 17 Ramaḍān, a Friday, eighteen months after the Hijra — and closing on the turban
-question and the Rukāna ḥadīth "the difference between us and the idolaters is the turbans over the
-caps", which Bukhārī declared to have an unknown chain); 126 = 127 (2,280); 128 = 129 (7,640);
-130 (3,034).
-**ibnkathir** — **121 = 122 = 123 (7,867**, the whole Uḥud narrative: the dream, the march, the
-archers, ʿAbdullāh b. Ubayy's withdrawal with three hundred, the roll of the martyrs, Ḥamza,
-Muṣʿab b. ʿUmayr, Anas b. al-Naḍr, the rumour of the Prophet's death, 9:27 quoted at the tail);
-**124 = 125 = 126 = 127 = 128 = 129 (12,971**, running on into 3:129 and quoting 3:128–129 at the
-tail); 130 (13,840).
-**jalalayn** — distinct for all ten; 3:121 (767) and 3:122 (742) carry the fullest narrative detail
-(1,000 or 950 men against 3,000; Saturday 7 Shawwāl, year 3; the archers under ʿAbdullāh b. Jubayr;
-Abū Jābir al-Salamī's appeal to Ibn Ubayy: "If we knew how to fight we would follow you!").
-**saadi** (Arabic) — **121 = 122 = 123 = 124 = 125 = 126 = 127 (1,914**, one block keyed verse by
-verse with {121}, {122}, {123–126}, {127} markers — split by those markers); 128 (514); 129 (841);
-130 (5,635, the largest Saʿdī block in the sūrah — read it whole).
-**maarif** — 121 (15,372, the Uḥud sequence-of-events excursus, the largest Maʿārif block in the
-sūrah); 122 (3,618, the *tawakkul* discussion, four numbered points); 123 = 124 (2,027, on Badr and
-the two behaviour-models); **125 = 126 = 127 = 128 = 129 (7,334**); 130 (1,306).
-**study** — 121 (1,973; notes that some say the verse refers to Aḥzāb rather than Uḥud — IK, R, Ṭ);
-122 (578); 123 (263); **124 = 125 = 126 (2,857**, one note covering all three); **127 (351)**; 128
-(1,660); 130 (187). **study 3:125, 3:126 and 3:129 are zero-length** — one `*Source note:*` at 3:125
-covering 3:125–126 (the 3:124–26 note is cited at 3:124) and another at 3:129.
+Distinct (de-duplicated) blocks and the verse ranges they cover (note how few there are — three
+sources cover the whole round in one or two blocks each):
+**tabari** — 131 = 132 (1,235); 133 (10,836); 134 (5,301); **135 (14,081**, the largest of the round);
+136 (1,190); 137 (5,591); 138 (2,683); 139 (3,119); 140 (10,949).
+**qurtubi** — 131 = 132 (3,034, i.e. the same block already read for 3:130 — do not re-read);
+133 (6,771); 134 (7,691); **135 (17,667**, the largest Qurṭubī block in the sūrah so far);
+136 (228, very thin); 137 (1,269); **138 (151, almost empty)**; 139 (2,057); 140 (5,516).
+**ibnkathir** — **131 = 132 = 133 = 134 = 135 = 136 (13,840**, the same block already read for
+3:130 — the Fire, Paradise, al-Firdaws, 3:133–136 all sit in it, so **do not re-read 3:130's block**);
+**137 = 138 = 139 = 140 (6,544**).
+**jalalayn** — distinct for all ten, but three are near-empty: **3:131 (92), 3:132 (58),
+3:138 (128)**; the substantial ones are 3:140 (699), 3:137 (450), 3:135 (383), 3:134 (344),
+3:133 (338).
+**saadi** (Arabic) — **131 = 132 = 133 = 134 = 135 = 136 (5,635**, the same block already read for
+3:130, keyed verse by verse with {131}, {132}, {133}, {134}, {135}, {136} markers — split by them);
+137 = 138 (1,114); 139 = 140 (3,500).
+**maarif** — 131 (1,306, the same block already read for 3:130 — it is Maʿārif's *ribā* note);
+**132 (10,581)**; **133 (7,116)**; **134 (14,432**, the largest Maʿārif block in the sūrah);
+**135 = 136 = 137 = 138 (1,582**, Maʿārif's only material for 3:136–138); 139 (4,422); 140 (1,518).
+**study** — 131 (221); 132 (442); 133 (416); 134 (1,254); 135 (1,273); **136 (0)**; 137 (2,728, the
+largest Study-Quran note of the round); 138 (462); 139 (548); 140 (1,980). **study 3:136 is
+zero-length** — its note for 3:135–36 is cited at 3:135, so 3:136 needs a `*Source note:*`.
+
+**Weakest verses of batch 14 to watch:** 3:136 (tabari 1,190; qurtubi 228; jalalayn 280; study 0) and
+3:138 (qurtubi 151; jalalayn 128; tabari 2,683) — prop them up with the shared ibnkathir 137–140
+block, the maarif 135–138 block, and the saadi 137–138 block. 3:131 and 3:132 are also thin on
+Jalālayn (92 and 58) but are carried by the maarif 132 (10,581) and qurtubi 131–32 blocks.
 
 **Reading-tip that saved a lot of context in batch 12:** `sect.py` returns the *same* block for every
 verse a source covers, so writing one file per source with all ten verses **triples the Arabic you
