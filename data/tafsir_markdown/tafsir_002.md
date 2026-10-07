@@ -1981,3 +1981,203 @@ The word rendered as resentment is explained as transgression and envy, and the 
 The phrase ***“wrath upon wrath”*** describes two occasions of divine anger, and the reports differ over which two. Ibn ʿAbbās, in the report carried through Ibn Ishāq, says the first was incurred when they neglected the Torah while it was in their hands, and the second when they denied the prophet God had raised among them. ʿIkrimah, Qatādah, al-Rabīʿ, and Mujāhid give the pair as the rejection of Jesus and the Gospel followed by the rejection of Muhammad and the Qur'an; Mujāhid identifies the first specifically with their alteration of the Torah before the mission. Al-Suddī traces the earlier anger to the time of the calf, and one report extends the phrase by saying that the second anger is the one incurred when they rejected the messenger. Al-Shaʿbī's summary orders the whole matter into four cases on the Day of Resurrection: the man who believed in Jesus and then in Muhammad has two rewards; the man who denied Jesus but accepted Muhammad has one reward; the man who denied both is the one who carries the doubled anger; and the idolater who died in his denial before Muhammad came carries a single wrath.
 
 The last clause names the punishment as humiliating, and the discussion draws a distinction that explains why the word is used only here. A punishment that does not humiliate its bearer is the kind that purifies: the hand cut off for theft, the penalty laid on the one who commits adultery, and the chastisement of believers who committed grave wrongs and are then admitted to the garden. The punishment that humiliates is the one from which a person never moves into honour, and the discussion assigns it to those who reject the message itself.
+## **2:91**
+
+> When it is said to them: “Believe in what Allah has revealed,” they reply, “We only believe in what was sent down to us,” and they deny what came afterwards, though it is the truth confirming their own Scriptures! Ask ˹them, O Prophet˺, “Why then did you kill Allah’s prophets before, if you are ˹truly˺ believers?”
+
+### **MEANING**
+
+The invitation is put to them plainly, and the answer divides revelation in two. Their profession is ***“in what was sent down to us,”*** which they gloss as the book already in their hands, while ***“what came afterwards”*** is turned away — although, as the verse puts it, ***“the truth confirming their own Scriptures”*** is precisely what has arrived. The verse then produces the argument that breaks the claim. If loyalty to the book in their possession were genuine, why did their predecessors kill the prophets God raised among them, when that very book required that prophets be followed and trusted? The account makes their scripture the witness against them.
+
+### **WHAT CAME AFTERWARDS**
+
+The phrase rendered ***“what came afterwards”*** is explained by the early interpreters as what stands beyond the Torah: the books that followed it, and in this setting the revelation given to Muhammad, which is the point of the exchange. Al-Rabīʿ and Qatādah both say plainly that it means what followed. The discussion then explains why the verse attaches confirmation of the earlier scripture to this later revelation. God's books confirm one another: the command to follow the messenger and believe what he brought is present in the earlier scripture just as it is in the later one, so that a community testing the new message against the old would find agreement rather than contradiction. The report from al-Suddī adds the sharper version of the point: the books confirm each other, and the community's rejection of the later revelation puts them in the same position toward it as they were toward the covenant they had already broken.
+
+The argument is completed by the question that closes the verse, and the discussion notes what the question exposes. Their professed loyalty to the book in their possession is contradicted by the record of their history, since the Torah forbade the killing of prophets and required obedience to them. Their readiness to reject the new messenger is therefore not an excess of loyalty to the old book but a repetition of the conduct that book condemns, and the two refusals belong to one pattern.
+
+### **THE KILLING OF THE PROPHETS**
+
+The question is phrased in the present tense even though the killing was done by earlier generations, and the discussion considers why. One explanation holds that the two tenses are interchangeable in this kind of expression, in the way that a poet describes passing a man who insults him and then says that he went on, where the second verb supplies the past sense of the first; a line of poetry is quoted in which a speaker says that he comes to a people to thank them for what has passed and to earn what lies in tomorrow, so that the form carries a future meaning without difficulty. Another explanation describes a speaker rebuking a man for an act already done, asking why he lied or why he made himself hateful.
+
+The discussion then offers its own resolution, and it rests on how Arabic attributes a deed to a community. The people addressed at Medina were not themselves the killers; their ancestors were, and they followed the ancestors in it and approved it. God addressed the descendants with the record of what their forebears had done, exactly as one tribe says to another that we did such-and-such to you on a certain day, meaning that our forefathers did it to yours. The closing words, asking whether they are believers, apply the test directly: if the faith they claim had really been their guide, it would have forbidden them the attitude their history displays, and the discussion adds that the sentence is a rebuke rather than a request for information.
+
+## **2:92**
+
+> Indeed, Moses came to you with clear proofs, then you worshipped the calf in his absence, acting wrongfully
+
+### **MEANING**
+
+The verse returns to the events recorded in their tradition. The account is brief here because the episode was already familiar from the earlier part of the surah, where the calf and the mountain were set before the reader as part of the same indictment. Moses arrived among them with ***“clear proofs,”*** signs that established his truth and his mission, and the community that had seen them turned to a calf as soon as he was gone. The word that ends the sentence names the act for what it is: ***“acting wrongfully.”*** The verse therefore sets the two things side by side — the proofs, and what was done after them — and leaves the reader to measure the distance.
+
+### **THE PROOFS THAT CAME**
+
+The signs are identified in the discussion as the staff that became a serpent, the hand drawn out white for those who looked, the sea split so that dry ground served as a road, and the plagues that followed: locusts, lice, frogs, and the rest. They are called proofs because they made their own case as soon as they were seen: no human being could produce them, and the fact that they happened at Moses' hand showed that God had empowered him. The word is a plural of the same form as the word for good things, and the discussion notes the idiomatic shape rather than dwelling on it.
+
+The account of what followed is exact about the interval. The calf was taken as an object of worship after Moses had left them for the appointed meeting with his Lord, or, on the other reading, after the proofs had come, with the pronoun referred to the coming rather than the man. Both are grammatically sound, and the difference does not affect the sense: the lapse came immediately after the clearest possible demonstration. The second reading is stated in the discussion as making the pronoun point to *“the coming of the proofs.”*
+
+### **THE LAPSE AND ITS MEASURE**
+
+The discussion dwells on what the verse implies about the community addressed centuries later. Those who heard the Prophet at Medina stood far in time from the events at Sinai, and their distance from Moses should have made them slower, not quicker, to dismiss the claims of a messenger. Yet the earlier community had abandoned the faith within days of seeing miracles that no one else had produced, while the later one rejected the Prophet without any such interval: the lesson drawn is that the pattern of rejecting God's messengers does not depend on the strength of the evidence, since the evidence was at its strongest when the lapse was swiftest. The verse is not told as ancient history for its own sake. The wrong it names is the very wrong identified in the earlier verses, the preference for something made over the One who made everything, and the discussion treats the two episodes as one story told twice. The questions the passage raises about the calf belong to that same argument, and the reports of what happened at Sinai are carried into the confrontation with the community at Medina, so that the reader is meant to hear the earlier lapse inside the later refusal. What the community is being asked to acknowledge is not a fact about its ancestors but a pattern it has inherited and repeated.
+
+## **2:93**
+
+> And when We took your covenant and raised the mountain above you ˹saying˺, “Hold firmly to that ˹Scripture˺ which We have given you and obey,” they answered, “We hear and disobey.” The love of the calf was rooted in their hearts because of their disbelief. Say, ˹O Prophet,˺ “How evil is what your ˹so-called˺ belief prompts you to do, if you ˹actually˺ believe ˹in the Torah˺!”
+
+### **MEANING**
+
+The covenant is recalled once more, and this time with its setting: the mountain lifted above the people as the terms were put to them. They were told to ***“hold firmly to that ˹Scripture˺ which We have given you and obey.”*** The answer recorded is the one that has echoed through the passage: they heard and they disobeyed. The verse then diagnoses the condition behind the answer, describing the calf's hold on them as something steeped into the heart, and closes with a rebuke: what their belief bids them do is evil, if belief is what they have.
+
+### **THE MOUNTAIN AND THE COMMAND**
+
+The word rendered ***“hold firmly”*** is explained as taking the book with serious effort and energy, so that the command is about inner resolve rather than mere reception. The command to obey is glossed in turn as accepting what has been heard and acting on it, the same sense as the familiar reply of a servant who says that he has heard and obeys; a line of verse used as a proverb puts hearing, obedience, and submission together as the safest course. The mountain raised above them turns the scene into an oath-taking: the terms were received under a display of power that left no excuse for misunderstanding.
+
+The shift in the verse from address to reported speech is then explained as a feature of this passage throughout. The opening speaks to the people directly, and the report of their answer speaks of them; the discussion accounts for the change by the fact that the whole scene is a narrative, and Arabic moves between the two modes within one such narration as convenience requires. The answer itself is the verse's sharpest stroke: the two verbs that ought to have been opposite are joined together, hearing without compliance, which is the precise inversion of what a covenant requires.
+
+### **WHAT SOAKED INTO THE HEARTS**
+
+The clause about the calf is read in two ways. Most of the early interpreters read it as affection for the calf: Qatādah says that affection was made to penetrate until it reached the hearts, and al-Rabīʿ and Abū al-ʿĀliyah give the same sense. The second view takes it literally, and al-Suddī's account supplies the scene: when Moses returned, he took the calf, slaughtered and burned it, scattered the ashes on the water, and told the people to drink; whoever among them loved it showed gold on his lips, and the verse describes that. Ibn Jurayj's report adds a further effect: those who drank their fill of the water carried a weakness away from it.
+
+The discussion prefers the first view and argues from the language. Water is not said to be drunk into the heart; what a heart is said to drink is the love of something, as a poet says that love is the draught that a heart takes like a disease. Since the calf itself cannot be drunk into a heart, the word for love must be understood and supplied, and the discussion parallels this with other places where the Qur'an leaves a noun unspoken because the sense is obvious, as when it says to ask a town and a caravan, or when a poet says he was given a draught of blackness and means poison.
+
+The verse's final rebuke is then explained. Their claim to believe the book is turned against them: if the belief they point to when they say they hold to what was sent down to them is the thing urging them to kill God's messengers and to deny His books, then what a wretched thing their belief bids them do. The discussion adds that God thereby clears the Torah of the charge, since it commands the opposite of all this, and locates the real driver of their conduct where it belongs: in their own desires, their envy, and their aggression.
+
+## **2:94**
+
+> Say, ˹O Prophet,˺ “If the ˹eternal˺ Home of the Hereafter with Allah is exclusively for you ˹Israelites˺ out of all humanity, then wish for death if what you say is true!”
+
+### **MEANING**
+
+The claim of exclusive salvation is now answered with a test that the claimants cannot pass. The verse invites them to ***“wish for death”*** — should the final home be theirs alone, the invitation would cost them nothing, and the reasoning is simple and public: were their assertion true, death would carry them from hardship to rest and from a place among people to the honour they say is theirs; should they shrink from the wish, their claim stands exposed. The verse gives them a fair way to prove their case, and the rest of the passage will record that they did not take it.
+
+### **THE CLAIM BEING ANSWERED**
+
+The reports tie the challenge to specific assertions the community was making about itself. They said that they were the sons of God and His beloved, and that no one would enter the garden except those of their own religion, statements the Qur'an elsewhere records and answers. Those two claims together amount to an exclusive title to the world to come, and the verse addresses the title directly, asking why those assured of such an inheritance should not desire the moment that delivers it. The discussion adds the further purpose of the challenge: it settled the dispute in the sight of the people, because a claim to exclusive truth could be tested in public by a wish that either carried the wisher to his hope or left him silent. The form of the argument also belongs to the way the Qur'an handles contested claims generally, since it does not ask the two sides to trade assertions but offers a single decisive request, and the outcome of the request is left for everyone to see. The passage records that the challenge was declined, and the decline is treated as the answer.
+
+### **WHAT IT MEANS TO WISH FOR DEATH**
+
+The verb is explained as desiring and longing, not as asking in words, and the discussion notes that a report from Ibn ʿAbbās gives it as asking for death, which it explains as a close figurative extension rather than the literal sense, since the Arabic word for a wish is built from the soul's desire. One report describes the challenge as calling down death on whichever of the two parties is lying, which turns the wish into a form of imprecation. The Prophet's own comment on the outcome is transmitted from Ibn ʿAbbās: *“if the Jews had wished for death they would have died, and they would have seen their seats in the fire.”* Further reports from the same authority say that if they had made the wish that day, not one Jew would have survived on the face of the earth, and that each of them would have choked on his own saliva.
+
+The discussion then explains why the challenge was raised at all, and it points to the same pattern as the earlier passages: the people who asserted an exclusive claim to the next world were being invited to want what their claim made desirable. Their refusal, recorded in the verses that follow, is treated not as an oversight but as a verdict on their own confidence.
+
+## **2:95**
+
+> But they will never wish for that because of what their hands have done. And Allah has ˹perfect˺ knowledge of the wrongdoers
+
+### **MEANING**
+
+The answer to the challenge is stated flatly: no such wish will ever come from them, and the reason given is ***“what their hands have done.”*** The verse then closes the passage by saying that God knows the wrongdoers well, a reminder that the refusal was no secret. The prophecy is stronger than a prediction of behaviour; it states what the community's own knowledge guarantees, since they were aware of what the messenger said and aware of what they were doing with it.
+
+### **WHY THE WISH NEVER COMES**
+
+The reports explain the refusal in two ways that reinforce each other. Ibn ʿAbbās, in the report carried through Ibn Isḥāq, notes that they declined the challenge and that their refusal was grounded in the knowledge they had of the messenger and their rejection of what they knew: a person who is certain of his case welcomes the test, and one who is uncertain avoids it. Another report from the same authority puts it as the possession of knowledge that they were lying: if they had been truthful they would have longed to reach the honour promised them, and since they did not, the truth stood revealed.
+
+Other reports describe the community's temperament in the same direction. Ibn Jurayj describes them as the most reluctant of people to die and the least likely to ask for death. The discussion adds that this reluctance was itself the announcement the verse made, since the community that heard the challenge knew that its own inner state contradicted the claim of exclusivity, and the passage records the contradiction as a permanent fact about them.
+
+### **THE HANDS AND THE DEEDS**
+
+The phrase that attributes their state to ***“what their hands have done”*** is a manner of speaking that the discussion explains carefully. When a man is punished for a crime he has committed, the Arabs say that what befell him came from what his hands earned, even when the act concerned was done with the tongue or with some other limb. Since most human offences are committed by hand, the language attaches all of them there, and the effect is to attribute the whole of a person's conduct to him. The report from Ibn ʿAbbās says the phrase means what was sent ahead by them; Ibn Jurayj specifies it as the knowledge of the Prophet that they hid when they knew him to be a prophet. One further report widens the same figure of speech, noting that the deeds in question include what the heart concealed and the tongue spoke of envy and denial, all of it attributed to the hands.
+
+The verse then ends where the whole passage has been heading, with the statement that God knows the wrongdoers, and the discussion identifies the wrong in question as their denial of the messenger they themselves had been expecting, after the covenant they had already been charged with keeping. The sentence is phrased as a closing syllable rather than a new argument, and it leaves the reader with the contrast the verses have drawn: a claim to know God's mind about the next world, made by people whose conduct shows what they actually know in this one.
+## **2:96**
+
+> You will surely find them clinging to life more eagerly than any other people, even more than polytheists. Each one of them wishes to live a thousand years. But even if they were to live that long, it would not save them from the punishment. And Allah is All-Seeing of what they do
+
+### **MEANING**
+
+The verse follows the refusal to wish for death with a statement about the community's attachment to life. They are described as holding to existence with a grip tighter than anyone else's, and the comparison is sharpened by adding the idolaters, who had no expectation of anything after death. The wish attributed to each of them is for a millennium of life, and the answer is that any such span would still not move them away from what awaits them. The closing words place the whole matter where the passage has placed it throughout: God sees their conduct.
+
+### **WHY THE GRIP IS TIGHTEST**
+
+The reports insist on the comparison and explain it. Ibn ʿAbbās, in the report carried through Ibn Isḥāq, says the difference lies in what each party expects: the idolater anticipates no resurrection after death, so a long life is all he can hope for, while the Jew knows the shame that has been prepared for him on account of the knowledge he neglected, and that knowledge makes him more attached to the present and more afraid of the end. Abū al-ʿĀliyah gives the same reasoning, and the discussion adds that the community which had been given the most information about the next world had the most reason of all to dread it.
+
+The construction of the sentence is examined because the comparison is not made in the usual way. The phrase runs as if the second party were added by a preposition rather than by the ordinary comparative form, which the discussion illustrates with the phrase describing a man as the bravest of people and braver than a famous warrior: the meaning carries the comparative sense even though the form does not, and the verse makes that sense explicit so that no reader would mistake it. The idolaters meant in the second term are identified by Abū al-ʿĀliyah as those who do not accept the resurrection at all, and Ibn Zayd's report says the purpose of the verse is simply to mark the community as more eager for survival than they.
+
+### **THE WISH FOR A THOUSAND YEARS**
+
+The wish is explained in the reports as something the community actually said, and Ibn ʿAbbās identifies the words as a greeting used among non-Arab peoples. One report has it said to the sneezing man, meaning ten thousand such periods, and the phrase as preserved comes from a foreign tongue. Qatādah gives the inner cause in a sentence of his own: *“sin made long life beloved to them.”*
+
+The verse then states the outcome even on the fullest assumption of their desire. The word rendered as not saving them carries the sense of removing to a distance: the lengthening of life is no removal from punishment, because every span still ends in death and in the return to God. The discussion notes the grammatical particle that separates the subject from its predicate, and records the reading of the clause by Abū al-ʿĀliyah and Ibn Zayd as meaning that a man granted the longest life would still gain nothing by it, since a servant who lives as long as Iblīs profits by none of it if he remains in denial. The same point closes the verse: the One who sees their deeds sees also the motive behind the wish, and nothing in the record is beyond Him.
+
+## **2:97**
+
+> Say, ˹O Prophet,˺ “Whoever is an enemy of Gabriel should know that he revealed this ˹Quran˺ to your heart by Allah’s Will, confirming what came before it—a guide and good news for the believers.”
+
+### **MEANING**
+
+The verse addresses the charge that had been made against a particular angel. Anyone at odds with that angel should consider the work he was given: he brought down the revelation to the Prophet's heart, by God's permission, attesting to what preceded it, and the revelation is described at the end as a guide and as glad tidings for the faithful. The answer does not quarrel with the claim but dissolves it, since the angel they call an enemy is the bearer of the message they are being asked to accept.
+
+### **THE OCCASION OF THE VERSE**
+
+The interpreters agree that this passage answers the Jews of Medina, who had made Gabriel the object of their hostility while professing friendship toward Michael. They differ over the setting in which the claim was made. One account, reported from Ibn ʿAbbās, describes a deputation of the Jews questioning the Prophet about four matters which they said only a prophet could answer, and taking oaths from him before he spoke. He answered them on the food that Jacob had forbidden himself, on the fluids that determine the sex of the child, and on the prophet whose eyes sleep while his heart stays awake, and they acknowledged each answer as true. When they pressed him on the angel, he told them that *“his guardian was Gabriel, and that God had never sent a prophet without him as his guardian,”* and it was this answer that they seized on. Then they asked who his angel was, and when he told them it was Gabriel, who had been the companion of every prophet, they said that this was the one with whom they were at odds, and that they would have followed him had his angel been another. The report ends by noting the words the verse was answering: the angel brought severity and bloodshed, and for that reason they kept their distance.
+
+The second setting is a debate between ʿUmar and the Jews of Medina, and its reports are numerous. In al-Shaʿbī's account, ʿUmar used to sit with them at their school and admired how the Qur'an confirmed the Torah and the Torah confirmed the Qur'an; when they told him that his companion had just passed by, he put them on oath and asked whether they knew him to be the messenger of God. Their spokesmen admitted as much, and when ʿUmar asked what kept them from following, they explained that they had an enemy among the angels and a friend among them, and that the messenger had been given the one they opposed. Their enemy, they said, was Gabriel, who brought hardship and severity and punishment, while Michael was their friend, who brought mercy and ease; and they added that the two stood on either side of the throne. ʿUmar told them that enmity to one of the two could not be friendship to the other, went to the Prophet, and found that the verses had already come down; al-Suddī's report and Qatādah's version carry the same exchange, and the Prophet recited what had been revealed before ʿUmar could tell his story. The reports agree on the substance: the objection was not to revelation as such but to the agent of it, and the verse answers by pointing to what the agent was sent to do.
+
+### **THE HEART AND ITS SPEECH**
+
+Two features of the wording draw comment. The first is the phrase about the heart. The revelation was brought down onto the Prophet's heart, which the discussion explains as the strengthening of his inner certainty so that he would neither waver nor forget; the reports of the earlier messengers receive the same description. The second is the shift from the expected first person to the second: the verse is addressed to the Prophet and the narration of the heart belongs to him, yet the wording follows the pattern of commands to report, where the reporting speech may be cast in either form, as when one says to tell the people that goodness is with me, or with you. The Qur'an itself uses both forms in the command about the disbelievers and in the report of their being defeated.
+
+A further expression in the verse is the description of the revelation as attesting to what preceded it. The report from Ibn ʿAbbās identifies the earlier books, the signs, and the messengers sent with them, naming Moses, Noah, Hūd, Shuʿayb, and Ṣāliḥ among others; Qatādah gives the Torah and the Gospel. The confirmation is explained as agreement in substance: the later book commands what the earlier ones commanded concerning the messenger and what he brought, so each attests to the other. The closing terms are then glossed: the word for guidance is taken from what goes ahead, as the front of a caravan leads the rest, and the word for glad tidings denotes an announcement of something pleasing that the hearer did not yet know, which is what the verses of the Book do for those who accept them.
+
+### **THE NAMES OF THE ANGELS**
+
+The verse names Gabriel, and the discussion treats the name's form and pronunciation at length. In the dialect of the Ḥijāz, the names are pronounced without the consonant that other tribes articulate, and that reading was followed by the reciters of Medina and Basra. The tribes of Tamīm, Qays, and part of Najd articulate it and add a vowel sound and a letter after it, and the reciters of Kufa followed that reading, with the line of Jarīr in which the two names are paired in verse. At least one reciter pronounced the name with an opening vowel and no articulation, and the discussion rejects that pronunciation on the ground that the resulting word pattern does not exist in Arabic; the alternative proposal, that it is a foreign name like another of similar shape, is noted and set aside. The dialect of one tribe replaces the last letter, and another form adds a long vowel, and a further report gives a pronunciation with a doubled final letter.
+
+The meanings are then supplied from the same material. The first element in each name corresponds to a word for servant, and the element with which both names end is the word for God in the language of the earlier scriptures, so that Gabriel is servant of God and Michael is servant of God by a plural construction, and the same holds for the other names of angels that appear in the Qur'an. Ibn ʿAbbās states the equivalence in each case, and the reports from ʿAlī ibn al-Ḥusayn and others extend it to the names that occur elsewhere in the Book.
+
+## **2:98**
+
+> Whoever is an enemy of Allah, His angels, His messengers, Gabriel, and Michael, then ˹let them know that˺ Allah is certainly the enemy of the disbelievers
+
+### **MEANING**
+
+The verse states the consequence of the hostility just described. The parties are listed one by one — ***“Allah, His angels, His messengers, Gabriel, and Michael”*** — and the sentence declares that whoever opposes any of them has placed himself in the opposite camp, where God is the enemy of those who refuse belief. The two angels named separately matter for the argument, because the same community that professed friendship with one of them had declared war on the other, and the verse treats the two positions as one.
+
+### **WHY THE TWO ARE NAMED**
+
+The question of why the angelic names are repeated after angels as a class, and again after messengers, is put and answered in the discussion. The claim the community made was precise: Gabriel was an enemy and Michael a friend. Had the verse said only that it is the angels and the messengers who are at issue, a hearer might have replied that he bore no hostility to either of those general categories while keeping his hostility to the named angel. Naming the two closes that route, since one cannot be an enemy of a particular angel and a friend of the class to which both belong. The same reasoning applies to the mention of God's messengers: the hostility expressed toward the messenger standing in front of them is a hostility toward the whole company of whom he is one.
+
+The reports add the shape of the exchange when it took place. One narration describes the Prophet putting a question to the Jews by their own book, asking whether it announced the coming of a messenger named Aḥmad, and their answer, that they found him in the book but did not want him because of what his community would make lawful and whose blood it would shed. Another describes a Jew telling ʿUmar that the Gabriel his companion mentioned was their enemy, and ʿUmar answering with the verse itself; the report observes that his reply corresponded to what was then revealed.
+
+### **HOSTILITY TO A FRIEND OF GOD**
+
+The discussion sets out the principle that governs the passage. The named angels and messengers are the servants of God and the objects of His favour; hostility to a friend of God is hostility to God, and hostility to God is hostility to all who are His. The two directions are joined in the verse by implication, since enmity to the one addressed is answered by God's enmity to the one who holds it. The verse then states the closing clause with the divine name written out in full rather than left as a pronoun, and the discussion explains the choice: several names stand in the sentence, and a pronoun would have left the reader uncertain whose enmity was being announced. Writing the name removes the ambiguity, and with it any excuse for misunderstanding. The report from al-Shaʿbī draws the same conclusion in ʿUmar's words to the community: the two angels stand in the same relation to their Lord, so friendship with one and hostility to the other cannot be separated. The verse puts the matter as a single sentence about a single camp, and the two sides it describes correspond to the two positions the passage has been setting out: those who accept the message and those who oppose the one who brought it.
+
+## **2:99**
+
+> Indeed, We have sent down to you ˹O Prophet˺ clear revelations. ˹But˺ none will deny them except the rebellious
+
+### **MEANING**
+
+The verse returns to what has been given to the messenger and states its character: the revelations are clear in themselves. What follows is the shame of refusal, since the only people who refuse them are those who have stepped out of bounds. The verse is thus a reply to the objection that had been raised, that no visible sign had been produced, and it answers by pointing to signs of a different kind: the content of the revelation itself, which brought to light what only the learned among the earlier community knew.
+
+### **THE SIGNS AND WHAT THEY PROVED**
+
+The signs are identified as the disclosures the Book contains concerning the hidden knowledge of the Jews and the secrets of their history, and what their own writings held that none but their rabbis and scholars knew, along with the alterations their ancestors had made. The Prophet recited all of it while himself unlettered, and this is the point the report from Ibn ʿAbbās draws out: he never read a book, yet he told them what was in their hands exactly as it stood, and in that there was evidence for anyone willing to reason honestly and a case against anyone who was not. The discussion adds that the effect belongs to a sound instinct as much as to argument: a person able to judge can tell that the message was not learned from any human source.
+
+The immediate occasion is preserved in the report of Ibn Ṣūriyā, one of their scholars, whose objection is quoted in these terms: *“you have not brought us anything we recognise, and no clear sign has come down with you that we might follow.”* The verse was revealed answering him. The reply is framed in the plural, and its force is to reverse the charge: what was denied was not unclear, and the denial therefore reflected the state of the denier. The discussion notes the evidence available to that community in particular, since the disclosures in the revelation matched what their own scholars kept in their scrolls, and it notes that the objection came from a man whose business was to know such things. A sign that only the learned could verify was still a sign for them, and the verse treats their refusal as a judgement on their learning rather than on the proof. The discussion also notes the character of the signs in question. They were not wonders in the sky that anyone might explain away, but pieces of knowledge that only the custodians of the earlier scripture could have supplied, produced by a man who had never read them; a community in that position was the least able of all to plead that nothing had been shown to it, and the verse names the position accordingly.
+
+### **WHO THE DENIERS ARE**
+
+The closing term is explained in a way that makes the verse's verdict precise. To be among the rebellious in this setting is to leave one's own ground: the word carries the sense of departing from a thing into something else, so that the people described are those who have gone out of the religion they professed and abandoned the obligations their own book laid on them. The discussion draws the contrast with the members of the same community who kept to their book and were therefore convinced by what had been sent: the verse's exception is not a statement about their ancestry but about their conduct, and the line it draws runs through the community rather than around it.
+
+## **2:100**
+
+> Why is it that every time they make a covenant, a group of them casts it aside? In fact, most of them do not believe
+
+### **MEANING**
+
+The verse states the pattern that runs through the whole account. Agreements have been made and set aside, not once but repeatedly, and each time the same thing happened: ***“a group of them casts it aside.”*** The remark that follows goes to the root of it: the problem is not a single broken promise but a settled unbelief among the majority. The verse is the natural sequel to the covenant at the mountain and to the pledges mentioned in the earlier verses, and it explains why the argument has kept returning to the same ground.
+
+### **THE PLEDGE AND ITS DISCARDING**
+
+The term for what they made is the same word used in the earlier covenant passages: a binding confirmed by oath, given to God and confirmed again and again to work by what was in the Torah. The word for discarding the pledge means throwing away, and the discussion illustrates it with the foundling who is called cast-off because he is left where he is found, and with the drink that takes its name from the dates thrown into a vessel to steep. A line of poetry describes looking at the title of a document and throwing it down as one throws away a worn-out sandal.
+
+The reports show the accusation being pressed on a specific occasion. The report of Ibn ʿAbbās describes Mālik ibn al-Ṣayf, who said when the Prophet was sent that God had never made a covenant with them concerning Muhammad and had taken no pledge from them about him; the verse was revealed in answer. Other reports state the breaking in general terms: Qatādah says simply that it was broken by a faction among them, and Ibn Jurayj says there was no covenant on the face of the earth that they made which they did not break, since they would pledge today and break tomorrow. This last report notes that in the codex tradition of ʿAbdullāh, the word used is not the image of throwing away but the plain word for breaking.
+
+### **THE GRAMMAR OF THE QUESTION**
+
+The sentence opens with a questioning particle attached to a conjunction, and the discussion takes up how the two work together. One school treats the conjunction as an addition with the interrogative, comparing it to the similar construction earlier in the passage where the question is put about messengers, and comparing the plain interrogative with a following particle in ordinary speech. That view is rejected firmly by the discussion, which holds that no letter in God's book is without meaning; the other school treats the conjunction as performing its normal work with the interrogative simply placed before it, and the discussion adopts that position and reads the clause as a question that connects back to the command and the answer recorded earlier. The point of the joining is that the two statements belong together: they were told to receive the book with firmness and they answered that they heard and disobeyed, and the discarding of every pledge is the working out of that same answer.
+
+### **THE VERDICT ON MOST OF THEM**
+
+The closing clause has two readings of its logic, and both lead to the same place. On one, the statement exceeds the act described: it was not merely a faction that discarded what they promised, since unbelief took in the greater part of them, and the failure of so many is the reason the pattern repeated. On the other, the emphasis falls on the interior cause: the discarding of the pledge is the outward sign, and the reality beneath it is that the majority give no credence to God, to His messengers, or to His promise and warning at all. Both readings agree that the problem is not a lapse but a standing refusal, and the discussion points out that the clause is placed after the question precisely in order to say so.
