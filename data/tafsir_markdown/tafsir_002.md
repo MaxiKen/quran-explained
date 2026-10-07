@@ -2465,3 +2465,95 @@ The discussion then sets out the range of meanings the sentence can carry. It ca
 ### **THE FACE OF GOD AND THE WIDE NAMES**
 
 The last part of the verse is examined closely. The phrase rendered as there is the face of God is understood by some as the direction God appointed, by others as His presence, by others as the pleasure of God that the worshipper reaches by turning to Him, and by others as a name of God's very self. The word for turning is read with the sense of turning toward a thing rather than away from it, and the reading that would reverse the sense is rejected as an oddity. The verse is then tied to the one before it: since the sanctuary had been ruined and the mention of God's name barred within it, the believers are told that they may mention God wherever they are, and that His bounty, His earth, and His knowledge of what they do are not confined to one place. The names at the end are explained as the One whose sufficiency reaches all creation and the One from whose knowledge none of their acts is absent, so the closing words underwrite the promise that the whole earth is a place of worship.
+
+## **2:116**
+
+> They say, “Allah has offspring.” Glory be to Him! In fact, to Him belongs whatever is in the heavens and the earth—all are subject to His Will
+
+### **MEANING**
+
+The verse takes up the claim that God has taken a son and answers it with an exclamation of His transcendence, followed by a statement of ownership and submission. Everything that exists above and below belongs to Him, and all of it is described with a word that carries the sense of standing obedient before a master. The child claimed for Him, then, is one of His own creatures, and a creature that belongs to Him cannot also be a partner in His being.
+
+### **WHAT THE WORD CARRIES**
+
+The word that closes the verse is explained by the early interpreters in two overlapping ways. Several reports give it the sense of obedience, among them a report from Qatādah, a report from al-Suddī that specifies the obedience of the Day of Resurrection, and a report carried from Ibn ʿAbbās. Mujāhid adds a detail that has no counterpart in the others: the obedience of the one who denies God is the prostration of his shadow, forced and unwilling, which is why one report says the shadow prostrates while its owner dislikes it. A second line of explanation takes the word to mean acknowledgment of servitude, with one report from ʿIkrima stating that *"everything acknowledges Him as its master,"* and a third takes it to mean that everything stands before Him on the Day of Resurrection, as reported from al-Rabīʿ. The discussion then surveys the root: it can mean obedience, it can mean standing, and it can mean holding back from speech, and the discussion prefers obedience joined with acknowledgment of servitude, because the creatures testify to their Maker by the very marks of making within them.
+
+### **THE SON WHO IS A CREATURE**
+
+The discussion draws the argument together: the one whom the claimants made a son is himself one of the things that are above and below, so the verse's statement includes him and leaves him on the side of the creatures. The discussion also rejects a narrowing of the verse by those who read it as describing only the obedient, since a wording whose surface is universal may not be restricted to a part without proof. The acknowledgment described in the verse is therefore twofold in the discussion: some of creation says it with the tongue, and the rest says it with the evidence built into its own constitution, and both ways lead to the same conclusion. Reported in the discussion is the observation that the verse answers the claim by bringing the claimant's own witness into court, since the Messiah whose status was inflated is named among those who belong to God rather than alongside Him. What the reports agree on is the frame of the answer: the verse meets a claim of parentage with the fact of ownership, and it places the one claimed as a son among the owned rather than beside the owner. The sentence is therefore a demonstration and not merely a denial, since the creature the claimants exalted is bound together with the rest of creation in the acknowledgment of its Lord, and a servant cannot be a partner.
+
+## **2:117**
+
+> ˹He is˺ the Originator of the heavens and the earth! When He decrees a matter, He simply tells it, “Be!” And it is
+
+### **MEANING**
+
+The verse names God as the one who brought the two realms into being without any prior model, and then states how His decree takes effect: whatever He determines is addressed with a word, and it comes to be. The two halves answer the claim of the previous verse from opposite directions, the first from the scale of what He has made and the second from the ease with which He makes it.
+
+### **THE ORIGINATOR**
+
+The word rendered as originator is explained as a form turned from the active participle, in the way that one word for a cause of pain became the adjective for painful and one word for a cause of hearing became the adjective for hearing. Its force is that God brings things into existence without a predecessor and without a model to copy, and the same idea gave the language its word for the innovator, the person who introduces into religion what no one brought before him. The discussion cites two lines of poetry for that usage, one praising a leader who does whatever he decides without precedent — *“or whatever he wishes, he brings about”* — and one warning a man against introducing into the religion what was never in it: *“it is not the face of truth that you innovate.”* The reports from al-Rabīʿ and al-Suddī both explain the phrase as creation brought about with no partner and no earlier pattern to imitate. The discussion adds the point that carries the argument forward: the One who originated the two realms without a model is the One who originated the Messiah without a father, so the very power the claimants invoked for their claim is the power that dissolves it.
+
+### **THE DECREE AND THE WORD**
+
+The verb rendered as decrees is explained through its root, which carries the sense of making a thing firm and finishing it, and the discussion traces that sense through the judge who settles a case, the deceased who has finished with the world, and the phrase for a day that is over. It cites poetry in which the same verb describes armor perfected by its maker, and a line about decisions carried out that left consequences behind still folded in their buds. What the verse says about the manner of creation then draws a long discussion. One position restricts the address to creatures already existing, such as the Israelites who were turned into apes while present, so that the command is understandable as directed to what exists. Another holds the verse to its general surface, since God knows all that will be before it is, and what does not yet exist stands before His knowledge as though it existed. A third restricts it to such matters as giving life to the dead and death to the living, since a command must have something commanded. A fourth denies any speech at all and treats the verse as reporting the mere occurrence of creation, the way a wall is said to have said something when it falls, and the discussion rejects this in strong terms, since it empties the verse of its plain report and leaves the language without its known usage. The discussion settles on the general sense: everything God determines and brings about comes to be by His word, with the coming-into-being following the command without an interval, and with no gap between His will and the existence of what He wills.
+
+## **2:118**
+
+> Those who have no knowledge say, “If only Allah would speak to us or a sign would come to us!” The same was said by those who came before. Their hearts are all alike. Indeed, We have made the signs clear for people of sure faith
+
+### **MEANING**
+
+The verse records a demand made by people without knowledge, who wanted God to speak to them directly or to send them a sign of their own choosing, and it notes that earlier communities raised the same demand. The similarity of the demand is traced to a similarity of hearts, and the passage closes by pointing away from the demand to the signs that are already clear, though only those with certainty see them.
+
+### **WHO MADE THE DEMAND**
+
+Three identifications are recorded. One report from Mujāhid names the Christians, and the discussion prefers this because the surrounding passage concerns them and their claim about the son. Another report, carried from Ibn ʿAbbās through two of his students, names the Jewish party of Medina, and preserves the demand in the words of one of its spokesmen to the Prophet: if he were truly a messenger, let him ask his Lord to speak to them so that they might hear Him. A third line of reports, from Qatādah, al-Rabīʿ, and al-Suddī, names the Arab idolaters. The discussion reasons that whoever the first group may be, the phrase about those before them points to the community that asked Moses to show them God plainly and to let them hear His speech, and it observes that both demands share the same fault, since creatures do not dictate the manner of address to their Lord, and the messenger's truth is not established by the audience's terms. The discussion also notes that no report establishes the claim about the idolaters, and that a position resting on no evidence is simply weaker than the one the passage's own context supports.
+
+### **SAME SPEECH, SAME HEARTS**
+
+The sentence that reports the earlier demand is explained as a statement about the uniformity of the disease rather than about the identity of the patients. One report from Mujāhid identifies those before them as the Jews; reports from Qatādah, al-Rabīʿ, and al-Suddī identify them as the earlier communities collectively. The discussion draws out the comparison: the earlier community asked their prophet for a direct sight of God and a direct hearing of His words, judging their Lord by their own terms, and the later claimants asked the same, so the sameness of the demand exposed a sameness of heart. The word for that similarity is examined grammatically, and the discussion explains that the form cannot be given a doubled letter, since its opening letter is already an addition marking reciprocity and two such additions cannot carry a single meaning. The discussion also pauses over the construction of the demand itself: the particle introduces a wish, the way a poet's line counts one thing better than another only to say that the alternative is not counted at all, and one report from Qatādah glosses the wish as a plain *“why does He not speak to us?”*
+
+### **THE SIGNS AND THE CERTAIN**
+
+The closing sentence answers the demand by pointing to signs already given. The discussion explains them as the marks that separated the fates of the communities: the punishment that came upon the Jews, the humiliation decreed for the Christians in this world with the penalty stored for the next, and the reward of those who submit themselves and do good. The signs are described as clarified for a particular kind of reader, the one who holds to certainty, and the discussion explains why: the report of God admits no doubt of the kind that attaches to human reports, where forgetfulness, error, and falsehood can enter, so the one who examines and seeks the truth of things finds the clarification standing on ground that cannot shift.
+
+## **2:119**
+
+> We have surely sent you with the truth ˹O Prophet˺ as a deliverer of good news and a warner. And you will not be accountable for the residents of the Hellfire
+
+### **MEANING**
+
+The verse states the mission of the messenger in its two directions, glad tidings and warning, and then places a limit on his responsibility: he is not to be questioned about those who end in the fire. The sentence defines the messenger's task as delivery, and it closes the door on the expectation that he should answer for the choices of his hearers.
+
+### **SENT WITH THE TRUTH**
+
+The truth with which the messenger is sent is explained as the religion God accepts from no one apart from it, and the discussion sets out the two sides of the mission. The glad tidings belong to those who follow him and accept what he brought: help in this world, success with the reward in the next, and lasting bliss there. The warning belongs to those who disobey and reject: shame and humiliation in this world, and humiliating punishment in the next. The two words are then studied as a pair, and the discussion notes that the messenger bears both announcements to the same audience, so that no hearer is left with the claim that he was addressed by only one side of the message.
+
+### **THE READING AND THE QUESTION**
+
+The sentence about not being questioned is read in two ways. Most of the reciters read it as a statement, with the sense that the messenger has delivered what he was sent with, that his duty was the delivery and the warning, and that no question will be put to him about those who rejected what he brought and became people of the fire. A group of the readers of Medina read it as a prohibition instead, so that the sense becomes an instruction not to ask about the state of such people. The reports attached to the second reading relate that the Prophet asked what had become of his parents, and that this sentence came down, after which he did not mention them until he died. The discussion prefers the first reading and gives reasons: the context of the passage concerns the communities whose stories have just been told and the duty of conveying the message to them; the sentence is joined to what precedes it by a conjunction rather than by the particle that would naturally attach a prohibition to the command before it; and two early codices read the verb in a form that can only be a statement, one with the negative placed before it and one with a different negative particle. As for the report itself, the discussion judges it unsound in substance, since the messenger's certainty about the fate of those who associate others with God was not in doubt, and the report would make him uncertain about the very matter the verse settles, so the statement reading stands on the ground of the passage's own logic.
+
+### **THE FIRE AND ITS PEOPLE**
+
+The word rendered as the fire is explained as the blaze itself when its fuel has been kindled, and the discussion cites a line of poetry by Umayyah ibn Abī al-Ṣalt: *“when the blaze is kindled and the fire spreads through its kindling.”* The people described as its companions are those who earned it by their rejection, and the discussion reads the closing sentence as a boundary drawn around the messenger's task: he conveys, he warns, and he leaves the outcome to the One who owns the judgement, so that the failure of the hearers is not charged to the one who called them.
+
+## **2:120**
+
+> Never will the Jews or Christians be pleased with you, until you follow their faith. Say, “Allah’s guidance is the only ˹true˺ guidance.” And if you were to follow their desires after ˹all˺ the knowledge that has come to you, there would be none to protect or help you against Allah
+
+### **MEANING**
+
+The verse tells the messenger plainly that the two communities will never be satisfied with him short of his joining them, and then supplies the ground of the impossibility: their two religions are mutually exclusive, so no single person can satisfy both, and the demand is therefore not a test he can ever pass. The answer prescribed is the guidance of God, which is the guidance, and the passage closes with a warning against following their wishes once knowledge has come, since no protector or helper would then stand for him against God.
+
+### **WHY SATISFACTION CANNOT COME**
+
+The discussion explains the impossibility by starting from what each community wanted: the Jews wanted him to become a Jew, and the Christians wanted him to become a Christian, and the two religions stand as opposites. No one can be both at once, so no one can satisfy both parties at once, and the discussion turns this into the practical instruction of the passage: stop seeking what pleases them and seek instead the pleasure of the One who sent you, since the call to what God revealed is the only ground on which the communities can meet in agreement. The word rendered as faith or religion is explained simply as the religion, with its plural form used for the religions of the various communities, and the discussion notes that the verse addresses the claim registered earlier in the passage, that no one enters the garden except a member of one particular community, since both claimants had made their religion the measure of salvation.
+
+### **THE GUIDANCE THAT IS THE GUIDANCE**
+
+The command to answer with the statement that God's guidance is the guidance is explained as a directive to point the claimants to the Book they all acknowledge as coming from God, so that the clarification contained in it may decide the dispute. The discussion describes the answer as the decisive statement that separates the two sides: let them come to what God has clarified for His servants, and the text they agree upon will show which of them is in the right, which of them is on the path, and which of them is in error. The discussion adds that the invitation serves a further purpose, since God's clarification contains the refutation of the exclusive claim in the form of its own announcement, and it establishes the standing of the messenger and of those who reject him, so that the outcome of the argument is written into the evidence both sides accept.
+
+### **THE WISHES AND THE SAFEGUARD**
+
+The closing sentence warns against following the desires of the communities after the knowledge that has reached him, and the warning is explained as a counsel against the specific invitation they were pressing, since each party maintained that *“the guidance is what we are on, not what others are on,”* and to accept that claim would be to abandon what had arrived from God. One report describes the invitation as coming from both communities together, and the discussion identifies the knowledge in question as the knowledge of their misguidance and of their fabrication against their Lord, which the preceding stories in the passage have just set out. The consequence attached to the warning is stated in the terms the passage used before: no one would then manage the messenger's affair and no one would shield him, not against his enemies but against God Himself, and the discussion observes that the protection denied to the greatest of messengers if he abandoned the truth is denied to every believer in the same position by a stronger reason. The passage thus ends the section on the two communities by closing off their claim on the messenger's loyalty and by returning the matter to the guidance that belongs to God alone.
