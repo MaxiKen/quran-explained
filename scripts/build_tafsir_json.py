@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MARKDOWN_DIR = ROOT / "data" / "tafsir_markdown"
 DATA_DIR = ROOT / "data"
 MIN_COMMENTARY_WORDS = 400
+MAX_COMMENTARY_WORDS = 1200
 WORD_TOKEN = re.compile(r"\b[^\W_]+(?:[’'‑-][^\W_]+)*\b", re.UNICODE)
 SECTION_HEADING = re.compile(r"^##[ \t]+(.+?)[ \t]*$", re.MULTILINE)
 VERSE_HEADING = re.compile(r"(\d+):(\d+)")
@@ -20,8 +21,14 @@ RICH_MARKDOWN = re.compile(
     r"\*\*.+?\*\*|\*[^*\n]+?\*|`[^`]+`|^#{2,6}[ \t]+.+|^[ \t]*[-*+][ \t]+",
     re.MULTILINE,
 )
-TABARI_CITATION = re.compile(
-    r"\[al-Tabari,\s+\d+:\d+(?:,\s+report\s+\d+)?\]"
+SOURCE_REFERENCE = re.compile(
+    r"\[(?:Q\s+\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?|"
+    r"(?:Report|Hadith|Poem):\s*[^\]\n]+)\]"
+)
+COMPILER_CITATION = re.compile(
+    r"\[[^\]\n]*\b(?:al[-\s]?(?:Ṭ|T)abar[iī]|(?:Ṭ|T)abar[iī])\b"
+    r"[^\]\n]*\]",
+    re.IGNORECASE,
 )
 EVIDENCE_QUOTE = re.compile(r"[“\"][^“”\"\n]{20,}[”\"]")
 
@@ -155,24 +162,30 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
                 "Markdown formatting"
             )
 
-        # Count commentary only: the structural heading and exact app translation
-        # are intentionally outside the user's 400-word minimum.
-        countable = TABARI_CITATION.sub("", commentary)
+        if COMPILER_CITATION.search(commentary):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} cites al-Tabari "
+                "as the interpretive authority; cite the underlying source instead"
+            )
+
+        # Count substantive commentary only: exclude source tags and the exact app
+        # translation (which is outside this string by construction).
+        countable = SOURCE_REFERENCE.sub("", commentary)
         word_count = len(WORD_TOKEN.findall(countable))
-        if word_count < MIN_COMMENTARY_WORDS:
+        if word_count < MIN_COMMENTARY_WORDS or word_count > MAX_COMMENTARY_WORDS:
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} has {word_count} words; "
-                f"minimum is {MIN_COMMENTARY_WORDS}"
+                f"required range is {MIN_COMMENTARY_WORDS}–{MAX_COMMENTARY_WORDS}"
             )
-        if not TABARI_CITATION.search(commentary):
+        if not SOURCE_REFERENCE.search(commentary):
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} needs an inline "
-                "[al-Tabari, SURAH:VERSE] source reference"
+                "Qur’an, report/hadith, or poem source reference"
             )
         if not EVIDENCE_QUOTE.search(commentary):
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} needs a quoted "
-                "source-evidence excerpt"
+                "or closely translated source-evidence excerpt"
             )
         verses_payload[str(verse_number)] = body
 
@@ -232,7 +245,7 @@ def main() -> int:
                     )
                 print(
                     f"Checked Surah {chapter_number}: {len(decoded['verses'])} verses "
-                    f"(minimum {MIN_COMMENTARY_WORDS} words each)"
+                    f"({MIN_COMMENTARY_WORDS}–{MAX_COMMENTARY_WORDS} words each)"
                 )
             else:
                 output_path.write_text(generated, encoding="utf-8")
