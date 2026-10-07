@@ -2,7 +2,7 @@
 
 **Revision:** 2026-10-07
 
-**Status:** Chapter 1 and Surah 2:1–2:30 were completed on prior review branches. The current batch extends the same fresh, source-bounded rewrite through verses 2:31–2:39, the remainder of the Adam narrative; stop at 2:39 and wait for review.
+**Status:** Chapter 1 and Surah 2:1–2:39 were completed on prior review branches. The current batch extends the same fresh, source-bounded rewrite through verses 2:40–2:80, from the golden calf through the claim that the Fire will touch them only for a few days; stop at 2:80 and wait for review.
 
 ## Mission
 
@@ -62,20 +62,20 @@ The rich Markdown is canonical; generate JSON with the deterministic builder. Do
 - JSON: `data/tafsir_NNN.json`
 - Builder and validator: `scripts/build_tafsir_json.py`
 
-Use one bold, uppercase structural heading per verse, exactly `## **SURAH:VERSE**`. The body begins with the exact translation blockquote, followed by `### **MEANING**` and at least one other meaningful bold-uppercase subheading. JSON stores each complete body—including the translation blockquote and rich formatting—but not the structural verse heading. Include exactly one entry for every verse in the declared range, in order. The builder supports partial coverage with `--chapter N --through M`; for this assignment the JSON must contain verses 1–39, with new material at 2:31–2:39. An introduction is optional and should not be invented by default.
+Use one bold, uppercase structural heading per verse, exactly `## **SURAH:VERSE**`. The body begins with the exact translation blockquote, followed by `### **MEANING**` and at least one other meaningful bold-uppercase subheading. JSON stores each complete body—including the translation blockquote and rich formatting—but not the structural verse heading. Include exactly one entry for every verse in the declared range, in order. The builder supports partial coverage with `--chapter N --through M`; for this assignment the JSON must contain verses 1–80, with new material at 2:40–2:80. An introduction is optional and should not be invented by default.
 
 Use supported Markdown only: paragraphs, headings, bold, italics, blockquotes, lists, inline code, and links. Do not use raw HTML, tables, footnote syntax, or unsupported formatting.
 
 ## Scope and completion checks
 
-**Current scope: Surah 2 (al-Baqarah), verses 2:31–2:39 only.** Draft these nine commentaries from a blank page using `tafsir-al-tabari/002.txt` and the exact translations in `data/chapter_002.js`. Do not draft verse 2:40 or any later verse. Do not start another surah before the user reviews this range. Preserve Chapter 1 and the already-reviewed 2:1–2:30 commentary unchanged.
+**Current scope: Surah 2 (al-Baqarah), verses 2:40–2:80 only.** Draft these forty-one commentaries from a blank page using `tafsir-al-tabari/002.txt` and the exact translations in `data/chapter_002.js`. Do not draft verse 2:81 or any later verse. Do not start another surah before the user reviews this range. Preserve Chapter 1 and the already-reviewed 2:1–2:39 commentary unchanged.
 
 Before presenting this range:
 
 1. Read the substantively relevant material in the Arabic evidence file, including adjacent sections when arguments span verses.
-2. Confirm the exact translations for 2:31–2:39 from `data/chapter_002.js` and use no later verse.
+2. Confirm the exact translations for 2:40–2:80 from `data/chapter_002.js` and use no later verse.
 3. Ensure each verse explains meaning before presenting supporting evidence, uses only relevant material, and has at least two bold-uppercase subheadings.
 4. Confirm that repeated wording from the current verse is bold, all quoted words are italicized, and every reference is naturally woven into sentence flow with no square-bracket citations or detached reference lines.
 5. Validate 500–1200 words per verse, the translated/quoted source evidence, underlying attributions and routes, exact alignment, and absence of local report numbers or al-Tabari-as-authority citations.
-6. Generate the partial JSON with `python3 scripts/build_tafsir_json.py --chapter 2 --through 39`; validate JSON parsing, Markdown/JSON synchronization, formatting, and coverage through verse 2:39.
-7. Inspect the final diff. Stop at verse 2:39 for review; do not fabricate content or continue to verse 2:40 or another chapter.
+6. Generate the partial JSON with `python3 scripts/build_tafsir_json.py --chapter 2 --through 80`; validate JSON parsing, Markdown/JSON synchronization, formatting, and coverage through verse 2:80.
+7. Inspect the final diff. Stop at verse 2:80 for review; do not fabricate content or continue to verse 2:81 or another chapter.
