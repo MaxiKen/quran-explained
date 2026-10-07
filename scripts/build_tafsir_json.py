@@ -214,8 +214,17 @@ def parse_markdown(markdown_path: Path, chapter_number: int) -> tuple[str | None
     return intro, sections
 
 
-def build_payload(chapter_number: int, markdown_path: Path) -> str:
+def build_payload(
+    chapter_number: int, markdown_path: Path, through: int | None = None
+) -> str:
     expected_verses = chapter_verses(chapter_number)
+    if through is not None:
+        if not 1 <= through <= len(expected_verses):
+            raise BuildError(
+                f"--through must be between 1 and {len(expected_verses)} "
+                f"for chapter {chapter_number}"
+            )
+        expected_verses = expected_verses[:through]
     intro, sections = parse_markdown(markdown_path, chapter_number)
 
     expected_numbers = [number for number, _ in expected_verses]
@@ -329,6 +338,11 @@ def main() -> int:
         help="Build/check only this surah (1-114); otherwise process all Markdown sources.",
     )
     parser.add_argument(
+        "--through",
+        type=int,
+        help="Build/check verses 1 through this number (requires --chapter).",
+    )
+    parser.add_argument(
         "--check",
         action="store_true",
         help="Validate sources and fail if a JSON payload is missing or out of sync.",
@@ -337,6 +351,10 @@ def main() -> int:
 
     if args.chapter is not None and not 1 <= args.chapter <= 114:
         parser.error("--chapter must be between 1 and 114")
+    if args.through is not None and args.chapter is None:
+        parser.error("--through requires --chapter")
+    if args.through is not None and args.through < 1:
+        parser.error("--through must be at least 1")
 
     if args.chapter is not None:
         chapters = [args.chapter]
@@ -357,11 +375,18 @@ def main() -> int:
             if not markdown_path.is_file():
                 raise BuildError(f"Missing Markdown source: {markdown_path.relative_to(ROOT)}")
 
-            generated = build_payload(chapter_number, markdown_path)
+            generated = build_payload(
+                chapter_number, markdown_path, through=args.through
+            )
             decoded = json.loads(generated)
             if not isinstance(decoded.get("verses"), dict):
                 raise BuildError(f"Generated payload for chapter {chapter_number} is malformed")
 
+            coverage = (
+                f"verses 1–{args.through}"
+                if args.through is not None
+                else f"{len(decoded['verses'])} verses"
+            )
             if args.check:
                 if not output_path.is_file():
                     raise BuildError(f"Missing JSON payload: {output_path.relative_to(ROOT)}")
@@ -372,12 +397,12 @@ def main() -> int:
                         "rerun scripts/build_tafsir_json.py"
                     )
                 print(
-                    f"Checked Surah {chapter_number}: {len(decoded['verses'])} verses "
+                    f"Checked Surah {chapter_number}: {coverage} "
                     f"({MIN_COMMENTARY_WORDS}–{MAX_COMMENTARY_WORDS} words each)"
                 )
             else:
                 output_path.write_text(generated, encoding="utf-8")
-                print(f"Wrote {output_path.relative_to(ROOT)}: {len(decoded['verses'])} verses")
+                print(f"Wrote {output_path.relative_to(ROOT)}: {coverage}")
     except (BuildError, OSError, json.JSONDecodeError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
