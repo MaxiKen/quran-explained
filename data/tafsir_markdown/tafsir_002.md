@@ -2181,3 +2181,199 @@ The sentence opens with a questioning particle attached to a conjunction, and th
 ### **THE VERDICT ON MOST OF THEM**
 
 The closing clause has two readings of its logic, and both lead to the same place. On one, the statement exceeds the act described: it was not merely a faction that discarded what they promised, since unbelief took in the greater part of them, and the failure of so many is the reason the pattern repeated. On the other, the emphasis falls on the interior cause: the discarding of the pledge is the outward sign, and the reality beneath it is that the majority give no credence to God, to His messengers, or to His promise and warning at all. Both readings agree that the problem is not a lapse but a standing refusal, and the discussion points out that the clause is placed after the question precisely in order to say so.
+
+## **2:101**
+
+> Now, when a messenger from Allah has come to them—confirming their own Scriptures—some of the People of the Book cast the Book of Allah behind their backs as if they did not know
+
+### **MEANING**
+
+The verse returns to the moment the messenger arrived. He came from God with a book that confirmed what the community already had in its hands, and the reception that the confirmation should have produced was not what took place. A group among those who had been given the Scripture discarded God's Book entirely, and the verse describes the act with a physical image: they set it behind them and carried on as though its contents had never reached their ears. The phrase that closes the verse gives the act its character, since the people who did it were not ignorant of what their scripture contained. They were the ones who knew it best, and the knowing is what makes the discarding a conscious choice rather than a mistake.
+
+### **THE MESSENGER AND THE CONFIRMATION**
+
+The messenger named by the verse is Muhammad, and the confirmation runs in both directions: he attested to the Torah, and the Torah attested to him, since the earlier book contained the description of the prophet to be sent and the command to follow him. The report from al-Suddī sets the scene at the point of argument. The community came to dispute with him armed with the Torah, expecting the two books to disagree; when they found that the Torah and the Qur'an agreed, and that the earlier book commanded exactly what the newcomer was calling them to, they abandoned the Torah and turned instead to the writings their ancestors had collected in Solomon's time and to the sorcery ascribed to the two angels. The verse's complaint is thus not that they lacked a scripture but that the scripture they had became inconvenient at the moment it supported the messenger. The group singled out for blame are described as those who had been given the Book, which sharpens the accusation: the people being charged with discarding a scripture are precisely the people who had been entrusted with one, and their standing among the community rested on the knowledge they were now setting aside. The passage has used related imagery before, when it spoke of a pledge being thrown away, and the repetition ties the present refusal to the broken pledges described a verse earlier in the same sequence.
+
+### **BEHIND THE BACKS**
+
+The expression that gives the verse its picture is explained as a proverb: to put a matter behind one is to turn away from it, to set it out of sight, and to act as though it were not one's concern. What the community discarded is identified by the interpreters as the Torah, and the people described are the scholars among them, the ones whose profession was to know its contents. The report of Qatādah makes the point about knowledge explicit: *“they knew, but they corrupted their knowledge, denied it, and concealed it.”* The verse's closing comparison therefore reads as an accusation rather than a description of innocence. They looked like people who had never heard what the book in their keeping said, and the discussion notes that the resemblance was chosen, not accidental, since the scholars had been trusted with the knowledge and had used it against itself.
+
+## **2:102**
+
+> They ˹instead˺ followed the magic promoted by the devils during the reign of Solomon. Never did Solomon disbelieve, rather the devils disbelieved. They taught magic to the people, along with what had been revealed to the two angels, Hârût and Mârût, in Babylon. The two angels never taught anyone without saying, “We are only a test ˹for you˺, so do not abandon ˹your˺ faith.” Yet people learned ˹magic˺ that caused a rift ˹even˺ between husband and wife; although their magic could not harm anyone except by Allah’s Will. They learned what harmed them and did not benefit them—although they already knew that whoever buys into magic would have no share in the Hereafter. Miserable indeed was the price for which they sold their souls, if only they knew
+
+### **MEANING**
+
+The verse explains what the community took up in place of the scripture it had abandoned. They followed what the devils used to recite in Solomon's reign — a claim the verse then unstitches in two directions at once. Solomon was no denier; the deniers were the devils, who taught people sorcery and what came down at Babylon upon Hārūt and Mārūt. From that pair the teaching came with a warning attached to every lesson, and the verse describes the result plainly: the learners acquired what harms them and profits them nothing, and the price they paid for it was the loss of their share in the world to come.
+
+### **THE STORY OF THE HIDDEN BOOKS**
+
+The accounts of al-Suddī and Ibn Isḥāq describe how the claim about Solomon arose. The devils used to listen at the edges of heaven and carry what they heard to the soothsayers; when the soothsayers found that their reports came true, they began adding material of their own, and the additions were written down and circulated until people believed that the unseen was known to the jinn. Solomon gathered those writings and buried them beneath his throne, and no devil could come near the throne without being burned. When he died, and those who had known his arrangements were gone, one of them appeared in human form and led a group of the community to the hidden hoard underneath the seat, then told them, once they had dug it up, that Solomon had controlled human beings and jinn and birds only by means of this sorcery. The story spread that Solomon had been a sorcerer, and the nation took the recovered writings as their own. Ibn Isḥāq's account adds the seal and the title page: the devils sealed the book with Solomon's ring and wrote on its title page the words *“this is what Āṣaf ibn Barakhiyā wrote for King Solomon.”* When the Prophet spoke of Solomon among the messengers, the Jewish leaders of Medina said that he had never been anything but a sorcerer, and the verse answered them.
+
+### **WHAT THE TWO ANGELS TAUGHT**
+
+The two names in the verse belong to angels, and the interpreters differ on what they were sent with. Most hold that the two taught people something, and their disagreement concerns the reading of the phrase about sending down. One reading treats it as a plain statement that what came down upon the pair was sorcery; another, taken by Ibn ʿAbbās and al-Rabīʿ and preferred by the discussion on grammatical grounds, reads it as a denial, so that the sense is that no such thing was sent down upon the two at all, and the mention of their location belongs with the teaching the devils did. Whichever reading is followed, the verse's account of the teaching is the same: no one learned anything from those two without being told first that the lesson was a trial and that learning it was not to be taken as permission to practise it.
+
+The reports give two explanations of what the pair taught. Most of the early interpreters identify what the pair taught with the sundering of marriages, distinguishing it from the sorcery the devils taught, and Mujāhid states the distinction in those terms. Others, following a report from Qatādah carried through al-Zuhrī, describe the two as angels who came down to judge among people after the angels had remarked on human judgements, and who inclined in a case brought before them by a woman, were then cut off from returning, and were offered the choice between punishment in this world and in the next; they chose this world's, and thereafter taught people sorcery with the warning attached. The verse itself attaches two limits to the lessons in question: no lesson of theirs could injure a single person save by God's leave, and what the learners took away was injury without benefit.
+
+### **THE BAD BARGAIN**
+
+The discussion then addresses the objection that God would not send down sorcery, and answers it by pointing to the other forbidden things whose knowledge He has conveyed. God has made known to human beings the whole of good and evil, including adultery, theft, and every other transgression, so that they might know what to avoid; sorcery is one of those things, and knowledge of a forbidden craft carries no guilt in itself, just as knowledge of how wine is made or how idols are carved carries none. The guilt lies in doing the harm, and in this case in doing it to people who are not to be harmed. On that basis the pair committed no wrong in passing on what they passed on with God's permission and with the warning that preceded it, and the guilt belongs to those who learned it in order to use it.
+
+The close of the verse states the cost. Those who bought sorcery at the price of their own share in the world to come gave up something permanent for something that injures them, and the discussion notes the several senses given to the word rendered as share — a portion, a proof, a religion, a support — before settling on the first as the sense the language supports, citing a line of poetry in which those without such a portion are described as crying out in the fire. The verdict stands whatever sense is chosen: a person who takes sorcery in exchange for his religion has nothing left in the next world to plead.
+
+## **2:103**
+
+> If only they were faithful and mindful ˹of Allah˺, there would have been a better reward from Allah, if only they knew
+
+### **MEANING**
+
+The verse states the alternative that had been available all along. If the people in question had believed and had lived with restraint, what God would have given them in return would have been better for them than what they acquired, and the verse adds that this would have been clear to them if they had known. The sentence is put in the form of a condition that failed, and its purpose is to set the reward and the sorcery side by side: the trade that was made, and the trade that was refused.
+
+### **WHAT THE CONDITION MEANT**
+
+The people addressed by the condition are those who learned the craft of separation from the two angels, and the two requirements are explained as assent to God and to His messenger and what he brought, together with the caution that keeps a person from what God forbade — fearing His punishment, performing what He obligated, and avoiding what He prohibited. The reward is named with a word whose root carries the sense of returning: a gift is said to have been returned to a man when he receives *“a substitute for what he has given away.”* The word for the reward of the hereafter therefore contains the sense of a return, and the reports apply it to the exchange made by the dealers in sorcery: they gave up their portion, and what was promised to those who believe is measured in what comes back to them.
+
+### **THE GRAMMAR OF THE FAILED CONDITION**
+
+The form of the sentence draws a grammatical discussion, because the condition is stated with the particle that normally governs a past-tense answer, while the answer here stands as a noun. One view holds that the answer has been omitted because the statement of the reward supplies it, so that the sense is: had they believed and feared, they would have been rewarded, and the mention of what God has prepared makes the omitted answer unnecessary. Another view takes the word for the reward itself as the answer, and explains the combination by noting that this particle and the one used for oaths both introduce a reward for faith, so their answers may be exchanged without changing the sense. The discussion also notes the way the verse handles the closing remark about knowledge: the denial is not of information but of its value, since the people in question knew the state of their own bargain and behaved as if they did not, and the verse measures them by what their conduct shows they truly weighed. The two conditions named in the verse are therefore not two separate obligations but one posture, since belief without restraint would leave the same door open that the verse is describing, and restraint without belief would have no ground to stand on. What the verse offers is the exchange that any reasonable trader would have taken: a modest cost in this life against a return that never ends, and the discussion treats the refusal of it as the clearest sign of how little the buyers understood their own market.
+
+## **2:104**
+
+> O believers! Do not say, “Râ’ina.” [Herd us!] But say, “Unẓurna,” [Tend to us!] and listen ˹attentively˺. And the disbelievers will suffer a painful punishment
+
+### **MEANING**
+
+The address turns to the believers with a prohibition and a substitute. They are told not to use one word when speaking to the Prophet and to use another instead, and to listen carefully. The reason for the change lies in how the original word could be taken, and in the fact that the community's enemies had seized on it as a vehicle for mockery. The verse thus regulates not only what the believers said but the posture in which they said it, and it closes with a warning about the punishment awaiting those who deny.
+
+### **THE WORD THAT WAS FORBIDDEN**
+
+The word they were told to avoid was used among them to ask the Prophet to lend an ear and wait while they understood, but the interpreters record more than one sense for it. Some take it as asking him to give them his hearing and to attend to them, and some take it as a purely dialect word of the Helper tribe carried over from before Islam, while one report gives its sense as making a mistake or speaking crookedly. The reason for the prohibition is agreed on by most: the word was capable of being used with an ugly intent, and the enemies of the Muslims used it that way, so that what sounded like a request for attention could carry the meaning of a curse. Al-Suddī identifies one of them, a Jew of the Qaynuqāʿ clan named Rufāʿah ibn Zayd, who used to approach the Prophet with both the word and a second imprecation alongside it, and the believers, hearing the phrase, adopted it without knowing what lay behind it. The discussion rejects the idea that the first Muslims would knowingly have borrowed an insult from their opponents, and prefers the explanation that the word was a genuine Arabic expression which happened to coincide with a word in the enemies' own language that carried a curse.
+
+The prohibition is then compared with sayings of the Prophet in which one word for a thing was disliked and another preferred, such as his instruction: *“let none of you say al-karm; rather, say al-ḥabalah.”* and the discussion explains the reason: an expression may be innocent in its primary sense yet point to something unfitting, and the Prophet's dignity required that the words used in his presence carry no ambiguity. The verse therefore does not forbid the request but the wording of it.
+
+### **WHAT THEY WERE TOLD TO SAY**
+
+The substitute phrase is explained as waiting and looking out: the believers are told to ask the Prophet to wait for them and attend to them so that they may understand what he teaches and have it explained. One report glosses it as making them understand and clarifying for them. The discussion then considers the reading in which the same verb is articulated with its initial vowel, producing the sense of giving respite or delay, and rejects it for this passage, since the companions were being commanded to draw close to the Prophet and listen, not to ask to be kept at a distance. The discussion prefers the joined reading, on the strength of the consensus of the reciters and the force of the verse's own purpose. The command to listen that follows is explained as receiving what is recited and grasping it, and the final clause names the penalty for denial, which lies with those who reject what is being taught and not with those who ask to be taught properly.
+
+## **2:105**
+
+> The disbelievers from the People of the Book and the polytheists would not want you to receive any blessing from your Lord, but Allah selects whoever He wills for His mercy. And Allah is the Lord of infinite bounty
+
+### **MEANING**
+
+The verse states what the opponents of the community actually wish. Those who reject the message, whether they hold a scripture or worship idols, dislike the notion that any good should come down to the believers from their Lord, and the verse answers the resentment with a statement of how gifts are given: ***“Allah selects whoever He wills for His mercy,”*** and His bounty is beyond measure. The verse thus closes the long passage concerning the followers of the earlier scripture by naming the motive that ran beneath their resistance, and by locating the remedy where it has been all along.
+
+### **THE WISH THAT WAS NOT MADE**
+
+The wish denied to the believers is explained as a refusal to see the message arrive: the opponents resented the very coming of revelation, whether the opposition came from those who possessed a book or from the idolaters of the town. The discussion then draws out the practical consequence. By disclosing what was hidden in the hearts of both groups, the verse warned the believers against relying on them, listening to their counsel, or accepting anything they offered in the appearance of good advice. The knowledge of what these parties concealed made trust in them unnecessary, and the passage therefore functions as a caution as much as a statement of fact.
+
+The reports note the two classes named in the verse. The holders of the earlier scripture had knowledge of what the messenger would bring; the idolaters had no such expectation, and their resentment was of a different kind. The discussion places the two together in the sentence because the wish they shared was the same: that the community of the believers should not receive what God had chosen to give it. The passage had already recorded the same resentment in the earlier encounter, where the community that had been given a book resented the sending of a messenger to a people other than themselves, and the present verse states the underlying attitude without the pretences. What the opponents dislike is not a particular claim but the fact of divine favour falling on others, and the verse names that dislike before it answers it.
+
+### **THE GIVER AND THE GIFT**
+
+The closing sentences explain why the resentment was misplaced. The choosing belongs to God alone, and the discussion identifies what He chooses people for as the sending of prophets and the granting of guidance: the choice is His and is not owed to any group's lineage, history, or expectation. The bounty described at the end is stated to be the source of every good the servants reach, in religion and in the world, given freely and not earned. The passage then turns the point against the resentment once more: the guidance given to the messenger and to those who believe in him is a favour from God, and favours are not caught by wishing. They are given by the One who owns them to whomever He chooses, and the verse leaves the reader with that ordering of things as the answer to the envy it has just described.
+
+## **2:106**
+
+> If We ever abrogate a verse or cause it to be forgotten, We replace it with a better or similar one. Do you not know that Allah is Most Capable of everything
+
+### **MEANING**
+
+The verse takes up the complaint that revelation keeps changing its instructions. It states the rule: whenever a revealed verse is withdrawn or its memory is taken away, a substitute arrives, and the substitute is either the equal of the one removed or better than it. Nothing is lost to the community by the change, because the One who orders the change holds power over everything, and the closing sentence anchors the whole arrangement in that power. The passage treats the objection as a failure to understand whose commands are being rearranged.
+
+### **WHAT ABROGATION MEANS**
+
+The transfer described here is the removal of one ruling and its replacement by another: what was permitted becomes forbidden and what was forbidden becomes permitted, and the same applies to the categories of approval, restriction, and permission. The discussion holds that this happens only in commands and prohibitions, since reporting is not subject to replacement: information about what took place is not abrogated, because the change concerns what God asks of people at a given time. The root of the word lies in copying, and a book is said to be *"transferred from one copy to another"*; the movement of a ruling from one form to another is described in the same terms. The interpreters note that the withdrawn wording may remain in the recitation while its ruling is lifted, and the report traced to al-Ḥasan al-Baṣrī states that the community recites verses whose rules no longer apply. One report carries al-Suddī's reading of the word as *"its being taken back"*, the pulling up of a matter once it has served its time.
+
+### **FORGOTTEN AND DEFERRED**
+
+The interpreters dispute the reading of the second verb, and the dispute shapes what the verse is taken to mean. The majority read it as a statement that God causes a verse to be forgotten, and reports from Qatādah, Mujāhid, and ʿUbayd ibn ʿUmayr describe revelation slipping from memory or being lifted from the community altogether; ʿUbayd's gloss is *"we raise it up from among you."* Saʿd ibn Abī Waqqāṣ disputed the reading used by Saʿīd ibn al-Musayyib in an exchange recorded by his students: *"God did not send the Qur'an down to al-Musayyib, nor to the son of al-Musayyib,"* and he recited the two verses about God making the Prophet recite and remember. Reports from Anas ibn Mālik preserved a passage once recited for the seventy at Biʾr Maʿūna and afterward lifted, and Abū Mūsā al-Ashʿarī's account of words about the son of Adam and the valleys of wealth that were recited and then removed. A second reading pronounces the verb differently and gives the sense of deferment, so that the verse speaks of a verse withheld and left in place; Ṭarafa's poem was cited for that older sense: *"By your life, death grants no young man reprieve."* The discussion prefers the reading whose sense is leaving the verse unaltered, since that sense covers both leaving in place and setting aside, and it answers those who objected that the Prophet could not forget: the reports on the point are numerous, and the One who sends revelation is not prevented from taking back what He sent.
+
+### **THE BETTER REPLACEMENT**
+
+The substitute, the interpreters say, is never a loss. Ibn ʿAbbās explained it as *"better for you in benefit, and gentler with you,"* and Qatādah described the replacement as a verse *"in which there is relief, and mercy, and a command, and a prohibition."* The cases given make the meaning concrete. The night vigil was lifted from the believers, and the removal lightened a burden, which is the goodness that comes immediately. The fast of a few days in the year gave way to the fast of a full month, a heavier duty whose reward is greater, which is the goodness that comes later. The change of the direction of prayer is given as the case of a substitute equal in cost, since turning toward either place imposes the same effort. The discussion adds a boundary line: no part of the revelation is better than another, since all of it is God's speech, so the comparison concerns the benefit carried by the rulings, not the wording that carries them. The same discussion explains how the sentence names a verse while meaning its ruling, the way the earlier image of drinking the calf into the hearts means drinking its love, since the intended sense is plain to the hearers.
+
+### **THE POWER BEHIND THE CHANGE**
+
+The verse closes with a question meant to settle the matter rather than to test the hearer: nothing within God's authority is beyond His ability, and the power to set a rule aside is no more marvellous than the power to lay it down. The word used for ability is explained as strength, and the discussion notes that one Arab tribe, the Banū Murra of Ghaṭafān, pronounced the verb with a different vowel. The question stands as a reminder that the One who orders human affairs is free to rearrange them when He chooses, and that the community's duty is to obey what it is given at the time it is given.
+
+## **2:107**
+
+> Do you not know that the kingdom of the heavens and the earth belongs ˹only˺ to Allah, and you have no guardian or helper besides Allah
+
+### **MEANING**
+
+The verse continues the address with a second question, and it states the ground beneath everything the passage has been discussing: dominion over all that exists belongs to God alone, and there is no protector or helper for human beings apart from Him. Read in its place, the sentence gathers up the argument about who may command and who may change commands, and it answers the community that had refused to accept alteration within its own scriptures.
+
+### **A QUESTION FOR THE HEARERS**
+
+The question is phrased to the Prophet, and the discussion insists that it is not asked because he lacked the knowledge it affirms. The form is a question attached to a negation, and such a form is used for confirmation or for denial, never simply to state a fact. The discussion then observes that the address shifts at the end, turning from one hearer to many, which shows that the Prophet's companions are the intended audience throughout, in keeping with the passage that warned them about their manner of approach and of speech. Arabic, the discussion notes, regularly addresses a single person while intending his household or his people, and it cites the opening of Q 33:1–2, where the Prophet alone is addressed but the account of deeds belongs to the community, and a poet's praise of the Prophet in which the poet's real subject is the Prophet's family, and a love poem whose mention of two companions really concerns one person. The examples are given to show that a change of address within a passage is a normal feature of the language, not a sign that the words were assembled from different occasions.
+
+### **KINGDOM, GUARDIAN, HELPER**
+
+The word for dominion here is explained as the authority of a ruler over his realm, as distinct from the word that means mere ownership of a thing, and the bearing is that God disposes of His creatures as a king disposes of his subjects, commanding and forbidding whom He wills. The two negated nouns at the end carry the weight of the sentence. The first is formed from the verb that means to take charge of a matter, so the protector is the one who manages the affairs of another; the second is formed from the verb for aid, so the helper is the one who strengthens and supports. The phrase that denies both to anyone apart from God is explained as meaning other than God and after Him, and the discussion cites a line from Umayyah ibn Abī al-Ṣalt: *"O soul, you have no protector other than God."* The sentence therefore closes off every expectation of help outside Him, and the community that had been warned about trusting the counsel of others is told where its support actually lies.
+
+### **THE ANSWER TO THOSE WHO RESISTED CHANGE**
+
+The discussion reads this pair of verses as a reply aimed at the community that denied that rulings in its own scripture could be altered, and that rejected the messengers who came after Moses. God answers them by asserting that the dominion of the two realms is His and that their inhabitants owe Him obedience, so that He is free to command and forbid, to replace what He wills and to leave what He wills, and to cause a verse to be set aside when He wills. The Prophet and those with him are then told to submit to that arrangement without being shaken by the objections of those who dispute it. Together with the reminder of His power that precedes it, this sentence produces the lesson the passage has been building: no one else manages the believers' affairs, no one else defends them, and the One who does both is entitled to alter His instructions when He judges it best.
+
+## **2:108**
+
+> Or do you ˹believers˺ intend to ask of your Messenger as Moses was asked before? But whoever trades belief for disbelief has truly strayed from the Right Way
+
+### **MEANING**
+
+The verse warns the believers against a manner of questioning that had a precedent among the earlier community. The demand for proofs chosen by the questioner, rather than the signs the messenger brings, is presented as the road that led those before them astray, and the consequence is stated in the same breath: trading belief for denial removes a person from the middle of the way, where safety lies. The sentence ties the appetite for wonders to the loss of the plain path, since the appetite becomes a reason to reject what is given whenever the demands are not met.
+
+### **WHAT WAS BEING ASKED**
+
+The reports place the verse against several occasions. Ibn Isḥāq's account names two men who came to the Prophet demanding *"a book brought down from heaven that we might read, and rivers that you set flowing for us,"* promising belief if he produced them, and the report is carried from Ibn ʿAbbās. Other reports describe the request to see God plainly, whether from the disbelievers of the city or from those who asked their prophet to bring God before them openly, and the discussion notes the similarity between the two audiences, since the community was being warned against imitating the demand. One report tells of the request that the mountain — meaning al-Ṣafā — be turned to gold, and of the answer that it would be done, but that it would be for them as the table had been for the earlier people if they disbelieved; the discussion adds that they refused and drew back. A gentler occasion is recorded of a man who wished the community's expiations were like those of the earlier people, and of the response: *"O God, we do not seek that — what God has given you is better than what He gave the people of Israel,"* followed by the promise that whoever does wrong and seeks forgiveness finds God forgiving and merciful, and by the statement that the five prayers, and the Friday prayer to the following Friday, are expiations for what comes between them.
+
+### **THE GRAMMAR OF THE QUESTION**
+
+The discussion examines the opening particle at length. One group of grammarians treats it as a question, so that the sense is simply a rebuke: is this what you want to put to your messenger? Another treats it as a question severed from what precedes it and aimed back at the beginning of the address. The Kufan school allows it as a fresh question built on an earlier statement even when no question precedes, and cites a passage where the same particle follows a declaration: Q 32:2–3. The particle is also said to carry the sense of *rather*, as in the poet's wondering whether Salmā had changed, or whether it was sleep. The discussion settles on the first position: the question is fresh, and its sense is a reproach addressed to the community. The important material is therefore not the particle but the diagnosis, since the demand for chosen signs was the road of the earlier people, and the verse warns the believers off the imitation.
+
+### **STRAYING FROM THE MIDDLE**
+
+The closing clause describes the person who exchanges belief for denial as having missed the middle of the way. The word rendered as soundness or evenness is explained as the middle of a thing: one early scholar said his *"middle"* had been worn away by writing, and a poet's mention of the middle of the grave was cited for the same sense. Another poem describes something doomed as *"straw in a foaming wave, cast off and lost."* The path in question is the clear, level road, and the person who leaves its centre wanders further from his destination with every step, which is the picture the discussion draws and connects with the opening of the Book, where the community asks to be guided along the straight path walked by those who were favoured. The warning is thus a single image: the demand for chosen signs pulled the earlier people off the middle of the road, and the same demand would do the same to anyone who makes it a condition for belief.
+
+## **2:109**
+
+> Many among the People of the Book wish they could turn you ˹believers˺ back to disbelief because of their envy, after the truth has been made clear to them. Pardon and bear with them until Allah delivers His decision. Surely Allah is Most Capable of everything
+
+### **MEANING**
+
+The verse names the wish that the preceding passage has been describing and identifies its motive. A great number of the followers of the earlier scripture would like the believers to return to the state they came from, and the reason given is envy rather than any claim about evidence, since the truth had already been made plain to them. The response prescribed is patience: pardon them and turn away until God brings His command, and the closing statement repeats the reminder of His power.
+
+### **WHO WISHED IT**
+
+Two identifications are given. Al-Zuhrī and Qatādah, in reports, named Kaʿb ibn al-Ashraf, and the discussion rejects that identification on the ground that the verse speaks of *"many,"* a word for a plurality, while a single man is not described as many. The account better suited to the wording comes from Ibn Isḥāq through Ibn ʿAbbās: two men of the Jewish leadership in Medina, Ḥuyayy ibn Akhṭab and Abū Yāsir ibn Akhṭab, envied the Arabs for the favour God had shown them in sending His messenger from among them, and they worked to turn people away from the faith as far as they were able, and the verse came down concerning the pair. The discussion's principle is worth noting: the verse's wording fixes its scope, and an identification that contradicts the wording is set aside however famous the name attached to it.
+
+### **ENVY AND THE CLEAR TRUTH**
+
+The word for envy is explained as an accusative placed there as the motive of the wishing: the men wished the community ill because of envy, not because their book told them to, and the phrase rendered as from themselves carries the sense of from their own side — the impulse was theirs, and the reports say the writings they possessed forbade what they were doing. The stubborn detail is the phrase about the truth having become clear: reports from Qatādah, Abū al-ʿĀliyah, and al-Suddī say that *"they find him written in the Torah and the Gospel,"* so the resistance was not ignorance but a choice, and one report from al-Ḍaḥḥāk through Ibn ʿAbbās states that envy drove them to deny what they knew. The verse's verdict is that the demand for evidence was never the real obstacle; the obstacle was the refusal to accept that the favour had gone to someone else.
+
+### **PARDON UNTIL THE COMMAND ARRIVED**
+
+The instruction to forgive was temporary by design. Reports from Qatādah, al-Rabīʿ, al-Suddī, and Maʿmar's tradition agree that the command it awaited arrived later, when the community was told to fight those who do not believe in God or the Last Day and do not abide by the religion of truth among the holders of the scripture until they pay the tribute willingly, humbled: Q 9:29. One report cites instead the command to fight the polytheists wherever they are found: Q 9:5. The discussion frames the sequence as instruction fitting different moments: while the community was weak and the dispute was verbal, forgiveness and turning away; and when God's command came, the affairs of the stubborn were decided by Him. The closing words about power are the seal on the whole passage: the One who permitted patience is the One who later commanded otherwise, and no one else owns that decision.
+
+## **2:110**
+
+> Establish prayer, and pay alms-tax. Whatever good you send forth for yourselves, you will ˹certainly˺ find ˹its reward˺ with Allah. Surely Allah is All-Seeing of what you do
+
+### **MEANING**
+
+The two commands stand here as the remedy for the faults the passage has been addressing, and the second half promises that nothing good done in this life is wasted. What a person sends ahead of himself, the deeds performed before death, is awaiting him with God, who sees everything done in secret and in the open. The verse thus ends a section about lapses with an instruction and a confidence: the accounts will be settled by the One who never loses a detail.
+
+### **THE TWO ORDERS, REVISITED**
+
+The discussion does not repeat the earlier analysis of these two practices; it refers back to what was said before, where the standing of the prayer was explained as its performance within its limits and obligations, and the alms-tax as the giving of what is due with a willing spirit. The repetition at this point in the passage carries a purpose the discussion names: the community had slipped in two matters, the taking of counsel from those who wished it ill and the roughness shown in addressing the Prophet with the word that was forbidden, and the remedy prescribed was devotion — the prayer that wipes out sins, the alms that cleanses the person and the property, and good deeds that secure God's pleasure. The instructions are therefore not a new subject but the treatment of the wound left by the verses before them.
+
+### **WHAT IS SENT AHEAD**
+
+The phrase about what one sends forward is explained as what a person prepares during his life and deposits ahead of himself, and the promise attached to it is explained as finding the recompense with God; the object of the verb is left unstated and understood. The discussion compares the phrasing to a line of poetry about a city said to have glorified: *"the city glorified, and do not blame her; she saw a moon in their marketplace by day,"* where the meaning is that its people glorified, since the hearer grasps the intended sense at once. The good that is promised to be found is defined as the deeds that please God, and the finding is the recompense; the discussion is careful to say that the deed itself is not the object of finding here, since the promise concerns the reward stored for the doer. The verse thus teaches that a person's store is not what he keeps but what he has already placed in God's keeping.
+
+### **THE ONE WHO SEES**
+
+The section closes with the statement that God sees everything the community does, which the discussion reads as both promise and warning: the good done in secret is not forgotten and the evil done in secret is not missed, so the sentence works as incentive and deterrent at once. The word for seeing is explained as one form of a word recast into another of the same family, so that the One who sees is described by a form conveying the fullness of His sight, and the meaning is that nothing escapes the notice of the One who will repay. The passage that began with a warning about the words people use ends with the assurance that words and deeds are seen and accounted for, and the community is left with the two commands and the promise attached to them.
