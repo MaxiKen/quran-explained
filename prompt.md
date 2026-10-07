@@ -2,7 +2,7 @@
 
 **Revision:** 2026-10-07
 
-**Status:** Chapter 1 and Surah 2:1–2:80 were completed on prior review branches. The current batch extends the same fresh, source-bounded rewrite through verses 2:81–2:130, from the verdict on the covenant-breakers to the faith of Abraham; verses 2:81–2:115 are drafted and validated on the working branch, and the remainder runs through 2:130, where the work stops and waits for review.
+**Status:** Chapter 1 and Surah 2:1–2:80 were completed on prior review branches. The current batch extends the same fresh, source-bounded rewrite through verses 2:81–2:130, from the verdict on the covenant-breakers to the faith of Abraham; the whole batch 2:81–2:130 is now drafted and validated on the working branch, and the work stops at 2:130, where it waits for review.
 
 ## Mission
 
