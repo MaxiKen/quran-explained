@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Quran Explained - verse by verse</title>
+
+  <!-- ========== PWA META TAGS ========== -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d9488">
+
+  <!-- Apple / iOS PWA Support -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Al-Quran">
+  <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-192x192.png">
+
+  <!-- Windows PWA Support -->
+  <meta name="msapplication-TileColor" content="#0d9488">
+  <meta name="msapplication-TileImage" content="icons/icon-144x144.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-96x96.png">
+
+  <!-- SEO & Social -->
+  <meta name="description" content="A modern, interactive Quran reader with verse-by-verse explanations, audio recitation, bookmarks, reading history, and beautiful themes.">
+  <meta name="keywords" content="Quran,Quran explained, Explained, Al-Quran, Islamic, Reader, Tafsir, Arabic, Interactive, PWA, Audio, Recitation">
+  <meta name="author" content="Quran Explained">
+  <meta property="og:title" content="Quran Explained">
+  <meta property="og:description" content="Explore all 114 chapters with interactive verse-by-verse comprehensive explanations and audio recitation">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="icons/icon-512x512.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Quran Explained">
+  <meta name="twitter:description" content="A modern Quran reader with verse-by-verse explanations and audio">
+
+  <!-- ========== FONTS ========== -->
+  <!-- Fonts are bundled locally in /fonts and declared via @font-face in
+       css/styles.css — no external font/CDN requests (fully offline-ready) -->
+
+  <!-- ========== MAIN STYLESHEET ========== -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-pattern"></div>
+
+  <!-- ========== STICKY HEADER ========== -->
+  <header class="app-header" id="appHeader">
+    <div class="header-inner">
+      <div class="header-left">
+        <nav class="header-nav" id="headerNav" aria-label="Screen navigation">
+          <button class="nav-pill" id="navBack" type="button" onclick="goBack()" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            <span>Back</span>
+          </button>
+          <button class="nav-pill nav-pill-icon" id="navForward" type="button" onclick="goForward()" title="Forward" aria-label="Forward" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <button class="nav-pill nav-pill-icon" id="navHome" type="button" onclick="goHome()" title="Chapter list" aria-label="Chapter list" hidden>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20h14V9.5"/><path d="M10 20v-5h4v5"/></svg>
+          </button>
+        </nav>
+        <div class="logo-icon logo-home" role="button" tabindex="0" onclick="goHome()" onkeydown="if(event.key==='Enter')goHome()" title="Chapter list" aria-label="Chapter list">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+        </div>
+        <div class="header-titles">
+          <h1 class="header-title">Quran Explained</h1>
+          <p class="header-subtitle">Interactive Reader</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="offline-header-btn" id="offlineHeaderButton" onclick="openDownloadsModal()" title="Offline Storage &amp; Downloads" aria-label="Offline Downloads">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          <span class="offline-header-badge" id="offlineHeaderBadge">0</span>
+        </button>
+        <button class="about-btn" onclick="openAboutModal()" title="About this app" aria-label="About this app">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+        </button>
+        <div class="theme-switcher" id="themeSwitcher">
+          <button class="theme-btn" id="themeMenuButton" onclick="toggleThemeMenu()" title="Choose reading theme" aria-label="Choose reading theme" aria-haspopup="true" aria-expanded="false">
+            <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <span id="themeLabel" class="theme-label">Night</span>
+          </button>
+          <div class="theme-menu" id="themeMenu" role="menu" aria-label="Reading themes">
+            <p class="theme-menu-title">Reading theme</p>
+            <button class="theme-option" data-theme-option="night" onclick="setTheme('night')" role="menuitemradio"><span class="theme-swatch night"></span><span><strong>Night</strong><small>Low-light reading</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
+            <button class="theme-option" data-theme-option="daylight" onclick="setTheme('daylight')" role="menuitemradio"><span class="theme-swatch daylight"></span><span><strong>Daylight</strong><small>Bright and clear</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
+            <button class="theme-option" data-theme-option="paper" onclick="setTheme('paper')" role="menuitemradio"><span class="theme-swatch paper"></span><span><strong>Paper</strong><small>Warm book-like page</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
+            <button class="theme-option" data-theme-option="forest" onclick="setTheme('forest')" role="menuitemradio"><span class="theme-swatch forest"></span><span><strong>Forest</strong><small>Calm green contrast</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
+            <button class="theme-option" data-theme-option="dusk" onclick="setTheme('dusk')" role="menuitemradio"><span class="theme-swatch dusk"></span><span><strong>Dusk</strong><small>Soft indigo night</small></span><span class="theme-option-check" aria-hidden="true">✓</span></button>
+          </div>
+        </div>
+        <output class="nav-position" id="navPosition" hidden></output>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN APPLICATION CONTAINER ========== -->
+  <main id="app" class="app-container"></main>
+
+  <!-- ========== TAFSIR / COMMENTARY POP-UP ========== -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content tafsir-sheet" id="tafsirSheet" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="tafsir-progress" aria-hidden="true"><span id="modalProgressFill"></span></div>
+      <div class="tafsir-head">
+        <span class="tafsir-grabber" aria-hidden="true"></span>
+        <div class="tafsir-head-row">
+          <div class="tafsir-head-text">
+            <p class="tafsir-eyebrow"><span id="modalEyebrow">Commentary</span><span class="tafsir-verse-chip" id="modalVerseChip" hidden></span></p>
+            <h3 id="modalTitle" class="modal-title"></h3>
+          </div>
+          <button onclick="closeModal()" class="modal-close tafsir-close" type="button" aria-label="Close commentary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+            <span>Close</span>
+          </button>
+        </div>
+      </div>
+      <div class="tafsir-scroll" id="tafsirScroll">
+        <div id="modalVerseCard" class="tafsir-verse-card" hidden></div>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+      <div class="tafsir-footer" id="modalFooter" hidden></div>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT MODAL ========== -->
+  <div class="modal-overlay" id="aboutModal">
+    <div class="modal-content about-modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="font-size:22px;">About Quran Explained</h3>
+        <button onclick="closeAboutModal()" class="modal-close" aria-label="Close about modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="about-body" id="aboutBody">
+        <div class="about-hero">
+          <div class="about-logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h4 class="about-app-name">Quran Explained</h4>
+          <p class="about-version">Version 2.4</p>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">About</h5>
+          <p class="about-text">A modern, interactive Quran reader designed to help you explore and understand the Noble Quran with verse-by-verse explanations and beautiful audio recitation. Tap any English verse translation to read its detailed commentary.</p>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">Features</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">📖</span><div><strong>All 114 Chapters</strong><span>Complete chapter listing with Arabic names, meanings, and verse counts</span></div></li>
+            <li><span class="about-feature-icon">🔍</span><div><strong>Smart Search</strong><span>Search chapters by name, number, meaning, or search within verse content (English &amp; Arabic)</span></div></li>
+            <li><span class="about-feature-icon">💬</span><div><strong>Interactive Explanations</strong><span>Clickable verse-by-verse English translation with detailed tafsir commentary</span></div></li>
+            <li><span class="about-feature-icon">📚</span><div><strong>Complete Commentary eBook</strong><span>Read an entire surah's commentary in a calm, continuous reading view and save it as a PDF</span></div></li>
+            <li><span class="about-feature-icon">🗣️</span><div><strong>Commentary Read Aloud</strong><span>Fixed bottom player on the complete commentary page with live line following, verse skipping, and sleep timer</span></div></li>
+            <li><span class="about-feature-icon">🧭</span><div><strong>Continue Exactly Where You Stopped</strong><span>Going back — or re-entering the same chapter, commentary or list — resumes your place; a new chapter opens at the top</span></div></li>
+            <li><span class="about-feature-icon">👆</span><div><strong>Everything By Tap</strong><span>Back, forward and home live in the header, edge swipes work on touch screens, and the browser back button no longer drops you out of the reader</span></div></li>
+            <li><span class="about-feature-icon">🎧</span><div><strong>Audio Recitation</strong><span>Listen to individual verses or entire chapters with continuous playback, speed control, and repeat modes</span></div></li>
+            <li><span class="about-feature-icon">🔖</span><div><strong>Verse Bookmarks</strong><span>Bookmark specific verses for quick access later — saved locally on your device</span></div></li>
+            <li><span class="about-feature-icon">🕐</span><div><strong>Reading History</strong><span>Track which verse explanations you've read — never lose your place</span></div></li>
+            <li><span class="about-feature-icon">🎨</span><div><strong>5 Reading Themes</strong><span>Night, Daylight, Paper, Forest, and Dusk—chosen directly for comfortable reading any time</span></div></li>
+            <li><span class="about-feature-icon">⌨️</span><div><strong>Keyboard Shortcuts</strong><span>Space to play/pause, arrow keys to navigate, and more</span></div></li>
+          </ul>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">Keyboard Shortcuts</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">⎵</span><div><strong>Space</strong><span>Play / Pause audio</span></div></li>
+            <li><span class="about-feature-icon">⇧←</span><div><strong>Shift + Left Arrow</strong><span>Previous verse</span></div></li>
+            <li><span class="about-feature-icon">⇧→</span><div><strong>Shift + Right Arrow</strong><span>Next verse</span></div></li>
+            <li><span class="about-feature-icon">Esc</span><div><strong>Escape</strong><span>Close the commentary pop-up / stop audio</span></div></li>
+            <li><span class="about-feature-icon">⇧Alt←</span><div><strong>Alt + Left Arrow</strong><span>Previous screen in the reader</span></div></li>
+            <li><span class="about-feature-icon">⇧Alt→</span><div><strong>Alt + Right Arrow</strong><span>Next screen in the reader</span></div></li>
+            <li><span class="about-feature-icon">H</span><div><strong>H</strong><span>Chapter list</span></div></li>
+            <li><span class="about-feature-icon">C</span><div><strong>C</strong><span>Open the surah’s complete commentary</span></div></li>
+            <li><span class="about-feature-icon">L</span><div><strong>L</strong><span>Start or pause read aloud (in complete commentary)</span></div></li>
+            <li><span class="about-feature-icon">M</span><div><strong>M</strong><span>Expand or shrink commentary read aloud dock</span></div></li>
+          </ul>
+        </div>
+
+        <div class="about-section about-offline-notice" id="offlineSection">
+          <h5 class="about-section-title">Offline Access</h5>
+          <div class="offline-notice-card">
+            <div class="offline-notice-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 6s4-4 11-4 11 4 11 4"/>
+                <path d="M5 10s2.5-2.5 7-2.5 7 2.5 7 2.5"/>
+                <path d="M9 14s1.5-1.5 3-1.5 3 1.5 3 1.5"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="offline-notice-body">
+              <p class="offline-notice-headline">This app works offline</p>
+              <p class="offline-notice-text">Once you've visited a chapter, it's cached on your device and available without an internet connection. Audio requires internet on first play but may be cached by your browser.</p>
+            </div>
+          </div>
+          <ul class="offline-steps">
+            <li>
+              <span class="offline-step-num">1</span>
+              <div>
+                <strong>Install the app</strong>
+                <span>Tap <em>Add to Home Screen</em> (iOS Safari) or <em>Install App</em> (Android / Chrome) from your browser menu</span>
+              </div>
+            </li>
+            <li>
+              <span class="offline-step-num">2</span>
+              <div>
+                <strong>Browse chapters while online</strong>
+                <span>Open any chapter — it will be silently cached on your device for offline reading</span>
+              </div>
+            </li>
+            <li>
+              <span class="offline-step-num">3</span>
+              <div>
+                <strong>Read anytime, anywhere</strong>
+                <span>Go offline and open the app — all previously visited chapters remain fully accessible</span>
+              </div>
+            </li>
+          </ul>
+          <div style="margin-top:20px;text-align:center;">
+            <button class="dl-open-btn" onclick="closeAboutModal(); openDownloadsModal();">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Manage Offline Downloads &amp; Storage
+            </button>
+          </div>
+        </div>
+
+        <div class="about-section">
+          <h5 class="about-section-title">About Developer</h5>
+          <ul class="about-features">
+            <li><span class="about-feature-icon">😎</span><div><strong>Name</strong><span>Abdulrahaman Kehinde</span></div></li>
+            <li><span class="about-feature-icon">🌍</span><div><strong>Nationality</strong><span>Nigeria 🇳🇬</span></div></li>
+            <li><span class="about-feature-icon">🎯</span><div><strong>Mission</strong><span>To make the Islamic faith easy to understand for everyone.</span></div></li>
+            <li><span class="about-feature-icon">✉️</span><div><strong>Email</strong><span>Maxikennexus@gmail.com</span></div></li>
+          </ul>
+        </div>
+
+        <div class="about-section about-disclaimer">
+          <p class="about-text"><strong>Disclaimer:</strong> The explanations provided are for educational purposes. For authoritative religious guidance, please consult qualified Islamic scholars. May Allah accept this effort and make it beneficial.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FONT SIZE MODAL ========== -->
+  <div class="modal-overlay" id="fontSizeModal">
+    <div class="modal-content" style="max-width:400px;">
+      <div class="modal-header">
+        <h3 class="modal-title">Text Size</h3>
+        <button onclick="closeFontSizeModal()" class="modal-close" aria-label="Close">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="font-size-controls">
+        <div class="font-size-group">
+          <label class="font-size-label">Arabic Text</label>
+          <div class="font-size-slider-row">
+            <button class="font-size-btn" onclick="adjustFontSize('arabic', -2)">A-</button>
+            <input type="range" class="font-size-range" id="arabicFontRange" min="20" max="48" value="28" oninput="setFontSize('arabic', this.value)">
+            <button class="font-size-btn" onclick="adjustFontSize('arabic', 2)">A+</button>
+            <span class="font-size-value" id="arabicFontValue">28px</span>
+          </div>
+          <p class="arabic-text font-size-preview" id="arabicPreview" style="font-size:28px;">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        </div>
+        <div class="font-size-group">
+          <label class="font-size-label">English Text</label>
+          <div class="font-size-slider-row">
+            <button class="font-size-btn" onclick="adjustFontSize('english', -1)">A-</button>
+            <input type="range" class="font-size-range" id="englishFontRange" min="13" max="24" value="17" oninput="setFontSize('english', this.value)">
+            <button class="font-size-btn" onclick="adjustFontSize('english', 1)">A+</button>
+            <span class="font-size-value" id="englishFontValue">17px</span>
+          </div>
+          <p class="font-size-preview" id="englishPreview" style="font-size:17px; color:var(--text-muted);">In the Name of Allah, the Most Compassionate, Most Merciful.</p>
+        </div>
+        <button class="font-size-reset" onclick="resetFontSizes()">Reset to Default</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== OFFLINE DOWNLOADS MODAL ========== -->
+  <div class="modal-overlay" id="downloadsModal">
+    <div class="modal-content downloads-modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" style="font-size:22px;">Offline Downloads &amp; Storage</h3>
+          <p class="downloads-modal-subtitle">Download commentary and chapters for seamless offline reading</p>
+        </div>
+        <button onclick="closeDownloadsModal()" class="modal-close" aria-label="Close downloads modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Storage Summary & Batch Controls -->
+      <div class="downloads-dashboard">
+        <div class="downloads-summary-card">
+          <div class="downloads-stat-item">
+            <span class="downloads-stat-number" id="dlCountText">0 / 114</span>
+            <span class="downloads-stat-label">Chapters Saved</span>
+          </div>
+          <div class="downloads-stat-divider"></div>
+          <div class="downloads-stat-item">
+            <span class="downloads-stat-number" id="dlSizeText">0 MB</span>
+            <span class="downloads-stat-label">Downloaded Size</span>
+          </div>
+        </div>
+
+        <!-- Progress Bar for Batch Download -->
+        <div class="downloads-progress-wrap" id="dlProgressWrap" style="display:none;">
+          <div class="downloads-progress-info">
+            <span id="dlProgressLabel">Downloading chapters...</span>
+            <span id="dlProgressPercent">0%</span>
+          </div>
+          <div class="downloads-progress-bar">
+            <div class="downloads-progress-fill" id="dlProgressFill" style="width:0%;"></div>
+          </div>
+        </div>
+
+        <div class="downloads-actions-row">
+          <button class="dl-action-btn primary" id="dlAllBtn" onclick="OfflineManager.toggleDownloadAll()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span id="dlAllBtnText">Download All Chapters (~40 MB)</span>
+          </button>
+          <button class="dl-action-btn danger" onclick="OfflineManager.confirmClearAll()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+            Clear Cache
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="downloads-filter-bar">
+        <div class="downloads-search-wrap">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="dlSearchInput" placeholder="Filter chapters by name or number..." oninput="OfflineManager.handleSearch(this.value)">
+        </div>
+        <div class="downloads-tabs">
+          <button class="dl-tab-btn active" id="dlTabAll" onclick="OfflineManager.setFilter('all')">All (114)</button>
+          <button class="dl-tab-btn" id="dlTabSaved" onclick="OfflineManager.setFilter('saved')">Saved (<span id="dlTabSavedCount">0</span>)</button>
+          <button class="dl-tab-btn" id="dlTabPending" onclick="OfflineManager.setFilter('pending')">Available</button>
+        </div>
+      </div>
+
+      <!-- Chapter List -->
+      <div class="downloads-list" id="downloadsList"></div>
+    </div>
+  </div>
+
+  <!-- ========== PWA INSTALL PILL ========== -->
+  <div class="pwa-install-pill" id="pwaInstallPill">
+    <div class="pwa-pill-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+    </div>
+    <div class="pwa-pill-text">
+      <span class="pwa-pill-title">Install App</span>
+      <span class="pwa-pill-sub">Read offline, anytime</span>
+    </div>
+    <button class="pwa-pill-btn" id="pwaInstallBtn">Install</button>
+    <button class="pwa-pill-close" id="pwaInstallClose" aria-label="Dismiss">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- ========== TOAST NOTIFICATION ========== -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ========== SCROLL TO TOP BUTTON ========== -->
+  <button class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Scroll to top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="js/chapters-meta.js"></script>
+
+  <!-- PWA: Service Worker + Install Prompt -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js')
+          .then(function(reg) {
+            console.log('[App] SW registered. Scope:', reg.scope);
+            reg.addEventListener('updatefound', function() {
+              var nw = reg.installing;
+              if (!nw) return;
+              nw.addEventListener('statechange', function() {
+                if (nw.state === 'activated') console.log('[App] SW updated!');
+              });
+            });
+          })
+          .catch(function(e) { console.warn('[App] SW failed:', e); });
+      });
+    }
+
+    var _deferredPrompt = null;
+    var DISMISSED_KEY = 'pwa-pill-dismissed';
+
+    var isStandalone = window.matchMedia('(display-mode: standalone)').matches
+                    || window.navigator.standalone === true;
+
+    if (isStandalone) {
+      var standalonePill = document.getElementById('pwaInstallPill');
+      if (standalonePill) standalonePill.style.display = 'none';
+    }
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      _deferredPrompt = e;
+      if (!localStorage.getItem(DISMISSED_KEY) && !isStandalone) {
+        setTimeout(function() {
+          var pill = document.getElementById('pwaInstallPill');
+          if (pill) pill.classList.add('pwa-pill-visible');
+        }, 1800);
+      }
+    });
+
+    document.getElementById('pwaInstallBtn').addEventListener('click', function() {
+      if (!_deferredPrompt) return;
+      _deferredPrompt.prompt();
+      _deferredPrompt.userChoice.then(function(choice) {
+        if (choice.outcome === 'accepted') {
+          document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+        }
+        _deferredPrompt = null;
+      });
+    });
+
+    document.getElementById('pwaInstallClose').addEventListener('click', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+      localStorage.setItem(DISMISSED_KEY, '1');
+    });
+
+    window.addEventListener('appinstalled', function() {
+      document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+    });
+
+    window.triggerPWAInstall = function() {
+      if (_deferredPrompt) {
+        _deferredPrompt.prompt();
+        _deferredPrompt.userChoice.then(function(choice) {
+          if (choice.outcome === 'accepted') {
+            document.getElementById('pwaInstallPill').classList.remove('pwa-pill-visible');
+          }
+          _deferredPrompt = null;
+        });
+      } else {
+        if (typeof openAboutModal === 'function') {
+          openAboutModal();
+          setTimeout(function() {
+            var section = document.getElementById('offlineSection');
+            if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 350);
+        }
+      }
+    };
+  </script>
+
+  <!-- Reading modules: remembered places, screen stack, read aloud player -->
+  <script src="js/reading-memory.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/read-aloud.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
