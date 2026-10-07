@@ -12,12 +12,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MARKDOWN_DIR = ROOT / "data" / "tafsir_markdown"
 DATA_DIR = ROOT / "data"
+MIN_COMMENTARY_WORDS = 400
+WORD_TOKEN = re.compile(r"\b[^\W_]+(?:[’'‑-][^\W_]+)*\b", re.UNICODE)
 SECTION_HEADING = re.compile(r"^##[ \t]+(.+?)[ \t]*$", re.MULTILINE)
 VERSE_HEADING = re.compile(r"(\d+):(\d+)")
 RICH_MARKDOWN = re.compile(
     r"\*\*.+?\*\*|\*[^*\n]+?\*|`[^`]+`|^#{2,6}[ \t]+.+|^[ \t]*[-*+][ \t]+",
     re.MULTILINE,
 )
+TABARI_CITATION = re.compile(
+    r"\[al-Tabari,\s+\d+:\d+(?:,\s+report\s+\d+)?\]"
+)
+EVIDENCE_QUOTE = re.compile(r"[“\"][^“”\"\n]{20,}[”\"]")
 
 
 class BuildError(Exception):
@@ -148,6 +154,26 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
                 f"Commentary at {chapter_number}:{verse_number} has no supported "
                 "Markdown formatting"
             )
+
+        # Count commentary only: the structural heading and exact app translation
+        # are intentionally outside the user's 400-word minimum.
+        countable = TABARI_CITATION.sub("", commentary)
+        word_count = len(WORD_TOKEN.findall(countable))
+        if word_count < MIN_COMMENTARY_WORDS:
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} has {word_count} words; "
+                f"minimum is {MIN_COMMENTARY_WORDS}"
+            )
+        if not TABARI_CITATION.search(commentary):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} needs an inline "
+                "[al-Tabari, SURAH:VERSE] source reference"
+            )
+        if not EVIDENCE_QUOTE.search(commentary):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} needs a quoted "
+                "source-evidence excerpt"
+            )
         verses_payload[str(verse_number)] = body
 
     payload["verses"] = verses_payload
@@ -204,7 +230,10 @@ def main() -> int:
                         f"{output_path.relative_to(ROOT)} is out of sync; "
                         "rerun scripts/build_tafsir_json.py"
                     )
-                print(f"Checked Surah {chapter_number}: {len(decoded['verses'])} verses")
+                print(
+                    f"Checked Surah {chapter_number}: {len(decoded['verses'])} verses "
+                    f"(minimum {MIN_COMMENTARY_WORDS} words each)"
+                )
             else:
                 output_path.write_text(generated, encoding="utf-8")
                 print(f"Wrote {output_path.relative_to(ROOT)}: {len(decoded['verses'])} verses")
