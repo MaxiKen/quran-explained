@@ -12,29 +12,41 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MARKDOWN_DIR = ROOT / "data" / "tafsir_markdown"
 DATA_DIR = ROOT / "data"
-MIN_COMMENTARY_WORDS = 400
+MIN_COMMENTARY_WORDS = 500
 MAX_COMMENTARY_WORDS = 1200
 WORD_TOKEN = re.compile(r"\b[^\W_]+(?:[’'‑-][^\W_]+)*\b", re.UNICODE)
 SECTION_HEADING = re.compile(r"^##[ \t]+(.+?)[ \t]*$", re.MULTILINE)
 SUBHEADING = re.compile(r"^###[ \t]+(.+?)[ \t]*$", re.MULTILINE)
-VERSE_HEADING = re.compile(r"(\d+):(\d+)")
+VERSE_HEADING = re.compile(r"\*\*(\d+):(\d+)\*\*")
 RICH_MARKDOWN = re.compile(
     r"\*\*.+?\*\*|\*[^*\n]+?\*|`[^`]+`|^#{2,6}[ \t]+.+|^[ \t]*[-*+][ \t]+",
     re.MULTILINE,
 )
-SOURCE_REFERENCE = re.compile(
-    r"\[(?:Q\s+\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?|"
-    r"(?:Report|Hadith|Poem):\s*[^\]\n]+)\]"
-)
-TRAILING_REFERENCES = re.compile(
-    rf"(?:\s*{SOURCE_REFERENCE.pattern})+\s*[.!?]?\s*$"
-)
-COMPILER_CITATION = re.compile(
-    r"\[[^\]\n]*\b(?:al[-\s]?(?:Ṭ|T)abar[iī]|(?:Ṭ|T)abar[iī])\b"
-    r"[^\]\n]*\]",
+BRACKETED_CITATION = re.compile(
+    r"\[(?:(?:Q\s+|Qur[’']an\s+|Surah\s+)\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?|"
+    r"(?:Report|Hadith|Poem):[^\]\n]+|"
+    r"(?:Ṣaḥīḥ|Musnad|al-Muwaṭṭaʾ)\b[^\]\n]*)\]",
     re.IGNORECASE,
 )
-EVIDENCE_QUOTE = re.compile(r"[“\"][^“”\"\n]{20,}[”\"]")
+INLINE_REFERENCE = re.compile(
+    r"\b(?:Q\s+\d{1,3}:\d{1,3}|Qur[’']an\s+\d{1,3}:\d{1,3}|"
+    r"(?:report|reports|narration|narrated|hadith|poem|line)\b|"
+    r"(?:Ṣaḥīḥ|Musnad|al-Muwaṭṭaʾ)\b)",
+    re.IGNORECASE,
+)
+COMPILER_CITATION = re.compile(
+    r"\b(?:al[-\s]?(?:Ṭ|T)abar[iī]|(?:Ṭ|T)abar[iī])\b",
+    re.IGNORECASE,
+)
+QUOTED_TEXT = re.compile(r"“[^”\n]+”|\"[^\"\n]+\"")
+EVIDENCE_QUOTE = re.compile(r"\*{1,3}[“\"][^“”\"\n]{20,}[”\"]\*{1,3}")
+BOLD_MARKUP = re.compile(r"\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*")
+VERSE_HIGHLIGHT_STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "been", "being", "but",
+    "by", "for", "from", "has", "have", "in", "is", "it", "of", "on",
+    "or", "that", "the", "this", "to", "was", "were", "who", "with",
+    "you", "your", "we", "us",
+}
 
 
 class BuildError(Exception):
@@ -89,8 +101,80 @@ def chapter_verses(chapter_number: int) -> list[tuple[int, str]]:
     return verses
 
 
+def validate_quoted_text(commentary: str, chapter_number: int, verse_number: int) -> None:
+    """Require every double-quoted phrase to be set in Markdown italics."""
+    for match in QUOTED_TEXT.finditer(commentary):
+        before = commentary[: match.start()]
+        after = commentary[match.end() :]
+        star_open = len(before) - len(before.rstrip("*"))
+        star_close = len(after) - len(after.lstrip("*"))
+        underscore_open = len(before) - len(before.rstrip("_"))
+        underscore_close = len(after) - len(after.lstrip("_"))
+        if not (
+            (star_open % 2 == 1 and star_close % 2 == 1)
+            or (underscore_open % 2 == 1 and underscore_close % 2 == 1)
+        ):
+            raise BuildError(
+                f"Quoted text at {chapter_number}:{verse_number} must be italicized"
+            )
+
+
+def validate_verse_wording(
+    translation: str, commentary: str, chapter_number: int, verse_number: int
+) -> None:
+    """Require recognizable multiword wording from the current verse to be bold."""
+    prose = "\n".join(
+        line for line in commentary.splitlines() if not line.lstrip().startswith("### ")
+    )
+    translation_tokens = [match.group(0).casefold() for match in WORD_TOKEN.finditer(translation)]
+    commentary_tokens = list(WORD_TOKEN.finditer(prose))
+    bold_spans: list[tuple[int, int]] = []
+    for match in BOLD_MARKUP.finditer(prose):
+        group = 1 if match.group(1) is not None else 2
+        bold_spans.append(match.span(group))
+
+    for length in range(2, len(translation_tokens) + 1):
+        for start in range(len(translation_tokens) - length + 1):
+            phrase = translation_tokens[start : start + length]
+            meaningful = sum(
+                token not in VERSE_HIGHLIGHT_STOPWORDS for token in phrase
+            )
+            if meaningful < 2:
+                continue
+            for token_start in range(len(commentary_tokens) - length + 1):
+                window = commentary_tokens[token_start : token_start + length]
+                if [token.group(0).casefold() for token in window] != phrase:
+                    continue
+                for token in window:
+                    if token.group(0).casefold() in VERSE_HIGHLIGHT_STOPWORDS:
+                        continue
+                    occurrence = token.span()
+                    if not any(
+                        bold_start <= occurrence[0] and occurrence[1] <= bold_end
+                        for bold_start, bold_end in bold_spans
+                    ):
+                        excerpt = " ".join(item.group(0) for item in window)
+                        raise BuildError(
+                            f"Wording from verse {chapter_number}:{verse_number} appears "
+                            f"without bold formatting: {excerpt!r}"
+                        )
+
+
 def parse_markdown(markdown_path: Path, chapter_number: int) -> tuple[str | None, list[tuple[int, str]]]:
+
     text = markdown_path.read_text(encoding="utf-8")
+    markdown_headings = re.findall(r"(?m)^#{1,6}[ \t]+(.+?)[ \t]*$", text)
+    if not markdown_headings:
+        raise BuildError(f"No Markdown headings in {markdown_path.name}")
+    for label in markdown_headings:
+        styled = re.fullmatch(r"\*\*(.+)\*\*", label.strip())
+        if not styled or styled.group(1) != styled.group(1).upper():
+            raise BuildError(
+                f"Heading must be bold and uppercase in {markdown_path.name}: {label!r}"
+            )
+    if not markdown_headings[0].strip().startswith("**SURAH "):
+        raise BuildError(f"The first heading in {markdown_path.name} must name the surah")
+
     headings = list(SECTION_HEADING.finditer(text))
     if not headings:
         raise BuildError(f"No '## N:M' verse headings in {markdown_path.name}")
@@ -104,7 +188,7 @@ def parse_markdown(markdown_path: Path, chapter_number: int) -> tuple[str | None
         end = headings[index + 1].start() if index + 1 < len(headings) else len(text)
         body = text[heading.end() : end].strip()
 
-        if label.casefold() == "introduction":
+        if label == "**INTRODUCTION**":
             if intro is not None or sections:
                 raise BuildError("'## Introduction' may appear once, before all verses")
             if not body:
@@ -172,56 +256,65 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
                 f"Commentary at {chapter_number}:{verse_number} needs at least two "
                 "'###' subheadings"
             )
+        for subheading in subheadings:
+            label = subheading.group(1).strip()
+            styled = re.fullmatch(r"\*\*(.+)\*\*", label)
+            if not styled or styled.group(1) != styled.group(1).upper():
+                raise BuildError(
+                    f"Subheadings at {chapter_number}:{verse_number} must be bold and uppercase"
+                )
         first_line = next((line.strip() for line in commentary.splitlines() if line.strip()), "")
-        if (
-            first_line != "### Meaning"
-            or subheadings[0].group(1).strip().casefold() != "meaning"
-        ):
+        if first_line != "### **MEANING**" or subheadings[0].group(1).strip() != "**MEANING**":
             raise BuildError(
-                f"Commentary at {chapter_number}:{verse_number} must begin with a "
-                "'### Meaning' section before supporting evidence"
+                f"Commentary at {chapter_number}:{verse_number} must begin with "
+                "'### **MEANING**' before supporting evidence"
             )
         meaning_end = subheadings[1].start()
-        if SOURCE_REFERENCE.search(commentary[subheadings[0].end() : meaning_end]):
+        if INLINE_REFERENCE.search(commentary[subheadings[0].end() : meaning_end]):
             raise BuildError(
-                f"Commentary at {chapter_number}:{verse_number} cites supporting "
-                "evidence inside '### Meaning'; move it to a later section"
+                f"Commentary at {chapter_number}:{verse_number} introduces supporting "
+                "evidence before explaining the verse's meaning"
             )
 
+        if BRACKETED_CITATION.search(commentary):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} uses bracketed citations; "
+                "write source references in natural sentence flow"
+            )
+        if any(
+            INLINE_REFERENCE.match(line.strip())
+            and len(WORD_TOKEN.findall(line)) < 8
+            for line in commentary.splitlines()
+        ):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} places a bare source "
+                "reference on its own line; weave it into a sentence"
+            )
         if COMPILER_CITATION.search(commentary):
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} cites al-Tabari "
                 "as the interpretive authority; cite the underlying source instead"
             )
 
-        # Count substantive commentary only: exclude source tags and the exact app
-        # translation (which is outside this string by construction).
-        countable = SOURCE_REFERENCE.sub("", commentary)
-        countable = SUBHEADING.sub("", countable)
+        countable = SUBHEADING.sub("", commentary)
         word_count = len(WORD_TOKEN.findall(countable))
         if word_count < MIN_COMMENTARY_WORDS or word_count > MAX_COMMENTARY_WORDS:
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} has {word_count} words; "
                 f"required range is {MIN_COMMENTARY_WORDS}–{MAX_COMMENTARY_WORDS}"
             )
-        if not SOURCE_REFERENCE.search(commentary):
+        if not INLINE_REFERENCE.search(commentary):
             raise BuildError(
-                f"Commentary at {chapter_number}:{verse_number} needs an inline "
-                "Qur’an, report/hadith, or poem source reference"
+                f"Commentary at {chapter_number}:{verse_number} needs a natural, inline "
+                "Qur’anic/report/poem citation"
             )
-        if any(
-            TRAILING_REFERENCES.search(paragraph)
-            for paragraph in re.split(r"\n\s*\n", commentary)
-        ):
-            raise BuildError(
-                f"Commentary at {chapter_number}:{verse_number} leaves references "
-                "at paragraph end; weave each into its sentence"
-            )
+        validate_quoted_text(commentary, chapter_number, verse_number)
         if not EVIDENCE_QUOTE.search(commentary):
             raise BuildError(
-                f"Commentary at {chapter_number}:{verse_number} needs a quoted "
-                "or closely translated source-evidence excerpt"
+                f"Commentary at {chapter_number}:{verse_number} needs an italicized "
+                "quoted or closely translated source-evidence excerpt"
             )
+        validate_verse_wording(translation, commentary, chapter_number, verse_number)
         verses_payload[str(verse_number)] = body
 
     payload["verses"] = verses_payload
