@@ -2,11 +2,11 @@
 
 **Revision:** 2026-10-07
 
-**Status:** Fresh Chapter 1 commentary generated under the current rules; do not begin another surah before review.
+**Status:** Chapter 1 has been re-created from the evidence archive after discarding the previous commentary; do not begin another surah before review.
 
 ## Mission
 
-Write clear, original, modern-English Qur’an commentary for the Quran Explained app, verse by verse, using the exact app translations for alignment. Replace the previous Chapter 1 commentary completely when a fresh rewrite is requested.
+Write clear, original, modern-English Qur’an commentary for the Quran Explained app, verse by verse, using the exact app translations for alignment. For every fresh rewrite, discard the existing chapter prose and draft the replacement from the matching evidence archive from a blank page; do not edit, paraphrase, or use the previous Markdown/JSON commentary as a starting point.
 
 Use `tafsir-al-tabari/NNN.txt` as the substantive evidence archive: evaluate and synthesize its transmitted reports, Qur’anic parallels, narrative context, readings, language, grammar, and poetry. Do not make al-Tabari’s own verdict the authority or narrative center. Do not cite al-Tabari or expose local report numbers from the archive.
 
