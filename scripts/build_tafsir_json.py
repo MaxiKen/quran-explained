@@ -26,6 +26,9 @@ SOURCE_REFERENCE = re.compile(
     r"\[(?:Q\s+\d{1,3}:\d{1,3}(?:[–-]\d{1,3})?|"
     r"(?:Report|Hadith|Poem):\s*[^\]\n]+)\]"
 )
+TRAILING_REFERENCES = re.compile(
+    rf"(?:\s*{SOURCE_REFERENCE.pattern})+\s*[.!?]?\s*$"
+)
 COMPILER_CITATION = re.compile(
     r"\[[^\]\n]*\b(?:al[-\s]?(?:Ṭ|T)abar[iī]|(?:Ṭ|T)abar[iī])\b"
     r"[^\]\n]*\]",
@@ -205,6 +208,14 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} needs an inline "
                 "Qur’an, report/hadith, or poem source reference"
+            )
+        if any(
+            TRAILING_REFERENCES.search(paragraph)
+            for paragraph in re.split(r"\n\s*\n", commentary)
+        ):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} leaves references "
+                "at paragraph end; weave each into its sentence"
             )
         if not EVIDENCE_QUOTE.search(commentary):
             raise BuildError(
