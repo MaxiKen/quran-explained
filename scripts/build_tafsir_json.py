@@ -16,6 +16,7 @@ MIN_COMMENTARY_WORDS = 400
 MAX_COMMENTARY_WORDS = 1200
 WORD_TOKEN = re.compile(r"\b[^\W_]+(?:[’'‑-][^\W_]+)*\b", re.UNICODE)
 SECTION_HEADING = re.compile(r"^##[ \t]+(.+?)[ \t]*$", re.MULTILINE)
+SUBHEADING = re.compile(r"^###[ \t]+(.+?)[ \t]*$", re.MULTILINE)
 VERSE_HEADING = re.compile(r"(\d+):(\d+)")
 RICH_MARKDOWN = re.compile(
     r"\*\*.+?\*\*|\*[^*\n]+?\*|`[^`]+`|^#{2,6}[ \t]+.+|^[ \t]*[-*+][ \t]+",
@@ -162,6 +163,28 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
                 "Markdown formatting"
             )
 
+        subheadings = list(SUBHEADING.finditer(commentary))
+        if len(subheadings) < 2:
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} needs at least two "
+                "'###' subheadings"
+            )
+        first_line = next((line.strip() for line in commentary.splitlines() if line.strip()), "")
+        if (
+            first_line != "### Meaning"
+            or subheadings[0].group(1).strip().casefold() != "meaning"
+        ):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} must begin with a "
+                "'### Meaning' section before supporting evidence"
+            )
+        meaning_end = subheadings[1].start()
+        if SOURCE_REFERENCE.search(commentary[subheadings[0].end() : meaning_end]):
+            raise BuildError(
+                f"Commentary at {chapter_number}:{verse_number} cites supporting "
+                "evidence inside '### Meaning'; move it to a later section"
+            )
+
         if COMPILER_CITATION.search(commentary):
             raise BuildError(
                 f"Commentary at {chapter_number}:{verse_number} cites al-Tabari "
@@ -171,6 +194,7 @@ def build_payload(chapter_number: int, markdown_path: Path) -> str:
         # Count substantive commentary only: exclude source tags and the exact app
         # translation (which is outside this string by construction).
         countable = SOURCE_REFERENCE.sub("", commentary)
+        countable = SUBHEADING.sub("", countable)
         word_count = len(WORD_TOKEN.findall(countable))
         if word_count < MIN_COMMENTARY_WORDS or word_count > MAX_COMMENTARY_WORDS:
             raise BuildError(

@@ -2,7 +2,7 @@
 
 **Revision:** 2026-10-07
 
-**Status:** Fresh al-Fātiḥah pilot rewritten with an Ibn Kathir-inspired, source-bounded method; awaiting user review. Do not start another surah before review.
+**Status:** Original al-Fātiḥah rewrite prepared for review. Do not start another surah before review.
 
 ## Mission
 
@@ -10,11 +10,13 @@ Write an accessible modern-English explanation of the Qur’an for the Quran Exp
 
 The desired editorial method is **informed by the explanatory structure associated with Ibn Kathir, not a reproduction of Ibn Kathir’s writing or content**. Use the method-level elements below while grounding every substantive claim in the supplied evidence file. Do not quote, paraphrase, cite, or import Ibn Kathir’s tafsir or any other outside tafsir. Do not imitate distinctive wording.
 
+The English rendering in [`SafhaJournal/tafsir-ibn-kathir-english`](https://github.com/SafhaJournal/tafsir-ibn-kathir-english) was inspected only as an **organizational reference** (for example, its surah-level files and individually keyed verse blocks). It is not evidence or an authority for interpretation. Do not copy, paraphrase, cite, or rely on its substantive commentary.
+
 ## Method model: Ibn Kathir-inspired, modern, and source-bounded
 
 Use these elements as a flexible method, not as a rigid template. Let the evidence available for each verse set the proportions.
 
-1. **Read the passage as a whole.** Open with the verse’s role in its immediate sequence and the surah’s movement. Explain how the clause answers, develops, or qualifies what came before and what follows. Avoid treating every verse as a vocabulary entry.
+1. **Explain meaning before evidence.** Every verse commentary must begin with the Markdown subheading `### Meaning`. First explain the verse in clear, passage-aware English—its role in the surah, what it says, and how it develops what came before or prepares for what follows. Do not open with a hadith, report, Qur’anic parallel, poem, or citation. Present supporting evidence only after the reader has a concise account of the verse’s meaning.
 2. **Let the Qur’an illuminate the Qur’an.** Where the supplied source adduces relevant Qur’anic passages, explain the connection in plain English: what the parallel passage clarifies, confirms, contrasts, or adds. Cite it as `[Q surah:verse]`. Do not stack references without explaining their relevance or introduce unrelated cross-references.
 3. **Give transmitted Prophetic reports real interpretive weight.** When present, translate the report’s relevant wording, give its setting or narrative detail if supplied, and explain how it bears on the verse. Identify the Companion or other attributed authority and the named collection/location only when the source text or its bibliographic apparatus supplies one.
 4. **Bring in Companion and early-exegete explanations.** Name the attributed authorities and preserve meaningful differences among their explanations. Compare what each report illuminates; do not collapse distinct statements into one view or present every report as established fact.
@@ -22,7 +24,7 @@ Use these elements as a flexible method, not as a rigid template. Let the eviden
 6. **Use language in service of the explanation.** Explain a key Arabic term, reading, grammatical construction, or poem when it clarifies the evidence or resolves a real interpretive question. Keep word studies concise and subordinate to the reports, Qur’anic context, and passage-level meaning. Do not let etymology or grammar crowd out substantial narrative or transmitted material.
 7. **Close with a grounded synthesis.** State what the evidence together supports and how it shapes the verse’s place in the surah. Distinguish a report’s wording from the writer’s conclusion. Do not add generic devotional application or claims unsupported by the file.
 
-Use natural paragraphs and an engaging explanatory flow. The result should feel like a coherent commentary, not a chain of lexical notes, report summaries, or checklist headings.
+Use natural paragraphs and an engaging explanatory flow. Every verse must have **at least two meaningful `###` subheadings**: begin with `### Meaning`, then add one or more headings for the evidence or interpretive questions that actually deserve attention. Scale the number and depth of sections to the verse and the available evidence; do not force every verse into the same outline or use headings as padding. The result should feel like a coherent commentary, not a chain of lexical notes, report summaries, or checklist headings.
 
 ## Source and citation policy
 
@@ -34,7 +36,7 @@ Use only the matching `tafsir-al-tabari/NNN.txt` file for tafsir-related evidenc
 - If no external collection is identified, cite the named authority and route actually supplied. Use “attributed to” where the report’s status needs to be clear.
 - Cite poetry by the named poet when the source names one. If it does not, call it an unattributed Arabic line; never guess an attribution.
 - Local report numbers in the Arabic file are research/navigation aids only. Do not expose them as citations. Never use `[al-Tabari, ...]`, a Tabari report number, or an unnumbered Tabari section as the source for an interpretation.
-- Do not consult or cite other tafsirs, websites, modern scholarship, or remembered historical, legal, theological, or linguistic claims. Do not import Ibn Kathir’s substantive content while using his method as an editorial model.
+- Do not consult or cite other tafsirs, websites, modern scholarship, or remembered historical, legal, theological, or linguistic claims. The fetched English Ibn Kathir rendering is the sole structural-reference exception; its commentary is not evidence. Do not import Ibn Kathir’s substantive content while using his method as an editorial model.
 
 ## Style and evidence
 
@@ -42,7 +44,7 @@ Use only the matching `tafsir-al-tabari/NNN.txt` file for tafsir-related evidenc
 - **Arabic terms:** Explain important terms with transliteration and an English gloss when they matter. Do not turn every sentence into a word-by-word gloss.
 - **Evidence:** Translate or quote short, relevant report wording and compare it with other evidence. Use narrative details and context when present. Make clear who is speaking and whether a statement is a Prophetic report, a Companion/Successor attribution, a Qur’anic parallel, or poetry.
 - **Balance:** Give space to the source’s substantive reports, stories, Qur’anic parallels, and disagreements. Use linguistic discussion as support, not as the default focus. Summarize repetitive routes, but do not omit materially different views.
-- **Length:** Each verse commentary must contain **400–1200 words**, excluding the structural heading, exact app-translation blockquote, and inline citation labels. Scale length to the amount and complexity of evidence. Four hundred words is a minimum, not a target; 1200 is a firm ceiling. Never pad or fabricate content to meet the range.
+- **Length:** Each verse commentary must contain **400–1200 words**, excluding the structural heading, internal `###` subheadings, exact app-translation blockquote, and inline citation labels. Scale length to the amount and complexity of evidence. Four hundred words is a minimum, not a target; 1200 is a firm ceiling. Never pad or fabricate content to meet the range.
 - **No unsupported grading:** Do not call a hadith authentic, weak, fabricated, or historical unless a supplied source explicitly supports that description and the task authorizes its use. In this project, do not reproduce grades from editorial notes.
 
 ## Verse alignment and exact app translations
@@ -63,7 +65,7 @@ The rich Markdown is canonical; generate the app payload from it with the determ
 - JSON: `data/tafsir_NNN.json`
 - Builder/validator: `scripts/build_tafsir_json.py`
 
-Use one structural heading per verse, exactly `## SURAH:VERSE`. The verse body starts with the exact app-translation blockquote, then the commentary. JSON stores each complete body—including the blockquote, Markdown, and citations—but not the structural verse heading. Preserve all line breaks and rich formatting. Include exactly one entry for every verse in the corresponding chapter file, in order. An introduction is optional and should not be invented by default.
+Use one structural heading per verse, exactly `## SURAH:VERSE`. The verse body starts with the exact app-translation blockquote, then `### Meaning` as the first commentary subheading, followed by at least one more meaningful `###` subheading. JSON stores each complete body—including the blockquote, Markdown, and citations—but not the structural verse heading. Preserve all line breaks and rich formatting. Include exactly one entry for every verse in the corresponding chapter file, in order. An introduction is optional and should not be invented by default.
 
 The renderer supports paragraphs, headings, bold, italics, blockquotes, ordered and unordered lists, horizontal rules, inline code, and links. Keep formatting purposeful; do not use raw HTML, complex tables, footnote extensions, or unsupported syntax.
 
@@ -75,9 +77,9 @@ Before presenting a chapter:
 
 1. Confirm verse count and exact translations from `data/chapter_NNN.js`.
 2. Read all substantively relevant material in the matching Arabic evidence file, including adjacent sections when an argument spans verses. Consider reports, Qur’anic parallels, narrative context, variants, grammar, readings, and poetry; group only genuinely repetitive material.
-3. Check that each verse is explained in its passage context and that report-led or Qur’an-led evidence has not been displaced by word studies.
-4. Validate exactly one heading and JSON key per expected verse, in order, with exact translation blockquotes.
-5. Validate 400–1200 substantive words per verse, a translated or quoted evidence excerpt, and underlying-source/Qur’anic citations without Tabari citations or local report numbers.
+3. Check that each verse begins with a meaning-first explanation before any supporting report, hadith, Qur’anic parallel, poem, or citation; ensure the evidence then clarifies that explanation rather than displacing it with word studies.
+4. Validate exactly one structural heading and JSON key per expected verse, in order, with exact translation blockquotes, at least two `###` subheadings, and `### Meaning` first.
+5. Validate 400–1200 substantive words per verse, a translated or quoted evidence excerpt, and underlying-source/Qur’anic citations without al-Tabari-as-authority citations or local report numbers.
 6. Regenerate JSON using `scripts/build_tafsir_json.py`; validate JSON parsing, rich-text preservation, Markdown/JSON parity, and complete coverage.
 7. Inspect the final files and diff. Stop at Chapter 1 for user review; do not fabricate content or continue to other chapters.
 
