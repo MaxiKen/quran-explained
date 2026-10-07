@@ -2,7 +2,7 @@
 
 **Revision:** 2026-10-07
 
-**Status:** Original al-Fātiḥah rewrite prepared for review. Do not start another surah before review.
+**Status:** Expanded original al-Fātiḥah commentary prepared for review. Do not start another surah before review.
 
 ## Mission
 
