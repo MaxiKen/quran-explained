@@ -2763,3 +2763,105 @@ A note is made about where the address lands. These two verses, though the repor
 ### **HOW IT CLOSES THE PASSAGE**
 
 The address has now moved through every stage of the case: the covenant taken, the acknowledgement given, the witness borne, and now the consequence for the one who walks away from it. The closing of the argument is a matter of record rather than of threat — what was pledged is on the prophets' own testimony, with God as a witness alongside them, and the verdict on the one who turns from it is simply the name for what he has become.
+
+## **3:83**
+
+> Do they desire a way other than Allah’s—knowing that all those in the heavens and the earth submit to His Will, willingly or unwillingly, and to Him they will ˹all˺ be returned
+
+### **MEANING**
+
+The question is put to the People of the Book directly: is it some way besides God's that they are after, when every creature stands before Him in surrender, willingly and unwillingly, and before Him everything comes back? The verse joins the absurdity of the search to the universality of the surrender, and ends on the return.
+
+### **HOW THE VERSE IS ADDRESSED**
+
+The readers differ over the person of the verb. Most of the readers of the Hijaz, in Mecca and Madina, and the readers of Kufa read both verbs as direct address. Some of the people of the Hijaz read both as a report about those who are absent. Some of the Basrans read the first as a report about the absent and the second as direct address.
+
+The reading preferred is direct address for both, because the verse before this one is addressed to them, and following an address with its like is better than turning the speech to what is not its like. The other reading is nevertheless admissible, since reported speech sometimes comes entirely as address, sometimes entirely as a report about the absent, and sometimes partly one and partly the other — and the two verbs here are of that mixed kind.
+
+### **WHAT SEEKING A WAY MEANS**
+
+The sense given is: is it something besides the obedience of God that you look for and want? The question is not about a preference but about a substitution, and it is put to people who already have a scripture and a covenant.
+
+### **WHAT THE SURRENDER OF EVERYTHING IS**
+
+The clause is explained as: to Him has become humble all who are in the skies and all who are on the earth, submitting in servitude, acknowledging His singleness of lordship, and yielding to Him in the sincerity of His oneness and divinity. The willing surrender is that of the angels, the prophets and the messengers, who surrendered willingly; the unwilling is that of whoever among them is unwilling.
+
+The explainers differ about how the unwilling one's surrender is to be understood, and several accounts are reported.
+
+The first: his surrender is his acknowledgement that God is his creator and his Lord, even though he associates others with Him in worship. Mujāhid is reported referring it to the verse ***“And if you asked them who created the heavens and the earth, they would surely say: God.”*** Abū al-ʿĀliyah, through al-Rabīʿ, is reported saying that every human being has acknowledged against himself that God is his Lord and that he is His servant; whoever associates others in that worship is the one who surrendered unwillingly, and whoever makes his servitude purely for Him is the one who surrendered willingly.
+
+The second: the unwilling one's surrender happened when the covenant was taken from him and he acknowledged it. Ibn ʿAbbás is reported giving that as the occasion, in a report reaching him through Mujāhid.
+
+The third: what is meant by it is the prostration of his shadow. Mujāhid is reported saying that the willing one is the believer and the unwilling is the shadow of the rejecter; and, in another version, that the prostration of his face is willing while his shadow is unwilling.
+
+The fourth: his surrender is with his heart, in God's will, and his yielding to His command even while his tongue denies His divinity. ʿĀmir is reported saying that all of them yielded to Him.
+
+The fifth: what is meant is the surrender of those who submitted for fear of the sword over their own lives. Al-Ḥasan is reported saying that some peoples were compelled into surrender and some peoples came willingly; Maṭar al-Warrāq is reported naming the angels, the Anṣār, and the tribes of Sulaym and ʿAbd al-Qays as coming willingly, and everyone else unwillingly.
+
+The sixth: the believers surrendered willingly, while the rejecter surrenders at the moment of seeing, when surrender no longer avails him. Qatādah is reported saying that the believer surrendered willingly and it benefited him and was accepted from him, while the rejecter surrendered unwillingly when it did not benefit him and was not accepted from him — and, in another version, that he surrendered when he saw the might of God, at the point described in ***“but their faith was of no benefit to them when they saw Our might.”***
+
+The seventh takes the whole clause as the worship that creatures render to God: Ibn ʿAbbás, through ʿAlī, is reported glossing it as their worship of Him, all of them, willingly and unwillingly, and comparing it to the verse in which all who are in the skies and on the earth are described as prostrating to God in both states.
+
+### **THE RETURN**
+
+The closing clause is explained as addressed to whoever seeks a way besides surrender, whether Jew, Christian or anyone else: to God you come back after your deaths, and He will repay you for your deeds — the doer of good for his good, and the evil-doer for his evil. The verse is described as a warning from God to His creatures, lest any of them come to Him after his death upon a way besides the one laid down. That is what gives the question its edge: what is being sought is measured against where the seeker is going.
+
+## **3:84**
+
+> Say, ˹O Prophet,˺ “We believe in Allah and what has been revealed to us and what was revealed to Abraham, Ishmael, Isaac, Jacob, and his descendants; and what was given to Moses, Jesus, and other prophets from their Lord—we make no distinction between any of them, and to Him we ˹fully˺ submit.”
+
+### **MEANING**
+
+The Prophet is given the words to answer the question that was just asked. If they are after some way besides God's, then he is to tell them plainly what he and his followers hold: they declare God true, and they declare true what came down upon them and what came down upon Abraham and upon his family, and upon Moses and Jesus and the prophets — declaring all of them true alike, and professing surrender to God alone.
+
+### **HOW IT IS JOINED TO WHAT CAME BEFORE**
+
+The verse is understood as the continuation of the question in the verse before it. Since the question is put to the People of the Book, an ellipsis is supplied: if they do seek a way besides God's, then say such-and-such to them. The conditional clause is left unspoken because what does appear in the speech is enough to show it.
+
+### **THE FIRST CONFESSION**
+
+*We believe in God* is explained as: ***“declare it true that God is our Lord and our God, that there is no god besides Him, and that we worship none other than Him.”*** The confession is therefore about the object of worship before it is about anything else.
+
+### **WHAT CAME DOWN, AND TO WHOM**
+
+The confession is then extended to revelation, in three stages. The first is what came down upon them: we have declared true what has come down to us of His revelation, and acknowledged it. The second is what came down upon Abraham, the friend of God, and upon his two sons Ishmael and Isaac, and upon his son's son Jacob, and upon the tribes — who are explained as the twelve sons of Jacob. The third is what came down upon Moses and Jesus: we declare true what God sent down to them of books and revelation, and what He sent down to the prophets from Himself. The two named scriptures are then specified — what God gave to Moses being the Torah, and what He gave to Jesus the Gospel — as among what the Prophet was commanded to declare true and believe in.
+
+### **NO DISTINCTION**
+
+The clause about refusing to distinguish is explained as refusing to do what the earlier part of the surah has already charged them with: we do not declare some of them true and deny others, nor do we believe in some and reject others, as the Jews and the Christians have rejected some of the prophets of God while declaring others true. We believe in all of them and declare them all true. The refusal is stated as a principle rather than as a list, because what is at issue is the habit of accepting the parts of revelation that suit and rejecting the rest. It is also cast as a report of what this community says about itself rather than as a rule laid upon it: what is confessed here is a position already held, not one being demanded.
+
+### **THE CLOSING PROFESSION**
+
+The closing is explained in two registers at once. Taken as creed, it means: we profess surrender to God and profess nothing else; rather, we declare ourselves quit before Him of every way besides it and of every creed other than it. Taken as posture, it means: we yield to Him in obedience, abase ourselves in servitude, and acknowledge His divinity and lordship, and that there is no god besides Him. The two belong together — the profession of a creed is being described as the same thing as the yielding of a person.
+
+### **WHAT THE VERSE DOES IN THE ARGUMENT**
+
+The answer given here is not a concession but a counter-claim. The People of the Book had been arguing that following this messenger meant giving up what they had; the verse replies that the people who follow him already hold to Abraham, to Moses, to Jesus and to every prophet, and that it is the others who have broken the set by accepting some and rejecting others.
+
+## **3:85**
+
+> Whoever seeks a way other than Islam, it will never be accepted from them, and in the Hereafter they will be among the losers
+
+### **MEANING**
+
+The answer given in the verse before is followed by its rule. Anyone who seeks out a way besides surrender to profess will not have it accepted of him, and in the world to come he is of those who lose. The verb is explained as requesting and pursuing: what is refused is not a stray opinion but a way chosen and followed in place of the one God has laid down. The verse states the principle without naming anyone, and then the passage turns to who claimed to be inside it.
+
+### **WHO IT CAME DOWN ABOUT**
+
+A report of what happened when this verse came down is given through ʿIkrimah. The people of every creed claimed, on hearing it, that they were the ones who surrender — ***“the creeds said: we are the ones who surrender!”*** — and in one version the Jews said it: *so we are the ones who surrender*. The answer came in the form of a test. Since the pilgrimage is one of the prescribed acts of surrender, they were commanded to perform it if they were truthful in the claim. They refused, and by that refusal their argument was overturned. The report is given in more than one version, and they agree on the substance: the claim was made, the test was set, and the claimants declined it.
+
+### **THE TEST THAT WAS SET**
+
+The verse sent down for that purpose is the one which makes the pilgrimage to the House a due owed to God by whoever is able to find a way to it, and adds that whoever rejects, God is free of need of all the worlds. Qur’an 3:97 is cited as the text that settled the claim: those who had surrendered made the pilgrimage, and the rejecters sat back. The point of the test is that the claim was cheap and the proof was not: everyone could say the word, and only those who submitted to the prescription could show it.
+
+### **WHAT LOSING MEANS**
+
+The loss named at the end of the verse is explained as cheating oneself of one's share of the mercy of God. The loss is not described as a penalty imposed from outside but as a bargain gone wrong — the person who sought something besides surrender is described as having sold his own portion.
+
+### **WHERE IT STANDS IN THE REVELATION**
+
+Ibn ʿAbbás is reported, through ʿAlī, placing the verse in sequence with an earlier one. Qur’an 2:62 had spoken of those who believe, and those who are Jews, and the Christians, and the Sabians — whoever believes in God and the Last Day and does right has his reward with his Lord, and no fear shall be upon them, nor shall they grieve. This verse was sent down after it, and read against it, it closes the reading that had begun to circulate: that belonging to a named community was enough. What is required is the surrender itself, and what is sought besides it is not accepted. The order of the two verses matters: the promise was stated first, and this verse then fixed what the promise was attached to.
+
+### **HOW IT COMPLETES THE ARGUMENT**
+
+The passage has moved from the covenant taken from the prophets, to the confession the believers make, to the rule that governs every claim. The movement ends where it began — with the question of what it is that God accepts — and the answer is given in the negative as well as the positive: not the name a person bears, but the surrender he lives by.
