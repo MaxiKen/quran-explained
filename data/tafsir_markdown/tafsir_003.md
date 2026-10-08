@@ -3007,3 +3007,85 @@ Through ʿIkrimah, Ibn ʿAbbás is reported telling the same story from the othe
 ### **WHY THE EXCEPTION STANDS WHERE IT DOES**
 
 The exception is placed at the end of the severest description in the passage, and its position is the point. The verses before it close every exit — no end, no easing, no postponement — and then this one opens one. What is offered is not a mitigation of the state described but a way out of it, and the way out is the same door the person walked out of: the acknowledgement he withdrew, made again, followed by the life that should have followed it the first time.
+
+## **3:90**
+
+> Indeed, those who disbelieve after having believed then increase in disbelief, their repentance will never be accepted. It is they who are astray
+
+### **MEANING**
+
+A harder case is now stated. Those who reject following the faith they had and then go on growing in rejection — no repentance is accepted of them, and they are the ones who are astray. The verse picks up where the exception of the verse before left off, and draws a distinction between the return that is accepted and the one that is not.
+
+### **THE FIRST ACCOUNT: REJECTION OF THE LATER MESSENGER**
+
+One account takes the verse as being about people who rejected some of the prophets sent before Muḥammad, and whose increase in rejection was their rejection of Muḥammad. On this reading, the clause about the refusal refers to the repentance offered at the approach of death. Al-Ḥasan is reported saying that they are the Jews and the Christians and that no repentance is accepted of them at death. Qatādah is reported describing them as the enemies of God who rejected the Gospel and Jesus and then increased in rejection by rejecting Muḥammad and the Criterion; and, in another version, as having gone on increasing in rejection until death came upon them, at which point the repentance offered did not avail them. ʿAṭāʾ al-Khurāsānī is reported holding the same.
+
+### **THE SECOND ACCOUNT: SINS PILED ON TOP**
+
+A second account takes the first rejection as their rejection of Muḥammad after they had believed in their own prophets, and the increase as something else: sins. On this reading, what is not accepted is the repentance they offer for those sins while they remain upon their rejection. Abū al-ʿĀliyah is reported saying, when Dāwūd asked him about the verse, that they are these Christians and Jews who rejected and then increased in rejection through sins they committed, and who then try to repent of those sins while still in a state of rejection: ***“they increased in sins while they were rejecters.”*** In another version he is reported naming the Jews, the Christians and the Magians, who commit sins in their rejection and want to repent of them while not repenting of the rejection itself — and pointing to the closing words of the verse as the proof, since they are called astray. In yet another, the matter is put in a sentence: *they repented of some and did not repent of the root*.
+
+### **THE THIRD ACCOUNT: PERSISTENCE TO THE END**
+
+A third account takes the increase as persistence: their increase in rejection was their completing it and remaining upon it until they perished in that state. On this reading the first repentance and the first faith do not benefit them, because of the later rejection and their dying upon it. ʿIkrimah is reported glossing the phrase as *they completed their rejection*, and Ibn Jurayj as: ***“their first repentance and faith will not benefit them.”***
+
+### **THE FOURTH ACCOUNT: DYING UPON IT**
+
+A fourth account takes the increase as simply dying as rejecters, and the refusal as applying to the repentance offered at the point of death. Al-Suddī is reported putting it in those two halves: as for the increase, they died rejecters; as for the refusal, it is his repentance at death that is not accepted.
+
+### **WHICH ACCOUNT IS PREFERRED**
+
+The account preferred is the one about the Jews, and the sense given is this: those of the Jews who rejected Muḥammad when he was sent, after they had believed in him before he was sent, then grew in rejection through the sins they committed in that rejection and through their persistence in misguidance — the repentance they offer for the sins committed in that rejection is not accepted until they repent of the rejection itself and return from it by declaring true what he brought from God.
+
+Two grounds are given. The first is context: the verses before and after this one are about the People of the Book, so this one is best read in the same sense, being of one stretch of speech. The second is a point about consistency: God has promised to accept repentance — Qur’an 42:25 describes Him as the One who accepts repentance from His servants — and it cannot be that He says both that He accepts and that He does not accept of one and the same thing. Since rejection after faith is one of the sins for which acceptance was promised in the exception just given, what repentance is not accepted from must be something other than the rejection itself: it is the piling up of further rejection upon rejection, and it is not accepted while the person remains upon his rejection, since no deed is accepted from someone who associates while he persists in it. If he turns from that and sets himself right, then God is, as He has described Himself, forgiving and merciful.
+
+### **THE OBJECTION AND THE ANSWER GIVEN**
+
+The reading that puts the refusal at the approach of death is then answered directly. Repentance, it is said, exists only during a person's life; after death there is none, and God has promised to accept it while the soul is still in the body. It is also pointed out that no difference is reported among the people of authority on the case of a rejecter who surrenders a moment before his soul departs: his ruling becomes the ruling of those who surrender, in the prayer over him, in inheritance and in the rest of the rulings. Were his repentance in that state not accepted, his ruling would not have shifted.
+
+The reading that takes the repentance as one that preceded the rejection is set aside as well, on the ground that the verse describes rejecting after faith, not faith after rejecting — so there was no earlier rejection for that faith to have been a repentance from. The principle stated is that the sense present in the plain wording is to be followed where no proof points to a particular hidden sense, even if the wording could be turned another way.
+
+### **WHO ARE ASTRAY**
+
+The closing words are explained as: these are the ones who lost the road of truth and missed its way, abandoning the middle of the path and the guidance of the religion, out of perplexity and blindness towards it. The description is of people who cannot find their way rather than of people who have chosen the wrong one and know it.
+
+### **HOW IT FOLLOWS WHAT CAME BEFORE**
+
+The verse before opened the door for everyone who turns back. This one shows that the door is not opened by the word alone: what is required is to turn from the thing itself. Repentance offered for the branches while the root is kept — sins given up while the rejection of the messenger is held on to — is the case this verse refuses.
+
+## **3:91**
+
+> Indeed, if each of those who disbelieve then die as disbelievers were to offer a ransom of enough gold to fill the whole world, it would never be accepted from them. It is they who will suffer a painful punishment, and they will have no helpers
+
+### **MEANING**
+
+The case stated in the verse before is followed by a picture of what no amount can buy off. Those who reject and die rejecters will not have accepted of them, in the Hereafter, a recompense or a bribe to have their punishment left off — not even if one of them owned gold to the measure of the earth, east to west, and paid it to be spared. What awaits them is a torment that causes pain, and no one to rescue them from it.
+
+### **WHO IS MEANT**
+
+The description is taken as covering everyone, of every creed, who denies the prophethood of Muḥammad and does not declare true him or what he brought from God — its Jews, its Christians, its Magians and others — and who died upon that denial. The second condition matters: the refusal is tied to dying in that state, and not to the rejection alone. Al-Ḥasan is reported glossing it in a sentence: it is every rejecter.
+
+### **WHAT IS REFUSED, AND WHY**
+
+The payment is described in two ways at once. It is a recompense, and it is a bribe: something given to have the punishment for rejection left off, or to have the person pardoned for it in place of the torment God is bringing down on him. The measure is then given as the fill of the earth, from its east to its west, in gold — the largest sum the language can hold.
+
+The reason it will not work is then given, and it is not a matter of amount. Bribes are accepted only by someone who needs what he is bribed with. As for the One to whom this world and the next belong, how should He take a ransom, when He is the creator of every ransom with which anyone has ever ransomed himself or another? The refusal is therefore built into the nature of the transaction: there is nothing the payer has that the Recipient does not already own.
+
+### **THE TORMENT AND THE ABSENCE OF HELPERS**
+
+The verse then states what they do have. Theirs is a torment that causes pain, in the Hereafter, with God; and they have no one to help them — no kinsman, no intimate, no friend to rescue them from God and from His torment, in the way they used to help one another in this world against anyone who sought to harm them. The second clause is the sharper of the two: the protection they had in this life, and which the picture of the ransom assumes they might try to buy again, is simply not there.
+
+### **THE PROPHETIC ILLUSTRATION**
+
+Through Qatādah, Anas ibn Mālik is reported relating what the Prophet used to say about this verse. The rejecter will be brought on the Day of Resurrection, and it will be said to him: ***“do you think that if you had the earth full of gold, you would ransom yourself with it?”*** He will say: yes. Then it will be said to him: you were asked for something easier than that. The report is given as the illustration of the verse, and it supplies what the verse leaves implicit — that the thing which would have been accepted was available earlier, and was refused.
+
+### **A GRAMMATICAL NOTE**
+
+The word for gold in the clause is in the accusative, and two explanations are given. The first is that it is a specification drawn out of the measure that precedes it: the phrase is *the fill of the earth*, and the gold explains what the measure is a measure of, on the pattern of saying *I have the measure of a waterskin of clarified butter* or *the measure of a pound of honey*, where the last word is an indefinite in the accusative explaining the measure.
+
+The grammarians of Basra are reported giving a different account: the word is in the accusative because the word for *fill* is already occupied by the word for *earth* in the construct, and the gold comes after both of them, so that its accusative resembles the accusative of a circumstantial phrase — just as one says *I have the like of you as a man*, meaning *among men*, where the last word is in the accusative because the construct has been taken up by the noun before it.
+
+A note is also made on the conjunction before *if he ransomed himself with it*. The particle is inserted because something after it has been left out, and its presence is what shows the omission — as with the particle in ***“and that he might be of those who are certain,”*** where Qur’an 6:75 is completed by an earlier clause about being shown the kingdom of the heavens and the earth. Here too the sentence would be complete without it: nothing would be missing if it read that no ransom of the earth's fill in gold would be accepted of any of them if he offered it.
+
+### **HOW IT FOLLOWS WHAT CAME BEFORE**
+
+The verse before refused the repentance of someone who dies upon rejection; this one refuses the payment. Between them the two verses close both exits that a person in that state might reach for — the return, and the price — and both are closed for the same reason: what is on offer is either not made or not his to make it with.
