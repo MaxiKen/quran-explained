@@ -2553,3 +2553,135 @@ The two verses are a pair, and the second is the ruling the first was missing. T
 ### **WHY LOVE CLOSES THE VERSE**
 
 The sentence ends with love rather than with a ruling, and the reason is the shape of the whole passage. Everything that has been quoted from the other side has been a claim about entitlement — who may take what, and from whom, and on what ground. The answer given here is that what matters is not what a person may take but whether he is the kind of person God loves, and that is settled by keeping the covenant and being mindful. Those who keep to that are described as fearing His punishment and being wary of His torment, avoiding what He has forbidden and obeying what He has commanded.
+
+## **3:77**
+
+> Indeed, those who trade Allah’s covenant and their oaths for a fleeting gain will have no share in the Hereafter. Allah will neither speak to them, nor look at them, nor purify them on the Day of Judgment. And they will suffer a painful punishment
+
+### **MEANING**
+
+The warning returns to the same fault from another angle. Those who exchange the covenant of God and their own oaths for a small price are told what they have bought: no portion in the Hereafter, no address from Him, no turning towards them, no cleansing, and a grievous torment. The verse is built as a transaction, and every clause states what the transaction cost.
+
+### **WHAT IS BEING EXCHANGED**
+
+The exchange is described as substituting, for the covenant of God which He entrusted to them — His charge in the books He sent down to His prophets, to follow Muḥammad, declare him true, acknowledge him and what he brought — and for their own false oaths, by which they make lawful to themselves what God has forbidden them of the property of people who trusted them, a price: that is, a compensation and a worthless substitute from the goods and refuse of this world. The enormity is in the proportion. What is given up is the covenant; what is taken is described in the commentary as paltry.
+
+### **THE FIVE CONSEQUENCES**
+
+The first is stated as having no portion: those who do this have no portion in the good things of the Hereafter, no part of the bliss of the Garden and of what God has prepared there for its people alone.
+
+The second and third are the two hardest clauses, and both are explained so as not to be taken literally. Not being spoken to means not being spoken to with what would please them. Not being looked at means not being turned towards with good, out of loathing from God for them — the way one person says to another, *look at me, as God has looked at you*, meaning turn towards me in kindness and mercy, and the way it is said of a man, *may God not hear your prayer*, meaning may God not answer it, though nothing is hidden from Him. A line of verse is cited in the same vein: ***“I called upon God until I feared that God would not hear what I was saying.”***
+
+The fourth is not being purified, which is explained as not being cleansed of the filth of their sins and of their unbelief. The fifth is a painful torment, explained simply as a torment that causes pain.
+
+### **WHO IT CAME DOWN ABOUT**
+
+The accounts differ. Through Ibn Jurayj, ʿIkrimah is reported naming four men among the rabbis of the Jews: Abū Rāfiʿ, Kinānah ibn Abī al-Ḥuqayq, Kaʿb ibn al-Ashraf and Ḥuyayy ibn Akhṭab.
+
+Several accounts connect it instead with a dispute over land or property brought to the Prophet. Through Abū Wāʾil, ʿAbdullāh is reported as saying that the Prophet said that whoever swears an oath in which he is corrupt, in order to cut off by it the property of a Muslim, will meet God while He is angry with him; and al-Ashʿath ibn Qays is reported saying that it came down about him, when a man denied him a piece of land and the Prophet asked him for his proof and then told the other man to swear. In another version, reported through ʿAdī ibn ʿUmayrah, the man answered that if his opponent swore, his land would be gone, and the Prophet gave the same warning, adding that for the one who leaves the oath knowing the claim is true, there is the Garden — whereupon the man declared that he had left it. A further version has al-Ashʿath stand up to swear and then hold back when the verse came down, testify that his opponent was telling the truth, and return the land with a good deal more of his own added to it.
+
+Other settings are given as well: a man who displayed his goods in the morning and swore at evening that he had refused such-and-such for them earlier; and Qatādah's remark that God placed such people in the station of sorcerers.
+
+### **WHAT WAS SAID ABOUT IT AFTERWARDS**
+
+A number of statements are attached to the verse. ʿImrān ibn Ḥuṣayn is reported saying that whoever swears a corrupt oath by which he cuts off his brother's property should take his seat in the Fire, and when asked whether he had heard it from the Prophet he answered that they would find it, and recited this verse. Through al-Zuhrī, Saʿīd ibn al-Musayyib is reported saying that the corrupt oath is among the gravest sins, and reciting the verse. Ibn Masʿūd is reported saying that they used to count the oath of patience, when the one swearing it is corrupt in it, among the sins that are not forgiven.
+
+### **HOW IT FOLLOWS THE VERSE BEFORE**
+
+The previous verse promised love to those who keep the covenant. This one states the other side of it, and it does so in the same vocabulary: the covenant named there is the covenant sold here, and the false oath is the instrument by which the property of the previous verse was being made lawful.
+
+## **3:78**
+
+> There are some among them who distort the Book with their tongues to make you think this ˹distortion˺ is from the Book—but it is not what the Book says. They say, “It is from Allah”—but it is not from Allah. And ˹so˺ they attribute lies to Allah knowingly
+
+### **MEANING**
+
+A fresh charge is made against a section of the same people, and it is a charge about how they read. A party of them twist the recitation with their own tongues so that their words are taken for the Book when it is not the Book, and then say of it that it is from God when it is not from God. The verse denies both claims separately and ends where the previous one ended: they invent falsehood about God and they know it.
+
+### **WHO IS MEANT**
+
+The reference is to a party among the **People of the Book** — and specifically, in the explanation given, the Jews of the Children of Israel who were around the Prophet's city in his time. The pronoun is taken back to the same group named earlier, in the verse about the man who returns a great trust and the man who will not return a small one. What is described is not the whole community but a party within it, and the verse says so at the outset.
+
+### **WHAT TWISTING THE TONGUE MEANS**
+
+The verb is explained as distorting, and the object of the distortion is the recitation itself: they twist it with their own tongues so that you take what they have twisted to be part of God's book and His revelation. Mujāhid glosses the verb simply as *they distort it*. Qatādah describes them as the enemies of God who distorted the book of God, introduced innovations into it, and claimed that it was from God; al-Rabīʿ says the like. Ibn ʿAbbás is reported saying that they used to add to the book of God what God had not sent down, and Ibn Jurayj describes it as their displacing it from its place.
+
+### **THE TWO DENIALS**
+
+The verse then takes the two claims apart one at a time. The first denial is that what they have twisted and produced is from the Book, and it is not from the Book. The second is the claim that it is from God, and it is not from God — since what they twisted and introduced was not sent down by God to any of His prophets, but is something they produced of themselves as a fabrication against Him. The doubling is the point: a claim about the text and a claim about its source are answered separately, so that neither can be retreated into after the other falls.
+
+### **THE CLOSING CHARGE**
+
+The closing repeats the charge of the earlier verse and sharpens it. They are described as deliberately saying falsehood about God, bearing false witness against Him, and attaching to His book what is not of it — and doing so in pursuit of leadership and of the cheap refuse of this world. The motive is named alongside the knowledge: what makes the act a lie rather than a mistake is not only that they know, but that they know what they gain from it.
+
+### **THE ROOT SENSE OF THE WORD**
+
+The root of the verb is explained as twisting and turning over — the sense in which one says that a man twisted another man's hand, meaning that he wrung and turned it. An unattributed line of verse is cited for it: ***“God twist his hand, He who overcomes him.”*** The same root is used of wrestling, when it is said that no one has twisted so-and-so's back, meaning no one has thrown him or bent his back; and of disputation, when a man is said to be very twisting and far-reaching in contention. A second unattributed line is cited: ***“Were there in Laylā some strength in contention, I would twist the necks of the most twisting of adversaries.”*** The image behind the verse is therefore physical: a thing turned out of its shape while appearing to be the thing itself.
+
+## **3:79**
+
+> It is not appropriate for someone who Allah has blessed with the Scripture, wisdom, and prophethood to say to people, “Worship me instead of Allah.” Rather, he would say, “Be devoted to the worship of your Lord ˹alone˺”—in accordance with what these prophets read in the Scripture and what they taught
+
+### **MEANING**
+
+The passage answers the last claim that could be made on the other side's behalf. It is not fitting, the verse says, for a human being whom God has given the Book, judgement and prophethood to turn round and tell people to serve him instead of God. What such a man says instead is *be people of your Lord* — and he says it because of what he teaches of the Book and what he recites of it.
+
+### **WHAT IS RULED OUT, AND OF WHOM**
+
+The ruling is stated in the widest possible terms: not fitting for any human being. The word used for human beings is noted as the plural of the children of Adam, having no singular formed from the same letters, like the words for a people or for created beings — though it can also serve as a name for one person. The scope is therefore everyone, and the statement is about what is fitting rather than about what has in fact happened.
+
+### **THE THREE THINGS NAMED**
+
+Three gifts are named, and each is glossed. The Book: that God sends down His book to him. Judgement: that He teaches him the decisive wisdom by which matters are separated. Prophethood: that He gives him prophethood. The three are named together because the objection being answered trades on exactly this combination — the suggestion that a man given so much might use it to claim more.
+
+### **WHAT SUCH A MAN CALLS TO INSTEAD**
+
+The verse supplies the alternative in the same breath. Having been given the Book, judgement and prophethood, he does not call people to his own worship; he calls them to knowledge of God, drives them towards knowledge of the laws of His religion, and wants them to be leaders in knowing His command and prohibition, and exemplars in obeying and worshipping Him — and he does that by being one of those who teach people the Book and who study it. The description answers the claim structurally: authority of this kind produces teachers, not objects of worship.
+
+### **THE OCCASION**
+
+Through Ibn Isḥāq, from Muḥammad ibn Abī Muḥammad, from ʿIkrimah or Saʿīd ibn Jubayr, Ibn ʿAbbás reports the exchange. When the rabbis of the Jews and the Christians of Najrān were gathered with him and he called them to surrender, Abū Rāfiʿ al-Quraẓī said: do you want us to worship you, Muḥammad, as the Christians worship Jesus son of Mary? And a Christian man of Najrān called al-Ribbīs said something to the same effect. The Prophet is reported answering: God forbid that we should worship other than God, or command the worship of other than Him — he was not sent for that and was not commanded to it. This verse came down about that exchange.
+
+Qatādah takes it as a general statement: it was not fitting for a human being whom God had given the Book, judgement and prophethood to command His servants to take him as a lord instead of God; al-Rabīʿ says the like. Ibn Jurayj gives it a different setting: there were people among the Jews who made others worship them instead of their Lord, by distorting the book of God from its place, and the verse came down about them.
+
+### **THE WORD THEY ARE TOLD TO BECOME**
+
+The word translated as *devoted to your Lord* is one the explainers spend some time on, and three accounts are given. The first — reported from Abū Razin, al-Ḥasan, Mujāhid, Qatādah, al-Suddī, Ibn ʿAbbás, Saʿīd ibn Jubayr and al-Ḍaḥḥāk — takes it as *be wise and learned*, or in several of those versions *be jurists and scholars*, and Mujāhid adds that such people stand above the rabbis. A second account, from Saʿīd ibn Jubayr through ʿAṭāʾ, takes it as *wise and godfearing*. A third, from Ibn Zayd, takes the word to mean the rulers and leaders who raise people up and take charge of their affairs, citing the verse in which the rabbāniyyūn and the rabbis are told to forbid what is wrong.
+
+The explanation offered for the word begins from its form: it is the plural of a word related to the one who sets people's affairs right, manages them and takes charge of them. A line of ʿAlqamah ibn ʿAbdah is cited for it: ***“I was a man whose bond was committed to you; before you, guardians raised me, and I came to ruin”*** — where the verb means those who had charge of his affair before, and failed to set it right, so that he was lost. The form is then compared to other intensive forms built on the same pattern. On this basis all three accounts are held to be right together: the one who knows and judges, the one who is godfearing, and the one who governs — each of them sets the affairs of people right, the first by teaching them what is good and calling them to what benefits them, the others by carrying out what is right in the present life and the next. Such people are described as the mainstay of people in jurisprudence, knowledge, and the affairs of this world and the next, which is why Mujāhid places them above the rabbis: the rabbi is a scholar, while this one joins to knowledge and jurisprudence an eye for governance and for what serves people in both their lives.
+
+### **THE TWO READINGS OF THE CLOSING CLAUSE**
+
+The last clause is read in two ways. The readers of the Hijaz and some of the Basrans read it with a light form, taking it as *by your knowing the Book and your studying it and reciting it*, and they argue that if the intensive form were meant, the verb for studying would have been given the corresponding intensive form as well. The readers of Kufa read it in the intensive form, taking it as *by your teaching people the Book and your studying it*, and they argue that whoever is described as teaching is described as knowing, since no one teaches what he has not learnt — and that the reading which praises them more is the better one. Ibn ʿUyaynah is reported putting it in a sentence: they did not teach it until they knew it.
+
+The reading preferred here is the intensive one, on the ground that the verse has just described these people as the mainstay of others in their religion and their worldly affairs, and as people who set their affairs right — which is what teaching the Book does. The word for studying is then explained as recitation, though one view takes it as jurisprudence; the preference for recitation rests on the fact that it is joined to the Book, which in this context is the Qur’an, so that the studying meant is most likely the studying of that same Book rather than of a discipline not mentioned in the sentence.
+
+## **3:80**
+
+> And he would never ask you to take angels and prophets as lords. Would he ask you to disbelieve after you have submitted
+
+### **MEANING**
+
+The denial of the previous verse is carried one step further. Not only would a man given the Book, judgement and prophethood not tell people to serve him; he does not tell them to set up the angels and the prophets as objects of worship either. The verse then asks the question that supplies the reason: would the Prophet command you to reject God once you had surrendered to Him? The answer is contained in the asking.
+
+### **THE TWO READINGS**
+
+The readers differ over how the opening clause is joined to what precedes it. The readers of the Hijaz and Madina read it as a fresh statement: *and he does not command you* — God beginning a new report that the Prophet does not command people to set up as lords the angels and the prophets. They supported this by a reading attributed to Ibn Masʿūd which has *and he will never command you*, arguing that the presence of the word for *never* shows a break from what came before and the start of a fresh statement, and that where our reading has the word for *not* in its place the same form is required.
+
+Some of the Kufan and Basran readers read it in the conjoined form, attaching it to *then he says to people*, so that the sense becomes: it is not for a human being that God should give him the Book and then say to people such-and-such, nor that he should command you — meaning, it was not for him to command you to set up as lords the angels and the prophets.
+
+### **WHY THE CONJOINED READING IS PREFERRED**
+
+The reading preferred is the second, with the clause continuing what precedes it: ***“it is not for a human being that God give him the Book, judgement and prophethood and then say to people, be servants to me instead of God — nor that he command them to set up as lords the angels and the prophets.”*** The ground given is the occasion: the verse came down about the people who asked the Prophet whether he wanted them to worship him, and God informed them that it is not for His prophet to call people to the worship of himself nor to the taking of the angels and the prophets for lords, but that what is for him is to call them to be devoted people of their Lord.
+
+### **WHAT TAKING LORDS MEANS**
+
+The word used is the same one used earlier in the passage for lords, and it is explained here as taking them as deities worshipped instead of God. The two denials are then placed side by side: it is not for him to say *be servants to me*, and it is not for him to command the worship of the angels and of the prophets. What links them is that both are the worship of a creature, and the verse refuses both in one breath.
+
+### **THE CLOSING QUESTION**
+
+The closing is explained as a denial on God's part that His prophet would ever command His servants to such a thing: would such a man command people to deny His oneness *after you have surrendered* — that is, after they have become submissive to Him in obedience and abased before Him in servitude? The question is rhetorical in the strict sense: it asks for an answer that cannot be given, and what it establishes is that this will never come from him. Ibn Jurayj states the clause in the same terms: the Prophet does not command you to set up as lords the angels and the prophets.
+
+### **HOW IT COMPLETES THE PREVIOUS VERSE**
+
+The previous verse ruled out self-worship; this one rules out worship directed at any other created being, however exalted. Between them the two verses close the possibility that the passage has been circling since the Christians of Najrān claimed a man as divine: the claim is met not by denying the honour of the one claimed but by denying the category, and the argument is finished on the principle the passage opened with — that worship belongs to the One who owns.
