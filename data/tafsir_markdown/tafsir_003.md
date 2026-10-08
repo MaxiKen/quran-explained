@@ -2107,3 +2107,177 @@ The curse is to be placed on the liars, and the accounts are explicit that this 
 ### **THE MANNER OF THE MEN WHO PROMPTED IT**
 
 A report is attached that shows what the wrangling had been like. ʿAbdullāh ibn al-Ḥārith ibn Juzʾ al-Zubaydī, through Sulaymān ibn Ziyād al-Ḥaḍramī and Ibn Lahīʿah, is reported as hearing the Prophet wish that there were a screen between him and the people of Najrān, so that he would not see them and they would not see him — so severely did they wrangle with him. The verse answers that wrangling with a procedure rather than another exchange: bring the matter before God and let Him settle which side is lying.
+
+## **3:62**
+
+> Certainly, this is the true narrative, and there is no god ˹worthy of worship˺ except Allah. And indeed, Allah ˹alone˺ is the Almighty, All-Wise
+
+### **MEANING**
+
+The passage closes its case with one sentence about what has just been told and about the One it concerns. The account of Jesus that has been recited is declared to be true, and from that declaration the verse moves in a single step to the article that the account was being used to deny: no deity is owed worship but the One. Two names are then attached, and they say why this verdict can be relied upon.
+
+### **WHAT THE TRUE ACCOUNT IS**
+
+The account is specified rather than left general. It is what God has told His prophet of the affair of Jesus and related to him of his report: ***“My servant and My messenger, and My word that I cast to Mary, and a spirit from Me.”*** Those four things are what is being called the true account. The emphasis falls on the description and not on the stories, and the effect is to put a boundary around what may be said about him.
+
+### **THE SECOND DECLARATION**
+
+The verse goes on to a second piece of knowledge: creation has no object of worship that deserves worship from them by virtue of owning them, other than the One the Prophet worships. The wording is careful, because the ground it gives is ownership — what makes worship due is that the worshipped owns the worshipper. It is not a statement about how many gods are believed in; it is a statement about what makes worship owed at all.
+
+### **THE TWO NAMES**
+
+The Mighty is explained as the One mighty in His vengeance against those who disobey Him, oppose His command, claim a god alongside Him, or worship a lord other than Him. The Wise is explained as the One wise in His governing, into whose governing no weakness enters and which no flaw overtakes. Placed at the end of the argument, the two names state why the judgement just delivered is final: the One who has decided has the power to carry it out and the wisdom to have ordered it as He has.
+
+### **THE ACCOUNTS OF THE VERSE**
+
+Four are given, and they say the same thing with different emphases. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq: what you have brought of the report about Jesus is the true account of his affair. Ibn Jurayj: what We have said about him is the true account. Ibn ʿAbbās: what We have said about him is the truth. Ibn Zayd adds the boundary explicitly — that this is the true account about Jesus and that it is not for him to be carried past it, that he is the word of God cast to Mary, a spirit from Him, and the servant of God and His messenger.
+
+### **WHERE IT LEAVES THE ARGUMENT**
+
+This is the point at which God is described as having separated His prophet from the delegation of Najrān with a deciding and just judgement. The verse is the verdict, and it is couched as knowledge rather than as penalty: the Prophet is told what is true and what follows from it. The verse that follows states what was to happen if the verdict were refused.
+
+## **3:63**
+
+> If they turn away, then surely Allah has ˹perfect˺ knowledge of the corruptors
+
+### **MEANING**
+
+The verse supplies the contingency that the challenge of the preceding verses had left open. If the argument is refused after the truth has been set out, the matter is not left hanging: the One who knows who is corrupting has them fully in view and will repay them. The threat is stated without any description of a punishment, because the knowledge itself is the threat.
+
+### **WHAT THE TURNING AWAY CONSISTS IN**
+
+It is spelled out rather than assumed. It is the case of those who argued with the Prophet about Jesus turning their backs on the truth that has come to him from his Lord concerning him — and concerning everything else God has given him of guidance and clear exposition — rejecting it and refusing to accept it. What is described is not a failure to be persuaded but a refusal of what has been shown.
+
+### **WHO THE CORRUPTERS ARE, AND WHAT THE KNOWLEDGE IS**
+
+Corruption is defined by what people do rather than by a label they wear: those who disobey their Lord and work in His earth and in His lands in the ways He has forbidden them — and that working is their corruption. Of them it is said that He has knowledge, counting their works and preserving them until He repays them for them. The knowledge described here is therefore not a passive attribute. It is an account kept for the purpose of settlement.
+
+### **THE COMMAND THAT FOLLOWED**
+
+The accounts state what happened next. Once God had separated His prophet from the delegation of Najrān with a deciding and just judgement, He commanded him — should such people turn their backs on acknowledging His oneness, that He has no child and no consort, and that Jesus is His servant and messenger, and insist instead on contention — to call them to the imprecation. He did so, and they shrank from it, refused it, and asked for terms instead.
+
+### **WHAT THE ACCOUNTS SAY HAPPENED**
+
+Al-Shaʿbī's account is the fullest. They appointed the following day, went to al-Sayyid and al-ʿĀqib, and then to a discerning man among them who rebuked them: if he is a prophet and invokes against you, God will never relent towards you; and if he is a king and prevails over you, he will never leave any of you. He told them to answer, if the call was repeated, with the words *“we seek refuge in God”*. In the morning the Prophet came out carrying Ḥasan, holding Ḥusayn by the hand, with Fāṭima walking behind him, and called them; they answered with the words they had been given, again and again. He then set out the alternatives — to enter surrender with the rights and duties of its people, or to pay the tribute by hand while humbled. They answered that they had no strength for a war with the Arabs but would pay the tribute, and he imposed two thousand garments a year, a thousand in Rajab and a thousand in Ṣafar. He is reported as saying that the herald had come to him with the destruction of the people of Najrān — down to the birds on the trees — had they gone through with it.
+
+Al-Suddī's account has him take the hands of Ḥasan and Ḥusayn and Fāṭima and tell ʿAlī to follow, and has the Christians stay away that day, saying that they feared he was the prophet and that a prophet's supplication is not like another man's; he is reported as saying that had they come out they would have been consumed. Qatādah has them draw back in fear, and reports the Prophet swearing that the punishment had hung low over the people of Najrān and that had they done it they would have been swept from the face of the earth. Ibn ʿAbbās is reported saying that had those who were to invoke with him gone out, they would have come back finding neither family nor wealth. Ibn Zayd reports that when the Prophet was asked whom he would have brought for *our sons*, he named Ḥasan and Ḥusayn.
+
+A separate report, from ʿAlbāʾ ibn Aḥmar al-Yashkurī, attaches the same summons to the Jews: he sent for ʿAlī, Fāṭima and their two sons and called them to it, and a young man among them said, *“Was it not only yesterday that your brothers were turned into apes and swine? Do not invoke!”* — and they stopped.
+
+### **WHAT THE OUTCOME SHOWS**
+
+The accounts differ in detail and agree on the shape of the event: the summons was made, the other side understood what was at stake, and it declined. A verse that threatens with knowledge rather than with a named punishment was still taken seriously by the people it was addressed to, and the settlement that followed was the alternative to what both parties knew would have followed instead.
+
+## **3:64**
+
+> Say, ˹O Prophet,˺ “O People of the Book! Let us come to common terms: that we will worship none but Allah, associate none with Him, nor take one another as lords instead of Allah.” But if they turn away, then say, “Bear witness that we have submitted ˹to Allah alone˺.”
+
+### **MEANING**
+
+After the argument has been pressed to a verdict, the Prophet is told to make one more offer before the matter is closed — and the offer is deliberately narrow. The **People of the Book** are called to a single word that stands level between the two sides: that worship belongs to God alone, that nothing is associated with Him, and that no human being is set up as a lord over another. Should they refuse even that, the believers are told to say no more than this: ***“bear witness that we have surrendered.”***
+
+### **WHO THE CALL IS ADDRESSED TO**
+
+Two settings are given for the verse, and they are not reconciled by choosing between them. Qatādah, al-Rabīʿ and Ibn Jurayj connect it with the Jews of the Prophet's city — the same people who, in their account, argued with him about Abraham — and Ibn Jurayj adds that when they refused the call he fought them. Ibn Isḥāq, through Muḥammad ibn Jaʿfar ibn al-Zubayr, al-Suddī and Ibn Zayd connect it with the delegation from Najrān, and Ibn Zayd's version places it immediately after their refusal of the imprecation: he was told to call them to something easier than that, and they refused this as they had refused the other.
+
+A third position closes the discussion: that the term covers both. The name attaches to the people of the Torah and to the people of the Gospel alike, and no indication singles out one of the two over the other, so every scriptuary is addressed by it — the more so because singling out worship for God alone and making devotion sincere to Him is owed by every creature that is commanded and forbidden.
+
+### **THE WORD THEY ARE CALLED TO**
+
+The word is described as a *level* word, meaning a just one, and the justice is then spelled out: that the two sides declare God one, give worship to no other than Him, and disown every object of worship besides Him. Qatādah and al-Rabīʿ take the phrase as justice between the two parties; Abū al-ʿĀliyah identifies the word itself as the declaration that there is no deity but God. The grammarians differed over how the word for *level* is made to follow the word it describes: the Basran reading takes it as the attribute of a word, meaning level or fair, while the Kufan reading takes it as a noun placed in the position of a verb — in place of *level* or *equal* — and notes that the same root is used elsewhere for a place that is midway, meaning fairness between the two sides. A reading attributed to Ibn Masʿūd settles the sense outright: ***“to a word of justice between us and you.”***
+
+### **THE THREE THINGS THE WORD CONTAINS**
+
+The content is given in three clauses, and the third is the one that needed explaining. The first two are the negative and positive of the same article: that worship is for God and that nothing is joined with Him. The third forbids the two parties from taking each other as lords, and it is glossed as the obedience of followers to their leaders in what those leaders command of disobedience to God, and their abandoning what God has commanded — the sense in which Qur’an 9:31 describes people taking their rabbis and their monks as lords besides God, though they had been commanded to worship one God alone. Ibn Jurayj adds the point that this lordship consists in obeying masters and leaders in other than worship, even where no one prays to them. A different gloss is reported from ʿIkrimah: that what is meant is people prostrating to each other.
+
+### **WHAT IS TO BE SAID IF THEY REFUSE**
+
+The instruction on refusal turns the refusal into evidence. If those who were called decline, the believers are given no further argument to make; the words put in their mouths are these: ***“bear witness that we have surrendered.”*** The witness asked for is not a formality: it is testimony that the believers hold to the very thing that has just been refused — the oneness of God, worship devoted to Him with no partner, and submission acknowledged with the heart and confessed with the tongue. The offer having been made and declined, the declaration is what remains.
+
+### **WHY THE VERSE IS BUILT THIS WAY**
+
+The order of the verse is itself part of the argument. It begins from the narrowest ground on which agreement is possible, states it in terms the other side cannot call foreign to their own scriptures, and leaves the outcome with them. What follows in the passage — the dispute about Abraham — shows what the refusal actually rested on.
+
+## **3:65**
+
+> O People of the Book! Why do you argue about Abraham, while the Torah and the Gospel were not revealed until long after him? Do you not understand
+
+### **MEANING**
+
+The offer of a common word having been refused, the passage turns to the claim that made the refusal necessary. Both parties were laying claim to Abraham, and the verse asks a single question about that claim: how can he belong to a religion that did not exist in his lifetime? The answer is not an assertion concerning Abraham; it is a date.
+
+### **WHAT THE CLAIM WAS**
+
+The claim is described as each of the two scripture-communities asserting that Abraham was one of them and professed their religion. It is put in the reports with the plainness of a slogan: the rabbis said ***“Abraham was only a Jew,”*** and the Christians said ***“he was only a Christian.”*** The verse treats the two claims as one error, because both rest on the same mistake — reading a later religious identity back onto a man who lived before the scriptures that define it.
+
+### **HOW THE ANSWER WORKS**
+
+The argument is built out of the two parties' own definitions. A Jew is someone whose religion is the establishing of the Torah and working by what is in it; a Christian is someone whose religion is the establishing of the Gospel and what is in it. Both books were sent down only after Abraham's death, and both Judaism and Christianity came into being after his day — the one following the Torah, the other following the Gospel. The claim is therefore not merely unsupported; on the parties' own account of what their religions are, it is impossible. If the religion is defined by the book, and the book postdates the man, the man cannot have professed it.
+
+### **WHO IT CAME DOWN ABOUT**
+
+Two settings are recorded. The first is given through Ibn Isḥāq from Muḥammad ibn Abī Muḥammad, from Saʿīd ibn Jubayr or ʿIkrimah, from Ibn ʿAbbās: the Christians of Najrān and the rabbis of the Jews gathered with the Prophet and contended in his presence, each side claiming him, and this verse came down about them — with the reply that those two books came down only after his day, and that Judaism and Christianity arose only after his time.
+
+The second setting is given by Qatādah and al-Rabīʿ, who connect the verse with the Jews of the Prophet's city, the ones who had been called to the common word: they argued about him and claimed that he died a Jew, and God declared them false and cut them off from him. Mujāhid's note holds the two settings together — that the Jews and the Christians each claimed him as theirs, that God cleared him of both, and that He joined to him the believers, those who were upon the upright religion.
+
+### **THE CLOSING QUESTION**
+
+The verse ends with a question about the claimants rather than about the claim: do they fail to grasp the error of what they are saying, when they know that both Judaism and Christianity arose a time after his death? The point is that no new information was needed. What the argument required was attention to what they already knew, and the question is asked in that key.
+
+### **WHY IT MATTERS TO THE PASSAGE**
+
+Abraham is not brought in as a fresh topic. He is the figure both sides wanted, and the passage has just been insisting that the religion God accepts is surrender to Him. Establishing that Abraham predates the two scriptures establishes that his religion cannot be identified with either of the two religions that came later, and it prepares the ground for the verse that follows, which says what he actually was.
+
+## **3:66**
+
+> Here you are! You disputed about what you have ˹little˺ knowledge of, but why do you now argue about what you have no knowledge of? Allah knows and you do not know
+
+### **MEANING**
+
+The verse turns from the claim itself to the people making it, and it does so by sorting what they were arguing about into two classes. There are things they do have grounds for arguing about — the matters of their own religion, which they found in their books and which their messengers brought them. And there is the matter of Abraham, for which they have no grounds at all. The rebuke is that they argue in both classes alike, as though the two were the same.
+
+### **WHO IS BEING ADDRESSED**
+
+The verse opens by pointing at the people it is speaking to before it says anything to them. The opening phrase is explained as referring to the very people who had just said what they said concerning Abraham, so that the rebuke lands on those who made the claim rather than being delivered in general terms. The effect of the opening is to make the verse a response to a specific exchange rather than a free-standing observation about how knowledge is acquired.
+
+### **THE CLASS THEY DO HAVE GROUNDS FOR**
+
+Al-Suddī identifies it as what they were forbidden and what they were commanded — the contents of the law they were given. Qatādah identifies it differently, as ***“what you witnessed and saw and observed.”*** The two accounts are not in conflict, since one describes the material and the other the manner of knowing it, and together they mark out an area in which argument has an object: something received, attested, and in principle known.
+
+### **THE CLASS THEY HAVE NO GROUNDS FOR**
+
+The second class is the affair of Abraham and of his religion, and the reason it belongs there is given in three parts: they did not find it in the books of God, their prophets did not bring it to them, and they did not witness it so that they could know it. A claim about a man who lived before the scriptures those claims rest on cannot be checked against any of the three sources by which such things are known. The question put to them is therefore not a request for evidence; it is a statement that there is none.
+
+### **THE CONTRAST AT THE CLOSE**
+
+The verse closes by placing the two kinds of knowledge side by side. God knows what is hidden from them — what they did not witness and did not see, and what His messengers did not bring them, of the affair of Abraham and of whatever else they contend about — because nothing is hidden from Him and nothing at all, in the heavens or the earth, lies outside His knowledge. Their knowledge, by contrast, reaches only what they observed and witnessed, or what they grasped by report and by hearing. The asymmetry is the argument: the matter they are contending about lies precisely in the region that only one of the two parties can see.
+
+### **HOW IT ANSWERS THE VERSE BEFORE IT**
+
+The previous verse established a chronology; this one establishes a limit on what can be claimed from it. It is not only that Abraham came before the two scriptures; it is that the claimants have no route to knowledge of him at all, and so no standing to argue. The rebuke moves from their conclusion to their procedure, and the passage is now ready to say what he was.
+
+## **3:67**
+
+> Abraham was neither a Jew nor a Christian; he submitted in all uprightness and was not a polytheist
+
+### **MEANING**
+
+The verse states the answer that the two questions were leading to, and it does so in three movements: two denials, a positive description, and one further denial. Not a Jew, not a Christian: those are the two. He was upright and surrendered, and he was no idolater. Everything in the sentence is doing work — the denials remove him from the claims, the description places him, and the final denial removes him from the alternative that neither claimant had thought to mention.
+
+### **WHAT THE DENIAL ACCOMPLISHES**
+
+The verse is described as giving the lie to the claim of those who contended over Abraham and over his religion, and as clearing him of them while declaring that they are opposed to his religion. It is also described as a judgement in favour of the people of surrender and of the community of Muḥammad: that they are the people of his religion, upon his path and his laws, rather than the rest of the religious communities. The denial is therefore not neutral. It settles who stands with him and who does not.
+
+### **THE POSITIVE DESCRIPTION**
+
+Two words are used, and each is explained. *Upright* is explained as following the command of God and His obedience, standing straight upon the clear road of guidance that he was commanded to keep to — so that the word conveys direction rather than private conviction. *Surrendered* is explained as being ***“humble to God in his heart, abasing himself to Him with his limbs, and submitting to what He has made binding upon him and imposed on him of His rulings.”*** Heart, body and practice are named together, and the description is one of a whole person standing in a single direction.
+
+### **THE FURTHER DENIAL**
+
+The closing denial is stated in terms of what the idolaters do: those who worship idols and images, or a creature instead of its Creator, who is the God of creation and the One who brought them into being. The mention matters because it closes the last escape. If Abraham was not a Jew and not a Christian, it does not follow that he was anything a claimant might prefer; the verse names the remaining possibility and excludes it too.
+
+### **THE ACCOUNTS ATTACHED TO IT**
+
+ʿĀmir reports that the Jews said Abraham was upon their religion and the Christians said he was upon theirs, and that this verse came down declaring them false and refuting their argument — the reference being to the Jews who claimed that he died a Jew. Al-Rabīʿ reports the like.
+
+A longer account is attached through Ibn ʿAbbās's chain by way of Mūsā ibn ʿUqbah from Sālim ibn ʿAbdullāh, from his father. Zayd ibn ʿAmr ibn Nufayl went out to Syria asking about the religion and seeking to follow it. He met a scholar of the Jews and asked him about his religion, saying that he might profess it. The scholar answered that he would not be upon their religion until he took his share of the wrath of God, and Zayd replied that he was fleeing from the wrath of God and would never carry any of it while he was able, and asked whether there was a religion in which there was none of that. The scholar answered that he knew of none but that it be the upright religion; asked what that was, he said: the religion of Abraham, who was not a Jew and not a Christian, and who worshipped none but God. Zayd then met a scholar of the Christians and put the same questions, and received the same answer, with the wrath of God replaced by His curse. He left them satisfied with what the two of them had told him and agreed upon, and he kept raising his hands and saying: *“O God, I call You to witness that I am upon the religion of Abraham.”*
