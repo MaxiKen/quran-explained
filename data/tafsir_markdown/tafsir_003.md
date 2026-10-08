@@ -2685,3 +2685,81 @@ The closing is explained as a denial on God's part that His prophet would ever c
 ### **HOW IT COMPLETES THE PREVIOUS VERSE**
 
 The previous verse ruled out self-worship; this one rules out worship directed at any other created being, however exalted. Between them the two verses close the possibility that the passage has been circling since the Christians of Najrān claimed a man as divine: the claim is met not by denying the honour of the one claimed but by denying the category, and the argument is finished on the principle the passage opened with — that worship belongs to the One who owns.
+
+## **3:81**
+
+> ˹Remember˺ when Allah made a covenant with the prophets, ˹saying,˺ “Now that I have given you the Book and wisdom, if there comes to you a messenger confirming what you have, you must believe in him and support him.” He added, “Do you affirm this covenant and accept this commitment?” They said, “Yes, we do.” Allah said, “Then bear witness, and I too am a Witness.”
+
+### **MEANING**
+
+The argument turns from what the opponents have been claiming to what they are already bound by. God took a covenant from the prophets: whatever He gives them of scripture and wisdom, and then a messenger comes to them confirming the truth of what is with them, they are to declare him true and give him help. They were asked whether they acknowledged it and took the charge upon themselves, and they acknowledged that they had. God said: testify, and God is with you among the witnesses.
+
+### **WHAT THE COVENANT IS**
+
+The word for covenant is explained as what they bound themselves by of obedience to God in what He commanded and forbade them. The opening clause is an address to the People of the Book: recall when God took it from the prophets.
+
+### **HOW THE OPENING CLAUSE IS READ**
+
+The readers split over the particle that governs the clause. The readers of the Hijaz and Iraq, in the main, read it as an opening particle followed by a conditional, ***“whatever I give you.”*** The grammarians of Basra took the first particle as one of inception, and the particle in ***“you shall surely believe in him and help him”*** as the one used for oaths, so that emphasis would be laid at both the beginning and the end of the sentence. The grammarians of Kufa rejected that, holding that such a particle is answered by the answers given to oaths and is not there for emphasis.
+
+The explanation preferred takes the word as *whatever*, a conditional particle with the opening particle prefixed to it, the sentence then answered with what oaths are answered with — so that the first particle becomes an oath by being met with the answer of an oath.
+
+A group of the Kufan readers read it instead as ***“for that which I have given you”***: God took the covenant of the prophets on account of what He had given them of scripture and wisdom, and then, if a messenger came to them, they should believe in that messenger — their belief being what is due for his mention in the Torah. Others attach the clause about believing to the taking of the covenant itself, since taking a covenant is like administering an oath.
+
+The reading preferred is the first, because God took the covenant of all the prophets to declare true every messenger of His that He sent — whether that prophet had been given a book or had not been given one — since it is not admissible to describe any of God's prophets as someone permitted to deny one of His messengers.
+
+### **WHOSE COVENANT IT IS**
+
+Three positions are reported. Some held that it was taken from the People of the Book rather than from their prophets, arguing from ***“you shall believe in him and help him”***: it is the nations to whom the messengers were sent who are commanded to believe and to help, whereas the messengers are the ones who need help. Mujāhid is reported saying that the wording is a scribal error and that the reading of Ibn Masʿūd has *those who were given the Book*; al-Rabīʿ holds the same and attributes it to Ubayy.
+
+Others held the opposite: it was the prophets, not their nations. Ibn ʿAbbás is reported saying that God took the covenant of the prophets on behalf of their peoples. Ṭāwūs explains it as the prophets declaring one another true. Through Sayf ibn ʿUmar, from Abū Rawq, from Abū Ayyūb, ʿAlī is reported saying: ***“God never sent a prophet, from Adam onwards, without taking from him the pledge concerning Muḥammad”*** — that if he were sent while that prophet was alive he would believe in that messenger and help him — and commanding him to take the pledge from his people. Qatādah describes it as a covenant that the prophets declare one another true and deliver God's book, and that they took from their peoples that they would believe in that messenger and help him; al-Suddī gives the same from Noah onwards.
+
+A third position is that it was taken from the prophets and their nations together, the mention of the prophets standing in for the mention of their nations, since taking a covenant from the one who is followed implies taking it from the followers; Ibn ʿAbbás is reported, through Ibn Isḥāq, describing the verse in those terms.
+
+The account preferred is that God took it from His prophets, to declare one another true, and that the prophets took from their nations a covenant of the same kind, because the prophets were sent to call the servants of God to profess what they themselves were commanded to profess. The view that the nations alone are meant is set aside: God has stated that He took it from the prophets, and doubt cast on that would equally cast doubt on His statement that He commanded them to deliver. The argument from *help him* is answered by saying that their declaring one another true is itself their helping one another.
+
+### **WHO THE LAST CLAUSE ADDRESSES**
+
+The same positions recur over ***“then a messenger comes to you confirming what is with you.”*** Some take the address as the prophets; some as the People of the Book, commanded to declare him true and help him, with their covenant taken in their books; and some combine them — which is how Ṭāwūs and Qatādah are reported. The preferred reading treats the whole as a report about His prophets: that He took their covenant to it and bound them to call their nations to it. Al-Suddī is reported addressing the clause to the Jews, though it is noted that the preposition in the text does not bear that sense.
+
+### **THE ACKNOWLEDGEMENT AND THE WITNESS**
+
+Having taken the covenant, God is described asking the prophets whether they acknowledged what they had bound themselves to, and whether they had taken upon themselves, for that, His charge. The word for charge is explained as His covenant and His instruction, and the taking of it as acceptance and contentment, on the pattern of *the governor took the oath of allegiance from him*, meaning that he received his allegiance and accepted his authority and was content with it.
+
+Their answer is reported: *we acknowledge* — they acknowledged what He had bound them to of belief in His messengers, who confirm what they had of His books, and of helping them.
+
+God's reply is then explained as: testify, O prophets, to what I have taken your covenant for — belief in My messengers who come to you confirming the truth of what is with you of scripture and wisdom, and helping them — against yourselves and against your followers among the nations, since you took their covenant for it; and I am with you among the witnesses over you and over them. ʿAlī is reported, through the same route, taking *testify* as bearing witness against your nations for it.
+
+### **WHAT THE VERSE DOES HERE**
+
+The passage has been answering a people who claimed that following this messenger would mean abandoning what they had. This verse removes the premise: what was taken from every prophet, and through him from every nation, was the opposite — that when the confirming messenger comes, he is to be declared true and helped.
+
+## **3:82**
+
+> Whoever turns back after this, they will be the rebellious
+
+### **MEANING**
+
+The covenant just described is followed by its consequence. Anyone who turns away after that — after the covenant and the pledge that were taken — is one of the corrupt. The verse is a single conditional sentence, and everything in it turns on what the *that* refers back to.
+
+### **WHAT TURNING AWAY CONSISTS IN**
+
+The turning away is spelled out as two things together, and both are named in the verse before. The first is turning from belief in the messengers whom God sends confirming what was with His prophets of the books and wisdom. The second is turning from helping them. The explanation describes the one who does it as giving his back, neither believing nor helping, and breaking his pledge — so that the failure is not a private doubt but a public withdrawal of the support that had been pledged.
+
+### **WHAT AFTER THAT MEANS**
+
+The phrase is taken as referring to the covenant and the pledge which God took. The reference is not to a point in time but to a prior commitment: what makes the turning away what it is, is that it comes after a binding had been accepted. Al-Rabīʿ and Abū Jaʿfar al-Rāzī are both reported glossing the phrase in exactly those terms.
+
+### **WHO THE CORRUPT ONES ARE**
+
+The word translated as rebellious is explained as ***“those who have gone out of the religion of God and the obedience of their Lord.”*** What is described is not a slip within a way of life but an exit from it.
+
+Through Sayf ibn ʿUmar, from Abū Rawq, from Abū Ayyūb, ʿAlī is reported glossing the verse as: anyone who turns away from you, Muḥammad, after this covenant, from among all the nations — those are the corrupt ones, meaning the disobedient in their unbelief. The gloss adds the dimension the passage has been building towards: the object of the turning away is the messenger himself, and the corruption is disobedience persisting in rejection.
+
+### **WHO THE VERSE IS AIMED AT**
+
+A note is made about where the address lands. These two verses, though the report in them comes from God about what He witnessed and about the covenant He took from those whose covenant He took among His prophets and messengers, are aimed at the Jews of the Children of Israel who were settled around the place of the Prophet's emigration in his lifetime. What is meant by them is to tell these people what God has against them of the covenant to believe in the prophethood of Muḥammad, and to remind them of what God took from their fathers and forefathers of covenants and pledges, and of what the prophets of God had made known to them and enjoined upon them in advance — to declare him true, to follow him, and to help him against those who opposed him and denied him — and to make them know what is in the books of God, which He sent down to the prophets He sent to them, of his description and his mark.
+
+### **HOW IT CLOSES THE PASSAGE**
+
+The address has now moved through every stage of the case: the covenant taken, the acknowledgement given, the witness borne, and now the consequence for the one who walks away from it. The closing of the argument is a matter of record rather than of threat — what was pledged is on the prophets' own testimony, with God as a witness alongside them, and the verdict on the one who turns from it is simply the name for what he has become.
