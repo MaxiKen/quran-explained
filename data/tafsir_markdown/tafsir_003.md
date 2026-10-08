@@ -2865,3 +2865,145 @@ Ibn ʿAbbás is reported, through ʿAlī, placing the verse in sequence with an 
 ### **HOW IT COMPLETES THE ARGUMENT**
 
 The passage has moved from the covenant taken from the prophets, to the confession the believers make, to the rule that governs every claim. The movement ends where it began — with the question of what it is that God accepts — and the answer is given in the negative as well as the positive: not the name a person bears, but the surrender he lives by.
+
+## **3:86**
+
+> How will Allah guide a people who chose to disbelieve after they had believed, acknowledged the Messenger to be true, and received clear proofs? For Allah does not guide the wrongdoing people
+
+### **MEANING**
+
+The question is not a request for information but a way of denying something. How should God direct to what is right, and grant success to, a people who rejected after having once held fast — who had borne witness that the messenger is true and had the proofs come to them? The answer follows from the shape of the question: it is no, and the reason is in what they did with what they already had.
+
+### **HOW THE QUESTION IS UNDERSTOOD**
+
+The opening word is taken as a denial dressed as an enquiry. Guidance is explained in two parts: directing to what is right, and granting success to faith. The point of putting it as a question is to make the hearer supply the answer himself, since a people who had the truth, acknowledged it, and then turned from it have already refused the thing that guidance consists in.
+
+### **THE THREE THINGS THEY HAD**
+
+Three things are named, and each is a stage in what they were given.
+
+The first is their belief: their declaring him true and acknowledging what he brought them from his Lord. The faith named here is not a vague religiosity but a specific acknowledgement of this messenger.
+
+The second is their witness: they acknowledged that Muḥammad is the messenger of God to His creatures, in truth. The verb used is the one for bearing witness, and the reports treat it as a formal acknowledgement rather than a passing opinion — which is why the sentence can be built on it.
+
+The third is the proofs: the arguments and the indications that came to them from God of the correctness of that. The word used for them is the one for evidences, and the sentence ends on it, so that the question is left hanging over the strongest item in the list.
+
+### **WHY GUIDANCE IS WITHHELD**
+
+The closing clause is explained as: God grants no success to the truth to a company that wrongs — those who exchanged truth for falsehood and chose rejection over faith. The word for wrongdoing is explained elsewhere in this work as putting a thing in other than its place, and that is what makes the description fit: what they did was not ignorance but a substitution. The withholding is therefore not arbitrary; it answers a choice already made.
+
+### **WHO IT CAME DOWN ABOUT**
+
+Two accounts are given, and they name different people.
+
+The first is that these verses came down about a man of the Anṣār who surrendered, then apostatized and joined the polytheists, then regretted it and sent word to his people asking them to ask the messenger of God ***“is there any repentance for me?”*** Through ʿIkrimah, Ibn ʿAbbás is reported telling the story in those terms, and saying that these verses then came down and his people sent to him and he surrendered. Mujāhid names him as al-Ḥārith ibn Suwayd, and describes him as having come and surrendered with the Prophet and then rejected and gone back to his people. Al-Suddī is reported saying that the verses came down about him and that he then repented and surrendered. Through Ibn Jurayj, ʿIkrimah is reported naming a group — Abū ʿĀmir the monk, al-Ḥārith ibn Suwayd ibn al-Ṣāmit and Waḥwaḥ ibn al-Aslat, among twelve men who turned back from surrender and joined Quraysh, then wrote to their families asking whether there was any repentance for them — and Mujāhid, through another route, is reported describing the man as one of the Banū ʿAmr ibn ʿAwf who rejected after having believed, and adding that he went to the land of the Byzantines and became a Christian.
+
+The second account is that the verses are about the People of the Book. Ibn ʿAbbás is reported, through his family's chain, saying that they are the People of the Book, who knew Muḥammad and then rejected him. Al-Ḥasan is reported saying simply: the Jews and the Christians. The fullest version is given through Qatādah from al-Ḥasan: they are the People of the Book among the Jews and the Christians, who saw the description of Muḥammad in their book and acknowledged it and bore witness that it was true, and then, when he was raised up from other than themselves, they envied the Arabs for it and denied him — rejecting him after having acknowledged him, out of envy that he should be sent from among the Arabs rather than from them. In another version from al-Ḥasan, they used to find him written with them and to pray for victory through him, and then rejected him after having believed.
+
+The two accounts are then weighed, and a way of holding them together is offered: that God sent these verses down on account of the people who are named as having turned back, and joined their case in these verses with the case of everyone whose path was as theirs in turning from faith in Muḥammad. On that reading, both classes fall inside the verse — everyone who believed in him before he was sent and then rejected him after he was sent, and everyone who was a rejecter, then surrendered in his lifetime, then turned back from his surrender while he was still alive — and so does everyone else who comes under the same description.
+
+### **HOW IT CONNECTS TO WHAT WENT BEFORE**
+
+The passage has just declared that no way besides surrender is accepted. This verse shows what that looks like from the inside: the state of a person who had the thing in his hand and let it go. The three items named — faith, witness, and proofs — are exactly what the earlier verses of this surah have been establishing that the People of the Book possessed, which is why the second account sits so well in this context.
+
+## **3:87**
+
+> Their reward is that they will be condemned by Allah, the angels, and all of humanity
+
+### **MEANING**
+
+The sentence passed on the people described in the verse before is now spelled out. The requital of those people — the ones who rejected after having believed, and after bearing witness that the messenger is true — is stated in a single clause, and then the scope of it is widened word by word until nothing and no one is left outside it.
+
+### **WHAT REQUITAL MEANS HERE**
+
+The word used is the ordinary one for the return a person gets for what he has done, and it is applied here to a punishment. The text is explicit about why: these are the people who rejected after their belief, and after bearing witness that the messenger is true, and what comes back to them is the return for the deed they did. Nothing is added to the account from outside; what is described is the deed coming home.
+
+### **WHAT COMES FROM GOD**
+
+The first term is explained as: ***“that there come upon them from God expulsion and distance.”*** It is glossed elsewhere in the same terms as removal and being cast far away, and the sense is relational before it is sensory — the thing lost is nearness, and everything else follows from that.
+
+### **WHAT COMES FROM THE ANGELS AND FROM PEOPLE**
+
+The same term is then applied to the angels and to people, and it is explained differently, because what they do is not what God does: from them it is supplication: ***“calling down upon these people what grieves them of punishment.”*** The word therefore carries two senses at once in one clause, and the explanation keeps both: removal from God, and the prayer of everyone else that the removal hold.
+
+### **ALL OF THEM**
+
+The closing word of the clause is explained as covering all of them together, and the point is made explicitly: not from some of those whom God named among the angels and people, but from all of them. The word forecloses two readings at once: that the curse is partial, and that some of creation stand aside from it while others join in. What is described is complete, and the completeness is the point of the word.
+
+### **WHY IT IS CALLED A REQUITAL**
+
+A note is made on why this is put in the language of return rather than of sentence. The reason given is that their deed was rejection of God, and the requital answers it in kind: they put the truth out of its place, and they are put out of their place. The language of reward is kept precisely because the connection between the two is meant to be seen. The clause is therefore presented as the natural shape of what they did rather than as an added penalty.
+
+### **WHO IS DESCRIBED**
+
+The reports about which people this concerns are the ones already set out for the verse before it, and the same two answers are given: those of the People of the Book who knew him and acknowledged him and then rejected him out of envy, and those who surrendered and then turned back. The verse is not tied to one of them to the exclusion of the other, and the wording of the clause — reaching from God to the angels to all people — suits both: what is described is the condition of anyone who has done what they did.
+
+## **3:88**
+
+> They will be in Hell forever. Their punishment will not be lightened, nor will they be delayed ˹from it˺
+
+### **MEANING**
+
+The sentence begun in the verse before is carried to its end. Those who are under the curse are remaining in it; no part of the torment is ever reduced for them; and they are given no respite. The three clauses are not three punishments but one punishment described from three sides.
+
+### **WHAT ABIDING MEANS**
+
+The first clause is explained as remaining, and the place of the remaining is the punishment of God. The pronoun is taken back to the state named in the preceding verse rather than to a physical location, so that what is described is a condition rather than a place: to abide is to stay where the curse has put a person. The word used for it is the ordinary one for staying on, and what makes the clause heavy is not the verb but its object — the thing stayed in is the punishment itself, not a region containing it.
+
+### **WHAT IS NOT LIGHTENED**
+
+The second clause is explained with two negations. The first is that nothing of the torment is diminished for them — not at one time rather than another, not in one respect rather than another, but in no state at all. The second is that they are given no relief within it: the word used carries the sense of a breathing space, and it is denied as well. The two together close off the two ways a punishment can be made bearable — by being made smaller, and by being interrupted.
+
+### **WHAT RESPITE MEANS**
+
+The third clause is explained as: ***“they are not given time to offer an excuse.”*** The word used is the one for being given a look or a deferral, and the explanation attaches it to an excuse: what is withheld is the interval in which a person might speak for himself. The note is then made that all of this — the remaining, the absence of any reduction, and the absence of any deferral — is the very substance of abiding in the punishment in the Hereafter, not an addition to it.
+
+### **WHY THE THREE CLAUSES ARE STACKED**
+
+Read together, the three clauses remove every way out of the state they describe, and they do it in the order a person would look for one. The first removes the end, the second removes the easing, and the third removes the adjournment: there is no leaving, no relief, and no postponement in which something might change. The stacking is what makes the description total rather than severe in one respect only.
+
+### **WHO IS DESCRIBED, AND WHERE THIS LEAVES THEM**
+
+The reports about the people concerned are the ones already given for the two verses before: those of the People of the Book who knew the messenger, acknowledged him, and then rejected him after acknowledgement, and those who surrendered and then turned back. What this verse adds is the shape of the state they are in, and it is stated without qualification — no end, no reduction, no delay.
+
+### **HOW IT MEETS THE EXCEPTION THAT FOLLOWS**
+
+The absoluteness of this verse is what makes the next one necessary. The description is total, and the verse after it opens a door that this one does not: those who turn back afterwards and set themselves right are excepted from it. Read in that order, the severity here is not the last word of the passage but the thing the exception is measured against — it states what the way out is a way out of.
+
+## **3:89**
+
+> As for those who repent afterwards and mend their ways, then surely Allah is All-Forgiving, Most Merciful
+
+### **MEANING**
+
+The total description that was just closed is opened again by a single exception. Those who turn back afterwards and set themselves right are not left in it: God is forgiving towards them and merciful to them. The verse is the counterpart of the one before it, and the two are meant to be read as a pair.
+
+### **WHAT THE EXCEPTION COVERS**
+
+The exception is taken as applying to the people described in the verses before it — those who rejected after having believed, and after bearing witness that the messenger is true. What lifts them out is not the passage of time but the return itself, and the wording makes the return the condition rather than the consequence.
+
+### **WHAT THE TURNING BACK CONSISTS IN**
+
+The repentance is explained as returning, after the apostasy from their faith, to faith in God and in His messenger, and declaring true what their prophet brought them from their Lord. The description is specific: what is required is not a feeling of regret but a reversal of the act that put them there — the acknowledgement they had withdrawn is to be made again.
+
+### **WHAT SETTING THINGS RIGHT MEANS**
+
+The second condition is explained as doing righteous deeds. The turning back is therefore not complete on its own: what is required is a return followed by a life, and the two are joined in the verse so that neither is taken as a substitute for the other.
+
+### **FORGIVING**
+
+The first of the two names is explained as covering over: He covers the sin which came from them, meaning the apostasy, and leaves aside the punishment for it and the exposure of it on the Day of Resurrection, not taking the person to account for it if he dies upon repentance from it. The covering is described as total — the sin is hidden, and so is its consequence — and the condition attached is that he dies upon that repentance.
+
+### **MERCIFUL**
+
+The second name is explained as turning towards him with mercy. Placed after the first, it completes the picture: the wrong is covered over and the person is then met with kindness rather than merely with the absence of punishment.
+
+### **THE MAN WHO CAME BACK**
+
+Through Ḥumayd al-Aʿraj, a report from Mujāhid tells what happened to the man named in the accounts of the opening verse of this passage. Al-Ḥārith ibn Suwayd came and surrendered with the Prophet, then rejected and went back to his people, and the Qur’an came down about him: the verses from *How shall God guide a people who rejected after their faith* to this exception. A man of his people carried the verses to him and read them out. Al-Ḥārith is reported saying to him: ***“you, by God, as far as I know, are truthful; and the messenger of God is more truthful than you; and God is the most truthful of the three.”*** He then went back and surrendered, and his surrender is described as good.
+
+Through ʿIkrimah, Ibn ʿAbbás is reported telling the same story from the other end: the man apostatized, joined the polytheists, then regretted it and sent to his people asking whether there was any way back for him; these verses came down, and his people sent word to him and he surrendered. In one version, when his people wrote to him he said, *my people have not lied to me*, and returned. Al-Suddī is reported adding that he repented and surrendered, and that the exception came after.
+
+### **WHY THE EXCEPTION STANDS WHERE IT DOES**
+
+The exception is placed at the end of the severest description in the passage, and its position is the point. The verses before it close every exit — no end, no easing, no postponement — and then this one opens one. What is offered is not a mitigation of the state described but a way out of it, and the way out is the same door the person walked out of: the acknowledgement he withdrew, made again, followed by the life that should have followed it the first time.
