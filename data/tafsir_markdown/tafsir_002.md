@@ -6165,3 +6165,2017 @@ Some took the verb to mean certainty, but that has no basis. No one knows what w
 ### **BOUNDS MADE CLEAR**
 
 God calls these rulings His bounds, the markers between His lawful and His forbidden, between obedience and disobedience. He explains them in detail and distinguishes one from another for **people of knowledge**, who recognise that they come from God, accept them, and act on the knowledge God has entrusted to them. He singles them out because many who are ignorant that these rulings come from Him will never accept them, even though the proof has been set before them; God had already told His Prophet not to expect many of them to believe.
+
+## **2:231**
+
+> When you divorce women and they have ˹almost˺ reached the end of their waiting period, either retain them honourably or let them go honourably. But do not retain them ˹only˺ to harm them ˹or˺ to take advantage ˹of them˺. Whoever does that surely wrongs his own soul. Do not take Allah’s revelations lightly. Remember Allah’s favours upon you as well as the Book and wisdom He has sent down for your guidance. Be mindful of Allah, and know that Allah has ˹perfect˺ knowledge of all things
+
+### **MEANING**
+
+The passage on divorce continues by addressing the moment when a divorced woman’s waiting is about to run out, whether it is counted by her three cycles or, for a woman who does not menstruate, by months. At that point the husband who still has the right to take her back, after a first or second divorce, has two honourable choices. He may take her back in the manner God has permitted, calling witnesses to the return before the waiting ends and then living with her in kindness. Or he may leave her to complete her waiting and go her own way, giving her in full everything she is owed, such as her dowry, her parting gift, and her maintenance.
+
+What he must never do is take her back as a weapon against her: returning to her only to lengthen her waiting, or to pressure her into buying her freedom with what he gave her. That is transgression of the limits God has drawn. A man who does it brings sin upon himself and makes himself liable to God’s punishment.
+
+The verse then widens its address. God’s rulings, which separate lawful from unlawful, are not to be treated as a game. Believers are to remember the favour of Islam by which He guided them, and the Book and the wisdom revealed to them, by acting on them. Through the Book He admonishes them, so they should fear Him, knowing that nothing they do, open or hidden, escapes Him.
+
+### **TAKING HER BACK TO HARM HER**
+
+Early authorities describe the practice the verse forbids. Masrūq, in a report through Abū al-Ḍuḥā, says: *“He divorces her, and when her term is about to end he takes her back, then divorces her and leaves her, until when her waiting is about to end he takes her back, without wanting to keep her. That is the one who harms and makes a mockery of God’s revelations.”* Abū Rajāʾ relates that al-Ḥasan was asked about the verse and said that a man would divorce his wife and take her back, then divorce her and take her back, to harm her, and God forbade them this. Mujāhid says the harm meant is that a man divorces his wife and returns to her on the last day of her term, again and again, until her waiting stretches to nine months, simply to injure her.
+
+The word translated as letting go comes from the Arabic for releasing grazing animals to pasture, as in Qur’an 16:5–6, where livestock are a beauty to their owners *“when you bring them home and when you send them out to graze.”* A divorced woman whose husband leaves her to complete her waiting is likewise released.
+
+Whoever takes his wife back to harm her and overstep God’s limit in her case **wrongs his own soul**: he loads it with sin and earns God’s punishment. Wrongdoing, as explained earlier in the surah, is putting a thing where it does not belong and doing what one has no right to do.
+
+### **GOD’S RULINGS ARE NOT A JEST**
+
+God has set out in the Book when a husband may take his wife back and when he may not, and how it must be done. Treating these markers as a joke is what the verse forbids. Al-Ḥasan, in a report through Sulaymān ibn Arqam, relates that in the Prophet’s time a man would divorce his wife or free a slave and then say, *“I was only joking.”* The Prophet said: *“Whoever divorces in jest or frees a slave in jest, it takes effect against him.”* Al-Ḥasan said this verse was revealed about that. Al-Rabīʿ says the same: a man would divorce his wife and claim he had divorced only in play, and they were forbidden from doing so.
+
+Abū Mūsā relates that the Prophet became angry with the Ashʿarīs. When Abū Mūsā asked why, the Prophet said that one of them would say, *“I have divorced; I have taken back,”* and that this was not the divorce of the Muslims; they should divorce a woman at the proper start of her waiting.
+
+### **REMEMBERING THE FAVOUR AND THE BOOK**
+
+The favour to be remembered is Islam, to which God guided them, and the other blessings He gave them. Remembering it means thanking Him by obeying what He commands and forbids. The Book is the Qur’an revealed to the Prophet; remembering it means acting on it and keeping its limits. The wisdom was discussed earlier, at Qur’an 2:129, where the Prophet is described as teaching scripture and wisdom. The pronoun in *“admonishes you with it”* refers to the Book.
+
+Believers are told to fear God by not neglecting His commands and prohibitions, lest they earn a punishment they cannot bear. The closing reminder that God knows everything means that the One who set these limits knows all their deeds, good and bad, obedient and disobedient, hidden and open, and will repay good with good and evil with evil.
+
+## **2:232**
+
+> When you have divorced women and they have reached the end of their waiting period, do not prevent them from re-marrying their ex-husbands if they come to an honourable agreement. This is enjoined on whoever has faith in Allah and the Last Day. This is purer and more dignifying for you. Allah knows and you do not know
+
+### **MEANING**
+
+This verse turns from husbands to the guardians of women. A woman has been divorced, her husband did not take her back, and her waiting has run its course, so she is now separated from him. Later he wishes to marry her again with a new contract and a new dowry, and she wants him too. Her guardians, out of pride or resentment, are forbidden to stand in the way and to hold her back from returning to him, provided the two of them agree on what is lawful and proper between them.
+
+This prohibition is an admonition for everyone who truly believes in God and in the Resurrection, and who therefore fears His punishment and hopes for His reward. Letting such a couple remarry is better before God than keeping them apart, and it is cleaner for everyone’s hearts, since two people who still feel attached to each other might otherwise drift toward what is unlawful, and their families might come to suspect them of what they are innocent of. God knows what lies in the hearts of the man and woman, which their families cannot know, and that is why He commanded what He commanded.
+
+### **THE OCCASION OF REVELATION**
+
+The verse is reported to have been revealed about a man whose sister had been married and divorced, and who refused to let her return to her former husband. Most reports name him as Maʿqil ibn Yasār al-Muzanī. In a report through al-Ḥasan, Maʿqil himself says: *“I had a sister who received proposals, and I kept people away from her until a cousin of mine proposed, and I married her to him.”* They lived together for some time, then he divorced her with a revocable divorce and left her until her waiting ended. When he came to propose again among the other suitors, Maʿqil told him: *“You proposed to me and I refused everyone else and preferred you, then you divorced her when you could have taken her back. Now you come proposing with the suitors! By God, I will never marry her to you.”* Maʿqil says: *“So this verse was revealed about me,”* and he expiated his oath and married her to the man.
+
+Qatādah’s account adds that Maʿqil took offence, saying the man had left her alone while she was waiting when he could have taken her back, and that when the verse was revealed the Prophet called Maʿqil and recited it to him, and Maʿqil set aside his pride and submitted to God’s command. Another report has Maʿqil say: *“Now I will do it, Messenger of God,”* and he married her to him. Bakr ibn ʿAbd Allāh al-Muzanī, Mujāhid, and ʿIkrimah also connect the verse with Maʿqil; Ibn Jurayj gives the sister’s name as Jumal bint Yasār.
+
+Al-Suddī says instead that it was revealed about Jābir ibn ʿAbd Allāh al-Anṣārī, whose cousin was divorced once by her husband; when her waiting ended, the husband wanted her back. Jābir said: *“You divorced our cousin, and now you want to marry her a second time!”* The woman wanted her husband, and the verse was revealed.
+
+Others said the verse simply forbids a guardian to harm his ward by blocking her marriage. Ibn ʿAbbās, in a report through ʿAlī ibn Abī Ṭalḥah, says it concerns a man who divorces his wife once or twice; her waiting ends, then he wishes to marry her again, she wants it, and her guardians prevent her, so God forbade them. Masrūq says the same.
+
+The sound conclusion is that God revealed the verse to forbid guardians from harming the women in their care by blocking them from marrying former husbands from whom they had been separated by divorce or annulment. It may well have been revealed about Maʿqil and his sister, or Jābir and his cousin, but its ruling covers every such case.
+
+### **THE MEANING OF BLOCKING**
+
+The verb used means to hem someone in and constrict her by refusing her the marriage she wants. Its root sense is narrowness and difficulty. ʿUmar said of the people of Iraq that they had put him in a tight spot, being pleased with no governor and pleasing none. An incurable illness is called by the same word, because it defies treatment. Aws ibn Ḥajar says the true friend is the one who stays near *“when matters grow tight.”*
+
+The agreement the couple reach is agreement on what is lawful, such as a dowry given in exchange for the marriage, and a new contract. ʿAbd al-Raḥmān ibn al-Baylamānī relates that the Prophet said, *“Marry off the unmarried,”* and when a man asked what the ties between them should be, he said: *“Whatever their families agree upon.”*
+
+This verse also shows the soundness of the view that there is no marriage without a guardian from the woman’s paternal kin. Had a woman been able to marry herself off without her guardian, forbidding him to block her would have no meaning.
+
+### **AN ADMONITION FOR BELIEVERS**
+
+The word *“that”* is singular, though the address is plural. Some explained this as an address to the Prophet, after which the speech turns back to the believers. The admonition is directed to those who believe in God, affirming His oneness, and believe in **the Last Day**, fearing its reckoning.
+
+Allowing the couple to remarry is described as more wholesome, meaning better and more virtuous in God’s sight than their separation, and purer, meaning cleaner for the hearts of the guardians, the women, and the husbands from suspicion. God’s knowledge of what is hidden in their hearts is the ground of the command.
+
+## **2:233**
+
+> ˹Divorced˺ mothers will breastfeed their offspring for two whole years, for those who wish to complete the nursing ˹of their child˺. The child’s father will provide reasonable maintenance and clothing for the mother ˹during that period˺. No one will be charged with more than they can bear. No mother or father should be made to suffer for their child. The ˹father’s˺ heirs are under the same obligation. But if both sides decide—after mutual consultation and consent—to wean a child, then there is no blame on them. If you decide to have your children nursed by a wet-nurse, it is permissible as long as you pay fairly. Be mindful of Allah, and know that Allah is All-Seeing of what you do
+
+### **MEANING**
+
+Having set out the rules of divorce, the passage turns to the children of divorced parents. Mothers who have separated from their husbands, and who bore children to them either before the divorce or afterwards from a pregnancy begun during the marriage, have the first right to nurse those children. This is a right rather than a strict duty on the mother when the father is living and able to pay, since another woman may nurse the baby if the parents cannot agree. The full term of nursing is two complete years, the limit for parents who want to complete it.
+
+During this nursing the father must provide the mother’s food and clothing according to what is fitting for someone like her from someone like him, since God knows that people differ in wealth and poverty. Nobody is burdened beyond what lies within his means. Neither parent may use the child to harm the other: a mother may not refuse to nurse in order to burden the father, and a father may not take the baby from its mother in order to grieve her. If the father has died, a similar obligation falls on the heir. If the two parents agree, after consulting each other about the child’s welfare, to wean the baby before the two years end, they commit no sin. And if the parents choose to have the child nursed by another woman, that too is free of sin, provided the mother is paid in full what was agreed for the time she nursed, and the nurse receives her fair wage. The verse ends by commanding them to fear God in the rights they owe each other and their children, for He sees all they do.
+
+### **TWO COMPLETE YEARS**
+
+The two years are two full years, as Mujāhid says. Qur’an 65:6 confirms that the mother’s nursing is not imposed on her against the father’s means: if the parents make things difficult for each other, *“another woman will nurse the child for him.”* The word for year comes from a root meaning to turn or pass. The verse adds that they are complete because Arabs may say someone stayed somewhere two years when he stayed one year and part of another; the addition makes clear that two full years are meant.
+
+The authorities differed over what this limit indicates. Ibn ʿAbbās says a baby born at six months is nursed for two full years, one born at seven months for twenty-three months, and one born at nine months for twenty-one months, so that pregnancy and nursing together make thirty months, in line with Qur’an 46:15. ʿIkrimah says the same without attributing it to Ibn ʿAbbās. Ibn ʿAbbās, in another report, says the two years are the limit for those who want to complete nursing, and parents may wean before or after them by agreement. ʿAṭāʾ and Sufyān al-Thawrī say that if the mother wants to stop before two years, the father may insist on completing them, and if the father wants to wean early without her consent, he may not. Ibn ʿAbbās and Ibn ʿUmar say that nursing after two years creates no family bond of prohibition. Qatādah and al-Rabīʿ say two years were first an obligation, then God eased it with the words about those who want to bring the nursing to its end.
+
+The preferred view combines several of these. The two years are the limit to which nursing extends when the parents disagree, since a limit would mean nothing if what lies beyond it had the same ruling as what falls within it. They apply to every child, whatever its time of birth, because the verse is general. Nor does Qur’an 46:15 set a binding limit; it describes how some people are carried and weaned, much as the same passage speaks of those who give thanks on reaching forty, though many do not.
+
+Most readers read the verb so that it is the parent who completes the nursing. Some in the Ḥijāz read it so that the nursing itself is completed. The first reading is preferred, since it is the mothers who nurse and therefore complete it.
+
+### **MAINTENANCE WITHIN ONE’S MEANS**
+
+The father’s duty is the mother’s food and clothing in fairness, meaning what is due to a woman like her from a man like him. Al-Ḍaḥḥāk says that if a man divorces his wife while she is nursing his child and they agree that she will nurse it for two years, the father owes her food and clothing fairly. Sufyān says the same.
+
+Sufyān explains that a soul is burdened only with what it can manage. The Arabic word means what one has room for, so that giving it does not constrict or exhaust. This verse is about the father’s maintenance, not a claim about human ability to obey.
+
+### **NO HARM THROUGH THE CHILD**
+
+Most readers read this as a prohibition, and that is preferred, since Muslims agree that harming each other through the child is forbidden to both parents. Mujāhid says: *“She should not refuse to nurse him so that it becomes hard for his father, and the father must not suffer harm through his child; nor should he prevent the mother from nursing him to grieve her.”* ʿIkrimah says the mother here means the wet-nurse. So if a father wants to remove a child from its mother who is nursing and caring for it for the same wage another woman would take, the ruler should make him leave the child with her while it needs her.
+
+### **THE HEIR**
+
+Who is the heir? Qatādah and al-Suddī say it is the child’s heir. ʿUmar made a baby’s paternal cousins pay for its maintenance, al-Ḥasan says the male paternal kin, and Qatādah says all heirs in proportion to their share. Qabīṣah ibn Dhuʾayb and Bishr ibn Naṣr say the heir is the child itself. Sufyān says it is the surviving parent. As for what is owed, Ibrāhīm says the nursing wage, while al-Ḍaḥḥāk and al-Shaʿbī say it means not causing harm. The preferred view is that the heir is the child itself, which owes its mother, if she is in need, the same food and clothing the father owed her, or her nursing wage if she is well off.
+
+### **WEANING AND WET-NURSES**
+
+Weaning means separating the child from milk. Al-Suddī and Qatādah say parents may wean before two years if they agree; Ibn ʿAbbās says before or after. Mujāhid says they must not wrong themselves or the child. The preferred view is within the two years, since consultation means nothing once nursing has ended.
+
+Mujāhid says a wet-nurse may be hired out of fear for the child. The preferred view is that this applies when the parents have not agreed to wean and the mother refuses, provided the father pays the mother what is owed for the time she nursed, as Ibn Jurayj says. Paying in fairness means generously, without cheating the nurses.
+
+## **2:234**
+
+> As for those of you who die and leave widows behind, let them observe a waiting period of four months and ten days. When they have reached the end of this period, then you are not accountable for what they decide for themselves in a reasonable manner. And Allah is All-Aware of what you do
+
+### **MEANING**
+
+After the waiting of divorced women, the passage sets out the waiting required of a woman whose husband has died. She is to hold herself back for **four months and ten days**: back from remarriage, from perfume and adornment, and from moving out of the home she lived in during her husband’s lifetime. If she is pregnant, her waiting lasts until she gives birth, and when she delivers, her waiting is over.
+
+Once that term is complete, everything that was withheld from her during it becomes permitted again. Her guardians then bear no sin for what she chooses to do with herself in a proper way: wearing perfume and adornment, leaving the house in which she spent her waiting, or marrying a man she may lawfully marry, all within what God has allowed. God is fully aware of how the guardians treat the women in their care, whether they block them or allow them to marry as they wish, and of everything else they do; nothing of it is hidden from Him.
+
+### **THE SHAPE OF THE SENTENCE**
+
+The verse begins by mentioning the men who pass away leaving wives, but it then speaks only about the wives and the duties they must observe. Grammarians asked where the statement about the dead men is. The answer is that the speech intends to tell about the obligation on the widows, so it turns from the men first mentioned to their wives, since the meaning is clear. Arabic poetry does the same. One poet says, *“Perhaps, if the wind bends me toward him, Ibn Abī Dhubbān will regret it,”* beginning with himself and then turning to the man he really means. Another says that *“Ibn Qays and his killing without blood-guilt”* brought disgrace, mentioning the man first and then speaking only of his killing. Some grammarians proposed other explanations, but these lines show the plainer solution.
+
+### **WHAT THE WAITING INCLUDES**
+
+The authorities differed over what the widow holds herself back from. Some held the view given above. Ibn ʿAbbās, in a report through ʿAlī ibn Abī Ṭalḥah, says this is the waiting of a woman whose husband has died, unless she is pregnant, in which case her waiting ends when she delivers what is in her womb. Ibn Shihāb says God made this the waiting of the widow, but if she is pregnant, giving birth releases her, even if it comes after more than **four months and ten days** or later still.
+
+Several Prophetic reports support including mourning in the waiting. Zaynab, daughter of Umm Salamah, relates from Umm Salamah that a widow whose eye was ailing came to ask the Prophet about using kohl. He said: *“One of you in the age of ignorance would stay in the worst of her rags in her house for a whole year when her husband died, and then a dog would pass and she would throw a piece of dung at it. Can she not manage **four months and ten days**?”* Ḥafṣah, daughter of ʿUmar, relates that the Prophet said: *“It is not lawful for a woman who believes in God and the Last Day to mourn for more than three days, except for a husband, for whom she mourns **four months and ten days**.”* Yaḥyā, one of the transmitters, explains that mourning means not wearing perfume, not wearing cloth dyed with saffron or similar dyes, not using kohl, and not adorning herself.
+
+Others said the widow is commanded to hold back only from remarriage, not from perfume, adornment, or spending nights away from her home. Al-Ḥasan permitted her to adorn herself and did not consider mourning anything required. Ibn ʿAbbās, in another report, says: *“He did not say she must wait in her house; she waits wherever she wishes.”* They cited a report from Asmāʾ bint ʿUmays, who said that when her husband Jaʿfar was killed, the Prophet told her: *“Wear mourning garments for three days, then do as you wish.”*
+
+Those who required mourning and staying in the home relied on the wording of the verse, which commands her to hold herself back without restricting it to remarriage, and on the Prophetic reports. Al-Furayʿah bint Mālik, sister of Abū Saʿīd al-Khudrī, said that her husband was killed while she was living in a certain house. She asked the Prophet for permission to move, and he allowed her, then called her back after she had turned away and said: *“Furayʿah, stay until the prescribed term reaches its end.”* They added that the report from Asmāʾ does not show that there is no mourning; it shows only that after three days in mourning garments she could wear whatever a widow is permitted to wear.
+
+### **WHY TEN, AND WHY THESE DAYS?**
+
+The ten are counted as days together with their nights. The Arabic numeral is in the form used for nights because, when Arabs speak of days and nights without specifying, they give precedence to nights; they would even say they fasted *“ten”* of Ramadan in this form. Where both are named separately, as in Qur’an 69:7, which speaks of *“seven nights and eight days,”* each number takes its own form.
+
+As for why the extra ten are added to the months, Abū al-ʿĀliyah was asked and answered that it is because the soul is breathed into the foetus during that extra span. Qatādah asked Saʿīd ibn al-Musayyab the same question and received the same answer.
+
+### **AFTER THE TERM ENDS**
+
+The guardians bear no sin for what the widow does in a fitting way once her term has ended. Some said this refers specifically to marriage, and that what is fitting means lawful marriage. Mujāhid says it means *“the lawful and the good.”* The closing words remind the guardians that God is fully informed of how they deal with the women under their care.
+
+## **2:235**
+
+> There is no blame on you for subtly showing interest in ˹divorced or widowed˺ women or for hiding ˹the intention˺ in your hearts. Allah knows that you are considering them ˹for marriage˺. But do not make a secret commitment with them—you can only show interest in them appropriately. Do not commit to the bond of marriage until the waiting period expires. Know that Allah is aware of what is in your hearts, so beware of Him. And know that Allah is All-Forgiving, Most Forbearing
+
+### **MEANING**
+
+Following the widow’s waiting, the verse tells men how they may approach such a woman while that waiting is still running. A man commits no sin if he hints that he would like to marry her, without stating it outright, or if he keeps the wish to himself and resolves inwardly to propose once she is free. God knows that men will think of such women and speak of them, so He has allowed what is natural within proper bounds.
+
+What is forbidden is to arrange with her in secret anything unlawful. The only speech allowed during her waiting is decent, fitting words of the kind the verse permits. Nor may a man conclude the marriage contract with her until the term God prescribed has run its full course. God knows what is in people’s hearts, their desires and their plans, so they should guard themselves against doing anything He has forbidden. Yet He is forgiving toward those who repent and forbearing in not hastening to punish.
+
+### **HINTING AT A PROPOSAL**
+
+The hinting allowed here is speech whose meaning is understood without being stated outright. Ibn ʿAbbās says it is that a man says, *“I want to marry,”* or *“I would love a woman of such and such qualities,”* hinting to her with decent words. In another report he gives the example: *“I want to get married.”*
+
+Arabic scholars differed over the word translated as proposal. Some said it means mention, so that the verse permits men to mention women in their presence. Others linked it to the word meaning a matter or affair, as in Qur’an 20:95, where Moses asks the Samaritan, *“What is your matter?”* The better view is that it is the noun for proposing, from the phrase used when a man asks a woman’s family for her hand, and that it means presenting one’s need to her, as one asks, *“What is your need?”*
+
+### **WHAT IS HIDDEN IN THE SOUL**
+
+To conceal in oneself means to hide and keep secret one’s wish to propose and one’s resolve to marry her while she waits. That too carries no sin, so long as the contract is not concluded before the term ends. The verb is related to words for shelter and covering, as in Qur’an 37:49, which compares the maidens of Paradise to *“sheltered eggs.”* Mujāhid says concealing means a man thinking about proposing to her without showing it to her: *“All of this is lawful and proper.”*
+
+The distinction God draws between hinting at marriage, which is allowed, and declaring it, which is not, shows that hinting and plain statement have different rulings in speech generally.
+
+Al-Ḥasan says the verse’s statement that God knows men will think of such women refers to proposing. Mujāhid says it is a man thinking of her in his own mind.
+
+### **THE FORBIDDEN SECRET**
+
+The authorities differed over the secret arrangement the verse forbids. Jābir ibn Zayd and Abū Mijlaz say it is fornication. Ibn ʿAbbās says it is that a man says to her, *“I am in love with you; promise me you will marry no one else,”* and similar words. Saʿīd ibn Jubayr says it is making her pledge not to marry anyone else. Mujāhid says it is a man saying, *“Never let yourself slip away from me, for I will marry you,”* and that this is not lawful. Ibn Zayd says it means marrying her secretly during her waiting, keeping her, and revealing the marriage once she is free.
+
+The preferred view is that the secret here means unlawful intimacy. Arabs call intercourse a secret because it takes place out of sight. Ruʾbah says of a man that he *“refrained from her secrets,”* meaning intimacy with her, and al-Ḥuṭayʾah praises people for whom *“the secret of their neighbour’s wife is forbidden to them.”* The word can also mean what a person hides in himself, or the choicest of a people. The last meaning clearly does not apply.
+
+The meaning cannot be the hidden promise of marriage, because if that were forbidden only for being secret, an open promise would be permitted, yet the whole community forbids an explicit promise of marriage to a woman in her waiting, whether privately or openly. What remains is intimacy.
+
+### **DECENT WORDS AND THE CONTRACT**
+
+The exception for decent speech is an exception of a different kind from what precedes it. Saʿīd ibn Jubayr says it is saying, *“I have a desire for you, and I hope we will be together.”* Ibn ʿAbbās says it is saying, *“If you see fit, never let yourself go before me.”*
+
+To resolve on the marriage tie means to conclude and make binding the contract during her waiting. The prescribed term is the waiting God set out in the previous verse. Mujāhid says it lasts till the waiting ends, and al-Suddī says until four months and ten days pass.
+
+### **GOD’S KNOWLEDGE AND FORBEARANCE**
+
+God knows what is in people’s hearts of desire for these women and plans to marry them, so they should fear Him and avoid what He forbade: concluding the contract or arranging unlawful intimacy during the waiting. He is forgiving toward those who turn back from such sins and forbearing in leaving the punishment of His servants for a time.
+
+## **2:236**
+
+> There is no blame if you divorce women before the marriage is consummated or the dowry is settled. But give them a ˹suitable˺ compensation—the rich according to his means and the poor according to his. A reasonable compensation is an obligation on the good-doers
+
+### **MEANING**
+
+The passage now considers a marriage that ends before it has properly begun. Men commit no sin in divorcing wives they have not yet touched, whether a bride-gift was named for them or not. The verse then deals with the bride for whom no bride-gift was fixed: such a woman is owed a parting gift, something from the husband’s wealth for her to benefit from, measured by the husband’s circumstances. A wealthy man gives in proportion to his wealth, and a man of little means gives in proportion to what little he has. It is to be given properly, without injustice and without delay, as a right binding on everyone who does good, that is, everyone who hastens to obey God and fulfil what He has imposed.
+
+The verse speaks of two kinds of women divorced before consummation: one whose bride-gift was named, and one whose bride-gift was not. The ruling for the first comes in the next verse, which gives her half of what was named. This verse gives the second a parting gift.
+
+### **TOUCHING AND THE BRIDE-GIFT**
+
+Touching here is a polite expression for intercourse. Ibn ʿAbbās, in a report through Saʿīd ibn Jubayr, says: *“Touching is intercourse, but God alludes to whatever He wills with whatever He wills.”* Most readers of the Ḥijāz and Basra read the verb in a simple form, *“you touched them,”* while others read it in a mutual form, as in Qur’an 58:3, which speaks of freeing a slave *“before they touch each other.”* Both readings are sound and agree in meaning, since whoever touches is also touched.
+
+The word translated as settling a bride-gift means making it binding. Ibn ʿAbbās says the obligation here is the bride-gift. Its root sense is what is required, as a poet says that *“stoning was the prescribed penalty of adultery.”*
+
+### **THE PARTING GIFT AND ITS SIZE**
+
+The parting gift is something the husband gives from his wealth, in keeping with his rank in wealth or poverty. Ibn ʿAbbās says: *“The highest parting gift of divorce is a servant, below that silver, and below that clothing.”* Al-Shaʿbī, asked about a middling gift, said: *“Her head-covering, her dress, her outer cloak and her wrap,”* the clothes she wears at home, and he reports that the judge Shurayḥ gave five hundred. Ḥumayd ibn ʿAbd al-Raḥmān ibn ʿAwf relates from his mother that she remembered a black slave girl whom ʿAbd al-Raḥmān gave as a parting gift to the mother of Abū Salamah when he divorced her. Ibn Sīrīn says a man would give a servant, money, or clothing, and that al-Ḥasan ibn ʿAlī gave, he thought, ten thousand. Abū Ḥanīfah and his followers held that if the couple disagree, the gift equals half the bride-gift customary for a woman like her.
+
+The sound view is that of Ibn ʿAbbās: the gift is measured by the husband’s ease or hardship, as the verse itself says, not by the woman’s standing. A woman’s customary bride-gift may be a great sum while her husband, at the time of divorce, owns nothing.
+
+The words for the rich and the poor describe the one who has reached ease and wealth and the one with little money. The word for measure was read both with a vowel and without; both readings were transmitted and agree in meaning, so either is correct.
+
+### **DUTY OR RECOMMENDATION?**
+
+Some said the gift is a binding debt owed to every divorced woman, whether or not the marriage was consummated. Al-Ḥasan and Abū al-ʿĀliyah say every divorced woman is owed a gift, and Saʿīd ibn Jubayr cites Qur’an 2:241: *“Reasonable provisions must be made for divorced women.”* Others said it is binding for every divorced woman except one whose bride-gift was named and who was divorced before consummation, since she receives half. Ibn ʿUmar says this, and Saʿīd ibn al-Musayyab says that such a woman had a gift under the verse in Surah al-Aḥzāb until this passage gave her half instead. Al-Zuhrī says there are two gifts, one enforced by the ruler and one owed before God by the God-fearing. Shurayḥ would not enforce it, but told a man: *“If you are among the God-fearing, you owe the gift.”*
+
+Those who made it a recommendation argued that a true debt would not be described as a duty only on those who do good and those who fear God. The preferred view is that every divorced woman is owed a parting gift, enforceable like her bride-gift and her other debts, because God commanded it and His command is binding, and because Qur’an 2:241 gives it to divorced women without exception. God has commanded all people to be good-doers and God-fearing, so the description does not lessen the duty. Everyone agrees that a woman divorced before consummation without a named bride-gift is owed only the parting gift; Ibn ʿAbbās, al-Ḥasan, and Nāfiʿ say so.
+
+### **WHY NO SIN?**
+
+Someone may ask whether there would be sin in divorcing after consummation. It is reported that the Prophet said, in a report through Shahr ibn Ḥawshab, *“God does not love men and women who merely taste,”* and, in a report through Abū Burdah from his father, *“What is wrong with people who play with God’s limits, saying: I have divorced you, I have taken you back, I have divorced you?”* The sin lifted here may be the one attached to divorcing after such tasting. It may also mean that a man may divorce a wife he has not touched at any time, since the rule about proper timing applies only to wives whose marriage has been consummated.
+
+## **2:237**
+
+> And if you divorce them before consummating the marriage but after deciding on a dowry, pay half of the dowry, unless the wife graciously waives it or the husband graciously pays in full. Graciousness is closer to righteousness. And do not forget kindness among yourselves. Surely Allah is All-Seeing of what you do
+
+### **MEANING**
+
+This verse explains the second case mentioned in the previous one. When a man divorces his wife before touching her, but after a bride-gift was named for her in the contract, she is owed half of what was named, and no more. The verse repeats the case explicitly so that no one imagines that this woman is owed only a parting gift, as the woman with no named bride-gift is.
+
+That half may be dropped or completed by generosity. The woman, if she is an adult of sound judgement in control of her own property, may forgo her half out of kindness. Or the husband, who holds the marriage tie in his own hands, may give her the full amount rather than half. Whichever of them forgoes what is due to him or her is acting nearer to the fear of God. The divorcing couple should keep in mind generosity toward each other, for God sees all they do, including the kindness He urges on them and their other deeds, and He will repay it.
+
+### **HALF THE BRIDE-GIFT**
+
+Ibn ʿAbbās says: *“This is a man who marries a woman and names a bride-gift for her, then divorces her before touching her; she has half her bride-gift and no more than that.”* Mujāhid says the same. On the woman forgoing her half, Saʿīd ibn al-Musayyab says: *“If she wishes, she may forgo her bride-gift,”* and Shurayḥ says the woman forgoes it and leaves the half.
+
+The earlier verse dealt with the woman whose bride-gift was not named, and this one with the woman joined to her by the word *“or”* there: the woman whose bride-gift was named. That is why their rulings differ.
+
+### **WHO HOLDS THE MARRIAGE TIE?**
+
+The authorities differed over who is meant by the one who holds the marriage tie. Some said it is the guardian of a virgin girl, who may forgo her half for the husband if she is not yet entitled to manage her own property. Ibn ʿAbbās, in a report through ʿIkrimah, says: *“God permitted forgoing and commanded it. If she forgoes, it is as she forgoes; if she is reluctant and her guardian forgoes, it is valid even if she refuses.”* In another report he says it is the father of the virgin girl, to whom God gave the right to forgo, and she has no say with him while she is in his care.
+
+Others said it is the husband, and the meaning is that he forgoes his half and gives her the bride-gift in full. ʿAlī says the one who holds the marriage tie is the husband. ʿĪsā ibn ʿĀṣim al-Asadī relates that ʿAlī asked Shurayḥ, who said it was the guardian, and ʿAlī replied: *“No, it is the husband.”*
+
+The preferred view is that it is the husband. All agree that if a guardian, of a virgin or of a previously married woman, young or grown, released the husband from her bride-gift before the divorce, the release would be void and the bride-gift would remain owed; releasing it after the divorce is no different. All also agree that if a guardian gave away even a single coin of her property to her former husband, apart from forgoing her bride-gift, the gift would be void. And all agree that her paternal cousins are among her guardians, yet their forgoing her property is void. Those who say *“guardian”* must also explain which guardians are meant, since the verse is general; any line they draw lacks proof.
+
+Someone may object that after divorce the husband no longer holds her marriage tie. The answer is that the phrase means his own marriage tie, which he holds before and after divorce; the definite article stands in place of a possessive, as in Qur’an 79:41, *“Paradise will be the refuge,”* meaning his refuge. A poet similarly speaks of people whose *“minds are never absent,”* meaning their minds. Moreover, the pronouns in the passage refer to all the women just mentioned, including grown women who manage their own affairs; making the guardian forgo for them would give guardians of mature women a right no one grants them.
+
+### **NEARER TO GOD-CONSCIOUSNESS**
+
+The authorities differed over whom the words about forgoing address. Ibn ʿAbbās says: *“The nearer of them to God-consciousness is the one who forgoes,”* and Saʿīd ibn ʿAbd al-ʿAzīz says it means both forgo. Al-Shaʿbī says it addresses the husband: that he forgoes is nearer to God-consciousness. The preferred view is that of Ibn ʿAbbās: whichever spouse, after separation, gives up what is due to him from the other, or pays the other in full, comes nearer to the fear of God. The nearness lies in hastening to do what God has encouraged.
+
+### **GENEROSITY BETWEEN THEM**
+
+The divorcing couple should not neglect generosity toward each other. The man who divorces before consummation should complete her bride-gift if he has not paid it all, and if he has already paid it, he should be generous by not reclaiming half. Jubayr ibn Muṭʿim is reported to have visited Saʿd ibn Abī Waqqāṣ, who offered him his daughter in marriage. He married her, divorced her as soon as he left, and sent her the full bride-gift. Asked why he married her, he said, *“He offered her to me and I disliked refusing.”* Asked why he sent the full bride-gift, he said: *“Then where is the generosity?”* Mujāhid explains generosity here as the husband completing the bride-gift or the woman leaving her half.
+
+God sees what they do in forgoing their rights for each other and in all their affairs, and nothing of it is hidden from Him.
+
+## **2:238**
+
+> Observe the ˹five obligatory˺ prayers—especially the middle prayer—and stand in true devotion to Allah
+
+### **MEANING**
+
+In the midst of rulings on marriage, divorce, and widowhood, the passage pauses to command the prescribed prayers. Believers are to keep to them constantly at their appointed times, watching over them and holding fast to them, and to give particular care to one of them, **the middle prayer**. They are to stand before God in their prayers in humble obedience to Him.
+
+The placement is telling. Rulings that touch people’s strongest passions, such as anger, pride, money, and desire, are interrupted by a reminder of the prayer that disciplines the soul and keeps the believer conscious of God, before the passage returns to widows and divorced women in the verses that follow.
+
+### **GUARDING THE PRAYERS**
+
+Guarding the prayers means performing them in their proper times, attending to them, and never neglecting them. Masrūq says: *“Guarding them is guarding their times and not being heedless of them.”* In another report he says that guarding them is praying each in its time, and heedlessness is letting its time pass.
+
+### **THE MIDDLE PRAYER: THE AFTERNOON**
+
+The authorities differed over which prayer is the middle one. Many said it is the afternoon prayer. This is reported from ʿAlī through several routes, including al-Ḥārith and Abū al-Ṣahbāʾ al-Bakrī, from Ibn ʿAbbās, Abū Hurayrah, Abū Saʿīd al-Khudrī, Abū Ayyūb, and ʿĀʾishah, and from al-Ḥasan, Ibrāhīm, Saʿīd ibn Jubayr, Zirr ibn Ḥubaysh, Mujāhid, and al-Ḍaḥḥāk. Qatādah says: *“We used to be told that it is the afternoon prayer, with two prayers of the day before it and two prayers of the night after it.”* Ibn Shihāb relates that Ibn ʿUmar regarded the afternoon prayer as especially virtuous because the Prophet said, *“Whoever misses the afternoon prayer, it is as if he has lost his family and his wealth.”*
+
+Several reports from the Prophet’s wives describe copies of the Qur’an that added an explanation to this verse. Ḥumaydah, a freedwoman of ʿĀʾishah, says she found in ʿĀʾishah’s copy: *“Guard the prayers, and **the middle prayer**, which is the afternoon prayer, and before God stand in obedience.”* Umm Ḥumayd says ʿĀʾishah told her they used to read it that way in the Prophet’s time. ʿAbd Allāh ibn Rāfiʿ, a freedman of Umm Salamah, says she told him to inform her when he reached the verse on prayer while writing a copy for her, and she dictated it with the words *“the afternoon prayer”*. Ḥafṣah gave similar instructions to the man writing her copy, saying she had heard it from the Prophet. Al-Barāʾ ibn ʿĀzib says the verse was first revealed as *“Guard the prayers and the afternoon prayer,”* and was read that way for a time, until God replaced it with the present wording. When a man then said, *“So it is the afternoon prayer,”* al-Barāʾ replied: *“I have told you how it was revealed and how God replaced it, and God knows best.”*
+
+The strongest support for this view is the account of the Battle of the Trench. ʿAbd Allāh ibn Masʿūd relates that the idolaters kept the Prophet from the afternoon prayer until the sun turned yellow or red, and he said: *“They have kept us from **the middle prayer**. May God fill their bellies and their graves with fire.”* Zirr relates that ʿAbīdah al-Salmānī asked ʿAlī about **the middle prayer**, and ʿAlī said: *“We used to think it was the dawn prayer, until I heard the Messenger of God say on the day of the Confederates: They have kept us from **the middle prayer**, the afternoon prayer! May God fill their graves and their bellies with fire.”* Another report has ʿAlī say that the Prophet did not pray the afternoon prayer that day until after sunset, and then prayed it between the sunset and night prayers. Ibn ʿAbbās relates similar wording.
+
+Kuhayl ibn Ḥarmalah says Abū Hurayrah, when asked about **the middle prayer**, said that the Companions once disagreed about it at the door of the Prophet’s house, until the righteous Abū Hāshim ibn ʿUtbah went in to ask the Prophet, then came out and told them it was the afternoon prayer. Samurah and Abū Mālik al-Ashʿarī also relate from the Prophet that **the middle prayer** is the afternoon prayer.
+
+### **THE MIDDLE PRAYER: THE NOON**
+
+Others said it is the noon prayer. Zayd ibn Thābit says this through several routes, and in one report attributes it to the Prophet. Saʿīd ibn al-Musayyab says that Abū Saʿīd al-Khudrī held the same, and when ʿUrwah sent a boy to ask Ibn ʿUmar, he said it was the noon prayer. Another report has Ibn ʿUmar say it is *“the one that follows the forenoon prayer,”* and his freedman ʿAbd al-Raḥmān ibn Aflaḥ said it was the prayer in which the Prophet was turned toward the qiblah.
+
+They cited Zayd ibn Thābit’s report that the Prophet used to pray the noon prayer in the midday heat, and no prayer was harder on his Companions, so the verse was revealed. Zayd added: *“Before it are two prayers and after it are two prayers.”* Al-Zibriqān relates that some men of Quraysh asked Zayd, who said it was the noon prayer; they then asked Usāmah ibn Zayd, who said the same, explaining that the Prophet prayed it in the heat with only one or two rows behind him while people rested or traded, and said, *“I have considered burning the houses of people who do not attend the prayer,”* after which the verse came down.
+
+### **WEIGHING THE REPORTS**
+
+Both views rest on the idea of a prayer standing between two others, but the reports for the afternoon prayer are more numerous, come through many Companions, and include the Prophet’s own words at the Trench, where he named the prayer he had missed. The added words in the wives’ copies point the same way. Both groups agree that the verse singles out one of the five for special care, while commanding care for all of them.
+
+### **STANDING IN OBEDIENCE**
+
+The final command is to stand before God in the prayer as obedient servants, as the opening of the next verse explains when it speaks of praying in a state of fear. Standing in this way means giving the prayer its full form in calm and submission, which is exactly what the next verse relaxes when danger makes it impossible.
+
+## **2:239**
+
+> If you are in danger, pray on foot or while riding. But when you are safe, ˹take time to˺ remember Allah for teaching you what you did not know
+
+### **MEANING**
+
+The previous verse commanded believers to stand before God in their prayers in humble obedience. This verse explains what happens when that is impossible. If believers fear an enemy and dread being killed should they stand on the ground to pray in the normal way, they are to pray walking, in the middle of their fighting, or mounted on their animals. Praying in that state stands in place of standing still in obedience, and it is accepted from them.
+
+When the danger has passed and they are secure again from the enemy, and from whatever else they feared while praying, they are to return to praying in the full, settled form. They are also to remember God, in their prayers and outside them, with thanks and praise, for guiding them to the truth from which their enemies strayed, and for teaching them His rulings, His lawful and unlawful, and the accounts of earlier nations and of what is to come, all of which they had not known before He taught them.
+
+### **WALKING OR MOUNTED**
+
+The word translated as praying **on foot** is the plural of a word for one who walks. The people of the Ḥijāz use a related singular, and some Arabs of the tribe of ʿUqayl used yet another form, as in a line about visiting God’s House *“walking and barefoot.”* Some reportedly read the word with a doubled consonant or another vowel, but those readings are not acceptable, since they depart from the reading inherited and widely transmitted in the Muslim cities. The word translated as riding is the plural of the word for a rider, which has many plural forms in Arabic.
+
+The noun is in the accusative because of an implied verb, *“then pray walking,”* a construction Arabs use especially in conditional sentences, as in the saying *“if good, then good; if evil, then evil,”* meaning if you do good you will meet good.
+
+Ibrāhīm al-Nakhaʿī, asked about the verse, said it applies during pursuit in battle: a man prays in whatever direction he is facing, riding or walking, makes his prostration lower than his bowing, and prays two units, indicating the movements with gestures. In another report he describes it as *“the prayer of combat: two units, by gesture.”*
+
+### **WHAT FEAR PERMITS THIS?**
+
+The fear that allows someone to pray an obligatory prayer while walking or riding is fear for one’s life when swords are drawn and fighting has begun against an enemy one has been commanded to fight, or against a brigand, or when pursued by a wild beast or a charging camel, or caught by a flood and afraid of drowning. Any situation in which a person would most likely perish if he prayed in the ordinary way falls under this, because the verse speaks of fear in general without restricting it to one kind.
+
+It must be fear of this intensity, because the Prophet distinguished between the prayer of fear when there is no hand-to-hand fighting and the prayer when fighting is at its height. Ibn ʿUmar relates that the Prophet described the prayer of fear: the commander stands with one group and they pray one unit while another group stands between them and the enemy; then those who prayed take the place of those who had not, who come and pray one unit with the commander; the commander then finishes, and each group completes one further unit on its own. Ibn ʿUmar also relates: *“When they are intermingled in fighting, it is only remembrance and a gesture of the head,”* and that the Prophet said, *“If there are more of them than that, they pray standing and riding.”* So the verse refers to the most intense fear, when lines have broken down.
+
+Ibn ʿUmar is also reported to have described the same arrangement as his own practice, adding that if the fear is greater, people pray walking or riding.
+
+As for the number of units in such a state, it is better not to reduce them below the number prayed in safety, but if someone prays only one unit, it suffices. Ibn ʿAbbās says: *“God made the prayer obligatory through your Prophet’s tongue as four units at home, two on a journey, and one in fear.”*
+
+### **WHEN SAFETY RETURNS**
+
+Mujāhid explains the words about safety as leaving the land of travel for the land of residence. Ibn Zayd says that when safety returns they are to pray as God made it obligatory, since fear brought only a concession, and that remembering God here means the prayer itself, *“as He has taught you.”*
+
+Mujāhid’s explanation is less sound than the alternative. All agree that once fear has gone, the person praying must perform the obligatory prayer with its bowing, prostration, and other requirements, standing on the ground and neither walking nor riding, even if he is on a journey, apart from the permitted shortening. The verse does not mention travel at all; it speaks only of prayer in safety and prayer in extreme fear. Had God meant residence after travel, He would have said, *“when you settle,”* not *“when you are secure.”*
+
+So the closing command means: once the fear has passed, establish your prayer and your remembrance of God as you did before the fear came, and thank Him for the knowledge He has given you.
+
+## **2:240**
+
+> Those of you who die leaving widows should bequeath for them a year’s maintenance without forcing them out. But if they choose to leave, you are not accountable for what they reasonably decide for themselves. And Allah is Almighty, All-Wise
+
+### **MEANING**
+
+The passage returns to widows after the interlude on prayer. When men died and left wives, wives by marriage rather than slave women, were required to leave a provision for them: housing and maintenance from the husband’s estate for a full year, during which the heirs could not evict them from the husband’s home. The provision was the widow’s right, but she was not bound to take it. If she chose to leave the house before the year was up, of her own accord and without being forced out, the heirs bore no blame for what she then did with herself in a proper way, such as giving up mourning, adorning herself, wearing perfume, and remarrying, for all of that was hers to do. God is mighty in punishing those who deny women what He made due to them, such as the parting gift, the bride-gift, and this provision, and wise in all He ordains for His creatures.
+
+According to the dominant explanation in the early sources, this arrangement was later changed. The maintenance was replaced by the widow’s fixed share of inheritance, and the year of residence was reduced to the four months and ten days set out in the earlier verse on widows.
+
+### **A BEQUEST OR A DECREE?**
+
+The readers differed over the word translated as bequest. Some read it in the accusative, meaning *“let them make a bequest for their wives”* or *“they must make a bequest.”* Others read it in the nominative. Grammarians explained the nominative in two ways: either it means *“a bequest is prescribed for them,”* with the verb left unsaid, a view supported by the reading attributed to ʿAbd Allāh ibn Masʿūd, or the bequest is the subject of the phrase *“for their wives.”* The first explanation is better, because Arabs normally place an indefinite subject after the word that governs it when that word is implied.
+
+The nominative reading is preferred. The plain wording of the Qur’an, supported by many Prophetic reports, shows that a widow’s year of residence in her husband’s house was her right before the four months and ten days and the verses of inheritance were revealed, whether her husband had bequeathed it to her or not. A man who leaves a bequest does so during his life, to be carried out after his death, yet this right begins only at his death. If the verse had meant *“let him make a bequest,”* it would have spoken of men at the point of death, as Qur’an 2:180 does: *“It is prescribed for you, when death approaches any of you, if he leaves wealth, to make a bequest.”* Moreover, if the right depended on the husband’s bequest, a widow whose husband left none would have no right, and his heirs could evict her before the year ended, yet the verse explicitly rules out eviction.
+
+The provision is called an enjoyment because the bequest means that God has granted them something to enjoy. The phrase *“without eviction”* describes that enjoyment: a provision with no expulsion from the husband’s home until the year ends.
+
+### **ABROGATED OR STILL IN FORCE?**
+
+Several authorities said the verse was abrogated. Qatādah, in a report through Hammām ibn Yaḥyā, says a widow used to have housing and maintenance from her husband’s wealth for a year as long as she did not leave, and that this was later abrogated in Surah al-Nisāʾ, which gave her a fixed share. Al-Rabīʿ says this was before the verse of inheritance, when the widow could have a year’s housing and maintenance if she wished. Ibn ʿAbbās says that a widow would wait a year in her husband’s house, supported from his wealth; then God revealed the four months and ten days, and if she left when those ended her maintenance stopped; later the quarter and the eighth replaced it, and she took her share, with neither housing nor maintenance. Ibrāhīm al-Nakhaʿī also says the verse is abrogated.
+
+Others said the verse remains in force. Mujāhid says that the waiting of four months and ten days was obligatory, to be spent with the husband’s family, and that God then added this verse, completing the year with seven months and twenty nights as a bequest: *“If she wishes, she may live in her bequest, and if she wishes, she may leave.”* The waiting itself remains obligatory. ʿAṭāʾ relates from Ibn ʿAbbās that this verse cancelled the requirement to wait with the husband’s family, so she may wait wherever she wishes, and ʿAṭāʾ adds that inheritance later cancelled the housing.
+
+The preferred view is that God first gave widows a year of housing in the husband’s home and maintenance from his estate, and forbade the heirs to evict them, though the heirs bore no blame if the widows gave up their right and left. God then cancelled the maintenance through the verse of inheritance, and through His Messenger cancelled seven months and twenty nights of the year’s residence, returning widows to four months and ten days. Al-Furayʿah, sister of Abū Saʿīd al-Khudrī, relates that her husband was killed while pursuing a slave of his. She told the Prophet that she was alone in that place and wished to move to her family, and he said: *“Stay where you are until the prescribed term reaches its end.”*
+
+### **WHEN THE WIDOW LEAVES**
+
+The provision belonged to the widow only while she stayed in her husband’s home; it lapsed if she left before the year of her own accord. The heirs, though addressed, bore no blame for her leaving and ending her mourning, because the full year of residence and mourning had never been an obligation on her, only a permission. Had there been blame on her, there would have been blame on the heirs for letting her go when they could stop her. Since there was none, she was free to adorn herself, wear perfume, and marry.
+
+## **2:241**
+
+> Reasonable provisions must be made for divorced women—a duty on those mindful ˹of Allah˺
+
+### **MEANING**
+
+Every woman who is divorced is owed a parting gift from the husband who divorces her. This is something she can benefit from and enjoy, such as clothing, garments, maintenance, a servant, or anything else of use. It is to be given in a fitting manner, in keeping with what people recognise as right. It is a binding obligation on the God-fearing, those who guard themselves against God’s anger by keeping His commands, His prohibitions, and His limits, doing what He has charged them with out of awe of Him and fear of His punishment.
+
+The verse broadens what was said earlier about the parting gift. Earlier verses mentioned particular groups of **divorced women**; here the command covers every divorced woman, whatever her circumstances, so that no group is left outside the duty.
+
+### **WHICH WOMEN ARE MEANT?**
+
+Scholars differed over which **divorced women** this verse refers to.
+
+Some said it refers to previously married women whose marriages had been consummated. They reasoned that the rights of women divorced before consummation had already been set out in the preceding verses, so this verse must concern those with whom the marriage had been consummated. ʿAṭāʾ says it concerns *“the previously married woman whose husband gives her a parting gift in a fitting way if he has had relations with her.”*
+
+Others said the verse shows that every divorced woman is owed a parting gift. God revealed it because it adds something the other verses on the parting gift lack: they set out the ruling only for a woman divorced before being touched, while this one gives the ruling for all **divorced women**. Saʿīd ibn Jubayr says simply that every divorced woman is owed a parting gift in a fitting way, as a duty on the God-fearing. Al-Zuhrī, speaking of a pregnant slave woman divorced by her husband, says she spends her waiting period in her house; he adds that he has heard nothing about a parting gift for a slave woman worth reporting, yet cites this verse and concludes that she is owed it until she gives birth. ʿAṭāʾ, asked whether a slave woman married to a free man, or a free woman married to a slave, is owed a parting gift, answered no to both; ʿAmr ibn Dīnār answered yes, reciting this verse.
+
+A third group said the verse was revealed for a particular reason. When God revealed the command to give **divorced women** a parting gift, *“the wealthy according to his means and the poor according to his means, a provision in a fitting way, **a duty on those** who do good”* (Qur’an 2:236), a Muslim man said: *“Then if we do not wish to do good, we will not do it.”* So God revealed this verse, and the duty became binding on them. Ibn Zayd relates the same, quoting the man: *“If I wish to do good I will do it, and if I do not, I will not!”*
+
+### **A GIFT FOR EVERY DIVORCED WOMAN**
+
+The correct view is Saʿīd ibn Jubayr’s: God revealed this verse to show His servants that every divorced woman is owed a parting gift. In the other verses that mention a parting gift for women, God addressed particular groups. In Qur’an 2:236 and in Qur’an 33:49, *“O you who believe, when you marry believing women and then divorce them before you have touched them,”* He made clear what women divorced before consummation are owed. In Qur’an 33:28, *“O Prophet, say to your wives: if you desire the life of this world and its adornment, then come, I will provide for you,”* He gave the ruling for women whose marriages had been consummated.
+
+That left young girls divorced after the marriage was consummated, women who were not believers, and slave women. So God spoke generally of all of them here and told that they too are owed a parting gift, just as He had singled out other **divorced women** by their descriptions elsewhere in the Qur’an. That is why the verse mentions all **divorced women** again.
+
+This reading also fits the account of the man who thought the duty applied only to those who chose to do good. By calling it a duty on the God-fearing rather than only on those who do good, the verse makes clear that the parting gift is not a voluntary kindness left to the husband’s goodwill. Anyone who fears God must give it.
+
+### **A DUTY ON THE GOD-FEARING**
+
+The meaning of the word translated as duty, and the grammar of its form, were explained under the parting-gift verse before this, where the duty was laid on those who do good. The same explanation applies here. As for the God-fearing, they are those who fear God in His commands, prohibitions, and limits, and keep them as He charged them, out of awe of Him and dread of His punishment. The early authorities’ explanations of this word were given earlier in the surah.
+
+The parting gift itself was discussed earlier too: what it consists of, how scholars differed about it, and the preferred view. The verse here adds one point: the parting gift belongs to every divorced woman, and it is part of what a God-fearing husband owes.
+
+## **2:242**
+
+> This is how Allah makes His revelations clear to you, so perhaps you will understand
+
+### **MEANING**
+
+God addresses the believers at the close of a long series of rulings on marriage, divorce, waiting periods, nursing, widowhood, and the parting gift. He tells them that just as He has explained what they owe their spouses and what their spouses owe them, and has taught them His rulings and the rights each of them holds over the other, so He explains all His other rulings in the verses He revealed to His Prophet Muhammad in this Book.
+
+His purpose in doing so is that they, believers in God and His Messenger, should understand His limits, grasp the obligations laid on them, and recognise what brings well-being to their religion and their worldly life, in this world and the next. Understanding these rulings is meant to lead to action: by living according to them they set right the relations between them, and they gain His abundant reward when they return to Him.
+
+### **THE RULINGS THAT HAVE BEEN EXPLAINED**
+
+The word *“thus”* points back to everything God has just set out. Since the verse forbidding marriage to idolaters, the surah has dealt with family life in detail: the prohibition of intercourse during menstruation; oaths sworn hastily; the oath of abstention and its four-month limit; the waiting period of divorced women and what is in their wombs; divorce that may be revoked twice and the third that ends the marriage; the ransom a wife may pay to be released; the duty to retain a wife fairly or release her fairly, and the warning against holding her back to harm her; the prohibition on guardians preventing divorced women from returning to their husbands; the nursing of children, with the duties of father and mother; the waiting of widows and the permissible hints of a proposal during it; the bride-gift and the parting gift for women divorced before consummation; and the year’s provision for widows and the parting gift for every divorced woman. Between these rulings came the command to guard the prayers, even in fear.
+
+All of this, the verse says, is an example of how God explains His rulings. The same clarity is found throughout His Book, which sets out its lawful and unlawful and the rights people hold against one another.
+
+### **SIGNS AND THEIR EXPLANATION**
+
+The word translated as revelations, āyāt, means signs: the markers and proofs God sets up. Elsewhere in this surah it is explained in the same way. In the account of the slain man of the Children of Israel, the phrase *“and He shows you His signs so that you may understand”* (Qur’an 2:73) refers to God’s proofs that point to the truth of His Messenger, shown so that people might grasp that he is truthful, believe in him, and follow him.
+
+In Qur’an 2:219, after the rulings on wine, gambling, and spending, God said: *“Thus God makes the signs plain for you, so that you may reflect on this world and the next.”* There the meaning is that God has made His proofs and limits plain in the surah, rescuing them from His punishment and guiding them to the evidence of His oneness and His Messenger’s truthfulness, and that He makes the rest of His Book plain in the same way. Ibn ʿAbbās explained the reflection meant there as reflecting *“on the passing away of this world and its perishing, and the approach of the Hereafter and its permanence.”* Ibn Jurayj said that this world is an abode of trial and then extinction, while the Hereafter is an abode of reward and then permanence, so whoever reflects will work for the one that lasts.
+
+Here the same formula closes the family rulings, but the hope expressed is different. Those verses aimed at reflection on the two worlds; this verse aims at understanding: grasping what God has required, knowing His limits, and acting on them.
+
+### **UNDERSTANDING THAT LEADS TO ACTION**
+
+The verse addresses the believers specifically, those who already believe in God and His Messenger. It is not a call to accept the faith but a call to understand its rulings. The understanding meant is practical. A believer who grasps God’s limits in marriage and divorce will not hold a wife back to harm her, take back what he gave her unjustly, refuse a widow her rights, or keep a divorced woman from her parting gift.
+
+Such understanding serves both worlds. In this world it puts right the relations between spouses and families, which these rulings were designed to protect. In the next it brings God’s generous reward to those who acted on what they understood. The repeated warnings in these verses against transgressing God’s limits show what is at stake: whoever understands and keeps the limits gains, and whoever ignores them wrongs himself.
+
+## **2:243**
+
+> Have you ˹O Prophet˺ not seen those who fled their homes in the thousands for fear of death? Allah said to them, “Die!” then He gave them life. Surely Allah is ever Bountiful to humanity, but most people are ungrateful
+
+### **MEANING**
+
+God asks His Prophet whether he has come to know of a people who left their dwellings, many thousands of them, fleeing death. The seeing meant here is the seeing of the heart, that is, knowledge, not the seeing of the eye, because the Prophet never met these people. They fled, either from a plague or from fighting in God’s cause, thinking that leaving would save them. God commanded them to die, and they all died; afterwards He brought them back to life.
+
+The purpose of recalling them is to urge believers to persevere in fighting in God’s cause and to stand firm against the enemies of His religion. Death and life are in God’s hands alone, so running from battle and sheltering in fortresses or houses will not rescue anyone from His decree once it arrives, just as flight did not save these people.
+
+God shows great favour and generosity to His creatures. He shows them the path of guidance and warns them of the roads to ruin, and grants them blessings in their worldly life, their religion, their persons, and their wealth, as He did when He revived these people and made them a lesson for others. Yet most of those He blesses deny Him: they turn their hopes and fears to others and take gods besides Him who have no power to harm or benefit, to cause death or give life.
+
+### **WHO WERE THEY AND WHY DID THEY FLEE?**
+
+The early authorities offered several accounts. Many said the people fled a plague. Ibn ʿAbbās says they numbered four thousand and left to escape a plague, saying, *“We will go to a land where there is no death!”* At a certain place God commanded them to die. A prophet passed by them and prayed to his Lord to revive them, and He did. Al-Ḥasan says they fled the plague, and God caused their death before their appointed time, then revived them so that they might complete what remained of their lives. Qatādah says God detested their flight from death, so He caused their death as a punishment and raised them to finish their remaining lifespans; had their appointed time come, they would not have been raised.
+
+Al-Suddī gives a fuller account. The plague struck a town called Dāwardān, near Wāsiṭ. Most of its people fled and camped nearby; those who stayed perished while the others survived. When the plague lifted and the survivors returned, those who had remained said, *“Our companions were more prudent than we were; had we done as they did, we would have survived.”* The next time the plague came, they all fled, more than thirty thousand of them, and camped in a wide valley. An angel called to them from the bottom of the valley and another from the top, *“Die!”* and they died. Hilāl ibn Yasāf tells a similar story of the Children of Israel, among whom the rich and noble used to flee the plague while the poor stayed behind; Ibn Zayd and ʿAmr ibn Dīnār describe the same pattern over successive years.
+
+Others said they fled fighting in God’s cause. Ibn ʿAbbās, in another report, says *“a great number went out fleeing from fighting in God’s cause,”* so God caused their death, revived them afterwards, and commanded them to fight their enemy. He links this to the command in the next verse to fight in God’s cause, and in another report identifies them as the people who later asked their prophet to appoint a king for them so that they could fight (Qur’an 2:246).
+
+### **HOW THEY WERE REVIVED**
+
+Wahb ibn Munabbih says that God inspired the prophet Ḥizqīl, known as the son of the old woman because his mother had asked God for a child in old age, to go to a burial ground where four thousand lay, their bones scattered by birds and beasts. Ḥizqīl called out, *“O bones, God commands you to come together!”* and each person’s bones joined. He called again and the bones were clothed with flesh and skin; a third time he called the souls back to their bodies, and they rose by God’s permission and cried out *“God is greatest”* as one.
+
+Ibn Isḥāq relates that the people of that land built an enclosure around the bodies to keep away wild animals, as there were too many to bury. Ages passed until they were decayed bones. Ḥizqīl stopped by them, moved with pity, and was asked whether he wished God to revive them. He called the bones back to their owners, then the sinews, flesh, and skin, and when he prayed for life, the people sat up saying, *“Glory be to God.”* Mujāhid says they returned to their people alive, the pallor of death on their faces, and every garment they wore became stained like a shroud, until they died at their appointed times.
+
+### **MANY THOUSANDS**
+
+Some, like Ibn Zayd, took the word translated as thousands to mean that they were united, leaving together without quarrel or division. The correct view is that it refers to their great number, because the Companions and their Successors widely agree on that, and an isolated opinion cannot overturn what they transmitted.
+
+The figures given vary: three thousand, four thousand, eight thousand, forty thousand, and more than thirty thousand. The sounder view is that they numbered more than ten thousand. The Arabic plural used here is applied only to ten thousand or more; for three to ten thousand Arabs use a different plural form.
+
+### **A LESSON IN GOD’S FAVOUR**
+
+The lesson is twofold. The people who ran from their fate found death waiting for them, while those who stayed amid the plague were spared. And the God who caused death and revival is the One to whom all hope and fear should be turned. Yet the greater part of humankind thanks others for what He alone has given, and that is the ingratitude the verse condemns.
+
+## **2:244**
+
+> Fight in the cause of Allah, and know that Allah is All-Hearing, All-Knowing
+
+### **MEANING**
+
+Having described the people who fled their dwellings in dread of death, God turns to the believers with a command. They are to fight in His way, meaning for the sake of the religion He has guided them to, not in obedience to Satan. Their opponents are the enemies of their religion who bar people from the path of their Lord. Believers must not hold back when they meet them, nor shrink from fighting them out of cowardice, because their life and death are in God’s hands.
+
+Fear of death must not drive any of them to turn tail and flee, since that brings humiliation, and the death they feared may then overtake them in the very refuge they ran to. That is what happened to those who fled their homes to escape death: their flight did not save them when God’s command came, while those who stayed behind were unharmed, because God turned death away from them. So believers should fight whichever of His enemies He commands them to fight, knowing that whoever of them lives does so because God gives him life, and whoever is killed is killed by God’s decree.
+
+They should also bear in mind that their Lord hears what is said by the hypocrites among them about those killed in His way: that had they obeyed and stayed at home, they would not have been killed. He knows the hypocrisy, disbelief, and ingratitude hidden in such people’s hearts, and everything else about them and about all His servants.
+
+### **GRATITUDE THROUGH OBEDIENCE**
+
+The command follows directly from the closing words of the previous verse, which said that God is generous to people but most of them do not give thanks. The believers are told, in effect: since those others have denied God’s blessings, you should thank Him by obeying Him in what He commands, including fighting your enemy in His cause, and in all His other commands and prohibitions.
+
+The reminder that God hears and knows all things is both a reassurance and a warning. He hears what the hypocrites say and knows what all people hold to, whether faith or disbelief, obedience or disobedience. He comprehends all of it, so that He can repay each person for his deeds: good for good, and evil for evil. Believers who fight are not hidden from Him, and neither are those who hold back while mocking the fallen.
+
+### **WHO IS ADDRESSED?**
+
+Some held that this command was addressed to the people who fled their homes in the previous verse, after God revived them. Ibn ʿAbbās, in an account given under that verse, says that a great number went out *“fleeing from fighting in God’s cause,”* that God made them die and then revived them, and that He commanded them to fight their enemy, linking that command to this verse.
+
+That view has no sound basis. If the command were addressed to them, it would have to connect to the previous verse in one of three ways, and none works.
+
+First, it might be joined to God’s command to them to die. But it is impossible that God would cause them to die and then command them, while dead, to fight in His cause.
+
+Second, it might be joined to the statement that He revived them. That too makes no sense, because the revival is a report of something already past, whereas this is a command. Joining a future report to a past one is poor Arabic when the two differ in meaning; joining a command to a past report is even less acceptable.
+
+Third, it might mean that He revived them and said to them, *“Fight in God’s cause,”* with the word *“said”* omitted. Arabic does allow such an omission, as in Qur’an 32:12: *“If only you could see when the guilty hang their heads before their Lord: Our Lord, we have seen and we have heard,”* meaning that they say this. But such an omission is permitted only where the plain wording shows that the sentence needs it and the listener understands it without being told. Where nothing in the context points to it, there is no ground for claiming that something has been left out.
+
+So the command is addressed to the believers of the Prophet’s community. The story of those who fled death is told to them as a lesson, and this verse states what that lesson requires of them.
+
+### **HEARING AND KNOWING**
+
+The two names that close the verse answer the two ways people might fail in this matter. One is speech: the hypocrites’ words that discourage others from fighting and treat the fallen as having died needlessly. God hears all such words. The other is what is hidden in hearts: the hypocrisy, disbelief, and ingratitude behind those words, and the sincerity of those who fight for Him. God knows all of it, and each will be repaid accordingly.
+
+## **2:245**
+
+> Who will lend to Allah a good loan which Allah will multiply many times over? It is Allah ˹alone˺ who decreases and increases ˹wealth˺. And to Him you will ˹all˺ be returned
+
+### **MEANING**
+
+Following the command to fight in God’s way, God calls on the believers to support that effort with their wealth. Who will spend in God’s cause, helping someone too weak to fight, strengthening a poor man who wants to join the struggle but lacks the means, or giving to those in need among them? That spending is the **good loan** a servant lends his Lord, and God promises to multiply its reward for him without any limit.
+
+It is God alone who holds back provision from some and spreads it out for others, not the false gods whom idolaters worship besides Him. He made some of the believers wealthy and others poor so that the wealthy would strengthen the poor with their wealth, support them, and equip them to fight the idolaters. He tests the poor man with patience under what has befallen him, and the rich man with how he uses what he has been given, and He will repay each of them according to their obedience when they return to Him. To Him everyone returns, so they should fear Him: they must not neglect His obligations or overstep His limits; the wealthy must not use their wealth in ways He has not permitted, and the poor must not let poverty push them into disobedience. Otherwise they will earn a painful punishment when they come to their Creator.
+
+### **WHY IT IS CALLED A LOAN**
+
+In Arabic, a loan means giving someone your property to own, on condition that he repays its like when you ask for it. God calls spending on the needy in His cause a loan because the giver gives in order to receive what God has promised: a great reward with Him on the Day of Resurrection.
+
+It is called good because the giver gives at God’s urging and invitation, seeking reward from Him. It is obedience to God and defiance of the devils. None of this means that God needs anything from His creatures. It follows a common Arabic usage: people say *“I have a true loan with you”* or *“a bad loan”* of any deed that will bring someone pleasure or grief in return. A poet says: *“Every man will be repaid for his loan, good or evil, and judged by what he dealt.”* A person’s loan, in this sense, is the good or bad deeds he has sent ahead.
+
+This verse is similar to Qur’an 2:261, which compares those who spend their wealth in God’s cause to a grain that sprouts seven ears, each with a hundred grains. Ibn Zayd says the loan here is spending in God’s cause, and that the multiplying is seven hundred for one.
+
+### **ANSWERING THE CALL**
+
+Zayd ibn Aslam relates that when the verse was revealed, Ibn al-Daḥdāḥ came to the Prophet and said, *“O Prophet of God, do I not see that our Lord is asking us for a loan from what He gave us for ourselves?”* He had two pieces of land, one in the upper part of Madīnah and one in the lower, and gave the better of them in charity. The Prophet used to say, *“How many laden palm clusters there are for Ibn al-Daḥdāḥ in Paradise!”* ʿAbd Allāh ibn Masʿūd relates that Abū al-Daḥdāḥ asked, *“O Messenger of God, does God really want a loan from us?”* When the Prophet said yes, he asked for his hand and said he had lent his Lord his garden of six hundred palms. He went to the garden, where Umm al-Daḥdāḥ was with their children, called her and told her to leave, for he had lent the garden to his Lord.
+
+Qatādah also reports that a man who heard the verse said, *“I am lending God a loan,”* and gave his best garden in charity. Qatādah remarks: *“Your Lord asks you for a loan, as you hear, while He is the Protector, the Praiseworthy.”*
+
+### **MULTIPLIED WITHOUT LIMIT**
+
+The multiplying is God’s promise to whoever lends to Him and spends in His cause: a reward with no limit or end. Al-Suddī says that no one knows how great this multiplying is. A saying attributed to one of the scholars holds that God gave people this world as a loan and then asked them to lend it back to Him: if they give it gladly, He multiplies it from one to ten, to seven hundred, and beyond; if He takes it from them against their will and they are patient, they receive His blessings, mercy, and guidance.
+
+The readers differed over the verb. Some read it with a long vowel and in the indicative, joined to the verb *“lend.”* Others read the same meaning with a doubled consonant and no long vowel. Others read it with the long vowel but in the subjunctive, treating the clause as the answer to a question, as in *“Who is your brother, so that you may honour him?”* The preferred reading has the long vowel and the indicative. The question carries the sense of a condition, and when the answer to a condition is introduced by *“so,”* it can only be indicative. The long-vowel form is also the more eloquent and more common in Arab speech.
+
+### **WITHHOLDING AND GIVING IN ABUNDANCE**
+
+Anas relates that prices rose in the Prophet’s time and people asked him to fix prices. He said: *“God is the One who expands, who withholds, who provides, and I hope to meet God with no one claiming from me any wrong done to life or property.”* So high and low prices, ease and hardship, are in God’s hand alone. Ibn Zayd explains that God knew some of those fighting in His way lacked means while some who stayed behind had wealth, so He urged the latter to give: He expanded the wealthy man’s provision while he was reluctant to go out, and restricted the other’s while he was eager to go, so the wealthy should strengthen him.
+
+Qatādah explains the return as a return to dust: God created people from dust, and to dust they go back.
+
+## **2:246**
+
+> Have you not seen those chiefs of the Children of Israel after Moses? They said to one of their prophets, “Appoint for us a king, ˹and˺ we will fight in the cause of Allah.” He said, “Are you not going to cower if ordered to fight?” They replied, “How could we refuse to fight in the cause of Allah, while we were driven out of our homes and ˹separated from˺ our children?” But when they were ordered to fight, they fled, except for a few of them. And Allah has ˹perfect˺ knowledge of the wrongdoers
+
+### **MEANING**
+
+God asks His Prophet whether he has come to know, through what God has told him, of the leaders of the **Children of Israel**: their notables, nobles, and chiefs in the period following the death of Moses, who asked a prophet sent to them to appoint a king under whom they could fight in God’s way. The prophet, knowing them to be a people who broke their pledges and seldom kept their word, asked whether they might fail to fight if fighting were made obligatory on them. They answered: what could stop us from fighting our enemy and God’s enemy, when those of us who were overpowered have been expelled from their dwellings and their offspring taken captive?
+
+Their prophet asked his Lord, who appointed a king for them and made fighting obligatory. But when it was prescribed, they turned their backs and abandoned the very duty they had asked for, apart from a small number, those who later crossed the river with Ṭālūt. God knows those who wronged themselves by breaking the promise they had made Him and disobeying the command they had asked Him to impose.
+
+The account also rebukes the Jews living around the Prophet’s city of emigration for denying Muhammad and disobeying their Lord. If their forebears disobeyed God in a duty they themselves asked for, they are even more likely to disobey Him in duties He imposes without being asked.
+
+### **WHO WAS THE PROPHET?**
+
+Ibn Isḥāq, drawing on Wahb ibn Munabbih, names the prophet as Shamwīl and gives his genealogy; Wahb in another report says simply, *“It is Shamwīl, it is Shamwīl.”* Mujāhid gives a similar name. Al-Suddī calls him Shamʿūn, explaining that his mother prayed for a son and named him that because God had heard her prayer. Qatādah says the prophet who succeeded Moses was Yūshaʿ ibn Nūn, one of the two men on whom God bestowed His favour.
+
+### **WHY THEY ASKED FOR A KING**
+
+Wahb says that once Moses had gone, Yūshaʿ ibn Nūn led the **Children of Israel**, upholding the Torah, then Kālib, then Ḥizqīl. After that, wrongdoing grew among them and they forgot God’s covenant, until they set up idols and worshipped them. God sent prophets to renew what they had forgotten of the Torah. Ibn Isḥāq continues from Wahb that their affairs were sound only so long as they united under kings who obeyed the prophets of their time: the king led the troops, while the prophet directed him and brought him news from his Lord. When kings grew arrogant and abandoned the prophets’ guidance, their affairs collapsed; some prophets they denied and some they killed. Affliction persisted until their land was trampled, and then they asked their prophet for a king. He told them they had neither loyalty, truthfulness, nor desire for fighting. Their answer was that they had shunned fighting while their land was protected, but now that the enemy had reached it, fighting was unavoidable, to obey their Lord and protect their sons, women, and families.
+
+Al-Rabīʿ says that Moses appointed Yūshaʿ as his successor, who governed by the Torah and Moses’ practice, as did the next; but each later successor strayed further, until the people objected to everything he did. Once harm befell their persons and wealth, they came to a prophet and asked him to have fighting prescribed for them. Ibn ʿAbbās and al-Ḍaḥḥāk say this happened *“when the Torah was taken up and the people of faith were expelled,”* tyrants having expelled them from their homes and children.
+
+Al-Suddī says they were fighting the Amalekites, whose king was Jālūt. The Amalekites defeated them, imposed tribute, and seized their Torah. The prophetic line had died out except for one pregnant woman, who prayed for a son and bore Shamʿūn. He studied the Torah in Jerusalem under an elder. Gabriel called him three times in the elder’s voice, then appeared to him and sent him to his people. They rejected him as too young for prophethood, and demanded that he appoint a king for them as a sign of his truthfulness.
+
+### **WOULD THEY REALLY FIGHT?**
+
+The prophet’s question means: may it not be that, if fighting is prescribed, you will fail to keep the promise you are making? Their reply contains the word *“that”* before the negative, while elsewhere the Qur’an omits it, as in Qur’an 57:8, *“What is wrong with you that you do not believe in God, while the Messenger calls you?”* Both are good Arabic. Sometimes the word is dropped; sometimes it is kept because the phrase means *“what prevents us,”* and God uses the two phrases interchangeably, as in Qur’an 7:12, *“What prevented you from prostrating?”* and Qur’an 15:32, *“What is the matter with you that you are not among those who prostrate?”* Some grammarians called the word redundant, or explained it with an omitted conjunction, but those explanations are weak, since a word with a clear, sound meaning should not be called redundant.
+
+The verb for fighting in their request must be in the jussive, as the answer to a command. It could be indicative only if read in the third person, describing the king as *“one who fights.”*
+
+### **EXPELLED FROM THEIR HOMES**
+
+Their claim to have been expelled sounds general but refers to some of them. Those who spoke were still living in their own lands; only those who had been captured or defeated had been expelled and separated from their children.
+
+There is also an unspoken step in the story: their prophet asked his Lord, who sent them a king and made fighting obligatory. Only then did most of them turn away. The account of those who turned away and those who crossed the river comes later in the passage.
+
+## **2:247**
+
+> Their prophet told them, “Allah has appointed Saul to be your king.” They protested, “How can he be our king when some of us are more deserving of kingship than he, and he has not been blessed with vast riches?” He replied, “Allah has chosen him over you and blessed him with knowledge and stature. Allah grants kingship to whoever He wills. And Allah is All-Bountiful, All-Knowing.”
+
+### **MEANING**
+
+The prophet Shamwīl told the leaders of the Children of Israel that God had granted their request and sent Ṭālūt as a king for them. They objected. How could Ṭālūt rule over them? He came from the tribe of Benjamin son of Jacob, a tribe that had never held either rule or prophethood, while they belonged to the tribe of Judah son of Jacob and so had a better claim to rule. Besides, he had little wealth, for he was a water-carrier, or, as some said, a tanner.
+
+The prophet answered that God had selected Ṭālūt over them and had given him an abundant share of knowledge and of physical size beyond what the others had. Rule belongs to God and is in His hand alone: He gives it to whomever He pleases, places it with him and singles him out for it, and withholds it from whomever He pleases. So they should not resent God sending Ṭālūt to rule them, even though he was not from the royal house. Rule is not an inheritance from fathers and ancestors; God bestows it on whomever of His creatures He pleases, and it is not for them to choose in His place. God’s generosity is vast, and He bestows His favour on whom He loves. He knows who is fit for the rule and favour He grants, giving it either so that others may be set right by it or so that the person himself may benefit.
+
+### **HOW ṬĀLŪT WAS CHOSEN**
+
+Wahb ibn Munabbih says that when the leaders made their request, Shamwīl asked God, who told him to watch the horn of oil in his house: when a man entered and the oil in the horn bubbled up, that man would be king of the Children of Israel, and Shamwīl was to anoint his head with it. Ṭālūt, a tanner of hides from the tribe of Benjamin, set out with a servant to look for a lost animal. Passing the prophet’s house, the servant suggested they ask him for guidance and a blessing. While they were speaking with him, the oil bubbled up; the prophet anointed Ṭālūt’s head and told him, *“You are the king of the Children of Israel whom God commanded me to appoint over them.”* Wahb adds that Ṭālūt’s name in Syriac was Shāwul son of Qays, and traces his descent back to Benjamin.
+
+In another report from Wahb, the people asked Ashmawīl for a king to lead them in battle. He assured them that God had spared them fighting, but they said they feared the nations around them and wanted a king to turn to. God revealed that he should anoint Ṭālūt with the holy oil. When Ṭālūt came looking for his father’s lost donkeys, the prophet informed him that God had made him king. Ṭālūt protested: *“Do you not know that my tribe is the lowliest tribe of the Children of Israel?”* and that his clan was the lowliest in his tribe and his household the lowliest in his clan. The prophet agreed, and gave him signs: he would return to find that his father had already recovered the donkeys, and at a certain place revelation would come to him.
+
+Al-Suddī says that God gave Shamʿūn a staff matching the height of the man who would be king. The people measured themselves against it and none matched it until they measured Ṭālūt, who did. ʿIkrimah says Ṭālūt was a water-carrier who sold water.
+
+### **WHY THEY OBJECTED**
+
+Qatādah explains that the Children of Israel had two tribes of distinction: a tribe of prophethood, that of Levi, from which Moses came, and a tribe of kingship, that of Judah, from which David and Solomon came. When Ṭālūt was sent from neither, they rejected it and were astonished. Al-Ḍaḥḥāk, al-Rabīʿ, and Ibn ʿAbbās say the same: no one could be sent as a prophet except from the prophetic tribe, and no one could rule the land except from the royal tribe. Ibn ʿAbbās adds that fighting was prescribed for them when the Ark came to them.
+
+Mujāhid says that the king here was in fact the commander of the army.
+
+### **CHOSEN AND GIVEN MORE**
+
+Ibn ʿAbbās, al-Ḍaḥḥāk, and Ibn Zayd explain the verb as *“chose.”* God gave Ṭālūt knowledge beyond what the others addressed had, for it is said that revelation came to him; and in body He gave him height that none of them had. Wahb says that when the Children of Israel gathered, Ṭālūt stood above them from the shoulders up. Ibn Zayd understood the increase as coming after the choice: God chose him and then, in addition, expanded his knowledge and body.
+
+The prophet’s answer, then, met both objections. To their claim of lineage, his answer was that God chooses whom He pleases, and rule is not inherited. To their complaint about wealth, his answer was that what qualifies a ruler is knowledge to govern and strength to fight, and God had given Ṭālūt more of both than any of them. Wahb sums it up: rule is in God’s hand, and He places it where He pleases; *“it is not for you to choose in it.”* Mujāhid explains God’s kingdom here as His authority.
+
+## **2:248**
+
+> Their prophet further told them, “The sign of Saul’s kingship is that the Ark will come to you—containing reassurance from your Lord and relics of the family of Moses and the family of Aaron, which will be carried by the angels. Surely in this is a sign for you, if you ˹truly˺ believe.”
+
+### **MEANING**
+
+The leaders of the Children of Israel did not accept the prophet’s announcement that God had made Ṭālūt their king, even after he described the merits God had given him. They asked for proof that he was telling the truth. The prophet replied that the token of Ṭālūt’s rule would be the return of the Ark, the chest they already knew, in which they used to seek victory. In earlier times, whenever they met an enemy, they carried it before them and advanced with it, and no enemy could stand against them. But when they neglected God’s command and disputed with their prophets, God took it from them, restoring it again and again, until a final time when He took it and never returned it.
+
+The Ark would contain something from their Lord that brings tranquillity to the soul, along with what remained of the legacy of the house of Moses and the house of Aaron. Angels would bear it and set it down among them. Its arrival in that way would be a clear token that the prophet had spoken the truth about God appointing Ṭālūt, if they would believe him once the sign they had demanded arrived.
+
+### **WHERE THE ARK HAD BEEN**
+
+Scholars differed over whether the Children of Israel had lost the Ark before this. Wahb ibn Munabbih says it had been handed down from Moses and Aaron until unbelieving kings seized it. He tells of the priest ʿĪlī, who raised Shamwīl and whose two sons corrupted the sacrifices and harassed women at prayer in the sanctuary. God told Shamwīl that love of his sons had kept ʿĪlī from restraining them. When an enemy attacked, the sons took the Ark into battle; both were killed, the people fled, and the enemy carried off the Ark. On hearing the news, ʿĪlī fell backwards from his seat and died. The captors placed the Ark beneath their idol, and each morning found the idol under it, until its hands and feet broke off. When they moved the Ark to a corner of their town, its people were struck by pain in their necks. A captive Israelite girl warned them that they would suffer as long as the Ark stayed with them, and that they should yoke two cows that had never been yoked, harness them to a cart bearing the Ark, and let them go. Wahb says in another report that God assigned four angels to drive the cows, which went swiftly until they reached the edge of Jerusalem, broke their yokes, and left.
+
+Ibn ʿAbbās says that the people refused to accept Ṭālūt’s leadership until the prophet promised them the Ark. Qatādah and al-Rabīʿ say instead that Moses had left it in the wilderness with his servant Yūshaʿ ibn Nūn, and the angels carried it from there and set it down in Ṭālūt’s house, where he found it in the morning.
+
+The view of Ibn ʿAbbās and Wahb is preferred: an enemy had taken the Ark. The verse says *“the Ark,”* with the definite article, which in such a context refers to something known to both speaker and listener: the Ark you know, through which you used to seek victory. Had it been an unknown chest, it would have said *“an ark.”* Nor could they have known it from the time of Moses and Yūshaʿ, for there is no account of either facing an enemy with it. Wahb describes it as about three cubits by two.
+
+### **TRANQUILLITY FROM GOD**
+
+Explanations of the tranquillity in the Ark differ. ʿAlī ibn Abī Ṭālib says it is *“a swift wind with a face like a human face.”* Mujāhid says it had a head like a cat’s and two wings, or two wings and a tail. Some of the learned among the Children of Israel said it was the head of a dead cat, which shrieked in the Ark to signal victory. Ibn ʿAbbās and al-Suddī say it was a golden basin from Paradise in which the hearts of the prophets were washed. Wahb calls it a spirit from God that spoke and settled their disputes. ʿAṭāʾ ibn Abī Rabāḥ says it was *“the signs they recognise and find tranquillity in.”* Al-Rabīʿ says mercy; Qatādah says dignity.
+
+The best view is ʿAṭāʾ’s: something from familiar signs in which souls find rest. In Arabic the word comes from a verb meaning to settle down with something and be at peace with it, as a poet says of a buried man that the grave *“has covered tranquillity and dignity.”* Any of the other descriptions could be correct, since each would be a sufficient sign to bring calm.
+
+### **THE LEGACY OF MOSES AND AARON**
+
+The word for remnant means what is left over. Ibn ʿAbbās, Qatādah, al-Suddī, and ʿIkrimah say it was Moses’ staff and the fragments of the tablets, which broke when Moses threw them down. Others add Aaron’s staff, garments, the Torah, some manna, or sandals. Wahb says it was the staff, ʿAṭāʾ says knowledge and the Torah, and al-Ḍaḥḥāk says fighting in God’s cause. Any or all of these may be meant. This is not something that can be known by reasoning or language, only by an authoritative report, and none exists, so no view can be favoured over another.
+
+### **BORNE BY ANGELS**
+
+Ibn ʿAbbās says the angels carried the Ark between heaven and earth while the people watched, and set it down beside Ṭālūt. Others, including Wahb, said the angels drove the cows that pulled it. The first is correct: carrying means bearing a thing oneself, not driving the animals that bear it, and the Qur’an should be read by the best-known usage.
+
+The prophet’s closing condition does not imply that they were already believers. In rejecting his announcement and demanding proof, they had disbelieved. He meant: here is proof for you, provided you accept my word when the sign arrives.
+
+## **2:249**
+
+> When Saul marched forth with his army, he cautioned: “Allah will test you with a river. So whoever drinks ˹his fill˺ from it is not with me, and whoever does not taste it—except a sip from the hollow of his hands—is definitely with me.” They all drank ˹their fill˺ except for a few! When he and the ˹remaining˺ faithful with him crossed the river, they said, “Now we are no match for Goliath and his warriors.” But those ˹believers˺ who were certain they would meet Allah reasoned, “How many times has a small force vanquished a mighty army by the Will of Allah! And Allah is ˹always˺ with the steadfast.”
+
+### **MEANING**
+
+A step in the story is left unstated: the Ark came to them as promised, borne by angels, so they believed their prophet, acknowledged Ṭālūt as king, and submitted to him. That is why Ṭālūt could then set out with the troops, which he would only have done once they had accepted his rule.
+
+As Ṭālūt left with his forces, he told them that God would try them with a river to see how well they obeyed Him. Anyone who drank from it would not belong to him, that is, would not be among those loyal and obedient to him, nor among those who believed in God and in meeting Him. Anyone who never tasted its water would belong to him, as would one who scooped up a single handful. Yet nearly all of them drank, apart from a small number.
+
+Ṭālūt then went over the river, together with those who believed. When the believers and those who had drunk came face to face with Jālūt (Goliath), those of weak faith said they had no strength that day against Jālūt and his troops. But those who knew with certainty that God awaited them, believing in the resurrection and the return to Him, answered that many a small company has overcome a large company by God’s decree and will, and that God stands with those who hold themselves firm in seeking His pleasure and obeying Him, helping them and granting them victory over His enemies.
+
+### **SETTING OUT**
+
+The verb used for his setting out means to depart and leave a place behind. Its root meaning is cutting off: a traveller cuts himself off from where he was, a child is cut off from milk at weaning, and a decisive word cuts between truth and falsehood. It is said that Ṭālūt left Jerusalem with eighty thousand fighters, and that none of the Children of Israel stayed behind except the sick, the very old, or those with some other excuse. Wahb ibn Munabbih says that only the aged and infirm, the blind, or someone tied to his estate remained. Al-Suddī says that when the Ark arrived, they believed in Shamʿūn’s prophethood, accepted Ṭālūt’s rule, and set out, eighty thousand strong.
+
+### **THE TEST OF THE RIVER**
+
+The testing means trial, as explained earlier in the surah. Qatādah says: *“God tests His creatures with whatever He wills, to know who obeys Him and who disobeys Him.”* It is said that the troops complained to Ṭālūt that there was little water between them and the enemy and asked him to pray for a river; Wahb relates their words: *“The waters will not carry us, so pray to God to make a river flow for us,”* and Ṭālūt replied with this warning. Al-Rabīʿ, Qatādah, and Ibn ʿAbbās say it was a river between Jordan and Palestine, sweet and pleasant; another report from Ibn ʿAbbās, and al-Suddī, call it the river of Palestine.
+
+The readers of Madīnah and Baṣrah read the word for scooping with an open vowel, meaning a single act of scooping. Others read it with a closed vowel, meaning the water that fills the palm. The closed vowel is better, because the verb used here, *“scoop for oneself,”* has a different verbal noun, so the word is more likely to mean the water scooped than the act.
+
+Most of them drank, and whoever drank went thirsty, while whoever scooped a handful was satisfied. Qatādah says: *“The people drank in proportion to their certainty.”* The disbelievers drank without quenching their thirst, while a believer would scoop a handful and it sufficed him. Ibn ʿAbbās says each drank according to what was in his heart: whoever scooped a handful and obeyed was satisfied by his obedience, and whoever drank much disobeyed and was not satisfied. Ibn Zayd says that God put words on Ṭālūt’s tongue so that only those intending to fight would go with him, and that the hypocrites, who had boasted of never touching the water in any amount, drank and turned back as disbelievers.
+
+### **WHO WENT OVER THE RIVER?**
+
+Some said only believers went over with Ṭālūt, and their number matched that of the Muslims at Badr. Al-Barāʾ ibn ʿĀzib says: *“We used to say that the number of the people of Badr was the number of Ṭālūt’s companions who went over the river with him, and only a believer went over with him: three hundred and ten-odd men.”* Qatādah reports that the Prophet told his Companions at Badr that they were as many as Ṭālūt’s men. Al-Rabīʿ says God sifted the believers at the river, leaving three hundred and ten-odd, and David completed the number.
+
+Others said four thousand went over, and believers were separated from disbelievers and hypocrites only on meeting Jālūt. Al-Suddī says that when they saw Jālūt, all but three hundred and ten-odd turned back. Ibn ʿAbbās says those who had drunk were the ones who said they had no strength against Jālūt.
+
+The view of Ibn ʿAbbās and al-Suddī is correct. Believers who took only a handful and disbelievers who drank deeply both went over; the division came when they saw Jālūt, and the people of disbelief and hypocrisy withdrew. Mentioning only the believers in the verse never rules out others being present. The verse itself shows this: those who said they had no strength are contrasted with those certain of meeting God, so the first group did not believe in that meeting, and faith cannot be attributed to someone who denies meeting God.
+
+### **TWO GROUPS AT THE BATTLEFIELD**
+
+Qatādah and Ibn Zayd held instead that both groups were believers, some stronger in resolve and certainty than others; Ibn Zayd says those who took no handful at all were stronger than those who took one. That would follow if al-Barāʾ’s report means only the people of Badr’s number went over. But the stronger view is that the waverers were disbelievers and hypocrites.
+
+The word translated as being certain here carries its meaning of sure knowledge, as al-Suddī explains. A company is a group of people, a word with no singular of its own. God being with the steadfast means He helps them, as one says of anyone who supports another that he is with him.
+
+## **2:250**
+
+> When they advanced to face Goliath and his warriors, they prayed, “Our Lord! Shower us with perseverance, make our steps firm, and give us victory over the disbelieving people.”
+
+### **MEANING**
+
+When Ṭālūt and his troops came out onto open ground to meet Jālūt (Goliath) with his forces, the believers who had remained with Ṭālūt turned to God in prayer. They asked Him to pour patience down upon them, sending it to them in abundance. They asked Him to strengthen their hearts for the fight so that their feet would stand firm and they would not be routed. And they asked Him to help them against the people who disbelieved in Him, who denied Him as God, worshipped others besides Him, and took idols as lords.
+
+The next verse shows that the prayer was answered. God poured patience upon them, made their feet firm, and helped them against the disbelievers, so that they routed the enemy by His leave.
+
+### **COMING OUT TO MEET THE ENEMY**
+
+The verb translated as advanced means to come out onto the barāz, the open, level, exposed part of the land. The same root gives the word Arabs use for someone going out to relieve himself, because in pre-Islamic times people used to do so on open ground. In the same way, another word for this was taken from the ghāʾiṭ, the low-lying hollow where people went for the same purpose. So the verse pictures the two armies emerging from cover and standing in the open, face to face, with nothing between them.
+
+The people who came out with Ṭālūt at this point were not the whole army that set out from Jerusalem. As the previous verse explained, most had drunk from the river; when the rest went over and saw Jālūt, the people of disbelief and hypocrisy withdrew, saying they had no strength against him. Those left were the people of certainty, who knew they would meet God. Al-Suddī describes the enemy they faced: *“Jālūt was among the mightiest of men and the most formidable in battle.”* He would go out in front of his troops, and before his own soldiers could gather behind him he had already routed whoever he met.
+
+### **A PRAYER FOR PATIENCE**
+
+The first thing they asked for was patience, and they asked for it to be poured down, the way water is poured from a vessel until nothing is left. Patience here is what the previous verse praised when it said that God is with the steadfast: holding oneself firm in seeking God’s pleasure and obeying Him, including fighting in His cause. Having just reminded their wavering companions that a small company may overcome a large one by God’s leave, the believers did not rely on their own resolve but asked God to supply it.
+
+The second request, firm feet, follows from the first. It means asking God to strengthen their hearts for fighting, so that their feet would hold their ground and they would not flee. Footing in battle depends on the heart: a man whose heart is steady keeps his place in the line, while one whose heart fails turns and runs.
+
+The third request was for help against the disbelievers. They described their enemy by his disbelief, not by his strength or number. Their fight was not over land or rule but against people who had rejected God and worshipped idols, and it was on those grounds that they asked for God’s help.
+
+### **AN ANSWERED PRAYER**
+
+The account of the battle in the next verse begins, *“So they routed them by God’s leave,”* and leaves something unsaid. The full meaning is: they called on Him, their Lord answered them, poured patience upon them, made their feet firm and helped them against the disbelievers, and so they routed them by God’s leave. The answer is left unstated because the outcome makes it obvious.
+
+The Qur’an tells of the same prayer from other believers who fought alongside prophets. Qur’an 3:147 says of them: *“Their only words were: **Our Lord**, forgive us our sins and our excesses in our affairs, **make our** feet firm, and help us against **the disbelieving people**.”* In both places, the believers face a stronger enemy and ask for firmness and help from God rather than trusting in their own numbers.
+
+The lesson for the believers addressed in this passage is the same one the earlier verses drew. Victory does not depend on numbers. It is granted by God to those who are steadfast, certain of meeting Him, and who turn to Him for patience and help. The few who stood with Ṭālūt were heard, while the many who drank and turned back gained nothing.
+
+## **2:251**
+
+> So they defeated them by Allah’s Will, and David killed Goliath. And Allah blessed David with kingship and wisdom and taught him what He willed. Had Allah not repelled a group of people by ˹the might of˺ another, corruption would have dominated the earth, but Allah is Gracious to all
+
+### **MEANING**
+
+The prayer of Ṭālūt’s men was answered: God poured patience upon them, made their feet firm, and helped them, and they put the forces of Jālūt (Goliath) to flight by His decree and will. In the fighting, David, the son of Jesse and God’s prophet, slew Jālūt. God then gave David rule and wisdom, meaning prophethood, and instructed him in whatever He chose, including the craft of making coats of mail and measuring their links.
+
+If God did not use some people, those who obey and believe in Him, to hold back others, those who disobey Him and associate partners with Him, the earth would be ruined through the destruction of its inhabitants. That is exactly how He acted at the battle with Jālūt: through the believers who fought alongside Ṭālūt with certainty and patience, He protected even the disbelievers and disobedient who had stayed behind, though it was they who had first asked for a king to fight under. The verse is also a message to the hypocrites of the Prophet’s time who stayed away from his campaigns out of doubt, and to the idolaters: God holds back swift punishment for their disbelief and hypocrisy only because of the believers among them, people of insight and earnestness who trust God’s promise of victory now and Paradise later. God is generous to all His creatures.
+
+### **THE SHEPHERD AND THE GIANT**
+
+Several accounts describe how David came to kill Jālūt. Wahb ibn Munabbih says that when Ṭālūt went out to face Jālūt, Jālūt called for someone to fight him in single combat, promising that if he were killed his kingdom would go to them. David was brought to Ṭālūt, who promised him his daughter and a share of his wealth if he killed Jālūt. Ṭālūt dressed him in armour, but David disliked fighting with weapons, saying that if God did not help him, weapons would not help either. He went out with his sling and a bag of stones. Jālūt mocked him: *“You have come out against me as one goes out against a dog, with a sling and stones!”* David replied, *“No, you are God’s enemy, worse than a dog.”* He slung a stone that struck Jālūt between the eyes and pierced his brain. Jālūt fell, his army fled, and David took his head.
+
+Ibn Isḥāq, drawing on Wahb, says David was the youngest of five brothers and stayed behind to tend his father’s sheep. His father sent him with provisions for his brothers. On the way, three stones called out to him one after another, each saying, *“Take me and put me in your bag; you will kill Jālūt with me,”* and named themselves the stones of Jacob, Isaac, and Abraham. In the camp he heard how the people feared Jālūt, and told the king he would kill him, explaining that when a lion attacked his sheep, he would seize its head, prise its jaws apart, and take the sheep from its mouth. When battle was joined, the stones leapt in his bag; he slung one and struck Jālūt between the eyes. Afterwards the people turned to David, and Ṭālūt was forgotten.
+
+Mujāhid says David named his three stones Abraham, Isaac, and Jacob and slung one in the name of the God of his fathers. Al-Rabīʿ says Jālūt called out for a man to face him; David volunteered, the armour Ṭālūt fastened on him seemed to grow with him, and with his third stone he killed Jālūt. Ibn Zayd says God revealed that a son of a certain man would kill Jālūt, and a horn placed on his head would overflow. The man presented twelve tall sons, but the horn did not overflow, and God told the prophet, *“We do not take men by their appearance, but by the soundness of their hearts.”* The father admitted he had a short son tending sheep, whom the prophet found carrying two sheep across a flooded valley. He said: one who shows mercy to animals will be more merciful to people. The horn overflowed on his head.
+
+### **RULE, WISDOM, AND KNOWLEDGE**
+
+Rule here means authority, and wisdom means prophethood. What God instructed him in was the making of armour, as Qur’an 21:80 says: *“We **taught him** the making of garments for you, to protect you from your violence.”* Al-Suddī says David became king after Ṭālūt was killed and God made him a prophet, so that he was given Shamʿūn’s prophethood and Ṭālūt’s rule.
+
+### **HOLDING PEOPLE BACK BY OTHERS**
+
+Mujāhid says that if God did not hold back the wicked by means of the righteous, and by those of good character who remain among people, the earth would be ruined by the destruction of its people. ʿAlī says: *“Were it not for a remnant of Muslims among you, you would perish.”* Al-Rabīʿ says that everyone on earth would perish. Ibn ʿUmar relates from the Prophet that God wards off affliction from a hundred neighbouring households through one righteous believer, and then recited this verse. Jābir ibn ʿAbd Allāh relates that God makes a righteous Muslim’s children, grandchildren, and the households around him sound through his righteousness, and they remain in God’s protection as long as he is among them.
+
+Some readers read the key word as a verbal noun meaning *“God’s pushing back,”* reasoning that God alone does this and no one contends with Him. Others read a form meaning *“God’s repelling in a contest,”* since many of His creatures oppose His friends and so contend with Him through their ignorance. Both readings are transmitted by the community, and neither cancels the other’s meaning. Jālūt and his troops, in fighting Ṭālūt, were trying to overcome God’s party, and so were contending against what God had promised them. Whoever pushes something back is repelling it, and whatever resists being pushed is contending. The two readings therefore come to the same meaning.
+
+## **2:252**
+
+> These are Allah’s revelations which We recite to you ˹O Prophet˺ in truth. And you are truly one of the messengers
+
+### **MEANING**
+
+God points back to the verses He has just related: the story of the thousands who left their dwellings fleeing death, and the story of the leaders of the Children of Israel after Moses who asked their prophet for a king, with everything that followed up to the statement that God is generous to all His creatures. These verses are God’s signs, meaning His proofs, tokens, and evidence.
+
+God tells His Prophet that these accounts prove His power: He caused thousands who fled death to die in a single moment and then revived them; He gave Ṭālūt rule over the Children of Israel, though he was a water-carrier or tanner from outside the royal house, then took it from him for disobeying His command and gave it to David for his obedience; and He gave Ṭālūt’s companions victory over Jālūt and his troops despite their small number and weakness. These are His proofs against those who deny His blessings, defy His command, and reject His Messenger among the people of the two Scriptures, the Torah and the Gospel. They know these hidden accounts and know that they come from God.
+
+The Prophet did not invent these accounts or make them up, for he could not read and had never studied books, so no one could claim he had learnt them from their scriptures. God recites them to him with certain truth, exactly as they happened, without addition, distortion, or alteration. And the Prophet is indeed a messenger sent by God, who follows the path of earlier messengers in obeying God and preferring God’s pleasure to his own desires.
+
+### **SIGNS AND PROOFS**
+
+The word for signs here, āyāt, does not mean only verses of the Qur’an. It means proofs and indications. Each part of the preceding stories, told in Qur’an 2:243–251, was a sign of something: the death and revival of the thousands showed that death and life are in God’s hand alone; the appointment of Ṭālūt showed that God gives rule to whomever He pleases; the Ark borne by angels showed the truth of their prophet; the test of the river showed who truly obeyed; and the victory of the few showed that triumph comes by God’s leave, not by numbers.
+
+These proofs are directed especially at the people of the Book in the Prophet’s time. They possessed knowledge of these events from their own tradition. When an unlettered man who had never read their books told them these accounts accurately, that was evidence that he received them from God. The point is made by the phrase *“in truth”*: what God recites to His Prophet corresponds to what actually took place.
+
+### **A MESSENGER LIKE THOSE BEFORE HIM**
+
+The closing words are not only an affirmation of the Prophet’s mission. They also draw a contrast with the story just told. God’s messengers before him persisted in His command, put His pleasure before their own desires, and were not changed by passions or worldly ambition. Ṭālūt, by contrast, was changed by his desires and by his attachment to his kingdom, preferring it to what God has prepared for His friends. The Prophet is to be like the messengers, not like Ṭālūt.
+
+The accounts of Ṭālūt’s later conduct show what that change meant. Wahb ibn Munabbih relates that God commanded Ṭālūt, through the prophet Ashmawīl, to attack Midian and spare no one, but Ṭālūt took their king captive and drove off their livestock. God said to Ashmawīl: *“Are you not amazed at Ṭālūt? I gave him My command and he fell short of it.”* He sent word that He would remove kingship from Ṭālūt’s house forever, since *“I honour those who obey Me and disgrace those who treat My command lightly.”* When Ashmawīl confronted him, Ṭālūt claimed he had brought the animals to offer as sacrifices.
+
+In another account from Wahb, Ṭālūt regretted his promise to give David his daughter and asked for a bride-gift so dangerous that he hoped David would be killed obtaining it. When David fulfilled it, Ṭālūt grew jealous and sought to kill him, so David fled to the mountains. One night, while Ṭālūt and his guards slept, David crept into the camp and took Ṭālūt’s water jug, some hairs from his beard, and a piece of his garment’s fringe, then sent them to him to show that he could have killed him. Ṭālūt then made peace with him, though in the end he again plotted against him. Ibn Isḥāq notes that when the people turned from Ṭālūt to David, the people of the Book claim that Ṭālūt intended to murder David, that God prevented it, and that Ṭālūt recognised his sin and sought repentance.
+
+### **THE MESSAGE TO THE PROPHET**
+
+So this verse is both reassurance and instruction. It reassures the Prophet that he is one of God’s messengers and that the accounts revealed to him are proofs against those who reject him. It instructs him to continue on the path of the messengers who held to God’s command, in contrast to a ruler who let his love of power lead him away from obedience.
+
+## **2:253**
+
+> We have chosen some of those messengers above others. Allah spoke directly to some, and raised some high in rank. To Jesus, son of Mary, We gave clear proofs and supported him with the holy spirit. If Allah had willed, succeeding generations would not have fought ˹among themselves˺ after receiving the clear proofs. But they differed—some believed while others disbelieved. Yet if Allah had willed, they would not have fought one another. But Allah does what He wills
+
+### **MEANING**
+
+The messengers referred to are those whose stories God has told in this surah: Moses son of ʿImrān, Abraham, Ishmael, Isaac, Jacob, Shamwīl, David, and the others mentioned in it. God says that He has favoured some of them over others. To one of them He spoke, and that was Moses. Others He raised by degrees above the rest in honour and in standing.
+
+To **Jesus son of Mary** God granted **clear proofs**: arguments and signs demonstrating his prophethood, such as healing the blind and the leper and bringing the dead back to life, along with the Gospel revealed to him, in which God set out His requirements of him. God strengthened and aided him with the Spirit of holiness, that is, God’s Spirit, Gabriel.
+
+If God had wished, those who came after these messengers, after Jesus, would never have fought each other, once signs had reached them that showed the truth and made the path plain, enough to restrain anyone God guided. But God did not will to keep them from fighting, and so they disagreed. They fought after proofs from their Lord had come to them forbidding fighting and division, and after the case had been established against them for God’s oneness, the mission of His messengers, and the revelation of His Book. Some disbelieved in God and His signs, and the rest had faith. They did what they did knowingly, aware that the proof showed they were wrong, choosing disbelief deliberately. Had God wished to restrain them from disobedience by His protection and enabling grace, neither fighting nor disagreement would have occurred. But God does as He intends: He enables one person to obey and believe, and He forsakes another, who disbelieves and disobeys.
+
+### **FAVOURED ABOVE OTHERS**
+
+Mujāhid explains the favouring this way: *“God spoke to Moses, and sent Muhammad to all humankind.”* So the one to whom God spoke is Moses, and among those raised in rank is Muhammad, whose mission was not to one people but to all.
+
+This is supported by the Prophet’s saying: *“I have been given five things that no one before me was given: I was sent to the red and the black; I was helped by awe, so that the enemy is struck with fear of me at a month’s distance; the earth was made for me a place of prayer and a means of purification; spoils were made lawful for me and were lawful for no one before me; and I was told, Ask and you will be given, and I have kept that back as intercession for my community.”* He added that it will reach, God willing, everyone of his community who does not associate anything with God.
+
+The favouring of messengers over others does not detract from any of them. Each was sent by God and each was honoured; but God singled out some with distinctions. One He addressed without intermediary; another He sent to all humankind and granted intercession; another He supported with miracles and with Gabriel.
+
+### **JESUS AND THE CLEAR PROOFS**
+
+The **clear proofs** given to Jesus were evidence of his prophethood: healing those born blind and lepers, raising the dead, and similar signs, together with the Gospel. The Spirit of holiness by which God strengthened him is Gabriel. The disagreement over the meaning of **the holy spirit** was discussed earlier in the surah, at Qur’an 2:87, where several explanations were given: Gabriel, the Gospel, or the name by which Jesus raised the dead. The preferred explanation there was Gabriel, and there is no need to repeat the argument here.
+
+### **WHO CAME AFTER THEM?**
+
+The people who fought after the messengers are those who came after the messengers just described, including Jesus. Qatādah and al-Rabīʿ say they are those who came *“after Moses and Jesus.”*
+
+The verse makes two statements together. People fought and disagreed after the proofs had reached them, so their fighting was not from ignorance. And they did so because God did not will to prevent it. Neither cancels the other. The people chose disbelief knowingly and are responsible for it; at the same time, nothing happens in God’s dominion except by His will. Had it been His will to protect them from disobedience, He would have protected them.
+
+### **GOD DOES AS HE INTENDS**
+
+The closing statement explains the difference between those who believed and those who disbelieved. God grants success to one, so that he believes and obeys, and He leaves another to himself, so that he disbelieves and disobeys. He is not compelled by anything, and His wisdom lies behind all He intends. For the believers addressed here, the lesson is that disagreement among those who received revelation is not evidence against the truth; it is the result of some people rejecting what they knew to be true, while God guided others to accept it.
+
+## **2:254**
+
+> O believers! Donate from what We have provided for you before the arrival of a Day when there will be no bargaining, friendship, or intercession. Those who disbelieve are ˹truly˺ the wrongdoers
+
+### **MEANING**
+
+God calls on the believers to spend in His cause from the wealth He has given them: to give charity from it and to pay the dues He has made obligatory on it. They should store up something for themselves with God while they are still in this world, by spending in His way, giving to the poor and needy, and paying what He has required. In that way they purchase with their wealth the honour He has prepared for His friends, while the way to purchase it is still open.
+
+They must do so before a day comes on which no buying is possible. On that day they will be unable to purchase, by spending their wealth, what they could have purchased in this world, because it is a day of recompense, reward, and punishment, not a day of work, earning, obedience, and disobedience. Nor will friendship help anyone then, as a friend in this world could help by defending his friend against someone who wished him harm. No one on the Day of Resurrection will help anyone against God. And no one will intercede for them with God, as people interceded for one another in this world because of kinship, neighbourliness, friendship, and other ties. All of that will be cut off on that day.
+
+The disbelievers, those who deny God and reject Him and His messengers, are the ones who do wrong. They put their denial where it does not belong, do what they have no right to do, and say what they have no right to say.
+
+### **SPEND WHILE YOU CAN**
+
+Ibn Jurayj explains the spending commanded here as *“the obligatory alms and voluntary charity.”* The verse thus covers both the required dues on wealth and what a believer gives freely beyond them.
+
+The image is one of trade. Wealth in this world can be used to buy a place among the people of honour in the next. Once this life ends, that market closes. The Day of Resurrection is not a day for earning. Whatever a person failed to buy with his wealth and his deeds in this world, he cannot buy then.
+
+The command follows directly from the previous verse, which described how those who came after the messengers disagreed: some believed and some disbelieved. Having mentioned both groups, God urges the believers to do what brings them near to Him: to spend in obedience to Him and in fighting His enemies among the disbelievers, since the disbelievers fight in disobedience to God and spend their wealth to bar people from His path. In effect He says: spend, you believers, in obedience to Me, as the disbelievers spend in disobedience to Me, before a day comes when they can buy back nothing they neglected.
+
+### **NO FRIENDSHIP AND NO INTERCESSION**
+
+The denial of friendship and intercession is general in wording but particular in meaning. It refers to the disbelievers. The friends of God and those who believe in Him will intercede for each other, as was shown earlier in the surah.
+
+Qatādah says: *“God knew that people love each other in this world and intercede for each other; but on the Day of Resurrection there is no friendship except the friendship of the God-fearing.”* This matches Qur’an 43:67: *“Friends on that day will be enemies to each other, except the God-fearing.”*
+
+### **THE DISBELIEVERS ARE THE WRONGDOERS**
+
+The closing words confirm that the denial of friendship and intercession refers to the disbelievers, which is why the statement about them follows immediately. The meaning is that God has denied the disbelievers help from their friends and intercession from their allies and relatives, and He has not wronged them in doing so. This is a just recompense for their disbelief in this world. They are the ones who wronged themselves, through the deeds that earned them their Lord’s punishment.
+
+One might ask how a warning can be directed at disbelievers when the verse begins by addressing the believers. The answer is that the verse comes after the mention of two groups, those who believed and those who disbelieved. God then urged the believers to spend in His obedience, and in the same breath described what awaits the disbelievers on that day: they cannot buy back what they neglected, they will have no friend to help them against God, and no intercessor whose intercession will save them from His punishment. This is God’s recompense for their disbelief, and they are wronging themselves, for God does not wrong His servants.
+
+The word for wrongdoing was explained earlier in the surah: it means putting something where it does not belong. ʿAṭāʾ ibn Dīnār said: *“Praise be to God, who said that the disbelievers are the wrongdoers, and did not say that the wrongdoers are the disbelievers.”* The order of the words makes the disbelievers the subject being described: wrongdoing is stated of them, and wrongdoers in general are not declared to be disbelievers.
+
+## **2:255**
+
+> Allah! There is no god ˹worthy of worship˺ except Him, the Ever-Living, All-Sustaining. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who could possibly intercede with Him without His permission? He ˹fully˺ knows what is ahead of them and what is behind them, but no one can grasp any of His knowledge—except what He wills ˹to reveal˺. His Seat encompasses the heavens and the earth, and the preservation of both does not tire Him. For He is the Most High, the Greatest
+
+### **MEANING**
+
+God, to whom the worship of all creatures is due, alone deserves to be worshipped. Nothing else may be worshipped besides the Living, the Self-Subsisting, who is as He describes Himself in this verse. He is living with a life that endures, with no beginning and no end, whereas everything else that lives has a life with a fixed beginning and an end at which it stops. He maintains everything He has created, providing for it, guarding it, managing it, and moving it from one state to another.
+
+The heaviness that comes before sleep never seizes Him, and neither does sleep itself. No impairment or affliction touches Him, for drowsiness and sleep overwhelm the understanding of anyone with understanding and remove him from the state he was in. He is not changed by what changes others; the passing of nights and days never moves Him from the state He has always been in. Were He to sleep, He would be overcome, since sleep overpowers the sleeper.
+
+Everything in the heavens and on earth is His, owned and created by Him, with no partner or rival. A slave obeys only his master, so nothing He owns should worship anyone but Him. None may intercede for one of His servants whom He means to punish unless He allows it and grants leave; He comprehends everything that has been and everything that will be, and nothing of it is hidden from Him, while His creatures grasp nothing of the things He knows beyond whatever He chooses to let them know. So worship belongs only to the One who encompasses all things, not to an idol that understands nothing.
+
+**His Seat** is vast enough to contain heavens and earth, and guarding them never burdens or weighs on Him. He is exalted above His creation by His power, and supreme in greatness, so that everything is beneath Him and nothing is greater than He.
+
+### **THE LIVING, THE SELF-SUBSISTING**
+
+The verse follows the account of those who came after the messengers and disagreed about the clear signs, fighting over them, some disbelieving and some believing. Here God makes plain to the believers the truth about Himself on which those others disagreed.
+
+Al-Rabīʿ explains the Living as *“living and never dying.”* Scholars of doctrine differed over the name: some said God calls Himself living because He directs all affairs and measures all things, so He is living by His governance rather than by a life; others said He is living by a life that is an attribute of His; and others said it is one of His names, accepted in submission to His word.
+
+The word translated as Self-Subsisting is an intensive form from the root meaning to stand. It means the one who maintains all He has created by providing for it and guarding it, as a poet said of God, *“the Guardian, the Self-Subsisting,”* who determined the sky, stars, sun, and moon. Mujāhid says it means *“the one who maintains everything”*; al-Rabīʿ, the one who watches over everything, provides for it, and guards it; al-Suddī, the One who stands; and al-Ḍaḥḥāk, the One who stands and endures.
+
+### **NEITHER DROWSINESS NOR SLEEP**
+
+The word for drowsiness means the heaviness of sleep in the eyes, as a poet says of someone overcome by drowsiness *“and yet not sleeping.”* Ibn ʿAbbās explains it as dozing, and sleep as sleep itself. Qatādah and al-Ḥasan say it is a nod. Al-Ḍaḥḥāk says it is lighter than sleep, while sleep is deep slumber. Al-Suddī calls it the breath of sleep that touches the face; al-Rabīʿ, the state between sleeping and waking. Ibn Zayd describes the drowsy man as one who wakes with his wits gone, so that he might even take up a sword against his own family.
+
+ʿIkrimah relates that Moses asked the angels whether God sleeps. Abū Hurayrah reports the Prophet telling from the pulpit that this question occurred to Moses, so God sent an angel who kept him awake for three nights and then gave him two flasks, one in each hand, telling him to keep them safe. Moses kept dozing, his hands almost meeting, waking to hold them apart, until he fell asleep, his hands struck together, and both flasks broke. God made this a parable: if He slept, the heavens and earth could not be held together.
+
+### **OWNERSHIP AND INTERCESSION**
+
+God mentions His ownership of everything and His control of intercession because the idolaters claimed, as the Qur’an reports in Qur’an 39:3, that they worshipped their idols only so that these would bring them near to God. God answers that all things belong to Him, so worship is due to none else, and none intercedes unless He grants leave.
+
+### **WHAT IS BEFORE AND AFTER THEM**
+
+Al-Ḥakam and Mujāhid say that what lies before them is this world and what comes after them is the Hereafter; Ibn Jurayj says it is what has passed of this world, and what will come after them of this world and the next. Al-Suddī says that they know nothing of God’s knowledge beyond whatever He wishes to teach them.
+
+### **THE SEAT**
+
+Explanations of the Seat differ. Ibn ʿAbbās says, *“**His Seat** is **His knowledge**,”* and points to the words that guarding them never wearies Him. Abū Mūsā, al-Suddī, al-Ḍaḥḥāk, and Muslim al-Baṭīn say it is the footstool, set before the Throne. Al-Ḥasan says it is the Throne itself. Al-Rabīʿ says that when the verse was revealed the Companions asked: if the Seat contains the heavens and earth, what then of the Throne? Ibn Zayd relates from the Prophet that the seven heavens within the Seat are like seven coins dropped into a shield, and Abū Dharr relates that the Seat within the Throne is like an iron ring thrown into a desert.
+
+Each view has some basis. The one most fitting is what is reported from the Prophet through ʿAbd Allāh ibn Khalīfah: when a woman asked him to pray that she enter Paradise, he extolled the Lord and said that **His Seat encompasses** heavens and earth. The view supported by the plain wording is that of Ibn ʿAbbās, that it is God’s knowledge, since the verse goes on to say that guarding everything known to Him never weighs on Him. The angels likewise pray in Qur’an 40:7: *“Our Lord, You encompass all things in mercy and knowledge.”* In Arabic the root of the word relates to knowledge: a booklet of written learning is called kurrāsah, and scholars are called the kursīs of the earth because people rely on them.
+
+### **EXALTED AND GREAT**
+
+Ibn ʿAbbās, Qatādah, and others explain the verb for wearying as weighing heavily on Him. The Exalted is the one who is high above His creation by His power, and the Great is the one beside whom everything is lesser; Ibn ʿAbbās says, *“the one perfect in His greatness.”* Scholars of doctrine differed: some took exaltation to mean being above any equal or likeness, others to mean that He is above His creation, as He describes Himself established on the Throne. Some took greatness to mean the One whom creation reveres; others said it is an attribute of His, affirmed without describing how and without likening Him to His creatures.
+
+## **2:256**
+
+> Let there be no compulsion in religion, for the truth stands out clearly from falsehood. So whoever renounces false gods and believes in Allah has certainly grasped the firmest, unfailing hand-hold. And Allah is All-Hearing, All-Knowing
+
+### **MEANING**
+
+No one is to be forced into the religion of Islam. Truth has become plain and distinct from error, and the way has become clear to anyone seeking right guidance, separated from misguidance and straying. So the believers must not force anyone from the people of the two Scriptures, or anyone else from whom they are permitted to accept the poll tax, into their religion, the religion of truth. Whoever turns away from right guidance after it has become clear to him is left to his Lord, who will deal with his punishment in the Hereafter.
+
+Whoever denies the lordship of everything worshipped besides God, and believes in God as his God, his Lord, and the One he worships, has taken hold of the most secure thing anyone can hold when seeking to save himself from God’s punishment. That handhold is faith, and it will never break. Holding to it, he has found protection in obedience to God that will not abandon him or let him down when he needs it amid the terrors of the Hereafter. God hears the believer declaring God’s oneness and disowning the rivals and idols worshipped besides Him, and He knows the belief in God’s oneness held in his heart and his inner rejection of all false objects of worship.
+
+### **THE OCCASION OF REVELATION**
+
+Many said the verse was revealed about some of the Anṣār, or one man among them, whose children had become Jews or Christians; when Islam came, they wanted to force them into it, and God forbade them, so that the children could choose for themselves. Ibn ʿAbbās says that a woman whose children kept dying would vow that if a child lived she would make him a Jew. When the Jewish tribe of al-Naḍīr were expelled, some sons of the Anṣār were among them, and the Anṣār said, *“We will not abandon our sons!”* so God revealed this verse. Saʿīd ibn Jubayr and al-Shaʿbī report the same; al-Shaʿbī adds that the expulsion of al-Naḍīr separated those who chose Judaism, and left with them, from those who chose Islam and stayed. Mujāhid and al-Ḥasan say that some Anṣār boys had been nursed among al-Naḍīr or Qurayẓah, and their families wanted to force them into Islam.
+
+Ibn ʿAbbās also says the verse was revealed about a man of the Anṣār called al-Ḥuṣayn, a Muslim with two Christian sons, who asked the Prophet, *“Shall I not compel them, since they refuse anything but Christianity?”* Al-Suddī tells that the two sons of Abū al-Ḥuṣayn were converted to Christianity by Syrian oil merchants and left with them. Their father asked the Prophet to send after them, but he had not yet been commanded to fight the people of the Book; Abū al-Ḥuṣayn felt aggrieved, and Qur’an 4:65 was revealed. Al-Suddī holds that this verse was later abrogated.
+
+### **WHO MAY NOT BE COMPELLED?**
+
+Others said the verse concerns a particular group of unbelievers and nothing in it is abrogated: the people of the Book are not forced if they pay the poll tax. Qatādah says the Arabs were compelled because they were an unlettered nation with no scripture, and nothing but Islam was accepted from them, while the Jews, Christians, and Magians were not compelled if they paid the poll tax. Al-Ḍaḥḥāk says the Prophet was commanded to fight the idolaters of Arabia and accept nothing from them but the declaration of God’s oneness, and then to accept the poll tax from others. Ibn ʿAbbās connects the verse to the time when people entered Islam and the people of the Book paid the tax.
+
+A third group said the verse was abrogated, having been revealed before fighting was ordained. Ibn Zayd calls it abrogated, and Zayd ibn Aslam says the Prophet spent ten years in Makkah compelling no one in religion, until the idolaters insisted on fighting and God permitted him to fight them.
+
+The preferred view is that the verse concerns particular people: the people of the two Scriptures, the Magians, and anyone permitted to keep his religion while paying the poll tax. Nothing in it is abrogated. A verse abrogates another only when it cancels its ruling so that the two cannot stand together; a command that is general in wording but particular in meaning has nothing to do with abrogation. All Muslims have transmitted that the Prophet compelled some people to accept Islam and accepted nothing else from them, such as the idol-worshippers of Arabia and those who abandon Islam for disbelief, while he refrained from compelling others because they paid the poll tax, such as the people of the two Scriptures. That shows the verse means that compulsion is barred for those from whom the poll tax may lawfully be accepted.
+
+The reports about the Anṣār and their children are not to be rejected. A verse may be revealed about a particular case and then apply generally to everything similar. Those children had adopted the religion of the Torah before any commitment to Islam had been made on their behalf, so God forbade compelling them, and the ruling covers everyone in a similar position whose religion is one from which the poll tax may be taken.
+
+### **RIGHT GUIDANCE AND ERROR**
+
+The definite article on religion identifies it as Islam; it may also stand in place of an implied pronoun, meaning *“His religion,”* following the description of God as the Exalted, the Great. The word for right guidance means hitting upon truth and correctness; the word for error means straying beyond the truth and going astray, as in Qur’an 53:2: *“Your companion has not strayed, nor has he erred.”*
+
+### **ṬĀGHŪT AND THE FIRM HANDHOLD**
+
+ʿUmar ibn al-Khaṭṭāb, Mujāhid, al-Shaʿbī, al-Ḍaḥḥāk, Qatādah, and al-Suddī say the ṭāghūt is Satan. Abū al-ʿĀliyah says it is the sorcerer; Saʿīd ibn Jubayr and Rufayʿ, the soothsayer. Jābir ibn ʿAbd Allāh says the ṭāghūts to whom people went for judgement were soothsayers, one in each tribe, upon whom Satan descended. The correct view is that it is anything that transgresses against God and is worshipped besides Him, whether by forcing its worshippers or by their willing obedience, be it a human, a devil, an idol, or anything else. The word comes from a verb meaning to exceed one’s bounds.
+
+Abū al-Dardāʾ visited a dying neighbour who was struggling to speak, and was told that he was trying to say, *“I believe in God and I disbelieve in the ṭāghūt.”* Abū al-Dardāʾ said, *“Your companion has succeeded,”* and recited this verse.
+
+The handhold is a likeness for faith, to which the believer holds as one grips a handle. Mujāhid says it is faith; al-Suddī says Islam; Saʿīd ibn Jubayr and al-Ḍaḥḥāk say the declaration that there is no god but God. Its not breaking means it cannot snap; al-Suddī says it is never cut off, and Mujāhid links it to the principle that God does not change a people’s condition until they change what is in themselves.
+
+## **2:257**
+
+> Allah is the Guardian of the believers—He brings them out of darkness and into light. As for the disbelievers, their guardians are false gods who lead them out of light and into darkness. It is they who will be the residents of the Fire. They will be there forever
+
+### **MEANING**
+
+God is the protecting friend of those who believe: their helper and supporter, who takes charge of them with His aid and enabling grace. He takes them from the darknesses of disbelief to the light of faith. He shows them the reality of faith, its paths, its laws, and its proofs; He guides them and grants them success in grasping the evidence that removes their doubts, by lifting from them the causes of disbelief and the darknesses that screen the eyes of the heart.
+
+As for those who deny His oneness, their helpers and supporters, those who take charge of them, are the ṭāghūt: the rivals and idols they worship besides God. These take them from the light of faith to the darknesses of disbelief and its doubts, which stand between the eyes of the heart and the radiance of faith, the reality of its proofs, and its paths. Those who disbelieve are the people of the Fire, the fire of Hell, in which they remain, unlike the people of faith, without limit or end.
+
+### **DARKNESS AND LIGHT**
+
+The darknesses here stand for disbelief, and the light for faith. Darkness is used as a likeness for disbelief because darkness blocks the eyes from perceiving things and recognising them, and in the same way disbelief blocks the eyes of the heart from perceiving the realities of faith and knowing its truth and the truth of its grounds.
+
+The early interpreters explained the verse in this way. Qatādah says God takes them *“from misguidance to guidance,”* that the ṭāghūt here is Satan, and that he takes his followers from guidance to misguidance. Al-Ḍaḥḥāk says the darknesses are disbelief and the light is faith, and those befriended by the ṭāghūt are taken from faith to disbelief. Al-Rabīʿ explains it in the same way.
+
+### **WHO WAS TAKEN FROM LIGHT TO DARKNESS?**
+
+Mujāhid, or Miqsam, gives a more specific explanation. Some people believed in Jesus and some disbelieved in him. When God sent Muhammad, those who had disbelieved in Jesus believed in Muhammad, while those who had believed in Jesus disbelieved in Muhammad. So God took those who had rejected Jesus into faith in Muhammad, and those who rejected Muhammad were taken from the light they had to darkness. ʿAbdah ibn Abī Lubābah says the verse, through to the statement about the people of the Fire, concerns *“those who had believed in Jesus son of Mary, and when Muhammad came to them, they disbelieved in him.”*
+
+This explanation means the verse is particular. It was revealed about the Christians who rejected Muhammad, and about the idol-worshippers and members of other religions who had never accepted Jesus’ prophethood and then believed in Muhammad.
+
+One might ask whether the Christians were on the truth before Muhammad was sent and then rejected him. The answer is that those of them who followed the way of Jesus son of Mary were on the truth, and they are the ones God addresses in Qur’an 4:136: *“O you who believe, believe in God and His Messenger.”*
+
+Another explanation is also possible. The phrase may mean that the ṭāghūt stand between people and faith and mislead them until they disbelieve. Their misleading them would then be called removing them from faith, in the sense of barring them from it and depriving them of its good, even if they had never been in it. A man says, *“My father took me out of his inheritance,”* when his father gave his property to others during his life and so deprived him of his share, even though he never owned it. In the same way, a man may say he has been taken out of a group of which he was never a member, meaning only that he was not admitted. So the phrase can bear this meaning, though Mujāhid’s explanation is closer to the sense of the verse.
+
+### **A WORD FOR ONE AND FOR MANY**
+
+The verse speaks of the ṭāghūt with a plural verb, *“they take them,”* though the word itself has a singular form. That is because the word serves for both singular and plural, though it also has a separate plural, ṭawāghīt. It is like Arabic words such as ʿadl, which is used for *“a just man”* and also for *“just people.”* A poet uses the word for *“brother”* in the same way of a whole people: *“We said, accept Islam, for we are your brother.”*
+
+### **THE PEOPLE OF THE FIRE**
+
+The closing words refer to those who disbelieve. They are the people of the Fire, those who will remain in the fire of Hell, while the people of faith will not; and their remaining there has no limit and no end.
+
+The contrast in the verse is complete. God befriends the believers; the disbelievers have the ṭāghūt as their friends. God leads His friends from darkness to light; the ṭāghūt lead theirs from light to darkness. The verse follows directly from the previous one, which said that whoever disbelieves in the ṭāghūt and believes in God has taken hold of the firmest handhold. Here God shows what each choice leads to.
+
+## **2:258**
+
+> Are you ˹O Prophet˺ not aware of the one who argued with Abraham about his Lord because Allah had granted him kingship? ˹Remember˺ when Abraham said, “My Lord is the One Who has power to give life and cause death.” He argued, “I too have the power to give life and cause death.” Abraham challenged ˹him˺, “Allah causes the sun to rise from the east. So make it rise from the west.” And so the disbeliever was dumbstruck. And Allah does not guide the wrongdoing people
+
+### **MEANING**
+
+God invites His Prophet to consider, with wonder, the man who disputed with Abraham, God’s prophet, about the Lord whom Abraham worshipped, since God had given that man a kingdom. The form of the question expresses astonishment: Arabs say *“Do you not see this man?”* when they find someone’s conduct outrageous, meaning *“Have you ever seen anyone like this?”*
+
+The prophet declared that the Lord he worships holds life and death in His hand, granting life to whomever He wills and brings death to whomever He chooses after giving life. The king replied that he did the same: he could spare a man he intended to kill, and that would be granting him life, for Arabs do call sparing a life giving life; and he could kill another, and that would be causing him to die.
+
+Then the prophet said: God, the One I worship, brings the sun up from where it rises; so bring it from where it sets, if you are truthful in claiming to be a god. The unbeliever was confounded: his argument collapsed and he had nothing to say. God never guides those who disbelieve to any argument with which they could refute the people of truth in debate, because the arguments of falsehood are always refuted.
+
+### **WHO WAS THE KING?**
+
+He is said to have been a tyrant in Babylon named Namrūdh (Nimrod), whose descent is traced through Canaan or another line back to Shem son of Noah. Mujāhid, al-Suddī, Ibn Zayd, Ibn Isḥāq, and Zayd ibn Aslam name him Namrūdh son of Canaan. Qatādah says: *“We used to be told that he was a king called Namrūdh, the first king to act as a tyrant on earth, and the builder of the tower at Babylon.”* Al-Rabīʿ says the same. Ibn Jurayj adds that he is said to have been the first king on earth. Mujāhid says that four men ruled the whole earth, east and west: two believers, Solomon son of David and Dhū al-Qarnayn, and two unbelievers, Nebuchadnezzar and Namrūdh son of Canaan, and no one else.
+
+### **THE DEBATE**
+
+Qatādah says the king called for two men, killed one and spared the other, and said, *“I **give life** to this one! I spare whom I wish and kill whom I wish.”* Al-Rabīʿ and Ibn Jurayj tell the same. Arabs call sparing someone giving him life, as in Qur’an 5:32: *“whoever saves a life, it is as though he had saved all people.”* Ibn Isḥāq says Namrūdh asked Abraham what this god was whom he worshipped and whose power he praised. After Abraham answered and Namrūdh made his claim, Abraham asked how. Namrūdh said he would take two men who deserved death under his law, kill one, and pardon the other. Abraham then made his challenge about the sun, and Namrūdh was confounded and could say nothing, knowing he could not do it.
+
+Al-Suddī says that once Abraham had come out of the fire, they brought him before the king, who had never spoken with him before. Namrūdh said he would shut four men in a room without food or water until they were dying of hunger, then feed and water two of them so that they lived, and leave the other two to die. Abraham saw that the king did have power, through his rule and authority, to do such a thing, so he turned to the sun. Confounded, the king said, *“This man is mad! Throw him out. Do you not see that in his madness he dared to smash your gods, and the fire did not consume him?”* fearing that he would be disgraced before his people. Al-Suddī links this to Qur’an 6:83: *“That was Our argument, which We gave Abraham against his people.”*
+
+### **ABRAHAM AND THE FOOD**
+
+Zayd ibn Aslam says people used to go to Namrūdh to obtain grain. As each passed, he asked, *“Who is your lord?”* and they answered, *“You.”* Abraham came and answered that the Lord he worshipped gives life and death; the debate followed, and the king sent him away without food. On the way home Abraham passed a mound of reddish sand and filled his bags with it, so his family would be comforted when he arrived. He fell asleep, and his wife opened the bags and found the finest food anyone had seen. When she served it to him and told him where it came from, he knew that God had provided for him and praised Him. Ibn Zayd tells a similar story, adding that Abraham, before filling his sacks, thought of his sons Ishmael and Isaac and how his empty sacks would grieve them.
+
+Zayd ibn Aslam continues that God sent an angel to the tyrant three times, offering to leave him his kingdom if he believed. Each time he refused, asking whether there was any lord besides himself. Then God opened upon his armies a swarm of gnats so thick that they hid the sun; the gnats devoured them until only bones were left. One gnat entered the king’s nostril, and for four hundred years he had his head beaten with hammers, as long as he had been a tyrant, until God caused his death. Zayd ibn Aslam identifies him as the one who built a tower to the sky, which Qur’an 16:26 describes God demolishing at its foundations.
+
+### **CONFOUNDED**
+
+The verb for being confounded means to be cut short, with one’s argument broken. Some Arabs use a variant form, and a related verb means to slander someone with a lie. A reading is reported in which the verb is active, meaning that Abraham confounded the unbeliever.
+
+The closing words mean that God never guides the unbelievers to an argument with which to overturn the case of the people of truth. Ibn Isḥāq explains it as *“He **does not guide** them in argument when they dispute, because of the misguidance they are in.”* Wrongdoing means putting a thing in the wrong place, and the unbeliever puts his denial in the wrong place, and so wrongs himself.
+
+## **2:259**
+
+> Or ˹are you not aware of˺ the one who passed by a city which was in ruins. He wondered, “How could Allah bring this back to life after its destruction?” So Allah caused him to die for a hundred years then brought him back to life. Allah asked, “How long have you remained ˹in this state˺?” He replied, “Perhaps a day or part of a day.” Allah said, “No! You have remained here for a hundred years! Just look at your food and drink—they have not spoiled. ˹But now˺ look at ˹the remains of˺ your donkey! And ˹so˺ We have made you into a sign for humanity. And look at the bones ˹of the donkey˺, how We bring them together then clothe them with flesh!” When this was made clear to him, he declared, “˹Now˺ I know that Allah is Most Capable of everything.”
+
+### **MEANING**
+
+This verse is joined to the previous one and carries the same tone of wonder. Just as the Prophet was invited to consider the king who disputed with Abraham, he is invited to consider a man who passed by a town emptied of its people, its buildings collapsed onto their roofs. The man had known it full of life, and now its people had been destroyed, killed or carried off, and nothing remained but traces. The man wondered in what way God could ever restore it once it had died. He knew that God had created it from nothing in the first place, yet that knowledge did not satisfy him.
+
+So God took his life and kept him dead for a century, then raised him. God asked him the length of time he had stayed dead. Having died early in the day and been raised late in the day, he answered that he had stayed a day, then, seeing the sun not yet set, **part of a day**. God informed him that he had stayed a century. He should look at his food and his drink: the years had not changed them. And he should look at his donkey. God had done this to make him a proof for people, a proof against anyone ignorant of God’s power. He should also observe the bones, his own and his donkey’s, and see how God raised them and set them in place, and then covered them in flesh. Once God’s power, which he had doubted, became plain to him before his own eyes, he was told to know that God has power over all things.
+
+### **WHO WAS THE MAN?**
+
+Many said he was ʿUzayr (Ezra): Nājiyah ibn Kaʿb, Sulaymān ibn Buraydah, Qatādah, al-Rabīʿ, ʿIkrimah, al-Suddī, al-Ḍaḥḥāk, and Ibn ʿAbbās. Others, including Wahb ibn Munabbih and ʿAbd Allāh ibn ʿUbayd ibn ʿUmayr, said he was the prophet Armiyā (Jeremiah) son of Ḥilqiyā, of the tribe of Aaron; Ibn Isḥāq reports from Wahb that Armiyā was al-Khiḍr.
+
+There is no way to establish his name. He may have been ʿUzayr or Armiyā, and there is no need to know which. The verse was not meant to teach people a name. It was meant to show those who denied that God can raise His creatures after death, whether of Quraysh or other Arabs, that life and death are in His hand, and to establish the proof against the Jews living around the Prophet’s city.
+
+### **THE RUINED TOWN**
+
+Wahb, Qatādah, ʿIkrimah, and al-Rabīʿ say the town was Jerusalem, after Nebuchadnezzar of Babylon destroyed it; al-Ḍaḥḥāk says the Holy Land. Ibn Zayd says it was the town where God caused the thousands who fled the plague to die. Here too, certainty is not possible.
+
+The word for empty means deserted by its inhabitants, and the word for roofs means buildings, as in Qur’an 7:137, *“what they used to build.”* Ibn ʿAbbās and al-Ḍaḥḥāk say it means ruined; al-Suddī says it had fallen in upon its roofs. Ibn Jurayj says ʿUzayr stood over Jerusalem and grieved, recalling its former sanctity, fighters, and wealth.
+
+Wahb tells that God warned the Children of Israel through Armiyā, but they persisted in sin until God sent Nebuchadnezzar against them. When he left with his captives, Armiyā came on his donkey carrying grape juice and a basket of figs, saw the ruin of Jerusalem, and was seized by doubt. God took his life with his donkey beside him and hid him from all eyes. Al-Suddī says ʿUzayr was coming from Syria with juice, grapes, and figs, and said this *“not denying or doubting.”*
+
+### **A DAY OR PART OF A DAY**
+
+Qatādah says: *“We were told that he died in the forenoon and was raised before sunset,”* so he said a day, then turned, saw some of the sun remaining, and said **part of a day**. Al-Rabīʿ and Ibn Jurayj say the same.
+
+### **FOOD THAT DID NOT CHANGE**
+
+His food is variously described as figs and grapes, and his drink as water, grape juice, or wine. Wahb, Qatādah, al-Suddī, al-Ḍaḥḥāk, Ibn ʿAbbās, ʿIkrimah, and Ibn Zayd say the verb means that it had not changed; al-Suddī says the figs and grapes had not soured nor the juice fermented. Mujāhid says it had not rotted.
+
+The Kūfans read the verb without its final h when joined to the next word; the people of Madīnah and the Ḥijāz kept the h. Keeping it is correct, because it is written in the Muslims’ codex and has a sound basis: the verb means not touched by the years, from a dialect form of the word for year. Hāniʾ, a client of ʿUthmān, says that when Zayd ibn Thābit asked about the word, ʿUthmān said, *“Put an h in it,”* and Ubayy ibn Kaʿb added the h when the codices were reviewed. Those who took it from the verb for rotting confused it with another root.
+
+### **THE DONKEY AND THE BONES**
+
+Some said he was first revived whole, then watched his donkey restored. Wahb says he saw the donkey’s bones join by veins and sinews, then flesh, then the spirit, and it stood braying. Al-Suddī says God sent a wind that gathered the donkey’s bones from every plain and mountain. Others said God first breathed life into his eyes, so he watched his own body being formed and then his donkey; Mujāhid, Ibn Jurayj, Qatādah, and al-Rabīʿ hold this. Others still said his donkey was standing tethered as on the day he left it, and he watched his own bones restored; Wahb, al-Ḍaḥḥāk, and Ibn Zayd say this.
+
+The preferred view is that God raised him and showed him, in his own body, his food, and his donkey, a visible likeness of what he had found hard to believe about the town. All agree that decay had overtaken both his bones and the donkey’s, so the command concerning the bones covers everything decayed that he could see.
+
+He was a proof for people, says al-Aʿmash, because he came back young to children who were now old men. Al-Suddī says he found his house sold and rebuilt and everyone who knew him dead, until he convinced them he was ʿUzayr. The verse means he was a proof for his family and people and those to whom he was sent.
+
+### **RAISING AND CLOTHING THE BONES**
+
+The Kūfans read the verb for the bones with z, meaning to raise them and fit each to the next, from the root for being elevated; the people of Madīnah read it with r, meaning to revive them, which Mujāhid, Qatādah, and Ibn Zayd follow. The two meanings are close, since restoring the bones to their places is part of reviving them. A third reading is rejected as irregular. Clothing them means covering them, as a poet says he was *“clothed in Islam as a garment.”*
+
+The Kūfans read the final words as a command, *“Know,”* and it appears so in ʿAbd Allāh ibn Masʿūd’s reading; others read them as his own words, a statement of his knowledge. The command is preferred, because everything before it is God addressing him.
+
+## **2:260**
+
+> And ˹remember˺ when Abraham said, “My Lord! Show me how you give life to the dead.” Allah responded, “Do you not believe?” Abraham replied, “Yes I do, but just so my heart can be reassured.” Allah said, “Then bring four birds, train them to come to you, ˹then cut them into pieces,˺ and scatter them on different hilltops. Then call them back, they will fly to you in haste. And ˹so you will˺ know that Allah is Almighty, All-Wise.”
+
+### **MEANING**
+
+This is joined to the two previous accounts. The opening question of those passages does not mean *“Have you seen with your eyes?”* but *“Have you considered with your heart?”*, and so the Prophet is invited to consider also the moment Abraham asked his Lord to let him see how He revives the dead. God asked him whether he did not already believe, that is, accept as true that God has power to do it. Abraham affirmed that he did believe, but asked to see it so that his heart would be at rest, settled and calm through the certainty it gained, and so that Satan could no longer cast into it the kind of thought he had cast before.
+
+God told him to take **four birds** and divide each into parts, then place a portion of them on every mountain he could reach, and then summon them: they would come to him running. And he should know that the One who revived these birds after he had torn them apart and scattered their parts on the mountains, gathering them and returning their spirits until they were as they had been, is Mighty in His assault on the tyrants and the arrogant who defy His command, disobey His messengers, and worship others, and Wise in His command.
+
+### **WHY DID ABRAHAM ASK?**
+
+Some said Abraham saw a carcass that beasts of prey and birds had divided between them, and asked to see with his own eyes how God would revive it though its flesh was scattered in the bellies of birds and beasts. Qatādah says he came upon an animal that beasts had torn apart. Al-Ḍaḥḥāk says he saw a dead animal that had decayed and been scattered by winds and beasts, and exclaimed at how God would revive it, *“and he knew that God was able to do that.”* Ibn Jurayj says it was a donkey’s carcass, and the birds flew off to the mountains and hills. Ibn Zayd says he passed a whale lying half on land and half in the sea, eaten by creatures of both, and *“the wicked one said to him: Abraham, when will God gather this from the bellies of these?”*
+
+Others said the cause was his debate with Namrūdh; Ibn Isḥāq connects it with the exchange about giving life and causing death. These two views are close: in both, Abraham asked to see with his eyes what he already knew by report.
+
+Others said he asked when God gave him the good news that He had taken him as His intimate friend, wanting a sign so that his heart would be at peace about it. Al-Suddī tells that the Angel of Death asked leave to bring Abraham this news, entered his house, and was confronted by Abraham, who was very protective of his home. After the angel delivered the news, Abraham asked to see the form in which he takes the souls of unbelievers, and fainted at the terrible sight; then he saw the beautiful form in which he takes the souls of believers. Afterwards Abraham prayed to be shown how God revives the dead, *“so that I may know that I am Your intimate friend.”* Saʿīd ibn Jubayr says his heart sought reassurance about this friendship.
+
+Others held that Abraham spoke this way because a doubt about God’s power had occurred to him. Ibn ʿAbbās says no verse in the Qur’an gives him more hope than this one. When ʿAbd Allāh ibn ʿAmr named Qur’an 39:53, *“O My servants who have wronged themselves,”* as the most hopeful verse for this community, Ibn ʿAbbās named Abraham’s request instead. ʿAṭāʾ says *“there entered Abraham’s heart something of what enters people’s hearts.”* Abū Hurayrah relates that the Prophet said, *“We are more entitled to doubt than Abraham,”* and recited the verse.
+
+### **THE PREFERRED VIEW**
+
+The best explanation is the one supported by this saying of the Prophet: Abraham’s request arose from a passing suggestion that Satan cast into his heart, as in Ibn Zayd’s account of the whale. He asked to see it with his own eyes, so that Satan could never again cast such a thought into his heart. God asked whether he lacked faith that God was able to do it; he answered that he did, but asked to see it so that his heart would be at rest.
+
+This agrees with those who said the phrase means to increase in faith or to be certain. Saʿīd ibn Jubayr says it means *“that I may become certain,”* and also that his certainty might increase; al-Ḍaḥḥāk, Qatādah, al-Rabīʿ, and Maʿmar say the same. Mujāhid and Ibrāhīm say it means *“that I may gain more faith along with my faith.”* Ibn ʿAbbās explains it as *“that I may know You answer me when I call You and give to me when I ask You.”* Al-Suddī, Saʿīd ibn Jubayr, and Ibn Zayd explain the question of belief as asking whether he was not certain.
+
+### **THE BIRDS AND THEIR PARTS**
+
+Mujāhid, Ibn Jurayj, Ibn Zayd, and some scholars who cite the earlier People of the Book name the birds as a peacock, a cockerel, a raven, and a pigeon; Ibn Zayd notes they differed in kind and colour.
+
+The verb applied to them is read in two ways in Arabic. Some grammarians said it can only mean to incline them towards oneself; the stronger view is that both readings carry the same meaning, to cut up the birds, with the phrase *“to yourself”* attached to the command to take them. Ibn ʿAbbās says it means *“split them; it is a Nabataean word,”* and ʿIkrimah, Mujāhid, Qatādah, al-Ḍaḥḥāk, al-Suddī, al-Rabīʿ, Abū Mālik, and Ibn Isḥāq all say it means to cut or tear them apart. Mujāhid says he plucked them and mixed their flesh with their feathers; Qatādah says he slaughtered them and mixed their blood and feathers. A few, such as ʿAṭāʾ and Ibn Zayd, said it means to gather them to oneself.
+
+As for the mountains, Ibn ʿAbbās says the four parts were placed in four quarters of the world; Qatādah and al-Rabīʿ say four mountains; Ibn Jurayj and al-Suddī say seven, the mountains where he had seen the birds and beasts go. Mujāhid says he was to spread the parts over every mountain, and calls it *“a parable God struck for Abraham.”* That is the correct view: God commanded him to place the parts on every mountain he could reach, and there is no evidence for four or seven.
+
+Qatādah says Abraham held their heads in his hand and watched bone go to bone, feather to feather, and flesh to flesh; then they came to him running, and each joined its head. Some scholars say he called to them, *“Come, by God’s permission,”* and was told that in the same way God will gather His servants from the east and the west.
+
+### **CALLING THE DEAD**
+
+One may ask how Abraham could call parts with no life in them. The answer is that this was a command of creation, like God’s command in Qur’an 2:65, *“Be apes, despised,”* not a command of obligation that requires a living person to obey it.
+
+## **2:261**
+
+> The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears, each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills. For Allah is All-Bountiful, All-Knowing
+
+### **MEANING**
+
+People spending their own means on themselves in striving against God’s enemies, with their persons and their property, are like a single grain of wheat, barley, or any other plant of the earth that grows into ears, sown by a farmer. That grain brings forth **seven ears**, and in every ear are a **hundred grains**. In the same way, the one who spends his wealth on himself in God’s path receives a reward seven hundredfold for every single unit he spends.
+
+Beyond those seven hundred, God increases the multiplication, to whatever extent He pleases, for whichever spender in His path He chooses. He is Vast, able to give more to whomever of His creatures who spend in His path He wishes, beyond the multiples He has promised; and He is Knowing of who among them deserves the increase.
+
+### **THE RETURN TO THE THEME OF LENDING TO GOD**
+
+This verse returns to God’s earlier call, *“Who is it that will lend God a goodly loan, so that He may multiply it for him many times over?”* (Qur’an 2:245). Between that call and this verse came the accounts of the Children of Israel with Ṭālūt and Jālūt, the king who disputed with Abraham, the man who passed by the ruined town, and Abraham’s request to be shown how God revives the dead. Those accounts were set in between for several purposes. Some of them served as an argument against the idolaters who denied the resurrection and the Hour. Some urged the believers on to the struggle in God’s path, which He had commanded in Qur’an 2:244, *“Fight in the path of God, and know that God is Hearing, Knowing.”* Through them God taught the believers that He would help them though their numbers were few and their enemies many, that He supports those who seek His pleasure, and that He abandons those who follow the path of His enemies, scatters their gatherings, and weakens their schemes. Then God returned to the subject of the one who lends Him a goodly loan, and described the reward awaiting him.
+
+### **THE SEVENFOLD AND HUNDREDFOLD GRAIN**
+
+The early interpreters understood the likeness as describing the reward of spending in God’s path. Al-Suddī says: *“This is for whoever spends in the path of God; his reward is seven hundred.”* Ibn Zayd says it refers to *“the one who spends on himself in the path of God and goes out.”*
+
+Al-Rabīʿ draws a distinction: *“Whoever pledged allegiance to the Prophet to emigrate, and stood guard with the Prophet in Madīnah, and went nowhere except with his permission, had each good deed counted seven hundredfold, while whoever pledged allegiance to Islam had each good deed counted tenfold.”*
+
+### **DOES SUCH AN EAR EXIST?**
+
+Someone might ask whether anyone has ever seen an ear holding a **hundred grains**, or heard of one, that it should be struck as a likeness for the one who spends his wealth in God’s path. The answer is: if such a thing exists, then that is what is meant. If not, the meaning may be that the grain produces **seven ears**, with a **hundred grains** in each, should God place that in them.
+
+It may also mean that each ear, when its own grains are sown, yields a **hundred grains**, so that what grows from its seed is attributed to the ear because it came from it. Some interpreters took it this way: al-Ḍaḥḥāk says *“each ear produced a **hundred grains**,”* and that this is for whoever spends in God’s path.
+
+### **TO WHOM IS THE REWARD MULTIPLIED?**
+
+The interpreters differed over the multiplication God grants to whomever He chooses. Some said it refers to those who do not spend in His path: God multiplies the rewards of their good deeds as He pleases, below what He promised the one who spends in His path, while the spender is never given less than the promised seven hundred. Al-Ḍaḥḥāk says the seven hundred are for whoever spends in God’s path, and the following words concern someone other than the spender.
+
+Others said it means God increases the reward beyond seven hundred, for whomever He chooses among the spenders in His path, up to two million times. This view is attributed to Ibn ʿAbbās, though without a known chain of transmission.
+
+The preferred view is that God increases the reward beyond seven hundred, to any degree He pleases, for whomever He chooses among the spenders in His path. The verse has said nothing about reward or multiplication for anyone other than the one who spends in God’s path, so its promise cannot be turned towards those who do not spend in His path.
+
+### **VAST AND KNOWING**
+
+God is Vast, able to give whomever He chooses among the spenders in His path more than the seven hundredfold He promised, and Knowing of who among them deserves that increase. Ibn Zayd says *“Vast, to give more out of His vastness; Knowing, aware of whom He gives more.”* Others said He is Vast enough for those multiples, and Knowing of every expenditure people make in obedience to God.
+
+## **2:262**
+
+> Those who spend their wealth in the cause of Allah and do not follow their charity with reminders of their generosity or hurtful words—they will get their reward from their Lord, and there will be no fear for them, nor will they grieve
+
+### **MEANING**
+
+This describes the one who gives his property to the fighters in God’s path to help them in their struggle against God’s enemies: those who support the fighters by spending on them, on their mounts, and on their other provisions, and who then never follow what they have spent with a show of favour or with injury.
+
+Showing favour means making a display to the recipients that he has done them a kindness by what he gave them to strengthen them against their enemy, and revealing that, whether by word or by deed. Injury means complaining about them because of the support he gave them, saying, for example, that they did not fulfil their duty in the struggle, or any similar words that hurt those on whom he spent.
+
+Such people have a reward with God: their recompense for what they spent in His path and never followed with a show of favour or injury. Along with that reward, they have nothing to fear when they come before God and leave this world, nor in the terrors of the Day of Resurrection, from its hardships or from God’s punishment; nor shall grief touch them over what they left behind them in this world.
+
+### **WHY THIS CONDITION WAS MADE**
+
+God made this a condition for the one who spends in His path, and made the reward due to the one who neither reminds nor hurts the recipient, because spending in God’s path is spending that seeks God’s face and what lies with Him. If that is the nature of spending in God’s path, the spender has no ground for reminding the recipient of a favour. He has no claim on him and has done him no kindness for which he could demand thanks or, failing that, reproach him. He spent seeking reward with God and His good pleasure, and it is God who repays him, not the one on whom he spent.
+
+The early interpreters explained it in the same way. Qatādah says: *“God knew that some people remind others of their gifts, so He disliked that and gave warning about it,”* and recited the next verse: *“Kind words and forgiveness are better than charity followed by injury”* (Qur’an 2:263). Al-Ḍaḥḥāk says: *“For a man not to spend his wealth is better than for him to spend it and then follow it with reminders and injury.”*
+
+### **THOSE WHO STAY BEHIND AND THOSE WHO GO OUT**
+
+Ibn Zayd draws a distinction between this verse and the previous one. He says God addressed this verse to *“the others,”* meaning those who never go out themselves to fight the enemy but spend on those who do, and so He placed a condition upon them. The one who goes out to fight was given no condition, great or small; he is the one mentioned in the previous verse, the likeness of the grain that brings forth seven ears.
+
+On this reading, the previous verse describes the man who spends on himself as he sets out in God’s path, whose reward is multiplied seven hundredfold and more, while this verse describes the man who stays at home and equips others. His reward is secured on condition that he does not spoil it by reminding the fighters of his favour or wounding them with complaint.
+
+### **THE REWARD AND FREEDOM FROM FEAR**
+
+The pronoun in the promise of reward refers back to the spenders in God’s path in the manner described. That reward is the recompense and repayment for the spending they made in God’s path without following it with reminders or injury.
+
+The promise that they have nothing to fear and will not grieve has two sides. Fear shall not touch them when they arrive before God, or when they meet the terrors of the Resurrection, or that its hardships or God’s punishment will touch them. And they shall not grieve over what they left behind in this world.
+
+### **THE WARNING THAT FOLLOWS**
+
+The surrounding verses make the condition clear. The verse after this says that a kind word is better than charity followed by injury, and the one after that warns: *“O you who believe, **do not** nullify your charity by reminders and injury, like the one who spends his wealth to be seen by people”* (Qur’an 2:264). So spending in God’s path earns its full reward only when it is kept free of everything that turns it from a gift for God’s sake into a claim upon people.
+
+## **2:263**
+
+> Kind words and forgiveness are better than charity followed by injury. And Allah is Self-Sufficient, Most Forbearing
+
+### **MEANING**
+
+A gracious word, such as a man’s prayer for his fellow Muslim, and covering for him, concealing what one knows of his need and his poor condition, are superior in God’s sight to an act of charity given to him which the giver then follows with harm, complaining about him because of it and hurting him on account of it.
+
+God is free of need of whatever people give in charity; He gains nothing from it and needs none of it. He is forbearing, in that He does not hasten to punish those among them who remind others of their charity and hurt the people to whom they gave it.
+
+### **A GOOD WORD AND CONCEALMENT**
+
+The word translated as kind or gracious refers to beautiful speech: a pleasant reply, and a believer’s prayer for his Muslim brother when he cannot give him anything. The forgiveness mentioned alongside it is a covering that the potential giver draws over the poor man, keeping hidden what he has learned of his want and the hardship of his situation, rather than exposing it.
+
+These two are superior in God’s sight to charity that is given and then followed by harm. The harm here is the giver complaining about the recipient on account of his gift and wounding him because of it, the same harm described in the previous verse, where the reward of those who spend in God’s path was promised to those who do not follow what they spend with reminders of favour or injury.
+
+### **WITHHOLDING IS BETTER THAN HARMFUL GIVING**
+
+Al-Ḍaḥḥāk explains the verse: *“For a man to hold on to his wealth is **better than** for him to spend it and then follow it with reminders and injury.”* He says the same in explaining the previous verse, so for him the two verses carry one lesson: charity marred by harm is worse than no charity at all, and a man who cannot give without wounding would do better to speak kindly and keep his money.
+
+Qatādah, explaining the previous verse, says: *“God knew that some people remind others of their gifts, so He disliked that and gave warning about it,”* and then he recited this verse. In his view this verse is God’s answer to that fault: He shows that a good word and a covering of the poor man’s need are preferable to a gift that humiliates him.
+
+### **WHY HARMFUL CHARITY LOSES ITS VALUE**
+
+The previous verse explained why reminders and injury have no place in spending for God’s sake. Spending in God’s path is done seeking God’s face and what lies with Him, so the giver has no claim on the one he helps, and no right to demand thanks or to reproach him if thanks are not given. His repayment lies with God. When he follows his gift with harm, he has turned it into a claim upon a fellow human, and he has hurt the very person he claimed to help.
+
+The verse that follows makes the consequence plain: *“O you who believe, do not nullify your charity by reminders and injury, like the one who spends his wealth to be seen by people and does not believe in God and the Last Day”* (Qur’an 2:264). So the harm that follows charity does not merely lessen its value; it can wipe out its reward entirely, as hypocrisy wipes out the reward of one who spends only for show.
+
+### **FREE OF NEED AND FORBEARING**
+
+The closing names suit the lesson. God is free of need of what people give; their charity does not benefit Him, and He does not need them to give in a way that harms one another. Ibn ʿAbbās says: *“The Self-Sufficient is the One who is perfect in His self-sufficiency, and the Forbearing is the One who is perfect in His forbearance.”*
+
+His forbearance is shown in that He does not rush to punish those who remind others of their charity and harm the people they gave it to. So the verse joins a rule for the giver with a description of the Giver: people are told which kind of giving God values, and reminded that He has no need of their gifts and is patient with their faults.
+
+## **2:264**
+
+> O believers! Do not waste your charity with reminders ˹of your generosity˺ or hurtful words, like those who donate their wealth just to show off and do not believe in Allah or the Last Day. Their example is that of a hard barren rock covered with a thin layer of soil hit by a strong rain—leaving it just a bare stone. Such people are unable to preserve the reward of their charity. Allah does not guide ˹such˺ disbelieving people
+
+### **MEANING**
+
+O you who have accepted the truth of God and His Messenger, never cancel the rewards of your acts of charity by reminding the recipients of your favour and hurting them, just as disbelief cancels the reward of the one who spends his property to be seen by people. Such a person spends in a way that people outwardly take to be for God’s sake, so they praise him; yet he neither intends God by it nor seeks reward from Him. He spends openly only so that people will praise him and say, *“He is generous and noble; he is a righteous man,”* while they know nothing of the intention he hides, nor of his denial of God and of **the Last Day**. He denies God’s oneness and lordship, and denies that he will be raised after death and repaid for his deeds, and so he never performs his deeds for God’s face or seeking His reward in the Hereafter.
+
+The likeness of this man is that of a smooth rock with dust lying on it. A heavy downpour strikes it and leaves it bare and hard, with nothing left on it. So it is with the deeds of the hypocrites: in this world the Muslims see that they seem to have deeds, as dust is seen on the rock, because of the show they put on. But on the Day of Resurrection, when they come to God, all of it vanishes, because none of it was for God, just as the downpour washed away the dust and left the rock smooth. They will have no power on that Day over the reward of anything they earned in this world, because they did not work for their return or seek what lies with God; they worked for show and for people’s praise, and what they sought is all they get. God never directs those who disbelieve to hit upon what is right in their spending or anything else, since they prefer falsehood; He leaves them wandering blindly in their error.
+
+So God tells the believers never to be like the hypocrites whose deeds this likeness describes, cancelling the rewards of the charity they give by reminders and injury, as the reward of the hypocrite’s spending for show is cancelled in God’s sight.
+
+### **WHO IS THE ONE WHO SPENDS FOR SHOW?**
+
+This is the description of the hypocrite. The person who openly displays his disbelief and declares his idolatry cannot be described as showing off with any of his deeds. One who shows off performs a deed that appears to be for God while his hidden intention is suspect and his aim is people’s praise. An open disbeliever deceives no one, for it is plain that all his actions are for Satan, not God, so he is not one who shows off.
+
+### **HOW HARM DESTROYS GOOD DEEDS**
+
+ʿAmr ibn Ḥurayth says that a man may go on a campaign, neither stealing, committing adultery, nor embezzling from the spoils, and yet not come back even with his deeds balancing out. Asked why, he explained: when the trial God has decreed for him strikes him on the campaign, he curses his commander and curses the hour he set out, and swears never to campaign with him again. *“So this counts against him and not for him,”* like spending in God’s path followed by reminders and injury, for which God struck this likeness in the Qur’an.
+
+Ibn Jurayj says the giver *“reminds him of his charity and hurts him over it until he cancels it.”* Ibn Zayd recites the verse and asks: *“Do you think the downpour leaves any of the dust on the rock? In the same way, your reminding and your injury leave nothing of what you spent.”*
+
+Qatādah and al-Rabīʿ say this is a likeness God struck for the deeds of the disbelievers on the Day of Resurrection: they will have no power over anything they earned that Day, just as the rain left the stone with nothing on it, cleaner than ever. Al-Suddī says showing off removes the spender’s outlay as the rain removed the dust, and then God addressed the believers. Al-Ḍaḥḥāk says that God struck a single likeness for both the disbeliever who spends without believing in God and **the Last Day**, and the believer who spends and then follows it with reminders and injury. Ibn ʿAbbās says: *“Likewise, the hypocrite on the Day of Resurrection has power over nothing he earned.”*
+
+### **THE ROCK, THE DOWNPOUR, AND THE BARE STONE**
+
+The pronoun in the likeness refers back to the one who spends for show. The word for the rock serves as singular and plural; its singular is formed like a single date from the word for dates, and a poet uses the plural of the word for smooth stones. It means a smooth rock, which Ibn ʿAbbās, al-Ḍaḥḥāk, al-Rabīʿ, al-Suddī, and Qatādah all describe as a stone.
+
+The word for the downpour means heavy, intense rain, as Imruʾ al-Qays describes *“a heavy shower, its sides falling, gushing down.”* Al-Suddī, al-Ḍaḥḥāk, Qatādah, and al-Rabīʿ say it means heavy rain.
+
+The word for bare describes hard stone with no plant or anything else on it, and ground that grows nothing; it is also used of a bald forehead, and of a thick pot slow to boil. Al-Suddī says it means clean; Ibn ʿAbbās says *“it left it clean with nothing on it”*; al-Ḍaḥḥāk says stripped; Qatādah says with nothing on it.
+
+### **THOSE WHO DISBELIEVE**
+
+The closing words are a parallel to Qur’an 2:258, where God withholds guidance from the wrongdoers in argument. Here He withholds guidance from the disbelievers to right conduct in their spending, because they choose falsehood over truth.
+
+## **2:265**
+
+> And the example of those who donate their wealth, seeking Allah’s pleasure and believing the reward is certain, is that of a garden on a fertile hill: when heavy rain falls, it yields up twice its normal produce. If no heavy rain falls, a drizzle is sufficient. And Allah is All-Seeing of what you do
+
+### **MEANING**
+
+Now comes the opposite likeness. Consider those who spend their property, giving it in charity, providing mounts with it in God’s path, strengthening needy fighters and those striving in God’s path, and spending in other acts of obedience to God, all to win His good pleasure. They spend with firmness that comes from within themselves: their souls are certain of God’s promise and trust what He has promised for whatever they spend in His obedience without reminders or injury, and so their souls make them steadfast in spending, strengthen their resolve, and confirm their judgement.
+
+Their likeness is that of a garden on raised ground. A downpour strikes it, and it brings forth its fruit twofold. Should the downpour miss it, then a light rain does. Just as the fruit of this garden is doubled whether the rain is heavy or light, God multiplies the charity of the one who spends seeking His pleasure and with firmness from within himself, free of reminders and injury, whether his spending is small or great. His spending never fails or comes to nothing, just as the garden’s yield never fails, whether much rain or little reaches it.
+
+God sees whatever people do in their spending. Nothing of it or of their other deeds is hidden from Him. He knows who spends with reminders and injury and who spends seeking His pleasure, and He records it all, so that He may repay each according to his deed: good for good and evil for evil. This is a warning to His servants not to do what He has forbidden in their spending or elsewhere, nor to neglect what He has commanded, for all of it is seen and heard by God, who records it and watches over His creation.
+
+### **FIRMNESS FROM WITHIN THEMSELVES**
+
+The word for firmness is the verbal noun of a verb meaning to make someone firm in a matter by confirming his resolve and strengthening his judgement. Ibn Rawāḥah uses it in praying for the Prophet: *“May God make firm the good He gave you, as He made Moses firm.”* Those who explained it as belief or certainty did so because the firmness the souls of these spenders gave them came from their certainty and their trust in God’s promise.
+
+Al-Shaʿbī says it means *“belief and certainty”*; Qatādah and Abū Ṣāliḥ say certainty from within themselves. Mujāhid and al-Ḥasan say it means that they used to make sure where they placed their money; al-Ḥasan says *“when a man intended to give charity he paused to make sure: if it was for God he went ahead, and if doubt mixed with it he held back.”* That interpretation is far from the plain sense of the wording. It treats the word as if it meant self-verification, but the verbal noun of that verb has a different form, as in Qur’an 16:47, where the matching verb and noun share a form. The case of Qur’an 73:8, *“and devote yourself to Him with complete devotion,”* is different, because there the stated verb indicates an implied one from which the noun is formed.
+
+Qatādah also explains it as seeking reward from within themselves. This too is far from the meaning of the word, since it is not known in Arabic in that sense, unless he meant that the spenders’ souls sought reward in making them firm, in which case seeking reward would describe the firmness rather than translate it.
+
+### **THE GARDEN ON RAISED GROUND**
+
+The garden is an orchard. The raised ground is land that rises above the floodwater. God describes it this way because land raised above watercourses and valleys is firmer, and orchards on firm land are finer and yield better fruit than those on soft land. Al-Aʿshā praises a meadow of the high ground, *“green and lush, which a pouring cloud has watered generously.”*
+
+The word is read in three ways; the reading with u, used in Madīnah, the Ḥijāz, and Iraq, is preferred as the better known, and the reading with i, attributed to Ibn ʿAbbās, is rejected because readers abandoned it. It is named from a verb meaning to swell and grow. Mujāhid calls it level, visible ground, raised high; Qatādah, al-Rabīʿ, and al-Suddī say raised ground; al-Ḍaḥḥāk and Ibn ʿAbbās say high ground where rivers do not flow. Al-Ḥasan says it is level land standing above the water.
+
+### **THE DOWNPOUR AND THE LIGHT RAIN**
+
+The downpour is rain that is **heavy**, with large drops. The garden then yields its produce in double measure. The word for produce means what is eaten, distinct from the act of eating. The light rain is dew and gentle rain: al-Suddī says dew, Qatādah and al-Rabīʿ a sprinkling, al-Ḍaḥḥāk a fine drizzle. The verb about the rain refers to the past with an implied verb of being: if a downpour had not struck it, light rain did.
+
+Al-Suddī says: *“As the fruit of that garden was doubled, so the fruit of this spender is doubled.”* Qatādah says: *“This is a likeness God struck for the believer’s deed: his good never fails, just as the good of this garden never fails in any case, whether downpour or light rain.”* Al-Ḍaḥḥāk and al-Rabīʿ also call it a likeness for the believer who spends seeking God’s pleasure.
+
+## **2:266**
+
+> Would any of you wish to have a garden with palm trees, grapevines, and all kinds of fruits with rivers flowing underneath and as they grow very old with dependent children, a fiery whirlwind hits the garden, burning it all up? This is how Allah makes His revelations clear to you, so perhaps you will reflect
+
+### **MEANING**
+
+This verse continues the address to the believers that began with the command not to cancel their charity by reminders and injury, like the one who spends his wealth to be seen by people. Would one of you love to have a garden, an orchard of date palms and grapes, with rivers running beneath it and every sort of fruit in it for him; then old age overtakes him while he has weak offspring, small children; and then a whirlwind containing fire strikes the garden and it is burned?
+
+God made this orchard a likeness for the spending of the hypocrite who spends for people to see, not to seek God’s pleasure. Because of the charity, giving, and outward deeds they see from him, people praise and commend him throughout his life, so in its beauty his deed is like the beauty of the orchard. Then the garden is burned by a wind carrying fire at the very moment its owner needs it most: when old age has made him dependent on its fruit and too weak to tend it, and his children are too small and helpless to revive or maintain it.
+
+So it is with the one who spends his wealth for show: God extinguishes his light, removes the splendour of his deed, and cancels its reward, until he meets Him and returns to his deed when he needs it most, at a time when he can no longer seek favour, have his sins overlooked, or repent. His deed vanishes as the garden was burned when its owner was old and his offspring small, when he most needed it, and all its benefits were lost to him.
+
+In this way God makes plain to you the matter of spending in His path: how it should be done, and what you may and may not do in it. In the same way He makes plain His other signs, teaching you their rulings, what is lawful and unlawful in them, and clarifying their proofs, as a favour to you, so that you may think with your minds, ponder and take lesson from God’s proofs, act on the rulings they contain, and so obey God.
+
+### **A LIKENESS FOR SPENDING FOR SHOW**
+
+This likeness parallels the earlier one of the smooth rock with dust on it, washed bare by a downpour. The interpreters disagreed over this verse, but their explanations, though worded differently, come back to this meaning, and the clearest and most correct of them is al-Suddī’s. He says: *“This is another likeness for spending done for show. He spends his wealth showing off to people, and his wealth goes from him while he shows off, so God does not reward him for it.”* On the Day of Resurrection, when he needs what he spent, he finds that showing off has burned it, as the wind of scorching heat burned the garden of a man who had spent on it until, his dependants many, he needed it and found nothing.
+
+This is the preferred explanation because God first forbade the believers to spoil their charity with reminders and injury, then struck a likeness for the one who does so by comparing him to the hypocrite who spends for show. This verse forms one story with that likeness, so attaching it to its counterpart is more fitting than reading it as a likeness for something mentioned neither before it nor with it. Ibn Zayd also connected it to the command not to cancel charity, and al-Ḍaḥḥāk calls it *“a likeness God struck for the disbeliever, who meets Me on the Day of Resurrection when he most needs some good, and finds none with Me.”*
+
+### **A LIKENESS FOR A LIFE ENDING BADLY**
+
+Others gave the likeness a wider sense. Mujāhid says it describes *“one who neglects obedience to God until he dies”*: after death he is like this old man whose garden burned, and for the negligent everything after death is regret. ʿAṭāʾ tells that ʿUmar asked the people about this verse and found no satisfying answer, until Ibn ʿAbbās, behind him, said he had a thought about it. ʿUmar said, *“Speak, son of my brother, and do not belittle yourself.”* Ibn ʿAbbās said it is a likeness for a man who does the deeds of the people of good all his life, until, when he most needs to end well, he ends with the deeds of the wretched and ruins it all. ʿUmar explained it, in Ibn Abī Mulaykah’s account, as a man who does good deeds until Satan is sent to him and he sins until he drowns all his deeds.
+
+Ibn ʿAbbās also says the garden was planted in a man’s youth and burned in his old age, when he had no strength to plant another and his offspring could not help: *“So it is with the disbeliever on the Day of Resurrection.”* Qatādah urges people to understand God’s likenesses, citing Qur’an 29:43, *“None understand them except those who know,”* and al-Ḥasan says: *“Would one of you like his deed to vanish when he needs it most?”* Al-Rabīʿ and al-Ḍaḥḥāk describe the old man unable to protect his orchard and his children too young to help.
+
+### **THE WHIRLWIND OF FIRE**
+
+The whirlwind is a violent wind blowing from the earth to the sky like a column. Ibn ʿAbbās, Qatādah, al-Suddī, and al-Rabīʿ say it was a wind carrying intense scorching heat; Ibn ʿAbbās calls it the hot wind from which the jinn were created. Al-Ḥasan and al-Ḍaḥḥāk say it was a wind of bitter cold.
+
+The past-tense verb after the wish is allowed because a wish can be expressed with either *“that”* or *“if,”* both pointing to the future. The plural for weak in this verse differs from the one in Qur’an 4:9 because that adjective pattern takes both plurals.
+
+### **SO THAT YOU MAY THINK**
+
+Mujāhid says that thinking here means obeying. Ibn ʿAbbās says it means thinking about *“the passing away of this world and its perishing, and the approach of the Hereafter and its permanence.”*
+
+## **2:267**
+
+> O believers! Donate from the best of what you have earned and of what We have produced for you from the earth. Do not pick out worthless things for donation, which you yourselves would only accept with closed eyes. And know that Allah is Self-Sufficient, Praiseworthy
+
+### **MEANING**
+
+O you who accept the truth of God, His Messenger, and the verses of His Book, pay the alms and give in charity from the good things you acquire through your dealings, whether by trade or by craft, of gold and silver. The good things are the sound and excellent pieces: purify the wealth you have gained lawfully, and give as your alms the good gold and silver, not the poor quality. Give also from what God brings forth for you from the ground: give charity and pay the alms from date palms, vines, wheat, barley, and whatever else of the earth’s produce charity is obligatory upon.
+
+Never deliberately aim at the bad, poor-quality part of your property to give it in charity; give from what is good and sound. You would not accept that inferior thing yourselves in place of what is owed to you unless you overlooked part of your due and made allowances against your own interest. And people should be aware that God is free of need of their charity and of everything else. He commanded charity and made it obligatory in their wealth out of mercy to them, to enrich their poor, strengthen their weak, and give them abundant reward in the Hereafter, not because He needs anything from them. He is Praiseworthy, praised by His creatures for the blessings He has bestowed on them and the bounty He has spread out for them.
+
+### **WHAT THE BELIEVERS ARE TO GIVE**
+
+Ibn ʿAbbās says the command to spend means to give in charity, and from the good things means *“from the best and most precious of your wealth.”* Mujāhid says what they acquire refers to lawful trade; ʿAlī ibn Abī Ṭālib and al-Suddī say gold and silver. ʿAbd Allāh ibn Maʿqil says: *“There is nothing bad in the wealth of a believer, but **do not** aim at the bad of it to spend it.”* What comes from the ground, according to ʿAlī, means grain, fruit, and everything on which alms are due; Mujāhid says date palms and their fruit; al-Suddī says dates and grain.
+
+The verb translated as aiming means to intend and set out for something deliberately. In ʿAbd Allāh ibn Masʿūd’s reading another form of the same root is used, with the same meaning, as al-Aʿshā says, *“I set out for Qays, and how much wild desert lay before him.”* Al-Suddī and Qatādah say it means to set out deliberately.
+
+### **THE OCCASION: THE HANGING DATE CLUSTERS**
+
+The bad here means poor-quality goods. The verse was revealed because a man of the Anṣār hung a cluster of dried-up, worthless dates as his charity in the place where the Muslims hung the charity from their fruit. Al-Barāʾ ibn ʿĀzib says that at harvest time the Anṣār would bring clusters of unripe dates from their orchards and hang them on a rope between two pillars in the Prophet’s mosque, and the poor Emigrants ate from them. Some of them would slip in a cluster of dry, spoiled dates among the many, thinking it would pass, and the verse was revealed about them: *“the cluster that had dried up; if it were given to you as a gift, you would not accept it.”* He also says they used to bring their worst dates and food in charity.
+
+ʿAlī says the verse concerns the obligatory alms: a man would cut his dates, set the good ones aside, and give the collector the poor ones. Abū Umāmah ibn Sahl says it refers to two poor kinds of date which the Prophet forbade to be taken in alms. Mujāhid, Qatādah, and al-Ḥasan say people gave the worst of their dates, and Qatādah says a man with two orchards would give from the poorer and mix in dried dates. ʿAṭāʾ says that when someone hung up dried dates in Madīnah, the Prophet said, *“What is this? How bad is what this one has hung!”*
+
+Ibn Zayd said the bad means the unlawful, which God does not accept. The correct explanation is the one given by the Companions, because of the soundness of its transmission and the agreement of the interpreters.
+
+### **WHAT YOU WOULD NOT ACCEPT YOURSELVES**
+
+The phrase about overlooking means relaxing part of what is due to you. Al-Ṭirimmāḥ speaks of men who are content with letting a wrong pass. Some said it means you would not take poor goods from your debtors except by giving up part of your right; ʿAlī, al-Barāʾ, Ibn ʿAbbās, Mujāhid, and al-Rabīʿ say so. Ibn ʿAbbās adds: *“So how can you accept for Me what you **do not** accept for yourselves, when My right over you is from the best and most precious of your wealth?”* and he cites Qur’an 3:92, *“You will not attain righteousness until you spend from what you love.”* Al-Ḍaḥḥāk says hypocrites would bring their worst food for the alms. Al-Ḥasan and Qatādah said it means you would not buy it in the market at the price of good goods without a reduction. Al-Barāʾ said you would accept it as a gift only out of embarrassment and annoyance. Ibn Zayd said you would not take the unlawful except by shutting your eyes to its sin.
+
+### **THE PREFERRED VIEW**
+
+God urged His servants to give charity and pay alms and made it obligatory, so what is obligatory becomes a right belonging to those entitled to the alms. They are partners of the owners in that wealth. Partners each own a share by measure, and neither may deny the other his right by giving him something inferior in its place. So the one paying alms is forbidden to give the entitled poor goods in place of the good that is owed them, and the owners themselves would not accept poor goods from their partners or debtors in place of good goods owed to them except by overlooking part of their due.
+
+For voluntary charity, it is disliked to give anything but one’s best, since God most deserves to be approached with the finest wealth; it is not forbidden, since lesser goods may be more useful because of their quantity. ʿUbaydah, as related by Muḥammad ibn Sīrīn, says the verse concerns the obligatory alms, and *“a counterfeit dirham is dearer to me than a date.”* Al-Barāʾ explains that God is free of need of their charity.
+
+## **2:268**
+
+> The Devil threatens you with ˹the prospect of˺ poverty and bids you to the shameful deed ˹of stinginess˺, while Allah promises you forgiveness and ˹great˺ bounties from Him. And Allah is All-Bountiful, All-Knowing
+
+### **MEANING**
+
+Satan warns you, people, that if you give charity and pay the alms owed on your wealth, you will become poor. And he commands you to commit indecency, that is, to disobey God and abandon obedience to Him.
+
+God, on the other hand, promises you believers that He will cover your indecent acts, pardoning you instead of punishing you for them, and forgive your sins by means of the charity you give. And He promises you His favour: that He will replace what you give in charity, bestow His gifts on you, and give you ample provision.
+
+God is Vast in the favour He promises to give you from His bounty and the breadth of His treasuries. He is Knowing of your spending and your charity, recording it for you until He repays you for it when you come before Him in the Hereafter.
+
+### **TWO FROM GOD AND TWO FROM SATAN**
+
+Ibn ʿAbbās explains the verse as four promises and commands: *“Two are from God and two from Satan.”* Satan’s threat of poverty, he says, means that Satan tells a man: *“Do not spend your wealth; keep it for yourself, for you will need it.”* Satan also commands indecency. Against these, God promises forgiveness for these acts of disobedience and favour in provision.
+
+Qatādah says: *“Forgiveness for your indecency, and favour for your poverty.”* So each of God’s two promises answers one of Satan’s two suggestions. Satan threatens poverty, and God promises favour that replaces what is spent. Satan commands disobedience, and God promises forgiveness that covers it.
+
+### **THE TOUCH OF THE ANGEL AND THE TOUCH OF SATAN**
+
+ʿAbd Allāh ibn Masʿūd relates that the Prophet said: *“Satan has a touch upon the son of Adam, and the angel has a touch. As for Satan’s touch, it is a promise of evil and a denial of the truth. As for the angel’s touch, it is a promise of good and an affirmation of the truth. Whoever finds that, let him know that it is from God and let him praise God; and whoever finds the other, let him seek refuge with God from Satan.”* Then he recited this verse.
+
+Ibn Masʿūd also gives this teaching in his own words, through Abū al-Aḥwaṣ, Murrah al-Hamdānī, and others, in very similar terms: the angel’s touch is a promise of good and an affirmation of the truth, and Satan’s touch is a promise of evil and a denial of the truth. In one version he connects it explicitly to the verse, saying: *“That is because God says,”* and then recites it to its end, adding, *“If you find any of the one, praise God for it, and if you find any of the other, seek refuge with God from Satan.”* ʿAmr, one of the transmitters, adds that they heard in this teaching that whoever senses something of the angel’s touch should praise God and ask Him for His bounty.
+
+The teaching fits the verse closely. The fear of poverty that holds a person back from charity is Satan’s promise of evil, and his command to disobey is his denial of the truth. God’s promise of forgiveness and favour is the promise of good, and accepting it is affirmation of the truth.
+
+### **HOW THIS VERSE FITS THE PASSAGE**
+
+The verse comes in the middle of God’s teaching about spending. The previous verse commanded the believers to give from the good things they acquire and from what comes from the ground, and never to aim at the worthless part to give it. The likeness of the grain with seven ears, each bearing a hundred grains, promised that spending in God’s path is multiplied, and the earlier call to lend God a goodly loan promised that He would multiply it many times over (Qur’an 2:245).
+
+This verse names the force that pulls against all of that: Satan, who frightens a person with poverty so that he withholds, or gives only the worst of his property, and who invites him to disobedience. Against that fear God sets His own promise, and the verse ends by reminding the believers of the vastness of God’s favour and His knowledge of every amount they spend.
+
+### **VAST AND KNOWING**
+
+God is Vast in the favour He promises to give from His bounty and the breadth of His treasuries, so He is able to fulfil His promise of replacement and increase. He is Knowing of the spending and charity of His servants: He records it for them, and He will repay them for it when they come before Him in the Hereafter. So the one who gives loses nothing: what he spends is known to God, recorded, and repaid.
+
+## **2:269**
+
+> Allah grants wisdom to whoever He wills. And whoever is granted wisdom is certainly blessed with a great privilege. But none will be mindful ˹of this˺ except people of reason
+
+### **MEANING**
+
+God gives correctness in speech and action to whichever of His servants He pleases, and whoever among them is given that correctness has been given abundant good.
+
+None takes heed of the admonitions his Lord has given in these verses, in which He admonished those who spend their wealth, and in other verses of His Book, so as to remember His promise and His threat, refrain from what his Lord forbade, and obey Him in what He commanded, except those possessed of minds: people of intellect who have understood from God His command and His prohibition. So God declares that admonitions benefit only people of insight and sound judgement, and that reminders restrain only those who have reason and understanding.
+
+### **WHAT IS WISDOM?**
+
+The interpreters differed over the wisdom God mentions here.
+
+Some said it is the Qur’an and understanding of it. Ibn ʿAbbās says it means *“knowledge of the Qur’an: its abrogating and abrogated verses, its clear and ambiguous verses, what comes earlier and later in it, its lawful and unlawful, and its parables.”* Qatādah says it is the Qur’an and understanding of the Qur’an, and in another wording simply understanding of the Qur’an. Abū al-ʿĀliyah says it is the Book and comprehension of it. Mujāhid says: *“It is not prophethood, but the Qur’an, knowledge, and understanding.”* Ibn Jurayj reports from Ibn ʿAbbās that it is understanding of the Qur’an.
+
+Others said it is correctness in speech and action. Mujāhid says it is hitting the mark, and *“He gives His correctness to whom **He wills**,”* and in another version he speaks of the Book, whose correct understanding God gives to whom He pleases.
+
+Others said it is knowledge of religion. Ibn Zayd says it is *“intelligence in religion,”* and recites the verse; he also says simply that wisdom is intelligence. Mālik, asked what wisdom is, answered that it is knowledge of the religion, understanding of it, and following it.
+
+Others said it is comprehension; Ibrāhīm says this. Others said it is fear of God. Al-Rabīʿ says wisdom is fear of God, *“because the head of everything is the fear of God,”* and recites Qur’an 35:28: *“Only those of His servants who have knowledge truly fear God.”* Others said it is prophethood; al-Suddī says so.
+
+### **HOW THESE VIEWS COME TOGETHER**
+
+The meaning of wisdom has been explained earlier: it is taken from judgement and the deciding of cases, and it means correctness, hitting upon what is right. If that is its meaning, then all these views fall within it. Correctness in matters comes only from understanding, knowledge, and recognition of them. So a person who hits upon what is right, through understanding where rightness lies in his affairs, is one who comprehends, fears God, understands the religion, and has knowledge.
+
+Prophethood is also one of its divisions. Prophets are guided aright, given understanding, and enabled to hit upon what is right in matters, so prophethood is one of the meanings that wisdom contains. The various interpreters therefore each named a part of one wider whole: the Qur’an and its understanding, knowledge of religion, intelligence, comprehension, fear of God, and prophethood are all forms or sources of that correctness.
+
+So the verse means: God gives correctness in speech and action to whomever He pleases, and whoever God gives that to has been given abundant good.
+
+### **WHY THIS FOLLOWS THE VERSES ON SPENDING**
+
+The verse comes immediately after Satan’s threat of poverty and God’s promise of forgiveness and favour. The admonitions it refers to are the verses in which God admonished those who spend their wealth: the likenesses of the multiplying grain, the bare rock, the garden on raised ground, and the burned orchard, together with the commands not to cancel charity with reminders and injury and not to give the worthless part of one’s property. Whoever has been given correctness in speech and action sees through Satan’s threat and trusts God’s promise.
+
+### **THOSE POSSESSED OF MINDS**
+
+None remembers and takes the lesson except those possessed of minds. Such people remember the promise and the threat in these verses and elsewhere in God’s Book; they hold back from what their Lord has forbidden and obey Him in what He has commanded. Admonitions benefit only people of insight and forbearance, and reminders restrain only those who have intellect and understanding. The verse thus ties wisdom to the use of the mind: the one who is given correctness is the one who reflects on what God has said and acts upon it.
+
+## **2:270**
+
+> Whatever charities you give or vows you make are surely known to Allah. And the wrongdoers will have no helpers
+
+### **MEANING**
+
+Whatever expenditure people make, meaning whatever charity they give, and whatever vow they take upon themselves, all of it is within God’s knowledge. A vow is what a person makes binding upon himself as an act of devotion in obedience to God and as a means of drawing near to Him, whether charity or some other good deed. Nothing of any of this escapes God; nothing of it, small or great, is hidden from Him. He records it against them, so that He may repay every one of them for all of it.
+
+Whoever spends, gives charity, and makes vows seeking God’s pleasure and with firmness from within himself, God will repay with the multiplication He has promised. Whoever spends and gives charity to be seen by people and makes his vows for Satan, God will repay with what He has threatened: punishment and painful torment.
+
+Then God threatens those whose spending is for show and whose vows are made in obedience to Satan: those who spend their wealth for people to see and in disobedience to God, and whose vows are for Satan and in his obedience, will find no one to help them against God on the Day of Resurrection, no one to ward off His punishment from them on that Day, whether by strength and force or by ransom.
+
+### **GOD KNOWS AND RECORDS IT**
+
+Mujāhid explains that God knows it means *“and He records it.”* God’s knowledge here is not mere awareness; it is the knowledge of the One who keeps account and will repay. This matches what the passage has repeated: God is Knowing of what people spend (Qur’an 2:268), He sees what they do in their spending (Qur’an 2:265), and the one who spends in His path has his reward with his Lord (Qur’an 2:262).
+
+The pronoun in the phrase about God knowing it is singular, although both spending and vows have been mentioned. That is because it means: God knows whatever you spent or vowed, so the reference is to that one thing, and the pronoun is singular.
+
+### **WHAT A VOW IS**
+
+A vow is something a person imposes upon himself voluntarily in obedience to God, seeking nearness to Him, such as an act of charity or another good deed. By linking vows with spending, the verse places both under the same rule. Each can be done for God or for something else. Charity can be given to seek God’s pleasure or to win people’s praise, and a vow can be made in obedience to God or in obedience to Satan. What decides the reward is the intention behind the deed, and God knows the intention as He knows the deed.
+
+### **THE WRONGDOERS AND THEIR LACK OF SUPPORT**
+
+The word for helpers is the plural of a word meaning a supporter, just as the word for nobles is the plural of the word for a noble. It refers to anyone who could come to their aid against God on the Day of Resurrection and protect them from His punishment, whether by power and force or by paying a ransom. There will be no such person.
+
+Wrongdoing has been explained earlier as putting a thing where it does not belong. God calls the one who spends for show, and the one who makes vows outside obedience to Him, wrongdoers, because the first puts the spending of his wealth where it does not belong, and the second puts his vow in a place where it should not be put. That is their wrongdoing.
+
+### **THE PLACE OF THIS VERSE IN THE PASSAGE**
+
+The verse gathers up what has come before. The passage contrasted those who spend in God’s path and never follow their spending with reminders or injury (Qur’an 2:262) with *“the one who spends his wealth to be seen by people and does not believe in God and the Last Day”* (Qur’an 2:264); it described the reward of the first as a garden doubled in yield, and the end of the second as a bare rock and a burned orchard. Here God declares that every expenditure and every vow, whatever its motive, is known to Him and recorded, and that those who spent or vowed for other than Him will find none to defend them.
+
+## **2:271**
+
+> To give charity publicly is good, but to give to the poor privately is better for you, and will absolve you of your sins. And Allah is All-Aware of what you do
+
+### **MEANING**
+
+If people make their acts of charity public and hand them openly to those they give to, that is an excellent thing. But if they conceal them, keeping them from public view, and give them to the poor in secret, their concealing them is better for them than making them public. This applies to voluntary charity.
+
+God will reward the one who conceals his voluntary charity, giving it for His sake alone, by wiping out some of his evil deeds through that charity. God is fully acquainted with all that people do in their charity, whether they hide it or reveal it, give it in secret or openly, and with all their other deeds. Nothing of it is hidden from Him; He encompasses all of it and records it against those who did it, so that He may pay them in full the reward for all of it and the recompense for little and much.
+
+### **PUBLIC AND SECRET CHARITY**
+
+Qatādah says: *“All is accepted when the intention is sincere, but secret charity is better.”* He adds that they were told charity extinguishes sin as water extinguishes fire. Al-Rabīʿ says the same, word for word.
+
+Ibn ʿAbbās explains that God made secret voluntary charity seventy times more excellent than public voluntary charity, while for obligatory charity He made the public giving more excellent than the secret, *“said to be by twenty-five times; and so it is with all obligatory and voluntary acts in everything.”* Sufyān says the verse concerns charity other than the obligatory alms.
+
+Others said the verse concerns charity given to the poor among the People of the two Books, the Jews and Christians: giving it openly is excellent, and giving it secretly is better; but whatever is given to poor Muslims, whether obligatory alms or voluntary charity, is better hidden than shown. Yazīd ibn Abī Ḥabīb says the verse was revealed about charity to Jews and Christians. He used to order that the alms be distributed in secret, while ʿAbd Allāh ibn al-Mubārak said he preferred that the alms be given openly.
+
+### **THE PREFERRED VIEW**
+
+God did not restrict the statement about public charity to any one kind, so it is general, except for obligatory alms. All agree that the merit in any obligatory duty lies in announcing and showing it. As for the obligatory alms, about which there is some disagreement, all agree that they are obligatory, so their ruling is that of the other obligations: the merit lies in paying them openly. The preference for secrecy therefore applies to voluntary charity.
+
+### **THE WIPING OUT OF EVIL DEEDS**
+
+The readers differed over the verb for wiping out. Ibn ʿAbbās is reported to have read it with t, meaning that the acts of charity wipe out evil deeds. Others read it with y, meaning that God wipes out evil deeds by means of the charity. Most readers of Madīnah, Kūfah, and Baṣrah read it with n, meaning *“We wipe out,”* in the jussive mood: if you conceal it and give it to the poor, We will wipe out some of your evil deeds, as God’s recompense for the one who hides his charity.
+
+That reading is preferred: it is God speaking of Himself, telling that He repays the one who hides his voluntary charity for His sake by wiping out his evil deeds. The jussive is joined to the position of the clause that answers the condition. A grammarian might object that the indicative is more eloquent in such a position. The jussive was chosen because it signals that the wiping out is definitely part of what God promised as a reward for the charity. Were it indicative, it might be read as a separate statement that God wipes out the sins of believers, unconnected to their charity.
+
+### **WHY ONLY SOME EVIL DEEDS?**
+
+The word *“some”* is included because it means: We wipe out whatever of your evil deeds We wish, not all of them. That way servants remain in awe of God, and do not rely so heavily on His promise for hidden charity that they become bold in crossing His limits and disobeying Him. A Baṣran grammarian held that the word is redundant here, and that the meaning is simply that He wipes out their evil deeds.
+
+### **FULLY ACQUAINTED**
+
+God is acquainted with what people do in their charity, whether it is concealed or announced, given privately or openly, and with all their other deeds. He has full experience and knowledge of it; nothing escapes Him. He encompasses it all and keeps account of it for those who did it, until He pays them in full the reward for all of it, the small and the great alike. The same assurance closed the previous verse, where God declared that He knows every expenditure and vow (Qur’an 2:270).
+
+## **2:272**
+
+> You are not responsible for people’s guidance ˹O Prophet˺—it is Allah Who guides whoever He wills. Whatever you ˹believers˺ spend in charity, it is for your own good—as long as you do so seeking the pleasure of Allah. Whatever you donate will be paid back to you in full, and you will not be wronged
+
+### **MEANING**
+
+It is not your responsibility, Muhammad, to guide the idolaters to Islam, so that you would withhold voluntary charity from them and refuse to give them any of it until they enter Islam because they need it. It is God who guides to Islam whichever of His creatures He pleases, and grants them success in reaching it. So do not withhold charity from them.
+
+Whatever good is spent by the faithful, its benefit returns to their own souls. They spend only to seek the face of God, not for any other purpose. And whatever good they spend will be repaid to them completely; they will suffer no injustice, and nothing of its reward will be held back from them.
+
+### **THE OCCASION OF REVELATION**
+
+Many early authorities said the verse was revealed when the Muslims held back from giving charity to non-Muslim relatives and others in need. Shuʿbah relates that the Prophet used not to give charity to the idolaters; then the words about spending only to seek God’s face were revealed, and he gave to them.
+
+Ibn ʿAbbās says: *“They would not give small gifts to their relatives among the idolaters,”* and the verse was revealed; in another wording he says it was revealed *“and so He granted them permission.”* Saʿīd ibn Jubayr says they were wary of giving small gifts to their idolater relatives until this verse was revealed. Ibn ʿAbbās also says that some of the Anṣār had kin and relatives among Qurayẓah and al-Naḍīr and avoided giving charity to them, hoping they would accept Islam, and the verse was revealed.
+
+Qatādah says that some of the Prophet’s Companions asked, *“Shall we give charity to someone who is not of our religion?”* and God revealed this verse. Al-Rabīʿ says that when a Muslim had a relative among the idolaters who was in need, he would not give him charity, saying, *“He is not of my religion!”* and so God revealed the verse.
+
+Al-Suddī explains that the statement about guidance refers to the idolaters, while the spending is open to those who deserve it. Saʿīd ibn Jubayr adds that they used to give charity to the poor among the protected non-Muslims, and when the Muslim poor became numerous, the Prophet said, *“Give charity only to people of your own religion,”* and then this verse was revealed, permitting charity to those outside Islam.
+
+### **GUIDANCE BELONGS TO GOD**
+
+The verse removes a burden from the Prophet and from the believers. The idolaters’ guidance is not in their hands, and charity is not to be used as pressure to bring someone into the faith. Withholding charity from a needy relative so that he would become Muslim makes the believer responsible for something only God controls. God guides whomever He pleases and grants him success; the believer’s duty is to give for God’s sake and leave guidance to Him.
+
+### **SPENDING FOR ONE’S OWN SOUL**
+
+The phrase about spending for their own selves tells the believers that whatever good they give comes back to them. Its reward belongs to the giver, not to the one who receives it, so the giver has no claim on the recipient. Ibn Zayd explains the end of the verse: *“It is returned to you, so what business do you have hurting him and reminding him of your favour? Your spending is only for yourself and to seek God’s face, and God will repay you.”*
+
+In this way the verse connects with what came before: the command not to cancel charity with reminders and injury (Qur’an 2:264), and the description of those who spend *“seeking God’s pleasure and with firmness from within themselves”* (Qur’an 2:265). If the reward goes to the giver and comes from God, then the religion of the poor person, and any gratitude he shows or fails to show, does not affect it.
+
+### **SEEKING THE FACE OF GOD**
+
+The believers are told that they spend only to seek God’s face. This both describes the true believers and directs them: their charity should have no aim except God. When that is its aim, the identity of the recipient does not reduce its reward, and the Prophet gave to the idolaters after this was revealed.
+
+### **REPAID WITHOUT INJUSTICE**
+
+Whatever good they spend will be returned to them completely in reward, and they will suffer no wrong: nothing of what they deserve will be withheld or reduced. As Ibn Zayd says, it is God who repays. This echoes the promise of the previous verses, that God knows every expenditure and records it (Qur’an 2:270), and that He is acquainted with all that people do in their charity (Qur’an 2:271).
+
+## **2:273**
+
+> ˹Charity is˺ for the needy who are too engaged in the cause of Allah to move about in the land ˹for work˺. Those unfamiliar with their situation will think they are not in need ˹of charity˺ because they do not beg. You can recognize them by their appearance. They do not beg people persistently. Whatever you give in charity is certainly well known to Allah
+
+### **MEANING**
+
+This explains where spending should go. The sense is: whatever good you spend, you spend for yourselves, giving it to the poor who are confined in God’s path. The preposition attached to the poor refers back to the one attached to the believers’ own selves in the previous verse: whatever wealth is given in charity goes to the poor confined in God’s path. Because the words about spending for yourselves came in between, the preposition was not repeated, the meaning being clear. Al-Suddī says the previous verse concerns the idolaters in its statement about guidance, *“and as for spending, He made clear who is entitled to it,”* in this verse.
+
+These poor are those whose struggle against the enemy has led them to confine themselves, holding themselves back from going about their affairs, so that they are unable to travel through the earth and journey in the lands seeking livelihood and earnings, which would free them from depending on charity, out of fear of the enemy and for their own safety.
+
+Whoever is ignorant of their affairs and condition supposes them to be rich, since they refrain from asking and from reaching for what is in people’s hands, enduring hardship and suffering patiently. You, Muhammad, recognise these people from their marks and the traces of need upon them. They never ask people importunately. And whatever good you spend, God knows it.
+
+### **WHO WERE THESE POOR?**
+
+They are said to be the poor among the Emigrants in general, not other poor people. Mujāhid says they were *“the Emigrants of Quraysh in Madīnah with the Prophet; charity to them was commanded.”* Al-Rabīʿ, from his father, and al-Suddī say they were the poor Emigrants in Madīnah.
+
+### **CONFINED IN GOD’S PATH**
+
+Confinement here means that a man is brought, by illness, poverty, struggle against an enemy, or another cause, to a state in which he holds himself back from going about his business, as was explained earlier. Qatādah says: *“They confined themselves in God’s path for fighting.”* Ibn Zayd says the whole earth was disbelief, so that no one could go out seeking God’s bounty; and if he went out, he went out among disbelief. It was also said that the whole earth was at war with the people of this city, and wherever they turned they had an enemy.
+
+Al-Suddī said the idolaters besieged them in Madīnah. Were that the meaning, a different form of the verb would have been used, the form for being besieged by someone. The form used shows that it was their fear of the enemy that brought them to confine themselves while in God’s path, not that the enemy held them prisoner. Of someone held by the enemy, Arabs say the enemy confined him; of someone held back by fear of the enemy, they say fear of the enemy restrained him.
+
+Of their inability to travel, Qatādah says they confined themselves for the enemy and *“so they could not trade.”* Al-Suddī says it refers to trade, and Ibn Zayd says none of them could go out seeking God’s bounty.
+
+### **MISTAKEN FOR THE RICH**
+
+The ignorant supposes them rich since they abstain from asking; Qatādah explains it the same way. Abstaining means refraining from something, as Ruʾbah uses the word for keeping away from secrets.
+
+### **KNOWN BY THEIR MARKS**
+
+The word for marks means signs and traces, as in Qur’an 48:29: *“Their mark is on their faces from the trace of prostration.”* This is the dialect of Quraysh; other Arabs lengthen the word, and Thaqīf and some of Asad use a longer form still. Mujāhid says the mark was humility and submissiveness. Al-Suddī says it was the mark of poverty upon them; al-Rabīʿ says one sees in their faces the strain of need. Ibn Zayd says it was their shabby clothes: *“hunger is hidden from people, but the clothes in which they go out cannot be hidden.”*
+
+The correct view is that God told the Prophet that he would recognise these people from their signs and the traces of need on them, which he perceived by seeing them, as one recognises a sick person by sight. The mark may have been humility, or the trace of want, or shabby clothes, or all of these. Such signs are known by seeing, not by description, since illness can leave traces like those of want, and a rich man may wear shabby clothes.
+
+### **NOT ASKING IMPORTUNATELY**
+
+Importunity means persisting in asking. These people did not ask at all, importunately or otherwise, for God described them as refraining, recognised only by their marks. Abū Saʿīd al-Khudrī tells that when his family was in want, he went to ask the Prophet, who greeted him with: *“Whoever seeks to refrain, God will make him refrain; whoever seeks to be free of need, God will make him free of need.”* He returned without asking and never asked again. God denied importunity of them to add praise, removing from them the greed and abasement of the persistent beggar. Al-Suddī and Ibn Zayd say it means pressing in asking. Qatādah reports that the Prophet said God dislikes *“idle talk, the wasting of wealth, and much asking.”*
+
+## **2:274**
+
+> Those who spend their wealth in charity day and night, secretly and openly—their reward is with their Lord, and there will be no fear for them, nor will they grieve
+
+### **MEANING**
+
+People spending their property by night and by day, in secret and in public, have a reward with God for what they spent. Fear will not touch them when they come before God, nor in the terrors of the Resurrection, and grief will not touch them over what they leave behind in this world.
+
+The verse gathers up the teaching of the whole passage on spending. It describes givers who spend constantly, at every hour, and in both ways that the previous verses discussed, openly and privately, and it promises them the same reward and security that was promised to the spenders in God’s path without reminders or injury.
+
+### **THOSE WHO KEEP HORSES IN GOD’S PATH**
+
+Some early authorities understood the verse to refer to people spending on horses kept ready for God’s path. Abū al-Dardāʾ used to look at the war horses tethered among the pack horses and the half-breeds and say: *“The owners of these are among **those who spend their wealth** by night and day, **secretly and openly**; they have **their reward with their Lord**, and they shall have **no fear**, nor shall **they grieve**.”* On this view, the one who keeps a horse for the struggle in God’s path is spending on it constantly, at night and in the day, in private and in public, as long as he maintains it, and so he is included in the description.
+
+### **SPENDING WITHOUT EXTRAVAGANCE OR MISERLINESS**
+
+Others said the verse refers to people who spent in God’s path without extravagance and without stinginess. Qatādah says of the verse, *“These are the people of Paradise.”* He adds that they were told the Prophet used to say: *“Those who have much are the lowest.”* His Companions asked, *“Except whom, Prophet of God?”* and he repeated it, until they feared that the matter had been settled with no exception. Then he said: *“Except one who does with his wealth like this and like this,”* gesturing to his right and his left, before him and behind him, *“and how few they are.”* Qatādah explains: *“These are people who spent in the path of God which He made obligatory and with which He was pleased, without excess, without destitution, without squandering, and without corruption.”*
+
+The gesture in every direction matches the verse’s description of spending by night and by day, in secret and in public: such a giver does not restrict his spending to one time or one manner, but gives in every way that is good.
+
+### **BEFORE THE DETAILED RULES OF ALMS**
+
+It has also been said that these verses, from the verse about giving charity openly or secretly (Qur’an 2:271) to this verse, were acted upon before the detailed rules of the alms were revealed in the chapter known as Barāʾah. When that chapter was revealed, people restricted the alms to what it laid down. Ibn ʿAbbās says: *“This was acted upon before Barāʾah was revealed; when Barāʾah was revealed with the obligations of charity and their details, charity was brought to an end at them.”* This refers to the obligatory alms and their recipients, which were set out in detail there.
+
+### **THE REWARD AND THE SECURITY**
+
+The promise in this verse repeats the promise made in Qur’an 2:262 to the spenders in God’s path who never follow their spending with reminders or injury. That reward is their recompense with God for what they spent. Fear will not touch them when they come before God and leave this world, nor in the terrors of the Day of Resurrection; and grief will not touch them over what they left behind in this world.
+
+### **HOW THIS VERSE CLOSES THE PASSAGE**
+
+The passage on spending began with the call to lend God a goodly loan and the likeness of the grain that brings forth seven ears. It went on to warn against cancelling charity with reminders and injury, struck likenesses of the bare rock and the burned orchard for people who spend for show, and the fruitful garden for people who spend seeking God’s pleasure. It commanded giving from good things, exposed Satan’s threat of poverty, praised hidden charity, permitted charity to non-Muslims, and directed it to the poor Emigrants confined in God’s path. This verse seals the passage by describing the givers whose spending knows no fixed hour or manner, and by assuring them of reward and safety.
+
+## **2:275**
+
+> Those who consume interest will stand ˹on Judgment Day˺ like those driven to madness by Satan’s touch. That is because they say, “Trade is no different than interest.” But Allah has permitted trading and forbidden interest. Whoever refrains—after having received warning from their Lord—may keep their previous gains, and their case is left to Allah. As for those who persist, it is they who will be the residents of the Fire. They will be there forever
+
+### **MEANING**
+
+Those who practise usury, the kind of usury described below, in this world will not rise from their graves in the Hereafter except as one rises whom Satan has struck down, seized, and thrown to the ground through madness.
+
+That is what will befall them on the Day of Resurrection, the ugliness of their state, the horror of their rising from their graves, and the evil that comes upon them, because in this world they lied and fabricated, saying that the sale God has made lawful for His servants is just like usury. When a debt fell due, the debtor would say to the creditor, *“Give me more time and I will give you more money.”* When they were told, *“This is usury, which is not lawful,”* they would answer, *“It is all the same to us whether we add to the price at the beginning of the sale or when the money falls due.”* God declared them liars.
+
+God has made lawful the profits of trade, buying, and selling, and forbidden usury: the increase given to the owner of money because he extends his debtor’s term and defers his debt. The two increases are not equal: one comes from a sale, when the seller gains more than the capital with which he bought his goods; the other from deferring money and extending the term. God has permitted the first and forbidden the second. The command is His and the creation is His; He decrees for them as He wills and lays upon them what He pleases. No one may object to His judgement or oppose His command; their duty is to obey and submit.
+
+Whoever receives an admonition from his Lord, the reminders and warnings God gave in the verses of the Qur’an and the punishment He threatened for consuming usury, and then stops consuming it, refrains from practising it, and holds back from it, is allowed what he consumed and took before the admonition and prohibition came. His affair after that, having stopped, rests with God, who will protect him and keep him firm in abstaining if He wills, or abandon him if He wills. And whoever goes back to consuming usury after the prohibition, and says again what he said before, that sale is just like usury, those who do and say this are the people of the Fire, the fire of Hell, and will abide in it forever.
+
+### **WHAT USURY IS**
+
+The root means increase over something. One says a man exceeded another when he added to him, and a thing grew when it increased beyond what it was. A hillock is named from the same root, because it rises above the level ground around it, and a man is said to be in the height of his people, meaning in rank and honour among them. So the root of usury is rising and increase; the usurer is so called because he multiplies the money owed to him by his debtor or adds to it.
+
+Mujāhid describes the usury God forbade: *“In the Age of Ignorance a man would have a debt owed to him by another, and the debtor would say, You will have such and such if you give me more time, and he would give him more time.”* Qatādah says the usury of the Age of Ignorance was that a man would sell something on credit to a fixed date, and when the date came and the buyer could not pay, he would increase the debt and give him more time.
+
+### **RISING LIKE ONE STRUCK BY MADNESS**
+
+The interpreters agreed that this describes their rising on the Day of Resurrection. Mujāhid says it is on the Day of Resurrection, for consuming usury in this world. Ibn ʿAbbās says: *“That is when he is raised from his grave,”* and that on that Day the usurer will be told, *“Take up your weapons for war.”* Saʿīd ibn Jubayr says the usurer will be raised *“mad, being throttled.”* Qatādah calls it *“the mark of the people of usury on the Day of Resurrection: they are raised with a derangement from Satan.”* Al-Rabīʿ says the same, adding that one reading includes the words *“on the Day of Resurrection.”* Al-Ḍaḥḥāk says whoever dies consuming usury will be raised stumbling, like one Satan has struck. Al-Suddī says it means from madness. Ibn Zayd says these people shall not rise with the others except as one rises who is strangled, as if mad.
+
+The touch of Satan means his seizing a person until he is deranged. One speaks of someone touched and possessed when madness has overtaken him, as in Qur’an 7:201, *“those who fear God, when a visitation from Satan touches them, remember.”* Al-Aʿshā describes a camel after night travel *“as if madness from the jinn had come upon her.”*
+
+### **NOT ONLY THE ONE WHO EATS IT**
+
+One might ask whether someone who deals in usury in his trade without consuming it deserves this threat. The answer is yes. Consuming is not the only thing intended. The people about whom these verses were revealed made their food and living from usury, so God described them by their state, to emphasise the gravity of usury and expose the ugliness of how they fed themselves. The later verses, *“O you who believe, fear God and give up what remains of usury”* (Qur’an 2:278), show that the prohibition covers every aspect of usury: practising it, consuming it, taking it, and giving it are all alike. Many reports from the Prophet state this: *“God has cursed the one who consumes usury, the one who pays it, the one who records it, and its two witnesses, if they know it.”*
+
+### **THE ADMONITION**
+
+Al-Suddī says the admonition is the Qur’an, and what is past means *“he keeps what he consumed of usury”* before the prohibition.
+
+## **2:276**
+
+> Allah has made interest fruitless and charity fruitful. And Allah does not like any ungrateful evildoer
+
+### **MEANING**
+
+God diminishes usury and makes it disappear. And He makes acts of charity grow, multiplying their reward, increasing and developing it for the one who gave.
+
+God has no love for anyone who persists in disbelief in his Lord, holds to it, and treats consuming usury and feeding others with it as lawful; nor for anyone who is sinful, carrying on in the sin of consuming usury and other unlawful things and acts of disobedience that God has forbidden him, never restrained from them, never turning back from them, and never heeding the admonition his Lord gave him in His revelation and in the verses of His Book.
+
+### **HOW GOD DIMINISHES USURY**
+
+Ibn ʿAbbās explains the verb used of usury as *“He diminishes.”* This matches what is reported from ʿAbd Allāh ibn Masʿūd from the Prophet: *“Usury, even if it becomes much, ends in little.”* The one who takes usury sees his wealth increase, but God reduces it and carries it away, so that its apparent growth leads in the end to loss.
+
+The meaning of the word for usury and of the verb for making something grow, and their root, has already been explained in the previous verse: the root means increase and rising. There is a striking contrast in the wording. The usurer seeks increase through usury, and God diminishes it; the giver of charity seems to diminish his wealth, and God makes it grow. The verb used for God’s increasing of charity comes from the same root as the word for usury itself.
+
+### **HOW GOD MAKES CHARITY GROW**
+
+If one asks how God makes charity grow, the answer is that He multiplies the reward for the one who gave it, as He said: *“The likeness of those who spend their wealth in the path of God is that of a grain that brings forth seven ears, in every ear a hundred grains”* (Qur’an 2:261), and as He said: *“Who is it that will lend God a goodly loan, so that He may multiply it for him many times over?”* (Qur’an 2:245).
+
+Abū Hurayrah relates that the Prophet said: *“God accepts charity and takes it with His right hand, and He makes it grow for one of you as one of you raises his foal, until a morsel becomes like the mountain of Uḥud.”* The Prophet added that the confirmation of this is in God’s Book, in Qur’an 9:104, *“Do they not know that it is God who accepts repentance from His servants and takes the charities?”* and in this verse. Abū Hurayrah also relates, attributing it to the Prophet, that *“God accepts charity, and He accepts only what is good.”*
+
+ʿĀʾishah relates that the Prophet said: *“God accepts charity, and accepts of it only what is good, and He makes it grow for its owner as one of you raises his foal or his young camel, until a morsel becomes like Uḥud.”* He cited this verse as its confirmation.
+
+In another version from Abū Hurayrah, the Prophet said that when a servant gives charity from what is good, God accepts it from him, takes it with His right hand, and makes it grow as one raises a foal or a young camel; a man gives a morsel in charity and it grows in God’s hand until it is like Uḥud, *“so give charity.”* Al-Qāsim ibn Muḥammad’s version from Abū Hurayrah adds that God makes the morsel grow until it is presented on the Day of Resurrection greater than Uḥud.
+
+These sayings show two conditions and one result. Charity must be from what is good and lawful, for God accepts only what is good; when it is, God accepts it and makes it grow until something as small as a morsel becomes a mountain. This mirrors the earlier command to give from the good things one acquires and not to aim at what is worthless (Qur’an 2:267).
+
+### **THE PERSISTENT DISBELIEVER AND THE SINNER**
+
+The closing words describe the person whom usury has made its own. The first word describes one who persists in disbelief in his Lord, holds to it, and treats usury as lawful, consuming it and feeding others with it. This links with the previous verse, where those who said that sale is just like usury, and returned to it after the admonition, were called the people of the Fire.
+
+The second word describes one who goes on and on in sin: consuming usury and other unlawful things, committing other acts of disobedience, never deterred, never turning back, and never taking heed of the admonition his Lord gave him in His revelation. Such a person has no share in God’s love.
+
+## **2:277**
+
+> Indeed, those who believe, do good, establish prayer, and pay alms-tax will receive their reward from their Lord, and there will be no fear for them, nor will they grieve
+
+### **MEANING**
+
+This is God’s announcement concerning the believers: those who have accepted the truth of God and His Messenger and of what has come to them **from their Lord**, including the prohibition of usury and of consuming it, and all the other laws of His religion. They have performed the righteous deeds God commanded them to do and those He encouraged them to do. They have kept up the obligatory prayer, observing its limits and performing it with its customary practices. And they have paid the obligatory alms due on their wealth, after whatever usury they consumed in the past, before the admonition about it came to them **from their Lord**.
+
+Such people will have the reward for their deeds, their faith, and their charity, kept with **their Lord** for the day when they need it at their return to Him. On that Day fear of His punishment shall not touch them for what they did in their time of ignorance and disbelief before the admonition came to them **from their Lord**, including the usury they had consumed, because they turned back and repented to God when the admonition came, and believed in God’s promise and His threat. And they will not grieve over what they gave up in this world of consuming and dealing in usury, when they see God’s abundant reward. They gave it up in this world seeking His good pleasure in the Hereafter, and so they have reached what they were promised for giving it up.
+
+### **THE CONTRAST WITH THE USURERS**
+
+The verse is set against the verses before it. Those who consume usury rise on the Day of Resurrection like one struck down by Satan; whoever returns to usury after the admonition belongs to the Fire; and God has no love for the persistent disbeliever and the sinner. Here, in contrast, are the believers who act: they accept the prohibition of usury along with the rest of God’s laws, perform righteous deeds, keep up the prayer, and give the alms.
+
+This also completes what was promised in Qur’an 2:275 to the one who receives the admonition and stops: *“He may keep what is past, and his affair rests with God.”* The present verse shows the end of that person’s affair when he joins faith with action: he has his reward, and fear and grief are removed from him.
+
+### **FAITH, DEEDS, PRAYER, AND ALMS**
+
+Four qualities are named. The first is faith: accepting the truth of God, of His Messenger, and of everything that came **from their Lord**, among which is the prohibition of usury. The second is righteous deeds, both those that are commanded and those that are encouraged. The third is keeping up the prayer, which means performing the obligatory prayer with its limits and its customary practices. The fourth is giving the obligatory alms from their wealth.
+
+The alms are mentioned in direct contrast to usury. The usurer takes an increase from his debtor beyond what is owed, while the one who pays the alms gives a portion of his wealth to those entitled to it. The previous verse declared that God diminishes usury and makes charity grow.
+
+### **NO FEAR AND NO GRIEF**
+
+The same promise appeared in Qur’an 2:262 and Qur’an 2:274 for those who spend in God’s path. Here it is tied particularly to their past. They will not fear on the Day of Resurrection being punished for the usury they consumed in their days of ignorance and disbelief before the admonition came to them, because they turned back to God and repented when it came, and believed His promise and His threat.
+
+Nor shall grief touch them over the gains of usury they gave up in this world. They gave it up seeking His pleasure, and when they see His abundant reward they will have reached what they were promised for giving it up.
+
+### **THE CALL THAT FOLLOWS**
+
+The verse prepares for the direct command that comes next: *“O you who believe, fear God and give up what remains of usury, if you are believers”* (Qur’an 2:278). Having described the reward of people who believe, act righteously, pray, and give, God now calls on the believers to prove their faith by abandoning whatever usury remains owed to them.
+
+## **2:278**
+
+> O believers! Fear Allah, and give up outstanding interest if you are ˹true˺ believers
+
+### **MEANING**
+
+O you who have accepted the truth of God and His Messenger, be wary of God for your own sakes: guard yourselves against Him by obeying Him in what He has commanded you and by stopping at what He has forbidden you. And leave whatever usury remains: stop claiming whatever is still owed to you over and above the capital you had before you charged usury on it, if you truly believe, that is, if you make your profession of faith and the assent of your tongues real by your actions.
+
+### **THE OCCASION OF REVELATION**
+
+The verse is said to have been revealed about people who accepted Islam while others owed them money from usury they had charged them. They had already received some of it, and some remained outstanding. God pardoned them for what they had collected before this verse was revealed, and forbade them to demand what remained.
+
+Al-Suddī says the verse, through to the words about suffering no injustice, was revealed about al-ʿAbbās ibn ʿAbd al-Muṭṭalib and a man from Banū al-Mughīrah. *“They were partners in the Age of Ignorance, lending at usury to people of Thaqīf from Banū ʿAmr, that is, Banū ʿAmr ibn ʿUmayr.”* Islam came while they had great sums owed to them in usury, and God revealed the command to leave what remained of the excess from the Age of Ignorance.
+
+Ibn Jurayj says that Thaqīf had made a treaty with the Prophet that whatever usury they were owed by others, and whatever others were owed by them, would be cancelled. After the conquest of Makkah, the Prophet appointed ʿAttāb ibn Asīd governor of Makkah. Banū ʿAmr ibn ʿUmayr ibn ʿAwf used to take usury from Banū al-Mughīrah, who had paid them usury in the Age of Ignorance, and when Islam came, Banū al-Mughīrah owed them a great deal. Banū ʿAmr came demanding their usury, but Banū al-Mughīrah refused to pay it under Islam, and they took the matter to ʿAttāb. ʿAttāb wrote to the Prophet, and this verse and the next were revealed, to the words about suffering no injustice. The Prophet wrote them to ʿAttāb and said: *“If they accept, well and good; otherwise, declare war on them.”*
+
+Ibn Jurayj also reports from ʿIkrimah that those who took usury from Banū al-Mughīrah were said to be the sons of ʿAmr ibn ʿUmayr: Masʿūd, ʿAbd Yālīl, Ḥabīb, and Rabīʿah. *“They were the ones who were owed usury by Banū al-Mughīrah,”* and ʿAbd Yālīl, Ḥabīb, Rabīʿah, Hilāl, and Masʿūd accepted Islam.
+
+Al-Ḍaḥḥāk says: *“It was usury they traded with in the Age of Ignorance; when they accepted Islam, they were commanded to take only their capital.”*
+
+### **BE WARY OF GOD**
+
+Being wary of God here means fearing Him for one’s own sake and protecting oneself from Him by obedience: doing what He has commanded and refraining from what He has forbidden. The general command to be wary of God is given first, and then the particular command about usury follows it.
+
+### **LEAVING WHAT REMAINS**
+
+The verb means to let go. What remains of usury is the excess over the original capital that a creditor was still owed when the prohibition came. What had been received before the verse was revealed was pardoned, in keeping with the earlier statement that whoever stops when the admonition reaches him may keep what is past (Qur’an 2:275). What had not yet been collected was forbidden to them. The creditor is entitled to his capital and nothing more, as al-Ḍaḥḥāk says, and as the next verse states: *“If you repent, you shall have your capital, neither wronging nor being wronged”* (Qur’an 2:279).
+
+### **IF YOU TRULY BELIEVE**
+
+The closing condition does not mean that they were not believers. It means: if you make your faith real, so that your actions confirm what you profess with your tongues. The verse opened by addressing them as believers, and it closes by asking them to prove it. Abandoning what remains of usury is presented as a test of that faith.
+
+The verse also follows directly on the previous one, which promised reward and freedom from fear and grief to those who believe, act righteously, keep up the prayer, and give the alms (Qur’an 2:277). Having described that reward, God commands the believers to leave what remains of usury, and in the next verse He warns those who refuse of war from God and His Messenger.
+
+## **2:279**
+
+> If you do not, then beware of a war with Allah and His Messenger! But if you repent, you may retain your principal—neither inflicting nor suffering harm
+
+### **MEANING**
+
+If you fail to leave what remains of usury, then know it and be certain of it: you stand under a declaration of war from God and from God’s Messenger, a war that God Himself announces against you.
+
+Should you turn in repentance, abandoning the consumption of usury and turning back to God, you are entitled to the capital of the debts people owe you, without the increase you added to it as usury. In taking only your capital, the money that was yours before you charged usury on your debtors, without the profits you added as usury, you commit no wrong against them, for you would otherwise take from them what you have no right to take and what was never yours. And you suffer no wrong yourselves: the debtor who pays you your capital without the usury you had imposed on him for extending the term does not cheat you of a right or withhold anything owed to you, because what exceeded your capital was never your right against him, and so in withholding it he does you no wrong.
+
+### **TWO READINGS OF THE DECLARATION**
+
+The readers differed over the verb of the declaration. Most readers of Madīnah read it in the short form, meaning *“be informed and certain”*: be aware that you have been given notice. Most readers of Kūfah read it in the long form, meaning *“inform others”*: announce to others that you are at war with them.
+
+The short reading is preferred, meaning: know this and be certain of it, and understand that you have been notified by God. The reason is that God commanded His Prophet to declare war on anyone who persisted in an idolatry that could not be tolerated, and to kill whoever apostatised from Islam unless he returned to it, whether or not such people announced that they were at war with him. Whoever is meant here must be one of two: an idolater persisting in an idolatry that cannot be tolerated, or a Muslim who apostatised and declared war. In either case, war is declared against him; he is not commanded to announce it himself. If the matter were left to him, so that one who persisted in consuming usury, treating it as lawful, would only be fought if he announced war to the Muslims, then the Muslims would not be obliged to fight him unless he did. That is not his ruling in either case. So it is clear that he is the one notified of war, not the one who announces it.
+
+### **WAR FROM GOD AND THE MESSENGER**
+
+The early interpreters understood it this way. Ibn ʿAbbās says: *“Whoever persists in usury and will not give it up, it is the duty of the leader of the Muslims to call him to repent; if he gives it up, well and good, otherwise his neck is struck.”* He also says that on the Day of Resurrection the one who consumed usury will be told, *“Take up your weapons for war,”* and that the declaration means *“be certain of a war from God and from God’s Messenger.”*
+
+Qatādah says: *“God threatened them with killing, as you hear, and made them worthless wherever they are found.”* Al-Rabīʿ says God threatened the one who consumes usury with killing. All these reports show that the verse is God’s own announcement to them of war and killing, not a command to them to announce it to others.
+
+### **YOUR CAPITAL**
+
+Qatādah says the money owed to them by men was given back to them as capital when this verse was revealed; *“as for the profit and the excess, it is not theirs, and they must take none of it.”* In another wording he says that of whatever debts they were owed, they were allowed to take their capital and add nothing to it. Al-Ḍaḥḥāk says God abolished usury and gave them their capital. Al-Suddī says: *“What you lent, and the usury falls away.”*
+
+Qatādah and al-Rabīʿ report that the Prophet said in his address on the day of the conquest of Makkah: *“Indeed, the usury of the Age of Ignorance is abolished entirely, and the first usury I begin with is the usury of al-ʿAbbās ibn ʿAbd al-Muṭṭalib.”* In al-Rabīʿ’s version: *“Every usury is abolished, and the first usury to be abolished is the usury of al-ʿAbbās.”* This matches al-Suddī’s account in the previous verse, that al-ʿAbbās was among those owed great sums in usury when Islam came.
+
+### **NEITHER WRONGING NOR WRONGED**
+
+Ibn ʿAbbās explains: *“You will not wrong others by taking usury, nor be wronged by having your capital reduced.”* Ibn Zayd says: *“You will not suffer any loss from your wealth, nor take what is false and unlawful for you.”*
+
+The verse therefore sets a just limit on both sides. The creditor receives exactly what he lent; the debtor pays exactly what he borrowed. The next verse adds a further mercy for the debtor who cannot pay even that.
+
+## **2:280**
+
+> If it is difficult for someone to repay a debt, postpone it until a time of ease. And if you waive it as an act of charity, it will be better for you, if only you knew
+
+### **MEANING**
+
+If any of the debtors from whom you are collecting your capital is in hardship, unable to pay the capital he owed you before you charged him usury, then you must give him respite until he is well off. You must wait for him until he becomes prosperous enough to pay the debt he owes you and joins those who are able to pay it.
+
+And for you to give that capital to the debtor in hardship as charity is more beneficial for you, people, than to give him respite until he is well off so that you can collect your capital from him then, if you know where the excellence of charity lies and what reward God has made due to the one who releases a debtor in hardship from his debt.
+
+### **THE GRAMMAR OF THE CONDITION**
+
+The word for the one in hardship stands as the subject of the verb of being, and its predicate is left unstated, as described above; Arabs leave unstated the predicates of indefinite nouns. The verb may also be taken as complete in itself, meaning *“if there is found a debtor in hardship,”* needing no predicate. In the reading of Ubayy ibn Kaʿb the noun is in the accusative, meaning *“if the debtor is one in hardship.”* That is acceptable in Arabic, but it may not be recited, because it contradicts the writing of the Muslims’ codices.
+
+The phrase about respite means: it is your duty to give him respite, just as Qur’an 2:196 says, *“whoever of you is ill or has an ailment of the head, then a ransom of fasting.”* The word for being well off is a noun of place and state formed from the root of ease.
+
+### **WAS IT REVEALED ONLY ABOUT USURY?**
+
+Many said this verse concerns usury. Ibn ʿAbbās, Ibrāhīm, Qatādah, al-Suddī, al-Ḍaḥḥāk, and Ibn Jurayj say so; Qatādah and al-Suddī say the respite is in the capital. Ibn ʿAbbās says: *“He commanded only in usury that the one in hardship be given respite; there is no respite in a trust, but the trust is to be returned to its owner.”* Mujāhid says he is to be given more time without any increase, since when a debt fell due and the debtor had nothing to give, the creditor used to increase it and extend the term.
+
+Ibn Sīrīn tells that a man brought another before the judge Shurayḥ, who ruled against him and ordered him imprisoned. Someone present said the man was in hardship and recited this verse. Shurayḥ replied that it concerns usury, and recited Qur’an 4:58, *“God commands you to return trusts to their owners, and when you judge between people, to judge with justice.”* In another version, Shurayḥ said that usury had been practised among a clan of the Anṣār, and *“God would not command us to do something and then punish us for it.”*
+
+Muḥammad ibn ʿAlī said the respite lasts until death. Ibrāhīm says the same of a man who marries with the bride-gift deferred until he is well off: it lasts until death or separation. Al-Shaʿbī tells that al-Rabīʿ ibn Khuthaym was owed money and would stand at the debtor’s door and say, *“If you are well off, pay; and if you are in hardship, then until you are well off.”*
+
+Others said the verse is general, covering anyone owed a right by a man in hardship, whether from a lawful debt or from usury. Al-Ḍaḥḥāk says: *“So it is with every debt owed by a Muslim. It is not lawful for a Muslim who is owed a debt by his brother, knowing him to be in hardship, to imprison him or press him until God makes it easy for him.”* Ibn ʿAbbās, in another report, says it was revealed concerning debt.
+
+### **THE PREFERRED VIEW**
+
+The verse refers to the debtors of those who accepted Islam in the Prophet’s time while debts with usury from the Age of Ignorance were owed to them, uncollected when Islam came. God commanded them to cancel what remained of the usury and to collect their capital from those debtors who were well off, and to give respite until better times to those in hardship. That is the ruling for everyone who accepts Islam while owed usury.
+
+Although the verse was revealed about them, the ruling applies to every debtor who owes a debt that has fallen due and is unable to pay: he must be given respite until he is well off. A creditor’s right lies in his debtor’s wealth, not in his person. The debt must lie in one of three places: in the debtor’s person, in his liability to be paid from his wealth, or in a specific piece of property. If it were in a specific property, the debt would vanish when that property was lost, and no one says that. If it were in his person, it would vanish with his death even if he left enough to pay it many times over, and no one says that either. So it lies in his liability, to be paid from his wealth. When he has no wealth, the creditor has no claim on his person, and so no way to imprison him: he is not withholding a right he is able to pay, that he should be punished for delay.
+
+### **CHARITY IS BETTER THAN RESPITE**
+
+Some said giving the capital as charity to rich and poor debtors alike is better; Qatādah says *“giving the original capital as charity is better for you,”* and Ibrāhīm says the same. Others said it means giving it as charity to the one in hardship. Al-Suddī says this, adding that al-ʿAbbās gave his as charity; al-Rabīʿ and Ibn Zayd agree. Al-Ḍaḥḥāk says respite is obligatory, God preferred charity to respite, and charity is for the debtor in hardship, not for one who is well off. That is the better interpretation, because the phrase follows directly on the ruling about the debtor in hardship.
+
+### **THE LAST VERSES REVEALED**
+
+It is said that these verses on usury were the last revealed of the Qur’an. Saʿīd ibn al-Musayyab reports ʿUmar as saying that the Prophet died before explaining them, *“so leave usury and whatever raises doubt.”* Al-Shaʿbī and Ibn ʿAbbās report similar words from ʿUmar and Ibn ʿAbbās.
+
+## **2:281**
+
+> Be mindful of the Day when you will ˹all˺ be returned to Allah, then every soul will be paid in full for what it has done, and none will be wronged
+
+### **MEANING**
+
+Beware, people, of a day on which you will go back to God and meet Him. Beware of coming to Him on that day with evil deeds that destroy you, disgraceful deeds that put you to shame, scandalous deeds that expose you and tear away your coverings, or ruinous deeds that ruin you and bring upon you a punishment from God that you have no power to bear.
+
+That is a day of recompense for deeds. It is not a day for seeking to make amends, nor a day for asking to be let off, for repentance, or for turning back. It is a day of repayment, reward, and reckoning, on which each soul receives its complete wage for what it sent ahead and earned, evil and good. No deed, small or great, good or evil, is left out; each is brought forward and repaid in just measure by its Lord, and they suffer no injustice.
+
+How could one be wronged who is repaid for an evil deed with its like, and for a good deed with ten times its like? No: the wrongdoer is treated with justice, and the doer of good is treated with generosity, given more and given abundantly. So let a person be wary of his Lord, take precautions against Him, and watch lest his day come upon him suddenly while his back is heavy with burdens and light in righteous deeds. For God has warned, and so left no excuse; He has admonished, and conveyed His admonition fully.
+
+### **THE LAST VERSE REVEALED**
+
+This verse too is said to have been the last verse of the Qur’an to be revealed. Ibn ʿAbbās says: *“The last verse revealed to the Prophet was: Be wary of a day on which you will go back to God.”* In another report he says it was the last verse of the Book to be revealed. ʿAṭiyyah and al-Suddī also say it was the last verse revealed.
+
+Ibn Jurayj relates from Ibn ʿAbbās that it was the last verse of the Qur’an to be revealed, and adds: *“They say that the Prophet remained nine nights after it; he fell ill on a Saturday and died on a Monday.”*
+
+Saʿīd ibn al-Musayyab, through Ibn Shihāb, says he had heard that the most recent part of the Qur’an at the Throne was the verse of debt, the long verse that follows (Qur’an 2:282).
+
+Earlier it was said that the verses on usury were the last revealed, and ʿUmar, Ibn ʿAbbās, and others are reported as saying so. These reports agree on the period in which this group of verses came: near the end of the Prophet’s life, at the close of the revelation.
+
+### **A DAY OF RECOMPENSE, NOT OF AMENDS**
+
+The verse comes immediately after the rulings on usury and on giving respite to the debtor in hardship. Those rulings asked people to give up gains they considered theirs, to accept their capital alone, and to wait for the debtor who could not pay, or release him. This verse sets all of that before the day on which every person will meet God.
+
+On that day there will be no opportunity to make amends, to ask to be let off, or to repent. Whatever a person sent ahead and earned will be presented, small and great, and each soul shall receive its wage for it. That is why the warning is so pressing: the time for repentance and correction is this life, not that day.
+
+### **NO ONE IS WRONGED**
+
+The verse closes by saying that they suffer no injustice. This is explained by the way God repays deeds: an evil deed is repaid with its like, which is pure justice, and a good deed is repaid with ten times its like, which is generosity beyond justice. The one who did evil receives exactly what he earned; the one who did good receives far more than he earned. Neither is wronged.
+
+This links with the previous verses on usury. There God told the creditors that if they repented they would have their capital, *“neither wronging nor being wronged”* (Qur’an 2:279). The same principle of justice that governs dealings between people in this world governs God’s repayment of deeds in the next.
+
+### **GOD HAS WARNED AND ADMONISHED**
+
+The verse ends the passage on usury with a general warning addressed to all people. God has warned and so left no one an excuse, and has admonished and conveyed His admonition fully. Whoever is wise will be wary of his Lord and prepare for that day before it comes upon him while his burdens are heavy and his good deeds few.
+
+## **2:282**
+
+> O believers! When you contract a loan for a fixed period of time, commit it to writing. Let the scribe maintain justice between the parties. The scribe should not refuse to write as Allah has taught them to write. They will write what the debtor dictates, bearing Allah in mind and not defrauding the debt. If the debtor is incompetent, weak, or unable to dictate, let their guardian dictate for them with justice. Call upon two of your men to witness. If two men cannot be found, then one man and two women of your choice will witness—so if one of the women forgets the other may remind her. The witnesses must not refuse when they are summoned. You must not be against writing ˹contracts˺ for a fixed period—whether the sum is small or great. This is more just ˹for you˺ in the sight of Allah, and more convenient to establish evidence and remove doubts. However, if you conduct an immediate transaction among yourselves, then there is no need for you to record it, but call upon witnesses when a deal is finalized. Let no harm come to the scribe or witnesses. If you do, then you have gravely exceeded ˹your limits˺. Be mindful of Allah, for Allah ˹is the One Who˺ teaches you. And Allah has ˹perfect˺ knowledge of all things
+
+### **MEANING**
+
+O you who accept the truth of God and His Messenger, when you deal with one another on credit, selling, buying, giving, or taking on deferred terms until an appointed date that you have set between you, write the debt down, whether it arose from a sale or a loan. Let a scribe write the document between creditor and debtor justly, with truth and fairness, neither cutting the creditor’s right nor adding to the debtor’s burden. No scribe asked to do so should decline to write it as God taught him, for God singled him out with that skill and withheld it from many of His creatures.
+
+The debtor should dictate to the scribe what he owes, fearing God his Lord and holding nothing back. Should he be ignorant of how to dictate correctly, or too feeble, or otherwise incapable of dictating himself, then the one who holds the right should dictate it, truthfully.
+
+Have two witnesses from among your free Muslim men testify to your rights. Failing a pair of male witnesses, let a single man and a pair of women testify, from those whose religion and uprightness you approve, so that if either of them forgets her testimony, the other reminds her. Those who are witnesses may never decline when called to give their testimony before an authority or judge. And never grow weary of writing the debt down, little or much, with its due date, for the document records both the term and the amount. That is more equitable in God’s sight, more correct for the testimony, since it preserves the exact words the parties acknowledged, and nearer to preventing doubt about the testimony.
+
+The exception is ready trade, hand to hand, which you pass between you: no blame attaches to you for not writing that down. But take witnesses whenever you buy and sell. And no scribe or witness may be harmed by those who call on them. If you harm them, that is disobedience and sin on your part. Fear God, people who deal in debts, lest you harm scribes and witnesses or neglect God’s other limits; God teaches you what is due to you and what is due from you, and He knows every thing.
+
+### **THE OCCASION AND THE WORDING**
+
+Ibn ʿAbbās says the verse was revealed about forward sales in particular, *“a forward sale of wheat, in a known measure, to a known date,”* and he testified that God had permitted a guaranteed forward sale to a fixed date. The word *“with a debt”* is added because Arabs also used the verb for mutual repayment, so God specified the ruling of debt; it is not mere emphasis.
+
+### **IS WRITING OBLIGATORY?**
+
+Some said writing is a binding duty. Al-Ḍaḥḥāk says whoever sells on deferred terms is commanded to write, little or much; Ibn Jurayj says whoever borrows should write and whoever sells should take witnesses; al-Rabīʿ says it was obligatory, and then came the concession of trust. Qatādah relates from Abū Sulaymān al-Marʿashī that a man who sold without writing or witnesses and was then denied his money is one wronged whose prayer is not answered, for he disobeyed his Lord.
+
+Others said it was obligatory and then abrogated by the later words, *“if any of you trusts another, let the trusted one render his trust”* (Qur’an 2:283). Al-Shaʿbī, Ibn Jurayj, Ibn Zayd, al-Ḥasan, and Abū Saʿīd al-Khudrī held this; al-Shaʿbī says: *“If you take witnesses, it is prudence; if not, you are free and at ease.”*
+
+The correct view is that God commanded those who deal in debts to write them and commanded the scribe to write justly, and God’s command is a binding duty unless proof shows it is only guidance. The claim of abrogation fails, since that permission applies only where no means exists of writing or no scribe, as on a journey. Abrogation exists only where two rulings cannot stand together; where one does not negate the other, abrogation has no place.
+
+### **THE SCRIBE, THE DICTATION, AND THE GUARDIAN**
+
+Qatādah says: *“Let a scribe fear God in his writing, leaving out no right and adding nothing false.”* Mujāhid and ʿAṭāʾ say the scribe is obliged to write; al-Shaʿbī and ʿAṭāʾ say this applies when no other scribe can be found; al-Ḍaḥḥāk says it was binding and was then abrogated by the ban on harming the scribe; al-Suddī says he must write if he is free.
+
+Al-Rabīʿ and Ibn Zayd explain holding nothing back as not reducing the creditor’s right. Mujāhid says the one incapable of dictating correctly is *“ignorant of dictation and of affairs”*; al-Suddī and al-Ḍaḥḥāk say a small child; and some called the weak person the foolish. The better view is that it means anyone ignorant of what is correct in dictating, young or old, male or female, since the word means ignorance in Arabic. Ibn ʿAbbās and al-Rabīʿ say the one who then dictates is the creditor; al-Ḍaḥḥāk says the guardian of the ignorant or weak.
+
+### **THE WITNESSES**
+
+Mujāhid says the men are free men. Al-Rabīʿ and al-Ḍaḥḥāk say they must be upright. The reading *“that should either err, the other reminds her”* is preferred by consensus, and forgetting is its meaning, as al-Rabīʿ, al-Suddī, and al-Ḍaḥḥāk say. Sufyān ibn ʿUyaynah’s view, that a pair of women together become like one male witness, contradicts all the interpreters. Qatādah says God knew there would be rights and so secured trust between people.
+
+On refusing, Qatādah and al-Rabīʿ say a man used to go round a large gathering asking people to witness and none would follow him. Al-Shaʿbī says one may choose unless no one else is found. Mujāhid, Saʿīd ibn Jubayr, ʿIkrimah, and ʿAṭāʾ say it concerns giving testimony already held. The preferred view is that witnesses may never decline to give testimony before a ruler or judge, because God called them witnesses and the definite article marks known people; yet whoever is the only fit person present must also answer a call to witness.
+
+### **WEARINESS, EQUITY, AND READY TRADE**
+
+Weariness is boredom, as Labīd and Zuhayr use it of life. More equitable means fairer, as al-Suddī says, and nearer to preventing doubt means doubt about the testimony. Al-Suddī says ready trade is goods in the town that you see, take, and give. Al-Shaʿbī and al-Ḥasan said witnessing a sale is optional; al-Ḍaḥḥāk said it is commanded. The preferred view is that witnessing every sale is a binding duty.
+
+### **HARMING THE SCRIBE AND WITNESS**
+
+Some said the scribe and witness may never cause harm by writing or testifying falsely; al-Ḥasan, Qatādah, and Ibn Zayd say so. ʿUmar, Ibn Masʿūd, and Mujāhid read the verb in the passive. Ibn ʿAbbās, ʿIkrimah, Mujāhid, al-Ḍaḥḥāk, al-Suddī, and al-Rabīʿ say a man would insist that a busy scribe or witness serve him, saying *“God has commanded you not to refuse.”* That is the better view, because the whole verse addresses the holders of rights. Ibn ʿAbbās and al-Rabīʿ say such harm is disobedience; Ibn Zayd says it is lying. Al-Ḍaḥḥāk says of God’s teaching: *“This is a teaching He has taught you, so hold to it.”*
+
+## **2:283**
+
+> If you are on a journey and a scribe cannot be found, then a security can be taken. If you trust one another, then ˹there is no need for a security, but˺ the debtor should honour this trust ˹by repaying the debt˺—and let them fear Allah, their Lord. And do not conceal the testimony, for whoever conceals it, their hearts are indeed sinful. And Allah ˹fully˺ knows what you do
+
+### **MEANING**
+
+If you who deal in debts are travelling, in a place where you find no one to write for you the document of the debt you have contracted until an appointed date, the document I commanded you to write and to have witnessed, and you have no means of writing it, then take pledges in hand from those to whom you extend credit, pledges you take into your possession, as security for your money.
+
+If the debtor is trusted by the creditor, so that the creditor takes no pledge from him on the journey because he trusts him with his money and relies on him, then let the debtor fear God his Lord concerning the debt he owes his companion: let him fear denying it, evading it, or trying to make off with it, and so exposing himself to a punishment from God he has no power to bear. Let him pay back the debt with which he was entrusted.
+
+This is addressed to the witnesses whom the debtor and the creditor were commanded to call. Witnesses, once you have witnessed, never hide your testimony before the judges; testify as you witnessed, and answer the one for whom you witnessed when he calls you to give your testimony against his opponent, for his right, before the judge who will take that right for him. Whoever hides his testimony, refusing to give it and stand by it when the one who called him as witness needs it before a judge or an authority, his heart is wicked, earning by hiding it disobedience to God. God is aware of your conduct with your testimony, whether you give it or hide it when it is needed, and all your other deeds, secret and open; He records them against you to repay you for them all, good or evil, as you deserve.
+
+### **A SCRIBE OR A DOCUMENT?**
+
+The readers of all the cities read *“and you find no scribe,”* meaning no one to write. A group of early readers read *“and you find no writing,”* meaning no means of writing at all, whether for lack of an inkpot and sheet or no scribe even though inkpot and sheet are present. Ibn ʿAbbās read it that way and said the writing includes *“the scribe, the sheet, the inkpot, and the pen,”* adding that a man may find the sheet and not find a scribe. Mujāhid read it so and said a scribe may be found but no sheet or ink; he also said pledges are only taken on a journey. Abū al-ʿĀliyah read it so and said the inkpot may be found but not the sheet.
+
+The only permissible reading is that of the cities, *“no scribe,”* because that is how it is written in the Muslims’ codices.
+
+Al-Ḍaḥḥāk says whoever was travelling and sold on deferred terms but found no scribe was given a concession to take pledges, *“and if he finds a scribe, he may not take a pledge.”* Al-Rabīʿ explains: a scribe to write for you. In another report al-Ḍaḥḥāk says that deferred sales must be written and witnessed when people are resident, and pledges are for those travelling who find no scribe.
+
+### **THE WORD FOR PLEDGES**
+
+The readers of the Ḥijāz and Iraq read the plural form *rihān*, as *kibāsh* is the plural of *kabsh*. Others read *ruhun*, which some took as the plural of *rihān* and some as the plural of *rahn*, like *suquf* from *saqf*; others read *ruhn*. The preferred reading is *rihān*, because it is the familiar plural for nouns of that pattern, like *ḥibāl* from *ḥabl*. The plural *ruhun* is rare. Whoever chose it probably did so because *rihān* is also used for horse races and he wished to avoid confusion. A line of poetry uses it: *“Suʿād has gone, and ʿAdan lies beyond her, and the pledges of your heart are locked with her.”*
+
+### **PLEDGES AT HOME AND THE TRUSTED DEBTOR**
+
+Some said this provision about trust abrogates the commands in the previous verse to write and to take witnesses; that view has already been shown to be mistaken. Al-Ḍaḥḥāk says it applies only when travelling: *“As for one resident who can find a scribe, he may not take a pledge, nor may they simply **trust one another**.”*
+
+Al-Ḍaḥḥāk is right that the creditor may not simply trust the debtor while he has a means to a scribe, writing, and witnesses, even on a journey. But his claim that the same applies to pledges, so that the creditor may not take a pledge when a scribe and witness are available at home or travelling, has no basis, because of the sound report that the Prophet *“bought food on credit and pledged his coat of mail for it.”*
+
+So a man may give or take a pledge both when travelling and at home. The Prophet was not, when he gave that pledge, without access to a scribe or witness, since neither was ever hard to find in his city. Yet when two people trade with a pledge and have a way to a scribe and witness, or the sale or debt is to an appointed date, they must write it and have the money and the pledge witnessed. Leaving out writing and witnessing is permitted only where no means to them exists.
+
+### **HIDING TESTIMONY**
+
+Al-Rabīʿ says: *“It is not lawful for anyone to hide testimony he holds, even if it is against himself or his parents; whoever hides it has committed a great sin.”* Al-Suddī explains that the heart is wicked.
+
+Ibn ʿAbbās says the greatest of the major sins is associating partners with God, citing Qur’an 5:72, *“whoever associates partners with God, God has forbidden him Paradise, and his refuge is the Fire,”* and also false testimony and hiding testimony, citing this verse. He is also reported as saying that a witness should testify wherever he is asked to testify and inform wherever he is asked to inform. And he said: *“If you hold testimony and someone asks you about it, tell him; never say, I will tell it before the governor. Tell him, so that perhaps he may reconsider or desist.”*
+
+## **2:284**
+
+> To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth. Whether you reveal what is in your hearts or conceal it, Allah will call you to account for it. He forgives whoever He wills, and punishes whoever He wills. And Allah is Most Capable of everything
+
+### **MEANING**
+
+To God belongs the dominion of everything in the heavens and in the earth, small and great. Its management is His, its turning and changing are in His hand, and nothing of it is hidden from Him, for He governs it, owns it, and directs it.
+
+The words follow the command to witnesses not to hide their testimony. God is saying: witnesses, never hide your testimony; whoever hides it, his heart is wicked, and his hiding will not escape Me, for I know every thing, and the dominion and direction of every thing in the heavens and the earth is in My hand; I know what is hidden of it and what is open. So beware of My punishment for hiding testimony. This is a warning from God to whoever hides it. Then He tells them what He will do with them in the Hereafter, and with everyone like them who conceals a sin within himself or commits a ruinous deed openly.
+
+Whether you people show what is within yourselves and make it apparent, or keep it hidden and fold yourselves around it, God will reckon with you for it. He will make the believer among you know His grace in pardoning it and forgiving it, and so forgive it, and He will punish the hypocrite among you for the doubt his soul held about the oneness of his Creator and the prophethood of His prophets. God has power to pardon what the believer’s soul concealed of an inclination toward sin, to punish the disbeliever for the doubt about God’s oneness and His prophets that his soul concealed, to repay each of them for all that he did, and over everything else.
+
+### **ABOUT TESTIMONY**
+
+Some said the hidden and shown matters here concern testimony, and that whoever conceals or reveals a sin is joined with the witnesses in this. Ibn ʿAbbās, ʿIkrimah, and al-Shaʿbī say it concerns testimony; Ibn ʿAbbās says it was revealed about hiding testimony and giving it, and ʿIkrimah says *“hiding testimony, and giving it as it truly is.”*
+
+### **ABROGATED BY THE VERSE THAT FOLLOWS**
+
+Others said it informs God’s servants that He will hold them to account for what their hands earned and for what their souls whispered to them that they never did. Some of these said this was then abrogated by Qur’an 2:286, *“God does not burden a soul beyond its capacity; for it is what it has earned, and against it what it has acquired.”*
+
+Abū Hurayrah relates that when it was revealed it weighed heavily on the people, and they said: *“Messenger of God, we are taken to account for what we say to ourselves! We are ruined!”* Then the verse on capacity was revealed. Ibn ʿAbbās relates that something entered their hearts that had never entered them before, and the Prophet said, *“Say: we hear, we obey, and we submit.”* God then cast faith into their hearts and revealed the two closing verses of the surah, and to each of their prayers God answered, *“I have done so.”* Ibn Zayd relates that the Prophet asked them whether they would say as the Children of Israel said, *“We hear and we disobey,”* and they said, *“Rather, we hear and we obey, Messenger of God.”*
+
+Saʿīd ibn Marjānah, al-Zuhrī, Mujāhid, and Sālim relate that ʿAbdullāh ibn ʿUmar recited it and wept, saying they would be ruined if taken to account by it, and that when told of this, Ibn ʿAbbās said: *“May God have mercy on Ibn ʿUmar! The Muslims felt as he felt when it was revealed,”* until the following verse abrogated it. Saʿīd ibn Jubayr, al-Shaʿbī, Ibn Masʿūd, Mujāhid, ʿIkrimah, al-Ḥasan, Qatādah, Abū ʿUbaydah ibn ʿAbdullāh, al-Suddī, and ʿĀʾishah are also reported as saying it was abrogated. Al-Suddī says they complained, *“By God, we have no control over the whisperings!”*
+
+### **NOT ABROGATED**
+
+Others said the verse stands unabrogated and God will reckon with His creatures for what they did and for what they concealed. Ibn ʿAbbās says God will gather His creatures on the Day of Resurrection and tell them what they concealed that even His angels did not know; He will inform the believers and forgive them what they said to themselves, and inform the people of doubt of the denial they concealed. He also says that when a believer intends good and does it, ten good deeds are written for him, and if he is unable to do it, one good deed is written for him. Al-Ḍaḥḥāk relates from Ibn ʿAbbās, and Qays ibn Abī Ḥāzim says similarly, that God will say: *“My recorders wrote only what was apparent of your deeds; as for what you kept secret, I reckon with you for it today.”* Al-Rabīʿ says God will make him know what he concealed but will not punish him for it; al-Ḥasan says it is not abrogated; Mujāhid says it concerns doubt and certainty.
+
+Others who held it unabrogated said God reckons with all His creatures for what they showed and concealed. ʿĀʾishah says that whoever intends a sin without doing it is reckoned with in this world through anxiety and grief, and that the Prophet called it God’s pursuit of His servant through fever, misfortune, and the thorn, until he leaves his sins as pure gold leaves the furnace.
+
+### **THE PREFERRED VIEW**
+
+The best view is that the verse is not abrogated. Abrogation happens only when a later ruling negates an earlier one in every respect, and the verse on capacity does not negate this reckoning, because being reckoned with does not require punishment. Qur’an 18:49 says the records leave *“nothing small or great but has numbered it,”* yet God promised to pardon minor sins for those who avoid major ones (Qur’an 4:31). God’s reckoning with believers for what their souls concealed is meant to make them know His grace in pardoning it, as in the Prophet’s description of God drawing His believing servant near, making him acknowledge his sins, and saying: *“I concealed them for you in the world, and I forgive them for you today.”*
+
+A person is punished only for doing what is forbidden or leaving what is commanded. The threat of punishment is for those whose souls concealed doubt about God, His oneness, His Prophet, or the resurrection, as Ibn ʿAbbās and Mujāhid indicate. The promise of forgiveness is for one who merely inclined toward a sin, according to the saying: *“Whoever intends a good deed and does not do it, a good deed is written for him; whoever intends an evil deed and does not do it, it is not written against him.”*
+
+## **2:285**
+
+> The Messenger ˹firmly˺ believes in what has been revealed to him from his Lord, and so do the believers. They ˹all˺ believe in Allah, His angels, His Books, and His messengers. ˹They proclaim,˺ “We make no distinction between any of His messengers.” And they say, “We hear and obey. ˹We seek˺ Your forgiveness, our Lord! And to You ˹alone˺ is the final return.”
+
+### **MEANING**
+
+The Messenger, God’s Messenger Muhammad, affirmed the truth of what was sent down to him by revelation from **his Lord**; he acknowledged it: the Book, with what it contains of the lawful and the unlawful, promise and threat, command and prohibition, and all its other meanings. The believers too affirmed, together with their Prophet, the truth of God, of God’s angels, of all the scriptures God sent down to His prophets, and of God’s messengers.
+
+Their words are: we never separate one of God’s messengers from another, believing in some and disbelieving in others. Rather, they affirm the truth of all of them, acknowledge that what they brought came from God and that they called to God and to obedience to Him. In this they differ from the Jews, who acknowledged Moses and denied Jesus, from the Christians, who acknowledged Moses and Jesus and denied Muhammad and rejected his prophethood, and from the nations like them who denied some of God’s messengers and acknowledged others.
+
+All the believers said: we have heard **our Lord**’s word, His command to us in what He commanded, and His prohibition of what He forbade; and we have obeyed **our Lord** in the duties He made binding on us and the service He required of us, and submitted to Him. And they said: forgive us, **our Lord**, Your forgiveness. To You, **our Lord**, is our going back and our return, so forgive us our sins.
+
+### **REVEALED AFTER THE HARDSHIP OF THE PREVIOUS VERSE**
+
+It is said that when this verse was revealed, the Prophet said that it was right for him to believe. Qatādah says: *“We were told that when this verse was revealed, the Prophet of God said: and he has every right to believe.”*
+
+It is also said that it was revealed after the previous verse, because the Prophet’s Companions found it hard that God threatened to reckon with them for what their souls concealed. They complained of it to the Prophet, who said: *“Perhaps you will say, We have heard and disobeyed, as the Children of Israel said!”* They said: *“Rather, our answer is: we have heard and obeyed!”* So God revealed, in response to what the Prophet and his Companions said, this verse and the one after it. Its meaning is that the believers too affirmed the truth, along with their Prophet, of God, the angels, the scriptures, and the messengers. Those who said so were mentioned in the commentary on the previous verse.
+
+### **BOOKS OR BOOK**
+
+The readers differed over the word for scriptures. Most readers of Madīnah and some of Iraq read it as a plural: the believers all believed in God, **His angels**, and all His scriptures which He sent down to His prophets and messengers. A group of readers of Kūfah read it in the singular, meaning: they believed in God, **His angels**, and the Qur’an which He sent down to His Prophet Muhammad.
+
+Ibn ʿAbbās is reported to have read it in the singular, saying *“The book is more than the books.”* He seems to have understood it as a word for the whole kind, as in Qur’an 103:1–2, *“By the passing time, mankind is surely in loss,”* where mankind means the whole human kind; just as one says, *“How many are so-and-so’s dirham and dinar,”* meaning dirhams and dinars as a kind.
+
+That is a recognised view, but the plural reading is preferable, because what comes before it and what comes after it are plural, angels and messengers, and it is better that the word should match in form and meaning what precedes and follows it.
+
+### **NO DISTINCTION AMONG THE MESSENGERS**
+
+God reports here that the believers say these words. In the reading with the first person, *“we never separate,”* the word *“saying”* is left unstated, since the context shows it: the believers all believed in God, **His angels**, the scriptures He sent, and **His messengers**, saying: we never separate one of **His messengers** from another.
+
+A group of early readers read it in the third person, meaning that every one of the believers believed and did not separate one messenger from another, believing in some and denying others, but affirmed them all.
+
+Ibn Zayd explains: *“Unlike what that people did, meaning the Children of Israel. They said: so-and-so is a prophet, so-and-so is not a prophet; we believe in so-and-so, and we do not believe in so-and-so.”*
+
+The only acceptable reading is with the first person, because it is established by widespread transmission which excludes collusion, oversight, and error. A rare reading may not be set against what has come by the proof of transmission and inheritance.
+
+### **HEARING, OBEYING, AND SEEKING FORGIVENESS**
+
+Forgiveness, as explained earlier, is God’s covering of the sins of the one He forgives, His sparing him from being exposed by them in this world and the Hereafter, and His pardoning of the punishment for them.
+
+The word for forgiveness is in the accusative because it is a verbal noun standing in place of a command, meaning *“forgive us, **our Lord**, with Your forgiveness,”* as one says *“glory be to You,”* meaning: we glorify You with Your glory. Arabs do this with verbal nouns and names placed where a command would be: *“Thanks be to God,”* meaning give thanks to God; *“the prayer, the prayer,”* meaning pray. A poet says: *“Such people, among them ʿUmayr and those like ʿUmayr, and among them al-Saffāḥ, are worthy of keeping faith when the man of courage cries: Your weapons, your weapons!”* Had it been read in the nominative, that would not have been wrong.
+
+### **ASK AND YOU WILL BE GIVEN**
+
+It is reported that when this verse was revealed to the Prophet, as praise from God for him and his community, Gabriel said to him: God has praised you and your community well, so ask your Lord. Ḥakīm ibn Jābir relates that Gabriel said: *“God has praised you and your community well; so ask, and you will be given.”* So he asked with the words that follow, from the verse on capacity to the end of the surah.
+
+## **2:286**
+
+> Allah does not require of any soul more than what it can afford. All good will be for its own benefit, and all evil will be to its own loss. ˹The believers pray,˺ “Our Lord! Do not punish us if we forget or make a mistake. Our Lord! Do not place a burden on us like the one you placed on those before us. Our Lord! Do not burden us with what we cannot bear. Pardon us, forgive us, and have mercy on us. You are our ˹only˺ Guardian. So grant us victory over the disbelieving people.”
+
+### **MEANING**
+
+God never charges a soul, in the worship He requires of it, with anything except what is within its capacity; He never constricts it or exhaust it. Each soul has the good it earned and did, and against each soul is the evil it committed. So God charges a soul only with what is within its capacity, never straining it or constricting it in its religion, and He never takes it to task for an inclination it felt, a whispering that came to it, or a thought that passed through its heart.
+
+God here teaches His believing servants how to call on Him and what to say in their prayer. Say: **Our Lord**, never take us to task if we neglect something You made it our duty to do and leave it undone, or if we err in doing something You forbade, without intending to disobey You, out of ignorance and error. **Our Lord**, never lay on us a covenant that we would fail to carry out, as You laid one on the Jews and Christians, who were charged with deeds and whose covenants and pledges to fulfil them were taken, then failed to fulfil them and so were swiftly punished. **Our Lord**, never charge us with deeds beyond our strength to perform, because of their weight.
+
+Pardon whatever shortcoming of ours there may be in some of the duties You commanded, overlook it, and spare its punishment. Cover any slip we commit between us and You, never uncovering it or disgracing us by exposing it. Enfold us in a mercy from You that saves us from Your punishment, for no one is saved from it except through Your mercy rather than through his deeds, and our deeds will never save us unless You grant us Your mercy; so make us succeed in what pleases You. You are our patron, helping us, rather than those who are hostile to You and deny You, for we believe in You and obey You in what You command and forbid; You are the patron of whoever obeys You and the enemy of whoever disbelieves in You and disobeys. Help us, for we are Your party, against the people who reject Your oneness, worship gods and rivals besides You, and obey Satan in disobeying You.
+
+### **WITHIN ITS CAPACITY**
+
+Capacity is a noun from the expression *“this matter is within my scope,”* like the words for effort and means. Ibn ʿAbbās says: *“They are the believers; God made the matter of their religion spacious for them,”* and he cites Qur’an 22:78, *“He has not laid upon you any hardship in religion,”* Qur’an 2:185, *“God wants ease for you, and **does not** want hardship for you,”* and Qur’an 64:16, *“So fear God as much as you are able.”*
+
+Ibn ʿAbbās also relates that when the previous verse was revealed, the believers cried out: *“Messenger of God, we can repent of the deeds of the hand, the foot, and the tongue, but how can we repent of whispering? How can we keep away from it?”* Then Gabriel brought these words, meaning: you are not able to keep away from whispering. Al-Suddī says capacity is ability, and talking to oneself was something they could not bear.
+
+### **WHAT IT EARNED AND WHAT IT INCURRED**
+
+Qatādah and al-Suddī say that what the soul earns is the good it does, and what it incurs is the evil or wrong it does. Ibn ʿAbbās says it is *“the deeds of the hand, the foot, and the tongue.”*
+
+### **FORGETTING AND ERROR**
+
+Ibn Zayd says: *“Should we forget something You made obligatory on us, or err and commit something You forbade us.”* Qatādah says the Prophet said that God has overlooked for this community its forgetting and what it says to itself. Al-Suddī says that when these words were revealed, Gabriel said to the Prophet, *“Then say that, Muhammad.”*
+
+Why would one ask God not to take one to task for forgetting and error? Forgetting is of two kinds. One is neglect and negligence by the servant, leaving what he was commanded to do. That is what the servant asks God not to punish, and it is the forgetting for which Adam was punished and expelled from the Garden, as Qur’an 20:115 says, *“We had made a covenant with Adam before, but he forgot, and We found in him no firm resolve.”* The other is the inability of the one who forgets to retain what was entrusted to him, as when a man strives to memorise the Qur’an and then forgets it, not through distraction but through weakness of memory; that is not a sin, and there is no reason to ask forgiveness for it.
+
+Error too is of two kinds. One is doing a forbidden thing deliberately; that is a sin for which one is taken to task, and the servant asks his Lord to overlook it, unless it amounts to disbelief. A poet uses the verb this way: *“People blame the ruler when they miss what is right, yet the guide is not blamed.”* The other is acting in ignorance while thinking it permitted, like one who eats at night in Ramadan believing dawn has not come, or delays a prayer on a cloudy day until its time has passed; that error is lifted from the servant. Some claimed that this prayer is only an act of humility commanded by God, not a real request for pardon.
+
+### **THE HEAVY COVENANT**
+
+The word translated as burden means a covenant, as in Qur’an 3:81, *“Do you affirm, and do you take My covenant on that?”* Qatādah, Mujāhid, Ibn ʿAbbās, al-Suddī, Ibn Jurayj, al-Ḍaḥḥāk, and al-Rabīʿ say it is a covenant or pledge; Ibn Jurayj says the Jews and Christians failed to keep it and so were destroyed. ʿAṭāʾ says: *“Never transform us into apes and swine.”* Ibn Zayd says it is a sin with no repentance or atonement. Al-Rabīʿ and Mālik say it is the harshness and the heavy matter imposed on the People of the Book. The same root with a different vowel means the tie of kinship that inclines a man to another.
+
+Of the strength beyond them, Qatādah and al-Suddī say it is the severity imposed on earlier peoples; al-Ḍaḥḥāk and Ibn Zayd say deeds and religious duties beyond their ability; Ibn Jurayj says transformation into apes and swine; Sālim ibn Shābūr says overpowering lust. The first view is preferred, since it follows their request for ease in religion. Ibn Zayd explains pardon as overlooking shortcomings, forgiveness as covering what they violated, and mercy as the means by which alone anyone is saved.
+
+### **THE PRAYER ANSWERED**
+
+Ibn ʿAbbās, al-Ḍaḥḥāk, al-Suddī, Abū Hurayrah, and Saʿīd ibn Jubayr relate that when the Prophet recited these words, God answered each request: *“I have done so.”* Saʿīd ibn Jubayr says: *“This community was given the closing verses of the surah, which the nations before it were not given.”* Al-Ḍaḥḥāk held that the answer was for the Prophet in particular. Abū Isḥāq relates that Muʿādh, on finishing the surah, would say: *“Amen.”*
