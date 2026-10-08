@@ -3089,3 +3089,145 @@ A note is also made on the conjunction before *if he ransomed himself with it*. 
 ### **HOW IT FOLLOWS WHAT CAME BEFORE**
 
 The verse before refused the repentance of someone who dies upon rejection; this one refuses the payment. Between them the two verses close both exits that a person in that state might reach for — the return, and the price — and both are closed for the same reason: what is on offer is either not made or not his to make it with.
+
+## **3:92**
+
+> You will never achieve righteousness until you donate some of what you cherish. And whatever you give is certainly well known to Allah
+
+### **MEANING**
+
+A condition is laid down for the believers, and it is a condition about giving. They will not attain the thing they are seeking from God until they give away a part of what they love; and whatever they give, God knows it and will repay it. The two halves of the verse are a condition and a promise, and the promise is what makes the condition bearable.
+
+### **WHAT IS MEANT BY THE THING SOUGHT**
+
+The word used is explained as the good that comes from God — what a person seeks from Him by obeying and worshipping Him, and hopes for from Him, which is His favour in admitting him to His Garden and turning His punishment away from him. Because of that, many of the explainers glossed the word simply as the Garden: the good that the Lord does to His servant in the Hereafter is His honouring him by admitting him there. ʿAmr ibn Maymūn is reported glossing it as the Garden, and al-Suddī is reported saying the same.
+
+### **WHAT IS MEANT BY GIVING WHAT YOU LOVE**
+
+The condition is explained as giving in charity from what a person loves and wants to keep for himself — the choice part of his wealth. Qatādah is reported putting it as spending from what pleases you and from what you desire of your wealth, and al-Ḥasan as spending from wealth. The requirement is not an amount but a kind: what is loved is what is hard to part with, and the verse asks for that.
+
+### **THE SECOND HALF**
+
+The closing clause is explained as covering anything at all that is given: whatever a person spends of his wealth, in the way of God or otherwise, God knows it — nothing of it escapes Him — so that He may repay the one who did it in the Hereafter. Qatādah is reported adding the note that the deed is preserved for you, and that God knows it and is grateful for it. The knowledge named here is therefore not a threat but the ground of the repayment.
+
+### **HOW THE FIRST GENERATION ACTED ON IT**
+
+Several accounts are given of what was done when this verse came down, and they agree on the reading: what is asked for is the thing held dear.
+
+Through Mujāhid it is reported that ʿUmar ibn al-Khaṭṭāb wrote to Abū Mūsā al-Ashʿarī asking him to buy him a slave-girl from Jalūlāʾ, on the day the cities of Chosroes were opened in the campaign of Saʿd ibn Abī Waqqāṣ. When she was brought, ʿUmar recited this verse and then freed her. The report is connected by Mujāhid to Qur’an 76:8, where the righteous are described as giving food, for the love of it, to the poor, the orphan and the captive, and to Qur’an 59:9, where they are described as preferring others over themselves even though they are in want.
+
+Through Ḥumayd, Anas ibn Mālik is reported saying that when this verse came down — or the verse which asks who will lend God a goodly loan, which the report places at Qur’an 2:245 — Abū Ṭalḥah stood and said: O messenger of God, my garden in such-and-such a place is charity, and ***“were I able to make it secret I would not make it public!”*** The messenger of God told him to put it among the poor of his own family. In another version, from Thābit, also through Anas, Abū Ṭalḥah said that God was asking them of their wealth, and called witnesses that his land at Arīḥā was given to God; the messenger of God told him to place it with his relatives, and he placed it between Ḥassān ibn Thābit and Ubayy ibn Kaʿb.
+
+Through Layth, Maymūn ibn Mihrān is reported telling of a man who asked Abū Dharr which deed was best. Abū Dharr answered that the prayer is the pillar of the religion, that struggle is the high point of deeds, and that charity is something amazing. The man said that he had left out the deed which was firmest in his own view, and named fasting. Abū Dharr replied that it is a way of nearness, but not that — and recited this verse.
+
+Two accounts are given about a horse. Through ʿAmr ibn Dīnār it is reported that Zayd brought a horse of his called Sabal to the Prophet and asked him to give it in charity; the Prophet gave it to Zayd's son Usāmah. Zayd said that he had meant it as charity, and the Prophet told him that his charity had been accepted. Through Ayyūb and others, from ʿAbd al-Razzāq's route, it is reported that Zayd ibn Ḥārithah brought a horse he loved and said it was in the way of God, and the Prophet mounted Usāmah on it; when he saw something in Zayd's face, he told him that God had accepted it.
+
+### **WHY IT IS PLACED HERE**
+
+The passage has just described a refusal that no ransom can buy off. This verse answers the opposite question — what does buy — and the answer is not a sum but a thing loved: what was refused in the verse before was everything a person owned, and what is accepted here is the one thing he would rather keep.
+
+## **3:93**
+
+> All food was lawful for the children of Israel, except what Israel made unlawful for himself before the Torah was revealed. Say, ˹O Prophet,˺ “Bring the Torah and read it, if your claims are true.”
+
+### **MEANING**
+
+A claim the Jews had been making about the food they avoid is taken up and answered. Every kind of food had been permitted to the descendants of Jacob, apart from that which Israel forbade himself prior to the Torah's coming. The Prophet is then told to call for the Torah itself: produce it and recite it, should they be truthful.
+
+### **WHAT THE VERSE ASSERTS**
+
+The assertion is explained thus: prior to the sending down of the Torah, God had made nothing of the foods unlawful for Jacob's descendants — the children of Jacob son of Isaac son of Abraham — but all of it was permitted to them apart from that which Jacob had forbidden himself. They then forbade it following his example, without God having forbidden it to them in any revelation or by the tongue of any messenger ahead of the Torah.
+
+Two things therefore stand together: the prohibition is old, and it is not from God. It began as a vow over a man's own body and was inherited as a family practice.
+
+### **WHETHER IT CAME DOWN IN THE TORAH**
+
+The explainers differ on whether that inherited prohibition was then confirmed in the Torah.
+
+One account says that it was: when God sent down the Torah, He forbade for them in it what they had already been making unlawful. Al-Suddī is reported relating that the Jews said they only forbade that which Israel forbade himself, and explaining that Israel forbade the sinews — he was seized by the sciatic nerve, which troubled him at night and left him by day, so he swore that if God healed him he would never eat a sinew — and that God then forbade it for them. On this reading the prohibition stands as a consequence of their own insolence, and the verse is compared to Qur’an 4:160, where good things once lawful are forbidden to them because of wrongdoing on the part of those who are Jews.
+
+A second account says that it did not: none of it was forbidden by God in the Torah; it is something they forbade themselves, following their father, and then attributed to God. God declared them liars in that attribution, and told His prophet to say that if they are truthful they should produce the Torah and recite it, so that it may be seen whether it is there. Al-Ḍaḥḥāk is reported giving the story in this form, with the exchange that prompted it: the Prophet asked them which thing Israel had forbidden himself, they said the Torah came down with it, and the reply came back that they had lied.
+
+A third account, given from Ibn ʿAbbás through his family's chain and through Ibn Jurayj, is that the thing is unlawful for his descendants by his having forbidden it to them, without God having forbidden it either to him or to them.
+
+The reading preferred is the last, and it is stated thus: every kind of food was permitted to Jacob's descendants ahead of the Torah's coming, apart from that which Israel forbade himself, without God having forbidden him that; it was unlawful for them by their father's act, without any revelation or inspiration before it — until the Torah came down, and God forbade in it what He willed and permitted what He pleased. Qatādah is reported saying the same, and identifying Israel as Jacob.
+
+### **WHAT ISRAEL FORBADE HIMSELF**
+
+Two answers are given, and they are weighed against each other.
+
+The first is the sinews. Yūsuf ibn Māhak is reported telling of a Bedouin who came to Ibn ʿAbbás about a man who had declared his wife unlawful to himself. Ibn ʿAbbás ruled that she was not unlawful to him. The Bedouin objected: why, when God says in His book that every kind of food was permitted to Jacob's descendants apart from that which Israel forbade himself? Ibn ʿAbbás is reported laughing and asking: and how would you know which thing Israel forbade himself? He then told them that Israel was afflicted by the sciatic nerves, which wore him out, and bound himself by an oath before God that if He healed him he would not eat a sinew — which is why the Jews pick the sinews out of the meat. The same is reported from Saʿīd ibn Jubayr and Ḥabīb, with the detail that he would cry out through the night; from Abū Mijlaz, who adds that all the sinews follow that one; and from Qatādah and Mujāhid.
+
+The second is the flesh and milk of camels. Through Ibn Jurayj it is reported from ʿAbdullāh ibn Kathīr that when Israel was told his ailment was the sciatic nerve, he said: Lord, the dearest food to me is camel flesh and the dearest drink its milk, so if You heal me I forbid them to myself. ʿAṭāʾ ibn Abī Rabāḥ is reported saying the same, and al-Ḥasan is reported explaining that they used to claim to find the prohibition of camel flesh in the Torah when in fact Israel had forbidden it prior to the Torah's coming. Mujāhid is reported, through another route, saying simply the flesh of cattle.
+
+The view preferred combines them: the sinews and camel flesh, on the report of Ibn ʿAbbás through al-Aʿmash from Ḥabīb from Saʿīd ibn Jubayr. The ground given is the practice itself — the Jews are agreed on making both unlawful to this day, as their forebears were.
+
+A report from the Prophet to the same effect is then given through Shahr ibn Ḥawshab, from Ibn ʿAbbás. A group of Jews came and asked what food Israel had forbidden himself prior to the Torah's coming, and the Prophet said: ***“I adjure you by the One who sent down the Torah to Moses — do you know that Israel, Jacob, fell grievously ill, his sickness lasting long, and vowed to God that if He healed him he would make unlawful the dearest food and drink to him, and the dearest food to him was camel flesh and the dearest drink its milk?”*** They said: by God, yes.
+
+### **THE CHALLENGE**
+
+The command to produce the Torah is explained as addressed to those of the Jews who claimed that God had forbidden them the sinews and camel flesh and its milk in it: bring it and recite it, so that it becomes clear to anyone unaware of their lying that this is not among what He sent down in it. The condition attached — *if you are truthful* — is explained as: if you are right that God sent down its prohibition in the Torah, then produce it and recite it to us from it.
+
+### **WHY IT IS A PROOF**
+
+A note is made about what the challenge achieves: it is information from God about their lying, since they will not be able to bring it. What makes it a proof is the nature of the information — the hidden knowledge of their own forebears, known to few of them, produced by a man who was unlettered and not of their creed. Had God not told him, he would have been the least likely of people to know it.
+
+## **3:94**
+
+> Then whoever still fabricates lies about Allah, they will be the ˹true˺ wrongdoers
+
+### **MEANING**
+
+The challenge issued in the verse before is followed by the verdict on what happens if it is not met. Whoever goes on inventing falsehood about God after that — after the Torah has been produced and recited and the claimed prohibition has not been found in it — such people are the wrongdoers. The verse sets the terms of the dispute and then names the party that loses it.
+
+### **WHAT AFTER THAT REFERS TO**
+
+The phrase is explained as referring to the production and the recitation: after your bringing the Torah and reading it out, and after your not finding in it what you claimed — that God had forbidden you the sinews, camel flesh and its milk. The reference is therefore precise. What removes the excuse is not the passage of time but the availability of the text: the thing they appealed to has been put in front of them, and it does not say what they said it says.
+
+### **WHO IS COVERED BY THE CONDITION**
+
+The wording is explained as general, and the generality is spelled out in the gloss: ***“whoever invents it from among you and from among us.”*** The condition is not addressed only to the party being challenged. It states a rule about the act, and anyone who commits the act comes under it — which is why the verse is able to carry a warning to the believers as well as a verdict on the Jews.
+
+### **WHAT INVENTING FALSEHOOD MEANS**
+
+The verb used is the one for cutting something out and producing it, and in this setting it means attributing to God a statement He did not make. What is at issue in this passage is a specific instance of it: taking a prohibition that a man made over his own body and presenting it as a ruling sent down by God. The act has two parts — the claim about God, and the claim about the book — and the verse names the first, since that is where the wrong lies.
+
+### **WHAT THE WRONGDOERS ARE**
+
+The closing term is explained as those who speak falsehood about God. A report from al-Shaʿbī states that the verse came down about the Jews, and that is consistent with the whole passage: they are the ones who attributed to the Torah a ruling that is not in it, and who were invited in the verse before to show it if they could. The word used for them is the same one used elsewhere in this surah for a people who put a matter out of its place, and it is applied here to the specific wrong of speaking for God without warrant.
+
+### **HOW IT CLOSES THE ARGUMENT**
+
+The argument of these two verses is built so that it cannot be refused without cost. The claim was made, the text was called for, and the text does not contain it. At that point the choice is between withdrawing the claim and persisting in it — and this verse names what persisting is: not a difference of interpretation but an invention. The next verse then states the alternative in a sentence, and the passage moves from the disputed prohibition to the way that was there before any of it.
+
+## **3:95**
+
+> Say, ˹O Prophet,˺ “Allah has declared the truth. So follow the Way of Abraham, the upright—who was not a polytheist.”
+
+### **MEANING**
+
+The dispute is ended by a pronouncement rather than by an argument. The Prophet is told to say that God has spoken the truth, and the Jews are told to follow the way of Abraham, who stood upright and was no associator. The verse closes the case by moving it off the ground the disputants chose and onto ground they all accept.
+
+### **WHAT GOD HAS DECLARED TRUE**
+
+The pronouncement is explained as covering exactly what was in dispute: that every kind of food was permitted to the Children of Israel before the Torah, that God did not forbid to Israel or to his descendants the sinews or camel flesh or its milk, and that it was only something Israel forbade for himself and for his children, without God having forbidden it to them in the Torah. He has told us this, as He has told His servants every report He has given them — and it is you, the Jews, who are the liars in attributing that prohibition to God in the Torah, inventing falsehood about Him in claiming against Him what is not true.
+
+The wording is therefore not a general statement about God's truthfulness but a verdict on the specific claim: the text says one thing, and the claim says another.
+
+### **THE CALL TO ABRAHAM'S WAY**
+
+The instruction that follows is put conditionally: if you are right that you stand on the religion which God approved for His prophets and messengers, then follow Abraham's way. The force of the argument is that they already concede the premise. The way of Abraham is described as the thing which God approved as a religion for His creatures and with which He sent His prophets, and it is named as the ḥanīfiyya — uprightness upon surrender and upon its laws — as opposed to Judaism, Christianity and association.
+
+### **WHAT UPRIGHT MEANS**
+
+The word is explained as straightness: standing upright upon surrender and upon the laws that belong to it. It is set against the other creeds not as one more option among them but as what they were deviations from. The instruction given is therefore: ***“follow that part of his way which all of you agree to be right, and leave aside what you differ about of the rest of the creeds”*** — since whatever all parties acknowledge to be true of that way is the truth God approved and sent His messengers with, and everything else is innovation added on top of it.
+
+### **WHAT HE WAS NOT**
+
+The closing clause is explained in two registers. The first is worship: he did not associate any of God's creation in his worship — his religion was sincerity of worship to his Lord alone, without associating anyone with Him in it. The address then turns to the two audiences in turn. To the Jews: do not take one another as lords besides God, obeying them as Abraham obeyed his Lord. To the worshippers of idols: do not take idols and images as lords, and do not worship anything besides God.
+
+The second register is allegiance. The clause is understood as meaning that he was not of their number and not of their allies, since those who associate back one another in their rejection and help one another. The associators referred to are identified as the Jews, the Christians and the rest of the creeds other than the ḥanīfiyya: Abraham was not of the people of these associational religions, but was upright, one who surrenders.
+
+### **WHY ABRAHAM IS THE MEASURE**
+
+The argument works because everyone in the dispute already claims him. What the verse does with that claim is turn it into a test: the thing you all agree about — that Abraham was upon truth and straight guidance — is the thing to follow, and the things you differ about are the things you added. The disputed prohibition, on this reading, is one of the additions, and Qur’an 3:93 has already shown where it came from.
