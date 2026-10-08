@@ -109,7 +109,7 @@ self.addEventListener('activate', (event) => {
         const requests = await oldCache.keys();
         for (const request of requests) {
           const url = request.url || '';
-          if (!/\/data\/(?:tafsir_|chapter_)/.test(url)) continue;
+          if (!/\/data\/(?:tafsir_|chapter_|guidance_)/.test(url)) continue;
           const response = await oldCache.match(request);
           if (response) await currentCache.put(request, response.clone());
         }

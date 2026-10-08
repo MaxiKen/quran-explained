@@ -1972,3 +1972,21 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 .tafsir-provenance { font-size: 12.5px; color: var(--text-faint); line-height: 1.7; }
 .tafsir-provenance a { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; }
 .tafsir-provenance code { font-size: 11.5px; background: var(--accent-bg); padding: 1px 5px; border-radius: 4px; }
+
+/* ================================================
+   AUTHORED GUIDANCE + FOLDED SOURCES
+   The integrated single-voice commentary leads; the classical texts it was
+   written from stay one tap away, so nothing is hidden but nothing competes.
+================================================ */
+.tafsir-guidance .tafsir-source-label { color: var(--accent); }
+.tafsir-guidance .tafsir-text { color: var(--text-secondary); }
+.tafsir-sources { margin-top: 4px; border-top: 1px solid var(--accent-border-light); padding-top: 14px; }
+.tafsir-sources > summary {
+  cursor: pointer; list-style: none; font-size: 13px; font-weight: 700;
+  color: var(--text-dim); padding: 6px 0; user-select: none;
+}
+.tafsir-sources > summary::-webkit-details-marker { display: none; }
+.tafsir-sources > summary::before { content: '▸ '; color: var(--accent); }
+.tafsir-sources[open] > summary::before { content: '▾ '; }
+.tafsir-sources[open] > summary { margin-bottom: 12px; }
+.tafsir-sources .tafsir-entry { border-top: 1px solid var(--accent-border-light); padding-top: 16px; margin-top: 16px; }
