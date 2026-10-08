@@ -2281,3 +2281,115 @@ The closing denial is stated in terms of what the idolaters do: those who worshi
 ʿĀmir reports that the Jews said Abraham was upon their religion and the Christians said he was upon theirs, and that this verse came down declaring them false and refuting their argument — the reference being to the Jews who claimed that he died a Jew. Al-Rabīʿ reports the like.
 
 A longer account is attached through Ibn ʿAbbās's chain by way of Mūsā ibn ʿUqbah from Sālim ibn ʿAbdullāh, from his father. Zayd ibn ʿAmr ibn Nufayl went out to Syria asking about the religion and seeking to follow it. He met a scholar of the Jews and asked him about his religion, saying that he might profess it. The scholar answered that he would not be upon their religion until he took his share of the wrath of God, and Zayd replied that he was fleeing from the wrath of God and would never carry any of it while he was able, and asked whether there was a religion in which there was none of that. The scholar answered that he knew of none but that it be the upright religion; asked what that was, he said: the religion of Abraham, who was not a Jew and not a Christian, and who worshipped none but God. Zayd then met a scholar of the Christians and put the same questions, and received the same answer, with the wrath of God replaced by His curse. He left them satisfied with what the two of them had told him and agreed upon, and he kept raising his hands and saying: *“O God, I call You to witness that I am upon the religion of Abraham.”*
+
+## **3:68**
+
+> Indeed, those who have the best claim to Abraham are his followers, this Prophet, and the believers. And Allah is the Guardian of those who believe
+
+### **MEANING**
+
+The verse answers the two claims that were just refused with a counter-claim of its own. Nearness to Abraham is not settled by descent or by the religion that came later; it is settled by following him. On that basis the verse names three parties together — those who followed him, this Prophet, and the faithful — and closes by naming whose side God is on.
+
+### **WHAT NEARNESS CONSISTS IN**
+
+The word used is the one for being more entitled, and it is explained as being more entitled to him, to his support, and to his allegiance. What creates that entitlement is set out in a string of descriptions: those who travelled his road and his course, declared God one with devotion made sincere to Him, instituted his practice, and legislated his laws, being upright ones surrendered to God who associate nothing with Him. The claim is not made on Abraham's behalf; it is made on the basis of what a person does.
+
+### **WHO THE FOLLOWERS ARE TAKEN TO BE**
+
+Qatādah identifies them as the people who followed him upon his religion, his practice, his course and his natural constitution, and he identifies *this Prophet* as Muḥammad and *those who believed* as the believers with him who declared the prophet of God true and followed him — adding plainly that he and the believers with him are the most entitled of people to Abraham. Al-Rabīʿ says the like. Ibn ʿAbbās is reported identifying the followers simply as the believers.
+
+### **WHY THE PROPHET AND THE BELIEVERS ARE NAMED APART**
+
+The verse names three and not one. Those who followed Abraham in his own time are named first, then the Prophet, then those who have believed in him — a group that is not his descendant and not the heir of a scripture that postdates Abraham, and is nevertheless placed in the same entitlement. The point of the listing is that the qualification has been changed from descent to following, and the Prophet and his community are named to show who now meets it.
+
+### **THE CLOSING NAME**
+
+The verse ends by stating whose side God takes: He is the protector and helper of the believers in Muḥammad, of those who declare him true in his prophethood and in what he brought them from his Lord, against those who oppose them from among the people of the religious communities. The closing is not a consolation but a statement of where the backing lies, and it comes at the end of a passage in which two older communities had been claiming the backing of Abraham.
+
+### **HOW IT ANSWERS THE PRECEDING VERSES**
+
+The two communities had claimed Abraham, and the verse before cleared him of both claims. Something has to fill the space that clearing leaves, and this verse fills it by changing the test. If following is what creates nearness, then the claim of descent is not merely unproved but irrelevant, and the question of who stands with him becomes a question about conduct that any party can in principle meet. The passage has spent several verses establishing what he was not; this one establishes what attachment to him consists of.
+
+### **THE REPORT ATTACHED TO IT**
+
+Through Masrūq, ʿAbdullāh ibn Masʿūd is reported as saying that the Prophet said: ***“Every prophet has allies among the prophets, and my ally among them is my father, the intimate friend of my Lord,”*** and then recited this verse. The report ties the claim of the verse back to the man it is about: the nearness being described is the nearness between two prophets, and it is claimed in the same terms in which both of them followed.
+
+## **3:69**
+
+> Some of the People of the Book wish to mislead you ˹believers˺. They mislead none but themselves, yet they fail to perceive it
+
+### **MEANING**
+
+The exposure moves from what these people claim to what they want. A group among the **People of the Book** is described as wishing to turn the believers away from their religion, and the verse answers that wish in a single stroke: the attempt cannot reach its object, and it does reach the people making it. The harm they intend comes back on them, and they are not aware of it.
+
+### **WHO WISHED IT**
+
+The subject is a party — a group, not the whole — from among the people of the two books: the people of the Torah among the Jews and the people of the Gospel among the Christians. The narrowing matters. The verse is not a statement about the communities as such; it is a statement about those within them who were working to turn the believers back.
+
+### **WHAT THEY WISHED**
+
+What they wished is given in the reports as turning you, the believers, away from surrender and bringing you back from it to the unbelief they were upon — destroying you by that. The wish is thus not merely that the believers should change their minds but that they should be ruined, and the ruin is the point of the effort rather than a side-effect of it.
+
+### **WHAT THE WORD FOR MISLEADING MEANS HERE**
+
+A lexical note is attached, because the word is being used in a stronger sense than usual: here it means destruction. The Qur’an is cited for the usage — *when we have perished in the earth, shall we indeed be in a new creation?* — where the word means perishing. Two lines of verse are cited for it as well. Al-Akhṭal, satirizing Jarīr, says of a man ***“you were the speck of foam on a dark and frothing wave which the torrent cast up, and he perished utterly”***; and al-Nābighah al-Dhubyānī says ***“his destroyers came back with a clear eye, while Ḥazm and Nāʾil were left behind at al-Jawlān,”*** using the same word for those who destroyed him.
+
+### **WHOM THE ATTEMPT ACTUALLY REACHES**
+
+The verse states that they destroy no one other than themselves, and the explanation given takes *themselves* to include their own followers and partisans who share their religion. What destroys them is the attempt itself: by trying to turn the believers back they incur God's displeasure and deserve His wrath and His curse, for their unbelief and for breaking the covenant He took from them in their own book — to follow Muḥammad, declare him true, and acknowledge his prophethood. The attempt is therefore not neutral with respect to the one making it; it is the thing that ruins him.
+
+### **WHY THEY DO NOT PERCEIVE IT**
+
+The closing words are explained as a statement about their state of mind: they carry on trying to turn the believers from guidance to ruin in ignorance of what God will bring down upon them and of the painful punishment He is storing up for them. They do not perceive that what they are doing ruins no one but themselves. The word for perceiving is glossed simply as knowing, so that the closing describes a genuine ignorance rather than a pretence — people working against their own interest without seeing it.
+
+## **3:70**
+
+> O People of the Book! Why do you reject the signs of Allah while you bear witness ˹to their truth˺
+
+### **MEANING**
+
+The rebuke is sharpened into a question about a contradiction. The **People of the Book** are asked how they can deny the signs of God when they themselves testify that it is true. The force of the question lies in the second half: this is not a denial born of ignorance, and the verse says so by attaching the denial to what the same people already affirm.
+
+### **WHO IS ADDRESSED**
+
+The address is given to the **People of the Book** — the Jews and the Christians together — and nothing in the verse singles out one of the two. The charge is framed in the same terms for both: each has a scripture in which the thing being denied is described, and each is asked to account for denying it. The rebuke is not that they lack evidence but that the evidence is in their own possession.
+
+### **WHAT THE SIGNS ARE**
+
+Three readings are given. The first and broadest takes the signs to be what is in the book of God which He sent down to them on the tongues of their prophets — His signs and His proofs. Al-Suddī narrows it: the signs of God here are Muḥammad himself, and the bearing of witness is their testifying that it is the truth, since they find him written down with them. Ibn Jurayj gives the content of the witness rather than its object: that the religion with God is surrender, and that God has no religion besides it.
+
+### **WHAT THEY TESTIFY TO**
+
+Qatādah and al-Rabīʿ report the same thing in the same words: that they testify that the description of Muḥammad, the prophet of God, stands in their book, and then deny him, reject him and refuse to believe in him — while finding him written with them in the Torah and in the Gospel as ***“the unlettered prophet who believes in God and His words.”*** Al-Rabīʿ's version shortens the description to *the unlettered prophet*. The contradiction is therefore precise: the thing they are denying is the thing they are recorded as attesting.
+
+### **WHY IT IS PUT AS A QUESTION**
+
+The verse is described as a rebuke addressed to the people of the two books for their unbelief in Muḥammad and their denial of his prophethood at the very time that they find him in their books and testify that what is in their books is the truth and is from God. A question does what a statement cannot: it asks the person addressed to account for the gap himself. The point is not that the evidence is missing; it is that the evidence is theirs.
+
+### **HOW IT FOLLOWS WHAT CAME BEFORE**
+
+The preceding verse described a party from among them wishing to turn the believers back and ruining themselves in the attempt. This verse supplies the reason the attempt is culpable rather than merely mistaken: they know what they are doing. The passage has been moving from what they claim, to what they want, to what they know — and each step removes another excuse. The sequence is worth holding on to, because the charge is being built rather than merely repeated: a claim about Abraham, then a wish to turn the believers back, and now a denial carried on in full view of what they themselves attest. Nothing in the passage asks them to accept something they have no grounds for; it asks them to stop refusing something they have every ground for.
+
+## **3:71**
+
+> O People of the Book! Why do you mix the truth with falsehood and hide the truth knowingly
+
+### **MEANING**
+
+A second question follows the first, and it charges two things at once: conflating truth and falsehood, and concealing the truth while knowing it is the truth. The two charges belong together, because the second explains why the first is deliberate. Someone who mixes truth and falsehood while knowing which is which is not confused; he is working.
+
+### **WHAT THE MIXING CONSISTS IN**
+
+The mixing is described as showing with the tongue an acknowledgement of Muḥammad and of what he brought from God that is different from what is held in the heart of Judaism and Christianity. Qatādah words it as mixing Judaism and Christianity with surrender, when they know that the religion of God, which accepts no other, is surrender and that He recompenses by nothing else; al-Rabīʿ says the like, differing only in that he does not add the clause about recompense. Ibn Jurayj words it as mixing surrender with Judaism and Christianity. A different identification is given by Ibn Zayd, who takes the truth to be the Torah that God sent down to Moses and the falsehood to be what they wrote with their own hands.
+
+### **THE OCCASION NAMED**
+
+Through Ibn Isḥāq, from Muḥammad ibn Abī Muḥammad, from ʿIkrimah or Saʿīd ibn Jubayr, Ibn ʿAbbās is reported as giving the occasion. ʿAbdullāh ibn al-Ṣayf, ʿAdī ibn Zayd and al-Ḥārith ibn ʿAwf said to one another: ***“come, let us believe in what has been sent down to Muḥammad and his companions in the morning and reject it in the evening, so that we confuse them about their religion — perhaps they will do as we do and turn back from it.”*** The verse came down about them. What is being described is a tactic rather than a conviction, and the report makes the tactic explicit: belief professed for part of a day in order to unsettle those who hold it.
+
+### **WHAT WAS CONCEALED**
+
+The second charge is then specified. What was concealed is what stands in their books of the description of Muḥammad, of his sending, and of his prophethood. Qatādah and al-Rabīʿ say that they concealed his affair while finding him written with them in the Torah and in the Gospel, commanding them to do what is right and forbidding them what is wrong. Ibn Jurayj identifies the concealed thing as surrender and the command of Muḥammad, and the knowledge they had as the knowledge that Muḥammad is the messenger of God and that the religion is surrender.
+
+### **THE CLOSING WORDS**
+
+The closing is explained as a statement that they knew the thing they were concealing to be the truth and to be from God. It is described as a report about their deliberate unbelief and their concealment of what they knew of his prophethood — what they found in their books and what their prophets had brought them. The verse thus ends where the previous one ended, on what they knew; and the knowledge is what turns both charges from error into guilt. Two verses in a row now close on the same note, and the repetition is deliberate: the case being made against them does not rest on what they failed to find out but on what they did.
