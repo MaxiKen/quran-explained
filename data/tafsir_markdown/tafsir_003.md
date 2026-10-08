@@ -1771,3 +1771,163 @@ The reading of the mass of reciters is preferred, on the principle stated: what 
 This verse, though it has the form of a report, is described as containing the conclusive proof of God for His messenger against the delegation who argued with him from Najrān. By it, God informs that Jesus was quit of what was attributed to him by those who described him as other than he described himself: that he is a servant of God like the rest of His servants among the people of the earth, except for what God singled him out for of prophethood and of the proofs He gave him as an indication of his truthfulness — as He gave the rest of the messengers, other than him, marks and proofs of theirs — and as a proof of his prophethood.
 
 Muḥammad ibn Jaʿfar states the closing words in that light: ***“be mindful of God and obey me; God is my Lord and your Lord”*** — a disowning of what they say about him and an argument for his Lord against them — and ***“worship Him; this is a straight path”*** — meaning this is what I have carried you upon and come to you with.
+
+## **3:51**
+
+> Surely Allah is my Lord and your Lord. So worship Him ˹alone˺. This is the Straight Path.’”
+
+### **MEANING**
+
+This is the closing sentence of the address that opened with the signs, and it states what the signs were given to establish. Jesus does not stand before his people as a rival claimant to what belongs to the One who sent him. He places himself on their side of the divide: the Lord who owns him owns them, and nothing about his prophethood moves ownership across it. Once that is said, the rest follows without pressure — the worship belongs to the Lord, the messenger is obeyed, and both together are one road with no crook in it.
+
+### **A SHARED LORD**
+
+The wording of the claim is what carries the argument. He does not say *the Lord who sent me to you*, as though he stood apart and above; he says ***“my Lord and your Lord”***, joining himself to his hearers under a single ownership. The explanation of the passage stresses that Jesus was a servant of God like the rest of His servants among the people of the earth, singled out only by what God gave him of prophethood and of the proofs that attested his truthfulness — the same kind of marks and proofs God gave the rest of the messengers. So the verse is at once a confession of his own station and a refusal of the station that was later claimed for him. The one who speaks is owned; the One he names is the owner; and there is no third place on offer.
+
+### **THE TWO WAYS THE OPENING IS READ**
+
+The particles at the head of the sentence were read in two ways, and the difference is more than a vowel. The reciters of the cities read the opening word with a following *i*, taking the clause as a fresh statement: God is Lord over him and over them. Some read it with a following *a*, attaching the clause to what precedes it, so that the sense becomes that he had come to them with a sign from their Lord, namely that God is his Lord and theirs — the clause then standing in place of the word for sign and exchanging with it. The reading that carries the weight of the transmitted recitation is the first, the broken particle on a new beginning; what the body of reciters agrees upon stands as proof, while what a single reader separates himself with is an individual view, and an individual view is not set up against proof.
+
+### **WHAT THE COMMAND IS MADE OF**
+
+Two things are asked for and then a third. The hearers are told to be mindful of God, to obey the one who addresses them, and then to worship. The obedience attaches to the messenger; the worship does not. That is the whole distance between the messenger's due and the Lord's, and the verse keeps it in a single breath. The mindfulness asked for is mindfulness of what God commanded and forbade in the scripture He sent down to Moses, and the obedience asked for is acceptance of the one He has now sent with a message that confirms it.
+
+### **THE ROAD WITH NO CROOK IN IT**
+
+The closing words are explained as *this is the level way and the firm guidance in which there is no crookedness*, and the sense is not that the teaching is easy but that it does not bend. In a report transmitted through Ibn Isḥāq, Muhammad ibn Jaʿfar ibn al-Zubayr takes these closing words as meaning ***“this is what I have carried you upon and come to you with”*** — that is, the whole message, the confirmation of what came before and the lifting of what had been burdensome, is itself the straightness being spoken of. A path is straight by arriving where it was meant to arrive, and the way set out here arrives at the worship of the One Lord.
+
+### **WHAT THE VERSE SETTLES**
+
+Although the verse has the outward shape of a piece of news, it is described as containing God's conclusive argument for His messenger against the delegation who disputed with him from Najrān. God informs them that Jesus was quit of what was attributed to him by those who described him as other than he described himself. The claim of a shared Lord is the claim that cannot be shared with him, and the command to worship is the command that settles who stands on which side. Read this way, the verse is not an aside after the signs; it is the point to which every sign in the passage was leading.
+
+## **3:52**
+
+> When Jesus sensed disbelief from his people, he asked, “Who will stand up with me for Allah?” The disciples replied, “We will stand up for Allah. We believe in Allah, so bear witness that we have submitted.”
+
+### **MEANING**
+
+The scene turns from the address to Israel to the response it produced. Jesus meets among them not faith but its opposite, and his answer is not to withdraw the message but to ask who will carry it with him. The question is put in a striking form: he does not ask for men to stand with him, but for men to stand with him *for God* — the helper's loyalty and the cause he serves are named in the same breath. Those who answer are the disciples, and their answer has three parts: they take the side, they declare what they hold to be true, and they ask the messenger to testify to their surrender.
+
+### **WHAT FINDING DISBELIEF MEANS**
+
+The verb used for what Jesus met with is a verb of finding. He found among them denial of his prophethood, rejection of what he said, and turning away from what he called them to of God's command. The same root with a long first vowel is used elsewhere in the Qur’an in the sense of perceiving — as in the question whether you perceive a single one of them — while its short form carries the sense of wiping out and killing, as in the verse about the day when you were slaying them by His leave. The root also carries the sense of tenderness, and al-Kumayt uses it in that way: *“Is there one who wept over the camping-place hoping it would soften towards him, or will the water of the flooding tear weep for the place?”* The meaning here is the first: he met with denial where he had come expecting response.
+
+### **UNTO GOD, AND THE ARABIC BEHIND IT**
+
+The preposition in the question troubled the grammarians, because helpers are normally *with* a man, not *to* him. The explanation given is that the Arabs, when they join one thing to another and then report about the two of them as joined, sometimes put the word for *to* in the place of the word for *with*: a few camels *to* a few camels make a herd, meaning that when you add one small drove to another they become camels. The substitution only works where one thing is being added to another; it does not work where the thing is already with the thing, since no one says that so-and-so arrived with wealth *to* him, meaning with him. So the sense is: who will be my helpers alongside God? Both al-Suddī and Ibn Jurayj state it in exactly those terms.
+
+### **WHY HELP WAS SOUGHT**
+
+The explainers differ on what prompted the question. Al-Ḥasan states it briefly: he sought help, and the disciples gave him help, and he was given victory over them. Mujāhid, through Ibn Jurayj, gives the reason as hostility: they disbelieved and wanted to kill him, and that was the moment at which he sought helpers among them. Al-Suddī tells it at length, and his account runs through the whole period of wandering that followed the expulsion of Jesus and his mother: the household that sheltered them, the tyrant king who made each man feed him and his troops, the water in the pots and jars that became meat and broth and bread and wine such as no one had seen the like of, the dead son of the king raised at Jesus's prayer, and the fighting that broke out when the people saw him alive.
+
+The account continues with the man who joined them on the road with two loaves against Jesus's one, who ate his own loaves in the dark and swore he had only ever had one — a claim tested each time Jesus restored a slaughtered sheep and then a slaughtered calf to life, and tested a final time after the man was hoisted on a beam for killing a king he had tried to cure. It ends at a hoard and four men who poisoned one another over it, at the division into three shares — one for Jesus, one for the man, and one for the owner of the loaf — and at the man's confession and the earth opening under him as he walked away with it. Only then, in al-Suddī's telling, does Jesus pass the men who were fishing and ask them whether they would not go and fish for people; they ask who he is, he tells them, and they believe and go with him. Whatever the route by which the moment arrived, the reports agree that the question was asked at the point where the message met refusal.
+
+### **THE WORD FOR HELPERS**
+
+The word used for helpers is the plural of a word for a single helper, formed the way the plural of *noble* is formed and the plural of *witness* is formed. The help asked for is therefore help of a personal kind — men who take a man's side — and the disciples answer it in the same word, declaring that they are the ones.
+
+### **WHY THEY ARE CALLED DISCIPLES**
+
+There are three accounts of the name. Saʿīd ibn Jubayr is cited saying they were called that for the whiteness of their clothes; Abū Arṭāh, through Ibn Abī Najīḥ, that they were fullers who whitened cloth and washed it; and al-Ḍaḥḥāk, with a statement to similar effect from Qatādah, that they were the elect and chosen of the prophets. The account preferred is the first pair, on the ground that the root word in Arabic denotes intense whiteness — which is why the whitest part of flour is called by a word from it, and why a man or woman with intensely white eyes is described by it. The name could then have settled on the companions of Jesus because of their trade, and passed from them into general use for a man's inner circle, which is how the Prophet is reported to have used it when he said *“every prophet has a close disciple, and my close disciple is al-Zubayr.”* The women of the towns are called by the same plural for the whiteness that predominates in them, and Abū Jaldah al-Yashkurī says: *“Tell the town-women to weep for someone other than us, and let none weep for us but the barking dogs.”*
+
+### **WHAT THEY ASKED HIM TO WITNESS**
+
+The disciples end by asking Jesus to testify that they have surrendered. The comment on this is that it is God's declaration that surrender is the religion with which He sent Jesus and the prophets before him — not the Christianity nor the Judaism that was later professed in his name — and a clearing of Jesus from everyone who took that name for themselves, just as Abraham was cleared of every religion other than surrender. Muhammad ibn Jaʿfar ibn al-Zubayr, citing Ibn Isḥāq, says of the disciples' words that this was the saying by which they attained their Lord's bounty, and that it is not what those who disputed with the Prophet about Jesus said — meaning the Christian delegation from Najrān.
+
+## **3:53**
+
+> ˹They prayed to Allah,˺ “Our Lord! We believe in Your revelations and follow the messenger, so count us among those who bear witness.”
+
+### **MEANING**
+
+The disciples' reply to Jesus is followed immediately by what they said to God about it. The same men who asked the messenger to testify to their surrender now ask the One they have surrendered to that the testimony be kept. Their request has two parts, both stated as accomplished facts rather than promises: they have accepted what was sent down, and they have set themselves behind the one who brought it. On the strength of that they ask for something further — that their names be entered in the register of those who testify.
+
+### **WHO IS BEING ADDRESSED, AND WHAT THAT SHOWS**
+
+The turn is worth noticing. In the verse before, the disciples spoke to Jesus and asked *him* to witness their surrender. Here they speak past him to his Lord, and the thing they ask for is not a favour but a record. A messenger can testify to what he hears; only the One who keeps account can place a name where it will stay. The prayer therefore measures the distance between the two kinds of witness and asks for the second one, having already secured the first.
+
+### **THE TWO THINGS THEY PLEAD**
+
+The first is belief, and it is glossed as declaring true — not an inward mood but an acceptance of a specific thing: what God sent down to His prophet Jesus of His scripture. The second is following, and it is glossed in a way that gives the word its full weight: they became ***“followers of Jesus upon Your religion with which You sent him, and his helpers upon the truth with which You sent him to Your servants.”*** Acceptance of the message and standing behind the man who carries it are named separately here, and the prayer rests on both. Neither is offered as a substitute for the other.
+
+### **WHAT ASKING TO BE WRITTEN DOWN MEANS**
+
+The verb is the one used for fixing something in writing, and the explanation given is sustained by that image: fix our names together with the names of those who bore witness to the truth, who acknowledged Your oneness, who declared Your messengers true and followed Your command and Your prohibition. The request then unfolds in three movements — place us in their number, gather us with them in the honour You honour them with, and lodge us in their station — before it turns to its negative: and do not place us with the people who disbelieved in You, who turned others away from Your path, and who opposed what You commanded and forbade. To ask to be written with the witnesses is, in the same breath, to ask not to be written with their opposites.
+
+### **WHY THE PRAYER IS RECORDED HERE**
+
+The passage is read as God's own instruction by example: He makes known to His creatures the road of those whose words and deeds He accepted, so that they may take that road and follow that course and arrive at the like of what those arrived at of the degrees of His bounty. It is also read as a refutation — a giving the lie to those who adopted religions other than the pure one of surrender and then claimed the prophets of God for their own, asserting that those prophets stood where they stand. And it is read as argument against the delegation from Najrān who disputed with the Prophet about Jesus: the saying of those of his followers with whom God was pleased was other than their saying, and their course was other than their course. The report transmitted from Ibn Isḥāq through Muhammad ibn Jaʿfar ibn al-Zubayr closes on the simplest note of all: this is how they spoke, and this is what they held.
+
+### **HOW IT SITS BESIDE THE VERSE BEFORE IT**
+
+Read together, the two verses close the circle that the passage has been drawing since the annunciation. A messenger comes to a people with signs; a remnant accepts and asks to be counted; the prayer that records their acceptance uses the same vocabulary of witness that the Qur’an uses for those who stand for the truth before others. The disciples are not presented as originators of a new religion but as entrants into an old one, and their words are preserved so that the later claim — that surrender to God was not the religion of Jesus and his followers — has an answer recorded in the terms of the disciples' own prayer.
+
+## **3:54**
+
+> And the disbelievers made a plan ˹against Jesus˺, but Allah also planned—and Allah is the best of planners
+
+### **MEANING**
+
+A scheme is answered with a scheme. The verse sets what the disbelievers devised against what God devised in the space of one sentence and then ranks the two, and the word used for both is the same word. That is the point of the verse: what they arranged against him was met, unseen by them, with an arrangement that overtook it, and the comparison closes with a name that is attached to God and to no one else.
+
+### **WHO THE SCHEMERS WERE**
+
+They are identified as the disbelievers among the Children of Israel — the same people of whom it was said two verses earlier that Jesus found denial among them. The plotting is not attributed to a court, a faction, or a foreign power but to the rejecters within his own community, and it is presented as the outcome of the refusal already described. The connection matters: this is not a new hostility but the hostility of the previous scene arriving at its conclusion.
+
+### **WHAT THEY ARRANGED AMONG THEMSELVES**
+
+What they arranged is described as an agreement, one party with another, to fall upon Jesus and kill him. The setting given for it is his return. After his people had expelled him and his mother from among them, he came back to them, and al-Suddī's account is that he travelled with the disciples — the fishermen who had believed when he called them — until he reached the Children of Israel by night and called out among them. The same account ties that night to the verse which says that a party of the Children of Israel believed and a party disbelieved, so that the division opened by his call is the division out of which the scheme grew.
+
+### **WHAT GOD ARRANGED**
+
+Two accounts are given of the answering plan. The first is al-Suddī's. In his report the Children of Israel surrounded Jesus and nineteen of the disciples in a house, and Jesus asked his companions: ***“Who will take my form, and be killed in it, and have the Garden?”*** A man of them took it, and Jesus was raised to the heaven. When the disciples came out they were seen as nineteen; they told the besiegers that Jesus had been raised, the count was taken and came up a man short, and yet his form was still to be seen standing among them, so that they were left in doubt about him. On that basis they killed the man and crucified him while supposing him to be Jesus — which the report connects with the verse saying that they did not kill him and did not crucify him, but that the matter was made to appear to them otherwise.
+
+The second account is more general, and it reads the word in the sense in which the same word is explained elsewhere: that God's answering plan was His letting them go on their way until the appointed term reached its end, which is how the verse about God's answering mockery of the hypocrites is explained.
+
+### **WHY THE SAME WORD IS USED FOR BOTH**
+
+The two accounts differ in what the answering plan consisted of, and they agree on what the verse is doing with it. A plan is called a plan because the one against whom it is made does not see it until it lands; the word fits both parties here for the same reason, and the ranking at the end of the verse is what separates them. God's is the plan that prevails, and the closing attribution is placed precisely where the two are set against each other, so that the superiority is stated at the point where it can be seen. Read either way, the verse is not an explanation of how the scheme failed; it is the announcement that it failed.
+
+## **3:55**
+
+> ˹Remember˺ when Allah said, “O Jesus! I will take you and raise you up to Myself. I will deliver you from those who disbelieve, and elevate your followers above the disbelievers until the Day of Judgment. Then to Me you will ˹all˺ return, and I will settle all your disputes
+
+### **MEANING**
+
+The verse is the content of the plan announced in the verse before it. God's word to Jesus contains five things: He is to take him, raise him to Himself, cleanse him of the deniers, set those who follow him above those who reject him for the remainder of time, and then gather both parties to Himself to settle what they disagreed about. Addressed to Jesus, the verse is the answer to the scheme: what God arranged was this word.
+
+### **HOW IT IS JOINED TO WHAT CAME BEFORE**
+
+The connection is made explicit in the grammar: the word for *when* is treated as attached to the earlier statement that God planned, so that the sense is that God's plan against those who plotted was His saying to Jesus what follows. The taking and the raising are the plan.
+
+### **THE WORD FOR TAKING, AND THE ACCOUNTS GIVEN OF IT**
+
+The explainers divide over the first clause.
+
+The first account takes it as the taking of sleep: God raised him while he slept. This is the reading given by al-Rabīʿ, and it is accompanied by a statement transmitted from al-Ḥasan in which the Prophet is reported as saying to the Jews that Jesus did not die and that he will come back to them before the Day of Resurrection.
+
+The second account takes the verb in its sense of taking something in full, the way one says that one has taken in full what was owed to one by another. On this reading the sense is: I am taking you from the earth alive, to My proximity, and gathering you to what is with Me without death, and lifting you out from among those who deny you. Maṭar al-Warrāq states that it is a taking from the world and not a death; al-Ḥasan, in a report through Maʿmar, states that it is a taking from the earth; Ibn Jurayj treats the raising, the taking and the cleansing as a single act; and Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, glosses the word simply as *taking you*. Kaʿb al-Aḥbār is reported at greater length: that God would not let Jesus die when He had sent him as a caller to His oneness, that Jesus complained to Him of how few followed and how many denied, and that the answer came that He was taking him and raising him — and that no one whom He has raised to Himself is dead, that He will send him against the one-eyed Dajjāl and he will kill him, that he will then live twenty-four years and die a death like any living man's. Ibn Zayd likewise takes the two words as one and says that he has not died and will not die until he has killed the Dajjāl; he supports it from the description of Jesus as speaking to people in the cradle and in maturity, noting that he was raised before reaching maturity and will come down mature.
+
+The third account takes it as an actual death. Ibn ʿAbbās is reported glossing the clause as *I am causing you to die*, and Wahb ibn Munabbih is reported saying that God took him for three hours of the day and then raised him, while Ibn Isḥāq records a claim of seven hours and a restoring to life.
+
+The fourth account rearranges the sentence: that God is raising him and cleansing him now, and takes him after sending him back down to the world. This is treated as a case of what is placed first meaning what is last, and what is placed last meaning what is first.
+
+### **WHAT IS OFFERED FOR PREFERRING ONE OF THEM**
+
+The reading preferred here is the second — a taking from the earth without death — and the ground offered is the body of reports from the Prophet that Jesus son of Mary will come down, kill the Dajjāl, remain on earth for a period over which the reports differ, and then die, whereupon the Muslims will pray over him and bury him. Two of these come through Abū Hurayrah. In the first, transmitted through al-Zuhrī, he comes down as ***“a just arbiter and a fair leader, breaking the cross, killing the swine, lifting the tribute, and pouring out wealth until no one can be found to take it,”*** and he stays at al-Rawḥā' performing the pilgrimage or the lesser pilgrimage, or both together. In the second he is described physically so that he will be recognised, and he remains forty years before he is taken and the Muslims pray over him. A supporting argument is also drawn from the order of creation, death and revival: were he to have died already, a second death would be gathered upon him, whereas God has told His servants that He creates them, then causes them to die, then gives them life.
+
+### **CLEANSING HIM OF THE DENIERS**
+
+The third clause is explained as cleansing and delivering: he is separated out from those who denied the truth he brought. Muḥammad ibn Jaʿfar ibn al-Zubayr ties it to what they intended against him, and al-Ḥasan names the parties: the Jews, the Christians, the Magians, and the rejecters among his own people.
+
+### **THE FOLLOWERS SET ABOVE THE OTHERS**
+
+The fourth clause is read as a promise of dominance: those who follow him upon his course and his religion of surrender are placed above those who denied him out of all the religious communities. Qatādah identifies them as the people of surrender who follow him upon his natural constitution, his religion and his way, who will not cease to be dominant over those who oppose them; al-Rabīʿ and Ibn Jurayj say the like. Al-Suddī records two identifications — that they are the believers, and that they are the Romans — while al-Ḥasan identifies them as the Muslims set above those who abandoned surrender. A different reading is given by Ibn Zayd, who takes the followers to be those of the Children of Israel and others who believed in him and the others to be the Jews, so that the Christians are above the Jews in every land, east and west.
+
+### **THE RETURN, AND THE SETTLING OF THE DISPUTE**
+
+The closing words are addressed to everyone who differed about him: the return is the destination on the Day of Resurrection, and the judgement is a judging with the truth concerning him. A grammatical note is attached: the statement about the two parties begins as a report about them and is then turned into direct address, because speech of this kind shifts into the form of speaking to those it describes — the way the Qur’an says, of travellers, that when you were in the ships and they sailed with them on a fair wind.
+
+### **WHAT THE VERSE SETTLES**
+
+Although the verse has the form of a word addressed to Jesus, it contains God's argument against the delegation who disputed with the Prophet about him: that he was neither killed nor crucified as they claimed, and that they, along with the Jews who assert it, are false in what they claim. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, says that God informed them and answered them on what they had conceded to the Jews about the crucifixion, by telling them how He raised him and cleansed him of them.
