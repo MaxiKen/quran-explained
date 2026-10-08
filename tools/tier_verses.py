@@ -271,7 +271,8 @@ if __name__ == '__main__':
     plan = targets(all_v)
     out = {f"{k[0]}:{k[1]}": v for k, v in sorted(plan.items())}
     path = os.path.join(ROOT, 'data/plan.json')
-    json.dump(out, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    json.dump(out, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    open(path, 'a', encoding='utf-8').write('\n')
     c = collections.Counter(v['tier'] for v in plan.values())
     tot = sum(v['words'] for v in plan.values())
     print(f"wrote {path}")
