@@ -271,8 +271,13 @@ if __name__ == '__main__':
     plan = targets(all_v)
     out = {f"{k[0]}:{k[1]}": v for k, v in sorted(plan.items())}
     path = os.path.join(ROOT, 'data/plan.json')
-    json.dump(out, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    open(path, 'a', encoding='utf-8').write('\n')
+    # Minified on purpose. Pretty-printed this manifest is 1.29 MB, which is
+    # over GitHub's 1 MB inline-display limit and so renders as "too large to
+    # show" — worse than one long line. This file is generated output of this
+    # script and is reproducible; the reviewable artefacts are the guidance
+    # files. Marked -diff linguist-generated in .gitattributes.
+    json.dump(out, open(path, 'w', encoding='utf-8'), ensure_ascii=False,
+              separators=(',', ':'))
     c = collections.Counter(v['tier'] for v in plan.values())
     tot = sum(v['words'] for v in plan.values())
     print(f"wrote {path}")

@@ -5,7 +5,11 @@
 data/tafsir_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
 
-# The authored commentary and the tier manifest are meant to be read in
-# review, so they are pretty-printed and diffs are shown.
+# The authored commentary is meant to be read in review, so it is
+# pretty-printed and diffs are shown.
 data/guidance_*.json -linguist-generated
-data/plan.json -linguist-generated
+
+# The tier manifest is generated output of tools/tier_verses.py and is
+# reproducible. Pretty-printed it is 1.29 MB, over GitHub's 1 MB inline
+# display limit, so it stays minified and diffs are hidden.
+data/plan.json -diff linguist-generated
