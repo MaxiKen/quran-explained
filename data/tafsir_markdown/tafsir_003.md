@@ -1931,3 +1931,179 @@ The closing words are addressed to everyone who differed about him: the return i
 ### **WHAT THE VERSE SETTLES**
 
 Although the verse has the form of a word addressed to Jesus, it contains God's argument against the delegation who disputed with the Prophet about him: that he was neither killed nor crucified as they claimed, and that they, along with the Jews who assert it, are false in what they claim. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, says that God informed them and answered them on what they had conceded to the Jews about the crucifixion, by telling them how He raised him and cleansed him of them.
+
+## **3:56**
+
+> As for those who disbelieve, I will subject them to a severe punishment in this life and the Hereafter, and they will have no helpers
+
+### **MEANING**
+
+The word that began by taking Jesus to Himself now turns to the two parties left behind, and it takes them in the order in which the passage has already met them: first the rejecters, then the followers. This half is entirely punishment. Those who rejected him are assigned a punishment set in both lives, and then told that nothing and no one will stand between them and it.
+
+### **WHO IS MEANT**
+
+The class is described by what they did rather than by a name. They denied his prophethood, opposed the religion he was sent with, and denied the truth he brought; they ***“spoke falsehood about him”*** and attached him to a station other than the one to which he should be attached. The groups named beneath that description are the Jews and the Christians, and the rest of the classes of religions aside from them. Because the description is built out of acts rather than descent, it is wide enough to take in anyone who puts him where he did not put himself.
+
+### **WHO IS TOLD ABOUT IT**
+
+The sentence is addressed to Jesus. What will be done with those who plotted against him is told to him, not to them, and it comes in the same address that has just told him he is being taken, raised and cleansed. That placement is part of the comfort: he hears the outcome for himself first, and hears the outcome for his enemies in the same breath.
+
+### **THE PUNISHMENT IN BOTH LIVES**
+
+The punishment is set in two places, and each has its own shape. In the present life it takes the form of ***“killing, captivity, abasement and misery”*** — conditions that fall on a people rather than only on a man, and that answer a plot made in common with a fate suffered in common. In the life to come it is the fire, and those on whom it falls remain in it. The pairing matters for the way the passage has been arguing: a group that plotted and lost does not escape into oblivion, and what is named here reaches past the moment of the plot.
+
+### **WHAT HAVING NO HELPERS MEANS**
+
+The closing is not a statement that they are left alone. It is a statement that nothing will be able to turn away what is coming: no one will keep His punishment off them, and no one will push away His painful retribution from them, whether by strength or by intercession. The reason attached is what makes the claim necessary — He is the Mighty, the One who takes vengeance. A helper can stand between a man and a power that can be resisted; there is no standing between a creature and this One.
+
+### **HOW THE HALF-VERSE IS TO BE READ**
+
+Although the words have the shape of a report about what will happen, they are also doing the work of a warning to everyone who hears them, and they are placed exactly where the plot against Jesus has just been undone. The undoing of the plot was the good news of the verse before; this is its other face. The two belong together, and the passage does not allow one to be read without the other.
+
+## **3:57**
+
+> And as for those who believe and do good, they will be rewarded in full. And Allah does not like the wrongdoers.”
+
+### **MEANING**
+
+The second half deals with the other party. Those who accepted him are given their recompense complete, and the verse closes with a statement about what God will not do. The closing is not a digression from the reward; it is the guarantee behind it. The One who pays is not the kind to misplace what He pays, and the promise is only as good as the justice of the one making it.
+
+### **WHO THE BELIEVERS ARE**
+
+They are described in five steps, and the gloss runs: ***“they declared you true, acknowledged your prophethood and the truth you brought from Me, professed the religion of surrender with which I sent you, and acted upon what I made binding through you.”*** Belief here is not a private conviction. Confession of the messenger, allegiance to what he was sent with, and practice of what he delivered are named together, and none of them is offered as a substitute for the others.
+
+### **WHAT THE DEEDS ARE**
+
+The deeds are glossed briefly. Through Ibn ʿAbbās they are identified as the performance of what was made obligatory — the obligations being the ones delivered on the tongue of the very messenger these believers have just been described as following. The two halves of the description therefore interlock: the practice is the practice of the religion he brought.
+
+### **PAID IN FULL**
+
+The recompense is described as being handed over complete, with nothing of it defrauded and nothing of it diminished. The emphasis falls on the exactness of the payment rather than on its size, and it closes the sentence that the five-fold description opened: everything named there is accounted for here. The same care is visible in the wording used of the other party, whose punishment was said to be severe in both lives; the scale differs; the completeness is the same.
+
+### **WHY IT CLOSES BY DENYING WRONGDOING**
+
+Wrongdoing is defined in two ways that turn out to be one: taking from another a right that belongs to him, or putting a thing somewhere other than its place. The verse uses that definition to clear God of both. He will not repay the evil-doer among those who rejected Him with what belongs to the good-doer among those who believed, and He will not repay the good-doer with what belongs to the evil-doer. The argument runs from the attribute to the act: since He has no love for those who do this, how would He do it to His own creatures?
+
+### **THREAT AND PROMISE**
+
+A note is attached to the whole: although these words come out in the form of a report, they carry a threat to those who reject Him and His messengers and a promise to the believers. The promise is framed as justice rather than generosity. He has told both parties that He will not defraud the believer of his right, and He will not take the honour that belongs to the believer and set it on one who rejected Him and opposed His command, since setting it on someone other than its people would make Him a wrongdoer.
+
+### **HOW THE TWO HALVES BELONG TOGETHER**
+
+Read as one sentence, the verse is a single judgement pronounced by the One whom the whole passage has presented as the owner of the outcome. The plotting party is punished with no one able to shield them; the following party is paid with nothing held back; and both are held to one standard that bends for neither. What began as an argument about who Jesus is ends as a statement about what the argument will be settled by.
+
+## **3:58**
+
+> We recite ˹all˺ this to you ˹O Prophet˺ as one of the signs and ˹as˺ a wise reminder
+
+### **MEANING**
+
+The long stretch of narrative closes by naming itself. What has been recited from the opening of the passage to this point is gathered up into a single word, *that*, and it is then described twice over: it belongs to the class of signs, and it is a reminder endowed with wisdom. The sentence is addressed to the Prophet, and it tells him what the material he has just been given is for.
+
+### **WHAT THE WORD GATHERS UP**
+
+It refers to the reports with which God has informed His prophet: the account of Jesus, of his mother Mary, of her mother Ḥannah, of Zachariah, and of his son John, together with the story of the disciples and of the Jews among the Children of Israel. The whole span of the passage is what is being pointed at, not the verse immediately before it. The effect is to present the narrative as one thing — one body of report, delivered whole, and now handed over.
+
+### **HOW IT IS RECITED**
+
+The reciting is attributed to God and is specified in its manner: it is recited upon the tongue of Gabriel, by way of revelation. Nothing in what has just been told arrived by enquiry or by report from men, and the verse insists on that at precisely the point where the content is most likely to be contested. What is being claimed about Jesus, about his birth and about his end, is claimed on the authority of what has been sent down.
+
+### **WHAT THE SIGNS ARE FOR**
+
+The signs are described as lessons and proofs — arguments against those who disputed with him. The disputants are named: the Christian delegation from Najrān and the Jews of the Children of Israel who denied him and denied the truth he brought from his Lord. The stories are not retold here for their own sake. They are evidence, the verse says whose evidence they are, and the whole preceding narrative is thereby turned into a case.
+
+### **THE WISE REMINDER**
+
+The reminder is identified as the Qur’an, and the wisdom is explained as the wisdom that decides: it separates truth from falsehood, and it separates the Prophet from those who attach the Messiah to a descent other than his own. Three accounts close the discussion. Al-Ḍaḥḥāk takes the whole phrase as the Qur’an. Ibn ʿAbbās takes the reminder as the Qur’an and describes the wisdom as having reached completion in it. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, calls it ***“the decisive, separating truth, which falsehood has not mixed, of the report about Jesus”*** — and draws the conclusion from it: accept no report about him other than it.
+
+### **WHY IT STANDS WHERE IT DOES**
+
+Placed here, the verse closes the narrative and hands it over as a weapon. Everything since the annunciation has been building the case that Jesus is God's servant and messenger, born of a woman and taken to Him; this verse says that the case is complete, that it came by revelation, and that it is the thing to argue with. The next verses will use it exactly that way: first as a declaration that what has been told is the truth, and then as the ground of a challenge that no one arguing against it is left any room to decline.
+
+## **3:59**
+
+> Indeed, the example of Jesus in the sight of Allah is like that of Adam. He created him from dust, then said to him, “Be!” And he was
+
+### **MEANING**
+
+The likeness struck here is not between the two men in their persons but in the manner of their coming to be. The case of Jesus — brought about from a mother with no male — stands with God as the case of Adam, whom He formed from dust and then addressed with the word *Be*, so that he was, with neither male nor female involved. The argument is the simplest kind of argument from the greater to the lesser: if the greater marvel is conceded, the lesser cannot be called impossible.
+
+### **WHO IT WAS SENT DOWN ABOUT**
+
+The explainers state that this verse was sent down as an argument for the Prophet against the delegation from Najrān who disputed with him about Jesus, and they tell the exchange in several forms. ʿĀmir says that the people of Najrān were the most extravagant of the Christians in what they claimed for him and used to argue with the Prophet, and that this verse came down on that account together with what follows it, up to the call to invoke the curse. Qatādah reports that the two lords and bishops of the people of Najrān, al-Sayyid and al-ʿĀqib, met the Prophet and asked him about Jesus, saying that every human being has a father, so what is it with Jesus that he has none. Ibn Zayd gives the same question in a shorter form from two men of Najrān: did he know of anyone born without a male, such that Jesus could be like that?
+
+The fullest version comes through Ibn Jurayj from ʿIkrimah. The delegation arrives with al-Sayyid and al-ʿĀqib and asks why he reviles their companion; asked who that is, they name Jesus son of Mary and object that he calls him a servant; he answers that he is the servant of God, His word that He cast to Mary, and a spirit from Him. They grow angry and demand a servant who raises the dead, heals the man born blind, and fashions from clay the form of a bird and breathes into it, insisting that he is God. He waits until Gabriel comes with the declaration that those who say God is the Messiah son of Mary have disbelieved; asked how to answer their question about his likeness, Gabriel gives him the likeness of Adam, and in the morning he recites it to them.
+
+Two other versions fill in the same scene. Al-Suddī has four of their leading men come, among them al-ʿĀqib and al-Sayyid; asked what he says about Jesus, the Prophet answers that he is the servant of God, His spirit and His word, and they answer that he is God who came down from His dominion and entered the womb of Mary, asking whether he has ever seen a human being brought about without a father. Ibn ʿAbbās has them object to his mentioning their companion at all, affirm in reply that Jesus is the servant of God, and ask whether he has seen his like or been told of it — with the answer brought by Gabriel after they leave.
+
+### **HOW THE COMPARISON IS MEANT TO WORK**
+
+The point is put as a comparison between two marvels: bringing Jesus about from his mother with no male is not more wondrous than forming Adam from dust with neither male nor female, and in both cases the manner is the same — a command, and the thing commanded is. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, states it in those terms: if they say that Jesus was brought about without a male, then Adam was formed from dust by that same power, without female and without male, and he became as Jesus became — flesh, blood, hair and skin. Ibn Zayd's version sharpens it into a question: had Adam a father or a mother? The comparison does not lower Jesus; it removes the ground on which his case was being treated as impossible in the first place.
+
+### **A QUESTION ABOUT THE CLAUSE AFTER A PROPER NAME**
+
+An objection is raised and answered. How can the clause ***“He created him from dust”*** be attached to Adam, when a definite proper name does not take a descriptive relative clause in Arabic? The answer given is that the clause is not a relative clause at all: it is an explanation of his affair, set down to expound the likeness that has been struck and to show how it stood. The grammar is thus made to serve the argument — the clause is there to unpack the comparison, not to identify the man being compared.
+
+### **WHY THE LAST VERB IS IN THE FORM IT IS**
+
+A second question follows. The narrative has been in the past tense — He formed him out of dust and then spoke the word to him — so why does the verse go on with a verb of the shape *and he is*? The answer offered is that the report about Adam's affair ends at the word *Be*, and what follows is a fresh statement: know, Muḥammad, that whatever your Lord says *Be* to, is. The sentence that looks like a continuation turns out to be the point. Because the preceding words already carry the indication that God brings into being, from no origin and no prior element, whatever He commands, the wording can attach the verb of the present shape to a past narrative on that meaning. A second view is recorded from some of the Arabists: that the verb is a new sentence in the nominative with the sense *Be, and he was* — as though to say, and there he is.
+
+### **WHAT THE VERSE SETTLES**
+
+Read in its setting, the verse does two things at once. It answers the objection that a birth without a father has never been heard of, by pointing to a bringing-into-being without parents at all. And it fixes the terms in which Jesus is to be spoken of: the same creative word that brought Adam out of dust is the word by which he came about, and neither case is a case of a creator entering his own creation. That is why the passage can move straight from this likeness to the challenge that follows it.
+
+## **3:60**
+
+> This is the truth from your Lord, so do not be one of those who doubt
+
+### **MEANING**
+
+A verdict is attached to what has just been said, and then the response that the verdict rules out is forbidden. What has been told about Jesus and about his likeness to Adam is not one reading among several; it is the truth, and the verse traces it to its source — it is from your Lord. What follows from that is a prohibition: there is to be no hesitating about it, and no being counted among the people who hesitate.
+
+### **WHAT IS CALLED THE TRUTH**
+
+The truth is specified as the report itself: that with which God has informed His prophet about Jesus, and the statement that his likeness is as the likeness of Adam — formed from dust, then addressed by his Lord with the word *Be*. The accounts say this in slightly different words. Qatādah takes it as a prohibition against being in doubt about Jesus, that he is as the likeness of Adam: ***“the servant of God and His messenger, and a word from Him and a spirit.”*** Al-Rabīʿ words it as a prohibition against being in doubt about what has been related — that Jesus is the servant of God and His messenger, a word from Him and a spirit, and that his likeness with God is as the likeness of Adam, formed from dust and then addressed with the word. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, gives it in the briefest form: ***“what has come to you of the report about Jesus — the truth has come to you from your Lord, so have no doubt about it.”***
+
+### **THE WORD FOR DOUBT**
+
+Ibn Zayd identifies the doubters simply as doubters. A lexical note is then attached: doubt, misgiving and suspicion are one in meaning although the words differ, in the way that *give me*, *hand me* and *come* differ in wording while coming to one thing. The point of the note is that the prohibition is not directed at one shade of hesitation. Every word for it is covered, and the state of mind itself is what is ruled out.
+
+### **WHERE THE CERTAINTY IS PLACED**
+
+The verse puts the source before the prohibition, and the order is what makes the prohibition work. It is not that doubt is unbecoming; it is that the report has come from the Lord, and a report from that source leaves no room for it. The address is made to the one who has just been given the narrative, and the ground given for certainty is external to him: not the strength of his own conviction but the origin of what he has been told. In a passage addressed throughout to people who demanded evidence, the evidence is what is being pointed at.
+
+### **HOW IT SITS BETWEEN ITS NEIGHBOURS**
+
+On one side stands the likeness of Adam, on the other the challenge to those who argue after knowledge has arrived. This verse is the hinge between them: it declares the likeness true, and it thereby sets up the next verse's description of a dispute carried on *after* the knowledge has come. The sequence of the passage is evidence, verdict, prohibition, challenge — and this is the point at which the evidence stops being argued for and starts being used.
+
+## **3:61**
+
+> Now, whoever disputes with you ˹O Prophet˺ concerning Jesus after full knowledge has come to you, say, “Come! Let us gather our children and your children, our women and your women, ourselves and yourselves—then let us sincerely invoke Allah’s curse upon the liars.”
+
+### **MEANING**
+
+The argument now becomes a proposal. Once the truth has been declared and hesitating about it forbidden, the Prophet is told how to answer anyone who still contends with him about it: bring the two sides together — sons, women, and the parties themselves — and then call down the curse of God on whichever side is lying. The verse names a procedure and a stake, and it gives both in the form of words he is to say aloud to them.
+
+### **WHO THE CONTENDER IS, AND WHAT THE PRONOUN REFERS TO**
+
+The contender is anyone who argues with him about Jesus, and the pronoun is taken to refer back to him. A second possibility is recorded and left open: that it refers back to the truth mentioned in the verse before, so that the sense is arguing about what has just been declared true. The two readings converge, since the dispute is about him and about the statement concerning him at the same time.
+
+### **WHAT HAS COME BEFORE THE ARGUMENT**
+
+The argument is qualified by what precedes it: it is carried on after the knowledge has arrived. The knowledge is specified as what has been made clear to him about Jesus — that he is the servant of God. Muḥammad ibn Jaʿfar ibn al-Zubayr, through Ibn Isḥāq, words it as what has been related to him of his report and of how his affair stood; al-Rabīʿ, as what has come to him of knowledge about him; Qatādah, as his being the servant of God and His messenger, from a word of God and a spirit. On every version the point is the same: this is not an argument between two parties who know the same things.
+
+### **THE TERMS OF THE GATHERING**
+
+The procedure is set out in three pairs — the sons of each side, the women of each side, and the parties themselves — and then the invoking. Qatādah and Muḥammad ibn Jaʿfar both give the summons in the same words, and al-Rabīʿ repeats it. The effect of naming the three pairs is to commit each side entirely: a man does not bring his children and the women of his house to a wager he expects to lose, and the proposal is built so that the cost of lying is felt by everyone a liar belongs to.
+
+### **THE WORD FOR INVOKING**
+
+The verb used for the invoking is explained from ordinary speech. Of a man one says, *may God bahala him*, meaning may God curse him; and one says, *upon him be the buhlah of God*, meaning the curse. Labīd uses the same verb of a people who perished, saying ***“Time looked at them and invoked destruction upon them.”*** The word is therefore not a term coined for the occasion; it is the ordinary word for calling down ruin, and the verse sets it inside a formal act of mutual imprecation.
+
+### **ON WHOM THE CURSE IS CALLED**
+
+The curse is to be placed on the liars, and the accounts are explicit that this means from both sides. Ibn Zayd states it as *from us and from you*: the party that invokes it invokes it on itself if it is the one lying. The proposal is not, then, a threat directed at the other side but a wager entered by both, and it is only safe for a man who is certain of what he is saying. That is what makes it an answer to disputation: it removes the ground on which the disputation had been carried on.
+
+### **THE MANNER OF THE MEN WHO PROMPTED IT**
+
+A report is attached that shows what the wrangling had been like. ʿAbdullāh ibn al-Ḥārith ibn Juzʾ al-Zubaydī, through Sulaymān ibn Ziyād al-Ḥaḍramī and Ibn Lahīʿah, is reported as hearing the Prophet wish that there were a screen between him and the people of Najrān, so that he would not see them and they would not see him — so severely did they wrangle with him. The verse answers that wrangling with a procedure rather than another exchange: bring the matter before God and let Him settle which side is lying.
