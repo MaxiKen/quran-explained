@@ -65,15 +65,23 @@ vc.on('error',(...a)=>errs.push('console.error: '+a.join(' ')));
   ck('ebook folds sources on all 4', (eb.match(/<details class="tafsir-sources"/g)||[]).length === 4);
   ck('ebook has no coming soon', !eb.includes('coming soon'));
 
-  // no regression where guidance does not exist yet
-  await w.eval('Promise.all([loadTafsirData(3),loadGuidanceData(3)])');
-  ck('surah 3 has no guidance yet (expected)', w.eval('loadedGuidance[3]') === null);
-  const h1 = w.eval('renderCommentaryHtml(loadedTafsir[3], getVerseCommentary(loadedTafsir[3],1), 1)');
+  // No regression where guidance does not exist yet. The control surah is
+  // chosen dynamically: the first one that genuinely has no guidance file.
+  // Hard-coding a surah here breaks every time that surah gets authored.
+  const CTL = await w.eval(`(async()=>{
+    for (const n of [3,4,5,6,7,8,9,10,11,12]) {
+      if ((await loadGuidanceData(n)) === null) return n;
+    }
+    return 0;})()`);
+  ck('found a control surah with no guidance', CTL > 0, CTL);
+  await w.eval(`loadTafsirData(${CTL})`);
+  ck(`surah ${CTL} has no guidance`, w.eval(`loadedGuidance[${CTL}]`) === null);
+  const h1 = w.eval(`renderCommentaryHtml(loadedTafsir[${CTL}], getVerseCommentary(loadedTafsir[${CTL}],1), 1)`);
   const e1 = w.document.createElement('div'); e1.innerHTML = h1;
-  ck('surah 3 still shows six sources directly', e1.querySelectorAll('.tafsir-entry').length === 6,
+  ck(`surah ${CTL} still shows six sources directly`, e1.querySelectorAll('.tafsir-entry').length === 6,
      e1.querySelectorAll('.tafsir-entry').length);
-  ck('surah 3 shows no disclosure', !e1.querySelector('details.tafsir-sources'));
-  ck('surah 3 primary marked', e1.firstElementChild.classList.contains('tafsir-entry-primary'));
+  ck(`surah ${CTL} shows no disclosure`, !e1.querySelector('details.tafsir-sources'));
+  ck(`surah ${CTL} primary marked`, e1.firstElementChild.classList.contains('tafsir-entry-primary'));
 
   let bad=0;
   for(const r of R){ if(!r.ok)bad++; console.log(`${r.ok?'PASS':'FAIL'}  ${r.n}${r.d?'   ['+r.d+']':''}`); }

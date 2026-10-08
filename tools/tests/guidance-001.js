@@ -131,14 +131,22 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck('surah 112 guidance still renders', h112.includes('tafsir-guidance'));
   ck('surah 112 sources still folded', h112.includes('tafsir-sources'));
 
-  await w.eval('loadTafsirData(2)'); await w.eval('loadGuidanceData(2)');
-  ck('surah 2 has no guidance yet', await w.eval('loadedGuidance[2]') === null);
-  const h2 = w.eval('renderCommentaryHtml(loadedTafsir[2], getVerseCommentary(loadedTafsir[2],1), 1)');
+  // Pick the control surah dynamically: the first one that genuinely has no
+  // guidance file. Hard-coding a surah here breaks every time it gets authored.
+  const CTL = await w.eval(`(async()=>{
+    for (const n of [3,4,5,6,7,8,9,10,11,12]) {
+      if ((await loadGuidanceData(n)) === null) return n;
+    }
+    return 0;})()`);
+  ck('found a control surah with no guidance', CTL > 0, CTL);
+  await w.eval(`loadTafsirData(${CTL})`);
+  ck(`surah ${CTL} has no guidance`, await w.eval(`loadedGuidance[${CTL}]`) === null);
+  const h2 = w.eval(`renderCommentaryHtml(loadedTafsir[${CTL}], getVerseCommentary(loadedTafsir[${CTL}],1), 1)`);
   const e2 = w.document.createElement('div'); e2.innerHTML = h2;
-  ck('surah 2 falls back to six sources shown directly', e2.querySelectorAll('.tafsir-entry').length === 6,
+  ck(`surah ${CTL} falls back to six sources shown directly`, e2.querySelectorAll('.tafsir-entry').length === 6,
      e2.querySelectorAll('.tafsir-entry').length);
-  ck('surah 2 has no disclosure', !e2.querySelector('details.tafsir-sources'));
-  ck('surah 2 first source marked primary',
+  ck(`surah ${CTL} has no disclosure`, !e2.querySelector('details.tafsir-sources'));
+  ck(`surah ${CTL} first source marked primary`,
      e2.querySelector('.tafsir-entry').classList.contains('tafsir-entry-primary'));
 
   ck('no jsdom errors', errs.length === 0, errs.join(' | '));
