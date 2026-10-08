@@ -13,22 +13,20 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v3.0.0-saadi';
+const CACHE_VERSION = 'quran-reader-v4.0.0-ibn-kathir';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
 // cache, so these URLs are dropped from every cache when this version activates
 // (the chapter downloads themselves are still carried across versions below).
 //
-// The whole commentary corpus was replaced with Tafsīr as-Saʿdī in Arabic and
-// the payload shape changed (verses now point into a deduplicated `blocks`
-// array). Chapters 1–3 are the ones an older cache can actually be holding, so
-// those three are retired here; every other chapter simply downloads fresh.
-const RETIRED_PAYLOADS = [
-  './data/tafsir_001.json',
-  './data/tafsir_002.json',
-  './data/tafsir_003.json'
-];
+// The commentary source itself was replaced: every data/tafsir_NNN.json went
+// from Tafsīr as-Saʿdī in Arabic to Tafsīr Ibn Kathīr in English, and the
+// payload gained a `ranges` array. That is all 114 files, so rather than listing
+// them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
+// Chapter data is untouched and still carries across.
+const RETIRE_ALL_TAFSIR = true;
+const RETIRED_PAYLOADS = [];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -121,6 +119,14 @@ self.addEventListener('activate', (event) => {
       // withdrawn commentary: the copy loop above has already carried anything
       // an old cache held into the current cache, so dropping the URL here is
       // enough to stop a rewritten chapter being served from a stale payload.
+      if (RETIRE_ALL_TAFSIR) {
+        const carried = await currentCache.keys();
+        for (const request of carried) {
+          const url = request.url || '';
+          if (!/\/data\/tafsir_/.test(url)) continue;
+          await currentCache.delete(request);
+        }
+      }
       for (const url of RETIRED_PAYLOADS) {
         await currentCache.delete(new URL(url, self.location).toString());
       }

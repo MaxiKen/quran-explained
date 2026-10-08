@@ -315,8 +315,8 @@ const loadedTafsir = {};
 /* The commentary the reader ships and labels itself with. The payload files in
    /data carry their own `source`, this is the fallback + the string the UI
    shows before a chapter's payload has been fetched. */
-const TAFSIR_SOURCE_LABEL = 'Tafsīr as-Saʿdī';
-const TAFSIR_SOURCE_FULL = 'Tafsīr as-Saʿdī · Abd al-Rahmān ibn Nāsir as-Saʿdī (Arabic)';
+const TAFSIR_SOURCE_LABEL = 'Tafsīr Ibn Kathīr';
+const TAFSIR_SOURCE_FULL = 'Tafsīr Ibn Kathīr · Ḥāfiẓ Ibn Kathīr (d. 774 AH), English';
 
 function injectScript(url) {
   return new Promise((resolve, reject) => {
@@ -1421,7 +1421,7 @@ function renderCompleteCommentary(container) {
           </span>
         </header>
         <p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>
-        <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
+        <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
       </article>`;
     }
     html += `</section>`;
@@ -1460,12 +1460,14 @@ function stripLeadingVerseQuote(md) {
 }
 
 /* Get the merged commentary for a verse.
-   Payload shape (built from ar-tafsir-as-saadi/):
-     { lang, dir, blocks: [text, …], verses: { "1": <block index> } }
-   as-Saʿdī comments on runs of verses rather than one at a time, so the source
+   Payload shape (built from spa5k/tafsir_api · en-tafisr-ibn-kathir):
+     { lang, dir, ranges: ["2:240-242", …], blocks: [text, …],
+       verses: { "240": <block index> } }
+   Ibn Kathīr comments on runs of verses rather than one at a time, so the source
    repeats the same block for every verse it covers. Storing the block once and
-   mapping each verse to its index keeps the payload ~86% smaller. A verse may
-   still carry a plain string (older payloads) or an object of parts. */
+   mapping each verse to its index keeps the payload ~68% smaller (35.9 MB of
+   text down to 11.1 MB); `ranges` records the span each block covers. A verse
+   may still carry a plain string (older payloads) or an object of parts. */
 function getVerseCommentary(tafsir, ayahNum) {
   if (!tafsir) return '';
   const verses = tafsir.verses || tafsir;
@@ -1496,15 +1498,31 @@ function getTafsirSourceLabel(tafsir) {
   return tafsir && tafsir.source ? tafsir.source : TAFSIR_SOURCE_LABEL;
 }
 
-/* Render commentary markdown wrapped in the direction/language of its source,
-   so the Arabic as-Saʿdī text never inherits the page's left-to-right Latin
-   flow. Returns '' for an empty commentary so callers keep their fallbacks. */
-function renderCommentaryHtml(tafsir, text) {
+/* The span of verses a commentary entry actually covers. Ibn Kathīr — like most
+   classical mufassirūn — comments on runs of verses, so one entry can cover
+   2:240-242. `ranges` runs parallel to `blocks`; a single-verse entry reads
+   "2:234", a run reads "2:240-242". */
+function getCommentaryRange(tafsir, ayahNum) {
+  if (!tafsir || !Array.isArray(tafsir.ranges) || !tafsir.verses) return '';
+  const idx = tafsir.verses[String(ayahNum)];
+  if (typeof idx !== 'number') return '';
+  const range = tafsir.ranges[idx];
+  return typeof range === 'string' ? range : '';
+}
+
+/* Render commentary with its verse range as the first line and the text
+   starting on the next. Returns '' for an empty commentary so callers keep
+   their fallbacks. */
+function renderCommentaryHtml(tafsir, text, ayahNum) {
   if (!text) return '';
   const dir = getTafsirDir(tafsir);
   const lang = getTafsirLang(tafsir);
   const cls = dir === 'rtl' ? 'tafsir-text tafsir-rtl' : 'tafsir-text';
-  return `<div class="${cls}" dir="${dir}" lang="${lang}">${renderMarkdown(text)}</div>`;
+  const range = ayahNum == null ? '' : getCommentaryRange(tafsir, ayahNum);
+  const head = range
+    ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(range)}</p>`
+    : '';
+  return `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
 }
 
 /* Get the Sūrah introduction / overview notes */
@@ -1580,19 +1598,25 @@ function renderMarkdown(md) {
 
 function parseInline(str) {
   if (!str) return '';
+  const AR = '\\u0600-\\u06FF\\u0750-\\u077F\\u08A0-\\u08FF\\uFB50-\\uFDFF\\uFE70-\\uFEFF';
+  const AR_RUN = new RegExp(
+    `([${AR}]+(?:[ \\u00A0]+[${AR}]+)*)`, 'g'
+  );
   return str
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    /* as-Saʿdī writes the words he is explaining between braces: {قُلۡ}.
-       Render them as inline Quranic quotation in the Quran face so the
-       quotation stands out from his own wording. */
-    .replace(/\{([^{}]+)\}/g, '<span class="quran-quote">$1</span>')
     .replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+    /* Ibn Kathīr quotes the Arabic he is explaining inside English prose. Give
+       every Arabic run its own face and right-to-left isolation so it does not
+       inherit the Latin metrics or disturb the punctuation around it. Runs last,
+       after the markdown passes, and matches Arabic characters only — the HTML
+       those passes produced is pure ASCII, so no tag can be caught. */
+    .replace(AR_RUN, '<span class="ar-inline">$1</span>');
 }
 
 /* ================================================
@@ -2606,7 +2630,7 @@ function showExplanation(surahNum, ayahNum) {
   const cached = loadedTafsir[surahNum];
   const explanation = getVerseCommentary(cached, ayahNum);
   if (explanation) {
-    document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation);
+    document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation, ayahNum);
     afterModalBodyRender();
   } else {
     showModalSkeleton();
@@ -2615,7 +2639,7 @@ function showExplanation(surahNum, ayahNum) {
         if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
         const text = getVerseCommentary(tafsir, ayahNum);
         document.getElementById('modalBody').innerHTML = text
-          ? renderCommentaryHtml(tafsir, text)
+          ? renderCommentaryHtml(tafsir, text, ayahNum)
           : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
         afterModalBodyRender();
       })
@@ -2814,11 +2838,12 @@ function tafsirSourceCardHtml(surahNum) {
   const ch = (window.chaptersData || []).find((c) => c.number === surahNum);
   const tafsir = loadedTafsir[surahNum];
   const covered = tafsir && tafsir.verses ? Object.keys(tafsir.verses).length : 0;
+  const runs = tafsir && Array.isArray(tafsir.ranges) ? tafsir.ranges.length : 0;
   const place = ch ? String(ch.type).toLowerCase() : '';
   return `<div class="tafsir-source-card">
-    <p class="modal-p"><strong>${escapeHtml(TAFSIR_SOURCE_LABEL)}</strong> — <em>Taysīr al-Karīm al-Rahmān fī Tafsīr Kalām al-Mannān</em>, by Abd al-Rahmān ibn Nāsir as-Saʿdī (d. 1376 AH / 1956 CE).</p>
-    <p class="modal-p">The commentary in this reader is the Arabic original, unedited. as-Saʿdī puts the words he is explaining between braces — <span class="quran-quote">هكذا</span> — and then explains them in short, direct sentences, which is what makes this tafsir the usual first stop for a reader working without a scholar.</p>
-    ${ch ? `<p class="modal-p">${escapeHtml(ch.name_en)} (${escapeHtml(ch.name_ar)}) is ${escapeHtml(place)} and has ${ch.verses} verses.${covered ? ` All ${covered} of them carry tafsir here.` : ''}</p>` : ''}
+    <p class="modal-p"><strong>${escapeHtml(TAFSIR_SOURCE_LABEL)}</strong> — <em>Tafsīr al-Qurʾān al-ʿAẓīm</em>, by Ḥāfiẓ Imād al-Dīn Ismāʿīl ibn Kathīr (d. 774 AH / 1373 CE), in English.</p>
+    <p class="modal-p">This is a tafsir bi'l-maʾthūr: Ibn Kathīr explains the Qurʾan first by the Qurʾan, then by the Sunnah, then by the reports of the Companions and the generations after them, naming his sources as he goes. Each entry opens with the range of verses it covers — a single verse reads like <span class="tafsir-range-inline">2:234</span>, a run reads like <span class="tafsir-range-inline">2:240-242</span> — because he often comments on several verses together.</p>
+    ${ch ? `<p class="modal-p">${escapeHtml(ch.name_en)} (${escapeHtml(ch.name_ar)}) is ${escapeHtml(place)} and has ${ch.verses} verses.${covered ? ` All ${covered} of them carry tafsir here` : ''}${runs ? `, across ${runs} entries.` : '.'}</p>` : ''}
     <p class="modal-p">Open the reading edition to work through the sūrah from the top, or tap any verse in the chapter view to read its tafsir on its own.</p>
     <button type="button" class="ebook-secondary-btn" onclick="closeModal();openCompleteCommentary(${surahNum})">Open the full commentary</button>
   </div>`;
