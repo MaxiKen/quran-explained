@@ -2914,6 +2914,7 @@ function tafsirSourceCardHtml(surahNum) {
     <ul class="tafsir-source-list">${list}</ul>
     <p class="modal-p">Every entry opens with the range of verses it covers — a single verse reads like <span class="tafsir-range-inline">2:234</span>, a run reads like <span class="tafsir-range-inline">2:240-242</span> — because the classical mufassirūn usually comment on several verses together. Where two of them group the verses differently, their ranges differ, and that difference is itself informative.</p>
     ${ch ? `<p class="modal-p">${escapeHtml(ch.name_en)} (${escapeHtml(ch.name_ar)}) is ${escapeHtml(place)} and has ${ch.verses} verses.${covered ? ` All ${covered} of them carry tafsir here.` : ''}</p>` : ''}
+    <p class="modal-p tafsir-provenance">Texts reproduced unedited, via <a href="https://github.com/spa5k/tafsir_api" target="_blank" rel="noopener noreferrer">spa5k/tafsir_api</a> (MIT). Upstream: qul.tarteel.ai, quran.com, altafsir.com. See <code>ATTRIBUTION.md</code>.</p>
     <button type="button" class="ebook-secondary-btn" onclick="closeModal();openCompleteCommentary(${surahNum})">Open the full commentary</button>
   </div>`;
 }

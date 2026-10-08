@@ -1967,3 +1967,8 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   .ra-dock, .player-orb, .header-nav, .nav-position, .swipe-hint, .tafsir-footer, .tafsir-progress, .resume-chip, .continue-reading-actions { display: none !important; }
   .app-container, .ebook-view { padding-bottom: 0; margin-bottom: 0; }
 }
+
+/* Provenance line at the foot of the commentary source card */
+.tafsir-provenance { font-size: 12.5px; color: var(--text-faint); line-height: 1.7; }
+.tafsir-provenance a { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; }
+.tafsir-provenance code { font-size: 11.5px; background: var(--accent-bg); padding: 1px 5px; border-radius: 4px; }
