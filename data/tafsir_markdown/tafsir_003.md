@@ -3206,7 +3206,7 @@ The argument of these two verses is built so that it cannot be refused without c
 
 ### **MEANING**
 
-The dispute is ended by a pronouncement rather than by an argument. The Prophet is told to say that God has spoken the truth, and the Jews are told to follow the way of Abraham, who stood upright and was no associator. The verse closes the case by moving it off the ground the disputants chose and onto ground they all accept.
+The dispute is ended by a pronouncement rather than by an argument. The Prophet is told to say that God has spoken the truth, and the Jews are told to follow Abraham's way — him being upright and no associator. The verse closes the case by moving it off the ground the disputants chose and onto ground they all accept.
 
 ### **WHAT GOD HAS DECLARED TRUE**
 
@@ -3216,7 +3216,7 @@ The wording is therefore not a general statement about God's truthfulness but a 
 
 ### **THE CALL TO ABRAHAM'S WAY**
 
-The instruction that follows is put conditionally: if you are right that you stand on the religion which God approved for His prophets and messengers, then follow Abraham's way. The force of the argument is that they already concede the premise. The way of Abraham is described as the thing which God approved as a religion for His creatures and with which He sent His prophets, and it is named as the ḥanīfiyya — uprightness upon surrender and upon its laws — as opposed to Judaism, Christianity and association.
+The instruction that follows is put conditionally: if you are right that you stand on the religion which God approved for His prophets and messengers, then follow Abraham's way. The force of the argument is that they already concede the premise. Abraham's way is described as the thing which God approved as a religion for His creatures and with which He sent His prophets, and it is named as the ḥanīfiyya — uprightness upon surrender and upon its laws — as opposed to Judaism, Christianity and association.
 
 ### **WHAT UPRIGHT MEANS**
 
