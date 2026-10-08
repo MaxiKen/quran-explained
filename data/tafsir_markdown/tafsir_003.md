@@ -2393,3 +2393,163 @@ The second charge is then specified. What was concealed is what stands in their 
 ### **THE CLOSING WORDS**
 
 The closing is explained as a statement that they knew the thing they were concealing to be the truth and to be from God. It is described as a report about their deliberate unbelief and their concealment of what they knew of his prophethood — what they found in their books and what their prophets had brought them. The verse thus ends where the previous one ended, on what they knew; and the knowledge is what turns both charges from error into guilt. Two verses in a row now close on the same note, and the repetition is deliberate: the case being made against them does not rest on what they failed to find out but on what they did.
+
+## **3:72**
+
+> A group among the People of the Book said ˹to one another˺, “Believe in what has been revealed to the believers in the morning and reject it in the evening, so they may abandon their faith
+
+### **MEANING**
+
+The plot of the previous verse is now quoted. A party of **the People of the Book** instructs its own people to profess the faith of the believers at the start of the day and to renounce it before the day is out, so that the believers, seeing men of scripture enter and leave in a single day, may lose confidence and give up their religion. The verse exposes a tactic, and it exposes it by repeating the words in which it was proposed.
+
+### **WHAT WAS ACTUALLY PROPOSED**
+
+The explainers differ on what the party told its people to do. The first account takes it as a matter of profession: they were to declare the Prophet true in his prophethood and in what he brought, outwardly, without any inward resolution or conviction, and then to deny all of it at the end of the day. Qatādah's version gives the reasoning: satisfy them with their religion at the start of the day and deny it at the end of it, for that is more likely to make them believe you and to make them think you have found in it something you dislike — and more likely to make them turn back. Abū Mālik reports it in the same shape: declare it with them at the start of the day and deny it at the end of it.
+
+The second account, given by Mujāhid and by Ibn Jurayj from Mujāhid, takes what was ordered to be the prayer: they were to pray the dawn prayer with him and then to abandon it at the end of the day, as a ruse, to make people think that error had become plain to them after they had followed him. Ibn ʿAbbās's version combines the two: believe when you meet his companions at the start of the day, and when the end of it comes, pray your own prayer — so that they will say that these are the **People of the Book** and know better than we do, and perhaps turn back from their religion.
+
+### **THE PLAN AS AL-SUDDĪ TELLS IT**
+
+Al-Suddī names the planners as twelve rabbis and gives the words they were to use. At the start of the day they were to enter the religion of Muḥammad and say that they testified he was true and truthful. At the end of it they were to deny it, saying: we went back to our scholars and our rabbis and asked them, and they told us that Muḥammad is a liar and that you are standing on nothing, and we have returned to our religion, which is more pleasing to us than yours. The object, in his account, was doubt: that the believers should say to themselves that these men had been with them in the morning, and ask what had happened to them. Abū Mālik reports the same proposal in a shorter form, and adds that God disclosed their secret by sending this verse down.
+
+### **WHAT THE FACE OF THE DAY MEANS**
+
+The phrase used for the beginning of the day is the word for a face, and the explanation given is that the beginning is called its face because it is the best of it and the first part that confronts anyone looking at it — the way the front of a garment is called its face. A line of verse is cited for the usage by Rabīʿ ibn Ziyād: ***“Whoever is delighted at the killing of Mālik, let him come to our women at the face of day.”*** Qatādah and al-Rabīʿ both take the phrase simply as the first part of the day, and al-Rabīʿ adds that its counterpart means the last part of it.
+
+### **WHAT THEY HOPED IT WOULD DO**
+
+The closing words state the purpose, and the glosses differ slightly on the result aimed at. Qatādah and al-Rabīʿ take it as leaving the religion and returning to what the plotters were upon; Ibn ʿAbbās, as turning back from it; Mujāhid, as turning back from it as well. Al-Suddī, as has been seen, takes it as being thrown into doubt. The differences are not incompatible: the method was to unsettle, and the hoped-for end was abandonment.
+
+### **WHY THE VERSE MATTERS HERE**
+
+The passage has just charged these people with concealing what they know and with confusing others deliberately. This verse supplies the instance. What is exposed is not a doctrine but a manoeuvre, and it is exposed by quoting it — which is why the verse that follows answers the plotting party point by point.
+
+## **3:73**
+
+> And only believe those who follow your religion.” Say, ˹O Prophet,˺ “Surely, ˹the only˺ true guidance is Allah’s guidance.” ˹They also said,˺ “Do not believe that someone will receive ˹revealed˺ knowledge similar to yours or argue against you before your Lord.” Say, ˹O Prophet,˺ “Indeed, all bounty is in the Hands of Allah—He grants it to whoever He wills. And Allah is All-Bountiful, All-Knowing.”
+
+### **MEANING**
+
+The quotation of the plot continues, and this time the answer is inserted into the middle of it. The party is reported as instructing its own people to trust no one outside their religion; the Prophet is then told to answer that guidance belongs to God; the quotation resumes with their further claim that no one will be given what they have been given; and it closes with the reply that bounty is in God's hand to give to whom He pleases. The verse is therefore part quotation and part rebuttal, and knowing which words belong to whom is the whole difficulty of it.
+
+### **TRUST NO ONE WHO DOES NOT FOLLOW YOUR RELIGION**
+
+The first instruction is explained as declaring true no one except a person who follows their religion — that is, someone who is a Jew. It is described as a report of what the party said to their fellows among the Jews. A grammatical note is attached to the preposition: the particle before *who follows your religion* is of the same kind as the one in the verse about what may have drawn near to you, where the sense is simply that it has drawn near to you.
+
+Qatādah and al-Rabīʿ identify the saying as some of them addressing others; al-Suddī words it as believing none but one who follows Judaism; Ibn Zayd, as believing only those who believe in your religion and not believing those who oppose it.
+
+### **WHERE THE REPLY BELONGS**
+
+The explainers differ over how much of what follows is quotation. One reading, given by Mujāhid, takes *Say: guidance is God's guidance* as a parenthetical statement inserted into the middle of the Jews' speech — God's own declaration that the exposition is His and the guidance is His — with everything after it continuing the report of what they said to one another: that they should not accept that anyone would be given the like of what they had been given, or that anyone would contend with them before their Lord. On this reading the whole passage except that one clause is quotation, and the rebuttal comes at the end.
+
+Other readings take the whole of it as addressed to the Prophet to say. Al-Suddī's version reads the clause about anyone being given the like as a denial — no community will be given the like of what you have been given — and takes the word *or* in the sense of *except*: except that they will contend with you before their Lord. Qatādah and al-Rabīʿ take it as a reproach for envy: when God sent down a book like their book and sent a prophet like their prophet, they envied the believers for it, and the answer is that bounty is in God's hand. Ibn Jurayj takes the clause as describing the affair they were upon, and the arguing as their fear that the believers would use their own scriptures against them.
+
+The reading preferred here is the first, on the ground that it keeps the passage flowing in one direction and does not require wrenching the words; on it, everything except the inserted clause reports what the party said, and the rebuttal then opens with *Say*.
+
+### **THE CLAIM AND WHAT DROVE IT**
+
+The claim quoted is ***“no one will be given the like of what you have been given,”*** and Mujāhid explains the motive behind it: envy that prophethood should reside anywhere other than among them, and the desire to be followed upon their religion. Al-Suddī's version puts the same claim in the mouth of people boasting of what God had done for them — the manna and the quails — and tells them that if what the believers have been given is better, then the answer is that bounty is in God's hand.
+
+### **THE REPLY**
+
+The reply is explained word by word. Bounty is in the hand of God: the enabling to believe and the guidance to surrender belong to Him and to no one else — not to them and not to any of His creatures. He gives it to whom He pleases of His servants, giving the lie to their saying that no one would be given the like of what they had been given; the point being pressed is that the matter is not theirs to grant or withhold. Ibn Jurayj identifies the bounty with surrender itself.
+
+### **THE TWO CLOSING NAMES**
+
+The closing names are then explained together: He is possessed of amplitude, in the bounty He bestows on whomever He pleases to favour; and possessed of knowledge of who among them is fit for that bounty. The two are placed last because the argument has been about who receives what: amplitude answers the claim that the gift is finite, and knowledge answers the claim that it was given to the wrong people.
+
+## **3:74**
+
+> He chooses whoever He wills to receive His mercy. And Allah is the Lord of infinite bounty
+
+### **MEANING**
+
+The reply opens out into a general statement about how the gift is distributed. God singles out for that mercy whom He pleases, and the closing name describes Him as the possessor of tremendous bounty. The verse is short, and its work is to move the argument off the particular dispute: the question is not what this or that community has been given but who does the giving.
+
+### **THE SHAPE OF THE VERB**
+
+The verb used for choosing is noted as a derived form built on the verb for singling someone out for something — the form in which a person singles another out for a thing. The note is small but it fixes the sense: what is described is not a general favour covering everyone alike but an act of setting one person apart for one thing.
+
+### **HOW THE SINGLING OUT IS DESCRIBED**
+
+The object of the verb is *whom He pleases*, and the verse gives no further qualification of it. What the surrounding verses supply is the frame in which it is to be read: the previous verse closed by naming Him as possessed of knowledge of who among people is fit for the bounty, so that the singling out is not described as arbitrary. It is also not described as earned, since the same verse had insisted that the bounty is in His hand rather than in anyone's possession. The verse holds both together without resolving them, and the argument of the passage needs nothing more from it than that.
+
+### **WHAT THE MERCY IS TAKED TO BE**
+
+The word for mercy is specified in this place, and the accounts name it slightly differently. Mujāhid, in two reports, takes it as prophethood: ***“He singles out for it whom He wills.”*** Al-Rabīʿ says the same — that He singles out for prophethood whom He pleases. Ibn Jurayj, in two reports, takes it as the Qur’an and surrender, and the commentary on the passage holds the two together, describing the mercy here as surrender and the Qur’an together with prophethood.
+
+### **WHY THE BOUNTY IS CALLED GREAT**
+
+The closing is explained as describing God as possessed of bounty which He bestows on whom He loves and wills of His creatures, and then as describing that bounty with greatness. The reason given for the greatness is that it is not comparable, in the magnitude of its place with the person favoured, to any favour bestowed by a creature, and that nothing comes near it in the majesty of its standing or approaches it. The comparison is therefore not with other gifts of His but with the gifts of created beings, which is what makes the word *great* do its work.
+
+### **HOW IT FOLLOWS WHAT CAME BEFORE**
+
+The previous verse ended with bounty in God's hand and with His knowledge of who is fit for it. This verse states the consequence: singling out is His, and what He singles people out for is the mercy named here. The dispute the passage has been answering was a dispute about who had been favoured, and it had been pressed by people who treated what they had as theirs by right. The answer, given twice in a row, is that the favour is His to place and that no community holds it as a possession. Read that way, the two short verses are not a digression from the argument about the scripture-communities; they are the principle on which that argument turns, and everything that follows in the passage returns to it.
+
+## **3:75**
+
+> There are some among the People of the Book who, if entrusted with a stack of gold, will readily return it. Yet there are others who, if entrusted with a single coin, will not repay it unless you constantly demand it. This is because they say, “We are not accountable for ˹exploiting˺ the Gentiles.” And ˹so˺ they attribute lies to Allah knowingly
+
+### **MEANING**
+
+The argument now comes down from doctrine to money. God states that some of **the People of the Book** can be trusted with a very large sum and will hand it back, while others refuse to hand back a single small coin unless they are pressed for it without pause. The reason given is not greed but a ruling: they hold that they owe nothing to outsiders, and so, knowingly, they invent falsehood about God.
+
+### **THE TWO KINDS OF TRUSTEE**
+
+The verse is explained as a report that among them are people of trust who discharge what they are given and do not betray it, and among them is the man who betrays his trust, who is corrupt in his oath and treats as lawful what he has taken. The two are set side by side so that neither is generalised: the believers are not told that no one among them can be trusted, and they are not told that all of them can.
+
+### **WHY THE BELIEVERS ARE TOLD**
+
+An objection is raised and answered. What is the point of telling the Prophet this, when people have always been divided between those who discharge a trust and those who betray it? The answer given is that the purpose of the report is practical: it is a warning to the believers not to place their property in these people's hands, and a means of frightening them out of being taken in by them, because many of them treat the property of the believers as lawful to themselves.
+
+### **THE EXCEPTION AND HOW IT IS READ**
+
+The clause about pressing the man is read in two ways. The first takes it as demanding: he does not discharge it unless you keep at him with demands and pursuit. Qatādah is reported saying that it means what you sought and followed up, and elsewhere that you exact it from him; Mujāhid glosses the word as persisting. The second takes it literally: al-Suddī is reported saying that he acknowledges the trust while you are standing over him, and when you leave and come back to ask for it, he denies it.
+
+The reading preferred is the first — that it means standing over him with demanding and exacting — and the ground given is the ordinary usage in which a man is said to have stood up for someone's claim until he extracted it for him, meaning that he worked at freeing it and strove to get it out. The reason offered is that standing at a debtor's head would not shift him from his position that the money is lawful to him; what does shift him is that there remains a way to extract it, through demanding, litigation and contention. That extraction is the pressing the verse speaks of.
+
+### **WHAT THEY SAID TO JUSTIFY IT**
+
+The justification is quoted: there is no blame on them and no sin in what they take of the property of the Arabs, because those people are not upon the truth and are idolaters. Qatādah reports it as a claim that no way lies against them in what they take, and in another route as a claim about idolaters, meaning those who are not people of a book. Al-Suddī reports the exchange: asked why he does not discharge his trust, the man answers that there is no blame on them in the property of the Arabs and that God has made it lawful for them. Ibn ʿAbbás reports it as their saying that there is no blame in what they take from these people, since those people are gentiles.
+
+A reply is attributed to the Prophet through Saʿīd ibn Jubayr: when the verse came down he is reported as saying that the enemies of God had lied, and that there is nothing belonging to the Days of Ignorance that is not beneath his feet except the trust, ***“which is to be discharged to the righteous and the wicked.”***
+
+### **ANOTHER SETTING FOR THE SAME SAYING**
+
+Ibn Jurayj gives the saying a different setting. Men who later entered surrender had commercial dealings with the Jews before that; when they asked for the price of what they had sold, the Jews answered that they owed them no trust and no settlement, since they had abandoned the religion they had been upon — and they claimed to have found that in their own book. The same principle is applied in reverse in a question put to Ibn ʿAbbās by Ṣaʿṣaʿah about taking the fruit of **the People of the Book** during raids: Ibn ʿAbbās answered that this was exactly what **the People of the Book** had said, and that once they pay the tribute their property is not lawful to anyone except with their own good pleasure.
+
+### **THE CLOSING CHARGE**
+
+The verse ends with the heaviest charge in the passage. Those who say that there is no blame in taking the property of gentile Arabs — by saying that God has made it lawful for them, and that there is therefore no blame in betraying them of it and in not settling with them — are described as inventing falsehood against God while knowing it is falsehood. Al-Suddī states it as speaking falsehood about God and knowing it, and Ibn Jurayj as their claiming to have found in their book what they were saying. The knowledge is what makes it a lie rather than an error.
+
+## **3:76**
+
+> Absolutely! Those who honour their trusts and shun evil—surely Allah loves those who are mindful ˹of Him˺
+
+### **MEANING**
+
+The verse opens with a word that reverses everything just quoted, and then restates the principle in positive form. It is not as those people claim; rather, the one who keeps his covenant with God and is mindful of his Lord is the one God loves. After a passage about who may be trusted with money, the standard being applied is the one the passage opened with: what a person owes to God.
+
+### **WHAT THE OPENING WORD REVERSES**
+
+The opening is explained as a flat denial of the claim reported in the verse before — that no blame or sin attaches to them in the property of others. The denial is not softened or qualified; it simply reverses the ruling. What follows then supplies the right ruling, and the contrast is between a claim about what is owed to men and a statement about what is owed to God.
+
+### **WHOSE COVENANT IT IS**
+
+A note is attached to the pronoun: the covenant referred to is God's, going back to the mention of God in the preceding charge of inventing falsehood against Him. The covenant is then identified as ***“the charge He entrusted to them in their own scripture”*** — belief in the messenger sent to them and in what he brought them. The fulfilment asked for is therefore not a vague faithfulness but the keeping of an undertaking that the passage has already said they broke.
+
+### **WHAT FULFILLING IT INCLUDES**
+
+Fulfilment is spelled out in two directions. It includes discharging the trust to the person who entrusted it, which ties the verse back to the money of the previous verse, and it includes the rest of what God has commanded and forbidden. Trustworthiness with what belongs to others is thus placed inside the keeping of the covenant rather than beside it, and the two halves of the passage are joined at that point.
+
+### **WHAT THE MINDFULNESS CONSISTS IN**
+
+Mindfulness is explained as keeping away from what God has forbidden — unbelief in Him first, and then the rest of the acts of disobedience He has made unlawful — and keeping away from them out of watchfulness of His threat and fear of His punishment. A report from Ibn ʿAbbás narrows it: he takes the mindfulness here as mindfulness of associating partners with God, and those whom God loves as the people who guard against associating partners with Him. The narrow reading does not cancel the wide one; it names the head of the list.
+
+### **HOW IT ANSWERS THE VERSE BEFORE IT**
+
+The two verses are a pair, and the second is the ruling the first was missing. The claim quoted in the previous verse was that property belonging to outsiders could be taken without blame; the answer here is that blame attaches to the breaking of a covenant, and that the person who keeps it is the one who is loved. The property is not the point of either verse, and that is why the reply is stated in terms of what is owed to God.
+
+### **WHY LOVE CLOSES THE VERSE**
+
+The sentence ends with love rather than with a ruling, and the reason is the shape of the whole passage. Everything that has been quoted from the other side has been a claim about entitlement — who may take what, and from whom, and on what ground. The answer given here is that what matters is not what a person may take but whether he is the kind of person God loves, and that is settled by keeping the covenant and being mindful. Those who keep to that are described as fearing His punishment and being wary of His torment, avoiding what He has forbidden and obeying what He has commanded.
