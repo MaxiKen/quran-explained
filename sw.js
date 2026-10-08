@@ -13,16 +13,22 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.5.52';
+const CACHE_VERSION = 'quran-reader-v3.0.0-saadi';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
 // cache, so these URLs are dropped from every cache when this version activates
 // (the chapter downloads themselves are still carried across versions below).
-// All previously generated commentary was cleared on 2026-10-01. Chapter 1
-// has since been republished; Chapter 2 still has no current payload. When a
-// chapter is published again, take its URL out of this list so it is kept.
-const RETIRED_PAYLOADS = ['./data/tafsir_002.json'];
+//
+// The whole commentary corpus was replaced with Tafsīr as-Saʿdī in Arabic and
+// the payload shape changed (verses now point into a deduplicated `blocks`
+// array). Chapters 1–3 are the ones an older cache can actually be holding, so
+// those three are retired here; every other chapter simply downloads fresh.
+const RETIRED_PAYLOADS = [
+  './data/tafsir_001.json',
+  './data/tafsir_002.json',
+  './data/tafsir_003.json'
+];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -40,6 +46,8 @@ const CORE_ASSETS = [
   './fonts/hafs.18.woff2',
   './fonts/hafs.18.ttf',
   './fonts/AmiriQuran-Regular.ttf',
+  './fonts/NotoNaskhArabic-Regular.woff2',
+  './fonts/NotoNaskhArabic-Bold.woff2',
   './fonts/Inter-Variable.ttf'
 ];
 

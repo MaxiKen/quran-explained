@@ -28,6 +28,27 @@
   font-display: swap;
 }
 
+/* Noto Naskh Arabic — Arabic *prose* face for the commentary.
+   The two faces above are Quran-script fonts tuned to the Uthmanic rasm of the
+   verse text; tafsir prose set in them loses its punctuation shaping and is
+   hard to read at body size. Bundled locally (SIL Open Font License, see
+   ../fonts/OFL-NotoNaskhArabic.txt) so the commentary still renders with no
+   network access. */
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url('../fonts/NotoNaskhArabic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url('../fonts/NotoNaskhArabic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Inter (variable font, weights 100–900) — UI font (SIL Open Font License) */
 @font-face {
   font-family: 'Inter';
@@ -947,6 +968,48 @@ body {
   padding: 2px 6px; border-radius: 4px; font-size: 13.5px; font-family: monospace;
 }
 .modal-loading-state { padding: 12px 0; }
+
+/* ================================================
+   TAFSĪR AS-SAʿDĪ — Arabic commentary
+   The payload is the Arabic original, so every commentary surface is laid out
+   right-to-left in a prose face and given the taller leading Arabic needs.
+================================================ */
+.tafsir-text { margin: 0; }
+.tafsir-text.tafsir-rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Naskh Arabic', 'Amiri', 'Scheherazade New', 'Traditional Arabic', 'Geeza Pro', 'Segoe UI', Tahoma, serif;
+  font-size: max(17px, calc(var(--english-font-size, 17px) + 0.5px));
+  line-height: 2.15;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+  color: var(--text-secondary);
+}
+.tafsir-rtl .modal-p { margin-bottom: 20px; line-height: 2.15; }
+.tafsir-rtl .modal-blockquote {
+  border-left: none; border-right: 3.5px solid var(--accent);
+  border-radius: 14px 0 0 14px;
+}
+.tafsir-rtl .modal-list, .tafsir-rtl .modal-ordered-list { padding-left: 0; padding-right: 24px; }
+.tafsir-rtl .modal-section-title, .tafsir-rtl .modal-h2, .tafsir-rtl .modal-h3,
+.tafsir-rtl .modal-h4, .tafsir-rtl .modal-h5 { text-align: right; }
+.tafsir-rtl strong { font-weight: 700; }
+.tafsir-rtl em { font-style: normal; }
+
+/* as-Saʿdī writes the words he is explaining between braces: {قُلۡ}. The braces
+   become this inline quotation treatment (see parseInline). */
+.quran-quote {
+  font-family: 'Noto Naskh Arabic', 'Amiri Quran', 'KFGQPC Hafs', serif;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.04em;
+  white-space: nowrap;
+}
+
+/* Overview sheet shown when a sūrah has no separate introduction block */
+.tafsir-source-card { display: flex; flex-direction: column; }
+.tafsir-source-card .ebook-secondary-btn { align-self: flex-start; margin-top: 8px; }
 
 /* ================================================
    SURAH END
