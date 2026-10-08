@@ -3231,3 +3231,211 @@ The second register is allegiance. The clause is understood as meaning that he w
 ### **WHY ABRAHAM IS THE MEASURE**
 
 The argument works because everyone in the dispute already claims him. What the verse does with that claim is turn it into a test: the thing you all agree about — that Abraham was upon truth and straight guidance — is the thing to follow, and the things you differ about are the things you added. The disputed prohibition, on this reading, is one of the additions, and Qur’an 3:93 has already shown where it came from.
+
+## **3:96**
+
+> Surely the first House ˹of worship˺ established for humanity is the one at Bakkah—a blessed sanctuary and a guide for ˹all˺ people
+
+### **MEANING**
+
+The argument moves from the way of Abraham to the house associated with him. The earliest house set up for people is the house at Bakkah — blessed, and guidance for the worlds. The verse is a claim about priority, and the explainers spend some care on what exactly it is prior in.
+
+### **THE FIRST ACCOUNT: FIRST IN ITS KIND**
+
+One account takes the verse to mean: the earliest house set up for people, for God to be worshipped in, blessed and a guidance, is the house at Bakkah — and not the earliest building of any kind, since there had been many houses before it.
+
+ʿAlī is reported being asked directly whether it is the earliest house set up on the earth, and answering: no — but it is the earliest house set up with blessing, the station of Abraham, and whoever enters it is safe. When asked where the people of Noah were, and where the people of Hūd, he is reported repeating that it is the earliest house set up for people as a blessing and a guidance. Al-Ḥasan is reported calling it the earliest mosque in which God was worshipped on the earth. Maṭar is reported saying that there were houses before it but that it is the earliest house set up for worship, and Saʿīd is reported glossing the phrase as *set up for worship*.
+
+### **THE SECOND ACCOUNT: FIRST IN TIME**
+
+A second account takes it as the earliest house outright, and then differs on how.
+
+Some say it was created before all the earths, and the earths were then spread out beneath it. ʿAbdullāh ibn ʿAmr is reported saying that God created the House two thousand years before the earth, and that while His throne was upon the water it was a white foam, and the earth was spread out from beneath it. Mujāhid is reported saying that the first thing God created was the Kaʿba and that He then spread the earth beneath it, and, through another route, comparing the phrasing to Qur’an 3:110, where the community is described as the best brought forth for people. Al-Suddī is reported saying that when the earth was water, it was a foam upon it, and that when God created the earth He created the House with it, so that it is the earliest house set up on the earth. Qatādah is reported saying that it is the earliest house God set up, and that Adam and those after him went around it.
+
+Others say that the site of the Kaʿba is the site of the earliest house God set up on the earth. Qatādah is reported relating that the House came down with Adam when he came down, and that God said: ***“I send down with you My house, to be circumambulated as My throne is circumambulated”*** — and that Adam went around it, and the believers after him, until the time of the Flood, when God raised it up and kept it pure from the punishment that struck the people of the earth, so that it stood inhabited in heaven; then Abraham traced out its trace afterwards and built it upon an old foundation that had been there before him.
+
+### **WHAT IS PREFERRED**
+
+The statement preferred is the one that follows the wording itself: the earliest house set up for people with blessing and guidance is the house at Bakkah, and the meaning is the earliest house set up for people — that is, for the worship of God in it — *blessed and a guidance*, meaning a resort for the rites of those who perform rites and for the circumambulation of those who go around, in veneration and magnification of God.
+
+The proof given for the restriction is a report from the Prophet. Abū Dharr is reported saying: I asked, O messenger of God, ***“which mosque was set up first?”*** and he said: the Sacred Mosque. I said: then which? He said: the Aqṣā Mosque. I said: how long between them? He said: forty years. The point drawn from it is that the Sacred Mosque is the earliest mosque God set up on the earth. The further question — whether a structure stood on the site before it, in a sense other than a house for devotion, guidance and blessing — is left with the difference already reported about it.
+
+### **WHAT BAKKAH IS**
+
+The phrase is explained as: the house at the place where people crowd together for their circumambulation, in the pilgrimage and the lesser pilgrimage. The root of the word is crowding and jostling: one says that so-and-so *bakka* so-and-so when he jostled and pushed him, and that people *tabākkūna* in a place when they crowd and jostle in it. The spot is thus named from the act of those who crowd into it.
+
+Since it is the place of crowding around the House, and no circumambulation counts outside the mosque, the conclusion drawn is that what lies around the Kaʿba inside the mosque is Bakkah, while what is outside the mosque is Makkah — there being nothing outside it that would require people to crowd there. On that basis the view that Bakkah is the name for the interior of Makkah while Makkah is the name for the sanctuary is set aside as unsound.
+
+Several reports are given for the distinction. Abū Mālik al-Ghifārī is reported saying that Bakkah is the site of the House and Makkah everything besides it, and Ibrāhīm is reported saying the same; ʿAṭiyyah says the site of the House and what is around it; Ibn Shihāb is reported saying that Bakkah is the House and the mosque while Makkah is the whole sanctuary; Ḍamrah is reported saying Bakkah is the mosque and Makkah the houses. Mujāhid is reported explaining the name by the crowding of men and women in it, Saʿīd by their jostling, and Ibn al-Zubayr by their coming to it as pilgrims. Qatādah is reported saying that God crowded everyone together at it, so that women pray in front of men there, which is not done in any other land. Al-Ḍaḥḥāk is reported saying simply: it is Makkah.
+
+### **WHY IT IS CALLED BLESSED**
+
+A reason is given for the word: it is called blessed because circumambulating it is a forgiveness of sins. The blessing is thus tied to what is done there rather than to the structure, which is consistent with the reading of the verse that was preferred.
+
+### **HOW THE VERSE IS PUT TOGETHER**
+
+A grammatical note is added on the accusative of the word for blessed. On the reading that this is the earliest house set up, the word is treated as a circumstantial phrase cut off from *the house at Bakkah* — the noun it describes being definite while this word is indefinite — and the word for guidance is then conjoined to it. On the other reading, it is an accusative of specification drawn out of the verb *was set up*, whose subject is already occupied by the word for house.
+
+## **3:97**
+
+> In it are clear signs and the standing-place of Abraham. Whoever enters it should be safe. Pilgrimage to this House is an obligation by Allah upon whoever is able among the people. And whoever disbelieves, then surely Allah is not in need of ˹any of His˺ creation
+
+### **MEANING**
+
+The house named before is described: in it are evident marks, among them the station of Abraham; anyone who goes into it is to be safe; the pilgrimage of the House is what is owed to God by those who can make their way to it; and whoever rejects it — God has no need of anything He has made.
+
+### **THE MARKS IN IT**
+
+The readers differ over the opening clause. The readers of the cities read it in the plural, meaning marks and signs; Ibn ʿAbbás is reported reading it in the singular, meaning one sign, and taking that to be the station of Abraham.
+
+The explainers differ over what the marks are: some say the station and the sacred rite-place, which is how Ibn ʿAbbás is reported naming them, while Qatādah and Mujāhid are reported saying that the station is among them; others take them as the station together with the safety of those who enter, as al-Ḥasan is reported reading it. Those who read the singular are reported explaining the one sign as his two feet in the station, on the report of Mujāhid.
+
+The view preferred is that the station is one of the marks, on the report of Qatādah and Mujāhid — the words *some of them* being understood and left out because the sentence shows them. The rest are given as the Stone and the Ḥaṭīm.
+
+### **WHOEVER GOES INTO IT IS SAFE**
+
+Three readings of the protection are given.
+
+The first takes it as news about what used to hold: in the days before Islam, a man who committed an offence and then took refuge in the sanctuary was not reached and not pursued. Qatādah is reported saying this, and adding what holds in Islam: the sanctuary does not put the limits of God aside — whoever steals in it has his hand cut, and whoever kills in it is killed.
+
+The second takes it as a conditional with its consequence, noting that the sanctuary was the refuge of everyone afraid and the shelter of every offender in the days before Islam, and that Islam only increased it in veneration. What is done with a man who incurs a penalty and flees there is set out in a number of reports: he is not dealt with while he is in it — not bought from or sold to, not fed, not sheltered, not spoken to — until he grows weary and comes out, and then the penalty is carried out; but if he committed the offence inside, it is carried out inside. This is reported from Ibn ʿAbbás through several routes, and from Saʿīd ibn Jubayr, ʿAṭāʾ and ʿIkrimah; and Ibn ʿUmar is reported saying that were he to find the killer of ʿUmar in the sanctuary he would not disturb him.
+
+The reading preferred is the second, qualified: anyone entering it seeking its protection is safe from what he sought protection from while he is in it, until he comes out; if he incurred a penalty outside and then took refuge there, he is brought out and the penalty is carried out, while if he incurred it inside, it is carried out inside.
+
+### **THE DUTY OF THE PILGRIMAGE**
+
+The obligation is a due owed to God by those who are able, and the explainers differ over what the way to it consists in.
+
+One view is provision and a mount — reported from ʿUmar, ʿAmr ibn Dīnār, Saʿīd ibn Jubayr, ʿAṭāʾ, al-Ḥasan and al-Suddī. Reports to the same effect are given from the Prophet through Ibn ʿUmar and al-Ḥasan, and through ʿAlī, who is reported adding that whoever owns provision and a mount that will get him to the house of God and does not perform the pilgrimage may as well die a Jew or a Christian.
+
+A second view is capacity to reach it, whether by walking or by riding, and whether or not there is an obstacle on the road — an enemy in the way, little water, or the like. Ibn al-Zubayr is reported saying: according to capacity. Al-Ḍaḥḥāk is reported saying provision and a mount, but adding that a healthy young man without property should hire himself out for his food and keep. ʿAṭāʾ is reported saying that whoever finds something that gets him there has found the way, and ʿĀmir that the way is whatever God makes easy.
+
+The view preferred is the second: it is according to capacity, since the word for way in Arabic is the road, so that whoever finds a road to the pilgrimage with nothing standing between him and it has the obligation upon him, and is not discharged except by performing it. The ground added is that God did not, when He imposed the duty, exempt some of those who are able. The word for pilgrimage is read with the second letter either broken or open; both are known dialects of the Arabs — the broken form the dialect of Najd, the open form the dialect of the highlands — and the people who know the dialects are agreed that they are two dialects with one meaning, so that either reading is correct.
+
+### **WHOEVER REJECTS**
+
+Several accounts are given of the rejection named at the end.
+
+The first is denial of the duty: whoever claims it is not incumbent on him. This is reported from Ibn ʿAbbás; from ʿAṭāʾ and al-Ḍaḥḥāk as *whoever denies the pilgrimage and rejects it*; from al-Ḥasan, who adds that whoever denies it and does not see it as a duty incumbent on him has rejected; and from Mujāhid, who is reported saying in one version that whoever rejects the pilgrimage has rejected God
+
+The second is performing it without hope and omitting it without fear. Mujāhid is reported saying ***“if he performs it he does not count it piety, and if he sits back he does not count it a sin,”*** and Ibn ʿAbbás is reported saying the like. A man of Hudhayl is reported asking the Prophet whether everyone who leaves it has rejected, and being answered: whoever leaves it without fearing its punishment, and performs it without hoping for its reward — that is the one.
+
+The third takes it as rejecting God and the Last Day, reported from Mujāhid and from the Prophet through Ibn ʿUmar. Al-Ḍaḥḥāk is reported giving the occasion: when the verse came down, the Prophet told the people of every creed that God had prescribed it for them, and one creed believed while five rejected it.
+
+The fourth takes it as rejecting these verses about the station of Abraham, from Ibn Zayd; the fifth as rejecting the House, from ʿAṭāʾ; the sixth, from al-Suddī, as leaving it until death.
+
+The reading preferred is the first: whoever denies the duty and rejects its incumbent status, God is free of need of him, of his pilgrimage and of all the worlds. The ground given is that the clause comes immediately after the imposition of the duty; that the one who rejects a duty God has imposed has rejected God; and that the root sense of the word is denial. It is added that although the expressions differ, the meanings are close to one another.
+
+## **3:98**
+
+> Say, ˹O Prophet,˺ “O People of the Book! Why do you deny the revelations of Allah, when Allah is a Witness to what you do?”
+
+### **MEANING**
+
+The address turns back to the **People of the Book** with a question put in the form of a rebuke. Why is it that they reject the signs of God, when they know? And God is witness over what they do. The verse asks for no information; it asks them to answer for what they already know.
+
+### **WHO IS ADDRESSED**
+
+The call is explained as directed to the Jews of the Children of Israel and to everyone else who professes the religion of what God sent down of His books, among those who rejected Muḥammad and denied his prophethood. Al-Ḥasan is reported glossing it simply: they are the Jews and the Christians. The description is therefore not restricted to one community but covers everyone who holds a scripture and rejects the messenger who came confirming it.
+
+### **WHAT THE SIGNS ARE**
+
+The signs are explained as the proofs which God gave to Muḥammad — in their books and elsewhere — which stand established against them as evidence of his truthfulness, his prophethood and his authority. The word used is the one for evidences, and the point is that the evidences are not new or remote: they are in the books the addressees themselves hold.
+
+A report from al-Suddī identifies the sign with the man himself: ***“as for the signs of God, it is Muḥammad.”*** On that reading the signs are not only what he brought but what he is — the thing they were given to recognise and did not.
+
+### **WHAT THE QUESTION ASKS**
+
+The question is explained as asking why they deny that of his affair when they know he is truthful. The knowledge is stated as part of the charge: what is described is not error but denial in the face of what is known. The verse is thus explained as a piece of information from God about them — that they are rejecting God and His messenger deliberately, knowingly, and with awareness of what they are rejecting.
+
+This is of a piece with what the surah has been saying since the passage on the covenant: the same people are described again and again as acknowledging and then denying, and each time the acknowledgement is what makes the denial what it is.
+
+### **THE WITNESS**
+
+The closing clause is explained as: God is witness over what they do — not forgetful of their deeds, of what He does not approve for His servants or of anything else they do — so that He either brings the punishment on them swiftly or defers it until they meet Him and He repays them for it.
+
+The witness is named after the knowledge, and the two belong together. Because they know, the rejection is deliberate; and because God knows, it is recorded. Nothing in the exchange is lost for want of a witness to it.
+
+### **HOW IT OPENS THE CLOSING PASSAGE**
+
+These three verses turn the whole argument towards its end. The question of what is lawful and unlawful has been settled, the house and the pilgrimage have been named, and now the address comes back to the people the surah has been arguing with throughout — not with a new proof but with a question about what they are doing with the proofs they already have.
+
+## **3:99**
+
+> Say, “O People of the Book! Why do you turn the believers away from the Way of Allah—striving to make it ˹appear˺ crooked, while you are witnesses ˹to its truth˺? And Allah is never unaware of what you do.”
+
+### **MEANING**
+
+A second question follows, about what they do to other people. The **People of the Book** are asked why they turn away those who have faith from the path of God, wanting crookedness for it, when they are witnesses.
+
+### **WHAT TURNING AWAY MEANS**
+
+The verb is explained as leading astray: why is it that you lead people away from the road of God and His clear way, which He laid down for His prophets, His friends and the people of faith? The object of the turning is then named: *him who believes* — the one who declares true God and His messenger and what he brought from God. What is described is therefore not simply unbelief but active work against the belief of others.
+
+### **SEEKING CROOKEDNESS FOR IT**
+
+The clause is explained as *you seek crookedness for it*, the pronoun going back to the path and being feminine because the word for path is feminine. A line of Suḥaym ʿAbd Banī al-Ḥasḥās is cited for the construction: ***“your seeking, and what you seek, until you found it — as though you had appointed it an appointment yesterday,”*** where the sense is *your seeking and the thing you seek*. The explanation adds the distinction the Arabs make in the verb: *seek it for me* is one form, and *help me seek it* another.
+
+The word for crookedness is explained as bending and leaning, and what is meant by it is straying from guidance. The sense given is: why is it that you lead people away from the religion of God, wanting for it deviation from its way and from its straightness? A note is then made that the speech goes out on the path while the meaning is its people — the sense is that they want crookedness for the people of the religion of God, meaning straying from the truth and swerving from uprightness upon guidance.
+
+A further distinction is drawn between two words: the one with the first vowel broken is crookedness in religion and in speech, while the one with it open is leaning in a wall, a channel, or anything standing upright. The word used in this verse is the first — a crookedness in the thing itself, not a tilt in its appearance.
+
+### **WITNESSES, AND THE CLOSING**
+
+The clause about being witnesses is explained as: witnesses that what you are turning people away from is the truth, which you know and find in your books. The witness is thus the same knowledge that was named in the verse before, and it is what turns the turning-away into something worse than a mistake.
+
+The closing is explained as: God is not unaware of the deeds you do, whether of what He does not approve for His servants or of anything else of your deeds — so that He either brings the punishment on you at once or defers it until you meet Him and He repays you for it.
+
+### **WHY IT CAME DOWN**
+
+A report of the occasion is given through Ibn Isḥāq, from Zayd ibn Aslam. These two verses, together with the verses after them up to the mention of a grievous torment, came down about a Jew who tried to stir up trouble between the two clans of the Anṣār, the Aws and the Khazraj, after they had entered Islam, in order to bring them back to the enmity and hatred they had held in the days before it. God rebuked him for it and made his act ugly to him, and with it admonished the companions of the messenger of God, forbidding them division and difference and commanding them to be united.
+
+The man is named as Shās ibn Qays — an old man, hardened in the days before Islam, bitter against the Muslims and bitterly envious of them. He came upon a group of the companions from the Aws and the Khazraj sitting together and talking, and what he saw of their unity, their affection and their good relations on Islam, after the enmity that had been between them, angered him. He said that the notables of the sons of Qayla had gathered in that land and that there would be no standing against them if their notables were united. So he told a young Jewish man with him to go and sit with them, to remind them of the day of Buʿāth and of what had gone before it, and to recite to them some of the poems they had exchanged — Buʿāth being the day on which the Aws and the Khazraj had fought.
+
+The young man did it. The talk turned to boasting and dispute until two men of the two clans were up on their knees — Aws ibn Qayẓī of the Aws and Jabbār ibn Sakhr of the Khazraj — and one of them said: if you wish, we can bring it all back as it was. Both sides grew angry and called for their weapons, naming the lava-field as their meeting-place, and went out to it with the Aws ranged against the Khazraj as they had been before Islam.
+
+News of it reached the Prophet, and he went out to them with the Emigrants among his companions. He is reported saying: O assembly of the Muslims, God, God — the claims of the days before Islam, while I am still among you, after God has guided you to Islam and honoured you with it, and cut off from you by it the affair of those days, and rescued you by it from rejection, and joined your hearts by it? They recognised it as a provocation from the Enemy; they threw down their weapons, wept, and the men of the two clans embraced, and they went back with the messenger of God, hearing and obeying, God having extinguished the plot of Shās ibn Qays. These verses came down about him and about what he did, and the verse after them about the two men and those of their people who answered him.
+
+### **THE OTHER ACCOUNT AND THE PREFERENCE**
+
+Others take the verse as addressed to the Jews settled in the city of the messenger of God when these verses came down, and to the Christians, and take the turning away as their answers to enquirers: when asked whether they found mention of him in their books, they said they did not find his description there. Al-Suddī is reported putting it in those terms and adding that they sought ruin for him. Qatādah is reported explaining it as turning people away from Islam and from the prophet of God while being witnesses, in what they read of the book of God, that he is the messenger of God — finding it written with them in the Torah and the Gospel. Al-Rabīʿ is reported saying the like, and al-Ḥasan that they wanted to divert people to misguidance.
+
+The reading preferred is al-Suddī's, on which the sense is: why is it that you lead people away from Muḥammad and prevent those who believe in him from following him, by concealing the description of him found in your books — with the path named in the verse being him, and the crookedness sought for it being his ruin. The other reports are in line with the interpretation in which the path is Islam and the truth that he brought.
+
+## **3:100**
+
+> O believers! If you were to yield to a group of those who were given the Scripture, they would turn you back from belief to disbelief
+
+### **MEANING**
+
+The address turns from the **People of the Book** to those who believe. If they were to give way to a party of those who hold the scripture, those people would send them back, after their faith, to rejection. The verse is a warning about whose counsel is taken, and the warning is addressed to the people who have just been described as being turned away.
+
+### **WHO IS MEANT**
+
+Two reports are given of who the verse came down about.
+
+The first takes *O you who believe* as the Aws and the Khazraj, and the party of the people of the scripture as Shās ibn Qays the Jew — the man in the account already given, who sent a young man to remind the two clans of the day of Buʿāth and of the poems they had exchanged, until they took up weapons against one another and the messenger of God went out and calmed them.
+
+The second agrees about who the believers are but names a different man on the Muslim side. Al-Suddī is reported saying that the verse came down about Thaʿlabah ibn ʿAnamah of the Anṣār: there had been words between him and some people of the Anṣār, and a Jew of the Qaynuqāʿ went between them and set some against others, until the two parties of the Aws and the Khazraj were on the point of taking up weapons and fighting. On this account the verse was sent down to say: if you take up weapons and fight one another, you will have rejected.
+
+Mujāhid is reported telling the same event without naming either man. The clans of the Anṣār, he says, comprised two branches, the Aws and the Khazraj, and between them in the days before Islam there had been war, bloodshed and hatred, until God favoured them with Islam and with the Prophet, extinguished the war between them and joined their hearts by it. Then a man of the Aws and a man of the Khazraj were sitting together talking, with a Jew sitting with them, and he kept reminding them of their days and of the enmity that had been between them until they reviled one another and came to blows. Each called his people, and the two groups went out with weapons and drew up in ranks against one another. The messenger of God was in the city that day; he came and kept walking between them until they went back and laid down their weapons — and this verse came down about it.
+
+### **WHAT OBEYING THEM WOULD HAVE MEANT**
+
+The verse is explained as addressed to those who have declared true God and His messenger and acknowledged what their prophet brought them from God: if you obey a party of those who profess the Book, from among the people of the Torah and the Gospel, and accept from them what they command you, they will lead you astray and send you back — after your declaring true the messenger of your Lord and acknowledging what he brought from Him — as rejecters.
+
+The mechanism is worth noting. What is feared is not that the believers might be argued out of their faith but that they will be led into a quarrel among themselves. The Jew in each account does not preach; he reminds. He brings back what was between them, and the fighting is what the verse calls rejection.
+
+### **WHAT THE RETURN IS**
+
+The return named at the end is explained as becoming deniers of what they had believed and declared true, of the truth that had come to them from their Lord. It is not described as a conversion to another creed but as an undoing: the thing they had, lost by the way they behaved towards one another.
+
+The verse therefore forbids taking these people as sincere advisers, or accepting an opinion or a counsel from them, and teaches the believers what those people carry inwardly — rancour, deceit, envy and hatred.
+
+### **THE WARNING**
+
+Qatādah is reported putting the warning in a single address: God has told you about them already, as you hear; He has cautioned you and informed you of their misguidance. ***“Do not trust them with your religion, do not take them as advisers over yourselves, for they are enemies, enviers, astray.”*** How can you trust a people, he is reported asking, who rejected their own book, killed their messengers, wandered in their religion and failed themselves? Those, by God, are the people of suspicion and enmity. Al-Rabīʿ is reported saying the like.
+
+### **HOW THE PASSAGE ENDS HERE**
+
+The surah's argument with the People of the Book has run through every register: covenant, scripture, prophet, house, and now counsel. The last warning is the most practical of them all. What is being held out is not a doctrine to reject but a quarrel to resume — and the verse tells the believers that the quarrel itself is the apostasy, and that the people suggesting it know exactly what they are doing.
