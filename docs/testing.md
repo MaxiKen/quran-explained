@@ -16,6 +16,10 @@ done
 
 Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
 
+| tool | scope |
+|---|---|
+| `tools/verify_verse.py` | per-verse gate: house layout, tier floor, transliteration, Cyrillic, `ayah_en` quote run, `draws_on`, and **every cited authority against that verse's own source blocks**. Run with `--file` before writing a draft, and on the payload after. |
+
 | harness | scope |
 |---|---|
 | `sources-all.js` | six-source payload, all 114 files, read-aloud path |
