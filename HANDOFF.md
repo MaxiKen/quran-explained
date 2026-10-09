@@ -23,19 +23,27 @@ Three layers, all working:
 2. **`data/plan.json`** — a fitted classifier that gives every verse a tier and
    a word target, so a ruling or a narrative gets room and a refrain gets one
    honest paragraph. Built by `tools/tier_verses.py`, verified, done.
-3. **`data/guidance_NNN.json`** — the authored commentary. **This is the
-   remaining work: 18 of 6,236 verses are written.**
+3. **`data/guidance_NNN.json`** — the authored commentary. **27 of 6,236
+   verses are written: chapter 1 (7, OLD LAYOUT), 2:1-2:20. Chapter 112 is empty.**
 
 ## The single most important instruction
 
-> **Write in the house format: one paragraph per verse, quoted phrases only.**
+> **Write in the house format: a short plain-English intro, then 3-6 headed sections.**
 >
 > **Before committing a batch, post one full verse in the chat for review.**
 >
 > **About 20–25 verses per run. Commit and push at the end of every session.**
 
 The full format is in [`docs/style.md`](docs/style.md). Read it before writing
-anything.
+anything. **Three formats were tried and rejected on 2026-10-09** — a
+multi-paragraph layout, then a single paragraph with inline `**bold**` signposts.
+Do not reinvent either. Only `docs/style.md` is normative; if any other document
+in this repo describes verse layout differently, `docs/style.md` wins.
+
+**Chapter 1 is still in the rejected single-paragraph layout** and therefore
+fails `style-check` rule 1. That is the one known failing check. It has not been
+converted. Convert it, or leave it — but do not copy its layout for new verses;
+copy **2:1-2:20** instead.
 
 The 50-verses-per-run target was **withdrawn on 2026-10-09**. It is the pace
 that produced the quote-stacking which got the entire corpus cleared. Volume was
@@ -103,7 +111,7 @@ Every step is explained in [`docs/workflow.md`](docs/workflow.md).
 | [`docs/workflow.md`](docs/workflow.md) | the session loop, step by step |
 | [`docs/batching.md`](docs/batching.md) | the 50-verse rule and the push rule, verbatim from the maintainer |
 | [`docs/voice.md`](docs/voice.md) | **how to write it** — structure, register, what each tier contains |
-| [`docs/style.md`](docs/style.md) | **the house format** — one paragraph per verse, inline signposts, quoted phrases only |
+| [`docs/style.md`](docs/style.md) | **the house format** — plain intro + 3-6 headed sections; the only normative format spec |
 | [`docs/classifier.md`](docs/classifier.md) | how tiers are assigned, and the known weakness on narrative verses |
 | [`docs/contracts.md`](docs/contracts.md) | the four payload shapes and what breaks if you change one |
 | [`docs/testing.md`](docs/testing.md) | the harnesses, how to add one, the attribution check |

@@ -1,5 +1,17 @@
 # Batching rules
 
+> ## WITHDRAWN - do not follow this document
+>
+> The **50+ verses per session** target below was **withdrawn by the maintainer
+> on 2026-10-09**. It is the pace that produced the quote-stacking which got the
+> entire corpus cleared. Volume was the cause, not a side effect.
+>
+> **Current pace: about 20-25 verses per run.** See
+> [`style.md`](style.md) and [`../HANDOFF.md`](../HANDOFF.md).
+>
+> Everything below is retained only as a record of what was tried and rejected.
+
+
 These are standing instructions from the maintainer, not suggestions.
 
 ## Author more than 50 verses per session
