@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 96 / 286 | 83,050 | 82,850 | 1–96, in seventeen batches |
+| 2 — al-Baqarah | 101 / 286 | 87,698 | 86,000 | 1–101, in eighteen batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**103 of 6,236 verses (1.65%) · 90,431 of 4,013,330 planned words (2.25%)**
+**108 of 6,236 verses (1.73%) · 95,079 of 4,013,330 planned words (2.37%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,8 +20,8 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:96 are done — one third of al-Baqarah. Next: 2:97–2:101, Gabriel,
-the magic at Babylon, and the abrogated verses.
+2:40–2:101 are done. Next: 2:102–2:106, the magic at Babylon, Hārūt and
+Mārūt, and the abrogated verses.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -78,6 +78,14 @@ report has to move, check whether the destination verse already covers it.
 nowhere in 2:89's source blocks. Rephrase to "two men from…" rather than
 adding the word to `NAMES` — `NAMES` is for scholars and transmitters, not for
 group labels.
+
+Batch 18 tripped the **same check for the opposite reason**: 2:100 and 2:101
+named ʿAbdullāh ibn Salām, who appears only in Ibn Kathīr's **2:97–98** block.
+A genuine person, correctly named, cited to verses whose sources do not
+contain him. Replaced with the sūrah's own cross-references ("a few of you" at
+2:83, "a few of them" at 2:88). **The check is about range, not existence** —
+a name can be entirely real and still fail if it sits outside the cited
+block.
 
 Verses that came out *under* target were expanded and stay expanded — 2:10,
 2:14, 2:35, 2:43, 2:48.
@@ -150,8 +158,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 273/273 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 375 checks total.
+`guidance-002` 278/278 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 380 checks total.
 
 ## Deferred, deliberately
 
