@@ -132,7 +132,10 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   // ---------- no regression ----------
   // Chapters 2 and 112 were cleared (2026-10-09). They must load without error,
   // expose no guidance, and fall back to the six classical sources.
-  for (const cs of [2, 112]) {
+  // 112 is still awaiting re-authoring, so it must stay empty and fall back to the
+// six sources. 2 is being re-authored verse by verse and is no longer empty; the
+// general guidance contract above already covers it.
+  for (const cs of [112]) {
     await w.eval(`Promise.all([loadTafsirData(${cs}), loadGuidanceData(${cs})])`);
     const nEntries = w.eval(`loadedGuidance[${cs}] ? Object.keys(loadedGuidance[${cs}].verses).length : -1`);
     ck(`surah ${cs} guidance file loads and is empty`, nEntries === 0, `${nEntries} entries`);
