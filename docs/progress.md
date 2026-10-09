@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 53 / 286 | 40,453 | 42,320 | 1–53, in eight batches |
+| 2 — al-Baqarah | 57 / 286 | 43,811 | 45,760 | 1–57, in nine batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**60 of 6,236 verses (0.96%) · 49,174 of 4,013,330 planned words (1.23%)**
+**64 of 6,236 verses (1.03%) · 52,614 of 4,013,330 planned words (1.31%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,8 +20,8 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:53 are done. Next: 2:54–2:57, the repentance for the calf, the
-cloud, the manna and the quails.
+2:40–2:57 are done. Next: 2:58–2:61, entering the city, the cow, and the
+murder the cow was sent to solve.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -53,6 +53,11 @@ Auditing every authored surah against the new floor found a fourth problem —
 rather than trimmed. Expanded to 783w by `tools/expand_112_1.py`.
 
 **No verse in any authored surah is now under its floor.**
+
+**Leave margin.** 2:54 first cleared its floor by exactly one word (939 against
+938). That passes, but it is one edit away from failing, so it was expanded to
+1,047w. When a verse lands within ~10% of its floor, expand it rather than
+leaving it.
 
 Verses that came out *under* target were expanded and stay expanded — 2:10,
 2:14, 2:35, 2:43, 2:48.
@@ -125,8 +130,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 230/230 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 332 checks total.
+`guidance-002` 234/234 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 336 checks total.
 
 ## Deferred, deliberately
 
