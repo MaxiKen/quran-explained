@@ -64,7 +64,7 @@ for (const [fn, surah] of files) {
     continue;
   }
 
-  const notOnePara = [], badSignpost = [], noOpenQuote = [], badQuoteLen = [],
+  const notOnePara = [], badHead = [], badSignpost = [], noOpenQuote = [], badQuoteLen = [],
         badTranslit = [], underFloor = [];
   let longestSeen = 0;
 
@@ -73,7 +73,9 @@ for (const [fn, surah] of files) {
 
     // ---- rule 1: exactly one paragraph ----
     const paras = t.split('\n\n').map(s => s.trim()).filter(Boolean);
-    if (paras.length !== 1) notOnePara.push(`${surah}:${a} (${paras.length})`);
+    const heads = text.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
+    if (heads.length < 3 || heads.length > 6) badHead.push(`${surah}:${a} (${heads.length})`);
+    if (paras.length < heads.length + 1) notOnePara.push(`${surah}:${a} (intro missing)`);
 
     // ---- rule 2: 3-5 inline bold signposts ----
     const signs = t.match(BOLD) || [];
@@ -127,7 +129,7 @@ for (const [fn, surah] of files) {
     }
   }
 
-  ck(`${fn} rule 1 — one paragraph per verse`, notOnePara.length === 0, notOnePara.join(', '));
+  ck(`${fn} rule 1 — 3-6 headed sections + a plain intro`, notOnePara.length === 0 && badHead.length === 0, notOnePara.join(', '));
   ck(`${fn} rule 2 — ${SIGNPOST_MIN}-${SIGNPOST_MAX} inline signposts`,
      badSignpost.length === 0, badSignpost.join(', '));
   ck(`${fn} rule 3 — opens by quoting the translation`, noOpenQuote.length === 0,
