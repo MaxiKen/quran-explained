@@ -1,8 +1,8 @@
 # The voice
 
 The deliverable is **one integrated commentary per verse in a single voice** —
-not six attributed blocks stacked together. It must read as though written from
-one source, synthesised from the six classical tafsīrs, and it must work
+not eight attributed blocks stacked together. It must read as though written from
+one source, synthesised from the classical tafsīrs, and it must work
 through the app's own English translation, quoting its actual words.
 
 This was the maintainer's explicit correction:
@@ -77,12 +77,12 @@ Both write the same field in `data/guidance_NNN.json` and are gated by the same
 `tools/verify_verse.py` check, so neither can hold a looser standard than the other.
 
 **Authored** — prose written from the sources by hand. The only mode that can
-*resolve* a disagreement between the six rather than set the positions side by
+*resolve* a disagreement between the sets rather than set the positions side by
 side. Slow: roughly 1,300 tokens of typing per tier-A verse, every claim and name
 needing to be checked against the verse's own blocks.
 
 **Compiled** — an extractive splice. `tools/verse_packet.py` numbers and ranks the
-sentences of the six blocks that cover the verse; the spec lists which of them to
+sentences of the blocks that cover the verse; the spec lists which of them to
 use (`- M43.19.2`) and where the seams go; `tools/compile_guidance.py` pastes the
 source's own sentences and writes the file. Three rules make it safe rather than
 merely fast:
@@ -113,3 +113,31 @@ around line 391 in `unitFor`). The guidance layer is **not yet spoken**. If
 that changes, the range label must never be spoken and a shared run must be
 spoken once at its first verse — that behaviour is already tested by
 `tools/tests/sources-all.js` and must not regress.
+
+## The two voices added on 2026-10-09, and their limits
+
+**Laṭāʾif al-ishārāt (al-Qushayrī, d. 465)** is a commentary of *allusion* — what
+the verse indicates beyond its apparent sense. It is the only English source in
+the shelf that reads a verse spiritually rather than legally, which is why the
+deep Medinan verses needed it. Its register is the trap: it writes in homilies
+("the lovers' secrets", "the people of the station"), and it is not evidence for
+a ruling, a cause, or what a scholar held. Use it for what a verse does to the
+reader, in its own words or not at all. Never let an allusion become a claim
+about law, and never cite it as a consensus — it records none.
+
+**Asbāb al-nuzūl (al-Wāḥidī, d. 468)** answers *why a verse was said when it was*.
+It is the source the new opening-paragraph rule needed most, and the one with the
+harshest handling rules:
+
+- It is present on 431 verses. Its absence says nothing about the other 5,805 —
+  do not let an authored verse imply an occasion the file does not carry.
+- Its entries are chains. The chain (`X informed us > Y said`) is exactly what
+  `verse_packet` cuts, and it must stay cut: we are not a ḥadīth collection and
+  we do not grade anything.
+- Only the entries that survive the pollution guard in `docs/sources.md` exist in
+  our payload. Never cite "al-Wāḥidī reports" from memory of the book — cite it
+  from the block, or not at all.
+
+Both sets are optional *inputs*: `draws_on` asks for 5 of them at tiers A and B,
+capped by what covers the verse. Nobody is ever failed for a source that has
+nothing to say.

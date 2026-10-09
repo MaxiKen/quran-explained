@@ -69,7 +69,10 @@ P = dict(w_tr=2, w_ar=1, w_ms=6, w_ns=6, w_sd=4,
 # still applies on top, so the enforced minimums are 975 / 488 / 225.
 BAND = {'A': (1300, 1900), 'B': (650, 1000), 'C': (300, 450)}
 
-SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar')
+# eight sets as of 2026-10-09; the classifier reads whatever covers the verse, so
+# a selective set (al-Qushayrī 20.6%, al-Wāḥidī 6.9%) only ever adds signal
+SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar',
+       'qushayri', 'wahidi')
 
 LEGAL = re.compile(r'\b(halal|haram|lawful|unlawful|forbidden|prohibited|prescribed|'
     r'obligat|divorce|inheritance|dowry|mahr|zakat|alms|fast(ing)?\b|pilgrimage|ablution|'
@@ -117,7 +120,12 @@ def scan(surah):
         spec = []
         dens = []
         for sid in SRC:
-            i = m[sid]
+            i = m.get(sid)
+            if i is None:
+                # a selective edition has nothing on this verse (al-Qushayrī covers
+                # 1,287 verses, al-Wāḥidī 431). Absence is not density and not
+                # verse-specific material, so it must not enter either measure.
+                continue
             st = d['sets'][sid]
             run = sum(1 for x in d['verses'].values() if x.get(sid) == i)
             w = len(st['blocks'][i].split())

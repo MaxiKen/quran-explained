@@ -49,6 +49,9 @@ single-paragraph version put scholarly detail in the first sentence.
 | B | 650–1,000 | 488 |
 | C | 300–450 | 225 |
 
+Per-verse floors are computed from `data/plan.json`, so the number that bites is
+the verse's own (`round(words × 0.75)`), not the band edge.
+
 Per-verse targets live in `data/plan.json` under `words`, which is generated:
 edit `BAND` in `tools/tier_verses.py` and re-run it — never hand-edit the plan.
 The bands were raised on 2026-10-09 (from A 900–1,300 / B 450–700 / C 200–320)
@@ -89,19 +92,25 @@ change made them wrong rather than the data:
 
 ## Sources and attribution
 
-Substance is synthesised from the six tafsīrs shipped in `data/tafsir_NNN.json`:
+Substance is synthesised from the eight tafsīrs shipped in `data/tafsir_NNN.json`
+(six on every verse; al-Qushayrī and al-Wāḥidī where they comment — see
+`docs/sources.md`):
 Ibn Kathīr, Maʿārif-ul-Qurʾān, Al-Mukhtaṣar, Tazkīrul Qurʾān, Tanwīr al-Miqbās,
 al-Jalālayn. Nothing is invented. A named authority must appear in that verse's
 own source block at that verse's range — grep the blob before citing.
 
-`draws_on` lists **only** the sources actually used, not all six.
+`draws_on` lists **only** the sources actually used, not all eight. The gate
+wants **5+ at tiers A and B, 4+ at C** — raised with the length bands on
+2026-10-09, because a 975-word verse cannot be honest on four sets — capped by
+the sets that actually cover the verse, so a Meccan short sūrah is never failed
+for wanting al-Qushayrī.
 
 ## Two ways to produce a verse
 
 **Authored** — composed prose, source-bounded. The only mode that can settle a
 disagreement rather than present it.
 
-**Compiled** — `tools/verse_packet.py` ranks the sentences of the six blocks that
+**Compiled** — `tools/verse_packet.py` ranks the sentences of the blocks that
 cover the verse; a spec lists which to splice and where the seams go;
 `tools/compile_guidance.py` pastes the sources' own wording, checks that every
 spliced sentence is traceable to this verse's own blocks, allows only connectives

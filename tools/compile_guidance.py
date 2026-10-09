@@ -27,7 +27,8 @@ Spec format (one block per verse):
 The gate for each verse: every spliced sentence must be a canon-folded
 substring of that verse's OWN source blocks (after the same normalizer is
 applied to both sides), the connective vocabulary must be traceable, the
-verse must draw on 4+ sets, and the length must reach 60% of the plan floor —
+verse must draw on the number of sets the gate asks for at its tier, and the
+length must reach the plan floor (75% of target) —
 compiled verses are shorter by construction, since they are selections.
 This is deliberately a different, looser length bar than authored prose gets;
 data/plan.json stays the contract for authored text (see docs/voice.md).
@@ -283,8 +284,8 @@ def compile_verses(surah, spec, write=True, title=None):
         body_text = body_text.replace('  ', ' ')
         if not v['quote']:
             errs.append('no > quote of the app translation')
-        if len(used) < 4:
-            errs.append(f'draws on {sorted(used)} — needs 4+ sets')
+        # the set-count rule lives in verify_verse.check() alone, which is called
+        # below — a second copy here is how the two drifted apart once already
         # Layout, tier floor, and the opening-paragraph rule come from the same
         # checker the authored verses are gated by, so the two modes cannot drift
         # apart: one rule, one place. It reports its own messages as errors here.

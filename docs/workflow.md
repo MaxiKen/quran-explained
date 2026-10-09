@@ -49,7 +49,7 @@ python3 tools/dump_sources.py <surah> <lo> <hi>
 ```
 
 This prints the app's own translation for every verse (the wording you must
-quote), the tier and word target, and the six sources. Ibn Kathīr is filtered
+quote), the tier and word target, and the eight source sets. Ibn Kathīr is filtered
 to sentences carrying named authorities and definitions; add `--ik` for more
 or `--all` for everything including the Arabic.
 

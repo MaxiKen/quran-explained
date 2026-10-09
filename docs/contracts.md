@@ -10,7 +10,7 @@ A `.js` file assigning an array. Each sūrah object has `verses`, each verse has
 commentary must quote** — the harness checks that the guidance contains its
 actual wording.
 
-## `data/tafsir_NNN.json` — the six-source evidence base (generated, committed)
+## `data/tafsir_NNN.json` — the eight-source evidence base (generated, committed)
 
 ```json
 {
@@ -48,14 +48,15 @@ don't rely on it for new work.
 
 - `range` is rendered as the **first line** of the entry, in the form `2:1` or
   `2:8-10`. It is never spoken aloud.
-- `draws_on` records which sources informed the verse. The harness requires 4+
-  and that every id exists in the payload's `sources`.
+- `draws_on` records which sources informed the verse. The harness requires 5+ at
+  tiers A and B (4+ at C, never more than the sets that cover the verse) and that
+  every id exists in the payload's `sources`.
 - `text` is whitespace-normalised on write.
 - **Pretty-printed on purpose** — these are the files a reviewer reads, and the
   app loads them with `res.json()` so whitespace is free.
 
 **A missing file, or a missing verse inside a present file, is normal.** Both
-resolve to no guidance and the app falls back to showing the six sources
+resolve to no guidance and the app falls back to showing the sources
 directly. This is what makes incremental authoring safe — `data/guidance_002.json`
 currently covers 7 of 286 verses.
 
@@ -80,10 +81,10 @@ Regenerate any time with `python3 tools/tier_verses.py`.
 1. If guidance exists for that verse → `renderGuidanceHtml(...)` **followed by**
    `renderSourcesPanel(entries)`. Guidance is a
    `<section class="tafsir-entry tafsir-entry-primary tafsir-guidance" data-source="guidance">`
-   labelled *"In plain words"*, with the range as its first child. The six
-   sources go inside `<details class="tafsir-sources">`, indexed from 1 so none
+   labelled *"In plain words"*, with the range as its first child. The sources
+   go inside `<details class="tafsir-sources">`, indexed from 1 so none
    is marked primary.
-2. Otherwise → the six entries render directly, index 0 marked
+2. Otherwise → the entries render directly, index 0 marked
    `tafsir-entry-primary`.
 
 `renderGuidanceHtml` returns `''` when the file is absent **or** the verse is
@@ -95,5 +96,6 @@ absent from a present file. Both paths are tested.
 |---|---|
 | new `data/` filename prefix | update the cache regex in `sw.js` (`/\/data\/(?:tafsir_\|chapter_\|guidance_)/`) |
 | any payload content change | bump `CACHE_VERSION` in `sw.js`, or browsers serve stale cached copies |
-| `tafsir_NNN.json` shape | update `getVerseCommentary`, `getVerseCommentaryAll`, `getCommentaryRange` and `tools/dump_sources.py` |
+| `tafsir_NNN.json` shape | update `getVerseCommentary`, `getVerseCommentaryAll`, `getCommentaryRange`, `tools/dump_sources.py` and `tools/build_sets.py` |
+| a set added | `tools/build_sets.py` writes `sources`/`sets`; `SETS` in `tools/verse_packet.py` (one letter per set, appended); `SRC` in `tools/tier_verses.py`, then re-run it; `tools/tests/sets-integrity.js` ORDER; the reader's label constants in `js/app.js`; `sw.js` cache version. Card counts must stay derived, not hard-coded — `getVerseCommentaryAll` skips a set with no text, so a selective set changes the count per verse. |
 | `guidance_NNN.json` shape | update `renderGuidanceHtml`, `loadGuidanceData`, `tools/author_template.py`, every harness |

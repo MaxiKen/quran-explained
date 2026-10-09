@@ -315,8 +315,11 @@ const loadedTafsir = {};
 /* The commentary the reader ships and labels itself with. The payload files in
    /data carry their own `sources` list; these are the fallbacks and the string
    the UI shows before a chapter's payload has been fetched. */
-const TAFSIR_SOURCE_LABEL = 'Six Classical Tafsirs';
-const TAFSIR_SOURCE_FULL = 'Six classical tafsirs in English · Ibn Kathīr, Maʿārif-ul-Qurʾān, Tazkīrul Qurʾān, Tanwīr al-Miqbās, al-Jalālayn, al-Mukhtaṣar';
+const TAFSIR_SOURCE_LABEL = 'Classical Tafsirs';
+const TAFSIR_SOURCE_FULL =
+  'Eight classical tafsirs in English · Ibn Kathīr, Maʿārif-ul-Qurʾān, Tazkīrul Qurʾān, '
+  + 'Tanwīr al-Miqbās, al-Jalālayn, al-Mukhtaṣar · plus Laṭāʾif al-Ishārāt and Asbāb al-Nuzūl '
+  + 'where they comment on the verse';
 
 function injectScript(url) {
   return new Promise((resolve, reject) => {
@@ -1330,7 +1333,7 @@ function getCommentaryReadingMinutes(data, tafsir) {
   /* Each classical mufassir comments on runs of verses, so the same text comes
      back for every verse a run covers. Count each distinct block once per
      source — summing every verse would multiply the reading time several
-     times over, and doing it across six sources would be worse still. */
+     times over, and doing it across eight sources would be worse still. */
   const seen = new Set();
   const parts = [];
   const intro = getSurahIntro(tafsir);
@@ -1621,7 +1624,7 @@ function renderGuidanceHtml(guidance, ayahNum) {
     + `${head}${label}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(v.text)}</div></section>`;
 }
 
-/* The six classical texts behind the guidance, folded away until wanted. */
+/* The classical texts behind the guidance, folded away until wanted. */
 function renderSourcesPanel(entries) {
   if (!entries || !entries.length) return '';
   return `<details class="tafsir-sources"><summary>Read the ${entries.length} source tafsirs on this verse</summary>`
@@ -2970,7 +2973,7 @@ function tafsirSourceCardHtml(surahNum) {
   const list = sources.map((s) =>
     `<li><strong>${escapeHtml(s.label)}</strong><span>${escapeHtml(s.author || '')}</span></li>`).join('');
   return `<div class="tafsir-source-card">
-    <p class="modal-p">This reader carries <strong>${sources.length} complete classical tafsirs in English</strong>, every one of them covering all ${ch ? ch.verses : ''} verses of this sūrah. They are shown together, primary first, so you can compare how each mufassir reads the same verse.</p>
+    <p class="modal-p">This reader carries <strong>${sources.length} classical tafsirs in English</strong>. Six of them — the sets below marked primary through al-Mukhtaṣar — cover every verse of this sūrah; the other two are selective works that appear only where their author comments on the verse, so a verse may show fewer cards. They are shown together, primary first, so you can compare how each mufassir reads the same verse.</p>
     <ul class="tafsir-source-list">${list}</ul>
     <p class="modal-p">Every entry opens with the range of verses it covers — a single verse reads like <span class="tafsir-range-inline">2:234</span>, a run reads like <span class="tafsir-range-inline">2:240-242</span> — because the classical mufassirūn usually comment on several verses together. Where two of them group the verses differently, their ranges differ, and that difference is itself informative.</p>
     ${ch ? `<p class="modal-p">${escapeHtml(ch.name_en)} (${escapeHtml(ch.name_ar)}) is ${escapeHtml(place)} and has ${ch.verses} verses.${covered ? ` All ${covered} of them carry tafsir here.` : ''}</p>` : ''}

@@ -4,7 +4,9 @@
     python3 tools/verse_packet.py 2 41-46 [--all] [--min 4]
 
 Prints, per verse: the app translation, the plan tier/floor/flags, and a
-ranked shortlist of sentences drawn from ALL SIX sets. Each sentence carries
+ranked shortlist of sentences drawn from ALL EIGHT sets (six since the corpus
+landed; al-Qushayrī and al-Wāḥidī added 2026-10-09 — they cover 1,287 and 431
+verses, so a Meccan short sūrah may show none of them, which is not an error). Each sentence carries
 a ref (SET:paragraph:sentence) and is the literal text stored in
 data/tafsir_NNN.json — nothing here is composed, so a packet can be diffed
 against the data. The shortlist is what a compiler reads: ~40 sentences
@@ -26,8 +28,11 @@ import unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAN = json.load(open(os.path.join(ROOT, 'data/plan.json'), encoding='utf-8'))
 
+# one letter per set, and it appears in every ref in every spec — adding or
+# reordering a set here shifts every existing spec, so append only
 SETS = {'jalalayn': 'J', 'maarif': 'M', 'ibn-kathir': 'K',
-        'tazkirul': 'T', 'tanwir': 'D', 'mukhtasar': 'X'}
+        'tazkirul': 'T', 'tanwir': 'D', 'mukhtasar': 'X',
+        'qushayri': 'Q', 'wahidi': 'W'}
 AR = re.compile(r'[\u0600-\u060F\u0610-\u06FF\u0750-\u077F\u08A0-\u08FF'
                 r'\uFB50-\uFDFF\uFE70-\uFEFF]+')
 # markers of a sentence worth putting in front of a reader
@@ -38,6 +43,11 @@ KEEP = [
     (r'\b(the verse|this (verse|sentence|phrase)|the command|the address|it refers)', 2),
     (r'\b(permitted|forbidden|obligatory|required|disliked|valid|invalid|must not)', 2),
     (r'\b(consensus|majority|the jurists|Ab[uū] ?Han[iī]fah|M[aā]lik|Sh[aā]fiʿ|Aḥmad)', 1),
+    # added with the two new sets (2026-10-09): al-Wāḥidī answers "why then", al-Qushayrī "besides"
+    (r'\b(it was revealed|revealed about|when (they|the people|the Muslims|he) (said|asked|came)'
+     r'|the reason for that|this is because)', 3),
+    (r'\b(in terms of allusion|the allusion|it is said to mean|a second (meaning|sense)'
+     r'|another reading of it)', 2),
     (r'\b(however|but |on the other hand|they differed|a second opinion)', 2),
 ]
 CUT = [
@@ -47,6 +57,9 @@ CUT = [
     r'^\(\d+\)\s*$',
     r'narrated to us .* from .* from',
     r'\bit was reported on the authority of',
+    # isnād lead-ins: an Asbāb entry whose "sentence" only introduces a chain
+    # carries no meaning on its own and must never be spliced
+    r'^\s*(?:said|narrated|reported|he said)\b[^.?!]{0,90}:\s*$',
     r'^\s*(He said|They said|I heard)\b.{0,25}$',
     r'\bhappy is the one|wretched is the one\b.*^\s*$',
     r'^\s*[\u2018"].{0,20}[\u2019"]\s*:?\s*$',
@@ -55,6 +68,9 @@ CUT = [
     r'>\s*[A-Z][a-z]{2,}',                 # isnad arrows left in a chain: 'authority>Abu X'
     r'^[^A-Za-z]{0,6}[A-Za-z]{1,4}\):',      # a fragment cut out of a bracketed gloss                     # guillemets around untranslated Arabic
     r'^\s*\d+[:.\u2013-]\d+\s*$',
+    # an Asbāb entry opens by quoting the verse it explains; that sentence is the
+    # translation the reader has already been shown, so it is never a pick
+    r'^\s*\(.*\)\s*\[\d{1,3}:\d{1,4}(-\d{1,4})?\]\s*\.?\s*$',
     r'[\u00c0-\u00d6\u00d8-\u00de]',   # mojibake in some sets (Qur\u00ccn, \u1e63l\u02bfm): drop, don't quote
 ]
 
@@ -118,6 +134,10 @@ def verse_sentences(d, ayah, hot=frozenset()):
                 # short gloss sets are the spine of a compiled verse; long ones need selection
                 if sid in ('jalalayn', 'mukhtasar', 'tanwir'):
                     score += 2
+                # the two added sets are verse-specific but not terse; they earn a
+                # smaller bonus so they surface without burying the gloss sets
+                if sid in ('qushayri', 'wahidi'):
+                    score += 1
                 hits = sum(1 for w in re.findall(r"[A-Za-z]{4,}", sent) if canon(w) in hot)
                 score += min(6, 2 * hits)
                 score -= 3 if not hits and len(rows) > 12 else 0

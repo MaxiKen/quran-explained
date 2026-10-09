@@ -257,3 +257,54 @@ number the next `tier_verses.py` run overwrites. Raise `BAND`, re-run
 word counts, not tiers, and if a tier moved you changed the classifier by
 accident.
 
+
+## The upstream corpus is not clean: the Asbāb file is 64% someone else's book
+
+`spa5k/tafsir_api`'s `en-asbab-al-nuzul-by-al-wahidi` was integrated on
+2026-10-08, dropped, and re-integrated on 2026-10-09 through a guard. The reason
+it is not simply ingested: **693 of its 1,089 entries begin with text that is in
+`en-al-qushairi-tafsir`**, and 120 repeat themselves inside the same file. Load it
+as it comes and you publish al-Qushayrī's mystical prose under
+"al-Wāḥidī, occasions of revelation" — a fabricated attribution, at scale, in the
+one direction the maintainer forbids.
+
+`tools/build_sets.py` keeps an entry only if it cites a `[surah:ayah]` of its own
+surah (the book's structure, not a range inferred from where it sits) and matches
+no al-Qushayrī entry, tested at two offsets because the contamination is not
+always at the start. **395 of 1,089 survive.** `tools/tests/sets-integrity.js`
+re-checks the shipped data, so loosening the guard fails the suite rather than
+passing quietly.
+
+The lesson generalises: a new source is not a number of words, it is a chain of
+custody. Before adding an edition, test it *against the other editions in the
+same repo* — cross-file duplication is invisible to a coverage check and obvious
+to a substring one.
+
+## Two failure modes when you add a set to the payload
+
+**Rebuild, never merge.** `build_sets.py` writes `sets[id]` and then points
+`verses[ayah][id]` at block indices. On the first run I forgot to clear the
+previous mapping, so verses kept indices from the earlier blocks array — indices
+*in range* but pointing at the wrong commentary. Nothing raised; the reader would
+have shown a plausible, wrong paragraph. The builder now deletes the set's old
+blocks and every per-verse index for it before writing, and
+`sets-integrity.js` asserts index/range consistency over all 114 files.
+
+**A selective set breaks an "every verse has N sources" assumption.** The reader's
+`getVerseCommentaryAll` skips a set with no text (so the UI is fine), but the
+corpus harness asserted `length === 6` per verse and the classifier indexed
+`m[sid]` directly. Both now express the real invariant — the six *primary* sets
+always, plus never a stale or empty card — and every count the harnesses check is
+derived from the payload instead of hard-coded. A test that pins a count is a
+test that will be weakened the first time the data legitimately changes.
+
+## Adding a source moves tiers; raising a band does not
+
+`BAND` changes rewrote 6,236 word targets and moved **0** tiers. Adding
+al-Qushayrī and al-Wāḥidī moved **147** tiers (B→A in the long Medinan sūrahs) on
+top of 2,080 word targets, because the classifier scores what the sources say
+about each verse, and it can now see more of it. So the order matters: change the
+corpus, re-run `tools/tier_verses.py`, and *then* argue about bands. Reading the
+`tier changes` line is the difference between a plan update and an unexplained
+rewrite of the queue.
+

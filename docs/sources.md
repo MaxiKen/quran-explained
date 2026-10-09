@@ -3,9 +3,12 @@
 Full licence text and upstream URLs are in [`ATTRIBUTION.md`](../ATTRIBUTION.md)
 at the repo root. This file records the working knowledge a session needs.
 
-## The six tafsīrs
+## The eight tafsīrs
 
-100% coverage of all 6,236 verses across all six.
+The first six cover 100% of all 6,236 verses. The last two, added 2026-10-09
+with `tools/build_sets.py`, are selective works: they are read where they
+comment, and absent where their author did not, which is what a selective
+commentary looks like in the data.
 
 | id | source | author | words | verse-specific |
 |---|---|---|---|---|
@@ -15,14 +18,23 @@ at the repo root. This file records the working knowledge a session needs.
 | `tanwir` | Tanwīr al-Miqbās | attributed to Ibn ʿAbbās (d. 68 AH) | 396,789 | 99.6% |
 | `jalalayn` | Tafsīr al-Jalālayn | al-Maḥallī (d. 864 AH) & as-Suyūṭī (d. 911 AH) | 394,149 | 99.2% |
 | `mukhtasar` | Al-Mukhtaṣar | Tafsīr Center for Qurʾānic Studies | 318,381 | 98.7% |
+| `qushayri` | Laṭāʾif al-Ishārāt | Abū al-Qāsim al-Qushayrī (d. 465 AH) | 311,598 | 3.4% (1,287 verses) |
+| `wahidi` | Asbāb al-Nuzūl | al-Wāḥidī (d. 468 AH) | 82,505 | 0.9% (431 verses) |
 
-Totals: 12,043,324 words per-verse sum (**1.92×** the previous single-source
-corpus), 5,041,691 deduplicated unique, 31 MB across 114 payloads.
+Totals: 12,514,682 words per-verse sum (**1.99×** Ibn Kathīr alone), 32.9 MB
+across 114 payloads. Effect on the deep verses, measured against the floors in
+`data/plan.json`: tier A's median material/floor moved from 1.70× to 1.80×, the
+share of tier A under 2× went from 62% to 58%, and the number of verses holding
+less raw material than their own floor went from 195 to 164. That is a real gain
+in the long Medinan sūrahs and none elsewhere: al-Qushayrī's three heaviest
+sūrahs (2, 3, 4) hold 659 of his 1,287 entries.
 
 **Read the "verse-specific" column before designing anything.** Ibn Kathīr is
 the largest source but writes in long runs, so he tells you little about an
 individual verse. The four ~99% sources are where per-verse signal lives — that
-is why the classifier reads all six.
+is why the classifier reads all eight (`SRC` in `tools/tier_verses.py`), and why
+it tolerates a set having nothing on a verse instead of scoring the silence as
+thinness.
 
 ## Excluded, and why
 
@@ -30,9 +42,15 @@ Available in the upstream corpus but not shipped:
 
 | source | reason |
 |---|---|
-| Kashānī | 26.7% verse coverage — too sparse |
+| Kashānī | 26.7% verse coverage — too sparse, and 27 of its chapter-2 entries are under 40 words |
 | al-Tustarī | 14.2% verse coverage |
-| Asbāb al-Nuzūl (al-Wāḥidī) | only 77 files, not per-verse structured |
+
+**Asbāb al-Nuzūl (al-Wāḥidī) was excluded on 2026-10-08 and is now included in a
+guarded form** — see the next section. The Arabic-only editions (Qurṭubī,
+Ṭabarī, *al-Kashshāf*, ʿĀshūr, Shawkānī, *al-Nashr* for the qirāʾāt) stay out on
+purpose: the compiler splices a source's own English sentences, and an Arabic
+block cannot be spliced into English prose. Using them would mean translating
+them, which gives back the verbatim traceability the pipeline exists to keep.
 
 There is **no English as-Saʿdī** in the upstream corpus. An Arabic one was
 integrated early (`317b7e7`) and then replaced by Ibn Kathīr at the
@@ -49,6 +67,7 @@ Per-edition provenance, from the upstream README:
 | editions | host |
 |---|---|
 | Ibn Kathīr (35), Maʿārif (34), Al-Mukhtaṣar (266) | qul.tarteel.ai |
+| Al-Qushayrī (108), al-Wāḥidī (86) | added 2026-10-09 via `tools/build_sets.py` |
 | Tazkīrul Qurʾān | quran.com |
 | Tanwīr al-Miqbās, al-Jalālayn | altafsir.com |
 
@@ -88,3 +107,30 @@ separate licence for the six shipped here.
 
 The three missing licence texts should be added under `fonts/` **before
 distribution**. `ATTRIBUTION.md` states this plainly — do not soften it.
+
+## Upstream damage, and the guard that came out of it
+
+`en-asbab-al-nuzul-by-al-wahidi` is not a clean file. Of its 1,089 entries,
+**693 open with text that belongs to `en-al-qushairi-tafsir`** and 120 repeat
+themselves inside the same file. Ingesting it as it stands would print
+al-Qushayrī's mystical prose under the heading "al-Wāḥidī — occasions of
+revelation", i.e. a fabricated attribution shipped at scale.
+
+`tools/build_sets.py` therefore keeps an Asbāb entry only if it
+
+1. cites a `[surah:ayah]` of its **own** surah — the book's own structure, not a
+   range guessed from its position; and
+2. matches no al-Qushayrī entry for that surah, tested at two offsets because
+   the pollution is not always at the start.
+
+**395 of 1,089 entries survive**, spread over 431 verses. Every dropped entry is
+dropped as *unattributable*, not as inconvenient. `tools/tests/sets-integrity.js`
+asserts the guard holds on the shipped data, so a future re-ingest that loosens
+it fails loudly.
+
+Both editions also arrive with `U+FFFD` where the upstream decode lost Arabic
+punctuation (26% of al-Qushayrī's entries, 36% of al-Wāḥidī's). The builder
+strips the replacement characters and folds quotation marks to the corpus's own
+convention. It does **not** repair wording: no paraphrase, no translation, no
+reordering. What is stored is what the edition says, which is what makes a
+spliced sentence provable.

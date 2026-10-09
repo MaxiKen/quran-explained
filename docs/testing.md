@@ -9,12 +9,19 @@ nothing.
 python3 -m http.server 8000 --bind 0.0.0.0     # from the repo root, in background
 npm i jsdom --prefix /tmp/apptest               # /tmp does not persist between sessions
 export NODE_PATH=/tmp/apptest/node_modules
-for h in sources-all guidance-112 guidance-001 guidance-002; do
+for h in sources-all guidance-001; do           # jsdom harnesses (need the server)
   printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
 done
+node tools/tests/sets-integrity.js              # pure node, no server
+node tools/tests/style-check.js                 # pure node, no server
 ```
 
-Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
+Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 3/3**, and
+guidance-001 in contract-only mode (the chapter is empty, so it asserts the
+payload shape and nothing about prose).
+
+The guidance harnesses for sūrahs 2 and 112 went with the payloads they tested;
+they come back when those chapters are re-authored — copy the closest one below.
 
 | tool | scope |
 |---|---|
@@ -22,10 +29,9 @@ Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
 
 | harness | scope |
 |---|---|
-| `sources-all.js` | six-source payload, all 114 files, read-aloud path |
-| `guidance-112.js` | authored layer, sūrah 112 (the original pilot) |
-| `guidance-001.js` | authored layer, sūrah 1 (fully authored) |
-| `guidance-002.js` | authored layer, sūrah 2 (**partially** authored) |
+| `sources-all.js` | eight-source payload, all 114 files, read-aloud path |
+| `sets-integrity.js` | the two added sets: index integrity, the Asbāb pollution guard, coverage bounds |
+| `guidance-001.js` | authored layer, sūrah 1 (currently empty → payload contract) |
 | `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
 
 Plus `python3 tools/tier_verses.py --verify`, which exits non-zero if
@@ -44,15 +50,16 @@ Change: `S`, `LO`, `HI`, `LAST`; the translation-fragment `pairs`; and the
 ## What the guidance harnesses check
 
 - the file loads and covers exactly the verses claimed
-- every entry has a correct `range` and 4+ real `draws_on` ids
+- every entry has a correct `range` and its `draws_on` meets the tier rule (5+ at
+  A and B, 4+ at C, capped by the sets covering the verse)
 - **every verse's length meets its `data/plan.json` floor** — 75% of the target. One-sided: running long passes, running short fails
 - **the guidance quotes the app's own stored `ayah_en` wording** — explicit
   fragment assertions, not a vague similarity check
 - guidance renders first, labelled "In plain words", range as its first line
-- the six sources fold behind `<details class="tafsir-sources">`
+- every source with text on the verse folds behind `<details class="tafsir-sources">`
 - modal and ebook both carry it
 - **attribution integrity** (below)
-- a sūrah with no guidance still renders all six sources directly
+- a sūrah with no guidance still renders every source that has text, directly
 
 ## Attribution integrity — the check that matters most
 
@@ -74,7 +81,7 @@ Three subtleties, each learned the hard way:
    2:4". The matcher therefore parses `N:M` references out of the guidance and
    folds those verses' sources into the blob.
 
-The six tafsīr **titles** are *not* checked against body text — a work does not
+The tafsīr **titles** are *not* checked against body text — a work does not
 cite itself. They are matched against the payload's `sources[].label`.
 
 ## The control sūrah is chosen dynamically

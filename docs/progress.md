@@ -9,7 +9,8 @@ opening-paragraph rule was written down. `docs/style.md` is the spec;
 | | |
 |---|---|
 | Written | **0 of 6,236 verses** |
-| Planned words | **5,798,620** (A 2,753,900 · B 2,477,650 · C 567,070) |
+| Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
+| Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
 | Resume at | **1:1** |
 | Files | `data/guidance_001.json`, `_002.json`, `_112.json` — all `{"verses": {}}` placeholders |
 | Branch | `arena/525a7113-quran-explained` |

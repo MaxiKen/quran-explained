@@ -11,7 +11,8 @@ Asserts, for one verse:
   * transliteration of Makkah / Madinah / Bayt al-Maqdis in prose only
   * no Cyrillic homoglyphs (U+0400-U+04FF)
   * the verse quotes the app's own ayah_en for at least 5 consecutive words
-  * `draws_on` lists 4+ real source ids
+  * `draws_on` lists real source ids, 5+ at tiers A and B and 4+ at C, never
+    more than the sets that actually cover the verse
   * ATTRIBUTION — every name passed with --names occurs in that verse's own
     source blocks, after folding diacritics and glottal marks and stripping
     spaces. Romanisation variants are expanded from a fixed, auditable list
@@ -104,10 +105,19 @@ def check(surah, ayah, text, draws, names):
             errs.append(f'prose spelling "{bad}" must be "{good}" (quotations keep the source spelling)')
     if [c for c in text if '\u0400' <= c <= '\u04ff']:
         errs.append('Cyrillic homoglyph present — retype the transliteration')
-    if len(draws) < 4:
-        errs.append(f'draws_on has {len(draws)} ids, needs 4+')
+    # HOW MANY SETS A VERSE HAS TO BE SEEN THROUGH. Raised with the bands on
+    # 2026-10-09: a 975-word verse cannot be honest on four sets any more than a
+    # 200-word one could. Capped by what actually covers the verse, because
+    # al-Qushayrī and al-Wāḥidī are selective and a verse with six sets must not
+    # be failed for wanting eight.
     d = sources(surah)
     ids = {s['id'] for s in d['sources']}
+    have = d['verses'].get(str(ayah), {}) if isinstance(d.get('verses'), dict) else {}
+    live = [sid for sid in ids if have.get(sid) is not None]
+    need_sets = min(5 if (plan or {}).get('tier') in ('A', 'B') else 4, len(live))
+    if len(draws) < need_sets:
+        errs.append(f'draws_on has {len(draws)} ids, needs {need_sets}+ '
+                    f'(this verse is covered by {len(live)} of {len(ids)} sets)')
     bad = [x for x in draws if x not in ids]
     if bad:
         errs.append(f'draws_on ids not in the payload: {bad}')
