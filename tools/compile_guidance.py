@@ -154,11 +154,12 @@ def resolve(ref, rows):
     return None, f'ref {ref} not in this verse\'s {sid} sentences'
 
 
-def compile_verses(surah, spec, write=True):
+def compile_verses(surah, spec, write=True, title=None):
     d = json.load(open(os.path.join(ROOT, f'data/tafsir_{surah:03d}.json'), encoding='utf-8'))
     plan = json.load(open(os.path.join(ROOT, 'data/plan.json'), encoding='utf-8'))
     en = chapter(surah)
-    out = {'surah': surah, 'lang': 'en', 'dir': 'ltr', 'title': 'Al-Baqarah', 'verses': {}}
+    out = {'surah': surah, 'lang': 'en', 'dir': 'ltr',
+           'title': title or {1: 'Al-F\u0101ti\u1e25ah', 2: 'Al-Baqarah'}.get(surah, ''), 'verses': {}}
     gp = os.path.join(ROOT, f'data/guidance_{surah:03d}.json')
     if os.path.exists(gp):
         out = json.load(open(gp, encoding='utf-8'))
@@ -167,12 +168,30 @@ def compile_verses(surah, spec, write=True):
     for v in parse(spec):
         a = v['ayah']
         errs, notes = [], []
-        rows = verse_sentences(d, a)
+        en_hot = frozenset(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
+        rows = verse_sentences(d, a, en_hot)
         bb = canon(norm(blob(d, a)))
         allowed = set(canon(w) for w in re.findall(r"[A-Za-zʿ']{2,}", en[a]['ayah_en']))
         picked, used, sel_texts = [], set(), []
         allowed |= set(canon(w) for w in re.findall(r"[A-Za-zʿ']{2,}", norm(blob(d, a))))
         blocks = [(None, v['pre'])]
+        tr = set(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
+        dropped = 0
+        for blk in [v['pre']] + [x['items'] for x in v['secs']]:
+            keep = []
+            for kind, val in blk:
+                if kind == 'ref':
+                    sent = resolve(val, rows)[0] or ''
+                    ws = [canon(w) for w in re.findall(r"[A-Za-z]{4,}", sent)]
+                    if ws and len(ws) < 22 and tr and len(set(ws) & tr) / len(set(ws)) > 0.5:
+                        dropped += 1        # the translation, not commentary: the > line already says it
+                        continue
+                keep.append((kind, val))
+            blk[:] = keep
+        if dropped:
+            notes_pre = [f'dropped {dropped} selected sentence(s) that only repeat the app translation']
+        else:
+            notes_pre = []
         used_refs = {val for _k, items in ([('', v['pre'])] + [(x['head'], x['items']) for x in v['secs']])
                      for kind, val in items if kind == 'ref'}
         for s in v['secs']:
@@ -186,13 +205,20 @@ def compile_verses(surah, spec, write=True):
                     if err:
                         errs.append(err)
                         continue
+                    if sent.strip()[:1] in ')].,:' or '>' in sent or len(sent.split()) < 3:
+                        errs.append(f'{val} is a fragment, not a sentence — the segmentation '
+                                    'shifted, re-read the packet')
+                        continue
                     if canon(norm(sent)) not in bb:
                         errs.append(f'{val} not found in {surah}:{a}\'s own source blocks')
                         continue
                     used.add([k for k, L in SETS.items() if val.startswith(L)][0])
                     for w in re.findall(r"[A-Za-zʿ']{2,}", sent):
                         allowed.add(canon(w))
-                    buf.append(norm(sent)); sel_texts.append(norm(sent))
+                    sent = norm(sent)
+                    if not re.search(r'[.!?:\u2019\"\)]$', sent):
+                        sent += '.'          # the gloss sets run on without terminal punctuation
+                    buf.append(sent); sel_texts.append(sent)
                 else:
                     if len(val.split()) > 26:
                         errs.append('connective too long to be a join ('
@@ -214,7 +240,7 @@ def compile_verses(surah, spec, write=True):
             # fill from the ranked shortlist, in source order, skipping what was picked
             extra = []
             for sid in SETS:
-                cand = verse_sentences(d, a)[sid]
+                cand = verse_sentences(d, a, en_hot)[sid]
                 ranked = sorted(sorted(cand, key=lambda r: -r[3])[:v['auto'] * 3],
                                 key=lambda r: (r[0], r[1]))
                 for pi, si, sent, _sc in ranked:
@@ -242,7 +268,7 @@ def compile_verses(surah, spec, write=True):
             # open on the app's own wording, as the house style requires
             lead = f'*{v["quote"]}*'
             if paras0 and not paras0[0].startswith('**'):
-                paras0[0] = lead + ' ' + paras0[0]
+                paras0[0] = lead + ' — ' + paras0[0] if not paras0[0].startswith('The ') else lead + '. ' + paras0[0]
             else:
                 paras0.insert(0, lead)
             text = paras0
@@ -252,8 +278,13 @@ def compile_verses(surah, spec, write=True):
         body_text = body_text.replace('  ', ' ')
         if not v['quote']:
             errs.append('no > quote of the app translation')
-        elif en_run(v['quote'] + ' ' + body_text, en[a]['ayah_en']) < 5:
-            errs.append('the > line is not 5+ consecutive words of the app translation')
+        else:
+            # same scaling as verify_verse: a 2-word verse cannot yield a 5-word run
+            total = len([w for w in en[a]['ayah_en'].split() if canon(w)])
+            need = 5 if total >= 8 else max(1, min(total, 3))
+            got = en_run(v['quote'] + ' ' + body_text, en[a]['ayah_en'])
+            if got < need:
+                errs.append(f'the > line quotes only {got}w of the app translation; need {need}+')
         heads = [p for p in paras if p.startswith('**')]
         if not (1 <= len(heads) <= 6):
             errs.append(f'{len(heads)} headings, need 1-6')
@@ -277,6 +308,7 @@ def compile_verses(surah, spec, write=True):
                 if len(t1) > 170 and len(t2) > 170 and w1 and w2 \
                         and len(w1 & w2) / min(len(w1), len(w2)) > 0.45:
                     dupes += 1
+        notes.extend(notes_pre)
         if dupes:
             notes.append(f'{dupes} selected sentence pair(s) overlap heavily — drop one')
         status = 'FAIL' if errs else 'ok  '
@@ -302,7 +334,11 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print(__doc__)
         sys.exit(2)
-    if len(sys.argv) > 4:
-        sys.exit('usage: compile_guidance.py SURAH SPEC.md [--dry]')
-    txt = open(sys.argv[2], encoding='utf-8').read()
-    sys.exit(compile_verses(int(sys.argv[1]), txt, write='--dry' not in sys.argv))
+    args = sys.argv[2:]
+    title = None
+    if '--title' in args:
+        i = args.index('--title')
+        title = args[i + 1]
+        del args[i:i + 2]
+    txt = open(args[0], encoding='utf-8').read()
+    sys.exit(compile_verses(int(sys.argv[1]), txt, write='--dry' not in args, title=title))

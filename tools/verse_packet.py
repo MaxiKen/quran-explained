@@ -19,7 +19,9 @@ number if an editor wants it.
 import json
 import os
 import re
+import os
 import sys
+import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAN = json.load(open(os.path.join(ROOT, 'data/plan.json'), encoding='utf-8'))
@@ -48,7 +50,12 @@ CUT = [
     r'^\s*(He said|They said|I heard)\b.{0,25}$',
     r'\bhappy is the one|wretched is the one\b.*^\s*$',
     r'^\s*[\u2018"].{0,20}[\u2019"]\s*:?\s*$',
+    r'\s:\s.*\s:\s',                      # stripped-Arabic debris, e.g. ": : : :"
+    r'[\u00ab\u00bb]',
+    r'>\s*[A-Z][a-z]{2,}',                 # isnad arrows left in a chain: 'authority>Abu X'
+    r'^[^A-Za-z]{0,6}[A-Za-z]{1,4}\):',      # a fragment cut out of a bracketed gloss                     # guillemets around untranslated Arabic
     r'^\s*\d+[:.\u2013-]\d+\s*$',
+    r'[\u00c0-\u00d6\u00d8-\u00de]',   # mojibake in some sets (Qur\u00ccn, \u1e63l\u02bfm): drop, don't quote
 ]
 
 
@@ -60,18 +67,40 @@ def clean(s):
 
 
 def sentences(para):
-    """Split on . ! ? : followed by a capital, sparing abbreviations."""
+    """Split on . ! ? : followed by a capital — but only outside brackets, so a
+    parenthetical gloss like "(Alif. Mim)" is not cut in half, and abbreviations
+    keep their dots. Depth-aware because the tafsir texts nest translators'
+    brackets heavily."""
     para = re.sub(r'\b(pp?|no|vs|ie|eg|v|ch)\.', r'\1<DOT>', para)
-    parts = re.split(r'(?<=[.!?:])\s+(?=[A-Z\u2018"(])', para)
-    return [p.replace('<DOT>', '.').strip() for p in parts if p.strip()]
+    out, buf, depth = [], '', 0
+    i = 0
+    while i < len(para):
+        c = para[i]
+        if c in '([{':
+            depth += 1
+        elif c in ')]}':
+            depth = max(0, depth - 1)
+        buf += c
+        if (depth == 0 and c in '..!?:\u2026'
+                and re.match(r'[.!?:\u2026]["\u2019\u201d)\]]*[ \t]+[A-Z\u2018"(\u0600]', para[i:])
+                ):
+            out.append(buf.strip())
+            buf = ''
+        i += 1
+    out.append(buf)
+    return [p.replace('<DOT>', '.').strip() for p in out if p.strip()]
 
 
 def load(surah):
     return json.load(open(os.path.join(ROOT, f'data/tafsir_{surah:03d}.json'), encoding='utf-8'))
 
 
-def verse_sentences(d, ayah):
-    """{set: [(para_i, sent_i, text, score)]} for the blocks covering this verse."""
+def verse_sentences(d, ayah, hot=frozenset()):
+    """{set: [(para_i, sent_i, text, score)]} for the blocks covering this verse.
+    `hot` is the vocabulary of the verse's own translation: a long block that spans
+    several verses is full of sentences that score well on definition markers but are
+    answering a neighbour, so relevance to this verse's wording is what actually
+    anchors a pick (see the shared K1/M1 blocks, which cover a whole chapter)."""
     out = {}
     for sid, bidx in d['verses'].get(str(ayah), {}).items():
         blk = d['sets'][sid]['blocks'][bidx]
@@ -89,11 +118,22 @@ def verse_sentences(d, ayah):
                 # short gloss sets are the spine of a compiled verse; long ones need selection
                 if sid in ('jalalayn', 'mukhtasar', 'tanwir'):
                     score += 2
+                hits = sum(1 for w in re.findall(r"[A-Za-z]{4,}", sent) if canon(w) in hot)
+                score += min(6, 2 * hits)
+                score -= 3 if not hits and len(rows) > 12 else 0
                 if len(sent) > 520:
                     score -= 2
+                if len(sent) > 900:      # a monster paragraph is not a spliceable sentence
+                    continue
                 rows.append((pi + 1, si + 1, sent, score))
         out[sid] = rows
     return out
+
+
+def canon(s):
+    s = unicodedata.normalize('NFD', s)
+    s = ''.join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r'[^a-z0-9]', '', s.lower())
 
 
 def rank(rows, k):
@@ -117,8 +157,9 @@ def main():
         hi = int(hi or lo)
         want = [a for a in have if int(lo) <= a <= hi]
     cap = os.environ.get('PACKET_CAP', '')
+    enwords = {a: frozenset(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en.get(a, ''))) for a in want}
     for ayah in want:
-        vs = verse_sentences(d, ayah)
+        vs = verse_sentences(d, ayah, enwords.get(ayah, frozenset()))
         pool = sum(len(v) for v in vs.values())
         n = sum(min(len(v), int(cap) if cap else 7) for v in vs.values())
         plan = PLAN.get(f'{surah}:{ayah}', {})
@@ -133,8 +174,10 @@ def main():
                 print(f'\n-- {sid}: (no block for this verse)')
                 continue
             print(f'\n-- {sid} ({SETS[sid]}) {len(rows)} available')
+            trunc = int(os.environ.get('PACKET_TRUNC', '0') or 0)
             for pi, si, sent, sc in picks:
-                print(f'  {SETS[sid]}{ayah}.{pi}.{si} ({sc:+d}) {sent}')
+                shown = (sent[:trunc].rsplit(' ', 1)[0] + ' \u2026') if trunc and len(sent) > trunc else sent
+                print(f'  {SETS[sid]}{ayah}.{pi}.{si} ({sc:+d},{len(sent)}) {shown}')
     print()
 
 
