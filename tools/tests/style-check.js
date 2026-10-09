@@ -53,13 +53,52 @@ for (const [fn, surah] of files) {
     continue;
   }
 
-  const notOnePara = [], badHead = [], badTranslit = [], underFloor = [];
+  const notOnePara = [], badHead = [], badTranslit = [], underFloor = [], badLead = [];
 
+  const folded = s => canon(s).replace(/[^a-z0-9]/g, '');
   for (const a of verses) {
     const t = g.verses[String(a)].text;
 
     // ---- rule 1: plain intro + 3-6 headed sections ----
     const paras = t.split('\n\n').map(s => s.trim()).filter(Boolean);
+
+    // ---- rule 4 (maintainer, 2026-10-09): the opening paragraph EXPLAINS ----
+    // A lead that only sets a mood, or only asks, left readers with no account
+    // of the verse; 90 words at tier A and 60 elsewhere, the app's own wording
+    // quoted inside it, and not a paragraph made entirely of questions.
+    const plan4 = PLAN[`${surah}:${a}`] || {};
+    const intro = paras.length && !/^\*\*/.test(paras[0]) ? paras[0] : '';
+    const need4 = (() => {
+      const en = ayahEn(a) || '';
+      const tot = en.split(/\s+/).filter(w => canon(w).replace(/[^a-z0-9]/g, '')).length;
+      return tot >= 8 ? 5 : Math.max(1, Math.min(tot, 3));
+    })();
+    if (plan4.tier !== 'C' || true) {
+      const minLead = plan4.tier === 'A' ? 90 : 60;
+      if (!intro) badLead.push(`${surah}:${a} (no opening paragraph)`);
+      else {
+        const words = intro.trim().split(/\s+/).length;
+        if (words < minLead) badLead.push(`${surah}:${a} (${words}w lead < ${minLead}w)`);
+        const enF = folded(ayahEn(a) || '');
+        const tF = folded(intro);
+        let run = 0;
+        for (const ws of (ayahEn(a) || '').split(/\s+/).map(w => folded(w)).filter(Boolean)
+                        .reduce((acc, w) => (acc.push(w), acc), [])) {
+          void ws;
+        }
+        // longest run of consecutive ayah_en words present in the lead
+        const ws4 = (ayahEn(a) || '').split(/[\s,.:;!?\u2013\u2014\u02bb\u2019"'()]+/).map(folded).filter(Boolean);
+        outer: for (let i = 0; i < ws4.length; i++) {
+          for (let j = ws4.length; j > i; j--) {
+            if (j - i <= run) continue outer;
+            if (tF.includes(ws4.slice(i, j).join(''))) { run = j - i; continue outer; }
+          }
+        }
+        if (run < need4) badLead.push(`${surah}:${a} (lead quotes only ${run}w of ayah_en)`);
+        const q = intro.split(/(?<=[.?!])\s+/).filter(Boolean);
+        if (q.length && q.every(x => x.trim().endsWith('?'))) badLead.push(`${surah}:${a} (lead is all questions)`);
+      }
+    }
     const headSecs = t.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
     if (headSecs.length < 3 || headSecs.length > 6) badHead.push(`${surah}:${a} (${headSecs.length})`);
     if (paras.length < headSecs.length + 1) notOnePara.push(`${surah}:${a} (intro missing)`);
@@ -87,6 +126,8 @@ for (const [fn, surah] of files) {
      underFloor.join(', '));
   ck(`${fn} rule 3 — transliteration consistent in prose`, badTranslit.length === 0,
      badTranslit.join(', '));
+  ck(`${fn} rule 4 — the opening paragraph explains the verse`, badLead.length === 0,
+     badLead.join(', '));
 }
 
 let pass = 0;

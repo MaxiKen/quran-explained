@@ -12,12 +12,20 @@ Read this file completely before writing anything. Then read
 
 | | |
 |---|---|
-| Written | **35 of 6,236 verses** |
-| Chapter 1 (al-Fātiḥah) | 7 / 7 — complete |
-| Chapter 2 (al-Baqarah) | 2:1–2:28 of 286 |
-| Chapter 112 (al-Ikhlāṣ) | empty |
-| **Resume at** | **2:29** |
-| Branch | `arena/253c8f49-quran-explained` |
+| Written | **0 of 6,236 verses** |
+| Chapter 1 (al-Fātiḥah) | cleared 2026-10-09 |
+| Chapter 2 (al-Baqarah) | cleared 2026-10-09 |
+| Chapter 112 (al-Ikhlāṣ) | empty placeholder file |
+| **Resume at** | **1:1** — nothing is authored |
+| Branch | `arena/525a7113-quran-explained` |
+
+Everything previously authored was pulled the same day the length bands and the
+opening-paragraph rule were raised, so that the layer is regenerated against the
+current contract instead of being patched. All three payload files —
+`data/guidance_001.json`, `_002.json`, `_112.json` — exist as empty
+`{"verses": {}}` placeholders, so the reader's fallback to the six sources is the
+path being exercised, and the payload contract is still asserted by
+`tools/tests/style-check.js`. A chapter with no authored verses is legitimate.
 
 Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
 by juzʾ.
@@ -28,9 +36,11 @@ by juzʾ.
 
 Every verse has **two parts**:
 
-**1. A plain-English introduction.** 60–120 words. Names **no scholar**. Uses
-**no technical term**. Assumes **no prior knowledge**. A reader who stops here
-has understood the verse.
+**1. A plain-English introduction that explains the verse.** ~90–160 words at
+tier A, 60–120 at B/C. It says what the verse says, to whom it is addressed, and
+what it is doing here — it is not a hook, and it may not be only a question.
+Names **no scholar**. Uses **no technical term**. Assumes **no prior knowledge**.
+A reader who stops here has understood the verse.
 
 **2. Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, followed by a blank line and its own
@@ -40,8 +50,10 @@ on it, why the scholars differed, whom the sources say it refers to.
 Why own-line matters: `renderMarkdown` promotes an own-line `**bold**` block to
 `<h4>`. Inline `**bold**` stays `<strong>` and does not produce a heading.
 
-**Reference implementation: `data/guidance_002.json`, verses 2:1–2:28.** Chapter
-1 also conforms. Copy either.
+There is **no reference implementation in the data any more** — the layer is
+empty. `docs/style.md` is the spec, and the git history has conforming examples
+(`a2de9fe` for authored prose, `d1e0609` for compiled); read them for shape, do
+not mine them for content.
 
 ### Three formats were tried and rejected
 
@@ -54,9 +66,10 @@ them.** If any other document in this repo describes verse layout differently,
 
 ## Length — the check is one-sided
 
-Per-verse targets are in `data/plan.json` under `words`. **The floor is 75% of
-target. There is no ceiling.** A long verse is fine and must never be trimmed to
-fit. Only under-length is a failure.
+Per-verse targets are in `data/plan.json` under `words`, generated from `BAND`
+in `tools/tier_verses.py` (A 1,300–1,900 · B 650–1,000 · C 300–450 as of
+2026-10-09). **The floor is 75% of target. There is no ceiling.** A long verse
+is fine and must never be trimmed to fit. Only under-length is a failure.
 
 ```
 python3 tools/progress.py --next      # next verse to write

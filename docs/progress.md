@@ -1,49 +1,29 @@
 # Progress
 
-> ## STALE - counts and pace below are wrong
->
-> Chapters 2 and 112 were **cleared on 2026-10-09** and chapter 2 is being
-> re-authored from verse 1. The counts and the 50-verse pace below are obsolete.
->
-> **Current state: 27 of 6,236 verses written** - chapter 1 (7) and 2:1-2:20,
-> both in the current format. Chapter 112 is empty. Resume at **2:21**.
->
-> **Start at [`../AGENTS.md`](../AGENTS.md)** - the single entry point. The
-> format is in [`style.md`](style.md).
+**Nothing is authored.** On 2026-10-09 the whole guidance layer was cleared —
+chapter 1 (7 verses), 2:1–2:46, and the 2:6–2:28 pilot carried in from earlier
+branches — the same day the length bands were raised and the
+opening-paragraph rule was written down. `docs/style.md` is the spec;
+[`../AGENTS.md`](../AGENTS.md) is the entry point.
 
+| | |
+|---|---|
+| Written | **0 of 6,236 verses** |
+| Planned words | **5,798,620** (A 2,753,900 · B 2,477,650 · C 567,070) |
+| Resume at | **1:1** |
+| Files | `data/guidance_001.json`, `_002.json`, `_112.json` — all `{"verses": {}}` placeholders |
+| Branch | `arena/525a7113-quran-explained` |
 
-Updated at the end of every session, before pushing. **Read this first** — it is
-faster than reconstructing state from `git log`.
+`tools/progress.py --next` is authoritative and says the same: `python3
+tools/progress.py --next`. Regenerate the plan itself with
+`python3 tools/tier_verses.py`; never hand-edit `data/plan.json`.
 
-## Authored so far
+## What changed under the last session
 
-| surah | verses | words | plan words | notes |
-|---|---|---|---|---|
-| 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 163 / 286 | 167,112 | 142,840 | 1–163, in thirty batches |
-| 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
-
-**174 of 6,236 verses (2.79%) · 157,230 of 4,013,330 planned words (3.92%)**
-
-Check with `python3 tools/progress.py --next` — it is authoritative, this table
-is for humans.
-
-## Resume here
-
-**Sūrah 2, verse 49.** The address to the Children of Israel runs to about
-2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:157 are done — the Children-of-Israel address, the Ibrāhīm passage,
-the qiblah passage and the patience passage are all complete: the favour and
-its thanks, the remedy for grief, the martyrs, the announced test, the
-istirja' and its reward.
-Next: 2:164–2:170, the proof in creation, the command to eat of what is
-lawful, and following the footsteps of Satan.
-
-Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
-four verses on the believers, two on the disbelievers, thirteen on the
-hypocrites. That whole block, 2:1–2:20, is now authored.
-
-252 verses remain in sūrah 2, 241,800 planned words.
+Two production modes now exist, both gated by the same check: **authored** prose,
+and **compiled** splicing via `tools/verse_packet.py` + `tools/compile_guidance.py`
+(see `docs/voice.md`). 18 verses were compiled and passed the gate; they were then
+deleted, because they were written to the old, lower floors.
 
 ## Batched runs — what actually works
 
@@ -58,7 +38,10 @@ Measured across two runs: **ten batches, 30 verses, ~24,300 words**
 per run** at about **16,000–18,000 words**.
 
 **The length rule is a FLOOR, not a band** (maintainer, 2026-10-09). A verse
-may run long; it must not run short. The harness checks `n >= target * 0.75`.
+may run long; it must not run short. The harness checks `n >= target * 0.75`,
+against bands that were raised the same day — A 1,300–1,900, B 650–1,000,
+C 300–450 — so the ~810 words/verse figure below is measured under the *old*
+bands and is not a target any more.
 
 Three verses had been trimmed under the old two-sided rule and have been
 restored to their original length: **2:18 (393→524w), 2:31 (798→947w), 2:45
@@ -68,7 +51,9 @@ Auditing every authored surah against the new floor found a fourth problem —
 **112:1 was 340w against a floor of 405**, written short in the original pilot
 rather than trimmed. Expanded to 783w by `tools/expand_112_1.py`.
 
-**No verse in any authored surah is now under its floor.**
+**No verse in any authored surah is now under its floor.** (True of the corpus as
+it stood when written; the whole layer was cleared the same day, so it is now a
+note about how the floor was audited, not a claim about the data.)
 
 **Leave margin.** 2:54 first cleared its floor by exactly one word (939 against
 938). That passes, but it is one edit away from failing, so it was expanded to

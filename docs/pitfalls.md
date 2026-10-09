@@ -207,3 +207,53 @@ authoring script with file writes suppressed and reading its `V` dict. It
 takes each verse only from the script that actually authored it — an earlier
 version took it from whichever script ran last, which silently restored the
 already-trimmed copy and reported success.
+
+## The extractive compiler: four failures that are only possible in compiled mode
+
+`tools/compile_guidance.py` splices the sources' own sentences and lets only
+checked connectives between them. That removes invented attribution, and
+introduced four problems of its own, all seen in the first 18 verses.
+
+**A spliced fragment reads fluently and means nothing.** Bracket-blind sentence
+splitting cut `(Alif. Mim): 'Alif stands for Allah…'` in half and emitted a
+sentence starting `Mim):`. It passed the traceability proof — it *is* the source's
+text, substring and all — because the proof checks provenance, not wholeness.
+Fixed at both ends: the splitter is bracket-depth aware, and a selection that
+starts with punctuation, contains an isnād arrow, or is under three words is
+refused with the message `is a fragment, not a sentence`.
+
+**Ref drift is a selection bug, never a sourcing bug.** Refs are positional
+(`M43.19.2` = maarif, paragraph 19, sentence 2). When segmentation improves, every
+number below the change shifts, and a spec silently selects a *different but still
+genuine* sentence. The gate cannot catch that — the new sentence is verbatim from
+the same block. So the compiler now fails the verse with `re-read the packet`
+rather than letting it through, which is only possible because the shift tends to
+produce a fragment first. If you change `sentences()` in `verse_packet.py`, expect
+to re-check every spec against a fresh packet.
+
+**The short gloss sets are the translation, twice.** al-Jalālayn, al-Mukhtaṣar
+and Tanwīr al-Miqbās often open by restating the verse in slightly different
+English. Selecting two of them produced: *"In the Name of God the Compassionate
+the Merciful In the name of Allah, the Beneficent, the Merciful."* Grammatically
+fine, individually sourced, worthless as a paragraph. The compiler now drops a
+selection whose content words are more than half covered by the app's own
+translation — the `>` line has already said it.
+
+**A 26-word connective cannot explain a verse.** The connective cap that stops a
+join carrying a claim also stopped the opening paragraph from doing the one thing
+`docs/style.md` now requires of it. The cap is positional: 150 words before the
+first heading, 26 inside a section. The provenance rule is unchanged in both
+places, so the lead can explain but still cannot name anyone the sources do not
+name.
+
+## Raising a floor is a three-file change or it is a lie
+
+The bands live in `BAND` in `tools/tier_verses.py`; `data/plan.json` is generated
+from it; `tools/verify_verse.py`, `tools/tests/style-check.js` and
+`tools/compile_guidance.py` all read the plan and apply `× 0.75`. Editing the
+docs only gives you a rule nothing enforces; editing the plan by hand gives you a
+number the next `tier_verses.py` run overwrites. Raise `BAND`, re-run
+`tools/tier_verses.py`, and check the diff says `tier changes: 0` — the bands move
+word counts, not tiers, and if a tier moved you changed the classifier by
+accident.
+

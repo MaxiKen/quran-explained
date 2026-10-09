@@ -13,13 +13,16 @@ python3 tools/tier_verses.py --verify   # re-run the validation, exit 0 or 1
 
 | | verses | share | words |
 |---|---|---|---|
-| A | 1,721 | 27.6% | 900–1300 |
-| B | 3,003 | 48.2% | 450–700 |
-| C | 1,512 | 24.2% | **200**–320 |
-| | **6,236** | | **4,013,330** |
+| A | 1,721 | 27.6% | 1,300–1,900 |
+| B | 3,003 | 48.2% | 650–1,000 |
+| C | 1,512 | 24.2% | **300**–450 |
+| | **6,236** | | **5,798,620** |
 
-The 200-word floor is a maintainer instruction: *"The base should be 200
-(minimum)."*
+The bands were raised on 2026-10-09 (from A 900–1,300 / B 450–700 / C 200–320)
+in `tools/tier_verses.py`, and the plan above was regenerated from it; tier
+*assignment* did not move at all — 0 of 6,236 verses changed tier, only their
+`words`. The 300-word floor is the current form of the maintainer instruction
+*"The base should be 200 (minimum)."*
 
 Length is **continuous inside each band** — the tier sets the range, the
 verse's own score sets its position within it. This is deliberate: a verse

@@ -61,7 +61,13 @@ P = dict(w_tr=2, w_ar=1, w_ms=6, w_ns=6, w_sd=4,
          tA=170, tC=85)
 
 # --- word bands: tier sets the range, score sets the position inside it ---
-BAND = {'A': (900, 1300), 'B': (450, 700), 'C': (200, 320)}
+# Word bands per tier. Raised by the maintainer on 2026-10-09 from
+# A 900-1300 / B 450-700 / C 200-320, on the reasoning that the earlier bands
+# were set against a pilot of ~50 verses and were too tight for the verses the
+# sources actually weigh in on: 2:41-2:46 met the old floor while leaving the
+# named evidences out. The 0.75 discount in verify_verse.py and style-check.js
+# still applies on top, so the enforced minimums are 975 / 488 / 225.
+BAND = {'A': (1300, 1900), 'B': (650, 1000), 'C': (300, 450)}
 
 SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar')
 

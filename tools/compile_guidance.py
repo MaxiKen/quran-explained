@@ -40,6 +40,7 @@ import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
+import verify_verse as VV  # noqa: E402  (the gate, not a copy of its rules)
 from verse_packet import verse_sentences, clean, SETS  # noqa: E402
 from verify_verse import canon, blob, chapter, en_run  # noqa: E402
 
@@ -220,9 +221,13 @@ def compile_verses(surah, spec, write=True, title=None):
                         sent += '.'          # the gloss sets run on without terminal punctuation
                     buf.append(sent); sel_texts.append(sent)
                 else:
-                    if len(val.split()) > 26:
-                        errs.append('connective too long to be a join ('
-                                    f'{len(val.split())}w): ' + val[:40])
+                    # The opening paragraph is allowed to run long: the house rule is
+                    # that it EXPLAINS the verse, which a 26-word join cannot do. Inside
+                    # a section a connective is still only a join.
+                    cap = 150 if head is None else 26
+                    if len(val.split()) > cap:
+                        errs.append(f'connective over the {cap}w budget for its position: '
+                                    + val[:40])
                     bad = prov_ok(val, allowed)
                     if bad:
                         errs.append(f'connective not traceable to the sources: {bad[:6]}')
@@ -278,28 +283,15 @@ def compile_verses(surah, spec, write=True, title=None):
         body_text = body_text.replace('  ', ' ')
         if not v['quote']:
             errs.append('no > quote of the app translation')
-        else:
-            # same scaling as verify_verse: a 2-word verse cannot yield a 5-word run
-            total = len([w for w in en[a]['ayah_en'].split() if canon(w)])
-            need = 5 if total >= 8 else max(1, min(total, 3))
-            got = en_run(v['quote'] + ' ' + body_text, en[a]['ayah_en'])
-            if got < need:
-                errs.append(f'the > line quotes only {got}w of the app translation; need {need}+')
-        heads = [p for p in paras if p.startswith('**')]
-        if not (1 <= len(heads) <= 6):
-            errs.append(f'{len(heads)} headings, need 1-6')
         if len(used) < 4:
             errs.append(f'draws on {sorted(used)} — needs 4+ sets')
-        if [c for c in body_text if 0x400 <= ord(c) <= 0x4FF]:
-            errs.append('Cyrillic homoglyph')
+        # Layout, tier floor, and the opening-paragraph rule come from the same
+        # checker the authored verses are gated by, so the two modes cannot drift
+        # apart: one rule, one place. It reports its own messages as errors here.
         key = f'{surah}:{a}'
-        floor = int(round(plan.get(key, {}).get('words', 800) * 0.75))
-        if n < floor:
-            errs.append(f'{n}w below the compiled bar {floor}w')
-        for ch in body_text:
-            if 0x400 <= ord(ch) <= 0x4FF:
-                errs.append('cyrillic')
-                break
+        _n, _run, gerrs, gnotes = VV.check(surah, a, body_text, sorted(used), [])
+        errs.extend('from the house gate: ' + e for e in gerrs)
+        notes.extend(gnotes)
         dupes = 0
         for i, t1 in enumerate(sel_texts):
             for t2 in sel_texts[i + 1:]:

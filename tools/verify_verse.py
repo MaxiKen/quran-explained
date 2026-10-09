@@ -129,6 +129,28 @@ def check(surah, ayah, text, draws, names):
     # the bar scales down with the translation's own length.
     total = len([w for w in en.split() if canon(w)])
     need = 5 if total >= 8 else max(1, min(total, 3))
+
+    # THE OPENING PARAGRAPH HAS TO EXPLAIN THE VERSE (maintainer, 2026-10-09).
+    # A lead that only sets a mood or asks a question was passing while the
+    # explaining happened under the first heading, so a reader who stops after
+    # the first paragraph got no account of what the verse says. The opening
+    # paragraph must therefore be substantive: long enough to state the verse's
+    # subject, quoting the translation itself, and not made only of questions.
+    tier = (plan or {}).get('tier', 'A')
+    intro = '' if not paras or paras[0].startswith('**') else paras[0]
+    min_intro = 90 if tier == 'A' else 60
+    if intro:
+        if len(intro.split()) < min_intro:
+            errs.append(f'opening paragraph is {len(intro.split())}w; tier {tier} needs '
+                        f'{min_intro}w that explains what the verse says, not a lead-in')
+        if en_run(intro, en) < need:
+            errs.append('the opening paragraph must itself quote the translation '
+                        f'({need}+ consecutive words) before it starts interpreting')
+        qs = [q.strip() for q in re.split(r'(?<=[.?!])\s+', intro) if q.strip()]
+        if qs and all(q.endswith('?') for q in qs):
+            errs.append('the opening paragraph is all questions — state the verse\'s subject first')
+    elif paras:
+        errs.append('no opening paragraph before the first heading')
     if run < need:
         errs.append(f"only {run} consecutive words of the app's ayah_en are quoted; need {need}+")
     return n, run, errs, notes
