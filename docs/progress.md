@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 57 / 286 | 43,811 | 45,760 | 1–57, in nine batches |
+| 2 — al-Baqarah | 61 / 286 | 47,770 | 49,870 | 1–61, in ten batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**64 of 6,236 verses (1.03%) · 52,614 of 4,013,330 planned words (1.31%)**
+**68 of 6,236 verses (1.09%) · 56,724 of 4,013,330 planned words (1.41%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,8 +20,9 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:57 are done. Next: 2:58–2:61, entering the city, the cow, and the
-murder the cow was sent to solve.
+2:40–2:61 are done — the address to the Children of Israel now reaches the
+verdict. Next: 2:62–2:67, the believers of other communities, the Sabbath,
+and the opening of the cow narrative.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -130,8 +131,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 234/234 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 336 checks total.
+`guidance-002` 238/238 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 340 checks total.
 
 ## Deferred, deliberately
 
