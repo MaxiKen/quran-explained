@@ -8,20 +8,20 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 44 / 286 | 33,894 | 35,960 | 1–44, in six batches |
+| 2 — al-Baqarah | 48 / 286 | 36,703 | 38,870 | 1–48, in seven batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**51 of 6,236 verses (0.82%) · 42,940 of 4,013,330 planned words (1.07%)**
+**55 of 6,236 verses (0.88%) · 45,850 of 4,013,330 planned words (1.14%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
 
 ## Resume here
 
-**Sūrah 2, verse 45.** The address to the Children of Israel has opened
-(2:40–2:44). It runs to about 2:141 — roughly a hundred verses, and the largest
-single unit in the sūrah. Next: 2:45–2:48 (patience and prayer, the Day of
-Judgement).
+**Sūrah 2, verse 49.** The address to the Children of Israel runs to about
+2:141 — roughly a hundred verses, the largest single unit in the sūrah.
+2:40–2:48 are done. Next: 2:49–2:53, the rescue from Pharaoh and the forty
+nights.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -42,8 +42,14 @@ Measured across two runs: **ten batches, 30 verses, ~24,300 words**
 per run** at about **16,000–18,000 words**.
 
 **Every verse that came out of band was brought back into band rather than
-having its tier raised.** Ten so far: 2:10, 2:14, 2:18, 2:31, 2:35, 2:43 and
-earlier ones. Never widen the tolerance to make a verse pass.
+having its tier raised.** Twelve so far, most recently 2:45 (818→734) and
+2:48 (815→961). Never widen the tolerance to make a verse pass.
+
+**Trimming is slow and error-prone.** Cutting a verse into band one sentence
+at a time took six attempts on 2:45 because `str.replace` fails silently when
+the target is the file's last paragraph (no trailing newline). When a verse
+comes out of band by more than ~15%, rewrite the whole text; do not nibble.
+And when patching several paragraphs, split on `'\n\n'` and edit by index.
 
 **Every batch needs three things done together or the suite lies:**
 1. the new verses written into `data/guidance_002.json`;
@@ -113,8 +119,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 208/208 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 310 checks total.
+`guidance-002` 225/225 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 327 checks total.
 
 ## Deferred, deliberately
 
