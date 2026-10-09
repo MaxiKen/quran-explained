@@ -22,6 +22,7 @@ Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
 | `guidance-112.js` | authored layer, sūrah 112 (the original pilot) |
 | `guidance-001.js` | authored layer, sūrah 1 (fully authored) |
 | `guidance-002.js` | authored layer, sūrah 2 (**partially** authored) |
+| `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
 
 Plus `python3 tools/tier_verses.py --verify`, which exits non-zero if
 classifier accuracy drops below 70% or severe misses exceed 3%.

@@ -97,6 +97,7 @@ Every step is explained in [`docs/workflow.md`](docs/workflow.md).
 | [`docs/workflow.md`](docs/workflow.md) | the session loop, step by step |
 | [`docs/batching.md`](docs/batching.md) | the 50-verse rule and the push rule, verbatim from the maintainer |
 | [`docs/voice.md`](docs/voice.md) | **how to write it** — structure, register, what each tier contains |
+| [`docs/style.md`](docs/style.md) | **the house format** — paragraph size, headings, opening, transliteration |
 | [`docs/classifier.md`](docs/classifier.md) | how tiers are assigned, and the known weakness on narrative verses |
 | [`docs/contracts.md`](docs/contracts.md) | the four payload shapes and what breaks if you change one |
 | [`docs/testing.md`](docs/testing.md) | the harnesses, how to add one, the attribution check |

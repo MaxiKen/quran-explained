@@ -162,8 +162,49 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 544/544 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 646 checks total.
+`guidance-002` 544/544 · `style-check` 18/18 · `tier_verses.py --verify` exit 0
+(71.8% exact, 91% on Tier A, 1.5% severe). 664 checks total.
+
+## The house format (set 2026-10-09)
+
+An audit found the corpus had been written in three different formats: chapter 1
+was one continuous paragraph per verse with inline bold headings, chapter 2 was
+30–60 short paragraphs with headings on their own lines, and the opening
+convention flipped mid-sūrah at 2:10. Paragraph count had also climbed from an
+average of 9.2 (2:1–20) to 62.9 (2:121–140).
+
+The maintainer chose: **Layout B** (structure kept, short paragraphs merged to
+~85 words), **opening inline** in the first paragraph, **forward pointers only
+where earned**, and **Makkah / Madīnah / Bayt al-Maqdis** in prose. Scope: all
+authored verses.
+
+`docs/style.md` is the normative statement; `tools/tests/style-check.js` enforces
+it. All 168 verses were retrofitted. The retrofit was mechanical and is
+reproducible — see the invariants below.
+
+Word counts are preserved by construction: 168,579 → 168,591 (+12), where +6 is
+five `Jerusalem`→`Bayt al-Maqdis` substitutions in sūrah 2 plus the word
+`believers` restored to the 2:75 quotation, and +6 is the four chapter-112
+opening reorders. No commentary was lost.
+
+Two transform bugs were caught by invariants rather than by the tests passing,
+and both would have shipped silently:
+
+- `inline_opening` kept `parts[0]` *and* prepended it, duplicating the opening
+  ayah (+19 words on 2:157).
+- the sentence splitter tokenised `**bold**` as an empty italic span, dropping
+  53 words from chapter 1.
+
+The retrofit script asserts four invariants per verse before writing: word count
+never decreases, growth never exceeds the substitution count, the set of italic
+quotations is unchanged, and no heading is lost or invented. **Any future
+mechanical pass over the corpus must carry the same invariants.**
+
+| | verses | paras/verse | headings |
+|---|---|---|---|
+| sūrah 1 | 7 | 12.1 | 29 |
+| sūrah 2 | 157 | 25.0 | 1,205 |
+| sūrah 112 | 4 | 4.5 | 1 |
 
 ## Deferred, deliberately
 
