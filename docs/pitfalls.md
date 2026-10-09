@@ -121,6 +121,40 @@ list. Never assume coverage from the verse count.
 - **Committing on a red suite.** `guidance-001.js` was pushed at 43/46 because
   the failure looked like a stale assertion. Fix the assertion, then commit.
 
+## An unasserted `.replace()` in a harness patch silently checks nothing
+
+Every harness widening was done by a throwaway script in `/tmp` that read
+`tools/tests/guidance-002.js`, called `str.replace` on the old `NAMES` line,
+and wrote the file back. Two of those scripts — `h26.py` and `h27.py` — had
+their `assert` on the wrong string, so the replace matched nothing, wrote the
+file back unchanged, and printed success anyway.
+
+The suite still passed. That is the whole problem: `NAMES` drives the
+authority check, and a name that is absent from `NAMES` is not a failed check
+— it is a check that never runs. Batches 25, 26 and 27 reported 318/318 and
+323/323 while eleven newly cited authorities were being skipped entirely.
+
+The gap showed up only when the names were finally added: `574 checked` became
+`594 checked`, and one real error surfaced (2:131 named Namrūd, whose only
+appearance in the six sources is Maʿārif's 2:130 block, reached through a
+prose cross-reference the harness had not picked up).
+
+Two rules follow.
+
+**Assert the replacement, then assert the result.**
+
+```python
+old = "    'Mūsā'];"
+assert old in s, 'target line not found'
+s = s.replace(old, new)
+assert new in s, 'replacement did not take'
+```
+
+**Read the checked-count, not just the pass line.** The authority check prints
+`every named authority (N checked) appears in that verse's sources`. If `N`
+did not go up when you added names, the patch did not apply. A green suite
+whose coverage silently shrank is worse than a red one.
+
 ## Trimming verses to fit a band
 
 Until 2026-10-09 the length check was two-sided — a verse more than 25% away

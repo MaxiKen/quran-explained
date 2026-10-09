@@ -3,7 +3,7 @@ const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const S = 2, LO = 1, HI = 146;        // verses authored so far
+const S = 2, LO = 1, HI = 151;        // verses authored so far
 const LAST = 286;                      // verses in the surah
 
 (async () => {
@@ -142,7 +142,9 @@ const LAST = 286;                      // verses in the surah
     'Abū Dāwūd aṭ-Ṭayālisī', 'Yaʿqūb', 'Muqātil', 'Abdur-Razzāq', 'Maʿmar',
     'Sulaymān ibn ʿAbd al-Malik', 'Abū Ḥāzim', 'ad-Dārimī', 'Muqātil ibn Ḥayān',
     'ʿUmar ibn al-Khaṭṭāb', 'Ismāʿīl ibn Abī Khālid', 'Muʿāwiyah ibn Ḥaydah al-Qushayrī',
-    'Mūsā'];
+    'Mūsā', 'ʿIkrimah', 'Qurayza', 'Naḍīr', 'ar-Rāghib al-Iṣfahānī', 'Namrūd',
+    'al-Barāʾ ibn ʿĀzib', 'Abū Saʿīd al-Khudrī', 'Mukhairiq', 'Abul-ʿĀliyah',
+    'Kaʿb ibn Ashraf'];
   const TITLES = ['Maʿārif-ul-Qurʾān', 'Tazkīrul Qurʾān', 'Al-Mukhtaṣar', 'Tanwīr al-Miqbās',
                   'Al-Jalālayn', 'Ibn Kathīr'];
   // fold diacritics/hamzas AND drop spaces, so "Ibn Masʿūd" matches the sources' "Ibn Mas'ud"
@@ -189,7 +191,7 @@ const LAST = 286;                      // verses in the surah
      det ? det.querySelectorAll('.tafsir-entry').length : 'none');
 
   // ---------- PARTIAL FILE: unauthorised verses must fall back ----------
-  for (const a of [147, 148, 150, 286]) {
+  for (const a of [152, 153, 155, 286]) {
     const g = w.eval(`renderGuidanceHtml(loadedGuidance[${S}], ${a})`);
     ck(`${S}:${a} (not yet authored) yields no guidance`, g === '', JSON.stringify(g).slice(0, 60));
     const h = w.eval(`renderCommentaryHtml(loadedTafsir[${S}], getVerseCommentary(loadedTafsir[${S}],${a}), ${a})`);
