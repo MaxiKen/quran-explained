@@ -13,16 +13,20 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v2.5.52';
+const CACHE_VERSION = 'quran-reader-v5.0.1-readable-guidance';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
 // cache, so these URLs are dropped from every cache when this version activates
 // (the chapter downloads themselves are still carried across versions below).
-// All previously generated commentary was cleared on 2026-10-01. Chapter 1
-// has since been republished; Chapter 2 still has no current payload. When a
-// chapter is published again, take its URL out of this list so it is kept.
-const RETIRED_PAYLOADS = ['./data/tafsir_002.json'];
+//
+// The commentary source itself was replaced: every data/tafsir_NNN.json went
+// from Tafsīr as-Saʿdī in Arabic to Tafsīr Ibn Kathīr in English, and the
+// payload gained a `ranges` array. That is all 114 files, so rather than listing
+// them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
+// Chapter data is untouched and still carries across.
+const RETIRE_ALL_TAFSIR = true;
+const RETIRED_PAYLOADS = [];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -40,6 +44,8 @@ const CORE_ASSETS = [
   './fonts/hafs.18.woff2',
   './fonts/hafs.18.ttf',
   './fonts/AmiriQuran-Regular.ttf',
+  './fonts/NotoNaskhArabic-Regular.woff2',
+  './fonts/NotoNaskhArabic-Bold.woff2',
   './fonts/Inter-Variable.ttf'
 ];
 
@@ -103,7 +109,7 @@ self.addEventListener('activate', (event) => {
         const requests = await oldCache.keys();
         for (const request of requests) {
           const url = request.url || '';
-          if (!/\/data\/(?:tafsir_|chapter_)/.test(url)) continue;
+          if (!/\/data\/(?:tafsir_|chapter_|guidance_)/.test(url)) continue;
           const response = await oldCache.match(request);
           if (response) await currentCache.put(request, response.clone());
         }
@@ -113,6 +119,14 @@ self.addEventListener('activate', (event) => {
       // withdrawn commentary: the copy loop above has already carried anything
       // an old cache held into the current cache, so dropping the URL here is
       // enough to stop a rewritten chapter being served from a stale payload.
+      if (RETIRE_ALL_TAFSIR) {
+        const carried = await currentCache.keys();
+        for (const request of carried) {
+          const url = request.url || '';
+          if (!/\/data\/tafsir_/.test(url)) continue;
+          await currentCache.delete(request);
+        }
+      }
       for (const url of RETIRED_PAYLOADS) {
         await currentCache.delete(new URL(url, self.location).toString());
       }

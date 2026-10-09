@@ -28,6 +28,27 @@
   font-display: swap;
 }
 
+/* Noto Naskh Arabic — Arabic *prose* face for the commentary.
+   The two faces above are Quran-script fonts tuned to the Uthmanic rasm of the
+   verse text; tafsir prose set in them loses its punctuation shaping and is
+   hard to read at body size. Bundled locally (SIL Open Font License, see
+   ../fonts/OFL-NotoNaskhArabic.txt) so the commentary still renders with no
+   network access. */
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url('../fonts/NotoNaskhArabic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url('../fonts/NotoNaskhArabic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Inter (variable font, weights 100–900) — UI font (SIL Open Font License) */
 @font-face {
   font-family: 'Inter';
@@ -949,6 +970,94 @@ body {
 .modal-loading-state { padding: 12px 0; }
 
 /* ================================================
+   TAFSĪR AS-SAʿDĪ — Arabic commentary
+   The payload is the Arabic original, so every commentary surface is laid out
+   right-to-left in a prose face and given the taller leading Arabic needs.
+================================================ */
+.tafsir-text { margin: 0; }
+.tafsir-text.tafsir-rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Naskh Arabic', 'Amiri', 'Scheherazade New', 'Traditional Arabic', 'Geeza Pro', 'Segoe UI', Tahoma, serif;
+  font-size: max(17px, calc(var(--english-font-size, 17px) + 0.5px));
+  line-height: 2.15;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+  color: var(--text-secondary);
+}
+.tafsir-rtl .modal-p { margin-bottom: 20px; line-height: 2.15; }
+.tafsir-rtl .modal-blockquote {
+  border-left: none; border-right: 3.5px solid var(--accent);
+  border-radius: 14px 0 0 14px;
+}
+.tafsir-rtl .modal-list, .tafsir-rtl .modal-ordered-list { padding-left: 0; padding-right: 24px; }
+.tafsir-rtl .modal-section-title, .tafsir-rtl .modal-h2, .tafsir-rtl .modal-h3,
+.tafsir-rtl .modal-h4, .tafsir-rtl .modal-h5 { text-align: right; }
+.tafsir-rtl strong { font-weight: 700; }
+.tafsir-rtl em { font-style: normal; }
+
+/* as-Saʿdī writes the words he is explaining between braces: {قُلۡ}. The braces
+   become this inline quotation treatment (see parseInline). */
+.quran-quote {
+  font-family: 'Noto Naskh Arabic', 'Amiri Quran', 'KFGQPC Hafs', serif;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.04em;
+  white-space: nowrap;
+}
+
+/* Overview sheet shown when a sūrah has no separate introduction block */
+.tafsir-source-card { display: flex; flex-direction: column; }
+.tafsir-source-card .ebook-secondary-btn { align-self: flex-start; margin-top: 8px; }
+
+/* ================================================
+   COMMENTARY VERSE RANGE
+   Always the first line of an entry, with the text starting on the next.
+   Ibn Kathīr often comments on several verses at once, so the range is the
+   reader's only reliable signal of what the entry actually covers.
+================================================ */
+.tafsir-range {
+  display: inline-block;
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 12.5px; font-weight: 800; letter-spacing: 0.07em;
+  color: var(--accent); background: var(--accent-bg);
+  border: 1px solid var(--accent-border-light); border-radius: 7px;
+  padding: 3px 10px; margin: 0 0 14px;
+}
+.tafsir-range-inline { font-weight: 700; color: var(--accent); white-space: nowrap; }
+
+/* ================================================
+   MULTIPLE TAFSIRS ON ONE VERSE
+   Six sources are shown in order, primary first. Each is a self-contained
+   entry: range, then the source name, then the text.
+================================================ */
+.tafsir-entry { margin: 0 0 26px; }
+.tafsir-entry:last-child { margin-bottom: 0; }
+.tafsir-entry-primary { padding-bottom: 20px; border-bottom: 1px solid var(--accent-border-light); }
+.tafsir-source-label {
+  font-size: 12px; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--text-dim); margin: 0 0 12px; display: flex; flex-wrap: wrap;
+  align-items: baseline; gap: 8px;
+}
+.tafsir-source-label span { font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--text-faint); font-size: 11.5px; }
+.tafsir-entry-primary .tafsir-source-label { color: var(--accent); }
+.tafsir-source-list { list-style: none; padding: 0; margin: 0 0 18px; display: flex; flex-direction: column; gap: 8px; }
+.tafsir-source-list li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.tafsir-source-list strong { color: var(--text-primary); font-size: 14.5px; }
+.tafsir-source-list span { color: var(--text-faint); font-size: 12.5px; }
+
+/* Arabic quoted inside the English commentary (see parseInline). `isolate`
+   keeps the right-to-left run from flipping the punctuation around it. */
+.ar-inline {
+  font-family: 'Noto Naskh Arabic', 'Amiri Quran', 'KFGQPC Hafs', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.08em;
+  line-height: 1.9;
+}
+
+/* ================================================
    SURAH END
 ================================================ */
 .surah-end { text-align: center; padding: 40px 0; }
@@ -1858,3 +1967,26 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   .ra-dock, .player-orb, .header-nav, .nav-position, .swipe-hint, .tafsir-footer, .tafsir-progress, .resume-chip, .continue-reading-actions { display: none !important; }
   .app-container, .ebook-view { padding-bottom: 0; margin-bottom: 0; }
 }
+
+/* Provenance line at the foot of the commentary source card */
+.tafsir-provenance { font-size: 12.5px; color: var(--text-faint); line-height: 1.7; }
+.tafsir-provenance a { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; }
+.tafsir-provenance code { font-size: 11.5px; background: var(--accent-bg); padding: 1px 5px; border-radius: 4px; }
+
+/* ================================================
+   AUTHORED GUIDANCE + FOLDED SOURCES
+   The integrated single-voice commentary leads; the classical texts it was
+   written from stay one tap away, so nothing is hidden but nothing competes.
+================================================ */
+.tafsir-guidance .tafsir-source-label { color: var(--accent); }
+.tafsir-guidance .tafsir-text { color: var(--text-secondary); }
+.tafsir-sources { margin-top: 4px; border-top: 1px solid var(--accent-border-light); padding-top: 14px; }
+.tafsir-sources > summary {
+  cursor: pointer; list-style: none; font-size: 13px; font-weight: 700;
+  color: var(--text-dim); padding: 6px 0; user-select: none;
+}
+.tafsir-sources > summary::-webkit-details-marker { display: none; }
+.tafsir-sources > summary::before { content: '▸ '; color: var(--accent); }
+.tafsir-sources[open] > summary::before { content: '▾ '; }
+.tafsir-sources[open] > summary { margin-bottom: 12px; }
+.tafsir-sources .tafsir-entry { border-top: 1px solid var(--accent-border-light); padding-top: 16px; margin-top: 16px; }

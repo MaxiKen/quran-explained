@@ -1,0 +1,146 @@
+# AGENTS.md — read this first
+
+**You are continuing an in-progress project: a plain-English commentary on all
+6,236 verses of the Qurʾān, synthesised from six classical tafsīrs.**
+
+Read this file completely before writing anything. Then read
+[`docs/style.md`](docs/style.md) — it is the only normative format spec.
+
+---
+
+## Current state
+
+| | |
+|---|---|
+| Written | **27 of 6,236 verses** |
+| Chapter 1 (al-Fātiḥah) | 7 / 7 — complete |
+| Chapter 2 (al-Baqarah) | 2:1–2:20 of 286 |
+| Chapter 112 (al-Ikhlāṣ) | empty |
+| **Resume at** | **2:21** |
+| Branch | `arena/2c46b8a2-quran-explained` |
+
+Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
+by juzʾ.
+
+---
+
+## The format — this is a rule, not a preference
+
+Every verse has **two parts**:
+
+**1. A plain-English introduction.** 60–120 words. Names **no scholar**. Uses
+**no technical term**. Assumes **no prior knowledge**. A reader who stops here
+has understood the verse.
+
+**2. Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
+with a full stop, **on its own line**, followed by a blank line and its own
+paragraph. Headings group the deeper material: what a word means, the readings
+on it, why the scholars differed, whom the sources say it refers to.
+
+Why own-line matters: `renderMarkdown` promotes an own-line `**bold**` block to
+`<h4>`. Inline `**bold**` stays `<strong>` and does not produce a heading.
+
+**Reference implementation: `data/guidance_002.json`, verses 2:1–2:20.** Chapter
+1 also conforms. Copy either.
+
+### Three formats were tried and rejected
+
+A multi-paragraph layout, then a single paragraph with inline `**bold**`
+signposts. Both rejected by the maintainer on 2026-10-09. **Do not reinvent
+them.** If any other document in this repo describes verse layout differently,
+`docs/style.md` wins.
+
+---
+
+## Length — the check is one-sided
+
+Per-verse targets are in `data/plan.json` under `words`. **The floor is 75% of
+target. There is no ceiling.** A long verse is fine and must never be trimmed to
+fit. Only under-length is a failure.
+
+```
+python3 tools/progress.py --next      # next verse to write
+python3 tools/tier_verses.py --verify # tier assignments
+```
+
+---
+
+## Workflow per verse
+
+```bash
+python3 tools/dump_sources.py 2 21 26      # 6 sources, max 6 verses, truncates ~12KB
+```
+
+Synthesise from them. **Nothing invented.** A named authority must appear in
+that verse's own source block at that verse's range — grep the blob before
+citing. `draws_on` lists **only** the sources actually used.
+
+Write into `data/guidance_NNN.json` as:
+
+```json
+"21": { "range": "2:21", "draws_on": ["maarif", "ibn-kathir"], "text": "..." }
+```
+
+---
+
+## Before you commit — mandatory
+
+```bash
+node tools/tests/style-check.js                        # format + length + transliteration
+node tools/tests/sources-all.js                        # source payload integrity
+NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js   # app render (needs jsdom)
+```
+
+All must pass. Read the `N/N checks passed` line — **never trust the exit
+code alone.**
+
+Then **post one full verse in the chat for review** before committing the batch.
+
+---
+
+## Pace
+
+**About 20–25 verses per run.** An earlier 50-verse target was **withdrawn** —
+it is the pace that produced the quote-stacking which got the entire corpus
+cleared. Volume was the cause, not a side effect.
+
+**Commit and push at the end of every session.** The sandbox workspace has been
+reset four times, destroying the local tree. Everything survived only because it
+had been pushed:
+
+```bash
+git fetch origin arena/2c46b8a2-quran-explained && git reset --hard <sha>
+```
+
+`/tmp` does not survive a reset. Reinstall jsdom before the render tests:
+
+```bash
+mkdir -p /tmp/apptest && cd /tmp/apptest && npm install jsdom --silent
+python3 -m http.server 8000 --bind 0.0.0.0   # from the repo root
+```
+
+---
+
+## Files
+
+| file | |
+|---|---|
+| [`docs/style.md`](docs/style.md) | **the format — normative** |
+| [`docs/contracts.md`](docs/contracts.md) | JSON payload shapes |
+| [`docs/pitfalls.md`](docs/pitfalls.md) | every trap found so far — read before scripting |
+| [`docs/testing.md`](docs/testing.md) | how to run the suite |
+| [`docs/sources.md`](docs/sources.md) | the six tafsīrs and their provenance |
+| [`HANDOFF.md`](HANDOFF.md) | longer project history |
+| `docs/batching.md`, `docs/progress.md` | **withdrawn / stale — do not follow** |
+
+---
+
+## Hard prohibitions
+
+- Do **not** mine the cleared text at commit `d021eee`. Chapters 2 and 112 start
+  fresh from the six tafsīrs.
+- Do **not** trim a verse to fit a length band. The target is a floor.
+- Do **not** stack attributed blocks. Six quoted extracts is not commentary.
+- Do **not** change a payload shape without bumping `CACHE_VERSION` in `sw.js`.
+- Do **not** type transliterated Arabic as literal Unicode in a script (assert no
+  U+0400–U+04FF — Cyrillic homoglyphs have slipped in before).

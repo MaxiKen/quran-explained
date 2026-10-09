@@ -103,16 +103,33 @@ const ReadAloud = {
     window.speechSynthesis.onvoiceschanged = refresh;
   },
 
-  getNarrationVoice() {
+  /* The commentary is Tafsīr as-Saʿdī in Arabic while the verse translations
+     are English, so voice selection has to follow the language of the line
+     being spoken rather than being pinned to English. */
+  _langMatches(voice, lang) {
+    return new RegExp('^' + lang + '(?:[-_]|$)', 'i').test((voice && voice.lang) || '');
+  },
+
+  narrationLang() {
+    const surah = this.activeSurah || this.selectedSurah;
+    const tafsir = (typeof loadedTafsir !== 'undefined' && surah) ? loadedTafsir[surah] : null;
+    return typeof getTafsirLang === 'function' ? getTafsirLang(tafsir) : 'en';
+  },
+
+  getNarrationVoice(lang) {
     const voices = this.voices.length ? this.voices : (this.isSupported() ? window.speechSynthesis.getVoices() : []);
+    const want = lang || 'en';
     if (this.voiceURI) {
       const picked = voices.find((voice) => voice.voiceURI === this.voiceURI);
-      if (picked) return picked;
+      /* Honour the reader's explicit choice only when that voice can actually
+         speak this line — an English voice handed Arabic produces noise. */
+      if (picked && this._langMatches(picked, want)) return picked;
     }
-    const english = voices.filter((voice) => /^en(?:[-_]|$)/i.test(voice.lang || ''));
-    const local = english.filter((voice) => voice.localService);
+    const matching = voices.filter((voice) => this._langMatches(voice, want));
+    const pool = matching.length ? matching : voices;
+    const local = pool.filter((voice) => voice.localService);
     return local.find((voice) => voice.default) || local[0]
-      || english.find((voice) => voice.default) || english[0]
+      || pool.find((voice) => voice.default) || pool[0]
       || voices.find((voice) => voice.default) || voices[0] || null;
   },
 
@@ -286,12 +303,17 @@ const ReadAloud = {
   _renderVoiceOptions() {
     const select = document.getElementById('raVoice');
     if (!select) return;
-    const voices = (this.voices || []).filter((voice) => /^en(?:[-_]|$)/i.test(voice.lang || ''));
-    const pool = voices.length ? voices : (this.voices || []).slice(0, 24);
+    /* List the voices that can read the commentary itself (Arabic for
+       as-Saʿdī); fall back to the whole list when the device has none, so the
+       control is never empty. */
+    const lang = this.narrationLang();
+    const matching = (this.voices || []).filter((voice) => this._langMatches(voice, lang));
+    const pool = matching.length ? matching : (this.voices || []).slice(0, 24);
     const current = this.voiceURI;
-    select.innerHTML = `<option value="">Browser default</option>` + pool.map((voice) =>
+    select.innerHTML = `<option value="">Browser default (${escapeHtml(lang)})</option>` + pool.map((voice) =>
       `<option value="${escapeAttr(voice.voiceURI)}">${escapeHtml(voice.name)} (${escapeHtml(voice.lang)})</option>`).join('');
     select.value = current || '';
+    if (select.value !== (current || '')) { this.voiceURI = null; select.value = ''; }
   },
 
   /* =========================================================
@@ -416,14 +438,23 @@ const ReadAloud = {
         show: translation,
         label: `Verse ${ayah}`,
         isTranslation: true,
+        lang: 'en',
       });
-      splitSpeechText(`Commentary. ${markdownToSpeechText(commentary)}`).forEach((text, index) => lines.push({
-        ayah,
-        speak: text,
-        show: text.replace(/^Commentary\.\s*/, ''),
-        label: `Verse ${ayah}`,
-        first: index === 0,
-      }));
+      /* as-Saʿdī explains a run of verses in a single block, so consecutive
+         verses return the same text. Speak it once, at the first verse it
+         covers, otherwise the player repeats whole paragraphs every verse. */
+      const previous = ayah > 1 ? getVerseCommentary(tafsir, ayah - 1) : '';
+      if (commentary !== previous) {
+        const commentaryLang = typeof getTafsirLang === 'function' ? getTafsirLang(tafsir) : 'en';
+        splitSpeechText(markdownToSpeechText(commentary)).forEach((text, index) => lines.push({
+          ayah,
+          speak: text,
+          show: text,
+          label: `Verse ${ayah}`,
+          first: index === 0,
+          lang: commentaryLang,
+        }));
+      }
     }
     this._unitCache[cacheKey] = lines;
     return lines;
@@ -550,9 +581,13 @@ const ReadAloud = {
     const line = this.lines[this.lineIndex];
     if (!line) { this._advance(); return; }
     const utterance = new SpeechSynthesisUtterance(line.speak);
-    const voice = this.getNarrationVoice();
-    if (voice) utterance.voice = voice;
-    utterance.lang = voice && voice.lang ? voice.lang : 'en-US';
+    const lang = line.lang || 'en';
+    const voice = this.getNarrationVoice(lang);
+    /* Only bind a voice that speaks this line's language. When the device has
+       no Arabic voice, leaving `voice` unset lets the browser fall back on its
+       own Arabic default instead of mangling the text with an English one. */
+    if (voice && this._langMatches(voice, lang)) utterance.voice = voice;
+    utterance.lang = voice && this._langMatches(voice, lang) ? voice.lang : lang;
     utterance.rate = READ_ALOUD_BASE_RATE * this.rate;
     utterance.pitch = 1;
     this._utteranceSession = this.session;
