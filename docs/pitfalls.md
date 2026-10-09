@@ -121,6 +121,32 @@ list. Never assume coverage from the verse count.
 - **Committing on a red suite.** `guidance-001.js` was pushed at 43/46 because
   the failure looked like a stale assertion. Fix the assertion, then commit.
 
+### What it cost in practice
+
+Auditing the harness after batch 28 found two independent gaps, both caused by
+this exact bug:
+
+| gap | how long | effect |
+|---|---|---|
+| `NAMES` missing 11 authorities | batches 25–28 | those narrators were never checked |
+| `pairs` stuck at verse 48 | batches 8–28 | 109 verses had no translation-quote check |
+
+`pairs` is the array asserting each verse quotes the app's own `ayah_en`. It
+last grew in batch 7. Every batch after that reported the fragment additions in
+its commit message while the file kept its old array — 109 verses, 210 checks,
+silently absent for twenty-one commits.
+
+Both were backfilled in one pass, with assertions on every replacement. The
+backfill is mechanical and worth keeping: for each verse, take the longest runs
+of consecutive `ayah_en` words that occur verbatim in the commentary, reject
+anything containing an apostrophe or backslash, and assert uniqueness. It found
+fragments for all 109 verses and all 210 new checks passed first time — which is
+itself the useful result, because it means the prose had been quoting the
+translation correctly all along. Only the check was missing.
+
+The suite went from 328 to 544 checks on `guidance-002` with no verse changes.
+A green suite is not evidence of coverage. Count the checks.
+
 ## An unasserted `.replace()` in a harness patch silently checks nothing
 
 Every harness widening was done by a throwaway script in `/tmp` that read

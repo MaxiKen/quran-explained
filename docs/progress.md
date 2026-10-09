@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 151 / 286 | 154,482 | 134,480 | 1–151, in twenty-eight batches |
+| 2 — al-Baqarah | 157 / 286 | 161,345 | 138,450 | 1–157, in twenty-nine batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**158 of 6,236 verses (2.53%) · 145,330 of 4,013,330 planned words (3.62%)**
+**164 of 6,236 verses (2.63%) · 149,300 of 4,013,330 planned words (3.72%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,12 +20,12 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:151 are done — the Children-of-Israel address, the whole Ibrāhīm
-passage and the whole qiblah passage are complete: the objection, the test,
-the command three times, the impasse, the concealment, the end of the
-argument, and the favour answered in Ibrāhīm's own four terms.
-Next: 2:152–2:157, remember Me and I will remember you, seek help in
-patience and prayer, and the test of fear and hunger.
+2:40–2:157 are done — the Children-of-Israel address, the Ibrāhīm passage,
+the qiblah passage and the patience passage are all complete: the favour and
+its thanks, the remedy for grief, the martyrs, the announced test, the
+istirja' and its reward.
+Next: 2:158–2:163, Ṣafā and Marwah, concealing the clear signs, and the one
+God.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -162,8 +162,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 328/328 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 430 checks total.
+`guidance-002` 544/544 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 646 checks total.
 
 ## Deferred, deliberately
 
