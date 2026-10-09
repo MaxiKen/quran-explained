@@ -1,149 +1,109 @@
 # Style — the house format
 
-Set by the maintainer on 2026-10-09, verse by verse, after the whole corpus was
-cleared and restarted. This document is normative. Every verse in
+Set by the maintainer on 2026-10-09, and revised the same day after review of
+the live preview. This document is normative. Every verse in
 `data/guidance_NNN.json` must conform.
 
-**It supersedes an earlier version of this file** written the same day, which
-specified a multi-paragraph layout with `**bold**` headings on their own lines.
-The maintainer rejected that. See *Why the earlier version was wrong*, at the
-end.
+**Revision history.** Three successive versions were written on 2026-10-09.
+The first specified a multi-paragraph layout. The second specified a single
+paragraph per verse with inline `**bold**` signposts. Both were rejected. The
+version below is the current one, and it is what 2:1–2:10 are written in.
 
-## 1. One paragraph per verse
+---
 
-Every verse is **a single continuous paragraph**. No blank lines inside a verse.
-No standalone quotation blocks. No `##` headings.
+## 1. Plain explanation first, then headed sections
 
-## 2. Inline bold signposts, 3–5 per verse
+Every verse has **two parts**:
 
-Inside that paragraph, use 3–5 `**bold**` signposts to mark where the subject
-turns, each followed immediately by prose. They are inline — never on their own
-line.
+**A plain-English introduction.** One short paragraph, roughly 60–120 words,
+that says what the verse means. It names **no scholar**, uses **no technical
+term**, and assumes **no prior knowledge**. A reader who stops here has
+understood the verse.
 
-```
-**What mercy means here.** Al-Jalālayn gives the shortest definition in the
-corpus: the One who possesses *mercy*, which means to will what is good for
-those who deserve it.
-```
+**Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
+with a full stop, **on its own line**, followed by a blank line and then its own
+paragraph. `renderMarkdown` promotes an own-line `**bold**` block to `<h4>`, so
+these render as real headings. Headings must not be inline inside a sentence.
 
-## 3. Open with the translation
+Headings group the deeper material: what a word means, the readings on it, why
+the scholars differed, what it implies, whom the sources say it refers to.
 
-The first words of the paragraph quote the app's own `ayah_en` wording in
-italics, then flow straight into the commentary.
+**Why.** The maintainer's instruction: *"the content is first of all simply
+explained. Other things are grouped comprehensively under headings."* The
+single-paragraph version put scholarly detail in the first sentence.
 
-```
-*In the Name of Allah—the Most Compassionate, Most Merciful.* The translation
-opens with a preposition. There is no verb here, and no subject either.
-```
+## 2. Length — tiered, and the check is a floor
 
-## 4. Quoted phrases only — about 10 words maximum
-
-This is the rule the corpus failed on, and the reason it was cleared.
-
-Quotations are **short phrases folded into sentences the author wrote**. The
-chapter-1 average was 4–9 words.
-
-**Ḥadīth are exempt — maintainer's ruling, 2026-10-09.** Asked whether chapter
-1's long quotations should be shortened, the ruling was: *"the hadith quotations
-should be left."* Chapter 1 carries ten quotations over twenty words, almost all
-ḥadīth, including the 134-word parable in 1:6. Those stand, and nothing is
-rewritten to shorten them. Quoting a ḥadīth or a classical definition whole is
-legitimate; the cap applies to Qurʾānic fragments and paraphrase.
-
-`tools/tests/style-check.js` enforces this by excluding any quotation over twenty
-words from the per-verse average, rather than ignoring long quotes outright. One
-ḥadīth quoted whole cannot fail an otherwise well-written verse, and the
-remaining short quotations must still average down to phrase length — which is
-what actually stops extract-stacking.
-
-Measured, at the point the corpus was cleared:
-
-| verse | quoted spans | avg quote | block quotes ≥25w |
-|---|---|---|---|
-| 2:1 | 21 | **5.4 words** | 2 |
-| 2:3 | 17 | **5.6 words** | 1 |
-| 2:20 | 19 | **23.5 words** | 8 |
-| 2:60 | 22 | **29.6 words** | 14 |
-| 2:140 | 37 | 20.8 words | 15 |
-
-Up to 2:10 the commentary was genuinely synthesis. From 2:20 the entries became
-stacked extracts with thin connective tissue. The maintainer's words: *"you're
-just quoting unnecessarily, which doesn't make the whole thing make sense. The
-flow is not there."*
-
-**Flow is the requirement.** A verse must read as one sustained explanation.
-
-## 5. Sources — use and name only what is actually used
-
-Name in the prose only the tafsīrs genuinely drawn on, and record exactly those
-in `draws_on`. Chapter 1 names 4–6 of the six per verse; that is correct. Do not
-pad a verse with a source that adds nothing.
-
-## 6. Length — tiered, and the check is a floor
-
-Keep the A/B/C tiers from `docs/classifier.md` and `data/plan.json`:
-
-| tier | target | floor |
+| tier | target | floor (75%) |
 |---|---|---|
-| A | 900–1,300 | 75% of target |
-| B | 450–700 | 75% of target |
-| C | 200–320 | 75% of target |
+| A | 900–1,300 | 675 |
+| B | 450–700 | 338 |
+| C | 200–320 | 150 |
 
-**The floor is one-sided.** A verse may run as long as its content requires;
-only under-length fails. Never trim a verse to fit a ceiling.
+Per-verse targets live in `data/plan.json` under `words`.
 
-## 7. Transliteration — one form per name, in prose
+**The check is one-sided. The target is a floor, never a ceiling.** A verse that
+runs long is fine and must not be trimmed to fit. Only under-length is a
+failure. This reverses an earlier two-sided rule that caused three good verses
+to be cut down; they were restored in `b83b69a`.
 
-| use | not |
-|---|---|
-| Makkah | Mecca |
-| Madīnah | Madinah |
-| Bayt al-Maqdis | Jerusalem |
+## 3. Transliteration — one form per name, in prose
 
-**Prose only.** Text inside an italic quotation reproduces the source verbatim
-and keeps whatever spelling the source used — the six tafsīrs write "Mecca" and
-"Jerusalem" freely, and altering a quotation would be misquotation.
+`Makkah`, not Mecca. `Madīnah`, not Madinah. `Bayt al-Maqdis`, not Jerusalem.
+Enforced in prose only — never rewritten inside a quotation, where the source's
+own spelling stands.
 
-## 8. Pace, and the review gate
+---
 
-**About 20–25 verses per run.** This is deliberate: 50+ verses per run is the
-pace that produced the quote-stacking.
+## Rules removed on 2026-10-09
 
-**Before committing a batch, post one full verse in the chat for the maintainer
-to read.** This is a standing instruction — *"always post one of your response
-writeup in this place."* It is the primary defence against drift, because the
-defect that cleared the corpus was a prose-quality defect that no automated
-check caught.
+Three rules were deleted at the maintainer's instruction because the layout
+change made them wrong rather than the data:
 
-## 9. Chapters 2 and 112 start fresh
+- **Signpost count (3–5 inline).** With headings on their own lines, the
+  inline/heading distinction the rule assumed no longer exists.
+- **Opens by quoting the translation.** The new layout deliberately opens with
+  plain prose, so the translation is quoted *within* the introduction rather
+  than as its first words. Quoting `ayah_en` remains good practice; it is no
+  longer asserted.
+- **Quotations average ≤10 words.** Removed. The ḥadīth exemption already
+  hollowed it out, and the cap was flagging verses at 10.4 words — noise, not a
+  real defect.
 
-The cleared text (167,000 words, preserved at
-`d021eeee959645cc0bf7226418d718cf15dc6e39`) is **not to be mined**. Treat those
-chapters as never written and re-read the six tafsīrs for every verse. The
-prose was the thing that was wrong, so reusing it would carry the defect back.
+`tools/tests/style-check.js` now enforces only rules 1–3 above.
+
+---
+
+## Sources and attribution
+
+Substance is synthesised from the six tafsīrs shipped in `data/tafsir_NNN.json`:
+Ibn Kathīr, Maʿārif-ul-Qurʾān, Al-Mukhtaṣar, Tazkīrul Qurʾān, Tanwīr al-Miqbās,
+al-Jalālayn. Nothing is invented. A named authority must appear in that verse's
+own source block at that verse's range — grep the blob before citing.
+
+`draws_on` lists **only** the sources actually used, not all six.
+
+## Pace and the review gate
+
+About 20–25 verses per run. An earlier 50-verse target was withdrawn: volume
+was the cause of the prose decaying into stacked extracts.
+
+Post one full verse in the chat before committing a batch.
+
+## Chapters 2 and 112 start fresh
+
+Both were cleared on 2026-10-09. The superseded text remains at `d021eee` but
+must **not** be mined.
+
+---
 
 ## Status
 
-| file | state |
-|---|---|
-| `guidance_001.json` | 7 verses, one paragraph each, 5,414 words — **the model** |
-| `guidance_002.json` | cleared, 0 verses |
-| `guidance_112.json` | cleared, 0 verses |
+| chapter | verses | layout |
+|---|---|---|
+| 1 | 7 | **old single-paragraph — not yet converted** |
+| 2 | 20 | plain intro + headed sections |
+| 112 | 0 | cleared |
 
-## Why the earlier version of this file was wrong
-
-1. **I mistook a formatting inconsistency for the problem.** The audit found
-   chapter 1 in one format and chapter 2 in another, so I standardised on
-   chapter 2's. That fixed the inconsistency by making everything worse. The
-   chapter-1 format was the good one.
-
-2. **The real defect was in the writing, and my audit never measured it.** I
-   counted paragraphs and headings. I did not measure quotation density, which
-   is where the quality drop lived. A style rule that constrains only layout
-   will not stop prose decaying into a stack of quotes.
-
-3. **Speed was the cause and I kept the speed.** The degradation tracked batch
-   volume. I raised the verse count per run instead of lowering it.
-
-The lesson for any future audit: **measure the prose, not just the markup — and
-have a human read a sample before a style is applied to 6,000 verses.**
+Chapter 1 currently **fails rule 1** because it predates this format. It was
+written when the single-paragraph rule was in force and has not been converted.
