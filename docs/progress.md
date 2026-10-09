@@ -8,19 +8,20 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 34 / 286 | 26,106 | 27,180 | 1–14, then 15–20, 21–26, 27–30, 31–34 |
+| 2 — al-Baqarah | 39 / 286 | 29,576 | 30,990 | 1–39, in six batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**41 of 6,236 verses (0.66%) · 34,160 of 4,013,330 planned words (0.85%)**
+**46 of 6,236 verses (0.74%) · 37,970 of 4,013,330 planned words (0.95%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
 
 ## Resume here
 
-**Sūrah 2, verse 35.** The Ādam story runs 2:30–2:39 (Maʿārif's ten verses);
-30–34 are done, so 35–39 completes it — the garden, the tree, the slip, the
-descent. Then 2:40 turns to the Children of Israel.
+**Sūrah 2, verse 40.** The Ādam story (2:30–2:39, Maʿārif's ten verses) is
+complete. Verse 40 opens the long address to the Children of Israel, which runs
+to about 2:141 — the largest single unit in the sūrah and the next real
+decision point for how to slice the batches.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -35,8 +36,10 @@ The pattern that works is: generate a batch → save to disk → extend the
 harness range in the same change → run the suite → **push** → next batch.
 Pushing per batch means a workspace reset costs at most one batch.
 
-Measured in one run: four batches, 23 verses, ~13,900 words
-(2:15–2:34, commits `a3e7dac` → `70cf9fe` → `0780489` → batch 4).
+Measured across two runs: **nine batches, 25 verses, ~19,800 words**
+(2:15–2:39, commits `a3e7dac` → `70cf9fe` → `0780489` → `7272617` → batch 5).
+That is roughly **790 words per verse** and **five batches per run** at about
+**16,000 words**.
 
 **Every batch needs three things done together or the suite lies:**
 1. the new verses written into `data/guidance_002.json`;
@@ -106,8 +109,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 162/162 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 264 checks total.
+`guidance-002` 185/185 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 287 checks total.
 
 ## Deferred, deliberately
 
