@@ -8,20 +8,20 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 39 / 286 | 29,576 | 30,990 | 1–39, in six batches |
+| 2 — al-Baqarah | 44 / 286 | 33,894 | 35,960 | 1–44, in six batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**46 of 6,236 verses (0.74%) · 37,970 of 4,013,330 planned words (0.95%)**
+**51 of 6,236 verses (0.82%) · 42,940 of 4,013,330 planned words (1.07%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
 
 ## Resume here
 
-**Sūrah 2, verse 40.** The Ādam story (2:30–2:39, Maʿārif's ten verses) is
-complete. Verse 40 opens the long address to the Children of Israel, which runs
-to about 2:141 — the largest single unit in the sūrah and the next real
-decision point for how to slice the batches.
+**Sūrah 2, verse 45.** The address to the Children of Israel has opened
+(2:40–2:44). It runs to about 2:141 — roughly a hundred verses, and the largest
+single unit in the sūrah. Next: 2:45–2:48 (patience and prayer, the Day of
+Judgement).
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -36,10 +36,14 @@ The pattern that works is: generate a batch → save to disk → extend the
 harness range in the same change → run the suite → **push** → next batch.
 Pushing per batch means a workspace reset costs at most one batch.
 
-Measured across two runs: **nine batches, 25 verses, ~19,800 words**
-(2:15–2:39, commits `a3e7dac` → `70cf9fe` → `0780489` → `7272617` → batch 5).
-That is roughly **790 words per verse** and **five batches per run** at about
-**16,000 words**.
+Measured across two runs: **ten batches, 30 verses, ~24,300 words**
+(2:15–2:44, commits `a3e7dac` → `70cf9fe` → `0780489` → `7272617` → `dc7230f`
+→ batch 6). That is roughly **810 words per verse** and **five to six batches
+per run** at about **16,000–18,000 words**.
+
+**Every verse that came out of band was brought back into band rather than
+having its tier raised.** Ten so far: 2:10, 2:14, 2:18, 2:31, 2:35, 2:43 and
+earlier ones. Never widen the tolerance to make a verse pass.
 
 **Every batch needs three things done together or the suite lies:**
 1. the new verses written into `data/guidance_002.json`;
@@ -109,8 +113,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 185/185 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 287 checks total.
+`guidance-002` 208/208 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 310 checks total.
 
 ## Deferred, deliberately
 

@@ -3,7 +3,7 @@ const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const S = 2, LO = 1, HI = 39;         // verses authored so far
+const S = 2, LO = 1, HI = 44;         // verses authored so far
 const LAST = 286;                      // verses in the surah
 
 (async () => {
@@ -94,6 +94,14 @@ const LAST = 286;                      // verses in the surah
     [38, 'no fear for them, nor will they grieve'],
     [39, 'those who disbelieve and deny Our signs'], [39, 'residents of the Fire'],
     [39, 'They will be there forever'],
+    [40, 'O children of Israel'], [40, 'Remember My favours upon you'],
+    [40, 'Fulfil your covenant'], [40, 'stand in awe of Me'],
+    [41, 'Believe in My revelations'], [41, 'confirm your Scriptures'],
+    [41, 'first to deny them'], [41, 'a fleeting gain'], [41, 'be mindful of Me'],
+    [42, 'mix truth with falsehood'], [42, 'hide the truth knowingly'],
+    [43, 'Establish prayer'], [43, 'pay alms-tax'], [43, 'bow down with those who bow down'],
+    [44, 'preach righteousness'], [44, 'fail to practice it yourselves'],
+    [44, 'you read the Scripture'], [44, 'Do you not understand'],
   ];
   for (const [a, frag] of pairs) {
     ck(`${S}:${a} quotes the translation "${frag}"`, w.eval(`loadedGuidance[${S}].verses["${a}"].text`).includes(frag));
@@ -120,7 +128,9 @@ const LAST = 286;                      // verses in the surah
     'Abū Mālik', 'Masrūq', 'Abū Jaʿfar ar-Rāzī', 'Abū Bakr', 'ʿUmar', 'Ādam',
     'ʿĀṣim ibn Kulayb', 'Saʿīd ibn Maʿbad', 'Anas ibn Mālik', 'al-Ashʿarī', 'Yūsuf',
     'Abū Dharr', 'Ibn Marduwyah', 'Muḥammad ibn Isḥāq', 'Ḥawwāʾ', 'Muḥammad ibn Kaʿb al-Quraẓī',
-    'Khālid ibn Maʿdān', 'ʿAbd ar-Raḥmān ibn Zayd ibn Aslam', 'al-ʿAwfī', 'al-Ḥākim'];
+    'Khālid ibn Maʿdān', 'ʿAbd ar-Raḥmān ibn Zayd ibn Aslam', 'al-ʿAwfī', 'al-Ḥākim',
+    'Abū Dāwūd aṭ-Ṭayālisī', 'Yaʿqūb', 'Muqātil', 'Abdur-Razzāq', 'Maʿmar',
+    'Sulaymān ibn ʿAbd al-Malik', 'Abū Ḥāzim', 'ad-Dārimī'];
   const TITLES = ['Maʿārif-ul-Qurʾān', 'Tazkīrul Qurʾān', 'Al-Mukhtaṣar', 'Tanwīr al-Miqbās',
                   'Al-Jalālayn', 'Ibn Kathīr'];
   // fold diacritics/hamzas AND drop spaces, so "Ibn Masʿūd" matches the sources' "Ibn Mas'ud"
@@ -167,7 +177,7 @@ const LAST = 286;                      // verses in the surah
      det ? det.querySelectorAll('.tafsir-entry').length : 'none');
 
   // ---------- PARTIAL FILE: unauthorised verses must fall back ----------
-  for (const a of [40, 41, 100, 286]) {
+  for (const a of [45, 46, 100, 286]) {
     const g = w.eval(`renderGuidanceHtml(loadedGuidance[${S}], ${a})`);
     ck(`${S}:${a} (not yet authored) yields no guidance`, g === '', JSON.stringify(g).slice(0, 60));
     const h = w.eval(`renderCommentaryHtml(loadedTafsir[${S}], getVerseCommentary(loadedTafsir[${S}],${a}), ${a})`);
