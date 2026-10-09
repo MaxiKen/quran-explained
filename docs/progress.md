@@ -8,22 +8,49 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 7 / 286 | 4,748 | 5,550 | verses 1–7 only |
+| 2 — al-Baqarah | 14 / 286 | 9,565 | 10,210 | verses 1–7, then 8–14 (hypocrites) |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**18 of 6,236 verses (0.29%) · 12,960 of 4,013,330 planned words (0.32%)**
+**25 of 6,236 verses (0.40%) · 17,620 of 4,013,330 planned words (0.44%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
 
 ## Resume here
 
-**Sūrah 2, verse 8.** The next unit is the thirteen verses on the hypocrites
-(2:8–2:20), which the sources treat as one block. Mujāhid's count, recorded by
-Ibn Kathīr at 2:4: four verses on the believers, two on the disbelievers,
-thirteen on the hypocrites.
+**Sūrah 2, verse 15.** The hypocrites unit runs 2:8–2:20; verses 8–14 are done,
+so 2:15–2:20 completes it — six verses, and a clean stopping place. After that
+the sūrah turns to the Children of Israel at 2:40.
 
-279 verses remain in sūrah 2, 263,640 planned words.
+Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for this opening:
+four verses on the believers, two on the disbelievers, thirteen on the
+hypocrites.
+
+272 verses remain in sūrah 2, 258,980 planned words.
+
+## The 50-verse target is not being met — read this before continuing
+
+The standing instruction is **more than 50 verses per session**. This session
+delivered 7 (2:8–2:14), bringing the total to 25.
+
+The reason is arithmetic, recorded so it is not re-litigated: 2:8–57 is 50
+verses and **41,630 planned words** (34,150 even at the absolute floor of each
+tier band). Measured output is ~4,700–5,400 finished words a session. The two
+figures are about 6× apart, and no working method closes that gap.
+
+The gap is also incompatible with the maintainer's own 200-word floor: 50
+verses at 200 words is 10,000 words, still roughly double one session's output.
+
+**Options, in order of preference:**
+1. Lower the tier bands (one line — `BAND` in `tools/tier_verses.py`) so that
+   50 verses fits. At ~100 words a verse the target is reachable but falls
+   below the stated floor.
+2. Accept ~7–14 verses a session at the current quality standard.
+3. Split the work across parallel sessions on different sūrahs.
+
+This needs a maintainer decision. Until then, keep authoring to the standard
+in `docs/voice.md` and report the shortfall plainly each session rather than
+padding verses to hit a count.
 
 ## Batching instruction
 
@@ -57,8 +84,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 55/55 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe).
+`guidance-002` 79/79 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 181 checks total.
 
 ## Deferred, deliberately
 
