@@ -102,7 +102,7 @@ must **not** be mined.
 | chapter | verses | layout |
 |---|---|---|
 | 1 | 7 | plain intro + headed sections — converted 2026-10-09 |
-| 2 | 20 | plain intro + headed sections |
+| 2 | 28 | plain intro + headed sections |
 | 112 | 0 | cleared |
 
 **Chapter 1 and chapter 2 now follow the same format.** Chapter 1 was converted

@@ -12,12 +12,12 @@ Read this file completely before writing anything. Then read
 
 | | |
 |---|---|
-| Written | **27 of 6,236 verses** |
+| Written | **35 of 6,236 verses** |
 | Chapter 1 (al-Fātiḥah) | 7 / 7 — complete |
-| Chapter 2 (al-Baqarah) | 2:1–2:20 of 286 |
+| Chapter 2 (al-Baqarah) | 2:1–2:28 of 286 |
 | Chapter 112 (al-Ikhlāṣ) | empty |
-| **Resume at** | **2:21** |
-| Branch | `arena/2c46b8a2-quran-explained` |
+| **Resume at** | **2:29** |
+| Branch | `arena/253c8f49-quran-explained` |
 
 Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
 by juzʾ.
@@ -40,7 +40,7 @@ on it, why the scholars differed, whom the sources say it refers to.
 Why own-line matters: `renderMarkdown` promotes an own-line `**bold**` block to
 `<h4>`. Inline `**bold**` stays `<strong>` and does not produce a heading.
 
-**Reference implementation: `data/guidance_002.json`, verses 2:1–2:20.** Chapter
+**Reference implementation: `data/guidance_002.json`, verses 2:1–2:28.** Chapter
 1 also conforms. Copy either.
 
 ### Three formats were tried and rejected
@@ -68,7 +68,7 @@ python3 tools/tier_verses.py --verify # tier assignments
 ## Workflow per verse
 
 ```bash
-python3 tools/dump_sources.py 2 21 26      # 6 sources, max 6 verses, truncates ~12KB
+python3 tools/dump_sources.py 2 29 34      # 6 sources, max 6 verses, truncates ~12KB
 ```
 
 Synthesise from them. **Nothing invented.** A named authority must appear in
@@ -86,6 +86,7 @@ Write into `data/guidance_NNN.json` as:
 ## Before you commit — mandatory
 
 ```bash
+python3 tools/verify_verse.py 2 --range 21-28          # per-verse gate (see below)
 node tools/tests/style-check.js                        # format + length + transliteration
 node tools/tests/sources-all.js                        # source payload integrity
 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js   # app render (needs jsdom)
@@ -93,6 +94,14 @@ NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js   # app ren
 
 All must pass. Read the `N/N checks passed` line — **never trust the exit
 code alone.**
+
+`tools/verify_verse.py` is the per-verse gate: it checks the house layout, the
+tier floor, transliteration, Cyrillic homoglyphs, that the verse quotes 5+
+consecutive words of the app's own `ayah_en`, that `draws_on` names 4+ real
+sources, and — with `--names` — that **every authority cited occurs in that
+verse's own source blocks**. Run it on a draft *before* writing it into the
+payload (`--file`) and on the payload after (`--range`); it is the only check
+that catches an invented citation before it is committed.
 
 Then **post one full verse in the chat for review** before committing the batch.
 
