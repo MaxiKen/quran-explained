@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 86 / 286 | 72,299 | 73,090 | 1–86, in fifteen batches |
+| 2 — al-Baqarah | 91 / 286 | 78,116 | 78,580 | 1–91, in sixteen batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**93 of 6,236 verses (1.49%) · 80,007 of 4,013,330 planned words (1.99%)**
+**98 of 6,236 verses (1.57%) · 85,497 of 4,013,330 planned words (2.13%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,10 +20,10 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:86 are done — the cow, the hardened hearts, the scribes, the forty
-days, the six duties, and the three tribes of Madinah. Next: 2:87–2:91,
-Mūsā and ʿĪsā, the messengers they killed, and the claim that their hearts
-are wrapped.
+2:40–2:91 are done — the whole address to the Children of Israel from the
+exodus to the prophets they killed. Next: 2:92–2:96, the calf after Mūsā
+left, the mountain again, the Sabbath-breakers' town, and the claim that
+death will not reach them.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -73,6 +73,13 @@ Batch 13 cited al-ʿAwfī from Ibn ʿAbbās under 2:73; the report actually sits
 in Ibn Kathīr's **2:74** block, where 2:74's commentary already used it — so
 2:73 was both misranged and duplicating. `guidance-002.js` caught it. When a
 report has to move, check whether the destination verse already covers it.
+
+**The authority check also catches ordinary capitalised nouns.** Batch 16 wrote
+"Two Muslims from Banū Salamah" in 2:89; the harness read the capitalised
+*Muslims* as a cited authority and failed the verse, because `muslim` appears
+nowhere in 2:89's source blocks. Rephrase to "two men from…" rather than
+adding the word to `NAMES` — `NAMES` is for scholars and transmitters, not for
+group labels.
 
 Verses that came out *under* target were expanded and stay expanded — 2:10,
 2:14, 2:35, 2:43, 2:48.
@@ -145,8 +152,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 263/263 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 365 checks total.
+`guidance-002` 268/268 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 370 checks total.
 
 ## Deferred, deliberately
 
