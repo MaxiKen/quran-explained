@@ -355,7 +355,8 @@ const LAST = 286;                      // verses in the surah
     'Mūsā', 'ʿIkrimah', 'Qurayza', 'Naḍīr', 'ar-Rāghib al-Iṣfahānī', 'Namrūd',
     'al-Barāʾ ibn ʿĀzib', 'Abū Saʿīd al-Khudrī', 'Mukhairiq', 'Abul-ʿĀliyah',
     'Kaʿb ibn Ashraf', 'Ibn Khuwayz Mandadh', 'Rūmī', 'Abū ʿUthmān', 'Mazhari',
-    'Thāna Bhawan', 'ʿĀʾisha'];
+    'Thāna Bhawan', 'ʿĀʾisha', 'ʿUbaydah as-Salmānī', 'ʿUrwah ibn Ruwaym',
+    'Abū Mijlaz', 'Wahb ibn Munabbih', 'Ibn az-Zubayr'];
   const TITLES = ['Maʿārif-ul-Qurʾān', 'Tazkīrul Qurʾān', 'Al-Mukhtaṣar', 'Tanwīr al-Miqbās',
                   'Al-Jalālayn', 'Ibn Kathīr'];
   // fold diacritics/hamzas AND drop spaces, so "Ibn Masʿūd" matches the sources' "Ibn Mas'ud"
