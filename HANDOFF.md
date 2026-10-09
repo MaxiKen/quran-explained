@@ -28,12 +28,18 @@ Three layers, all working:
 
 ## The single most important instruction
 
-> **Author more than 50 verses per session, and stop at a good place past 50.**
+> **Write in the house format: one paragraph per verse, quoted phrases only.**
 >
-> **Commit and push at the end of every session.**
+> **Before committing a batch, post one full verse in the chat for review.**
+>
+> **About 20–25 verses per run. Commit and push at the end of every session.**
 
-Both are standing maintainer instructions. Full text, with the reasoning and an
-honest note about throughput, is in [`docs/batching.md`](docs/batching.md).
+The full format is in [`docs/style.md`](docs/style.md). Read it before writing
+anything.
+
+The 50-verses-per-run target was **withdrawn on 2026-10-09**. It is the pace
+that produced the quote-stacking which got the entire corpus cleared. Volume was
+the cause; do not restore it.
 
 The push rule is not bureaucratic. The workspace was reset mid-project once,
 destroying the local tree entirely; everything survived only because it had
@@ -97,7 +103,7 @@ Every step is explained in [`docs/workflow.md`](docs/workflow.md).
 | [`docs/workflow.md`](docs/workflow.md) | the session loop, step by step |
 | [`docs/batching.md`](docs/batching.md) | the 50-verse rule and the push rule, verbatim from the maintainer |
 | [`docs/voice.md`](docs/voice.md) | **how to write it** — structure, register, what each tier contains |
-| [`docs/style.md`](docs/style.md) | **the house format** — paragraph size, headings, opening, transliteration |
+| [`docs/style.md`](docs/style.md) | **the house format** — one paragraph per verse, inline signposts, quoted phrases only |
 | [`docs/classifier.md`](docs/classifier.md) | how tiers are assigned, and the known weakness on narrative verses |
 | [`docs/contracts.md`](docs/contracts.md) | the four payload shapes and what breaks if you change one |
 | [`docs/testing.md`](docs/testing.md) | the harnesses, how to add one, the attribution check |

@@ -130,10 +130,20 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck('ebook has no "coming soon"', !/coming soon/i.test(ebook));
 
   // ---------- no regression ----------
-  await w.eval('loadTafsirData(112)'); await w.eval('loadGuidanceData(112)');
-  const h112 = w.eval('renderCommentaryHtml(loadedTafsir[112], getVerseCommentary(loadedTafsir[112],1), 1)');
-  ck('surah 112 guidance still renders', h112.includes('tafsir-guidance'));
-  ck('surah 112 sources still folded', h112.includes('tafsir-sources'));
+  // Chapters 2 and 112 were cleared (2026-10-09). They must load without error,
+  // expose no guidance, and fall back to the six classical sources.
+  for (const cs of [2, 112]) {
+    await w.eval(`Promise.all([loadTafsirData(${cs}), loadGuidanceData(${cs})])`);
+    const nEntries = w.eval(`loadedGuidance[${cs}] ? Object.keys(loadedGuidance[${cs}].verses).length : -1`);
+    ck(`surah ${cs} guidance file loads and is empty`, nEntries === 0, `${nEntries} entries`);
+    for (const ca of [1, 2]) {
+      const g = w.eval(`renderGuidanceHtml(loadedGuidance[${cs}], ${ca})`);
+      ck(`surah ${cs}:${ca} renders no guidance`, g === '', `${g.length} chars`);
+      const all = w.eval(`getVerseCommentaryAll(loadedTafsir[${cs}], ${ca})`);
+      ck(`surah ${cs}:${ca} still serves the six sources`, Array.isArray(all) && all.length === 6,
+         `len=${Array.isArray(all) ? all.length : 'n/a'}`);
+    }
+  }
 
   // Pick the control surah dynamically: the first one that genuinely has no
   // guidance file. Hard-coding a surah here breaks every time it gets authored.

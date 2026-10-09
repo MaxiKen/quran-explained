@@ -1,66 +1,87 @@
-# Style and presentation — the house format
+# Style — the house format
 
-Set by the maintainer on 2026-10-09, after an audit found that chapter 1 and
-chapter 2 had been written in three different formats. This document is
-normative: every verse in `data/guidance_NNN.json` must conform.
+Set by the maintainer on 2026-10-09, verse by verse, after the whole corpus was
+cleared and restarted. This document is normative. Every verse in
+`data/guidance_NNN.json` must conform.
 
-## Why this exists
+**It supersedes an earlier version of this file** written the same day, which
+specified a multi-paragraph layout with `**bold**` headings on their own lines.
+The maintainer rejected that. See *Why the earlier version was wrong*, at the
+end.
 
-The audit measured the corpus as it stood at 168 authored verses:
+## 1. One paragraph per verse
 
-| verse | rendered `<p>` | `<h4>` headings | inline `<strong>` |
+Every verse is **a single continuous paragraph**. No blank lines inside a verse.
+No standalone quotation blocks. No `##` headings.
+
+## 2. Inline bold signposts, 3–5 per verse
+
+Inside that paragraph, use 3–5 `**bold**` signposts to mark where the subject
+turns, each followed immediately by prose. They are inline — never on their own
+line.
+
+```
+**What mercy means here.** Al-Jalālayn gives the shortest definition in the
+corpus: the One who possesses *mercy*, which means to will what is good for
+those who deserve it.
+```
+
+## 3. Open with the translation
+
+The first words of the paragraph quote the app's own `ayah_en` wording in
+italics, then flow straight into the commentary.
+
+```
+*In the Name of Allah—the Most Compassionate, Most Merciful.* The translation
+opens with a preposition. There is no verb here, and no subject either.
+```
+
+## 4. Quoted phrases only — about 10 words maximum
+
+This is the rule the corpus failed on, and the reason it was cleared.
+
+Quotations are **short phrases folded into sentences the author wrote**. The
+chapter-1 average was 4–9 words. Long ḥadīth, long classical definitions and
+lists of opinions are **summarised in the author's own words and attributed**,
+not reproduced.
+
+Measured, at the point the corpus was cleared:
+
+| verse | quoted spans | avg quote | block quotes ≥25w |
 |---|---|---|---|
-| 1:1 | 1 | 0 | 4 |
-| 2:1 | 1 | 0 | 3 |
-| 2:10 | 9 | 1 | 6 |
-| 2:156 | 48 | 8 | 0 |
+| 2:1 | 21 | **5.4 words** | 2 |
+| 2:3 | 17 | **5.6 words** | 1 |
+| 2:20 | 19 | **23.5 words** | 8 |
+| 2:60 | 22 | **29.6 words** | 14 |
+| 2:140 | 37 | 20.8 words | 15 |
 
-Chapter 1 was one continuous paragraph per verse with headings buried inline.
-Chapter 2 was 30–60 short paragraphs with headings on their own lines, which
-`renderMarkdown` promotes to real `<h4 class="modal-section-title">` blocks.
-The same screen showed two unrelated documents.
+Up to 2:10 the commentary was genuinely synthesis. From 2:20 the entries became
+stacked extracts with thin connective tissue. The maintainer's words: *"you're
+just quoting unnecessarily, which doesn't make the whole thing make sense. The
+flow is not there."*
 
-Two further drifts:
+**Flow is the requirement.** A verse must read as one sustained explanation.
 
-- The opening convention flipped at 2:10. Verses 2:1–9, 2:11–13 and 2:15 kept
-  the translation inline; 2:10, 2:14 and 2:16 onward gave it its own paragraph.
-- Paragraph count climbed from an average of 9.2 (2:1–20) to 62.9 (2:121–140).
-  Word count growth is expected across tiers; a sevenfold rise in
-  fragmentation is not.
+## 5. Sources — use and name only what is actually used
 
-## The format
+Name in the prose only the tafsīrs genuinely drawn on, and record exactly those
+in `draws_on`. Chapter 1 names 4–6 of the six per verse; that is correct. Do not
+pad a verse with a source that adds nothing.
 
-**1. Layout — structured, with merged paragraphs.**
+## 6. Length — tiered, and the check is a floor
 
-Bold headings go on their own line, so the renderer makes them `<h4>` section
-titles. Body paragraphs are merged up to roughly 85 words. Do not leave
-one- or two-sentence stub paragraphs between headings.
+Keep the A/B/C tiers from `docs/classifier.md` and `data/plan.json`:
 
-The measured effect on 2:157: 35 paragraphs → 12, with the same 7 headings.
+| tier | target | floor |
+|---|---|---|
+| A | 900–1,300 | 75% of target |
+| B | 450–700 | 75% of target |
+| C | 200–320 | 75% of target |
 
-**2. Opening — the translation inline.**
+**The floor is one-sided.** A verse may run as long as its content requires;
+only under-length fails. Never trim a verse to fit a ceiling.
 
-The verse opens by quoting the app's own `ayah_en` wording in italics, **in the
-first paragraph**, flowing straight into the commentary. It does not get a
-paragraph of its own.
-
-```
-*They are the ones who will receive Allah's blessings and mercy.* Verse 156
-defined them by a sentence. Verse 157 states the return, in three parts.
-```
-
-Quoted *source* material later in the entry may stand alone as its own
-paragraph when the quotation is long. That rule is about the opening, not
-about quotations generally.
-
-**3. Closing — forward pointers only where they are earned.**
-
-Point at the next verse only when it genuinely continues the argument. A
-forward link is not a required furniture of every entry. At the time of the
-audit 115 of 157 chapter-2 verses ended this way, which reads as a tic rather
-than an observation.
-
-**4. Transliteration — one form per name.**
+## 7. Transliteration — one form per name, in prose
 
 | use | not |
 |---|---|
@@ -68,27 +89,50 @@ than an observation.
 | Madīnah | Madinah |
 | Bayt al-Maqdis | Jerusalem |
 
-This applies to **prose only**. Text inside an italic quotation reproduces the
-source verbatim and keeps whatever spelling the source used — the six tafsirs
-write "Mecca" and "Jerusalem" freely, and altering a quotation would be
-misquotation. At the audit, no verse mixed spellings inside its own prose; the
-inconsistency was between verses.
+**Prose only.** Text inside an italic quotation reproduces the source verbatim
+and keeps whatever spelling the source used — the six tafsīrs write "Mecca" and
+"Jerusalem" freely, and altering a quotation would be misquotation.
 
-## Verifying it
+## 8. Pace, and the review gate
 
-`tools/tests/style-check.js` asserts all four rules against every authored
-verse, and fails on any verse that departs from them. Run it with the rest of
-the suite:
+**About 20–25 verses per run.** This is deliberate: 50+ verses per run is the
+pace that produced the quote-stacking.
 
-```
-NODE_PATH=/tmp/apptest/node_modules node tools/tests/style-check.js
-```
+**Before committing a batch, post one full verse in the chat for the maintainer
+to read.** This is a standing instruction — *"always post one of your response
+writeup in this place."* It is the primary defence against drift, because the
+defect that cleared the corpus was a prose-quality defect that no automated
+check caught.
 
-Style drift is the same class of failure as the silent test gaps recorded in
-`docs/pitfalls.md`: a convention nobody checks will break, and a green suite
-will not tell you.
+## 9. Chapters 2 and 112 start fresh
 
-## Retrofit status
+The cleared text (167,000 words, preserved at
+`d021eeee959645cc0bf7226418d718cf15dc6e39`) is **not to be mined**. Treat those
+chapters as never written and re-read the six tafsīrs for every verse. The
+prose was the thing that was wrong, so reusing it would carry the defect back.
 
-Scope chosen by the maintainer: **all authored verses**, chapter 1 and
-2:1–157 included. See `docs/progress.md` for the current state.
+## Status
+
+| file | state |
+|---|---|
+| `guidance_001.json` | 7 verses, one paragraph each, 5,414 words — **the model** |
+| `guidance_002.json` | cleared, 0 verses |
+| `guidance_112.json` | cleared, 0 verses |
+
+## Why the earlier version of this file was wrong
+
+1. **I mistook a formatting inconsistency for the problem.** The audit found
+   chapter 1 in one format and chapter 2 in another, so I standardised on
+   chapter 2's. That fixed the inconsistency by making everything worse. The
+   chapter-1 format was the good one.
+
+2. **The real defect was in the writing, and my audit never measured it.** I
+   counted paragraphs and headings. I did not measure quotation density, which
+   is where the quality drop lived. A style rule that constrains only layout
+   will not stop prose decaying into a stack of quotes.
+
+3. **Speed was the cause and I kept the speed.** The degradation tracked batch
+   volume. I raised the verse count per run instead of lowering it.
+
+The lesson for any future audit: **measure the prose, not just the markup — and
+have a human read a sample before a style is applied to 6,000 verses.**

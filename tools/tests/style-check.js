@@ -1,6 +1,6 @@
-// Asserts the house style defined in docs/style.md against every authored
-// guidance verse. Style drift is the same failure class as the silent test
-// gaps in docs/pitfalls.md: an unchecked convention will break quietly.
+// Asserts the house format in docs/style.md against every authored guidance
+// verse. Set by the maintainer 2026-10-09 after the corpus was cleared for
+// quote-stacking; this replaces the earlier multi-paragraph rule set.
 //
 // Run: NODE_PATH=/tmp/apptest/node_modules node tools/tests/style-check.js
 const fs = require('fs');
@@ -10,20 +10,29 @@ const ROOT = path.resolve(__dirname, '../..');
 const R = [];
 const ck = (n, ok, d) => R.push({ n, ok: !!ok, d: d === undefined ? '' : String(d) });
 
-const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const PLAN_PATH = path.join(ROOT, 'data/plan.json');
+const PLAN = fs.existsSync(PLAN_PATH) ? JSON.parse(fs.readFileSync(PLAN_PATH, 'utf8')) : {};
+
 // markdown-aware: **bold** must be consumed before *italic*, or parity desyncs
 const SPAN = /(\*\*[^*]+\*\*|\*[^*\n]+\*)/;
-const stripSpans = t => t.split(SPAN).filter(x => !SPAN.test(x)).join('');
-// ayah_en uses curly quotes, nbsp and ornate-parenthesis marks
-const canon = s => norm(s)
-  .replace(/[\u201c\u201d\u0022]/g, '"').replace(/[\u2018\u2019\u0027]/g, "'")
+const ITALIC = /(?<!\*)\*[^*\n]+\*(?!\*)/g;
+const BOLD = /\*\*[^*]+\*\*/g;
+
+// ayah_en uses curly quotes, nbsp and ornate-parenthesis marks; commas around
+// vocatives ("O Prophet,") are editorial. Collapse all of it before comparing.
+const canon = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/[\u201c\u201d"]/g, '"').replace(/[\u2018\u2019']/g, "'")
   .replace(/[\u00a0\u02f9\u02fa\u204e]/g, ' ')
   .replace(/,/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
 
-const HEADING = /^\*\*[^*]+\*\*$/;
-const MERGE_TARGET = 85;      // docs/style.md rule 1
-const LONG_QUOTE = 45;        // a quotation this long may stand alone
-const MAX_STUB = 30;          // a body paragraph shorter than this is a stub
+const SIGNPOST_MIN = 3, SIGNPOST_MAX = 5;   // docs/style.md rule 2
+const QUOTE_AVG_MAX = 10;                    // docs/style.md rule 4
+const EXEMPT_ABOVE = 20;                     // over this, treated as an exempt hadith
+// Maintainer ruling 2026-10-09: hadith and classical definitions are EXEMPT
+// from the phrase cap. Chapter 1 - the model - carries ten quotations over
+// 20 words, almost all hadith, including a 134-word parable at 1:6. So only
+// the AVERAGE is enforced: a verse may quote one hadith whole, but it may not
+// become a stack of extracts.
 
 const files = [
   ['guidance_001.json', 1],
@@ -35,7 +44,8 @@ for (const [fn, surah] of files) {
   const fp = path.join(ROOT, 'data', fn);
   if (!fs.existsSync(fp)) { ck(`${fn} present`, false, 'missing'); continue; }
   const g = JSON.parse(fs.readFileSync(fp, 'utf8'));
-  const ayahSrc = fs.readFileSync(path.join(ROOT, 'data', `chapter_${String(surah).padStart(3, '0')}.js`), 'utf8');
+  const ayahSrc = fs.readFileSync(
+    path.join(ROOT, 'data', `chapter_${String(surah).padStart(3, '0')}.js`), 'utf8');
 
   const ayahEn = n => {
     const m = ayahSrc.match(new RegExp(`"ayah_no_surah"\\s*:\\s*${n}\\b`));
@@ -45,68 +55,90 @@ for (const [fn, surah] of files) {
   };
 
   const verses = Object.keys(g.verses).map(Number).sort((a, b) => a - b);
-  ck(`${fn}: ${verses.length} verses parsed`, verses.length > 0);
 
-  const badOpen = [], badStub = [], badBig = [], badTranslit = [], badQuote = [];
+  // An unauthored chapter is legitimate, but the payload contract must hold so
+  // the app falls back to the six sources without error.
+  if (verses.length === 0) {
+    ck(`${fn}: empty, contract intact`,
+       g.surah === surah && g.lang === 'en' && g.dir === 'ltr' && typeof g.title === 'string');
+    continue;
+  }
+
+  const notOnePara = [], badSignpost = [], noOpenQuote = [], badQuoteLen = [],
+        badTranslit = [], underFloor = [];
+  let longestSeen = 0;
 
   for (const a of verses) {
     const t = g.verses[String(a)].text;
+
+    // ---- rule 1: exactly one paragraph ----
     const paras = t.split('\n\n').map(s => s.trim()).filter(Boolean);
+    if (paras.length !== 1) notOnePara.push(`${surah}:${a} (${paras.length})`);
 
-    // ---- rule 2: the entry opens by quoting the translation ----
+    // ---- rule 2: 3-5 inline bold signposts ----
+    const signs = t.match(BOLD) || [];
+    if (signs.length < SIGNPOST_MIN || signs.length > SIGNPOST_MAX) {
+      badSignpost.push(`${surah}:${a} (${signs.length})`);
+    }
+
+    // ---- rule 3: opens by quoting ayah_en ----
     const en = ayahEn(a);
-    const firstProse = paras.find(p => !HEADING.test(p)) || '';
-    if (en) {
-      const q = firstProse.match(/^\*([^*]+)\*/);
-      if (!q) badOpen.push(`${surah}:${a} (no opening quote)`);
-      else {
-        const said = canon(q[1]).replace(/[.,;:!?]+$/, '');
-        if (!canon(en).startsWith(said.slice(0, Math.min(said.length, 28)))) badOpen.push(`${surah}:${a}`);
+    const q0 = t.match(/^\*([^*]+)\*/);
+    if (!q0) noOpenQuote.push(`${surah}:${a} (none)`);
+    else if (en) {
+      const said = canon(q0[1]).replace(/[.,;:!?]+$/, '');
+      if (!canon(en).startsWith(said.slice(0, Math.min(said.length, 28)))) {
+        noOpenQuote.push(`${surah}:${a}`);
       }
     }
 
-    // ---- rule 1: no stub body paragraphs, headings on their own line ----
-    for (const p of paras) {
-      if (HEADING.test(p)) continue;
-      const w = p.split(/\s+/).length;
-      const quoted = /^\*[^*].*\*$/.test(p);
-      if (quoted && w >= LONG_QUOTE) continue;   // a long quotation may stand alone
-      // a short paragraph introducing the quotation beneath it is correct typography
-      const idx = paras.indexOf(p);
-      const nxt = paras[idx + 1] || '';
-      const leadIn = /^\*[^*]/.test(nxt) && nxt.split(/\s+/).length >= LONG_QUOTE;
-      // A short paragraph that CLOSES a section is a deliberate rhetorical
-      // closer, not fragmentation. Only short paragraphs stranded MID-section
-      // (followed by more prose) count as unmerged stubs.
-      const sectionEnd = !nxt || HEADING.test(nxt) || /^\*[^*]/.test(nxt);
-      if (w < MAX_STUB && !leadIn && !sectionEnd) badStub.push(`${surah}:${a} (${w}w)`);
-      if (w > MERGE_TARGET * 2.6) badBig.push(`${surah}:${a} (${w}w)`);
-    }
-
-    // ---- rule 4: transliteration, prose only (quotations stay verbatim) ----
-    const prose = stripSpans(t);
-    for (const [bad, good] of [['Mecca', 'Makkah'], ['Madinah', 'Madīnah'], ['Jerusalem', 'Bayt al-Maqdis']]) {
-      const re = new RegExp(`\\b${bad}\\b`);
-      if (re.test(prose)) badTranslit.push(`${surah}:${a} "${bad}" -> "${good}"`);
-    }
-
-    // ---- rule 4b: the quoted translation must match ayah_en ----
-    if (en) {
-      const q = firstProse.match(/^\*([^*]+)\*/);
-      if (q) {
-        const said = canon(q[1]).replace(/[.,;:!?]+$/, '');
-        if (!canon(en).startsWith(said.slice(0, Math.min(said.length, 28)))) badQuote.push(`${surah}:${a}`);
+    // ---- rule 4: quotations are short phrases, not extracts ----
+    const quotes = (t.match(ITALIC) || []).filter(q => q.length > 2);
+    const ql = quotes.map(q => q.replace(/\*/g, '').split(/\s+/).length);
+    if (ql.length) {
+      const longest = Math.max(...ql);
+      if (longest > longestSeen) longestSeen = longest;
+      // Exempt quotations (a hadith or definition quoted whole) are excluded
+      // from the average, otherwise one long hadith fails an otherwise
+      // well-written verse. The remaining short quotations must still average
+      // down to phrase length - that is what stops extract-stacking.
+      const short = ql.filter(x => x <= EXEMPT_ABOVE);
+      if (short.length) {
+        const avg = short.reduce((x, y) => x + y, 0) / short.length;
+        if (avg > QUOTE_AVG_MAX) badQuoteLen.push(`${surah}:${a} (avg ${avg.toFixed(1)}w)`);
       }
+    }
+
+    // ---- rule 7: transliteration, prose only ----
+    const prose = t.split(SPAN).filter(x => !SPAN.test(x)).join('');
+    for (const [bad, good] of [['Mecca', 'Makkah'], ['Madinah', 'Madīnah'],
+                               ['Jerusalem', 'Bayt al-Maqdis']]) {
+      if (new RegExp(`\\b${bad}\\b`).test(prose)) {
+        badTranslit.push(`${surah}:${a} "${bad}" -> "${good}"`);
+      }
+    }
+
+    // ---- rule 6: length meets the tier floor (one-sided) ----
+    const plan = PLAN[`${surah}:${a}`];
+    if (plan) {
+      const floor = Math.round(plan.words * 0.75);
+      const n = t.trim().split(/\s+/).length;
+      if (n < floor) underFloor.push(`${surah}:${a} (${n}w < ${floor}w)`);
     }
   }
 
-  ck(`${fn} rule 2 — every entry opens with the translation`, badOpen.length === 0, badOpen.join(', '));
-  ck(`${fn} rule 1 — no stub paragraphs (<${MAX_STUB}w)`, badStub.length === 0,
-     `${badStub.length}: ${badStub.slice(0, 8).join(', ')}`);
-  ck(`${fn} rule 1 — no unmerged blocks (>${Math.round(MERGE_TARGET * 2.6)}w)`, badBig.length === 0,
-     `${badBig.length}: ${badBig.slice(0, 8).join(', ')}`);
-  ck(`${fn} rule 4 — transliteration consistent in prose`, badTranslit.length === 0, badTranslit.join(', '));
-  ck(`${fn} rule 4b — opening quote matches ayah_en`, badQuote.length === 0, badQuote.join(', '));
+  ck(`${fn} rule 1 — one paragraph per verse`, notOnePara.length === 0, notOnePara.join(', '));
+  ck(`${fn} rule 2 — ${SIGNPOST_MIN}-${SIGNPOST_MAX} inline signposts`,
+     badSignpost.length === 0, badSignpost.join(', '));
+  ck(`${fn} rule 3 — opens by quoting the translation`, noOpenQuote.length === 0,
+     noOpenQuote.join(', '));
+  ck(`${fn} rule 4 — quotations average <=${QUOTE_AVG_MAX} words`, badQuoteLen.length === 0,
+     badQuoteLen.join(', '));
+  console.log(`  ${fn}: longest single quotation ${longestSeen}w (hadith exempt, average is the rule)`);
+  ck(`${fn} rule 6 — every verse meets its tier floor`, underFloor.length === 0,
+     underFloor.join(', '));
+  ck(`${fn} rule 7 — transliteration consistent in prose`, badTranslit.length === 0,
+     badTranslit.join(', '));
 }
 
 let pass = 0;
