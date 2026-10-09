@@ -3,7 +3,7 @@ const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const S = 2, LO = 1, HI = 30;         // verses authored so far
+const S = 2, LO = 1, HI = 34;         // verses authored so far
 const LAST = 286;                      // verses in the surah
 
 (async () => {
@@ -78,6 +78,13 @@ const LAST = 286;                      // verses in the surah
     [29, 'created everything in the earth for you'], [29, 'seven heavens'], [29, 'knowledge of all things'],
     [30, 'successive'], [30, 'authority on earth'], [30, 'spread corruption there and shed blood'],
     [30, 'glorify Your praises'], [30, 'I know what you do not know'],
+    [31, 'He taught Adam the names of all things'], [31, 'presented them to the angels'],
+    [31, 'Tell Me the names of these'],
+    [32, 'Glory be to You'], [32, 'no knowledge except what You have taught us'],
+    [32, 'All-Knowing, All-Wise'],
+    [33, 'Inform them of their names'], [33, 'secrets of the heavens and the earth'],
+    [33, 'what you reveal and what you conceal'],
+    [34, 'Prostrate before Adam'], [34, 'not Iblîs'], [34, 'refused and acted arrogantly'],
   ];
   for (const [a, frag] of pairs) {
     ck(`${S}:${a} quotes the translation "${frag}"`, w.eval(`loadedGuidance[${S}].verses["${a}"].text`).includes(frag));
@@ -101,7 +108,8 @@ const LAST = 286;                      // verses in the surah
     'ʿAbdullāh ibn Ubayy', 'Junayd of Baghdād', 'Jadd ibn Qays', 'Muʿaṭṭib ibn Qushayr',
     'ad-Daḥḥāk', 'Abū Burdah al-Aslamī', 'Ibn al-Sawdāʾ', 'ʿAbd al-Dār', 'ʿAwf ibn ʿĀmir',
     'Saʿīd ibn Jubayr', 'ʿAṭāʾ', 'al-Ḥasan al-Baṣrī', 'ʿAṭiyyah al-ʿAwfī', 'ʿAṭāʾ al-Khurāsānī',
-    'Abū Mālik', 'Masrūq', 'Abū Jaʿfar ar-Rāzī', 'Abū Bakr', 'ʿUmar', 'Ādam'];
+    'Abū Mālik', 'Masrūq', 'Abū Jaʿfar ar-Rāzī', 'Abū Bakr', 'ʿUmar', 'Ādam',
+    'ʿĀṣim ibn Kulayb', 'Saʿīd ibn Maʿbad', 'Anas ibn Mālik', 'al-Ashʿarī', 'Yūsuf'];
   const TITLES = ['Maʿārif-ul-Qurʾān', 'Tazkīrul Qurʾān', 'Al-Mukhtaṣar', 'Tanwīr al-Miqbās',
                   'Al-Jalālayn', 'Ibn Kathīr'];
   // fold diacritics/hamzas AND drop spaces, so "Ibn Masʿūd" matches the sources' "Ibn Mas'ud"
@@ -148,7 +156,7 @@ const LAST = 286;                      // verses in the surah
      det ? det.querySelectorAll('.tafsir-entry').length : 'none');
 
   // ---------- PARTIAL FILE: unauthorised verses must fall back ----------
-  for (const a of [31, 32, 100, 286]) {
+  for (const a of [35, 36, 100, 286]) {
     const g = w.eval(`renderGuidanceHtml(loadedGuidance[${S}], ${a})`);
     ck(`${S}:${a} (not yet authored) yields no guidance`, g === '', JSON.stringify(g).slice(0, 60));
     const h = w.eval(`renderCommentaryHtml(loadedTafsir[${S}], getVerseCommentary(loadedTafsir[${S}],${a}), ${a})`);
