@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 157 / 286 | 161,345 | 138,450 | 1–157, in twenty-nine batches |
+| 2 — al-Baqarah | 163 / 286 | 167,112 | 142,840 | 1–163, in thirty batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**164 of 6,236 verses (2.63%) · 149,300 of 4,013,330 planned words (3.72%)**
+**174 of 6,236 verses (2.79%) · 157,230 of 4,013,330 planned words (3.92%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -24,8 +24,8 @@ is for humans.
 the qiblah passage and the patience passage are all complete: the favour and
 its thanks, the remedy for grief, the martyrs, the announced test, the
 istirja' and its reward.
-Next: 2:158–2:163, Ṣafā and Marwah, concealing the clear signs, and the one
-God.
+Next: 2:164–2:170, the proof in creation, the command to eat of what is
+lawful, and following the footsteps of Satan.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -162,8 +162,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 544/544 · `style-check` 18/18 · `tier_verses.py --verify` exit 0
-(71.8% exact, 91% on Tier A, 1.5% severe). 664 checks total.
+`guidance-002` 564/564 · `style-check` 18/18 · `tier_verses.py --verify` exit 0
+(71.8% exact, 91% on Tier A, 1.5% severe). 684 checks total.
 
 ## The house format (set 2026-10-09)
 
