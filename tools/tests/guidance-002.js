@@ -33,8 +33,12 @@ const LAST = 286;                      // verses in the surah
   for (let a = LO; a <= HI; a++) {
     const n = w.eval(`loadedGuidance[${S}].verses["${a}"].text.trim().split(/\\s+/).length`);
     const tgt = PLAN[`${S}:${a}`].words;
-    ck(`${S}:${a} length ${n}w within 25% of plan (${tgt}w, Tier ${PLAN[`${S}:${a}`].tier})`,
-       Math.abs(n - tgt) / tgt <= 0.25, `${n} vs ${tgt}`);
+    // The plan target is a FLOOR, not a band. A verse may run long; it must
+    // not run short. Set by the maintainer 2026-10-09, reversing the earlier
+    // two-sided 25% tolerance.
+    const floor = Math.round(tgt * 0.75);
+    ck(`${S}:${a} length ${n}w meets the floor (${floor}w of ${tgt}w, Tier ${PLAN[`${S}:${a}`].tier})`,
+       n >= floor, `${n} vs floor ${floor}`);
   }
 
   // ---------- quotes the app's own translation ----------

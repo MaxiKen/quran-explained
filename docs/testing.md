@@ -40,7 +40,7 @@ Change: `S`, `LO`, `HI`, `LAST`; the translation-fragment `pairs`; and the
 
 - the file loads and covers exactly the verses claimed
 - every entry has a correct `range` and 4+ real `draws_on` ids
-- **every verse's length is within 25% of its `data/plan.json` target**
+- **every verse's length meets its `data/plan.json` floor** — 75% of the target. One-sided: running long passes, running short fails
 - **the guidance quotes the app's own stored `ayah_en` wording** — explicit
   fragment assertions, not a vague similarity check
 - guidance renders first, labelled "In plain words", range as its first line

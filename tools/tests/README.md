@@ -24,8 +24,10 @@ The ebook is asserted to carry guidance on exactly the seven authored verses.
 
 `guidance-001.js` and `guidance-002.js` add two checks the others do not have:
 
-- every verse's length is within 25% of the target `tools/tier_verses.py`
-  assigned it in `data/plan.json`
+- every verse's length **meets the floor** set by `tools/tier_verses.py` in
+  `data/plan.json` — 75% of the verse's target. Running long is fine; running
+  short fails. The maintainer set this on 2026-10-09, reversing an earlier
+  two-sided 25% band
 - every narrator and collector named in the guidance appears in that verse's
   own source text, with diacritics folded away so that "Imām Aḥmad" matches
   the sources' "Imam Ahmad". Two names carry a romanisation variant

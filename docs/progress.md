@@ -41,15 +41,16 @@ Measured across two runs: **ten batches, 30 verses, ~24,300 words**
 → batch 6). That is roughly **810 words per verse** and **five to six batches
 per run** at about **16,000–18,000 words**.
 
-**Every verse that came out of band was brought back into band rather than
-having its tier raised.** Twelve so far, most recently 2:45 (818→734) and
-2:48 (815→961). Never widen the tolerance to make a verse pass.
+**The length rule is a FLOOR, not a band** (maintainer, 2026-10-09). A verse
+may run long; it must not run short. The harness checks `n >= target * 0.75`.
 
-**Trimming is slow and error-prone.** Cutting a verse into band one sentence
-at a time took six attempts on 2:45 because `str.replace` fails silently when
-the target is the file's last paragraph (no trailing newline). When a verse
-comes out of band by more than ~15%, rewrite the whole text; do not nibble.
-And when patching several paragraphs, split on `'\n\n'` and edit by index.
+Three verses had been trimmed under the old two-sided rule and have been
+restored to their original length: **2:18 (393→524w), 2:31 (798→947w), 2:45
+(734→818w)**. `tools/restore_trimmed.py` did it. No verse is currently under
+its floor.
+
+Verses that came out *under* target were expanded and stay expanded — 2:10,
+2:14, 2:35, 2:43, 2:48.
 
 **Every batch needs three things done together or the suite lies:**
 1. the new verses written into `data/guidance_002.json`;

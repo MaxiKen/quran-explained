@@ -52,8 +52,11 @@ does.
 | **B** | 450–700 | Walk the translation · wording · connection to what surrounds it · the main evidence · application |
 | **C** | 200–320 | The meaning, its connection to what surrounds it, and why it is short. **No padding.** A refrain needs one honest paragraph, not five |
 
-The plan target per verse is in `data/plan.json`; stay within 25% of it. The
-harness enforces this.
+The plan target per verse is in `data/plan.json`. It is a **floor**, not a
+band: meet at least 75% of it, and let the verse run as long as the material
+carries it. The harness fails a verse for falling short and never for running
+long. Set by the maintainer on 2026-10-09, reversing an earlier two-sided 25%
+band.
 
 ## Length is a floor on quality, not a licence to pad
 

@@ -120,3 +120,30 @@ list. Never assume coverage from the verse count.
   from measured output — keep doing that.
 - **Committing on a red suite.** `guidance-001.js` was pushed at 43/46 because
   the failure looked like a stale assertion. Fix the assertion, then commit.
+
+## Trimming verses to fit a band
+
+Until 2026-10-09 the length check was two-sided — a verse more than 25% away
+from its plan target in *either* direction failed. That was wrong, and it
+caused real damage: three verses were cut down to fit a band they did not need
+to fit.
+
+| verse | written | trimmed to | restored |
+|---|---|---|---|
+| 2:18 | 524w | 393w | 524w |
+| 2:31 | 947w | 798w | 947w |
+| 2:45 | 818w | 734w | 818w |
+
+The rule is a **floor**. A verse may run long; it must not run short. The
+harness now checks `n >= target * 0.75` and nothing else.
+
+Trimming was also just slow and error-prone. Bringing 2:45 into band took six
+attempts, because `str.replace` fails silently when the target is a file's
+last paragraph — there is no trailing newline to match — so three of those
+runs changed nothing and reported the same word count back.
+
+`tools/restore_trimmed.py` recovers the original text by exec'ing the
+authoring script with file writes suppressed and reading its `V` dict. It
+takes each verse only from the script that actually authored it — an earlier
+version took it from whichever script ran last, which silently restored the
+already-trimmed copy and reported success.

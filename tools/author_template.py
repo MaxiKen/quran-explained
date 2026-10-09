@@ -14,7 +14,8 @@ What it enforces for you:
   * a Cyrillic-homoglyph scan (this has bitten the project before)
   * merges into an existing guidance file instead of overwriting it, so a
     surah can be authored over several sessions
-  * reports each verse against its plan target and flags any outside 25%
+  * reports each verse against its plan floor (75% of target) and flags any
+    verse that falls SHORT. Running long is fine - the floor is one-sided
 """
 import json
 import os
@@ -77,9 +78,11 @@ for a in sorted((int(k) for k in out['verses'])):
     tgt = PLAN[key]['words'] if key in PLAN else None
     tot += w
     if tgt:
-        off = abs(w - tgt) / tgt
-        flag = '' if off <= 0.25 else f'  <-- {off:.0%} off target'
-        print(f'  {key}  Tier {PLAN[key]["tier"]}  {w:4d}w (target {tgt}){flag}')
+        # The plan target is a FLOOR, not a band. A verse may run long; it
+        # must not run short. Set by the maintainer 2026-10-09.
+        floor = round(tgt * 0.75)
+        flag = '' if w >= floor else f'  <-- SHORT of floor {floor}'
+        print(f'  {key}  Tier {PLAN[key]["tier"]}  {w:4d}w (target {tgt}, floor {floor}){flag}')
     else:
         print(f'  {key}  {w:4d}w  (no plan entry)')
 print(f'  {len(out["verses"])} verses, {tot:,} words, {os.path.getsize(path):,} bytes')

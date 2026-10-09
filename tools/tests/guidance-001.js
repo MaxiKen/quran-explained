@@ -35,8 +35,12 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     const t = w.eval(`loadedGuidance[1].verses["${a}"].text`);
     const n = t.trim().split(/\s+/).length;
     const tgt = PLAN['1:' + a].words;
-    ck(`1:${a} length ${n}w within 25% of plan (${tgt}w, Tier ${PLAN['1:' + a].tier})`,
-       Math.abs(n - tgt) / tgt <= 0.25, `${n} vs ${tgt}`);
+    // The plan target is a FLOOR, not a band. A verse may run long; it must
+    // not run short. Set by the maintainer 2026-10-09, reversing the earlier
+    // two-sided 25% tolerance.
+    const floor = Math.round(tgt * 0.75);
+    ck(`1:${a} length ${n}w meets the floor (${floor}w of ${tgt}w, Tier ${PLAN['1:' + a].tier})`,
+       n >= floor, `${n} vs floor ${floor}`);
   }
 
   // ---------- it must quote the app's OWN translation ----------

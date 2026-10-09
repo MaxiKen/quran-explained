@@ -69,7 +69,7 @@ python3 /tmp/g0NN.py
 
 Keep the working script in `/tmp`. Only the JSON it writes goes in Git.
 
-Write to the voice in [voice.md](voice.md). Hit the plan target within 25%.
+Write to the voice in [voice.md](voice.md). The plan target is a **floor**, not a band — meet at least 75% of it. Running long is never a problem; running short is.
 
 ## 5. Verify
 

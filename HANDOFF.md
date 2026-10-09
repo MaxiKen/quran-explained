@@ -39,6 +39,20 @@ The push rule is not bureaucratic. The workspace was reset mid-project once,
 destroying the local tree entirely; everything survived only because it had
 been pushed. See [`docs/pitfalls.md`](docs/pitfalls.md#the-workspace-can-be-reset).
 
+## The length rule is a FLOOR, not a band
+
+Set by the maintainer on 2026-10-09, reversing an earlier two-sided 25%
+tolerance.
+
+**A verse may run as long as the material carries it. It must not run short.**
+The harness fails a verse below 75% of its `data/plan.json` target and never
+fails one for running long.
+
+If a verse comes out under its floor, expand it from sources already read.
+Never trim a verse to fit, never re-tier it to make it pass, and never widen
+the floor. Three verses were trimmed under the old rule and have been
+restored: 2:18 (393→524w), 2:31 (798→947w), 2:45 (734→818w).
+
 ## Do this first
 
 ```bash
