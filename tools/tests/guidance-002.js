@@ -3,7 +3,7 @@ const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const S = 2, LO = 1, HI = 126;        // verses authored so far
+const S = 2, LO = 1, HI = 131;        // verses authored so far
 const LAST = 286;                      // verses in the surah
 
 (async () => {
@@ -189,7 +189,7 @@ const LAST = 286;                      // verses in the surah
      det ? det.querySelectorAll('.tafsir-entry').length : 'none');
 
   // ---------- PARTIAL FILE: unauthorised verses must fall back ----------
-  for (const a of [127, 128, 150, 286]) {
+  for (const a of [132, 133, 150, 286]) {
     const g = w.eval(`renderGuidanceHtml(loadedGuidance[${S}], ${a})`);
     ck(`${S}:${a} (not yet authored) yields no guidance`, g === '', JSON.stringify(g).slice(0, 60));
     const h = w.eval(`renderCommentaryHtml(loadedTafsir[${S}], getVerseCommentary(loadedTafsir[${S}],${a}), ${a})`);

@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 126 / 286 | 118,341 | 109,320 | 1–126, in twenty-three batches |
+| 2 — al-Baqarah | 131 / 286 | 125,494 | 114,170 | 1–131, in twenty-four batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**133 of 6,236 verses (2.13%) · 120,307 of 4,013,330 planned words (3.00%)**
+**138 of 6,236 verses (2.21%) · 125,020 of 4,013,330 planned words (3.12%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,10 +20,11 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:126 are done — the eighty-three-verse address to the Children of
-Israel closes on the statement that opened it, and the Ibrāhīm passage is
-under way. Next: 2:127–2:132, the building of the Kaʿbah, the two sons, and
-the religion of Ibrāhīm.
+2:40–2:131 are done — the eighty-three-verse address to the Children of
+Israel closes on the statement that opened it, and the Ibrāhīm passage has
+run through the building of the House, the prayer for a messenger, and the
+command to submit. Next: 2:132–2:136, the bequest to the sons, Yaʿqūb, and
+the claim to Ibrāhīm's religion.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -160,8 +161,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 303/303 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 405 checks total.
+`guidance-002` 308/308 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 410 checks total.
 
 ## Deferred, deliberately
 
