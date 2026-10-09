@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 91 / 286 | 78,116 | 78,580 | 1–91, in sixteen batches |
+| 2 — al-Baqarah | 96 / 286 | 83,050 | 82,850 | 1–96, in seventeen batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**98 of 6,236 verses (1.57%) · 85,497 of 4,013,330 planned words (2.13%)**
+**103 of 6,236 verses (1.65%) · 90,431 of 4,013,330 planned words (2.25%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,10 +20,8 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:91 are done — the whole address to the Children of Israel from the
-exodus to the prophets they killed. Next: 2:92–2:96, the calf after Mūsā
-left, the mountain again, the Sabbath-breakers' town, and the claim that
-death will not reach them.
+2:40–2:96 are done — one third of al-Baqarah. Next: 2:97–2:101, Gabriel,
+the magic at Babylon, and the abrogated verses.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -152,8 +150,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 268/268 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 370 checks total.
+`guidance-002` 273/273 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 375 checks total.
 
 ## Deferred, deliberately
 
