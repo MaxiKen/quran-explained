@@ -73,9 +73,9 @@ for (const [fn, surah] of files) {
 
     // ---- rule 1: exactly one paragraph ----
     const paras = t.split('\n\n').map(s => s.trim()).filter(Boolean);
-    const heads = text.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
-    if (heads.length < 3 || heads.length > 6) badHead.push(`${surah}:${a} (${heads.length})`);
-    if (paras.length < heads.length + 1) notOnePara.push(`${surah}:${a} (intro missing)`);
+    const headSecs = text.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
+    if (headSecs.length < 3 || headSecs.length > 6) badHead.push(`${surah}:${a} (${headSecs.length})`);
+    if (paras.length < headSecs.length + 1) notOnePara.push(`${surah}:${a} (intro missing)`);
 
     // ---- rule 2: 3-5 inline bold signposts ----
     const signs = t.match(BOLD) || [];
