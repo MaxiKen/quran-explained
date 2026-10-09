@@ -5,11 +5,11 @@
 > Chapters 2 and 112 were **cleared on 2026-10-09** and chapter 2 is being
 > re-authored from verse 1. The counts and the 50-verse pace below are obsolete.
 >
-> **Current state: 27 of 6,236 verses written** - chapter 1 (7, in a rejected
-> layout) and 2:1-2:20. Chapter 112 is empty. Resume at **2:21**.
+> **Current state: 27 of 6,236 verses written** - chapter 1 (7) and 2:1-2:20,
+> both in the current format. Chapter 112 is empty. Resume at **2:21**.
 >
-> Authoritative state is in [`../HANDOFF.md`](../HANDOFF.md); the format is in
-> [`style.md`](style.md).
+> **Start at [`../AGENTS.md`](../AGENTS.md)** - the single entry point. The
+> format is in [`style.md`](style.md).
 
 
 Updated at the end of every session, before pushing. **Read this first** — it is
