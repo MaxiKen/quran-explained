@@ -46,8 +46,13 @@ may run long; it must not run short. The harness checks `n >= target * 0.75`.
 
 Three verses had been trimmed under the old two-sided rule and have been
 restored to their original length: **2:18 (393→524w), 2:31 (798→947w), 2:45
-(734→818w)**. `tools/restore_trimmed.py` did it. No verse is currently under
-its floor.
+(734→818w)**. `tools/restore_trimmed.py` did it.
+
+Auditing every authored surah against the new floor found a fourth problem —
+**112:1 was 340w against a floor of 405**, written short in the original pilot
+rather than trimmed. Expanded to 783w by `tools/expand_112_1.py`.
+
+**No verse in any authored surah is now under its floor.**
 
 Verses that came out *under* target were expanded and stay expanded — 2:10,
 2:14, 2:35, 2:43, 2:48.
