@@ -101,9 +101,13 @@ must **not** be mined.
 
 | chapter | verses | layout |
 |---|---|---|
-| 1 | 7 | **old single-paragraph — not yet converted** |
+| 1 | 7 | plain intro + headed sections — converted 2026-10-09 |
 | 2 | 20 | plain intro + headed sections |
 | 112 | 0 | cleared |
 
-Chapter 1 currently **fails rule 1** because it predates this format. It was
-written when the single-paragraph rule was in force and has not been converted.
+**Chapter 1 and chapter 2 now follow the same format.** Chapter 1 was converted
+on 2026-10-09 by moving its inline `**bold**` signposts onto their own lines;
+no prose was changed or lost. `style-check` passes 7/7 across all three files.
+
+This format is **the permanent rule** for all remaining verses. See
+[`../AGENTS.md`](../AGENTS.md) for the entry point.

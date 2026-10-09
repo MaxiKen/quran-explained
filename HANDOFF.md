@@ -40,10 +40,12 @@ multi-paragraph layout, then a single paragraph with inline `**bold**` signposts
 Do not reinvent either. Only `docs/style.md` is normative; if any other document
 in this repo describes verse layout differently, `docs/style.md` wins.
 
-**Chapter 1 is still in the rejected single-paragraph layout** and therefore
-fails `style-check` rule 1. That is the one known failing check. It has not been
-converted. Convert it, or leave it — but do not copy its layout for new verses;
-copy **2:1-2:20** instead.
+**Chapter 1 and chapter 2 now follow the same format** (converted 2026-10-09).
+`style-check` passes 7/7. Copy either as the reference implementation.
+
+**Start at [`AGENTS.md`](AGENTS.md).** It is the single entry point for a new
+session — current state, the format rule, the resume point, the tools, and the
+checks to run before committing.
 
 The 50-verses-per-run target was **withdrawn on 2026-10-09**. It is the pace
 that produced the quote-stacking which got the entire corpus cleared. Volume was
