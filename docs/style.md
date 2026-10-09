@@ -41,9 +41,20 @@ opens with a preposition. There is no verb here, and no subject either.
 This is the rule the corpus failed on, and the reason it was cleared.
 
 Quotations are **short phrases folded into sentences the author wrote**. The
-chapter-1 average was 4–9 words. Long ḥadīth, long classical definitions and
-lists of opinions are **summarised in the author's own words and attributed**,
-not reproduced.
+chapter-1 average was 4–9 words.
+
+**Ḥadīth are exempt — maintainer's ruling, 2026-10-09.** Asked whether chapter
+1's long quotations should be shortened, the ruling was: *"the hadith quotations
+should be left."* Chapter 1 carries ten quotations over twenty words, almost all
+ḥadīth, including the 134-word parable in 1:6. Those stand, and nothing is
+rewritten to shorten them. Quoting a ḥadīth or a classical definition whole is
+legitimate; the cap applies to Qurʾānic fragments and paraphrase.
+
+`tools/tests/style-check.js` enforces this by excluding any quotation over twenty
+words from the per-verse average, rather than ignoring long quotes outright. One
+ḥadīth quoted whole cannot fail an otherwise well-written verse, and the
+remaining short quotations must still average down to phrase length — which is
+what actually stops extract-stacking.
 
 Measured, at the point the corpus was cleared:
 
