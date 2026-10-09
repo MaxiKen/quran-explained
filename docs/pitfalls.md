@@ -1,0 +1,122 @@
+# Pitfalls
+
+Every one of these was hit during the project. They are recorded so they are
+not rediscovered.
+
+## The workspace can be reset
+
+The workspace was reset mid-project to `ada6890` — the original `main` commit.
+Every large `data/tafsir_*.json` was stubbed to a 19-byte `{"verses":{}}`, and
+`ATTRIBUTION.md`, `tools/`, `data/plan.json` and both guidance files vanished.
+`/tmp` was wiped too, taking jsdom with it.
+
+**Symptom:** the server returns `200` with 19 bytes for `data/tafsir_002.json`,
+and `404` for the guidance files. It looks like the app is broken. It is not —
+the working tree is.
+
+**Recovery:**
+```bash
+git fetch origin arena/2c46b8a2-quran-explained
+git reset --hard origin/arena/2c46b8a2-quran-explained
+```
+
+**Prevention:** push after every session, before writing the summary. The
+remote branch is the only durable copy.
+
+## Single-line JSON renders as an empty diff
+
+`data/tafsir_*.json` files have **no newlines** — `tafsir_002.json` is one
+3,388,389-character line. GitHub hides over-long lines in diffs, so the PR
+showed the old multi-line payload deleted and the replacement invisible. A
+maintainer reported the contents looked empty. They were intact:
+
+```
+remote blob sha  58135a2bf73fc6a2e40e5892c71b4c1967595a97
+local  blob sha  58135a2bf73fc6a2e40e5892c71b4c1967595a97
+downloaded from GitHub: 3,388,389 bytes — parses as surah 2, 6 sources, 286 verses
+```
+
+`.gitattributes` now marks them `-diff linguist-generated` so GitHub says the
+diff is hidden rather than showing a blank.
+
+**To verify a large file on the remote, use the blobs API, not contents.** The
+contents API returns `content: ""` with `encoding: "none"` for anything over
+1 MB, which reads as "the file is empty":
+
+```bash
+SHA=$(gh api "repos/OWNER/REPO/contents/PATH?ref=BRANCH" --jq '.sha')
+gh api "repos/OWNER/REPO/git/blobs/$SHA" --jq '.content' | base64 -d
+```
+
+## GitHub's 1 MB inline-display limit
+
+Pretty-printing `data/plan.json` took it from 871,814 to 1,292,195 bytes — over
+the limit, so it stopped rendering at all. **Minified is more viewable than
+pretty-printed past that threshold.** `data/guidance_*.json` is pretty-printed
+because those files are small and are the ones a reviewer reads.
+
+## Verify scripts must cast JSON object keys
+
+`d['verses']` yields **string** ayah keys. Comparing against ints produced
+25,478 false failures in an early audit. Always `int(a)`.
+
+## A failed pre-step does not stop a chained command
+
+An `assert` in a label-fix step threw, but `&&` sequencing let the builder
+re-run on the unpatched script and print success. **Re-read the artefact, not
+the exit code.**
+
+## Do not test "range absent from block text"
+
+Ibn Kathīr's prose contains incidental cross-references, so that assertion
+fires spuriously. The real invariant is **0 blocks that `startsWith` their
+range label**.
+
+## Range labels must not over-claim
+
+Compress scattered ayah sets into runs: `8:12,63-65`, not `8:12-65`. Thirty
+such labels exist in the corpus.
+
+## Do not conflate two word counts
+
+5,041,691 **deduplicated unique** words is not the same as 12,043,324
+**per-verse sum**. The 1.92× figure is the per-verse sum against the previous
+single-source corpus.
+
+## Two payload shapes in the upstream source data
+
+`en-tafisr-ibn-kathir` (note the typo in the folder name) is a flat list of
+`{text, ayah, surah}`. The others are `{"ayahs": [...]}` with a **sparse** ayah
+list. Never assume coverage from the verse count.
+
+## Unreachable from the sandbox
+
+- `raw.githubusercontent.com` — use `api.github.com` contents/blobs, or `git`.
+- `git/trees/<sha>?recursive=1` on `spa5k/tafsir_api` returns `truncated: true`
+  at 71,483 paths — unusable.
+- The three tafsīr provenance hosts — egress allowlist.
+
+## Small ones
+
+- The sparse clone of the upstream corpus lands at
+  `/tmp/spa5k/tafsir/en-tafisr-ibn-kathir`, not `.../tafsir/tafsir/...`.
+- `fawazahmed0/hadith-api`'s default branch is `1`, not `main`.
+- jsdom lacks `window.fetch` and `window.matchMedia` — stub both.
+- The server must bind `0.0.0.0` or the user gets no preview.
+- `getVerseCommentary(tafsir, ayah)` returns a **string**; the array version is
+  `getVerseCommentaryAll(tafsir, ayah)`. Calling `.map` on the former throws.
+- The ebook is rendered by `renderCompleteCommentary(div)` into the DOM. There
+  is no `generateEbookContent()` — referencing it throws `ReferenceError`.
+- A payload shape change needs an `sw.js` `CACHE_VERSION` bump; a new `data/`
+  prefix needs the SW cache regex updated.
+
+## Analytical errors worth not repeating
+
+- **Ruling out paraphrase.** The single most consequential mistake of the
+  project. It made the maintainer's core requirement sound impossible.
+- **Describing the six-block layout as satisfying the brief.** It did not.
+- **A throughput table built on an unmeasured 100–200 words/verse.** The first
+  real pilot came in at ~340 words/verse. Estimates have since been re-derived
+  from measured output — keep doing that.
+- **Committing on a red suite.** `guidance-001.js` was pushed at 43/46 because
+  the failure looked like a stale assertion. Fix the assertion, then commit.
