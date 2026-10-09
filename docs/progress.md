@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 81 / 286 | 67,608 | 68,720 | 1–81, in fourteen batches |
+| 2 — al-Baqarah | 86 / 286 | 72,299 | 73,090 | 1–86, in fifteen batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**88 of 6,236 verses (1.41%) · 75,637 of 4,013,330 planned words (1.88%)**
+**93 of 6,236 verses (1.49%) · 80,007 of 4,013,330 planned words (1.99%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,9 +20,10 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:81 are done — the cow, the hardened hearts, the scribes, and the
-forty days. Next: 2:82–2:86, the believers' reward and the covenant at
-Sinai.
+2:40–2:86 are done — the cow, the hardened hearts, the scribes, the forty
+days, the six duties, and the three tribes of Madinah. Next: 2:87–2:91,
+Mūsā and ʿĪsā, the messengers they killed, and the claim that their hearts
+are wrapped.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -144,8 +145,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 258/258 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 360 checks total.
+`guidance-002` 263/263 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 365 checks total.
 
 ## Deferred, deliberately
 
