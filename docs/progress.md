@@ -8,10 +8,10 @@ faster than reconstructing state from `git log`.
 | surah | verses | words | plan words | notes |
 |---|---|---|---|---|
 | 1 — al-Fātiḥah | 7 / 7 | 5,414 | 5,790 | complete |
-| 2 — al-Baqarah | 136 / 286 | 132,548 | 119,750 | 1–136, in twenty-five batches |
+| 2 — al-Baqarah | 141 / 286 | 139,094 | 124,130 | 1–141, in twenty-six batches |
 | 112 — al-Ikhlāṣ | 4 / 4 | 1,375 | — | the original pilot, pre-dates the tier plan |
 
-**143 of 6,236 verses (2.29%) · 130,600 of 4,013,330 planned words (3.25%)**
+**148 of 6,236 verses (2.37%) · 134,980 of 4,013,330 planned words (3.36%)**
 
 Check with `python3 tools/progress.py --next` — it is authoritative, this table
 is for humans.
@@ -20,11 +20,11 @@ is for humans.
 
 **Sūrah 2, verse 49.** The address to the Children of Israel runs to about
 2:141 — roughly a hundred verses, the largest single unit in the sūrah.
-2:40–2:136 are done — the address to the Children of Israel closes, the
-Ibrāhīm passage runs through the building of the House, the prayer for a
-messenger, the bequest to the sons, and the creed of no distinction. Next:
-2:137–2:141, the same guidance, the colour of Allah, and the House's
-custodians.
+2:40–2:141 are done — the address to the Children of Israel closes on the
+statement that opened it, and the whole Ibrāhīm passage is complete: the
+tests, the imāmah, the House, the prayer for a messenger, the bequest to the
+sons, the creed of no distinction, and the ancestral claim answered twice.
+Next: 2:142–2:147, the change of qiblah.
 
 Mujāhid's count, recorded by Ibn Kathīr at 2:4, is the map for the opening:
 four verses on the believers, two on the disbelievers, thirteen on the
@@ -161,8 +161,8 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 ## Verification state
 
 `sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 313/313 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
-Tier A, 1.5% severe). 415 checks total.
+`guidance-002` 318/318 · `tier_verses.py --verify` exit 0 (71.8% exact, 91% on
+Tier A, 1.5% severe). 420 checks total.
 
 ## Deferred, deliberately
 
