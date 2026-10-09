@@ -73,7 +73,7 @@ for (const [fn, surah] of files) {
 
     // ---- rule 1: exactly one paragraph ----
     const paras = t.split('\n\n').map(s => s.trim()).filter(Boolean);
-    const headSecs = text.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
+    const headSecs = t.split('\n\n').filter(p => /^\*\*[^*]+?\.\*\*$/.test(p.trim()));
     if (headSecs.length < 3 || headSecs.length > 6) badHead.push(`${surah}:${a} (${headSecs.length})`);
     if (paras.length < headSecs.length + 1) notOnePara.push(`${surah}:${a} (intro missing)`);
 
