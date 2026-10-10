@@ -91,6 +91,10 @@ python3 tools/fill_quotes.py /tmp/b0NN.md                       # pastes each ve
 python3 tools/compile_guidance.py <surah> /tmp/b0NN.md --dry    # nothing written
 python3 tools/compile_guidance.py <surah> /tmp/b0NN.md
 
+Copy `tools/examples/spec_2-31_2-35.md` to start — it is a five-verse batch that compiles
+clean, so it is also the fastest way to confirm your tooling agrees with the docs
+(`python3 tools/compile_guidance.py 2 tools/examples/spec_2-31_2-35.md --dry`).
+
 Never type the `> ` line: it is what the lead is validated against, and a mistranscription
 surfaces as a coverage failure three steps later. Patch a spec with `if a in s:` + a report
 of the misses — a script that `assert`s mid-way never reaches its write, so the file is

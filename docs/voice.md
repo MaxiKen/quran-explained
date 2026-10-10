@@ -11,6 +11,12 @@ This was the maintainer's explicit correction:
 > (written from a source) and also integrate with the English translation
 > already in the app, quoting its actual words for explanation."
 
+**Punctuation, because it is what makes a spliced entry read as one voice:** connectives
+use commas and full stops only — **no em dashes, no semicolons, no parentheses asides, no
+markup**. The sources' sentences are spliced on that same rhythm, so a dash or a
+semicolon inside my own line is the one tell that the paragraph was pasted in. This is
+not enforced by a gate; it is enforced by reading the finished entry aloud once.
+
 ## Structure of a verse
 
 Not a rigid template, but the shape that has worked:

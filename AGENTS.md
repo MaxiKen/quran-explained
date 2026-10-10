@@ -283,17 +283,27 @@ inside the **opening paragraph**, the tier-aware `draws_on` count, and — with
 blocks**. Run it on a draft before it goes into the payload (`--file`), and on the
 payload after (`--range`). It is the only check that catches an invented citation.
 
-Then **post one full verse in the chat for review** before committing a batch.
+Then report the batch to the maintainer as **counts and paths, not passages**: verses
+compiled, words, `draws_on`, which gates went green, which commit. They read the finished
+product in the preview, not the corpus and not a pasted entry — the one exception is when
+they ask to see a verse. Do not paste a generated verse or a source block into the chat
+unprompted, and do not open a second agent to go faster.
 
 ---
 
 ## Pace
 
-**20–25 authored verses per run, or 40–60 compiled ones.** The old 50-verse
+**Standing instructions from the maintainer, in force every session:** one agent, no
+fan-out, no parallel sessions, no API batch runner; every source set that covers a verse
+is actually read for that verse; verbatim traceability over speed, with depth and length
+expendable when they conflict; answers short; the corpus stays out of the chat.
+
+**20–25 authored verses per run, or 40–60 compiled ones** (in practice **batches of 5**,
+gated at the boundary and pushed there). The old 50-verse
 authored target was withdrawn — it is the pace that produced the quote-stacking
 which got the entire corpus cleared. Volume was the cause, not a side effect.
 
-**Commit and push at the end of every session**, `git push origin
+**Commit and push at the end of every batch**, not only of every session: `git push origin
 arena/525a7113-quran-explained`. The remote branch is the only durable copy.
 
 ---
@@ -303,6 +313,7 @@ arena/525a7113-quran-explained`. The remote branch is the only durable copy.
 | file | |
 |---|---|
 | [`docs/style.md`](docs/style.md) | **the format — normative** |
+| [`tools/examples/spec_2-31_2-35.md`](tools/examples/spec_2-31_2-35.md) | a worked spec that compiles clean — the shape to copy |
 | [`docs/voice.md`](docs/voice.md) | the register, both production modes, what each tier contains |
 | [`docs/workflow.md`](docs/workflow.md) | the loop, in order |
 | [`docs/contracts.md`](docs/contracts.md) | JSON payload shapes, and what to touch when one changes |
