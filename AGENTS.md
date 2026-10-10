@@ -53,12 +53,12 @@ Snapshot at `5af740f`, 2026-10-10.
 
 | | |
 |---|---|
-| Written | **222 of 6,236 verses** — every one at or over its floor |
+| Written | **232 of 6,236 verses** — every one at or over its floor |
 | Chapter 1 (al-Fātiḥah) | **1:1–1:7 authored** — `data/guidance_001.json`, 38,399 B |
-| Chapter 2 (al-Baqarah) | **2:1–2:222 authored** — `data/guidance_002.json` |
+| Chapter 2 (al-Baqarah) | **2:1–2:232 authored** — `data/guidance_002.json` |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:223** — sequentially, in batches of 5 (2:236 is the next `authored_only`) |
+| **Resume at** | **2:233** — sequentially, in batches of 5 (2:236 is the next `authored_only`) |
 | Branch | `arena/525a7113-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
