@@ -9,8 +9,8 @@ The maintainer's correction, verbatim:
 
 > "I don't know how you plan to accomplish what I wanted without paraphrasing"
 
-Paraphrase, synthesis and restatement from the six real sources are **the
-task**. An earlier claim that paraphrase was off-limits was wrong — it conflated
+Paraphrase, synthesis and restatement from the real sources — eight of them,
+six on every verse — are **the task**. An earlier claim that paraphrase was off-limits was wrong — it conflated
 paraphrase with fabrication. Do not repeat that framing.
 
 ## Fabrication is forbidden
@@ -49,7 +49,7 @@ Recorded so no session re-litigates it or over-claims:
   al-Qurṭubī, we carry that as Maʿārif's citation. Nobody has checked al-Qurṭubī
   in the Arabic. Do not upgrade a translated attribution into a verified one.
 
-## The six texts are reproduced unedited
+## The texts are reproduced unedited
 
 `data/tafsir_*.json` carries the source wording as published, with two
 mechanical transformations only: deduplication of repeated blocks, and

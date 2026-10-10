@@ -15,10 +15,34 @@ version below is the current one, and it is what 2:1–2:10 are written in.
 
 Every verse has **two parts**:
 
-**A plain-English introduction.** One short paragraph, roughly 60–120 words,
-that says what the verse means. It names **no scholar**, uses **no technical
-term**, and assumes **no prior knowledge**. A reader who stops here has
+**A plain-English introduction, which is the explanation.** One paragraph that
+walks the verse: the translation is taken **phrase by phrase, in order**, each
+phrase quoted, and each one explained where it stands — what it says, to whom it
+is addressed, what it is doing at this point in the sūrah, and how it hands over
+to the phrase after it. This paragraph **does the most work in the entry**: 240+
+words at tier A, 170+ at B, 110+ at C, and never less than 20% of the whole verse
+(`verify_verse.LEAD_FLOOR`, `LEAD_SHARE`). It names **no scholar**, uses **no
+technical term**, and assumes **no prior knowledge**. A reader who stops here has
 understood the verse.
+
+It is not a hook, not a scene-setter, and **it does not open by quoting the whole
+verse in one line** — the verse arrives split, and the first words are the first
+phrase already being explained. Link to the verse before and the verse after
+where the sources make such a link (a rebuke answering a praise, a request
+answering three verses of praise, a parable picking up a word just used); where
+they do not, do not invent one.
+
+Evidence is **not** the lead's job. Hadith, cross-references to other sūrahs,
+rulings and their disagreement, the occasion of revelation, and theology go under
+the headed sections, each with more detail than the lead can carry. The lead says
+what the phrases mean; the sections show who says it, on what authority, and what
+it settles.
+
+Enforced by `tools/verify_verse.py` and `tools/tests/style-check.js`: the tier
+floor and the 20% share for the opening paragraph, a 5-word run of `ayah_en`
+inside it, **every phrase of the translation quoted in it** (`phrases()` splits on
+punctuation only, merging chunks under three words into their neighbour), those
+phrases quoted **in order**, and no question-only opening.
 
 **Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, followed by a blank line and then its own
@@ -36,11 +60,18 @@ single-paragraph version put scholarly detail in the first sentence.
 
 | tier | target | floor (75%) |
 |---|---|---|
-| A | 900–1,300 | 675 |
-| B | 450–700 | 338 |
-| C | 200–320 | 150 |
+| A | 1,300–1,900 | 975 |
+| B | 650–1,000 | 488 |
+| C | 300–450 | 225 |
 
-Per-verse targets live in `data/plan.json` under `words`.
+Per-verse floors are computed from `data/plan.json`, so the number that bites is
+the verse's own (`round(words × 0.75)`), not the band edge.
+
+Per-verse targets live in `data/plan.json` under `words`, which is generated:
+edit `BAND` in `tools/tier_verses.py` and re-run it — never hand-edit the plan.
+The bands were raised on 2026-10-09 (from A 900–1,300 / B 450–700 / C 200–320)
+after review of the compiled chapters: the old floor was being met by verses that
+then left the named evidences out entirely.
 
 **The check is one-sided. The target is a floor, never a ceiling.** A verse that
 runs long is fine and must not be trimmed to fit. Only under-length is a
@@ -76,24 +107,48 @@ change made them wrong rather than the data:
 
 ## Sources and attribution
 
-Substance is synthesised from the six tafsīrs shipped in `data/tafsir_NNN.json`:
+Substance is synthesised from the eight tafsīrs shipped in `data/tafsir_NNN.json`
+(six on every verse; al-Qushayrī and al-Wāḥidī where they comment — see
+`docs/sources.md`):
 Ibn Kathīr, Maʿārif-ul-Qurʾān, Al-Mukhtaṣar, Tazkīrul Qurʾān, Tanwīr al-Miqbās,
 al-Jalālayn. Nothing is invented. A named authority must appear in that verse's
 own source block at that verse's range — grep the blob before citing.
 
-`draws_on` lists **only** the sources actually used, not all six.
+`draws_on` lists **only** the sources actually used, not all eight. The gate
+wants **5+ at tiers A and B, 4+ at C** — raised with the length bands on
+2026-10-09, because a 975-word verse cannot be honest on four sets — capped by
+the sets that actually cover the verse, so a Meccan short sūrah is never failed
+for wanting al-Qushayrī.
+
+## Two ways to produce a verse
+
+**Authored** — composed prose, source-bounded. The only mode that can settle a
+disagreement rather than present it.
+
+**Compiled** — `tools/verse_packet.py` ranks the sentences of the blocks that
+cover the verse; a spec lists which to splice and where the seams go;
+`tools/compile_guidance.py` pastes the sources' own wording, checks that every
+spliced sentence is traceable to this verse's own blocks, allows only connectives
+built from words those sources already use, and writes the JSON. Faster by an
+order of magnitude and it cannot invent an attribution; it cannot adjudicate
+either. Format rules above apply to both, and both are gated by the same
+`tools/verify_verse.py` check — the compiler calls it rather than copying it.
 
 ## Pace and the review gate
 
-About 20–25 verses per run. An earlier 50-verse target was withdrawn: volume
-was the cause of the prose decaying into stacked extracts.
+About 20–25 authored verses per run, or 40–60 compiled ones. An earlier 50-verse
+target was withdrawn for authored work: volume was the cause of the prose
+decaying into stacked extracts.
 
 Post one full verse in the chat before committing a batch.
 
-## Chapters 2 and 112 start fresh
+## Every chapter is cleared as of 2026-10-09
 
-Both were cleared on 2026-10-09. The superseded text remains at `d021eee` but
-must **not** be mined.
+Chapters 1 and 2 (7 and 35 verses) were removed the same day the bands and the
+lead rule were raised, so the whole layer is regenerated against the current
+contract rather than patched verse by verse. `data/guidance_112.json` remains as
+an empty `{"verses": {}}` placeholder. Superseded text stays in history
+(`d021eee`, `a2de9fe`, `d1e0609`) and must **not** be mined.
 
 ---
 
@@ -101,13 +156,12 @@ must **not** be mined.
 
 | chapter | verses | layout |
 |---|---|---|
-| 1 | 7 | plain intro + headed sections — converted 2026-10-09 |
-| 2 | 28 | plain intro + headed sections |
-| 112 | 0 | cleared |
+| 1 | 0 | cleared — regenerate at the new bands |
+| 2 | 0 | cleared |
+| 112 | 0 | empty placeholder |
 
-**Chapter 1 and chapter 2 now follow the same format.** Chapter 1 was converted
-on 2026-10-09 by moving its inline `**bold**` signposts onto their own lines;
-no prose was changed or lost. `style-check` passes 7/7 across all three files.
+`tools/tests/style-check.js` passes across all three files because there is
+nothing left to fail.
 
 This format is **the permanent rule** for all remaining verses. See
 [`../AGENTS.md`](../AGENTS.md) for the entry point.

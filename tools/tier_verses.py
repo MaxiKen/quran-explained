@@ -61,9 +61,31 @@ P = dict(w_tr=2, w_ar=1, w_ms=6, w_ns=6, w_sd=4,
          tA=170, tC=85)
 
 # --- word bands: tier sets the range, score sets the position inside it ---
-BAND = {'A': (900, 1300), 'B': (450, 700), 'C': (200, 320)}
+# Word bands per tier. Raised by the maintainer on 2026-10-09 from
+# A 900-1300 / B 450-700 / C 200-320, on the reasoning that the earlier bands
+# were set against a pilot of ~50 verses and were too tight for the verses the
+# sources actually weigh in on: 2:41-2:46 met the old floor while leaving the
+# named evidences out. The 0.75 discount in verify_verse.py and style-check.js
+# still applies on top, so the enforced minimums are 975 / 488 / 225.
+BAND = {'A': (1300, 1900), 'B': (650, 1000), 'C': (300, 450)}
 
-SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar')
+# --- thin verses are authored-only, never padded (maintainer, 2026-10-10) ---
+# 168 verses hold less material than 0.75 x their own target (`avail`: every word the
+# covering sets say about them, shared blocks counted in full because the compiler can
+# splice them). A floor cannot be reached there by selection alone - it would take
+# repeated sentences, connective padding, or invention, and the first two are exactly the
+# quote-stacking that got the 2026-10-09 corpus cleared. The decision is NOT to lower the
+# floor: these verses are marked `authored_only` and compile_guidance refuses them, so
+# they get composed instead of spliced. Composed prose can weigh two readings, settle a
+# disagreement, and explain a short source at length, which is how an entry reaches its
+# floor honestly. It costs about 5-10 verses a run against 5 in a compiled batch.
+# `avail` and the flag are the only new data; the floor stays 0.75 x words, and no
+# floor is ever softened by a constant in this file.
+LEAD_FLOOR = {'A': 240, 'B': 170, 'C': 110}   # verify_verse.py and style-check.js read plan['lead_floor']
+# eight sets as of 2026-10-09; the classifier reads whatever covers the verse, so
+# a selective set (al-Qushayrī 20.6%, al-Wāḥidī 6.9%) only ever adds signal
+SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar',
+       'qushayri', 'wahidi')
 
 LEGAL = re.compile(r'\b(halal|haram|lawful|unlawful|forbidden|prohibited|prescribed|'
     r'obligat|divorce|inheritance|dowry|mahr|zakat|alms|fast(ing)?\b|pilgrimage|ablution|'
@@ -110,12 +132,26 @@ def scan(surah):
         m = d['verses'][str(a)]
         spec = []
         dens = []
+        avail = 0.0
         for sid in SRC:
-            i = m[sid]
+            i = m.get(sid)
+            if i is None:
+                # a selective edition has nothing on this verse (al-Qushayrī covers
+                # 1,287 verses, al-Wāḥidī 431). Absence is not density and not
+                # verse-specific material, so it must not enter either measure.
+                continue
             st = d['sets'][sid]
             run = sum(1 for x in d['verses'].values() if x.get(sid) == i)
             w = len(st['blocks'][i].split())
             dens.append(w / max(1, run))
+            # A long block covering several verses IS selectable for each of them - that
+            # is how the compiler works - so it counts in full. The cost is that adjacent
+            # verses can end up quoting the same source sentences; --dry already flags an
+            # overlap between a verse's own selections, and restatements are dropped, so
+            # the exposure is visible at authoring time rather than hidden in the floor.
+            # (Measuring only a verse's exclusive share instead would cap 5,516 verses,
+            # i.e. quietly abolish the raised bands across the whole Qur'an. Wrong tool.)
+            avail += w
             if run == 1:
                 spec.append((w, st['blocks'][i]))
         blob = ' '.join(t for _, t in spec)[:8000]
@@ -131,6 +167,7 @@ def scan(surah):
             tr_words=len(txt.split()),
             ar_words=len(ar.get(a, '').split()),
             max_specific_raw=max((w for w, _ in spec), default=0),
+            avail_raw=round(avail),           # every word the covering sets say on this verse
             n_specific_substantial=sum(1 for w, _ in spec if w >= 60),
             sum_density=sum(dens),
             refrain=a in refrains,
@@ -183,9 +220,18 @@ def targets(all_v):
         lo, hi = BAND[t]
         band = by_tier[t]
         pos = sum(1 for x in band if x <= s) / len(band)
+        words = int(round((lo + (hi - lo) * pos) / 10) * 10)
+        want = round(words * 0.75)
+        floor = want                      # the floor is not negotiable; the mode is
+        thin = v['avail_raw'] < floor
+        lead_floor = LEAD_FLOOR[t]
         plan[k] = dict(
             tier=t,
-            words=int(round((lo + (hi - lo) * pos) / 10) * 10),
+            words=words,
+            avail=v['avail_raw'],
+            floor=floor,
+            lead_floor=lead_floor,
+            authored_only=thin,
             score=round(s, 1),
             tr_words=v['tr_words'],
             ar_words=v['ar_words'],
@@ -286,3 +332,7 @@ if __name__ == '__main__':
         print(f"  Tier {t}: {c[t]:5d} verses ({100*c[t]/len(plan):4.1f}%)  "
               f"{min(ws)}-{max(ws)} words  = {sum(ws):9,} words")
     print(f"  TOTAL {len(plan)} verses  {tot:,} words  ({os.path.getsize(path):,} bytes)")
+    nc = sum(1 for v in plan.values() if v['authored_only'])
+    short = sum(v['words'] - v['floor'] for v in plan.values() if v['authored_only'])
+    print(f"  authored-only (material below their own floor): {nc} verses, "
+          f"{short:,} words of target above their floor - splicing them is refused")

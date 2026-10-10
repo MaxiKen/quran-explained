@@ -43,7 +43,7 @@ Ways to move toward the target without lowering quality:
 - work in contiguous ranges so reading is amortised across many verses
 - stay at the **lower end of each tier's band** — the bands are ranges, and the
   floor is acceptable
-- accept that Tier C verses (1,512 of them, 200–320 words) are where volume
+- accept that Tier C verses (1,512 of them, 300–450 words) are where volume
   comes from, and that long Medinan sūrahs are dense with Tier A
 
 ## Push after every run

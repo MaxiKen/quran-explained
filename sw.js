@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v5.0.1-readable-guidance';
+const CACHE_VERSION = 'quran-reader-v5.1.5-2-35';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
@@ -26,7 +26,15 @@ const CACHE_VERSION = 'quran-reader-v5.0.1-readable-guidance';
 // them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
 // Chapter data is untouched and still carries across.
 const RETIRE_ALL_TAFSIR = true;
-const RETIRED_PAYLOADS = [];
+// Chapters 1 and 2 have been rewritten twice since 2026-10-09 (cleared, then
+// compiled, then recompiled against the lead rule), so a cached copy of either
+// earlier state must not be carried forward by the copy loop in activate. Data
+// files are fetched network-first now, so this list is only about copies that a
+// previous version already left in a cache.
+const RETIRED_PAYLOADS = [
+  './data/guidance_001.json',
+  './data/guidance_002.json'
+];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [
@@ -149,6 +157,26 @@ self.addEventListener('fetch', (event) => {
   const isExternal = requestUrl.origin !== self.location.origin;
 
   if (isExternal) {
+    event.respondWith(
+      fetch(event.request)
+        .then((resp) => {
+          if (resp && resp.status === 200) {
+            const clone = resp.clone();
+            caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
+          }
+          return resp;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  /* DATA IS NEVER STALE-BY-DESIGN: the guidance payloads grow verse by verse, and
+     a cached copy of data/*.json is indistinguishable from an unpublished
+     chapter, so the payload files go to the network first and fall back to the
+     cache only when the network is not there. Everything else same-origin keeps
+     the cache-first path the offline shell needs. */
+  if (/\/data\/.*\.json$/.test(requestUrl.pathname)) {
     event.respondWith(
       fetch(event.request)
         .then((resp) => {

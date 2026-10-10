@@ -1,159 +1,102 @@
-# HANDOFF — read this first
+# HANDOFF — the state of the project, and why it is in this shape
 
-You are continuing a project that is **partially complete and in good order**.
-Everything you need is in this repository and on this branch. Nothing depends
-on a previous chat session.
+Read [`AGENTS.md`](AGENTS.md) first: it has the entry commands, the rules and the
+current numbers. This file is the *narrative* — what changed recently and what
+each decision cost, so that a new session does not relitigate them or undo them by
+accident.
 
-**Start by reading [`docs/progress.md`](docs/progress.md)** — it says exactly
-which verse to resume at. Then follow [`docs/workflow.md`](docs/workflow.md).
+## What the commentary layer looks like right now
 
----
+**42 verses, all compiled, all at or over their floors** (42,605 words). 2:21–2:35 was
+added on 2026-10-10 in three batches of five, and 1:1–1:7 and 2:1–2:20 were
+rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py`, and then
+rewritten against the lead rule the maintainer set the same day — 25,576 words,
+`draws_on` of 5–7 sets a verse, nothing hand-written except the opening paragraph,
+which now has to quote and explain every phrase of the translation in order.
+What stood before them (42 verses across chapters 1 and 2) had been deleted on
+2026-10-09 (`626fe14`) the day the bands were raised, because patching 42 verses to a
+new contract is slower than regenerating them. `data/guidance_112.json` is still an
+empty `{"verses": {}}` placeholder, which keeps the reader's fallback path under test.
 
-## What this project is
+**Resume at 2:36** (251 verses left in surah 2). `python3 tools/progress.py --next` is
+the authority, not this file.
 
-A Qurʾān reader app. The work in progress is its **commentary layer**: every
-verse gets an authored, single-voice commentary that reads the six classical
-tafsīrs together and explains the app's own English translation, quoting its
-actual words.
+## The two rules that were added, and why
 
-Three layers, all working:
+**Length bands raised** (A 1,300–1,900, B 650–1,000, C 300–450; floor = 75% of the
+per-verse target). The old bands were being met by verses that then left the named
+evidences out entirely — a verse can satisfy 675 words with four sentences of
+gloss and nothing else. Total plan went 4,013,330 → 5,798,620 words from this.
 
-1. **`data/tafsir_NNN.json`** — six complete English tafsīrs on all 6,236
-   verses, 1.92× the previous corpus. Generated, committed, done.
-2. **`data/plan.json`** — a fitted classifier that gives every verse a tier and
-   a word target, so a ruling or a narrative gets room and a refrain gets one
-   honest paragraph. Built by `tools/tier_verses.py`, verified, done.
-3. **`data/guidance_NNN.json`** — the authored commentary. **27 of 6,236
-   verses are written: chapter 1 (7, OLD LAYOUT), 2:1-2:20. Chapter 112 is empty.**
+**The opening paragraph has to explain the verse.** A lead of 11–43 words was
+passing while doing nothing but setting a mood, which is the opposite of the
+project's purpose: a reader who stops at the lead must have the verse. Enforced
+three ways — a minimum lead length by tier (90w at A, 60w at B/C), a 5-word run of
+the app's own translation inside it, and no question-only lead — in
+`tools/verify_verse.py` (the single implementation) and mirrored in
+`tools/tests/style-check.js` as rule 4.
 
-## The single most important instruction
+Both were pointless as prose in a doc, so both are gates. The pattern to keep: **a
+rule that no tool enforces will be violated by the next session, including by
+whoever wrote it.**
 
-> **Write in the house format: a short plain-English intro, then 3-6 headed sections.**
->
-> **Before committing a batch, post one full verse in the chat for review.**
->
-> **About 20–25 verses per run. Commit and push at the end of every session.**
+## The extractive compiler — why it exists and what it cannot do
 
-The full format is in [`docs/style.md`](docs/style.md). Read it before writing
-anything. **Three formats were tried and rejected on 2026-10-09** — a
-multi-paragraph layout, then a single paragraph with inline `**bold**` signposts.
-Do not reinvent either. Only `docs/style.md` is normative; if any other document
-in this repo describes verse layout differently, `docs/style.md` wins.
+Generated volume was the bottleneck, not reading: all eight source blocks for a
+verse are ~3.7k tokens, and prose at 1,300–1,900 words out was the expensive part.
+So a verse can now be *assembled* instead of written — `tools/verse_packet.py`
+numbers and ranks the sentences of every block covering a verse, a spec lists which
+to splice and where the seams go, and `tools/compile_guidance.py` emits the JSON.
+Roughly 200–350 out-tokens per verse instead of 1,300–1,900, one agent, nothing
+unattended.
 
-**Chapter 1 and chapter 2 now follow the same format** (converted 2026-10-09).
-`style-check` passes 7/7. Copy either as the reference implementation.
+What makes it safe is that it cannot say anything of its own: every spliced
+sentence must be verbatim in *that verse's own blocks*, every connective word must
+appear in those sources, attributive and ruling verbs are refused outright, and a
+selection that merely restates the translation is dropped. It also cannot *adjudicate*
+— it can put two scholars side by side, never weigh them. Verses with a live legal
+disagreement, and the 164 verses whose material is thinner than their floor, stay
+authored. `docs/voice.md` and `docs/pitfalls.md` carry the details; `docs/style.md`
+is the format for both modes.
 
-**Start at [`AGENTS.md`](AGENTS.md).** It is the single entry point for a new
-session — current state, the format rule, the resume point, the tools, and the
-checks to run before committing.
+## The two sets that were added last
 
-The 50-verses-per-run target was **withdrawn on 2026-10-09**. It is the pace
-that produced the quote-stacking which got the entire corpus cleared. Volume was
-the cause; do not restore it.
+Approved on 2026-10-09 to feed the raised bands: **al-Qushayrī** (*Laṭāʾif
+al-ishārāt*, 1,287 verses) and **al-Wāḥidī** (*Asbāb al-nuzūl*, 431 verses), ingested
+through a new `tools/build_sets.py` so the corpus is rebuildable rather than
+hand-assembled. Measured effect is modest and lopsided — tier A's median
+material/floor moved 1.70× → 1.80× and the starved count 195 → 164 — because both
+editions concentrate in the long Medinan sūrahs. That is the honest result, and it
+is recorded in `docs/sources.md` rather than smoothed over.
 
-The push rule is not bureaucratic. The workspace was reset mid-project once,
-destroying the local tree entirely; everything survived only because it had
-been pushed. See [`docs/pitfalls.md`](docs/pitfalls.md#the-workspace-can-be-reset).
+Two things a future session must not undo:
 
-## The length rule is a FLOOR, not a band
+- **The Asbāb pollution guard.** Upstream's Asbāb file has 693 of 1,089 entries
+  filled with al-Qushayrī's text. `build_sets.py` keeps only entries that cite a
+  verse of their own surah and match no Qushayrī entry — 395 survive. Broadening
+  the rule to gain coverage would attribute one author's words to another at scale,
+  which is the single failure this project cannot absorb.
+- **Rebuild, never merge.** A set is written from scratch each run, indices and
+  all. The first version merged into the old mapping and produced in-range indices
+  pointing at the wrong paragraph — silently plausible, silently wrong.
 
-Set by the maintainer on 2026-10-09, reversing an earlier two-sided 25%
-tolerance.
+## What to expect when you generate
 
-**A verse may run as long as the material carries it. It must not run short.**
-The harness fails a verse below 75% of its `data/plan.json` target and never
-fails one for running long.
+The first real batch should be **1:1 → 1:7**, compiled. Expect the first dry run to
+fail: the packet now ranks eight sets and has extra CUT rules, so an older spec
+selects different sentences than it did when it was written, and the floors are
+much higher than the ones the last batch met. Re-dump the packet, re-pick the refs,
+compile with `--dry` first, read every line of the failure list, and post one full
+verse for review before committing the batch.
 
-If a verse comes out under its floor, expand it from sources already read.
-Never trim a verse to fit, never re-tier it to make it pass, and never widen
-the floor. Three verses were trimmed under the old rule and have been
-restored: 2:18 (393→524w), 2:31 (798→947w), 2:45 (734→818w).
+## Rules about working here, not about the text
 
-## Do this first
-
-```bash
-git log --oneline -3                                  # confirm you are where progress.md says
-python3 tools/progress.py --next                      # the exact verse to resume at
-python3 -m http.server 8000 --bind 0.0.0.0 &          # must bind 0.0.0.0 for the preview
-curl -s -o /dev/null -w "%{http_code} %{size_download}\n" \
-  http://127.0.0.1:8000/data/tafsir_002.json          # must be 200 and ~3.4M
-```
-
-If that last line returns **19 bytes**, the workspace has been reset. Recover
-before doing anything else:
-
-```bash
-git fetch origin arena/2c46b8a2-quran-explained
-git reset --hard origin/arena/2c46b8a2-quran-explained
-```
-
-## The loop, in short
-
-```bash
-python3 tools/dump_sources.py 2 8 60      # read the sources BEFORE writing
-cp tools/author_template.py /tmp/g.py     # fill in SURAH and the VERSES dict
-python3 /tmp/g.py                         # writes data/guidance_002.json
-
-npm i jsdom --prefix /tmp/apptest         # once per session
-export NODE_PATH=/tmp/apptest/node_modules
-for h in sources-all guidance-112 guidance-001 guidance-002; do
-  printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
-done
-
-git add -A && git commit -m "..." && git push origin arena/2c46b8a2-quran-explained
-```
-
-Every step is explained in [`docs/workflow.md`](docs/workflow.md).
-
-## The documents
-
-| file | what it is for |
-|---|---|
-| [`docs/progress.md`](docs/progress.md) | **where you are** — resume point, commit chain, what is deferred |
-| [`docs/workflow.md`](docs/workflow.md) | the session loop, step by step |
-| [`docs/batching.md`](docs/batching.md) | the 50-verse rule and the push rule, verbatim from the maintainer |
-| [`docs/voice.md`](docs/voice.md) | **how to write it** — structure, register, what each tier contains |
-| [`docs/style.md`](docs/style.md) | **the house format** — plain intro + 3-6 headed sections; the only normative format spec |
-| [`docs/classifier.md`](docs/classifier.md) | how tiers are assigned, and the known weakness on narrative verses |
-| [`docs/contracts.md`](docs/contracts.md) | the four payload shapes and what breaks if you change one |
-| [`docs/testing.md`](docs/testing.md) | the harnesses, how to add one, the attribution check |
-| [`docs/integrity.md`](docs/integrity.md) | **synthesis is required, fabrication is forbidden** |
-| [`docs/pitfalls.md`](docs/pitfalls.md) | everything that has already gone wrong, so it does not again |
-| [`docs/sources.md`](docs/sources.md) | the six tafsīrs, provenance, what is and is not reachable |
-| [`ATTRIBUTION.md`](ATTRIBUTION.md) | licence notices and upstream provenance, shipped with the data |
-
-## The tools
-
-| file | purpose |
-|---|---|
-| `tools/tier_verses.py` | classify all 6,236 verses → `data/plan.json`; `--verify` re-runs the validation |
-| `tools/dump_sources.py` | print translations + plan + six sources for a verse range. **The read-before-you-write step** |
-| `tools/author_template.py` | template for building a guidance file; enforces the payload shape and scans for homoglyphs |
-| `tools/progress.py` | what is authored, what is next |
-| `tools/tests/sources-all.js` | six-source payload, all 114 files, read-aloud |
-| `tools/tests/guidance-112.js` | authored layer, sūrah 112 |
-| `tools/tests/guidance-001.js` | authored layer, sūrah 1 |
-| `tools/tests/guidance-002.js` | authored layer, sūrah 2 (partial) |
-
-## Things that will otherwise cost you an hour
-
-- **The six tafsīr payloads are one long line each.** GitHub renders the diff
-  as blank and it looks like 31 MB vanished. It did not — verify with the
-  *blobs* API, not the contents API (which returns empty past 1 MB).
-- **Do not pretty-print `data/plan.json`.** At 1.29 MB it passes GitHub's 1 MB
-  display limit and stops rendering. Tried and reverted.
-- **Do not hard-code a control sūrah in a harness.** Doing so broke two
-  harnesses. They now pick one dynamically.
-- **`getVerseCommentary` returns a string.** The array version is
-  `getVerseCommentaryAll`.
-- **Never rule out paraphrase.** Synthesis from the real sources *is* the task.
-  What is forbidden is fabrication — invented ḥadīth numbers, misattributed
-  quotes. `docs/integrity.md` draws the line.
-
-## Verification state at the time of writing
-
-`sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 55/55 · `tier_verses.py --verify` exit 0.
-
-Branch `arena/2c46b8a2-quran-explained`, PR #89 open against `main`.
-**Always work on that branch; never create or push another.**
+- One agent, no fan-out, no API keys, nothing unattended. Speed comes from the
+  compiler, never from reading fewer sources.
+- Push at the end of every run. The workspace is reset without warning; on
+  2026-10-10 `HEAD` was found three commits behind the remote with a dirty tree,
+  and `git reset --hard origin/<branch>` restored everything that had been pushed.
+- The maintainer reads the finished verse, never the corpus dump. Keep chat to
+  gate output, counts and decisions.
+- There is no build step. If a doc mentions `npm run build`, `www/`, `scripts/` or
+  a `data/tanzir_ul_quran.json`, it is stale — fix the doc rather than following it.

@@ -81,6 +81,19 @@ def main():
                 rest = sum(plan[f'{s}:{a}']['words'] for a in range(1, tot + 1) if a not in have)
                 print(f'  resume at {s}:{nxt}  ({tot - len(have)} verses left in surah {s}, '
                       f'{rest:,} planned words)')
+                # route the batch by mode: an authored-only verse cannot be compiled, and
+                # a run that opens on one must not spend its packet read trying (plan
+                # `authored_only`, maintainer's decision 2026-10-10)
+                thin = [a for a in sorted(have ^ {x for x in range(1, tot + 1)})
+                        if plan.get(f'{s}:{a}', {}).get('authored_only')]
+                if plan.get(f'{s}:{nxt}', {}).get('authored_only'):
+                    print(f'    {s}:{nxt} is AUTHORED-ONLY ({plan[f"{s}:{nxt}"]["avail"]}w of '
+                          f'material vs a {plan[f"{s}:{nxt}"]["floor"]}w floor) — compose it, '
+                          f'do not compile it; tools/compile_guidance.py will refuse it')
+                nxt_thin = next((a for a in thin if a > nxt), None)
+                if nxt_thin:
+                    print(f'    next authored-only after it: {s}:{nxt_thin} '
+                          f'({len(thin)} in this surah) — those go in authored runs of 5-10')
                 break
     return 0
 

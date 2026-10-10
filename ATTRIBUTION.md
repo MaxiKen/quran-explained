@@ -2,7 +2,7 @@
 
 ## Commentary texts
 
-The six English tafsirs carried in `data/tafsir_NNN.json` are taken from
+The eight English tafsirs carried in `data/tafsir_NNN.json` are taken from
 [spa5k/tafsir_api](https://github.com/spa5k/tafsir_api), which is distributed
 under the MIT License. Per the terms of that license, the copyright notice and
 the permission notice are reproduced below in full.
@@ -44,15 +44,23 @@ resource identifier used by that project.
 | `tanwir` | Tanwīr al-Miqbās min Tafsīr Ibn ʿAbbās | attributed to Ibn ʿAbbās (d. 68 AH) | https://www.altafsir.com/ |
 | `jalalayn` | Tafsīr al-Jalālayn | Jalāl al-Dīn al-Maḥallī (d. 864 AH) & Jalāl al-Dīn as-Suyūṭī (d. 911 AH) | https://www.altafsir.com/ |
 | `mukhtasar` | Al-Mukhtaṣar fī tafsīr al-Qurʾān al-karīm | Tafsīr Center for Qurʾānic Studies | https://qul.tarteel.ai/resources/tafsir/266 |
+| `qushayri` | Laṭāʾif al-Ishārāt | Abū al-Qāsim al-Qushayrī (d. 465 AH) | https://www.altafsir.com/ (upstream edition id 108, `en-al-qushairi-tafsir`) |
+| `wahidi` | Asbāb al-Nuzūl | al-Wāḥidī (d. 468 AH) | https://www.altafsir.com/ (upstream edition id 86, `en-asbab-al-nuzul-by-al-wahidi`) |
 
 The spa5k/tafsir_api README records explicit per-work licences only where they
 are known (for example al-Jamīʿ al-Wajīz is noted as CC BY-ND 4.0, wording
-redistributed unchanged). It does not state a separate licence for the six
+redistributed unchanged). It does not state a separate licence for the eight
 works above; their upstream terms are held by the projects listed. Those terms
 have been checked and confirmed by the maintainer of this reader.
 
 The commentary texts are reproduced unedited. No paraphrase, abridgement or
-rewording has been applied to any of the six.
+rewording has been applied to any of them, with two exceptions recorded in
+`docs/sources.md`: the two editions added on 2026-10-09 were (i) filtered, because
+the upstream Asbāb file is polluted with al-Qushayrī's text and only the 395
+entries that can be attributed to al-Wāḥidī with certainty are shipped, and
+(ii) punctuation-normalised, because the upstream files carry `U+FFFD` where a
+decode step lost Arabic punctuation marks. Neither filter nor normalisation
+changes a word of any commentary.
 
 ## Fonts
 

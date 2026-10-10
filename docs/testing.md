@@ -6,15 +6,30 @@ is re-implemented in the harness — a test that copies the code it tests proves
 nothing.
 
 ```bash
-python3 -m http.server 8000 --bind 0.0.0.0     # from the repo root, in background
+python3 tools/serve.py 8090 &                    # no-store; never `python -m http.server`
 npm i jsdom --prefix /tmp/apptest               # /tmp does not persist between sessions
 export NODE_PATH=/tmp/apptest/node_modules
-for h in sources-all guidance-112 guidance-001 guidance-002; do
+export BASE=http://127.0.0.1:8090                # the port the jsdom harnesses fetch from
+for h in sources-all guidance-001 guidance-range; do   # jsdom harnesses (need the server)
   printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
 done
+node tools/tests/sets-integrity.js              # pure node, no server
+node tools/tests/style-check.js                 # pure node, no server
 ```
 
-Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
+Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 9/9 ·
+guidance-001 52/52 · guidance-range 22/22** (42 authored verses across sūrahs 1 and 2).
+
+`guidance-range.js` is the one to run after every batch: it reads
+`data/guidance_*.json`, so it covers whatever is authored today instead of a
+hand-kept list of verses, and it asserts the reader-visible invariants (lead present,
+the translation quoted as long as `verify_verse` requires, 3–6 `<h4>`s, sources folded
+after the guidance, no recital or verse-card markup inside the guidance, the modal still
+showing the verse's English, floors and `draws_on` from `data/plan.json`). An empty
+chapter is not a failure there — it asserts the fallback instead, sets shown in full and
+unfolded. `guidance-001.js` stays as the deep hand-written suite for sūrah 1; a new
+per-sūrah file is only worth copying when a chapter has a quirk the generic one cannot
+see.
 
 | tool | scope |
 |---|---|
@@ -22,37 +37,36 @@ Current: **27/27, 28/28, 47/47, 55/55 — 157 checks.**
 
 | harness | scope |
 |---|---|
-| `sources-all.js` | six-source payload, all 114 files, read-aloud path |
-| `guidance-112.js` | authored layer, sūrah 112 (the original pilot) |
-| `guidance-001.js` | authored layer, sūrah 1 (fully authored) |
-| `guidance-002.js` | authored layer, sūrah 2 (**partially** authored) |
+| `sources-all.js` | eight-source payload, all 114 files, read-aloud path |
+| `sets-integrity.js` | the two added sets: index integrity, the Asbāb pollution guard, coverage bounds |
+| `guidance-001.js` | authored layer, sūrah 1 (currently empty → payload contract) |
 | `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
+| `guidance-range.js` | the authored layer, **any** sūrah: renders each entry in the real app and asserts layout, quoting, folding, floors and the verse block |
 
 Plus `python3 tools/tier_verses.py --verify`, which exits non-zero if
 classifier accuracy drops below 70% or severe misses exceed 3%.
 
 ## Adding a harness for a new sūrah
 
-Copy the closest existing one:
-
-- **fully authored sūrah** → copy `guidance-001.js`
-- **partially authored** → copy `guidance-002.js`
-
-Change: `S`, `LO`, `HI`, `LAST`; the translation-fragment `pairs`; and the
-`NAMES` list of authorities you cited.
+Copy `guidance-001.js`, which is the one that survives. Change the surah number,
+the verse range, the translation-fragment pairs and the `NAMES` list of authorities
+you cited. It runs in two states and asserts in both: with verses authored it
+checks prose, layout, floors and attribution; with the chapter empty it checks the
+payload contract and that every source with text renders directly.
 
 ## What the guidance harnesses check
 
 - the file loads and covers exactly the verses claimed
-- every entry has a correct `range` and 4+ real `draws_on` ids
+- every entry has a correct `range` and its `draws_on` meets the tier rule (5+ at
+  A and B, 4+ at C, capped by the sets covering the verse)
 - **every verse's length meets its `data/plan.json` floor** — 75% of the target. One-sided: running long passes, running short fails
 - **the guidance quotes the app's own stored `ayah_en` wording** — explicit
   fragment assertions, not a vague similarity check
 - guidance renders first, labelled "In plain words", range as its first line
-- the six sources fold behind `<details class="tafsir-sources">`
+- every source with text on the verse folds behind `<details class="tafsir-sources">`
 - modal and ebook both carry it
 - **attribution integrity** (below)
-- a sūrah with no guidance still renders all six sources directly
+- a sūrah with no guidance still renders every source that has text, directly
 
 ## Attribution integrity — the check that matters most
 
@@ -74,15 +88,15 @@ Three subtleties, each learned the hard way:
    2:4". The matcher therefore parses `N:M` references out of the guidance and
    folds those verses' sources into the blob.
 
-The six tafsīr **titles** are *not* checked against body text — a work does not
+The tafsīr **titles** are *not* checked against body text — a work does not
 cite itself. They are matched against the payload's `sources[].label`.
 
 ## The control sūrah is chosen dynamically
 
 The fallback checks need a sūrah with no guidance. **Do not hard-code one.**
-Hard-coding sūrah 1 broke `guidance-112.js`; hard-coding sūrah 2 broke
-`guidance-001.js`. Both now pick the first sūrah that genuinely has no guidance
-file:
+Hard-coding sūrah 1 broke one harness and hard-coding sūrah 2 broke another (both
+since retired with the payloads they tested). `guidance-001.js` now picks the first
+sūrah that genuinely has no guidance file instead of naming one:
 
 ```js
 const CTL = await w.eval(`(async()=>{

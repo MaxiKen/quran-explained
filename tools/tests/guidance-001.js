@@ -1,13 +1,15 @@
 const { JSDOM, VirtualConsole } = require('/tmp/apptest/node_modules/jsdom');
+// the preview server may be on any port; BASE overrides
+const BASE = process.env.BASE || 'http://127.0.0.1:8000';
 const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
 (async () => {
-  const dom = await JSDOM.fromURL('http://127.0.0.1:8000/', {
+  const dom = await JSDOM.fromURL(BASE, {
     runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: vc,
     beforeParse(w) {
-      w.fetch = (i, o) => fetch(new URL(i, 'http://127.0.0.1:8000/'), o);
+      w.fetch = (i, o) => fetch(new URL(i, BASE), o);
       w.matchMedia = q => ({ matches: false, media: q, addEventListener() {}, removeEventListener() {}, addListener() {}, removeListener() {}, onchange: null });
     }
   });
@@ -16,12 +18,26 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   await new Promise(r => setTimeout(r, 800));
   const R = []; const ck = (n, c, d) => R.push({ n, ok: !!c, d: d === undefined ? '' : String(d) });
 
-  const PLAN = await (await fetch('http://127.0.0.1:8000/data/plan.json')).json();
+  const PLAN = await (await fetch(`${BASE}/data/plan.json`)).json();
 
   // ---------- payload ----------
   await w.eval('loadTafsirData(1)');
   const g = await w.eval('loadGuidanceData(1)');
   ck('guidance_001 loads', !!g);
+  // An empty chapter is a legitimate state (the layer was cleared 2026-10-09), and
+  // the harness has to be honest in both states rather than assume authoring: so
+  // the prose checks below run only when there is prose, and the fallback path is
+  // asserted when there is none.
+  const NENT = g ? Object.keys(g.verses).length : 0;
+  if (NENT === 0) {
+    ck('1 is unauthored, so its sources are shown directly and in full',
+       await w.eval(`(async()=>{
+         const h=renderCommentaryHtml(loadedTafsir[1], getVerseCommentary(loadedTafsir[1],1),1);
+         const d=document.createElement('div'); d.innerHTML=h;
+         return !d.querySelector('details.tafsir-sources') &&
+                d.querySelectorAll('.tafsir-entry').length===getVerseCommentaryAll(loadedTafsir[1],1).length;})()`));
+  }
+  if (NENT > 0) {
   ck('covers all 7 verses', w.eval("Object.keys(loadedGuidance[1].verses).join(',')") === '1,2,3,4,5,6,7',
      w.eval("Object.keys(loadedGuidance[1].verses).join(',')"));
   ck('every entry has a 1:N range', w.eval("Object.values(loadedGuidance[1].verses).every(v=>/^1:\\d$/.test(v.range))"));
@@ -107,8 +123,12 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
      el.querySelector('.tafsir-guidance').firstElementChild.className === 'tafsir-range');
   ck('range reads "1:1"', el.querySelector('.tafsir-guidance .tafsir-range').textContent.trim() === '1:1');
   const det = el.querySelector('details.tafsir-sources');
-  ck('six sources folded behind a disclosure', !!det && det.querySelectorAll('.tafsir-entry').length === 6,
-     det ? det.querySelectorAll('.tafsir-entry').length : 'none');
+  // Derived, not hard-coded: al-Qushayrī comments on 1:1 but al-Wāḥidī's usable
+  // entries do not reach it, so a literal count here would be a lie either way.
+  const want = w.eval(`getVerseCommentaryAll(loadedTafsir[1], 1).length`);
+  ck('every source with text is folded behind a disclosure',
+     !!det && det.querySelectorAll('.tafsir-entry').length === want,
+     det ? `${det.querySelectorAll('.tafsir-entry').length} vs ${want}` : 'none');
   ck('guidance precedes the sources', html.indexOf('tafsir-guidance') < html.indexOf('tafsir-sources'));
 
   // ---------- modal end to end ----------
@@ -129,6 +149,8 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck('ebook folds all 7 source panels', (ebook.match(/<details class="tafsir-sources"/g) || []).length === 7);
   ck('ebook has no "coming soon"', !/coming soon/i.test(ebook));
 
+  } // end authored-verse checks
+
   // ---------- no regression ----------
   // Chapters 2 and 112 were cleared (2026-10-09). They must load without error,
   // expose no guidance, and fall back to the six classical sources.
@@ -143,7 +165,9 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
       const g = w.eval(`renderGuidanceHtml(loadedGuidance[${cs}], ${ca})`);
       ck(`surah ${cs}:${ca} renders no guidance`, g === '', `${g.length} chars`);
       const all = w.eval(`getVerseCommentaryAll(loadedTafsir[${cs}], ${ca})`);
-      ck(`surah ${cs}:${ca} still serves the six sources`, Array.isArray(all) && all.length === 6,
+      ck(`surah ${cs}:${ca} still serves the six primary sources`,
+         Array.isArray(all) && ['ibn-kathir','maarif','tazkirul','tanwir','jalalayn','mukhtasar']
+           .every(id => all.some(e => e.id === id)),
          `len=${Array.isArray(all) ? all.length : 'n/a'}`);
     }
   }
@@ -160,11 +184,36 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck(`surah ${CTL} has no guidance`, await w.eval(`loadedGuidance[${CTL}]`) === null);
   const h2 = w.eval(`renderCommentaryHtml(loadedTafsir[${CTL}], getVerseCommentary(loadedTafsir[${CTL}],1), 1)`);
   const e2 = w.document.createElement('div'); e2.innerHTML = h2;
-  ck(`surah ${CTL} falls back to six sources shown directly`, e2.querySelectorAll('.tafsir-entry').length === 6,
+  ck(`surah ${CTL} falls back to its sources shown directly`,
+     e2.querySelectorAll('.tafsir-entry').length ===
+       w.eval(`getVerseCommentaryAll(loadedTafsir[${CTL}], 1).length`),
      e2.querySelectorAll('.tafsir-entry').length);
   ck(`surah ${CTL} has no disclosure`, !e2.querySelector('details.tafsir-sources'));
   ck(`surah ${CTL} first source marked primary`,
      e2.querySelector('.tafsir-entry').classList.contains('tafsir-entry-primary'));
+
+  // ---------- the guidance must not recite the verse ----------
+  // The verse card above the commentary (Arabic + English translation) is the
+  // reader's verse and stays for every verse; what must not happen is the
+  // *guidance* repeating it, since the lead quotes each phrase as it explains it
+  // (maintainer, 2026-10-10). Asserted at the render layer, where the eye lands.
+  await w.eval('loadChapterData(1)');
+  const recited = [], merged = [];
+  for (let a = 1; a <= 7; a++) {
+    const r = JSON.parse(await w.eval(`(function(){
+      var h = renderCommentaryHtml(loadedTafsir[1], getVerseCommentary(loadedTafsir[1], ${a}), ${a});
+      var box = document.createElement('div'); box.innerHTML = h;
+      var t = box.querySelector('.tafsir-guidance .tafsir-text');
+      var en = getVerseEnglish(getVerseData(1, ${a})) || '';
+      return JSON.stringify({
+        recites: !!t && t.textContent.replace(/\s+/g, ' ').indexOf(en.replace(/\s+/g, ' ')) === 0,
+        verseCardMarkup: !!box.querySelector('.tafsir-guidance .modal-verse-translation, .tafsir-guidance .ebook-translation')
+      });})()`));
+    if (r.recites) recited.push(`1:${a}`);
+    if (r.verseCardMarkup) merged.push(`1:${a}`);
+  }
+  ck('no guidance card opens by reciting the whole translation', recited.length === 0, recited.join(', '));
+  ck('no verse-card markup is folded into the guidance section', merged.length === 0, merged.join(', '));
 
   ck('no jsdom errors', errs.length === 0, errs.join(' | '));
 
