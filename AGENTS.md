@@ -11,7 +11,7 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
+git rev-parse HEAD origin/arena/1abff644-quran-explained   # the two must match
 python3 tools/progress.py --next          # THE resume point — authoritative, from the data
 node tools/tests/style-check.js           # 9/9
 BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
@@ -36,8 +36,8 @@ If the working tree looks wrong or `git log` is behind the remote, do **not**
 re-do the work — recover it:
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/1abff644-quran-explained
+git reset --hard origin/arena/1abff644-quran-explained
 ```
 
 This has happened four times across the project, most recently on 2026-10-10, when
@@ -49,27 +49,26 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at `5af740f`, 2026-10-10.
+Snapshot 2026-10-10, after the 1:6–1:7 batch (surah 1 complete).
 
 | | |
 |---|---|
-| Written | **5 of 6,236 verses** — restarted 2026-10-10 from 1:1 |
-| Chapter 1 (al-Fātiḥah) | **1:1–1:5 authored** — `data/guidance_001.json` |
+| Written | **7 of 6,236 verses** — 7,669 words, every one at or over its floor |
+| Chapter 1 (al-Fātiḥah) | **COMPLETE — 1:1–1:7 compiled** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **none written** — `data/guidance_002.json` is an empty shell |
 | Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **1:6** — sequentially, in batches of 5 |
-| Branch | `arena/525a7113-quran-explained` |
+| Compiled shape, as shipped | leads 189–377w · 3–6 headings · `draws_on` 5–7 sets |
+| **Resume at** | **2:1** — sequentially, in batches of 5 |
+| Branch | `arena/1abff644-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
 Everything authored before 2026-10-09 was pulled that day, the same day the length
 bands were raised and the opening-paragraph rule was written, so the layer is
 regenerated against the current contract instead of patched. What exists now
-(1:1–1:7, 2:1–2:35) was compiled and rewritten under that contract and **is** the
-reference implementation: read one or two compiled entries in
-`data/guidance_002.json` for shape before writing a spec. Only `data/guidance_112.json`
+(1:1–1:7) was compiled under that contract and **is** the reference implementation: read one or two compiled entries in
+`data/guidance_001.json` for shape before writing a spec. Only `data/guidance_112.json`
 is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the
 tafsīr sets under test; `tools/tests/style-check.js` asserts the payload contract.
 **A chapter with no authored verses is legitimate.**
@@ -99,7 +98,7 @@ words of shortfall in total) and:
   1,553 and 5,516 verses respectively before you notice.
 - `python3 tools/progress.py --next` says which mode the resume verse belongs to, and names
   the next authored-only one in the surah, so a batch can be planned around it.
-- No verse authored so far (1:1–1:7, 2:1–2:35) is flagged; the flag has been checked against
+- No verse compiled so far (1:1–1:7) is flagged; the flag has been checked against
   the payload, so nothing already shipped needs rewriting. If a future change to the bands
   or to the sets flags something already compiled, **re-author that verse**, do not delete it
   and do not leave it.
@@ -233,7 +232,7 @@ python3 tools/compile_guidance.py 2 /home/user/proto/b006.md
 python3 tools/verify_verse.py 2 --range 36-40
 node tools/tests/style-check.js
 sed -i "s/const CACHE_VERSION = .*/const CACHE_VERSION = 'quran-reader-vX.Y.Z-2-40';/" sw.js
-git add data/guidance_002.json sw.js && git commit && git push origin arena/525a7113-quran-explained
+git add data/guidance_002.json sw.js && git commit && git push origin arena/1abff644-quran-explained
 ```
 
 `PACKET_CAP` (sentences per set shown) and `PACKET_TRUNC` (words per sentence) only
@@ -358,7 +357,7 @@ authored target was withdrawn — it is the pace that produced the quote-stackin
 which got the entire corpus cleared. Volume was the cause, not a side effect.
 
 **Commit and push at the end of every batch**, not only of every session: `git push origin
-arena/525a7113-quran-explained`. The remote branch is the only durable copy.
+arena/1abff644-quran-explained`. The remote branch is the only durable copy.
 
 ---
 
