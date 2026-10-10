@@ -159,7 +159,7 @@ so there is nothing to merge until a batch is generated.
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state
+## Verification state (as of the 2026-10-09 clear — see the table at the top for now)
 
 `style-check` 3/3 (contract only — three empty placeholders) ·
 `sets-integrity` 12/12 · `sources-all` 30/30 · `guidance-001` 13/13 ·

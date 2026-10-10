@@ -131,6 +131,7 @@ export NODE_PATH=/tmp/apptest/node_modules
 python3 tools/verify_verse.py <surah> --all
 node tools/tests/style-check.js
 node tools/tests/sets-integrity.js
+node tools/tests/guidance-range.js          # the batch's entries, as the reader gets them
 for h in sources-all guidance-001; do      # the two that boot the app in jsdom
   printf "%-16s " "$h:"
   BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/$h.js 2>&1 | tail -1

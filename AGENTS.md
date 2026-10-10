@@ -11,9 +11,10 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git log --oneline -3                      # HEAD should be at or past 5af740f
+git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
 python3 tools/progress.py --next          # THE resume point — authoritative, from the data
 node tools/tests/style-check.js           # 9/9
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
 node tools/tests/sets-integrity.js        # 12/12
 python3 tools/verify_verse.py 2 --all     # 35/35
 
@@ -267,6 +268,7 @@ Both modes are gated identically. Read `docs/voice.md` before either.
 ```bash
 python3 tools/verify_verse.py 1 --all                        # per-verse gate
 node tools/tests/style-check.js                              # layout, floor, lead, transliteration
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # what the reader gets
 node tools/tests/sets-integrity.js                           # eight sets + the Asbāb guard
 NODE_PATH=/tmp/apptest/node_modules node tools/tests/sources-all.js     # needs the server + jsdom
 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js    # app render

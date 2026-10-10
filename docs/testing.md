@@ -6,22 +6,30 @@ is re-implemented in the harness — a test that copies the code it tests proves
 nothing.
 
 ```bash
-python3 -m http.server 8000 --bind 0.0.0.0     # from the repo root, in background
+python3 tools/serve.py 8090 &                    # no-store; never `python -m http.server`
 npm i jsdom --prefix /tmp/apptest               # /tmp does not persist between sessions
 export NODE_PATH=/tmp/apptest/node_modules
-for h in sources-all guidance-001; do           # jsdom harnesses (need the server)
+export BASE=http://127.0.0.1:8090                # the port the jsdom harnesses fetch from
+for h in sources-all guidance-001 guidance-range; do   # jsdom harnesses (need the server)
   printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
 done
 node tools/tests/sets-integrity.js              # pure node, no server
 node tools/tests/style-check.js                 # pure node, no server
 ```
 
-Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 3/3**, and
-guidance-001 in contract-only mode (the chapter is empty, so it asserts the
-payload shape and nothing about prose).
+Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 9/9 ·
+guidance-001 52/52 · guidance-range 22/22** (42 authored verses across sūrahs 1 and 2).
 
-The guidance harnesses for sūrahs 2 and 112 went with the payloads they tested;
-they come back when those chapters are re-authored — copy the closest one below.
+`guidance-range.js` is the one to run after every batch: it reads
+`data/guidance_*.json`, so it covers whatever is authored today instead of a
+hand-kept list of verses, and it asserts the reader-visible invariants (lead present,
+the translation quoted as long as `verify_verse` requires, 3–6 `<h4>`s, sources folded
+after the guidance, no recital or verse-card markup inside the guidance, the modal still
+showing the verse's English, floors and `draws_on` from `data/plan.json`). An empty
+chapter is not a failure there — it asserts the fallback instead, sets shown in full and
+unfolded. `guidance-001.js` stays as the deep hand-written suite for sūrah 1; a new
+per-sūrah file is only worth copying when a chapter has a quirk the generic one cannot
+see.
 
 | tool | scope |
 |---|---|
@@ -33,6 +41,7 @@ they come back when those chapters are re-authored — copy the closest one belo
 | `sets-integrity.js` | the two added sets: index integrity, the Asbāb pollution guard, coverage bounds |
 | `guidance-001.js` | authored layer, sūrah 1 (currently empty → payload contract) |
 | `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
+| `guidance-range.js` | the authored layer, **any** sūrah: renders each entry in the real app and asserts layout, quoting, folding, floors and the verse block |
 
 Plus `python3 tools/tier_verses.py --verify`, which exits non-zero if
 classifier accuracy drops below 70% or severe misses exceed 3%.
