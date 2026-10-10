@@ -66,6 +66,11 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     [3, 'believe in the unseen'], [3, 'establish prayer'], [3, 'provided for them'],
     [4, 'revealed before you'], [4, 'sure faith'], [4, 'Hereafter'],
     [5, 'guided by their Lord'], [5, 'successful'],
+    [6, 'persist in disbelief'], [6, 'warn them'], [6, 'never believe'],
+    [7, 'sealed their hearts'], [7, 'sight is covered'], [7, 'tremendous punishment'],
+    [8, 'We believe in Allah'], [8, 'Last Day'], [8, 'true believers'],
+    [9, 'deceive Allah and the believers'], [9, 'deceive themselves'], [9, 'fail to perceive'],
+    [10, 'sickness in their hearts'], [10, 'sickness increase'], [10, 'for their lies'],
   ];
   for (const [a, frag] of pairs.filter(([n]) => n <= w.eval("Object.keys(loadedGuidance[2].verses).length"))) {
     const t = w.eval(`loadedGuidance[2].verses["${a}"].text`);
@@ -134,7 +139,8 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   const body = w.document.getElementById('modalBody').innerHTML;
   ck('modal for the last written verse leads with guidance',
      body.includes('tafsir-guidance') && body.indexOf('tafsir-guidance') < body.indexOf('tafsir-sources'));
-  ck('modal quotes the translation', body.includes('successful') || LAST < 5);
+  ck('modal quotes the translation',
+     body.includes('painful punishment for their lies') || LAST < 10);
   w.eval('closeModal && closeModal()');
 
   // ---------- ebook ----------

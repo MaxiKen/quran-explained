@@ -1,7 +1,8 @@
 # Progress
 
-**12 verses are compiled** — 1:1–1:7 (all of al-Fātiḥah) and 2:1–2:5 (the believers'
-passage of al-Baqarah), compiled on 2026-10-10 straight from the eight sets with
+**17 verses are compiled** — 1:1–1:7 (all of al-Fātiḥah) and 2:1–2:10 (the believers'
+passage, the two verses on the disbelievers, and the opening of the hypocrites'
+thirteen), compiled on 2026-10-10 straight from the eight sets with
 `tools/compile_guidance.py`, each one opening by walking its own translation phrase
 by phrase, with the evidence pushed down under the headings. Everything before them
 was cleared on 2026-10-09: chapter 1, 2:1–2:46 and the 2:6–2:28 pilot, all of it
@@ -10,11 +11,11 @@ quote-stacked rather than explained. `docs/style.md` is the spec;
 
 | | |
 |---|---|
-| Written | **12 of 6,236 verses** — 15,821 words, every one at or over its floor |
+| Written | **17 of 6,236 verses** — 21,871 words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:6** |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (5); `_003.json` an empty shell; `_112.json` still a placeholder |
+| Resume at | **2:11** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (10); `_003.json` an empty shell; `_112.json` still a placeholder |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
