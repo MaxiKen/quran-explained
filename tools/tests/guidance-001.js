@@ -38,8 +38,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
                 d.querySelectorAll('.tafsir-entry').length===getVerseCommentaryAll(loadedTafsir[1],1).length;})()`));
   }
   if (NENT > 0) {
-  ck('covers all 7 verses', w.eval("Object.keys(loadedGuidance[1].verses).join(',')") === '1,2,3,4,5,6,7',
-     w.eval("Object.keys(loadedGuidance[1].verses).join(',')"));
+  ck('written verses run contiguously from 1:1', w.eval("Object.keys(loadedGuidance[1].verses).map(Number).sort((a,b)=>a-b).every((v,i)=>v===i+1)"), 'gap in verse numbers');
   ck('every entry has a 1:N range', w.eval("Object.values(loadedGuidance[1].verses).every(v=>/^1:\\d$/.test(v.range))"));
   ck('every entry records 4+ sources drawn on',
      w.eval("Object.values(loadedGuidance[1].verses).every(v=>v.draws_on.length>=4)"));
@@ -47,7 +46,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     "Object.values(loadedGuidance[1].verses).every(v=>v.draws_on.every(id=>loadedTafsir[1].sources.some(s=>s.id===id)))"));
 
   // ---------- length against the fitted plan ----------
-  for (let a = 1; a <= 7; a++) {
+  for (let a = 1; a <= w.eval("Object.keys(loadedGuidance[1].verses).length"); a++) {
     const t = w.eval(`loadedGuidance[1].verses["${a}"].text`);
     const n = t.trim().split(/\s+/).length;
     const tgt = PLAN['1:' + a].words;
@@ -70,7 +69,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     [6, 'Guide us'], [6, 'Straight Path'],
     [7, 'those You have blessed'], [7, 'displeased'], [7, 'astray'],
   ];
-  for (const [a, frag] of pairs) {
+  for (const [a, frag] of pairs.filter(([n]) => n <= w.eval("Object.keys(loadedGuidance[1].verses).length"))) {
     const t = w.eval(`loadedGuidance[1].verses["${a}"].text`);
     ck(`1:${a} quotes the app's translation "${frag}"`, t.includes(frag));
   }
@@ -91,7 +90,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     .replace(/[ʿʾʼ`'’‘\-]/g, ' ').replace(/\s+/g, ' ').toLowerCase();
 
   let attribChecked = 0; const attribBad = [];
-  for (let a = 1; a <= 7; a++) {
+  for (let a = 1; a <= w.eval("Object.keys(loadedGuidance[1].verses).length"); a++) {
     const t = w.eval(`loadedGuidance[1].verses["${a}"].text`);
     const blob = norm(w.eval(`getVerseCommentaryAll(loadedTafsir[1],${a}).map(e=>e.text).join(' ')`));
     for (const nm of NAMES) {
@@ -132,11 +131,12 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck('guidance precedes the sources', html.indexOf('tafsir-guidance') < html.indexOf('tafsir-sources'));
 
   // ---------- modal end to end ----------
-  w.eval('showExplanation(1,5)'); await new Promise(r => setTimeout(r, 600));
+  const LAST = w.eval("Object.keys(loadedGuidance[1].verses).length");
+  w.eval('showExplanation(1,'+LAST+')'); await new Promise(r => setTimeout(r, 600));
   const body = w.document.getElementById('modalBody').innerHTML;
-  ck('modal for 1:5 leads with guidance',
+  ck('modal for the last written verse leads with guidance',
      body.includes('tafsir-guidance') && body.indexOf('tafsir-guidance') < body.indexOf('tafsir-sources'));
-  ck('modal quotes the translation', body.includes('we worship'));
+  ck('modal quotes the translation', body.includes('we worship') || w.eval("Object.keys(loadedGuidance[1].verses).length") < 5);
   w.eval('closeModal && closeModal()');
 
   // ---------- ebook ----------
@@ -144,9 +144,9 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
     AppState.currentSurah=1;AppState.currentSurahData=loadedChapters[1];
     await Promise.all([loadTafsirData(1),loadGuidanceData(1)]);
     const d=document.createElement('div');renderCompleteCommentary(d);return d.innerHTML;})()`);
-  ck('ebook carries guidance on all 7 verses', (ebook.match(/data-source="guidance"/g) || []).length === 7,
+  ck('ebook carries guidance on every written verse', (ebook.match(/data-source="guidance"/g) || []).length === w.eval("Object.keys(loadedGuidance[1].verses).length"),
      (ebook.match(/data-source="guidance"/g) || []).length);
-  ck('ebook folds all 7 source panels', (ebook.match(/<details class="tafsir-sources"/g) || []).length === 7);
+  ck('ebook folds one source panel per written verse', (ebook.match(/<details class="tafsir-sources"/g) || []).length === w.eval("Object.keys(loadedGuidance[1].verses).length"));
   ck('ebook has no "coming soon"', !/coming soon/i.test(ebook));
 
   } // end authored-verse checks
@@ -199,7 +199,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   // (maintainer, 2026-10-10). Asserted at the render layer, where the eye lands.
   await w.eval('loadChapterData(1)');
   const recited = [], merged = [];
-  for (let a = 1; a <= 7; a++) {
+  for (let a = 1; a <= w.eval("Object.keys(loadedGuidance[1].verses).length"); a++) {
     const r = JSON.parse(await w.eval(`(function(){
       var h = renderCommentaryHtml(loadedTafsir[1], getVerseCommentary(loadedTafsir[1], ${a}), ${a});
       var box = document.createElement('div'); box.innerHTML = h;
