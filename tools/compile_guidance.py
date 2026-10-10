@@ -231,6 +231,7 @@ def compile_verses(surah, spec, write=True, title=None):
         paras, text = [], []
         for head, items in blocks:
             buf = []
+            block_sents = []   # the source sentences this heading cites (proof of relevance)
             for kind, val in items:
                 if kind == 'ref':
                     sent, err = resolve(val, rows)
@@ -245,6 +246,7 @@ def compile_verses(surah, spec, write=True, title=None):
                         errs.append(f'{val} not found in {surah}:{a}\'s own source blocks')
                         continue
                     used.add([k for k, L in SETS.items() if val.startswith(L)][0])
+                    block_sents.append(sent)
                     for w in re.findall(r"[A-Za-zʿ']{2,}", sent):
                         allowed.add(canon(w))
                     sent = norm(sent)
@@ -270,6 +272,22 @@ def compile_verses(surah, spec, write=True, title=None):
                         continue
                     buf.append(val.strip())
             body = ' '.join(buf).strip()
+            if head and head is not None and block_sents:
+                # Proof of relevance: a heading is answered by the sources it cites only if one of
+                # those cited sentences contains a key term of the heading (first five letters).
+                HSTOP = {'what', 'does', 'this', 'that', 'with', 'from', 'they', 'their', 'there',
+                         'when', 'where', 'which', 'mean', 'means', 'verse', 'about', 'have', 'been',
+                         'were', 'would', 'should', 'could', 'some', 'other', 'into', 'upon', 'than',
+                         'also', 'whom', 'why', 'how'}
+                hk = set(w.lower()[:5] for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", head)
+                         if w.lower() not in HSTOP)
+                sk = set(w.lower()[:5] for x in block_sents
+                         for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", x))
+                if hk and not (hk & sk):
+                    errs.append(f'heading {head!r} has no proof of relevance: none of the sources '
+                                'it cites contain its key terms, so the heading or the sources are wrong')
+            if head and not block_sents:
+                errs.append(f'heading {head!r} cites no source sentence, so it has no evidence')
             if head:
                 bad = prov_ok(head, allowed, tr_all)
                 if bad:
