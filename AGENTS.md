@@ -109,14 +109,19 @@ and their disagreement, the occasion, and theology all go under the headings, wi
 more detail than the lead can carry. A reader who stops at the end of the lead has
 understood the verse; a reader who wants authority goes on.
 
-The **view must not undo rule 1.** Both the verse modal and the commentary ebook
-print the complete English verse directly above the commentary, which reads as the
-commentary *starting with the verse*; where a verse has guidance that block is
-dropped (`verseHasGuidance()` in `js/app.js`), and it stays exactly as it was for
-unauthored verses. The same rule is why the compiler no longer emits the `>` line as
-an opening recitation, and why `data/*.json` is fetched network-first by `sw.js` and
-with `cache: 'no-store'` by the app: a stale guidance file is indistinguishable from
-an unpublished chapter. `tools/tests/guidance-001.js` asserts all three.
+**The verse belongs to the app, the walk belongs to the commentary.** The verse card
+(`.modal-verse-translation`, `.ebook-translation`) shows the Arabic and the English
+translation above the commentary, and it is **not** to be suppressed for guided verses —
+the maintainer asked for it back on 2026-10-10 after a first attempt removed it, because
+it is the reader's verse, not part of the generated commentary. What must not happen is
+the *guidance* restating it: the lead quotes each phrase as it explains it, so the
+compiler no longer emits the `>` line as an opening recitation and `verify_verse` refuses
+a lead that opens with the whole verse. `tools/tests/guidance-001.js` asserts the guidance
+card contains neither a recital of the whole translation nor any verse-card markup.
+Freshness is a separate rule and stands: `data/*.json` is fetched network-first by
+`sw.js`, `no-store` by the app, `updateViaCache: 'none'` at registration, and the preview
+is served by `tools/serve.py` — a stale guidance file is indistinguishable from an
+unpublished chapter.
 
 **2. Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, blank line, then its own paragraph.

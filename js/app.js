@@ -369,15 +369,6 @@ function loadTafsirData(num) {
 const loadedGuidance = {};
 const guidanceLoadPromises = {};
 
-/* Whether this verse has guidance. The guidance quotes the verse phrase by
-   phrase, so where it exists the app must not also print the complete
-   translation above it — a whole verse sitting on top of the commentary reads
-   as the commentary starting with the verse (maintainer, 2026-10-10). */
-function verseHasGuidance(surahNum, ayahNum) {
-  const g = loadedGuidance[surahNum];
-  return !!(g && g.verses && g.verses[String(ayahNum)] && g.verses[String(ayahNum)].text);
-}
-
 function loadGuidanceData(num) {
   if (loadedGuidance[num] !== undefined) return Promise.resolve(loadedGuidance[num]);
   if (guidanceLoadPromises[num]) return guidanceLoadPromises[num];
@@ -1470,8 +1461,7 @@ function renderCompleteCommentary(container) {
             <button class="ebook-verse-share" onclick="shareVerse(${ch.number}, ${verse.ayah_no_surah})" title="Share verse ${verse.ayah_no_surah}" aria-label="Share verse ${verse.ayah_no_surah}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
           </span>
         </header>
-        ${verseHasGuidance(ch.number, verse.ayah_no_surah)
-          ? '' : `<p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>`}
+        <p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>
         <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
       </article>`;
     }
@@ -2764,9 +2754,8 @@ function showExplanation(surahNum, ayahNum) {
   const card = document.getElementById('modalVerseCard');
   if (card && verse) {
     card.hidden = false;
-    card.innerHTML = `<p class="arabic-text modal-verse-arabic">${verse.ayah_ar}</p>`
-      + (verseHasGuidance(surahNum, ayahNum) ? ''
-         : `<p class="modal-verse-translation">${escapeHtml(getVerseEnglish(verse))}</p>`);
+    card.innerHTML = `<p class="arabic-text modal-verse-arabic">${verse.ayah_ar}</p>
+      <p class="modal-verse-translation">${escapeHtml(getVerseEnglish(verse))}</p>`;
   } else if (card) {
     card.hidden = true;
   }

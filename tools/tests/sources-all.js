@@ -1,12 +1,14 @@
 const { JSDOM, VirtualConsole } = require('/tmp/apptest/node_modules/jsdom');
+// the preview server may be on any port; BASE overrides
+const BASE = process.env.BASE || 'http://127.0.0.1:8000';
 const vc = new VirtualConsole(); const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 (async () => {
-  const dom = await JSDOM.fromURL('http://127.0.0.1:8000/', {
+  const dom = await JSDOM.fromURL(BASE, {
     runScripts:'dangerously', resources:'usable', pretendToBeVisual:true, virtualConsole:vc,
     beforeParse(window){
-      window.fetch = (i,init)=>fetch(new URL(i,'http://127.0.0.1:8000/'),init);
+      window.fetch = (i,init)=>fetch(new URL(i,BASE),init);
       window.matchMedia = q => ({matches:false,media:q,addEventListener(){},removeEventListener(){},addListener(){},removeListener(){},onchange:null});
     }});
   const w = dom.window;
