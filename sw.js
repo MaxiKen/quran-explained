@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v5.1.2-lead-walks-the-verse';
+const CACHE_VERSION = 'quran-reader-v5.1.3-guidance-leads';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
@@ -26,12 +26,11 @@ const CACHE_VERSION = 'quran-reader-v5.1.2-lead-walks-the-verse';
 // them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
 // Chapter data is untouched and still carries across.
 const RETIRE_ALL_TAFSIR = true;
-// Chapters 1 and 2 were cleared on 2026-10-09 and re-authored on 2026-10-10
-// (1:1-1:7, 2:1-2:20). Both payloads went through an empty {"verses": {}}
-// placeholder in between, so any cached copy of them - the cleared file, or a
-// pre-reset batch - must not be carried forward by the copy loop in activate, or
-// the app keeps serving a state no fresh request returns. Dropping them here
-// costs one refetch of two files and then they are cached fresh.
+// Chapters 1 and 2 have been rewritten twice since 2026-10-09 (cleared, then
+// compiled, then recompiled against the lead rule), so a cached copy of either
+// earlier state must not be carried forward by the copy loop in activate. Data
+// files are fetched network-first now, so this list is only about copies that a
+// previous version already left in a cache.
 const RETIRED_PAYLOADS = [
   './data/guidance_001.json',
   './data/guidance_002.json'
@@ -158,6 +157,26 @@ self.addEventListener('fetch', (event) => {
   const isExternal = requestUrl.origin !== self.location.origin;
 
   if (isExternal) {
+    event.respondWith(
+      fetch(event.request)
+        .then((resp) => {
+          if (resp && resp.status === 200) {
+            const clone = resp.clone();
+            caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
+          }
+          return resp;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  /* DATA IS NEVER STALE-BY-DESIGN: the guidance payloads grow verse by verse, and
+     a cached copy of data/*.json is indistinguishable from an unpublished
+     chapter, so the payload files go to the network first and fall back to the
+     cache only when the network is not there. Everything else same-origin keeps
+     the cache-first path the offline shell needs. */
+  if (/\/data\/.*\.json$/.test(requestUrl.pathname)) {
     event.respondWith(
       fetch(event.request)
         .then((resp) => {

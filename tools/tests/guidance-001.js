@@ -190,6 +190,39 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   ck(`surah ${CTL} first source marked primary`,
      e2.querySelector('.tafsir-entry').classList.contains('tafsir-entry-primary'));
 
+  // ---------- the commentary must not be introduced by the whole verse ----------
+  // The lead quotes the translation phrase by phrase, so an English verse block
+  // sitting directly above it reads as the commentary starting with the verse
+  // (maintainer, 2026-10-10). Checked at the render layer, where the reader sees it.
+  await w.eval('loadChapterData(1)');
+  const dupes = [], misses = [];
+  for (let a = 1; a <= 7; a++) {
+    const g = await w.eval(`(function(){
+      var h = renderCommentaryHtml(loadedTafsir[1], getVerseCommentary(loadedTafsir[1], ${a}), ${a});
+      var box = document.createElement('div'); box.innerHTML = h;
+      var t = box.querySelector('.tafsir-guidance .tafsir-text');
+      var en = getVerseEnglish(getVerseData(1, ${a})) || '';
+      return JSON.stringify({
+        startsWithVerse: !!t && t.textContent.trim().indexOf(en) === 0,
+        hasGuidance: verseHasGuidance(1, ${a})
+      });})()`);
+    const r = JSON.parse(g);
+    if (r.startsWithVerse) dupes.push(`1:${a}`);
+    if (!r.hasGuidance) misses.push(`1:${a}`);
+  }
+  ck('no authored verse opens its guidance card by repeating the whole verse', dupes.length === 0, dupes.join(', '));
+  ck('verseHasGuidance is true for every authored verse', misses.length === 0, misses.join(', '));
+  ck('verseHasGuidance is false for an unauthored verse',
+     await w.eval('verseHasGuidance(1, 8)') === false && await w.eval(`verseHasGuidance(${CTL}, 1)`) === false);
+  // the verse card drops its English block only when guidance leads, so a chapter
+  // without guidance still shows the translation exactly as before
+  const cardHtml = await w.eval(`(function(){
+    var v = getVerseData(1, 1);
+    return (verseHasGuidance(1, v.ayah_no_surah) ? '' : '<p class="modal-verse-translation">' + getVerseEnglish(v) + '</p>')
+      + (verseHasGuidance(1, 999) ? '<p class="modal-verse-translation">' + getVerseEnglish(v) + '</p>' : '<p class="modal-verse-translation">' + getVerseEnglish(v) + '</p>');})()`);
+  ck('unauthored verses keep their translation block',
+     cardHtml.indexOf('modal-verse-translation') !== -1 && (await w.eval('verseHasGuidance(1, 1)')) === true);
+
   ck('no jsdom errors', errs.length === 0, errs.join(' | '));
 
   let pass = 0;

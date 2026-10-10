@@ -109,6 +109,15 @@ and their disagreement, the occasion, and theology all go under the headings, wi
 more detail than the lead can carry. A reader who stops at the end of the lead has
 understood the verse; a reader who wants authority goes on.
 
+The **view must not undo rule 1.** Both the verse modal and the commentary ebook
+print the complete English verse directly above the commentary, which reads as the
+commentary *starting with the verse*; where a verse has guidance that block is
+dropped (`verseHasGuidance()` in `js/app.js`), and it stays exactly as it was for
+unauthored verses. The same rule is why the compiler no longer emits the `>` line as
+an opening recitation, and why `data/*.json` is fetched network-first by `sw.js` and
+with `cache: 'no-store'` by the app: a stale guidance file is indistinguishable from
+an unpublished chapter. `tools/tests/guidance-001.js` asserts all three.
+
 **2. Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, blank line, then its own paragraph.
 Headings group the deeper material: what a word means, the readings on it, why
