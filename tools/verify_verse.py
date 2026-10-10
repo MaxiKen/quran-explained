@@ -138,13 +138,33 @@ def check(surah, ayah, text, draws, names):
     errs, notes = [], []
     plan = json.load(open(os.path.join(ROOT, 'data/plan.json'), encoding='utf-8')).get(f'{surah}:{ayah}')
     paras = [p for p in re.split(r'\n\s*\n', text.strip()) if p.strip()]
-    heads = [p for p in paras if re.fullmatch(r'\*\*[^*]+?\.\*\*', p.strip())]
+    heads = [p for p in paras if re.fullmatch(r'\*\*[^*]+?[.?]\*\*', p.strip())]
     n = len(text.split())
 
     if len(heads) < 3 or len(heads) > 6:
         errs.append(f'{len(heads)} headings, need 3-6 own-line `**Like this.**`')
     if len(paras) < len(heads) + 1:
         errs.append('no plain introduction paragraph before the headings')
+    # Each heading (a question, or a part of the verse needing explanation) must have a body
+    # under it, and that body must be about the heading: it shares at least one content word
+    # with the heading. A floor on relevance only; reading the sources in full is still required.
+    HSTOP = {'what', 'does', 'this', 'that', 'with', 'from', 'they', 'their', 'there', 'when',
+             'where', 'which', 'mean', 'means', 'verse', 'about', 'have', 'been', 'were',
+             'would', 'should', 'could', 'some', 'other', 'into', 'upon', 'than', 'also'}
+    for i, para in enumerate(paras):
+        if para not in heads:
+            continue
+        body = paras[i + 1] if i + 1 < len(paras) and paras[i + 1] not in heads else ''
+        if not body.strip():
+            errs.append(f'heading {para.strip()!r} has no body under it')
+            continue
+        hw = set(w.lower() for w in re.findall(r'[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}', para) if w.lower() not in HSTOP)
+        bw = set(w.lower() for w in re.findall(r'[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}', body))
+        hw = set(w[:5] for w in hw)
+        bw = set(w[:5] for w in bw)
+        if hw and not (hw & bw):
+            errs.append(f'heading {para.strip()!r} shares no word with the sources under it: '
+                        'the material must answer or explain that heading')
     if plan:
         # The plan carries the enforced floor (0.75x the target) so no gate re-derives it.
         # A verse whose material is below it is not exempted: plan['authored_only'] means

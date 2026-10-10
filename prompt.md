@@ -20,6 +20,12 @@ in this checkout.
 4. [`docs/workflow.md`](docs/workflow.md) and
    [`docs/progress.md`](docs/progress.md) — the batch loop and where to resume.
 
+Rules added on 2026-10-10 and binding everywhere:
+
+**Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
+
+**The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
+
 Rules that were stated here and still hold, restated where they belong:
 
 | old rule | now |
@@ -28,3 +34,10 @@ Rules that were stated here and still hold, restated where they belong:
 | length must sit within 25% of target | rejected — a floor, never a band; `docs/style.md` §2 |
 | "do not fabricate content" | kept and strengthened — compiled verses cannot express an unsourced claim at all; `docs/voice.md` |
 | build with `scripts/build_tafsir_json.py` | no such script in this checkout — the app is static and served as it is; guidance JSON is written by `tools/compile_guidance.py` |
+
+## Heading proof and the retired auto fill (2026-10-10)
+
+- **Every heading is written from its own sources.** A heading is a question or a part of the verse that needs explaining. The sentences cited under it must answer that question or explain that part, in full.
+- **Real content, not a term.** The gate requires each heading to cite at least two source sentences carrying its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage; the writer must still read the sources in full.
+- **The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading such as "What else the same passage holds". A `+auto` line fails the gate.
+- **The sources are read completely before writing.** Comprehensive, detailed and helpful is the standard.

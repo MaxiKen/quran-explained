@@ -231,6 +231,7 @@ def compile_verses(surah, spec, write=True, title=None):
         paras, text = [], []
         for head, items in blocks:
             buf = []
+            block_sents = []   # the source sentences this heading cites (proof of relevance)
             for kind, val in items:
                 if kind == 'ref':
                     sent, err = resolve(val, rows)
@@ -245,6 +246,7 @@ def compile_verses(surah, spec, write=True, title=None):
                         errs.append(f'{val} not found in {surah}:{a}\'s own source blocks')
                         continue
                     used.add([k for k, L in SETS.items() if val.startswith(L)][0])
+                    block_sents.append(sent)
                     for w in re.findall(r"[A-Za-zʿ']{2,}", sent):
                         allowed.add(canon(w))
                     sent = norm(sent)
@@ -270,6 +272,25 @@ def compile_verses(surah, spec, write=True, title=None):
                         continue
                     buf.append(val.strip())
             body = ' '.join(buf).strip()
+            if head and head is not None and block_sents:
+                # Proof of relevance: a heading is answered by the sources it cites only if one of
+                # those cited sentences contains a key term of the heading (first five letters).
+                HSTOP = {'what', 'does', 'this', 'that', 'with', 'from', 'they', 'their', 'there',
+                         'when', 'where', 'which', 'mean', 'means', 'verse', 'about', 'have', 'been',
+                         'were', 'would', 'should', 'could', 'some', 'other', 'into', 'upon', 'than',
+                         'also', 'whom', 'why', 'how'}
+                hk = set(w.lower()[:5] for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", head)
+                         if w.lower() not in HSTOP)
+                # real content, not one term: at least two cited sentences carry a key term,
+                # and together they run to at least 60 words, so the heading is actually answered.
+                on_topic = [x for x in block_sents
+                            if hk & set(w.lower()[:5] for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", x))]
+                topic_words = sum(len(x.split()) for x in on_topic)
+                if hk and (len(on_topic) < 2 or topic_words < 60):
+                    errs.append(f'heading {head!r} is not answered by its sources: {len(on_topic)} cited '
+                                f'sentence(s) carry its key terms, {topic_words}w in all; need 2+ and 60w+')
+            if head and not block_sents:
+                errs.append(f'heading {head!r} cites no source sentence, so it has no evidence')
             if head:
                 bad = prov_ok(head, allowed, tr_all)
                 if bad:
@@ -303,9 +324,12 @@ def compile_verses(surah, spec, write=True, title=None):
                 seen_pairs.append(key)
                 chosen.append((pi, si, sent))
                 n += len(sent.split())
+            # Automatic fill is retired. It appended unlabelled sentences under a generic heading
+            # ("What else the same passage holds"), which has no topic and cannot carry real content.
+            # Every heading is now written from its own cited sources; a verse below the floor fails.
             if chosen:
-                text.append('**What else the same passage holds.**')
-                text.append(' '.join(norm(x[2]) for x in sorted(chosen, key=lambda x: (x[0], x[1]))))
+                errs.append(f'auto fill would add {len(chosen)} unlabelled sentence(s): '
+                            'write them under a real heading in the spec instead')
         # re-check: allowed grows as refs resolve, so validate connectives last
         paras = [t for t in text if t]
         body_text = '\n\n'.join(paras)

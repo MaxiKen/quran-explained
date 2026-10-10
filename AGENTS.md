@@ -53,12 +53,13 @@ Snapshot at `5af740f`, 2026-10-10.
 
 | | |
 |---|---|
-| Written | **42 of 6,236 verses** — 42,605 words, every one at or over its floor |
-| Chapter 1 (al-Fātiḥah) | **1:1–1:7 authored** — `data/guidance_001.json`, 38,399 B |
-| Chapter 2 (al-Baqarah) | **2:1–2:35 authored** — `data/guidance_002.json`, 207,544 B |
+| Written | **5 of 6,236 verses** — restarted 2026-10-10 from 1:1 |
+| Chapter 1 (al-Fātiḥah) | **1:1–1:5 authored** — `data/guidance_001.json` |
+| Chapter 2 (al-Baqarah) | **none written** — `data/guidance_002.json` is an empty shell |
+| Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:36** — sequentially, in batches of 5 |
+| **Resume at** | **1:6** — sequentially, in batches of 5 |
 | Branch | `arena/525a7113-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
@@ -145,6 +146,22 @@ prior knowledge**. Evidence is not its business: hadith, cross-references, rulin
 and their disagreement, the occasion, and theology all go under the headings, with
 more detail than the lead can carry. A reader who stops at the end of the lead has
 understood the verse; a reader who wants authority goes on.
+
+**The opening paragraph is plain explanation only. This is a major rule.**
+- It quotes only parts of the translation, phrase by phrase, and explains what each part means.
+- It states what is learnt in a neutral, plain tone, as Tafsīr al-Saʿdī does.
+- It connects the verse to the verse before or after it, or to the theme, where that helps.
+- It contains **no sources, no attributions, no evidence, and no source names**. No "the Jalālayn reads", no "Ibn Kathīr says", no "the commentators", no "according to". Those belong under the headings.
+
+**Headings may be questions.** Under each heading, the evidence comes from the sources and answers that question. Evidence about a source's reading, a hadith, a cross-reference or a disagreement goes only under a heading.
+
+**Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
+
+**The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading. A `+auto` line now fails the gate. Every heading is written from the sources it cites.
+
+**Proof of relevance is real content.** The gate requires each heading to cite at least two source sentences that carry its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage only; the writer must still read the sources in full and confirm they answer the heading.
+
+**The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
 
 **The verse belongs to the app, the walk belongs to the commentary.** The verse card
 (`.modal-verse-translation`, `.ebook-translation`) shows the Arabic and the English
@@ -379,3 +396,10 @@ document describing an `npm run build` step is describing a different tree.
 - Do **not** type transliterated Arabic as literal Unicode in a script (the gate
   asserts no U+0400–U+04FF; Cyrillic homoglyphs have slipped in before).
 - Do **not** show the corpus to the maintainer. They read the finished product.
+
+## Heading proof and the retired auto fill (2026-10-10)
+
+- **Every heading is written from its own sources.** A heading is a question or a part of the verse that needs explaining. The sentences cited under it must answer that question or explain that part, in full.
+- **Real content, not a term.** The gate requires each heading to cite at least two source sentences carrying its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage; the writer must still read the sources in full.
+- **The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading such as "What else the same passage holds". A `+auto` line fails the gate.
+- **The sources are read completely before writing.** Comprehensive, detailed and helpful is the standard.
