@@ -1,19 +1,18 @@
 # Progress
 
-**Nothing is authored.** On 2026-10-09 the whole guidance layer was cleared —
-chapter 1 (7 verses), 2:1–2:46, and the 2:6–2:28 pilot carried in from earlier
-branches — the same day the length bands were raised and the
-opening-paragraph rule was written down. `docs/style.md` is the spec;
-[`../AGENTS.md`](../AGENTS.md) is the entry point.
+**27 verses are authored** — 1:1–1:7 and 2:1–2:20, compiled on 2026-10-10 straight
+from the eight sets with `tools/compile_guidance.py`, against the raised bands and the
+opening-paragraph rule. Everything before them was cleared on 2026-10-09: chapter 1,
+2:1–2:46 and the 2:6–2:28 pilot, all of it quote-stacked rather than explained.
+`docs/style.md` is the spec; [`../AGENTS.md`](../AGENTS.md) is the entry point.
 
 | | |
 |---|---|
-| Written | **0 of 6,236 verses** |
+| Written | **27 of 6,236 verses** — 25,206 words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **1:1** |
-| Files | `data/guidance_001.json`, `_002.json`, `_112.json` — all `{"verses": {}}` placeholders |
-| Branch | `arena/525a7113-quran-explained` |
+| Resume at | **2:21** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (20); `_112.json` still a placeholder |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with

@@ -7,15 +7,16 @@ accident.
 
 ## What the commentary layer looks like right now
 
-**Empty, deliberately.** 0 of 6,236 verses are authored. Chapters 1 and 2 held 42
-verses between them; all of it was deleted on 2026-10-09 (`626fe14`) the same day
-the length bands were raised and the opening-paragraph rule was written, because
-patching 42 verses to a new contract is slower than regenerating them and leaves a
-layer whose first 40 verses obey one rule and the rest another. `data/guidance_001.json`,
-`_002.json` and `_112.json` are kept as empty `{"verses": {}}` placeholders so the
-reader's fallback and the payload contract stay under test.
+**27 verses, all compiled, all at or over their floors.** 1:1–1:7 and 2:1–2:20 were
+rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py` — 25,206
+words, `draws_on` of 5–7 sets a verse, nothing hand-written except the connectives.
+What stood before them (42 verses across chapters 1 and 2) had been deleted on
+2026-10-09 (`626fe14`) the day the bands were raised, because patching 42 verses to a
+new contract is slower than regenerating them. `data/guidance_112.json` is still an
+empty `{"verses": {}}` placeholder, which keeps the reader's fallback path under test.
 
-**Resume at 1:1.** `python3 tools/progress.py --next` is the authority, not this file.
+**Resume at 2:21** (266 verses left in surah 2). `python3 tools/progress.py --next` is
+the authority, not this file.
 
 ## The two rules that were added, and why
 

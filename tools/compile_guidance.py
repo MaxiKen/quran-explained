@@ -146,7 +146,11 @@ def parse(spec):
 
 
 def resolve(ref, rows):
-    m = re.match(r'([JMKTDX])(\d+)\.(\d+)\.(\d+)$', ref)
+    # the letters come from SETS, never from a literal list here — a set added to
+    # the packet that the compiler could not parse would read as a bad ref and be
+    # silently unusable (that is how Q/W failed on 2026-10-10)
+    letters = ''.join(re.escape(L) for L in SETS.values())
+    m = re.match(r'([' + letters + r'])(\d+)\.(\d+)\.(\d+)$', ref)
     if not m:
         return None, f'bad ref "{ref}"'
     sid = LETTER[m.group(1)]
@@ -231,7 +235,9 @@ def compile_verses(surah, spec, write=True, title=None):
                                     + val[:40])
                     bad = prov_ok(val, allowed)
                     if bad:
-                        errs.append(f'connective not traceable to the sources: {bad[:6]}')
+                        errs.append(f'connective not traceable to the sources: {bad[:6]} '
+                                    '— this text was NOT written into the verse; if it is '
+                                    'the opening paragraph, the verse now has no lead')
                         continue
                     buf.append(val.strip())
             body = ' '.join(buf).strip()
@@ -245,8 +251,11 @@ def compile_verses(surah, spec, write=True, title=None):
         if v.get('auto') is not None:
             # fill from the ranked shortlist, in source order, skipping what was picked
             extra = []
+            # a selective set has no block on this verse (al-Qushayrī, al-Wāḥidī),
+            # so read the shortlist once and default to empty rather than indexing
+            vs = verse_sentences(d, a, en_hot)
             for sid in SETS:
-                cand = verse_sentences(d, a, en_hot)[sid]
+                cand = vs.get(sid) or []
                 ranked = sorted(sorted(cand, key=lambda r: -r[3])[:v['auto'] * 3],
                                 key=lambda r: (r[0], r[1]))
                 for pi, si, sent, _sc in ranked:

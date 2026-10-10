@@ -157,6 +157,24 @@ translation, caps connectives at 26 words (150 for the pre-heading lead, which i
 where the explanation has to fit), requires the tier floor, and then calls
 `tools/verify_verse.check()` for layout — one implementation, not two.
 
+What the gate actually rejects, learned compiling 1:1–1:7 and 2:1–2:20 on
+2026-10-10 — all four are lead-authoring problems, not gate problems:
+
+- **Connectives cannot contain a speech or ruling verb**, even an ordinary one:
+  `said`, `says`, `holds`, `adds`, `notes` and `majority` are all refused in a `~`
+  line and in a heading. Write `carries`, `is taken to be`, `puts it that`,
+  `reads X as Y`. A refused lead is *dropped silently*, and the verse then fails the
+  opening-paragraph gate with a misleading word count — read the whole message.
+- **`+auto` does not count toward `draws_on`.** Only curated `- REF` lines do, so a
+  verse needs 5 distinct sets *selected*, not 5 present. Sūrahs 1–77 have wāḥidī
+  blocks and al-Qushayrī is thinnest before verse 20 — if a verse has no wāḥidī
+  block, curate from J/M/K/T/D/X/Q instead of padding.
+- **A selected sentence that only restates the app translation is dropped**, so a
+  curated list compiles shorter than it reads. Check `sentences=` in `--dry`, and
+  keep a `+auto 30–50` as a floor backstop rather than as the body.
+- **A heading may only use words visible in that verse's packets**, and refs are
+  verse-scoped (`M6.1.43` is valid under 1:6, not under 1:7).
+
 Specs are **drafts in `/tmp` or `/home/user/proto`, not committed artifacts**, and
 they are positional (`Q3.1.2` = qushayri, paragraph 1, sentence 2). Any change to
 `sentences()` or the CUT list in `tools/verse_packet.py` shifts them, so always
