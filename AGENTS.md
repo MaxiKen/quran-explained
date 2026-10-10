@@ -50,9 +50,9 @@ Current state at **2:50**, 2026-10-10.
 
 | | |
 |---|---|
-| Written | **57 of 6,236 verses** — 58,367 guidance words, every one at or over its floor |
+| Written | **57 of 6,236 verses** — 58,343 guidance words, every one at or over its floor |
 | Chapter 1 (al-Fātiḥah) | **1:1–1:7 authored** — `data/guidance_001.json`, 38,399 B |
-| Chapter 2 (al-Baqarah) | **2:1–2:50 authored** — `data/guidance_002.json`, 303,378 B |
+| Chapter 2 (al-Baqarah) | **2:1–2:50 authored** — `data/guidance_002.json`, 303,247 B |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 171–600w · 3–6 headings · `draws_on` 5–8 sets |
 | **Resume at** | **2:51** — sequentially, in batches of 5 |

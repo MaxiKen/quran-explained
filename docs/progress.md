@@ -7,7 +7,7 @@ translation phrase by phrase, with deeper evidence grouped under headings.
 
 | | |
 |---|---|
-| Written | **57 of 6,236 verses** — 58,367 guidance words, every one at or over its floor |
+| Written | **57 of 6,236 verses** — 58,343 guidance words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **72,770** for the written verses; **5,902,150** total (A 2,937,900 · B 2,409,170 · C 555,080) |
 | Resume at | **2:51** |
@@ -19,8 +19,8 @@ tools/progress.py --next`. Regenerate the plan itself with
 
 ## Latest batch — 2:46–2:50
 
-Five compiled entries were added (5,157 words total): 2:46 642w; 2:47 1,110w;
-2:48 1,394w; 2:49 1,259w; 2:50 752w. The batch had no authored-only verses;
+Five compiled entries were added (5,133 words total): 2:46 642w; 2:47 1,110w;
+2:48 1,370w; 2:49 1,259w; 2:50 752w. The batch had no authored-only verses;
 2:53 and 2:90 remain authored-only and must stay out of compiled specs.
 
 Verification passed: `verify_verse.py 2 --all` 50/50; style-check 9/9;
