@@ -189,6 +189,8 @@ def compile_verses(surah, spec, write=True, title=None):
         allowed |= set(canon(w) for w in re.findall(r"[A-Za-zʿ']{2,}", norm(blob(d, a))))
         blocks = [(None, v['pre'])]
         tr = set(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
+        # every word of the translation, short ones included, for the refusal list only
+        tr_all = set(canon(w) for w in re.findall(r"[A-Za-zÀ-ÿ]{2,}", en[a]['ayah_en']))
         dropped = 0
         for blk in [v['pre']] + [x['items'] for x in v['secs']]:
             keep = []
@@ -243,7 +245,7 @@ def compile_verses(surah, spec, write=True, title=None):
                     if len(val.split()) > cap:
                         errs.append(f'connective over the {cap}w budget for its position: '
                                     + val[:40])
-                    bad = prov_ok(val, allowed, tr)
+                    bad = prov_ok(val, allowed, tr_all)
                     if bad:
                         errs.append(f'connective not traceable to the sources: {bad[:6]} '
                                     '— this text was NOT written into the verse; if it is '
@@ -252,7 +254,7 @@ def compile_verses(surah, spec, write=True, title=None):
                     buf.append(val.strip())
             body = ' '.join(buf).strip()
             if head:
-                bad = prov_ok(head, allowed, tr)
+                bad = prov_ok(head, allowed, tr_all)
                 if bad:
                     errs.append(f'heading not traceable: {head!r} {bad[:4]}')
                 text.append('**%s**' % (head if head.endswith('.') else head + '.'))
