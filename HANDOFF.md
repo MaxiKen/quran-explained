@@ -7,19 +7,16 @@ accident.
 
 ## What the commentary layer looks like right now
 
-**42 verses, all compiled, all at or over their floors** (42,605 words). 2:21–2:35 was
-added on 2026-10-10 in three batches of five, and 1:1–1:7 and 2:1–2:20 were
-rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py`, and then
-rewritten against the lead rule the maintainer set the same day — 25,576 words,
-`draws_on` of 5–7 sets a verse, nothing hand-written except the opening paragraph,
-which now has to quote and explain every phrase of the translation in order.
-What stood before them (42 verses across chapters 1 and 2) had been deleted on
-2026-10-09 (`626fe14`) the day the bands were raised, because patching 42 verses to a
-new contract is slower than regenerating them. `data/guidance_112.json` is still an
-empty `{"verses": {}}` placeholder, which keeps the reader's fallback path under test.
+**15 verses, all compiled and at or over their floors** (15,336 words). Batch 1
+completed 1:6–1:7 and 2:1–2:8, bringing chapter 1 to its end and opening chapter 2.
+The five entries already present at the start of this branch are 1:1–1:5; the current
+payloads are `data/guidance_001.json` and `data/guidance_002.json`. Only
+`data/guidance_112.json` remains an empty placeholder, which keeps the reader's fallback
+path under test.
 
-**Resume at 2:36** (251 verses left in surah 2). `python3 tools/progress.py --next` is
-the authority, not this file.
+**Resume at 2:9.** `python3 tools/progress.py --next` is the authority, not this file.
+The requested run is five sequential batches of ten compiled verses, validating and
+pushing each batch before starting the next. The next range begins at 2:9.
 
 ## The two rules that were added, and why
 
@@ -82,12 +79,9 @@ Two things a future session must not undo:
 
 ## What to expect when you generate
 
-The first real batch should be **1:1 → 1:7**, compiled. Expect the first dry run to
-fail: the packet now ranks eight sets and has extra CUT rules, so an older spec
-selects different sentences than it did when it was written, and the floors are
-much higher than the ones the last batch met. Re-dump the packet, re-pick the refs,
-compile with `--dry` first, read every line of the failure list, and post one full
-verse for review before committing the batch.
+Batch 1 has completed through 2:8. Resume at **2:9**, re-dump the packet for each
+ten-verse batch, validate with `--dry` before writing, and run the house gate and
+render harnesses at each boundary.
 
 ## Rules about working here, not about the text
 

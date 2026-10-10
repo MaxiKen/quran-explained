@@ -1,6 +1,6 @@
 # Testing
 
-Four harnesses in `tools/tests/`. Each boots the **real app** in jsdom against
+Six harnesses in `tools/tests/`. Each boots the **real app** in jsdom against
 a running static server and asserts against what it actually renders. No logic
 is re-implemented in the harness — a test that copies the code it tests proves
 nothing.
@@ -10,15 +10,15 @@ python3 tools/serve.py 8090 &                    # no-store; never `python -m ht
 npm i jsdom --prefix /tmp/apptest               # /tmp does not persist between sessions
 export NODE_PATH=/tmp/apptest/node_modules
 export BASE=http://127.0.0.1:8090                # the port the jsdom harnesses fetch from
-for h in sources-all guidance-001 guidance-range; do   # jsdom harnesses (need the server)
+for h in sources-all guidance-001 guidance-002 guidance-range; do   # jsdom harnesses (need the server)
   printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
 done
 node tools/tests/sets-integrity.js              # pure node, no server
 node tools/tests/style-check.js                 # pure node, no server
 ```
 
-Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 9/9 ·
-guidance-001 52/52 · guidance-range 22/22** (42 authored verses across sūrahs 1 and 2).
+After batch 1: **sources-all 30/30 · sets-integrity 12/12 · style-check 12/12 ·
+guidance-001 52/52 · guidance-002 65/65 · guidance-range 11/11 for each authored sūrah** (15 verses total).
 
 `guidance-range.js` is the one to run after every batch: it reads
 `data/guidance_*.json`, so it covers whatever is authored today instead of a
@@ -27,9 +27,9 @@ the translation quoted as long as `verify_verse` requires, 3–6 `<h4>`s, source
 after the guidance, no recital or verse-card markup inside the guidance, the modal still
 showing the verse's English, floors and `draws_on` from `data/plan.json`). An empty
 chapter is not a failure there — it asserts the fallback instead, sets shown in full and
-unfolded. `guidance-001.js` stays as the deep hand-written suite for sūrah 1; a new
-per-sūrah file is only worth copying when a chapter has a quirk the generic one cannot
-see.
+unfolded. `guidance-001.js` and `guidance-002.js` are the deep hand-written suites for
+the authored portions of sūrahs 1 and 2; update the chapter-2 `HI`, fragment pairs,
+authority names, and fallback verse list at each batch boundary.
 
 | tool | scope |
 |---|---|
@@ -39,7 +39,8 @@ see.
 |---|---|
 | `sources-all.js` | eight-source payload, all 114 files, read-aloud path |
 | `sets-integrity.js` | the two added sets: index integrity, the Asbāb pollution guard, coverage bounds |
-| `guidance-001.js` | authored layer, sūrah 1 (currently empty → payload contract) |
+| `guidance-001.js` | authored layer, sūrah 1 (1:1–1:7) |
+| `guidance-002.js` | authored layer, sūrah 2 (currently 2:1–2:8) |
 | `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
 | `guidance-range.js` | the authored layer, **any** sūrah: renders each entry in the real app and asserts layout, quoting, folding, floors and the verse block |
 
@@ -95,7 +96,7 @@ cite itself. They are matched against the payload's `sources[].label`.
 
 The fallback checks need a sūrah with no guidance. **Do not hard-code one.**
 Hard-coding sūrah 1 broke one harness and hard-coding sūrah 2 broke another (both
-since retired with the payloads they tested). `guidance-001.js` now picks the first
+since retired with the payloads they tested). The deep suites pick the first
 sūrah that genuinely has no guidance file instead of naming one:
 
 ```js

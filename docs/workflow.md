@@ -15,8 +15,8 @@ surah is left. **Do not trust the local working tree to be intact** — see
 [pitfalls.md](pitfalls.md#the-workspace-can-be-reset). If files look wrong:
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/09c57acf-quran-explained
+git reset --hard origin/arena/09c57acf-quran-explained
 ```
 
 ## 1. Start the server
@@ -161,7 +161,7 @@ and say what it was.
 ```bash
 git add -A
 git commit -m "..."
-git push origin arena/525a7113-quran-explained
+git push origin arena/09c57acf-quran-explained
 ```
 
 **Push every run. No exceptions.** The remote branch is the only durable copy;

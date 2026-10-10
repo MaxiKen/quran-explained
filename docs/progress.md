@@ -1,24 +1,23 @@
 # Progress
 
-**42 verses are authored** — 1:1–1:7 and 2:1–2:35, compiled on 2026-10-10 straight
-from the eight sets with `tools/compile_guidance.py`, then **rewritten the same day**
-against the lead rule that landed with them: every verse now opens by walking its own
-translation phrase by phrase (193–344 words of explanation, 22–46% of the entry), with
-the evidence pushed down under the headings. Everything before them was cleared on 2026-10-09: chapter 1,
-2:1–2:46 and the 2:6–2:28 pilot, all of it quote-stacked rather than explained.
+**15 verses are authored** — 1:1–1:7 and 2:1–2:8, compiled and gated on
+2026-10-10. The current layer contains 15,336 commentary words. Batch 1 added ten
+verses in two contiguous ranges (1:6–1:7 and 2:1–2:8), with the leads walking the
+app's translation phrase by phrase and source material under relevant headings.
 `docs/style.md` is the spec; [`../AGENTS.md`](../AGENTS.md) is the entry point.
 
 | | |
 |---|---|
-| Written | **42 of 6,236 verses** — 42,605 words, every one at or over its floor |
+| Written | **15 of 6,236 verses** — 15,336 commentary words, all at or over floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:36** |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (35); `_112.json` still a placeholder |
+| Resume at | **2:9** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (8); `_112.json` still a placeholder |
 
-`tools/progress.py --next` is authoritative and says the same: `python3
-tools/progress.py --next`. Regenerate the plan itself with
-`python3 tools/tier_verses.py`; never hand-edit `data/plan.json`.
+`tools/progress.py --next` is authoritative and says the same. The current request is
+for five sequential batches of ten compiled verses; each batch is gated and pushed
+before the next begins. Regenerate the plan itself with `python3 tools/tier_verses.py`;
+never hand-edit `data/plan.json`.
 
 ## What changed under the last session
 
@@ -95,7 +94,7 @@ Verses that came out *under* target were expanded and stay expanded — 2:10,
 
 **Every batch needs three things done together or the suite lies:**
 1. the new verses written into `data/guidance_002.json`;
-2. `HI` in `tools/tests/guidance-002.js` widened to match, plus the
+2. `HI` in `tools/tests/guidance-002.js` widened to 8, plus the
    fallback-control verses moved past the new range;
 3. any newly named authority added to the harness's `NAMES` list.
 
@@ -105,10 +104,14 @@ Verses that came out *under* target were expanded and stay expanded — 2:10,
 the app writes **Iblîs** with a circumflex, and a fragment reading `Iblis`
 fails. Run `node --check` before the suite.
 
-## The 50-verse target is still not being met
+## Historical note on the former authored-volume target
 
-The standing instruction is **more than 50 verses per run**. The best run so
-far delivered 23.
+This section preserves the throughput calculation for the earlier authored-volume
+request. It does not describe the current compiled run, which is recorded at the top
+of this file and is within the 40–60 compiled-verse pace in `AGENTS.md`.
+
+The former instruction was **more than 50 authored verses per run**. The best run
+under that approach delivered 23.
 
 The reason is arithmetic, recorded so it is not re-litigated: 2:8–57 is 50
 verses and **41,630 planned words** (34,150 even at the absolute floor of each
@@ -129,12 +132,12 @@ This needs a maintainer decision. Until then, keep authoring to the standard
 in `docs/voice.md` and report the shortfall plainly each session rather than
 padding verses to hit a count.
 
-## Batching instruction
+## Current batch schedule
 
-**More than 50 verses per session, stopping at a good place past 50.** See
-[batching.md](batching.md) for the standing instruction verbatim and the honest
-note about throughput — sessions so far have delivered 4–7 verses, so a session
-that cannot reach 50 must say so plainly rather than shipping thin commentary.
+For this run the request is **five sequential batches of ten compiled verses**.
+Each batch is generated, validated, saved, committed and pushed before starting
+the next. This is consistent with the compiled 40–60 verse pace; authored-only
+verses remain separate and are not folded into these batches.
 
 ## Commit chain
 
@@ -152,19 +155,18 @@ c833757  Keep plan.json minified (1 MB display limit)
 3d0923e  Pick the fallback control sūrah dynamically
 ```
 
-Branch `arena/525a7113-quran-explained`, pushed; no open PR — the layer is empty,
-so there is nothing to merge until a batch is generated.
+Working branch `arena/09c57acf-quran-explained`; batch 1 is committed and pushed.
 
 **The session this handoff was written in also reset the workspace once.** It
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state (as of the 2026-10-09 clear — see the table at the top for now)
+## Verification state after batch 1
 
-`style-check` 3/3 (contract only — three empty placeholders) ·
-`sets-integrity` 12/12 · `sources-all` 30/30 · `guidance-001` 13/13 ·
-`verify_verse --all` reports nothing to check. The harnesses for sūrahs 2 and 112
-were retired with the payloads they tested.
+`style-check` 12/12 · `sets-integrity` 12/12 · `sources-all` 30/30 ·
+`guidance-range` 11/11 for sūrah 1 and 11/11 for sūrah 2 ·
+`guidance-001` 52/52 · `guidance-002` 65/65 ·
+`verify_verse.py --all`: 7/7 in sūrah 1 and 8/8 in sūrah 2.
 
 ## The house format (set 2026-10-09)
 

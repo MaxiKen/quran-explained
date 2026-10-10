@@ -3,10 +3,11 @@
 Each harness boots the real app in jsdom against a running static server and
 asserts against what it actually renders — no logic is re-implemented here.
 
-    python3 -m http.server 8000 --bind 0.0.0.0   # from the repo root
-    npm i jsdom                                   # once, anywhere on NODE_PATH
-    node tools/tests/sources-all.js               # six-source layer, full corpus
-    node tools/tests/guidance-112.js              # authored layer, surah 112
+    python3 tools/serve.py 8090                   # no-store preview/test server
+    npm i jsdom --prefix /tmp/apptest
+    export NODE_PATH=/tmp/apptest/node_modules
+    export BASE=http://127.0.0.1:8090
+    node tools/tests/sources-all.js               # eight-source layer, full corpus
     node tools/tests/guidance-001.js              # authored layer, surah 1
     node tools/tests/guidance-002.js              # authored layer, surah 2 (partial)
 
@@ -17,10 +18,11 @@ translation wording**, that the guidance renders first with its range on the
 first line, that the six classical texts fold behind a disclosure, and that a
 surah with no guidance file yet still shows all six sources directly.
 
-`guidance-002.js` covers a **partially authored** surah: verses 1-7 carry
-guidance, and verses 8, 9, 100 and 286 are asserted to yield no guidance and
+`guidance-002.js` covers a **partially authored** surah: verses 1-8 carry
+guidance, while verses 9, 100 and 286 are asserted to yield no guidance and
 to fall back to the six sources directly with the first one marked primary.
-The ebook is asserted to carry guidance on exactly the seven authored verses.
+The ebook is asserted to carry guidance on exactly the eight authored verses.
+Its `HI`, translation pairs, authority list, and fallback list move at each batch boundary.
 
 `guidance-001.js` and `guidance-002.js` add two checks the others do not have:
 

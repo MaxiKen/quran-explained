@@ -18,8 +18,8 @@ the working tree is.
 commits missing and every file showing as modified — the worktree content was
 still correct, so the reset was lossless):
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/09c57acf-quran-explained
+git reset --hard origin/arena/09c57acf-quran-explained
 ```
 Check `git diff <remote-sha> --stat` before resetting if you are unsure: untracked
 files show up as deletions in that diff, which is not the same as them being gone.
