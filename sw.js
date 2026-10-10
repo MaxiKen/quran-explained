@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v5.1.0-eight-sets';
+const CACHE_VERSION = 'quran-reader-v5.1.1-first-27-verses';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
@@ -26,12 +26,12 @@ const CACHE_VERSION = 'quran-reader-v5.1.0-eight-sets';
 // them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
 // Chapter data is untouched and still carries across.
 const RETIRE_ALL_TAFSIR = true;
-// Chapters 1 and 2 were cleared on 2026-10-09: both payloads are now empty
-// {"verses": {}} placeholders, and the commentary the reader used to have is
-// gone from the server. Any earlier copy of these files (the compiled batches,
-// and before them the 2:6-2:28 pilot) must not be carried forward by the copy
-// loop in activate, or the app keeps serving text no fresh request can return.
-// The reader falls back to the six sources, which is the intended state.
+// Chapters 1 and 2 were cleared on 2026-10-09 and re-authored on 2026-10-10
+// (1:1-1:7, 2:1-2:20). Both payloads went through an empty {"verses": {}}
+// placeholder in between, so any cached copy of them - the cleared file, or a
+// pre-reset batch - must not be carried forward by the copy loop in activate, or
+// the app keeps serving a state no fresh request returns. Dropping them here
+// costs one refetch of two files and then they are cached fresh.
 const RETIRED_PAYLOADS = [
   './data/guidance_001.json',
   './data/guidance_002.json'
