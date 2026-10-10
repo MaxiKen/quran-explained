@@ -20,6 +20,12 @@ in this checkout.
 4. [`docs/workflow.md`](docs/workflow.md) and
    [`docs/progress.md`](docs/progress.md) — the batch loop and where to resume.
 
+Rules added on 2026-10-10 and binding everywhere:
+
+**Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
+
+**The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
+
 Rules that were stated here and still hold, restated where they belong:
 
 | old rule | now |

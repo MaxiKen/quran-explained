@@ -52,6 +52,10 @@ these render as real headings. Headings must not be inline inside a sentence.
 Headings group the deeper material: what a word means, the readings on it, why
 the scholars differed, what it implies, whom the sources say it refers to.
 
+**Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
+
+**The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
+
 **Why.** The maintainer's instruction: *"the content is first of all simply
 explained. Other things are grouped comprehensively under headings."* The
 single-paragraph version put scholarly detail in the first sentence.

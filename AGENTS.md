@@ -155,6 +155,10 @@ understood the verse; a reader who wants authority goes on.
 
 **Headings may be questions.** Under each heading, the evidence comes from the sources and answers that question. Evidence about a source's reading, a hadith, a cross-reference or a disagreement goes only under a heading.
 
+**Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
+
+**The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
+
 **The verse belongs to the app, the walk belongs to the commentary.** The verse card
 (`.modal-verse-translation`, `.ebook-translation`) shows the Arabic and the English
 translation above the commentary, and it is **not** to be suppressed for guided verses —
