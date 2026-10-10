@@ -1,24 +1,31 @@
 # Progress
 
-**42 verses are authored** — 1:1–1:7 and 2:1–2:35, compiled on 2026-10-10 straight
-from the eight sets with `tools/compile_guidance.py`, then **rewritten the same day**
-against the lead rule that landed with them: every verse now opens by walking its own
-translation phrase by phrase (193–344 words of explanation, 22–46% of the entry), with
-the evidence pushed down under the headings. Everything before them was cleared on 2026-10-09: chapter 1,
-2:1–2:46 and the 2:6–2:28 pilot, all of it quote-stacked rather than explained.
+**52 verses are authored** — 1:1–1:7 and 2:1–2:45. The latest five, 2:41–2:45,
+were compiled from the source packets on 2026-10-10. Every entry walks the app's
+translation phrase by phrase, with deeper evidence grouped under headings.
 `docs/style.md` is the spec; [`../AGENTS.md`](../AGENTS.md) is the entry point.
 
 | | |
 |---|---|
-| Written | **42 of 6,236 verses** — 42,605 words, every one at or over its floor |
+| Written | **52 of 6,236 verses** — 53,210 guidance words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
-| Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:36** |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (35); `_112.json` still a placeholder |
+| Planned words | **66,580** for the written verses; **5,902,150** total (A 2,937,900 · B 2,409,170 · C 555,080) |
+| Resume at | **2:46** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (45); `_112.json` still a placeholder |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
 `python3 tools/tier_verses.py`; never hand-edit `data/plan.json`.
+
+## Latest batch — 2:41–2:45
+
+Five compiled entries were added (5,624 words total): 2:41 1,295w; 2:42 1,101w;
+2:43 1,097w; 2:44 1,345w; 2:45 786w. The batch had no authored-only verses;
+2:53 remains authored-only and must stay out of compiled specs.
+
+Verification passed: `verify_verse.py 2 --all` 45/45; style-check 9/9;
+sets-integrity 12/12; `guidance-range.js 2` 11/11; `guidance-002.js` 32/32;
+`sources-all.js` 30/30; `guidance-001.js` 52/52.
 
 ## What changed under the last session
 
@@ -152,19 +159,20 @@ c833757  Keep plan.json minified (1 MB display limit)
 3d0923e  Pick the fallback control sūrah dynamically
 ```
 
-Branch `arena/525a7113-quran-explained`, pushed; no open PR — the layer is empty,
-so there is nothing to merge until a batch is generated.
+Earlier project commits were pushed to `arena/525a7113-quran-explained`; this run
+continues on the Arena-provided session branch. No pull request is open for these
+authoring batches.
 
 **The session this handoff was written in also reset the workspace once.** It
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state (as of the 2026-10-09 clear — see the table at the top for now)
+## Verification state at the 2026-10-09 clear (historical)
 
 `style-check` 3/3 (contract only — three empty placeholders) ·
 `sets-integrity` 12/12 · `sources-all` 30/30 · `guidance-001` 13/13 ·
 `verify_verse --all` reports nothing to check. The harnesses for sūrahs 2 and 112
-were retired with the payloads they tested.
+were retired with the payloads they tested; current verification is listed at the top.
 
 ## The house format (set 2026-10-09)
 

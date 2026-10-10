@@ -1,5 +1,5 @@
 /*
- * Chapter 2's authored-layer regression checks for the current 2:36–2:40 batch.
+ * Chapter 2's authored-layer regression checks for the current 2:41–2:45 batch.
  * The generic guidance-range suite covers layout and rendering for every verse;
  * this focused suite adds the app translation fragments and source-attribution
  * assertions that the generic suite intentionally does not hand-maintain.
@@ -13,20 +13,20 @@ const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const BATCH = [36, 37, 38, 39, 40];
+const BATCH = [41, 42, 43, 44, 45];
 const FRAGMENTS = {
-  36: ['But Satan deceived them', 'leading to their fall from the', 'Descend from the heavens', 'a residence and provision for your appointed stay'],
-  37: ['Then Adam was inspired with words', 'so He accepted his repentance', 'Accepter of Repentance', 'Most Merciful'],
-  38: ['We said, Descend all of you', 'guidance comes to you from Me', 'whoever follows it', 'there will be no fear for them', 'nor will they grieve'],
-  39: ['those who disbelieve and deny Our signs', 'residents of the Fire', 'They will be there forever'],
-  40: ['O children of Israel!', 'Remember My favours upon you', 'Fulfil your covenant and I will fulfil Mine', 'stand in awe of Me'],
+  41: ['Believe in My revelations', 'which confirm your Scriptures', 'Do not be the first to deny them', 'trade them for a fleeting gain', 'be mindful of Me'],
+  42: ['Do not mix truth with falsehood', 'hide the truth knowingly'],
+  43: ['Establish prayer', 'pay alms-tax', 'and bow down with those who bow down'],
+  44: ['Do you preach righteousness', 'fail to practice it yourselves', 'although you read the Scripture', 'Do you not understand'],
+  45: ['And seek help through patience and prayer', 'Indeed, it is a burden except for the humble'],
 };
 const NAMES = {
-  36: ['Al-Hasan', 'Qatadah', "Abu Ja'far bin Jarir"],
-  37: ['Mujahid', "Sa'id bin Jubayr", 'Abu al-Aliyah', 'Al-Hasan', 'Qatadah', 'As-Suddi', 'Ibn Abbas', 'Al-Hakim', 'Ibn Jubayr', 'Al-Bukhari', 'Muslim'],
-  38: ['Abu al-Aliyah'],
-  39: [],
-  40: ['Mujahid', 'Abu al-Aliyah', 'Qatadah', 'Ibn Abbas', 'Ad-Dahhak', 'Muslim'],
+  41: ['Ibn Abbas', 'Abu al-Aliyah'],
+  42: ['Abu Hazim', 'Sulayman ibn Abd al-Malik'],
+  43: ['Muhammad'],
+  44: ['Anas', 'Malik', "Sa'id ibn Jubayr"],
+  45: [],
 };
 const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -51,7 +51,7 @@ const nameForms = s => [s, s.replace(/\bibn\b/gi, 'bin'), s.replace(/\bbin\b/gi,
   const g = await w.eval('loadGuidanceData(2)');
   ck('chapter 2 guidance loads', !!g);
   const keys = g ? Object.keys(g.verses).map(Number).sort((a, b) => a - b) : [];
-  ck('chapter 2 remains sequential through 2:40', keys.length === 40 && keys.every((a, i) => a === i + 1), keys.length);
+  ck('chapter 2 remains sequential through 2:45', keys.length === 45 && keys.every((a, i) => a === i + 1), keys.length);
 
   for (const a of BATCH) {
     const v = g && g.verses[String(a)];
