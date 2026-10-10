@@ -146,13 +146,15 @@ def check(surah, ayah, text, draws, names):
     if len(paras) < len(heads) + 1:
         errs.append('no plain introduction paragraph before the headings')
     if plan:
-        # The plan carries the enforced floor: 0.75x the target, capped at what the
-        # sources actually hold for this verse (tier_verses.CAP_SHARE) so a thin verse is
-        # measured against its material instead of against a number it cannot reach.
+        # The plan carries the enforced floor (0.75x the target) so no gate re-derives it.
+        # A verse whose material is below it is not exempted: plan['authored_only'] means
+        # it must be composed, and compile_guidance.py refuses to splice it.
         floor = plan.get('floor', round(plan['words'] * 0.75))
         if n < floor:
-            errs.append(f'{n}w is below the floor {floor}w (tier {plan["tier"]}, target {plan["words"]}w'
-                        + (', capped at its available material' if plan.get('capped') else '') + ')')
+            note = (' — this verse holds only %dw of source material, so it is AUTHORED-ONLY: '
+                    'compose it, do not pad it' % plan['avail']) if plan.get('authored_only') else ''
+            errs.append(f'{n}w is below the floor {floor}w (tier {plan["tier"]}, '
+                        f'target {plan["words"]}w{note})')
     prose = ''.join(x for x in re.split(SPAN, text) if re.fullmatch(SPAN, x) is None)
     for bad, good in (('Mecca', 'Makkah'), ('Madinah', 'Madīnah'), ('Jerusalem', 'Bayt al-Maqdis')):
         if re.search(r'\b' + bad + r'\b', prose):
@@ -169,10 +171,14 @@ def check(surah, ayah, text, draws, names):
     have = d['verses'].get(str(ayah), {}) if isinstance(d.get('verses'), dict) else {}
     live = [sid for sid in ids if have.get(sid) is not None]
     need_sets = min(5 if (plan or {}).get('tier') in ('A', 'B') else 4, len(live))
-    if len(draws) < need_sets:
+    if draws is None:
+        notes.append('draws_on not supplied — the 5+/4+ check is skipped; pass --draws when '
+                     'checking an authored draft, and record the same ids in the payload')
+        draws = []
+    elif len(draws) < need_sets:
         errs.append(f'draws_on has {len(draws)} ids, needs {need_sets}+ '
                     f'(this verse is covered by {len(live)} of {len(ids)} sets)')
-    bad = [x for x in draws if x not in ids]
+    bad = [x for x in draws if x not in ids] if draws else []
     if bad:
         errs.append(f'draws_on ids not in the payload: {bad}')
     bb, bbd = canon(blob(d, ayah)), degem(canon(blob(d, ayah)))
@@ -245,7 +251,7 @@ def main():
         print(__doc__)
         return 2
     surah = int(sys.argv[1])
-    names, text_file, rng = [], None, None
+    names, text_file, rng, draws = [], None, None, None
     args = sys.argv[2:]
     for i, a in enumerate(args):
         if a == '--names' and i + 1 < len(args):
@@ -265,6 +271,10 @@ def main():
     gpath = os.path.join(ROOT, 'data', f'guidance_{surah:03d}.json')
     g = json.load(open(gpath, encoding='utf-8')) if os.path.exists(gpath) else {'verses': {}}
     if text_file:
+        if rng is None or rng == 'all':
+            print('--file needs --range LO (or LO-HI with a single draft) to say which verse '
+                  'this draft is: python3 tools/verify_verse.py 2 --range 53 --file draft.txt')
+            return 2
         verses = {str(rng[0]): open(text_file, encoding='utf-8').read()}
         draws_by = {str(rng[0]): draws}
     else:

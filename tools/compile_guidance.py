@@ -179,8 +179,25 @@ def compile_verses(surah, spec, write=True, title=None):
     fails = 0
     for v in parse(spec):
         a = v['ayah']
-        tier = plan.get(f'{surah}:{a}', {}).get('tier', 'A')
+        prow = plan.get(f'{surah}:{a}', {})
+        tier = prow.get('tier', 'A')
         errs, notes = [], []
+        if prow.get('authored_only'):
+            # Maintainer's decision, 2026-10-10. This verse's eight sets together hold
+            # fewer words than its own floor, so a compiled entry can only reach the floor
+            # by repeating, padding, or inventing. It is composed in authored mode instead,
+            # where two readings can be weighed and a short source explained at length.
+            errs.append(
+                f'{surah}:{a} is AUTHORED-ONLY: {prow.get("avail", 0)} words of material '
+                f'against a floor of {prow.get("floor", 0)}w. Do not splice it and do not '
+                f'lower the floor - compose it: python3 tools/dump_sources.py {surah} {a} {a}, '
+                f'then python3 tools/verify_verse.py {surah} --range {a}-{a} --file draft.txt '
+                f'--names "..." (see docs/voice.md, "Two ways a verse gets made")')
+            fails += 1
+            print(f'  FAIL {surah}:{a}')
+            for e in errs:
+                print(f'       — {e}')
+            continue
         en_hot = frozenset(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
         rows = verse_sentences(d, a, en_hot)
         bb = canon(norm(blob(d, a)))

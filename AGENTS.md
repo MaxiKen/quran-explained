@@ -76,26 +76,32 @@ tafsīr sets under test; `tools/tests/style-check.js` asserts the payload contra
 Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
 by juzʾ.
 
-### Thin verses: decided — do not re-open it
+### Thin verses are authored-only — decided, do not re-open it
 
-168 verses hold **less material than 0.75× their own target** (`avail`: every word the
-covering sets say about them, across all eight sets, `docs/sources.md`). On 2026-10-10 the
-maintainer chose the first option, so **the enforced floor is capped at what the verse can
-be written from**: `data/plan.json` now carries `avail`, `floor`, `lead_floor` and
-`capped`, and every consumer reads `floor` instead of re-deriving `0.75 × words`.
-**115 verses are capped** (14,036 words of relief in total; worst is 11:35 at 826w against
-an uncapped 1,238w). The cap is `avail × 0.85 + the tier's lead floor`, never below
-`MIN_FLOOR` 150 — material the compiler can splice at a realistic yield, plus the opening
-paragraph, which explains the verse rather than quoting a source. **The `words` targets
-are untouched**: depth stays the ambition, only the enforcement became truthful. Change it
-in `tools/tier_verses.py` (`BODY_SHARE`) and re-run the classifier; never resolve a thin
-verse by inventing content, and never lower a floor by hand inside a gate.
+**168 verses hold less material than their own floor.** `data/plan.json` measures it as
+`avail` — every word the covering sets say about that verse, a block shared by several
+verses counted in full because the compiler may splice it for any of them. Where `avail`
+is under `0.75 × target` the row is marked `authored_only` (147 tier A, 21 tier B, 62,945
+words of shortfall in total) and:
 
-If a floor looks unachievable, print that verse's `avail` before touching the rule. Two
-other measures were tried the same day and rejected: `0.55 × avail` capped 1,553 verses (it
-forgot the lead exists), and scoring a verse's *exclusive* share of a shared block capped
-5,516 — which reads as a fairness fix and silently abolishes the raised bands across the
-whole Qur'an. When a rule like this moves a big number, the rule is wrong, not the corpus.
+- **`tools/compile_guidance.py` refuses them**, with the verse's numbers and the commands
+  to compose it instead. A compiled entry there could only reach its floor by repeating a
+  sentence, padding a connective, or inventing — and the first two are the quote-stacking
+  that got the 2026-10-09 corpus cleared.
+- **They are composed**, where two readings can be weighed and a short source explained at
+  length: `tools/dump_sources.py`, then `verify_verse.py --file --names`. Expect **5–10 per
+  run**, against a compiled batch of five; the run is scheduled around them, not merged in.
+- **The floor does not move.** Capping it was tried the same day and reverted: lowering the
+  bar to the material looks neutral but it quietly abolishes the raised bands everywhere it
+  binds, and it buys nothing that a composed entry does not buy honestly. If you feel the
+  urge, read `docs/pitfalls.md` ("A floor is data now") — two plausible formulas there cap
+  1,553 and 5,516 verses respectively before you notice.
+- `python3 tools/progress.py --next` says which mode the resume verse belongs to, and names
+  the next authored-only one in the surah, so a batch can be planned around it.
+- No verse authored so far (1:1–1:7, 2:1–2:35) is flagged; the flag has been checked against
+  the payload, so nothing already shipped needs rewriting. If a future change to the bands
+  or to the sets flags something already compiled, **re-author that verse**, do not delete it
+  and do not leave it.
 ---
 
 ## The eight source sets
@@ -176,14 +182,15 @@ If any other document here describes verse layout differently, `docs/style.md` w
 
 Targets are in `data/plan.json` under `words`, generated from `BAND` in
 `tools/tier_verses.py`: **A 1,300–1,900 · B 650–1,000 · C 300–450** (raised
-2026-10-09). The enforced floor is `plan["floor"]`: `round(words × 0.75)` — about
-975 / 488 / 225 at the band edges — **capped at that verse's material** for the 115
-verses whose sources cannot reach it. `verify_verse.py`, `style-check.js`,
-`compile_guidance.py` and `guidance-range.js` read that one number, so a thin verse is
-measured against what exists and a rich one is not excused. **There is no ceiling.** A
-long verse is fine and must never be trimmed; only under-length fails. Never hand-edit
-`plan.json` — edit `BAND`, `BODY_SHARE` or `LEAD_FLOOR` in `tools/tier_verses.py`,
-re-run the classifier, and run `--verify` after.
+The enforced floor is `plan["floor"]` = `round(words × 0.75)` — about 975 / 488 / 225 at
+the band edges — and `plan["lead_floor"]` is the tier's lead minimum; `verify_verse.py`,
+`style-check.js`, `compile_guidance.py` and `guidance-range.js` read those two numbers
+rather than re-deriving them, so the rule has one implementation. A verse whose material
+cannot meet its floor is **not** exempted: it is marked `authored_only` and composed
+instead of spliced (see "Thin verses are authored-only"). **There is no ceiling.** A long
+verse is fine and must never be trimmed; only under-length fails. Never hand-edit
+`plan.json` — edit `BAND` or `LEAD_FLOOR` in `tools/tier_verses.py`, re-run the
+classifier, and run `--verify` after.
 
 ```
 python3 tools/progress.py --next      # next verse to write
@@ -267,14 +274,25 @@ re-dump the packet before compiling a spec you did not just write.
 
 **Authored** — composed prose, still source-bounded, for what the compiler cannot
 do: *weigh* two scholars instead of placing them side by side, settle a ruling
-disagreement, and carry the verses whose material is thinner than their floor.
+disagreement, and **carry the 168 `authored_only` verses** whose material is thinner than
+their floor — those are refused in compiled mode, so this is their only path. Runs of
+**5–10** of them, on their own, not added to a compiled batch.
 
 ```bash
-python3 tools/dump_sources.py 2 29 34   # everything the six-and-two sets say, ~12KB
-python3 tools/verify_verse.py 2 --range 29-34 --file /tmp/draft.txt --names "Ibn ʿAbbās"
+python3 tools/dump_sources.py 2 53 53   # everything the six-and-two sets say, ~12KB
+# draft = the lead that walks the translation, then 3-6 headed sections, same layout
+python3 tools/verify_verse.py 2 --range 53 --file /tmp/a053.txt --draws maarif,ibn-kathir,jalalayn,tanwir,tazkirul --names "Ibn ʿAbbās"
 ```
 
-Both modes are gated identically. Read `docs/voice.md` before either.
+`--draws` is the set ids that go into the entry's `draws_on`; `--names` lists every
+authority the draft cites, and the gate checks each one really appears in that verse's own
+blocks — it is the only check that catches an invented citation, so never skip it in this
+mode, where the prose is not spliced and nothing else constrains it. A thin verse is
+explained longer, not padded: if the draft cannot reach the floor honestly, the sources
+are the limit, and `docs/voice.md` says what to do about that.
+
+Both modes are gated identically on layout, floor, lead and transliteration. Read
+`docs/voice.md` before either.
 
 ---
 
@@ -316,7 +334,9 @@ is actually read for that verse; verbatim traceability over speed, with depth an
 expendable when they conflict; answers short; the corpus stays out of the chat.
 
 **20–25 authored verses per run, or 40–60 compiled ones** (in practice **batches of 5**,
-gated at the boundary and pushed there). The old 50-verse
+gated at the boundary and pushed there). The old 50-verse The 168 `authored_only` verses are worked in **runs of 5–10** on their
+own — they cannot be compiled, so they are never slotted into a compiled batch to keep
+the pace up.
 authored target was withdrawn — it is the pace that produced the quote-stacking
 which got the entire corpus cleared. Volume was the cause, not a side effect.
 

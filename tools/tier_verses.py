@@ -69,26 +69,19 @@ P = dict(w_tr=2, w_ar=1, w_ms=6, w_ns=6, w_sd=4,
 # still applies on top, so the enforced minimums are 975 / 488 / 225.
 BAND = {'A': (1300, 1900), 'B': (650, 1000), 'C': (300, 450)}
 
-# --- floors are capped at what the sources actually hold (maintainer, 2026-10-10) ---
-# The enforced minimum was 0.75 x the target, one-sided. That is honest for every verse
-# the eight sets cover richly, and impossible for the thin ones: 164 verses have LESS
-# material (words across all sets that comment on them) than their own floor. Reaching it
-# would mean repeating sentences, padding with connectives, or inventing - the first two
-# produce the quote-stacked filler that got the 2026-10-09 corpus cleared, and the last is
-# never allowed. So a floor is min(0.75 x target, what can actually be written), where
-# "what can be written" is CAP_SHARE of the available material: an entry is spliced
-# sentences PLUS a lead, headings and links, and the compiler drops a selection that only
-# restates the translation, so demanding more than about half the material forces you to
-# use all of it. MIN_FLOOR keeps a capped verse from being excused down to a stub.
-# The TARGET is untouched - depth stays the ambition, only the enforcement becomes truthful.
-# BODY_SHARE, not CAP_SHARE: an entry is spliced material PLUS a lead, so a thin verse's
-# honest ceiling is most of its material and the lead it owes the reader anyway. 0.85 is
-# the share that survives the compiler's own losses (a selection that only restates the
-# translation is dropped, an overlapping pair is cut, +auto stops at what is left).
-BODY_SHARE = 0.85
-MIN_FLOOR = 150
-LEAD_FLOOR = {'A': 240, 'B': 170, 'C': 110}      # verify_verse.py reads plan['lead_floor`]
-
+# --- thin verses are authored-only, never padded (maintainer, 2026-10-10) ---
+# 168 verses hold less material than 0.75 x their own target (`avail`: every word the
+# covering sets say about them, shared blocks counted in full because the compiler can
+# splice them). A floor cannot be reached there by selection alone - it would take
+# repeated sentences, connective padding, or invention, and the first two are exactly the
+# quote-stacking that got the 2026-10-09 corpus cleared. The decision is NOT to lower the
+# floor: these verses are marked `authored_only` and compile_guidance refuses them, so
+# they get composed instead of spliced. Composed prose can weigh two readings, settle a
+# disagreement, and explain a short source at length, which is how an entry reaches its
+# floor honestly. It costs about 5-10 verses a run against 5 in a compiled batch.
+# `avail` and the flag are the only new data; the floor stays 0.75 x words, and no
+# floor is ever softened by a constant in this file.
+LEAD_FLOOR = {'A': 240, 'B': 170, 'C': 110}   # verify_verse.py and style-check.js read plan['lead_floor']
 # eight sets as of 2026-10-09; the classifier reads whatever covers the verse, so
 # a selective set (al-Qushayrī 20.6%, al-Wāḥidī 6.9%) only ever adds signal
 SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar',
@@ -229,19 +222,16 @@ def targets(all_v):
         pos = sum(1 for x in band if x <= s) / len(band)
         words = int(round((lo + (hi - lo) * pos) / 10) * 10)
         want = round(words * 0.75)
-        cap = max(MIN_FLOOR, round(v['avail_raw'] * BODY_SHARE) + LEAD_FLOOR[t])
-        floor = min(want, cap)
-        # A verse with little material gets a short entry, and a short entry cannot carry
-        # a tier-A lead: 240 words of walking is more than the whole verse would be. The
-        # lead stays the largest single part of the entry (the 20% rule still applies).
-        lead_floor = min(LEAD_FLOOR[t], max(70, round(floor * 0.55)))
+        floor = want                      # the floor is not negotiable; the mode is
+        thin = v['avail_raw'] < floor
+        lead_floor = LEAD_FLOOR[t]
         plan[k] = dict(
             tier=t,
             words=words,
             avail=v['avail_raw'],
             floor=floor,
             lead_floor=lead_floor,
-            capped=floor < want,
+            authored_only=thin,
             score=round(s, 1),
             tr_words=v['tr_words'],
             ar_words=v['ar_words'],
@@ -342,6 +332,7 @@ if __name__ == '__main__':
         print(f"  Tier {t}: {c[t]:5d} verses ({100*c[t]/len(plan):4.1f}%)  "
               f"{min(ws)}-{max(ws)} words  = {sum(ws):9,} words")
     print(f"  TOTAL {len(plan)} verses  {tot:,} words  ({os.path.getsize(path):,} bytes)")
-    nc = sum(1 for v in plan.values() if v['capped'])
-    print(f"  floors capped at available material: {nc} verses "
-          f"(BODY_SHARE {BODY_SHARE} + the tier lead, MIN_FLOOR {MIN_FLOOR})")
+    nc = sum(1 for v in plan.values() if v['authored_only'])
+    short = sum(v['words'] - v['floor'] for v in plan.values() if v['authored_only'])
+    print(f"  authored-only (material below their own floor): {nc} verses, "
+          f"{short:,} words of target above their floor - splicing them is refused")

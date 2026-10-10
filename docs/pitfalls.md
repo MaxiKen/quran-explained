@@ -254,25 +254,30 @@ evidence (hadith, cross-references, rulings, occasion, theology) belongs under t
 headings: a lead that has to stay inside the verse's own vocabulary cannot carry an
 attribution honestly anyway.
 
-## A floor is data now — one file, and the cap must bind only where it must
+## A floor is data now — and the fix for a thin verse is the mode, not the number
 
-Since 2026-10-10 the enforced floor lives in `data/plan.json` (`floor`, `lead_floor`,
-`avail`, `capped`), written by `tools/tier_verses.py`. `verify_verse.py`,
-`style-check.js`, `compile_guidance.py` and `guidance-range.js` read `floor` and fall back
-to `0.75 × words` only for an old plan file. Change the rule in the classifier and the
-gate follows; change a consumer and you have two truths again — which is what the section
-after this one is about.
+The enforced floor lives in `data/plan.json` (`floor`, `lead_floor`, `avail`,
+`authored_only`), written by `tools/tier_verses.py`; `verify_verse.py`, `style-check.js`,
+`compile_guidance.py` and `guidance-range.js` read it and fall back to `0.75 × words` only
+for an old plan file. Change the rule in the classifier and every gate follows; change a
+consumer and you have two truths again.
 
-Two ways to cap a floor at the material were tried that day and **both were wrong in
-opposite directions**. `0.55 × avail` capped 1,553 verses: it shaved floors that were
-perfectly reachable, because an entry also contains a lead, and the lead is explanation of
-the verse rather than quotation of a source. Scoring only a verse's *exclusive* share of
-each block (a block covering ten verses counted as a tenth per verse) capped **5,516**,
-which is the nastier failure: it reads as a fairness fix and quietly abolishes the raised
-bands across 88% of the Qur'an inside a file nobody re-reads. The adopted rule,
-`avail × 0.85 + the tier's lead floor` with `MIN_FLOOR` 150, caps 115 — the verses that
-genuinely cannot be written any longer. **Print how many verses move before committing a
-floor rule**; if the number is not small and named, the rule is wrong.
+On 2026-10-10 the 168 verses whose material is below their own floor were first handled by
+**capping the floor**, then reverted the same day: the cap moves the goalposts on the one
+number the whole project is measured against, and it is invisible in the reader's product.
+**The mode is the lever.** Those verses are authored-only — composed prose, 5–10 a run —
+and `compile_guidance.py` refuses to splice them, so the failure is loud and at the right
+moment instead of quiet and permanent.
+
+If you reach for a cap anyway, here is the arithmetic, so you do not spend an hour proving
+it: `avail × 0.55` caps 1,553 floors (it forgets that the lead is explanation, not
+quotation, so a rich verse looks thin); scoring a verse's *exclusive* share of each block
+caps 5,516 (fairness-shaped, and it would route 88% of the corpus out of the depth bands).
+Both look like safety valves and are actually policy changes. **Print how many verses a
+floor rule moves before trusting it** — if the number is not small and named, the rule is
+wrong. And when a band or set change newly flags a verse that is already in the payload,
+re-author it; deleting it, or leaving a spliced entry that cannot meet its floor, are both
+worse.
 
 ## Raising a floor is a three-file change or it is a lie
 

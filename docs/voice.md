@@ -79,6 +79,12 @@ band.
 
 ## Two ways a verse gets made
 
+
+**Which of the two a verse uses is decided by `data/plan.json`.** 168 verses hold less
+material than their own floor and are marked `authored_only`: `tools/compile_guidance.py`
+refuses them, because a compiled entry there could only reach its floor by repeating,
+padding or inventing. They are composed here, in runs of 5–10, and the sources they lean
+on are the same blocks — authored mode buys the weighing, not a licence to invent.
 Both write the same field in `data/guidance_NNN.json` and are gated by the same
 `tools/verify_verse.py` check, so neither can hold a looser standard than the other.
 

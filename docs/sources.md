@@ -25,8 +25,9 @@ Totals: 12,514,682 words per-verse sum (**1.99×** Ibn Kathīr alone), 32.9 MB
 across 114 payloads. Effect on the deep verses, measured against the floors in
 `data/plan.json`: tier A's median material/floor moved from 1.70× to 1.80×, the
 share of tier A under 2× went from 62% to 58%, and the number of verses holding
-less raw material than their own floor went from 195 to 164, and the floors of the 115 that truly cannot be met are now
-capped at that material (`plan["floor"]`; see `AGENTS.md`, "Thin verses") That is a real gain
+less raw material than their own floor went from 195 to 164, and those 168 (re-measured) are now marked
+`authored_only` in the plan: `tools/compile_guidance.py` refuses them and they are
+composed instead — see `AGENTS.md`, "Thin verses are authored-only" That is a real gain
 in the long Medinan sūrahs and none elsewhere: al-Qushayrī's three heaviest
 sūrahs (2, 3, 4) hold 659 of his 1,287 entries.
 

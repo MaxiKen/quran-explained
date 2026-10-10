@@ -79,7 +79,7 @@ for (const [fn, surah] of files) {
     if (!intro) badLead.push(`${surah}:${a} (no opening paragraph)`);
     else {
       const words = intro.trim().split(/\s+/).length;
-      const minLead = plan4.lead_floor || LEAD_FLOOR[plan4.tier] || 170;   // plan carries the capped floor
+      const minLead = plan4.lead_floor || LEAD_FLOOR[plan4.tier] || 170;   // the plan is the one source of the number
       if (words < minLead) badLead.push(`${surah}:${a} (lead ${words}w < ${minLead}w)`);
       const minShare = Math.floor(0.20 * bodyWords);
       if (words < minShare) badLead.push(`${surah}:${a} (lead is ${words}w of ${bodyWords}w, needs ${minShare}w)`);

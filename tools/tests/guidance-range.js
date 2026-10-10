@@ -150,7 +150,7 @@ function quoteRun(en, text) {
       heads: 'every entry has 3–6 real <h4> headings',
       recital: 'no lead opens by reciting the whole translation',
       chrome: 'no verse-card or recital markup inside the guidance block',
-      floor: 'every entry is at or over its plan floor (0.75× target, capped at its material)',
+      floor: 'every entry is at or over its plan floor (0.75× target; thin verses are authored-only, not exempted)',
       draws: 'every entry records the sets it was drawn on (5+ at A/B, 4+ at C)',
       fold: 'the source sets are folded in a panel after the guidance',
       verseBlock: 'the verse card still shows the English translation for a guided verse',

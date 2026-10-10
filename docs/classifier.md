@@ -110,15 +110,19 @@ Also worth knowing: the *muqattaʿāt* (`Ṭā-Hā`, `Ḥā-Mīm`, `Yā-Sīn`) a
 from scoring accuracy because B vs C on a two-letter sequence is arbitrary by
 nature.
 
-## What the plan carries per verse (added 2026-10-10, with the thin-verse decision)
+## What the plan carries per verse (updated 2026-10-10)
 
 `tier`, `words` (the target: an ambition, never a ceiling), `score`, `tr_words`,
-`ar_words`, `max_specific`, `n_specific`, `flags`, `refrain`, and then the figures the
-gates actually enforce: `avail` (every word the covering sets say about the verse — a
-block shared by ten verses counts in full for each, because the compiler can splice it
-for any of them), `floor` = `min(0.75 × words, avail × BODY_SHARE + LEAD_FLOOR[tier])`
-with `MIN_FLOOR` as the stub guard, `lead_floor` = `min(LEAD_FLOOR[tier], 0.55 × floor)`
-so a short entry is not required to be mostly lead, and `capped` (115 verses). The
-classifier is the single place these are derived; a consumer that re-derives them is a
-bug, which is why `verify_verse.py`, `style-check.js`, `compile_guidance.py` and
-`guidance-range.js` all read the plan.
+`ar_words`, `max_specific`, `n_specific`, `flags`, `refrain`, and the figures the gates
+enforce: `avail`, `floor` (= `0.75 × words`; kept in the plan so no consumer re-derives
+it), `lead_floor` (the tier's lead minimum, same reason), and **`authored_only`** — true
+when `avail` is below that floor, which is the 168 verses that must be composed rather
+than spliced. `floor`/`lead_floor` are read by `verify_verse.py`, `style-check.js`,
+`compile_guidance.py` and `guidance-range.js`; `authored_only` is enforced by
+`compile_guidance.py` and announced by `progress.py --next`.
+
+`avail` counts a shared block **in full** for every verse it covers, because the compiler
+may splice it for any of them. The cheaper-looking alternative — scoring a verse's
+exclusive share — flags 5,516 verses and would route most of the corpus into authored
+mode; `docs/pitfalls.md` has the arithmetic.
+

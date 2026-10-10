@@ -49,6 +49,10 @@ thirteen on the hypocrites. Those are natural stopping points.
 ## 3. Read before writing
 
 Pick the mode first (see [voice.md](voice.md) — "Two ways a verse gets made").
+`python3 tools/progress.py --next` prints whether the resume verse is `authored_only`;
+if it is, this step and the next are the authored path, and `compile_guidance.py` will
+refuse a spec for it. Plan the run so those verses come in runs of 5–10, not inside a
+compiled batch.
 
 **Compiled** (the default for volume): the packet is the reading step.
 
