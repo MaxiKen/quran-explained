@@ -49,17 +49,17 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at `5af740f`, 2026-10-10.
+Snapshot at the end of the 2026-10-10 run on `arena/5b8e4b00-quran-explained` (five batches of 10, compiled).
 
 | | |
 |---|---|
-| Written | **5 of 6,236 verses** — restarted 2026-10-10 from 1:1 |
-| Chapter 1 (al-Fātiḥah) | **1:1–1:5 authored** — `data/guidance_001.json` |
-| Chapter 2 (al-Baqarah) | **none written** — `data/guidance_002.json` is an empty shell |
+| Written | **55 of 6,236 verses** — restarted 2026-10-10 from 1:1 |
+| Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
+| Chapter 2 (al-Baqarah) | **2:1–2:48 compiled** — `data/guidance_002.json` |
 | Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **1:6** — sequentially, in batches of 5 |
+| **Resume at** | **2:49** — next authored-only verse is **2:53** (6 in the surah) |
 | Branch | `arena/525a7113-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
