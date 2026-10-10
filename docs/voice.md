@@ -91,8 +91,9 @@ merely fast:
     which is checked, so a claim has nowhere to come from except the sources;
   * a connective's every content word must already occur in this verse's sources or
     in the app's translation, attribution and ruling verbs are refused, and the
-    budget is 26 words inside a section — the opening paragraph excepted, at 150,
-    because the lead has to explain and a join cannot;
+    budget is 26 words inside a section — the opening paragraph excepted, at
+    `verify_verse.LEAD_CAP` (620/460/320 by tier), because the lead has to quote and
+    explain every phrase of the verse and a join cannot;
   * fragment splices, isnād arrows and passages that only repeat the translation
     are dropped by the compiler, not left for review.
 

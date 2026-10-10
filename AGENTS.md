@@ -97,12 +97,17 @@ occasion of revelation, 431 verses).
 
 Every verse has **two parts**:
 
-**1. A plain-English introduction that explains the verse.** ~90–160 words at
-tier A, 60–120 at B/C. It says what the verse says, to whom it is addressed, and
-what it is doing here — it is not a hook, and it may not be only a question.
-Names **no scholar**. Uses **no technical term**. Assumes **no prior knowledge**.
-A reader who stops here has understood the verse. The app's own translation is
-quoted inside it.
+**1. A plain-English introduction that walks the verse.** The translation is
+taken **phrase by phrase, in order**: each phrase quoted, each phrase explained
+where it stands, with a link to the verse before and after where the sources make
+one. 240+ words at tier A, 170+ at B, 110+ at C, and never under 20% of the entry
+— this paragraph does the **most work** in the verse. It is not a hook, not a
+mood, not a question-only opener, and it may **not** start by quoting the whole
+verse in one line. Names **no scholar**, uses **no technical term**, assumes **no
+prior knowledge**. Evidence is not its business: hadith, cross-references, rulings
+and their disagreement, the occasion, and theology all go under the headings, with
+more detail than the lead can carry. A reader who stops at the end of the lead has
+understood the verse; a reader who wants authority goes on.
 
 **2. Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, blank line, then its own paragraph.
@@ -153,8 +158,9 @@ python3 tools/compile_guidance.py 1 /tmp/b001.md
 The compiler refuses a spliced sentence that is not verbatim in that verse's own
 blocks, refuses an unsourced word in a connective or heading, refuses attributive
 and ruling verbs it cannot trace, drops a selection that only restates the
-translation, caps connectives at 26 words (150 for the pre-heading lead, which is
-where the explanation has to fit), requires the tier floor, and then calls
+translation, caps connectives at 26 words (the pre-heading lead gets
+`verify_verse.LEAD_CAP`, 620/460/320 by tier, because it has to quote and explain
+every phrase), requires the tier floor and the lead's phrase coverage and order, and calls
 `tools/verify_verse.check()` for layout — one implementation, not two.
 
 What the gate actually rejects, learned compiling 1:1–1:7 and 2:1–2:20 on

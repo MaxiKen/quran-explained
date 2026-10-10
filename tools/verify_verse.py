@@ -11,6 +11,10 @@ Asserts, for one verse:
   * transliteration of Makkah / Madinah / Bayt al-Maqdis in prose only
   * no Cyrillic homoglyphs (U+0400-U+04FF)
   * the verse quotes the app's own ayah_en for at least 5 consecutive words
+  * THE LEAD WALKS THE VERSE (maintainer, 2026-10-10): every phrase of the
+    translation is quoted in order in the opening paragraph and explained there,
+    the lead carries >= 20% of the verse and the tier floor in LEAD_FLOOR, and the
+    paragraph may not open by quoting the whole verse in one line
   * `draws_on` lists real source ids, 5+ at tiers A and B and 4+ at C, never
     more than the sets that actually cover the verse
   * ATTRIBUTION — every name passed with --names occurs in that verse's own
@@ -68,6 +72,52 @@ def sources(surah):
 def blob(d, ayah):
     """Every source block that covers this verse — the only place a name may come from."""
     return ' '.join(d['sets'][sid]['blocks'][idx] for sid, idx in d['verses'][str(ayah)].items())
+
+
+# The lead has to WALK the verse: every meaningful phrase of the translation
+# quoted in order, each one explained where it stands (maintainer, 2026-10-10).
+# Punctuation is what makes a phrase in this translation, so the split is on
+# punctuation only — no clause parser, nothing that could drift.
+PHRASE_SPLIT = r'[,;:.!?…\u2013\u2014\u201c\u201d\u2018\u2019]'
+# The ˹…˺ brackets in this translation are editorial marks and not phrase edges —
+# "they are not ˹truly˺ guided" is one phrase — so they are removed before splitting.
+EDITORIAL = r'[\u02f9\u02fa\u02bb]'
+LEAD_FLOOR = {'A': 240, 'B': 170, 'C': 110}
+LEAD_SHARE = 0.20          # the lead does the most work, so it carries 1/5 of the verse
+# ... and the budget it may spend doing it, which is where compile_guidance caps it
+LEAD_CAP = {'A': 620, 'B': 460, 'C': 320}
+
+
+def phrases(en, min_words=3):
+    """The verse cut into the chunks a lead must quote; short ones merge sideways."""
+    parts = [x.strip() for x in re.split(PHRASE_SPLIT, re.sub(EDITORIAL, '', en)) if canon(x.strip())]
+    out = []
+    for p in parts:
+        n = len([w for w in p.split() if canon(w)])
+        if out and n < min_words:
+            out[-1] += ', ' + p
+        else:
+            out.append(p)
+    if len(out) > 1 and len([w for w in out[0].split() if canon(w)]) < min_words:
+        out[0] = out[0] + ', ' + out[1]
+        out.pop(1)
+    return out
+
+
+def uncovered(lead, en):
+    """Phrases the lead failed to quote verbatim, or quoted out of order."""
+    cl, bad = canon(lead), []          # canon() drops the editorial marks from both sides
+    at, order = 0, True
+    for p in phrases(en):
+        key = ''.join(canon(w) for w in p.split() if canon(w))
+        i = cl.find(key)
+        if i < 0:
+            bad.append(p)
+        elif i < at:
+            order = False
+        else:
+            at = i + len(key)
+    return bad, order
 
 
 def en_run(text, en):
@@ -148,14 +198,34 @@ def check(surah, ayah, text, draws, names):
     # subject, quoting the translation itself, and not made only of questions.
     tier = (plan or {}).get('tier', 'A')
     intro = '' if not paras or paras[0].startswith('**') else paras[0]
-    min_intro = 90 if tier == 'A' else 60
+    min_intro = LEAD_FLOOR.get(tier, 170)
     if intro:
-        if len(intro.split()) < min_intro:
-            errs.append(f'opening paragraph is {len(intro.split())}w; tier {tier} needs '
-                        f'{min_intro}w that explains what the verse says, not a lead-in')
+        nw = len(intro.split())
+        if nw < min_intro:
+            errs.append(f'opening paragraph is {nw}w; tier {tier} needs {min_intro}w of '
+                        'phrase-by-phrase explanation, not a lead-in')
+        elif n and nw < LEAD_SHARE * n:
+            errs.append(f'opening paragraph is {nw}w of a {n}w verse; it has to do the most '
+                        f'work, so it needs {int(LEAD_SHARE * n) + 1}w minimum')
         if en_run(intro, en) < need:
             errs.append('the opening paragraph must itself quote the translation '
                         f'({need}+ consecutive words) before it starts interpreting')
+        # THE LEAD WALKS THE VERSE (maintainer, 2026-10-10): the verse is split
+        # into its meaningful phrases and each one is quoted and explained where
+        # it stands, in order. Evidence — hadith, cross-references, ruling,
+        # occasion, theology — belongs under the headings, not here.
+        miss, ordered = uncovered(intro, en)
+        if miss:
+            errs.append(f'lead does not quote these phrases of the translation: '
+                        + ' | '.join(f'"{m}"' for m in miss[:4])
+                        + (f' (+{len(miss) - 4} more)' if len(miss) > 4 else ''))
+        if not ordered:
+            errs.append('the lead quotes the verse out of order — walk it phrase by phrase')
+        tot = len([w for w in en.split() if canon(w)])
+        ital = re.match(r'^\s*\*([^*]+)\*', intro)
+        if ital and en_run(ital.group(1), en) >= max(need, tot - 1):
+            errs.append('the commentary must not open by quoting the whole verse in one line; '
+                        'quote it phrase by phrase and explain each part where it stands')
         qs = [q.strip() for q in re.split(r'(?<=[.?!])\s+', intro) if q.strip()]
         if qs and all(q.endswith('?') for q in qs):
             errs.append('the opening paragraph is all questions — state the verse\'s subject first')

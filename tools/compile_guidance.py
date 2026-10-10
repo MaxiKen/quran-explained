@@ -173,6 +173,7 @@ def compile_verses(surah, spec, write=True, title=None):
     fails = 0
     for v in parse(spec):
         a = v['ayah']
+        tier = plan.get(f'{surah}:{a}', {}).get('tier', 'A')
         errs, notes = [], []
         en_hot = frozenset(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
         rows = verse_sentences(d, a, en_hot)
@@ -229,7 +230,10 @@ def compile_verses(surah, spec, write=True, title=None):
                     # The opening paragraph is allowed to run long: the house rule is
                     # that it EXPLAINS the verse, which a 26-word join cannot do. Inside
                     # a section a connective is still only a join.
-                    cap = 150 if head is None else 26
+                    # THE LEAD IS THE EXPLANATION (maintainer, 2026-10-10): it walks the
+                    # verse phrase by phrase, so it is the longest block in the verse and
+                    # gets a tier budget. Inside a section a connective is still a join.
+                    cap = VV.LEAD_CAP[tier] if head is None else 26
                     if len(val.split()) > cap:
                         errs.append(f'connective over the {cap}w budget for its position: '
                                     + val[:40])
@@ -277,22 +281,18 @@ def compile_verses(surah, spec, write=True, title=None):
                 text.append('**What else the same passage holds.**')
                 text.append(' '.join(norm(x[2]) for x in sorted(chosen, key=lambda x: (x[0], x[1]))))
         # re-check: allowed grows as refs resolve, so validate connectives last
-        if v['quote']:
-            paras0 = [t for t in text if t]
-            first = paras0[0] if paras0 else ''
-            # open on the app's own wording, as the house style requires
-            lead = f'*{v["quote"]}*'
-            if paras0 and not paras0[0].startswith('**'):
-                paras0[0] = lead + ' — ' + paras0[0] if not paras0[0].startswith('The ') else lead + '. ' + paras0[0]
-            else:
-                paras0.insert(0, lead)
-            text = paras0
         paras = [t for t in text if t]
         body_text = '\n\n'.join(paras)
         n = len(body_text.split())
         body_text = body_text.replace('  ', ' ')
+        # The `> ` line is the verse, quoted so a spec cannot be written against a
+        # translation the app no longer serves. It is NOT emitted: the lead must
+        # start on the first phrase and explain it, not on the whole verse.
         if not v['quote']:
             errs.append('no > quote of the app translation')
+        elif canon(v['quote']) != canon(en[a]['ayah_en']):
+            errs.append('> quote does not match the app translation for '
+                        f'{surah}:{a} — re-read data/chapter_{surah:03d}.js')
         # the set-count rule lives in verify_verse.check() alone, which is called
         # below — a second copy here is how the two drifted apart once already
         # Layout, tier floor, and the opening-paragraph rule come from the same

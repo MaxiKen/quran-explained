@@ -241,14 +241,18 @@ English. Selecting two of them produced: *"In the Name of God the Compassionate
 the Merciful In the name of Allah, the Beneficent, the Merciful."* Grammatically
 fine, individually sourced, worthless as a paragraph. The compiler now drops a
 selection whose content words are more than half covered by the app's own
-translation — the `>` line has already said it.
+translation — the lead has already quoted it, phrase by phrase.
 
-**A 26-word connective cannot explain a verse.** The connective cap that stops a
-join carrying a claim also stopped the opening paragraph from doing the one thing
-`docs/style.md` now requires of it. The cap is positional: 150 words before the
-first heading, 26 inside a section. The provenance rule is unchanged in both
-places, so the lead can explain but still cannot name anyone the sources do not
-name.
+**A 26-word connective cannot explain a verse — and a 150-word one cannot walk
+one.** The opening paragraph has to quote every phrase of the translation in order
+and explain each where it stands, which is 240+ words at tier A before anyone has
+said anything useful; the budget is therefore positional (`LEAD_FLOOR` as a floor,
+`LEAD_CAP` as a ceiling), and the `>` line is no longer emitted as an opening
+recitation. The provenance rule is unchanged in both places, so the lead can
+explain but still cannot name anyone the sources do not name — which is also why the
+evidence (hadith, cross-references, rulings, occasion, theology) belongs under the
+headings: a lead that has to stay inside the verse's own vocabulary cannot carry an
+attribution honestly anyway.
 
 ## Raising a floor is a three-file change or it is a lie
 

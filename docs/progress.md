@@ -1,14 +1,16 @@
 # Progress
 
 **27 verses are authored** — 1:1–1:7 and 2:1–2:20, compiled on 2026-10-10 straight
-from the eight sets with `tools/compile_guidance.py`, against the raised bands and the
-opening-paragraph rule. Everything before them was cleared on 2026-10-09: chapter 1,
+from the eight sets with `tools/compile_guidance.py`, then **rewritten the same day**
+against the lead rule that landed with them: every verse now opens by walking its own
+translation phrase by phrase (193–344 words of explanation, 22–46% of the entry), with
+the evidence pushed down under the headings. Everything before them was cleared on 2026-10-09: chapter 1,
 2:1–2:46 and the 2:6–2:28 pilot, all of it quote-stacked rather than explained.
 `docs/style.md` is the spec; [`../AGENTS.md`](../AGENTS.md) is the entry point.
 
 | | |
 |---|---|
-| Written | **27 of 6,236 verses** — 25,206 words, every one at or over its floor |
+| Written | **27 of 6,236 verses** — 25,576 words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
 | Resume at | **2:21** |

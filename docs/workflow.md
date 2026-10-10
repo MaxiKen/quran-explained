@@ -83,8 +83,12 @@ python3 tools/compile_guidance.py <surah> /tmp/b0NN.md --dry    # nothing writte
 python3 tools/compile_guidance.py <surah> /tmp/b0NN.md
 ```
 
-The lead line (`~` before the first heading) is where the explanation goes and has
-a 150-word budget; connectives inside sections get 26. `+auto N` tops a section up
+The lead line (`~` before the first heading) **is** the explanation: it has to carry
+a quote of every phrase of the translation, in order, with each one explained, so it
+runs `LEAD_FLOOR`–`LEAD_CAP` words (240–620 at tier A) and not less than 20% of the
+entry. The `>` line is the verse the spec is written against — it is checked against
+`data/chapter_NNN.js` and is **not** emitted, because the commentary must not open by
+reciting the whole verse. Connectives inside sections get 26. `+auto N` tops a section up
 from the packet's leftovers when the shortlist has more worth having than you
 picked. Read every line of a `--dry` failure list; the messages say exactly which
 sentence was refused and why.

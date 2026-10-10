@@ -8,8 +8,10 @@ accident.
 ## What the commentary layer looks like right now
 
 **27 verses, all compiled, all at or over their floors.** 1:1–1:7 and 2:1–2:20 were
-rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py` — 25,206
-words, `draws_on` of 5–7 sets a verse, nothing hand-written except the connectives.
+rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py`, and then
+rewritten against the lead rule the maintainer set the same day — 25,576 words,
+`draws_on` of 5–7 sets a verse, nothing hand-written except the opening paragraph,
+which now has to quote and explain every phrase of the translation in order.
 What stood before them (42 verses across chapters 1 and 2) had been deleted on
 2026-10-09 (`626fe14`) the day the bands were raised, because patching 42 verses to a
 new contract is slower than regenerating them. `data/guidance_112.json` is still an

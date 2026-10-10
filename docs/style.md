@@ -15,19 +15,34 @@ version below is the current one, and it is what 2:1–2:10 are written in.
 
 Every verse has **two parts**:
 
-**A plain-English introduction.** One paragraph that **explains the verse** —
-what it says, to whom it is addressed, and what it is doing at this point in the
-sūrah. Roughly 90–160 words at tier A, 60–120 at tiers B and C. It names **no
-scholar**, uses **no technical term**, and assumes **no prior knowledge**. A
-reader who stops here has understood the verse.
+**A plain-English introduction, which is the explanation.** One paragraph that
+walks the verse: the translation is taken **phrase by phrase, in order**, each
+phrase quoted, and each one explained where it stands — what it says, to whom it
+is addressed, what it is doing at this point in the sūrah, and how it hands over
+to the phrase after it. This paragraph **does the most work in the entry**: 240+
+words at tier A, 170+ at B, 110+ at C, and never less than 20% of the whole verse
+(`verify_verse.LEAD_FLOOR`, `LEAD_SHARE`). It names **no scholar**, uses **no
+technical term**, and assumes **no prior knowledge**. A reader who stops here has
+understood the verse.
 
-It is not a hook. A lead that sets a mood, poses a question, or promises that the
-explanation is coming under the next heading does not satisfy this — the
-explaining happens *in the lead*. The app's own translation is quoted inside this
-paragraph (not necessarily as its first words). Enforced by
-`tools/verify_verse.py` and `tools/tests/style-check.js`: minimum word count for
-the opening paragraph, a 5-word run of `ayah_en` inside it, and no
-question-only opening.
+It is not a hook, not a scene-setter, and **it does not open by quoting the whole
+verse in one line** — the verse arrives split, and the first words are the first
+phrase already being explained. Link to the verse before and the verse after
+where the sources make such a link (a rebuke answering a praise, a request
+answering three verses of praise, a parable picking up a word just used); where
+they do not, do not invent one.
+
+Evidence is **not** the lead's job. Hadith, cross-references to other sūrahs,
+rulings and their disagreement, the occasion of revelation, and theology go under
+the headed sections, each with more detail than the lead can carry. The lead says
+what the phrases mean; the sections show who says it, on what authority, and what
+it settles.
+
+Enforced by `tools/verify_verse.py` and `tools/tests/style-check.js`: the tier
+floor and the 20% share for the opening paragraph, a 5-word run of `ayah_en`
+inside it, **every phrase of the translation quoted in it** (`phrases()` splits on
+punctuation only, merging chunks under three words into their neighbour), those
+phrases quoted **in order**, and no question-only opening.
 
 **Then 3–6 headed sections.** Each heading is `**Like this.**` — bold, ending
 with a full stop, **on its own line**, followed by a blank line and then its own
