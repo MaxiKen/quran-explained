@@ -274,7 +274,8 @@ def compile_verses(surah, spec, write=True, title=None):
                     if f'{SETS[sid]}{a}.{pi}.{si}' not in used_refs:
                         extra.append((pi, si, sid, sent))
             n = len(' '.join(text).split())
-            floor = int(round((plan.get(f'{surah}:{a}', {}).get('words', 800)) * 0.75))
+            _p = plan.get(f'{surah}:{a}', {})
+            floor = _p.get('floor', int(round(_p.get('words', 800) * 0.75)))
             chosen, seen_pairs = [], []
             for pi, si, sid, sent in sorted(extra, key=lambda x: -0)[:len(extra)]:
                 if n >= floor:

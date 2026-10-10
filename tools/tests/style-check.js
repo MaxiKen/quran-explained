@@ -79,7 +79,7 @@ for (const [fn, surah] of files) {
     if (!intro) badLead.push(`${surah}:${a} (no opening paragraph)`);
     else {
       const words = intro.trim().split(/\s+/).length;
-      const minLead = LEAD_FLOOR[plan4.tier] || 170;
+      const minLead = plan4.lead_floor || LEAD_FLOOR[plan4.tier] || 170;   // plan carries the capped floor
       if (words < minLead) badLead.push(`${surah}:${a} (lead ${words}w < ${minLead}w)`);
       const minShare = Math.floor(0.20 * bodyWords);
       if (words < minShare) badLead.push(`${surah}:${a} (lead is ${words}w of ${bodyWords}w, needs ${minShare}w)`);
@@ -140,7 +140,7 @@ for (const [fn, surah] of files) {
     // ---- rule 2: length meets the tier floor (one-sided) ----
     const plan = PLAN[`${surah}:${a}`];
     if (plan) {
-      const floor = Math.round(plan.words * 0.75);
+      const floor = plan.floor !== undefined ? plan.floor : Math.round(plan.words * 0.75);
       const n = t.trim().split(/\s+/).length;
       if (n < floor) underFloor.push(`${surah}:${a} (${n}w < ${floor}w)`);
     }

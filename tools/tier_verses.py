@@ -69,6 +69,26 @@ P = dict(w_tr=2, w_ar=1, w_ms=6, w_ns=6, w_sd=4,
 # still applies on top, so the enforced minimums are 975 / 488 / 225.
 BAND = {'A': (1300, 1900), 'B': (650, 1000), 'C': (300, 450)}
 
+# --- floors are capped at what the sources actually hold (maintainer, 2026-10-10) ---
+# The enforced minimum was 0.75 x the target, one-sided. That is honest for every verse
+# the eight sets cover richly, and impossible for the thin ones: 164 verses have LESS
+# material (words across all sets that comment on them) than their own floor. Reaching it
+# would mean repeating sentences, padding with connectives, or inventing - the first two
+# produce the quote-stacked filler that got the 2026-10-09 corpus cleared, and the last is
+# never allowed. So a floor is min(0.75 x target, what can actually be written), where
+# "what can be written" is CAP_SHARE of the available material: an entry is spliced
+# sentences PLUS a lead, headings and links, and the compiler drops a selection that only
+# restates the translation, so demanding more than about half the material forces you to
+# use all of it. MIN_FLOOR keeps a capped verse from being excused down to a stub.
+# The TARGET is untouched - depth stays the ambition, only the enforcement becomes truthful.
+# BODY_SHARE, not CAP_SHARE: an entry is spliced material PLUS a lead, so a thin verse's
+# honest ceiling is most of its material and the lead it owes the reader anyway. 0.85 is
+# the share that survives the compiler's own losses (a selection that only restates the
+# translation is dropped, an overlapping pair is cut, +auto stops at what is left).
+BODY_SHARE = 0.85
+MIN_FLOOR = 150
+LEAD_FLOOR = {'A': 240, 'B': 170, 'C': 110}      # verify_verse.py reads plan['lead_floor`]
+
 # eight sets as of 2026-10-09; the classifier reads whatever covers the verse, so
 # a selective set (al-Qushayrī 20.6%, al-Wāḥidī 6.9%) only ever adds signal
 SRC = ('ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn', 'mukhtasar',
@@ -119,6 +139,7 @@ def scan(surah):
         m = d['verses'][str(a)]
         spec = []
         dens = []
+        avail = 0.0
         for sid in SRC:
             i = m.get(sid)
             if i is None:
@@ -130,6 +151,14 @@ def scan(surah):
             run = sum(1 for x in d['verses'].values() if x.get(sid) == i)
             w = len(st['blocks'][i].split())
             dens.append(w / max(1, run))
+            # A long block covering several verses IS selectable for each of them - that
+            # is how the compiler works - so it counts in full. The cost is that adjacent
+            # verses can end up quoting the same source sentences; --dry already flags an
+            # overlap between a verse's own selections, and restatements are dropped, so
+            # the exposure is visible at authoring time rather than hidden in the floor.
+            # (Measuring only a verse's exclusive share instead would cap 5,516 verses,
+            # i.e. quietly abolish the raised bands across the whole Qur'an. Wrong tool.)
+            avail += w
             if run == 1:
                 spec.append((w, st['blocks'][i]))
         blob = ' '.join(t for _, t in spec)[:8000]
@@ -145,6 +174,7 @@ def scan(surah):
             tr_words=len(txt.split()),
             ar_words=len(ar.get(a, '').split()),
             max_specific_raw=max((w for w, _ in spec), default=0),
+            avail_raw=round(avail),           # every word the covering sets say on this verse
             n_specific_substantial=sum(1 for w, _ in spec if w >= 60),
             sum_density=sum(dens),
             refrain=a in refrains,
@@ -197,9 +227,21 @@ def targets(all_v):
         lo, hi = BAND[t]
         band = by_tier[t]
         pos = sum(1 for x in band if x <= s) / len(band)
+        words = int(round((lo + (hi - lo) * pos) / 10) * 10)
+        want = round(words * 0.75)
+        cap = max(MIN_FLOOR, round(v['avail_raw'] * BODY_SHARE) + LEAD_FLOOR[t])
+        floor = min(want, cap)
+        # A verse with little material gets a short entry, and a short entry cannot carry
+        # a tier-A lead: 240 words of walking is more than the whole verse would be. The
+        # lead stays the largest single part of the entry (the 20% rule still applies).
+        lead_floor = min(LEAD_FLOOR[t], max(70, round(floor * 0.55)))
         plan[k] = dict(
             tier=t,
-            words=int(round((lo + (hi - lo) * pos) / 10) * 10),
+            words=words,
+            avail=v['avail_raw'],
+            floor=floor,
+            lead_floor=lead_floor,
+            capped=floor < want,
             score=round(s, 1),
             tr_words=v['tr_words'],
             ar_words=v['ar_words'],
@@ -300,3 +342,6 @@ if __name__ == '__main__':
         print(f"  Tier {t}: {c[t]:5d} verses ({100*c[t]/len(plan):4.1f}%)  "
               f"{min(ws)}-{max(ws)} words  = {sum(ws):9,} words")
     print(f"  TOTAL {len(plan)} verses  {tot:,} words  ({os.path.getsize(path):,} bytes)")
+    nc = sum(1 for v in plan.values() if v['capped'])
+    print(f"  floors capped at available material: {nc} verses "
+          f"(BODY_SHARE {BODY_SHARE} + the tier lead, MIN_FLOOR {MIN_FLOOR})")

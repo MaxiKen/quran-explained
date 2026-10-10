@@ -109,3 +109,16 @@ Three earlier attempts failed and the failures are instructive:
 Also worth knowing: the *muqattaʿāt* (`Ṭā-Hā`, `Ḥā-Mīm`, `Yā-Sīn`) are excluded
 from scoring accuracy because B vs C on a two-letter sequence is arbitrary by
 nature.
+
+## What the plan carries per verse (added 2026-10-10, with the thin-verse decision)
+
+`tier`, `words` (the target: an ambition, never a ceiling), `score`, `tr_words`,
+`ar_words`, `max_specific`, `n_specific`, `flags`, `refrain`, and then the figures the
+gates actually enforce: `avail` (every word the covering sets say about the verse — a
+block shared by ten verses counts in full for each, because the compiler can splice it
+for any of them), `floor` = `min(0.75 × words, avail × BODY_SHARE + LEAD_FLOOR[tier])`
+with `MIN_FLOOR` as the stub guard, `lead_floor` = `min(LEAD_FLOOR[tier], 0.55 × floor)`
+so a short entry is not required to be mostly lead, and `capped` (115 verses). The
+classifier is the single place these are derived; a consumer that re-derives them is a
+bug, which is why `verify_verse.py`, `style-check.js`, `compile_guidance.py` and
+`guidance-range.js` all read the plan.

@@ -146,9 +146,13 @@ def check(surah, ayah, text, draws, names):
     if len(paras) < len(heads) + 1:
         errs.append('no plain introduction paragraph before the headings')
     if plan:
-        floor = round(plan['words'] * 0.75)
+        # The plan carries the enforced floor: 0.75x the target, capped at what the
+        # sources actually hold for this verse (tier_verses.CAP_SHARE) so a thin verse is
+        # measured against its material instead of against a number it cannot reach.
+        floor = plan.get('floor', round(plan['words'] * 0.75))
         if n < floor:
-            errs.append(f'{n}w is below the floor {floor}w (tier {plan["tier"]}, target {plan["words"]}w)')
+            errs.append(f'{n}w is below the floor {floor}w (tier {plan["tier"]}, target {plan["words"]}w'
+                        + (', capped at its available material' if plan.get('capped') else '') + ')')
     prose = ''.join(x for x in re.split(SPAN, text) if re.fullmatch(SPAN, x) is None)
     for bad, good in (('Mecca', 'Makkah'), ('Madinah', 'Madīnah'), ('Jerusalem', 'Bayt al-Maqdis')):
         if re.search(r'\b' + bad + r'\b', prose):
@@ -198,7 +202,7 @@ def check(surah, ayah, text, draws, names):
     # subject, quoting the translation itself, and not made only of questions.
     tier = (plan or {}).get('tier', 'A')
     intro = '' if not paras or paras[0].startswith('**') else paras[0]
-    min_intro = LEAD_FLOOR.get(tier, 170)
+    min_intro = (plan or {}).get('lead_floor') or LEAD_FLOOR.get(tier, 170)
     if intro:
         nw = len(intro.split())
         if nw < min_intro:

@@ -254,6 +254,26 @@ evidence (hadith, cross-references, rulings, occasion, theology) belongs under t
 headings: a lead that has to stay inside the verse's own vocabulary cannot carry an
 attribution honestly anyway.
 
+## A floor is data now — one file, and the cap must bind only where it must
+
+Since 2026-10-10 the enforced floor lives in `data/plan.json` (`floor`, `lead_floor`,
+`avail`, `capped`), written by `tools/tier_verses.py`. `verify_verse.py`,
+`style-check.js`, `compile_guidance.py` and `guidance-range.js` read `floor` and fall back
+to `0.75 × words` only for an old plan file. Change the rule in the classifier and the
+gate follows; change a consumer and you have two truths again — which is what the section
+after this one is about.
+
+Two ways to cap a floor at the material were tried that day and **both were wrong in
+opposite directions**. `0.55 × avail` capped 1,553 verses: it shaved floors that were
+perfectly reachable, because an entry also contains a lead, and the lead is explanation of
+the verse rather than quotation of a source. Scoring only a verse's *exclusive* share of
+each block (a block covering ten verses counted as a tenth per verse) capped **5,516**,
+which is the nastier failure: it reads as a fairness fix and quietly abolishes the raised
+bands across 88% of the Qur'an inside a file nobody re-reads. The adopted rule,
+`avail × 0.85 + the tier's lead floor` with `MIN_FLOOR` 150, caps 115 — the verses that
+genuinely cannot be written any longer. **Print how many verses move before committing a
+floor rule**; if the number is not small and named, the rule is wrong.
+
 ## Raising a floor is a three-file change or it is a lie
 
 The bands live in `BAND` in `tools/tier_verses.py`; `data/plan.json` is generated

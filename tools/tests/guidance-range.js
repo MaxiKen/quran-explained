@@ -120,7 +120,7 @@ function quoteRun(en, text) {
 
       const p = plan[`${s}:${a}`];
       if (p) {
-        const floor = Math.round(p.words * 0.75);
+        const floor = p.floor !== undefined ? p.floor : Math.round(p.words * 0.75);
         const n = v.text.trim().split(/\s+/).length;
         if (n < floor) bad.floor.push(`${s}:${a} ${n}<${floor}`);
         const need = p.tier === 'C' ? 4 : 5;
@@ -150,7 +150,7 @@ function quoteRun(en, text) {
       heads: 'every entry has 3–6 real <h4> headings',
       recital: 'no lead opens by reciting the whole translation',
       chrome: 'no verse-card or recital markup inside the guidance block',
-      floor: 'every entry is at or over its plan floor (0.75× target)',
+      floor: 'every entry is at or over its plan floor (0.75× target, capped at its material)',
       draws: 'every entry records the sets it was drawn on (5+ at A/B, 4+ at C)',
       fold: 'the source sets are folded in a panel after the guidance',
       verseBlock: 'the verse card still shows the English translation for a guided verse',

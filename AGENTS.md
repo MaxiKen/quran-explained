@@ -76,15 +76,26 @@ tafsīr sets under test; `tools/tests/style-check.js` asserts the payload contra
 Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
 by juzʾ.
 
-### One decision is still the maintainer's
+### Thin verses: decided — do not re-open it
 
-**164 verses hold less raw material than their own floor** (measured across all
-eight sets, `docs/sources.md`). Compiled mode cannot fill them without padding, and
-padding is what got the last corpus cleared. Either cap those verses' floors at
-their material, or treat them as authored-only. Do not resolve it by inventing
-depth — and if you touch it, re-run `tools/tier_verses.py` so the plan and the
-gate agree.
+168 verses hold **less material than 0.75× their own target** (`avail`: every word the
+covering sets say about them, across all eight sets, `docs/sources.md`). On 2026-10-10 the
+maintainer chose the first option, so **the enforced floor is capped at what the verse can
+be written from**: `data/plan.json` now carries `avail`, `floor`, `lead_floor` and
+`capped`, and every consumer reads `floor` instead of re-deriving `0.75 × words`.
+**115 verses are capped** (14,036 words of relief in total; worst is 11:35 at 826w against
+an uncapped 1,238w). The cap is `avail × 0.85 + the tier's lead floor`, never below
+`MIN_FLOOR` 150 — material the compiler can splice at a realistic yield, plus the opening
+paragraph, which explains the verse rather than quoting a source. **The `words` targets
+are untouched**: depth stays the ambition, only the enforcement became truthful. Change it
+in `tools/tier_verses.py` (`BODY_SHARE`) and re-run the classifier; never resolve a thin
+verse by inventing content, and never lower a floor by hand inside a gate.
 
+If a floor looks unachievable, print that verse's `avail` before touching the rule. Two
+other measures were tried the same day and rejected: `0.55 × avail` capped 1,553 verses (it
+forgot the lead exists), and scoring a verse's *exclusive* share of a shared block capped
+5,516 — which reads as a fairness fix and silently abolishes the raised bands across the
+whole Qur'an. When a rule like this moves a big number, the rule is wrong, not the corpus.
 ---
 
 ## The eight source sets
@@ -165,10 +176,14 @@ If any other document here describes verse layout differently, `docs/style.md` w
 
 Targets are in `data/plan.json` under `words`, generated from `BAND` in
 `tools/tier_verses.py`: **A 1,300–1,900 · B 650–1,000 · C 300–450** (raised
-2026-10-09). The enforced floor is `round(words × 0.75)` per verse — about
-975 / 488 / 225 at the band edges. **There is no ceiling.** A long verse is fine
-and must never be trimmed; only under-length fails. Never hand-edit `plan.json` —
-edit `BAND` and re-run the classifier.
+2026-10-09). The enforced floor is `plan["floor"]`: `round(words × 0.75)` — about
+975 / 488 / 225 at the band edges — **capped at that verse's material** for the 115
+verses whose sources cannot reach it. `verify_verse.py`, `style-check.js`,
+`compile_guidance.py` and `guidance-range.js` read that one number, so a thin verse is
+measured against what exists and a rich one is not excused. **There is no ceiling.** A
+long verse is fine and must never be trimmed; only under-length fails. Never hand-edit
+`plan.json` — edit `BAND`, `BODY_SHARE` or `LEAD_FLOOR` in `tools/tier_verses.py`,
+re-run the classifier, and run `--verify` after.
 
 ```
 python3 tools/progress.py --next      # next verse to write
