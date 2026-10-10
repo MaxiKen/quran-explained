@@ -11,12 +11,25 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git log --oneline -3                      # HEAD should be at or past 8a0ae2e
-python3 tools/progress.py --next          # the resume point, from the data
-python3 -m http.server 8000 --bind 0.0.0.0 &   # the app is static; tests need this
-node tools/tests/style-check.js           # 3/3 while the layer is empty
+git log --oneline -3                      # HEAD should be at or past 5af740f
+python3 tools/progress.py --next          # THE resume point — authoritative, from the data
+node tools/tests/style-check.js           # 9/9
 node tools/tests/sets-integrity.js        # 12/12
+python3 tools/verify_verse.py 2 --all     # 35/35
+
+python3 tools/serve.py 8090 &             # the DOM tests and the preview need a server
+npm i jsdom --prefix /tmp/apptest         # /tmp is wiped between sessions
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/sources-all.js
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js
 ```
+
+**`tools/progress.py --next` wins over every number in this file.** The table below is
+a snapshot taken at a commit, and it has been wrong before; the data files are what the
+app renders. Never re-author a verse that `progress.py` reports as done, and never
+clear a payload file because a doc says it is a placeholder — check `data/guidance_*.json`
+first. Never serve the preview with `python -m http.server`: it sends `Last-Modified` and
+no `Cache-Control`, which is how a new payload becomes invisible (`tools/serve.py` is
+`no-store` on everything).
 
 If the working tree looks wrong or `git log` is behind the remote, do **not**
 re-do the work — recover it:
@@ -35,23 +48,29 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
+Snapshot at `5af740f`, 2026-10-10.
+
 | | |
 |---|---|
-| Written | **0 of 6,236 verses** |
-| Chapter 1 (al-Fātiḥah) | cleared 2026-10-09, empty placeholder file |
-| Chapter 2 (al-Baqarah) | cleared 2026-10-09, empty placeholder file |
-| Chapter 112 (al-Ikhlāṣ) | empty placeholder file |
-| **Resume at** | **1:1** — nothing is authored |
+| Written | **42 of 6,236 verses** — 42,605 words, every one at or over its floor |
+| Chapter 1 (al-Fātiḥah) | **1:1–1:7 authored** — `data/guidance_001.json`, 38,399 B |
+| Chapter 2 (al-Baqarah) | **2:1–2:35 authored** — `data/guidance_002.json`, 207,544 B |
+| Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
+| Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
+| **Resume at** | **2:36** — sequentially, in batches of 5 |
 | Branch | `arena/525a7113-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
-Everything previously authored was pulled on 2026-10-09, the same day the length
+Everything authored before 2026-10-09 was pulled that day, the same day the length
 bands were raised and the opening-paragraph rule was written, so the layer is
-regenerated against the current contract instead of patched. The three payload
-files exist as empty `{"verses": {}}` placeholders: the reader's fallback to the
-tafsīr sets is the path being exercised, and the payload contract is asserted by
-`tools/tests/style-check.js`. **A chapter with no authored verses is legitimate.**
+regenerated against the current contract instead of patched. What exists now
+(1:1–1:7, 2:1–2:35) was compiled and rewritten under that contract and **is** the
+reference implementation: read one or two compiled entries in
+`data/guidance_002.json` for shape before writing a spec. Only `data/guidance_112.json`
+is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the
+tafsīr sets under test; `tools/tests/style-check.js` asserts the payload contract.
+**A chapter with no authored verses is legitimate.**
 
 Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
 by juzʾ.
@@ -131,9 +150,9 @@ the scholars differed, whom the sources say it refers to.
 Why own-line matters: `renderMarkdown` promotes an own-line `**bold**` block to
 `<h4>`; inline `**bold**` stays `<strong>` and produces no heading.
 
-There is **no reference implementation in the data** — the layer is empty.
-`docs/style.md` is the spec; history has conforming examples for shape only
-(`a2de9fe` authored, `d1e0609` compiled). Do not mine them for content.
+`docs/style.md` is the spec and `data/guidance_002.json` is what conformance looks
+like on the page. The cleared corpus (`d021eee`, `a2de9fe`, `d1e0609`) is history, not a
+mine: do not copy content out of it.
 
 **Three formats were tried and rejected** on 2026-10-09: a multi-paragraph layout,
 then a single paragraph with inline `**bold**` signposts. Do not reinvent either.
@@ -163,11 +182,28 @@ python3 tools/tier_verses.py --verify # tier assignments
 The sources' own sentences are spliced, with only gated connectives between them.
 
 ```bash
-python3 tools/verse_packet.py 1 1-7                 # ranked, numbered sentences from all 8 sets
-# write a spec:  ### 1:1 / > translation line / ~ connective / ## Heading. / - J1.1.1
-python3 tools/compile_guidance.py 1 /tmp/b001.md --dry
-python3 tools/compile_guidance.py 1 /tmp/b001.md
+# 1. what the eight sets actually say, ranked and numbered
+PACKET_CAP=4 PACKET_TRUNC=66 python3 tools/verse_packet.py 2 36-40
+# 2. write the spec: ### 2:36 / ~ lead / ## heading / - REF lines / +auto N   (no `>` line needed)
+python3 tools/fill_quotes.py /home/user/proto/b006.md   # inserts each verse's `> ` line verbatim
+# 3. gate the draft, fix EVERY fail, gate again, only then write the payload
+python3 tools/compile_guidance.py 2 /home/user/proto/b006.md --dry
+python3 tools/compile_guidance.py 2 /home/user/proto/b006.md
+# 4. the finished product, then the batch boundary
+python3 tools/verify_verse.py 2 --range 36-40
+node tools/tests/style-check.js
+sed -i "s/const CACHE_VERSION = .*/const CACHE_VERSION = 'quran-reader-vX.Y.Z-2-40';/" sw.js
+git add data/guidance_002.json sw.js && git commit && git push origin arena/525a7113-quran-explained
 ```
+
+`PACKET_CAP` (sentences per set shown) and `PACKET_TRUNC` (words per sentence) only
+shrink what the packet prints, never what the compiler will accept — 3/62 is a fast read
+of a five-verse batch, 6/120 when a verse will not compile. Refs are **positional**
+(`Q36.1.2` = qushayri, block 1, sentence 2), so re-dump a packet before compiling a spec
+you did not just write. `fill_quotes.py` exists because typing the `> ` line is the one
+ungated step in the loop. Patch a spec with `if a in s: s = s.replace(...)` and report
+the misses: a script that `assert`s mid-way never reaches its `open(...,'w')`, so the
+file is silently unchanged and the next gate looks like a regression.
 
 The compiler refuses a spliced sentence that is not verbatim in that verse's own
 blocks, refuses an unsourced word in a connective or heading, refuses attributive
@@ -177,14 +213,27 @@ translation, caps connectives at 26 words (the pre-heading lead gets
 every phrase), requires the tier floor and the lead's phrase coverage and order, and calls
 `tools/verify_verse.check()` for layout — one implementation, not two.
 
-What the gate actually rejects, learned compiling 1:1–1:7 and 2:1–2:20 on
+What the gate actually rejects, learned compiling 1:1–1:7 and 2:1–2:35 on
 2026-10-10 — all four are lead-authoring problems, not gate problems:
 
 - **Connectives cannot contain a speech or ruling verb**, even an ordinary one:
-  `said`, `says`, `holds`, `adds`, `notes` and `majority` are all refused in a `~`
-  line and in a heading. Write `carries`, `is taken to be`, `puts it that`,
-  `reads X as Y`. A refused lead is *dropped silently*, and the verse then fails the
-  opening-paragraph gate with a misleading word count — read the whole message.
+  `said`, `says`, `holds`, `adds`, `notes`, `mentions`, `forbids` and `majority` are all
+  refused in a `~` line and in a heading. Write `carries`, `is taken to be`, `puts it
+  that`, `reads X as Y`. A refused lead is *dropped silently*, and the verse then fails
+  the opening-paragraph gate with a misleading word count — read the whole message.
+  **One exemption, and only one** (`tr_all` in `compile_guidance.py`): a refused word is
+  allowed when that word is in the verse's *own translation*, because walking a verse
+  phrase by phrase sometimes means writing `Remember when your Lord said to the angels`
+  or `if what you say is true`, and the verse's word is not my attribution. Spliced
+  source sentences are never an exemption. If a BANNED hit survives that, the verb is
+  mine — reword it, do not quote around it.
+- **A quoted phrase must survive the translation's own punctuation.** Coverage is
+  checked canonically (case, diacritics and `˹…˺` stripped), so `Allah said, O Adam` in
+  a lead covers `˹Remember˺ when your Lord said…`; but a 5-word run of raw `ayah_en` is
+  also required, so quoting only `“O Adam”` fails. Quote the run as the translation
+  prints it, `We cautioned, O Adam! Live with your wife in Paradise`, and a compound
+  chunk cannot be split by an intervening clause — `…the disbelievers", whose difficulty
+  is a question, "they argue…` does not cover `"the disbelievers, they argue"`.
 - **`+auto` does not count toward `draws_on`.** Only curated `- REF` lines do, so a
   verse needs 5 distinct sets *selected*, not 5 present. Sūrahs 1–77 have wāḥidī
   blocks and al-Qushayrī is thinnest before verse 20 — if a verse has no wāḥidī
@@ -264,6 +313,7 @@ arena/525a7113-quran-explained`. The remote branch is the only durable copy.
 | [`docs/classifier.md`](docs/classifier.md) | how tiers and targets are fitted |
 | [`docs/batching.md`](docs/batching.md), [`docs/progress.md`](docs/progress.md) | batch sizing; the cleared-layer history |
 | [`HANDOFF.md`](HANDOFF.md) | this session's handoff: what changed and why |
+| `tools/serve.py`, `tools/fill_quotes.py` | the `no-store` preview server; pastes each verse's translation into a spec |
 | `ATTRIBUTION.md` | licence and upstream per edition |
 
 **There is no build system.** No `package.json`, no bundler, no `www/` — the PWA is

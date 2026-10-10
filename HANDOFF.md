@@ -7,7 +7,8 @@ accident.
 
 ## What the commentary layer looks like right now
 
-**27 verses, all compiled, all at or over their floors.** 1:1–1:7 and 2:1–2:20 were
+**42 verses, all compiled, all at or over their floors** (42,605 words). 2:21–2:35 was
+added on 2026-10-10 in three batches of five, and 1:1–1:7 and 2:1–2:20 were
 rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py`, and then
 rewritten against the lead rule the maintainer set the same day — 25,576 words,
 `draws_on` of 5–7 sets a verse, nothing hand-written except the opening paragraph,
@@ -17,7 +18,7 @@ What stood before them (42 verses across chapters 1 and 2) had been deleted on
 new contract is slower than regenerating them. `data/guidance_112.json` is still an
 empty `{"verses": {}}` placeholder, which keeps the reader's fallback path under test.
 
-**Resume at 2:21** (266 verses left in surah 2). `python3 tools/progress.py --next` is
+**Resume at 2:36** (251 verses left in surah 2). `python3 tools/progress.py --next` is
 the authority, not this file.
 
 ## The two rules that were added, and why

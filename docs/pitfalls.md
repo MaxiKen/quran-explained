@@ -316,3 +316,55 @@ corpus, re-run `tools/tier_verses.py`, and *then* argue about bands. Reading the
 `tier changes` line is the difference between a plan update and an unexplained
 rewrite of the queue.
 
+
+## Compiled-mode gates that fire for reasons other than the obvious one
+
+Found authoring 2:21–2:35 on 2026-10-10. Each cost a needless round because the
+message points at the wrong file.
+
+- **A BANNED verb inside a *quote of the translation*.** The refusal list for
+  `said`/`says`/`adds`/`forbids` ran over the whole `~` line, including words inside
+  quotation marks, so 2:30 could not quote `Remember when your Lord said to the angels`
+  and 2:31 could not quote `if what you say is true` — and a lead that cannot quote a
+  phrase fails the coverage gate instead. `compile_guidance.prov_ok` now excuses a
+  refused word when it occurs in that verse's own `ayah_en` (`tr_all`). If a BANNED hit
+  survives that exemption the verb is yours, not the verse's: reword it. Do not
+  paraphrase the translation to get past a gate, and do not widen the exemption to
+  spliced source sentences, which is the only thing standing between this pipeline and
+  invented attribution.
+- **A quote broken by the translation's own punctuation.** Coverage is canonical
+  (case, diacritics, `˹…˺` stripped) but the 5-consecutive-word rule is raw, so
+  `"We cautioned, O Adam"` fails on length while `"We cautioned, O Adam! Live with your
+  wife in Paradise"` covers both. Quote the run as it is printed.
+- **A compound phrase split by an intervening clause does not cover.** `…the
+  disbelievers", whose whole difficulty is a question, "they argue…` leaves
+  `"the disbelievers, they argue"` uncovered. Keep a chunk contiguous, or quote the
+  whole span and explain after the closing quote.
+- **7 headings, and nobody says which one to drop.** The cap is 3–6; the fix is to
+  merge a thin pair into one heading with both ref lists, not to delete a source.
+- **Tier A leads are measured against 20% of the entry, so adding sections raises the
+  lead's own target.** A 1,392-word entry needs a 279-word lead; the same words at
+  1,150 need 240. Lengthen the lead last, after the sections stop moving.
+
+## A patch script that `assert`s mid-way writes nothing
+
+Spec fixes are applied by a Python script that reads the file, replaces, and writes at the
+end. When one `assert a in s` raised, the write never ran: the file stayed exactly as it
+was, and the next `--dry` reported the failures I had just "fixed", which read like the
+gate ignoring its own message. Patch with `if a in s: … else: print('MISS', …)` and read
+the report. The same rule made `tools/fill_quotes.py` idempotent rather than fatal.
+
+## A harness port is configuration, not a constant
+
+`tools/tests/sources-all.js` and `tools/tests/guidance-001.js` had `127.0.0.1:8000`
+hard-wired. When the preview moved to 8090 both died with `ECONNREFUSED`, which looks
+like a broken payload. They now read `BASE` (default unchanged). Anything that reaches a
+server from a test takes its address from the environment.
+
+## A stale entry point is worse than no entry point
+
+`AGENTS.md`'s state table said **0 of 6,236 verses, resume at 1:1** while `data/` held 42
+authored verses. A new session that trusted it would have re-authored chapters 1 and 2 or
+"restored" them from history. The rule now written into `AGENTS.md`: the table is a
+snapshot, `python3 tools/progress.py --next` and the payload files win, and **the table is
+updated in the same commit as the payload it describes**.

@@ -22,12 +22,16 @@ git reset --hard origin/arena/525a7113-quran-explained
 ## 1. Start the server
 
 ```bash
-python3 -m http.server 8000 --bind 0.0.0.0    # from the repo root
+python3 tools/serve.py 8090 &                 # from the repo root
 ```
 
-Must bind `0.0.0.0`, not `127.0.0.1`, or the user gets no preview. The
-harnesses also need it. If `curl http://127.0.0.1:8000/` returns `000`, the
-server is not running — start it before doing anything else.
+`tools/serve.py` binds `0.0.0.0` and answers every request `no-store`. Do **not**
+use `python -m http.server`: it sends `Last-Modified` and no `Cache-Control`, so a
+browser may answer a repeat request for `sw.js` out of its own HTTP cache — the worker
+then never learns a new version exists, never activates, and keeps serving the payload
+it cached, which looks exactly like content that was never written. The harnesses need
+this server too. If `curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8090/index.html`
+is not `200`, start it before doing anything else.
 
 ## 2. Pick the range
 
@@ -49,8 +53,12 @@ Pick the mode first (see [voice.md](voice.md) — "Two ways a verse gets made").
 **Compiled** (the default for volume): the packet is the reading step.
 
 ```bash
-python3 tools/verse_packet.py <surah> <lo>-<hi>
+PACKET_CAP=4 PACKET_TRUNC=66 python3 tools/verse_packet.py <surah> <lo>-<hi>
 ```
+
+`PACKET_CAP` (sentences per set) and `PACKET_TRUNC` (words per sentence) shrink only
+what is printed, never what the compiler accepts — 5 verses at 4/66 is one screen and
+enough to select from; go to 6/120 on a verse that will not compile.
 
 It prints, per verse: the app's own translation (the wording the lead must
 quote), the tier, the floor, the flags, and a ranked shortlist of numbered
@@ -78,9 +86,15 @@ how attributions get invented.
 **Compiled** — write a spec, then let the compiler emit the JSON.
 
 ```bash
-# /tmp/b0NN.md:  ### 1:1 / > the verse's translation / ~ lead-in / ## Heading. / - <ref>
+# spec:  ### 2:36 / ~ lead-in / ## Heading / - <ref> …   (the `>` line is added for you)
+python3 tools/fill_quotes.py /tmp/b0NN.md                       # pastes each verse's ayah_en
 python3 tools/compile_guidance.py <surah> /tmp/b0NN.md --dry    # nothing written
 python3 tools/compile_guidance.py <surah> /tmp/b0NN.md
+
+Never type the `> ` line: it is what the lead is validated against, and a mistranscription
+surfaces as a coverage failure three steps later. Patch a spec with `if a in s:` + a report
+of the misses — a script that `assert`s mid-way never reaches its write, so the file is
+silently unchanged and the next gate reads like a regression.
 ```
 
 The lead line (`~` before the first heading) **is** the explanation: it has to carry
@@ -111,19 +125,18 @@ running short is.
 npm i jsdom --prefix /tmp/apptest          # once per session; /tmp does not persist
 export NODE_PATH=/tmp/apptest/node_modules
 python3 tools/verify_verse.py <surah> --all
-**Serve the preview with `python3 tools/serve.py`**, not `python -m http.server`.
-The stdlib server sends `Last-Modified` and no `Cache-Control`, so a browser may
-answer a repeated request for `sw.js` out of its own HTTP cache — the worker then
-never learns a new version exists, never activates, and keeps serving the payload it
-cached. `tools/serve.py` answers every request `no-store`, which is the only sane
-setting for a preview whose purpose is to show content that was just appended.
-
 node tools/tests/style-check.js
 node tools/tests/sets-integrity.js
 for h in sources-all guidance-001; do      # the two that boot the app in jsdom
-  printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
+  printf "%-16s " "$h:"
+  BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/$h.js 2>&1 | tail -1
 done
 ```
+
+`BASE` is the port the two jsdom harnesses fetch from (default `http://127.0.0.1:8000`);
+they take it from the environment precisely because the preview port has moved before and
+a hard-wired one fails as `ECONNREFUSED`, which reads like a broken payload. Set it to
+whatever `tools/serve.py` is on.
 
 Add a `tools/tests/guidance-NNN.js` for each newly authored surah — copy the
 closest existing one (`guidance-001.js`) and change the surah number, the verse
