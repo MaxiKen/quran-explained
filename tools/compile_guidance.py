@@ -324,9 +324,12 @@ def compile_verses(surah, spec, write=True, title=None):
                 seen_pairs.append(key)
                 chosen.append((pi, si, sent))
                 n += len(sent.split())
+            # Automatic fill is retired. It appended unlabelled sentences under a generic heading
+            # ("What else the same passage holds"), which has no topic and cannot carry real content.
+            # Every heading is now written from its own cited sources; a verse below the floor fails.
             if chosen:
-                text.append('**What else the same passage holds.**')
-                text.append(' '.join(norm(x[2]) for x in sorted(chosen, key=lambda x: (x[0], x[1]))))
+                errs.append(f'auto fill would add {len(chosen)} unlabelled sentence(s): '
+                            'write them under a real heading in the spec instead')
         # re-check: allowed grows as refs resolve, so validate connectives last
         paras = [t for t in text if t]
         body_text = '\n\n'.join(paras)

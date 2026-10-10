@@ -157,6 +157,8 @@ understood the verse; a reader who wants authority goes on.
 
 **Headings may be questions or further explanation.** A heading can be a question the reader would ask, or a part of the verse that needs more explanation. The evidence under a heading is taken from the sources in the context of that heading only: it answers the question asked, or explains the part named. Sources are not dumped under a heading that they do not address.
 
+**The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading. A `+auto` line now fails the gate. Every heading is written from the sources it cites.
+
 **Proof of relevance is real content.** The gate requires each heading to cite at least two source sentences that carry its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage only; the writer must still read the sources in full and confirm they answer the heading.
 
 **The sources are read completely before writing.** Every source used for a verse is read in full and understood, not skimmed for a quotable line. The commentary is comprehensive: the material under the headings covers what the sources say on the question, including where they differ, and it is written in one plain voice.
