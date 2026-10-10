@@ -1,30 +1,30 @@
 # Progress
 
-**52 verses are authored** — 1:1–1:7 and 2:1–2:45. The latest five, 2:41–2:45,
+**57 verses are authored** — 1:1–1:7 and 2:1–2:50. The latest five, 2:46–2:50,
 were compiled from the source packets on 2026-10-10. Every entry walks the app's
 translation phrase by phrase, with deeper evidence grouped under headings.
 `docs/style.md` is the spec; [`../AGENTS.md`](../AGENTS.md) is the entry point.
 
 | | |
 |---|---|
-| Written | **52 of 6,236 verses** — 53,210 guidance words, every one at or over its floor |
+| Written | **57 of 6,236 verses** — 58,367 guidance words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
-| Planned words | **66,580** for the written verses; **5,902,150** total (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:46** |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (45); `_112.json` still a placeholder |
+| Planned words | **72,770** for the written verses; **5,902,150** total (A 2,937,900 · B 2,409,170 · C 555,080) |
+| Resume at | **2:51** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (50); `_112.json` still a placeholder |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
 `python3 tools/tier_verses.py`; never hand-edit `data/plan.json`.
 
-## Latest batch — 2:41–2:45
+## Latest batch — 2:46–2:50
 
-Five compiled entries were added (5,624 words total): 2:41 1,295w; 2:42 1,101w;
-2:43 1,097w; 2:44 1,345w; 2:45 786w. The batch had no authored-only verses;
-2:53 remains authored-only and must stay out of compiled specs.
+Five compiled entries were added (5,157 words total): 2:46 642w; 2:47 1,110w;
+2:48 1,394w; 2:49 1,259w; 2:50 752w. The batch had no authored-only verses;
+2:53 and 2:90 remain authored-only and must stay out of compiled specs.
 
-Verification passed: `verify_verse.py 2 --all` 45/45; style-check 9/9;
-sets-integrity 12/12; `guidance-range.js 2` 11/11; `guidance-002.js` 32/32;
+Verification passed: `verify_verse.py 2 --all` 50/50; style-check 9/9;
+sets-integrity 12/12; `guidance-range.js` 22/22; `guidance-002.js` 30/30;
 `sources-all.js` 30/30; `guidance-001.js` 52/52.
 
 ## What changed under the last session

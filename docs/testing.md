@@ -1,16 +1,16 @@
 # Testing
 
-Four harnesses in `tools/tests/`. Each boots the **real app** in jsdom against
-a running static server and asserts against what it actually renders. No logic
-is re-implemented in the harness — a test that copies the code it tests proves
-nothing.
+Six harnesses and gates live in `tools/tests/`. The jsdom suites boot the **real app**
+against a running static server and assert against what they actually render. No
+logic is re-implemented in the harness — a test that copies the code it tests
+proves nothing.
 
 ```bash
 python3 tools/serve.py 8090 &                    # no-store; never `python -m http.server`
 npm i jsdom --prefix /tmp/apptest               # /tmp does not persist between sessions
 export NODE_PATH=/tmp/apptest/node_modules
 export BASE=http://127.0.0.1:8090                # the port the jsdom harnesses fetch from
-for h in sources-all guidance-001 guidance-range; do   # jsdom harnesses (need the server)
+for h in sources-all guidance-001 guidance-002 guidance-range; do   # jsdom harnesses (need the server)
   printf "%-16s " "$h:"; node tools/tests/$h.js 2>&1 | tail -1
 done
 node tools/tests/sets-integrity.js              # pure node, no server
@@ -18,7 +18,8 @@ node tools/tests/style-check.js                 # pure node, no server
 ```
 
 Current: **sources-all 30/30 · sets-integrity 12/12 · style-check 9/9 ·
-guidance-001 52/52 · guidance-range 22/22** (42 authored verses across sūrahs 1 and 2).
+guidance-001 52/52 · guidance-002 30/30 · guidance-range 22/22** (57 authored verses
+across sūrahs 1 and 2).
 
 `guidance-range.js` is the one to run after every batch: it reads
 `data/guidance_*.json`, so it covers whatever is authored today instead of a
@@ -39,7 +40,8 @@ see.
 |---|---|
 | `sources-all.js` | eight-source payload, all 114 files, read-aloud path |
 | `sets-integrity.js` | the two added sets: index integrity, the Asbāb pollution guard, coverage bounds |
-| `guidance-001.js` | authored layer, sūrah 1 (currently empty → payload contract) |
+| `guidance-001.js` | authored layer, sūrah 1 — translation fragments and attribution |
+| `guidance-002.js` | focused checks for chapter 2’s latest five-verse batch — app wording and attribution |
 | `style-check.js` | house format — `docs/style.md` rules 1, 2 and 4, all three files |
 | `guidance-range.js` | the authored layer, **any** sūrah: renders each entry in the real app and asserts layout, quoting, folding, floors and the verse block |
 

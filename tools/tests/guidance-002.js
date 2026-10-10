@@ -1,5 +1,5 @@
 /*
- * Chapter 2's authored-layer regression checks for the current 2:41–2:45 batch.
+ * Chapter 2's authored-layer regression checks for the current 2:46–2:50 batch.
  * The generic guidance-range suite covers layout and rendering for every verse;
  * this focused suite adds the app translation fragments and source-attribution
  * assertions that the generic suite intentionally does not hand-maintain.
@@ -13,20 +13,20 @@ const errs = [];
 vc.on('jsdomError', e => errs.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
 
-const BATCH = [41, 42, 43, 44, 45];
+const BATCH = [46, 47, 48, 49, 50];
 const FRAGMENTS = {
-  41: ['Believe in My revelations', 'which confirm your Scriptures', 'Do not be the first to deny them', 'trade them for a fleeting gain', 'be mindful of Me'],
-  42: ['Do not mix truth with falsehood', 'hide the truth knowingly'],
-  43: ['Establish prayer', 'pay alms-tax', 'and bow down with those who bow down'],
-  44: ['Do you preach righteousness', 'fail to practice it yourselves', 'although you read the Scripture', 'Do you not understand'],
-  45: ['And seek help through patience and prayer', 'Indeed, it is a burden except for the humble'],
+  46: ['Those who are certain that they will meet their Lord and to Him they will return'],
+  47: ['O Children of Israel!', 'Remember ˹all˺ the favours I granted you and how I honoured you above the others'],
+  48: ['Guard yourselves against the Day', 'no soul will be of help to another', 'No intercession', 'no ransom taken', 'no help will be given'],
+  49: ['˹Remember˺ how We delivered you', 'dreadful torment', 'slaughtering your sons', 'keeping your women', 'That was a severe test from your Lord'],
+  50: ['And ˹remember˺ when We parted the sea', 'rescued you', 'drowned Pharaoh’s people before your very eyes'],
 };
 const NAMES = {
-  41: ['Ibn Abbas', 'Abu al-Aliyah'],
-  42: ['Abu Hazim', 'Sulayman ibn Abd al-Malik'],
-  43: ['Muhammad'],
-  44: ['Anas', 'Malik', "Sa'id ibn Jubayr"],
-  45: [],
+  46: ['Ibn Abi Talhah', 'Ibn Abbas', 'Al-Qurtubi'],
+  47: [],
+  48: [],
+  49: ['Al-Qurtubi'],
+  50: ['Ibn Abbas', 'Imam Ahmad'],
 };
 const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -51,7 +51,7 @@ const nameForms = s => [s, s.replace(/\bibn\b/gi, 'bin'), s.replace(/\bbin\b/gi,
   const g = await w.eval('loadGuidanceData(2)');
   ck('chapter 2 guidance loads', !!g);
   const keys = g ? Object.keys(g.verses).map(Number).sort((a, b) => a - b) : [];
-  ck('chapter 2 remains sequential through 2:45', keys.length === 45 && keys.every((a, i) => a === i + 1), keys.length);
+  ck('chapter 2 remains sequential through 2:50', keys.length === 50 && keys.every((a, i) => a === i + 1), keys.length);
 
   for (const a of BATCH) {
     const v = g && g.verses[String(a)];

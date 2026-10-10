@@ -12,12 +12,9 @@ python3 tools/progress.py --next
 
 `progress.py --next` prints the exact verse to resume at and how much of that
 surah is left. **Do not trust the local working tree to be intact** — see
-[pitfalls.md](pitfalls.md#the-workspace-can-be-reset). If files look wrong:
-
-```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
-```
+[pitfalls.md](pitfalls.md#the-workspace-can-be-reset). If files look wrong, inspect `git status`, `git reflog`, and `git log` first.
+Recover only from the remote matching the active Arena branch; never reset to
+`main` or a branch from an earlier session.
 
 ## 1. Start the server
 

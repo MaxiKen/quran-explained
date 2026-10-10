@@ -11,12 +11,12 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
+git status --short && git branch --show-current       # confirm the active Arena branch
 python3 tools/progress.py --next          # THE resume point — authoritative, from the data
 node tools/tests/style-check.js           # 9/9
 BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
 node tools/tests/sets-integrity.js        # 12/12
-python3 tools/verify_verse.py 2 --all     # 35/35
+python3 tools/verify_verse.py 2 --all     # 50/50
 
 python3 tools/serve.py 8090 &             # the DOM tests and the preview need a server
 npm i jsdom --prefix /tmp/apptest         # /tmp is wiped between sessions
@@ -32,13 +32,10 @@ first. Never serve the preview with `python -m http.server`: it sends `Last-Modi
 no `Cache-Control`, which is how a new payload becomes invisible (`tools/serve.py` is
 `no-store` on everything).
 
-If the working tree looks wrong or `git log` is behind the remote, do **not**
-re-do the work — recover it:
-
-```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
-```
+If the working tree looks wrong or `git log` is behind the remote, inspect
+`git status`, `git reflog`, and `git log` before recovering anything. Recover
+only from the matching remote for the active Arena branch; never reset to `main`
+or a branch from an earlier session.
 
 This has happened four times across the project, most recently on 2026-10-10, when
 `HEAD` was found at `a2de9fe` with three pushed commits missing and every file
@@ -49,16 +46,16 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Current state at **2:45**, 2026-10-10.
+Current state at **2:50**, 2026-10-10.
 
 | | |
 |---|---|
-| Written | **52 of 6,236 verses** — 53,210 guidance words, every one at or over its floor |
+| Written | **57 of 6,236 verses** — 58,367 guidance words, every one at or over its floor |
 | Chapter 1 (al-Fātiḥah) | **1:1–1:7 authored** — `data/guidance_001.json`, 38,399 B |
-| Chapter 2 (al-Baqarah) | **2:1–2:45 authored** — `data/guidance_002.json`, 271,977 B |
+| Chapter 2 (al-Baqarah) | **2:1–2:50 authored** — `data/guidance_002.json`, 303,378 B |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped | leads 171–493w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:46** — sequentially, in batches of 5 |
+| Compiled shape, as shipped | leads 171–600w · 3–6 headings · `draws_on` 5–8 sets |
+| **Resume at** | **2:51** — sequentially, in batches of 5 |
 | Branch | session-specific Arena branch (`arena/a6ff99c4-quran-explained` for this run) |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
@@ -66,7 +63,7 @@ Current state at **2:45**, 2026-10-10.
 Everything authored before 2026-10-09 was pulled that day, the same day the length
 bands were raised and the opening-paragraph rule was written, so the layer is
 regenerated against the current contract instead of patched. What exists now
-(1:1–1:7, 2:1–2:45) was compiled and rewritten under that contract and **is** the
+(1:1–1:7, 2:1–2:50) was compiled and rewritten under that contract and **is** the
 reference implementation: read one or two compiled entries in
 `data/guidance_002.json` for shape before writing a spec. Only `data/guidance_112.json`
 is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the
@@ -98,7 +95,7 @@ words of shortfall in total) and:
   1,553 and 5,516 verses respectively before you notice.
 - `python3 tools/progress.py --next` says which mode the resume verse belongs to, and names
   the next authored-only one in the surah, so a batch can be planned around it.
-- No verse authored so far (1:1–1:7, 2:1–2:45) is flagged; the flag has been checked against
+- No verse authored so far (1:1–1:7, 2:1–2:50) is flagged; the flag has been checked against
   the payload, so nothing already shipped needs rewriting. If a future change to the bands
   or to the sets flags something already compiled, **re-author that verse**, do not delete it
   and do not leave it.
