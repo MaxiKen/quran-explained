@@ -105,8 +105,14 @@ def _overlap(a, b):
     return n <= 4 or a == b or (n >= 5 and (a.startswith(b) or b.startswith(a)))
 
 
-def prov_ok(sent, allowed_src):
-    """Every content word of my connective must exist in the sources I selected."""
+def prov_ok(sent, allowed_src, ok_words=frozenset()):
+    """Every content word of my connective must exist in the sources I selected.
+
+    `ok_words` excuses the refusal list for words the app's OWN translation uses:
+    quoting "Remember when your Lord said to the angels" is not me attributing a
+    claim to someone, and the verse cannot be walked phrase by phrase if a word in
+    the verse's own wording is unusable. Only the translation is passed here, never
+    the spliced sentences, so an unsourced attribution is still refused."""
     bad = []
     for w in re.findall(r"[A-Za-z][A-Za-zʿ’']{2,}", sent):
         lw = canon(w)
@@ -115,7 +121,7 @@ def prov_ok(sent, allowed_src):
         if not any(_overlap(c, a) for c in _stems(lw) for a in allowed_src):
             bad.append(w)
     for w in re.findall(r"[A-Za-z]+", sent):
-        if w.lower() in BANNED:
+        if w.lower() in BANNED and canon(w) not in ok_words:
             bad.append('BANNED:' + w)
     return bad
 
@@ -237,7 +243,7 @@ def compile_verses(surah, spec, write=True, title=None):
                     if len(val.split()) > cap:
                         errs.append(f'connective over the {cap}w budget for its position: '
                                     + val[:40])
-                    bad = prov_ok(val, allowed)
+                    bad = prov_ok(val, allowed, tr)
                     if bad:
                         errs.append(f'connective not traceable to the sources: {bad[:6]} '
                                     '— this text was NOT written into the verse; if it is '
@@ -246,7 +252,7 @@ def compile_verses(surah, spec, write=True, title=None):
                     buf.append(val.strip())
             body = ' '.join(buf).strip()
             if head:
-                bad = prov_ok(head, allowed)
+                bad = prov_ok(head, allowed, tr)
                 if bad:
                     errs.append(f'heading not traceable: {head!r} {bad[:4]}')
                 text.append('**%s**' % (head if head.endswith('.') else head + '.'))
