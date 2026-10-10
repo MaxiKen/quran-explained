@@ -111,6 +111,13 @@ running short is.
 npm i jsdom --prefix /tmp/apptest          # once per session; /tmp does not persist
 export NODE_PATH=/tmp/apptest/node_modules
 python3 tools/verify_verse.py <surah> --all
+**Serve the preview with `python3 tools/serve.py`**, not `python -m http.server`.
+The stdlib server sends `Last-Modified` and no `Cache-Control`, so a browser may
+answer a repeated request for `sw.js` out of its own HTTP cache — the worker then
+never learns a new version exists, never activates, and keeps serving the payload it
+cached. `tools/serve.py` answers every request `no-store`, which is the only sane
+setting for a preview whose purpose is to show content that was just appended.
+
 node tools/tests/style-check.js
 node tools/tests/sets-integrity.js
 for h in sources-all guidance-001; do      # the two that boot the app in jsdom
