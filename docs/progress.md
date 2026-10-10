@@ -151,7 +151,8 @@ c833757  Keep plan.json minified (1 MB display limit)
 3d0923e  Pick the fallback control sūrah dynamically
 ```
 
-Branch `arena/2c46b8a2-quran-explained`, PR #89 open against `main`.
+Branch `arena/525a7113-quran-explained`, pushed; no open PR — the layer is empty,
+so there is nothing to merge until a batch is generated.
 
 **The session this handoff was written in also reset the workspace once.** It
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
@@ -159,9 +160,10 @@ See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
 ## Verification state
 
-`sources-all` 27/27 · `guidance-112` 28/28 · `guidance-001` 47/47 ·
-`guidance-002` 564/564 · `style-check` 18/18 · `tier_verses.py --verify` exit 0
-(71.8% exact, 91% on Tier A, 1.5% severe). 684 checks total.
+`style-check` 3/3 (contract only — three empty placeholders) ·
+`sets-integrity` 12/12 · `sources-all` 30/30 · `guidance-001` 13/13 ·
+`verify_verse --all` reports nothing to check. The harnesses for sūrahs 2 and 112
+were retired with the payloads they tested.
 
 ## The house format (set 2026-10-09)
 

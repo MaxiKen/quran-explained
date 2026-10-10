@@ -39,13 +39,11 @@ classifier accuracy drops below 70% or severe misses exceed 3%.
 
 ## Adding a harness for a new sūrah
 
-Copy the closest existing one:
-
-- **fully authored sūrah** → copy `guidance-001.js`
-- **partially authored** → copy `guidance-002.js`
-
-Change: `S`, `LO`, `HI`, `LAST`; the translation-fragment `pairs`; and the
-`NAMES` list of authorities you cited.
+Copy `guidance-001.js`, which is the one that survives. Change the surah number,
+the verse range, the translation-fragment pairs and the `NAMES` list of authorities
+you cited. It runs in two states and asserts in both: with verses authored it
+checks prose, layout, floors and attribution; with the chapter empty it checks the
+payload contract and that every source with text renders directly.
 
 ## What the guidance harnesses check
 
@@ -87,9 +85,9 @@ cite itself. They are matched against the payload's `sources[].label`.
 ## The control sūrah is chosen dynamically
 
 The fallback checks need a sūrah with no guidance. **Do not hard-code one.**
-Hard-coding sūrah 1 broke `guidance-112.js`; hard-coding sūrah 2 broke
-`guidance-001.js`. Both now pick the first sūrah that genuinely has no guidance
-file:
+Hard-coding sūrah 1 broke one harness and hard-coding sūrah 2 broke another (both
+since retired with the payloads they tested). `guidance-001.js` now picks the first
+sūrah that genuinely has no guidance file instead of naming one:
 
 ```js
 const CTL = await w.eval(`(async()=>{
