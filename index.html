@@ -409,9 +409,14 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('./sw.js')
+        /* updateViaCache: 'none' — the payload files grow verse by verse, and a
+           sw.js answered from the browser's HTTP cache means the old worker keeps
+           serving the old payload and nothing the server publishes is ever seen.
+           Always revalidate the script, and ask for an update on this load. */
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(function(reg) {
             console.log('[App] SW registered. Scope:', reg.scope);
+            if (reg.update) reg.update();
             reg.addEventListener('updatefound', function() {
               var nw = reg.installing;
               if (!nw) return;
