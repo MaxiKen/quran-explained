@@ -281,11 +281,14 @@ def compile_verses(surah, spec, write=True, title=None):
                          'also', 'whom', 'why', 'how'}
                 hk = set(w.lower()[:5] for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", head)
                          if w.lower() not in HSTOP)
-                sk = set(w.lower()[:5] for x in block_sents
-                         for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", x))
-                if hk and not (hk & sk):
-                    errs.append(f'heading {head!r} has no proof of relevance: none of the sources '
-                                'it cites contain its key terms, so the heading or the sources are wrong')
+                # real content, not one term: at least two cited sentences carry a key term,
+                # and together they run to at least 60 words, so the heading is actually answered.
+                on_topic = [x for x in block_sents
+                            if hk & set(w.lower()[:5] for w in re.findall(r"[A-Za-zʿʾāīūṣḍṭẓḥġḫ]{4,}", x))]
+                topic_words = sum(len(x.split()) for x in on_topic)
+                if hk and (len(on_topic) < 2 or topic_words < 60):
+                    errs.append(f'heading {head!r} is not answered by its sources: {len(on_topic)} cited '
+                                f'sentence(s) carry its key terms, {topic_words}w in all; need 2+ and 60w+')
             if head and not block_sents:
                 errs.append(f'heading {head!r} cites no source sentence, so it has no evidence')
             if head:
