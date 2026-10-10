@@ -147,6 +147,14 @@ and their disagreement, the occasion, and theology all go under the headings, wi
 more detail than the lead can carry. A reader who stops at the end of the lead has
 understood the verse; a reader who wants authority goes on.
 
+**The opening paragraph is plain explanation only. This is a major rule.**
+- It quotes only parts of the translation, phrase by phrase, and explains what each part means.
+- It states what is learnt in a neutral, plain tone, as Tafsīr al-Saʿdī does.
+- It connects the verse to the verse before or after it, or to the theme, where that helps.
+- It contains **no sources, no attributions, no evidence, and no source names**. No "the Jalālayn reads", no "Ibn Kathīr says", no "the commentators", no "according to". Those belong under the headings.
+
+**Headings may be questions.** Under each heading, the evidence comes from the sources and answers that question. Evidence about a source's reading, a hadith, a cross-reference or a disagreement goes only under a heading.
+
 **The verse belongs to the app, the walk belongs to the commentary.** The verse card
 (`.modal-verse-translation`, `.ebook-translation`) shows the Arabic and the English
 translation above the commentary, and it is **not** to be suppressed for guided verses —
