@@ -34,3 +34,10 @@ Rules that were stated here and still hold, restated where they belong:
 | length must sit within 25% of target | rejected — a floor, never a band; `docs/style.md` §2 |
 | "do not fabricate content" | kept and strengthened — compiled verses cannot express an unsourced claim at all; `docs/voice.md` |
 | build with `scripts/build_tafsir_json.py` | no such script in this checkout — the app is static and served as it is; guidance JSON is written by `tools/compile_guidance.py` |
+
+## Heading proof and the retired auto fill (2026-10-10)
+
+- **Every heading is written from its own sources.** A heading is a question or a part of the verse that needs explaining. The sentences cited under it must answer that question or explain that part, in full.
+- **Real content, not a term.** The gate requires each heading to cite at least two source sentences carrying its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage; the writer must still read the sources in full.
+- **The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading such as "What else the same passage holds". A `+auto` line fails the gate.
+- **The sources are read completely before writing.** Comprehensive, detailed and helpful is the standard.

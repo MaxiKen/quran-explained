@@ -158,3 +158,10 @@ harshest handling rules:
 Both sets are optional *inputs*: `draws_on` asks for 5 of them at tiers A and B,
 capped by what covers the verse. Nobody is ever failed for a source that has
 nothing to say.
+
+## Heading proof and the retired auto fill (2026-10-10)
+
+- **Every heading is written from its own sources.** A heading is a question or a part of the verse that needs explaining. The sentences cited under it must answer that question or explain that part, in full.
+- **Real content, not a term.** The gate requires each heading to cite at least two source sentences carrying its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage; the writer must still read the sources in full.
+- **The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading such as "What else the same passage holds". A `+auto` line fails the gate.
+- **The sources are read completely before writing.** Comprehensive, detailed and helpful is the standard.

@@ -175,3 +175,10 @@ you push, so the next session starts from truth rather than from `git log`. Both
 are cheap to get wrong and both are the first thing a new session reads. If you
 added a set or changed a band, re-run `tools/tier_verses.py` and record the
 tier-change count in the commit message.
+
+## Heading proof and the retired auto fill (2026-10-10)
+
+- **Every heading is written from its own sources.** A heading is a question or a part of the verse that needs explaining. The sentences cited under it must answer that question or explain that part, in full.
+- **Real content, not a term.** The gate requires each heading to cite at least two source sentences carrying its key terms, totalling at least 60 words. A key term alone is not enough. The gate measures coverage; the writer must still read the sources in full.
+- **The automatic fill is retired.** The compiler no longer appends unlabelled sentences under a generic heading such as "What else the same passage holds". A `+auto` line fails the gate.
+- **The sources are read completely before writing.** Comprehensive, detailed and helpful is the standard.
