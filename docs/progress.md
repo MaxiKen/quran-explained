@@ -5,32 +5,30 @@ is authoritative; this page is a convenience snapshot for the next session.
 
 | | |
 |---|---|
-| Written | **270 of 6,236 verses** (4.33%) |
-| Planned guidance represented | **383,820 of 5,902,150 words** (6.50%) |
-| Complete guidance files | `guidance_001.json` (7 verses) and `guidance_002.json` (263 verses) |
+| Written | **280 of 6,236 verses** (4.49%) |
+| Planned guidance represented | **399,690 of 5,902,150 words** (6.77%) |
+| Complete guidance files | `guidance_001.json` (7 verses) and `guidance_002.json` (273 verses) |
 | Empty, intentional fallback | `guidance_112.json` |
-| Next verse | **2:264**, compiled |
-| Remaining in Sūrah 2 | **23 verses** (2:264–2:286) |
+| Next verse | **2:274**, compiled |
+| Remaining in Sūrah 2 | **13 verses** (2:274–2:286) |
 | Working branch | `arena/dce9f1ba-quran-explained` |
 
-## Latest batch: 2:254–2:263
+## Latest batch: 2:264–2:273
 
-This ten-verse mixed batch includes authored-only verses **2:254** and **2:257**,
-which were composed from their complete source blocks, and compiled verses
-**2:255–256** and **2:258–263**, which were built from curated source selections.
-The emitted entries are 1,475, 1,831, 2,468, 1,402, 1,817, 1,773, 1,928, 1,947,
-1,830, and 1,337 words respectively. Each records 6–8 source sets. The
-service-worker cache version is `quran-reader-v1.5.3-2-263`.
+This compiled ten-verse batch uses curated, heading-relevant source selections.
+The emitted entries are 1,688, 1,789, 1,996, 2,723, 1,250, 1,211, 1,102,
+1,472, 1,793, and 1,507 words respectively. Each records 6–7 source sets. The
+service-worker cache version is `quran-reader-v1.5.3-2-273`.
 
 ## Next work
 
-Continue sequentially with **2:264**. Verses 2:264–2:286 are all eligible for
-the compiled workflow; re-dump their source packets, curate heading-relevant
+Continue sequentially with **2:274**. Verses 2:274–2:286 are eligible for the
+compiled workflow; re-dump their source packets, curate heading-relevant
 references, dry-compile, and gate each completed batch before it is merged.
 
 ## Verification for the latest batch
 
-- `python3 tools/verify_verse.py 2 --all`: **263/263** verses pass.
+- `python3 tools/verify_verse.py 2 --all`: **273/273** verses pass.
 - `node tools/tests/style-check.js`: **9/9** checks pass.
 - Render gate: **23/23** checks pass.
 - Set integrity: **12/12** checks pass.
