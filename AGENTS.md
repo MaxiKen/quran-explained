@@ -67,7 +67,7 @@ Snapshot after the 2026-10-11 compiled batch 3:8–3:17 on `arena/dce9f1ba-quran
 Everything authored before 2026-10-09 was pulled that day, the same day the length
 bands were raised and the opening-paragraph rule was written, so the layer is
 regenerated against the current contract instead of patched. What exists now
-(1:1–1:7, 2:1–2:253) was compiled and rewritten under that contract and **is** the
+(1:1–1:7, 2:1–2:286) was compiled and rewritten under that contract and **is** the
 reference implementation: read one or two compiled entries in
 `data/guidance_002.json` for shape before writing a spec. Only `data/guidance_112.json`
 is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the

@@ -161,8 +161,8 @@ an empty `{"verses": {}}` placeholder. Superseded text stays in history
 | chapter | verses | layout |
 |---|---:|---|
 | 1 | 7 | complete at the current contract |
-| 2 | 253 | 2:1–2:253 completed at the current contract |
-| 3 | 0 | not yet started |
+| 2 | 286 | complete, 2:1–2:286 at the current contract |
+| 3 | 17 | 3:1–3:17 completed at the current contract |
 | 112 | 0 | deliberate empty fallback placeholder |
 
 Use `python3 tools/progress.py --next` rather than this table to choose the next verse.
