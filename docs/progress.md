@@ -1,6 +1,13 @@
 # Progress
 
-**105 verses are authored** — 1:1–1:7 and 2:1–2:98. The 2026-10-11 run added 2:49–2:98
+**356 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and 3:1–3:63.
+The 2026-10-11 run on `arena/fec53650-quran-explained` added **3:14–3:63** in five
+ten-verse batches (3:14–23, 3:24–33, 3:34–43, 3:44–53, 3:54–63; 59,600 words), each
+batch compiled from the packets, gated, committed and pushed on its own. A preceding
+run on the same day completed chapter 2 and added 2:49–2:98; the notes below it for
+2:49–2:98 still describe that loop, which is unchanged.
+
+The earlier account of the layer is kept for the record: the 2026-10-11 run added 2:49–2:98
 in five batches of ten (2:53, 2:90 and 2:96 authored because their available material is
 under their floor, 2:80 authored for the same reason although the plan does not mark it
 authored-only, the other forty-six compiled straight from the packets). The first 48 verses of the surah
@@ -14,11 +21,12 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **105 of 6,236 verses** — 131,186 words (668–2,206w an entry), every one at or over its floor |
+| Written | **356 of 6,236 verses** — 463,085 words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:99** — next authored-only is 2:119 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (98); `_112.json` still a placeholder |
+| Resume at | **3:64** — next authored-only is 3:78 |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (63); `_112.json` still a placeholder |
+| Chapter 3 shape (3:14–3:63, this run) | leads 172–413w (20–28% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 881–1,798w |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
@@ -163,12 +171,19 @@ so there is nothing to merge until a batch is generated.
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state (as of the 2026-10-09 clear — see the table at the top for now)
+## Verification state (after 3:54–3:63, 2026-10-11)
 
-`style-check` 3/3 (contract only — three empty placeholders) ·
-`sets-integrity` 12/12 · `sources-all` 30/30 · `guidance-001` 13/13 ·
-`verify_verse --all` reports nothing to check. The harnesses for sūrahs 2 and 112
-were retired with the payloads they tested.
+`verify_verse 3 --all` **63/63** · `verify_verse 3 --range 14-63` **50/50** ·
+`style-check` **9/9** · `sets-integrity` **12/12** (6,236 verses) ·
+browser harness against `tools/serve.py` on :8090 — `guidance-range` **32/32**,
+`sources-all` **30/30**, `guidance-001` **52/52**.
+Every batch was gated the same way before its push; the numbers above are the
+final payload.
+
+The earlier 2026-10-09 line is kept for the record: `style-check` 3/3 (contract
+only — three empty placeholders) · `sets-integrity` 12/12 · `sources-all` 30/30 ·
+`guidance-001` 13/13 · `verify_verse --all` reported nothing to check, because the
+harnesses for sūrahs 2 and 112 were retired with the payloads they tested.
 
 ## The house format (set 2026-10-09)
 
