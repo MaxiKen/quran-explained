@@ -53,13 +53,13 @@ Snapshot at the end of the 2026-10-11 run on `arena/89908cd2-quran-explained` (2
 
 | | |
 |---|---|
-| Written | **179 of 6,236 verses** — 242,239 words |
+| Written | **189 of 6,236 verses** — 260,345 words |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
-| Chapter 2 (al-Baqarah) | **2:1–2:179** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
+| Chapter 2 (al-Baqarah) | **2:1–2:189** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
 | Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 189–605w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:180** — next authored-only is **2:236** (3 left in the surah) |
+| **Resume at** | **2:190** — next authored-only is **2:236** (3 left in the surah) |
 | Branch | `arena/89908cd2-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
