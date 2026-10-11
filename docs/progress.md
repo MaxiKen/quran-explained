@@ -1,8 +1,8 @@
 # Progress
 
-**75 verses are authored** — 1:1–1:7 and 2:1–2:68. The 2026-10-11 run added 2:49–2:68
-in two batches of ten (2:53 authored because its available material is under its floor,
-the other nineteen compiled straight from the packets). The first 48 verses of the surah
+**85 verses are authored** — 1:1–1:7 and 2:1–2:78. The 2026-10-11 run added 2:49–2:78
+in three batches of ten (2:53 authored because its available material is under its floor,
+the other twenty-nine compiled straight from the packets). The first 48 verses of the surah
 were compiled on 2026-10-10 straight
 from the eight sets with `tools/compile_guidance.py`, then **rewritten the same day**
 against the lead rule that landed with them: every verse now opens by walking its own
@@ -13,11 +13,11 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **75 of 6,236 verses** — 91,497 words (668–1,931w an entry), every one at or over its floor |
+| Written | **85 of 6,236 verses** — 102,807 words (668–1,931w an entry), every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **2:69** |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (68); `_112.json` still a placeholder |
+| Resume at | **2:79** |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (78); `_112.json` still a placeholder |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
