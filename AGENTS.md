@@ -11,10 +11,10 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
+git rev-parse HEAD origin/arena/dce9f1ba-quran-explained   # the two must match
 python3 tools/progress.py --next          # THE resume point — authoritative, from the data
 node tools/tests/style-check.js           # 9/9
-BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 23/23, the render gate
 node tools/tests/sets-integrity.js        # 12/12
 python3 tools/verify_verse.py 2 --all     # 35/35
 
@@ -36,8 +36,8 @@ If the working tree looks wrong or `git log` is behind the remote, do **not**
 re-do the work — recover it:
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/dce9f1ba-quran-explained
+git reset --hard origin/arena/dce9f1ba-quran-explained
 ```
 
 This has happened four times across the project, most recently on 2026-10-10, when
@@ -49,25 +49,25 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the 2026-10-11 run on `arena/89908cd2-quran-explained` (five ten-verse batches, 2:150–2:199; 2:119 was the authored-only verse of batch 1).
+Snapshot after the 2026-10-11 compiled batch 2:250–2:253 on `arena/dce9f1ba-quran-explained`. `tools/progress.py --next` remains authoritative.
 
 | | |
 |---|---|
-| Written | **199 of 6,236 verses** — 277,120 words |
+| Written | **260 of 6,236 verses** — 366,970 planned words |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
-| Chapter 2 (al-Baqarah) | **2:1–2:199** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
+| Chapter 2 (al-Baqarah) | **2:1–2:253** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96, 2:119 and 2:236 authored, the rest compiled |
 | Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
 | Compiled shape, as shipped | leads 189–605w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:200** — next authored-only is **2:236** (3 left in the surah) |
-| Branch | `arena/89908cd2-quran-explained` |
+| **Resume at** | **2:254**, authored-only — next authored-only is **2:257** (2 left in the surah) |
+| Branch | `arena/dce9f1ba-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
 Everything authored before 2026-10-09 was pulled that day, the same day the length
 bands were raised and the opening-paragraph rule was written, so the layer is
 regenerated against the current contract instead of patched. What exists now
-(1:1–1:7, 2:1–2:35) was compiled and rewritten under that contract and **is** the
+(1:1–1:7, 2:1–2:253) was compiled and rewritten under that contract and **is** the
 reference implementation: read one or two compiled entries in
 `data/guidance_002.json` for shape before writing a spec. Only `data/guidance_112.json`
 is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the
@@ -233,7 +233,7 @@ python3 tools/compile_guidance.py 2 /home/user/proto/b006.md
 python3 tools/verify_verse.py 2 --range 36-40
 node tools/tests/style-check.js
 sed -i "s/const CACHE_VERSION = .*/const CACHE_VERSION = 'quran-reader-vX.Y.Z-2-40';/" sw.js
-git add data/guidance_002.json sw.js && git commit && git push origin arena/525a7113-quran-explained
+git add data/guidance_002.json sw.js && git commit && git push origin arena/dce9f1ba-quran-explained
 ```
 
 `PACKET_CAP` (sentences per set shown) and `PACKET_TRUNC` (words per sentence) only
@@ -358,7 +358,7 @@ authored target was withdrawn — it is the pace that produced the quote-stackin
 which got the entire corpus cleared. Volume was the cause, not a side effect.
 
 **Commit and push at the end of every batch**, not only of every session: `git push origin
-arena/525a7113-quran-explained`. The remote branch is the only durable copy.
+arena/dce9f1ba-quran-explained`. The remote branch is the only durable copy.
 
 ---
 
