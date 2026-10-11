@@ -49,18 +49,18 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the 2026-10-10 run on `arena/5b8e4b00-quran-explained` (five batches of 10, compiled).
+Snapshot at the end of the 2026-10-11 run on `arena/c97f62a4-quran-explained` (two batches of 10: 2:49–2:58 and 2:59–2:68; 2:53 authored, the other nineteen compiled).
 
 | | |
 |---|---|
-| Written | **55 of 6,236 verses** — restarted 2026-10-10 from 1:1 |
+| Written | **75 of 6,236 verses** — 91,497 words; restarted 2026-10-10 from 1:1 |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
-| Chapter 2 (al-Baqarah) | **2:1–2:48 compiled** — `data/guidance_002.json` |
+| Chapter 2 (al-Baqarah) | **2:1–2:68** — `data/guidance_002.json`; 2:53 authored, the rest compiled |
 | Chapter 3 (Āl ʿImrān) | **none written** — `data/guidance_003.json` is an empty shell |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped | leads 174–365w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **2:49** — next authored-only verse is **2:53** (6 in the surah) |
-| Branch | `arena/525a7113-quran-explained` |
+| Compiled shape, as shipped | leads 174–560w · 3–6 headings · `draws_on` 5–8 sets |
+| **Resume at** | **2:69** — next authored-only verse is **2:90** (5 in the surah) |
+| Branch | `arena/c97f62a4-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
