@@ -25,7 +25,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   const g = await w.eval('loadGuidanceData(5)');
   ck('guidance_005 loads', !!g);
   const NENT = g ? Object.keys(g.verses).length : 0;
-  ck('5:1-10 are written (10 entries)', NENT === 10, `${NENT} entries`);
+  ck('5:1-20 are written (20 entries)', NENT === 20, `${NENT} entries`);
   if (NENT > 0) {
     ck('written verses run contiguously from 5:1',
        w.eval("Object.keys(loadedGuidance[5].verses).map(Number).sort((a,b)=>a-b).every((v,i)=>v===i+1)"),
@@ -65,6 +65,16 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
       [8, 'bear true testimony'], [8, 'Be just'],
       [9, 'forgiveness and a great reward'],
       [10, 'residents of the Hellfire'],
+      [11, 'held their hands back'], [11, 'put their trust'],
+      [12, 'twelve leaders'], [12, 'a good loan'],
+      [13, 'hardened their hearts'], [13, 'Allah loves the good-doers'],
+      [14, 'hostility and enmity'], [14, 'the Day of Judgment'],
+      [15, 'a light and a clear Book'], [15, 'disregarding much'],
+      [16, 'ways of peace'], [16, 'Straight Path'],
+      [17, 'Allah is the Messiah'], [17, 'Most Capable of everything'],
+      [18, 'the children of Allah'], [18, 'the final return'],
+      [19, 'a deliverer of good news'], [19, 'after an interval'],
+      [20, 'made you sovereign'], [20, 'He raised prophets'],
     ];
     for (const [a, frag] of pairs.filter(([n]) => n <= N)) {
       const t = w.eval(`loadedGuidance[5].verses["${a}"].text`);
