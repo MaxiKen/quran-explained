@@ -33,6 +33,13 @@
       "hi": 30,
       "date": "2026-10-12",
       "commit": "ec1133c"
+    },
+    {
+      "surah": 5,
+      "lo": 31,
+      "hi": 40,
+      "date": "2026-10-12",
+      "commit": "73215bb"
     }
   ],
   "notes": "ch. 5 opening, 50 verses in 5 compiled batches"
