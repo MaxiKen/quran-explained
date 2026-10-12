@@ -1,7 +1,14 @@
 # Progress
 
-**593 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286), chapter 3
-complete (3:1–3:200), and **4:1–4:100** in place in `data/guidance_004.json`.
+**643 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286), chapter 3
+complete (3:1–3:200), and **4:1–4:150** in place in `data/guidance_004.json`.
+
+The sixth 2026-10-12 run on `arena/ea6b2999-quran-explained` advanced sūrah 4 (An-Nisāʾ),
+adding **4:101–4:150** (50 verses, 60,247 words, including authored-only 4:136; bringing
+`data/guidance_004.json` to 150 verses, 206,924 words, 1,232,391 bytes) in five ten-verse
+batches — 4:101–110, 4:111–120, 4:121–130, 4:131–140 and 4:141–150 — each batch generated
+from the packets (with 4:136 composed from `dump_sources.py`), compiled, gated, committed
+and pushed before the next generation started.
 
 The fifth 2026-10-12 run on `arena/ea6b2999-quran-explained` advanced sūrah 4 (An-Nisāʾ),
 adding **4:51–4:100** (50 verses, 67,312 words; bringing `data/guidance_004.json` to 100
@@ -43,12 +50,12 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **593 of 6,236 verses** — 820,980 planned words (13.91%), every one at or over its floor |
+| Written | **643 of 6,236 verses** — 882,480 planned words (14.95%), every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **4:101** — next authored-only is 4:136 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (200), `data/guidance_004.json` (**100**); `_112.json` still a placeholder |
-| Chapter 4 shape (4:51–4:100, this run) | leads 125–428w (20–29% of the entry) · 3 headings · `draws_on` 6–8 sets · entries 606–2,091w |
+| Resume at | **4:151** — no remaining authored-only verses in sūrah 4 (next authored-only is 6:116) |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (200), `data/guidance_004.json` (**150**); `_112.json` still a placeholder |
+| Chapter 4 shape (4:101–4:150, this run) | leads 171–424w (20–27% of the entry) · 3 headings · `draws_on` 7–8 sets · entries 758–2,099w |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
