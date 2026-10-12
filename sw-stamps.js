@@ -19,7 +19,6 @@ const RUN_STAMPS = [
   'v1.6.9-3-200', // 2026-10-12: chapters 1-3 complete, serial era (see docs/runs/serial-era.md)
   // agents append below, one line per landed batch, e.g.:
   // 'ch4-1-10-2026-10-12-agent-a',
-  'ch4-1-10-2026-10-12-agent-85e84330',
 ];
 
 // Payloads a run rewrote or cleared. Dropped from every cache when the new
