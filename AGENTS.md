@@ -49,18 +49,18 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the sixth 2026-10-12 run on `arena/ea6b2999-quran-explained` (five ten-verse batches advancing sūrah 4: 4:101–110, 4:111–120, 4:121–130, 4:131–140, 4:141–150 — **50 verses, 60,247 words**, including authored-only 4:136).
+Snapshot at the end of the seventh 2026-10-12 run on `arena/ea6b2999-quran-explained` (three batches closing sūrah 4: 4:151–160, 4:161–170, 4:171–176 — **26 verses, 30,542 words**, completing An-Nisāʾ at 176 verses, 237,466 words).
 
 | | |
 |---|---|
-| Written | **643 of 6,236 verses** — 882,480 planned words (14.95%) |
+| Written | **669 of 6,236 verses** — 917,010 planned words (15.54%) |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
 | Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes) |
-| Chapter 4 (An-Nisāʾ) | **4:1–4:150 in place** — `data/guidance_004.json` (150 verses, 1,232,391 bytes; 4:136 authored, the rest compiled); 26 verses remain (4:151–4:176) |
+| Chapter 4 (An-Nisāʾ) | **complete, 4:1–4:176** — `data/guidance_004.json` (176 verses, 237,466 words, 1,416,443 bytes; 4:136 authored, the rest compiled) |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped (4:101–4:150) | leads 171–424w (20–27% of the entry) · 3 headings · `draws_on` 7–8 sets · entries 758–2,099w |
-| **Resume at** | **4:151** — no remaining authored-only verses in sūrah 4 (next authored-only is **6:116**) |
+| Compiled shape, as shipped (4:151–4:176) | leads 177–355w (20–26% of the entry) · 3 headings · `draws_on` 6–8 sets · entries 726–1,753w |
+| **Resume at** | **5:1** — 120 verses in sūrah 5 (al-Māʾidah), 171,960 planned words (next authored-only is **6:116**) |
 | Branch | `arena/ea6b2999-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
