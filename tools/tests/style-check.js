@@ -111,10 +111,11 @@ for (const [fn, surah] of files) {
       let at = 0, ordered = true;
       for (const c of chunks) {
         const key = folded(c);
-        const i = tF.indexOf(key);
-        if (i < 0) badLead.push(`${surah}:${a} (lead skips "${c}")`);
-        else if (i < at) ordered = false;
-        else at = i + key.length;
+        let i = tF.indexOf(key, at);
+        if (i < 0) {
+          if (tF.indexOf(key) < 0) badLead.push(`${surah}:${a} (lead skips "${c}")`);
+          else ordered = false;
+        } else at = i + key.length;
       }
       if (!ordered) badLead.push(`${surah}:${a} (lead quotes the verse out of order)`);
       const ital = intro.match(/^\s*\*([^*]+)\*/);
