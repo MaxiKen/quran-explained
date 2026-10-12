@@ -26,6 +26,7 @@ const canon = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 const files = [
   ['guidance_001.json', 1],
   ['guidance_002.json', 2],
+  ['guidance_005.json', 5],
   ['guidance_112.json', 112],
 ];
 
