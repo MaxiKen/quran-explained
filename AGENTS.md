@@ -49,18 +49,18 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the 2026-10-11 run on `arena/fec53650-quran-explained` (five ten-verse batches, 3:14–3:63 — chapter 2 was finished by the preceding run, chapter 3 is now complete through 3:63).
+Snapshot at the end of the third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (four batches closing the sūrah: 3:164–173, 3:174–183, 3:184–193, 3:194–200 — **chapter 3 is complete, 3:1–3:200**).
 
 | | |
 |---|---|
-| Written | **356 of 6,236 verses** — 463,085 words |
+| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%) |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
-| Chapter 3 (Āl ʿImrān) | **3:1–3:63** — `data/guidance_003.json`; 3:1–3:13 from an earlier run, 3:14–3:63 compiled in this run |
+| Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes); 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 · 3:114–3:163 · 3:164–3:200 compiled in the three 2026-10-12 runs (3:78 authored) |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped | leads 172–618w · 3–6 headings · `draws_on` 5–8 sets |
-| **Resume at** | **3:64** — next authored-only is **3:78** |
-| Branch | `arena/fec53650-quran-explained` |
+| Compiled shape, as shipped (3:164–3:200) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
+| **Resume at** | **4:1** — next authored-only is **4:136** |
+| Branch | `arena/fbd3f4f3-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
