@@ -11,10 +11,12 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
-python3 tools/progress.py --next          # THE resume point — authoritative, from the data
+git rev-parse HEAD origin/$(git branch --show-current)   # the two must match
+python3 tools/progress.py --check   # claims coherent, floors met — must pass
+python3 tools/progress.py --next    # THE resume map — authoritative, from the data
+python3 tools/progress.py --runs    # who is working what, right now
 node tools/tests/style-check.js           # 9/9
-BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
+BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # the render gate
 node tools/tests/sets-integrity.js        # 12/12
 python3 tools/verify_verse.py 2 --all     # 35/35
 
@@ -24,20 +26,27 @@ BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/
 BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-001.js
 ```
 
-**`tools/progress.py --next` wins over every number in this file.** The table below is
-a snapshot taken at a commit, and it has been wrong before; the data files are what the
-app renders. Never re-author a verse that `progress.py` reports as done, and never
-clear a payload file because a doc says it is a placeholder — check `data/guidance_*.json`
-first. Never serve the preview with `python -m http.server`: it sends `Last-Modified` and
-no `Cache-Control`, which is how a new payload becomes invisible (`tools/serve.py` is
-`no-store` on everything).
+**Authoring is parallel now** — several runs work different chapters at the same
+time, in any order, and merge to `main` without overwriting one another. Read
+[`docs/parallel.md`](docs/parallel.md) before starting: claim your ranges with
+`tools/progress.py --claim` **before writing**, and touch only the files your run
+owns.
+
+**`tools/progress.py --next` wins over every number in this file.** The state
+below is a snapshot taken at a commit, and it has been wrong before; the data
+files are what the app renders. Never re-author a verse that `progress.py`
+reports as done, and never clear a payload file because a doc says it is a
+placeholder — check `data/guidance_*.json` first. Never serve the preview with
+`python -m http.server`: it sends `Last-Modified` and no `Cache-Control`, which
+is how a new payload becomes invisible (`tools/serve.py` is `no-store` on
+everything).
 
 If the working tree looks wrong or `git log` is behind the remote, do **not**
-re-do the work — recover it:
+re-do the work — recover it (with **your** branch name):
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/<your-id>-quran-explained
+git reset --hard origin/arena/<your-id>-quran-explained
 ```
 
 This has happened four times across the project, most recently on 2026-10-10, when
@@ -49,35 +58,37 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (four batches closing the sūrah: 3:164–173, 3:174–183, 3:184–193, 3:194–200 — **chapter 3 is complete, 3:1–3:200**).
+**The state is generated now.** `docs/progress.md` is built by
+`python3 tools/progress.py --report` from `data/plan.json`, `data/guidance_*.json`
+and the per-run records in `data/runs/` — it documents every agent on record and
+is never hand-edited. The snapshot table that used to live here conflicted with
+itself the moment runs went parallel, so it is gone; run these instead:
 
-| | |
-|---|---|
-| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%) |
-| Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
-| Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
-| Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes); 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 · 3:114–3:163 · 3:164–3:200 compiled in the three 2026-10-12 runs (3:78 authored) |
-| Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped (3:164–3:200) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
-| **Resume at** | **4:1** — next authored-only is **4:136** |
-| Branch | `arena/fbd3f4f3-quran-explained` |
-| Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
-| Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
+```bash
+python3 tools/progress.py --next    # every surah with verses left, resume point, claim status
+python3 tools/progress.py --runs    # every run: branch, claims, batches, word counts
+python3 tools/progress.py 3         # one surah in detail
+```
 
-Everything authored before 2026-10-09 was pulled that day, the same day the length
-bands were raised and the opening-paragraph rule was written, so the layer is
-regenerated against the current contract instead of patched. What exists now
-(1:1–1:7, 2:1–2:35) was compiled and rewritten under that contract and **is** the
-reference implementation: read one or two compiled entries in
-`data/guidance_002.json` for shape before writing a spec; the newest compiled run
-(3:14–3:63, `data/guidance_003.json`) follows the same contract and is the closest
-sample of the current loop. Only `data/guidance_112.json`
-is still an empty `{"verses": {}}` placeholder, which keeps the reader's fallback to the
-tafsīr sets under test; `tools/tests/style-check.js` asserts the payload contract.
-**A chapter with no authored verses is legitimate.**
+Stable facts that do not change per run: 6,236 verses in the plan,
+**5,902,150** planned words (A 1,836 · B 2,920 · C 1,480 verses); 8 source sets
+(6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431); chapters 1–3
+complete through the serial era (`docs/runs/serial-era.md` carries that log).
+`data/guidance_112.json` stays an empty `{"verses": {}}` placeholder, which
+keeps the reader's fallback to the tafsīr sets under test;
+`tools/tests/style-check.js` asserts the payload contract. **A chapter with no
+authored verses is legitimate.**
 
-Authoring order is **chapter 1 → 114**, sequentially. Do not jump ahead or work
-by juzʾ.
+Compiled shape, as shipped (3:164–3:200, the newest compiled run): leads
+207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries
+658–2,054w. Read one or two compiled entries in `data/guidance_002.json` or
+`data/guidance_003.json` for shape before writing a spec.
+
+**Authoring order is free.** Chapters need not be authored 1 → 114 and runs need
+not wait for each other: claim what you are taking with
+`tools/progress.py --claim`, take a different chapter than the other runs, and
+merge when you finish. One chapter has one open claim at a time — that is what
+makes the merges safe (see [`docs/parallel.md`](docs/parallel.md)).
 
 ### Thin verses are authored-only — decided, do not re-open it
 
@@ -234,8 +245,9 @@ python3 tools/compile_guidance.py 2 /home/user/proto/b006.md
 # 4. the finished product, then the batch boundary
 python3 tools/verify_verse.py 2 --range 36-40
 node tools/tests/style-check.js
-sed -i "s/const CACHE_VERSION = .*/const CACHE_VERSION = 'quran-reader-vX.Y.Z-2-40';/" sw.js
-git add data/guidance_002.json sw.js && git commit && git push origin arena/525a7113-quran-explained
+# in sw-stamps.js APPEND one line inside RUN_STAMPS (append-only, merge=union):
+#   'ch2-36-40-2026-10-12-agent-a',
+git add data/guidance_002.json sw-stamps.js data/runs/agent-a.json && git commit && git push origin HEAD
 ```
 
 `PACKET_CAP` (sentences per set shown) and `PACKET_TRUNC` (words per sentence) only
@@ -347,20 +359,24 @@ unprompted, and do not open a second agent to go faster.
 
 ## Pace
 
-**Standing instructions from the maintainer, in force every session:** one agent, no
-fan-out, no parallel sessions, no API batch runner; every source set that covers a verse
-is actually read for that verse; verbatim traceability over speed, with depth and length
-expendable when they conflict; answers short; the corpus stays out of the chat.
+**Standing instructions from the maintainer, in force every run:** several
+authoring runs in parallel is the approved mode since 2026-10-12 (it replaces the
+old "one agent, no fan-out" rule) — but each run works alone and unattended: no
+API batch runner; every source set that covers a verse is actually read for that
+verse; verbatim traceability over speed, with depth and length expendable when
+they conflict; answers short; the corpus stays out of the chat. Ranges are
+claimed before writing and merged without overwriting other runs —
+[`docs/parallel.md`](docs/parallel.md) is the contract.
 
 **20–25 authored verses per run, or 40–60 compiled ones** (in practice **batches of 5**,
-gated at the boundary and pushed there). The old 50-verse The 168 `authored_only` verses are worked in **runs of 5–10** on their
-own — they cannot be compiled, so they are never slotted into a compiled batch to keep
-the pace up.
-authored target was withdrawn — it is the pace that produced the quote-stacking
-which got the entire corpus cleared. Volume was the cause, not a side effect.
+gated at the boundary and pushed there). The old 50-verse authored target was
+withdrawn — it is the pace that produced the quote-stacking which got the entire
+corpus cleared. Volume was the cause, not a side effect. The 168 `authored_only`
+verses are worked in **runs of 5–10** on their own — they cannot be compiled, so
+they are never slotted into a compiled batch to keep the pace up.
 
-**Commit and push at the end of every batch**, not only of every session: `git push origin
-arena/525a7113-quran-explained`. The remote branch is the only durable copy.
+**Commit and push at the end of every batch**, not only of every run: `git push
+origin HEAD`. The remote branch is the only durable copy.
 
 ---
 
@@ -372,14 +388,16 @@ arena/525a7113-quran-explained`. The remote branch is the only durable copy.
 | [`tools/examples/spec_2-31_2-35.md`](tools/examples/spec_2-31_2-35.md) | a worked spec that compiles clean — the shape to copy |
 | [`docs/voice.md`](docs/voice.md) | the register, both production modes, what each tier contains |
 | [`docs/workflow.md`](docs/workflow.md) | the loop, in order |
+| [`docs/parallel.md`](docs/parallel.md) | **the multi-agent contract: claims, file ownership, merge rules** |
 | [`docs/contracts.md`](docs/contracts.md) | JSON payload shapes, and what to touch when one changes |
 | [`docs/sources.md`](docs/sources.md) | the eight tafsīrs, provenance, the Asbāb pollution guard |
 | [`docs/pitfalls.md`](docs/pitfalls.md) | every trap found so far — read before scripting |
 | [`docs/testing.md`](docs/testing.md) | the harnesses and how to run them |
 | [`docs/integrity.md`](docs/integrity.md) | what is required (synthesis) vs forbidden (invention) |
 | [`docs/classifier.md`](docs/classifier.md) | how tiers and targets are fitted |
-| [`docs/batching.md`](docs/batching.md), [`docs/progress.md`](docs/progress.md) | batch sizing; the cleared-layer history |
-| [`HANDOFF.md`](HANDOFF.md) | this session's handoff: what changed and why |
+| [`docs/batching.md`](docs/batching.md), [`docs/progress.md`](docs/progress.md) | batch sizing; the **generated** progress aggregate (every run) |
+| [`docs/runs/`](docs/runs/) | per-run narrative logs (`serial-era.md` is the pre-parallel history) |
+| [`HANDOFF.md`](HANDOFF.md) | what changed recently and why |
 | `tools/serve.py`, `tools/fill_quotes.py` | the `no-store` preview server; pastes each verse's translation into a spec |
 | `ATTRIBUTION.md` | licence and upstream per edition |
 
@@ -394,7 +412,8 @@ document describing an `npm run build` step is describing a different tree.
   or a narrative detail the sources do not supply. No exceptions, ever.
 - Do **not** trim a verse to fit a length band; the target is a floor.
 - Do **not** stack attributed blocks — eight quoted extracts is not commentary.
-- Do **not** change a payload shape without bumping `CACHE_VERSION` in `sw.js`.
+- Do **not** change a payload shape without appending a stamp in `sw-stamps.js`
+  (and, for a rewritten payload, its URL in `RETIRED_PAYLOADS` there).
 - Do **not** type transliterated Arabic as literal Unicode in a script (the gate
   asserts no U+0400–U+04FF; Cyrillic homoglyphs have slipped in before).
 - Do **not** show the corpus to the maintainer. They read the finished product.

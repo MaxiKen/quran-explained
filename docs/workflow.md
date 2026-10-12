@@ -1,22 +1,28 @@
 # Authoring workflow
 
 The loop for one session. Follow it in order; every step exists because
-skipping it caused a problem at least once.
+skipping it caused a problem at least once. If other runs are in flight (they
+usually are — see [parallel.md](parallel.md)), everything below happens inside
+**your claimed ranges** and touches only the files your run owns.
 
 ## 0. Orient
 
 ```bash
 git log --oneline -3
-python3 tools/progress.py --next
+python3 tools/progress.py --runs              # who is working what
+python3 tools/progress.py --next --agent YOU  # the resume points in YOUR claims
+python3 tools/progress.py --next              # or: everything still open, unclaimed included
 ```
 
-`progress.py --next` prints the exact verse to resume at and how much of that
-surah is left. **Do not trust the local working tree to be intact** — see
-[pitfalls.md](pitfalls.md#the-workspace-can-be-reset). If files look wrong:
+`progress.py --next` prints every surah with verses left and who has claimed
+what; `--next --agent YOU` is the exact verse to resume at inside your own
+claims. **Do not trust the local working tree to be intact** — see
+[pitfalls.md](pitfalls.md#the-workspace-can-be-reset). If files look wrong (with
+**your** branch name):
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/<your-id>-quran-explained
+git reset --hard origin/arena/<your-id>-quran-explained
 ```
 
 ## 1. Start the server
@@ -35,7 +41,15 @@ is not `200`, start it before doing anything else.
 
 ## 2. Pick the range
 
-Read [batching.md](batching.md) for the size rule. Then confirm the size:
+**Claim it first** (parallel runs must not collide — see
+[parallel.md](parallel.md)):
+
+```bash
+python3 tools/progress.py --claim <surah>:<lo>-<hi> --agent YOU --branch arena/<your-id>-quran-explained
+```
+
+`--claim` refuses a chapter another run already holds; take a different surah in
+that case. Read [batching.md](batching.md) for the size rule. Then confirm the size:
 
 ```bash
 python3 tools/dump_sources.py <surah> <lo> <hi> | grep "range total"
@@ -161,20 +175,30 @@ and say what it was.
 ```bash
 git add -A
 git commit -m "..."
-git push origin arena/525a7113-quran-explained
+git push origin HEAD
 ```
 
-**Push every run. No exceptions.** The remote branch is the only durable copy;
+**Push every batch. No exceptions.** The remote branch is the only durable copy;
 the workspace has been reset mid-project once already. See
 [batching.md](batching.md#push-after-every-run).
 
 ## 7. Update progress
 
-Update the state table in `AGENTS.md` and the counts in `docs/progress.md` before
-you push, so the next session starts from truth rather than from `git log`. Both
-are cheap to get wrong and both are the first thing a new session reads. If you
-added a set or changed a band, re-run `tools/tier_verses.py` and record the
-tier-change count in the commit message.
+Progress is per-run now; do **not** hand-edit `docs/progress.md` or the state in
+`AGENTS.md` — the aggregate is generated and the state table was retired when
+runs went parallel. In the same change as the batch:
+
+```bash
+python3 tools/progress.py --batch <surah>:<lo>-<hi> --agent YOU --commit $(git rev-parse --short HEAD)
+python3 tools/progress.py --report        # regenerates docs/progress.md
+```
+
+and append one stamp line inside `RUN_STAMPS` in `sw-stamps.js` (append-only —
+never edit anyone else's line). At the end of the run, `--done` the ranges you
+finished or are releasing, then `--report` again before the final push, so the
+next runs — and the maintainer — see truth rather than `git log`. If you added a
+set or changed a band, re-run `tools/tier_verses.py` (coordinated change) and
+record the tier-change count in the commit message.
 
 ## Heading proof and the retired auto fill (2026-10-10)
 

@@ -1,25 +1,29 @@
 # HANDOFF — the state of the project, and why it is in this shape
 
 Read [`AGENTS.md`](AGENTS.md) first: it has the entry commands, the rules and the
-current numbers. This file is the *narrative* — what changed recently and what
-each decision cost, so that a new session does not relitigate them or undo them by
-accident.
+current numbers. This file is the *narrative* — what changed recently and why
+each decision cost what it cost, so that a new session does not relitigate them
+or undo them by accident.
 
 ## What the commentary layer looks like right now
 
-**42 verses, all compiled, all at or over their floors** (42,605 words). 2:21–2:35 was
-added on 2026-10-10 in three batches of five, and 1:1–1:7 and 2:1–2:20 were
-rebuilt on 2026-10-10 from the eight sets with `tools/compile_guidance.py`, and then
-rewritten against the lead rule the maintainer set the same day — 25,576 words,
-`draws_on` of 5–7 sets a verse, nothing hand-written except the opening paragraph,
-which now has to quote and explain every phrase of the translation in order.
-What stood before them (42 verses across chapters 1 and 2) had been deleted on
-2026-10-09 (`626fe14`) the day the bands were raised, because patching 42 verses to a
-new contract is slower than regenerating them. `data/guidance_112.json` is still an
-empty `{"verses": {}}` placeholder, which keeps the reader's fallback path under test.
+**493 verses authored** — 1:1–1:7, all of al-Baqarah (2:1–2:286), all of Āl
+ʿImrān (3:1–3:200). `python3 tools/progress.py --next` is the authority on where
+to resume, not this file; `docs/progress.md` is **generated** and documents
+every run on record. The pre-parallel history (how chapters 1–3 were built,
+batch by batch) is kept in [`docs/runs/serial-era.md`](docs/runs/serial-era.md).
 
-**Resume at 2:36** (251 verses left in surah 2). `python3 tools/progress.py --next` is
-the authority, not this file.
+**2026-10-12: authoring is parallel now.** The maintainer ordered several
+agents working different parts of the commentary at the same time so the corpus
+finishes on time; chapters are no longer authored 1 → 114 in order. The rules
+that make this safe — claim your ranges first, one open claim per chapter, each
+run edits only its own files, `docs/progress.md` regenerated rather than
+hand-merged, `sw-stamps.js` append-only with `merge=union` — are in
+[`docs/parallel.md`](docs/parallel.md). The tooling is
+`tools/progress.py --claim / --batch / --done / --check / --runs / --report`,
+with per-run records in `data/runs/`. This replaced the old "one agent, no
+fan-out" rule and the hand-edited progress/AGENTS state tables, which would have
+conflicted on every merge.
 
 ## The two rules that were added, and why
 
@@ -91,9 +95,13 @@ verse for review before committing the batch.
 
 ## Rules about working here, not about the text
 
-- One agent, no fan-out, no API keys, nothing unattended. Speed comes from the
-  compiler, never from reading fewer sources.
-- Push at the end of every run. The workspace is reset without warning; on
+- Parallel runs are the approved mode since 2026-10-12 (the maintainer's
+  decision): several agents, different chapters, merges to `main` that touch
+  only the merging run's files. Claim before writing; see
+  [`docs/parallel.md`](docs/parallel.md). Each run still works alone: no API
+  keys, nothing unattended. Speed comes from the compiler and from parallelism,
+  never from reading fewer sources.
+- Push at the end of every batch. The workspace is reset without warning; on
   2026-10-10 `HEAD` was found three commits behind the remote with a dirty tree,
   and `git reset --hard origin/<branch>` restored everything that had been pushed.
 - The maintainer reads the finished verse, never the corpus dump. Keep chat to
