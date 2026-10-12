@@ -1,11 +1,14 @@
 # Progress
 
-**356 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and 3:1–3:63.
-The 2026-10-11 run on `arena/fec53650-quran-explained` added **3:14–3:63** in five
-ten-verse batches (3:14–23, 3:24–33, 3:34–43, 3:44–53, 3:54–63; 59,600 words), each
-batch compiled from the packets, gated, committed and pushed on its own. A preceding
-run on the same day completed chapter 2 and added 2:49–2:98; the notes below it for
-2:49–2:98 still describe that loop, which is unchanged.
+**406 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and 3:1–3:113.
+The 2026-10-12 run on `arena/fbd3f4f3-quran-explained` added **3:64–3:113** in five
+ten-verse batches (3:64–73, 3:74–83, 3:84–93, 3:94–103, 3:104–113; 61,313 words), each
+batch compiled from the packets, gated, committed and pushed on its own; two of the five
+were saved as two compile-and-push steps inside the batch, so every verse cleared its
+gate before the next was generated. The 2026-10-11 run on
+`arena/fec53650-quran-explained` added 3:14–3:63 in the same five-batch shape, and a
+preceding run on the same day completed chapter 2 and added 2:49–2:98; the notes below
+for 2:49–2:98 still describe that loop, which is unchanged.
 
 The earlier account of the layer is kept for the record: the 2026-10-11 run added 2:49–2:98
 in five batches of ten (2:53, 2:90 and 2:96 authored because their available material is
@@ -21,12 +24,12 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **356 of 6,236 verses** — 463,085 words, every one at or over its floor |
+| Written | **406 of 6,236 verses** — 524,398 words, every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **3:64** — next authored-only is 3:78 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (63); `_112.json` still a placeholder |
-| Chapter 3 shape (3:14–3:63, this run) | leads 172–413w (20–28% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 881–1,798w |
+| Resume at | **3:114** — next authored-only is 4:136 |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (113); `_112.json` still a placeholder |
+| Chapter 3 shape (3:64–3:113, this run) | leads 161–420w (20–32% of the entry) · 3–6 headings · `draws_on` 6–8 sets · entries 553–1,931w |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
