@@ -24,6 +24,7 @@ const RUN_STAMPS = [
   'ch5-31-40-2026-10-12-ch5-73a7',
   'ch5-41-50-2026-10-12-ch5-73a7',
   // 'ch4-1-10-2026-10-12-agent-a',
+  'ch4-1-10-2026-10-12-agent-85e84330',
 ];
 
 // Payloads a run rewrote or cleared. Dropped from every cache when the new
