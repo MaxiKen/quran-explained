@@ -1,0 +1,17 @@
+{
+  "agent": "agent-68ef593f",
+  "branch": "arena/68ef593f-quran-explained",
+  "status": "in-progress",
+  "claimed": "2026-10-12",
+  "updated": "2026-10-12",
+  "ranges": [
+    {
+      "surah": 7,
+      "lo": 1,
+      "hi": 50,
+      "done": false
+    }
+  ],
+  "batches": [],
+  "notes": "Chapter 7 opening, five requested ten-verse batches"
+}
