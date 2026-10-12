@@ -13,16 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-// ---- Cache version and retired payloads — sw-stamps.js ----------------------
-// RUN_STAMPS and RETIRED_PAYLOADS live in sw-stamps.js, an APPEND-ONLY file
-// marked `merge=union` in .gitattributes: parallel runs each add their own
-// stamp line and the merges concatenate instead of colliding. Never edit this
-// mechanism back into a single version constant — that line was a guaranteed
-// merge conflict the moment authoring went parallel. The stamp convention is
-// documented in docs/parallel.md.
-importScripts('./sw-stamps.js');
-
-const CACHE_VERSION = 'quran-reader-' + RUN_STAMPS.join('-');
+const CACHE_VERSION = 'quran-reader-v1.6.9-3-200';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
@@ -35,6 +26,15 @@ const CACHE_VERSION = 'quran-reader-' + RUN_STAMPS.join('-');
 // them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
 // Chapter data is untouched and still carries across.
 const RETIRE_ALL_TAFSIR = true;
+// Chapters 1 and 2 have been rewritten twice since 2026-10-09 (cleared, then
+// compiled, then recompiled against the lead rule), so a cached copy of either
+// earlier state must not be carried forward by the copy loop in activate. Data
+// files are fetched network-first now, so this list is only about copies that a
+// previous version already left in a cache.
+const RETIRED_PAYLOADS = [
+  './data/guidance_001.json',
+  './data/guidance_002.json'
+];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
 const CORE_ASSETS = [

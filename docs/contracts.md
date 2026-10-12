@@ -95,7 +95,7 @@ absent from a present file. Both paths are tested.
 | change | also required |
 |---|---|
 | new `data/` filename prefix | update the cache regex in `sw.js` (`/\/data\/(?:tafsir_\|chapter_\|guidance_)/`) |
-| any payload content change | append a stamp line in `sw-stamps.js` (`RUN_STAMPS`), or browsers serve stale cached copies |
+| any payload content change | bump `CACHE_VERSION` in `sw.js`, or browsers serve stale cached copies |
 | `tafsir_NNN.json` shape | update `getVerseCommentary`, `getVerseCommentaryAll`, `getCommentaryRange`, `tools/dump_sources.py` and `tools/build_sets.py` |
 | a set added | `tools/build_sets.py` writes `sources`/`sets`; `SETS` in `tools/verse_packet.py` (one letter per set, appended); `SRC` in `tools/tier_verses.py`, then re-run it; `tools/tests/sets-integrity.js` ORDER; the reader's label constants in `js/app.js`; `sw.js` cache version. Card counts must stay derived, not hard-coded — `getVerseCommentaryAll` skips a set with no text, so a selective set changes the count per verse. |
 | `guidance_NNN.json` shape | update `renderGuidanceHtml`, `loadGuidanceData`, `tools/author_template.py`, every harness |
