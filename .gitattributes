@@ -13,9 +13,3 @@ data/guidance_*.json -linguist-generated
 # reproducible. Pretty-printed it is 1.29 MB, over GitHub's 1 MB inline
 # display limit, so it stays minified and diffs are hidden.
 data/plan.json -diff linguist-generated
-
-# The service-worker stamp list is append-only: every run lands its own line,
-# and parallel branches must concatenate rather than collide when they merge.
-# Union merge keeps both sides' added lines — the reason the cache version is
-# derived from this file instead of one shared constant in sw.js.
-sw-stamps.js merge=union
