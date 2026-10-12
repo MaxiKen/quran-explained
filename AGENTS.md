@@ -49,18 +49,19 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (four batches closing the sūrah: 3:164–173, 3:174–183, 3:184–193, 3:194–200 — **chapter 3 is complete, 3:1–3:200**).
+Snapshot on `arena/fb54d4f6-quran-explained` after the chapter 7 batch 2 checkpoint on 2026-10-12. The user explicitly assigned 50 chapter 7 verses in five batches, which is a task-specific exception to the normal sequential resume rule. The canonical `progress.py --next` cursor remains 4:1.
 
 | | |
 |---|---|
-| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%) |
+| Written | **513 of 6,236 verses** — 692,000 planned words (8.23%) |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
 | Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes); 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 · 3:114–3:163 · 3:164–3:200 compiled in the three 2026-10-12 runs (3:78 authored) |
+| Chapter 7 (al-Aʿrāf) | **7:1–7:20** — `data/guidance_007.json`; 20/206 verses, the first two batches of the user-assigned five-batch task |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped (3:164–3:200) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
-| **Resume at** | **4:1** — next authored-only is **4:136** |
-| Branch | `arena/fbd3f4f3-quran-explained` |
+| Compiled shape, current batch (7:11–7:20) | leads 119–407w · 3–5 headings · `draws_on` 5–6 sets · entries 414–1,125w |
+| **Resume at** | Canonical sequential cursor **4:1** (next authored-only **4:136**); assigned chapter 7 task continues at **7:21–7:30** |
+| Branch | `arena/fb54d4f6-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 

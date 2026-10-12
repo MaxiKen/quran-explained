@@ -1,7 +1,10 @@
 # Progress
 
-**493 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and **chapter 3
-complete (3:1–3:200)**.
+**Current snapshot: 513 of 6,236 verses are authored** — 692,000 planned words (11.72%). Chapters 1–3 are complete; chapter 7 has 7:1–7:20.
+
+This branch is carrying the user's task-specific assignment of 50 new chapter 7 verses in five batches of ten. The first two batches now cover 7:1–7:20; the next task batch is 7:21–7:30. The normal sequential cursor remains 4:1 in `tools/progress.py --next`.
+
+---
 
 The third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` closed the sūrah, adding
 **3:164–3:200** (37 verses, 49,264 words) in four batches — 3:164–173, 3:174–183,
@@ -32,12 +35,15 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%), every one at or over its floor |
+| Written | **513 of 6,236 verses** — 692,000 planned words (11.72%), every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **4:1** — next authored-only is 4:136 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (**200**); `_112.json` still a placeholder |
-| Chapter 3 shape (3:164–3:200, this run) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
+| Canonical resume | **4:1** — next authored-only is 4:136 |
+| Task resume | **7:21–7:30**, the third batch of the assigned chapter 7 work |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (**200**), `data/guidance_007.json` (**20**); `_112.json` still a placeholder |
+| Chapter 3 shape (3:164–3:200, prior run) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
+| Chapter 7 shape (7:11–7:20, this batch) | leads 119–407w · 3–5 headings · `draws_on` 5–6 sets · entries 414–1,125w |
+| Branch | `arena/fb54d4f6-quran-explained` |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
