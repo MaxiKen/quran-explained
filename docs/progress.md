@@ -12,10 +12,10 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 
 | | |
 |---|---|
-| Verses authored | **533 of 6,236** (8.55%) |
-| Planned words written | **733,740** of 5,902,150 (12.43%) |
-| Words on disk | 681,479 (every verse at or over its floor: yes) |
-| Remaining | 5,168,410 planned words |
+| Verses authored | **543 of 6,236** (8.71%) |
+| Planned words written | **749,840** of 5,902,150 (12.70%) |
+| Words on disk | 693,959 (every verse at or over its floor: yes) |
+| Remaining | 5,152,310 planned words |
 | Source sets | 8 (six complete + al-Qushayrī 1,287 + al-Wāḥidī 431) |
 | Runs on record | 2 |
 
@@ -28,7 +28,7 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 | 1 | 7/7 | 7,747 | serial-era 1:1-7 (done) |
 | 2 | 286/286 | 383,222 | serial-era 2:1-286 (done) |
 | 3 | 200/200 | 243,336 | serial-era 3:1-200 (done) |
-| 5 | 40/120 | 47,174 | ch5-73a7 5:1-50 (open) |
+| 5 | 50/120 | 59,654 | ch5-73a7 5:1-50 (open) |
 
 ## Runs — every agent on record
 
@@ -38,7 +38,7 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 
 | range | state | verses on disk | words on disk |
 |---|---|---|---|
-| 5:1-50 | open | 40/50 | 47,174 |
+| 5:1-50 | open | 50/50 | 59,654 |
 
 Batches:
 
@@ -46,6 +46,7 @@ Batches:
 - 2026-10-12 · 5:11-20 — `b3899bd`
 - 2026-10-12 · 5:21-30 — `ec1133c`
 - 2026-10-12 · 5:31-40 — `73215bb`
+- 2026-10-12 · 5:41-50 — `37440b7`
 
 > ch. 5 opening, 50 verses in 5 compiled batches
 
@@ -75,7 +76,7 @@ Batches:
 | surah | resume at | verses left | planned words left | authored-only | claim |
 |---|---|---|---|---|---|
 | 4 | 4:1 | 176 | 241,440 | 1 | unclaimed |
-| 5 | 5:41 | 80 | 113,790 | — | ch5-73a7 5:1-50 |
+| 5 | 5:51 | 70 | 97,690 | — | ch5-73a7 5:1-50 |
 | 6 | 6:1 | 165 | 215,020 | 2 | unclaimed |
 | 7 | 7:1 | 206 | 241,580 | 21 | unclaimed |
 | 8 | 8:1 | 75 | 95,820 | 1 | unclaimed |
