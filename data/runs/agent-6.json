@@ -1,0 +1,17 @@
+{
+  "agent": "agent-6",
+  "branch": "arena/d527e2a8-quran-explained",
+  "status": "in-progress",
+  "claimed": "2026-10-12",
+  "updated": "2026-10-12",
+  "ranges": [
+    {
+      "surah": 6,
+      "lo": 1,
+      "hi": 50,
+      "done": false
+    }
+  ],
+  "batches": [],
+  "notes": "ch. 6 batch run, 50 verses in 5 batches"
+}
