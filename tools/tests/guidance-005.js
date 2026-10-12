@@ -25,7 +25,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   const g = await w.eval('loadGuidanceData(5)');
   ck('guidance_005 loads', !!g);
   const NENT = g ? Object.keys(g.verses).length : 0;
-  ck('5:1-20 are written (20 entries)', NENT === 20, `${NENT} entries`);
+  ck('5:1-30 are written (30 entries)', NENT === 30, `${NENT} entries`);
   if (NENT > 0) {
     ck('written verses run contiguously from 5:1',
        w.eval("Object.keys(loadedGuidance[5].verses).map(Number).sort((a,b)=>a-b).every((v,i)=>v===i+1)"),
@@ -75,6 +75,16 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
       [18, 'the children of Allah'], [18, 'the final return'],
       [19, 'a deliverer of good news'], [19, 'after an interval'],
       [20, 'made you sovereign'], [20, 'He raised prophets'],
+      [21, 'Holy Land'], [21, 'become losers'],
+      [22, 'enormously powerful'], [22, 'until they leave'],
+      [23, 'through the gate'], [23, 'Put your trust in Allah'],
+      [24, 'both you and your Lord'], [24, 'staying right here'],
+      [25, 'no control over anyone'], [25, 'rebellious people'],
+      [26, 'forbidden to them for forty years'], [26, 'grieve for the rebellious people'],
+      [27, 'two sons'], [27, 'sincerely devout'],
+      [28, 'I will not raise mine'], [28, 'Lord of all worlds'],
+      [29, 'destined to the Fire'], [29, 'reward of the wrongdoers'],
+      [30, 'convinced himself'], [30, 'becoming a loser'],
     ];
     for (const [a, frag] of pairs.filter(([n]) => n <= N)) {
       const t = w.eval(`loadedGuidance[5].verses["${a}"].text`);

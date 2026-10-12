@@ -20,6 +20,7 @@ const RUN_STAMPS = [
   // agents append below, one line per landed batch, e.g.:
   'ch5-1-10-2026-10-12-ch5-73a7',
   'ch5-11-20-2026-10-12-ch5-73a7',
+  'ch5-21-30-2026-10-12-ch5-73a7',
   // 'ch4-1-10-2026-10-12-agent-a',
 ];
 
