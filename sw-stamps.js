@@ -18,6 +18,11 @@
 const RUN_STAMPS = [
   'v1.6.9-3-200', // 2026-10-12: chapters 1-3 complete, serial era (see docs/runs/serial-era.md)
   // agents append below, one line per landed batch, e.g.:
+  'ch5-1-10-2026-10-12-ch5-73a7',
+  'ch5-11-20-2026-10-12-ch5-73a7',
+  'ch5-21-30-2026-10-12-ch5-73a7',
+  'ch5-31-40-2026-10-12-ch5-73a7',
+  'ch5-41-50-2026-10-12-ch5-73a7',
   // 'ch4-1-10-2026-10-12-agent-a',
   'ch4-1-10-2026-10-12-agent-85e84330',
 ];

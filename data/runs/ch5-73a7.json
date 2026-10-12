@@ -1,0 +1,53 @@
+{
+  "agent": "ch5-73a7",
+  "branch": "arena/73a7ec92-quran-explained",
+  "status": "done",
+  "claimed": "2026-10-12",
+  "updated": "2026-10-12",
+  "ranges": [
+    {
+      "surah": 5,
+      "lo": 1,
+      "hi": 50,
+      "done": true
+    }
+  ],
+  "batches": [
+    {
+      "surah": 5,
+      "lo": 1,
+      "hi": 10,
+      "date": "2026-10-12",
+      "commit": "152498d"
+    },
+    {
+      "surah": 5,
+      "lo": 11,
+      "hi": 20,
+      "date": "2026-10-12",
+      "commit": "b3899bd"
+    },
+    {
+      "surah": 5,
+      "lo": 21,
+      "hi": 30,
+      "date": "2026-10-12",
+      "commit": "ec1133c"
+    },
+    {
+      "surah": 5,
+      "lo": 31,
+      "hi": 40,
+      "date": "2026-10-12",
+      "commit": "73215bb"
+    },
+    {
+      "surah": 5,
+      "lo": 41,
+      "hi": 50,
+      "date": "2026-10-12",
+      "commit": "37440b7"
+    }
+  ],
+  "notes": "ch. 5 opening, 50 verses in 5 compiled batches"
+}
