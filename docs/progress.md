@@ -12,12 +12,12 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 
 | | |
 |---|---|
-| Verses authored | **493 of 6,236** (7.91%) |
-| Planned words written | **675,570** of 5,902,150 (11.45%) |
-| Words on disk | 634,305 (every verse at or over its floor: yes) |
-| Remaining | 5,226,580 planned words |
+| Verses authored | **503 of 6,236** (8.07%) |
+| Planned words written | **691,150** of 5,902,150 (11.71%) |
+| Words on disk | 648,391 (every verse at or over its floor: yes) |
+| Remaining | 5,211,000 planned words |
 | Source sets | 8 (six complete + al-Qushayrī 1,287 + al-Wāḥidī 431) |
-| Runs on record | 1 |
+| Runs on record | 2 |
 
 `tools/progress.py --next` is authoritative for where to resume; `tools/progress.py --runs` lists every run. Chapters need **not** be authored in order — see [`parallel.md`](parallel.md).
 
@@ -28,8 +28,23 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 | 1 | 7/7 | 7,747 | serial-era 1:1-7 (done) |
 | 2 | 286/286 | 383,222 | serial-era 2:1-286 (done) |
 | 3 | 200/200 | 243,336 | serial-era 3:1-200 (done) |
+| 5 | 10/120 | 14,086 | ch5-73a7 5:1-50 (open) |
 
 ## Runs — every agent on record
+
+### ch5-73a7 — in-progress
+
+*branch* `arena/73a7ec92-quran-explained` · *claimed* 2026-10-12 · *updated* 2026-10-12 · *record* [`data/runs/ch5-73a7.json`](../data/runs/ch5-73a7.json)
+
+| range | state | verses on disk | words on disk |
+|---|---|---|---|
+| 5:1-50 | open | 10/50 | 14,086 |
+
+Batches:
+
+- 2026-10-12 · 5:1-10 — `152498d`
+
+> ch. 5 opening, 50 verses in 5 compiled batches
 
 ### serial-era — done
 
@@ -57,7 +72,7 @@ Batches:
 | surah | resume at | verses left | planned words left | authored-only | claim |
 |---|---|---|---|---|---|
 | 4 | 4:1 | 176 | 241,440 | 1 | unclaimed |
-| 5 | 5:1 | 120 | 171,960 | — | unclaimed |
+| 5 | 5:11 | 110 | 156,380 | — | ch5-73a7 5:1-50 |
 | 6 | 6:1 | 165 | 215,020 | 2 | unclaimed |
 | 7 | 7:1 | 206 | 241,580 | 21 | unclaimed |
 | 8 | 8:1 | 75 | 95,820 | 1 | unclaimed |

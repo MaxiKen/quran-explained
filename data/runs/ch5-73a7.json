@@ -12,6 +12,14 @@
       "done": false
     }
   ],
-  "batches": [],
+  "batches": [
+    {
+      "surah": 5,
+      "lo": 1,
+      "hi": 10,
+      "date": "2026-10-12",
+      "commit": "152498d"
+    }
+  ],
   "notes": "ch. 5 opening, 50 verses in 5 compiled batches"
 }
