@@ -25,7 +25,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   const g = await w.eval('loadGuidanceData(5)');
   ck('guidance_005 loads', !!g);
   const NENT = g ? Object.keys(g.verses).length : 0;
-  ck('5:1-30 are written (30 entries)', NENT === 30, `${NENT} entries`);
+  ck('5:1-40 are written (40 entries)', NENT === 40, `${NENT} entries`);
   if (NENT > 0) {
     ck('written verses run contiguously from 5:1',
        w.eval("Object.keys(loadedGuidance[5].verses).map(Number).sort((a,b)=>a-b).every((v,i)=>v===i+1)"),
@@ -85,6 +85,16 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
       [28, 'I will not raise mine'], [28, 'Lord of all worlds'],
       [29, 'destined to the Fire'], [29, 'reward of the wrongdoers'],
       [30, 'convinced himself'], [30, 'becoming a loser'],
+      [31, 'a crow digging'], [31, 'became regretful'],
+      [32, 'as if they killed all of humanity'], [32, 'whoever saves a life'],
+      [33, 'wage war against Allah'], [33, 'exile from the land'],
+      [34, 'repent before you seize them'], [34, 'Most Merciful'],
+      [35, 'seek what brings you closer'], [35, 'so you may be successful'],
+      [36, 'in the world twice over'], [36, 'painful punishment'],
+      [37, 'never be able to'], [37, 'everlasting punishment'],
+      [38, 'male and female thieves'], [38, 'Almighty, All-Wise'],
+      [39, 'mends their ways'], [39, 'All-Forgiving, Most Merciful'],
+      [40, 'belongs to Allah'], [40, 'forgives whoever He wills'],
     ];
     for (const [a, frag] of pairs.filter(([n]) => n <= N)) {
       const t = w.eval(`loadedGuidance[5].verses["${a}"].text`);
