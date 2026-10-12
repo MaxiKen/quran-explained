@@ -25,7 +25,7 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
   const g = await w.eval('loadGuidanceData(5)');
   ck('guidance_005 loads', !!g);
   const NENT = g ? Object.keys(g.verses).length : 0;
-  ck('5:1-40 are written (40 entries)', NENT === 40, `${NENT} entries`);
+  ck('5:1-50 are written (50 entries)', NENT === 50, `${NENT} entries`);
   if (NENT > 0) {
     ck('written verses run contiguously from 5:1',
        w.eval("Object.keys(loadedGuidance[5].verses).map(Number).sort((a,b)=>a-b).every((v,i)=>v===i+1)"),
@@ -95,6 +95,16 @@ vc.on('error', (...a) => errs.push('console.error: ' + a.join(' ')));
       [38, 'male and female thieves'], [38, 'Almighty, All-Wise'],
       [39, 'mends their ways'], [39, 'All-Forgiving, Most Merciful'],
       [40, 'belongs to Allah'], [40, 'forgives whoever He wills'],
+      [41, 'race to disbelieve'], [41, 'tremendous punishment in the Hereafter'],
+      [42, 'consume forbidden gain'], [42, 'loves those who are just'],
+      [43, 'the Torah containing'], [43, 'not true believers'],
+      [44, 'containing guidance and light'], [44, 'are truly the disbelievers'],
+      [45, 'life for a life'], [45, 'are truly the wrongdoers'],
+      [46, 'confirming the Torah revealed before him'], [46, 'a guide and a lesson'],
+      [47, 'let the people of the Gospel judge'], [47, 'are truly the rebellious'],
+      [48, 'a supreme authority on them'], [48, 'regarding your differences'],
+      [49, 'do not follow their desires'], [49, 'indeed rebellious'],
+      [50, 'judgment of pre-Islamic ignorance'], [50, 'people of sure faith'],
     ];
     for (const [a, frag] of pairs.filter(([n]) => n <= N)) {
       const t = w.eval(`loadedGuidance[5].verses["${a}"].text`);
