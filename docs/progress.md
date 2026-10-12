@@ -1,15 +1,22 @@
 # Progress
 
-**456 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and 3:1–3:163.
-A second 2026-10-12 run on `arena/fbd3f4f3-quran-explained` added **3:114–3:163** in five
-ten-verse batches (3:114–123, 3:124–133, 3:134–143, 3:144–153, 3:154–163), each batch
-compiled from the packets, gated, committed and pushed on its own, most saved as two
-compile-and-push steps inside the batch so every verse cleared its gate before the next
-was generated. The first 2026-10-12 run on the same branch added **3:64–3:113** in the
-same five-batch shape (3:64–73, 3:74–83, 3:84–93, 3:94–103, 3:104–113; 61,313 words). The 2026-10-11 run on
-`arena/fec53650-quran-explained` added 3:14–3:63 in the same five-batch shape, and a
-preceding run on the same day completed chapter 2 and added 2:49–2:98; the notes below
-for 2:49–2:98 still describe that loop, which is unchanged.
+**493 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and **chapter 3
+complete (3:1–3:200)**.
+
+The third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` closed the sūrah, adding
+**3:164–3:200** (37 verses, 49,264 words) in four batches — 3:164–173, 3:174–183,
+3:184–193 and the closing 3:194–200 — each batch generated from the packets, compiled,
+gated, committed and pushed before the next generation started (commit chain `1ea32f9`,
+`c7b8b31`, `b6fde27`, `02ad6c3`). With it **Āl ʿImrān is finished**: `data/guidance_003.json`
+now holds all 200 verses at 1,400,147 bytes.
+
+The second 2026-10-12 run on the same branch added **3:114–3:163** in five ten-verse
+batches (3:114–123, 3:124–133, 3:134–143, 3:144–153, 3:154–163), the first added
+**3:64–3:113** in the same five-batch shape (3:64–73, 3:74–83, 3:84–93, 3:94–103,
+3:104–113; 61,313 words). The 2026-10-11 run on `arena/fec53650-quran-explained` added
+3:14–3:63 in the same five-batch shape, and a preceding run on the same day completed
+chapter 2 and added 2:49–2:98; the notes below for 2:49–2:98 still describe that loop,
+which is unchanged.
 
 The earlier account of the layer is kept for the record: the 2026-10-11 run added 2:49–2:98
 in five batches of ten (2:53, 2:90 and 2:96 authored because their available material is
@@ -25,12 +32,12 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **456 of 6,236 verses** — 626,420 planned words (7.31%), every one at or over its floor |
+| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%), every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **3:164** — next authored-only is 4:136 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (163); `_112.json` still a placeholder |
-| Chapter 3 shape (3:114–3:163, this run) | leads 155–420w (20–31% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 610–1,812w |
+| Resume at | **4:1** — next authored-only is 4:136 |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (**200**); `_112.json` still a placeholder |
+| Chapter 3 shape (3:164–3:200, this run) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
@@ -175,14 +182,19 @@ so there is nothing to merge until a batch is generated.
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state (after 3:54–3:63, 2026-10-11)
+## Verification state (after 3:200, 2026-10-12)
 
-`verify_verse 3 --all` **63/63** · `verify_verse 3 --range 14-63` **50/50** ·
-`style-check` **9/9** · `sets-integrity` **12/12** (6,236 verses) ·
-browser harness against `tools/serve.py` on :8090 — `guidance-range` **32/32**,
-`sources-all` **30/30**, `guidance-001` **52/52**.
+`verify_verse 3 --range 164-200` **37/37** · `verify_verse 3 --range 114-163` **50/50** ·
+`verify_verse 3 --range 64-113` **50/50** · `style-check` **9/9** ·
+`sets-integrity` clean (6,236 verses) · browser harness against `tools/serve.py`
+on :8090 — `guidance-range 3` **11/11**.
 Every batch was gated the same way before its push; the numbers above are the
-final payload.
+final payload (200 verses, 1,400,147 bytes, `sw.js` v1.6.9-3-200).
+
+The earlier 2026-10-11 line is kept for the record: `verify_verse 3 --all`
+**63/63** · `verify_verse 3 --range 14-63` **50/50** · `style-check` **9/9** ·
+`sets-integrity` **12/12** (6,236 verses) · `guidance-range` **32/32**,
+`sources-all` **30/30**, `guidance-001` **52/52**.
 
 The earlier 2026-10-09 line is kept for the record: `style-check` 3/3 (contract
 only — three empty placeholders) · `sets-integrity` 12/12 · `sources-all` 30/30 ·

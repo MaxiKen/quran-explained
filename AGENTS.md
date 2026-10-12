@@ -49,17 +49,17 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the second 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (five ten-verse batches, 3:114–3:163 — chapter 3 is now complete through 3:163).
+Snapshot at the end of the third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (four batches closing the sūrah: 3:164–173, 3:174–183, 3:184–193, 3:194–200 — **chapter 3 is complete, 3:1–3:200**).
 
 | | |
 |---|---|
-| Written | **456 of 6,236 verses** — 626,420 planned words (7.31%) |
+| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%) |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
-| Chapter 3 (Āl ʿImrān) | **3:1–3:163** — `data/guidance_003.json`; 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 and 3:114–3:163 compiled in the two 2026-10-12 runs (3:78 authored) |
+| Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes); 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 · 3:114–3:163 · 3:164–3:200 compiled in the three 2026-10-12 runs (3:78 authored) |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped (3:114–3:163) | leads 155–420w (20–31% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 610–1,812w |
-| **Resume at** | **3:164** — next authored-only is **4:136** |
+| Compiled shape, as shipped (3:164–3:200) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
+| **Resume at** | **4:1** — next authored-only is **4:136** |
 | Branch | `arena/fbd3f4f3-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
