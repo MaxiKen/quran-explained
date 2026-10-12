@@ -208,7 +208,7 @@ def compile_verses(surah, spec, write=True, title=None):
         tr = set(canon(w) for w in re.findall(r"[A-Za-z]{4,}", en[a]['ayah_en']))
         # every word of the translation, short ones included, for the refusal list only
         tr_all = set(canon(w) for w in re.findall(r"[A-Za-zÀ-ÿ]{2,}", en[a]['ayah_en']))
-        dropped = 0
+        dropped, dropped_sets = 0, set()
         for blk in [v['pre']] + [x['items'] for x in v['secs']]:
             keep = []
             for kind, val in blk:
@@ -217,15 +217,23 @@ def compile_verses(surah, spec, write=True, title=None):
                     ws = [canon(w) for w in re.findall(r"[A-Za-z]{4,}", sent)]
                     if ws and len(ws) < 22 and tr and len(set(ws) & tr) / len(set(ws)) > 0.5:
                         dropped += 1        # the translation, not commentary: the > line already says it
+                        # …but a set is drawn from, not quoted: when a terse gloss set
+                        # says exactly the translation and nothing else (jalālayn and
+                        # mukhtaṣar on 5:28, which are one sentence each), the drop
+                        # must not also erase the set from draws_on — the curator did
+                        # select it, and the gate asks for the sets SELECTED (2026-10-12)
+                        dropped_sets.add([k for k, L in SETS.items() if val.startswith(L)][0])
                         continue
                 keep.append((kind, val))
             blk[:] = keep
         if dropped:
-            notes_pre = [f'dropped {dropped} selected sentence(s) that only repeat the app translation']
+            notes_pre = [f'dropped {dropped} selected sentence(s) that only repeat the app '
+                         f'translation — their sets stay in draws_on']
         else:
             notes_pre = []
         used_refs = {val for _k, items in ([('', v['pre'])] + [(x['head'], x['items']) for x in v['secs']])
                      for kind, val in items if kind == 'ref'}
+        used |= dropped_sets
         for s in v['secs']:
             blocks.append((s['head'], s['items']))
         paras, text = [], []
