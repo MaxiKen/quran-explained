@@ -26,6 +26,13 @@
       "hi": 20,
       "date": "2026-10-12",
       "note": "compiled/authored; all batch checks passed"
+    },
+    {
+      "surah": 7,
+      "lo": 21,
+      "hi": 30,
+      "date": "2026-10-12",
+      "note": "compiled 7:21-26 and 7:28-30; retained authored 7:27; all batch checks passed"
     }
   ],
   "notes": "Chapter 7 opening, five requested ten-verse batches"
