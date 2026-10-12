@@ -28,17 +28,17 @@ Generated 2026-10-12 by `tools/progress.py --report`.
 | 1 | 7/7 | 7,747 | serial-era 1:1-7 (done) |
 | 2 | 286/286 | 383,222 | serial-era 2:1-286 (done) |
 | 3 | 200/200 | 243,336 | serial-era 3:1-200 (done) |
-| 5 | 50/120 | 59,654 | ch5-73a7 5:1-50 (open) |
+| 5 | 50/120 | 59,654 | ch5-73a7 5:1-50 (done) |
 
 ## Runs — every agent on record
 
-### ch5-73a7 — in-progress
+### ch5-73a7 — done
 
 *branch* `arena/73a7ec92-quran-explained` · *claimed* 2026-10-12 · *updated* 2026-10-12 · *record* [`data/runs/ch5-73a7.json`](../data/runs/ch5-73a7.json)
 
 | range | state | verses on disk | words on disk |
 |---|---|---|---|
-| 5:1-50 | open | 50/50 | 59,654 |
+| 5:1-50 | done | 50/50 | 59,654 |
 
 Batches:
 
@@ -76,7 +76,7 @@ Batches:
 | surah | resume at | verses left | planned words left | authored-only | claim |
 |---|---|---|---|---|---|
 | 4 | 4:1 | 176 | 241,440 | 1 | unclaimed |
-| 5 | 5:51 | 70 | 97,690 | — | ch5-73a7 5:1-50 |
+| 5 | 5:51 | 70 | 97,690 | — | unclaimed |
 | 6 | 6:1 | 165 | 215,020 | 2 | unclaimed |
 | 7 | 7:1 | 206 | 241,580 | 21 | unclaimed |
 | 8 | 8:1 | 75 | 95,820 | 1 | unclaimed |

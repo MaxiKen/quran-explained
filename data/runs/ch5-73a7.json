@@ -1,7 +1,7 @@
 {
   "agent": "ch5-73a7",
   "branch": "arena/73a7ec92-quran-explained",
-  "status": "in-progress",
+  "status": "done",
   "claimed": "2026-10-12",
   "updated": "2026-10-12",
   "ranges": [
@@ -9,7 +9,7 @@
       "surah": 5,
       "lo": 1,
       "hi": 50,
-      "done": false
+      "done": true
     }
   ],
   "batches": [
