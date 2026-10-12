@@ -217,11 +217,6 @@ def compile_verses(surah, spec, write=True, title=None):
                     ws = [canon(w) for w in re.findall(r"[A-Za-z]{4,}", sent)]
                     if ws and len(ws) < 22 and tr and len(set(ws) & tr) / len(set(ws)) > 0.5:
                         dropped += 1        # the translation, not commentary: the > line already says it
-                        # The set was still DRAWN ON even when its sentence is dropped. Some
-                        # verses (5:28: al-Jalālayn and al-Mukhtaṣar) hold nothing but a short
-                        # gloss that restates the translation, so without recording the set the
-                        # verse could never name the five sets the gate requires (2026-10-12).
-                        used.add([k for k, L in SETS.items() if val.startswith(L)][0])
                         continue
                 keep.append((kind, val))
             blk[:] = keep
