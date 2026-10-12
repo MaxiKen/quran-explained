@@ -11,7 +11,7 @@ a previous chat: every rule, tool and number below is in the repo and pushed.
 ## Start here
 
 ```bash
-git rev-parse HEAD origin/arena/525a7113-quran-explained   # the two must match
+git rev-parse HEAD origin/arena/ea6b2999-quran-explained   # the two must match
 python3 tools/progress.py --next          # THE resume point — authoritative, from the data
 node tools/tests/style-check.js           # 9/9
 BASE=http://127.0.0.1:8090 NODE_PATH=/tmp/apptest/node_modules node tools/tests/guidance-range.js  # 22/22, the render gate
@@ -36,8 +36,8 @@ If the working tree looks wrong or `git log` is behind the remote, do **not**
 re-do the work — recover it:
 
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/ea6b2999-quran-explained
+git reset --hard origin/arena/ea6b2999-quran-explained
 ```
 
 This has happened four times across the project, most recently on 2026-10-10, when
@@ -49,18 +49,19 @@ rule it teaches is the one that saved the project: **push at the end of every ru
 
 ## Current state
 
-Snapshot at the end of the third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` (four batches closing the sūrah: 3:164–173, 3:174–183, 3:184–193, 3:194–200 — **chapter 3 is complete, 3:1–3:200**).
+Snapshot at the end of the fourth 2026-10-12 run on `arena/ea6b2999-quran-explained` (five ten-verse batches opening sūrah 4: 4:1–10, 4:11–20, 4:21–30, 4:31–40, 4:41–50 — **50 verses, 80,421 words**).
 
 | | |
 |---|---|
-| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%) |
+| Written | **543 of 6,236 verses** — 750,610 planned words (12.72%) |
 | Chapter 1 (al-Fātiḥah) | **complete, 1:1–1:7** — `data/guidance_001.json` |
 | Chapter 2 (al-Baqarah) | **complete, 2:1–2:286** — `data/guidance_002.json`; 2:53, 2:80, 2:90, 2:96 and 2:119 authored, the rest compiled |
-| Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes); 3:1–3:13 from an earlier run, 3:14–3:63 from the 2026-10-11 run, 3:64–3:113 · 3:114–3:163 · 3:164–3:200 compiled in the three 2026-10-12 runs (3:78 authored) |
+| Chapter 3 (Āl ʿImrān) | **complete, 3:1–3:200** — `data/guidance_003.json` (200 verses, 1,400,147 bytes) |
+| Chapter 4 (An-Nisāʾ) | **4:1–4:50 in place** — `data/guidance_004.json` (50 verses, 472,818 bytes); 126 verses remain (4:51–4:176) |
 | Chapter 112 (al-Ikhlāṣ) | empty placeholder file — deliberate, it tests the fallback |
-| Compiled shape, as shipped (3:164–3:200) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
-| **Resume at** | **4:1** — next authored-only is **4:136** |
-| Branch | `arena/fbd3f4f3-quran-explained` |
+| Compiled shape, as shipped (4:1–4:50) | leads 225–497w (20–24% of the entry) · 3–4 headings · `draws_on` 6–8 sets · entries 1,020–2,414w |
+| **Resume at** | **4:51** — next authored-only is **4:136** |
+| Branch | `arena/ea6b2999-quran-explained` |
 | Source sets | 8 (6 complete + al-Qushayrī on 1,287 verses + al-Wāḥidī on 431) |
 | Plan | 6,236 verses, **5,902,150** planned words (A 1,836 · B 2,920 · C 1,480) |
 
