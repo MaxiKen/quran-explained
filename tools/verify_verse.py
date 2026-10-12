@@ -110,7 +110,7 @@ def uncovered(lead, en):
     at, order = 0, True
     for p in phrases(en):
         key = ''.join(canon(w) for w in p.split() if canon(w))
-        i = cl.find(key)
+        i = cl.find(key, at)
         if i < 0:
             bad.append(p)
         elif i < at:

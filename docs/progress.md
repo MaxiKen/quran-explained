@@ -1,7 +1,15 @@
 # Progress
 
-**493 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286) and **chapter 3
-complete (3:1–3:200)**.
+**543 verses are authored** — 1:1–1:7, chapter 2 complete (2:1–2:286), **chapter 3
+complete (3:1–3:200)** and **chapter 4:1–4:50** (50 verses, five ten-verse batches).
+
+The 2026-10-12 run on `arena/9a23575f-quran-explained` added **4:1–4:50** in five ten-verse
+batches (4:1–10, 4:11–20, 4:21–30, 4:31–40, 4:41–50; 75,040 planned words, 62,000+ finished words) — each batch generated from the packets, compiled,
+gated, committed and pushed before the next generation started. `data/guidance_004.json`
+now holds 50 verses at 358,040 bytes; `tools/verify_verse.py` 4 --all is 50/50 and
+`guidance-range` 42/42. A duplicate-phrase bug in `tools/verify_verse.py` (lead walk out-of-order on verses with identical phrases like 4:12) was fixed to use `find` from `at`.
+
+The previous 493-verse state was:
 
 The third 2026-10-12 run on `arena/fbd3f4f3-quran-explained` closed the sūrah, adding
 **3:164–3:200** (37 verses, 49,264 words) in four batches — 3:164–173, 3:174–183,
@@ -32,12 +40,12 @@ the evidence pushed down under the headings. Everything before them was cleared 
 
 | | |
 |---|---|
-| Written | **493 of 6,236 verses** — 675,570 planned words (7.91%), every one at or over its floor |
+| Written | **543 of 6,236 verses** — 750,610 planned words (12.72%), every one at or over its floor |
 | Source sets | **8** (six complete, al-Qushayrī on 1,287 verses, al-Wāḥidī on 431) |
 | Planned words | **5,902,150** (A 2,937,900 · B 2,409,170 · C 555,080) |
-| Resume at | **4:1** — next authored-only is 4:136 |
-| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (**200**); `_112.json` still a placeholder |
-| Chapter 3 shape (3:164–3:200, this run) | leads 207–497w (20–39% of the entry) · 3–6 headings · `draws_on` 5–8 sets · entries 658–2,054w |
+| Resume at | **4:51** — next authored-only is 4:136 |
+| Files | `data/guidance_001.json` (7), `data/guidance_002.json` (286), `data/guidance_003.json` (200), `data/guidance_004.json` (**50**); `_112.json` still a placeholder |
+| Chapter 4 shape (4:1–4:50, this run) | leads 222–777w (20–42% of the entry) · 5 headings · `draws_on` 5–7 sets · entries 711–1563w |
 
 `tools/progress.py --next` is authoritative and says the same: `python3
 tools/progress.py --next`. Regenerate the plan itself with
@@ -182,9 +190,16 @@ so there is nothing to merge until a batch is generated.
 was recovered with `git fetch` + `git reset --hard` from the pushed branch.
 See [pitfalls.md](pitfalls.md#the-workspace-can-be-reset).
 
-## Verification state (after 3:200, 2026-10-12)
+## Verification state (after 4:50, 2026-10-12)
 
-`verify_verse 3 --range 164-200` **37/37** · `verify_verse 3 --range 114-163` **50/50** ·
+`verify_verse 4 --all` **50/50** · `verify_verse 4 --range 1-10` **10/10** · `verify_verse 4 --range 11-20` **10/10** · `verify_verse 4 --range 21-30` **10/10** · `verify_verse 4 --range 31-40` **10/10** · `verify_verse 4 --range 41-50` **10/10** ·
+`verify_verse 3 --all` **200/200** · `verify_verse 2 --all` **286/286** · `verify_verse 1 --all` **7/7** ·
+`style-check` **9/9** · `sets-integrity` **12/12** (6,236 verses) · browser harness against `tools/serve.py`
+on :8090 — `guidance-range` **42/42**, `sources-all` **30/30**, `guidance-001` **52/52**.
+Every batch was gated the same way before its push; the numbers above are the
+final payload (50 verses, 358,040 bytes, `sw.js` v1.7.0-4-50).
+
+Previous state (after 3:200, 2026-10-12): `verify_verse 3 --range 164-200` **37/37** · `verify_verse 3 --range 114-163` **50/50** ·
 `verify_verse 3 --range 64-113` **50/50** · `style-check` **9/9** ·
 `sets-integrity` clean (6,236 verses) · browser harness against `tools/serve.py`
 on :8090 — `guidance-range 3` **11/11**.
