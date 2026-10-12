@@ -14,12 +14,12 @@ Every large `data/tafsir_*.json` was stubbed to a 19-byte `{"verses":{}}`, and
 and `404` for the guidance files. It looks like the app is broken. It is not —
 the working tree is.
 
-**Recovery** (this branch; it happened again on 2026-10-10 with three pushed
-commits missing and every file showing as modified — the worktree content was
-still correct, so the reset was lossless):
+**Recovery** (your branch; it happened on `arena/525a7113-quran-explained` on
+2026-10-10 with three pushed commits missing and every file showing as modified
+— the worktree content was still correct, so the reset was lossless):
 ```bash
-git fetch origin arena/525a7113-quran-explained
-git reset --hard origin/arena/525a7113-quran-explained
+git fetch origin arena/<your-id>-quran-explained
+git reset --hard origin/arena/<your-id>-quran-explained
 ```
 Check `git diff <remote-sha> --stat` before resetting if you are unsure: untracked
 files show up as deletions in that diff, which is not the same as them being gone.
@@ -111,8 +111,8 @@ list. Never assume coverage from the verse count.
   `getVerseCommentaryAll(tafsir, ayah)`. Calling `.map` on the former throws.
 - The ebook is rendered by `renderCompleteCommentary(div)` into the DOM. There
   is no `generateEbookContent()` — referencing it throws `ReferenceError`.
-- A payload shape change needs an `sw.js` `CACHE_VERSION` bump; a new `data/`
-  prefix needs the SW cache regex updated.
+- A payload shape change needs a stamp appended in `sw-stamps.js` (`RUN_STAMPS`
+  feeds `CACHE_VERSION`); a new `data/` prefix needs the SW cache regex updated.
 
 ## Analytical errors worth not repeating
 

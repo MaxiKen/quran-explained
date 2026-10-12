@@ -1,0 +1,21 @@
+{
+  "agent": "serial-era",
+  "branch": "arena/525a7113-quran-explained → arena/fec53650-quran-explained → arena/fbd3f4f3-quran-explained",
+  "status": "done",
+  "claimed": "2026-10-09",
+  "updated": "2026-10-12",
+  "ranges": [
+    { "surah": 1, "lo": 1, "hi": 7, "done": true },
+    { "surah": 2, "lo": 1, "hi": 286, "done": true },
+    { "surah": 3, "lo": 1, "hi": 200, "done": true }
+  ],
+  "batches": [
+    { "surah": 3, "lo": 64, "hi": 113, "date": "2026-10-12", "note": "five ten-verse batches, compiled" },
+    { "surah": 3, "lo": 114, "hi": 163, "date": "2026-10-12", "note": "five ten-verse batches, compiled" },
+    { "surah": 3, "lo": 164, "hi": 173, "date": "2026-10-12", "commit": "1ea32f9", "note": "compiled" },
+    { "surah": 3, "lo": 174, "hi": 183, "date": "2026-10-12", "commit": "c7b8b31", "note": "compiled" },
+    { "surah": 3, "lo": 184, "hi": 193, "date": "2026-10-12", "commit": "b6fde27", "note": "compiled" },
+    { "surah": 3, "lo": 194, "hi": 200, "date": "2026-10-12", "commit": "02ad6c3", "note": "compiled; closes Āl ʿImrān" }
+  ],
+  "notes": "Everything authored before parallel runs began (2026-10-12): 1:1–1:7, all of al-Baqarah, all of Āl ʿImrān. data/guidance_112.json is an empty placeholder on purpose — it keeps the reader's fallback to the six tafsīr sets under test. Full narrative, including the batch-by-batch lessons, is in docs/runs/serial-era.md."
+}

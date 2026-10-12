@@ -18,7 +18,8 @@ in this checkout.
 3. [`docs/voice.md`](docs/voice.md) — the register, what each tier contains, and
    how the compiled mode differs from the authored one.
 4. [`docs/workflow.md`](docs/workflow.md) and
-   [`docs/progress.md`](docs/progress.md) — the batch loop and where to resume.
+   [`docs/parallel.md`](docs/parallel.md) — the batch loop and the multi-agent
+   contract; `python3 tools/progress.py --next` is where to resume.
 
 Rules added on 2026-10-10 and binding everywhere:
 
