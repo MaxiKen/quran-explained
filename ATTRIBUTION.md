@@ -54,13 +54,13 @@ works above; their upstream terms are held by the projects listed. Those terms
 have been checked and confirmed by the maintainer of this reader.
 
 The commentary texts are reproduced unedited. No paraphrase, abridgement or
-rewording has been applied to any of them, with two exceptions recorded in
-`docs/sources.md`: the two editions added on 2026-10-09 were (i) filtered, because
-the upstream Asbāb file is polluted with al-Qushayrī's text and only the 395
-entries that can be attributed to al-Wāḥidī with certainty are shipped, and
-(ii) punctuation-normalised, because the upstream files carry `U+FFFD` where a
-decode step lost Arabic punctuation marks. Neither filter nor normalisation
-changes a word of any commentary.
+rewording has been applied to any of them, with two exceptions on the two
+editions added on 2026-10-09: those were (i) filtered, because the upstream
+Asbāb file is polluted with al-Qushayrī's text and only the 395 entries that can
+be attributed to al-Wāḥidī with certainty are shipped, and (ii)
+punctuation-normalised, because the upstream files carry `U+FFFD` where a decode
+step lost Arabic punctuation marks. Neither filter nor normalisation changes a
+word of any commentary.
 
 ## Fonts
 

@@ -5,11 +5,7 @@
 data/tafsir_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
 
-# The authored commentary is meant to be read in review, so it is
-# pretty-printed and diffs are shown.
+# data/guidance_*.json carries no generated commentary any more — 112 is the
+# only file left, an empty placeholder — so it is pretty-printed and diffs
+# normally.
 data/guidance_*.json -linguist-generated
-
-# The tier manifest is generated output of tools/tier_verses.py and is
-# reproducible. Pretty-printed it is 1.29 MB, over GitHub's 1 MB inline
-# display limit, so it stays minified and diffs are hidden.
-data/plan.json -diff linguist-generated

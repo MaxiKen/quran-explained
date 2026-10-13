@@ -13,27 +13,30 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.7.6-4-176';
+const CACHE_VERSION = 'quran-reader-v1.8.0-2026-10-13';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
-// A cleared or rewritten chapter must not be served to a device from an old
-// cache, so these URLs are dropped from every cache when this version activates
-// (the chapter downloads themselves are still carried across versions below).
+// The generated commentary was removed from the project on 2026-10-13. Every
+// chapter now shows the eight tafsīr sources directly, which is the state
+// chapters 6-114 (and 112, whose placeholder file is empty) were already in.
+// A device that cached a copy of a withdrawn chapter must not keep showing it,
+// so these URLs are dropped from every cache when this version activates, and
+// the copy loop below no longer carries guidance files across versions at all.
 //
-// The commentary source itself was replaced: every data/tafsir_NNN.json went
-// from Tafsīr as-Saʿdī in Arabic to Tafsīr Ibn Kathīr in English, and the
+// The commentary source itself was replaced earlier: every data/tafsir_NNN.json
+// went from Tafsīr as-Saʿdī in Arabic to Tafsīr Ibn Kathīr in English, and the
 // payload gained a `ranges` array. That is all 114 files, so rather than listing
 // them, RETIRE_ALL_TAFSIR drops every cached tafsir payload on activation.
 // Chapter data is untouched and still carries across.
 const RETIRE_ALL_TAFSIR = true;
-// Chapters 1 and 2 have been rewritten twice since 2026-10-09 (cleared, then
-// compiled, then recompiled against the lead rule), so a cached copy of either
-// earlier state must not be carried forward by the copy loop in activate. Data
-// files are fetched network-first now, so this list is only about copies that a
-// previous version already left in a cache.
+// The four chapters that ever carried generated commentary. Data files are
+// fetched network-first now, so this list is only about copies that a previous
+// version already left in a cache.
 const RETIRED_PAYLOADS = [
   './data/guidance_001.json',
-  './data/guidance_002.json'
+  './data/guidance_002.json',
+  './data/guidance_003.json',
+  './data/guidance_004.json'
 ];
 
 // ---- Core app shell — files needed for the homepage + offline fonts ----
@@ -110,14 +113,15 @@ self.addEventListener('activate', (event) => {
 
       // Keep chapter downloads when the app shell cache is upgraded. The old
       // implementation removed the whole cache on each release, forcing users
-      // to download their saved commentary again.
+      // to download their saved chapters again. Guidance payloads are not
+      // carried: none are served any more (see RETIRED_PAYLOADS).
       for (const name of names) {
         if (name === CACHE_VERSION) continue;
         const oldCache = await caches.open(name);
         const requests = await oldCache.keys();
         for (const request of requests) {
           const url = request.url || '';
-          if (!/\/data\/(?:tafsir_|chapter_|guidance_)/.test(url)) continue;
+          if (!/\/data\/(?:tafsir_|chapter_)/.test(url)) continue;
           const response = await oldCache.match(request);
           if (response) await currentCache.put(request, response.clone());
         }
@@ -171,11 +175,11 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  /* DATA IS NEVER STALE-BY-DESIGN: the guidance payloads grow verse by verse, and
-     a cached copy of data/*.json is indistinguishable from an unpublished
-     chapter, so the payload files go to the network first and fall back to the
-     cache only when the network is not there. Everything else same-origin keeps
-     the cache-first path the offline shell needs. */
+  /* DATA IS NEVER STALE-BY-DESIGN: a cached copy of data/*.json is
+     indistinguishable from a withdrawn or corrected payload, so the data files
+     go to the network first and fall back to the cache only when the network is
+     not there. Everything else same-origin keeps the cache-first path the
+     offline shell needs. */
   if (/\/data\/.*\.json$/.test(requestUrl.pathname)) {
     event.respondWith(
       fetch(event.request)
