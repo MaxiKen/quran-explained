@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.8.0-5-10';
+const CACHE_VERSION = 'quran-reader-v1.8.1-5-20';
 
 // ---- Commentary payloads withdrawn from the server --------------------------
 // A cleared or rewritten chapter must not be served to a device from an old
