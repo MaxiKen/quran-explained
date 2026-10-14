@@ -332,6 +332,7 @@ Model output and hand-written output are interchangeable: both end up in
 |---|---|---|---|---|---|---|
 | 2026-10-14 | 1 | 1–7 + intro | 24,361 + 1,686 | ok=5 flag=3 fail=0 | 85469f7 | arena agent (in-session) |
 | 2026-10-14 | 112 | 2–4 drafted, not published (order changed to 1→114) | 2,474 | ok=0 flag=4 fail=0 (coverage: virtue reports reserved for the intro) | work/raw/112-001-004.md | arena agent (in-session) |
+| 2026-10-14 | 2 | intro + 1–22 (of 286) | 2,239 intro + ~35,300 verses | ok=14 flag=8 fail=0 (flags: coverage noise from isnād names / nisbas, long sentences) | d57f043 (last of 13 pushes, one per job) | arena agent (in-session, digest→write→finish loop) |
 
 ## 9. Calibration — read before writing
 
@@ -353,3 +354,6 @@ Model output and hand-written output are interchangeable: both end up in
 - Putting surah-level material (names, virtues, verse count) into 1:1 instead of the intro → duplication. Intro job owns it.
 - Trusting that `work/` or `/tmp` would still be there next session. Only `work/raw/` and `data/` persist (through git).
 - Assuming a long quoted Qur'an passage would be exempt from the verbatim gate without its `(S:N)` reference. Add the reference.
+- Writing the phrases "the source" or "the commentators" in an entry (even as ordinary English: "the source of guidance") → "names a source / speaks as a digest" FAIL. Use "where guidance comes from", "scholars agree".
+- Reproducing a rhetorical list, a name list or a one-sentence definition in the material's order → 12+-word verbatim flag (24+ fails). Reorder items, split the sentence, change connectives; the `verify.verbatim_runs` snippet in §5 shows exactly which runs.
+- A quoted Qur'an passage longer than 200 chars containing a semicolon → semicolon flag. Quote the shorter half and paraphrase the rest, keeping the `(S:N)`.
