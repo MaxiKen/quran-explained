@@ -84,7 +84,19 @@ Rules the writer follows (see `prompts/system.md` for the full guide):
   prophets as "Mūsā (Moses)".
 - **Original wording.** No run of twelve or more words copied from a source
   outside an explicit quotation.
-- **Length is proportional to the material**: no bands, no cap.
+- **Length is proportional to the material about the verse**: no bands, no
+  cap, and no padding. Three sources (Tanwīr, Jalālayn, Mukhtaṣar) gloss
+  every verse separately; Ibn Kathīr, Maʿārif and Tazkirul write about
+  passages, so a passage block is attributed to its verses by where it quotes
+  each verse in Arabic (`common.verse_shares`; what cannot be located is
+  split evenly, a refrain block counts in full for each verse it lists, and
+  the sūrah introduction at the top of Ibn Kathīr's opening block is kept
+  apart). The per-verse figure is shown to the writer as "Material about
+  this verse: about N words" and is the yardstick for the length gates: an
+  entry much shorter than 0.25 × its material, or longer than
+  200 + 1.5 × its material, is flagged for audit. Across the Qurʾān the
+  median verse has ≈560 words of material about it; a quarter have under
+  300 (entries of two or three short paragraphs) and a tenth have over 1,850.
 
 The three hand-written exemplars in `prompts/exemplars/` (1:2 – a long
 verse; 112:1 – one verse of a four-verse job with shared material; 55:13 –

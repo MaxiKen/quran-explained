@@ -221,6 +221,160 @@ def fold(text: str) -> str:
 # --------------------------------------------------------------------------
 # jobs
 # --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
+# how much of a passage block is about each verse
+# --------------------------------------------------------------------------
+# Three sources gloss every verse separately; Ibn Kathir, Maarif and Tazkirul
+# write about passages. A passage block is attributed to its verses by where
+# the text quotes each verse in Arabic (Ibn Kathir and Maarif quote every
+# verse they turn to; Maarif also tags translations with "...S:V)"). What
+# cannot be located is split evenly. The result drives the length guidance
+# given to the writer and the length gates, so that a verse with three short
+# glosses and a sliver of a passage is not treated as if it had a page.
+_AR_DIAC_RE = re.compile(r'[\u0610-\u061A\u064B-\u065F\u06D6-\u06ED\u0640\u06E1\u06E5\u06E6]')
+_AR_LETTER_RE = re.compile(r'[\u0621-\u064A]')
+
+
+def norm_ar(text: str) -> str:
+    """Loose Arabic normalisation so Uthmani script matches plain script:
+    diacritics and tatweel dropped, dagger alef restored to alef, alef
+    variants and hamza seats unified, standalone hamza dropped."""
+    t = unicodedata.normalize('NFKC', text)
+    t = t.replace('\u0670', '\u0627')
+    t = _AR_DIAC_RE.sub('', t)
+    t = re.sub('[\u0622\u0623\u0625\u0671\u0672\u0673\u0675]', '\u0627', t)
+    t = t.replace('\u0621', '')
+    t = t.replace('\u0624', '\u0648').replace('\u0626', '\u064A')
+    t = t.replace('\u06CC', '\u064A').replace('\u0649', '\u064A').replace('\u06A9', '\u0643')
+    t = t.replace('\u06D5', '\u0647').replace('\u0629', '\u0647')
+    t = re.sub(r'[^\u0621-\u064A\s]', ' ', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def _ar_windows(ar: str, k: int) -> list[str]:
+    w = norm_ar(ar).split()
+    if len(w) <= k:
+        return [' '.join(w)] if w else []
+    return [' '.join(w[i:i + k]) for i in range(len(w) - k + 1)]
+
+
+def _find_verse(joined: str, ar: str) -> list[int] | None:
+    for k in (4, 3, 2):
+        for key in _ar_windows(ar, k):
+            if len(key.split()) < min(k, 2):
+                continue
+            hits = [m.start() for m in re.finditer(r'(?<![^\s])' + re.escape(key) + r'(?![^\s])', joined)]
+            if hits:
+                return hits
+    w = norm_ar(ar).split()
+    if len(w) == 1 and w[0]:
+        return [m.start() for m in re.finditer(r'(?<![^\s])' + re.escape(w[0]) + r'(?![^\s])', joined)] or None
+    return None
+
+
+def verse_shares(text: str, surah: int, verses: list[int], source: str,
+                 chapter_verses: dict[int, dict], label: str = '') -> tuple[dict[int, float], float, bool]:
+    """Attribute a block's words to the verses it covers.
+    Returns ({verse: words}, intro_words, located) where intro_words is the
+    surah-level introduction found at the top of a block that opens a surah
+    (Ibn Kathir's 'Introduction to Surat ...' before the basmalah) and
+    `located` says whether the split was found in the text or is an even
+    split. A block listed for scattered verses (a refrain such as 55:13,16,…)
+    applies in full to each of them."""
+    import bisect
+    words = text.split()
+    n = len(words)
+    if not verses or n == 0:
+        return {v: 0.0 for v in verses}, 0.0, False
+    if ',' in label or verses != list(range(verses[0], verses[-1] + 1)):
+        return {v: float(n) for v in verses}, 0.0, True
+
+    intro_words = 0.0
+    header_end = 0
+    if source == 'ibn-kathir' and verses[0] == 1:
+        # the surah introduction (names, virtues, period) precedes the
+        # basmalah line that opens the commentary proper
+        seen = 0
+        for line in text.split('\n'):
+            if re.fullmatch(r'بسم الله الرحما?ن الرحيم', norm_ar(line)):
+                intro_words = float(seen)
+                header_end = seen
+                break
+            seen += len(line.split())
+    if len(verses) == 1:
+        return {verses[0]: float(n - intro_words)}, intro_words, True
+
+    toks = [norm_ar(w) if _AR_LETTER_RE.search(w) else '\x00' for w in words]
+    offs, o = [], 0
+    for w in toks:
+        offs.append(o)
+        o += len(w) + 1
+    joined = ' '.join(toks)
+
+    def widx(c: int) -> int:
+        return bisect.bisect_right(offs, c) - 1
+
+    hits: dict[int, list[int]] = {}
+    for v in verses:
+        ar = chapter_verses.get(v, {}).get('ar', '')
+        h = _find_verse(joined, ar) if ar else None
+        if h:
+            hits[v] = sorted({widx(c) for c in h})
+    if source == 'maarif':
+        for m in re.finditer(rf'(?<!\d){surah}:(\d+)\s*[\)\]]', text):
+            v = int(m.group(1))
+            if v in verses:
+                hits.setdefault(v, []).append(len(text[:m.start()].split()))
+        for v in hits:
+            hits[v] = sorted(set(hits[v]))
+
+    if len(hits) < max(1, (len(verses) + 1) // 2):
+        rest = max(0.0, n - intro_words)
+        return {v: rest / len(verses) for v in verses}, intro_words, False
+
+    starts: list[tuple[int, int]] = []
+    last = header_end - 1
+    for v in verses:
+        if v not in hits:
+            continue
+        cand = [c for c in hits[v] if c > last]
+        if not cand:
+            continue
+        c = cand[0]
+        # Ibn Kathir lists all the verses first, then quotes each again when
+        # it turns to it: skip a hit that sits in that opening listing
+        if source == 'ibn-kathir' and len(cand) >= 2 and c < header_end + 0.35 * (n - header_end):
+            c = cand[1]
+        starts.append((c, v))
+        last = c
+    if not starts:
+        rest = max(0.0, n - intro_words)
+        return {v: rest / len(verses) for v in verses}, intro_words, False
+
+    res = {v: 0.0 for v in verses}
+    for i, (wi, v) in enumerate(starts):
+        end = starts[i + 1][0] if i + 1 < len(starts) else n
+        start = int(intro_words) if i == 0 else wi
+        res[v] += max(0, end - start)
+    located = {v for _, v in starts}
+    # verses quoted back to back were discussed together: pool them, and
+    # attach verses that were never quoted to the verse before them
+    groups: list[list[int]] = []
+    for v in verses:
+        if not groups:
+            groups.append([v])
+        elif v in located and sum(res[x] for x in groups[-1]) >= 8:
+            groups.append([v])
+        else:
+            groups[-1].append(v)
+    out: dict[int, float] = {}
+    for g in groups:
+        tot = sum(res[v] for v in g)
+        for v in g:
+            out[v] = tot / len(g)
+    return out, intro_words, True
+
+
 @dataclass
 class Block:
     source: str          # payload source id (ibn-kathir, …)
@@ -229,6 +383,9 @@ class Block:
     verses: list[int]    # verses of this surah the block covers
     text: str
     shared_outside: list[int] = field(default_factory=list)  # covered verses not in this job
+    shares: dict[int, float] = field(default_factory=dict)   # words of this block about each verse
+    intro_words: float = 0.0                                 # surah-level words at the top (opening block)
+    located: bool = True                                     # shares found in the text, not an even split
 
 
 @dataclass
@@ -245,6 +402,7 @@ class Job:
     themes: list[dict] = field(default_factory=list)
     chars: int = 0
     est_tokens: int = 0
+    material_words: dict[int, float] = field(default_factory=dict)  # verse -> words of material about it
 
     def to_json(self) -> dict:
         d = asdict(self)
@@ -252,7 +410,11 @@ class Job:
 
     @staticmethod
     def from_json(d: dict) -> 'Job':
-        blocks = [Block(**b) for b in d.pop('blocks')]
+        blocks = []
+        for b in d.pop('blocks'):
+            b['shares'] = {int(k): v for k, v in (b.get('shares') or {}).items()}
+            blocks.append(Block(**b))
+        d['material_words'] = {int(k): v for k, v in (d.get('material_words') or {}).items()}
         return Job(blocks=blocks, **d)
 
 
@@ -367,8 +529,10 @@ def build_jobs(surah: int, *, max_verses: int = MAX_JOB_VERSES, max_chars: int =
                     text = clean_block(st['blocks'][idx])
                     if strip_arabic:
                         text = strip_arabic_lines(text)
+                    shares, intro_w, located = verse_shares(text, surah, covered, sid, chapter['verses'], label)
                     blocks.append(Block(source=sid, label=labels[sid], range=label, verses=covered,
-                                        text=text, shared_outside=[x for x in covered if x not in piece]))
+                                        text=text, shared_outside=[x for x in covered if x not in piece],
+                                        shares=shares, intro_words=intro_w, located=located))
             before = [ayah(v) for v in range(max(1, piece[0] - 2), piece[0])]
             after = [ayah(v) for v in range(piece[-1] + 1, min(n, piece[-1] + 2) + 1)]
             job = Job(id=f'{surah:03d}-{piece[0]:03d}-{piece[-1]:03d}', kind='verses', surah=surah,
@@ -376,6 +540,7 @@ def build_jobs(surah: int, *, max_verses: int = MAX_JOB_VERSES, max_chars: int =
                       context_before=before, context_after=after, meta=meta)
             job.chars = sum(len(b.text) for b in blocks)
             job.est_tokens = sum(approx_tokens(b.text) for b in blocks) + 600
+            job.material_words = {v: round(sum(b.shares.get(v, 0.0) for b in blocks)) for v in piece}
             jobs.append(job)
 
     if with_intro:

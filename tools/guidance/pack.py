@@ -31,11 +31,16 @@ PRICES = {
     'gemini-2.5-pro':      (1.25, 10.00),
     'gemini-2.5-flash':    (0.30, 2.50),
 }
-# Output is proportional to the material: measured against the hand-written
-# exemplars the rewrite runs at roughly 0.55 output tokens per source token
-# (the Arabic quotations and the chains of transmitters drop out, overlapping
-# glosses merge, plain English is a little longer per idea).
+# Output is proportional to the material about each verse: measured against
+# the hand-written exemplars the rewrite runs at roughly 0.6 words per word of
+# verse-specific material (Arabic quotations and chains of transmitters drop
+# out, overlapping glosses merge, plain English is a little longer per idea)
+# on top of the ~120 words of structure every entry has (opening, Phrase by
+# phrase, In short). Introductions run at about 0.5 of their material.
 OUTPUT_RATIO = 0.6
+ENTRY_BASE_WORDS = 120
+INTRO_RATIO = 0.5
+WORDS_PER_TOKEN = 0.75
 SYSTEM_PROMPT_TOKENS = 9_000   # style guide + exemplars; cached after the first call
 
 
@@ -53,6 +58,8 @@ def main() -> int:
 
     surahs = parse_surah_selection(args.surahs)
     total_jobs = total_verses = total_in = 0
+    out_words = 0.0
+    thin = rich = 0
     biggest = (0, '')
     per_surah = {}
     all_jobs = []
@@ -67,12 +74,21 @@ def main() -> int:
             if j.est_tokens > biggest[0]:
                 biggest = (j.est_tokens, j.id)
             all_jobs.append(j)
+            if j.kind == 'intro':
+                out_words += INTRO_RATIO * sum(b.intro_words or 0 for b in j.blocks) + 300
+            else:
+                for v in j.verses:
+                    mw = j.material_words.get(v, 0)
+                    out_words += ENTRY_BASE_WORDS + OUTPUT_RATIO * mw
+                    thin += mw < 300
+                    rich += mw >= 1000
 
-    out_tokens = int(total_in * OUTPUT_RATIO)
+    out_tokens = int(out_words / WORDS_PER_TOKEN)
     print(f'surahs: {len(surahs)}  jobs: {total_jobs}  verses: {total_verses}')
     print(f'material: ~{total_in/1e6:.2f}M input tokens (largest job {biggest[1]} ≈ {biggest[0]:,} tokens)')
-    print(f'expected output: ~{out_tokens/1e6:.2f}M tokens (≈ {out_tokens*0.75/1e6:.2f}M words, '
-          f'{out_tokens*0.75/max(1,total_verses):.0f} words per verse on average)')
+    print(f'verses with under 300 words of material about them: {thin}; with 1,000 or more: {rich}')
+    print(f'expected output: ~{out_tokens/1e6:.2f}M tokens (≈ {out_words/1e6:.2f}M words, '
+          f'{out_words/max(1,total_verses):.0f} words per verse on average)')
     if args.estimate:
         print()
         print(f'{"model":<20}{"generation":>12}{"+ audit on all":>16}{"batch (-50%)":>14}')

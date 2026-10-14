@@ -67,6 +67,39 @@ class PackTests(unittest.TestCase):
         self.assertEqual(len(parse_surah_selection('all')), 114)
 
 
+class ShareTests(unittest.TestCase):
+    """Passage blocks are attributed to the verses they actually discuss."""
+
+    def test_ibn_kathir_passage_is_split_by_verse_quotes(self):
+        b = next(x for x in blocks_for_surah(55) if x['source'] == 'ibn-kathir' and x['range'] == '55:1-13')
+        total = len(b['text'].split())
+        self.assertTrue(b['located'])
+        self.assertGreater(b['intro_words'], 200)          # 'The Introduction to Surat Ar-Rahman'
+        self.assertAlmostEqual(sum(b['shares'].values()) + b['intro_words'], total, delta=2)
+        self.assertTrue(60 <= b['shares'][13] <= 250, b['shares'])   # the refrain paragraph
+        self.assertGreater(b['shares'][6], b['shares'][13])          # an-najm has a long discussion
+
+    def test_refrain_block_counts_fully_for_each_verse(self):
+        b = next(x for x in blocks_for_surah(55) if x['source'] == 'mukhtasar' and x['range'].startswith('55:13,'))
+        total = len(b['text'].split())
+        self.assertEqual(set(b['shares'].values()), {float(total)})
+
+    def test_single_verse_block_is_whole(self):
+        b = next(x for x in blocks_for_surah(55) if x['source'] == 'jalalayn' and x['range'] == '55:13')
+        self.assertEqual(b['shares'], {13: float(len(b['text'].split()))})
+
+    def test_opening_single_verse_block_separates_intro(self):
+        b = next(x for x in blocks_for_surah(1) if x['source'] == 'ibn-kathir' and x['range'] == '1:1')
+        self.assertGreater(b['intro_words'], 1000)
+        self.assertAlmostEqual(b['shares'][1] + b['intro_words'], len(b['text'].split()), delta=2)
+
+    def test_jobs_carry_material_words(self):
+        job = next(j for j in build_jobs(55) if j.id == '055-009-013')
+        self.assertEqual(sorted(job.material_words), [9, 10, 11, 12, 13])
+        self.assertTrue(200 <= job.material_words[13] <= 600, job.material_words)
+        self.assertIn('Material about this verse', render_user(job))
+
+
 class PromptTests(unittest.TestCase):
     def test_system_prompt_contains_exemplars_and_rules(self):
         sp = load_system_prompt()

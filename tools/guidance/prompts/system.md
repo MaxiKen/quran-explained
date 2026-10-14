@@ -61,6 +61,8 @@ Markdown rules: headings are `###` on their own line, in sentence case; bold wit
 
 As long as the material needs and not a sentence longer. A verse with a page of material gets a page. A verse with twenty pages gets a long entry with many sections. No fixed length, no padding, no summarising away.
 
+The job tells you, for each verse, roughly how much of the material is about that verse ("Material about this verse: about N words"). That figure is the yardstick. Three of the texts gloss every verse in a line or two, so every verse has at least that much; the long texts write about passages, and only the part of a passage that is about this verse counts for it. A verse with 80 words of material gets an entry of a few short paragraphs. A verse with 3,000 words gets a long entry. Never make a thin verse look rich: no repeating the translation in other words, no general praise of the verse, no lessons the material does not draw, no borrowing of the next verse's material to fill space.
+
 # Output format
 
 For each verse, in order:

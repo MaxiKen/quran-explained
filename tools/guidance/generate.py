@@ -55,12 +55,24 @@ def load_system_prompt() -> str:
     return system
 
 
-def _verses_block(ayahs: list[dict], surah: int) -> str:
+def _material_note(words: float) -> str:
+    if words < 150:
+        return f'about {int(round(words, -1))} words, a few short glosses: a short entry (opening, Phrase by phrase, In short)'
+    if words < 400:
+        return f'about {int(round(words, -1))} words: a short entry, one or two middle sections at most'
+    if words < 1200:
+        return f'about {int(round(words, -2))} words: a medium entry'
+    return f'about {int(round(words, -2))} words: a long entry with several sections'
+
+
+def _verses_block(ayahs: list[dict], surah: int, material: dict[int, float] | None = None) -> str:
     out = []
     for a in ayahs:
         out.append(f'## {surah}:{a["n"]}\nArabic: {a["ar"]}\nTranslation: "{a["en"]}"')
         if a.get('theme'):
             out[-1] += f'\nPlace in the surah\'s outline: {a["theme"]}'
+        if material and a['n'] in material:
+            out[-1] += f'\nMaterial about this verse: {_material_note(material[a["n"]])}'
     return '\n\n'.join(out)
 
 
@@ -101,7 +113,7 @@ def render_user(job: Job) -> str:
     return read_prompt('verse_job.md').format(
         surah=job.surah, name_en=meta['name_en'], meaning=meta['meaning'], type=meta['type'],
         n_verses=meta['verses'], verse_list=verse_list,
-        verses_block=_verses_block(job.ayahs, job.surah), context_block=_context_block(job),
+        verses_block=_verses_block(job.ayahs, job.surah, job.material_words), context_block=_context_block(job),
         material_block=_material_block(job))
 
 

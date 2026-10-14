@@ -30,7 +30,7 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (ARABIC_RE, SAW, WORK, DATA, SOURCE_ORDER, fold, word_count,  # noqa: E402
+from common import (ARABIC_RE, SAW, WORK, DATA, SOURCE_ORDER, fold, word_count, verse_shares,  # noqa: E402
                     load_tafsir, load_chapter, chapter_meta, range_verses, clean_block,
                     parse_surah_selection, ensure_dir, read_json)
 
@@ -39,6 +39,8 @@ COVERAGE_FAIL = 0.50
 VERBATIM_RUN = 12          # words copied in a row -> flag
 VERBATIM_RUN_FAIL = 24     # -> fail
 RATIO_FLAG = 0.25          # entry words / verse's share of material words
+PADDING_BASE = 200      # words of structure every entry needs (opening, phrase by phrase, in short)
+PADDING_RATIO = 1.5     # flag an entry longer than base + ratio x its material
 
 BANNED = [
     # the eight works and their authors: the entry speaks in its own voice
@@ -521,9 +523,9 @@ def verify_entries(surah: int, entries: dict[int, str], blocks: list[dict], tran
         covered = [v for v in b['verses'] if v in entries]
         if not covered:
             continue
-        bw = word_count(b['text']) / max(1, len(b['verses']))
+        shares = b.get('shares') or {}
         for v in covered:
-            share_words[v] += bw
+            share_words[v] += float(shares.get(v, shares.get(str(v), word_count(b['text']) / max(1, len(b['verses'])))))
         unwritten = [v for v in b['verses'] if v not in entries and v not in folded_siblings]
         if unwritten:
             for v in covered:
@@ -581,6 +583,8 @@ def verify_entries(surah: int, entries: dict[int, str], blocks: list[dict], tran
         ratio = words / max(1.0, share_words[v])
         if ratio < RATIO_FLAG and share_words[v] > 400:
             warnings.append(f'entry is short for its material ({words} words for ~{share_words[v]:.0f} words of material)')
+        if words > PADDING_BASE + PADDING_RATIO * share_words[v]:
+            warnings.append(f'entry is long for its material ({words} words for ~{share_words[v]:.0f} words of material): check for padding')
         for other in job_verses:
             if other <= v:
                 continue
@@ -612,18 +616,22 @@ def verify_entries(surah: int, entries: dict[int, str], blocks: list[dict], tran
 # --------------------------------------------------------------------------
 # sources of entries: work/out or data/guidance
 # --------------------------------------------------------------------------
+@functools.lru_cache(maxsize=8)
 def blocks_for_surah(surah: int) -> list[dict]:
     t = load_tafsir(surah)
     n = chapter_meta()[surah]['verses']
+    chapter = load_chapter(surah)['verses']
     out = []
     for sid in SOURCE_ORDER:
         st = t['sets'].get(sid)
         if not st:
             continue
         for idx, label in enumerate(st['ranges']):
-            out.append({'source': sid, 'range': label,
-                        'verses': [v for v in range_verses(label) if 1 <= v <= n],
-                        'text': clean_block(st['blocks'][idx])})
+            verses = [v for v in range_verses(label) if 1 <= v <= n]
+            text = clean_block(st['blocks'][idx])
+            shares, intro_w, located = verse_shares(text, surah, verses, sid, chapter, label)
+            out.append({'source': sid, 'range': label, 'verses': verses, 'text': text,
+                        'shares': shares, 'intro_words': intro_w, 'located': located})
     return out
 
 
