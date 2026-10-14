@@ -32,9 +32,9 @@ State (keep §8 current):
 | surah | published | how |
 |---|---|---|
 | 1 Al-Fatihah | 7/7 + intro (24,361 words) | written in-session, through the pipeline, commit `85469f7` |
-| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md` |
+| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until the sequence reaches 112: ingest that file, write `112-intro`, assemble. |
 | 55 Ar-Rahman | 1/78 (exemplar 55:13) | seeded from `prompts/exemplars/055_013.md` |
-| everything else | 0 | pending |
+| everything else | 0 | pending, in order: 2 (Al-Baqarah, 286 verses, 119 verse jobs + intro, ≈617 K material words, ≈400 K words of output expected), then 3, 4 … 114 |
 
 `python3 tools/guidance/status.py` prints the live version of this table.
 
@@ -101,8 +101,13 @@ the material and writes the entries itself, and everything else is the pipeline.
 python3 tools/guidance/status.py --next
 ```
 
-Order is fixed: 1 → 112 → 113 → 114 → 2 → 3 … 111. Take the job it prints.
-Do not skip ahead, do not pick favourites.
+Order is fixed by the maintainer: **1 → 2 → 3 … 114, in sequence** (the
+`ORDER` list in `status.py`). Within a surah: the introduction job first
+(`NNN-intro`), then the verse jobs in verse order. Take the job it prints. Do
+not skip ahead, do not pick favourites. A surah is published incrementally:
+`assemble.py` merges each finished job into `data/guidance_NNN.json`, so
+Al-Baqarah appears in the app verse-group by verse-group while it is being
+written, and verses not yet published fall back to the sources.
 
 ### 4.2 Read all of the material
 
@@ -298,17 +303,17 @@ audit → assemble` and commits the payloads to the branch. It needs:
 
 1. Repository secrets `ANTHROPIC_API_KEY` and/or `OPENAI_API_KEY` / `GEMINI_API_KEY`.
 2. The workflow file on the default branch (it is only registered once it is on `main`).
-3. A manual dispatch: Actions → Guidance → surahs `112-114,2` (pilot), provider `anthropic`.
+3. A manual dispatch: Actions → Guidance → surahs `2` (then `3-114`), provider `anthropic`.
 
 Local equivalent on a machine with network access:
 
 ```bash
-python3 tools/guidance/pack.py --surahs 112-114,2 --shards 4
-ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 112-114,2 --provider anthropic --concurrency 8
-python3 tools/guidance/verify.py --source work --surahs 112-114,2
-ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 112-114,2 --provider anthropic
-python3 tools/guidance/assemble.py --surahs 112-114,2
-python3 tools/guidance/verify.py --source data --surahs 112-114,2
+python3 tools/guidance/pack.py --surahs 2 --shards 4
+ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 2 --provider anthropic --concurrency 8
+python3 tools/guidance/verify.py --source work --surahs 2
+ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 2 --provider anthropic
+python3 tools/guidance/assemble.py --surahs 2
+python3 tools/guidance/verify.py --source data --surahs 2
 ```
 
 Estimates (`pack.py --estimate`, whole Qur'an): 1,536 jobs, ~10.7 M input
@@ -324,6 +329,7 @@ Model output and hand-written output are interchangeable: both end up in
 | date | surah | verses | words | gates | commit | by |
 |---|---|---|---|---|---|---|
 | 2026-10-14 | 1 | 1–7 + intro | 24,361 + 1,686 | ok=5 flag=3 fail=0 | 85469f7 | arena agent (in-session) |
+| 2026-10-14 | 112 | 2–4 drafted, not published (order changed to 1→114) | 2,474 | ok=0 flag=4 fail=0 (coverage: virtue reports reserved for the intro) | work/raw/112-001-004.md | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 

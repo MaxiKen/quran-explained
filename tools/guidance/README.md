@@ -29,12 +29,12 @@ pack  ->  generate  ->  verify  ->  audit (optional)  ->  assemble  ->  verify -
 Locally (needs the provider key in the environment):
 
 ```bash
-python3 tools/guidance/pack.py --surahs 1,112-114 --shards 1
-ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 1,112-114 --provider anthropic --concurrency 8
-python3 tools/guidance/verify.py --source work --surahs 1,112-114
-ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 1,112-114 --provider anthropic
-python3 tools/guidance/assemble.py --surahs 1,112-114
-python3 tools/guidance/verify.py --source data --surahs 1,112-114
+python3 tools/guidance/pack.py --surahs 2 --shards 1
+ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 2 --provider anthropic --concurrency 8
+python3 tools/guidance/verify.py --source work --surahs 2
+ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 2 --provider anthropic
+python3 tools/guidance/assemble.py --surahs 2
+python3 tools/guidance/verify.py --source data --surahs 2
 ```
 
 On GitHub: **Actions → Guidance (plain-English commentary) → Run workflow**

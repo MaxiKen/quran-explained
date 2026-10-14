@@ -27,7 +27,7 @@ sys.path.insert(0, HERE)
 from common import DATA, WORK, Job, chapter_meta, ensure_dir, read_json, strip_arabic_lines, word_count  # noqa: E402
 from generate import load_jobs, render_user  # noqa: E402
 
-ORDER = [1, 112, 113, 114, 2] + list(range(3, 112))
+ORDER = list(range(1, 115))   # maintainer's decision: strictly 1 -> 2 -> 3 ... 114
 CHUNK = 12_000   # the sandbox tool output truncates around 30 K characters; keep every print well under that
 
 
@@ -47,7 +47,8 @@ def ensure_jobs(surah: int, jobs_dir: str) -> list[Job]:
         subprocess.run([sys.executable, os.path.join(HERE, 'pack.py'), '--surahs', str(surah), '--out', jobs_dir],
                        check=True, capture_output=True, text=True)
     jobs = load_jobs(jobs_dir, [surah])
-    return sorted(jobs, key=lambda j: (j.kind == 'intro', j.verses[0] if j.verses else 0))
+    # the introduction first (its material is the opening of the commentaries), then the verse jobs in order
+    return sorted(jobs, key=lambda j: (j.kind != 'intro', j.verses[0] if j.verses else 0))
 
 
 def next_job(order: list[int] | None = None, data_dir: str = DATA, jobs_dir: str | None = None) -> Job | None:

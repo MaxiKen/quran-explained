@@ -294,17 +294,17 @@ class StatusTests(unittest.TestCase):
             jobs_dir = os.path.join(tmp, 'jobs')
             os.makedirs(data_dir)
             self.assertEqual(published(112, data_dir), ({}, False))
+            # nothing published -> the introduction comes first
             job = next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir)
             self.assertIsNotNone(job)
-            self.assertEqual((job.surah, job.kind, job.verses[0]), (112, 'verses', 1))
-            # publish the four verses but no intro -> the intro job is next
-            payload = {'surah': 112, 'intro': None,
-                       'verses': {str(v): {'text': 'x', 'status': 'ok'} for v in range(1, 5)}}
+            self.assertEqual((job.surah, job.kind), (112, 'intro'))
+            # intro published, verses not -> the first verse job
+            payload = {'surah': 112, 'intro': 'intro text', 'verses': {}}
             with open(os.path.join(data_dir, 'guidance_112.json'), 'w', encoding='utf-8') as f:
                 json.dump(payload, f)
             job = next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir)
-            self.assertEqual(job.kind, 'intro')
-            payload['intro'] = 'intro text'
+            self.assertEqual((job.kind, job.verses[0]), ('verses', 1))
+            payload['verses'] = {str(v): {'text': 'x', 'status': 'ok'} for v in range(1, 5)}
             with open(os.path.join(data_dir, 'guidance_112.json'), 'w', encoding='utf-8') as f:
                 json.dump(payload, f)
             self.assertIsNone(next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir))

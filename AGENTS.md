@@ -26,7 +26,7 @@ Non-negotiables (details and reasons in the handoff):
 - Never name the eight works or their authors; one anonymous voice.
 - No Arabic script (ﷺ only), no em dashes or semicolons outside quotes, plain English.
 - Length is proportional to the material (≈ 0.6 ×), never a band, never padded.
-- Every verse gets its own self-contained entry; every surah gets an introduction.
+- Every verse gets its own self-contained entry; every surah gets an introduction. Surahs are done strictly in order, 1 → 2 → 3 … 114.
 - Never publish a `fail`; never use `--include-failed`; never relax `verify.py` to pass an entry.
 - Work only on the session's branch, commit after every job, push every time, never force-push.
 - Keep `tools/guidance/HANDOFF.md` §8 (progress log) current before you stop.
