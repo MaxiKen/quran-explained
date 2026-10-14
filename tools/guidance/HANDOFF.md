@@ -334,6 +334,7 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-14 | 112 | 2–4 drafted, not published (order changed to 1→114) | 2,474 | ok=0 flag=4 fail=0 (coverage: virtue reports reserved for the intro) | work/raw/112-001-004.md | arena agent (in-session) |
 | 2026-10-14 | 2 | intro + 1–22 (of 286) | 2,239 intro + ~35,300 verses | ok=14 flag=8 fail=0 (flags: coverage noise from isnād names / nisbas, long sentences) | d57f043 (last of 13 pushes, one per job) | arena agent (in-session, digest→write→finish loop) |
 | 2026-10-14 | 2 | intro + 1–121 (of 286) | 2,239 intro + ~176,500 verses | ok=91 flag=31 fail=0 (flags: coverage noise, long sentences, a few 12–14-word stock-phrase runs) | e38be8e (one push per job, ~60 pushes) | arena agent (in-session, digest→write→finish loop) |
+| 2026-10-14 | 2 | intro + 1–171 (of 286) | 2,298 intro + ~253,000 verses | ok=108 flag=64 fail=0 on the full `verify --source data` run at session end (flags: narrator-list runs, coverage noise, long sentences) | dac32325 (one push per job; publish = assemble + commit + push, per-job `verify --source work` gate, full verify-data once per session ≈ 8 min at 172 entries) | arena agent (in-session, digest→write→gate→publish loop) |
 
 ## 9. Calibration — read before writing
 
