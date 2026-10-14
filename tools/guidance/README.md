@@ -23,6 +23,8 @@ pack  ->  generate  ->  verify  ->  audit (optional)  ->  assemble  ->  verify -
 | assemble | `assemble.py` | merges the job outputs into `data/guidance_NNN.json` (minified, one line). `fail` entries are left out so the app falls back to the sources for that verse. |
 | status | `status.py` | progress derived from `data/` alone (so it survives a sandbox reset). `--next` prints the first unpublished job in the working order and packs its surah if needed; `--material JOB --part k` prints the job's material in ≤ 12 K-char parts (tool output truncates around 30 K); `--export-raw N` rebuilds `work/raw/NNN-*.md` from the published payload. |
 | resume | `resume.sh` | start-of-session script: realigns a rewound checkout with `origin`, merges the pipeline branch in if `HANDOFF.md` is missing, runs the tests, prints the progress table and the next job. |
+| digest | `digest.py` | a job's material prepared for complete, fast reading: a per-verse checklist of what the coverage gate will look for, the translations to quote, then the material with Arabic and honorifics removed, referenced verse quotations collapsed to `[Q S:N …]` (`--quote S:N` prints the app's translation) and repeated paragraphs collapsed. |
+| finish | `finish.py` | one command per job: ingest → gates (compact report) → assemble → verify data → commit → push → next job. Stops at any FAIL. |
 
 ## Running
 
@@ -156,6 +158,8 @@ tools/guidance/
   audit.py         LLM audit + repair
   assemble.py      data/guidance_NNN.json writer
   status.py        progress from data/, next job, material in readable parts, raw export
+  digest.py        checklist + cleaned material per job, --quote S:N
+  finish.py        ingest, gates, assemble, commit, push, next job in one call
   resume.sh        start-of-session: realign git, tests, status, next job
   HANDOFF.md       operating manual for continuing the work in a new session
   CONTINUE_PROMPT.md  the prompt to paste into a new session

@@ -16,9 +16,9 @@ bash tools/guidance/resume.sh          # git realignment, tests, progress, next 
 python3 tools/serve.py 8000            # run with the process tool so the preview stays up
 ```
 
-Then follow HANDOFF §4 job by job: read all of the material with
-`status.py --material`, write `work/raw/<job>.md`, `ingest.py`, `verify.py`
-until `fail=0`, `assemble.py`, `verify.py --source data`, commit, push, next job.
+Then follow HANDOFF §4 job by job, three tool calls per job: read all of
+`digest.py <job>` (checklist + material), write `work/raw/<job>.md`, run
+`finish.py <job>` (gates, publish, commit, push, next job).
 
 Non-negotiables (details and reasons in the handoff):
 

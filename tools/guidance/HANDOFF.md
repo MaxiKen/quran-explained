@@ -74,13 +74,15 @@ semicolons outside quotations.
 |---|---|
 | `status.py` | progress table from `data/`; `--next` the next pending job (packs the surah if `work/` is gone); `--material JOB --part k` prints a job's material, Arabic stripped, in ≤ 12 K-char parts; `--export-raw N` rebuilds `work/raw/*.md` from a published surah. |
 | `resume.sh` | start-of-session: git realignment, tests, status, next job. |
+| `digest.py` | a job's material prepared for complete, fast reading: per-verse checklist of the anchors the coverage gate wants, the translations to quote, then the material with Arabic/honorifics removed, referenced verse quotations collapsed to `[Q S:N …]` and repeated paragraphs collapsed. 27 K-char parts. `--quote S:N` prints the app's translation of any verse. |
+| `finish.py` | one command per job: ingest → gates (compact report for the job only) → assemble → verify data → commit → push → next job. Stops at any FAIL. |
 | `pack.py` | builds `work/jobs/NNN.json`: jobs of ≤ 8 verses / ≤ 60 K chars with per-verse material shares. `--estimate` for token/cost numbers. |
 | `generate.py` | API path (Anthropic/OpenAI/Gemini). `--show JOB` prints the exact user prompt for a job (the system prompt is `prompts/system.md` + exemplars). `--dry-run` uses the mock writer. |
 | `ingest.py` | files an output written outside `generate.py` (by hand, in a chat, from a batch API) as the job's result in `work/out/`. Refuses incomplete jobs. |
 | `verify.py` | deterministic gates → `work/reports/NNN.json`; `--source work` for job outputs, `--source data` for published files. Exit 1 on any `fail`. |
 | `audit.py` | optional second model pass (needs an API). Not used for Surah 1. |
 | `assemble.py` | merges `work/out` into `data/guidance_NNN.json` (merge by default; `fail` entries left out; `--seed-exemplars` publishes the three exemplars). |
-| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (36 tests). |
+| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (39 tests). |
 | `../serve.py` | preview server, `python3 tools/serve.py 8000`. |
 | `CONTINUE_PROMPT.md` | the message the maintainer pastes to start a new session; it points here. |
 | `/AGENTS.md` | repository-root summary of the non-negotiables for any agent; it points here. |
@@ -109,28 +111,32 @@ not skip ahead, do not pick favourites. A surah is published incrementally:
 Al-Baqarah appears in the app verse-group by verse-group while it is being
 written, and verses not yet published fall back to the sources.
 
-### 4.2 Read all of the material
+### 4.2 Read all of the material (the fast way)
 
 ```bash
-python3 tools/guidance/status.py --material 112-001-004 --part 1   # then --part 2, 3 … until the last
+python3 tools/guidance/digest.py 002-001-001            # part 1 of N (27 K-char parts: as much as one tool result shows)
+python3 tools/guidance/digest.py 002-001-001 --part 2   # … until the last part; issue the parts as parallel tool calls
+python3 tools/guidance/digest.py --quote 6:101          # the app's translation of a verse the material cites
 ```
 
-Read every part. The tool output truncates silently around 30 K characters, so
-never print a block another way; the parts are sized to be safe. While reading,
-note: every hadith with its collector and grading as written; every `S:N`
-cross-reference as written (the material has typos such as `4:16` for 4:136 and
-`87:1-2` for three verses — you may only cite what is written; if a number is
-wrong, quote the verse's words without a number); every named person exactly as
-spelled; which paragraphs belong to which verse when a block covers several.
-For the surah's first job, separate surah-level material (names, virtues, verse
-count, revelation) — it goes to the intro job, not to verse 1.
+The digest is the full material with only what the entry must never carry
+removed (Arabic script, honorific formulas, a source's sign-off) or made
+retrievable (`[Q 6:101 "first words …"]` for a quoted verse with a reference,
+`[≈ repeats …]` for a paragraph that repeats an earlier one). It starts with a
+**checklist per verse**: the verses cited, collectors, grades, numbers, names and
+terms that the coverage gate will look for. Write with the checklist beside
+you: every item appears once, in your own words, in the entry of the verse it
+belongs to. That is what makes an entry pass at the first attempt. The digest
+also prints the translation to quote, so `generate.py --show` is not needed.
+`status.py --material` still prints the untouched text if something looks odd.
 
-Print the prompt once per job and follow it; it carries the translation to
-quote, the per-verse material words and the range notes:
-
-```bash
-python3 tools/guidance/generate.py --show 112-001-004
-```
+Rules of reading, unchanged: every hadith with its collector and grading as
+written; every `S:N` reference as written (the material has typos such as
+`4:16` for 4:136 and `87:1-2` for three verses: cite only what is written, or
+quote the verse's words without a number); every named person as spelled;
+which paragraphs belong to which verse when a block covers several. For a
+surah's first job, surah-level material (names, virtues, verse count,
+revelation) goes to the intro job, not to verse 1.
 
 ### 4.3 Write `work/raw/<job>.md`
 
@@ -180,64 +186,60 @@ Writing rules in the order they bite:
 Commit the raw file as soon as a verse is finished (cheap insurance against a
 sandbox reset): `git add work/raw && git commit -m "raw: 112-001-004 wip"`.
 
-### 4.4 Gate loop
+### 4.4 Finish the job: one command
 
 ```bash
-python3 tools/guidance/ingest.py --job 112-001-004 --file work/raw/112-001-004.md --model "arena agent (in-session)"
-python3 tools/guidance/verify.py --source work --surahs 112
-python3 - <<'EOF'
-import json; r=json.load(open('work/reports/112.json'))
-for v,e in r['verses'].items(): print(v, e['status'], e['words'], 'cov', e['coverage'], 'ratio', e['ratio']); print('  errors', e['errors']); print('  warnings', e['warnings']); print('  missing', e['missing'][:25])
-if r.get('intro'): print('intro', r['intro']['status'], r['intro']['errors'], r['intro']['warnings'])
-EOF
+python3 tools/guidance/finish.py 002-001-001
 ```
 
-Fix every `error` (→ fail) and every `warning` you can (→ flag), edit the raw
-file, re-ingest, re-verify. Loop until `fail=0`. §5 lists what each message
-means and the fix that worked. To see the exact copied runs:
+It ingests `work/raw/002-001-001.md`, runs the gates and prints, for the job's
+entries only: status, words, coverage, ratio, every FAIL message, every flag,
+and the missing anchors. If anything fails it stops (nothing is published):
+edit the raw file and run it again. If nothing fails it merges the job into
+`data/guidance_002.json`, verifies the published file, commits the payload and
+the raw file (`Surah 2: verses 8-13 (6,120 words)`), pushes to the current
+branch, and prints the next job. Then go straight to the next job's digest.
+
+Fix every FAIL. Fix a flag when it is a real gap (a missing name you can
+place, a verbatim run you can rephrase). Do not chase coverage noise (nisba-only
+anchors, volume references, honorifics, a source's sign-off): a `flag` is
+published and marked, a `fail` never is. §5 lists what each message means and
+the fix that worked. Never publish with `--include-failed`. Never loosen a
+threshold or a pattern in `verify.py` to make an entry pass. The only
+permitted `verify.py` changes are genuine false positives (a spelling variant,
+a punctuation form), each with a test in `tests/test_pipeline.py`.
+
+For long surahs this means a push after every job: the merged payload is the
+state, and `status.py --next` resumes from it after any reset. When a surah is
+complete, add a row to §8 and move on without waiting. Bump nothing in
+`sw.js` for payloads (only if `js/app.js` or `index.html` change).
+
+Occasionally (once per surah is enough) run the render check so the app's
+own markdown renderer is known to leave no raw markdown behind:
 
 ```bash
-python3 - <<'EOF'
-import json, sys; sys.path.insert(0,'tools/guidance'); import verify
-from common import strip_arabic_lines
-job=[j for j in json.load(open('work/jobs/112.json')) if j['id']=='112-001-004'][0]
-rec=json.load(open('work/out/112/112-001-004.json'))
-mat='\n'.join(strip_arabic_lines(b['text']) for b in job['blocks'])
-for v,md in rec['verses'].items():
-    for L,s in verify.verbatim_runs(md, mat): print(v, L, s)
-EOF
-```
-
-Never publish with `--include-failed`. Never loosen a threshold or a pattern in
-`verify.py` to make an entry pass. The only permitted `verify.py` changes are
-genuine false positives (a spelling variant, a punctuation form), each with a
-test in `tests/test_pipeline.py` — see the commit for `85469f7` for the shape.
-
-### 4.5 Publish
-
-```bash
-python3 tools/guidance/assemble.py --surahs 112          # merges into data/guidance_112.json
-python3 tools/guidance/verify.py --source data --surahs 112
 node /dev/stdin <<'EOF'
-// render check: the app's own markdown renderer must leave no raw markdown behind
 const fs=require('fs'); const src=fs.readFileSync('js/app.js','utf8');
 function grab(n){const i=src.indexOf('function '+n+'(');let d=0,j=i;for(;j<src.length;j++){if(src[j]=='{')d++;else if(src[j]=='}'){d--;if(d==0)break;}}return src.slice(i,j+1);}
 eval(grab('escapeHtml')+grab('parseInline')+grab('renderMarkdown'));
-const g=JSON.parse(fs.readFileSync('data/guidance_112.json','utf8'));
-for (const [k,v] of Object.entries(g.verses)) { const h=renderMarkdown(v.text); console.log(k, 'leftovers', (h.match(/[*#_]{2}|&lt;&lt;&lt;/g)||[]).length, 'h4', (h.match(/<h4/g)||[]).length); }
+const g=JSON.parse(fs.readFileSync('data/guidance_002.json','utf8'));
+for (const [k,v] of Object.entries(g.verses)) { const h=renderMarkdown(v.text); const n=(h.match(/[*#_]{2}|&lt;&lt;&lt;/g)||[]).length; if(n) console.log(k,'leftovers',n); }
 if (g.intro) console.log('intro leftovers', (renderMarkdown(g.intro).match(/[*#_]{2}/g)||[]).length);
 EOF
-git add data/guidance_112.json work/raw
-git commit -m "Surah 112: plain-English commentary, verses 1-4 and introduction"   # or "…: verses 1-30" for a partial long surah
-git push origin <this session's branch>
 ```
 
-For long surahs publish and push **after every job**; the merged payload is the
-state, and `status.py --next` resumes from it after any reset.
+### 4.5 Throughput rules (how "extreme speed" is achieved without losing content)
 
-When a surah is complete: bump nothing in `sw.js` (the guidance cache key is
-already versioned per payload; bump `CACHE_VERSION` only if `js/app.js` or
-`index.html` change), add a row to §8, and move on without waiting.
+- One job = three tool calls: the digest parts (in parallel), one `write_file`
+  of the whole job, one `finish.py`. Never print an entry back, never re-read
+  material you have already read, never run `--show`.
+- Write the whole job in one go, all verses, from the checklist and the
+  material. Length stays proportional to the material (≈ 0.6 ×, more when the
+  points are dense); nothing is dropped to go faster, and nothing is padded.
+- Go on to the next job in the same turn. Report to the maintainer at the end
+  of the turn, not after every job.
+- Commit and push happen inside `finish.py`; the raw file for a half-written
+  long job can be committed early (`git add work/raw && git commit -m "raw: wip"`).
 
 ### 4.6 End of session
 

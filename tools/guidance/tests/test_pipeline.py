@@ -315,6 +315,51 @@ class StatusTests(unittest.TestCase):
             shutil.rmtree(tmp)
 
 
+class DigestTests(unittest.TestCase):
+    """digest.py removes only what an entry must not carry or can fetch on demand."""
+
+    def test_clean_for_reading(self):
+        from digest import clean_for_reading
+        src = ("Ibn 'Abbas (may Allah be pleased with him) said that Allah said,\n\n"
+               "قُلْ هُوَ اللَّهُ أَحَدٌ\n\n"
+               "(He is the Originator of the heavens and the earth. How can He have children (i.e. sons) "
+               "when He has no wife? He created all things.)(6:101) meaning He owns everything. "
+               "The Prophet ﷺ said, (Paradise.) and the word قُلْ means say.")
+        out = clean_for_reading(src)
+        self.assertNotIn('may Allah be pleased', out)
+        self.assertNotIn('قُلْ', out)
+        self.assertIn('ﷺ', out)
+        self.assertIn('[Q 6:101 "He is the Originator of the heavens …"]', out)
+        self.assertIn('(Paradise.)', out)            # short quotations stay
+        self.assertIn('meaning He owns everything', out)
+
+    def test_repeats_and_checklist(self):
+        from digest import Repeats, build_digest, find_job
+        rep = Repeats()
+        para = 'Al-Bukhari recorded from Abu Hurayrah that the Messenger of Allah said that love of this surah leads to Paradise'
+        self.assertEqual(rep.process('a', para), para)
+        again = rep.process('b', para + ' indeed')
+        self.assertTrue(again.startswith('[≈ repeats'))
+        self.assertEqual(rep.process('c', 'Short line.'), 'Short line.')
+        tmp = tempfile.mkdtemp()
+        try:
+            job = find_job('112-001-004', tmp)
+            text = build_digest(job)
+            self.assertIn('## Checklist', text)
+            self.assertIn('### 112:2', text)
+            self.assertIn('Tirmidhi', text)            # a collector in the checklist
+            self.assertIn('6:101', text)               # a cited verse
+            self.assertIn('"Allah—the Sustainer ˹needed by all˺"', text)   # the app translation
+            self.assertNotIn('اللَّهُ', text)
+        finally:
+            shutil.rmtree(tmp)
+
+    def test_quote(self):
+        from digest import quote
+        self.assertIn('Originator', quote('6:101'))
+        self.assertEqual(len(quote('19:88-90').splitlines()), 3)
+
+
 class AnchorTests(unittest.TestCase):
     def test_sources_are_not_anchors(self):
         anchors = extract_anchors('Ibn Kathir said that Al-Qurtubi and Tafsir Al-Jalalayn agree. Qatadah said so too.')

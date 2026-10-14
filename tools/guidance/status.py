@@ -9,8 +9,8 @@
     python3 tools/guidance/status.py --export-raw 1   # rebuild work/raw/<job>.md from data/guidance_001.json
 
 Progress is read from data/guidance_NNN.json only, never from work/, so it
-survives a wiped sandbox. Order of work: the pilot (1, 112, 113, 114, 2) and
-then 3..111. A surah is finished when every verse and the introduction are
+survives a wiped sandbox. Order of work: surahs 1 -> 114 in sequence, the
+introduction of a surah before its verses. A surah is finished when every verse and the introduction are
 published; a verse job is pending while any of its verses is unpublished.
 """
 from __future__ import annotations
@@ -190,9 +190,9 @@ def main() -> int:
             print(f'  verses in job: {job.verses}   still unpublished: {todo}')
             print(f'  material words per verse: {mat}   (target entry length is about 0.6 x material, never shorter than the material deserves)')
         print(f'  material: {sum(word_count(strip_arabic_lines(b.text)) for b in job.blocks)} words in {len(job.blocks)} blocks')
-        print(f'  read it:  python3 tools/guidance/status.py --material {job.id} --part 1')
-        print(f'  prompt:   python3 tools/guidance/generate.py --show {job.id}')
-        print(f'  write:    work/raw/{job.id}.md   then   python3 tools/guidance/ingest.py --job {job.id} --file work/raw/{job.id}.md --model "<who wrote it>"')
+        print(f'  read it:  python3 tools/guidance/digest.py {job.id}            (then --part 2, 3 … until the last part)')
+        print(f'  write:    work/raw/{job.id}.md')
+        print(f'  finish:   python3 tools/guidance/finish.py {job.id}            (ingest, gates, assemble, commit, push, next)')
         if args.show:
             print('\n' + render_user(job))
         return 0
