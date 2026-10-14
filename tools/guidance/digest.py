@@ -39,7 +39,7 @@ from common import (ARABIC_RE, SAW, WORK, Job, chapter_meta, ensure_dir, fold, l
 from generate import load_jobs  # noqa: E402
 from verify import COLLECTORS, GRADES, extract_anchors, surah_names  # noqa: E402
 
-CHUNK = 27_000          # the sandbox shows about 30 K characters of a tool result
+CHUNK = 16_000          # a tool result shows about 20 K characters before it is truncated in the middle
 SHINGLE = 8             # words per shingle for the repetition check
 REPEAT_MIN_WORDS = 14   # shorter paragraphs are kept as they are
 REPEAT_RATIO = 0.6      # share of a paragraph's shingles already seen -> collapsed
