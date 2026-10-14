@@ -220,6 +220,69 @@ class GateTests(unittest.TestCase):
         self.assertTrue(rep['errors'], rep)
 
 
+class VariantTests(unittest.TestCase):
+    """Spelling variants, possessives and long quoted passages must not be
+    reported as fabrication or copying."""
+
+    def setUp(self):
+        self.entry = exemplar('112_001.md')['verses'][1]
+        self.blocks = [b for b in blocks_for_surah(112) if 1 in b['verses']]
+        self.tr = translations(112)
+
+    def report(self, text: str, blocks=None) -> dict:
+        return verify_entries(112, {1: text}, blocks or self.blocks, self.tr)['verses'][1]
+
+    def test_collector_spelling_variant_is_not_a_fabrication(self):
+        blocks = [dict(b) for b in self.blocks]
+        blocks[0] = dict(blocks[0], text=blocks[0]['text'] + ' Ibn Marduwyah recorded it in his Tafsir.')
+        rep = self.report(self.entry + '\n\nIbn Mardawayh recorded it too.', blocks)
+        self.assertFalse(any('collector' in e for e in rep['errors']), rep['errors'])
+
+    def test_possessive_does_not_hide_a_name(self):
+        self.assertEqual(fold("Umm Salamah's hadith"), fold('Umm Salamah hadith'))
+        self.assertEqual(fold("the Prophet's ﷺ recitation"), fold('the Prophet ﷺ recitation'))
+
+    def test_long_quoted_quran_passage_with_reference_is_exempt(self):
+        a = ' '.join(f'word{i}' for i in range(60))
+        self.assertEqual(verbatim_runs('"' + a + '" (2:255)', 'zero ' + a + ' end', 12), [])
+        self.assertTrue(verbatim_runs('"' + a + '"', 'zero ' + a + ' end', 12), 'a long quote without a reference still counts')
+
+    def test_cross_reference_with_spaces_counts(self):
+        blocks = [dict(b) for b in self.blocks]
+        blocks[0] = dict(blocks[0], text=blocks[0]['text'] + ' As the Qur\'an says (68 : 33).')
+        rep = self.report(self.entry + '\n\nThe same point is made in 68:33.', blocks)
+        self.assertFalse(any('68:33' in e for e in rep['errors']), rep['errors'])
+
+    def test_imam_shafii_is_not_a_banned_name(self):
+        rep = self.report(self.entry + '\n\nAsh-Shāfiʿī held that it is recited aloud.')
+        self.assertFalse(any('names a source' in e for e in rep['errors']), rep['errors'])
+        rep = self.report(self.entry + '\n\nMufti Muhammad Shafi held the same.')
+        self.assertTrue(any('names a source' in e for e in rep['errors']), rep['errors'])
+
+
+class IngestTests(unittest.TestCase):
+    def test_ingest_stores_a_complete_output_and_refuses_an_incomplete_one(self):
+        from ingest import ingest
+        tmp = tempfile.mkdtemp()
+        try:
+            jobs_dir = os.path.join(tmp, 'jobs')
+            out_dir = os.path.join(tmp, 'out')
+            subprocess.run([sys.executable, os.path.join(HERE, '..', 'pack.py'), '--surahs', '112',
+                            '--out', jobs_dir, '--no-intro'], check=True, capture_output=True)
+            job = json.load(open(os.path.join(jobs_dir, '112.json')))[0]
+            verses = job['verses']
+            text = ''.join(f'<<<VERSE 112:{v}>>>\nentry {v}\n<<<END>>>\n' for v in verses)
+            path = ingest(job['id'], text, jobs_dir=jobs_dir, out_dir=out_dir, model='test')
+            rec = json.load(open(path))
+            self.assertEqual(rec['status'], 'ok')
+            self.assertEqual(sorted(map(int, rec['verses'])), sorted(verses))
+            partial = ''.join(f'<<<VERSE 112:{v}>>>\nentry {v}\n<<<END>>>\n' for v in verses[:-1])
+            with self.assertRaises(SystemExit):
+                ingest(job['id'], partial, jobs_dir=jobs_dir, out_dir=out_dir, model='test')
+        finally:
+            shutil.rmtree(tmp)
+
+
 class AnchorTests(unittest.TestCase):
     def test_sources_are_not_anchors(self):
         anchors = extract_anchors('Ibn Kathir said that Al-Qurtubi and Tafsir Al-Jalalayn agree. Qatadah said so too.')

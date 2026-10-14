@@ -193,7 +193,8 @@ def fold(text: str) -> str:
     """Lower-case, strip diacritics and hamza/ʿayn marks, drop the Arabic
     article, unify 'bin/ibn/b.' and common spelling variants, collapse
     whitespace. Used for matching, never for output."""
-    t = text.translate(_TRANSLIT_MAP)
+    t = re.sub(r"(\w)['’]s\b", r'\1', text)   # possessive: "Salamah's" -> "Salamah"
+    t = t.translate(_TRANSLIT_MAP)
     t = unicodedata.normalize('NFKD', t)
     t = ''.join(c for c in t if not unicodedata.combining(c))
     t = t.lower()

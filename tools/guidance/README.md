@@ -17,6 +17,7 @@ pack  ->  generate  ->  verify  ->  audit (optional)  ->  assemble  ->  verify -
 |---|---|---|
 | pack | `pack.py` | groups each surah's verses into jobs (≤ 8 verses, ≤ 60 K chars of material, never splitting a source block's range when it can be avoided) and balances jobs into shards. `--estimate` prints token and cost estimates. |
 | generate | `generate.py` | sends one request per job (system prompt = `prompts/system.md` + the exemplars; user prompt = `prompts/verse_job.md` or `intro_job.md` filled with the verses, the app's own translation and the material). Parses the `<<<VERSE S:N>>> … <<<END>>>` entries, retries truncated output, falls back to per-verse jobs, writes `work/out/NNN/<job>.json`. |
+| ingest | `ingest.py` | stores an output produced *outside* `generate.py` (pasted from a chat, written by hand, returned by a batch API) as the result of a job, so it goes through the same gates: `ingest.py --job 001-002-005 --file work/raw/001-002-005.md --model "…"`. Refuses outputs that do not carry every verse of the job. |
 | verify | `verify.py` | deterministic gates (below). Writes `work/reports/NNN.json`. Exit code 1 on `fail`, or on `flag` with `--strict`. |
 | audit | `audit.py` | a second model pass: lists every point in the material and checks it is covered, lists unsupported claims and style violations, then asks the writer model to repair. A repair is kept only if the gates do not get worse. Default: only `flag`/`fail` entries; `--all` audits everything. |
 | assemble | `assemble.py` | merges the job outputs into `data/guidance_NNN.json` (minified, one line). `fail` entries are left out so the app falls back to the sources for that verse. |
@@ -47,6 +48,12 @@ Offline smoke test of the whole chain (mock provider, no API calls):
 python3 tools/guidance/generate.py --surahs 112 --dry-run
 python3 -m unittest discover -s tools/guidance/tests
 ```
+
+Writing without an API (what was done for Surah 1): `generate.py --show JOB`
+prints the exact prompt, the entries are written by hand (or in a chat) into
+`work/raw/JOB.md` with the same `<<<VERSE S:N>>>` markers, and `ingest.py`
+files them as the job's result; `verify.py --source work`, `assemble.py` and
+`verify.py --source data` then run unchanged.
 
 Useful switches: `generate.py --show 112-001-004` prints the exact prompt a
 job receives; `--limit 3` runs three jobs; `--only ID,ID` runs specific jobs;
@@ -136,6 +143,7 @@ tools/guidance/
   common.py        paths, loaders, cleaning, folding, job building
   pack.py          jobs + shards + estimates
   generate.py      prompt rendering, provider calls, parsing, retries
+  ingest.py        store an externally produced output as a job result
   verify.py        gates and reports
   audit.py         LLM audit + repair
   assemble.py      data/guidance_NNN.json writer

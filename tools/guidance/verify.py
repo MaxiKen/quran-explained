@@ -44,7 +44,7 @@ PADDING_RATIO = 1.5     # flag an entry longer than base + ratio x its material
 
 BANNED = [
     # the eight works and their authors: the entry speaks in its own voice
-    r"ibn kathir", r"kathir", r"maarif", r"ma arif", r"mufti", r"shafi", r"wahiduddin", r"tazkirul", r"tazkir",
+    r"ibn kathir", r"kathir", r"maarif", r"ma arif", r"mufti", r"muhammad shafi\b", r"shafi usmani", r"wahiduddin", r"tazkirul", r"tazkir",
     r"tanwir", r"miqbas", r"jalalayn", r"jalalain", r"mukhtasar", r"qushayri", r"qushairi", r"wahidi",
     r"lataif", r"asbab al nuzul\b(?! \()",
     # the digest voice
@@ -92,6 +92,9 @@ ALIASES = {
     'gospel': ['gospel', 'injil', 'injeel'], 'psalms': ['psalms', 'zabur'], 'ramadan': ['ramadan'], 'hijrah': ['hijrah', 'hijra', 'migration'],
     'badr': ['badr'], 'uhud': ['uhud'], 'khandaq': ['khandaq', 'trench', 'ahzab'], 'hudaybiyyah': ['hudaybiyyah', 'hudaybiyah', 'hudaibiya'],
     'ansar': ['ansar', 'helpers'], 'muhajirun': ['muhajir', 'emigrants'], 'companions': ['companion', 'sahab'],
+    'two sahihs': ['two sahihs', 'both sahihs', 'two sahih', 'sahihayn', 'bukhari and muslim', 'muslim and bukhari'],
+    'salaf': ['salaf', 'early muslims', 'early scholars', 'early generations', 'earliest generations', 'first generations'],
+    'shariah': ['shariah', 'sharia', 'sacred law', 'islamic law', 'revealed law'],
     'paradise': ['paradise', 'jannah', 'garden'], 'hell': ['hell', 'jahannam', 'fire'], 'resurrection': ['resurrection', 'qiyamah', 'day of judgment', 'judgement'],
     'kufr': ['kufr', 'disbelief'], 'shirk': ['shirk', 'associating partners', 'polytheism', 'idolatry'],
     'zakah': ['zakah', 'charity', 'alms'], 'salah': ['salah', 'prayer'], 'hajj': ['hajj', 'pilgrimage'], 'fasting': ['fast', 'sawm', 'siyam'],
@@ -99,7 +102,7 @@ ALIASES = {
     'fatihah': ['fatihah', 'fatiha', 'opening'], 'basmalah': ['basmalah', 'bismillah'],
     'taqwa': ['taqwa', 'mindful', 'god fearing', 'god consciousness', 'piety', 'fear of allah'], 'iman': ['iman', 'faith', 'belief'],
     'ghayb': ['ghayb', 'unseen'], 'tawhid': ['tawhid', 'oneness'], 'dhikr': ['dhikr', 'remembrance'],
-    'tariqah': ['tariqah', 'tariqa', 'the path'], 'dua': ['dua', 'supplication'], 'salaf': ['salaf', 'early generations', 'early muslims'],
+    'tariqah': ['tariqah', 'tariqa', 'the path'], 'dua': ['dua', 'supplication'],
 }
 _ALIAS_LOOKUP = {}
 for canon, spellings in ALIASES.items():
@@ -121,7 +124,7 @@ NAME_PREFIX_RE = re.compile(
 ARTICLE_NAME_RE = re.compile(r"\b((?:[Aa]l|[Aa]t|[Aa]th|[Aa]d|[Aa]dh|[Aa]r|[Aa]z|[Aa]s|[Aa]sh|[Aa]n|[Ee]l)-['ʿʾ`’]?[A-ZĀĪŪḤṢḌṬẒ][\w'ʿʾ`’ĀĪŪāīūḤḥṢṣḌḍṬṭẒẓ]+)")
 SAID_RE = re.compile(r"(?<![\w])(['ʿʾ`’]?[A-ZĀĪŪḤṢḌṬẒ][\w'ʿʾ`’ĀĪŪāīūḤḥṢṣḌḍṬṭẒẓ-]+(?:\s+(?:bin|ibn|b\.)\s+['ʿʾ`’]?[A-Z][\w'ʿʾ`’-]+|\s+['ʿʾ`’]?[A-Z][\w'ʿʾ`’-]+)?)\s+(?:said|says|narrated|reported|recorded|commented|stated|mentioned|related|added|explained|replied|asked)\b")
 TRANSLIT_RE = re.compile(r"\b[\w'ʿʾ`’-]*[āīūḥṣḍṭẓʿʾĀĪŪḤṢḌṬẒ][\w'ʿʾ`’āīūḥṣḍṭẓ-]*\b")
-XREF_RE = re.compile(r"(?<![\d:])(\d{1,3}):(\d{1,3})(?:\s*-\s*(\d{1,3}))?(?![\d:])")
+XREF_RE = re.compile(r"(?<![\d:])(\d{1,3})\s?:\s?(\d{1,3})(?:\s*-\s*(\d{1,3}))?(?![\d:])")  # "68:33", "68 : 33"
 NUM_RE = re.compile(r"(?<![\d:.-])(\d{2,5})(?![\d:.-])")
 CHAIN_RE = re.compile(r"\b(?:narrated|reported|related|mentioned|stated|recorded)\s+(?:from|that)\b|\bsaid that\b|\bfrom\s+(?:Ab[uū]|Ibn)\b|\binformed\b|\btold\s+(?:us|me)\b", re.I)
 RECORDED_RE = re.compile(r"\b(?:recorded|collected|related|reported|narrated|mentioned)\s+by\b|\bin\s+(?:his\s+|the\s+|their\s+)?(?:Sahih|Ṣaḥīḥ|Sunan|Musnad|Jami|Jāmiʿ|Mustadrak|Muwatta|Muwaṭṭaʾ|Tafsir|Tafsīr|Mujam|Muʿjam)\b", re.I)
@@ -134,7 +137,7 @@ Hell Paradise Fire Garden Heaven Earth Sun Moon Mercy Grace Peace Blessings Sata
 Majestic Mighty Exalted Almighty Glorified Blessed Holy Merciful Compassionate Gracious Sublime Highest Imam Imams Sayyidna""".split()}
 
 
-_BANNED_NAME_RE = re.compile(r"kathir|maarif|jalalayn|jalalain|mukhtasar|qushayr|qushair|wahidi|tanwir|miqbas|tazkir|wahiduddin|mufti|shafi")
+_BANNED_NAME_RE = re.compile(r"kathir|maarif|jalalayn|jalalain|mukhtasar|qushayr|qushair|wahidi|tanwir|miqbas|tazkir|wahiduddin|mufti|muhammad shafi\b|shafi usmani")
 
 
 def _is_banned_name(folded_key: str) -> bool:
@@ -370,7 +373,9 @@ def verbatim_runs(entry: str, material: str, n: int = VERBATIM_RUN) -> list[int]
     ignoring block quotations and the bold translation phrases."""
     body = '\n'.join(ln for ln in entry.split('\n') if not ln.lstrip().startswith('>'))
     body = re.sub(r'\*\*"[^"]*"\*\*', ' ', body)
-    body = re.sub(r'"[^"\n]{0,200}"', ' ', body)  # anything explicitly quoted
+    # a quoted Qur'an passage followed by its reference may be long: "..." (2:255) / (41:34-36)
+    body = re.sub(r'"[^"\n]{0,900}"\s*\(\d{1,3}:\d{1,3}(?:-\d{1,3})?\)', ' ', body)
+    body = re.sub(r'"[^"\n]{0,200}"', ' ', body)  # anything else explicitly quoted
     ew = _words(fold(body))
     mw = _words(fold(material))
     if len(ew) < n or len(mw) < n:
@@ -464,6 +469,24 @@ def check_markdown(md: str, kind: str) -> tuple[list[str], list[str]]:
     return errors, warnings
 
 
+def _skeleton(name: str) -> str:
+    """Consonant skeleton of a folded name: 'ibn marduwyah' -> 'bn mrdwh'. Used only as a
+    fallback so spelling variants of the same name are not reported as fabrications."""
+    return ' '.join(re.sub(r'[aeiouy]', '', w) for w in name.split())
+
+
+def _skeleton_set(folded_text: str) -> set[str]:
+    words = folded_text.split()
+    out = set()
+    for i, w in enumerate(words):
+        out.add(_skeleton(w))
+        if i + 1 < len(words):
+            out.add(_skeleton(w + ' ' + words[i + 1]))
+        if i + 2 < len(words):
+            out.add(_skeleton(' '.join(words[i:i + 3])))
+    return out
+
+
 def check_fabrication(md: str, material: str, surah: int, job_verses: list[int]) -> tuple[list[str], list[str]]:
     errors, warnings = [], []
     mat_refs = set()
@@ -483,8 +506,14 @@ def check_fabrication(md: str, material: str, surah: int, job_verses: list[int])
             errors.append(f'cross-reference {s}:{a} is not in the material')
     fm = ' ' + fold(material) + ' '
     fe = ' ' + fold(md) + ' '
+    mat_skeletons = None
     for key, display in COLLECTORS.items():
         if re.search(r'\b' + re.escape(key) + r'\b', fe) and not re.search(r'\b' + re.escape(key) + r'\b', fm):
+            # transliteration variants ("Ibn Marduwyah" / "Ibn Mardawayh"): compare consonant skeletons
+            if mat_skeletons is None:
+                mat_skeletons = _skeleton_set(fm)
+            if _skeleton(key) in mat_skeletons:
+                continue
             errors.append(f'names a collector the material does not: {display}')
     for grade, spellings in GRADES.items():
         in_entry = any(re.search(r'\b' + re.escape(sp) + r'\b', fe) for sp in spellings)
