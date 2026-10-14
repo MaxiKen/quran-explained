@@ -272,6 +272,14 @@ class VariantTests(unittest.TestCase):
         rep = self.report(self.entry + '\n\nThe same point is made in 68:33.', blocks)
         self.assertFalse(any('68:33' in e for e in rep['errors']), rep['errors'])
 
+    def test_hadith_narrator_ibn_abi_kathir_is_not_a_banned_name(self):
+        rep = self.report(self.entry + '\n\nIbn Abī Ḥātim recorded from Yaḥyā ibn Abī Kathīr that the grass of Paradise is saffron.')
+        self.assertFalse(any('names a source' in e for e in rep['errors']), rep['errors'])
+        rep = self.report(self.entry + '\n\nIbn Kathīr said that this is so.')
+        self.assertTrue(any('names a source' in e for e in rep['errors']), rep['errors'])
+        rep = self.report(self.entry + '\n\nKathir said that this is so.')
+        self.assertTrue(any('names a source' in e for e in rep['errors']), rep['errors'])
+
     def test_imam_shafii_is_not_a_banned_name(self):
         rep = self.report(self.entry + '\n\nAsh-Shāfiʿī held that it is recited aloud.')
         self.assertFalse(any('names a source' in e for e in rep['errors']), rep['errors'])

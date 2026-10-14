@@ -44,7 +44,7 @@ PADDING_RATIO = 1.5     # flag an entry longer than base + ratio x its material
 
 BANNED = [
     # the eight works and their authors: the entry speaks in its own voice
-    r"ibn kathir", r"kathir", r"maarif", r"ma arif", r"mufti", r"muhammad shafi\b", r"shafi usmani", r"wahiduddin", r"tazkirul", r"tazkir",
+    r"(?<!abi )\bibn kathir\b", r"\bkathir(?: ibn \w+)? (?:said|says|wrote|writes|notes|noted|comments|commented|mentions|mentioned|records|recorded|narrates|narrated|reports|reported|explains|explained|prefers|preferred)\b", r"maarif", r"ma arif", r"mufti", r"muhammad shafi\b", r"shafi usmani", r"wahiduddin", r"tazkirul", r"tazkir",
     r"tanwir", r"miqbas", r"jalalayn", r"jalalain", r"mukhtasar", r"qushayri", r"qushairi", r"wahidi",
     r"lataif", r"asbab al nuzul\b(?! \()",
     # the digest voice
