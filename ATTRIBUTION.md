@@ -62,6 +62,34 @@ punctuation-normalised, because the upstream files carry `U+FFFD` where a decode
 step lost Arabic punctuation marks. Neither filter nor normalisation changes a
 word of any commentary.
 
+## Plain-English commentary (derived layer)
+
+`data/guidance_NNN.json` carries a commentary written for this app, one entry
+per verse and one introduction per sūrah, shown under the label
+"Plain-English commentary" with the note "written with AI assistance from
+eight classical tafsīrs — the sources are below".
+
+- It is a **derived work of the eight tafsīrs above**: every entry is written
+  from, and only from, the material those sources give for the verse, by the
+  pipeline in `tools/guidance/` (a large language model writes each entry
+  from the sources; deterministic checks and an audit pass verify coverage,
+  wording and originality). No entry names the works or their authors; the
+  text speaks in one integrated voice and keeps the Companions, early
+  scholars, hadith collectors and gradings exactly as the sources give them.
+- The wording is original: no run of twelve or more words is copied from a
+  source outside an explicit quotation. The sources it draws on for each
+  verse are listed in the entry's `draws_on` field and can be read in full
+  directly under the entry in the app.
+- The commentary is **not** a translation of any of the eight works and
+  should not be cited as one. Where the sources differ, the entry says so;
+  where a report is graded weak by a source, the grading is kept.
+- Each file records the generation date, model and pipeline version in its
+  `generated` field. Generated entries that did not pass the checks are left
+  out of the file, so the app falls back to the sources for those verses.
+
+Anyone reusing the derived commentary should carry this notice and the
+attribution of the underlying tafsīr texts above with it.
+
 ## Fonts
 
 | File | Face | Licence | Licence text bundled |

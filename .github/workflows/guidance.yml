@@ -1,0 +1,188 @@
+name: Guidance (plain-English commentary)
+
+# Generates data/guidance_NNN.json for a selection of surahs with the pipeline
+# in tools/guidance/, verifies it, optionally audits/repairs it with a second
+# model pass, and commits the results to the branch the workflow ran on.
+#
+# Secrets (Settings -> Secrets and variables -> Actions): ANTHROPIC_API_KEY,
+# OPENAI_API_KEY or GEMINI_API_KEY, matching the provider you choose.
+
+on:
+  workflow_dispatch:
+    inputs:
+      surahs:
+        description: 'Surahs to generate, e.g. 1,112-114 or all'
+        required: true
+        default: '1,112-114'
+      provider:
+        description: 'LLM provider'
+        type: choice
+        required: true
+        default: anthropic
+        options: [anthropic, openai, gemini, mock]
+      model:
+        description: 'Model id (blank = provider default)'
+        required: false
+        default: ''
+      tier:
+        description: 'QA tier: lean = verify only, balanced = audit flagged entries, max = audit every entry'
+        type: choice
+        required: true
+        default: balanced
+        options: [lean, balanced, max]
+      shards:
+        description: 'Parallel generation jobs (1-20)'
+        required: true
+        default: '4'
+      concurrency:
+        description: 'Concurrent API requests per shard'
+        required: true
+        default: '8'
+      replace:
+        description: 'Overwrite existing entries for these surahs instead of merging'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Use the mock provider (no API calls, placeholder text)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guidance-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Pack jobs and shards
+        id: plan
+        run: |
+          python3 tools/guidance/pack.py --surahs "${{ inputs.surahs }}" --shards "${{ inputs.shards }}"
+          python3 tools/guidance/pack.py --surahs "${{ inputs.surahs }}" --estimate
+          n=$(python3 -c "import json;print(len(json.load(open('work/shards.json'))))")
+          echo "matrix=$(python3 -c "import json;print(json.dumps(list(range($n))))")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jobs
+          path: |
+            work/jobs
+            work/shards.json
+          retention-days: 7
+
+  generate:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: jobs
+          path: work
+      - name: Generate shard ${{ matrix.shard }}
+        run: |
+          args=(--shard "${{ matrix.shard }}" --provider "${{ inputs.provider }}" --concurrency "${{ inputs.concurrency }}")
+          if [ -n "${{ inputs.model }}" ]; then args+=(--model "${{ inputs.model }}"); fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then args+=(--dry-run); fi
+          if [ "${{ inputs.replace }}" != "true" ]; then args+=(--skip-published); fi
+          python3 tools/guidance/generate.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: out-${{ matrix.shard }}
+          path: work/out
+          retention-days: 7
+          if-no-files-found: warn
+
+  publish:
+    needs: [plan, generate]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: jobs
+          path: work
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: out-*
+          path: work/out
+          merge-multiple: true
+      - name: Verify
+        run: python3 tools/guidance/verify.py --source work --surahs "${{ inputs.surahs }}" || true
+      - name: Audit and repair
+        if: inputs.tier != 'lean'
+        run: |
+          args=(--surahs "${{ inputs.surahs }}" --provider "${{ inputs.provider }}" --concurrency "${{ inputs.concurrency }}")
+          if [ -n "${{ inputs.model }}" ]; then args+=(--model "${{ inputs.model }}"); fi
+          if [ "${{ inputs.tier }}" = "max" ]; then args+=(--all); fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then args+=(--dry-run); fi
+          python3 tools/guidance/audit.py "${args[@]}"
+      - name: Assemble
+        run: |
+          args=(--surahs "${{ inputs.surahs }}")
+          if [ "${{ inputs.replace }}" = "true" ]; then args+=(--replace); fi
+          python3 tools/guidance/assemble.py "${args[@]}"
+          python3 tools/guidance/verify.py --source data --surahs "${{ inputs.surahs }}" || true
+      - name: Run tests
+        run: python3 -m unittest discover -s tools/guidance/tests
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reports
+          path: work/reports
+          retention-days: 30
+          if-no-files-found: ignore
+      - name: Commit and push
+        if: inputs.dry_run != true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/guidance_*.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"; exit 0
+          fi
+          model="${{ inputs.model }}"; [ -z "$model" ] && model="${{ inputs.provider }} default"
+          git commit -m "guidance: surahs ${{ inputs.surahs }} (${model}, ${{ inputs.tier }})"
+          for i in 1 2 3 4 5; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            echo "push rejected, rebasing (attempt $i)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}" || { git rebase --abort; exit 1; }
+          done
+          exit 1
