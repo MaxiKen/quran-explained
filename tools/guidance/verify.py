@@ -516,11 +516,30 @@ def check_fabrication(md: str, material: str, surah: int, job_verses: list[int])
                 continue
             errors.append(f'names a collector the material does not: {display}')
     for grade, spellings in GRADES.items():
-        in_entry = any(re.search(r'\b' + re.escape(sp) + r'\b', fe) for sp in spellings)
+        in_entry = any(_grade_in_entry(sp, fe, md) for sp in spellings)
         in_mat = any(re.search(r'\b' + re.escape(sp) + r'\b', fm) for sp in spellings)
         if in_entry and not in_mat:
             warnings.append(f'uses a grading the material does not ({grade})')
     return errors, warnings
+
+
+_GRADE_CONTEXT_RE = r'(?:hadith|narration|report|chain|isnad|sanad|graded?|grading|collected|recorded|narrated|transmitted|authority)'
+
+
+def _grade_in_entry(spelling: str, folded_entry: str, raw_entry: str) -> bool:
+    """The Arabic grading terms count anywhere. Their English renderings ('weak', 'rejected',
+    'strange', 'authentic' ...) are ordinary words too, so they count only in the same sentence
+    as a hadith word (the prophets they rejected / a rejected narration). Sentences are cut on
+    the raw text, because fold() removes the punctuation."""
+    if spelling in GRADES:
+        return re.search(r'\b' + re.escape(spelling) + r'\b', folded_entry) is not None
+    rx = re.compile(r'\b' + re.escape(spelling) + r'\b')
+    ctx = re.compile(r'\b' + _GRADE_CONTEXT_RE + r'\b')
+    for sent in re.split(r'(?<=[.!?])\s+|\n+', raw_entry):
+        fs = ' ' + fold(sent) + ' '
+        if rx.search(fs) and ctx.search(fs):
+            return True
+    return False
 
 
 def verify_entries(surah: int, entries: dict[int, str], blocks: list[dict], translations: dict[int, str],
@@ -729,7 +748,9 @@ def verify_data(surahs: list[int], reports_dir: str | None, data_dir: str | None
         if not entries and not g.get('intro'):
             continue
         translations = {int(k): v['en'] for k, v in load_chapter(s)['verses'].items()}
-        blocks = [b for b in blocks_for_surah(s) if any(v in entries for v in b['verses'])]
+        has_intro = bool(g.get('intro'))
+        blocks = [b for b in blocks_for_surah(s)
+                  if any(v in entries for v in b['verses']) or (has_intro and 1 in b['verses'])]
         rep = verify_entries(s, entries, blocks, translations, intro=g.get('intro') or None)
         for v, r in rep['verses'].items():
             summary[r['status']] += 1

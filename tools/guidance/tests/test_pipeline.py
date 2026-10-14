@@ -210,6 +210,25 @@ class GateTests(unittest.TestCase):
         rep = self.report(self.entry + '\n\nThis was recorded by Ibn Majah with a sound chain.')
         self.assertTrue(any('collector' in e for e in rep['errors']), rep['errors'])
 
+    def test_english_grade_words_count_only_near_a_hadith_word(self):
+        rep = self.report(self.entry + '\n\nThe prophets they rejected had come with clear proofs, and the weak were oppressed.')
+        self.assertFalse(any('grading' in w for w in rep['warnings']), rep['warnings'])
+        rep = self.report(self.entry + '\n\nThis is a rejected narration.')
+        self.assertTrue(any('munkar' in w for w in rep['warnings']), rep['warnings'])
+
+    def test_intro_alone_is_verified_against_the_opening_blocks(self):
+        from verify import verify_data
+        tmp = tempfile.mkdtemp()
+        try:
+            intro = ('This surah opens the Qur\'an. Abu Hurayrah reported that the Prophet ﷺ said it is the greatest surah, '
+                     'recorded by Al-Bukhari.\n\n### In short\n\n- A test introduction.\n- With two bullets.')
+            with open(os.path.join(tmp, 'guidance_001.json'), 'w', encoding='utf-8') as f:
+                json.dump({'surah': 1, 'intro': intro, 'verses': {}}, f)
+            summary = verify_data([1], None, data_dir=tmp)
+            self.assertEqual(summary.get('fail', 0), 0, summary)
+        finally:
+            shutil.rmtree(tmp)
+
     def test_em_dash_outside_quote_flags(self):
         rep = self.report(self.entry + '\n\nThis is a test — of the dash.')
         self.assertEqual(rep['errors'], [])
