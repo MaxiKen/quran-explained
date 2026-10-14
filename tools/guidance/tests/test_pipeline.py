@@ -283,6 +283,38 @@ class IngestTests(unittest.TestCase):
             shutil.rmtree(tmp)
 
 
+class StatusTests(unittest.TestCase):
+    """status.py derives progress from data/ only and picks the first pending job in order."""
+
+    def test_next_job_follows_published_state(self):
+        from status import next_job, published, split_parts
+        tmp = tempfile.mkdtemp()
+        try:
+            data_dir = os.path.join(tmp, 'data')
+            jobs_dir = os.path.join(tmp, 'jobs')
+            os.makedirs(data_dir)
+            self.assertEqual(published(112, data_dir), ({}, False))
+            job = next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir)
+            self.assertIsNotNone(job)
+            self.assertEqual((job.surah, job.kind, job.verses[0]), (112, 'verses', 1))
+            # publish the four verses but no intro -> the intro job is next
+            payload = {'surah': 112, 'intro': None,
+                       'verses': {str(v): {'text': 'x', 'status': 'ok'} for v in range(1, 5)}}
+            with open(os.path.join(data_dir, 'guidance_112.json'), 'w', encoding='utf-8') as f:
+                json.dump(payload, f)
+            job = next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir)
+            self.assertEqual(job.kind, 'intro')
+            payload['intro'] = 'intro text'
+            with open(os.path.join(data_dir, 'guidance_112.json'), 'w', encoding='utf-8') as f:
+                json.dump(payload, f)
+            self.assertIsNone(next_job(order=[112], data_dir=data_dir, jobs_dir=jobs_dir))
+            parts = split_parts('a' * 100 + '\n' + 'b' * 100 + '\n' + 'c' * 100, chunk=150)
+            self.assertEqual(len(parts), 3)
+            self.assertTrue(all(len(p) <= 151 for p in parts))
+        finally:
+            shutil.rmtree(tmp)
+
+
 class AnchorTests(unittest.TestCase):
     def test_sources_are_not_anchors(self):
         anchors = extract_anchors('Ibn Kathir said that Al-Qurtubi and Tafsir Al-Jalalayn agree. Qatadah said so too.')

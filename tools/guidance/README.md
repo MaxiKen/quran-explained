@@ -21,6 +21,8 @@ pack  ->  generate  ->  verify  ->  audit (optional)  ->  assemble  ->  verify -
 | verify | `verify.py` | deterministic gates (below). Writes `work/reports/NNN.json`. Exit code 1 on `fail`, or on `flag` with `--strict`. |
 | audit | `audit.py` | a second model pass: lists every point in the material and checks it is covered, lists unsupported claims and style violations, then asks the writer model to repair. A repair is kept only if the gates do not get worse. Default: only `flag`/`fail` entries; `--all` audits everything. |
 | assemble | `assemble.py` | merges the job outputs into `data/guidance_NNN.json` (minified, one line). `fail` entries are left out so the app falls back to the sources for that verse. |
+| status | `status.py` | progress derived from `data/` alone (so it survives a sandbox reset). `--next` prints the first unpublished job in the working order and packs its surah if needed; `--material JOB --part k` prints the job's material in ≤ 12 K-char parts (tool output truncates around 30 K); `--export-raw N` rebuilds `work/raw/NNN-*.md` from the published payload. |
+| resume | `resume.sh` | start-of-session script: realigns a rewound checkout with `origin`, merges the pipeline branch in if `HANDOFF.md` is missing, runs the tests, prints the progress table and the next job. |
 
 ## Running
 
@@ -53,7 +55,13 @@ Writing without an API (what was done for Surah 1): `generate.py --show JOB`
 prints the exact prompt, the entries are written by hand (or in a chat) into
 `work/raw/JOB.md` with the same `<<<VERSE S:N>>>` markers, and `ingest.py`
 files them as the job's result; `verify.py --source work`, `assemble.py` and
-`verify.py --source data` then run unchanged.
+`verify.py --source data` then run unchanged. `work/raw/` is tracked in git
+(the rest of `work/` is scratch), so the hand-written entries survive resets.
+
+Continuing in a new session: `HANDOFF.md` is the complete operating manual
+(state, final decisions, the authoring loop, gate cheat-sheet, sandbox quirks,
+progress log); `CONTINUE_PROMPT.md` is the message to paste into a new session;
+`bash tools/guidance/resume.sh` gets a fresh checkout ready.
 
 Useful switches: `generate.py --show 112-001-004` prints the exact prompt a
 job receives; `--limit 3` runs three jobs; `--only ID,ID` runs specific jobs;
@@ -147,11 +155,16 @@ tools/guidance/
   verify.py        gates and reports
   audit.py         LLM audit + repair
   assemble.py      data/guidance_NNN.json writer
+  status.py        progress from data/, next job, material in readable parts, raw export
+  resume.sh        start-of-session: realign git, tests, status, next job
+  HANDOFF.md       operating manual for continuing the work in a new session
+  CONTINUE_PROMPT.md  the prompt to paste into a new session
   providers.py     Anthropic / OpenAI / Gemini / mock, urllib only
   mock_writer.py   placeholder writer for dry runs
   prompts/         system.md, verse_job.md, intro_job.md, audit.md, repair.md, exemplars/
   tests/           python3 -m unittest discover -s tools/guidance/tests
 work/              scratch (gitignored): jobs/, shards.json, out/, reports/
+work/raw/          tracked: the hand-written / pasted entries, one file per job
 ```
 
 ## Published payload
