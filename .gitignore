@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# scratch output of tools/guidance (jobs, raw model output, reports)
+work/

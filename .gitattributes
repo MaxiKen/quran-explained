@@ -5,7 +5,7 @@
 data/tafsir_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
 
-# data/guidance_*.json carries no generated commentary any more — 112 is the
-# only file left, an empty placeholder — so it is pretty-printed and diffs
-# normally.
-data/guidance_*.json -linguist-generated
+# data/guidance_*.json is the generated plain-English commentary written by
+# tools/guidance from the tafsir payloads: single-line JSON, up to a few MB per
+# sūrah, so it is marked generated and excluded from diffs like the sources.
+data/guidance_*.json -diff linguist-generated
