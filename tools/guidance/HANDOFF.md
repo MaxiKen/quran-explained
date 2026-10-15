@@ -369,3 +369,5 @@ Model output and hand-written output are interchangeable: both end up in
 - Qushayrī/Maybudī homily sentences, maarif legal/analogy sentences and Ibn-Kathīr-style "X said that Y said" chains survive a faithful first draft as 12–17-word runs (9 in 2:120 alone). Restructure clause order, split litanies into short sentences, turn nouns into verbs: synonym swaps do not break the run.
 - Naming a collector (Ibn Abī Ḥātim, Ibn Jarīr …) that the job checklist does not list → only safe after confirming the name is in the material (`verify.fold(mat)` substring check). Garbled spellings in the material are not recognised: write "the Ṣaḥīḥ records…".
 - A verse number of an adjacent verse written bare ("114", "118", "120") shows up as a missing anchor; write it as "(2:114)" once and it is covered.
+
+| 2026-10-15 | 2 | intro + 1–266 (of 286) | 10,878 new words in 258–266 | New work entries ok=5 flag=4 fail=0. Remaining flags are coverage noise (editorial numbers, damaged name, generic words). Full verify-data remains deferred until 286 as instructed. | cd5f83c (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
