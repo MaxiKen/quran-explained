@@ -50,9 +50,24 @@ Sixteen further entries have been repaired and synchronized with the published p
 
 | 2:216 | coverage 83% (5 of 29 anchors missing); 5 verbatim runs of 12+ words ("allah made it obligatory for the muslims to…"); long sentences (avg 31.3 words); reading grade 13.9; no middle sections despite substantial material | ok, no warnings or errors |
 
+## Batch 3: matching and readability repairs
+
+Eight more entries are synchronized in raw drafts and the published chapter. Scoped checks pass unchanged gates, with sibling context. The separate matching-run check also finds no matching runs against the whole chapter's supplied material. This is not the deferred complete verification.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:94 | long sentences (avg 25.9 words) | ok, no warnings or errors |
+| 2:107 | long sentences (avg 26.7 words) | ok, no warnings or errors |
+| 2:112 | long sentences (avg 25.4 words) | ok, no warnings or errors |
+| 2:114 | long sentences (avg 25.4 words) | ok, no warnings or errors |
+| 2:118 | one verbatim run of 13 words ("the people of the two scriptures and other…") | ok, no warnings or errors |
+| 2:121 | long sentences (avg 25.6 words) | ok, no warnings or errors |
+| 2:144 | one verbatim run of 13 words ("abu aliyah mujahid ikrimah said ibn jubayr qatadah…") | ok, no warnings or errors |
+| 2:192 | one verbatim run of 12 words ("fighting you in the sacred area and come…") | ok, no warnings or errors |
+
 ## Still awaiting repair
 
-96 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+88 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -67,25 +82,18 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:42 | coverage 81% (6 of 31 anchors missing) |
 | 2:43 | coverage 77% (10 of 44 anchors missing); one verbatim run of 12 words ("and the verse in effect asks the israelites…"); long sentences (avg 25.7 words) |
 | 2:44 | coverage 82% (7 of 38 anchors missing) |
-| 2:94 | long sentences (avg 25.9 words) |
 | 2:96 | coverage 85% (4 of 26 anchors missing) |
 | 2:98 | long sentences (avg 27.8 words) |
 | 2:102 | long sentences (avg 26.6 words); reading grade 12.1 |
 | 2:106 | long sentences (avg 26.2 words); reading grade 12.6 |
-| 2:107 | long sentences (avg 26.7 words) |
 | 2:109 | long sentences (avg 28.2 words); reading grade 12.4 |
-| 2:112 | long sentences (avg 25.4 words) |
-| 2:114 | long sentences (avg 25.4 words) |
-| 2:118 | one verbatim run of 13 words ("the people of the two scriptures and other…") |
 | 2:120 | long sentences (avg 26.9 words); reading grade 12.1 |
-| 2:121 | long sentences (avg 25.6 words) |
 | 2:124 | coverage 73% (34 of 127 anchors missing); 12 verbatim runs of 12+ words ("the way of islam is the way of…") |
 | 2:125 | 12 verbatim runs of 12+ words ("yet its power to draw millions of people…"); long sentences (avg 27.0 words) |
 | 2:126 | 14 verbatim runs of 12+ words ("for the well being of his family in…") |
 | 2:127 | 11 verbatim runs of 12+ words ("o khalil of rahman you raise the foundations…"); entry is long for its material (3319 words for ~576 words of material): check for padding |
 | 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
 | 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
-| 2:144 | one verbatim run of 13 words ("abu aliyah mujahid ikrimah said ibn jubayr qatadah…") |
 | 2:147 | coverage 80% (2 of 10 anchors missing); one verbatim run of 13 words ("strengthens the resolve of his prophet and the…") |
 | 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") |
 | 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") |
@@ -123,7 +131,6 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:189 | 2 verbatim runs of 12+ words ("the ansar used to enter their houses from…"); long sentences (avg 28.1 words); reading grade 12.3 |
 | 2:190 | 4 verbatim runs of 12+ words ("to those who are fought against because they…"); long sentences (avg 29.4 words); reading grade 12.7 |
 | 2:191 | one verbatim run of 16 words ("abu aliyah mujahid said ibn jubayr ikrimah hasan…"); long sentences (avg 28.8 words); reading grade 12.6 |
-| 2:192 | one verbatim run of 12 words ("fighting you in the sacred area and come…") |
 | 2:193 | one verbatim run of 15 words ("that two men came to ibn umar during…"); long sentences (avg 29.9 words); reading grade 13.0 |
 | 2:194 | 5 verbatim runs of 12+ words ("ibn abbas dahhak suddi qatadah miqsam rabi ibn…"); long sentences (avg 25.7 words) |
 | 2:195 | 11 verbatim runs of 12+ words ("spend your wealth in obedience to allah in…"); long sentences (avg 27.0 words) |
