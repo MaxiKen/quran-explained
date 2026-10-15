@@ -80,9 +80,37 @@ Eight further entries pass unchanged scoped gates and a separate matching check 
 | 2:169 | coverage 82% (2 of 11 anchors missing); one verbatim run of 16 words ("the truth while the angelic suggestion promises reward…") | ok, no warnings or errors |
 | 2:172 | 3 verbatim runs of 12+ words ("is acting with complete devotion to him and…") | ok, no warnings or errors |
 
+## Batch 5: fifteen entries addressed in one run
+
+Fourteen additional entries pass scoped unchanged gates with actual published sibling context. All fifteen revised entries have no failures and no matching runs against the whole chapter material. This is not the deferred complete verification. Changes include source-grounded paraphrases, sentence splitting and recovery of grammatical readings and charitable-giving qualifications.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:31 | long sentences (avg 28.6 words); reading grade 12.2 | ok, no warnings or errors |
+| 2:98 | long sentences (avg 27.8 words) | ok, no warnings or errors |
+| 2:109 | long sentences (avg 28.2 words); reading grade 12.4 | ok, no warnings or errors |
+| 2:120 | long sentences (avg 26.9 words); reading grade 12.1 | ok, no warnings or errors |
+| 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") | ok, no warnings or errors |
+| 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") | ok, no warnings or errors |
+| 2:150 | 8 verbatim runs of 12+ words ("the people of the book knew from the…") | ok, no warnings or errors |
+| 2:151 | 5 verbatim runs of 12+ words ("sent in answer to the prayer of the…") | ok, no warnings or errors |
+| 2:152 | 14 verbatim runs of 12+ words ("said o ibn adam if you mention me…") | ok, no warnings or errors |
+| 2:171 | 4 verbatim runs of 12+ words ("is reported from ibn abbas abu aliyah mujahid…") | ok, no warnings or errors |
+| 2:179 | 3 verbatim runs of 12+ words ("wise people should have no difficulty in seeing…") | ok, no warnings or errors |
+| 2:252 | coverage 80% (2 of 10 anchors missing) | ok, no warnings or errors |
+| 2:254 | coverage 50% (3 of 6 anchors missing) | flag: coverage 83%, truncated shafā anchor remains |
+| 2:265 | coverage 75% (2 of 8 anchors missing) | ok, no warnings or errors |
+| 2:266 | coverage 80% (3 of 15 anchors missing) | ok, no warnings or errors |
+
+### Reviewed residual: 2:254
+
+The supplied grammatical gloss writes the forms `shafā‘atun` and `shafā‘ata`. Its transliteration extractor truncates that expression to the standalone anchor `shafā`. The revised entry explains both grammatical readings and supplies their noun forms; it already explains intercession as `shafā'ah` and its dependence on Allah's permission. No substantive intercession point is missing on this evidence. The remaining scoped coverage flag is retained in the payload rather than adding a fictitious standalone technical term or changing verifier rules. The exact source is the grammatical gloss in `data/tafsir_002.json`, range 2:254. The revised report is coverage 5/6, no errors, no matching runs.
+
+Current campaign accounting: 62 baseline entries repaired with scoped passes, one edited and reviewed with a residual detector flag, and 65 baseline entries still awaiting review. These are campaign counts, not fresh full-chapter totals.
+
 ## Still awaiting repair
 
-80 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+65 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -92,28 +120,19 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:21 | coverage 80% (12 of 60 anchors missing) |
 | 2:25 | coverage 83% (4 of 23 anchors missing) |
 | 2:28 | coverage 83% (2 of 12 anchors missing) |
-| 2:31 | long sentences (avg 28.6 words); reading grade 12.2 |
 | 2:41 | coverage 84% (9 of 58 anchors missing); long sentences (avg 27.5 words); reading grade 12.4 |
 | 2:42 | coverage 81% (6 of 31 anchors missing) |
 | 2:43 | coverage 77% (10 of 44 anchors missing); one verbatim run of 12 words ("and the verse in effect asks the israelites…"); long sentences (avg 25.7 words) |
 | 2:44 | coverage 82% (7 of 38 anchors missing) |
 | 2:96 | coverage 85% (4 of 26 anchors missing) |
-| 2:98 | long sentences (avg 27.8 words) |
 | 2:102 | long sentences (avg 26.6 words); reading grade 12.1 |
 | 2:106 | long sentences (avg 26.2 words); reading grade 12.6 |
-| 2:109 | long sentences (avg 28.2 words); reading grade 12.4 |
-| 2:120 | long sentences (avg 26.9 words); reading grade 12.1 |
 | 2:124 | coverage 73% (34 of 127 anchors missing); 12 verbatim runs of 12+ words ("the way of islam is the way of…") |
 | 2:125 | 12 verbatim runs of 12+ words ("yet its power to draw millions of people…"); long sentences (avg 27.0 words) |
 | 2:126 | 14 verbatim runs of 12+ words ("for the well being of his family in…") |
 | 2:127 | 11 verbatim runs of 12+ words ("o khalil of rahman you raise the foundations…"); entry is long for its material (3319 words for ~576 words of material): check for padding |
 | 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
 | 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
-| 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") |
-| 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") |
-| 2:150 | 8 verbatim runs of 12+ words ("the people of the book knew from the…") |
-| 2:151 | 5 verbatim runs of 12+ words ("sent in answer to the prayer of the…") |
-| 2:152 | 14 verbatim runs of 12+ words ("said o ibn adam if you mention me…") |
 | 2:155 | coverage 81% (6 of 32 anchors missing); 7 verbatim runs of 12+ words ("of what will make them happy in this…") |
 | 2:156 | 6 verbatim runs of 12+ words ("if we are not pleased with his decree…"); long sentences (avg 25.4 words) |
 | 2:158 | 3 verbatim runs of 12+ words ("when islam came and the idols were destroyed…"); long sentences (avg 26.0 words) |
@@ -122,12 +141,10 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:164 | coverage 83% (5 of 30 anchors missing); 6 verbatim runs of 12+ words ("bypass the wonder of the creation of the…") |
 | 2:165 | 6 verbatim runs of 12+ words ("hypocrites who buried their gold and silver or…") |
 | 2:170 | coverage 77% (5 of 22 anchors missing); 5 verbatim runs of 12+ words ("are called to follow what allah has revealed…"); long sentences (avg 25.4 words); reading grade 12.6 |
-| 2:171 | 4 verbatim runs of 12+ words ("is reported from ibn abbas abu aliyah mujahid…") |
 | 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5 |
 | 2:174 | 8 verbatim runs of 12+ words ("the people would abandon them and follow him…"); long sentences (avg 26.1 words) |
 | 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
 | 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words) |
-| 2:179 | 3 verbatim runs of 12+ words ("wise people should have no difficulty in seeing…") |
 | 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6 |
 | 2:183 | 4 verbatim runs of 12+ words ("them to fast that is to abstain from…"); long sentences (avg 25.6 words) |
 | 2:184 | coverage 84% (8 of 51 anchors missing); 2 verbatim runs of 12+ words ("and whoever is present with the creator of…"); long sentences (avg 27.9 words) |
@@ -159,12 +176,8 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:235 | coverage 76% (5 of 21 anchors missing) |
 | 2:236 | coverage 73% (3 of 11 anchors missing) |
 | 2:240 | coverage 84% (5 of 31 anchors missing) |
-| 2:252 | coverage 80% (2 of 10 anchors missing) |
-| 2:254 | coverage 50% (3 of 6 anchors missing) |
 | 2:262 | coverage 82% (3 of 17 anchors missing) |
 | 2:264 | coverage 82% (3 of 17 anchors missing) |
-| 2:265 | coverage 75% (2 of 8 anchors missing) |
-| 2:266 | coverage 80% (3 of 15 anchors missing) |
 | 2:269 | coverage 84% (5 of 32 anchors missing) |
 | 2:275 | coverage 80% (17 of 85 anchors missing) |
 | 2:276 | coverage 83% (5 of 29 anchors missing) |
