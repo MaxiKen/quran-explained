@@ -48,6 +48,10 @@ State (keep §8 current):
   verse 286. That instruction was honoured for the concluding work, and the
   final check has now run: **287 entries, ok=159 flag=128 fail=0**. This is a
   completed Surah-2-specific deferral, not a permanent ban on verification.
+- Flag repair is now in progress. Sixteen originally flagged entries have
+  passed scoped checks after repairs. See `FLAG_REVIEW_002.md` for the exact
+  batch and the 112 remaining baseline flagged entries. The earlier full
+  result below is historical; a new full-chapter result is still pending.
 - The 128 flags are **not all coverage noise**. They include long sentences,
   reading grade, matching runs, coverage, length and missing middle sections.
   Flags are publishable under the agreed gates, but remain editorial review
@@ -399,6 +403,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-15 | 2 | intro + 1–266 (of 286) | 10,878 new words in 258–266 | New work entries ok=5 flag=4 fail=0. Remaining flags are coverage noise (editorial numbers, damaged name, generic words). Full verify-data remains deferred until 286 as instructed. | cd5f83c (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
 | 2026-10-15 | 2 | complete: intro + 1–286 | 412,897 verse words total; 25,310 new words in 267–286 | Full published-data verification, run only after 286: 287 entries, ok=159 flag=128 fail=0. All 42 pipeline tests pass. All 286 verses and introduction render with zero leftover Markdown markers. | b4846f0 (seven sequential job pushes for 267–286 on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 1: 3, 4, 6, 16, 20, 22, 23, 29, 33, 40, 167, 202, 205, 206, 241, 279 | prose and structure repairs, no new verses | 16 entries pass scoped unchanged gates with sibling context. 112 baseline flagged entries remain. Interrupted full recheck was terminated without a result. See FLAG_REVIEW_002.md. | current flag-repair commit | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 
