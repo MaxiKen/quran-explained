@@ -1,34 +1,60 @@
-# Prompt to start a new session and continue automatically
+# Start a chapter in a new session
 
-Paste the block below as the first message of a new Arena session on
-`MaxiKen/quran-explained`. It works whether or not the pipeline branch has been
-merged to `main` yet.
+Once the current pipeline/setup instructions are in the checkout, you only need
+to send a chapter number, for example:
 
-Current checkpoint (2026-10-15): Al-Baqarah is complete, including all 286
-verses and its introduction. All 128 baseline flags have been addressed.
-Full published-data verification after the review found 272 ok, 15 reviewed
-residual flags and zero failures. No gates were relaxed. These results are
-not scholarly certification. The next pipeline job would be `003-intro`,
-but Surah 3 and a main merge are not authorized in the current session.
-Continue only within the maintainer's live authorized scope; do not start
-Surah 3 automatically. See FLAG_REVIEW_002.md for review dispositions.
+```text
+18
+```
 
----
+That requests the introduction and every verse of chapter 18, or resumption of
+its incomplete work. Numbers 1–114 are accepted. Later chapters may be generated
+before earlier chapters. Each session stays on its assigned branch and selected
+chapter. A completed chapter is reported, not automatically regenerated.
 
-Continue the plain-English commentary project in this repository. Work autonomously; all design decisions were made and recorded, so do not ask me about them.
+## Optional pasteable prompt
 
-1. If `tools/guidance/HANDOFF.md` is not in your checkout, bring the pipeline in without leaving your session branch:
-   `git fetch origin arena/e527c26f-quran-explained && git merge --no-edit origin/arena/e527c26f-quran-explained`
-2. Read `AGENTS.md` and `tools/guidance/HANDOFF.md` completely. Then read `tools/guidance/prompts/system.md`, `prompts/verse_job.md`, `prompts/exemplars/001_002.md`, and the published entries for 1:4 and 1:6 in `data/guidance_001.json`, so your writing matches the calibration.
-3. Run `bash tools/guidance/resume.sh`. It realigns git if the sandbox rewound, runs the tests and prints the next job. Start the preview with the process tool: `python3 tools/serve.py 8000`.
-4. Work in strict surah order, 1 → 2 → 3 … 114 (the next pending job is whatever `status.py --next` prints, intro first, then verses in order). Work job by job exactly as HANDOFF §4 says, three tool calls per job: read every part of `python3 tools/guidance/digest.py <job>` (parts in parallel; the checklist at the top is what the gates want), write the whole job to `work/raw/<job>.md` with the `<<<VERSE S:N>>>` markers, then `python3 tools/guidance/finish.py <job>` (it ingests, runs the gates, publishes, commits, pushes and prints the next job; if it reports a FAIL, fix the raw file and run it again). Continue to the next job in the same turn. If I explicitly defer full published-data verification, do not use `finish.py` during that deferral: follow HANDOFF §4.4’s manual ingest → work gates → assemble → commit → push path, then run full-data verification at the requested endpoint.
-5. Rules that must never bend: write only from the job's material; never name the eight tafsīr works or their authors; no Arabic script, no em dashes or semicolons outside quotes; length proportional to the material; one entry per verse plus a surah introduction; never publish a `fail`, never use `--include-failed`, never loosen `verify.py` to pass an entry; stay on the session branch; never force-push.
-6. Push after every job. Before you stop (end of context or when I say stop), make sure everything is committed and pushed, add a row to HANDOFF §8 for what you published, and give me a short report: surahs and verses published, words, ok/flag counts, anything needing my decision.
+Generate or resume chapter **18** in this repository. Follow AGENTS.md,
+HANDOFF.md and CHAPTER_RUN.md. Read the authoring prompts and exemplars, then
+work autonomously without asking me to repeat established design decisions.
 
-Begin with step 1 now.
+1. Inspect the working tree and record the session branch and starting commit
+   in `tools/guidance/chapters/018.md`. Do not switch branches or overwrite other
+   work. The checkout must already include these setup instructions; do not
+   import a historical content branch wholesale.
+2. Use `python3 tools/guidance/status.py --next --surah 18`. Write the intro,
+   then verse jobs in verse order, reading every digest part. Resume existing
+   entries and retain approved exemplars. Earlier chapters need not be complete.
+3. Use `finish.py JOB` for per-job ingestion, work gates, assembly, commit and
+   push. It does not run full published-chapter verification or advance to a
+   different chapter. Correct failures and substantive omissions with scoped
+   checks before finalization. Do not relax any verification gates.
+4. Run FULL CHAPTER VERIFICATION **once**, only after the introduction and every
+   verse have been fully generated and intended repairs finished. Do not run
+   it on a partial chapter or after every job, batch, push or session. Record
+   the result and payload hash in the chapter-local receipt; reuse a matching
+   receipt on resume. Stop and report unexpected final failures rather than
+   silently repeating full checks. See CHAPTER_RUN.md for later-change policy.
+5. Change only this chapter's payload, raw drafts and chapter-local report.
+   Do not edit shared instruction/progress files, other chapter content or UI
+   files. Never stage unrelated changes. Keep the source-grounded anonymous
+   voice, all substantive coverage, collectors/grades and disagreements.
+6. At completion, run tests and render/raw consistency checks as prescribed,
+   finalize `tools/guidance/chapters/018.md`, commit/push and stop. End with the
+   exact list of every created/updated/deleted file, including ignored scratch
+   outputs separately, branch, base/final commits, verification result and
+   chapter-only merge allowlist. Inspect inherited branch changes before
+   suggesting a chapter-only PR; never overwrite newer main or merge without
+   authorization.
 
----
+Replace 18/018 with the chapter requested. Do not start another chapter until
+I give its number.
 
-If the maintainer has enabled the GitHub Actions path (secrets added, workflow on
-`main`), say so in the first message instead, e.g. *"Secrets are set; run the
-pilot through Actions (HANDOFF §7) and then verify and spot-read the output."*
+## Historical checkpoint
+
+Surahs 1 and 2 are complete. Al-Baqarah's baseline flags were reviewed; its last
+full published-data check found 272 ok, 15 reviewed residual flags and zero
+failures over 287 entries. Those results are not scholarly certification and
+are not a reason to reverify chapter 2 when generating a different chapter.
+Use chapter payloads and chapter-local receipts for live status, not this
+historical checkpoint.

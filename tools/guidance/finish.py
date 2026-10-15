@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One call to finish a job: ingest → verify → (assemble → verify data → commit → push).
+"""One call to finish a job: ingest → verify → (assemble → commit → push).
 
     python3 tools/guidance/finish.py 002-001-001
     python3 tools/guidance/finish.py 002-intro --no-push
@@ -8,8 +8,10 @@
 Reads work/raw/<job>.md, files it as the job's result, runs the gates and
 prints a compact report for the job's entries only. If any entry fails, it
 stops there (fix work/raw/<job>.md and run again). Otherwise it merges the job
-into data/guidance_NNN.json, verifies the published file, commits the payload
-and the raw file, pushes to the current branch, and prints the next job.
+into data/guidance_NNN.json, commits the payload
+and the raw file, pushes to the current branch, and prints the next job in
+the same chapter. Full published-data verification is deferred until all
+verses and the introduction are complete; follow CHAPTER_RUN.md once then.
 """
 from __future__ import annotations
 
@@ -101,14 +103,9 @@ def main() -> int:
     if failed:
         print('→ fix work/raw/%s.md and run finish.py again (nothing published)' % job_id)
         return 1
-    # 3. assemble + verify published
+    # 3. Assemble only. Full chapter verification must not run per job.
     run([PY, os.path.join(HERE, 'assemble.py'), '--surahs', str(surah)])
-    cp = run([PY, os.path.join(HERE, 'verify.py'), '--source', 'data', '--surahs', str(surah)], check=False)
-    summary = (cp.stdout.strip().splitlines() or ['(no summary)'])[-1]
-    print(f'published → data/guidance_{surah:03d}.json · {summary}')
-    if cp.returncode != 0:
-        print('→ the published file has a failing entry; stopping before commit')
-        return 1
+    print(f'published → data/guidance_{surah:03d}.json · full verification deferred until chapter completion')
     # 4. commit + push
     if not args.no_commit:
         payload = os.path.join(DATA, f'guidance_{surah:03d}.json')
@@ -134,9 +131,9 @@ def main() -> int:
     # 5. next
     try:
         from status import next_job
-        nj = next_job()
+        nj = next_job(order=[surah])
         if nj is None:
-            print('next: nothing left, all 114 surahs are published')
+            print(f'chapter {surah} complete: follow CHAPTER_RUN.md for the single final verification and file manifest; do not start another chapter')
         else:
             print(f'next: {nj.id}   →   python3 tools/guidance/digest.py {nj.id}')
     except Exception as exc:  # pragma: no cover

@@ -1,3 +1,8 @@
+> Current chapter-session policy: read [CHAPTER_RUN.md](CHAPTER_RUN.md).
+> Chapter numbers select any chapter; progress and manifests are chapter-local.
+> Full published-chapter verification runs once, only after all verses and intro.
+> Earlier progress rows describe historical runs, not current verification policy.
+
 # HANDOFF — continuing the plain-English commentary, session after session
 
 This file is the contract between sessions. A new agent (or a person) who reads
@@ -5,11 +10,10 @@ it and follows it will continue the work exactly as it was agreed with the
 maintainer, with no design question re-opened and no step skipped. Read all of
 it once, then work from §4.
 
-Start of every session:
-
-```bash
-bash tools/guidance/resume.sh        # realigns git if the sandbox rewound, tests, progress table, next job
-```
+Start a selected-chapter session using `CHAPTER_RUN.md`: inspect the working
+tree, save the starting commit, run tests and use `status.py --next --surah N`.
+The legacy `resume.sh` prints global discovery and can import a historical
+branch; it is not the default for isolated chapter sessions.
 
 Then keep the preview alive with the process tool: `python3 tools/serve.py 8000`
 (binds 0.0.0.0, sends no-store headers).
@@ -27,15 +31,15 @@ rendered by the app above the folded sources under the label
 **"Plain-English commentary"** with the disclosure
 *"written with AI assistance from eight classical tafsīrs — the sources are below"*.
 
-State (keep §8 current):
+Historical state (routine new chapter progress belongs in `chapters/SSS.md`):
 
 | surah | published | how |
 |---|---|---|
 | 1 Al-Fatihah | 7/7 + intro (24,361 words) | written in-session, through the pipeline, commit `85469f7` |
-| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until the sequence reaches 112: ingest that file, write `112-intro`, assemble. |
+| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until chapter 112 is requested: ingest that file, write `112-intro`, assemble. |
 | 55 Ar-Rahman | 1/78 (exemplar 55:13) | seeded from `prompts/exemplars/055_013.md` |
 | 2 Al-Baqarah | 286/286 + intro | completed, 406,848 verse words after repairs; full verification ok=272 flag=15 fail=0 |
-| everything else | 0 | pending, in order: 3 (next job `003-intro`), then 4 … 114 |
+| everything else | 0 | pending: any chapter selected by the user |
 
 `python3 tools/guidance/status.py` prints the live version of this table.
 
@@ -54,7 +58,8 @@ State (keep §8 current):
   render without leftover Markdown markers. This is not scholarly certification
   or a substitute for a browser smoke test.
 - The next pipeline job would be `003-intro`, but **Surah 3 and merging to
-  main are not authorized in this session**. Do not start either automatically.
+  main require authorization**. A new user-provided chapter number selects that
+  chapter in any order; a merge still requires separate authorization.
 - The layer faithfully explains supplied material, including historical legal
   and economic views. It does not independently update those views into
   present-day law, financial advice or a contemporary fatwa. Do not add modern
@@ -101,7 +106,7 @@ semicolons outside quotations.
 | `status.py` | progress table from `data/`; `--next` the next pending job (packs the surah if `work/` is gone); `--material JOB --part k` prints a job's material, Arabic stripped, in ≤ 12 K-char parts; `--export-raw N` rebuilds `work/raw/*.md` from a published surah. |
 | `resume.sh` | start-of-session: git realignment, tests, status, next job. |
 | `digest.py` | a job's material prepared for complete, fast reading: per-verse checklist of the anchors the coverage gate wants, the translations to quote, then the material with Arabic/honorifics removed, referenced verse quotations collapsed to `[Q S:N …]` and repeated paragraphs collapsed. 27 K-char parts. `--quote S:N` prints the app's translation of any verse. |
-| `finish.py` | one command per job: ingest → gates (compact report for the job only) → assemble → verify data → commit → push → next job. Stops at any FAIL. |
+| `finish.py` | one command per job: ingest → gates (compact report for the job only) → assemble → commit → push → next job in the same chapter. Stops at any FAIL. |
 | `pack.py` | builds `work/jobs/NNN.json`: jobs of ≤ 8 verses / ≤ 60 K chars with per-verse material shares. `--estimate` for token/cost numbers. |
 | `generate.py` | API path (Anthropic/OpenAI/Gemini). `--show JOB` prints the exact user prompt for a job (the system prompt is `prompts/system.md` + exemplars). `--dry-run` uses the mock writer. |
 | `ingest.py` | files an output written outside `generate.py` (by hand, in a chat, from a batch API) as the job's result in `work/out/`. Refuses incomplete jobs. |
@@ -123,19 +128,24 @@ registry.npmjs.org), and the GitHub token cannot read secrets or dispatch
 workflows. So unless §7 becomes possible, **the agent is the writer**: it reads
 the material and writes the entries itself, and everything else is the pipeline.
 
-### 4.1 Pick the job
+### 4.1 Select the requested chapter, in any chapter order
+
+**Current policy: `CHAPTER_RUN.md` supersedes historical sequential-generation
+and repeated full-verification instructions.** A chapter number alone selects
+that chapter for the session. Later chapters may precede earlier chapters.
+Different sessions may generate different chapters concurrently.
 
 ```bash
-python3 tools/guidance/status.py --next
+python3 tools/guidance/status.py --next --surah 18
 ```
 
-Order is fixed by the maintainer: **1 → 2 → 3 … 114, in sequence** (the
-`ORDER` list in `status.py`). Within a surah: the introduction job first
-(`NNN-intro`), then the verse jobs in verse order. Take the job it prints. Do
-not skip ahead, do not pick favourites. A surah is published incrementally:
-`assemble.py` merges each finished job into `data/guidance_NNN.json`, so
-Al-Baqarah appears in the app verse-group by verse-group while it is being
-written, and verses not yet published fall back to the sources.
+Replace 18 with the selected chapter. Save the starting commit and branch in
+`tools/guidance/chapters/SSS.md`. Within that chapter, write the introduction
+first, then verse jobs in order. Resume published work without regenerating it.
+Do not select the global next job or automatically advance to another chapter.
+Publish incrementally; untouched verses continue to fall back to the supplied
+commentaries. Keep every routine content change chapter-local so independently
+generated chapters can be merged without overwriting newer main changes.
 
 ### 4.2 Read all of the material (the fast way)
 
@@ -210,46 +220,35 @@ Writing rules in the order they bite:
    and write the others.
 
 Commit the raw file as soon as a verse is finished (cheap insurance against a
-sandbox reset): `git add work/raw && git commit -m "raw: 112-001-004 wip"`.
+sandbox reset): `git add work/raw/112-001-004.md && git commit -m "raw: 112-001-004 wip"`.
 
-### 4.4 Finish the job: one command
-
-```bash
-python3 tools/guidance/finish.py 002-001-001
-```
-
-It ingests `work/raw/002-001-001.md`, runs the gates and prints, for the job's
-entries only: status, words, coverage, ratio, every FAIL message, every flag,
-and the missing anchors. If anything fails it stops (nothing is published):
-edit the raw file and run it again. If nothing fails it merges the job into
-`data/guidance_002.json`, verifies the published file, commits the payload and
-the raw file (`Surah 2: verses 8-13 (6,120 words)`), pushes to the current
-branch, and prints the next job. Then go straight to the next job's digest.
-
-#### When the maintainer explicitly defers full-data verification
-
-`finish.py` currently runs full published-data verification after **every job**.
-Do not call it during an explicit deferral. The manual equivalent used to
-complete Surah 2 is:
+### 4.4 Finish each job; verify the full chapter once at completion
 
 ```bash
-python3 tools/guidance/ingest.py --job JOB --file work/raw/JOB.md
-python3 tools/guidance/verify.py --source work --surahs S
-# Inspect the job report. Correct every failure and substantive omission.
-python3 tools/guidance/assemble.py --surahs S
-# Inspect the assembled result, then commit its payload and raw draft.
-git add data/guidance_SSS.json work/raw/JOB.md
-git commit -m "Surah S: completed job"
-git push origin SESSION_BRANCH
+python3 tools/guidance/finish.py 018-intro
 ```
 
-`JOB`, `S`, `SSS` and `SESSION_BRANCH` are placeholders, not literal commands.
-Assembly re-runs the gates and omits failed entries. Do not override it with
-`--include-failed`. Once the requested endpoint is reached, run
-`verify.py --source data --surahs S`, correct failures, run tests and the
-render check, and record the full result in §8. Without an explicit deferral,
-`finish.py` remains the documented default. Its repeated full check can be
-slow (the complete Surah-2 check took about 24 minutes).
+This ingests the selected raw draft, runs work-output gates, assembles that
+chapter, commits its payload/raw draft and pushes to the current session branch.
+It stops on a job failure. **It does not run full published-chapter verification.**
+The next-job message is restricted to the same chapter.
+
+Use the manual ingest → work gates → assemble → chapter-only commit/push path
+in `CHAPTER_RUN.md` if needed. Never use `--include-failed`. Scoped/work checks
+remain mandatory; no full-data check may run while the chapter is partial.
+
+After the introduction and **every verse** are complete, finish intended repairs,
+check raw/published consistency, run tests and render checks, then run
+`python3 tools/guidance/verify.py --source data --surahs S` **once**. Record its
+result, residual diagnostics and payload hash in the chapter-local completion
+receipt. Reuse the receipt when resuming; do not run again per session or push.
+Unexpected final failures or later edits require an explicit review decision,
+not silent repeated full checks. See `CHAPTER_RUN.md` for the full policy.
+
+At chapter completion list every file created, updated, renamed or deleted,
+including ignored scratch outputs separately, and provide a chapter-only merge
+allowlist. Do not edit shared HANDOFF/AGENTS/prompt files during routine chapter
+generation. Do not merge a branch with inherited unrelated content wholesale.
 
 Fix every FAIL. Fix a flag when it is a real gap (a missing name you can
 place, a verbatim run you can rephrase). Do not chase coverage noise (nisba-only
@@ -261,8 +260,9 @@ permitted `verify.py` changes are genuine false positives (a spelling variant,
 a punctuation form), each with a test in `tests/test_pipeline.py`.
 
 For long surahs this means a push after every job: the merged payload is the
-state, and `status.py --next` resumes from it after any reset. When a surah is
-complete, add a row to §8 and move on without waiting. Bump nothing in
+state, and `status.py --next --surah N` resumes that chapter after any reset.
+When complete, finalize `chapters/SSS.md`, give the file manifest and stop.
+Do not move to another chapter without a new request. Bump nothing in
 `sw.js` for payloads (only if `js/app.js` or `index.html` change).
 
 Occasionally (once per surah is enough) run the render check so the app's
@@ -290,13 +290,15 @@ EOF
 - Go on to the next job in the same turn. Report to the maintainer at the end
   of the turn, not after every job.
 - Commit and push happen inside `finish.py`; the raw file for a half-written
-  long job can be committed early (`git add work/raw && git commit -m "raw: wip"`).
+  long job can be committed early (`git add work/raw/JOB.md && git commit -m "raw: JOB wip"`).
 
 ### 4.6 End of session
 
-Everything committed and pushed; §8 updated; one-paragraph report to the
-maintainer: surahs/verses done, words, ok/flag counts, anything that needs a
-human decision.
+Commit and push only selected-chapter changes. Update `chapters/SSS.md`, not
+shared §8. Give completion/verification state, branch/base/final commits and
+the exact created/updated/deleted file list, with ignored scratch files separate.
+A partial chapter leaves full verification deferred. A completed chapter gets
+one final full check and a receipt, then stops. Follow `CHAPTER_RUN.md`.
 
 ## 5. Gate cheat-sheet (every message seen so far, with the fix that worked)
 
@@ -339,8 +341,9 @@ is forbidden by this contract.
   If a push is rejected: `git fetch`, `git reset --mixed origin/<branch>`, recommit.
   **Never force-push.**
 - **Sessions are pinned to one branch.** Work only on the session's branch; a new
-  session's branch starts from `main`, so merge
-  `origin/arena/e527c26f-quran-explained` into it (resume.sh does) until the PR is merged.
+  session's branch may start from `main`. Ensure the current pipeline setup is
+  available; do not merge a historical content branch wholesale merely to
+  import tooling. Inspect inherited changes before proposing a chapter-only PR.
 - Single-line JSON > 1 MB shows as an empty diff on GitHub; verify remote content
   with `gh api repos/MaxiKen/quran-explained/contents/data/guidance_NNN.json?ref=<branch> --jq .size`.
 - The corpus names the eight works inside the texts (Maʿārif cites "Ibn Kathir"

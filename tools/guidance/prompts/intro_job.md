@@ -33,3 +33,16 @@ Everything in the material that concerns the surah as a whole goes in, once. Not
 <<<NOTES>>>
 (one line per point left out and why, or none)
 <<<END>>>
+
+
+# Chapter-session scope
+
+Write only the requested chapter/job. Chapters can be generated in any order
+in different sessions; earlier chapters need not already be generated. Within
+the selected chapter, keep verse order and source-grounded self-contained
+entries. Do not invent connections to previously generated content. The
+orchestrating agent must follow CHAPTER_RUN.md: work-output checks throughout,
+one full published-chapter verification only after the introduction and every
+verse are complete, then a chapter-local completion receipt and exact file
+change manifest. These operational notes are not part of the commentary output
+or its verse/intro/NOTES markers.

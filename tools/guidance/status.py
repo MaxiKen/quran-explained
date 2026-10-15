@@ -9,8 +9,8 @@
     python3 tools/guidance/status.py --export-raw 1   # rebuild work/raw/<job>.md from data/guidance_001.json
 
 Progress is read from data/guidance_NNN.json only, never from work/, so it
-survives a wiped sandbox. Order of work: surahs 1 -> 114 in sequence, the
-introduction of a surah before its verses. A surah is finished when every verse and the introduction are
+survives a wiped sandbox. Select any chapter with --surah N; chapter order
+is unrestricted. Within a chapter, write the introduction before its verses. A surah is finished when every verse and the introduction are
 published; a verse job is pending while any of its verses is unpublished.
 """
 from __future__ import annotations
@@ -27,7 +27,7 @@ sys.path.insert(0, HERE)
 from common import DATA, WORK, Job, chapter_meta, ensure_dir, read_json, strip_arabic_lines, word_count  # noqa: E402
 from generate import load_jobs, render_user  # noqa: E402
 
-ORDER = list(range(1, 115))   # maintainer's decision: strictly 1 -> 2 -> 3 ... 114
+ORDER = list(range(1, 115))   # default discovery order, not a generation restriction
 CHUNK = 12_000   # the sandbox tool output truncates around 30 K characters; keep every print well under that
 
 
@@ -144,6 +144,7 @@ def export_raw(surah: int, jobs_dir: str, raw_dir: str, data_dir: str = DATA) ->
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--all', action='store_true', help='list all 114 surahs')
+    ap.add_argument('--surah', type=int, choices=range(1, 115), metavar='N', help='restrict --next to the requested chapter (1–114)')
     ap.add_argument('--next', action='store_true', help='print the next pending job')
     ap.add_argument('--show', action='store_true', help='with --next: print the full prompt for the job')
     ap.add_argument('--material', default=None, help='job id: print its material, Arabic lines stripped')
@@ -178,9 +179,9 @@ def main() -> int:
         return 0
 
     if args.next:
-        job = next_job(data_dir=args.data_dir, jobs_dir=args.jobs)
+        job = next_job(order=[args.surah] if args.surah else None, data_dir=args.data_dir, jobs_dir=args.jobs)
         if not job:
-            print('nothing pending: every verse and introduction is published')
+            print(f'nothing pending: chapter {args.surah} is fully published' if args.surah else 'nothing pending: every verse and introduction is published')
             return 0
         done, _ = published(job.surah, args.data_dir)
         todo = [v for v in job.verses if v not in done]
