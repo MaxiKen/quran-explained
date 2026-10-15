@@ -18,7 +18,16 @@ python3 tools/serve.py 8000            # run with the process tool so the previe
 
 Then follow HANDOFF §4 job by job, three tool calls per job: read all of
 `digest.py <job>` (checklist + material), write `work/raw/<job>.md`, run
-`finish.py <job>` (gates, publish, commit, push, next job).
+`finish.py <job>` (gates, publish, commit, push, next job). `finish.py` runs
+full published-data verification on every job. If the maintainer explicitly
+defers that check, use HANDOFF §4.4's manual work-gated publishing path until
+the requested endpoint, then run the full check.
+
+Current checkpoint (2026-10-15): Surahs 1 and 2 are complete. Next job:
+`003-intro`, unless live `status.py --next` shows further progress. Surah 2's
+final verification was run after verse 286: 159 ok, 128 flagged, zero failed
+entries. Flags are review items, not proof of complete editorial or scholarly
+validation.
 
 Non-negotiables (details and reasons in the handoff):
 

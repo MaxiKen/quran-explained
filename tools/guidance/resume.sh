@@ -12,7 +12,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/../.."
 
-PIPELINE_BRANCH="arena/ea88d543-quran-explained"   # where the pipeline and the published chapters were developed
+PIPELINE_BRANCH="arena/e527c26f-quran-explained"   # where the pipeline and the published chapters were developed
 branch="$(git rev-parse --abbrev-ref HEAD)"
 echo "branch: $branch"
 

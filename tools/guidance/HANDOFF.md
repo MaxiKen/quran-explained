@@ -39,6 +39,32 @@ State (keep §8 current):
 
 `python3 tools/guidance/status.py` prints the live version of this table.
 
+### Current continuation and review status (2026-10-15)
+
+- Al-Baqarah is complete: introduction plus 286/286 verse entries. The next
+  unfinished job is `003-intro`. Ask `status.py --next` rather than hard-coding
+  an old Al-Baqarah job.
+- The maintainer required no full published-data verification of Surah 2 until
+  verse 286. That instruction was honoured for the concluding work, and the
+  final check has now run: **287 entries, ok=159 flag=128 fail=0**. This is a
+  completed Surah-2-specific deferral, not a permanent ban on verification.
+- The 128 flags are **not all coverage noise**. They include long sentences,
+  reading grade, matching runs, coverage, length and missing middle sections.
+  Flags are publishable under the agreed gates, but remain editorial review
+  items. A deterministic pass is not proof of full substantive coverage,
+  historical accuracy, hadith authenticity or scholarly approval.
+- All 42 pipeline tests passed. All 286 entries and the introduction rendered
+  with zero leftover Markdown markers. These checks do not replace a browser
+  smoke test or a scholarly/editorial review.
+- The layer faithfully explains supplied material, including historical legal
+  and economic views. It does not independently update those views into
+  present-day law, financial advice or a contemporary fatwa. Do not add modern
+  facts or rulings without a separately authorised sourcing change.
+- Current completed payload commit: `b4846f0`; completion log: `7c521ba`.
+  Work stays on the Arena session branch. No merge into `main` has been
+  performed by the agent. After a maintainer merge, a fresh session should
+  resume from the merged checkout and its live status, not regenerate Surah 2.
+
 ## 2. Decisions that are final — do not re-ask them
 
 Agreed with the maintainer (MaxiKen) in the session that built the pipeline.
@@ -56,7 +82,7 @@ They are encoded in `prompts/system.md`, `prompts/verse_job.md`,
 | Sources | **"Just put the contents. Use everything."** All eight, nothing quarantined: Qushayrī/Maybudī allusive readings, Tanwīr's Isrāʾīliyyāt, Maʿārif's rulings and excursions, all included, faithfully, with the material's own qualifiers ("it is said", "weak chain") kept as content. |
 | Ranges | **One self-contained entry per verse.** Material that covers a range is distributed across the verses it covers (each verse carries the part about it; the prompt shows `shared_outside` and per-verse `material_words`). Never duplicate the same paragraph across sibling verses; never leave a range's content out. |
 | Introductions | Every surah also gets an introduction (`<<<INTRO S>>>` job): names and meanings, revelation, virtues, verse count, what it covers, connection to the previous surah, `### In short`. Surah-level material in verse 1's blocks belongs here, not in 1:1. |
-| UI | Label "Plain-English commentary"; disclosure wording above; eight sources folded below. Done in `js/app.js`; `sw.js` cache version bumps when payloads change. |
+| UI | Label "Plain-English commentary"; disclosure wording above; eight sources folded below. Done in `js/app.js`; `data/*.json` is network-first with offline fallback, so payload-only updates do not require a `sw.js` cache-version bump. App-shell changes require cache-version review. |
 | Files & git | Minified single-line JSON per surah; `.gitattributes` marks them; `ATTRIBUTION.md` section; **commit per chapter (or per job for long surahs), push every time**; one PR at the end from this branch. |
 | Originality | Fail any entry with ≥ 24 words copied in a row from the material outside a quotation; flag ≥ 12. Quoted Qur'an passages followed by `(S:N)` and quotes ≤ 200 chars are exempt. |
 | Exclusions | None. |
@@ -83,7 +109,7 @@ semicolons outside quotations.
 | `verify.py` | deterministic gates → `work/reports/NNN.json`; `--source work` for job outputs, `--source data` for published files. Exit 1 on any `fail`. |
 | `audit.py` | optional second model pass (needs an API). Not used for Surah 1. |
 | `assemble.py` | merges `work/out` into `data/guidance_NNN.json` (merge by default; `fail` entries left out; `--seed-exemplars` publishes the three exemplars). |
-| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (39 tests). |
+| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (42 tests as of 2026-10-15). |
 | `../serve.py` | preview server, `python3 tools/serve.py 8000`. |
 | `CONTINUE_PROMPT.md` | the message the maintainer pastes to start a new session; it points here. |
 | `/AGENTS.md` | repository-root summary of the non-negotiables for any agent; it points here. |
@@ -201,6 +227,31 @@ edit the raw file and run it again. If nothing fails it merges the job into
 the raw file (`Surah 2: verses 8-13 (6,120 words)`), pushes to the current
 branch, and prints the next job. Then go straight to the next job's digest.
 
+#### When the maintainer explicitly defers full-data verification
+
+`finish.py` currently runs full published-data verification after **every job**.
+Do not call it during an explicit deferral. The manual equivalent used to
+complete Surah 2 is:
+
+```bash
+python3 tools/guidance/ingest.py --job JOB --file work/raw/JOB.md
+python3 tools/guidance/verify.py --source work --surahs S
+# Inspect the job report. Correct every failure and substantive omission.
+python3 tools/guidance/assemble.py --surahs S
+# Inspect the assembled result, then commit its payload and raw draft.
+git add data/guidance_SSS.json work/raw/JOB.md
+git commit -m "Surah S: completed job"
+git push origin SESSION_BRANCH
+```
+
+`JOB`, `S`, `SSS` and `SESSION_BRANCH` are placeholders, not literal commands.
+Assembly re-runs the gates and omits failed entries. Do not override it with
+`--include-failed`. Once the requested endpoint is reached, run
+`verify.py --source data --surahs S`, correct failures, run tests and the
+render check, and record the full result in §8. Without an explicit deferral,
+`finish.py` remains the documented default. Its repeated full check can be
+slow (the complete Surah-2 check took about 24 minutes).
+
 Fix every FAIL. Fix a flag when it is a real gap (a missing name you can
 place, a verbatim run you can rephrase). Do not chase coverage noise (nisba-only
 anchors, volume references, honorifics, a source's sign-off): a `flag` is
@@ -219,7 +270,7 @@ Occasionally (once per surah is enough) run the render check so the app's
 own markdown renderer is known to leave no raw markdown behind:
 
 ```bash
-node /dev/stdin <<'EOF'
+node - <<'EOF'
 const fs=require('fs'); const src=fs.readFileSync('js/app.js','utf8');
 function grab(n){const i=src.indexOf('function '+n+'(');let d=0,j=i;for(;j<src.length;j++){if(src[j]=='{')d++;else if(src[j]=='}'){d--;if(d==0)break;}}return src.slice(i,j+1);}
 eval(grab('escapeHtml')+grab('parseInline')+grab('renderMarkdown'));
@@ -267,8 +318,11 @@ human decision.
 | `padding` / `thin` (flag) | > 200 + 1.5 × material, or < 0.25 × material | cut repetition, or cover more of the material |
 | `duplication with verse N` (flag) | same 10-word shingles in sibling entries | give each verse its own part of a shared block |
 
-Published `flag` entries are fine (they would go to the LLM audit if an API
-existed). Published `fail` entries are not possible: `assemble.py` omits them.
+Published `flag` entries are permitted by the agreed publication gate, not
+certified free of editorial problems. Inspect the reasons and repair real gaps
+or matching passages when possible. A second-model audit has not been run for
+Surah 2. `assemble.py` omits failing entries unless explicitly overridden, which
+is forbidden by this contract.
 
 ## 6. Environment quirks (all hit before; do not rediscover them)
 
@@ -287,7 +341,7 @@ existed). Published `fail` entries are not possible: `assemble.py` omits them.
   **Never force-push.**
 - **Sessions are pinned to one branch.** Work only on the session's branch; a new
   session's branch starts from `main`, so merge
-  `origin/arena/ea88d543-quran-explained` into it (resume.sh does) until the PR is merged.
+  `origin/arena/e527c26f-quran-explained` into it (resume.sh does) until the PR is merged.
 - Single-line JSON > 1 MB shows as an empty diff on GitHub; verify remote content
   with `gh api repos/MaxiKen/quran-explained/contents/data/guidance_NNN.json?ref=<branch> --jq .size`.
 - The corpus names the eight works inside the texts (Maʿārif cites "Ibn Kathir"
@@ -306,17 +360,17 @@ audit → assemble` and commits the payloads to the branch. It needs:
 
 1. Repository secrets `ANTHROPIC_API_KEY` and/or `OPENAI_API_KEY` / `GEMINI_API_KEY`.
 2. The workflow file on the default branch (it is only registered once it is on `main`).
-3. A manual dispatch: Actions → Guidance → surahs `2` (then `3-114`), provider `anthropic`.
+3. A manual dispatch: Actions → Guidance → the next unfinished surah (currently `3`), provider `anthropic`. Do not regenerate completed chapters unless explicitly requested.
 
 Local equivalent on a machine with network access:
 
 ```bash
-python3 tools/guidance/pack.py --surahs 2 --shards 4
-ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 2 --provider anthropic --concurrency 8
-python3 tools/guidance/verify.py --source work --surahs 2
-ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 2 --provider anthropic
-python3 tools/guidance/assemble.py --surahs 2
-python3 tools/guidance/verify.py --source data --surahs 2
+python3 tools/guidance/pack.py --surahs 3 --shards 4
+ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 3 --provider anthropic --concurrency 8
+python3 tools/guidance/verify.py --source work --surahs 3
+ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 3 --provider anthropic
+python3 tools/guidance/assemble.py --surahs 3
+python3 tools/guidance/verify.py --source data --surahs 3
 ```
 
 Estimates (`pack.py --estimate`, whole Qur'an): 1,536 jobs, ~10.7 M input
@@ -341,6 +395,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-15 | 2 | intro + 1–233 (of 286) | 21,633 new words in 222–233 | new entries ok=11 flag=1 fail=0 from per-job work gates. Full verify-data deferred until 286 by maintainer instruction. | f50dea5 (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
 | 2026-10-15 | 2 | intro + 1–257 (of 286) | 23,992 new words in 234–257 | new entries ok=18 flag=6 fail=0 from per-job work gates. Full verify-data remains deferred until 286 as instructed. | 307e0db (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | intro + 1–266 (of 286) | 10,878 new words in 258–266 | New work entries ok=5 flag=4 fail=0. Remaining flags are coverage noise (editorial numbers, damaged name, generic words). Full verify-data remains deferred until 286 as instructed. | cd5f83c (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
 | 2026-10-15 | 2 | complete: intro + 1–286 | 412,897 verse words total; 25,310 new words in 267–286 | Full published-data verification, run only after 286: 287 entries, ok=159 flag=128 fail=0. All 42 pipeline tests pass. All 286 verses and introduction render with zero leftover Markdown markers. | b4846f0 (seven sequential job pushes for 267–286 on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
@@ -372,5 +428,3 @@ Model output and hand-written output are interchangeable: both end up in
 - Qushayrī/Maybudī homily sentences, maarif legal/analogy sentences and Ibn-Kathīr-style "X said that Y said" chains survive a faithful first draft as 12–17-word runs (9 in 2:120 alone). Restructure clause order, split litanies into short sentences, turn nouns into verbs: synonym swaps do not break the run.
 - Naming a collector (Ibn Abī Ḥātim, Ibn Jarīr …) that the job checklist does not list → only safe after confirming the name is in the material (`verify.fold(mat)` substring check). Garbled spellings in the material are not recognised: write "the Ṣaḥīḥ records…".
 - A verse number of an adjacent verse written bare ("114", "118", "120") shows up as a missing anchor; write it as "(2:114)" once and it is covered.
-
-| 2026-10-15 | 2 | intro + 1–266 (of 286) | 10,878 new words in 258–266 | New work entries ok=5 flag=4 fail=0. Remaining flags are coverage noise (editorial numbers, damaged name, generic words). Full verify-data remains deferred until 286 as instructed. | cd5f83c (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
