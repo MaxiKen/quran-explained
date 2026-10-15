@@ -337,6 +337,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-14 | 2 | intro + 1–171 (of 286) | 2,298 intro + ~253,000 verses | ok=108 flag=64 fail=0 on the full `verify --source data` run at session end (flags: narrator-list runs, coverage noise, long sentences) | dac32325 (one push per job; publish = assemble + commit + push, per-job `verify --source work` gate, full verify-data once per session ≈ 8 min at 172 entries) | arena agent (in-session, digest→write→gate→publish loop) |
 | 2026-10-14 | 2 | intro + 1–221 (of 286) | 2,298 intro + ~334,000 verses | ok=110 flag=112 fail=0 on the full `verify --source data` run after the block 172–221 (flags: verbatim narrator-list runs, long sentences, reading grade, coverage 0.80–0.85 noise) | f713f4cf (per-job gate + publish; full verify-data once at the end ≈ 14 min at 222 entries) | arena agent (in-session, digest→write→gate→publish loop) |
 
+| 2026-10-15 | 2 | intro + 1–233 (of 286) | 21,633 new words in 222–233 | new entries ok=11 flag=1 fail=0 from per-job work gates. Full verify-data deferred until 286 by maintainer instruction. | f50dea5 (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
 ## 9. Calibration — read before writing
 
 - `prompts/exemplars/001_002.md` — approved by the maintainer; the voice.
