@@ -339,6 +339,8 @@ Model output and hand-written output are interchangeable: both end up in
 
 | 2026-10-15 | 2 | intro + 1–233 (of 286) | 21,633 new words in 222–233 | new entries ok=11 flag=1 fail=0 from per-job work gates. Full verify-data deferred until 286 by maintainer instruction. | f50dea5 (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
+| 2026-10-15 | 2 | intro + 1–257 (of 286) | 23,992 new words in 234–257 | new entries ok=18 flag=6 fail=0 from per-job work gates. Full verify-data remains deferred until 286 as instructed. | 307e0db (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
 ## 9. Calibration — read before writing
 
 - `prompts/exemplars/001_002.md` — approved by the maintainer; the voice.
