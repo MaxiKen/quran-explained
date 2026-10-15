@@ -34,7 +34,8 @@ State (keep §8 current):
 | 1 Al-Fatihah | 7/7 + intro (24,361 words) | written in-session, through the pipeline, commit `85469f7` |
 | 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until the sequence reaches 112: ingest that file, write `112-intro`, assemble. |
 | 55 Ar-Rahman | 1/78 (exemplar 55:13) | seeded from `prompts/exemplars/055_013.md` |
-| everything else | 0 | pending, in order: 2 (Al-Baqarah, 286 verses, 119 verse jobs + intro, ≈617 K material words, ≈400 K words of output expected), then 3, 4 … 114 |
+| 2 Al-Baqarah | 286/286 + intro | completed, 412,897 verse words; full verification ok=159 flag=128 fail=0, commit `b4846f0` |
+| everything else | 0 | pending, in order: 3 (next job `003-intro`), then 4 … 114 |
 
 `python3 tools/guidance/status.py` prints the live version of this table.
 
@@ -340,6 +341,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-15 | 2 | intro + 1–233 (of 286) | 21,633 new words in 222–233 | new entries ok=11 flag=1 fail=0 from per-job work gates. Full verify-data deferred until 286 by maintainer instruction. | f50dea5 (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
 | 2026-10-15 | 2 | intro + 1–257 (of 286) | 23,992 new words in 234–257 | new entries ok=18 flag=6 fail=0 from per-job work gates. Full verify-data remains deferred until 286 as instructed. | 307e0db (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | complete: intro + 1–286 | 412,897 verse words total; 25,310 new words in 267–286 | Full published-data verification, run only after 286: 287 entries, ok=159 flag=128 fail=0. All 42 pipeline tests pass. All 286 verses and introduction render with zero leftover Markdown markers. | b4846f0 (seven sequential job pushes for 267–286 on arena/e527c26f-quran-explained) | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 
