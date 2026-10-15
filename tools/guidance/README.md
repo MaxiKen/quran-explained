@@ -1,3 +1,15 @@
+## Chapter-number sessions (current policy)
+
+Provide a chapter number such as `18` to generate/resume that chapter. Chapters
+can be generated out of order in separate sessions. Use
+`status.py --next --surah 18`, not global discovery, to select its jobs.
+`finish.py` runs work gates and publishes per job; full published-chapter
+verification is run **once, only after all verses and the intro are complete**.
+Store progress, the verification receipt and an exact created/updated/deleted
+file manifest in `tools/guidance/chapters/SSS.md`, not shared progress files.
+See [CHAPTER_RUN.md](CHAPTER_RUN.md) and [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md)
+for isolated generation and selective merging without overwriting newer main.
+
 # Guidance pipeline — plain-English commentary for every verse
 
 `tools/guidance/` turns the eight tafsīr sources in `data/tafsir_NNN.json`
@@ -24,7 +36,7 @@ pack  ->  generate  ->  verify  ->  audit (optional)  ->  assemble  ->  verify -
 | status | `status.py` | progress derived from `data/` alone (so it survives a sandbox reset). `--next` prints the first unpublished job in the working order and packs its surah if needed; `--material JOB --part k` prints the job's material in ≤ 12 K-char parts (tool output truncates around 30 K); `--export-raw N` rebuilds `work/raw/NNN-*.md` from the published payload. |
 | resume | `resume.sh` | start-of-session script: realigns a rewound checkout with `origin`, merges the pipeline branch in if `HANDOFF.md` is missing, runs the tests, prints the progress table and the next job. |
 | digest | `digest.py` | a job's material prepared for complete, fast reading: a per-verse checklist of what the coverage gate will look for, the translations to quote, then the material with Arabic and honorifics removed, referenced verse quotations collapsed to `[Q S:N …]` (`--quote S:N` prints the app's translation) and repeated paragraphs collapsed. |
-| finish | `finish.py` | one command per job: ingest → gates (compact report) → assemble → verify data → commit → push → next job. Stops at any FAIL. |
+| finish | `finish.py` | one command per job: ingest → gates (compact report) → assemble → commit → push → next job in the same chapter. Stops at any FAIL. |
 
 ## Running
 
@@ -36,8 +48,15 @@ ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 2 --provider a
 python3 tools/guidance/verify.py --source work --surahs 2
 ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 2 --provider anthropic
 python3 tools/guidance/assemble.py --surahs 2
+
+# Only once, after the introduction and ALL verses are complete:
 python3 tools/guidance/verify.py --source data --surahs 2
 ```
+
+The legacy Actions workflow is not the default for isolated chapter sessions.
+Do not use a partial/limited/sharded generation run to trigger full verification.
+It must first support the complete-chapter guard, single final-check receipt and
+chapter-local manifest described in CHAPTER_RUN.md.
 
 On GitHub: **Actions → Guidance (plain-English commentary) → Run workflow**
 with the surah selection, provider, model, QA tier and shard count. The
@@ -63,7 +82,8 @@ files them as the job's result; `verify.py --source work`, `assemble.py` and
 Continuing in a new session: `HANDOFF.md` is the complete operating manual
 (state, final decisions, the authoring loop, gate cheat-sheet, sandbox quirks,
 progress log); `CONTINUE_PROMPT.md` is the message to paste into a new session;
-`bash tools/guidance/resume.sh` gets a fresh checkout ready.
+use the chapter-scoped startup in `CHAPTER_RUN.md` rather than the legacy
+global `resume.sh` helper.
 
 Useful switches: `generate.py --show 112-001-004` prints the exact prompt a
 job receives; `--limit 3` runs three jobs; `--only ID,ID` runs specific jobs;

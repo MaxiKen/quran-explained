@@ -1,0 +1,294 @@
+# Al-Baqarah flag repair tracker
+
+Baseline full verification: 287 entries, 159 ok, 128 flagged, zero failed.
+
+## Batch 1: repaired and checked
+
+Sixteen entries now pass unchanged verification gates in scoped checks with the published sibling and introduction context. Both raw drafts and the published payload have been updated. No verifier thresholds or alias rules were changed.
+
+| Verse | Repair | Current scoped status |
+|---|---|---|
+| 2:3 | long sentences (avg 25.5 words) | ok (no warnings or errors) |
+| 2:4 | long sentences (avg 27.0 words); reading grade 12.3 | ok (no warnings or errors) |
+| 2:6 | one verbatim run of 12 words ("finished when someone lot has set him down…") | ok (no warnings or errors) |
+| 2:16 | semicolon used 1× | ok (no warnings or errors) |
+| 2:20 | long sentences (avg 25.7 words) | ok (no warnings or errors) |
+| 2:22 | semicolon used 1×; long sentences (avg 27.3 words) | ok (no warnings or errors) |
+| 2:23 | long sentences (avg 25.2 words) | ok (no warnings or errors) |
+| 2:29 | one verbatim run of 12 words ("my servant when you step into the street…") | ok (no warnings or errors) |
+| 2:33 | one verbatim run of 14 words ("the heavens and the earth and i know…") | ok (no warnings or errors) |
+| 2:40 | one verbatim run of 12 words ("the last is that if the servant keeps…") | ok (no warnings or errors) |
+| 2:167 | 2 verbatim runs of 12+ words ("shirk the grave sin of associating partners with…"); no middle sections despite substantial material | ok (no warnings or errors) |
+| 2:202 | 3 verbatim runs of 12+ words ("those who ask for the affairs of both…"); no middle sections despite substantial material | ok (no warnings or errors) |
+| 2:205 | 2 verbatim runs of 12+ words ("the hypocrite has no motive in this life…"); no middle sections despite substantial material | ok (no warnings or errors) |
+| 2:206 | one verbatim run of 13 words ("the state of his estrangement the darknesses of…"); no middle sections despite substantial material | ok (no warnings or errors) |
+| 2:241 | reading grade 12.6 | ok (no warnings or errors) |
+| 2:279 | reading grade 12.2 | ok (no warnings or errors) |
+
+## Batch 2: additional editorial repairs
+
+Sixteen further entries have been repaired and synchronized with the published payload. All pass unchanged scoped checks. The matching-run check was also applied to these candidates against all supplied Al-Baqarah material, not just the local blocks. Full-chapter verification remains deferred until the whole flag campaign is addressed.
+
+| Verse | Repair | Scoped result |
+|---|---|---|
+| 2:139 | one verbatim run of 13 words ("who argued with ibrahim about his lord because…") | ok, no warnings or errors |
+| 2:146 | 4 verbatim runs of 12+ words ("the people of the book knew in their…") | ok, no warnings or errors |
+| 2:157 | one verbatim run of 20 words ("mercy are always open to his servants he…") | ok, no warnings or errors |
+| 2:160 | one verbatim run of 14 words ("the fold of islam believing in allah and…") | ok, no warnings or errors |
+| 2:162 | one verbatim run of 12 words ("it fitting to return to the states of…") | ok, no warnings or errors |
+| 2:175 | one verbatim run of 16 words ("the pardon that would have been prepared for…") | ok, no warnings or errors |
+| 2:182 | one verbatim run of 12 words ("ample reward showing kindness to novices who are…") | ok, no warnings or errors |
+| 2:207 | one verbatim run of 13 words ("revealed about the parents of ammar ibn yasir…"); long sentences (avg 31.2 words); reading grade 13.4; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:208 | 5 verbatim runs of 12+ words ("thought or practice as part of the faith…"); long sentences (avg 32.3 words); reading grade 14.9; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:209 | 2 verbatim runs of 12+ words ("when the tribulation for the worst sins descends…"); long sentences (avg 25.6 words); no middle sections despite substantial material | ok, no warnings or errors |
+| 2:210 | coverage 80% (3 of 15 anchors missing); 7 verbatim runs of 12+ words ("the hearts of those who declare his oneness…"); long sentences (avg 28.4 words); reading grade 12.1; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:211 | 2 verbatim runs of 12+ words ("addressed them with commands and prohibitions and honoured…"); long sentences (avg 28.0 words); reading grade 12.6; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:212 | 3 verbatim runs of 12+ words ("gained the ultimate happiness and the best share…"); long sentences (avg 30.4 words); reading grade 13.1; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:218 | one verbatim run of 14 words ("took possession of the caravan and the two…"); long sentences (avg 31.4 words); reading grade 13.9; no middle sections despite substantial material | ok, no warnings or errors |
+
+| 2:214 | 5 verbatim runs of 12+ words ("men are reluctant to tread because of its…"); long sentences (avg 28.0 words); no middle sections despite substantial material | ok, no warnings or errors |
+
+| 2:216 | coverage 83% (5 of 29 anchors missing); 5 verbatim runs of 12+ words ("allah made it obligatory for the muslims to…"); long sentences (avg 31.3 words); reading grade 13.9; no middle sections despite substantial material | ok, no warnings or errors |
+
+## Batch 3: matching and readability repairs
+
+Eight more entries are synchronized in raw drafts and the published chapter. Scoped checks pass unchanged gates, with sibling context. The separate matching-run check also finds no matching runs against the whole chapter's supplied material. This is not the deferred complete verification.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:94 | long sentences (avg 25.9 words) | ok, no warnings or errors |
+| 2:107 | long sentences (avg 26.7 words) | ok, no warnings or errors |
+| 2:112 | long sentences (avg 25.4 words) | ok, no warnings or errors |
+| 2:114 | long sentences (avg 25.4 words) | ok, no warnings or errors |
+| 2:118 | one verbatim run of 13 words ("the people of the two scriptures and other…") | ok, no warnings or errors |
+| 2:121 | long sentences (avg 25.6 words) | ok, no warnings or errors |
+| 2:144 | one verbatim run of 13 words ("abu aliyah mujahid ikrimah said ibn jubayr qatadah…") | ok, no warnings or errors |
+| 2:192 | one verbatim run of 12 words ("fighting you in the sacred area and come…") | ok, no warnings or errors |
+
+## Batch 4: original phrasing and clarified explanations
+
+Eight further entries pass unchanged scoped gates and a separate matching check against all chapter material. These edits preserve the supplied legal differences, hadith attributions and inward readings. Verse 153 was checked alongside the published blessing at 157, which it explicitly discusses. No complete chapter verification has been run.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:147 | coverage 80% (2 of 10 anchors missing); one verbatim run of 13 words ("strengthens the resolve of his prophet and the…") | ok, no warnings or errors |
+| 2:153 | 4 verbatim runs of 12+ words ("for him if he is tested with a…") | ok, no warnings or errors |
+| 2:154 | 5 verbatim runs of 12+ words ("said we wish that you send us back…") | ok, no warnings or errors |
+| 2:161 | 2 verbatim runs of 12+ words ("umar ibn khattab and the imams after him…") | ok, no warnings or errors |
+| 2:166 | 2 verbatim runs of 12+ words ("when they see the beginnings of the chastisement…") | ok, no warnings or errors |
+| 2:168 | 3 verbatim runs of 12+ words ("allah has made lawful should not be made…") | ok, no warnings or errors |
+| 2:169 | coverage 82% (2 of 11 anchors missing); one verbatim run of 16 words ("the truth while the angelic suggestion promises reward…") | ok, no warnings or errors |
+| 2:172 | 3 verbatim runs of 12+ words ("is acting with complete devotion to him and…") | ok, no warnings or errors |
+
+## Batch 5: fifteen entries addressed in one run
+
+Fourteen additional entries pass scoped unchanged gates with actual published sibling context. All fifteen revised entries have no failures and no matching runs against the whole chapter material. This is not the deferred complete verification. Changes include source-grounded paraphrases, sentence splitting and recovery of grammatical readings and charitable-giving qualifications.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:31 | long sentences (avg 28.6 words); reading grade 12.2 | ok, no warnings or errors |
+| 2:98 | long sentences (avg 27.8 words) | ok, no warnings or errors |
+| 2:109 | long sentences (avg 28.2 words); reading grade 12.4 | ok, no warnings or errors |
+| 2:120 | long sentences (avg 26.9 words); reading grade 12.1 | ok, no warnings or errors |
+| 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") | ok, no warnings or errors |
+| 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") | ok, no warnings or errors |
+| 2:150 | 8 verbatim runs of 12+ words ("the people of the book knew from the…") | ok, no warnings or errors |
+| 2:151 | 5 verbatim runs of 12+ words ("sent in answer to the prayer of the…") | ok, no warnings or errors |
+| 2:152 | 14 verbatim runs of 12+ words ("said o ibn adam if you mention me…") | ok, no warnings or errors |
+| 2:171 | 4 verbatim runs of 12+ words ("is reported from ibn abbas abu aliyah mujahid…") | ok, no warnings or errors |
+| 2:179 | 3 verbatim runs of 12+ words ("wise people should have no difficulty in seeing…") | ok, no warnings or errors |
+| 2:252 | coverage 80% (2 of 10 anchors missing) | ok, no warnings or errors |
+| 2:254 | coverage 50% (3 of 6 anchors missing) | flag: coverage 83%, truncated shafā anchor remains |
+| 2:265 | coverage 75% (2 of 8 anchors missing) | ok, no warnings or errors |
+| 2:266 | coverage 80% (3 of 15 anchors missing) | ok, no warnings or errors |
+
+### Reviewed residual: 2:254
+
+The supplied grammatical gloss writes the forms `shafā‘atun` and `shafā‘ata`. Its transliteration extractor truncates that expression to the standalone anchor `shafā`. The revised entry explains both grammatical readings and supplies their noun forms; it already explains intercession as `shafā'ah` and its dependence on Allah's permission. No substantive intercession point is missing on this evidence. The remaining scoped coverage flag is retained in the payload rather than adding a fictitious standalone technical term or changing verifier rules. The exact source is the grammatical gloss in `data/tafsir_002.json`, range 2:254. The revised report is coverage 5/6, no errors, no matching runs.
+
+Current campaign accounting: 62 baseline entries repaired with scoped passes, one edited and reviewed with a residual detector flag, and 65 baseline entries still awaiting review. These are campaign counts, not fresh full-chapter totals.
+
+## Batch 6: eight further repairs
+
+All eight entries pass unchanged scoped checks with published sibling context and have no matching runs against the entire supplied chapter material. The edits preserve qualifications, legal disagreement, hadith collectors and inward readings. They shorten long explanations and paraphrase the specific matching passages, without changing verifier rules.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:155 | coverage 81% (6 of 32 anchors missing); 7 verbatim runs of 12+ words ("of what will make them happy in this…") | ok, no warnings or errors |
+| 2:156 | 6 verbatim runs of 12+ words ("if we are not pleased with his decree…"); long sentences (avg 25.4 words) | ok, no warnings or errors |
+| 2:158 | 3 verbatim runs of 12+ words ("when islam came and the idols were destroyed…"); long sentences (avg 26.0 words) | ok, no warnings or errors |
+| 2:159 | 8 verbatim runs of 12+ words ("were revealed about the people of the scripture…"); long sentences (avg 27.4 words); reading grade 12.2 | ok, no warnings or errors |
+| 2:163 | coverage 83% (2 of 12 anchors missing); 4 verbatim runs of 12+ words ("devoted servants living for him dying for him…") | ok, no warnings or errors |
+| 2:165 | 6 verbatim runs of 12+ words ("hypocrites who buried their gold and silver or…") | ok, no warnings or errors |
+| 2:170 | coverage 77% (5 of 22 anchors missing); 5 verbatim runs of 12+ words ("are called to follow what allah has revealed…"); long sentences (avg 25.4 words); reading grade 12.6 | ok, no warnings or errors |
+| 2:174 | 8 verbatim runs of 12+ words ("the people would abandon them and follow him…"); long sentences (avg 26.1 words) | ok, no warnings or errors |
+
+Campaign after this batch: 70 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag, and 57 still await review. These are not fresh full-chapter verification totals.
+
+## Batch 7: seven further repairs
+
+All seven entries pass unchanged scoped gates with the published introduction and actual shared-block sibling context. Each also has zero matching runs against the complete supplied chapter material. Raw drafts and the published payload are synchronized.
+
+The edits clarify the abrogation discussion (2:106), pilgrimage and supplication (2:199–201, 203), hypocrisy (2:204), and spending (2:215). They preserve attributed disagreements, report collectors, theological qualifications and inward readings. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:106 | long sentences (avg 26.2 words); reading grade 12.6  ok, no warnings or errors |
+| 2:199 | 2 verbatim runs of 12+ words ("the people of allah town and the servants…"); long sentences (avg 33.6 words); reading grade 14.5  ok, no warnings or errors |
+| 2:200 | 4 verbatim runs of 12+ words ("an undertaking for his sake through the heart…"); long sentences (avg 31.9 words); reading grade 14.5  ok, no warnings or errors |
+| 2:201 | 5 verbatim runs of 12+ words ("needs virtuous deeds desirable morals beneficial knowledge honour…"); long sentences (avg 28.8 words); reading grade 12.6  ok, no warnings or errors |
+| 2:203 | 2 verbatim runs of 12+ words ("ibn abbas said that the appointed days are…"); long sentences (avg 37.2 words); reading grade 15.1  ok, no warnings or errors |
+| 2:204 | 6 verbatim runs of 12+ words ("people the appearance of sheep while their hearts…"); long sentences (avg 31.6 words); reading grade 13.6  ok, no warnings or errors |
+| 2:215 | 5 verbatim runs of 12+ words ("to parents close relatives in need needy orphans…"); long sentences (avg 29.3 words); reading grade 13.2  ok, no warnings or errors |
+
+Campaign after this batch: 77 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 50 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
+## Batch 8: six further repairs
+
+All six entries pass unchanged scoped checks with current published sibling context and the introduction. Each has zero matching runs against the entire supplied chapter material. Raw drafts and the published payload are synchronized.
+
+The edits shorten the fasting discussion (2:183), the lunar-calendar discussion (2:189), and the accounts of combat, restraint and retaliation (2:190–191, 193–194). Report collectors, grades, legal qualifications and inward readings remain. At 2:191, the defensive-only interpretation and its established-state declaration requirement have been restored alongside the different legal reading that permits initiating jihād outside the sacred precincts. Their disagreement is made explicit rather than silently resolved. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:183 | 4 verbatim runs of 12+ words ("them to fast that is to abstain from…"); long sentences (avg 25.6 words)  ok, no warnings or errors |
+| 2:189 | 2 verbatim runs of 12+ words ("the ansar used to enter their houses from…"); long sentences (avg 28.1 words); reading grade 12.3  ok, no warnings or errors |
+| 2:190 | 4 verbatim runs of 12+ words ("to those who are fought against because they…"); long sentences (avg 29.4 words); reading grade 12.7  ok, no warnings or errors |
+| 2:191 | one verbatim run of 16 words ("abu aliyah mujahid said ibn jubayr ikrimah hasan…"); long sentences (avg 28.8 words); reading grade 12.6  ok, no warnings or errors |
+| 2:193 | one verbatim run of 15 words ("that two men came to ibn umar during…"); long sentences (avg 29.9 words); reading grade 13.0  ok, no warnings or errors |
+| 2:194 | 5 verbatim runs of 12+ words ("ibn abbas dahhak suddi qatadah miqsam rabi ibn…"); long sentences (avg 25.7 words)  ok, no warnings or errors |
+
+Campaign after this batch: 83 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 44 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
+## Batch 9: five further repairs
+
+All five entries pass unchanged scoped gates with the published introduction and actual shared-block sibling context. Each also has zero matching runs against the complete supplied chapter material. Raw drafts and published entries are synchronized.
+
+The edits clarify food prohibitions, necessity and medicinal use (2:173), retaliation and pardon (2:178), wills and abrogation (2:180), supplication (2:186), and spending and iḥsān (2:195). At 2:173 the five-bullet summary retains the garden account and now states the disagreement on transfusion outside compulsion. At 2:178 the literal free-man/slave reading is retained alongside the broader retaliation reading. At 2:180 the supplied Arabic grading of al-Tirmidhī's report is preserved as ḥasan ṣaḥīḥ. At 2:186 the fasting-to-obedience argument and its connection with 2:188 are restored. Collectors, disagreements and devotional imagery remain. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5  ok, no warnings or errors |
+| 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words)  ok, no warnings or errors |
+| 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6  ok, no warnings or errors |
+| 2:186 | 5 verbatim runs of 12+ words ("i am as my servant thinks of me…"); long sentences (avg 29.7 words)  ok, no warnings or errors |
+| 2:195 | 11 verbatim runs of 12+ words ("spend your wealth in obedience to allah in…"); long sentences (avg 27.0 words)  ok, no warnings or errors |
+
+Campaign after this batch: 88 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 39 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
+## Still awaiting repair
+
+39 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+
+Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
+
+| Verse | Baseline flags |
+|---|---|
+| 2:13 | coverage 77% (7 of 30 anchors missing) |
+| 2:21 | coverage 80% (12 of 60 anchors missing) |
+| 2:25 | coverage 83% (4 of 23 anchors missing) |
+| 2:28 | coverage 83% (2 of 12 anchors missing) |
+| 2:41 | coverage 84% (9 of 58 anchors missing); long sentences (avg 27.5 words); reading grade 12.4 |
+| 2:42 | coverage 81% (6 of 31 anchors missing) |
+| 2:43 | coverage 77% (10 of 44 anchors missing); one verbatim run of 12 words ("and the verse in effect asks the israelites…"); long sentences (avg 25.7 words) |
+| 2:44 | coverage 82% (7 of 38 anchors missing) |
+| 2:96 | coverage 85% (4 of 26 anchors missing) |
+| 2:102 | long sentences (avg 26.6 words); reading grade 12.1 |
+| 2:124 | coverage 73% (34 of 127 anchors missing); 12 verbatim runs of 12+ words ("the way of islam is the way of…") |
+| 2:125 | 12 verbatim runs of 12+ words ("yet its power to draw millions of people…"); long sentences (avg 27.0 words) |
+| 2:126 | 14 verbatim runs of 12+ words ("for the well being of his family in…") |
+| 2:127 | 11 verbatim runs of 12+ words ("o khalil of rahman you raise the foundations…"); entry is long for its material (3319 words for ~576 words of material): check for padding |
+| 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
+| 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
+| 2:164 | coverage 83% (5 of 30 anchors missing); 6 verbatim runs of 12+ words ("bypass the wonder of the creation of the…") |
+| 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
+| 2:184 | coverage 84% (8 of 51 anchors missing); 2 verbatim runs of 12+ words ("and whoever is present with the creator of…"); long sentences (avg 27.9 words) |
+| 2:185 | 9 verbatim runs of 12+ words ("as guidance for the hearts of those who…"); long sentences (avg 29.7 words); reading grade 12.6 |
+| 2:187 | 9 verbatim runs of 12+ words ("ibn abbas mujahid said ibn jubayr hasan qatadah…"); long sentences (avg 32.9 words); reading grade 13.5 |
+| 2:188 | coverage 83% (7 of 42 anchors missing); one verbatim run of 16 words ("do not take property cases to the authorities…"); long sentences (avg 30.9 words); reading grade 13.7 |
+| 2:196 | 3 verbatim runs of 12+ words ("by ubayd ibn umayr laythi ikrimah hasan basri…"); long sentences (avg 32.2 words); reading grade 13.7 |
+| 2:197 | 6 verbatim runs of 12+ words ("makhul qatadah dahhak ibn muzahim rabi ibn anas…"); long sentences (avg 32.5 words); reading grade 13.7 |
+| 2:198 | 2 verbatim runs of 12+ words ("ibn abbas said ibn jubayr ikrimah mujahid suddi…"); long sentences (avg 35.3 words); reading grade 14.8 |
+| 2:213 | 2 verbatim runs of 12+ words ("chooses one of his servants to proclaim the…"); long sentences (avg 32.5 words); reading grade 14.4 |
+| 2:217 | coverage 84% (12 of 77 anchors missing); 4 verbatim runs of 12+ words ("banu abdshams ibn abdmanaf there was abu hudhayfah…"); long sentences (avg 35.8 words); reading grade 15.0; no middle sections despite substantial material |
+| 2:219 | 13 verbatim runs of 12+ words ("this is the first verse in which the…"); long sentences (avg 32.2 words); reading grade 14.2 |
+| 2:220 | 5 verbatim runs of 12+ words ("ibn umar shabi mujahid qatadah rabi ibn anas…"); long sentences (avg 32.2 words); reading grade 13.6; no middle sections despite substantial material |
+| 2:221 | coverage 80% (10 of 50 anchors missing); 9 verbatim runs of 12+ words ("the explanation of mujahid ikrimah said ibn jubayr…"); long sentences (avg 34.2 words); reading grade 15.3; no middle sections despite substantial material |
+| 2:227 | coverage 78% (4 of 18 anchors missing) |
+| 2:235 | coverage 76% (5 of 21 anchors missing) |
+| 2:236 | coverage 73% (3 of 11 anchors missing) |
+| 2:240 | coverage 84% (5 of 31 anchors missing) |
+| 2:262 | coverage 82% (3 of 17 anchors missing) |
+| 2:264 | coverage 82% (3 of 17 anchors missing) |
+| 2:269 | coverage 84% (5 of 32 anchors missing) |
+| 2:275 | coverage 80% (17 of 85 anchors missing) |
+| 2:276 | coverage 83% (5 of 29 anchors missing) |
+
+## Batch 10: all final 39 baseline entries addressed
+
+All 39 entries were reviewed in one batch; required text changes were published together, and raw/published texts were synchronized. The unchanged scoped checks give **25 ok, 14 reviewed flags, zero failures**. No candidate has a 12-word source-matching run against the whole chapter material. The 42 pipeline tests pass.
+
+**Campaign checkpoint: all 128 baseline entries addressed, 113 scoped passes, 15 reviewed residuals (including 2:254), zero unreviewed.** Reviewed flags are not claimed as detector passes or scholarly certification. Complete published-data verification is now permitted and follows this checkpoint.
+
+| Verse | Scoped result | Review disposition |
+|---|---|---|
+| 2:13 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:21 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:25 | flag | The remaining anchors are three editorial numbers (24, 2273, 2941) and ruh, a work-title fragment. No missing teaching was identified. |
+| 2:28 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:41 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:42 | flag | The bowing clause belongs to the shared prayer discussion in 2:43. Al-Ahkam Al-Kabir is a compiler’s forward book cross-reference, not a separate ruling. Abu Hzim and Abu-H-azim are damaged forms of the already-present Abu Hazim. The bare verse number is editorial. |
+| 2:43 | flag | Prayer, congregation, scholarly disagreement and the bowing clause remain. Ar-Raki’in is translated as those who bow. Al-Ahkam Al-Kabir is a forward book reference. Al-Sala and al-Ash are truncated forms of prayer and the already-present al-Ash‘ari. Holy Qur’an, repeated say and numbers are lexical/editorial anchors. |
+| 2:44 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:96 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:102 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:124 | flag | The supplied block also contains material on 2:125: refuge, the Maqam, tawaf, Umar, Jabir, Abu Talib’s poem, the footprint and the movement of the stone. Those accounts are retained in 2:125 and the House entries. Copying all of them into 2:124 would duplicate neighboring entries. The actual trials and covenant remain here. The report’s 72% is retained, not represented as a pass. |
+| 2:125 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:126 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:127 | flag | The length allocation gives only about 576 words of material to 2:127 within the large shared 2:125–128 block. The construction history belongs here and is retained. The 3,296-word entry is not truncated merely to satisfy the allocation. |
+| 2:128 | flag | The same shared block assigns about 5,580 words of material to 2:128, including House history covered in the neighboring entries. The submission, descendants, rites and repentance are explained here without duplicating that history to inflate length. |
+| 2:129 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:164 | flag | The creation signs and their argument remain. Similarly Allah and Holy Qur’an are phrase/honorific anchors, 164 is a bare number, ʿAṬāÌ is a damaged name spelling, and say is a generic lexical anchor. |
+| 2:177 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:184 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:185 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:187 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:188 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:196 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:197 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:198 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:213 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:217 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:219 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:220 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:221 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:227 | flag | The divorce discussion is retained. al-Qur is a truncated work-title fragment, 356 an editorial number, and two say anchors are generic wording. |
+| 2:235 | flag | The early authorities are now explicitly identified as the salaf. The hint/secret promise distinction and waiting-period prohibition remain. Two say anchors and numbers 52 and 29 remain as detector residuals. |
+| 2:236 | flag | The unconsummated-divorce and gift rulings remain. The only missing anchors are say and numbers 366 and 367. |
+| 2:240 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:262 | flag | The prohibition of reproach and harm after charity remains. The missing anchors are two occurrences of say and the number 416. |
+| 2:264 | flag | The report attributed to al-Bara ibn Azib is retained under a readable name. BarrāÌ is a damaged spelling; 264 and 708 are editorial numbers. |
+| 2:269 | flag | The wisdom interpretations, reports and scholarly distinctions remain. Al-Birr is a transliterated righteousness term in the shared neighboring charity material, not a missing wisdom interpretation. The other anchors are 269, 706, lot and say. |
+| 2:275 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:276 | flag | The contrast between riba and charity, the transmitted reports and the devotional reading remain. The missing anchors are three say tokens, the number 18 and the honorific Holy Prophet. |
+
+### Exact residual diagnostics
+
+- **2:25**: coverage 83% (4 of 23 anchors missing). Missing anchors: 24, ruh, 2273, 2941.
+- **2:42**: coverage 81% (6 of 31 anchors missing). Missing anchors: Ar-Raki'in, Al-Ahkam, Al-Kabir, 42, Abu Hzim, Abu- H-azim.
+- **2:43**: coverage 77% (10 of 44 anchors missing). Missing anchors: Ar-Raki'in, Al-Ahkam, Al-Kabir, 21, 43, Al-Sala, Holy Qur'an, al-Ash, say, say.
+- **2:124**: coverage 72% (35 of 127 anchors missing). Missing anchors: 2:125, 14:40, 22:26, 3:96-97, 66:5, Al-Mushrikin, Abu Al-'Aliyah, Ar-Rabi, Ar-Rahman, Al-'Alamin, As-Suddi, Al-Qurtubi, Ar-Razi, Al-Basri, Umar, Al-Bukhari, Umar bin Al-Khattab, Jabir, Ibn 'Umar, Abu Talib, Al-Lamiyyah, Anas bin Malik, Al-Hijr, Al-Khattab, Abu Bakr, Al-Husayn Al-Bayhaqi, ummah, hijab, wali, tawaf, haram, job, supplication, 51, 488.
+- **2:127**: entry is long for its material (3296 words for ~576 words of material): check for padding. Missing anchors: Abu Wahb bin 'Amr, Hadith' He, muttaqin, adhan, iqamah, job.
+- **2:128**: entry is short for its material (1290 words for ~5580 words of material). Missing anchors: Abu Wahb bin 'Amr, Hadith' He, muttaqin, adhan, iqamah, job, al-Muhit, yaṬlubu.
+- **2:164**: coverage 83% (5 of 30 anchors missing). Missing anchors: Similarly Allah, 164, Holy Qur'an, ʿAṬāÌ, say.
+- **2:227**: coverage 78% (4 of 18 anchors missing). Missing anchors: al-Qur, say, 356, say.
+- **2:235**: coverage 81% (4 of 21 anchors missing). Missing anchors: say, 52, 29, say.
+- **2:236**: coverage 73% (3 of 11 anchors missing). Missing anchors: say, 366, 367.
+- **2:262**: coverage 82% (3 of 17 anchors missing). Missing anchors: say, 416, say.
+- **2:264**: coverage 82% (3 of 17 anchors missing). Missing anchors: 264, 708, BarrāÌ.
+- **2:269**: coverage 84% (5 of 32 anchors missing). Missing anchors: Al-Birr, 269, lot, say, 706.
+- **2:276**: coverage 83% (5 of 29 anchors missing). Missing anchors: say, 18, Holy Prophet, say, say.
+
+### Completed full-chapter check
+
+After all 128 baseline entries had been addressed, `python3 tools/guidance/verify.py --source data --surahs 2` completed successfully: **287 entries, 272 ok, 15 flag, zero fail**. This includes the introduction and all 286 verses. The remaining flags are the reviewed coverage/length diagnostics listed above plus 2:254. They have not been suppressed. The full-context result for 2:124 is 73% (34 missing anchors), compared with the scoped result of 72% (35 missing). Raw/published consistency holds for all 286 entries. Verifier code and thresholds are unchanged. No Surah 3 work or main merge is authorized.

@@ -1,3 +1,8 @@
+> Current chapter-session policy: read [CHAPTER_RUN.md](CHAPTER_RUN.md).
+> Chapter numbers select any chapter; progress and manifests are chapter-local.
+> Full published-chapter verification runs once, only after all verses and intro.
+> Earlier progress rows describe historical runs, not current verification policy.
+
 # HANDOFF — continuing the plain-English commentary, session after session
 
 This file is the contract between sessions. A new agent (or a person) who reads
@@ -5,11 +10,10 @@ it and follows it will continue the work exactly as it was agreed with the
 maintainer, with no design question re-opened and no step skipped. Read all of
 it once, then work from §4.
 
-Start of every session:
-
-```bash
-bash tools/guidance/resume.sh        # realigns git if the sandbox rewound, tests, progress table, next job
-```
+Start a selected-chapter session using `CHAPTER_RUN.md`: inspect the working
+tree, save the starting commit, run tests and use `status.py --next --surah N`.
+The legacy `resume.sh` prints global discovery and can import a historical
+branch; it is not the default for isolated chapter sessions.
 
 Then keep the preview alive with the process tool: `python3 tools/serve.py 8000`
 (binds 0.0.0.0, sends no-store headers).
@@ -27,16 +31,43 @@ rendered by the app above the folded sources under the label
 **"Plain-English commentary"** with the disclosure
 *"written with AI assistance from eight classical tafsīrs — the sources are below"*.
 
-State (keep §8 current):
+Historical state (routine new chapter progress belongs in `chapters/SSS.md`):
 
 | surah | published | how |
 |---|---|---|
 | 1 Al-Fatihah | 7/7 + intro (24,361 words) | written in-session, through the pipeline, commit `85469f7` |
-| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until the sequence reaches 112: ingest that file, write `112-intro`, assemble. |
+| 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until chapter 112 is requested: ingest that file, write `112-intro`, assemble. |
 | 55 Ar-Rahman | 1/78 (exemplar 55:13) | seeded from `prompts/exemplars/055_013.md` |
-| everything else | 0 | pending, in order: 2 (Al-Baqarah, 286 verses, 119 verse jobs + intro, ≈617 K material words, ≈400 K words of output expected), then 3, 4 … 114 |
+| 2 Al-Baqarah | 286/286 + intro | completed, 406,848 verse words after repairs; full verification ok=272 flag=15 fail=0 |
+| everything else | 0 | pending: any chapter selected by the user |
 
 `python3 tools/guidance/status.py` prints the live version of this table.
+
+### Current continuation and review status (2026-10-15)
+
+- Al-Baqarah is complete: introduction plus 286/286 verse entries.
+- All 128 baseline flagged entries have now been addressed: 113 scoped
+  passes, 15 reviewed residuals, zero unreviewed. The final 39 were reviewed
+  together, with text changes published as a single batch. See
+  `FLAG_REVIEW_002.md` for the residual diagnostics and review dispositions.
+- Full published-data verification was run only after every baseline entry
+  had been addressed: **287 entries, ok=272 flag=15 fail=0**. The original
+  159/128/0 result is historical. Residual flags are not claimed as passes.
+- Verifier gates are unchanged. All 42 pipeline tests pass. All 286 raw
+  entries match the published text, and all entries plus the introduction
+  render without leftover Markdown markers. This is not scholarly certification
+  or a substitute for a browser smoke test.
+- The next pipeline job would be `003-intro`, but **Surah 3 and merging to
+  main require authorization**. A new user-provided chapter number selects that
+  chapter in any order; a merge still requires separate authorization.
+- The layer faithfully explains supplied material, including historical legal
+  and economic views. It does not independently update those views into
+  present-day law, financial advice or a contemporary fatwa. Do not add modern
+  facts or rulings without a separately authorised sourcing change.
+- Current completed payload commit: `b4846f0`; completion log: `7c521ba`.
+  Work stays on the Arena session branch. No merge into `main` has been
+  performed by the agent. After a maintainer merge, a fresh session should
+  resume from the merged checkout and its live status, not regenerate Surah 2.
 
 ## 2. Decisions that are final — do not re-ask them
 
@@ -55,7 +86,7 @@ They are encoded in `prompts/system.md`, `prompts/verse_job.md`,
 | Sources | **"Just put the contents. Use everything."** All eight, nothing quarantined: Qushayrī/Maybudī allusive readings, Tanwīr's Isrāʾīliyyāt, Maʿārif's rulings and excursions, all included, faithfully, with the material's own qualifiers ("it is said", "weak chain") kept as content. |
 | Ranges | **One self-contained entry per verse.** Material that covers a range is distributed across the verses it covers (each verse carries the part about it; the prompt shows `shared_outside` and per-verse `material_words`). Never duplicate the same paragraph across sibling verses; never leave a range's content out. |
 | Introductions | Every surah also gets an introduction (`<<<INTRO S>>>` job): names and meanings, revelation, virtues, verse count, what it covers, connection to the previous surah, `### In short`. Surah-level material in verse 1's blocks belongs here, not in 1:1. |
-| UI | Label "Plain-English commentary"; disclosure wording above; eight sources folded below. Done in `js/app.js`; `sw.js` cache version bumps when payloads change. |
+| UI | Label "Plain-English commentary"; disclosure wording above; eight sources folded below. Done in `js/app.js`; `data/*.json` is network-first with offline fallback, so payload-only updates do not require a `sw.js` cache-version bump. App-shell changes require cache-version review. |
 | Files & git | Minified single-line JSON per surah; `.gitattributes` marks them; `ATTRIBUTION.md` section; **commit per chapter (or per job for long surahs), push every time**; one PR at the end from this branch. |
 | Originality | Fail any entry with ≥ 24 words copied in a row from the material outside a quotation; flag ≥ 12. Quoted Qur'an passages followed by `(S:N)` and quotes ≤ 200 chars are exempt. |
 | Exclusions | None. |
@@ -75,14 +106,14 @@ semicolons outside quotations.
 | `status.py` | progress table from `data/`; `--next` the next pending job (packs the surah if `work/` is gone); `--material JOB --part k` prints a job's material, Arabic stripped, in ≤ 12 K-char parts; `--export-raw N` rebuilds `work/raw/*.md` from a published surah. |
 | `resume.sh` | start-of-session: git realignment, tests, status, next job. |
 | `digest.py` | a job's material prepared for complete, fast reading: per-verse checklist of the anchors the coverage gate wants, the translations to quote, then the material with Arabic/honorifics removed, referenced verse quotations collapsed to `[Q S:N …]` and repeated paragraphs collapsed. 27 K-char parts. `--quote S:N` prints the app's translation of any verse. |
-| `finish.py` | one command per job: ingest → gates (compact report for the job only) → assemble → verify data → commit → push → next job. Stops at any FAIL. |
+| `finish.py` | one command per job: ingest → gates (compact report for the job only) → assemble → commit → push → next job in the same chapter. Stops at any FAIL. |
 | `pack.py` | builds `work/jobs/NNN.json`: jobs of ≤ 8 verses / ≤ 60 K chars with per-verse material shares. `--estimate` for token/cost numbers. |
 | `generate.py` | API path (Anthropic/OpenAI/Gemini). `--show JOB` prints the exact user prompt for a job (the system prompt is `prompts/system.md` + exemplars). `--dry-run` uses the mock writer. |
 | `ingest.py` | files an output written outside `generate.py` (by hand, in a chat, from a batch API) as the job's result in `work/out/`. Refuses incomplete jobs. |
 | `verify.py` | deterministic gates → `work/reports/NNN.json`; `--source work` for job outputs, `--source data` for published files. Exit 1 on any `fail`. |
 | `audit.py` | optional second model pass (needs an API). Not used for Surah 1. |
 | `assemble.py` | merges `work/out` into `data/guidance_NNN.json` (merge by default; `fail` entries left out; `--seed-exemplars` publishes the three exemplars). |
-| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (39 tests). |
+| `tests/` | `python3 -m unittest discover -s tools/guidance/tests` (42 tests as of 2026-10-15). |
 | `../serve.py` | preview server, `python3 tools/serve.py 8000`. |
 | `CONTINUE_PROMPT.md` | the message the maintainer pastes to start a new session; it points here. |
 | `/AGENTS.md` | repository-root summary of the non-negotiables for any agent; it points here. |
@@ -97,19 +128,24 @@ registry.npmjs.org), and the GitHub token cannot read secrets or dispatch
 workflows. So unless §7 becomes possible, **the agent is the writer**: it reads
 the material and writes the entries itself, and everything else is the pipeline.
 
-### 4.1 Pick the job
+### 4.1 Select the requested chapter, in any chapter order
+
+**Current policy: `CHAPTER_RUN.md` supersedes historical sequential-generation
+and repeated full-verification instructions.** A chapter number alone selects
+that chapter for the session. Later chapters may precede earlier chapters.
+Different sessions may generate different chapters concurrently.
 
 ```bash
-python3 tools/guidance/status.py --next
+python3 tools/guidance/status.py --next --surah 18
 ```
 
-Order is fixed by the maintainer: **1 → 2 → 3 … 114, in sequence** (the
-`ORDER` list in `status.py`). Within a surah: the introduction job first
-(`NNN-intro`), then the verse jobs in verse order. Take the job it prints. Do
-not skip ahead, do not pick favourites. A surah is published incrementally:
-`assemble.py` merges each finished job into `data/guidance_NNN.json`, so
-Al-Baqarah appears in the app verse-group by verse-group while it is being
-written, and verses not yet published fall back to the sources.
+Replace 18 with the selected chapter. Save the starting commit and branch in
+`tools/guidance/chapters/SSS.md`. Within that chapter, write the introduction
+first, then verse jobs in order. Resume published work without regenerating it.
+Do not select the global next job or automatically advance to another chapter.
+Publish incrementally; untouched verses continue to fall back to the supplied
+commentaries. Keep every routine content change chapter-local so independently
+generated chapters can be merged without overwriting newer main changes.
 
 ### 4.2 Read all of the material (the fast way)
 
@@ -184,21 +220,35 @@ Writing rules in the order they bite:
    and write the others.
 
 Commit the raw file as soon as a verse is finished (cheap insurance against a
-sandbox reset): `git add work/raw && git commit -m "raw: 112-001-004 wip"`.
+sandbox reset): `git add work/raw/112-001-004.md && git commit -m "raw: 112-001-004 wip"`.
 
-### 4.4 Finish the job: one command
+### 4.4 Finish each job; verify the full chapter once at completion
 
 ```bash
-python3 tools/guidance/finish.py 002-001-001
+python3 tools/guidance/finish.py 018-intro
 ```
 
-It ingests `work/raw/002-001-001.md`, runs the gates and prints, for the job's
-entries only: status, words, coverage, ratio, every FAIL message, every flag,
-and the missing anchors. If anything fails it stops (nothing is published):
-edit the raw file and run it again. If nothing fails it merges the job into
-`data/guidance_002.json`, verifies the published file, commits the payload and
-the raw file (`Surah 2: verses 8-13 (6,120 words)`), pushes to the current
-branch, and prints the next job. Then go straight to the next job's digest.
+This ingests the selected raw draft, runs work-output gates, assembles that
+chapter, commits its payload/raw draft and pushes to the current session branch.
+It stops on a job failure. **It does not run full published-chapter verification.**
+The next-job message is restricted to the same chapter.
+
+Use the manual ingest → work gates → assemble → chapter-only commit/push path
+in `CHAPTER_RUN.md` if needed. Never use `--include-failed`. Scoped/work checks
+remain mandatory; no full-data check may run while the chapter is partial.
+
+After the introduction and **every verse** are complete, finish intended repairs,
+check raw/published consistency, run tests and render checks, then run
+`python3 tools/guidance/verify.py --source data --surahs S` **once**. Record its
+result, residual diagnostics and payload hash in the chapter-local completion
+receipt. Reuse the receipt when resuming; do not run again per session or push.
+Unexpected final failures or later edits require an explicit review decision,
+not silent repeated full checks. See `CHAPTER_RUN.md` for the full policy.
+
+At chapter completion list every file created, updated, renamed or deleted,
+including ignored scratch outputs separately, and provide a chapter-only merge
+allowlist. Do not edit shared HANDOFF/AGENTS/prompt files during routine chapter
+generation. Do not merge a branch with inherited unrelated content wholesale.
 
 Fix every FAIL. Fix a flag when it is a real gap (a missing name you can
 place, a verbatim run you can rephrase). Do not chase coverage noise (nisba-only
@@ -210,15 +260,16 @@ permitted `verify.py` changes are genuine false positives (a spelling variant,
 a punctuation form), each with a test in `tests/test_pipeline.py`.
 
 For long surahs this means a push after every job: the merged payload is the
-state, and `status.py --next` resumes from it after any reset. When a surah is
-complete, add a row to §8 and move on without waiting. Bump nothing in
+state, and `status.py --next --surah N` resumes that chapter after any reset.
+When complete, finalize `chapters/SSS.md`, give the file manifest and stop.
+Do not move to another chapter without a new request. Bump nothing in
 `sw.js` for payloads (only if `js/app.js` or `index.html` change).
 
 Occasionally (once per surah is enough) run the render check so the app's
 own markdown renderer is known to leave no raw markdown behind:
 
 ```bash
-node /dev/stdin <<'EOF'
+node - <<'EOF'
 const fs=require('fs'); const src=fs.readFileSync('js/app.js','utf8');
 function grab(n){const i=src.indexOf('function '+n+'(');let d=0,j=i;for(;j<src.length;j++){if(src[j]=='{')d++;else if(src[j]=='}'){d--;if(d==0)break;}}return src.slice(i,j+1);}
 eval(grab('escapeHtml')+grab('parseInline')+grab('renderMarkdown'));
@@ -239,13 +290,15 @@ EOF
 - Go on to the next job in the same turn. Report to the maintainer at the end
   of the turn, not after every job.
 - Commit and push happen inside `finish.py`; the raw file for a half-written
-  long job can be committed early (`git add work/raw && git commit -m "raw: wip"`).
+  long job can be committed early (`git add work/raw/JOB.md && git commit -m "raw: JOB wip"`).
 
 ### 4.6 End of session
 
-Everything committed and pushed; §8 updated; one-paragraph report to the
-maintainer: surahs/verses done, words, ok/flag counts, anything that needs a
-human decision.
+Commit and push only selected-chapter changes. Update `chapters/SSS.md`, not
+shared §8. Give completion/verification state, branch/base/final commits and
+the exact created/updated/deleted file list, with ignored scratch files separate.
+A partial chapter leaves full verification deferred. A completed chapter gets
+one final full check and a receipt, then stops. Follow `CHAPTER_RUN.md`.
 
 ## 5. Gate cheat-sheet (every message seen so far, with the fix that worked)
 
@@ -266,8 +319,11 @@ human decision.
 | `padding` / `thin` (flag) | > 200 + 1.5 × material, or < 0.25 × material | cut repetition, or cover more of the material |
 | `duplication with verse N` (flag) | same 10-word shingles in sibling entries | give each verse its own part of a shared block |
 
-Published `flag` entries are fine (they would go to the LLM audit if an API
-existed). Published `fail` entries are not possible: `assemble.py` omits them.
+Published `flag` entries are permitted by the agreed publication gate, not
+certified free of editorial problems. Inspect the reasons and repair real gaps
+or matching passages when possible. A second-model audit has not been run for
+Surah 2. `assemble.py` omits failing entries unless explicitly overridden, which
+is forbidden by this contract.
 
 ## 6. Environment quirks (all hit before; do not rediscover them)
 
@@ -285,8 +341,9 @@ existed). Published `fail` entries are not possible: `assemble.py` omits them.
   If a push is rejected: `git fetch`, `git reset --mixed origin/<branch>`, recommit.
   **Never force-push.**
 - **Sessions are pinned to one branch.** Work only on the session's branch; a new
-  session's branch starts from `main`, so merge
-  `origin/arena/ea88d543-quran-explained` into it (resume.sh does) until the PR is merged.
+  session's branch may start from `main`. Ensure the current pipeline setup is
+  available; do not merge a historical content branch wholesale merely to
+  import tooling. Inspect inherited changes before proposing a chapter-only PR.
 - Single-line JSON > 1 MB shows as an empty diff on GitHub; verify remote content
   with `gh api repos/MaxiKen/quran-explained/contents/data/guidance_NNN.json?ref=<branch> --jq .size`.
 - The corpus names the eight works inside the texts (Maʿārif cites "Ibn Kathir"
@@ -305,17 +362,17 @@ audit → assemble` and commits the payloads to the branch. It needs:
 
 1. Repository secrets `ANTHROPIC_API_KEY` and/or `OPENAI_API_KEY` / `GEMINI_API_KEY`.
 2. The workflow file on the default branch (it is only registered once it is on `main`).
-3. A manual dispatch: Actions → Guidance → surahs `2` (then `3-114`), provider `anthropic`.
+3. A manual dispatch: Actions → Guidance → the next unfinished surah (currently `3`), provider `anthropic`. Do not regenerate completed chapters unless explicitly requested.
 
 Local equivalent on a machine with network access:
 
 ```bash
-python3 tools/guidance/pack.py --surahs 2 --shards 4
-ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 2 --provider anthropic --concurrency 8
-python3 tools/guidance/verify.py --source work --surahs 2
-ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 2 --provider anthropic
-python3 tools/guidance/assemble.py --surahs 2
-python3 tools/guidance/verify.py --source data --surahs 2
+python3 tools/guidance/pack.py --surahs 3 --shards 4
+ANTHROPIC_API_KEY=… python3 tools/guidance/generate.py --surahs 3 --provider anthropic --concurrency 8
+python3 tools/guidance/verify.py --source work --surahs 3
+ANTHROPIC_API_KEY=… python3 tools/guidance/audit.py --surahs 3 --provider anthropic
+python3 tools/guidance/assemble.py --surahs 3
+python3 tools/guidance/verify.py --source data --surahs 3
 ```
 
 Estimates (`pack.py --estimate`, whole Qur'an): 1,536 jobs, ~10.7 M input
@@ -336,6 +393,34 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-14 | 2 | intro + 1–121 (of 286) | 2,239 intro + ~176,500 verses | ok=91 flag=31 fail=0 (flags: coverage noise, long sentences, a few 12–14-word stock-phrase runs) | e38be8e (one push per job, ~60 pushes) | arena agent (in-session, digest→write→finish loop) |
 | 2026-10-14 | 2 | intro + 1–171 (of 286) | 2,298 intro + ~253,000 verses | ok=108 flag=64 fail=0 on the full `verify --source data` run at session end (flags: narrator-list runs, coverage noise, long sentences) | dac32325 (one push per job; publish = assemble + commit + push, per-job `verify --source work` gate, full verify-data once per session ≈ 8 min at 172 entries) | arena agent (in-session, digest→write→gate→publish loop) |
 | 2026-10-14 | 2 | intro + 1–221 (of 286) | 2,298 intro + ~334,000 verses | ok=110 flag=112 fail=0 on the full `verify --source data` run after the block 172–221 (flags: verbatim narrator-list runs, long sentences, reading grade, coverage 0.80–0.85 noise) | f713f4cf (per-job gate + publish; full verify-data once at the end ≈ 14 min at 222 entries) | arena agent (in-session, digest→write→gate→publish loop) |
+
+| 2026-10-15 | 2 | intro + 1–233 (of 286) | 21,633 new words in 222–233 | new entries ok=11 flag=1 fail=0 from per-job work gates. Full verify-data deferred until 286 by maintainer instruction. | f50dea5 (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | intro + 1–257 (of 286) | 23,992 new words in 234–257 | new entries ok=18 flag=6 fail=0 from per-job work gates. Full verify-data remains deferred until 286 as instructed. | 307e0db (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | intro + 1–266 (of 286) | 10,878 new words in 258–266 | New work entries ok=5 flag=4 fail=0. Remaining flags are coverage noise (editorial numbers, damaged name, generic words). Full verify-data remains deferred until 286 as instructed. | cd5f83c (per-job publish and push on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | complete: intro + 1–286 | 412,897 verse words total; 25,310 new words in 267–286 | Full published-data verification, run only after 286: 287 entries, ok=159 flag=128 fail=0. All 42 pipeline tests pass. All 286 verses and introduction render with zero leftover Markdown markers. | b4846f0 (seven sequential job pushes for 267–286 on arena/e527c26f-quran-explained) | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 1: 3, 4, 6, 16, 20, 22, 23, 29, 33, 40, 167, 202, 205, 206, 241, 279 | prose and structure repairs, no new verses | 16 entries pass scoped unchanged gates with sibling context. 112 baseline flagged entries remain. Interrupted full recheck was terminated without a result. See FLAG_REVIEW_002.md. | current flag-repair commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 2: 139, 146, 157, 160, 162, 175, 182, 207–212, 214, 216, 218 | substantive section rewrites and matching repairs | 16 additional entries pass scoped gates; matching also checked against all chapter material. 96 baseline flagged entries await repairs. Full chapter verification remains explicitly deferred until all 128 are addressed. | current batch-2 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 3: 94, 107, 112, 114, 118, 121, 144, 192 | sentence splitting and source-matching paraphrases | Eight entries pass scoped unchanged gates and chapter-material matching checks. 88 baseline flagged entries remain. Complete verification remains deferred until all 128 are addressed. | current batch-3 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 4: 147, 153, 154, 161, 166, 168, 169, 172 | matching paraphrases and clarified phrasing | Eight scoped passes, no chapter-material matching runs. 80 baseline flagged entries remain. Full verification deferred until all 128 are addressed. | current batch-4 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 5: 31, 98, 109, 120, 148–152, 171, 179, 252, 254, 265, 266 | fifteen entries edited and source-reviewed | 14 scoped passes; 254 retains a documented truncated-transliteration coverage flag. All 15 have no errors or chapter-material matching runs. Campaign: 62 scoped passes, 1 reviewed residual, 65 unreviewed. Full verification deferred until every baseline entry is addressed. | current batch-5 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 6: 155, 156, 158, 159, 163, 165, 170, 174 | matching-run paraphrases and prose clarification | All 8 pass scoped unchanged gates and chapter-material matching checks. Campaign: 70 scoped passes, 1 reviewed residual, 57 awaiting review. Complete verification still deferred until all 128 are addressed. | current batch-6 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 7: 106, 199, 200, 201, 203, 204, 215 | matching-run paraphrases and shorter prose with scholarly qualifications preserved | All 7 pass unchanged scoped gates and chapter-material matching checks. Campaign: 77 scoped passes, 1 reviewed residual, 50 awaiting review. Complete verification remains deferred until all 128 are addressed. | current batch-7 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 8: 183, 189, 190, 191, 193, 194 | matching paraphrases, shorter prose and restored legal disagreement at 191 | All 6 pass unchanged scoped gates and chapter-material matching checks. Campaign: 83 scoped passes, 1 reviewed residual, 44 awaiting review. Full verification deferred until all 128 are addressed. | current batch-8 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 9: 173, 178, 180, 186, 195 | matching paraphrases, shorter prose and restored qualifications | All 5 pass unchanged scoped gates and chapter-material matching checks. Campaign: 88 scoped passes, 1 reviewed residual, 39 awaiting review. Full verification remains deferred until all 128 are addressed. | current batch-9 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | final flag-review batch: all 39 remaining baseline entries | 31 verse texts revised; all 39 reviewed | Batch scoped: 25 ok, 14 reviewed flags, 0 fail. Campaign: all 128 addressed. Final full verification: 287 entries, 272 ok, 15 reviewed flags, 0 fail. 42 tests pass; all raw entries synchronized and all entries render. | current final-review commit | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 
