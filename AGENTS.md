@@ -23,11 +23,12 @@ full published-data verification on every job. If the maintainer explicitly
 defers that check, use HANDOFF §4.4's manual work-gated publishing path until
 the requested endpoint, then run the full check.
 
-Current checkpoint (2026-10-15): Surahs 1 and 2 are complete. Next job:
-`003-intro`, unless live `status.py --next` shows further progress. Surah 2's
-final verification was run after verse 286: 159 ok, 128 flagged, zero failed
-entries. Flags are review items, not proof of complete editorial or scholarly
-validation.
+Current checkpoint (2026-10-15): Surahs 1 and 2 are complete. All 128
+baseline Al-Baqarah flags have been addressed. Complete published-data
+verification, run after that review, found 272 ok, 15 reviewed residual flags
+and zero failures across 287 entries. Gates are unchanged. Surah 3 and a
+main merge are not authorized in the current session; do not start them
+automatically. See FLAG_REVIEW_002.md for the review dispositions.
 
 Non-negotiables (details and reasons in the handoff):
 

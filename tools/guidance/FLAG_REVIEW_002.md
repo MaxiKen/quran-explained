@@ -223,3 +223,72 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:269 | coverage 84% (5 of 32 anchors missing) |
 | 2:275 | coverage 80% (17 of 85 anchors missing) |
 | 2:276 | coverage 83% (5 of 29 anchors missing) |
+
+## Batch 10: all final 39 baseline entries addressed
+
+All 39 entries were reviewed in one batch; required text changes were published together, and raw/published texts were synchronized. The unchanged scoped checks give **25 ok, 14 reviewed flags, zero failures**. No candidate has a 12-word source-matching run against the whole chapter material. The 42 pipeline tests pass.
+
+**Campaign checkpoint: all 128 baseline entries addressed, 113 scoped passes, 15 reviewed residuals (including 2:254), zero unreviewed.** Reviewed flags are not claimed as detector passes or scholarly certification. Complete published-data verification is now permitted and follows this checkpoint.
+
+| Verse | Scoped result | Review disposition |
+|---|---|---|
+| 2:13 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:21 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:25 | flag | The remaining anchors are three editorial numbers (24, 2273, 2941) and ruh, a work-title fragment. No missing teaching was identified. |
+| 2:28 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:41 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:42 | flag | The bowing clause belongs to the shared prayer discussion in 2:43. Al-Ahkam Al-Kabir is a compiler’s forward book cross-reference, not a separate ruling. Abu Hzim and Abu-H-azim are damaged forms of the already-present Abu Hazim. The bare verse number is editorial. |
+| 2:43 | flag | Prayer, congregation, scholarly disagreement and the bowing clause remain. Ar-Raki’in is translated as those who bow. Al-Ahkam Al-Kabir is a forward book reference. Al-Sala and al-Ash are truncated forms of prayer and the already-present al-Ash‘ari. Holy Qur’an, repeated say and numbers are lexical/editorial anchors. |
+| 2:44 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:96 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:102 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:124 | flag | The supplied block also contains material on 2:125: refuge, the Maqam, tawaf, Umar, Jabir, Abu Talib’s poem, the footprint and the movement of the stone. Those accounts are retained in 2:125 and the House entries. Copying all of them into 2:124 would duplicate neighboring entries. The actual trials and covenant remain here. The report’s 72% is retained, not represented as a pass. |
+| 2:125 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:126 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:127 | flag | The length allocation gives only about 576 words of material to 2:127 within the large shared 2:125–128 block. The construction history belongs here and is retained. The 3,296-word entry is not truncated merely to satisfy the allocation. |
+| 2:128 | flag | The same shared block assigns about 5,580 words of material to 2:128, including House history covered in the neighboring entries. The submission, descendants, rites and repentance are explained here without duplicating that history to inflate length. |
+| 2:129 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:164 | flag | The creation signs and their argument remain. Similarly Allah and Holy Qur’an are phrase/honorific anchors, 164 is a bare number, ʿAṬāÌ is a damaged name spelling, and say is a generic lexical anchor. |
+| 2:177 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:184 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:185 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:187 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:188 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:196 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:197 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:198 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:213 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:217 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:219 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:220 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:221 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:227 | flag | The divorce discussion is retained. al-Qur is a truncated work-title fragment, 356 an editorial number, and two say anchors are generic wording. |
+| 2:235 | flag | The early authorities are now explicitly identified as the salaf. The hint/secret promise distinction and waiting-period prohibition remain. Two say anchors and numbers 52 and 29 remain as detector residuals. |
+| 2:236 | flag | The unconsummated-divorce and gift rulings remain. The only missing anchors are say and numbers 366 and 367. |
+| 2:240 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:262 | flag | The prohibition of reproach and harm after charity remains. The missing anchors are two occurrences of say and the number 416. |
+| 2:264 | flag | The report attributed to al-Bara ibn Azib is retained under a readable name. BarrāÌ is a damaged spelling; 264 and 708 are editorial numbers. |
+| 2:269 | flag | The wisdom interpretations, reports and scholarly distinctions remain. Al-Birr is a transliterated righteousness term in the shared neighboring charity material, not a missing wisdom interpretation. The other anchors are 269, 706, lot and say. |
+| 2:275 | ok | Passes unchanged gates after prose, structure, terminology or attribution repair. |
+| 2:276 | flag | The contrast between riba and charity, the transmitted reports and the devotional reading remain. The missing anchors are three say tokens, the number 18 and the honorific Holy Prophet. |
+
+### Exact residual diagnostics
+
+- **2:25**: coverage 83% (4 of 23 anchors missing). Missing anchors: 24, ruh, 2273, 2941.
+- **2:42**: coverage 81% (6 of 31 anchors missing). Missing anchors: Ar-Raki'in, Al-Ahkam, Al-Kabir, 42, Abu Hzim, Abu- H-azim.
+- **2:43**: coverage 77% (10 of 44 anchors missing). Missing anchors: Ar-Raki'in, Al-Ahkam, Al-Kabir, 21, 43, Al-Sala, Holy Qur'an, al-Ash, say, say.
+- **2:124**: coverage 72% (35 of 127 anchors missing). Missing anchors: 2:125, 14:40, 22:26, 3:96-97, 66:5, Al-Mushrikin, Abu Al-'Aliyah, Ar-Rabi, Ar-Rahman, Al-'Alamin, As-Suddi, Al-Qurtubi, Ar-Razi, Al-Basri, Umar, Al-Bukhari, Umar bin Al-Khattab, Jabir, Ibn 'Umar, Abu Talib, Al-Lamiyyah, Anas bin Malik, Al-Hijr, Al-Khattab, Abu Bakr, Al-Husayn Al-Bayhaqi, ummah, hijab, wali, tawaf, haram, job, supplication, 51, 488.
+- **2:127**: entry is long for its material (3296 words for ~576 words of material): check for padding. Missing anchors: Abu Wahb bin 'Amr, Hadith' He, muttaqin, adhan, iqamah, job.
+- **2:128**: entry is short for its material (1290 words for ~5580 words of material). Missing anchors: Abu Wahb bin 'Amr, Hadith' He, muttaqin, adhan, iqamah, job, al-Muhit, yaṬlubu.
+- **2:164**: coverage 83% (5 of 30 anchors missing). Missing anchors: Similarly Allah, 164, Holy Qur'an, ʿAṬāÌ, say.
+- **2:227**: coverage 78% (4 of 18 anchors missing). Missing anchors: al-Qur, say, 356, say.
+- **2:235**: coverage 81% (4 of 21 anchors missing). Missing anchors: say, 52, 29, say.
+- **2:236**: coverage 73% (3 of 11 anchors missing). Missing anchors: say, 366, 367.
+- **2:262**: coverage 82% (3 of 17 anchors missing). Missing anchors: say, 416, say.
+- **2:264**: coverage 82% (3 of 17 anchors missing). Missing anchors: 264, 708, BarrāÌ.
+- **2:269**: coverage 84% (5 of 32 anchors missing). Missing anchors: Al-Birr, 269, lot, say, 706.
+- **2:276**: coverage 83% (5 of 29 anchors missing). Missing anchors: say, 18, Holy Prophet, say, say.
+
+### Completed full-chapter check
+
+After all 128 baseline entries had been addressed, `python3 tools/guidance/verify.py --source data --surahs 2` completed successfully: **287 entries, 272 ok, 15 flag, zero fail**. This includes the introduction and all 286 verses. The remaining flags are the reviewed coverage/length diagnostics listed above plus 2:254. They have not been suppressed. The full-context result for 2:124 is 73% (34 missing anchors), compared with the scoped result of 72% (35 missing). Raw/published consistency holds for all 286 entries. Verifier code and thresholds are unchanged. No Surah 3 work or main merge is authorized.

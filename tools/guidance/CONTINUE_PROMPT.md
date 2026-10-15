@@ -5,11 +5,13 @@ Paste the block below as the first message of a new Arena session on
 merged to `main` yet.
 
 Current checkpoint (2026-10-15): Al-Baqarah is complete, including all 286
-verses and its introduction. The next job is `003-intro`. Final published-data
-verification found 159 ok, 128 flagged and zero failed entries. Flags remain
-editorial review items, not a claim of scholarly certification. The temporary
-instruction to defer Surah-2 full verification until 286 has been fulfilled.
-Always use live status if later work has advanced this checkpoint.
+verses and its introduction. All 128 baseline flags have been addressed.
+Full published-data verification after the review found 272 ok, 15 reviewed
+residual flags and zero failures. No gates were relaxed. These results are
+not scholarly certification. The next pipeline job would be `003-intro`,
+but Surah 3 and a main merge are not authorized in the current session.
+Continue only within the maintainer's live authorized scope; do not start
+Surah 3 automatically. See FLAG_REVIEW_002.md for review dispositions.
 
 ---
 

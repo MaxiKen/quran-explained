@@ -34,32 +34,27 @@ State (keep §8 current):
 | 1 Al-Fatihah | 7/7 + intro (24,361 words) | written in-session, through the pipeline, commit `85469f7` |
 | 112 Al-Ikhlas | 1/4 (exemplar 112:1, flag) | seeded from `prompts/exemplars/112_001.md`. 112:2–4 are **written and verified** (`work/raw/112-001-004.md`, ok=0 flag=4 fail=0, flags are the virtue reports that belong to the introduction) but held unpublished until the sequence reaches 112: ingest that file, write `112-intro`, assemble. |
 | 55 Ar-Rahman | 1/78 (exemplar 55:13) | seeded from `prompts/exemplars/055_013.md` |
-| 2 Al-Baqarah | 286/286 + intro | completed, 412,897 verse words; full verification ok=159 flag=128 fail=0, commit `b4846f0` |
+| 2 Al-Baqarah | 286/286 + intro | completed, 406,848 verse words after repairs; full verification ok=272 flag=15 fail=0 |
 | everything else | 0 | pending, in order: 3 (next job `003-intro`), then 4 … 114 |
 
 `python3 tools/guidance/status.py` prints the live version of this table.
 
 ### Current continuation and review status (2026-10-15)
 
-- Al-Baqarah is complete: introduction plus 286/286 verse entries. The next
-  unfinished job is `003-intro`. Ask `status.py --next` rather than hard-coding
-  an old Al-Baqarah job.
-- The maintainer required no full published-data verification of Surah 2 until
-  verse 286. That instruction was honoured for the concluding work, and the
-  final check has now run: **287 entries, ok=159 flag=128 fail=0**. This is a
-  completed Surah-2-specific deferral, not a permanent ban on verification.
-- Flag repair is now in progress. Eighty-eight originally flagged entries have
-  passed scoped checks after repairs. See `FLAG_REVIEW_002.md` for the exact
-  batch and the 39 remaining unreviewed baseline flagged entries and one reviewed residual at 2:254. The earlier full
-  result below is historical; a new full-chapter result is still pending.
-- The 128 flags are **not all coverage noise**. They include long sentences,
-  reading grade, matching runs, coverage, length and missing middle sections.
-  Flags are publishable under the agreed gates, but remain editorial review
-  items. A deterministic pass is not proof of full substantive coverage,
-  historical accuracy, hadith authenticity or scholarly approval.
-- All 42 pipeline tests passed. All 286 entries and the introduction rendered
-  with zero leftover Markdown markers. These checks do not replace a browser
-  smoke test or a scholarly/editorial review.
+- Al-Baqarah is complete: introduction plus 286/286 verse entries.
+- All 128 baseline flagged entries have now been addressed: 113 scoped
+  passes, 15 reviewed residuals, zero unreviewed. The final 39 were reviewed
+  together, with text changes published as a single batch. See
+  `FLAG_REVIEW_002.md` for the residual diagnostics and review dispositions.
+- Full published-data verification was run only after every baseline entry
+  had been addressed: **287 entries, ok=272 flag=15 fail=0**. The original
+  159/128/0 result is historical. Residual flags are not claimed as passes.
+- Verifier gates are unchanged. All 42 pipeline tests pass. All 286 raw
+  entries match the published text, and all entries plus the introduction
+  render without leftover Markdown markers. This is not scholarly certification
+  or a substitute for a browser smoke test.
+- The next pipeline job would be `003-intro`, but **Surah 3 and merging to
+  main are not authorized in this session**. Do not start either automatically.
 - The layer faithfully explains supplied material, including historical legal
   and economic views. It does not independently update those views into
   present-day law, financial advice or a contemporary fatwa. Do not add modern
@@ -421,6 +416,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-15 | 2 | flag repair batch 8: 183, 189, 190, 191, 193, 194 | matching paraphrases, shorter prose and restored legal disagreement at 191 | All 6 pass unchanged scoped gates and chapter-material matching checks. Campaign: 83 scoped passes, 1 reviewed residual, 44 awaiting review. Full verification deferred until all 128 are addressed. | current batch-8 commit | arena agent (in-session) |
 
 | 2026-10-15 | 2 | flag repair batch 9: 173, 178, 180, 186, 195 | matching paraphrases, shorter prose and restored qualifications | All 5 pass unchanged scoped gates and chapter-material matching checks. Campaign: 88 scoped passes, 1 reviewed residual, 39 awaiting review. Full verification remains deferred until all 128 are addressed. | current batch-9 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | final flag-review batch: all 39 remaining baseline entries | 31 verse texts revised; all 39 reviewed | Batch scoped: 25 ok, 14 reviewed flags, 0 fail. Campaign: all 128 addressed. Final full verification: 287 entries, 272 ok, 15 reviewed flags, 0 fail. 42 tests pass; all raw entries synchronized and all entries render. | current final-review commit | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 
