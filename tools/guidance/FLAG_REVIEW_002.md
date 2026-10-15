@@ -25,9 +25,34 @@ Sixteen entries now pass unchanged verification gates in scoped checks with the 
 | 2:241 | reading grade 12.6 | ok (no warnings or errors) |
 | 2:279 | reading grade 12.2 | ok (no warnings or errors) |
 
+## Batch 2: additional editorial repairs
+
+Sixteen further entries have been repaired and synchronized with the published payload. All pass unchanged scoped checks. The matching-run check was also applied to these candidates against all supplied Al-Baqarah material, not just the local blocks. Full-chapter verification remains deferred until the whole flag campaign is addressed.
+
+| Verse | Repair | Scoped result |
+|---|---|---|
+| 2:139 | one verbatim run of 13 words ("who argued with ibrahim about his lord because…") | ok, no warnings or errors |
+| 2:146 | 4 verbatim runs of 12+ words ("the people of the book knew in their…") | ok, no warnings or errors |
+| 2:157 | one verbatim run of 20 words ("mercy are always open to his servants he…") | ok, no warnings or errors |
+| 2:160 | one verbatim run of 14 words ("the fold of islam believing in allah and…") | ok, no warnings or errors |
+| 2:162 | one verbatim run of 12 words ("it fitting to return to the states of…") | ok, no warnings or errors |
+| 2:175 | one verbatim run of 16 words ("the pardon that would have been prepared for…") | ok, no warnings or errors |
+| 2:182 | one verbatim run of 12 words ("ample reward showing kindness to novices who are…") | ok, no warnings or errors |
+| 2:207 | one verbatim run of 13 words ("revealed about the parents of ammar ibn yasir…"); long sentences (avg 31.2 words); reading grade 13.4; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:208 | 5 verbatim runs of 12+ words ("thought or practice as part of the faith…"); long sentences (avg 32.3 words); reading grade 14.9; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:209 | 2 verbatim runs of 12+ words ("when the tribulation for the worst sins descends…"); long sentences (avg 25.6 words); no middle sections despite substantial material | ok, no warnings or errors |
+| 2:210 | coverage 80% (3 of 15 anchors missing); 7 verbatim runs of 12+ words ("the hearts of those who declare his oneness…"); long sentences (avg 28.4 words); reading grade 12.1; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:211 | 2 verbatim runs of 12+ words ("addressed them with commands and prohibitions and honoured…"); long sentences (avg 28.0 words); reading grade 12.6; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:212 | 3 verbatim runs of 12+ words ("gained the ultimate happiness and the best share…"); long sentences (avg 30.4 words); reading grade 13.1; no middle sections despite substantial material | ok, no warnings or errors |
+| 2:218 | one verbatim run of 14 words ("took possession of the caravan and the two…"); long sentences (avg 31.4 words); reading grade 13.9; no middle sections despite substantial material | ok, no warnings or errors |
+
+| 2:214 | 5 verbatim runs of 12+ words ("men are reluctant to tread because of its…"); long sentences (avg 28.0 words); no middle sections despite substantial material | ok, no warnings or errors |
+
+| 2:216 | coverage 83% (5 of 29 anchors missing); 5 verbatim runs of 12+ words ("allah made it obligatory for the muslims to…"); long sentences (avg 31.3 words); reading grade 13.9; no middle sections despite substantial material | ok, no warnings or errors |
+
 ## Still awaiting repair
 
-112 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+96 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -60,9 +85,7 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:127 | 11 verbatim runs of 12+ words ("o khalil of rahman you raise the foundations…"); entry is long for its material (3319 words for ~576 words of material): check for padding |
 | 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
 | 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
-| 2:139 | one verbatim run of 13 words ("who argued with ibrahim about his lord because…") |
 | 2:144 | one verbatim run of 13 words ("abu aliyah mujahid ikrimah said ibn jubayr qatadah…") |
-| 2:146 | 4 verbatim runs of 12+ words ("the people of the book knew in their…") |
 | 2:147 | coverage 80% (2 of 10 anchors missing); one verbatim run of 13 words ("strengthens the resolve of his prophet and the…") |
 | 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") |
 | 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") |
@@ -73,12 +96,9 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:154 | 5 verbatim runs of 12+ words ("said we wish that you send us back…") |
 | 2:155 | coverage 81% (6 of 32 anchors missing); 7 verbatim runs of 12+ words ("of what will make them happy in this…") |
 | 2:156 | 6 verbatim runs of 12+ words ("if we are not pleased with his decree…"); long sentences (avg 25.4 words) |
-| 2:157 | one verbatim run of 20 words ("mercy are always open to his servants he…") |
 | 2:158 | 3 verbatim runs of 12+ words ("when islam came and the idols were destroyed…"); long sentences (avg 26.0 words) |
 | 2:159 | 8 verbatim runs of 12+ words ("were revealed about the people of the scripture…"); long sentences (avg 27.4 words); reading grade 12.2 |
-| 2:160 | one verbatim run of 14 words ("the fold of islam believing in allah and…") |
 | 2:161 | 2 verbatim runs of 12+ words ("umar ibn khattab and the imams after him…") |
-| 2:162 | one verbatim run of 12 words ("it fitting to return to the states of…") |
 | 2:163 | coverage 83% (2 of 12 anchors missing); 4 verbatim runs of 12+ words ("devoted servants living for him dying for him…") |
 | 2:164 | coverage 83% (5 of 30 anchors missing); 6 verbatim runs of 12+ words ("bypass the wonder of the creation of the…") |
 | 2:165 | 6 verbatim runs of 12+ words ("hypocrites who buried their gold and silver or…") |
@@ -90,12 +110,10 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:172 | 3 verbatim runs of 12+ words ("is acting with complete devotion to him and…") |
 | 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5 |
 | 2:174 | 8 verbatim runs of 12+ words ("the people would abandon them and follow him…"); long sentences (avg 26.1 words) |
-| 2:175 | one verbatim run of 16 words ("the pardon that would have been prepared for…") |
 | 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
 | 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words) |
 | 2:179 | 3 verbatim runs of 12+ words ("wise people should have no difficulty in seeing…") |
 | 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6 |
-| 2:182 | one verbatim run of 12 words ("ample reward showing kindness to novices who are…") |
 | 2:183 | 4 verbatim runs of 12+ words ("them to fast that is to abstain from…"); long sentences (avg 25.6 words) |
 | 2:184 | coverage 84% (8 of 51 anchors missing); 2 verbatim runs of 12+ words ("and whoever is present with the creator of…"); long sentences (avg 27.9 words) |
 | 2:185 | 9 verbatim runs of 12+ words ("as guidance for the hearts of those who…"); long sentences (avg 29.7 words); reading grade 12.6 |
@@ -117,18 +135,9 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:201 | 5 verbatim runs of 12+ words ("needs virtuous deeds desirable morals beneficial knowledge honour…"); long sentences (avg 28.8 words); reading grade 12.6 |
 | 2:203 | 2 verbatim runs of 12+ words ("ibn abbas said that the appointed days are…"); long sentences (avg 37.2 words); reading grade 15.1 |
 | 2:204 | 6 verbatim runs of 12+ words ("people the appearance of sheep while their hearts…"); long sentences (avg 31.6 words); reading grade 13.6 |
-| 2:207 | one verbatim run of 13 words ("revealed about the parents of ammar ibn yasir…"); long sentences (avg 31.2 words); reading grade 13.4; no middle sections despite substantial material |
-| 2:208 | 5 verbatim runs of 12+ words ("thought or practice as part of the faith…"); long sentences (avg 32.3 words); reading grade 14.9; no middle sections despite substantial material |
-| 2:209 | 2 verbatim runs of 12+ words ("when the tribulation for the worst sins descends…"); long sentences (avg 25.6 words); no middle sections despite substantial material |
-| 2:210 | coverage 80% (3 of 15 anchors missing); 7 verbatim runs of 12+ words ("the hearts of those who declare his oneness…"); long sentences (avg 28.4 words); reading grade 12.1; no middle sections despite substantial material |
-| 2:211 | 2 verbatim runs of 12+ words ("addressed them with commands and prohibitions and honoured…"); long sentences (avg 28.0 words); reading grade 12.6; no middle sections despite substantial material |
-| 2:212 | 3 verbatim runs of 12+ words ("gained the ultimate happiness and the best share…"); long sentences (avg 30.4 words); reading grade 13.1; no middle sections despite substantial material |
 | 2:213 | 2 verbatim runs of 12+ words ("chooses one of his servants to proclaim the…"); long sentences (avg 32.5 words); reading grade 14.4 |
-| 2:214 | 5 verbatim runs of 12+ words ("men are reluctant to tread because of its…"); long sentences (avg 28.0 words); no middle sections despite substantial material |
 | 2:215 | 5 verbatim runs of 12+ words ("to parents close relatives in need needy orphans…"); long sentences (avg 29.3 words); reading grade 13.2 |
-| 2:216 | coverage 83% (5 of 29 anchors missing); 5 verbatim runs of 12+ words ("allah made it obligatory for the muslims to…"); long sentences (avg 31.3 words); reading grade 13.9; no middle sections despite substantial material |
 | 2:217 | coverage 84% (12 of 77 anchors missing); 4 verbatim runs of 12+ words ("banu abdshams ibn abdmanaf there was abu hudhayfah…"); long sentences (avg 35.8 words); reading grade 15.0; no middle sections despite substantial material |
-| 2:218 | one verbatim run of 14 words ("took possession of the caravan and the two…"); long sentences (avg 31.4 words); reading grade 13.9; no middle sections despite substantial material |
 | 2:219 | 13 verbatim runs of 12+ words ("this is the first verse in which the…"); long sentences (avg 32.2 words); reading grade 14.2 |
 | 2:220 | 5 verbatim runs of 12+ words ("ibn umar shabi mujahid qatadah rabi ibn anas…"); long sentences (avg 32.2 words); reading grade 13.6; no middle sections despite substantial material |
 | 2:221 | coverage 80% (10 of 50 anchors missing); 9 verbatim runs of 12+ words ("the explanation of mujahid ikrimah said ibn jubayr…"); long sentences (avg 34.2 words); reading grade 15.3; no middle sections despite substantial material |
