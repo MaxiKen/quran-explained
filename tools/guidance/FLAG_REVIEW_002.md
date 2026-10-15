@@ -160,9 +160,25 @@ The edits shorten the fasting discussion (2:183), the lunar-calendar discussion 
 
 Campaign after this batch: 83 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 44 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
 
+## Batch 9: five further repairs
+
+All five entries pass unchanged scoped gates with the published introduction and actual shared-block sibling context. Each also has zero matching runs against the complete supplied chapter material. Raw drafts and published entries are synchronized.
+
+The edits clarify food prohibitions, necessity and medicinal use (2:173), retaliation and pardon (2:178), wills and abrogation (2:180), supplication (2:186), and spending and iḥsān (2:195). At 2:173 the five-bullet summary retains the garden account and now states the disagreement on transfusion outside compulsion. At 2:178 the literal free-man/slave reading is retained alongside the broader retaliation reading. At 2:180 the supplied Arabic grading of al-Tirmidhī's report is preserved as ḥasan ṣaḥīḥ. At 2:186 the fasting-to-obedience argument and its connection with 2:188 are restored. Collectors, disagreements and devotional imagery remain. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5  ok, no warnings or errors |
+| 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words)  ok, no warnings or errors |
+| 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6  ok, no warnings or errors |
+| 2:186 | 5 verbatim runs of 12+ words ("i am as my servant thinks of me…"); long sentences (avg 29.7 words)  ok, no warnings or errors |
+| 2:195 | 11 verbatim runs of 12+ words ("spend your wealth in obedience to allah in…"); long sentences (avg 27.0 words)  ok, no warnings or errors |
+
+Campaign after this batch: 88 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 39 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
 ## Still awaiting repair
 
-44 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+39 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -185,16 +201,11 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
 | 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
 | 2:164 | coverage 83% (5 of 30 anchors missing); 6 verbatim runs of 12+ words ("bypass the wonder of the creation of the…") |
-| 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5 |
 | 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
-| 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words) |
-| 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6 |
 | 2:184 | coverage 84% (8 of 51 anchors missing); 2 verbatim runs of 12+ words ("and whoever is present with the creator of…"); long sentences (avg 27.9 words) |
 | 2:185 | 9 verbatim runs of 12+ words ("as guidance for the hearts of those who…"); long sentences (avg 29.7 words); reading grade 12.6 |
-| 2:186 | 5 verbatim runs of 12+ words ("i am as my servant thinks of me…"); long sentences (avg 29.7 words) |
 | 2:187 | 9 verbatim runs of 12+ words ("ibn abbas mujahid said ibn jubayr hasan qatadah…"); long sentences (avg 32.9 words); reading grade 13.5 |
 | 2:188 | coverage 83% (7 of 42 anchors missing); one verbatim run of 16 words ("do not take property cases to the authorities…"); long sentences (avg 30.9 words); reading grade 13.7 |
-| 2:195 | 11 verbatim runs of 12+ words ("spend your wealth in obedience to allah in…"); long sentences (avg 27.0 words) |
 | 2:196 | 3 verbatim runs of 12+ words ("by ubayd ibn umayr laythi ikrimah hasan basri…"); long sentences (avg 32.2 words); reading grade 13.7 |
 | 2:197 | 6 verbatim runs of 12+ words ("makhul qatadah dahhak ibn muzahim rabi ibn anas…"); long sentences (avg 32.5 words); reading grade 13.7 |
 | 2:198 | 2 verbatim runs of 12+ words ("ibn abbas said ibn jubayr ikrimah mujahid suddi…"); long sentences (avg 35.3 words); reading grade 14.8 |
