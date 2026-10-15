@@ -65,9 +65,24 @@ Eight more entries are synchronized in raw drafts and the published chapter. Sco
 | 2:144 | one verbatim run of 13 words ("abu aliyah mujahid ikrimah said ibn jubayr qatadah…") | ok, no warnings or errors |
 | 2:192 | one verbatim run of 12 words ("fighting you in the sacred area and come…") | ok, no warnings or errors |
 
+## Batch 4: original phrasing and clarified explanations
+
+Eight further entries pass unchanged scoped gates and a separate matching check against all chapter material. These edits preserve the supplied legal differences, hadith attributions and inward readings. Verse 153 was checked alongside the published blessing at 157, which it explicitly discusses. No complete chapter verification has been run.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:147 | coverage 80% (2 of 10 anchors missing); one verbatim run of 13 words ("strengthens the resolve of his prophet and the…") | ok, no warnings or errors |
+| 2:153 | 4 verbatim runs of 12+ words ("for him if he is tested with a…") | ok, no warnings or errors |
+| 2:154 | 5 verbatim runs of 12+ words ("said we wish that you send us back…") | ok, no warnings or errors |
+| 2:161 | 2 verbatim runs of 12+ words ("umar ibn khattab and the imams after him…") | ok, no warnings or errors |
+| 2:166 | 2 verbatim runs of 12+ words ("when they see the beginnings of the chastisement…") | ok, no warnings or errors |
+| 2:168 | 3 verbatim runs of 12+ words ("allah has made lawful should not be made…") | ok, no warnings or errors |
+| 2:169 | coverage 82% (2 of 11 anchors missing); one verbatim run of 16 words ("the truth while the angelic suggestion promises reward…") | ok, no warnings or errors |
+| 2:172 | 3 verbatim runs of 12+ words ("is acting with complete devotion to him and…") | ok, no warnings or errors |
+
 ## Still awaiting repair
 
-88 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+80 baseline flagged entries remain. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -94,28 +109,20 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:127 | 11 verbatim runs of 12+ words ("o khalil of rahman you raise the foundations…"); entry is long for its material (3319 words for ~576 words of material): check for padding |
 | 2:128 | 2 verbatim runs of 12+ words ("that not one vein of ours throbs without…"); entry is short for its material (1294 words for ~5580 words of material) |
 | 2:129 | 14 verbatim runs of 12+ words ("prayer allah promised that this prophet would be…"); long sentences (avg 26.4 words) |
-| 2:147 | coverage 80% (2 of 10 anchors missing); one verbatim run of 13 words ("strengthens the resolve of his prophet and the…") |
 | 2:148 | 6 verbatim runs of 12+ words ("orientation of its own whether appointed by allah…") |
 | 2:149 | 3 verbatim runs of 12+ words ("be commanded to face the qiblah of ibrahim…") |
 | 2:150 | 8 verbatim runs of 12+ words ("the people of the book knew from the…") |
 | 2:151 | 5 verbatim runs of 12+ words ("sent in answer to the prayer of the…") |
 | 2:152 | 14 verbatim runs of 12+ words ("said o ibn adam if you mention me…") |
-| 2:153 | 4 verbatim runs of 12+ words ("for him if he is tested with a…") |
-| 2:154 | 5 verbatim runs of 12+ words ("said we wish that you send us back…") |
 | 2:155 | coverage 81% (6 of 32 anchors missing); 7 verbatim runs of 12+ words ("of what will make them happy in this…") |
 | 2:156 | 6 verbatim runs of 12+ words ("if we are not pleased with his decree…"); long sentences (avg 25.4 words) |
 | 2:158 | 3 verbatim runs of 12+ words ("when islam came and the idols were destroyed…"); long sentences (avg 26.0 words) |
 | 2:159 | 8 verbatim runs of 12+ words ("were revealed about the people of the scripture…"); long sentences (avg 27.4 words); reading grade 12.2 |
-| 2:161 | 2 verbatim runs of 12+ words ("umar ibn khattab and the imams after him…") |
 | 2:163 | coverage 83% (2 of 12 anchors missing); 4 verbatim runs of 12+ words ("devoted servants living for him dying for him…") |
 | 2:164 | coverage 83% (5 of 30 anchors missing); 6 verbatim runs of 12+ words ("bypass the wonder of the creation of the…") |
 | 2:165 | 6 verbatim runs of 12+ words ("hypocrites who buried their gold and silver or…") |
-| 2:166 | 2 verbatim runs of 12+ words ("when they see the beginnings of the chastisement…") |
-| 2:168 | 3 verbatim runs of 12+ words ("allah has made lawful should not be made…") |
-| 2:169 | coverage 82% (2 of 11 anchors missing); one verbatim run of 16 words ("the truth while the angelic suggestion promises reward…") |
 | 2:170 | coverage 77% (5 of 22 anchors missing); 5 verbatim runs of 12+ words ("are called to follow what allah has revealed…"); long sentences (avg 25.4 words); reading grade 12.6 |
 | 2:171 | 4 verbatim runs of 12+ words ("is reported from ibn abbas abu aliyah mujahid…") |
-| 2:172 | 3 verbatim runs of 12+ words ("is acting with complete devotion to him and…") |
 | 2:173 | 4 verbatim runs of 12+ words ("that halal and haram are not being discussed…"); long sentences (avg 26.8 words); reading grade 12.5 |
 | 2:174 | 8 verbatim runs of 12+ words ("the people would abandon them and follow him…"); long sentences (avg 26.1 words) |
 | 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
