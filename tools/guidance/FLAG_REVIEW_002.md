@@ -125,9 +125,27 @@ All eight entries pass unchanged scoped checks with published sibling context an
 
 Campaign after this batch: 70 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag, and 57 still await review. These are not fresh full-chapter verification totals.
 
+## Batch 7: seven further repairs
+
+All seven entries pass unchanged scoped gates with the published introduction and actual shared-block sibling context. Each also has zero matching runs against the complete supplied chapter material. Raw drafts and the published payload are synchronized.
+
+The edits clarify the abrogation discussion (2:106), pilgrimage and supplication (2:199–201, 203), hypocrisy (2:204), and spending (2:215). They preserve attributed disagreements, report collectors, theological qualifications and inward readings. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:106 | long sentences (avg 26.2 words); reading grade 12.6  ok, no warnings or errors |
+| 2:199 | 2 verbatim runs of 12+ words ("the people of allah town and the servants…"); long sentences (avg 33.6 words); reading grade 14.5  ok, no warnings or errors |
+| 2:200 | 4 verbatim runs of 12+ words ("an undertaking for his sake through the heart…"); long sentences (avg 31.9 words); reading grade 14.5  ok, no warnings or errors |
+| 2:201 | 5 verbatim runs of 12+ words ("needs virtuous deeds desirable morals beneficial knowledge honour…"); long sentences (avg 28.8 words); reading grade 12.6  ok, no warnings or errors |
+| 2:203 | 2 verbatim runs of 12+ words ("ibn abbas said that the appointed days are…"); long sentences (avg 37.2 words); reading grade 15.1  ok, no warnings or errors |
+| 2:204 | 6 verbatim runs of 12+ words ("people the appearance of sheep while their hearts…"); long sentences (avg 31.6 words); reading grade 13.6  ok, no warnings or errors |
+| 2:215 | 5 verbatim runs of 12+ words ("to parents close relatives in need needy orphans…"); long sentences (avg 29.3 words); reading grade 13.2  ok, no warnings or errors |
+
+Campaign after this batch: 77 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 50 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
 ## Still awaiting repair
 
-57 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+50 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -143,7 +161,6 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:44 | coverage 82% (7 of 38 anchors missing) |
 | 2:96 | coverage 85% (4 of 26 anchors missing) |
 | 2:102 | long sentences (avg 26.6 words); reading grade 12.1 |
-| 2:106 | long sentences (avg 26.2 words); reading grade 12.6 |
 | 2:124 | coverage 73% (34 of 127 anchors missing); 12 verbatim runs of 12+ words ("the way of islam is the way of…") |
 | 2:125 | 12 verbatim runs of 12+ words ("yet its power to draw millions of people…"); long sentences (avg 27.0 words) |
 | 2:126 | 14 verbatim runs of 12+ words ("for the well being of his family in…") |
@@ -170,13 +187,7 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:196 | 3 verbatim runs of 12+ words ("by ubayd ibn umayr laythi ikrimah hasan basri…"); long sentences (avg 32.2 words); reading grade 13.7 |
 | 2:197 | 6 verbatim runs of 12+ words ("makhul qatadah dahhak ibn muzahim rabi ibn anas…"); long sentences (avg 32.5 words); reading grade 13.7 |
 | 2:198 | 2 verbatim runs of 12+ words ("ibn abbas said ibn jubayr ikrimah mujahid suddi…"); long sentences (avg 35.3 words); reading grade 14.8 |
-| 2:199 | 2 verbatim runs of 12+ words ("the people of allah town and the servants…"); long sentences (avg 33.6 words); reading grade 14.5 |
-| 2:200 | 4 verbatim runs of 12+ words ("an undertaking for his sake through the heart…"); long sentences (avg 31.9 words); reading grade 14.5 |
-| 2:201 | 5 verbatim runs of 12+ words ("needs virtuous deeds desirable morals beneficial knowledge honour…"); long sentences (avg 28.8 words); reading grade 12.6 |
-| 2:203 | 2 verbatim runs of 12+ words ("ibn abbas said that the appointed days are…"); long sentences (avg 37.2 words); reading grade 15.1 |
-| 2:204 | 6 verbatim runs of 12+ words ("people the appearance of sheep while their hearts…"); long sentences (avg 31.6 words); reading grade 13.6 |
 | 2:213 | 2 verbatim runs of 12+ words ("chooses one of his servants to proclaim the…"); long sentences (avg 32.5 words); reading grade 14.4 |
-| 2:215 | 5 verbatim runs of 12+ words ("to parents close relatives in need needy orphans…"); long sentences (avg 29.3 words); reading grade 13.2 |
 | 2:217 | coverage 84% (12 of 77 anchors missing); 4 verbatim runs of 12+ words ("banu abdshams ibn abdmanaf there was abu hudhayfah…"); long sentences (avg 35.8 words); reading grade 15.0; no middle sections despite substantial material |
 | 2:219 | 13 verbatim runs of 12+ words ("this is the first verse in which the…"); long sentences (avg 32.2 words); reading grade 14.2 |
 | 2:220 | 5 verbatim runs of 12+ words ("ibn umar shabi mujahid qatadah rabi ibn anas…"); long sentences (avg 32.2 words); reading grade 13.6; no middle sections despite substantial material |

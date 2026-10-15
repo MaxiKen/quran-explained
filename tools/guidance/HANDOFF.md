@@ -48,9 +48,9 @@ State (keep §8 current):
   verse 286. That instruction was honoured for the concluding work, and the
   final check has now run: **287 entries, ok=159 flag=128 fail=0**. This is a
   completed Surah-2-specific deferral, not a permanent ban on verification.
-- Flag repair is now in progress. Seventy originally flagged entries have
+- Flag repair is now in progress. Seventy-seven originally flagged entries have
   passed scoped checks after repairs. See `FLAG_REVIEW_002.md` for the exact
-  batch and the 57 remaining unreviewed baseline flagged entries and one reviewed residual at 2:254. The earlier full
+  batch and the 50 remaining unreviewed baseline flagged entries and one reviewed residual at 2:254. The earlier full
   result below is historical; a new full-chapter result is still pending.
 - The 128 flags are **not all coverage noise**. They include long sentences,
   reading grade, matching runs, coverage, length and missing middle sections.
@@ -444,3 +444,5 @@ Model output and hand-written output are interchangeable: both end up in
 - Qushayrī/Maybudī homily sentences, maarif legal/analogy sentences and Ibn-Kathīr-style "X said that Y said" chains survive a faithful first draft as 12–17-word runs (9 in 2:120 alone). Restructure clause order, split litanies into short sentences, turn nouns into verbs: synonym swaps do not break the run.
 - Naming a collector (Ibn Abī Ḥātim, Ibn Jarīr …) that the job checklist does not list → only safe after confirming the name is in the material (`verify.fold(mat)` substring check). Garbled spellings in the material are not recognised: write "the Ṣaḥīḥ records…".
 - A verse number of an adjacent verse written bare ("114", "118", "120") shows up as a missing anchor; write it as "(2:114)" once and it is covered.
+
+| 2026-10-15 | 2 | flag repair batch 7: 106, 199, 200, 201, 203, 204, 215 | matching-run paraphrases and shorter prose with scholarly qualifications preserved | All 7 pass unchanged scoped gates and chapter-material matching checks. Campaign: 77 scoped passes, 1 reviewed residual, 50 awaiting review. Complete verification remains deferred until all 128 are addressed. | current batch-7 commit | arena agent (in-session) |
