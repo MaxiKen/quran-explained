@@ -1,0 +1,67 @@
+<<<INTRO 4>>>
+An-Nisāʾ, "The Women", is the fourth surah of the Qur'an. It is a Madinan surah of 176 verses, and it is above all a surah about the rights and duties that people owe to those in their care. It deals with the orphan and the orphan's property, with marriage and the dowry, with the shares of inheritance, with the treatment of wives and with the limits that protect family life. It then widens to the life of the whole community: justice and trust, obedience to the Messenger ﷺ, the hypocrites, fighting and emigration, prayer in times of danger, and the story of the Children of Israel.
+
+It begins in an unusual way for a surah so full of law. Before it gives any ruling, it speaks to all of humanity and tells them to be mindful of their Lord, who made them from one soul. The rights people owe one another are rights they owe in the sight of Allah, who is always watching. Everything that follows stands on that foundation.
+
+### Where and when it was revealed
+
+Ibn ʿAbbās said that An-Nisāʾ was revealed in Madīnah, in the report of al-ʿAwfī. Ibn Marduwyah recorded similar statements from ʿAbdullāh ibn az-Zubayr and from Zayd ibn Thābit. It is therefore counted as a Madinan surah, and the numbering used in this reader gives it 176 verses.
+
+### What the name means
+
+An-Nisāʾ means "The Women". The name stands over a surah that opens with orphans, marriage, the dowry and inheritance. It returns to women's rights again and again: protection from financial abuse inside marriage (verses 19 to 21), the relations that may not be married (22 to 24), and disputes between spouses and justice between wives (128 to 130).
+
+### What the Companions said about it
+
+ʿAbdullāh ibn Masʿūd said that there are five verses in An-Nisāʾ that he would prefer to the life of this world and everything in it. Al-Ḥākim recorded this in his Mustadrak. The verses are identified by their opening words:
+
+1. "Indeed, Allah never wrongs ˹anyone˺—even by an atom’s weight" (4:40).
+2. "If you avoid the major sins forbidden to you" (4:31).
+3. "Indeed, Allah does not forgive associating others with Him ˹in worship˺, but forgives anything else of whoever He wills" (4:48).
+4. "If only those ˹hypocrites˺ came to you ˹O Prophet˺—after wronging themselves—seeking Allah’s forgiveness" (4:64).
+5. "Whoever commits evil or wrongs themselves then seeks Allah’s forgiveness will certainly find Allah All-Forgiving, Most Merciful" (4:110).
+
+Al-Ḥākim also recorded that Ibn ʿAbbās said, "Ask me about Sūrat An-Nisāʾ, for I learned the Qur'an when I was still young." Al-Ḥākim said this hadith is ṣaḥīḥ by the standard of the two Ṣaḥīḥs, although the two of them did not collect it.
+
+### How it connects to Āl ʿImrān
+
+The last verse of Āl ʿImrān ended with an exhortation to taqwa, being mindful of Allah. An-Nisāʾ opens with taqwa too, and this time it comes as a command. The previous surah spoke of battles, of how to treat those who stood against the believers, and of misappropriating the spoils of war, and it took up several other matters besides. An-Nisāʾ turns, in its opening part, to the rights that people owe their own relatives, orphans and wives. These are called ḥuqūq al-ʿibād, the rights of the servants of Allah.
+
+### Why it begins with mindfulness of Allah
+
+Some of these rights can be enforced in court. Ordinary dealings such as buying and selling are like that, and so are leases, tenancies and wages. They can be settled by agreement or arbitration, and if one party falls short, what is owed can be legally recovered.
+
+The rights owed to those in one's charge are different. They include the rights of children, parents, husband and wife, orphans and other relatives. Their fulfilment depends on good conduct, respect, affection, and above all on a heartfelt wish to do what is good for the other person. Such things cannot be weighed on a scale. To settle them fully and exactly by agreement is also far too hard. The only way to fulfil them is to fear Allah and to fear what the life to come will bring. This is taqwa, and its power is greater than the combined power of government and law. That is why the surah opens with the command to taqwa.
+
+### What the surah covers
+
+The opening verses lay the foundation of human society: its single divine origin, the ties of family and mindfulness of Allah (verse 1). The surah then protects the rights and wealth of orphans (2), sets out the rules of marriage with justice and the dowry, including marrying more than one wife (3 and 4), and teaches responsible management of the property of dependents (5 and 6). The law of inheritance, with its fair distribution of wealth, follows at greater length (7 to 14).
+
+Next come the laws on illegal sexual relations and the path of repentance (15 to 18). Then the surah speaks of women's rights in marriage and protection from financial abuse (19 to 21), the marriages that are forbidden in order to preserve family honour and social order (22 to 24), and marriage to bondwomen for those who cannot afford to marry free women (25). A short passage on Allah's grace, guidance and mercy to humanity follows (26 to 28).
+
+From there the surah forbids exploitation, injustice, and harming oneself or others (29 and 30). It names avoiding major sins as the path to forgiveness (31), teaches contentment, divine provision and the rights of heirs (32 and 33), and describes the roles of husbands and wives in the family (34 and 35). It then calls for worship in its fullest sense, from the oneness of Allah to duties toward other people (36 to 38), speaks of Allah's perfect fairness and generosity (39 and 40), and of the Day of Judgment, with its witnesses and its accounting (41 and 42). Purification for prayer, in body and in heart, comes next (43).
+
+A long passage then warns against those who distort scripture and oppose the truth (44 to 47). It declares shirk, associating partners with Allah, to be the one sin that Allah does not forgive (48), and it condemns self-righteousness, false claims and envy (49 to 55). It sets out the final destinations, punishment and reward (56 and 57), and commands justice, trust and obedience to those in authority (58 and 59). It exposes the hypocrisy of those who reject divine judgment (60 to 63), defines true faith as complete submission to the Prophet's ﷺ judgment (64 to 68), and promises those who obey a place among the righteous (69 and 70).
+
+The surah then takes up fighting. It calls for military preparation and exposes those who hang back (71 to 73). It speaks of fighting for Allah's cause and freeing the oppressed (74 and 75), of the battle between faith and the forces of Satan (76), and of those who are afraid to fight and cling to worldly life (77). It teaches that death cannot be escaped and that every event comes from Allah (78 and 79), calls for obedience to the Messenger ﷺ and exposes the double standards of the hypocrites (80 and 81). It calls on people to reflect on the divine origin of the Qur'an (82), to verify news before spreading it (83), and it repeats the call to fight, with each person responsible for himself (84). It speaks of intercession, in good and in evil (85), of returning greetings (86) and of the certainty of the Resurrection (87). It addresses the division over the hypocrites and the matter of divine misguidance (88 to 91), and it gives the law on killing a believer (92 and 93). The surah warns against carelessness in identifying the enemy (94), praises striving in Allah's cause (95 and 96), and describes the fate of those who would not emigrate away from oppression (97 to 99) and the blessings of those who did (100). It ends this section with the concessions for prayer in travel and in danger (101 to 103) and with perseverance in pursuing the enemy (104).
+
+The next passage concerns justice and repentance. It calls for just judgment and warns against pleading for the deceitful (105 to 109). It opens the door of repentance and states that each person answers for his own sin (110 to 112). It records Allah's protection of the Prophet ﷺ from deception (113), the value of good speech and private counsel (114), and the severe consequence of opposing the Messenger ﷺ (115). It returns to shirk and the deceptions of Satan (116 to 121), promises the believers Allah's true reward (122), and teaches that salvation comes through deeds and not wishful thinking (123 and 124). The way of Ibrāhīm (Abraham), true submission to Allah, is held up as the model (125 and 126).
+
+Family law comes back with the rights of women and orphans in marriage (127) and with marital disputes, reconciliation and justice between wives (128 to 130). Allah's sovereignty and the command to be mindful of Him follow (131 to 134), then the command to stand firm for justice (135) and the pillars of true faith (136).
+
+The last long stretch deals again with the hypocrites and then with the Children of Israel. It describes the fate of those who waver in faith (137 to 139), warns against sitting where Allah's signs are mocked (140), and portrays the opportunism and defining traits of the hypocrites (141 to 143). It forbids taking disbelievers as allies (144), states the destination of the hypocrites and the path to salvation (145 to 147), and gives the ethics of speech, including when speaking ill of someone is permitted (148 and 149). It requires belief in all the prophets (150 to 152). It then recounts the demands and transgressions of the Children of Israel (153 and 154), their sins and the truth about ʿĪsā (Jesus) (155 to 159), their punishments and the reward of the righteous among them (160 to 162). It places Muhammad ﷺ within the line of messengers (163 to 165), records Allah's own testimony to his prophethood (166), and speaks of the fate of those who reject and obstruct the truth (167 to 169). A universal call to believe in the Messenger ﷺ follows (170), then a warning against religious extremism and the truth about ʿĪsā (171 and 172). The reward of the humble and the punishment of the arrogant are set side by side (173), and the surah speaks of conclusive proof and the light of guidance (174 and 175). It ends where it began, with inheritance: verse 176 gives the ruling on full siblings, the case known as kalālah.
+
+### In short
+
+- An-Nisāʾ is a Madinan surah of 176 verses. Ibn ʿAbbās said it was revealed in Madīnah, and Ibn Marduwyah recorded the same from ʿAbdullāh ibn az-Zubayr and Zayd ibn Thābit.
+- It opens, like the end of Āl ʿImrān, with taqwa, because the rights owed to orphans, relatives and wives depend on conscience and the fear of Allah more than on any court.
+- Ibn Masʿūd said that five of its verses (4:31, 4:40, 4:48, 4:64 and 4:110) were dearer to him than the life of this world, and Ibn ʿAbbās invited people to ask him about it because he had learned the Qur'an young.
+- It moves from orphans, marriage and inheritance, through the community's justice, worship and fighting, to hypocrites, the People of the Book and ʿĪsā, and it closes with the inheritance ruling on kalālah.
+<<<END>>>
+
+<<<NOTES>>>
+- The hadith in which the Prophet ﷺ recited the opening verse in a speech urging charity to the Mudar delegation (Muslim, Jarīr ibn ʿAbdullāh al-Bajalī) belongs to the verse itself and was left to the entry for 4:1.
+- The rib hadith, the meaning of "the wombs", kinship hadiths (livelihood and age, charity to relatives, the breaker of ties) and the oneness-of-humanity points belong to the verse and are in the entry for 4:1.
+- The remark that the Qur'an teaches law through education and affection and not only legal wording concerns the closing phrase of verse 1 and is kept for that entry.
+- The outline of the surah's themes comes from the app and was used for the section on what the surah covers. The material gives no explanation of why the surah is named An-Nisāʾ, so the section on the name only points to the women's subjects named in that outline.
+<<<END>>>
