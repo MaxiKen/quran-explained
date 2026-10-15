@@ -48,9 +48,9 @@ State (keep §8 current):
   verse 286. That instruction was honoured for the concluding work, and the
   final check has now run: **287 entries, ok=159 flag=128 fail=0**. This is a
   completed Surah-2-specific deferral, not a permanent ban on verification.
-- Flag repair is now in progress. Sixty-two originally flagged entries have
+- Flag repair is now in progress. Seventy originally flagged entries have
   passed scoped checks after repairs. See `FLAG_REVIEW_002.md` for the exact
-  batch and the 65 remaining unreviewed baseline flagged entries and one reviewed residual at 2:254. The earlier full
+  batch and the 57 remaining unreviewed baseline flagged entries and one reviewed residual at 2:254. The earlier full
   result below is historical; a new full-chapter result is still pending.
 - The 128 flags are **not all coverage noise**. They include long sentences,
   reading grade, matching runs, coverage, length and missing middle sections.
@@ -413,6 +413,8 @@ Model output and hand-written output are interchangeable: both end up in
 | 2026-10-15 | 2 | flag repair batch 4: 147, 153, 154, 161, 166, 168, 169, 172 | matching paraphrases and clarified phrasing | Eight scoped passes, no chapter-material matching runs. 80 baseline flagged entries remain. Full verification deferred until all 128 are addressed. | current batch-4 commit | arena agent (in-session) |
 
 | 2026-10-15 | 2 | flag repair batch 5: 31, 98, 109, 120, 148–152, 171, 179, 252, 254, 265, 266 | fifteen entries edited and source-reviewed | 14 scoped passes; 254 retains a documented truncated-transliteration coverage flag. All 15 have no errors or chapter-material matching runs. Campaign: 62 scoped passes, 1 reviewed residual, 65 unreviewed. Full verification deferred until every baseline entry is addressed. | current batch-5 commit | arena agent (in-session) |
+
+| 2026-10-15 | 2 | flag repair batch 6: 155, 156, 158, 159, 163, 165, 170, 174 | matching-run paraphrases and prose clarification | All 8 pass scoped unchanged gates and chapter-material matching checks. Campaign: 70 scoped passes, 1 reviewed residual, 57 awaiting review. Complete verification still deferred until all 128 are addressed. | current batch-6 commit | arena agent (in-session) |
 
 ## 9. Calibration — read before writing
 
