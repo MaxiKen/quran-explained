@@ -143,9 +143,26 @@ The edits clarify the abrogation discussion (2:106), pilgrimage and supplication
 
 Campaign after this batch: 77 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 50 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
 
+## Batch 8: six further repairs
+
+All six entries pass unchanged scoped checks with current published sibling context and the introduction. Each has zero matching runs against the entire supplied chapter material. Raw drafts and the published payload are synchronized.
+
+The edits shorten the fasting discussion (2:183), the lunar-calendar discussion (2:189), and the accounts of combat, restraint and retaliation (2:190–191, 193–194). Report collectors, grades, legal qualifications and inward readings remain. At 2:191, the defensive-only interpretation and its established-state declaration requirement have been restored alongside the different legal reading that permits initiating jihād outside the sacred precincts. Their disagreement is made explicit rather than silently resolved. No verifier rules were changed.
+
+| Verse | Baseline flags addressed | Scoped result |
+|---|---|---|
+| 2:183 | 4 verbatim runs of 12+ words ("them to fast that is to abstain from…"); long sentences (avg 25.6 words)  ok, no warnings or errors |
+| 2:189 | 2 verbatim runs of 12+ words ("the ansar used to enter their houses from…"); long sentences (avg 28.1 words); reading grade 12.3  ok, no warnings or errors |
+| 2:190 | 4 verbatim runs of 12+ words ("to those who are fought against because they…"); long sentences (avg 29.4 words); reading grade 12.7  ok, no warnings or errors |
+| 2:191 | one verbatim run of 16 words ("abu aliyah mujahid said ibn jubayr ikrimah hasan…"); long sentences (avg 28.8 words); reading grade 12.6  ok, no warnings or errors |
+| 2:193 | one verbatim run of 15 words ("that two men came to ibn umar during…"); long sentences (avg 29.9 words); reading grade 13.0  ok, no warnings or errors |
+| 2:194 | 5 verbatim runs of 12+ words ("ibn abbas dahhak suddi qatadah miqsam rabi ibn…"); long sentences (avg 25.7 words)  ok, no warnings or errors |
+
+Campaign after this batch: 83 baseline entries have scoped passes after repairs, one retains a reviewed residual detector flag at 2:254, and 44 still await review. These are campaign counts, not fresh full-chapter verification totals. Complete verification remains deferred until all 128 baseline flags have been addressed.
+
 ## Still awaiting repair
 
-50 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
+44 baseline flagged entries still await review; one additional reviewed residual is documented above. The following list is not a fresh full-chapter verification. The interrupted full verification was stopped; it had no completed result. Re-run the full published-data check after the repair campaign, rather than calling this chapter flag-free.
 
 Coverage flags require inspection of the corresponding supplied text. Some include editorial numbers, generic words or damaged names. Do not insert filler or weaken gates to clear those. Classify residual detector noise separately from genuine missing content.
 
@@ -172,17 +189,11 @@ Coverage flags require inspection of the corresponding supplied text. Some inclu
 | 2:177 | 7 verbatim runs of 12+ words ("for some of the people of the book…"); long sentences (avg 28.5 words); reading grade 12.5 |
 | 2:178 | 8 verbatim runs of 12+ words ("a free man for their slave and a…"); long sentences (avg 26.1 words) |
 | 2:180 | 5 verbatim runs of 12+ words ("qatadah suddi muqatil ibn hayyan tawus ibrahim nakhai…"); long sentences (avg 28.6 words); reading grade 12.6 |
-| 2:183 | 4 verbatim runs of 12+ words ("them to fast that is to abstain from…"); long sentences (avg 25.6 words) |
 | 2:184 | coverage 84% (8 of 51 anchors missing); 2 verbatim runs of 12+ words ("and whoever is present with the creator of…"); long sentences (avg 27.9 words) |
 | 2:185 | 9 verbatim runs of 12+ words ("as guidance for the hearts of those who…"); long sentences (avg 29.7 words); reading grade 12.6 |
 | 2:186 | 5 verbatim runs of 12+ words ("i am as my servant thinks of me…"); long sentences (avg 29.7 words) |
 | 2:187 | 9 verbatim runs of 12+ words ("ibn abbas mujahid said ibn jubayr hasan qatadah…"); long sentences (avg 32.9 words); reading grade 13.5 |
 | 2:188 | coverage 83% (7 of 42 anchors missing); one verbatim run of 16 words ("do not take property cases to the authorities…"); long sentences (avg 30.9 words); reading grade 13.7 |
-| 2:189 | 2 verbatim runs of 12+ words ("the ansar used to enter their houses from…"); long sentences (avg 28.1 words); reading grade 12.3 |
-| 2:190 | 4 verbatim runs of 12+ words ("to those who are fought against because they…"); long sentences (avg 29.4 words); reading grade 12.7 |
-| 2:191 | one verbatim run of 16 words ("abu aliyah mujahid said ibn jubayr ikrimah hasan…"); long sentences (avg 28.8 words); reading grade 12.6 |
-| 2:193 | one verbatim run of 15 words ("that two men came to ibn umar during…"); long sentences (avg 29.9 words); reading grade 13.0 |
-| 2:194 | 5 verbatim runs of 12+ words ("ibn abbas dahhak suddi qatadah miqsam rabi ibn…"); long sentences (avg 25.7 words) |
 | 2:195 | 11 verbatim runs of 12+ words ("spend your wealth in obedience to allah in…"); long sentences (avg 27.0 words) |
 | 2:196 | 3 verbatim runs of 12+ words ("by ubayd ibn umayr laythi ikrimah hasan basri…"); long sentences (avg 32.2 words); reading grade 13.7 |
 | 2:197 | 6 verbatim runs of 12+ words ("makhul qatadah dahhak ibn muzahim rabi ibn anas…"); long sentences (avg 32.5 words); reading grade 13.7 |
