@@ -22,11 +22,13 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          for name in ANTHROPIC_API_KEY OPENAI_API_KEY GEMINI_API_KEY; do
-            value="${!name}"
-            if [ -n "$value" ]; then
-              echo "$name: present"
-            else
-              echo "$name: absent"
-            fi
-          done
+          {
+            for name in ANTHROPIC_API_KEY OPENAI_API_KEY GEMINI_API_KEY; do
+              value="${!name}"
+              if [ -n "$value" ]; then
+                echo "$name: present"
+              else
+                echo "$name: absent"
+              fi
+            done
+          } | tee -a "$GITHUB_STEP_SUMMARY"
