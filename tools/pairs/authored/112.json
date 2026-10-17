@@ -1,0 +1,88 @@
+{
+  "surah": 112,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "Say,",
+          "text": "The surah was sent down as an answer to a question. Tabari gives two: some say the polytheists asked the Prophet to describe who begat the Lord, and others say the Jews asked who created the One who created everything.",
+          "ar": "قُلۡ",
+          "range": [0, 8]
+        },
+        {
+          "translation": "˹O Prophet,˺ “He is Allah",
+          "text": "Tabari reads the words as: speak to those who question you, and tell them who the Lord is. He is the God to whom the worship of everything belongs, and no worship is fitting for anything but Him.",
+          "ar": "ٱللَّهُ",
+          "range": [9, 9]
+        },
+        {
+          "translation": "—One ˹and Indivisible˺",
+          "text": "Tabari says the word means one, with nothing alongside Him. The grammarians differ over the wording and the reciters differ over the reading, and Tabari says the tanwin is the better reading.",
+          "ar": "أَحَدٌ",
+          "range": [10, 16]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "Allah",
+          "text": "God is the one who is worshipped, and He alone is fitting to be worshipped.",
+          "ar": "ٱللَّهِ",
+          "range": [0, 0]
+        },
+        {
+          "translation": "the Sustainer",
+          "text": "The commentators differed over this word. Some said it means the One who is not hollow within, who neither eats nor drinks.",
+          "ar": "ٱلصَّمَدُ",
+          "range": [1, 19]
+        },
+        {
+          "translation": "the Sustainer",
+          "text": "Others read it as the One out of whom nothing comes forth, the One who has not begotten and was not begotten, the Master whose dominion has reached its limit, and the Eternal One who does not pass away.",
+          "ar": "",
+          "range": [20, 38]
+        },
+        {
+          "translation": "˹needed by all˺",
+          "text": "Tabari prefers the sense the Arabs themselves used, the one the Quran came down in: the master to whom people turn when they need him, above whom there is no one.",
+          "ar": "",
+          "range": [39, 42]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "He has never had offspring,",
+          "text": "Nothing that is begotten lasts, so the One who has no offspring cannot pass away.",
+          "ar": "لَمۡ يَلِدۡ",
+          "range": [0, 0]
+        },
+        {
+          "translation": "nor was He born",
+          "text": "And everything that is begotten was not there before it came to be, while He has always been, without beginning and without end.",
+          "ar": "وَلَمۡ يُولَدۡ",
+          "range": [1, 1]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "And there is none comparable to Him.",
+          "text": "The commentators differed. Some said it means no one is equal to Him and there is no likeness of Him at all. Others said it means He has no spouse.",
+          "ar": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+          "range": [0, 13]
+        },
+        {
+          "translation": "",
+          "text": "Tabari notes that the word in Arabic means both the equal and the like, and that the reciters differ over its reading in two well known ways, each of which gives the correct meaning.",
+          "ar": "",
+          "range": [14, 19]
+        }
+      ]
+    }
+  }
+}

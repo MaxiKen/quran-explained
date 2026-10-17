@@ -22,14 +22,21 @@ Then keep the preview alive with the process tool: `python3 tools/serve.py 8000`
 
 ## 1. What this is, and where it stands
 
-The app (`index.html`, `js/app.js`) shows the Qur'an with eight classical
-tafsīrs per verse (`data/tafsir_NNN.json`: ibn-kathir, maarif, tazkirul,
-tanwir, jalalayn, mukhtasar, qushayri, wahidi). The project adds, for every one
-of the 6,236 verses and every surah, an original plain-English commentary
-written **from** those eight texts, published as `data/guidance_NNN.json` and
-rendered by the app above the folded sources under the label
-**"Plain-English commentary"** with the disclosure
-*"written with AI assistance from eight classical tafsīrs — the sources are below"*.
+The app (`index.html`, `js/app.js`) shows the Qur'an with Tafsīr al-Ṭabarī in
+English per verse, with the Arabic original of the commentary underneath each
+verse (`data/tafsir_NNN.json`, imported by `tools/tabari/`). The project added,
+for every one of the 6,236 verses and every surah, an original plain-English
+commentary published as `data/guidance_NNN.json` and rendered by the app above
+the tafsīr under the label **"Plain-English commentary"**.
+
+> **Withdrawn on 2026-10-17.** The eight sources (ibn-kathir, maarif,
+> tazkirul, tanwir, jalalayn, mukhtasar, qushayri, wahidi) are no longer in
+> `data/tafsir_NNN.json` — the reader's tafsīr is al-Ṭabarī now. The
+> commentary was written from those eight, so it was withdrawn with them:
+> `data/guidance_NNN.json` is deleted and the app shows the tafsīr alone.
+> This pipeline cannot be re-run against the current payload: `load_tafsir`
+> stops with an explanation. A re-run needs a copy of the eight-source payload
+> to work from, and a decision about whether the layer should exist at all.
 
 Historical state (routine new chapter progress belongs in `chapters/SSS.md`):
 
@@ -86,7 +93,7 @@ They are encoded in `prompts/system.md`, `prompts/verse_job.md`,
 | Sources | **"Just put the contents. Use everything."** All eight, nothing quarantined: Qushayrī/Maybudī allusive readings, Tanwīr's Isrāʾīliyyāt, Maʿārif's rulings and excursions, all included, faithfully, with the material's own qualifiers ("it is said", "weak chain") kept as content. |
 | Ranges | **One self-contained entry per verse.** Material that covers a range is distributed across the verses it covers (each verse carries the part about it; the prompt shows `shared_outside` and per-verse `material_words`). Never duplicate the same paragraph across sibling verses; never leave a range's content out. |
 | Introductions | Every surah also gets an introduction (`<<<INTRO S>>>` job): names and meanings, revelation, virtues, verse count, what it covers, connection to the previous surah, `### In short`. Surah-level material in verse 1's blocks belongs here, not in 1:1. |
-| UI | Label "Plain-English commentary"; disclosure wording above; eight sources folded below. Done in `js/app.js`; `data/*.json` is network-first with offline fallback, so payload-only updates do not require a `sw.js` cache-version bump. App-shell changes require cache-version review. |
+| UI | Label "Plain-English commentary"; disclosure wording above; the tafsīr (al-Ṭabarī, with the Arabic underneath) below it. Done in `js/app.js`; `data/*.json` is network-first with offline fallback, so payload-only updates do not require a `sw.js` cache-version bump. App-shell changes require cache-version review. |
 | Files & git | Minified single-line JSON per surah; `.gitattributes` marks them; `ATTRIBUTION.md` section; **commit per chapter (or per job for long surahs), push every time**; one PR at the end from this branch. |
 | Originality | Fail any entry with ≥ 24 words copied in a row from the material outside a quotation; flag ≥ 12. Quoted Qur'an passages followed by `(S:N)` and quotes ≤ 200 chars are exempt. |
 | Exclusions | None. |

@@ -1,0 +1,54 @@
+{
+  "surah": 108,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "Indeed, We have granted you ˹O Prophet˺ abundant goodness",
+          "text": "The commentators differed over the word abundant goodness. Some said it is a river in Paradise, with banks of gold and silver, flowing over pearls and rubies. Others said it means the abundant good itself, and the prophethood and the Quran and the wisdom. Others said it is the watering-basin in Paradise.",
+          "ar": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+          "range": [0, 41]
+        },
+        {
+          "translation": "",
+          "text": "Tabari takes the river to be the best of the readings, since the Prophet said so again and again, and the word means abundance because of how great the river is. The narrations describe it: a river of pearl and ruby whose bed is musk, with birds that come to drink from it.",
+          "ar": "",
+          "range": [42, 61]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "So pray",
+          "text": "The commentators differed over which prayer is meant, and over the word that follows. Some said it is the obligatory prayer and its appointed times, and others that it is the festival prayer, and others that it is the raising of the hands at the opening, and others that the word means turning the face to the qibla.",
+          "ar": "فَصَلِّ",
+          "range": [0, 46]
+        },
+        {
+          "translation": "and sacrifice to your Lord ˹alone˺",
+          "text": "Tabari's reading is the one he prefers: make your prayer and your sacrifice for your Lord alone, with no partner and no idol, as thanks for the favour He has given you, which has no equal.",
+          "ar": "لِرَبِّكَ وَٱنۡحَرۡ",
+          "range": [47, 49]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "Only the one who hates you",
+          "text": "The commentators differed over who is meant. Some said al-As ibn Wail, and some said Ubayda ibn Abi Muayt, and some said a group of Quraysh, and some said the man who called the Prophet cut off from his people.",
+          "ar": "إِنَّ شَانِئَكَ",
+          "range": [0, 21]
+        },
+        {
+          "translation": "is truly cut off ˹from any goodness˺",
+          "text": "The word means the lowest and most abased, the one whose line of descendants is cut off. Tabari says the verse describes everyone who hates the Prophet, even though it was sent down about one particular person.",
+          "ar": "هُوَ ٱلۡأَبۡتَرُ",
+          "range": [22, 27]
+        }
+      ]
+    }
+  }
+}

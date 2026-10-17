@@ -1,0 +1,116 @@
+{
+  "surah": 113,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "Say, ˹O Prophet,˺",
+          "text": "God tells the Prophet to say: I take refuge with the Lord of the daybreak, against the evil of what He has created.",
+          "ar": "قُلۡ أَعُوذُ",
+          "range": [
+            0,
+            1
+          ]
+        },
+        {
+          "translation": "“I seek refuge in the Lord of the daybreak",
+          "text": "The commentators differed over the word daybreak. Some said it is a prison in Hell of that name, and others that it is one of the names of Hell. Others said it is the daybreak itself, or the splitting of the day, or the star that splits the grain, and others said it means all creation.",
+          "ar": "بِرَبِّ ٱلۡفَلَقِ",
+          "range": [
+            2,
+            31
+          ]
+        },
+        {
+          "translation": "",
+          "text": "Tabari settles it this way: the command was given with the word, and God has given no sign that one thing called daybreak was meant rather than another, and since He is the Lord of everything He created, all of it is meant.",
+          "ar": "",
+          "range": [
+            32,
+            32
+          ]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "from the evil of whatever He has created",
+          "text": "The refuge is from the evil of all things, because everything other than God was made by Him.",
+          "ar": "مِن شَرِّ مَا خَلَقَ",
+          "range": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "and from the evil of the night",
+          "text": "The commentators differed over what this darkness is. Some said the night itself. Others said it is a star, and some of them said the Pleiades, and others said the moon.",
+          "ar": "وَمِن شَرِّ غَاسِقٍ",
+          "range": [
+            0,
+            20
+          ]
+        },
+        {
+          "translation": "when it grows dark",
+          "text": "Tabari says the command was not tied to one kind of thing. The night when it darkens is such a thing, and a star when it sets is such a thing, and the moon when it sets is such a thing, and the command covers all of them.",
+          "ar": "إِذَا وَقَبَ",
+          "range": [
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "and from the evil of those",
+          "text": "These are the sorceresses, the women who blow upon knots of a cord while they say their incantations over them.",
+          "ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "translation": "˹witches casting spells by˺ blowing onto knots",
+          "text": "Tabari gathers what the commentators said: that it is the sorcery the incantations have been mixed into, that it is the sorceresses and the sorcerers, and that it is that which the incantations of sorcery have permeated. Nothing comes closer to giving God a partner, he says, than the incantation for the mentally afflicted.",
+          "ar": "فِي ٱلۡعُقَدِ",
+          "range": [
+            1,
+            9
+          ]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "and from the evil of an envier",
+          "text": "The commentators differed here too. Some said it is every envier, and the evil of his evil eye and his soul. Others said the verse means the Jews, who envied the Prophet.",
+          "ar": "وَمِن شَرِّ حَاسِدٍ",
+          "range": [
+            0,
+            5
+          ]
+        },
+        {
+          "translation": "when they envy.",
+          "text": "Tabari takes the stronger view, that the command is against every envier, whether he envies, reviles, bewitches, or wishes ill, because God did not single out one envier above another.",
+          "ar": "إِذَا حَسَدَ",
+          "range": [
+            6,
+            8
+          ]
+        }
+      ]
+    }
+  }
+}

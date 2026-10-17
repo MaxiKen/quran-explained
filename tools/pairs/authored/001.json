@@ -1,0 +1,178 @@
+{
+  "surah": 1,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "In the Name of",
+          "text": "The verse opens with the name of God. Before that, Tabari speaks of the refuge the Prophet was taught to seek, and of seeking protection in God alone.",
+          "ar": "بِسْمِ",
+          "range": [
+            0,
+            62
+          ]
+        },
+        {
+          "translation": "Allah",
+          "text": "God is the name of the one true God, the one we worship and the only one we can ask. Tabari shows that the word is used of the one God and of what is worshipped.",
+          "ar": "ٱللَّهِ",
+          "range": [
+            63,
+            83
+          ]
+        },
+        {
+          "translation": "the Most Compassionate, Most Merciful",
+          "text": "These are two names of mercy, and Tabari shows that each carries a meaning of its own that the other does not carry.",
+          "ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "range": [
+            84,
+            124
+          ]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "All praise is for Allah",
+          "text": "Praise here means thankfulness, and it belongs to God alone. Tabari says the words are God's own praise of Himself, and that every servant who says them is thanking God.",
+          "ar": "ٱلۡحَمۡدُ لِلَّهِ",
+          "range": [
+            0,
+            22
+          ]
+        },
+        {
+          "translation": "Lord",
+          "text": "Lord means master and owner. Tabari gathers the ways the Arabs used the word, and settles on the master who is obeyed and who has no equal.",
+          "ar": "رَبِّ",
+          "range": [
+            23,
+            36
+          ]
+        },
+        {
+          "translation": "all worlds",
+          "text": "Worlds means all of creation: every people, and every kind of thing. Tabari notes that the word has no single form of its own.",
+          "ar": "ٱلۡعَٰلَمِينَ",
+          "range": [
+            37,
+            51
+          ]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "the Most Compassionate, Most Merciful",
+          "text": "The mercy is named again here, and Tabari says the repetition is deliberate, because everything that follows in the surah is an expression of it.",
+          "ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "range": [
+            0,
+            12
+          ]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "Master of the Day of Judgment",
+          "text": "Some read this as King and some as Owner. Tabari takes Owner to be the better reading, because the verse before already called God Lord of all worlds.",
+          "ar": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+          "range": [
+            0,
+            27
+          ]
+        },
+        {
+          "translation": "the Day of Judgment",
+          "text": "The day of judgment is the day of the reckoning, when every deed is paid back. Tabari records that the word means more than that, and that the commentators differed.",
+          "ar": "يَوۡمِ ٱلدِّينِ",
+          "range": [
+            28,
+            92
+          ]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "You ˹alone˺ we worship",
+          "text": "Worship belongs to God alone. Tabari answers the objection that a person is the one who worships, and says the worship is still God's.",
+          "ar": "إِيَّاكَ نَعۡبُدُ",
+          "range": [
+            0,
+            6
+          ]
+        },
+        {
+          "translation": "You ˹alone˺ we ask for help",
+          "text": "And help is asked of God alone, for the same reason.",
+          "ar": "وَإِيَّاكَ نَسۡتَعِينُ",
+          "range": [
+            7,
+            30
+          ]
+        }
+      ]
+    },
+    "6": {
+      "phrases": [
+        {
+          "translation": "Guide us",
+          "text": "To ask God for guidance is to ask Him to put someone on the right way. Tabari says the request is made because the path is not known by those who walk it.",
+          "ar": "ٱهۡدِنَا",
+          "range": [
+            0,
+            41
+          ]
+        },
+        {
+          "translation": "along the Straight Path",
+          "text": "The straight path is the way of those who follow God's guidance, and Tabari gives the signs of it in the verse that follows.",
+          "ar": "ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+          "range": [
+            42,
+            98
+          ]
+        }
+      ]
+    },
+    "7": {
+      "phrases": [
+        {
+          "translation": "the Path of those You have blessed",
+          "text": "The blessed are those who have received God's favour, and the way that is theirs is the straight path just named.",
+          "ar": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمْ",
+          "range": [
+            0,
+            19
+          ]
+        },
+        {
+          "translation": "not those You are displeased with",
+          "text": "Tabari gathers what the early commentators said about those on whom God is angry, and says the word covers anyone who turns away from the truth knowingly.",
+          "ar": "غَيْرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمْ",
+          "range": [
+            20,
+            59
+          ]
+        },
+        {
+          "translation": "or those who are astray",
+          "text": "These are the last of the three, the ones who have lost the way, and Tabari ends the surah with them.",
+          "ar": "وَلَا ٱلضَّآلِّينَ",
+          "range": [
+            60,
+            113
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -39,6 +39,20 @@ class Server(socketserver.ThreadingTCPServer):
     allow_reuse_address = True
     daemon_threads = True
 
+    def handle_error(self, request, client_address):
+        """A client that walks away mid-download is not an error.
+
+        The preview proxy opens and closes large payloads (a surah's Tabari
+        file is several megabytes), which raises ConnectionResetError or
+        BrokenPipeError inside the handler. The default handler prints a
+        traceback for each of them, which buries the log in noise. Anything
+        else is a real failure and is still reported.
+        """
+        exc = sys.exc_info()[1]
+        if isinstance(exc, (ConnectionResetError, BrokenPipeError)):
+            return
+        super().handle_error(request, client_address)
+
 
 def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000

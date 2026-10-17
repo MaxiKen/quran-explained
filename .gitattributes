@@ -1,11 +1,11 @@
-# The six-source tafsir payloads are generated and are single-line JSON by
-# design (31 MB across 114 files). GitHub hides over-long lines in diffs, so
-# they render as blank and look as though nothing was pushed. Marking them
-# makes that explicit instead of alarming.
+# The tafsir payloads are generated and are single-line JSON by design (about
+# 67 MB across 114 files). GitHub hides over-long lines in diffs, so they
+# render as blank and look as though nothing was pushed. Marking them makes
+# that explicit instead of alarming.
 data/tafsir_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
 
-# data/guidance_*.json is the generated plain-English commentary written by
-# tools/guidance from the tafsir payloads: single-line JSON, up to a few MB per
-# sūrah, so it is marked generated and excluded from diffs like the sources.
-data/guidance_*.json -diff linguist-generated
+# The published pairing is generated from the hand-written sources in
+# tools/pairs/authored/, so it is marked as generated too. The sources
+# themselves are ordinary hand-written files and are not marked.
+data/pairs_*.json -diff linguist-generated

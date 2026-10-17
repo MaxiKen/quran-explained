@@ -1028,9 +1028,10 @@ body {
 .tafsir-range-inline { font-weight: 700; color: var(--accent); white-space: nowrap; }
 
 /* ================================================
-   MULTIPLE TAFSIRS ON ONE VERSE
-   Six sources are shown in order, primary first. Each is a self-contained
-   entry: range, then the source name, then the text.
+   THE TAFSIR ON ONE VERSE
+   Tafsir al-Tabari is the tafsir, in English, with the Arabic original
+   folded underneath it. The entry is self-contained: range, then the source
+   name, then the text.
 ================================================ */
 .tafsir-entry { margin: 0 0 26px; }
 .tafsir-entry:last-child { margin-bottom: 0; }
@@ -1978,15 +1979,145 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
    The integrated single-voice commentary leads; the classical texts it was
    written from stay one tap away, so nothing is hidden but nothing competes.
 ================================================ */
-.tafsir-guidance .tafsir-source-label { color: var(--accent); }
-.tafsir-guidance .tafsir-text { color: var(--text-secondary); }
-.tafsir-sources { margin-top: 4px; border-top: 1px solid var(--accent-border-light); padding-top: 14px; }
-.tafsir-sources > summary {
+
+/* Notes that belong to a source: the publisher's own caveat on the English
+   Tabari translation, and the line that says the plain-English commentary
+   above was written without it. */
+/* ================================================
+   THE ARABIC ORIGINAL
+   Tafsir al-Tabari's own Arabic, folded under the English it was translated
+   from. The publisher is explicit that the Arabic is the authoritative text,
+   so it is shown as the source, in a right-to-left prose face.
+================================================ */
+.tafsir-arabic {
+  margin-top: 18px; padding-top: 12px;
+  border-top: 1px solid var(--accent-border-light);
+}
+.tafsir-arabic > summary {
   cursor: pointer; list-style: none; font-size: 13px; font-weight: 700;
   color: var(--text-dim); padding: 6px 0; user-select: none;
 }
-.tafsir-sources > summary::-webkit-details-marker { display: none; }
-.tafsir-sources > summary::before { content: '▸ '; color: var(--accent); }
-.tafsir-sources[open] > summary::before { content: '▾ '; }
-.tafsir-sources[open] > summary { margin-bottom: 12px; }
-.tafsir-sources .tafsir-entry { border-top: 1px solid var(--accent-border-light); padding-top: 16px; margin-top: 16px; }
+.tafsir-arabic > summary::-webkit-details-marker { display: none; }
+.tafsir-arabic > summary::before { content: '\25B8 '; color: var(--accent); }
+.tafsir-arabic[open] > summary::before { content: '\25BE '; }
+.tafsir-arabic[open] > summary { margin-bottom: 14px; }
+.tafsir-arabic-body {
+  direction: rtl; text-align: right;
+  font-family: 'Noto Naskh Arabic', 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  font-size: max(16px, calc(var(--english-font-size, 17px) - 1px));
+  line-height: 2.1; color: var(--text-secondary);
+  overflow-wrap: break-word; word-break: normal;
+  max-width: 68ch; margin: 0 auto;
+}
+.tafsir-arabic-body p { margin: 0 0 14px; }
+.tafsir-arabic-body p:last-child { margin-bottom: 0; }
+.tafsir-arabic-author {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  direction: ltr; text-align: left;
+  font-size: 11.5px; color: var(--text-faint); margin: 0 0 12px;
+}
+
+.tafsir-entry-note {
+  font-size: 12.5px; color: var(--text-faint); line-height: 1.65;
+  margin: -4px 0 12px; max-width: 62ch;
+}
+
+/* ================================================
+   THE QUICK READ
+   The commentary, listed as its parts: a phrase of the verse with the
+   words Tabarī says about it, then the passage itself, folded away until
+   the reader opens it.
+================================================ */
+.commentary-switch {
+  display: inline-flex; gap: 4px; padding: 4px; margin: 0 0 20px;
+  background: var(--bg-theme-section); border: 1px solid var(--border-subtle, var(--text-separator));
+  border-radius: 999px;
+}
+.commentary-switch-btn {
+  appearance: none; border: 0; cursor: pointer; font: inherit;
+  font-size: 12.5px; font-weight: 700; letter-spacing: 0.02em;
+  color: var(--text-muted); background: transparent;
+  padding: 7px 16px; border-radius: 999px; transition: background 0.15s, color 0.15s;
+}
+.commentary-switch-btn:hover { color: var(--text-primary); }
+.commentary-switch-btn.is-active {
+  background: var(--accent); color: #fff;
+}
+.quick-read { margin: 0; }
+.quick-read-note {
+  font-size: 12.5px; color: var(--text-faint); line-height: 1.6;
+  margin: 0 0 16px; max-width: 62ch;
+}
+.quick-read-group { margin: 0 0 22px; }
+.quick-read-group:last-child { margin-bottom: 0; }
+.quick-read-phrase {
+  font-size: 14px; font-weight: 700; color: var(--accent);
+  line-height: 1.55; margin: 0 0 10px; padding: 0 0 8px;
+  border-bottom: 1px solid var(--accent-border-light);
+}
+.quick-read-part {
+  margin: 0 0 8px; border: 1px solid var(--text-separator);
+  border-radius: 10px; background: var(--bg-card); overflow: hidden;
+}
+.quick-read-part > summary {
+  cursor: pointer; list-style: none; padding: 11px 14px;
+  font-size: 14px; line-height: 1.6; color: var(--text-secondary);
+  display: flex; gap: 10px; align-items: flex-start;
+}
+.quick-read-part > summary::-webkit-details-marker { display: none; }
+.quick-read-part > summary::before {
+  content: '\25B8'; color: var(--accent); font-size: 11px; line-height: 1.9; flex: 0 0 auto;
+}
+.quick-read-part[open] > summary::before { content: '\25BE'; }
+.quick-read-part[open] > summary {
+  border-bottom: 1px solid var(--text-separator);
+  background: var(--bg-theme-section);
+}
+.quick-read-part > summary:hover { color: var(--text-primary); }
+.quick-read-part .tafsir-text {
+  padding: 12px 14px; font-size: 14.5px; line-height: 1.85; color: var(--text-secondary);
+}
+.quick-read-part .tafsir-text p { margin: 0 0 12px; }
+.quick-read-part .tafsir-text p:last-child { margin-bottom: 0; }
+
+/* ================================================
+   PHRASE BY PHRASE
+   The verse taken phrase by phrase. The reader's own words for the piece,
+   a plain reading of it, and under that Ṭabarī's own account of it.
+================================================ */
+.phrase-view { margin: 0; }
+.phrase-list { list-style: none; padding: 0; margin: 0; counter-reset: phrase; }
+.phrase-item {
+  margin: 0 0 18px; padding: 0 0 16px;
+  border-bottom: 1px solid var(--text-separator);
+}
+.phrase-item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.phrase-translation {
+  font-size: calc(var(--english-font-size, 17px) + 1px); line-height: 1.85;
+  color: var(--text-muted); font-style: italic; margin: 0 0 6px;
+}
+.phrase-text {
+  font-size: calc(var(--english-font-size, 17px) + 1px); line-height: 1.85;
+  color: var(--text-primary); font-weight: 600; margin: 0 0 8px;
+}
+.phrase-arabic-word {
+  color: var(--accent); font-weight: 600;
+  border-bottom: 1px dotted var(--accent-border-light);
+}
+.phrase-ar {
+  font-family: 'Noto Naskh Arabic', 'Amiri Quran', 'KFGQPC Hafs', serif;
+  direction: rtl; text-align: right; font-size: 19px; line-height: 2;
+  color: var(--text-muted); margin: 0 0 10px;
+}
+.phrase-head {
+  font-size: 12.5px; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--accent);
+  margin: 0 0 8px; line-height: 1.6;
+}
+.phrase-none {
+  font-size: 12.5px; color: var(--text-faint); font-style: italic;
+  margin: 0; line-height: 1.6;
+}
+.phrase-tabari .quick-read-part { margin: 0 0 6px; }
+.phrase-tabari .quick-read-part:last-child { margin-bottom: 0; }
+.commentary-switch { flex-wrap: wrap; }

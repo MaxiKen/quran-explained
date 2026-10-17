@@ -1,0 +1,84 @@
+{
+  "surah": 114,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "Say, ˹O Prophet,˺",
+          "text": "God tells the Prophet to say: I seek refuge with the Lord of humankind.",
+          "ar": "قُلۡ أَعُوذُ",
+          "range": [0, 0]
+        },
+        {
+          "translation": "“I seek refuge in the Lord of humankind",
+          "text": "This is a word to those who worship people. God is the King of all creatures, the humans and the jinn and all the rest, so those they worship fall under His power, and He deserves the worship far more than they do.",
+          "ar": "بِرَبِّ ٱلنَّاسِ",
+          "range": [1, 1]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "the Master of humankind",
+          "text": "He is their King, and again the point is that those who are venerated are under His dominion, and He alone is worthy of worship.",
+          "ar": "مَلِكِ ٱلنَّاسِ",
+          "range": [0, 0]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "the God of humankind",
+          "text": "He is the one worshipped by humankind, and to Him alone the worship is due.",
+          "ar": "إِلَٰهِ ٱلنَّاسِ",
+          "range": [0, 0]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "from the evil of the lurking whisperer",
+          "text": "This is Satan. The commentators say he is on the heart of every child from birth, and he whispers when the person is careless and withdraws when the person remembers God.",
+          "ar": "مِن شَرِّ ٱلۡوَسۡوَاسِ",
+          "range": [0, 9]
+        },
+        {
+          "translation": "",
+          "text": "Some say he whispers to call people to obey him, and when he is obeyed he withdraws. Tabari says the command covers a whisperer who comes and goes, whether he calls to disobedience and withdraws when he is obeyed, or forbids obedience and withdraws when the servant obeys.",
+          "ar": "ٱلۡخَنَّاسِ",
+          "range": [10, 13]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "who whispers into the hearts of humankind",
+          "text": "The whisperer is the satanic one, and he whispers into the hearts of people, both the jinn and the humans.",
+          "ar": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+          "range": [0, 0]
+        },
+        {
+          "translation": "",
+          "text": "Tabari answers the obvious question: the jinn are called people here, in the same way God called them men in another verse and made some of them people as well.",
+          "ar": "",
+          "range": [1, 2]
+        }
+      ]
+    },
+    "6": {
+      "phrases": [
+        {
+          "translation": "from among jinn and humankind.",
+          "text": "The people meant here are both the jinn and the humans, and the same question and the same answer apply.",
+          "ar": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+          "range": [0, 2]
+        }
+      ]
+    }
+  }
+}

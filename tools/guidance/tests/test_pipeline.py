@@ -28,6 +28,34 @@ from verify import blocks_for_surah, extract_anchors, verbatim_runs, verify_entr
 
 EXEMPLARS = os.path.join(TOOLS, 'prompts', 'exemplars')
 
+# The pipeline writes its commentary from eight classical tafsīrs and verifies
+# every entry against them. On 2026-10-17 the reader's payload became Tafsīr
+# al-Ṭabarī in English with the Arabic original underneath, and those eight
+# are no longer in the repository. The tests that read the corpus are skipped
+# with a reason rather than left failing or quietly passing.
+CORPUS_SOURCES = ['ibn-kathir', 'maarif', 'tazkirul', 'tanwir', 'jalalayn',
+                  'mukhtasar', 'qushayri', 'wahidi']
+
+CORPUS_MISSING = (
+    'the eight-source corpus this pipeline writes from is no longer in data/ '
+    '- the reader now carries Tafsir al-Tabari in English with the Arabic '
+    'original'
+)
+
+
+def corpus_present() -> bool:
+    path = os.path.join(ROOT, 'data', 'tafsir_001.json')
+    try:
+        with open(path, encoding='utf-8') as fh:
+            payload = json.load(fh)
+    except (OSError, ValueError):
+        return False
+    sets = payload.get('sets') or {}
+    return all(name in sets for name in CORPUS_SOURCES)
+
+
+needs_corpus = unittest.skipUnless(corpus_present(), CORPUS_MISSING)
+
 
 def translations(surah: int) -> dict[int, str]:
     return {int(k): v['en'] for k, v in load_chapter(surah)['verses'].items()}
@@ -41,6 +69,7 @@ def run(*args: str, cwd: str = ROOT) -> subprocess.CompletedProcess:
     return subprocess.run([sys.executable, *args], cwd=cwd, capture_output=True, text=True)
 
 
+@needs_corpus
 class PackTests(unittest.TestCase):
     def test_every_verse_in_exactly_one_job(self):
         for surah in (1, 2, 55, 112):
@@ -67,6 +96,7 @@ class PackTests(unittest.TestCase):
         self.assertEqual(len(parse_surah_selection('all')), 114)
 
 
+@needs_corpus
 class ShareTests(unittest.TestCase):
     """Passage blocks are attributed to the verses they actually discuss."""
 
@@ -100,6 +130,7 @@ class ShareTests(unittest.TestCase):
         self.assertIn('Material about this verse', render_user(job))
 
 
+@needs_corpus
 class PromptTests(unittest.TestCase):
     def test_system_prompt_contains_exemplars_and_rules(self):
         sp = load_system_prompt()
@@ -133,6 +164,7 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(out['verses'], {})
 
 
+@needs_corpus
 class ExemplarTests(unittest.TestCase):
     """The hand-written exemplars must pass the gates they teach."""
 
@@ -165,6 +197,7 @@ class ExemplarTests(unittest.TestCase):
         self.assertEqual(rep['status'], 'ok', rep)
 
 
+@needs_corpus
 class GateTests(unittest.TestCase):
     def setUp(self):
         self.entry = exemplar('112_001.md')['verses'][1]
@@ -239,6 +272,7 @@ class GateTests(unittest.TestCase):
         self.assertTrue(rep['errors'], rep)
 
 
+@needs_corpus
 class VariantTests(unittest.TestCase):
     """Spelling variants, possessives and long quoted passages must not be
     reported as fabrication or copying."""
@@ -287,6 +321,7 @@ class VariantTests(unittest.TestCase):
         self.assertTrue(any('names a source' in e for e in rep['errors']), rep['errors'])
 
 
+@needs_corpus
 class IngestTests(unittest.TestCase):
     def test_ingest_stores_a_complete_output_and_refuses_an_incomplete_one(self):
         from ingest import ingest
@@ -310,6 +345,7 @@ class IngestTests(unittest.TestCase):
             shutil.rmtree(tmp)
 
 
+@needs_corpus
 class StatusTests(unittest.TestCase):
     """status.py derives progress from data/ only and picks the first pending job in order."""
 
@@ -342,6 +378,7 @@ class StatusTests(unittest.TestCase):
             shutil.rmtree(tmp)
 
 
+@needs_corpus
 class DigestTests(unittest.TestCase):
     """digest.py removes only what an entry must not carry or can fetch on demand."""
 
@@ -408,6 +445,7 @@ class AnchorTests(unittest.TestCase):
         self.assertEqual(runs, [], 'quoted text is exempt')
 
 
+@needs_corpus
 class EndToEndTests(unittest.TestCase):
     """pack -> generate (mock) -> verify -> audit (dry) -> assemble on surah 112."""
 

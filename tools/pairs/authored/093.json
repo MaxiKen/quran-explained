@@ -1,0 +1,116 @@
+{
+  "surah": 93,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "By the morning sunlight",
+          "text": "God swears by the morning brightness. Tabari takes it as the whole day, and mentions the disagreement of the scholars about it and his own preference, and adds that some said it means the forenoon.",
+          "ar": "وَٱلضُّحَىٰ",
+          "range": [0, 4]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "and the night when it falls still",
+          "text": "The commentators differed: some said the night when it comes with its darkness, some said when it departs, and some said when it becomes even and settles down. Tabari takes the last, and compares it to a calm sea.",
+          "ar": "وَٱلَّيۡلِ إِذَا سَجَىٰ",
+          "range": [0, 17]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "Your Lord ˹O Prophet˺ has not abandoned you, nor has He become hateful ˹of you˺",
+          "text": "This answers the oath. Your Lord has not abandoned you and has not hated you. The surah was revealed as God's answer to the Quraysh, who said that the Prophet's Lord had forsaken and despised him when the revelation stopped. Khadija said the like, and the verse came in answer.",
+          "ar": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+          "range": [0, 17]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "And the next life is certainly far better for you than this one",
+          "text": "The abode of the Hereafter and what God has prepared there for you is better for you than this world and what is in it. So do not grieve over what has escaped you of it.",
+          "ar": "وَلَلۡأٓخِرَةُ خَيۡرٞ لَّكَ مِنَ ٱلۡأُولَىٰ",
+          "range": [0, 0]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "And ˹surely˺ your Lord will give so much to you that you will be pleased",
+          "text": "Your Lord will give you of His favours in the Hereafter until you are satisfied. Ibn Abbas says that among the Prophet's satisfaction is that none of his household will enter the Fire.",
+          "ar": "وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ",
+          "range": [0, 5]
+        }
+      ]
+    },
+    "6": {
+      "phrases": [
+        {
+          "translation": "Did He not find you as an orphan then sheltered you",
+          "text": "Among the favours God lists for His Prophet: He made for you a refuge to which you could turn and a dwelling in which you could live.",
+          "ar": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ",
+          "range": [0, 0]
+        }
+      ]
+    },
+    "7": {
+      "phrases": [
+        {
+          "translation": "Did He not find you unguided then guided you",
+          "text": "He found you in a different state from the one you are in today. Al-Suddī says He stayed for forty years in the religion of his people before he was guided.",
+          "ar": "وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ",
+          "range": [0, 1]
+        }
+      ]
+    },
+    "8": {
+      "phrases": [
+        {
+          "translation": "And did He not find you needy then satisfied your needs",
+          "text": "He found you poor and made you rich. Qatada says these were the circumstances of the Prophet before God sent him as a messenger.",
+          "ar": "وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
+          "range": [0, 8]
+        }
+      ]
+    },
+    "9": {
+      "phrases": [
+        {
+          "translation": "So do not oppress the orphan",
+          "text": "Do not treat the orphan unjustly, so that you deprive him of his right by holding him to be weak. Mujahid says it means not despising him and taking him for insignificant, and in another reading of the codex the word is not to rebuke him harshly.",
+          "ar": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ",
+          "range": [0, 3]
+        }
+      ]
+    },
+    "10": {
+      "phrases": [
+        {
+          "translation": "nor repulse the beggar",
+          "text": "As for the one who asks you for something out of need, do not repel him, but feed him and provide for what he needs.",
+          "ar": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
+          "range": [0, 0]
+        }
+      ]
+    },
+    "11": {
+      "phrases": [
+        {
+          "translation": "And proclaim the blessings of your Lord",
+          "text": "Mention them. Mujahid says this means the prophethood, and the Muslims held that it is part of gratitude for a favour to speak of it.",
+          "ar": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ",
+          "range": [0, 5]
+        }
+      ]
+    }
+  }
+}
