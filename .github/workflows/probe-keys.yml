@@ -24,8 +24,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          mkdir -p work
-          : > work/probe-keys.txt
+          mkdir -p work/raw
+          : > work/raw/probe-keys.txt
           for name in ANTHROPIC_API_KEY OPENAI_API_KEY GEMINI_API_KEY; do
             value="${!name}"
             if [ -n "$value" ]; then
@@ -39,6 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add work/probe-keys.txt
+          git add -f work/raw/probe-keys.txt
           git commit -m "probe: which LLM keys are configured"
           git push origin "HEAD:${GITHUB_REF_NAME}" || echo "push rejected"
