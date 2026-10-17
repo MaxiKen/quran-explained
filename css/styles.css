@@ -1981,16 +1981,6 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 ================================================ */
 .tafsir-guidance .tafsir-source-label { color: var(--accent); }
 .tafsir-guidance .tafsir-text { color: var(--text-secondary); }
-.tafsir-sources { margin-top: 4px; border-top: 1px solid var(--accent-border-light); padding-top: 14px; }
-.tafsir-sources > summary {
-  cursor: pointer; list-style: none; font-size: 13px; font-weight: 700;
-  color: var(--text-dim); padding: 6px 0; user-select: none;
-}
-.tafsir-sources > summary::-webkit-details-marker { display: none; }
-.tafsir-sources > summary::before { content: '▸ '; color: var(--accent); }
-.tafsir-sources[open] > summary::before { content: '▾ '; }
-.tafsir-sources[open] > summary { margin-bottom: 12px; }
-.tafsir-sources .tafsir-entry { border-top: 1px solid var(--accent-border-light); padding-top: 16px; margin-top: 16px; }
 
 /* Notes that belong to a source: the publisher's own caveat on the English
    Tabari translation, and the line that says the plain-English commentary
@@ -2029,9 +2019,7 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   font-size: 11.5px; color: var(--text-faint); margin: 0 0 12px;
 }
 
-.tafsir-entry-note,
-.tafsir-sources-note {
+.tafsir-entry-note {
   font-size: 12.5px; color: var(--text-faint); line-height: 1.65;
   margin: -4px 0 12px; max-width: 62ch;
 }
-.tafsir-sources-note { margin: 0 0 4px; }

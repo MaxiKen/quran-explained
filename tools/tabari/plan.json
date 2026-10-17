@@ -1,6 +1,6 @@
 {
   "_comment": "Surahs the importer fetches. Edit and push to run the import; the GitHub Actions workflow imports on push to tools/tabari/** and commits the result to the branch it ran on. Set run=false to keep a push from starting a fetch.",
-  "run": true,
+  "run": false,
   "surahs": [
     1,
     2,
