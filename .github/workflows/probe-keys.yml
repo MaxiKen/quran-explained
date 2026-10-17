@@ -1,0 +1,30 @@
+name: Probe LLM secrets
+
+# One-off: reports whether an LLM key is configured in the repository
+# secrets, and nothing else. It prints "present" or "absent" — never a
+# value, never a prefix.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check which keys are configured
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          for name in ANTHROPIC_API_KEY OPENAI_API_KEY GEMINI_API_KEY; do
+            value="${!name}"
+            if [ -n "$value" ]; then
+              echo "$name: present"
+            else
+              echo "$name: absent"
+            fi
+          done
