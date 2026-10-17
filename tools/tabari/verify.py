@@ -2,7 +2,9 @@
 
 Every surah file must carry one passage for each of its verses, the passages
 must be plain text (no markup, no site furniture), and the length of each
-passage must be plausible. Run it after an import, before the data is used.
+passage must be plausible. Each verse must also carry the Arabic original
+that sits below the English in the reader. Run it after an import, before the
+data is used.
 
     python3 tools/tabari/verify.py --data data
 """
@@ -29,10 +31,12 @@ FURNITURE = [
     "Show more",
     "Mushaf",
     "Tajweed",
+    "Show original Arabic",
 ]
 
 TAG_RE = re.compile(r"<[a-zA-Z/][^>]*>")
 ESCAPE_RE = re.compile(r"\\([\[\]\*_`])")
+ARABIC_RE = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
 
 
 def check_file(path, surah, count):
@@ -44,10 +48,18 @@ def check_file(path, surah, count):
         problems.append("surah field is %r, expected %d" % (payload.get("surah"), surah))
     if payload.get("lang") != "en":
         problems.append("lang is %r, expected 'en'" % payload.get("lang"))
+    if payload.get("primary") != "tabari":
+        problems.append("primary is %r, expected 'tabari'" % payload.get("primary"))
+
+    sources = payload.get("sources", [])
+    if [s.get("id") for s in sources] != ["tabari"]:
+        problems.append("sources are %r, expected only 'tabari'" % [s.get("id") for s in sources])
 
     sets = payload.get("sets", {})
+    for name in ("tabari", "tabariAr"):
+        if name not in sets:
+            problems.append("no %r set" % name)
     if "tabari" not in sets:
-        problems.append("no 'tabari' set")
         return problems
     block_set = sets["tabari"]
     blocks = block_set.get("blocks", [])
@@ -55,12 +67,21 @@ def check_file(path, surah, count):
     if len(blocks) != len(ranges):
         problems.append("%d blocks but %d ranges" % (len(blocks), len(ranges)))
 
+    arabic_blocks = []
+    if "tabariAr" in sets:
+        arabic_blocks = sets["tabariAr"].get("blocks", [])
+        if len(arabic_blocks) != len(blocks):
+            problems.append(
+                "%d Arabic blocks but %d English blocks" % (len(arabic_blocks), len(blocks))
+            )
+
     verses = payload.get("verses", {})
     missing = [a for a in range(1, count + 1) if str(a) not in verses]
     if missing:
         problems.append("%d verse(s) missing: %s" % (len(missing), missing[:10]))
 
     total_words = 0
+    arabic_verses = 0
     for ayah in range(1, count + 1):
         entry = verses.get(str(ayah))
         if entry is None:
@@ -87,8 +108,29 @@ def check_file(path, surah, count):
         if words < 3:
             problems.append("verse %d is suspiciously short (%d words)" % (ayah, words))
 
+        # the Arabic original below the English
+        arabic_index = entry.get("tabariAr") if isinstance(entry, dict) else None
+        if not isinstance(arabic_index, int) or not (0 <= arabic_index < len(arabic_blocks)):
+            problems.append("verse %d points at Arabic block %r" % (ayah, arabic_index))
+            continue
+        arabic = arabic_blocks[arabic_index]
+        if not arabic.strip():
+            problems.append("verse %d has no Arabic original" % ayah)
+            continue
+        if not ARABIC_RE.search(arabic):
+            problems.append("verse %d has an Arabic block without Arabic script" % ayah)
+        if TAG_RE.search(arabic):
+            problems.append("verse %d has HTML markup in the Arabic" % ayah)
+        for needle in FURNITURE:
+            if needle in arabic:
+                problems.append("verse %d has site furniture in the Arabic: %r" % (ayah, needle))
+        arabic_verses += 1
+
     if not problems:
-        print("  %s ok: %d verses, %d words" % (os.path.basename(path), count, total_words))
+        print(
+            "  %s ok: %d verses, %d words, %d with the Arabic original"
+            % (os.path.basename(path), count, total_words, arabic_verses)
+        )
     return problems
 
 
@@ -104,24 +146,33 @@ def corpus_summary(data_dir, surahs):
     seen = {}
     shared = 0
     words = 0
+    arabic_verses = 0
+    arabic_chars = 0
     for surah in surahs:
-        path = os.path.join(data_dir, "tabari_%03d.json" % surah)
+        path = os.path.join(data_dir, "tafsir_%03d.json" % surah)
         if not os.path.exists(path):
             continue
         with open(path, "r", encoding="utf-8") as fh:
             payload = json.load(fh)
-        blocks = payload.get("sets", {}).get("tabari", {}).get("blocks", [])
-        for ayah, index in payload.get("verses", {}).items():
+        sets = payload.get("sets", {})
+        blocks = sets.get("tabari", {}).get("blocks", [])
+        arabic_blocks = sets.get("tabariAr", {}).get("blocks", [])
+        for ayah, entry in payload.get("verses", {}).items():
             verses += 1
-            key = (surah, int(ayah))
-            text = blocks[index["tabari"]] if isinstance(index, dict) else blocks[index]
+            index = entry["tabari"] if isinstance(entry, dict) else entry
+            text = blocks[index]
             words += len(text.split())
             digest = hash(text)
             if digest in seen:
                 shared += 1
             else:
-                seen[digest] = key
-    return verses, len(seen), shared, words
+                seen[digest] = (surah, int(ayah))
+            if isinstance(entry, dict) and isinstance(entry.get("tabariAr"), int):
+                arabic = arabic_blocks[entry["tabariAr"]]
+                if arabic.strip():
+                    arabic_verses += 1
+                    arabic_chars += len(arabic)
+    return verses, len(seen), shared, words, arabic_verses, arabic_chars
 
 
 def main():
@@ -142,12 +193,12 @@ def main():
         surahs = sorted(
             int(name[7:10])
             for name in os.listdir(args.data)
-            if name.startswith("tabari_") and name.endswith(".json")
+            if name.startswith("tafsir_") and name.endswith(".json")
         )
 
     failures = 0
     for surah in surahs:
-        path = os.path.join(args.data, "tabari_%03d.json" % surah)
+        path = os.path.join(args.data, "tafsir_%03d.json" % surah)
         if not os.path.exists(path):
             print("  %s MISSING" % os.path.basename(path))
             failures += 1
@@ -160,16 +211,25 @@ def main():
     print("%d/%d surah file(s) passed" % (len(surahs) - failures, len(surahs)))
 
     if len(surahs) == 114:
-        verses, distinct, shared, words = corpus_summary(args.data, surahs)
+        verses, distinct, shared, words, arabic_verses, arabic_chars = corpus_summary(
+            args.data, surahs
+        )
         print(
             "corpus: %d verses, %d distinct passages, %d verses sharing a passage, %d words"
             % (verses, distinct, shared, words)
+        )
+        print(
+            "arabic: %d verse(s) with the Arabic original, %d characters"
+            % (arabic_verses, arabic_chars)
         )
         if verses != 6236:
             print("  expected 6,236 verses")
             failures += 1
         if distinct != 6226:
             print("  expected 6,226 distinct passages, as the publisher states")
+            failures += 1
+        if arabic_verses != verses:
+            print("  expected the Arabic original on all %d verses" % verses)
             failures += 1
     return 1 if failures else 0
 

@@ -1,18 +1,19 @@
-# Tafsīr al-Ṭabarī in English — importer
+# Tafsīr al-Ṭabarī — importer
 
-The English translation of *Jamiʿ al-bayān ʿan taʾwīl āy al-Qurʾān* (Tafsīr
-al-Ṭabarī) that the reader carries as a ninth source, imported from
-[tafseerquran.com](https://tafseerquran.com/en).
+Tafsīr al-Ṭabarī in English, with the Arabic original underneath it, imported
+from [tafseerquran.com](https://tafseerquran.com/en) into the reader's tafsir
+payload: `data/tafsir_NNN.json`.
 
-## Why a separate importer
+## Why the reader's own tafsir files
 
-The eight sources already in `data/tafsir_NNN.json` come from
-[spa5k/tafsir_api](https://github.com/spa5k/tafsir_api) and are reproduced
-unedited. Tafsīr al-Ṭabarī comes from a different publisher, with a different
-licence position, so it is kept in its own files (`data/tabari_NNN.json`) and
-merged into the surah's payload at load time. Nothing in the eight existing
-sources is touched, and a surah without a Tabari file simply has no Tabari
-source.
+The reader used to carry eight classical tafsīrs in `data/tafsir_NNN.json`,
+taken from [spa5k/tafsir_api](https://github.com/spa5k/tafsir_api). They are
+gone: Tafsīr al-Ṭabarī is the reader's tafsīr now, in English, complete for
+every verse of the Qur'an, with the Arabic text of the same commentary below
+it. One payload file per surah, one source, the Arabic underneath.
+
+So the importer writes the file the reader already loads — no merge step, no
+second file to keep in step, and nothing for the app to special-case.
 
 ## Permission
 
@@ -27,19 +28,23 @@ text itself is published for free reading, searching and offline use.
 every ayah of the surahs listed in `plan.json` and writes one file per surah:
 
 ```
-data/tabari_NNN.json
+data/tafsir_NNN.json
 {
   "surah": 1, "lang": "en", "dir": "ltr",
-  "source": { "id": "tabari", "label": "Tafsīr al-Ṭabarī", "author": "..." },
+  "source": "Tafsīr al-Ṭabarī", "primary": "tabari",
+  "sources": [ { "id": "tabari", "label": "Tafsīr al-Ṭabarī", "author": "..." } ],
   "notice": "The Arabic source text is always authoritative. ...",
-  "sets": { "tabari": { "ranges": ["1:1", ...], "blocks": ["...", ...] } },
-  "verses": { "1": 0, "2": 1, ... }
+  "arabicSource": { "id": "tabariAr", "label": "The Arabic original", ... },
+  "sets": { "tabari":   { "ranges": ["1:1", ...], "blocks": ["...", ...] },
+            "tabariAr": { "ranges": ["1:1", ...], "blocks": ["...", ...] } },
+  "verses": { "1": { "tabari": 0, "tabariAr": 0 }, ... }
 }
 ```
 
-The shape is the one the reader already uses for its tafsir payloads, so
-`js/app.js` merges the file with a handful of lines and every existing view
-(verse sheet, surah eBook, read-aloud) picks Tabari up without further change.
+`primary` and `sources` say which source the reader shows; `sets.tabari` holds
+the English and `sets.tabariAr` the Arabic, both addressed per verse the way
+the reader addresses a source. A verse with no Arabic panel on the site still
+gets an entry, so the mapping has no hole.
 
 ### The extraction
 
@@ -50,11 +55,22 @@ Every passage on the page is rendered as
 <div class="text-base"> <p>…</p> <p>…</p> … </div>
 ```
 
-followed by a collapsed "Show original Arabic" panel, the previous/next ayah
-links and the site footer. The importer takes the `text-base` container and
-nothing else, so the Arabic original, the links and the footer stay out. The
-text is kept as the paragraphs the site publishes it in, with the Arabic
-Qurʾānic quotations left inline inside their sentence.
+and the Arabic original sits behind a collapsed panel:
+
+```html
+<details><summary>Show original Arabic</summary>
+<div dir="rtl" lang="ar" class="font-arabic …"> … </div></details>
+```
+
+The importer takes the `text-base` container for the English and the
+right-to-left container for the Arabic, and nothing else — the ayah links and
+the footer stay out. The English keeps the paragraphs the site publishes it
+in, with the Arabic Qurʾānic quotations left inline inside their sentence.
+
+The two containers are told apart by more than their class: the English one is
+matched on its exact class attribute and the Arabic one on `dir="rtl"` and
+`lang="ar"`, so the `text-base` token the Arabic container also carries can
+never make one be read as the other.
 
 ### The escapes
 
@@ -88,8 +104,14 @@ retries with backoff.
 ## Checks
 
 `verify.py` refuses a surah file when a verse is missing, a passage is empty
-or too short, markup or site furniture is left in the text, or the file
-disagrees with the reader's own verse counts for that surah.
+or too short, markup or site furniture is left in the text, the Arabic
+original is missing or has no Arabic script in it, or the file disagrees with
+the reader's own verse counts for that surah.
+
+Over the whole corpus it also holds the import to the publisher's own
+figures: 6,236 verses and 6,226 distinct passages — the number
+tafseerquran.com publishes for the canonical layer. A partial import cannot
+land on both.
 
 ## Notes on the text
 
@@ -105,5 +127,5 @@ Tabari entry:
 > consult the Arabic text and a qualified scholar.
 
 The plain-English commentary in `data/guidance_NNN.json` was written from the
-other eight sources, before Tabari was added. The app says so where both are
-shown.
+eight sources the reader used to carry, before Tafsīr al-Ṭabarī was imported.
+It is a layer above the tafsīr, not a substitute for it, and the app says so.

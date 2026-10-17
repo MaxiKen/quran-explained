@@ -12,7 +12,7 @@ import unittest
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 
-from importer import extract_passage, migrate_file  # noqa: E402
+from importer import extract_arabic, extract_passage, migrate_file  # noqa: E402
 
 FIXTURE = os.path.join(HERE, "fixture_105_001.html")
 
@@ -50,6 +50,34 @@ class ExtractPassageTest(unittest.TestCase):
 
     def test_a_page_without_a_passage_returns_none(self):
         self.assertIsNone(extract_passage("<html><body><p>nothing here</p></body></html>"))
+
+
+class ExtractArabicTest(unittest.TestCase):
+    def setUp(self):
+        self.text = extract_arabic(fixture_html())
+
+    def test_arabic_is_found(self):
+        self.assertIsNotNone(self.text)
+        self.assertTrue(self.text.startswith("القول في تأويل قوله جل ثناؤه"))
+
+    def test_paragraphs_are_kept_apart(self):
+        self.assertIn("\n\n", self.text)
+
+    def test_the_english_passage_is_not_mixed_in(self):
+        self.assertNotIn("The statement concerning the explanation", self.text)
+        self.assertNotIn("Show original Arabic", self.text)
+
+    def test_a_page_without_an_arabic_panel_returns_none(self):
+        self.assertIsNone(extract_arabic("<html><body><p>لا نص هنا</p></body></html>"))
+
+    def test_the_arabic_panel_is_not_read_as_the_english_passage(self):
+        # the Arabic container also carries a "text-base" class token, so the
+        # two containers must never be confused
+        html = fixture_html().replace(
+            '<div dir="rtl" lang="ar"', '<div class="text-base" dir="rtl" lang="ar"'
+        )
+        self.assertIn("القول في تأويل", extract_arabic(html))
+        self.assertNotIn("القول في تأويل", extract_passage(html))
 
 
 class MigrateFileTest(unittest.TestCase):

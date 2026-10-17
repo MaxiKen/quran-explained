@@ -1,7 +1,7 @@
-# The six-source tafsir payloads are generated and are single-line JSON by
-# design (31 MB across 114 files). GitHub hides over-long lines in diffs, so
-# they render as blank and look as though nothing was pushed. Marking them
-# makes that explicit instead of alarming.
+# The tafsir payloads are generated and are single-line JSON by design (about
+# 55 MB across 114 files). GitHub hides over-long lines in diffs, so they
+# render as blank and look as though nothing was pushed. Marking them makes
+# that explicit instead of alarming.
 data/tafsir_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
 
@@ -9,8 +9,3 @@ data/chapter_*.js linguist-generated
 # tools/guidance from the tafsir payloads: single-line JSON, up to a few MB per
 # sūrah, so it is marked generated and excluded from diffs like the sources.
 data/guidance_*.json -diff linguist-generated
-
-# data/tabari_*.json is the English translation of Tafsir al-Ṭabarī imported
-# by tools/tabari from tafseerquran.com: single-line JSON, up to a few MB per
-# sūrah, so it is marked generated and excluded from diffs like the sources.
-data/tabari_*.json -diff linguist-generated

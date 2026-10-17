@@ -1,9 +1,10 @@
 name: Tafsir al-Tabari import
 
-# Imports the English translation of Tafsir al-Tabari from tafseerquran.com
-# into data/tabari_NNN.json. The importer (tools/tabari/) needs plain internet
-# access, which a GitHub runner has; it caches every fetched page under
-# work/tabari/raw so a re-run does not hit the site again.
+# Imports Tafsir al-Tabari from tafseerquran.com into data/tafsir_NNN.json:
+# the English translation of the commentary and, below it, the Arabic
+# original. The importer (tools/tabari/) needs plain internet access, which a
+# GitHub runner has; it caches every fetched page under work/tabari/raw so a
+# re-run does not hit the site again.
 #
 # The surahs to import are listed in tools/tabari/plan.json. Edit that file
 # and push to run the import; the workflow commits the result to the branch it
@@ -70,11 +71,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/tabari_*.json
+          git add data/tafsir_*.json
           if git diff --cached --quiet; then
             echo "nothing to commit"; exit 0
           fi
-          git commit -m "tabari: import the English translation of Tafsir al-Tabari"
+          git commit -m "tabari: import Tafsir al-Tabari in English with the Arabic original"
           for i in 1 2 3 4 5; do
             if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
             echo "push rejected, rebasing (attempt $i)"

@@ -1,28 +1,38 @@
-"""Import the English Tafsir al-Tabari from tafseerquran.com.
+"""Import Tafsir al-Tabari from tafseerquran.com.
 
 For every ayah the site publishes one passage of the English translation of
-Jami al-bayan an tawil ay al-Quran. This script fetches those pages, extracts
-the passage text, and writes one JSON file per surah in the shape the reader
-already uses for its tafsir payloads:
+Jami al-bayan an tawil ay al-Quran, and — behind a collapsed "Show original
+Arabic" panel — the Arabic text of the same commentary. This script fetches
+those pages, extracts both, and writes one JSON file per surah in the shape
+the reader uses for its tafsir payload:
 
-    data/tabari_NNN.json
+    data/tafsir_NNN.json
       { "surah": 1, "lang": "en", "dir": "ltr",
-        "source": { "id": "tabari", "label": ..., "author": ... },
-        "sets": { "tabari": { "ranges": ["1:1", ...], "blocks": ["...", ...] } },
-        "verses": { "1": 0, "2": 1, ... } }
+        "source": "Tafsīr al-Ṭabarī", "primary": "tabari",
+        "sources": [ { "id": "tabari", "label": ..., "author": ... } ],
+        "notice": "...",
+        "arabicSource": { "id": "tabariAr", "label": ..., "author": ... },
+        "sets": { "tabari":    { "ranges": ["1:1", ...], "blocks": ["..."] },
+                  "tabariAr":  { "ranges": ["1:1", ...], "blocks": ["..."] } },
+        "verses": { "1": { "tabari": 0, "tabariAr": 0 }, ... } }
 
-The reader merges the file into the surah's tafsir payload at load time, so
-Tabari appears as one more source alongside the eight classical tafsirs.
+Tafsīr al-Ṭabarī is the reader's tafsir: the English translation is the
+commentary the reader shows, and the Arabic original sits below it as the
+text of record. The site itself says the Arabic is always authoritative.
 
 Page structure (checked against the live site): every passage is rendered as
 
     <div class="...">Full English translation of Tabari's text</div>
     <div class="text-base"> <p>...</p> <p>...</p> ... </div>
 
-followed by a collapsed "Show original Arabic" panel, the previous/next ayah
-links and the site footer. Only the text-base container is the passage, so the
-extraction takes that container and nothing else. The Arabic original is left
-out on purpose: this import is the English translation.
+followed by a collapsed panel
+
+    <details><summary>Show original Arabic</summary>
+    <div dir="rtl" lang="ar" class="font-arabic ..."> ... </div></details>
+
+then the previous/next ayah links and the site footer. Only the text-base
+container is the English passage and only the rtl/ar container is the Arabic
+original, so each is taken on its own and nothing else is.
 
 The site is crawled politely: a handful of workers, a short delay between
 requests, retries with backoff, and every fetched page is cached on disk so a
@@ -49,6 +59,12 @@ SOURCE = {
     "id": "tabari",
     "label": "Tafsīr al-Ṭabarī",
     "author": "Imām Abū Jaʿfar Muḥammad ibn Jarīr al-Ṭabarī (d. 310 AH) · English translation",
+}
+
+ARABIC_SOURCE = {
+    "id": "tabariAr",
+    "label": "The Arabic original",
+    "author": "Tafsīr al-Ṭabarī · the Arabic text of the commentary",
 }
 
 # The site's own notice, kept with the text so the reader can show it.
@@ -152,11 +168,20 @@ def normalise(text):
     return text.strip()
 
 
-def find_container(html, start):
-    """Return the content of the <div class="text-base"> that starts after `start`."""
-    match = PASSAGE_CONTAINER.search(html, start)
+def find_div_body(html, start, pattern):
+    """Return the inner HTML of the first <div> matching `pattern` after `start`.
+
+    The closing tag is found by counting <div> and </div>, so nested divs
+    inside the container do not end it early.
+    """
+    match = pattern.search(html, start)
     if not match:
         return None
+    return div_body(html, match)
+
+
+def div_body(html, match):
+    """Return the inner HTML of the <div> opened by `match`."""
     index = match.end()
     depth = 1
     while index < len(html):
@@ -173,6 +198,11 @@ def find_container(html, start):
         if depth == 0:
             return html[match.end():index - 6]
     return None
+
+
+def find_container(html, start):
+    """Return the content of the <div class="text-base"> that starts after `start`."""
+    return find_div_body(html, start, PASSAGE_CONTAINER)
 
 
 def blocks_to_markdown(blocks):
@@ -254,6 +284,84 @@ def extract_passage(html):
     return "\n\n".join(passages)
 
 
+# The Arabic original sits behind a collapsed panel on every page. The panel is
+# marked by its summary, and the text itself is the right-to-left container
+# inside it. The container's class list also carries a "text-base" token, so
+# the English container is matched on its exact class attribute and the Arabic
+# one on its dir/lang attributes — the two can never be confused.
+ARABIC_LABEL = "Show original Arabic"
+ARABIC_CONTAINER = re.compile(r"<div[^>]*>")
+
+
+def find_arabic_div(html, start):
+    """Return the match of the right-to-left Arabic container after `start`."""
+    for match in ARABIC_CONTAINER.finditer(html, start):
+        tag = match.group(0)
+        if 'dir="rtl"' in tag and 'lang="ar"' in tag:
+            return match
+    return None
+
+
+class TextCollector(HTMLParser):
+    """Collect the text of a fragment, keeping its paragraph breaks.
+
+    The Arabic panel holds plain text (or a couple of paragraphs), not the
+    block structure the English passage is built from, so it is read as text.
+    """
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in SKIP_TAGS:
+            self._skip += 1
+        elif tag == "br":
+            self.parts.append("\n")
+        elif tag in BLOCK_TAGS:
+            self.parts.append("\n\n")
+
+    def handle_endtag(self, tag):
+        if tag in SKIP_TAGS:
+            if self._skip:
+                self._skip -= 1
+        elif tag in BLOCK_TAGS:
+            self.parts.append("\n\n")
+
+    def handle_data(self, data):
+        if self._skip:
+            return
+        self.parts.append(data)
+
+    def text(self):
+        raw = "".join(self.parts)
+        paragraphs = []
+        for part in re.split(r"\n\s*\n", raw):
+            part = normalise(part)
+            if part:
+                paragraphs.append(part)
+        return "\n\n".join(paragraphs)
+
+
+def extract_arabic(html):
+    """Return the Arabic original of an ayah page, or None when it has none."""
+    marker = html.find(ARABIC_LABEL)
+    if marker == -1:
+        return None
+    match = find_arabic_div(html, marker)
+    if match is None:
+        return None
+    container = div_body(html, match)
+    if not container:
+        return None
+    collector = TextCollector()
+    collector.feed(container)
+    collector.close()
+    text = collector.text()
+    return text or None
+
+
 # --- Import ---------------------------------------------------------------
 
 _print_lock = threading.Lock()
@@ -281,21 +389,25 @@ def read_page(surah, ayah, args):
 
 def import_surah(surah, count, args):
     results = {}
+    arabics = {}
 
     def one(ayah):
         try:
             html = read_page(surah, ayah, args)
         except Exception as exc:  # noqa: BLE001 - reported, not fatal
-            return ayah, None, str(exc)
+            return ayah, None, None, str(exc)
         if html is None:
-            return ayah, None, "not found"
+            return ayah, None, None, "not found"
         text = extract_passage(html)
-        return ayah, text, None
+        arabic = extract_arabic(html) if text else None
+        return ayah, text, arabic, None
 
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        for ayah, text, error in pool.map(one, range(1, count + 1)):
+        for ayah, text, arabic, error in pool.map(one, range(1, count + 1)):
             if text:
                 results[ayah] = text
+                if arabic:
+                    arabics[ayah] = arabic
             elif error:
                 with _print_lock:
                     print("  %d:%d - %s" % (surah, ayah, error), flush=True)
@@ -313,28 +425,55 @@ def import_surah(surah, count, args):
             )
         return {"status": "incomplete", "missing": missing, "verses": len(results)}
 
+    without_arabic = [ayah for ayah in range(1, count + 1) if ayah not in arabics]
+    if without_arabic:
+        with _print_lock:
+            print(
+                "surah %d: %d verse(s) without the Arabic original: %s"
+                % (surah, len(without_arabic), without_arabic[:10]),
+                flush=True,
+            )
+
     blocks = [results[ayah] for ayah in range(1, count + 1)]
+    # a verse with no Arabic panel still gets an entry, so the reader can
+    # show the English on its own without a hole in the mapping
+    arabic_blocks = [arabics.get(ayah, "") for ayah in range(1, count + 1)]
     ranges = ["%d:%d" % (surah, ayah) for ayah in range(1, count + 1)]
     payload = {
         "surah": surah,
         "lang": "en",
         "dir": "ltr",
-        "source": SOURCE,
+        "source": SOURCE["label"],
+        "primary": SOURCE["id"],
+        "sources": [SOURCE],
         "notice": NOTICE,
-        "sets": {"tabari": {"ranges": ranges, "blocks": blocks}},
-        # the reader maps every verse to a block index per source, the same
-        # way the eight tafsir payloads do
+        "arabicSource": ARABIC_SOURCE,
+        "sets": {
+            "tabari": {"ranges": ranges, "blocks": blocks},
+            "tabariAr": {"ranges": ranges, "blocks": arabic_blocks},
+        },
+        # the reader maps every verse to a block index per source
         "verses": {
-            str(ayah): {"tabari": ayah - 1} for ayah in range(1, count + 1)
+            str(ayah): {"tabari": ayah - 1, "tabariAr": ayah - 1}
+            for ayah in range(1, count + 1)
         },
     }
-    path = os.path.join(args.out, "tabari_%03d.json" % surah)
+    path = os.path.join(args.out, "tafsir_%03d.json" % surah)
     os.makedirs(args.out, exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
     with _print_lock:
-        print("surah %d ok: %d verses" % (surah, count), flush=True)
-    return {"status": "ok", "verses": count, "bytes": os.path.getsize(path)}
+        print(
+            "surah %d ok: %d verses, %d with the Arabic original"
+            % (surah, count, len(arabics)),
+            flush=True,
+        )
+    return {
+        "status": "ok",
+        "verses": count,
+        "arabic": len(arabics),
+        "bytes": os.path.getsize(path),
+    }
 
 
 def migrate_file(path):
@@ -404,7 +543,7 @@ def main():
     if args.normalise:
         changed = []
         for name in sorted(os.listdir(args.out)):
-            if name.startswith("tabari_") and name.endswith(".json"):
+            if name.startswith(("tabari_", "tafsir_")) and name.endswith(".json"):
                 if normalise_file(os.path.join(args.out, name)):
                     changed.append(name)
         print("normalised %d file(s)" % len(changed))
@@ -415,7 +554,7 @@ def main():
     if args.migrate:
         changed = []
         for name in sorted(os.listdir(args.out)):
-            if name.startswith("tabari_") and name.endswith(".json"):
+            if name.startswith(("tabari_", "tafsir_")) and name.endswith(".json"):
                 if migrate_file(os.path.join(args.out, name)):
                     changed.append(name)
         print("migrated %d file(s)" % len(changed))
