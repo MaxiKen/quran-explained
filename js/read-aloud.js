@@ -981,6 +981,9 @@ const ReadAloud = {
     const verseEl = this.ayah == null ? null : document.getElementById(`commentary-verse-${this.ayah}`);
     const scope = verseEl || document.querySelector('.ebook-introduction');
     if (!scope) return;
+    /* The quick read lists the commentary as its parts, so there is no
+       paragraph for a spoken line to follow. The reading itself is the same. */
+    if (scope.querySelector('.quick-read')) return;
     const nodes = scope.querySelectorAll('.ebook-commentary > *, .ebook-introduction-content > *, .ebook-translation');
     const list = Array.prototype.slice.call(nodes);
     this._lineEls = this.lines.map((line) => this._matchNode(line, list));

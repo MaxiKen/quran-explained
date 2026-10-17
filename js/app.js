@@ -1400,6 +1400,7 @@ function renderCompleteCommentary(container) {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
             <span id="raTriggerLabel">${readingLabel}</span>
           </button>
+          <button class="ebook-secondary-btn ${getCommentaryMode() === 'quick' ? 'is-active' : ''}" id="commentaryModeBtn" onclick="switchCommentaryMode('${getCommentaryMode() === 'quick' ? 'full' : 'quick'}')" title="${getCommentaryMode() === 'quick' ? 'Show the whole commentary instead of the quick read' : 'Show the commentary as a list of its parts, to skim'}">${getCommentaryMode() === 'quick' ? 'Full text' : 'Quick read'}</button>
           <button class="ebook-secondary-btn" onclick="openFontSizeModal()" title="Adjust text size">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg> Text size
           </button>
@@ -1580,7 +1581,7 @@ function getCommentaryRange(tafsir, ayahNum, sourceId) {
 
 /* One source's entry: range on the first line, source name under it, text
    starting on the line after that. */
-function renderTafsirEntry(entry, index) {
+function renderTafsirEntry(entry, index, mode) {
   const head = entry.range
     ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(entry.range)}</p>`
     : '';
@@ -1590,8 +1591,11 @@ function renderTafsirEntry(entry, index) {
     ? `<p class="tafsir-entry-note">${escapeHtml(entry.notice)}</p>`
     : '';
   const primary = index === 0 ? ' tafsir-entry-primary' : '';
+  const body = mode === 'quick'
+    ? renderQuickRead(entry.text)
+    : `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div>`;
   return `<section class="tafsir-entry${primary}" data-source="${escapeHtml(entry.id)}">`
-    + `${head}${label}${note}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div>`
+    + `${head}${label}${note}${body}`
     + `${renderTafsirArabic(entry)}</section>`;
 }
 
@@ -1616,23 +1620,190 @@ function renderTafsirArabic(entry) {
     + `</details>`;
 }
 
+/* How the commentary is read: the whole thing, or the quick read. The reader
+   chooses; the choice is remembered on this device. */
+const COMMENTARY_MODE_KEY = 'quran-reader-commentary-mode';
+
+function getCommentaryMode() {
+  try { return localStorage.getItem(COMMENTARY_MODE_KEY) === 'quick' ? 'quick' : 'full'; }
+  catch { return 'full'; }
+}
+
+function rememberCommentaryMode(mode) {
+  try { localStorage.setItem(COMMENTARY_MODE_KEY, mode === 'quick' ? 'quick' : 'full'); } catch { /* private mode */ }
+}
+
+/* The switch between the two ways of reading the commentary. */
+function commentaryModeSwitch(mode) {
+  const quick = mode === 'quick';
+  return `<div class="commentary-switch" role="tablist" aria-label="How to read the commentary">`
+    + `<button type="button" role="tab" class="commentary-switch-btn${quick ? ' is-active' : ''}" aria-selected="${quick}" onclick="switchCommentaryMode('quick')">Quick read</button>`
+    + `<button type="button" role="tab" class="commentary-switch-btn${quick ? '' : ' is-active'}" aria-selected="${!quick}" onclick="switchCommentaryMode('full')">Full commentary</button>`
+    + `</div>`;
+}
+
+/* The reader changed the way the commentary is shown. The page is not
+   re-rendered from scratch, so the reader keeps their place. */
+function switchCommentaryMode(mode) {
+  rememberCommentaryMode(mode);
+  if (ModalState.mode === 'verse' && ModalState.surah) {
+    const tafsir = loadedTafsir[ModalState.surah];
+    const text = getVerseCommentary(tafsir, ModalState.ayah);
+    const body = document.getElementById('modalBody');
+    if (body && text) {
+      body.innerHTML = renderCommentaryHtml(tafsir, text, ModalState.ayah, { showSwitch: true });
+      afterModalBodyRender();
+    }
+    return;
+  }
+  if (AppState.currentView === 'commentary') {
+    const tafsir = loadedTafsir[AppState.currentSurah];
+    const intro = getSurahIntro(tafsir);
+    const introBox = document.querySelector('.ebook-introduction-content');
+    if (introBox && intro) introBox.innerHTML = renderCommentaryHtml(tafsir, intro);
+    document.querySelectorAll('.ebook-verse').forEach(el => {
+      const ayah = parseInt((el.id || '').replace('commentary-verse-', ''), 10);
+      if (!ayah) return;
+      const holder = el.querySelector('.ebook-commentary');
+      const text = getVerseCommentary(tafsir, ayah);
+      if (holder && text) holder.innerHTML = renderCommentaryHtml(tafsir, text, ayah);
+    });
+    updateCommentaryModeButton();
+  }
+}
+
+/* The button in the reading edition says what it will do next. */
+function updateCommentaryModeButton() {
+  const btn = document.getElementById('commentaryModeBtn');
+  if (!btn) return;
+  const quick = getCommentaryMode() === 'quick';
+  btn.textContent = quick ? 'Full text' : 'Quick read';
+  btn.classList.toggle('is-active', quick);
+  btn.setAttribute('title', quick
+    ? 'Show the whole commentary instead of the quick read'
+    : 'Show the commentary as a list of its parts, to skim');
+  btn.setAttribute('onclick', `switchCommentaryMode('${quick ? 'full' : 'quick'}')`);
+}
+
+/* ================================================
+   THE QUICK READ
+   Tabari's commentary is long - 2:255 runs to 9,600 words. The quick read
+   lists the parts it is made of, so a reader can see the shape of the
+   commentary and open only the parts they want.
+
+   Where Tabari himself goes phrase by phrase, the phrase is the heading of
+   its group and the parts sit under it. Everywhere else the parts stand on
+   their own. Every line is Tabari's own text: the opening sentence of a
+   part, cut short with an ellipsis where the sentence runs on. Nothing is
+   paraphrased and nothing is dropped - the full text is one tap away, and
+   the full commentary is still there.
+================================================ */
+
+/* The classical formula that opens a phrase of the verse: "The exposition of
+   His word:", "The statement concerning the explanation of His saying ...:",
+   and the other ways the printed edition puts it. */
+const PHRASE_FORMULA = /^(?:The\s+)?(?:explanation|exposition|discourse|statement|discussion|interpretation|meaning|purpose|significance|word|words|saying|utterance|purport)\b[^:]{0,160}:/i;
+
+/* Lines that never open a phrase, however they are worded: footnotes, notes
+   about the printed edition, and the chains of transmission. */
+const NOT_A_PHRASE = /^(?:\(\d+\)|\d+\s+[\u2014\u2013-])|(?:Mention of who said|The mention of who|In the printed edition|in the manuscript|in the copy of|and in the margin|as it is written in|.*\brelated (?:to us|to me)\b)/i;
+
+const QUICK_READ_MAX = 200;
+
+function isPhraseOpening(line) {
+  if (!line || line.length >= 320 || line.indexOf(':') === -1) return false;
+  if (NOT_A_PHRASE.test(line)) return false;
+  const match = line.match(PHRASE_FORMULA);
+  if (!match) return false;
+  /* the formula in front of the colon, and the phrase behind it */
+  if (match[0].length - 1 > 90) return false;
+  if (line.length - match[0].length > 220) return false;
+  return true;
+}
+
+function splitParagraphs(text) {
+  return String(text || '')
+    .split(/\n\s*\n/)
+    .map(part => part.trim())
+    /* the printed edition's separator lines are not parts of the text */
+    .filter(part => part && !/^[-*_—–=\s]{3,}$/.test(part));
+}
+
+/* The opening sentence of a part, cut short with an ellipsis when it runs
+   on. It is Tabari's own sentence, only shorter. */
+function quickReadLabel(text) {
+  const dot = text.indexOf('. ');
+  let first = dot > 0 ? text.slice(0, dot + 1) : text;
+  if (first.length > QUICK_READ_MAX) {
+    const cut = first.slice(0, QUICK_READ_MAX);
+    const space = cut.lastIndexOf(' ');
+    first = (space > QUICK_READ_MAX * 0.6 ? cut.slice(0, space) : cut).trimEnd() + '\u2026';
+  }
+  return first;
+}
+
+/* The quick read of a passage: groups, each with the phrase Tabari opens it
+   with (when he opens it with one) and the parts under it. */
+function buildQuickRead(text) {
+  const paragraphs = splitParagraphs(text);
+  const groups = [];
+  let current = null;
+  for (const paragraph of paragraphs) {
+    if (isPhraseOpening(paragraph)) {
+      current = { phrase: paragraph, parts: [] };
+      groups.push(current);
+      continue;
+    }
+    if (!current) {
+      current = { phrase: '', parts: [] };
+      groups.push(current);
+    }
+    current.parts.push({ label: quickReadLabel(paragraph), text: paragraph });
+  }
+  return groups;
+}
+
+function renderQuickRead(text) {
+  const groups = buildQuickRead(text);
+  if (!groups.length) return '';
+  const html = groups.map(group => {
+    const head = group.phrase
+      ? `<p class="quick-read-phrase">${escapeHtml(group.phrase)}</p>`
+      : '';
+    const parts = group.parts.map(part =>
+      `<details class="quick-read-part"><summary>${escapeHtml(part.label)}</summary>`
+      + `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(part.text)}</div>`
+      + `</details>`).join('');
+    return `<section class="quick-read-group">${head}${parts}</section>`;
+  }).join('');
+  const count = groups.reduce((total, group) => total + group.parts.length, 0);
+  return `<div class="quick-read" data-source="quick-read">`
+    + `<p class="quick-read-note">Tabar\u012b's commentary in ${count} part${count === 1 ? '' : 's'}`
+    + ` \u2014 every line is his own text, shortened. Open a line for the full passage.</p>`
+    + html
+    + `</div>`;
+}
+
 /* The tafsīr itself. There is one source now, so it is shown directly under
    the plain-English commentary instead of being folded away behind a "read
    the N sources" disclosure. */
-function renderTafsirSources(entries) {
+function renderTafsirSources(entries, mode) {
   if (!entries || !entries.length) return '';
-  return entries.map((e, i) => renderTafsirEntry(e, i)).join('');
+  return entries.map((e, i) => renderTafsirEntry(e, i, mode)).join('');
 }
 
 /* Render commentary with its verse range as the first line and the text
    starting on the next. Returns '' for an empty commentary so callers keep
    their fallbacks. */
-function renderCommentaryHtml(tafsir, text, ayahNum) {
+function renderCommentaryHtml(tafsir, text, ayahNum, options) {
+  const opts = options || {};
+  const mode = opts.mode || getCommentaryMode();
+  const switcher = opts.showSwitch ? commentaryModeSwitch(mode) : '';
   if (ayahNum != null && tafsir && tafsir.sets) {
     const entries = getVerseCommentaryAll(tafsir, ayahNum);
-    if (entries.length) return renderTafsirSources(entries);
+    if (entries.length) return switcher + renderTafsirSources(entries, mode);
   }
-  if (!text) return '';
+  if (!text) return switcher;
   const dir = getTafsirDir(tafsir);
   const lang = getTafsirLang(tafsir);
   const cls = dir === 'rtl' ? 'tafsir-text tafsir-rtl' : 'tafsir-text';
@@ -1640,7 +1811,10 @@ function renderCommentaryHtml(tafsir, text, ayahNum) {
   const head = range
     ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(range)}</p>`
     : '';
-  return `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
+  const body = mode === 'quick'
+    ? renderQuickRead(text)
+    : `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
+  return switcher + body;
 }
 
 /* Get the Sūrah introduction / overview notes, when the tafsir payload
@@ -2749,7 +2923,7 @@ function showExplanation(surahNum, ayahNum) {
   const cached = loadedTafsir[surahNum];
   const explanation = getVerseCommentary(cached, ayahNum);
   if (explanation) {
-    document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation, ayahNum);
+    document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation, ayahNum, { showSwitch: true });
     afterModalBodyRender();
   } else {
     showModalSkeleton();
@@ -2758,7 +2932,7 @@ function showExplanation(surahNum, ayahNum) {
         if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
         const text = getVerseCommentary(tafsir, ayahNum);
         document.getElementById('modalBody').innerHTML = text
-          ? renderCommentaryHtml(tafsir, text, ayahNum)
+          ? renderCommentaryHtml(tafsir, text, ayahNum, { showSwitch: true })
           : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
         afterModalBodyRender();
       })

@@ -15,6 +15,14 @@ the verification gates and the account of how the layer was made — and it
 stops with an explanation rather than running against a corpus the reader no
 longer carries.
 
+The commentary can be read two ways. The reader chooses, in the verse pop-up
+and in the reading edition: the **full commentary**, or the **quick read** —
+the same commentary listed as its parts, each part showing its opening line
+and opening to the full passage. Where Tabarī goes phrase by phrase, the
+phrase is the heading of its group. The quick read is built in the browser
+from the same payload (`buildQuickRead` in `js/app.js`); it is Tabarī's own
+text, shortened, never a paraphrase, and nothing is dropped from it.
+
 If you are here to continue that project, **everything you need is in
 `tools/guidance/HANDOFF.md`**. Read it completely before acting. The design
 decisions in its §2 are final; do not ask the maintainer about them again.
