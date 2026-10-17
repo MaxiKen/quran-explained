@@ -7,16 +7,26 @@ already uses for its tafsir payloads:
 
     data/tabari_NNN.json
       { "surah": 1, "lang": "en", "dir": "ltr",
-        "sources": [ { "id": "tabari", "label": ..., "author": ... } ],
+        "source": { "id": "tabari", "label": ..., "author": ... },
         "sets": { "tabari": { "ranges": ["1:1", ...], "blocks": ["...", ...] } },
-        "verses": { "1": { "tabari": 0 }, "2": { "tabari": 1 }, ... } }
+        "verses": { "1": 0, "2": 1, ... } }
 
 The reader merges the file into the surah's tafsir payload at load time, so
 Tabari appears as one more source alongside the eight classical tafsirs.
 
-The site is crawled politely: a modest number of workers, a short delay
-between requests, retries with backoff, and every fetched page is cached on
-disk so a re-run does not hit the site again.
+Page structure (checked against the live site): every passage is rendered as
+
+    <div class="...">Full English translation of Tabari's text</div>
+    <div class="text-base"> <p>...</p> <p>...</p> ... </div>
+
+followed by a collapsed "Show original Arabic" panel, the previous/next ayah
+links and the site footer. Only the text-base container is the passage, so the
+extraction takes that container and nothing else. The Arabic original is left
+out on purpose: this import is the English translation.
+
+The site is crawled politely: a handful of workers, a short delay between
+requests, retries with backoff, and every fetched page is cached on disk so a
+re-run does not hit the site again.
 """
 
 import argparse
@@ -26,6 +36,7 @@ import re
 import sys
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -57,9 +68,12 @@ BLOCK_TAGS = {
 }
 SKIP_TAGS = {"script", "style", "noscript", "svg", "template", "iframe"}
 
+LABEL = "Full English translation of Tabari"
+PASSAGE_CONTAINER = re.compile(r'<div class="text-base">')
+
 
 class BlockCollector(HTMLParser):
-    """Collect the block-level elements of a page, in document order.
+    """Collect the block-level elements of a fragment, in document order.
 
     Only leaf blocks are kept: a wrapper element that contains block-level
     children is skipped, because its text is the concatenation of theirs.
@@ -72,7 +86,6 @@ class BlockCollector(HTMLParser):
         self._skip_depth = 0
         self._pending = []        # inline text of the current block
 
-    # -- helpers
     def _flush_inline(self):
         if self._stack:
             self._stack[-1][1].append("".join(self._pending))
@@ -84,14 +97,12 @@ class BlockCollector(HTMLParser):
             return
         if self._skip_depth:
             return
-        if tag in ("br",):
+        if tag == "br":
             self._pending.append("\n")
             return
         if tag in BLOCK_TAGS:
             self._flush_inline()
             self._stack.append([tag, [], False])
-        else:
-            self._pending.append("")
 
     def handle_endtag(self, tag):
         if tag in SKIP_TAGS:
@@ -100,13 +111,12 @@ class BlockCollector(HTMLParser):
             return
         if self._skip_depth:
             return
-        if tag in ("br",):
+        if tag == "br":
             return
         if tag in BLOCK_TAGS and self._stack:
             # text collected since the last tag belongs to the element that is
             # closing, so it has to be flushed before the element is popped
             self._flush_inline()
-            # close the innermost matching block
             depth = None
             for index in range(len(self._stack) - 1, -1, -1):
                 if self._stack[index][0] == tag:
@@ -116,9 +126,8 @@ class BlockCollector(HTMLParser):
                 return
             while len(self._stack) > depth:
                 element = self._stack.pop()
-                text = "".join(element[1])
                 if not element[2]:
-                    self.blocks.append((element[0], text))
+                    self.blocks.append((element[0], "".join(element[1])))
             if self._stack:
                 self._stack[-1][2] = True
 
@@ -132,18 +141,8 @@ class BlockCollector(HTMLParser):
         self._flush_inline()
         while self._stack:
             element = self._stack.pop()
-            text = "".join(element[1])
             if not element[2]:
-                self.blocks.append((element[0], text))
-
-
-# Markers that delimit the passage on the page.
-PASSAGE_LABEL = re.compile(r"full english translation of tabari", re.I)
-STOP_MARKERS = re.compile(
-    r"^(read tabari|go to ayah|related passages|previous|next|back to|"
-    r"share|feedback|©|all rights|privacy|terms)",
-    re.I,
-)
+                self.blocks.append((element[0], "".join(element[1])))
 
 
 def normalise(text):
@@ -151,6 +150,29 @@ def normalise(text):
     text = re.sub(r"[ \t\r\f\v]+", " ", text)
     text = re.sub(r" *\n *", "\n", text)
     return text.strip()
+
+
+def find_container(html, start):
+    """Return the content of the <div class="text-base"> that starts after `start`."""
+    match = PASSAGE_CONTAINER.search(html, start)
+    if not match:
+        return None
+    index = match.end()
+    depth = 1
+    while index < len(html):
+        open_at = html.find("<div", index)
+        close_at = html.find("</div>", index)
+        if close_at == -1:
+            return None
+        if open_at != -1 and open_at < close_at:
+            depth += 1
+            index = open_at + 4
+            continue
+        depth -= 1
+        index = close_at + 6
+        if depth == 0:
+            return html[match.end():index - 6]
+    return None
 
 
 def blocks_to_markdown(blocks):
@@ -171,7 +193,7 @@ def blocks_to_markdown(blocks):
             lines.append(text)
     out = []
     for line in lines:
-        if out and out[-1] and out[-1][-1] not in "\n" and line:
+        if out and out[-1] and line:
             out.append("")
         out.append(line)
     text = "\n".join(out)
@@ -180,31 +202,32 @@ def blocks_to_markdown(blocks):
 
 
 def extract_passage(html):
-    """Return the passage text of an ayah page, or None when it is not there."""
-    collector = BlockCollector()
-    collector.feed(html)
-    collector.close()
-    blocks = collector.blocks
-
-    start = None
-    for index, (tag, text) in enumerate(blocks):
-        if PASSAGE_LABEL.search(normalise(text)):
-            start = index + 1
-            break
-    if start is None:
+    """Return the English passage of an ayah page, or None when it has none."""
+    labels = [match.start() for match in re.finditer(re.escape(LABEL), html)]
+    if not labels:
         return None
 
-    kept = []
-    for tag, text in blocks[start:]:
-        text = normalise(text)
-        if not text:
+    passages = []
+    for index, label_at in enumerate(labels):
+        limit = labels[index + 1] if index + 1 < len(labels) else len(html)
+        container = find_container(html, label_at)
+        if container is None or html.find(container) > limit:
             continue
-        if STOP_MARKERS.match(text):
-            break
-        kept.append((tag, text))
-    if not kept:
+        collector = BlockCollector()
+        collector.feed(container)
+        collector.close()
+        blocks = [
+            (tag, text)
+            for tag, text in collector.blocks
+            if normalise(text)
+        ]
+        if not blocks:
+            continue
+        passages.append(blocks_to_markdown(blocks))
+
+    if not passages:
         return None
-    return blocks_to_markdown(kept)
+    return "\n\n".join(passages)
 
 
 # --- Import ---------------------------------------------------------------
@@ -216,53 +239,58 @@ def page_path(raw_dir, surah, ayah):
     return os.path.join(raw_dir, "%03d_%03d.html" % (surah, ayah))
 
 
-def import_surah(surah, count, args, results):
-    blocks = []
-    ranges = []
-    verses = {}
-    missing = []
+def read_page(surah, ayah, args):
+    """Return the page HTML for an ayah, from the cache or from the site."""
+    target = page_path(args.raw, surah, ayah)
+    if os.path.exists(target) and not args.refetch:
+        with open(target, "r", encoding="utf-8") as fh:
+            return fh.read()
+    html = fetch(tafsir_url(surah, ayah))
+    if html is None:
+        return None
+    os.makedirs(args.raw, exist_ok=True)
+    with open(target, "w", encoding="utf-8") as fh:
+        fh.write(html)
+    time.sleep(args.delay)
+    return html
 
-    for ayah in range(1, count + 1):
-        target = page_path(args.raw, surah, ayah)
-        html = None
-        if os.path.exists(target) and not args.refetch:
-            with open(target, "r", encoding="utf-8") as fh:
-                html = fh.read()
-        else:
-            try:
-                html = fetch(tafsir_url(surah, ayah))
-            except Exception as exc:  # noqa: BLE001 - reported, not fatal
-                with _print_lock:
-                    print("  fetch failed %d:%d - %s" % (surah, ayah, exc), flush=True)
-                missing.append(ayah)
-                continue
-            if html is None:
-                missing.append(ayah)
-                continue
-            os.makedirs(args.raw, exist_ok=True)
-            with open(target, "w", encoding="utf-8") as fh:
-                fh.write(html)
-            time.sleep(args.delay)
 
+def import_surah(surah, count, args):
+    results = {}
+
+    def one(ayah):
+        try:
+            html = read_page(surah, ayah, args)
+        except Exception as exc:  # noqa: BLE001 - reported, not fatal
+            return ayah, None, str(exc)
+        if html is None:
+            return ayah, None, "not found"
         text = extract_passage(html)
-        if not text:
-            missing.append(ayah)
-            continue
-        index = len(blocks)
-        blocks.append(text)
-        ranges.append("%d:%d" % (surah, ayah))
-        verses[str(ayah)] = index
+        return ayah, text, None
 
-    if missing or len(verses) != count:
-        results[surah] = {"status": "incomplete", "missing": missing, "verses": len(verses)}
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        for ayah, text, error in pool.map(one, range(1, count + 1)):
+            if text:
+                results[ayah] = text
+            elif error:
+                with _print_lock:
+                    print("  %d:%d - %s" % (surah, ayah, error), flush=True)
+            else:
+                with _print_lock:
+                    print("  %d:%d - no passage on the page" % (surah, ayah), flush=True)
+
+    missing = [ayah for ayah in range(1, count + 1) if ayah not in results]
+    if missing:
         with _print_lock:
             print(
                 "surah %d incomplete: %d/%d verses (%d missing)"
-                % (surah, len(verses), count, len(missing)),
+                % (surah, len(results), count, len(missing)),
                 flush=True,
             )
-        return
+        return {"status": "incomplete", "missing": missing, "verses": len(results)}
 
+    blocks = [results[ayah] for ayah in range(1, count + 1)]
+    ranges = ["%d:%d" % (surah, ayah) for ayah in range(1, count + 1)]
     payload = {
         "surah": surah,
         "lang": "en",
@@ -270,15 +298,15 @@ def import_surah(surah, count, args, results):
         "source": SOURCE,
         "notice": NOTICE,
         "sets": {"tabari": {"ranges": ranges, "blocks": blocks}},
-        "verses": verses,
+        "verses": {str(ayah): ayah - 1 for ayah in range(1, count + 1)},
     }
     path = os.path.join(args.out, "tabari_%03d.json" % surah)
     os.makedirs(args.out, exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
-    results[surah] = {"status": "ok", "verses": len(verses), "bytes": os.path.getsize(path)}
     with _print_lock:
-        print("surah %d ok: %d verses" % (surah, len(verses)), flush=True)
+        print("surah %d ok: %d verses" % (surah, count), flush=True)
+    return {"status": "ok", "verses": count, "bytes": os.path.getsize(path)}
 
 
 def main():
@@ -286,7 +314,8 @@ def main():
     parser.add_argument("--plan", default="tools/tabari/plan.json")
     parser.add_argument("--out", default="data")
     parser.add_argument("--raw", default="work/tabari/raw")
-    parser.add_argument("--delay", type=float, default=0.3)
+    parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--delay", type=float, default=0.2)
     parser.add_argument("--refetch", action="store_true")
     args = parser.parse_args()
 
@@ -294,7 +323,7 @@ def main():
     os.chdir(root)
     with open(args.plan, "r", encoding="utf-8") as fh:
         plan = json.load(fh)
-    surahs = [int(s) for s in plan.get("surahs", [])]
+    surahs = [int(surah) for s in plan.get("surahs", [])]
     counts = surah_verse_counts(root)
     for surah in surahs:
         if surah not in counts:
@@ -303,7 +332,7 @@ def main():
     print("importing %d surah(s) into %s" % (len(surahs), args.out), flush=True)
     results = {}
     for surah in surahs:
-        import_surah(surah, counts[surah], args, results)
+        results[surah] = import_surah(surah, counts[surah], args)
 
     report = os.path.join("work", "tabari", "report.json")
     os.makedirs(os.path.dirname(report), exist_ok=True)
