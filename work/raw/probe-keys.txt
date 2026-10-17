@@ -1,3 +1,0 @@
-ANTHROPIC_API_KEY: absent
-OPENAI_API_KEY: absent
-GEMINI_API_KEY: absent
