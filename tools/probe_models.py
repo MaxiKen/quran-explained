@@ -19,10 +19,15 @@ import sys
 import urllib.error
 import urllib.request
 
-URL = 'https://models.github.ai/inference/chat/completions'
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'work', 'raw', 'probe-models.txt')
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, 'work', 'raw', 'probe-models.txt')
 
-MODELS = ['openai/gpt-4o-mini', 'meta-llama/Llama-3.3-70B-Instruct']
+ENDPOINTS = [
+    'https://models.github.ai/inference/chat/completions',
+    'https://models.inference.ai.azure.com/chat/completions',
+]
+
+MODELS = ['openai/gpt-4o-mini', 'openai/gpt-4.1-mini', 'meta-llama/Llama-3.3-70B-Instruct']
 
 SYSTEM = (
     'You split a Qur\'an verse into phrases and say which part of a commentary '
@@ -44,7 +49,7 @@ Answer with JSON of this shape and nothing else:
 {"phrases":[{"text":"a verbatim span of the modern English","arabic":"the Arabic of that span, verbatim","parts":[0]}]}"""
 
 
-def call(token: str, model: str, system: str, user: str, max_tokens: int = 1500) -> tuple[int, dict, str]:
+def call(url: str, token: str, model: str, system: str, user: str, max_tokens: int = 1500):
     body = {
         'model': model,
         'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}],
@@ -52,7 +57,7 @@ def call(token: str, model: str, system: str, user: str, max_tokens: int = 1500)
         'max_tokens': max_tokens,
     }
     req = urllib.request.Request(
-        URL,
+        url,
         data=json.dumps(body).encode('utf-8'),
         headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
     )
@@ -71,22 +76,15 @@ def main() -> int:
         print('no GITHUB_TOKEN in the environment')
         return 1
     lines = []
-    for model in MODELS:
-        status, headers, text = call(token, model, SYSTEM, USER)
-        limits = {k: v for k, v in headers.items() if k.lower().startswith('x-ratelimit')}
-        lines.append('== %s -> HTTP %s' % (model, status))
-        lines.append('   rate limits: %s' % (json.dumps(limits) if limits else '(none returned)'))
-        if status == 200:
-            try:
-                data = json.loads(text)
-                content = data['choices'][0]['message']['content']
-                lines.append('   answer: %s' % content[:1800].replace('\n', ' '))
-                lines.append('   usage: %s' % json.dumps(data.get('usage', {})))
-            except Exception:
-                lines.append('   raw: %s' % text[:600].replace('\n', ' '))
-        else:
-            lines.append('   raw: %s' % text[:600].replace('\n', ' '))
-        lines.append('')
+    for url in ENDPOINTS:
+        for model in MODELS:
+            status, headers, text = call(url, token, model, SYSTEM, USER)
+            lines.append('== %s | %s -> HTTP %s' % (url.split('/')[2], model, status))
+            for key, value in headers.items():
+                if key.lower().startswith('x-ratelimit') or key.lower() in ('content-type', 'x-github-request-id'):
+                    lines.append('   %s: %s' % (key, value))
+            lines.append('   body: %s' % text[:1200].replace('\n', ' '))
+            lines.append('')
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as handle:
         handle.write('\n'.join(lines) + '\n')
