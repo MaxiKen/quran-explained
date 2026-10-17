@@ -341,9 +341,11 @@ const tafsirLoadPromises = {};
 /* The tafsir payload for a surah: Tafsīr al-Ṭabarī in English, with the
    Arabic original underneath it, imported from tafseerquran.com by
    tools/tabari/ into data/tafsir_NNN.json. One file, one source. */
-/* The phrase-by-phrase pairing: the reader's own translation, phrase by
-   phrase, with the words Tabari says about each phrase. It is built from
-   the same commentary, so it is a small file beside the payload. */
+/* The phrase-by-phrase pairing: the verse taken phrase by phrase in plain
+   modern English, with the words Tabari says about each phrase. The pairing
+   is written by reading the commentary against the translation, so it is a
+   small file beside the payload. A surah that has not been written yet has
+   no file at all, and the reader is told so. */
 const loadedPairs = {};
 const pairsLoadPromises = {};
 
@@ -356,6 +358,7 @@ function loadPairsData(num) {
 
   pairsLoadPromises[num] = fetch(url, { cache: 'no-store' })
     .then(res => {
+      if (res.status === 404) throw new Error('not written');
       if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
       return res.json();
     })
@@ -366,7 +369,10 @@ function loadPairsData(num) {
     })
     .catch(err => {
       delete pairsLoadPromises[num];
-      console.error(`Failed to load the phrase pairing for Surah ${num}:`, err);
+      /* A surah that has not been written yet simply has no file. */
+      if (!err || err.message !== 'not written') {
+        console.error(`Failed to load the phrase pairing for Surah ${num}:`, err);
+      }
       return null;
     });
 
@@ -1842,10 +1848,11 @@ function renderQuickRead(text) {
 
 /* ================================================
    PHRASE BY PHRASE
-   The reader's own translation, phrase by phrase, with the words Tabari says
-   about that phrase. The pairing is built from the commentary itself, by
-   matching Tabari's own words for a phrase against the translation, so
-   every line here is his and every phrase is the reader's own.
+   The verse taken phrase by phrase in plain modern English, with the words
+   Tabari says about that phrase. The pairing was written by reading the
+   commentary against the translation: the phrase line is a plain-English
+   reading of the verse, and everything under it is Tabari's own text, never
+   a summary of it.
 ================================================ */
 
 /* The reader's words, with the words that are the Arabic of the verse
@@ -1869,32 +1876,40 @@ function renderPhraseByPhrase(tafsir, ayahNum, pairs) {
   const paragraphs = splitParagraphs(entry.text);
   const verse = pairs && pairs.verses ? pairs.verses[String(ayahNum)] : null;
   const phrases = verse && Array.isArray(verse.phrases) ? verse.phrases : [];
+
+  if (!pairs) {
+    return `<p class="modal-p">The phrase by phrase reading of this surah has not been written yet.`
+      + ` The commentary itself is here in full, and the quick read lays it out in short steps.</p>`;
+  }
   if (!phrases.length) {
-    return `<p class="modal-p">This verse has no phrase pairing yet. The commentary itself is here in full.</p>`;
+    return `<p class="modal-p">This verse has no phrase reading yet.`
+      + ` The commentary itself is here in full.</p>`;
   }
 
   const items = phrases.map(phrase => {
     const arabic = phrase.ar
       ? `<p class="phrase-ar" dir="rtl" lang="ar">${escapeHtml(phrase.ar)}</p>`
       : '';
+    const theirs = phrase.translation
+      ? `<p class="phrase-translation">${renderPhraseText(phrase.translation)}</p>`
+      : '';
     let tabari = '';
-    if (phrase.head) tabari += `<p class="phrase-head">${escapeHtml(phrase.head)}</p>`;
     (phrase.parts || []).forEach(index => {
       const text = paragraphs[index];
       if (text) tabari += renderPhrasePart(text);
     });
     const body = tabari
       ? `<div class="phrase-tabari">${tabari}</div>`
-      : `<p class="phrase-none">Tabari says nothing here that the reader's own words can be tied to.</p>`;
+      : `<p class="phrase-none">Tabari says nothing more about this phrase here.</p>`;
     return `<li class="phrase-item">`
-      + `<p class="phrase-text">${renderPhraseText(phrase.text)}</p>${arabic}${body}</li>`;
+      + `${theirs}<p class="phrase-text">${renderPhraseText(phrase.text)}</p>${arabic}${body}</li>`;
   }).join('');
 
-  const paired = phrases.filter(phrase => phrase.parts && phrase.parts.length).length;
+  const total = phrases.reduce((sum, phrase) => sum + (phrase.parts ? phrase.parts.length : 0), 0);
   return `<div class="phrase-view" data-source="tabari">`
-    + `<p class="quick-read-note">The reader's own translation, phrase by phrase, with what Tabari says about`
-    + ` each phrase. His words about ${paired} of these ${phrases.length} phrases are matched here; the rest of`
-    + ` his commentary is in the quick read.</p>`
+    + `<p class="quick-read-note">The verse taken phrase by phrase. Each phrase gives the reader's own`
+    + ` words first, then a plain reading of it, and under that Tabari's own account, ${total} passage`
+    + `${total === 1 ? '' : 's'} in all, opened one at a time.</p>`
     + `<ol class="phrase-list">${items}</ol>`
     + `</div>`;
 }

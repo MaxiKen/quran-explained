@@ -2082,8 +2082,8 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 
 /* ================================================
    PHRASE BY PHRASE
-   The reader's own translation, phrase by phrase, with what Ṭabarī says about
-   each phrase. The phrase is the reader's; the words under it are his.
+   The verse taken phrase by phrase. The reader's own words for the piece,
+   a plain reading of it, and under that Ṭabarī's own account of it.
 ================================================ */
 .phrase-view { margin: 0; }
 .phrase-list { list-style: none; padding: 0; margin: 0; counter-reset: phrase; }
@@ -2092,6 +2092,10 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   border-bottom: 1px solid var(--text-separator);
 }
 .phrase-item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.phrase-translation {
+  font-size: calc(var(--english-font-size, 17px) + 1px); line-height: 1.85;
+  color: var(--text-muted); font-style: italic; margin: 0 0 6px;
+}
 .phrase-text {
   font-size: calc(var(--english-font-size, 17px) + 1px); line-height: 1.85;
   color: var(--text-primary); font-weight: 600; margin: 0 0 8px;
