@@ -1990,3 +1990,13 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 .tafsir-sources[open] > summary::before { content: '▾ '; }
 .tafsir-sources[open] > summary { margin-bottom: 12px; }
 .tafsir-sources .tafsir-entry { border-top: 1px solid var(--accent-border-light); padding-top: 16px; margin-top: 16px; }
+
+/* Notes that belong to a source: the publisher's own caveat on the English
+   Tabari translation, and the line that says the plain-English commentary
+   above was written without it. */
+.tafsir-entry-note,
+.tafsir-sources-note {
+  font-size: 12.5px; color: var(--text-faint); line-height: 1.65;
+  margin: -4px 0 12px; max-width: 62ch;
+}
+.tafsir-sources-note { margin: 0 0 4px; }

@@ -317,9 +317,9 @@ const loadedTafsir = {};
    the UI shows before a chapter's payload has been fetched. */
 const TAFSIR_SOURCE_LABEL = 'Classical Tafsirs';
 const TAFSIR_SOURCE_FULL =
-  'Eight classical tafsirs in English · Ibn Kathīr, Maʿārif-ul-Qurʾān, Tazkīrul Qurʾān, '
-  + 'Tanwīr al-Miqbās, al-Jalālayn, al-Mukhtaṣar · plus Laṭāʾif al-Ishārāt and Asbāb al-Nuzūl '
-  + 'where they comment on the verse';
+  'Nine classical tafsirs in English · Ibn Kathīr, Maʿārif-ul-Qurʾān, Tazkīrul Qurʾān, '
+  + 'Tanwīr al-Miqbās, al-Jalālayn, al-Mukhtaṣar, al-Ṭabarī · plus Laṭāʾif al-Ishārāt '
+  + 'and Asbāb al-Nuzūl where they comment on the verse';
 
 function injectScript(url) {
   return new Promise((resolve, reject) => {
@@ -335,12 +335,44 @@ function injectScript(url) {
 
 const tafsirLoadPromises = {};
 
+/* Tafsīr al-Ṭabarī in English — the complete translation published at
+   tafseerquran.com and imported into data/tabari_NNN.json by tools/tabari/.
+   The file is optional: a surah without one simply has no Tabari source, so
+   a missing file is normal, not an error. */
+function mergeTabariSource(tafsir, tabari) {
+  if (!tafsir || !tabari || !tabari.sets || !tabari.sets.tabari) return tafsir;
+  if (!Array.isArray(tafsir.sources)) tafsir.sources = [];
+  if (!tafsir.sets) tafsir.sets = {};
+  if (!tafsir.verses) tafsir.verses = {};
+
+  const source = tabari.source || { id: 'tabari', label: 'Tafsīr al-Ṭabarī' };
+  if (!tafsir.sources.some(entry => entry.id === source.id)) tafsir.sources.push(source);
+  tafsir.sets.tabari = tabari.sets.tabari;
+  tafsir.tabariNotice = tabari.notice || '';
+
+  for (const ayah of Object.keys(tabari.verses || {})) {
+    const map = tabari.verses[ayah];
+    tafsir.verses[ayah] = tafsir.verses[ayah] || {};
+    /* The map is normally { tabari: <block index> }. A plain number is
+       accepted too, for a file written before the map was nested. */
+    if (typeof map === 'number') {
+      tafsir.verses[ayah].tabari = map;
+    } else if (map && typeof map === 'object') {
+      for (const id of Object.keys(map)) {
+        tafsir.verses[ayah][id] = map[id];
+      }
+    }
+  }
+  return tafsir;
+}
+
 function loadTafsirData(num) {
   if (loadedTafsir[num]) return Promise.resolve(loadedTafsir[num]);
   if (tafsirLoadPromises[num]) return tafsirLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
   const url = `data/tafsir_${pad}.json`;
+  const tabariUrl = `data/tabari_${pad}.json`;
 
   tafsirLoadPromises[num] = fetch(url, { cache: 'no-store' })
     .then(res => {
@@ -348,9 +380,17 @@ function loadTafsirData(num) {
       return res.json();
     })
     .then(data => {
-      loadedTafsir[num] = data;
-      delete tafsirLoadPromises[num];
-      return data;
+      /* Tabari rides along with the surah's own payload. A 404 here only
+         means the surah has not been imported yet, so it must not stop the
+         other sources from loading. */
+      return fetch(tabariUrl, { cache: 'no-store' })
+        .then(res => (res.ok ? res.json() : null))
+        .catch(() => null)
+        .then(tabari => {
+          loadedTafsir[num] = mergeTabariSource(data, tabari);
+          delete tafsirLoadPromises[num];
+          return loadedTafsir[num];
+        });
     })
     .catch(err => {
       delete tafsirLoadPromises[num];
@@ -1551,6 +1591,9 @@ function getVerseCommentaryAll(tafsir, ayahNum) {
       label: src.label || src.id,
       author: src.author || '',
       range: getCommentaryRange(tafsir, ayahNum, src.id),
+      /* The notice belongs to the source it came from: the English Tabari
+         translation carries the publisher's own caveat. */
+      notice: src.id === 'tabari' ? (tafsir.tabariNotice || '') : '',
       text,
     });
   }
@@ -1605,9 +1648,12 @@ function renderTafsirEntry(entry, index) {
     : '';
   const label = `<p class="tafsir-source-label">${escapeHtml(entry.label)}${entry.author
     ? `<span>${escapeHtml(entry.author)}</span>` : ''}</p>`;
+  const note = entry.notice
+    ? `<p class="tafsir-entry-note">${escapeHtml(entry.notice)}</p>`
+    : '';
   const primary = index === 0 ? ' tafsir-entry-primary' : '';
   return `<section class="tafsir-entry${primary}" data-source="${escapeHtml(entry.id)}">`
-    + `${head}${label}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div></section>`;
+    + `${head}${label}${note}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div></section>`;
 }
 
 /* Label and disclosure shown above every generated entry. The commentary is
@@ -1645,10 +1691,20 @@ function renderGuidanceIntroHtml(guidance) {
     + `${label}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(guidance.intro)}</div></section>`;
 }
 
-/* The classical texts behind the guidance, folded away until wanted. */
-function renderSourcesPanel(entries) {
+/* The classical texts behind the guidance, folded away until wanted.
+   Tafsīr al-Ṭabarī is an extra source: the plain-English commentary is
+   written from the other eight, so the panel says so when both are there. */
+function renderSourcesPanel(entries, options) {
   if (!entries || !entries.length) return '';
+  const notes = [];
+  if (options && options.guidance && entries.some(entry => entry.id === 'tabari')) {
+    notes.push('Tafsīr al-Ṭabarī is an additional source here: the commentary above was written from the other eight.');
+  }
+  const noteHtml = notes.length
+    ? `<p class="tafsir-sources-note">${notes.map(note => escapeHtml(note)).join(' ')}</p>`
+    : '';
   return `<details class="tafsir-sources"><summary>Read the ${entries.length} source tafsirs on this verse</summary>`
+    + noteHtml
     + entries.map((e, i) => renderTafsirEntry(e, i + 1)).join('')
     + `</details>`;
 }
@@ -1662,7 +1718,7 @@ function renderCommentaryHtml(tafsir, text, ayahNum) {
   if (ayahNum != null && tafsir && tafsir.sets) {
     const entries = getVerseCommentaryAll(tafsir, ayahNum);
     const guidance = renderGuidanceHtml(loadedGuidance[tafsir.surah], ayahNum);
-    if (guidance) return guidance + renderSourcesPanel(entries);
+    if (guidance) return guidance + renderSourcesPanel(entries, { guidance: true });
     if (entries.length) return entries.map((e, i) => renderTafsirEntry(e, i)).join('');
   }
   if (!text) return '';

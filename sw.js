@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.9.0-2026-10-14';
+const CACHE_VERSION = 'quran-reader-v1.10.0-2026-10-17';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -24,14 +24,17 @@ const CACHE_VERSION = 'quran-reader-v1.9.0-2026-10-14';
 // withdrawn copy, so each kind of payload is only carried from caches at least
 // as new as the version that introduced its current form. Data files are
 // fetched network-first anyway; this only matters for offline reading.
+// data/tabari_NNN.json (Tafsīr al-Ṭabarī in English) is additive: it only adds
+// a ninth source, so it is carried like chapter data.
 const CARRY_FROM = {
   'chapter_': 'quran-reader-v0',
   'tafsir_': 'quran-reader-v1.8.0',
-  'guidance_': 'quran-reader-v1.9.0'
+  'guidance_': 'quran-reader-v1.9.0',
+  'tabari_': 'quran-reader-v0'
 };
 
 function carriesPayload(cacheName, url) {
-  const m = /\/data\/(chapter_|tafsir_|guidance_)/.exec(url);
+  const m = /\/data\/(chapter_|tafsir_|guidance_|tabari_)/.exec(url);
   if (!m) return false;
   return cacheName.startsWith('quran-reader-v') && cacheName >= CARRY_FROM[m[1]];
 }

@@ -37,6 +37,11 @@ jobs:
           python-version: '3.11'
       - name: Import
         run: |
+          run_flag=$(python3 -c "import json;print(json.load(open('tools/tabari/plan.json')).get('run', True))")
+          if [ "$run_flag" != "True" ]; then
+            echo "plan.json has run=false — nothing to import this time"
+            exit 0
+          fi
           python3 tools/tabari/importer.py \
             --plan tools/tabari/plan.json \
             --out data \

@@ -62,6 +62,34 @@ punctuation-normalised, because the upstream files carry `U+FFFD` where a decode
 step lost Arabic punctuation marks. Neither filter nor normalisation changes a
 word of any commentary.
 
+## Tafsīr al-Ṭabarī in English (ninth source)
+
+`data/tabari_NNN.json` carries the complete English translation of *Jamiʿ
+al-bayān ʿan taʾwīl āy al-Qurʾān* — the commentary of Imām Abū Jaʿfar Muḥammad
+ibn Jarīr al-Ṭabarī (d. 310 AH / 923 CE) — taken from
+[tafseerquran.com](https://tafseerquran.com/en), with the permission of the
+site's owner. The site publishes the text free to read, search and keep
+offline, and its `robots.txt` allows the tafsir pages to be crawled.
+
+The text is imported by `tools/tabari/` and is reproduced unedited, as the
+paragraphs the site publishes it in. The only thing taken out is what is not
+part of the commentary: the collapsed "Show original Arabic" panel, the
+previous/next ayah links and the site footer. The Arabic original of Tabari's
+text is therefore **not** carried here.
+
+The English is a translation, made with AI assistance, of the Arabic of the
+Dar al-Tarbiya wa-l-Turath edition (the taḥqīq of Maḥmūd Shākir) as published
+by quran.com and verified against app.turath.io. The publisher's own caveat
+travels with the text and is shown in the app under the Tabari entry:
+
+> The Arabic source text is always authoritative. This translation is a study
+> aid and has not been verified by scholars — do not use it as a basis for
+> religious proof or for deriving rulings (ahkam). When in doubt, always
+> consult the Arabic text and a qualified scholar.
+
+Anyone reusing this translation should carry that notice with it, and should
+treat the Arabic as the text of record.
+
 ## Plain-English commentary (derived layer)
 
 `data/guidance_NNN.json` carries a commentary written for this app, one entry

@@ -298,7 +298,11 @@ def import_surah(surah, count, args):
         "source": SOURCE,
         "notice": NOTICE,
         "sets": {"tabari": {"ranges": ranges, "blocks": blocks}},
-        "verses": {str(ayah): ayah - 1 for ayah in range(1, count + 1)},
+        # the reader maps every verse to a block index per source, the same
+        # way the eight tafsir payloads do
+        "verses": {
+            str(ayah): {"tabari": ayah - 1} for ayah in range(1, count + 1)
+        },
     }
     path = os.path.join(args.out, "tabari_%03d.json" % surah)
     os.makedirs(args.out, exist_ok=True)
@@ -309,6 +313,29 @@ def import_surah(surah, count, args):
     return {"status": "ok", "verses": count, "bytes": os.path.getsize(path)}
 
 
+def migrate_file(path):
+    """Rewrite a data file written with a flat verse map into the nested one.
+
+    The first import wrote `verses: { "1": 0 }`; the reader expects the map
+    to name the source it belongs to, so it is rewritten as
+    `verses: { "1": { "tabari": 0 } }`. Files that are already nested are left
+    alone.
+    """
+    with open(path, "r", encoding="utf-8") as fh:
+        payload = json.load(fh)
+    changed = False
+    verses = payload.get("verses", {})
+    for ayah in list(verses.keys()):
+        value = verses[ayah]
+        if isinstance(value, int):
+            verses[ayah] = {"tabari": value}
+            changed = True
+    if changed:
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
+    return changed
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--plan", default="tools/tabari/plan.json")
@@ -317,10 +344,27 @@ def main():
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--delay", type=float, default=0.2)
     parser.add_argument("--refetch", action="store_true")
+    parser.add_argument(
+        "--migrate",
+        action="store_true",
+        help="rewrite existing data files into the current shape and stop",
+    )
     args = parser.parse_args()
 
     root = repo_root()
     os.chdir(root)
+
+    if args.migrate:
+        changed = []
+        for name in sorted(os.listdir(args.out)):
+            if name.startswith("tabari_") and name.endswith(".json"):
+                if migrate_file(os.path.join(args.out, name)):
+                    changed.append(name)
+        print("migrated %d file(s)" % len(changed))
+        for name in changed:
+            print("  " + name)
+        return 0
+
     with open(args.plan, "r", encoding="utf-8") as fh:
         plan = json.load(fh)
     surahs = [int(value) for value in plan.get("surahs", [])]
