@@ -1,0 +1,4 @@
+{
+  "_comment": "Which surahs the importer should fetch. Edit and push to run it (the GitHub Actions workflow imports on push to tools/tabari/**).",
+  "surahs": [1, 105, 112]
+}
