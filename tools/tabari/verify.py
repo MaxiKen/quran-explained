@@ -62,9 +62,12 @@ def check_file(path, surah, count):
 
     total_words = 0
     for ayah in range(1, count + 1):
-        index = verses.get(str(ayah))
-        if index is None:
+        entry = verses.get(str(ayah))
+        if entry is None:
             continue
+        # the verse map names the source the block belongs to; a plain
+        # number is accepted too, for a file written before the map was nested
+        index = entry.get("tabari") if isinstance(entry, dict) else entry
         if not isinstance(index, int) or index < 0 or index >= len(blocks):
             problems.append("verse %d points at block %r" % (ayah, index))
             continue

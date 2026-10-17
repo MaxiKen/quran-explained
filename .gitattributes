@@ -9,3 +9,8 @@ data/chapter_*.js linguist-generated
 # tools/guidance from the tafsir payloads: single-line JSON, up to a few MB per
 # sūrah, so it is marked generated and excluded from diffs like the sources.
 data/guidance_*.json -diff linguist-generated
+
+# data/tabari_*.json is the English translation of Tafsir al-Ṭabarī imported
+# by tools/tabari from tafseerquran.com: single-line JSON, up to a few MB per
+# sūrah, so it is marked generated and excluded from diffs like the sources.
+data/tabari_*.json -diff linguist-generated

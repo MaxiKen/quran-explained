@@ -77,6 +77,14 @@ part of the commentary: the collapsed "Show original Arabic" panel, the
 previous/next ayah links and the site footer. The Arabic original of Tabari's
 text is therefore **not** carried here.
 
+One presentational normalisation is applied, and it changes no word. The site
+keeps its text in markdown and renders it without handling the escapes, so the
+published page shows them: the section divider of the printed edition arrives
+as `\* \* \*`, a quotation mark as `\"`, a footnote reference as `\[…\]`, and
+in one passage a paragraph break as the two characters `\n`. Those escapes are
+resolved here, and a divider becomes a horizontal rule, which is what it is in
+the printed edition.
+
 The English is a translation, made with AI assistance, of the Arabic of the
 Dar al-Tarbiya wa-l-Turath edition (the taḥqīq of Maḥmūd Shākir) as published
 by quran.com and verified against app.turath.io. The publisher's own caveat

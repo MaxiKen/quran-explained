@@ -198,7 +198,31 @@ def blocks_to_markdown(blocks):
         out.append(line)
     text = "\n".join(out)
     text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
+    return unescape_markdown(text.strip())
+
+
+# The site keeps its text in markdown and renders it without handling the
+# escapes, so the published page shows them: the section divider of the
+# printed edition arrives as "\* \* \*", a quotation mark as "\" and a
+# footnote reference as "\[other\]". The words are untouched; only the
+# escapes are resolved here, and a divider becomes a horizontal rule.
+SEPARATOR_LINE = re.compile(r"^[\s\\*\-]+$")
+MARKDOWN_ESCAPE = re.compile(r"\\([\\`*_{}\[\]()#+\-.!>~|'\"])")
+
+
+def unescape_markdown(text):
+    """Resolve the markdown escapes the site leaves in the published text."""
+    # one passage in the corpus has its paragraph break written out as the
+    # two characters \n; it is a line break, so it becomes one
+    text = text.replace("\\n", "\n")
+    lines = []
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if len(stripped) >= 3 and SEPARATOR_LINE.match(stripped):
+            lines.append("---")
+            continue
+        lines.append(MARKDOWN_ESCAPE.sub(r"\1", line))
+    return "\n".join(lines)
 
 
 def extract_passage(html):
@@ -336,6 +360,24 @@ def migrate_file(path):
     return changed
 
 
+def normalise_file(path):
+    """Resolve the markdown escapes in an already imported data file."""
+    with open(path, "r", encoding="utf-8") as fh:
+        payload = json.load(fh)
+    changed = False
+    for source, source_set in (payload.get("sets") or {}).items():
+        blocks = source_set.get("blocks", [])
+        for index, text in enumerate(blocks):
+            fixed = unescape_markdown(text)
+            if fixed != text:
+                blocks[index] = fixed
+                changed = True
+    if changed:
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
+    return changed
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--plan", default="tools/tabari/plan.json")
@@ -349,10 +391,26 @@ def main():
         action="store_true",
         help="rewrite existing data files into the current shape and stop",
     )
+    parser.add_argument(
+        "--normalise",
+        action="store_true",
+        help="resolve the markdown escapes in existing data files and stop",
+    )
     args = parser.parse_args()
 
     root = repo_root()
     os.chdir(root)
+
+    if args.normalise:
+        changed = []
+        for name in sorted(os.listdir(args.out)):
+            if name.startswith("tabari_") and name.endswith(".json"):
+                if normalise_file(os.path.join(args.out, name)):
+                    changed.append(name)
+        print("normalised %d file(s)" % len(changed))
+        for name in changed:
+            print("  " + name)
+        return 0
 
     if args.migrate:
         changed = []

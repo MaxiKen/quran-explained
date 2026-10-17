@@ -56,6 +56,15 @@ nothing else, so the Arabic original, the links and the footer stay out. The
 text is kept as the paragraphs the site publishes it in, with the Arabic
 Qurʾānic quotations left inline inside their sentence.
 
+### The escapes
+
+The site keeps its text in markdown and renders it without handling the
+escapes, so the published page shows them: the section divider of the printed
+edition arrives as `\* \* \*`, a quotation mark as `\"`, a footnote reference
+as `\[…\]`, and in one passage a paragraph break as the two characters `\n`.
+The importer resolves those escapes and turns a divider into a horizontal
+rule, which is what it is in the printed edition. No word is changed.
+
 ## Running it
 
 The importer needs plain internet access. On a machine that can reach the
