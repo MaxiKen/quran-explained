@@ -1,9 +1,14 @@
 # Agent instructions for this repository
 
-This is a static Qur'an reader (no build step) with eight classical tafsīrs per
+This is a static Qur'an reader (no build step) with nine classical tafsīrs per
 verse, plus an ongoing project that writes an original **plain-English
-commentary for every verse and every surah** from those eight texts and
+commentary for every verse and every surah** from eight of those texts and
 publishes it as `data/guidance_NNN.json`.
+
+The eight the commentary is written from are the ones in `data/tafsir_NNN.json`.
+The ninth, Tafsīr al-Ṭabarī in English, is imported separately into
+`data/tabari_NNN.json` by `tools/tabari/` and is **not** one of the sources the
+commentary draws on: a guidance entry's `draws_on` still lists the same eight.
 
 If you are here to continue that project, **everything you need is in
 `tools/guidance/HANDOFF.md`**. Read it completely before acting. The design

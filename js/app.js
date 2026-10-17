@@ -2481,6 +2481,7 @@ const OfflineManager = {
     const pad = String(num).padStart(3, '0');
     const tafsirUrl = `data/tafsir_${pad}.json`;
     const chapterUrl = `data/chapter_${pad}.js`;
+    const tabariUrl = `data/tabari_${pad}.json`;
 
     const rowBtn = document.getElementById(`dlBtn_${num}`);
     if (rowBtn) {
@@ -2489,9 +2490,11 @@ const OfflineManager = {
     }
 
     try {
-      const [tRes, cRes] = await Promise.all([
+      const [tRes, cRes, bRes] = await Promise.all([
         fetch(tafsirUrl),
-        fetch(chapterUrl)
+        fetch(chapterUrl),
+        /* Tafsīr al-Ṭabarī is optional: a surah without it is still saved */
+        fetch(tabariUrl).catch(() => null)
       ]);
       if (!tRes.ok || !cRes.ok) throw new Error('Fetch failed');
 
@@ -2499,6 +2502,7 @@ const OfflineManager = {
         cache.put(tafsirUrl, tRes),
         cache.put(chapterUrl, cRes)
       ]);
+      if (bRes && bRes.ok) await cache.put(tabariUrl, bRes);
 
       this.cachedChapters.add(num);
       this.updateHeaderBadge();
@@ -2527,7 +2531,8 @@ const OfflineManager = {
     try {
       await Promise.all([
         cache.delete(`data/tafsir_${pad}.json`),
-        cache.delete(`data/chapter_${pad}.js`)
+        cache.delete(`data/chapter_${pad}.js`),
+        cache.delete(`data/tabari_${pad}.json`).catch(() => {})
       ]);
       this.cachedChapters.delete(num);
       this.updateHeaderBadge();
