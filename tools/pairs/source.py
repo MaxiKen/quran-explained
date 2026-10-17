@@ -1,3 +1,20 @@
+"""Reading the commentary, for the phrase-by-phrase pairing.
+
+The pairing in `authored/` is written by reading Tafsir al-Tabari in English
+against the reader's modern translation. This module is what that reading
+needs: the passage as the reader sees it, the paragraphs it is made of, the
+verse's own translation and Arabic, and the tools to line them up.
+
+Nothing here writes a pairing. It reads the material and checks it.
+"""
+
+import json
+import os
+import re
+import unicodedata
+
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 """Pair the app's modern translation with Tabari's own explanation.
 
 The reader's verse sheet carries a modern English rendering of the verse.
@@ -25,8 +42,6 @@ own words without a second copy of them being stored. A phrase with no
 matching explanation carries an empty list: that is the honest answer, and
 the passage is not lost — the reader still sees the whole of it.
 """
-
-from __future__ import annotations
 
 import json
 import os
@@ -124,10 +139,8 @@ BRITISH = {
 }
 
 
-
 def strip_accents(word: str) -> str:
     return ''.join(c for c in unicodedata.normalize('NFD', word) if unicodedata.category(c) != 'Mn')
-
 
 def is_phrase_opening(line: str) -> bool:
     """True when the line opens a phrase of the verse."""
@@ -144,7 +157,6 @@ def is_phrase_opening(line: str) -> bool:
         return False
     return True
 
-
 def paragraphs_of(text: str) -> list[str]:
     """The passage as the reader sees it: one entry per paragraph."""
     out = []
@@ -155,28 +167,6 @@ def paragraphs_of(text: str) -> list[str]:
         out.append(part)
     return out
 
-
-def gloss_candidates(heading: str) -> list[str]:
-    """The ways the heading names the phrase, best first.
-
-    A heading may name the phrase in plain words after the colon, or inside
-    brackets, or both. Each candidate is tried in turn.
-    """
-    if ':' not in heading:
-        return []
-    after = heading.split(':', 1)[1]
-    after = ARABIC.sub(' ', after)
-    candidates = []
-    plain = after.strip()
-    if plain:
-        candidates.append(plain)
-    for bracket in re.findall(r'\(([^()]*)\)', after):
-        bracket = bracket.strip()
-        if bracket:
-            candidates.append(bracket)
-    return candidates
-
-
 def tokenize(text: str) -> list[tuple[int, int, str]]:
     """The words of the text, with their offsets, without the stop words."""
     out = []
@@ -186,52 +176,6 @@ def tokenize(text: str) -> list[tuple[int, int, str]]:
         if word and word not in STOP and len(word) > 1:
             out.append((match.start(), match.end(), word))
     return out
-
-
-def find_span(candidate: str, modern: str, modern_tokens: list[tuple[int, int, str]]):
-    """Where the candidate's words fall in the modern translation.
-
-    The longest run of the candidate's own words that appears in the modern
-    translation, in order. Returns (words matched, first token, last token).
-    """
-    gloss = tokenize(candidate)
-    if not gloss or not modern_tokens:
-        return 0, -1, -1
-    words = [t[2] for t in modern_tokens]
-    for size in range(min(len(gloss), 6), 1, -1):
-        for start in range(0, len(gloss) - size + 1):
-            needle = [t[2] for t in gloss[start:start + size]]
-            hits = []
-            position = 0
-            ok = True
-            for word in needle:
-                while position < len(words) and words[position] != word:
-                    position += 1
-                if position >= len(words):
-                    ok = False
-                    break
-                hits.append(position)
-                position += 1
-            if ok:
-                # The words must be together in the translation too. A
-                # fragment whose words are scattered across the verse is
-                # not a match for any one of its phrases.
-                if hits[-1] - hits[0] > size:
-                    continue
-                return size, hits[0], hits[-1]
-    # A short name may share only one word with the translation: "the Book",
-    # "the Day". One distinctive word, used once, is then enough. A long
-    # sentence that happens to share a single word is not.
-    if len(gloss) <= 4:
-        for start in range(len(gloss) - 1, -1, -1):
-            word = gloss[start][2]
-            if len(word) < 4:
-                continue
-            places = [i for i, w in enumerate(words) if w == word]
-            if len(places) == 1:
-                return 1, places[0], places[0]
-    return 0, -1, -1
-
 
 def clean_modern(text: str) -> tuple[str, list[tuple[int, int]]]:
     """The modern translation without the reader's markers, and the map back
@@ -246,6 +190,20 @@ def clean_modern(text: str) -> tuple[str, list[tuple[int, int]]]:
     mapping.append(len(text))
     return ''.join(out), mapping
 
+def arabic_in(piece: str, verse_arabic: str) -> bool:
+    """Whether the verse carries these Arabic words.
+
+    The reader's verse is the Uthmani orthography and the commentary quotes
+    the imla'i one. The dagger alef of the Uthmani stands sometimes for a
+    written alif and sometimes for a long vowel the other spelling leaves
+    out, so both readings are tried.
+    """
+    if not piece or not verse_arabic:
+        return False
+    for dagger in ('drop', 'alef'):
+        if normalise_arabic(piece, dagger) in normalise_arabic(verse_arabic, dagger):
+            return True
+    return False
 
 def arabic_span(heading: str, verse_arabic: str) -> str:
     """The Arabic of the phrase, as the heading gives it, when the verse
@@ -253,16 +211,14 @@ def arabic_span(heading: str, verse_arabic: str) -> str:
     and in the shape of some letters, so they are compared without them."""
     if not verse_arabic:
         return ''
-    key = normalise_arabic(verse_arabic)
     best = ''
     for chunk in ARABIC_RUN.findall(heading):
         piece = chunk.strip()
         if len(piece) < 3:
             continue
-        if normalise_arabic(piece) in key and len(piece) > len(best):
+        if arabic_in(piece, verse_arabic) and len(piece) > len(best):
             best = piece
     return best
-
 
 # Arabic letters that differ only in shape between the reader's text and
 # Tabari's quotation, and the vowel marks that one of them carries.
@@ -273,8 +229,7 @@ ARABIC_NORMALISE = {
     '\u0625': '\u0627', '\u0649': '\u064A', '\u0624': '\u0648',
 }
 
-
-def normalise_arabic(text: str) -> str:
+def normalise_arabic(text: str, dagger: str = 'drop') -> str:
     """Arabic as a key for comparison.
 
     The reader's verse text is the Uthmani orthography and Tabari's quotation
@@ -285,6 +240,10 @@ def normalise_arabic(text: str) -> str:
     """
     letters = []
     for char in text or '':
+        if char == '\u0670':      # the dagger alef, in either reading
+            if dagger == 'alef':
+                letters.append('\u0627')
+            continue
         if not ('\u0620' <= char <= '\u064a' or '\u066e' <= char <= '\u06d3'
                 or '\u06f0' <= char <= '\u06fa' or '\u0750' <= char <= '\u077f'
                 or '\u08a0' <= char <= '\u08ff' or '\ufb50' <= char <= '\ufdff'
@@ -292,7 +251,6 @@ def normalise_arabic(text: str) -> str:
             continue
         letters.append(ARABIC_NORMALISE.get(char, char))
     return ''.join(letters)
-
 
 # The reader's translation is punctuated for reading. A phrase of the verse
 # is a clause of it: a sentence, or a part of one that stands on its own.
@@ -303,7 +261,6 @@ COLON_BREAK = re.compile(r'(?<=[;:])\s+')
 CLAUSE_WORD = re.compile(
     r'^(and|but|or|so|then|yet|nor|for|while|when|because|although|though|whereas|'
     r'who|whom|which|that|as|since|until|unless|after|before|if|meaning|namely)\b', re.I)
-
 
 def _split_commas(sentence: str) -> list[str]:
     """Break a sentence at the commas that end a clause."""
@@ -321,7 +278,6 @@ def _split_commas(sentence: str) -> list[str]:
     pieces.append(sentence[start:])
     return pieces
 
-
 def _break_sentence(sentence: str) -> list[str]:
     """One sentence, broken into the phrases that stand on their own."""
     pieces = []
@@ -332,7 +288,6 @@ def _break_sentence(sentence: str) -> list[str]:
                 if piece:
                     pieces.append(piece)
     return pieces
-
 
 def split_clauses(text: str) -> list[dict]:
     """The modern translation as the clauses a reader would call phrases."""
@@ -359,111 +314,6 @@ def split_clauses(text: str) -> list[dict]:
 
 QUOTED = re.compile(r'"([^"\n]{3,200})"|\u201c([^\u201d\n]{3,200})\u201d|\(([^()\n]{3,200})\)')
 
-
-def fragment_candidates(paragraph: str) -> list[str]:
-    """The phrases of the verse a paragraph names.
-
-    Tabari quotes the phrase he is speaking about: "As for His word 'the
-    Living' (al-Hayy): ...". Every quoted span in a paragraph is a
-    candidate name for a phrase of the verse.
-    """
-    out = []
-    for match in QUOTED.finditer(paragraph):
-        piece = (match.group(1) or match.group(2) or match.group(3) or '').strip()
-        if not piece:
-            continue
-        if ARABIC.sub('', piece).strip():
-            out.append(piece)
-    return out
-
-
-def pair_verse(modern: str, arabic: str, passage: str) -> list[dict]:
-    """The phrases of the modern translation, each with the words Tabari says
-    about that phrase.
-
-    Every phrase of the translation is returned, whether or not Tabari has
-    something to say about it. A phrase with no explanation carries an empty
-    list of parts: that is the honest answer, and none of his text is lost
-    by it.
-    """
-    parts = paragraphs_of(passage)
-    clauses = split_clauses(modern)
-    if not parts or not clauses:
-        return []
-
-    clean, mapping = clean_modern(modern)
-    modern_tokens = tokenize(clean)
-    if not modern_tokens:
-        return []
-
-    # The phrases Tabari names, and the paragraph each name stands in.
-    groups = []
-    for index, paragraph in enumerate(parts):
-        heading = paragraph if is_phrase_opening(paragraph) else ''
-        groups.append({'heading': heading, 'start': index,
-                       'end': len(parts) if not heading else index})
-    for number, group in enumerate(groups):
-        if group['heading']:
-            continue
-        for earlier in reversed(groups[:number]):
-            if earlier['heading']:
-                group['start'] = earlier['start']
-                break
-    for number, group in enumerate(groups):
-        if not group['heading']:
-            continue
-        end = len(parts)
-        for later in groups[number + 1:]:
-            if later['heading']:
-                end = later['start']
-                break
-        group['end'] = end
-
-    def clause_of(start_char: int) -> int:
-        for position, clause in enumerate(clauses):
-            if clause['start'] <= start_char < clause['end']:
-                return position
-        return -1
-
-    found = {}
-    for index, paragraph in enumerate(parts):
-        # The chain of transmission that carries the saying is not the
-        # explanation of the phrase; it is the road it travelled.
-        if NOT_A_PHRASE.search(paragraph) and not is_phrase_opening(paragraph):
-            continue
-        candidates = list(fragment_candidates(paragraph))
-        if is_phrase_opening(paragraph):
-            candidates = gloss_candidates(paragraph) + candidates
-        for candidate in candidates:
-            size, first, last = find_span(candidate, clean, modern_tokens)
-            if size == 0:
-                continue
-            start_char = mapping[modern_tokens[first][0]]
-            position = clause_of(start_char)
-            if position < 0:
-                continue
-            entry = found.setdefault(position, {'parts': [], 'ar': ''})
-            if index not in entry['parts']:
-                entry['parts'].append(index)
-            if not entry['ar']:
-                piece = arabic_span(paragraph, arabic)
-                if piece:
-                    entry['ar'] = piece
-            break
-
-    phrases = []
-    for position, clause in enumerate(clauses):
-        record = {'text': clause['text'], 'ar': '', 'head': '', 'parts': []}
-        entry = found.get(position)
-        if entry:
-            record['parts'] = entry['parts']
-            record['ar'] = entry['ar']
-            group = groups[entry['parts'][0]]
-            record['head'] = group['heading']
-        phrases.append(record)
-    return phrases
-
-
 def read_chapter(surah: int) -> dict:
     """The reader's own verse data: the modern translation and the Arabic."""
     path = os.path.join(ROOT, 'data', 'chapter_%03d.js' % surah)
@@ -476,47 +326,15 @@ def read_chapter(surah: int) -> dict:
         verses[match.group(1)] = {'ar': match.group(2), 'en': match.group(3)}
     return verses
 
+def quick_label(paragraph: str) -> str:
+    """The opening line of a paragraph, the way the reader's quick read
+    shows it: the first sentence, cut short with an ellipsis."""
+    text = (paragraph or '').strip()
+    dot = text.find('. ')
+    first = text[:dot + 1] if dot > 0 else text
+    if len(first) > 200:
+        cut = first[:200]
+        space = cut.rfind(' ')
+        first = (cut[:space] if space > 120 else cut).rstrip() + '\u2026'
+    return first
 
-def build_surah(surah: int) -> dict:
-    tafsir_path = os.path.join(ROOT, 'data', 'tafsir_%03d.js' % surah)
-    if not os.path.exists(tafsir_path):
-        tafsir_path = os.path.join(ROOT, 'data', 'tafsir_%03d.json' % surah)
-    with open(tafsir_path, encoding='utf-8') as handle:
-        tafsir = json.load(handle)
-    chapter = read_chapter(surah)
-    verses = {}
-    for ayah, entry in tafsir['verses'].items():
-        passage = tafsir['sets']['tabari']['blocks'][entry['tabari']]
-        verse = chapter.get(ayah, {})
-        phrases = pair_verse(verse.get('en', ''), verse.get('ar', ''), passage)
-        if phrases:
-            verses[ayah] = {'phrases': phrases}
-    return {'surah': surah, 'verses': verses}
-
-
-def write_all(only=None) -> int:
-    """Write `data/pairs_NNN.json` for every surah."""
-    written = 0
-    for surah in range(1, 115):
-        if only and surah not in only:
-            continue
-        path = os.path.join(ROOT, 'data', 'tafsir_%03d.json' % surah)
-        if not os.path.exists(path):
-            continue
-        data = build_surah(surah)
-        if not data['verses']:
-            continue
-        out = os.path.join(ROOT, 'data', 'pairs_%03d.json' % surah)
-        with open(out, 'w', encoding='utf-8') as handle:
-            json.dump(data, handle, ensure_ascii=False, separators=(',', ':'))
-        written += 1
-    return written
-
-
-if __name__ == '__main__':
-    import sys
-    wanted = None
-    if len(sys.argv) > 1:
-        wanted = {int(part) for part in sys.argv[1].split(',')}
-    count = write_all(wanted)
-    print('wrote %d file(s)' % count)
