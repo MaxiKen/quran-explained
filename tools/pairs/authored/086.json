@@ -1,0 +1,227 @@
+{
+  "surah": 86,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "By the heaven and the nightly star",
+          "text": "God swears by the heaven and by the night-comer, which is the star that appears at night among the shining stars and is hidden by day. The commentators say the word means whatever comes by night and knocks.",
+          "ar": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+          "range": [
+            0,
+            7
+          ]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "And what will make you realize what the nightly star is",
+          "text": "What will make you know, O Muhammad, what the night-comer is by which I have sworn? And then God explains it.",
+          "ar": "وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِقُ",
+          "range": [
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "˹It is˺ the star of piercing brightness",
+          "text": "It is the piercing star, the one whose light blazes up and burns intensely. The commentators say the piercing means its light, and Ibn Zayd adds that the Arabs called the Pleiades the star.",
+          "ar": "ٱلنَّجۡمُ ٱلثَّاقِبُ",
+          "range": [
+            0,
+            6
+          ]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "There is no soul without a vigilant angel ˹recording everything˺",
+          "text": "There is no soul but that over it there is a guardian from its Lord, who preserves its conduct and records against it its good and evil deeds. The reciters differ on the reading, and Tabari prefers the lighter one as the better known idiom of the Arabs.",
+          "ar": "إِن كُلُّ نَفۡسٖ لَّمَّا عَلَيۡهَا حَافِظٞ",
+          "range": [
+            0,
+            8
+          ]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "Let people then consider what they were created from",
+          "text": "Let man consider what he was created from, and this is aimed at whoever denies the resurrection and denies God's power to bring him back to life after death.",
+          "ar": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ مِمَّ خُلِقَ",
+          "range": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "6": {
+      "phrases": [
+        {
+          "translation": "˹They were˺ created from a spurting fluid",
+          "text": "He is created from a spurting fluid, a fluid that gushes out.",
+          "ar": "خُلِقَ مِن مَّآءٖ دَافِقٖ",
+          "range": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "7": {
+      "phrases": [
+        {
+          "translation": "stemming from between the backbone and the ribcage",
+          "text": "It comes forth from between the backbone and the breast-bones. The commentators differed: some said the breast-bones are the place of the necklace on a woman's breast, some that they are the ribs below the backbone, and some that they are the hands, the feet and the eyes. Tabari takes the necklace place.",
+          "ar": "يَخۡرُجُ مِنۢ بَيۡنِ ٱلصُّلۡبِ وَٱلتَّرَآئِبِ",
+          "range": [
+            0,
+            33
+          ]
+        }
+      ]
+    },
+    "8": {
+      "phrases": [
+        {
+          "translation": "Surely He is fully capable of bringing them back ˹to life˺",
+          "text": "God is able to bring the person back to life after his death, in the same form he had before he died. The commentators differed, some reading it as returning the water and some as returning the person from age to youth, but Tabari holds the resurrection, since the next verse speaks of the day of resurrection.",
+          "ar": "إِنَّهُۥ عَلَىٰ رَجۡعِهِۦ لَقَادِرٞ",
+          "range": [
+            0,
+            22
+          ]
+        }
+      ]
+    },
+    "9": {
+      "phrases": [
+        {
+          "translation": "on the Day all secrets will be disclosed",
+          "text": "The day on which the inner secrets of the servants are examined, so that what was hidden in this world comes to light, and the obligations God laid on them are laid bare. Some say these secrets are the fasting, the prayer and the washing after impurity.",
+          "ar": "يَوۡمَ تُبۡلَى ٱلسَّرَآئِرُ",
+          "range": [
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    "10": {
+      "phrases": [
+        {
+          "translation": "Then one will have neither power nor ˹any˺ helper",
+          "text": "On that day the unbeliever has no strength to guard himself against God's punishment and no helper to rescue him. In this world he leaned on the strength of his tribe and on an ally who stood by him.",
+          "ar": "فَمَا لَهُۥ مِن قُوَّةٖ وَلَا نَاصِرٖ",
+          "range": [
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    "11": {
+      "phrases": [
+        {
+          "translation": "By the sky with its recurring cycles",
+          "text": "God swears by the heaven that returns, which brings back the clouds and the people's provisions each year. The commentators say this is the rain and the provision, and some say it is the sun and moon and stars that rise and set.",
+          "ar": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجۡعِ",
+          "range": [
+            0,
+            15
+          ]
+        }
+      ]
+    },
+    "12": {
+      "phrases": [
+        {
+          "translation": "and the earth with its sprouting plants",
+          "text": "And by the earth that splits open with vegetation, splitting for the fruit and the crops each year, as you can see it.",
+          "ar": "وَٱلۡأَرۡضِ ذَاتِ ٱلصَّدۡعِ",
+          "range": [
+            0,
+            11
+          ]
+        }
+      ]
+    },
+    "13": {
+      "phrases": [
+        {
+          "translation": "Surely this ˹Quran˺ is a decisive word",
+          "text": "This word and this report is a decisive word, one that by its clearness separates the truth from the falsehood. The commentators say it means a word of truth, or a word of judgment.",
+          "ar": "إِنَّهُۥ لَقَوۡلٞ فَصۡلٞ",
+          "range": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    "14": {
+      "phrases": [
+        {
+          "translation": "and is not to be taken lightly",
+          "text": "And it is no jest and nothing frivolous.",
+          "ar": "وَمَا هُوَ بِٱلۡهَزۡلِ",
+          "range": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    "15": {
+      "phrases": [
+        {
+          "translation": "They are certainly devising ˹evil˺ plans",
+          "text": "Those who deny God and His messenger, and His promise and His threat, are forging a cunning scheme.",
+          "ar": "إِنَّهُمۡ يَكِيدُونَ كَيۡدٗا",
+          "range": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "16": {
+      "phrases": [
+        {
+          "translation": "but I too am planning",
+          "text": "And I too am plotting. God's plotting against them is that He gives them respite while they go on in their disobedience and disbelief.",
+          "ar": "وَأَكِيدُ كَيۡدٗا",
+          "range": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "17": {
+      "phrases": [
+        {
+          "translation": "So bear with the disbelievers ˹O Prophet˺. Let them be for ˹just˺ a little while",
+          "text": "Give the disbelievers respite, O Muhammad, and do not hasten against them. Grant them a short reprieve until the moment when the punishment comes down on them.",
+          "ar": "فَمَهِّلِ ٱلۡكَٰفِرِينَ أَمۡهِلۡهُمۡ رُوَيۡدَۢا",
+          "range": [
+            0,
+            6
+          ]
+        }
+      ]
+    }
+  }
+}
