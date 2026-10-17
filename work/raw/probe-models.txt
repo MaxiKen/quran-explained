@@ -1,8 +1,21 @@
-== openai/gpt-4o-mini -> HTTP 200
-   rate limits: (none returned)
-   raw: OK 
+== models.github.ai | openai/gpt-4o-mini -> HTTP 200
+   Content-Type: text/plain
+   body: OK 
 
-== meta-llama/Llama-3.3-70B-Instruct -> HTTP 200
-   rate limits: (none returned)
-   raw: OK 
+== models.github.ai | openai/gpt-4.1-mini -> HTTP 200
+   Content-Type: text/plain
+   body: OK 
+
+== models.github.ai | meta-llama/Llama-3.3-70B-Instruct -> HTTP 200
+   Content-Type: text/plain
+   body: OK 
+
+== models.inference.ai.azure.com | openai/gpt-4o-mini -> HTTP 0
+   body: ERROR: <urlopen error [Errno -2] Name or service not known>
+
+== models.inference.ai.azure.com | openai/gpt-4.1-mini -> HTTP 0
+   body: ERROR: <urlopen error [Errno -2] Name or service not known>
+
+== models.inference.ai.azure.com | meta-llama/Llama-3.3-70B-Instruct -> HTTP 0
+   body: ERROR: <urlopen error [Errno -2] Name or service not known>
 
