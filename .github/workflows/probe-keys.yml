@@ -5,7 +5,9 @@ name: Probe LLM secrets
 # value, never a prefix.
 
 on:
-  workflow_dispatch:
+  push:
+    branches: ['arena/807f943d-quran-explained']
+    paths: ['.github/workflows/probe-keys.yml']
 
 permissions:
   contents: read
