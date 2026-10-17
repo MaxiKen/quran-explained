@@ -2,10 +2,14 @@
 
 ## Commentary texts
 
-The eight English tafsirs carried in `data/tafsir_NNN.json` are taken from
+The reader's tafsīr is Tafsīr al-Ṭabarī — see the section below. The eight
+English tafsīrs it used to carry in `data/tafsir_NNN.json` were taken from
 [spa5k/tafsir_api](https://github.com/spa5k/tafsir_api), which is distributed
-under the MIT License. Per the terms of that license, the copyright notice and
-the permission notice are reproduced below in full.
+under the MIT License, and were removed from the reader on 2026-10-17. Their
+text is still reproduced, in derived form, in `data/guidance_NNN.json`: the
+plain-English commentary was written from them. Their attribution therefore
+still travels with this repository, and per the terms of that license the
+copyright notice and the permission notice are reproduced below in full.
 
 ```
 MIT License
@@ -34,7 +38,8 @@ SOFTWARE.
 ### Per-source provenance
 
 Recorded from the source table in the spa5k/tafsir_api README. The `id` is the
-resource identifier used by that project.
+resource identifier used by that project. These ids are the ones a guidance
+entry's `draws_on` field still lists.
 
 | Payload `id` | Work | Author | Upstream |
 |---|---|---|---|
@@ -60,22 +65,27 @@ Asbāb file is polluted with al-Qushayrī's text and only the 395 entries that c
 be attributed to al-Wāḥidī with certainty are shipped, and (ii)
 punctuation-normalised, because the upstream files carry `U+FFFD` where a decode
 step lost Arabic punctuation marks. Neither filter nor normalisation changes a
-word of any commentary.
+word of any commentary. The reader itself no longer ships these eight; what
+survives of them is the derived plain-English commentary described further
+down.
 
-## Tafsīr al-Ṭabarī in English (ninth source)
+## Tafsīr al-Ṭabarī — the reader's tafsīr
 
-`data/tabari_NNN.json` carries the complete English translation of *Jamiʿ
-al-bayān ʿan taʾwīl āy al-Qurʾān* — the commentary of Imām Abū Jaʿfar Muḥammad
-ibn Jarīr al-Ṭabarī (d. 310 AH / 923 CE) — taken from
-[tafseerquran.com](https://tafseerquran.com/en), with the permission of the
-site's owner. The site publishes the text free to read, search and keep
-offline, and its `robots.txt` allows the tafsir pages to be crawled.
+`data/tafsir_NNN.json` carries *Jamiʿ al-bayān ʿan taʾwīl āy al-Qurʾān* — the
+commentary of Imām Abū Jaʿfar Muḥammad ibn Jarīr al-Ṭabarī (d. 310 AH /
+923 CE) — in two layers for every one of the 6,236 verses: the complete English
+translation, and underneath it the Arabic original of the same commentary. Both
+are taken from [tafseerquran.com](https://tafseerquran.com/en), with the
+permission of the site's owner. The site publishes the text free to read,
+search and keep offline, and its `robots.txt` allows the tafsir pages to be
+crawled.
 
 The text is imported by `tools/tabari/` and is reproduced unedited, as the
 paragraphs the site publishes it in. The only thing taken out is what is not
-part of the commentary: the collapsed "Show original Arabic" panel, the
-previous/next ayah links and the site footer. The Arabic original of Tabari's
-text is therefore **not** carried here.
+part of the commentary: the previous/next ayah links and the site footer. The
+Arabic original, which the site keeps behind a collapsed "Show original
+Arabic" panel, is now carried as well — it is the text of record, and the
+publisher's own caveat says so.
 
 One presentational normalisation is applied, and it changes no word. The site
 keeps its text in markdown and renders it without handling the escapes, so the
@@ -103,7 +113,7 @@ treat the Arabic as the text of record.
 `data/guidance_NNN.json` carries a commentary written for this app, one entry
 per verse and one introduction per sūrah, shown under the label
 "Plain-English commentary" with the note "written with AI assistance from
-eight classical tafsīrs — the sources are below".
+eight classical tafsīrs · the reader now carries al-Ṭabarī in full, below".
 
 - It is a **derived work of the eight tafsīrs above**: every entry is written
   from, and only from, the material those sources give for the verse, by the
@@ -114,14 +124,16 @@ eight classical tafsīrs — the sources are below".
   scholars, hadith collectors and gradings exactly as the sources give them.
 - The wording is original: no run of twelve or more words is copied from a
   source outside an explicit quotation. The sources it draws on for each
-  verse are listed in the entry's `draws_on` field and can be read in full
-  directly under the entry in the app.
+  verse are listed in the entry's `draws_on` field. Those eight sources are no
+  longer carried by the reader, so the field is a record of provenance, not a
+  pointer to text in this repository; the tafsīr shown under the entry is
+  Tafsīr al-Ṭabarī, which the commentary was not written from.
 - The commentary is **not** a translation of any of the eight works and
   should not be cited as one. Where the sources differ, the entry says so;
   where a report is graded weak by a source, the grading is kept.
 - Each file records the generation date, model and pipeline version in its
   `generated` field. Generated entries that did not pass the checks are left
-  out of the file, so the app falls back to the sources for those verses.
+  out of the file, so the app falls back to the tafsīr for those verses.
 
 Anyone reusing the derived commentary should carry this notice and the
 attribution of the underlying tafsīr texts above with it.

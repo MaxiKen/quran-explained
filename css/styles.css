@@ -1028,9 +1028,10 @@ body {
 .tafsir-range-inline { font-weight: 700; color: var(--accent); white-space: nowrap; }
 
 /* ================================================
-   MULTIPLE TAFSIRS ON ONE VERSE
-   Six sources are shown in order, primary first. Each is a self-contained
-   entry: range, then the source name, then the text.
+   THE TAFSIR ON ONE VERSE
+   Tafsir al-Tabari is the tafsir, in English, with the Arabic original
+   folded underneath it. The entry is self-contained: range, then the source
+   name, then the text.
 ================================================ */
 .tafsir-entry { margin: 0 0 26px; }
 .tafsir-entry:last-child { margin-bottom: 0; }
@@ -1994,6 +1995,40 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 /* Notes that belong to a source: the publisher's own caveat on the English
    Tabari translation, and the line that says the plain-English commentary
    above was written without it. */
+/* ================================================
+   THE ARABIC ORIGINAL
+   Tafsir al-Tabari's own Arabic, folded under the English it was translated
+   from. The publisher is explicit that the Arabic is the authoritative text,
+   so it is shown as the source, in a right-to-left prose face.
+================================================ */
+.tafsir-arabic {
+  margin-top: 18px; padding-top: 12px;
+  border-top: 1px solid var(--accent-border-light);
+}
+.tafsir-arabic > summary {
+  cursor: pointer; list-style: none; font-size: 13px; font-weight: 700;
+  color: var(--text-dim); padding: 6px 0; user-select: none;
+}
+.tafsir-arabic > summary::-webkit-details-marker { display: none; }
+.tafsir-arabic > summary::before { content: '\25B8 '; color: var(--accent); }
+.tafsir-arabic[open] > summary::before { content: '\25BE '; }
+.tafsir-arabic[open] > summary { margin-bottom: 14px; }
+.tafsir-arabic-body {
+  direction: rtl; text-align: right;
+  font-family: 'Noto Naskh Arabic', 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  font-size: max(16px, calc(var(--english-font-size, 17px) - 1px));
+  line-height: 2.1; color: var(--text-secondary);
+  overflow-wrap: break-word; word-break: normal;
+  max-width: 68ch; margin: 0 auto;
+}
+.tafsir-arabic-body p { margin: 0 0 14px; }
+.tafsir-arabic-body p:last-child { margin-bottom: 0; }
+.tafsir-arabic-author {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  direction: ltr; text-align: left;
+  font-size: 11.5px; color: var(--text-faint); margin: 0 0 12px;
+}
+
 .tafsir-entry-note,
 .tafsir-sources-note {
   font-size: 12.5px; color: var(--text-faint); line-height: 1.65;

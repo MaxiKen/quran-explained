@@ -82,7 +82,26 @@ def load_chapter(surah: int) -> dict:
 
 
 def load_tafsir(surah: int) -> dict:
-    return read_json(os.path.join(DATA, f'tafsir_{surah:03d}.json'))
+    """Load the tafsir payload for a surah.
+
+    The pipeline writes its commentary from the eight classical tafsīrs the
+    reader used to carry. On 2026-10-17 the reader's payload became Tafsīr
+    al-Ṭabarī in English with the Arabic original underneath, so those eight
+    are no longer in data/tafsir_NNN.json. Say so plainly instead of writing a
+    commentary from a corpus the prompts do not describe.
+    """
+    payload = read_json(os.path.join(DATA, f'tafsir_{surah:03d}.json'))
+    sets = payload.get('sets') or {}
+    missing = [sid for sid in SOURCE_ORDER if sid not in sets]
+    if missing:
+        raise SystemExit(
+            'data/tafsir_%03d.json no longer carries the eight sources this '
+            'pipeline writes from (missing: %s). The reader now carries Tafsir '
+            'al-Tabari in English with the Arabic original; the pipeline needs '
+            'its own copy of the eight-source corpus to run against.'
+            % (surah, ', '.join(missing))
+        )
+    return payload
 
 
 def load_guidance(surah: int, data_dir: str | None = None) -> dict | None:

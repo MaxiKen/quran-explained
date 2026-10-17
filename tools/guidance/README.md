@@ -15,8 +15,16 @@ for isolated generation and selective merging without overwriting newer main.
 `tools/guidance/` turns the eight tafsīr sources in `data/tafsir_NNN.json`
 into one original, simple-English commentary per verse (plus one
 introduction per surah), published as `data/guidance_NNN.json` and shown in
-the app under the label **Plain-English commentary** with the eight sources
-folded underneath.
+the app under the label **Plain-English commentary** above the tafsīr.
+
+> **The corpus changed on 2026-10-17.** The eight sources are no longer in
+> `data/tafsir_NNN.json`: the reader's tafsīr is now Tafsīr al-Ṭabarī in
+> English with the Arabic original underneath it, imported by `tools/tabari/`.
+> The commentary already published was written from the eight and is unchanged,
+> but this pipeline cannot be re-run against the current payload — `load_tafsir`
+> stops with an explanation instead of writing a commentary from a corpus the
+> prompts do not describe. To run it again, give it a copy of the eight-source
+> payload.
 
 Everything is plain Python 3.11 with no third-party packages. The model
 providers are called over HTTPS with `urllib`.

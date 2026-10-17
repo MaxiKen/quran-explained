@@ -1,14 +1,19 @@
 # Agent instructions for this repository
 
-This is a static Qur'an reader (no build step) with nine classical tafsīrs per
-verse, plus an ongoing project that writes an original **plain-English
-commentary for every verse and every surah** from eight of those texts and
-publishes it as `data/guidance_NNN.json`.
+This is a static Qur'an reader (no build step) whose tafsīr is **Tafsīr
+al-Ṭabarī in English**, complete on every verse, with the Arabic original of
+the commentary underneath each verse. The payload is `data/tafsir_NNN.json`,
+imported from tafseerquran.com by `tools/tabari/`. The eight classical tafsīrs
+the reader used to carry are gone.
 
-The eight the commentary is written from are the ones in `data/tafsir_NNN.json`.
-The ninth, Tafsīr al-Ṭabarī in English, is imported separately into
-`data/tabari_NNN.json` by `tools/tabari/` and is **not** one of the sources the
-commentary draws on: a guidance entry's `draws_on` still lists the same eight.
+On top of that there is an ongoing project that writes an original
+**plain-English commentary for every verse and every surah** and publishes it
+as `data/guidance_NNN.json`. It was written from those eight earlier tafsīrs,
+which the reader no longer carries, so a guidance entry's `draws_on` still
+lists the same eight and is not a reference to anything in `data/` today. The
+guidance is a layer above the tafsīr, not a substitute for it, and the app
+says so where both are shown. The pipeline in `tools/guidance/` reads the
+eight-source corpus and cannot be re-run against the current payload.
 
 If you are here to continue that project, **everything you need is in
 `tools/guidance/HANDOFF.md`**. Read it completely before acting. The design
