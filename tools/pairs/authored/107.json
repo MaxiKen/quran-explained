@@ -1,0 +1,160 @@
+{
+  "surah": 107,
+  "note": "Authored by reading Tafsir al-Tabari in English against the reader's modern translation. Each phrase carries the app's own words for that piece of the verse, a plain modern English line of my own, the Arabic of the piece, and the numbered paragraphs of the commentary that speak of it.",
+  "verses": {
+    "1": {
+      "phrases": [
+        {
+          "translation": "Have you seen the one who denies the ˹final˺ Judgment",
+          "text": "The one who denies the reward of God and His punishment, and so does not obey Him in what He commands and forbids.",
+          "ar": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ",
+          "range": [
+            0,
+            2
+          ]
+        },
+        {
+          "translation": "",
+          "text": "The commentators agree on this sense, and Tabari notes that in the reading of Abdullah the word has no preposition, and the sentence means the same either way.",
+          "ar": "بِٱلدِّينِ",
+          "range": [
+            3,
+            7
+          ]
+        }
+      ]
+    },
+    "2": {
+      "phrases": [
+        {
+          "translation": "That is the one who repulses the orphan",
+          "text": "This is the one who denies the judgment. He is the one who drives the orphan away from what is his right, and wrongs him.",
+          "ar": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "translation": "",
+          "text": "The commentators differ a little on the sense: some say he takes the orphan's right away, some that he pushes him down and wrongs him, and some that he repels him and does not feed him.",
+          "ar": "ٱلۡيَتِيمَ",
+          "range": [
+            1,
+            8
+          ]
+        }
+      ]
+    },
+    "3": {
+      "phrases": [
+        {
+          "translation": "and does not encourage the feeding of the poor",
+          "text": "He does not rouse in anyone the wish to give the needy food.",
+          "ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+          "range": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "4": {
+      "phrases": [
+        {
+          "translation": "So woe to those ˹hypocrites˺ who pray",
+          "text": "The valley that flows with the filth of the people of Hell is for the hypocrites, who pray but do not mean God by it.",
+          "ar": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+          "range": [
+            0,
+            1
+          ]
+        },
+        {
+          "translation": "",
+          "text": "Tabari opens the question of what heedlessness of the prayer means, and the first answer is that they delay the prayer past its time.",
+          "ar": "",
+          "range": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    "5": {
+      "phrases": [
+        {
+          "translation": "yet are unmindful of their prayers",
+          "text": "The commentators differed. Some said the prayer is left until its time has passed. Others said it is left entirely. Others said it is taken lightly and distracted from. Others said the prayer does not concern them at all.",
+          "ar": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+          "range": [
+            0,
+            20
+          ]
+        },
+        {
+          "translation": "",
+          "text": "Tabari's own reading covers them all: the distracted and the negligent, and being distracted includes both leaving the prayer late and leaving it out altogether. The Prophet gave two reports that bear this out, and one of them names the hypocrites.",
+          "ar": "",
+          "range": [
+            21,
+            25
+          ]
+        }
+      ]
+    },
+    "6": {
+      "phrases": [
+        {
+          "translation": "those who ˹only˺ show off",
+          "text": "They show people how they pray when they pray, and they do it for no other reason than to be seen and counted among the believers.",
+          "ar": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "translation": "",
+          "text": "These are the hypocrites of the Prophet's own time, who kept unbelief inside and showed Islam outside. The commentators agree that this is who is meant.",
+          "ar": "",
+          "range": [
+            1,
+            8
+          ]
+        }
+      ]
+    },
+    "7": {
+      "phrases": [
+        {
+          "translation": "and refuse to give ˹even the simplest˺ aid",
+          "text": "They withhold from people the benefits that lie within their power. The word means the usefulness of a thing, and the rain is also called by it.",
+          "ar": "وَيَمۡنَعُونَ",
+          "range": [
+            0,
+            9
+          ]
+        },
+        {
+          "translation": "",
+          "text": "The commentators differed over what is meant. Some said the obligatory alms. Some said what people lend one another, such as the bucket and the cooking pot, and the Companions used to name the axe, the bucket and the pot. Some said kindness, some said wealth.",
+          "ar": "ٱلۡمَاعُونَ",
+          "range": [
+            10,
+            86
+          ]
+        },
+        {
+          "translation": "",
+          "text": "Tabari's own reading takes in all of it: they withhold what people need from one another, and they withhold from the poor what God has laid on them, and all of that belongs to the benefits by which people profit from one another.",
+          "ar": "",
+          "range": [
+            87,
+            88
+          ]
+        }
+      ]
+    }
+  }
+}
