@@ -3,5 +3,9 @@
 # render as blank and look as though nothing was pushed. Marking them makes
 # that explicit instead of alarming.
 data/tafsir_*.json -diff linguist-generated
-data/pairs_*.json -diff linguist-generated
 data/chapter_*.js linguist-generated
+
+# The published pairing is generated from the hand-written sources in
+# tools/pairs/authored/, so it is marked as generated too. The sources
+# themselves are ordinary hand-written files and are not marked.
+data/pairs_*.json -diff linguist-generated
