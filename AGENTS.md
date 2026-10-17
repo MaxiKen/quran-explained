@@ -15,13 +15,30 @@ the verification gates and the account of how the layer was made — and it
 stops with an explanation rather than running against a corpus the reader no
 longer carries.
 
-The commentary can be read two ways. The reader chooses, in the verse pop-up
-and in the reading edition: the **full commentary**, or the **quick read** —
-the same commentary listed as its parts, each part showing its opening line
-and opening to the full passage. Where Tabarī goes phrase by phrase, the
-phrase is the heading of its group. The quick read is built in the browser
-from the same payload (`buildQuickRead` in `js/app.js`); it is Tabarī's own
-text, shortened, never a paraphrase, and nothing is dropped from it.
+The commentary can be read three ways. The reader chooses, in the verse
+pop-up and in the reading edition:
+
+- **Full commentary** — the whole passage as text.
+- **Quick read** — the same commentary listed as its parts, each part showing
+  its opening line and opening to the full passage. Where Tabarī goes phrase
+  by phrase, the phrase is the heading of its group. It is built in the
+  browser from the same payload (`buildQuickRead` in `js/app.js`); it is
+  Tabarī's own text, shortened, never a paraphrase, and nothing is dropped.
+- **Phrase by phrase** — the reader's *own* modern translation, broken into
+  the phrases a reader would call phrases, with the words Tabarī says about
+  each phrase underneath. The pairing is built by `tools/pairs/build.py` into
+  `data/pairs_NNN.json`: Tabarī names a phrase in his own words, and that
+  wording is matched against the translation. Nothing is written by the
+  builder — it only decides which of the reader's words belong to which of
+  Tabarī's paragraphs. Where the two translations do not share their
+  wording, the phrase is left without his words rather than given the wrong
+  ones; the rest of the commentary is still in the quick read.
+
+The pairing is a floor, not a ceiling: about 45% of the translation's phrases
+are matched this way, and the rest would need a model to align where the two
+renderings differ. Any model run must write into the same file, and its
+output must be checked against the same two rules — the phrase must be the
+reader's own words, and the parts must exist in the commentary.
 
 If you are here to continue that project, **everything you need is in
 `tools/guidance/HANDOFF.md`**. Read it completely before acting. The design
