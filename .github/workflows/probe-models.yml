@@ -8,7 +8,7 @@ name: Probe GitHub Models
 on:
   push:
     branches: ['arena/807f943d-quran-explained']
-    paths: ['.github/workflows/probe-models.yml']
+    paths: ['.github/workflows/probe-models.yml', 'tools/probe_models.py']
 
 permissions:
   contents: write
@@ -18,66 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Rate limits
+      - name: Ask the hosted models
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          mkdir -p work/raw
-          out=work/raw/probe-models.txt
-          : > "$out"
-          curl -sS -D /tmp/hdr.txt -o /tmp/body.txt \
-            -H "Authorization: Bearer $GH_TOKEN" -H 'Content-Type: application/json' \
-            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"say OK"}]}' \
-            https://models.github.ai/inference/chat/completions || true
-          echo "== rate limit headers ==" >> "$out"
-          grep -i "x-ratelimit" /tmp/hdr.txt >> "$out" || echo "(none)" >> "$out"
-          echo >> "$out"
-      - name: A pairing-shaped request
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          out=work/raw/probe-models.txt
-          python3 - <<'PY' >> "$out"
-          import json, os, urllib.request
-          body = {
-            "model": "openai/gpt-4o-mini",
-            "messages": [
-              {"role": "system", "content": "You split a Qur'an verse into phrases and say which part of a commentary explains each phrase. Answer with JSON only."},
-                {"role": "user", "content": """Modern English translation of the verse:
-This is the Book! There is no doubt about it—a guide for those mindful of Allah
-
-The Arabic of the verse:
-ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ
-
-The commentary, as numbered parts:
-[0] The explanation of the saying of Allah, the Exalted: That is the Book (dhālika al-kitāb) — the meaning of it is: this is the Book.
-[1] There is no doubt (lā rayb) in it — and the meaning of that is: there is no doubt in it, and no confusion in it.
-[2] It is a guide (hudan) for the mindful (al-muttaqīn) — the mindful are those who avoid the forbidden and perform the obligations.
-
-Answer with JSON of this shape and nothing else:
-{"phrases":[{"text":"a verbatim span of the modern English","arabic":"the Arabic of that span, verbatim","parts":[0]}]}"""}
-            ],
-            "temperature": 0.1,
-            "max_tokens": 800,
-          }
-          req = urllib.request.Request(
-              "https://models.github.ai/inference/chat/completions",
-              data=json.dumps(body).encode(),
-              headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Content-Type": "application/json"})
-          try:
-              with urllib.request.urlopen(req, timeout=120) as resp:
-                  data = json.loads(resp.read().decode())
-                  print("== gpt-4o-mini ==")
-                  print(data["choices"][0]["message"]["content"][:1500])
-                  print("usage:", data.get("usage"))
-          except Exception as exc:
-              print("== gpt-4o-mini ==")
-              print("ERROR:", exc)
-              try:
-                  print(exc.read().decode()[:600])
-              except Exception:
-                  pass
-          PY
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/probe_models.py
       - name: Commit the answer
         run: |
           git config user.name "github-actions[bot]"
