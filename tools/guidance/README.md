@@ -24,7 +24,8 @@ the app under the label **Plain-English commentary** above the tafsīr.
 > but this pipeline cannot be re-run against the current payload — `load_tafsir`
 > stops with an explanation instead of writing a commentary from a corpus the
 > prompts do not describe. To run it again, give it a copy of the eight-source
-> payload.
+> payload. The tests that read that corpus skip themselves with that same
+> reason (`tests/test_pipeline.py`), so the suite stays green and says why.
 
 Everything is plain Python 3.11 with no third-party packages. The model
 providers are called over HTTPS with `urllib`.
