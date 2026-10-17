@@ -48,6 +48,8 @@ jobs:
             --raw work/tabari/raw || true
       - name: Verify
         run: python3 tools/tabari/verify.py --data data || true
+      - name: Run tests
+        run: python3 -m unittest discover -s tools/tabari/tests
       - name: Upload fetched pages
         if: always()
         uses: actions/upload-artifact@v4
