@@ -92,6 +92,38 @@ def check_file(path, surah, count):
     return problems
 
 
+def corpus_summary(data_dir, surahs):
+    """Report the figures the publisher publishes for the whole corpus.
+
+    tafseerquran.com states that the canonical layer holds 6,226 passages
+    for the 6,236 verses of the Qur'an, with a few short surahs whose slice
+    runs into the neighbouring section. An import that lands on the same
+    numbers has taken every verse, not a selection.
+    """
+    verses = 0
+    seen = {}
+    shared = 0
+    words = 0
+    for surah in surahs:
+        path = os.path.join(data_dir, "tabari_%03d.json" % surah)
+        if not os.path.exists(path):
+            continue
+        with open(path, "r", encoding="utf-8") as fh:
+            payload = json.load(fh)
+        blocks = payload.get("sets", {}).get("tabari", {}).get("blocks", [])
+        for ayah, index in payload.get("verses", {}).items():
+            verses += 1
+            key = (surah, int(ayah))
+            text = blocks[index["tabari"]] if isinstance(index, dict) else blocks[index]
+            words += len(text.split())
+            digest = hash(text)
+            if digest in seen:
+                shared += 1
+            else:
+                seen[digest] = key
+    return verses, len(seen), shared, words
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", default="data")
@@ -126,6 +158,19 @@ def main():
         if problems:
             failures += 1
     print("%d/%d surah file(s) passed" % (len(surahs) - failures, len(surahs)))
+
+    if len(surahs) == 114:
+        verses, distinct, shared, words = corpus_summary(args.data, surahs)
+        print(
+            "corpus: %d verses, %d distinct passages, %d verses sharing a passage, %d words"
+            % (verses, distinct, shared, words)
+        )
+        if verses != 6236:
+            print("  expected 6,236 verses")
+            failures += 1
+        if distinct != 6226:
+            print("  expected 6,226 distinct passages, as the publisher states")
+            failures += 1
     return 1 if failures else 0
 
 
