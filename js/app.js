@@ -367,40 +367,6 @@ function loadTafsirData(num) {
   return tafsirLoadPromises[num];
 }
 
-/* ---- Integrated per-verse guidance ---------------------------------------
-   A single-voice commentary written from the source tafsirs, quoting the
-   chapter's own English translation. It is authored chapter by chapter, so a
-   surah may not have one yet — a missing file is normal, not an error, and
-   resolves to null so the caller falls back to showing the sources directly. */
-const loadedGuidance = {};
-const guidanceLoadPromises = {};
-
-function loadGuidanceData(num) {
-  if (loadedGuidance[num] !== undefined) return Promise.resolve(loadedGuidance[num]);
-  if (guidanceLoadPromises[num]) return guidanceLoadPromises[num];
-
-  const pad = String(num).padStart(3, '0');
-  const url = `data/guidance_${pad}.json`;
-
-  /* no-store: content is appended verse by verse, and a stale copy of a
-     guidance file is indistinguishable from an unpublished chapter. The
-     service worker still caches it, so offline keeps working. */
-  guidanceLoadPromises[num] = fetch(url, { cache: 'no-store' })
-    .then(res => (res.ok ? res.json() : null))
-    .then(data => {
-      loadedGuidance[num] = data || null;
-      delete guidanceLoadPromises[num];
-      return loadedGuidance[num];
-    })
-    .catch(() => {
-      loadedGuidance[num] = null;
-      delete guidanceLoadPromises[num];
-      return null;
-    });
-
-  return guidanceLoadPromises[num];
-}
-
 function loadChapterData(num) {
   return new Promise((resolve, reject) => {
     if (loadedChapters[num]) { resolve(loadedChapters[num]); return; }
@@ -534,7 +500,7 @@ async function renderSurahView(num, options = {}) {
     AppState.currentSurahData = data;
     renderApp();
     applyReadingPlace('detail', num, options);
-    setTimeout(() => { loadTafsirData(num).catch(() => {}); loadGuidanceData(num); }, 260);
+    setTimeout(() => { loadTafsirData(num).catch(() => {}); }, 260);
     setTimeout(() => {
       if (num < 114) prefetchChapter(num + 1);
       if (num > 1) prefetchChapter(num - 1);
@@ -571,10 +537,9 @@ async function renderCommentaryView(num, options = {}) {
     app.innerHTML = ebookLoadingHtml(`Preparing ${ch.name_en} commentary`, 'Loading the complete chapter into a distraction-free reading view…');
   }
   try {
-    /* The tafsir payload is written chapter by chapter as the corpus is
-       generated; a chapter without one still opens, with its translation and
+    /* A surah without a tafsir payload still opens, with its translation and
        a short note where the commentary will stand. */
-    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num).catch(() => null), loadGuidanceData(num)]);
+    const [data] = await Promise.all([loadChapterData(num), loadTafsirData(num).catch(() => null)]);
     if (AppState.currentView !== 'commentary' || AppState.currentSurah !== num) return;
     AppState.currentSurahData = data;
     renderApp();
@@ -1651,40 +1616,6 @@ function renderTafsirArabic(entry) {
     + `</details>`;
 }
 
-/* Label and disclosure shown above every generated entry. The commentary is
-   written by the pipeline in tools/guidance, so the reader is told how it was
-   made. It was written from the eight classical tafsīrs the reader used to
-   carry; the tafsīr now shown underneath is al-Ṭabarī. */
-const GUIDANCE_LABEL = 'Plain-English commentary';
-function guidanceDisclosure() {
-  return 'written with AI assistance from eight classical tafsīrs · the reader now carries al-Ṭabarī in full, below';
-}
-
-/* The generated, single-voice commentary. It quotes the chapter's own English
-   translation and works through it, drawing on the source tafsirs without
-   presenting any of them as a separate voice. */
-function renderGuidanceHtml(guidance, ayahNum) {
-  if (!guidance || !guidance.verses) return '';
-  const v = guidance.verses[String(ayahNum)];
-  if (!v || !v.text) return '';
-  const head = v.range
-    ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(v.range)}</p>`
-    : '';
-  const label = `<p class="tafsir-source-label">${escapeHtml(guidance.label || GUIDANCE_LABEL)}`
-    + `<span>${escapeHtml(guidanceDisclosure())}</span></p>`;
-  return `<section class="tafsir-entry tafsir-entry-primary tafsir-guidance" data-source="guidance">`
-    + `${head}${label}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(v.text)}</div></section>`;
-}
-
-/* The generated sūrah introduction, with the same label and disclosure. */
-function renderGuidanceIntroHtml(guidance) {
-  if (!guidance || !guidance.intro) return '';
-  const label = `<p class="tafsir-source-label">${escapeHtml(guidance.label || GUIDANCE_LABEL)}`
-    + `<span>${escapeHtml(guidanceDisclosure())}</span></p>`;
-  return `<section class="tafsir-entry tafsir-entry-primary tafsir-guidance" data-source="guidance">`
-    + `${label}<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(guidance.intro)}</div></section>`;
-}
-
 /* The tafsīr itself. There is one source now, so it is shown directly under
    the plain-English commentary instead of being folded away behind a "read
    the N sources" disclosure. */
@@ -1694,14 +1625,11 @@ function renderTafsirSources(entries) {
 }
 
 /* Render commentary with its verse range as the first line and the text
-   starting on the next. Where an authored guidance exists for the surah it
-   leads and the tafsīr sits under it; otherwise the tafsīr is shown directly.
-   Returns '' for an empty commentary so callers keep their fallbacks. */
+   starting on the next. Returns '' for an empty commentary so callers keep
+   their fallbacks. */
 function renderCommentaryHtml(tafsir, text, ayahNum) {
   if (ayahNum != null && tafsir && tafsir.sets) {
     const entries = getVerseCommentaryAll(tafsir, ayahNum);
-    const guidance = renderGuidanceHtml(loadedGuidance[tafsir.surah], ayahNum);
-    if (guidance) return guidance + renderTafsirSources(entries);
     if (entries.length) return renderTafsirSources(entries);
   }
   if (!text) return '';
@@ -1715,12 +1643,9 @@ function renderCommentaryHtml(tafsir, text, ayahNum) {
   return `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
 }
 
-/* Get the Sūrah introduction / overview notes. The generated commentary
-   carries one per sūrah; a tafsir payload may carry its own as a fallback. */
+/* Get the Sūrah introduction / overview notes, when the tafsir payload
+   carries one. */
 function getSurahIntro(tafsir, surahNum) {
-  const num = surahNum != null ? surahNum : (tafsir ? tafsir.surah : null);
-  const guidance = num != null ? loadedGuidance[num] : null;
-  if (guidance && guidance.intro) return guidance.intro;
   if (!tafsir) return '';
   return tafsir.intro || '';
 }
@@ -2828,8 +2753,8 @@ function showExplanation(surahNum, ayahNum) {
     afterModalBodyRender();
   } else {
     showModalSkeleton();
-    Promise.all([loadTafsirData(surahNum), loadGuidanceData(surahNum)])
-      .then(([tafsir]) => {
+    loadTafsirData(surahNum)
+      .then((tafsir) => {
         if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
         const text = getVerseCommentary(tafsir, ayahNum);
         document.getElementById('modalBody').innerHTML = text
@@ -3005,18 +2930,16 @@ function showSurahNotes(surahNum) {
   if (card) card.hidden = true;
 
   const renderIntro = (tafsir) => {
-    const guidance = loadedGuidance[surahNum];
-    if (guidance && guidance.intro) return renderGuidanceIntroHtml(guidance);
     const text = getSurahIntro(tafsir, surahNum);
     return text ? renderCommentaryHtml(tafsir, text) : '';
   };
-  const ready = loadedTafsir[surahNum] && loadedGuidance[surahNum] !== undefined ? renderIntro(loadedTafsir[surahNum]) : '';
+  const ready = loadedTafsir[surahNum] ? renderIntro(loadedTafsir[surahNum]) : '';
   if (ready) {
     document.getElementById('modalBody').innerHTML = ready;
   } else {
     showModalSkeleton();
-    Promise.all([loadTafsirData(surahNum), loadGuidanceData(surahNum)])
-      .then(([tafsir]) => {
+    loadTafsirData(surahNum)
+      .then((tafsir) => {
         if (ModalState.surah !== surahNum || ModalState.mode !== 'notes') return;
         document.getElementById('modalBody').innerHTML = renderIntro(tafsir) || tafsirSourceCardHtml(surahNum);
       })

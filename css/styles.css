@@ -1979,8 +1979,6 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
    The integrated single-voice commentary leads; the classical texts it was
    written from stay one tap away, so nothing is hidden but nothing competes.
 ================================================ */
-.tafsir-guidance .tafsir-source-label { color: var(--accent); }
-.tafsir-guidance .tafsir-text { color: var(--text-secondary); }
 
 /* Notes that belong to a source: the publisher's own caveat on the English
    Tabari translation, and the line that says the plain-English commentary

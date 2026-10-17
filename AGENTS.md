@@ -6,14 +6,14 @@ the commentary underneath each verse. The payload is `data/tafsir_NNN.json`,
 imported from tafseerquran.com by `tools/tabari/`. The eight classical tafsīrs
 the reader used to carry are gone.
 
-On top of that there is an ongoing project that writes an original
-**plain-English commentary for every verse and every surah** and publishes it
-as `data/guidance_NNN.json`. It was written from those eight earlier tafsīrs,
-which the reader no longer carries, so a guidance entry's `draws_on` still
-lists the same eight and is not a reference to anything in `data/` today. The
-guidance is a layer above the tafsīr, not a substitute for it, and the app
-says so where both are shown. The pipeline in `tools/guidance/` reads the
-eight-source corpus and cannot be re-run against the current payload.
+There was also a second layer: an original **plain-English commentary** for
+every verse and every surah, published as `data/guidance_NNN.json`. It was
+written from those eight earlier tafsīrs, so it went when they went: the
+files are deleted, the reader no longer shows the layer, and the tafsīr stands
+alone. The pipeline in `tools/guidance/` is kept for the record — it holds
+the verification gates and the account of how the layer was made — and it
+stops with an explanation rather than running against a corpus the reader no
+longer carries.
 
 If you are here to continue that project, **everything you need is in
 `tools/guidance/HANDOFF.md`**. Read it completely before acting. The design

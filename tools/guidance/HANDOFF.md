@@ -24,21 +24,19 @@ Then keep the preview alive with the process tool: `python3 tools/serve.py 8000`
 
 The app (`index.html`, `js/app.js`) shows the Qur'an with Tafsīr al-Ṭabarī in
 English per verse, with the Arabic original of the commentary underneath each
-verse (`data/tafsir_NNN.json`, imported by `tools/tabari/`). The project adds,
+verse (`data/tafsir_NNN.json`, imported by `tools/tabari/`). The project added,
 for every one of the 6,236 verses and every surah, an original plain-English
 commentary published as `data/guidance_NNN.json` and rendered by the app above
-the tafsīr under the label **"Plain-English commentary"** with the disclosure
-*"written with AI assistance from eight classical tafsīrs · the reader now
-carries al-Ṭabarī in full, below"*.
+the tafsīr under the label **"Plain-English commentary"**.
 
-> **Changed on 2026-10-17.** The eight sources (ibn-kathir, maarif, tazkirul,
-> tanwir, jalalayn, mukhtasar, qushayri, wahidi) are no longer in
-> `data/tafsir_NNN.json` — the reader's tafsīr is al-Ṭabarī now. The published
-> commentary was written from those eight and is unchanged; `draws_on` still
-> lists them as a record of provenance, and they are not readable in the app
-> any more. This pipeline cannot be re-run against the current payload:
-> `load_tafsir` stops with an explanation. A re-run needs a copy of the
-> eight-source payload to work from.
+> **Withdrawn on 2026-10-17.** The eight sources (ibn-kathir, maarif,
+> tazkirul, tanwir, jalalayn, mukhtasar, qushayri, wahidi) are no longer in
+> `data/tafsir_NNN.json` — the reader's tafsīr is al-Ṭabarī now. The
+> commentary was written from those eight, so it was withdrawn with them:
+> `data/guidance_NNN.json` is deleted and the app shows the tafsīr alone.
+> This pipeline cannot be re-run against the current payload: `load_tafsir`
+> stops with an explanation. A re-run needs a copy of the eight-source payload
+> to work from, and a decision about whether the layer should exist at all.
 
 Historical state (routine new chapter progress belongs in `chapters/SSS.md`):
 

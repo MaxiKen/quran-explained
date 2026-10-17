@@ -17,15 +17,18 @@ into one original, simple-English commentary per verse (plus one
 introduction per surah), published as `data/guidance_NNN.json` and shown in
 the app under the label **Plain-English commentary** above the tafsīr.
 
-> **The corpus changed on 2026-10-17.** The eight sources are no longer in
-> `data/tafsir_NNN.json`: the reader's tafsīr is now Tafsīr al-Ṭabarī in
+> **This layer was withdrawn on 2026-10-17.** The eight sources are no longer
+> in `data/tafsir_NNN.json`: the reader's tafsīr is now Tafsīr al-Ṭabarī in
 > English with the Arabic original underneath it, imported by `tools/tabari/`.
-> The commentary already published was written from the eight and is unchanged,
-> but this pipeline cannot be re-run against the current payload — `load_tafsir`
-> stops with an explanation instead of writing a commentary from a corpus the
-> prompts do not describe. To run it again, give it a copy of the eight-source
-> payload. The tests that read that corpus skip themselves with that same
-> reason (`tests/test_pipeline.py`), so the suite stays green and says why.
+> The published commentary was written from the eight, so it went with them —
+> `data/guidance_NNN.json` is deleted and the reader no longer shows the
+> layer. The pipeline is kept here for the record, with its verification
+> gates and its account of how the layer was made; it cannot be re-run against
+> the current payload, because `load_tafsir` stops with an explanation rather
+> than write a commentary from a corpus the prompts do not describe. To run
+> it again, give it a copy of the eight-source payload. The tests that read
+> that corpus skip themselves with the same reason (`tests/test_pipeline.py`),
+> so the suite stays green and says why.
 
 Everything is plain Python 3.11 with no third-party packages. The model
 providers are called over HTTPS with `urllib`.
