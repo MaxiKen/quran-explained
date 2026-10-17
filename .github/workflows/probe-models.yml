@@ -1,8 +1,8 @@
 name: Probe GitHub Models
 
-# One-off: can a workflow call GitHub Models with the workflow's own token,
-# without a paid provider key? Reports the HTTP status and the shape of the
-# answer, never a token. The result is committed to the branch, because the
+# One-off: measures what a workflow can get from GitHub Models with the
+# workflow's own token — the rate-limit headers, and the answer to a
+# pairing-shaped request. The result is committed to the branch, because the
 # job log cannot be read back from outside GitHub's own servers.
 
 on:
@@ -18,32 +18,70 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ask a model for a JSON answer
+      - name: Rate limits
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p work/raw
           out=work/raw/probe-models.txt
           : > "$out"
-          for model in openai/gpt-4o-mini meta-llama/Llama-3.3-70B-Instruct; do
-            body=$(cat <<JSON
-          {"model": "$model", "messages": [{"role": "user", "content": "Reply with JSON only: {\\"ok\\": true, \\"n\\": 7}"}], "temperature": 0.2}
-          JSON
-            )
-            code=$(curl -sS -o /tmp/resp.json -w '%{http_code}' \
-              -H "Authorization: Bearer $GH_TOKEN" \
-              -H 'Content-Type: application/json' \
-              -d "$body" \
-              https://models.github.ai/inference/chat/completions || echo "curl-failed")
-            echo "== $model -> HTTP $code" >> "$out"
-            head -c 400 /tmp/resp.json >> "$out" || true
-            echo >> "$out"
-          done
-          cat "$out"
+          curl -sS -D /tmp/hdr.txt -o /tmp/body.txt \
+            -H "Authorization: Bearer $GH_TOKEN" -H 'Content-Type: application/json' \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"say OK"}]}' \
+            https://models.github.ai/inference/chat/completions || true
+          echo "== rate limit headers ==" >> "$out"
+          grep -i "x-ratelimit" /tmp/hdr.txt >> "$out" || echo "(none)" >> "$out"
+          echo >> "$out"
+      - name: A pairing-shaped request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          out=work/raw/probe-models.txt
+          python3 - <<'PY' >> "$out"
+          import json, os, urllib.request
+          body = {
+            "model": "openai/gpt-4o-mini",
+            "messages": [
+              {"role": "system", "content": "You split a Qur'an verse into phrases and say which part of a commentary explains each phrase. Answer with JSON only."},
+                {"role": "user", "content": """Modern English translation of the verse:
+This is the Book! There is no doubt about it—a guide for those mindful of Allah
+
+The Arabic of the verse:
+ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ
+
+The commentary, as numbered parts:
+[0] The explanation of the saying of Allah, the Exalted: That is the Book (dhālika al-kitāb) — the meaning of it is: this is the Book.
+[1] There is no doubt (lā rayb) in it — and the meaning of that is: there is no doubt in it, and no confusion in it.
+[2] It is a guide (hudan) for the mindful (al-muttaqīn) — the mindful are those who avoid the forbidden and perform the obligations.
+
+Answer with JSON of this shape and nothing else:
+{"phrases":[{"text":"a verbatim span of the modern English","arabic":"the Arabic of that span, verbatim","parts":[0]}]}"""}
+            ],
+            "temperature": 0.1,
+            "max_tokens": 800,
+          }
+          req = urllib.request.Request(
+              "https://models.github.ai/inference/chat/completions",
+              data=json.dumps(body).encode(),
+              headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Content-Type": "application/json"})
+          try:
+              with urllib.request.urlopen(req, timeout=120) as resp:
+                  data = json.loads(resp.read().decode())
+                  print("== gpt-4o-mini ==")
+                  print(data["choices"][0]["message"]["content"][:1500])
+                  print("usage:", data.get("usage"))
+          except Exception as exc:
+              print("== gpt-4o-mini ==")
+              print("ERROR:", exc)
+              try:
+                  print(exc.read().decode()[:600])
+              except Exception:
+                  pass
+          PY
       - name: Commit the answer
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f work/raw/probe-models.txt
-          git commit -m "probe: can GitHub Models be called from a workflow"
+          git commit -m "probe: GitHub Models rate limits and a pairing-shaped answer"
           git push origin "HEAD:${GITHUB_REF_NAME}" || echo "push rejected"
