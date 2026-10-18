@@ -15,8 +15,8 @@ into the explanation without a type label or formulaic lead-in.
 This layer is authored for the reader and is not an excerpt from or
 replacement for Tafsīr al-Ṭabarī. Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2),
 Āl ʿImrān (Surah 3), An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5),
-Al-Anʿām (Surah 6), and Al-Aʿrāf (Surah 7) have been written in this
-format; other surahs are not yet authored.
+Al-Anʿām (Surah 6), Al-Aʿrāf (Surah 7), and Al-Anfāl (Surah 8) have
+been written in this format; other surahs are not yet authored.
 
 ## Source files
 
