@@ -107,6 +107,20 @@ travels with the text and is shown in the app under the Tabari entry:
 Anyone reusing this translation should carry that notice with it, and should
 treat the Arabic as the text of record.
 
+## Phrase-by-phrase explanations
+
+`data/pairs_NNN.json` pairs pieces of the reader's English verse translation
+with short, original explanations. The translation pieces reuse `ayah_en`;
+the explanations are editorial material created for this reader and may add
+illustrative or contextual detail where useful. They are not excerpts from,
+or a replacement for, Tafsīr al-Ṭabarī, and are not a scholarly ruling.
+Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2), Āl ʿImrān (Surah 3),
+An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5), Al-Anʿām (Surah 6),
+Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah (Surah 9), Yūnus
+(Surah 10), Hūd (Surah 11), Yūsuf (Surah 12), Ar-Raʿd (Surah 13),
+Ibrāhīm (Surah 14), Al-Ḥijr (Surah 15), and An-Naḥl (Surah 16) have been
+published in this format; later surahs are not yet authored.
+
 ## Plain-English commentary (withdrawn)
 
 This reader carried a second layer for a while: a commentary written for the

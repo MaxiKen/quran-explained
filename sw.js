@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.14.0-2026-10-17';
+const CACHE_VERSION = 'quran-reader-v1.16.0-2026-10-18';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -22,10 +22,10 @@ const CACHE_VERSION = 'quran-reader-v1.14.0-2026-10-17';
 // 2026-10-17 it became Tafsīr al-Ṭabarī in English with the Arabic original
 // underneath (v1.11.0) — a different payload, not an addition. The
 // data/guidance_NNN.json files (the plain-English commentary) were withdrawn
-// on the same day and are no longer carried at all. A device must not keep
-// showing a withdrawn copy, so each kind of payload is only carried from
-// caches at least as new as the version that introduced its current form. Data
-// files are fetched network-first anyway; this only matters for offline reading.
+// on the same day. On 2026-10-18 the old phrase pairings were cleared and
+// replaced with a new, simpler format. Neither withdrawn guidance nor old
+// pairings are carried into the new cache. Data files are fetched
+// network-first anyway; this only matters for offline reading.
 const CARRY_FROM = {
   'chapter_': 'quran-reader-v0',
   'tafsir_': 'quran-reader-v1.11.0'

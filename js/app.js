@@ -341,16 +341,15 @@ const tafsirLoadPromises = {};
 /* The tafsir payload for a surah: Tafsīr al-Ṭabarī in English, with the
    Arabic original underneath it, imported from tafseerquran.com by
    tools/tabari/ into data/tafsir_NNN.json. One file, one source. */
-/* The phrase-by-phrase pairing: the verse taken phrase by phrase in plain
-   modern English, with the words Tabari says about each phrase. The pairing
-   is written by reading the commentary against the translation, so it is a
-   small file beside the payload. A surah that has not been written yet has
-   no file at all, and the reader is told so. */
+/* Phrase-by-phrase explanations: one short paragraph paired with each exact
+   piece of the reader's English verse translation. */
 const loadedPairs = {};
+const missingPairs = {};
 const pairsLoadPromises = {};
 
 function loadPairsData(num) {
   if (loadedPairs[num]) return Promise.resolve(loadedPairs[num]);
+  if (missingPairs[num]) return Promise.resolve(null);
   if (pairsLoadPromises[num]) return pairsLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
@@ -370,8 +369,10 @@ function loadPairsData(num) {
     .catch(err => {
       delete pairsLoadPromises[num];
       /* A surah that has not been written yet simply has no file. */
-      if (!err || err.message !== 'not written') {
-        console.error(`Failed to load the phrase pairing for Surah ${num}:`, err);
+      if (err && err.message === 'not written') {
+        missingPairs[num] = true;
+      } else {
+        console.error(`Failed to load phrase-by-phrase explanations for Surah ${num}:`, err);
       }
       return null;
     });
@@ -398,7 +399,7 @@ function loadTafsirData(num) {
     .then(data => {
       loadedTafsir[num] = data;
       delete tafsirLoadPromises[num];
-      /* the phrase pairing is small; it comes along with the payload */
+      /* The small phrase-explanation file loads alongside the tafsir. */
       loadPairsData(num);
       return data;
     })
@@ -1409,6 +1410,7 @@ function renderCompleteCommentary(container) {
   const chapterVerses = getChapterVerses(data);
   const speechSupported = ReadAloud.isSupported();
   const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number;
+  const mode = getCommentaryMode(ch.number);
   const readingLabel = !speechSupported ? 'Read aloud unavailable'
     : reading && ReadAloud.isSpeaking ? 'Reading aloud…'
     : reading ? (ReadAloud.ayah == null ? 'Resume introduction' : `Resume verse ${ReadAloud.ayah}`)
@@ -1439,12 +1441,12 @@ function renderCompleteCommentary(container) {
             <button class="ebook-secondary-btn" onclick="jumpToCommentaryVerse()">Go</button>
           </div>
         </div>
+        <div class="ebook-mode-control" id="commentaryModeControl">${commentaryModeSwitch(ch.number, mode)}</div>
         <div class="ebook-toolbar-actions">
           <button class="ebook-read-btn ${reading ? 'is-active' : ''}" id="raTrigger" onclick="ReadAloud.toggle(${ch.number})" title="Listen to this commentary with your device's own voice" ${speechSupported ? '' : 'disabled'}>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
             <span id="raTriggerLabel">${readingLabel}</span>
           </button>
-          <button class="ebook-secondary-btn ${getCommentaryMode() !== 'full' ? 'is-active' : ''}" id="commentaryModeBtn" onclick="switchCommentaryMode('${COMMENTARY_MODES.map(item => item.id)[(COMMENTARY_MODES.map(item => item.id).indexOf(getCommentaryMode()) + 1) % COMMENTARY_MODES.length]}')" title="Change how the commentary is read">${(COMMENTARY_MODES.find(item => item.id === COMMENTARY_MODES.map(item => item.id)[(COMMENTARY_MODES.map(item => item.id).indexOf(getCommentaryMode()) + 1) % COMMENTARY_MODES.length]) || {}).label || 'Full text'}</button>
           <button class="ebook-secondary-btn" onclick="openFontSizeModal()" title="Adjust text size">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg> Text size
           </button>
@@ -1459,7 +1461,7 @@ function renderCompleteCommentary(container) {
 
       ${!speechSupported ? '<p class="device-speech-note">Read aloud is unavailable because this browser has not exposed its built-in speech feature. The full text stays readable.</p>' : ''}
 
-      ${intro ? `<section class="ebook-introduction" id="commentary-intro"><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderCommentaryHtml(tafsir, intro)}</div></section>` : ''}
+      ${intro ? `<section class="ebook-introduction" id="commentary-intro"${mode === 'phrases' ? ' hidden' : ''}><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderCommentaryHtml(tafsir, intro, null, { mode, surahNum: ch.number })}</div></section>` : ''}
       <div class="ebook-content">`;
 
   for (const theme of data) {
@@ -1477,7 +1479,7 @@ function renderCompleteCommentary(container) {
           </span>
         </header>
         <p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>
-        <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
+        <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah, { mode, pairs: getPairsData(ch.number), surahNum: ch.number }) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
       </article>`;
     }
     html += `</section>`;
@@ -1492,6 +1494,7 @@ function renderCompleteCommentary(container) {
   html += `<footer class="ebook-footer"><span>End of the commentary for Surah ${escapeHtml(ch.name_en)}</span><button class="ebook-secondary-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top</button></footer></div></article>`;
   container.innerHTML = html;
   ReadAloud.onRouteRendered();
+  ensureCurrentPhraseData(ch.number);
 }
 
 /* ================================================
@@ -1625,7 +1628,7 @@ function getCommentaryRange(tafsir, ayahNum, sourceId) {
 
 /* One source's entry: range on the first line, source name under it, text
    starting on the line after that. */
-function renderTafsirEntry(entry, index, mode) {
+function renderTafsirEntry(entry, index) {
   const head = entry.range
     ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(entry.range)}</p>`
     : '';
@@ -1635,9 +1638,7 @@ function renderTafsirEntry(entry, index, mode) {
     ? `<p class="tafsir-entry-note">${escapeHtml(entry.notice)}</p>`
     : '';
   const primary = index === 0 ? ' tafsir-entry-primary' : '';
-  const body = mode === 'quick'
-    ? renderQuickRead(entry.text)
-    : `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div>`;
+  const body = `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(entry.text)}</div>`;
   return `<section class="tafsir-entry${primary}" data-source="${escapeHtml(entry.id)}">`
     + `${head}${label}${note}${body}`
     + `${renderTafsirArabic(entry)}</section>`;
@@ -1664,277 +1665,203 @@ function renderTafsirArabic(entry) {
     + `</details>`;
 }
 
-/* How the commentary is read: the whole thing, or the quick read. The reader
-   chooses; the choice is remembered on this device. */
+function isVerseModalOpen() {
+  const modal = document.getElementById('modal');
+  return ModalState.mode === 'verse' && !!ModalState.surah
+    && !!(modal && modal.classList.contains('active'));
+}
+
+function currentCommentarySurah() {
+  if (isVerseModalOpen()) return ModalState.surah;
+  if (typeof AppState !== 'undefined' && AppState.currentView === 'commentary') return AppState.currentSurah;
+  return null;
+}
+
 const COMMENTARY_MODE_KEY = 'quran-reader-commentary-mode';
-
-function getCommentaryMode() {
-  try {
-    const saved = localStorage.getItem(COMMENTARY_MODE_KEY);
-    return COMMENTARY_MODES.some(item => item.id === saved) ? saved : 'full';
-  } catch { return 'full'; }
-}
-
-function rememberCommentaryMode(mode) {
-  try { localStorage.setItem(COMMENTARY_MODE_KEY, mode); } catch { /* private mode */ }
-}
-
-/* The switch between the ways of reading the commentary. */
 const COMMENTARY_MODES = [
-  { id: 'full', label: 'Full commentary' },
-  { id: 'quick', label: 'Quick read' },
   { id: 'phrases', label: 'Phrase by phrase' },
+  { id: 'full', label: 'Full commentary' },
 ];
 
-function commentaryModeSwitch(mode) {
-  const buttons = COMMENTARY_MODES.map(item => {
-    const active = item.id === mode;
-    return `<button type="button" role="tab" class="commentary-switch-btn${active ? ' is-active' : ''}"`
-      + ` aria-selected="${active}" onclick="switchCommentaryMode('${item.id}')">${escapeHtml(item.label)}</button>`;
-  }).join('');
-  return `<div class="commentary-switch" role="tablist" aria-label="How to read the commentary">${buttons}</div>`;
+function phraseModeAvailable(surahNum) {
+  return !!getPairsData(surahNum) || !missingPairs[surahNum];
 }
 
-/* The reader changed the way the commentary is shown. The page is not
-   re-rendered from scratch, so the reader keeps their place. */
-function switchCommentaryMode(mode) {
-  rememberCommentaryMode(mode);
-  if (ModalState.mode === 'verse' && ModalState.surah) {
-    const tafsir = loadedTafsir[ModalState.surah];
+function getCommentaryMode(surahNum) {
+  const surah = Number(surahNum || currentCommentarySurah());
+  if (!surah || missingPairs[surah]) return 'full';
+  try {
+    const saved = localStorage.getItem(`${COMMENTARY_MODE_KEY}:${surah}`);
+    if (COMMENTARY_MODES.some(item => item.id === saved)) return saved;
+  } catch { /* private browsing can disable storage */ }
+  return surah === 1 ? 'phrases' : 'full';
+}
+
+function rememberCommentaryMode(surahNum, mode) {
+  try { localStorage.setItem(`${COMMENTARY_MODE_KEY}:${surahNum}`, mode); }
+  catch { /* private browsing can disable storage */ }
+}
+
+function commentaryModeSwitch(surahNum, mode) {
+  const selected = COMMENTARY_MODES.some(item => item.id === mode)
+    ? mode : getCommentaryMode(surahNum);
+  const buttons = COMMENTARY_MODES.map(item => {
+    const active = item.id === selected;
+    const disabled = item.id === 'phrases' && !phraseModeAvailable(surahNum);
+    return `<button type="button" class="commentary-switch-btn${active ? ' is-active' : ''}${disabled ? ' is-disabled' : ''}"`
+      + ` aria-pressed="${active}"${disabled ? ' disabled aria-disabled="true"' : ''}`
+      + ` onclick="switchCommentaryMode('${item.id}', ${surahNum})">`
+      + `${escapeHtml(item.label)}</button>`;
+  }).join('');
+  return `<div class="commentary-switch" role="group" aria-label="Choose a commentary view">${buttons}</div>`;
+}
+
+function updateCommentaryModeControl(surahNum, mode) {
+  const control = document.getElementById('commentaryModeControl');
+  if (control) control.innerHTML = commentaryModeSwitch(surahNum, mode);
+}
+
+/* The two views are alternatives. Switching replaces the visible content;
+   the full source passage is never appended below the phrase reading. */
+function switchCommentaryMode(mode, surahNum) {
+  if (!COMMENTARY_MODES.some(item => item.id === mode)) return;
+  const surah = Number(surahNum || currentCommentarySurah());
+  if (!surah || (mode === 'phrases' && !phraseModeAvailable(surah))) return;
+  rememberCommentaryMode(surah, mode);
+
+  if (isVerseModalOpen() && ModalState.surah === surah) {
+    const tafsir = loadedTafsir[surah];
     const text = getVerseCommentary(tafsir, ModalState.ayah);
     const body = document.getElementById('modalBody');
     if (body && text) {
       body.innerHTML = renderCommentaryHtml(tafsir, text, ModalState.ayah, {
         showSwitch: true,
-        pairs: getPairsData(ModalState.surah),
+        mode,
+        pairs: getPairsData(surah),
+        surahNum: surah,
       });
       afterModalBodyRender();
     }
-    return;
   }
-  if (AppState.currentView === 'commentary') {
-    const tafsir = loadedTafsir[AppState.currentSurah];
-    const intro = getSurahIntro(tafsir);
-    const introBox = document.querySelector('.ebook-introduction-content');
-    if (introBox && intro) introBox.innerHTML = renderCommentaryHtml(tafsir, intro);
+
+  if (typeof AppState !== 'undefined' && AppState.currentView === 'commentary'
+      && AppState.currentSurah === surah) {
+    const introSection = document.getElementById('commentary-intro');
+    if (introSection) introSection.hidden = mode === 'phrases';
     document.querySelectorAll('.ebook-verse').forEach(el => {
       const ayah = parseInt((el.id || '').replace('commentary-verse-', ''), 10);
       if (!ayah) return;
       const holder = el.querySelector('.ebook-commentary');
-      const text = getVerseCommentary(tafsir, ayah);
+      const text = getVerseCommentary(loadedTafsir[surah], ayah);
       if (holder && text) {
-        holder.innerHTML = renderCommentaryHtml(tafsir, text, ayah, {
-          pairs: getPairsData(AppState.currentSurah),
+        holder.innerHTML = renderCommentaryHtml(loadedTafsir[surah], text, ayah, {
+          mode,
+          pairs: getPairsData(surah),
         });
       }
     });
-    updateCommentaryModeButton();
+    updateCommentaryModeControl(surah, mode);
+    if (ReadAloud.hasSession) ReadAloud.onCommentaryModeChanged(surah);
   }
 }
 
-/* The button in the reading edition says what it will do next. */
-function updateCommentaryModeButton() {
-  const btn = document.getElementById('commentaryModeBtn');
-  if (!btn) return;
-  const mode = getCommentaryMode();
-  const order = COMMENTARY_MODES.map(item => item.id);
-  const next = order[(order.indexOf(mode) + 1) % order.length];
-  const label = COMMENTARY_MODES.find(item => item.id === next);
-  btn.textContent = label ? label.label : 'Full text';
-  btn.classList.toggle('is-active', mode !== 'full');
-  btn.setAttribute('title', 'Change how the commentary is read');
-  btn.setAttribute('onclick', `switchCommentaryMode('${next}')`);
-}
+/* Refresh the current view once the chapter's short phrase file arrives. */
+function refreshCurrentCommentary() {
+  const surah = currentCommentarySurah();
+  if (!surah) return;
+  const mode = getCommentaryMode(surah);
+  const tafsir = loadedTafsir[surah];
 
-/* ================================================
-   THE QUICK READ
-   Tabari's commentary is long - 2:255 runs to 9,600 words. The quick read
-   lists the parts it is made of, so a reader can see the shape of the
-   commentary and open only the parts they want.
-
-   Where Tabari himself goes phrase by phrase, the phrase is the heading of
-   its group and the parts sit under it. Everywhere else the parts stand on
-   their own. Every line is Tabari's own text: the opening sentence of a
-   part, cut short with an ellipsis where the sentence runs on. Nothing is
-   paraphrased and nothing is dropped - the full text is one tap away, and
-   the full commentary is still there.
-================================================ */
-
-/* The classical formula that opens a phrase of the verse: "The exposition of
-   His word:", "The statement concerning the explanation of His saying ...:",
-   and the other ways the printed edition puts it. */
-const PHRASE_FORMULA = /^(?:The\s+)?(?:explanation|exposition|discourse|statement|discussion|interpretation|meaning|purpose|significance|word|words|saying|utterance|purport)\b[^:]{0,160}:/i;
-
-/* Lines that never open a phrase, however they are worded: footnotes, notes
-   about the printed edition, and the chains of transmission. */
-const NOT_A_PHRASE = /^(?:\(\d+\)|\d+\s+[\u2014\u2013-])|(?:Mention of who said|The mention of who|In the printed edition|in the manuscript|in the copy of|and in the margin|as it is written in|.*\brelated (?:to us|to me)\b)/i;
-
-const QUICK_READ_MAX = 200;
-
-function isPhraseOpening(line) {
-  if (!line || line.length >= 320 || line.indexOf(':') === -1) return false;
-  if (NOT_A_PHRASE.test(line)) return false;
-  const match = line.match(PHRASE_FORMULA);
-  if (!match) return false;
-  /* the formula in front of the colon, and the phrase behind it */
-  if (match[0].length - 1 > 90) return false;
-  if (line.length - match[0].length > 220) return false;
-  return true;
-}
-
-function splitParagraphs(text) {
-  return String(text || '')
-    .split(/\n\s*\n/)
-    .map(part => part.trim())
-    /* the printed edition's separator lines are not parts of the text */
-    .filter(part => part && !/^[-*_—–=\s]{3,}$/.test(part));
-}
-
-/* The opening sentence of a part, cut short with an ellipsis when it runs
-   on. It is Tabari's own sentence, only shorter. */
-function quickReadLabel(text) {
-  const dot = text.indexOf('. ');
-  let first = dot > 0 ? text.slice(0, dot + 1) : text;
-  if (first.length > QUICK_READ_MAX) {
-    const cut = first.slice(0, QUICK_READ_MAX);
-    const space = cut.lastIndexOf(' ');
-    first = (space > QUICK_READ_MAX * 0.6 ? cut.slice(0, space) : cut).trimEnd() + '\u2026';
-  }
-  return first;
-}
-
-/* The quick read of a passage: groups, each with the phrase Tabari opens it
-   with (when he opens it with one) and the parts under it. */
-function buildQuickRead(text) {
-  const paragraphs = splitParagraphs(text);
-  const groups = [];
-  let current = null;
-  for (const paragraph of paragraphs) {
-    if (isPhraseOpening(paragraph)) {
-      current = { phrase: paragraph, parts: [] };
-      groups.push(current);
-      continue;
+  if (isVerseModalOpen()) {
+    const text = getVerseCommentary(tafsir, ModalState.ayah);
+    const body = document.getElementById('modalBody');
+    if (body && text) {
+      body.innerHTML = renderCommentaryHtml(tafsir, text, ModalState.ayah, {
+        showSwitch: true,
+        mode,
+        pairs: getPairsData(surah),
+        surahNum: surah,
+      });
+      afterModalBodyRender();
     }
-    if (!current) {
-      current = { phrase: '', parts: [] };
-      groups.push(current);
-    }
-    current.parts.push({ label: quickReadLabel(paragraph), text: paragraph });
   }
-  return groups;
+
+  if (typeof AppState === 'undefined' || AppState.currentView !== 'commentary'
+      || AppState.currentSurah !== surah) return;
+  const introSection = document.getElementById('commentary-intro');
+  if (introSection) introSection.hidden = mode === 'phrases';
+  document.querySelectorAll('.ebook-verse').forEach(el => {
+    const ayah = parseInt((el.id || '').replace('commentary-verse-', ''), 10);
+    if (!ayah) return;
+    const holder = el.querySelector('.ebook-commentary');
+    const text = getVerseCommentary(tafsir, ayah);
+    if (holder && text) {
+      holder.innerHTML = renderCommentaryHtml(tafsir, text, ayah, {
+        mode,
+        pairs: getPairsData(surah),
+      });
+    }
+  });
+  updateCommentaryModeControl(surah, mode);
+  if (ReadAloud.hasSession) ReadAloud.onCommentaryModeChanged(surah);
 }
 
-function renderQuickRead(text) {
-  const groups = buildQuickRead(text);
-  if (!groups.length) return '';
-  const html = groups.map(group => {
-    const head = group.phrase
-      ? `<p class="quick-read-phrase">${escapeHtml(group.phrase)}</p>`
-      : '';
-    const parts = group.parts.map(part =>
-      `<details class="quick-read-part"><summary>${escapeHtml(part.label)}</summary>`
-      + `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(part.text)}</div>`
-      + `</details>`).join('');
-    return `<section class="quick-read-group">${head}${parts}</section>`;
-  }).join('');
-  const count = groups.reduce((total, group) => total + group.parts.length, 0);
-  return `<div class="quick-read" data-source="quick-read">`
-    + `<p class="quick-read-note">Tabar\u012b's commentary in ${count} part${count === 1 ? '' : 's'}`
-    + ` \u2014 every line is his own text, shortened. Open a line for the full passage.</p>`
-    + html
-    + `</div>`;
+function ensureCurrentPhraseData(surah) {
+  if (!surah || getPairsData(surah) || missingPairs[surah]) return;
+  loadPairsData(surah).then(data => {
+    if (currentCommentarySurah() !== surah) return;
+    if ((data && getCommentaryMode(surah) === 'phrases') || missingPairs[surah]) {
+      refreshCurrentCommentary();
+    }
+  });
 }
-
 
 /* ================================================
    PHRASE BY PHRASE
-   The verse taken phrase by phrase in plain modern English, with the words
-   Tabari says about that phrase. The pairing was written by reading the
-   commentary against the translation: the phrase line is a plain-English
-   reading of the verse, and everything under it is Tabari's own text, never
-   a summary of it.
+   Each translation piece has its own explanatory paragraph.
 ================================================ */
-
-/* The reader's words, with the words that are the Arabic of the verse
-   marked as they are marked in the verse sheet. */
-function renderPhraseText(text) {
-  return escapeHtml(String(text || ''))
-    .replace(/\u02f9([^\u02f9]*)\u02fa/g, '<span class="phrase-arabic-word">$1</span>');
-}
-
-/* One of Tabari's paragraphs, folded away until the reader opens it. */
-function renderPhrasePart(text) {
-  return `<details class="quick-read-part"><summary>${escapeHtml(quickReadLabel(text))}</summary>`
-    + `<div class="tafsir-text" dir="ltr" lang="en">${renderMarkdown(text)}</div>`
-    + `</details>`;
-}
-
-function renderPhraseByPhrase(tafsir, ayahNum, pairs) {
-  const entries = getVerseCommentaryAll(tafsir, ayahNum);
-  const entry = entries[0];
-  if (!entry) return '';
-  const paragraphs = splitParagraphs(entry.text);
+function renderPhraseByPhrase(ayahNum, pairs) {
   const verse = pairs && pairs.verses ? pairs.verses[String(ayahNum)] : null;
   const phrases = verse && Array.isArray(verse.phrases) ? verse.phrases : [];
-
   if (!pairs) {
-    return `<p class="modal-p">The phrase by phrase reading of this surah has not been written yet.`
-      + ` The commentary itself is here in full, and the quick read lays it out in short steps.</p>`;
+    return '<p class="phrase-unavailable">Phrase-by-phrase explanations have not been written for this chapter yet.</p>';
   }
   if (!phrases.length) {
-    return `<p class="modal-p">This verse has no phrase reading yet.`
-      + ` The commentary itself is here in full.</p>`;
+    return '<p class="phrase-unavailable">A phrase-by-phrase explanation has not been written for this verse yet.</p>';
   }
 
-  const items = phrases.map(phrase => {
-    const arabic = phrase.ar
-      ? `<p class="phrase-ar" dir="rtl" lang="ar">${escapeHtml(phrase.ar)}</p>`
-      : '';
-    const theirs = phrase.translation
-      ? `<p class="phrase-translation">${renderPhraseText(phrase.translation)}</p>`
-      : '';
-    let tabari = '';
-    (phrase.parts || []).forEach(index => {
-      const text = paragraphs[index];
-      if (text) tabari += renderPhrasePart(text);
-    });
-    const body = tabari
-      ? `<div class="phrase-tabari">${tabari}</div>`
-      : `<p class="phrase-none">Tabari says nothing more about this phrase here.</p>`;
-    return `<li class="phrase-item">`
-      + `${theirs}<p class="phrase-text">${renderPhraseText(phrase.text)}</p>${arabic}${body}</li>`;
-  }).join('');
+  const items = phrases.map((phrase, index) =>
+    `<li class="phrase-item">`
+    + `<span class="phrase-number" aria-hidden="true">${index + 1}</span>`
+    + `<div class="phrase-content">`
+    + `<p class="phrase-translation">${escapeHtml(phrase.translation)}</p>`
+    + `<p class="phrase-explanation">${escapeHtml(phrase.explanation)}</p>`
+    + `</div></li>`
+  ).join('');
 
-  const total = phrases.reduce((sum, phrase) => sum + (phrase.parts ? phrase.parts.length : 0), 0);
-  return `<div class="phrase-view" data-source="tabari">`
-    + `<p class="quick-read-note">The verse taken phrase by phrase. Each phrase gives the reader's own`
-    + ` words first, then a plain reading of it, and under that Tabari's own account, ${total} passage`
-    + `${total === 1 ? '' : 's'} in all, opened one at a time.</p>`
+  return `<section class="phrase-view" aria-label="Phrase-by-phrase explanation">`
     + `<ol class="phrase-list">${items}</ol>`
-    + `</div>`;
+    + `</section>`;
 }
 
-/* The tafsīr itself. There is one source now, so it is shown directly under
-   the plain-English commentary instead of being folded away behind a "read
-   the N sources" disclosure. */
-function renderTafsirSources(entries, mode) {
+function renderTafsirSources(entries) {
   if (!entries || !entries.length) return '';
-  return entries.map((e, i) => renderTafsirEntry(e, i, mode)).join('');
+  return entries.map((entry, index) => renderTafsirEntry(entry, index)).join('');
 }
 
-/* Render commentary with its verse range as the first line and the text
-   starting on the next. Returns '' for an empty commentary so callers keep
-   their fallbacks. */
+/* Render exactly one of the selected views for each verse. */
 function renderCommentaryHtml(tafsir, text, ayahNum, options) {
   const opts = options || {};
-  const mode = opts.mode || getCommentaryMode();
-  const switcher = opts.showSwitch ? commentaryModeSwitch(mode) : '';
-  if (mode === 'phrases' && ayahNum != null && tafsir && tafsir.sets) {
-    return switcher + renderPhraseByPhrase(tafsir, ayahNum, opts.pairs);
+  const mode = opts.mode || getCommentaryMode(opts.surahNum || currentCommentarySurah());
+  const switcher = opts.showSwitch
+    ? commentaryModeSwitch(opts.surahNum || currentCommentarySurah(), mode)
+    : '';
+  if (ayahNum != null && mode === 'phrases') {
+    return switcher + renderPhraseByPhrase(ayahNum, opts.pairs);
   }
   if (ayahNum != null && tafsir && tafsir.sets) {
     const entries = getVerseCommentaryAll(tafsir, ayahNum);
-    if (entries.length) return switcher + renderTafsirSources(entries, mode);
+    if (entries.length) return switcher + renderTafsirSources(entries);
   }
   if (!text) return switcher;
   const dir = getTafsirDir(tafsir);
@@ -1944,10 +1871,7 @@ function renderCommentaryHtml(tafsir, text, ayahNum, options) {
   const head = range
     ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(range)}</p>`
     : '';
-  const body = mode === 'quick'
-    ? renderQuickRead(text)
-    : `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
-  return switcher + body;
+  return switcher + `<div class="${cls}" dir="${dir}" lang="${lang}">${head}${renderMarkdown(text)}</div>`;
 }
 
 /* Get the Sūrah introduction / overview notes, when the tafsir payload
@@ -3058,9 +2982,12 @@ function showExplanation(surahNum, ayahNum) {
   if (explanation) {
     document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation, ayahNum, {
       showSwitch: true,
+      mode: getCommentaryMode(surahNum),
       pairs: getPairsData(surahNum),
+      surahNum,
     });
     afterModalBodyRender();
+    ensureCurrentPhraseData(surahNum);
   } else {
     showModalSkeleton();
     loadTafsirData(surahNum)
@@ -3068,9 +2995,15 @@ function showExplanation(surahNum, ayahNum) {
         if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
         const text = getVerseCommentary(tafsir, ayahNum);
         document.getElementById('modalBody').innerHTML = text
-          ? renderCommentaryHtml(tafsir, text, ayahNum, { showSwitch: true, pairs: getPairsData(surahNum) })
+          ? renderCommentaryHtml(tafsir, text, ayahNum, {
+            showSwitch: true,
+            mode: getCommentaryMode(surahNum),
+            pairs: getPairsData(surahNum),
+            surahNum,
+          })
           : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';
         afterModalBodyRender();
+        if (text) ensureCurrentPhraseData(surahNum);
       })
       .catch(() => {
         document.getElementById('modalBody').innerHTML = '<p class="modal-p">Detailed commentary is coming soon, in sha Allah. If you are offline, check your connection.</p>';
