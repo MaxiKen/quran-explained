@@ -114,9 +114,9 @@ with short, original explanations. The translation pieces reuse `ayah_en`;
 the explanations are editorial material created for this reader and may add
 illustrative or contextual detail where useful. They are not excerpts from,
 or a replacement for, Tafsīr al-Ṭabarī, and are not a scholarly ruling.
-Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2), Āl ʿImrān (Surah 3), and
-An-Nisāʾ (Surah 4) and Al-Mā’idah (Surah 5) have been published in this
-format; other surahs are not yet authored.
+Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2), Āl ʿImrān (Surah 3),
+An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5), and Al-Anʿām (Surah 6) have been
+published in this format; other surahs are not yet authored.
 
 ## Plain-English commentary (withdrawn)
 
