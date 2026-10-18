@@ -116,8 +116,9 @@ illustrative or contextual detail where useful. They are not excerpts from,
 or a replacement for, Tafsīr al-Ṭabarī, and are not a scholarly ruling.
 Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2), Āl ʿImrān (Surah 3),
 An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5), Al-Anʿām (Surah 6),
-Al-Aʿrāf (Surah 7), and Al-Anfāl (Surah 8) have been published in this
-format; other surahs are not yet authored.
+Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah (Surah 9), and Yūnus
+(Surah 10) have been published in this format; other surahs are not yet
+authored.
 
 ## Plain-English commentary (withdrawn)
 
