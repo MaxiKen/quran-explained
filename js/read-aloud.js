@@ -402,8 +402,11 @@ const ReadAloud = {
   },
 
   ensureData(surahNum) {
-    if (this.hasData(surahNum)) return Promise.resolve();
-    return Promise.all([loadChapterData(surahNum), loadTafsirData(surahNum)]).then(() => undefined);
+    return Promise.all([
+      loadChapterData(surahNum),
+      loadTafsirData(surahNum),
+      loadPairsData(surahNum),
+    ]).then(() => undefined);
   },
 
   translationFor(surahNum, ayah) {
@@ -417,7 +420,9 @@ const ReadAloud = {
     const tafsir = loadedTafsir[surahNum];
     if (!tafsir) return null;
     const lines = [];
+    const mode = typeof getCommentaryMode === 'function' ? getCommentaryMode(surahNum) : 'full';
     if (ayah == null) {
+      if (mode === 'phrases') return null;
       const intro = getSurahIntro(tafsir);
       if (!intro) return null;
       const ch = (window.chaptersData || []).find((chapter) => chapter.number === surahNum);
@@ -440,20 +445,35 @@ const ReadAloud = {
         isTranslation: true,
         lang: 'en',
       });
-      /* as-Saʿdī explains a run of verses in a single block, so consecutive
-         verses return the same text. Speak it once, at the first verse it
-         covers, otherwise the player repeats whole paragraphs every verse. */
-      const previous = ayah > 1 ? getVerseCommentary(tafsir, ayah - 1) : '';
-      if (commentary !== previous) {
-        const commentaryLang = typeof getTafsirLang === 'function' ? getTafsirLang(tafsir) : 'en';
-        splitSpeechText(markdownToSpeechText(commentary)).forEach((text, index) => lines.push({
-          ayah,
-          speak: text,
-          show: text,
-          label: `Verse ${ayah}`,
-          first: index === 0,
-          lang: commentaryLang,
-        }));
+
+      if (mode === 'phrases') {
+        const verse = getPairsData(surahNum)?.verses?.[String(ayah)];
+        for (const phrase of (verse && Array.isArray(verse.phrases) ? verse.phrases : [])) {
+          const phraseText = `${phrase.translation}. ${phrase.explanation}`;
+          splitSpeechText(markdownToSpeechText(phraseText)).forEach((text, index) => lines.push({
+            ayah,
+            speak: text,
+            show: text,
+            label: `Verse ${ayah}`,
+            first: lines.length === 1 && index === 0,
+            lang: 'en',
+          }));
+        }
+      } else {
+        /* Some source entries cover a run of verses. Speak a shared passage
+           only at the first verse it covers rather than repeating it. */
+        const previous = ayah > 1 ? getVerseCommentary(tafsir, ayah - 1) : '';
+        if (commentary !== previous) {
+          const commentaryLang = typeof getTafsirLang === 'function' ? getTafsirLang(tafsir) : 'en';
+          splitSpeechText(markdownToSpeechText(commentary)).forEach((text, index) => lines.push({
+            ayah,
+            speak: text,
+            show: text,
+            label: `Verse ${ayah}`,
+            first: index === 0,
+            lang: commentaryLang,
+          }));
+        }
       }
     }
     this._unitCache[cacheKey] = lines;
@@ -981,10 +1001,11 @@ const ReadAloud = {
     const verseEl = this.ayah == null ? null : document.getElementById(`commentary-verse-${this.ayah}`);
     const scope = verseEl || document.querySelector('.ebook-introduction');
     if (!scope) return;
-    /* The quick read lists the commentary as its parts, so there is no
-       paragraph for a spoken line to follow. The reading itself is the same. */
-    if (scope.querySelector('.quick-read')) return;
-    const nodes = scope.querySelectorAll('.ebook-commentary > *, .ebook-introduction-content > *, .ebook-translation');
+    const phraseMode = typeof getCommentaryMode === 'function'
+      && getCommentaryMode(this.activeSurah) === 'phrases';
+    const nodes = phraseMode
+      ? scope.querySelectorAll('.ebook-translation, .ebook-commentary .phrase-item')
+      : scope.querySelectorAll('.ebook-commentary > *, .ebook-introduction-content > *, .ebook-translation');
     const list = Array.prototype.slice.call(nodes);
     this._lineEls = this.lines.map((line) => this._matchNode(line, list));
     this._measureLines();
@@ -1249,6 +1270,34 @@ const ReadAloud = {
     this._renderNavigator();
     this.updateUI();
     this._setActiveLine();
+  },
+
+  onCommentaryModeChanged(surahNum) {
+    if (!this.hasSession || this.activeSurah !== surahNum) {
+      this._unitCache = {};
+      return;
+    }
+    const wasSpeaking = this.isSpeaking;
+    const wasPaused = this.isPaused;
+    const ayah = this.ayah;
+    this.session += 1;
+    if (this.isSupported()) window.speechSynthesis.cancel();
+    this.isSpeaking = false;
+    this.isPaused = false;
+    this.utterance = null;
+    this._unitCache = {};
+    this._setUnit(ayah, 0);
+    this._renderNavigator();
+    if (wasSpeaking) {
+      this.isSpeaking = true;
+      this._speakCurrent();
+    } else if (wasPaused) {
+      this.isPaused = true;
+      this._setActiveLine();
+      this.updateUI();
+    } else {
+      this.updateUI();
+    }
   },
 
   onRouteRendered() {

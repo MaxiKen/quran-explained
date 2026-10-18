@@ -1,26 +1,13 @@
 #!/usr/bin/env python3
-"""Assemble the published pairing from the authored files.
+"""Validate and publish the hand-written phrase explanations.
 
-    python3 tools/pairs/assemble.py            # every authored surah
-    python3 tools/pairs/assemble.py --check    # check only, write nothing
+    python3 tools/pairs/assemble.py --check   # validate, write nothing
+    python3 tools/pairs/assemble.py           # publish all authored chapters
 
-`tools/pairs/authored/NNN.json` holds the pairing, written by reading
-Tafsir al-Tabari in English against the reader's modern translation. This
-script checks it and turns it into `data/pairs_NNN.json`, which is what the
-reader loads.
-
-The checks are the house style of the reader and the two rules that keep the
-pairing honest:
-
-  * a phrase is plain modern English: no Arabic script, no em dash, no
-    semicolon outside quotes, and a sentence of its own;
-  * the words of the app's own translation that the phrase stands for are
-    really in the verse, and the Arabic of the phrase is really in the
-    verse;
-  * a part is a paragraph that exists in the commentary, and the paragraphs
-    of a phrase run in the order they are read. A paragraph may speak to
-    more than one phrase, and then it is given to both;
-  * the Arabic of a phrase, when given, is the Arabic of the verse.
+`tools/pairs/authored/NNN.json` contains exact pieces of the reader's own
+English verse translation and one concise paragraph for each piece. This
+script verifies that the phrases cover the verse in reading order, then
+publishes the data consumed by the app as `data/pairs_NNN.json`.
 """
 
 from __future__ import annotations
@@ -36,121 +23,125 @@ sys.path.insert(0, HERE)
 
 import source  # noqa: E402
 
-AUTHORED = os.path.join(HERE, 'authored')
+AUTHORED = os.path.join(HERE, "authored")
+ARABIC = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
+DASH = re.compile("[—–]")
+LETTER_OR_NUMBER = re.compile(r"[A-Za-z0-9]")
 
-ARABIC = re.compile(r'[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]')
-EM_DASH = re.compile('[—–]')
 
+def check_line(value: object, field: str, where: str, problems: list[str], minimum: int, maximum: int) -> str:
+    if not isinstance(value, str) or not value.strip():
+        problems.append("%s: empty %s" % (where, field))
+        return ""
 
-def check_phrase(phrase: dict, where: str, problems: list) -> None:
-    text = phrase.get('text', '')
-    if not text.strip():
-        problems.append('%s: empty phrase' % where)
-        return
+    text = value.strip()
     if ARABIC.search(text):
-        problems.append('%s: the phrase carries Arabic script' % where)
-    if EM_DASH.search(text):
-        problems.append('%s: the phrase carries an em dash' % where)
-    if ';' in text:
-        problems.append('%s: the phrase carries a semicolon' % where)
-    letters = [c for c in text if c.isalpha()]
+        problems.append("%s: %s contains Arabic script" % (where, field))
+    if DASH.search(text):
+        problems.append("%s: %s contains an em dash or en dash" % (where, field))
+    if ";" in text:
+        problems.append("%s: %s contains a semicolon" % (where, field))
+    letters = [char for char in text if char.isalpha()]
     if not letters or not letters[0].isupper():
-        problems.append('%s: the phrase does not start a sentence' % where)
-    if len(text.split()) < 3:
-        problems.append('%s: the phrase is too short to carry a meaning' % where)
-    if len(text.split()) > 60:
-        problems.append('%s: the phrase is too long to read at a glance' % where)
+        problems.append("%s: %s should start with a capital letter" % (where, field))
+    words = text.split()
+    if len(words) < minimum:
+        problems.append("%s: %s is too short" % (where, field))
+    if len(words) > maximum:
+        problems.append("%s: %s is too long to keep concise" % (where, field))
+    return text
 
 
-def build_surah(surah: int) -> tuple[dict, list]:
-    """The published pairing for one surah, and what is wrong with it."""
+def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, str]:
+    if not isinstance(phrase, dict):
+        problems.append("%s: phrase must be an object" % where)
+        return {"translation": "", "explanation": ""}
+
+    allowed = {"translation", "explanation"}
+    extra = set(phrase) - allowed
+    if extra:
+        problems.append("%s: unexpected field(s): %s" % (where, ", ".join(sorted(extra))))
+
+    translation = phrase.get("translation", "")
+    if not isinstance(translation, str) or not translation.strip():
+        problems.append("%s: empty translation phrase" % where)
+        translation = ""
+    else:
+        translation = translation.strip()
+
+    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 30, 85)
+    if "\n" in explanation or "\r" in explanation:
+        problems.append("%s: explanation must be a single paragraph" % where)
+    return {
+        "translation": translation,
+        "explanation": explanation,
+    }
+
+
+def build_surah(surah: int) -> tuple[dict, list[str]]:
+    """Return one published chapter payload and its validation problems."""
     problems: list[str] = []
-    path = os.path.join(AUTHORED, '%03d.json' % surah)
-    with open(path, encoding='utf-8') as handle:
+    path = os.path.join(AUTHORED, "%03d.json" % surah)
+    with open(path, encoding="utf-8") as handle:
         authored = json.load(handle)
 
-    tafsir_path = os.path.join(ROOT, 'data', 'tafsir_%03d.json' % surah)
-    with open(tafsir_path, encoding='utf-8') as handle:
-        tafsir = json.load(handle)
+    if authored.get("surah") != surah:
+        problems.append("surah %d: authored file has a mismatched surah number" % surah)
+
     chapter = source.read_chapter(surah)
+    verses: dict[str, dict] = {}
+    authored_verses = authored.get("verses", {})
+    if not isinstance(authored_verses, dict) or not authored_verses:
+        problems.append("surah %d: no verses have been authored" % surah)
+        return {"surah": surah, "verses": verses}, problems
 
-    verses: dict = {}
-    for ayah, verse in authored.get('verses', {}).items():
-        passage = tafsir['sets']['tabari']['blocks'][tafsir['verses'][ayah]['tabari']]
-        count = len(source.paragraphs_of(passage))
+    for ayah, verse in authored_verses.items():
+        where_verse = "surah %d verse %s" % (surah, ayah)
+        if ayah not in chapter:
+            problems.append("%s: verse does not exist in the reader's chapter data" % where_verse)
+            continue
+        if not isinstance(verse, dict):
+            problems.append("%s: verse entry must be an object" % where_verse)
+            continue
+
+        phrases_data = verse.get("phrases", [])
+        if not isinstance(phrases_data, list) or not phrases_data:
+            problems.append("%s: no phrases have been authored" % where_verse)
+            continue
+
+        modern = chapter[ayah].get("en", "")
+        cursor = 0
         phrases = []
-        last = -1
-        for number, phrase in enumerate(verse.get('phrases', [])):
-            where = 'surah %d verse %s phrase %d' % (surah, ayah, number + 1)
-            check_phrase(phrase, where, problems)
-            if 'range' in phrase:
-                start, end = phrase['range']
-                parts = list(range(start, end + 1))
-            else:
-                parts = list(phrase.get('parts', []))
-            if not parts:
-                problems.append('%s: no part of the commentary is attached' % where)
-            for index in parts:
-                if not 0 <= index < count:
-                    problems.append('%s: paragraph %d does not exist' % (where, index))
-            if parts and parts != sorted(parts):
-                problems.append('%s: the paragraphs run backwards' % where)
-            if parts and parts[0] < last:
-                problems.append('%s: the phrases do not follow the order of the passage' % where)
-            last = parts[0] if parts else last
-            arabic_piece = phrase.get('ar', '')
-            if arabic_piece:
-                if ARABIC.search(arabic_piece) and chapter.get(ayah, {}).get('ar', ''):
-                    if not source.arabic_in(arabic_piece, chapter.get(ayah, {}).get('ar', '')):
-                        problems.append('%s: the Arabic given is not in the verse' % where)
-            translation = phrase.get('translation', '')
+        for number, authored_phrase in enumerate(phrases_data, 1):
+            where = "%s phrase %d" % (where_verse, number)
+            phrase = check_phrase(authored_phrase, where, problems)
+            translation = phrase["translation"]
             if translation:
-                modern = chapter.get(ayah, {}).get('en', '')
-                if translation not in modern:
-                    problems.append('%s: the translation given is not in the verse' % where)
-            phrases.append({
-                'translation': translation,
-                'text': phrase.get('text', ''),
-                'ar': arabic_piece,
-                'parts': parts,
-            })
-        verses[ayah] = {'phrases': phrases}
-    return {'surah': surah, 'verses': verses}, problems
+                start = modern.find(translation, cursor)
+                if start < 0:
+                    problems.append("%s: translation phrase is missing or out of order" % where)
+                else:
+                    gap = modern[cursor:start]
+                    if LETTER_OR_NUMBER.search(gap):
+                        problems.append("%s: words are skipped between phrase parts" % where)
+                    cursor = start + len(translation)
+            phrases.append(phrase)
 
+        if LETTER_OR_NUMBER.search(modern[cursor:]):
+            problems.append("%s: the phrase parts do not cover the full verse translation" % where_verse)
+        verses[ayah] = {"phrases": phrases}
 
-def coverage(surah: int, authored: dict) -> list:
-    """The passages of the commentary that no phrase speaks of."""
-    tafsir_path = os.path.join(ROOT, 'data', 'tafsir_%03d.json' % surah)
-    with open(tafsir_path, encoding='utf-8') as handle:
-        tafsir = json.load(handle)
-    gaps = []
-    for ayah, verse in authored.get('verses', {}).items():
-        passage = tafsir['sets']['tabari']['blocks'][tafsir['verses'][ayah]['tabari']]
-        count = len(source.paragraphs_of(passage))
-        covered = set()
-        for phrase in verse.get('phrases', []):
-            covered.update(range(*_span(phrase)))
-        missing = [i for i in range(count) if i not in covered]
-        if missing:
-            gaps.append((ayah, count, missing))
-    return gaps
-
-
-def _span(phrase: dict) -> tuple:
-    if 'range' in phrase:
-        start, end = phrase['range']
-        return start, end + 1
-    parts = phrase.get('parts', [])
-    return (min(parts), max(parts) + 1) if parts else (0, 0)
+    return {"surah": surah, "verses": verses}, problems
 
 
 def main() -> int:
-    check_only = '--check' in sys.argv
-    names = sorted(name for name in os.listdir(AUTHORED) if name.endswith('.json'))
+    check_only = "--check" in sys.argv
+    names = sorted(name for name in os.listdir(AUTHORED) if name.endswith(".json"))
     if not names:
-        print('nothing authored yet')
+        print("nothing authored yet")
         return 0
-    all_problems = []
+
+    all_problems: list[str] = []
     written = 0
     for name in names:
         surah = int(name[:3])
@@ -159,23 +150,17 @@ def main() -> int:
         if problems:
             continue
         if not check_only:
-            out = os.path.join(ROOT, 'data', 'pairs_%03d.json' % surah)
-            with open(out, 'w', encoding='utf-8') as handle:
-                json.dump(data, handle, ensure_ascii=False, separators=(',', ':'))
+            output = os.path.join(ROOT, "data", "pairs_%03d.json" % surah)
+            with open(output, "w", encoding="utf-8") as handle:
+                json.dump(data, handle, ensure_ascii=False, separators=(",", ":"))
+                handle.write("\n")
         written += 1
-    print('%d surah(s) %s' % (written, 'checked' if check_only else 'written'))
+
+    print("%d surah(s) %s" % (written, "checked" if check_only else "written"))
     for problem in all_problems:
-        print('  ! %s' % problem)
-    if '--gaps' in sys.argv:
-        for name in names:
-            surah = int(name[:3])
-            with open(os.path.join(AUTHORED, name), encoding='utf-8') as handle:
-                authored = json.load(handle)
-            for ayah, count, missing in coverage(surah, authored):
-                print('  - surah %d verse %s: %d of %d passages are not spoken of by any phrase'
-                      % (surah, ayah, len(missing), count))
+        print("  ! %s" % problem)
     return 1 if all_problems else 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())
