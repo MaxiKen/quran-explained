@@ -936,54 +936,233 @@
     "25": {
       "phrases": [
         {
-          "translation": "Give good news ˹O Prophet˺ to those who believe and do good that they will have Gardens under which rivers flow.",
-          "explanation": "The Prophet is told to deliver good news as well as warning. The gardens and flowing rivers communicate abundance and settled joy using images familiar to human life. The promise is linked to both belief and good action, joining trust in Allah with conduct that reflects it."
+          "translation": "Give good news",
+          "explanation": "The command asks Muhammad to deliver glad tidings, meaning news that brings joy to its hearers. The commentary explains this as a promise for people who believe in Allah and confirm that belief through righteous actions. It balances the preceding warning with hope."
         },
         {
-          "translation": "Whenever provided with fruit, they will say, “This is what we were given before,” for they will be served fruit that looks similar ˹but tastes different˺.",
-          "explanation": "The fruit resembles what the inhabitants have known, yet the translation highlights that its taste differs. The image suggests familiar pleasures renewed without the limits and losses of earthly life. The verse offers a glimpse of Paradise through recognition and wonder rather than a full description."
+          "translation": "˹O Prophet˺",
+          "explanation": "The addressed messenger is Muhammad, who is asked to convey the promise. The commentary says the good news is for those who believe in Allah and in the message brought by His messenger. The phrase marks his role as the one delivering the announcement."
         },
         {
-          "translation": "They will have pure spouses, and they will be there forever",
-          "explanation": "The promise includes pure spouses and lasting residence, answering the fragility of worldly comfort. In the Qur’an, Paradise is both delight and safety from loss. These images are encouragement, not a claim that human language can fully capture the life to come."
+          "translation": "to those who believe",
+          "explanation": "The promise is directed to people who accept Allah and His messenger as truthful. The commentary distinguishes sincere belief from a claim made only with the tongue. Belief in this passage is a real commitment, not merely a public identity or a statement without conviction."
+        },
+        {
+          "translation": "and do good",
+          "explanation": "Righteous actions confirm the belief named before them. The commentary explains that the promised people obey what Allah has commanded through His messenger. The verse therefore joins faith with conduct, while not suggesting that deeds are separate from the guidance they are meant to follow."
+        },
+        {
+          "translation": "that they will have",
+          "explanation": "The good news concerns what Allah has prepared for those who believe and act rightly. The commentary presents this as encouragement to worship and obey Him. The promise is not earned by a verbal claim alone, but is directed to those whose belief is lived out."
+        },
+        {
+          "translation": "Gardens",
+          "explanation": "The Arabic word refers to gardens or orchards. The commentary explains that the image focuses on trees, plantings, and fruits rather than only the ground beneath them. It presents the Garden as a place of lasting provision and joy prepared for people of faith."
+        },
+        {
+          "translation": "under which",
+          "explanation": "This phrase locates the rivers beneath the gardens’ trees and plantings. The commentary explains that the image is not of water hidden below the ground, but of streams flowing through the Garden. The wording emphasizes abundance and a setting prepared for enjoyment."
+        },
+        {
+          "translation": "rivers flow.",
+          "explanation": "The rivers are described as flowing through the Garden without channels. The commentary transmits a report of water running freely beneath the trees, with fruit renewed after it is picked. The image conveys ongoing provision rather than scarcity or loss."
+        },
+        {
+          "translation": "Whenever provided with fruit,",
+          "explanation": "The promise continues with repeated provision from the Garden’s trees. The commentary explains that this occurs whenever its inhabitants receive fruit, not only at one moment. The regularity of the gift helps show that the Garden’s abundance is lasting."
+        },
+        {
+          "translation": "they will say,",
+          "explanation": "The inhabitants respond when fruit is brought to them. The commentary discusses what they mean by comparing it with what came before: the preferred reading is that they recognize a kind of fruit known from worldly life. The comparison is a response of recognition, not a claim that the experiences are identical."
+        },
+        {
+          "translation": "“This is what",
+          "explanation": "These words introduce the inhabitants’ recognition of the fruit. The commentary explains that they mean it belongs to a familiar kind of provision, like fruit they knew in worldly life. This reading avoids treating their statement as a false claim that they ate the exact same fruit before."
+        },
+        {
+          "translation": "we were given",
+          "explanation": "The wording points to provision received earlier. The commentary explains that the earlier fruit is understood as what people were given in worldly life, not necessarily an identical item. The sentence uses familiar language to describe a new experience they can recognize."
+        },
+        {
+          "translation": "before,”",
+          "explanation": "“Before” refers, in the preferred explanation, to life in this world. Other reports understand the comparison as one Garden fruit resembling another, but the commentary argues that the phrase also fits a first serving if it refers to familiar kinds of fruit. The verse preserves the image of recognition."
+        },
+        {
+          "translation": "for they will be served",
+          "explanation": "The inhabitants receive the fruit as provision. The commentary explains that the pronoun refers to what is brought from the Garden’s trees. It describes a repeated gift, with no suggestion that the people must struggle to secure or preserve their food."
+        },
+        {
+          "translation": "fruit that looks similar",
+          "explanation": "The commentary records several readings of the resemblance: fruit may be alike in excellence, color, taste, or appearance. It favors resemblance in color and form while taste and smell differ. This allows the fruit to seem familiar without being merely identical to earthly fruit."
+        },
+        {
+          "translation": "˹but tastes different˺.",
+          "explanation": "The added wording highlights the preferred explanation that familiar appearance does not mean the same taste. The commentary says the Garden’s fruit resembles worldly fruit in color and form while differing in taste and smell. It uses this contrast to suggest delight beyond ordinary experience."
+        },
+        {
+          "translation": "They will have",
+          "explanation": "The promise includes companionship as well as food and gardens. The commentary explains that the spouses belong to the believers who do righteous deeds and will be with them in the Garden. The verse gathers several forms of lasting well-being."
+        },
+        {
+          "translation": "pure spouses,",
+          "explanation": "The commentary explains “spouses” as wives or partners, and “pure” as free from impurity and defects. It records both bodily and moral readings of purity, including freedom from sin. The phrase describes the promised life without reducing the whole promise to one detail."
+        },
+        {
+          "translation": "and they will be",
+          "explanation": "The verse shifts from the description of the Garden to the duration of its inhabitants’ life there. The commentary says those who believe and do righteous deeds are the people intended. Their place in the Garden is not temporary or subject to loss."
+        },
+        {
+          "translation": "there forever",
+          "explanation": "The commentary explains this as continued existence in the Garden with lasting joy and bliss. The promise contrasts with the passing nature of worldly life. Those who believe and act rightly are assured an enduring home, not a short reward that soon disappears."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "26": {
       "phrases": [
         {
-          "translation": "Surely Allah does not shy away from using the parable of a mosquito or what is even smaller.",
-          "explanation": "A mosquito is tiny, yet even a small creature can serve a meaningful example. The verse answers objections to humble parables: truth is not measured by the size or status of the image. A lesson can come through what people overlook as easily as through something grand."
+          "translation": "Surely Allah does not",
+          "explanation": "The verse responds to people who object to humble examples in revelation. The commentary says Allah is not reluctant to use a parable in the truth, whether its subject is small or great. The issue is the lesson conveyed, not the status of the image."
         },
         {
-          "translation": "As for the believers, they know that it is the truth from their Lord.",
-          "explanation": "Believers recognize the parable as truth from their Lord, because they consider what it teaches rather than dismissing its form. The same example can expose different attitudes. The verse asks readers to examine their response to guidance, not just the subject chosen to illustrate it."
+          "translation": "shy away",
+          "explanation": "The Arabic expression is explained here as not being ashamed or hesitant to set forth a truthful comparison. The commentary rejects the idea that a small example is beneath revelation. A parable is judged by whether it clarifies truth, not by whether its subject seems impressive."
         },
         {
-          "translation": "And as for the disbelievers, they argue, “What does Allah mean by such a parable?”",
-          "explanation": "The question “What does Allah mean by this?” can be sincere inquiry or a way of ridiculing revelation. The surrounding contrast identifies the objection as defiant dismissal. Context matters: the Qur’an does not condemn careful questions, but challenges contempt that refuses to learn."
+          "translation": "from using",
+          "explanation": "To use a parable is to set forth a likeness that helps explain a point. The commentary connects this with Allah’s earlier comparisons of the hypocrites to a fire and a rainstorm. These examples test how listeners respond to a lesson."
         },
         {
-          "translation": "Through this ˹test˺, He leaves many to stray, and guides many. And He leaves none to stray except the rebellious—",
-          "explanation": "The verse attributes straying to rebellion, not to an arbitrary trap set for innocent seekers. In the next verse, the rebellious are identified by broken covenants and harmful conduct. The connection shows how moral choices can make a person less receptive to further guidance."
+          "translation": "the parable",
+          "explanation": "A parable is a comparison that makes an idea clearer. The commentary explains the Arabic expression as describing a likeness. The examples in the passage reveal differences between believers and people who reject the message, rather than serving as decorative details."
+        },
+        {
+          "translation": "of a mosquito",
+          "explanation": "The mosquito represents something small and lowly. The commentary records an explanation that it is among the weakest of creatures, making it a fitting example of humility. Allah may use even a tiny creature to convey a truthful lesson."
+        },
+        {
+          "translation": "or what",
+          "explanation": "The phrase extends the comparison beyond the mosquito. The commentary explains the “or” as connecting examples, not expressing uncertainty on Allah’s part. It signals that a truthful parable may concern something small or something greater."
+        },
+        {
+          "translation": "is even smaller.",
+          "explanation": "The commentary reasons that if the mosquito is taken as the weakest of creatures, “beyond it” can refer to something greater in size or strength. It also records a different usage that emphasizes further smallness, while judging that reading less fitting. The central point is that scale does not limit a truthful lesson."
+        },
+        {
+          "translation": "As for the believers,",
+          "explanation": "Believers respond to the parable by recognizing its truth. The commentary explains that they accept Allah and His messenger and understand the comparison as suited to its purpose. The same example can strengthen one person’s guidance while another rejects it."
+        },
+        {
+          "translation": "they know",
+          "explanation": "Their knowledge is recognition that the parable is true and comes from their Lord. The commentary says they understand its intended lesson rather than dismissing its humble subject. Their response shows how trust and reflection shape the way revelation is received."
+        },
+        {
+          "translation": "that it is the truth",
+          "explanation": "The truth is the parable and the lesson it conveys. The commentary explains that believers know the comparison accurately represents what it was used to explain. This does not mean every possible detail of the image is literal. It means the lesson is truthful."
+        },
+        {
+          "translation": "from their Lord.",
+          "explanation": "The source of the parable is Allah, their Lord. The commentary says believers recognize the words as revelation and accept their purpose. The phrase connects the lesson to divine guidance rather than to a human attempt to mock or mislead."
+        },
+        {
+          "translation": "And as for",
+          "explanation": "The verse sets the believers’ response beside that of those who reject the message. The commentary explains that this is a contrast in how people receive the same parable. The difference arises from their response to truth, not from the example being obscure."
+        },
+        {
+          "translation": "the disbelievers,",
+          "explanation": "The commentary identifies those who object as people who reject signs they recognize, including hypocrites and others who oppose the message. The historical scope is important: the passage describes a response to these parables, not every person who asks a sincere question."
+        },
+        {
+          "translation": "they argue,",
+          "explanation": "Their words challenge the value of the example rather than engaging with its lesson. The commentary reads the question as a rejection of the parables just given about the hypocrites. It contrasts this response with believers who recognize the truth in the same comparisons."
+        },
+        {
+          "translation": "“What does Allah mean",
+          "explanation": "The question asks why Allah would use such an example. The commentary explains it as an objection from people who rejected the parables of the fire and the storm. It is not a prohibition on sincere inquiry, but a dismissive response in this context."
+        },
+        {
+          "translation": "by such a parable?”",
+          "explanation": "The phrase points to the comparison itself. The commentary says the objection came from people who questioned what Allah intended by the example. The answer is that parables test and distinguish responses: believers accept their truth, while rejecters use them to deepen their denial."
+        },
+        {
+          "translation": "Through this ˹test˺,",
+          "explanation": "The parable serves as a test of how people respond to revelation. The commentary explains that Allah uses truthful comparisons to distinguish faith from rejection. The wording describes different responses to guidance, not a trick that makes an innocent seeker lose the way."
+        },
+        {
+          "translation": "He leaves many",
+          "explanation": "The verse says many are led away through their response to the parable. The commentary explains this as rejecters adding error upon error after recognizing the truth and refusing it. It also describes guidance as increasing for those who affirm the lesson."
+        },
+        {
+          "translation": "to stray,",
+          "explanation": "To stray is to move away from guidance. The commentary connects this outcome with people who reject a lesson they know to be true. It stresses that the parable exposes their response rather than arbitrarily misleading people who sincerely seek understanding."
+        },
+        {
+          "translation": "and guides many.",
+          "explanation": "The same parable guides those who believe and accept its truth. The commentary says it adds guidance and faith for people who recognize that the example fits its purpose. The verse therefore shows that revelation can deepen either response, depending on whether people accept or reject it."
+        },
+        {
+          "translation": "And He leaves none",
+          "explanation": "The verse now limits the description of straying to a particular kind of person. The commentary explains that Allah does not lead astray through the parable except those described as transgressors. This qualification prevents the statement from being read as indiscriminate misguidance."
+        },
+        {
+          "translation": "to stray",
+          "explanation": "Here, being led astray means being left in error after turning away from obedience. The commentary ties the outcome to a person’s prior rejection and wrongdoing. The parable distinguishes those who respond faithfully from those who resist its truth."
+        },
+        {
+          "translation": "except the rebellious—",
+          "explanation": "The Arabic term for the rebellious carries the sense of going out of bounds or leaving obedience. The commentary connects it with hypocrites and disbelievers who reject what they recognize as true. Their rebellion explains why the parable deepens their error instead of guiding them."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "27": {
       "phrases": [
         {
-          "translation": "those who violate Allah’s covenant after it has been affirmed,",
-          "explanation": "A covenant is a serious commitment before Allah, and breaking it after affirming it is presented as deliberate betrayal. The phrase includes accountability to divine instruction, not only a private promise. The warning links faith to keeping obligations once their truth is recognized."
+          "translation": "those who violate",
+          "explanation": "The verse describes people who break a serious obligation. The commentary connects them with the rebellious mentioned just before, explaining that they turn away from Allah’s commands. It records several views about the covenant’s scope before favoring a historical reading concerning opponents in Medina."
         },
         {
-          "translation": "break whatever ˹ties˺ Allah has ordered to be maintained,",
-          "explanation": "The ties Allah commands people to maintain can include family and the wider bonds of mutual duty. The verse condemns severing them as part of a broader pattern of corruption. It does not define every difficult relationship the same way, but warns against breaking ties without moral cause."
+          "translation": "Allah’s covenant",
+          "explanation": "A covenant is a binding commitment. The commentary records interpretations including Allah’s commands, the duty to follow Muhammad, and the commitment to make known earlier revelation. It favors the setting of religious leaders who knew the message but concealed it, while recognizing broader application to similar conduct."
         },
         {
-          "translation": "and spread corruption in the land. It is they who are the ˹true˺ losers",
-          "explanation": "Spreading corruption connects broken commitments with damage to life in society. The verse calls such people losers because they squander the chance for guidance and undermine the good around them. Its list makes clear that faith is tested through relationships and public conduct as well as belief."
+          "translation": "after it",
+          "explanation": "The covenant is broken after it has been made and confirmed. The commentary explains that the people had accepted an obligation and then refused to act on it. The wording emphasizes a knowing breach, rather than ignorance of what was required."
+        },
+        {
+          "translation": "has been affirmed,",
+          "explanation": "To affirm a covenant is to make it firm through a pledge or binding commitment. The commentary explains the phrase as Allah securing an obligation from people through revelation and commands. Breaking it afterward is presented as a deliberate refusal to fulfill what they had accepted."
+        },
+        {
+          "translation": "break whatever ˹ties˺",
+          "explanation": "The commentary identifies the ties especially with family relationships, while allowing the verse to cover other bonds Allah commands people to maintain. Breaking them includes withholding their due rights and kindness. The phrase condemns severing obligations, not setting necessary boundaries in a harmful relationship."
+        },
+        {
+          "translation": "Allah has ordered",
+          "explanation": "The command comes from Allah, who specifies what people are obligated to preserve. The commentary focuses on duties established through revelation and the messengers. This makes the breach more than a private disagreement: it is refusal of a moral obligation."
+        },
+        {
+          "translation": "to be maintained,",
+          "explanation": "Maintaining a bond means fulfilling its rights and showing the care required toward it. The commentary explains this particularly through kinship, including the kindness owed to relatives. It also notes that the general wording can include other things Allah has commanded people to keep connected."
+        },
+        {
+          "translation": "and spread corruption",
+          "explanation": "The commentary defines corruption as disobedience to Allah, disbelief, rejecting His messenger, and denying the truth brought to people. It connects this conduct with breaking covenants and severing bonds. The phrase concerns harmful moral and social actions, not simply disagreement."
+        },
+        {
+          "translation": "in the land.",
+          "explanation": "The land is the setting where human conduct affects others. The commentary describes corruption as refusing obligations and concealing truth, actions that damage the order Allah commands. The phrase gives the wrongdoing a public consequence, beyond a private failure."
+        },
+        {
+          "translation": "It is they",
+          "explanation": "The verse points back to the people described through broken covenants, severed ties, and corruption. The commentary calls them the ones who lose because their disobedience deprives them of Allah’s mercy. The wording summarizes the consequences of the conduct just listed."
+        },
+        {
+          "translation": "who are the ˹true˺ losers",
+          "explanation": "A loser is someone who forfeits what could have been gained. The commentary uses a trade image: these people diminish their share of Allah’s mercy through disobedience. It also records an explanation in terms of perishing, linking the loss to their rejection and wrongdoing."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "28": {
       "phrases": [
