@@ -1165,226 +1165,807 @@
       "split_policy": "dense-v1"
     },
     "28": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "How can you deny Allah? You were lifeless and He gave you life,",
-          "explanation": "The question is meant to awaken reflection, not request information. Human beings were once without life, then received life by Allah’s power. The sequence begins with what each listener can recognize in their own existence before moving to death and resurrection."
+          "translation": "How can you",
+          "explanation": "This opening is a rebuke, not a request for information. It challenges people who deny Allah despite signs of His power in their own existence. The surrounding passage addresses listeners who profess belief while inwardly rejecting it, and presses them to consider how denial can be reasonable."
         },
         {
-          "translation": "then He will cause you to die and again bring you to life,",
-          "explanation": "Death does not end the story in this verse. Allah will cause people to die and raise them again, so the present life is a stage rather than the final state. This pattern undercuts the assumption that what cannot yet be seen cannot be real."
+          "translation": "deny Allah?",
+          "explanation": "The object of the rebuke is rejection of Allah. The commentary connects this denial to refusing His power to restore life after death, even though He first created human beings. The question therefore directs its hearers to reflect on evidence already present in their own lives."
         },
         {
-          "translation": "and then to Him you will ˹all˺ be returned",
-          "explanation": "The return to Allah means each person ultimately stands before the One who gave them life. The verse joins creation, mortality, resurrection, and accountability in a few lines. Remembering that return gives moral weight to choices that might seem to have no consequence in this world."
+          "translation": "You were lifeless",
+          "explanation": "The verse recalls the condition before human life. Several transmitted explanations describe people as nothing before creation, while another speaks of their being in their ancestors’ loins. These readings point to existence as a gift, not something people brought about by their own power."
+        },
+        {
+          "translation": "and He gave you life,",
+          "explanation": "Allah brought people into life after their prior lifeless state. The commentary links this gift to human creation and to the evidence it provides of the Creator’s power. The sequence is offered as a reason to trust that the One who first gave life can restore it."
+        },
+        {
+          "translation": "then He will cause you",
+          "explanation": "Death is the next stage in the sequence, and the commentary understands it as the death people inevitably undergo. One reported interpretation also includes life in the grave before a further death, showing that early explanations differed over the sequence’s details. The verse emphasizes human dependence throughout."
+        },
+        {
+          "translation": "to die",
+          "explanation": "This completes the statement that Allah causes people to die. The commentary reads the sequence as extending from creation through death toward resurrection. A reported disagreement concerns whether life in the grave belongs within the order, but death itself marks a stage that no person can avoid."
+        },
+        {
+          "translation": "and again bring you",
+          "explanation": "These words announce that Allah will restore people to life after death. The commentary relates this return to resurrection and the gathering for judgment, while also recording differing accounts of the intervening stages. The central point remains that death cannot prevent the Creator from bringing people back."
+        },
+        {
+          "translation": "to life,",
+          "explanation": "The promised return to life reverses death by the same divine power that first created humanity. The commentary connects it especially with being raised at the Resurrection. Some reports include other stages in the sequence, but this phrase directs attention to renewed life rather than the details of its timing."
+        },
+        {
+          "translation": "and then",
+          "explanation": "These linking words complete the sequence rather than introduce an unrelated event. The commentary connects the final return with resurrection and the gathering for judgment. The steps move from the beginning of human existence through death to a future encounter with Allah."
+        },
+        {
+          "translation": "to Him",
+          "explanation": "The return is to Allah, the Creator whose power has governed every stage just named. The commentary describes people being gathered for the reckoning, where their deeds receive recompense. This phrase identifies both the destination and the authority before whom human life is answerable."
+        },
+        {
+          "translation": "you will",
+          "explanation": "The wording includes every person in the coming return. The verse does not present judgment as an event limited to a particular group. Its argument begins from the shared human experience of life and death, then points to a future that all people must face."
+        },
+        {
+          "translation": "˹all˺ be returned",
+          "explanation": "The passive wording underscores that every person will be brought back, not that people choose whether to face the return. The commentary describes resurrection, gathering, and judgment, while relating this promise to the sequence of life and death. Accountability is the conclusion of the verse’s argument."
         }
       ]
     },
     "29": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "He is the One Who created everything in the earth for you.",
-          "explanation": "The earth’s provisions are described as made available for humanity. This speaks of purpose and gratitude, not unlimited license to exploit or harm what sustains life. The surah grounds human responsibility in recognizing that benefits are gifts from the Creator."
+          "translation": "He is the One",
+          "explanation": "The pronoun refers to Allah, continuing the address to those who deny Him. The commentary connects this verse with the preceding question about human life and death. It presents creation as a sign and favor that should lead people to recognize their Creator."
         },
         {
-          "translation": "Then He turned towards the heaven, forming it into seven heavens. And He has ˹perfect˺ knowledge of all things",
-          "explanation": "The passage turns from the earth to the ordering of the heavens and closes by affirming Allah’s complete knowledge. The mention of seven heavens belongs to the unseen realities of revelation, while the final statement assures that nothing in creation lies beyond divine awareness."
+          "translation": "Who created",
+          "explanation": "Creation means bringing something into existence. The commentary explains that Allah brought what He created from nonexistence into being. This opening statement anchors the following descriptions of earthly benefit and the ordering of the heavens in divine creative power."
+        },
+        {
+          "translation": "everything in the earth",
+          "explanation": "The phrase encompasses all that exists on earth, not only food or possessions. The commentary says earthly things provide sustenance and also serve as signs pointing to the oneness of their Lord. The statement is broad, while the verse’s emphasis is on their benefit and evidence."
+        },
+        {
+          "translation": "for you.",
+          "explanation": "The creation is described as serving human benefit, including provision for worldly life and support for obedience to God. This does not make the earth an unrestricted possession. Rather, recognizing its gifts should prompt gratitude and awareness of the Creator who made them available."
+        },
+        {
+          "translation": "Then He turned",
+          "explanation": "The Arabic expression translated as turning toward the heaven received several explanations in the commentary. It discusses meanings such as directing attention or purpose toward something, while also recording the preferred interpretation as rising above the heaven and governing it by divine power. These are historical interpretive positions."
+        },
+        {
+          "translation": "towards the heaven,",
+          "explanation": "The heaven is the object of the divine act described here. The commentary relates this stage to the heaven while it was still smoke, before its formation into seven heavens. It also records differences about how the Arabic wording should be understood, without reducing the passage to human movement."
+        },
+        {
+          "translation": "forming it into",
+          "explanation": "The verb describes bringing the heaven into an ordered and complete form. The commentary explains the related Arabic term as making straight, arranging, and governing according to will. It also discusses how the pronoun’s plural form connects to the heavens named in the next words."
+        },
+        {
+          "translation": "seven heavens.",
+          "explanation": "The passage names seven heavens, and the commentary includes reports describing them as layered one above another. These accounts belong to transmitted explanations of the unseen, not observations offered as modern astronomy. The verse’s central point is the Creator’s ordering and governance of the heavens."
+        },
+        {
+          "translation": "And He has",
+          "explanation": "This final statement returns attention to Allah as the one who created the earth and formed the heavens. The commentary applies the claim to what people disclose and conceal, including hidden disbelief behind public words. Nothing about human conduct is outside divine knowledge."
+        },
+        {
+          "translation": "˹perfect˺ knowledge",
+          "explanation": "The word for knowing is explained as complete knowledge. The commentary associates it with knowledge that is perfect, without a hidden matter escaping it. In context, this includes both the visible order of creation and the inward states of people addressed by the passage."
+        },
+        {
+          "translation": "of all things",
+          "explanation": "The claim extends to every matter, including what people reveal and keep within themselves. The commentary connects this to the hypocrites and deniers discussed nearby, whose outward profession could differ from their inward stance. Divine knowledge is therefore comprehensive, not limited to the visible world."
         }
       ]
     },
     "30": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "˹Remember˺ when your Lord said to the angels, “I am going to place a successive ˹human˺ authority on earth.”",
-          "explanation": "Allah announces humanity’s role as a successive authority on earth. The angels’ question anticipates the possibility of violence and corruption, showing that human freedom carries moral risk. Their question seeks understanding of wisdom, not a challenge to Allah’s knowledge or command."
+          "translation": "˹Remember˺",
+          "explanation": "The opening calls the addressed audience to recall a divine favor. The commentary connects this command with the earlier reminder of life, death, and earthly provisions. Remembering the scene about Adam continues that argument by showing how human history unfolds within Allah’s knowledge and care."
         },
         {
-          "translation": "They asked ˹Allah˺, “Will You place in it someone who will spread corruption there and shed blood while we glorify Your praises and proclaim Your holiness?”",
-          "explanation": "The angels contrast human bloodshed with their own worship, but they do not yet know the full potential of the human being. Their question presents a real concern, while the answer will widen the picture beyond the harm they foresee."
+          "translation": "when your Lord",
+          "explanation": "The phrase situates the event in a past encounter between Allah and the angels. It also links back to the earlier command to remember Allah’s favors. The passage does not present the story as detached history, but as a lesson for those being addressed."
         },
         {
-          "translation": "Allah responded, “I know what you do not know.”",
-          "explanation": "Allah’s response is concise: His knowledge encompasses what the angels do not know. The verse leaves some of that wisdom unstated, inviting humility before divine knowledge. The next verses show one aspect of human potential through Adam’s capacity to learn and name."
+          "translation": "said to the angels,",
+          "explanation": "The angels receive the announcement about a new creature on earth. The commentary discusses grammatical details of the word for angels, but the narrative focus is their response and its limits. Their question is followed by a demonstration that Allah knows what they do not."
+        },
+        {
+          "translation": "“I am going",
+          "explanation": "The wording announces a future act of placing a successor on earth. The commentary considers whether the verb means making or creating, and understands it as bringing a successor into being there. This begins the account of humanity’s earthly role and its consequences."
+        },
+        {
+          "translation": "to place",
+          "explanation": "This phrase expresses an act of appointing or establishing, not merely describing a possibility. The commentary understands the announcement as Allah bringing a successor into existence on earth. The wording introduces a role whose meaning is explored through differing explanations of succession and human responsibility."
+        },
+        {
+          "translation": "a successive",
+          "explanation": "The term translated “successive” is understood in more than one way. Some reports explain it as generations replacing one another, while another interpretation describes a successor appointed to judge justly. These are distinct readings of the historical passage, not labels for present-day peoples or governments."
+        },
+        {
+          "translation": "˹human˺ authority",
+          "explanation": "This wording refers to a khalīfa, a successor or one who takes another’s place. The commentary weighs whether Adam himself is meant or Adam’s descendants in successive generations. It also records an interpretation of delegated judgment, while maintaining that the term’s sense is disputed."
+        },
+        {
+          "translation": "on earth.”",
+          "explanation": "Earth is the setting for human life and action in this account. The commentary links the verse to the earlier statement that earthly things were created for people’s benefit. Human presence here includes the possibility of both obedience and wrongdoing, which the angels’ question raises."
+        },
+        {
+          "translation": "They asked ˹Allah˺,",
+          "explanation": "The angels respond to the announcement with a question. The commentary records differing explanations of how they knew about possible bloodshed: some reports say they had prior information, while others understand their words as inference. The passage preserves their question without making them all-knowing."
+        },
+        {
+          "translation": "“Will You place in it",
+          "explanation": "The question repeats the idea of placing a successor on earth, now focusing on the possible consequences. Some accounts understand the angels as asking about a role they themselves might fulfill, while others connect the question to human descendants. The verse then supplies Allah’s answer."
+        },
+        {
+          "translation": "someone who will spread",
+          "explanation": "The concern is about an agent who may cause harm, not a settled judgment about every human being. The commentary distinguishes the possibility of corruption from the many descendants who obey, do good, and spare blood. Human potential is therefore not reduced to its worst actions."
+        },
+        {
+          "translation": "corruption there",
+          "explanation": "“Corruption” here refers to wrongdoing on earth, discussed alongside unlawful bloodshed. Some transmitted explanations connect the angels’ concern with earlier inhabitants, but reports differ and should not be treated as established universal history. The verse frames a question about harm, not a condemnation of all humanity."
+        },
+        {
+          "translation": "and shed blood",
+          "explanation": "The angels specifically mention killing, a grave form of harm. The commentary records views that they knew this from prior information, from experience of earlier earthly beings, or from inference. Their statement is followed by Allah’s reminder that their knowledge does not encompass the whole outcome."
+        },
+        {
+          "translation": "while we glorify",
+          "explanation": "The angels contrast the anticipated wrongdoing with their own worship. The commentary describes them as presenting their obedience and devotion in the question. This contrast does not establish that they know all consequences. The next reply redirects attention to what their knowledge leaves out."
+        },
+        {
+          "translation": "Your praises",
+          "explanation": "To glorify Allah with praise is to affirm His perfection while worshipping Him. The angels’ words describe their own practice, which they place beside their concern about corruption. The passage does not present worship as a reason to challenge divine wisdom, since they acknowledge their limited knowledge afterward."
+        },
+        {
+          "translation": "and proclaim",
+          "explanation": "This phrase continues the angels’ description of their devotion. Their worship is part of the contrast they draw with the possible harms of earthly life. The commentary explains that their question involves a claim about what is good, while Allah’s knowledge includes outcomes they cannot see."
+        },
+        {
+          "translation": "Your holiness?”",
+          "explanation": "To proclaim Allah’s holiness means to declare Him free of imperfection. The angels invoke this worship as they ask about a successor who may cause harm. Their later admission that they know only what Allah teaches shows that devotion does not make their knowledge complete."
+        },
+        {
+          "translation": "Allah responded,",
+          "explanation": "The reply does not immediately explain every detail of the human role. Instead, it establishes a limit: Allah’s knowledge encompasses what the angels do not know. The commentary connects this to human descendants who will include prophets, righteous people, and obedient servants as well as wrongdoers."
+        },
+        {
+          "translation": "“I know what you do not know.”",
+          "explanation": "Allah’s answer points beyond the harm the angels anticipate. The commentary highlights that their view does not encompass the good that will also come from humanity, nor the hidden arrogance attributed in some reports to Iblīs. The verse calls for humility about unseen outcomes and divine wisdom."
         }
       ]
     },
     "31": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "He taught Adam the names of all things, then He presented them to the angels and said, “Tell Me the names of these, if what you say is true?”",
-          "explanation": "Teaching Adam the names highlights a distinctive human capacity for knowledge and language. The story is not merely about memorizing labels. It presents learning as a gift that makes human beings capable of understanding and communicating. The next exchange demonstrates the limits of the angels’ knowledge in comparison."
+          "translation": "He taught",
+          "explanation": "Knowledge is presented as something Allah gave Adam. The commentary records broad explanations in which Adam learned the names of created things, alongside a preferred reading focused on the names of human descendants and angels. The wording emphasizes teaching rather than knowledge acquired independently."
+        },
+        {
+          "translation": "Adam",
+          "explanation": "Adam is the first human in the narrative and the recipient of this teaching. The commentary also explains reports connecting his name with the earth’s surface, from which he was said to have been formed. This verse focuses on his capacity to learn and communicate."
+        },
+        {
+          "translation": "the names",
+          "explanation": "Reports differ over whether “the names” means every created thing, particular examples, the angels, or Adam’s descendants. The commentary favors the names of individual human beings and angels based partly on the grammar of the next phrase. It also recognizes that broader readings are linguistically possible."
+        },
+        {
+          "translation": "of all things,",
+          "explanation": "Some transmitted explanations understand the phrase broadly, including names for ordinary objects, animals, places, and other created things. Other interpretations narrow its reference to human descendants and angels. The verse’s emphasis is Adam’s divinely taught knowledge, which the angels are then asked to demonstrate."
+        },
+        {
+          "translation": "then He presented them",
+          "explanation": "The pronoun “them” has been interpreted as the named beings or as the names themselves. The commentary’s preferred reading takes it to refer to the bearers of the names, particularly human descendants and angels, while noting that other readings remain possible."
+        },
+        {
+          "translation": "to the angels",
+          "explanation": "The angels are shown the subjects of Adam’s naming and asked to identify them. This follows their earlier concern about human wrongdoing. The scene answers that concern by demonstrating a human capacity for knowledge, while leaving Allah’s complete knowledge beyond comparison."
+        },
+        {
+          "translation": "and said,",
+          "explanation": "Allah’s speech introduces a challenge tied to the angels’ earlier words. The commentary explains that the challenge responds to their view about who would be more fit for earthly authority. It is not simply a request for labels detached from the larger exchange."
+        },
+        {
+          "translation": "“Tell Me",
+          "explanation": "The command means to report or make known. The angels are asked to identify what has been presented to them, while Adam has already received instruction. The contrast makes clear that knowledge depends on what Allah teaches, a point the angels acknowledge in the following verse."
+        },
+        {
+          "translation": "the names of these,",
+          "explanation": "The objects are the beings or things whose names Adam learned. The commentary favors understanding them as the bearers of names, while also recording explanations that take them as names or created kinds. This question reveals the limits of the angels’ knowledge in the scene."
+        },
+        {
+          "translation": "if what you say is true?”",
+          "explanation": "The challenge connects to the angels’ claim or implication that humans would bring corruption and bloodshed, and that they were more suited to worship on earth. The commentary explains this as a rebuke of their limited inference, not a denial that human wrongdoing would occur."
         }
       ]
     },
     "32": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "They replied, “Glory be to You! We have no knowledge except what You have taught us. You are truly the All-Knowing, All-Wise.”",
-          "explanation": "The angels answer with humility, acknowledging that their knowledge comes only from what Allah teaches. Their response models proper speech about the unseen: they do not claim knowledge they lack. Praise of Allah’s wisdom follows naturally from recognizing the limits of one’s own understanding."
+          "translation": "They replied,",
+          "explanation": "The angels answer after Adam demonstrates the knowledge they did not possess. Their response acknowledges the limit of their understanding rather than defending their earlier view. The narrative presents them as returning to humility when the limits of their knowledge become clear."
+        },
+        {
+          "translation": "“Glory be to You!",
+          "explanation": "To glorify Allah is to declare Him above imperfection. The commentary explains this as rejecting the idea that anyone besides Him independently knows the unseen. The words also mark the angels’ return from their mistaken assumption and their recognition of Allah’s complete knowledge."
+        },
+        {
+          "translation": "We have no knowledge",
+          "explanation": "The angels do not claim independent access to what is hidden from them. Their admission follows the demonstration that they could not name what Adam had been taught. The passage warns against asserting unseen knowledge without revelation or evidence, while distinguishing that claim from ordinary learning."
+        },
+        {
+          "translation": "except what You have taught us.",
+          "explanation": "Their knowledge is real but received: Allah is the one who teaches them. The commentary connects this with the names taught to Adam and with the angels’ acknowledgment that they did not know them. Learning is therefore a gift, not a basis for claiming independent knowledge."
+        },
+        {
+          "translation": "You are",
+          "explanation": "The emphatic address turns from the angels’ limitation to Allah’s attributes. They affirm that knowledge belongs to Him in a way unlike the knowledge of created beings, who learn through instruction. This contrast explains why they can confess ignorance without treating knowledge itself as blameworthy."
+        },
+        {
+          "translation": "truly",
+          "explanation": "The word stresses the truth of the angels’ affirmation. They are not merely naming attributes politely, but acknowledging that the One who taught them has perfect knowledge. The context grounds this confession in the limits exposed when they could not name the beings shown to them."
+        },
+        {
+          "translation": "the All-Knowing,",
+          "explanation": "The All-Knowing is described as having complete knowledge without being taught. The commentary says this includes what has already happened, what will happen, and the unseen. The angels’ confession makes the title especially fitting: their knowledge is limited, while Allah’s is not."
+        },
+        {
+          "translation": "All-Wise.”",
+          "explanation": "The All-Wise is explained as the possessor of wisdom and perfect judgment. Some linguistic explanations connect the term with judging or ruling, but the central point is that Allah’s decisions are not made in ignorance. The angels’ answer recognizes both His complete knowledge and His wisdom."
         }
       ]
     },
     "33": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Allah said, “O Adam! Inform them of their names.”",
-          "explanation": "Adam is asked to demonstrate what he has learned, and the names become evidence of a capacity Allah granted him. The episode answers the angels’ earlier question without saying humans are free of wrongdoing. It shows why their potential cannot be judged by the danger alone."
+          "translation": "Allah",
+          "explanation": "Allah directs Adam to answer the angels after showing that their knowledge was limited. The commentary connects this command with the earlier question about humanity’s place on earth. The answer will demonstrate that Allah gives knowledge to whom He wills and knows what remains hidden."
         },
         {
-          "translation": "Then when Adam did, Allah said, “Did I not tell you that I know the secrets of the heavens and the earth,",
-          "explanation": "Allah states that His knowledge includes secrets throughout the heavens and earth, as well as what creatures reveal or conceal. This is broader than the angels’ limited perspective. The scene asks readers to trust that Allah knows the full reality behind events and intentions."
+          "translation": "said,",
+          "explanation": "Allah’s speech directs Adam to answer the angels after showing that their knowledge was limited. The commentary connects this command with the earlier question about humanity’s place on earth. The answer will demonstrate that Allah gives knowledge to whom He wills and knows what remains hidden."
         },
         {
-          "translation": "and I know what you reveal and what you conceal?”",
-          "explanation": "The final words include both what is openly expressed and what remains hidden. That contrast reaches beyond the angels’ question to every human intention and action. Allah’s knowledge is complete, while created beings see only part of what is happening."
+          "translation": "“O Adam!",
+          "explanation": "Adam is directly addressed as the person who received the names. The angels had been unable to identify them, while Adam could do so because Allah taught him. The address places him at the center of the demonstration of divinely given knowledge."
+        },
+        {
+          "translation": "Inform them",
+          "explanation": "The command means to make known or report the names to the angels. The commentary explains that the pronoun refers back to the angels who were asked to name the presented beings. Their learning now comes through Adam, whose knowledge Allah had provided."
+        },
+        {
+          "translation": "of their names.”",
+          "explanation": "The names belong to the beings shown earlier. The commentary understands Adam as naming those presented, while the angels had not known them. This response establishes the limits of their earlier judgment about who could serve on earth, rather than suggesting that naming alone defines human worth."
+        },
+        {
+          "translation": "Then when Adam did,",
+          "explanation": "This marks the completion of Adam’s answer. Once he named what had been shown, the angels could recognize the gap between their assumptions and what Allah had taught him. The episode demonstrates that knowledge is distributed by Allah and may exceed what others expect."
+        },
+        {
+          "translation": "Allah said,",
+          "explanation": "Allah speaks again after Adam has answered. The next words recall the earlier declaration that divine knowledge exceeds the angels’ understanding. The commentary reads this as a rebuke of their mistaken question and as a reminder that unseen matters are known fully to Allah alone."
+        },
+        {
+          "translation": "“Did I not tell you",
+          "explanation": "This question recalls Allah’s earlier statement that He knows what the angels do not know. It is a reminder, not a request for information. The commentary connects it to the angels’ earlier assumption about the successor and their acknowledgment that they did not know the names."
+        },
+        {
+          "translation": "that I know",
+          "explanation": "Allah affirms His knowledge as the reason the angels should not judge the full outcome from what they can see. The commentary says He reserves knowledge for whom He wills and withholds it from whom He wills. Human understanding is therefore partial, even when sincere."
+        },
+        {
+          "translation": "the secrets",
+          "explanation": "The word for the unseen refers to what is hidden from sight, not merely to private thoughts. The commentary includes matters whose outcomes the angels could not know before they were taught. The verse presents this knowledge as belonging to Allah beyond the limits of created perception."
+        },
+        {
+          "translation": "of the heavens",
+          "explanation": "The heavens are named as part of the unseen known to Allah. The statement broadens the lesson beyond the specific names shown in the scene. What lies beyond the angels’ sight and knowledge remains fully known to their Lord, who also knows what people conceal."
+        },
+        {
+          "translation": "and the earth,",
+          "explanation": "The earth completes the pair of realms whose unseen matters Allah knows. The discussion has focused on a successor placed on earth, but the answer reminds the angels that the larger order is not within their complete knowledge. Their judgment had considered only part of what could follow."
+        },
+        {
+          "translation": "and I know what you reveal",
+          "explanation": "Allah knows what the angels stated openly, including their question about corruption and bloodshed. The commentary treats their spoken words as one meaning of what was revealed. It also records another reading of the hidden matter, so the verse’s claim includes both speech and inner states."
+        },
+        {
+          "translation": "and what you conceal?”",
+          "explanation": "Nothing hidden from others is hidden from Allah. The preferred explanation points to Iblīs’s concealed pride and opposition, while other reports say some angels privately assumed they were more honored. The commentary preserves this difference and argues that the passage’s wording can address a group while referring especially to one member."
         }
       ]
     },
     "34": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We said to the angels, “Prostrate before Adam,”",
-          "explanation": "The prostration is a command of honor and obedience to Allah, not worship of Adam. The angels comply because the command comes from their Lord. This detail is important: the passage places Adam’s honor within Allah’s will, not in any independent divinity."
+          "translation": "And ˹remember˺",
+          "explanation": "The command continues the call to remember Allah’s favors to the audience and their ancestors. The commentary links this scene with the earlier announcement about Adam, presenting the prostration as an honor Allah granted him. It is part of the same argument about divine gifts and human accountability."
         },
         {
-          "translation": "so they all did—but not Iblîs,",
-          "explanation": "Iblis alone refuses while the angels obey. The verse identifies the refusal as an act of arrogance, shifting the issue from a missed gesture to pride against a divine command. The Qur’an uses this moment to introduce the hostility that shapes the temptation story."
+          "translation": "when We said",
+          "explanation": "Allah recalls the command given at the time Adam was honored. The scene is connected grammatically and thematically to the earlier announcement about a successor on earth. The story therefore continues the account of Allah’s dealings with Adam rather than beginning an unrelated episode."
         },
         {
-          "translation": "who refused and acted arrogantly, becoming unfaithful",
-          "explanation": "The refusal turns Iblis away from faithfulness. His failure is not lack of information: the command and its source are clear. The story therefore presents arrogance and disobedience as spiritual choices, a contrast to Adam’s later repentance after he errs."
+          "translation": "to the angels,",
+          "explanation": "The angels are addressed with a command to prostrate before Adam. The commentary records disagreement about whether Iblīs belonged to the angels or to the jinn, while noting that he was included in the command in this account. These are historical interpretations, not claims about present communities."
+        },
+        {
+          "translation": "“Prostrate",
+          "explanation": "The command is to bow down before Adam. The commentary clarifies that the act was obedience to Allah and an honoring of Adam, not worship directed to Adam. This distinction explains how the angels could perform the act while worship remained due to Allah alone."
+        },
+        {
+          "translation": "before Adam,”",
+          "explanation": "Adam is the one honored by the commanded act. The commentary links this honor to the knowledge Allah gave him and to his special place in the narrative. The prostration is not an act of worship of Adam, but obedience to Allah’s instruction."
+        },
+        {
+          "translation": "so they all did—but",
+          "explanation": "The angels obeyed the command, and the wording sets their collective response against the exception that follows. Their prostration demonstrates submission to Allah’s command. The contrast prepares for Iblīs’s refusal, which the commentary treats as a failure of obedience rather than a disagreement about Adam’s identity."
+        },
+        {
+          "translation": "not Iblîs,",
+          "explanation": "Iblīs is singled out from those who prostrated. Reports differ over whether he was an angel or a jinn, and the commentary examines arguments on both sides. It emphasizes that he was addressed by the command, while refusing it places him apart from the obedient angels."
+        },
+        {
+          "translation": "who refused",
+          "explanation": "Iblīs chose not to carry out the command. The commentary explains the refusal as disobedience and connects it with envy and pride in the reports it discusses. The verse presents his response as a decisive turning point, not as an innocent misunderstanding of what he had been asked to do."
+        },
+        {
+          "translation": "and acted arrogantly,",
+          "explanation": "Arrogance means treating oneself as too great to obey. The commentary relates Iblīs’s refusal to pride and envy, and uses the account as a warning against refusing divine commands. Its comparison with particular historical opponents concerns that earlier setting, not a judgment about people today."
+        },
+        {
+          "translation": "becoming unfaithful",
+          "explanation": "The phrase describes Iblīs as belonging among those who disbelieved by opposing Allah’s command. One transmitted explanation glosses this as disobedience, while the commentary links the label to denial of divine favor. It says he entered this state when he refused, rather than presenting it as an inherited identity."
         }
       ]
     },
     "35": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "We cautioned, “O Adam! Live with your wife in Paradise and eat as freely as you please,",
-          "explanation": "Adam and his wife are welcomed to live in Paradise and enjoy its provision broadly. The story begins with generosity, not deprivation. The single restriction makes the test specific, while leaving the couple with abundant permission to eat from the rest."
+          "translation": "We cautioned,",
+          "explanation": "Allah gives Adam and his wife an instruction that combines permission with a clear limit. The commentary presents this as a trial prescribed for Adam, as earlier creatures had also been tested. Their later failure follows from crossing a boundary they had been told to respect."
         },
         {
-          "translation": "but do not approach this tree, or else you will be wrongdoers.”",
-          "explanation": "The tree is left unnamed, keeping attention on the boundary rather than speculation about its species. The warning is that crossing the limit would be wrongdoing. The passage presents moral agency as choosing within a world of gifts and clear guidance."
+          "translation": "“O Adam!",
+          "explanation": "Adam is addressed directly as the first human in the narrative. The commentary records different accounts of when his wife was created and joined him, with one view placing this after he was already in the Garden. The verse itself simply addresses him and his wife together."
+        },
+        {
+          "translation": "Live with your wife",
+          "explanation": "The command grants Adam and his wife a shared home in the Garden. The commentary notes that the Arabic word for spouse has more than one grammatical form, without changing the meaning here. Reports differ about the wife’s creation and timing, so those details remain uncertain."
+        },
+        {
+          "translation": "in Paradise",
+          "explanation": "The Garden is the place where the pair are permitted to live and eat. The commentary reads the sequence as following Iblīs’s refusal and expulsion, although transmitted reports supply further details. The verse focuses on their dwelling there and the instruction that follows."
+        },
+        {
+          "translation": "and eat",
+          "explanation": "Food is permitted to Adam and his wife, with one specific restriction later in the verse. The commentary emphasizes that the allowance covers the Garden’s provision broadly. The command makes clear that the trial is not a denial of all pleasure, but a test of obedience."
+        },
+        {
+          "translation": "as freely",
+          "explanation": "The Arabic term describes ample and pleasant provision, obtained without hardship. Some explanations also emphasize that the food carried no reckoning. The commentary contrasts this abundance with the single prohibition, highlighting how wide the permission was."
+        },
+        {
+          "translation": "as you please,",
+          "explanation": "Adam and his wife may choose where to eat within the Garden, according to the permission given. The verse does not specify the identity of the permitted foods in this phrase. Its emphasis is generous freedom within a clear boundary."
+        },
+        {
+          "translation": "but do not approach",
+          "explanation": "The warning prohibits even approaching the designated tree, not only eating from it. The commentary discusses the grammar of this prohibition and explains that crossing the limit would lead to wrongdoing. The broader lesson is that the command set a boundary within otherwise abundant permission."
+        },
+        {
+          "translation": "this tree,",
+          "explanation": "The tree is identified only by the words “this tree” in the Qur’anic account. Reports variously call it grain, wheat, grapevine, or fig, but the commentary concludes that the exact kind is not established by the Qur’an or sound prophetic report. Knowing it brings no necessary benefit."
+        },
+        {
+          "translation": "or else",
+          "explanation": "These words connect approaching the forbidden tree with the consequence that follows. The commentary discusses whether the clause expresses a result or a warning against the action. In either reading, the instruction makes the consequence clear before Adam and his wife act."
+        },
+        {
+          "translation": "you will be wrongdoers.”",
+          "explanation": "Wrongdoing is explained as crossing a limit and placing something where it does not belong. Here it means disobeying the command and overstepping what was permitted. The phrase warns of a consequence tied to their choice, not an inherited trait or permanent identity."
         }
       ]
     },
     "36": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "But Satan deceived them—leading to their fall from the ˹blissful˺ state they were in,",
-          "explanation": "Satan’s deception leads Adam and his wife to lose the state of ease they had been given. The verse describes the consequence of temptation without making the temptation an excuse. It prepares for life on earth, where people will face guidance and opposition."
+          "translation": "But",
+          "explanation": "This transition turns from the prohibition to the event that followed. The commentary frames Adam and his wife’s disobedience as a trial and discusses how Satan caused their lapse. The verse moves from the Garden’s permission to the consequences of crossing its boundary."
         },
         {
-          "translation": "and We said, “Descend from the heavens ˹to the earth˺ as enemies to each other.",
-          "explanation": "The command to descend marks a transition from Paradise to earthly life and anticipates enmity among those involved in the story. The conflict between humanity and Satan becomes a recurring moral struggle. The verse does not say that human life itself is a punishment."
+          "translation": "Satan",
+          "explanation": "Satan is the agent who tempted Adam and his wife. The commentary records varied reports about how he reached them, including stories involving a serpent, but treats the Qur’anic account of his whispering and oath as the firm basis. Details beyond that remain uncertain."
         },
         {
-          "translation": "You will find in the earth a residence and provision for your appointed stay.”",
-          "explanation": "Earth is also described as a residence and source of provision for a limited term. Human life there has purpose and an appointed span. The verse holds two truths together: earthly existence includes conflict, yet Allah provides a place to live and sustain life."
+          "translation": "deceived them—",
+          "explanation": "The Arabic verb is read by most reciters as causing them to slip from obedience. Another reading can mean removing them, but the commentary prefers the first because the next clause describes their departure. Satan’s deception led to their error, while Allah decreed the consequence."
+        },
+        {
+          "translation": "leading to their fall",
+          "explanation": "The phrase describes a lapse from obedience, not merely a change of location. A reported explanation glosses it as leading them astray. The commentary links the slip to eating from what had been forbidden, while preserving the distinction between Satan’s tempting and their own act."
+        },
+        {
+          "translation": "from the ˹blissful˺ state",
+          "explanation": "The state they left was the Garden’s abundant provision and spacious bounty. The commentary notes that Allah ultimately expelled them, while their departure is attributed to Satan because his temptation occasioned it. This causal wording does not make Satan the ultimate authority over the outcome."
+        },
+        {
+          "translation": "they were in,",
+          "explanation": "Adam and his wife had been dwelling in the Garden under a generous permission with one restriction. The commentary gives multiple traditional stories about their temptation, but emphasizes the account supported by the Qur’an: Satan addressed them, promised advice, and deceived them."
+        },
+        {
+          "translation": "and We said,",
+          "explanation": "Allah’s speech announces the consequence after the act of disobedience. The commentary says Allah is the one who caused their departure, even though the verse also attributes it to Satan as the occasion. This passage now shifts from the Garden to earthly life."
+        },
+        {
+          "translation": "“Descend",
+          "explanation": "The command means to settle or go down to a place. The commentary records disagreement about who is included: reports name Adam, his wife, Satan, and sometimes the serpent, while another reading includes their respective descendants. The verse does not make every detail of those reports certain."
+        },
+        {
+          "translation": "from the heavens",
+          "explanation": "The translation locates the descent from the heavenly or Garden dwelling toward earthly life. The commentary discusses the command as a transition from the Garden to the earth, and notes that interpreters differed over precisely who was addressed. Its focus is the changed condition of dwelling."
+        },
+        {
+          "translation": "˹to the earth˺",
+          "explanation": "The earth becomes the place where Adam and his descendants will live after the Garden. The commentary explains the descent as settlement in a new abode, not only a physical movement. It marks the beginning of mortal life with its provision, limits, and moral struggle."
+        },
+        {
+          "translation": "as enemies",
+          "explanation": "The enmity in the verse is explained especially through Satan’s pride and hostility toward Adam, and the believers’ opposition to Satan’s disbelief. The commentary also records reports that include other parties. This is a spiritual conflict described in the narrative, not a license for hostility among human communities."
+        },
+        {
+          "translation": "to each other.",
+          "explanation": "The phrase describes reciprocal opposition. Some explanations include Adam and his descendants on one side and Satan and his descendants on the other, while other reports include the serpent. The commentary identifies faith and disbelief as the basis of the central enmity between people and Satan."
+        },
+        {
+          "translation": "You will find",
+          "explanation": "The statement turns to what awaits the descendants on earth. Their new life includes a place to dwell and sources of enjoyment, though not the permanence of the Garden. The commentary presents earthly existence as a temporary stage rather than an eternal home."
+        },
+        {
+          "translation": "in the earth",
+          "explanation": "Earth is described as the place of settlement after the Garden. The commentary connects it with homes, food, and other benefits during life, and also with burial after death. Different reports explain the term as dwelling generally or as graves specifically."
+        },
+        {
+          "translation": "a residence",
+          "explanation": "The word means a place of settling. Some interpreters connect it with ordinary dwelling places, while others understand it as the graves. The commentary favors the broader sense, since wherever a person lives on earth is a temporary place of residence."
+        },
+        {
+          "translation": "and provision",
+          "explanation": "Provision here includes what people enjoy and use on earth, not only food. The commentary describes nourishment, household goods, adornment, and other pleasures as forms of earthly enjoyment. These benefits are real, yet they remain limited by the term of each person’s life."
+        },
+        {
+          "translation": "for your appointed stay.”",
+          "explanation": "The period of enjoyment lasts until an appointed time. Reports identify that time as death, the end of the world, or a fixed term, while the commentary prefers a general meaning extending until the earth is exchanged. Earthly life is temporary, not without purpose."
         }
       ]
     },
     "37": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Then Adam was inspired with words ˹of prayer˺ by his Lord,",
-          "explanation": "Adam receives words of prayer from his Lord, indicating that even the path of return is taught by Allah. The verse does not portray his mistake as beyond repair. The important turn is that he responds to his error by seeking forgiveness."
+          "translation": "Then Adam",
+          "explanation": "Adam responds after leaving the Garden and recognizing his disobedience. The commentary describes him as receiving words from Allah and accepting them in repentance. This keeps the focus on his response to wrongdoing rather than treating the earlier mistake as the end of his story."
         },
         {
-          "translation": "so He accepted his repentance. Surely He is the Accepter of Repentance, Most Merciful",
-          "explanation": "Allah accepts Adam’s repentance and is named the Most Merciful. The story therefore rejects despair after wrongdoing: sincere return remains possible. The verse also helps distinguish the path Adam takes from Iblis’s proud persistence in refusing a command."
+          "translation": "was inspired",
+          "explanation": "The translation presents Adam as being given words by his Lord. The commentary explains the underlying verb as receiving and accepting what was communicated. It also discusses a grammatical alternative, but says the established recitation makes Adam the one who receives the words."
+        },
+        {
+          "translation": "with words",
+          "explanation": "The commentary records several explanations of the words, including questions about Allah’s mercy and prayers asking forgiveness. It notes that these reports differ in wording but agree that Adam accepted guidance, confessed his fault, and expressed regret. The preferred evidence comes from the Qur’anic prayer in another passage."
+        },
+        {
+          "translation": "˹of prayer˺",
+          "explanation": "The added phrase clarifies that the words are a prayer, though the source translation does not specify this in the same way. The commentary identifies the clearest Qur’anic evidence as Adam and his wife’s plea that they had wronged themselves and needed Allah’s forgiveness and mercy."
+        },
+        {
+          "translation": "by his Lord,",
+          "explanation": "The words come from Allah, not from Adam’s own invention. The commentary says Allah extended the words to him and Adam received them with acceptance. This portrays repentance as a response enabled by divine guidance, alongside Adam’s own confession and regret."
+        },
+        {
+          "translation": "so He accepted",
+          "explanation": "Allah’s response follows Adam’s reception and use of the words. The commentary explains that forgiveness came through Adam’s turning back, confessing his fault, and regretting his disobedience. It distinguishes this from simply receiving a formula without returning to obedience."
+        },
+        {
+          "translation": "his repentance.",
+          "explanation": "Repentance means returning to Allah and to obedience after disobedience. The commentary says Adam’s confession and regret exemplify how people addressed by the Qur’an can turn away from error. The passage therefore gives hope while still treating wrongdoing as a real responsibility."
+        },
+        {
+          "translation": "Surely He is",
+          "explanation": "The closing affirmation grounds hope in Allah’s qualities. He does not merely permit repentance but accepts the return of servants who turn back from sin. The commentary explains this acceptance as turning from anger and punishment toward approval and pardon."
+        },
+        {
+          "translation": "the Accepter",
+          "explanation": "The title means Allah repeatedly accepts the repentance of sinful servants who return to obedience. The commentary explains repentance as abandoning what displeases Him and turning toward what pleases Him. It presents divine acceptance as a gift accompanying sincere change."
+        },
+        {
+          "translation": "of Repentance,",
+          "explanation": "The phrase identifies what Allah accepts: the servant’s return from disobedience. The commentary describes repentance as turning back to Allah, not merely regretting consequences. Adam’s example includes admitting wrong and seeking mercy, offering guidance to the audience addressed by the surah."
+        },
+        {
+          "translation": "Most Merciful",
+          "explanation": "Allah’s mercy accompanies His acceptance of repentance. The commentary explains this mercy as remission of the offense and removal of its punishment. The verse closes the account with pardon and compassion, showing that failure need not prevent a sincere return to obedience."
         }
       ]
     },
     "38": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "We said, “Descend all of you!",
-          "explanation": "The repeated command to descend gathers the human family into the new earthly setting. In this account, life on earth is the place where people will receive and respond to guidance. The verse moves the story from its beginning toward the moral choices of later generations."
+          "translation": "We said,",
+          "explanation": "The speaker continues the account of Allah addressing those who were sent down from the Garden. The commentary says the direct audience includes Adam, his wife, and Iblīs, while the promise of guidance also concerns their descendants. The command now turns toward life on earth."
         },
         {
-          "translation": "Then when guidance comes to you from Me,",
-          "explanation": "Guidance is promised to come from Allah, so humanity is not abandoned after leaving Paradise. This promise is a central thread of the surah: revelation offers direction in earthly life. The next phrase states the reassurance given to those who follow it."
+          "translation": "“Descend",
+          "explanation": "The command repeats the movement from the Garden to earthly life. The commentary links it with the previous verse and reports that Adam, Eve, Iblīs, and the serpent were included. It also explains that the address can extend to their descendants."
         },
         {
-          "translation": "whoever follows it, there will be no fear for them, nor will they grieve",
-          "explanation": "Following guidance brings freedom from ultimate fear and grief, not a guarantee that believers will never experience pain. The promise concerns their final standing with Allah. It connects obedience to hope and prepares for the contrast with those who reject the signs."
+          "translation": "all of you!",
+          "explanation": "The words gather the addressed parties together in the command. A transmitted report names Adam, Eve, the serpent, and Iblīs. The following promise then opens outward to the people who receive guidance and follow it throughout earthly life."
+        },
+        {
+          "translation": "Then when",
+          "explanation": "This introduces the condition under which the promise applies: guidance will come from Allah. The commentary treats it as a real future promise, not as an abstract possibility. It connects divine guidance with clarification of the command and direction toward the right path."
+        },
+        {
+          "translation": "guidance comes",
+          "explanation": "Guidance means clarification and right direction. One report describes it as prophets, messengers, and clarification, while the preferred reading understands Allah’s guidance as instruction delivered through messengers. The promise ensures that the people sent to earth are not left without direction."
+        },
+        {
+          "translation": "to you from Me,",
+          "explanation": "The guidance originates with Allah and comes to the addressed people. The commentary connects this with the message delivered through prophets, including Muhammad in the surah’s address to its first audience. Its reach includes later descendants who receive that clarification."
+        },
+        {
+          "translation": "whoever follows it,",
+          "explanation": "Following means acting upon the clarification and direction sent by Allah. The promise is conditional on responding to guidance, not merely hearing that it exists. The commentary links this to repentance and reform, and to turning away from disbelief and error."
+        },
+        {
+          "translation": "there will be no fear",
+          "explanation": "The promise removes fear of the terrors and punishment associated with the Resurrection. The commentary explains that those who obeyed Allah in worldly life will be safe from that judgment. It does not say that they will never face hardship during earthly life."
+        },
+        {
+          "translation": "for them,",
+          "explanation": "The reassurance belongs to those who follow the guidance just described. The promise is personal and inclusive, applying to whoever responds faithfully rather than only to Adam’s generation. The surrounding passage presents return to Allah as open through repentance and reform."
+        },
+        {
+          "translation": "nor will they grieve",
+          "explanation": "The commentary explains that the guided will not grieve over what they left behind in worldly life after death. It pairs this comfort with freedom from fear about what lies ahead. Together, the two assurances describe security in the hereafter, not the absence of ordinary sorrow now."
         }
       ]
     },
     "39": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "But those who disbelieve and deny Our signs will be the residents of the Fire.",
-          "explanation": "Disbelief here is joined to denying the signs, a refusal that goes beyond not having encountered the message. The verse sets out the opposite outcome to the reassurance just promised to those who follow guidance."
+          "translation": "But those",
+          "explanation": "This clause introduces the contrasting outcome to the promise made to those who follow guidance. The commentary situates the warning within the surah’s address to deniers of the message. It describes a response to revelation, not an inherited identity or judgment on present-day communities."
         },
         {
-          "translation": "They will be there forever.”",
-          "explanation": "The Fire is presented as a lasting consequence, making the choice between guidance and rejection a matter of ultimate seriousness. The contrast is stark, but the passage has just shown that Allah sends guidance and accepts repentance before judgment."
+          "translation": "who disbelieve",
+          "explanation": "Disbelief is explained through the image of covering or concealing the truth. In context, it describes rejection of Allah’s signs and the messengers’ claims. The verse addresses those who persist in that response, contrasting them with people who accept the guidance offered."
+        },
+        {
+          "translation": "and deny",
+          "explanation": "The denial is active rejection, treating the signs as false. The commentary clarifies that these signs include proofs of Allah’s oneness and sovereignty and the evidence brought by messengers. It is this rejection of evidence that makes the warning distinct from simple lack of information."
+        },
+        {
+          "translation": "Our signs",
+          "explanation": "Allah’s signs are His proofs of oneness and authority, including the messages and evidence delivered by prophets. The commentary notes that these signs support the messengers’ truthfulness. The phrase therefore concerns rejection of communicated evidence, not any arbitrary disagreement or ordinary uncertainty."
+        },
+        {
+          "translation": "will be",
+          "explanation": "The wording states a consequence for the described response. It contrasts the assurance given to followers of guidance with the outcome for those who disbelieve and deny the signs. The verse presents judgment as serious while the surrounding passage has already offered guidance and repentance."
+        },
+        {
+          "translation": "the residents",
+          "explanation": "The expression means the people who belong to and inhabit the Fire. The commentary explains it as a settled condition for those identified in the verse, distinguishing them from other groups described in a report about punishment for sins. The wording here focuses on persistent rejection."
+        },
+        {
+          "translation": "of the Fire.",
+          "explanation": "The Fire is the consequence named for those who reject Allah’s signs and accuse the messengers of falsehood. The commentary emphasizes that the signs are proofs, not empty claims. The warning stands alongside the earlier invitation to follow guidance and return in repentance."
+        },
+        {
+          "translation": "They will be there",
+          "explanation": "This phrase emphasizes continued residence in the Fire for the people described. The commentary explains the verse’s promise as lasting without end, while separately citing a report about other groups who may be punished for their sins. These are distinct categories in the cited material."
+        },
+        {
+          "translation": "forever.”",
+          "explanation": "The duration is described as without end or limit for those identified as the Fire’s enduring inhabitants. The commentary’s distinction between these people and others punished for sins should be preserved. The warning addresses rejection of the signs, not a casual label for people today."
         }
       ]
     },
     "40": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "O children of Israel! Remember My favours upon you.",
-          "explanation": "The address turns to the Children of Israel, recalling their relationship with Allah after the universal account of human beginnings. Remembering past favors is meant to stir gratitude and recognition, not merely rehearse history."
+          "translation": "O children",
+          "explanation": "The address begins by naming the descendants of Jacob, also called Israel. In this passage it speaks particularly to Jewish scholars living in the Prophet’s time, according to the commentary. The historical address must not be turned into a blanket judgment about Jewish people in later times."
         },
         {
-          "translation": "Fulfil your covenant and I will fulfil Mine,",
-          "explanation": "The covenant language links Allah’s promise with the community’s duty to remain faithful. The verse calls for a response to divine favor, rather than treating inherited privilege as enough. Its message is addressed to a specific people, while its lesson about keeping commitments is wider."
+          "translation": "of Israel!",
+          "explanation": "Israel is identified in the commentary as Jacob, son of Isaac and Abraham. The name is given an explanation connecting it with service to God. Here the phrase recalls a family history that carries both inherited favors and responsibilities."
         },
         {
-          "translation": "and stand in awe of Me ˹alone˺",
-          "explanation": "“Stand in awe of Me alone” directs reverence to Allah rather than competing powers. The phrase concludes the call with accountability and loyalty. The following verses will recall episodes from Israelite history to explain what gratitude and covenant faithfulness require."
+          "translation": "Remember",
+          "explanation": "To remember is to keep divine favors in view rather than treat them as forgotten history. The commentary lists gifts to earlier generations, including prophets, scripture, rescue from Pharaoh, water, and food. The audience is urged to let that history guide its present response."
+        },
+        {
+          "translation": "My favours",
+          "explanation": "The favors include revelation, deliverance, and provision. The commentary emphasizes benefits given to ancestors and asks their descendants to recognize them. This reminder is tied to gratitude and obedience, not to an assumption that ancestry alone guarantees divine approval."
+        },
+        {
+          "translation": "upon you.",
+          "explanation": "The address applies the remembered favors to the community being spoken to, including what their forebears received. The commentary places the original audience in the setting of the Prophet’s time. It calls them to respond personally rather than rely only on ancestral privilege."
+        },
+        {
+          "translation": "Fulfil your covenant",
+          "explanation": "The covenant is understood as the charge given to the Children of Israel in the Torah: make clear the messenger’s coming, believe in him, and follow what he brings. Other reports describe it more broadly as obeying God’s commands and avoiding what He forbids."
+        },
+        {
+          "translation": "and I will fulfil Mine,",
+          "explanation": "The promised fulfillment is explained as admission to the Garden and God’s approval. The commentary links the promise to keeping the covenant, including belief in the messenger addressed in that historical setting. The verse joins responsibility with a promise rather than presenting the covenant as a one-sided demand."
+        },
+        {
+          "translation": "and stand in awe",
+          "explanation": "The command calls the audience to fear God, meaning to take His judgment seriously and guard against disobedience. The commentary connects this warning with punishments that earlier generations experienced. It is directed to a specific audience in its historical context, not a generalization about all descendants."
+        },
+        {
+          "translation": "of Me",
+          "explanation": "The object of reverence is God alone. In the surrounding verse, this closes the exchange of covenant and promise by turning attention to accountability. The commentary stresses that fear should lead to repentance and following the messenger, rather than merely anxiety without a change in conduct."
+        },
+        {
+          "translation": "˹alone˺",
+          "explanation": "The added word emphasizes exclusive reverence. The passage asks its audience to fulfill the covenant and rely on God’s promise rather than fear other powers or protect worldly status. The historical warning addresses people who knew the earlier revelation and its obligations."
         }
       ]
     },
     "41": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Believe in My revelations which confirm your Scriptures.",
-          "explanation": "The address continues the appeal to the Children of Israel, asking them to recognize how the Qur’an confirms the revelation they received. The verse calls for honest response to familiar guidance, not a dismissal of earlier scripture or its prophets."
+          "translation": "Believe",
+          "explanation": "The command is to affirm as true the revelation sent to Muhammad. The commentary addresses Jewish scholars in the Prophet’s time and connects their response to what they knew from their scripture. This historical appeal should not be generalized to present-day people or communities."
         },
         {
-          "translation": "Do not be the first to deny them or trade them for a fleeting gain.",
-          "explanation": "The warning not to trade revelation for a brief worldly benefit echoes the Qur’an’s recurring image of a bad bargain. Material advantage and social status do not last, while concealing or rejecting truth carries a deeper cost. The verse challenges religious leaders and listeners alike."
+          "translation": "in My revelations",
+          "explanation": "The revelation in context is the Qur’an sent to Muhammad. The commentary says that believing in it entails recognizing the message it brings, including the messenger’s prophethood. The phrase concerns a specific revelation, not an open-ended demand to agree with every later interpretation."
         },
         {
-          "translation": "And be mindful of Me",
-          "explanation": "The final call to be mindful of Allah gathers the earlier commands into accountability before the One who knows what people conceal. Reverence is not merely an emotion. It means resisting pressure to exchange clear moral duty for something temporarily profitable."
+          "translation": "which confirm",
+          "explanation": "The Qur’an is described as confirming earlier scripture. The commentary explains that its call to recognize and follow Muhammad is consistent with what it understands the Torah and Gospel to contain. This is presented as an argument directed to the historical audience familiar with those books."
+        },
+        {
+          "translation": "your Scriptures.",
+          "explanation": "The reference is to the Torah and Gospel known to the addressed People of the Book. The commentary says the Qur’an confirms them and connects that confirmation with their recognition of Muhammad. It describes the argument made to that audience without making a judgment about later readers."
+        },
+        {
+          "translation": "Do not be",
+          "explanation": "The command warns against taking the lead in rejecting the revelation just mentioned. The commentary explains “first” in relation to the audience’s community, not as a claim that no one had ever disbelieved. It urges people with relevant knowledge not to lead others away from recognition."
+        },
+        {
+          "translation": "the first",
+          "explanation": "The phrase means being at the forefront of denial among the addressed community. The commentary discusses the singular grammatical form but reads it as applying to a group. Its focus is the responsibility of those with knowledge, especially not using their influence to normalize rejection."
+        },
+        {
+          "translation": "to deny them",
+          "explanation": "The pronoun refers to the revelation sent down, understood as the Qur’an. The commentary rejects readings that move the referent elsewhere as less consistent with the verse’s wording. Denial here means refusing that the revelation comes from God."
+        },
+        {
+          "translation": "or trade them",
+          "explanation": "The image of trading means exchanging divine signs for some worldly advantage. The commentary connects this with concealing what the scripture says about the messenger in order to preserve status or receive payment. This criticism concerns the historical behavior described, not a timeless accusation against a group."
+        },
+        {
+          "translation": "for a fleeting gain.",
+          "explanation": "The gain is called small or contemptible because it is temporary compared with the value of truth. The commentary mentions leadership among followers and wages as possible worldly motives. Its point is that material advantage cannot justify hiding what one knows."
+        },
+        {
+          "translation": "And be mindful",
+          "explanation": "This closing command calls the audience to fear God in its response to revelation. The commentary links it with not concealing the signs, denying the Qur’an, or rejecting the messenger. Reverence for God should take priority over worldly status or fear of social consequences."
+        },
+        {
+          "translation": "of Me",
+          "explanation": "The command directs reverence to God. In context, it completes the warning against exchanging revelation for a small benefit. The passage calls its historical audience to accountability before God, who knows whether they have openly accepted or inwardly concealed the truth."
         }
       ]
     },
     "42": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Do not mix truth with falsehood or hide the truth knowingly",
-          "explanation": "Truth must not be blended with falsehood until the difference becomes hard to see, nor concealed from people who need it. The verse directly challenges those who know scripture, making knowledge a responsibility. Its principle applies wherever selective disclosure is used to mislead."
+          "translation": "Do not mix",
+          "explanation": "The verb means to intermingle or obscure by combining things. The commentary applies the warning to particular historical claims that joined an acknowledged truth with a denial. Its principle is to avoid confusing accurate information with falsehood, especially when the difference is known."
+        },
+        {
+          "translation": "truth",
+          "explanation": "The commentary identifies truth with what the earlier scriptures and the Qur’an taught about the messenger, in the historical discussion. Other reports connect it with the Torah itself. The shared point is that truth should be presented clearly, not altered to serve an advantage."
+        },
+        {
+          "translation": "with falsehood",
+          "explanation": "The falsehood is described as denying that the messenger was sent to the addressed community, despite acknowledging other parts of the claim. The commentary explains the mixing as presenting one true element alongside a false denial. This refers to a specific historical debate, not present-day people."
+        },
+        {
+          "translation": "or hide the truth",
+          "explanation": "The Arabic construction can be read either as a second prohibition or as a report that the audience conceals the truth. The commentary preserves both grammatical possibilities and links the concealment to knowledge about the messenger in their scripture."
+        },
+        {
+          "translation": "knowingly",
+          "explanation": "The warning concerns concealment done with awareness, not an honest mistake or lack of information. The historical interpretation describes people who knew what their books said but withheld it. The phrase makes knowledge a source of responsibility rather than a basis for status."
         }
       ]
     },
     "43": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
           "translation": "Establish prayer,",
-          "explanation": "Prayer is again presented as a regular act of worship, now in a direct appeal to the Children of Israel. The command places devotion at the heart of religious life and recalls the practice already described among the mindful believers."
+          "explanation": "Prayer is commanded as a regular act of worship. The commentary says the addressed scribes and hypocrites were urged to join the Muslims in prayer and turn back to God. It presents prayer here as part of a broader call to repentance and obedience."
         },
         {
           "translation": "pay alms-tax,",
-          "explanation": "Alms-tax turns faith into a material duty toward others. Worship is not confined to private devotion when people around us have claims on our resources. The verse places prayer and giving side by side as obligations that shape both personal and communal life."
+          "explanation": "Zakāh is the prescribed alms given to those entitled to it. The commentary explains its name through ideas of growth and purification, and favors purification of what remains of a person’s wealth. The command makes worship involve material responsibility, not only private devotion."
         },
         {
-          "translation": "and bow down with those who bow down",
-          "explanation": "Bowing with those who bow down points to joining a worshipping community rather than standing apart in self-importance. The verse calls for participation in shared devotion. Its three commands together connect prayer, social responsibility, and belonging among people who worship Allah."
+          "translation": "and bow down",
+          "explanation": "Bowing is explained as submission to God through obedience. The commentary notes that the word can carry the sense of yielding, not only the physical posture in prayer. In this verse it belongs with the call to worship and obey."
+        },
+        {
+          "translation": "with those",
+          "explanation": "The command places the audience alongside other worshippers rather than apart from them. The commentary interprets this as joining the Muslims who affirmed Muhammad and his message. Its setting is a specific appeal to the historical audience described in the passage."
+        },
+        {
+          "translation": "who bow down",
+          "explanation": "Those bowing are people who submit to God and perform worship. The commentary connects the phrase with both prayer and obedience, and treats it as an invitation to enter the community of believers. It should not be reduced to bodily movement alone."
         }
       ]
     },
     "44": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Do you preach righteousness and fail to practice it yourselves, although you read the Scripture? Do you not understand",
-          "explanation": "The question challenges the gap between teaching moral guidance and ignoring it oneself. Reading scripture increases responsibility rather than giving a person immunity from criticism. The verse does not forbid advising others, but insists that a teacher examine their own conduct with the same seriousness."
+          "translation": "Do you preach",
+          "explanation": "The verse challenges people who direct others toward obedience while failing to practice it themselves. The commentary gives a historical application to Jewish scholars and hypocrites in the Prophet’s time. It does not forbid advising others, but exposes the contradiction of knowingly neglecting one’s own duty."
+        },
+        {
+          "translation": "righteousness",
+          "explanation": "The Arabic term can refer broadly to obedience that pleases God. Reports specify different examples, including prayer, fasting, and following the messenger, but the commentary says they share the idea of urging people toward good. The verse’s criticism is directed at inconsistency."
+        },
+        {
+          "translation": "and fail to practice",
+          "explanation": "The phrase describes neglecting the very conduct one recommends. The commentary explains this as disobeying God while telling others to obey. The problem is not that teachers are imperfect, but that they knowingly disregard their own obligations while imposing them on others."
+        },
+        {
+          "translation": "it yourselves,",
+          "explanation": "The rebuke calls the teachers to apply their instruction to themselves. The commentary connects the historical case with people who knew the covenant in their scripture but denied its implications. The contrast makes personal conduct part of the credibility and seriousness of religious teaching."
+        },
+        {
+          "translation": "although you read",
+          "explanation": "Reading here also means studying the scripture. The commentary identifies the Book as the Torah and treats familiarity with it as increasing responsibility. Possessing religious learning does not excuse neglect. It makes the failure to follow known guidance more striking."
+        },
+        {
+          "translation": "the Scripture?",
+          "explanation": "The Scripture refers in the historical explanation to the Torah. The commentary says the addressed scholars knew its covenant and what it said about the messenger. The passage’s specific argument is about that audience’s knowledge, rather than a blanket claim about all readers of scripture."
+        },
+        {
+          "translation": "Do you not understand",
+          "explanation": "The question urges the audience to recognize the ugliness of telling others to obey while disobeying themselves. The commentary says they knew that the duties they imposed on others also applied to them. Understanding here requires moral recognition, not mere possession of information."
         }
       ]
     },
@@ -1409,10 +1990,35 @@
       ]
     },
     "47": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "O Children of Israel! Remember ˹all˺ the favours I granted you and how I honoured you above the others",
-          "explanation": "The Children of Israel are again asked to remember the favors Allah granted them and their honored place among peoples of their time. The reminder is an appeal to gratitude, not a license for inherited superiority. The following verse warns that past distinction cannot replace personal accountability."
+          "translation": "O Children",
+          "explanation": "The address again refers to the descendants of Jacob and, in this passage, specifically to the historical audience discussed in the commentary. The call to remember favors continues the preceding verses. It does not make a blanket judgment about Jewish people in later periods."
+        },
+        {
+          "translation": "of Israel!",
+          "explanation": "Israel is another name for Jacob, whose descendants are addressed here. The commentary places this call within a historical reminder to the Jewish scholars of the Prophet’s time. It should be read in that setting, not as a judgment on all people who share that ancestry."
+        },
+        {
+          "translation": "Remember",
+          "explanation": "The audience is asked to keep past divine gifts in mind. The commentary links this reminder with the earlier command to remember favors given to their ancestors. Recalling those events should encourage gratitude and obedience rather than reliance on inherited distinction."
+        },
+        {
+          "translation": "˹all˺ the favours",
+          "explanation": "The phrase includes the benefits given to earlier generations, such as prophets, scripture, rescue, and provision. The commentary says these ancestral favors are also recalled for their descendants. Their memory is meant to guide present choices, not establish superiority by ancestry alone."
+        },
+        {
+          "translation": "I granted you",
+          "explanation": "The favors are presented as gifts from God, not achievements earned by the descendants themselves. The commentary explains that the verse refers especially to benefits granted to their forebears and attributed to their descendants because of their family connection."
+        },
+        {
+          "translation": "and how I honoured you",
+          "explanation": "The verse adds a specific favor: distinction given to earlier generations. The commentary interprets this as being favored with prophets, books, and leadership in their own time. It makes clear that the wording has a historical scope rather than a claim of superiority over every later community."
+        },
+        {
+          "translation": "above the others",
+          "explanation": "The commentary explains “the worlds” as the people living in the same historical period, not all peoples for all time. It cites reports connecting that distinction with prophets, scripture, and leadership. The favor belongs to a past community and does not exempt anyone from accountability."
         }
       ]
     },
