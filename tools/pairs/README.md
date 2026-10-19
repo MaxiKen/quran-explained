@@ -5,7 +5,7 @@
 ## Workflow
 
 1. Read the complete commentary for every verse being edited before drafting. `python3 tools/pairs/review.py SURAH VERSE` prints the full mapped English commentary to support this source-first review. It is a reading aid, not proof that the source was read.
-2. Author in `authored/NNN.json`. Every new or revised chapter must declare `"split_policy": "dense-v1"` and obey the density rule in `RULES.md`.
+2. Author in `authored/NNN.json`. New chapters should declare chapter-level `"split_policy": "dense-v1"`. When migrating a legacy chapter incrementally, place the marker on each revised verse so those entries are enforced immediately; move it to chapter level after the entire chapter complies.
 3. Run the required verification gate after every authoring/editing run. Only supply the human-review confirmation after checking all source commentaries and the resulting explanations and boundaries:
 
    ```sh
@@ -51,7 +51,7 @@ This layer is authored for the reader and is not an excerpt from or replacement 
 }
 ```
 
-The example is illustrative only; complete authored chapters must include every verse and the required minimum number of meaningful phrases per verse. The `dense-v1` policy is enforced by `assemble.py` and `verify.py`. Legacy files without the marker remain identifiable as legacy; when revising one, bring the full chapter into compliance and add the marker.
+The example is illustrative only; complete authored chapters must include every verse and the required minimum number of meaningful phrases per verse. The `dense-v1` policy is enforced by `assemble.py` and `verify.py`. Legacy chapters can be migrated verse by verse using verse-level markers, then switched to a chapter-level marker when the full chapter complies.
 
 ## Tools
 

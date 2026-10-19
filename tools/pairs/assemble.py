@@ -54,7 +54,7 @@ def check_line(value: object, field: str, where: str, problems: list[str], minim
 
 def minimum_phrase_count(translation: str) -> int:
     """Dense-v1 minimum: one phrase per three translation words, rounded up."""
-    word_count = len(re.findall(r"[A-Za-z0-9]+(?:['’][A-Za-z0-9]+)*", translation))
+    word_count = len(re.findall(r"[^\W_]+(?:[-'’][^\W_]+)*", translation, flags=re.UNICODE))
     return max(2, (word_count + 2) // 3) if word_count >= 3 else 1
 
 
@@ -114,6 +114,10 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
             problems.append("%s: verse entry must be an object" % where_verse)
             continue
 
+        verse_policy = verse.get("split_policy", split_policy)
+        if verse_policy not in (None, "dense-v1"):
+            problems.append("%s: unknown split_policy %r" % (where_verse, verse_policy))
+
         phrases_data = verse.get("phrases", [])
         if not isinstance(phrases_data, list) or not phrases_data:
             problems.append("%s: no phrases have been authored" % where_verse)
@@ -140,9 +144,9 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         if LETTER_OR_NUMBER.search(modern[cursor:]):
             problems.append("%s: the phrase parts do not cover the full verse translation" % where_verse)
 
-        if split_policy == "dense-v1":
+        if verse_policy == "dense-v1":
             minimum_phrases = minimum_phrase_count(modern)
-            word_count = len(re.findall(r"[A-Za-z0-9]+(?:['’][A-Za-z0-9]+)*", modern))
+            word_count = len(re.findall(r"[^\W_]+(?:[-'’][^\W_]+)*", modern, flags=re.UNICODE))
             if len(phrases_data) < minimum_phrases:
                 problems.append(
                     "%s: dense-v1 requires at least %d meaningful phrases for %d translation words"

@@ -24,6 +24,7 @@ def read_json(path):
 class PhraseExplanationTest(unittest.TestCase):
     def test_dense_policy_minimum_scales_with_translation_length(self):
         self.assertEqual(assemble.minimum_phrase_count("Go"), 1)
+        self.assertEqual(assemble.minimum_phrase_count("Alif-Lãm-Mĩm"), 1)
         self.assertEqual(assemble.minimum_phrase_count("one two three"), 2)
         self.assertEqual(assemble.minimum_phrase_count("one two three four five six"), 2)
         self.assertEqual(assemble.minimum_phrase_count("one two three four five six seven"), 3)

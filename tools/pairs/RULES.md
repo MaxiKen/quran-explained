@@ -10,14 +10,14 @@ For every verse, before drafting or changing any phrase explanation, read the re
 
 The aim is close reading. Do not copy the former coarse practice of only two or three broad chunks. Split every verse into short, useful, consecutive sense units.
 
-- **Hard minimum:** one phrase for every three translation words, rounded up. Calculate `ceil(number of translation words / 3)`. For example, a 9-word verse needs at least 3 phrases; a 17-word verse needs at least 6. Any verse of 3 or more words must have at least 2 phrases. Authored files adopting this rule must set `"split_policy": "dense-v1"`; the assembler enforces this minimum mechanically.
+- **Hard minimum:** one phrase for every three translation words, rounded up. Calculate `ceil(number of translation words / 3)`. For example, a 9-word verse needs at least 3 phrases; a 17-word verse needs at least 6. Any verse of 3 or more words must have at least 2 phrases. A chapter-wide `"split_policy": "dense-v1"` enforces this for every verse. For incremental migration of a legacy chapter, the same marker may be set on individual verse objects; each marked verse is then checked mechanically. Once the full chapter is revised, move the marker to chapter level and remove the verse-level markers.
 - Aim for still more than the minimum when the wording contains additional meaningful units. Most phrases should be 1–3 words. A single word is welcome where it carries a distinct meaning and can be explained clearly.
 - Do not inflate counts by isolating articles, prepositions, pronouns, or fragments with no useful meaning. Keep words together when they form an indivisible name or expression, or when a split would be misleading or awkward. If a meaningful split is not possible, use the smallest natural phrase and explain the exception during review. Never create nonsense to satisfy a number.
 - Split clauses, contrasts, repeated words, and meaningful parts of a phrase whenever the grammar allows. Preserve the verse's sequence and meaning; do not impose identical boundaries on similar verses.
 - Phrase pieces must cover the reader's translation exactly, once, and in order. Do not omit, repeat, rearrange, or paraphrase translation words. Punctuation may be placed at a boundary.
 - Read the full sequence aloud. If it sounds like a chopped word list, repair the boundaries while retaining the highest natural density. If any unit remains an oversized block, split it further.
 
-The density law applies when a surah is first authored or revised, whether or not it is Surah 1. Existing chapters without `dense-v1` are legacy and are not silently treated as examples; when revising one, bring its verses into compliance and set the marker. Do not lower the rule just to pass old content.
+The density law applies when a surah is first authored or revised, whether or not it is Surah 1. Existing chapters without `dense-v1` are legacy and are not silently treated as examples. A legacy chapter can be migrated verse by verse by marking each revised verse `dense-v1`; the assembler checks every marked verse. When all verses have been revised, place the marker at chapter level. New chapters should use the chapter-level marker from the outset. Do not lower the rule just to pass old content.
 
 ## 3. Explain the words simply
 

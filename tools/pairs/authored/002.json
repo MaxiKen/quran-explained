@@ -5,25 +5,43 @@
       "phrases": [
         {
           "translation": "Alif-Lãm-Mĩm",
-          "explanation": "These opening letters are among the separated initials found at the start of several surahs. Early Muslim interpreters transmitted different explanations, while others left their full meaning with Allah. Their presence reminds readers that revelation can contain both clear guidance and matters whose wisdom is not fully disclosed."
+          "explanation": "These separated letters are recited by their letter names. Early explanations differ: some treat them as names or openings, while others connect each letter with several meanings. The strongest reading described here allows several of those meanings to stand together. Their exact significance is not reduced to one certain gloss."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "2": {
       "phrases": [
         {
-          "translation": "This is the Book!",
-          "explanation": "The Arabic points to this Book with a word that can also sound like “that Book,” a dignified way of presenting something great. The opening places the Qur’an before its audience as revelation from Allah, not a text whose authority depends on human approval."
+          "translation": "This is",
+          "explanation": "The opening points the reader to a revelation already present in the recitation. Though translated with “this,” the Arabic uses a demonstrative often rendered “that.” The explanation treats the wording as a natural reference to what has just been introduced, rather than a claim that the Book is far away."
         },
         {
-          "translation": "There is no doubt about it",
-          "explanation": "The statement declares the Qur’an’s source and truth, rather than claiming that every reader will feel free of questions. The surah will go on to describe people who accept its guidance and people who turn away, so certainty in revelation and a person’s response are distinct matters."
+          "translation": "the Book!",
+          "explanation": "“The Book” refers to the Qur’an, presented here as revealed guidance. The wording gives it a definite and honored place, not the status of an ordinary human composition. The commentary also allows a broader reference to the earlier revealed chapters that form part of the Qur’an as a whole."
         },
         {
-          "translation": "a guide for those mindful ˹of Allah˺",
-          "explanation": "The Qur’an offers direction to those who approach Allah with awareness and a willingness to respond. Mindfulness here is more than fear: it shapes choices, keeps a person alert to right and wrong, and makes guidance something to follow rather than merely hear."
+          "translation": "There is no",
+          "explanation": "These words begin a firm denial of uncertainty about the Book’s source and truth. They do not mean that every reader will have no questions, or that people never doubt. The commentary explains the phrase as a statement about the Book itself: it is truly from Allah and carries reliable guidance."
+        },
+        {
+          "translation": "doubt about it—",
+          "explanation": "“Doubt” here means uncertainty or disquiet about whether the Book is truly from Allah. The commentary explains the phrase as “no doubt about it,” with “it” referring back to the Book. This claim concerns the revelation’s truth, even though people may still choose to accept or reject what it says."
+        },
+        {
+          "translation": "a guide",
+          "explanation": "A guide shows someone the way, points out the route, and makes it clear enough to follow. The commentary describes the Qur’an as guidance away from error and as a light for those who are mindful of Allah. Its teaching directs people toward sound belief and conduct rather than leaving them without a path."
+        },
+        {
+          "translation": "for those",
+          "explanation": "The guidance is especially effective for people who are willing to receive and follow it. The verse does not suggest that the Qur’an has no message for anyone else. Rather, those who reject it face its evidence without accepting its direction. The commentary emphasizes the response of the listener as part of how guidance works."
+        },
+        {
+          "translation": "mindful ˹of Allah˺",
+          "explanation": "To be mindful of Allah is to guard oneself from what He forbids and carry out what He commands. The commentary presents this as a broad quality, not only avoiding one kind of sin or showing outward belief. Such mindfulness includes obeying Allah, trusting what He has revealed, and hoping for His mercy."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "3": {
       "phrases": [
