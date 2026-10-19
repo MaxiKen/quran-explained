@@ -22,6 +22,13 @@ def read_json(path):
 
 
 class PhraseExplanationTest(unittest.TestCase):
+    def test_dense_policy_minimum_scales_with_translation_length(self):
+        self.assertEqual(assemble.minimum_phrase_count("Go"), 1)
+        self.assertEqual(assemble.minimum_phrase_count("one two three"), 2)
+        self.assertEqual(assemble.minimum_phrase_count("one two three four five six"), 2)
+        self.assertEqual(assemble.minimum_phrase_count("one two three four five six seven"), 3)
+        self.assertEqual(assemble.minimum_phrase_count("one two three four five six seven eight nine"), 3)
+
     def authored_names(self):
         return sorted(name for name in os.listdir(assemble.AUTHORED) if name.endswith(".json"))
 
