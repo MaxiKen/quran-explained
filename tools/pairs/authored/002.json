@@ -2023,114 +2023,391 @@
       ]
     },
     "48": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Guard yourselves against the Day on which no soul will be of help to another.",
-          "explanation": "The Day of Judgment is described as a day when no soul can take another’s place or erase another’s responsibility. This undercuts reliance on ancestry or powerful allies. Each person must take the warning seriously and prepare through faith and action."
+          "translation": "Guard yourselves",
+          "explanation": "The command warns the audience to prepare for the Day of Resurrection and its judgment. The commentary applies it to people addressed earlier in the passage, warning that their status or ancestry cannot protect them. Its purpose is to urge repentance and a return to obedience."
         },
         {
-          "translation": "No intercession will be accepted,",
-          "explanation": "No one can secure forgiveness by claiming an automatic right to intercede. Elsewhere the Qur’an affirms that intercession occurs only by Allah’s permission, so the point here is that no advocate controls judgment independently. Ultimate authority belongs to Allah alone."
+          "translation": "against the Day",
+          "explanation": "The Day is the final reckoning, when deeds are answered for. The commentary describes it as a time of punishment for those who persist in rejection. It contrasts this with worldly life, where people may rely on family, status, or material arrangements."
+        },
+        {
+          "translation": "on which no soul",
+          "explanation": "The statement concerns every individual soul before God. The commentary explains that on that Day a parent cannot settle a child’s debt, nor a child a parent’s. Each person’s responsibility is made clear in the face of final judgment."
+        },
+        {
+          "translation": "will be of help",
+          "explanation": "The Arabic expression means to avail or satisfy a debt, not simply to take another person’s place. The commentary explains that rights are settled through good and bad deeds. No one can use worldly wealth or family ties to settle another’s account."
+        },
+        {
+          "translation": "to another.",
+          "explanation": "The limit applies between one person and another, including close relatives. The commentary describes the reversal from worldly life, where people may pay a relative’s debt, to the hereafter, where each person faces their own record. This warning calls for justice before that Day."
+        },
+        {
+          "translation": "No intercession",
+          "explanation": "Intercession means asking on another’s behalf for a need to be met. The passage warns the historical audience against assuming that ancestors will secure their salvation despite rejection. The commentary also distinguishes this warning from intercession for believers, which it says remains possible by God’s permission."
+        },
+        {
+          "translation": "will be accepted,",
+          "explanation": "The warning means no intercession will rescue those who die in disbelief without repentance. The commentary explicitly says that intercession for believing servants may be accepted. It therefore reads the verse as a warning to a particular state of rejection, not a denial of all intercession."
         },
         {
           "translation": "no ransom taken,",
-          "explanation": "A ransom cannot purchase release from accountability on that Day. The image rejects the idea that wealth or compensation can substitute for sincere faith and right conduct. What people rely on in worldly disputes will not override Allah’s judgment."
+          "explanation": "A ransom is a payment offered in place of a person’s liability. The commentary explains that even a vast amount of wealth cannot buy release on that Day. The point is that material possessions cannot substitute for repentance and right action."
         },
         {
-          "translation": "and no help will be given",
-          "explanation": "The verse closes by removing the expectation of outside rescue. Its sequence makes the warning comprehensive: no substitute, independent intercession, payment, or helper can guarantee safety. The call is to respond to guidance now rather than presume that someone else will answer for us."
+          "translation": "and no help",
+          "explanation": "The verse adds that no helper can intervene against God’s judgment. The commentary describes the end of favoritism, bribes, and mutual support that might work in worldly affairs. The final judgment belongs to God, who rewards and punishes with justice."
+        },
+        {
+          "translation": "will be given",
+          "explanation": "This completes the statement that no assistance will be available to those facing judgment. The surrounding verse also rules out payment and intercession as automatic escape. The warning urges the audience to turn back to God while repentance and reform remain possible."
         }
       ]
     },
     "49": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "˹Remember˺ how We delivered you from the people of Pharaoh, who afflicted you with dreadful torment,",
-          "explanation": "The verse recalls the Israelites’ oppression under Pharaoh, where power was used to terrorize an entire people. Remembering this history gives substance to the earlier mention of divine favors. It also makes clear that the deliverance which follows was rescue from severe injustice."
+          "translation": "˹Remember˺",
+          "explanation": "The audience is called to recall a past deliverance as evidence of divine favor. The commentary explains that the people addressed include descendants who did not personally witness Pharaoh’s oppression. The event is attributed to their forebears and remembered as a communal history."
         },
         {
-          "translation": "slaughtering your sons and keeping your women.",
-          "explanation": "The persecution included killing sons and sparing women, a policy designed to dominate and weaken families. The detail records the human cost of Pharaoh’s rule. The passage does not treat suffering as deserved by the victims, but as an oppression from which Allah delivered them."
+          "translation": "how",
+          "explanation": "The deliverance was a rescue from the power of Pharaoh’s people. The commentary says the verse addresses descendants by attributing to them what happened to their ancestors. This is a way of recalling shared history, not a claim that every listener experienced the event personally."
         },
         {
-          "translation": "That was a severe test from your Lord",
-          "explanation": "The ordeal is called a severe test from their Lord. In context, it highlights both the cruelty they endured and the deliverance they later witnessed. The reminder invites gratitude for rescue and warns against forgetting divine help once hardship has passed."
+          "translation": "We delivered you",
+          "explanation": "God rescued the people addressed from Pharaoh’s power. The commentary says the verse speaks to descendants by attributing to them what happened to their ancestors. This recalls a shared history of deliverance, even though the later audience did not personally experience the event."
+        },
+        {
+          "translation": "from the people",
+          "explanation": "The Arabic phrase refers to Pharaoh’s followers and adherents, not only his household. The commentary distinguishes the ruler from the people who carried out his orders, explaining that the acts are attributed to those who performed them. The episode is situated in ancient Egypt."
+        },
+        {
+          "translation": "of Pharaoh,",
+          "explanation": "“Pharaoh” is described as a title used for kings of ancient Egypt, like other royal titles. The commentary reports a traditional personal name for the ruler of Moses’ time but does not establish it independently. The verse’s concern is the oppressive regime, not a modern group."
+        },
+        {
+          "translation": "who afflicted you",
+          "explanation": "The people under Pharaoh’s rule imposed suffering on the Children of Israel. The commentary describes forced labor and other abuses in reports about the ancient setting. It assigns responsibility to the agents who carried out the violence, while recognizing the ruler’s command behind it."
+        },
+        {
+          "translation": "with dreadful torment,",
+          "explanation": "The phrase means the punishment that caused the people harm, including coercive labor and the killing of male infants. The commentary recounts reports about the regime’s oppression. These accounts concern the historical narrative and should not be used to generalize about present-day Egyptians or other communities."
+        },
+        {
+          "translation": "slaughtering your sons",
+          "explanation": "The commentary understands this as the killing of newborn male children among the Children of Israel, a policy attributed to Pharaoh’s regime in transmitted accounts. It rejects an alternative reading that takes the phrase as referring only to adult men, citing the story of Moses’ infancy."
+        },
+        {
+          "translation": "and keeping your women.",
+          "explanation": "The wording describes sparing the women while male children were killed. The commentary discusses whether “women” includes female infants as well as adult women, and supports the broader reading. This describes a specific ancient policy and is not a judgment about later populations."
+        },
+        {
+          "translation": "That was a severe test",
+          "explanation": "The Arabic word for trial can refer to both hardship and favor. Here the commentary explains it as a tremendous favor because God rescued the people from oppression. The experience also tested how they would respond to deliverance and divine gifts."
+        },
+        {
+          "translation": "from your Lord",
+          "explanation": "The deliverance and trial are attributed to God, who rescued the ancestors from Pharaoh’s oppression. The phrase frames the event as a favor that should be remembered with gratitude. It does not erase the human responsibility of those who carried out the oppression."
         }
       ]
     },
     "50": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We parted the sea, rescued you, and drowned Pharaoh’s people before your very eyes",
-          "explanation": "The parting of the sea and the drowning of Pharaoh’s people mark a decisive reversal: the pursued escape while their oppressors are overcome. The phrase “before your very eyes” emphasizes that this was witnessed history for the audience being addressed, not an abstract claim."
+          "translation": "And ˹remember˺",
+          "explanation": "The verse continues the call to recall favors given to the ancestors of the audience. The commentary treats the sea crossing as part of the same history of rescue from Pharaoh. It presents the event as a sign of God’s power and care."
+        },
+        {
+          "translation": "when We parted",
+          "explanation": "The verb means dividing or splitting the sea. The commentary reports that the water opened into separate paths for the tribes. It rejects an alternative explanation that merely places a barrier between people and water, emphasizing the sea’s actual division in the narrative."
+        },
+        {
+          "translation": "the sea,",
+          "explanation": "The sea is the obstacle faced by Moses and the Children of Israel as Pharaoh’s army pursues them. The commentary recounts reports of a dry path through it and multiple paths for the tribes. The scene turns an apparent trap into a route of escape."
+        },
+        {
+          "translation": "rescued you,",
+          "explanation": "God brought the Children of Israel safely through the sea. The commentary describes this as the fulfillment of their rescue from Pharaoh’s power. The verse addresses their descendants by recalling the favor shown to their ancestors."
+        },
+        {
+          "translation": "and drowned",
+          "explanation": "The same event that opened a route for the Israelites ended in the drowning of Pharaoh’s pursuing forces. The commentary emphasizes that God’s act rescued one group while bringing judgment on the other. It is a specific narrative, not a broad judgment on any present people."
+        },
+        {
+          "translation": "Pharaoh’s people",
+          "explanation": "The phrase refers to Pharaoh’s army and followers, who pursued Moses and the Children of Israel. Reports describe the ruler entering the sea after them, but details vary across transmitted accounts. The central point is the defeat of the oppressive force pursuing the people."
+        },
+        {
+          "translation": "before your very eyes",
+          "explanation": "The people witnessed the sea’s parting and the destruction of Pharaoh’s forces. The commentary stresses that this was direct visual perception, not merely knowledge of an unseen event. Remembering what they saw is meant to strengthen gratitude and warn against repeating the earlier denial."
         }
       ]
     },
     "51": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We appointed forty nights for Moses,",
-          "explanation": "Moses is given a period apart with Allah, a time associated with receiving guidance for his people. The verse recalls the event as part of Israel’s covenant history and prepares for the contrast between that sacred moment and the people’s later action."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is again asked to recall an event from the history of their ancestors. The commentary treats this as part of a warning to the historical audience about repeating earlier rejection. Remembering the event should prompt gratitude and obedience rather than inherited pride."
         },
         {
-          "translation": "then you worshipped the calf in his absence, acting wrongfully",
-          "explanation": "While Moses was absent, the people worshipped the calf and wronged themselves. The account shows how quickly a community can turn from guidance when it seeks something visible to worship. The verse names the act as wrongdoing rather than treating it as harmless cultural expression."
+          "translation": "when We appointed",
+          "explanation": "The verse describes a promised meeting between God and Moses. The commentary records two readings, one emphasizing a mutual appointment and one a promise made by God. It explains that both convey the agreed meeting at Mount Sinai."
+        },
+        {
+          "translation": "forty nights",
+          "explanation": "The appointment lasted forty nights in its entirety. Reports identify the period as a month and ten days, or describe thirty nights completed by ten more. The commentary favors the plain sense that the full forty nights were included."
+        },
+        {
+          "translation": "for Moses,",
+          "explanation": "Moses is the prophet who went to the appointed meeting and left Aaron in charge of the people. The commentary connects the meeting with receiving the Torah on tablets. It also records an account of how Moses’ name relates to water and trees, but that is not central to the verse."
+        },
+        {
+          "translation": "then you worshipped",
+          "explanation": "While Moses was away, some of the people turned to worshipping the calf. The commentary explains this as taking an object of worship in place of God. The episode is reported as a grave failure by that historical community, not as an inherited trait."
+        },
+        {
+          "translation": "the calf",
+          "explanation": "The calf was an image fashioned from ornaments according to transmitted accounts. Reports differ in detail about how it was made and how it appeared to move or make a sound. The commentary’s point is that the people worshipped a created object instead of God."
+        },
+        {
+          "translation": "in his absence,",
+          "explanation": "Moses was away at the appointed meeting when the people worshipped the calf. The commentary places the episode during his absence and records stories about Aaron’s role and the people’s response. The Qur’anic wording foregrounds their action while Moses was gone."
+        },
+        {
+          "translation": "acting wrongfully",
+          "explanation": "Wrongdoing here means placing worship where it does not belong. The commentary explains that worship is due to God, not the calf, so the people’s action was a transgression. This is a specific account of the ancestors being addressed and does not define their descendants."
         }
       ]
     },
     "52": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Even then We ˹still˺ forgave you so perhaps you would be grateful",
-          "explanation": "Even after the calf-worship, Allah forgave the people, leaving them an opportunity to become grateful. Mercy follows a grave failure, but it is meant to change the recipient, not make the act insignificant. The verse connects forgiveness with renewed recognition of divine favor."
+          "translation": "Even then",
+          "explanation": "The pardon follows the people’s worship of the calf, a serious act described in the preceding verse. The commentary explains that God refrained from striking them immediately with punishment. Forgiveness came after wrongdoing, leaving room for gratitude and return."
+        },
+        {
+          "translation": "We ˹still˺ forgave you",
+          "explanation": "The verse says God pardoned the people after their calf-worship. The commentary explains pardon here as withholding immediate punishment. It is a gift rather than proof that the wrongdoing did not matter, and it makes a grateful response fitting."
+        },
+        {
+          "translation": "so perhaps",
+          "explanation": "The word translated “perhaps” expresses purpose in this sentence: the pardon was meant to lead toward gratitude. The commentary explains it as “so that.” Forgiveness therefore opens an opportunity for a changed response rather than excusing continued wrongdoing."
+        },
+        {
+          "translation": "you would be grateful",
+          "explanation": "Gratitude is the response expected after pardon. The commentary explains that a person of understanding should recognize forgiveness as a favor. The verse connects mercy with renewed acknowledgment of God, not with entitlement or a claim that forgiveness is owed."
         }
       ]
     },
     "53": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We gave Moses the Scripture—the standard ˹to distinguish between right and wrong˺ that perhaps you would be ˹rightly˺ guided",
-          "explanation": "The Scripture given to Moses is described as a criterion that distinguishes right from wrong. Revelation provides more than a record of the past: it helps a community judge its choices and find a path forward. The verse presents guidance as a gift with a practical purpose."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to recall another favor in the history of Moses and the Children of Israel. The commentary links this with the previous account of the calf, presenting revelation as guidance after their failure. Remembering the Book should lead to following its truth."
+        },
+        {
+          "translation": "when We gave",
+          "explanation": "The Scripture is presented as a gift from God to Moses. The commentary identifies the Book as the Torah written on tablets. It frames revelation as a means of guidance and discernment, rather than merely a historical possession."
+        },
+        {
+          "translation": "Moses",
+          "explanation": "Moses received the Book for the Children of Israel. The commentary connects this gift with his meeting at the appointed time and the guidance given to his people. It reminds the audience of a prophet from their ancestors’ history."
+        },
+        {
+          "translation": "the Scripture—",
+          "explanation": "The Book is identified as the Torah. It is a written revelation entrusted to Moses, and the commentary treats the following term as describing its role. The Torah is presented as guidance that can direct people toward truth."
+        },
+        {
+          "translation": "the standard",
+          "explanation": "The word “criterion” refers to a means of distinguishing truth from falsehood. Some reports treat it as another description of the Torah, while one interpretation understands it as a distinct event of judgment. The commentary favors the description of the Book itself."
+        },
+        {
+          "translation": "˹to distinguish",
+          "explanation": "The criterion enables people to separate what is true from what is false. The commentary explains this as the Torah’s function, rather than a separate object given alongside it. This distinction makes revelation useful for judgment and moral direction."
+        },
+        {
+          "translation": "between right",
+          "explanation": "The positive side of the distinction is truth. The commentary presents the Torah as identifying what is true and guiding people toward it. The verse remembers revelation as a gift meant to shape the community’s beliefs and conduct."
+        },
+        {
+          "translation": "and wrong˺",
+          "explanation": "The contrast completes the meaning of the criterion: revelation helps distinguish falsehood from truth. The commentary emphasizes that this is a description of the Torah’s guiding role. It is not merely information about the past, but a standard for present choices."
+        },
+        {
+          "translation": "that perhaps you would be",
+          "explanation": "The purpose of giving the Book was that the people might be guided by it. The commentary explains the wording as expressing purpose, not uncertainty about whether God knows the outcome. Guidance is offered, while people remain responsible for following it."
+        },
+        {
+          "translation": "˹rightly˺ guided",
+          "explanation": "Being rightly guided means following the truth revealed in the Torah. The commentary says the Book was made guidance for whoever lets themselves be guided by it. The verse connects revelation with a response, not merely possession of scripture."
         }
       ]
     },
     "54": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when Moses said to his people, “O my people! Surely you have wronged yourselves by worshipping the calf,",
-          "explanation": "Moses names the people’s calf-worship as a wrong committed against themselves. Idolatry damages the worshipper’s relationship with the Creator, rather than harming Allah. The account frames the response within a specific episode in Israelite history."
+          "translation": "And ˹remember˺",
+          "explanation": "The verse recalls Moses addressing his people after they worshipped the calf. The commentary presents this as a specific episode in their history, not as a general judgment about later generations."
         },
         {
-          "translation": "so turn in repentance to your Creator and execute ˹the calf-worshippers among˺ yourselves.",
-          "explanation": "The command to repent includes a severe action described for that historical community after the calf episode. It should not be lifted from this account as a general instruction for Muslims or private individuals to harm anyone. The passage records a particular communal judgment and repentance."
+          "translation": "when Moses said",
+          "explanation": "Moses speaks to the people after returning to find the calf-worship. The commentary explains his words as calling them back from their wrongdoing and toward obedience to God. The verse presents this as part of the specific historical account of Moses and his people."
         },
         {
-          "translation": "That is best for you in the sight of your Creator.”",
-          "explanation": "Moses presents repentance as the best course in the sight of the Creator. The wording redirects the people from the calf toward the One who made them. The passage emphasizes turning back to Allah rather than treating the idol or the past act as beyond remedy."
+          "translation": "to his people,",
+          "explanation": "The people addressed are the community involved in the calf episode. The commentary frames the instruction as a response to their particular transgression, not a rule for other communities or later times."
         },
         {
-          "translation": "Then He accepted your repentance. Surely He is the Accepter of Repentance, Most Merciful",
-          "explanation": "Allah accepts their repentance and is named the Most Merciful. The scene combines the seriousness of their wrongdoing with the possibility of forgiveness. It continues the surah’s pattern of recalling divine favor to awaken gratitude and a more faithful response."
+          "translation": "“O my people!",
+          "explanation": "Moses addresses them as his own people, even while confronting their serious wrongdoing. The direct appeal frames the command as a call to repentance rather than a detached accusation. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "Surely",
+          "explanation": "The commentary explains that they harmed themselves by committing an act that brought divine punishment upon them. The wrongdoing is their own action and its consequences, not an inherited quality."
+        },
+        {
+          "translation": "you have wronged",
+          "explanation": "The commentary explains that their wrongdoing brought punishment upon themselves. It is a moral consequence of their own act, not a quality passed down to descendants. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "yourselves",
+          "explanation": "Their wrongdoing was taking the calf as a lord after Moses left. The commentary describes this as turning away from worship of God. Reports offer differing details about the calf and the events around it."
+        },
+        {
+          "translation": "by worshipping",
+          "explanation": "The calf was the object they treated as a lord in Moses’ absence. The commentary identifies this worship as the act that made repentance necessary. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "the calf,",
+          "explanation": "Repentance means turning away from what God detests and returning to obedience. The people were told to show remorse and submit to what God commanded after their worship of the calf."
+        },
+        {
+          "translation": "so turn",
+          "explanation": "The commentary describes repentance as turning from what God detests toward obedience. It is a sincere return from the act that brought divine displeasure. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "in repentance",
+          "explanation": "Moses directs them to return to the One who created them. The commentary notes the term’s connection with creation, while its main point is that repentance and obedience belong to God."
+        },
+        {
+          "translation": "to your Creator",
+          "explanation": "This phrase belongs to a command given in that particular account of repentance. The commentary reports that the people obeyed, with transmitted descriptions of people killing one another. It does not establish a general permission or instruction for people today."
+        },
+        {
+          "translation": "and execute",
+          "explanation": "The translation clarifies the people implicated in the calf-worship. Reports differ about how the punishment unfolded and who was killed, the verse’s immediate context is this historical community’s repentance under Moses."
+        },
+        {
+          "translation": "˹the calf-worshippers",
+          "explanation": "The command addressed those involved in the calf episode. The verse’s own historical setting is essential to understanding this severe instruction. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "among˺ yourselves.",
+          "explanation": "The command concerned the people within that community, as recounted in the verse and its commentary. It must remain within that historical setting, it is not a transferable sanction for other people or circumstances."
+        },
+        {
+          "translation": "That is best",
+          "explanation": "This refers to the people of that specific community, as the account tells it. It is not a general license for violence or a rule for later communities. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "for you",
+          "explanation": "The prescribed act is described as better for them in the context of repentance from their grave sin. The commentary explains that obedience and repentance would save them from punishment and bring reward."
+        },
+        {
+          "translation": "in the sight of your Creator.”",
+          "explanation": "The judgment is attributed to God, their Creator. This frames the command and its consequence within the account of divine instruction to Moses’ people, rather than a humanly invented general rule."
+        },
+        {
+          "translation": "Then He accepted your repentance.",
+          "explanation": "The people’s repentance was accepted after they carried out the command as narrated. The commentary underscores that the punishment stopped and forgiveness followed, although reports differ over the details of the event."
+        },
+        {
+          "translation": "Surely He is the Accepter of Repentance, Most Merciful",
+          "explanation": "The closing names God as One who accepts repentance and shows mercy. The episode ends not with punishment alone but with forgiveness after the people returned from wrongdoing. The verse presents this as part of the specific historical account of Moses and his people."
         }
       ]
     },
     "55": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when you said, “O Moses! We will never believe you until we see Allah with our own eyes,”",
-          "explanation": "The people demand to see Allah directly before they will believe, setting an extraordinary condition for faith. In the story, the demand is treated as defiant rather than as a quiet request for understanding. The verse cautions against making belief depend on controlling how Allah reveals Himself."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to recall another event in the history of Moses’ people. The commentary uses it to illustrate their ancestors’ response to a prophet, without making that episode a definition of later communities."
         },
         {
-          "translation": "so a thunderbolt struck you while you were looking on",
-          "explanation": "The thunderbolt strikes while they witness it, showing the danger of their challenge. The verse does not invite people to seek such an experience, but recalls a severe episode in the community’s history. The next verse records that Allah restored them to life."
+          "translation": "when you said,",
+          "explanation": "The verse recalls words spoken to Moses. The commentary explains that the demand was presented as a condition for belief, despite the signs and favors that the people had already witnessed."
+        },
+        {
+          "translation": "“O Moses!",
+          "explanation": "The people address their prophet by name before making their demand. The commentary situates this speech within the reported history of the community and Moses’ prophetic mission. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "We will never believe you",
+          "explanation": "Their statement refuses belief unless a further condition is met. The commentary treats this as obstinacy in context, rather than a neutral request for clarification. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "until",
+          "explanation": "They demand direct sight of God before believing. The commentary explains “plainly” as seeing with the eyes and notes this condition as part of the rebuke in the historical narrative."
+        },
+        {
+          "translation": "we see Allah",
+          "explanation": "The statement makes seeing the condition for belief. The commentary understands it as a demand for direct sight, not a request for ordinary evidence. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "with our own eyes,”",
+          "explanation": "This emphasizes the demand for visible perception. The commentary relates the wording to something uncovered and made clear to the eye, it does not require adding unsupported details about the event."
+        },
+        {
+          "translation": "so",
+          "explanation": "The thunderbolt overtook them in response to the episode. Reports differ on whether it involved death, fire, a sound, or an earthquake, the commentary explains the term broadly as a terrifying event that can overwhelm or destroy."
+        },
+        {
+          "translation": "a thunderbolt struck you",
+          "explanation": "The word denotes a terrifying event that overwhelms people. The commentary records several explanations of its precise nature rather than insisting on one physical description. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "while you were looking on",
+          "explanation": "They witnessed the event as it happened. The commentary understands the wording as describing the thunderbolt striking visibly before them, underscoring the severity of what they had demanded. The verse presents this as part of the specific historical account of Moses and his people."
         }
       ]
     },
     "56": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Then We brought you back to life after your death, so that perhaps you would be grateful",
-          "explanation": "After their death, Allah brings the people back to life so they may become grateful. The event is presented as a sign of divine power and mercy, not as a reward they earned. The verse again joins extraordinary deliverance to the responsibility of recognizing the Giver."
+          "translation": "Then",
+          "explanation": "The commentary explains that God raised the people to life again after the thunderbolt. Another transmitted interpretation says they were sent forth as prophets, but the commentary rejects it as contrary to the verse’s plain wording."
+        },
+        {
+          "translation": "We brought you",
+          "explanation": "This phrase describes God’s action after the people had died. The commentary’s preferred explanation is that they were restored to life. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "back to life",
+          "explanation": "The death followed the thunderbolt described in the previous verse. The commentary treats the raising as a return to life, while recording differing reports about the earlier event. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "after your death,",
+          "explanation": "The people were returned to life after the thunderbolt. The commentary connects their restoration with the opportunity to recognize the favor and repent. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "so that perhaps",
+          "explanation": "Here the wording expresses purpose: the restoration was meant to lead to gratitude. The commentary does not read it as uncertainty on God’s part. The verse presents this as part of the specific historical account of Moses and his people."
+        },
+        {
+          "translation": "you would be grateful",
+          "explanation": "The people were given life again so they might recognize the favor and return to repentance. The commentary connects gratitude with acknowledging the gift of being restored after the punishment."
         }
       ]
     },
