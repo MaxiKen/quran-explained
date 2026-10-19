@@ -2412,82 +2412,419 @@
       ]
     },
     "57": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember when˺ We shaded you with clouds and sent down to you manna and quails, ˹saying˺, “Eat from the good things We have provided for you.”",
-          "explanation": "Clouds provide shade, while manna and quails provide food during the people’s journey. The verse recalls practical care in a difficult setting and tells them to receive it as provision from Allah. These are signs of sustenance, not merely wonders to admire."
+          "translation": "And ˹remember when˺",
+          "explanation": "The audience is asked to remember another favor given to their ancestors. The verse follows accounts of disobedience with a reminder of sustenance and protection. Its historical subject is a particular community, not an accusation against people simply by ancestry."
         },
         {
-          "translation": "The evildoers ˹certainly˺ did not wrong Us, but wronged themselves",
-          "explanation": "The evildoers harm themselves rather than Allah, whose authority cannot be diminished by human disobedience. The distinction keeps the focus on responsibility: wrongdoing damages the wrongdoer and the community. It also prevents the people from imagining that divine commands serve Allah’s need."
+          "translation": "We shaded you",
+          "explanation": "The cloud provided shade during the people’s journey through the wilderness. The commentary records different understandings of what kind of cloud it was, including views that it was ordinary and views that it was extraordinary. The verse emphasizes the relief it provided."
+        },
+        {
+          "translation": "with clouds",
+          "explanation": "The Arabic term refers broadly to something that covers or veils the sky. Reports differ about whether the cloud was ordinary, unusually cool, or connected with other sacred events. The commentary does not establish one precise physical description as certain."
+        },
+        {
+          "translation": "and sent down",
+          "explanation": "The provision is described as sent down by God, marking it as a gift rather than something the people secured by their own effort. The commentary links the gifts with a period of hardship and wandering."
+        },
+        {
+          "translation": "to you",
+          "explanation": "The people addressed received this provision directly. The verse recalls care given to their ancestors during their journey, and asks the audience to recognize the favor rather than overlook it."
+        },
+        {
+          "translation": "manna",
+          "explanation": "The commentary records many explanations of manna: tree-borne sweet substances, honey, a drink, thin bread, and other foods. It does not reduce the term to one uncontested identification. The point in the verse is that it nourished the people."
+        },
+        {
+          "translation": "and quails,",
+          "explanation": "The quails were birds provided as food. Reports describe them as resembling quail, with some accounts describing their arrival in flocks. Together with the manna, they supplied the people during their wilderness journey."
+        },
+        {
+          "translation": "˹saying˺,",
+          "explanation": "The command to eat is understood from the context, even where the narrative moves directly from provision to instruction. The people were not merely shown a favor but told to receive and use it gratefully."
+        },
+        {
+          "translation": "“Eat",
+          "explanation": "The instruction is to eat the provision rather than reject it. The commentary explains this as part of the account of sustenance given to the people during their time of wandering."
+        },
+        {
+          "translation": "from the good things",
+          "explanation": "The phrase can describe pleasant, wholesome provision. The commentary considers whether “good” means enjoyable food or lawful food, and prefers the sense of pleasant provision in this context. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "We have provided",
+          "explanation": "The food is attributed to God’s provision. The commentary explains that the wording refers to what God supplied for them, emphasizing care rather than any claim that the people produced the gift themselves."
+        },
+        {
+          "translation": "for you.”",
+          "explanation": "The provision was given for the people’s benefit. The command invites them to enjoy it, while the surrounding passage makes clear that they remain responsible for how they respond to God’s generosity."
+        },
+        {
+          "translation": "The evildoers",
+          "explanation": "The verse turns from the gift to those who acted wrongly. The commentary identifies their wrongdoing as disobedience to God and the messenger, without turning the episode into a blanket judgment about later descendants."
+        },
+        {
+          "translation": "˹certainly˺ did not",
+          "explanation": "The contrast is emphatic: their action did not cause harm to God. The commentary explains that divine authority and power are not reduced by human disobedience. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "wrong Us,",
+          "explanation": "God is not harmed or diminished by the people’s wrongdoing. The commentary stresses that obedience does not add to God’s dominion, and disobedience does not take anything away from it."
+        },
+        {
+          "translation": "but wronged",
+          "explanation": "The contrast redirects attention to the consequence of their action. Their conduct brought harm upon themselves rather than upon God, who has no need of human obedience. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "themselves",
+          "explanation": "Wrongdoing harms the wrongdoers and deprives them of their own good. The commentary explains this as placing an act in the wrong place and stresses human responsibility for disobedience. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
         }
       ]
     },
     "58": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We said, “Enter this city and eat freely from wherever you please;",
-          "explanation": "The people are invited into a city and given freedom to eat from its provision. The instruction begins with welcome and generosity, much like the earlier description of provision in the Garden. The next command asks them to enter humbly and seek forgiveness."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to recall another instruction and favor in the history of their ancestors. The commentary identifies the location in reports as Jerusalem, while another report names nearby Jericho. It preserves the variation rather than treating one identification as certain."
         },
         {
-          "translation": "enter the gate with humility, saying, ‘Absolve us.’",
-          "explanation": "They are told to enter through the gate with humility and ask for their wrongdoing to be forgiven. The instruction joins an outward action with an inward posture of repentance. It points away from pride and toward dependence on Allah’s mercy."
+          "translation": "when We said,",
+          "explanation": "The account recalls a divine instruction to enter the town. The commentary connects this command with an opportunity for abundant provision and a prescribed humble manner of entering. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
         },
         {
-          "translation": "We will forgive your sins and multiply the reward for the good-doers.”",
-          "explanation": "Forgiveness is promised, with an increased reward for those who do good. Mercy is not presented as the end of moral life: the verse also commends good action. The paired promise encourages repentance and practical obedience rather than mere words."
+          "translation": "“Enter",
+          "explanation": "The people were told to enter the town. Reports identify it as Jerusalem or Jericho. The commentary focuses less on resolving the location than on the generosity and instructions that accompanied entry."
+        },
+        {
+          "translation": "this city",
+          "explanation": "The Arabic word can refer to a town or settlement. The commentary transmits differing identifications, including Jerusalem and Jericho, and does not claim certainty beyond those reports. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "and eat freely",
+          "explanation": "The people were permitted to eat from the town’s provisions with ease. The commentary explains the word as abundant, pleasant provision without restriction or accounting. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "from wherever",
+          "explanation": "Their permission was broad, not limited to one specified place in the town. This detail conveys ease and generosity in the instruction. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "you please;",
+          "explanation": "The people could choose where to eat. The commentary emphasizes the abundance granted to them, which makes the later demand for humility and gratitude especially clear. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "enter the gate",
+          "explanation": "They were also told how to enter the town. Reports identify the gate with Jerusalem’s Gate of Remission, while other reports call it one of the city’s gates. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "with humility,",
+          "explanation": "The word is explained as entering in a bowed or submissive posture. The commentary understands prostration broadly as humility and reverence, and includes reports describing people bending as they entered."
+        },
+        {
+          "translation": "saying,",
+          "explanation": "The instruction includes spoken words as well as an outward posture. The commentary records several explanations of the phrase that follows, centered on remission, forgiveness, or a confession of truth."
+        },
+        {
+          "translation": "‘Absolve",
+          "explanation": "The word “ḥiṭṭa” is connected with removing or setting aside sin. Several reports explain it as a request for forgiveness or remission. Other transmitted interpretations differ, and the commentary discusses its grammar and preferred reading."
+        },
+        {
+          "translation": "us.’",
+          "explanation": "The request is for sins to be removed. The commentary presents entering humbly and asking for remission as a response to God’s generosity, not a formula that makes forgiveness automatic without sincere submission."
+        },
+        {
+          "translation": "We will forgive",
+          "explanation": "The promise is that God will cover and pardon their sins. The commentary explains forgiveness as concealing wrongdoing with mercy rather than exposing the sinner to punishment. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "your sins",
+          "explanation": "The promise addresses their wrongdoing and burdens. The commentary relates the word for forgiveness to covering or concealing, while emphasizing the gift of mercy. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "and multiply the reward",
+          "explanation": "Beyond pardon, the people are promised increased good. The commentary explains that those who do good receive further generosity beyond what was already given. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "for the good-doers.”",
+          "explanation": "The increased reward is especially associated with those who act well. The commentary includes both forgiveness for sinners and further good for the doers of good, joining mercy with moral response."
         }
       ]
     },
     "59": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "But the wrongdoers changed the words they were commanded to say.",
-          "explanation": "The wrongdoers alter the words they had been instructed to use, turning an act of humility into disobedience. The passage does not specify every detail of their alteration, so its central point is the refusal to follow guidance as given. Their response shows ingratitude after receiving ease."
+          "translation": "But the wrongdoers",
+          "explanation": "The account contrasts the people’s response with the instruction they had received. The commentary defines wrongdoing here as doing what was not permitted, specifically disobeying the command to enter humbly and seek forgiveness."
         },
         {
-          "translation": "So We sent down a punishment from the heavens upon them for their rebelliousness",
-          "explanation": "The punishment is linked to their rebelliousness, the continuation of a pattern rather than an isolated mistake. The verse contrasts their conduct with the promised forgiveness and reward in the preceding account. It warns that divine generosity should deepen gratitude, not encourage contempt for instruction."
+          "translation": "changed the words",
+          "explanation": "They altered the prescribed words rather than saying what they had been told. Reports describe them replacing a request for forgiveness with a phrase about grain, though the exact wording varies among narrations."
+        },
+        {
+          "translation": "they were commanded",
+          "explanation": "The command concerned entering humbly and saying “ḥiṭṭa,” understood by many reports as a request for remission. The people’s response is judged against the instruction they had been given. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "to say.",
+          "explanation": "The change was expressed in speech, and reports also describe disrespectful behavior while entering. The commentary’s central point is that they mocked or substituted for the words they had been commanded to say."
+        },
+        {
+          "translation": "So We sent down",
+          "explanation": "The punishment is presented as a consequence of their rebellion. The commentary does not establish a single precise physical event beyond the Qur’anic statement that punishment came from heaven. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "a punishment",
+          "explanation": "The word means punishment or chastisement. The commentary says it could have been a plague, as one report suggests, or another kind of punishment. It explicitly avoids asserting a specific form with certainty."
+        },
+        {
+          "translation": "from the heavens",
+          "explanation": "The punishment is described as coming from above. The commentary notes that the Qur’anic wording and established reports do not conclusively identify its precise form. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "upon them",
+          "explanation": "The punishment fell upon those who had done wrong. A report says the plague affected them, but the commentary allows that it could have been something else. This detail reinforces the contrast between their provision, their responsibility, and their response to the instruction in this passage."
+        },
+        {
+          "translation": "for their rebelliousness",
+          "explanation": "The reason given is that they left obedience and opposed the command. The commentary explains rebellion as going out of obedience into disobedience, not as a vague label detached from their described conduct."
         }
       ]
     },
     "60": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when Moses prayed for water for his people, We said, “Strike the rock with your staff.”",
-          "explanation": "Moses asks Allah for water for his people, and the answer comes through a sign involving his staff and a rock. The story emphasizes that provision arrives by Allah’s command, even through an unexpected means. Moses is a messenger who asks for help on behalf of his community."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to remember another favor given to their ancestors during their wilderness journey. The commentary connects the water episode with their wandering and thirst, continuing the account of provision and protection."
         },
         {
-          "translation": "Then twelve springs gushed out, ˹and˺ each tribe knew its drinking place.",
-          "explanation": "Twelve springs provide for the twelve tribes, with each group knowing where to drink. The detail presents provision as abundant and organized, reducing conflict over a scarce necessity. It recalls care tailored to the community rather than a single undifferentiated supply."
+          "translation": "when Moses",
+          "explanation": "Moses is the prophet who asked God to provide water for the people. The commentary describes him as acting on their behalf during their time in the wilderness. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
         },
         {
-          "translation": "˹We then said,˺ “Eat and drink of Allah’s provisions, and do not go about spreading corruption in the land.”",
-          "explanation": "The people are told to eat and drink from Allah’s provision but not spread corruption on earth. Gratitude for sustenance must shape conduct toward others and the land. The verse joins basic needs with ethical responsibility, showing that divine gifts do not remove human duties."
+          "translation": "prayed for water",
+          "explanation": "The request was for God to provide water to the people, who were thirsty during the wandering. The commentary notes that the wording leaves the addressee and requested object understood from context."
+        },
+        {
+          "translation": "for his people,",
+          "explanation": "The people are identified in the commentary as the Children of Israel. Reports place the event in the wilderness, where they complained of thirst and depended on provision. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "We said,",
+          "explanation": "God answers Moses by giving an instruction about the rock. The narrative presents the resulting water as divine provision, not as a natural resource the people had located themselves. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "“Strike",
+          "explanation": "Moses is commanded to strike the rock with his staff. The commentary explains that the verse omits the report that he carried out the command, since the springs bursting forth makes the action understood."
+        },
+        {
+          "translation": "the rock",
+          "explanation": "The rock is described in transmitted accounts as accompanying the people during their wandering. The Qur’anic verse itself mentions the rock without specifying all the details later reports provide. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "with your staff.”",
+          "explanation": "The staff is the instrument Moses was told to use. The commentary explains that the text moves directly from command to result, leaving the intervening action understood. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "Then twelve springs",
+          "explanation": "Twelve water sources emerged from the rock. The commentary and reports associate the number with the twelve tribes, while accounts differ in details about how the rock was carried or arranged."
+        },
+        {
+          "translation": "gushed out,",
+          "explanation": "The water burst forth abundantly after Moses struck the rock. The commentary presents this as an answer to the people’s need for water in the wilderness. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "˹and˺ each tribe",
+          "explanation": "Each of the twelve tribes had a designated water source. The commentary explains that the groups drank separately from their own springs, unlike ordinary shared water sources. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "knew its drinking place.",
+          "explanation": "Every tribe knew which spring was for it. The commentary highlights the ordered provision: the water was available to all, while each group knew its assigned source. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "˹We then said,˺",
+          "explanation": "The instruction to eat and drink follows the provision of food and water. The commentary explains that this command is understood from the narrative even though its introduction is implicit."
+        },
+        {
+          "translation": "“Eat and drink",
+          "explanation": "The people are told to benefit from the food and water provided. The commentary connects eating with manna and quails, and drinking with the springs that came from the rock."
+        },
+        {
+          "translation": "of Allah’s provisions,",
+          "explanation": "Both the food and water are described as God’s provision. The wording directs attention to the source of their sustenance and the favor shown during hardship. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "and do not",
+          "explanation": "The command shifts from receiving provision to avoiding wrongdoing. The commentary describes the prohibition as a warning not to exceed limits or spread corruption. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "go about spreading corruption",
+          "explanation": "The wording warns against active wrongdoing and transgression. The commentary explains it as exceeding proper limits and striving across the land in a corrupting way. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "in the land.”",
+          "explanation": "The prohibition concerns conduct on earth, where the people were living and traveling. The commentary stresses that receiving generous provision does not excuse harmful or arrogant behavior. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
         }
       ]
     },
     "61": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when you said, “O Moses! We cannot endure the same meal ˹every day˺.",
-          "explanation": "The account begins with a complaint about eating the same food repeatedly. The text does not condemn enjoying variety by itself. It sets up a story in which dissatisfaction with provision becomes a reason to disregard the larger gifts and guidance already received."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to recall another episode from the history of their ancestors. The commentary situates the request for different food during the wilderness period, after provision of manna and quails."
         },
         {
-          "translation": "So ˹just˺ call upon your Lord on our behalf, He will bring forth for us some of what the earth produces of herbs, cucumbers, garlic, lentils, and onions.”",
-          "explanation": "The people ask Moses to pray for familiar crops, naming several foods from the earth. Their request is followed by a reminder that they already have provision. The passage contrasts immediate preference with gratitude for what Allah has provided during their journey."
+          "translation": "when you said,",
+          "explanation": "The people express dissatisfaction with their food and ask Moses to seek alternatives. The commentary describes this as weariness with the provision given during their wandering. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
         },
         {
-          "translation": "Moses scolded ˹them˺, “Do you exchange what is better for what is worse? ˹You can˺ go down to any village and you will find what you have asked for.”",
-          "explanation": "Moses challenges the exchange of a better provision for what he calls worse, then tells them they can find those foods in a settlement. The rebuke addresses their priorities in that episode, not the value of ordinary vegetables or agriculture."
+          "translation": "“O Moses!",
+          "explanation": "The people address Moses before making their request. The commentary places the exchange within the account of their journey and their reliance on him as a prophet. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
         },
         {
-          "translation": "They were stricken with disgrace and misery, and they invited the displeasure of Allah for rejecting Allah’s signs and unjustly killing the prophets.",
-          "explanation": "The narrative connects disgrace with rejecting Allah’s signs and unjustly killing prophets. These are grave acts named in the account, not accusations that can fairly be applied to every member of a later community. The verse recalls particular wrongdoing and its consequences."
+          "translation": "We cannot endure",
+          "explanation": "The word translated endure carries the sense of restraining oneself or remaining patient. The speakers say they do not want to continue with the same food, rather than describing physical inability to survive."
         },
         {
-          "translation": "This is ˹a fair reward˺ for their disobedience and violations",
-          "explanation": "The closing judgment calls their disgrace a consequence of disobedience and violation. Its force depends on the pattern just described, not on a single preference for different food. The story urges readers to examine their own response to guidance and to avoid repeating injustice."
+          "translation": "the same meal",
+          "explanation": "The phrase refers to the food provided in the wilderness. Reports differ on whether it included manna with quails or bread with meat, but the account presents it as a limited set of provisions."
+        },
+        {
+          "translation": "˹every day˺.",
+          "explanation": "The translation makes explicit their complaint about repetition. The commentary reports that they grew tired of the food and remembered a different earlier way of life. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "So ˹just˺ call upon",
+          "explanation": "They ask Moses to pray on their behalf for other crops. The commentary understands this as a request that he invoke God to provide the foods they name. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "your Lord",
+          "explanation": "The people ask Moses to address God, acknowledging that the requested provision depends on divine response. The commentary notes that Moses’ prayer was followed by an answer and a direction to go to a settlement."
+        },
+        {
+          "translation": "on our behalf,",
+          "explanation": "Moses is asked to make the request for the community. The people seek a change in their food, contrasting the gifts in the wilderness with crops available in settled places."
+        },
+        {
+          "translation": "He will bring forth",
+          "explanation": "The people ask that God cause food to grow from the earth. Their phrasing recognizes God as the source, though the commentary also notes their dissatisfaction with what had already been provided."
+        },
+        {
+          "translation": "for us",
+          "explanation": "The request is made for the people’s benefit. The commentary describes it as a communal plea for a different range of foods during the period of wandering. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "some of what",
+          "explanation": "The Arabic wording can indicate a portion of what the earth produces. The commentary discusses this grammatical point and explains that the request need not mean every crop that grows."
+        },
+        {
+          "translation": "the earth produces",
+          "explanation": "The requested foods are ordinary crops associated with cultivated land. The commentary explains that such produce is found in towns and settled places rather than in the wilderness. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "of herbs,",
+          "explanation": "The first food named is a leafy or green crop. The commentary treats the list as familiar produce and emphasizes that the people sought agricultural foods instead of their wilderness provision."
+        },
+        {
+          "translation": "cucumbers,",
+          "explanation": "Cucumbers are one of the crops the people name. The commentary identifies these terms as familiar foods from the earth, part of their request for variety. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "garlic,",
+          "explanation": "The translation renders fūm as garlic, but the commentary records disagreement: many reports explain it as wheat or bread, while others identify it as garlic. The explanation preserves this lexical uncertainty."
+        },
+        {
+          "translation": "lentils,",
+          "explanation": "Lentils are another crop in the requested list. The commentary treats them as common food from cultivated land, contrasting them with the manna and quails supplied in the wilderness. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "and onions.”",
+          "explanation": "Onions complete the list of foods the people wanted. The commentary understands the list as ordinary produce and grain, not as a judgment on people who eat such foods. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "Moses scolded ˹them˺,",
+          "explanation": "Moses challenges their preference for the requested foods over the provision already given. The commentary explains his question as comparing lower sustenance with the better gift of manna and quails."
+        },
+        {
+          "translation": "“Do you exchange",
+          "explanation": "Moses asks whether they are choosing one kind of provision in place of another. The commentary explains exchange as leaving something for something else, and frames the question as a rebuke."
+        },
+        {
+          "translation": "what is better",
+          "explanation": "The better provision refers in the commentary to the food given in the wilderness. It is described as superior in standing and value, though this is specific to the passage’s comparison."
+        },
+        {
+          "translation": "for what is worse?",
+          "explanation": "The foods requested are called lower in this comparison, not intrinsically bad or forbidden. The commentary says that replacing the manna and quails with common crops amounts to exchanging better provision for lesser provision."
+        },
+        {
+          "translation": "˹You can˺ go down",
+          "explanation": "The people are directed to descend or settle in a town where such crops are available. The commentary explains “go down” as coming to a place and settling there. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "to any village",
+          "explanation": "The reading can refer to a city among cities, while other interpretations identify Egypt or another particular place. The commentary prefers the general sense of a settled place and leaves its exact identity open."
+        },
+        {
+          "translation": "and you will find",
+          "explanation": "The crops the people requested are available in settlements. The commentary explains that they asked for agricultural produce found in towns, unlike the wilderness where they had received manna and quails."
+        },
+        {
+          "translation": "what you have asked for.”",
+          "explanation": "The answer assures them that the foods they desire can be found in a settled place. The commentary does not settle definitively whether the destination is Egypt, Syria, or another town."
+        },
+        {
+          "translation": "They were stricken",
+          "explanation": "The verse describes consequences that came upon the people in the account. The commentary explains these as humiliation and want, while its historical referent is the community described in the passage."
+        },
+        {
+          "translation": "with disgrace",
+          "explanation": "Disgrace or humiliation is one of the conditions named. The commentary links it to the historical community’s rejection of signs and killing of prophets, not to a timeless judgment on all descendants."
+        },
+        {
+          "translation": "and misery,",
+          "explanation": "The word is explained as poverty, need, and destitution. The commentary connects it with the same historical account and does not present deprivation as a general condition of later communities."
+        },
+        {
+          "translation": "and they invited",
+          "explanation": "The phrase describes their returning with or incurring divine displeasure. The commentary explains the wording as bearing the consequence of their actions. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "the displeasure of Allah",
+          "explanation": "The passage attributes the consequence to God’s anger in response to the actions it names. The commentary treats this as a specific account and does not generalize it to people outside that context."
+        },
+        {
+          "translation": "for rejecting",
+          "explanation": "The stated reason includes rejection of God’s signs. The commentary explains the signs as proofs and indications of God’s oneness and the truth of the messengers. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "Allah’s signs",
+          "explanation": "The signs are understood as proofs and indications, including those supporting the messengers. The historical account connects their rejection with the consequences described. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "and unjustly killing",
+          "explanation": "The verse names the killing of prophets without right. The commentary explains this as killing messengers without divine permission, and condemns the act in the context of that history. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "the prophets.",
+          "explanation": "The prophets are messengers sent to convey God’s message. Their killing is identified as a grave wrongdoing in the passage, not a claim about present-day communities. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "This is ˹a fair reward˺",
+          "explanation": "The final statement links the consequences with the actions described. The commentary reads this as a recompense for disobedience and rejection, not as an arbitrary punishment. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "for their disobedience",
+          "explanation": "Disobedience is one of the reasons given for the historical consequences. The commentary explains it as opposing God’s command and leaving obedience. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
+        },
+        {
+          "translation": "and violations",
+          "explanation": "Violations mean crossing limits set by God. The commentary concludes that the punishment followed disobedience and transgression, keeping responsibility tied to the actions named in this passage. This historical detail belongs to the narrative of their journey and should not be generalized beyond the people described in the verse."
         }
       ]
     },
