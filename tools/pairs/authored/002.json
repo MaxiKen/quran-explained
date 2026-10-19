@@ -2829,94 +2829,483 @@
       ]
     },
     "62": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Indeed, the believers, Jews, Christians, and Sabians—whoever ˹truly˺ believes in Allah and the Last Day and does good will have their reward with their Lord.",
-          "explanation": "The verse names believers, Jews, Christians, and Sabians, then makes sincere belief in Allah, the Last Day, and good action central to the promise. Classical interpretation often connects it to people who faithfully followed their prophet before Muhammad’s message reached them. It is not a blanket endorsement of every claim made by every group."
+          "translation": "Indeed,",
+          "explanation": "The verse makes a direct statement about people from several religious communities and the conditions for reward. Its key condition follows in the next phrases, so the group names alone do not settle the meaning."
         },
         {
-          "translation": "And there will be no fear for them, nor will they grieve",
-          "explanation": "Those who meet the stated conditions are promised reward and freedom from ultimate fear and grief. The verse directs attention away from communal labels alone and toward sincere faith and conduct. Its reassurance belongs alongside the Qur’an’s wider call to follow the guidance Allah sends."
+          "translation": "the believers,",
+          "explanation": "The first group is those who believe. The commentary explains faith as affirming the truth brought by the Messenger and remaining steadfast rather than abandoning it. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "Jews,",
+          "explanation": "The commentary identifies those who “turned” as Jews and discusses the name’s possible relation to repentance. This historical label appears among several groups addressed by the verse. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "Christians,",
+          "explanation": "The verse names Christians as another community. The commentary discusses competing explanations of the name, including association with mutual support or a place called Nazareth, without making either etymology the verse’s central point."
+        },
+        {
+          "translation": "and Sabians",
+          "explanation": "The Sabians are a group whose identity is disputed in the commentary. Reports variously describe them as a community between other religions, worshippers of angels, or a faction of the People of the Book."
+        },
+        {
+          "translation": "—whoever",
+          "explanation": "The promise applies by a condition that follows, rather than solely by belonging to one of the named groups. The commentary reads the wording as “whoever among them” fulfills the stated criteria."
+        },
+        {
+          "translation": "˹truly˺ believes",
+          "explanation": "The commentary explains the condition as sincere faith and steadfastness, not a temporary claim. In its reading, the named communities must affirm the message relevant to them and not reject it after it reaches them."
+        },
+        {
+          "translation": "in Allah",
+          "explanation": "Belief in God is part of the condition for reward. The commentary explains faith here as affirming the truth, making this more than a label or inherited affiliation. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "and the Last Day",
+          "explanation": "The Last Day means resurrection and the final accounting. The commentary explains belief in it as acknowledging that people will be raised after death and answer for their deeds. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "and does good",
+          "explanation": "Righteous action means obeying God and acting well. The verse joins belief with deeds, so the promised reward is not presented as dependent on a community name alone. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "will have their reward",
+          "explanation": "Those who meet the stated conditions receive recompense for their good deeds. The commentary says the reward is with God, who judges the person’s faith and conduct. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "with their Lord.",
+          "explanation": "The reward is held with God, emphasizing its divine source and security. The commentary connects it with the recompense for righteous action, not with an automatic entitlement based on group identity."
+        },
+        {
+          "translation": "And there will be",
+          "explanation": "The verse turns from reward to reassurance about fear and grief. The commentary explains these as feelings associated with the resurrection and the loss of worldly life. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "no fear",
+          "explanation": "The promised people will not fear the terrors they face at resurrection. The commentary places this reassurance in the afterlife, when they see the reward prepared for them. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "for them,",
+          "explanation": "The reassurance belongs to those who meet the verse’s conditions. It is not attached simply to a communal label, but to the faith and good action described. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
+        },
+        {
+          "translation": "nor will they grieve",
+          "explanation": "They will not grieve over the worldly life they left behind when they witness the lasting reward. This consolation completes the promise of security and recompense. This part matters because it ties the promise to the passage’s stated conditions, rather than to a community name alone."
         }
       ]
     },
     "63": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when We took a covenant from you and raised the mountain above you ˹saying˺,",
-          "explanation": "The raised mountain marks the seriousness of the covenant between Allah and the Children of Israel. The dramatic setting is recalled to awaken memory of a commitment, not to suggest that revelation is a casual agreement that can be ignored without consequence."
+          "translation": "And ˹remember˺",
+          "explanation": "The audience is asked to recall the covenant and the circumstances in which it was accepted. The commentary connects it with obligations already stated for the Children of Israel, including worship and conduct."
         },
         {
-          "translation": "“Hold firmly to that ˹Scripture˺ which We have given you and observe its teachings so perhaps you will become mindful ˹of Allah˺.”",
-          "explanation": "Holding firmly to the Scripture means taking its teachings seriously and living by them. The stated aim is mindfulness of Allah, so study and obedience belong together. The verse recalls a covenant whose purpose was moral guidance, not possession of a text without practice."
+          "translation": "when We took",
+          "explanation": "The covenant is described as something accepted or made binding. The commentary explains the term as a sure agreement, which may be established by an oath or another form of commitment."
+        },
+        {
+          "translation": "a covenant",
+          "explanation": "A covenant is a firm agreement or undertaking. The commentary connects it with obligations to follow God’s commands in the Torah, rather than a vague promise without practical duties. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "from you",
+          "explanation": "The address speaks to the people in the narrative, while the commentary explains that ancestral actions may be attributed to the later audience being addressed. This is a historical mode of speech, not collective guilt for present-day people."
+        },
+        {
+          "translation": "and raised",
+          "explanation": "The mountain was lifted above the people as a warning and a sign. Reports describe it as raised like a canopy, though the core verse does not elaborate every physical detail."
+        },
+        {
+          "translation": "the mountain",
+          "explanation": "The mountain is called Ṭūr, a word explained as mountain, with some reports identifying it specifically with the mountain of Moses’ revelation. The commentary notes alternative linguistic views but emphasizes the raised mountain in the account."
+        },
+        {
+          "translation": "above you",
+          "explanation": "The mountain’s position above the people conveys the seriousness of the covenant. Reports describe the people as being beneath it and urged to accept the instruction. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "˹saying˺,",
+          "explanation": "The raised mountain accompanies a command to accept the revealed Book. The commentary treats the spoken instruction as understood from the narrative and links it with the covenant. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "“Hold firmly",
+          "explanation": "To hold firmly means to accept and carry out the obligations diligently. The commentary explains “with strength” as exertion, obedience, and acting upon what the Book commands. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "to that ˹Scripture˺",
+          "explanation": "The Scripture is the Torah given to Moses. The commentary says the people were being told to accept its commands and prohibitions, not merely possess the text. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "which We have given",
+          "explanation": "The Book is presented as a gift from God and a source of obligations. The commentary explains “given” as what was entrusted to the people through Moses. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "you",
+          "explanation": "The people are responsible for acting on the Book they received. The commentary’s explanation stresses their obligation to follow its teachings with diligence. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "and observe",
+          "explanation": "Remembering includes reciting, reflecting on, and acting upon the Book. The commentary explains this as keeping its commands in mind and not becoming heedless of them. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "its teachings",
+          "explanation": "The contents include promises, warnings, encouragement, and commands. The commentary says reflecting on these teachings should turn the people away from disobedience and toward obedience. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "so perhaps",
+          "explanation": "The phrase expresses purpose: remembering the Book is meant to lead to mindfulness. It does not imply uncertainty in God, but describes the intended result of the instruction. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "you will become mindful",
+          "explanation": "Mindfulness of God means fearing the consequences of disobedience and turning toward obedience. The commentary explains this as withdrawing from wrongdoing and taking the Book’s warnings seriously. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
+        },
+        {
+          "translation": "˹of Allah˺.”",
+          "explanation": "The object of their mindfulness is God. The command connects remembrance of revelation with reverence and obedience, not merely with recalling words or rituals. This detail belongs to the covenant narrative and emphasizes the people’s responsibility to act on the instruction they received."
         }
       ]
     },
     "64": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Yet you turned away afterwards. Had it not been for Allah’s grace and mercy upon you, you would have certainly been of the losers",
-          "explanation": "Despite the covenant, the people turned away, and the verse says they would have been lost without Allah’s grace and mercy. The reminder combines accountability with gratitude: disobedience has consequences, yet divine mercy can preserve a community from the full result of its failures."
+          "translation": "Yet",
+          "explanation": "The verse contrasts the covenant and command just described with what followed. Despite the serious undertaking, the people turned away, making the subsequent mention of grace especially significant. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "you turned away",
+          "explanation": "Turning away means abandoning obedience and setting aside the covenant’s obligations. The commentary explains it as casting behind one’s back what the people had pledged to follow. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "afterwards.",
+          "explanation": "The turning away came after the covenant and the command to uphold the Book. The timing highlights the contrast between accepting an obligation and later failing to act upon it."
+        },
+        {
+          "translation": "Had it not been",
+          "explanation": "This phrase introduces a counterfactual: without divine favor, the outcome would have been loss. The commentary connects the favor with pardon and renewed opportunity after the breach. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "for Allah’s grace",
+          "explanation": "The commentary identifies God’s grace here with the opportunity to repent and with the gift of Islam. Mercy prevented the people’s breach from ending in complete ruin. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "and mercy",
+          "explanation": "Mercy is described as God overlooking the sin when the people returned to obedience. A report also associates grace with Islam and mercy with the Qur’an, while the main explanation emphasizes pardon."
+        },
+        {
+          "translation": "upon you,",
+          "explanation": "The favor and mercy were bestowed on the people being addressed. The commentary clarifies that the account concerns their ancestors, spoken of as “you” in a familiar mode of historical address."
+        },
+        {
+          "translation": "you would have",
+          "explanation": "Without that favor, the consequences would have followed. The wording underscores dependence on divine mercy rather than implying that the covenant breach was harmless. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "certainly been",
+          "explanation": "The outcome is stated emphatically. The commentary explains that without acceptance of repentance, the people would have remained ruined by their breach and opposition to the command. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
+        },
+        {
+          "translation": "of the losers",
+          "explanation": "Loss means being deprived of one’s share and ruined by wrongdoing. The verse closes by setting accountability beside the mercy that allowed repentance and return. The contrast keeps accountability and divine mercy together in this account of the ancestors addressed by the verse."
         }
       ]
     },
     "65": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "You are already aware of those of you who broke the Sabbath. We said to them, “Be disgraced apes!”",
-          "explanation": "The verse recalls a specific group who violated the Sabbath and received a severe punishment described as becoming apes. It is a historical warning about deliberate disobedience, not a general insult to Jews or to anyone who observes a different day of worship."
+          "translation": "You are already aware",
+          "explanation": "The wording reminds the audience of an event they know from their community’s history. The commentary explains “you have known” as coming to know, and presents the episode as a warning against disobedience."
+        },
+        {
+          "translation": "of those of you",
+          "explanation": "The passage refers to a particular group within the historical community being addressed. The commentary situates this account in the history of the Children of Israel and does not make it a judgment about later people by ancestry."
+        },
+        {
+          "translation": "who broke",
+          "explanation": "The phrase means they crossed a limit and disobeyed a command. The commentary explains transgression as going beyond what was permitted, rather than a small mistake without consequences. The account concerns a specific historical group and should not be generalized to later communities."
+        },
+        {
+          "translation": "the Sabbath.",
+          "explanation": "The Sabbath was the day on which the people were forbidden to catch fish in the reported account. Fish appeared near the shore on that day, creating a test of whether they would obey."
+        },
+        {
+          "translation": "We said to them,",
+          "explanation": "The command is directed to those who transgressed. The commentary treats the transformation as an actual punishment, while also recording an interpretation that it was only a likeness and rejecting that reading as contrary to the text’s plain sense."
+        },
+        {
+          "translation": "“Be disgraced",
+          "explanation": "The word conveys being driven away, humbled, and deprived of good. The commentary explains this as part of the punishment pronounced upon the Sabbath transgressors. The account concerns a specific historical group and should not be generalized to later communities."
+        },
+        {
+          "translation": "apes!”",
+          "explanation": "The verse describes the transgressors being made apes. Reports differ on some details of the episode, but the commentary’s preferred reading takes the transformation as real, not merely a figurative comparison. This is a specific ancient account."
         }
       ]
     },
     "66": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "So We made their fate an example to present and future generations, and a lesson to the God-fearing",
-          "explanation": "The fate of the Sabbath-breakers became an example for people who heard the account later and a lesson for those mindful of Allah. History is presented as moral instruction: readers should learn from another community’s failure rather than repeat it or use it to mock them."
+          "translation": "So We made",
+          "explanation": "The punishment became an example for others. The commentary discusses what the pronoun “it” refers to, preferring the punishment and transformation described in the preceding verse. This reading keeps the warning tied to the transgression described in the passage."
+        },
+        {
+          "translation": "their fate",
+          "explanation": "The referent is disputed in transmitted explanations: some identify the punishment, the transformed people, the town, or the community. The commentary prefers the punishment because it is the clearest antecedent in the passage."
+        },
+        {
+          "translation": "an example",
+          "explanation": "The word means a punishment that deters and warns. The episode is presented as an example of the consequence of disobedience, not as an invitation to imitate the punishment. This reading keeps the warning tied to the transgression described in the passage."
+        },
+        {
+          "translation": "to present",
+          "explanation": "One explanation reads this as those who came before the event, while other reports connect the phrase with prior sins. The commentary records differing views about how the time reference works."
+        },
+        {
+          "translation": "and future generations,",
+          "explanation": "The wording also points to those who came after. The commentary explains the event as a warning to later people not to repeat similar disobedience, while noting competing interpretations of the pronoun and time reference."
+        },
+        {
+          "translation": "and a lesson",
+          "explanation": "A lesson is a reminder from which people take warning. The commentary connects the event with reflection and learning, beyond its immediate historical setting. This reading keeps the warning tied to the transgression described in the passage."
+        },
+        {
+          "translation": "to the God-fearing",
+          "explanation": "The God-fearing are those who fulfill obligations and avoid disobedience. The episode admonishes those willing to take a lesson and act in obedience. This reading keeps the warning tied to the transgression described in the passage."
         }
       ]
     },
     "67": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "And ˹remember˺ when Moses said to his people, “Allah commands you to sacrifice a cow.”",
-          "explanation": "Moses relays a direct command to sacrifice a cow, which becomes the starting point of a story about repeated questioning. The simplicity of the initial instruction matters: the later difficulty grows as the people ask for more details instead of promptly responding."
+          "translation": "And ˹remember˺ when",
+          "explanation": "The audience is asked to recall Moses’ instruction to his people during a dispute about a murdered man. The commentary presents the story as a reminder of an earlier community’s response to a prophet."
         },
         {
-          "translation": "They replied, “Are you mocking us?” Moses responded, “I seek refuge in Allah from acting foolishly!”",
-          "explanation": "They suspect Moses is mocking them, but he seeks refuge in Allah from foolishness. His answer rejects ridicule and restores the seriousness of the command. The exchange shows how mistrust can make even a clear instruction seem like a joke."
+          "translation": "Moses said",
+          "explanation": "Moses conveys a command from God, not a personal joke. The commentary stresses that it is improper to imagine a prophet mocking people while reporting a divine command. The story’s setting is the reported dispute among Moses’ people, not a general rule about later communities."
+        },
+        {
+          "translation": "to his people,",
+          "explanation": "The people are the Children of Israel in the story. They had brought a dispute about a killing to Moses, and the command about a cow was part of the answer revealed to him."
+        },
+        {
+          "translation": "“Allah commands",
+          "explanation": "Moses explicitly attributes the instruction to God. The commentary emphasizes this point because the people suspect mockery, even though Moses makes clear that he is conveying a command. The story’s setting is the reported dispute among Moses’ people, not a general rule about later communities."
+        },
+        {
+          "translation": "you",
+          "explanation": "The command is directed to the people involved in the dispute. The reports vary over the identity and family relationship of the killer, so the explanation need not present one version as certain."
+        },
+        {
+          "translation": "to sacrifice",
+          "explanation": "The instruction is to slaughter an animal. In later verses, the people ask increasingly specific questions about which cow, and the commentary reports that their questioning made the task more difficult."
+        },
+        {
+          "translation": "a cow.”",
+          "explanation": "The cow is linked in transmitted accounts to resolving the dispute over a murdered man. Reports differ in details of the killing and the animal’s price, while this verse itself states the command without those details."
+        },
+        {
+          "translation": "They replied,",
+          "explanation": "The people respond by questioning the instruction rather than accepting it. The commentary understands their words in the context of a murder investigation, where the command initially seems unrelated to their complaint."
+        },
+        {
+          "translation": "“Are you mocking us?”",
+          "explanation": "They suspect Moses is making sport of them. The commentary explains the word as mockery, and says they should not have attributed such behavior to a prophet who clearly reports a command from God."
+        },
+        {
+          "translation": "Moses responded,",
+          "explanation": "Moses rejects their accusation and clarifies his own stance. The commentary explains that someone who attributes falsehood or mockery to God’s command would be ignorant, and Moses seeks refuge from that."
+        },
+        {
+          "translation": "“I seek refuge",
+          "explanation": "Moses asks God for protection from the fault they suspect. The wording is a denial of mockery, not an expression of anger or amusement. The story’s setting is the reported dispute among Moses’ people, not a general rule about later communities."
+        },
+        {
+          "translation": "in Allah",
+          "explanation": "God is the one from whom Moses seeks protection. His response affirms that he will not misrepresent the divine instruction or treat it as a joke. The story’s setting is the reported dispute among Moses’ people, not a general rule about later communities."
+        },
+        {
+          "translation": "from acting foolishly!”",
+          "explanation": "The commentary explains ignorance here as foolishly attributing mockery or falsehood to God. Moses disavows that conduct and reaffirms the seriousness of conveying the command. The story’s setting is the reported dispute among Moses’ people, not a general rule about later communities."
         }
       ]
     },
     "68": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "They said, “Call upon your Lord to clarify for us what type ˹of cow˺ it should be!”",
-          "explanation": "The people ask what kind of cow is required, and the answer gives an age range between young and old. In the story, each request for more detail narrows the choice. The repeated questions make the task more complicated than the original command."
+          "translation": "They said,",
+          "explanation": "The people continue their questions after receiving the command to slaughter a cow. The commentary presents this as making the task more difficult by asking for details that were not initially required."
         },
         {
-          "translation": "He replied, “Allah says, ‘The cow should neither be old nor young but in between. So do as you are commanded!’”",
-          "explanation": "Moses tells them to do as commanded, but the narrative records their continued search for specifications. The episode exposes delay and overcomplication as spiritual habits. It does not condemn genuine questions asked to understand a duty, but portrays questions used to resist acting."
+          "translation": "“Call upon",
+          "explanation": "They ask Moses to seek clarification from God. The commentary describes this as a further question after they had already been told to slaughter any cow. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "your Lord",
+          "explanation": "The people ask Moses to appeal to God on their behalf. The commentary stresses that the command came from God, though the people continue to request added detail. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "to clarify",
+          "explanation": "They seek a more specific description of the cow. The commentary considers this an unnecessary restriction, since the original instruction had not limited the choice to a particular age or kind."
+        },
+        {
+          "translation": "for us",
+          "explanation": "The request is framed as seeking help for the community. The commentary notes that the people could have followed the first command without imposing further burdens on themselves. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "what type",
+          "explanation": "They ask for the cow’s characteristics. The commentary says that asking this question resulted in a narrower description than the general command had required. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "˹of cow˺",
+          "explanation": "The supplied translation makes explicit that the question concerns the animal they were told to slaughter. The commentary treats the cow’s identity and attributes as the focus of their request."
+        },
+        {
+          "translation": "it should be!”",
+          "explanation": "The people ask which cow would meet the requirement. The commentary says that the first command allowed any cow, but their inquiry led to a middle-aged description and made the matter more restrictive."
+        },
+        {
+          "translation": "He replied,",
+          "explanation": "Moses gives the answer revealed to him rather than selecting an animal himself. The commentary explains that the answer defines the permitted age range after the people asked. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "“Allah says,",
+          "explanation": "Moses attributes the description to God. The commentary presents the increasingly narrow instructions as a response to the people’s questions, not as details required from the outset. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "‘The cow",
+          "explanation": "The answer identifies the animal as a cow but specifies that it must fall between the extremes of age. The commentary explains the terms as not decrepit and not very young."
+        },
+        {
+          "translation": "should neither be old",
+          "explanation": "The cow must not be aged or decrepit. The commentary explains the term as describing an old animal, with reports emphasizing that it is not at the end of its productive life."
+        },
+        {
+          "translation": "nor young",
+          "explanation": "The animal must also not be a small, very young cow. Reports differ slightly over the precise stage, with some describing one that has not yet borne young. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "but in between.",
+          "explanation": "The required cow is middle-aged, between old age and youth. The commentary explains this as the central category and treats it as the new restriction prompted by their question. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "So do",
+          "explanation": "The instruction shifts from asking to acting. The commentary explains that the people should now carry out what God has commanded instead of continuing to add questions. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "as you are commanded!’",
+          "explanation": "The command is to obey and slaughter the cow according to the description given. The commentary connects obedience with resolving the dispute over the murdered person. This is part of the story in which repeated questions progressively narrow the original instruction."
         }
       ]
     },
     "69": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "They said, “Call upon your Lord to specify for us its colour.” He replied, “Allah says, ‘It should be a bright yellow cow—pleasant to see.’”",
-          "explanation": "They ask about the cow’s color, and the answer describes a bright yellow animal that is pleasant to see. The detail continues the narrowing of the search. The story lets readers watch how repeated demands for certainty turn a straightforward command into a harder task."
+          "translation": "They said",
+          "explanation": "The people ask another question after the age of the cow has been specified. The commentary describes this as continuing to burden themselves with details not required by the original instruction."
+        },
+        {
+          "translation": "“Call upon your Lord",
+          "explanation": "They again ask Moses to seek an answer from God. The commentary notes that their repeated questions lead to further restrictions on the animal. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "to specify",
+          "explanation": "They request a more precise description of the color. The commentary treats this as another unnecessary question that narrows the choice. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "for us",
+          "explanation": "The request is again presented as being for the people. Yet the commentary explains that their own questioning, rather than an initial requirement, brings added difficulty. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "its colour.”",
+          "explanation": "The requested detail concerns the cow’s color. The commentary records disagreement over the meaning of “yellow,” but argues that “bright” supports the ordinary sense of a vivid yellow. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "He replied",
+          "explanation": "Moses gives the answer to their question. The commentary says the requirement of color was added after they pressed for more description. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "“Allah says,",
+          "explanation": "The answer is attributed to God, not Moses’ preference. The commentary explains that the people’s requests successively narrowed what had first been left open. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "‘It should be",
+          "explanation": "The following description specifies what the cow must look like. The commentary emphasizes that this further precision was not part of the first command. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "a bright yellow cow",
+          "explanation": "The cow’s color is described as a clear, intense yellow. Some reports offer other interpretations, but the commentary argues that the word “bright” makes ordinary yellow the stronger reading. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "—pleasant to see.’",
+          "explanation": "The cow’s appearance is pleasing to observers. Reports describe its beauty and vivid coat, while the commentary focuses on how its appearance completes the requested identifying features. This is part of the story in which repeated questions progressively narrow the original instruction."
         }
       ]
     },
     "70": {
+      "split_policy": "dense-v1",
       "phrases": [
         {
-          "translation": "Again they said, “Call upon your Lord so that He may make clear to us which cow, for all cows look the same to us.",
-          "explanation": "The people now say the cows look alike and ask for still more clarification. Their uncertainty follows a series of questions they chose to ask. The narrative emphasizes how reluctance can disguise itself as a need for endless detail."
+          "translation": "Again they said,",
+          "explanation": "The people ask again after hearing the cow’s age and color. The commentary treats this as a third round of questioning that adds restrictions to a command that had first been broad."
         },
         {
-          "translation": "Then, Allah willing, we will be guided ˹to the right one˺.”",
-          "explanation": "They add “Allah willing” and say they will then be guided to the right cow. Their words sound deferential, yet the story still shows how much effort their earlier questioning has created. Sincerity is measured by following guidance, not by adding pious phrases alone."
+          "translation": "“Call upon",
+          "explanation": "They ask Moses once more to seek clarification from God. The commentary links their repeated inquiries with the difficulty they bring upon themselves. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "your Lord",
+          "explanation": "The request is addressed through Moses to God. The commentary emphasizes that the initial command came from God and could have been obeyed without further questioning. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "so that He may",
+          "explanation": "They want the cow identified more precisely. The commentary explains that the added questions make the choice narrower and the task more burdensome. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "make clear to us",
+          "explanation": "The people seek clarity for themselves, but the commentary presents the repeated requests as a source of added difficulty rather than a necessary aid. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "which cow,",
+          "explanation": "They say that the cows look alike and ask which one is required. The commentary explains that any cow of the stated category would have sufficed, but further questions had narrowed the choice."
+        },
+        {
+          "translation": "for all cows",
+          "explanation": "The statement introduces their reason for asking. They say that the cows are hard to distinguish, though the commentary reads this as another stage in their continuing inquiry. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "look the same",
+          "explanation": "The plural refers to the animals from which they must select one. The commentary says the people had not been restricted to a specific cow until their questions prompted further qualifications."
+        },
+        {
+          "translation": "to us.",
+          "explanation": "The people claim that the cows resemble one another. The commentary understands this as their stated difficulty in identifying the right animal, not as a new divine restriction. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "Then,",
+          "explanation": "The resemblance is described from the people’s perspective. They use it to ask for another clarification, continuing the sequence of questions. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "Allah willing,",
+          "explanation": "The speakers promise to act once the answer is clear. The commentary reports that their reservation leads to guidance in finding the described cow. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "we will be guided",
+          "explanation": "The phrase invokes God’s will. Reports in the commentary say that making this reservation was significant to their eventual success in locating the animal. This is part of the story in which repeated questions progressively narrow the original instruction."
+        },
+        {
+          "translation": "˹to the right one˺.”",
+          "explanation": "The wording expresses confidence that they will find the right cow. The commentary connects this claim with their stated willingness to follow guidance. This is part of the story in which repeated questions progressively narrow the original instruction."
         }
       ]
     },
