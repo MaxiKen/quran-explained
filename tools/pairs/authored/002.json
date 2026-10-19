@@ -736,58 +736,202 @@
     "21": {
       "phrases": [
         {
-          "translation": "O humanity! Worship your Lord,",
-          "explanation": "The call widens from the believers described earlier to all people. Worship is grounded in the relationship between Creator and creation, so it is not a tribal privilege or merely a social custom. The verse invites every listener to respond to the One who brought them into being."
+          "translation": "O humanity!",
+          "explanation": "The address is broad and includes people beyond one tribe or community. The commentary says the command is directed to all responsible people, including those who have rejected the message and those who hide disbelief. It begins a call to worship grounded in what Allah has given them."
         },
         {
-          "translation": "Who created you and those before you,",
-          "explanation": "By recalling that Allah created both the present audience and earlier generations, the verse places human life in a long chain of dependence. No generation creates itself. Remembering that shared origin is meant to cultivate humility and awareness of the One who sustains people."
+          "translation": "Worship your Lord,",
+          "explanation": "Worship means obeying Allah with humility and directing devotion to Him alone. The commentary explains that this call rejects idols and false gods because they cannot create, harm, or benefit as Allah can. It is a command to submit to the Creator, not a statement that He needs human worship."
         },
         {
-          "translation": "so that you may become mindful ˹of Him˺",
-          "explanation": "Mindfulness of Allah is presented as the intended fruit of worship. The Arabic word taqwa carries the sense of guarding oneself through reverence and obedience. Worship is therefore not a ritual isolated from daily life, but a way of becoming more careful about how one acts."
+          "translation": "Who created you",
+          "explanation": "Allah is identified as the Creator of the people addressed. The commentary uses creation as a reason He has the right to their obedience, unlike objects they worship that have no power to create. Recognizing this origin is meant to lead people toward gratitude and exclusive worship."
+        },
+        {
+          "translation": "and those before you,",
+          "explanation": "The verse includes earlier generations, showing that all people depend on the same Creator. The commentary expands this to ancestors and the rest of creation. No generation is self-made, and the passage uses this shared dependence to call every audience to humble obedience."
+        },
+        {
+          "translation": "so that you may",
+          "explanation": "This phrase introduces the purpose of worship: it should lead people toward mindful obedience. The commentary explains the Arabic construction as expressing purpose, not uncertainty about what Allah knows. Worship is meant to change how people live and how they respond to what God commands."
+        },
+        {
+          "translation": "become mindful",
+          "explanation": "Mindfulness of Allah means guarding oneself through obedience and avoiding what He forbids. The commentary connects this quality to fearing divine displeasure and seeking His approval. It is not only an emotion. It appears in the choices a person makes."
+        },
+        {
+          "translation": "˹of Him˺",
+          "explanation": "Allah is the One toward whom this mindfulness is directed. The commentary explains the aim as worshipping Him alone, obeying His commands, and avoiding what brings His displeasure. The phrase closes the invitation by linking worship with a careful, God-conscious life."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "22": {
       "phrases": [
         {
-          "translation": "˹He is the One˺ Who has made the earth a place of settlement for you and the sky a canopy;",
-          "explanation": "The image of the earth as a settled place and sky as a canopy describes an ordered home for human life. It points to provision and stability as gifts, while directing attention beyond nature itself to the Lord who made it available."
+          "translation": "˹He is the One˺",
+          "explanation": "This phrase points back to Allah, the Lord whom the previous verse commands people to worship. The commentary connects the description that follows with His creation and care. These are reminders of His favors, meant to turn people toward obedience and gratitude."
         },
         {
-          "translation": "and sends down rain from the sky, causing fruits to grow as a provision for you.",
-          "explanation": "Rain and fruit show how provision reaches people through interconnected gifts they did not produce alone. The verse encourages gratitude for ordinary necessities, not just extraordinary signs. Its image leads from visible sustenance to recognition of the One who sends it."
+          "translation": "Who has made",
+          "explanation": "Allah is described as the One who prepared the world for human life. The commentary explains this as an act of beneficence, not something He needed people to repay. Remembering what He has made is intended to help people recognize His right to worship."
         },
         {
-          "translation": "So do not knowingly set up equals to Allah ˹in worship˺",
-          "explanation": "The command follows the reminder of creation and provision: worship belongs to Allah alone. “Equals” means rivals in worship, not denying that creatures have different roles or status. The warning is especially pointed because people know the One who provides cannot be placed on the same level as created things."
+          "translation": "the earth",
+          "explanation": "The earth is the place where people live and walk. The commentary describes it as spread out and made suitable as a dwelling. Its role in sustaining human life is presented as a gift from Allah and a reason to direct thanks and worship to Him."
+        },
+        {
+          "translation": "a place of settlement",
+          "explanation": "The Arabic image can mean a bed, resting place, or dwelling where people settle. The commentary explains it as a leveled place suited for living. The point is the earth’s provision and stability for human beings, not a technical claim about its physical shape."
+        },
+        {
+          "translation": "for you",
+          "explanation": "The earth is described in relation to the people addressed, whose lives depend on its provision. The commentary says this reminder is meant to help them remember Allah’s favors and turn toward obedience. It does not imply that humans own creation without responsibility."
+        },
+        {
+          "translation": "and the sky",
+          "explanation": "The sky is paired with the earth as part of the setting that sustains life. The commentary explains its name through its height above the earth. Together, sky and ground are described as gifts from the Creator, not as independent powers deserving worship."
+        },
+        {
+          "translation": "a canopy;",
+          "explanation": "A canopy is a covering overhead. The commentary compares the sky to a ceiling or dome above the earth. This image emphasizes the ordered environment people inhabit and the gifts that support life, directing gratitude to the One who created them."
+        },
+        {
+          "translation": "and sends down",
+          "explanation": "The verse describes provision arriving from above through rain. The commentary presents this as one of Allah’s favors and a sign of His power. The verb ties the sky to the nourishment that follows, showing how creation supports human life."
+        },
+        {
+          "translation": "rain from the sky,",
+          "explanation": "Rain descends from the sky and brings water to the earth. The commentary explains that this water supports crops and plants, linking the sky and ground to people’s sustenance. The verse points from a familiar natural process to the Creator who provides it."
+        },
+        {
+          "translation": "causing fruits to grow",
+          "explanation": "The rain enables plants and crops to produce fruit. The commentary explains this as Allah bringing forth what people have planted and sown. Growth and harvest are presented as part of His provision, not as something people control entirely by themselves."
+        },
+        {
+          "translation": "as a provision",
+          "explanation": "Provision means sustenance and nourishment. The commentary says the fruits and crops feed people and maintain their lives. By mentioning ordinary food, the verse invites recognition of Allah’s care in everyday needs, not only in rare or extraordinary events."
+        },
+        {
+          "translation": "for you.",
+          "explanation": "The food is provided for the people addressed. The commentary argues that the One who creates and sustains them deserves gratitude and worship, unlike idols that cannot benefit or harm them. The phrase makes provision personal while reminding people of their dependence."
+        },
+        {
+          "translation": "So do not",
+          "explanation": "The verse now draws a command from the reminders of creation and provision. Since Allah alone creates and sustains, people should not direct worship elsewhere. The commentary presents the instruction as a call to keep devotion pure for the One who gave these favors."
+        },
+        {
+          "translation": "knowingly set up",
+          "explanation": "The command addresses people who know that Allah created and provides, yet assign others a share in worship. The commentary says the warning concerns adding partners in obedience and devotion. It is not simply a mistake about created things having different roles."
+        },
+        {
+          "translation": "equals to Allah",
+          "explanation": "An “equal” is a peer or counterpart. The commentary explains the Arabic term as something treated as comparable to Allah in worship, whether an idol, a god, or a person obeyed against God’s command. Created beings cannot match the Creator in power or provision."
+        },
+        {
+          "translation": "˹in worship˺",
+          "explanation": "This clarifies the sense of making equals: directing worship or ultimate obedience to something besides Allah. The commentary records examples involving idols, gods, and obeyed leaders. Its central point is exclusive devotion to the Creator, whose gifts and authority have just been described."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "23": {
       "phrases": [
         {
-          "translation": "And if you are in doubt about what We have revealed to Our servant,",
-          "explanation": "The challenge addresses those who question the Qur’an’s divine origin. Calling Muhammad “Our servant” emphasizes his honored role as messenger while keeping worship directed to Allah. The proposed test is public and collaborative, inviting opponents to bring help rather than relying on private impressions."
+          "translation": "And if you are",
+          "explanation": "The verse addresses people who question the source of the Qur’an. The commentary frames this as a challenge to those who doubted Muhammad’s message, including opponents among the Arabs and People of the Book. It invites them to test their claim rather than rely on accusation alone."
         },
         {
-          "translation": "then produce a sûrah like it and call your helpers other than Allah, if what you say is true",
-          "explanation": "A surah is a distinct chapter of the Qur’an. The challenge asks opponents to produce something comparable and to call on any supporters they trust, making the claim open to contest. The invitation does not demand that a skeptic silence questions, but asks whether the accusation can be supported."
+          "translation": "in doubt",
+          "explanation": "Doubt here means uncertainty about whether the revelation truly came from Allah. The commentary treats the challenge as an argument: if the audience believes the Qur’an was invented, they should show that by producing something comparable. The phrase concerns the truth of revelation, not honest questions in general."
+        },
+        {
+          "translation": "about what We have",
+          "explanation": "The object of doubt is the message Allah says He sent down. The commentary describes it as light, proof, and a means of distinguishing truth from falsehood. The challenge tests the claim that the message is human invention by asking opponents to answer with evidence."
+        },
+        {
+          "translation": "revealed to Our servant,",
+          "explanation": "“Our servant” refers to Muhammad, the messenger who received the Qur’an. The wording honors his role while making clear that the revelation comes from Allah. The commentary argues that he was a human being like his opponents, so his message could not be dismissed as a supernatural skill they lacked."
+        },
+        {
+          "translation": "then produce a sûrah",
+          "explanation": "A sûrah is a chapter of the Qur’an. The verse challenges the doubters to produce one comparable to the revelation. The commentary explains this as a public test of the Qur’an’s eloquence in Arabic, not a demand that another text have the same divine meaning or source."
+        },
+        {
+          "translation": "like it",
+          "explanation": "The commentary explains “like it” as comparable in eloquence and expression in Arabic. It does not mean that human speech could share the Qur’an’s divine origin or all its meanings. The challenge is directed to people skilled in their language and invites them to answer on that ground."
+        },
+        {
+          "translation": "and call",
+          "explanation": "The challenge is not limited to producing a chapter alone. The audience is told to summon people who can help and support their claim. The commentary explains this as calling allies and witnesses to assist, making the test public and collaborative."
+        },
+        {
+          "translation": "your helpers",
+          "explanation": "These are the allies and supporters the doubters are invited to gather. The commentary explains that they should help produce a comparable chapter and support the claim that the Qur’an is invented. The challenge lets them use their strongest assistance rather than rely on accusation."
+        },
+        {
+          "translation": "other than Allah,",
+          "explanation": "The helpers are sought apart from Allah, who is not one of the human witnesses being assembled. The commentary explains the phrase as calling on supporters who can aid the doubters in their attempt. If they can produce a comparable chapter with help, they may substantiate their accusation."
+        },
+        {
+          "translation": "if what you say",
+          "explanation": "The condition tests whether the audience is truthful in claiming that Muhammad invented the Qur’an. The commentary says the challenge asks them to demonstrate their claim by producing a comparable chapter in their own language. Their assertion is not accepted merely because they repeat it."
+        },
+        {
+          "translation": "is true",
+          "explanation": "The challenge leaves the doubters with a way to test their assertion. The commentary argues that failure to produce a comparable chapter supports the claim that the Qur’an is revelation rather than Muhammad’s invention. The verse presents the challenge as evidence in its historical context."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "24": {
       "phrases": [
         {
-          "translation": "But if you are unable to do so—and you will never be able to do so—",
-          "explanation": "The verse states that the challenge will not be met, then turns from argument to consequence. In context, this warning answers persistent rejection after a clear sign has been offered. It asks the audience to take the message seriously rather than treating the challenge as a game."
+          "translation": "But if you are unable",
+          "explanation": "The verse turns to the result if the audience cannot meet the challenge. The commentary explains that inability becomes clear after opponents and their helpers have tried. It treats this as evidence for the truth of the message, followed by a warning about continuing to deny it."
         },
         {
-          "translation": "then fear the Fire fuelled with people and stones, which is prepared for the disbelievers",
-          "explanation": "The Fire image conveys the gravity of denying the signs and refusing guidance. Classical explanations discuss the mention of people and stones, but the central point here is the warning’s seriousness, not a detailed description of the unseen. The surah will balance this with a vivid promise of reward."
+          "translation": "to do so",
+          "explanation": "“Do so” refers to producing a sûrah comparable to the Qur’an. The commentary explains that the challenge tests the claim that Muhammad devised the revelation himself. If the doubters cannot reproduce it, they have encountered evidence against that claim."
+        },
+        {
+          "translation": "—and you will never",
+          "explanation": "The verse adds that the inability is not merely temporary. The commentary presents this as a declaration that the audience and all creation will not produce a comparable sûrah. The words underline the force of the challenge rather than asking the listener to keep attempting it."
+        },
+        {
+          "translation": "be able to do so—",
+          "explanation": "This completes the statement that the challenge cannot be met. The commentary explains that the inability makes the truth clear to those who persist in denial. The phrase refers to producing a chapter like the Qur’an in Arabic eloquence, not to matching every aspect of divine revelation."
+        },
+        {
+          "translation": "then fear",
+          "explanation": "The warning follows the challenge: once the evidence is clear, continuing in denial has consequences. The commentary reads this as a call to avoid the Fire by leaving stubborn rejection and accepting the message. Fear here should lead to a change of course, not despair."
+        },
+        {
+          "translation": "the Fire",
+          "explanation": "The Fire is the punishment threatened for rejecting the messenger after the proof has been established. The commentary links the warning to persistent denial of what is shown to be revelation. It presents the image as a serious consequence, not as an invitation to speculate beyond what the source says."
+        },
+        {
+          "translation": "fuelled",
+          "explanation": "To be fuelled is to be supplied with what keeps a fire burning. The verse uses this image to stress the severity of the punishment. The commentary explains the word as firewood or fuel, while leaving the unseen reality within the verse’s own description."
+        },
+        {
+          "translation": "with people",
+          "explanation": "People are named among the Fire’s fuel. The commentary uses this to intensify the warning about the fate of those who persist in disbelief. The phrase is part of a description of the unseen punishment and should be explained without adding details beyond the transmitted interpretation."
+        },
+        {
+          "translation": "and stones,",
+          "explanation": "The verse also names stones as fuel. Reports in the commentary identify them as sulphur stones, while the central explanation emphasizes the Fire’s severity. These details are presented as transmitted interpretations, not as a reason to turn the warning into unsupported physical speculation."
+        },
+        {
+          "translation": "which is prepared",
+          "explanation": "The Fire is described as already prepared for those who reject the message. The commentary links this warning to the audience’s denial after the challenge has made the evidence clear. The phrase underscores the seriousness of the consequence, while leaving the unseen reality to the revelation’s own description."
+        },
+        {
+          "translation": "for the disbelievers",
+          "explanation": "The warning is directed to those who deny Allah’s messenger and set up others alongside the Creator. The commentary connects disbelief with covering or denying the favors of the One who created and provides. In the verse’s setting, the audience is urged not to persist after the evidence has been made clear."
         }
-      ]
+      ],
+      "split_policy": "dense-v1"
     },
     "25": {
       "phrases": [
