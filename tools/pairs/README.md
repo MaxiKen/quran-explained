@@ -1,21 +1,21 @@
 # Phrase-by-phrase explanations
 
-See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation must be 45–85 words. Phrase labels should represent meaningful phrases, clauses, or complete sentences rather than chopped-up word fragments.
+See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation must be 45–85 words. Phrase labels should represent meaningful phrases or clauses rather than chopped-up word fragments. Split distinct meaningful components, such as a statement of praise and its appositional description, even when both form one coherent sentence.
 
 ## Workflow
 
 1. Write explanations directly in `authored/NNN.json`.
-2. Validate the authored material and run the tests:
+2. Validate and regenerate the published data:
 
    ```sh
    python3 tools/pairs/assemble.py --check
-   python3 -m unittest discover -s tools/pairs/tests
+   python3 tools/pairs/assemble.py
    ```
 
-3. When both pass, regenerate published data:
+3. Run the tests against the regenerated data:
 
    ```sh
-   python3 tools/pairs/assemble.py
+   python3 -m unittest discover -s tools/pairs/tests
    ```
 
 Automated checks verify structure, exact translation coverage and order, paragraph formatting, the 45–85-word limit, and that each authored verse has phrase content.
