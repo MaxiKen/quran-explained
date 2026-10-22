@@ -5,7 +5,7 @@
     python3 tools/pairs/assemble.py           # publish all authored chapters
 
 `tools/pairs/authored/NNN.json` contains exact pieces of the reader's own
-English verse translation and one concise paragraph for each piece. This
+English verse translation and one 45–85-word paragraph for each piece. This
 script verifies that the phrases cover the verse in reading order, then
 publishes the data consumed by the app as `data/pairs_NNN.json`.
 """
@@ -75,7 +75,7 @@ def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, s
     else:
         translation = translation.strip()
 
-    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 30, 85)
+    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 45, 85)
     if "\n" in explanation or "\r" in explanation:
         problems.append("%s: explanation must be a single paragraph" % where)
     return {

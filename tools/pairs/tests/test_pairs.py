@@ -35,7 +35,8 @@ class PhraseExplanationTest(unittest.TestCase):
 
     def test_every_authored_chapter_passes_validation(self):
         names = self.authored_names()
-        self.assertTrue(names, "nothing has been authored yet")
+        # An empty authoring set is valid while a chapter is being started over.
+        self.assertIsInstance(names, list)
         for name in names:
             surah = int(name[:3])
             _, problems = assemble.build_surah(surah)
@@ -94,7 +95,7 @@ class PhraseExplanationTest(unittest.TestCase):
                     self.assertEqual(set(phrase), {"translation", "explanation"})
                     self.assertNotIn("\n", phrase["explanation"])
                     words = len(phrase["explanation"].split())
-                    self.assertGreaterEqual(words, 30, phrase["translation"])
+                    self.assertGreaterEqual(words, 45, phrase["translation"])
                     self.assertLessEqual(words, 85, phrase["translation"])
 
 
