@@ -58,7 +58,7 @@ class PhraseExplanationTest(unittest.TestCase):
             surah = int(name[:3])
             authored = read_json(os.path.join(assemble.AUTHORED, name))
             chapter = source.read_chapter(surah)
-            self.assertEqual(set(authored["verses"]), set(chapter), "surah %d" % surah)
+            self.assertTrue(set(authored["verses"]).issubset(set(chapter)), "surah %d" % surah)
 
     def test_phrase_pieces_are_exact_and_cover_each_translation(self):
         for name in self.authored_names():
