@@ -52,12 +52,6 @@ def check_line(value: object, field: str, where: str, problems: list[str], minim
     return text
 
 
-def minimum_phrase_count(translation: str) -> int:
-    """Dense-v1 minimum: one phrase per three translation words, rounded up."""
-    word_count = len(re.findall(r"[^\W_]+(?:[-'’][^\W_]+)*", translation, flags=re.UNICODE))
-    return max(2, (word_count + 2) // 3) if word_count >= 3 else 1
-
-
 def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, str]:
     if not isinstance(phrase, dict):
         problems.append("%s: phrase must be an object" % where)
@@ -95,7 +89,7 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         problems.append("surah %d: authored file has a mismatched surah number" % surah)
 
     split_policy = authored.get("split_policy")
-    if split_policy not in (None, "dense-v1"):
+    if split_policy not in (None, "sense-v1"):
         problems.append("surah %d: unknown split_policy %r" % (surah, split_policy))
 
     chapter = source.read_chapter(surah)
@@ -115,7 +109,7 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
             continue
 
         verse_policy = verse.get("split_policy", split_policy)
-        if verse_policy not in (None, "dense-v1"):
+        if verse_policy not in (None, "sense-v1"):
             problems.append("%s: unknown split_policy %r" % (where_verse, verse_policy))
 
         phrases_data = verse.get("phrases", [])
@@ -144,14 +138,6 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         if LETTER_OR_NUMBER.search(modern[cursor:]):
             problems.append("%s: the phrase parts do not cover the full verse translation" % where_verse)
 
-        if verse_policy == "dense-v1":
-            minimum_phrases = minimum_phrase_count(modern)
-            word_count = len(re.findall(r"[^\W_]+(?:[-'’][^\W_]+)*", modern, flags=re.UNICODE))
-            if len(phrases_data) < minimum_phrases:
-                problems.append(
-                    "%s: dense-v1 requires at least %d meaningful phrases for %d translation words"
-                    % (where_verse, minimum_phrases, word_count)
-                )
         verses[ayah] = {"phrases": phrases}
 
     return {"surah": surah, "verses": verses}, problems

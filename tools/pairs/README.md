@@ -1,6 +1,6 @@
 # Phrase-by-phrase explanations
 
-See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation must be 45–85 words, and phrase labels must be meaningful, consecutive pieces of the reader's English translation.
+See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation must be 45–85 words. Phrase labels should represent meaningful phrases, clauses, or complete sentences rather than chopped-up word fragments.
 
 ## Workflow
 
@@ -18,7 +18,7 @@ See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation mus
    python3 tools/pairs/assemble.py
    ```
 
-Automated checks verify structure, exact translation coverage and order, paragraph formatting, the 45–85-word limit, and phrase density.
+Automated checks verify structure, exact translation coverage and order, paragraph formatting, the 45–85-word limit, and that each authored verse has phrase content.
 
 ## Reading experience
 
@@ -28,17 +28,16 @@ Phrase-by-phrase explanations are authored for the reader and are not excerpts f
 
 ## Source format
 
-`authored/NNN.json` is the hand-written source for one surah. Phrase labels must be exact, consecutive pieces of the reader's `ayah_en` translation, covering every word exactly once and in reading order. Each explanation is one substantive paragraph of 45–85 words.
+`authored/NNN.json` is the hand-written source for one surah. Phrase labels must be exact, consecutive pieces of the reader's `ayah_en` translation, covering every word exactly once and in reading order. Each explanation is one substantive paragraph of 45–85 words. Keep each label as a meaningful thought; one complete expression may be enough for a short verse, while longer verses may use a few coherent units.
 
 ```json
 {
   "surah": 1,
-  "split_policy": "dense-v1",
   "verses": {
     "7": {
       "phrases": [
         {
-          "translation": "the Path of those",
+          "translation": "the Path of those You have blessed",
           "explanation": "A clear, substantive explanation in simple English that gives the phrase's meaning in context. Keep each paragraph between forty-five and eighty-five words, without padding or unnecessary repetition."
         }
       ]
@@ -47,7 +46,7 @@ Phrase-by-phrase explanations are authored for the reader and are not excerpts f
 }
 ```
 
-The example is illustrative; complete authored chapters must include every verse and the required minimum number of meaningful phrases per verse. The `dense-v1` policy is enforced by `assemble.py`.
+The example is illustrative. Complete authored chapters must include every verse. Each phrase should be a meaningful phrase, clause, or sentence. These natural boundaries are authored individually rather than forced to a fixed phrase count.
 
 ## Tools
 
