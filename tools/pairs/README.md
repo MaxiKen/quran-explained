@@ -1,29 +1,34 @@
 # Phrase-by-phrase explanations
 
-The reader offers two separate commentary views in a switch: **Phrase by
-phrase** appears first, followed by **Full commentary**. Only the selected
-view is shown; the full Tafsīr al-Ṭabarī passage is not stacked underneath the
-phrase reading.
+See [`RULES.md`](RULES.md) for the binding authoring rules. Each explanation must be 45–85 words. Phrase labels should represent meaningful phrases or clauses rather than chopped-up word fragments. Split distinct meaningful components, such as a statement of praise and its appositional description, even when both form one coherent sentence.
 
-Phrase by phrase is a concise alternative to the full source commentary. It
-pairs each consecutive piece of a verse's English translation with one clear,
-naturally flowing paragraph of about 30–85 words. The paragraph should
-explain the phrase, not merely restate it. Add a related verse, quotation,
-context, history, or illustration only when it genuinely helps, and weave it
-into the explanation without a type label or formulaic lead-in.
+## Workflow
 
-This layer is authored for the reader and is not an excerpt from or
-replacement for Tafsīr al-Ṭabarī. Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2),
-Āl ʿImrān (Surah 3), An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5),
-Al-Anʿām (Surah 6), Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah
-(Surah 9), Yūnus (Surah 10), Hūd (Surah 11), Yūsuf (Surah 12), Ar-Raʿd
-(Surah 13), Ibrāhīm (Surah 14), Al-Ḥijr (Surah 15), and An-Naḥl (Surah 16)
-have been written in this format; later surahs are not yet authored.
+1. Write explanations directly in `authored/NNN.json`.
+2. Validate and regenerate the published data:
 
-## Source files
+   ```sh
+   python3 tools/pairs/assemble.py --check
+   python3 tools/pairs/assemble.py
+   ```
 
-`authored/NNN.json` is the hand-written source for one surah. Each verse is
-split into consecutive phrases that cover its English translation:
+3. Run the tests against the regenerated data:
+
+   ```sh
+   python3 -m unittest discover -s tools/pairs/tests
+   ```
+
+Automated checks verify structure, exact translation coverage and order, paragraph formatting, the 45–85-word limit, and that each authored verse has phrase content.
+
+## Reading experience
+
+The reader offers two separate commentary views in a switch: **Phrase by phrase** appears first, followed by **Full commentary**. Only the selected view is shown; the full Tafsīr al-Ṭabarī passage is not stacked underneath the phrase reading.
+
+Phrase-by-phrase explanations are authored for the reader and are not excerpts from or replacements for the source commentary. Phrase data is optional per surah; the app displays the phrase view when published data exists.
+
+## Source format
+
+`authored/NNN.json` is the hand-written source for one surah. Phrase labels must be exact, consecutive pieces of the reader's `ayah_en` translation, covering every word exactly once and in reading order. Each explanation is one substantive paragraph of 45–85 words. Keep each label as a meaningful thought; one complete expression may be enough for a short verse, while longer verses may use a few coherent units.
 
 ```json
 {
@@ -33,7 +38,7 @@ split into consecutive phrases that cover its English translation:
       "phrases": [
         {
           "translation": "the Path of those You have blessed",
-          "explanation": "The next words explain what the Straight Path means: the way lived by people who obey Allah. Qur’an 4:69 names the prophets, the truthful, the martyrs, and the righteous among those whom Allah has favored. Their lives make guidance concrete, so the worshipper asks to follow a trustworthy way rather than invent one alone."
+          "explanation": "A clear, substantive explanation in simple English that gives the phrase's meaning in context. Keep each paragraph between forty-five and eighty-five words, without padding or unnecessary repetition."
         }
       ]
     }
@@ -41,26 +46,12 @@ split into consecutive phrases that cover its English translation:
 }
 ```
 
-- `translation` is an exact, consecutive piece of the reader's own `ayah_en`
-  string. Phrase entries stay in reading order and together cover every word.
-- `explanation` is one substantive paragraph in plain, easy English. Keep it
-  short enough to read comfortably, but give each phrase enough context to
-  stand as a real explanation, not a one-line gloss.
+The example is illustrative. Complete authored chapters must include every verse. Each phrase should be a meaningful phrase, clause, or sentence. These natural boundaries are authored individually rather than forced to a fixed phrase count.
 
-The phrases may be split into smaller pieces whenever that makes the meaning
-clearer. Keep each paragraph focused on its phrase, and do not turn the
-alternative reading into a second long commentary.
+## Tools
 
-## Validate and publish
-
-```sh
-python3 tools/pairs/assemble.py --check
-python3 tools/pairs/assemble.py
-python3 tools/pairs/show.py 1 7
-cd tools/pairs && python3 -m unittest discover -s tests
-```
-
-`assemble.py` checks that every phrase is in the verse, that phrases proceed
-from top to bottom without skipping words, and that each explanation is a
-single 30–85-word paragraph. It then publishes the data to
-`data/pairs_NNN.json`, which the app displays in Phrase by phrase mode.
+- `RULES.md`: binding authoring requirements.
+- `assemble.py --check`: validate without writing generated files.
+- `assemble.py`: publish validated authored entries to `data/pairs_NNN.json`.
+- `show.py SURAH [VERSE]`: inspect the authored/published phrase sequence.
+- `tests/`: automated regression tests.

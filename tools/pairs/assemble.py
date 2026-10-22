@@ -5,7 +5,7 @@
     python3 tools/pairs/assemble.py           # publish all authored chapters
 
 `tools/pairs/authored/NNN.json` contains exact pieces of the reader's own
-English verse translation and one concise paragraph for each piece. This
+English verse translation and one 45–85-word paragraph for each piece. This
 script verifies that the phrases cover the verse in reading order, then
 publishes the data consumed by the app as `data/pairs_NNN.json`.
 """
@@ -69,7 +69,7 @@ def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, s
     else:
         translation = translation.strip()
 
-    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 30, 85)
+    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 45, 85)
     if "\n" in explanation or "\r" in explanation:
         problems.append("%s: explanation must be a single paragraph" % where)
     return {
@@ -88,6 +88,10 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
     if authored.get("surah") != surah:
         problems.append("surah %d: authored file has a mismatched surah number" % surah)
 
+    split_policy = authored.get("split_policy")
+    if split_policy not in (None, "sense-v1"):
+        problems.append("surah %d: unknown split_policy %r" % (surah, split_policy))
+
     chapter = source.read_chapter(surah)
     verses: dict[str, dict] = {}
     authored_verses = authored.get("verses", {})
@@ -103,6 +107,10 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         if not isinstance(verse, dict):
             problems.append("%s: verse entry must be an object" % where_verse)
             continue
+
+        verse_policy = verse.get("split_policy", split_policy)
+        if verse_policy not in (None, "sense-v1"):
+            problems.append("%s: unknown split_policy %r" % (where_verse, verse_policy))
 
         phrases_data = verse.get("phrases", [])
         if not isinstance(phrases_data, list) or not phrases_data:
@@ -129,6 +137,7 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
 
         if LETTER_OR_NUMBER.search(modern[cursor:]):
             problems.append("%s: the phrase parts do not cover the full verse translation" % where_verse)
+
         verses[ayah] = {"phrases": phrases}
 
     return {"surah": surah, "verses": verses}, problems
