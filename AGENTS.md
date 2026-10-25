@@ -31,8 +31,8 @@ Phrase explanations are authored by hand in `tools/pairs/authored/NNN.json`
 and published as `data/pairs_NNN.json` by `tools/pairs/assemble.py`. Each
 phrase must be an exact piece of the reader's translation. Phrases stay in
 order and cover all the verse's words. Each explanation is one paragraph of
-30–85 words. `python3 tools/pairs/assemble.py --check` checks phrase order,
-coverage, and paragraph length. Surahs 1 through 16 are published in this
+45–85 words. `python3 tools/pairs/assemble.py --check` checks phrase order,
+coverage, and paragraph length. Surahs 1 through 22 are published in this
 format; later chapters are not yet authored.
 
 The handoff below is for the separate, withdrawn plain-English commentary
