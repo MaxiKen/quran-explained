@@ -119,9 +119,9 @@ An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5), Al-Anʿām (Surah 6),
 Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah (Surah 9), Yūnus
 (Surah 10), Hūd (Surah 11), Yūsuf (Surah 12), Ar-Raʿd (Surah 13),
 Ibrāhīm (Surah 14), Al-Ḥijr (Surah 15), An-Naḥl (Surah 16),
-Al-Isrāʾ (Surah 17), Al-Kahf (Surah 18), Maryam (Surah 19), and Ṭā-Hā
-(Surah 20) have been published in this format; later surahs are not yet
-authored.
+Al-Isrāʾ (Surah 17), Al-Kahf (Surah 18), Maryam (Surah 19), Ṭā-Hā
+(Surah 20), and Al-Anbiyāʾ (Surah 21) have been published in this format;
+later surahs are not yet authored.
 
 ## Plain-English commentary (withdrawn)
 
