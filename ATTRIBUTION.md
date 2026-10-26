@@ -120,7 +120,10 @@ Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah (Surah 9), Yūnus
 (Surah 10), Hūd (Surah 11), Yūsuf (Surah 12), Ar-Raʿd (Surah 13),
 Ibrāhīm (Surah 14), Al-Ḥijr (Surah 15), An-Naḥl (Surah 16),
 Al-Isrāʾ (Surah 17), Al-Kahf (Surah 18), Maryam (Surah 19), Ṭā-Hā
-(Surah 20), Al-Anbiyāʾ (Surah 21), and Al-Ḥajj (Surah 22) have been
+(Surah 20), Al-Anbiyāʾ (Surah 21), Al-Ḥajj (Surah 22),
+Al-Muʾminūn (Surah 23), An-Nūr (Surah 24), Al-Furqān (Surah 25),
+Ash-Shuʿarāʾ (Surah 26), An-Naml (Surah 27), Al-Qaṣaṣ (Surah 28),
+Al-ʿAnkabūt (Surah 29), Ar-Rūm (Surah 30), and Luqmān (Surah 31) have been
 published in this format; later surahs are not yet authored.
 
 ## Plain-English commentary (withdrawn)
