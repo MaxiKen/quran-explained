@@ -125,8 +125,9 @@ Al-Muʾminūn (Surah 23), An-Nūr (Surah 24), Al-Furqān (Surah 25),
 Ash-Shuʿarāʾ (Surah 26), An-Naml (Surah 27), Al-Qaṣaṣ (Surah 28),
 Al-ʿAnkabūt (Surah 29), Ar-Rūm (Surah 30), Luqmān (Surah 31),
 As-Sajdah (Surah 32), Al-Aḥzāb (Surah 33), Sabaʾ (Surah 34), Fāṭir
-(Surah 35), Yā-Sīn (Surah 36), Aṣ-Ṣāffāt (Surah 37), and Ṣād
-(Surah 38) have been published in this format; later surahs are not yet authored.
+(Surah 35), Yā-Sīn (Surah 36), Aṣ-Ṣāffāt (Surah 37), Ṣād
+(Surah 38), and Az-Zumar (Surah 39) have been published in this format;
+later surahs are not yet authored.
 
 ## Plain-English commentary (withdrawn)
 
