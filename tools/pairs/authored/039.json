@@ -1,0 +1,890 @@
+{
+ "surah": 39,
+ "split_policy": "sense-v1",
+ "verses": {
+  "1": {
+   "phrases": [
+    {
+     "translation": "The revelation of this Book is from Allah—the Almighty, All-Wise",
+     "explanation": "The surah opens by stating that the Book's revelation comes from Allah, whose might and wisdom are named together, so the message is traced to its source rather than to the messenger. The opening verses trace the Book to God and call for worship kept pure for Him alone. The surah keeps returning to the claim that worship belongs to God alone."
+    }
+   ]
+  },
+  "2": {
+   "phrases": [
+    {
+     "translation": "Indeed, We have sent down the Book to you ˹O Prophet˺ in truth,",
+     "explanation": "The Book is identified as the Quran, sent down in truth, so the revelation is described as a reality given to the Prophet rather than a composition of his own. The surah begins by joining the revelation to the Creator's power and wisdom. The surah treats patience under rejection as the Prophet's task while God decides the outcome."
+    },
+    {
+     "translation": "so worship Allah ˹alone˺, being sincerely devoted to Him",
+     "explanation": "The command that follows is to worship God alone with undivided devotion, and the reports warn against acts done so that people will praise the doer. The claim that worship belongs to God alone is stated before any objection is answered. Its final praise gathers the arguments of the surah into a single confession."
+    }
+   ]
+  },
+  "3": {
+   "phrases": [
+    {
+     "translation": "Indeed, sincere devotion is due ˹only˺ to Allah.",
+     "explanation": "Pure religion belongs to Allah alone, and the reports explain it as the testimony that there is no god but Him, since worship and obedience cannot be shared with His creation. The chapter treats sincerity as the difference between true worship and idle ritual. Its promises are described as promises God will not break."
+    },
+    {
+     "translation": "As for those who take other lords besides Him, ˹saying,˺ “We worship them only so they may bring us closer to Allah,” surely Allah will judge between all regarding what they differed about.",
+     "explanation": "Those who take protectors besides God say they worship them only to be brought nearer to Him, and the reports preserve variant readings of that statement while Allah reserves judgment over their dispute. The created order is offered as evidence of the One who revealed the Book. The chapter treats the Hereafter as the answer to a life that otherwise looks unfinished."
+    },
+    {
+     "translation": "Allah certainly does not guide whoever persists in lying and disbelief",
+     "explanation": "The verse closes by saying God does not guide one who persists in lying and disbelief, so the refusal to accept guidance is tied to a settled dishonesty. The passage rejects any claim that God has offspring or partners in His rule. The surah treats guidance as a gift from God and straying as a loss to the person."
+    }
+   ]
+  },
+  "4": {
+   "phrases": [
+    {
+     "translation": "Had it been Allah’s Will to have offspring, He could have chosen whatever He willed of His creation.",
+     "explanation": "The statement is hypothetical: having a child does not befit God, and if He had willed it He could have chosen from His creation, since all things already belong to Him. The reports preserve differences over readings and phrases without forcing one view. The surah honours those who fear God and hope in His mercy at the same time."
+    },
+    {
+     "translation": "Glory be to Him! He is Allah—the One, the Supreme",
+     "explanation": "He is declared far above such a claim, the One with no partner in His dominion and the Supreme whose power makes every creature submit. The section moves from the Book's source to the signs of its Author in creation. Its accounts of Paradise and Hell give moral weight to ordinary decisions."
+    }
+   ]
+  },
+  "5": {
+   "phrases": [
+    {
+     "translation": "He created the heavens and the earth for a purpose.",
+     "explanation": "Creation is said to be for a purpose, not in play, so the order of the world points to a wisdom behind it. The question of who deserves worship frames everything that follows in the surah. The chapter values a warning delivered plainly over a claim to special status."
+    },
+    {
+     "translation": "He wraps the night around the day, and wraps the day around the night.",
+     "explanation": "The wrapping of night over day and day over night describes how each covers and succeeds the other, a regular alternation under His control. The opening verses trace the Book to God and call for worship kept pure for Him alone. The surah treats knowledge of the truth as a responsibility, not a privilege."
+    },
+    {
+     "translation": "And He has subjected the sun and the moon, each orbiting for an appointed term. He is truly the Almighty, Most Forgiving",
+     "explanation": "The sun and moon are made to serve, each running for a fixed term, and the verse ends by joining might with forgiveness. The surah begins by joining the revelation to the Creator's power and wisdom. The surah treats the world's provision as a test that most people fail to recognise."
+    }
+   ]
+  },
+  "6": {
+   "phrases": [
+    {
+     "translation": "He created you ˹all˺ from a single soul, then from it He made its mate.",
+     "explanation": "Human beings trace back to one soul, from which its mate was made, so the whole human family shares a single origin. The claim that worship belongs to God alone is stated before any objection is answered. Its contrasts between the two groups are meant to be weighed, not merely admired."
+    },
+    {
+     "translation": "And He produced for you four pairs of cattle.",
+     "explanation": "He brought forth cattle in pairs for people's use, a provision that the reports count as four kinds, male and female. The chapter treats sincerity as the difference between true worship and idle ritual. The chapter treats the record of deeds as evidence no one can dispute."
+    },
+    {
+     "translation": "He creates you in the wombs of your mothers ˹in stages˺, one development after another, in three layers of darkness.",
+     "explanation": "Each person is formed in the womb through successive stages within three darknesses, and the reports differ over whether the phrase refers to those stages or to the earlier creation in Adam's line. The created order is offered as evidence of the One who revealed the Book. Its signs in creation are offered as evidence, not as objects of worship."
+    },
+    {
+     "translation": "That is Allah—your Lord! All authority belongs to Him. There is no god ˹worthy of worship˺ except Him. How can you then be turned away",
+     "explanation": "The verse identifies this Creator as the only Lord and asks how anyone could turn away from worshipping Him alone. The passage rejects any claim that God has offspring or partners in His rule. The text insists that no soul carries another's burden, so each person answers for himself."
+    }
+   ]
+  },
+  "7": {
+   "phrases": [
+    {
+     "translation": "If you disbelieve, then ˹know that˺ Allah is truly not in need of you, nor does He approve of disbelief from His servants.",
+     "explanation": "God has no need of human faith, and He is not pleased that His servants should disbelieve, so rejection harms them rather than diminishing Him. Listening well and following the best of what is heard are presented as signs of reason. The surah calls its readers to use reason when they consider the signs around them."
+    },
+    {
+     "translation": "But if you become grateful ˹through faith˺, He will appreciate that from you.",
+     "explanation": "Gratitude expressed through faith is welcomed by Him, and the reports say He values it from the person who offers it. The section treats patience as the condition for a reward without measure. The chapter shows that power belongs to God even when His servants appear weak."
+    },
+    {
+     "translation": "No soul burdened with sin will bear the burden of another.",
+     "explanation": "No soul carries another's load, so each person answers for what he himself has done. The surah keeps returning to the difference between knowing and not knowing. The text honours obedience that does not wait for a guaranteed outcome. The chapter asks readers to weigh the short enjoyment of denial against its end."
+    },
+    {
+     "translation": "Then to your Lord is your return, and He will inform you of what you used to do. He certainly knows best what is ˹hidden˺ in the heart",
+     "explanation": "Everyone returns to God, who will tell them what they did, since He knows what is concealed in the heart. This section sets the forgetful denier against the worshipper who perseveres through the night. The chapter asks readers to weigh the short enjoyment of denial against its end."
+    }
+   ]
+  },
+  "8": {
+   "phrases": [
+    {
+     "translation": "When one is touched with hardship, they cry out to their Lord, turning to Him ˹alone˺.",
+     "explanation": "In trouble a person calls on his Lord and turns back to Him, and the reports describe that turning as repentance from disbelief and from setting up partners. The chapter warns that relief can erase the memory of the One who gave it. Its language of records, witnesses, and full recompense makes judgment concrete."
+    },
+    {
+     "translation": "But as soon as He showers them with blessings from Him, they ˹totally˺ forget the One they had cried to earlier, and set up equals to Allah to mislead ˹others˺ from His Way.",
+     "explanation": "Once relief comes, the same person forgets the One he called on and sets up rivals to God, using them to lead others away from His path. Sincere devotion is repeated as the Prophet's own command, not only a demand on others. The chapter treats arrogance as the response that turns guidance away."
+    },
+    {
+     "translation": "Say, ˹O Prophet,˺ “Enjoy your disbelief for a little while! You will certainly be one of the inmates of the Fire.”",
+     "explanation": "The command to enjoy disbelief briefly is a warning, since the outcome named for such a person is the Fire. The passage contrasts a brief enjoyment of disbelief with a lasting consequence. The text treats the abuse of trust in idols as a failure to recognise their powerlessness."
+    }
+   ]
+  },
+  "9": {
+   "phrases": [
+    {
+     "translation": "˹Are they better˺ or those who worship ˹their Lord˺ devoutly in the hours of the night, prostrating and standing, fearing the Hereafter and hoping for the mercy of their Lord?",
+     "explanation": "The question contrasts the denier with one who worships through the night, bowing and standing in fear of the Hereafter and hope of mercy, and the reports explain devoutness as recitation in prayer or as obedience. The reports describe the true losers as people who lose both themselves and their families. The chapter contrasts the ease that forgets God with the hardship that calls on Him."
+    },
+    {
+     "translation": "Say, ˹O Prophet,˺ “Are those who know equal to those who do not know?” None will be mindful ˹of this˺ except people of reason",
+     "explanation": "Knowledge and ignorance are declared unequal, and only people of reason take the point, with two readings of the key word both treated as sound. The warning about layers of fire is followed by an invitation to hear good news. Its scenes of judgment reverse the confidence people placed in wealth or allies."
+    }
+   ]
+  },
+  "10": {
+   "phrases": [
+    {
+     "translation": "Say ˹O Prophet, that Allah says˺, “O My servants who believe! Be mindful of your Lord.",
+     "explanation": "The believers are addressed directly as God's servants and told to be mindful of Him, a call that places reverence at the start of the passage. Listening well and following the best of what is heard are presented as signs of reason. The chapter treats the denial of the Hereafter as the root of careless living."
+    },
+    {
+     "translation": "Those who do good in this world will have a good reward. And Allah’s earth is spacious.",
+     "explanation": "Good conduct in this life earns a good reward, and the spaciousness of God's earth is understood as room to move away from a place where faith is hard. The section treats patience as the condition for a reward without measure. The text insists that turning away from a message is a choice with a cost."
+    },
+    {
+     "translation": "Only those who endure patiently will be given their reward without limit.”",
+     "explanation": "The patient are promised a reward without measure, so endurance is singled out as the condition for an unstinted recompense. The surah keeps returning to the difference between knowing and not knowing. The chapter treats sincerity as the measure of whether an act is worship at all."
+    }
+   ]
+  },
+  "11": {
+   "phrases": [
+    {
+     "translation": "Say, “I am commanded to worship Allah, being sincerely devoted to Him ˹alone˺",
+     "explanation": "The Prophet states that his command is to worship God with devotion kept pure for Him, a claim about his own duty rather than a demand he invented. This section sets the forgetful denier against the worshipper who perseveres through the night. Its questions are designed to be answered by the listeners themselves."
+    }
+   ]
+  },
+  "12": {
+   "phrases": [
+    {
+     "translation": "And I am commanded to be the first of those who submit ˹to His Will˺.”",
+     "explanation": "He is also told to be the first to submit, so the messenger stands at the front of the obedience he calls others to. The chapter warns that relief can erase the memory of the One who gave it. The chapter shows that past wrongdoing need not be the last word for those who turn back."
+    }
+   ]
+  },
+  "13": {
+   "phrases": [
+    {
+     "translation": "Say, “I truly fear—if I were to disobey my Lord—the torment of a tremendous Day.”",
+     "explanation": "He fears the punishment of the Day of Resurrection should he disobey, a day whose terror is described as mighty, so even the messenger lives under that warning. Sincere devotion is repeated as the Prophet's own command, not only a demand on others. The text treats the keys of provision and mercy as held by One hand alone."
+    }
+   ]
+  },
+  "14": {
+   "phrases": [
+    {
+     "translation": "Say, “It is ˹only˺ Allah that I worship, being sincere in my devotion to Him",
+     "explanation": "His worship is directed to God alone with undivided sincerity, which sets the boundary between his practice and the idols of his people. The passage contrasts a brief enjoyment of disbelief with a lasting consequence. The surah asks its readers to consider what they would offer if judgment came."
+    }
+   ]
+  },
+  "15": {
+   "phrases": [
+    {
+     "translation": "Worship then whatever ˹gods˺ you want instead of Him.”",
+     "explanation": "The command to worship whatever they wish is a warning rather than approval, since it leaves them to the consequences of their choice. The reports describe the true losers as people who lose both themselves and their families. Its parables turn ordinary experience into a lesson about dependence on God."
+    },
+    {
+     "translation": "Say, “The ˹true˺ losers are those who will lose themselves and their families on Judgment Day. That is indeed the clearest loss.”",
+     "explanation": "The real losers are described as those who lose themselves and their families on Judgment Day, people the reports say were created for the Fire and barred from the Garden. The warning about layers of fire is followed by an invitation to hear good news. The chapter shows that idols cannot remove harm or withhold mercy, since both belong to God."
+    }
+   ]
+  },
+  "16": {
+   "phrases": [
+    {
+     "translation": "They will have layers of fire above and below them.",
+     "explanation": "Canopies of fire are above them and beneath them, which the reports compare to a bed of Hell with coverings, so the punishment surrounds them. Listening well and following the best of what is heard are presented as signs of reason. The text treats every messenger's warning as part of one continuous message."
+    },
+    {
+     "translation": "That is what Allah warns His servants with. So fear Me, O My servants",
+     "explanation": "God says He warns His servants with this very description, and the response He asks for is that they fear Him. The section treats patience as the condition for a reward without measure. The surah keeps joining belief in one God with the way a person lives and acts."
+    }
+   ]
+  },
+  "17": {
+   "phrases": [
+    {
+     "translation": "And those who shun the worship of false gods, turning to Allah ˹alone˺, will have good news.",
+     "explanation": "Those who avoid false objects of worship and turn back to God are promised good news, a reward set against the threat to the deniers. The surah keeps returning to the difference between knowing and not knowing. Its descriptions of the next life are meant to shape choices in this one."
+    },
+    {
+     "translation": "So give good news to My servants ˹O Prophet˺—",
+     "explanation": "The Prophet is told to deliver that good news to God's servants, so the warning is paired with a message of hope. This section sets the forgetful denier against the worshipper who perseveres through the night. The chapter presents mercy as wider than the sinner's despair but not as permission to delay."
+    }
+   ]
+  },
+  "18": {
+   "phrases": [
+    {
+     "translation": "those who listen to what is said and follow the best of it.",
+     "explanation": "The people meant are those who listen to what is said and follow the best of it, and one report says the verse praised people who affirmed God's oneness before the Prophet was sent. The chapter warns that relief can erase the memory of the One who gave it. The text gives space to doubt and excuse so that both can be answered."
+    },
+    {
+     "translation": "These are the ones ˹rightly˺ guided by Allah, and these are ˹truly˺ the people of reason",
+     "explanation": "Such people are described as guided by God and as people of reason, so right judgment is shown in choosing the better word. Sincere devotion is repeated as the Prophet's own command, not only a demand on others. The surah treats the whole world as the field of one divine judgment."
+    }
+   ]
+  },
+  "19": {
+   "phrases": [
+    {
+     "translation": "What about those against whom the decree of torment has been justified?",
+     "explanation": "The decree of torment has become unavoidable for some because of their disbelief, a sentence already settled in God's prior knowledge. The parables in this section are meant to move people from heedlessness to caution. The reports differ over details while leaving the main teaching unchanged."
+    },
+    {
+     "translation": "Is it you ˹O Prophet˺ who will then save those bound for the Fire",
+     "explanation": "The question asks whether the Prophet could rescue people in the Fire, and the implied answer is that he cannot, since the matter rests with God. The reports explain that the Quran came in Arabic so its first hearers could understand it. The chapter treats gratitude as the proper response to relief after hardship."
+    }
+   ]
+  },
+  "20": {
+   "phrases": [
+    {
+     "translation": "But those mindful of their Lord will have ˹elevated˺ mansions, built one above the other, under which rivers flow.",
+     "explanation": "Those who fear their Lord are promised lofty dwellings built one above another, with rivers running beneath their trees, a picture of honour and ease. The section connects guidance and straying to God's will rather than to human boasting. Its warnings are addressed to people who already had access to revelation."
+    },
+    {
+     "translation": "˹That is˺ the promise of Allah. ˹And˺ Allah never fails in ˹His˺ promise",
+     "explanation": "The dwellings are called God's promise, and the verse insists He will not break it but will fulfil it completely. The promise of lofty dwellings is set against the threat of torment from an unexpected direction. The surah treats hardship as a call that people too quickly forget."
+    }
+   ]
+  },
+  "21": {
+   "phrases": [
+    {
+     "translation": "Do you not see that Allah sends down rain from the sky—channelling it through streams in the earth—then produces with it crops of various colours,",
+     "explanation": "Rain is sent down and channelled through the earth to bring out crops of different colours, a sign of provision drawn from what appears to be dead ground. The reports preserve variant readings of key words while keeping their meanings sound. Its final scenes show justice and mercy meeting in the same decree."
+    },
+    {
+     "translation": "then they dry up and you see them wither, and then He reduces them to chaff?",
+     "explanation": "The same crops then dry, wither, and are reduced to chaff, so the life they had was temporary and dependent. The passage treats the world's abundance as something that can vanish like chaff. The Quran is presented as a consistent message whose lessons are repeated for a reason."
+    },
+    {
+     "translation": "Surely in this is a reminder for people of reason",
+     "explanation": "The cycle of growth and decay is called a reminder for those who use their reason, since worldly abundance does not last. The chapter asks whether a person with an opened heart can be like one whose heart is hardened. The text treats the whole created order as belonging to the One who will judge it."
+    }
+   ]
+  },
+  "22": {
+   "phrases": [
+    {
+     "translation": "Can ˹the misguided be like˺ those whose hearts Allah has opened to Islam, so they are enlightened by their Lord?",
+     "explanation": "The question contrasts a person whose heart God has opened to Islam, so that he walks in light from his Lord, with one who is not like that. The growth and withering of crops is offered as a sign of how quickly worldly life passes. The surah honours those who listen carefully and choose the better word."
+    },
+    {
+     "translation": "So woe to those whose hearts are hardened at the remembrance of Allah! It is they who are clearly astray",
+     "explanation": "Woe is pronounced on hearts hardened against God's remembrance, and they are said to be in plain error, a state the reports describe as turning away from the truth. The Quran is described as a consistent message with lessons repeated for those who reflect. Its warnings are never separated from the possibility of forgiveness."
+    }
+   ]
+  },
+  "23": {
+   "phrases": [
+    {
+     "translation": "˹It is˺ Allah ˹Who˺ has sent down the best message—a Book of perfect consistency and repeated lessons—which causes the skin ˹and hearts˺ of those who fear their Lord to tremble, then their skin and hearts soften at the mention of ˹the mercy of˺ Allah.",
+     "explanation": "The Quran is called the best message, consistent and full of repeated lessons, and one report says it was sent down when the Companions asked the Prophet for a discourse, those who fear God tremble at it and then soften at His mercy. The parables in this section are meant to move people from heedlessness to caution. The text leaves room for uncertainty where the reports differ, rather than hiding it."
+    },
+    {
+     "translation": "That is the guidance of Allah, through which He guides whoever He wills.",
+     "explanation": "This Scripture is called God's guidance, given to whom He wills, so guidance is treated as a gift rather than an achievement. The reports explain that the Quran came in Arabic so its first hearers could understand it. The text treats the messenger's role as delivering the Book, not controlling the response."
+    },
+    {
+     "translation": "But whoever Allah leaves to stray will be left with no guide",
+     "explanation": "The verse adds that whoever God leaves to stray has no guide, a limit repeated elsewhere in the surah. The section connects guidance and straying to God's will rather than to human boasting. The surah presents the Prophet as the first to submit to what he was commanded."
+    }
+   ]
+  },
+  "24": {
+   "phrases": [
+    {
+     "translation": "Are those who will only have their ˹bare˺ faces to shield themselves from the awful torment on Judgment Day ˹better than those in Paradise˺?",
+     "explanation": "The question compares a person who can shield himself only with his face from the torment with the people of Paradise, and the reports describe being thrown face-first into Hell or dragged there in fetters. The promise of lofty dwellings is set against the threat of torment from an unexpected direction. Its closing words return to the praise of the Creator and Judge of all."
+    },
+    {
+     "translation": "It will ˹then˺ be said to the wrongdoers: “Reap what you sowed!”",
+     "explanation": "The wrongdoers are told to reap what they sowed, meaning they receive the outcome of their own deeds. The reports preserve variant readings of key words while keeping their meanings sound. Its warnings are joined to an open invitation to turn back before judgment. The reports name variant readings as equally sound rather than choosing one."
+    }
+   ]
+  },
+  "25": {
+   "phrases": [
+    {
+     "translation": "Those before them ˹also˺ rejected ˹the truth˺, then the torment came upon them from where they least expected",
+     "explanation": "Earlier peoples denied their messengers, and punishment reached them from a direction they did not perceive, so they had no warning of its approach. The passage treats the world's abundance as something that can vanish like chaff. The reports name variant readings as equally sound rather than choosing one."
+    }
+   ]
+  },
+  "26": {
+   "phrases": [
+    {
+     "translation": "So Allah made them taste humiliation in this worldly life,",
+     "explanation": "God let those nations taste disgrace in this life, hastening a consequence before the next, since He granted them no respite after their rebellion. The chapter asks whether a person with an opened heart can be like one whose heart is hardened. The surah treats death and sleep as signs of the same power that will raise the dead."
+    },
+    {
+     "translation": "but far worse is the punishment of the Hereafter, if only they knew",
+     "explanation": "The punishment of the Hereafter is said to be greater than what they suffered in the world, though they did not understand that. The growth and withering of crops is offered as a sign of how quickly worldly life passes. Its scenes of arrival show both groups receiving what they prepared for."
+    }
+   ]
+  },
+  "27": {
+   "phrases": [
+    {
+     "translation": "We have certainly set forth every ˹kind of˺ lesson for people in this Quran, so perhaps they will be mindful",
+     "explanation": "The Quran is said to contain every kind of parable or lesson so that people may take heed and hold back from the disbelief they persist in. The Quran is described as a consistent message with lessons repeated for those who reflect. The surah keeps returning to the claim that worship belongs to God alone."
+    }
+   ]
+  },
+  "28": {
+   "phrases": [
+    {
+     "translation": "˹It is˺ a Quran ˹revealed˺ in Arabic without any crookedness, so perhaps they will be conscious ˹of Allah˺",
+     "explanation": "It is described as an Arabic Quran without crookedness, meaning without obscurity, given in their own language so they could understand its warnings and guard themselves. The parables in this section are meant to move people from heedlessness to caution. The surah treats patience under rejection as the Prophet's task while God decides the outcome."
+    }
+   ]
+  },
+  "29": {
+   "phrases": [
+    {
+     "translation": "Allah sets forth the parable of a slave owned by several quarrelsome masters, and a slave owned by only one master.",
+     "explanation": "The parable contrasts a slave shared by quarrelling owners, described as men at odds and bad in character, with a slave belonging entirely to one master. The reports explain that the Quran came in Arabic so its first hearers could understand it. Its final praise gathers the arguments of the surah into a single confession."
+    },
+    {
+     "translation": "Are they equal in condition?",
+     "explanation": "The question expects the answer that they are not equal, since divided service cannot match single-hearted devotion. The section connects guidance and straying to God's will rather than to human boasting. Its promises are described as promises God will not break. The chapter treats the Hereafter as the answer to a life that otherwise looks unfinished."
+    },
+    {
+     "translation": "Praise be to Allah! In fact, most of them do not know",
+     "explanation": "Praise is given to God, and the single owner is explained as the believer who makes worship pure for Him alone, though most people do not grasp the comparison. The promise of lofty dwellings is set against the threat of torment from an unexpected direction. The chapter treats the Hereafter as the answer to a life that otherwise looks unfinished."
+    }
+   ]
+  },
+  "30": {
+   "phrases": [
+    {
+     "translation": "You ˹O Prophet˺ will certainly die, and they will die too",
+     "explanation": "The Prophet is told that he will die and his deniers will die as well, a report that says this will happen after a short time and applies to believers and unbelievers alike. Trust in God is presented as the proper response to idols that can neither harm nor help. The surah treats guidance as a gift from God and straying as a loss to the person."
+    }
+   ]
+  },
+  "31": {
+   "phrases": [
+    {
+     "translation": "Then on the Day of Judgment you will ˹all settle your˺ dispute before your Lord",
+     "explanation": "On the Day of Resurrection people will dispute before their Lord, and the reports differ over whether that means the argument between believers and unbelievers or among the people of Islam, in either case God takes the due of the wronged from the wrongdoer. The passage keeps the messenger's duty limited to delivering what he was given. The surah honours those who fear God and hope in His mercy at the same time."
+    }
+   ]
+  },
+  "32": {
+   "phrases": [
+    {
+     "translation": "Who then does more wrong than those who lie about Allah and reject the truth after it has reached them?",
+     "explanation": "No one is said to do greater wrong than the person who lies about God and rejects the truth once it has come to him. The chapter reminds the Prophet that both he and his opponents will die. Its accounts of Paradise and Hell give moral weight to ordinary decisions."
+    },
+    {
+     "translation": "Is Hell not a ˹fitting˺ home for the disbelievers",
+     "explanation": "Hell is named as the fitting home for such disbelievers, a question that expects agreement. The dispute before God is described as one in which the wronged receive their due. The chapter values a warning delivered plainly over a claim to special status. The surah treats knowledge of the truth as a responsibility, not a privilege."
+    }
+   ]
+  },
+  "33": {
+   "phrases": [
+    {
+     "translation": "And the one who has brought the truth and those who embrace it—it is they who are the righteous",
+     "explanation": "The one who brought the truth and those who accepted it are called the righteous, and the reports differ over whether the acceptor is the Prophet himself or his close companion. The surah treats truth brought by the messenger as the standard by which people are judged. The surah treats knowledge of the truth as a responsibility, not a privilege."
+    }
+   ]
+  },
+  "34": {
+   "phrases": [
+    {
+     "translation": "They will have whatever they desire with their Lord.",
+     "explanation": "They will have with their Lord whatever their souls desire and their eyes delight in, a reward beyond what they could have asked. The question whether God is sufficient for His servant answers the threats made against the Prophet. The surah treats the world's provision as a test that most people fail to recognise."
+    },
+    {
+     "translation": "That is the reward of the good-doers",
+     "explanation": "That abundance is described as the reward of those who do good, so it answers a life of obedience rather than a claim of status. The reports preserve two readings of that question, one plural and one singular. Its contrasts between the two groups are meant to be weighed, not merely admired."
+    }
+   ]
+  },
+  "35": {
+   "phrases": [
+    {
+     "translation": "As such, Allah will absolve them of ˹even˺ the worst of what they did",
+     "explanation": "God will remove from them even the worst of their deeds, so past failures do not stand as the final word about them. The section tells the Prophet to persist in his way and leave the outcome to God. The chapter treats the record of deeds as evidence no one can dispute."
+    },
+    {
+     "translation": "and reward them according to the best of what they used to do",
+     "explanation": "They are rewarded according to the best of what they did in the world, the deeds He is pleased with, rather than according to their worst. The Book is described as sent for all people, with guidance or straying returning to the chooser. Its signs in creation are offered as evidence, not as objects of worship."
+    }
+   ]
+  },
+  "36": {
+   "phrases": [
+    {
+     "translation": "Is Allah not sufficient for His servant?",
+     "explanation": "The question asks whether God is not enough for His servant, and the reports preserve two readings, one plural referring to the Prophet and earlier messengers and one singular referring to him alone. Trust in God is presented as the proper response to idols that can neither harm nor help. The text insists that no soul carries another's burden, so each person answers for himself."
+    },
+    {
+     "translation": "Yet they threaten you with other ˹powerless˺ gods besides Him!",
+     "explanation": "His people threatened him with gods other than God, powers the verse treats as unable to harm anyone. The passage keeps the messenger's duty limited to delivering what he was given. The surah calls its readers to use reason when they consider the signs around them."
+    },
+    {
+     "translation": "Whoever Allah leaves to stray will be left with no guide",
+     "explanation": "The warning is repeated that whoever God leaves astray has no guide, so the threat against the Prophet does not change who holds authority. The chapter reminds the Prophet that both he and his opponents will die. The chapter shows that power belongs to God even when His servants appear weak."
+    }
+   ]
+  },
+  "37": {
+   "phrases": [
+    {
+     "translation": "And whoever Allah guides, none can lead astray. Is Allah not Almighty, capable of punishment",
+     "explanation": "Whoever God guides cannot be turned away from the truth by anyone, and His might is described as power to punish those who deny His oneness. The dispute before God is described as one in which the wronged receive their due. The text honours obedience that does not wait for a guaranteed outcome."
+    }
+   ]
+  },
+  "38": {
+   "phrases": [
+    {
+     "translation": "If you ask them ˹O Prophet˺ who created the heavens and the earth, they will certainly say, “Allah!”",
+     "explanation": "Asked who created the heavens and the earth, the pagans answer God, which the verse uses as a starting point against their idols. The surah treats truth brought by the messenger as the standard by which people are judged. The chapter asks readers to weigh the short enjoyment of denial against its end."
+    },
+    {
+     "translation": "Ask ˹them˺, “Consider then whatever ˹idols˺ you invoke besides Allah: if it was Allah’s Will to harm me, could they undo that harm? Or if He willed ˹some˺ mercy for me, could they withhold His mercy?”",
+     "explanation": "They are asked whether their idols could remove a harm God wills or hold back a mercy He wills, and the reports note different readings of the phrases about removing harm and withholding mercy. The question whether God is sufficient for His servant answers the threats made against the Prophet. Its language of records, witnesses, and full recompense makes judgment concrete."
+    },
+    {
+     "translation": "Say, “Allah is sufficient for me. In Him ˹alone˺ the faithful put their trust.”",
+     "explanation": "The Prophet answers that God is enough for him and that those who trust place their trust in Him, so reliance belongs to the Creator alone. The reports preserve two readings of that question, one plural and one singular. The chapter treats arrogance as the response that turns guidance away."
+    }
+   ]
+  },
+  "39": {
+   "phrases": [
+    {
+     "translation": "Say, ˹O Prophet,˺ “O my people! Persist in your ways, for I ˹too˺ will persist in mine. You will soon come to know",
+     "explanation": "The Prophet tells his people to keep to their way while he keeps to his, leaving the outcome to be known in time rather than forcing a verdict now. The section tells the Prophet to persist in his way and leave the outcome to God. The text treats the abuse of trust in idols as a failure to recognise their powerlessness."
+    }
+   ]
+  },
+  "40": {
+   "phrases": [
+    {
+     "translation": "who will be visited by a humiliating torment ˹in this life˺ and overwhelmed by an everlasting punishment ˹in the next˺.”",
+     "explanation": "What they will learn is who receives a humiliating punishment in this life and an everlasting one in the next, a distinction between a temporary disgrace and a lasting penalty. The Book is described as sent for all people, with guidance or straying returning to the chooser. The chapter contrasts the ease that forgets God with the hardship that calls on Him."
+    }
+   ]
+  },
+  "41": {
+   "phrases": [
+    {
+     "translation": "Surely We have revealed to you the Book ˹O Prophet˺ with the truth for humanity.",
+     "explanation": "The Book is revealed to the Prophet with the truth for all people, so it is a message addressed to humanity rather than to one group. Trust in God is presented as the proper response to idols that can neither harm nor help. Its scenes of judgment reverse the confidence people placed in wealth or allies."
+    },
+    {
+     "translation": "So whoever chooses to be guided, it is for their own good.",
+     "explanation": "Whoever accepts guidance gains for himself, since the benefit of belief returns to the person who chooses it. The passage keeps the messenger's duty limited to delivering what he was given. The chapter treats the denial of the Hereafter as the root of careless living. The text insists that turning away from a message is a choice with a cost."
+    },
+    {
+     "translation": "And whoever chooses to stray, it is only to their own loss.",
+     "explanation": "Whoever strays harms only himself, so the loss is not shared with the messenger or with anyone else. The chapter reminds the Prophet that both he and his opponents will die. The text insists that turning away from a message is a choice with a cost."
+    },
+    {
+     "translation": "You are not a keeper over them",
+     "explanation": "The Prophet is told he is not a guardian or keeper over them, a report that explains the word as meaning no keeper, so their choices are their own. The dispute before God is described as one in which the wronged receive their due. The chapter treats sincerity as the measure of whether an act is worship at all."
+    }
+   ]
+  },
+  "42": {
+   "phrases": [
+    {
+     "translation": "˹It is˺ Allah ˹Who˺ calls back the souls ˹of people˺ upon their death as well as ˹the souls˺ of the living during their sleep.",
+     "explanation": "God takes the souls at death and also takes those of the living during sleep, which the reports describe as a meeting of the souls of the dead and the living. The idols are described as having neither authority nor understanding, so they cannot intercede. Its questions are designed to be answered by the listeners themselves."
+    },
+    {
+     "translation": "Then He keeps those for whom He has ordained death, and releases the others until ˹their˺ appointed time.",
+     "explanation": "He retains the souls whose death He has decreed and sends the others back to their bodies until a fixed term, so sleep is treated as a lesser death. The surah notes that the deniers recoil when God alone is named but rejoice at other names. The chapter shows that past wrongdoing need not be the last word for those who turn back."
+    },
+    {
+     "translation": "Surely in this are signs for people who reflect",
+     "explanation": "This power over death and life is offered as a sign that divine authority belongs to God alone, for people who reflect. Even twice the world's wealth would not ransom the wrongdoers from what they will see. The text treats the keys of provision and mercy as held by One hand alone."
+    }
+   ]
+  },
+  "43": {
+   "phrases": [
+    {
+     "translation": "Or have they taken others besides Allah as intercessors?",
+     "explanation": "The question challenges taking intercessors besides God, and the reports identify those intercessors with the idols they worshipped. Prosperity is called a test rather than a reward for a person's own cleverness. The surah asks its readers to consider what they would offer if judgment came."
+    },
+    {
+     "translation": "Say, ˹O Prophet,˺ “˹Would they do so,˺ even though those ˹idols˺ have neither authority nor intelligence?”",
+     "explanation": "They are asked to do this even though the idols possess no authority or understanding and no share in intercession, so the appeal has no basis. The reports stress that provision, hardship, and trial lie in God's hand alone. Its parables turn ordinary experience into a lesson about dependence on God."
+    }
+   ]
+  },
+  "44": {
+   "phrases": [
+    {
+     "translation": "Say, “All intercession belongs to Allah ˹alone˺.",
+     "explanation": "All intercession is said to belong to God, and a report adds that no one can intercede with Him except by His permission. The section treats earlier peoples as examples whose gains did not protect them. The chapter shows that idols cannot remove harm or withhold mercy, since both belong to God."
+    },
+    {
+     "translation": "To Him belongs the kingdom of the heavens and the earth. Then to Him you will ˹all˺ be returned.”",
+     "explanation": "His is the dominion of the heavens and the earth, and everyone returns to Him, so the Owner of all authority is the one to worship. The cycle of calling on God in trouble and forgetting Him in ease is repeated here. The text treats every messenger's warning as part of one continuous message."
+    }
+   ]
+  },
+  "45": {
+   "phrases": [
+    {
+     "translation": "Yet when Allah alone is mentioned, the hearts of those who disbelieve in the Hereafter are filled with disgust.",
+     "explanation": "When God alone is named, the hearts of those who deny the Hereafter recoil, and the reports say they shrink from professing His oneness. The chapter argues that all intercession belongs to the Owner of the heavens and earth. The surah keeps joining belief in one God with the way a person lives and acts."
+    },
+    {
+     "translation": "But as soon as those ˹gods˺ other than Him are mentioned, they are filled with joy",
+     "explanation": "When the gods they invoke alongside Him are mentioned, they rejoice, and the reports connect that joy with claims about the intercession of those beings. The taking of souls at death and in sleep is offered as proof of God's power over life. Its descriptions of the next life are meant to shape choices in this one."
+    }
+   ]
+  },
+  "46": {
+   "phrases": [
+    {
+     "translation": "Say, ˹O Prophet,˺ “O Allah—Originator of the heavens and the earth, Knower of the seen and unseen!",
+     "explanation": "The Prophet is told to call on God as the Originator of the heavens and earth and the Knower of what is hidden and what is seen. The idols are described as having neither authority nor understanding, so they cannot intercede. The chapter presents mercy as wider than the sinner's despair but not as permission to delay."
+    },
+    {
+     "translation": "You will judge between Your servants regarding their differences.”",
+     "explanation": "He is asked to judge between His servants in what they differ about, so disputes about truth are referred to His knowledge rather than to human claims. The surah notes that the deniers recoil when God alone is named but rejoice at other names. The text gives space to doubt and excuse so that both can be answered."
+    }
+   ]
+  },
+  "47": {
+   "phrases": [
+    {
+     "translation": "Even if the wrongdoers were to possess everything in the world twice over, they would certainly offer it to ransom themselves from the horrible punishment on Judgment Day,",
+     "explanation": "Even with the whole world twice over, the wrongdoers would offer it all to ransom themselves from the punishment, and the reports say they would do so to escape what God has prepared. Even twice the world's wealth would not ransom the wrongdoers from what they will see. The surah treats the whole world as the field of one divine judgment."
+    },
+    {
+     "translation": "for they will see from Allah what they had never expected",
+     "explanation": "They will see from God what they had not supposed, His decree and the punishment prepared for them, so the shock is part of the penalty. Prosperity is called a test rather than a reward for a person's own cleverness. The reports differ over details while leaving the main teaching unchanged."
+    }
+   ]
+  },
+  "48": {
+   "phrases": [
+    {
+     "translation": "And the evil ˹consequences˺ of their deeds will unfold before them, and they will be overwhelmed by what they used to ridicule",
+     "explanation": "The evil results of their deeds become visible to them, and the very thing they mocked closes around them, so their ridicule returns on themselves. The reports stress that provision, hardship, and trial lie in God's hand alone. The chapter treats gratitude as the proper response to relief after hardship."
+    }
+   ]
+  },
+  "49": {
+   "phrases": [
+    {
+     "translation": "When one is touched with hardship, they cry out to Us ˹alone˺.",
+     "explanation": "In hardship a person cries out to God alone, calling on Him for help against the trouble that has come. The section treats earlier peoples as examples whose gains did not protect them. Its warnings are addressed to people who already had access to revelation. The surah treats hardship as a call that people too quickly forget."
+    },
+    {
+     "translation": "Then when We shower Our blessings upon them, they say, “I have been granted all this only because of ˹my˺ knowledge.”",
+     "explanation": "When relief comes, the same person says it was given because of his own knowledge, and the reports explain that as a claim that God knew him worthy or gave him an honourable rank. The cycle of calling on God in trouble and forgetting Him in ease is repeated here. The surah treats hardship as a call that people too quickly forget."
+    },
+    {
+     "translation": "Not at all! It is ˹no more than˺ a test. But most of them do not know",
+     "explanation": "The verse rejects that claim and calls the gift a test, since prosperity is a trial that most people fail to recognise. The chapter argues that all intercession belongs to the Owner of the heavens and earth. Its final scenes show justice and mercy meeting in the same decree."
+    }
+   ]
+  },
+  "50": {
+   "phrases": [
+    {
+     "translation": "The same had already been said by those ˹destroyed˺ before them, but their ˹worldly˺ gains were of no benefit to them",
+     "explanation": "Earlier destroyed peoples had said the same thing, and what they had earned did not help them when judgment came. The taking of souls at death and in sleep is offered as proof of God's power over life. The Quran is presented as a consistent message whose lessons are repeated for a reason."
+    }
+   ]
+  },
+  "51": {
+   "phrases": [
+    {
+     "translation": "So the evil ˹consequences˺ of their deeds overtook them.",
+     "explanation": "The evil consequences of their deeds overtook those earlier peoples, so their prosperity did not protect them. The idols are described as having neither authority nor understanding, so they cannot intercede. The text treats the whole created order as belonging to the One who will judge it."
+    },
+    {
+     "translation": "And the wrongdoers among these ˹pagans˺ will be overtaken by the evil ˹consequences˺ of their deeds. And they will have no escape",
+     "explanation": "The wrongdoers among the present pagans will be overtaken in the same way, and the verse says they will find no escape. The surah notes that the deniers recoil when God alone is named but rejoice at other names. The surah honours those who listen carefully and choose the better word."
+    }
+   ]
+  },
+  "52": {
+   "phrases": [
+    {
+     "translation": "Do they not know that Allah gives abundant or limited provisions to whoever He wills?",
+     "explanation": "God is said to expand or restrict provision for whom He wills, and the reports stress that prosperity, hardship, and trial lie in His hand. Even twice the world's wealth would not ransom the wrongdoers from what they will see. Its warnings are never separated from the possibility of forgiveness."
+    },
+    {
+     "translation": "Surely in this are signs for people who believe",
+     "explanation": "That control is called a sign for those who believe, since hope and fear should be directed to Him rather than to idols. Prosperity is called a test rather than a reward for a person's own cleverness. The text leaves room for uncertainty where the reports differ, rather than hiding it."
+    }
+   ]
+  },
+  "53": {
+   "phrases": [
+    {
+     "translation": "Say, ˹O Prophet, that Allah says,˺ “O My servants who have exceeded the limits against their souls!",
+     "explanation": "Those who have wronged themselves are addressed as God's servants, and the reports differ over whether that means polytheists who thought their sins barred them from faith or believers who feared their lapses. The invitation not to despair is addressed to those who have wronged their own souls. The text treats the messenger's role as delivering the Book, not controlling the response."
+    },
+    {
+     "translation": "Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins.",
+     "explanation": "They are told not to despair of His mercy, since He forgives sins, and one reading says He forgives them for whomever He wills. The reports differ over who is meant, but they agree that the door is not closed. The surah presents the Prophet as the first to submit to what he was commanded."
+    },
+    {
+     "translation": "He is indeed the All-Forgiving, Most Merciful",
+     "explanation": "The verse ends by naming Him forgiving and merciful, so the invitation to repent is grounded in His character. The command to turn back is urgent because punishment can arrive without warning. Its closing words return to the praise of the Creator and Judge of all."
+    }
+   ]
+  },
+  "54": {
+   "phrases": [
+    {
+     "translation": "Turn to your Lord ˹in repentance˺, and ˹fully˺ submit to Him before the punishment reaches you, ˹for˺ then you will not be helped",
+     "explanation": "People are told to turn back to their Lord and submit before punishment arrives, since after that no help will come, and the reports describe this as answering His call to oneness and pure worship. Following the best of what was revealed means obeying commands and avoiding prohibitions. Its warnings are joined to an open invitation to turn back before judgment."
+    }
+   ]
+  },
+  "55": {
+   "phrases": [
+    {
+     "translation": "Follow ˹the Quran,˺ the best of what has been revealed to you from your Lord,",
+     "explanation": "They are told to follow the best of what was revealed, and the reports explain that the whole Quran is good while the best of it is obeying His commands and avoiding His prohibitions. The regret described here is over neglect of duty and over mocking the truth. The reports name variant readings as equally sound rather than choosing one."
+    },
+    {
+     "translation": "before the punishment takes you by surprise while you are unaware",
+     "explanation": "The command is urgent because punishment may come suddenly when they do not expect it. The wishes for guidance or a second chance are answered by the fact that revelation already came. The surah treats death and sleep as signs of the same power that will raise the dead."
+    }
+   ]
+  },
+  "56": {
+   "phrases": [
+    {
+     "translation": "so that no ˹sinful˺ soul will say ˹on Judgment Day˺,",
+     "explanation": "The purpose of the warning is that no soul should have to speak these words of regret on Judgment Day. The section treats arrogance as the response that closes the door the mercy opened. Its scenes of arrival show both groups receiving what they prepared for."
+    },
+    {
+     "translation": "‘Woe to me for neglecting ˹my duties towards˺ Allah, while ridiculing ˹the truth˺.’",
+     "explanation": "The regret is over neglecting what was owed to God and over mocking the truth, and the reports explain the cry as one of remorse. The chapter opens its call to repentance by naming God forgiving and merciful. The surah keeps returning to the claim that worship belongs to God alone."
+    }
+   ]
+  },
+  "57": {
+   "phrases": [
+    {
+     "translation": "Or ˹a soul will˺ say, ‘If only Allah had guided me, I would have certainly been one of the righteous.’",
+     "explanation": "Another regret blames a lack of guidance, claiming that with it the speaker would have been righteous, though the surrounding verses answer that claim. The invitation not to despair is addressed to those who have wronged their own souls. The surah treats patience under rejection as the Prophet's task while God decides the outcome."
+    }
+   ]
+  },
+  "58": {
+   "phrases": [
+    {
+     "translation": "Or say, upon seeing the torment, ‘If only I had a second chance, I would have been one of the good-doers.’",
+     "explanation": "Seeing the punishment, a soul wishes for a return to worldly life so it could do good, a report that explains the wish as a second chance that will not be given. The reports differ over who is meant, but they agree that the door is not closed. Its final praise gathers the arguments of the surah into a single confession."
+    }
+   ]
+  },
+  "59": {
+   "phrases": [
+    {
+     "translation": "Not at all! My revelations had already come to you, but you rejected them, acted arrogantly, and were one of the disbelievers.”",
+     "explanation": "The answer rejects those excuses, since the revelations had already reached the person, who denied them, behaved arrogantly, and belonged to the disbelievers. The command to turn back is urgent because punishment can arrive without warning. Its promises are described as promises God will not break."
+    }
+   ]
+  },
+  "60": {
+   "phrases": [
+    {
+     "translation": "On the Day of Judgment you will see those who lied about Allah with their faces gloomy.",
+     "explanation": "On the Day of Resurrection the faces of those who lied about God will be darkened, and the reports discuss the grammar of that description while keeping its meaning of disgrace. The passage joins God's sole power over creation to His sole right to judge it. The chapter treats the Hereafter as the answer to a life that otherwise looks unfinished."
+    },
+    {
+     "translation": "Is Hell not a ˹fitting˺ home for the arrogant",
+     "explanation": "Hell is named as the fitting home for the arrogant, picking up the same charge made earlier against those who rejected the truth. The chapter turns to the Day when faces are darkened and every deed is repaid. The surah treats guidance as a gift from God and straying as a loss to the person."
+    }
+   ]
+  },
+  "61": {
+   "phrases": [
+    {
+     "translation": "And Allah will deliver those who were mindful ˹of Him˺ to their place of ˹ultimate˺ triumph.",
+     "explanation": "God will deliver those who were mindful of Him, by fulfilling His commands and avoiding disobedience, to their place of success. God is described as Creator, Guardian, and holder of the keys of the heavens and earth. The surah honours those who fear God and hope in His mercy at the same time."
+    },
+    {
+     "translation": "No evil will touch them, nor will they grieve",
+     "explanation": "No evil will touch them and they will not grieve, so their safety is described as complete rather than partial. The warning that associating partners voids deeds was revealed to earlier messengers too. Its accounts of Paradise and Hell give moral weight to ordinary decisions. The chapter values a warning delivered plainly over a claim to special status."
+    }
+   ]
+  },
+  "62": {
+   "phrases": [
+    {
+     "translation": "Allah is the Creator of all things, and He is the Maintainer of everything",
+     "explanation": "God is called the Creator of everything and its Guardian, the reports say a Keeper who preserves and protects, unlike the idols that cannot create. The trumpet blast and the rising that follows are described with differences over the exceptions. The chapter values a warning delivered plainly over a claim to special status."
+    }
+   ]
+  },
+  "63": {
+   "phrases": [
+    {
+     "translation": "To Him belong the keys ˹of the treasuries˺ of the heavens and the earth.",
+     "explanation": "The keys of the treasuries of the heavens and earth belong to Him, and the reports say He opens them for whom He wills and locks them against whom He wills. The earth shining with its Lord is placed at the moment He comes to judge. The surah treats knowledge of the truth as a responsibility, not a privilege."
+    },
+    {
+     "translation": "As for those who rejected the signs of Allah, it is they who will be the ˹true˺ losers",
+     "explanation": "Those who reject His signs are called the real losers, since the One who holds the keys is the One they refused. The record of deeds and the witnesses make the judgment one based on evidence. The surah treats the world's provision as a test that most people fail to recognise."
+    }
+   ]
+  },
+  "64": {
+   "phrases": [
+    {
+     "translation": "Say, ˹O Prophet,˺ “Are you urging me to worship ˹anyone˺ other than Allah, O ignorant ones?”",
+     "explanation": "The Prophet asks whether they are commanding him to worship someone other than God, calling them ignorant because the demand contradicts the revelation he received. The section insists that no soul is wronged when each is paid in full. Its contrasts between the two groups are meant to be weighed, not merely admired."
+    }
+   ]
+  },
+  "65": {
+   "phrases": [
+    {
+     "translation": "It has already been revealed to you—and to those ˹prophets˺ before you—",
+     "explanation": "The warning was revealed to the Prophet and to the messengers before him, so the rule about associating partners with God is part of one continuous message. The reports describe the arrogance of those who refused to acknowledge God as One. The chapter treats the record of deeds as evidence no one can dispute."
+    },
+    {
+     "translation": "that if you associate others ˹with Allah˺, your deeds will certainly be void and you will truly be one of the losers",
+     "explanation": "If he associated partners with God, his deeds would be made fruitless and he would gain no reward for them, becoming one of the losers. The passage joins God's sole power over creation to His sole right to judge it. Its signs in creation are offered as evidence, not as objects of worship."
+    }
+   ]
+  },
+  "66": {
+   "phrases": [
+    {
+     "translation": "Rather, worship Allah ˹alone˺ and be one of the grateful",
+     "explanation": "Instead of that, he is told to worship God alone and be among the thankful, so gratitude is the proper answer to the warning. The chapter turns to the Day when faces are darkened and every deed is repaid. The text insists that no soul carries another's burden, so each person answers for himself."
+    }
+   ]
+  },
+  "67": {
+   "phrases": [
+    {
+     "translation": "They have not shown Allah His proper reverence—when on the Day of Judgment the ˹whole˺ earth will be in His Grip, and the heavens will be rolled up in His Right Hand.",
+     "explanation": "They have not given God the greatness due to Him, and the reports say that means they did not believe in His power over all things, on that Day the earth lies in His grip and the heavens are rolled in His hand. God is described as Creator, Guardian, and holder of the keys of the heavens and earth. The surah calls its readers to use reason when they consider the signs around them."
+    },
+    {
+     "translation": "Glorified and Exalted is He above what they associate ˹with Him˺",
+     "explanation": "He is declared far above the partners they associate with Him, since the power described here belongs to no created being. The warning that associating partners voids deeds was revealed to earlier messengers too. The chapter shows that power belongs to God even when His servants appear weak."
+    }
+   ]
+  },
+  "68": {
+   "phrases": [
+    {
+     "translation": "The Trumpet will be blown and all those in the heavens and all those on the earth will fall dead, except those Allah wills ˹to spare˺.",
+     "explanation": "The trumpet is a horn blown by an angel, and at its blast all in heaven and earth fall dead except whom God spares, the reports differ over who the exceptions are, naming martyrs or certain angels. The trumpet blast and the rising that follows are described with differences over the exceptions. The text honours obedience that does not wait for a guaranteed outcome."
+    },
+    {
+     "translation": "Then it will be blown again and they will rise up at once, looking on ˹in anticipation˺",
+     "explanation": "A second blast raises them to their feet looking on, and a report says a small bone survives from which the body is composed again. The earth shining with its Lord is placed at the moment He comes to judge. The chapter asks readers to weigh the short enjoyment of denial against its end."
+    }
+   ]
+  },
+  "69": {
+   "phrases": [
+    {
+     "translation": "The earth will shine with the light of its Lord,",
+     "explanation": "The earth shines with the light of its Lord, which the reports place at the moment the Merciful manifests Himself to judge His creatures. The record of deeds and the witnesses make the judgment one based on evidence. Its language of records, witnesses, and full recompense makes judgment concrete."
+    },
+    {
+     "translation": "the record ˹of deeds˺ will be laid ˹open˺, the prophets and the witnesses will be brought forward—",
+     "explanation": "The record of deeds is laid open and the prophets and witnesses are brought forward, so the judgment rests on evidence. The section insists that no soul is wronged when each is paid in full. The chapter treats arrogance as the response that turns guidance away."
+    },
+    {
+     "translation": "and judgment will be passed on all with fairness. None will be wronged",
+     "explanation": "Judgment is passed with truth and no one is wronged, because the One who knows every deed is the One who decides. The reports describe the arrogance of those who refused to acknowledge God as One. The text treats the abuse of trust in idols as a failure to recognise their powerlessness."
+    }
+   ]
+  },
+  "70": {
+   "phrases": [
+    {
+     "translation": "Every soul will be paid in full for its deeds, for Allah knows best what they have done",
+     "explanation": "Each soul receives the full recompense of its deeds, good for good and evil for evil, since nothing they did in the world is hidden from God. The passage joins God's sole power over creation to His sole right to judge it. The chapter contrasts the ease that forgets God with the hardship that calls on Him."
+    }
+   ]
+  },
+  "71": {
+   "phrases": [
+    {
+     "translation": "Those who disbelieved will be driven to Hell in ˹successive˺ groups.",
+     "explanation": "The disbelievers are driven to Hell in groups, one party after another, and the reports describe the Fire as having seven gates. The surah ends with praise, returning the whole argument to the Lord of all worlds. Its scenes of judgment reverse the confidence people placed in wealth or allies."
+    },
+    {
+     "translation": "When they arrive there, its gates will be opened and its keepers will ask them: “Did messengers not come to you from among yourselves, reciting to you the revelations of your Lord and warning you of the coming of this Day of yours?”",
+     "explanation": "Its keepers ask whether messengers came from among them reciting revelation and warning of this Day, and the reports say the messengers did warn them of meeting it. The surah closes by showing the two groups arriving at their different homes. The chapter treats the denial of the Hereafter as the root of careless living."
+    },
+    {
+     "translation": "The disbelievers will cry, “Yes ˹indeed˺! But the decree of torment has come to pass against the disbelievers.”",
+     "explanation": "They admit the warning came but say the sentence of punishment has fallen on them because of their disbelief, so their answer concedes the case against them. The keepers of Hell and the keepers of Paradise both greet those who arrive. The text insists that turning away from a message is a choice with a cost."
+    }
+   ]
+  },
+  "72": {
+   "phrases": [
+    {
+     "translation": "It will be said to them, “Enter the gates of Hell, to stay there forever.”",
+     "explanation": "The keepers tell them to enter the gates of Hell and remain there, and a report says the seven gates correspond to their places within it. The disbelievers admit that messengers warned them but that the sentence had fallen due. The chapter treats sincerity as the measure of whether an act is worship at all."
+    },
+    {
+     "translation": "What an evil home for the arrogant",
+     "explanation": "Hell is called an evil home for the arrogant, and the reports explain arrogance as refusing in this life to acknowledge God as One. The righteous praise God for fulfilling the promise made to them in the world. Its questions are designed to be answered by the listeners themselves."
+    }
+   ]
+  },
+  "73": {
+   "phrases": [
+    {
+     "translation": "And those who were mindful of their Lord will be led to Paradise in ˹successive˺ groups.",
+     "explanation": "Those who feared their Lord are brought to the Garden in groups, and a report says they come as an honoured escort on choice mounts rather than being driven with force. The reports describe the people of Paradise as an honoured escort on choice mounts. The chapter shows that past wrongdoing need not be the last word for those who turn back."
+    },
+    {
+     "translation": "When they arrive at its ˹already˺ open gates, its keepers will say, “Peace be upon you! You have done well, so come in, to stay forever.”",
+     "explanation": "Its gates are already open, and the keepers greet them with peace, tell them they have done well, and invite them in to remain. The land of Paradise is described as an inheritance for those who obeyed. The text treats the keys of provision and mercy as held by One hand alone."
+    }
+   ]
+  },
+  "74": {
+   "phrases": [
+    {
+     "translation": "The righteous will say, “Praise be to Allah Who has fulfilled His promise to us, and made us inherit the ˹everlasting˺ land to settle in Paradise wherever we please.”",
+     "explanation": "The righteous praise God for fulfilling His promise and giving them the land of Paradise as an inheritance, which the reports say would have belonged to the people of the Fire had they obeyed. The final scene shows angels surrounding the Throne and glorifying their Lord. The surah asks its readers to consider what they would offer if judgment came."
+    },
+    {
+     "translation": "How excellent is the reward of those who work ˹righteousness˺",
+     "explanation": "The verse closes by calling it an excellent reward for those who do good, so the inheritance is the outcome of their deeds. The surah ends with praise, returning the whole argument to the Lord of all worlds. Its parables turn ordinary experience into a lesson about dependence on God."
+    }
+   ]
+  },
+  "75": {
+   "phrases": [
+    {
+     "translation": "You will see the angels all around the Throne, glorifying the praises of their Lord, for judgment will have been passed on all with fairness.",
+     "explanation": "The angels are seen surrounding the Throne, explained in the reports as a seat, glorifying their Lord after judgment has been passed with truth. The surah closes by showing the two groups arriving at their different homes. The chapter shows that idols cannot remove harm or withhold mercy, since both belong to God."
+    },
+    {
+     "translation": "And it will be said, “Praise be to Allah—Lord of all worlds!”",
+     "explanation": "The surah ends with praise to God, Lord of all worlds, so the final word belongs to the One who created and judged everything. The keepers of Hell and the keepers of Paradise both greet those who arrive. The text treats every messenger's warning as part of one continuous message."
+    }
+   ]
+  }
+ }
+}
