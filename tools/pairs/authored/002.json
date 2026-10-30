@@ -2081,109 +2081,96 @@
    "phrases": [
     {
      "translation": "And ˹remember˺ when Abraham raised the foundation of the House with Ishmael,",
-     "explanation": "Abraham and Ishmael work together to raise the foundation of the House. The verse emphasizes shared service and obedience in establishing a place of worship. Their action is remembered as a foundational part of the House’s sacred history. Their shared labor becomes part of the House’s sacred history."
+     "ar": "وَإِذۡ يَرۡفَعُ إِبۡرَٰهِـۧمُ ٱلۡقَوَاعِدَ مِنَ ٱلۡبَيۡتِ وَإِسۡمَٰعِيلُ",
+     "explanation": "The raising described is explained first. By Allah's words about Abraham raising the foundations of the House while Ishmael was with him, the sense given is that Abraham was in the act of raising them, and the verse places the two of them together at that work.\n\nThe word for the foundations is then explained. It is the plural of a singular form, and a single foundation of the House is called by that singular, so the plural names the parts on which the building stands. The grammatical discussion of the word and of its singular is given at length.\n\nA disagreement about those foundations follows. The exegetes differed concerning whether Abraham and Ishmael raised the foundations of a house that was already there or laid them anew. A group said that they were the foundations of a house that Adam, the father of mankind, had built on Allah's command, so on that reading the two of them were rebuilding rather than beginning. The reports naming who said that are given."
     },
     {
-     "translation": " ˹both praying,˺ “Our Lord! Accept ˹this˺ from us.",
-     "explanation": "While building, they ask God to accept their work. Their prayer shows humility: even a major act of devotion is offered with hope for divine acceptance, not self-congratulation. The verse presents sincerity as essential to worship. They seek acceptance rather than praise from people. Their prayer accompanies the work as an act of devotion."
+     "translation": "˹both praying,˺ “Our Lord! Accept ˹this˺ from us.",
+     "ar": "رَبَّنَا تَقَبَّلۡ مِنَّآۖ",
+     "explanation": "The supplication is explained first in its setting. By our Lord, accept from us, the sense is that Abraham said this while raising the foundations of the House, so the words come during the work rather than after it, and the explanation of that placement is given.\n\nThe question of who spoke them is then discussed. The verse according to one view has Abraham saying them, and the explanation of the verse on that view is set out. Others said that the one who said this was rather Ishmael, and the explanation of the verse according to that view is given in turn, since on this reading the supplication belongs to the younger of the two.\n\nA further disagreement is recorded about the work itself. The exegetes differed concerning who raised the foundations, and this after they had agreed that Abraham was among those who did, so what is disputed is who else was involved and in what way. The reports of the various answers are given with the chains naming who held each."
     },
     {
-     "translation": " You are indeed the All-Hearing, All-Knowing",
-     "explanation": "They affirm that God hears their prayer and knows their intentions. The names express confidence that their request and sincerity are fully known. Their supplication rests on God’s perfect awareness, not on the public visibility of their work. Their words and intentions are fully known to God."
+     "translation": "You are indeed the All-Hearing, All-Knowing",
+     "ar": "إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
+     "explanation": "The two names that close the supplication are then explained. By You are the All Hearing, the All Knowing, the sense given is that Allah hears the supplication the two of them have just made and knows what stands behind it, so the closing words answer the request for acceptance by naming the two attributes that acceptance depends on. The explanation of the words is given at length."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "128": {
    "phrases": [
     {
      "translation": "Our Lord! Make us both ˹fully˺ submit to You",
-     "explanation": "Abraham and Ishmael ask to be wholly devoted and obedient to God. Even as they serve in building the House, they ask for continued submission rather than relying on past good deeds. Their prayer models humility and the need for steadfastness. They ask for continued obedience rather than relying on past deeds."
+     "ar": "رَبَّنَا وَٱجۡعَلۡنَا مُسۡلِمَيۡنِ لَكَ",
+     "explanation": "The next request is explained as continuing the same report. This too is a report from Allah concerning Abraham and Ishmael, that they both raised the foundations while asking, so the supplication in this verse is joined to the one before it.\n\nA note is added on the wording of what follows. It has been mentioned that in the recitation of Ibn Masud the clause about the rites is read in a particular shape, and that reading is recorded because it bears on how the request later in the verse is understood."
     },
     {
-     "translation": " and from our descendants a nation that will submit to you.",
-     "explanation": "They ask that their descendants also form a community devoted to God. The prayer expresses hope for future generations, while recognizing that faithful submission must be lived by each generation. Ancestry alone does not guarantee righteousness. Each generation must live out the devotion they request."
+     "translation": "and from our descendants a nation that will submit to you.",
+     "ar": "وَمِن ذُرِّيَّتِنَآ أُمَّةٗ مُّسۡلِمَةٗ لَّكَ",
+     "explanation": "The request concerning their offspring is then explained. By the words and from our offspring a community submitting to You, the sense is that the two of them asked for a group from among their descendants who submit to Allah.\n\nIt has been said that by this they meant the Arabs, and the report naming who said so is given. That statement is then answered, since its contrary is indicated by the outward meaning of the Book.\n\nThe word for community is explained as well. In this place it means a group of people, and another use of the same word in the Quran is cited as a witness for that sense."
     },
     {
-     "translation": " Show us our rituals,",
-     "explanation": "They ask God to teach them the practices of worship. The phrase recognizes that proper devotion depends on guidance, not simply human invention. Their request concerns how to worship in ways pleasing to God. They seek divine instruction even in worship practices. They do not assume they know worship without guidance."
-    },
-    {
-     "translation": " and turn to us in grace.",
-     "explanation": "They ask God to accept them with mercy and forgiveness. The phrase reflects awareness that even devoted worshippers depend on divine grace. It combines hope for acceptance with humility about human imperfection. Their request acknowledges dependence on forgiveness and mercy. They recognize their need for divine forgiveness."
-    },
-    {
-     "translation": " You are truly the Accepter of Repentance, Most Merciful",
-     "explanation": "These attributes ground their hope that God will accept their return and show mercy. The prayer connects worship with the possibility of repentance and forgiveness. It presents God as compassionate toward those who sincerely seek Him. These attributes give them confidence to ask for acceptance."
+     "translation": "Show us our rituals, and turn to us in grace. You are truly the Accepter of Repentance, Most Merciful",
+     "ar": "وَأَرِنَا مَنَاسِكَنَا وَتُبۡ عَلَيۡنَآۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+     "explanation": "The request about the rites is discussed first in the recitation. The reciters differ over the word, and some recited it with a vowel that makes it a command addressed to Allah, show us our rites.\n\nThe proponents of that reading then differed among themselves over what the rites are. Some took them in one way, and others among those who read this recitation said that the rites are the places of slaughter, so on their reading the request is to be shown where the animals are to be slaughtered.\n\nOthers read the word differently again, with the vowel left out, and they claimed that its meaning is teach us, so on that reading the request concerns instruction rather than sight.\n\nThe verb itself is then explained. By the word for showing, the sense is direct me to it and make known to me its place, and it does not mean seeing with the eye, which is what settles the difference between the readings. The meaning is one and the same on either shape of the word, and the grammatical account of how the letters are dropped in one reading and kept in the other is given at length."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "129": {
    "phrases": [
     {
-     "translation": "Our Lord! Raise from among them a messenger",
-     "explanation": "The prayer asks for a messenger to arise among Abraham and Ishmael’s descendants. The request shows concern that future generations receive guidance. It also links the sacred history of the House with the continuing mission of revelation. The prayer asks that their descendants receive ongoing guidance."
+     "translation": "Our Lord! Raise from among them a messenger who will recite to them Your revelations,",
+     "ar": "رَبَّنَا وَٱبۡعَثۡ فِيهِمۡ رَسُولٗا مِّنۡهُمۡ يَتۡلُواْ عَلَيۡهِمۡ ءَايَٰتِكَ",
+     "explanation": "The request for a messenger is explained first, and a group of the people of interpretation concurred with what has been said concerning it, with the reports naming them given.\n\nThe reciting named in the request is then explained. By who recites to them Your signs, the sense is that he reads them out to those he is sent to, so the messenger's first work is described as carrying the signs to people rather than explaining them."
     },
     {
-     "translation": " who will recite to them Your revelations,",
-     "explanation": "The messenger will recite God’s revelations to the people. This makes divine guidance accessible through a clear message. Recitation is part of teaching and remembrance, helping the community hear and understand what God has revealed. The messenger communicates the message entrusted by God. Hearing the message is the start of its instruction."
+     "translation": "teach them the Book and wisdom,",
+     "ar": "وَيُعَلِّمُهُمُ ٱلۡكِتَٰبَ",
+     "explanation": "The book named is explained first. By the book, Allah means the Quran, and why the Quran is called a book was explained earlier, so the point is referred to rather than argued again.\n\nThe wisdom joined to it is then discussed. The people of interpretation differed concerning the meaning of the wisdom that Allah mentions here. Some of them said that it is knowledge of the religion and deep understanding in it, and the report naming who said that is given."
     },
     {
-     "translation": " teach them the Book and wisdom,",
-     "explanation": "The messenger will teach scripture and wisdom, helping people understand and apply the revelation. The phrase joins knowledge with sound judgment. It suggests that guidance involves both learning the text and gaining insight into how to live by it. Instruction joins scripture with understanding and sound judgment."
-    },
-    {
-     "translation": " and purify them.",
-     "explanation": "The messenger’s mission includes moral and spiritual purification. Teaching is not only transfer of information but also transformation of conduct and character. The phrase completes the description of a guidance that shapes the whole community. The goal includes moral growth, not information alone. The teaching should improve their character and actions."
-    },
-    {
-     "translation": " Indeed, You ˹alone˺ are the Almighty, All-Wise.”",
-     "explanation": "The prayer concludes by affirming God’s power and wisdom. He can fulfill the request in the way best suited to His purpose. The names reinforce trust that divine guidance is both effective and wise. The prayer trusts God’s power and wisdom to fulfill it. Their request rests on God’s ability to grant it."
+     "translation": "and purify them. Indeed, You ˹alone˺ are the Almighty, All-Wise.”",
+     "ar": "وَٱلۡحِكۡمَةَ وَيُزَكِّيهِمۡۖ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
+     "explanation": "The view preferred about the wisdom is then stated. The correct view of the statement, in our opinion, is that it is knowledge of the ordinances Allah has laid down, and the reasoning for that reading is given, since it explains why wisdom is named separately from the book even though both are taught by the same messenger.\n\nThe interpretation of the whole verse is then put together. Our Lord, raise up among them a messenger from themselves who recites to them Your signs and teaches them the book and the wisdom and purifies them.\n\nThe purifying named last is explained from what was shown earlier, that its meaning is cleansing, and the discussion of what the messenger cleanses them from is given."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "130": {
    "phrases": [
     {
-     "translation": "And who would reject the faith of Abraham except a fool!",
-     "explanation": "The verse presents Abraham’s faith as a clear path and asks who would turn away from it without sound reason. The rhetorical question criticizes rejection of sincere submission to God. It does not make Abraham’s community an ethnic entitlement, but highlights his devotion. Abraham’s example is one of sincere submission to God."
+     "translation": "And who would reject the faith of Abraham except a fool! We certainly chose him in this life,",
+     "ar": "وَمَن يَرۡغَبُ عَن مِّلَّةِ إِبۡرَٰهِـۧمَ إِلَّا مَن سَفِهَ نَفۡسَهُۥۚ",
+     "explanation": "The question at the head of the verse is explained first. Who turns away from the religion of Abraham, and the discourse on the interpretation of the saying is given at length, since the question is not asked for information but to rule the turning away out.\n\nThe exception that follows is then explained. Except him who makes a fool of himself, and the discourse on that saying is given in turn, since it names the only person of whom the turning away can be said.\n\nA point of grammar is added about the form of the sentence. The word for himself stands in the accusative according to the meaning of specification, and the reason for that shape is explained, with the grammatical discussion given at length."
     },
     {
-     "translation": " We certainly chose him in this life,",
-     "explanation": "God chose Abraham for a special role in worldly life. His selection is associated with faithfulness and service, not arbitrary status. The verse recalls his honor as an example for those who follow the path of submission. His honor followed his faithful response to divine commands."
-    },
-    {
-     "translation": " and in the Hereafter he will surely be among the righteous",
-     "explanation": "Abraham’s standing continues in the Hereafter, where he will be among the righteous. The verse presents his worldly faithfulness and final outcome as connected. It encourages readers to follow his devotion and trust in God’s lasting reward. The promise links his worldly devotion with lasting reward."
+     "translation": "and in the Hereafter he will surely be among the righteous",
+     "ar": "وَلَقَدِ ٱصۡطَفَيۡنَٰهُ فِي ٱلدُّنۡيَاۖ وَإِنَّهُۥ فِي ٱلۡأٓخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ",
+     "explanation": "The choosing named first is then explained. We chose him in this world, and the discourse on the interpretation of that saying is given at length, including a grammatical account of the form of the word used for choosing and of what it carries.\n\nThe second half of the verse is explained as well. In the hereafter he is among the righteous, and the discourse on that is given in turn, so the verse joins what Allah did for Abraham in this world to the standing he has in the next, and the two are stated together as one description of him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "131": {
    "phrases": [
     {
-     "translation": "When his Lord ordered him, “Submit ˹to My Will˺,”",
-     "explanation": "God commands Abraham to submit to His will. The instruction captures the central response of faith: accepting God’s direction rather than setting oneself above it. The verse presents submission as a willing devotion grounded in trust in the Lord. The command frames Abraham’s response as a choice to obey God."
-    },
-    {
-     "translation": " he responded, “I submit to the Lord of all worlds.”",
-     "explanation": "Abraham answers with complete submission to the Lord of all creation. His response makes his faith explicit and models obedience without reservation. The phrase identifies God as universal Lord and shows why Abraham is held up as an example for later generations. His answer expresses loyalty to God over any worldly authority."
+     "translation": "When his Lord ordered him, “Submit ˹to My Will˺,” he responded, “I submit to the Lord of all worlds.”",
+     "ar": "إِذۡ قَالَ لَهُۥ رَبُّهُۥٓ أَسۡلِمۡۖ قَالَ أَسۡلَمۡتُ لِرَبِّ ٱلۡعَٰلَمِينَ",
+     "explanation": "The command is explained first. When his Lord said to him, submit, and the statement concerning the explanation of those words is given, including the grammar of the form used for the command.\n\nThe answer is then explained. He said, I have submitted to the Lord of the worlds, so the response names the one submitted to and covers everything other than Him, and the account of what that submission consists of is given with it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "132": {
    "phrases": [
     {
-     "translation": "This was the advice of Abraham—as well as Jacob—to his children,",
-     "explanation": "Abraham and Jacob pass their faith on to their children as essential counsel. The verse presents religious commitment as a responsibility shared across generations. It does not make faith automatic through ancestry, but shows parents urging their children to remain devoted to God. Their counsel joins the faith of two generations of prophets."
-    },
-    {
-     "translation": " ˹saying˺, “Indeed, Allah has chosen for you this faith;",
-     "explanation": "The fathers describe faith as a path chosen by God for them. Their words express gratitude for guidance and the importance of holding to it. The phrase frames faith as a gift and responsibility, not merely a family label. They treat guidance as a gift that deserves gratitude."
-    },
-    {
-     "translation": " so do not die except in ˹a state of full˺ submission.”",
-     "explanation": "The advice is to remain submitted to God throughout life, so that death finds them faithful. It is not a command to choose death, but an exhortation to persevere in devotion. The verse makes continuity of faith the concern passed from parent to child. The command is to remain faithful throughout one’s lifetime."
+     "translation": "This was the advice of Abraham—as well as Jacob—to his children, ˹saying˺, “Indeed, Allah has chosen for you this faith; so do not die except in ˹a state of full˺ submission.”",
+     "ar": "وَوَصَّىٰ بِهَآ إِبۡرَٰهِـۧمُ بَنِيهِ وَيَعۡقُوبُ يَٰبَنِيَّ إِنَّ ٱللَّهَ ٱصۡطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسۡلِمُونَ",
+     "explanation": "The enjoining named at the head of the verse is explained first. By his words that he enjoined this, the sense is that he enjoined this word upon those addressed, and by his words that Abraham enjoined it upon his sons, the sense is that he made it incumbent on them, so what is passed on is described as an obligation.\n\nA point of grammar is then given about the wording. The word that would normally introduce the speech is omitted here, and the reason is that disclosing with the tongue is in meaning a form of speech, so the sentence treats it accordingly, and the discussion of that omission is set out.\n\nThe words enjoined are then explained. By Allah has chosen the religion for you, the sense given is set out at length, since the choosing is described as done for them.\n\nA question is raised about the command that follows. Do death and life belong to the children of Adam in such a way that one of them could be forbidden to die except in a given state, and the question is answered, so the command is explained as concerning the state a person is to be in whenever death reaches him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "133": {
    "phrases": [
