@@ -3266,61 +3266,51 @@
    "phrases": [
     {
      "translation": "And remember Allah during ˹these˺ appointed days.",
-     "explanation": "Pilgrims are instructed to remember God during the designated days following the main rites. Remembrance keeps the journey centered on worship rather than logistics or social display. The instruction also gives these days a spiritual purpose within the shared pilgrimage.  Regular remembrance helps keep the days spiritually meaningful."
+     "ar": "وَٱذۡكُرُواْ ٱللَّهَ فِيٓ أَيَّامٖ مَّعۡدُودَٰتٖۚ فَمَن",
+     "explanation": "The days are explained first. Remember Allah by professing His oneness and by proclaiming His greatness during a counted number of days, and these are the days of casting the pebbles, for He commanded His servants on those days to perform the proclamation of the greatness after the prayers and at the casting, with each pebble of the pebbles with which one pelts one of the pillars.\n\nA question is then raised. When the prophet said concerning the days of Mina that they are days of eating and drinking and the remembrance of Allah, he did not inform his community that these are the appointed days which Allah mentions in His Book, so what then do you deny in the possibility that the prophet intended by the remembrance of Allah the well-known days."
     },
     {
-     "translation": "Whoever departs swiftly on the second day is not sinful, neither are those who stay behind ˹till the third—seeking additional reward˺,",
-     "explanation": "Pilgrims may leave after the second day or remain until the third, and neither choice is sinful. The verse accommodates different schedules and does not treat one permitted option as moral failure. Those who stay may seek additional reward, while both choices remain within the prescribed rites."
-    },
-    {
-     "translation": "so long as they are mindful ˹of their Lord˺.",
-     "explanation": "The condition for either choice is mindfulness of God. The outward schedule is flexible, but devotion and awareness must remain. This connects the pilgrimage’s practical arrangements with the larger goal of living consciously within divine guidance.  Mindfulness is the shared condition behind both permitted schedules."
+     "translation": "Whoever departs swiftly on the second day is not sinful, neither are those who stay behind ˹till the third—seeking additional reward˺, so long as they are mindful ˹of their Lord˺.",
+     "ar": "تَعَجَّلَ فِي يَوۡمَيۡنِ فَلَآ إِثۡمَ عَلَيۡهِ وَمَن تَأَخَّرَ فَلَآ إِثۡمَ عَلَيۡهِۖ لِمَنِ ٱتَّقَىٰۗ وَٱتَّقُواْ",
+     "explanation": "The sentence is explained first. Whoever hastens in two days, there is no sin upon him, and whoever delays, there is no sin upon him, for whoever fears.\n\nThe exegetes differed concerning its meaning. Some of them said that whoever hastens in two of the days of tashriq and departs on the second day has no sin upon him in his departing, and whoever delays his departure until the third day has no sin upon him in his delaying. Others said that the meaning is that there is no objection upon him in his hastening his departure, if he is careful not to kill game until the third day has passed, and whoever delays until the third day and does not depart earlier, there is no objection upon him. Others said that the sense is that he is forgiven, if he is careful not to strike anything in his pilgrimage that Allah has forbidden him.\n\nThe meaning preferred is then given at length. Similar narrations indicate that whoever performs the pilgrimage and accomplishes it according to its limits as Allah has commanded him comes out of his sins, for there lay in the words of the messenger that which clarifies that the meaning of the sentence is that he comes out of his sins, that his sins have been taken away from him and his offenses forgiven him. And the objection is removed from the agent only with respect to something whose omission rested upon him, so that it is permitted to him to do it, or with respect to something whose doing rested upon him, so that it is permitted to him to omit it. As for that whose doing rests upon the agent, there is no sense in removing the objection from him if he does it, while his duty is precisely the doing of it.\n\nAnd since the pilgrim can be in no other case than that his duty is departure on the second day, or that his duty is remaining until the third day, it follows that if his duty on the second day is remaining until the third, then the second clause has no meaning.\n\nThe narration of the messenger explicitly declares that he, by accomplishing his pilgrimage as he was commanded, comes out of his sins as on the day his mother bore him, and therein lies a clear indication of the incorrectness of the view that the meaning is that there is no sin upon him from the moment of completing the pilgrimage until the following year.\n\nThe answer to that is then given. What governs it is the meaning of the sentence, for in it lies the meaning that the sins have been taken away and the offenses remitted, so the mention of the remission of sins was omitted because the indication of the sentence sufficed.\n\nA grammatical point is then added. Some of the grammarians of Basra have claimed that it is as though He thereby informed of something, and so said, for whoever fears, that is to say, this is for whoever fears. And another possibility is then given, namely that neither of the two groups is to brand the other as sinful."
     },
     {
      "translation": "And be mindful of Allah, and know that to Him you will ˹all˺ be gathered",
-     "explanation": "Believers are again told to remain mindful, remembering that everyone will ultimately be gathered before God. The pilgrimage ends with a reminder of final accountability. Awareness of that return should shape conduct during the rites and throughout life.  The reminder places pilgrimage within the wider horizon of judgment."
+     "ar": "ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّكُمۡ إِلَيۡهِ تُحۡشَرُونَ",
+     "explanation": "The closing words are then explained. And fear Allah, O believers, in that which He has imposed upon you of obligations, fear Him against neglecting and failing in them, and in that which He has forbidden you in your pilgrimage and your rites, and in that with which He has charged you in your consecration, that you should fall short in accomplishing and carrying it out. And know that to Him you will be gathered, for He will requite you according to your deeds, and repay every soul among you in full for what it has performed, while no injustice will be done to you."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "204": {
    "phrases": [
     {
      "translation": "There are some ˹hypocrites˺ who impress you with their views regarding worldly affairs and openly call upon Allah to witness what is in their hearts, yet they are your worst adversaries",
-     "explanation": "Some people speak persuasively about worldly matters and invoke God to make their claims seem sincere, while concealing hostility. The verse warns believers not to judge character by eloquence or religious language alone. Conduct and effects reveal whether apparent concern is genuine, and God knows what is hidden within hearts."
+     "ar": "وَمِنَ ٱلنَّاسِ مَن يُعۡجِبُكَ قَوۡلُهُۥ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَا وَيُشۡهِدُ ٱللَّهَ عَلَىٰ مَا فِي قَلۡبِهِۦ وَهُوَ أَلَدُّ ٱلۡخِصَامِ",
+     "explanation": "The description is explained first. This is a description by Allah of the hypocrites, that among the people is one whose outward speech and open declaration please you, and who calls Allah to witness over what is in his heart, while he is the most contentious of disputants, a disputant by means of falsehood.\n\nThe occasion of the revelation is then discussed. Some of them said that it was revealed about al-Akhnas ibn Shariq, who came to the messenger and claimed that he desired Islam and swore that he had come only for that, and then went off and wrought harm among the possessions of the Muslims. Others said that it was revealed about a group of the people of hypocrisy who spoke about the raiding party of the messenger that was struck down at al-Raji. And others said that by it were meant all the hypocrites, and by the phrase about the contradiction between their inner and their outer.\n\nThe recitation is then discussed. There are two modes of reading the clause about calling Allah to witness. Most of the readers read it as he calls Allah to witness over what is in his heart, with the meaning that the hypocrite whose speech pleases the messenger calls Allah to witness over what is in his heart, that his speech accords with his conviction and that he believes in Allah and His messenger, while he is lying.\n\nA report from Allah is then given, that the hypocrite about whom He informed His prophet that he pleases him when his word and his speech please him calls Allah to witness that he speaks the truth in that saying of his, on account of the severity of his dispute and his contentiousness by means of falsehood and the lie of speech."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "205": {
    "phrases": [
     {
-     "translation": "And when they leave ˹you˺, they strive throughout the land to spread mischief in it and destroy crops and cattle.",
-     "explanation": "After leaving the Prophet, these people work to cause corruption and destroy sources of livelihood. Their harmful actions contradict their persuasive claims. The verse directs attention to consequences: speech that sounds pious cannot excuse conduct that damages communities, food supplies, and animals.  The contrast exposes a gap between their claims and their actual behavior."
-    },
-    {
-     "translation": "Allah does not like mischief",
-     "explanation": "God does not approve of corruption or destructive behavior. The statement condemns deliberate harm to people and the resources they depend on. It makes clear that religious language cannot legitimize actions that spread disorder and damage the land.  Such conduct undermines the wellbeing and sustenance of others."
+     "translation": "And when they leave ˹you˺, they strive throughout the land to spread mischief in it and destroy crops and cattle. Allah does not like mischief",
+     "ar": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِي ٱلۡأَرۡضِ لِيُفۡسِدَ فِيهَا وَيُهۡلِكَ ٱلۡحَرۡثَ وَٱلنَّسۡلَۚ وَٱللَّهُ لَا يُحِبُّ ٱلۡفَسَادَ",
+     "explanation": "The correct view is then given. Allah described this hypocrite as one who, when he turns away and turns his back on the messenger, commits corruption upon the earth of Allah, and under the phrase of spreading corruption all forms of disobedience may fall, since committing disobedience is corruption upon the earth, so Allah did not restrict His description to some meanings of it to the exclusion of others. Except that what most resembles the apparent meaning is that he cut off the road and spread fear upon the path.\n\nThe manner of the destroying is then discussed. The exegetes differed concerning it, and his destroying of the seed sown is his burning of it. And it may be that it was as Mujahid said, through the withholding of the rain on account of his disobedience, and it may be that it was through his killing of those who tend it until it spoiled, and likewise the destroying of the offspring was through his killing of the mothers or the fathers, so that in his killing of them lies the cutting off of their offspring. And what is more in agreement with the apparent meaning is what al-Suddi said, except that al-Suddi mentioned that this verse was revealed only about his killing of the donkeys of the group of Muslims and his burning of a crop of theirs, and although it is permissible that it was so, it is not incorrect that the verse was revealed about him while what is meant by it is anyone who walks his path in killing all that he killed of animals whose killing is not permitted under any circumstance. For Allah did not single out any of that above anything else, but He made it general.\n\nA recitation is then noted, that some reciters have read the words with the nominative, and the meaning given is that and the crops and the offspring perish.\n\nThe closing clause is then explained, that Allah does not love the deeds of disobedience, and the cutting off of the path and the spreading of fear upon the road. And a point of grammar is added, that the word for corruption is a verbal noun from the saying of a person that the thing became corrupt, it becomes corrupt, comparable to their saying of going, he goes, a going."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "206": {
    "phrases": [
     {
-     "translation": "When it is said to them, “Fear Allah,”",
-     "explanation": "They are advised to be mindful of God and stop their harmful behavior. The reminder offers an opportunity to correct course before consequences arrive. Their response reveals whether they respect divine guidance or merely use religious language to impress others.  The instruction is a chance to repent rather than a mere accusation."
-    },
-    {
-     "translation": "pride carries them off to sin.",
-     "explanation": "Instead of accepting counsel, arrogance pushes them further into wrongdoing. Pride prevents self-correction and turns advice into a perceived insult. The phrase warns that rejecting reminders can deepen a person’s moral decline.  Their resistance illustrates how ego can obstruct moral correction. Accepting advice can interrupt this cycle of arrogance and sin."
-    },
-    {
-     "translation": "Hell will be their proper place.",
-     "explanation": "The verse warns that persistent wrongdoing leads to punishment in Hell. The worded destination contrasts with the false security the wrongdoers may feel in life. It is a warning intended to awaken accountability, not a license for people to declare the fate of specific individuals."
-    },
-    {
-     "translation": "What an evil place to rest",
-     "explanation": "The closing phrase emphasizes the dreadful nature of that outcome. Hell is no refuge or comfort, despite the expression of rest. The stark wording urges people to heed advice and repent while they can still choose a better path.  The warning stresses the severity of refusing repeated opportunities to reform."
+     "translation": "When it is said to them, “Fear Allah,” pride carries them off to sin. Hell will be their proper place. What an evil place to rest",
+     "ar": "وَإِذَا قِيلَ لَهُ ٱتَّقِ ٱللَّهَ أَخَذَتۡهُ ٱلۡعِزَّةُ بِٱلۡإِثۡمِۚ فَحَسۡبُهُۥ جَهَنَّمُۖ وَلَبِئۡسَ ٱلۡمِهَادُ",
+     "explanation": "The verse is explained first. He means that when it is said to this hypocrite, whose characteristic He described to His prophet, fear Allah and be wary of Him, then arrogance seizes him in sin.\n\nThe people of interpretation differed concerning whom this verse means. Some of them said that by it was meant every transgressor and hypocrite, and the report naming who said that is given. And others said that by it was meant al-Akhnas ibn Shariq.\n\nThe closing words are then explained. And what a wretched resting place means what a wretched sleeping place and bed is hell, which he has prepared for himself through his hypocrisy."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "207": {
    "phrases": [
