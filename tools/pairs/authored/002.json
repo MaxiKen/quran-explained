@@ -121,89 +121,86 @@
    "phrases": [
     {
      "translation": "And there are some who say,",
-     "explanation": "The passage now describes another group, whose spoken claims differ from their inward state. The phrasing introduces their own words so that readers can compare what they profess with what they actually believe. The verse warns against assuming that every public claim of faith is necessarily sincere."
+     "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ",
+     "explanation": "Two views are recorded about the word for people itself. One takes its original form to have begun with a hamza that was dropped because the word is used so constantly, after which the definite article was added and its lam assimilated into the nun, in the way the Quran writes but as for me, He is Allah, my Lord. The other holds that it is a different form altogether, because the Arabs build its diminutive on the letters as they stand rather than restoring the dropped hamza.\n\nThe exegetes agree that this verse came down about a group given to hypocrisy and that the description is theirs. The occasion given for it is that when the Prophet's position was established in the land of his migration, and Allah's word prevailed there and Islam spread through its houses, and the Muslims overcame the idolaters and the People of the Book there were humbled, then the learned among the Jews showed the Prophet their rancour and open enmity, out of envy and insolence, except for a small group whom Allah guided and who became Muslim. Belief in what they say with their tongues means holding something to be true, which is the sense established earlier."
     },
     {
-     "translation": " “We believe in Allah and the Last Day,”",
-     "explanation": "The speakers claim belief in God and the Day of Judgment. These are central commitments, so their words sound like a genuine declaration of faith. The next phrase exposes the gap between their claim and their reality. The verse therefore stresses sincerity, not merely using the right religious language."
-    },
-    {
-     "translation": " yet they are not ˹true˺ believers",
-     "explanation": "Their words do not match genuine inward belief. The verse criticizes deception and hypocrisy, not people whose faith is imperfect but sincere. Its contrast asks readers to examine the relationship between profession and conviction, while leaving judgment of individuals to God rather than encouraging careless accusations."
+     "translation": "“We believe in Allah and the Last Day,” yet they are not ˹true˺ believers",
+     "ar": "ءَامَنَّا بِٱللَّهِ وَبِٱلۡيَوۡمِ ٱلۡأٓخِرِ وَمَا هُم بِمُؤۡمِنِينَ",
+     "explanation": "A day is called a day among the Arabs only because of the night that precedes it, and without a preceding night the daylight is not called a day. The Day of Resurrection is therefore a day after which no night comes, except the night whose morning the Resurrection breaks in.\n\nAllah then denies these people the name of belief even though He has reported what they said with their tongues. That is a flat contradiction of what they claimed about their own conviction and their acknowledgment of the Resurrection, and it tells the Prophet that what they show him with their mouths is the opposite of what lies hidden in their hearts and the reverse of what their souls are set on."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "9": {
    "phrases": [
     {
      "translation": "They seek to deceive Allah and the believers,",
-     "explanation": "The people described imagine that outward claims can conceal their intentions from God and mislead the believers. The verse exposes the limits of that strategy: God knows what is hidden. Their behavior also damages trust among people, because they present themselves as allies while acting otherwise."
+     "ar": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُواْ",
+     "explanation": "The deception of the hypocrite is that he shows with his tongue words and assent contradicting the doubt and denial living in his heart, so that what he displays protects him. Some who knew the language held that the verb here, though it comes in the reciprocal pattern, carries the plain sense of deceiving rather than of trying to deceive. The view preferred is the opposite. The form belongs to the reciprocal action that only happens between two parties, as it does throughout Arabic. So the hypocrite tries to deceive Allah by the lie on his tongue, and Allah is his deceiver, in that He leaves him without sight of what would save him at his return. The respite granted to such people is only that they may increase in sin, and on the Day they will ask the believers to wait so that they may take some of their light, and a wall with a gate will be struck between them, mercy inside it and punishment outside."
     },
     {
-     "translation": " yet they only deceive themselves,",
-     "explanation": "Their deception ultimately harms themselves more than anyone else. They may think their double speech gives them an advantage, but it places them in moral danger and estranges them from truth. The verse turns attention from their intended target to the real cost of dishonest conduct for the deceivers."
+     "translation": "yet they only deceive themselves,",
+     "ar": "وَمَا يَخۡدَعُونَ إِلَّآ أَنفُسَهُمۡ",
+     "explanation": "Arabs do call a man a deceiver toward someone he has escaped, when he shows with his tongue something other than what is inside him and so gets away with it. On that usage the hypocrite is a deceiver of Allah and the believers, because what he displays saves him from killing, captivity and immediate punishment while he carries something else within. Yet that very act deceives himself, since he seems to give himself what it wants while in fact leading it to destruction and to a wrath it cannot bear.\n\nIt would be wrong to say they deceived the believers, since that would grant them a deception actually carried off. The comparison given is a man who fought another and killed himself but not his companion, where the fighting is affirmed, the killing of the other denied and the killing of himself affirmed. A deceiver is one whose deception succeeded, and theirs did not."
     },
     {
-     "translation": " but they fail to perceive it",
-     "explanation": "They do not recognize that their conduct is working against their own good. This lack of perception is part of the warning: repeated dishonesty can distort a person’s judgment. The verse calls for honest self-examination before a person becomes so accustomed to deception that its consequences are no longer visible to them."
+     "translation": "but they fail to perceive it",
+     "ar": "وَمَا يَشۡعُرُونَ",
+     "explanation": "To perceive something means to know it and recognise it. What these people do not perceive is that Allah is the one deceiving them, by the respite He gives them and the gradual way He leads them on, which they take for a good thing granted to them when it is the opposite."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "10": {
    "phrases": [
     {
      "translation": "There is sickness in their hearts,",
-     "explanation": "“Sickness” is a spiritual image for hypocrisy, doubt, or a moral disorder that keeps a person from responding sincerely to truth. It does not refer to bodily illness. The verse uses the image to explain the inner condition behind their deceptive words and to distinguish it from sincere but struggling faith."
+     "ar": "فِي قُلُوبِهِم مَّرَضٞ",
+     "explanation": "The disease in the heart is not an illness of the body. It sits in the conviction these people hold to in religion, and in their position toward the Prophet and what he brought from Allah. What that disease consists of is doubt about his affair and confusion over it. They are neither certain of it with the certainty that belongs to belief, nor have they come out against it openly, and the unsettled state between the two is the sickness named here. The interpreters reinforced one another in this explanation, so it is not the reading of one school only."
     },
     {
-     "translation": " and Allah ˹only˺ lets their sickness increase.",
-     "explanation": "As they persist in hypocrisy and reject correction, their inward disorder deepens. The wording presents this increase as a consequence of their chosen response, not an arbitrary affliction of sincere people. The verse warns that repeated dishonesty can become harder to leave when a person refuses to acknowledge it."
+     "translation": "and Allah ˹only˺ lets their sickness increase.",
+     "ar": "فَزَادَهُمُ ٱللَّهُ مَرَضٗاۖ",
+     "explanation": "The increase is of the same kind as what was already there. The disease Allah reports having increased for them is the doubt and confusion in their hearts before the increase, made greater rather than replaced by something else. The means of that increase is what Allah brought into being of prescribed limits and obligations, so that every fresh command and every new revelation gave their doubt something further to fasten on, and the sickness grew by what should have cured it."
     },
     {
-     "translation": " They will suffer a painful punishment for their lies",
-     "explanation": "The verse names lying as a cause of painful accountability. Their words are not harmless, because they claim belief while concealing the opposite and thereby undermine trust. The warning calls people to align speech with conviction and to repent from deception before it hardens into a lasting pattern."
+     "translation": "They will suffer a painful punishment for their lies",
+     "ar": "وَلَهُمۡ عَذَابٌ أَلِيمُۢ بِمَا كَانُواْ يَكۡذِبُونَ",
+     "explanation": "Painful here means causing pain, the active sense carried by a form that looks passive, in the way Arabic speaks of a painful blow for one that causes pain. The word for the reason they are punished was read in two ways. Most of the reciters of Kufa read it as lying, while others read it as denying, holding that the punishment falls on them for calling the Prophet a liar rather than for ordinary falsehood, which would not by itself bring such a threat. The reading preferred follows the shape of the passage. These verses opened by naming the shameful deeds of the hypocrites, so the threat that closes them answers what was opened, and the punishment is tied to the falsehood they were actually practising."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "11": {
    "phrases": [
     {
-     "translation": "When they are told, “Do not spread corruption in the land,”",
-     "explanation": "The speakers are confronted about conduct that harms the moral and social order. “Corruption” here refers to wrongdoing and damage, not simply disagreement or criticism. The verse presents correction as a call to stop harmful behavior, and it asks the reader to consider actions by their effects rather than by self-description alone."
-    },
-    {
-     "translation": " they reply, “We are only peace-makers!”",
-     "explanation": "Their answer presents themselves as doing good, even as their conduct spreads harm. The contrast warns that claiming to promote peace does not make a person’s actions just. People must assess whether their behavior truly repairs relationships and protects others, rather than accepting a self-serving label as proof of righteousness."
+     "translation": "When they are told, “Do not spread corruption in the land,” they reply, “We are only peace-makers!”",
+     "ar": "وَإِذَا قِيلَ لَهُمۡ لَا تُفۡسِدُواْ فِي ٱلۡأَرۡضِ قَالُوٓاْ إِنَّمَا نَحۡنُ مُصۡلِحُونَ",
+     "explanation": "Two interpretations of this verse are recorded, and the one preferred is that it came down about the hypocrites of the Prophet's own time, while still taking in everyone who carries the same trait after them until the Day of Resurrection. It is chosen because the scholars of interpretation agree that this was the character of the hypocrites among the Prophet's companions and that these verses were revealed about them, and an interpretation held by consensus beats one with nothing behind it from a principle or a parallel case.\n\nTheir claim to be reformers is then examined. Whatever their reform amounted to, whether reconciling the Jews and the Muslims or managing their own religious position while lying to the believers about what was in their hearts, they believed themselves to be doing good. In their own eyes they were doers of good, and in the sight of Allah doers of evil who went against His command, since He had obliged them to believe in His Messenger and in what he brought exactly as He obliged the believers."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "12": {
    "phrases": [
     {
      "translation": "Indeed, it is they who are the corruptors, but they fail to perceive it",
-     "explanation": "The verse reverses their self-description: they are the ones causing corruption, though they do not recognize it. Their lack of insight is part of the danger, since they mistake harmful behavior for reform. The passage encourages honest judgment of conduct and warns against assuming good intentions erase the damage actions cause."
+     "ar": "أَلَآ إِنَّهُمۡ هُمُ ٱلۡمُفۡسِدُونَ وَلَٰكِن لَّا يَشۡعُرُونَ",
+     "explanation": "This verse answers their claim and gives it the lie. They were commanded to obey Allah in what He commanded and forbidden to disobey Him in what He forbade, and their reply was that they were only reformers and not corrupters, that in the very thing they were blamed for they stood on righteousness and guidance, and that they were by no means the ones astray. The correction is therefore not about what they did but about who was blind to it, since they did not perceive that the corruption was theirs."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "13": {
    "phrases": [
     {
-     "translation": "And when they are told, “Believe as others believe,”",
-     "explanation": "The call is to accept faith sincerely, as other believers do, rather than treating belief as a badge or a reason for superiority. The verse shows that the hypocrites are invited toward genuine faith. Their response reveals contempt for those they regard as less sophisticated, even though the passage will expose their own lack of understanding."
-    },
-    {
-     "translation": " they reply, “Will we believe as the fools believe?”",
-     "explanation": "They dismiss sincere believers as foolish and imply that faith is beneath them. This answer exposes pride: instead of weighing the message, they insult those who accept it. The verse warns that mockery can be used to avoid honest reflection and that confidence in one’s own cleverness is not the same as wisdom."
-    },
-    {
-     "translation": " Indeed, it is they who are fools,",
-     "explanation": "The verse turns their accusation back upon them. Their refusal to recognize truth and their self-deception show a failure of judgment, despite their claim to be discerning. The point is not that every disagreement proves foolishness, but that contemptuous rejection can blind people to the consequences of their own choices."
-    },
-    {
-     "translation": " but they do not know",
-     "explanation": "They remain unaware of the reality of their condition. Their lack of knowledge is more than missing information: they fail to see that their arrogance and hypocrisy harm them. The verse contrasts their certainty about others with their blindness to themselves, inviting readers to practice humility and examine their own assumptions."
+     "translation": "And when they are told, “Believe as others believe,” they reply, “Will we believe as the fools believe?” Indeed, it is they who are fools, but they do not know",
+     "ar": "وَإِذَا قِيلَ لَهُمۡ ءَامِنُواْ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓاْ أَنُؤۡمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُۗ أَلَآ إِنَّهُمۡ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعۡلَمُونَ",
+     "explanation": "The command is explained as an instruction to give credence to the Prophet and what he brought from Allah in the way the people have given credence to it. The people meant are the believers who accepted him and his prophethood, so the hypocrites are told to believe as those believers believed.\n\nTheir answer turns on a word worth explaining. Fools is the plural of a term for someone ignorant and weak in judgment, with little knowledge of where benefit and harm lie. The Quran uses the same plural of women and children where it forbids handing wealth over to the fools, and most exegetes explained that as weakness of judgment and slight knowledge of the interests wealth should be spent on. So the insult the hypocrites throw at the believers is the language of someone who thinks he sees consequences others cannot. The verse returns it on them. They are the fools and do not know it, and ignorance of one's own condition is what makes the foolishness complete."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "14": {
    "phrases": [
