@@ -1146,129 +1146,141 @@
    "phrases": [
     {
      "translation": "He replied, “Allah says, ‘It should have been used neither to till the soil nor water the fields; wholesome and without blemish.’”",
-     "explanation": "Moses gives the final description of the cow: it has not been used for farm work and is free of defects. The series of questions has made the required animal increasingly specific. The narrative emphasizes that the people’s own requests prolonged the task, rather than the original command being impossible to understand."
+     "ar": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٞ لَّا ذَلُولٞ تُثِيرُ ٱلۡأَرۡضَ وَلَا تَسۡقِي ٱلۡحَرۡثَ مُسَلَّمَةٞ لَّا شِيَةَ فِيهَاۚ",
+     "explanation": "The answer is explained term by term. Moses says that Allah describes the cow they are commanded to slaughter, and the first of the descriptions is that labor has not made it submissive, so it is an animal not worn out by work. The clause about ploughing is then explained as turning the earth over for cultivation, with the ordinary use of the verb in Arabic given, and the clause about watering the tilth as drawing water for the crops.\n\nThe word translated as wholesome is explained from its form. It is a passive derivation from the word for soundness, and the ordinary saying built on the same root is quoted. Others took it to mean made free of defects, and the reports naming who said that are given with it.\n\nThe last description is treated at length. No marking upon it means that there is no color on the animal differing from the color of its hide. The word is traced to its origin, which is the adorning of a garment, that is, embellishing its unevenness with various colors in its warp and its weft, and the verb for adorning a garment is quoted in its forms. From the same root comes the word for an informer, so called because he lies about a man to a ruler and embellishes his lie with falsehoods, and the verbal noun for informing is given with a line of poetry as its witness.\n\nTwo explanations of these terms are then weighed. What Ibn Abbas and Abu al-Aliya and those who said the same as them said is judged more fitting for the verse than what Mujahid said. The reason is that if soundness had concerned the kinds of color other than the color of the hide, the word for wholesome would already have been a sufficient statement and would have made the words no marking upon it superfluous. Since those words are there, they make clear that wholesome means something other than what they mean, so the two descriptions are read as covering soundness from defects on the one hand and evenness of color on the other."
     },
     {
-     "translation": " They said, “Now you have come with the truth.”",
-     "explanation": "The people acknowledge that Moses has clarified the matter. Their statement comes only after several rounds of questioning, highlighting how delay preceded their acceptance. The phrase records their recognition of the instruction without praising the reluctance that led them to demand so many details. Their recognition follows the clarifications they themselves requested."
+     "translation": "They said, “Now you have come with the truth.”",
+     "ar": "قَالُواْ ٱلۡـَٰٔنَ جِئۡتَ بِٱلۡحَقِّۚ",
+     "explanation": "The words they answered with are reported, and a claim made about them is recorded. Some of the predecessors held that the people apostatized from their religion and became unbelievers by saying now you have come with the truth, as though what had been given to them before was not the truth. The saying is read on its face as an admission that the description is now complete, so that nothing is left for them to ask about, and the verse moves at once to what they did with it."
     },
     {
-     "translation": " Yet they still slaughtered it hesitantly",
-     "explanation": "Even after recognizing the truth, they carry out the command reluctantly. The verse shows that outward compliance can coexist with hesitation. The story closes the cow episode by underscoring the cost of resistance and the importance of responding sincerely when guidance becomes clear. The narrative stresses how reluctantly they completed the task."
+     "translation": "Yet they still slaughtered it hesitantly",
+     "ar": "فَذَبَحُوهَا وَمَا كَادُواْ يَفۡعَلُونَ",
+     "explanation": "The slaughter is explained first as a plain fact. The people of Moses slaughtered the cow that Allah had commanded them to slaughter, so after all the questioning the command was carried out.\n\nThe clause saying that they almost did not is then discussed. The exegetes differed about the reason why they came close to leaving the duty Allah had imposed on them, and the reports naming who gave each reason are recorded. One reason given is that they were almost brought to not doing it out of fear of disgrace, should Allah reveal through it the murderer of the slain man. The hesitation named in the verse is therefore traced to something other than reluctance to pay for the animal, and the two accounts are left side by side."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "72": {
    "phrases": [
     {
      "translation": "˹This is˺ when a man was killed and you disputed who the killer was,",
-     "explanation": "The verse recalls a killing and disagreement among the people about who was responsible. It introduces a hidden matter that ordinary dispute could not resolve. The story links the earlier command concerning the cow with the revelation of what had been concealed. The disagreement could not uncover the truth by itself."
+     "ar": "وَإِذۡ قَتَلۡتُمۡ نَفۡسٗا فَٱدَّٰرَٰءۡتُمۡ فِيهَاۖ",
+     "explanation": "The verse is explained as a reminder. By the words and when you killed a soul, Allah means, remember when you killed a soul, and the address runs to the children of Israel for what their forefathers did.\n\nThe dispute named after it is explained from the verb. Its sense is given as going against one another, and the ordinary saying is quoted in which a person does not dispute with his companion and business partner. It was also said that the meaning here is that they repelled one another about it, each pushing the charge onto another, which is the shape a murder takes when no one admits to it.\n\nTheir mutual difference, dispute and quarrel is then described as concerning the affair of the slain man whose matter has been mentioned, so the verse returns to the killing that the whole passage about the cow was sent down for."
     },
     {
-     "translation": " but Allah revealed what you concealed",
-     "explanation": "God brings hidden information to light, making the concealed matter known. The phrase emphasizes that disputes and secrets are not beyond divine knowledge. The account prepares for the instruction to strike the dead body, through which a sign will be shown to the people. The event demonstrates that hidden matters remain known to God."
+     "translation": "but Allah revealed what you concealed",
+     "ar": "وَٱللَّهُ مُخۡرِجٞ مَّا كُنتُمۡ تَكۡتُمُونَ",
+     "explanation": "Bringing out is explained from its sense in this place. It means making visible and manifest to the one from whom a thing was hidden, so what Allah does here is not a new act of knowledge but an act of disclosure.\n\nWhat was concealed and then brought out is named. It is the killing done by the killer of the slain man, and that killer had concealed his deed from the people among whom the dispute ran. The disclosure is therefore the answer to the quarrel described in the first part of the verse, and it is what the command about the cow was for."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "73": {
    "phrases": [
     {
      "translation": "So We instructed, “Strike the dead body with a piece of the cow.”",
-     "explanation": "The people are instructed to strike the dead body with part of the cow. This is a specific miraculous event in the narrative and not a general practice or legal rule. The command follows the people’s dispute and leads to a sign that reveals the truth about the killing."
+     "ar": "فَقُلۡنَا ٱضۡرِبُوهُ بِبَعۡضِهَاۚ",
+     "explanation": "The command is explained first. By the words then We said, strike him with part of her, Allah means that He said to the people of Moses, those who had disputed over the slain man, that they should strike him with a part of the cow they had been made to describe in such detail.\n\nThe scholars then differed about which part of the cow the slain man was struck with, and which bodily part of it that was. Several answers are recorded, one after another, with the reports naming who said each of them, and one of the answers given is that he was struck with the piece of flesh between the two shoulder blades.\n\nA question is raised about the command itself. Where is the report showing that Allah commanded them this for that purpose, since the verse does not state the purpose in words? The answer is given at length, and it turns on the fact that the command and the killing it answers are joined in the passage itself, so the purpose is known from the sequence of the verses rather than from a separate report."
     },
     {
-     "translation": " This is how ˹easily˺ Allah brings the dead to life,",
-     "explanation": "The event is presented as a sign of God’s power to restore life. If God can bring the dead to life, resurrection is not beyond His ability. The phrase connects this particular miracle with the broader truth of life after death. The miracle points to resurrection beyond this one event."
+     "translation": "This is how ˹easily˺ Allah brings the dead to life,",
+     "ar": "كَذَٰلِكَ يُحۡيِ ٱللَّهُ ٱلۡمَوۡتَىٰ",
+     "explanation": "The clause that follows is explained as an address from Allah to those who saw what happened, and its sense is that this is how Allah brings the dead to life. One dead man restored in front of witnesses is put forward as a sample of what He does on a larger scale.\n\nIt is also noted that Allah adduced this as a proof against the polytheists among the Arabs, even though the event belonged to another people, since a proof of this kind does not depend on who watched it happen first."
     },
     {
-     "translation": " showing you His signs so that you may understand",
-     "explanation": "The sign is meant to lead the people to understanding. Miracles are not merely spectacular events, but evidence that should deepen recognition of God and His power. The verse invites reflection on what the sign teaches rather than focusing only on its unusual details. The intended response is reflection and recognition of divine power."
+     "translation": "showing you His signs so that you may understand",
+     "ar": "وَيُرِيكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَعۡقِلُونَ",
+     "explanation": "The closing clause is explained as an address to those who deny the Resurrection. Allah shows them His signs so that they may understand, and the signs named here are the ones just described, the dead man brought back and the cow whose description was given in such detail that no one could mistake which animal was meant."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "74": {
    "phrases": [
     {
      "translation": "Even then your hearts became hardened like a rock or even harder,",
-     "explanation": "Despite the signs and favors, the people’s hearts are described as hard and resistant. The comparison to rock conveys an unwillingness to soften toward guidance. The phrase warns that witnessing evidence does not guarantee a receptive response if a person persists in rejecting what it means."
+     "ar": "ثُمَّ قَسَتۡ قُلُوبُكُم مِّنۢ بَعۡدِ ذَٰلِكَ فَهِيَ كَٱلۡحِجَارَةِ أَوۡ أَشَدُّ قَسۡوَةٗۚ",
+     "explanation": "The hardening is placed in time first. After all that means after Allah brought to life for them the murdered man about whose death they had disputed, so what follows a sign they saw with their own eyes is described as a hardening of the heart rather than a lack of evidence.\n\nThe comparison is then explained. The word translated as they refers to their hearts, and the sense given is that their hearts hardened after they had seen what they saw, until they became like stones or harder still. The two degrees are named in one breath, which raises a question.\n\nA questioner asks what the explanation of like stones or even harder is, since the wording appears to leave it open which of the two their hearts resemble. The answer is that it is not as the questioner imagined, and that the wording is not a doubt on Allah's part about which of the two is the case. The comparison is put to the one who hears it, so the listener is told that those hearts reached at least the hardness of stone, and that they may have gone past it, without the sentence having to settle which."
     },
     {
-     "translation": " for some rocks gush rivers; others split, spilling water;",
-     "explanation": "The verse notes that rocks can release water, unlike the hardened hearts being described. Some rocks bring forth rivers, and others crack open to let water flow. The contrast makes the image vivid: even stone can yield something beneficial, while a heart may remain closed to guidance."
+     "translation": "for some rocks gush rivers; others split, spilling water;",
+     "ar": "وَإِنَّ مِنَ ٱلۡحِجَارَةِ لَمَا يَتَفَجَّرُ مِنۡهُ ٱلۡأَنۡهَٰرُۚ وَإِنَّ مِنۡهَا لَمَا يَشَّقَّقُ",
+     "explanation": "The three kinds of stone are then explained, since they are what the comparison rests on. The first is the stone from which rivers gush forth, and the verb used is traced to its form, which is built from the saying that the water gushed forth, meaning that it comes out in quantity and with force.\n\nThe second is the stone that splits open so that water comes out of it, and it is explained as a stone that cracks and releases what is in it, which is less than the gushing of the first kind but is still water leaving a stone.\n\nThe point of naming them is that stones are not all alike in what they give. Some pour out rivers, some release water when they split, so a heart that is harder than these is being compared to things that do yield something, and the comparison is meant to make the hardness look worse rather than merely great."
     },
     {
-     "translation": " while others are humbled in awe of Allah.",
-     "explanation": "Some rocks fall down in awe of God, continuing the contrast between the natural world and hardened hearts. The image conveys that creation is subject to its Lord, while people may resist despite receiving signs. The verse calls readers to humility and responsiveness rather than stubbornness."
+     "translation": "while others are humbled in awe of Allah.",
+     "ar": "فَيَخۡرُجُ مِنۡهُ ٱلۡمَآءُۚ وَإِنَّ مِنۡهَا لَمَا يَهۡبِطُ",
+     "explanation": "The third kind is discussed by the people of interpretation, who disagreed about the meaning of the falling down of those stones. The explanation given is that among stones are some that fall down out of fear of Allah, and the falling is read in the light of that fear rather than as ordinary collapsing.\n\nA note on the wording accompanies it. The letters attached to the word for what are placed there for emphasis of the report, so the sentence asserts the thing rather than leaving it open.\n\nIt is then observed that Allah described the stones only with what He described them with here, namely that among them are kinds that gush, that split and that fall, and that in agreement with this the people of interpretation spoke, so the description is not extended beyond what the verse gives."
     },
     {
-     "translation": " And Allah is never unaware of what you do",
-     "explanation": "God knows the actions of the people, including their hidden intentions and outward conduct. The statement closes the warning with accountability. No act of hardness or disobedience is overlooked, even if people think their behavior is concealed from others. The warning applies to deeds both public and concealed."
+     "translation": "And Allah is never unaware of what you do",
+     "ar": "مِنۡ خَشۡيَةِ ٱللَّهِۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
+     "explanation": "The closing clause is explained as an address to the community spoken to. Allah is not unmindful of what they do, and the sense given is that nothing of their conduct is hidden from Him. It is placed after the description of their hearts because a hardening that no one else can see is still known, and the verse ends by saying so."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "75": {
    "phrases": [
     {
      "translation": "Do you ˹believers still˺ expect them to be true to you,",
-     "explanation": "The verse cautions believers against assuming that the particular group being discussed will necessarily accept or support them. Its context concerns certain people who knowingly altered revelation, not every Jew or person of another faith. It urges discernment about trust without endorsing hostility or general suspicion."
+     "ar": "أَفَتَطۡمَعُونَ أَن يُؤۡمِنُواْ لَكُمۡ وَقَدۡ",
+     "explanation": "The question is explained as addressed to the Companions of the Prophet. By do you then desire, Allah is speaking to them about their hope concerning these people, and the thing hoped for is explained next.\n\nThat they should believe you means that they should affirm the believers as truthful in what their Prophet brought them, so the belief spoken of is belief directed at people and not only at a message. The question therefore asks whether a group described in the rest of the verse can be expected to give that kind of belief."
     },
     {
-     "translation": " though a group of them would hear the word of Allah",
-     "explanation": "The verse refers to some who had access to divine revelation and heard it. The relevant issue is not lack of opportunity to know, but what some did after hearing and understanding. The historical description is limited to the group and conduct under discussion. The verse limits this description to a group, not everyone."
-    },
-    {
-     "translation": " then knowingly corrupt it after understanding it",
-     "explanation": "Some deliberately altered or misrepresented what they understood. The verse condemns intentional distortion, distinguishing it from honest disagreement or mistake. Its warning is about misuse of knowledge and the responsibility that comes with it, not a claim that all members of a religious community act this way."
+     "translation": "though a group of them would hear the word of Allah then knowingly corrupt it after understanding it",
+     "ar": "كَانَ فَرِيقٞ مِّنۡهُمۡ يَسۡمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعۡدِ مَا عَقَلُوهُ وَهُمۡ يَعۡلَمُونَ",
+     "explanation": "The group named within them is then identified, and two interpretations of the clause are recorded. The correct one, and the one that most accords with what the outward wording of the recitation indicates, is what al-Rabi ibn Anas said and what Ibn Ishaq transmitted from some of the scholars.\n\nOn that reading Allah meant by it only those of the children of Israel who heard His word, just as Moses heard it from Him, and then distorted and altered it after they had heard it, understood it and comprehended it. The reason given for this reading is that Allah reported the distortion as coming from a party of them who heard the word of Allah, so the party described is one that heard the word itself and not one that received it second hand. Their alteration is therefore stated to happen after understanding, which is what makes it knowing."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "76": {
    "phrases": [
     {
      "translation": "When they meet the believers they say, “We believe.”",
-     "explanation": "The people make a public claim of faith when meeting believers. The contrast with their private conversation shows that their words are not sincere. The verse warns readers to distinguish outward profession from inward allegiance, while keeping its criticism focused on the specific hypocritical behavior described."
+     "ar": "وَإِذَا لَقُواْ ٱلَّذِينَ ءَامَنُواْ قَالُوٓاْ ءَامَنَّا",
+     "explanation": "The verse is explained as an announcement from Allah about the people it describes, reporting what they say when they meet those who believe. A further saying is transmitted from Ibn Abbas about its explanation, and other accounts are recorded beside it, so the words are read both as a report of a habit and as a description of a particular group among them."
     },
     {
-     "translation": " But in private they say ˹to each other˺, “Will you disclose to the believers the knowledge Allah has revealed to you,",
-     "explanation": "In private, they discuss withholding revealed knowledge from believers. Their concern is that disclosure could support the believers’ argument before God. The passage portrays this as deliberate concealment, not a debate over whether a teaching is accurately understood. Their concern is exposure, not a sincere search for understanding."
+     "translation": "But in private they say ˹to each other˺, “Will you disclose to the believers the knowledge Allah has revealed to you,",
+     "ar": "وَإِذَا خَلَا بَعۡضُهُمۡ إِلَىٰ بَعۡضٖ قَالُوٓاْ أَتُحَدِّثُونَهُم بِمَا",
+     "explanation": "Being alone with one another is explained as what happens when some of these Jews, whose character the verse describes, withdraw together and speak among themselves. The thing they speak about is then discussed, and the exegetes differed concerning the explanation of the words what Allah has revealed to you, with several answers recorded one after the other.\n\nSince the meaning of the word translated as disclose is as described earlier, the sense of their saying becomes clear, and the reproach is understood as being about handing something over to the believers."
     },
     {
-     "translation": " so that they may use it against you before your Lord?",
-     "explanation": "They fear the knowledge could be used as evidence against them before God. The phrase reveals awareness of accountability and of the significance of what has been revealed. Rather than responding honestly to that knowledge, they consider concealing it for self-protection. They anticipate that divine evidence will support the believers’ case."
-    },
-    {
-     "translation": " Do you not understand?”",
-     "explanation": "The speakers challenge one another’s judgment, asking whether revealing the knowledge would be wise. In context, the question reflects their concern about exposure rather than a sincere search for truth. The verse shows how fear of accountability can lead people to hide what they know."
+     "translation": "so that they may use it against you before your Lord? Do you not understand?”",
+     "ar": "فَتَحَ ٱللَّهُ عَلَيۡكُمۡ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمۡۚ أَفَلَا تَعۡقِلُونَ",
+     "explanation": "The explanation preferred for the verse is then given, and it is the saying of those who read the reproach as being about disclosing to the believers what their own books contain, since that is what the believers would use to argue against them before their Lord. Because that is so, it is necessary that their mutual reproaches, which took place among them, pertained to that matter and not to something else.\n\nThe closing question is discussed last. Do you not understand is explained as an announcement from Allah concerning the people who were reproaching one another, so the words stand as His description of what they said to each other when they were alone."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "77": {
    "phrases": [
     {
-     "translation": "Do they not know that Allah is aware",
-     "explanation": "The rhetorical question reminds the people that God’s knowledge is complete. Concealment from other people cannot conceal anything from Him. This directly answers their private plan to withhold revelation, since their actions and motives remain known to God. The question exposes the futility of trying to hide from God."
-    },
-    {
-     "translation": " of what they conceal and what they reveal",
-     "explanation": "God knows both hidden thoughts and public statements. The contrast covers the full range of their behavior, leaving no private strategy outside divine awareness. The verse calls the audience to integrity, because outward appearances cannot substitute for honesty before the One who knows all. Both kinds of conduct remain within divine knowledge."
+     "translation": "Do they not know that Allah is aware of what they conceal and what they reveal",
+     "ar": "أَوَلَا يَعۡلَمُونَ أَنَّ ٱللَّهَ يَعۡلَمُ مَا يُسِرُّونَ وَمَا يُعۡلِنُونَ",
+     "explanation": "The question is explained by naming the people it concerns. It is addressed to those among the Jews who reproach their brethren for saying we believe when they meet the believers, and for telling the believers what is in their books concerning the description of the Messenger and his mission. What they conceal is what they keep hidden from the believers, and what they make public is what they say in front of them, and both are known to Allah."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "78": {
    "phrases": [
     {
-     "translation": "And among them are the illiterate",
-     "explanation": "The verse refers to people among the group who lacked direct knowledge of scripture. “Illiterate” here describes lack of scriptural learning in the context, not an insult toward people who cannot read. The passage distinguishes these people from those who knowingly distort scripture. The verse distinguishes this group from the learned distorters."
+     "translation": "And among them are the illiterate who know nothing about the Scripture except lies,",
+     "ar": "وَمِنۡهُمۡ أُمِّيُّونَ لَا يَعۡلَمُونَ ٱلۡكِتَٰبَ إِلَّآ أَمَانِيَّ",
+     "explanation": "The group described is identified first. Among them are unlettered ones, and the word is explained as naming those who neither write nor read. Another explanation of it is recorded and then set aside, on the ground that it goes against what is known from the widespread language of the Arabs, so the plain sense of the word is kept.\n\nWhat they do not know is then explained. They do not know the Book means that they do not know what is in the Book that Allah sent down, which is a stronger statement than not being able to read it, since it concerns its contents.\n\nThe exception that follows is treated as a matter of grammar. With the word for except, what comes after it is excepted from the meaning of what comes before it and from its description, even where each of the two is of a different nature and kind from the other. Some grammarians call this a disjoined exception, on account of the expression after the word being disjoined from the meaning of what stands before it. The test given for it is that this is the case everywhere it is appropriate to put the word but in place of except, because then one knows that the second meaning is disjoined from the first, and the sentence about unlettered people who do not know the Book is offered as the example.\n\nWhat indicates the correctness of this explanation, and shows that it is more fitting than the other sayings, is the clause that closes the verse. Allah informs about them that they wish what they wish of lies out of conjecture on their part and not out of certainty. If the meaning were that they recite the Book, they would not be conjecturers, and the same follows if the meaning were that they desire it, because a person who recites a thing knows it when he reflects on it, and it is not appropriate to describe such a person as only conjecturing."
     },
     {
-     "translation": " who know nothing about the Scripture except lies,",
-     "explanation": "They possess no reliable understanding of scripture, but instead encounter fabricated claims. This is a specific description in the historical passage, not a general statement about a whole community. It warns that people without access to sound knowledge can be misled by false accounts. Their limited access leaves them vulnerable to false claims."
-    },
-    {
-     "translation": " and ˹so˺ they ˹wishfully˺ speculate",
-     "explanation": "Without knowledge, they rely on guesswork and wishful claims. The verse contrasts speculation with understanding grounded in scripture. It encourages people to seek reliable knowledge rather than confidently repeating statements they cannot verify. They lack a sound basis for what they imagine or repeat. The verse cautions against treating guesswork as reliable knowledge."
+     "translation": "and ˹so˺ they ˹wishfully˺ speculate",
+     "ar": "وَإِنۡ هُمۡ إِلَّا يَظُنُّونَ",
+     "explanation": "The last clause is explained as a statement about their state of mind. They do nothing but conjecture, and the meaning given for the exception is that they doubt and do not know, so what is denied to them is knowledge and what is left with them is guesswork.\n\nThe verse is then summed up as a whole. Among them is one who does not write, does not trace letters, does not know the Book, and has nothing but wishes of lies and conjecture. The description divides the people spoken of, since the group named here has no hold on the text at all, and the verses before it concerned people who heard the word of Allah and altered it after understanding."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "79": {
    "phrases": [
