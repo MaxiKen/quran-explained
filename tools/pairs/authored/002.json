@@ -3804,58 +3804,37 @@
   "237": {
    "phrases": [
     {
-     "translation": "And if you divorce them before consummating the marriage but after deciding on a dowry,",
-     "explanation": "The verse covers a case where the dowry was set but the marriage was not consummated. It distinguishes this situation from the previous one and gives a clear rule for the financial settlement. The guidance aims to prevent disputes and protect the rights agreed upon."
-    },
-    {
-     "translation": "pay half of the dowry,",
-     "explanation": "The husband is instructed to pay half of the agreed dowry in this circumstance. This recognizes the wife’s contractual right while accounting for the fact that the marriage was not consummated. The rule provides a defined settlement instead of leaving the matter to arbitrary bargaining."
-    },
-    {
-     "translation": "unless the wife graciously waives it or the husband graciously pays in full.",
-     "explanation": "The wife may freely waive her portion, or the husband may choose to pay the full amount. The phrase makes generosity voluntary and should not be used to pressure either party. It allows kindness to exceed the minimum legal requirement.  Consent ensures that generosity is not extracted through pressure."
-    },
-    {
-     "translation": "Graciousness is closer to righteousness.",
-     "explanation": "Acts of generosity and graciousness are presented as nearer to righteousness than insisting on the bare minimum. This does not erase legal rights, but encourages people to handle separation with compassion. The phrase values kindness in emotionally difficult circumstances.  Righteous conduct extends beyond the minimum enforceable settlement."
-    },
-    {
-     "translation": "And do not forget kindness among yourselves.",
-     "explanation": "Former spouses should remember the good and kindness they shared, even when separating. The verse calls for decency rather than hostility. It recognizes that ending a marriage does not justify erasing respect or treating the other person unjustly.  Past affection can guide present conduct even after the marriage ends."
-    },
-    {
-     "translation": "Surely Allah is All-Seeing of what you do",
-     "explanation": "God sees how people handle the settlement and whether they act generously or coercively. The reminder applies to both public agreements and private conduct. Divine awareness encourages fairness when personal emotions may tempt people to retaliate.  God sees how each person uses the rights and choices available."
+     "translation": "And if you divorce them before consummating the marriage but after deciding on a dowry, pay half of the dowry, unless the wife graciously waives it or the husband graciously pays in full. Graciousness is closer to righteousness. And do not forget kindness among yourselves. Surely Allah is All-Seeing of what you do",
+     "ar": "وَإِن طَلَّقۡتُمُوهُنَّ مِن قَبۡلِ أَن تَمَسُّوهُنَّ وَقَدۡ فَرَضۡتُمۡ لَهُنَّ فَرِيضَةٗ فَنِصۡفُ مَا فَرَضۡتُمۡ إِلَّآ أَن يَعۡفُونَ أَوۡ يَعۡفُوَاْ ٱلَّذِي بِيَدِهِۦ عُقۡدَةُ ٱلنِّكَاحِۚ وَأَن تَعۡفُوٓاْ أَقۡرَبُ لِلتَّقۡوَىٰۚ وَلَا تَنسَوُاْ ٱلۡفَضۡلَ بَيۡنَكُمۡۚ إِنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٌ",
+     "explanation": "The clause is explained first. The phrase means the husband in whose hand is the knot of his own marriage, before and after the divorce, and those who take it to be the guardian have erred, since the guardian does not possess the marriage-knot without her consent except in her childhood.\n\nThe view most fitting is then given, that of Ibn Abbas, namely that some of you remit in favour of others, O husbands and wives, of what was due to one chargeable to the other, and that is nearer for you to godfearingness.\n\nThe clause about kindness is then explained. Let the man who has divorced his wife before touching her be kind and make her bride-gift complete for her, and if both are niggardly then there is due to her half and to him half.\n\nThe closing words are then explained. Verily, Allah is, with respect to what you do of that to which He has spurred you, seeing, whereby He means the possessor of sight, and He reckons it up against you until He rewards the well-doer for his good."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "238": {
    "phrases": [
     {
-     "translation": "Observe the ˹five obligatory˺ prayers—",
-     "explanation": "Believers are commanded to maintain the obligatory prayers consistently. The instruction appears amid family-law guidance, reminding the community that worship remains central through life’s practical challenges. Observance requires regular commitment, not occasional attention.  Regular prayer maintains connection with God throughout the day. Prayer times structure the day around remembrance."
-    },
-    {
-     "translation": "especially the middle prayer—",
-     "explanation": "The middle prayer receives special emphasis, urging care not to neglect it among daily responsibilities. Scholars have discussed which prayer is meant, but the verse’s clear point is its particular importance. Believers should protect their prayer times and perform them attentively.  Attentive observance protects this prayer from being overlooked."
-    },
-    {
-     "translation": "and stand in true devotion to Allah",
-     "explanation": "Prayer should be offered with humility and focused devotion to God. The instruction is not merely about bodily posture, but about reverence and awareness. The phrase completes the call to preserve prayer as an anchor for faith and daily conduct.  Devotion includes presence of heart as well as outward form."
+     "translation": "Observe the ˹five obligatory˺ prayers—especially the middle prayer—and stand in true devotion to Allah",
+     "ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+     "explanation": "Thus he urged toward guarding over it with an urging such as he did not urge toward any other prayer, and he warned his community against neglecting it, and promised them double the reward of what He promised for the rest of the prayers.\n\nAnd it is so because Allah has made the night for rest, and so it is with the morning prayer. And as for the noon prayer, its time is the time of the people's rest from their occupations during the intense heat and in the winter days, and the times at which they occupy themselves with their occupations are two, the beginning of the day, in which Allah has lightened their burden, and the end of the day, in which He prescribed the afternoon prayer and urged toward guarding over it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "239": {
    "phrases": [
     {
      "translation": "If you are in danger, pray on foot or while riding.",
-     "explanation": "In danger, believers may pray while walking or riding rather than delaying worship until ordinary conditions return. The allowance recognizes urgent circumstances and prioritizes safety. It shows that prayer remains important while its form can adapt to genuine danger.  The allowance protects life without abandoning remembrance of God."
+     "ar": "فَإِنۡ خِفۡتُمۡ فَرِجَالًا أَوۡ رُكۡبَانٗاۖ",
+     "explanation": "The Exalted means by this that you stand before Allah in your prayer obedient to Him, and if you fear an enemy of yours, on whose account, at the moment of your encounter with them, you are apprehensive for your own lives, that you cannot pray standing upon your feet on the ground, devout before Allah, then pray on foot, going on foot upon your legs, while you are in your war and fighting against your enemy, or mounted upon the backs of your mounts, for that then suffices you in place of standing, devout.\n\nA point of grammar is then given, that the accusative of the two is permissible on the basis of the elided meaning, since the Arabs do this especially in the conditional, whose second part resembles something joined to the first, as when they say, if good then good, and if evil then evil, so they join the answer to the first part, the second being in the apocopative because of the apocopative of the first.\n\nAnd the fear on the basis of which it is permitted is then set out. It is the fear for one's life at the baring of the swords and the swordfighting in the fight against whom one is commanded to fight, an enemy of the Muslims, or a combatant, or the attack of a beast of prey, or an attacking camel, or a flowing flood in which one fears drowning.\n\nAnd the prophet made a distinction between the ruling concerning the prayer of fear outside the state of swordfighting and pursuit and the ruling concerning it in the state of intense fear and swordfighting, and it is known from that that the words mean only that fear whose character has been described."
     },
     {
      "translation": "But when you are safe, ˹take time to˺ remember Allah for teaching you what you did not know",
-     "explanation": "When danger passes, believers should remember God and resume the fuller practice He has taught them. Gratitude acknowledges that guidance came from God. The verse balances flexibility during danger with renewed observance and thankfulness in safety.  Gratitude turns renewed safety into an occasion for worship."
+     "ar": "فَإِذَآ أَمِنتُمۡ فَٱذۡكُرُواْ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمۡ تَكُونُواْ تَعۡلَمُونَ",
+     "explanation": "The explanation of it is that when you are secure, O believers, from your enemy, that he might be able to kill you while you are occupied with your prayer, and you have come to rest, then remember Allah in your prayer and outside it, with thankfulness to Him, praise and glorification of Him, for that with which He has favoured you, namely the favour of attaining the truth from which your enemies among the people of disbelief have strayed, as He has guided you by teaching you His prescriptions, what He has made permitted and forbidden, and the accounts of the communities that preceded you, and the events that will occur after you, which others than you did not know. Thus He taught you from Himself what you did not know before His teaching of you.\n\nAnd in the words and when you are secure lies the clear indication of the correctness of that interpretation."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "240": {
    "phrases": [
