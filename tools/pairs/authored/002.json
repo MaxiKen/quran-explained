@@ -3861,9 +3861,11 @@
    "phrases": [
     {
      "translation": "This is how Allah makes His revelations clear to you, so perhaps you will understand",
-     "explanation": "God clarifies these family and worship rulings so people can understand their purpose and act accordingly. Clear guidance helps prevent confusion and abuse of rights. The verse invites reflection rather than rote repetition, asking believers to grasp the principles behind the instructions.  Understanding the guidance supports justice in complicated family situations."
+     "ar": "كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَعۡقِلُونَ",
+     "explanation": "The Exalted says, just as I have made clear to you what is obligatory upon you toward your wives and what your wives are obliged to render toward you, and just as I have made known to you My ordinances in these verses, so too do I make clear to you all the remaining ordinances in My signs which I have sent down upon My prophet in this Book, that you might understand My prescribed limits, and so that you might grasp what is obligatory upon you of My imposed duties, and thereby come to know what contains the welfare of your religion and your worldly life."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "243": {
    "phrases": [
@@ -3899,17 +3901,21 @@
    "phrases": [
     {
      "translation": "Who will lend to Allah a good loan which Allah will multiply many times over?",
-     "explanation": "The question describes charitable giving as a loan to God, a metaphor emphasizing that generous spending is securely rewarded by Him. God does not need a loan, the image honors the giver’s trust and promises multiplied reward. The phrase encourages generosity for good causes.  The metaphor highlights the lasting return on sincere generosity."
+     "ar": "مَّن ذَا ٱلَّذِي يُقۡرِضُ ٱللَّهَ قَرۡضًا حَسَنٗا",
+     "explanation": "Who is it that spends in the way of Allah, and so assists someone whose mount has grown weak, or strengthens someone in need who has aimed at struggle in the way of Allah, and gives to the needy among them? That is the goodly loan that the servant lends to his Lord.\n\nAnd Allah has called this only a loan, because the meaning of a loan is that a man gives another his property in ownership, so that the latter returns to him the like of it when he requests it. And since the one who gives to the people of need in the way of Allah gives them what he gives them only out of desire for what Allah has promised him of rich reward with Him on the day of resurrection, He has called it a loan."
     },
     {
      "translation": "It is Allah ˹alone˺ who decreases and increases ˹wealth˺.",
-     "explanation": "God controls abundance and scarcity, so giving does not place provision beyond His reach. Wealth can rise or fall by divine decree, and people should not assume that hoarding guarantees security. The verse encourages trust while reminding believers that resources are ultimately entrusted by God."
+     "ar": "فَيُضَٰعِفَهُۥ لَهُۥٓ أَضۡعَافٗا كَثِيرَةٗۚ وَٱللَّهُ يَقۡبِضُ وَيَبۡصُۜطُ",
+     "explanation": "The reciters differed over the reading of His words with the alif and in the nominative, in the meaning that the one who will lend to Allah a goodly loan so that He multiplies it for him, and yet others read it with the retention of the alif and in the accusative, in the meaning of a question, so they made those words the answer to the question and made who is it that will lend to Allah a goodly loan a noun.\n\nThe correct of these readings is then given, that of the one who read it with the retention of the alif and with the verb in the nominative, since in His words who is it that will lend to Allah a goodly loan there lies the meaning of a conditional clause, and when the particle enters the answer of a conditional clause then its answer with the particle is nothing but in the nominative, and the alif was chosen over the omission of it because that is the more eloquent of the two forms.\n\nAnd the sense is then explained, that it is He in whose hand lies the withholding and the expanding of the provisions of the servants, and not another of those whom the people of shirk claimed to be gods. And the messenger said that the costliness and the cheapness, the ease and the constriction, lie in the hand of Allah and of no one else, and by His words and gives abundantly He means that He expands, through the spreading out of provision, for whom He wills of them."
     },
     {
      "translation": "And to Him you will ˹all˺ be returned",
-     "explanation": "All people return to God for judgment and reward. The reminder gives charitable action an eternal perspective beyond immediate financial calculations. Believers are encouraged to give sincerely, knowing that their ultimate destination and accountability are with God.  This final accountability gives purpose to charity and every other good deed."
+     "ar": "وَإِلَيۡهِ تُرۡجَعُونَ",
+     "explanation": "And to Allah is your return, O people, so fear Allah regarding yourselves, that you neglect His obligations and overstep His limits, and that the one among you for whom He has spread out of His provision acts otherwise than his Lord has permitted him to act therewith, and that the needy one among you, when He has withheld of his provision, be brought by his want to disobedience to Him, so that he thereby earns, at his return to his Creator, that against which he has no resistance, of His painful chastisement."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "246": {
    "phrases": [
@@ -3995,41 +4001,31 @@
    "phrases": [
     {
      "translation": "When they advanced to face Goliath and his warriors, they prayed, “Our Lord! Shower us with perseverance, make our steps firm, and give us victory over the disbelieving people.”",
-     "explanation": "As the believers face Goliath’s army, they pray for perseverance, firmness, and victory. Their supplication recognizes dependence on God rather than relying solely on their own strength. The order of requests emphasizes inner steadfastness alongside success in the conflict, grounding action in prayer.  Their prayer unites reliance on God with courageous effort."
+     "ar": "وَلَمَّا بَرَزُواْ لِجَالُوتَ وَجُنُودِهِۦ قَالُواْ رَبَّنَآ أَفۡرِغۡ عَلَيۡنَا صَبۡرٗا وَثَبِّتۡ أَقۡدَامَنَا وَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+     "explanation": "The meaning of His statement they marched out is that they betook themselves to the open and level part of the land, for this reason one says of the man who relieves himself that he went out to relieve himself, because the people in former times used to relieve themselves in the open part of the land. And His statement and make our feet firm means and strengthen our hearts in the struggle against them, so that our feet may remain firm and we may not take flight before them, that is, and help us against the disbelieving people, those who disbelieved in You and thus denied You as God and worshipped another than You, and took the idols as lords."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "251": {
    "phrases": [
     {
-     "translation": "So they defeated them by Allah’s Will, and David killed Goliath.",
-     "explanation": "The smaller faithful force prevailed by God’s will, and David killed Goliath. The story attributes victory to divine support rather than numbers or power alone. It presents courage and faith as meaningful while recognizing that success ultimately rests with God.  Their reliance did not make the effort unnecessary, but placed success in its proper source."
-    },
-    {
-     "translation": "And Allah blessed David with kingship and wisdom and taught him what He willed.",
-     "explanation": "God later granted David authority, wisdom, and knowledge. These gifts show that leadership can be joined with understanding and divine instruction. The phrase locates David’s success within God’s generosity and emphasizes that knowledge is bestowed according to divine will.  David’s gifts were part of God’s favor, not self-earned entitlement."
-    },
-    {
-     "translation": "Had Allah not repelled a group of people by ˹the might of˺ another, corruption would have dominated the earth,",
-     "explanation": "The verse suggests that God restrains widespread corruption by means of people opposing one another. It presents a broader principle of social order, not an endorsement of every conflict. Human protection and justice may depend on resisting those who would otherwise dominate and spread harm."
-    },
-    {
-     "translation": "but Allah is Gracious to all",
-     "explanation": "God’s grace extends to humanity by preventing corruption from taking over completely. The statement recognizes divine care even amid conflict and human imperfection. It reminds people that protection and order are gifts, and that power should be used responsibly.  The verse encourages gratitude for protection and responsible use of authority."
+     "translation": "So they defeated them by Allah’s Will, and David killed Goliath. And Allah blessed David with kingship and wisdom and taught him what He willed. Had Allah not repelled a group of people by ˹the might of˺ another, corruption would have dominated the earth, but Allah is Gracious to all",
+     "ar": "فَهَزَمُوهُم بِإِذۡنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلۡمُلۡكَ وَٱلۡحِكۡمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُۗ وَلَوۡلَا دَفۡعُ ٱللَّهِ ٱلنَّاسَ بَعۡضَهُم بِبَعۡضٖ لَّفَسَدَتِ ٱلۡأَرۡضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضۡلٍ عَلَى ٱلۡعَٰلَمِينَ",
+     "explanation": "The clause is then explained. And Allah gave David the kingship and wisdom and taught him of what He willed, and the kingship is authority and the wisdom is prophethood, and taught him of what He willed means He taught him the making of the coats of mail, and it has been said that the meaning is that Allah gave to David the kingship of Talut and the prophethood of Ashmawil.\n\nThe next clause is then explained. Were it not that Allah, by means of the people of obedience to Him, repelled the people of disobedience and shirk toward Him, as He did by those who waged struggle with Talut and warded off Jalut and his armies, the earth would become corrupt, that is to say, its inhabitants would perish through His punishment of them. But Allah is a Possessor of bounty toward His creation."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "252": {
    "phrases": [
     {
-     "translation": "These are Allah’s revelations which We recite to you ˹O Prophet˺ in truth.",
-     "explanation": "The preceding account is affirmed as revelation recited truthfully to the Prophet. Its value lies not in being merely an old story, but in the guidance and lessons it conveys. The phrase grounds the narrative in divine revelation and invites reflection on its meaning.  The account is therefore offered as guidance for the present community."
-    },
-    {
-     "translation": "And you are truly one of the messengers",
-     "explanation": "The Prophet Muhammad is affirmed as a genuine messenger of God. The statement reinforces the authority of his message and connects him with the line of prophets described throughout the passage. It assures him that the revelation and stories he conveys are from God.  His confirmation strengthens the believers facing opposition and doubt."
+     "translation": "These are Allah’s revelations which We recite to you ˹O Prophet˺ in truth. And you are truly one of the messengers",
+     "ar": "تِلۡكَ ءَايَٰتُ ٱللَّهِ نَتۡلُوهَا عَلَيۡكَ بِٱلۡحَقِّۚ وَإِنَّكَ لَمِنَ ٱلۡمُرۡسَلِينَ",
+     "explanation": "The Exalted means by His word these are the signs of Allah, these signs in which Allah has recounted the affair of those who left their dwellings, and they were in their thousands, out of fear of death, and the affair of the notables among the Children of Israel after Musa, who asked their prophet to appoint over them Talut as king, and what follows thereafter of signs up to His word but Allah is full of bounty toward the worlds."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "253": {
    "phrases": [
