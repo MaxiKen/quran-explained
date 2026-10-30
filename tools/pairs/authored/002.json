@@ -1655,70 +1655,42 @@
   "101": {
    "phrases": [
     {
-     "translation": "Now, when a messenger from Allah has come to them—confirming their own Scriptures—",
-     "explanation": "The verse describes a messenger whose message confirms what the People of the Book already possess. The contrast between recognition and rejection is central: the new revelation is not portrayed as unrelated to their earlier scripture. The phrasing situates the disagreement in a specific historical encounter."
-    },
-    {
-     "translation": "some of the People of the Book cast the Book of Allah behind their backs as if they did not know",
-     "explanation": "Some reject the revelation despite the connection it makes with earlier scripture. “Behind their backs” pictures deliberate disregard, as though they had no knowledge of the message. The verse criticizes those who knowingly turn away, not every member of the named communities. The image presents deliberate disregard, not an accidental failure to notice."
+     "translation": "Now, when a messenger from Allah has come to them—confirming their own Scriptures—some of the People of the Book cast the Book of Allah behind their backs as if they did not know",
+     "ar": "وَلَمَّا جَآءَهُمۡ رَسُولٞ مِّنۡ عِندِ ٱللَّهِ مُصَدِّقٞ لِّمَا مَعَهُمۡ نَبَذَ فَرِيقٞ مِّنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ كِتَٰبَ ٱللَّهِ وَرَآءَ ظُهُورِهِمۡ كَأَنَّهُمۡ لَا يَعۡلَمُونَ",
+     "explanation": "The verse is explained as describing a particular group. By the words when there came to them, what is meant is the scribes of the Jews, so the people who received the messenger are named rather than left general.\n\nThe messenger and what he brought are then described. A messenger from Allah came to them confirming what was with them, and the explanation of that clause is given at length, since the confirming is what makes their response inexcusable, the new message agreeing with the book they already held.\n\nThe response is explained from the image used for it. Casting the Book of Allah behind their backs is a figurative expression, and its sense is that they put it behind them as a person puts away a thing he does not want to look at, so the picture is one of deliberate turning away.\n\nThe closing words are then explained. As though they did not know means that it was as if these people who threw the Book away had no knowledge of it at all, and the comparison is drawn because their conduct is that of someone ignorant."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "102": {
    "phrases": [
     {
      "translation": "They ˹instead˺ followed the magic promoted by the devils during the reign of Solomon.",
-     "explanation": "The verse rejects the claim that Solomon practiced disbelief through magic and instead attributes the teaching to devils. It distinguishes prophetic righteousness from the harmful practices falsely associated with Solomon. The passage addresses claims about magic and warns against confusing it with divinely guided wisdom."
+     "ar": "وَٱتَّبَعُواْ مَا تَتۡلُواْ ٱلشَّيَٰطِينُ عَلَىٰ مُلۡكِ سُلَيۡمَٰنَۖ",
+     "explanation": "The people described as following are identified, and the sense given is that they followed what the devils recited, that is, what the devils composed and spread during the reign of Solomon. Two views are then recorded about who is meant by the followers. Some said that Allah meant the Jews who lived in the region to which the Messenger of Allah had emigrated, so the verse speaks of people who were alive when it came down. Others said that He meant the Jews who lived in the time of Solomon, so the verse speaks of an earlier generation. The reports naming who held each view are given.\n\nThe thing followed is then described as reciting, which is the word used of reading something aloud and repeating it, so what the devils did is presented as teaching and spreading rather than as a single act, and what they spread during that reign is the magic the rest of the verse describes.\n\nThe reign of Solomon is named as the period in which this spreading took place, and the verse goes on at once to clear him of what was attached to that period, since the next clause denies that he disbelieved. The naming of the reign is therefore not an accusation against the king but a way of fixing when the magic was circulated among them."
     },
     {
-     "translation": " Never did Solomon disbelieve, rather the devils disbelieved.",
-     "explanation": "Solomon is explicitly cleared of disbelief. The verse assigns wrongdoing to the devils who promoted magic, reversing the accusation that a prophet was responsible. This contrast protects the distinction between divine revelation and deceptive practices. The distinction protects the prophet from the false accusation. explicitly."
+     "translation": "Never did Solomon disbelieve, rather the devils disbelieved.",
+     "ar": "وَمَا كَفَرَ سُلَيۡمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُواْ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحۡرَ",
+     "explanation": "The denial concerning Solomon is explained first, and a question is raised about the construction of the sentence, with the manner of its precedence explained at length. Others said that the word translated as never carries the meaning of that which, and is a conjunction on what precedes it, and the reports naming who said so are given.\n\nThe clause about teaching people magic is then joined to the devils, so the teaching is described as theirs and not his. A further question is raised about whether the two angels named later are a closer specification of the people who were taught, and the answer is given at length, since the wording allows more than one way of attaching the names."
     },
     {
-     "translation": " They taught magic to the people,",
-     "explanation": "The devils taught magic, which the verse presents as a harmful and forbidden practice. The phrase does not treat magical claims as a source of legitimate spiritual power. It identifies their teaching as deception that can lead people away from faith and toward harm. Their teaching is associated with deception and harmful practice."
-    },
-    {
-     "translation": " along with what had been revealed to the two angels, Hârût and Mârût, in Babylon.",
-     "explanation": "The verse mentions Hârût and Mârût in connection with a test. Their warning in the next phrase is essential to understanding the passage: they do not invite people to abandon faith. The text’s details have been interpreted in different ways, so readers should avoid inventing stories beyond what the verse states."
-    },
-    {
-     "translation": " The two angels never taught anyone without saying, “We are only a test ˹for you˺, so do not abandon ˹your˺ faith.”",
-     "explanation": "Before teaching, the two angels warn people that the matter is a test and tell them not to disbelieve. Their warning makes clear that people remain responsible for their choice. The verse does not present harmful magic as something to pursue casually or as an acceptable substitute for faith."
-    },
-    {
-     "translation": " Yet people learned ˹magic˺ that caused a rift ˹even˺ between husband and wife;",
-     "explanation": "Some people learned practices that could damage even the close bond between spouses. The verse emphasizes the harm such learning can cause in relationships. It is a warning about destructive use, not an endorsement of magic or an invitation to treat accusations of magic as fact."
-    },
-    {
-     "translation": " although their magic could not harm anyone except by Allah’s Will.",
-     "explanation": "The verse affirms that no harm occurs outside God’s ultimate power. This does not make harmful practices acceptable, since the surrounding passage condemns learning what damages people. The statement places limits on human claims of power and reminds readers that God alone has ultimate control."
-    },
-    {
-     "translation": " They learned what harmed them and did not benefit them—",
-     "explanation": "The people chose knowledge that brought harm without true benefit. The phrase contrasts apparent power with real good, showing that not everything people can learn is worth pursuing. The passage evaluates knowledge by its moral effects and its relationship to faith. The choice had costs without providing genuine good."
-    },
-    {
-     "translation": "although they already knew that whoever buys into magic would have no share in the Hereafter.",
-     "explanation": "They understood that this choice carried spiritual consequences. The image of buying into magic connects the teaching with a bad bargain, echoing the chapter’s repeated theme of trading lasting good for temporary gain. The warning calls people to weigh the Hereafter rather than pursue harmful practices."
-    },
-    {
-     "translation": " Miserable indeed was the price for which they sold their souls, if only they knew",
-     "explanation": "The conclusion describes their choice as a terrible exchange that costs them their souls. They trade faith and lasting reward for something harmful and without true benefit. The verse urges readers to recognize the cost of a choice before its consequences become clear. The warning echoes the chapter’s theme of a disastrous exchange."
+     "translation": "They taught magic to the people, along with what had been revealed to the two angels, Hârût and Mârût, in Babylon. The two angels never taught anyone without saying, “We are only a test ˹for you˺, so do not abandon ˹your˺ faith.” Yet people learned ˹magic˺ that caused a rift ˹even˺ between husband and wife; although their magic could not harm anyone except by Allah’s Will. They learned what harmed them and did not benefit them—although they already knew that whoever buys into magic would have no share in the Hereafter. Miserable indeed was the price for which they sold their souls, if only they knew",
+     "ar": "وَمَآ أُنزِلَ عَلَى ٱلۡمَلَكَيۡنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَۚ وَمَا يُعَلِّمَانِ مِنۡ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحۡنُ فِتۡنَةٞ فَلَا تَكۡفُرۡۖ فَيَتَعَلَّمُونَ مِنۡهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيۡنَ ٱلۡمَرۡءِ وَزَوۡجِهِۦۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنۡ أَحَدٍ إِلَّا بِإِذۡنِ ٱللَّهِۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمۡ وَلَا يَنفَعُهُمۡۚ وَلَقَدۡ عَلِمُواْ لَمَنِ ٱشۡتَرَىٰهُ مَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖۚ وَلَبِئۡسَ مَا شَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡۚ لَوۡ كَانُواْ يَعۡلَمُونَ",
+     "explanation": "What was sent down to the two angels in Babylon is discussed first in its wording. The people of knowledge differed concerning the particle used here, some taking it as a negative and others as a relative, and it is noted that it is permissible to read it with either sense, each giving the clause a different shape.\n\nThe two angels are then named, and what they did is described. They taught no one without first saying that they are a trial, so do not disbelieve, which means that the person who came to learn was warned before being taught, and the learning was left to his own choice after the warning.\n\nWhat people learned from them is then described as something that brings about separation between a man and his wife, and the verse states that their magic harms no one except by the permission of Allah, so the effect is placed under His will and not under the power of the magic itself.\n\nThe loss that follows is stated in two parts. They learned what harms them and does not benefit them, and they already knew that whoever buys magic has no share in the hereafter. The verse ends by calling what they sold their souls for a wretched price, and adds that they would have seen this had they known."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "103": {
    "phrases": [
     {
-     "translation": "If only they were faithful and mindful ˹of Allah˺,",
-     "explanation": "The verse contrasts pursuing harmful practices with genuine faith and mindfulness of God. Such mindfulness would guide people away from choices that injure themselves and others. The phrase presents a better direction rooted in reverence and obedience. Such awareness would have restrained them from harmful choices."
-    },
-    {
-     "translation": " there would have been a better reward from Allah, if only they knew",
-     "explanation": "Faithfulness would bring a better reward from God than the harmful bargain described earlier. The repeated wish that they knew emphasizes how badly they misjudged the outcome. The verse directs readers toward lasting good rather than immediate, destructive gain. The verse contrasts that lasting reward with their chosen loss."
+     "translation": "If only they were faithful and mindful ˹of Allah˺, there would have been a better reward from Allah, if only they knew",
+     "ar": "وَلَوۡ أَنَّهُمۡ ءَامَنُواْ وَٱتَّقَوۡاْ لَمَثُوبَةٞ مِّنۡ عِندِ ٱللَّهِ خَيۡرٞۚ لَّوۡ كَانُواْ يَعۡلَمُونَ",
+     "explanation": "The wish expressed at the start of the verse is explained first. By the words if only they had believed and been God fearing, Allah means that if those who learned from the two angels the thing by which they brought about separation between a man and his wife had believed, that is, had held Allah and His Messenger to be true together with what He brought, and had feared Him, then what follows would have been theirs instead. The people spoken of are therefore the same people described in the verse before it, and the belief asked of them is stated in full rather than left general.\n\nThe reward named is then explained from its root. The word used here is a verbal noun in Arabic from the saying of a person who says that he rewarded someone with a reward, and its origin is a verb meaning that a thing returned to you. One then says that he caused it to return to you, so the reward is named from returning, which is why the same root is used for what a person comes back to at the end of an action. The explanation of the verse is that a reward from Allah would have been better for them than what they took, and the word itself carries the sense of something given back in return.\n\nThe construction of the sentence is then discussed by the grammarians. Some of the grammarians of Basra claimed that this sentence belongs to the kind in which the indication lying in the wording is enough, so that the second clause, which answers the condition, can be left unspoken because the listener supplies it. On that reading the answer to if only is understood and not stated.\n\nOthers among the grammarians of Basra rejected that claim. They held that the response to the words if only they had believed and been God fearing is the word for reward itself, and that the particle for if was answered by it even though Allah reported the matter with the completed form of the verb, and the reason for that is given, since the completed form is used here of something certain enough to be spoken of as already done.\n\nThe two positions are recorded side by side, and the difference between them concerns the grammar of the answer rather than the sense of the verse, which on either reading is that belief and fear of Allah would have brought them something better than what they chose. The verse closes by saying that they would have known this had they known anything at all, which puts the loss back on their own knowledge."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "104": {
    "phrases": [
@@ -1740,41 +1712,51 @@
    "phrases": [
     {
      "translation": "The disbelievers from the People of the Book and the polytheists",
-     "explanation": "The verse names groups involved in the historical religious setting. The wording describes those who opposed the believers at that time and should not be generalized to all Jews, Christians, or people of other faiths in the present. The verse describes opponents in its own historical setting only."
+     "ar": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا",
+     "explanation": "The people named are the disbelievers among the People of the Book together with those who associate partners with Allah, and the verb used of them is explained as meaning that they do not love. The unwillingness described is therefore a settled dislike rather than a passing preference, since the word names a state of the heart."
     },
     {
-     "translation": " would not want you to receive any blessing from your Lord,",
-     "explanation": "The verse says that some opponents did not wish the believers to receive divine favor. It presents envy as a motive in the conflict. This is a contextual statement about those described, not a reason to presume hostility in every person from the named communities."
+     "translation": "would not want you to receive any blessing from your Lord,",
+     "ar": "ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ",
+     "explanation": "The two groups are joined in the grammar, the word for those who associate partners standing in the genitive by conjunction on what precedes it.\n\nThe explanation of the statement is then given. Those who disbelieve among the People of the Book do not love that any good should be sent down to the believers from their Lord, and the same is said of those who associate partners.\n\nIt is then noted that this verse carries a clear indication that Allah has forbidden the believers to lean on such people, since a person who does not want any good to come to you is not one whose support can be relied on."
     },
     {
-     "translation": " but Allah selects whoever He wills for His mercy. And Allah is the Lord of infinite bounty",
-     "explanation": "God’s mercy is His to grant, and no group can restrict it through envy or opposition. The closing attributes emphasize that divine generosity is abundant. The verse reassures believers that God’s favor is not controlled by human resentment or competing claims. No human group can limit the generosity God chooses to give."
+     "translation": "but Allah selects whoever He wills for His mercy. And Allah is the Lord of infinite bounty",
+     "ar": "وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ",
+     "explanation": "The answer to their unwillingness is given in the second half of the verse. Allah singles out with His mercy whom He wills, and the explanation of that is given at length, since the singling out is described as His own choice and not as something earned by the people it reaches.\n\nThe closing name is then explained. Allah is the possessor of tremendous bounty, and the clause is read as a statement that what He gives is not measured by what others want Him to give, so the bounty named here answers the wish named at the start of the verse."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "106": {
    "phrases": [
     {
      "translation": "If We ever abrogate a verse or cause it to be forgotten,",
-     "explanation": "The verse addresses changes in revealed instruction, whether a verse is superseded or no longer retained. It assures readers that this occurs by divine wisdom rather than human manipulation. Discussions of how abrogation works require care and should not be reduced to a claim that scripture is inconsistent."
+     "ar": "مَا نَنسَخۡ مِنۡ ءَايَةٍ أَوۡ نُنسِهَا نَأۡتِ",
+     "explanation": "The word for abrogate is explained from its origin. It comes from the copying of a writing, namely the transferring of a text from one copy into another, so the root sense is not destruction but replacement by something written in its place. The explanation of the clause is then given, and what is meant by whatever verse We abrogate is set out.\n\nThe consequence of that meaning is then drawn. When this is what the abrogating of a verse means, it makes no difference, once its ruling has been abrogated, whether the wording remains with the ruling removed or both are taken away together, since in either case the thing that governed conduct has been replaced. The discussion of this point is given at length, because it settles what kind of change the verse is speaking about.\n\nThe commentators then differed concerning the explanation of the words whatever We abrogate. Some took them one way and others another, and the reports naming who said each are recorded with them.\n\nThe second thing named in the verse is the causing of a verse to be forgotten, and it is placed beside abrogation as the other way in which a ruling ceases to be carried by the community. The answer that follows concerns both, since what is said next is that whatever happens to a verse, something takes its place."
     },
     {
-     "translation": " We replace it with a better or similar one. Do you not know that Allah is Most Capable of everything",
-     "explanation": "God provides a replacement that is better or comparable for the purpose intended. The verse grounds this in divine power and authority over revelation. It answers objections by reminding listeners that God knows what guidance is appropriate for people and when it should be given."
+     "translation": "We replace it with a better or similar one. Do you not know that Allah is Most Capable of everything",
+     "ar": "بِخَيۡرٖ مِّنۡهَآ أَوۡ مِثۡلِهَآۗ أَلَمۡ تَعۡلَمۡ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ",
+     "explanation": "The replacement is then explained. We bring something better than it or like it, and the commentators differed concerning these words, some taking better in one sense and others in another. One explanation recorded is that Allah brings something better than what He abrogated, or something like it, and the reports of who held each view are given.\n\nThe meaning of better than it is then set out at length, since the comparison is not between two texts as texts but between what each of them requires of people, and the explanation turns on that.\n\nThe verse closes with a question that answers the objection behind it. Do you not know that Allah is capable of everything, which is put as the reason why a change in what He sends down cannot be used against Him, since the power to replace one ruling with another belongs to the same power that made the first one."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "107": {
    "phrases": [
     {
      "translation": "Do you not know that the kingdom of the heavens and the earth belongs ˹only˺ to Allah,",
-     "explanation": "The verse reminds people that all sovereignty belongs to God. This includes the heavens and the earth, so He has authority over revelation, law, and human affairs. The statement challenges anyone who assumes that divine instruction is outside God’s control. This sovereignty includes authority over revelation and its timing."
+     "ar": "أَلَمۡ تَعۡلَمۡ أَنَّ ٱللَّهَ لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۗ وَمَا لَكُم",
+     "explanation": "The kingdom named is explained first, and the sense of the clause is that to Allah belongs the dominion of the heavens and the earth, so nothing in them is outside His disposal.\n\nA question is then raised about the form of the address. Did the Messenger of Allah not already know that Allah is capable of all this, and why is he spoken to as though the knowledge were being given to him for the first time? The answer recorded from some is that this is simply an announcement from Allah that Muhammad already knew it.\n\nThe reading preferred is then given. Even though the sentence appears on its surface as an address directed to the Prophet, in reality it is aimed at his community, and this is widespread in the language of the Arabs and eloquent among them, that a speaker casts his words in the form of an address to one person while meaning another. So Allah cast these words as an address to the Prophet while meaning by them the people of his community, who are the ones who need to be told what the verse goes on to say."
     },
     {
-     "translation": " and you have no guardian or helper besides Allah",
-     "explanation": "People cannot replace God as the ultimate protector and helper. The phrase calls for reliance on Him rather than assuming that worldly support can override divine authority. It reinforces the preceding statement of God’s sovereignty and care. No other protector can override God’s ultimate authority."
+     "translation": "and you have no guardian or helper besides Allah",
+     "ar": "مِّن دُونِ ٱللَّهِ مِن وَلِيّٖ وَلَا نَصِيرٍ",
+     "explanation": "The two things denied are explained from their forms. The word for helper is a noun on a known pattern, derived from the saying of a person who says, I helped you, so I am your helper, and the two forms built from it are given.\n\nThe words besides Allah are then explained as meaning other than Allah and after Allah, so the phrase excludes every other source of protection and support at once. Guardian and helper are named together because the first covers the one who takes charge of a person's affairs and the second the one who comes to his aid, and neither is to be found for them apart from Him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "108": {
    "phrases": [
