@@ -2350,86 +2350,82 @@
   "144": {
    "phrases": [
     {
-     "translation": "Indeed, We see you ˹O Prophet˺ turning your face towards heaven.",
-     "explanation": "God acknowledges that the Prophet has been looking toward heaven, awaiting instruction about the prayer direction. The phrase presents his concern as known to God. It introduces the change that will answer the Prophet’s hope. His attention expresses hope for guidance, not dissatisfaction with God’s earlier command."
+     "translation": "Indeed, We see you ˹O Prophet˺ turning your face towards heaven. Now We will make you turn towards a direction ˹of prayer˺ that will please you.",
+     "ar": "قَدۡ نَرَىٰ تَقَلُّبَ وَجۡهِكَ فِي ٱلسَّمَآءِۖ فَلَنُوَلِّيَنَّكَ قِبۡلَةٗ تَرۡضَىٰهَاۚ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ",
+     "explanation": "The opening is explained first. By We see the turning of your face toward the heaven, the sense given is that We see how you turn and direct yourself.\n\nThe word for turning is then explained. It means the turning about and the directing. And by toward the heaven, the meaning is in the direction of the heaven and toward its side, so the verse pictures the messenger looking up and waiting.\n\nWhy he longed for it is then discussed. Others said that he longed for it because it was the prayer direction of his father Abraham, and the report naming who said that is given.\n\nThe promise that follows is then explained. By We will surely turn you to a prayer direction that pleases you, the sense is that We will turn you to a direction that pleases you, and by so turn your face, the sense is that you should turn your face and change its direction."
     },
     {
-     "translation": " Now We will make you turn towards a direction ˹of prayer˺ that will please you.",
-     "explanation": "God promises a prayer direction that will please the Prophet. The change is presented as divine instruction and a response to his hope, not a choice made independently. The phrase prepares the community for a new direction in worship. The change confirms that the Prophet’s concern is answered through revelation."
+     "translation": "So turn your face towards the Sacred Mosque ˹in Mecca˺—wherever you are, turn your faces towards it.",
+     "ar": "وَحَيۡثُ مَا كُنتُمۡ فَوَلُّواْ وُجُوهَكُمۡ شَطۡرَهُۥۗ",
+     "explanation": "The command about turning the face is explained first. By wherever you may be, turn your faces toward it, the sense given is that wherever the believers may be on the earth, they are to turn their faces toward the sacred mosque, and the suffix in its direction refers to the sacred mosque.\n\nA disagreement about the door is then recorded. Others said that the entire house is a prayer direction, and that the prayer direction of the house is its door, and the report naming who said that is given.\n\nThe ruling preferred is then given at length. It is what Allah said, that you should turn your face in the direction of the sacred mosque, and whoever turns his face in that direction is the one who has correctly faced the prayer direction. It suffices for the one who directs himself toward it that he have the intention in his heart that he is directing himself toward it, just as the one who follows an imam is only obliged to follow him even if his body is not directly in line with the imam, and even if he stands at one end of the row while the imam is at the other end, provided he is behind him and praying in the direction in which the imam prays. So too is the ruling of the prayer direction, for when he is to the right or to the left of it and facing it, he directs himself toward it validly, whether the distance be great or small, provided he does not turn his back to it.\n\nThe saying of the messenger is then given, that the house is the prayer direction and the prayer direction of the house is its door."
     },
     {
-     "translation": " So turn your face towards the Sacred Mosque ˹in Mecca˺—wherever you are, turn your faces towards it.",
-     "explanation": "The command establishes the Sacred Mosque in Mecca as the direction of prayer. Believers are to face it wherever they are. This shared orientation unites the community in worship and marks a specific instruction from God. This instruction establishes the qibla for prayer wherever the worshippers may be."
+     "translation": "Those who were given the Scripture certainly know this to be the truth from their Lord.",
+     "ar": "وَإِنَّ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ لَيَعۡلَمُونَ أَنَّهُ ٱلۡحَقُّ مِن رَّبِّهِمۡۗ",
+     "explanation": "The second half of the verse is explained first. By those who were given the Book, the sense is that the scribes of the Jews and the scholars of the Christians.\n\nThe knowledge named is then set out. By know for certain that it is the truth from their Lord, the sense is that these rabbis and scholars know for certain that the change of the prayer direction is the truth from their Lord, and by from their Lord, the meaning is that it is a binding obligation upon the servants of Allah and not a matter of their choice."
     },
     {
-     "translation": " Those who were given the Scripture certainly know this to be the truth from their Lord.",
-     "explanation": "The verse says that people given earlier scripture can recognize the truth of the command. It situates the qibla change within the revelation known to them, while the surrounding debate includes those who dispute it. The statement concerns recognition of the message in this historical context."
-    },
-    {
-     "translation": " And Allah is never unaware of what they do",
-     "explanation": "God knows the responses of those who accept or resist the instruction. Nothing in the debate is hidden from Him. The closing phrase assures believers that their obedience is seen and warns opponents that their actions remain accountable. Divine awareness includes responses to this command and every other deed."
+     "translation": "And Allah is never unaware of what they do",
+     "ar": "وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعۡمَلُونَ",
+     "explanation": "The closing words are then explained. By Allah is not unaware of what you do, the sense given is that Allah is not unaware of what the believers do, so the statement warns them that their deeds are watched, and the account of that is given."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "145": {
    "phrases": [
     {
-     "translation": "Even if you were to bring every proof to the People of the Book,",
-     "explanation": "The verse says that abundant evidence would not persuade the disputants described. It emphasizes the role of unwillingness, not a lack of available argument. The phrase concerns a particular historical dispute and should not be generalized to all Jews or Christians. The warning prepares the Prophet to stay firm even when debate continues."
+     "translation": "Even if you were to bring every proof to the People of the Book, they would not accept your direction ˹of prayer˺, nor would you accept theirs; nor would any of them accept the direction ˹of prayer˺ of another.",
+     "ar": "وَلَئِنۡ أَتَيۡتَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ بِكُلِّ ءَايَةٖ مَّا تَبِعُواْ قِبۡلَتَكَۚ وَمَآ أَنتَ بِتَابِعٖ قِبۡلَتَهُمۡۚ وَمَا بَعۡضُهُم بِتَابِعٖ قِبۡلَةَ بَعۡضٖۚ",
+     "explanation": "The opening is explained first. By even if you were to come to those who were given the Book with every proof and every argument, the sense given is that even if the messenger came with every proof that the truth is what he has brought them, namely the change of the prayer direction to the sacred mosque, they would still refuse to hold that to be true and would not follow the prayer direction toward which he has been turned.\n\nA point of grammar is then given at length. The words for even if are answered with the past tense of the verb, whereas by rule they would be answered with the future tense, in assimilation to the words for if. The reason is that the conditional clause resembles an oath, since it is not valid except by what confirms it afterward.\n\nThe clause about not being followers of one another's prayer direction is then explained. The sense is that the Jews and the Christians do not agree upon a single prayer direction, since if he follows the prayer direction of the Jews he embitters the Christians, and if he follows that of the Christians he embitters the Jews.\n\nHe is then told to leave off what cannot be satisfied and to call them to the pure creed and the prayer direction of Abraham and the prophets after him."
     },
     {
-     "translation": " they would not accept your direction ˹of prayer˺, nor would you accept theirs; nor would any of them accept the direction ˹of prayer˺ of another.",
-     "explanation": "The passage acknowledges that the communities have different prayer directions and are unlikely to adopt one another’s practice. It discourages trying to satisfy every group by abandoning revelation. The point is fidelity to God’s instruction, not contempt for other people’s worship. Each community is responsible for following the guidance it has received."
-    },
-    {
-     "translation": " And if you were to follow their desires after ˹all˺ the knowledge that has come to you,",
-     "explanation": "The warning concerns abandoning revealed knowledge to follow others’ preferences. The verse addresses the Prophet rhetorically to underscore the seriousness of trading guidance for approval. It cautions believers against letting social pressure replace their understanding of God’s command. Approval from opponents must not become a higher priority than revelation."
-    },
-    {
-     "translation": " then you would certainly be one of the wrongdoers",
-     "explanation": "Following desires against known guidance would be wrongdoing. The phrase concludes the warning with a clear statement of responsibility. It emphasizes that knowledge brings accountability and that faithfulness requires holding to the instruction received. The strong wording marks the seriousness of knowingly abandoning revealed truth."
+     "translation": "And if you were to follow their desires after ˹all˺ the knowledge that has come to you, then you would certainly be one of the wrongdoers",
+     "ar": "وَلَئِنِ ٱتَّبَعۡتَ أَهۡوَآءَهُم مِّنۢ بَعۡدِ مَا جَآءَكَ مِنَ ٱلۡعِلۡمِ إِنَّكَ إِذٗا لَّمِنَ ٱلظَّٰلِمِينَ",
+     "explanation": "The opening is explained first. By even if you were to follow their desires, the sense given is that even if the messenger sought the satisfaction of these Jews and Christians, who said to him and his companions, be Jews or Christians, then you will be rightly guided, and were then to follow their prayer direction, that is to say, were then to return to it.\n\nThe clause that follows is then explained. By after the knowledge has come to you, the meaning is after the knowledge has reached the messenger, in that it has been made known to him that they persist in falsehood and in obstinate resistance against the truth, and that they know the prayer direction toward which he has been turned is the very one imposed upon Abraham and upon all his descendants among the messengers.\n\nThen you would surely be among the wrongdoers is then explained. The sense is that the messenger, if he were to do that, would be among the servants who wrong themselves, who oppose the command and abandon obedience to Allah."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "146": {
    "phrases": [
     {
      "translation": "Those We have given the Scripture recognize this ˹Prophet˺ as they recognize their own children.",
-     "explanation": "The verse describes some people given scripture as recognizing the Prophet clearly. The comparison conveys strong familiarity, but the claim is limited to those who recognize him and should not be generalized to every member of a community. It explains the gravity of concealing what they know."
+     "ar": "ٱلَّذِينَ ءَاتَيۡنَٰهُمُ ٱلۡكِتَٰبَ يَعۡرِفُونَهُۥ كَمَا يَعۡرِفُونَ أَبۡنَآءَهُمۡۖ",
+     "explanation": "The opening is explained first. By those to whom We have given the Book recognize it, the sense given is that the scribes of the Jews and the scholars of the Christians know that the sacred house is their prayer direction, and the prayer direction of Abraham, and the prayer direction of the prophets before the messenger, just as they recognize their own sons."
     },
     {
-     "translation": " Yet a group of them hides the truth knowingly",
-     "explanation": "Some deliberately conceal what they recognize. The verse criticizes intentional concealment, not honest disagreement or uncertainty. The phrase calls for truthful speech about revelation and stresses that knowledge brings responsibility. Awareness makes the choice to conceal truth especially serious in this account. The text contrasts their deliberate silence with the responsibility to bear witness truthfully."
+     "translation": "Yet a group of them hides the truth knowingly",
+     "ar": "وَإِنَّ فَرِيقٗا مِّنۡهُمۡ لَيَكۡتُمُونَ ٱلۡحَقَّ وَهُمۡ يَعۡلَمُونَ",
+     "explanation": "The second half is then explained. By a group of them conceal the truth while believing in it, the sense is that a group of those to whom the Book was given, and they are the Jews and the Christians, conceal the truth even while they believe in it. It has been said that the phrase means the people of the book, and the report of that is given."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "147": {
    "phrases": [
     {
      "translation": "˹This is˺ the truth from your Lord, so do not ever be one of those who doubt",
-     "explanation": "The message is affirmed as truth from God, and the Prophet is urged to remain certain. The statement provides reassurance amid disputes about revelation and prayer direction. It calls believers to trust the source of the guidance rather than be unsettled by opposition. The reassurance addresses pressure created by arguments over the new direction."
+     "ar": "ٱلۡحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلۡمُمۡتَرِينَ",
+     "explanation": "The opening is explained first. By the truth from your Lord, the sense given is that the messenger should know that the truth is that which his Lord has made known to him and brought to him from Himself, and not that which the Jews and the Christians say to him.\n\nThe warning is then explained. By so be not one of those who doubt, the sense is that the messenger should not be one of those who are in doubt about the fact that the prayer direction toward which he has been turned is the prayer direction of Abraham and of the rest of the prophets.\n\nThe word used is then examined. It is a derived form from the word for doubt, and a line of poetry is cited as a witness for that sense.\n\nA question is then raised. Was the messenger in doubt about the fact that the truth was from his Lord, such that doubting about it was forbidden to him?\n\nThe question is then answered. That belongs to the manner of speech which the Arabs express in the form of a command or a prohibition to the one addressed while another is meant by it, and the example given is the command addressed to the messenger in the verse that begins with the appeal to the prophet to be mindful of Allah and not to obey the disbelievers and the hypocrites."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "148": {
    "phrases": [
     {
      "translation": "Everyone turns to their own direction ˹of prayer˺.",
-     "explanation": "Different communities have their appointed directions of prayer. The verse acknowledges this diversity while directing attention toward obedience to God. It does not present competing directions as grounds for hostility, but as part of how communities practice worship. The acknowledged difference is not permission to neglect God’s instruction."
+     "ar": "وَلِكُلّٖ وِجۡهَةٌ هُوَ مُوَلِّيهَاۖ",
+     "explanation": "The opening is explained first. By for everyone, the sense is for every adherent of a religious community, and the rest of the phrase is left out since the wording itself points to it.\n\nThe explanation of that view is then given. For every adherent of a religious community there is a prayer direction toward which he turns and toward which he directs his face.\n\nAnother view is then set out. For every cardinal direction toward which your Lord has turned you, there is a prayer direction, and Allah turns His servants toward it.\n\nThe word for direction is then examined. It is a verbal noun, like the manner of sitting and the manner of walking, derived from turning oneself, and its meaning is that toward which one turns and toward which one directs his face in prayer.\n\nThe turning named in it is then explained. It means turning toward, and the Arabic usage is set out, since one says to another, turn to me, in the meaning of turning yourself toward me, and one says I turned toward him when one turns oneself toward him while turning away from something else.\n\nThe recitation of the phrase is then discussed. It has been transmitted from Ibn Abbas and others that they read it as he is turned thereto, in the meaning that he is turned toward that direction, and in that case the word everyone has no agent named.\n\nAnother reading is mentioned. It has been said that some of them read it as and for every direction, with the omission of the nunation and with the construct annexation, but that is a linguistic error and it is not permissible to read it thus, since the statement would then be incomplete and without meaning, and that is not admissible as coming from Allah.\n\nThe reading preferred is then given. It is and for everyone there is a direction toward which he turns, meaning that everyone has a direction and a prayer direction and each of them turns his face toward it, and the reason is the agreement of the reciters of the Quran on that reading and the anomaly of anyone who departs from it."
     },
     {
-     "translation": " So compete with one another in doing good.",
-     "explanation": "Rather than quarrel over differences, people are urged to excel in good deeds. The phrase shifts the focus from ritual dispute to moral action. The measure of faith includes what people do, and good works can be pursued across communities. Good conduct offers a constructive response to disagreement and rivalry."
-    },
-    {
-     "translation": " Wherever you are, Allah will bring you all together ˹for judgment˺.",
-     "explanation": "People will ultimately be gathered by God for judgment wherever they are now. The promise makes geography and community divisions temporary. It reminds everyone that final accountability is shared before God. The promise applies to all people, not only one nation or place. No earthly distance can prevent the gathering when God has decreed it."
-    },
-    {
-     "translation": " Surely Allah is Most Capable of everything",
-     "explanation": "God has full power to gather people and judge them. This attribute supports the promise and closes the verse with certainty. No distance or human boundary can prevent His judgment. The attribute assures believers that the promised gathering is entirely possible. Human disagreement cannot weaken God’s power to fulfill His promise."
+     "translation": "So compete with one another in doing good. Wherever you are, Allah will bring you all together ˹for judgment˺. Surely Allah is Most Capable of everything",
+     "ar": "فَٱسۡتَبِقُواْ ٱلۡخَيۡرَٰتِۚ أَيۡنَ مَا تَكُونُواْ يَأۡتِ بِكُمُ ٱللَّهُ جَمِيعًاۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+     "explanation": "The command to compete is explained first. By so compete in good deeds, the sense given is that the believers should hasten to good works in gratitude toward their Lord and should provide for themselves in this life for the hereafter, since the ways of salvation have been made clear to them. They are told to guard their prayer direction and not to squander it as the peoples before them squandered theirs.\n\nThe gathering named next is then explained. By wherever you may be, Allah will bring you all together, the sense is that in whatever place they perish, Allah will bring them all together on the day of resurrection.\n\nThe urging of the verse is then set out. It urges the believers to obedience and to providing for themselves, since they are told to compete in works of obedience and to hold fast to the prayer direction of Abraham and to the legal ordinances of his religion, for Allah will bring them and those who opposed them before each other on the day of resurrection, until the doer of good is given his reward and the doer of evil his punishment, or Allah forgives.\n\nThe closing words are then explained. By Allah is over all things Almighty, the sense is that Allah is able to gather them after their death from wherever they were, so they should hasten with good works before they die."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "149": {
    "phrases": [
