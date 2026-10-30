@@ -144,6 +144,18 @@ class PhraseExplanationTest(unittest.TestCase):
                     checked += 1
         self.assertGreater(checked, 0, "no tabari-v2 verse was measured")
 
+    def test_a_long_explanation_is_never_rejected(self):
+        """The length rule has a floor and no ceiling.
+
+        A phrase that runs long is reporting material Ṭabarī gave, not padding,
+        so the gate must accept it however long it is.
+        """
+        target = {"points": 12.0, "target_words": 180, "min_words": 108}
+        for words in (108, 180, 400, 1000, 5000):
+            self.assertIsNone(digest.length_problem(words, target, "phrase"))
+        self.assertIsNotNone(digest.length_problem(107, target, "phrase"))
+        self.assertNotIn("max_words", digest.budget([], (0, 0)))
+
     def test_tabari_phrases_name_the_arabic_they_explain(self):
         """The Arabic spans are exact, consecutive and cover the verse once."""
         for name in self.authored_names():

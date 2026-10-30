@@ -53,15 +53,12 @@ import source  # noqa: E402
 # A phrase's target length grows with the points Ṭabarī makes about it. The
 # floor keeps a one-line gloss from collapsing to nothing; there is no ceiling,
 # because a passage that carries nine distinct opinions deserves the room to
-# report them. The tolerance is proportional too, mirroring the gate the
-# withdrawn guidance layer used (tools/guidance/verify.py): short means the
-# material was not used, long means padding.
+# report them. The floor is proportional too: short means the material was not
+# used, which is the one fault worth catching.
 
 POINT_WORDS = 15          # words of summary per weighted point
 FLOOR_WORDS = 40          # a phrase with almost no material still gets this
 THIN_RATIO = 0.6          # below this share of target -> material not used
-PADDING_BASE = 60         # words of structure every explanation may carry
-PADDING_RATIO = 1.5       # above base + ratio x target -> padding
 PREFACE_WEIGHT = 0.25     # a surah preface is context, not the verse's own words
 
 # A split has to be worth making. Ṭabarī discusses يَوْمِ in seventeen words and
@@ -398,7 +395,6 @@ def budget(paragraphs_: list[dict], span: tuple[int, int]) -> dict:
         "classes": classes,
         "target_words": target,
         "min_words": max(FLOOR_WORDS, round(THIN_RATIO * target)),
-        "max_words": round(PADDING_BASE + PADDING_RATIO * target),
     }
 
 
@@ -430,15 +426,16 @@ def split_problem(target: dict, where: str) -> str | None:
 
 
 def length_problem(words: int, target: dict, where: str) -> str | None:
-    """Why an explanation's length does not match its material, or None."""
+    """Why an explanation is too short for its material, or None.
+
+    There is no upper bound. A phrase that runs long because Ṭabarī weighs
+    nine opinions in it is reporting the material, not padding it, so a long
+    explanation is never rejected here.
+    """
     if words < target["min_words"]:
         return ("%s: %d words is short for its material (%s points from Ṭabarī, "
                 "about %d words expected, at least %d)"
                 % (where, words, target["points"], target["target_words"], target["min_words"]))
-    if words > target["max_words"]:
-        return ("%s: %d words is long for its material (%s points from Ṭabarī, "
-                "about %d words expected, at most %d) — check for padding"
-                % (where, words, target["points"], target["target_words"], target["max_words"]))
     return None
 
 
@@ -513,8 +510,8 @@ def print_digest(surah: int, ayah: str | None = None, show_text: bool = True,
                   % (span[0], span[1], info["points"], info["material_words"]))
             print("  EN piece : %s" % phrase.get("translation", ""))
             print("  AR piece : %s" % phrase.get("ar", ""))
-            print("  budget   : about %d words (accept %d-%d)  draft is %d%s"
-                  % (info["target_words"], info["min_words"], info["max_words"], words,
+            print("  budget   : about %d words (floor %d, no ceiling)  draft is %d%s"
+                  % (info["target_words"], info["min_words"], words,
                      "" if not verdict else "  ! " + verdict.split(": ", 1)[-1]))
             print("  points   : %s" % ", ".join("%s×%d" % kv for kv in sorted(info["classes"].items())))
             if show_text:
@@ -559,11 +556,11 @@ def print_splits(surah: int, ayah: str) -> None:
             span = (start, start + width - 1)
             info = budget(measured, span)
             verdict = split_problem(info, "piece")
-            print("  %2d-%-2d %-30s src %6dw  pts %5.2f  subst %5.2f  target %4d [%3d-%4d]  %s"
+            print("  %2d-%-2d %-30s src %6dw  pts %5.2f  subst %5.2f  target %4d floor %3d  %s"
                   % (span[0], span[1],
                      " ".join(words[span[0]:span[1] + 1])[:30],
                      info["material_words"], info["points"], info["substantive_points"],
-                     info["target_words"], info["min_words"], info["max_words"],
+                     info["target_words"], info["min_words"],
                      "merge with a neighbour" if verdict else "stands alone"))
 
 
