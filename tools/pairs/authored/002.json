@@ -2951,225 +2951,156 @@
    "phrases": [
     {
      "translation": "O believers!",
-     "explanation": "The address identifies the community responsible for the fasting command. It signals a shared act of worship that will shape individual habits and collective life. The instruction is directed to believers as a practice of faith, not merely a dietary rule.  The practice is a communal marker of obedience and spiritual discipline."
+     "ar": "يَٰٓأَيُّهَا",
+     "explanation": "The address is explained first. By O you who believe, the sense is those who believe in Allah and His messenger and who have affirmed and acknowledged them both. And by fasting is prescribed for you, the sense is that fasting is made obligatory upon you."
     },
     {
-     "translation": "Fasting is prescribed for you—as it was for those before you—",
-     "explanation": "Fasting is established as an obligation for this community and is connected to religious communities before it. The shared practice places Muslim fasting within a wider history of devotion. Its purpose is spiritual formation, not hardship for its own sake.  Its historical continuity shows fasting is a recognized form of worship."
-    },
-    {
-     "translation": "so perhaps you will become mindful ˹of Allah˺",
-     "explanation": "The intended outcome is greater God-consciousness. By restraining permissible desires for a set time, believers practice self-control and awareness of God. Fasting trains people to choose obedience and compassion, making mindfulness the central aim of the obligation.  Self-restraint can strengthen empathy and help believers resist harmful impulses."
+     "translation": "Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺",
+     "ar": "ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+     "explanation": "The word for fasting is then examined. It is a verbal noun, from the saying of a person that I abstained from it, and its meaning is abstaining from that which Allah has commanded one to abstain from, and it is also said that the horses fasted when they ceased from travelling, and a line of poetry is cited as a witness for that sense.\n\nThe comparison with those before is then explained. As it was prescribed for those before you means it is made obligatory upon you equal to that which was made obligatory upon them.\n\nThe exegetes differed concerning whom is meant by those before you and in what sense the comparison was made.\n\nOne answer is then given, that the comparison is only because their fasting was from the evening prayer to the evening prayer, which was the obligation upon the believers when fasting was first made obligatory, and those who held this agreed that those meant are the Christians. Others said that those meant are the people of the book.\n\nThe closing words are then explained. That you may become God-fearing means that you may abstain from eating food, drinking drink and intercourse with women in it, so fasting is made obligatory upon you that you may abstain from what breaks your fast during the time of your fasting."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "184": {
    "phrases": [
     {
-     "translation": "˹Fast a˺ prescribed number of days.",
-     "explanation": "Fasting is required for a defined period, not indefinitely. This gives the obligation a clear and manageable scope. The phrase introduces accommodations for people whose circumstances make fasting difficult and shows that the practice is structured.  The limited duration helps people understand the obligation and plan for it."
+     "translation": "˹Fast a˺ prescribed number of days. But whoever of you is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺.",
+     "ar": "أَيَّامٗا مَّعۡدُودَٰتٖۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۚ",
+     "explanation": "The first clause is explained first. Prescribed for you is fasting for a number of appointed days. The word for days stands in the accusative because of an elided verb, and the phrase as it was prescribed for those before you pertains to the fasting itself.\n\nThe view preferred is then given. Allah meant by the days of appointed days the days of the month of Ramadan, because no report has come upon which a proof can be founded that the people of Islam were prescribed any fasting other than that of Ramadan, and because in the context of the verse Allah has made clear that the fasting He has made obligatory is that of Ramadan and no other. So whoever claims they were charged with another fasting is asked for its proof, since it can only be known through a report that cuts off excuse.\n\nThe second clause is then explained. Whoever of you is sick or on a journey, then a number of other days, meaning that upon him rests the fasting of the days that he broke during his illness or on his journey, on other days."
     },
     {
-     "translation": "But whoever of you is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺.",
-     "explanation": "People who are ill or traveling may make up missed fasts later for an equal number of days. The allowance recognizes real hardship while preserving the obligation. It balances devotion with practical care and prevents temporary circumstances from becoming a permanent loss of worship.  The missed days are made up when the temporary difficulty has passed."
-    },
-    {
-     "translation": "For those who can only fast with extreme difficulty, compensation can be made by feeding a needy person ˹for every day not fasted˺.",
-     "explanation": "The verse provides compensation through feeding someone in need for those unable to fast except with extreme difficulty. This connects worship with care for the vulnerable. It recognizes limits in human capacity and gives a concrete way to fulfill responsibility where fasting is exceptionally burdensome."
-    },
-    {
-     "translation": "But whoever volunteers to give more, it is better for them.",
-     "explanation": "Those who voluntarily give beyond the required compensation do good. The phrase encourages generosity without making extra giving compulsory. It shows how the fasting rules can inspire concern for others and make worship a source of social benefit.  Voluntary generosity adds benefit for the recipient and reward for the giver."
-    },
-    {
-     "translation": "And to fast is better for you, if only you knew",
-     "explanation": "Fasting remains better for those able to observe it, despite the accommodations for hardship. The verse affirms its spiritual value while maintaining compassion for those who need allowances. Its benefit may be deeper than people immediately perceive, including discipline and mindfulness.  The verse encourages fasting while preserving compassion for exceptional hardship."
+     "translation": "For those who can only fast with extreme difficulty, compensation can be made by feeding a needy person ˹for every day not fasted˺. But whoever volunteers to give more, it is better for them. And to fast is better for you, if only you knew",
+     "ar": "وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدۡيَةٞ طَعَامُ مِسۡكِينٖۖ فَمَن تَطَوَّعَ خَيۡرٗا فَهُوَ خَيۡرٞ لَّهُۥۚ وَأَن تَصُومُواْ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
+     "explanation": "The recitation is then discussed. The reading of all Muslims is and for those who are able to do it, and upon it their codices are based, and no one may deviate from it because of its transmission by all of them generation after generation, and Ibn Abbas used to read it as and for those who can manage it only with the utmost effort.\n\nThe reciters differed concerning its meaning. Some of them said that was at the beginning, when fasting was prescribed, and that whoever of the non-travellers was able to perform it would fast it if he wished, and if he wished he would break it and ransom it until that was abrogated. Others said that it was a special ruling for the man of great age and the old woman who were indeed able to fast, and that it was then abrogated, so that upon them rested fasting equal to what rested upon the young man.\n\nThe answer is then given. The men are excluded from being intended by it, for if the women alone were meant, it would have been said and for the women who are able to perform it, since that is how the Arabs speak when the statement is made specifically about them. And it is agreed by all that the resident healthy man who is able to fast is not permitted to break the fast and ransom it.\n\nThe meaning of the ransom is then given. It is the compensation, and the sense is that upon those who are able to perform the fasting there rests a compensation, the feeding of a needy person for each day that he breaks.\n\nThe recitation of the last clause is then discussed. Some read it with the ransom annexed to the food, and others with the two words separated, and the more correct is the annexation, since the ransom is the name of the action and is something other than the food with which the fasting is ransomed. And the reading of the needy person in the singular is preferred, because in clarifying the ruling of whoever breaks one day there lies access to the ruling of whoever breaks the whole month, and not the other way about.\n\nThe closing clause is then explained. And that you fast is better for you means that fasting what is prescribed for you of the month of Ramadan is better for you than that you break the fast and ransom it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "185": {
    "phrases": [
     {
      "translation": "Ramaḍân is the month in which the Quran was revealed as a guide for humanity with clear proofs of guidance and the standard ˹to distinguish between right and wrong˺.",
-     "explanation": "Ramaḍân is honored as the month when the Qur’an began to be revealed. The scripture guides humanity, provides clear evidence, and distinguishes truth from falsehood. The verse links fasting with gratitude for revelation, making the month a time of worship and renewed engagement with divine guidance."
+     "ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ",
+     "explanation": "The month is explained first. The word for month is derived from the word for notoriety and making conspicuous, and one says of a man that he brandished his sword when he draws it from its sheath, and likewise the month became conspicuous when its new moon appears. As for Ramadan, some of the experts claimed that it was so named because of the intensity of the heat in it, to such a degree that the young camels were scorched by the hot ground.\n\nThe case of the word is then explained. It stands in the nominative in relation to the days mentioned earlier, and it is also permissible that the nominative carries the meaning that that is the month of Ramadan, and that the month has been prescribed for you. Some reciters have read it in the accusative with the meaning that fasting has been prescribed for you, namely that you fast the month of Ramadan, and it is also permissible to place it in the accusative as a command to fast it.\n\nThe two phrases are then explained. A guidance for mankind means a guide for mankind to the path of truth, and clear proofs means clear signs of guidance, that is to say the exposition that points to the limits of Allah and His obligations and what He has made permitted and forbidden.\n\nA further point is then added. Others said that the meaning is that whoever among you witnesses the month, let him fast as much of it as he witnesses."
     },
     {
-     "translation": "So whoever is present this month, let them fast.",
-     "explanation": "Those who are present and able during Ramaḍân are commanded to fast. The rule anchors the obligation to the month associated with the Qur’an’s revelation. The following clause again provides an allowance for illness and travel, demonstrating that the command is balanced with care.  The instruction applies to those who meet the conditions for fasting."
-    },
-    {
-     "translation": "But whoever is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺.",
-     "explanation": "The allowance for illness and travel is repeated to ensure that people understand how to handle missed days. They make up an equal number afterward. This repetition highlights that divine instruction recognizes circumstances and does not require people to endanger health or endure undue difficulty."
+     "translation": "So whoever is present this month, let them fast. But whoever is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺.",
+     "ar": "وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ",
+     "explanation": "The clause is explained first. Whoever is ill or on a journey during the month and on that account breaks the fast, upon him rests the fasting of the days that he broke, on days other than the days of Ramadan.\n\nThe people differed over the illness in which breaking the fast was permitted, and some said that it is the illness in which the affected person cannot perform his prayer standing.\n\nThe meaning of a number of other days is then given, and the grammar of the word for other is explained, since the days in the plural take feminine qualifications.\n\nA question is then raised. If that is the interpretation, what of the man who was ill or on a journey and yet fasted the month? It is answered that the people of knowledge differed over all of this.\n\nSome said that the breaking of the fast in illness is a binding obligation and not a concession, and those who held that said that whoever fasts on a journey must make it up when he becomes resident.\n\nThe indication of the verse is then given as sufficient. There is no greater hardship than that there should be imposed upon the man who fasted on his journey other days, and the saying that Allah desires for you ease is enough.\n\nThe reports about the messenger are then set out, that when he was asked about fasting on a journey he said, if you wish, fast, and if you wish, break the fast.\n\nA question is then raised about the report that it is not of piety to fast on a journey, and it is answered that this applies only to a fasting in a condition such as that of the man to whom the report refers, and that whoever has had his fast broken to such a degree is not fasting out of piety."
     },
     {
      "translation": "Allah intends ease for you, not hardship,",
-     "explanation": "The rule is explicitly framed as intended ease. God’s law does not seek unnecessary hardship, and the allowances demonstrate compassion. This principle helps believers understand the fasting instructions as a coherent practice that accommodates genuine human needs.  The principle of ease governs how the entire obligation should be understood."
+     "ar": "يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا",
+     "explanation": "The correct view is then given. The illness in which Allah has permitted the breaking of the fast is that of the man whom fasting exhausts in an unbearable manner, and for him there is the breaking of the fast and the making up of other days, since otherwise he would be burdened with hardship and the ease would be denied him. As for the man whom fasting does not exhaust, he has the status of the healthy person who can bear fasting.\n\nA second statement is then given, and it is the most in accord with the correct view, since it is agreed by all that an ill person who fasts the month while he belongs to those for whom breaking is permitted has his fasting suffice him."
     },
     {
-     "translation": "so that you may complete the prescribed period and proclaim the greatness of Allah for guiding you,",
-     "explanation": "Believers complete the fasting days and glorify God for the guidance He has given. Completion and praise are joined: fasting is both an act of obedience and a response to revelation. The phrase directs attention from the physical discipline toward gratitude for spiritual direction.  Completing the days expresses commitment to the full prescribed act of worship."
-    },
-    {
-     "translation": "and perhaps you will be grateful",
-     "explanation": "Gratitude is the hoped-for result of fasting and guidance. Believers recognize the Qur’an, the ability to worship, and divine accommodations as blessings. The verse concludes by connecting discipline with thankfulness rather than self-congratulation.  Gratitude recognizes both revelation and the opportunity to respond to it.  The monthly practice thus becomes a recurring occasion for renewed appreciation."
+     "translation": "so that you may complete the prescribed period and proclaim the greatness of Allah for guiding you, and perhaps you will be grateful",
+     "ar": "يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+     "explanation": "By and that you complete the number, the sense is that you complete the days that you broke, on other days imposed upon you to make up, after your recovery or your becoming resident.\n\nThe next clause is then explained. By and that you magnify Allah for that to which He has guided you, the sense is that you exalt Allah by the remembrance of Him on account of the guidance with which He has favoured you, which He withheld from others to whom the fasting of Ramadan had been prescribed.\n\nThe closing words are then explained. By and that you may perhaps be grateful, the sense is that you may thank Allah for that with which He has favoured you, and the word for perhaps here means that."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "186": {
    "phrases": [
     {
-     "translation": "When My servants ask you ˹O Prophet˺ about Me:",
-     "explanation": "The verse addresses questions about God with a direct divine response. Rather than placing distance between God and the person praying, it emphasizes immediate nearness. The personal wording offers reassurance to anyone seeking connection and guidance through prayer.  The answer is immediate, making clear that prayer is open to every servant."
-    },
-    {
-     "translation": "I am truly near.",
-     "explanation": "God declares His nearness to His servants. This is nearness in knowledge, care, and response, not a claim that God is physically contained in a place. The statement reassures believers that prayer is heard and that they can turn to God directly.  This reassurance invites sincere reliance rather than despair or distance."
-    },
-    {
-     "translation": "I respond to one’s prayer when they call upon Me.",
-     "explanation": "God responds to those who call upon Him. Response may take forms and timing known to God, so the phrase encourages sincere prayer rather than demanding a particular outcome. It affirms that no call is ignored and that people may approach God without intermediaries.  The promise encourages persistence even when an answer is not immediately visible."
-    },
-    {
-     "translation": "So let them respond ˹with obedience˺ to Me and believe in Me,",
-     "explanation": "Prayer is paired with obedience and faith. Believers are called to respond to God’s guidance just as they ask Him for help. This reciprocity presents prayer as part of a relationship grounded in trust, commitment, and action.  Faith and obedience show that the relationship is reciprocal and committed."
-    },
-    {
-     "translation": "perhaps they will be guided ˹to the Right Way˺",
-     "explanation": "Faithful response to God’s call leads toward guidance. Prayer is not isolated from conduct, but supports a life oriented by divine instruction. The verse ends with hope that those who call on God and obey Him will find the right path.  Guidance is a lasting benefit beyond receiving a particular requested favor."
+     "translation": "When My servants ask you ˹O Prophet˺ about Me: I am truly near. I respond to one’s prayer when they call upon Me. So let them respond ˹with obedience˺ to Me and believe in Me, perhaps they will be guided ˹to the Right Way˺",
+     "ar": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌۖ أُجِيبُ دَعۡوَةَ ٱلدَّاعِ إِذَا دَعَانِۖ فَلۡيَسۡتَجِيبُواْ لِي وَلۡيُؤۡمِنُواْ بِي لَعَلَّهُمۡ يَرۡشُدُونَ",
+     "explanation": "The question is explained first. By and when My servants ask you about Me, the sense is that they ask where I am, and indeed I am close to them, I hear their supplication and I answer the supplication of the one among them who supplicates.\n\nThe occasion of the revelation is then given. Some of them said that it was sent down because of a questioner who asked the prophet, saying, is our Lord near so that we may confide in Him, or is He far away so that we must call out to Him? Others said that it was sent down as an answer to the question of a group who asked the prophet, at what hour should we call upon Allah? And others said that it was sent down as an answer to the words of a group who, when Allah said to them, call upon Me and I will answer you, said, toward where should we call upon Him!\n\nThe clause about believing is then explained. And let them believe in Me means and let them affirm, so let them believe in Me when they respond to Me through obedience, that I stand as guarantor for them behind their obedience, regarding the reward for it and My generous bestowal of honour upon them.\n\nThe closing clause is then explained. That they may be rightly guided means so let them respond to Me through obedience and let them believe in Me, so that they affirm that upon their obedience there follows reward from Me, and let them thereby be guided to the right path.\n\nThe meaning of the supplication is then given at length. The first is that by the supplication is meant acting according to that which Allah has urged and commanded, so the sense is that I am near to the one who obeys Me and acts according to what I have commanded him, and I answer him with reward for his obedience, and the calling is the servant's request to his Lord for that which He has promised His faithful as reward, and the answering is the fulfilment of His promise. And it is related from the prophet in his saying, indeed the calling is the worship.\n\nA second reading is then noted, that I answer the supplication of the supplicant when he calls upon Me, if I will it, so that it would be specific in meaning though phrased in general terms."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "187": {
    "phrases": [
     {
-     "translation": "It has been made permissible for you to be intimate with your wives during the nights preceding the fast.",
-     "explanation": "Intimacy between spouses is permitted during the nights of fasting. The instruction clarifies the boundaries of the fast and removes uncertainty about marital life after sunset. It treats lawful intimacy as part of ordinary human life within limits set by God.  This clarification removes doubt and protects the fasting practice from confusion."
-    },
-    {
-     "translation": "Your spouses are a garment for you as you are for them.",
-     "explanation": "The image of spouses as garments for one another conveys closeness, mutual care, and protection. The relationship is reciprocal rather than one-sided. The phrase honors intimacy within marriage and emphasizes the comfort and dignity spouses should provide each other.  The metaphor conveys mutual intimacy, care, and the sharing of private life."
-    },
-    {
-     "translation": "Allah knows that you were deceiving yourselves.",
-     "explanation": "God knew that some believers had struggled to observe the earlier restriction and had acted against it. The phrase acknowledges human weakness honestly rather than concealing it. Divine knowledge makes the subsequent pardon and clarification an act of mercy and practical guidance.  God’s knowledge provides the basis for a rule that addresses actual human experience."
-    },
-    {
-     "translation": "So He has accepted your repentance and pardoned you.",
-     "explanation": "God accepts repentance and forgives the believers who turned back after their missteps. The verse offers reassurance that failure need not become permanent when people repent sincerely. It presents the clarification of the rule alongside forgiveness and compassion.  The pardon shows that sincere repentance can follow a mistaken action."
+     "translation": "It has been made permissible for you to be intimate with your wives during the nights preceding the fast. Your spouses are a garment for you as you are for them. Allah knows that you were deceiving yourselves. So He has accepted your repentance and pardoned you.",
+     "ar": "أُحِلَّ لَكُمۡ لَيۡلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمۡۚ هُنَّ لِبَاسٞ لَّكُمۡ وَأَنتُمۡ لِبَاسٞ لَّهُنَّۗ عَلِمَ ٱللَّهُ أَنَّكُمۡ كُنتُمۡ تَخۡتَانُونَ أَنفُسَكُمۡ فَتَابَ عَلَيۡكُمۡ وَعَفَا عَنكُمۡۖ",
+     "explanation": "The opening is explained first. It has been made lawful for you means it has been released and permitted to you, and the night of the fast means on the night of the fast. And the word used is a euphemism for sexual intercourse, and it has been transmitted that in the recitation of Ibn Masud it reads with the plural form, and the people of interpretation have spoken in accordance with what has been said about the interpretation of it.\n\nThe metaphor of the garment is then examined at length. Your women are a garment for you and you are a garment for them, and the first possible meaning is that each of the two is made a garment for the other because of their being together during sleep, their coming together under one robe, and the joining of the body of each with that of the other, and a line of poetry is cited as a witness.\n\nThe other possibility is then given. Each of the two is made a garment for the other because he finds rest in the other, as He has made the night a garment and the wife a repose in which he finds rest.\n\nA third sense is then added, that what covers a thing and conceals it from the eyes of onlookers is also said to be its garment and its covering, so it is possible that each of you is for the other a covering for what takes place between you of sexual intercourse."
     },
     {
      "translation": "So now you may be intimate with them and seek what Allah has prescribed for you.",
-     "explanation": "Spouses are now permitted intimacy during the nights, and believers may seek what God has made lawful and beneficial. The instruction encourages them to follow the clarified rule without shame. It directs desire within divinely established boundaries.  The permission applies within the nights and does not remove the daytime fast."
+     "ar": "فَٱلۡـَٰٔنَ بَٰشِرُوهُنَّ وَٱبۡتَغُواْ مَا كَتَبَ ٱللَّهُ لَكُمۡۚ وَكُلُواْ وَٱشۡرَبُواْ",
+     "explanation": "The word for intercourse is then explained. It is the coming together of skin with skin, and the skin of the man is his outer skin, and Allah has described by these words only sexual intercourse, so the sense is that now that He has made lawful for you intercourse with your women, then have intercourse with them in the nights of Ramadan until the dawn breaks, and that is the becoming distinct of the white thread from the black thread of the dawn.\n\nThe correct view is then given at length. By seek what Allah has prescribed for you, the sense is that you should seek what Allah the Exalted has decreed for you, and He means only that you should seek that which He has prescribed for you in the Preserved Tablet to be lawful, so that it is released to you. The seeking of the child, when the man seeks it by his intercourse with the woman, belongs to what has been prescribed for him, and likewise if he seeks what He has made lawful. All the meanings of the sought good may fall under the phrase, except that the meaning most consonant with the apparent form of the verse is that it means seek what Allah has prescribed for you of offspring, since it follows His saying, now have intercourse with them. So the sense that the phrase means seeking what Allah has prescribed in your intercourse with them of affection and progeny is more in accordance with the verse than the other interpretations, for which there is no indication of correctness in the apparent form of the revelation, nor a narration from the messenger."
     },
     {
-     "translation": "˹You may˺ eat and drink until you see the light of dawn breaking the darkness of night,",
-     "explanation": "Eating and drinking remain permitted through the night until dawn becomes distinguishable. The phrase defines when the daily fast begins. Its clear timing helps believers practice the obligation consistently while allowing nourishment during the permitted hours.  The visible dawn offers a practical sign for beginning daily abstention."
-    },
-    {
-     "translation": "then complete the fast until nightfall.",
-     "explanation": "The fast continues from dawn until nightfall. This marks the daily period of abstention and gives the practice a clear beginning and end. The instruction is practical, making the rhythm of fasting understandable and shared by the community.  The time limit makes the daily worship clear and consistent for all."
-    },
-    {
-     "translation": "Do not be intimate with your spouses while you are meditating in the mosques.",
-     "explanation": "During devotional retreat in a mosque, marital intimacy is not permitted. The restriction protects the focused nature of the retreat. The verse distinguishes this period from ordinary nights of fasting and clarifies that worship has particular boundaries.  Devotional retreat has conditions that distinguish it from ordinary married life."
-    },
-    {
-     "translation": "These are the limits set by Allah, so do not exceed them.",
-     "explanation": "The fasting and retreat rules are described as limits established by God. Believers are asked to respect those boundaries rather than treat them casually. The phrase emphasizes that knowing the detailed permissions and restrictions is part of mindful obedience.  Clear limits protect the integrity of worship and prevent self-serving exceptions."
-    },
-    {
-     "translation": "This is how Allah makes His revelations clear to people, so they may become mindful ˹of Him˺",
-     "explanation": "God clarifies these rules so people can understand and observe them with mindfulness. Clear guidance supports worship without unnecessary confusion. The verse concludes by connecting practical instruction to the broader goal of God-conscious living.  Understanding the rules helps people practice them with sincere awareness.  Mindfulness guides believers to respect both the permission and the restriction."
+     "translation": "˹You may˺ eat and drink until you see the light of dawn breaking the darkness of night, then complete the fast until nightfall. Do not be intimate with your spouses while you are meditating in the mosques. These are the limits set by Allah, so do not exceed them. This is how Allah makes His revelations clear to people, so they may become mindful ˹of Him˺",
+     "ar": "حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلۡخَيۡطُ ٱلۡأَبۡيَضُ مِنَ ٱلۡخَيۡطِ ٱلۡأَسۡوَدِ مِنَ ٱلۡفَجۡرِۖ ثُمَّ أَتِمُّواْ ٱلصِّيَامَ إِلَى ٱلَّيۡلِۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمۡ عَٰكِفُونَ فِي ٱلۡمَسَٰجِدِۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَقۡرَبُوهَاۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَّقُونَ",
+     "explanation": "The people of interpretation differed concerning this. Some said that by the white thread is meant the light of day, and by the black thread the darkness of night, and the interpretation according to that view is that you eat at night in the month of your fasting, and drink, and have intercourse with your women, seeking what Allah has prescribed for you of offspring, from the beginning of the night until the light of day appears to you through the breaking of the dawn out of the darkness of the night."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "188": {
    "phrases": [
     {
-     "translation": "Do not consume one another’s wealth unjustly,",
-     "explanation": "People are forbidden to take or use one another’s wealth through unjust means. The principle protects property and discourages exploitation, fraud, and coercion. It applies broadly to economic dealings and makes justice essential to how wealth is acquired.  Fair exchange depends on consent, honesty, and respect for other people’s rights."
-    },
-    {
-     "translation": "nor deliberately bribe authorities in order to devour a portion of others’ property,",
-     "explanation": "The verse specifically condemns using bribery or legal manipulation to seize another person’s property. Appearing to have official approval does not make an unjust claim lawful. The warning protects people from corruption that disguises theft as legitimate procedure.  The use of influence cannot turn an unjust transfer into a rightful one."
-    },
-    {
-     "translation": "knowing that it is a sin",
-     "explanation": "The wrongdoing is especially serious when people know their conduct is sinful. Awareness removes the excuse of ignorance and emphasizes deliberate responsibility. The verse calls for integrity in disputes and warns against exploiting institutions to enrich oneself unjustly.  The warning urges people to resist greed even when wrongdoing seems advantageous."
+     "translation": "Do not consume one another’s wealth unjustly, nor deliberately bribe authorities in order to devour a portion of others’ property, knowing that it is a sin",
+     "ar": "وَلَا تَأۡكُلُوٓاْ أَمۡوَٰلَكُم بَيۡنَكُم بِٱلۡبَٰطِلِ وَتُدۡلُواْ بِهَآ إِلَى ٱلۡحُكَّامِ لِتَأۡكُلُواْ فَرِيقٗا مِّنۡ أَمۡوَٰلِ ٱلنَّاسِ بِٱلۡإِثۡمِ وَأَنتُمۡ تَعۡلَمُونَ",
+     "explanation": "The command is explained first. Let not one of you consume the wealth of another through falsehood, and He made the one who consumes the wealth of his brother through falsehood equal to the one who consumes his own wealth through falsehood.\n\nThe second half is then explained. And do not litigate with your wealth before the judges, in order to consume a portion of the wealth of people through sin, while you know. And by through sin, the meaning is through the forbidden which Allah has declared forbidden to you, and while you know means that you deliberately consume that with premeditation regarding what Allah has declared forbidden, and in the knowledge that your deed is disobedience to Allah.\n\nThe word for lowering is then explained. Its origin is the letting down by a man of the bucket into a well, fastened to a rope, and it is said of the one who argues for his claim that he adduced such and such as argument, when his argument is a means for him to which he clings in his dispute, like the clinging of one who draws water from a well to a bucket which he has lowered into it. And the same is said of both adducing proof and lowering the bucket, with the same form of the verb."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "189": {
    "phrases": [
     {
-     "translation": "They ask you ˹O Prophet˺ about the phases of the moon.",
-     "explanation": "People ask about the changing appearances of the moon. The answer addresses the practical purpose of these phases rather than offering abstract speculation. The question introduces a teaching about how natural cycles support communal timing and religious observance.  Their regular pattern makes the moon a practical marker for the calendar."
+     "translation": "They ask you ˹O Prophet˺ about the phases of the moon. Say, “They are a means for people to determine time and pilgrimage.”",
+     "ar": "يَسۡـَٔلُونَكَ عَنِ ٱلۡأَهِلَّةِۖ قُلۡ هِيَ مَوَٰقِيتُ لِلنَّاسِ وَٱلۡحَجِّۗ وَلَيۡسَ",
+     "explanation": "The occasion is then explained. It has been transmitted that the messenger was asked about the waxing and waning of the new moons and the variation in their states, whereupon Allah sent down this verse as an answer to that about which they asked.\n\nThe second half is then explained. By and the pilgrimage, the sense is that He also made them an appointed time for your pilgrimage, so that through them you may know the time of your rites and your pilgrimage."
     },
     {
-     "translation": "Say, “They are a means for people to determine time and pilgrimage.”",
-     "explanation": "The lunar phases help people measure time and know when to perform pilgrimage. The moon’s visible changes provide a shared calendar for ordinary life and worship. The answer highlights the practical wisdom of creation and links observation of nature with religious practice.  This shared timing helps communities coordinate both worship and daily affairs."
-    },
-    {
-     "translation": "Righteousness is not in entering your houses from the back doors.",
-     "explanation": "The verse rejects a customary practice of entering homes through their backs as a supposed act of righteousness. Outward rituals without divine basis do not create true piety. The statement redirects attention from inherited superstition to the real meaning of God-consciousness.  The verse critiques a particular custom, not ordinary respect for tradition."
-    },
-    {
-     "translation": "Rather, righteousness is to be mindful ˹of Allah˺.",
-     "explanation": "True righteousness is grounded in mindfulness of God. This inner orientation shapes ethical behavior and obedience more deeply than arbitrary customs. The phrase provides a concise principle for distinguishing genuine devotion from practices that merely appear religious.  Awareness of God should shape conduct rather than rely on superstition."
-    },
-    {
-     "translation": "So enter your homes through their ˹proper˺ doors,",
-     "explanation": "People are told to enter homes through their proper doors, following ordinary and sensible practice. The instruction replaces an unfounded custom with clear guidance. It illustrates that religion does not require needless difficulty or ritualized behavior without sound reason.  Ordinary actions can be performed simply without inventing ritual obstacles."
+     "translation": "Righteousness is not in entering your houses from the back doors. Rather, righteousness is to be mindful ˹of Allah˺. So enter your homes through their ˹proper˺ doors,",
+     "ar": "ٱلۡبِرُّ بِأَن تَأۡتُواْ ٱلۡبُيُوتَ مِن ظُهُورِهَا وَلَٰكِنَّ ٱلۡبِرَّ مَنِ ٱتَّقَىٰۗ وَأۡتُواْ ٱلۡبُيُوتَ مِنۡ أَبۡوَٰبِهَاۚ وَٱتَّقُواْ",
+     "explanation": "It has been said that the verse was sent down concerning a people who, when they entered the state of ritual consecration, would not enter their houses through their doors.\n\nThe explanation of the verse is then given. Righteousness does not consist, O people, in your entering the houses in the state of your consecration from their backs, but righteous is he who fears Allah, so fears Him and avoids His prohibitions, and obeys Him by performing His obligations. And as for entering the houses from their backs, in that there is no righteousness toward Allah. So enter them from whichever side you wish, through their doors or otherwise, so long as you do not believe that it is forbidden to enter them through their doors in any state, for that is not permissible for you to believe."
     },
     {
      "translation": "and be mindful of Allah so you may be successful",
-     "explanation": "The verse returns to God-consciousness as the path to success. Mindfulness helps people follow genuine guidance and avoid empty customs. The conclusion links spiritual awareness with a flourishing life grounded in obedience and sound judgment.  Success comes through obedience rooted in sincere awareness of God."
+     "ar": "ٱللَّهَ لَعَلَّكُمۡ تُفۡلِحُونَ",
+     "explanation": "The closing words are then explained. And fear Allah, O people, so be on your guard against Him and hold Him in awe by obeying Him in what He has imposed upon you of His obligations, and by avoiding what He has forbidden you, so that you may succeed and thereby attain your desires with Him, and thereby reach the abiding in His gardens and the eternity in His bliss. And the meaning of success was expounded earlier with that which indicates it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "190": {
    "phrases": [
     {
-     "translation": "Fight in the cause of Allah ˹only˺ against those who wage war against you,",
-     "explanation": "The verse permits fighting in God’s cause against those who wage war, framing it as defensive and constrained. It does not authorize indiscriminate violence or attack on people who are not fighting. The qualification establishes the context and limits of armed conflict.  The restriction protects noncombatants and prevents aggression against others."
-    },
-    {
-     "translation": "but do not exceed the limits.",
-     "explanation": "Even in conflict, believers must not transgress. The command rules out excess and requires restraint under God’s moral boundaries. Fighting does not suspend justice or permit harm beyond what is allowed, making ethical limits integral to the instruction.  The command remains binding even when conflict and anger are intense."
-    },
-    {
-     "translation": "Allah does not like transgressors",
-     "explanation": "God’s disapproval of transgression reinforces the restriction. Believers cannot justify excess by invoking the cause of God. The phrase makes clear that divine support is not for wrongdoing and calls for disciplined conduct even amid conflict.  The warning prevents people from using religious language to excuse abuse."
+     "translation": "Fight in the cause of Allah ˹only˺ against those who wage war against you, but do not exceed the limits. Allah does not like transgressors",
+     "ar": "وَقَٰتِلُواْ فِي سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَٰتِلُونَكُمۡ وَلَا تَعۡتَدُوٓاْۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلۡمُعۡتَدِينَ",
+     "explanation": "The question of abrogation is discussed first, and the correct view is given. It is the statement that Umar ibn Abd al-Aziz made, since the claim of a verse being abrogated while it is possible that it is not, without proof for the correctness of the claim, is arbitrariness.\n\nThe explanation of the verse is then given. And fight, O believers, in the way of Allah, and His way is the path He has made clear and the religion He has prescribed for His servants, so fight in obedience to Me and according to what I have prescribed for you of My religion, and call to that whoever has turned away from it, with the hands and the tongues, until they return to obedience to Me, or they give you the jizyah in humility if they are people of the book. And He commanded them to fight those from whom fighting issued among the combatants of the people of disbelief.\n\nThe last clause is then explained. Do not kill a newborn, nor a woman, nor whoever gives you the jizyah, and those who overstep His limits are the transgressors."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "191": {
    "phrases": [
     {
      "translation": "Kill them wherever you come upon them and drive them out of the places from which they have driven you out.",
-     "explanation": "This command occurs within a passage addressing armed persecution and expulsion, not as permission for indiscriminate violence. It refers to confronting those who had driven the believers from their homes. The surrounding limits, including the sacred sanctuary and the command to stop when aggression ends, govern how this instruction is understood."
+     "ar": "وَٱقۡتُلُوهُمۡ حَيۡثُ ثَقِفۡتُمُوهُمۡ وَأَخۡرِجُوهُم مِّنۡ حَيۡثُ أَخۡرَجُوكُمۡۚ",
+     "explanation": "The command is explained first. Kill, O believers, those among the polytheists who wage war against you, wherever you encounter them in a condition in which you are able to overcome them and kill them.\n\nThe word is then explained. Its meaning with regard to a matter is to be skilled and sharp-sighted in it, and one says of a man that he is truly on his guard in battle when he has keen perception of the places where killing can be done, and the word has another meaning, namely the straightening. So kill them in every place where you are able to kill them and where you have keen perception of the places where they can be killed."
     },
     {
      "translation": "For persecution is far worse than killing.",
-     "explanation": "The verse condemns persecution as a grave wrong, describing it as worse than killing in this conflict context. Oppression that prevents people from practicing their faith and drives them from home is not treated as harmless. The statement explains the defensive struggle while not excusing excess or aggression."
+     "ar": "وَٱلۡفِتۡنَةُ أَشَدُّ مِنَ ٱلۡقَتۡلِۚ",
+     "explanation": "The clause is then explained. And the tribulation is worse than killing means that ascribing partners to Allah is worse than killing.\n\nThe meaning of it is then set out. The trial of the believer in his religion, until he apostatises from it and thus, after his Islam, becomes one who ascribes partners to Allah, is worse for him and more harmful than that he be killed while remaining steadfast in his religion, holding fast to it and adhering to the truth in it."
     },
     {
-     "translation": "And do not fight them at the Sacred Mosque unless they attack you there.",
-     "explanation": "Fighting is prohibited at the Sacred Mosque unless the other side attacks there first. This special restriction protects the sanctuary and limits the conflict even under severe pressure. The verse makes clear that the believers are not to initiate violence in this sacred place.  The exception remains narrowly tied to immediate self-defense."
-    },
-    {
-     "translation": "If they do so, then fight them—that is the reward of the disbelievers",
-     "explanation": "If the opponents initiate an attack at the sanctuary, the believers may defend themselves. The consequence is tied to the aggressors’ action, not a general license to attack all disbelievers. This clause maintains the defensive context and warns that those who choose aggression bear its consequences."
+     "translation": "And do not fight them at the Sacred Mosque unless they attack you there. If they do so, then fight them—that is the reward of the disbelievers",
+     "ar": "وَلَا تُقَٰتِلُوهُمۡ عِندَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ حَتَّىٰ يُقَٰتِلُوكُمۡ فِيهِۖ فَإِن قَٰتَلُوكُمۡ فَٱقۡتُلُوهُمۡۗ كَذَٰلِكَ جَزَآءُ ٱلۡكَٰفِرِينَ",
+     "explanation": "The command is explained first. And do not fight them at the sacred mosque until they fight you there, but if they fight you, then kill them, such is the recompense of the unbelievers.\n\nThe recitation is then discussed. The reciters of Medina and Mecca read it as do not fight them at the sacred mosque until they fight you there, so that you do not begin the fighting against the polytheists there until they begin it against you, but if they begin against you in the sacred precinct then kill them, since Allah has set as recompense for the unbelievers being killed in this life and prolonged humiliation in the hereafter. And most of the reciters of Kufa read it as do not kill them until they kill you there.\n\nThe correct reading is then given. It is the first, because Allah did not command His prophet and his companions to surrender themselves to the polytheists until they had first made one slain among themselves, after the fighting had already been permitted, so that the reading containing the permission to kill them only after they have killed one of them has no preference over it. And it is known that He had already permitted them to fight when the beginning of the fighting came from the polytheists, both before they had killed anyone of them and after."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "192": {
    "phrases": [
     {
      "translation": "But if they cease, then surely Allah is All-Forgiving, Most Merciful",
-     "explanation": "If the opponents stop their persecution and aggression, fighting must cease. God’s forgiveness and mercy provide the reason not to continue hostility after its cause has ended. The verse prioritizes restraint and the possibility of reconciliation, rather than treating conflict as an end in itself."
+     "ar": "فَإِنِ ٱنتَهَوۡاْ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+     "explanation": "The clause is then explained. If the unbelievers whom you fight cease from fighting you and from their unbelief in Allah, and they desist from that and repent, then Allah is indeed forgiving with regard to the sins of whoever among them believes and repents from his polytheism and returns to Allah from his acts of disobedience and the days that have passed, and merciful toward him in his hereafter through His favour to him and by granting him what He grants to the people of obedience of reward, on account of his return to what He loves from his disobedience."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "193": {
    "phrases": [
