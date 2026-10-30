@@ -666,137 +666,151 @@
    "phrases": [
     {
      "translation": "Believe in My revelations which confirm your Scriptures.",
-     "explanation": "The address calls the people to believe in revelations that affirm the truth of earlier scripture. It presents continuity between messages from God rather than competition between them. The command asks listeners to recognize what they have received and respond faithfully, instead of rejecting confirmation because it challenges their expectations."
+     "ar": "وَءَامِنُواْ بِمَآ أَنزَلۡتُ مُصَدِّقٗا لِّمَا مَعَكُمۡ",
+     "explanation": "Believe is explained as affirming something to be true, and what is to be affirmed is the revelation sent down to Muhammad. The word confirming is then given its grammatical place. It describes the state of what was sent down, referring back to the pronoun understood inside the verb, so the sense is that the new revelation confirms the scripture the addressed people already hold.\n\nTwo readings of the command that follows are set aside. One took be not the first to deny it as meaning denial of their own Book, on the ground that denying Muhammad is denying a Book that already carries his description. Another is reported from Abu al-Aliya. Both are judged to lie far from the apparent sense to which the recitation points, because the verse begins by commanding belief in what Allah sent down, and the denial spoken of is denial of that."
     },
     {
-     "translation": " Do not be the first to deny them or trade them for a fleeting gain.",
-     "explanation": "The warning forbids leading in rejection or exchanging revelation for a temporary worldly benefit. A fleeting gain cannot outweigh the lasting value of truth. The verse criticizes deliberate concealment or denial for advantage, and invites the audience to place fidelity to God above status, profit, or fear of losing influence."
+     "translation": "Do not be the first to deny them or trade them for a fleeting gain.",
+     "ar": "وَلَا تَكُونُوٓاْ أَوَّلَ كَافِرِۭ بِهِۦۖ وَلَا تَشۡتَرُواْ بِـَٔايَٰتِي ثَمَنٗا قَلِيلٗا وَإِيَّٰيَ",
+     "explanation": "A question of grammar is raised and answered. How can the word for disbeliever be singular when the command is addressed to a multitude? The answer is that the singular follows the sense of the word for whoever, with an explicit noun built from the verb put in its place, and that elsewhere the same idea is put in the plural. Both shapes are sound in Arabic.\n\nThe meaning is then given as an address to the community of the scholars of the People of the Book. Acknowledge as true what I sent down to My messenger of the Quran, which confirms your Book and what you already hold, and do not be the first to reject it after knowing it.\n\nTrading the signs for a small price is explained last. The people of explanation differed about it, and the reading given is do not sell the knowledge I gave you through My Book and My signs for a contemptible price and a paltry worldly gain. Their selling of it is their holding back from making clear what they were required to make clear, in exchange for what they are paid."
     },
     {
-     "translation": " And be mindful of Me",
-     "explanation": "Mindfulness means keeping God’s authority and accountability in view. This closes the address by calling the listeners to reverence that shapes what they believe and do. The reminder connects acceptance of revelation with conduct, warning against treating divine instruction as something to use only when it is convenient."
+     "translation": "And be mindful of Me",
+     "ar": "فَٱتَّقُونِ",
+     "explanation": "Fear Me alone is explained by naming what the fear concerns. Fear Me in selling My signs for a contemptible price, in buying the paltry goods of this world with them, in disbelieving in what I sent down to My messenger and in denying him. A note on the language of satiety follows, with the saying that the food of one suffices for two and the food of two for four, since the gain they took is the kind that fills a person and leaves him base."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "42": {
    "phrases": [
     {
      "translation": "Do not mix truth with falsehood",
-     "explanation": "The command forbids disguising falsehood by blending it with what is true. Such mixing can mislead people who rely on those claiming knowledge. The phrase calls for honesty and clarity, especially when discussing revelation. It warns that partial truth can still deceive when it is used to hide or distort the message."
+     "ar": "وَلَا تَلۡبِسُواْ ٱلۡحَقَّ بِٱلۡبَٰطِلِ",
+     "explanation": "Mixing is explained from its root. The verb means to intermingle, and one says I mixed this matter up for him when one obscures a thing for someone by mingling it with something else. A second verb from the same letters is distinguished from it, the one meaning the wearing of clothes, so the two are not confused.\n\nThe mixing named in the verse is then described. Among those addressed were hypocrites who displayed affirmation of Muhammad outwardly while concealing disbelief in him inwardly, and the majority of them said that he was a prophet truly sent, but sent to the Arabs alone and not to them. That is the mixing of truth with falsehood, since they joined a true acknowledgment to a false restriction of it.\n\nTwo possibilities that the verse can bear are set out, the first reported from Ibn Abbas and the second from Abu al-Aliya and Mujahid. A point of grammar accompanies them, concerning a verb put in the accusative because it follows the same construction as the one for concealing, the sense being a single connected prohibition rather than two unrelated ones."
     },
     {
-     "translation": " or hide the truth knowingly",
-     "explanation": "Knowingly concealing truth is treated as a deliberate wrong, not an innocent mistake. The phrase stresses responsibility for what one knows and communicates. Together, the commands reject both distortion and silence used to mislead, calling people to make truth clear rather than manipulate it for personal or communal advantage."
+     "translation": "or hide the truth knowingly",
+     "ar": "وَتَكۡتُمُواْ ٱلۡحَقَّ وَأَنتُمۡ تَعۡلَمُونَ",
+     "explanation": "Two interpretations of concealing the truth are noted. On the first, Allah forbade them to hide the truth just as He forbade them to mix it with falsehood, so the two prohibitions stand side by side. On the second, they form one connected act, the hiding being how the mixing is carried out. What makes the hiding culpable is the closing phrase, since they did it knowing that what they suppressed was the truth."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "43": {
    "phrases": [
     {
-     "translation": "Establish prayer, pay alms-tax,",
-     "explanation": "The commands join regular worship with giving the prescribed alms. Establishing prayer means maintaining it as a meaningful act, while alms-tax directs wealth toward obligations and those entitled to support. The verse links devotion to God with practical responsibility, showing that worship includes both ritual commitment and care in the use of wealth."
-    },
-    {
-     "translation": " and bow down with those who bow down",
-     "explanation": "Bowing with those who bow down points to joining the community in worship. The phrase emphasizes shared religious practice rather than standing apart in private devotion alone. It complements prayer and alms by describing participation with others, grounding worship in both personal commitment and communal belonging."
+     "translation": "Establish prayer, pay alms-tax, and bow down with those who bow down",
+     "ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَٱرۡكَعُواْ مَعَ ٱلرَّٰكِعِينَ",
+     "explanation": "The command is placed first. It is reported that the scribes of the Jews and their hypocrites used to tell people to establish the prayer and to give the alms tax while not doing either themselves, and this verse is read as a command to those same people to perform what they had been ordering others to perform.\n\nEstablishing the prayer is not gone over again, since its meaning was already set out earlier in the work and repeating it was avoided. The alms tax is then explained from its name. It is called by a word meaning growth and purity even though it is wealth separated from wealth, because Allah makes what is separated out bear fruit and increase, so the name belongs to it by virtue of what Allah does through it rather than by virtue of the amount.\n\nThe closing command to bow with those who bow is read as a command to join those who pray rather than to stand apart from them. It is addressed to the scribes and hypocrites named at the start, and it completes the sequence by requiring them to do in company with the believers what they had been telling other people to do."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "44": {
    "phrases": [
     {
      "translation": "Do you preach righteousness and fail to practice it yourselves, although you read the Scripture?",
-     "explanation": "The verse challenges people who urge others toward goodness while neglecting it themselves. Reading scripture increases responsibility because it provides knowledge of what is right. The question is a call to self-examination, not a rejection of teaching others. It asks whether one’s own conduct reflects the guidance one recommends."
+     "ar": "أَتَأۡمُرُونَ ٱلنَّاسَ بِٱلۡبِرِّ وَتَنسَوۡنَ أَنفُسَكُمۡ وَأَنتُمۡ تَتۡلُونَ ٱلۡكِتَٰبَۚ أَفَلَا",
+     "explanation": "The exegetes differed about the righteousness these people were urging on others. The statements recorded are judged to be close together in meaning, so the difference in wording does not divide the sense.\n\nThe explanation whose correctness is shown by the outward wording of the recitation is then given. It runs, do you command people to obey Allah and leave yourselves disobedient, while you recite the Book. The rebuke lies in the joining of the two. The people addressed read a scripture that carries the description of the messenger and the command to follow him, and they told others to do what that scripture requires while not doing it themselves.\n\nThe form of the sentence is a question, but it is not asked in order to be answered. It is put to them as a reproach, so that the ugliness of what they were doing is stated in the shape of something they have to admit. The scribes are therefore charged with two faults at once, urging obedience they withheld and knowing the Book they were not following."
     },
     {
-     "translation": " Do you not understand",
-     "explanation": "The closing question emphasizes the contradiction between knowledge and action. Understanding scripture should affect behavior, not remain merely recited or taught. The verse warns that failing to apply what one knows is a serious inconsistency, and it invites people to bring their practice into line with their words."
+     "translation": "Do you not understand",
+     "ar": "تَعۡقِلُونَ",
+     "explanation": "The closing question is explained as do you not then understand and grasp the ugliness of what you are doing. It is not a doubt about whether they have minds but a way of saying that their conduct is one no one who understood it would keep up.\n\nThis closing is then used as confirmation of the reading given before it, namely that the scribes of the Jews among the children of Israel ordered others to follow what they themselves were not following, since a reproach about failing to understand fits a people who knew better and acted otherwise."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "45": {
    "phrases": [
     {
      "translation": "And seek help through patience and prayer. Indeed, it is a burden except for the humble—",
-     "explanation": "Patience and prayer are presented as ways to seek God’s help through difficulty. The instruction may feel demanding to people who resist humility, but the humble can accept it with trust. The next verse describes them as those certain of meeting their Lord, linking perseverance in worship with awareness of the Hereafter."
+     "ar": "وَٱسۡتَعِينُواْ بِٱلصَّبۡرِ وَٱلصَّلَوٰةِۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلۡخَٰشِعِينَ",
+     "explanation": "Patience is explained first as patience in fulfilling the covenant they had concluded with Allah and in keeping His obedience. It was also said that the word here means fasting, fasting being one of the senses the word carries in Arabic, so the two explanations are not opposed.\n\nA question is then raised about the second half of the command. If seeking help through patience is understood as holding to the covenant and to obedience, what is the meaning of seeking help through prayer? The answer given is that prayer is the means by which the servant asks for what he cannot carry by himself, so the two are joined because one is endurance and the other is a request for the strength to endure.\n\nThe verse is then placed. Allah commanded those whose case He had described, the scholars of the children of Israel, to take their refuge in fulfilling His covenant through patience and through prayer, so the command is directed at people who already knew what the covenant required of them.\n\nThe closing clause is explained last. It is heavy means that prayer, or the covenant it serves, weighs on the person who carries it, and the weight is lifted only for the humble, who are the people described in the verse that follows. The exception is therefore not about strength of body but about a disposition, since what makes the burden light is the fear of standing before Allah that the next verse describes."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "46": {
    "phrases": [
     {
      "translation": "those who are certain that they will meet their Lord and to Him they will return",
-     "explanation": "This phrase explains who the humble people are: they are confident that they will meet God and return to Him. That certainty makes patience and prayer meaningful even when they are difficult. The verse connects daily worship with final accountability and hope, encouraging believers to persevere with their ultimate destination in view."
+     "ar": "ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُواْ رَبِّهِمۡ وَأَنَّهُمۡ إِلَيۡهِ رَٰجِعُونَ",
+     "explanation": "A difficulty is raised about the first word. How can Allah describe as humble in obedience people of whom He reports that they suppose, when supposing is commonly understood as less than knowing? The answer is that the word in Arabic is used for certainty as well as for doubt, and that this is a regular feature of the language rather than a loose usage. Words of the same kind are cited, one that means both darkness and light, and another that means both the one who gives help and the one who calls for it, so a single form carries two opposite senses.\n\nWitnesses are then brought from Arabic speech and from the Quran. A speaker says be certain that two thousand armed men are coming to you, using the word for supposing where certainty is meant, and a poet is quoted to the same effect. From the Quran, the verse in which the criminals see the Fire and suppose that they are about to fall into it is cited, where what they have is not doubt but the certainty of someone looking at what is in front of him.\n\nThe word for supposing in this verse is therefore read as certainty. What the humble are certain of is stated in the two clauses that follow, and each is explained on its own. That they will meet their Lord means that they will stand before Him and be brought to account, which is the meeting the Quran speaks of for the day of judgment. That to Him they return means that their going back is to Him and to no other, so the return is not to a place but to a person who judges.\n\nThe two clauses together are what makes the burden of the previous verse light. A person who is certain that he will meet his Lord and that his return is to Him carries patience and prayer differently from someone who treats this life as the whole of things. The description of the humble is therefore completed by naming the knowledge they hold, and the whole passage from the command to seek help through patience ends by explaining who is able to do it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "47": {
    "phrases": [
     {
-     "translation": "O Children of Israel!",
-     "explanation": "The passage again addresses the Children of Israel as a community with a particular history of revelation and divine favor. The historical address is specific and should not be generalized into a judgment about every Jewish person today. It calls the audience to remember their history and respond with gratitude and faithfulness."
+     "translation": "O Children of Israel! Remember ˹all˺ the favours I granted you",
+     "ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ",
+     "explanation": "The command to remember the favor is explained here in the same way as in the earlier verse where the same words occur, so the explanation is not repeated. What is recalled is the favor Allah bestowed on them, and the address runs to the descendants of those on whom it was bestowed."
     },
     {
-     "translation": " Remember ˹all˺ the favours I granted you",
-     "explanation": "Remembering God’s favors means keeping the gifts and deliverance they received in mind. The call is intended to inspire gratitude and obedience, not pride in past status. The verse uses shared memory to urge a faithful response in the present. Such recollection should lead to gratitude in daily life."
-    },
-    {
-     "translation": " and how I honoured you above the others",
-     "explanation": "The statement recalls a distinction and favor granted to the people addressed in their historical setting. The honor is a responsibility to respond to revelation, not a basis for arrogance or a universal ranking of present-day communities. The passage presses the listeners to live up to the guidance they were given."
+     "translation": "and how I honoured you above the others",
+     "ar": "وَأَنِّي فَضَّلۡتُكُمۡ عَلَى ٱلۡعَٰلَمِينَ",
+     "explanation": "The preference named is also part of what Allah brings to their remembrance of His blessings on them. It is then limited in scope. The explanation preferred is that they were preferred above the worlds of their own time, that is, above the peoples who lived alongside them, rather than above every people until the end of the world.\n\nThe proof offered for that limitation is a narration from the Prophet which makes clear that the children of Israel were not preferred above the community of Muhammad. Since a later community is held to be greater, the preference claimed in the verse cannot be an absolute one, and the reading that confines it to the people of that time is the one that fits both the verse and the narration."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "48": {
    "phrases": [
     {
      "translation": "Guard yourselves against the Day",
-     "explanation": "The verse urges people to prepare for the Day of Judgment by living responsibly now. “Guard yourselves” means taking the warning seriously rather than assuming that another person’s status will protect them. The following clauses describe how individual accountability cannot simply be transferred or escaped."
+     "ar": "وَٱتَّقُواْ يَوۡمٗا لَّا",
+     "explanation": "The command to guard against a day is a warning from Allah to the people addressed, and the day is described by what will not happen in it rather than by what will.\n\nA point of grammar is settled along the way. Something referring back to the day is left unspoken in the clause that follows, and it is omitted because what comes after is a sufficient indication of it, so the listener supplies it without being told. Some grammarians held that the omitted element could be nothing other than that pronoun, while others allowed a wider range, and both positions are reported."
     },
     {
-     "translation": " on which no soul will be of help to another.",
-     "explanation": "On that Day, no person can take another’s place or bear their accountability. The wording stresses the limits of human rescue at final judgment. This does not deny that people can help one another in life, but warns that each person must respond to God’s guidance and responsibility."
+     "translation": "on which no soul will be of help to another.",
+     "ar": "تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا",
+     "explanation": "The verb translated as be of help is traced to its root, which in Arabic means satisfaction and recompense. One says I satisfied him his loan and his debt, using the same verb. The scholars of the language then differed about two related forms, some holding that one means I satisfied on your behalf and the other I did sufficiently, and others holding that both carry a single meaning.\n\nThe question is put, what does it mean that no soul can satisfy for another soul or bring it any benefit, and the answer is that it cannot discharge what the other owes. A claim by some grammarians of Basra that the sense is that one soul cannot take the place of another is rejected, on the ground that if that had been the meaning the wording would have been different from what was used."
     },
     {
-     "translation": " No intercession will be accepted, no ransom taken, and no help will be given",
-     "explanation": "The verse denies that intercession, payment, or outside assistance can be assumed as an automatic escape from judgment. These are forms of protection people might expect in worldly life, but they cannot replace sincere faith and obedience. The warning is meant to prevent complacency and direct the audience toward responsibility before God."
+     "translation": "No intercession will be accepted, no ransom taken, and no help will be given",
+     "ar": "وَلَا يُقۡبَلُ مِنۡهَا شَفَٰعَةٞ وَلَا يُؤۡخَذُ مِنۡهَا عَدۡلٞ وَلَا هُمۡ يُنصَرُونَ",
+     "explanation": "Intercession is explained from its root, a verbal noun taken from saying that so and so interceded for me with so and so. The verse is then read as a whole. Guard yourselves against a day on which no soul can discharge for another soul a right owed to Allah or owed to another person, on which no intercession is accepted from it, on which no ransom is taken from it, and on which no help is given to it.\n\nThe reason those four things are named is given. Allah addressed the people this verse concerns in this way because they were Jews who held that their righteous forefathers would intercede for them with Allah and so save them from His punishment. The verse deprives them of that hope, since it states plainly that on the day in question no intercession from a soul is accepted and no ransom taken, however the person claiming it may be related to the righteous.\n\nA distinction is then drawn so that the verse is not read as a denial of intercession altogether. It is made clear that Allah may remit for His believing servants through the intercession of the Prophet on their behalf. The denial here concerns the day as it faces those who die rejecting what Allah sent, and it removes the specific claim these people were relying on, not the intercession Allah Himself permits for believers."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "49": {
    "phrases": [
     {
      "translation": "˹Remember˺ how We delivered you from the people of Pharaoh,",
-     "explanation": "The verse recalls the deliverance of the Children of Israel from Pharaoh’s rule. It presents rescue as a divine favor that should be remembered with gratitude. The account is a specific historical reference, not a general claim about later peoples or governments. The memory anchors this appeal in a concrete past event."
+     "ar": "وَإِذۡ نَجَّيۡنَٰكُم مِّنۡ ءَالِ فِرۡعَوۡنَ يَسُومُونَكُمۡ",
+     "explanation": "The word for people is explained first. It is used properly with names that are well known, as in the house of the Prophet or the kin of a named man, so the people of Pharaoh are those attached to him and following him rather than his family in the narrow sense.\n\nPharaoh himself is then described. It is said that the name was a title given to the kings of the Amalekites in Egypt, in the same way that some Roman rulers were called by one title and some Persian rulers by another. The particular Pharaoh of Moses is reported to have been named, and the report is given.\n\nA question follows about the address. How is it right to say We delivered you when the people being spoken to never met Pharaoh and were not present at any of it? The answer is that the favor bestowed on the forefathers is spoken of as bestowed on the descendants, because what befell the ancestors is counted among the blessings and the trials of the people who came from them. A poet is cited as a parallel, one who spoke of a battle day he never witnessed and of a man he never met, because the day belonged to the people he was addressing."
     },
     {
-     "translation": " who afflicted you with dreadful torment,",
-     "explanation": "Pharaoh’s people subjected the Israelites to severe oppression. The phrase names the cruelty they experienced and makes clear why deliverance mattered. It recalls injustice without softening it, and shows the audience that God’s favor included rescue from a powerful ruler’s abuse. It reminds the audience why deliverance was necessary."
+     "translation": "who afflicted you with dreadful torment,",
+     "ar": "سُوٓءَ ٱلۡعَذَابِ يُذَبِّحُونَ أَبۡنَآءَكُمۡ",
+     "explanation": "The dreadful torment is explained as the punishment that did them evil, and some said it means the most severe punishment. The question is then asked what that punishment was, and the verse answers it in the two clauses that follow.\n\nA point about the ascription is settled. Allah ascribes to the people of Pharaoh what was done to the children of Israel, the imposition of the dreadful torment and the slaughtering of the sons, even though the order came from Pharaoh himself. The deeds are named as theirs because they carried them out, and this is how Arabic speech attributes the acts of a people to the whole of them.\n\nThe explanation of the slaughtering of the sons and the keeping of the women alive is then given as it was reported, along with the reason the two were joined in one policy."
     },
     {
-     "translation": " slaughtering your sons and keeping your women.",
-     "explanation": "The oppression included killing sons and leaving women alive, a harsh policy that terrorized families. The verse preserves the painful detail to show the severity of the trial. This historical account should be understood in its own context and not generalized into an accusation against present-day communities."
-    },
-    {
-     "translation": " That was a severe test from your Lord",
-     "explanation": "The events are described as a severe test, encompassing both oppression and deliverance. The memory calls for gratitude and reflection on how people respond under hardship and after rescue. The verse connects the historical experience to the broader responsibility to remember God and follow the guidance given."
+     "translation": "slaughtering your sons and keeping your women. That was a severe test from your Lord",
+     "ar": "وَيَسۡتَحۡيُونَ نِسَآءَكُمۡۚ وَفِي ذَٰلِكُم بَلَآءٞ مِّن رَّبِّكُمۡ عَظِيمٞ",
+     "explanation": "A dissenting explanation of keeping your women is recorded. Ibn Jurayj took it in a way that departed from what the others said, and those who hold that view are criticized for leaving the explanation given by the people of explanation among the Companions and those who followed them. The reading preferred is the one that agrees with Ibn Abbas and with the statements given earlier, which takes the phrase in its plain sense of sparing the women while killing the sons.\n\nThe trial mentioned with it is then explained in two steps. In that means in what We did for you, namely Our saving you from the state you were in, so what is named here is the deliverance and not only the suffering that went before it. The word translated as test is also explained as meaning a favor, with a witness quoted for that use, because its origin in Arabic speech is testing and trial, and it came to be used of good and of evil alike since a test can be carried out by either. That is why a deliverance can be called by the same name as the torment it ended."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "50": {
    "phrases": [
     {
      "translation": "And ˹remember˺ when We parted the sea,",
-     "explanation": "The sea is parted as part of the escape from Pharaoh’s forces. The event is presented as a sign of divine power and a means of deliverance. Remembering it reminds the audience that what seemed impossible was made possible by God, and that their survival was not simply their own achievement."
+     "ar": "وَإِذۡ فَرَقۡنَا بِكُمُ ٱلۡبَحۡرَ",
+     "explanation": "The clause is joined grammatically to the one before it, so this is a second item in the same list of favors. We parted the sea for you is then explained as We divided the sea for you, and the manner of it is given. They were twelve tribes, so the sea was split into twelve paths, one for each tribe.\n\nSome grammarians of Basra read the construction differently, taking the sense to be that Allah separated between them and the sea rather than divided the sea for them, and that position is reported alongside the first.\n\nBefore your very eyes is then explained. It means that they looked on at the parting of the sea and at the destruction of the people of Pharaoh, so nothing in the event was hidden from them. The purpose of recalling it is stated as well. Allah brings them to a halt at the place of His proofs against them and reminds them of His favors toward their forefathers."
     },
     {
-     "translation": " rescued you,",
-     "explanation": "The rescue is the central outcome of the sea crossing. The short phrase emphasizes God’s direct care for those in danger. It invites gratitude and trust, particularly when circumstances seem beyond human control. The verse credits God rather than human strength alone. It highlights their dependence on divine care."
-    },
-    {
-     "translation": " and drowned Pharaoh’s people before your very eyes",
-     "explanation": "Pharaoh’s pursuing forces are destroyed in the same event that saves the Israelites. The verse recalls a decisive end to the immediate threat, witnessed by those who were rescued. The memory underscores both divine protection and accountability for oppression, without turning the story into a license for present-day vengeance."
+     "translation": "rescued you, and drowned Pharaoh’s people before your very eyes",
+     "ar": "فَأَنجَيۡنَٰكُمۡ وَأَغۡرَقۡنَآ ءَالَ فِرۡعَوۡنَ وَأَنتُمۡ تَنظُرُونَ",
+     "explanation": "A question is raised about how Allah drowned the people of Pharaoh and saved the children of Israel in the same event, and the answer is given from the reports of what happened at the sea. The two acts are named together because they were one happening seen from two sides, the rescue of one group and the destruction of the other, and both took place while the people addressed were watching."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "51": {
    "phrases": [
