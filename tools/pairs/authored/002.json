@@ -2656,137 +2656,126 @@
    "phrases": [
     {
      "translation": "Still there are some who take others as Allah’s equal—",
-     "explanation": "Some people give others a status that belongs uniquely to God. This can involve devotion or obedience that rivals worship of the Creator. The verse warns against misplaced allegiance while leaving the specific cases to God’s judgment.  The warning addresses the serious error of sharing divine devotion with others."
+     "ar": "وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ",
+     "explanation": "The statement is explained first. The meaning of the verse is that among mankind there are those who take, besides Allah, equals to Him.\n\nThe word for equal was set forth earlier, meaning the peer, and the testimonies indicating that were given with it, so it is not repeated here."
     },
     {
-     "translation": "they love them as they should love Allah—",
-     "explanation": "Their attachment to these supposed equals takes on the intensity and devotion owed to God. The issue is not ordinary affection for people, but elevating created beings into objects of ultimate devotion. The phrase examines the heart’s priorities and the way misplaced love can shape worship."
-    },
-    {
-     "translation": "but the ˹true˺ believers love Allah even more.",
-     "explanation": "Believers’ love for God surpasses every competing attachment. This love grounds their loyalty and trust in the Creator. The contrast challenges people to consider whether their devotion is centered on God or subordinated to created powers and desires.  Their love is expressed through allegiance and obedience to God."
+     "translation": "they love them as they should love Allah—but the ˹true˺ believers love Allah even more.",
+     "ar": "أَندَادٗا يُحِبُّونَهُمۡ كَحُبِّ ٱللَّهِۖ وَٱلَّذِينَ ءَامَنُوٓاْ أَشَدُّ حُبّٗا لِّلَّهِۗ",
+     "explanation": "The equals the people took are then discussed. The exegetes differed concerning them. Some of them said that they are their gods which they worshipped besides Allah, and the report naming who said that is given. Others said no, the equals here are rather their masters whom they obeyed in disobedience to Allah, and the report naming who said that is given.\n\nThe whole clause is then set out. The meaning is that among mankind are those who, O believers, take besides Allah equals whom they love as you love Allah.\n\nThe word for love is then explained, as one greets the emir, so they love them with the fullness of the love they have for Allah."
     },
     {
      "translation": "If only the wrongdoers could see the ˹horrible˺ punishment ˹awaiting them˺,",
-     "explanation": "The verse says that wrongdoers would understand the seriousness of their choices if they could witness the coming punishment. Their present confidence may obscure the consequences. The warning invites reflection before judgment, while there is still time to change course.  The warning is meant to awaken reflection before that future arrives."
+     "ar": "وَلَوۡ يَرَى ٱلَّذِينَ ظَلَمُوٓاْ",
+     "explanation": "The opening is explained first. And if those who did wrong could see, it is stated that this is permissible when the word for indeed is put in the kasra as the opening of a new sentence, since the sense is if they could but know.\n\nThe reading preferred is then given. It is with the letter that makes it if you could see, and the sense is then you would see that the power belongs entirely to Allah and that Allah is severe in punishment, with the second clause omitted, since one contents oneself with the indication of the earlier words.\n\nThe reason for preferring it is then given. The people, when they see the punishment, already know with certainty that the power belongs entirely to Allah, so there is no basis for saying if they could but see, since that phrase is said only to one who has not seen.\n\nThe clause about beholding the punishment is then explained. It means when they see the punishment with their own eyes."
     },
     {
-     "translation": "they would certainly realize that all power belongs to Allah",
-     "explanation": "At judgment, people will recognize that ultimate power belongs to God alone. No alleged partner or worldly authority can protect anyone against His decision. This realization exposes the error of directing ultimate devotion toward anything besides the Creator.  This truth will become unmistakable when worldly powers can no longer intervene."
-    },
-    {
-     "translation": "and that Allah is indeed severe in punishment",
-     "explanation": "God’s punishment is severe for wrongdoing, a reality the verse insists should not be ignored. The statement balances the previous emphasis on divine power and warns that mercy must not be used as an excuse for injustice. It calls for reverence and accountability.  The warning is a call to turn away from wrongdoing while there is time."
+     "translation": "they would certainly realize that all power belongs to Allah and that Allah is indeed severe in punishment",
+     "ar": "إِذۡ يَرَوۡنَ ٱلۡعَذَابَ أَنَّ ٱلۡقُوَّةَ لِلَّهِ جَمِيعٗا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلۡعَذَابِ",
+     "explanation": "The reciters differed concerning the recitation of this. The majority of the people of Medina and Syria recited it with the letter that makes it if you could see and with the fatḥa on the words for indeed, so that the sense is that if you could see those who did wrong when they behold the punishment, the power belongs entirely to Allah.\n\nThe case of the two words is then explained, that they stand in the accusative because of the omitted part of the phrase.\n\nOther recitations are then set out. Some read the words for indeed with the kasra, so that the sense is that you would know the state into which they will come, and others read them with the letter that makes it if those who did wrong could see, so that the first of the two stands in the accusative because of the omitted answer, and the second is coupled to the first.\n\nA grammatical claim is then mentioned, that the sense of that reading is if they could but know, since they did not know the extent of what they will behold."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "166": {
    "phrases": [
     {
-     "translation": "˹Consider the Day˺ when those who misled others will disown their followers—",
-     "explanation": "On the Day of Judgment, leaders who led people astray will reject their followers. The verse warns against blindly trusting influential figures who encourage wrongdoing. Authority and popularity cannot shield anyone from responsibility for their own choices.  Their influence cannot remove the followers’ own responsibility before God."
-    },
-    {
-     "translation": "when they face the torment—",
-     "explanation": "The disowning occurs when both leaders and followers confront punishment. In that moment, worldly confidence gives way to the reality of accountability. The phrase emphasizes that consequences become undeniable at judgment, though the warning is given now so people may act differently.  The moment reveals the consequences that worldly status had concealed."
+     "translation": "˹Consider the Day˺ when those who misled others will disown their followers—when they face the torment—",
+     "ar": "إِذۡ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُواْ مِنَ ٱلَّذِينَ ٱتَّبَعُواْ وَرَأَوُاْ ٱلۡعَذَابَ",
+     "explanation": "The opening is explained first. By when those who were followed disavow those who followed them and they see the punishment, the sense is that when those who were followed disavow those who followed them and they see the punishment.\n\nA disagreement is then recorded. The people of interpretation differed concerning whom is meant by this, and the reports of what they said are given.\n\nThe correct view is then given. Allah has announced that those who were followed in ascribing partners to Allah disavow their followers when they behold the punishment of Allah with their own eyes, and He did not single out some of them above others, but it comprises them all, so everyone who was followed in disbelief towards Allah disavows his followers who followed him in error.\n\nThe indication of the verse is then noted, which confirms the reading that the equals here are the men whom they obey and through whom they disobey Allah, and that the interpretation of those who said the ones disavowed are the devils falls away, since the verse stands in the context of the announcement concerning those who take equals."
     },
     {
      "translation": "and the bonds that united them will be cut off",
-     "explanation": "The ties that joined misleaders and followers will collapse. Alliances built around wrongdoing cannot endure before God’s judgment. The verse warns that social loyalty offers no lasting refuge when it is grounded in rejection of truth.  This judgment severs loyalties that once seemed strong and dependable."
+     "ar": "وَتَقَطَّعَتۡ بِهِمُ ٱلۡأَسۡبَابُ",
+     "explanation": "The bonds are then explained. By the bonds between them are severed, the sense is that Allah is severe in punishment when those who were followed disavow and when the bonds between them are severed.\n\nThe exegetes differed concerning the meaning of the bonds. Some of them said one thing, and others said that they are the abodes which they had among the people of this world, and the report naming who said that is given. And others said that the bonds are the deeds which they performed in this world.\n\nThe correct view is then given. Allah has announced that those who wronged themselves among the people of disbelief who died while they were disbelievers, that the followed one disavows the follower as soon as they behold the punishment of Allah with their own eyes, and that the bonds between them are severed.\n\nThe sense of the bonds is then explained further. All these are bonds by which one provides oneself in this world a means to one's desires, but Allah cut off their benefit in the hereafter for those who were disbelieving towards Him, because they were in conflict with His obedience, so their mutual friendship did not benefit them before their Lord, nor their worship of their equals, nor their obedience to their devils, and no kinship ties defended them against Allah's retribution, and their deeds did not benefit them but became grievous regret for them. Thus all the bonds of the disbelievers are severed."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "167": {
    "phrases": [
     {
-     "translation": "The ˹misled˺ followers will cry,",
-     "explanation": "The followers express anguish after realizing that those they trusted have abandoned them. Their reaction shows the cost of surrendering moral judgment to others. The verse presents this regret as a warning to choose one’s influences carefully in life.  Their distress reflects a choice to follow without examining the message."
-    },
-    {
-     "translation": "“If only we could have a second chance, we would disown them as they disowned us.”",
-     "explanation": "The followers wish for another chance so they could reject the leaders who misled them. The statement reveals regret, but it comes too late to undo their choices. The verse calls people to discern truth now rather than assuming they can reverse their decisions after judgment."
+     "translation": "The ˹misled˺ followers will cry, “If only we could have a second chance, we would disown them as they disowned us.”",
+     "ar": "وَقَالَ ٱلَّذِينَ ٱتَّبَعُواْ لَوۡ أَنَّ لَنَا كَرَّةٗ فَنَتَبَرَّأَ مِنۡهُمۡ كَمَا تَبَرَّءُواْ مِنَّاۗ",
+     "explanation": "The followers are explained first. By those who followed will say, the sense is that the followers of those men, those whom they had taken as partners alongside Allah and obeyed in disobedience to Allah, will say, when they behold the punishment of Allah in the hereafter, if only we had a return, that is a second chance by which they might return to the worldly life."
     },
     {
      "translation": "And so Allah will make them remorseful of their misdeeds.",
-     "explanation": "God will make them see and regret the consequences of their actions. Their remorse reflects the realization that their choices and loyalties led them astray. The verse links regret with wrongdoing, reminding readers that choices matter before their consequences become irreversible.  Recognition after judgment cannot undo the actions that caused regret."
+     "ar": "كَذَٰلِكَ يُرِيهِمُ ٱللَّهُ أَعۡمَٰلَهُمۡ حَسَرَٰتٍ عَلَيۡهِمۡۖ",
+     "explanation": "Thus will Allah show them their deeds is explained first. The meaning is that just as He showed them the punishment which they denied in the worldly life, so too does He show them their corrupt deeds by which they deserved the punishment, as regrets for them, that is as remorseful feelings of regret.\n\nThe exegetes differed concerning the explanation of that. Some of them said that the meaning is that thus will Allah show them the deeds He prescribed for them in the worldly life but which they neglected and did not perform, until another through his obedience deserved what Allah had prepared for them, so that the reward that escaped them became for them grief and regret. Others said that thus will Allah show them their evil deeds as regrets for them, why did they do them, and why did they not do other deeds that please Allah.\n\nThe explanation preferred is then given. Thus will Allah show the disbelievers their corrupt deeds as regrets for them, why did they do them, and why did they not do others, so they feel regret over the evil deeds they committed when they see the requital of them from Allah.\n\nA closing note is then added. What is most fitting is that to which the apparent meaning points and not that which the inner meaning might allow, since there is no indication that the inner sense is intended, and the apparent meaning of the revelation may not be turned away toward an inner interpretation."
     },
     {
      "translation": "And they will never ˹be able to˺ leave the Fire",
-     "explanation": "The verse describes the condemned as unable to escape the Fire. This completes the warning about misplaced allegiance and belated regret. It emphasizes the urgency of guidance and repentance in worldly life, while the chance to act remains open.  This finality contrasts with the present opportunity to repent and change."
+     "ar": "وَمَا هُم بِخَٰرِجِينَ مِنَ ٱلنَّارِ",
+     "explanation": "The closing words are explained. By they will not depart from the Fire, the sense is that these disbelievers, even though they feel remorse after beholding the punishment with their own eyes, so that their regret became intense and they wished for a return to the worldly life in order to repent therein and disavow those who misled them, will not depart from the Fire in which Allah made them burn on account of their disbelief, and their regret there will not save them at that moment, but therein they will abide forever."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "168": {
    "phrases": [
     {
-     "translation": "O humanity!",
-     "explanation": "The address is universal, extending beyond one community or group. The instruction that follows concerns basic choices shared by all people. Its broad opening underlines that moral guidance and care for what one consumes are relevant to humanity as a whole.  The message therefore includes practical matters alongside spiritual belief."
-    },
-    {
-     "translation": "Eat from what is lawful and good on the earth",
-     "explanation": "People are told to consume what is both lawful and wholesome. The guidance joins moral permissibility with goodness, encouraging choices that nourish rather than harm. The phrase recognizes the earth’s provisions as gifts while placing ethical limits on how people use them.  Lawful and wholesome choices respect both divine limits and human wellbeing."
-    },
-    {
-     "translation": "and do not follow Satan’s footsteps.",
-     "explanation": "The warning against Satan’s footsteps describes gradual movement toward wrongdoing. People should not follow impulses and practices that lead away from God’s guidance. The wording encourages caution at the beginning of a harmful path, before small choices accumulate into serious disobedience.  The image cautions against gradual compromise, not only obvious rebellion."
+     "translation": "O humanity! Eat from what is lawful and good on the earth and do not follow Satan’s footsteps.",
+     "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ كُلُواْ مِمَّا فِي ٱلۡأَرۡضِ حَلَٰلٗا طَيِّبٗا وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ",
+     "explanation": "The command is explained first. By eat of what is on the earth lawful and good, the address is to all people.\n\nThe footsteps of the devil are then discussed. The scholars of interpretation differed concerning the meaning of that phrase. Some of them said that the footsteps of the devil are his work, and the other sayings reported are close to one another in meaning, since each of them pointed to the prohibition of following the devil in his tracks and his deeds. The proper meaning of the word is then given, that it is the distance between his two feet, and it is then used for all his tracks and paths."
     },
     {
      "translation": "He is truly your sworn enemy",
-     "explanation": "Satan is identified as a clear enemy of humanity, so his influence should not be trusted. The warning explains why people must be discerning about what they follow. Recognizing the danger helps believers resist deception and seek guidance from God instead.  Believers are urged to remain alert to false promises and harmful suggestions."
+     "ar": "إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٌ",
+     "explanation": "The address is then explained in full. Eat of the foodstuffs that have been made lawful for you through the tongue of the messenger and thereby made good for you, and not of that which has been forbidden, such as carrion, blood, the flesh of swine, and that over which another than Allah has been invoked. And abandon the footsteps of the devil, who ruins you and forbids you your own possessions.\n\nThe devil is then described. Truly he is to you a manifest enemy, for he has made his enmity to you manifest through his refusal to prostrate before your father and his deception of him until he caused him to be expelled from the garden.\n\nThe two words are then explained. Lawful means released, and good means pure, neither impure nor forbidden."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "169": {
    "phrases": [
     {
-     "translation": "He only incites you to commit evil and indecency,",
-     "explanation": "Satan’s influence urges people toward evil and shameful conduct. The verse makes clear that such impulses should not be mistaken for guidance. Recognizing their source can help people resist them and choose actions consistent with God’s commands.  Such conduct harms people and draws them further from the path of righteousness."
-    },
-    {
-     "translation": "and to claim against Allah what you do not know",
-     "explanation": "Satan also encourages people to speak about God without knowledge, inventing claims or rules and attributing them to Him. This is a serious misuse of speech and religious authority. The phrase calls for humility and evidence when discussing divine guidance.  Religious claims require care, since falsely speaking for God can mislead others."
+     "translation": "He only incites you to commit evil and indecency, and to claim against Allah what you do not know",
+     "ar": "إِنَّمَا يَأۡمُرُكُم بِٱلسُّوٓءِ وَٱلۡفَحۡشَآءِ وَأَن تَقُولُواْ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
+     "explanation": "The opening is explained first. It continues the prohibition of following the footsteps of the devil, and by He only commands you the sense is that the devil commands you to do evil and the shameful and to say about Allah what you do not know.\n\nThe two words are then explained. Evil means sin, comparable to harm, derived from the saying of a person that a matter grieved him, so it is that which inflicts suffering upon the one who does it. And the shameful is a verbal noun, comparable to prosperity and adversity, and it is everything whose mention is regarded as shameful and whose hearing is detestable."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "170": {
    "phrases": [
     {
-     "translation": "When it is said to them, “Follow what Allah has revealed,”",
-     "explanation": "People are invited to follow God’s revealed guidance rather than inherited customs alone. Revelation provides a standard by which traditions can be assessed. The verse frames the ensuing response as a choice between guidance and unexamined imitation.  The appeal is to revelation as a guide for evaluating human custom."
-    },
-    {
-     "translation": "they reply, “No! We ˹only˺ follow what we found our forefathers practicing.”",
-     "explanation": "The people defend their practices by appealing solely to what their ancestors did. Respect for family history does not make every inherited custom true. The verse warns against treating tradition as a substitute for evidence and thoughtful obedience to God.  The reply avoids considering whether the inherited practice is actually true."
+     "translation": "When it is said to them, “Follow what Allah has revealed,” they reply, “No! We ˹only˺ follow what we found our forefathers practicing.”",
+     "ar": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُواْ مَآ أَنزَلَ ٱللَّهُ قَالُواْ بَلۡ نَتَّبِعُ مَآ",
+     "explanation": "The pronoun is then discussed. The first view is that the pronoun in and when it is said to them refers back to those among the people who take besides Allah equals, so that the meaning would be that among the people are those who take equals, and when it is said to them, follow what Allah has sent down, they say, no, we follow that upon which we found our forefathers.\n\nThe view preferred is then given. The pronoun refers to the people, and this is a return from direct address to a report about an absent party, since it comes directly after the address to people, and the account about the ones who take equals is interrupted by a new and different account, and the verse was sent down concerning the Arabs of the age of ignorance who forbade for themselves what they forbade.\n\nThe command is then explained. Follow what Allah has sent down means act according to what Allah has sent down in His Book to His messenger, so declare lawful what He makes lawful and forbid what He forbids, and take him as a leader whom you follow."
     },
     {
      "translation": "˹Would they still do so,˺ even if their forefathers had ˹absolutely˺ no understanding or guidance",
-     "explanation": "The rhetorical question exposes the danger of imitation without knowledge. If ancestors lacked understanding or guidance, copying them cannot lead to truth. The verse calls each generation to examine inherited beliefs and follow what is sound, rather than assuming age or custom guarantees correctness.  Guidance requires reasoned reflection, not merely repeating familiar habits."
+     "ar": "أَلۡفَيۡنَا عَلَيۡهِ ءَابَآءَنَآۚ أَوَلَوۡ كَانَ ءَابَآؤُهُمۡ لَا يَعۡقِلُونَ شَيۡـٔٗا وَلَا يَهۡتَدُونَ",
+     "explanation": "The whole verse is then set out. And when it is said to these unbelievers, eat of what Allah has made lawful for you and leave the footsteps of Satan behind you, then they show arrogance and refuse to submit to the truth, and they say, no, we follow the example of our forefathers, namely the making lawful of what they made lawful and the forbidding of what they forbade.\n\nThe closing clause is then explained. Even though their forefathers were, meaning the forefathers of these unbelievers who have passed away in their disbelief, who understood nothing of the religion of Allah nor of His obligations, command and prohibition, so that they should be followed upon the path they trod, and who were not guided to the right path, so that others would let themselves be guided by them?"
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "171": {
    "phrases": [
     {
      "translation": "The example of the disbelievers ˹not responding to the Messenger’s warning˺ is like a flock not comprehending the calls and cries of the shepherd.",
-     "explanation": "The verse compares people who refuse the Messenger’s warning to animals that hear a shepherd’s calls but do not grasp their meaning. The image concerns failure to respond to guidance, not lack of intelligence in general. It warns against hearing the message while refusing to reflect on it."
+     "ar": "وَمَثَلُ ٱلَّذِينَ كَفَرُواْ كَمَثَلِ ٱلَّذِي يَنۡعِقُ بِمَا لَا يَسۡمَعُ إِلَّا دُعَآءٗ وَنِدَآءٗۚ",
+     "explanation": "The first interpretation is then given. The meaning of this is that the likeness of the disbeliever, in his scant understanding of what Allah lays before him in His Book and in his poor acceptance of that to which he is called, namely the profession of the oneness of Allah and that of which he is admonished, is as the likeness of the head of cattle that hears the sound when it is called out to but does not understand what is said to it."
     },
     {
      "translation": "˹They are wilfully˺ deaf, dumb and blind so they have no understanding",
-     "explanation": "The description of deafness, muteness, and blindness is figurative: they do not use their faculties to recognize truth. Their lack of understanding follows from deliberate refusal, not a physical disability. The verse urges listeners to be receptive to warning and to engage thoughtfully with revelation."
+     "ar": "صُمُّۢ بُكۡمٌ عُمۡيٞ فَهُمۡ لَا يَعۡقِلُونَ",
+     "explanation": "Another interpretation is then given. The likeness of those who disbelieve in their invoking of their gods and their idols, which neither hear nor understand, is as the likeness of one who calls out to something that hears nothing but a shout and a call, and that is the echo, of which he hears only the sound without the caller perceiving anything from it.\n\nThe interpretation preferred is then given. It is the first, namely that the likeness of the admonition of the disbeliever and his admonisher is as the likeness of one who calls out to his flock and his calling them thereto, for it hears his calling out but does not understand his words.\n\nA point of grammar is then added, that the omission of the word for admonition is permissible, with the likeness serving as a sufficient substitute for it.\n\nThe reason for choosing this interpretation is then given. The verse was revealed concerning the Jews, who were not adherents of idols that they worshipped nor of false gods, and the evidence is the verses that precede it and that follow it, so it is more fitting that what lies between them be a report about them.\n\nThe closing words are then explained. By deaf, dumb and blind, the sense is that they are deaf to the truth so that they do not hear it, dumb in that they are speechless with respect to proclaiming the truth and making clear the matter of the messenger, and blind to the guidance and the path of the truth, so that they do not see it.\n\nA point of grammar is then added. The nominative in those words accrues on account of the beginning of a new sentence and the resumption, as one says in common usage, he is deaf, he does not hear."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "172": {
    "phrases": [
     {
-     "translation": "O believers! Eat from the good things We have provided for you.",
-     "explanation": "Believers are asked to enjoy the wholesome provisions God has given them. The instruction recognizes food as a gift and guides people toward what is good. It connects everyday consumption with faith, inviting moderation and appreciation rather than treating material needs as separate from worship."
-    },
-    {
-     "translation": "And give thanks to Allah if you ˹truly˺ worship Him ˹alone˺",
-     "explanation": "Gratitude to God is presented as a natural expression of sincere worship. Believers acknowledge the source of their provision and respond with thanks and obedience. The phrase links exclusive devotion with recognizing God’s gifts, showing that worship includes the way people appreciate and use what they receive."
+     "translation": "O believers! Eat from the good things We have provided for you. And give thanks to Allah if you ˹truly˺ worship Him ˹alone˺",
+     "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُلُواْ مِن طَيِّبَٰتِ مَا رَزَقۡنَٰكُمۡ وَٱشۡكُرُواْ لِلَّهِ إِن كُنتُمۡ إِيَّاهُ تَعۡبُدُونَ",
+     "explanation": "The address is explained first. By O you who believe, the sense is those who have held Allah and His messenger to be true, who have surrendered themselves to servitude before Allah, and who have submitted to Him.\n\nThe command is then explained. Eat of the good things with which We have provided you means eat of the permitted provision which has been made lawful for you and became good for you, namely of that which you yourselves declared forbidden though it had not been forbidden to you. And be grateful to Allah means praise Allah for that to which He has a right from your side, on account of the blessings He has provided you. If it is truly Him whom you worship means if you submit to His command and are obedient, then eat of what He has made lawful and abandon the footsteps of Satan."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "173": {
    "phrases": [
