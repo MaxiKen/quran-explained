@@ -3106,185 +3106,161 @@
    "phrases": [
     {
      "translation": "Fight against them ˹if they persecute you˺ until there is no more persecution,",
-     "explanation": "The stated aim is to end persecution, not to wage unlimited war. The bracketed context makes clear that fighting concerns those who oppress and attack the believers. The goal is that people are no longer coerced or driven from worship, after which the command to stop applies."
+     "ar": "وَقَٰتِلُوهُمۡ حَتَّىٰ لَا تَكُونَ فِتۡنَةٞ وَيَكُونَ",
+     "explanation": "The command is explained first. And fight the polytheists who fight you until there is no more trial, meaning until there is no more ascribing of partners to Allah, and until none is worshipped besides Him, and the worship of idols, gods and equals ceases, and worship and obedience belong to Allah alone to the exclusion of the other false deities and idols, as Qatada said."
     },
     {
      "translation": "and ˹your˺ devotion will be to Allah ˹alone˺.",
-     "explanation": "The purpose is freedom to devote worship to God alone, without coercion or persecution. It is not a call to force belief, but to end the oppression that obstructs religious practice. The phrase connects the struggle to protection of sincere worship.  Protection of religious freedom is the stated end of the fighting."
+     "ar": "ٱلدِّينُ لِلَّهِۖ",
+     "explanation": "The words are then explained. When they abhorred the religion, he means when they abhorred obedience and refused it. And his word that he humbled them means he humbled them, subdued them and compelled them to obedience. And his word successive means the one overtaking the other, and the assault is the assault, and to assault against his enemy means he leapt upon him and attacked him. He says, he continued his raids and assaults relentlessly until they submitted in obedience."
     },
     {
      "translation": "If they stop ˹persecuting you˺, let there be no hostility except against the aggressors",
-     "explanation": "When persecution ends, hostility must also end, apart from dealing with those who continue aggression. This limit rules out revenge against people who have ceased fighting. The verse repeatedly binds conflict to the presence of aggression and directs believers toward restraint.  The qualification leaves no basis for continued fighting after peace."
+     "ar": "فَإِنِ ٱنتَهَوۡاْ فَلَا عُدۡوَٰنَ إِلَّا عَلَى ٱلظَّٰلِمِينَ",
+     "explanation": "The clause is explained first. But if the unbelievers who fight you cease fighting you, and they enter your community of faith, and they acknowledge what Allah has imposed upon you as obligations, and they abandon that which they were upon, namely the worship of idols, then abandon the hostility against them, the fighting of them and the struggle against them. For it is not fitting that hostility be committed except against the wrongdoers, and they are those who ascribe partners to Allah and those who have abandoned His worship and worship another than their Creator.\n\nThis is entirely comparable to His saying that Allah mocks them, and to the saying that they ridicule them and Allah ridicules them, and the explanation of this and of similar cases was set forth earlier."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "194": {
    "phrases": [
     {
-     "translation": "˹There will be retaliation in˺ a sacred month for ˹an offence in˺ a sacred month, and all violations will bring about retaliation.",
-     "explanation": "The verse addresses violations of sacred limits and affirms a proportionate response when opponents breach them. It rejects the idea that sacred status prevents self-defense when attacked. The context requires measured retaliation rather than excess, and the following sentence makes that proportionality explicit.  The sacred calendar cannot be used as an excuse for an attack."
-    },
-    {
-     "translation": "So, if anyone attacks you, retaliate in the same manner.",
-     "explanation": "Believers may respond to an attack only in proportion to the harm inflicted. The command does not allow exceeding what was done, even when seeking justice. Its limit protects against vengeance and keeps retaliation within a fair, accountable boundary.  Proportionality prevents a response from becoming a new injustice."
+     "translation": "˹There will be retaliation in˺ a sacred month for ˹an offence in˺ a sacred month, and all violations will bring about retaliation. So, if anyone attacks you, retaliate in the same manner.",
+     "ar": "ٱلشَّهۡرُ ٱلۡحَرَامُ بِٱلشَّهۡرِ ٱلۡحَرَامِ وَٱلۡحُرُمَٰتُ قِصَاصٞۚ فَمَنِ ٱعۡتَدَىٰ عَلَيۡكُمۡ فَٱعۡتَدُواْ عَلَيۡهِ بِمِثۡلِ مَا ٱعۡتَدَىٰ عَلَيۡكُمۡۚ",
+     "explanation": "The sacred month is explained first. By the sacred month for the sacred month, the sense is the month of Dhu al-Qada, in which the messenger intended to perform the lesser pilgrimage of al-Hudaybiya, and in which the polytheists of Mecca barred him from access to the sacred house. He made peace that year on the condition that he would return the following year, enter Mecca and remain there three days. When the following year came he set out with his companions, and the inhabitants vacated the city for him, and he completed his lesser pilgrimage and returned to Medina. Then Allah said to His prophet and the Muslims with him, the sacred month, that is Dhu al-Qada, in which Allah brought you to His sanctuary despite the aversion of the polytheists, for the sacred month, in which they had barred you the preceding year, so Allah granted you retaliation against them in that He caused you to enter the sanctuary despite their aversion, in exchange for what they had done to you.\n\nThe name of the month is then explained. Allah called it the sacred month only because the Arabs in the time of ignorance held fighting and killing to be forbidden therein and laid down their weapons, and they had named it Dhu al-Qada because of their sitting therein, abstaining from raids and wars, so Allah named it by the name with which the Arabs used to name it.\n\nThe more fitting of the two interpretations is then given, that which is transmitted from Mujahid, since the verses before it are nothing other than a command to fight in a particular manner, and the sentence about aggression stands only in the context of the command to fighting, and Allah did not prescribe fighting for the believers except after the migration.\n\nFrom this it is known that the sentence is Medinan and not Meccan, and that it is equal to the saying, fight those who fight you, so whoever commits aggression against you in the sanctuary then commit aggression against him by means of fighting, proportionate to his aggression against you, for I have made the sacred things a matter of retaliation. And the other interpretation is then given, that the word means the rushing and pouncing, so whoever rushes upon you with wrongdoing then rush upon him as retaliation and not out of wrongdoing."
     },
     {
      "translation": "˹But˺ be mindful of Allah, and know that Allah is with those mindful ˹of Him˺",
-     "explanation": "God-consciousness must guide believers even in conflict. They are reminded that divine support belongs with those who remain within ethical limits. The verse links restraint and justice to piety, warning that anger does not excuse transgression.  Piety therefore includes restraint toward opponents. This reminder applies before, during, and after conflict."
+     "ar": "وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ مَعَ ٱلۡمُتَّقِينَ",
+     "explanation": "The closing words are then explained. And fear Allah, O believers, with regard to His sacred things and His limits, that you commit no transgression therein and do not overstep therein what He has set forth and bounded for you. And know that Allah loves the God-fearing, who fear Him by fulfilling His obligations and avoiding His prohibitions."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "195": {
    "phrases": [
     {
      "translation": "Spend in the cause of Allah",
-     "explanation": "Believers are urged to give wealth in support of God’s cause, including communal needs and those facing hardship. Generosity is part of faithful action, not separate from worship. The instruction asks people to use their resources constructively rather than withholding them out of fear or selfishness."
+     "ar": "وَأَنفِقُواْ فِي",
+     "explanation": "The meanings are discussed first. Some of them said that what is meant is that the way of Allah is His path along which He has commanded marching out against His enemy among the polytheists, and that do not cast yourselves into destruction means do not abandon spending in the way of Allah, for Allah will recompense you for it with a reward and will soon provide for you in this life. Others said that the meaning is that spending is intended, and that do not cast yourselves into destruction means do not march out in the way of Allah without provisions and without the means to bear it. Others said that it means through the sins you have committed, so that you despair of the mercy of Allah, but hope for His mercy and perform good deeds.\n\nThe correct view is then given. Allah commanded spending in His way, and His way is the path He has prescribed for His servants and made clear to them, so the meaning is that you spend in making strong His religion through struggle against your enemy who has set up war against you on account of disbelief in Him, and He forbade them to cast themselves into destruction with their own hands.\n\nAnd since all these meanings can be borne by the words, and Allah has not singled out any of them above another, the correct view is that Allah has forbidden us to cast ourselves down with our own hands into that in which our ruin lies, and to surrender ourselves to ruin, namely the punishment, by abandoning the obligations He has imposed upon us. It is therefore not permitted for us to engage in anything Allah disapproves of, that by which we deserve His punishment."
     },
     {
      "translation": "and do not let your own hands throw you into destruction ˹by withholding˺.",
-     "explanation": "Withholding needed support can expose the community and oneself to ruin. The phrase warns against allowing neglect or fear to undermine collective wellbeing. It also cautions people not to harm themselves through reckless choices, placing responsibility on them to act wisely and generously.  The phrase places responsibility on choices that weaken collective safety."
+     "ar": "سَبِيلِ ٱللَّهِ وَلَا تُلۡقُواْ بِأَيۡدِيكُمۡ إِلَى ٱلتَّهۡلُكَةِ",
+     "explanation": "A question is raised about the reason for the insertion of the particle in the words and do not cast yourselves with your own hands, since it is customary in well-known usage to say I threw so-and-so a dirham and not with a dirham.\n\nThe answer is then given. It has been said that it is added, just as the speaker adds the particle in his words I pulled at the garment and I pulled the garment, and I clung to it and I clung it, and in the saying of the one who brings forth oil, while it is in fact brings forth the oil."
     },
     {
      "translation": "And do good, for Allah certainly loves the good-doers",
-     "explanation": "Believers are called to do what is good broadly, beyond the specific act of spending. God’s love for those who do good motivates generosity, ethical restraint, and care for others. The verse concludes by connecting practical virtue with divine approval.  Goodness includes helping others and avoiding harmful conduct."
+     "ar": "وَأَحۡسِنُوٓاْۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُحۡسِنِينَ",
+     "explanation": "The closing words are then explained. By and do good, the sense is do good, O believers, in fulfilling the obligations that I have imposed upon you, in avoiding what I have commanded you to avoid of acts of disobedience to Me, in spending in My way, and in the returning of the strong among you to the weak who is in need, for I love those who do good in that."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "196": {
    "phrases": [
     {
-     "translation": "Complete the pilgrimage and minor pilgrimage for Allah.",
-     "explanation": "Pilgrimage and minor pilgrimage are to be performed sincerely for God and brought to completion. The instruction emphasizes fulfilling the rites rather than treating them casually. Devotion is directed to Allah alone, and the verse then explains what to do when circumstances prevent completion.  Sincerity keeps the pilgrimage focused on devotion rather than status."
-    },
-    {
-     "translation": "But if prevented ˹from proceeding˺, then ˹offer˺ whatever sacrificial animals you can afford.",
-     "explanation": "If a pilgrim is prevented from continuing, they should offer a sacrifice within their means. The rule provides a practical way to respond when the journey is blocked. It recognizes circumstances beyond the pilgrim’s control while preserving a meaningful act of worship.  The provision protects pilgrims whose journey is interrupted unexpectedly."
-    },
-    {
-     "translation": "And do not shave your heads until the sacrificial animal reaches its destination.",
-     "explanation": "Pilgrims are instructed not to shave their heads before the offering reaches its designated place. The timing is part of the pilgrimage procedure and keeps the rites in an orderly sequence. This detailed direction helps pilgrims know how to act during interruption and completion.  The rule provides a clear sequence during an already difficult interruption."
-    },
-    {
-     "translation": "But if any of you is ill or has a scalp ailment ˹requiring shaving˺,",
-     "explanation": "An illness or scalp condition may make shaving necessary before the usual time. The verse recognizes health needs and does not require a person to worsen a medical condition for the sake of ritual timing. It introduces a compensatory provision for this exceptional case.  Health needs are treated with care rather than ignored for ritual form."
+     "translation": "Complete the pilgrimage and minor pilgrimage for Allah. But if prevented ˹from proceeding˺, then ˹offer˺ whatever sacrificial animals you can afford. And do not shave your heads until the sacrificial animal reaches its destination. But if any of you is ill or has a scalp ailment ˹requiring shaving˺,",
+     "ar": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ",
+     "explanation": "The scholars differed concerning the prevention for which Allah imposed upon the one afflicted by it the duty of whatever is easy of a sacrificial animal. Some of them said that it is every impediment or detainer that impeded the person in the state of consecration.\n\nThe more correct interpretation is then given. If the fear of an enemy, or an illness, or an affliction prevents you from coming to the house, that is to say, your fear or your illness causes you to hold yourselves back, and therefore it was said if you are prevented, because the mention of the fear and the illness has been omitted.\n\nThe occasion of the verse is then given. It was sent down on the occasion of the lesser pilgrimage of al-Hudaybiya, at which one was prevented."
     },
     {
      "translation": "then compensate either by fasting, charity, or a sacrificial offering.",
-     "explanation": "The person who must shave early compensates through one of the listed acts: fasting, charity, or sacrifice. The alternatives make the rule manageable and acknowledge different circumstances. Worship remains meaningful while the law accommodates a genuine need.  The alternatives accommodate different abilities and material circumstances."
+     "ar": "أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ",
+     "explanation": "The question is then raised. If those who refused that the sheep falls under whatever is easy of a sacrificial animal held that it does not deserve the name of sacrificial animal, any more than if someone were to offer a chicken or an egg, then it is said that if there were a disagreement about the chicken and the egg like that about the sheep, their way would be the same.\n\nBut since that which is less than the yearling of the sheep and the two-year-old of the goats is excluded from being a valid sacrificial animal, by the proof transmitted from the prophet, that was excluded from being intended."
     },
     {
-     "translation": "In times of peace, you may combine the pilgrimage and minor pilgrimage then make the sacrificial offering you can afford.",
-     "explanation": "When travel is secure, pilgrims may combine the minor and major pilgrimages and provide a sacrifice according to their means. The offering is tied to the combined rite and is not meant to impose an unaffordable burden. The verse distinguishes this situation from being prevented en route."
-    },
-    {
-     "translation": "Whoever cannot afford that ˹offering˺, let them fast three days during pilgrimage and seven after returning ˹home˺—completing ten.",
-     "explanation": "Those unable to afford the offering fast three days during pilgrimage and seven after returning, for ten in total. This substitute ensures that financial limits do not exclude a person from fulfilling the rite. The specific count makes the alternative clear and practical.  The division of days allows completion before and after travel."
-    },
-    {
-     "translation": "These offerings are for those who do not live near the Sacred House.",
-     "explanation": "The rule about offerings applies to pilgrims who do not reside near the Sacred House. The distinction recognizes different circumstances for local residents and travelers. It provides context for the preceding provisions rather than imposing identical burdens on everyone.  Residence affects which offering requirements apply to the pilgrim."
-    },
-    {
-     "translation": "And be mindful of Allah, and know that Allah is severe in punishment",
-     "explanation": "Pilgrims are reminded to remain mindful of God while observing the rites. Careful compliance matters, and divine punishment warns against knowingly disregarding the limits. The conclusion balances the detailed permissions with a call to sincere obedience.  Mindfulness helps pilgrims observe both permissions and obligations faithfully."
+     "translation": "In times of peace, you may combine the pilgrimage and minor pilgrimage then make the sacrificial offering you can afford. Whoever cannot afford that ˹offering˺, let them fast three days during pilgrimage and seven after returning ˹home˺—completing ten. These offerings are for those who do not live near the Sacred House. And be mindful of Allah, and know that Allah is severe in punishment",
+     "ar": "أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+     "explanation": "The scholars then differed again concerning the meaning of whatever is easy of a sacrificial animal. Some of them said that it is a sheep, and the report naming who said that is given. And others said that it is something from the camels and the cattle, but of a younger age than the regular age, and the report naming who said that is given."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "197": {
    "phrases": [
     {
      "translation": "˹Commitment to˺ pilgrimage is made in appointed months.",
-     "explanation": "Pilgrimage has designated months, giving the rite a defined time. Those intending to perform it should understand its season and prepare accordingly. The verse introduces conduct expected once a person enters the state of pilgrimage.  Keeping to appointed times preserves the integrity of the pilgrimage."
+     "ar": "ٱلۡحَجُّ أَشۡهُرٞ مَّعۡلُومَٰتٞۚ فَمَن",
+     "explanation": "The months are explained first. The pilgrimage takes place in well-known months, meaning that the time of the pilgrimage is the well-known months. The months stand in the nominative because of the pilgrimage, even though the pilgrimage forms a temporal determination for them and not an adjectival qualification, because they are not delimited by a definition through annexation to a specific concept, and the same is the case in the expression of the Arabs, the Muslims on one side and the unbelievers on the other side.\n\nA question is then raised about the basis of those who say the pilgrimage occupies three full months, when the rites of the pilgrimage are not performed after the passing of the days of Mina. It is answered that by their statement they meant that the pilgrimage occupies three full months only in the sense that they are the months of the pilgrimage and not the months of the lesser pilgrimage, even though the rites of the pilgrimage are performed only in a part of them.\n\nA further question is then raised, how the pilgrimage can be said to be months when it is two months and a part of the third. It is answered that the Arabs do not refrain, particularly with regard to temporal designations, from the use of something of the like, since one says I have not seen him for two days while one means thereby only one day and a part of another, and one may perform an act in a single hour and then ascribe it to the whole year.\n\nThe undertaking of the pilgrimage is then explained. Whoever makes the pilgrimage obligatory upon himself and binds himself to it in these months, and making it obligatory upon oneself is the firm resolve to perform everything that Allah has imposed upon the pilgrim and to abstain from everything He has commanded him to abstain from.\n\nThe three possibilities are then set out. The undertaking may consist of the firm resolve alone, or of the firm resolve together with the proclamation of the pilgrimage, or of the firm resolve with the man in the state of consecration through imposing it upon himself, even though that is not manifested by the divesting of clothing and the proclamation and the performance of a part of the rites. And since the first two possibilities are invalid, the third is the correct one, so the undertaking of the pilgrimage is that whose obligation is connected with the firm resolve."
     },
     {
-     "translation": "Whoever commits to ˹performing˺ pilgrimage, let them stay away from intimate relations, foul language, and arguments during pilgrimage.",
-     "explanation": "A pilgrim must avoid sexual intimacy, indecent speech, and quarrels while performing the rite. The restrictions protect the sacred journey from being reduced to bodily desire or conflict. Pilgrimage calls for self-control, respect for others, and focused devotion.  The restriction promotes peace and reverence among pilgrims sharing the journey."
-    },
-    {
-     "translation": "Whatever good you do, Allah ˹fully˺ knows of it.",
-     "explanation": "God knows every good deed performed during pilgrimage and beyond. This assurance encourages sincere acts even when they receive no public recognition. It also reminds pilgrims that their conduct throughout the journey is part of their worship.  No sincere act of service is lost, even if others do not notice it."
-    },
-    {
-     "translation": "Take ˹necessary˺ provisions ˹for the journey˺—surely the best provision is righteousness.",
-     "explanation": "Pilgrims should make practical preparations for travel, while recognizing that the best provision is righteousness. Spiritual readiness complements material planning. The phrase rejects neglect disguised as trust in God and places God-conscious conduct above possessions.  Preparation for the journey includes character as well as supplies."
-    },
-    {
-     "translation": "And be mindful of Me, O people of reason",
-     "explanation": "The address calls thoughtful people to keep God in mind throughout pilgrimage. Reason should lead to obedience and moral discipline, not self-importance. The verse concludes by presenting mindfulness as the pilgrim’s most important orientation.  The call to reason asks pilgrims to reflect on their conduct."
+     "translation": "Whoever commits to ˹performing˺ pilgrimage, let them stay away from intimate relations, foul language, and arguments during pilgrimage. Whatever good you do, Allah ˹fully˺ knows of it. Take ˹necessary˺ provisions ˹for the journey˺—surely the best provision is righteousness. And be mindful of Me, O people of reason",
+     "ar": "فَرَضَ فِيهِنَّ ٱلۡحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي ٱلۡحَجِّۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ يَعۡلَمۡهُ ٱللَّهُۗ وَتَزَوَّدُواْ فَإِنَّ خَيۡرَ ٱلزَّادِ ٱلتَّقۡوَىٰۖ وَٱتَّقُونِ يَٰٓأُوْلِي ٱلۡأَلۡبَٰبِ",
+     "explanation": "The exegetes differed concerning the meaning by which a man undertakes the pilgrimage, after the agreement of all of them that the meaning of undertaking is obligation and binding. Some of them said that the undertaking of the pilgrimage is the pronouncing of the proclamation, and the report naming who said that is given.\n\nThey differed again concerning the meaning of the word for obscenity in this place. Some of them said that it is the uttering of obscenities to the woman in words, namely that he says, when we are out of the state of consecration, I will do this and that with you, without veiling it, and the report naming who said that is given.\n\nThey differed again concerning the meaning of the word for transgression. Some of them said that it is all acts of disobedience, and the report naming who said that is given. And others said that it is that by which one disobeys Allah during the consecration of what He has forbidden therein, such as the killing of game, the removal of hair and the cutting of nails, and the like."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "198": {
    "phrases": [
     {
      "translation": "There is no blame on you for seeking the bounty of your Lord ˹during this journey˺.",
-     "explanation": "Pilgrims are permitted to seek lawful livelihood and trade during the journey. Worship does not require abandoning every practical activity. The verse removes unwarranted guilt while keeping the focus on lawful conduct and the religious purpose of pilgrimage.  Lawful livelihood can coexist with the obligations of worship."
+     "ar": "لَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَن تَبۡتَغُواْ فَضۡلٗا مِّن رَّبِّكُمۡۚ",
+     "explanation": "The permission is explained first. There is no blame on you that you seek a bounty from your Lord.\n\nIt has been said that the meaning of seeking the bounty of Allah is seeking Allah's provision by means of trade, and that this verse was revealed concerning a people who held the view that one was not permitted to engage in trade when one had entered the state of ritual consecration, thereby seeking piety. Then He let them know that there was no piety in that, and that it was permitted for them to seek His bounty by means of selling and buying."
     },
     {
      "translation": "When you return from ’Arafât,",
-     "explanation": "After standing at ’Arafât, pilgrims move onward as part of the prescribed rites. The phrase marks a significant transition in the pilgrimage sequence. It situates the following remembrance of God within the shared ritual journey.  The movement follows the established order of pilgrimage rites. Pilgrims perform it as part of the shared, prescribed rites."
+     "ar": "فَإِذَآ أَفَضۡتُم مِّنۡ عَرَفَٰتٖ",
+     "explanation": "The reason for the name is then discussed. The scholars differed concerning why Arafat is called Arafat. Some of them said that it was so named because Abraham, the bosom friend of Allah, recognized it when he saw it, by the description of it that he had with him, and said, I have recognized it, after which it was called Arafat for that reason. And that saying indicates that it is a name for the place and that it was so named after itself and what lies around it, as one says a worn-out garment and a flat land, where the singular is put in the plural on account of what lies around it.\n\nThe correct view is then given. It is a name for a single place, named with a plural, so if it is declined with nunation it is taken in the sense of the plural that it originally was, and if the nunation is omitted it is taken as the name of a single known place, and then the nunation is omitted just as it is omitted in the names of known towns and villages."
     },
     {
      "translation": "praise Allah near the sacred place",
-     "explanation": "Pilgrims are instructed to remember and praise God at the sacred site. The rite directs attention toward God rather than personal status or worldly gain. The place and ritual action serve as occasions for gratitude and devotion.  Remembrance makes the sacred location a setting for worship, not display.  The act also reminds them of the guidance that brought them there."
+     "ar": "فَٱذۡكُرُواْ ٱللَّهَ عِندَ ٱلۡمَشۡعَرِ",
+     "explanation": "The remembrance is then explained. When you depart and return from Arafat to the place from which you had begun the journey toward it, then remember Allah, and this means the prayer and the supplication at the sacred standing place.\n\nA point of grammar is then added. The landmarks have already been explained as derived from the saying of a person, I knew it, and the landmark is so named because the prayer at it, the abiding, the spending of the night and the supplication belong to the landmarks and obligations of the pilgrimage.\n\nThe saying of Abdullah ibn Umar is then explained. When he came to al-Muzdalifa he said, all of this are landmarks up to Mecca, and the meaning of that is that they are landmarks among the landmarks of the pilgrimage, at which one performs in each place a portion of the rites, and not that all of that is the sacred standing place, such that whoever halts wherever he halts of it up to the interior of Mecca would thereby have fulfilled what is imposed upon him."
     },
     {
      "translation": "and praise Him for having guided you, for surely before this ˹guidance˺ you were astray",
-     "explanation": "Believers should thank God for guiding them, recognizing that they did not reach guidance by their own power alone. The statement recalls a former state of error and encourages humility. Gratitude for guidance is a central part of the pilgrimage and the faith it expresses."
+     "ar": "ٱلۡحَرَامِۖ وَٱذۡكُرُوهُ كَمَا هَدَىٰكُمۡ وَإِن كُنتُم مِّن قَبۡلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+     "explanation": "The clause is explained first. And remember Him as He has guided you, and the sense is that you remember Allah at the sacred standing place by praising Him and thanking Him for His favours upon you, and let your remembrance of Him be through submission to His command, obedience to Him and gratitude for the grace with which He has favoured you regarding the success toward the practices of Abraham after the state of ascribing partners, bewilderment and blindness regarding the way of truth, and after the going astray, just as His remembrance of you through guidance rescued you from the fire after you stood at the edge of a precipice of it, and that is the meaning of as He has guided you.\n\nThe last clause is then addressed. Among the linguists there are those who direct the interpretation of the word in toward the meaning of negation and the interpretation of the particle toward except, and the meaning of that is that you remember Allah as He has remembered you with guidance and thus guided you toward that which was pleasing to Him of the religions, while you were already before that time among those who went astray."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "199": {
    "phrases": [
     {
-     "translation": "Then go forth with the rest of the pilgrims.",
-     "explanation": "The Prophet and believers are instructed to proceed with the wider body of pilgrims, not separate themselves through pride or privilege. The phrase emphasizes unity in the rites and participation in the shared pilgrimage. It also directs them to continue the prescribed journey.  Shared participation rejects pride and reinforces communal equality."
-    },
-    {
-     "translation": "And seek Allah’s forgiveness.",
-     "explanation": "Pilgrims are told to ask God for forgiveness, recognizing human shortcomings even during sacred worship. The request keeps humility at the center of the journey and prevents ritual performance from becoming self-congratulation.  Seeking pardon is appropriate even after completing sacred acts.  Humility helps pilgrims recognize that worship does not make them infallible."
+     "translation": "Then go forth with the rest of the pilgrims. And seek Allah’s forgiveness.",
+     "ar": "ثُمَّ أَفِيضُواْ مِنۡ حَيۡثُ أَفَاضَ ٱلنَّاسُ",
+     "explanation": "The exegetes differed over the explanation of this. Who is meant by the command to pour forth from where the people pour forth, and who are the people who were commanded to pour forth from there?\n\nOne answer is then given. What is meant by then pour forth are the Quraysh and those whom the Quraysh had begotten, who in the time of ignorance were called the Hums, and in Islam they were commanded to pour forth from Arafat, which is the place from which all the remaining people poured forth, because the Quraysh said, we do not leave the sacred precinct, and so they were not present at the standing place at Arafa together with them.\n\nAnother answer is given, that those addressed are all the Muslims together, and that from where the people pour forth means from Jam, and that by the people is meant Abraham.\n\nThe correct view is then given. By this verse the Quraysh are meant, and those among the remaining Arabs who had joined themselves to the Hums, on account of the agreement among the exegetes.\n\nThe explanation of the verse is then given as a whole, that whoever undertakes the pilgrimage as an obligation has no sexual intercourse nor licentious conduct nor dispute during it, then pours forth from where the people pour forth and asks Allah for forgiveness.\n\nA further point is then made. Were it not for the agreement that has been described, the correct of the two explanations would be that of al-Dahhak, namely that from where the people pour forth means from where Abraham poured forth, since the pouring forth from Arafat is undoubtedly before that from Jam. And the answer is given, that the Arabs do that frequently, since they indicate the singular by the mention of the plural."
     },
     {
      "translation": "Surely Allah is All-Forgiving, Most Merciful",
-     "explanation": "God’s forgiveness and mercy give hope to those who sincerely seek pardon. The attributes encourage repentance and trust in divine compassion. The verse concludes the pilgrimage instructions by pairing human humility with God’s readiness to forgive.  These qualities encourage hope as well as humility.  Divine mercy remains available to people who turn back sincerely."
+     "ar": "وَٱسۡتَغۡفِرُواْ ٱللَّهَۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+     "explanation": "The closing words are then explained. When you then pour forth from Arafat, on the way to Mina, then remember Allah at the sacred standing place, and call upon Him and worship Him there, just as He has guided you with His guidance and favoured you with that with which He pleased His friend Abraham, to which He guided him of the prescriptions of His religion, after you had strayed from it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "200": {
    "phrases": [
     {
-     "translation": "When you have fulfilled your sacred rites, praise Allah as you used to praise your forefathers ˹before Islam˺, or even more passionately.",
-     "explanation": "After completing the pilgrimage rites, believers are told to remember God with the intensity once given to ancestral praise, or even greater. The verse redirects inherited habits toward gratitude to Allah. Its point is not to preserve boastful tribal customs, but to make remembrance of God central after worship."
-    },
-    {
-     "translation": "There are some who say, “Our Lord! Grant us ˹Your bounties˺ in this world,”",
-     "explanation": "Some people ask only for worldly benefit. The verse presents this as a limited outlook when prayer ignores the hereafter and moral accountability. Worldly blessings may be sought, but they should not become the sole concern of a believer.  The prayer itself is not condemned, but its narrow focus is."
-    },
-    {
-     "translation": "but they will have no share in the Hereafter",
-     "explanation": "Those whose concern is confined to this world have no share in the reward of the hereafter described in the surrounding passage. The warning invites believers to broaden their prayers and hopes beyond immediate gain. The next verse contrasts this outlook with those who ask for good in both lives."
+     "translation": "When you have fulfilled your sacred rites, praise Allah as you used to praise your forefathers ˹before Islam˺, or even more passionately. There are some who say, “Our Lord! Grant us ˹Your bounties˺ in this world,” but they will have no share in the Hereafter",
+     "ar": "فَإِذَا قَضَيۡتُم مَّنَٰسِكَكُمۡ فَٱذۡكُرُواْ ٱللَّهَ كَذِكۡرِكُمۡ ءَابَآءَكُمۡ أَوۡ أَشَدَّ ذِكۡرٗاۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا وَمَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖ",
+     "explanation": "The command is explained first. When you have completed your rites, meaning when you have finished your pilgrimage and have slaughtered your sacrificial animals, then remember Allah.\n\nTwo explanations are then given. Some of them said that the people in the time of ignorance used to gather after finishing their pilgrimage and boast about the glorious deeds of their fathers, and then Allah commanded them in Islam that their remembrance should consist of praise, gratitude and glorification of their Lord and no one else, and that they should obligate themselves to remember Him abundantly, after the example of the remembrance of their fathers. Others said that it was said to them, remember Allah as you remember your fathers, because they, when they had completed their rites and called upon their Lord, remembered no one but their fathers, and then they were commanded to remember Allah in a manner corresponding to their remembrance of their fathers.\n\nThe correct statement is then given. Allah commanded His believing servants to remember Him through obedience to Him, in submission to His command and worship of Him, after the completion of their rites, and this remembrance may be the proclamation of the greatness of Allah which He commanded with His saying, and remember Allah during a numbered number of days, for He obligated him at that moment to a remembrance of Him that had not previously been obligatory for him, and urged perseverance in it, just as the sons persevere in remembering the fathers in their transmitted deeds, by submitting to Him and turning humbly to Him in their yearning for Him in their needs, as the child turns humbly to his father, or even stronger than that, since every favor that befell them and their fathers comes from Him.\n\nThe second half of the verse is then explained. Remember Allah as you remember your fathers, or with even stronger remembrance, and turn yearningly to Him for the good of this world and the hereafter that is with Him, with supplication and humility, and make your deeds pure for the sake of His face, and do not be like the one who has bought the worldly life at the expense of the hereafter, so that there is for them no portion in the reward of Allah nor any share in His gardens and in the noble things He has prepared for His protégés.\n\nThe meaning of share is then noted, that it means the portion, and it was explained elsewhere with the testimonies from the proofs."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "201": {
    "phrases": [
     {
      "translation": "Yet there are others who say, “Our Lord! Grant us the good of this world and the Hereafter, and protect us from the torment of the Fire.”",
-     "explanation": "Unlike those whose prayers focus only on worldly gain, these people ask for good in both this life and the hereafter. They also seek protection from punishment, showing awareness of accountability. The prayer holds worldly needs and spiritual destiny together without making either the sole concern."
+     "ar": "وَمِنۡهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةٗ وَفِي ٱلۡأٓخِرَةِ حَسَنَةٗ وَقِنَا عَذَابَ ٱلنَّارِ",
+     "explanation": "The people described are explained first. The correct view concerning that is that Allah has informed about a group of people who believe in Him and in His messenger, among them those who have performed the pilgrimage to His House, that they ask their Lord for the good in this world and the good in the hereafter, and that He protect them from the punishment of the fire. And the good from Allah may comprise well-being in the body, livelihood, provision and the like, as well as knowledge and worship.\n\nTwo other readings are then recorded. Some of them said that what is meant is that among the people are those who say, our Lord, give us well-being in this world and well-being in the hereafter. And others said that Allah intended by the good, in this world, knowledge and worship, and in the hereafter, the garden.\n\nThe closing clause is then explained. And protect us from the punishment of the fire means turn away from us the punishment of the fire."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "202": {
    "phrases": [
     {
-     "translation": "It is they who will receive a ˹heavenly˺ reward for the good they have done.",
-     "explanation": "Those who pray for good in both lives and act righteously receive a reward corresponding to their deeds. The verse connects prayer with conduct and assures believers that goodness is not lost. The promise turns their balanced supplication into a model for seeking benefit with a view to the hereafter."
-    },
-    {
-     "translation": "Surely Allah is swift in reckoning",
-     "explanation": "God’s reckoning is swift, so no deed is forgotten or beyond His account. This attribute emphasizes the certainty of judgment and reassures people that justice does not depend on human records. It also encourages believers to act well without delaying repentance or assuming accountability is remote."
+     "translation": "It is they who will receive a ˹heavenly˺ reward for the good they have done. Surely Allah is swift in reckoning",
+     "ar": "أُوْلَٰٓئِكَ لَهُمۡ نَصِيبٞ مِّمَّا كَسَبُواْۚ وَٱللَّهُ سَرِيعُ ٱلۡحِسَابِ",
+     "explanation": "The people meant are then explained. By those, He means those who, after the completion of their pilgrimage rites, say, our Lord, give us in this world good and in the hereafter good and protect us from the punishment of the fire, out of their longing toward Allah for what is with Him. Thus He has made known that they have a portion and a share in their pilgrimage and an abundant reward for the work they have earned.\n\nThe closing words are then explained. And Allah is swift in the reckoning means that He encompasses the work of both groups, that of the one whose request is give us in this world, and that of the other whose request is give us in this world good and in the hereafter good, and then He recompenses each for its work."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "203": {
    "phrases": [
