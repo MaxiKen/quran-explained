@@ -212,6 +212,15 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
                         spans = None
                     if spans is not None:
                         targets = [digest.budget(measured[ayah], span) for span in spans]
+                        # A split is only worth making where Ṭabarī has
+                        # something of his own to say about the piece. A verse's
+                        # only phrase is not a split and is left alone.
+                        if len(targets) > 1:
+                            for number, target in enumerate(targets, 1):
+                                problem = digest.split_problem(
+                                    target, "%s phrase %d" % (where_verse, number))
+                                if problem:
+                                    problems.append(problem)
 
         cursor = 0
         phrases = []

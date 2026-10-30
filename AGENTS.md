@@ -40,8 +40,10 @@ declared per chapter by `split_policy`:
   verse, at the length that material deserves. Each phrase also names the piece
   of the verse's Arabic it explains (`ar`), `tools/pairs/digest.py` measures
   the passage against those spans, and the floor is 40 words with **no
-  ceiling**. Phrase boundaries follow Ṭabarī's own units. Several paragraphs
-  are allowed once an explanation runs long.
+  ceiling**. Phrase boundaries follow Ṭabarī's own units, and a split has to be
+  worth making: a phrase must carry enough of his own discussion to stand alone,
+  so a piece he says nothing about is merged with the neighbour he discusses it
+  with. Several paragraphs are allowed once an explanation runs long.
 
 Chapters migrate one at a time and an unmigrated chapter keeps the gates it was
 written under, so `python3 tools/pairs/assemble.py --check` passes on the whole

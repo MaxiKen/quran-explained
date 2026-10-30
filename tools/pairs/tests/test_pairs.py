@@ -143,6 +143,38 @@ class PhraseExplanationTest(unittest.TestCase):
                 for (low, high), next_span in zip(spans, spans[1:]):
                     self.assertEqual(high + 1, next_span[0], "%d:%s" % (surah, ayah))
 
+    def test_a_split_needs_enough_of_tabari_to_stand_alone(self):
+        """No phrase in a split verse is a piece Ṭabarī says nothing about."""
+        checked = 0
+        for name in self.authored_names():
+            surah = int(name[:3])
+            authored = read_json(os.path.join(assemble.AUTHORED, name))
+            if (authored.get("split_policy") or assemble.POLICY_LEGACY) != assemble.POLICY_TABARI:
+                continue
+            tafsir, verses, _ = digest.load_surah(surah)
+            for ayah, verse in authored["verses"].items():
+                if len(verse["phrases"]) < 2:
+                    continue
+                measured = digest.measure(digest.verse_passage(tafsir, ayah), verses[ayah]["ar"])
+                spans = digest.phrase_spans([p["ar"] for p in verse["phrases"]], verses[ayah]["ar"])
+                for phrase, span in zip(verse["phrases"], spans):
+                    problem = digest.split_problem(digest.budget(measured, span), phrase["ar"])
+                    self.assertIsNone(problem, problem)
+                    checked += 1
+        self.assertGreater(checked, 0, "no split verse was measured")
+
+    def test_split_rule_separates_a_stub_from_a_unit(self):
+        """The threshold sits between the pieces that carry content and those
+        that do not, on a real verse: يَوْمِ is a stub, يَوْمِ الدِّينِ is a unit."""
+        tafsir, verses, _ = digest.load_surah(1)
+        measured = digest.measure(digest.verse_passage(tafsir, "4"), verses["4"]["ar"])
+        stub = digest.budget(measured, (1, 1))
+        unit = digest.budget(measured, (1, 2))
+        self.assertLess(stub["substantive_points"], digest.MIN_SPLIT_POINTS)
+        self.assertIsNotNone(digest.split_problem(stub, "1:4 يَوْمِ"))
+        self.assertGreaterEqual(unit["substantive_points"], digest.MIN_SPLIT_POINTS)
+        self.assertIsNone(digest.split_problem(unit, "1:4 يَوْمِ الدِّينِ"))
+
 
 if __name__ == "__main__":
     unittest.main()

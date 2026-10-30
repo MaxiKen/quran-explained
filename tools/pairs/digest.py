@@ -64,6 +64,19 @@ PADDING_BASE = 60         # words of structure every explanation may carry
 PADDING_RATIO = 1.5       # above base + ratio x target -> padding
 PREFACE_WEIGHT = 0.25     # a surah preface is context, not the verse's own words
 
+# A split has to be worth making. Ṭabarī discusses يَوْمِ in seventeen words and
+# الرَّحِيمِ in none, because they belong to the expression either side of them,
+# so a phrase covering one of them has nothing to be its own entry about. The
+# boundary is drawn on substantive points, which leave out the chains, the
+# poetry and the editorial apparatus: measured across al-Fātiḥa, every piece
+# that carries its own discussion scores 3.00 or more, and every piece that
+# does not scores 1.00 or less.
+MIN_SPLIT_POINTS = 1.5
+
+# The classes that are a point about the verse, as against the material that
+# supports one already counted.
+SUBSTANTIVE = ("meaning", "judgment", "disagreement", "qiraat", "grammar", "context")
+
 # --- Arabic normalisation --------------------------------------------------
 #
 # The reader's verse text is a Qur'anic orthography full of annotation marks
@@ -156,6 +169,35 @@ def skeleton_word_range(offsets: list[tuple[int, int]], start: int, end: int) ->
                 low = index
             high = index
     return (low, high) if low is not None else None
+
+
+def on_word_boundaries(offsets: list[tuple[int, int]], start: int, end: int) -> bool:
+    """Whether a skeleton span begins and ends where verse words do.
+
+    A quotation of the verse starts at a word and stops at a word, so a match
+    that begins or ends inside one is a coincidence of consonants rather than a
+    quotation. This is what makes a two-consonant word such as رَبِّ or يَوْمِ
+    safe to match at all: without it, "rb" turns up inside half the verse.
+    """
+    return any(s == start for s, _ in offsets) and any(e == end for _, e in offsets)
+
+
+def count_occurrences(haystack: str, needle: str) -> int:
+    """Non-overlapping occurrences of one skeleton inside another."""
+    if not needle:
+        return 0
+    count = 0
+    start = haystack.find(needle)
+    while start >= 0:
+        count += 1
+        start = haystack.find(needle, start + 1)
+    return count
+
+
+# A quotation this short is only trusted when the verse contains it exactly
+# once. Longer ones may repeat without confusing the placement.
+MIN_SKELETON = 2
+UNAMBIGUOUS_SKELETON = 3
 
 
 QUOTED = (re.compile(r"\(([^)]{3,})\)"), re.compile(r'"([^"]{3,})"'), re.compile(r"“([^”]{3,})”"))
@@ -251,30 +293,32 @@ def locate(paragraph: str, skeleton: tuple[str, list[tuple[int, int]]]) -> tuple
         return None
     best: tuple[int, int] | None = None
 
-    def offer(span: tuple[int, int] | None) -> None:
+    def offer(quoted: str) -> None:
+        """Place one quotation of the verse, if it can be placed safely."""
         nonlocal best
+        if len(quoted) < MIN_SKELETON:
+            return
+        if len(quoted) < UNAMBIGUOUS_SKELETON and count_occurrences(full, quoted) != 1:
+            return
+        start = full.find(quoted)
+        if start < 0:
+            return
+        end = start + len(quoted)
+        if not on_word_boundaries(offsets, start, end):
+            return
+        span = skeleton_word_range(offsets, start, end)
         if span and (best is None or (span[1] - span[0]) > (best[1] - best[0])):
             best = span
 
     for match in ARABIC_RUN.finditer(paragraph):
-        quoted = "".join(arabic_skeleton(w) for w in match.group(0).split())
-        if len(quoted) < 3:
-            continue
-        start = full.find(quoted)
-        if start >= 0:
-            offer(skeleton_word_range(offsets, start, start + len(quoted)))
+        offer("".join(arabic_skeleton(w) for w in match.group(0).split()))
 
     for pattern in QUOTED:
         for match in pattern.finditer(paragraph):
             candidate = match.group(1)
             if HAS_ARABIC.search(candidate):
                 continue
-            quoted = latin_skeleton(candidate)
-            if len(quoted) < 3:
-                continue
-            start = full.find(quoted)
-            if start >= 0:
-                offer(skeleton_word_range(offsets, start, start + len(quoted)))
+            offer(latin_skeleton(candidate))
     return best
 
 
@@ -349,12 +393,40 @@ def budget(paragraphs_: list[dict], span: tuple[int, int]) -> dict:
     return {
         "paragraphs": own,
         "points": round(points, 2),
+        "substantive_points": round(substantive_points(own), 2),
         "material_words": material,
         "classes": classes,
         "target_words": target,
         "min_words": max(FLOOR_WORDS, round(THIN_RATIO * target)),
         "max_words": round(PADDING_BASE + PADDING_RATIO * target),
     }
+
+
+def substantive_points(paragraphs_: list[dict]) -> float:
+    """The weighted points that are themselves a point about the verse.
+
+    Chains, poetry and the editorial apparatus are left out: they say who
+    reported a reading or how a manuscript spells it, not what the verse means,
+    so they cannot justify giving a piece of the verse its own entry.
+    """
+    return sum(p["weight"] for p in paragraphs_ if p["class"] in SUBSTANTIVE)
+
+
+def split_problem(target: dict, where: str) -> str | None:
+    """Why a phrase has too little of its own to stand as a phrase, or None.
+
+    This is the "enough content to be considered and split" rule. It is not
+    applied to a verse's only phrase: there would be nothing to merge it into.
+    """
+    points = target["substantive_points"]
+    if points >= MIN_SPLIT_POINTS:
+        return None
+    return (
+        "%s: only %.2f substantive point(s) of Ṭabarī's own discussion, below "
+        "%.2f — this piece has no content to stand as its own phrase; merge it "
+        "with a neighbouring phrase"
+        % (where, points, MIN_SPLIT_POINTS)
+    )
 
 
 def length_problem(words: int, target: dict, where: str) -> str | None:

@@ -11,6 +11,8 @@ Two policies are in force, declared per chapter by `split_policy`:
 
 Under `tabari-v2` an explanation is a beginner's summary of what Ṭabarī says about that piece of the verse, and it is as long as what he says deserves. Each phrase names the piece of the verse's Arabic it explains (`ar`), `digest.py` measures the passage against those spans, and `assemble.py` holds the result to the measured target. A phrase where Ṭabarī makes one point stays short; a phrase where he weighs two readings, three opinions and a verdict grows to fit, and is not truncated by a ceiling.
 
+The splits are decided the same way. A phrase has to carry enough of Ṭabarī's own discussion to stand alone, so a piece he treats only as part of the expression around it is merged with that neighbour rather than given a stub entry. He gives يَوْمِ seventeen words and no discussion of its own in 1:4, because what he heads is يَوْمِ الدِّينِ, and رَبِّ and ٱلۡعَٰلَمِينَ in 1:2 each get a heading and an argument of their own, so 1:4 is two phrases and 1:2 is three. `assemble.py` enforces this against `digest.MIN_SPLIT_POINTS`, counted on the substantive classes only, and skips a verse whose only phrase has nothing to merge into.
+
 Chapters migrate one at a time. A chapter that has not migrated keeps the gates it was written under, so `assemble.py --check` passes on the whole corpus at every commit.
 
 ## Workflow
