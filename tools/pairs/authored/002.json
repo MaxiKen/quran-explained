@@ -601,73 +601,66 @@
    "phrases": [
     {
      "translation": "Then Adam was inspired with words ˹of prayer˺ by his Lord,",
-     "explanation": "After the disobedience, God guides Adam to words of repentance. The phrase shows that returning begins with help from the Lord, not with self-justification. Adam is given a way to acknowledge the wrong and seek forgiveness, establishing the possibility of repentance after failure. The prayer opens a path back after a real mistake."
+     "ar": "فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٖ فَتَابَ",
+     "explanation": "The verb translated as inspired is explained as taking the words up and accepting them, and its root is traced to a pattern derived from meeting, as when one man goes out to meet another. A variant reading is noted in which the words are made the subject that received Adam, and this is allowed to be possible in Arabic, since whatever a man receives has also received him and whatever he meets has met him, though the reading followed here is kept.\n\nThe exegetes then differed about what the words were. One report gives them as a supplication opening with the confession that there is no god but Allah. The statements transmitted are said to differ in wording while agreeing in meaning, which is that Allah extended words to Adam, that Adam received them from his Lord, accepted them and acted on them, and that through them his repentance was accepted.\n\nWhat the Book of Allah itself points to is then preferred. The words Adam received are the words Allah reported him saying when he excused himself before his Lord and confessed his guilt, our Lord, we have wronged ourselves, and if You do not forgive us and have mercy on us we shall be among the losers."
     },
     {
-     "translation": " so He accepted his repentance.",
-     "explanation": "God accepts Adam’s repentance, showing that the mistake is not beyond forgiveness when met with sincere return. The verse offers hope without minimizing the wrongdoing. Repentance includes turning back to God rather than persisting in denial, and the acceptance belongs to divine mercy. Acceptance shows that sincere return can follow wrongdoing."
-    },
-    {
-     "translation": " Surely He is the Accepter of Repentance, Most Merciful",
-     "explanation": "These names emphasize that God repeatedly accepts sincere repentance and shows mercy. They explain why Adam’s return is received and assure later readers that failure need not end in despair. The verse joins accountability with hope: people should acknowledge wrongdoing, seek forgiveness, and trust in God’s mercy."
+     "translation": "so He accepted his repentance. Surely He is the Accepter of Repentance, Most Merciful",
+     "ar": "عَلَيۡهِۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+     "explanation": "He accepted his repentance is explained with the pronoun fixed as returning to Adam, and the sense given is that Allah granted him repentance for his sin, the word itself meaning a turning back.\n\nThe two names that follow are then explained. The Ever Relenting is the one who accepts the repentance of whichever of His sinful servants turns back to Him, and who holds off from requiting him once he has turned. The Merciful means that He bestows mercy along with the repentance, and His mercy toward the sinner is the wiping out of his offense and the forgiving of the punishment his transgression had earned."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "38": {
    "phrases": [
     {
      "translation": "We said, “Descend all of you!",
-     "explanation": "The command continues the transition to earthly life. Humanity’s life on earth will be shaped by the choices made after the initial disobedience, but God’s next words promise guidance. The verse does not leave people without a way forward or present exile as the end of their relationship with God."
+     "ar": "قُلۡنَا ٱهۡبِطُواْ مِنۡهَا جَمِيعٗاۖ",
+     "explanation": "The command to descend had already been explained earlier in the surah, and its meaning here is the same as its meaning there, so it is not gone over again.\n\nOne point is drawn out. The outward sense of the address reaches only those who were told to descend, all of them, and the people addressed are the ones named on the authority of the Companions, so the command is not read as extending beyond them on the strength of this verse alone."
     },
     {
-     "translation": " Then when guidance comes to you from Me,",
-     "explanation": "God promises that guidance will reach people. It comes from Him, giving a reliable direction amid the uncertainty and conflict of earthly life. The phrase sets a condition for what follows: people are responsible for how they respond when divine instruction comes. The promise anticipates that people will receive direction after leaving Paradise."
-    },
-    {
-     "translation": " whoever follows it,",
-     "explanation": "The promise applies to anyone who follows God’s guidance. The emphasis is on the response, not ancestry or status. Following involves accepting direction and acting upon it, making the promise accessible to people who sincerely seek the path God provides. The response to that guidance determines the promised outcome."
-    },
-    {
-     "translation": " there will be no fear for them, nor will they grieve",
-     "explanation": "Those who follow guidance are promised safety from ultimate fear and grief. This does not mean they will never experience hardship in worldly life. It points to their final security with God, offering reassurance that faithful obedience leads to a good outcome. This assurance concerns their final standing with God, not a life without hardship."
+     "translation": "Then when guidance comes to you from Me, whoever follows it, there will be no fear for them, nor will they grieve",
+     "ar": "فَإِمَّا يَأۡتِيَنَّكُم مِّنِّي هُدٗى فَمَن تَبِعَ هُدَايَ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+     "explanation": "The opening particle is worked through first. The sense is if there comes to you, and the particle joined to if strengthens the utterance, which is why the doubled letter was added to the verb that follows it. Some hold the doubling became appropriate only because that particle is a negation, others that it strengthens the utterance, and others call it filler, though something disputed may not be made into a principle.\n\nGuidance here means clarification and right direction, and whoever follows it means whoever follows the clarification Allah sent on the tongues of His messengers. No fear shall come upon them then means that they are safe amid the terrors of the Resurrection from Allah's punishment, because they obeyed Him in this life and followed His command and His path, and nor shall they grieve completes the same promise.\n\nA further view is recorded and answered. It holds that the command to descend, though addressed to Adam and his wife, is to be understood as intended for them and their offspring, as Allah addressed the heaven and the earth together when He told them to come. The support given is that Adam after coming down to the earth was the prophet and messenger of Allah to his children. That reading is acknowledged as one the verse could bear, but is judged farther from the correct meaning than what stays closer to the outward sense of the recitation."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "39": {
    "phrases": [
     {
-     "translation": "But those who disbelieve and deny Our signs",
-     "explanation": "The verse contrasts followers of guidance with people who reject faith and deny God’s signs. These signs include revelations and evidence that point toward truth. The description concerns persistent rejection, and it sets out the consequence of refusing the guidance offered in the preceding verse."
-    },
-    {
-     "translation": " will be the residents of the Fire.",
-     "explanation": "The Fire is described as their final dwelling. This is a serious warning about the outcome of disbelief and denial, not an invitation for readers to assign that fate to individuals. The verse emphasizes accountability and the stakes of rejecting divine signs. The warning contrasts with the safety promised to those who follow guidance."
-    },
-    {
-     "translation": " They will be there forever.”",
-     "explanation": "The verse concludes by describing the duration of that punishment as lasting. Its force is to warn the audience not to treat rejection as inconsequential. Read with the preceding promise, it presents two paths and urges people to accept guidance while they have the opportunity."
+     "translation": "But those who disbelieve and deny Our signs will be the residents of the Fire. They will be there forever.”",
+     "ar": "وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِـَٔايَٰتِنَآ أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+     "explanation": "Those who disbelieve and deny the signs are explained as those who rejected Allah's signs and accused His messengers of lying. The signs are His proofs and His indications of His oneness and His sovereignty, together with what the messengers brought as marks and testimonies of that and as proof of their own truthfulness in what they reported from Him.\n\nThe outcome named for them is that they are the companions of the Fire and will remain in it, which is the counterpart of the safety from fear and grief promised in the verse before to those who follow the guidance."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "40": {
    "phrases": [
     {
      "translation": "O children of Israel!",
-     "explanation": "The address turns to the Children of Israel, calling them as a community with a history of receiving revelation and divine favors. The verses that follow recall that history and invite a response. The historical address should not be generalized into a judgment about all people of Jewish heritage today."
+     "ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ",
+     "explanation": "The children of Israel are the children of Yaqub, the son of Ishaq, the son of Ibrahim. Yaqub was called Israel, which is explained as the servant of Allah and His chosen one among His creatures, the second element of the name being a name of Allah.\n\nThe address is then placed. It is directed to the scholars of the Jews from among the children of Israel who were present in the region to which the Messenger of Allah had emigrated, and their lineage is traced to Yaqub in the way that lineage is traced elsewhere in the Quran."
     },
     {
-     "translation": " Remember My favours upon you.",
-     "explanation": "The people are asked to recall the blessings God granted them. Remembering is meant to awaken gratitude and responsibility, not merely preserve a list of past events. The passage uses their shared history as a basis for urging faithfulness to God’s covenant. Recalling these gifts is meant to renew gratitude and faithfulness."
+     "translation": "Remember My favours upon you.",
+     "ar": "ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ",
+     "explanation": "The favor recalled is then listed. Allah chose the messengers from among them, sent down the books on them, and saved them from the trial and affliction they were under with Pharaoh and his people, along with the provision that followed their rescue.\n\nThe reminder given here through Muhammad is set beside the reminder Musa gave their forefathers in his own time, about which Allah reported that he spoke to them, so the command to remember is of a piece with the earlier one and repeats it to a later generation."
     },
     {
-     "translation": " Fulfil your covenant and I will fulfil Mine,",
-     "explanation": "The covenant carries obligations between God and the people addressed. They are called to honor their commitment, with God promising to fulfill His part. The verse presents faithfulness as reciprocal responsibility, while emphasizing that people must first respond to the guidance and commitments already given."
+     "translation": "Fulfil your covenant and I will fulfil Mine,",
+     "ar": "وَأَوۡفُواْ بِعَهۡدِيٓ أُوفِ بِعَهۡدِكُمۡ",
+     "explanation": "The meaning of the covenant was already set out earlier, with the disagreement over it and the judgment preferred, so it is not repeated. Here it is Allah's covenant with them, and the second half states His side of it.\n\nHis covenant with them is explained as the promise that if they did what was asked He would admit them to the Garden. The verse in which Allah took the covenant of the children of Israel and raised up twelve leaders from among them is quoted as the parallel, since it sets out the same exchange in full, with the conditions named and the reward promised."
     },
     {
-     "translation": " and stand in awe of Me ˹alone˺",
-     "explanation": "The closing command directs their reverence to God alone. Awe includes respect, consciousness of accountability, and restraint from disobedience. The word “alone” reinforces exclusive devotion. The verse gathers remembrance, covenant, and reverence as connected responses to the favors God has granted. The command calls for reverence that shapes conduct and obedience."
+     "translation": "and stand in awe of Me ˹alone˺",
+     "ar": "وَإِيَّٰيَ فَٱرۡهَبُونِ",
+     "explanation": "Fear Me alone is explained as a command to fear Allah by Himself and to guard against His punishment. The people addressed are named as those among the children of Israel who neglect His covenant and deny His messenger, the one Allah took their oath about in the books He sent down to His prophets, that they should believe in him and follow him. The fear commanded is therefore directed at a specific refusal they are already committed to."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "41": {
    "phrases": [
