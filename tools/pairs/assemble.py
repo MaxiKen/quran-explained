@@ -5,9 +5,22 @@
     python3 tools/pairs/assemble.py           # publish all authored chapters
 
 `tools/pairs/authored/NNN.json` contains exact pieces of the reader's own
-English verse translation and one 45–85-word paragraph for each piece. This
+English verse translation and the explanation written for each piece. This
 script verifies that the phrases cover the verse in reading order, then
 publishes the data consumed by the app as `data/pairs_NNN.json`.
+
+Two authoring policies are in force, declared per chapter by `split_policy`:
+
+`sense-v1` (chapters 1-43 as first written) requires one paragraph of 45-85
+words for every phrase, whatever the source holds.
+
+`tabari-v2` derives the length from Tafsīr al-Ṭabarī instead. Each phrase also
+names the exact piece of the verse's Arabic it explains, `digest.py` measures
+what Ṭabarī says about that piece, and the explanation has to be as long as
+the material deserves: a floor, a proportional target, and no ceiling. Several
+paragraphs are allowed, because a phrase carrying nine opinions cannot be
+answered in one block of 85 words. Chapters migrate one at a time; a chapter
+that has not migrated keeps its old gates.
 """
 
 from __future__ import annotations
@@ -21,6 +34,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 
+import digest  # noqa: E402
 import source  # noqa: E402
 
 AUTHORED = os.path.join(HERE, "authored")
@@ -28,36 +42,81 @@ ARABIC = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
 DASH = re.compile("[—–]")
 LETTER_OR_NUMBER = re.compile(r"[A-Za-z0-9]")
 
+POLICY_LEGACY = "sense-v1"
+POLICY_TABARI = "tabari-v2"
+POLICIES = (None, POLICY_LEGACY, POLICY_TABARI)
 
-def check_line(value: object, field: str, where: str, problems: list[str], minimum: int, maximum: int) -> str:
+# sense-v1: every explanation sits in this band, one paragraph, no exceptions.
+LEGACY_MIN_WORDS = 45
+LEGACY_MAX_WORDS = 85
+
+
+def check_prose(text: str, where: str, problems: list[str]) -> None:
+    """The house style every explanation shares, whatever its length."""
+    if ARABIC.search(text):
+        problems.append("%s: explanation contains Arabic script" % where)
+    if DASH.search(text):
+        problems.append("%s: explanation contains an em dash or en dash" % where)
+    if ";" in text:
+        problems.append("%s: explanation contains a semicolon" % where)
+    letters = [char for char in text if char.isalpha()]
+    if not letters or not letters[0].isupper():
+        problems.append("%s: explanation should start with a capital letter" % where)
+
+
+def check_explanation(
+    value: object, where: str, problems: list[str], policy: str, target: dict | None
+) -> str:
+    """Validate one explanation under the policy the chapter declared."""
     if not isinstance(value, str) or not value.strip():
-        problems.append("%s: empty %s" % (where, field))
+        problems.append("%s: empty explanation" % where)
         return ""
 
     text = value.strip()
-    if ARABIC.search(text):
-        problems.append("%s: %s contains Arabic script" % (where, field))
-    if DASH.search(text):
-        problems.append("%s: %s contains an em dash or en dash" % (where, field))
-    if ";" in text:
-        problems.append("%s: %s contains a semicolon" % (where, field))
-    letters = [char for char in text if char.isalpha()]
-    if not letters or not letters[0].isupper():
-        problems.append("%s: %s should start with a capital letter" % (where, field))
+    check_prose(text, where, problems)
+
+    if policy == POLICY_TABARI:
+        # Paragraphs are allowed and expected once the material runs long.
+        parts = [p.strip() for p in re.split(r"\n\s*\n", text)]
+        if any(not p for p in parts):
+            problems.append("%s: explanation has an empty paragraph" % where)
+        for number, part in enumerate(parts, 1):
+            if "\n" in part:
+                problems.append("%s: paragraph %d has a stray line break" % (where, number))
+        words = len(" ".join(parts).split())
+        if target is None:
+            problems.append("%s: cannot measure the source for this phrase" % where)
+        else:
+            problem = digest.length_problem(words, target, where)
+            if problem:
+                problems.append(problem)
+        return "\n\n".join(parts)
+
     words = text.split()
-    if len(words) < minimum:
-        problems.append("%s: %s is too short" % (where, field))
-    if len(words) > maximum:
-        problems.append("%s: %s is too long to keep concise" % (where, field))
+    if len(words) < LEGACY_MIN_WORDS:
+        problems.append("%s: explanation is too short" % where)
+    if len(words) > LEGACY_MAX_WORDS:
+        problems.append("%s: explanation is too long to keep concise" % where)
+    if "\n" in text or "\r" in text:
+        problems.append("%s: explanation must be a single paragraph" % where)
     return text
 
 
-def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, str]:
+def check_phrase(
+    phrase: object,
+    where: str,
+    problems: list[str],
+    policy: str,
+    target: dict | None = None,
+) -> dict[str, str]:
     if not isinstance(phrase, dict):
         problems.append("%s: phrase must be an object" % where)
         return {"translation": "", "explanation": ""}
 
     allowed = {"translation", "explanation"}
+    if policy == POLICY_TABARI:
+        # The Arabic piece the phrase explains: what the source is measured on.
+        allowed.add("ar")
     extra = set(phrase) - allowed
     if extra:
         problems.append("%s: unexpected field(s): %s" % (where, ", ".join(sorted(extra))))
@@ -69,9 +128,7 @@ def check_phrase(phrase: object, where: str, problems: list[str]) -> dict[str, s
     else:
         translation = translation.strip()
 
-    explanation = check_line(phrase.get("explanation"), "explanation", where, problems, 45, 85)
-    if "\n" in explanation or "\r" in explanation:
-        problems.append("%s: explanation must be a single paragraph" % where)
+    explanation = check_explanation(phrase.get("explanation"), where, problems, policy, target)
     return {
         "translation": translation,
         "explanation": explanation,
@@ -89,7 +146,7 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         problems.append("surah %d: authored file has a mismatched surah number" % surah)
 
     split_policy = authored.get("split_policy")
-    if split_policy not in (None, "sense-v1"):
+    if split_policy not in POLICIES:
         problems.append("surah %d: unknown split_policy %r" % (surah, split_policy))
 
     chapter = source.read_chapter(surah)
@@ -98,6 +155,16 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
     if not isinstance(authored_verses, dict) or not authored_verses:
         problems.append("surah %d: no verses have been authored" % surah)
         return {"surah": surah, "verses": verses}, problems
+
+    # A tabari-v2 chapter is measured against its own commentary, so the
+    # passages are read once per chapter rather than once per phrase.
+    tafsir = None
+    measured: dict[str, list[dict]] = {}
+    if split_policy == POLICY_TABARI:
+        try:
+            tafsir, _, _ = digest.load_surah(surah)
+        except (OSError, ValueError) as exc:
+            problems.append("surah %d: cannot read the commentary to measure it: %s" % (surah, exc))
 
     for ayah, verse in authored_verses.items():
         where_verse = "surah %d verse %s" % (surah, ayah)
@@ -109,7 +176,7 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
             continue
 
         verse_policy = verse.get("split_policy", split_policy)
-        if verse_policy not in (None, "sense-v1"):
+        if verse_policy not in POLICIES:
             problems.append("%s: unknown split_policy %r" % (where_verse, verse_policy))
 
         phrases_data = verse.get("phrases", [])
@@ -118,11 +185,39 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
             continue
 
         modern = chapter[ayah].get("en", "")
+
+        # Where each phrase sits in the verse's Arabic, and what Ṭabarī says
+        # about that slice. Both are needed before an explanation can be
+        # judged, so they are resolved for the whole verse first.
+        targets: list[dict | None] = [None] * len(phrases_data)
+        if verse_policy == POLICY_TABARI and tafsir is not None:
+            arabic = chapter[ayah].get("ar", "")
+            spans_text = [p.get("ar", "") if isinstance(p, dict) else "" for p in phrases_data]
+            if any(not isinstance(s, str) or not s.strip() for s in spans_text):
+                problems.append("%s: every phrase needs the Arabic piece it explains (\"ar\")"
+                                % where_verse)
+            else:
+                try:
+                    passage = digest.verse_passage(tafsir, ayah)
+                except KeyError as exc:
+                    problems.append("%s: %s" % (where_verse, exc))
+                    passage = None
+                if passage is not None:
+                    if ayah not in measured:
+                        measured[ayah] = digest.measure(passage, arabic)
+                    try:
+                        spans = digest.phrase_spans(spans_text, arabic)
+                    except ValueError as exc:
+                        problems.append("%s: %s" % (where_verse, exc))
+                        spans = None
+                    if spans is not None:
+                        targets = [digest.budget(measured[ayah], span) for span in spans]
+
         cursor = 0
         phrases = []
         for number, authored_phrase in enumerate(phrases_data, 1):
             where = "%s phrase %d" % (where_verse, number)
-            phrase = check_phrase(authored_phrase, where, problems)
+            phrase = check_phrase(authored_phrase, where, problems, verse_policy, targets[number - 1])
             translation = phrase["translation"]
             if translation:
                 start = modern.find(translation, cursor)

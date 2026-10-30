@@ -1820,6 +1820,17 @@ function ensureCurrentPhraseData(surah) {
    PHRASE BY PHRASE
    Each translation piece has its own explanatory paragraph.
 ================================================ */
+/* One explanation as a run of paragraphs. Chapters authored under the
+   proportional rule break a long explanation at its own points, so blank-line
+   separated paragraphs are rendered as separate <p>s. Older chapters carry a
+   single paragraph and render exactly as before. */
+function explanationParagraphs(explanation) {
+  const text = typeof explanation === 'string' ? explanation : '';
+  const parts = text.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
+  if (!parts.length) return '<p class="phrase-explanation"></p>';
+  return parts.map((part) => `<p class="phrase-explanation">${escapeHtml(part)}</p>`).join('');
+}
+
 function renderPhraseByPhrase(ayahNum, pairs) {
   const verse = pairs && pairs.verses ? pairs.verses[String(ayahNum)] : null;
   const phrases = verse && Array.isArray(verse.phrases) ? verse.phrases : [];
@@ -1835,7 +1846,10 @@ function renderPhraseByPhrase(ayahNum, pairs) {
     + `<span class="phrase-number" aria-hidden="true">${index + 1}</span>`
     + `<div class="phrase-content">`
     + `<p class="phrase-translation">${escapeHtml(phrase.translation)}</p>`
-    + `<p class="phrase-explanation">${escapeHtml(phrase.explanation)}</p>`
+    /* An explanation is as long as its material in the commentary deserves, so
+       a phrase carrying several points arrives as several paragraphs. Each is
+       escaped on its own; nothing here is treated as markup. */
+    + explanationParagraphs(phrase.explanation)
     + `</div></li>`
   ).join('');
 

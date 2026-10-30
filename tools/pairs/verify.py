@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Run the full phrase-authoring verification gate.
 
-Automated checks validate structure, source-translation coverage, word limits,
-formatting, dense-v1 split counts, generated-data freshness, and the unit suite.
+Automated checks validate structure, source-translation coverage, Arabic-span
+coverage under `tabari-v2`, formatting, and that every explanation is as long
+as its material deserves under the policy its chapter declares: a fixed 45-85
+words for `sense-v1`, a target measured from Tafsīr al-Ṭabarī for `tabari-v2`.
 They cannot prove that a human read the complete commentary or judged the
 English and phrase boundaries. The required confirmation flag records that
 human review was completed for this authoring run.
@@ -43,8 +45,9 @@ def main() -> int:
     if not args.confirm_human_review:
         parser.error(
             "human review is required; after reading the full commentary for each edited verse, "
-            "review meaning, natural boundaries, simple English, evidence, uncertainty, and "
-            "30–85 words per phrase, then rerun with --confirm-human-review"
+            "review meaning, natural boundaries, simple English, evidence, uncertainty, and that "
+            "each explanation is as long as its material deserves (45-85 words under sense-v1, "
+            "the target digest.py measures under tabari-v2), then rerun with --confirm-human-review"
         )
 
     checks = [

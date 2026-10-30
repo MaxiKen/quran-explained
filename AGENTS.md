@@ -18,8 +18,8 @@ longer carries.
 The reader offers two separate commentary views in a switch, in this order:
 
 1. **Phrase by phrase** — selected first in the switch. The verse translation
-   is split into short, consecutive pieces, each followed by one substantive,
-   plain-English paragraph. It is a numbered reading, not a one-line gloss.
+   is split into short, consecutive pieces, each followed by a substantive,
+   plain-English explanation. It is a numbered reading, not a one-line gloss.
 2. **Full commentary** — the complete Tafsīr al-Ṭabarī passage as text.
 
 Only the selected view is shown; do not stack the full commentary below the
@@ -29,11 +29,25 @@ without a type label or formulaic lead-in.
 
 Phrase explanations are authored by hand in `tools/pairs/authored/NNN.json`
 and published as `data/pairs_NNN.json` by `tools/pairs/assemble.py`. Each
-phrase must be an exact piece of the reader's translation. Phrases stay in
-order and cover all the verse's words. Each explanation is one paragraph of
-45–85 words. `python3 tools/pairs/assemble.py --check` checks phrase order,
-coverage, and paragraph length. Surahs 1 through 43 are published in this
-format; later chapters are not yet authored.
+phrase must be an exact piece of the reader's translation, phrases stay in
+order, and they cover all the verse's words. Two length policies are in force,
+declared per chapter by `split_policy`:
+
+- **`sense-v1`** (surahs 2 through 43): one paragraph of 45–85 words per
+  phrase, whatever the source holds.
+- **`tabari-v2`** (surah 1, and every chapter authored from now on): a
+  beginner's summary of what Tafsīr al-Ṭabarī discusses for that piece of the
+  verse, at the length that material deserves. Each phrase also names the piece
+  of the verse's Arabic it explains (`ar`), `tools/pairs/digest.py` measures
+  the passage against those spans, and the floor is 40 words with **no
+  ceiling**. Phrase boundaries follow Ṭabarī's own units. Several paragraphs
+  are allowed once an explanation runs long.
+
+Chapters migrate one at a time and an unmigrated chapter keeps the gates it was
+written under, so `python3 tools/pairs/assemble.py --check` passes on the whole
+corpus at every commit. It checks phrase order, coverage, Arabic-span coverage
+and length under the policy in force. Surahs 1 through 43 are published; later
+chapters are not yet authored.
 
 The handoff below is for the separate, withdrawn plain-English commentary
 pipeline in `tools/guidance/`, not for this phrase-by-phrase layer. If you are
