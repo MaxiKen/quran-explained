@@ -3426,189 +3426,151 @@
    "phrases": [
     {
      "translation": "They ask you ˹O Prophet in˺ what ˹way˺ they should donate.",
-     "explanation": "People ask how they should give in charity, and the answer directs attention to recipients. The question reflects concern about practical generosity. The verse turns worship into care for family and vulnerable people, emphasizing that giving should respond to real needs.  The answer makes charity responsive to relationships and urgent need."
+     "ar": "يَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلۡ مَآ أَنفَقۡتُم",
+     "explanation": "Your companions ask you, O Muhammad, which matter of their possessions they should spend and give as alms, and to whom they should spend that which they expend, so say to them, whatever you spend of your possessions and give as alms, spend it and assign it to your fathers and mothers and your near relatives, and to the orphans among you, and the needy, and the traveler on the way. For whatever good you do and perform for them, indeed Allah knows of it, and He keeps a precise account of it for you until He grants you on the day of resurrection your full reward for it.\n\nA point of grammar is then added. The first reading takes the question word as carrying the meaning of which matter, so it is in the accusative on account of the word they spend, and it is not put into the accusative by the word they ask you.\n\nA further point of grammar is then given, and the reading is then discussed at length. It is possible that on the day this verse was revealed there was as yet no alms-tax, and that it was only the maintenance that a man spends on his family and the alms that he gives, and that it was thereafter abrogated, and the verse gives no proof for that, since it may be an exhortation to spending upon those whose maintenance is not obligatory and a making-known of the places of merit to which expenditures ought to be directed."
     },
     {
-     "translation": "Say, “Whatever donations you give are for parents, relatives, orphans, the poor, and ˹needy˺ travellers.",
-     "explanation": "Charity should benefit parents, relatives, orphans, the poor, and travelers in need. The order highlights family obligations alongside wider social care. Whatever good is given is known to God, so sincere generosity matters even when the amount or recipient is not publicly recognized.  This list encourages generosity within both family and the broader community."
-    },
-    {
-     "translation": "Whatever good you do is certainly well known to Allah.”",
-     "explanation": "God knows every good act and its intention, whether or not people witness it. This assurance encourages sincere giving without seeking praise. It also reminds donors that charity is evaluated by God, so generosity should be joined with honesty, care, and respect for those receiving support."
+     "translation": "Say, “Whatever donations you give are for parents, relatives, orphans, the poor, and ˹needy˺ travellers. Whatever good you do is certainly well known to Allah.”",
+     "ar": "مِّنۡ خَيۡرٖ فَلِلۡوَٰلِدَيۡنِ وَٱلۡأَقۡرَبِينَ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَٱبۡنِ ٱلسَّبِيلِۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٞ",
+     "explanation": "The meaning of neediness and of the traveler on the way was expounded earlier. And a point of grammar is then added about the phrase with the accusative, by omission of the preposition or of the adverbial of place, that is to say, come to know your female companion at the dwelling places of Mina, so he says, I do not know anyone who knows her among those who visit Mina, so that I might ask him about her."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "216": {
    "phrases": [
     {
-     "translation": "Fighting has been made obligatory upon you ˹believers˺, though you dislike it.",
-     "explanation": "The verse addresses a prescribed duty to fight in a particular context, acknowledging that believers may naturally dislike armed conflict. This is not a general endorsement of violence, but a difficult obligation governed by surrounding limits and circumstances. The acknowledgment of reluctance recognizes the human cost of conflict."
-    },
-    {
-     "translation": "Perhaps you dislike something which is good for you and like something which is bad for you.",
-     "explanation": "Human preferences do not always align with what is ultimately beneficial or harmful. Believers may dislike a duty that serves justice or protection, and desire something damaging. The verse calls for humility about limited knowledge and trust in God’s wisdom.  Human judgment is partial, especially when future outcomes remain unseen."
+     "translation": "Fighting has been made obligatory upon you ˹believers˺, though you dislike it. Perhaps you dislike something which is good for you and like something which is bad for you.",
+     "ar": "كُتِبَ عَلَيۡكُمُ ٱلۡقِتَالُ وَهُوَ كُرۡهٞ لَّكُمۡۖ وَعَسَىٰٓ أَن تَكۡرَهُواْ شَيۡـٔٗا وَهُوَ خَيۡرٞ لَّكُمۡۖ وَعَسَىٰٓ أَن تُحِبُّواْ شَيۡـٔٗا وَهُوَ شَرّٞ لَّكُمۡۚ",
+     "explanation": "Fighting has been imposed upon you, that is to say the fighting against the polytheists, and it is hateful to you.\n\nA claim is then rejected. It is a saying that has no sense, for the abrogation of rulings comes from the side of Allah and not from the side of the servants, and the saying that they said we hear and we obey is a report from Allah concerning His believing servants and not an abrogation from His side.\n\nAnother view is then given, that it rests upon every individual person until those who carry it out are sufficient by their action, whereupon the obligation falls away from the remaining Muslims, like the prayer over the deceased, the washing of the dead and their burial, and this is the position of the general majority of the scholars.\n\nThat is then said to be the correct view, because of the agreement of the proof upon it and because of the saying that Allah has made those who strive with their wealth and their lives excel over those who remain behind by a rank, and to both Allah has promised the best, for the excellence belongs to those who strive and both they and those who remain behind have the best in prospect, and if those who remained behind had neglected an obligation then the worst would belong to them and not the best.\n\nA point of grammar is then added, that the word for hateful and the word for disgust are two variants with the same meaning, and that one of them is a noun and the other a verbal noun. And the next clause is then explained, that you should not dislike the fighting since you may dislike it while it is good for you, and should not love the abandonment of the struggle since you may love it while it is bad for you."
     },
     {
      "translation": "Allah knows and you do not know",
-     "explanation": "God’s knowledge encompasses outcomes people cannot foresee. This reminder helps believers approach difficult commands with humility rather than assuming their immediate feelings reveal the full truth. It does not remove the need for ethical limits, but grounds trust in God’s superior knowledge.  The reminder supports humility, not reckless action or cruelty."
+     "ar": "وَٱللَّهُ يَعۡلَمُ وَأَنتُمۡ لَا تَعۡلَمُونَ",
+     "explanation": "By this He means that Allah knows what is good for you in distinction from what is bad for you, so do not dislike what He has prescribed for you of the struggle against your enemy and the fighting against whom He has commanded you to fight, for He knows that your fighting against them is good for you in your present life and in your future life, and that the abandonment of it is bad for you, while you do not know thereof what He knows. By this He urges them to the struggle against His enemies and arouses in them the longing for the fighting against whoever disbelieves in Him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "217": {
    "phrases": [
     {
-     "translation": "They ask you ˹O Prophet˺ about fighting in the sacred months.",
-     "explanation": "People question fighting during months traditionally regarded as sacred. The verse answers within the context of ongoing hostilities and persecution. It does not erase the sanctity of these months, but compares the act with other violations and harms occurring at the time.  The question arises from a specific period of conflict and sacred observance."
+     "translation": "They ask you ˹O Prophet˺ about fighting in the sacred months. Say, “Fighting during these months is a great sin.",
+     "ar": "يَسۡـَٔلُونَكَ عَنِ ٱلشَّهۡرِ ٱلۡحَرَامِ قِتَالٖ فِيهِۖ قُلۡ قِتَالٞ فِيهِ",
+     "explanation": "The sense of the question is explained. That is to say, about fighting therein. Say, fighting therein is a great matter, up to the saying that the affliction is greater than killing, that is to say, if you have killed in the sacred month, then they have hindered you from the path of Allah, along with disbelief in Him, and from the sacred mosque, and your expelling out of it, while you are its inhabitants and custodians, is greater with Allah than the killing of those of them whom you have killed. And the affliction is greater than killing means they used to turn the Muslim away from his religion until they led him back to disbelief after his faith.\n\nTwo possibilities are then recorded from the grammarians of Kufa for the case of the word hindering, and both are then set aside as error, since the first of them would make fighting in the sacred months into disbelief in Allah, which contradicts what all the people of Islam adhere to, and the second would make the expelling of the people of the sacred mosque more enormous with Allah than disbelief in Him, which falls into the same error. And one of the linguists of Basra used to make the first statement.\n\nA further view is then recorded, that it is abrogated by the words fight the polytheists collectively and then kill the polytheists.\n\nThe occasion is then explained. If anyone supposes that the prohibition came about after the regarding of the sacred month as violable by the prophet, then he has supposed out of ignorance, for this verse concerns the matter of Abdullah ibn Jahsh and his companions and the slain man whom they killed, and it was revealed at the end of Jumada al-Akhira of the second year after the arrival of the messenger at Medina, while the battle of Hunayn took place in Shawwal of the eighth year."
     },
     {
-     "translation": "Say, “Fighting during these months is a great sin.",
-     "explanation": "Fighting in a sacred month is acknowledged as a grave matter. The verse does not dismiss the prohibition or treat it lightly. It then explains that other acts, including persecution and expulsion, can be even more serious in the circumstances under discussion.  The response acknowledges the seriousness of violating sacred time."
+     "translation": "But hindering ˹others˺ from the Path of Allah, rejecting Him, and expelling the worshippers from the Sacred Mosque is ˹a˺ greater ˹sin˺ in the sight of Allah. For persecution is far worse than killing. And they will not stop fighting you until they turn you away from your faith—if they can.",
+     "ar": "كَبِيرٞۚ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفۡرُۢ بِهِۦ وَٱلۡمَسۡجِدِ ٱلۡحَرَامِ وَإِخۡرَاجُ أَهۡلِهِۦ مِنۡهُ أَكۡبَرُ عِندَ ٱللَّهِۚ وَٱلۡفِتۡنَةُ أَكۡبَرُ مِنَ ٱلۡقَتۡلِۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمۡ حَتَّىٰ يَرُدُّوكُمۡ عَن دِينِكُمۡ إِنِ ٱسۡتَطَٰعُواْۚ وَمَن",
+     "explanation": "Say, O Muhammad, fighting therein, that is to say in the sacred month, is a great matter, that is to say it is an enormous thing with Allah to regard that month as violable and to shed blood therein.\n\nThe reason for that is then given. He said only say fighting therein is a great matter, because the Arabs would not clash their spearheads against one another therein, for a man would encounter the killer of his father or his brother and do nothing to him, out of reverence for that month.\n\nThe words are then explained. The meaning of hindering from something is restraining from it and warding off from it. And disbelief in Him means disbelief in Allah, and the particle in Him refers back to the name Allah occurring in the path of Allah. And a point of grammar is then added, that the hindering is set in the nominative by the words is greater with Allah, and the expelling is joined to it, and then the report about the affliction begins.\n\nAnd it is then noted that there is no disagreement among all the people of interpretation that this verse was revealed to the messenger on account of the killing of Ibn al-Hadrami."
     },
     {
-     "translation": "But hindering ˹others˺ from the Path of Allah, rejecting Him, and expelling the worshippers from the Sacred Mosque is ˹a˺ greater ˹sin˺ in the sight of Allah.",
-     "explanation": "Preventing people from worship, rejecting God, and expelling believers from the Sacred Mosque are described as greater wrongs in this setting. The verse responds to accusations by recognizing the wider pattern of persecution. It places events in context rather than isolating one incident from prior aggression."
-    },
-    {
-     "translation": "For persecution is far worse than killing.",
-     "explanation": "Persecution that suppresses faith and drives people from worship is presented as worse than killing. The statement emphasizes the grave harm of systematic oppression. It provides context for the conflict passages while not authorizing indiscriminate violence or removing the limits set elsewhere.  This comparison concerns oppression and coercion described in the passage."
-    },
-    {
-     "translation": "And they will not stop fighting you until they turn you away from your faith—if they can.",
-     "explanation": "The verse warns that hostile opponents may continue fighting until believers abandon their faith. It describes the danger of coercion and religious persecution. The warning encourages vigilance and steadfastness, not hatred toward all people of another faith.  The warning is tied to hostile conduct, not identity alone."
-    },
-    {
-     "translation": "And whoever among you renounces their own faith and dies a disbeliever, their deeds will become void in this life and in the Hereafter.",
-     "explanation": "The verse warns of the spiritual consequence for someone who abandons faith and dies in disbelief. It emphasizes the seriousness of a final rejection, not a temporary struggle or a person who later repents. The outcome concerns ultimate accountability before God.  The condition of dying in disbelief is central to this warning."
-    },
-    {
-     "translation": "It is they who will be the residents of the Fire.",
-     "explanation": "Those who persist in disbelief until death face punishment in the Fire. This statement follows the condition in the preceding clause and should not be used to make careless judgments about individuals. It is a serious warning about the consequence of a final rejection.  The warning concerns those who persist in rejection to the end."
-    },
-    {
-     "translation": "They will be there forever.”",
-     "explanation": "The verse describes the punishment as lasting for those specified. The severity underscores the importance of faith and repentance during life, when turning back remains possible. The passage balances warning with the next verse’s assurance of mercy for believers who strive sincerely.  This consequence should prompt reflection during life, not despair."
+     "translation": "And whoever among you renounces their own faith and dies a disbeliever, their deeds will become void in this life and in the Hereafter. It is they who will be the residents of the Fire. They will be there forever.”",
+     "ar": "يَرۡتَدِدۡ مِنكُمۡ عَن دِينِهِۦ فَيَمُتۡ وَهُوَ كَافِرٞ فَأُوْلَٰٓئِكَ حَبِطَتۡ أَعۡمَٰلُهُمۡ فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۖ وَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+     "explanation": "By His word and whoever of you turns back from his religion, He means whoever of you returns from his religion, and from this is the expression that so-and-so reclaimed his right from so-and-so, when he reclaimed it from him. And His word and dies while he is a disbeliever means whoever turns back from his religion, the religion of Islam, and dies before he repents of his disbelief, those are they whose works have become fruitless, and by fruitless He means become void and fallen away, so their reward falls away and the recompense for them in this world and the hereafter. And the last clause is explained, that those who turned back from their religion and died in their disbelief are the people of the fire, who remain therein forever."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "218": {
    "phrases": [
     {
-     "translation": "Surely those who have believed, emigrated, and struggled in the Way of Allah—they can hope for Allah’s mercy.",
-     "explanation": "Believers who emigrated and struggled in God’s cause are encouraged to hope for divine mercy. Their sacrifice reflects commitment under difficult circumstances, but the verse directs hope to God rather than self-congratulation. Mercy remains the ultimate gift, and sincere effort is met with compassion.  Their migration and struggle were responses to difficult circumstances."
-    },
-    {
-     "translation": "And Allah is All-Forgiving, Most Merciful",
-     "explanation": "God’s forgiveness and mercy provide the basis for hope. The attributes reassure those who have endured and remind everyone that salvation is not earned through effort alone. The verse ends the discussion of faith and struggle with confidence in divine compassion.  Forgiveness and mercy are offered by God, not claimed as entitlement."
+     "translation": "Surely those who have believed, emigrated, and struggled in the Way of Allah—they can hope for Allah’s mercy. And Allah is All-Forgiving, Most Merciful",
+     "ar": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَاجَرُواْ وَجَٰهَدُواْ فِي سَبِيلِ ٱللَّهِ أُوْلَٰٓئِكَ يَرۡجُونَ رَحۡمَتَ ٱللَّهِۚ وَٱللَّهُ غَفُورٞ رَّحِيمٞ",
+     "explanation": "The meaning is explained first. Those who have held to be true Allah, His messenger, and that with which he came, and by those who have emigrated are meant those who have abandoned dwelling together with the polytheists in their towns, so that they turned away from them and from their land, as an emigration. And the root meaning of emigration is the reciprocal form, derived from one man's abandonment of another. And the emigrants among the companions were called emigrants only for that reason.\n\nA point of grammar is then added about the root meaning of striving, which is the reciprocal form, so that when two parties each endure from his companion, it is said that so-and-so strives against such-and-such.\n\nThe whole clause is then explained, that those who have emigrated and striven in the way of Allah are those who turned away from the rule of the people of shirk and out of fear of their trial over their religions, and who fought them in the religion of Allah in order to make them enter into it.\n\nAnd those hope for the mercy of Allah means they yearn that Allah be merciful to them and admit them into His paradise through His mercy."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "219": {
    "phrases": [
     {
-     "translation": "They ask you ˹O Prophet˺ about intoxicants and gambling.",
-     "explanation": "People ask about intoxicants and gambling, practices that can affect judgment, family life, and social wellbeing. The answer weighs their harms and benefits rather than treating the question as trivial. It guides believers toward reflection and responsible conduct.  The question invites a reasoned moral assessment of their effects."
+     "translation": "They ask you ˹O Prophet˺ about intoxicants and gambling. Say, “There is great evil in both, as well as some benefit for people—but the evil outweighs the benefit.” They ˹also˺ ask you ˹O Prophet˺ what they should donate.",
+     "ar": "يَسۡـَٔلُونَكَ عَنِ ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِۖ قُلۡ فِيهِمَآ إِثۡمٞ كَبِيرٞ وَمَنَٰفِعُ لِلنَّاسِ وَإِثۡمُهُمَآ أَكۡبَرُ مِن نَّفۡعِهِمَاۗ وَيَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلِ",
+     "explanation": "The question is explained first. Your companions ask you about wine and the drinking of it, and wine is every drink that befogs the intellect, covers it and veils it, and whatever befogs the intellect through sickness or intoxication, mingling with it and overwhelming it, is wine.\n\nThe interpretation preferred is then given. The great sin in the case of wine is the loss of the wine-drinker's intellect when he has become intoxicated, until the knowledge of his Lord escapes him, and that is the greatest of sins. And as for gambling, it is the occupation with it that distracts from the remembrance of Allah and from prayer, and the arising of enmity and hatred among the gamblers because of it.\n\nThe recitation is then discussed. The majority of the people of Medina and some of the Kufans and Basrans read it with the letter that makes it a great sin, and others among the people of the two garrison towns read it as in both there are many sins. And the more correct of the two is the first, on account of their unanimous agreement concerning His saying that the sin of both is greater than their benefit with that reading, for that shows that what was described is its enormity and not its multitude.\n\nThe next clause is then explained. The sin of the drinking of this and this gambling is greater and more enormous in harm to them than the benefit they obtain through both, since when they became intoxicated they would leap upon one another and fight, and this verse was revealed concerning wine before its prohibition was expressly declared."
     },
     {
-     "translation": "Say, “There is great evil in both, as well as some benefit for people—but the evil outweighs the benefit.”",
-     "explanation": "Intoxicants and gambling may bring some perceived benefit, but their harms outweigh those advantages. The verse directs attention to the broader consequences rather than isolated gains. It provides moral reasoning that prepares people to avoid practices that damage judgment, wealth, and relationships.  The comparison weighs long-term damage against short-term pleasure."
-    },
-    {
-     "translation": "They ˹also˺ ask you ˹O Prophet˺ what they should donate.",
-     "explanation": "A second question concerns what amount of wealth to give. The verse answers in a way that encourages generosity without requiring people to give beyond their capacity. It shifts the focus from calculation toward thoughtful care for others.  The guidance promotes giving within one’s genuine capacity."
-    },
-    {
-     "translation": "Say, “Whatever you can spare.”",
-     "explanation": "People should give from what they can afford beyond essential needs. The instruction makes charity practical and sustainable, while encouraging generosity. It does not require impoverishing oneself, and it leaves room for people to consider dependents and responsibilities.  Sustainable giving allows care for dependents alongside generosity."
-    },
-    {
-     "translation": "This is how Allah makes His revelations clear to you ˹believers˺, so perhaps you may reflect",
-     "explanation": "God clarifies these matters so believers can consider their implications. Reflection helps people recognize harmful practices and make wise choices about wealth. The verse invites thoughtful application of revelation in everyday life rather than unthinking compliance.  Reflection enables believers to apply guidance with understanding. The advice includes both material and moral dimensions."
+     "translation": "Say, “Whatever you can spare.” This is how Allah makes His revelations clear to you ˹believers˺, so perhaps you may reflect",
+     "ar": "ٱلۡعَفۡوَۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
+     "explanation": "The reciters differed concerning the reading of the surplus. Most of the reciters of Hijaz and the majority of the Kufans read it in the accusative, and some Basrans read it in the nominative. He who read it in the accusative placed it there on account of the word they spend, and he who read it in the nominative so the sense is that what is it that they spend, and with whichever of the two it is read it is correct.\n\nThe closing clause is then explained, that thus Allah makes clear to you the signs, that is, just as He has made clear to you His signs."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "220": {
    "phrases": [
     {
-     "translation": "upon this world and the Hereafter.",
-     "explanation": "Believers are encouraged to reflect on both worldly life and the hereafter. This perspective helps them weigh immediate benefits against lasting consequences. The verse links moral decisions with a broader view of human responsibility and final accountability.  A balanced perspective prevents immediate needs from becoming ultimate goals."
+     "translation": "upon this world and the Hereafter. And they ask you ˹O Prophet˺ concerning orphans. Say, “Improving their condition is best. And if you partner with them, they are bonded with you ˹in faith˺. And Allah knows who intends harm and who intends good.",
+     "ar": "فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۗ وَيَسۡـَٔلُونَكَ عَنِ ٱلۡيَتَٰمَىٰۖ قُلۡ إِصۡلَاحٞ لَّهُمۡ خَيۡرٞۖ وَإِن تُخَالِطُوهُمۡ فَإِخۡوَٰنُكُمۡۚ وَٱللَّهُ يَعۡلَمُ ٱلۡمُفۡسِدَ مِنَ ٱلۡمُصۡلِحِۚ وَلَوۡ شَآءَ ٱللَّهُ",
+     "explanation": "The answer is then given on account of the difference in the meaning of the two. The orphans of the believers are the brothers of the believers, whether the believers mix with them with their property or not, and the brothers is in the nominative on account of the omitted meaning, and it is not intended to report that they became brothers on account of the mixing.\n\nA point of grammar is then given about the phrase on foot or riding, which is in the accusative because both are adverbial states attached to the verb which are not permanent and to which he does not fit, for if you were to make him appear with it the sentence would become impossible.\n\nThe whole sense is then given at length. Your Lord has permitted you mixing with the orphans in the manner He has permitted it, so fear Allah within yourselves, lest you mix with them while intending to consume their property unjustly. For He knows of whoever mixes with his orphan what he intends by that mixing, and nothing of that escapes Him.\n\nAnd the closing clause is then explained, that had Allah willed, He would have forbidden what He has permitted you, and that would have burdened you heavily, and He has permitted it to you out of mercy toward you."
     },
     {
-     "translation": "And they ask you ˹O Prophet˺ concerning orphans.",
-     "explanation": "The community asks how to deal with orphans and their property. Their vulnerability makes careful treatment especially important. The answer emphasizes improvement and responsible partnership, guiding people away from neglect or exploitation.  The question concerns the ethical treatment of especially vulnerable children. The aim is their welfare, not merely administrative convenience."
-    },
-    {
-     "translation": "Say, “Improving their condition is best.",
-     "explanation": "The best approach is to improve orphans’ welfare and manage their affairs in their interest. This principle requires care, fairness, and attention to their needs. It makes protection and benefit the standard for decisions involving those who depend on adults.  Improving their condition is the guiding aim of guardianship."
-    },
-    {
-     "translation": "And if you partner with them, they are bonded with you ˹in faith˺.",
-     "explanation": "If guardians combine their affairs with those of orphans, they should remember that the children are fellow believers and members of the household. The phrase permits practical partnership while requiring trust and fairness. It rejects isolating orphans when shared arrangements can benefit them.  Shared household arrangements remain subject to fair treatment."
-    },
-    {
-     "translation": "And Allah knows who intends harm and who intends good.",
-     "explanation": "God knows the intentions behind a guardian’s actions, including whether arrangements truly benefit the orphan. This assurance comforts those acting sincerely and warns exploiters that concealment will not hide wrongdoing. Intention and conduct both matter in managing another person’s property.  Divine knowledge safeguards those whose interests may be hidden."
-    },
-    {
-     "translation": "Had Allah willed, He could have made it difficult for you.",
-     "explanation": "God could have imposed a much stricter separation, but He has allowed practical arrangements that benefit orphans. The verse recognizes human circumstances while preserving the requirement of good intent. Ease is not permission to exploit, but an allowance to manage affairs responsibly.  The allowance must be used for benefit, not self-interest."
-    },
-    {
-     "translation": "Surely Allah is Almighty, All-Wise.”",
-     "explanation": "God’s power and wisdom govern these rulings. His wisdom balances protection of vulnerable people with practical arrangements for their care. The attributes close the guidance with a reminder that believers should trust the rule and act with integrity.  Wisdom and might support the fairness of the instruction."
+     "translation": "Had Allah willed, He could have made it difficult for you. Surely Allah is Almighty, All-Wise.”",
+     "ar": "لَأَعۡنَتَكُمۡۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٞ",
+     "explanation": "One of the exegetes is then cited. Mujahid means by it the grazing of the cattle of the guardian of the orphan together with the cattle of the orphan, and the eating of his seasoning, for he explained the clause and if you mix with them, then they are your brothers as concerning the mixing of the guardian with the orphan.\n\nThese sayings are then compared, and they are close to one another in their meanings, for whoever is forbidden something is straitened in that respect, and whoever is straitened in something is oppressed therein, and whoever is oppressed or straitened is wearied, and all of that returns to the meaning of heaviness and difficulty.\n\nThe words are then illustrated from the Arabic, that it is said when the matter weighs heavily upon him and wearies him, and among that is His saying that grievous to him is that which wearies you.\n\nThe sense is then given at length. Allah is Almighty in His sovereignty, no hinderer hinders Him in what He would bring down upon you of punishment, had He burdened you heavily with what the accomplishment of it wearies you. But He has, out of the abundance of His mercy, bestowed upon you the favor by refraining from imposing that upon you. And He is All-Wise therein and in all His other rulings, into His deeds enters no defect, nor shortcoming, nor weakness, nor imperfection."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "221": {
    "phrases": [
     {
      "translation": "Do not marry polytheistic women until they believe;",
-     "explanation": "The verse instructs believers not to enter marriage with polytheists until they believe in God. It prioritizes shared faith over social attraction or status. The command is part of its specific religious and historical framework, and concerns marriage commitments rather than permission to mistreat anyone."
+     "ar": "وَلَا تَنكِحُواْ ٱلۡمُشۡرِكَٰتِ حَتَّىٰ يُؤۡمِنَّۚ",
+     "explanation": "The people of interpretation differed concerning this verse. Was it released with the intent of comprising every polytheistic woman, or was only a part of the polytheistic women meant by its ruling? And after its ruling became obligatory, is anything of it abrogated or not?\n\nSome of them said that it was released with the intent of prohibiting the marriage of every polytheistic woman by every Muslim, of whatever kind of shirk she might be, whether an idolatress, a Jewess, a Christian, a Zoroastrian or of another kind, and that the prohibition of marrying the people of the book was thereafter abrogated by the verse permitting the chaste women among the believers and the chaste women among those who were given the book before you."
     },
     {
      "translation": "for a believing slave-woman is better than a free polytheist, even though she may look pleasant to you.",
-     "explanation": "The comparison challenges status-based preferences: a believing woman, even enslaved in the historical setting, is presented as preferable to a free polytheist whom one finds attractive. It emphasizes faith over social rank and appearance. The verse does not endorse slavery, but addresses people within a society where it existed."
+     "ar": "وَلَأَمَةٞ مُّؤۡمِنَةٌ خَيۡرٞ مِّن مُّشۡرِكَةٖ وَلَوۡ أَعۡجَبَتۡكُمۡۗ",
+     "explanation": "The Exalted means by the words and a believing slave-woman truly, believing in Allah, in His messenger and in that which he brought from Allah, that she is better with Allah and more excellent than a polytheistic unbelieving free woman, even if her lineage is noble and her origin honorable. And do not strive for marriage ties with the noble women among the people of shirk against Allah, for the Muslim slave-women are better with Allah as a marriage partner than they.\n\nIt has already been mentioned that this verse was released concerning a man who married a slave-woman and was therefore rebuked, while a polytheistic free woman was being offered to him.\n\nAnd the clause is then explained, that even if the polytheistic woman who does not belong to the people of the book pleases you in beauty, noble descent and wealth, then do not marry her, for the believing slave-woman is better with Allah than she."
     },
     {
-     "translation": "And do not marry your women to polytheistic men until they believe,",
-     "explanation": "The same concern is applied to women’s marriage choices: believers are told not to marry them to polytheist men until they believe. The instruction underscores the importance of shared faith in marriage and does not frame women as property. It establishes a religious boundary for the community."
-    },
-    {
-     "translation": "for a believing slave-man is better than a free polytheist, even though he may look pleasant to you.",
-     "explanation": "A believing man, even one enslaved in that society, is described as preferable to a free polytheist who is socially or physically appealing. The comparison reverses assumptions about status and attractiveness. Its emphasis is faith, while the historical reference should not be read as approval of enslavement."
+     "translation": "And do not marry your women to polytheistic men until they believe, for a believing slave-man is better than a free polytheist, even though he may look pleasant to you.",
+     "ar": "وَلَا تُنكِحُواْ ٱلۡمُشۡرِكِينَ حَتَّىٰ يُؤۡمِنُواْۚ وَلَعَبۡدٞ مُّؤۡمِنٌ خَيۡرٞ مِّن مُّشۡرِكٖ وَلَوۡ أَعۡجَبَكُمۡۗ",
+     "explanation": "The clause is explained first. And do not give the polytheistic men in marriage until they believe means that Allah forbade the believing women to marry a polytheist, whoever the polytheist may be and of whatever kind of shirk, so do not give them in marriage to them, for that is forbidden to you, and that you give them in marriage to a believing slave who holds true Allah, His messenger and that which he brought is better for you than that you give them in marriage to a free polytheist, even if his lineage is noble and his origin honorable."
     },
     {
      "translation": "They invite ˹you˺ to the Fire while Allah invites ˹you˺ to Paradise and forgiveness by His grace.",
-     "explanation": "The verse contrasts influences that lead away from God with God’s invitation to Paradise and forgiveness. Marriage is treated as a serious bond that can shape spiritual life, not merely social standing. The invitation is by divine grace, reminding believers that salvation is a gift."
+     "ar": "أُوْلَٰٓئِكَ يَدۡعُونَ إِلَى ٱلنَّارِۖ وَٱللَّهُ يَدۡعُوٓاْ إِلَى ٱلۡجَنَّةِ وَٱلۡمَغۡفِرَةِ",
+     "explanation": "The verse is explained first. They are the ones who call to the Fire, that is to say, they call you to the doing of that which leads you into the Fire, namely unbelief in Allah and His messenger. So do not accept from them what they say, and do not marry them nor give in marriage to them, for they spare no effort to harm you.\n\nAnd He calls you to the garden, that is to say, He calls you to the doing of that which leads you into the garden, and to that which effaces your missteps, so that He forgives them and covers them for you."
     },
     {
      "translation": "He makes His revelations clear to the people so perhaps they will be mindful",
-     "explanation": "God clarifies these instructions so people may understand and act with mindfulness. The aim is not arbitrary restriction but thoughtful obedience and awareness of consequences. The verse closes by calling the community to reflect on the guidance before making important choices.  Clarity supports informed choices and responsible religious conduct."
+     "ar": "بِإِذۡنِهِۦۖ وَيُبَيِّنُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَذَكَّرُونَ",
+     "explanation": "Other views are then recorded. Some said that the ruling of the verse is directed at the polytheistic women of the Arabs, that nothing of it is abrogated and nothing is excepted, and that it is merely a verse whose outward form is general but whose interpretation is specific. Others said that it comprises every polytheistic woman of whatever kind of shirk, without excepting one over another, and that nothing of it is abrogated.\n\nThe view preferred is then given. It is what Qatada said, that Allah meant those among the polytheistic women who did not belong to the people of the book, and that the verse is general in its outward form and specific in its inward meaning, and that nothing of it is abrogated, and that the women of the people of the book do not fall under it, because Allah has permitted to the believers the marriage of their chaste women, just as He has permitted to them of the believing women. So the meaning of the words is that you do not marry any polytheistic women other than the people of the book until they believe and thus hold true Allah and His messenger and what was revealed to him.\n\nAnd the phrase with His permission is explained as meaning that He calls you to that by making known to you His way and His path along which one attains the garden and forgiveness."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "222": {
    "phrases": [
     {
      "translation": "They ask you ˹O Prophet˺ about menstruation.",
-     "explanation": "The community asks about menstruation and marital conduct. The question receives practical guidance that respects bodily conditions and clarifies boundaries. This is a matter of health and worship practice, and the answer addresses intercourse during the menstrual period specifically.  The response concerns a recurring bodily condition and practical marital guidance."
+     "ar": "وَيَسۡـَٔلُونَكَ عَنِ ٱلۡمَحِيضِۖ",
+     "explanation": "The question is explained first. Your companions ask you about menstruation. And it has been said that it is called that because, for a verb whose past tense has a vowel on the second radical and a vowel in the imperfect, the Arabs construct the verbal noun on one pattern and the noun on another, such as the place of striking and the place of descending, and it is heard in words with a yāʾ, an alif and a yāʾ.\n\nAnother view is then given, that the meaning is that you approach them by the manner by which Allah has commanded you to approach them, and that manner is purity and not menstruation, so approach them at the beginning of their purity."
     },
     {
      "translation": "Say, “Beware of its harm!",
-     "explanation": "The response identifies menstruation as a time involving harm or discomfort. The guidance asks spouses to take this condition seriously and avoid causing injury. It does not imply that menstruating women are impure as people or should be socially excluded.  The concern is avoiding physical harm, not stigmatizing the person menstruating."
+     "ar": "قُلۡ هُوَ أَذٗى",
+     "explanation": "The Exalted means by it, say to whoever of your companions asks you about menstruation, it is a harm. And the word for harm is that by which one is hindered through something objectionable in it, and it is called a harm in this place on account of its stench, its foulness and its impurity, and it encompasses several meanings among the kinds of harm, more than one.\n\nThe exegetes differed in explaining it, though the meanings of part of what they said are close to one another. Some of them said that it means it is filth, and the report naming who said that is given. And others said, say, it is blood, and the report naming who said that is given."
     },
     {
      "translation": "So keep away, and do not have intercourse with your wives during their monthly cycles until they are purified.",
-     "explanation": "The restriction is specifically on sexual intercourse during menstruation until the period has ended and purification occurs. It is not a command to avoid all affection or companionship. The verse sets a clear boundary while respecting the physical wellbeing of spouses.  The restriction is limited to intercourse during the specified period."
+     "ar": "فَٱعۡتَزِلُواْ ٱلنِّسَآءَ فِي ٱلۡمَحِيضِ وَلَا تَقۡرَبُوهُنَّ",
+     "explanation": "The argument of the proponent of this view is the establishment of the proof by the mass-transmitted reports from the messenger that he would touch his wives while they were menstruating, and if it were obligatory to abstain from them entirely then the messenger would not have done that. And since this is established as authentic, it is known that what Allah intended by His word so keep away from women during menstruation is abstention from one part of her body and not from another part, and that it must be the sexual intercourse over the prohibition of which there is agreement.\n\nOthers said that what Allah commanded to abstain from is what lies between the navel and the knee, while what is above and below that of her is permitted.\n\nThe most correct of the views is then given, that a man is permitted of his menstruating wife what is above that which is covered by the waist-wrapper, and what is below it.\n\nA recitation is then noted, that those who read it with the light letter and the vowel directed its meaning to and do not approach the women in the state of their menstruation, until the blood ceases from them and they become pure.\n\nThe most correct view is then given at length, that the meaning is to approach them at the beginning of their purity, since every command to a thing is a prohibition of its opposite, and if the meaning were to approach them by the exit of the blood from where the command to abstain was given, then the words and do not approach them until they are pure would have to mean that and do not approach them by the exit of the blood and nothing else of the places of her body, such that approaching them by their hindquarters during menstruation would be permitted."
     },
     {
      "translation": "When they purify themselves, then you may approach them in the manner specified by Allah.",
-     "explanation": "After the menstrual period and purification, marital intercourse is permitted within God’s limits. The wording preserves both the boundary and the return to ordinary intimacy. The instruction should be understood with mutual respect and care, not as coercion.  The permission resumes only after the stated purification."
+     "ar": "حَتَّىٰ يَطۡهُرۡنَۖ فَإِذَا تَطَهَّرۡنَ فَأۡتُوهُنَّ مِنۡ حَيۡثُ أَمَرَكُمُ ٱللَّهُۚ",
+     "explanation": "The more correct of the two readings is then given. It is the reading of the one who read until they purify themselves thoroughly, with the doubling, in the meaning of until they wash, on account of the agreement of all that it is forbidden for the man to approach his wife after her menstrual blood has ceased until she is pure. And since there is agreement of all that she does not become permitted to her husband upon the ceasing of the blood until she purifies herself, it is clear that the more correct of the two readings is the one that most removes confusion in the understanding of the hearer, and that is what we have chosen, since in the other reading there is something by which one is not safe from confusion, such that he supposes that it is permitted for the husband of the menstruating woman to copulate with her after her blood has ceased but before her washing.\n\nThe most correct of the two interpretations is then given, that the meaning of and when they have purified themselves is when they wash, on account of the agreement of all that she does not become pure by the washing with water with the purity by which prayer becomes permitted to her.\n\nAnd in the agreement of all the community that prayer is permitted to her only after the washing lies the clearest indication of the correctness of what we have said, namely that copulating with her is forbidden except after the washing.\n\nThe reading of those who said the access of the matter and its manner is something other than the matter itself is then discussed at length. If the meaning were as they interpreted it, then the text would need to read and when they have purified themselves, then approach them in that which Allah has commanded you, and the customary expression when that is meant is that one says, so-and-so approached his wife by way of her private part, and one does not say he approached her out of her private part. And the access of the private part must be something other than the private part itself, just as the saying approach the matter by its access only means to seek it by its place of seeking.\n\nAnd since that is so, and the meaning in their view is that they approach them by their fronts in their private parts, then according to their own saying it would necessarily be forbidden to approach them by their hindquarters, and whoever says that places himself outside the saying of the people of Islam and acts in contradiction to the explicit text of the Book of Allah and to the saying of the messenger, for Allah says your women are a tillage for you, so approach your tillage as you wish, and the messenger gave permission to approach them in their private parts by their rear side."
     },
     {
      "translation": "Surely Allah loves those who always turn to Him in repentance and those who purify themselves.”",
-     "explanation": "God loves those who repent and those who purify themselves. The conclusion links spiritual return with physical cleanliness while distinguishing the two concepts. It encourages sincere self-correction and respectful observance of purification practices.  Repentance and cleanliness both involve returning to a sound state.  The paired qualities support a balanced view of bodily and spiritual wellbeing."
+     "ar": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلۡمُتَطَهِّرِينَ",
+     "explanation": "By His word truly, Allah loves the repentant, the sense is those who return from turning away from Allah and from His obedience to Him and to His obedience, and the meaning of repentance was expounded earlier.\n\nAnd the most correct of the views about that is the saying of the one who said, truly, Allah loves the repentant from sins, and He loves those who purify themselves with water for prayer, for that is the most predominant of its outward meanings, and the purifying with water is the washing that makes prayer valid for them."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "223": {
    "phrases": [
