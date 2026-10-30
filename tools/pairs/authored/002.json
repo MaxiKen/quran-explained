@@ -1976,45 +1976,36 @@
    "phrases": [
     {
      "translation": "Those We have given the Book follow it as it should be followed.",
-     "explanation": "The verse praises people who read and follow scripture faithfully, taking its guidance seriously rather than selectively. The phrase links receiving revelation with the responsibility to practice it. Faithful engagement means listening to its teaching and letting it shape conduct. Following includes sincere study and allowing its guidance to shape conduct."
+     "ar": "ٱلَّذِينَ ءَاتَيۡنَٰهُمُ ٱلۡكِتَٰبَ يَتۡلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ",
+     "explanation": "The people described are discussed first. The exegetes differ over whom Allah meant by those to whom the book was given, and the answers are reported one after another with the chains naming who held each. Some said one group, and others said that what is meant are the scholars of the Children of Israel who believed in Allah and held His messengers to be truthful.\n\nThe reading preferred is then argued for. This saying is closer to the truth than the saying Qatada made, and the reason given looks back at the verses before it, which dealt with the same people, so the description here continues what the surrounding passage is about rather than introducing a new group.\n\nThe following named in the verse is then explained. Following the book as it should be followed is described in terms of what the book contains, and the explanation is given at length, since the verse makes the following and not the possession of the book the thing that counts."
     },
     {
-     "translation": " It is they who ˹truly˺ believe in it.",
-     "explanation": "Their practice demonstrates sincere belief in the Book. The verse treats faith as more than possession or recitation of scripture. Genuine belief is shown through taking its message seriously and living according to its guidance. The verse measures belief by a sincere response to revelation."
-    },
-    {
-     "translation": " As for those who reject it, it is they who are the losers",
-     "explanation": "Rejecting revelation brings loss, even if it seems to offer temporary advantage. The contrast with faithful followers emphasizes the consequences of one’s response to scripture. The verse calls readers to consider what is gained or lost by accepting or refusing divine guidance. Their refusal causes loss that worldly advantage cannot replace."
+     "translation": "It is they who ˹truly˺ believe in it. As for those who reject it, it is they who are the losers",
+     "ar": "أُوْلَٰٓئِكَ يُؤۡمِنُونَ بِهِۦۗ وَمَن يَكۡفُرۡ بِهِۦ فَأُوْلَٰٓئِكَ هُمُ ٱلۡخَٰسِرُونَ",
+     "explanation": "The pronoun is explained first. By the word them, Allah means these people of whom He reported that they recite the book as it should be recited, so the belief named here is attached to the group just described and not to readers of the book in general.\n\nThe connection between following and believing is then made explicit. Allah reported that the believer in the Torah is the one who follows what is in it, and He described those He described with the description of its followers in the same terms. What is reported about them is given at length.\n\nThe second half of the verse is then explained. Whoever disbelieves in it, and the sense given is that the disbelieving is in the book just named, is one of the losers, and the explanation of that is given, since the loss described belongs to the same act of following that the first half of the verse required."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "122": {
    "phrases": [
     {
-     "translation": "O Children of Israel!",
-     "explanation": "The address returns to the Children of Israel, reminding them of their history with revelation and divine favor. It is a specific historical appeal, not a judgment about all Jewish people today. The verse invites the community addressed to reflect on the gifts they received."
-    },
-    {
-     "translation": " Remember My favours upon you",
-     "explanation": "The people are called to recall God’s favors with gratitude. Remembering them is intended to affect present conduct, encouraging faithfulness rather than pride in the past. The phrase links shared history to ongoing responsibility. Gratitude should lead to faithful choices in the present. Their shared memory should shape the community’s response."
-    },
-    {
-     "translation": " and how I honoured you above the others",
-     "explanation": "The verse recalls a historical distinction and favor granted to those addressed. This honor carried responsibility and should not become a claim of permanent superiority for present-day groups. The passage urges the people to respond faithfully to the guidance they were given. The favor is recalled as a responsibility, not a boast."
+     "translation": "O Children of Israel! Remember My favours upon you and how I honoured you above the others",
+     "ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ وَأَنِّي فَضَّلۡتُكُمۡ عَلَى ٱلۡعَٰلَمِينَ",
+     "explanation": "The address is explained first, and the meaning of the call to the Children of Israel to remember the favour Allah bestowed on them and to remember that He preferred them above the worlds is set out.\n\nThe favours themselves are not listed again here. They were mentioned previously, and the verse is referred back to that earlier listing rather than repeating it, so what is being asked of them is remembrance of what has already been set before them, and the preference named is the same preference described in those earlier verses."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "123": {
    "phrases": [
     {
-     "translation": "And guard yourselves against the Day when no soul will be of any help to another.",
-     "explanation": "The verse again warns of the Day of Judgment, when people cannot take over one another’s accountability. “Guard yourselves” means preparing through faith and conduct. The statement encourages responsibility in this life rather than relying on another person’s status to secure one’s outcome. Preparation means acting faithfully before that final accounting."
-    },
-    {
-     "translation": " No ransom will be taken, no intercession accepted, and no help will be given",
-     "explanation": "The verse denies that payment, intercession, or outside assistance can be presumed as an automatic escape from judgment. These images challenge reliance on worldly protections. The message is that each person must respond sincerely to God’s guidance, while final judgment belongs to Him. People should not assume that status can purchase release."
+     "translation": "And guard yourselves against the Day when no soul will be of any help to another. No ransom will be taken, no intercession accepted, and no help will be given",
+     "ar": "وَٱتَّقُواْ يَوۡمٗا لَّا تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا وَلَا يُقۡبَلُ مِنۡهَا عَدۡلٞ وَلَا تَنفَعُهَا شَفَٰعَةٞ وَلَا هُمۡ يُنصَرُونَ",
+     "explanation": "The warning is explained first. This verse is a warning and a deterrence from Allah directed to those who were addressed in what precedes it, and the explanation of that is given at length, since the verse names four things that will not be available on the day described.\n\nThe four are set out together. No soul will avail another soul anything, no ransom will be taken from it, no intercession will benefit it, and it will not be helped. Each rules out a way of escape that the people addressed relied on.\n\nThe exposition of all the meanings of this verse is then noted as having been given earlier, in connection with the corresponding verse that came before it, so what is added here is the fact of the repetition rather than a new reading of the words."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "124": {
    "phrases": [
