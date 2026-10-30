@@ -536,61 +536,66 @@
    "phrases": [
     {
      "translation": "And ˹remember˺ when We said to the angels, “Prostrate before Adam,”",
-     "explanation": "The command to prostrate before Adam is an act of obedience to God’s instruction, not worship of Adam. The verse introduces a test of response to divine command. It highlights Adam’s honored place in the account while making clear that the angels’ action is directed by God."
+     "ar": "وَإِذۡ قُلۡنَا لِلۡمَلَٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ",
+     "explanation": "The opening is joined grammatically to the clause before it, so it continues the reminder of favors addressed to the Jews in the place of the Prophet's emigration, listing what Allah did for them and for their father Adam. Singling Iblis out from among them is read as showing that he was one of them.\n\nWhether he belonged to the angels was disputed. Some said the jinn are a branch of the angels, a tribe of them, and that his tribe was called the jinn, since the Arabs so name whoever hides himself and is not seen.\n\nThe arguments on the other side are judged to show the weakness of their authors' knowledge. It is not strange that Allah created the kinds of His angels from different kinds of creation, some from light and some from fire, and His reporting what Iblis was made from does not put him outside their number. Nor does having offspring remove him from them, since desire was built into him."
     },
     {
-     "translation": " so they all did—but not Iblîs,",
-     "explanation": "The angels obey, while Iblis refuses. The contrast makes his exception important: disobedience is not attributed to the angels as a group. The verse identifies a specific refusal and moves to explain its cause, showing how one being’s choice separates him from the obedient response."
+     "translation": "so they all did—but not Iblîs,",
+     "ar": "فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ",
+     "explanation": "The name is explained as a word on a derived pattern meaning despair of good, regret and grief, and a poet's use of the same root is glossed as dejection and gloom.\n\nA question of grammar follows. If the name is built on that pattern, why was it not fully declined and given the nunation that a regular Arabic noun takes? The answer is that full declension was dropped because of its weight, since it is a name with no equal among the names of the Arabs, and they therefore treated it like the borrowed names that are not declined. Another name is cited as parallel, one derived from an Arabic verb yet left without nunation because it was first a name among non Arabs and was then adopted, and a third name is given the same account."
     },
     {
-     "translation": " who refused and acted arrogantly,",
-     "explanation": "Iblis refuses the command and responds with arrogance. Pride prevents him from accepting what God has instructed. The account warns that disobedience may arise not from lack of information but from a self-important refusal to submit to truth. His choice contrasts with the angels’ immediate obedience to the command."
-    },
-    {
-     "translation": " becoming unfaithful",
-     "explanation": "Iblis’s refusal places him among those who reject God’s command. The phrase closes the account of his choice and its moral meaning. It emphasizes that status or knowledge does not protect someone who knowingly chooses arrogance over obedience. The account makes his deliberate disobedience a warning against pride."
+     "translation": "who refused and acted arrogantly, becoming unfaithful",
+     "ar": "أَبَىٰ وَٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ",
+     "explanation": "He refused means that Iblis refused to prostrate before Adam, and he acted arrogantly means that he thought himself great and too proud to obey Allah in prostrating before him. Although this is a report about Iblis, it is read as a rebuke to his likes, to everyone too proud to submit to Allah's command.\n\nBecoming unfaithful is then explained. Allah described Iblis in the same terms as those for whom He set him as an example in arrogance and envy, meaning that he denied Allah's favors by opposing Him in what He commanded. The same denial is charged against the Jews, who saw the Prophet and beheld Allah's proof in him, then denied his prophethood after knowing it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "35": {
    "phrases": [
     {
      "translation": "We cautioned, “O Adam! Live with your wife in Paradise",
-     "explanation": "Adam and his wife are given a home in Paradise and permission to live there. The address begins with a caution, placing their freedom within a clear instruction. The account presents human life as involving both gifts and responsibilities, rather than unrestricted choice without guidance."
+     "ar": "وَقُلۡنَا يَٰٓـَٔادَمُ ٱسۡكُنۡ أَنتَ وَزَوۡجُكَ ٱلۡجَنَّةَ",
+     "explanation": "The verse is read as carrying a clear indication of the order of events. Iblis was expelled from the Garden after he refused out of arrogance to prostrate before Adam, and Adam was placed in it before Iblis came down to the earth. It follows that Iblis made them slip from obedience only after he had been cursed and had shown his arrogance, since the prostration of the angels took place after the spirit was breathed into Adam, and it was at that moment that Iblis refused.\n\nThe exegetes then differed about the state in which Adam's wife was created and the time at which she was made his companion, one report placing her creation after he entered the Garden and another placing it before he dwelt there.\n\nThe word for wife is discussed on its own account. The wife of a man is named in Arabic by a form without a final letter and by a form with one, and the form with it is the more frequent in the language, while the shorter form is explained as belonging to a particular dialect."
     },
     {
-     "translation": " and eat as freely as you please,",
-     "explanation": "They are allowed broad enjoyment of the provisions in Paradise. The permission is generous and establishes that the coming prohibition concerns one specific boundary, not a general denial of good things. The verse presents divine guidance alongside abundance and freedom. Their permission is broad, with one clearly stated boundary."
+     "translation": "and eat as freely as you please,",
+     "ar": "وَكُلَا مِنۡهَا رَغَدًا حَيۡثُ شِئۡتُمَا",
+     "explanation": "The permission is then summed up. The sense is dwell, you and your wife, in the Garden, and eat of it an ample and pleasant provision wherever you wish. The word translated freely carries the idea of provision that is wide and agreeable, and the leave given is open as to place, so nothing in the Garden is held back from them. That makes the single restriction in the next clause the only limit on a permission that is otherwise complete."
     },
     {
-     "translation": " but do not approach this tree,",
-     "explanation": "The command sets a specific limit within their permitted enjoyment. The wording warns them not to approach the tree, emphasizing caution around the boundary. The narrative does not identify the tree here, so readers should not claim details the verse does not give. The instruction marks a limit within the abundance they enjoy."
+     "translation": "but do not approach this tree,",
+     "ar": "وَلَا تَقۡرَبَا هَٰذِهِ ٱلشَّجَرَةَ",
+     "explanation": "The word for tree is explained first. It covers in Arabic everything that stands on a trunk, and a verse is quoted in which the plants and the trees prostrate, the second of the two terms being what stands upon a trunk.\n\nThe exegetes then differed about which tree it was. Some said it was the ear of grain, others said the grapevine, and others said the fig tree, and reports are given for each.\n\nThe position taken is that Allah informed His servants that Adam and his wife ate of the tree their Lord had forbidden them, and so committed the sin He had forbidden, after He had pointed the tree out to them by saying do not approach this tree. He gave them the indication they needed to know which tree was meant at the time. But Allah placed no indication for His servants, to whom the Quran is addressed, as to which of the trees of the Garden it was, so the identifications offered are not something the text establishes, and the obligation carried by the verse does not depend on settling the question."
     },
     {
-     "translation": " or else you will be wrongdoers.”",
-     "explanation": "Crossing the stated limit would be wrongdoing. The warning makes the moral consequence clear before the test occurs. The verse shows that freedom is accompanied by responsibility and that divine instruction gives people a way to distinguish permitted enjoyment from a prohibited act. The warning gives them notice of the consequence before they act."
+     "translation": "or else you will be wrongdoers.”",
+     "ar": "فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
+     "explanation": "Two grammatical accounts are given of the verb that follows the prohibition. On one, it is put in the jussive by the same means as a prohibition before it, as though the prohibition were repeated, and a poet's line is cited for it. On the other, the clause carries the sense of an answer to the prohibition, so the meaning is do not approach this tree, for if you approached it you would be among the wrongdoers, as one says do not revile so and so lest he revile you.\n\nThe sense given is that they would then be among those who reach past what is permitted and allowed to them.\n\nThe word for wrongdoers is then traced to its origin, which is putting a thing in a place that is not its own. Illustrations are quoted from Arabic speech. An earth is called wronged when a digger digs in it where digging does not belong, and valley beds are called wronged when rain comes outside its season and pours where it should not. The idea branches into further senses, left to be set out where they occur, but the origin of all of them is the one described."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "36": {
    "phrases": [
     {
-     "translation": "But Satan deceived them—",
-     "explanation": "Satan becomes the means by which Adam and his wife are led into disobedience. The phrase names deception as the cause of their fall from the state they had enjoyed. The account warns readers about misleading persuasion and the need to remain attentive to divine guidance."
+     "translation": "But Satan deceived them—leading to their fall from the ˹blissful˺ state they were in,",
+     "ar": "فَأَزَلَّهُمَا ٱلشَّيۡطَٰنُ عَنۡهَا فَأَخۡرَجَهُمَا مِمَّا كَانَا فِيهِۖ",
+     "explanation": "Two readings of the first verb are noted, the one followed here and another meaning the removal of a thing from another. The first is held more correct, since Allah reported afterwards that Iblis caused them both to depart from what they were in.\n\nMany reports are brought in about how he brought them to it, in one of which he wailed over them until they grieved, in another he whispered first to the wife and then made the tree seem beautiful to Adam, and in another he was carried into the Garden by one of its animals.\n\nWhat accords with the Book of Allah is judged most in accord with the truth. Allah reported that Iblis whispered to the two of them to show them what was hidden of their private parts, that he said their Lord forbade them the tree only lest they become angels or become immortal, and that he swore he was a sincere adviser, while bringing them down by deceit.\n\nAs for how he reached the Garden after being expelled from it, what is reported from Ibn Abbas and Wahb contains nothing a person of understanding may refute.\n\nHe caused them to depart from what they were in means from the abundant sustenance and wide bounty of the Garden. The expulsion is ascribed to Satan, though Allah expelled them, because their leaving rested on an occasion he brought about."
     },
     {
-     "translation": "leading to their fall from the ˹blissful˺ state they were in,",
-     "explanation": "Their disobedience results in leaving the ease and happiness they had experienced. The wording links the loss to the deception that preceded it. The verse presents a serious consequence but does not make the story one of permanent hopelessness, since the following account will speak of repentance."
+     "translation": "and We said, “Descend from the heavens ˹to the earth˺ as enemies to each other.",
+     "ar": "وَقُلۡنَا ٱهۡبِطُواْ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوّٞۖ",
+     "explanation": "Allah's statement that follows makes clear that the one who expelled Adam is Allah, and that the ascription to Iblis stands as described.\n\nThe interpreters differed about who is intended by the plural in descend, while agreeing that Adam and his wife are among them.\n\nA question about the enmity named is then answered. The enmity of Iblis toward Adam and his offspring is his envy and his arrogance against obeying Allah in prostrating to him. The enmity of Adam's offspring toward Iblis is the enmity of the believers toward him because of his disbelief. The war between us is held to go back to Iblis being brought into the Garden after Allah expelled him, until he made Adam slip by eating of the forbidden tree."
     },
     {
-     "translation": " and We said, “Descend from the heavens ˹to the earth˺ as enemies to each other.",
-     "explanation": "The command marks a transition from Paradise to earthly life and describes enmity among those involved. Human existence on earth includes conflict and moral struggle. The verse gives the setting for life after the fall, but the later promise of guidance means that people are not left without direction."
-    },
-    {
-     "translation": " You will find in the earth a residence and provision for your appointed stay.”",
-     "explanation": "Earth is designated as a place to live and receive provision for a limited time. The phrase combines the reality of worldly life with its temporal nature. People may make homes and use resources, but their stay is not permanent, so they remain accountable to God beyond this life."
+     "translation": "You will find in the earth a residence and provision for your appointed stay.”",
+     "ar": "وَلَكُمۡ فِي ٱلۡأَرۡضِ مُسۡتَقَرّٞ وَمَتَٰعٌ إِلَىٰ حِينٖ",
+     "explanation": "The people of interpretation differed about the residence named here, and one explanation given was that it means an abode in the graves.\n\nThe word itself is settled from the language. It means the place of settling, so wherever anyone is on the earth at this moment, that place is his dwelling place. What Allah intended is that they have on the earth a dwelling and an abode in their locations, in place of the Garden and the heaven.\n\nThe provision mentioned with it was likewise explained in two ways, some taking it as sustenance until death and others as lasting until the coming of the Hour. The word in Arabic covers everything from which enjoyment is taken, whether sustenance, household goods, adornment, pleasure or anything else. Since Allah made the life of every living thing an enjoyment for it during the days of its life, and made the earth an enjoyment for human beings during the days of their life, by dwelling on it, by being nourished from the food and fruit He brings out of it, and by the pleasures He created in it, the enjoyment runs to the term appointed for each life, which is what both explanations describe."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "37": {
    "phrases": [
