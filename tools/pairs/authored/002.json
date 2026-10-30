@@ -1696,17 +1696,16 @@
    "phrases": [
     {
      "translation": "O believers!",
-     "explanation": "The address turns directly to the believing community and gives guidance about respectful speech. It shows that how people speak to one another matters, even in ordinary interactions. The instruction protects the community from ambiguity or language that can be used to mock or insult."
+     "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ",
+     "explanation": "The verse opens by addressing the believers directly, and the explanation of the saying is given together with the command that follows it. What is forbidden is a single word, and the people forbidden it are those who believe, so the prohibition concerns the language they use with the Prophet rather than anything in their belief."
     },
     {
-     "translation": " Do not say, “Râ’ina.” [Herd us!] But say, “Unẓurna,” [Tend to us!] and listen ˹attentively˺.",
-     "explanation": "The verse prohibits a term that could be twisted into disrespect and instructs believers to use a clear alternative asking for attention or consideration. It also commands attentive listening. The lesson is to choose words that communicate honestly and avoid expressions that invite insult or confusion."
-    },
-    {
-     "translation": " And the disbelievers will suffer a painful punishment",
-     "explanation": "The verse warns that those who reject faith face painful accountability. This statement follows a practical instruction about speech, reminding believers that words and attitudes exist within a larger moral framework. It is a warning from the passage, not a license to threaten individuals. This warning completes the instruction about respectful speech."
+     "translation": "Do not say, “Râ’ina.” [Herd us!] But say, “Unẓurna,” [Tend to us!] and listen ˹attentively˺. And the disbelievers will suffer a painful punishment",
+     "ar": "لَا تَقُولُواْ رَٰعِنَا وَقُولُواْ ٱنظُرۡنَا وَٱسۡمَعُواْۗ وَلِلۡكَٰفِرِينَ عَذَابٌ أَلِيمٞ",
+     "explanation": "The word itself is discussed first. The exegetes differed concerning the explanation of the prohibition, and the explanations recorded are several. Some took the word in one sense, and others said that its meaning is a request that the person addressed direct his hearing toward the speaker, that is, listen to us and give us your attention. The verb behind it is explained as inclining the hearing toward someone and freeing it for him, so on this reading the word is not a bad word at all but an ordinary request for attention.\n\nThe reason for forbidding it is then discussed, and the exegetes differed about that as well. Some gave one reason. Others said that it was a word the helpers in Medina used in the time of ignorance, and that Allah forbade them to go on using it after Islam. Others again said that it was the saying of a particular Jew, named in the report, who used the word as a means of insulting the Prophet while keeping the appearance of a respectful form of address.\n\nThe point of language behind all of these accounts is then set out. Arabic contains pairs of words used with one and the same meaning, where one of the two forms carries a good sense and the other carries a sense that people avoid, and an example of such a pair is given from the word for a grape, with the Prophet's own guidance about which of the two forms to use. The same is said of the word used here, which sounds like a request for attention and also sounds like a word of contempt to anyone listening for it.\n\nThe reason for the prohibition is then placed in a wider setting. Allah had commanded the believers to honor and revere His Prophet, and this command is explained at length, since the honor owed to him is what rules out a word that could be turned into an insult. The verse therefore closes the matter by giving the believers another word to use, one that carries the same request without the risk attached to the first, and by telling them to listen, which is the thing the word was meant to ask for in any case."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "105": {
    "phrases": [
@@ -1762,81 +1761,81 @@
    "phrases": [
     {
      "translation": "Or do you ˹believers˺ intend to ask of your Messenger as Moses was asked before?",
-     "explanation": "The verse cautions believers against making demands of their Messenger in the manner of earlier challenges to Moses. It warns against testing a prophet with unreasonable or defiant requests. Sincere questions for understanding are different from demands intended to resist or ridicule guidance. The warning concerns defiant tests, not sincere requests to learn."
+     "ar": "أَمۡ تُرِيدُونَ أَن تَسۡـَٔلُواْ رَسُولَكُمۡ كَمَا سُئِلَ مُوسَىٰ مِن قَبۡلُۗ",
+     "explanation": "The verse is discussed first in its occasion. The people of interpretation differed concerning the reason it was revealed, and several accounts are recorded, each naming a different thing that some people asked of the Prophet. The reports are given with the names of those who transmitted them, so the question in the verse is read against a particular asking rather than as a general warning.\n\nThe particle at the head of the verse is then examined. The grammarians differed concerning the meaning of the word translated as or, since it can introduce a second alternative or can turn the sentence back on what came before, and each reading gives the question a slightly different place in the argument. The explanation preferred is given with the reasoning for it.\n\nThe comparison drawn in the verse is then explained. Asking the Messenger as Moses was asked before means asking in the way that people asked of Moses, which the earlier verses in this chapter have already described, so the warning is that the same kind of asking produced the same kind of trouble for the people who made it."
     },
     {
-     "translation": " But whoever trades belief for disbelief has truly strayed from the Right Way",
-     "explanation": "The image of trade describes abandoning faith for disbelief as a disastrous exchange. Such a choice leads away from the right path. The verse warns believers not to let excessive demands or resistance turn into rejection of the guidance they have received. The image describes a choice with lasting spiritual consequences."
+     "translation": "But whoever trades belief for disbelief has truly strayed from the Right Way",
+     "ar": "وَمَن يَتَبَدَّلِ ٱلۡكُفۡرَ بِٱلۡإِيمَٰنِ فَقَدۡ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
+     "explanation": "Exchanging is then explained. By the words whoever exchanges unbelief for faith, Allah means whoever puts one in the place of the other, so the verb carries the sense of a trade in which a thing is handed over and something else taken in return.\n\nA second explanation of the two words is recorded beside it. It has been said that the word for unbelief in this place is used in the sense of hardship and the word for faith in the sense of ease, and the reports naming who said that are given. On that reading the exchange described is of one condition for another rather than of belief for its opposite, and both readings are left standing.\n\nThe consequence is then explained. Such a person has strayed from the middle of the road, and the phrase is explained from its parts, the middle of the road being the part of it that leads where the traveler intends to go. What is said about the exchange is drawn out at length, since the verse connects the asking described before it with a loss that is described here as losing the way itself."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "109": {
    "phrases": [
     {
      "translation": "Many among the People of the Book wish they could turn you ˹believers˺ back to disbelief because of their envy,",
-     "explanation": "The verse describes envy among many in a specific historical dispute, warning that some wished believers would abandon their faith. It should not be generalized to all Jews or Christians. The passage names envy as a motive and asks believers to remain steady without responding with injustice."
+     "ar": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ",
+     "explanation": "The verse is placed first. This saying of Allah makes clear that His address in all these verses runs to a particular group, and the discussion of that point is given at length, since it settles who is being spoken to and who is being spoken about.\n\nThe wish described is then explained. Many of the People of the Book wish that they could turn the believers back into unbelief, and the motive named with it is envy. The word for envy is explained, and the phrase from themselves is then explained as meaning from within themselves, as a person says in ordinary speech that something came from himself when it arose in his own heart.\n\nA long discussion of the grammar accompanies these words, since the construction that carries the wish and the motive is one that Arabic uses in a particular way, and the explanation of it is set out in full."
     },
     {
-     "translation": " after the truth has been made clear to them.",
-     "explanation": "The verse says this wish persisted even after truth had become clear in the situation described. The contrast underscores the role of envy in resisting what one recognizes. The statement concerns the people and dispute of the passage, not a blanket judgment about present-day communities."
+     "translation": "after the truth has been made clear to them.",
+     "ar": "عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ",
+     "explanation": "The clause after the truth has been made clear to them is then explained, and its sense is that the truth had already become plain to the people described. The word is then drawn out for what it indicates, namely that the disbelief of those whose account Allah relates in this verse came after clarity and not before it, which is what makes the envy named in the verse a choice rather than a mistake."
     },
     {
-     "translation": " Pardon and bear with them until Allah delivers His decision.",
-     "explanation": "Believers are told to pardon and show restraint until God’s decision comes. The instruction directs them away from retaliation and toward patience. It is a time-bound command in its context, encouraging measured conduct while leaving final judgment to God. Restraint is prescribed while believers await God’s judgment."
+     "translation": "Pardon and bear with them until Allah delivers His decision.",
+     "ar": "فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ",
+     "explanation": "The command given to the believers is then explained. Pardon means overlook what proceeded from them of evil, and the explanation of the word is given at length, since it covers letting a thing pass rather than answering it. Turning away is joined to it, and the two together describe a conduct toward people who are actively wishing harm.\n\nThe limit set on that conduct is then noted, since the command runs only until Allah brings His command, so what is asked of the believers is patience for a period and not permanent silence."
     },
     {
-     "translation": " Surely Allah is Most Capable of everything",
-     "explanation": "This closing attribute assures believers that God can carry out His decision and support those who remain patient. The passage asks them to pardon and bear with opponents for a time, but does not imply that injustice is beyond God’s power or final judgment. always."
+     "translation": "Surely Allah is Most Capable of everything",
+     "ar": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+     "explanation": "The closing name is explained by referring back to what was already demonstrated earlier, that the word for the all capable means the one who is able to do what He wills. It is mentioned here because the command before it asks the believers to wait, and the name tells them that the one they are waiting on is able to bring the matter to an end."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "110": {
    "phrases": [
     {
-     "translation": "Establish prayer, and pay alms-tax.",
-     "explanation": "The verse calls believers to maintain prayer and fulfill the duty of alms-tax. These practices express devotion and responsibility toward others. The commands answer the preceding tensions with a focus on consistent worship and generosity, rather than fixation on opponents’ conduct. The commands pair worship with responsibility toward those in need."
-    },
-    {
-     "translation": " Whatever good you send forth for yourselves,",
-     "explanation": "Good deeds are described as something people send ahead for their own lasting benefit. Giving, worship, and other righteous actions have consequences beyond the moment in which they are performed. The phrase encourages people to consider the future value of what they do. Good action is stored as benefit for the life to come."
-    },
-    {
-     "translation": " you will ˹certainly˺ find ˹its reward˺ with Allah. Surely Allah is All-Seeing of what you do",
-     "explanation": "God sees every good deed and preserves its reward. The assurance encourages sincerity even when people do not receive recognition from others. The verse ends by connecting action with divine knowledge and promising that good done for God is never lost. Nothing done sincerely is lost, even when other people overlook it."
+     "translation": "Establish prayer, and pay alms-tax. Whatever good you send forth for yourselves, you will ˹certainly˺ find ˹its reward˺ with Allah. Surely Allah is All-Seeing of what you do",
+     "ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَۚ وَمَا تُقَدِّمُواْ لِأَنفُسِكُم مِّنۡ خَيۡرٖ تَجِدُوهُ عِندَ ٱللَّهِۗ إِنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٞ",
+     "explanation": "The two commands are explained first. Establishing the prayer and giving the alms tax are the same two requirements named in the covenant described earlier in this chapter, and the statement concerning their explanation is given at length.\n\nThe promise attached to them is then explained. Whatever good you send forward for yourselves you will find it with Allah, and the sense given is that the good a person does is described as something sent ahead, so it arrives before him and is waiting for him rather than being lost when he leaves this world."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "111": {
    "phrases": [
     {
-     "translation": "The Jews and Christians each claim that none will enter Paradise except those of their own faith.",
-     "explanation": "The verse reports competing claims that salvation belongs exclusively to one community. It challenges making religious identity alone a guarantee of Paradise. The statement concerns a dispute among the groups addressed and should not be used to stereotype every Jewish or Christian person. The passage questions confident claims about who God will admit."
-    },
-    {
-     "translation": " These are their desires.",
-     "explanation": "The claims are described as wishes rather than proof. The verse calls for evidence instead of relying on what a group wants to be true. It warns that confident religious assertions need support and that people should not make claims about God’s judgment without knowledge."
-    },
-    {
-     "translation": " Reply, ˹O Prophet,˺ “Show ˹me˺ your proof if what you say is true.”",
-     "explanation": "The Prophet is instructed to ask for evidence. The challenge shifts the argument from competing assertions to proof. It invites honest examination and cautions against claiming exclusive divine favor without a basis in revelation or sound reasoning. It asks for evidence rather than accepting assertion as proof."
+     "translation": "The Jews and Christians each claim that none will enter Paradise except those of their own faith. These are their desires. Reply, ˹O Prophet,˺ “Show ˹me˺ your proof if what you say is true.”",
+     "ar": "وَقَالُواْ لَن يَدۡخُلَ ٱلۡجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوۡ نَصَٰرَىٰۗ تِلۡكَ أَمَانِيُّهُمۡۗ قُلۡ هَاتُواْ بُرۡهَٰنَكُمۡ إِن كُنتُمۡ صَٰدِقِينَ",
+     "explanation": "What they said is explained first. The Jews and the Christians said that none will enter the Garden except whoever is a Jew or a Christian.\n\nThe wording of the claim is then examined. Concerning the word for Jews there are two views, the first of which takes it as a plural of a particular form and the second differently, and the grammatical discussion of both is given. It has also been said that the words except whoever is a Jew are in reality a statement of a condition.\n\nThe answer to it is then given in two parts. Those are their wishful fancies is described as a report from Allah about the standing of the claim, and the Prophet is then commanded to call on those who made it to produce their proof. Allah says to His Prophet to say to those who claim that the Garden is entered by none unless he belongs to one of the two groups that they should bring their evidence if they are truthful, so the claim is answered by a demand for proof rather than by a contrary claim."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "112": {
    "phrases": [
     {
      "translation": "But no! Whoever submits themselves to Allah and does good",
-     "explanation": "The verse rejects exclusive claims based only on community labels and instead describes submission to Allah joined with good action. The emphasis is on sincere devotion expressed in conduct. It does not present ancestry or a name as a substitute for faithfulness. The verse directs attention to devotion and conduct instead of labels."
+     "ar": "بَلَىٰۚ مَنۡ أَسۡلَمَ وَجۡهَهُۥ لِلَّهِ",
+     "explanation": "The opening word is explained by referring back to what was set forth earlier, that the word translated as but no is an affirmation answering a negation.\n\nThe condition that replaces that claim is then explained. Whoever submits his face to Allah means whoever surrenders himself to obedience to Him, and the image is illustrated from ordinary speech, in which a person says that he has surrendered to obedience to the one to whose obedience even the rain clouds surrender. The report concerning the person Allah describes in these words is then given at length.\n\nThe second half of the condition is explained as well. While he is a doer of good means in the state of doing good, so the surrender is the direction of the person and the doing of good is what he is doing while he faces that way."
     },
     {
-     "translation": " will have their reward with their Lord.",
-     "explanation": "God is the source and keeper of the reward promised to those who submit and act well. Their effort is not lost even if people dispute their standing. The phrase places final judgment with Allah, who knows the sincerity and deeds of each person. Their deeds are known and valued by God even amid disputes."
+     "translation": "will have their reward with their Lord.",
+     "ar": "وَهُوَ مُحۡسِنٞ فَلَهُۥٓ أَجۡرُهُۥ عِندَ رَبِّهِۦ",
+     "explanation": "The reward promised is then explained. His reward is with his Lord, and the statement concerning the explanation of these words is given, since the reward is described as being kept with Allah rather than as something handed over at once."
     },
     {
-     "translation": " And there will be no fear for them, nor will they grieve",
-     "explanation": "The promise is freedom from ultimate fear and grief in the final outcome. It does not mean a person will experience no hardship in worldly life. The verse assures those who sincerely submit and do good that God’s reward brings lasting security. This is a promise of ultimate security in the Hereafter."
+     "translation": "And there will be no fear for them, nor will they grieve",
+     "ar": "وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+     "explanation": "The two assurances that close the verse are then explained. No fear upon them is explained as concerning the Muslims who submitted their faces to Allah and did good, so the fear removed is the fear of what is ahead of them. They will not grieve removes what is behind them, and the two together are the same pair of assurances given earlier in this chapter to the people who believe and do righteous deeds."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "113": {
    "phrases": [
