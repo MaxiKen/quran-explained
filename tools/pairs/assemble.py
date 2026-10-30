@@ -157,10 +157,15 @@ def build_surah(surah: int) -> tuple[dict, list[str]]:
         return {"surah": surah, "verses": verses}, problems
 
     # A tabari-v2 chapter is measured against its own commentary, so the
-    # passages are read once per chapter rather than once per phrase.
+    # passages are read once per chapter rather than once per phrase. A chapter
+    # migrating one verse at a time declares the policy per verse, so a single
+    # verse asking for measurement is enough to load it.
     tafsir = None
     measured: dict[str, list[dict]] = {}
-    if split_policy == POLICY_TABARI:
+    needs_tafsir = split_policy == POLICY_TABARI or any(
+        isinstance(v, dict) and v.get("split_policy") == POLICY_TABARI
+        for v in authored_verses.values())
+    if needs_tafsir:
         try:
             tafsir, _, _ = digest.load_surah(surah)
         except (OSError, ValueError) as exc:

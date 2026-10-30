@@ -22,6 +22,23 @@ def read_json(path):
         return json.load(handle)
 
 
+def effective_policy(authored, verse):
+    """The policy one verse is gated under: its own, else the chapter's.
+
+    A chapter migrating to tabari-v2 carries both policies at once, verse by
+    verse, so every test has to ask the verse rather than the chapter.
+    """
+    return (verse.get("split_policy")
+            or authored.get("split_policy")
+            or assemble.POLICY_LEGACY)
+
+
+def tabari_verses(authored):
+    """The verses of one authored chapter that are gated under tabari-v2."""
+    return [(ayah, verse) for ayah, verse in authored["verses"].items()
+            if effective_policy(authored, verse) == assemble.POLICY_TABARI]
+
+
 class PhraseExplanationTest(unittest.TestCase):
     def authored_names(self):
         return sorted(name for name in os.listdir(assemble.AUTHORED) if name.endswith(".json"))
@@ -84,38 +101,38 @@ class PhraseExplanationTest(unittest.TestCase):
         for name in self.authored_names():
             surah = int(name[:3])
             authored = read_json(os.path.join(assemble.AUTHORED, name))
-            policy = authored.get("split_policy") or assemble.POLICY_LEGACY
-            allowed = {"translation", "explanation"}
-            if policy == assemble.POLICY_TABARI:
-                # the Arabic piece is what the source is measured against
-                allowed.add("ar")
-            for verse in authored["verses"].values():
+            for ayah, verse in authored["verses"].items():
+                allowed = {"translation", "explanation"}
+                if effective_policy(authored, verse) == assemble.POLICY_TABARI:
+                    # the Arabic piece is what the source is measured against
+                    allowed.add("ar")
                 for phrase in verse["phrases"]:
-                    self.assertEqual(set(phrase), allowed, "surah %d" % surah)
+                    self.assertEqual(set(phrase), allowed, "surah %d verse %s" % (surah, ayah))
 
     def test_legacy_phrases_stay_in_the_fixed_band(self):
-        """sense-v1 chapters keep the band they were written under."""
+        """sense-v1 verses keep the band they were written under."""
         for name in self.authored_names():
             authored = read_json(os.path.join(assemble.AUTHORED, name))
-            if (authored.get("split_policy") or assemble.POLICY_LEGACY) != assemble.POLICY_LEGACY:
-                continue
-            for verse in authored["verses"].values():
+            for ayah, verse in authored["verses"].items():
+                if effective_policy(authored, verse) != assemble.POLICY_LEGACY:
+                    continue
                 for phrase in verse["phrases"]:
-                    self.assertNotIn("\n", phrase["explanation"])
+                    self.assertNotIn("\n", phrase["explanation"], ayah)
                     words = len(phrase["explanation"].split())
                     self.assertGreaterEqual(words, 45, phrase["translation"])
                     self.assertLessEqual(words, 85, phrase["translation"])
 
     def test_tabari_phrases_match_the_length_their_material_deserves(self):
-        """tabari-v2 chapters are measured against Ṭabarī, not against a band."""
+        """tabari-v2 verses are measured against Ṭabarī, not against a band."""
         checked = 0
         for name in self.authored_names():
             surah = int(name[:3])
             authored = read_json(os.path.join(assemble.AUTHORED, name))
-            if (authored.get("split_policy") or assemble.POLICY_LEGACY) != assemble.POLICY_TABARI:
+            verses_to_check = tabari_verses(authored)
+            if not verses_to_check:
                 continue
             tafsir, verses, _ = digest.load_surah(surah)
-            for ayah, verse in authored["verses"].items():
+            for ayah, verse in verses_to_check:
                 measured = digest.measure(digest.verse_passage(tafsir, ayah), verses[ayah]["ar"])
                 spans = digest.phrase_spans([p["ar"] for p in verse["phrases"]], verses[ayah]["ar"])
                 for phrase, span in zip(verse["phrases"], spans):
@@ -125,17 +142,18 @@ class PhraseExplanationTest(unittest.TestCase):
                     self.assertIsNone(problem, problem)
                     self.assertGreaterEqual(words, digest.FLOOR_WORDS)
                     checked += 1
-        self.assertGreater(checked, 0, "no tabari-v2 chapter was measured")
+        self.assertGreater(checked, 0, "no tabari-v2 verse was measured")
 
     def test_tabari_phrases_name_the_arabic_they_explain(self):
         """The Arabic spans are exact, consecutive and cover the verse once."""
         for name in self.authored_names():
             surah = int(name[:3])
             authored = read_json(os.path.join(assemble.AUTHORED, name))
-            if (authored.get("split_policy") or assemble.POLICY_LEGACY) != assemble.POLICY_TABARI:
+            verses_to_check = tabari_verses(authored)
+            if not verses_to_check:
                 continue
             _, verses, _ = digest.load_surah(surah)
-            for ayah, verse in authored["verses"].items():
+            for ayah, verse in verses_to_check:
                 spans = digest.phrase_spans([p["ar"] for p in verse["phrases"]], verses[ayah]["ar"])
                 self.assertEqual(len(spans), len(verse["phrases"]))
                 self.assertEqual(spans[0][0], 0)
@@ -149,10 +167,11 @@ class PhraseExplanationTest(unittest.TestCase):
         for name in self.authored_names():
             surah = int(name[:3])
             authored = read_json(os.path.join(assemble.AUTHORED, name))
-            if (authored.get("split_policy") or assemble.POLICY_LEGACY) != assemble.POLICY_TABARI:
+            verses_to_check = tabari_verses(authored)
+            if not verses_to_check:
                 continue
             tafsir, verses, _ = digest.load_surah(surah)
-            for ayah, verse in authored["verses"].items():
+            for ayah, verse in verses_to_check:
                 if len(verse["phrases"]) < 2:
                     continue
                 measured = digest.measure(digest.verse_passage(tafsir, ayah), verses[ayah]["ar"])

@@ -529,6 +529,44 @@ def print_digest(surah: int, ayah: str | None = None, show_text: bool = True,
                                  p["text"][:400].replace("\n", " ")))
 
 
+def print_splits(surah: int, ayah: str) -> None:
+    """Every candidate piece of one verse, measured, for deciding boundaries.
+
+    Boundaries are not where the reader's translation happens to pause. A piece
+    earns its own phrase by carrying enough of Ṭabarī's discussion to stand
+    alone, so this prints what each single word holds and what each adjacent
+    pair holds, marked with the verdict the gate would give. A word that fails
+    on its own is nearly always the first half of a pair that passes, which is
+    the merge to make.
+    """
+    tafsir, verses, _ = load_surah(surah)
+    block = verse_passage(tafsir, ayah)
+    words = verses[ayah]["ar"].split()
+    measured = measure(block, verses[ayah]["ar"])
+
+    print("=" * 78)
+    print("%d:%s   Ṭabarī: %d words in %d paragraphs, %d words in the verse"
+          % (surah, ayah, len(block.split()), len(measured), len(words)))
+    print("  AR  %s" % verses[ayah]["ar"])
+    print("  EN  %s" % verses[ayah]["en"])
+    print("  a piece stands alone from %.2f substantive points\n" % MIN_SPLIT_POINTS)
+
+    for width, heading in ((1, "single words"), (2, "adjacent pairs")):
+        if len(words) < width:
+            continue
+        print("  --- %s ---" % heading)
+        for start in range(len(words) - width + 1):
+            span = (start, start + width - 1)
+            info = budget(measured, span)
+            verdict = split_problem(info, "piece")
+            print("  %2d-%-2d %-30s src %6dw  pts %5.2f  subst %5.2f  target %4d [%3d-%4d]  %s"
+                  % (span[0], span[1],
+                     " ".join(words[span[0]:span[1] + 1])[:30],
+                     info["material_words"], info["points"], info["substantive_points"],
+                     info["target_words"], info["min_words"], info["max_words"],
+                     "merge with a neighbour" if verdict else "stands alone"))
+
+
 def print_stats(surahs: list[int]) -> None:
     totals = {"verses": 0, "phrases": 0, "target": 0, "material": 0}
     per_class: dict[str, int] = {}
@@ -590,6 +628,9 @@ def main() -> int:
     parser.add_argument("--full", action="store_true",
                         help="print the whole source of each substantive paragraph, "
                              "for authoring from it")
+    parser.add_argument("--splits", action="store_true",
+                        help="measure every candidate piece of one verse, to decide "
+                             "where its phrases belong")
     args = parser.parse_args()
 
     if args.stats:
@@ -597,6 +638,11 @@ def main() -> int:
         return 0
     if not args.surah:
         parser.error("give a surah, or --stats SURAH-SPEC")
+    if args.splits:
+        if not args.verse:
+            parser.error("--splits needs one verse: digest.py SURAH VERSE --splits")
+        print_splits(args.surah, args.verse)
+        return 0
     print_digest(args.surah, args.verse, show_text=not args.quiet, full_text=args.full)
     return 0
 
