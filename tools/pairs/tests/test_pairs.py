@@ -157,7 +157,10 @@ class PhraseExplanationTest(unittest.TestCase):
                 spans = digest.phrase_spans([p["ar"] for p in verse["phrases"]], verses[ayah]["ar"])
                 self.assertEqual(len(spans), len(verse["phrases"]))
                 self.assertEqual(spans[0][0], 0)
-                self.assertEqual(spans[-1][1], len(verses[ayah]["ar"].split()) - 1)
+                # phrase_spans indexes the verse's comparable words, so a
+                # letterless token such as the juz marker (۞) that opens some
+                # verses is not one of them.
+                self.assertEqual(spans[-1][1], len(digest.arabic_words(verses[ayah]["ar"])) - 1)
                 for (low, high), next_span in zip(spans, spans[1:]):
                     self.assertEqual(high + 1, next_span[0], "%d:%s" % (surah, ayah))
 
