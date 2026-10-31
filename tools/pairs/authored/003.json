@@ -1143,74 +1143,62 @@
    ]
   },
   "85": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Whoever seeks a way other than Islam, it will never be accepted from them,",
-     "explanation": "Seeking a religion other than Islam means choosing a path other than willing submission to Allah through the guidance He sends. Such a path is not accepted because it replaces God’s authority with another object of devotion. The warning concerns rejection of His way, not merely using a different communal name."
-    },
-    {
-     "translation": "and in the Hereafter they will be among the losers",
-     "explanation": "The final outcome for that choice is loss in the Hereafter. A person may gain status or belonging in this world while losing the lasting good found with Allah. This contrast gives the question of true submission ultimate importance. Eternal loss outweighs every apparent temporary gain."
+     "translation": "Whoever seeks a way other than Islam, it will never be accepted from them, and in the Hereafter they will be among the losers",
+     "ar": "وَمَن يَبۡتَغِ غَيۡرَ ٱلۡإِسۡلَٰمِ دِينٗا فَلَن يُقۡبَلَ مِنۡهُ وَهُوَ فِي ٱلۡأٓخِرَةِ مِنَ ٱلۡخَٰسِرِينَ",
+     "explanation": "\"Whoever seeks a way other than Islam, it will never be accepted from them, and in the Hereafter they will be among the losers.\" By this He means: whoever seeks a religion other than Islam in order to profess it, Allah will not accept it from him. \"Among the losers\" means those who have withheld from their own souls their share in Allah's mercy. It is transmitted that the adherents of every religious community claimed to be the Muslims when this came down, whereupon Allah commanded them to perform the pilgrimage, if truthful, for pilgrimage belongs to the way of Islam, but they refused, and thus Allah refuted their claim. Others gave another explanation of the occasion."
     }
    ]
   },
   "86": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "How will Allah guide a people who chose to disbelieve after they had believed,",
-     "explanation": "The question concerns people who move from belief into disbelief after faith has been professed. Their reversal is especially grave because it follows recognition rather than simple unfamiliarity. The wording includes those who abandon Islam and those who reject the Messenger after previously expecting and affirming him."
-    },
-    {
-     "translation": "acknowledged the Messenger to be true, and received clear proofs?",
-     "explanation": "They had acknowledged the Messenger’s truthfulness and received clear proofs. Their rejection therefore runs against evidence already presented to them. The verse makes clear that their condition is not caused by Allah withholding all means of understanding. Their later denial is therefore a knowing reversal."
-    },
-    {
-     "translation": "For Allah does not guide the wrongdoing people",
-     "explanation": "Allah does not guide persistent wrongdoers who choose injustice against truth and themselves. This does not contradict the later invitation to repentance. It describes the consequence of settled rejection while leaving open the return that sincere repentance and corrected conduct can bring. Guidance is not forced upon determined wrongdoing."
+     "translation": "How will Allah guide a people who chose to disbelieve after they had believed, acknowledged the Messenger to be true, and received clear proofs? For Allah does not guide the wrongdoing people",
+     "ar": "كَيۡفَ يَهۡدِي ٱللَّهُ قَوۡمٗا كَفَرُواْ بَعۡدَ إِيمَٰنِهِمۡ وَشَهِدُوٓاْ أَنَّ ٱلرَّسُولَ حَقّٞ وَجَآءَهُمُ ٱلۡبَيِّنَٰتُۚ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلظَّٰلِمِينَ",
+     "explanation": "\"How will Allah guide a people who chose to disbelieve after they had believed, acknowledged the Messenger to be true, and received clear proofs? For Allah does not guide the wrongdoing people.\" The exegetes differed over whom this was sent down about: some said it concerned a man of the Ansar who apostatized after his Islam, others said it meant the People of the Book, and the more consistent with the apparent meaning is the People of the Book, though the narrations with the other opinion are more numerous. \"How would Allah guide\" means: how would Allah guide a people who denied the prophethood of the Prophet after affirming him, bearing witness that he was truly the Messenger, and receiving the clear proofs. \"Allah does not guide the wrongdoing people\" means: He does not grant guidance to those who exchanged the truth for falsehood and preferred disbelief over belief."
     }
    ]
   },
   "87": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
      "translation": "Their reward is that they will be condemned by Allah, the angels, and all of humanity",
-     "explanation": "The recompense for persistent apostasy and rejection is condemnation by Allah, the angels, and humanity. Divine curse signifies removal and exclusion from mercy. The verse describes God’s judgment on the specified conduct, not permission for individuals to pronounce anyone’s final fate themselves. Such judgment belongs to Allah alone."
+     "ar": "أُوْلَٰٓئِكَ جَزَآؤُهُمۡ أَنَّ عَلَيۡهِمۡ لَعۡنَةَ ٱللَّهِ وَٱلۡمَلَٰٓئِكَةِ وَٱلنَّاسِ أَجۡمَعِينَ",
+     "explanation": "\"Their reward is that they will be condemned by Allah, the angels, and all of humanity.\" These are those who became unbelievers after their belief and after bearing witness that the Messenger is truthful. \"Their reward\" is the recompense for the work they performed. \"Upon them rests the curse of Allah\" means removal and banishment from Allah befall them, and the calling down of punishment upon them by the angels and by all mankind, all together, not merely a part of them. Allah made this the reward for their work because their work was disbelief toward Allah, so the curse and the harm of punishment reach all of them."
     }
    ]
   },
   "88": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "They will be in Hell forever.",
-     "explanation": "Those who remain upon that condemned rejection face lasting punishment in Hell. The warning describes the end of unrepented disbelief rather than denying the possibility of return before death. Its severity is meant to make the choice of abandoning known truth unmistakably serious. The verse therefore calls for immediate reflection and return."
-    },
-    {
-     "translation": "Their punishment will not be lightened, nor will they be delayed ˹from it˺",
-     "explanation": "Their punishment is neither reduced nor postponed as a favour while they remain in that state. No excuse can defer the final recompense. This absolute statement should be read with the following exception for those who genuinely repent and reform. The following verse states the crucial exception."
+     "translation": "They will be in Hell forever. Their punishment will not be lightened, nor will they be delayed ˹from it˺",
+     "ar": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنۡهُمُ ٱلۡعَذَابُ وَلَا هُمۡ يُنظَرُونَ",
+     "explanation": "\"They will be in Hell forever. Their punishment will not be lightened, nor will they be delayed from it.\" \"Abiding eternally therein\" means remaining in the punishment of Allah. \"The punishment will not be lightened for them\" is a notification from Allah of the everlasting perpetuity of the punishment forever, without a fixed term and without any lightening at all. \"Nor will they be granted reprieve\" means no regard will be given to them for any excuse they might put forward, nor will they be delayed from it even for a moment. All of this is the very essence of the eternal abiding in the punishment in the Hereafter."
     }
    ]
   },
   "89": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "As for those who repent afterwards and mend their ways,",
-     "explanation": "An exception is made for people who repent after their rejection and mend their ways. Repentance involves returning to faith in Allah and His Messenger, while reform demonstrates sincerity through righteous action. The door back is therefore real and requires changed conduct. Words of regret must become a changed life."
-    },
-    {
-     "translation": "then surely Allah is All-Forgiving, Most Merciful",
-     "explanation": "Allah forgives and shows mercy to those who make that sincere return. He can cover even the grave sin of apostasy when a person repents before meeting Him. This promise prevents despair and balances the preceding warning with a genuine offer of restoration. Mercy remains greater than their former failure."
+     "translation": "As for those who repent afterwards and mend their ways, then surely Allah is All-Forgiving, Most Merciful",
+     "ar": "إِلَّا ٱلَّذِينَ تَابُواْ مِنۢ بَعۡدِ ذَٰلِكَ وَأَصۡلَحُواْ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٌ",
+     "explanation": "\"As for those who repent afterwards and mend their ways, then surely Allah is All-Forgiving, Most Merciful.\" Allah made an exception for those who repented among those who became disbelievers after their faith. \"Except those who repented thereafter and did right\" means those who repented after their apostasy from their faith, returned to faith in Allah and in His Messenger, and acknowledged as true what their Prophet brought them from their Lord, and performed good deeds. \"Then indeed Allah is forgiving, merciful\" means: toward whoever does that after his disbelief, Allah covers his sin, namely the apostasy, withholds the punishment for it and its exposure on the Day of Resurrection, without calling him to account for it when he dies in repentance from it, and shows him mercy with compassion."
     }
    ]
   },
   "90": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Indeed, those who disbelieve after having believed then increase in disbelief, their repentance will never be accepted.",
-     "explanation": "For those who increase in disbelief, repentance of lesser sins is not accepted while they maintain the central rejection itself. They must first repent of denying the Messenger and sincerely return to faith. This does not abolish the sincere repentance just promised in the previous verse."
-    },
-    {
-     "translation": "It is they who are astray",
-     "explanation": "They are astray because persistence in rejection takes them farther from the guidance they once recognized. The description concerns a direction of travel away from truth. Their remedy is to reverse course through genuine faith and repentance rather than adding isolated religious acts. Returning remains possible while sincere repentance is chosen."
+     "translation": "Indeed, those who disbelieve after having believed then increase in disbelief, their repentance will never be accepted. It is they who are astray",
+     "ar": "إِنَّ ٱلَّذِينَ كَفَرُواْ بَعۡدَ إِيمَٰنِهِمۡ ثُمَّ ٱزۡدَادُواْ كُفۡرٗا لَّن تُقۡبَلَ تَوۡبَتُهُمۡ وَأُوْلَٰٓئِكَ هُمُ ٱلضَّآلُّونَ",
+     "explanation": "\"Indeed, those who disbelieve after having believed then increase in disbelief, their repentance will never be accepted. It is they who are astray.\" The exegetes differed: some said it means those who disbelieved in some prophets sent before the Prophet and then increased in disbelief in him, so their repentance will not be accepted at death. Others said it means the People of the Book who disbelieved in the Prophet after believing in their prophets and then increased in sins, so their repentance is not accepted while they persist. The most correct is that it refers to the Jews who disbelieved in the Prophet after believing in him before his sending. \"And it is they who are astray\" means they abandoned the path of truth out of blindness."
     }
    ]
   },
