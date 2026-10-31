@@ -478,26 +478,17 @@
    ]
   },
   "37": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "So her Lord accepted her graciously and blessed her with a pleasant upbringing",
-     "explanation": "Allah accepts Mary with gracious approval and grants her a beautiful upbringing. The answer to her mother’s dedication exceeds the expectations surrounding her birth. Growth here includes being nurtured under divine care, showing that sincere offerings can be accepted in ways people had not planned."
+     "translation": "So her Lord accepted her graciously and blessed her with a pleasant upbringing—entrusting",
+     "ar": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٖ وَأَنۢبَتَهَا نَبَاتًا",
+     "explanation": "By \"So her Lord accepted her with a goodly acceptance,\" He means that Allah accepted Mary from her mother Hanna, together with her vow dedicating her to the service of the temple and of her Lord. Grammatically, \"acceptance\" is a verbal noun that is not rendered in the form of its verb, which would be \"with a goodly accepting.\" The Arabs often do this, rendering verbal nouns in the root-form of the verb even when the verb is augmented, as in their saying \"so-and-so spoke a word\" instead of \"spoke a speaking.\" The same applies to \"and He made her grow with a goodly growth,\" where He did not say \"with a goodly growing.\""
     },
     {
-     "translation": "—entrusting her to the care of Zachariah.",
-     "explanation": "Zachariah is entrusted with Mary’s care, giving her protection and responsible guardianship within the sanctuary. Divine acceptance does not leave her without human support. Allah provides for her through both a faithful caretaker and the unusual provision that the narrative goes on to describe. Her upbringing therefore joins devotion with loving protection."
-    },
-    {
-     "translation": "Whenever Zachariah visited her in the sanctuary, he found her supplied with provisions. He exclaimed, “O Mary! Where did this come from?”",
-     "explanation": "Whenever Zachariah visits, he finds provisions with Mary and asks where they came from. His question shows that this supply was not ordinary assistance he had arranged. The provision included fruits outside their usual season, making the scene a sign of Allah’s generous care. Zachariah recognizes something beyond ordinary routine."
-    },
-    {
-     "translation": "She replied, “It is from Allah.",
-     "explanation": "Mary answers that the provision is from Allah. She directs attention away from herself and toward the true Giver. Her response displays faith and understanding, recognizing that what reaches her without an ordinary human cause still has a source in divine generosity. Her brief answer expresses confident and grateful faith."
-    },
-    {
-     "translation": "Surely Allah provides for whoever He wills without limit.”",
-     "explanation": "Allah provides for whomever He wills without being limited by normal expectations or fear of exhaustion. Mary’s answer becomes a general confession of divine abundance. It also prepares Zachariah to hope that God can answer his own apparently impossible longing for a child. This truth soon strengthens Zachariah’s own prayer."
+     "translation": "her to the care of Zachariah. Whenever Zachariah visited her in the sanctuary, he found her supplied with provisions. He exclaimed, “O Mary! Where did this come from?” She replied, “It is from Allah. Surely Allah provides for whoever He wills without limit.”",
+     "ar": "حَسَنٗا وَكَفَّلَهَا زَكَرِيَّاۖ كُلَّمَا دَخَلَ عَلَيۡهَا زَكَرِيَّا ٱلۡمِحۡرَابَ وَجَدَ عِندَهَا رِزۡقٗاۖ قَالَ يَٰمَرۡيَمُ أَنَّىٰ لَكِ هَٰذَاۖ قَالَتۡ هُوَ مِنۡ عِندِ ٱللَّهِۖ إِنَّ ٱللَّهَ يَرۡزُقُ مَن يَشَآءُ بِغَيۡرِ حِسَابٍ",
+     "explanation": "The reciters differed over \"and He made Zachariah her guardian.\" Most of the reciters of the Hijaz, Medina, and Basra read it with a light consonant, \"and he made her his own,\" citing the verse \"which of them would be guardian of Mary.\" Most of the reciters of Kufa read it with a doubled consonant, \"and Allah made Zachariah her guardian.\" The preferred view is the doubled reading: Allah made Zachariah her guardian, that is, He joined her to him. He joined her to himself only because Allah had joined her to him, by His decree in his favor when they disputed over her. It is reported that Zachariah and his opponents, when they contended over which of them she should reside with, cast lots by throwing their reed shafts into the river Jordan. Some said his shaft remained fixed and stood upright while the water carried the others away, others that his shaft rose up while the rest drifted with the current. Whichever it was, it was a sign from Allah that he was most deserving of her, a decree of Allah assigning her to him over his opponents. The argument of those who read the light form from the verse about guardianship of Mary actually points to the weakness of their reasoning.\n\nThe reciters also differed over the name \"Zachariah,\" some of Medina lengthening it and most of Kufa shortening it. Both are well-known, widespread readings among the Muslims, with no contradiction between them, so either recitation is correct. When it is lengthened, it stands in the accusative without case-ending, being a foreign name that is not inflected, and this goes with the doubled reading of \"guardian.\"\n\nOthers disagreed about how he became her guardian, saying he became so after Hanna gave birth to Mary, without any casting of lots or dispute, because her mother died after her father while she was still a child, and the wife of Zachariah was her maternal aunt. It has also been said that the name of the mother of John, the aunt of Jesus, was Elizabeth.\n\nBy \"every time Zachariah entered the prayer-niche to her, he found with her provision,\" He means that every time he entered the niche after leading her into it, he found provision from Allah there for her nourishment. Others said he found an abundance of provision beyond what he brought her, with which he maintained her in those days. The \"prayer-niche\" is the foremost part of every place of prayer, the most elevated and noblest of them, and so it is also with mosques. He said, \"O Mary, whence have you this?\" meaning: from which direction does this provision come to you that I see with you? Mary answered, \"It is from Allah,\" meaning that it is Allah who granted her that provision, conveyed it to her, and gave it to her. Allah provides for whoever He wills without limit."
     }
    ]
   },
@@ -522,114 +513,127 @@
    ]
   },
   "39": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "So the angels called out to him while he stood praying in the sanctuary,",
-     "explanation": "The angels address Zachariah while he is standing in prayer within the sanctuary. The timing connects the good news with a moment of worship and humble request. His devotion does not earn God’s gift as a transaction, but it forms the setting in which the promise is announced."
+     "translation": "So the angels called out to him while he stood praying in the sanctuary, “Allah gives you good news of ˹the birth",
+     "ar": "فَنَادَتۡهُ ٱلۡمَلَٰٓئِكَةُ وَهُوَ قَآئِمٞ يُصَلِّي فِي ٱلۡمِحۡرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ",
+     "explanation": "The angels called out to him while he stood praying in the sanctuary. \"While he was standing\" reports the time of the call: they called to Zachariah in the state of standing in prayer, and \"praying\" describes his standing. The reciters differed over \"the angels called\": most read it in the feminine, meaning the collective body of the angels, while some of Kufa read it in the masculine, meaning Gabriel called to him. Both are well-known readings with no difference in meaning, so either is correct. Most also read \"that Allah gives you good news\" with a fatha on \"that,\" because the call falls upon it, while some read a kasra citing an early reading, a ground that is invalid because the vocative stands between."
     },
     {
-     "translation": "“Allah gives you good news of ˹the birth of˺ John who will confirm the Word of Allah",
-     "explanation": "Allah announces John and describes him as confirming the Word from Him, which is understood here as referring to Jesus. John’s mission will affirm God’s truth rather than compete with another prophet. The promise therefore places his coming within a united divine purpose. His role supports the same divine message."
+     "translation": "of˺ John who will confirm the Word of",
+     "ar": "بِيَحۡيَىٰ مُصَدِّقَۢا بِكَلِمَةٖ مِّنَ ٱللَّهِ",
+     "explanation": "\"Of John\": the name comes from the saying \"he lived, so he is John,\" and it is said that Allah named him with it because his name is interpreted as \"He made him live through faith.\" \"Who will confirm the Word of Allah\": by \"confirming a word from Allah\" He means Jesus the son of Mary, so John will confirm the truth of Jesus. Grammatically, \"confirming\" is in the accusative as a circumstantial qualifier describing John, since it is a state of John. Some scholars of Arabic from Basra claimed another sense for \"word,\" but the interpretation is that Allah gives you, O Zachariah, glad tidings of John as a son for you, one who confirms a word from Allah, that is, Jesus the son of Mary, and the interpreters spoke in accordance with this. The exegetes differed over the report of who said what on this point, but the meaning stands as described."
     },
     {
-     "translation": "and will be a great leader, chaste, and a prophet among the righteous.”",
-     "explanation": "John will be noble in knowledge and worship, chaste in his conduct, and a prophet among the righteous. These qualities describe the character of the promised son before his birth. The gift is not only a child, but a servant distinguished by devotion and moral discipline."
+     "translation": "Allah and will be a great leader, chaste, and a prophet among the righteous.”",
+     "ar": "وَسَيِّدٗا وَحَصُورٗا وَنَبِيّٗا مِّنَ ٱلصَّٰلِحِينَ",
+     "explanation": "\"And will be a great leader\": \"leader\" means a noble one in knowledge and worship, from the verb meaning \"he led,\" and it is in the accusative by conjunction to \"confirming.\" \"Chaste\" means abstaining from intercourse with women, from the verb meaning \"I prevented,\" and it is also recited in another form. One who does not reveal his secret and conceals it is also called \"chaste,\" because he holds it back, and the origin of all these meanings is preventing and holding in. \"And a prophet among the righteous\" means a messenger from his Lord to his people, who informs them of Him and of what He has sent, and \"from the righteous\" means from His righteous prophets. Prophethood and its origin have already been explained earlier in this commentary, with the proofs for it, so He describes John as confirming the Word, a leader, chaste, and a prophet of the righteous."
     }
    ]
   },
   "40": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Zachariah exclaimed, “My Lord! How can I have a son when I am very old and my wife is barren?”",
-     "explanation": "Zachariah asks how he can have a son when old age and his wife’s barrenness make it ordinarily impossible. His question expresses amazement at the promise rather than settled rejection. He measures the news by familiar human limits, preparing for an answer about God’s greater power."
-    },
-    {
-     "translation": "He replied, “So will it be.",
-     "explanation": "The answer assures him that matters will occur as Allah has determined. Divine creation is not restricted by the circumstances that make the birth seem impossible to him. The One who created Zachariah and his wife can grant them a child through means beyond expectation."
-    },
-    {
-     "translation": "Allah does what He wills.”",
-     "explanation": "Allah accomplishes whatever He wills, and no created limitation can defeat His purpose. This principle applies to the promised birth without making every human wish a guaranteed miracle. Zachariah receives a specific divine promise, and the verse explains why that promise is completely reliable. His will is never constrained by human expectation."
+     "translation": "Zachariah exclaimed, “My Lord! How can I have a son when I am very old and my wife is barren?” He replied, “So will it be. Allah does what He wills.”",
+     "ar": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَٰمٞ وَقَدۡ بَلَغَنِيَ ٱلۡكِبَرُ وَٱمۡرَأَتِي عَاقِرٞۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفۡعَلُ مَا يَشَآءُ",
+     "explanation": "When the angels called to him that Allah gives him glad tidings of John, Zachariah said: \"My Lord! How can I have a son when I am very old and my wife is barren?\" By this he means: whoever has reached the age I have reached no longer has children, and my wife is barren. \"Old age\" is the verbal noun of \"he grows old.\" By \"So will it be. Allah does what He wills,\" He means: He is as He has described Himself, for it is easy for Him to create a child from the aged one who has despaired of a child and from the barren one, just as He created you, O Zachariah, before creating the child from you, when you were nothing. For nothing He wills is impossible for Him."
     }
    ]
   },
   "41": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Zachariah said, “My Lord! Grant me a sign.”",
-     "explanation": "Zachariah asks for a mark that will confirm the astonishing announcement and settle his heart. The request shows how extraordinary the promise seemed to him. Allah answers with a sign connected to Zachariah himself, making the confirmation personal, visible, and impossible to dismiss as an ordinary occurrence."
+     "translation": "Zachariah said, “My Lord! Grant me",
+     "ar": "قَالَ رَبِّ ٱجۡعَل لِّيٓ",
+     "explanation": "This is a report about Zachariah. He said: \"My Lord, grant me a sign,\" meaning: if this call with which I was called, and the voice I heard, is the voice of Your angels and a glad tiding from You to me, then grant me a sign, that is, a mark, that it is indeed so, so that what the devil whispered into my heart may fall away from me, namely that this was the voice of something other than the angels. The \"sign\" is the mark, whose meaning was explained earlier. The reciters differed over the word \"sign\": some said its glottal stop was dropped because the doubling was burdensome, while others said its first letter was changed to a plain letter, as with \"need\" and \"stature.\""
     },
     {
-     "translation": "He said, “Your sign is that you will not ˹be able to˺ speak to people for three days except through gestures.",
-     "explanation": "For three days, Zachariah will be unable to address people except through gestures. This restriction serves as the promised mark rather than an ordinary loss of speech through illness. His silence gives the good news a concrete confirmation while allowing necessary communication in another form."
+     "translation": "a sign.” He said, “Your sign is that you will not ˹be able to˺ speak to people for three",
+     "ar": "ءَايَةٗۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ",
+     "explanation": "\"A sign. He said, your sign is that you will not speak to people for three days...\" According to what has been transmitted, Allah punished him for asking for a sign after the angels had already conveyed the glad tidings to him orally. He made his sign a confirmation that what he had heard from the angels about John was from Allah, a mark that combined what he had asked for with a purification of his slip in asking. The exegetes differed over \"except by gestures\": some said it means moving the lips without forming speech with the tongue, while others said it means beckoning with the hand or head without speaking."
     },
     {
-     "translation": "Remember your Lord often and glorify ˹Him˺ morning and evening.”",
-     "explanation": "The inability to converse does not prevent remembrance and glorification of Allah. Zachariah is instructed to increase devotion morning and evening, turning the period of silence toward worship. Ordinary conversation pauses, but his relationship with God continues through frequent praise and attentive remembrance. Silence becomes an opportunity for concentrated devotion."
+     "translation": "days except through gestures. Remember your Lord often and glorify ˹Him˺ morning and evening.”",
+     "ar": "أَيَّامٍ إِلَّا رَمۡزٗاۗ وَٱذۡكُر رَّبَّكَ كَثِيرٗا وَسَبِّحۡ بِٱلۡعَشِيِّ وَٱلۡإِبۡكَٰرِ",
+     "explanation": "Days pass with the sign of not speaking to people except through gestures. \"And remember your Lord often and glorify Him morning and evening.\" Allah said to Zachariah: your sign is that you will not speak to people for three days except by gestures, without muteness, defect, or illness. And remember your Lord much, for nothing will prevent you from remembering Him or from glorifying Him. By \"in the evening\" He means: glorify your Lord by His worship in the evening. \"Early morning\" is the going out for a need in the period between the rising of the dawn and the time of the forenoon. So he was to remember Allah much and to glorify Him in the evening and in the early morning, day and night, and to call upon Him in every state."
     }
    ]
   },
   "42": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "And ˹remember˺ when the angels said, “O Mary! Surely Allah has selected you, purified you,",
-     "explanation": "The angels announce that Allah has selected and purified Mary through His grace. Her distinction comes from divine choice and the devotion He has nurtured in her. The announcement prepares her for a remarkable responsibility without suggesting that she possesses independent divinity. Her story therefore remains one of grateful servanthood."
+     "translation": "And ˹remember˺ when the angels said, “O Mary! Surely",
+     "ar": "وَإِذۡ قَالَتِ ٱلۡمَلَٰٓئِكَةُ يَٰمَرۡيَمُ إِنَّ",
+     "explanation": "\"And remember when the angels said, O Mary! Indeed...\" This connects back to the previous verses, where Allah is All-Hearing and All-Knowing of the vow of the wife of Imran. Now the angels address Mary directly and begin their address with the word \"Indeed,\" to confirm what follows about her. They say to her: indeed Allah has chosen you, purified you, and chosen you over all the women of the world. This address is itself part of the honour Allah bestowed upon her, and the rest of the verse explains that honour in more detail. The angels thus deliver to Mary the glad tidings of her selection, and this is connected to the remembrance of what came before about her mother's vow."
     },
     {
-     "translation": "and chosen you over all women of the world",
-     "explanation": "Mary is chosen above the women of her world for the unique honour entrusted to her. Such selection is Allah’s gift, not a rank she grants herself. The verse calls readers to respect her devotion and special role while keeping worship directed to Allah alone."
+     "translation": "Allah has selected you, purified you, and chosen you over all women of the world",
+     "ar": "ٱللَّهَ ٱصۡطَفَىٰكِ وَطَهَّرَكِ وَٱصۡطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلۡعَٰلَمِينَ",
+     "explanation": "\"Allah has selected you, purified you, and chosen you over all women of the world.\" \"Has chosen you\" means: He has selected you and singled you out for His obedience and for the honour with which He has distinguished you. \"And purified you\" means: He has purified your religion of doubt and of the blemishes found in the religions of the women of the children of Adam. \"And chosen you over all women of the world\" means He preferred you above the women of the worlds. The exegetes differed over this comparison, and one reported wording is rejected as not established through a connected chain, the correct view being that it is a statement of one of the early scholars."
     }
    ]
   },
   "43": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "O Mary! Be devout to your Lord",
-     "explanation": "Mary is commanded to devote her obedience sincerely to her Lord. Her election is therefore joined with responsibility, not passive privilege. The special announcement she receives calls for deeper worship and faithfulness. Devotion remains directed toward Allah rather than toward Mary or any other created person."
+     "translation": "O Mary!",
+     "ar": "يَٰمَرۡيَمُ",
+     "explanation": "\"O Mary!\" This is the address of the angels to Mary, calling her by her name as they deliver to her the glad tidings and the commands that follow. The vocative marks the beginning of their speech to her and singles her out for the honour Allah has bestowed upon her. It is an address of honour and nearness, for Allah chose her, purified her, and chose her above the women of the worlds, and now the angels convey to her what her Lord has decreed for her. She is called by name alone, without any title, and the speech of the angels to her opens with this direct address before the glad tidings are announced."
     },
     {
-     "translation": "prostrate yourself ˹in prayer˺ and bow along with those who bow down.”",
-     "explanation": "Prostration and bowing express humility and submission before Allah. Mary is told to join those who worship in this way, placing her within a community of devotion. Outward prayer embodies the inward obedience just commanded, uniting reverent posture with sincere service to God. Such worship expresses her continuing dedication."
+     "translation": "Be devout to your Lord, prostrate yourself ˹in prayer˺ and bow along with those who bow down.”",
+     "ar": "ٱقۡنُتِي لِرَبِّكِ وَٱسۡجُدِي وَٱرۡكَعِي مَعَ ٱلرَّٰكِعِينَ",
+     "explanation": "\"Be devout to your Lord, prostrate yourself, and bow along with those who bow down.\" The exegetes differed over the meaning of \"be devout\": some said it means prolonging the standing in prayer, others that it means devoting yourself purely to your Lord, and others that it means obeying your Lord. \"Prostration\" and \"bowing\" mean humility before Allah and submission to Him through obedience and servitude. The verse as a whole means: O Mary, devote the worship of your Lord purely to His countenance, and be humble in His obedience and worship together with those of His creatures who are humble before Him, in gratitude to Him for the honour He has bestowed upon you: the election, the purification from impurities, and the elevation above the women of the world of your age."
     }
    ]
   },
   "44": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "This is news of the unseen that We reveal to you ˹O Prophet˺.",
-     "explanation": "The accounts of Mary, her family, Zachariah, and John are revealed to Muhammad as news of realities he did not witness. Their source is divine knowledge rather than his personal memory or research. This statement directly attributes the historical report to revelation. Revelation thus supplies knowledge beyond human observation."
+     "translation": "This is news of the unseen that We reveal to you ˹O Prophet˺. You were not with them",
+     "ar": "ذَٰلِكَ مِنۡ أَنۢبَآءِ ٱلۡغَيۡبِ نُوحِيهِ إِلَيۡكَۚ وَمَا كُنتَ لَدَيۡهِمۡ",
+     "explanation": "\"That is from the news of the unseen which We reveal to you. You were not with them.\" By \"that\" He means all the tidings He has informed His servants about in these verses: the wife of Imran and her daughter Mary, Zachariah and his son John, and the rest. He summed them up with the word \"that\" and said they belong to the unseen, meaning the tidings hidden from that people, which you, O Prophet, did not know, nor did your people, and which no one knew except a small number of the scholars of the People of the Book and their monks. \"The unseen\" is a verbal noun from the verb meaning to be absent. \"We reveal to you\" means We convey to you, and conveying may be by gesture, by writing, or by whisper. And \"you were not with them\" means you were not in their proximity, so you know of their tidings, which you did not witness, only because We made them known to you."
     },
     {
-     "translation": "You were not with them when they cast lots to decide who would be Mary’s guardian,",
-     "explanation": "Muhammad was not present when those responsible for Mary cast lots to determine her guardian. He therefore could not have learned the detail by standing among them. The reminder reinforces that the account reaches him from Allah, who knows both past events and what was hidden from others."
+     "translation": "when they cast lots to decide who would be Mary’s guardian,",
+     "ar": "إِذۡ يُلۡقُونَ أَقۡلَٰمَهُمۡ أَيُّهُمۡ يَكۡفُلُ مَرۡيَمَ",
+     "explanation": "\"When they cast lots to decide who would be Mary's guardian.\" \"When they cast\" means at the moment when they cast their pens. They cast their pens by lot over Mary only to see which of them was the most fit and had the most right to her guardianship, so the wording points to what is omitted, namely seeing and establishing who would assume her care. Grammatically, \"which of them\" is not in the accusative, because a question and the seeking of information suspends the governing effect over \"which.\" And \"assume the care\" means he takes her to himself, and the whole phrase describes their casting of lots to settle the question of her guardianship."
     },
     {
      "translation": "nor were you there when they argued ˹about it˺",
-     "explanation": "He was likewise absent when they disputed over who should care for Mary. The repetition strengthens the evidence that his knowledge is revealed. Details about their rivalry are not presented as eyewitness recollection, but as part of the unseen history Allah chooses to make known."
+     "ar": "وَمَا كُنتَ لَدَيۡهِمۡ إِذۡ يَخۡتَصِمُونَ",
+     "explanation": "\"Nor were you there when they argued about it.\" By this He means: and you, O Prophet, were not with the people of Mary when they disputed over her, to determine which of them had the most right to her and was the most fit for her. You were not present at their dispute, and you were told of it only by revelation, for it is among the tidings of the unseen that Allah reveals to you, and you know it only because He made it known to you. The verse thus reminds you that this story of Mary and the casting of lots is from the unseen, which We reveal to you."
     }
    ]
   },
   "45": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "˹Remember˺ when the angels proclaimed, “O Mary! Allah gives you good news of a Word from Him, his name will be the Messiah, Jesus, son of Mary;",
-     "explanation": "Mary receives news of a son called a Word from Allah, the Messiah Jesus, son of Mary. The title points to his creation through God’s command and does not erase his human birth from Mary. Naming both his titles and his mother identifies him clearly within the narrative."
+     "translation": "˹Remember˺ when the angels proclaimed, “O Mary! Allah gives you good news of a Word from Him, his name will be the Messiah, Jesus, son",
+     "ar": "إِذۡ قَالَتِ ٱلۡمَلَٰٓئِكَةُ يَٰمَرۡيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٖ مِّنۡهُ ٱسۡمُهُ ٱلۡمَسِيحُ عِيسَى ٱبۡنُ",
+     "explanation": "\"Remember when the angels proclaimed, O Mary! Allah gives you good news of a Word from Him, his name will be the Messiah, Jesus, son of Mary.\" You, O Prophet, were not present with them when they disputed, nor when the angels said this to Mary. \"A Word from Him\" means a message and a report from Allah, as one says, \"so-and-so brought me a word that gladdened me.\" Allah called him \"His Word\" because he came into being through His word, just as \"Allah's command is carried out\" means the thing that came about through His command. The preferred view is that the angels brought Mary the glad tidings of Jesus from Allah, with His message that He would create from her a son without a husband. That is why \"his name\" is said in the masculine while \"the Word\" is feminine: by \"the Word\" no proper name is meant here, but the glad tidings itself, so its pronoun is masculine, as with words like \"offspring\" and \"riding beast\" and titles. Some grammarians said the pronoun refers back to \"the Word,\" reasoning the same way about titles and names. \"The Messiah\" is a form meaning \"the one wiped,\" that is, Allah touched him and purified him of sins. One said \"the Messiah\" means the truthful one, and others said he was touched with the blessing."
     },
     {
-     "translation": "honoured in this world and the Hereafter, and he will be one of those nearest ˹to Allah˺",
-     "explanation": "Jesus is honoured in this world and the Hereafter and counted among those brought near to Allah. His rank is a gift from God, expressed through prophecy, miracles, and righteous service. Nearness to Allah does not make him Allah, but marks exceptional honour among His servants."
+     "translation": "of Mary; honoured in this world and the Hereafter, and he will be one of those nearest ˹to Allah˺",
+     "ar": "مَرۡيَمَ وَجِيهٗا فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِ وَمِنَ ٱلۡمُقَرَّبِينَ",
+     "explanation": "Son of Mary, he will be honoured in this world and the Hereafter, and he will be one of those nearest to Allah. \"Honoured\" means one who possesses standing and a high rank with Allah, and possesses honour and nobility, as one says of a man honored by kings and people that he is honoured. The word \"standing\" is an inverted form of \"face.\" Grammatically, \"honoured\" is in the accusative as a circumstantial qualifier describing Jesus. \"Among those nearest to Allah\" means he will be one of those brought near to Him, of high rank in His presence in this world and the next, and close to Him in honour."
     }
    ]
   },
   "46": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "And he will speak to people in ˹his˺ infancy and adulthood",
-     "explanation": "Jesus will speak during infancy and again in mature adulthood. His speech in the cradle is an extraordinary sign, while his later speech belongs to his mission among people. Both stages fall under Allah’s announcement, demonstrating that God can enable speech whenever He wills. His whole life bears witness to divine purpose."
-    },
-    {
-     "translation": "and will be one of the righteous.”",
-     "explanation": "Jesus is also declared to be among the righteous. His miracles and honour therefore accompany moral and spiritual integrity rather than mere spectacle. The description defines his life through faithful service to Allah and prepares readers to understand his works as signs of a righteous messenger."
+     "translation": "And he will speak to people in ˹his˺ infancy and adulthood and will be one of the righteous.”",
+     "ar": "وَيُكَلِّمُ ٱلنَّاسَ فِي ٱلۡمَهۡدِ وَكَهۡلٗا وَمِنَ ٱلصَّٰلِحِينَ",
+     "explanation": "\"And he will speak to people in his infancy and adulthood, and will be one of the righteous.\" Allah announces to you the glad tidings of a Word from Him, whose name is the Messiah Jesus the son of Mary, of high standing with Allah, and speaking to the people in the cradle. By \"the cradle\" He means the resting place of the child during its nursing. The exegetes differed over \"and adulthood\": others said its meaning is that he will speak to them when he appears as a grown man. Grammatically, \"as a grown man\" stands in the accusative, following the position of \"and he will speak to the people.\" And \"he is one of the righteous\" means he is of their ranks and their close ones, because the people of righteousness belong to one another in religion and excellence, and he will speak to people both as an infant and as a grown man."
     }
    ]
   },
