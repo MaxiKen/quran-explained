@@ -1333,82 +1333,72 @@
    ]
   },
   "103": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
      "translation": "And hold firmly to the rope of Allah and do not be divided.",
-     "explanation": "The rope of Allah represents His religion and covenant, including obedience to Him and His Messenger. Everyone must hold to it together and avoid division away from truth. Unity here is founded on shared guidance, not on loyalty to a leader or group in opposition to God."
+     "ar": "وَٱعۡتَصِمُواْ بِحَبۡلِ ٱللَّهِ جَمِيعٗا وَلَا تَفَرَّقُواْۚ",
+     "explanation": "\"And hold firmly to the rope of Allah and do not be divided.\" He means: cling, all of you together as one single group, to the means that lead to Allah, and hold fast to the religion of Allah which He commanded you and to His covenant which He made with you in His Book, namely concord and uniting upon the word of truth and full submission to His command. The rope is the means by which one attains what is needed, as safety is called a rope because it delivers one from fear and dread. The exegetes differed over \"the rope\": some said it is the Quran and the covenant made in it, others the pure profession of Allah's oneness. \"And do not be divided\" means: do not become divided away from the religion of Allah and His covenant, namely concord and uniting upon obedience to Him and His Messenger and adherence to His command."
     },
     {
-     "translation": "Remember Allah’s favour upon you when you were enemies, then He united your hearts, so you—by His grace—became brothers.",
-     "explanation": "Allah transformed former enemies into brothers by uniting their hearts through Islam. A leading example is the reconciliation of the Aws and Khazraj, whose old hostilities gave way to faith-based fellowship. This reconciliation was divine favour, showing that shared submission can heal hostility that human effort alone had not resolved."
-    },
-    {
-     "translation": "And you were at the brink of a fiery pit and He saved you from it.",
-     "explanation": "Before that guidance, they had stood near a pit of Fire through disbelief and destructive division. Allah saved them by bringing them to faith and unity. The image measures rescue spiritually, reminding them that brotherhood was also deliverance from a path leading toward ruin. Gratitude should preserve the unity that rescued them."
+     "translation": "Remember Allah’s favour upon you when you were enemies, then He united your hearts, so you—by His grace—became brothers. And you were at the brink of a fiery pit and He saved you from it.",
+     "ar": "وَٱذۡكُرُواْ نِعۡمَتَ ٱللَّهِ عَلَيۡكُمۡ إِذۡ كُنتُمۡ أَعۡدَآءٗ فَأَلَّفَ بَيۡنَ قُلُوبِكُمۡ فَأَصۡبَحۡتُم بِنِعۡمَتِهِۦٓ إِخۡوَٰنٗا وَكُنتُمۡ عَلَىٰ شَفَا حُفۡرَةٖ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنۡهَاۗ",
+     "explanation": "\"Remember Allah's favour upon you when you were enemies, then He united your hearts, so you, by His grace, became brothers. And you were at the brink of a fiery pit and He saved you from it.\" \"Remember the favour of Allah upon you\" means remember the favor with which Allah favored you, namely concord and uniting upon Islam, for \"when you were enemies and He brought your hearts together\" is connected with it. So remember, O believers, Allah's favor when you were enemies in your ascribing of partners to Allah, some of you killing others out of tribal pride, and Allah through Islam brought your hearts together, making you brothers through the concord of Islam. The favor Allah commanded the helpers to remember is the concord of Islam and the agreement of their word upon it. The enmity was that of the wars between the two tribes, the Aws and the Khazraj, in the days of ignorance, until Allah extinguished it through His Prophet. \"So that by His grace you became brothers\" means through Allah's bringing-together through Islam you became sincere brothers with no rancor or envy. \"And you were at the brink of a pit of the Fire\" means you were on the brink of Hell through your disbelief before Allah favored you with Islam, and nothing stood between you and falling into it but dying upon that disbelief. Then Allah saved you from it through the faith to which He guided you."
     },
     {
      "translation": "This is how Allah makes His revelations clear to you, so that you may be ˹rightly˺ guided",
-     "explanation": "Allah explains His revelations with the same clarity shown in this account of danger, favour, and reconciliation. Clear instruction enables people to recognize the right path and follow it. The goal of explanation is guidance in life, not simply knowledge of what happened in the past."
+     "ar": "كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَهۡتَدُونَ",
+     "explanation": "\"This is how Allah makes His revelations clear to you, so that you may be rightly guided.\" By \"thus\" He means: just as your Lord made clear to you, O believers, in these verses the rancor of the Jews which they conceal toward you, their deceit, His command and prohibition, your condition in your days of ignorance and what you have come to in your Islam, and the places of His favor and benefactions, likewise He makes clear to you the rest of His proofs in His revelation and upon the tongue of His Messenger.  \"So that you may be rightly guided\" means: so that you may be guided to the path of rectitude and walk upon it and not stray from it."
     }
    ]
   },
   "104": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Let there be a group among you who call ˹others˺ to goodness, encourage what is good, and forbid what is evil",
-     "explanation": "A group within the community must call people toward goodness, encourage what Allah recognizes as right, and restrain wrong. This is a communal responsibility requiring knowledge, integrity, and appropriate means. The work serves guidance and reform rather than giving self-appointed individuals permission to harm others."
-    },
-    {
-     "translation": "—it is they who will be successful",
-     "explanation": "Success belongs to those who undertake this responsibility faithfully. Their achievement is measured by Allah’s approval and the good that comes through sincere guidance, not by dominance or public applause. Calling others to good also requires the callers to remain committed to it themselves. Their success is tied to sincere service."
+     "translation": "Let there be a group among you who call ˹others˺ to goodness, encourage what is good, and forbid what is evil—it is they who will be successful",
+     "ar": "وَلۡتَكُن مِّنكُمۡ أُمَّةٞ يَدۡعُونَ إِلَى ٱلۡخَيۡرِ وَيَأۡمُرُونَ بِٱلۡمَعۡرُوفِ وَيَنۡهَوۡنَ عَنِ ٱلۡمُنكَرِۚ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
+     "explanation": "\"Let there be a group among you who call others to goodness, encourage what is good, and forbid what is evil. It is they who will be successful.\"  He means: let there be among you, O believers, a community, that is a group, that calls the people to good, that is to Islam and its ordinances which Allah instituted for His servants, and enjoins what is right, that is, enjoins the people to follow the Prophet and his religion which he brought from Allah, and forbids what is wrong, that is, forbids disbelief in Allah and denial of the Prophet and of what he brought, by fighting them until they submit.  \"And it is they who will be successful\" means those who attain success with Allah, who abide in His gardens and His bliss."
     }
    ]
   },
   "105": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "And do not be like those who split ˹into sects˺ and differed after clear proofs had come to them.",
-     "explanation": "Believers must not repeat the pattern of communities that divided over religion after clear proofs reached them. Their disagreement was blameworthy because it opposed known truth and broke divine commitments. The warning concerns partisan rejection of evidence, not every honest scholarly difference about a difficult question."
-    },
-    {
-     "translation": "It is they who will suffer a tremendous punishment",
-     "explanation": "A tremendous punishment awaits those who knowingly follow that path of division and opposition. The warning gives the preceding command its seriousness. Unity around revelation protects a community from making the same responsible choice to prefer factional interests over clear divine guidance. The consequence belongs to deliberate rejection."
+     "translation": "And do not be like those who split ˹into sects˺ and differed after clear proofs had come to them. It is they who will suffer a tremendous punishment",
+     "ar": "وَلَا تَكُونُواْ كَٱلَّذِينَ تَفَرَّقُواْ وَٱخۡتَلَفُواْ مِنۢ بَعۡدِ مَا جَآءَهُمُ ٱلۡبَيِّنَٰتُۚ وَأُوْلَٰٓئِكَ لَهُمۡ عَذَابٌ عَظِيمٞ",
+     "explanation": "\"And do not be like those who split into sects and differed after clear proofs had come to them. It is they who will suffer a tremendous punishment.\"  He means: do not be, O community of believers, like those among the People of the Book who became divided and differed concerning the religion of Allah, His command and prohibition, after the clear proofs came to them. They knew the truth but deliberately opposed it, went against Allah's command, and broke His covenant out of audacity toward Him. And for these who divided and differed after the proofs came them there is a tremendous punishment from Allah. So do not become divided in your religion as these became divided, and do not make their conduct a custom, lest that tremendous punishment befall you."
     }
    ]
   },
   "106": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "On that Day some faces will be bright while others gloomy.",
-     "explanation": "On Judgment Day, faces will show contrasting states of brightness and gloom according to people’s spiritual outcomes. The imagery concerns faith, disgrace, mercy, and punishment, not human ethnicity or physical skin colour. Visible appearance will then reveal the reality of choices formerly made inwardly. These appearances disclose inward spiritual realities."
-    },
-    {
-     "translation": "To the gloomy-faced it will be said, “Did you disbelieve after having believed?",
-     "explanation": "Those with gloomy faces are questioned about disbelieving after belief. The rebuke identifies a reversal from acknowledged faith into rejection. Their expression reflects the shame of that condition, and the question makes them confront the contradiction between what they had recognized and what they later chose."
-    },
-    {
-     "translation": "So taste the punishment for your disbelief.”",
-     "explanation": "They are told to taste the punishment earned through their disbelief. The consequence is directly connected with their own rejection rather than arbitrary assignment. This warning follows the call to communal unity, showing that abandoning faith has personal consequences beyond the divisions it creates. Justice answers the choice with its fitting outcome."
+     "translation": "On that Day some faces will be bright while others gloomy. To the gloomy-faced it will be said, “Did you disbelieve after having believed? So taste the punishment for your disbelief.”",
+     "ar": "يَوۡمَ تَبۡيَضُّ وُجُوهٞ وَتَسۡوَدُّ وُجُوهٞۚ فَأَمَّا ٱلَّذِينَ ٱسۡوَدَّتۡ وُجُوهُهُمۡ أَكَفَرۡتُم بَعۡدَ إِيمَٰنِكُمۡ فَذُوقُواْ ٱلۡعَذَابَ بِمَا كُنتُمۡ تَكۡفُرُونَ",
+     "explanation": "\"On that Day some faces will be bright while others gloomy. To the gloomy-faced it will be said, 'Did you disbelieve after having believed? So taste the punishment for your disbelief.'\" By this He means: it is they who have a tremendous punishment on the Day when some faces become white and others black. As for those whose faces have become black, it shall be said to them: did you disbelieve after your belief, then taste the punishment for what you used to disbelieve. The \"as for\" requires an answer with \"then,\" but when \"then it is said\" was omitted, the \"then\" dropped with it, which was permissible because the rest of the discourse indicates it. The exegetes differed over who is meant: some said the Muslims of the community, others everyone who disbelieved in Allah after the belief he professed when Allah brought forth the progeny of Adam and made them bear witness against themselves, others the hypocrites. The explanation is: did you deny Allah's oneness, His covenant, and His pledge that you would associate nothing with Him, after your affirmation of it. \"Then taste the punishment\" means for what you denied in the worldly life."
     }
    ]
   },
   "107": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
      "translation": "As for the bright-faced, they will be in Allah’s mercy, where they will remain forever",
-     "explanation": "Those with bright faces remain within Allah’s mercy, including the lasting bliss of Paradise. They are associated with people who kept their covenant and did not exchange faith for rejection. Their brightness expresses divine approval and the security of mercy that has no end. Their covenantal faithfulness brought lasting security."
+     "ar": "وَأَمَّا ٱلَّذِينَ ٱبۡيَضَّتۡ وُجُوهُهُمۡ فَفِي رَحۡمَةِ ٱللَّهِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+     "explanation": "\"As for the bright-faced, they will be in Allah's mercy, where they will remain forever.\" Namely those who remained steadfast upon the covenant of Allah and His pact, who did not exchange their religion and did not turn back upon their heels after acknowledging the oneness of Allah and the testimony before their Lord that there is no god but Him. \"They are in the mercy of Allah\" means they abide in Allah's mercy, namely His paradise and its bliss and all that He has prepared therein for its dwellers. \"They will remain forever\" means they remain therein for all time, without end and without any limit."
     }
    ]
   },
   "108": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "These are Allah’s revelations We recite to you ˹O Prophet˺ in truth.",
-     "explanation": "Allah recites these verses to the Prophet in truth. The accounts, warnings, and promises they contain are therefore reliable rather than crafted to favour a party. Their truthfulness gives readers a firm basis for understanding the contrasting destinies just described. The Prophet receives rather than invents this message."
-    },
-    {
-     "translation": "And Allah desires no injustice to ˹His˺ creation",
-     "explanation": "Allah desires no injustice for His creation. He does not punish one group to favour another or deny anyone a rightful reward. His judgment corresponds to faith and conduct. This statement assures readers that the severe warnings operate within perfect justice, never divine wrongdoing. His recompense never violates a creature’s right."
+     "translation": "These are Allah’s revelations We recite to you ˹O Prophet˺ in truth. And Allah desires no injustice to ˹His˺ creation",
+     "ar": "تِلۡكَ ءَايَٰتُ ٱللَّهِ نَتۡلُوهَا عَلَيۡكَ بِٱلۡحَقِّۗ وَمَا ٱللَّهُ يُرِيدُ ظُلۡمٗا لِّلۡعَٰلَمِينَ",
+     "explanation": "\"These are Allah's revelations We recite to you in truth. And Allah desires no injustice to His creation.\" \"These are the signs of Allah\" means the admonitions, lessons, and proofs of Allah concerning the affairs of the believers and the People of the Book, and those who exchange their religion. Allah recites these to His Prophet in truth, with truthfulness and certainty. Whomever He punishes, by blackening the faces and eternal tremendous punishment, and whomever He rewards, by whitening the faces and eternal bliss, this occurs without injustice toward either group, but with a right they deserved. \"Allah desires no injustice for the worlds\" means He places nothing outside its proper place, promising the people of faith and threatening the people of disobedience, as a warning to the former and glad tidings to the latter."
     }
    ]
   },
