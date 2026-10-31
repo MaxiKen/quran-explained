@@ -3920,82 +3920,97 @@
   "246": {
    "phrases": [
     {
-     "translation": "Have you not seen those chiefs of the Children of Israel after Moses?",
-     "explanation": "The verse recalls leaders among the Children of Israel after Moses and introduces their request for a king. Their story illustrates the difficulty of remaining faithful when a community faces conflict. The question invites the audience to reflect on history as a source of moral lessons."
+     "translation": "Have you not seen those chiefs of the Children of Israel after Moses? They said to one of their prophets, “Appoint for us a king, ˹and˺ we will fight in the cause of Allah.”",
+     "ar": "أَلَمۡ تَرَ إِلَى ٱلۡمَلَإِ مِنۢ بَنِيٓ إِسۡرَٰٓءِيلَ مِنۢ بَعۡدِ مُوسَىٰٓ إِذۡ قَالُواْ لِنَبِيّٖ لَّهُمُ ٱبۡعَثۡ لَنَا مَلِكٗا نُّقَٰتِلۡ فِي سَبِيلِ ٱللَّهِۖ",
+     "explanation": "The opening calls on the hearer to see what happened to the notables of the Children of Israel after Moses. They asked one of their prophets for a king to fight with in the way of Allah, and the exegetes differ over which prophet they asked, one naming Samuel and another Joshua the son of Nun, and over the occasion.\n\nThe wording of their request is then examined. When the phrase is read with the nun it can only be read in the jussive form, as a command or as the condition answering one, and the Arabs do not suppress two such particles. Read with the ya instead, it may stand in the nominative as a description of the king, so the sense becomes appoint for us one who fights in the way of Allah."
     },
     {
-     "translation": "They said to one of their prophets, “Appoint for us a king, ˹and˺ we will fight in the cause of Allah.”",
-     "explanation": "The people ask their prophet to appoint a king and promise to fight in God’s cause. Their request recognizes the need for leadership, but the later events test whether their words match their resolve. The passage connects communal action with legitimate guidance.  Their initiative is tested against the difficulty of carrying it out."
+     "translation": "He said, “Are you not going to cower if ordered to fight?” They replied, “How could we refuse to fight in the cause of Allah,",
+     "ar": "قَالَ هَلۡ عَسَيۡتُمۡ إِن كُتِبَ عَلَيۡكُمُ ٱلۡقِتَالُ أَلَّا تُقَٰتِلُواْۖ قَالُواْ وَمَا لَنَآ أَلَّا نُقَٰتِلَ فِي سَبِيلِ ٱللَّهِ",
+     "explanation": "The passage is then read as a whole. The prophet's question asks whether they are going to cower when the fighting is written for them, and their answer puts the obstacle in the command itself rather than in any unwillingness to obey.\n\nA point of grammar is settled along the way. It is asked why the particle is added in what is the matter with us that we do not fight in the way of Allah, when it is left out in the similar question elsewhere. The answer given is that the particle carries the sense of what is the matter with you regarding not fighting, and it is used this way because the preventing concerns only the future of actions, so one says I prevented you from standing, but not I prevented you that you stood.\n\nA smaller point of usage is added at the same time. The word for permanence is used with the interrogative particle and with the particle of negation together, because the predicate of the negated question stands close in meaning to that of the question itself, and the speaker needs no witness for a usage so common among the Arabs."
     },
     {
-     "translation": "He said, “Are you not going to cower if ordered to fight?”",
-     "explanation": "The prophet questions whether they will truly fight if commanded, anticipating that enthusiasm may fail under pressure. His challenge asks them to examine their commitment before asking for leadership. The question prepares the audience for the contrast between their promise and their later actions.  The warning distinguishes sincere resolve from momentary enthusiasm."
-    },
-    {
-     "translation": "They replied, “How could we refuse to fight in the cause of Allah, while we were driven out of our homes and ˹separated from˺ our children?”",
-     "explanation": "The people point to their expulsion and separation from their children as reasons they expect to fight. Their suffering gives the promise emotional force, yet the narrative later shows that hardship alone does not guarantee perseverance. The passage highlights the need for steadfastness beyond words."
-    },
-    {
-     "translation": "But when they were ordered to fight, they fled, except for a few of them.",
-     "explanation": "When the command came, most abandoned their promise, while a small group remained faithful. The contrast exposes the gap between professed resolve and action under pressure. The verse does not condemn everyone equally, since it explicitly recognizes those who stood firm.  The narrative emphasizes the steadfast minority rather than only the failure."
-    },
-    {
-     "translation": "And Allah has ˹perfect˺ knowledge of the wrongdoers",
-     "explanation": "God knows who acted unjustly and who remained sincere. Human promises and outward appearances cannot hide the truth from Him. This closing reminder makes the historical account a warning about accountability, not merely a tale of political failure.  God’s knowledge encompasses both hidden motives and public conduct."
+     "translation": "while we were driven out of our homes and ˹separated from˺ our children?” But when they were ordered to fight, they fled, except for a few of them. And Allah has ˹perfect˺ knowledge of the wrongdoers",
+     "ar": "وَقَدۡ أُخۡرِجۡنَا مِن دِيَٰرِنَا وَأَبۡنَآئِنَاۖ فَلَمَّا كُتِبَ عَلَيۡهِمُ ٱلۡقِتَالُ تَوَلَّوۡاْ إِلَّا قَلِيلٗا مِّنۡهُمۡۚ وَٱللَّهُ عَلِيمُۢ بِٱلظَّٰلِمِينَ",
+     "explanation": "The clause about being driven out is then explained. It means that those of their men and women who were overcome were driven out of their dwellings and their children, and taken captive. The statement has an outward generality and an inward specificity, since those who asked for the king were still in their own houses, and only those taken captive and subdued were driven out.\n\nThe turning away is then described. When fighting against their enemy was imposed on them they turned away, except for a few, and the few are those who crossed the river with Talut. The verse closes by saying that Allah has full knowledge of the wrongdoers, meaning that He knows which of them broke what they had promised and contradicted the command of their Lord."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "247": {
    "phrases": [
     {
-     "translation": "Their prophet told them, “Allah has appointed Saul to be your king.”",
-     "explanation": "The prophet announces that God has chosen Saul as king. Leadership is presented as a divine appointment rather than something decided solely by wealth or family status. The message tests whether the people will accept guidance even when the choice challenges their expectations.  The appointment demonstrates that authority comes from God’s decision."
+     "translation": "Their prophet told them, “Allah has appointed Saul to be your king.” They protested, “How can he be our king when some of us are more deserving of kingship than he, and he has not been blessed with vast riches?”",
+     "ar": "وَقَالَ لَهُمۡ نَبِيُّهُمۡ إِنَّ ٱللَّهَ قَدۡ بَعَثَ لَكُمۡ طَالُوتَ مَلِكٗاۚ قَالُوٓاْ أَنَّىٰ يَكُونُ لَهُ ٱلۡمُلۡكُ عَلَيۡنَا وَنَحۡنُ أَحَقُّ بِٱلۡمُلۡكِ مِنۡهُ وَلَمۡ يُؤۡتَ سَعَةٗ مِّنَ ٱلۡمَالِۚ",
+     "explanation": "The Exalted means by this that their prophet Samuel said to the notables of the Children of Israel, Allah has given you what you asked for and has sent Talut to you as king. Their answer follows. How could the kingship over us belong to Talut, when he is of the tribe of Benjamin, in which there is neither kingship nor prophethood, while we are of the tribe of Judah and have more right to it.\n\nThe last part of their objection is then taken up. He has not been given vast riches means that Talut has not been given a great fortune, for he was a water-carrier, and it has also been said that he was a tanner. The word for kingship is said to mean, in this place, command over the army."
     },
     {
-     "translation": "They protested, “How can he be our king when some of us are more deserving of kingship than he, and he has not been blessed with vast riches?”",
-     "explanation": "The people object because Saul lacks the wealth and status they associate with kingship. Their response reveals a worldly measure of leadership that overlooks ability and divine choice. The verse exposes how social prestige can cloud judgment about a person’s suitability.  Wealth alone does not prove someone is fit to lead."
+     "translation": "He replied, “Allah has chosen him over you and blessed him with knowledge and stature.",
+     "ar": "قَالَ إِنَّ ٱللَّهَ ٱصۡطَفَىٰهُ عَلَيۡكُمۡ وَزَادَهُۥ بَسۡطَةٗ فِي ٱلۡعِلۡمِ وَٱلۡجِسۡمِۖ",
+     "explanation": "The answer of the prophet is then given. Allah has chosen him over you is the saying of their prophet Samuel, and its sense is that Allah has preferred him above them.\n\nThe rest of the answer is explained. The phrase about an abundance in knowledge and bodily stature means that Allah gave him ampleness in both, and in knowledge a superiority above what He gave to the others addressed, because a revelation from Allah befell him. In bodily stature he was given a height that surpassed them all, and no other received the like.\n\nAnother view is recorded on the same words. On that reading the phrase means that in addition to choosing him, Allah gave him an abundance in knowledge and bodily stature, so the extra gift is stated apart from the choice."
     },
     {
-     "translation": "He replied, “Allah has chosen him over you and blessed him with knowledge and stature. Allah grants kingship to whoever He wills. And Allah is All-Bountiful, All-Knowing.”",
-     "explanation": "The prophet explains that God chose Saul and endowed him with knowledge and strength. Leadership is grounded in qualities and divine wisdom, not merely riches. God’s generosity and knowledge mean His choice is not constrained by human assumptions about who deserves authority.  The response rejects narrow human criteria for leadership."
+     "translation": "Allah grants kingship to whoever He wills. And Allah is All-Bountiful, All-Knowing.”",
+     "ar": "وَٱللَّهُ يُؤۡتِي مُلۡكَهُۥ مَن يَشَآءُۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٞ",
+     "explanation": "The closing words are explained. The kingship belongs to Allah and lies in His hand and not in that of another, for He gives it to whom He wills, appoints it with him and withholds it from whom He wills. So they are told not to reject that Allah sends Talut over them as a king even though he does not belong to the house of kingship, for kingship is not an inheritance but lies in Allah's hand.\n\nThe last two words are then taken. All-encompassing means through His bounty, with which He does good to whom He loves and wishes to bestow upon whom He wills. All-knowing means that He knows who is worthy to receive the kingship that He gives, and He gives it because the man was worthy of it."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "248": {
    "phrases": [
     {
-     "translation": "Their prophet further told them, “The sign of Saul’s kingship is that the Ark will come to you—containing reassurance from your Lord and relics of the family of Moses and the family of Aaron,",
-     "explanation": "The Ark’s return is presented as a sign confirming Saul’s kingship and bringing reassurance from God. Its contents recall the families of Moses and Aaron, connecting the people with their sacred history. The sign supports faith in a moment when the appointment had been questioned."
+     "translation": "Their prophet further told them, “The sign of Saul’s kingship is that the Ark will come to you",
+     "ar": "وَقَالَ لَهُمۡ نَبِيُّهُمۡ إِنَّ ءَايَةَ مُلۡكِهِۦٓ أَن يَأۡتِيَكُمُ ٱلتَّابُوتُ",
+     "explanation": "The announcement is the proof that the leading men of the Children of Israel did not accept Allah's appointment of Talut. They asked for a sign that would confirm his truthfulness, and the sense of the answer is that already given, that Allah gives His kingship to whom He wills.\n\nThe sign of his kingship means the sign of Talut's kingship, the proof they asked for that Allah had appointed him king over them though he was not of royal line. The ark is the one the Children of Israel carried before them when they met an enemy, and no enemy stood firm while it was there. That was until they neglected the command of Allah and their dissension with their prophets grew, and then Allah took the ark from them time after time, until he took it for good.\n\nWhere the ark had been is set out. One view is that it stayed with them from the time of Musa and Harun until unbelieving kings took it. Another is that it lay in the wilderness, where Musa left it with his servant Yusha, and the angels carried it to Talut's house. The more correct of the two is that an enemy held it, since the definite article is used only for what they knew."
     },
     {
-     "translation": "which will be carried by the angels. Surely in this is a sign for you, if you ˹truly˺ believe.”",
-     "explanation": "The Ark is carried by angels, and its arrival is a sign for those willing to believe. The event is presented as divine reassurance rather than a human achievement. The verse invites trust in God’s guidance and asks the people to respond with faith.  The sign is meaningful for a community willing to trust revelation."
+     "translation": "—containing reassurance from your Lord",
+     "ar": "فِيهِ سَكِينَةٞ مِّن رَّبِّكُمۡ",
+     "explanation": "The phrase in which is read as meaning in the ark, and the people of interpretation differed over what the sakina is and what it means, each of them reporting it from those before them. Some said it is a gently blowing wind with a face like the face of a human being. Others said it has a head like the head of a cat and two wings. Others said no, it is the head of a dead cat.\n\nOthers said it is merely a golden basin from Paradise in which the hearts of the prophets were washed, and the sight of it gave them rest. Others said it is a spirit from Allah that speaks. Others said it is what they recognise of the signs by which they find rest and by which their hearts are quieted. Others said it is mercy and compassion. Others said it is dignity and composure of the heart.\n\nWhen the meaning is taken as these accounts set it out, any of them can stand, for all of them are conclusive signs by which the souls find rest and through which the breasts are cooled, and each of the early authorities is followed in this. And once the sense is settled, it becomes clear that the sign which was in the ark, by which the souls found rest through their knowledge of the genuineness of its affair, was named only with the word for the effect it produces, while it is something other than that effect, because of the indication of the word."
+    },
+    {
+     "translation": "and relics of the family of Moses and the family of Aaron,",
+     "ar": "وَبَقِيَّةٞ مِّمَّا تَرَكَ ءَالُ مُوسَىٰ وَءَالُ هَٰرُونَ",
+     "explanation": "The remnant is explained first. It means the remaining thing, from the word of one who says that a remnant was left of this matter, a form of the pattern that makes the sakina from sakana, to settle. The phrase about what the family of Musa and the family of Harun left behind means from their legacy.\n\nWhat that legacy was is then set out. Some said the staff of Musa and the fragments of the tablets. Others said the staff of Musa and the staff of Harun and something of the tablets. Others said the staff and the two sandals. Others said the staff alone. Others said the fragments of the tablets and what was broken of them. Others said it was the striving in the path of Allah.\n\nThe more correct statement is that the remnant may have been the staff, the shards of the tablets, the Torah or a part of it, the two sandals, the garment, and the striving in the path of Allah, or a part of that. This is a matter whose knowledge cannot be reached by deduction or by the sense of the words, and can be reached only through a report that makes its knowledge necessary. Among the people of Islam there is no report of that quality, so it is not permissible to declare one of these views right and another weak, since all are possible."
+    },
+    {
+     "translation": "which will be carried by the angels.",
+     "ar": "تَحۡمِلُهُ ٱلۡمَلَٰٓئِكَةُۚ",
+     "explanation": "The people of interpretation differed over the manner in which the angels carried the ark. Some said the angels carry it between heaven and earth until they set it down among them. Others said that the angels drive forward the beasts of burden that carry it.\n\nThe more correct of the two is that the angels carried the ark until they set it down in the house of Talut, raised up among the Children of Israel. The reason given is that Allah said carried by the angels and did not say brought by the angels, and what the cows drew forward on a cart is not the carrying of it, since carrying means that the carrier himself bears what he carries."
+    },
+    {
+     "translation": "Surely in this is a sign for you, if you ˹truly˺ believe.”",
+     "ar": "إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِينَ",
+     "explanation": "The sense of the words is that the prophet Samuel said to the Children of Israel, in your obtaining of the ark, in which is a calm from your Lord and a remnant of what the family of Musa and of Harun left behind, carried by the angels, is verily a sign for you, that is a sign and a proof of my truthfulness in what I have conveyed to you, that Allah has appointed Talut as king over you.\n\nThe condition is explained. If you have denied me in what I told you about Allah's appointment of him and suspected me in what I said, if you are believers means that you believe me upon the coming of the sign you asked me for as proof of what I told you about Talut's kingship."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "249": {
    "phrases": [
     {
      "translation": "When Saul marched forth with his army, he cautioned: “Allah will test you with a river.",
-     "explanation": "As Saul leads the army, he warns that the river will be a test. The challenge concerns discipline and obedience, not simply thirst. The episode illustrates how small acts of restraint can reveal whether people are prepared to endure a greater trial.  Their obedience will matter more than the army’s size."
+     "ar": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلۡجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبۡتَلِيكُم بِنَهَرٖ",
+     "explanation": "Something has been left out of this report, and what has already been said makes it unnecessary to state. The sense is that the ark came to them, in which was a calm from their Lord and a remnant of what the house of Musa and Harun had left behind, borne by the angels, and that they then believed their prophet, acknowledged that Allah had sent Talut as king, and submitted. He would not have set out with them except after they had taken pleasure in him and handed over the kingship, since he could not compel them.\n\nThe word for set out means that he departed with the army and marched out with them. Its original sense is cutting off, as when a man leaves a place and passes it by, and a decisive word cuts through and separates true from false.\n\nIt is said that Talut set out that day with the armies from Jerusalem, and they were eighty thousand fighters. The river is said to have been one between the Jordan and Palestine, others said it is the river of Palestine. He gave the warning because they complained to him of the scarcity of water and asked him to ask Allah for it."
     },
     {
      "translation": "So whoever drinks ˹his fill˺ from it is not with me, and whoever does not taste it—except a sip from the hollow of his hands—is definitely with me.”",
-     "explanation": "The army is given a precise limit: no drinking one’s fill, with only a small handful permitted. The rule tests self-control and loyalty under discomfort. It is a specific command in the story, showing how a community’s readiness can be revealed through obedience.  The limited sip shows that the trial is precise and manageable."
+     "ar": "فَمَن شَرِبَ مِنۡهُ فَلَيۡسَ مِنِّي وَمَن لَّمۡ يَطۡعَمۡهُ فَإِنَّهُۥ مِنِّيٓ إِلَّا مَنِ ٱغۡتَرَفَ غُرۡفَةَۢ بِيَدِهِۦۚ",
+     "explanation": "Whoever drinks from it is not with me means that whoever drinks of its water does not belong to the people of Talut's authority and obedience, nor to those who believe in Allah and the meeting with Him. Whoever does not taste it is of me means whoever does not taste the water of that river, for he belongs to them.\n\nThe pronoun in both phrases goes back to the river, while the sense is of its water, and the word for water is left out on the hearer's understanding. The one who scoops a single handful with his hand is made an exception. The reciters differed over that handful, some reading it as a single act of scooping and others as the water in the palm of the one who scoops, the second preferred."
     },
     {
-     "translation": "They all drank ˹their fill˺ except for a few!",
-     "explanation": "Most of the army failed the test, while a small number obeyed. The contrast demonstrates that numbers do not necessarily indicate strength or faithfulness. The verse recognizes the minority who kept the command and sets the stage for the next challenge.  A small faithful group can be more reliable than a large one."
-    },
-    {
-     "translation": "When he and the ˹remaining˺ faithful with him crossed the river, they said, “Now we are no match for Goliath and his warriors.”",
-     "explanation": "After crossing, some of the remaining people feel overwhelmed by Goliath’s larger force. Their fear shows that even those who passed one test can struggle with another. The narrative presents faith as requiring continued trust through successive moments of difficulty.  Their anxiety reflects the intimidating odds they face."
+     "translation": "They all drank ˹their fill˺ except for a few! When he and the ˹remaining˺ faithful with him crossed the river, they said, “Now we are no match for Goliath and his warriors.”",
+     "ar": "فَشَرِبُواْ مِنۡهُ إِلَّا قَلِيلٗا مِّنۡهُمۡۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ ءَامَنُواْ مَعَهُۥ قَالُواْ لَا طَاقَةَ لَنَا ٱلۡيَوۡمَ بِجَالُوتَ وَجُنُودِهِۦۚ",
+     "explanation": "The phrase about crossing is explained. When he crossed it means when Talut crossed the river, the pronoun in the verb going back to the river and the word he being Talut himself, and those who believed with him means that those who believed crossed it with him.\n\nHow many crossed with him that day was a matter of difference. One account says it was the number of the people of Badr, three hundred and some ten-odd men, and that none crossed except a believer. Another says four thousand crossed with Talut, and that when they saw Jalut they too turned back and said they had no power, and that three thousand six hundred and some eighty turned back as well, leaving three hundred and some ten-odd.\n\nAnother account says that the group who claimed they had no power were the people of unbelief and hypocrisy, who had turned away from Talut and from those who stood firm with him. A further account says that both groups were people of faith and that among them none drank of the water except a handful, all of them being people of obedience, but some firmer in certainty than others."
     },
     {
      "translation": "But those ˹believers˺ who were certain they would meet Allah reasoned, “How many times has a small force vanquished a mighty army by the Will of Allah! And Allah is ˹always˺ with the steadfast.”",
-     "explanation": "Those certain of meeting God remind the others that victory does not depend only on numbers. Past examples and trust in God’s will strengthen their resolve. The verse emphasizes steadfastness as the quality that receives divine support, while acknowledging that outcomes rest with God.  Steadfastness means continuing to trust despite apparent weakness."
+     "ar": "قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُواْ ٱللَّهِ كَم مِّن فِئَةٖ قَلِيلَةٍ غَلَبَتۡ فِئَةٗ كَثِيرَةَۢ بِإِذۡنِ ٱللَّهِۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+     "explanation": "Those who were convinced they would meet Allah means those who know with certainty they will meet Allah, and the passage shows that these are the ones who said how many a small company has overcome a large company, not those who said they had no power.\n\nHow much is meant by how many, and by the permission of Allah is meant the decree of Allah. The word for group means a band of people, the same as a company of men.\n\nAnd Allah is with the patient means that Allah is the helper of those who hold themselves back for His good pleasure and obedience, and gives them victory over His enemies. It is said in the same way of anyone who helps another that he is with him, meaning that he aids him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "250": {
    "phrases": [
