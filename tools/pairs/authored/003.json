@@ -993,22 +993,27 @@
    ]
   },
   "75": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
      "translation": "There are some among the People of the Book who, if entrusted with a stack of gold, will readily return it.",
-     "explanation": "Some people among the People of the Book faithfully return even an enormous trust. This explicit example of integrity prevents a sweeping accusation against the whole community. Religious identity does not determine honesty. Individuals are assessed by how they handle the rights and property entrusted to them."
+     "ar": "وَمِنۡ أَهۡلِ ٱلۡكِتَٰبِ مَنۡ إِن تَأۡمَنۡهُ بِقِنطَارٖ يُؤَدِّهِۦٓ إِلَيۡكَ وَمِنۡهُم مَّنۡ إِن تَأۡمَنۡهُ",
+     "explanation": "\"There are some among the People of the Book who, if entrusted with a stack of gold, will readily return it.\" Allah announces that among the People of the Book, who are the Jews of the Children of Israel, there are people of trustworthiness who return what is entrusted to them and do not betray it, and among them the betrayer of what is entrusted to him, the deceiver in his oath, who appropriates it as though it were lawful. If you, O Prophet, entrust such a one with a great quantity of wealth, he returns it to you and does not betray you in it. So among them are both the honest and the treacherous."
     },
     {
      "translation": "Yet there are others who, if entrusted with a single coin, will not repay it unless you constantly demand it.",
-     "explanation": "Others withhold even a small coin until the owner persistently demands repayment. The contrast with the trustworthy person highlights betrayal rather than the amount involved. Persistent pressure may recover the debt, but the delay still exposes disregard for another person’s right. The creditor should not need such pressure."
+     "ar": "بِدِينَارٖ لَّا يُؤَدِّهِۦٓ إِلَيۡكَ إِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمٗاۗ",
+     "explanation": "\"Yet there are others who, if entrusted with a single coin, will not repay it unless you constantly demand it.\" If you entrust him with a single coin, he betrays you in it and does not return it unless you press upon him with demanding and exacting. Grammatically, the prepositions \"with\" and \"over\" interchange here, as one says \"I passed by him\" and \"I passed over him.\" The exegetes differed over \"unless you constantly demand it\": some said it means unless you keep pressing upon him to demand it, others that it means unless you keep standing constantly over his head. The more sound view is the first: standing over him with exacting and demanding, because standing over the debtor's head does not necessarily make him desist, but demanding and litigating can recover the right."
     },
     {
      "translation": "This is because they say, “We are not accountable for ˹exploiting˺ the Gentiles.”",
-     "explanation": "The wrongdoers justify exploitation by claiming they owe no accountability toward outsiders. They turn communal difference into an excuse for financial dishonesty. The verse rejects the idea that another group’s identity can make a valid trust or debt disappear. This claim manufactures a religious exemption from justice."
+     "ar": "ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَيۡسَ عَلَيۡنَا فِي ٱلۡأُمِّيِّـۧنَ سَبِيلٞ",
+     "explanation": "\"This is because they say, 'We are not accountable for exploiting the Gentiles.'\" By this He means: whoever among the Jews regards betrayal as lawful and denies the rights the Arab has against him, so that he does not return what the Arab entrusted to him except while the latter demands and exacts it, does this because he says: there is no debt and no sin upon us in what we appropriate of the possessions of the Arabs, because they do not stand upon the truth and because they are polytheists. The exegetes differed over this explanation: some said what we have said, and others said something else."
     },
     {
      "translation": "And ˹so˺ they attribute lies to Allah knowingly",
-     "explanation": "They knowingly attribute this invented permission to Allah. Their falsehood is therefore both social and religious, harming people while misrepresenting God. The warning applies to any attempt to sanctify dishonesty through claims that divine law permits what revelation has not authorized. The deliberate appeal to God compounds the wrong."
+     "ar": "وَيَقُولُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُمۡ يَعۡلَمُونَ",
+     "explanation": "\"And so they attribute lies to Allah knowingly.\" By this He means: those among them who say \"there is no blame upon us with respect to the possessions of the unlettered ones among the Arabs if we deceive them in it,\" through their claim that Allah has made that lawful for them, tell a lie against Allah deliberately, committing sin by uttering the lie against Allah, namely that He made that lawful for them. And that is what \"while they know\" means: they say it knowing that it is a lie, and knowing that the claim that Allah made it lawful is false. They know the truth, yet they ascribe to Allah what He did not permit."
     }
    ]
   },
