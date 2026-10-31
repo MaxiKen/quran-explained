@@ -728,26 +728,22 @@
    ]
   },
   "53": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "˹They prayed to Allah,˺ “Our Lord! We believe in Your revelations and follow the messenger,",
-     "explanation": "The disciples tell Allah that they believe in what He revealed and that they follow His messenger, Jesus. Faith accepts revelation while discipleship turns it into practice. Their prayer joins trust in God’s message with loyalty to the prophet entrusted to deliver it. Their response therefore includes both conviction and allegiance."
-    },
-    {
-     "translation": "so count us among those who bear witness.”",
-     "explanation": "They ask to be recorded among those who bear witness to truth. This means sharing the honour of people who affirm Allah’s oneness, believe His messengers, and follow His commands. They seek a lasting testimony of faith rather than temporary praise from their contemporaries. It is a request for divine recognition."
+     "translation": "˹They prayed to Allah,˺ “Our Lord! We believe in Your revelations and follow the messenger, so count us among those who bear witness.”",
+     "ar": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلۡتَ وَٱتَّبَعۡنَا ٱلرَّسُولَ فَٱكۡتُبۡنَا مَعَ ٱلشَّٰهِدِينَ",
+     "explanation": "The disciples prayed to Allah: \"Our Lord! We believe in what You have sent down and we follow the Messenger, so count us among those who bear witness.\" They affirm belief in the revelations Allah sent down, they follow the Messenger Jesus, and they ask Allah to inscribe them among the witnesses, that is, among those who testify to the truth of what he brought them. This is the prayer of those who stood with Jesus and submitted to Allah with him, asking to be recorded among His believing servants who bear witness to His message and His prophet. Their prayer is a testimony of faith and obedience, offered after they stood with him against those who disbelieved."
     }
    ]
   },
   "54": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "And the disbelievers made a plan ˹against Jesus˺, but Allah also planned",
-     "explanation": "Opponents plotted against Jesus after rejecting his message, but Allah brought His own wise purpose to fulfilment. Human schemes do not escape divine knowledge or control. The wording describes a counter-plan that frustrates harm, not deceit for an unjust purpose. The following verses explain how that purpose unfolds."
-    },
-    {
-     "translation": "—and Allah is the best of planners",
-     "explanation": "Allah is best in planning because His knowledge, wisdom, and power are complete. He can protect His messenger and defeat hostile designs without being limited by what opponents intend. The statement reassures believers that malicious planning never has the final word over God’s purpose. His plan always achieves its righteous end."
+     "translation": "And the disbelievers made a plan ˹against Jesus˺, but Allah also planned—and Allah is the best of planners",
+     "ar": "وَمَكَرُواْ وَمَكَرَ ٱللَّهُۖ وَٱللَّهُ خَيۡرُ ٱلۡمَٰكِرِينَ",
+     "explanation": "\"And the disbelievers made a plan against Jesus, but Allah also planned, and Allah is the best of planners.\" By \"the disbelievers\" He means those of the Children of Israel who disbelieved, the same ones in whom Jesus perceived disbelief. It is possible that the meaning of \"Allah's planning against them\" is His gradual luring of them on, so that the Book might reach its appointed term, as was explained regarding \"Allah mocks them\" in surah al-Baqara. In any case, Allah is the best of planners: His plan encompasses theirs, and He is the One whose planning prevails. Whatever they plotted against him, Allah's planning is better, and none can turn back His decree."
     }
    ]
   },
@@ -768,66 +764,57 @@
    ]
   },
   "56": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "As for those who disbelieve,",
-     "explanation": "Those who reject the truth brought by Jesus and oppose his message face the consequence of their own denial. The warning addresses persistent unbelief and false claims, not sincere questions about difficult matters. It sets out the outcome before the contrasting promise to faithful servants."
-    },
-    {
-     "translation": "I will subject them to a severe punishment in this life and the Hereafter,",
-     "explanation": "Their punishment is severe in both this life and the Hereafter. The verse treats accountability as extending beyond visible worldly consequences. Present disgrace or hardship is not the whole story, and no prosperous appearance cancels the final judgment that awaits unrepented rejection. The warning therefore concerns both present and final recompense."
-    },
-    {
-     "translation": "and they will have no helpers",
-     "explanation": "No helper can defend persistent rejecters against Allah’s judgment or remove their punishment. Allies and advocates may influence worldly affairs, but they cannot overrule God. This declaration strips away false hopes of rescue and completes the warning with absolute divine authority. Their ultimate isolation cannot be reversed by human power."
+     "translation": "As for those who disbelieve, I will subject them to a severe punishment in this life and the Hereafter, and they will have no helpers",
+     "ar": "فَأَمَّا ٱلَّذِينَ كَفَرُواْ فَأُعَذِّبُهُمۡ عَذَابٗا شَدِيدٗا فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+     "explanation": "\"As for those who disbelieve, I will subject them to a severe punishment in this life and the Hereafter, and they will have no helpers.\" By \"those who disbelieved\" He means those who denied your prophethood, O Jesus, opposed your community, rejected the truth you brought them, spoke falsehood about you, and ascribed you to something other than what you deserve, among the Jews, the Christians, and the other creeds. In this world He punishes them by killing, captivity, humiliation, and poverty, and in the Hereafter by the fire of hell, in which they will abide forever. And they will have no helpers: no one will ward off Allah's punishment from them, for He is the Almighty, the Lord of retribution."
     }
    ]
   },
   "57": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "And as for those who believe and do good, they will be rewarded in full.",
-     "explanation": "Those who believe in Allah’s messenger and perform righteous deeds receive their reward in full. Nothing sincere and obedient is reduced or forgotten. Faith and action belong together, since accepting the message involves living by the duties and guidance it brings. Their recompense reflects divine generosity and exact justice."
-    },
-    {
-     "translation": "And Allah does not like the wrongdoers.”",
-     "explanation": "Allah does not love wrongdoing, including denying people their rights or putting things outside their proper place. He will not treat faithful doers of good as though they were persistent wrongdoers. This statement assures readers that divine recompense is just and properly distinguishes conduct. His judgment therefore upholds every valid right."
+     "translation": "And as for those who believe and do good, they will be rewarded in full. And Allah does not like the wrongdoers.”",
+     "ar": "وَأَمَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمۡ أُجُورَهُمۡۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ",
+     "explanation": "\"And as for those who believe and do good, they will be rewarded in full. And Allah does not like the wrongdoers.\" By \"those who believed and performed righteous deeds\" He means those who believed in you, O Jesus: they affirmed you as truthful, acknowledged your prophethood and the truth you brought them from Him, professed submission to Allah with the religion with which He sent you, and acted according to the obligations He imposed through your tongue, the laws He prescribed, and the practices He instituted. These He will reward in full. And by \"Allah does not love the wrongdoers\" He means that Allah does not love whoever unjustly deprives another of a right due to him, or puts something in a place where it does not belong."
     }
    ]
   },
   "58": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "We recite ˹all˺ this to you ˹O Prophet˺ as one of the signs",
-     "explanation": "Allah recites these reports to Muhammad as signs containing evidence and lessons. The accounts of Jesus, Mary, their families, and their opponents address disputed claims through revealed history. They guide sincere listeners and serve as proof against arguments that contradict the truth. They also affirm the Prophet’s revealed knowledge."
-    },
-    {
-     "translation": "and ˹as˺ a wise reminder",
-     "explanation": "The reports also belong to the wise Reminder, the Qur’an. Their wisdom distinguishes truth from falsehood and directs readers toward right understanding. Recitation therefore has a purpose beyond preserving stories. It calls people to remember God’s guidance and respond with discernment. Its instruction remains relevant beyond the original dispute."
+     "translation": "We recite ˹all˺ this to you ˹O Prophet˺ as one of the signs and ˹as˺ a wise reminder",
+     "ar": "ذَٰلِكَ نَتۡلُوهُ عَلَيۡكَ مِنَ ٱلۡأٓيَٰتِ وَٱلذِّكۡرِ ٱلۡحَكِيمِ",
+     "explanation": "\"We recite all this to you, O Prophet, as one of the signs and a wise reminder.\" By \"that\" He means these reports He communicated to His Prophet concerning Jesus and his mother Mary, her mother Hanna, Zachariah and his son John, and the disciples and the Jews. \"We recite it to you\" means We recite it by the tongue of Gabriel through revelation. \"Of the signs\" means of the lessons and proofs against the delegation of the Christians of Najran and the Jews who denied the truth. \"The Reminder\" means the Qur'an, and \"wise\" means possessing the wisdom that distinguishes the true from the false. The reminder is wise because it settles the dispute."
     }
    ]
   },
   "59": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Indeed, the example of Jesus in the sight of Allah is like that of Adam.",
-     "explanation": "Jesus’ case before Allah resembles Adam’s because extraordinary parentage does not imply divinity. Adam was created without a father or mother, while Jesus was created without a father. If divine power accounts for Adam’s existence, the birth of Jesus provides no reason to call him God."
+     "translation": "Indeed, the example of Jesus in the sight of Allah",
+     "ar": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ",
+     "explanation": "\"Indeed, the example of Jesus in the sight of Allah is like that of Adam.\" By this He means: truly, the comparison of Jesus, with respect to My creation of him without a male procreator, is with Me as the comparison of Adam. Proclaim that, O Prophet, to the delegation of the Christians of Najran. The verse came down concerning them when their notables, among them the Sayyid and the Aqib, asked: every human being has a father, so how can Jesus have no father. Some of them claimed that he is God, and others that he is a son of God, so the verse sets the true likeness before them. Allah says to His Prophet: answer them with this comparison, for it is decisive against their claim about Jesus."
     },
     {
-     "translation": "He created him from dust, then said to him, “Be!” And he was",
-     "explanation": "Allah created Adam from dust and brought him into being through His command. This comparison grounds the argument in effortless divine creation. The same God who made Adam could create Jesus from Mary without a male parent, while both remained created servants. Creative command, not parentage, is the decisive point."
+     "translation": "is like that of Adam. He created him from dust, then said to him, “Be!” And he was",
+     "ar": "كَمَثَلِ ءَادَمَۖ خَلَقَهُۥ مِن تُرَابٖ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
+     "explanation": "Like that of Adam. \"He created him from dust, then said to him, 'Be!' And he was.\" Allah created Adam from dust and said to him \"Be,\" whereupon he came into being without a man and without a woman, and became flesh. So the creating of Jesus from his mother without a male procreator is no more astonishing than the creating of Adam without a man and without a woman. Likewise was the creating of Jesus: Allah commanded him to be, whereupon he was. As for the grammar: if someone asks how \"He created him from dust\" can follow \"Adam,\" which is definite and takes no relative clause, the answer is that it is not a relative clause but an elucidation of the likeness Allah set forth."
     }
    ]
   },
   "60": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "This is the truth from your Lord",
-     "explanation": "The account just revealed about Jesus is the truth from Muhammad’s Lord. Its authority comes from divine revelation rather than sectarian argument or human speculation. This declaration settles the source of the report and asks readers to receive it as reliable guidance. The verse therefore calls for confident acceptance."
-    },
-    {
-     "translation": "so do not be one of those who doubt",
-     "explanation": "The Prophet and his audience are told not to join those who doubt this revealed truth. Doubt here means hesitating before what Allah has clearly established, not asking sincere questions to understand it. Confidence is appropriate because the statement rests on God’s knowledge. Revelation gives a firmer basis than conjecture."
+     "translation": "This is the truth from your Lord, so do not be one of those who doubt",
+     "ar": "ٱلۡحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلۡمُمۡتَرِينَ",
+     "explanation": "\"This is the truth from your Lord, so do not be one of those who doubt.\" By this He means: what I have informed you concerning the account of Jesus, and that his likeness is as the likeness of Adam, whom Allah created from dust and to whom his Lord then said \"Be,\" is the truth from your Lord, the account that comes from your Lord. \"So do not be of those who doubt\" means: do not be of those who doubt that it is so, for the example of Adam proves that Allah creates without a male procreator whenever He wills. So hold fast to what comes from your Lord and do not doubt it."
     }
    ]
   },
