@@ -1,6 +1,6 @@
 {
  "surah": 3,
- "split_policy": "sense-v1",
+ "split_policy": "tabari-v2",
  "verses": {
   "1": {
    "split_policy": "tabari-v2",
